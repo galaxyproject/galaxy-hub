@@ -56,11 +56,11 @@ The Galaxy Community prioritizes marginalized people’s safety over privileged 
 
 ### Reporting
 
-If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please contact the [Galaxy CoC Committee](#the-galaxy-coc-committee). If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
-
-This code of conduct applies to Galaxy Community spaces, but if you are being harassed by a member of Galaxy Community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by Galaxy Community members seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the Galaxy Community based on their past behavior, including behavior outside Galaxy Community spaces and behavior towards people who are not in the Galaxy Community.
+If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form]() that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct committee as a group, you can contact any individual committee member via email. If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
 To protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. 
+
+This code of conduct applies to Galaxy Community spaces, but if you are being harassed by a member of Galaxy Community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by Galaxy Community members seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the Galaxy Community based on their past behavior, including behavior outside Galaxy Community spaces and behavior towards people who are not in the Galaxy Community.
 
 We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we’ve received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of Galaxy Community members or the general public. We will not name harassment victims without their affirmative consent.
 
@@ -82,7 +82,11 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 | [Mike Schatz](mailto:mschatz@cs.jhu.edu) | he/him | EN | US | 2 | Galaxy PI |
 | [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 16 | Retired, not funded by the Galaxy project |
 
-* Ombuds person: Laurent Gatto (he/him) [FR, EN]
+The Galaxy Code of Conduct Committee has appointed an Ombudsperson from the Bioconductor community to provide independent and impartial oversight and to resolve conflicts. This person can be contacted in case you believe that other avenues of reporting may be biased.
+
+| Member | Pronouns | Language | Location | Relevant information |
+| --- | --- | --- | --- | --- | --- |
+| [Laurent Gatto](mailto:laurent.gatto@gmail.com) | he/him | FR, EN | BE | Ombudsperson, member of the Bioconductor community |
 
 
 ---
@@ -99,14 +103,6 @@ All reports will be handled with discretion. In your report please include:
 
 * Any additional information that may be helpful.
 
-After filing a report, a representative will contact you personally, review the
-incident, follow up with any additional questions, and make a decision as to
-how to respond. If the person who is harassing you is part of the response
-team, they will recuse themselves from handling your incident. If the complaint
-originates from a member of the response team, it will be handled by a
-different member of the response team. We will respect confidentiality requests
-for the purpose of protecting victims of abuse.
-
 ### Attribution & Acknowledgements
 
 This CoC is based on the Geek Feminism Code of Conduct and the [Open Code of Conduct from the TODOGroup](https://todogroup.org/blog/followup-open-code-of-conduct/).
@@ -117,6 +113,6 @@ From 2015 through 2021 the Galaxy Project Code of Conduct [resided in the main G
 
 That code of conduct served us reasonably well over the years, but it is time for a refresh. Since 2015, the world has become much more aware of the need for codes of conduct, and best practices for creating and enforcing them have moved forward significantly.
 
-**As a result it is past time to update both our code of conduct and our process for maintaining it.**  The first step in that was to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
+As a result it is past time to update both our code of conduct and our process for maintaining it.  The first step in that was to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
 
 The Galaxy Outreach and Training [Working Group](/community/wg/) has worked on a first draft of a new code and new processes. The final code and processes we adopt is implemented only after it has been discussed, revised, and approved by the community.
