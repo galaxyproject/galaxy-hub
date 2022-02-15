@@ -72,14 +72,15 @@ If a participant engages in harassing behavior, the CoC Committee may take any a
 
 ### The Galaxy CoC Committee
 
-* Assunta DeSanto (she/her) [EN]
-* [Helena Rasche](mailto:helena.rasche@gmail.com) (she/her) [EN] (LGBTQ+, not funded by galaxyproject) 
-* [Mike Schatz](mailto:mschatz@cs.jhu.edu) [EN] (he/him)
-* Beatriz Serrano Solano (she/her) [ES, EN]
-* Ross Lazarus (he/him) [EN]
-* Frederik Coppens (he/him) [EN]
-* Gareth Price (he/him) [EN]
-
+| Member | Pronouns | Language | Location | Seniority in the project | Relevant information |
+| --- | --- | --- | --- | --- | --- |
+| [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2 ||
+| [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2 ||
+| [Frederik Coppens](mailto:ross.lazarus@gmail.com) | he/him | EN | BE | 7 ||
+| [Gareth Price](mailto:g.price@qcif.edu.au) | he/him | EN | AU | 5 ||
+| [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 9 | LGBTQ+, not funded by the Galaxy project |
+| [Mike Schatz](mailto:mschatz@cs.jhu.edu) | he/him | EN | US | 2 | Galaxy PI |
+| [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 16 | Retired, not funded by the Galaxy project |
 
 * Ombuds person: Laurent Gatto (he/him) [FR, EN]
 
