@@ -5,7 +5,7 @@ days:
 tease: 'Join Pia, Rahmot, and Chinonye as they present their projects to the community!'
 continent: GL
 location: 'Online, Global'
-image: "outreachy-logo.png"
+image: "/images/logos/outreachy-logo.svg"
 location_url:
 external_url:
 contact: Community
