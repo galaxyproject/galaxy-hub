@@ -2,10 +2,10 @@
 title: "Outreachy Interns Presentation"
 date: '2022-02-17'
 days: 1
-tease: ''
+tease: 'Join Pia, Rahmot, and Chinonye as they present their  projects to the community!'
 continent: GL
 location: 'Online, Global'
-image: "https://www.outreachy.org/static/css/img/logo-no-background.86e64a85437c.svg"
+image: "outreachy-logo.png"
 location_url: "/events/outreachy-presentation/"
 external_url:
 contact: Community
