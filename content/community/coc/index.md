@@ -111,14 +111,12 @@ for the purpose of protecting victims of abuse.
 
 This CoC is based on the Geek Feminism Code of Conduct and the [Open Code of Conduct from the TODOGroup](https://todogroup.org/blog/followup-open-code-of-conduct/).
 
-## Historical note: Change is Coming
+### Historical note
 
 From 2015 through 2021 the Galaxy Project Code of Conduct [resided in the main Galaxy repository on GitHub](https://github.com/galaxyproject/galaxy/blob/57d6a3857d397fedf9fbed724241584fd031033b/CODE_OF_CONDUCT.md), and updates to it were coordinated by the Committers Group for that repo.
 
-That code of conduct has served us reasonably well over the years, but it is time for a refresh.  Since 2015 the world has become much more aware of the need for codes of conduct, and best practices for creating and enforcing them have moved forward significantly.
+That code of conduct served us reasonably well over the years, but it is time for a refresh. Since 2015, the world has become much more aware of the need for codes of conduct, and best practices for creating and enforcing them have moved forward significantly.
 
-**As a result it is past time to update both our code of conduct and our process for maintaining it.**  The first step in that has been to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
+**As a result it is past time to update both our code of conduct and our process for maintaining it.**  The first step in that was to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
 
-The Galaxy Outreach and Training [Working Group](/community/wg/) is has started working on a first draft of a new code and new processes.  The final code and processes we adopt will be implemented only after it has been discussed, revised, and approved by the community.
-
-Watch this space (and Galaxy channels of course).
+The Galaxy Outreach and Training [Working Group](/community/wg/) has worked on a first draft of a new code and new processes. The final code and processes we adopt is implemented only after it has been discussed, revised, and approved by the community.
