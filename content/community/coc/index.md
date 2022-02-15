@@ -7,7 +7,7 @@ title: "Galaxy Project Code of Conduct"
 
 The Galaxy Community is dedicated to provide a harassment-free experience for everyone. We do not tolerate harassment of participants in any form.
 
-This Code of Conduct applies to all Galaxy Community spaces, including but not limited to GitHub, gitter, matrix, Slack, twitter and the Galaxy mailing lists, both online and off. 
+This Code of Conduct outlines the behaviours deemed acceptable and unacceptable to the global Galaxy community and applies to all public Galaxy spaces, including but not limited to GitHub, gitter, matrix, Slack, twitter and the Galaxy mailing lists, both online and off. 
 
 Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the [Galaxy CoC Committee](#the-galaxy-coc-committee).
 Some Galaxy Community spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
@@ -47,7 +47,7 @@ The Galaxy Community strives to:
   - Malicious publication of otherwise private communication, or private personal information (“doxing” or “outing”).
 
 
-The Galaxy Community prioritizes marginalized people’s safety overprivileged people’s comfort. The Galaxy CoC Committee reserves the right not to act on complaints regarding:
+The Galaxy Community prioritizes marginalized people’s safety over privileged people’s comfort. The [Galaxy CoC Committee](#the-galaxy-coc-committee) reserves the right not to act on complaints regarding:
 - ‘Reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’.
 - Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.”
 - Communicating in a ‘tone’ you don’t find congenial.
@@ -56,7 +56,7 @@ The Galaxy Community prioritizes marginalized people’s safety overprivileged p
 
 ### Reporting
 
-If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please contact the [CoC Committee](#the-galaxy-coc-committee). If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
+If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please contact the [Galaxy CoC Committee](#the-galaxy-coc-committee). If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
 This code of conduct applies to Galaxy Community spaces, but if you are being harassed by a member of Galaxy Community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by Galaxy Community members seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the Galaxy Community based on their past behavior, including behavior outside Galaxy Community spaces and behavior towards people who are not in the Galaxy Community.
 
@@ -68,7 +68,7 @@ We will respect confidentiality requests for the purpose of protecting victims o
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-If a participant engages in harassing behavior, the CoC Committee may take any action they deem appropriate, up to and including expulsion from all Galaxy Community spaces and identification of the participant as a harasser to other Galaxy Community members or the general public. If the harasser is directly funded through the Galaxy project, the harasser may be subject to additional oversight at their home institution.
+If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-galaxy-coc-committee) may take any action they deem appropriate, up to and including expulsion from all Galaxy Community spaces and identification of the participant as a harasser to other Galaxy Community members or the general public. If the harasser is directly funded through the Galaxy project, the harasser may be subject to additional oversight at their home institution.
 
 ### The Galaxy CoC Committee
 
