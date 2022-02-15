@@ -56,7 +56,7 @@ The Galaxy Community prioritizes marginalized people’s safety over privileged 
 
 ### Reporting
 
-If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form]() that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct committee as a group, you can contact any individual committee member via email. If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
+If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form](https://forms.gle/gEMubTrW9ifwemqe6) that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct committee as a group, you can contact any individual committee member via email. If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
 To protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. 
 
@@ -87,21 +87,6 @@ The Galaxy Code of Conduct Committee has appointed an Ombudsperson from the Bioc
 | Member | Pronouns | Language | Location | Relevant information |
 | --- | --- | --- | --- | --- | --- |
 | [Laurent Gatto](mailto:laurent.gatto@gmail.com) | he/him | FR, EN | BE | Ombudsperson, member of the Bioconductor community |
-
-
----
-
-All reports will be handled with discretion. In your report please include:
-
-* Your contact information.
-
-* Names (real, nicknames, or pseudonyms) of any individuals involved. If there
-  are additional witnesses, please include them as well. Your account of what
-  occurred, and if you believe the incident is ongoing. If there is a publicly
-  available record (e.g. a mailing list archive or a public IRC logger), please
-  include a link.
-
-* Any additional information that may be helpful.
 
 ### Attribution & Acknowledgements
 
