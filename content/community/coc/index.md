@@ -75,7 +75,7 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 | Member | Pronouns | Language | Location | Seniority in the project | Relevant information |
 | --- | --- | --- | --- | --- | --- |
 | [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2 ||
-| [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2 ||
+| [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2 | Ombudsperson in the Bioconductor Community CoC Committee |
 | [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | EN | BE | 7 ||
 | [Gareth Price](mailto:g.price@qcif.edu.au) | he/him | EN | AU | 5 ||
 | [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 9 | LGBTQ+, not funded by the Galaxy project |
