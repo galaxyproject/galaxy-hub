@@ -49,7 +49,7 @@ If you have time, and want to learn more about contributing you are encouraged t
 # During the event
 
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 1: Middle East, Europe, Africa**
