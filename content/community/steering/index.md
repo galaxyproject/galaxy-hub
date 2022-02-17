@@ -53,6 +53,7 @@ Please contact the committee member leading the project if you would like to lea
 * Propeller onboarding cookbook - Anne Fouilloux
 * Global Science - Andrew Lonie
 * Small scale server administrators - Hans-Rudolf Hotz
+* Galaxy Mentoring Network - Bérénice Batut 
 
 ## GGSC Committee Membership
 

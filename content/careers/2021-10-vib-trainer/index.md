@@ -1,7 +1,7 @@
 ---
 title: "Computational Biology Trainer for VIB and ELIXIR Belgium"
 date: "2021-10-18"
-closes: ""
+closes: "2022-02-13"
 summary: "Seeking computational biology trainer to expand the institutional training program and shape the data science curriculum of VIB and ELIXIR Belgium."
 continent: EU
 location: "ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium"
