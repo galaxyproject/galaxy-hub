@@ -11,7 +11,13 @@
                 <div class="text-center markdown" v-html="$page.jumbotron.content" />
             </section>
         </div>
-
+        <div>
+            <b-button block squared variant="info" size = "lg"> 
+                <b>Get Started Here </b> 
+            </b-button>
+        </div>
+        <br><font-awesome-icon icon="fa-regular fa-circle-user" />
+        <i class="fa-regular fa-circle-user"></i>
         <b-row id="profiles" class="justify-content-md-center">
             <HomeProfile
                 title="SCIENTISTS"
@@ -89,7 +95,18 @@
         <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
     </Layout>
 </template>
+<script>
+var here = location.href.split('/').slice(3);
 
+var parts = [{ "text": 'Home', "link": '/' }];
+
+for( var i = 0; i < here.length; i++ ) {
+    var part = here[i];
+    var text = part.toUpperCase();
+    var link = '/' + here.slice( 0, i + 1 ).join('/');
+    parts.push({ "text": text, "link": link });
+}
+</script>
 <script>
 import HomeCard from "@/components/HomeCard";
 import { rmPrefix, rmSuffix } from "~/utils.js";

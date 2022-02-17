@@ -1,14 +1,17 @@
 ---
 title: Get Started
 ---
-
+<button type="button" class="btn btn-primary "><b>Would you like to learn about Galaxy with a mentor? Check out the Galaxy Mentorship Network</b></button>
 
 ## Welcome!
 
-Below you will find tutorials, useful links and definitions as the starting point for newcomers,students, experts and anybody who wants to refresh their knowledge about Galaxy's basics and capabilities
+Below you will find tutorials, useful links and definitions as the starting point for newcomers,students, experts and anybody who wants to refresh their knowledge about Galaxy's basics and capabilities.
 
 ### Galaxy Glossary
-[List](link) of all keywords used within Galaxy and their definitions
+[List](link) of all keywords used within Galaxy and their definitions.
+
+### Set up your community 
+Do you happen to not find your community within Galaxy? Are there specific requirements you'd like to have? If you'd like to create your add yours as part of the Galaxy Communities we have a dedicated page on how to start, see [here](https://galaxyproject.org/new-leads
 
 ### Tutorials
 Below is a table curated just for you to follow on the basics of Galaxy. You can choose any tutorial in a variety of formats, it can be more text-based like **Hands-on** or **Slides**,  or you could also follow a more visual tutorial like a **Recording** or an **Interactive Tour**. Choose your best fit or try them all!
@@ -37,7 +40,7 @@ Below is a table curated just for you to follow on the basics of Galaxy. You can
 
 - [Galaxy Training Network](https://training.galaxyproject.org/)
   
-  Collection of tutorials from a variety of topics() developed and maintained by the worldwide Galaxy community
+  Collection of tutorials from a variety of topics() developed and maintained by the worldwide Galaxy community.
 
 - [Galaxy Help](https://help.galaxyproject.org/)
   
@@ -65,9 +68,11 @@ Below is a table curated just for you to follow on the basics of Galaxy. You can
 
 - [Galaxy's repositories](https://github.com/galaxyproject)
   
-  Galaxy Project Repositories including the GTN,Planemo, Galaxy and The Hub
+  Galaxy Project Repositories including the GTN,Planemo, Galaxy and The Hub.
+
+### Want to contribute?
+[Here's](https://galaxyproject.org/community/contributing/) our guide on how to start contributing and there are many ways to do so: coding,writing and creating tutorials, answering questions in Gitter or the Help Forum and many more. 
 
 ### Bug reporting etiquette
-We have the Help Forum to ask away your questions. If you still are unsure, you can always go to our open issues in GitHub to see if someone reported it, reach out to the Community via Mailing Lists or create an issue yourself! 
+We have the Help Forum to ask away your questions. If you still are unsure, you can always go to our open issues in GitHub to see if someone reported it, reach out to the Community via Mailing Lists or [create an issue](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue) yourself! 
  
-[//]: # (Tutorial for creating an open issue?)

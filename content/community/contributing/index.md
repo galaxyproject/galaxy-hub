@@ -29,3 +29,8 @@ If you want to [contribute to the Galaxy Project](../../blog/2022-01-14-users-gu
 ## Contribute by __helping others__
 - There are questions asked constantly in the [__Galaxy Help forum__](https://help.galaxyproject.org/), check them out and help onboarding others!
 
+## Contribute by __starting your own community__
+- Galaxy has many communities and that also means you can kickstart your own community if you don't find yours!
+  
+- __How?__ 
+  - Check our guide on [how to create your own community](https:/galaxyproject.org/new-leads) and also our [Get Started](https://galaxyproject.org/get-started) page to learn the basics about Galaxy. 
