@@ -1,7 +1,7 @@
 ---
 title: Get Started
 ---
-<button type="button" class="btn btn-primary "><b>Would you like to learn about Galaxy with a mentor? Check out the Galaxy Mentorship Network</b></button>
+<a href="https://galaxy-mentor-network.netlify.app/" class="btn btn-primary" role="button" aria-pressed="true">Would you like to learn about Galaxy with a mentor? Check out the Galaxy Mentorship Network</a>
 
 ## Welcome!
 
