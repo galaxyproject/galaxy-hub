@@ -18,7 +18,7 @@ Galaxy is a mature open source project, supported by a variety of separate resea
 
 At a very high level, Galaxy can be described as software designed to make it easy for scientists to practice open scientific computing.
 
-That description contains a twist. Galaxy is an open source project for science, but it is not a discipline focussed open science application. Instead, Galaxy is a sort of meta-application, a framework designed to have discipline specific applications overlaid. Any selection of discipline relevant, open source command line software packages can be installed, to make that particular server useful for analysis computing, in any desired data intensive science. 
+That description contains a twist. Galaxy is an open source project for science, but it is not a discipline focussed open science application. Instead, Galaxy is a sort of meta-application, a framework designed to have discipline specific applications overlaid. Any selection of discipline relevant, open source command line software packages can be installed, to make that particular server useful for analysis computing, in any desired data intensive science.
 
 At the core, it provides a more or less generic, discipline agnostic analysis platform, that allows scientists to manage their own data and to perform replicable complex computing. It is the platform that provides all of the open science functionality, including authentication, user interface, tool repository, data management, sharing, workflows, histories, visualisations, training, API and computational replication. Those features are all provided by the server source code.
 

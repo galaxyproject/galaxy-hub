@@ -10,7 +10,7 @@ This preconference event is virtual, asynchronous, global, and free.  The GCC202
 
 Cost: **Everyone: Free, for as long as there is space.**
 
-## Meeting, July 16-19
+## Meeting, July 17-20
 
 You can participate in the 4 day meeting either virtually or in-person.  Here's what is included in each
 
@@ -25,7 +25,7 @@ Note that remote participants will *not* have access to poster/demo sessions, co
 
 ### In-Person
 
-**This is it! Our first in-person GCC since 2019.** The four day meeting will feature accepted and invited talks, poster, demo, and sponsor sessions, training sessions, Birds-of-a-Feather (BoF) sessions, a conference dinner, and lots of time for networking.  
+**This is it! Our first in-person GCC since 2019.** The four day meeting will feature accepted and invited talks, poster, demo, and sponsor sessions, training sessions, Birds-of-a-Feather (BoF) sessions, a conference dinner, and lots of time for networking.
 
 Meeting registration includes admission to the conference dinner, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
 
@@ -35,7 +35,7 @@ Meeting registration includes admission to the conference dinner, and all traini
 | Academic / Non-Profit / Government | TBD | TBD | TBD |
 | Industry            | TBD | TBD | TBD |
 
-### CoFest, July 20-22
+### CoFest, July 21-23
 
 You can register for 1, 2, or 3 days of CoFest.  The CoFest will have a minimal daily registration cost of under $10/day to help us defray costs.
 
