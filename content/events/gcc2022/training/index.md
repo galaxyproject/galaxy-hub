@@ -18,4 +18,4 @@ Note: Given that we will likely have 5 parallel sessions each day, it is unlikel
 
 # Training Schedule
 
-Well, we don't have on yet, for either Training Day, or Training at the Conference.  We are working on both and will publish them on the [conference schedule site](https://gcc2022.sched.com/) once we have confirmed instructors and teaching assistants for each.
+Well, we don't have one yet, for either Training Day, or Training at the Conference.  We are working on both and will publish them on the [conference schedule site](https://gcc2022.sched.com/) once we have confirmed instructors and teaching assistants for each.
