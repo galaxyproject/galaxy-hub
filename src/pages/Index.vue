@@ -95,18 +95,7 @@
         <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
     </Layout>
 </template>
-<script>
-var here = location.href.split('/').slice(3);
 
-var parts = [{ "text": 'Home', "link": '/' }];
-
-for( var i = 0; i < here.length; i++ ) {
-    var part = here[i];
-    var text = part.toUpperCase();
-    var link = '/' + here.slice( 0, i + 1 ).join('/');
-    parts.push({ "text": text, "link": link });
-}
-</script>
 <script>
 import HomeCard from "@/components/HomeCard";
 import { rmPrefix, rmSuffix } from "~/utils.js";
