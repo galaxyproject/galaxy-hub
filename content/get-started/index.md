@@ -5,7 +5,7 @@ title: Get Started
 
 ## Welcome!
 
-Below you will find tutorials, useful links and definitions as the starting point for newcomers,students, experts and anybody who wants to refresh their knowledge about Galaxy's basics and capabilities.
+Below you will find tutorials, useful links and definitions as the starting point for newcomers, students, experts and anybody who wants to refresh their knowledge about Galaxy's basics and capabilities.
 
 ### Galaxy Glossary
 [List](link) of all keywords used within Galaxy and their definitions.
