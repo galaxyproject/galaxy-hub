@@ -78,7 +78,7 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 | [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2 | Ombudsperson in the Bioconductor Community CoC Committee |
 | [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | EN | BE | 7 ||
 | [Gareth Price](mailto:g.price@qcif.edu.au) | he/him | EN | AU | 5 ||
-| [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 9 | LGBTQ+, not funded by the Galaxy project |
+| [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 9 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project |
 | [Mike Schatz](mailto:mschatz@cs.jhu.edu) | he/him | EN | US | 2 | Galaxy PI |
 | [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 16 | Retired, not funded by the Galaxy project |
 
