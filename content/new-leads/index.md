@@ -29,4 +29,4 @@ This curated table was made with the help of Community member's experience in ho
 |---|---|
 |Be patient! Take the time to learn the basics about Galaxy. | Hurry and dive in straight  to create without knowing a lot about Galaxy and it's workarounds. |
 |When you happen to need a tool make the tool > write the training > set up an event.  Repeat events and take advantage of Galaxy’s infrastructure (Smorgasbord,CoFests,GCC,etc) to improve your tool and receive feedback from the Community.|Set to create very specific tools and avoid feedback, try not to overwhelm yourself!|
-|Use already established servers. Askinf for a subdomain within the usegalaxy.eu server is a great option!|Set up a server all by yourself (consider resources, complexity,security issues and more) |||Think about maximizing the use of your tool.|Create specific tools for very specific jobs |
+|Use already stablished servers. Ask for a subdomain within the usegalaxy.eu server is a great option!|Set up a server all by yourself (consider resources, complexity,security issues and more) |||Think about maximizing the use of your tool.|Create specific tools for very specific jobs |
