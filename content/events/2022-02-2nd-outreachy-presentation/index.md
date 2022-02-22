@@ -6,7 +6,7 @@ tease: ''
 continent: GL
 location: 'Online, Global'
 image: "https://www.outreachy.org/static/css/img/logo-no-background.86e64a85437c.svg"
-location_url: "/events/outreachy-presentation/"
+location_url:
 external_url:
 contact: Community
 ---
@@ -19,6 +19,6 @@ Pia is thrilled to share her work on the Galaxy Community Onboarding Kit with th
 
 **Call details soon!**
 
-Join us via Zoom at 12:00 US Eastern time ([See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20220217T12&p1=3705&ah=1))
+[Join us via Zoom](https://psu.zoom.us/j/93434216845?pwd=Qy9Bc0w1cDFBeEVkYWdMV0hFUEpmZz09) at 12:00 US Eastern time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20220217T12&p1=3705&ah=1)).
 
 
