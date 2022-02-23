@@ -86,7 +86,7 @@ What if you can't find yourself in these lists of regional and/or scientific com
 [Here's](https://galaxyproject.org/community/contributing/) our guide on how to start contributing and there are many ways to do so: coding,writing and creating tutorials, answering questions in Gitter or the Help Forum and many more.
 
 ## **Working Groups**
-Interested on a particular area within Galaxy? Connect with a [**Working Group**](community/wg/). Find the repository, Gitter channel and GDrive for each one.
+Interested on a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/). Find the repository, Gitter channel and GDrive for each one.
 
  ## **Galaxy Mentorship Network**,
 
