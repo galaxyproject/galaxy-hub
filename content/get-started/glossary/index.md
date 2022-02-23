@@ -1,9 +1,9 @@
 ---
-title: Galaxy Glossary
+title: Galaxy Glossary 
 ---
 <div class='right'><img src="/images/undraw-illustrations/book-lover.svg" alt="" width="240" /></div>
 
-Below are Galaxy's Glossary for keywords used throughout our ecosystem for easier understanding.
+Below you will find Galaxy's Glossary for keywords used throughout our ecosystem for easier understanding.
 
  **[Administrator or Admin](https://galaxyproject.org/admin/)** Person in charge of managing a Galaxy server.
 
