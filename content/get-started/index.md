@@ -62,10 +62,10 @@ Check our [**issues dedicated page**](/issues/) for known issues, problems and t
 If you couldn't find a solution, reach out to the [**Galaxy Help Forum**](https://help.galaxyproject.org/) as *the* place to ask your questions related to Galaxy use or  [**create an issue**](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue) yourself. Either way, we are more than happy to help you out!
 
 ### Mailing lists
-If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](mailing-lists#new-to-mailing-lists)
+If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](/mailing-lists#new-to-mailing-lists/)
 
 ### Galaxy Publication Library
-Check what others members have done in our [**Publication library**]((https://www.zotero.org/groups/1732893/galaxy)) which contains publications that use, reference, implement, and extend Galaxy.
+Check what others members have done in our [**Publication library**](https://www.zotero.org/groups/1732893/galaxy) which contains publications that use, reference, implement, and extend Galaxy.
 
 ## Step 3:  Your place within the Galaxy Community
 
