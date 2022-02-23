@@ -14,7 +14,7 @@ components: true
 <div class="card-deck lead">
 
   <!-- About GCC2022 -->
-  <div class="card" style="min-width: 40%; max-width: 40rem;">
+  <div class="card" style="min-width: 30%; max-width: 40rem;">
     <img src="/images/events/gcc2022/gcc2022-logo-big.png" class="card-img-top" alt="GCC2022" />
 
 The **2022 Galaxy Community Conference (GCC2022)** will bring together hundreds of researchers, trainers, tool developers, software engineers, and  computational infrastructure providers, all addressing common challenges in data intensive science using the [Galaxy data integration and analysis platform](/).
@@ -25,7 +25,7 @@ This annual gathering of the Galaxy community includes **training, talks, poster
   <!-- University of Minnesota -->
   <div class="card" style="min-width: 25%; max-width: 30rem;">
     <img src="/images/events/gcc2022/umn-northrup-mall.jpg" class="card-img-top" alt="University of Minnesota Northrup Mall" />
-    <div class="card-header">University of Minnesota, Twin Cities</div>
+    <div class="card-header">University of Minnesota</div>
 
 GCC2022 will be hosted by the **[University of Minnesota, Twin Cities](https://twin-cities.umn.edu/)** in Minneapolis, Minnesota.
 
@@ -34,12 +34,12 @@ The meeting will be **held at [Courtyard by Marriott Minneapolis Downtown](https
 
   <!-- Minneapolis Minnesota -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/mpls-night-chad-davis-flickr-cc-by-nc-sa-2.0.jpg" class="card-img-top" alt="Minneapolis, Minnesota skyline. Chad Davis, Flickr, CC-BY_NC-SA-2.0 " />
+    <img src="/images/events/gcc2022/spoon-and-cherry-peter-guyan.jpg" class="card-img-top" alt="Cherry and sppon, Peter Guyan, CC BY-NC-SA 2.0" />
     <div class="card-header">Minneapolis-St. Paul</div>
 
 The University of Minnesota is located in the heart of the Twin Cities of [Minneapolis](https://www.minneapolis.org/) and [St. Paul](https://www.visitsaintpaul.com/) Minnesota.  The two downtowns are less than 10 miles apart and are connected by rapid transit.  The Twin Cities offer a vibrant cultural, music, sports, and entertainment scene, with great access to the outdoors.  The Twin Cites are one of the most livable metro areas in the United States.
 
-<small>Photo: Chad Davis, Flickr, CC-BY NC SA 2.0</small>
+<small>Photo: Peter Guyan, Flickr, CC-BY NC SA 2.0</small>
   </div>
 
   <!-- Schedule & Key Dates -->
