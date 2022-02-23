@@ -21,7 +21,7 @@ for interactions within the Galaxy Community.
 **[Committers Groups](https://galaxyproject.org/community/committers/)** Group of Galaxy Community members with commit access to the main Galaxy 
 repository.
 
-**[Community](https://galaxyproject.org/community/)** Group of users with a shared interest, location, or scientific domain.
+**[Community](https://galaxyproject.org/community/)** Group of users with a shared interest or location.
 
 **[Contribution](https://galaxyproject.org/develop/)** Piece of work that adds value to the Galaxy project, some examples include creating an issue, a pull-request in GitHub, creating and/or editing a new tutorial, helping others in the Help Forum, etc.
 

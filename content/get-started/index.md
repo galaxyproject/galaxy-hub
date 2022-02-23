@@ -77,11 +77,12 @@ You already know it, you are already part of it! But let’s dive in the complex
 ### Regional Galaxy Communities
 From India to Australia, Japan to France and many more countries [**Regional Communities**](/community/#regional-communities) are a big part of Galaxy. Find ways to contact them, platforms and lots of other useful links.
 
-### Scientific Galaxy Communities** 
-Another way communities are formed is by domains such as Proteomics,Transcriptomics,Ecology and Genome annotation to name a few. Most have set up their own servers and mailing list, look for them [**here**](/community/#regional-communities)
+### Galaxy Communities of Practice Communities
+
+Another way communities are formed is by Community such as Proteomics,Transcriptomics,Ecology and Genome annotation to name a few. Most have set up their own servers and mailing list, look for them [**here**](/community/#communities-of-practice)
 
 ### Set up your own Community
-What if you can't find yourself in these lists of regional and/or scientific communities? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads).
+What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads).
 
 ## Step 4: Take part and contribute to Galaxy
 
@@ -90,7 +91,7 @@ What if you can't find yourself in these lists of regional and/or scientific com
 ### Working Groups
 Interested on a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/). Find the repository, Gitter channel and GDrive for each one.
 
- ### Galaxy Mentorship Network**,
+### Galaxy Mentorship Network
 
 Are you ready & excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
 Check out our [**mentoring program**](#) 
