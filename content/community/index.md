@@ -13,7 +13,7 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 <small>GCC2019 in Freiburg, Germany, photo by Bérénice Batut</small>
 </div>
 
-# Galaxy Community Conferences
+# Interaction with other Communities
 
 <img class="float-right" style="max-width: 16rem;" src="/images/events/gcc2021/gcc2021-logo-wide-trans.png">
 
@@ -59,7 +59,7 @@ The mission of the [Bioconductor project](https://www.bioconductor.org/) is to d
 | [The Netherlands](https://www.choosegalaxy.nl/) | Galaxy-NL has a mailing list and annual community meetings. | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team) |
 | UK | Galaxy in the United Kingdom | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyukfriends) |
 
-# Scientific Communities
+# Communities of practice
 
 | Topic | Info | Links |
 |--------|------|-------|

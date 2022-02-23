@@ -55,7 +55,7 @@ We have many more Galaxy Training materials [**here**](https://training.galaxypr
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" />
 
-Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the FAQs? 
+Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)? 
 
 Check our [**issues dedicated page**](/issues/) for known issues, problems and tips. Galaxy uses [**GitHub issues**](https://github.com/galaxyproject/galaxy/issues) for tracking down bugs and feature requests, **please make sure you search the list for duplicates before creating a new issue**.
 
@@ -92,6 +92,4 @@ Interested on a particular area within Galaxy? Connect with a [**Working Group**
 
 Are you ready & excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
 Check out our [**mentoring program**](#) 
-
-[#]:I cannot find the link
 
