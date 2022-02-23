@@ -30,7 +30,7 @@ This curated table was made with the help of Community member's experience in ho
 | __DO__  | __DON'T__   |
 |---|---|
 |Be patient! Take the time to learn the basics about Galaxy. | Hurry and dive in straight  to create without knowing a lot about Galaxy and it's workarounds. |
-| Ask if a tool for what you need already exists| Get hazy with all your tool's possible needs as there are many installed already that can be close to what you would like.|
+| Ask if a tool for what you need already exists. | Get hazy with all your tool's possible needs as there are many installed already that can be close to what you would like.|
 |Request your tool to be reviewed, avoid managint your repo alone!| Be a lone wolf. Oherwise the main servers may not want to install your tool, as they want to make sure it follows standars they have defined for developing tools. |
 |When you happen to need a tool: Make the tool -> write the training -> set up an event. Repeat events and take advantage of Galaxy’s infrastructure (Smorgasbord, CoFests, GCC, etc.) to improve your tool and receive feedback from the Community. |Set to create very specific tools and avoid feedback.
 |Use already established servers. Asking for a subdomain within the usegalaxy.eu server is a great option!|Set up a server all by yourself (consider resources, complexity,security issues and more) | Think about maximizing the use of your tool.|Create specific tools for very specific jobs |
