@@ -16,7 +16,7 @@ The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>]
 
 # Step 2: Get familiar with Galaxy
 
-<span style="font-size:large;">**Public Servers**</span>
+## **Choose a server**
 
 The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[__Public Galaxy Server__](/use/). We recommend using one of these:
 - [**US Server**](https://usegalaxy.org)
