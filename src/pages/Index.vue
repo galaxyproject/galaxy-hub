@@ -12,8 +12,11 @@
             </section>
         </div>
         <div>
-            <b-button block squared variant="info" size = "lg"> 
-                <b>Get Started Here </b> 
+            <b-button pill  class="w-50 h-70" variant="outline-warning">
+                <b>Get Started: </b>
+            </b-button>
+            <b-button pill class="w-50 h-50" variant="outline-warning">
+                <b>Galaxy Mentorship Network: be mentored or apply to become a mentor</b>
             </b-button>
         </div>
         <br><font-awesome-icon icon="fa-regular fa-circle-user" />
