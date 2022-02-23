@@ -33,4 +33,4 @@ If you want to [contribute to the Galaxy Project](../../blog/2022-01-14-users-gu
 - Galaxy has many communities and that also means you can kickstart your own community if you don't find yours!
   
 - __How?__ 
-  - Check our guide on [how to create your own community](https:/galaxyproject.org/new-leads) and also our [Get Started](https://galaxyproject.org/get-started) page to learn the basics about Galaxy. 
+  - Check our guide on [how to create your own community](https:/galaxyproject.org/get-started/new-leads) and also our [Get Started](https://galaxyproject.org/get-started) page to learn the basics about Galaxy. 
