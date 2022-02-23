@@ -35,7 +35,7 @@ In 2010 the National Science Foundation initiated a yearly gathering of Galaxy u
 
 ## Outreachy
 
-<img class="float-right" style="max-width: 15rem;" src="/images/logos/Outreachy.png" alt="Outreachy logo" />
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/outreachy-logo.svg" alt="Outreachy logo" />
 
 [Outreachy](https://www.outreachy.org/) provides internships in open source and open science for people subject to systemic bias and impacted by underrepresentation in the technical industry where they are living. Outreachy internship projects may include programming, research, user experience, documentation, graphical design, data science, marketing, user advocacy, or event planning.
 
