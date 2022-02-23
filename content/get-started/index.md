@@ -19,7 +19,7 @@ The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>]
 <span style="font-size:large;">**Public Servers**</span>
 
 The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/). We recommend using one of these :
-- [**Main Server**](https://usegalaxy.org)
+- [**US Server**](https://usegalaxy.org)
 - [**EU Server**](https://usegalaxy.eu/)  
 - [**AU Server**](https://usegalaxy.org.au/)
 
@@ -34,7 +34,7 @@ Choose your best fit,experiment or try them all!
 |---|---|---|---|---|
 | A short introduction to Galaxy | [<i class="fab fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html#1){:target="_blank"}   | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html){:target="_blank"} |  |   |   |
 | Galaxy 101 |   | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html){:target="_blank"}   | [<i class="fas fa-video" aria-hidden="true"></i>](https://gallantries.github.io/video-library/videos/introduction/galaxy-intro-101/tutorial/){:target="_blank"}    |   |
-| Your first Galaxy Analysis | [<i class="fab fa-slideshare" aria-hidden="true"></i>](bit.ly/smorg-2021-intro){:target="_blank"}  |   |[<i class="fas fa-video" aria-hidden="true"></i>](https://youtu.be/1UPCrQxGwcU){:target="_blank"} |   |
+| Your first Galaxy Analysis | [<i class="fab fa-slideshare" aria-hidden="true"></i>](https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_0){:target="_blank"}  |   |[<i class="fas fa-video" aria-hidden="true"></i>](https://youtu.be/1UPCrQxGwcU){:target="_blank"} |   |
 | Galaxy Tour  |   |   |   | [<i class="fas fa-mouse" aria-hidden="true"></i>](https://usegalaxy.org/tours/core.galaxy_ui){:target="_blank"} |
 | Galaxy Histories |   | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history/tutorial.html){:target="_blank"}  |   | [<i class="fas fa-mouse" aria-hidden="true"></i>](https://usegalaxy.org/tours/core.history){:target="_blank"} |
 | How to reproduce published Galaxy Analysis |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-reproduce/tutorial.html){:target="_blank"} |   |   |
@@ -64,6 +64,8 @@ If you couldn't find a solution  reach out to the [**Galaxy Help Forum**](https:
 ## **Mailing lists**
 If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](mailing-lists#new-to-mailing-lists)
 
+## Galaxy Publication Library
+Check what others members have done in our [**Publication library**]((https://www.zotero.org/groups/1732893/galaxy)) which contains publications that use, reference, implement, and extend Galaxy.
 
 # Step 3:  Your place within the Galaxy Community
 
@@ -91,5 +93,5 @@ Interested on a particular area within Galaxy? Connect with a [**Working Group**
  ## **Galaxy Mentorship Network**,
 
 Are you ready & excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
-Check out our [**mentoring program**](#) 
+Check out our [**mentoring program**]([#](https://galaxy-mentor-network-old.netlify.app/)) 
 
