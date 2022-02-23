@@ -1,20 +1,34 @@
 ---
-title: Get Started
+title: Get Started 
 ---
-<a href="https://galaxy-mentor-network.netlify.app/" class="btn btn-primary" role="button" aria-pressed="true">Would you like to learn about Galaxy with a mentor? Check out the Galaxy Mentorship Network</a>
 
-## Welcome!
+<img class="img-fluid float-right" src="/images/undraw-illustrations/get-started.svg" style="width:200px;" alt="community events" />
 
-Below you will find tutorials, useful links and definitions as the starting point for newcomers, students, experts and anybody who wants to refresh their knowledge about Galaxy's basics and capabilities.
+# Welcome!
 
-### Galaxy Glossary
-[List](link) of all keywords used within Galaxy and their definitions.
+<span style="font-size:medium;">This page will be your starting point for Galaxy, the go-to place when you need to refresh your knowledge once you have already get to know more about the Community.</span>
 
-### Set up your community 
-Do you happen to not find your community within Galaxy? Are there specific requirements you'd like to have? If you'd like to create your add yours as part of the Galaxy Communities we have a dedicated page on how to start, see [here](https://galaxyproject.org/new-leads
+<span style="font-size:medium;">Below you will find a __step-by-step suggested pathway__ for you to follow as a newcomer, a student, an expert or just about anybody interested in using Galaxy.</span>
 
-### Tutorials
-Below is a table curated just for you to follow on the basics of Galaxy. You can choose any tutorial in a variety of formats, it can be more text-based like **Hands-on** or **Slides**,  or you could also follow a more visual tutorial like a **Recording** or an **Interactive Tour**. Choose your best fit or try them all!
+# Step 1: Get acquainted with Galaxy terminology
+
+The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem. 
+
+# Step 2 : Get familiar with Galaxy
+
+<span style="font-size:large;">**Public Servers**</span>
+
+The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/). We recommend using one of these :
+- [**Main Server**](https://usegalaxy.org)
+- [**EU Server**](https://usegalaxy.eu/)  
+- [**AU Server**](https://usegalaxy.org.au/)
+
+We also encourage you to create an account for the server you'll be using to keep track of your histories and workflows.
+
+## **Tutorials and tours**
+This curated table will take you through the basics of Galaxy. You can choose any tutorial in a variety of formats: **Hands-on** and **Slides** tutorials are more text-based while **Recording** and **Interactive Tour** are more visual-based.
+
+Choose your best fit,experiment or try them all!
 
 | Lesson |  Slides | Hands-on | Recording | Interactive Tour |  
 |---|---|---|---|---|
@@ -29,50 +43,55 @@ Below is a table curated just for you to follow on the basics of Galaxy. You can
 | How to contribute using Gitpod |   | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/gitpod/tutorial.html){:target="_blank"}  | [<i class="fas fa-video" aria-hidden="true"></i>](https://youtu.be/_-wnsPttBCo){:target="_blank"}  |   |
 |How to create a new tutorial in the GTN   |   |[<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html){:target="_blank"}   |[<i class="fas fa-video" aria-hidden="true"></i>](https://www.youtube.com/watch?v=Vw9h5kvRH2k){:target="_blank"}  |   |   |
 
-### Useful links
-- [FAQs quickstart](https://training.galaxyproject.org/training-material/faq)
-  
-  Feel like you might have a question that many others have had as well? Check our Frequently Asked Questions quickstart!
+## **Events**
 
-- [Public Galaxy Servers](https://galaxyproject.org/use/)
-  
-  List of all Public Galaxy Servers available to use or deploy your own version.
+Before diving into Galaxy tutorials, you may check [**Galaxy events**](/events/) and see if there is any upcoming Galaxy Training events you could join. It is often easier and fun to learn together!
 
-- [Galaxy Training Network](https://training.galaxyproject.org/)
-  
-  Collection of tutorials from a variety of topics() developed and maintained by the worldwide Galaxy community.
+## **Galaxy Training Network**
 
-- [Galaxy Help](https://help.galaxyproject.org/)
-  
-  Have a bug or an error you haven't been able to solve? Do you have a question that you haven't found in already answered in the FAQs? Reach out to the Galaxy Help Community.
+We have many more Galaxy Training materials [**here**](https://training.galaxyproject.org/)! Galaxy Training Network has a great list of tutorials from a variety of topics (_Climate, Transcriptomics, Data Science ,Development and more!_) written and maintained by the Worldwide Galaxy Community.
 
-- [Galaxy Communities](https://galaxyproject.org/community/)
-  
-  List and description of already stablished communities.
+## **Galaxy Help & Bug Reports**
 
-- [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy)
-  
-  Publication library for the Galaxy Project that use, reference, implement, and extend Galaxy.
+<img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" />
 
-- [Events](https://galaxyproject.org/events/)
-  
-  Upcoming and past events with Galaxy-related content.
+Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the FAQs? 
 
-- [Mailing lists](https://galaxyproject.org/mailing-lists/)
-  
-  Links, email address and archives for Galaxy's Mailing Lists, you can reach out to the community in this format, ask your questions and get to know what's up with Galaxy.
+Check our [**issues dedicated page**](/issues/) for known issues, problems and tips. Galaxy uses [**GitHub issues**](https://github.com/galaxyproject/galaxy/issues) for tracking down bugs and feature requests, **please make sure you search the list for duplicates before creating a new issue**.
 
-- [Working groups](https://galaxyproject.org/community/wg/)
-  
-  List of current Working Groups set within the Galaxy Ecosystem. 
+If you couldn't find a solution  reach out to the [**Galaxy Help Forum**](https://help.galaxyproject.org/) as *the* place to ask your questions related to Galaxy use or  [**create an issue**](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue) yourself. Either way we are more than happy to help you out!
 
-- [Galaxy's repositories](https://github.com/galaxyproject)
-  
-  Galaxy Project Repositories including the GTN,Planemo, Galaxy and The Hub.
+## **Mailing lists**
+If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](mailing-lists#new-to-mailing-lists)
 
-### Want to contribute?
-[Here's](https://galaxyproject.org/community/contributing/) our guide on how to start contributing and there are many ways to do so: coding,writing and creating tutorials, answering questions in Gitter or the Help Forum and many more. 
 
-### Bug reporting etiquette
-We have the Help Forum to ask away your questions. If you still are unsure, you can always go to our open issues in GitHub to see if someone reported it, reach out to the Community via Mailing Lists or [create an issue](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue) yourself! 
- 
+# Step 3:  Your place within the Galaxy Community
+
+<img class="img-fluid float-right" src="/images/undraw-illustrations/connected-people.svg" style="width:200px;height:100px;" alt="community events" />
+
+Still wonder what the Galaxy Community is about?
+You already know it, you are already part of it! But let’s dive in the complexity of the [Galaxy Communities](/community/)!
+
+## **Regional Galaxy Communities**
+From India to Australia, Japan to France and many more countries [**Regional Communities**](/community/#regional-communities) are a big part of Galaxy. Find ways to contact them, platforms and lots of other useful links.
+
+## **Scientific Galaxy Communities**
+Another way communities are formed is by domains such as Proteomics,Transcriptomics,Ecology and Genome annotation to name a few. Most have set up their own servers and mailing list, look for them [**here**](/community/#regional-communities)
+
+## **Set up your own Community**
+What if you can't find yourself in these lists of regional and/or scientific communities? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads).
+
+# Step 4: Take part and contribute to Galaxy
+
+[Here's](https://galaxyproject.org/community/contributing/) our guide on how to start contributing and there are many ways to do so: coding,writing and creating tutorials, answering questions in Gitter or the Help Forum and many more.
+
+## **Working Groups**
+Interested on a particular area within Galaxy? Connect with a [**Working Group**](community/wg/). Find the repository, Gitter channel and GDrive for each one.
+
+ ## **Galaxy Mentorship Network**,
+
+Are you ready & excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
+Check out our [**mentoring program**](#) 
+
+[#]:I cannot find the link
+
