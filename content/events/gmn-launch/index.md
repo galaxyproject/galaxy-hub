@@ -22,10 +22,10 @@ Join us for our exciting online launch event where we will be telling you everyt
 
 ## Agenda:
 
-- Initial Remarks by the Outreachy Mentors (Berenice, Assunta, Beatriz, or Anne) about the Outreachy interns.
-- Introduction to the Galaxy Mentor Network by Outreachy interns (Chinonye and Rahmot)
-- GMN Website Demo
-- Q & A with the audience
+- Initial Remarks by the Outreachy Mentors (Bérénice, Assunta, Beatriz, or Anne) about the Outreachy interns.
+- Introduction to the Galaxy Mentor Network by Outreachy interns (Chinonye and Rahmot).
+- GMN Website Demo.
+- Q & A with the audience.
 
 This will be a 24h event, spanning all time zones with our worldwide community. We'll start at **08:00 Central European time**, and end at **11:00 US Eastern time**.
 
