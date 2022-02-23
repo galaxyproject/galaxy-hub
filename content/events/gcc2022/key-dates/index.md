@@ -4,7 +4,7 @@
 
 | Date   | Registration | Abstracts | What |
 | -----: | :---: | :---: | --- |
-| Feb  21 | ✔ | ✔ | [Registration](/events/gcc2022/register/) and [abstract submission](/events/gcc2022/abstracts/) open |
+| Feb  24 | ✔ | ✔ | [Registration](/events/gcc2022/register/) and [abstract submission](/events/gcc2022/abstracts/) open |
 | Apr  1 |   | ✔ | Talk and early poster/demo [abstract submissions](/events/gcc2022/abstracts/) due |
 | May  2 |   | ✔ | Talk and early poster/demo submitters notified of acceptance status |
 | May  9 |   | ✔ | Deadline for confirming abstract acceptance |

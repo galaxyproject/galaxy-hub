@@ -22,9 +22,9 @@ Registration for GCC2022 is open. See below for event details and description of
 
 ## Training Day, July 8
 
-This preconference event is virtual, asynchronous, global, and free.  The GCC2022 Training Day will focus on introductory topics, many of which are prerequisites for training that is being offered in-person, during the meeting.  We recommend you look at the training offerings for Training Day, and during the conference when deciding if you should register for training day.
+This pre-conference event is virtual, asynchronous, global, and free.  The GCC2022 Training Day will focus on introductory topics, many of which are prerequisites for training that is being offered in-person, during the meeting.  We recommend you look at the training offerings for Training Day, and during the conference when deciding if you should register for training day.
 
-Cost: **Everyone: Free, for as long as there is space.**
+Cost: **Free, for as long as there is space**
 
 ## Meeting, July 17-20
 
@@ -40,13 +40,13 @@ Meeting registration includes admission to conference talks, poster/demo session
 
 ### CoFest, July 21-23
 
-You can register for 1, 2, or 3 days of CoFest. CoFest registration is free.
+You can register for 1, 2, or 3 days of [CoFest](/events/gcc2022/cofest/). The registration cost is used to cover the costs of food and drinks during the event.
+
+Cost: **$9 per day**
 
 ## Lodging
 
-When you register you can also sign up for lodging on campus in the residence halls.  This is a very affordable option, is on campus, and is close to nearby shops and restaurants. Room are single occupancy but there is a shared bathroom.
-
-There are also numerous nearby lodging options that are off-campus.  See the [Travel page](/events/gcc2022/travel/) for some options.
+A number of rooms are the conference hotel were reserved for the duration of the event. Alternatively, you can sign up for lodging on campus in the residence halls as a very affordable option. There are also numerous nearby lodging options in the city. See the [Travel page](/events/gcc2022/travel/) for more details.
 
 ## Got kids?
 
@@ -54,14 +54,17 @@ GCC2022 welcomes your kids **and will help organize [childcare](/events/gcc2022/
 
 ## GCC2022 Fellowships
 
-The Galaxy Community Fund will offer travel fellowships to attend GCC2022.  The application deadline will be posted here once the details are worked out.
+We are happy to offer travel support for exceptional students to attend GCC2022. Travel fellowships will be made available for 3 students that apply and submit an abstract for a talk. The fellowship will cover the costs of meeting registration, dorm accomodations for 3 nights, conference dinner, and up to $500 towards travel expenses.
+
+To apply, make sure to submit an abstract for a talk and complete the fellowship application (coming soon). The deadline for both is April 1. To give ample time to sort out travel plans, you will be notified around April 15 if you have been selected as a fellowship recepient.
 
 ## Cancelation
 
 There are fees and time invested into each registration and hence there are unfortunate cancelation fees. See the table below for the specifics. If you need to cancel your registration, please contact the [organizers](/events/gcc2022/organizers/).
 
-| Cancelation date | Fee |
-| --- | ---: |
-| Before April 28    | 15%  |
-| April 29 - June 16 | 50%  |
-| June 17 and later  | 100% |
+| Cancelation date         | Cancelation fee |
+| ------------------------ | --------------: |
+| Before April 28          | 15%             |
+| April 29 - June 16       | 50%             |
+| June 17 and later        | 100%            |
+| For dorms, after June 30 | 100%            |

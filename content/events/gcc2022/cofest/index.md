@@ -18,3 +18,11 @@ That's a short sentence, but it is very deliberately worded:
 This is a CollaborationFest. Not a hackathon, not a codefest, but a *CollaborationFest.*
 
 Welcome aboard.
+
+## Location
+
+CoFest will be held at the University of Minnesota (so not at the same venue as the main meeting). The campus is minutes walk from the conference hotel. You are welcome to stay at the hotel, the dorms, or an alternative place of your choice but remember to book your lodging for the duration of CoFest.
+
+## Cost
+
+There is a $9 per day cost to register for CoFest. The fees will be used to provide food and drinks at the event for the participants.
