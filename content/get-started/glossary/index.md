@@ -60,7 +60,7 @@ Exec Board.
 **[Intergalactic Data Commission (IDC)](https://github.com/galaxyproject/idc)** Group of members of the Galaxy community that collect best practices, 
 tips and tricks to maintain reference data.
 
-##### [Galaxy Instance](https://galaxyproject.org/admin/get-galaxy/)
+#### [**Galaxy Instance**](https://galaxyproject.org/admin/get-galaxy/)
 Customizable deployment of the Galaxy software that can be either private or public. 
 
 **[Job](https://galaxyproject.org/support/how-jobs-execute/)** Execution of a Galaxy tool to schedule or be processed by the system with no interaction by the user.
