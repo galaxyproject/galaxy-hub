@@ -12,7 +12,7 @@
             </section>
         </div>
         <div>
-            <b-button pill  class="w-50 h-70" variant="outline-warning">
+            <b-button pill class="w-50 h-70" variant="outline-warning" href="/get-started/">
                 <b>Get Started: </b>
             </b-button>
             <b-button pill class="w-50 h-50" variant="outline-warning">
