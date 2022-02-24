@@ -38,8 +38,7 @@ Choose your best fit, experiment or try them all!
 | Galaxy Tour  |   |   |   | [<i class="fas fa-mouse" aria-hidden="true"></i>](https://usegalaxy.org/tours/core.galaxy_ui){:target="_blank"} |
 | Galaxy Histories |   | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history/tutorial.html){:target="_blank"}  |   | [<i class="fas fa-mouse" aria-hidden="true"></i>](https://usegalaxy.org/tours/core.history){:target="_blank"} |
 | How to reproduce published Galaxy Analysis |  | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-reproduce/tutorial.html){:target="_blank"} |   |   |
-|Introduction to the GTN |[<i class="fab fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/contributing/slides/introduction.html#1
-){:target="_blank"} |   | [<i class="fas fa-video" aria-hidden="true"></i>](https://www.youtube.com/watch?v=lDqWxzWNk1k){:target="_blank"} |   |
+|Introduction to the GTN |[<i class="fab fa-slideshare" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/contributing/slides/introduction.html#1){:target="_blank"} |   | [<i class="fas fa-video" aria-hidden="true"></i>](https://www.youtube.com/watch?v=lDqWxzWNk1k){:target="_blank"} |   |
 | How to contribute using Gitpod |   | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/gitpod/tutorial.html){:target="_blank"}  | [<i class="fas fa-video" aria-hidden="true"></i>](https://youtu.be/_-wnsPttBCo){:target="_blank"}  |   |
 |How to create a new tutorial in the GTN   |   |[<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html){:target="_blank"}   |[<i class="fas fa-video" aria-hidden="true"></i>](https://www.youtube.com/watch?v=Vw9h5kvRH2k){:target="_blank"}  |   |   |
 
@@ -62,7 +61,7 @@ Check our [**issues dedicated page**](/issues/) for known issues, problems and t
 If you couldn't find a solution, reach out to the [**Galaxy Help Forum**](https://help.galaxyproject.org/) as *the* place to ask your questions related to Galaxy use or  [**create an issue**](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue) yourself. Either way, we are more than happy to help you out!
 
 ### Mailing lists
-If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](/mailing-lists#new-to-mailing-lists/)
+If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](/mailing-lists#new-to-mailing-lists/).
 
 ### Galaxy Publication Library
 Check what others members have done in our [**Publication library**](https://www.zotero.org/groups/1732893/galaxy) which contains publications that use, reference, implement, and extend Galaxy.
@@ -77,22 +76,23 @@ You already know it, you are already part of it! But let’s dive in the complex
 ### Regional Galaxy Communities
 From India to Australia, Japan to France and many more countries [**Regional Communities**](/community/#regional-communities) are a big part of Galaxy. Find ways to contact them, platforms and lots of other useful links.
 
-### Galaxy Communities of Practice Communities
+### Galaxy Communities of Practice
 
-Another way communities are formed is by Community such as Proteomics,Transcriptomics,Ecology and Genome annotation to name a few. Most have set up their own servers and mailing list, look for them [**here**](/community/#communities-of-practice)
+Another way communities are formed is by domain such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own servers and mailing list, look for them [**here.**](/community/#communities-of-practice)
 
 ### Set up your own Community
 What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads).
 
 ## Step 4: Take part and contribute to Galaxy
 
-[Here's](https://galaxyproject.org/community/contributing/) our guide on how to start contributing and there are many ways to do so: coding, writing and creating tutorials, answering questions in Gitter or the Help Forum and many more.
+Look at our [guide](https://galaxyproject.org/community/contributing/) on how to start contributing and there are many ways to do so: coding, writing and creating tutorials, answering questions in Gitter or the Help Forum to mention some ways.
 
 ### Working Groups
-Interested on a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/). Find the repository, Gitter channel and GDrive for each one.
+Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
+Some of the current Working Groups include Tools, Systems and User Interface/User Experience.
 
 ### Galaxy Mentorship Network
 
-Are you ready & excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
-Check out our [**mentoring program**](#) 
+Are you ready and excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
+Check out our [**mentoring program.**](https://galaxy-mentor-network.netlify.app/) 
 
