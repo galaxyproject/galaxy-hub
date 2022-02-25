@@ -19,7 +19,7 @@ The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>]
 
 ### Public Servers
 
-The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/).We recommend using one of these :
+The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/). We recommend using one of these:
 - [**US Server**](https://usegalaxy.org)
 - [**EU Server**](https://usegalaxy.eu/)
 - [**AU Server**](https://usegalaxy.org.au/)
