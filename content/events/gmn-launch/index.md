@@ -30,11 +30,11 @@ Join us for our exciting online launch event where we will be telling you everyt
 This will be a 24h event, spanning all time zones with our worldwide community. We'll start at **08:00 Central European time**, and end at **11:00 US Eastern time**.
 
 - **GMN Launch Call 1**: Middle East, Europe, Africa
-  - 08:00 Central European time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20220217T10&p1=980&am=30).
-  - [Zoom](#)
+  - 08:00 Central European time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20220303T08&p1=980&am=30).
+  - [Zoom]( https://psu.zoom.us/j/95492229656?pwd=MUhxQU9maWtDVWRzOVpJNkoySVh2dz09)
 
 - **GMN Launch Call 2**: Americas
-  - 11:00 US Eastern time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20220217T11&p1=3705&am=30).
-  - [Zoom](#)
+  - 11:00 US Eastern time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20220303T11&p1=3705&am=30).
+  - [Zoom]( https://psu.zoom.us/j/98259853922?pwd=eTNQR2ZUcjJSSmZDcXBXYzE1YjlPUT09)
 
 ***We look forward to seeing you there!***
