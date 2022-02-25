@@ -34,7 +34,7 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
   - [Zoom]( https://psu.zoom.us/j/95492229656?pwd=MUhxQU9maWtDVWRzOVpJNkoySVh2dz09)
 
 - **GMN Launch Call 2**: Americas
-  - 11:00 US Eastern time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20220303T11&p1=3705&am=30).
+  - 12:00 US Eastern time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20220303T12&p1=3705&am=30).
   - [Zoom]( https://psu.zoom.us/j/98259853922?pwd=eTNQR2ZUcjJSSmZDcXBXYzE1YjlPUT09)
 
 ***We look forward to seeing you there!***
