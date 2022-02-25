@@ -96,5 +96,5 @@ Some of the current Working Groups include Tools, Systems and User Interface/Use
 
 ### Galaxy Mentoring Network
 
-Are you ready & excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
-Check out our [**mentoring program.**]([#](https://galaxy-mentor-network.netlify.app/)) 
+Are you ready & excited to start your own project or community, to contribute to Open Source or to settle into the Galaxy ecosystem?
+Check out the [**Galaxy Mentoring Programme.**](https://galaxy-mentor-network.netlify.app/)
