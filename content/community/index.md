@@ -58,8 +58,8 @@ The mission of the [Bioconductor project](https://www.bioconductor.org/) is to d
 | Japan | Pitagora Galaxy Community | [<i class="fab fa-twitter" aria-hidden="true"></i>](https://twitter.com/hashtag/usegalaxyjp) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://wiki.pitagora-galaxy.org) |
 | [The Netherlands](https://www.choosegalaxy.nl/) | Galaxy-NL has a mailing list and annual community meetings. | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team) |
 | UK | Galaxy in the United Kingdom | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyukfriends) |
-| Galaxy Español |Galaxy Spanish-Language Announcements|[<i class="fa fa-envelope" aria-hidden="true"></i>](espanol@lists.galaxyproject.org) |
-| Galaxy Africa | Mailing list for the Galaxy Africa community. |[<i class="fa fa-envelope" aria-hidden="true"></i>]( galaxy-africa@lists.galaxyproject.org) |
+| Galaxy Español |Galaxy Spanish-Language Announcements|[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org) |
+| Galaxy Africa | Mailing list for the Galaxy Africa community. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-africa@lists.galaxyproject.org) |
 
 # Communities of practice
 
@@ -70,8 +70,8 @@ The mission of the [Bioconductor project](https://www.bioconductor.org/) is to d
 | [Genome Annotation](https://annotation.usegalaxy.eu)| A complete Galaxy instance for Genome Annotation. | |
 | [Climate](https://climate.usegalaxy.eu/) | The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflow | [<i class="fa fa-solid fa-graduation-cap"></i>](https://training.galaxyproject.org/training-material/topics/climate/)|
 |[Proteomics](https://proteore.org/)| Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research  | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) |
-| [Natural Language Processing](http://galaxy.lappsgrid.org/) | An open, interoperable web service platform for natural language processing (NLP) research and development.| [<i class="fa fa-envelope" aria-hidden="true"></i>](galaxy-nlp@lists.galaxyproject.org |
-| [Natural Language Processing](http://galaxy.lappsgrid.org/) | An open, interoperable web service platform for natural language processing (NLP) research and development.| [<i class="fa fa-envelope" aria-hidden="true"></i>](galaxy-nlp@lists.galaxyproject.org) |
-| [MicroGalaxy](https://microbiome.usegalaxy.eu/) | All things micro* in Galaxy. The official mailing list of the microGalaxy group. |[<i class="fa fa-envelope" aria-hidden="true"></i>](microgalaxy@lists.galaxyproject.org) |
-| Public Health | Announcements and discussion in the Galaxy Public Health Community.|[<i class="fa fa-envelope" aria-hidden="true"></i>](public-health@lists.galaxyproject.org)|
+| [Natural Language Processing](http://galaxy.lappsgrid.org/) | An open, interoperable web service platform for natural language processing (NLP) research and development.| [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org |
+| [Natural Language Processing](http://galaxy.lappsgrid.org/) | An open, interoperable web service platform for natural language processing (NLP) research and development.| [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org) |
+| [MicroGalaxy](https://microbiome.usegalaxy.eu/) | All things micro* in Galaxy. The official mailing list of the microGalaxy group. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) |
+| Public Health | Announcements and discussion in the Galaxy Public Health Community.|[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)|
 

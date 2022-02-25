@@ -32,7 +32,7 @@ repository.
 **[Galaxy Community Conference (GCC)](https://galaxyproject.org/gcc/)** Annual event that gathers community members who are interested in 
 contributing to Galaxy's ecosystem.
 
-**[Galaxy Mentoring Network (GMN)](link)** Mentoring program for the Galaxy community.
+**[Galaxy Mentoring Network (GMN)](https://galaxy-mentor-network.netlify.app/)** Mentoring program for the Galaxy community.
 
 **[Galaxy Training Network (GTN)](https://training.galaxyproject.org/)** Collection of tutorials developed and maintained by the Galaxy community.
 
