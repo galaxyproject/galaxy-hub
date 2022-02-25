@@ -16,11 +16,12 @@ The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>]
 
 ## Step 2 : Get familiar with Galaxy
 <div class='right'><img src="/images/undraw-illustrations/teamwork.svg" alt="" width="240" /></div>
+
 ### Public Servers
 
-The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/). We recommend using one of these :
+The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/). We recommend using one of these:
 - [**US Server**](https://usegalaxy.org)
-- [**EU Server**](https://usegalaxy.eu/)  
+- [**EU Server**](https://usegalaxy.eu/)
 - [**AU Server**](https://usegalaxy.org.au/)
 
 We also encourage you to create an account for the server you'll be using to keep track of your histories and workflows.
@@ -95,4 +96,5 @@ Some of the current Working Groups include Tools, Systems and User Interface/Use
 
 ### Galaxy Mentoring Network
 
-
+Are you ready & excited to start your own project or community, to contribute to Open Source or to settle into the Galaxy ecosystem?
+Check out the [**Galaxy Mentoring Programme.**](https://galaxy-mentor-network.netlify.app/)
