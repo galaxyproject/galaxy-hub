@@ -19,6 +19,6 @@ Pia is thrilled to share her work on the Galaxy Community Onboarding Kit with th
 
 **Call details soon!**
 
-[Join us via Zoom](https://psu.zoom.us/j/93434216845?pwd=Qy9Bc0w1cDFBeEVkYWdMV0hFUEpmZz09) at 11:00 US Eastern time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Outreachy+presentation&iso=20220303T11&p1=3705&ah=1)).
+[Join us via Zoom](https://psu.zoom.us/j/93434216845?pwd=Qy9Bc0w1cDFBeEVkYWdMV0hFUEpmZz09) at 11:00 US Eastern time ([see your time.](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Outreachy+presentation&iso=20220303T11&p1=3705&ah=1))
 
 
