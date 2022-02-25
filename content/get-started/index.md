@@ -81,7 +81,7 @@ From India to Australia, Japan to France and many more countries [**Regional Com
 Another way communities are formed is by domain such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own servers and mailing list, look for them [**here.**](/community/#communities-of-practice)
 
 ### Set up your own Community
-What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads).
+What if you can't find your interests in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads).
 
 ## Step 4: Take part and contribute to Galaxy
 
@@ -91,8 +91,9 @@ Look at our [guide](https://galaxyproject.org/community/contributing/) on how to
 Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
 Some of the current Working Groups include Tools, Systems and User Interface/User Experience.
 
-### Galaxy Mentorship Network
+### Galaxy Mentoring Network
 
-Are you ready and excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
-Check out our [**mentoring program.**](https://galaxy-mentor-network.netlify.app/) 
+Are you ready and excited to start your own project or community, to contribute to Open Source or to settle into the Galaxy ecosystem?
+Check out the [**Galaxy mentoring program.**](https://galaxy-mentor-network.netlify.app/).
+
 
