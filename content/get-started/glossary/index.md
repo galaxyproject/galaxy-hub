@@ -37,7 +37,7 @@ Piece of work that adds value to the Galaxy project, some examples include creat
 #### [Developer Roundtable](https://galaxyproject.org/community/devroundtable/)
 Biweekly informal community call where  the Galaxy members have the opportunity to present their work and engage with the Galaxy developer community.
 
-Ecosystem
+#### Ecosystem
 Training, tools, best practice workflows, documentation, test cases, translations, infrastructure, and code within Galaxy.
 
 #### [Galaxy Community Conference (GCC)](https://galaxyproject.org/gcc/)
