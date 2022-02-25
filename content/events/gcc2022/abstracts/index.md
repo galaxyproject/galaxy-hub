@@ -20,12 +20,12 @@ Presentations from the community are a core component of Galaxy Community Confer
 
 # Key Dates
 
-| Date   | What |
-| ----- | --- |
-| Apr  1 | Abstracts due for short or long talks |
-| May  2 | Talk submitters notified of acceptance status |
-| May  9 | Deadline for confirming abstract acceptance |
-| Jun  3 | Poster/demo abstracts due |
+| Date    | What |
+| -----   | --- |
+| Apr  12 | Abstracts due for short or long talks |
+| May  12 | Talk submitters notified of acceptance status |
+| May  20 | Deadline for confirming abstract acceptance |
+| Jun  3  | Poster/demo abstracts due |
 | Jun  17 | Poster/demo submitters notified of acceptance status |
 
 # Guidelines

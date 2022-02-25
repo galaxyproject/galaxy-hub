@@ -32,7 +32,7 @@ Cost: **Free, for as long as there is space**
 
 Meeting registration includes admission to conference talks, poster/demo sessions, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
 
-| | Early | Full | Late |
+| | Early (< June 3) | Full (< June 24) | Late (> June 24) |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | $250 | $400 | $500 |
 | Academic / Non-Profit / Government | $400 | $550 | $750 |
@@ -46,7 +46,7 @@ Cost: **$9 per day**
 
 ## Lodging
 
-A number of rooms are the conference hotel were reserved for the duration of the event. Alternatively, you can sign up for lodging on campus in the residence halls as a very affordable option. There are also numerous nearby lodging options in the city. See the [Travel page](/events/gcc2022/travel/) for more details.
+A number of rooms are the conference hotel were reserved for the duration of the event. Alternatively, you can sign up for lodging on campus in the residence halls as a very affordable option. There are also numerous nearby lodging options in the city. See the [Travel page](/events/gcc2022/travel/) for more details. If you have questions about lodging or need help, please reach out to [Amy Beckham](mailto:amy@sapphyregroup.com).
 
 ## Got kids?
 
@@ -56,7 +56,7 @@ GCC2022 welcomes your kids **and will help organize [childcare](/events/gcc2022/
 
 We are happy to offer travel support for exceptional students to attend GCC2022. Travel fellowships will be made available for 3 students that apply and submit an abstract for a talk. The fellowship will cover the costs of meeting registration, dorm accomodations for 3 nights, conference dinner, and up to $500 towards travel expenses.
 
-To apply, make sure to submit an abstract for a talk and complete the fellowship application (coming soon). The deadline for both is April 1. To give ample time to sort out travel plans, you will be notified around April 15 if you have been selected as a fellowship recepient.
+To apply, make sure to submit an abstract for a talk and complete the fellowship application (coming soon). The deadline for both is April 12. To give ample time to sort out travel plans, you will be notified around May 1 if you have been selected as a fellowship recepient.
 
 ## Cancelation
 
