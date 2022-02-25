@@ -119,7 +119,7 @@ The fundamental building blocks for analyses in a Galaxy Instance, consisting of
 #### [Tool Wrapper](https://docs.galaxyproject.org/en/latest/dev/schema.html)
 XML file that needs to be defined for each tool to be run on Galaxy. Provides the glue that links your tool to Galaxy by telling Galaxy how to invoke it, what options to pass, and what files it will produce as output.
 
-#### Galaxy Mentoring Network[https://galaxy-mentor-network.netlify.app/] 
+#### [Galaxy Mentoring Network](https://galaxy-mentor-network.netlify.app/)
 Mentoring program that connects Galaxy members, both new and existing, with Galaxy Mentors (GMentors) in order to learn, improve expertise and grow with Galaxy.
 
 #### [Galaxy Tool Shed](https://toolshed.g2.bx.psu.edu/)
