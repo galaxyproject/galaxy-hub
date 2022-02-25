@@ -8,7 +8,7 @@
 
 </div>
 
-<p class="lead">GCC2022 is three events spread out over several weeks in July.  One is virtual only, one is hybrid with limited support for remote participation, and one is in-person only.</p>
+<p class="lead">GCC2022 is three events spread out over several weeks in July.  One is virtual only (training), one is hybrid with limited support for remote participation (CoFest), and one is in-person only (meeting).</p>
 
 This page summarizes both GCC2022 events, and other cool events happening around GCC2022 in time and space.  **For a full schedule, see the [GCC2022 schedule site](https://gcc2022.sched.com/)**.
 
@@ -36,7 +36,7 @@ Meeting: July 17-20
 
 **This is it!  Our first in-person GCC since 2019!**  The four day meeting will feature accepted and invited talks, poster, demo, and sponsor sessions, training sessions, Birds-of-a-Feather (BoF) sessions, a conference dinner, and lots of time for networking
 
-This year we are expanding the number of days from three to four, but shortening the length of each day.  Except for the conference dinner, we won't have official programming (like BoFs) in the evening.  We will finish each day by 6pm.  Our hope is to make this a more relaxed and more rewarding meeting.
+This year we are expanding the number of days from three to four, but shortening the length of each day.  Except for the conference dinner on Tuesday (July 19), we won't have official programming (like BoFs) in the evening.  We will finish each day by 6pm.  Our hope is to make this a more relaxed and more rewarding meeting.
 
 </div>
 
@@ -100,7 +100,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 <tr style="border: 1px solid lightgray">
 <td colspan="5" style="background-color: lightgray;"><strong><a href="https://www.iscb.org/ismb2022">ISMB / BOSC</a></strong><br />Madison, Wisconsin, a 4 hour drive or a 70 minute plane ride from Minneapolis</td>
 <td></td>
-<td style="background-color: #8CE;"><span class="lead"><strong>Conference</strong></span><br />Minneapolis</td>
+<td></td>
 </tr>
 <tr class="text-center" style="border: 1px solid lightgray">
 <td colspan="4" style="padding: 0.2em;"></td>
@@ -128,9 +128,8 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 <th>Jul 23</th>
 </tr>
 <tr style="border: 1px solid lightgray">
-<td colspan="3" style="background-color: #8CE;"><span class="lead"><strong>Conference</strong></span><br />Minneapolis</td>
+<td colspan="4" style="background-color: #8CE;"><span class="lead"><strong>Conference</strong></span><br />Minneapolis</td>
 <td colspan="3" style="background-color: #BEF;"><span class="lead"><strong>CoFest</strong></span><br />Minneapolis</td>
-<td></td>
 </tr>
 <tr class="text-center" style="border: 1px solid lightgray">
 <td colspan="7" class="small" style="padding: 0.2em; background-color: #DEF;"><strong>Conference Housing Open</strong></td>
