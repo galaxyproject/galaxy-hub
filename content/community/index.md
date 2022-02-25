@@ -13,56 +13,37 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 <small>GCC2019 in Freiburg, Germany, photo by Bérénice Batut</small>
 </div>
 
-# Galaxy Community Conferences
+# Galaxy Community Conference
 
 <img class="float-right" style="max-width: 16rem;" src="/images/events/gcc2021/gcc2021-logo-wide-trans.png">
 
 In 2010 the National Science Foundation initiated a yearly gathering of Galaxy users and developers by providing the project with a grant supplement. Since then this gathering has grown into an annual event known as the **[Galaxy Community Conference (GCC)](/gcc/)**. GCC alternates between North America and elsewhere, and provides a forum for sharing knowledge and building collaborations. There have been over 200 participants every year since 2012.
 
+# Interacting communities with Galaxy
 
-# Working Groups and Project Governance
+## Conda and Bioconda
 
-[Galaxy Working Groups](/community/wg/) are how the community manages and contributes to key parts of the Galaxy ecosystem.  Working Groups were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.
-
-*Working Groups are a key component of the [Galaxy Governance Model](/community/governance/), which also includes the [Galaxy Steering Committee](/community/steering/) and the [Galaxy Exec](/community/exec/).*
-
-# IUC: Keepers of Galaxy Tools
-
-The [Intergalactic Utilities Commission](/iuc/) (IUC) was established in 2012 to enable the pervasive use of the main Galaxy Tool Shed by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to Galaxy tool developers so that they can improve the quality of their repositories.
-
-<div class="img-fluid mx-auto trim-p">
-
-![Responsive image](/iuc/iuc-commits.png)
-
-<small class="trim-p">
-
-[Code contributions](https://github.com/galaxyproject/tools-iuc/graphs) to [tools-iuc](https://github.com/galaxyproject/tools-iuc) repository
-
-</small>
-</div>
-
-<br />
-
-**Activities**
-
-* Maintains a set of high quality Galaxy tools in the GitHub [repository](https://github.com/galaxyproject/tools-iuc). This repo serves as an excellent example and inspiration to all Galaxy tool developers.
-* Cultivates and shares the Galaxy tool development best practices [document](http://galaxy-iuc-standards.readthedocs.io/).
-* Provides support to tool developers on a public Gitter [channel](https://gitter.im/galaxy-iuc/iuc).
-
-
-# Galaxy Training Network
-
-<img class="float-right" style="max-width: 15rem;" src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" />
-
-The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is a [network of people](https://training.galaxyproject.org/training-material/hall-of-fame) that create and maintain a [large library of Galaxy and Galaxy-based training materials](https://training.galaxyproject.org/). This material can be used in training and education settings, or used in stand-alone, self-paced training.  It's a good way to learn bioinformatics and Galaxy.
-
-
-# Conda and Bioconda
-
-<img class="float-right" style="max-width: 15rem;" src="/images/logos/bioconda_64.png" alt="Bioconda" />
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/bioconda_64.png" alt="Bioconda logo" />
 
 [Conda](https://conda.io/docs/index.html) is an open source package management system that is heavily used by Galaxy to manage tool dependencies and installations. [Bioconda](https://bioconda.github.io/) is a specific channel for Conda that distributes popular bioinformatics software, many of which have been wrapped by the Galaxy community.
 
+## Open Life Science 
+
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/open-life-science-logo.png" alt="Open life science logo" />
+
+[Open Life Science](https://openlifesci.org/) (OLS) is an online mentoring & training program to help individuals and stakeholders in research to become Open Science ambassadors. Participants of this program learn essential knowledge required to create, lead, and sustain an Open Science project, connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise.
+
+## Outreachy
+
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/outreachy-logo.svg" alt="Outreachy logo" />
+
+[Outreachy](https://www.outreachy.org/) provides internships in open source and open science for people subject to systemic bias and impacted by underrepresentation in the technical industry where they are living. Outreachy internship projects may include programming, research, user experience, documentation, graphical design, data science, marketing, user advocacy, or event planning.
+
+## Bioconductor
+
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/BioconductorLogo.gif" alt="Bioconductor logo" />
+
+The mission of the [Bioconductor project](https://www.bioconductor.org/) is to develop, support, and disseminate free open source software that facilitates rigorous and reproducible analysis of data from current and emerging biological assays. Bioconductor uses the R statistical programming language, and is open source and open development. It has two releases each year, and an active user community.
 
 # Regional Communities
 
@@ -77,3 +58,22 @@ The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is a [n
 | Japan | Pitagora Galaxy Community | [<i class="fab fa-twitter" aria-hidden="true"></i>](https://twitter.com/hashtag/usegalaxyjp) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://wiki.pitagora-galaxy.org) |
 | [The Netherlands](https://www.choosegalaxy.nl/) | Galaxy-NL has a mailing list and annual community meetings. | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team) |
 | UK | Galaxy in the United Kingdom | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyukfriends) |
+| Galaxy Español |Galaxy Spanish-Language Announcements|[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org) |
+| Galaxy Africa | Mailing list for the Galaxy Africa community. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-africa@lists.galaxyproject.org) |
+
+# Communities of practice
+
+| Topic | Info | Links |
+|--------|------|-------|
+| [Metabolomics](https://metabolomics.usegalaxy.eu/) | Community driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) [<i class="fa fa-solid fa-graduation-cap"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/) | 
+| [Ecology](https://ecology.usegalaxy.eu/) | A web platform to get, process, analyze and visualize ecological data | [<i class="fa fa-solid fa-graduation-cap"></i>](https://training.galaxyproject.org/training-material/topics/ecology/) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://ecology.usegalaxy.eu/tours/core.galaxy_ui) | 
+| [Genome Annotation](https://annotation.usegalaxy.eu)| A complete Galaxy instance for Genome Annotation. | |
+| [Climate](https://climate.usegalaxy.eu/) | The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflow | [<i class="fa fa-solid fa-graduation-cap"></i>](https://training.galaxyproject.org/training-material/topics/climate/)|
+|[Proteomics](https://proteore.org/)| Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research  | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) |
+| [Natural Language Processing](http://galaxy.lappsgrid.org/) | An open, interoperable web service platform for natural language processing (NLP) research and development.| [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org |
+| [MicroGalaxy](https://microbiome.usegalaxy.eu/) | All things micro* in Galaxy. The official mailing list of the microGalaxy group. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) |
+| Public Health | Announcements and discussion in the Galaxy Public Health Community.|[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)|
+
+# Set up your own community
+
+What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads/) on how to set up your own.

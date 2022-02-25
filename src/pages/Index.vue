@@ -5,13 +5,19 @@
             <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
         </header>
         <div class="row">
-            <div class="col-sm-5 lead markdown" v-html="$page.main.content" />
+            <section class="col-sm-5" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
+                <div class="lead markdown" v-html="$page.main.content" />
+                <b-row id="get-started-button" class="justify-content-center">
+                    <b-button class="w-75" size="lg" variant="primary" href="/get-started/"> Get Started </b-button>
+                </b-row>
+            </section>
             <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
                 <h3 v-if="$page.jumbotron.title" class="jumbo-title text-center">{{ $page.jumbotron.title }}</h3>
                 <div class="text-center markdown" v-html="$page.jumbotron.content" />
             </section>
         </div>
-
+        <br /><font-awesome-icon icon="fa-regular fa-circle-user" />
+        <i class="fa-regular fa-circle-user"></i>
         <b-row id="profiles" class="justify-content-md-center">
             <HomeProfile
                 title="SCIENTISTS"

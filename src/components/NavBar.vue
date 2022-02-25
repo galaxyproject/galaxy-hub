@@ -15,7 +15,11 @@
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown text="Community">
                     <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
+                    <b-dropdown-item to="/get-started/">Get started</b-dropdown-item>
                     <b-dropdown-item to="/community/contributing/">How to contribute</b-dropdown-item>
+                    <b-dropdown-item href="https://galaxy-mentor-network.netlify.app/"
+                        >Galaxy Mentoring Netowrk</b-dropdown-item
+                    >
                     <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
                     <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                     <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
