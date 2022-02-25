@@ -74,3 +74,6 @@ The mission of the [Bioconductor project](https://www.bioconductor.org/) is to d
 | [MicroGalaxy](https://microbiome.usegalaxy.eu/) | All things micro* in Galaxy. The official mailing list of the microGalaxy group. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) |
 | Public Health | Announcements and discussion in the Galaxy Public Health Community.|[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)|
 
+# Set up your own community
+
+What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads/) on how to set up your own.

@@ -15,7 +15,7 @@ title: Get Started
 The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem. 
 
 ## Step 2 : Get familiar with Galaxy
-
+<div class='right'><img src="/images/undraw-illustrations/teamwork.svg" alt="" width="240" /></div>
 ### Public Servers
 
 The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/). We recommend using one of these :
@@ -48,11 +48,11 @@ Before diving into Galaxy tutorials, you may check [**Galaxy events**](/events/)
 
 ### Galaxy Training Network
 
-We have many more Galaxy Training materials [**here**](https://training.galaxyproject.org/)! The Galaxy Training Network has a great list of tutorials from a variety of topics (_Climate, Transcriptomics, Data Science, Development and more!_) written and maintained by the world-wide Galaxy Community.
+We have many more [**Galaxy Training materials**](https://training.galaxyproject.org/)! The Galaxy Training Network has a great list of tutorials from a variety of topics (_Climate, Transcriptomics, Data Science, Development and more!_) written and maintained by the world-wide Galaxy Community.
 
 ### Galaxy Help & Bug Reports
 
-<img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" />
+<div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" /></div>
 
 Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)? 
 
@@ -68,30 +68,32 @@ Check what others members have done in our [**Publication library**](https://www
 
 ## Step 3:  Your place within the Galaxy Community
 
-<img class="img-fluid float-right" src="/images/undraw-illustrations/connected-people.svg" style="width:200px;height:100px;" alt="community events" />
+<div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/connected-people.svg" style="width:200px;height:100px;" alt="community events" /></div>
 
 Still wonder what the Galaxy Community is about?
-You already know it, you are already part of it! But let’s dive in the complexity of the [Galaxy Communities](/community/)!
+You already know it, you are already part of it! But let’s dive in the complexity of the [**Galaxy Communities**](/community/)!
 
 ### Regional Galaxy Communities
 From India to Australia, Japan to France and many more countries [**Regional Communities**](/community/#regional-communities) are a big part of Galaxy. Find ways to contact them, platforms and lots of other useful links.
 
 ### Galaxy Communities of Practice
 
-Another way communities are formed is by domain such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own servers and mailing list, look for them [**here.**](/community/#communities-of-practice)
+Another way communities are formed is by domain such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own [**servers and mailing list**](/community/#communities-of-practice).
 
 ### Set up your own Community
-What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads).
+What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads) for more.
 
 ## Step 4: Take part and contribute to Galaxy
 
-Look at our [guide](https://galaxyproject.org/community/contributing/) on how to start contributing and there are many ways to do so: coding, writing and creating tutorials, answering questions in Gitter or the Help Forum to mention some ways.
+<div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/collaborators.svg" style="width:200px;height:100px;" alt="community events" /></div>
+
+Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, answering questions in Gitter or the Help Forum to mention some ways.
 
 ### Working Groups
-Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
+Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
 Some of the current Working Groups include Tools, Systems and User Interface/User Experience.
 
-### Galaxy Mentorship Network
+### Galaxy Mentoring Network
 
 Are you ready and excited to start your own project or community, to contribute to Open source or to settle into the Galaxy ecosystem?
 Check out our [**mentoring program.**](https://galaxy-mentor-network.netlify.app/) 
