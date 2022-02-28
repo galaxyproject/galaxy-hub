@@ -2,6 +2,28 @@
 title: usegalaxy.org
 ---
 
+<div class="alert alert-danger trim-p">
+
+<p>
+The global community ([@pastramimachine][pastramimachine]) has created a continuously updated [list of laboratories][ukraine-labs] that can host Ukrainian scientists at all career levels. This list is [here][ukraine-labs]. If your lab can host a scientist -- add your name to the list. In addition, the Galaxy Project has a number of positions open at its EU and US sites. Contact us at [ukraine@galaxyproject.org][ukraine-mail]
+</p>
+
+<p>
+Наукове суспільство ([@pastramimachine][pastramimachine]) створило постійно відновлюємий [список лабораторій][ukraine-labs], які можуть прийняти українських вчених (включаючи аспірантів). Додатково, Galaxy Project має відкриті позиції на своīх європейських та американських сайтах. Контактуйте нас використовуя [ukraine@galaxyproject.org][ukraine-mail]
+</p>
+
+<p>
+Научное сообщество ([@pastramimachine][pastramimachine]) создало постоянно обновляемый [список лабораторий][ukraine-labs], которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя [ukraine@galaxyproject.org][ukraine-mail]
+</p>
+
+[pastramimachine]: https://twitter.com/pastramimachine
+[ukraine-labs]: https://docs.google.com/spreadsheets/d/1jGFCqP2kj1ZAN6xy6EoRN1bozaggk9VEsbzYaIkkYcQ/edit?usp=sharing
+[ukraine-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
+
+</div>
+
+---
+
 #### **Galaxy** is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy [start here][galaxy-101] or consult our <a id="toggleHelp">help resources</a>. You can install your own Galaxy by following the [tutorial][get-galaxy] and choose from thousands of tools from the [Tool Shed](https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial).
 
 <div class="text-center my-5">
