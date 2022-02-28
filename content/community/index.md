@@ -19,6 +19,14 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 
 In 2010 the National Science Foundation initiated a yearly gathering of Galaxy users and developers by providing the project with a grant supplement. Since then this gathering has grown into an annual event known as the **[Galaxy Community Conference (GCC)](/gcc/)**. GCC alternates between North America and elsewhere, and provides a forum for sharing knowledge and building collaborations. There have been over 200 participants every year since 2012.
 
+# Galaxy Mentor Network
+
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/coloured_gmn_text_horizontal.png" alt="GMN logo" />
+
+[Galaxy Mentor Network](https://galaxy-mentor-network.netlify.app/) (GMN) program is an initiative by the Galaxy Community to build her members in open source projects.
+
+It is a two-month mentoring program designed for Galaxy community members to come together as mentors and mentees to achieve a goal, share knowledge and expertise, ask questions, receive feedback, network, and most of all, get support from peers(mentors) without having to wait for days for a response from the community via the Help Forum or communication channels. 
+
 # Interacting communities with Galaxy
 
 ## Conda and Bioconda
