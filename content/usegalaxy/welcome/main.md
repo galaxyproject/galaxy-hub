@@ -4,7 +4,7 @@ title: usegalaxy.org
 
 <div class="alert alert-danger trim-p mt-2">
 
-The global community has created a **[continuously updated list][ua-table]** of laboratories that can host Ukrainian scientists at all career levels. If your lab can host a scientist -- add your name to the list **[here][ua-form]**. In addition, Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]**
+🇺🇦 The global community has created a **[continuously updated list][ua-table]** of laboratories that can host Ukrainian scientists at all career levels. If your lab can host a scientist -- add your name to the list **[here][ua-form]**. In addition, Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]**
 
 <br/>
 
