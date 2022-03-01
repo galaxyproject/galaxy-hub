@@ -4,15 +4,15 @@ title: usegalaxy.org
 
 <div class="alert alert-danger trim-p mt-2">
 
-The global community **([@pastramimachine][pastramimachine])** has created a continuously updated **[list of laboratories][ukraine-labs]** that can host Ukrainian scientists at all career levels. This list is **[here][ukraine-labs]**. If your lab can host a scientist -- add your name to the list. In addition, the Galaxy Project has a number of positions open at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ukraine-mail]**
+The global community has created a **[continuously updated list][ua-table]** of laboratories that can host Ukrainian scientists at all career levels. If your lab can host a scientist -- add your name to the list **[here][ua-form]**. In addition, Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]**
 
 <br/>
 
-Наукове суспільство **([@pastramimachine][pastramimachine])** створило постійно відновлюємий **[список лабораторій][ukraine-labs]**, які можуть прийняти українських вчених (включаючи аспірантів). Додатково, Galaxy Project має відкриті позиції на своīх європейських та американських сайтах. Контактуйте нас використовуя **[ukraine@galaxyproject.org][ukraine-mail]**
+Наукове суспільство створило постійно відновлюємий **[список лабораторій][ua-table]**, які можуть прийняти українських вчених (включаючи аспірантів). Додатково, Galaxy Project має відкриті позиції на своīх європейських та американських сайтах. Контактуйте нас використовуя **[ukraine@galaxyproject.org][ua-mail]**
 
 <br/>
 
-Научное сообщество **([@pastramimachine][pastramimachine])** создало постоянно обновляемый **[список лабораторий][ukraine-labs]**, которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя **[ukraine@galaxyproject.org][ukraine-mail]**
+Научное сообщество создало постоянно обновляемый **[список лабораторий][ua-table]**, которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя **[ukraine@galaxyproject.org][ua-mail]**
 
 </div>
 
@@ -92,6 +92,6 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 [nhgri]: http://www.genome.gov
 [terms]: https://usegalaxy.org/static/terms.html
 
-[pastramimachine]: https://twitter.com/pastramimachine
-[ukraine-labs]: https://docs.google.com/spreadsheets/d/1jGFCqP2kj1ZAN6xy6EoRN1bozaggk9VEsbzYaIkkYcQ/edit?usp=sharing
-[ukraine-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
+[ua-table]: https://bit.ly/ua-table
+[ua-form]: https://bit.ly/ua-form
+[ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
