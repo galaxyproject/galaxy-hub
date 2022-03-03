@@ -5,7 +5,8 @@
 | Date   | Registration | Abstracts | What |
 | -----: | :---: | :---: | --- |
 | Feb 25  | ✔ | ✔ | [Registration](/events/gcc2022/register/) and [abstract submission](/events/gcc2022/abstracts/) open |
-| Apr  12 |   | ✔ | Talk and early poster/demo [abstract submissions](/events/gcc2022/abstracts/) due |
+| Apr  12 |   | ✔ | Talk and early poster/demo [abstract submissions](/events/gcc2022/abstracts/) due; [fellowship applications](/events/gcc2022/register#gcc2022-fellowships) due |
+| May  1  |   | ✔ | Fellowship applicants notified of acceptance status |
 | May  12 |   | ✔ | Talk and early poster/demo submitters notified of acceptance status |
 | May  20 |   | ✔ | Deadline for confirming abstract acceptance |
 | Jun  3 | ✔ | ✔ | Early registration ends; final deadline for [submitting poster/demo abstracts](/events/gcc2022/abstracts/) |

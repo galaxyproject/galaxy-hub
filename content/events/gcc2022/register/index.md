@@ -44,6 +44,14 @@ You can register for 1, 2, or 3 days of [CoFest](/events/gcc2022/cofest/). The r
 
 Cost: **$9 per day**
 
+## GCC2022 Fellowships
+
+We are happy to offer travel support for exceptional students to attend GCC2022. Travel fellowships will be made available for up to 7 students that apply and submit an abstract for a talk. Up to 2 students will be sponsored by the Galaxy Common Fund. Up to additional 5 students will be sponsored by an annoymous donor in honor of [James Taylor](https://galaxyproject.org/jxtx/).
+
+The fellowship will cover the costs of meeting registration, dorm accomodations for 3 nights, conference dinner, up to $750 towards travel expenses, and an option to add CoFest and additional 2 nights dorm accommodation.
+
+To apply, make sure to submit an abstract for a talk AND complete the [fellowship application](https://docs.google.com/forms/d/e/1FAIpQLSczHcK-wlYix-4WqncqW9Lb7EVtIEiev5jkTPrA5G6-JIe_-g/viewform). The first deadline for both is April 12. To give ample time to sort out travel plans, you will be notified around May 1 if you have been selected as a fellowship recepient.
+
 ## Lodging
 
 A number of rooms are the conference hotel were reserved for the duration of the event. Alternatively, you can sign up for lodging on campus in the residence halls as a very affordable option. There are also numerous nearby lodging options in the city. See the [Travel page](/events/gcc2022/travel/) for more details. If you have questions about lodging or need help, please reach out to [Amy Beckham](mailto:amy@sapphyregroup.com).
@@ -51,12 +59,6 @@ A number of rooms are the conference hotel were reserved for the duration of the
 ## Got kids?
 
 GCC2022 welcomes your kids **and will help organize [childcare](/events/gcc2022/childcare/) to meeting participant families.**  Registration for childcare is separate from registration for events.  See the [childcare](/events/gcc2022/childcare/) page for more.
-
-## GCC2022 Fellowships
-
-We are happy to offer travel support for exceptional students to attend GCC2022. Travel fellowships will be made available for 3 students that apply and submit an abstract for a talk. The fellowship will cover the costs of meeting registration, dorm accomodations for 3 nights, conference dinner, and up to $500 towards travel expenses.
-
-To apply, make sure to submit an abstract for a talk and complete the fellowship application (coming soon). The deadline for both is April 12. To give ample time to sort out travel plans, you will be notified around May 1 if you have been selected as a fellowship recepient.
 
 ## Cancelation
 
