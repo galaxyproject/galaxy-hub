@@ -15,7 +15,7 @@ tags:
 
 
 
-Please <a href="https://fmi.zoom.us/j/96520894341?pwd=NDJWTmpzc2s2RktEbTRZVmt2aWU1Zz09">join us</a> at 4 PM CET (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20220315T16&p1=1229&ah=1">see in your timezone</a>) for a discussion about 'Facilitating Galaxy login and accounts with Azure AD'. There will also be time to discuss any current problems you encounter as a maintainer of a Galaxy server.
+Please <a href="https://fmi.zoom.us/j/96520894341?pwd=NDJWTmpzc2s2RktEbTRZVmt2aWU1Zz09">join us</a> at 4 PM CET (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20220315T16&p1=1229&ah=1">see in your timezone</a>) for a discussion about 'Facilitating Galaxy login and accounts with Azure AD' lead by Martin Wolstencroft (University of Bradford). There will also be time to discuss any current problems you encounter as a maintainer of a Galaxy server.
 
 
 
