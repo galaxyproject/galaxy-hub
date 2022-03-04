@@ -20,9 +20,9 @@ read and explore the web site, then you should absolutely do that through
 
 ## Getting started
 
-First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1*](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
+First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1](https://yarnpkg.com/)\*, but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
 
-<sup>*</sup> <small>Do not use Yarn 2.</small>
+\*Do not use Yarn 2.
 
 You can get the site running locally by first cloning this repo:  
 ```sh
@@ -39,8 +39,7 @@ Then you can build the site in development mode to run it in a local server (at 
 ```sh
 $ yarn develop
 ```
-This command includes a hot reloader which will update the site automatically each time you edit a file.  
-Note: There's a [minor known issue](https://github.com/galaxyproject/galaxy-hub/issues/748) that can occur when you're renaming/moving/deleting directories or image files. If you're finding the development server crashes too often, try adding the arguments `--resource copy` to the `yarn develop` command. This fixes the issue, at the cost of a far larger build directory (because all images are copied to it instead of linked).
+This command includes a hot reloader which will update the site automatically each time you edit a file.
 
 To generate the static files for the entire site, just run `build` instead:
 ```sh
