@@ -69,7 +69,7 @@ function main(rawArgv) {
     // Start hot reloader, if running developer server.
     let watcher, cmd2;
     if (command === "develop") {
-        exe = PREPROCESSOR_RELPATH
+        exe = PREPROCESSOR_RELPATH;
         let rawArgs = ["watch", ...argv.slice(3)];
         let args = setPlacerArgs(rawArgs, DEFAULT_PLACERS[command]);
         cmd2 = exe + " " + args.join(" ");
@@ -124,7 +124,7 @@ function setPlacerArgs(args, defaultPlacers) {
     // Parse the arguments for placer options.
     let contentType;
     for (let arg of args) {
-        if (arg.slice(0,2) === "--" && CONTENT_TYPES.includes(arg.slice(2))) {
+        if (arg.slice(0, 2) === "--" && CONTENT_TYPES.includes(arg.slice(2))) {
             // It's a placer argument like --resource or --md.
             contentType = arg.slice(2);
         } else if (contentType) {
