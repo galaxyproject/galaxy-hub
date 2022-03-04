@@ -11,16 +11,8 @@ import * as mdfixer from "./mdfixer.mjs";
 import { repr } from "../utils.js";
 import { PathInfo } from "../paths.js";
 
-// When running `gridsome build` or `develop`, links are sufficient for it to do the right thing
-// (except in the case of `vue-remark`, of course).
-const PREPROCESS_PLACERS = { md: "link", vue: "copy", insert: "link", resource: "link" };
-// But the development server's hot reloader doesn't deal well with links. When the target of a link
-// has been edited, it notices and does some work, but ultimately doesn't recompile the page.
-// Even worse, if a link is ever broken, it crashes.
-const WATCH_PLACERS = { md: "copy", vue: "copy", insert: "copy", resource: "copy" };
-// If we're running mdfixer.mjs on the build directory after partitioning, the Markdown files can't
-// be links. If they are, mdfixer.mjs will overwrite the targets of the links, altering the originals.
-const MDFIX_PREPROCESS_PLACERS = { md: "copy", vue: "copy", insert: "copy", resource: "link" };
+// Without additional context or instructions, default to copy for everything, which is the safest.
+const DEFAULT_PLACERS = { md: "copy", vue: "copy", insert: "copy", resource: "copy" };
 
 // Define command line arguments.
 export const program = new Command();
@@ -82,17 +74,7 @@ function main(command, opts) {
     }
     // Assign placers.
     let placers = {};
-    let defaultPlacers;
-    if (command === "preprocess") {
-        if (opts.fixMarkdown) {
-            defaultPlacers = MDFIX_PREPROCESS_PLACERS;
-        } else {
-            defaultPlacers = PREPROCESS_PLACERS;
-        }
-    } else if (command === "watch") {
-        defaultPlacers = WATCH_PLACERS;
-    }
-    Object.assign(placers, defaultPlacers);
+    Object.assign(placers, DEFAULT_PLACERS);
     for (let contentType of CONTENT_TYPES) {
         if (opts[contentType]) {
             placers[contentType] = opts[contentType];
