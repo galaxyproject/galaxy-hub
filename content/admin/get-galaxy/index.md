@@ -63,8 +63,7 @@ cp config/galaxy.yml.sample config/galaxy.yml
 
 ## Galaxy over network
 
-To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `http` setting. Galaxy will bind to any available ne
-work interfaces on port 8080 instead of the localhost if you add the following:
+To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `http` setting. Galaxy will bind to any available network interfaces on port 8080 instead of the localhost if you add the following:
 
 ```
 gravity:

@@ -8,16 +8,16 @@ Dear Community,
 
 The Galaxy Committers team is pleased to announce the release of Galaxy 22.01.
 
-- **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/22.01_announce.html)** 
+- **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/22.01_announce.html)**. 
 - **[User release announcement](https://docs.galaxyproject.org/en/master/releases/22.01_announce_user.html)**.
 
 A few release highlights are:
 
 ### New Colour Selector
 
-Do you use tools which require colour inputs, like Circos? Previously we
+Do you use tools which require colour inputs, like Circos? Previously, we
 had a very restricted colour input which gave you a very limited
-palette. Now you have complete freedom of choice with the modern colour
+palette. Now, you have complete freedom of choice with the modern colour
 selector.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l2DSGWFEzyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -32,7 +32,7 @@ export files to FTP, Dropbox, and other locations.
 
 ### Improved File Uploads
 
-Previously Galaxy servers used a variety of methods to let you upload
+Previously, Galaxy servers used a variety of methods to let you upload
 large files easily, including some servers which required FTP for large
 files. We have replaced this with a new upload method, which will be enabled on all usegalaxy servers soon.
 This will make file uploads significantly smoother, and will be more tolerant of network
@@ -42,7 +42,7 @@ failures and interruptions! You do not need to make any changes.
 
 If you've been trying out the beta history (which will be the default
 history in the next release!), it has been updated to indicate whether collections
-are homogeneous or heterogeneous, which will help you see more easily if
+are homogeneous or heterogeneous. This will help you see more easily if
 you've accidentally included an incorrect dataset. Test out the beta
 history today and let us know if you have any issues!
 
@@ -53,7 +53,7 @@ history today and let us know if you have any issues!
 Starting Galaxy via ``run.sh`` will use the new [gravity process manager](https://github.com/galaxyproject/gravity).
 The new configuration uses [Gunicorn](https://gunicorn.org/) and [FastAPI](https://fastapi.tiangolo.com/) to drive Galaxy's web process,
 and starts job handler and [Celery](https://docs.celeryproject.org/) processes automatically.
-For more details and instructions please consult the [Migrating to Gunicorn documentation](https://docs.galaxyproject.org/en/latest/admin/migrating_to_gunicorn).
+For more details and instructions, please consult the [Migrating to Gunicorn documentation](https://docs.galaxyproject.org/en/latest/admin/migrating_to_gunicorn).
 
 ### User Preferences can be encrypted in Galaxy Vault
 
