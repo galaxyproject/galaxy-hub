@@ -72,21 +72,7 @@ query {
     totalCount
     edges {
       node {
-        id
-        title
-        tease
-        location
-        location_url
-        continent
-        contact
-        external_url
-        gtn
-        links {
-          text
-          url
-        }
-        date (format: "D MMMM YYYY")
-        path
+        ...articleFields
       }
     }
   }
@@ -99,23 +85,26 @@ query {
     totalCount
     edges {
       node {
-        id
-        title
-        tease
-        location
-        location_url
-        continent
-        contact
-        external_url
-        gtn
-        links {
-          text
-          url
-        }
-        date (format: "D MMMM YYYY")
-        path
+        ...articleFields
       }
     }
   }
+}
+fragment articleFields on Article {
+  id
+  title
+  tease
+  location
+  location_url
+  continent
+  contact
+  external_url
+  gtn
+  links {
+    text
+    url
+  }
+  date (format: "D MMMM YYYY")
+  path
 }
 </page-query>

@@ -49,20 +49,7 @@ query {
     totalCount
     edges {
       node {
-        id
-        title
-        date (format: "D MMM YYYY")
-        closes (format: "D MMM YYYY")
-        closed
-        continent
-        location
-        location_url
-        external_url
-        contact
-        summary
-        images
-        image
-        path
+        ...articleFields
       }
     }
   }
@@ -72,22 +59,25 @@ query {
     totalCount
     edges {
       node {
-        id
-        title
-        date (format: "D MMM YYYY")
-        closes (format: "D MMM YYYY")
-        closed
-        continent
-        location
-        location_url
-        external_url
-        contact
-        summary
-        images
-        image
-        path
+        ...articleFields
       }
     }
   }
+}
+fragment articleFields on Article {
+  id
+  title
+  date (format: "D MMM YYYY")
+  closes (format: "D MMM YYYY")
+  closed
+  continent
+  location
+  location_url
+  external_url
+  contact
+  summary
+  images
+  image
+  path
 }
 </page-query>
