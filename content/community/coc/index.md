@@ -5,9 +5,9 @@ title: "Galaxy Project Code of Conduct"
 
 <img src="/images/undraw-illustrations/coc.svg" alt="coc" style="width:230px; float:right;"/>
 
-The Galaxy Community is dedicated to provide a harassment-free experience for everyone. We do not tolerate harassment of participants in any form.
+The Galaxy Community is dedicated to provide a harassment-free experience for everyone. We do not tolerate harassment in any form.
 
-This Code of Conduct outlines the behaviours deemed acceptable and unacceptable to the global Galaxy community and applies to all public Galaxy spaces, including but not limited to GitHub, gitter, matrix, Slack, twitter and the Galaxy mailing lists, both online and off. 
+This Code of Conduct outlines the behaviours deemed acceptable and unacceptable to the global Galaxy community and applies to all public Galaxy spaces, including but not limited to events, GitHub, Gitter, Matrix, Slack, Twitter and the Galaxy mailing lists, both online and off. 
 
 Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the [Galaxy CoC Committee](#the-galaxy-coc-committee).
 Some Galaxy Community spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
@@ -56,7 +56,7 @@ The Galaxy Community prioritizes marginalized people’s safety over privileged 
 
 ### Reporting
 
-If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form](https://forms.gle/gEMubTrW9ifwemqe6) that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct committee as a group, you can contact any individual committee member via email. If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
+If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form](https://forms.gle/gEMubTrW9ifwemqe6) that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct Committee as a group, you can contact any individual Committee member via email. If the person who is harassing you is on the Committee, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
 To protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. 
 
@@ -100,4 +100,4 @@ That code of conduct served us reasonably well over the years, but it is time fo
 
 As a result it is past time to update both our code of conduct and our process for maintaining it.  The first step in that was to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
 
-The Galaxy Outreach and Training [Working Group](/community/wg/) has worked on a first draft of a new code and new processes. The final code and processes we adopt is implemented only after it has been discussed, revised, and approved by the community.
+The Galaxy Outreach and Training [Working Group](/community/wg/) has worked on a first draft of a new Code and new processes. The final Code and processes were adopted after being discussed, revised, and approved by the community.
