@@ -90,7 +90,7 @@ The Galaxy Code of Conduct Committee has appointed an Ombudsperson from the Bioc
 
 ### Attribution & Acknowledgements
 
-This CoC is based on the Geek Feminism Code of Conduct and the [Open Code of Conduct from the TODOGroup](https://todogroup.org/blog/followup-open-code-of-conduct/).
+This CoC is based on the [Geek Feminism Code of Conduct](https://geekfeminismdotorg.wordpress.com/about/code-of-conduct/) and the [Open Code of Conduct from the TODOGroup](https://todogroup.org/blog/followup-open-code-of-conduct/).
 
 ### Historical note
 
