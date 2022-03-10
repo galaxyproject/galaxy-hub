@@ -84,7 +84,7 @@ The Galaxy Code of Conduct Committee has appointed an Ombudsperson from the Bioc
 
 | Member | Pronouns | Language | Location | Relevant information |
 | --- | --- | --- | --- | --- |
-| [Laurent Gatto](mailto:laurent.gatto@gmail.com) | he/him | FR, EN | BE | Ombudsperson, member of the Bioconductor community |
+| [Laurent Gatto](mailto:laurent.gatto@gmail.com) | he/him | FR, EN | BE | Ombudsperson, member of the Bioconductor CoC Committee |
 
 ### Attribution & Acknowledgements
 
