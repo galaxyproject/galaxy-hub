@@ -16,14 +16,14 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/usegalaxy/welcome/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
+    main: insert(path: "/insert:/usegalaxy/welcome/main/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
     }
-  }
 }
 </page-query>
 

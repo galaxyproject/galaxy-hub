@@ -65,59 +65,59 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/events/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
+    main: insert(path: "/insert:/events/main/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
     }
-  }
-  footer: insert(path: "/insert:/events/footer/") {
-    id
-    title
-    content
-  }
-  upcoming: allArticle(
-      sortBy: "date", order: ASC, filter: {
-        category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}
-      }
+    footer: insert(path: "/insert:/events/footer/") {
+        id
+        title
+        content
+    }
+    upcoming: allArticle(
+        sortBy: "date", order: ASC, filter: {
+            category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}
+        }
     ) {
-    totalCount
-    edges {
-      node {
-        ...articleFields
-      }
+        totalCount
+        edges {
+            node {
+                ...articleFields
+            }
+        }
     }
-  }
-  recent: allArticle(
-      sortBy: "date", order: DESC, filter: {
-        category: {eq: "events"}, has_date: {eq: true}, days_ago: {between: [1, 365]}, draft: {ne: true}
-      }
+    recent: allArticle(
+        sortBy: "date", order: DESC, filter: {
+            category: {eq: "events"}, has_date: {eq: true}, days_ago: {between: [1, 365]}, draft: {ne: true}
+        }
     ) {
-    totalCount
-    edges {
-      node {
-        ...articleFields
-      }
+        totalCount
+        edges {
+            node {
+                ...articleFields
+            }
+        }
     }
-  }
 }
 fragment articleFields on Article {
-  id
-  title
-  tease
-  location
-  location_url
-  continent
-  contact
-  external_url
-  gtn
-  links {
-    text
-    url
-  }
-  date (format: "D MMMM YYYY")
-  path
+    id
+    title
+    tease
+    location
+    location_url
+    continent
+    contact
+    external_url
+    gtn
+    links {
+        text
+        url
+    }
+    date (format: "D MMMM YYYY")
+    path
 }
 </page-query>

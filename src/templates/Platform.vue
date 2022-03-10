@@ -50,29 +50,29 @@
 
 <page-query>
 query Platform($path: String!) {
-   platform(path: $path) {
-    id
-    title
-    url
-    image
-    images
-    platforms {
-      platform_group
-      platform_url
-      platform_text
+    platform(path: $path) {
+        id
+        title
+        url
+        image
+        images
+        platforms {
+            platform_group
+            platform_url
+            platform_text
+        }
+        scope
+        summary
+        comments
+        user_support
+        pub_libraries
+        quotas
+        citations
+        sponsors
+        fileInfo {
+            path
+        }
     }
-    scope
-    summary
-    comments
-    user_support
-    pub_libraries
-    quotas
-    citations
-    sponsors
-    fileInfo {
-        path
-    }
-  }
 }
 </page-query>
 

@@ -26,31 +26,31 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/news/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
-    }
-  }
-  footer: insert(path: "/insert:/news/footer/") {
-    id
-    title
-    content
-  }
-  articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "news"}, draft: {ne: true}}) {
-    totalCount
-    edges {
-      node {
+    main: insert(path: "/insert:/news/main/") {
         id
         title
-        tease
-        external_url
-        date (format: "D MMMM YYYY")
-        path
-      }
+        content
+        fileInfo {
+            path
+        }
     }
-  }
+    footer: insert(path: "/insert:/news/footer/") {
+        id
+        title
+        content
+    }
+    articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "news"}, draft: {ne: true}}) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                date (format: "D MMMM YYYY")
+                path
+            }
+        }
+    }
 }
 </page-query>

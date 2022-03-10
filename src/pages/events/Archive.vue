@@ -37,44 +37,44 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/events/archive/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
-    }
-  }
-  footer: insert(path: "/insert:/events/archive/footer/") {
-    id
-    title
-    content
-  }
-  events: allArticle(
-      sortBy: "date", order: DESC, filter: {
-        category: {eq: "events"}, has_date: {eq: true}, days_ago: {gt: 364}, draft: {ne: true}
-      }
-    ) {
-    totalCount
-    edges {
-      node {
+    main: insert(path: "/insert:/events/archive/main/") {
         id
         title
-        tease
-        location
-        location_url
-        continent
-        contact
-        external_url
-        gtn
-        links {
-          text
-          url
+        content
+        fileInfo {
+            path
         }
-        date (format: "D MMMM YYYY")
-        path
-      }
     }
-  }
+    footer: insert(path: "/insert:/events/archive/footer/") {
+        id
+        title
+        content
+    }
+    events: allArticle(
+        sortBy: "date", order: DESC, filter: {
+            category: {eq: "events"}, has_date: {eq: true}, days_ago: {gt: 364}, draft: {ne: true}
+        }
+    ) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                location
+                location_url
+                continent
+                contact
+                external_url
+                gtn
+                links {
+                    text
+                    url
+                }
+                date (format: "D MMMM YYYY")
+                path
+            }
+        }
+    }
 }
 </page-query>

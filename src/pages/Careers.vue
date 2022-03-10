@@ -30,54 +30,54 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/careers/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
+    main: insert(path: "/insert:/careers/main/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
     }
-  }
-  footer: insert(path: "/insert:/careers/footer/") {
-    id
-    title
-    content
-  }
-  openings: allArticle(sortBy: "date", order: DESC, filter: {
-    category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
-  }) {
-    totalCount
-    edges {
-      node {
-        ...articleFields
-      }
+    footer: insert(path: "/insert:/careers/footer/") {
+        id
+        title
+        content
     }
-  }
-  previous: allArticle(sortBy: "date", order: DESC, filter: {
-    category: {eq: "careers"}, closed: {eq: true}, draft: {ne: true}
-  }) {
-    totalCount
-    edges {
-      node {
-        ...articleFields
-      }
+    openings: allArticle(sortBy: "date", order: DESC, filter: {
+        category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
+    }) {
+        totalCount
+        edges {
+            node {
+                ...articleFields
+            }
+        }
     }
-  }
+    previous: allArticle(sortBy: "date", order: DESC, filter: {
+        category: {eq: "careers"}, closed: {eq: true}, draft: {ne: true}
+    }) {
+        totalCount
+        edges {
+            node {
+                ...articleFields
+            }
+        }
+    }
 }
 fragment articleFields on Article {
-  id
-  title
-  date (format: "D MMM YYYY")
-  closes (format: "D MMM YYYY")
-  closed
-  continent
-  location
-  location_url
-  external_url
-  contact
-  summary
-  images
-  image
-  path
+    id
+    title
+    date (format: "D MMM YYYY")
+    closes (format: "D MMM YYYY")
+    closed
+    continent
+    location
+    location_url
+    external_url
+    contact
+    summary
+    images
+    image
+    path
 }
 </page-query>

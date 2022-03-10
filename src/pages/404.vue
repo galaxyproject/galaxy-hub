@@ -69,13 +69,13 @@ function isFilenamePath(path, maxExtLen = 6) {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/404/") {
-    id
-    title
-    content
-    fileInfo {
-      path
+    main: insert(path: "/insert:/404/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
     }
-  }
 }
 </page-query>
