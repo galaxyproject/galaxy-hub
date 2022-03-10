@@ -56,7 +56,7 @@ The Galaxy Community prioritizes marginalized people’s safety over privileged 
 
 ### Reporting
 
-If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form](https://forms.gle/gEMubTrW9ifwemqe6) that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct Committee as a group, you can contact any individual Committee member via email. If the person who is harassing you is on the Committee, they will recuse themselves from handling your incident. We will respond as promptly as we can.
+If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form](bit.ly/reporting-coc) that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct Committee as a group, you can contact any individual Committee member via email. If the person who is harassing you is on the Committee, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
 To protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. 
 
