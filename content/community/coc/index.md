@@ -72,11 +72,11 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 
 ### The Galaxy CoC Committee
 
-| Member | Pronouns | Language | Location | Seniority in the project | Relevant information |
+| Member | Pronouns | Language | Location | Years in the project | Relevant information |
 | --- | --- | --- | --- | --- | --- |
 | [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2 ||
 | [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2 | Ombudsperson in the Bioconductor Community CoC Committee |
-| [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL EN FR | BE | 7 ||
+| [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL, EN, FR | BE | 7 ||
 | [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 9 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project |
 | [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 16 | Retired, not funded by the Galaxy project |
 
