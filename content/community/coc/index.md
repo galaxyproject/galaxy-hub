@@ -76,16 +76,14 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 | --- | --- | --- | --- | --- | --- |
 | [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2 ||
 | [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2 | Ombudsperson in the Bioconductor Community CoC Committee |
-| [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | EN | BE | 7 ||
-| [Gareth Price](mailto:g.price@qcif.edu.au) | he/him | EN | AU | 5 ||
+| [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL EN FR | BE | 7 ||
 | [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 9 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project |
-| [Mike Schatz](mailto:mschatz@cs.jhu.edu) | he/him | EN | US | 2 | Galaxy PI |
 | [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 16 | Retired, not funded by the Galaxy project |
 
 The Galaxy Code of Conduct Committee has appointed an Ombudsperson from the Bioconductor community to provide independent and impartial oversight and to resolve conflicts. This person can be contacted in case you believe that other avenues of reporting may be biased.
 
 | Member | Pronouns | Language | Location | Relevant information |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | [Laurent Gatto](mailto:laurent.gatto@gmail.com) | he/him | FR, EN | BE | Ombudsperson, member of the Bioconductor community |
 
 ### Attribution & Acknowledgements
