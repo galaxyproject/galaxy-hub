@@ -208,11 +208,7 @@ query {
         totalCount
         edges {
             node {
-                id
-                title
-                tease
-                external_url
-                path
+                ...articleFields
             }
         }
     }
@@ -223,12 +219,8 @@ query {
         totalCount
         edges {
             node {
-                id
-                title
-                tease
+                ...articleFields
                 date (format: "MMM D")
-                external_url
-                path
             }
         }
     }
@@ -236,11 +228,7 @@ query {
         totalCount
         edges {
             node {
-                id
-                title
-                tease
-                external_url
-                path
+                ...articleFields
             }
         }
     }
@@ -260,6 +248,13 @@ query {
             }
         }
     }
+}
+fragment articleFields on Article {
+    id
+    title
+    tease
+    external_url
+    path
 }
 </page-query>
 

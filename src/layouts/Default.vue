@@ -46,14 +46,14 @@ function addGATag() {
 
 <static-query>
 query {
-  metadata {
-    siteName
-  }
-  footer: insert(path: "/insert:/site-footer/") {
-    id
-    title
-    content
-  }
+    metadata {
+        siteName
+    }
+    footer: insert(path: "/insert:/site-footer/") {
+        id
+        title
+        content
+    }
 }
 </static-query>
 

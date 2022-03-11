@@ -10,3 +10,4 @@ location_url: ""
 external_url: "https://training.vib.be/all-trainings/bulk-rnaseq-counts-differential-expression-online-1"
 gtn: false
 contact: "Janick Mathys"
+---

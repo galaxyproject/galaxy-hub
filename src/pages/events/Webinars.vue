@@ -51,72 +51,61 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/events/webinars/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
-    }
-  }
-  footer: insert(path: "/insert:/events/webinars/footer/") {
-    id
-    title
-    content
-  }
-  upcoming: allArticle(
-      sortBy: "date", order: ASC, filter: {
-        category: {eq: "events"}, tags: {contains: "webinar"}, draft: {ne: true},
-        has_date: {eq: true}, days_ago: {lte: 0}
-      }
-    ) {
-    totalCount
-    edges {
-      node {
+    main: insert(path: "/insert:/events/webinars/main/") {
         id
         title
-        tease
-        location
-        location_url
-        continent
-        contact
-        external_url
-        gtn
-        links {
-          text
-          url
+        content
+        fileInfo {
+            path
         }
-        date (format: "D MMMM YYYY")
-        path
-      }
     }
-  }
-  recent: allArticle(
-      sortBy: "date", order: DESC, filter: {
-        category: {eq: "events"}, tags: {contains: "webinar"},
-        has_date: {eq: true}, days_ago: {between: [1, 365]}
-      }
-    ) {
-    totalCount
-    edges {
-      node {
+    footer: insert(path: "/insert:/events/webinars/footer/") {
         id
         title
-        tease
-        location
-        location_url
-        continent
-        contact
-        external_url
-        gtn
-        links {
-          text
-          url
-        }
-        date (format: "D MMMM YYYY")
-        path
-      }
+        content
     }
-  }
+    upcoming: allArticle(
+        sortBy: "date", order: ASC, filter: {
+            category: {eq: "events"}, tags: {contains: "webinar"}, draft: {ne: true},
+            has_date: {eq: true}, days_ago: {lte: 0}
+        }
+    ) {
+        totalCount
+        edges {
+            node {
+                ...articleFields
+            }
+        }
+    }
+    recent: allArticle(
+        sortBy: "date", order: DESC, filter: {
+            category: {eq: "events"}, tags: {contains: "webinar"},
+            has_date: {eq: true}, days_ago: {between: [1, 365]}
+        }
+    ) {
+        totalCount
+        edges {
+            node {
+                ...articleFields
+            }
+        }
+    }
+}
+fragment articleFields on Article {
+    id
+    title
+    tease
+    location
+    location_url
+    continent
+    contact
+    external_url
+    gtn
+    links {
+        text
+        url
+    }
+    date (format: "D MMMM YYYY")
+    path
 }
 </page-query>

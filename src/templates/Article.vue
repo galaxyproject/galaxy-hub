@@ -7,36 +7,36 @@
 </template>
 
 <page-query>
-query Article ($path: String!) {
-   article: article (path: $path) {
-    id
-    title
-    tease
-    category
-    date (format: "YYYY-MM-DD")
-    end (format: "YYYY-MM-DD")
-    contact
-    contact_url
-    authors
-    location
-    location_url
-    source_blog
-    source_blog_url
-    skip_title_render
-    redirect
-    external_url
-    autotoc
-    links {
-      url
-      text
+query Article($path: String!) {
+    article: article(path: $path) {
+        id
+        title
+        tease
+        category
+        date (format: "YYYY-MM-DD")
+        end (format: "YYYY-MM-DD")
+        contact
+        contact_url
+        authors
+        location
+        location_url
+        source_blog
+        source_blog_url
+        skip_title_render
+        redirect
+        external_url
+        autotoc
+        links {
+            url
+            text
+        }
+        image
+        images
+        fileInfo {
+            path
+        }
+        content
     }
-    image
-    images
-    fileInfo {
-        path
-    }
-    content
-  }
 }
 </page-query>
 

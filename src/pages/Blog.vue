@@ -34,34 +34,34 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/blog/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
-    }
-  }
-  footer: insert(path: "/insert:/blog/footer/") {
-    id
-    title
-    content
-  }
-  articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
-    totalCount
-    edges {
-      node {
+    main: insert(path: "/insert:/blog/main/") {
         id
         title
-        tease
-        authors
-        source_blog
-        source_blog_url
-        external_url
-        date (format: "D MMM YYYY")
-        path
-      }
+        content
+        fileInfo {
+            path
+        }
     }
-  }
+    footer: insert(path: "/insert:/blog/footer/") {
+        id
+        title
+        content
+    }
+    articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                authors
+                source_blog
+                source_blog_url
+                external_url
+                date (format: "D MMM YYYY")
+                path
+            }
+        }
+    }
 }
 </page-query>
