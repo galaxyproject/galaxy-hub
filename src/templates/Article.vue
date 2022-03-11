@@ -12,7 +12,6 @@ query Article($path: String!) {
         id
         title
         tease
-        subsites
         category
         date (format: "YYYY-MM-DD")
         end (format: "YYYY-MM-DD")
