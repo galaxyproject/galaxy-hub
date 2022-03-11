@@ -7,6 +7,6 @@ continent: EU
 location: "University of Freiburg, Freiburg, Germany"
 image: "/images/logos/uni-freiburg-wide.png"
 location_url: "https://uni-freiburg.de/en/"
-external_url: "hhttps://docs.google.com/document/d/1iwg6Fsurzo8WITeGS7BD75E7cnzuVKKKRosVapCT4XA/preview"
+external_url: "https://docs.google.com/document/d/1YUH28cytkRre17n2MztAU3KsYtTXwWis-wpZVLa-nnE/preview"
 contact: ""
 ---
