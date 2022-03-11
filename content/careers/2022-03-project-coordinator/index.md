@@ -1,8 +1,8 @@
 ---
-title: "Project Coordinator"
+title: "Project Manager"
 date: "2022-03-11"
 closes: ""
-summary: "Coordinate project manager to coordinate the EuroScienceGateway Horizon Europe grant with 16 European partners."
+summary: "Coordinate the EuroScienceGateway Horizon Europe project with main responsibilities in project administration, management and financial management."
 continent: EU
 location: "University of Freiburg, Freiburg, Germany"
 image: "/images/logos/uni-freiburg-wide.png"
