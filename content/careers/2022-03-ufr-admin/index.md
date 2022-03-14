@@ -1,7 +1,7 @@
 ---
 title: "Systems / DevOps Engineer"
 date: "2022-03-11"
-closes: ""
+closes: "2022-04-15"
 summary: "Implementing, supporting, and documenting several large-scale application systems. This role includes, but is not limited to, the installation, modification, testing, and upgrades of applications, operating systems, file systems, hardware, and cloud environments. The work will be carried out together with other administrators."
 continent: EU
 location: "University of Freiburg, Freiburg, Germany"
