@@ -1,7 +1,7 @@
 ---
 title: "Project Manager"
 date: "2022-03-11"
-closes: ""
+closes: "2022-04-15"
 summary: "Coordinate the EuroScienceGateway Horizon Europe project with main responsibilities in project administration, management and financial management."
 continent: EU
 location: "University of Freiburg, Freiburg, Germany"
