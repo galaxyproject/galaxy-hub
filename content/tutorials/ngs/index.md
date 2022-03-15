@@ -1,5 +1,5 @@
 ---
-title: Manupulating NGS data with Galaxy
+title: Manipulating NGS data with Galaxy
 redirect: "/learn"
 ---
 
