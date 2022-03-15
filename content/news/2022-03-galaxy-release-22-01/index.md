@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy Release 22.01'
 tease: Colour Selector, Robust File Uploads, Beta History Improvements, FastAPI, Galaxy Vault & much more!
-date: '2021-11-02'
+date: '2022-03-15'
 ---
 
 Dear Community,
