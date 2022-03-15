@@ -43,8 +43,7 @@ failures and interruptions! You do not need to make any changes.
 If you've been trying out the beta history (which will be the default
 history in the next release!), it has been updated to indicate whether collections
 are homogeneous or heterogeneous. This will help you see more easily if
-you've accidentally included an incorrect dataset. Test out the beta
-history today and let us know if you have any issues!
+you've accidentally included an incorrect dataset.
 
 ![](https://user-images.githubusercontent.com/46503462/146426341-d16d07d8-164b-40ef-976a-52e73d94bfc9.png)
 
