@@ -187,7 +187,7 @@ function setupBuildDirs(buildDirs, clear, simulate, verbose) {
                 console.log(repr`Clearing out existing files in build directory ${dirPath}`);
             }
             if (!simulate) {
-                fs.rmdirSync(dirPath, { recursive: true });
+                fs.rmSync(dirPath, { recursive: true });
             }
         }
         if (!simulate) {
