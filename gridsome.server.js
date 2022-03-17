@@ -8,6 +8,9 @@
 const fs = require("fs");
 const path = require("path");
 const dayjs = require("dayjs");
+var toArray = require("dayjs/plugin/toArray");
+dayjs.extend(toArray);
+const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
 const { repr, rmPrefix, rmSuffix, matchesPrefixes } = require("./src/utils.js");
 const CONFIG = require("./config.json");
@@ -280,6 +283,36 @@ module.exports = function (api) {
         `);
     });
 
+    let eventsData;
+    api.createPages(async ({ graphql }) => {
+        eventsData = await graphql(`
+            query {
+                allArticle(filter: { category: { eq: "events" } }) {
+                    totalCount
+                    edges {
+                        node {
+                            id
+                            title
+                            tease
+                            location
+                            location_url
+                            continent
+                            contact
+                            external_url
+                            gtn
+                            links {
+                                text
+                                url
+                            }
+                            date(format: "D MMMM YYYY")
+                            path
+                        }
+                    }
+                }
+            }
+        `);
+    });
+
     api.configureServer(async (app) => {
         // Serve /use/feed.json from develop server.
         app.get("/use/feed.json", (request, response) => {
@@ -296,8 +329,49 @@ module.exports = function (api) {
         fs.writeFile(feedPath, makePlatformsJson(platformsData), (error) => {
             if (error) throw error;
         });
+
+        // Write all events to /events/calendar.ics
+        let eventsOutDir = path.join(__dirname, "dist", "events");
+        fs.mkdirSync(eventsOutDir, { recursive: true });
+        let calPath = path.join(eventsOutDir, "calendar.ics");
+        let cal = makeCalendar(eventsData);
+        fs.writeFile(calPath, cal, (error) => {
+            if (error) throw error;
+        });
     });
 };
+
+function makeCalendar(eventsData) {
+    let events = [];
+    for (let event of eventsData.data.allArticle.edges) {
+        event = event.node;
+        if (event.date) {
+            const evt = {};
+            const start = dayjs(event.date);
+            const end = start.add(event.days || 1, "day");
+            // This is so dumb, but month is 0-based in dayjs
+            evt.start = start.toArray().slice(0, 3);
+            evt.start[1] += 1;
+            evt.end = end.toArray().slice(0, 3);
+            evt.end[1] += 1;
+            evt.title = event.title;
+            if (event.tease) {
+                evt.description = event.tease;
+            }
+            if (event.location) {
+                evt.location = event.location;
+            }
+            //evt.url = event.external_url, // or direct link if it exists
+            //organizer: { name: event.contact },
+            events.push(evt);
+        }
+    }
+    const { error, value } = ics.createEvents(events);
+    if (error) {
+        console.error("Error creating calendar:", error);
+    }
+    return value;
+}
 
 function makePlatformsJson(platformsData) {
     let platforms = platformsData.data.platforms.edges.map((edge) => {
