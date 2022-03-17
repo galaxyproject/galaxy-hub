@@ -8,8 +8,8 @@
 const fs = require("fs");
 const path = require("path");
 const dayjs = require("dayjs");
-var toArray = require('dayjs/plugin/toArray')
-dayjs.extend(toArray)
+var toArray = require("dayjs/plugin/toArray");
+dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
 const { repr, rmPrefix, rmSuffix, matchesPrefixes } = require("./src/utils.js");
@@ -350,9 +350,9 @@ function makeCalendar(eventsData) {
             const start = dayjs(event.date);
             const end = start.add(event.days || 1, "day");
             // This is so dumb, but month is 0-based in dayjs
-            evt.start = start.toArray().slice(0,3)
+            evt.start = start.toArray().slice(0, 3);
             evt.start[1] += 1;
-            evt.end = end.toArray().slice(0,3)
+            evt.end = end.toArray().slice(0, 3);
             evt.end[1] += 1;
             evt.title = event.title;
             if (event.tease) {
