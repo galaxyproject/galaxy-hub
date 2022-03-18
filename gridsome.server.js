@@ -305,6 +305,7 @@ module.exports = function (api) {
                                 url
                             }
                             date(format: "D MMMM YYYY")
+                            days
                             path
                         }
                     }
@@ -361,8 +362,17 @@ function makeCalendar(eventsData) {
             if (event.location) {
                 evt.location = event.location;
             }
-            //evt.url = event.external_url, // or direct link if it exists
-            //organizer: { name: event.contact },
+            if (event.external_url) {
+                if (event.external_url.startsWith("/")) {
+                    // event's external_url isn't actually external, it's just somewhere else on the site
+                    evt.url = `https://${CONFIG.host}${event.external_url}`;
+                } else {
+                    evt.url = event.external_url;
+                }
+            } else {
+                evt.url = `https://${CONFIG.host}${event.path}`;
+            }
+
             events.push(evt);
         }
     }

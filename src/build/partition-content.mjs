@@ -207,7 +207,7 @@ export class Partitioner {
                 }
             } else if (buildPathType === "dir") {
                 if (!this.simulate) {
-                    fs.rmdirSync(buildPath, { recursive: true });
+                    fs.rmSync(buildPath, { recursive: true });
                 }
             } else if (buildPathType !== "nonexistent") {
                 throw repr`Cannot remove special file ${buildPath}`;
@@ -384,7 +384,7 @@ function deleteEmptyDirs(dirPath) {
     }
     // readdirSync again because the above loop might've deleted some.
     if (fs.readdirSync(dirPath).length === 0) {
-        fs.rmdirSync(dirPath);
+        fs.rmSync(dirPath, { recursive: true });
     }
 }
 
