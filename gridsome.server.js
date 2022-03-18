@@ -356,9 +356,6 @@ function makeCalendar(eventsData) {
             evt.end = end.toArray().slice(0, 3);
             evt.end[1] += 1;
             evt.title = event.title;
-            if (event.tease) {
-                evt.description = event.tease;
-            }
             if (event.location) {
                 evt.location = event.location;
             }
@@ -372,6 +369,9 @@ function makeCalendar(eventsData) {
             } else {
                 evt.url = `https://${CONFIG.host}${event.path}`;
             }
+            evt.description = event.tease ? `${event.tease}\n\n` : "";
+            // Google calendar handles event links poorly; embed in description as well
+            evt.description += `Event Link:\n${evt.url}`;
 
             events.push(evt);
         }
