@@ -305,6 +305,7 @@ module.exports = function (api) {
                                 url
                             }
                             date(format: "D MMMM YYYY")
+                            days
                             path
                         }
                     }
