@@ -33,6 +33,7 @@
                     <b-dropdown-item to="/citing-galaxy/">Citing Galaxy</b-dropdown-item>
                     <b-dropdown-item to="/images/galaxy-logos/">Branding</b-dropdown-item>
                 </b-nav-item-dropdown>
+                <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                 <b-nav-item to="/projects/covid19/">Covid19</b-nav-item>
                 <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
             </b-navbar-nav>
