@@ -88,6 +88,7 @@ F1000Research operates a unique post-publication open peer review process, enabl
 | [Natural Language Processing](http://galaxy.lappsgrid.org/) | An open, interoperable web service platform for natural language processing (NLP) research and development.| [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org) |
 | [MicroGalaxy](https://microbiome.usegalaxy.eu/) | All things micro* in Galaxy. The official mailing list of the microGalaxy group. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) |
 | Public Health | Announcements and discussion in the Galaxy Public Health Community.|[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)|
+| Small Scale Servers |  Admins of small scale Galaxy servers |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/small-scale-admins.lists.galaxyproject.org/)|
 
 # Set up your own community
 
