@@ -53,6 +53,13 @@ It is a two-month mentoring program designed for Galaxy community members to com
 
 The mission of the [Bioconductor project](https://www.bioconductor.org/) is to develop, support, and disseminate free open source software that facilitates rigorous and reproducible analysis of data from current and emerging biological assays. Bioconductor uses the R statistical programming language, and is open source and open development. It has two releases each year, and an active user community.
 
+## F1000Research
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/f1000-logo-simple.jpg" alt="F1000Research logo" />
+
+[F1000Research](https://f1000research.com/?utm_source=shared_link&utm_medium=post&utm_campaign=JRC27054) enables scientists and scholars to publish their research rapidly, openly, and transparently via an author-centric platform. We publish research across all academic disciplines and in multiple formats, including original articles, data notes, software tool articles and method articles. 
+
+F1000Research operates a unique post-publication open peer review process, enabling authors to engage with their reviewers transparently, whilst also making the research available to a global audience as quickly as possible.
+
 # Regional Communities
 
 | Region | Info | Links |
