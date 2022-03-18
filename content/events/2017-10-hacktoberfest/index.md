@@ -5,7 +5,6 @@ days: 31
 tease: Online...
 continent: GL
 location: Online
-external_url: /events/2017-10-hacktoberfest/
 contact: Enis and Martin
 ---
 
