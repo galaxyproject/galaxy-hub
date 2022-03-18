@@ -17,9 +17,7 @@
                     <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
                     <b-dropdown-item to="/get-started/">Get started</b-dropdown-item>
                     <b-dropdown-item to="/community/contributing/">How to contribute</b-dropdown-item>
-                    <b-dropdown-item href="https://galaxy-mentor-network.netlify.app/"
-                        >Galaxy Mentor Network</b-dropdown-item
-                    >
+                    <b-dropdown-item href="https://galaxy-mentor-network.netlify.app/">Galaxy Mentor Network</b-dropdown-item>
                     <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
                     <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                     <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
@@ -33,6 +31,7 @@
                     <b-dropdown-item to="/citing-galaxy/">Citing Galaxy</b-dropdown-item>
                     <b-dropdown-item to="/images/galaxy-logos/">Branding</b-dropdown-item>
                 </b-nav-item-dropdown>
+                <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                 <b-nav-item to="/projects/covid19/">Covid19</b-nav-item>
                 <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
             </b-navbar-nav>
