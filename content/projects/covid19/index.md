@@ -75,6 +75,9 @@ Many lineage defining sites have been present in SARS-CoV-2 genomes at below-con
 <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/voc_time_progression_S_NS.json"/>
 </div>
 
+<markdown-embed href="https://raw.githubusercontent.com/galaxyproject/galaxy/dev/client/README.md" />
+
+
 -----
 
 ## Our sponsors

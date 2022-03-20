@@ -4,7 +4,7 @@ autotoc: false
 title: "Distribution of allele frequencies for [non-synonymous-coding] sites in gene [nsp8]"
 ---
 
-Period: from 2021-01-02 00:00:00 to 2021-12-10 00:00:00
+Period: from 2021-01-02 00:00:00 to 2022-01-29 00:00:00
 
 Shows distribution of mean alternative allele frequencies in weekly intervals. To be included in this graph a variant must satisfy two conditions:
 
