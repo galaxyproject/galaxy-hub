@@ -15,7 +15,7 @@ tags:
 
 
 
-The [GGSC](https://galaxyproject.org/community/steering/) wants to address the many misconceptions about Galaxy which are making their rounds. One of the steps is writing a paper. 
+The [Global Galaxy Steering Committee (GGSC)](https://galaxyproject.org/community/steering/) wants to address the many misconceptions about Galaxy which are making their rounds. One of the steps is writing a paper. 
 We will hold a 24-hour writeathon to continue working on a document addressing some of the most common misconceptions.
 Please contact [Hans-Rudolf Hotz](mailto:hrhotz@googlemail.com) if you want to join.
 
