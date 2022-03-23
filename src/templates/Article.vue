@@ -63,7 +63,7 @@ export default {
         },
         subsite() {
             return subsiteFromPath(this.$page.article.path);
-        }
+        },
     },
 };
 </script>
