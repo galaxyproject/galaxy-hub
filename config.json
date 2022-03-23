@@ -1,6 +1,7 @@
 {
     "host": "galaxyproject.org",
     "contentDir": "content",
+    "subsites": ["us", "eu"],
     "collections": {
         "Platform": "/use/"
     },

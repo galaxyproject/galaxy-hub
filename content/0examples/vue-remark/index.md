@@ -25,6 +25,7 @@ links:
 - text: "Video"
   url: "https://youtu.be/bQFv4EVunWw"
 redirect: /somewhere/else/
+subsites: [global]
 components: true
 ---
 
