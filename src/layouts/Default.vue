@@ -1,5 +1,5 @@
 <template>
-    <div class="layout">
+    <div :class="`layout ${subsite}`">
         <header id="masthead">
             <NavBar />
         </header>
@@ -17,6 +17,9 @@ import NavBar from "@/components/NavBar";
 export default {
     components: {
         NavBar,
+    },
+    props: {
+        subsite: { type: String, required: false, default: "global" },
     },
     mounted() {
         // Google Analytics tag.

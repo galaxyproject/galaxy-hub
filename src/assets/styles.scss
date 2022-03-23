@@ -96,6 +96,18 @@ footer {
 // Masthead
 
 // ==== Masthead ====
+.global #masthead {
+    background-color: $brand-masthead;
+}
+
+.us #masthead {
+    background-color: #4e7152;
+}
+
+.eu #masthead {
+    background-color: #71684e;
+}
+
 #masthead {
     background-color: $brand-masthead;
     .navbar-nav {

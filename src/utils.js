@@ -117,6 +117,17 @@ function getImage(imagePath, images) {
 }
 module.exports.getImage = getImage;
 
+function subsiteFromPath(path) {
+    let pathParts = path.split("/");
+    for (let candidate of CONFIG.subsites) {
+        if (pathParts[0] === candidate || (pathParts[0] === "" && pathParts[1] === candidate)) {
+            return candidate;
+        }
+    }
+    return "global";
+}
+module.exports.subsiteFromPath = subsiteFromPath;
+
 function mdToHtml(md) {
     //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
     let rawHtml;

@@ -219,6 +219,7 @@ module.exports = function (api) {
          */
         actions.addSchemaTypes(`
             type Article implements Node @infer {
+                subsites: [String]
                 category: String
                 has_date: Boolean
                 end: Date
