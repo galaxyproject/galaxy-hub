@@ -96,7 +96,7 @@ query {
             category: {eq: "events"}, subsites: {contains: "eu"}, draft: {ne: true},
             has_date: {eq: true}, days_ago: {between: [1, 365]}
         }
-        ) {
+    ) {
         totalCount
         edges {
             node {
