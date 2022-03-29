@@ -13,9 +13,9 @@ contact: Community
 
 *Please join our Outreachy interns - Rahmot, and Chinonye - in celebrating their contributions to the Galaxy Community!*
 
-Our interns have been hard at work over the past few months, focusing on two main projects: one is a **Galaxy Mentoring Network** for folks joining the Galaxy Community, the other is a **Galaxy Community Onboarding Playbook**. Both will undoubtedly lead to a more helpful, more welcoming Galaxy community for newcomers!
+Our interns have been hard at work over the past few months, focusing on two main projects: one is a **Galaxy Mentor Network** for folks joining the Galaxy Community, the other is a **Galaxy Community Onboarding Playbook**. Both will undoubtedly lead to a more helpful, more welcoming Galaxy community for newcomers!
 
-Rahmot, and Chinonye are excited to share their work on the **Galaxy Mentoring Network** with the community and recieve feedback. Please join us to show appreciation for their wonderful contributions!
+Rahmot, and Chinonye are excited to share their work on the **Galaxy Mentor Network** with the community and recieve feedback. Please join us to show appreciation for their wonderful contributions!
 
 
 __Call details__

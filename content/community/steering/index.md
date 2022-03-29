@@ -56,7 +56,7 @@ Please contact the committee member leading the project if you would like to lea
 
 #### Grown-up Working Groups
 
-* Galaxy Mentoring Network - Bérénice Batut: This working group has developed into the [GMN program](https://galaxy-mentor-network.netlify.app/)! 
+* Galaxy Mentor Network - Bérénice Batut: This working group has developed into the [GMN program](https://galaxy-mentor-network.netlify.app/)! 
 
 ## GGSC Committee Membership
 
