@@ -6,20 +6,15 @@ title: Galaxy Support
 
 ## Quick Start
 
-* [NGS 101](/tutorials/g101/)
-* [Tutorials](/learn/)
-* [Teaching with Galaxy](https://training.galaxyproject.org/)
+* [Learn & Teach with Galaxy](/learn/)
 * [Using Galaxy Choices](/use/#which-platform--platform-type-to-choose)
-* [Galaxy Project Highlights](https://galaxyproject.github.io/)
 
 ## Help Resources
 
-* Query all Galaxy resources with the search function in the top masthead
 * [Galaxy Help](https://help.galaxyproject.org/)
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
-* [Mailing Lists](/mailing-lists/)
-* [Video Help](https://vimeo.com/galaxyproject/)
-* [Galaxy Biostars: retired `Q&A` archive](https://biostar.usegalaxy.org/)
+* [YouTube channel](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA)
+* Query all Galaxy resources with the search function in the top masthead
 
 ## Using Galaxy FAQs
 
