@@ -94,7 +94,7 @@ Look at our guide on [**how to start contributing**](https://galaxyproject.org/c
 Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
 Some of the current Working Groups include Tools, Systems and User Interface/User Experience.
 
-### Galaxy Mentoring Network
+### Galaxy Mentor Network
 
 Are you ready & excited to start your own project or community, to contribute to Open Source or to settle into the Galaxy ecosystem?
-Check out the [**Galaxy Mentoring Programme.**](https://galaxy-mentor-network.netlify.app/)
+Check out the [**Galaxy Mentor Programme.**](https://galaxy-mentor-network.netlify.app/)
