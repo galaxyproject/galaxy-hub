@@ -210,23 +210,34 @@ class nodeModifier {
 module.exports = function (api) {
     api.loadSource((actions) => {
         // Using the Data Store API: https://gridsome.org/docs/data-store-api/
-        // Add derived `category` field.
+        // Add derived fields like `category`.
         /*TODO: Replace this and the later api.onCreateNode() call with this technique instead:
          *      https://gridsome.org/docs/schema-api/#add-a-new-field-with-a-custom-resolver
          *      This currently causes problems because a bug prevents you from filtering based on fields
          *      added this way: https://github.com/gridsome/gridsome/issues/1196
          *      This is supposed to be fixed by Gridsome 1.0.
          */
-        actions.addSchemaTypes(`
-            type Article implements Node @infer {
-                subsites: [String]
-                category: String
-                has_date: Boolean
-                end: Date
-                days_ago: Int
-                closed: Boolean
-            }`);
-        let collections = ["Article", "VueArticle"].concat(Object.keys(CONFIG["collections"]));
+        const articleTypes = ["Article", "VueArticle"];
+        for (let type of articleTypes) {
+            actions.addSchemaTypes(
+                actions.schema.createObjectType(
+                    {
+                        name: type,
+                        interfaces: ["Node"],
+                        extensions: {infer: true},
+                        fields: {
+                            subsites: "[String]",
+                            category: "String",
+                            has_date: "Boolean",
+                            end: "Date",
+                            days_ago: "Int",
+                            closed: "Boolean",
+                        }
+                    }
+                )
+            );
+        }
+        let collections = articleTypes.concat(Object.keys(CONFIG["collections"]));
         let schemas = {};
         for (let collection of collections) {
             schemas[collection] = {
