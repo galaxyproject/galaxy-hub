@@ -61,13 +61,13 @@ function mkPlugins(collections) {
             },
         },
     ];
+    let articlePlugin = getPlugin(plugins, "Article");
+    let vueArticlePlugin = getPlugin(plugins, "VueArticle");
     for (let [name, urlPath] of Object.entries(collections)) {
         let dirPath = nodePath.join(MD_CONTENT_DIR, urlPath);
         let globPath = nodePath.join(dirPath, "*/index.md");
-        let articlePlugin = getPlugin(plugins, "Article");
         articlePlugin.options.path.push("!" + globPath);
         let bareUrlPath = rmPrefix(rmSuffix(urlPath, "/"), "/");
-        let vueArticlePlugin = getPlugin(plugins, "VueArticle");
         vueArticlePlugin.options.ignore.push(bareUrlPath);
         //TODO: Allow custom collections to use vue-remark.
         let plugin = {
