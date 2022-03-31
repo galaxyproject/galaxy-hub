@@ -6,6 +6,8 @@ const remarkHtml = require("remark-html");
 const slugify = require("@sindresorhus/slugify");
 const urlParse = require("url-parse");
 const CONFIG = require("../config.json");
+const TO_STRING = {}.toString;
+let SUBSITES_LIST = flattenSubsites(CONFIG.subsites);
 
 /* Using a kludge here to allow:
  * 1) importing this as a module with the `import` statement
@@ -137,14 +139,12 @@ function flattenSubsites(subsitesTree) {
 module.exports.flattenSubsites = flattenSubsites;
 
 function subsiteFromPath(path) {
-    const subsites = flattenSubsites(CONFIG.subsites);
     let pathParts = path.split("/");
-    for (let candidate of subsites) {
+    for (let candidate of SUBSITES_LIST) {
         if (pathParts[0] === candidate || (pathParts[0] === "" && pathParts[1] === candidate)) {
             return candidate;
         }
     }
-    return "global";
 }
 module.exports.subsiteFromPath = subsiteFromPath;
 
@@ -429,7 +429,6 @@ function logTree(root, depth, indent) {
 }
 module.exports.logTree = logTree;
 
-const TO_STRING = {}.toString;
 /** A better alternative to `typeof`.
  * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
  * @param {*} value  Any value, including `null` and `undefined`.

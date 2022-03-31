@@ -12,7 +12,7 @@ var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, matchesPrefixes, getSubsiteAncestry } = require("./src/utils.js");
+const { repr, rmPrefix, rmSuffix, matchesPrefixes, getSubsiteAncestry, subsiteFromPath } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 
 const COMPILE_DATE = dayjs();
@@ -156,14 +156,17 @@ class nodeModifier {
             }
         }
         // Assign subsites.
-        // The subsite defaults to "global".
-        if (node.subsites === undefined) {
-            node.subsites = ["global"];
+        // Ones with no "subsites" key will be `undefined`.
+        let subsitesRaw = node.subsites || [];
+        // See if its path is under a particular subsite.
+        node.main_subsite = subsiteFromPath(node.path);
+        if (node.main_subsite) {
+            subsitesRaw.push(node.main_subsite);
         }
         // Include all parent subsites. I.e. if one of the subsites is "genouest" and its parent
         // subsite (defined in config.json) is "eu", add "eu" to the list.
-        let subsitesSet = new Set(node.subsites);
-        for (let subsite of node.subsites) {
+        let subsitesSet = new Set();
+        for (let subsite of subsitesRaw) {
             if (subsite === "global") {
                 continue;
             }
@@ -173,6 +176,7 @@ class nodeModifier {
             }
             ancestry.forEach((thisSubsite) => subsitesSet.add(thisSubsite));
         }
+        // Store the Set of unique subsites to the `subsites` field as an Array.
         node.subsites = Array.from(subsitesSet);
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
@@ -245,6 +249,7 @@ module.exports = function (api) {
                     extensions: { infer: true },
                     fields: {
                         subsites: "[String]",
+                        main_subsite: "String",
                         category: "String",
                         has_date: "Boolean",
                         end: "Date",

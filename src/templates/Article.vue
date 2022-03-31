@@ -1,5 +1,5 @@
 <template>
-    <Layout :subsite="subsite">
+    <Layout :subsite="$page.article.main_subsite">
         <ArticleHeader :article="$page.article" />
         <div :class="['content', 'markdown', ...mdClasses]" v-html="$page.article.content" />
         <ArticleFooter :article="$page.article" />
@@ -13,6 +13,7 @@ query Article($path: String!) {
         title
         tease
         subsites
+        main_subsite
         category
         date (format: "YYYY-MM-DD")
         end (format: "YYYY-MM-DD")
@@ -45,7 +46,6 @@ query Article($path: String!) {
 <script>
 import ArticleHeader from "@/components/ArticleHeader";
 import ArticleFooter from "@/components/ArticleFooter";
-import { subsiteFromPath } from "~/utils.js";
 export default {
     components: {
         ArticleHeader,
@@ -60,9 +60,6 @@ export default {
                 classes.push("notoc");
             }
             return classes;
-        },
-        subsite() {
-            return subsiteFromPath(this.$page.article.path);
         },
     },
 };
