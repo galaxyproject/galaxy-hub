@@ -42,22 +42,27 @@ export default {
         };
     },
     methods: {
+        initAltmetric() {
+            setTimeout(() => {
+                if (typeof window._altmetric_embed_init !== "undefined") {
+                    window._altmetric_embed_init();
+                }
+                else {
+                    this.initAltmetric();
+                }
+            }, 100);
+        },
         fetchPubs() {
             //fetch data from https://api.zotero.org/groups/1732893/items/top?start=0&limit=5, and then render the data
             axios
                 .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=${this.limit}`)
                 .then((response) => {
                     this.items = response.data;
+                    this.initAltmetric();
                 })
                 .catch((error) => {
                     console.log(error);
                 });
-            // set a repeated timeout to call embed init until it's done
-            setTimeout(() => {
-                if (typeof window._altmetric_embed_init !== "undefined") {
-                    window._altmetric_embed_init();
-                }
-            }, 1000);
         },
     },
     mounted() {
