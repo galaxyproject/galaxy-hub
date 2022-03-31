@@ -12,7 +12,7 @@ var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, matchesPrefixes } = require("./src/utils.js");
+const { repr, rmPrefix, rmSuffix, matchesPrefixes, getSubsiteAncestry } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 
 const COMPILE_DATE = dayjs();
@@ -155,6 +155,25 @@ class nodeModifier {
                 node.closed = false;
             }
         }
+        // Assign subsites.
+        // The subsite defaults to "global".
+        if (node.subsites === undefined) {
+            node.subsites = ["global"];
+        }
+        // Include all parent subsites. I.e. if one of the subsites is "genouest" and its parent
+        // subsite (defined in config.json) is "eu", add "eu" to the list.
+        let subsitesSet = new Set(node.subsites);
+        for (let subsite of node.subsites) {
+            if (subsite === "global") {
+                continue;
+            }
+            let ancestry = getSubsiteAncestry(subsite);
+            if (ancestry === false) {
+                console.error(repr`${subsite} in ${node.path} is not a subsite according to config.json.`);
+            }
+            ancestry.forEach((thisSubsite) => subsitesSet.add(thisSubsite));
+        }
+        node.subsites = Array.from(subsitesSet);
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
