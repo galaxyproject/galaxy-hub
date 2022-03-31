@@ -220,21 +220,19 @@ module.exports = function (api) {
         const articleTypes = ["Article", "VueArticle"];
         for (let type of articleTypes) {
             actions.addSchemaTypes(
-                actions.schema.createObjectType(
-                    {
-                        name: type,
-                        interfaces: ["Node"],
-                        extensions: {infer: true},
-                        fields: {
-                            subsites: "[String]",
-                            category: "String",
-                            has_date: "Boolean",
-                            end: "Date",
-                            days_ago: "Int",
-                            closed: "Boolean",
-                        }
-                    }
-                )
+                actions.schema.createObjectType({
+                    name: type,
+                    interfaces: ["Node"],
+                    extensions: { infer: true },
+                    fields: {
+                        subsites: "[String]",
+                        category: "String",
+                        has_date: "Boolean",
+                        end: "Date",
+                        days_ago: "Int",
+                        closed: "Boolean",
+                    },
+                })
             );
         }
         let collections = articleTypes.concat(Object.keys(CONFIG["collections"]));

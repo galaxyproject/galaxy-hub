@@ -125,11 +125,11 @@ module.exports.getImage = getImage;
 function flattenSubsites(subsitesTree) {
     let subsites = [];
     for (let [subsite, subtree] of Object.entries(subsitesTree)) {
-        if (getType(subtree) !== 'Object') {
+        if (getType(subtree) !== "Object") {
             throw repr`Value in subsites config tree not an object: ${subtree}`;
         }
         subsites.push(subsite);
-        subsubsites = flattenSubsites(subtree);
+        let subsubsites = flattenSubsites(subtree);
         subsites = subsites.concat(subsubsites);
     }
     return subsites;
@@ -153,6 +153,14 @@ function getSubsiteAncestry(subsite) {
 }
 module.exports.getSubsiteAncestry = getSubsiteAncestry;
 
+/** Find the `query` in the tree and return a list containing it and its ancestors.
+ * @param {Object} tree  A tree represented as an object where each key is a string and each value
+ *                       is an object of the same format. Leaf nodes are keys whose values are empty
+ *                       objects.
+ * @param {String} query A key to search for in the tree.
+ * @returns {Array} A list of keys ending with `query`, preceded by its parent, and so on, until its
+ *                  top-level ancestor in the tree.
+ */
 function getTreeBranch(tree, query) {
     for (let [key, value] of Object.entries(tree)) {
         if (key === query) {
