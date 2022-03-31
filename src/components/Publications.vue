@@ -1,25 +1,32 @@
 <template>
-    <HomeCard
-        title="Recent Publications"
-        link="https://www.zotero.org/groups/galaxy"
-        icon="fas fa-book-open"
-        :items="itemsToShow"
-        :width="12" />
+    <div class="pseudo-card col-sm-12">
+        <h2>
+            <g-link to="https://www.zotero.org/groups/galaxy">
+                <span :class="`icon fas fa-book-open`"></span>
+                <b>Recent Publications</b>
+            </g-link>
+        </h2>
+        <b-row class="mb-2" v-for="(item, i) in this.items" :key="i">
+            <b-col cols="11">
+                <g-link class="title" :to="item.data.url">{{ item.data.title }}</g-link>
+                <br/>
+                <div class="tease">
+                    {{ item.meta.creatorSummary }}
+                    {{ item.data.extra }}
+                </div>
+            </b-col>
+            <b-col cols="1">
+                <span class="altmetric-embed" data-badge-type="donut" :data-doi="item.data.DOI"></span>
+            </b-col>
+        </b-row>
+    </div>
 </template>
 
 <script>
-import HomeCard from "@/components/HomeCard";
 import axios from "axios";
-
-const TEASE_TEMPLATE = (
-    item
-) => `<span class='altmetric-embed float-right' data-badge-type='donut' data-doi='${item.data.DOI}'></span>
-${item.meta.creatorSummary}
-*${item.data.extra}*`;
 
 // Journal -- if no publicationTitle, use 'preprint'
 // Add year, volume (if available)
-// Use donut for altmetric.
 // Add a loading spinner
 
 export default {
@@ -34,24 +41,6 @@ export default {
             items: [],
         };
     },
-    computed: {
-        itemsToShow() {
-            if (this.items) {
-                return this.items.map((item) => {
-                    return {
-                        title: item.data.title,
-                        link: item.data.url,
-                        tease: TEASE_TEMPLATE(item),
-                    };
-                });
-            } else {
-                return [];
-            }
-        },
-    },
-    components: {
-        HomeCard,
-    },
     methods: {
         fetchPubs() {
             //fetch data from https://api.zotero.org/groups/1732893/items/top?start=0&limit=5, and then render the data
@@ -63,9 +52,12 @@ export default {
                 .catch((error) => {
                     console.log(error);
                 });
-            if (typeof _altmetric_embed_init !== "undefined") {
-                _altmetric_embed_init.embeds.init();
-            }
+            // set a repeated timeout to call embed init until it's done
+            setTimeout(() => {
+                if (typeof window._altmetric_embed_init !== "undefined") {
+                    window._altmetric_embed_init();
+                }
+            }, 1000);
         },
     },
     mounted() {
@@ -79,4 +71,27 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@import "~/assets/styles.scss";
+
+.pseudo-card {
+    background-color: $gray-200;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+h2 .icon {
+    margin-right: 0.7em;
+}
+.content.markdown::v-deep p {
+    font-size: 80%;
+}
+.content.markdown::v-deep a {
+    font-size: 120%;
+}
+.title {
+    font-weight: bold;
+}
+.tease {
+    font-size: 80%;
+}
+</style>
