@@ -6,6 +6,8 @@ const remarkHtml = require("remark-html");
 const slugify = require("@sindresorhus/slugify");
 const urlParse = require("url-parse");
 const CONFIG = require("../config.json");
+const TO_STRING = {}.toString;
+let SUBSITES_LIST = flattenSubsites(CONFIG.subsites);
 
 /* Using a kludge here to allow:
  * 1) importing this as a module with the `import` statement
@@ -117,16 +119,62 @@ function getImage(imagePath, images) {
 }
 module.exports.getImage = getImage;
 
+/** Take the value of the `subsites` key in config.json and flatten it into an array.
+ * @param {Object} subsitesTree The value of the `subsites` key. Must be a tree of objects where
+ *   the value for each key is another object.
+ * @returns {Array} An array containing a list of all keys found in the tree.
+ */
+function flattenSubsites(subsitesTree) {
+    let subsites = [];
+    for (let [subsite, subtree] of Object.entries(subsitesTree)) {
+        if (getType(subtree) !== "Object") {
+            throw repr`Value in subsites config tree not an object: ${subtree}`;
+        }
+        subsites.push(subsite);
+        let subsubsites = flattenSubsites(subtree);
+        subsites = subsites.concat(subsubsites);
+    }
+    return subsites;
+}
+module.exports.flattenSubsites = flattenSubsites;
+
 function subsiteFromPath(path) {
     let pathParts = path.split("/");
-    for (let candidate of CONFIG.subsites) {
+    for (let candidate of SUBSITES_LIST) {
         if (pathParts[0] === candidate || (pathParts[0] === "" && pathParts[1] === candidate)) {
             return candidate;
         }
     }
-    return "global";
 }
 module.exports.subsiteFromPath = subsiteFromPath;
+
+function getSubsiteAncestry(subsite) {
+    return getTreeBranch(CONFIG.subsites, subsite);
+}
+module.exports.getSubsiteAncestry = getSubsiteAncestry;
+
+/** Find the `query` in the tree and return a list containing it and its ancestors.
+ * @param {Object} tree  A tree represented as an object where each key is a string and each value
+ *                       is an object of the same format. Leaf nodes are keys whose values are empty
+ *                       objects.
+ * @param {String} query A key to search for in the tree.
+ * @returns {Array} A list of keys ending with `query`, preceded by its parent, and so on, until its
+ *                  top-level ancestor in the tree.
+ */
+function getTreeBranch(tree, query) {
+    for (let [key, value] of Object.entries(tree)) {
+        if (key === query) {
+            return [key];
+        } else {
+            let result = getTreeBranch(value, query);
+            if (result) {
+                return [key].concat(result);
+            }
+        }
+    }
+    return false;
+}
+module.exports.getTreeBranch = getTreeBranch;
 
 function mdToHtml(md) {
     //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
@@ -381,7 +429,6 @@ function logTree(root, depth, indent) {
 }
 module.exports.logTree = logTree;
 
-const TO_STRING = {}.toString;
 /** A better alternative to `typeof`.
  * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
  * @param {*} value  Any value, including `null` and `undefined`.

@@ -1,5 +1,5 @@
 <template>
-    <Layout :subsite="subsite">
+    <Layout :subsite="$page.article.main_subsite">
         <ArticleHeader :article="$page.article" />
         <article :class="['content', 'markdown', ...mdClasses]">
             <VueRemarkContent>
@@ -25,6 +25,7 @@ query VueArticle($path: String!) {
         title
         tease
         subsites
+        main_subsite
         category
         date (format: "YYYY-MM-DD")
         end (format: "YYYY-MM-DD")
@@ -61,7 +62,6 @@ query VueArticle($path: String!) {
 <script>
 import ArticleHeader from "@/components/ArticleHeader";
 import ArticleFooter from "@/components/ArticleFooter";
-import { subsiteFromPath } from "~/utils.js";
 export default {
     components: {
         ArticleHeader,
@@ -76,9 +76,6 @@ export default {
                 classes.push("notoc");
             }
             return classes;
-        },
-        subsite() {
-            return subsiteFromPath(this.$page.article.path);
         },
     },
 };

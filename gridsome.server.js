@@ -12,7 +12,7 @@ var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, matchesPrefixes } = require("./src/utils.js");
+const { repr, rmPrefix, rmSuffix, matchesPrefixes, getSubsiteAncestry, subsiteFromPath } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 
 const COMPILE_DATE = dayjs();
@@ -155,6 +155,29 @@ class nodeModifier {
                 node.closed = false;
             }
         }
+        // Assign subsites.
+        // Ones with no "subsites" key will be `undefined`.
+        let subsitesRaw = node.subsites || [];
+        // See if its path is under a particular subsite.
+        node.main_subsite = subsiteFromPath(node.path);
+        if (node.main_subsite) {
+            subsitesRaw.push(node.main_subsite);
+        }
+        // Include all parent subsites. I.e. if one of the subsites is "genouest" and its parent
+        // subsite (defined in config.json) is "eu", add "eu" to the list.
+        let subsitesSet = new Set();
+        for (let subsite of subsitesRaw) {
+            if (subsite === "global") {
+                continue;
+            }
+            let ancestry = getSubsiteAncestry(subsite);
+            if (ancestry === false) {
+                console.error(repr`${subsite} in ${node.path} is not a subsite according to config.json.`);
+            }
+            ancestry.forEach((thisSubsite) => subsitesSet.add(thisSubsite));
+        }
+        // Store the Set of unique subsites to the `subsites` field as an Array.
+        node.subsites = Array.from(subsitesSet);
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
@@ -210,23 +233,33 @@ class nodeModifier {
 module.exports = function (api) {
     api.loadSource((actions) => {
         // Using the Data Store API: https://gridsome.org/docs/data-store-api/
-        // Add derived `category` field.
+        // Add derived fields like `category`.
         /*TODO: Replace this and the later api.onCreateNode() call with this technique instead:
          *      https://gridsome.org/docs/schema-api/#add-a-new-field-with-a-custom-resolver
          *      This currently causes problems because a bug prevents you from filtering based on fields
          *      added this way: https://github.com/gridsome/gridsome/issues/1196
          *      This is supposed to be fixed by Gridsome 1.0.
          */
-        actions.addSchemaTypes(`
-            type Article implements Node @infer {
-                subsites: [String]
-                category: String
-                has_date: Boolean
-                end: Date
-                days_ago: Int
-                closed: Boolean
-            }`);
-        let collections = ["Article", "VueArticle"].concat(Object.keys(CONFIG["collections"]));
+        const articleTypes = ["Article", "VueArticle"];
+        for (let type of articleTypes) {
+            actions.addSchemaTypes(
+                actions.schema.createObjectType({
+                    name: type,
+                    interfaces: ["Node"],
+                    extensions: { infer: true },
+                    fields: {
+                        subsites: "[String]",
+                        main_subsite: "String",
+                        category: "String",
+                        has_date: "Boolean",
+                        end: "Date",
+                        days_ago: "Int",
+                        closed: "Boolean",
+                    },
+                })
+            );
+        }
+        let collections = articleTypes.concat(Object.keys(CONFIG["collections"]));
         let schemas = {};
         for (let collection of collections) {
             schemas[collection] = {
