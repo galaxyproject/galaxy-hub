@@ -221,7 +221,9 @@
             <div class="row">
                 <div class="col-xl-4 mb-3">
                     <div class="area research publications h-100">
-                        <Publications />
+                        <ClientOnly>
+                            <Publications />
+                        </ClientOnly>
                         <a href="https://doi.org/10.1093/nar/gkae410" target="_blank" rel="noopener" class="text-white">
                             <h3>Cite Galaxy</h3>
                             <div>
