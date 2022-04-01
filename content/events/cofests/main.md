@@ -1,6 +1,6 @@
 ---
 title: "CoFests!"
-layout: events_index_cofests.pug
+noun: CoFest
 ---
 
 **CollaborationFests**, also known as **CoFests** (and sometimes as "hackathons" - see below), are collaborative work events where we expand and improve the Galaxy community and the Galaxy ecosystem. Sometimes these gatherings are focused on Galaxy, and sometimes they are part of larger communities.

@@ -1,0 +1,3 @@
+---
+title: Freiburg Event Horizon
+---
