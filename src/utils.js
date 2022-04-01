@@ -7,7 +7,7 @@ const slugify = require("@sindresorhus/slugify");
 const urlParse = require("url-parse");
 const CONFIG = require("../config.json");
 const TO_STRING = {}.toString;
-let SUBSITES_LIST = flattenSubsites(CONFIG.subsites);
+const SUBSITES_LIST = flattenSubsites(CONFIG.subsites);
 
 /* Using a kludge here to allow:
  * 1) importing this as a module with the `import` statement

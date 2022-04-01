@@ -12,8 +12,17 @@ var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, matchesPrefixes, getSubsiteAncestry, subsiteFromPath } = require("./src/utils.js");
+const {
+    repr,
+    rmPrefix,
+    rmSuffix,
+    matchesPrefixes,
+    getSubsiteAncestry,
+    subsiteFromPath,
+    flattenSubsites,
+} = require("./src/utils.js");
 const CONFIG = require("./config.json");
+const SUBSITES_LIST = flattenSubsites(CONFIG.subsites);
 
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
@@ -304,7 +313,7 @@ module.exports = function (api) {
     // Pages repeated across every subsite.
     api.createPages(({ createPage }) => {
         // Using the Pages API: https://gridsome.org/docs/pages-api/
-        for (let subsite of ["root", "us", "eu"]) {
+        for (let subsite of SUBSITES_LIST) {
             let prefix;
             if (subsite === "root") {
                 prefix = "";
