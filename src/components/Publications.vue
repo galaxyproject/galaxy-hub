@@ -11,8 +11,9 @@
                 <g-link class="title" :to="item.data.url">{{ item.data.title }}</g-link>
                 <br />
                 <div class="tease">
-                    {{ item.meta.creatorSummary }}
-                    {{ item.data.extra }}
+                    {{ item.meta.creatorSummary }}, 
+                    {{ item.data.journalAbbreviation ? item.data.journalAbbreviation : "preprint" }},
+                    {{ item.data.date }}.
                 </div>
             </b-col>
             <b-col cols="1">
@@ -24,10 +25,6 @@
 
 <script>
 import axios from "axios";
-
-// Journal -- if no publicationTitle, use 'preprint'
-// Add year, volume (if available)
-// Add a loading spinner
 
 export default {
     props: {
