@@ -158,6 +158,7 @@ class nodeModifier {
         // Assign subsites.
         // Ones with no "subsites" key will be `undefined`.
         let subsitesRaw = node.subsites || [];
+        let subsitesSet = new Set(["root"]);
         // See if its path is under a particular subsite.
         node.main_subsite = subsiteFromPath(node.path);
         if (node.main_subsite) {
@@ -165,7 +166,6 @@ class nodeModifier {
         }
         // Include all parent subsites. I.e. if one of the subsites is "genouest" and its parent
         // subsite (defined in config.json) is "eu", add "eu" to the list.
-        let subsitesSet = new Set();
         for (let subsite of subsitesRaw) {
             if (subsite === "global") {
                 continue;
@@ -278,6 +278,28 @@ module.exports = function (api) {
         let typeName = node.internal.typeName;
         node.filename = node.fileInfo.name;
         return nodeModifier.processNewNode(node, collection, typeName);
+    });
+
+    // Programmatically generate repetitive subsite pages.
+    api.createPages(({ createPage }) => {
+        // Using the Pages API: https://gridsome.org/docs/pages-api/
+        for (let subsite of ["root", "us", "eu"]) {
+            let prefix;
+            if (subsite === "root") {
+                prefix = "";
+            } else {
+                prefix = `/${subsite}`;
+            }
+            createPage({
+                path: `${prefix}/events/`,
+                component: "./src/components/pages/Events.vue",
+                context: {
+                    subsite: subsite,
+                    mainPath: `/insert:${prefix}/events/main/`,
+                    footerPath: `/insert:${prefix}/events/footer/`,
+                },
+            });
+        }
     });
 
     // Workaround for lack of access to GraphQL in `afterBuild()` hook.

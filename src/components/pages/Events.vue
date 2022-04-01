@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout :subsite="$context.subsite">
         <h1 class="page-title">{{ $page.main.title }}</h1>
         <div class="toc-wrapper col-md-3">
             <ul>
@@ -64,8 +64,8 @@ export default {
 </script>
 
 <page-query>
-query {
-    main: insert(path: "/insert:/events/main/") {
+query($subsite: String, $mainPath: String, $footerPath: String) {
+    main: insert(path: $mainPath) {
         id
         title
         content
@@ -73,14 +73,15 @@ query {
             path
         }
     }
-    footer: insert(path: "/insert:/events/footer/") {
+    footer: insert(path: $footerPath) {
         id
         title
         content
     }
     upcoming: allArticle(
         sortBy: "date", order: ASC, filter: {
-            category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}
+            category: {eq: "events"}, subsites: {contains: [$subsite]}, draft: {ne: true},
+            has_date: {eq: true}, days_ago: {lte: 0}
         }
     ) {
         totalCount
@@ -92,7 +93,8 @@ query {
     }
     recent: allArticle(
         sortBy: "date", order: DESC, filter: {
-            category: {eq: "events"}, has_date: {eq: true}, days_ago: {between: [1, 365]}, draft: {ne: true}
+            category: {eq: "events"}, subsites: {contains: [$subsite]}, draft: {ne: true},
+            has_date: {eq: true}, days_ago: {between: [1, 365]}
         }
     ) {
         totalCount

@@ -2,15 +2,17 @@
     "host": "galaxyproject.org",
     "contentDir": "content",
     "subsites": {
-        "us": {},
-        "eu": {
-            "freiburg": {},
-            "pasteur": {},
-            "belgium": {},
-            "ifb": {},
-            "genouest": {},
-            "erasmusmc": {},
-            "elixir-it": {}
+        "root": {
+            "us": {},
+            "eu": {
+                "freiburg": {},
+                "pasteur": {},
+                "belgium": {},
+                "ifb": {},
+                "genouest": {},
+                "erasmusmc": {},
+                "elixir-it": {}
+            }
         }
     },
     "collections": {
