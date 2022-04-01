@@ -280,7 +280,28 @@ module.exports = function (api) {
         return nodeModifier.processNewNode(node, collection, typeName);
     });
 
-    // Programmatically generate repetitive subsite pages.
+    // Programmatically generate repetitive pages.
+    // Tagged subsets of events.
+    const taggedEventsPages = [
+        { tag: "webinar", path: "/events/webinars/" },
+        { tag: "devroundtable", path: "/community/devroundtable/" },
+        { tag: "cofest", path: "/events/cofests/" },
+        { tag: "papercuts", path: "/events/cofests/papercuts/" },
+    ];
+    api.createPages(({ createPage }) => {
+        for (let page of taggedEventsPages) {
+            createPage({
+                path: page.path,
+                component: "./src/components/pages/TaggedEvents.vue",
+                context: {
+                    tag: page.tag,
+                    mainPath: `/insert:${page.path}main/`,
+                    footerPath: `/insert:${page.path}footer/`,
+                },
+            });
+        }
+    });
+    // Pages repeated across every subsite.
     api.createPages(({ createPage }) => {
         // Using the Pages API: https://gridsome.org/docs/pages-api/
         for (let subsite of ["root", "us", "eu"]) {

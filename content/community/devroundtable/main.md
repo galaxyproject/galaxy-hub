@@ -1,5 +1,6 @@
 ---
 title: Galaxy Developer Roundtable
+noun: Meeting
 ---
 
 # **Goodbye Developer Roundtables**
