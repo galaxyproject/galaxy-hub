@@ -4,19 +4,46 @@
 
 Sponsors are a key part of GCC2022.  They are potential partners in your success, and sponsors make this conference affordable and accessible.
 
+## Platinum sponsor
+
+<a href="https://aws.amazon.com/" target="_blank">
+  <!-- <img src="/images/events/gcc2022/aws-logo.png" alt="Platinum" style="max-width: 75%;" /> -->
+  <img src="/images/logos/AWSLogo1280.jpg" alt="Platinum" style="max-width: 75%;" />
+</a>
+
+## Silver sponsors
+
+<a href="https://galaxyworks.io/" target="_blank">
+  <img src="/images/logos/galaxyworks-logo.png" alt="Silver" style="max-width: 50%;" />
+</a>
+
+## Bronze sponsors
+
+<a href="https://www.thermofisher.com/us/en/home.html" target="_blank">
+  <img src="/images/logos/thermo-fisher-logo.jpg" alt="Bronze" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+<a href="https://www.limagrain.com/en" target="_blank">
+  <img src="/images/logos/limagrain-logo-text.png" alt="Bronze" style="max-width: 25%;" />
+</a>
+
+
+# Interested in becoming a sponsor?
+
 <div class="float-right">
 
 [![Download the GCC2022 Sponsorship Prospectus](/images/events/gcc2022/sponsors/prospectus-thumb.png)](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)
 
 </div>
 
-Is your organization interested in playing a prominent role in the first in-person gathering of the Galaxy community since 2019? Becoming a GCC2022 sponsor is an excellent way to raise your organization's visibility in active and engaged Galaxy community.  See below for sponsorship packages and then contact the [organizers](/events/gcc2022/organizers/).
-
-# Interested in becoming a sponsor?
+Is your organization interested in playing a prominent role in the first
+in-person gathering of the Galaxy community since 2019? Becoming a GCC2022
+sponsor is an excellent way to raise your organization's visibility in active
+and engaged Galaxy community.  See below for sponsorship packages and then
+contact the [organizers](/events/gcc2022/organizers/).
 
 <button type="button" class="btn btn-secondary">
 
-**[Download the GCC2022 Sponsorship Prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)**
+  **[Download the GCC2022 Sponsorship Prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)**
 
 </button>
 <br /><br />
