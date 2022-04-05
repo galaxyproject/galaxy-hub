@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout :subsite="$context.subsite">
         <h1 class="page-title">{{ $page.main.title }}</h1>
         <div class="markdown" v-html="$page.main.content" />
         <table class="table table-striped">
@@ -25,8 +25,8 @@ export default {
 </script>
 
 <page-query>
-query {
-    main: insert(path: "/insert:/news/main/") {
+query($subsite: String, $mainPath: String, $footerPath: String) {
+    main: insert(path: $mainPath) {
         id
         title
         content
@@ -34,12 +34,16 @@ query {
             path
         }
     }
-    footer: insert(path: "/insert:/news/footer/") {
+    footer: insert(path: $footerPath) {
         id
         title
         content
     }
-    articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "news"}, draft: {ne: true}}) {
+    articles: allArticle(
+            sortBy: "date", order: DESC, filter: {
+                category: {eq: "news"}, subsites: {contains: [$subsite]}, draft: {ne: true}
+            }
+        ) {
         totalCount
         edges {
             node {
