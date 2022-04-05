@@ -1,33 +1,6 @@
 {
     "host": "galaxyproject.org",
     "contentDir": "content",
-    "subsites": {
-        "hierarchy": {
-            "root": {
-                "us": {},
-                "eu": {
-                    "freiburg": {},
-                    "pasteur": {},
-                    "belgium": {},
-                    "ifb": {},
-                    "genouest": {},
-                    "erasmusmc": {},
-                    "elixir-it": {}
-                }
-            }
-        },
-        "metadata": {
-            "us": { "name": "US" },
-            "eu": { "name": "Europe" },
-            "freiburg": { "name": "Freiburg" },
-            "pasteur": { "name": "Pasteur" },
-            "belgium": { "name": "VIB" },
-            "ifb": { "name": "ELIXIR-FR/IFB" },
-            "genouest": { "name": "GenOuest" },
-            "erasmusmc": { "name": "Erasmus MC" },
-            "elixir-it": { "name": "ELIXIR-IT/Laniakea" }
-        }
-    },
     "collections": {
         "Platform": "/use/"
     },
@@ -45,6 +18,60 @@
             "vue": "build/content-vue"
         },
         "copyFileExts": ["png", "jpg", "jpeg", "gif", "svg", "pdf"]
+    },
+    "subsites": {
+        "hierarchy": {
+            "root": {
+                "us": {},
+                "eu": {
+                    "freiburg": {},
+                    "pasteur": {},
+                    "belgium": {},
+                    "ifb": {},
+                    "genouest": {},
+                    "erasmusmc": {},
+                    "elixir-it": {}
+                }
+            }
+        },
+        "metadata": {
+            "us": {
+                "name": "US",
+                "color": "#4e7152"
+            },
+            "eu": {
+                "name": "Europe",
+                "color": "#71684e"
+            },
+            "freiburg": {
+                "name": "Freiburg"
+            },
+            "pasteur": {
+                "name": "Pasteur",
+                "color": "#7591be"
+            },
+            "belgium": {
+                "name": "VIB"
+            },
+            "ifb": {
+                "name": "ELIXIR-FR/IFB",
+                "color": "white",
+                "lightBg": true
+            },
+            "genouest": {
+                "name": "GenOuest",
+                "color": "white",
+                "lightBg": true
+            },
+            "erasmusmc": {
+                "name": "Erasmus MC",
+                "color": "#f17925"
+            },
+            "elixir-it": {
+                "name": "ELIXIR-IT/Laniakea",
+                "color": "#2c81bb"
+            }
+        }
     },
     "redirects": {
         "/admin/authentication/config/": "/authnz/config/",

@@ -96,20 +96,15 @@ footer {
 // Masthead
 
 // ==== Masthead ====
-.global #masthead {
-    background-color: $brand-masthead;
-}
-
-.us #masthead {
-    background-color: #4e7152;
-}
-
-.eu #masthead {
-    background-color: #71684e;
-}
 
 #masthead {
     background-color: $brand-masthead;
+    .subsite-name {
+        color: $brand-masthead-text;
+        &:hover {
+            color: $brand-masthead-text-hover;
+        }
+    }
     .navbar-nav {
         > li {
             &.active {
@@ -125,6 +120,19 @@ footer {
                 }
                 &.toggle {
                     color: $brand-masthead-text-hover;
+                }
+            }
+        }
+    }
+    .light-bg .subsite-name {
+        color: black;
+    }
+    .light-bg .navbar-nav {
+        > li {
+            .nav-link {
+                color: black;
+                &:hover {
+                    color: #003399;
                 }
             }
         }
