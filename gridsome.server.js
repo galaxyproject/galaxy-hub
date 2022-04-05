@@ -313,7 +313,10 @@ module.exports = function (api) {
     // Pages repeated across every subsite.
     api.createPages(({ createPage }) => {
         // Using the Pages API: https://gridsome.org/docs/pages-api/
-        for (let [vueName, path] of [["Events", "/events/"], ["News", "/news/"]]) {
+        for (let [vueName, path] of [
+            ["Events", "/events/"],
+            ["News", "/news/"],
+        ]) {
             for (let subsite of SUBSITES_LIST) {
                 let prefix;
                 if (subsite === "root") {
