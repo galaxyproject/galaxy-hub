@@ -7,7 +7,7 @@ const slugify = require("@sindresorhus/slugify");
 const urlParse = require("url-parse");
 const CONFIG = require("../config.json");
 const TO_STRING = {}.toString;
-const SUBSITES_LIST = flattenSubsites(CONFIG.subsites);
+const SUBSITES_LIST = flattenSubsites(CONFIG.subsites.hierarchy);
 
 /* Using a kludge here to allow:
  * 1) importing this as a module with the `import` statement
@@ -149,7 +149,7 @@ function subsiteFromPath(path) {
 module.exports.subsiteFromPath = subsiteFromPath;
 
 function getSubsiteAncestry(subsite) {
-    return getTreeBranch(CONFIG.subsites, subsite);
+    return getTreeBranch(CONFIG.subsites.hierarchy, subsite);
 }
 module.exports.getSubsiteAncestry = getSubsiteAncestry;
 
