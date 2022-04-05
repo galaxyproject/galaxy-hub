@@ -3,11 +3,12 @@
         <b-navbar-brand to="/">
             <img id="masthead-logo" src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" height="30" />
         </b-navbar-brand>
+        <b-navbar-brand class="subsite-name" v-if="subsite !== 'root'" :to="`${pathPrefix}/`" v-html="subsiteName" />
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav id="navbar-menu">
-                <b-nav-item to="/news/">News</b-nav-item>
-                <b-nav-item to="/events/">Events</b-nav-item>
+                <b-nav-item :to="`${pathPrefix}/news/`">News</b-nav-item>
+                <b-nav-item :to="`${pathPrefix}/events/`">Events</b-nav-item>
                 <b-nav-item to="/learn/">Training</b-nav-item>
                 <b-nav-item-dropdown text="Support">
                     <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
@@ -62,7 +63,25 @@ import CONFIG from "~/../config.json";
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
+    props: {
+        subsite: { type: String, required: false, default: "root" },
+    },
     computed: {
+        pathPrefix() {
+            if (this.subsite === "root") {
+                return "";
+            } else {
+                return `/${this.subsite}`;
+            }
+        },
+        subsiteName() {
+            let nameRaw = CONFIG.subsites.metadata[this.subsite]?.name;
+            if (nameRaw) {
+                return nameRaw.replace(/[/ ]/, "<br>");
+            } else {
+                return "";
+            }
+        },
         editUrl() {
             // This will only point to the exact Github source url for Collections which include a "fileInfo { path }"
             // in their GraphQL query. Otherwise, (like for dynamic pages) it'll default to pointing to the repo home
@@ -81,7 +100,6 @@ export default {
         },
     },
 };
-
 function getPath(page) {
     if (page) {
         for (let child of Object.values(page)) {
@@ -93,3 +111,10 @@ function getPath(page) {
     }
 }
 </script>
+
+<style scoped>
+.subsite-name {
+    text-align: center;
+    line-height: 100%;
+}
+</style>
