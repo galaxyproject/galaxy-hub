@@ -18,10 +18,7 @@ Tutorials
 
 [Download entire histories](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_download_histories.html)
 
-**Transfer/Upload entire histories** after using _"Export to File"_ from the History menu and generating the link or downloading the archive, do one of the following: 1) copy the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the _"User > Saved Histories"_ page and paste in the link into the form OR 2) select a downloaded history archive file to upload it.
-
-* _"Tip"_: If your history is large, consider using _"Copy Datasets"_ from the History menu to move just your most important datasets into a new history, then create the archive from that smaller history. Copied datasets do not consume additional account quota space. Archive creation, download, and transfer will go much quicker with a smaller history not cluttered up with intermediate/error data, or any starting data that you already have and uploaded to Galaxy.
-* The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
+[Transfer entire histories from one Galaxy server to another](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_transfer_entire_histories_from_one_galaxy_server_to_another.html)
 
 # Large Datasets
 
