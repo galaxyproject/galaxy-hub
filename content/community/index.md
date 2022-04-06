@@ -89,6 +89,7 @@ F1000Research operates a unique post-publication open peer review process, enabl
 | [MicroGalaxy](https://microbiome.usegalaxy.eu/) | All things micro* in Galaxy. The official mailing list of the microGalaxy group. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) |
 | Public Health | Announcements and discussion in the Galaxy Public Health Community. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)|
 | Small Scale Servers |  Admins of small scale Galaxy servers. |[<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/small-scale-admins.lists.galaxyproject.org/)|
+| [Machine Learning](https://ml.usegalaxy.eu/) | A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis | [<i class="fa fa-solid fa-graduation-cap"></i>](https://training.galaxyproject.org/training-material/topics/statistics/) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://ml.usegalaxy.eu/) |
 
 # Set up your own community
 
