@@ -19,6 +19,7 @@ Some events are part of a series:
 * [Galaxy Webinar Series](/events/webinars/)
 * [Galaxy Developer Round Table meetups](/community/devroundtable/)
 * [CollaborationFests](/events/cofests/) and [Papercuts CoFests](/events/cofests/papercuts/)
+* [Galaxy Community Calls](/community/community-calls/)
 
 ### Advertise your event!
 
