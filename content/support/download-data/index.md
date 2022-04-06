@@ -14,9 +14,9 @@ Tutorials
 
 # Overview
 
-**Download datasets** by clicking on the disk icon inside the [dataset](/learn/managing-datasets/). Good for smaller sizes in all browsers.
+[Download datasets](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_download_datasets.html)
 
-**Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
+[Download entire histories](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_download_histories.html)
 
 **Transfer/Upload entire histories** after using _"Export to File"_ from the History menu and generating the link or downloading the archive, do one of the following: 1) copy the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the _"User > Saved Histories"_ page and paste in the link into the form OR 2) select a downloaded history archive file to upload it.
 
