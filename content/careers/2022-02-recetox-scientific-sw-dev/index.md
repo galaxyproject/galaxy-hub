@@ -1,7 +1,7 @@
 ---
 title: "Scientific software developer"
 date: "2022-04-07"
-closes: "2023-01-01"
+closes: ""
 summary: "Development of mass spectrometry analytical pipelines, tools and workflows with Python, R, and Galaxy"
 continent: EU
 location: "RECETOX, Brno, Czechia"
