@@ -6,7 +6,7 @@
 Related topics
 
 * [Loading Data](/support/loading-data/)
-* [Moving data between Galaxy servers](/blog/2016-07-moving-data-between-galaxy-instances/)
+* [Moving datasets between Galaxy servers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_moving_datasets_between_galaxy_servers.html)
 
 Tutorials
 
