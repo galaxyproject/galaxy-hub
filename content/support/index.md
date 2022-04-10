@@ -38,7 +38,7 @@ title: Galaxy Support
 
 * [Sharing and Publishing your work](/learn/share/)
 * [Data Privacy Features](/learn/privacy-features/)
-* [Moving data between Galaxy servers (any!)](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
+* [Moving datasets between Galaxy servers (any!)](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_moving_datasets_between_galaxy_servers.html)
 
 ### Help Guides
 
