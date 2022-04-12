@@ -22,26 +22,6 @@ The **2022 Galaxy Community Conference (GCC2022)** will bring together hundreds 
 This annual gathering of the Galaxy community includes **training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking**.  There is no better event to share your work and learn form others working in data-intensive science.
   </div>
 
-  <!-- University of Minnesota -->
-  <div class="card" style="min-width: 25%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/umn-northrup-mall.jpg" class="card-img-top" alt="University of Minnesota Northrup Mall" />
-    <div class="card-header">University of Minnesota</div>
-
-GCC2022 will be hosted by the **[University of Minnesota, Twin Cities](https://twin-cities.umn.edu/)** in Minneapolis, Minnesota.
-
-The meeting will be **held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/hotels/travel/mspdc-courtyard-minneapolis-downtown/)**, near the university campus and close to engaging neighborhoods, cultural attractions, public art and greenspace, restaurants, and much more. The venue area straddles the Mississippi River and no matter where you are, you're never far from nature with parks, trails, and waterways just a short walk away.
-  </div>
-
-  <!-- Minneapolis Minnesota -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/spoon-and-cherry-peter-guyan.jpg" class="card-img-top" alt="Cherry and sppon, Peter Guyan, CC BY-NC-SA 2.0" />
-    <div class="card-header">Minneapolis-St. Paul</div>
-
-The University of Minnesota is located in the heart of the Twin Cities of [Minneapolis](https://www.minneapolis.org/) and [St. Paul](https://www.visitsaintpaul.com/) Minnesota.  The two downtowns are less than 10 miles apart and are connected by rapid transit.  The Twin Cities offer a vibrant cultural, music, sports, and entertainment scene, with great access to the outdoors.  The Twin Cites are one of the most livable metro areas in the United States.
-
-<small>Photo: Peter Guyan, Flickr, CC-BY NC SA 2.0</small>
-  </div>
-
   <!-- Schedule & Key Dates -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2022/schedule-slice.png" class="card-img-top" alt="Key Dates and Schedule" />
@@ -62,6 +42,16 @@ The **[draft conference schedule](https://gcc2022.sched.com/)** shows the dates 
 
   </div>
 
+  <!-- Minneapolis Minnesota -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2022/spoon-and-cherry-peter-guyan.jpg" class="card-img-top" alt="Cherry and sppon, Peter Guyan, CC BY-NC-SA 2.0" />
+    <div class="card-header">Minneapolis-St. Paul</div>
+
+The University of Minnesota is located in the heart of the Twin Cities of [Minneapolis](https://www.minneapolis.org/) and [St. Paul](https://www.visitsaintpaul.com/) Minnesota.  The two downtowns are less than 10 miles apart and are connected by rapid transit.  The Twin Cities offer a vibrant cultural, music, sports, and entertainment scene, with great access to the outdoors.  The Twin Cites are one of the most livable metro areas in the United States.
+
+<small>Photo: Peter Guyan, Flickr, CC-BY NC SA 2.0</small>
+  </div>
+
   <!-- Keynotes -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2022/decision-making.jpeg" class="card-img-top" alt="Keynotes" />
@@ -73,10 +63,21 @@ Interested in how informatics and AI can be integrated into molecular and clinic
 
   <!-- Sponsors -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/sponsors/sponsors-slice.jpg" class="card-img-top" alt="Sponsors" />
+    <img src="/images/logos/AWSLogo1280.jpg" class="card-img-top" alt="Sponsors" />
     <div class="card-header">Sponsors</div>
 
 Sponsors are a key part of GCC2022 and *are potential partners in participant success.* Is your organization interested in playing a prominent role in the first in-person gathering of the Galaxy community since 2019? **Please see the [Sponsorships page](/events/gcc2022/sponsors/) for details.**
+  </div>
+
+
+  <!-- University of Minnesota -->
+  <div class="card" style="min-width: 25%; max-width: 30rem;">
+    <img src="/images/events/gcc2022/umn-northrup-mall.jpg" class="card-img-top" alt="University of Minnesota Northrup Mall" />
+    <div class="card-header">University of Minnesota</div>
+
+GCC2022 will be hosted by the **[University of Minnesota, Twin Cities](https://twin-cities.umn.edu/)** in Minneapolis, Minnesota.
+
+The meeting will be **held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/hotels/travel/mspdc-courtyard-minneapolis-downtown/)**, near the university campus and close to engaging neighborhoods, cultural attractions, public art and greenspace, restaurants, and much more. The venue area straddles the Mississippi River and no matter where you are, you're never far from nature with parks, trails, and waterways just a short walk away.
   </div>
 
   <!-- MSI -->
