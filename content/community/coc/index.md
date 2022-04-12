@@ -58,7 +58,7 @@ The Galaxy Community prioritizes marginalized people’s safety over privileged 
 
 If you are being harassed by a member of the Galaxy Community, notice that someone else is being harassed, or have any other concerns, please send a report via [this form](https://bit.ly/reporting-coc) that will be forwarded to the [Galaxy CoC Committee](#the-galaxy-coc-committee). Alternatively, you can [email the Code of Conduct Committee](mailto:code-of-conduct@lists.galaxyproject.org). If you are uncomfortable reporting to the Code of Conduct Committee as a group, you can contact any individual Committee member via email. If the person who is harassing you is on the Committee, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
-To protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. 
+To protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made with the deliberate intention of deceiving or misleading the committee. 
 
 This code of conduct applies to Galaxy Community spaces, but if you are being harassed by a member of Galaxy Community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by Galaxy Community members seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the Galaxy Community based on their past behavior, including behavior outside Galaxy Community spaces and behavior towards people who are not in the Galaxy Community.
 
@@ -72,13 +72,13 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 
 ### The Galaxy CoC Committee
 
-| Member | Pronouns | Language | Location | Years in the project | Relevant information |
+| Member | Pronouns | Language | Location | Joined the project (year) | Relevant information |
 | --- | --- | --- | --- | --- | --- |
-| [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2 ||
-| [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2 | Ombudsperson in the Bioconductor Community CoC Committee |
-| [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL, EN, FR | BE | 7 ||
-| [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 9 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project |
-| [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 16 | Retired, not funded by the Galaxy project |
+| [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2020 | Member of the [Galaxy Working Groups](/community/wg/): Backend, User Interface / User Experience, GOATS |
+| [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2020 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
+| [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL, EN, FR | BE | 2015 | Member of the [Galaxy Executive Board](/community/exec/) |
+| [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 2013 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project, member of the GOATS [Galaxy Working Group](/community/wg/) |
+| [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 2006 | Retired, not funded by the Galaxy project, member of the [Galaxy Executive Board](/community/exec/) |
 
 The Galaxy Code of Conduct Committee has appointed an Ombudsperson from the Bioconductor community to provide independent and impartial oversight and to resolve conflicts. This person can be contacted in case you believe that other avenues of reporting may be biased.
 
