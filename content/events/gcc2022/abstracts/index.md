@@ -13,7 +13,7 @@ a peer review process before being accepted for the program.
         <div class="col">
             <button type="button" class="btn btn-secondary center">
                 <a target="_blank" href="https://docs.google.com/forms/d/1z29z8Nd8Gho0trS7DySvWAii6hisbZr67cuI--lcZ_4/">
-                    <strong>Submit your abstract</strong>
+                    <strong>Submit your abstract <br/>for poster or demo</strong>
                 </a>
             </button>
         </div>
@@ -25,7 +25,7 @@ a peer review process before being accepted for the program.
 
 | Date    | What |
 | -----   | --- |
-| Apr  12 | Abstracts due for short or long talks |
+| <s>Apr  12</s> | <s>Abstracts due for short or long talks</s> |
 | May  12 | Talk submitters notified of acceptance status |
 | May  20 | Deadline for confirming abstract acceptance |
 | Jun  3  | Poster/demo abstracts due |

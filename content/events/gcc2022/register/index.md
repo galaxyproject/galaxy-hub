@@ -32,13 +32,13 @@ Cost: **Free, for as long as there is space**
 
 Meeting registration includes admission to conference talks, poster/demo sessions, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
 
-| | Early (< June 3) | Full (< June 24) | Late (> June 24) |
+| | Early (< May 12) | Full (< June 24) | Late (> June 24) |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | $250 | $400 | $500 |
 | Academic / Non-Profit / Government | $400 | $550 | $750 |
 | Industry            | $700 | $900 | $1,150 |
 
-### CoFest, July 21-23
+## CoFest, July 21-23
 
 You can register for 1, 2, or 3 days of [CoFest](/events/gcc2022/cofest/). The registration cost is used to cover the costs of food and drinks during the event.
 
