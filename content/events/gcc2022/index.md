@@ -38,7 +38,7 @@ The **[draft conference schedule](https://gcc2022.sched.com/)** shows the dates 
     <img src="/images/events/gcc2022/gianmauro-slice.jpg" class="card-img-top" alt="Present at GCC2022" />
     <div class="card-header">Abstracts</div>
 
-**Share your work!**  There is no better place than GCC2022 to share your progress and challenges in doing and supporting data-intesive science. GCC2022 is soliciting long talks, lightning talks, poster presentations, and demo presentations.  **See the [Abstracts page](/events/gcc2022/abstracts/)** for details.
+**Share your work!**  There is no better place than GCC2022 to share your progress and challenges in doing and supporting data-intensive science. GCC2022 is soliciting long talks, lightning talks, poster presentations, and demo presentations.  **See the [Abstracts page](/events/gcc2022/abstracts/)** for details.
 
   </div>
 
