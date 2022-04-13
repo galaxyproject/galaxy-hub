@@ -7,6 +7,6 @@ continent: EU
 location: "Research Core Unit Genomics (RCUG), Hannover Medical School, Hannover, Germany"
 image: /images/logos/hannover-mh-rcu-logo.jpg
 location_url: "https://www.mhh.de/genomics"
-external_url: "https://www.denbi.de/jobs/1394-bioinformatician-data-scientist-f-d-m"
+external_url: "https://mhh.hr4you.org/job/view/1292/bioinformatician-data-scientist-f-d-m?page_lang=en"
 contact: "Oliver Dittrich-Breiholz"
 ---
