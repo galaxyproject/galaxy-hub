@@ -52,7 +52,6 @@ Please contact the committee member leading the project if you would like to lea
 * Misconceptions - Hans-Rudolf Hotz
 * Propeller onboarding cookbook - Anne Fouilloux
 * Global Science - Andrew Lonie
-* Small scale server administrators - Hans-Rudolf Hotz
 
 #### Grown-up Working Groups
 
