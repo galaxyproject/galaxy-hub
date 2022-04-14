@@ -50,13 +50,13 @@ Please contact the committee member leading the project if you would like to lea
 
 * Membership - Dan Blankenberg
 * Misconceptions - Hans-Rudolf Hotz
-* Propeller onboarding cookbook - Anne Fouilloux
 * Global Science - Andrew Lonie
 
 #### Grown-up Working Groups
 
-* Galaxy Mentor Network - Bérénice Batut: This working group has developed into the [GMN program](https://galaxy-mentor-network.netlify.app/)! 
-* Small scale server administrators - Hans-Rudolf Hotz: This working group has become a [communities of practice](https://galaxyproject.org/community/#communities-of-practice)
+* Mentoring - Bérénice Batut: This working group has developed into the [Galaxy Mentor Network](https://galaxy-mentor-network.netlify.app/) as part of the Outreachy internship program (mentees: Rahmot Afolabi, Chinonye Mildred, mentors: Bérénice Batut, Assunta DeSanto).
+* Small scale server administrators - Hans-Rudolf Hotz: This working group has become a [community of practice](https://galaxyproject.org/community/#communities-of-practice).
+* Propeller onboarding cookbook - Anne Fouilloux: This working group has developed into the [Galaxy starter kit](https://galaxyproject.org/get-started/) as part of the Outreachy internship program (mentee: Maria Pia, mentors: Anne Fouilloux, Beatriz Serrano-Solano).
 
 ## GGSC Committee Membership
 
