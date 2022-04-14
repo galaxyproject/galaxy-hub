@@ -56,6 +56,7 @@ Please contact the committee member leading the project if you would like to lea
 #### Grown-up Working Groups
 
 * Galaxy Mentor Network - Bérénice Batut: This working group has developed into the [GMN program](https://galaxy-mentor-network.netlify.app/)! 
+* Small scale server administrators - Hans-Rudolf Hotz: This working group has become a [communities of practice](https://galaxyproject.org/community/#communities-of-practice)
 
 ## GGSC Committee Membership
 
