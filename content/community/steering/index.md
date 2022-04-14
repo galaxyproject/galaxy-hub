@@ -50,7 +50,6 @@ Please contact the committee member leading the project if you would like to lea
 
 * Membership - Dan Blankenberg
 * Misconceptions - Hans-Rudolf Hotz
-* Global Science - Andrew Lonie
 
 #### Grown-up Working Groups
 
