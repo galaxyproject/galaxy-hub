@@ -4,7 +4,7 @@
             <b-navbar-brand to="/">
                 <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" height="30" />
             </b-navbar-brand>
-            <b-navbar-brand class="subsite-name" v-if="subsite !== 'root'" :to="`${pathPrefix}/`" v-html="subsiteName" />
+            <b-navbar-brand class="subsite-name" v-if="subsite && subsite !== 'root'" :to="`${pathPrefix}/`" v-html="subsiteName" />
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav id="navbar-menu">
