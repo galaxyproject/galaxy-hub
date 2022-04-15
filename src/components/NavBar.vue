@@ -70,7 +70,7 @@ export default {
     },
     computed: {
         pathPrefix() {
-            if (this.subsite === "root") {
+            if (!this.subsite || this.subsite === "root") {
                 return "";
             } else {
                 return `/${this.subsite}`;
