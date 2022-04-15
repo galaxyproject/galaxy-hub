@@ -19,6 +19,12 @@
         },
         "copyFileExts": ["png", "jpg", "jpeg", "gif", "svg", "pdf"]
     },
+    "taggedEventsPages": [
+        { "tag": "webinar", "path": "/events/webinars/" },
+        { "tag": "devroundtable", "path": "/community/devroundtable/" },
+        { "tag": "cofest", "path": "/events/cofests/" },
+        { "tag": "papercuts", "path": "/events/cofests/papercuts/" }
+    ],
     "subsites": {
         "hierarchy": {
             "root": {

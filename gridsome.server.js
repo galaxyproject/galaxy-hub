@@ -39,7 +39,7 @@ function categorize(pathParts) {
     //TODO: Allow trailing slashes in category paths.
     let keyParts = pathParts.slice(0, pathParts.length - 2);
     let key = keyParts.join("/");
-    let category = CONFIG["categories"][key];
+    let category = CONFIG.categories[key];
     if (category === undefined) {
         return null;
     } else {
@@ -268,7 +268,7 @@ module.exports = function (api) {
                 })
             );
         }
-        let collections = articleTypes.concat(Object.keys(CONFIG["collections"]));
+        let collections = articleTypes.concat(Object.keys(CONFIG.collections));
         let schemas = {};
         for (let collection of collections) {
             schemas[collection] = {
@@ -291,14 +291,8 @@ module.exports = function (api) {
 
     // Programmatically generate repetitive pages.
     // Tagged subsets of events.
-    const taggedEventsPages = [
-        { tag: "webinar", path: "/events/webinars/" },
-        { tag: "devroundtable", path: "/community/devroundtable/" },
-        { tag: "cofest", path: "/events/cofests/" },
-        { tag: "papercuts", path: "/events/cofests/papercuts/" },
-    ];
     api.createPages(({ createPage }) => {
-        for (let page of taggedEventsPages) {
+        for (let page of CONFIG.taggedEventsPages) {
             createPage({
                 path: page.path,
                 component: "./src/components/pages/TaggedEvents.vue",
