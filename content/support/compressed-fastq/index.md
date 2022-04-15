@@ -26,13 +26,7 @@ Why bother? Compressed data saves space in your account. This is a priority for 
 
 [How do `fastq.gz` datasets relate to the `.fastqsanger` datatype metadata assignment?](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_and_fastqsanger.html)
 
-[Best practices for loading fastq data into Galaxy](
-
-* As of release `17.09`, fastq data will have the datatype `fastqsanger` auto-detected when that qualtity score scaling is detected and "autodetect" is used within the Upload tool. Compressed fastq data will be converted to uncompressed in the history.
-* To preserve fastq compression, directly assign the approrpriate datatype (eg: `fastqsanger.gz`).
-* If the data is close to or over 2 GB in size, be sure to use [FTP](/support/loading-data/)
-* If the data was already loaded as `fastq.gz`, don't worry! Just test the data for correct format (as needed) and assign the metadata type as explained above. This is currently a one-dataset-at-a-time edit post-Upload, but future plans include making these assignments a batch operation.
-
+[Best practices for loading fastq data into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_best_practices_fastq.html)
 
 
 
