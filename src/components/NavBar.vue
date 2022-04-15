@@ -155,11 +155,15 @@ function getPath(page) {
 </script>
 
 <style>
+#subsite-name {
+    display: flex;
+    align-items: center;
+}
 #subsite-name > a.dropdown-toggle {
     line-height: 100%;
     white-space: normal;
     font-size: 1.1rem;
-    max-width: 100px;
+    max-width: 95px;
     margin: 0;
     padding: 0;
 }
