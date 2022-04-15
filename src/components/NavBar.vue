@@ -4,16 +4,19 @@
             <b-navbar-brand to="/">
                 <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" height="30" />
             </b-navbar-brand>
-            <b-navbar-brand
-                class="subsite-name"
-                v-if="subsiteName && subsite && subsite !== 'root'"
-                :to="`${pathPrefix}/`"
-            >
-                {{ subsiteName }}
-            </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav id="navbar-menu">
+                    <b-nav-item-dropdown
+                        id="subsite-name"
+                        v-if="subsiteName && subsite && subsite !== 'root'"
+                        :text="subsiteName"
+                    >
+                        <b-dropdown-item to="/">Global</b-dropdown-item>
+                        <b-dropdown-item v-for="meta of subsites" :key="meta.key" :to="`/${meta.key}/`">
+                            {{ meta.name }}
+                        </b-dropdown-item>
+                    </b-nav-item-dropdown>
                     <b-nav-item :to="`${pathPrefix}/news/`">News</b-nav-item>
                     <b-nav-item :to="`${pathPrefix}/events/`">Events</b-nav-item>
                     <b-nav-item to="/learn/">Training</b-nav-item>
@@ -90,6 +93,15 @@ export default {
                 return "";
             }
         },
+        subsites() {
+            let subsitesList = [];
+            for (let [subsite, metadata] of Object.entries(CONFIG.subsites.metadata)) {
+                metadata.key = subsite;
+                subsitesList.push(metadata);
+            }
+            subsitesList.sort((a, b) => a.order > b.order);
+            return subsitesList;
+        },
         classes() {
             let classes = [];
             if (CONFIG.subsites.metadata[this.subsite]?.lightBg) {
@@ -142,11 +154,11 @@ function getPath(page) {
 }
 </script>
 
-<style scoped>
-.subsite-name {
-    text-align: center;
+<style>
+#subsite-name > a.dropdown-toggle {
     line-height: 100%;
     white-space: normal;
+    font-size: 1.1rem;
     max-width: 100px;
     margin: 0;
     padding: 0;
