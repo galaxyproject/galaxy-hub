@@ -10,12 +10,8 @@
         </h1>
         <div class="markdown" v-if="$page.main && $page.main.content" v-html="$page.main.content" />
         <h2 id="upcoming-events">
-            <template v-if="$page.main && $page.main.noun">
-                Upcoming {{ $page.main.noun }}s
-            </template>
-            <template v-else>
-                Upcoming events
-            </template>
+            <template v-if="$page.main && $page.main.noun">Upcoming {{ $page.main.noun }}s</template>
+            <template v-else>Upcoming events</template>
         </h2>
         <table class="table table-striped">
             <thead>
@@ -31,12 +27,8 @@
             </tbody>
         </table>
         <h2 id="recent-events">
-            <template v-if="$page.main && $page.main.noun">
-                Recent {{ $page.main.noun }}s
-            </template>
-            <template v-else>
-                Recent events
-            </template>
+            <template v-if="$page.main && $page.main.noun">Recent {{ $page.main.noun }}s</template>
+            <template v-else>Recent events</template>
         </h2>
         <p>Events in the past 12 months:</p>
         <table class="table table-striped">
