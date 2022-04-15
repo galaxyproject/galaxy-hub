@@ -6,10 +6,11 @@
             </b-navbar-brand>
             <b-navbar-brand
                 class="subsite-name"
-                v-if="subsite && subsite !== 'root'"
+                v-if="subsiteName && subsite && subsite !== 'root'"
                 :to="`${pathPrefix}/`"
-                v-html="subsiteName"
-            />
+            >
+                {{ subsiteName }}
+            </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav id="navbar-menu">
@@ -84,7 +85,7 @@ export default {
         subsiteName() {
             let nameRaw = CONFIG.subsites.metadata[this.subsite]?.name;
             if (nameRaw) {
-                return nameRaw.replace(/[/ ]/, "<br>");
+                return nameRaw.replace("/", " ");
             } else {
                 return "";
             }
@@ -145,5 +146,9 @@ function getPath(page) {
 .subsite-name {
     text-align: center;
     line-height: 100%;
+    white-space: normal;
+    max-width: 100px;
+    margin: 0;
+    padding: 0;
 }
 </style>
