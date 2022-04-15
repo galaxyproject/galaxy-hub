@@ -35,6 +35,10 @@
             }
         },
         "metadata": {
+            "root": {
+                "name": "Global",
+                "order": 0
+            },
             "us": {
                 "name": "US",
                 "color": "#4e7152",

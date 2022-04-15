@@ -7,14 +7,9 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav id="navbar-menu">
-                    <b-nav-item-dropdown
-                        id="subsite-name"
-                        v-if="subsiteName && subsite && subsite !== 'root'"
-                        :text="subsiteName"
-                    >
-                        <b-dropdown-item to="/">Global</b-dropdown-item>
-                        <b-dropdown-item v-for="meta of subsites" :key="meta.key" :to="`/${meta.key}/`">
-                            {{ meta.name }}
+                    <b-nav-item-dropdown id="subsite-name" v-if="subsiteName && subsite" :text="subsiteName">
+                        <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
+                            {{ link.name }}
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item :to="`${pathPrefix}/news/`">News</b-nav-item>
@@ -93,14 +88,26 @@ export default {
                 return "";
             }
         },
-        subsites() {
-            let subsitesList = [];
+        subsiteLinks() {
+            let subsitesLinks = [];
             for (let [subsite, metadata] of Object.entries(CONFIG.subsites.metadata)) {
-                metadata.key = subsite;
-                subsitesList.push(metadata);
+                if (subsite === this.subsite) {
+                    continue;
+                }
+                let link = {
+                    key: subsite,
+                    name: metadata.name,
+                    order: metadata.order,
+                };
+                if (subsite == "root") {
+                    link.path = "/";
+                } else {
+                    link.path = `/${subsite}/`;
+                }
+                subsitesLinks.push(link);
             }
-            subsitesList.sort((a, b) => a.order > b.order);
-            return subsitesList;
+            subsitesLinks.sort((a, b) => a.order > b.order);
+            return subsitesLinks;
         },
         classes() {
             let classes = [];
