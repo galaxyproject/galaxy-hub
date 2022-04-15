@@ -1,7 +1,7 @@
 <template>
-    <div :class="`layout ${subsite}`">
+    <div :class="rootClasses">
         <header id="masthead">
-            <NavBar />
+            <NavBar :subsite="subsite" />
         </header>
         <main id="maincontainer" class="container">
             <slot />
@@ -19,7 +19,16 @@ export default {
         NavBar,
     },
     props: {
-        subsite: { type: String, required: false, default: "global" },
+        subsite: { type: String, required: false, default: "root" },
+    },
+    computed: {
+        rootClasses() {
+            let classes = ["layout"];
+            if (this.subsite) {
+                classes.push(this.subsite);
+            }
+            return classes;
+        },
     },
     mounted() {
         // Google Analytics tag.

@@ -22,7 +22,7 @@ const {
     flattenSubsites,
 } = require("./src/utils.js");
 const CONFIG = require("./config.json");
-const SUBSITES_LIST = flattenSubsites(CONFIG.subsites);
+const SUBSITES_LIST = flattenSubsites(CONFIG.subsites.hierarchy);
 
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
