@@ -22,7 +22,7 @@ Uploaded gz compressed FASTQ data loads in compressed format directly into the H
 Why bother? Compressed data saves space in your account. This is a priority for many that have larger sized data/experiments to analyze. As before, some tools accept fastq datatypes (example: prep/QA steps/tools) and others accept fastqsanger datatypes (example: mapping and downstream analysis steps/tools). See the tool form to know which is expected. **When in doubt, use fastqsanger**.
 
 
-[Using compressed data as tool inputs](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_Using_compressed_fastq_data.html)
+### [Using compressed data as tool inputs](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_Using_compressed_fastq_data.html)
 
 [How do `fastq.gz` datasets relate to the `.fastqsanger` datatype metadata assignment?](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_and_fastqsanger.html)
 
