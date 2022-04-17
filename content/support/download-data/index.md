@@ -30,10 +30,8 @@ Download datasets from Galaxy to your computer by clicking on the "disk icon" wi
 * Datasets with a `bam` datatype will have two files per dataset 1) the `bam` dataset itself plus 2) the associated `bai` index. Download each individually. See [Common datatypes explained: bam](/learn/datatypes/#bam).
 * Datasets with a `fasta` datatype will have one file per dataset. If you need a fasta `fai` index, one can be created and downloaded. See [Common datatypes explained: fasta](/learn/datatypes/#fasta).
 
-Dataset downloading incompletely?
+[Dataset downloading incompletely?](https://training.galaxyproject.org/training-material/faqs/galaxy/dataset_incomplete_download.html)
 
-* Try using the _Google Chrome_ web browser. Sometimes Chrome itself better supports continuous data transfers.
-* Use the **command-line option** instead. The data may really be too large to download OR your connection is slower. This can also be a faster way to download multiple datasets plus ensure a complete transfer (small or large data).
 
 ## Command-line option
 
