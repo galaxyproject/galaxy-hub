@@ -24,9 +24,9 @@ Why bother? Compressed data saves space in your account. This is a priority for 
 
 ### [Using compressed data as tool inputs](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_Using_compressed_fastq_data.html)
 
-[How do `fastq.gz` datasets relate to the `.fastqsanger` datatype metadata assignment?](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_and_fastqsanger.html)
+### [How do `fastq.gz` datasets relate to the `.fastqsanger` datatype metadata assignment?](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_and_fastqsanger.html)
 
-[Best practices for loading fastq data into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_best_practices_fastq.html)
+### [Best practices for loading fastq data into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_best_practices_fastq.html)
 
 
 
