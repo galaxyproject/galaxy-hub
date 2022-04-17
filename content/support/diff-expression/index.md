@@ -17,7 +17,7 @@ Related topics
 * [Common datatypes explained](/learn/datatypes/)
 * [Search all Prior Q&A and Galaxy Resources](https://galaxyproject.org/search/)
 
-[Extended Help for Differential Expression Analysis Tools](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_extended_Extended_help_differential_expression_analysis_tools.html)
+# [Extended Help for Differential Expression Analysis Tools](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_extended_Extended_help_differential_expression_analysis_tools.html)
 
 # More Resources
 
