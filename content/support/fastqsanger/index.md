@@ -11,5 +11,7 @@ Related Topics
 * [Common datatypes explained](/learn/datatypes/)
 * [Input datatype misassignment and errors](/support/tool-error/)
 
-[How to format fastq data for tools that require .fastqsanger format?](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_format.html)
+## Help for Fastq Datasets
+
+### [How to format fastq data for tools that require .fastqsanger format?](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_format.html)
 
