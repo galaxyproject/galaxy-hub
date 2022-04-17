@@ -79,4 +79,4 @@ or
 $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
 ```
 
-[Dataset(s) not downloading at all?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_not_downloading_at_all.html)
+# [Dataset(s) not downloading at all?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_not_downloading_at_all.html)
