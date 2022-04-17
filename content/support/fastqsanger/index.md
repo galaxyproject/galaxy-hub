@@ -13,5 +13,5 @@ Related Topics
 
 ## Help for Fastq Datasets
 
-### [How to format fastq data for tools that require .fastqsanger format?](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_format.html)
+### [Fastqsanger format is usually required](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_format.html)
 
