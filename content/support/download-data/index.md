@@ -74,24 +74,4 @@ or
 $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
 ```
 
-# Dataset(s) not downloading at all?
-
-1. Check to see if pop-ups are blocked by your web browser. Where to check can vary by browser and extensions.
-1. Double check your API key, if used. _User > Preferences > Manage API key_
-1. Check the sharing/permission status of the Datasets.
-
-* Review a dataset's permission status under _Dataset > pencil icon > Edit attributes > Permissions_. If you do not see a "Permissions" tab, then you are not the owner of the data.
-* If the data was [shared with you by someone else](/support/account-quotas/#find-histories-that-have-been-shared-with-you-and-unshare-those-not-needed) from a Shared History, or was copied from a Published History, or you are Sharing or Publishing data, be aware that there are multiple levels of data sharing permissions.
-* **All data are set to "not shared" by default**.
-* **Global sharing, new/existing history, and new/existing data sharing preferences or status can be modified by you at any time under _User > Preferences_ for data that you own.**.
-* **_User > Preferences > Make all data private_ is a "one click" option to unshare ALL data (Datasets, Histories).** Review the pop-up details and confirm or deny the action. Note that once confirmed and all data is unshared, the action cannot be "undone" in batch, even by an administer. You will need to re-share data again and/or reset your global sharing preferences as wanted.
-* Only the data owner has control over sharing/permissions.
-* Any data you upload or create yourself is automatically owned by you with full access.
-* You may not have been granted full access if the data were shared or imported or copied, and someone else is the data owner (your copy could be "view only").
-* After you have a fully shared copy of any shared/published data from someone else, then you become the owner of that data copy. Changes the other person makes, or changes you make, apply to each persons copy/version of the data, individually and only.
-* Histories can be shared with included Datasets also shared (can be downloaded/manipulated by others) or not (viewable only by others).
-* The person who shared the History, or Published it, has full and sole control over sharing permissions. However, once you fully share data with someone else, they can create their own copy and modify/manipulate it, independently.
-* Share access to Datasets is distinct but related to access to Histories.
-* How to adjust or check current share status for your own data with a History? On the _Share or Publish_ form, toggle sharing off/on. If you want Datasets to be fully shared with others, make sure the the box for the option "Also make all objects within the History accessible" is checked.
-* Don't see the "Also make all objects within the History accessible" box on the _Share or Publish_ form? This means that you modified your own default sharing permissions under _User > Preferences > Set dataset permissions for new histories_. You can change this.
-
+# [Dataset(s) not downloading at all?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_not_downloading_at_all.html)
