@@ -11,6 +11,6 @@ Related Topics
 * [Common datatypes explained](/learn/datatypes/)
 * [Input datatype misassignment and errors](/support/tool-error/)
 
-## [Help for Tabular Datasets]((https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_tabular.html)
+## [Help for Tabular Datasets](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_tabular.html)
 
 
