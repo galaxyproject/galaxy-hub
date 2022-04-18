@@ -4,6 +4,8 @@ title: Sorting your inputs
 
 [Back to Support Hub](/support/)
 
+## Sorting tools
+
 To know about Tools available for sorting, refer to [this FAQ](https://training.galaxyproject.org/training-material/faqs/galaxy/tools_sorting.html)
 
 ## Updates
