@@ -14,5 +14,5 @@ title: Metadata
 
 Click on the the dataset's pencil icon to reach the _Edit Attributes_ forms in the center panel to change or update metadata. Metadata attributes can include: database (dbkey, genome, transcriptome, custom genome), datatype (including compression format, e.g. gzipped versus not), column assignments (chrom, start, end, and more), row assignments (specify comments lines), permissions, and others.
 
-# Tool errors related to metadata
-[How to find and correct tool errors related to Metadata?](https://training.galaxyproject.org/training-material/faqs/galaxy/dataset_tool_errors_metadata.html)
+# [Tool errors related to metadata](https://training.galaxyproject.org/training-material/faqs/galaxy/dataset_tool_errors_metadata.html)
+
