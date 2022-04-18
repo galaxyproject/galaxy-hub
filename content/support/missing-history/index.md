@@ -13,9 +13,7 @@ If you were working with an unregistered account, the History could really be no
 [My Dataset is missing](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_finding_datasets.html)
 
 
-# Someone shared a history with me, where do I find it?
-
-To find and work on histories shared with you, follow [this FAQ](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_shared.html) 
+# [Someone shared a history with me, where do I find it?](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_shared.html)
 
 # Related resources
 
