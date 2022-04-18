@@ -33,32 +33,8 @@ Download datasets from Galaxy to your computer by clicking on the "disk icon" wi
 [Dataset downloading incompletely?](https://training.galaxyproject.org/training-material/faqs/galaxy/dataset_incomplete_download.html)
 
 
-## Command-line option
+## [Command-line option](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_download_using_command_line.html)
 
-From a terminal window on your computer, you can use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
-
-The direct download link to a dataset can be obtained by right clicking the
-floppy disk icon and choosing "Copy Link Location" (for most datasets) or
-"Download Dataset/Download bam_index" (for BAM datasets there are two
-downloads). Once you have the link, type this (where "$" indicates the terminal
-prompt), so that the link is inside of single quotes. Like many commands, there
-are many options. These are examples commonly used with Galaxy.
-
-Here's what it looks like using 'wget':
-
-```
-$ wget -O '<link>'
-$ wget -O --no-check-certificate '<link>' # ignore SSL certificate warnings
-$ wget -c '<link>'                        # continue an interrupted download
-```
-
-Or, using curl:
-
-```
-$ curl -o outfile '<link>' 
-$ curl -o outfile --insecure '<link>'     # ignore SSL certificate warnings
-$ curl -C - -o outfile '<link>'           # continue an interrupted download
-```
 
 # Dataset Collections
 
