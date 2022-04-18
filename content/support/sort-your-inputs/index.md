@@ -4,18 +4,9 @@ title: Sorting your inputs
 
 [Back to Support Hub](/support/)
 
-<del>Many tools require inputs to be sorted in a specific way prior to use.</del>
-
-Good news! Galaxy includes tools to do this sorting.
-
 ## Sorting tools
 
-* **Picard SortSam**  Sort SAM/BAM by coordinate or queryname.
-* **Samtools Sort** Alternate for SAM/BAM, best when used for coordiante sorting only.
-* **SortBED order the intervals** Best choice for BED/Interval
-* **Sort data in ascending or descending order** Alternate choice for Tabular/BED/Interval/GTF
-* **VCFsort** Best choice for VFC
-* **Tool Form Options for Sorting** Some tools have a tool form option to sort inputs during job execution. This uses more resources but is a choice. Whenever possible, _sort inputs before using tools_, especially if jobs are failing for not enough memory resources.
+To know about Tools available for sorting, refer to [this FAQ](https://training.galaxyproject.org/training-material/faqs/galaxy/tools_sorting.html)
 
 ## Updates
 
