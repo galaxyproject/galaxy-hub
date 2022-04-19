@@ -33,21 +33,8 @@ Download datasets from Galaxy to your computer by clicking on the "disk icon" wi
 [Dataset downloading incompletely?](https://training.galaxyproject.org/training-material/faqs/galaxy/dataset_incomplete_download.html)
 
 
-## [Command-line option](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_download_using_command_line.html)
+## [Command-line option and Dataset Collections](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_download_using_command_line.html)
 
-
-# Dataset Collections
-
-For dataset collections and datasets within collections you have to supply your [API key](https://galaxyproject.org/develop/api/#enabling) with the request. You can add it to the end of the collection download url, the command would look something like this:
-
-```
-$ wget https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
-```
-
-or
-
-```
-$ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
 ```
 
 # [Dataset(s) not downloading at all?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_not_downloading_at_all.html)
