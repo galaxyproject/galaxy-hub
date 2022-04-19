@@ -8,24 +8,7 @@ title: Custom Genomes
 
 ---
 
-# What is a "Custom Reference Genome" ?
-
-A reference genome contains the nucleotide sequence of the chromosomes, scaffolds, transcripts, or contigs for a single species. It is representative of a specific genome build or release.
-
-In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/learn/datatypes/#fasta) formatted [dataset](/learn/#datasets) that can be used in place of a **native reference genome** with most tools.
-
-* **custom**: a dataset *from the history* loaded by users
-* **native**: *local* or *cached* by administrators (see [Admin/DataPreparation](/admin/data-preparation/))
-
-# Overview
-
-There are **five basic steps** to using a *Custom Reference Genome*:
-
-* Obtain a **[FASTA](/learn/datatypes/#fasta) copy of the target genome**
-* **[FTP](/ftp-upload/) the genome to Galaxy** and load into a history as a [dataset](/learn/#datasets)
-* **Clean up the format** with the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace.
-* Make sure the [chromosome identifiers](https://galaxyproject.org/support/chrom-identifiers) are a match for other inputs
-* **Set a tool form's options to use a custom reference genome from the history** and select the loaded genome
+# [What is a "Custom Reference Genome"?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_custom_genomes.html)
 
 # Screencasts & Tutorials
 
