@@ -27,9 +27,7 @@ Should you have questions after reviewing the options below, this is how to get 
 Working at a different Public Galaxy server? If you question is general, try the Galaxy Help forum. If server specific or account related, that server's home page or directory page usually contains contact and other information concerning account terms, questions, issues, and quota policies: [Galaxy Platform Directory](/use/). If you cannot find the contact information, or are not sure about what the problem is exactly, ask for advice at the Galaxy Help forum or at Gitter. The more context you provide (server URL, problem details), the quicker our community will be able to assist you.
 
 
-## Does your account usage quota seem incorrect?
-
-Log out of Galaxy, then back in again. This refreshes the disk usage calculation dislayed in the Masthead usage (summary) and under *User > Preferences* (exact).
+## [Does your account usage quota seem incorrect?](https://training.galaxyproject.org/training-material/faqs/galaxy/user_preferences_account_usage_quota.html)
 
 ## How to log in or out of Galaxy?
 
