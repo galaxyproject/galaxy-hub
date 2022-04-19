@@ -50,7 +50,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/main/):
 * **Histories in a *deleted* state are still part of your quota usage.**
 * **Histories must be *purged* (permenently deleted) to not count toward quota.**
 
-### [Find all Datasets or just review those in the active history and *purge* (aka permenently delete) those not needed](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_purgin_datasets.html)
+### [Find all Datasets or just review those in the active history and *purge* (aka permenently delete) those not needed](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_purging_datasets.html)
 
 ### Find Histories that have been shared with you, and unshare those not needed
 
