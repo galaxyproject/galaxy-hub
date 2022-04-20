@@ -23,7 +23,8 @@
         { "tag": "webinar", "path": "/events/webinars/" },
         { "tag": "devroundtable", "path": "/community/devroundtable/" },
         { "tag": "cofest", "path": "/events/cofests/" },
-        { "tag": "papercuts", "path": "/events/cofests/papercuts/" }
+        { "tag": "papercuts", "path": "/events/cofests/papercuts/" },
+        { "tag": "community-call", "path": "/community/community-calls/" }
     ],
     "subsites": {
         "hierarchy": {
