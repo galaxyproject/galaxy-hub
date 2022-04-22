@@ -19,7 +19,7 @@ export default {
         NavBar,
     },
     props: {
-        subsite: { type: String, required: false, default: "root" },
+        subsite: { type: String, required: false, default: null },
     },
     computed: {
         rootClasses() {

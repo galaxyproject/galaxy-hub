@@ -16,8 +16,8 @@ const {
     repr,
     rmPrefix,
     rmSuffix,
+    getType,
     matchesPrefixes,
-    getSubsiteAncestry,
     subsiteFromPath,
     flattenSubsites,
 } = require("./src/utils.js");
@@ -165,25 +165,36 @@ class nodeModifier {
             }
         }
         // Assign subsites.
-        // Ones with no "subsites" key will be `undefined`.
-        let subsitesRaw = node.subsites || [];
-        let subsitesSet = new Set(["root"]);
-        // See if its path is under a particular subsite.
+        let type = getType(node.subsites);
+        let subsitesRaw = node.subsites;
+        if (type === "Array") {
+            subsitesRaw = node.subsites;
+        } else if (type === "String") {
+            subsitesRaw = [node.subsites];
+        } else if (node.subsites) {
+            console.error(repr`Invalid type for "subsites" key in ${node.path}: ${node.subsites}`);
+        } else {
+            // For files with no "subsites" key, `node.subsites` will be `undefined`. Translate this to an empty list.
+            subsitesRaw = [];
+        }
+        let subsitesSet = new Set();
+        // Add any path-derived subsite.
         node.main_subsite = subsiteFromPath(node.path);
         if (node.main_subsite) {
-            subsitesRaw.push(node.main_subsite);
+            subsitesSet.add(node.main_subsite);
         }
-        // Include all parent subsites. I.e. if one of the subsites is "genouest" and its parent
-        // subsite (defined in config.json) is "eu", add "eu" to the list.
+        // Add any subsites from the author-written `subsites` yaml key. Translate any shorthands first.
         for (let subsite of subsitesRaw) {
-            if (subsite === "global") {
-                continue;
+            let shorthandSubsites = CONFIG.subsites.shorthands[subsite];
+            if (shorthandSubsites) {
+                // It's a shorthand. Add all the subsites it stands for.
+                for (let shorthandSubsite of shorthandSubsites) {
+                    subsitesSet.add(shorthandSubsite);
+                }
+            } else {
+                // It's an actual subsite. Just add it to the list.
+                subsitesSet.add(subsite);
             }
-            let ancestry = getSubsiteAncestry(subsite);
-            if (ancestry === false) {
-                console.error(repr`${subsite} in ${node.path} is not a subsite according to config.json.`);
-            }
-            ancestry.forEach((thisSubsite) => subsitesSet.add(thisSubsite));
         }
         // Store the Set of unique subsites to the `subsites` field as an Array.
         node.subsites = Array.from(subsitesSet);
@@ -313,7 +324,7 @@ module.exports = function (api) {
         ]) {
             for (let subsite of SUBSITES_LIST) {
                 let prefix;
-                if (subsite === "root") {
+                if (subsite === "global") {
                     prefix = "";
                 } else {
                     prefix = `/${subsite}`;

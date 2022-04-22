@@ -148,11 +148,6 @@ function subsiteFromPath(path) {
 }
 module.exports.subsiteFromPath = subsiteFromPath;
 
-function getSubsiteAncestry(subsite) {
-    return getTreeBranch(CONFIG.subsites.hierarchy, subsite);
-}
-module.exports.getSubsiteAncestry = getSubsiteAncestry;
-
 /** Find the `query` in the tree and return a list containing it and its ancestors.
  * @param {Object} tree  A tree represented as an object where each key is a string and each value
  *                       is an object of the same format. Leaf nodes are keys whose values are empty
