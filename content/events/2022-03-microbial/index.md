@@ -10,5 +10,5 @@ external_url: "https://www.earlham.ac.uk/microbial-community-analysis-workshop-2
 gtn: true
 contact: "Falk Hildebrand"
 image: 
-subsites: [eu]
+subsites: [global, eu, us]
 ---
