@@ -8,3 +8,4 @@ image: /images/logos/universite_de_tours_logo.png
 location_url: http://www.univ-tours.fr/
 external_url: https://tild.sciencesconf.org/
 contact: Franziska Liesecke
+---
