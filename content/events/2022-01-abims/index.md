@@ -10,6 +10,6 @@ external_url: "http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/format
 gtn: true
 contact: "Loraine Guéguen, Erwan Corre"
 image: ""
-tags: 
+tags: []
 subsites: [global, us]
 ---

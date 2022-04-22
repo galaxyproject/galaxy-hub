@@ -10,6 +10,6 @@ location_url: "https://docs.google.com/document/d/1DefGMmcBkH0jv89lx9E-CIcvqvDJo
 external_url: "https://docs.google.com/document/d/1DefGMmcBkH0jv89lx9E-CIcvqvDJoT5cdjONKOP94bY/edit#heading=h.k4a1o3eqwsd4"
 gtn: false
 contact: "Helena Rasche"
-tags: "webinar"
+tags: [webinar]
 subsites: [global, us]
 ---

@@ -10,6 +10,6 @@ location_url: "https://hupo2021.org/pre-congress-webinar-series/"
 external_url: "https://hupo2021.org/webinar-registration/"
 gtn: false
 contact: "Pratik Jagtap"
-tags: "webinar"
+tags: [webinar]
 subsites: [global, us]
 ---

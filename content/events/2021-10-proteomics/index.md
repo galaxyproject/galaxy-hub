@@ -10,6 +10,6 @@ location_url: "https://docs.google.com/document/d/10lECIsd9tqC4IXWjqcINZDSduKn-1
 external_url: "https://docs.google.com/document/d/10lECIsd9tqC4IXWjqcINZDSduKn-1afoN9Q5r7IW8vg/edit"
 gtn: false
 contact: "Johan Gustafsson, Grace Hall, Pratik Jagtap"
-tags: "webinar"
+tags: [webinar]
 subsites: [global, us]
 ---
