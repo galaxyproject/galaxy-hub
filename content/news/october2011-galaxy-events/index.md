@@ -1,6 +1,7 @@
 ---
 title: "October 2011 Galaxy Events"
 date: "2011-09-28"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/events/'><img src="/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events in October 2011" width="120" /></a>

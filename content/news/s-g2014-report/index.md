@@ -1,6 +1,7 @@
 ---
 title: "Swiss German Galaxy Tour 2014"
 date: "2014-10-21"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="Swiss-German Galaxy Tour 2014" width="180" /></a></div>
 

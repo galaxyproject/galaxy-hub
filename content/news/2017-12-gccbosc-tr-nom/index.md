@@ -2,6 +2,7 @@
 title: 'GCCBOSC2018 Training Topic Nominations'
 tease: "Choose your own training adventure!"
 date: '2017-12-14'
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)

@@ -1,6 +1,7 @@
 ---
 title: "South Africa Workshop Tour 2013"
 date: "2013-09-09"
+subsites: [global, us]
 ---
 <table>
   <tr>

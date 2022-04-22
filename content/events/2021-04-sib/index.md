@@ -10,4 +10,5 @@ external_url: "https://www.sib.swiss/training/course/20210428_GALXY"
 gtn: true
 contact: "Lucille Delisle, Hans-Rudolf Hotz, Florian Heyl"
 image: 
+subsites: [global, us]
 ---

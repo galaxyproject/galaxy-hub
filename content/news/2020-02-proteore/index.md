@@ -2,6 +2,7 @@
 title: 'ProteoRE 2.1'
 tease: "New and improved tools and data sources for proteomics data analysis"
 date: "2020-02-06"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/use/proteore/proteore.png" alt="ProteoRE"  style="max-width: 15rem;" />](http://www.proteore.org/)

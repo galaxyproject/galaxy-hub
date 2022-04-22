@@ -10,4 +10,5 @@ external_url: https://www.ceitec.eu/bioinformatics-workshop-next-generation-sequ
 gtn: false
 contact: Jan Oppelt, Jelle Scholtalbers
 image: 
+subsites: [global, us]
 ---

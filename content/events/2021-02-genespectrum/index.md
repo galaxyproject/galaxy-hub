@@ -12,4 +12,5 @@ contact: "GeneSpectrum"
 tags: [ ]
 links:
 image: 
+subsites: [global, us]
 ---

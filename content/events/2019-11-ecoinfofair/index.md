@@ -10,5 +10,6 @@ external_url: "https://ecoinfo-fair.sciencesconf.org/"
 contact: 'Yvan Le Bras'
 image: ""
 gtn: true
+subsites: [global, us]
 ---
 

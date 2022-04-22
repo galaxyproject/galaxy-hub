@@ -14,4 +14,5 @@ gtn: false
 links:
 - text: "Video"
   url: "https://youtu.be/cNoAo-mDKAY"
+subsites: [global, us]
 ---

@@ -9,4 +9,5 @@ location_url:  https://www.emblaustralia.org/events-speakers/public-events/game-
 image: /images/logos/GAMeLogo200.png
 gtn: true
 contact: Simon Gladman, Pip Griffin, Jessica Chung, Clare Sloggett
+subsites: [global, us]
 ---

@@ -6,6 +6,7 @@ tease: Online...
 continent: GL
 location: Online
 contact: Enis and Martin
+subsites: [global, us]
 ---
 
 What do fall foliage, pumpkin beer, and Halloween have in common? October! Or,

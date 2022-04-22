@@ -3,6 +3,7 @@ title: "GCC2021 Conference Fellowships in honor of James Taylor"
 tease: "Apply by May 17"
 external_url: ""
 date: "2021-05-06"
+subsites: [global, us]
 ---
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/jxtx/james-and-alvey.png" alt="James and Alvy" class="float-right" style="max-width: 14rem" /></a>
 

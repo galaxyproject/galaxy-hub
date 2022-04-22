@@ -11,6 +11,7 @@ gtn: false
 contact: "Anup Kumar"
 links:
 tags: ["community-call"]
+subsites: [global, us]
 ---
 
 We will have a presentation on **JupyterLab interactive tool** by **Anup Kumar**, followed by a discussion and community updates. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing) or bring them to the call!

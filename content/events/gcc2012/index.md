@@ -10,6 +10,7 @@ external_url:
 gtn: false
 contact: Organisers
 image: /images/galaxy-logos/GCC2012LogoWide400.png
+subsites: [global, us]
 ---
 
 **The 2012 Galaxy Community Conference (GCC2012) was held July 25-27 at the [UIC Forum](http://www.uicforum.uic.edu/) at [University of Illinois Chicago](http://uic.edu/).**

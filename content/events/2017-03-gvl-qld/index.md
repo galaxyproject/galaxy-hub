@@ -8,6 +8,7 @@ location_url: https://genomicsvirtuallab.wordpress.com/2017/02/15/next-meeting-o
 external_url: https://genomicsvirtuallab.wordpress.com/2017/02/15/next-meeting-of-galaxy-qld-users-is-on-march-1/
 contact: Igor Makunin
 gtn: true
+subsites: [global, us]
 ---
 Additional Resources:
 

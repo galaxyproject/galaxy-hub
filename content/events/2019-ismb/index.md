@@ -10,6 +10,7 @@ location_url: "https://www.iscb.org/ismbeccb2019-program/"
 external_url:
 contact: 'Presenters'
 gtn: false
+subsites: [global, us]
 ---
 
 Galaxy will be at [ISMB / ECCB 2019](https://www.iscb.org/ismbeccb2019-program/) in Basel this July.  Here is the Galaxy related content that we know about so far.

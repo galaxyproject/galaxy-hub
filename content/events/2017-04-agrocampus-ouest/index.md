@@ -10,5 +10,6 @@ external_url: http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/t
 image: 
 gtn: true
 contact: "Yvan Le Bras, Sandrine LAGARRIGUE, formco @ agrocampus-ouest . fr"
+subsites: [global, us]
 ---
 

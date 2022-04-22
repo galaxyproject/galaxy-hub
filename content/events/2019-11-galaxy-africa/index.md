@@ -10,4 +10,5 @@ external_url: "https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#gal
 gtn: false
 contact: "Peter van Heusden"
 image: "/images/galaxy-logos/galaxy-africa-logo-big.png"
+subsites: [global, us]
 ---

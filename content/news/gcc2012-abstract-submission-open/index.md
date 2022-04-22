@@ -1,6 +1,7 @@
 ---
 title: "GCC2012 Abstract Submission is Open"
 date: "2012-02-13"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/gcc2012/abstracts/'><img src="/images/galaxy-logos/GCC2012Logo200.png" /></a></div>
 

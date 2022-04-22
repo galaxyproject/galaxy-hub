@@ -10,4 +10,5 @@ external_url: "https://www.eventbrite.com.au/e/rna-seq-analysis-using-galaxy-tic
 gtn: true
 contact: "QCIF"
 image: 
+subsites: [global, us]
 ---

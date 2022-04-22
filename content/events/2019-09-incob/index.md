@@ -10,6 +10,7 @@ external_url: ""
 contact: "Simon Gladman, Gareth Price, Nuwan Goonesekera, Dave Clements"
 image: "/events/2019-09-incob/incob-logo-square.jpeg"
 gtn: true
+subsites: [global, us]
 ---
 
 [<img class="float-left" style="max-width: 10rem" src="/images/logos/GalaxyAustralia.png" alt="Galaxy Australia" />](https://www.embl-abr.org.au/galaxyaustralia/)

@@ -13,4 +13,5 @@ image:
 links:
 - url: "http://repeatexplorer.org/?page_id=19"
   text: "Register"
+subsites: [global, us]
 ---

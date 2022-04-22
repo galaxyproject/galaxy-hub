@@ -2,6 +2,7 @@
 title: "Hacktoberfest 2021"
 tease: "Please join us"
 date: "2021-10-07"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 24rem" src="/images/news/2021-10-hacktoberfest/hacktoberfest-2021-logo-full.svg" alt="Hacktoberfest Logo" />](https://hacktoberfest.digitalocean.com/)

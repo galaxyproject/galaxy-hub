@@ -2,6 +2,7 @@
 title: 'December 2017 Galaxy News'
 tease: 'New events, blog posts, publications, jobs, ...'
 date: '2017-12-07'
+subsites: [global, us]
 ---
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2017-12/)
 

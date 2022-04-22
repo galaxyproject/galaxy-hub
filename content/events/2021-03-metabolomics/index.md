@@ -12,4 +12,5 @@ contact: "Mélanie Petera, Melanie Föll"
 tags: []
 links:
 image: "/images/communities/metabolomics.png"
+subsites: [global, us]
 ---

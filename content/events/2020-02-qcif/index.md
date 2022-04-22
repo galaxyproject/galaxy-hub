@@ -10,4 +10,5 @@ external_url: "https://www.eventbrite.com.au/e/ngs-platforms-how-data-generation
 gtn: true
 contact: "QCIF"
 image: 
+subsites: [global, us]
 ---

@@ -11,4 +11,5 @@ gtn: false
 contact: "Animateurs"
 image: 
 tags: [ cofest ]
+subsites: [global, us]
 ---

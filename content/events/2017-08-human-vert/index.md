@@ -9,4 +9,5 @@ image:
 location_url: 
 external_url: "https://coursesandconferences.wellcomegenomecampus.org/our-events/human-and-vertebrate-genomics-bioinformatics-tools-and-resources-durban-south-africa-2017/"
 contact: 'Organisers'
+subsites: [global, us]
 ---

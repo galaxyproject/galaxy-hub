@@ -10,4 +10,5 @@ location_url: https://wustl.edu/
 external_url: http://gonramp.wustl.edu/?page_id=724
 contact: Jeremy Goecks, Sarah Elgin
 gtn: true
+subsites: [global, us]
 ---

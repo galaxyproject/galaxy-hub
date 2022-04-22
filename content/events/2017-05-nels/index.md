@@ -9,6 +9,7 @@ image: /images/logos/UiOLogo.png
 location_url: http://www.uio.no/om/finn-fram/omrader/gaustad/ga06/
 external_url: https://nettskjema.uio.no/answer/84280.html
 contact: Ståle Nygård, Oleg Agafonov
+subsites: [global, us]
 ---
 We are pleased to announce the fifth in a series of hands-on bioinformatics workshops organized in Oslo by ELIXIR.
 

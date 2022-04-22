@@ -2,6 +2,7 @@
 title: Call for BoFs at GCC2017
 tease: Flock together over common interests in Montpellier
 date: '2017-05-20'
+subsites: [global, us]
 ---
 
 <div class="left"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRCs97OWt47qmMxWZAtSV3TTLJ24IhW0m2lHGPLiqJU0Xkzw/viewform"><img src="/events/2017-gcc/gcc2017-bofs.png" alt='2017 Galaxy Community Conference BoFs' width="170" /></a></div>

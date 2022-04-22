@@ -10,4 +10,5 @@ image:
 external_url: "http://fda.cvent.com/events/2019-scientific-computing-days/agenda-717250dfc8ac4216b3cdb9901c289fc5.aspx"
 contact: "Thomas Farrell"
 gtn: false
+subsites: [global, us]
 ---

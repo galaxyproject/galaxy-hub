@@ -16,4 +16,5 @@ links:
   - text: "Evolution of SARS-CoV-2 slides"
     url: "http://data.hyphy.org/web/galaxy-niaid.pdf"
 contact: "Dave Clements, Steven Weaver"
+subsites: [global, us]
 ---

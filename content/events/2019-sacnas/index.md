@@ -10,6 +10,7 @@ external_url:
 image: 
 gtn: true
 contact: "Mo Heydarian, Dave Clements"
+subsites: [global, us]
 ---
 
 <div class="float-right">

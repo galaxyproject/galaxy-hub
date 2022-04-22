@@ -11,4 +11,5 @@ gtn: true
 contact: "Loraine Guéguen, Erwan Corre"
 image: ""
 tags: 
+subsites: [global, us]
 ---

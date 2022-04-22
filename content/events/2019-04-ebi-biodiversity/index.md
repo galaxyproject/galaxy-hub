@@ -10,4 +10,5 @@ external_url: "https://www.ebi.ac.uk/training/events/2019/exploring-biodiversity
 gtn: false
 contact: "Marco Cristancho"
 image: 
+subsites: [global, us]
 ---

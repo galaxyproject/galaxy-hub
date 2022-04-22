@@ -1,6 +1,7 @@
 ---
 title: "GCC2016 Needs a Host!"
 date: "2015-02-03"
+subsites: [global, us]
 ---
 <table>
   <tr>

@@ -11,4 +11,5 @@ external_url: "https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/"
 contact: "Freiburg Galaxy Team"
 gtn: false
 tags: [ cofest ]
+subsites: [global, us]
 ---

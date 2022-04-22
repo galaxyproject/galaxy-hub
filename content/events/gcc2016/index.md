@@ -11,4 +11,5 @@ gtn: true
 contact: Organizers
 image: https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png
 tags: [ cofest ]
+subsites: [global, us]
 ---

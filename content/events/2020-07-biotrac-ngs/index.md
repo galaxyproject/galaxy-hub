@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://biotrac.com/ngs-intro-offsite/"
 gtn: false
 contact: "Sijung Yun"
+subsites: [global, us]
 ---

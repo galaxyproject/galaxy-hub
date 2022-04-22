@@ -1,6 +1,7 @@
 ---
 title: "New Galaxy-Announce Mailing List"
 date: "2011-12-02"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='http://lists.bx.psu.edu/listinfo/galaxy-announce'><img src="/images/logos/MailmanLogoSmall.png" /></a>

@@ -10,4 +10,5 @@ external_url: "https://www.earlham.ac.uk/single-cell-rnaseq-2020"
 gtn: true
 contact: "training @ earlham . ac . uk"
 image: 
+subsites: [global, us]
 ---

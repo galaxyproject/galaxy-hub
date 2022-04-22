@@ -10,4 +10,5 @@ external_url: "https://training.vib.be/galaxy-training-using-galaxy-rna-seq"
 gtn: false
 contact: "Lieven Sterck, Tuur Muyldermans"
 image: 
+subsites: [global, us]
 ---

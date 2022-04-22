@@ -9,4 +9,5 @@ image:
 location_url:  "http://bavp.org.uk/meeting-news/bavp-winter-meeting-cambridge-10-11th-december-2018/"
 external_url: "https://depot.galaxyproject.org/hub/attachments/events/2018-12-bavp/red-mite.pdf"
 contact: "Eleanor Karp-Tatham"
+subsites: [global, us]
 ---

@@ -10,5 +10,6 @@ external_url: "https://www.eventbrite.com.au/e/rna-seq-analysis-with-galaxy-and-
 contact: 'training@qfab.org'
 image: "/images/logos/QFABLogo.png"
 gtn: true
+subsites: [global, us]
 ---
 

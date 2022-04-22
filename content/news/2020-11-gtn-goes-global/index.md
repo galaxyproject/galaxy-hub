@@ -2,6 +2,7 @@
 title: Galaxy Training goes Global
 tease: two events from GTN target global audience.
 date: "2020-11-30"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

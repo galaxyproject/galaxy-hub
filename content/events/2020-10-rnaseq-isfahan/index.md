@@ -11,4 +11,5 @@ external_url: "https://omitreen.com/2020/10/09/an-introduction-to-rna-seq-analys
 gtn: true
 contact: "Maryam Kay, Fariba Dehghanian, Alireza Khanteymoori"
 image: 
+subsites: [global, us]
 ---

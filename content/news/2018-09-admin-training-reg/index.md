@@ -2,6 +2,7 @@
 title: 'Galaxy Admin Training, January 2019, Penn State'
 tease: "Basic and Advanced Training for setting up your own Galaxy server"
 date: '2018-09-19'
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/events/2019-admin-training/2019-admin-training-logo.png" alt="2019 Galaxy Admin Training" width="200" />](/events/2019-admin-training/)

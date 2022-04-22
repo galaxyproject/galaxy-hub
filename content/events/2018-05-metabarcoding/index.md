@@ -10,4 +10,5 @@ external_url: "https://wwz.ifremer.fr/Recherche-Technologie/Departements-scienti
 image: 
 gtn: true
 contact: "Intervenants"
+subsites: [global, us]
 ---

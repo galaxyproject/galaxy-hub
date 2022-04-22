@@ -10,4 +10,5 @@ external_url: "http://www.vib.be/en/training/research-training/courses/Pages/NGS
 image:
 gtn: false
 contact: "Paula Andrea Martinez, VIB"
+subsites: [global, us]
 ---

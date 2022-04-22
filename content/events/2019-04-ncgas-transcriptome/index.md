@@ -10,4 +10,5 @@ external_url: "https://ittraining.iu.edu/explore-topics/titles/denovo/index.html
 gtn: false
 contact: "help@ncgas.org"
 image: 
+subsites: [global, us]
 ---

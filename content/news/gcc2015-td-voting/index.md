@@ -1,6 +1,7 @@
 ---
 title: "GCC2015 Training Day Vote!"
 date: "2015-01-19"
+subsites: [global, us]
 ---
 <table>
   <tr>

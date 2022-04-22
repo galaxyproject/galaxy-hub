@@ -8,5 +8,6 @@ location: SINET5, Tokyo, Japan
 location_url: http://www.nii.ac.jp/csi/openforum2017/
 external_url: http://www.nii.ac.jp/csi/openforum2017/track/day2_4.html
 contact: '那須野 淳'
+subsites: [global, us]
 ---
 

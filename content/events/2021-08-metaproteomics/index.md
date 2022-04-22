@@ -11,4 +11,5 @@ external_url: "https://hupo2021.org/webinar-registration/"
 gtn: false
 contact: "Pratik Jagtap"
 tags: "webinar"
+subsites: [global, us]
 ---

@@ -14,6 +14,7 @@ links:
 - text: "Video"
   url: "https://youtu.be/n2uwDaU-L8s"
 tags: [ "devroundtable" ]
+subsites: [global, us]
 ---
 
 <div class="video-variable">

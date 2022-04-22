@@ -9,4 +9,5 @@ external_url: "https://faes.org/biotech82june"
 image: /images/logos/faes.png
 gtn: false
 contact: training@faes.org
+subsites: [global, us]
 ---

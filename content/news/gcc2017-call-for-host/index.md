@@ -1,6 +1,7 @@
 ---
 title: "GCC2017 Call for Host Proposals"
 date: "2015-09-14"
+subsites: [global, us]
 ---
 <table>
   <tr>

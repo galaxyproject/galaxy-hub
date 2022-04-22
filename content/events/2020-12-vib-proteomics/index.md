@@ -10,4 +10,5 @@ external_url: "https://training.vib.be/all-trainings/dda-and-dia-proteomic-analy
 gtn: true
 contact: "Melanie Föll, Matthias Fahrner"
 image: 
+subsites: [global, us]
 ---

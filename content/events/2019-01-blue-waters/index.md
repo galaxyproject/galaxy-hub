@@ -10,4 +10,5 @@ external_url: "https://bluewaters.ncsa.illinois.edu/webinars/workflows/galaxy"
 gtn: false
 contact: "Enis Afgan"
 image: 
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Computational Biology Position, Paris"
 date: "2013-09-09"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://drosophile.org/GEDlab/?page_id=760'><img src="/images/logos/DrosophileLogo.jpg" alt="Opening in Drosophila Genetics and Epigenetics" width="150" /></a></div>
 

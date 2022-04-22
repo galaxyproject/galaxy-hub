@@ -2,6 +2,7 @@
 title: 'Extending Galaxy for Large-scale and Integrative Biomedical Analyses'
 tease: "A new Galaxy project sponsored by the Chan Zuckerberg Initiative"
 date: '2020-11-20'
+subsites: [global, us]
 ---
 
 We are excited to announce that Galaxy has been awarded a grant from the Chan

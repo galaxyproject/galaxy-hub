@@ -9,6 +9,7 @@ location_url: "https://gcb2019.de/"
 external_url: 
 contact: "Presenters"
 gtn: true
+subsites: [global, us]
 ---
 
 There will be several Galaxy related presentations at the [2019 German Conference on Bioinformatics (GCB)](https://gcb2019.de/):

@@ -10,5 +10,6 @@ external_url: "https://www.elixir-europe.org/events/galaxy-community-kickoff-mee
 image:
 gtn: false
 contact: "ELIXIR Galaxy Working Group"
+subsites: [global, us]
 ---
 

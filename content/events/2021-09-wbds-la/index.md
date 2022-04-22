@@ -15,4 +15,5 @@ links:
   url: "https://youtu.be/Snuoucmfg1M"
 - text: "Poster"
   url: "https://wbds.la/conferences/2WBDSLAC/assets/img/posters/Carvajal-Lopez_Patricia_Poster37%20-%20Patricia%20Carvajal.png"
+subsites: [global, us]
 ---

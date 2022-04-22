@@ -9,6 +9,7 @@ image: /images/logos/ASMSLogo.png
 location_url: "https://www.asms.org/conferences/asms-2020-reboot"
 external_url: 
 contact: "Presenters"
+subsites: [global, us]
 ---
 
 Galaxy (and especially the [Galaxy-P Project](http://galaxyp.org/)) will again have a strong presence at ASMS.  Want to learn more?  Plan to attend these presentations:

@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Community Log Board"
 date: "2013-12-06"
+subsites: [global, us]
 ---
 <div class='left'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 

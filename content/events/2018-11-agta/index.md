@@ -10,4 +10,5 @@ external_url: "https://agtaconference.org/pre-conference-workshops/"
 gtn: true
 contact: Gareth Price
 image: 
+subsites: [global, us]
 ---

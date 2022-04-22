@@ -10,4 +10,5 @@ external_url: "https://www.sib.swiss/training/course/20220427_GALXY"
 gtn: true
 contact: "Lucille Delisle, Hans-Rudolf Hotz"
 image: /images/logos/SIB_Logo_trans_background.png
+subsites: [global, us]
 ---

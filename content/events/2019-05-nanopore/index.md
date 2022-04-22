@@ -9,4 +9,5 @@ image:
 location_url: "https://londoncallingconf.co.uk/lc19"
 external_url: "https://londoncallingconf.co.uk/lc19/speakers?field_talk_value=data#Itisallaboutaccessibility%3AGalaxyasaframeworkfordemocratizingOxfordNanoporedataanalysisMiladMiladi&modal=Itisallaboutaccessibility%3AGalaxyasaframeworkfordemocratizingOxfordNanoporedataanalysisMiladMiladi"
 contact: 'Milad Miladi'
+subsites: [global, us]
 ---

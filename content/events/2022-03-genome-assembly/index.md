@@ -12,5 +12,5 @@ contact: "Bioinformatics Resource Center, Rockefeller University (brc@rockefelle
 tags: []
 links:
 image: ""
-subsites: [us, eu]
+subsites: [global, us, eu]
 ---

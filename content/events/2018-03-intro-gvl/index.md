@@ -10,5 +10,6 @@ external_url: https://www.melbournebioinformatics.org.au/training-events/intro-g
 image: 
 gtn: true
 contact: Christina Hall
+subsites: [global, us]
 ---
 

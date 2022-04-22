@@ -1,6 +1,7 @@
 ---
 title: "The Language Applications (LAPPS) Grid Seeks Input from Scientists Who Want to Mine Scientific Literature"
 date: '2017-03-20'
+subsites: [global, us]
 ---
 <div class='right'><a href='http://www.lappsgrid.org'><img src="/use/lapps-grid/lapps-grid-logo.png" alt="LAPPS Grid" width="200" /></a>
 </div>

@@ -10,5 +10,5 @@ external_url: "https://meetings.cshl.edu/abstracts.aspx?meet=info&year=21"
 gtn: false
 contact: "Delphine Larivière"
 image: 
-subsites: [us]
+subsites: [global, us]
 ---

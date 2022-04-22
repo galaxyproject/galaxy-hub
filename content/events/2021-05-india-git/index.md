@@ -14,6 +14,7 @@ tags: [ "webinar" ]
 links:
 - url: "https://meet.google.com/irz-jqwr-ebu"
   text: "Google Meet"
+subsites: [global, us]
 ---
 
 [BioClues](http://bioclues.org/), [TMS Foundation](https://indiayouth.info/), and [Galaxy India](https://www.galaxyproject.in/) are sponsoring a webinar Saturday, 29th May at 18:00 Indian Time:

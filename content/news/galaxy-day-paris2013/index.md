@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Day, 4 décembre à Paris"
 date: "2013-10-02"
+subsites: [global, us]
 ---
 **Appel à contributions**
 

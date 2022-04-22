@@ -9,6 +9,7 @@ image: /images/logos/ASMSLogo.png
 location_url: "http://www.asms.org/conferences/annual-conference/annual-conference-homepage"
 external_url: 
 contact: "Tim Griffin, Pratik Jagtap"
+subsites: [global, us]
 ---
 
 Galaxy (and especially the [Galaxy-P Project](http://galaxyp.org/)) will again have a strong presence at ASMS.  Want to learn more?  Plan to attend these presentations:

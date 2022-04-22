@@ -10,4 +10,5 @@ external_url: "/community/galaxy-admins/meetups/2019-03-21/"
 image:
 gtn: false
 contact: "Helena Rasche, Dave Clements"
+subsites: [global, us]
 ---

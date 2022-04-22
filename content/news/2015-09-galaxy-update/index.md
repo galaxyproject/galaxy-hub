@@ -1,6 +1,7 @@
 ---
 title: "September 2015 Galactic News"
 date: "2015-09-01"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2015-09/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! September 2015 Edition" width=170 /></a>

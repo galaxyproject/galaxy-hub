@@ -9,6 +9,7 @@ image: /images/logos/ismb-2017.png
 location_url: https://www.iscb.org/ismbeccb2017
 contact: Presenters
 gtn: true
+subsites: [global, us]
 ---
 
 Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org)).

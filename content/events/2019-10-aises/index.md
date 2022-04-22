@@ -10,6 +10,7 @@ external_url: ""
 gtn: true
 contact: "Mo Heydarian, Dave Clements"
 image: /events/2019-10-aises/aises-2019-banner.png 
+subsites: [global, us]
 ---
 
 **9:30 - 11:20, Friday, October 11, Room 202 A**

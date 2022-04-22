@@ -9,4 +9,5 @@ location_url: https://www.google.com/maps/place/University+of+Freiburg,+Faculty+
 image: 
 external_url: http://destair.bioinf.uni-leipzig.de/event/de-stair-1-workshop/
 contact: Steve Hoffmann, Olaf Wolkenhauer, Wolfgang Hess
+subsites: [global, us]
 ---

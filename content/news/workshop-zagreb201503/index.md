@@ -1,6 +1,7 @@
 ---
 title: "Bioinformatics Methods in Genomics, Zagreb"
 date: "2015-02-13"
+subsites: [global, us]
 ---
 <table>
   <tr>

@@ -1,6 +1,7 @@
 ---
 title: "GCC2016 Training Topic Vote!"
 date: "2015-10-26"
+subsites: [global, us]
 ---
 <div class='right'>
 <img src="/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="170" /><br />

@@ -10,4 +10,5 @@ external_url: "https://www.linkedin.com/pulse/workflow4experimenters-2018-course
 image: 
 gtn: True
 contact: "Gildas Le Corguillé"
+subsites: [global, us]
 ---

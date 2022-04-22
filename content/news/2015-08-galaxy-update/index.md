@@ -1,6 +1,7 @@
 ---
 title: "August 2015 Galactic News"
 date: "2015-07-31"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2015-08/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galactic News! August 2015 Edition" width=150 /></a>

@@ -10,4 +10,5 @@ external_url: "https://www.elixir-czech.cz/events/genome-annotation-galaxy-large
 gtn: true
 contact: "Martin Čech, Petr Novák"
 image: 
+subsites: [global, us]
 ---

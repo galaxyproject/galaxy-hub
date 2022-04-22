@@ -10,4 +10,5 @@ external_url: "http://www.hicomb.org/"
 image: 
 gtn: false
 contact: "James Taylor"
+subsites: [global, us]
 ---

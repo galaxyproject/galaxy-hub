@@ -3,6 +3,7 @@ title: "Next Papercuts CoFest is March 18"
 tease: "Please join us to make the Galaxy a better place"
 external_url: ""
 date: "2021-03-15"
+subsites: [global, us]
 ---
 
 <div class="float-left" style="max-width: 12rem;">

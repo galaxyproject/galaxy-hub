@@ -3,6 +3,7 @@ title: "BCC2020 Galaxy Fellowship applications are open"
 tease: "And they are due soon: July 5"
 external_url: ""
 date: "2020-06-28"
+subsites: [global, us]
 ---
 
 <div class="float-right">

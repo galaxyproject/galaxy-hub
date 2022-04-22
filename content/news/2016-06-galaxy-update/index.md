@@ -1,6 +1,7 @@
 ---
 title: "June 2016 Galactic News"
 date: "2016-06-01"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2016-06/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />

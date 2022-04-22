@@ -10,4 +10,5 @@ external_url: https://qcb.ucla.edu/collaboratory/workshops/galaxy/
 gtn: false
 contact: Weihong Yan 
 image: 
+subsites: [global, us]
 ---

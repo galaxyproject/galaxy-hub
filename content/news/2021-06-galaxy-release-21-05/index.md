@@ -2,6 +2,7 @@
 title: 'Galaxy Release 21.05'
 tease: Workflow Reports, Remote Files, Visualizations
 date: '2021-06-10'
+subsites: [global, us]
 ---
 
 We are pleased to announce the release of Galaxy

@@ -10,4 +10,5 @@ external_url: "https://meetings.cshl.edu/abstracts.aspx?meet=GENOME&year=19"
 gtn: false
 contact: "James Taylor"
 image: 
+subsites: [global, us]
 ---

@@ -9,5 +9,6 @@ location_url: http://www.kthrd.com/
 image: kthrd.png
 gtn: true
 contact: Mallory Freeberg, Mo Heydarian
+subsites: [global, us]
 ---
 A Galaxy workshop at KTHRD in Daejeon, South Korea

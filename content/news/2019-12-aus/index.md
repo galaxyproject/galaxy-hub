@@ -3,6 +3,7 @@ title: "Galaxy Africa learns from Galaxy Australia's experiences"
 tease: "Galaxy Australia guru Simon Gladman represents the Galaxy community at the Galaxy Africa"
 external_url:
 date: "2019-12-19"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 18rem;" src="/images/galaxy-logos/galaxy-australia.png" />](https://mailchi.mp/melbournebioinformatics/2019wrap)

@@ -10,4 +10,5 @@ image: /images/logos/deNBILogo.png
 external_url: "https://galaxyproject.eu/event/2019-11-07-GalaxyWS_FR/"
 contact: "Freiburg Galaxy Team"
 gtn: true
+subsites: [global, us]
 ---

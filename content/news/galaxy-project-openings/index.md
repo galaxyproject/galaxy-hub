@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Project Openings"
 date: "2013-01-25"
+subsites: [global, us]
 ---
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Galaxy is Hiring" width="300" /></a></div>
 

@@ -10,4 +10,5 @@ external_url: "https://www.ebi.ac.uk/training-beta/events/single-cell-rna-seq-ne
 gtn: false
 contact: "Meredith Willmott"
 image: 
+subsites: [global, us]
 ---

@@ -10,4 +10,5 @@ external_url: https://www.biosciencesco.fr/formations/bio-informatique/analyse-d
 gtn: true
 contact: contact @ biosciencesco . fr
 image: /images/logos/biosciences-and-co.png
+subsites: [global, us]
 ---

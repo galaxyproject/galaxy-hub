@@ -10,4 +10,5 @@ location_url: "https://www6.toulouse.inrae.fr/toxalim_eng/TOXALIM-Research-Centr
 external_url: "https://workflow4metabolomics.org/w4e2021"
 gtn: True
 contact: "Organizers"
+subsites: [global, us]
 ---

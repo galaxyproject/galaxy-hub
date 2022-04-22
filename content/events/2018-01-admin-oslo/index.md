@@ -10,5 +10,6 @@ external_url: https://www.elixir-europe.org/events/european-galaxy-administrator
 image:
 gtn: true
 contact: Instructors
+subsites: [global, us]
 ---
 

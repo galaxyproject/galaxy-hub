@@ -1,6 +1,7 @@
 ---
 title: "Watch the GCC2011 Talks Online!"
 date: "2011-06-11"
+subsites: [global, us]
 ---
 <div class='float-right'><a href='https://galaxyproject.org/gcc2011/'><img src='/events/GCC2011LogoShort170.png' /></a></div>
 NBIC, the host and co-sponsor of the [2011 Galaxy Community Conference (GCC2011)](https://galaxyproject.org/gcc2011/) sponsored the videotaping of all talks at the meeting and has now made those recordings available for viewing online.  See the [GCC2011](https://galaxyproject.org/gcc2011/) page for links.

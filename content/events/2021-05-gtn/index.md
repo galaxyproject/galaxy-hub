@@ -11,4 +11,5 @@ external_url: "https://training.galaxyproject.org/training-material/news/2021/03
 contact: "Saskia Hiltemann, Helena Rasche, Bérénice Batut, Jennifer Hillman-Jackson, Delphine Lariviere, Anna Syme, Maria Doyle"
 gtn: true
 tags: [ cofest ]
+subsites: [global, us]
 ---

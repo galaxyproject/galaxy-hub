@@ -1,6 +1,7 @@
 ---
 title: "Environmental Metabolomics + Galaxy"
 date: "2013-04-22"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://www.birmingham.ac.uk/schools/biosciences/'><img src="/images/logos/UBirminghamLogo.gif" alt="University of Birmingham" height="40" /></a></div>
 

@@ -3,6 +3,7 @@ title: 'May 2021 Galactic News'
 tease: "GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more."
 date: "2021-05-04"
 autotoc: false
+subsites: [global, us]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>

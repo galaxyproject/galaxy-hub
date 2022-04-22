@@ -10,6 +10,7 @@ external_url:
 image: /events/2018-europe-dev/2018-europe-logo.small.png
 gtn: false
 contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
+subsites: [global, us]
 ---
 
 **[#EGD2018](https://twitter.com/hashtag/EGD2018)**

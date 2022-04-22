@@ -16,4 +16,5 @@ links:
   url: "https://youtu.be/IUCgUHCixxc"
 - text: "Slides"
   url: "https://docs.google.com/presentation/d/1p9YaAVmNlSquOsWSBrbUIOidfJQXIEZwaweXCUHqDCc/edit#slide=id.gc9350d0cb0_0_238"
+subsites: [global, us]
 ---

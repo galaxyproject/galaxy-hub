@@ -10,6 +10,7 @@ external_url: ""
 contact: "Fotis Psomopoulos, Gareth Price"
 image: "/images/logos/GobletLogo.png"
 gtn: false
+subsites: [global, us]
 ---
 
 Galaxy is a member of [GOBLET](https://mygoblet.org/) and had two presentations at the 2020 GOBLET AGM

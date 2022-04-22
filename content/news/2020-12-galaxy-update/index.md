@@ -2,6 +2,7 @@
 title: 'December 2020 Galactic News'
 tease: "And what a month it is"
 date: "2020-12-08"
+subsites: [global, us]
 ---
 
 <div class="card border-info">

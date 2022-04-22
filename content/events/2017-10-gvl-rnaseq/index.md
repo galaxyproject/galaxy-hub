@@ -10,4 +10,5 @@ image: /images/logos/melbourne-bioinformatics.png
 external_url: https://www.eventbrite.com.au/e/rna-seq-differential-gene-expression-analysis-using-galaxy-the-gvl-registration-36300315220
 contact: 'enquiries @ melbourne bio informatics . org . au'
 gtn: true
+subsites: [global, us]
 ---

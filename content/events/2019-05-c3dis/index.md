@@ -10,4 +10,5 @@ image:
 external_url: "http://www.c3dis.com/3313" 
 contact: "Andrew Lonie"
 gtn: false
+subsites: [global, us]
 ---

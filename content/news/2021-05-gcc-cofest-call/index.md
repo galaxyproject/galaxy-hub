@@ -3,6 +3,7 @@ title: "Call for GCC2021 CollaborationFest Cluster Ideas"
 tease: "Join the Galaxy Contributor Community"
 external_url: ""
 date: "2021-05-29"
+subsites: [global, us]
 ---
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 20rem" /></a>

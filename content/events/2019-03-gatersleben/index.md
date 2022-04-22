@@ -10,4 +10,5 @@ external_url: "http://meetings.ipk-gatersleben.de/grc2019-abc/"
 gtn: false
 contact: Björn Grüning
 image: 
+subsites: [global, us]
 ---

@@ -3,6 +3,7 @@ title: 'February 2021 Galactic News'
 tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
 date: "2021-02-08"
 autotoc: false
+subsites: [global, us]
 ---
 
 <div class="card border-info">

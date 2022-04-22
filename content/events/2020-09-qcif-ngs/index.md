@@ -10,4 +10,5 @@ location_url: "https://www.qcif.edu.au/training/training-courses/"
 external_url: "https://www.qcif.edu.au/trainingcourses/ngs-platforms-how-data-generation-impacts-bioinformatics-analysis/"
 gtn: true
 contact: "QCIF"
+subsites: [global, us]
 ---

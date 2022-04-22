@@ -10,5 +10,6 @@ external_url: "http://isegb.biodiv.tw/ISEGB2019/"
 contact: 'Anton Nekrutenko'
 image: ""
 gtn: false
+subsites: [global, us]
 ---
 

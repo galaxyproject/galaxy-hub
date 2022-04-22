@@ -1,6 +1,7 @@
 ---
 title: "Galaxy DevOps Workshop - Heidelberg"
 date: "2016-03-17"
+subsites: [global, us]
 ---
 We would like to invite you to our **[Galaxy DevOps Workshop](https://goo.gl/8dNSdy)** in Heidelberg from 6-7 of April, organised by [de.NBI](https://www.denbi.de/) and [ELIXIR](https://www.elixir-europe.org/).
 

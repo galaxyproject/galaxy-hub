@@ -14,6 +14,7 @@ links:
 - text: "Slides: 21.09 Release Testing"
   url: https://docs.google.com/presentation/d/1Y-xsA3FY_V3xQCTlyW8uIOg08rUPnC7C8njRI3Z8zkA/edit#slide=id.gc2a6ff74d4_0_0
 tags: [ "devroundtable" ]
+subsites: [global, us]
 ---
 
 Please <a href="https://psu.zoom.us/j/92752763386">join us</a> at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211111T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about

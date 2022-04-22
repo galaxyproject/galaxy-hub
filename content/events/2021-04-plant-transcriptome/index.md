@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview"
 gtn: true
 contact: "Instructors"
+subsites: [global, us]
 ---

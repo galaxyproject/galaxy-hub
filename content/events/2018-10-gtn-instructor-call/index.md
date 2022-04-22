@@ -9,4 +9,5 @@ location_url: "https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJla
 external_url: "https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/thread/JSVFA3N3AAWM4OLNTPGPLE3FEVT46AY4/#JSVFA3N3AAWM4OLNTPGPLE3FEVT46AY4" 
 contact: Bérénice Batut
 gtn: false
+subsites: [global, us]
 ---

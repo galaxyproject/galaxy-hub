@@ -16,6 +16,7 @@ links:
 - text: "Slides"
   url: "https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing"
 tags: [ "devroundtable" ]
+subsites: [global, us]
 ---
 
 <div class="video-variable">

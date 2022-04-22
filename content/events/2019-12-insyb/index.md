@@ -10,6 +10,7 @@ external_url:
 gtn: true
 contact: "Sonika Tyagi, Gareth Price, Harpreet Singh"
 image: insyb-2019.png
+subsites: [global, us]
 ---
 
 The [International Symposum on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) will be held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.

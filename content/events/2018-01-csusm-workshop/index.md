@@ -10,6 +10,7 @@ external_url:
 image: /images/logos/csusm-logo.gif
 gtn: true
 contact: Arun Sethuraman, Dave Clements
+subsites: [global, us]
 ---
 
 * **9:00-5:00**

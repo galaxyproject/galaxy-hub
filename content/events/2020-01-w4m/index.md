@@ -10,4 +10,5 @@ location_url: "https://rfmf-mpf-2020.sciencesconf.org/"
 external_url: "https://rfmf-mpf-2020.sciencesconf.org/"
 gtn: True
 contact: "Y Guitton, M. Tremblay-Franco, F. Giacomoni"
+subsites: [global, us]
 ---

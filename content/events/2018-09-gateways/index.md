@@ -10,4 +10,5 @@ location_url: "https://sciencegateways.org/web/gateways2018/about"
 external_url: "https://sciencegateways.org/web/gateways2018"
 contact: "Katherine Lawrence"
 gtn: false
+subsites: [global, us]
 ---

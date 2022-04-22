@@ -10,4 +10,5 @@ external_url: "https://incob.apbionet.org/incob20/galaxy-a-platform-for-life-sci
 gtn: true
 contact: "Gareth Price, Simon Gladman"
 image: 
+subsites: [global, us]
 ---
