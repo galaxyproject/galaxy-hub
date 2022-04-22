@@ -12,4 +12,5 @@ contact: "QCIF Training"
 tags: [ training ]
 gtn: true
 links:
+subsites: [global, us]
 ---

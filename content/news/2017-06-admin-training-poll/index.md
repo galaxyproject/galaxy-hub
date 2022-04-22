@@ -2,6 +2,7 @@
 title: 'Admin Training Poll'
 tease: 'Where should Galaxy Admin Training be held next?'
 date: '2017-06-19'
+subsites: [global, us]
 ---
 
 <div class="right"><img src="/images/logos/game2017-admin-training-logo.png" alt="Galaxy Administrator Training Course – Melbourne"  width="140" />

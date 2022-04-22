@@ -2,6 +2,7 @@
 title: "Galaxy, PAG, and GMOD Codefest"
 tease: "PAG Deadlines are this week"
 date: "2019-10-23"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 24rem" src="/events/2020-pag/pag2020.png" alt="Galaxy @ PAG 2020" />](/events/2020-pag/)

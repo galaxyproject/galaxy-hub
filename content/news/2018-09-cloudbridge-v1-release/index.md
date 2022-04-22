@@ -2,6 +2,7 @@
 title: 'CloudBridge v1 release'
 tease: Support for Microsoft Azure, better consistency
 date: '2018-09-07'
+subsites: [global, us]
 ---
 We are pleased to announce the release of CloudBridge v1.
 

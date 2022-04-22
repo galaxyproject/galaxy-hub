@@ -10,4 +10,5 @@ external_url: "http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/
 gtn: true
 contact: "Sandrine Lagarrigue"
 image: 
+subsites: [global, us]
 ---

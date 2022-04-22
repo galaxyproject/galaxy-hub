@@ -9,6 +9,7 @@ image: "https://www.outreachy.org/static/css/img/logo-no-background.86e64a85437c
 location_url:
 external_url:
 contact: Community
+subsites: [global, us]
 ---
 
 *Please join our Outreachy intern - Pia - in celebrating her contributions to the Galaxy Community!*

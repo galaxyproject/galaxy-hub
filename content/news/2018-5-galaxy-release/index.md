@@ -2,6 +2,7 @@
 title: 'Galaxy Release 18.05'
 tease: Style update, Unlimited uploads, Rule-based uploader
 date: '2018-05-23'
+subsites: [global, us]
 ---
 Dear Galaxy Fans,
 

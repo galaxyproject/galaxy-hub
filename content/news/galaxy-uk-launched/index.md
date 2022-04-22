@@ -1,6 +1,7 @@
 ---
 title: "Galaxy-UK Community Launched"
 date: "2014-08-14"
+subsites: [global, us]
 ---
 Dear UK Galaxy-devs,
 

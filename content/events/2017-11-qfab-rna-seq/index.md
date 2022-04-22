@@ -10,4 +10,5 @@ external_url: http://www.qfab.org/workshops/rna-seq-analysis-using-galaxy-15-16-
 gtn: true
 contact: training@qfab.org
 image: /images/logos/QFABLogo.png
+subsites: [global, us]
 ---

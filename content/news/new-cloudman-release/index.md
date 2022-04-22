@@ -1,6 +1,7 @@
 ---
 title: "New CloudMan Release"
 date: "2012-06-13"
+subsites: [global, us]
 ---
 We just released an update to CloudMan. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 

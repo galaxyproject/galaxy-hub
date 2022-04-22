@@ -1,6 +1,7 @@
 ---
 title: 'Galaxy is hiring'
 date: '2017-02-02'
+subsites: [global, us]
 ---
 The Galaxy project currently has open positions in both the [Johns Hopkins University](http://jamestaylor.org/) and [Penn State](http://www.bx.psu.edu/~anton/) groups.
 

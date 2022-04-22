@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://pawsey.org.au/event/pawsey-friday-covid19/"
 gtn: false
 contact: "Gareth Price"
+subsites: [global, us]
 ---

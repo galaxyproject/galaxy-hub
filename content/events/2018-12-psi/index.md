@@ -9,4 +9,5 @@ image:
 location_url: "http://www.icpcbmm-psi2018.com/"
 external_url: "http://z.umn.edu/mumbaidocs"
 contact: "Pratik Jagtap"
+subsites: [global, us]
 ---

@@ -16,4 +16,5 @@ links:
   - text: "Slides"
     url:  "https://depot.galaxyproject.org/hub/attachments/events/2020-05-sgci/2020-05-sgci-community.pdf"
 contact: "Dave Clements"
+subsites: [global, us]
 ---

@@ -2,6 +2,7 @@
 title: "UseGalaxy, SARS-CoV-2 / COVID-19, and how effective responses to emerging pathogen threats ..."
 tease: "... require open data and open analytics"
 date: "2020-02-28"
+subsites: [global, us]
 ---
 
 The UseGalaxy Community has published a paper in *bioRxiv*

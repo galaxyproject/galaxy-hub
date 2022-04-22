@@ -10,4 +10,5 @@ external_url: "http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons
 gtn: true
 contact: ""
 image: 
+subsites: [global, us]
 ---

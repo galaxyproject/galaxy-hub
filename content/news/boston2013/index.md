@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Training in Boston"
 date: "2013-09-30"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src="/images/logos/BioTeamLogo154.gif" alt="Analyzing NGS Data with Galaxy" width="120" /></a></div>
 

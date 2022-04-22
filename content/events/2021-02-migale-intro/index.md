@@ -10,4 +10,5 @@ location_url: "https://migale.inra.fr/trainings"
 external_url: "https://migale.inrae.fr/sites/default/files/formation/2021/module17.pdf"
 gtn: true
 contact: "Olivier Inizan, Mouhamadou Ba"
+subsites: [global, us]
 ---

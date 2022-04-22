@@ -2,6 +2,7 @@
 title: "Galaxy Help: A new Q&A site for Galaxy"
 tease: "Got questions? Get answers."
 date: '2018-11-29'
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." />](https://help.galaxyproject.org/)

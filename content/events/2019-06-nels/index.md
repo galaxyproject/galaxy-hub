@@ -10,4 +10,5 @@ location_url: "http://www.uio.no/om/finn-fram/omrader/gaustad/ga06/"
 external_url: "https://nettskjema.uio.no/a/118776"
 gtn: true
 contact: "Ståle Nygård, Jon Lærdahl, Radmila Kompova"
+subsites: [global, us]
 ---

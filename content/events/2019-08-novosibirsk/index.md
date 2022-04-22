@@ -10,5 +10,6 @@ external_url: "https://www.mcb.nsc.ru/seminars-conference/seminars/1266"
 contact: 'Макунин Игорь Васильевич (Igor Makunin)'
 image: ""
 gtn: true
+subsites: [global, us]
 ---
 

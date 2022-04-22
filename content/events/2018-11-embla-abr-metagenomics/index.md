@@ -10,4 +10,5 @@ location_url:
 external_url: http://www.embl-abr.org.au/about/events/
 contact: ""
 gtn: true
+subsites: [global, us]
 ---

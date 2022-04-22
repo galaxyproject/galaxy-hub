@@ -10,4 +10,5 @@ image:
 external_url: "http://www.c3dis.com/2040" 
 contact: "Joel Ludbey"
 gtn: false
+subsites: [global, us]
 ---

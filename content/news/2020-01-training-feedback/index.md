@@ -2,6 +2,7 @@
 title: 'Galaxy Training Survey'
 tease: "We need your input on preparing and giving Galaxy Trainings"
 date: "2020-01-08"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GTNLogoTrans1000.png" alt="Galaxy Training Network"  style="max-width: 15rem;" />](https://training.galaxyproject.org/)

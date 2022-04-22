@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Public Servers Usage Quotas"
 date: "2011-08-22"
+subsites: [global, us]
 ---
 User data and job [quota limits](/test/#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
 

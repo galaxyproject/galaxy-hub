@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://www.biocommons.org.au/events/galaxy-sept21"
 gtn: true
 contact: "Australian BioCommons, QCIF"
+subsites: [global, us]
 ---

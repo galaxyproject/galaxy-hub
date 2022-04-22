@@ -10,6 +10,7 @@ external_url: ""
 gtn: true
 contact: "Gareth Price, Simon Gladman"
 image: "eresearch-nz-banner.png"
+subsites: [global, us]
 ---
 
 [Galaxy Australia](https://usegalaxy.org.au/) will be at [eResearch NZ 2021](https://www.eresearchnz2021.org.nz/):

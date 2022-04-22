@@ -10,4 +10,5 @@ external_url: "https://github.com/manabuishii/workflow-meetup/wiki/20190530"
 image:
 gtn: false
 contact: "西田(大阪), 石井(東京)"
+subsites: [global, us]
 ---

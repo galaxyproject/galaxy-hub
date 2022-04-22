@@ -3,6 +3,7 @@ title: "2021 Google Summer of Code"
 tease: "Galaxy is participating"
 external_url: ""
 date: "2021-03-16"
+subsites: [global, us]
 ---
 
 <img class="float-right" src="/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" style="max-width: 18rem;" />

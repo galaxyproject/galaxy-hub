@@ -9,6 +9,7 @@ location_url: "https://jobim2018.sciencesconf.org/"
 gtn: false
 contact: "Presenters"
 image: 
+subsites: [global, us]
 ---
 
 Galaxy was presented at [JOBIM 2018](https://jobim2018.sciencesconf.org/), in Marseille, France, 3-6 July.

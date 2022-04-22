@@ -10,5 +10,6 @@ image:
 external_url: http://www.fc.upmc.fr/fr/catalogue-de-formations-2017-2018/formation-qualifiante-FC6/sciences-technologies-sante-STS/analyse-rnaseq-sous-galaxy-program-analyse-rnaseq-sous-galaxy-2.html?search-keywords=rnaseq
 contact: "E. Corre, Gildas Le Corguillé, X. Liu"
 gtn: true
+subsites: [global, us]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "April 2016 Galaxy Release (v 16.04)"
 date: "2016-05-18"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 

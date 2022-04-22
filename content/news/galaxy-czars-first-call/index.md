@@ -1,6 +1,7 @@
 ---
 title: "GalaxyCzars: July Slides & Video"
 date: "2012-07-11"
+subsites: [global, us]
 ---
 <div class='right'><a href='/community/galaxy-admins/meetups/2012-07-09/'><img src="/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 

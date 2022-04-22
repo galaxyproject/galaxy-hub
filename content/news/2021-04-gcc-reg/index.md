@@ -3,6 +3,7 @@ title: "GCC2021 Registration is Open"
 tease: "Please join us at Galaxy's annual community gathering"
 external_url: ""
 date: "2021-04-14"
+subsites: [global, us]
 ---
 
 <small>Updated May 29th 2021</small>

@@ -11,5 +11,6 @@ contact: ''
 image: ""
 gtn: false
 tags: [ cofest ]
+subsites: [global, us]
 ---
 

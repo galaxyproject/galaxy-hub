@@ -2,6 +2,7 @@
 title: "Single Cell & Functional Microbiome Galaxy Workshop @ ABRF 2020"
 tease: "Registration is open, but space is limited"
 date: "2019-11-21"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 16rem" src="/images/logos/abrf-logo-color-text.png" alt="Galaxy Workshop at ABRF 2020" />](/events/2020-abrf/)

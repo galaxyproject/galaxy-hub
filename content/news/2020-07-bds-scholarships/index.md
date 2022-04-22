@@ -3,6 +3,7 @@ title: "Call for Scholarship Applications"
 tease: "JTech and Biological Data Science 2020"
 external_url: ""
 date: "2020-07-08"
+subsites: [global, us]
 ---
 
 <img src="/jxtx/cshl_jtech.png" class="float-right figure-img img-fluid rounded" style="max-width: 20rem;" alt="JTech 2020 Scholarship: CSHL Biological Data Science">

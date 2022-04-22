@@ -1,6 +1,7 @@
 ---
 title: "NGS Analysis by Viz. with Trackster"
 date: "2012-11-09"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://bit.ly/VMUz7p'><img src="/images/news-graphics/NatBiotechCover201211.gif" alt="Nature Biotechnology" height="125" /></a></div>
 

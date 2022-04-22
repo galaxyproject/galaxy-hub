@@ -2,6 +2,7 @@
 title: 'Galaxy @ ISMB/ECCB/BOSC 2017'
 tease: "Galaxy every day, and a Tutorial, a BoF and a Dinner too"
 date: '2017-07-20'
+subsites: [global, us]
 ---
 
 <div class="right"><a href="/events/2017-ismb-bosc/"><img src="/images/logos/ismb-2017.png" alt="Galaxy @ ISMB/ECCB/BOSC 2017"  width="140" /></a><br /><br />

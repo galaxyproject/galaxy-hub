@@ -9,5 +9,6 @@ location_url: https://qfab.org/
 external_url: https://qfab.org/workshops/genome-assembly-using-galaxy-2-3-october-2018
 contact: 'training@qfab.org'
 gtn: true
+subsites: [global, us]
 ---
 

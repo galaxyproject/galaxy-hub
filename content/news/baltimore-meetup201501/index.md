@@ -1,6 +1,7 @@
 ---
 title: "Baltimore Area Galaxy Meetup Jan 22"
 date: "2015-01-07"
+subsites: [global, us]
 ---
 Hey Everyone,
 

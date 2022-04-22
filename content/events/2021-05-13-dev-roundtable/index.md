@@ -16,6 +16,7 @@ links:
 - text: "Slides"
   url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-13-dev-roundtable/new-users-landing.pdf"
 tags: [ "devroundtable" ]
+subsites: [global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MSUt-F9Jib4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

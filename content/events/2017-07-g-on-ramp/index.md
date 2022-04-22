@@ -10,4 +10,5 @@ location_url: https://wustl.edu/
 external_url: /news/2017-03-g-on-ramp/
 contact: Jeremy Goecks, Sarah Elgin
 gtn: true
+subsites: [global, us]
 ---

@@ -14,4 +14,5 @@ tags: [ webinar ]
 links:
 - text: "Slides"
   url: "http://bit.ly/galaxy_coffee"
+subsites: [global, us]
 ---

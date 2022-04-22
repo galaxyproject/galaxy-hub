@@ -16,4 +16,5 @@ links:
   - text: "Video"
     url: "https://youtu.be/ubBnfcPJup0"
 image: 
+subsites: [global, us]
 ---

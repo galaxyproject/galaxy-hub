@@ -10,4 +10,5 @@ location_url: https://www.eventbrite.com.au/o/embl-abr-10948923698
 external_url: https://www.eventbrite.com.au/o/embl-abr-10948923698
 contact: "Anna Syme"
 gtn: true
+subsites: [global, us]
 ---

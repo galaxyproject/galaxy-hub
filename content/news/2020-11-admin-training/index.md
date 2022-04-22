@@ -2,6 +2,7 @@
 title: 'Galaxy Admin Training, January 25-29'
 tease: "Online, global and free. Apply by December 18."
 date: '2020-11-18'
+subsites: [global, us]
 ---
 
 <a href="/events/2021-01-admin-training/">

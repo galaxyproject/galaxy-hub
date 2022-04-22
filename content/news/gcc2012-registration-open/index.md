@@ -1,6 +1,7 @@
 ---
 title: "GCC2012 Registration is Open"
 date: "2012-03-20"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/gcc2012/register/'><img src="/images/galaxy-logos/GCC2012LogoWide400.png" alt="GCC2012 Registration is Open!" width="350" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day: July 25" align="right" /></a></div>
 

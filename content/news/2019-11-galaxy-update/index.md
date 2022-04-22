@@ -2,6 +2,7 @@
 title: 'November 2019 Galactic News'
 tease: "Events! Pubs! Platforms! Jobs! Releases!"
 date: "2019-11-12"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

@@ -9,4 +9,5 @@ image:
 location_url: 
 external_url: "https://coursesandconferences.wellcomegenomecampus.org/our-events/fungal-pathogen-genomics-2019/"
 contact: 'Organisers'
+subsites: [global, us]
 ---

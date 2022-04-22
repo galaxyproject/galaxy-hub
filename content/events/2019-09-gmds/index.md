@@ -10,4 +10,5 @@ external_url: "https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutori
 gtn: true
 contact: "Markus Wolfien"
 image: 
+subsites: [global, us]
 ---

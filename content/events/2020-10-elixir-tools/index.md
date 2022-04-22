@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://www.eventbrite.co.uk/e/elixir-tools-platform-ask-us-anything-registration-124523221307/"
 gtn: false
 contact: "Organizers"
+subsites: [global, us]
 ---

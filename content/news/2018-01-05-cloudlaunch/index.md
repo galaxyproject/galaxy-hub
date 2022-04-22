@@ -2,6 +2,7 @@
 title: 'All-new CloudLaunch release'
 tease: 'Manages your credentials, multiple clouds, multiple apps,...'
 date: '2018-01-05'
+subsites: [global, us]
 ---
 
 It's been a long time coming but the all-new CloudLaunch service is out of beta

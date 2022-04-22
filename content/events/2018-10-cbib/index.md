@@ -10,4 +10,5 @@ external_url: "http://cnrsformation.cnrs.fr/stage.php?stage=18239"
 image: 
 gtn: false
 contact: "Intervenants"
+subsites: [global, us]
 ---

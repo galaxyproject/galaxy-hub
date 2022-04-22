@@ -10,4 +10,5 @@ location_url: "https://www.google.com/maps?q=Wellcome+Genome+Campus+Wellcome+Gen
 external_url: "https://www.ebi.ac.uk/training/events/2018/phenomenal-gateway-portal-metabolomics-data-analysis-cloud"
 contact: "Organisers"
 gtn: false
+subsites: [global, us]
 ---

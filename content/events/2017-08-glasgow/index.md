@@ -9,4 +9,5 @@ location_url: http://www.polyomics.gla.ac.uk/index.html
 image: /images/logos/GlasgowPolyomics.jpg
 external_url: http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug17.html
 contact: David Meltzer
+subsites: [global, us]
 ---

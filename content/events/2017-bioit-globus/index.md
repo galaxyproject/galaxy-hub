@@ -10,4 +10,5 @@ location_url: http://www.bio-itworldexpo.com/
 external_url:  http://www.bio-itworldexpo.com/next-gen-sequencing-informatics/
 image: /images/logos/2017-bioit-world.jpg
 contact: Ravi Madduri
+subsites: [global, us]
 ---

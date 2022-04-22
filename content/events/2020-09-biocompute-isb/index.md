@@ -10,6 +10,7 @@ location_url: "https://www.biocuration.org/biocuration-2020-online-workshops/"
 external_url: ""
 gtn: true
 contact: "Charles Hadley King, Raja Mazumder, Jonathon Keeney"
+subsites: [global, us]
 ---
 
 The workshop features an intro talk, then 3 brief tool demos, show examples from [data.glygen.org](http://data.glygen.org/) and [data.oncomx.org](http://data.oncomx.org/), briefly discuss how they are used, and then show the [Portal tool](https://portal.aws.biochemistry.gwu.edu/sign-in) that can be used for making them. We will then do the same for the AWS [HIVE instance](http://hive.aws.biochemistry.gwu.edu/) and the AWS [Galaxy instance](http://galaxy.aws.biochemistry.gwu.edu/).

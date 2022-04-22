@@ -10,4 +10,5 @@ external_url: https://qfab.org/workshops/variant-detection-using-galaxy-15-16-ma
 gtn: true
 contact: training@qfab.org
 image: /images/logos/QFABLogo.png
+subsites: [global, us]
 ---

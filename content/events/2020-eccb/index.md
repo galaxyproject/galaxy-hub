@@ -10,6 +10,7 @@ image: "eccb-2020-new-trends-logo.jpg"
 external_url: ""
 contact: "Björn Grüning, Anup Kumar, Alireza Khanteymoori, Fotis Psomopoulos"
 gtn: true
+subsites: [global, us]
 ---
 
 Galaxy is part of two workshops at the ECCB2020 pre-meeting New Trends in Bioinformatics events:

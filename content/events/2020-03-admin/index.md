@@ -10,6 +10,7 @@ external_url:
 gtn: true
 contact: Instructors
 image: "2020-admin-banner.png"
+subsites: [global, us]
 ---
 
 **[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**

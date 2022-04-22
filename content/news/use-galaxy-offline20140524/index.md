@@ -1,6 +1,7 @@
 ---
 title: "usegalaxy.org offline May 31, 2014"
 date: "2014-05-16"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://usegalaxy.org'><img src="/images/logos/UseGalaxyOrgLogoShadow200.png" alt="usegalaxy.org will be down 2014/05/31"  /></a></div>
 

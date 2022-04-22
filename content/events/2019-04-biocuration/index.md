@@ -10,4 +10,5 @@ location_url: "https://www.biocuration2019.org/"
 gtn: true
 contact: "Achchuthan Shanmugasundram"
 image: 
+subsites: [global, us]
 ---

@@ -2,6 +2,7 @@
 title: Experienced specialist in Next Generation Sequencing data analysis (f/d/m)
 tease: "Research Core Unit Genomics at MHH (Hannover, Germany) is hiring"
 date: "2021-02-08"
+subsites: [global, us]
 ---
 
 A full position is available for 2 years in the Research Core Unit Genomics (RCUG), Germany, starting at the earliest timepoint possible. A subsequent prolongation of the contract along with providing an attractive future perspective for the candidate is intended. Salary will be according to the domestic TV-L tarif (E13).

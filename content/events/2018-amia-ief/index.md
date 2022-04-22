@@ -10,4 +10,5 @@ location_url: "https://www.amia.org/2018-informatics-educators-forum"
 external_url: "https://ief2018.zerista.com/event/member/486906"
 contact: "Karen Eilbeck"
 gtn: false
+subsites: [global, us]
 ---

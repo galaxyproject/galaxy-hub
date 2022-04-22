@@ -10,4 +10,5 @@ location_url: "https://www.embl.de/"
 external_url: "https://www.embl.de/training/events/2020/MTD20-01/"
 gtn: false
 contact: "Pavel Baranov, Audrey Michel"
+subsites: [global, us]
 ---

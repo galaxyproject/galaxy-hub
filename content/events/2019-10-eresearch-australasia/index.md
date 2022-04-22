@@ -10,6 +10,7 @@ external_url:
 gtn: false
 contact: "Gareth Price, M. Farhan Sjaugi"
 image: "era-2019-banner.jpg"
+subsites: [global, us]
 ---
 
 ## Galaxy @ eResearch Australasia 2019

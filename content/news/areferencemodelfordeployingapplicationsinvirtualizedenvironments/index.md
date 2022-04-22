@@ -1,6 +1,7 @@
 ---
 title: "Ref Model for Virtualized Deployment"
 date: "2011-09-01"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full'><img src="/images/logos/ConcurrencyComputationCover.png" alt="Concurrency and Computation: Practice & Experience" height="100px" /></a>
 </div>

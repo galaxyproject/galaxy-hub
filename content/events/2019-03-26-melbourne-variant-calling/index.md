@@ -9,4 +9,5 @@ location_url: https://www.google.com/maps/place/Melbourne+Bioinformatics+(former
 external_url: "https://www.eventbrite.com.au/e/introduction-to-variant-calling-with-galaxy-the-gvl-26-mar-registration-57476443590"
 contact: 'enquiries @ melbourne bio informatics . org.au'
 gtn: true
+subsites: [global, us]
 ---

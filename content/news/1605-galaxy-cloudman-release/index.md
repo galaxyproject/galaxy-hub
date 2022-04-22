@@ -1,6 +1,7 @@
 ---
 title: "16.05 Galaxy CloudMan release"
 date: "2016-05-25"
+subsites: [global, us]
 ---
 <div class='right'><a href='/cloudman/'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 

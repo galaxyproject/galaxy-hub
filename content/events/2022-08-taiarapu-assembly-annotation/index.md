@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://wwz.ifremer.fr/Recherche/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Bioinformatique/Animations-scientifiques/Formations-Bioinformatiques-en-Polynesie-2022"
 gtn: true
 contact: "Alexandre Cormier, Cyril Noel, Patrick Durand"
+subsites: [global, us]
 ---

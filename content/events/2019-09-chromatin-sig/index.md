@@ -10,4 +10,5 @@ external_url: "https://www.embl.de/training/events/2019/EPI19-01/programme/"
 gtn: false
 contact: "Charles Girardot "
 image: 
+subsites: [global, us]
 ---

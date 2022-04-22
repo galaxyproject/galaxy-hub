@@ -10,4 +10,5 @@ external_url: "https://gmds.de/fileadmin/user_upload/GMDS2018/Tagungsprogramm_GM
 gtn: false
 contact: "Markus Wolfien, Andrea Bagnacani, Olaf Wolkenhauer "
 image: 
+subsites: [global, us]
 ---

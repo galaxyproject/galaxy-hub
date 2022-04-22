@@ -1,6 +1,7 @@
 ---
 title: "Feb 10, 2014 Galaxy Distribution"
 date: "2014-02-10"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='http://usegalaxy.org'><img src="/images/news-graphics/2014_02_10_trackster-css.png" alt="Trackster" width="400" /></a><br />*Trackster*</div>

@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/"
 gtn: true
 contact: "Instructors"
+subsites: [global, us]
 ---

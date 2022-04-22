@@ -10,4 +10,5 @@ location_url: "http://www.riken.jp/research/labs/aip/"
 external_url: "https://pitagora.connpass.com/event/88098/"
 contact: "Atsushi Asai"
 gtn: false
+subsites: [global, us]
 ---

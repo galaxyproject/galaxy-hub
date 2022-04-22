@@ -10,4 +10,5 @@ external_url: "https://www.elixir-czech.cz/events/introduction-to-galaxy-and-pro
 gtn: true
 contact: "Jiří Vondrášek, Martin Čech"
 image: 
+subsites: [global, us]
 ---

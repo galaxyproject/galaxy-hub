@@ -10,4 +10,5 @@ image:
 external_url: "https://iibmp2019.tokyo/"
 contact: "Yuh Shiwa <y3shiwa @ nodai.ac.jp>, Tazro Ohta <t.ohta @ dbcls.rois.ac.jp>"
 gtn: false
+subsites: [global, us]
 ---

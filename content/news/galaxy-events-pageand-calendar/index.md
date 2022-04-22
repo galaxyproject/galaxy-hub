@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Events Page & Calendar"
 date: "2011-07-13"
+subsites: [global, us]
 ---
 The new Galaxy wiki includes a [Galaxy Events](/events/) page that lists any upcoming events (such as [ISMB/ECCB 2011](/events/ISMB-ECCB-BOSC 2011/) and the [Workshop on Comparative Genomics](http://www.molecularevolution.org/workshops/WCG#wcgna)) that have Galaxy related content.
 

@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/"
 gtn: true
 contact: "Instructors"
+subsites: [global, us]
 ---

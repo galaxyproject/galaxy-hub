@@ -1,6 +1,7 @@
 ---
 title: "Internship @ Vilmorin & Co"
 date: "2012-02-01"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://www.vilmorin.info/'><img src="/images/logos/VilmorinLogo.gif" alt="Vilmorin & Co."  /></a></div>
 

@@ -11,4 +11,5 @@ location_url: "http://www.icter.org/conference/"
 image: 
 gtn: false
 contact: "Nuwan Goonasekera"
+subsites: [global, us]
 ---

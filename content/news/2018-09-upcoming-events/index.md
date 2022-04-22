@@ -2,6 +2,7 @@
 title: '4 Big Galaxy Events Before 2018 is Done'
 tease: "eResearch Australasia, Translational Medicine, BioHackathon, European Galaxy Days"
 date: '2018-09-20'
+subsites: [global, us]
 ---
 
 It occurred to me while I was typing up the [Galaxy Admin Training announcement](/events/2019-admin-training/) that there were several other big and upcoming Galaxy events before the end of this year that you may want to look at.  Here are 4 of them:

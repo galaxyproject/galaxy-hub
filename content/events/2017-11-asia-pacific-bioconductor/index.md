@@ -10,4 +10,5 @@ external_url: https://www.abacbs.org/conference-workshops/#block-yui_3_17_2_3_15
 gtn: false
 contact: Maria Doyle
 image: /images/logos/BioconductorLogo.gif
+subsites: [global, us]
 ---

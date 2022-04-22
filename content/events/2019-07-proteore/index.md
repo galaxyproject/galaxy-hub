@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://www.biogenouest.org/actualites/article/10-1107-%C2%AB-analyse-fonctionnelle-et-interpretation-de-donnees-de-proteomique-avec-"
 contact: "proteome @ univ-rennes1 . fr"
 gtn: false
+subsites: [global, us]
 ---

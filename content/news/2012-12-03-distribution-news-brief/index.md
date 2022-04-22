@@ -1,6 +1,7 @@
 ---
 title: "Dec 3, 2012 Distribution & News Brief"
 date: "2012-12-03"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-12-03/)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_12_03_new-history-menu.png" alt="" width="350" /></a></div>

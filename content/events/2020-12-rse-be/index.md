@@ -10,4 +10,5 @@ external_url: "https://www.be-rse.org/rsdd2020"
 gtn: false
 contact: "Björn Grüning"
 image: 
+subsites: [global, us]
 ---

@@ -10,4 +10,5 @@ external_url: "https://training.vib.be/all-trainings/migrating-tools-cloud-onlin
 gtn: false
 contact: "Ignacio Eguinoa"
 image: 
+subsites: [global, us]
 ---

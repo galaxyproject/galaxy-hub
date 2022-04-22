@@ -2,6 +2,7 @@
 title: 'Christophe Caron'
 tease: "You will be missed"
 date: '2018-05-09'
+subsites: [global, us]
 ---
 [<img class="float-right" src="/news/2018-05-caron/christophe-caron.jpg" alt="Christophe Caron" />](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron)
 

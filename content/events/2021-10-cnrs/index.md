@@ -10,4 +10,5 @@ external_url: "https://cnrsformation.cnrs.fr/analyse-avancee-sequences"
 gtn: true
 contact: "A. Barré, B. Dartigues, R. Uricaru"
 image: 
+subsites: [global, us]
 ---

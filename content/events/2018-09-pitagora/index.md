@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://pitagora.connpass.com/event/94966/"
 contact: "Atsushi Asai"
 gtn: false
+subsites: [global, us]
 ---

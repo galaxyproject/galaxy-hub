@@ -1,6 +1,7 @@
 ---
 title: "Open! GCC2014 Registration & Abstracts"
 date: "2014-02-14"
+subsites: [global, us]
 ---
 <div class='left'><a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoTall200.png" alt="GCC2014" height="180" /></a></div>
 <div class='right'><a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014TDLogo150.png" alt="GCC2014 Training Day" height="150" /></a></div>

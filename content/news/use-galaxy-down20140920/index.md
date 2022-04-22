@@ -1,6 +1,7 @@
 ---
 title: "usegalaxy.org outage on Sept 20"
 date: "2014-09-13"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://usegalaxy.org'><img src="/images/logos/UseGalaxyOrgLogoShadow200.png" alt="usegalaxy.org will be intermittently unavailable 2014/09/20"  /></a></div>
 

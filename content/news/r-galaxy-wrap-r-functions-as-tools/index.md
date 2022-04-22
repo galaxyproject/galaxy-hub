@@ -1,6 +1,7 @@
 ---
 title: "RGalaxy: Wrap R Functions as Tools"
 date: "2012-06-28"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://bioconductor.org/packages/2.11/bioc/html/RGalaxy.html'><img src="/images/logos/BioconductorLogo.gif" alt="RGalaxy Bioconductor Package" width="200" /></a></div>
 

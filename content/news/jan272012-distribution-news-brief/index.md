@@ -1,6 +1,7 @@
 ---
 title: "January 27, 2012 Distribution & News Brief"
 date: "2012-01-28"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-01-27/)**
 

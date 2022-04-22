@@ -9,4 +9,5 @@ external_url: "https://nekrut.github.io/msmg/"
 gtn: false
 contact: "Stéphanie Bedhomme, Anton Nekrutenko"
 image:
+subsites: [global, us]
 ---

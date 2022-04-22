@@ -10,5 +10,6 @@ external_url: "https://www.eventbrite.com.au/e/introduction-to-galaxy-the-genomi
 image: 
 gtn: true
 contact: "Simon Gladman"
+subsites: [global, us]
 ---
 

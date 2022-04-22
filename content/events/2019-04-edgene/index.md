@@ -10,4 +10,5 @@ external_url: "https://www.facebook.com/ngsdataanalysis/photos/a.118941704790520
 gtn: false
 contact: "info @ edgene biomed . com"
 image: 
+subsites: [global, us]
 ---

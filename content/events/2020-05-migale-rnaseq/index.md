@@ -10,4 +10,5 @@ location_url: "https://migale.inra.fr/trainings"
 external_url: "https://genome.jouy.inra.fr/db/tmp/module23.pdf"
 gtn: true
 contact: "Véronique Martin"
+subsites: [global, us]
 ---

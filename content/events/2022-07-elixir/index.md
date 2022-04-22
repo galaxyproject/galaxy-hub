@@ -10,4 +10,5 @@ external_url: "https://docs.google.com/document/d/1vcOkcp528S1auXjxqrXwhE1Gjgmf2
 gtn: false
 contact: "Nicola Soranzo, Frederik Coppens, Björn Grüning, Beatriz Serrano-Solano"
 image:
+subsites: [global, us]
 ---

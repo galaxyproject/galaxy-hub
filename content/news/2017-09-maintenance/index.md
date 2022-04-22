@@ -2,6 +2,7 @@
 title: 'usegalaxy.org maintenance on Sept 19'
 tease: '... but there are other options'
 date: '2017-09-11'
+subsites: [global, us]
 ---
 
 <div class="right"><i class="fa fa-wrench fa-5x text-danger" aria-hidden="true"></i></div>

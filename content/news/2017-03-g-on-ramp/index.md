@@ -2,6 +2,7 @@
 title: 'G-OnRamp Beta Testers Workshop: Invitation'
 tease: 'Create genome browsers for collaborative annotation of eukaryotic genomes.'
 date: '2017-03-16'
+subsites: [global, us]
 ---
 <div class='right'><a href='https://wustl.edu/'><img src="/images/logos/WashULogoWide.jpg" alt="Washington University in St. Louis" width="170" /></a><br /><br />
 <a href="http://www.ohsu.edu/"><img src="/images/logos/OHSU_Logo_300.png" alt='Oregon Health &amp; Science University' width="170" /></a>

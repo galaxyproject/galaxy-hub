@@ -10,4 +10,5 @@ external_url: "https://southgreenplatform.github.io/trainings//files/formation-p
 gtn: true
 contact: "Formateurs"
 image: 
+subsites: [global, us]
 ---

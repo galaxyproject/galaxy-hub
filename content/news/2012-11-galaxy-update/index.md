@@ -1,6 +1,7 @@
 ---
 title: "November 2012 Galaxy Update"
 date: "2012-10-31"
+subsites: [global, us]
 ---
 <div class='right'><a href='/galaxy-updates/2012-11/'><img src="/images/logos/GalaxyUpdate200.png" alt="November 2012 Galaxy Update" width=150 /></a></div>
 

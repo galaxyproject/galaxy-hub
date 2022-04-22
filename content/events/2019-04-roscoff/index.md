@@ -10,4 +10,5 @@ external_url: "https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy
 gtn: true
 contact: Gildas Le Corguillé
 image: 
+subsites: [global, us]
 ---

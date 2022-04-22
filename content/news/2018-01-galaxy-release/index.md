@@ -2,6 +2,7 @@
 title: 'Galaxy Release 18.01'
 tease: Performance, uWSGI, Collection usability, new BAM datatypes, Experimental job caching
 date: '2018-03-19'
+subsites: [global, us]
 ---
 Dear Galaxy Fans,
 

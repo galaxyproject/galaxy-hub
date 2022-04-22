@@ -1,6 +1,7 @@
 ---
 title: "GCC2013 Abstract Submission & Registration"
 date: "2013-02-23"
+subsites: [global, us]
 ---
 <div class='center'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a></div>
 

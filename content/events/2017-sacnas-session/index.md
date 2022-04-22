@@ -10,6 +10,7 @@ external_url: https://event.crowdcompass.com/2017sacnas/activity/PgfRQW3Nrl
 image: /images/logos/sacnas-no-text.jpg
 gtn: true
 contact: Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements
+subsites: [global, us]
 ---
 
 * [Slides](https://drive.google.com/file/d/0BxfIxI6kQS-oSzZ1MlI2UUJkN0U/view?usp=sharing)

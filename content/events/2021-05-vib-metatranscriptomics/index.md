@@ -10,4 +10,5 @@ external_url: "https://training.vib.be/all-trainings/metatranscriptomics-analysi
 gtn: true
 contact: "Pratik Jagtap, Subina Mehta, Tim Griffin, Magnus Arntzen, Saskia Hiltemann"
 image: 
+subsites: [global, us]
 ---

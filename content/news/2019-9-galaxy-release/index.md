@@ -2,6 +2,7 @@
 title: 'Galaxy Release 19.09'
 tease: Interactive Tools, Workflow Reporting, New Tool Shed Client Interface, Awesome Visualizations, Cleaner History Menu
 date: '2019-11-22'
+subsites: [global, us]
 ---
 
 We are pleased to announce the release of Galaxy

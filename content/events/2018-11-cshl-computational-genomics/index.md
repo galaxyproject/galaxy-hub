@@ -10,4 +10,5 @@ external_url: "https://meetings.cshl.edu/courses.aspx?course=C-ECG&year=18"
 gtn: true
 contact: "James Taylor"
 image: 
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Days: 2-3 December, Paris"
 date: "2014-10-15"
+subsites: [global, us]
 ---
 The [French Working Group GALAXY-IFB (Institut Français de Bioinformatique)](http://www.ifb-galaxy.org/index.html) is organizing a second session around the Galaxy portal.
 

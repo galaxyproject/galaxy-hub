@@ -10,4 +10,5 @@ external_url: "http://rsgturkey.com/en/insaflu-ve-galaxyproject-ile-sarscov2-var
 gtn: false
 contact: "Nazlı S. Kara, Meltem Kutnu, et al."
 image: 
+subsites: [global, us]
 ---

@@ -10,4 +10,5 @@ external_url: "https://usegalaxy-eu.github.io/event/2019-08-08-microscopy-imagin
 gtn: true
 contact: "Karl Rohr"
 image: 
+subsites: [global, us]
 ---

@@ -10,6 +10,7 @@ location_url: "https://www.iscb.org/ismb2020/"
 external_url:
 contact: "Presenters"
 gtn: false
+subsites: [global, us]
 ---
 
 [ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and Galaxy is going with it.  Here is the Galaxy related content that we know about so far.

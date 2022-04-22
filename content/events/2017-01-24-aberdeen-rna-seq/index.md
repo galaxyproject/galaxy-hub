@@ -10,4 +10,5 @@ external_url: https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advance
 gtn: true
 contact: Sophie Shaw
 image: /images/logos/AberdeenLogoTrans.png
+subsites: [global, us]
 ---

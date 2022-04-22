@@ -10,4 +10,5 @@ external_url: "https://www.earlham.ac.uk/single-cell-rnaseq-training-course-2021
 gtn: true
 contact: "Emily Angiolini"
 image: 
+subsites: [global, us]
 ---
