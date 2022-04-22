@@ -28,7 +28,7 @@
     ],
     "subsites": {
         "hierarchy": {
-            "root": {
+            "global": {
                 "us": {},
                 "eu": {
                     "freiburg": {},
@@ -41,7 +41,15 @@
                 }
             }
         },
+        "shorthands": {
+            "all": [
+                "global", "us", "eu", "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it"
+            ]
+        },
         "metadata": {
+            "global": {
+                "name": "Global"
+            },
             "us": {
                 "name": "US",
                 "color": "#4e7152"
