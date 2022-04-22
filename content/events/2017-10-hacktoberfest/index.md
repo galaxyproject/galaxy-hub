@@ -1,6 +1,6 @@
 ---
 title: 2017 Hacktoberfest
-date: '2017-10'
+date: '2017-10-01'
 days: 31
 tease: Online...
 continent: GL
