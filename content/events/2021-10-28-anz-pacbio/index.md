@@ -10,6 +10,6 @@ external_url: "https://us02web.zoom.us/webinar/register/WN_wa9jSq9sSbS2vZ9uZi0jd
 gtn: false
 contact: "Gareth Price"
 image: 
-tags: "webinar"
+tags: [webinar]
 subsites: [global, us]
 ---

@@ -10,6 +10,6 @@ external_url: "https://www.biocommons.org.au/2021-showcase"
 gtn: false
 contact: "Andrew Lonie, Christina Hall"
 image: 
-tags:
+tags: []
 subsites: [global, us]
 ---
