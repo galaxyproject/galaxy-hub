@@ -135,12 +135,12 @@ This is a global workshop delivered asynchronously. In practice, this means that
 - **Lectures**: pre-recorded videos ([](){: .fa .fa-video-camera}) with the theoretical explanation of the lesson, supported by slide decks ([](){: .fa .fa-slideshare}).
 - **Hands-on tutorials** ([](){: .fa .fa-laptop}): a step-by-step explanation, including all the required information, to perform a data analysis, often available also as pre-recorded video ([](){: .fa .fa-video-camera}).
 
-    Most of the tutorials are developed by the [Galaxy Training Network](http://training.galaxyproject.org/){: target="_blank"}. A feedback form is available at the bottom of each tutorial page. Please fill it out, it helps us to value and improve the tutorials.
+    Most of the tutorials are developed by the [Galaxy Training Network](https://training.galaxyproject.org/){: target="_blank"}. A feedback form is available at the bottom of each tutorial page. Please fill it out, it helps us to value and improve the tutorials.
 
 - **Histories**: shared Galaxy history ([](){: .fa .fa-list-ul}), on the [European Galaxy server](https://usegalaxy.eu){: target="_blank"}, with all that you need to reproduce what is shown in the hands-on part.
 - **Demo**: pre-recorded videos ([](){: .fa .fa-video-camera}) demonstrating a technical point or a nice feature.
 
-Most of the material is available already, and they will all stay **available after the workshop**. Most of the material have been developed by a community of people via the [Galaxy Training Network](training.galaxyproject.org/){: target="_blank"}. Some videos were recorded for different previous events, e.g. [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/){: target="_blank"} or [GCC2021 Training Week](https://galaxyproject.org/events/gcc2021/training/){: target="_blank"}, and the captions were manually-curated by several community members.
+Most of the material is available already, and they will all stay **available after the workshop**. Most of the material have been developed by a community of people via the [Galaxy Training Network](https://training.galaxyproject.org/){: target="_blank"}. Some videos were recorded for different previous events, e.g. [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/){: target="_blank"} or [GCC2021 Training Week](/events/gcc2021/training/){: target="_blank"}, and the captions were manually-curated by several community members.
 
 Whenever you're ready to get started, you can access the material by clicking on the different icons in the program!
 
@@ -175,7 +175,7 @@ If you need a certificate, you can request it at the end of the workshop. Please
 
 # Code of Conduct
 
-Everyone is expected to abide by the [Code of Conduct (CoC)](https://galaxyproject.org/community/coc/) to make this environment welcoming and friendly for everyone.
+Everyone is expected to abide by the [Code of Conduct (CoC)](/community/coc/) to make this environment welcoming and friendly for everyone.
 
 # Instructors & helpers
 
