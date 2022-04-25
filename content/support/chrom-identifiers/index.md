@@ -9,36 +9,10 @@ Methods described help to identify and correct errors or unexpected results link
 
 **If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](/learn/custom-genomes/). Improper formating is the most common root cause of CG related errors.
 
-## Find BAM dataset identifiers
+## [Find BAM dataset identifiers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_BAM_dataset_identifiers.html)
 
-Quickly learn what the identifiers are in any **BAM** dataset that is the result from mapping.
 
-Warning: This will *not* work for "sequence-only" `bam` datasets, as these usually have no header.
-
-*Method 1*
-
-1. Run **Samtools: IdxStats** on the aligned data (`bam` dataset).
-2. The "index header" chromosome names and lengths will be listed in the output (along with read counts).
-3. Compare the chromosome identifiers to the chromosome (aka "chrom") field in all other inputs: VCF, GTF, GFF(3), BED, Interval, etc.
-4. Note: The orignal mapping targat may have been a built-in genome index, custom genome (transcriptome, exome, other) -- the same `bam` data will still be summarized.
-
-## Directly obtain UCSC sourced *genome* identifiers
-
-*Method 2*
-
-1. Go to http://genome.ucsc.edu/, navigate to "genomes", then the species of interest
-1. On the home page for the genome build, immediately under the top navigation box, in the blue bar next to the full genome build name, is linked text like "(sequences)"
-1. Click on this and it will take you to a detail page with a table listing out the contents
-
-*Method 3*
-
-1. Use the tool "Get Data -> UCSC Main"
-1. In the Table Browser, choose the target genome and build
-1. For "group" choose the last option "All Tables"
-1. For "table" choose "chromInfo"
-1. Leave all other options at default and send the output to Galaxy
-1. This new dataset will load as a tabular dataset into your history
-1. It will list out the contents of the genome build, including the chromosome identifiers (in the first column)
+## [Directly obtain UCSC sourced *genome* identifiers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_UCSC_sourced_genome.html)
 
 
 ## Adjusting Identifiers or Input source
