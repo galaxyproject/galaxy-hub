@@ -12,7 +12,7 @@
         <td>
             <div v-if="article.external_url" class="title">
                 <p class="outlink">
-                    <a :href="article.external_url">{{ article.title }}</a>
+                    <a :href="article.external_url" target="_blank">{{ article.title }}</a>
                 </p>
                 <div class="link-icon"><a class="fas fa-external-link-alt"></a></div>
                 <div class="clearfix"></div>
