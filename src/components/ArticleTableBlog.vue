@@ -1,7 +1,7 @@
 <template>
     <tr>
         <td class="date text-nowrap">{{ article.date }}</td>
-        <td class="title">
+        <td class="summary">
             {{ article.authors }}
             <p class="from">
                 from
@@ -10,8 +10,14 @@
             </p>
         </td>
         <td>
-            <a v-if="article.external_url" :href="article.external_url">{{ article.title }}</a>
-            <g-link v-else :to="article.path" class="read">{{ article.title }}</g-link>
+            <div v-if="article.external_url" class="title">
+                <p class="outlink">
+                    <a :href="article.external_url">{{ article.title }}</a>
+                </p>
+                <div class="link-icon"><a class="fas fa-external-link-alt"></a></div>
+                <div class="clearfix"></div>
+            </div>
+            <g-link v-else :to="article.path" class="title">{{ article.title }}</g-link>
             <p class="tease">
                 {{ article.tease }}
             </p>
@@ -28,8 +34,19 @@ export default {
 </script>
 
 <style scoped>
+p {
+    margin: 0;
+}
 .from {
     font-style: italic;
     margin-left: 1em;
+}
+.outlink {
+    float: left;
+    width: calc(100% - 15px);
+}
+.link-icon {
+    font-size: 80%;
+    float: right;
 }
 </style>
