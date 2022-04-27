@@ -88,12 +88,12 @@ async function resolveImages(node, args, context, info) {
         }
     }
     if (!imgPath) {
-        console.error(repr`Image not found: ${node.image}`);
+        console.error(node.path + repr`: Image not found: ${node.image}`);
         return {};
     }
     let relImgPathFromContent = path.relative(buildDir, imgPath);
     if (IMAGE_REGISTRY.has(relImgPathFromContent)) {
-        console.log(repr`Image ${relImgPathFromContent} already in asset store.`);
+        console.log(node.path + repr`: Image ${relImgPathFromContent} already in asset store.`);
     }
     let images = addImage(imgPath, args, context);
     if (images) {
@@ -141,7 +141,7 @@ function getMainSubsite(rawMainSubsite, pagePath) {
         if (SUBSITES_LIST.includes(rawMainSubsite)) {
             mainSubsite = rawMainSubsite;
         } else {
-            console.error(repr`${pagePath}: main_subsite ${rawMainSubsite} not recognized.`);
+            console.error(pagePath + repr`: main_subsite ${rawMainSubsite} not recognized.`);
         }
     }
     // Otherwise, use any path-derived subsite.
@@ -158,10 +158,10 @@ function getSubsites(rawSubsites, mainSubsite, pagePath) {
         subsites = rawSubsites;
     } else if (type === "String") {
         // If there's a single subsite, allow authors to forget the enclosing braces (leaving it a String).
-        console.warn(repr`${pagePath}: Subsite ${rawSubsites} better written as [${rawSubsites}]`);
+        console.warn(`${pagePath}: Subsite \`${rawSubsites}\` better written as \`["${rawSubsites}"]\``);
         subsites = [rawSubsites];
     } else if (rawSubsites) {
-        console.error(repr`${pagePath}: Invalid type for "subsites" key ${rawSubsites}`);
+        console.error(`${pagePath}: Invalid type (${type}) for "subsites" key "${repr(rawSubsites)}"`);
         return [];
     } else {
         // For files with no "subsites" key, `node.subsites` will be `undefined`. Translate this to an empty list.
@@ -181,7 +181,7 @@ function getSubsites(rawSubsites, mainSubsite, pagePath) {
             // It's an actual subsite. Just add it to the list.
             subsitesSet.add(subsite);
         } else {
-            console.error(repr`${pagePath}: Subsite ${subsite} in 'subsites' list not recognized.`);
+            console.error(pagePath + repr`: Subsite ${subsite} in subsites list not recognized.`);
         }
     }
     // Store the Set of unique subsites to the `subsites` field as an Array.
@@ -262,7 +262,7 @@ class nodeModifier {
                 if (insert) {
                     node.inserts.push(store.createReference(insert));
                 } else {
-                    console.error(repr`Failed to find Insert for path ${path} in ${node.path}`);
+                    console.error(node.path + repr`: Failed to find Insert ${path}`);
                 }
             }
             return node;
