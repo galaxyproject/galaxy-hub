@@ -178,8 +178,17 @@ class nodeModifier {
             subsitesRaw = [];
         }
         let subsitesSet = new Set();
+        // Validate any user-defined `main_subsite`.
+        if (node.main_subsite) {
+            if (!SUBSITES_LIST.includes(node.main_subsite)) {
+                console.error(repr`main_subsite ${node.main_subsite} not recognized.`);
+                node.main_subsite = undefined;
+            }
+        }
         // Add any path-derived subsite.
-        node.main_subsite = subsiteFromPath(node.path);
+        if (!node.main_subsite) {
+            node.main_subsite = subsiteFromPath(node.path);
+        }
         if (node.main_subsite) {
             subsitesSet.add(node.main_subsite);
         }
@@ -191,9 +200,11 @@ class nodeModifier {
                 for (let shorthandSubsite of shorthandSubsites) {
                     subsitesSet.add(shorthandSubsite);
                 }
-            } else {
+            } else if (SUBSITES_LIST.includes(subsite)) {
                 // It's an actual subsite. Just add it to the list.
                 subsitesSet.add(subsite);
+            } else {
+                console.error(repr`Subsite ${subsite} in 'subsites' list not recognized.`);
             }
         }
         // Store the Set of unique subsites to the `subsites` field as an Array.
