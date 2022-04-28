@@ -6,17 +6,19 @@
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-nav id="navbar-menu">
-                    <b-nav-item-dropdown id="subsite-name" v-if="subsiteName && subsite" :text="subsiteName">
+                <b-navbar-nav id="subsite-items">
+                    <b-nav-item-dropdown id="subsite-name" v-if="subsiteName" :text="subsiteName">
                         <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
                             {{ link.name }}
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item :to="`${pathPrefix}/news/`">News</b-nav-item>
                     <b-nav-item :to="`${pathPrefix}/events/`">Events</b-nav-item>
-                    <b-nav-item to="/learn/">Training</b-nav-item>
+                </b-navbar-nav>
+                <b-navbar-nav id="global-items" class="ml-auto">
                     <b-nav-item-dropdown text="Support">
                         <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
+                        <b-dropdown-item to="/learn/">Training</b-dropdown-item>
                         <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="Community">
@@ -42,9 +44,7 @@
                     <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                     <b-nav-item to="/projects/covid19/">Covid19</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
-                </b-navbar-nav>
-                <b-navbar-nav id="navbar-misc" class="ml-auto">
-                    <b-nav-form action="/search/" method="get">
+                    <b-nav-form class="search" action="/search/" method="get">
                         <b-form-input
                             id="search-input"
                             size="sm"
@@ -70,7 +70,7 @@ const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
     props: {
-        subsite: { type: String, required: false, default: null },
+        subsite: { type: String, required: false, default: "global" },
     },
     computed: {
         pathPrefix() {
@@ -165,6 +165,7 @@ function getPath(page) {
 #subsite-name {
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 #subsite-name > a.dropdown-toggle {
     line-height: 100%;
@@ -173,5 +174,8 @@ function getPath(page) {
     max-width: 95px;
     margin: 0;
     padding: 0;
+}
+.search {
+    margin-left: 10px;
 }
 </style>
