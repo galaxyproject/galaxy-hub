@@ -10,4 +10,5 @@ external_url: "https://www.canceropole-idf.fr/formation-ngs-cancer-analyses-epig
 gtn: false
 contact: "Groupe de travail NGS & Cancer"
 image: 
+subsites: [global, us]
 ---

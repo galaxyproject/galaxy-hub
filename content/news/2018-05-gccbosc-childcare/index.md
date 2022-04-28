@@ -2,6 +2,7 @@
 title: 'GCCBOSC 2018 Childcare Update'
 tease: 'eLife Sponsorship & ISB Microgrant lower costs'
 date: '2018-05-18'
+subsites: [global, us]
 ---
 [<img class="float-right" src="/images/galaxy-logos/gccbosc-childcare-banner.png" alt="GCCBOSC Childcare Update" width="270" />](http://localhost:8080/events/gccbosc2018/childcare/)
 

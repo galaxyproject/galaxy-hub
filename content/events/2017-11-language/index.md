@@ -10,4 +10,5 @@ external_url: https://www.meetup.com/monthlytechtalk/events/244097042/
 gtn: false
 contact: Steve Cassidy
 image: 
+subsites: [global, us]
 ---

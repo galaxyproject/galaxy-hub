@@ -1,6 +1,7 @@
 ---
 title: "New Galaxy Group @ CiteULike"
 date: "2011-12-15"
+subsites: [global, us]
 ---
 <div class='right'><a href='/publication-library/'><img src="/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 

@@ -11,6 +11,7 @@ gtn: false
 contact: Organizers
 image: /images/logos/GCC2014LogoWide400.png
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
 <div class="text-center">

@@ -10,4 +10,5 @@ image: /images/logos/deNBILogo.png
 external_url: "http://www.denbi.de/22-training-cat/training-courses/642-galaxy-for-proteomics-3"
 contact: "Björn Grüning"
 gtn: true
+subsites: [global, us]
 ---

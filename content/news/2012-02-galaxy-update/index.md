@@ -1,6 +1,7 @@
 ---
 title: "February 2012 Galaxy Update"
 date: "2012-01-31"
+subsites: [global, us]
 ---
 <div class='right'><a href='/galaxy-updates/2012-02/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 

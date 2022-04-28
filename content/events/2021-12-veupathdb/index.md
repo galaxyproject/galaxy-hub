@@ -11,4 +11,5 @@ external_url: "https://veupathdb.org/veupathdb/app/static-content/workshops.html
 gtn: false
 links:
 contact: "Instructors"
+subsites: [global, us]
 ---

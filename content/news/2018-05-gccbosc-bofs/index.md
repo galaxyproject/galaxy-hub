@@ -2,6 +2,7 @@
 title: 'GCCBOSC 2018 Call for BoFs'
 tease: 'Birds of feather flock together in Portland'
 date: '2018-05-15'
+subsites: [global, us]
 ---
 [<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" alt="Propose a BoF" width="170" />](http://bit.ly/gccbosc2018-bofs-call)
 

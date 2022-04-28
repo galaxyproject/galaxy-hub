@@ -10,6 +10,7 @@ external_url: http://biosb.nl/wp-content/uploads/2018/05/abstract_book.pdf
 gtn: false
 contact: 
 image: /images/logos/biosb-logo.png
+subsites: [global, us]
 ---
 
 | Presentation | Presenter |

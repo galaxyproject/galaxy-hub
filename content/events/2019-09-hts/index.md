@@ -10,4 +10,5 @@ image:
 external_url: "https://galaxyproject.eu/event/2019-05-08-GalaxyHTS.Freiburg.September2019/plain.html"
 contact: "Freiburg Galaxy Team"
 gtn: true
+subsites: [global, us]
 ---

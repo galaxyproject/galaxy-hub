@@ -10,4 +10,5 @@ location_url: "https://www.eurobioimaging.eu/about-us/virtual-pub"
 external_url: "https://www.eurobioimaging.eu/about-us/virtual-pub"
 gtn: false
 contact: "Beatriz Serrano-Solano"
+subsites: [global, us]
 ---

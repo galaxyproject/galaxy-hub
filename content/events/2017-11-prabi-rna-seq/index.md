@@ -10,4 +10,5 @@ external_url: http://www.biosciencesco.fr/formations/bio-informatique/analyse-de
 gtn: true
 contact: C. Oger,  P. Veber, Dr. V. Lacroix
 image: /images/logos/biosciences-and-co.png
+subsites: [global, us]
 ---

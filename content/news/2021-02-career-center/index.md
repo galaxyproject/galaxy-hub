@@ -3,6 +3,7 @@ title: "The Galaxy Career Center is Open"
 tease: "And it lists 13 currently open positions."
 external_url: ""
 date: "2021-02-24"
+subsites: [global, us]
 ---
 
 [<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>](/careers/)

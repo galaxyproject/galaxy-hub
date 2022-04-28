@@ -10,6 +10,7 @@ external_url:
 gtn: false
 contact: 
 image: /images/logos/nih-nci-itcr-wide.png
+subsites: [global, us]
 ---
 
 Galaxy had a large presence at the [2018 Informatics Technology for Cancer Research (ITCR) meeting](https://itcr.cancer.gov/about-itcr/news/itcr-2018-annual-meeting-presentations-now-available#):

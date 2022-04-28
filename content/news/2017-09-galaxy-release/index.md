@@ -3,6 +3,7 @@ title: 'Galaxy Release 17.09'
 tease: Singularity, download collections, switch tool versions in workflows,...
 
 date: '2017-11-02'
+subsites: [global, us]
 ---
 Dear Galaxy Fans,
 

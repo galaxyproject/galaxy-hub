@@ -2,6 +2,7 @@
 title: 'November 2020 Galactic News'
 tease: "JXTX Foundation, Events, Platforms, Jobs, Pubs, ..."
 date: "2020-11-03"
+subsites: [global, us]
 ---
 
 # In the November 2020 issue

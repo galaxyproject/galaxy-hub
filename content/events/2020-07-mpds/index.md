@@ -10,4 +10,5 @@ location_url: "http://www.neist.res.in/ddh2020/"
 external_url: "https://www.youtube.com/watch?v=lWWPTA7JyJ0&feature=youtu.be&t=183"
 gtn: false
 contact: "Lijo John, S Nagamani, Himakshi Sarma"
+subsites: [global, us]
 ---

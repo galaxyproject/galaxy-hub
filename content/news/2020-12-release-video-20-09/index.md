@@ -2,6 +2,7 @@
 title: 'Galaxy Release 20.09 Video Summary'
 tease: GTN in Galaxy, upload from Dropbox, workflow enhancements, better performance!
 date: '2020-12-02'
+subsites: [global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dIeXVW_eoJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

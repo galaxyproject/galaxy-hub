@@ -1,6 +1,7 @@
 ---
 title: "GlobusWorld 2014"
 date: "2014-03-28"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://www.globusworld.org/'><img src="/images/logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
 

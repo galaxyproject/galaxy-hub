@@ -8,6 +8,7 @@ location:  Global Biodiversity Genomics Conference, Washington, D.C., United Sta
 location_url: http://biogenomics2017.org/
 external_url: http://biogenomics2017.org/
 contact: James Taylor
+subsites: [global, us]
 ---
 Additional Resources:
 

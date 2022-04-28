@@ -1,6 +1,7 @@
 ---
 title: "Liste de diffusion Galaxy France"
 date: "2012-08-28"
+subsites: [global, us]
 ---
 <div class='right'><a href='https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/'><img src="/images/logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
 

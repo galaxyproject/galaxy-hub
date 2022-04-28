@@ -2,6 +2,7 @@
 title: 'Galaxy Release 19.01'
 tease: Revised UI Style, Colorful Tags, Singularity Enhancements, and Workflow Enhancements
 date: '2019-02-27'
+subsites: [global, us]
 ---
 We are pleased to announce the **[release of Galaxy
 19.01](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)**.

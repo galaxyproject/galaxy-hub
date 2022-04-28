@@ -9,6 +9,7 @@ image: "/images/logos/outreachy-logo.svg"
 location_url:
 external_url:
 contact: Community
+subsites: [global, us]
 ---
 
 *Please join our Outreachy interns - Rahmot, and Chinonye - in celebrating their contributions to the Galaxy Community!*

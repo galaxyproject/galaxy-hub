@@ -1,6 +1,7 @@
 ---
 title: "Tools + Dataset Collections Hackathon"
 date: "2015-08-10"
+subsites: [global, us]
 ---
 Hello all,
 

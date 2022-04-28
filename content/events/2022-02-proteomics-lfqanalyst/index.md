@@ -10,5 +10,6 @@ external_url: "https://www.biocommons.org.au/events/galaxy-proteomics-community"
 gtn: false
 contact: "johan@biocommons.org.au"
 image: 
-tags:
+tags: []
+subsites: [global, us]
 ---

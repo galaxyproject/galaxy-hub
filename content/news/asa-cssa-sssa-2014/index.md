@@ -1,6 +1,7 @@
 ---
 title: "Galaxy @ ASA/CSSA/SSSA 2014"
 date: "2014-09-03"
+subsites: [global, us]
 ---
 <table>
   <tr>

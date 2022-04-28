@@ -10,4 +10,5 @@ external_url: "http://wiki.pitagora-galaxy.org/wiki/index.php/Meetup_2018-10"
 image: 
 gtn: false
 contact: "Atsushi Asai"
+subsites: [global, us]
 ---

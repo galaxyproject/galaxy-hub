@@ -1,6 +1,7 @@
 ---
 title: "August 30 2011 Distribution & News Brief"
 date: "2011-08-31"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2011-08-30/)**
 

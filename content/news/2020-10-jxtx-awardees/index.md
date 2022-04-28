@@ -3,6 +3,7 @@ title: "JXTX Foundation Awards First Ten Scholarships"
 tease: "Awardees will be attending Biological Data Science 2020"
 external_url: ""
 date: "2020-10-23"
+subsites: [global, us]
 ---
 
 

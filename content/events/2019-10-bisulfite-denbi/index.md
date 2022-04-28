@@ -10,4 +10,5 @@ image: /images/logos/deNBILogo.png
 external_url: "https://www.denbi.de/training/663-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing"
 contact: "destair [at] leibniz-fli.de"
 gtn: true
+subsites: [global, us]
 ---

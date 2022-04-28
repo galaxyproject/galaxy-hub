@@ -11,4 +11,5 @@ external_url: "http://www.ics-mci.fr/media/news/docs/21st_c-hpp_program_abstract
 gtn: false
 contact: "Yves Vandenbrouck"
 image: 
+subsites: [global, us]
 ---

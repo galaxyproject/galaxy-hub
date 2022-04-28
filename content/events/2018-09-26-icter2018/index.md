@@ -10,4 +10,5 @@ external_url: "http://www.icter.org/conference/workshops/"
 image: 
 gtn: false
 contact: "Nuwan Goonasekera, Simon Gladman"
+subsites: [global, us]
 ---

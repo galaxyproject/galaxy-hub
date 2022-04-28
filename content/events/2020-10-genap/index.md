@@ -18,4 +18,5 @@ links:
   - text: "Slides: Single-Cell tools in Galaxy"
     url: "https://genap.ca/static/subsections/help/tutorials/2020-10-15_GenAP_Single-cell_Workshop__Tools_in_Galaxy.pdf"
 image: 
+subsites: [global, us]
 ---

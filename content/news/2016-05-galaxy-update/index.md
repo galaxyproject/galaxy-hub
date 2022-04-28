@@ -1,6 +1,7 @@
 ---
 title: "May 2016 Galactic News"
 date: "2016-04-29"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2016-05/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />

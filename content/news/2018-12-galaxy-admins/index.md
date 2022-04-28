@@ -2,6 +2,7 @@
 title: "GalaxyAdmins is returning to a device near you"
 tease: "And we want your ideas"
 date: '2018-12-10'
+subsites: [global, us]
 ---
 [<img class="img-fluid mx-auto float-right" src="/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 

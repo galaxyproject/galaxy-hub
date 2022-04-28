@@ -8,4 +8,5 @@ location: 'SIB Metabolomics Course: from data to publication, University of Laus
 location_url: http://www.sib.swiss/training/upcoming-training-events/2017-06-metabolomics
 external_url: http://www.sib.swiss/training/upcoming-training-events/2017-06-metabolomics
 contact: Yann Guitton
+subsites: [global, us]
 ---

@@ -2,6 +2,7 @@
 title: 'October 2018 Galactic News'
 tease: 'New events, pubs, blog posts, servers, tools and releases (and a Galaxy song too)'
 date: "2018-10-01"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)

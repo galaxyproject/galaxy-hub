@@ -2,6 +2,7 @@
 title: 'Galaxy and Google Summer of Code 2019'
 tease:  "Projects Wanted"
 date: '2018-12-18'
+subsites: [global, us]
 ---
 
 [<img class="img-fluid mx-auto" src="/develop/gsoc/ogi-gsoc-banner.png" alt="Galaxy in GSoC 2019" />](http://gmod.org/wiki/GSoC)

@@ -12,4 +12,5 @@ contact: "Bérénice Batut"
 tags: []
 links:
 image: ""
+subsites: [global, us]
 ---

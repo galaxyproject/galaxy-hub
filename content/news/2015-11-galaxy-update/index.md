@@ -1,6 +1,7 @@
 ---
 title: "November 2015 Galactic News"
 date: "2015-11-02"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2015-11/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=150 /></a><br />

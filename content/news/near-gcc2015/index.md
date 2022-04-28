@@ -1,6 +1,7 @@
 ---
 title: "Events Aplenty Near GCC2015"
 date: "2015-04-08"
+subsites: [global, us]
 ---
 Hello all,
 

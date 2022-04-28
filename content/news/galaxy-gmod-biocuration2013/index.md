@@ -1,6 +1,7 @@
 ---
 title: "Galaxy, GMOD2013 & Biocuration 2013"
 date: "2013-02-19"
+subsites: [global, us]
 ---
 <div class='left'><a href='http://gmod.org'><img src="/images/logos/GMODLogo.png" alt="GMOD Project" width="150" /></a></div>
 

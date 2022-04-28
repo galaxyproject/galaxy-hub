@@ -16,8 +16,8 @@ const {
     repr,
     rmPrefix,
     rmSuffix,
+    getType,
     matchesPrefixes,
-    getSubsiteAncestry,
     subsiteFromPath,
     flattenSubsites,
 } = require("./src/utils.js");
@@ -39,7 +39,7 @@ function categorize(pathParts) {
     //TODO: Allow trailing slashes in category paths.
     let keyParts = pathParts.slice(0, pathParts.length - 2);
     let key = keyParts.join("/");
-    let category = CONFIG["categories"][key];
+    let category = CONFIG.categories[key];
     if (category === undefined) {
         return null;
     } else {
@@ -88,12 +88,12 @@ async function resolveImages(node, args, context, info) {
         }
     }
     if (!imgPath) {
-        console.error(repr`Image not found: ${node.image}`);
+        console.error(node.path + repr`: Image not found: ${node.image}`);
         return {};
     }
     let relImgPathFromContent = path.relative(buildDir, imgPath);
     if (IMAGE_REGISTRY.has(relImgPathFromContent)) {
-        console.log(repr`Image ${relImgPathFromContent} already in asset store.`);
+        console.log(node.path + repr`: Image ${relImgPathFromContent} already in asset store.`);
     }
     let images = addImage(imgPath, args, context);
     if (images) {
@@ -134,6 +134,60 @@ async function addImage(imgPath, args, context) {
     return images;
 }
 
+function getMainSubsite(rawMainSubsite, pagePath) {
+    let mainSubsite = undefined;
+    // Use any (valid) user-defined `main_subsite`.
+    if (rawMainSubsite) {
+        if (SUBSITES_LIST.includes(rawMainSubsite)) {
+            mainSubsite = rawMainSubsite;
+        } else {
+            console.error(pagePath + repr`: main_subsite ${rawMainSubsite} not recognized.`);
+        }
+    }
+    // Otherwise, use any path-derived subsite.
+    if (!mainSubsite) {
+        mainSubsite = subsiteFromPath(pagePath);
+    }
+    return mainSubsite;
+}
+
+function getSubsites(rawSubsites, mainSubsite, pagePath) {
+    let type = getType(rawSubsites);
+    let subsites;
+    if (type === "Array") {
+        subsites = rawSubsites;
+    } else if (type === "String") {
+        // If there's a single subsite, allow authors to forget the enclosing braces (leaving it a String).
+        console.warn(`${pagePath}: Subsite \`${rawSubsites}\` better written as \`["${rawSubsites}"]\``);
+        subsites = [rawSubsites];
+    } else if (rawSubsites) {
+        console.error(`${pagePath}: Invalid type (${type}) for "subsites" key "${repr(rawSubsites)}"`);
+        return [];
+    } else {
+        // For files with no "subsites" key, `node.subsites` will be `undefined`. Translate this to an empty list.
+        subsites = [];
+    }
+    let subsitesSet = new Set();
+    if (mainSubsite) {
+        subsitesSet.add(mainSubsite);
+    }
+    // Add any subsites from the author-written `subsites` yaml key. Translate any shorthands first.
+    for (let subsite of subsites) {
+        let shorthandSubsites = CONFIG.subsites.shorthands[subsite];
+        if (shorthandSubsites) {
+            // It's a shorthand. Add all the subsites it stands for.
+            shorthandSubsites.forEach((translated) => subsitesSet.add(translated));
+        } else if (SUBSITES_LIST.includes(subsite)) {
+            // It's an actual subsite. Just add it to the list.
+            subsitesSet.add(subsite);
+        } else {
+            console.error(pagePath + repr`: Subsite ${subsite} in subsites list not recognized.`);
+        }
+    }
+    // Store the Set of unique subsites to the `subsites` field as an Array.
+    return Array.from(subsitesSet);
+}
+
 class nodeModifier {
     static processNewNode(node, collection, typeName) {
         if (this.collectionProcessors[typeName]) {
@@ -164,29 +218,10 @@ class nodeModifier {
                 node.closed = false;
             }
         }
+        // Assign a main subsite (if any).
+        node.main_subsite = getMainSubsite(node.main_subsite, node.path);
         // Assign subsites.
-        // Ones with no "subsites" key will be `undefined`.
-        let subsitesRaw = node.subsites || [];
-        let subsitesSet = new Set(["root"]);
-        // See if its path is under a particular subsite.
-        node.main_subsite = subsiteFromPath(node.path);
-        if (node.main_subsite) {
-            subsitesRaw.push(node.main_subsite);
-        }
-        // Include all parent subsites. I.e. if one of the subsites is "genouest" and its parent
-        // subsite (defined in config.json) is "eu", add "eu" to the list.
-        for (let subsite of subsitesRaw) {
-            if (subsite === "global") {
-                continue;
-            }
-            let ancestry = getSubsiteAncestry(subsite);
-            if (ancestry === false) {
-                console.error(repr`${subsite} in ${node.path} is not a subsite according to config.json.`);
-            }
-            ancestry.forEach((thisSubsite) => subsitesSet.add(thisSubsite));
-        }
-        // Store the Set of unique subsites to the `subsites` field as an Array.
-        node.subsites = Array.from(subsitesSet);
+        node.subsites = getSubsites(node.subsites, node.main_subsite, node.path);
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
@@ -227,7 +262,7 @@ class nodeModifier {
                 if (insert) {
                     node.inserts.push(store.createReference(insert));
                 } else {
-                    console.error(repr`Failed to find Insert for path ${path} in ${node.path}`);
+                    console.error(node.path + repr`: Failed to find Insert ${path}`);
                 }
             }
             return node;
@@ -268,7 +303,7 @@ module.exports = function (api) {
                 })
             );
         }
-        let collections = articleTypes.concat(Object.keys(CONFIG["collections"]));
+        let collections = articleTypes.concat(Object.keys(CONFIG.collections));
         let schemas = {};
         for (let collection of collections) {
             schemas[collection] = {
@@ -291,14 +326,8 @@ module.exports = function (api) {
 
     // Programmatically generate repetitive pages.
     // Tagged subsets of events.
-    const taggedEventsPages = [
-        { tag: "webinar", path: "/events/webinars/" },
-        { tag: "devroundtable", path: "/community/devroundtable/" },
-        { tag: "cofest", path: "/events/cofests/" },
-        { tag: "papercuts", path: "/events/cofests/papercuts/" },
-    ];
     api.createPages(({ createPage }) => {
-        for (let page of taggedEventsPages) {
+        for (let page of CONFIG.taggedEventsPages) {
             createPage({
                 path: page.path,
                 component: "./src/components/pages/TaggedEvents.vue",
@@ -319,7 +348,7 @@ module.exports = function (api) {
         ]) {
             for (let subsite of SUBSITES_LIST) {
                 let prefix;
-                if (subsite === "root") {
+                if (subsite === "global") {
                     prefix = "";
                 } else {
                     prefix = `/${subsite}`;

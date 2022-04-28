@@ -10,4 +10,5 @@ location_url: ""
 image: /images/logos/faes.png
 gtn: false
 contact: registrar@faes.org
+subsites: [global, us]
 ---

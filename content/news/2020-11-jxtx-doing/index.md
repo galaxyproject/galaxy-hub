@@ -3,6 +3,7 @@ title: "Georgia Doing on the JXTX Foundation: Funding + Community"
 tease: "This award that came with not only financial support, but an entire community."
 external_url: ""
 date: "2020-11-30"
+subsites: [global, us]
 ---
 
 The [JXTX Foundation's](/jxtx/foundation/) first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/news/2020-10-jxtx-awardees/) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.

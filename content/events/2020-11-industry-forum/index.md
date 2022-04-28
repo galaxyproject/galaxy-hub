@@ -10,4 +10,5 @@ external_url: "https://www.denbi.de/events/977-online-jahrestagung-des-de-nbi-in
 gtn: false
 contact: "Björn Grüning"
 image: 
+subsites: [global, us]
 ---

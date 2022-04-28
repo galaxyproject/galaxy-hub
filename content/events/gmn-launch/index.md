@@ -8,6 +8,7 @@ location: 'Online, Global'
 image: "/images/events/gmn-poster.jpg"
 contact: Community
 tags: [ gmn, launch ]
+subsites: [global, us]
 ---
 
 ## Background:

@@ -10,6 +10,7 @@ external_url:
 contact: Anton Nekrutenko
 image: /images/logos/ben_gurion_logo.png
 gtn: true
+subsites: [global, us]
 ---
 
 **An [EGM](http://in.bgu.ac.il/en/egm/Pages/default.aspx) annual workshop**

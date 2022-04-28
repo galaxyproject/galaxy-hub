@@ -1,6 +1,7 @@
 ---
 title: "Galaxy is Still Hiring!"
 date: "2012-02-29"
+subsites: [global, us]
 ---
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, [is hiring](/galaxy-is-hiring/).
 

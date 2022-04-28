@@ -19,9 +19,16 @@
         },
         "copyFileExts": ["png", "jpg", "jpeg", "gif", "svg", "pdf"]
     },
+    "taggedEventsPages": [
+        { "tag": "webinar", "path": "/events/webinars/" },
+        { "tag": "devroundtable", "path": "/community/devroundtable/" },
+        { "tag": "cofest", "path": "/events/cofests/" },
+        { "tag": "papercuts", "path": "/events/cofests/papercuts/" },
+        { "tag": "community-call", "path": "/community/community-calls/" }
+    ],
     "subsites": {
         "hierarchy": {
-            "root": {
+            "global": {
                 "us": {},
                 "eu": {
                     "freiburg": {},
@@ -34,8 +41,16 @@
                 }
             }
         },
+        "shorthands": {
+            "all": [
+                "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu", "us", "global"
+            ],
+            "all-eu": [
+                "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu"
+            ]
+        },
         "metadata": {
-            "root": {
+            "global": {
                 "name": "Global",
                 "order": 0
             },

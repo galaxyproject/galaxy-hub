@@ -3,6 +3,7 @@ title: 'Galaxy Release 17.05'
 tease: Propagating hashtags, Drag & Drop datasets, Upload directly to a collection,...
 
 date: '2017-05-24'
+subsites: [global, us]
 ---
 Dear Galaxy Fans,
 

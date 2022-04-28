@@ -11,4 +11,5 @@ image:
 gtn: true
 contact: Organizers
 tags: [ cofest ]
+subsites: [global, us]
 ---

@@ -2,6 +2,7 @@
 title: 'GCC2021 Call for BoFs'
 tease: 'Birds of feather flock together at GCC'
 date: "2021-06-14"
+subsites: [global, us]
 ---
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 16rem" /></a>

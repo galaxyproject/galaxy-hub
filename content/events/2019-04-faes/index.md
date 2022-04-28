@@ -9,4 +9,5 @@ external_url: https://faes.org/content/advanced-studies-bioinformatics-and-data-
 image: /images/logos/faes.png
 gtn: true
 contact: Mo Heydarian
+subsites: [global, us]
 ---

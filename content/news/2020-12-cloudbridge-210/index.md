@@ -2,6 +2,7 @@
 title: 'CloudBridge Release 2.1.0'
 tease: New services and improved robustness
 date: '2020-12-01'
+subsites: [global, us]
 ---
 
 We are happy to announce the release of [CloudBridge library version 2.1.0](https://pypi.org/project/cloudbridge/).

@@ -4,7 +4,7 @@ date: '2022-03-23'
 days: 1
 tease: "6-hour course on Genome Sequencing"
 continent: NA
-location: "Online, Freiburg, Germany"
+location: "Online, US"
 external_url: "https://rockefelleruniversity.github.io/GenomeAssembly/"
 location_url: ""
 gtn: false
@@ -12,5 +12,5 @@ contact: "Bioinformatics Resource Center, Rockefeller University (brc@rockefelle
 tags: []
 links:
 image: ""
-subsites: [us, eu]
+subsites: [global, us]
 ---

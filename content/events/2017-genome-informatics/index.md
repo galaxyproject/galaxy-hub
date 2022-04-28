@@ -10,6 +10,7 @@ external_url:
 gtn: false
 image: /images/logos/CSHLLogo.jpg
 contact: "Presenters"
+subsites: [global, us]
 ---
 
 Galaxy will be featured in talks and posters at the [2017 Genome Informatics](https://meetings.cshl.edu/abstracts.aspx?meet=INFO&year=17) meeting.  Here are the details:

@@ -10,4 +10,5 @@ location_url:  https://www.emblaustralia.org/events-speakers/public-events/game-
 image: /images/logos/GAMeLogo200.png
 gtn: true
 contact: See web site.
+subsites: [global, us]
 ---

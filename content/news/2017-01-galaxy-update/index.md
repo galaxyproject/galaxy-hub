@@ -1,6 +1,7 @@
 ---
 title: 'January 2017 Galactic News'
 date: '2017-01-04'
+subsites: [global, us]
 ---
 <div class='right'>
 <div class='right'><a href='/galaxy-updates/2017-01/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />

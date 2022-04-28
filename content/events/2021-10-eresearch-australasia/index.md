@@ -10,4 +10,5 @@ external_url: "https://conference.eresearch.edu.au/events/galaxy-australia-a-str
 gtn: false
 contact: "Gareth Price, Simon Gladman"
 image: 
+subsites: [global, us]
 ---

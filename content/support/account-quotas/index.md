@@ -27,9 +27,7 @@ Should you have questions after reviewing the options below, this is how to get 
 Working at a different Public Galaxy server? If you question is general, try the Galaxy Help forum. If server specific or account related, that server's home page or directory page usually contains contact and other information concerning account terms, questions, issues, and quota policies: [Galaxy Platform Directory](/use/). If you cannot find the contact information, or are not sure about what the problem is exactly, ask for advice at the Galaxy Help forum or at Gitter. The more context you provide (server URL, problem details), the quicker our community will be able to assist you.
 
 
-## Does your account usage quota seem incorrect?
-
-Log out of Galaxy, then back in again. This refreshes the disk usage calculation dislayed in the Masthead usage (summary) and under *User > Preferences* (exact).
+## [Does your account usage quota seem incorrect?](https://training.galaxyproject.org/training-material/faqs/galaxy/user_preferences_account_usage_quota.html)
 
 ## How to log in or out of Galaxy?
 
@@ -50,29 +48,11 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/main/):
 * **Histories in a *deleted* state are still part of your quota usage.**
 * **Histories must be *purged* (permenently deleted) to not count toward quota.**
 
-### Find all Datasets or just review those in the active history and *purge* (aka permenently delete) those not needed
-
-* All account Datasets can be reviewed under **User > Datasets**.
-* Within a History, deleted/permenently deleted Datasets can be reviewed by toggling the *deleted* link at the top of the History panel, found immediately under the History name.
-* Both *active* (shown by default) and *hidden* (the other toggle link, next to the *deleted* link) datasets can be reviewed the same way.
-* Click on the far right "X" to delete a dataset.
-* To permenently delete: use the link from within the dataset, or use the *Operations on Multiple Datasets* functions, or use the *Purge Deleted Datasets* option in the History menu.
-* **Datasets in a *deleted* state are still part of your quota usage.**
-* **Datasets must be *purged* (permenently deleted) to not count toward quota.**
+### [Find all Datasets or just review those in the active history and *purge* (aka permenently delete) those not needed](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_purging_datasets.html)
 
 ### Find Histories that have been shared with you, and unshare those not needed
 
-* All account Histories owned by others, but shared with you, can be reviewed under **User > Histories shared with me**.
-* Review the list. There may be none!
-* Only a small fraction of the data content in "Histories shared with me" are part of your own quota usage, and *unsharing* will not significantly reduce quota usage for most end-users. However, if there are hundreds (or more!), or many large histories shared with you, clearing these up periodically (*unsharing*) could be worth it.
-* The other person does not need to *unshare* a history for you. *Unshare histories yourself* on this page using the pull-down menu per-history.
-* **View** is a review feature. The data cannot be worked with but many details, including tool and dataset metadata/parameters are included.
-* **Copy** those you want to work with. This will *increase your quota usage* since that history copy is now one of your histories, but that will also allow you manipulate the datasets or the history itself, independently from the original owner. All History/Dataset functions are available if the other person granted full access to the datasets to you. Dataset sharing is a distinct option on the *Share or Publish* form. Only the original History owner can set the level of sharing (History only, or also Datasets). If you need Dataset access and it wasn't granted, you might need to ask the other person to *reshare* with the box for "Also make all objects within the History accessible." checked. The other person can toggle sharing to "off" for review/changes, then toggled back to "on" after.
-* **Unshare** any on the list not needed anymore. After a history is copied, you will still have your own version of the history, even if later unshared or the other person who shared it with you makes changes to their own version of the history later on. Meaning, each account's version of a History, and the Datasets in it, are distinct (unless the Datasets were not shared -- then you will still only be able to "view" Datasets, but not work with or download them).
-* Dataset and History privacy options, including sharing, can be set under **User > Preferences**. The automatic default is that none of your account data is shared. You must actively choose to share your work -- both the privacy level AND how -- for any Galaxy Object (Dataset, History, Workflow, Visualization).  
-* **A small fraction of space from "Histories shared with me" in a *shared* state are still part of your quota usage.**
-* **Shared Histories must be *unshared* to not count toward quota usage.**
-* If you *share* a History with someone else, that does not increase OR decrease *your* own quota usage.
+To know more about unsharing unwanted histories, follow [this FAQ](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_unsharing_histories.html). 
 
 ### Reduce quota usage while still retaining prior work (data, tools, methods)
 

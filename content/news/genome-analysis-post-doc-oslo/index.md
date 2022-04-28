@@ -1,6 +1,7 @@
 ---
 title: "Genome analysis PostDoc in Oslo"
 date: "2015-01-06"
+subsites: [global, us]
 ---
 [A postdoc position](http://uio.easycruit.com/vacancy/1309717/64290?iso=no) is available in Oslo (Norway) on the development of statistics/machine learning-based genome analysis methodology integrated with the Galaxy platform. The aim is to pioneer the development of sophisticated and streamlined software systems for broad use cases within integrative genomics, where the specification is deliberately somewhat broad in order to allow the visions of candidates to influence the exact direction.
 

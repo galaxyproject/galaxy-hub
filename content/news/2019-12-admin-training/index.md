@@ -3,6 +3,7 @@ title: "Register now for 2020 Galaxy Admin Training"
 tease: "Learn the ins and outs of setting up your own production quality Galaxy server."
 external_url:
 date: "2019-12-19"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 18rem;" src="/events/2020-03-admin/2020-admin-rect.png" />](/events/2020-03-admin/)

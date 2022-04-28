@@ -1,6 +1,7 @@
 ---
 title: "Oct 23, 2012 Distribution & News Brief"
 date: "2012-10-24"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-10-23/)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" width="400" /></a></div>

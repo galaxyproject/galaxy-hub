@@ -2,6 +2,7 @@
 title: 'Galaxy Project @ Johns Hopkins is hiring'
 tease: 'Software engineers and post-docs'
 date: '2017-08-10'
+subsites: [global, us]
 ---
 <div class="center">
 <a href="/galaxy-is-hiring/"><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Galaxy Project hiring in the Taylor Lab" width="220" /></a>

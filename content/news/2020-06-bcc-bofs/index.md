@@ -3,6 +3,7 @@ title: "BCC Birds of a Feather Proposals due July 10"
 tease: "Build Community at the Bioinformatics Community Conference"
 external_url: ""
 date: "2020-06-27"
+subsites: [global, us]
 ---
 
 <div class="float-right">

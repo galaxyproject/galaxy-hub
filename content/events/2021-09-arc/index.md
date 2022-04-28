@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://galaxyproject.eu/event/2021-08-26-hackathon-fdo/"
 gtn: false
 contact: "dataplant /@/ uni-kl.de"
+subsites: [global, us]
 ---

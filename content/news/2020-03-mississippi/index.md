@@ -3,6 +3,7 @@ title: 'Mississippi is dead! Long live Mississippi!'
 tease: "Everything old is new again"
 external_url: ""
 date: "2020-03-10"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/use/mississippi/mississippi-logo.png" alt="Mississippi" />](https://mississippi.sorbonne-universite.fr/)

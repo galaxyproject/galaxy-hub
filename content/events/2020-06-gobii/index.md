@@ -10,4 +10,5 @@ external_url: "https://www.wheatinitiative.org/events-meetings-and-workshops/tra
 gtn: false
 contact: "Organisers"
 image: 
+subsites: [global, us]
 ---

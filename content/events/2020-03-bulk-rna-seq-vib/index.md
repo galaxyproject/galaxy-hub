@@ -10,4 +10,5 @@ external_url: "https://training.vib.be/bulk-rnaseq-galaxy-reads-counts"
 gtn: true
 contact: "Lieven Sterck, Tuur Muyldermans"
 image: 
+subsites: [global, us]
 ---

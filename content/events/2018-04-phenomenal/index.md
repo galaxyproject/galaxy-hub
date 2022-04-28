@@ -10,5 +10,6 @@ image:
 external_url: https://www.ebi.ac.uk/training/events/2018/statistical-workflows-phenomenal?platform=hootsuite
 contact: "Etienne Thévenot"
 gtn: false
+subsites: [global, us]
 ---
 

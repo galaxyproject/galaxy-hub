@@ -10,4 +10,5 @@ external_url: "https://mesocentre.uca.fr/actualites/formation-2020-initiation-a-
 gtn: true
 contact: "Nadia Goué"
 image: 
+subsites: [global, us]
 ---

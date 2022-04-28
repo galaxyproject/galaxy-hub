@@ -3,6 +3,7 @@ title: "January Papercuts Award winners"
 tease: "And February Papercuts is tomorrow"
 external_url: ""
 date: "2021-02-24"
+subsites: [global, us]
 ---
 
 [<img src="/events/2021-01-papercuts/papercuts-2021-01.png" class="float-left" style="max-width: 12rem;" alt="Papercuts" />](/events/2021-01-papercuts/)

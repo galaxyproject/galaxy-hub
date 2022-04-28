@@ -9,6 +9,7 @@ location_url: "https://project.inria.fr/jobim2017/"
 gtn: false
 contact: "Presenters"
 image: ""
+subsites: [global, us]
 ---
 
 Galaxy was presented at [JOBIM 2017](https://project.inria.fr/jobim2017/), in Lille, France, 3-6 July.

@@ -16,4 +16,5 @@ links:
   url: "https://youtu.be/3NODvP4aDWI"
 - text: "Slides"
   url: "https://www.slideshare.net/CINECAProject/cineca-webinar-slides-practically-fair"
+subsites: [global, us]
 ---

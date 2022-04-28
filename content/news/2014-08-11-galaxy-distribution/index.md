@@ -1,6 +1,7 @@
 ---
 title: "August 11, 2014 Galaxy Distribution"
 date: "2014-08-11"
+subsites: [global, us]
 ---
 <div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
 <div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>

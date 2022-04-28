@@ -9,6 +9,7 @@ location_url: https://www.intlpag.org/2022/
 gtn: true
 contact: Presenters
 image: /images/events/2022-pag/pag-2022-splash.png
+subsites: [global, us]
 ---
 
 Galaxy had a strong presence at [Plant and Animal Genome XXIX (PAG 2022](http://www.intlpag.org/), in San Diego, California, United States, January 8-12. This includes a Galaxy Workshop as well as other talks and posters featuring Galaxy.

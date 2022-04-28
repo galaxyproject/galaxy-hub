@@ -2,6 +2,7 @@
 title: 'Apply for a GCC2018 Fellowship'
 tease: 'Apply soon...'
 date: '2018-02-20'
+subsites: [global, us]
 ---
 [<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" alt='Apply for a GCC2018 travel fellowship' width="160" />](https://gccbosc2018.sched.com/)
 

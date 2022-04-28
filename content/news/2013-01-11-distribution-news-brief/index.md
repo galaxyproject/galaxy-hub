@@ -1,6 +1,7 @@
 ---
 title: "Jan 11, 2013 Distribution & News Brief"
 date: "2013-01-11"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2013-01-11/)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="width=200" /></a></div>

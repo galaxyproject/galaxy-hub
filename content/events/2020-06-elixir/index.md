@@ -10,4 +10,5 @@ external_url: "https://docs.google.com/document/d/1Y1Etfprc9FJaYxc02Xml8b4fbBxHV
 gtn: false
 contact: "Frederik Coppens, Björn Grüning and Gildas Le Corguillé"
 image: 
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "GAW2014 Conference Report"
 date: "2014-04-09"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/events/gaw2014/'><img src="/images/logos/GAW2014-200.png" alt="Galaxy Australasia Workshop 2014" width="150" /></a> <a href='http://csiro.au/'><img src="/images/logos/CSIROLogoBig.png" alt="CSIRO" width="75" /></a></div>

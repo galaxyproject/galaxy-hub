@@ -1,6 +1,7 @@
 ---
 title: "November 2011 Galaxy Events"
 date: "2011-10-31"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='http://meetings.cshl.edu/courses.html'><img src="/images/logos/CSHL_Logo75x75.gif" alt="CSHL Courses" height="70" /></a>&nbsp;<a href='http://www.intlpag.org/'><img src="/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2012)" height="75" /></a>&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src="/images/logos/nowgenLogo180.png" alt="Reproducible workflows for next generation sequencing analysis" /></a>

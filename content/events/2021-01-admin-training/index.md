@@ -10,6 +10,7 @@ external_url:
 gtn: true
 contact: Instructors
 image: "/images/galaxy-logos/admin-training-logo.jpg"
+subsites: [global, us]
 ---
 
 **The next [Galaxy Admin Training](https://github.com/galaxyproject/admin-training) will be offered online and asynchronously January 25-29.**

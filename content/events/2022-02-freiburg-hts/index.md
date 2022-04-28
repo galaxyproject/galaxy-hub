@@ -8,4 +8,5 @@ location: "University of Freiburg, Online"
 external_url: "https://galaxyproject.eu/event/2021-12-23-GalaxyWS_SFB/"
 gtn: true
 contact: "Pavankumar Videm"
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Oct 5, 2012 Distribution & News Brief"
 date: "2012-10-06"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-10-05/)**
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>

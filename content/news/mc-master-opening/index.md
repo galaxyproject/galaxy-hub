@@ -1,6 +1,7 @@
 ---
 title: "Opening at McMaster University"
 date: "2014-12-05"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://bit.ly/11WryeP'><img src="/images/logos/McMasterULogo.jpg" alt="Systems Administrator / Information Technologist" width="200" /></a></div>
 

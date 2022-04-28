@@ -10,5 +10,6 @@ external_url: http://bioinfo.genotoul.fr/index.php/events/galaxy-initiation-rnas
 image:
 gtn: true
 contact: Instructors
+subsites: [global, us]
 ---
 

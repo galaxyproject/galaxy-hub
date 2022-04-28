@@ -10,4 +10,5 @@ external_url: "http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material
 image: 
 gtn: false
 contact: "training @ earlham . ac.uk"
+subsites: [global, us]
 ---

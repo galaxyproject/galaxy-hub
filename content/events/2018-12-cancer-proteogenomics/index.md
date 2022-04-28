@@ -10,6 +10,7 @@ location_url: "http://www.bio.iitb.ac.in/~sanjeeva/cpg2018/"
 external_url: "http://z.umn.edu/mumbaidocs"
 contact: "Pratik Jagtap"
 gtn: true
+subsites: [global, us]
 ---
 
 Documents:

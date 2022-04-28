@@ -1,6 +1,7 @@
 ---
 title: "April 2012 Galaxy Update"
 date: "2012-04-02"
+subsites: [global, us]
 ---
 <div class='right'><a href='/galaxy-updates/2012-04/'><img src="/images/logos/GalaxyUpdate200.png" alt="April 2012 Galaxy Update" width=150 /></a></div>
 

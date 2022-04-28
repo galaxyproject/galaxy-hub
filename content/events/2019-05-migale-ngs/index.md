@@ -10,4 +10,5 @@ location_url: "http://migale.jouy.inra.fr/?q=formations"
 external_url: "http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2019/module17-avril.pdf"
 gtn: true
 contact: "Véronique Martin"
+subsites: [global, us]
 ---

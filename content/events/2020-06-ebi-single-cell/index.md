@@ -10,4 +10,5 @@ external_url: "https://www.ebi.ac.uk/training/events/2020/starting-single-cell-r
 gtn: false
 contact: "Meredith Willmott"
 image: 
+subsites: [global, us]
 ---

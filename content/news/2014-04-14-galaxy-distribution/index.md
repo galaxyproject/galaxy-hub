@@ -1,6 +1,7 @@
 ---
 title: "April 14, 2014 Galaxy Distribution"
 date: "2014-04-14"
+subsites: [global, us]
 ---
 <div class='right'>
 <table>

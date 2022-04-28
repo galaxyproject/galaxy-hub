@@ -15,4 +15,5 @@ links:
     url: "https://www.iwbdaconf.org/2020/docs/IWBDA2020Proceedings.pdf#page=25"
   - text: Video
     url: "https://drive.google.com/file/d/1aTrUJvdExaVR8KHcKJzTQpPPzNlcBSx7/view?usp=sharing"
+subsites: [global, us]
 ---

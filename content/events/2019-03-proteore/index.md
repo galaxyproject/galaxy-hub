@@ -10,4 +10,5 @@ external_url: "https://www.france-bioinformatique.fr/fr/evenements/3586"
 gtn: false
 contact: "Yves Vandenbrouck"
 image: 
+subsites: [global, us]
 ---

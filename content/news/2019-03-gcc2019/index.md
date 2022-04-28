@@ -2,6 +2,7 @@
 title: "GCC2019 Registration & Abstract Submission are Open"
 tease: "Early registration ends 17 May"
 date: "2019-03-19"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)

@@ -11,6 +11,7 @@ external_url:
 contact: "Bérénice Batut"
 gtn: false
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>

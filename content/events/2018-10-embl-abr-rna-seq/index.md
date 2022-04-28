@@ -10,4 +10,5 @@ location_url:
 external_url: https://www.eventbrite.com.au/o/embl-abr-10948923698
 contact: ""
 gtn: true
+subsites: [global, us]
 ---

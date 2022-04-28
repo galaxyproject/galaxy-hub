@@ -9,5 +9,6 @@ external_url: "https://qfab.org/training#NGS_Workshops"
 contact: 'training@qfab.org'
 image: "/images/logos/QFABLogo.png"
 gtn: true
+subsites: [global, us]
 ---
 

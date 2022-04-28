@@ -10,4 +10,5 @@ external_url: "https://www.ics.forth.gr/index_main.php?l=e&n=4&id=531"
 image:
 gtn: false
 contact: "Alexandros Kanterakis, Vangelis Kritsotakis"
+subsites: [global, us]
 ---

@@ -8,4 +8,5 @@ location: "Australian BioCommons, Online, Australia"
 location_url: "https://www.biocommons.org.au/"
 external_url: "https://www.biocommons.org.au/events/galaxy-proteomics-community"
 contact: "johan@biocommons.org.au"
+subsites: [global, us]
 ---

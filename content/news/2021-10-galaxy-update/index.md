@@ -2,6 +2,7 @@
 title: 'October 2021 Galactic News'
 tease: "It's all good."
 date: "2021-10-11"
+subsites: [global, us]
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>

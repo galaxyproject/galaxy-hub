@@ -10,5 +10,6 @@ external_url: "https://www.biosciencesco.fr/formations/bio-informatique/analyse-
 contact: 'C. Oger, G. Perrière'
 image: ""
 gtn: false
+subsites: [global, us]
 ---
 

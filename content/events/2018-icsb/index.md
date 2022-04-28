@@ -10,6 +10,7 @@ external_url: ""
 image: "/events/2018-icsb/logo_icsb_2018.jpg"
 gtn: False
 contact: " Sheng-Yao Su, Blandine Comte"
+subsites: [global, us]
 ---
 
 Galaxy is used in systems biology and was included in several presentations at [ISCB 2018](http://icsb2018-france.com/):

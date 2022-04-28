@@ -9,5 +9,6 @@ location_url:
 external_url: "https://galaxy-carpentries.github.io/gallantries/event/2019-08-27-second-gallantries-workshop/"
 contact: 'Berenice Bbatut'
 gtn: true
+subsites: [global, us]
 ---
 

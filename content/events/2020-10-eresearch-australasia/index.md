@@ -10,6 +10,7 @@ external_url:
 gtn: true
 contact: "Simon Gladman, Gareth Price, Idris Sulaiman, Nuwan Goonasekara, Derek Benson"
 image: "eresearch-australasia-logo.png"
+subsites: [global, us]
 ---
 
 ## Galaxy @ eResearch Australasia 2020

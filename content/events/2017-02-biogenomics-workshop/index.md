@@ -10,5 +10,6 @@ external_url: https://gigaworkshops.eventbrite.com/
 gtn: true
 image: giga.jpg
 contact: Mallory Freeberg, Mo Heydarian
+subsites: [global, us]
 ---
 The Galaxy workshop will will introduce genomic data analysis with a differential expression example, using RNA-Seq data and the Galaxy Platform.

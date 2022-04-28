@@ -1,6 +1,7 @@
 ---
 title: "ISMB2011 Slides"
 date: "2011-07-29"
+subsites: [global, us]
 ---
 
 <div class='right'>

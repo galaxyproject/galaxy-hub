@@ -1,8 +1,18 @@
 <template>
     <Layout>
-        <h1 class="page-title">{{ $page.main.title }}</h1>
-        <div class="markdown" v-html="$page.main.content" />
-        <h2 id="upcoming-events">Upcoming {{ $page.main.noun }}s</h2>
+        <h1 class="page-title">
+            <template v-if="$page.main && $page.main.title">
+                {{ $page.main.title }}
+            </template>
+            <template v-else>
+                Events tagged <code>{{ $context.tag }}</code>
+            </template>
+        </h1>
+        <div class="markdown" v-if="$page.main && $page.main.content" v-html="$page.main.content" />
+        <h2 id="upcoming-events">
+            <template v-if="$page.main && $page.main.noun">Upcoming {{ $page.main.noun }}s</template>
+            <template v-else>Upcoming events</template>
+        </h2>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -16,7 +26,10 @@
                 <ArticleTableEvents v-for="edge in $page.upcoming.edges" :key="edge.node.id" :article="edge.node" />
             </tbody>
         </table>
-        <h2 id="recent-events">Recent {{ $page.main.noun }}s</h2>
+        <h2 id="recent-events">
+            <template v-if="$page.main && $page.main.noun">Recent {{ $page.main.noun }}s</template>
+            <template v-else>Recent events</template>
+        </h2>
         <p>Events in the past 12 months:</p>
         <table class="table table-striped">
             <thead>

@@ -2,6 +2,7 @@
 title: 'May 2020 Galactic News'
 tease: "James Taylor, BCC2020, COVID-19 Response, and more"
 date: "2020-05-04"
+subsites: [global, us]
 ---
 
 ---

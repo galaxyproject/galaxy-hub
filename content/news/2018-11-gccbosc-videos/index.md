@@ -2,6 +2,7 @@
 title: "GCCBOSC 2018 Videos are Online"
 tease: "Missed it? Now you can watch all 70+ talks from GCCBOSC 2018."
 date: '2018-11-14'
+subsites: [global, us]
 ---
 
 **We are pleased to announce that videos from [GCCBOSC 2018](https://gccbosc2018.sched.com/) are now available online** and are linked to from the [conference web site](https://gccbosc2018.sched.com/).  Talks from the GCC parts of the meeting are available on a **[Galaxy Vimeo channel](https://vimeo.com/channels/gccbosc2018)**, and talks from the BOSC parts are available on a **[BOSC YouTube channel](https://www.youtube.com/playlist?list=PLir-OOQiOhXaHvCY_KYshsOMULuXDqvh7)** (and joint keynotes are available on both).

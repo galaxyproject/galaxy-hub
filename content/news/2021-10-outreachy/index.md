@@ -3,6 +3,7 @@ title: "Galaxy Participating in the December 2021 Outreachy Internship Cohort"
 tease: "Galaxy Community accepted into Outreachy; 2 project proposals open"
 external_url: ""
 date: "2021-10-07"
+subsites: [global, us]
 ---
 
 <div class="float-right" style="max-width: 16rem;">

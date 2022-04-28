@@ -10,4 +10,5 @@ external_url: "http://tripal.info/events/codefest_2021"
 gtn: false
 contact: "Organizers"
 image: 
+subsites: [global, us]
 ---

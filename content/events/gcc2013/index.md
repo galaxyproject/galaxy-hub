@@ -12,6 +12,7 @@ contact: Organisers
 image: /images/logos/GCC2013Logo400.png
 autotoc: false
 components: true
+subsites: [global, us]
 ---
 
 **[Watch the talks](https://vimeo.com/channels/581875)!  [See you at GCC2018](https://gccbosc2018.sched.com/)!**

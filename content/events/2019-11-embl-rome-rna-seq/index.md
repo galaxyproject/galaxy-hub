@@ -10,5 +10,6 @@ external_url: "https://romebioinfo.embl-community.io/romebioinfo.embl-community.
 contact: 'Nicholas Descostes'
 image: ""
 gtn: false
+subsites: [global, us]
 ---
 

@@ -10,6 +10,7 @@ external_url: ""
 gtn: true
 contact: "Yvan Le Bras"
 image: sortee-logo.png
+subsites: [global, us]
 ---
 
 [SORTEE 2021](https://www.sortee.org/events/) brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. The conference will feature social events, 'unconference' discussions, hackathons, workshops, short presentations, and six plenary presentations.

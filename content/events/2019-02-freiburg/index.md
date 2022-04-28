@@ -10,4 +10,5 @@ external_url: "https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-F
 image:
 gtn: true
 contact: "contact at usegalaxy.eu"
+subsites: [global, us]
 ---
