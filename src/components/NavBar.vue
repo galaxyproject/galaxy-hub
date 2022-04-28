@@ -6,8 +6,11 @@
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
+                <b-navbar-brand id="subsite-name" :to="`${pathPrefix}/`">
+                    <p>{{ subsiteName }}</p>
+                </b-navbar-brand>
                 <b-navbar-nav id="subsite-items">
-                    <b-nav-item-dropdown id="subsite-name" v-if="subsiteName" :text="subsiteName">
+                    <b-nav-item-dropdown id="subsite-select" v-if="subsiteName" text="Regions">
                         <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
                             {{ link.name }}
                         </b-dropdown-item>
@@ -44,7 +47,7 @@
                     <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                     <b-nav-item to="/projects/covid19/">Covid19</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
-                    <b-nav-form class="search" action="/search/" method="get">
+                    <b-nav-form id="search" action="/search/" method="get">
                         <b-form-input
                             id="search-input"
                             size="sm"
@@ -167,7 +170,7 @@ function getPath(page) {
     align-items: center;
     margin-right: 10px;
 }
-#subsite-name > a.dropdown-toggle {
+#subsite-name > p {
     line-height: 100%;
     white-space: normal;
     font-size: 1.1rem;
@@ -175,7 +178,7 @@ function getPath(page) {
     margin: 0;
     padding: 0;
 }
-.search {
+#search {
     margin-left: 10px;
 }
 </style>
