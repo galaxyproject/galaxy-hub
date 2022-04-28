@@ -47,14 +47,10 @@
                     <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                     <b-nav-item to="/projects/covid19/">Covid19</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
+                </b-navbar-nav>
+                <b-navbar-nav id="global-tools" class="ml-2">
                     <b-nav-form id="search" action="/search/" method="get">
-                        <b-form-input
-                            id="search-input"
-                            size="sm"
-                            class="mr-sm-1"
-                            name="q"
-                            placeholder="Search"
-                        ></b-form-input>
+                        <b-form-input id="search-input" size="sm" name="q" placeholder="Search"></b-form-input>
                     </b-nav-form>
                     <b-nav-item :href="editUrl">
                         <i class="fab fa-lg fa-github"></i>
@@ -178,7 +174,7 @@ function getPath(page) {
     margin: 0;
     padding: 0;
 }
-#search {
-    margin-left: 10px;
+#search-input {
+    width: 175px;
 }
 </style>
