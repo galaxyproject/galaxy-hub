@@ -355,15 +355,21 @@ module.exports = function (api) {
                 prefix = `/${subsite}`;
             }
             for (let [vueName, path] of [
+                ["SubsiteHome", "/"],
                 ["Events", "/events/"],
                 ["News", "/news/"],
             ]) {
+                if (subsite === ROOT_SUBSITE && path === "/") {
+                    // The site-wide homepage is manually written, not auto-generated.
+                    continue;
+                }
                 createPage({
                     path: `${prefix}${path}`,
                     component: `./src/components/pages/${vueName}.vue`,
                     context: {
                         subsite: subsite,
                         mainPath: `/insert:${prefix}${path}main/`,
+                        jumboPath: `/insert:${prefix}${path}jumbotron/`,
                         footerPath: `/insert:${prefix}${path}footer/`,
                     },
                 });
