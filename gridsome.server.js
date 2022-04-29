@@ -20,9 +20,14 @@ const {
     matchesPrefixes,
     subsiteFromPath,
     flattenSubsites,
+    getSingleKey
 } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 const SUBSITES_LIST = flattenSubsites(CONFIG.subsites.hierarchy);
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
+if (! ROOT_SUBSITE) {
+    console.error('Error: Subsites hierarchy in config.json must have a single root subsite.');
+}
 
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
@@ -342,17 +347,17 @@ module.exports = function (api) {
     // Pages repeated across every subsite.
     api.createPages(({ createPage }) => {
         // Using the Pages API: https://gridsome.org/docs/pages-api/
-        for (let [vueName, path] of [
-            ["Events", "/events/"],
-            ["News", "/news/"],
-        ]) {
-            for (let subsite of SUBSITES_LIST) {
-                let prefix;
-                if (subsite === "global") {
-                    prefix = "";
-                } else {
-                    prefix = `/${subsite}`;
-                }
+        for (let subsite of SUBSITES_LIST) {
+            let prefix;
+            if (subsite === ROOT_SUBSITE) {
+                prefix = "";
+            } else {
+                prefix = `/${subsite}`;
+            }
+            for (let [vueName, path] of [
+                ["Events", "/events/"],
+                ["News", "/news/"],
+            ]) {
                 createPage({
                     path: `${prefix}${path}`,
                     component: `./src/components/pages/${vueName}.vue`,

@@ -6,7 +6,7 @@
             </b-navbar-brand>
             <b-navbar-brand
                 class="subsite-name"
-                v-if="subsite && subsite !== 'global'"
+                v-if="subsite && subsite !== rootSubsite"
                 :to="`${pathPrefix}/`"
                 v-html="subsiteName"
             />
@@ -65,17 +65,23 @@
 </template>
 
 <script>
-import { rmPrefix } from "~/utils.js";
+import { rmPrefix, getSingleKey } from "~/utils.js";
 import CONFIG from "~/../config.json";
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
     props: {
         subsite: { type: String, required: false, default: null },
     },
+    data() {
+        return {
+            rootSubsite: ROOT_SUBSITE
+        }
+    },
     computed: {
         pathPrefix() {
-            if (!this.subsite || this.subsite === "global") {
+            if (!this.subsite || this.subsite === ROOT_SUBSITE) {
                 return "";
             } else {
                 return `/${this.subsite}`;
