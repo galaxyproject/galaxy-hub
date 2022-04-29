@@ -76,8 +76,8 @@ export default {
     },
     data() {
         return {
-            rootSubsite: ROOT_SUBSITE
-        }
+            rootSubsite: ROOT_SUBSITE,
+        };
     },
     computed: {
         pathPrefix() {

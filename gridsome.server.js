@@ -20,13 +20,13 @@ const {
     matchesPrefixes,
     subsiteFromPath,
     flattenSubsites,
-    getSingleKey
+    getSingleKey,
 } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 const SUBSITES_LIST = flattenSubsites(CONFIG.subsites.hierarchy);
 const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
-if (! ROOT_SUBSITE) {
-    console.error('Error: Subsites hierarchy in config.json must have a single root subsite.');
+if (!ROOT_SUBSITE) {
+    console.error("Error: Subsites hierarchy in config.json must have a single root subsite.");
 }
 
 const COMPILE_DATE = dayjs();

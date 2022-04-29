@@ -123,7 +123,7 @@ export default {
         },
         hasJumbotron() {
             return this.$page.jumbotron && this.$page.jumbotron.content.trim();
-        }
+        },
     },
     mounted() {
         // Insert Twitter feed.
