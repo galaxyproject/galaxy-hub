@@ -8,11 +8,6 @@
         <div class="row">
             <section class="col-sm-5" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
                 <div class="lead markdown" v-html="$page.main.content" />
-                <b-row id="get-started-button" class="justify-content-center">
-                    <b-button class="w-75" size="lg" variant="primary" href="/get-started/">
-                        Get Started: First Steps with Galaxy
-                    </b-button>
-                </b-row>
             </section>
             <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
                 <h3 v-if="$page.jumbotron.title" class="jumbo-title text-center">{{ $page.jumbotron.title }}</h3>
