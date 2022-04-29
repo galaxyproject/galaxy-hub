@@ -1,16 +1,16 @@
 <template>
     <Layout>
-        <header class="header">
+        <header id="header">
             <h1 class="display-4">{{ $page.main.title }}</h1>
             <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
         </header>
 
-        <div class="row">
-            <section class="col-sm-5" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
+        <div id="static-content" class="row">
+            <section :class="hasJumbotron ? 'col-sm-5' : ''">
                 <div class="lead markdown" v-html="$page.main.content" />
             </section>
-            <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
-                <h3 v-if="$page.jumbotron.title" class="jumbo-title text-center">{{ $page.jumbotron.title }}</h3>
+            <section id="jumbotron" class="col-sm-7" v-if="hasJumbotron">
+                <h3 v-if="$page.jumbotron.title" class="title text-center">{{ $page.jumbotron.title }}</h3>
                 <div class="text-center markdown" v-html="$page.jumbotron.content" />
             </section>
         </div>
@@ -121,6 +121,9 @@ export default {
             }
             return latest;
         },
+        hasJumbotron() {
+            return this.$page.jumbotron && this.$page.jumbotron.content.trim();
+        }
     },
     mounted() {
         // Insert Twitter feed.
@@ -135,7 +138,7 @@ export default {
                 fjs.parentNode.insertBefore(js, fjs);
             }
         })(document, "script", "twitter-wjs");
-
+        // Add altmetrics stats badges to publications.
         const altmetricScript = document.createElement("script");
         altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
         document.head.appendChild(altmetricScript);
@@ -256,20 +259,14 @@ fragment articleFields on Article {
 </page-query>
 
 <style scoped>
-.header {
+#header {
     margin-bottom: 2.5rem;
 }
-.jumbotron {
-    padding-top: 0;
-    margin-bottom: 0rem;
+#static-content {
+    margin-bottom: 40px;
 }
-.jumbo-title {
+#jumbotron .title {
     font-weight: bold;
-}
-.jumbo-image {
-    background-color: lightyellow;
-    padding-top: 100px;
-    border: 4px solid black;
 }
 #profiles {
     margin-bottom: 45px;
