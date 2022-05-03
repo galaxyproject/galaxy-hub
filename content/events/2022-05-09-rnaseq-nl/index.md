@@ -6,7 +6,7 @@ tease: "This course covers the basic concepts and methods required for RNA-seq a
 continent: EU
 location: "Hogeschoollaan1, 4818 CR Breda, The Netherlands"
 location_url: 
-external_url:
+external_url: https://www.dtls.nl/courses/rna-seq-data-analysis-2022/
 gtn: false
 contact: "Andrew Stubbs, Miaomiao Zhou"
 links:
