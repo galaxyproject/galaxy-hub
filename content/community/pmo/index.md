@@ -1,6 +1,6 @@
 # Project Management Office
 
-**Keywords:** project management, support, coordination, international opportunities, community
+**Keywords:** Project management, support, coordination, international opportunities, roadmap, coc, well-being, community
 
 The **Galaxy Project Management Office (PMO)** is an entity in the [Galaxy governance structures](/community/governance/), distributed across time zones, that aims at supporting the transition towards the new [governance model](/community/governance/) and its future maintenance, ensuring that all the different structures are functioning as described and in an efficient and coordinated way. Furthermore, the PMO takes care of:
 
