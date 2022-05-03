@@ -38,14 +38,14 @@ function mkPlugins(collections) {
         {
             use: "@gridsome/source-filesystem",
             options: {
-                path: [MD_CONTENT_DIR + "/**/index.md"],
+                path: [`${MD_CONTENT_DIR}/**/index.md`],
                 typeName: "Article",
             },
         },
         {
             use: "@gridsome/source-filesystem",
             options: {
-                path: [MD_CONTENT_DIR + "/**/*.md", "!" + MD_CONTENT_DIR + "/**/index.md"],
+                path: [`${MD_CONTENT_DIR}/**/*.md`, `!${MD_CONTENT_DIR}/**/index.md`],
                 typeName: "Insert",
             },
         },
