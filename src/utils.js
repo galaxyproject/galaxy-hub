@@ -119,6 +119,18 @@ function getImage(imagePath, images) {
 }
 module.exports.getImage = getImage;
 
+/** Return an object's key if and only if it contains a single key.
+ * @param {Object} object
+ * @returns {String}
+ */
+function getSingleKey(object) {
+    let keys = Object.keys(object);
+    if (keys.length === 1) {
+        return keys[0];
+    }
+}
+module.exports.getSingleKey = getSingleKey;
+
 /** Take the value of the `subsites` key in config.json and flatten it into an array.
  * @param {Object} subsitesTree The value of the `subsites` key. Must be a tree of objects where
  *   the value for each key is another object.
