@@ -2,7 +2,8 @@
     "host": "galaxyproject.org",
     "contentDir": "content",
     "collections": {
-        "Platform": "/use/"
+        "Platform": "/use/",
+        "BareArticle": "/bare/"
     },
     "locale": "en-US",
     "categories": {
