@@ -70,7 +70,7 @@ const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
     props: {
-        subsite: { type: String, required: false, default: "global" },
+        subsite: { type: String, required: false, default: ROOT_SUBSITE },
     },
     data() {
         return {
