@@ -1,6 +1,5 @@
 ---
 title: Galaxy Event Horizon
-layout: events_index.pug
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/events.svg" style="width:220px;" alt="events" />
@@ -26,5 +25,3 @@ Some events are part of a series:
 If you know of any event that should be added to this page and/or to the Galaxy
 Event Calendar, please add it to the [GitHub repository](https://github.com/galaxyproject/galaxy-hub) or submit it through this [form](https://docs.google.com/forms/d/e/1FAIpQLSfhuvJ8koTrqUwU27BB269KRCIVutBDN7DrwUBd7WVTmFOB2w/viewform).
 
-<div class='center'>
-</div>

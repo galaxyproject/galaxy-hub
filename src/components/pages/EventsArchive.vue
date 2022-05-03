@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout :subsite="$context.subsite">
         <template v-if="$page.main">
             <h1 class="page-title">{{ $page.main.title }}</h1>
             <div class="markdown" v-html="$page.main.content" />
@@ -36,8 +36,8 @@ export default {
 </script>
 
 <page-query>
-query {
-    main: insert(path: "/insert:/events/archive/main/") {
+query($subsite: String, $mainPath: String, $footerPath: String) {
+    main: insert(path: $mainPath) {
         id
         title
         content
@@ -45,14 +45,15 @@ query {
             path
         }
     }
-    footer: insert(path: "/insert:/events/archive/footer/") {
+    footer: insert(path: $footerPath) {
         id
         title
         content
     }
     events: allArticle(
         sortBy: "date", order: DESC, filter: {
-            category: {eq: "events"}, has_date: {eq: true}, days_ago: {gt: 364}, draft: {ne: true}
+            subsites: {contains: [$subsite]}, category: {eq: "events"},
+            has_date: {eq: true}, days_ago: {gt: 364}, draft: {ne: true}
         }
     ) {
         totalCount

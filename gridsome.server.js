@@ -330,8 +330,9 @@ module.exports = function (api) {
     });
 
     // Programmatically generate repetitive pages.
-    // Tagged subsets of events.
     api.createPages(({ createPage }) => {
+        // Using the Pages API: https://gridsome.org/docs/pages-api/
+        // Tagged subsets of events.
         for (let page of CONFIG.taggedEventsPages) {
             createPage({
                 path: page.path,
@@ -343,10 +344,7 @@ module.exports = function (api) {
                 },
             });
         }
-    });
-    // Pages repeated across every subsite.
-    api.createPages(({ createPage }) => {
-        // Using the Pages API: https://gridsome.org/docs/pages-api/
+        // Pages repeated across every subsite.
         for (let subsite of SUBSITES_LIST) {
             let prefix;
             if (subsite === ROOT_SUBSITE) {
@@ -356,8 +354,9 @@ module.exports = function (api) {
             }
             for (let [vueName, path] of [
                 ["SubsiteHome", "/"],
-                ["Events", "/events/"],
                 ["News", "/news/"],
+                ["Events", "/events/"],
+                ["EventsArchive", "/events/archive/"],
             ]) {
                 if (subsite === ROOT_SUBSITE && path === "/") {
                     // The site-wide homepage is manually written, not auto-generated.
