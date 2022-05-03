@@ -1,6 +1,6 @@
 ---
-title: Welcome to the Galaxy Community Hub
-subtitle: The meeting point where you can find curated documentation for all things Galaxy
+title: Galaxy ELIXIR-FR/IFB
+subtitle: The homepage of the ELIXIR-FR/IFB Galaxy community
 ---
 
 **Galaxy** is an **open-source** platform for **[FAIR](https://www.go-fair.org/fair-principles/) data analysis** that enables users to: 
