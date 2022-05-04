@@ -37,7 +37,7 @@ The options are included under the **User** menu in the top masthead.
 
 If the account usage is showing that quota is exceeded -[over 250 GB](/main/):
 
-### [Find all Histories and *purge* (aka permenently delete) those not needed](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_find_purge.html)
+### [Find all Histories and *purge* (aka permanently delete) those not needed](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_find_purge.html)
 
 
 ### [Find all Datasets or just review those in the active history and *purge* (aka permanently delete) those not needed](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_purging_datasets.html)
