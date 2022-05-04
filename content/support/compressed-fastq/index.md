@@ -15,12 +15,7 @@ Related Topics
 
 A compressed version of a fastq dataset.
 
-### How compressed fastq data loads
-
-Uploaded gz compressed FASTQ data loads in compressed format directly into the History. Tools accept compressed formatted datasets as input.
-
-Why bother? Compressed data saves space in your account. This is a priority for many that have larger sized data/experiments to analyze. As before, some tools accept fastq datatypes (example: prep/QA steps/tools) and others accept fastqsanger datatypes (example: mapping and downstream analysis steps/tools). See the tool form to know which is expected. **When in doubt, use fastqsanger**.
-
+### [How compressed fastq data loads](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_fastq_compressed.html)
 
 ### [Using compressed data as tool inputs](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_Using_compressed_fastq_data.html)
 
