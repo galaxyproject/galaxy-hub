@@ -45,6 +45,8 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 ### [Get Data: EBI-SRA](https://training.galaxyproject.org/training-material/faqs/galaxy/dataupload_EBI-SRA.html)
 
+* [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
+* [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
 
 ### Get Data: Upload tool used with FTP
 
