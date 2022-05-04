@@ -40,20 +40,11 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 * If a `.tar` archive contains multiple datasets, only the first dataset inside the archive will upload.
 * If your compressed data does not load correctly, try loading an uncompressed version.
 
-### Get Data: Upload
+### [Get Data: Upload](https://training.galaxyproject.org/training-material/faqs/gtn/get_data_upload.html)
 
-1. Load by "browsing" for a local file. Best for small [datasets](/learn/managing-datasets). Some servers will support load data that is 2 GB or larger.If you are having problems with this method, try FTP.
-2. Load using an **HTTP URL** or **FTP URL**.
-3. Load a few lines of plain text.
-4. Load using FTP. Either line command or with a desktop client.
 
-### Get Data: EBI-SRA
+### [Get Data: EBI-SRA](https://training.galaxyproject.org/training-material/faqs/galaxy/dataupload_EBI-SRA.html)
 
-* Search for your data directly in the tool and use the Galaxy links
-* There are a few links, so [which data do I load?](/support/ebi-sra-data-load/)
-* Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment.
-* [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
-* [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
 
 ### Get Data: Upload tool used with FTP
 
