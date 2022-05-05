@@ -185,7 +185,9 @@ query {
         title
         content
     }
-    news: allArticle(limit: 5, filter: {category: {eq: "news" }, draft: {ne: true}}) {
+    news: allArticle(
+        limit: 5, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
+    ) {
         totalCount
         edges {
             node {
@@ -195,7 +197,10 @@ query {
     }
     events: allArticle(
         limit: 5, sortBy: "date", order: ASC,
-        filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}}
+        filter: {
+            category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
+            draft: {ne: true}
+        }
     ) {
         totalCount
         edges {
