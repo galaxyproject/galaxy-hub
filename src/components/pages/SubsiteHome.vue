@@ -39,7 +39,7 @@ export default {
         latest() {
             let latest = {};
             for (let category of ["news", "events"]) {
-                latest[category] = this.$page[category].edges.map((edge) => articleToItem(edge.node));
+                latest[category] = this.$page[category].edges.map((edge) => edge.node);
             }
             return latest;
         },
@@ -51,19 +51,6 @@ export default {
         },
     },
 };
-/** Convert an Article to an "item", with the title, link, and tease fields expected by ItemListBrief. */
-function articleToItem(article) {
-    let item = {
-        id: article.id,
-        title: article.title,
-        link: article.external_url || article.path,
-        tease: article.tease || "",
-    };
-    if (article.date) {
-        item.tease = `*${article.date}.* ${item.tease}`;
-    }
-    return item;
-}
 </script>
 
 <page-query>
