@@ -6,11 +6,11 @@
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-brand id="subsite-name" :to="`${pathPrefix}/`">
+                <b-navbar-brand id="subsite-name" v-if="subsite !== 'global'" :to="`${pathPrefix}/`">
                     <p>{{ subsiteName }}</p>
                 </b-navbar-brand>
                 <b-navbar-nav id="subsite-items">
-                    <b-nav-item-dropdown id="subsite-select" v-if="subsiteName" text="Regions">
+                    <b-nav-item-dropdown id="subsite-select" v-if="false && subsiteName" text="Regions">
                         <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
                             {{ link.name }}
                         </b-dropdown-item>
