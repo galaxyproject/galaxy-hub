@@ -1,5 +1,5 @@
 <template>
-    <Layout :subsite="$page.article.main_subsite">
+    <Layout :subsite="$page.article.main_subsite || undefined">
         <ArticleHeader :article="$page.article" />
         <article :class="['content', 'markdown', ...mdClasses]">
             <VueRemarkContent>

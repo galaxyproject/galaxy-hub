@@ -14,12 +14,15 @@
 
 <script>
 import NavBar from "@/components/NavBar";
+import { getSingleKey } from "~/utils.js";
+import CONFIG from "~/../config.json";
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 export default {
     components: {
         NavBar,
     },
     props: {
-        subsite: { type: String, required: false, default: null },
+        subsite: { type: String, required: false, default: ROOT_SUBSITE },
     },
     computed: {
         rootClasses() {

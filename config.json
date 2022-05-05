@@ -51,43 +51,53 @@
         },
         "metadata": {
             "global": {
-                "name": "Global"
+                "name": "Global",
+                "order": 0
             },
             "us": {
                 "name": "US",
-                "color": "#4e7152"
+                "color": "#4e7152",
+                "order": 1
             },
             "eu": {
                 "name": "Europe",
-                "color": "#71684e"
+                "color": "#71684e",
+                "order": 2
             },
             "freiburg": {
-                "name": "Freiburg"
+                "name": "Freiburg",
+                "order": 3
+            },
+            "erasmusmc": {
+                "name": "Erasmus MC",
+                "color": "#f17925",
+                "order": 4
+            },
+            "belgium": {
+                "name": "VIB",
+                "order": 5
             },
             "pasteur": {
                 "name": "Pasteur",
-                "color": "#7591be"
-            },
-            "belgium": {
-                "name": "VIB"
-            },
-            "ifb": {
-                "name": "ELIXIR-FR/IFB",
-                "color": "white",
-                "lightBg": true
+                "color": "#7591be",
+                "order": 6
             },
             "genouest": {
                 "name": "GenOuest",
                 "color": "white",
-                "lightBg": true
-            },
-            "erasmusmc": {
-                "name": "Erasmus MC",
-                "color": "#f17925"
+                "lightBg": true,
+                "order": 7
             },
             "elixir-it": {
                 "name": "ELIXIR-IT/Laniakea",
-                "color": "#2c81bb"
+                "color": "#2c81bb",
+                "order": 8
+            },
+            "ifb": {
+                "name": "ELIXIR-FR/IFB",
+                "color": "white",
+                "lightBg": true,
+                "order": 9
             }
         }
     },
