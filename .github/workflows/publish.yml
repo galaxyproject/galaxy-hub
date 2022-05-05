@@ -1,17 +1,13 @@
 name: Publish Hub
-
 on:
   workflow_dispatch:
   push:
     branches:
       - master
-
 concurrency:
   group: publish-master
-
 env:
   NODE_OPTIONS: --max-old-space-size=4096
-
 jobs:
   publish:
     runs-on: ubuntu-latest
