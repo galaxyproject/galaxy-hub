@@ -21,7 +21,8 @@
                 <h3 v-if="$page.dataPolicy.title" class="title">{{ $page.dataPolicy.title }}</h3>
                 <div class="markdown" v-html="$page.dataPolicy.content" />
             </section>
-            <footer class="footer" v-if="$page.footer" v-html="$page.footer.content" />
+            <section class="footer" v-if="$page.footer" v-html="$page.footer.content" />
+            <footer class="footer" v-if="$page.siteFooter" v-html="$page.siteFooter.content" />
         </main>
     </div>
 </template>
@@ -109,6 +110,11 @@ query {
         content
     }
     footer: insert(path: "/insert:/hosted/usegalaxy-eu/main/footer/") {
+        id
+        title
+        content
+    }
+    siteFooter: insert(path: "/insert:/footers/eu/") {
         id
         title
         content
