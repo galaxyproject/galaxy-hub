@@ -44,6 +44,7 @@ IUC membership evolves over time and helpful community contributors are asked to
 **Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | 2018-07-20 | [@bernt-matthias](https://github.com/bernt-matthias)
 **Wolfgang Maier**, University of Freiburg | 2019-11-04 | [@wm75](https://github.com/wm75)
 **Cristóbal Gallardo**, University of Freiburg | 2021-11-25 | [@gallardoalba](https://github.com/gallardoalba)
+**Peter van Heusden**, South African National Bioinformatics Institute (SANBI) | 2022-05-04 | [@pvanheus](https://github.com/pvanheus)
 
 ### Former members
 
