@@ -6,6 +6,8 @@ title: Chromosome Identifiers in Reference Genomes (and other -omes)
 **[Troubleshooting Help](/support/#troubleshooting)**
 
 
+# [How to correct errors linked to inputs having non-identical chromosome identifiers?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_chromosome_identifiers.html)
+
 ## Find BAM dataset identifiers
 
 Quickly learn what the identifiers are in any **BAM** dataset that is the result from mapping.
