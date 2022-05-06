@@ -35,6 +35,5 @@ Download datasets from Galaxy to your computer by clicking on the "disk icon" wi
 
 ## [Command-line option and Dataset Collections](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_download_using_command_line.html)
 
-```
 
 # [Dataset(s) not downloading at all?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_not_downloading_at_all.html)
