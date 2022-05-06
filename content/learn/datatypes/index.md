@@ -152,7 +152,7 @@ predict pseudoknots. Every entry consists of three lines:
 1. The header line, to provide information about the sequence (e.g. name, free energy).
 2. The sequence line, to provide the sequence of which the structures will be described.
 3. The structure (Dot-Bracket) line, describing the structure of the sequence.
-    * Two nucleotides that form a bond are indicated with encloding
+    * Two nucleotides that form a bond are indicated with enclosing
         parenthesis and dots represent unbound nucleotides.
     * Pseudoknots are indicated with { .. } or [ .. ].
 
@@ -331,7 +331,7 @@ The [UCSC](http://genome.ucsc.edu) Genome Browser `GTF`
 specification: [http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome.ucsc.edu/FAQ/FAQformat.html#format4)
 
 
-**TIP** When using `GTF` datasets in Galaxy, the dataset should not contain any header lines or blank lines. Extra comment lines (usually staring with a #) or blank lines at the start and sometimes internal to the file should be removed before using the data.
+**TIP** When using `GTF` datasets in Galaxy, the dataset should not contain any header lines or blank lines. Extra comment lines (usually starting with a #) or blank lines at the start and sometimes internal to the file should be removed before using the data.
 
 * Remove the headers (lines that start with a "#") with the **Select** tool using the option "NOT Matching" with the regular expression: `^#`
 * Remove blank lines with the **Select** tool using the option "NOT Matching" with the regular expression: `^$`
@@ -341,14 +341,14 @@ specification: [http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome
 ## GFF3
 
 Similar to [GFF](#gff) and [GTF](#gtf) in
-having nine tab-seperated columns of data at the core of file and having a
+having nine tab-separated columns of data at the core of file and having a
 1-based start coordinate. However, `GFF3` format has data that is grouped
 differently between lines (and sets of lines), can be hierarchically ordered,
 and can contain extra content such as [FASTA](#fasta) sequence.
 Seeing the official specification (and online validation tool) for details is
 highly recommended.
 
-**TIP** When using `GFF3` datasets in Galaxy, the dataset must containly **only the single header line and the primary data lines** or tools may error. Extra comment lines (###), repeats, and fasta content is not accepted.
+**TIP** When using `GFF3` datasets in Galaxy, the dataset must contain **only the single header line and the primary data lines** or tools may error. Extra comment lines (###), repeats, and fasta content is not accepted.
 
  > When obtaining reference annotation from the **Ensembl** downloads area, choose the `GTF` annotation for use with Galaxy's tools. Avoid the `GFF3` annotation as it contains this extra content.
 
@@ -365,7 +365,7 @@ The official specification is at
 datasets are available from many sources and can sometimes be created from
 other datatypes.
 
-* How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data)
+* How to source Human, Mouse, and other common genome `GTF` reference annotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data)
 * The public [Main](/main/) Galaxy instance contains tools to examine and
     manipulate [GFF](#gff)/[GTF](#gtf) files
     under the tool group **Filter and Sort**.

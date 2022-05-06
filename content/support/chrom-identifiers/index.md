@@ -22,7 +22,7 @@ Methods described help to identify and correct errors or unexpected results link
 
 A GTF formatted dataset (potentially a "reference annotation dataset"), with Ensembl/UCSC/Other based chromosome identifiers, is to be used with a tool that also makes use of a different sourced reference genome
 
-Or, the reverse may be true, Ensembl/UCSC/Other sourced reference genome and a differnt sourced reference annotation
+Or, the reverse may be true, Ensembl/UCSC/Other sourced reference genome and a different sourced reference annotation
 
 *The underlying genome sequence content is otherwise identical.* If not, see the next section for alternative methods.
 
@@ -57,7 +57,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 **Sequence content is a match but adding "chr" is not enough to obtain an exact identifier match. You want to try to fix the identifiers anyway!!**
 
 1. If the data is in a tabular format (BED, Interval, GTF -- with any headers removed first), and a suitable identifier mapping file can be obtained or created, the tool *Replace column by values which are defined in a convert file* can be used. Note that this will NOT work with BAM, VCF, Wiggle or other structured formats, as these are not tabular formatted data.
-1. Manipuations with tools can often be used to split up a dataset, perform text substitutions and additions, concatinate datasets, and most other common operations one could do with command-line shell tools.
+1. Manipulations with tools can often be used to split up a dataset, perform text substitutions and additions, concatenate datasets, and most other common operations one could do with command-line shell tools.
 1. The dataset could also be downloaded locally to your computer and manipulated there using command-line tools or the text editor of choice.
 
 *Method 6*
@@ -67,7 +67,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 1. Obtain a reference annotation dataset that is a match for the reference genome used
 1. Sometimes the source is the same for both
 1. Sometimes the source is the same, but the content of the reference annotation is not ideal for the tools used
-    - Example: The tool Cuffdiff makes use of specific attributes in the reference annotation (p_id, tss_id, gene_name). If these attributes are not present in the GTF dataset, the resuls will not be fully annotated and some calculations will be skipped
+    - Example: The tool Cuffdiff makes use of specific attributes in the reference annotation (p_id, tss_id, gene_name). If these attributes are not present in the GTF dataset, the results will not be fully annotated and some calculations will be skipped
     - Use the iGenomes version of the reference annotation, as described below
     - Using Cuffdiff and the Gene ID is not present? Check your GTF file - the attribute gene_name is probably missing
 4. Sometimes the source can be **iGenomes**, which does contain the extra specific attributes needed for RNA-seq and certain other operationsar
