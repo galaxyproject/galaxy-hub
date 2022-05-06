@@ -23,7 +23,7 @@ The tracking information associated with Datasets in a History represent an expe
 You have multiple options how to get your files into Galaxy thus making them datasets:
 
 * To know more about fetching data from other servers, refer to [Moving datasets between Galaxy servers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_moving_datasets_between_galaxy_servers.html) FAQ.
-* To know more about uploading files(few), refer to [Upload few files (1-10)](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_upload.html) FAQ.
+* To know more about uploading files (few), refer to [Upload few files (1-10)](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_upload.html) FAQ.
 * To know more about uploading many files (>10), refer to [Upload many files (>10) via FTP](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_upload_ftp.html) FAQ.
 
 # Dataset Icons & Text
