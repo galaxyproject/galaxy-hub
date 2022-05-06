@@ -17,7 +17,7 @@ All sharing is done by selecting 'Share or Publish' from an object's menu list. 
 
 # Sharing with Individual Users
 
-On the form, fine the section titled 'Sharing with Specific Users'. To share with another Galaxy account on the same server, click on the button in this section and enter the email address for the account you wish to directly share with (one or more other accounts, entered individually).
+On the form, find the section titled 'Sharing with Specific Users'. To share with another Galaxy account on the same server, click on the button in this section and enter the email address for the account you wish to directly share with (one or more other accounts, entered individually).
 
 ![Sharing Via Email](/learn/share/sharing-via-email.png)
 
@@ -30,7 +30,7 @@ On the form, find the section titled 'Making  _Item-type_  Accessible via Link a
 
 Sharing items with a _web link_ is especially useful if you don't want to require that the person you're sharing with have a Galaxy account or be logged into Galaxy (when that Galaxy server permits anonymous access). You can change the text of an item's link by clicking on the pencil next to the link and typing in new text.
 
-When you publish an item, it is made accessible via link (if it not already accessible), and the item is listed in that Galaxy server's published items list. For example, [here is the published histories list on the public Galaxy Main https://usegalaxy.org server](https://usegalaxy.org/histories/list_published). Publishing an item enables others to find your object by browsing or searching the Galaxy server's published items list and is a good way to share your data with the broader Galaxy community and encourage others to use it.
+When you publish an item, it is made accessible via link (if it is not already accessible), and the item is listed in that Galaxy server's published items list. For example, [here is the published histories list on the public Galaxy Main https://usegalaxy.org server](https://usegalaxy.org/histories/list_published). Publishing an item enables others to find your object by browsing or searching the Galaxy server's published items list and is a good way to share your data with the broader Galaxy community and encourage others to use it.
 
 Find all Published work on any Galaxy server under the top masthead menu **Shared Data**.
 
