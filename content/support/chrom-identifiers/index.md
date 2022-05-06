@@ -5,9 +5,8 @@ title: Chromosome Identifiers in Reference Genomes (and other -omes)
 **[Back to Support Hub](/support/)**
 **[Troubleshooting Help](/support/#troubleshooting)**
 
-Methods described help to identify and correct errors or unexpected results linked to inputs having non-identical chromosome identifiers and/or different chromosome sequence content.
 
-**If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](/learn/custom-genomes/). Improper formating is the most common root cause of CG related errors.
+# [How to correct errors linked to inputs having non-identical chromosome identifiers?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_chromosome_identifiers.html)
 
 ## [Find BAM dataset identifiers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_BAM_dataset_identifiers.html)
 
@@ -94,14 +93,6 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 1. [Custom Reference Genome help](/learn/custom-genomes/)
 1. Be aware that if the genome is large, this option may result in a memory failure. Try *Method 2* or consider moving to a local or cloud Galaxy where you can control the resources
 
-## A Note on Built-in Reference Genomes
+## [A Note on Built-in Reference Genomes](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_chromosome_identifiers.html)
 
-The default variant for all genomes is "Full", defined as all primary chromosomes (or scaffolds/contigs) including mitochondrial plus associated unmapped, plasmid, and other segments.
-
-When only one version of a genome is available for a tool, it represents the default "Full" variant.
-
-Some genomes will have more than one variant available.
-
-- The "Canonical Male" or sometimes simply "Canonical" variant contains the primary chromosomes for a genome. For example a human "Canonical" variant contains chr1-chr22, chrX, chrY, and chrM.
-- The "Canonical Female" variant contains the primary chromosomes excluding chrY.
 
