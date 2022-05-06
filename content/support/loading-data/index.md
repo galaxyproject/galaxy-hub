@@ -30,7 +30,7 @@ Most tutorials from the [Galaxy Training Network (GTN)](https://training.galaxyp
 * Advanced **Upload** methods are covered in the tutorial topic group [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
 * All Tutorials: https://training.galaxyproject.org/
 
-## Supplimental Step-by-Step
+## Supplemental Step-by-Step
 
 Data is loaded using the tools in the _**Get Data**_ tool group. Some access specific data provider sites that will load data back into your Galaxy history. To directly load your own local data or data from another source, use the tool _**Get Data → Upload File**_ (also accessible from the top of the left tool panel, as seen in the graphics below). Want to practice import/export functions with small sample data? Import the [Upload sample data history here](https://usegalaxy.org/u/usinggalaxy/h/upload).
 
