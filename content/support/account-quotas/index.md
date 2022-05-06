@@ -67,13 +67,13 @@ To know more about unsharing unwanted histories, follow [this FAQ](https://train
 
 ## Use-cases for managing data
 
-Have a very large history that is difficult to mange? Review the options below for some tips.
+Have a very large history that is difficult to manage? Review the options below for some tips.
 
-* Navigate to a history (**User > Histories**) and use the history menu function "Purge Deleted Datasets". That will make sure that any datasets that were only *deleted* become *permanently deleted (purged)*. Note that *purged* data cannot be recovered, even by an administer.
+* Navigate to a history (**User > Histories**) and use the history menu function "Purge Deleted Datasets". That will make sure that any datasets that were only *deleted* become *permanently deleted (purged)*. Note that *purged* data cannot be recovered, even by an administrator.
 * Navigate to a history (**User > Histories**) and use the history menu function *Copy Datasets*. Only active datasets will appear in the middle panel view listing of datasets. Select the datasets that you wish to retain and copy those into a new history. Once completed, go back and permanently delete (purge) the entire original history under **User > Histories**. You may need to log out then back into Galaxy again to reset the quota usage.
 * If you copy a *dataset collection* to a new or different history, the *hidden* datasets associated with that collection are also copied.
 * Copies of datasets within your own account do not individually count against quota usage -- these are "clones" unless a change is made (after a change, copies do become distinct datasets and count toward quota usage individually). If you change a copied dataset, consider updating/removing the original tag(s), or add more tag(s).
-* Keep future histories smaller by breaking up analysis into different histories. You can always keep copies (aka "clones") of important or frequently reused datasets datasets in different histories. Examples include: reference annotation, custom fasta genomes/transcriptomes/exomes, processed results, original source read data (pre or post QA/QC).
+* Keep future histories smaller by breaking up analysis into different histories. You can always keep copies (aka "clones") of important or frequently reused datasets in different histories. Examples include: reference annotation, custom fasta genomes/transcriptomes/exomes, processed results, original source read data (pre or post QA/QC).
 * Sometimes it is helpful to add tags to datasets that are important or frequently reused to better keep track of datasets that represent the same original data in different histories. Tag the original dataset or dataset collection (#name-of-tag) and any copies will inherit that same tag when copied.
 * Consider creating a dedicated history for important or frequently reused datasets. You can create a copy of that entire history to a new history, give it a meaningful name, then start a new analysis.
 * Histories can also have tags added to help you keep analysis/data organized.
@@ -84,7 +84,7 @@ Have a very large history that is difficult to mange? Review the options below f
 
 Account quotas are generally fixed at 250 Gb for [Galaxy Main](/main/). Other Galaxy servers may differ for quota size and policy. For very large projects, consider moving to a local or cloud Galaxy where you can control the resources.
 
-*Important*: Increased working space (quota size) is unrelated to the computational resouces used to process analysis jobs. If your jobs are failing because they are exceeding resources, there is either an input/usage problem or the work is actually too large to process at the server. Not sure? Check here: [My job ended with an error. What can I do?](/support/tool-error/).
+*Important*: Increased working space (quota size) is unrelated to the computational resources used to process analysis jobs. If your jobs are failing because they are exceeding resources, there is either an input/usage problem or the work is actually too large to process at the server. Not sure? Check here: [My job ended with an error. What can I do?](/support/tool-error/).
 
 * Some work is simply too large for the public resource. How to know? Review the [Using Galaxy choices explained here](/use/#which-platform-platform-type-to-choose) and the [Webinar: Use Galaxy on the web, the cloud, and your laptop too](/events/2020-12-webinar-where/).
 * If your work is academic research based and additional short-term space is needed at Galaxy Main (https://usegalaxy.org), please send an email to galaxy-bugs@lists.galaxyproject.org from your registered account email address, briefly explaining your project and we may be able to help.
