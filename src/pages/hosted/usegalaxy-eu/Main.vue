@@ -21,9 +21,9 @@
                 <h3 v-if="$page.dataPolicy.title" class="title">{{ $page.dataPolicy.title }}</h3>
                 <div class="markdown" v-html="$page.dataPolicy.content" />
             </section>
-            <section class="footer" v-if="$page.footer" v-html="$page.footer.content" />
-            <footer class="footer" v-if="$page.siteFooter" v-html="$page.siteFooter.content" />
+            <section class="footer row" v-if="$page.footer" v-html="$page.footer.content" />
         </main>
+        <footer id="site-footer" v-if="$page.siteFooter" v-html="$page.siteFooter.content" />
     </div>
 </template>
 
@@ -157,21 +157,25 @@ fragment articleFields on Article {
 <style lang="scss">
 @import "~/assets/styles.scss";
 
+a:not(.btn) {
+    color: $brand-primary;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 #maincontainer {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    a:not(.btn) {
-        color: $brand-primary;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-}
-
-.title {
-    font-weight: bold;
 }
 #maincontainer > section {
     margin-bottom: 10px;
+}
+.title {
+    font-weight: bold;
+}
+.fa,
+.fab {
+    font-size: 125%;
 }
 </style>
