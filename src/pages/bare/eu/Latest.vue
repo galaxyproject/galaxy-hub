@@ -24,7 +24,7 @@ export default {
     },
     mounted() {
         notifyParent(window);
-    }
+    },
 };
 </script>
 

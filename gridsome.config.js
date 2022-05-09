@@ -95,8 +95,8 @@ function mkPlugins(collections) {
                     ignore: [],
                     template: `src/templates/${name}.vue`,
                     plugins: REMARK_VUE_PLUGINS,
-                }
-            }
+                },
+            };
         } else {
             throw repr`Error: Collection ${name} has invalid type ${meta.type}. Must be "md" or "vue".`;
         }

@@ -26,7 +26,7 @@ export default {
     },
     mounted() {
         resizeIFrames(document);
-    }
+    },
 };
 </script>
 
@@ -44,4 +44,3 @@ query BareArticle($path: String!) {
     }
 }
 </page-query>
-

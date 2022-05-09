@@ -30,11 +30,11 @@ if (!ROOT_SUBSITE) {
 }
 const COLLECTION_TYPES = {
     Article: "md",
-    VueArticle: "vue"
-}
-Object.entries(CONFIG.collections).forEach(
-    ([name, meta]) => { COLLECTION_TYPES[name] = meta.type; }
-);
+    VueArticle: "vue",
+};
+Object.entries(CONFIG.collections).forEach(([name, meta]) => {
+    COLLECTION_TYPES[name] = meta.type;
+});
 
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
@@ -275,7 +275,7 @@ class nodeModifier {
     }
     static collectionProcessors = {
         // Actions to take for specific collections.
-        Insert: function(node, collection) {
+        Insert: function (node, collection) {
             node.name = rmSuffix(rmPrefix(node.path, "/insert:"), "/");
             return node;
         },

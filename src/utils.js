@@ -416,8 +416,8 @@ function addResizeIFramesListeners(document) {
         // We can't use the intended cross-iframe system `postMessage()` because it's parent-triggered, and the point is
         // that the iframe usually loads *after* the parent, so we'd be back to polling instead of a push-based
         // notification that the iframe has loaded.
-        iframe.contentWindow.addEventListener('mounted', () => resizeIFrame(iframe));
-    };
+        iframe.contentWindow.addEventListener("mounted", () => resizeIFrame(iframe));
+    }
 }
 
 function resizeIFrame(iframe) {
