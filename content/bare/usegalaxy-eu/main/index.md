@@ -10,7 +10,7 @@ show_footer: true
 
 "Anyone, anywhere in the world should have free, unhindered access to not just my research, but to the research of every great and enquiring mind across the spectrum of human understanding." – Prof. Stephen Hawking
 
-<iframe class="resize-y" src="/bare/eu/latest/" scrolling="no" style="width: 100%; border: none">
+<iframe class="resize-y" src="/bare/eu/latest/" scrolling="no" style="width: 100%; border: none" title="Recent Galaxy Europe news and events">
 </iframe>
 
 <slot name="/bare/usegalaxy-eu/jobs" />
