@@ -20,8 +20,7 @@ subsites: [global, us]
 ---
 
 <div class="video-variable">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/DkGrrbaTPN8" frameborder="0" allow="accelerome
-ter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DkGrrbaTPN8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br />
 
