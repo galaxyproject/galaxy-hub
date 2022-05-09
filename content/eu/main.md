@@ -3,6 +3,10 @@ title: Galaxy Europe
 subtitle: The homepage of the European Galaxy community
 ---
 
+<!-- Color palette: https://www.color-hex.com/color-palette/9983 -->
+
+[<img src="eu_banner.png" alt="drawing" style="width:400px; float:right; margin:10px;"/>](https://usegalaxy.eu/)
+
 **Galaxy** is an **open-source** platform for **[FAIR](https://www.go-fair.org/fair-principles/) data analysis** that enables users to: 
 
 - use **tools** from various domains (that can be plugged into **workflows**) through its graphical web interface.
@@ -12,8 +16,48 @@ subtitle: The homepage of the European Galaxy community
 
 The **Galaxy Community** is actively involved in helping the ecosystem improve and sharing scientific discoveries.
 
+<br><br><br>
+
 <div class="row justify-content-center">
-  <a href="/get-started/" class="btn w-75 btn-primary btn-lg">
-    Get Started: First Steps with Galaxy
+  <a href="/get-started/" class="btn w-25 btn-primary btn-lg" style="margin:1px">
+    Installed tools
   </a>
-</div>
+
+  <a href="./data-policy.md" class="btn w-25 btn-primary btn-lg" style="margin:1px">
+    TIaaS
+  </a>
+
+  <a href="./data-policy.md" class="btn w-25 btn-primary btn-lg" style="margin:1px">
+    Data retention police
+  </a>
+</div> 
+
+<br><br>
+
+
+<!-- Events, News, Tweets here -->
+
+| Supported communities with their own subdomain |
+|-----|-----|-----|
+| [africa.usegalaxy.eu](https://africa.usegalaxy.eu) | [annotation.usegalaxy.eu](https://annotation.usegalaxy.eu) | [cancer.usegalaxy.eu](https://cancer.usegalaxy.eu) |
+| [cheminformatics.usegalaxy.eu](https://cheminformatics.usegalaxy.eu) | [climate.usegalaxy.eu](https://climate.usegalaxy.eu) | [clipseq.usegalaxy.eu](https://clipseq.usegalaxy.eu) |
+| [covid19.usegalaxy.eu](https://covid19.usegalaxy.eu) | [ecology.usegalaxy.eu](https://ecology.usegalaxy.eu) | [erasmusmc.usegalaxy.eu](https://erasmusmc.usegalaxy.eu) |
+| [graphclust.usegalaxy.eu](https://graphclust.usegalaxy.eu) | [hicexplorer.usegalaxy.eu](https://hicexplorer.usegalaxy.eu) | [humancellatlas.usegalaxy.eu](https://humancellatlas.usegalaxy.eu) |
+| [imaging.usegalaxy.eu](https://imaging.usegalaxy.eu) | [live.usegalaxy.eu](https://live.usegalaxy.eu) | [metabolomics.usegalaxy.eu](https://metabolomics.usegalaxy.eu) |
+| [metagenomics.usegalaxy.eu](https://metagenomics.usegalaxy.eu) | [microbiome.usegalaxy.eu](https://microbiome.usegalaxy.eu) | [ml.usegalaxy.eu](https://ml.usegalaxy.eu) |
+| [nanopore.usegalaxy.eu](https://nanopore.usegalaxy.eu) | [plants.usegalaxy.eu](https://plants.usegalaxy.eu) | [proteomics.usegalaxy.eu](https://proteomics.usegalaxy.eu) |
+| [rna.usegalaxy.eu](https://rna.usegalaxy.eu) | [singlecell.usegalaxy.eu](https://singlecell.usegalaxy.eu) | [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu) |
+| [virology.usegalaxy.eu](https://virology.usegalaxy.eu) | | |
+
+
+## Server admins?
+
+## Downtime notifications?
+
+## Projects
+
+## Team
+
+## Citations
+
+## Sponsors
