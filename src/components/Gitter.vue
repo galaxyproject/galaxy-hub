@@ -10,5 +10,5 @@ export default {
         script.src = "https://sidecar.gitter.im/dist/sidecar.v1.js";
         head.appendChild(script);
     },
-}
+};
 </script>
