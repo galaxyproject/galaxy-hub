@@ -1,3 +1,6 @@
+<template>
+</template>
+
 <script>
 // This is in a component instead of a function so that static pages can use it by embedding it in their Markdown.
 export default {
