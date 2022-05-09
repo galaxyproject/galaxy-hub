@@ -28,6 +28,13 @@ const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 if (!ROOT_SUBSITE) {
     console.error("Error: Subsites hierarchy in config.json must have a single root subsite.");
 }
+const COLLECTION_TYPES = {
+    Article: "md",
+    VueArticle: "vue"
+}
+Object.entries(CONFIG.collections).forEach(
+    ([name, meta]) => { COLLECTION_TYPES[name] = meta.type; }
+);
 
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
@@ -67,12 +74,8 @@ async function resolveImages(node, args, context, info) {
     if (!node.image) {
         return {};
     }
-    let buildDir;
-    if (node.internal.typeName === "VueArticle") {
-        buildDir = path.join(__dirname, CONFIG.build.dirs.vue);
-    } else {
-        buildDir = path.join(__dirname, CONFIG.build.dirs.md);
-    }
+    let collectionType = COLLECTION_TYPES[node.internal.typeName];
+    let buildDir = path.join(__dirname, CONFIG.build.dirs[collectionType]);
     let dirPath = path.join(buildDir, node.path);
     if (!fs.existsSync(dirPath)) {
         console.error(`Directory not found: ${dirPath}`);
@@ -204,6 +207,9 @@ class nodeModifier {
         if (typeName !== "Insert") {
             node = this.processNonInsert(node, collection, typeName);
         }
+        if (COLLECTION_TYPES[typeName] === "vue") {
+            node = this.processVueType(node, collection, typeName);
+        }
         return node;
     }
     static processNonInsert(node, collection, typeName) {
@@ -249,30 +255,27 @@ class nodeModifier {
         }
         return node;
     }
-    static collectionProcessors = {
-        Article: function (node) {
-            // Currently nothing Article-specific.
-            return node;
-        },
-        VueArticle: function (node, collection) {
-            // Find and link Inserts.
-            // Note: `._store` is technically not a stable API, but it's unlikely to go away and there's
-            // almost no other way to do this.
-            const store = collection._store;
-            const insertCollection = store.getCollection("Insert");
-            node.inserts = [];
-            for (let insertName of findInsertsInMarkdown(node.content)) {
-                let path = `/insert:${insertName}/`;
-                let insert = insertCollection.findNode({ path: path });
-                if (insert) {
-                    node.inserts.push(store.createReference(insert));
-                } else {
-                    console.error(node.path + repr`: Failed to find Insert ${path}`);
-                }
+    static processVueType(node, collection, typeName) {
+        // Find and link Inserts.
+        // Note: `._store` is technically not a stable API, but it's unlikely to go away and there's
+        // almost no other way to do this.
+        const store = collection._store;
+        const insertCollection = store.getCollection("Insert");
+        node.inserts = [];
+        for (let insertName of findInsertsInMarkdown(node.content)) {
+            let path = `/insert:${insertName}/`;
+            let insert = insertCollection.findNode({ path: path });
+            if (insert) {
+                node.inserts.push(store.createReference(insert));
+            } else {
+                console.error(node.path + repr`: Failed to find Insert ${path}`);
             }
-            return node;
-        },
-        Insert: function (node) {
+        }
+        return node;
+    }
+    static collectionProcessors = {
+        // Actions to take for specific collections.
+        Insert: function(node, collection) {
             node.name = rmSuffix(rmPrefix(node.path, "/insert:"), "/");
             return node;
         },
