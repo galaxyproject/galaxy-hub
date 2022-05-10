@@ -16,41 +16,41 @@ This page summarizes both GCC2022 events, and other cool events happening around
 
 <div class="card-deck">
 
-<!-- Training Day -->
-<div class="card" style="min-width: 25%; max-width: 40rem;">
-<div class="card-header">
-Training Day: July 8
-</div>
+  <!-- Training Day -->
+  <div class="card" style="min-width: 25%; max-width: 40rem;">
+    <div class="card-header">
+    Training Day: July 8
+    </div>
 
 The GCC2022 Training Day will be held on Friday, July 8.  This is a full week before the GCC2022 Conference starts.  **This event will be virtual, free, and global.** Training will be asynchronous, go at your own pace, and using Galaxy Training Network materials.  Support will be available on the GTN slack channel, for the entire day.
 
 Introductory topics will be covered on Training Day.  More advanced topics will be offered in-person, during the conference.
 
-</div>
+  </div>
 
-<!-- GCC2022 Conference -->
-<div class="card" style="min-width: 35%; max-width: 40rem;">
-<div class="card-header">
-Meeting: July 17-20
-</div>
+  <!-- GCC2022 Conference -->
+  <div class="card" style="min-width: 35%; max-width: 40rem;">
+    <div class="card-header">
+    Meeting: July 17-20
+    </div>
 
 **This is it!  Our first in-person GCC since 2019!**  The four day meeting will feature accepted and invited talks, poster, demo, and sponsor sessions, training sessions, Birds-of-a-Feather (BoF) sessions, a conference dinner, and lots of time for networking
 
 This year we are expanding the number of days from three to four, but shortening the length of each day.  Except for the conference dinner on Tuesday (July 19), we won't have official programming (like BoFs) in the evening.  We will finish each day by 6pm.  Our hope is to make this a more relaxed and more rewarding meeting.
 
-</div>
+  </div>
 
-<!-- CoFest -->
-<div class="card" style="min-width: 25%; max-width: 40rem;">
-<div class="card-header">
-CoFest: 21-23
-</div>
+  <!-- CoFest -->
+  <div class="card" style="min-width: 25%; max-width: 40rem;">
+    <div class="card-header">
+    CoFest: 21-23
+    </div>
 
 This three day event gathers community members who are interested in contributing to Galaxy's code base, available tool set, documentation, training materials, and anywhere else that expands or improves the Galaxy ecosystem.  You can register for 1, 2 or 3 days of the CoFest.
 
 **Our goals are to expand the contributor community and the Galaxy Ecosystem.**
 
-</div>
+  </div>
 </div>
 
 ## Calendar
@@ -58,103 +58,134 @@ This three day event gathers community members who are interested in contributin
 Here is what is happening and when, including GCC2022 and other nearby events.
 
 <table>
-<tbody>
-<tr class="lead text-center" style="background-color: #79C;">
-<th style="min-width: 12%; padding: 0.2em;">Sun</th>
-<th style="min-width: 12%; padding: 0.2em;">Mon</th>
-<th style="min-width: 12%; padding: 0.2em;">Tue</th>
-<th style="min-width: 12%; padding: 0.2em;">Wed</th>
-<th style="min-width: 12%; padding: 0.2em;">Thu</th>
-<th style="min-width: 12%; padding: 0.2em;">Fri</th>
-<th style="min-width: 12%; padding: 0.2em;">Sat</th>
-</tr>
-<tr class="text-center" style="background-color: #BCE">
-<th>Jul 3</th>
-<th>Jul 4</th>
-<th>Jul 5</th>
-<th>Jul 6</th>
-<th>Jul 7</th>
-<th>Jul 8</th>
-<th>Jul 9</th>
-</tr>
-<tr style="border: 1px solid lightgray">
-<td></td>
-<td style="background-color: lightgray;"><strong>US Holiday</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color: #5BD;"><span class="lead"><strong>Training</strong></span><br /> Virtual, free, global</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7"></td>
-</tr>
-<tr class="text-center" style="background-color: #BCE">
-<th>Jul 10</th>
-<th>Jul 11</th>
-<th>Jul 12</th>
-<th>Jul 13</th>
-<th>Jul 14</th>
-<th>Jul 15</th>
-<th>Jul 16</th>
-</tr>
-<tr style="border: 1px solid lightgray">
-<td colspan="5" style="background-color: lightgray;"><strong><a href="https://www.iscb.org/ismb2022">ISMB / BOSC</a></strong><br />Madison, Wisconsin, a 4 hour drive or a 70 minute plane ride from Minneapolis</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="text-center" style="border: 1px solid lightgray">
-<td colspan="4" style="padding: 0.2em;"></td>
-<td colspan="3" class="small" style="padding: 0.2em; background-color: #DEF;"><strong>Conference Housing Open</strong></td>
-</tr>
-<tr style="border: 1px solid lightgray">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td class="small" style="background-color: lightgray;"><strong><a href="https://www.mlb.com/twins">Twins vs. White Sox</a></strong>, Minneapolis<br /><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul</td>
-<td class="small" style="background-color: lightgray;"><strong><a href="https://www.mlb.com/twins">Twins vs. White Sox</a></strong>, Minneapolis<br /><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul</td>
-<td class="small" style="background-color: lightgray;"><strong><a href="https://www.tcbeachblast.com/">Twin Cities Beach Blast</a></strong>, Minneapolis<br /><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul</td>
-</tr>
-<tr>
-<td colspan="7"></td>
-</tr>
-<tr class="text-center" style="background-color: #BCE">
-<th>Jul 17</th>
-<th>Jul 18</th>
-<th>Jul 19</th>
-<th>Jul 20</th>
-<th>Jul 21</th>
-<th>Jul 22</th>
-<th>Jul 23</th>
-</tr>
-<tr style="border: 1px solid lightgray">
-<td colspan="4" style="background-color: #8CE;"><span class="lead"><strong>Conference</strong></span><br />Minneapolis</td>
-<td colspan="3" style="background-color: #BEF;"><span class="lead"><strong>CoFest</strong></span><br />Minneapolis</td>
-</tr>
-<tr class="text-center" style="border: 1px solid lightgray">
-<td colspan="7" class="small" style="padding: 0.2em; background-color: #DEF;"><strong>Conference Housing Open</strong></td>
-</tr>
-<tr style="border: 1px solid lightgray">
-<td class="small" style="background-color: lightgray;"><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul</td>
-<td></td>
-<td></td>
-<td class="small" style="background-color: lightgray;"><strong><a href="https://www.aquatennial.com/">Aquatenial</a><br /><a href="https://www.aquatennial.com/torchlightparade/">Torchlight Parade</a></strong>, Minneapolis</td>
-<td colspan="2" style="background-color: lightgray;"></td>
-<td class="small" style="background-color: lightgray;"><strong><br /><a href="https://www.aquatennial.com/fireworks/">Fireworks</a></strong>, Minneapolis</td>
-</tr>
-</tbody>
+  <tbody>
+    <tr class="lead text-center" style="background-color: #79C;">
+      <th style="min-width: 12%; padding: 0.2em;">Sun</th>
+      <th style="min-width: 12%; padding: 0.2em;">Mon</th>
+      <th style="min-width: 12%; padding: 0.2em;">Tue</th>
+      <th style="min-width: 12%; padding: 0.2em;">Wed</th>
+      <th style="min-width: 12%; padding: 0.2em;">Thu</th>
+      <th style="min-width: 12%; padding: 0.2em;">Fri</th>
+      <th style="min-width: 12%; padding: 0.2em;">Sat</th>
+    </tr>
+    <tr class="text-center" style="background-color: #BCE">
+      <th>Jul 3</th>
+      <th>Jul 4</th>
+      <th>Jul 5</th>
+      <th>Jul 6</th>
+      <th>Jul 7</th>
+      <th>Jul 8</th>
+      <th>Jul 9</th>
+    </tr>
+    <tr style="border: 1px solid lightgray">
+      <td></td>
+      <td style="background-color: lightgray;"><strong>US Holiday</strong></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td style="background-color: #5BD;">
+        <span class="lead"><strong>Training</strong></span>
+        <br />Virtual, free, global
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="7"></td>
+    </tr>
+    <tr class="text-center" style="background-color: #BCE">
+      <th>Jul 10</th>
+      <th>Jul 11</th>
+      <th>Jul 12</th>
+      <th>Jul 13</th>
+      <th>Jul 14</th>
+      <th>Jul 15</th>
+      <th>Jul 16</th>
+    </tr>
+    <tr style="border: 1px solid lightgray">
+      <td colspan="5" style="background-color: lightgray;">
+        <strong><a href="https://www.iscb.org/ismb2022">ISMB / BOSC</a></strong>
+        <br />Madison, Wisconsin, a 4 hour drive or a 70 minute plane ride from Minneapolis
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="text-center" style="border: 1px solid lightgray">
+      <td colspan="4" style="padding: 0.2em;"></td>
+      <td colspan="3" class="small" style="padding: 0.2em; background-color: #DEF;">
+        <strong>Conference Housing Open</strong>
+      </td>
+    </tr>
+    <tr style="border: 1px solid lightgray">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="small" style="background-color: lightgray;">
+        <strong><a href="https://www.mlb.com/twins">Twins vs. White Sox</a></strong>, Minneapolis
+        <br /><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul
+      </td>
+      <td class="small" style="background-color: lightgray;">
+        <strong><a href="https://www.mlb.com/twins">Twins vs. White Sox</a></strong>, Minneapolis
+        <br /><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul
+      </td>
+      <td class="small" style="background-color: lightgray;">
+        <strong><a href="https://www.tcbeachblast.com/">Twin Cities Beach Blast</a></strong>, Minneapolis
+        <br /><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7"></td>
+    </tr>
+    <tr class="text-center" style="background-color: #BCE">
+      <th>Jul 17</th>
+      <th>Jul 18</th>
+      <th>Jul 19</th>
+      <th>Jul 20</th>
+      <th>Jul 21</th>
+      <th>Jul 22</th>
+      <th>Jul 23</th>
+    </tr>
+    <tr style="border: 1px solid lightgray">
+      <td colspan="4" style="background-color: #8CE;">
+        <span class="lead"><strong>Conference</strong></span>
+        <br />Minneapolis
+      </td>
+      <td colspan="3" style="background-color: #BEF;">
+        <span class="lead"><strong>CoFest</strong></span>
+        <br />Minneapolis
+      </td>
+    </tr>
+    <tr class="text-center" style="border: 1px solid lightgray">
+      <td colspan="7" class="small" style="padding: 0.2em; background-color: #DEF;">
+        <strong>Conference Housing Open</strong>
+      </td>
+    </tr>
+    <tr style="border: 1px solid lightgray">
+      <td class="small" style="background-color: lightgray;">
+        <strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul
+      </td>
+      <td></td>
+      <td></td>
+      <td class="small" style="background-color: lightgray;">
+        <strong><a href="https://www.aquatennial.com/">Aquatenial</a>
+        <br /><a href="https://www.aquatennial.com/torchlightparade/">Torchlight Parade</a></strong>, Minneapolis
+      </td>
+      <td colspan="2" style="background-color: lightgray;"></td>
+      <td class="small" style="background-color: lightgray;">
+        <strong><br /><a href="https://www.aquatennial.com/fireworks/">Fireworks</a></strong>, Minneapolis
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ## Other Nearby Events
 <div class="card-deck">
 
-
   <!-- ISMB-->
   <div class="card" style="min-width: 25%; max-width: 40rem;">
     <img src="/images/events/2022-ismb-bosc/ismb-banner-cropped.png" class="card-img-top" alt="ISMB + BOSC 2022" />
     <div class="card-header">
-    ISMB + BOSC 2022
+      ISMB + BOSC 2022
     </div>
 
 **July 10-14, Madison**
@@ -199,6 +230,5 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 The Twin Cities is home to two professional baseball teams: The [Minnesota Twins in Minneapolis](https://www.mlb.com/twins), and the [St. Paul Saints in Saint Paul](https://www.milb.com/st-paul).  Both teams will be having home games during and around GCC.
 
   </div>
-
 
 </div>
