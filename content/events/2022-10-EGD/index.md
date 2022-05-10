@@ -2,7 +2,7 @@
 title: "European Galaxy Days (EGD)"
 date: '2022-10-03'
 days: 5
-tease: "A forum to share updates and discuss community-wide topics"
+tease: "European community gathering in autumn"
 continent: EU
 location: "Freiburg, Germany"
 location_url: ""
