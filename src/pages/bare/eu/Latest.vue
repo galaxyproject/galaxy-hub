@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="posts row">
+        <section class="latest-posts row">
             <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :width="6" :items="latest.news" />
             <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :width="6" :items="latest.events" />
         </section>
@@ -68,15 +68,14 @@ fragment articleFields on Article {
 <style lang="scss">
 @import "~/assets/styles.scss";
 
-a:not(.btn) {
-    color: $brand-primary;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-.posts {
+.latest-posts {
     margin-left: 0;
     width: 100%;
+    a:not(.btn) {
+        color: $brand-primary;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
 </style>
