@@ -58,6 +58,7 @@ This three day event gathers community members who are interested in contributin
 Here is what is happening and when, including GCC2022 and other nearby events.
 
 <table>
+<tbody>
 <tr class="lead text-center" style="background-color: #79C;">
 <th style="min-width: 12%; padding: 0.2em;">Sun</th>
 <th style="min-width: 12%; padding: 0.2em;">Mon</th>
@@ -142,6 +143,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 <td colspan="2" style="background-color: lightgray;"></td>
 <td class="small" style="background-color: lightgray;"><strong><br /><a href="https://www.aquatennial.com/fireworks/">Fireworks</a></strong>, Minneapolis</td>
 </tr>
+</tbody>
 </table>
 
 ## Other Nearby Events
