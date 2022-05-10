@@ -369,7 +369,7 @@ module.exports = function (api) {
                         subsite: subsite,
                         mainPath: `/insert:${prefix}${path}main/`,
                         jumboPath: `/insert:${prefix}${path}jumbotron/`,
-                        footerPath: `/insert:${prefix}${path}footer/`,
+                        extraPath: `/insert:${prefix}${path}extra/`,
                     },
                 });
             }

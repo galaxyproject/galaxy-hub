@@ -20,7 +20,7 @@
             <HomeCard title="Events" :link="`/${subsite}/events/`" icon="far fa-calendar-alt" :items="latest.events" />
         </div>
 
-        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
+        <section class="extra markdown" v-if="$page.extra" v-html="$page.extra.content" />
     </Layout>
 </template>
 
@@ -54,7 +54,7 @@ export default {
 </script>
 
 <page-query>
-query($subsite: String, $mainPath: String, $jumboPath: String, $footerPath: String) {
+query($subsite: String, $mainPath: String, $jumboPath: String, $extraPath: String) {
     main: insert(path: $mainPath) {
         id
         title
@@ -69,7 +69,7 @@ query($subsite: String, $mainPath: String, $jumboPath: String, $footerPath: Stri
         title
         content
     }
-    footer: insert(path: $footerPath) {
+    extra: insert(path: $extraPath) {
         id
         title
         content
