@@ -5,8 +5,6 @@ subtitle: The homepage of the European Galaxy community
 
 <!-- Color palette: https://www.color-hex.com/color-palette/9983 -->
 
-[<img src="eu_banner.png" alt="drawing" style="width:400px; float:right; margin:10px;"/>](https://usegalaxy.eu/)
-
 **Galaxy** is an **open-source** platform for **[FAIR](https://www.go-fair.org/fair-principles/) data analysis** that enables users to: 
 
 - use **tools** from various domains (that can be plugged into **workflows**) through its graphical web interface.
@@ -16,23 +14,12 @@ subtitle: The homepage of the European Galaxy community
 
 The **Galaxy Community** is actively involved in helping the ecosystem improve and sharing scientific discoveries.
 
-<br><br><br>
 
-<div class="row justify-content-center">
-  <a href="/get-started/" class="btn w-25 btn-primary btn-lg" style="margin:1px">
-    Installed tools
-  </a>
 
-  <a href="./data-policy.md" class="btn w-25 btn-primary btn-lg" style="margin:1px">
-    TIaaS
-  </a>
+   - Installed tools
+   - TIaaS
+   - Data retention police
 
-  <a href="./data-policy.md" class="btn w-25 btn-primary btn-lg" style="margin:1px">
-    Data retention police
-  </a>
-</div> 
-
-<br><br>
 
 
 <!-- Events, News, Tweets here -->
