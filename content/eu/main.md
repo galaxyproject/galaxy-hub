@@ -22,6 +22,39 @@ The **Galaxy Community** is actively involved in helping the ecosystem improve a
 
 
 
+<div class="card-deck">
+  <div class="card text-dark bg-gradient-light mb-1" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Installed tools</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">One line text.</p>
+      <a href="#" class="card-link">Find out more</a>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-secondary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card text-white bg-white mb-3" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Installed tools</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">One line text.</p>
+      <a href="#" class="card-link">Find out more</a>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-secondary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card text-white bg-light mb-3" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Installed tools</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">One line text.</p>
+      <a href="#" class="card-link">Find out more</a>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-secondary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
 <!-- Events, News, Tweets here -->
 
 | Supported communities with their own subdomain |
