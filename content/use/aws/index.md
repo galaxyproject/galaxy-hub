@@ -6,7 +6,7 @@ platforms:
   - platform_group: "commercial-cloud"
     platform_url: "https://launch.usegalaxy.org/"
     platform_text: "Galaxy on AWS via CloudLaunch"
-summary: "Set up you own general purpose genomics server runing AWS using GVL and CloudMan."
+summary: "Set up you own general purpose genomics server running AWS using GVL and CloudMan."
 image: "/images/logos/AWSLogo400.png"
 comments:
   - "Using [CloudLaunch](https://launch.usegalaxy.org/) you can set up your own dynamically scalable Galaxy Server in less than 10 minutes."
