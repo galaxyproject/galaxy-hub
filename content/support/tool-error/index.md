@@ -27,7 +27,7 @@ So you started a job and it ended up failing. The result datasets are red in the
 
 What to do? It depends on the **failure type** and where you are using Galaxy.
 
-***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Galaxy help posts, documentation, and/or Galaxy tutorials that include a solution.
+***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have existing prior Q and A, Galaxy help posts, documentation, and/or Galaxy tutorials that include a solution.
 
 ### Query all Galaxy resources with the "Search Galaxy" box above
 
@@ -42,7 +42,7 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 
 Did the job fail with some comments that are not descriptive of the problem? Are you sure?
 
-Click on the bug icon ![](/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/support/) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
+Click on the bug icon ![](/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll be able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/support/) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
 
 Advanced troubleshooting help is covered at: [Reporting Usage Issues or Software bugs](/issues/)
 
@@ -73,13 +73,13 @@ Software or Tool Bug? Or a usage error? Sometimes it is hard to tell.
 
 Usage error:
 
-* A mapping job runs out memory resources. The input fastq was never verified to be in `fastqsanger` format. Rescaling the quality scores with the **Fastq Groomer tool** creates a job that uses far less memory, and it is successful.
-* A first time you use a new tool, there is a job error. Checking the inputs reveals that the BED dataset has columns in the wrong order. Fixing the BED dataset format allows the re-run job to be successful.
+* A mapping job runs out of memory resources. The input fastq was never verified to be in `fastqsanger` format. Rescaling the quality scores with the **Fastq Groomer tool** creates a job that uses far less memory, and it is successful.
+* The first time you use a new tool, there is a job error. Checking the inputs reveals that the BED dataset has columns in the wrong order. Fixing the BED dataset format allows the re-run job to be successful.
 
 Software or Tool Bug:
 
 * A tool fails and produces an error message stating that a dependency was not found. The tool is not on the list of [Known tool issues](/support/tool-issues/) and a search against [all issues](/issues/) does not locate a prior reported problem. You report the issue through a bug report, it is clarified and confirmed, the developers make a fix, and the updated tool is installed on the server. Future jobs are now successful.
-* When importing an older workflow, a pop-up notice informs that an upgraded tool is available. This tool is editted into the workflow. However, now the workflow fails - at that same tool that was updated. The issue is reported and fixed. Now your workflow runs without problems.
+* When importing an older workflow, a pop-up notice informs that an upgraded tool is available. This tool is edited into the workflow. However, now the workflow fails - at that same tool that was updated. The issue is reported and fixed. Now your workflow runs without problems.
 
 #### How to detect - bugs
 
