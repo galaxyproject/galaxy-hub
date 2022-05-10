@@ -1,7 +1,5 @@
 ---
 title: Galaxy Europe
-main_subsite: eu
-show_footer: true
 ---
 
 <slot name="/bare/usegalaxy-eu/notices" />
@@ -22,3 +20,6 @@ show_footer: true
 <footer>
 <slot name="/footers/eu" />
 </footer>
+
+import Gitter from "@/components/Gitter";
+<Gitter />
