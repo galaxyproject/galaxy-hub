@@ -60,6 +60,7 @@ query VueArticle($path: String!) {
 </page-query>
 
 <script>
+import { resizeIFrames } from "~/utils.js";
 import ArticleHeader from "@/components/ArticleHeader";
 import ArticleFooter from "@/components/ArticleFooter";
 export default {
@@ -77,6 +78,9 @@ export default {
             }
             return classes;
         },
+    },
+    mounted() {
+        resizeIFrames(document);
     },
 };
 </script>

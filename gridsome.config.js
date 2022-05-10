@@ -26,8 +26,10 @@ function mkTemplates(collections) {
         Article: (node) => logAndReturn("Article", rmPathPrefix(node.path, CONTENT_DIR_DEPTH)),
         Insert: (node) => logAndReturn("Insert", makeFilenamePath("insert", node)),
     };
-    for (let name of Object.keys(collections)) {
-        templates[name] = (node) => logAndReturn(name, rmPathPrefix(node.path, CONTENT_DIR_DEPTH));
+    for (let [name, meta] of Object.entries(collections)) {
+        if (meta.type === "md") {
+            templates[name] = (node) => logAndReturn(name, rmPathPrefix(node.path, CONTENT_DIR_DEPTH));
+        }
     }
     return templates;
 }
@@ -61,22 +63,43 @@ function mkPlugins(collections) {
             },
         },
     ];
+    // Build custom plugins defined in config.json.
     let articlePlugin = getPlugin(plugins, "Article");
     let vueArticlePlugin = getPlugin(plugins, "VueArticle");
-    for (let [name, urlPath] of Object.entries(collections)) {
-        let dirPath = nodePath.join(MD_CONTENT_DIR, urlPath);
+    for (let [name, meta] of Object.entries(collections)) {
+        // Compose the root path for pages in our custom collection.
+        let dirPath = nodePath.join(MD_CONTENT_DIR, meta.path);
         let globPath = nodePath.join(dirPath, "*/index.md");
-        articlePlugin.options.path.push("!" + globPath);
-        let bareUrlPath = rmPrefix(rmSuffix(urlPath, "/"), "/");
-        vueArticlePlugin.options.ignore.push(bareUrlPath);
-        //TODO: Allow custom collections to use vue-remark.
-        let plugin = {
-            use: "@gridsome/source-filesystem",
-            options: {
-                typeName: name,
-                path: globPath,
-            },
-        };
+        // Note: We need to tell Article and VueArticle to ignore pages that are part of other collections.
+        // Article and VueArticle both apply to all pages ("/" and under), so they'll step on custom
+        // collections otherwise.
+        let plugin;
+        if (meta.type === "md") {
+            articlePlugin.options.path.push("!" + globPath);
+            plugin = {
+                use: "@gridsome/source-filesystem",
+                options: {
+                    typeName: name,
+                    path: globPath,
+                },
+            };
+        } else if (meta.type === "vue") {
+            let bareUrlPath = rmPrefix(rmSuffix(meta.path, "/"), "/");
+            vueArticlePlugin.options.ignore.push(bareUrlPath);
+            plugin = {
+                use: "@gridsome/vue-remark",
+                options: {
+                    typeName: name,
+                    baseDir: `${VUE_CONTENT_DIR}/${meta.path}`,
+                    pathPrefix: `/${meta.path}`,
+                    ignore: [],
+                    template: `src/templates/${name}.vue`,
+                    plugins: REMARK_VUE_PLUGINS,
+                },
+            };
+        } else {
+            throw repr`Error: Collection ${name} has invalid type ${meta.type}. Must be "md" or "vue".`;
+        }
         plugins.push(plugin);
     }
     return plugins;
