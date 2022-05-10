@@ -6,7 +6,7 @@
         </header>
 
         <div id="static-content" :class="hasJumbotron ? 'row' : 'row no-jumbo'">
-            <section :class="hasJumbotron ? 'col-sm-5' : ''">
+            <section :class="hasJumbotron ? 'col-sm-5' : 'col-sm-12'">
                 <div class="lead markdown" v-html="$page.main.content" />
             </section>
             <section id="jumbotron" class="col-sm-7" v-if="hasJumbotron">
