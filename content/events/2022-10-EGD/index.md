@@ -15,16 +15,17 @@ subsites: [global, all-eu]
 ---
 
 
-Its time again to gather together, discuss recent and future Galaxy development and enjoy ourself in Freiburg at the European Galaxy Days 2022!
-To minimize travelling - and yes we recommend to take a train :-) - we are coolocating the EGD this year with the kickoff meeting of the 
-European Science Gateway, an EU funded project to build a network of national Galaxy servers and Pulsar endpoints in European Clouds and HPC Centers.
+It's time again to gather together, discuss recent and future Galaxy development and enjoy ourselves in Freiburg at the European Galaxy Days 2022!
+
+To minimize travelling - and yes we recommend taking a train :-) - we are co-locating the EGD this year with the kick-off meeting of the 
+EuroScienceGateway (ESG), an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
 Our current plan (TM) is:
 
-* Arrival at Monday 3.10.2022 with welcome get together in the city
-* Tuesday, talks about recent and future Galaxy developments and general community updates (please let us know if you want to contribute a talk)
-* Wednesday, another round of talks in the morning and free slots for BOFs, ELIXIR IS meeting and spontanouse hack in the afternoon
-* Thursday, the European Science Gateway kickoff meeting - a lot of planning and throwing crazy ideas at the wall
-* We will end the week with a hackathon on Friday.
+* Monday, Oct 3: Arrival day, welcome and get together in the city.
+* Tuesday, Oct 4: Talks about recent and future Galaxy developments and general community updates (please let us know if you want to contribute a talk).
+* Wednesday, Oct 5: Another round of talks in the morning and free slots for BOFs, ELIXIR Implementation Study meeting and spontaneous hack in the afternoon.
+* Thursday, Oct 6: the European Science Gateway kick-off meeting - a lot of planning and throwing crazy ideas at the wall.
+* Friday, Oct 7: We will end the week with a hackathon!
 
 Please check this site for any updates or changes.
