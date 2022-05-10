@@ -8,7 +8,7 @@ The Galaxy [Community](/community/) has created Galaxy instances in many differe
 
 ## Which Platform / Platform Type to Choose?
 
-Your choices depends upon your needs. If you want to use Galaxy with a minimum of setup work, then try starting with a UseGalaxy orPublic Server. There are over 125 of these platforms to pcik from all of which can be use with little or no setup on your part. However if none of those meet your needs then here are some guidelines for other cases.
+Your choices depends upon your needs. If you want to use Galaxy with a minimum of setup work, then try starting with a UseGalaxy or Public Server. There are over 125 of these platforms to pick from all of which can be used with little or no setup on your part. However, if none of those meet your needs then here are some guidelines for other cases.
 
 |                                                     | UseGalaxy Servers | Public Servers | [TIaaS](https://galaxyproject.eu/tiaas.html) | Academic Clouds | Commercial Clouds | Containers      | VMs             | Local           |
 |-----------------------------------------------------|-------------------|----------------|----------------------------------------------|-----------------|-------------------|-----------------|-----------------|-----------------|
