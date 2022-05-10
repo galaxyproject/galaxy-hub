@@ -1,6 +1,6 @@
 ---
 title: "Science driven improvements to tools ecosystems "
-date: '2022-06-08'
+date: '2022-06-09'
 days: 1
 tease: "Workshop at the ELIXIR All Hands 2022"
 continent: EU
