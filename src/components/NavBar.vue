@@ -31,7 +31,9 @@
                         <b-dropdown-item to="/community/wg/">Working Groups</b-dropdown-item>
                         <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                         <b-dropdown-item to="/community/contributing/">How to contribute</b-dropdown-item>
-                        <b-dropdown-item href="https://galaxy-mentor-network.netlify.app/">Galaxy Mentor Network</b-dropdown-item>
+                        <b-dropdown-item href="https://galaxy-mentor-network.netlify.app/"
+                            >Galaxy Mentor Network</b-dropdown-item
+                        >
                         <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="About">
