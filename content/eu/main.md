@@ -5,18 +5,8 @@ subtitle: The homepage of the European Galaxy community
 
 <!-- Color palette: https://www.color-hex.com/color-palette/9983 -->
 
-**Galaxy** is an **open-source** platform for **[FAIR](https://www.go-fair.org/fair-principles/) data analysis** that enables users to: 
 
-- use **tools** from various domains (that can be plugged into **workflows**) through its graphical web interface.
-- run code in **interactive environments** (RStudio, Jupyter...) along with other tools or workflows.
-- **manage data** by sharing and publishing results, workflows, and visualizations.
-- **ensure reproducibility** by capturing the necessary information to repeat and understand data analyses.
-
-The **Galaxy Community** is actively involved in helping the ecosystem improve and sharing scientific discoveries.
-
-<br><br>
-
-  <div class="card border-secondary bg-secondary mb-1" style="width: 30rem">
+<div class="card border-secondary bg-secondary mb-1" style="width: 30rem">
     <div class="card-body">
       <h2 class="card-title text-dark">The European Galaxy server</h2>
       <p class="card-text">One line text.</p>
