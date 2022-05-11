@@ -1,6 +1,6 @@
 <template>
     <div :class="classes" :style="style">
-        <b-navbar class="container justify-content-center" toggleable="lg" variant="transparent">
+        <b-navbar class="container justify-content-center" toggleable="lg" :type="theme" variant="transparent">
             <b-navbar-brand to="/">
                 <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" height="30" />
             </b-navbar-brand>
@@ -114,6 +114,13 @@ export default {
             subsitesLinks.sort((a, b) => a.order > b.order);
             return subsitesLinks;
         },
+        theme() {
+            if (CONFIG.subsites.metadata[this.subsite]?.lightBg) {
+                return "light";
+            } else {
+                return "dark";
+            }
+        },
         classes() {
             let classes = [];
             if (CONFIG.subsites.metadata[this.subsite]?.lightBg) {
@@ -182,9 +189,5 @@ function getPath(page) {
 }
 #search-input {
     width: 175px;
-}
-/* Prevent hamburger menu from disappearing into a dark background in mobile mode (#1363). */
-.navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.5);
 }
 </style>
