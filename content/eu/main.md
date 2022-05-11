@@ -14,70 +14,61 @@ subtitle: The homepage of the European Galaxy community
 
 The **Galaxy Community** is actively involved in helping the ecosystem improve and sharing scientific discoveries.
 
+<br><br>
 
-
-   - Installed tools
-   - TIaaS
-   - Data retention police
-
-
-
+  <div class="card border-secondary bg-secondary mb-1" style="width: 30rem">
+    <div class="card-body">
+      <h2 class="card-title text-dark">The European Galaxy server</h2>
+      <p class="card-text">One line text.</p>
+      <a href="#" class="btn btn-primary">Data retention police</a>
+      <a href="#" class="btn btn-primary">ToS</a>
+      <a href="#" class="btn btn-primary">Downtime notifications</a>
+    </div>
+  </div>
+<!-- <div class="card-deck"> -->
 <div class="card-deck">
-  <div class="card text-dark bg-gradient-light mb-1" style="width: 18rem;">
+  <div class="card border-secondary bg-light mb-1" style="width: 18rem">
     <div class="card-body">
-      <h5 class="card-title">Installed tools</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-      <p class="card-text">One line text.</p>
-      <a href="#" class="card-link">Find out more</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-      <a href="#" class="btn btn-secondary">Go somewhere</a>
+      <h2 class="card-title text-dark">Installed tools</h2>
+      <p class="card-text">The EU server offers thousands of tools...</p>
+      <a href="#" class="btn btn-primary">Check the full list of installed tool</a>
     </div>
   </div>
-  <div class="card text-white bg-white mb-3" style="width: 18rem;">
+  <div class="card border-secondary bg-light mb-1" style="width: 18rem">
     <div class="card-body">
-      <h5 class="card-title">Installed tools</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-      <p class="card-text">One line text.</p>
-      <a href="#" class="card-link">Find out more</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-      <a href="#" class="btn btn-secondary">Go somewhere</a>
+      <h2 class="card-title text-dark">TIaaS</h2>
+      <p class="card-text">We provide Training Infrastructure as a Service</p>
+      <a href="#" class="btn btn-primary">Check the full list</a>
     </div>
   </div>
-  <div class="card text-white bg-light mb-3" style="width: 18rem;">
+  <div class="card border-secondary bg-light mb-1" style="width: 18rem">
     <div class="card-body">
-      <h5 class="card-title">Installed tools</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-      <p class="card-text">One line text.</p>
-      <a href="#" class="card-link">Find out more</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-      <a href="#" class="btn btn-secondary">Go somewhere</a>
+      <h2 class="card-title text-dark">Supported communities</h2>
+      <p class="card-text">We provide.</p>
+      <a href="#" class="btn btn-primary">Check the full list</a>
     </div>
   </div>
 </div>
-
-<!-- Events, News, Tweets here -->
-
-| Supported communities with their own subdomain |
-|-----|-----|-----|
-| [africa.usegalaxy.eu](https://africa.usegalaxy.eu) | [annotation.usegalaxy.eu](https://annotation.usegalaxy.eu) | [cancer.usegalaxy.eu](https://cancer.usegalaxy.eu) |
-| [cheminformatics.usegalaxy.eu](https://cheminformatics.usegalaxy.eu) | [climate.usegalaxy.eu](https://climate.usegalaxy.eu) | [clipseq.usegalaxy.eu](https://clipseq.usegalaxy.eu) |
-| [covid19.usegalaxy.eu](https://covid19.usegalaxy.eu) | [ecology.usegalaxy.eu](https://ecology.usegalaxy.eu) | [erasmusmc.usegalaxy.eu](https://erasmusmc.usegalaxy.eu) |
-| [graphclust.usegalaxy.eu](https://graphclust.usegalaxy.eu) | [hicexplorer.usegalaxy.eu](https://hicexplorer.usegalaxy.eu) | [humancellatlas.usegalaxy.eu](https://humancellatlas.usegalaxy.eu) |
-| [imaging.usegalaxy.eu](https://imaging.usegalaxy.eu) | [live.usegalaxy.eu](https://live.usegalaxy.eu) | [metabolomics.usegalaxy.eu](https://metabolomics.usegalaxy.eu) |
-| [metagenomics.usegalaxy.eu](https://metagenomics.usegalaxy.eu) | [microbiome.usegalaxy.eu](https://microbiome.usegalaxy.eu) | [ml.usegalaxy.eu](https://ml.usegalaxy.eu) |
-| [nanopore.usegalaxy.eu](https://nanopore.usegalaxy.eu) | [plants.usegalaxy.eu](https://plants.usegalaxy.eu) | [proteomics.usegalaxy.eu](https://proteomics.usegalaxy.eu) |
-| [rna.usegalaxy.eu](https://rna.usegalaxy.eu) | [singlecell.usegalaxy.eu](https://singlecell.usegalaxy.eu) | [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu) |
-| [virology.usegalaxy.eu](https://virology.usegalaxy.eu) | | |
-
-
-## Server admins?
-
-## Downtime notifications?
-
-## Projects
-
-## Team
-
-## Citations
-
-## Sponsors
+<div class="card-deck">
+  <div class="card border-secondary bg-light mb-1" style="width: 18rem">
+    <div class="card-body">
+      <h2 class="card-title text-dark">Projects & Sponsors</h2>
+      <p class="card-text">The European Galaxy community is funded by several European and German project.</p>
+      <a href="#" class="btn btn-primary">See the sponsors</a>
+    </div>
+  </div>
+  <div class="card border-secondary bg-light mb-1" style="width: 18rem">
+    <div class="card-body">
+      <h2 class="card-title text-dark">Citations</h2>
+      <p class="card-text">Have you used the European Galaxy server for your data analysis? </p>
+      <a href="#" class="btn btn-primary">Learn how to cite it here.</a>
+    </div>
+  </div>
+  <div class="card border-secondary bg-light mb-1" style="width: 18rem">
+    <div class="card-body">
+      <h2 class="card-title text-dark">Team</h2>
+      <p class="card-text">Have you used the European Galaxy server for your data analysis? </p>
+      <a href="#" class="btn btn-primary">Meet the team.</a>
+    </div>
+  </div>
+</div>
