@@ -166,7 +166,7 @@ function getPath(page) {
 }
 </script>
 
-<style>
+<style scoped>
 #subsite-name {
     display: flex;
     align-items: center;
@@ -182,5 +182,9 @@ function getPath(page) {
 }
 #search-input {
     width: 175px;
+}
+/* Prevent hamburger menu from disappearing into a dark background in mobile mode (#1363). */
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 </style>
