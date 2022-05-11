@@ -25,4 +25,5 @@ There will also be time to discuss any current problems you encounter as a maint
 
 ---
 
-The Galaxy Small Scale Galaxy Admins Meeting are organised by the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/), and are taking place every two months.
+The Galaxy Small Scale Galaxy Admins group is a [community of practice](https://galaxyproject.org/community/#communities-of-practice). It has grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/).
+The meetings are taking place every two months. 
