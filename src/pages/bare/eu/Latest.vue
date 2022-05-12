@@ -68,7 +68,7 @@ fragment articleFields on Article {
 <style lang="scss">
 @import "~/assets/styles.scss";
 
-.latest-posts {
+section.latest-posts {
     margin-left: 0;
     width: 100%;
     a:not(.btn) {
