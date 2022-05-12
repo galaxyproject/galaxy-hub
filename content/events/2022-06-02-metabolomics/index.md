@@ -1,6 +1,6 @@
 ---
 title: "Metabolomics Community Call"
-date: '2021-06-02'
+date: '2022-06-02'
 days: 1
 tease: "Dan Blankenberg will present 'How to create and use Galaxy Interactive Tools'"
 continent: EU
