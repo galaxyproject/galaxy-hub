@@ -18,16 +18,16 @@ various cloud providers (e.g., [NSF Jetstream](jetstream)) to accommodate large 
 
 ## Dedicated Galaxy instances, including use with protected datasets
 [AnVIL](https://anvilproject.org/) is a cloud-based platform where anyone can
-get access to Galaxy as well direct access to a plethora of datasets. Currently,
+get access to Galaxy as well as direct access to a plethora of datasets. Currently,
 there is about 4PB of human data available in AnVIL that are linked directly
 into Galaxy. The AnVIL platform carries the [US FedRamp
 certification](https://www.fedramp.gov/), which means protected and private
-datasets can uploaded and analyzed on this resource.
+datasets can be uploaded and analyzed on this resource.
 
 **[> LEARN MORE](https://anvilproject.org/learn/interactive-analysis/getting-started-with-galaxy)**
 
 ## Infrastructure for training events
-If you are an instructor or a trainer delivering workshops and would like a an
+If you are an instructor or a trainer delivering workshops and would like an
 experience that offers responsive job execution directly on usegalaxy.org or
 usegalaxy.eu servers, there is Training Infrastructure as a Service, or TIaaS.
 With TIaaS trainers can register that they wish to have a training event,
