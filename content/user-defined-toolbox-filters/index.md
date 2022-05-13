@@ -3,7 +3,7 @@ title: User Defined Toolbox Filters
 highlight: true
 ---
 
-ToolBox filters can be applied by an admin and/or by an user dynamically to filter the large list of tools.
+ToolBox filters can be applied by an admin and/or by a user dynamically to filter the large list of tools.
 
 <div class="alert alert-info" role="alert">
 Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said this is not a security feature, it is intended to separate multiple groups of Tools and simplify the ToolBox.
@@ -56,7 +56,7 @@ def restrict_encode( content, tool ):
 ```
 
 
-You can not only filter for tools ID's, you can also filter for everything that is associate with a Tool, for example the Toolname or the requirements.
+Not only can you filter for tools ID's, you can also filter for everything that is associated with a Tool, for example the Toolname or the requirements.
 
 ```python
 def disable_gatk( context, tool ):
@@ -72,7 +72,7 @@ def disable_gatk( context, tool ):
 ```
 
 
-An other very powerful feature is, that you can access the Galaxy context to have access for the username or the admin status.
+Another very powerful feature is, that you can access the Galaxy context to have access for the username or the admin status.
 Here is an example that hides the upload Utility for all users that are not admin users.
 
 ```python
@@ -147,10 +147,10 @@ Possible! Just access context.trans.request.host and filter your Tools.
 ```python
 def per_host_tool_sections( context, section ):
     """
-    This tool section filter results in different sections being display based on
+    This tool section filter results in different sections being displayed based on
     the URL the user is making the request to. This could allow a single Galaxy instance
     to seem like several different instances hosting different tools based on the URL used
-    to access the Galxy. This can be enabled by renaming this file to examples.py and adding
+    to access the Galaxy. This can be enabled by renaming this file to examples.py and adding
     the following to the ``app:main`` section of ``config/galaxy.ini``:
 
         tool_section_filters = examples:per_host_tool_sections
