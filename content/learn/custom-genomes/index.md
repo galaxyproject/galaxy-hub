@@ -44,10 +44,10 @@ Once created, a *Custom Build* is added to the list **Database/Build:** on the d
 * Submit and wait for the build to finish loading before assigning to a dataset or using to start a new Visualization
 * Note: It is fine to navigate away from this form and come back to it later to check for status. The larger the fasta file and busier the Galaxy instance is, the longer the processing will take.
 
-# [Sorting](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_sorting_reference_genome.html)
+# [Sorting](https://training.galaxyproject.org/training-material/faqs/galaxy/reference_genomes_sorting_reference_genome.html)
 
 
-# [Troubleshooting](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_troubleshooting_custom_genome.html)
+# [Troubleshooting](https://training.galaxyproject.org/training-material/faqs/galaxy/reference_genomes_troubleshooting_custom_genome.html)
 
 
 # A problem or not a problem?
