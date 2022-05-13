@@ -56,7 +56,7 @@ def restrict_encode( content, tool ):
 ```
 
 
-Not only can you filter for tools ID's, you can also filter for everything that is associated with a Tool, for example the Toolname or the requirements.
+Not only can you filter for tools ID's, but you can also filter for everything that is associated with a Tool, for example the Toolname or the requirements.
 
 ```python
 def disable_gatk( context, tool ):
