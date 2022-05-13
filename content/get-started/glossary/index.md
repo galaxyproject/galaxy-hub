@@ -90,7 +90,7 @@ Customizable deployment of the Galaxy software that can be either private or pub
 Execution of a Galaxy tool to schedule or be processed by the system with no interaction by the user.
 
 #### [Open Source](https://opensource.org/osd)
-Open Source Software is a code designed so that it is accessible to the public: Everyone can see, modify and distribute the code of the way they consider appropriate.
+Open Source Software is a code designed so that it is accessible to the public: Everyone can see, modify and distribute the code in a way they consider appropriate.
 
 #### Paper Cuts Day
 CoFests that address annoying, but easy to fix bugs ("paper cuts"). They are a 24-hour, worldwide collaborative event, dedicated to reducing irritant bugs in the Galaxy ecosystem and welcoming new contributors by guiding them through the process of fixing these and thus becoming contributors to Galaxy.

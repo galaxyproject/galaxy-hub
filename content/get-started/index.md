@@ -6,7 +6,7 @@ title: Get Started
 
 # Welcome!
 
-<span style="font-size:medium;">This page will be your starting point for Galaxy, the go-to place when you need to refresh your knowledge once you have already get to know more about the Community.</span>
+<span style="font-size:medium;">This page will be your starting point for Galaxy, the go-to place when you need to refresh your knowledge once you have already gotten to know more about the Community.</span>
 
 <span style="font-size:medium;">Below you will find a __step-by-step suggested pathway__ for you to follow as a newcomer, a student, an expert or just about anybody interested in using Galaxy.</span>
 
@@ -49,7 +49,7 @@ Before diving into Galaxy tutorials, you may check [**Galaxy events**](/events/)
 
 ### Galaxy Training Network
 
-We have many more [**Galaxy Training materials**](https://training.galaxyproject.org/)! The Galaxy Training Network has a great list of tutorials from a variety of topics (_Climate, Transcriptomics, Data Science, Development and more!_) written and maintained by the world-wide Galaxy Community.
+We have many more [**Galaxy Training materials**](https://training.galaxyproject.org/)! The Galaxy Training Network has a great list of tutorials on a variety of topics (_Climate, Transcriptomics, Data Science, Development and more!_) written and maintained by the world-wide Galaxy Community.
 
 ### Galaxy Help & Bug Reports
 
@@ -65,7 +65,7 @@ If you couldn't find a solution, reach out to the [**Galaxy Help Forum**](https:
 If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](/mailing-lists#new-to-mailing-lists/).
 
 ### Galaxy Publication Library
-Check what others members have done in our [**Publication library**](https://www.zotero.org/groups/1732893/galaxy) which contains publications that use, reference, implement, and extend Galaxy.
+Check what other members have done in our [**Publication library**](https://www.zotero.org/groups/1732893/galaxy) which contains publications that use, reference, implement, and extend Galaxy.
 
 ## Step 3:  Your place within the Galaxy Community
 
@@ -79,7 +79,7 @@ From India to Australia, Japan to France and many more countries [**Regional Com
 
 ### Galaxy Communities of Practice
 
-Another way communities are formed is by domain such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own [**servers and mailing list**](/community/#communities-of-practice).
+Another way communities are formed is by domains such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own [**servers and mailing list**](/community/#communities-of-practice).
 
 ### Set up your own Community
 What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads) for more.
@@ -88,7 +88,7 @@ What if you can't find yourself in these lists of regional and/or community of p
 
 <div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/collaborators.svg" style="width:200px;height:100px;" alt="community events" /></div>
 
-Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, answering questions in Gitter or the Help Forum to mention some ways.
+Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in Gitter or the Help Forum to mention some ways.
 
 ### Working Groups
 Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
