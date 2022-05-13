@@ -20,9 +20,6 @@ tags: [ cofest, papercuts ]
 
 The May PaperCuts CoFest will be held in conjunction with the [May Galaxy Training Network (GTN) CoFest day](https://github.com/galaxyproject/training-material/issues/1712). Want to improve Galaxy, and get involved with Galaxy? Please join us.
 
-**MORE DETAILS COMING SOON!**
-
-
 
 **Goals**
 
@@ -56,31 +53,23 @@ If you have time, and want to learn more about contributing you are encouraged t
 # During the event
 
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long.
+
+There are also two GTN CoFest calls planned for the day.
 
 
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 1: Middle East, Europe, Africa**
-    * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20220217T10&p1=980&am=30).
+    * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20220519T10&p1=980&am=30).
     * [Zoom](https://github.com/galaxyproject/training-material/issues/1712)
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 2: Americas**
-    * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20220217T11&p1=3705&am=30).
+    * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20220519T11&p1=3705&am=30).
     * [Zoom](https://github.com/galaxyproject/training-material/issues/1712)
 
 ## Issues to work on
 
-Here are links to the issues identified as potential targets for papercuts day:
+This papercut day we're going to focus on some **UI-UX** issues for the **New History**. If that's not your specialty, feel free to pick something else OR you can challenge yourself to learn something new!
 
-| Repo / Project | [Working Group](/community/wg/) | What is it? | Tags |
-| --- | --- | --- | --- |
-| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Backend, User Interface / User Experience | Galaxy server and front end. | **[paper-cut](https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut)** |
-| **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Admin | Training materials for Galaxy Admin Training. | **[paper-cut](https://github.com/galaxyproject/admin-training/labels/paper-cuts)** |
-| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Outreach & Training | Training materials. | **[Collaboration Fest ideas](https://github.com/galaxyproject/training-material/issues/2070), [newcomer-friendly](https://github.com/galaxyproject/training-material/labels/newcomer-friendly), [paper-cut](https://github.com/galaxyproject/training-material/labels/paper-cut)** |
-| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Deployment | Managing instances on cloud infrastructures. | **[good first issue](https://github.com/galaxyproject/cloudman/labels/good%20first%20issue)** |
-| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Tools | Wrappers for popular tools in Galaxy. | **[paper-cut](https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut)** |
-| **[BioBlend](https://github.com/galaxyproject/bioblend)** | Backend | The Galaxy Python API. | **[paper-cut](https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut)** |
-| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | Outreach & Training | The Galaxy Community web site. | **[paper-cut](https://github.com/galaxyproject/galaxy-hub/labels/paper-cut)** |
-| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Deployment | Galaxy deployment recipes.  | **[paper-cut](https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut)** |
-| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Backend | Galaxy Tool Language Server.  | **[paper-cut](https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut)** |
+[You can find the project board and list of issues here!](https://github.com/orgs/galaxyproject/projects/23/views/4)
 
 
 ## After the event
