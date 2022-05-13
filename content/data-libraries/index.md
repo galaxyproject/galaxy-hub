@@ -40,7 +40,7 @@ Select the `Add datasets/from User Directory` at the folder toolbar.
 Select files you want to import. You can set `Type` and `Genome` if applicable.  
 ![file import](./file-import.png)
 
-Select folders to be imported. You can choose whether to `preserve directory structure` (otherwise it fill be flattened) and if you want to `link instead of copying`. Talk to your administrator whether to use linking to files instead of copying - it depends on your file preservation policy.  
+Select folders to be imported. You can choose whether to `preserve directory structure` (otherwise it will be flattened) and if you want to `link instead of copying`. Talk to your administrator whether to use linking to files instead of copying - it depends on your file preservation policy.  
 ![folder import](./folder-import.png)
 
 <div class="alert alert-warning trim-p" role="alert">
@@ -100,7 +100,7 @@ new folders and datasets added to the data library will automatically inherit th
 
 ## Additional resources
 
-The Galaxy Adminstration Docs have even more configuration help plus admin scripts to help manage data libraries.
+The Galaxy Administrative Docs have even more configuration help plus admin scripts to help manage data libraries.
 
 * Configuration details (release specific): Search with the configuration option tag for more details here https://docs.galaxyproject.org
 * Scripts & Tricks: [Uploading a directory into a Data Library](https://docs.galaxyproject.org/en/latest/admin/useful_scripts.html#uploading-a-directory-into-a-data-library)
