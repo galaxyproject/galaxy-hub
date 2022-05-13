@@ -5,14 +5,18 @@
             <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
         </header>
 
-        <div id="static-content" :class="hasJumbotron ? 'row' : 'row no-jumbo'">
-            <section :class="hasJumbotron ? 'col-sm-5' : ''">
-                <div class="lead markdown" v-html="$page.main.content" />
+        <div id="top-content" class="row">
+            <section id="lead" v-if="has.lead" :class="`col-sm-${topWidth}`">
+                <div class="lead markdown" v-html="$page.lead.content" />
             </section>
-            <section id="jumbotron" class="col-sm-7" v-if="hasJumbotron">
+            <section id="jumbotron" v-if="has.jumbotron" :class="`col-sm-${topWidth}`">
                 <h3 v-if="$page.jumbotron.title" class="title text-center">{{ $page.jumbotron.title }}</h3>
                 <div class="text-center markdown" v-html="$page.jumbotron.content" />
             </section>
+        </div>
+
+        <div id="main-content" v-if="has.main" class="row">
+            <section class="col-sm-12" v-html="$page.main.content" />
         </div>
 
         <div class="row">
@@ -20,7 +24,7 @@
             <HomeCard title="Events" :link="`/${subsite}/events/`" icon="far fa-calendar-alt" :items="latest.events" />
         </div>
 
-        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
+        <section class="extra markdown" v-if="$page.extra" v-html="$page.extra.content" />
     </Layout>
 </template>
 
@@ -35,6 +39,13 @@ export default {
             title: this.$page.main.title,
         };
     },
+    created() {
+        this.has = {};
+        for (let key of Object.keys(this.$page)) {
+            let value = this.$page[key];
+            this.has[key] = value && value.content && value.content.trim();
+        }
+    },
     computed: {
         latest() {
             let latest = {};
@@ -46,15 +57,19 @@ export default {
         subsite() {
             return this.$context.subsite;
         },
-        hasJumbotron() {
-            return this.$page.jumbotron && this.$page.jumbotron.content.trim();
+        topWidth() {
+            if (this.has.lead && this.has.jumbotron) {
+                return 6;
+            } else {
+                return 12;
+            }
         },
     },
 };
 </script>
 
 <page-query>
-query($subsite: String, $mainPath: String, $jumboPath: String, $footerPath: String) {
+query($subsite: String, $mainPath: String, $jumboPath: String, $leadPath: String, $extraPath: String) {
     main: insert(path: $mainPath) {
         id
         title
@@ -69,7 +84,12 @@ query($subsite: String, $mainPath: String, $jumboPath: String, $footerPath: Stri
         title
         content
     }
-    footer: insert(path: $footerPath) {
+    lead: insert(path: $leadPath) {
+        id
+        title
+        content
+    }
+    extra: insert(path: $extraPath) {
         id
         title
         content
@@ -116,7 +136,7 @@ fragment articleFields on Article {
 #header .title {
     font-size: 3rem;
 }
-#static-content {
+#top-content {
     margin-bottom: 40px;
 }
 #jumbotron .title {

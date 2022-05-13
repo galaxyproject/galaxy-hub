@@ -20,19 +20,20 @@
                 </b-navbar-nav>
                 <b-navbar-nav id="global-items" class="ml-auto">
                     <b-nav-item-dropdown text="Support">
-                        <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
+                        <b-dropdown-item to="/get-started/">Get started</b-dropdown-item>
                         <b-dropdown-item to="/learn/">Training</b-dropdown-item>
+                        <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
                         <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="Community">
                         <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
-                        <b-dropdown-item to="/get-started/">Get started</b-dropdown-item>
+                        <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
+                        <b-dropdown-item to="/community/wg/">Working Groups</b-dropdown-item>
+                        <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                         <b-dropdown-item to="/community/contributing/">How to contribute</b-dropdown-item>
                         <b-dropdown-item href="https://galaxy-mentor-network.netlify.app/"
                             >Galaxy Mentor Network</b-dropdown-item
                         >
-                        <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
-                        <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                         <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="About">
