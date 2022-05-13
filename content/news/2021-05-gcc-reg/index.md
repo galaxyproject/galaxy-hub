@@ -3,6 +3,7 @@ title: "GCC2021 Early Registration Deadline moved to June 8"
 tease: "Please join us at Galaxy's annual community gathering"
 external_url: ""
 date: "2021-05-29"
+subsites: [global, us]
 ---
 
 **The eraly registration deadline for the 2021 Galaxy Community Conference has been moved back a week to June 8.  This gives you and extra week to get a 50% discount off full registration prices.** (It also gives conference organisers time to get a partial confirmed presenter list published so that you can make a better informed decision.)  Registration information is below.

@@ -1,6 +1,7 @@
 ---
 title: "Galaxy LinkedIn Group"
 date: "2013-03-18"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://bit.ly/gxyLinkedIn'><img src="/images/logos/LinkedInLogo.png" alt="Galaxy Linked In Group" /></a></div>
 

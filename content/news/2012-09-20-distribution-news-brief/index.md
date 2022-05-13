@@ -1,6 +1,7 @@
 ---
 title: "Sept 20, 2012 Distribution & News Brief"
 date: "2012-09-21"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-09-20/)**
 <div class='right'><a href='/archive/dev-news-briefs/2012-09-20/'><img src="/images/news-graphics/2012_09_20_toolfactory-small.png" alt="toolfactory" /></a></div>

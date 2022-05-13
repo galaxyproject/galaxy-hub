@@ -1,6 +1,7 @@
 ---
 title: "GCC2015 Abstract Submission Open"
 date: "2015-02-25"
+subsites: [global, us]
 ---
 <div class='left'><a href='http://gcc2015.tsl.ac.uk/Abstracts'><img src="/images/logos/GCC2015AbstractsOpen.png" alt="GCC2015 Oral and Poster Presentation abstract submission is now open" width="200" /></a></div>
 

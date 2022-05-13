@@ -8,6 +8,7 @@ location: "Washington, DC"
 image: "/images/logos/GWUlogo.png"
 gtn: true
 contact: "Dr. Ian Toma (itoma at gwu dot edu)"
+subsites: [global, us]
 ---
 
 This workshop will be hands-on and teach participants how to manage their data, understand and execute tools, save and reuse workflows, and visualize processed data, all from within Galaxy. The hands-on exercises will begin with a simple analysis pipeline and extend to a complete analysis of published RNA-seq data.

@@ -1,6 +1,7 @@
 ---
 title: "Worflow4Metabolomics 2015 Course"
 date: "2015-04-08"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='http://workflow4metabolomics.org/training/W4Mcourse2015'><img src="/images/logos/IFBSmallTransLogo.png" alt="IFB" width="135" /></a><br />

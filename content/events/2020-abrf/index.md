@@ -10,6 +10,7 @@ external_url:
 image: "/images/logos/abrf-logo-color-text.png"
 gtn: true
 contact: "Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Mehta, Mehmet Tekman"
+subsites: [global, us]
 ---
 
 **Mequite D Room, 8am - 4pm**

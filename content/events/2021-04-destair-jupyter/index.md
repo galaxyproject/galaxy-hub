@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://www.leibniz-fli.de/news-events/seminars/detailpage/denbi-destair-training-course"
 gtn: true
 contact: "Steffen C. Lott, David Brauer, Markus Wolfien, Maximilian Hillemanns, Konstantin Riege"
+subsites: [global, us]
 ---

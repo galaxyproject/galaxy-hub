@@ -11,11 +11,12 @@ gtn: false
 contact: "TBA"
 links:
 tags: ["community-call"]
+subsites: [global, us]
 ---
 
 We will have a presentation on **GCC Demo Coordination**, followed by a discussion and community updates. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing) or bring them to the call!
 
-**Please [join us]() at 3 pm UTC** ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+community+call&iso=20220512T15)) for an open discussion.
+**Please [join us via zoom](https://us02web.zoom.us/j/87985788533?pwd=SmdzaDJhdURHV3N4Nlo3YkluMC9PQT09) at 3 pm UTC** ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+community+call&iso=20220512T15)) for an open discussion.
 
 ---
 

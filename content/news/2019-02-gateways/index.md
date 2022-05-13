@@ -2,6 +2,7 @@
 title: "Gateways 2019 Call for Participation"
 tease: "Abstracts due April 29; Full submissions due May 6"
 date: "2019-02-28"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/images/logos/gateways-2019-logo.png" alt="Gateways 2019" />](http://sciencegateways.org/gateways2019/call)

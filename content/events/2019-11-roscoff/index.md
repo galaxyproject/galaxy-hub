@@ -10,5 +10,6 @@ external_url: "http://www.fc.sorbonne-universite.fr/fr/formations-en-sciences-et
 contact: 'audrey.vidal @ sorbonne-universite.fr'
 image: ""
 gtn: true
+subsites: [global, us]
 ---
 

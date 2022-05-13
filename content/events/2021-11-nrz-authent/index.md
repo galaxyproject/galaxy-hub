@@ -10,4 +10,5 @@ external_url: "https://galaxyproject.eu/event/2021-10-12-talk-NRZ-authent/"
 gtn: true
 contact: "Galaxy Europe"
 image: 
+subsites: [global, us]
 ---

@@ -10,4 +10,5 @@ location_url: "https://www.melbournebioinformatics.org.au/training-and-events/"
 external_url: "https://www.eventbrite.com.au/e/introduction-to-galaxy-galaxy-workflows-online-tickets-118405573257"
 gtn: true
 contact: "Simon Gladman"
+subsites: [global, us]
 ---

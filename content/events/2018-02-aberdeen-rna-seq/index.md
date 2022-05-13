@@ -10,4 +10,5 @@ external_url: https://www.abdn.ac.uk/genomics/documents/201718_Workshops/RNA_Seq
 gtn: true
 contact: Sophie Shaw
 image: /images/logos/AberdeenLogoTrans.png
+subsites: [global, us]
 ---

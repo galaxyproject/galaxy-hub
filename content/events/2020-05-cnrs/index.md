@@ -10,4 +10,5 @@ external_url: "https://cnrsformation.cnrs.fr/stage-20025-Analyse-avancee-de-sequ
 gtn: true
 contact: "A. Barré, B. Dartigues, R. Uricaru"
 image: 
+subsites: [global, us]
 ---

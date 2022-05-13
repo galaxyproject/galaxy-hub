@@ -10,5 +10,6 @@ image:
 external_url: https://depot.galaxyproject.org/hub/attachments/events/2018-04-tanta/2018-04-tanta-workshop.pdf
 contact: "Abdelazeem Abdelhameed Elhabyan"
 gtn: true
+subsites: [global, us]
 ---
 

@@ -3,6 +3,7 @@ title: 'March 2021 Galactic News'
 tease: "New Featured and Community News sections; new events, releases, training, and lots of videos"
 date: "2021-03-17"
 autotoc: false
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

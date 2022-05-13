@@ -2,6 +2,7 @@
 title: 'Galaxy Cloud embraces the GVL'
 tease: 'From Galaxy 17.09, Galaxy cloud instances use the GVL framework'
 date: '2018-01-22'
+subsites: [global, us]
 ---
 
 In 2009, we orchestrated deployment of the entire Galaxy platform on the cloud

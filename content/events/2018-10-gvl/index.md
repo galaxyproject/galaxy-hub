@@ -10,4 +10,5 @@ location_url:
 external_url: "https://www.eventbrite.com.au/e/introduction-to-galaxy-the-genomics-virtual-laboratory-18-oct-registration-47203476870"
 contact: "Melbourne Bioinformatics"
 gtn: true
+subsites: [global, us]
 ---

@@ -2,6 +2,7 @@
 title: "Building a regional Galaxy and Community @ INCOB 2019"
 tease: "There's a workshop and a talk too"
 date: "2019-08-29"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 18rem" src="/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Building a regional Galaxy Community and Platform at INCOB 2019" />](http://incob2019.org/breakout-session/)

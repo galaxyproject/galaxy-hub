@@ -1,11 +1,12 @@
 ---
 title: 2017 Hacktoberfest
-date: '2017-10'
+date: '2017-10-01'
 days: 31
 tease: Online...
 continent: GL
 location: Online
 contact: Enis and Martin
+subsites: [global, us]
 ---
 
 What do fall foliage, pumpkin beer, and Halloween have in common? October! Or,

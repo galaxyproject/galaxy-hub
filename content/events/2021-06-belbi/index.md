@@ -10,4 +10,5 @@ external_url: "https://gallantries.github.io/galaxy-workshop/events/belbi-2021.h
 gtn: true
 contact: "Gallantries"
 image: 
+subsites: [global, us]
 ---

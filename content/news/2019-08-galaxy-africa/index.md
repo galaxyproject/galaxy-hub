@@ -2,6 +2,7 @@
 title: "Galaxy Africa 2019"
 tease: "14-15 November, in conjunction with ASBCB/ISCB Africa"
 date: "2019-08-29"
+subsites: [global, us]
 ---
 
 [<img class="float-right img-responsive" style="max-width: 14rem;" src="/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa 2019" />](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy)

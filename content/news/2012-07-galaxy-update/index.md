@@ -1,6 +1,7 @@
 ---
 title: "July 2012 Galaxy Update"
 date: "2012-06-28"
+subsites: [global, us]
 ---
 <div class='right'><a href='/galaxy-updates/2012-07/'><img src="/images/logos/GalaxyUpdate200.png" alt="July 2012 Galaxy Update" width=150 /></a></div>
 

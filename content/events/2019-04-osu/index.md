@@ -10,5 +10,6 @@ external_url: "https://depot.galaxyproject.org/hub/attachments/events/2019-04-os
 contact: 'Dave Clements'
 image: ""
 gtn: false
+subsites: [global, us]
 ---
 

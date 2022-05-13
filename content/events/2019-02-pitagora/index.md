@@ -10,4 +10,5 @@ external_url: "https://pitagora-network.org/events/meetup/2019/meetup-201902"
 image:
 gtn: false
 contact: "Tazro Ohta"
+subsites: [global, us]
 ---

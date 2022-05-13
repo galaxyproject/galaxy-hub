@@ -10,4 +10,5 @@ external_url: "https://mwacd.org/program"
 gtn: false
 contact: "Tim Griffin"
 image: 
+subsites: [global, us]
 ---

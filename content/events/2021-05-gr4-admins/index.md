@@ -16,6 +16,7 @@ links:
   url: "https://docs.google.com/presentation/d/1wXVPNUwly-BuAIsz1PUWujsfJRbaLkpFn6Rt8lE-U9U/edit?usp=sharing"
 - text: "Video"
   url: "https://youtu.be/vx2icgaU_h0"
+subsites: [global, us]
 ---
 
 * **10am Eastern US. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Admins+and+Infrastructure+Providers+Webinar&iso=20210526T10&p1=419&ah=1).**

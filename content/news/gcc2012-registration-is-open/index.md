@@ -1,6 +1,7 @@
 ---
 title: "GCC2012 Registration is Open!"
 date: "2012-03-20"
+subsites: [global, us]
 ---
 <div class='red'>**Hey! This page is under construction.  Registration ain't open yet!**</div>
 

@@ -9,4 +9,5 @@ location_url: https://www.google.com/maps/place/Melbourne+Bioinformatics+(former
 external_url: "https://www.eventbrite.com.au/e/rna-seq-differential-gene-expression-analysis-using-galaxy-the-gvl-22-mar-registration-57476092540"
 contact: 'enquiries @ melbourne bio informatics . org.au'
 gtn: true
+subsites: [global, us]
 ---

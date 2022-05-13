@@ -1,6 +1,7 @@
 ---
 title: "GalaxyAdmins Future Directions"
 date: "2013-04-01"
+subsites: [global, us]
 ---
 <div class='right'><a href='/community/galaxy-admins/future/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins Future Directions" width="200" /></a></div>
 

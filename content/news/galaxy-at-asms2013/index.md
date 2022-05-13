@@ -1,6 +1,7 @@
 ---
 title: "Galaxy @ ASMS 2013"
 date: "2013-04-19"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/asms2013/'><img src="/images/logos/ASMS2013.jpg" alt="61st ASMS Conference on Mass Spectrometry and Allied Topics" width="200" /></a></div>
 

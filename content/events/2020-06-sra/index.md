@@ -16,6 +16,7 @@ links:
   - text: "Video"
     url: "https://youtu.be/DIhgjTOdfqE"
 image: "galaxy-sra.png"
+subsites: [global, us]
 ---
 
 [NIH's Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) will become an integrated data source on [UseGalaxy.org](https://usegalaxy.org) this month. This functionality is also built in to the upcoming 20.05 release of Galaxy. With this connection, you will be able to go from Galaxy to SRA and then ship selected data directly back to the Galaxy instance you came from.

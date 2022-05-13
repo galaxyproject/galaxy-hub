@@ -10,4 +10,5 @@ image:
 external_url: "http://artbio.fr/?page_id=341"
 contact: "https://gitter.im/ARTbio/Hotline"
 gtn: true
+subsites: [global, us]
 ---

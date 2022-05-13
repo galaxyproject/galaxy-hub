@@ -1,6 +1,7 @@
 ---
 title: "January 2012 Galaxy Events"
 date: "2011-12-08"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='http://evomics.org/workshops/galaxy-developer-workshop/'><img src="/images/photos/CeskyKrumlov.jpg" alt="Galaxy Developer Workshop" height="70" /></a>&nbsp;&nbsp;<a href='/events/pag2012/'><img src="/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2012)" height="75" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src="/images/logos/nowgenLogo180.png" alt="Reproducible workflows for next generation sequencing analysis" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html'><img src="/images/logos/DDBJLogo.png" alt="DDBJ" /></a>

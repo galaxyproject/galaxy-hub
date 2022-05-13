@@ -10,4 +10,5 @@ image: /images/logos/deNBILogo.png
 external_url: http://www.denbi.de/22-training-cat/training-courses/469-introduction-to-rna-seq-data-analysis-with-galaxy
 contact: Andrea Bagnacani, Markus Wolfien
 gtn: true
+subsites: [global, us]
 ---

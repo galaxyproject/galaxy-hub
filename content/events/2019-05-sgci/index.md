@@ -9,4 +9,5 @@ image: /images/logos/sgci-logo-trans-big.png
 location_url: 
 external_url: "http://sciencegateways.org/bootcamp"
 contact: 'help @ sciencegateways . org.'
+subsites: [global, us]
 ---

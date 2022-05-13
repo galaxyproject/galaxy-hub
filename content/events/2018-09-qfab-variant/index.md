@@ -9,5 +9,6 @@ location_url: https://qfab.org/
 external_url: https://qfab.org/workshops/variant-detection-using-galaxy-18-19-september-2018
 contact: 'training@qfab.org'
 gtn: true
+subsites: [global, us]
 ---
 

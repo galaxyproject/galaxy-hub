@@ -2,6 +2,7 @@
 title: "Join the Open Life Science Program and become an Ambassador for Openness in Life Science"
 tease: "Apply by 8 December"
 date: "2019-11-08"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 16rem" src="/images/logos/open-life-science-logo.png" alt="Open Life Science Logo" />](https://openlifesci.org/)

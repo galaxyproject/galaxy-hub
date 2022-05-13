@@ -14,4 +14,5 @@ links:
   - text: "Apply"
     url: "https://biocommons-variants-polyploid.eventbrite.com.au/"
 image: 
+subsites: [global, us]
 ---

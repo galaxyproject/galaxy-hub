@@ -1,6 +1,7 @@
 ---
 title: "Updated GalaxyProject.org Site"
 date: "2011-08-24"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://galaxyproject.org/'><img src="/images/screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" /></a></div>
 

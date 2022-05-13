@@ -12,6 +12,7 @@ gtn: false
 links:
 - text: "Video"
   url: "https://youtu.be/jnqPVaHiOSw"
+subsites: [global, us]
 ---
 
 *Note: all times are US Eastern Time.*

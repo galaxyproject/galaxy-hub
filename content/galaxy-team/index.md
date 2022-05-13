@@ -74,8 +74,8 @@ Nowadays, Galaxy is a global effort.
 </div>
 <div class='col-md-3'>
 
-[![Sergey Golitsynskiy](/galaxy-team/sergey.jpg)](/people/sergey/)
-[Sergey Golitsynskiy](/people/sergey/)
+[![John Davis](/galaxy-team/johndavis.jpg)](/people/john-davis/)
+[John Davis](/people/john-davis/)
 [Johns Hopkins](http://www.jhu.edu)
 
 </div>

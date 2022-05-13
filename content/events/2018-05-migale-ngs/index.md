@@ -10,4 +10,5 @@ location_url: http://migale.jouy.inra.fr/?q=formations
 external_url: http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module8bis.pdf
 contact: formation.migale @ inra.fr
 gtn: True
+subsites: [global, us]
 ---

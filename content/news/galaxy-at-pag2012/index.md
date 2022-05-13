@@ -1,6 +1,7 @@
 ---
 title: "Galaxy @ PAG 2012"
 date: "2012-01-06"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/pag2012/'><img src='/images/logos/PAG2012.png' alt='Galaxy @ Plant and Animal Genome (PAG 2012)' width="200" /></a></div>
 

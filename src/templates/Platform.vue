@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout :subsite="subsite">
         <g-link to="/use/" class="link"> &larr; Platform Directory</g-link>
         <header>
             <h1 class="pageTitle">{{ $page.platform.title }}</h1>
@@ -77,7 +77,9 @@ query Platform($path: String!) {
 </page-query>
 
 <script>
-import { mdToHtml, getImage } from "~/utils.js";
+import { mdToHtml, getImage, getSingleKey } from "~/utils.js";
+import CONFIG from "~/../config.json";
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 export default {
     metaInfo() {
         return {
@@ -92,6 +94,7 @@ export default {
     },
     data() {
         return {
+            subsite: ROOT_SUBSITE,
             groupNames: new Map([
                 ["public-server", "Public server"],
                 ["commercial-cloud", "Commercial Cloud"],

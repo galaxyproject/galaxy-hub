@@ -11,4 +11,5 @@ gtn: false
 contact: "Dayane Araújo, Wendi Bacon"
 tags: [ ]
 image: 
+subsites: [global, us]
 ---

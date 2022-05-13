@@ -2,6 +2,7 @@
 title: "Experienced Galaxy user / programmer / administrator for consulting work"
 tease: "Sarepta Therapeutics is looking for you"
 date: "2019-05-02"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/news/2019-05-sarepta/sarepta-logo.png" alt="Develop Galaxy-based solutions for Sarepta Therapeutics" />](https://www.sarepta.com/)

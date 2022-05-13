@@ -1,6 +1,7 @@
 ---
 title: "April 1, 2013 Galaxy Distribution"
 date: "2013-04-02"
+subsites: [global, us]
 ---
 ```wiki red/solid/light
 Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/news/2013-04-08-galaxy-security-release/), which is was not included in the original April 1, 2013 distribution.```

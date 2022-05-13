@@ -10,4 +10,5 @@ external_url: "https://galaxyproject.eu/event/2020-11-24-metabolomics/"
 gtn: false
 contact: "Melanie Föll"
 image: 
+subsites: [global, us]
 ---

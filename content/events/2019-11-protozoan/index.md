@@ -9,4 +9,5 @@ image:
 location_url: 
 external_url: "https://coursesandconferences.wellcomegenomecampus.org/our-events/parasite-database-resources-uruguay-2019/"
 contact: 'Organisers'
+subsites: [global, us]
 ---

@@ -30,7 +30,7 @@ Most tutorials from the [Galaxy Training Network (GTN)](https://training.galaxyp
 * Advanced **Upload** methods are covered in the tutorial topic group [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
 * All Tutorials: https://training.galaxyproject.org/
 
-## Supplimental Step-by-Step
+## Supplemental Step-by-Step
 
 Data is loaded using the tools in the _**Get Data**_ tool group. Some access specific data provider sites that will load data back into your Galaxy history. To directly load your own local data or data from another source, use the tool _**Get Data → Upload File**_ (also accessible from the top of the left tool panel, as seen in the graphics below). Want to practice import/export functions with small sample data? Import the [Upload sample data history here](https://usegalaxy.org/u/usinggalaxy/h/upload).
 
@@ -40,33 +40,17 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 * If a `.tar` archive contains multiple datasets, only the first dataset inside the archive will upload.
 * If your compressed data does not load correctly, try loading an uncompressed version.
 
-### Get Data: Upload
+### [Get Data: Upload](https://training.galaxyproject.org/training-material/faqs/gtn/get_data_upload.html)
 
-1. Load by "browsing" for a local file. Best for small [datasets](/learn/managing-datasets). Some servers will support load data that is 2 GB or larger.If you are having problems with this method, try FTP.
-2. Load using an **HTTP URL** or **FTP URL**.
-3. Load a few lines of plain text.
-4. Load using FTP. Either line command or with a desktop client.
 
-### Get Data: EBI-SRA
+### [Get Data: EBI-SRA](https://training.galaxyproject.org/training-material/faqs/galaxy/dataupload_EBI-SRA.html)
 
-* Search for your data directly in the tool and use the Galaxy links
-* There are a few links, so [which data do I load?](/support/ebi-sra-data-load/)
-* Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment.
 * [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
 * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
 
-### Get Data: Upload tool used with FTP
+### [Get Data: Upload tool used with FTP](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_upload_ftp.html)
 
-* Load the data using line command FTP or a client. [More help...](/ftp-upload/)
-* Note that the FTP server name is specific to the Galaxy you are working on. This is by default the URL of the server.
-    * For the public Galaxy Main instance at [http://usegalaxy.org](http://usegalaxy.org) the FTP server name to use is **usegalaxy.org**.
-    * For a default local (with FTP enabled, see next) the FTP server name to use is **localhost:8080**. If the server URL was modified, use that custom URL.
-* If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to [configure your instance for FTP](/admin/config/upload-via-ftp/) first.
-* Use your email and password for the same instance as your credentials to log in and save the data to your account.
-* Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.
-* **`FTPS` was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017**. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](/ftp-upload/#upload-from-client).
-* Working at Galaxy EU https://usegalaxy.eu? Read the server-specific FTP help here: https://galaxyproject.eu/ftp/
-* More help for FTP is at Galaxy Help https://help.galaxyproject.org. Search with the keyword "ftp". Example post: https://help.galaxyproject.org/t/ftp-help-guides-tutorials-and-troubleshooting/3449
+* More help for FTP can be found on [Galaxy Help](https://help.galaxyproject.org). Search with the keyword "ftp". Example post: See [here](https://help.galaxyproject.org/t/ftp-help-guides-tutorials-and-troubleshooting/3449)
 
 
 ### Upload tool location

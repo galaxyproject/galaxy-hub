@@ -2,6 +2,7 @@
 title: "Galaxy @ BioHackathon-Europe 2019"
 tease: "Register now"
 date: "2019-07-16"
+subsites: [global, us]
 ---
 
 <div class="float-right">

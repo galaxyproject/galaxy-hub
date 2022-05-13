@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Training Network"
 date: "2014-10-16"
+subsites: [global, us]
 ---
 <div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 

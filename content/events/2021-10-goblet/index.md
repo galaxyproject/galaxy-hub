@@ -11,4 +11,5 @@ external_url: "https://www.mygoblet.org/wp-content/uploads/2021/08/Programme-of-
 gtn: false
 contact: "Christina Hall"
 image: 
+subsites: [global, us]
 ---

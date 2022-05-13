@@ -2,6 +2,7 @@
 title: 'August 2017 Galaxy News'
 tease: 'Mark your calendars: GCC2018; GCC2017 slides & posters; new events, pubs, openings, servers, tools, ...'
 date: '2017-08-01'
+subsites: [global, us]
 ---
 <div class='right'>
 [<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2017-08/)<br /><br />

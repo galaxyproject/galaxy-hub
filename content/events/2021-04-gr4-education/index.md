@@ -18,6 +18,7 @@ links:
   url: "https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-1.pdf"
 - text: "Slides 2"
   url: "https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-2.pdf"
+subsites: [global, us]
 ---
 
 * **10am Eastern US / 4pm Central European. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Researchers+Webinar&iso=20210428T10&p1=419&ah=1).**

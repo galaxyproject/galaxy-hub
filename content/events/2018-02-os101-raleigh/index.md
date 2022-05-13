@@ -10,4 +10,5 @@ external_url: "http://opensource101.com/raleigh/talks/open-source-breakthroughs-
 image: 
 gtn: false
 contact: Stephan Kang
+subsites: [global, us]
 ---

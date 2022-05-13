@@ -10,4 +10,5 @@ external_url: "https://www.elixir-czech.cz/events/introduction-to-galaxy-online-
 gtn: true
 contact: "Jiří Vondrášek, Martin Čech, Simon Bray"
 image: 
+subsites: [global, us]
 ---

@@ -3,6 +3,7 @@ title: 'November 2021 Galactic News'
 tease: "Galaxy India, new jobs, events, blog posts, ..."
 date: "2021-11-01"
 autotoc: false
+subsites: [global, us]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>

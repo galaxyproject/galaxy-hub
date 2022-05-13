@@ -10,6 +10,7 @@ external_url:
 gtn: true
 contact: Instructors
 image: "/images/galaxy-logos/admin-training-logo.jpg"
+subsites: [global, us]
 ---
 
 **The next [Galaxy Admin Training](https://gallantries.github.io/video-library/events/smorgasbord2/gat.html) will be offered online and asynchronously March 14-18.** It will be co-located with the [GTN Tapas event](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/?utm_source=hub-gat&utm_medium=banner&utm_campaign=smorgasbord2)

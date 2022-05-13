@@ -2,6 +2,7 @@
 title: 'October 2020 Galactic News'
 tease: "Events & JTech, platforms, blog posts, tutorials, pubs, releases, ..."
 date: "2020-10-07"
+subsites: [global, us]
 ---
 
 # In the  October 2020 issue

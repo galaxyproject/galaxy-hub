@@ -30,6 +30,11 @@ The Galaxy Exec formed the *[Global Galaxy Steering Committee (GGSC)](/community
 
 Cutting across all Working Groups, *[Committers Groups](/community/committers/)* are responsible for what goes into the project repositories, and in Galaxy *everything* goes into repositories, including training materials and web sites.  Each repo has its own committers group, and each group is responsible for setting its own policies and membership. Committers have been around since the start of the project in 2005, and have been community-driven since 2015.
 
+## Project Management Office (PMO)
+
+**Keywords:** Project management, support, coordination, international opportunities, roadmap, coc, well-being, community
+
+The [Project Management Office (PMO)](/community/pmo) supports the different bodies in the [governance model](/community/governance/), ensuring that the information flows through them, keeping an open corporate knowledge and helping to build bridges between such bodies.
 
 # Code of Conduct
 

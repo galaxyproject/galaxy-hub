@@ -10,4 +10,5 @@ external_url: "http://cnrsformation.cnrs.fr/stage-18239-Analyse-avancee-de-seque
 image: 
 gtn: false
 contact: "Intervenants"
+subsites: [global, us]
 ---

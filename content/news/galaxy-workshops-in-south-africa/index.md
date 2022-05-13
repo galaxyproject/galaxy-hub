@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Workshops in South Africa"
 date: "2012-06-28"
+subsites: [global, us]
 ---
 <div class='right'>
 <table>

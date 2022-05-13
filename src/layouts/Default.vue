@@ -9,17 +9,23 @@
         <footer class="static-footer" v-if="$static.footer">
             <div class="markdown container" v-html="$static.footer.content" />
         </footer>
+        <Gitter />
     </div>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar";
+import Gitter from "@/components/Gitter";
+import { getSingleKey } from "~/utils.js";
+import CONFIG from "~/../config.json";
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 export default {
     components: {
         NavBar,
+        Gitter,
     },
     props: {
-        subsite: { type: String, required: false, default: "root" },
+        subsite: { type: String, required: false, default: ROOT_SUBSITE },
     },
     computed: {
         rootClasses() {

@@ -9,6 +9,7 @@ location_url: http://www.earlham.ac.uk/
 external_url: http://www.earlham.ac.uk/genome-10k-and-genome-science
 gtn: true
 contact: Nicola Soranzo, Graham Etherington
+subsites: [global, us]
 ---
 Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational biomedical research. It takes users of bioinformatics tools away from the complications of the command-line and into a web-based point-and-click environment.
 

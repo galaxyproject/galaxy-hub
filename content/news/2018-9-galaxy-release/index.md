@@ -2,6 +2,7 @@
 title: 'Galaxy Release 18.09'
 tease: Workflow Enhancements, Group Tags, and Python 3 Beta Support
 date: '2018-10-26'
+subsites: [global, us]
 ---
 We are pleased to announce the **[release of Galaxy
 18.09](https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html)**.

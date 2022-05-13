@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Deployment Catalog"
 date: "2013-12-04"
+subsites: [global, us]
 ---
 <div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="200" /></a></div>
 

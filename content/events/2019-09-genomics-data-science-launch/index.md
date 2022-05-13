@@ -10,4 +10,5 @@ external_url: "https://genomicsdatascience.ie/launch-registration/"
 gtn: false
 contact: "Anton Nekrutenko"
 image: 
+subsites: [global, us]
 ---

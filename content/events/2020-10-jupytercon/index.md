@@ -10,4 +10,5 @@ location_url: "https://jupytercon.com/"
 external_url: "https://cfp.jupytercon.com/2020/schedule/presentation/184/climate-jupyterlab-as-an-interactive-tool-in-galaxy/"
 gtn: false
 contact: "Anne Fouilloux"
+subsites: [global, us]
 ---

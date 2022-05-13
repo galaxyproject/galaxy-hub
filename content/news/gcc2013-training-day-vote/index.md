@@ -1,6 +1,7 @@
 ---
 title: "GCC2013 Training Day Topics: Vote!"
 date: "2013-01-28"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
 <div class='right'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="180" /></a> </div></div>

@@ -1,25 +1,20 @@
 <template>
     <Layout>
-        <header class="header">
+        <header id="header">
             <h1 class="display-4">{{ $page.main.title }}</h1>
             <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
         </header>
-        <div class="row">
-            <section class="col-sm-5" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
+
+        <div id="static-content" class="row">
+            <section :class="hasJumbotron ? 'col-sm-5' : ''">
                 <div class="lead markdown" v-html="$page.main.content" />
-                <b-row id="get-started-button" class="justify-content-center">
-                    <b-button class="w-75" size="lg" variant="primary" href="/get-started/">
-                        Get Started: First Steps with Galaxy
-                    </b-button>
-                </b-row>
             </section>
-            <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
-                <h3 v-if="$page.jumbotron.title" class="jumbo-title text-center">{{ $page.jumbotron.title }}</h3>
+            <section id="jumbotron" class="col-sm-7" v-if="hasJumbotron">
+                <h3 v-if="$page.jumbotron.title" class="title text-center">{{ $page.jumbotron.title }}</h3>
                 <div class="text-center markdown" v-html="$page.jumbotron.content" />
             </section>
         </div>
-        <br /><font-awesome-icon icon="fa-regular fa-circle-user" />
-        <i class="fa-regular fa-circle-user"></i>
+
         <b-row id="profiles" class="justify-content-md-center">
             <HomeProfile
                 title="SCIENTISTS"
@@ -122,9 +117,12 @@ export default {
         latest() {
             let latest = {};
             for (let category of ["blog", "news", "events", "careers"]) {
-                latest[category] = this.$page[category].edges.map((edge) => articleToItem(edge.node));
+                latest[category] = this.$page[category].edges.map((edge) => edge.node);
             }
             return latest;
+        },
+        hasJumbotron() {
+            return this.$page.jumbotron && this.$page.jumbotron.content.trim();
         },
     },
     mounted() {
@@ -140,31 +138,12 @@ export default {
                 fjs.parentNode.insertBefore(js, fjs);
             }
         })(document, "script", "twitter-wjs");
-
+        // Add altmetrics stats badges to publications.
         const altmetricScript = document.createElement("script");
         altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
         document.head.appendChild(altmetricScript);
     },
 };
-/** Convert an Article to an "item", with the title, link, and tease fields expected by ItemListBrief. */
-function articleToItem(article) {
-    let item = {
-        id: article.id,
-        title: article.title,
-        link: article.external_url || article.path,
-        tease: article.tease || "",
-    };
-    if (article.date) {
-        item.tease = `*${article.date}.* ${item.tease}`;
-    }
-    if (article.location) {
-        item.tease += ` ${article.location} `;
-    }
-    if (article.closes) {
-        item.tease += ` *Apply by ${article.closes}.*`;
-    }
-    return item;
-}
 </script>
 
 <page-query>
@@ -206,7 +185,9 @@ query {
         title
         content
     }
-    news: allArticle(limit: 5, filter: {category: {eq: "news" }, draft: {ne: true}}) {
+    news: allArticle(
+        limit: 5, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
+    ) {
         totalCount
         edges {
             node {
@@ -216,7 +197,10 @@ query {
     }
     events: allArticle(
         limit: 5, sortBy: "date", order: ASC,
-        filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}}
+        filter: {
+            category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
+            draft: {ne: true}
+        }
     ) {
         totalCount
         edges {
@@ -261,20 +245,14 @@ fragment articleFields on Article {
 </page-query>
 
 <style scoped>
-.header {
+#header {
     margin-bottom: 2.5rem;
 }
-.jumbotron {
-    padding-top: 0;
-    margin-bottom: 0rem;
+#static-content {
+    margin-bottom: 40px;
 }
-.jumbo-title {
+#jumbotron .title {
     font-weight: bold;
-}
-.jumbo-image {
-    background-color: lightyellow;
-    padding-top: 100px;
-    border: 4px solid black;
 }
 #profiles {
     margin-bottom: 45px;

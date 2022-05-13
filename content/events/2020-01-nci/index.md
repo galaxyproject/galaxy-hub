@@ -10,4 +10,5 @@ external_url: "https://datascience.cancer.gov/news-events/events/galaxy-based-mu
 gtn: false
 contact: "Tim Griffin, Pratik Jagtap"
 image: 
+subsites: [global, us]
 ---

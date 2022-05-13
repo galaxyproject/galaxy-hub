@@ -1,0 +1,14 @@
+---
+title: "AI-powered data analysis within the European Galaxy"
+date: '2022-06-07'
+days: 1
+tease: "Workshop at the ELIXIR All Hands 2022"
+continent: EU
+location: "ELIXIR All Hands 2022, Amsterdam, Europe"
+location_url: "https://elixir-europe.org/events/elixir-all-hands-2022"
+external_url: "https://docs.google.com/document/d/17IVSvLmnianF6VOLO7GQfwPFDTpm9DF95ShHXnaarNo/edit"
+gtn: false
+contact: "Anup Kumar, Kaivan Kamali, Leyla Jael Castro, Fotis E. Psomopoulos and Björn Grüning"
+image:
+subsites: [global, all-eu]
+---

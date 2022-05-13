@@ -10,4 +10,5 @@ external_url: "https://docs.google.com/document/d/1sBwuWNdWVymOqajbrzp8Xg-IcPRXe
 gtn: 
 contact: Organizers
 image: 
+subsites: [global, us]
 ---

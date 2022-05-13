@@ -8,6 +8,7 @@ image: "/events/2018-gcb/gcb-2018-wide.png"
 location_url: "https://gcb2018.csb.univie.ac.at/"
 external_url: 
 contact: "Presenters"
+subsites: [global, us]
 ---
 
 There will be several Galaxy related presentations at the [2018 German Conference on Bioinformatics (GCB)](https://gcb2018.csb.univie.ac.at/):

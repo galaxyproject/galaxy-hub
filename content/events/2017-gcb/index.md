@@ -9,4 +9,5 @@ image: /images/logos/gcb-2017-logo-wide.png
 location_url: http://www.gcb2017.de/
 external_url: 
 contact: Bérénice Batut
+subsites: [global, us]
 ---

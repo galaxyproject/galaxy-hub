@@ -9,4 +9,5 @@ location_url: https://elixir-iib-training.github.io/website/2017/07/03/Galaxy-Ca
 external_url: https://elixir-iib-training.github.io/website/2017/07/03/Galaxy-Cagliari.html
 gtn: true
 contact: Gianmauro Cuccuru
+subsites: [global, us]
 ---

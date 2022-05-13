@@ -10,6 +10,7 @@ location_url: http://med.tanta.edu.eg/
 external_url: https://www.facebook.com/events/1836526683279672/
 gtn: true
 contact: Abdelazeem Abdelhameed
+subsites: [global, us]
 ---
 <div class='left'><img src="/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
 

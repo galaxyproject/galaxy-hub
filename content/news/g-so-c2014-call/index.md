@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code Proposals"
 date: "2014-01-18"
+subsites: [global, us]
 ---
 <div class='right'><a href='https://www.google-melange.com/archive/gsoc/2014'><img src="/images/logos/GSoC2014Logo.png" alt="Google Summer of Code 2014" width="200" /></a></div>
 

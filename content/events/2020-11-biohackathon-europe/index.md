@@ -11,6 +11,7 @@ image: bh-eu-2020.jpg
 gtn: False
 contact: "Project organizers"
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
 <div class="float-right" style="max-width: 160px">

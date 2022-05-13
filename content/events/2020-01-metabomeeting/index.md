@@ -9,6 +9,7 @@ location_url: "http://rfmf-mpf-2020.sciencesconf.org"
 gtn: true
 contact: Presenters
 image:
+subsites: [global, us]
 ---
 
 | Topic | Contact |

@@ -9,6 +9,7 @@ location_url: http://www.qfab.org/
 external_url: http://www.qfab.org/workshops/rna-seq-analysis-using-galaxy-01-mar-2017
 gtn: true
 contact: organizers
+subsites: [global, us]
 ---
 This hands-on workshop introduces the concepts of RNA-Seq analysis, from data preparation through to statistical testing for differential gene expression, along with more advanced topics such as identification of novel transcription features and pathway and functional enrichment analysis.
 

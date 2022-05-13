@@ -1,6 +1,7 @@
 ---
 title: "2014 Galaxy Questionnaires"
 date: "2014-09-30"
+subsites: [global, us]
 ---
 The Galaxy Project is preparing for our next grant cycle and we are seeking your feedback and comments on on all things Galaxy.  We have created two questionnaires, each focused on how you interact with Galaxy:
 **

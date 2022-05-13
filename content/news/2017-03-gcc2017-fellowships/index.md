@@ -1,6 +1,7 @@
 ---
 title: 'Apply for a GCC2017 Fellowship'
 date: '2017-03-06'
+subsites: [global, us]
 ---
 <div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
 

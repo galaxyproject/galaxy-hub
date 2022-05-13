@@ -1,23 +1,27 @@
 <template>
     <div :class="classes" :style="style">
-        <b-navbar class="container justify-content-center" toggleable="lg" variant="transparent">
+        <b-navbar class="container justify-content-center" toggleable="lg" :type="theme" variant="transparent">
             <b-navbar-brand to="/">
                 <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" height="30" />
             </b-navbar-brand>
-            <b-navbar-brand
-                class="subsite-name"
-                v-if="subsite && subsite !== 'root'"
-                :to="`${pathPrefix}/`"
-                v-html="subsiteName"
-            />
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-nav id="navbar-menu">
+                <b-navbar-brand id="subsite-name" v-if="subsite !== 'global'" :to="`${pathPrefix}/`">
+                    <p>{{ subsiteName }}</p>
+                </b-navbar-brand>
+                <b-navbar-nav id="subsite-items">
+                    <b-nav-item-dropdown id="subsite-select" v-if="false && subsiteName" text="Regions">
+                        <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
+                            {{ link.name }}
+                        </b-dropdown-item>
+                    </b-nav-item-dropdown>
                     <b-nav-item :to="`${pathPrefix}/news/`">News</b-nav-item>
                     <b-nav-item :to="`${pathPrefix}/events/`">Events</b-nav-item>
-                    <b-nav-item to="/learn/">Training</b-nav-item>
+                </b-navbar-nav>
+                <b-navbar-nav id="global-items" class="ml-auto">
                     <b-nav-item-dropdown text="Support">
                         <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
+                        <b-dropdown-item to="/learn/">Training</b-dropdown-item>
                         <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="Community">
@@ -44,15 +48,9 @@
                     <b-nav-item to="/projects/covid19/">Covid19</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
                 </b-navbar-nav>
-                <b-navbar-nav id="navbar-misc" class="ml-auto">
-                    <b-nav-form action="/search/" method="get">
-                        <b-form-input
-                            id="search-input"
-                            size="sm"
-                            class="mr-sm-1"
-                            name="q"
-                            placeholder="Search"
-                        ></b-form-input>
+                <b-navbar-nav id="global-tools" class="ml-2">
+                    <b-nav-form id="search" action="/search/" method="get">
+                        <b-form-input id="search-input" size="sm" name="q" placeholder="Search"></b-form-input>
                     </b-nav-form>
                     <b-nav-item :href="editUrl">
                         <i class="fab fa-lg fa-github"></i>
@@ -65,17 +63,23 @@
 </template>
 
 <script>
-import { rmPrefix } from "~/utils.js";
+import { rmPrefix, getSingleKey } from "~/utils.js";
 import CONFIG from "~/../config.json";
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
     props: {
-        subsite: { type: String, required: false, default: "root" },
+        subsite: { type: String, required: false, default: ROOT_SUBSITE },
+    },
+    data() {
+        return {
+            rootSubsite: ROOT_SUBSITE,
+        };
     },
     computed: {
         pathPrefix() {
-            if (!this.subsite || this.subsite === "root") {
+            if (!this.subsite || this.subsite === ROOT_SUBSITE) {
                 return "";
             } else {
                 return `/${this.subsite}`;
@@ -84,9 +88,37 @@ export default {
         subsiteName() {
             let nameRaw = CONFIG.subsites.metadata[this.subsite]?.name;
             if (nameRaw) {
-                return nameRaw.replace(/[/ ]/, "<br>");
+                return nameRaw.replace("/", " ");
             } else {
                 return "";
+            }
+        },
+        subsiteLinks() {
+            let subsitesLinks = [];
+            for (let [subsite, metadata] of Object.entries(CONFIG.subsites.metadata)) {
+                if (subsite === this.subsite) {
+                    continue;
+                }
+                let link = {
+                    key: subsite,
+                    name: metadata.name,
+                    order: metadata.order,
+                };
+                if (subsite == "global") {
+                    link.path = "/";
+                } else {
+                    link.path = `/${subsite}/`;
+                }
+                subsitesLinks.push(link);
+            }
+            subsitesLinks.sort((a, b) => a.order > b.order);
+            return subsitesLinks;
+        },
+        theme() {
+            if (CONFIG.subsites.metadata[this.subsite]?.lightBg) {
+                return "light";
+            } else {
+                return "dark";
             }
         },
         classes() {
@@ -142,8 +174,20 @@ function getPath(page) {
 </script>
 
 <style scoped>
-.subsite-name {
-    text-align: center;
+#subsite-name {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#subsite-name > p {
     line-height: 100%;
+    white-space: normal;
+    font-size: 1.1rem;
+    max-width: 95px;
+    margin: 0;
+    padding: 0;
+}
+#search-input {
+    width: 175px;
 }
 </style>

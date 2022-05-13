@@ -3,6 +3,7 @@ title: "Dec 9 Webinar: Use Galaxy on the web, the cloud, and your laptop too"
 tease: "Options for using Galaxy: everywhere and right now"
 external_url: ""
 date: "2020-12-03"
+subsites: [global, us]
 ---
 
 <img class="float-right" src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project" />

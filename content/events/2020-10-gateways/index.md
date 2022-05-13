@@ -10,4 +10,5 @@ external_url: "https://sciencegateways.org/web/gateways2020/welcome"
 gtn: false
 contact: "Enis Afgan, Dave Clements"
 image: 
+subsites: [global, us]
 ---

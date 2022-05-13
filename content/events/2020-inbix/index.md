@@ -9,6 +9,7 @@ image: "inbix2020-logo.jpg"
 location_url: "https://easychair.org/cfp/inbix2020"
 external_url: 
 contact: "Presenters"
+subsites: [global, us]
 ---
 
 Galaxy will be a part of several presentations at [Inbix2020](https://easychair.org/cfp/inbix2020).  Want to learn more?  Plan to attend these:

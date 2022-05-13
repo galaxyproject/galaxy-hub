@@ -11,6 +11,7 @@ external_url:
 gtn: false
 contact: GCC2021 CoFest Organizers
 tags: [ cofest, papercuts ]
+subsites: [global, us]
 ---
 
 The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is almost here, and that includes the [CoFest on July 9-10](https://sched.co/iLKn).  **In June, the GCC2021 CoFest Organizers are seizing Paper Cuts Day to do planning for the CoFest.**  GCC2021 CoFest Prep Day will be a virtual, global, day-long event that starts in Australia and follows the sun for the next day.  We will have community calls covering the globe.

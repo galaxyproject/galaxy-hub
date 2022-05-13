@@ -10,6 +10,7 @@ external_url: http://conf.abrf.org/sw2-galaxy-platform-accessible-core-laborator
 image: /images/logos/ABRFLogoSquareSmall.png
 gtn: true
 contact: Pratik Jagtap
+subsites: [global, us]
 ---
 
 * [Tutorial](http://z.umn.edu/abrf18doc)

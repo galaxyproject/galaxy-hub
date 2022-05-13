@@ -10,5 +10,6 @@ external_url: "https://www.eventbrite.com.au/e/introduction-to-variant-calling-w
 image: 
 gtn: true
 contact: "Khalid Mahmood"
+subsites: [global, us]
 ---
 

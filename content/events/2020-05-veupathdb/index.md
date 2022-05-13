@@ -19,4 +19,5 @@ links:
   - text: "Part 2"
     url: "https://community.eupathdb.org/documents/14May2020_RNA-sequence-data-analysis-in-VEuPathDB-Galaxy-Part-2.pdf"
 contact: "Instructors"
+subsites: [global, us]
 ---

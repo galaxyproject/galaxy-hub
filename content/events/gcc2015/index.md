@@ -11,6 +11,7 @@ gtn: true
 contact: Organisers
 image: /images/logos/GCC2015LogoSimple300.png
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
  <span style="font-size: larger;">[GCC2015 is done](http://gcc2015.tsl.ac.uk/). *[GCC2018 is coming](https://gccbosc2018.sched.com/)*</span>

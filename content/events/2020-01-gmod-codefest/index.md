@@ -10,4 +10,5 @@ external_url: "http://gmod.org/wiki/Codefest_2020"
 gtn: false
 contact: "Scott Cain, Dave Clements"
 image: 
+subsites: [global, us]
 ---

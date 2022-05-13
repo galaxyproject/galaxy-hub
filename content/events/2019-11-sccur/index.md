@@ -10,4 +10,5 @@ external_url: "https://depot.galaxyproject.org/hub/attachments/events/2019-11-sc
 image: ""
 gtn: false
 contact: "Ciara Sanders, Paul Orwin"
+subsites: [global, us]
 ---

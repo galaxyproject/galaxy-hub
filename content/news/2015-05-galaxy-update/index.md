@@ -1,6 +1,7 @@
 ---
 title: "May Galactic News!"
 date: "2015-05-01"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2015-05/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galactic News! May 2015 Edition" width=150 /></a><br /><br />

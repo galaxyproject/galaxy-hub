@@ -10,4 +10,5 @@ external_url: "https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-an
 gtn: false
 contact: "Marina Pujol"
 image: 
+subsites: [global, us]
 ---

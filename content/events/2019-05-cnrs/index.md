@@ -10,4 +10,5 @@ external_url: "https://cnrsformation.cnrs.fr/stage-19019-Analyse-avancee-de-sequ
 gtn: true
 contact: "Macha Nikolski"
 image: 
+subsites: [global, us]
 ---

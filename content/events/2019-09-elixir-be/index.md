@@ -10,4 +10,5 @@ external_url: "https://www.elixir-belgium.org/events/elixir-belgium-all-hands-me
 gtn: false
 contact: "Frederik Coppens"
 image: 
+subsites: [global, us]
 ---

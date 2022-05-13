@@ -10,4 +10,5 @@ location_url: "https://www.melbournebioinformatics.org.au/training-and-events/"
 external_url: "https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-nanopore-and-illumina-online-tickets-118408967409"
 gtn: true
 contact: "Grace Hall"
+subsites: [global, us]
 ---

@@ -10,7 +10,8 @@ location_url:
 external_url:
 gtn: false
 contact: "Hans-Rudolf Hotz"
-tags: 
+tags: []
+subsites: [global, us]
 ---
 
 

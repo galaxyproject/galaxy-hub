@@ -10,4 +10,5 @@ location_url: "https://genespectrum.co.in/training"
 image: 
 gtn: false
 contact: contact@genespectrum.co.in
+subsites: [global, us]
 ---

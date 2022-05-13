@@ -10,4 +10,5 @@ external_url: "https://genespectrum.co.in/bioinformatics-training/ngs-data-analy
 gtn: false
 contact: "contact @ genespectrum.co.in"
 image: 
+subsites: [global, us]
 ---

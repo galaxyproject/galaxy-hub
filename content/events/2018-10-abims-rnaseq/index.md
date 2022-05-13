@@ -10,4 +10,5 @@ external_url: "http://www.fc.upmc.fr/fr/catalogue-de-formations-2017-2018/format
 image: 
 gtn: true
 contact: "christine.mantecon @upmc.fr"
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Hackathon at GCC2014"
 date: "2014-04-18"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/gcc2014/hackathon/'><img src="/images/logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></a></div>
 

@@ -2,6 +2,7 @@
 title: 'Genomic data analyst opening @ ARTbio'
 tease:  "COllaborative NEtwork on research for Children and Teenagers with Acute Myeloblastic Leukemia"
 date: '2019-01-09'
+subsites: [global, us]
 ---
 
 [<img class="float-right img-fluid mx-auto" src="/use/mississippi/artbio-ibps-logo.png" alt="Position @ ARTbio" />](http://artbio.fr/)

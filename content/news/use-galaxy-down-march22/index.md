@@ -1,6 +1,7 @@
 ---
 title: "March 22 UseGalaxy.org Upgrade"
 date: "2014-03-17"
+subsites: [global, us]
 ---
 <div class='right'><a href='/use/'><img src="/public-galaxy-servers/50PlusSlide.png" alt="50+ Public Galaxy Servers that will not be affected by this outage" width="200" /></a></div>
 

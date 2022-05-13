@@ -9,6 +9,7 @@ image: /images/logos/GlasgowPolyomics.jpg
 location_url: https://biotexcel.com/event/ngs-2017-glasgow/
 external_url: https://biotexcel.com/event/ngs-2017-glasgow/#workshop
 contact: Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar
+subsites: [global, us]
 ---
 The workshop will use Galaxy (usegalaxy.org), an open source web-based platform
 for informatics data analysis; we will briefly introduce Galaxy and familiarise

@@ -45,6 +45,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 @import "~@fortawesome/fontawesome-free/scss/regular.scss";
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/v4-shims.scss";
 
 @import "overrides.scss";
 
@@ -99,7 +100,7 @@ footer {
 
 #masthead {
     background-color: $brand-masthead;
-    .subsite-name {
+    #subsite-name {
         color: $brand-masthead-text;
         &:hover {
             color: $brand-masthead-text-hover;
@@ -124,7 +125,7 @@ footer {
             }
         }
     }
-    .light-bg .subsite-name {
+    .light-bg #subsite-name {
         color: black;
     }
     .light-bg .navbar-nav {
