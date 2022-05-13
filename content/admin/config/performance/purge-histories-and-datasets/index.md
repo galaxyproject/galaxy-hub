@@ -153,7 +153,7 @@ In the lifecycle of a `History` record, the stage following the "deleted" stage
 is the "purged" stage, the last stage in the `History` record's lifecycle. When a
 `History` record is purged, all `HistoryDatasetAssociation` records associated with
 the History record are purged. When a `HistoryDatasetAssociation` is purged, it
-is marked as deleted. Addionally the Dataset associated with the HDA is marked
+is marked as deleted. Additionally the Dataset associated with the HDA is marked
 as deleted only if all associations to that `Dataset` are also purged (HDA & LDDA
 are all marked as deleted); when this happens, HDAs and LDDAs are no longer
 undeletable by the user - if '-r' is used the associated files and metadata
@@ -203,7 +203,7 @@ will be purged if the -r flag is used.
 
 ### Purging Library Folders
 
-Besides existing in user's history, dataset association objects exist with in
+Besides existing in user's history, dataset association objects exist within
 `Library` Folders; they are known as `LibraryDatasetDatasetAssociations` (LDDAs).
 Purging a library folder is similar to purging a History. An example command
 is:
