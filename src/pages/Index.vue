@@ -1,18 +1,22 @@
 <template>
     <Layout>
         <header id="header">
-            <h1 class="display-4">{{ $page.main.title }}</h1>
-            <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
+            <h1 class="display-4">{{ inserts.main.title }}</h1>
+            <h3 v-if="inserts.main.subtitle">{{ inserts.main.subtitle }}</h3>
         </header>
 
-        <div id="static-content" class="row">
-            <section :class="hasJumbotron ? 'col-sm-5' : ''">
-                <div class="lead markdown" v-html="$page.main.content" />
+        <div id="top-content" class="row">
+            <section id="lead" v-if="has.lead" :class="`col-sm-${topWidth}`">
+                <div class="lead markdown" v-html="inserts.lead.content" />
             </section>
-            <section id="jumbotron" class="col-sm-7" v-if="hasJumbotron">
-                <h3 v-if="$page.jumbotron.title" class="title text-center">{{ $page.jumbotron.title }}</h3>
-                <div class="text-center markdown" v-html="$page.jumbotron.content" />
+            <section id="jumbotron" v-if="has.jumbotron" :class="`col-sm-${topWidth}`">
+                <h3 v-if="inserts.jumbotron.title" class="title text-center">{{ inserts.jumbotron.title }}</h3>
+                <div class="text-center markdown" v-html="inserts.jumbotron.content" />
             </section>
+        </div>
+
+        <div id="main-content" v-if="has.main" class="row">
+            <section class="col-sm-12" v-html="inserts.main.content" />
         </div>
 
         <b-row id="profiles" class="justify-content-md-center">
@@ -52,20 +56,22 @@
             <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
             <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
             <HomeCard
-                :title="inserts.twitter.title"
-                :link="inserts.twitter.link"
-                :icon="inserts.twitter.icon"
-                :content="inserts.twitter.content"
+                v-if="cards.twitter"
+                :title="cards.twitter.title"
+                :link="cards.twitter.link"
+                :icon="cards.twitter.icon"
+                :content="cards.twitter.content"
             />
         </div>
 
         <div class="row">
             <HomeCard
-                :title="inserts.videos.title"
-                :link="inserts.videos.link"
-                :icon="inserts.videos.icon"
-                :content="inserts.videos.content"
-                :items="inserts.videos.items"
+                v-if="cards.videos"
+                :title="cards.videos.title"
+                :link="cards.videos.link"
+                :icon="cards.videos.icon"
+                :content="cards.videos.content"
+                :items="cards.videos.items"
             />
             <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
             <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
@@ -73,23 +79,25 @@
 
         <div class="row">
             <HomeCard
-                :title="inserts.platforms.title"
-                :link="inserts.platforms.link"
-                :icon="inserts.platforms.icon"
-                :content="inserts.platforms.content"
-                :items="inserts.platforms.items"
+                v-if="cards.platforms"
+                :title="cards.platforms.title"
+                :link="cards.platforms.link"
+                :icon="cards.platforms.icon"
+                :content="cards.platforms.content"
+                :items="cards.platforms.items"
             />
             <HomeCard
-                :title="inserts.pubs.title"
-                :link="inserts.pubs.link"
-                :icon="inserts.pubs.icon"
-                :content="inserts.pubs.content"
-                :items="inserts.pubs.items"
+                v-if="cards.pubs"
+                :title="cards.pubs.title"
+                :link="cards.pubs.link"
+                :icon="cards.pubs.icon"
+                :content="cards.pubs.content"
+                :items="cards.pubs.items"
                 :width="8"
             />
         </div>
 
-        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
+        <section class="extra markdown" v-if="has.extra" v-html="inserts.extra.content" />
     </Layout>
 </template>
 
@@ -105,70 +113,75 @@ export default {
     metaInfo: {
         title: "Home",
     },
-    computed: {
-        inserts() {
-            let inserts = {};
-            for (let edge of this.$page.allInsert.edges) {
-                let name = rmSuffix(rmPrefix(edge.node.path, "/insert:/homepage-"), "/");
-                inserts[name] = edge.node;
+    created() {
+        this.inserts = {};
+        this.has = {};
+        this.cards = {};
+        for (let insert of this.$page.allInsert.edges.map((edge) => edge.node)) {
+            let name = rmSuffix(rmPrefix(insert.path, "/insert:/"), "/");
+            if (name.endsWith("-card")) {
+                let cardName = rmSuffix(name, "-card");
+                this.cards[cardName] = insert;
+            } else {
+                this.inserts[name] = insert;
             }
-            return inserts;
-        },
+            this.has[name] = Boolean(insert && insert.content && insert.content.trim());
+        }
+    },
+    computed: {
         latest() {
             let latest = {};
-            for (let category of ["blog", "news", "events", "careers"]) {
-                latest[category] = this.$page[category].edges.map((edge) => edge.node);
+            for (let [category, value] of Object.entries(this.$page)) {
+                if (value.edges && category !== "allInsert") {
+                    latest[category] = value.edges.map((edge) => edge.node);
+                }
             }
             return latest;
         },
-        hasJumbotron() {
-            return this.$page.jumbotron && this.$page.jumbotron.content.trim();
+        topWidth() {
+            if (this.has.lead && this.has.jumbotron) {
+                return 6;
+            } else {
+                return 12;
+            }
         },
     },
     mounted() {
         // Insert Twitter feed.
-        !(function (d, s, id) {
-            var js,
-                fjs = d.getElementsByTagName(s)[0],
-                p = /^http:/.test(d.location) ? "http" : "https";
-            if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = p + "://platform.twitter.com/widgets.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        })(document, "script", "twitter-wjs");
+        if (this.cards.twitter) {
+            !(function (d, s, id) {
+                var js,
+                    fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? "http" : "https";
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            })(document, "script", "twitter-wjs");
+        }
         // Add altmetrics stats badges to publications.
-        const altmetricScript = document.createElement("script");
-        altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
-        document.head.appendChild(altmetricScript);
+        if (this.cards.pubs) {
+            const altmetricScript = document.createElement("script");
+            altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
+            document.head.appendChild(altmetricScript);
+        }
     },
 };
 </script>
 
 <page-query>
 query {
-    jumbotron: insert(path: "/insert:/jumbotron/") {
-        id
-        title
-        content
-    }
-    main: insert(path: "/insert:/main/") {
-        id
-        title
-        subtitle
-        content
-        fileInfo {
-            path
-        }
-    }
-    allInsert(filter: {path: {regex: "^/insert:/homepage-[^/]+/$"}}) {
+    allInsert(filter: {path: {regex: "^/insert:/[^/]+/$"}}) {
         totalCount
         edges {
             node {
                 id
                 path
                 title
+                subtitle
+                content
                 link
                 icon
                 items {
@@ -176,14 +189,11 @@ query {
                     link
                     tease
                 }
-                content
+                fileInfo {
+                    path
+                }
             }
         }
-    }
-    footer: insert(path: "/insert:/footer/") {
-        id
-        title
-        content
     }
     news: allArticle(
         limit: 5, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
@@ -248,7 +258,7 @@ fragment articleFields on Article {
 #header {
     margin-bottom: 2.5rem;
 }
-#static-content {
+#top-content {
     margin-bottom: 40px;
 }
 #jumbotron .title {
