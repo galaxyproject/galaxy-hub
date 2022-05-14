@@ -507,7 +507,7 @@ function gatherCards(inserts) {
 }
 module.exports.gatherCards = gatherCards;
 
-function makeCardRows(rawCards, latest, cardsData, rowWidth = 3) {
+function makeCardRows(rawCards, latest, cardsData, prefix = "", rowWidth = 3) {
     let rows = [];
     let row = [];
     let remaining = rowWidth;
@@ -518,6 +518,9 @@ function makeCardRows(rawCards, latest, cardsData, rowWidth = 3) {
             if (items) {
                 cardData = { items: items };
                 Object.assign(cardData, card);
+                if (!cardData.link && card.path) {
+                    cardData.link = prefix + card.path;
+                }
             } else {
                 console.error(repr`Dynamic card ${card.name} listed but no data found in GraphQL query.`);
             }

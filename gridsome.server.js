@@ -371,6 +371,7 @@ module.exports = function (api) {
                     context: {
                         subsite: subsite,
                         insertRegex: `^/insert:${prefix}${path}[^/]+/$`,
+                        cardsPath: `/insert:${prefix}${path}cards/`,
                         mainPath: `/insert:${prefix}${path}main/`,
                         footerPath: `/insert:${prefix}${path}footer/`,
                     },

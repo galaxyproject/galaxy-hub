@@ -11,9 +11,17 @@
             <section class="col-sm-12" v-html="inserts.main.content" />
         </div>
 
-        <div class="row">
-            <HomeCard title="News" :link="`/${subsite}/news/`" icon="fas fa-bullhorn" :items="latest.news" />
-            <HomeCard title="Events" :link="`/${subsite}/events/`" icon="far fa-calendar-alt" :items="latest.events" />
+        <div class="row" v-for="(cardRow, i) of cardRows" :key="i">
+            <HomeCard
+                v-for="(card, j) of cardRow"
+                :key="j"
+                :title="card.title"
+                :link="card.link"
+                :icon="card.icon"
+                :width="card.width"
+                :items="card.items"
+                :content="card.content"
+            />
         </div>
 
         <section class="extra markdown" v-if="hasContent(inserts.extra)" v-html="inserts.extra.content" />
@@ -23,7 +31,15 @@
 <script>
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
-import { hasContent, gatherInserts, gatherCollections, gatherCards, addTwitterWidget, addAltmetrics } from "~/utils.js";
+import {
+    hasContent,
+    gatherInserts,
+    gatherCollections,
+    gatherCards,
+    makeCardRows,
+    addTwitterWidget,
+    addAltmetrics,
+} from "~/utils.js";
 export default {
     components: {
         HomeTop,
@@ -40,13 +56,14 @@ export default {
     created() {
         this.inserts = gatherInserts(this.$page.allInsert);
         this.cards = gatherCards(this.inserts);
+        this.latest = gatherCollections(this.$page);
     },
     computed: {
-        latest() {
-            return gatherCollections(this.$page);
-        },
         subsite() {
             return this.$context.subsite;
+        },
+        cardRows() {
+            return makeCardRows(this.$page.cards.list, this.latest, this.cards, `/${this.$context.subsite}`);
         },
     },
     mounted() {
@@ -63,7 +80,18 @@ export default {
 </script>
 
 <page-query>
-query($subsite: String, $insertRegex: String) {
+query($subsite: String, $cardsPath: String, $insertRegex: String) {
+    cards: insert(path: $cardsPath) {
+        id
+        list {
+            name
+            type
+            title
+            link
+            icon
+            width
+        }
+    }
     allInsert(filter: {path: {regex: $insertRegex}}) {
         totalCount
         edges {
