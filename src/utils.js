@@ -474,10 +474,10 @@ function gatherInserts(allInsert) {
     let inserts = {};
     for (let insert of allInsert.edges.map((edge) => edge.node)) {
         let parts = insert.path.split("/");
-        if (parts.length < 4 || parts[0] !== "" || parts[1] !== "insert:" || parts[parts.length-1] !== "") {
+        if (parts.length < 4 || parts[0] !== "" || parts[1] !== "insert:" || parts[parts.length - 1] !== "") {
             throw repr`Error: Insert has invalid path ${insert.path}`;
         }
-        let name = parts[parts.length-2];
+        let name = parts[parts.length - 2];
         inserts[name] = insert;
     }
     return inserts;

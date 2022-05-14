@@ -28,7 +28,7 @@ export default {
                 return 12;
             }
         },
-    }
+    },
 };
 </script>
 
