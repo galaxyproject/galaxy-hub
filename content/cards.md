@@ -1,5 +1,5 @@
 ---
-cards:
+list:
 - name: news
   type: dynamic
   title: News

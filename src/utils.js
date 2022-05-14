@@ -507,7 +507,7 @@ function gatherCards(inserts) {
 }
 module.exports.gatherCards = gatherCards;
 
-function makeCardRows(rawCards, latest, cardsData, rowWidth) {
+function makeCardRows(rawCards, latest, cardsData, rowWidth = 3) {
     let rows = [];
     let row = [];
     let remaining = rowWidth;
@@ -523,6 +523,9 @@ function makeCardRows(rawCards, latest, cardsData, rowWidth) {
             }
         } else if (card.type === "static") {
             cardData = cardsData[card.name];
+            if (!cardData) {
+                console.warn(repr`Static card ${card.name} listed but no Markdown file found for it.`);
+            }
         }
         if (!cardData) {
             continue;

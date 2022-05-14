@@ -74,7 +74,6 @@ import {
     addTwitterWidget,
     addAltmetrics,
 } from "~/utils.js";
-const ROW_WIDTH = 3;
 export default {
     components: {
         HomeTop,
@@ -94,7 +93,7 @@ export default {
     },
     computed: {
         cardRows() {
-            return makeCardRows(this.$page.homecards.cards, this.latest, this.cards, ROW_WIDTH);
+            return makeCardRows(this.$page.cards.list, this.latest, this.cards);
         },
     },
     mounted() {
@@ -112,9 +111,9 @@ export default {
 
 <page-query>
 query {
-    homecards: insert(path: "/insert:/homecards/") {
+    cards: insert(path: "/insert:/cards/") {
         id
-        cards {
+        list {
             name
             type
             title
