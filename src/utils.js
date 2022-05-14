@@ -507,6 +507,44 @@ function gatherCards(inserts) {
 }
 module.exports.gatherCards = gatherCards;
 
+function makeCardRows(rawCards, latest, cardsData, rowWidth) {
+    let rows = [];
+    let row = [];
+    let remaining = rowWidth;
+    for (let card of rawCards) {
+        let cardData;
+        if (card.type === "dynamic") {
+            let items = latest[card.name];
+            if (items) {
+                cardData = { items: items };
+                Object.assign(cardData, card);
+            } else {
+                console.error(repr`Dynamic card ${card.name} listed but no data found in GraphQL query.`);
+            }
+        } else if (card.type === "static") {
+            cardData = cardsData[card.name];
+        }
+        if (!cardData) {
+            continue;
+        }
+        let width = card.width || 1;
+        // Standard Bootstrap row width is 12.
+        cardData.width = (width * 12) / rowWidth;
+        row.push(cardData);
+        remaining -= width;
+        if (remaining <= 0) {
+            rows.push(row);
+            row = [];
+            remaining = rowWidth;
+        }
+    }
+    if (row.length > 0) {
+        rows.push(row);
+    }
+    return rows;
+}
+module.exports.makeCardRows = makeCardRows;
+
 /** Search for an object key in an object, recursively.
  * Descend into every value whose `getType()` is "Object" or "Array".
  * @param {Object} obj       The object to search.

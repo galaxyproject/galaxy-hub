@@ -44,48 +44,16 @@
             />
         </b-row>
 
-        <div class="row">
-            <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
-            <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
+        <div class="row" v-for="(cardRow, i) of cardRows" :key="i">
             <HomeCard
-                v-if="cards.twitter"
-                :title="cards.twitter.title"
-                :link="cards.twitter.link"
-                :icon="cards.twitter.icon"
-                :content="cards.twitter.content"
-            />
-        </div>
-
-        <div class="row">
-            <HomeCard
-                v-if="cards.videos"
-                :title="cards.videos.title"
-                :link="cards.videos.link"
-                :icon="cards.videos.icon"
-                :content="cards.videos.content"
-                :items="cards.videos.items"
-            />
-            <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
-            <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
-        </div>
-
-        <div class="row">
-            <HomeCard
-                v-if="cards.platforms"
-                :title="cards.platforms.title"
-                :link="cards.platforms.link"
-                :icon="cards.platforms.icon"
-                :content="cards.platforms.content"
-                :items="cards.platforms.items"
-            />
-            <HomeCard
-                v-if="cards.pubs"
-                :title="cards.pubs.title"
-                :link="cards.pubs.link"
-                :icon="cards.pubs.icon"
-                :content="cards.pubs.content"
-                :items="cards.pubs.items"
-                :width="8"
+                v-for="(card, j) of cardRow"
+                :key="j"
+                :title="card.title"
+                :link="card.link"
+                :icon="card.icon"
+                :width="card.width"
+                :items="card.items"
+                :content="card.content"
             />
         </div>
 
@@ -97,7 +65,16 @@
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
 import HomeProfile from "@/components/HomeProfile.vue";
-import { hasContent, gatherCollections, gatherInserts, gatherCards, addTwitterWidget, addAltmetrics } from "~/utils.js";
+import {
+    hasContent,
+    gatherCollections,
+    gatherInserts,
+    gatherCards,
+    makeCardRows,
+    addTwitterWidget,
+    addAltmetrics,
+} from "~/utils.js";
+const ROW_WIDTH = 3;
 export default {
     components: {
         HomeTop,
@@ -113,10 +90,11 @@ export default {
     created() {
         this.inserts = gatherInserts(this.$page.allInsert);
         this.cards = gatherCards(this.inserts);
+        this.latest = gatherCollections(this.$page);
     },
     computed: {
-        latest() {
-            return gatherCollections(this.$page);
+        cardRows() {
+            return makeCardRows(this.$page.homecards.cards, this.latest, this.cards, ROW_WIDTH);
         },
     },
     mounted() {
@@ -134,6 +112,17 @@ export default {
 
 <page-query>
 query {
+    homecards: insert(path: "/insert:/homecards/") {
+        id
+        cards {
+            name
+            type
+            title
+            link
+            icon
+            width
+        }
+    }
     allInsert(filter: {path: {regex: "^/insert:/[^/]+/$"}}) {
         totalCount
         edges {
