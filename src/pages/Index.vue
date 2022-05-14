@@ -5,17 +5,9 @@
             <h3 v-if="inserts.main.subtitle">{{ inserts.main.subtitle }}</h3>
         </header>
 
-        <div id="top-content" class="row">
-            <section id="lead" v-if="has.lead" :class="`col-sm-${topWidth}`">
-                <div class="lead markdown" v-html="inserts.lead.content" />
-            </section>
-            <section id="jumbotron" v-if="has.jumbotron" :class="`col-sm-${topWidth}`">
-                <h3 v-if="inserts.jumbotron.title" class="title text-center">{{ inserts.jumbotron.title }}</h3>
-                <div class="text-center markdown" v-html="inserts.jumbotron.content" />
-            </section>
-        </div>
+        <HomeTop :lead="inserts.lead" :jumbotron="inserts.jumbotron" />
 
-        <div id="main-content" v-if="has.main" class="row">
+        <div id="main-content" v-if="hasContent(inserts.main)" class="row">
             <section class="col-sm-12" v-html="inserts.main.content" />
         </div>
 
@@ -97,75 +89,44 @@
             />
         </div>
 
-        <section class="extra markdown" v-if="has.extra" v-html="inserts.extra.content" />
+        <section class="extra markdown" v-if="hasContent(inserts.extra)" v-html="inserts.extra.content" />
     </Layout>
 </template>
 
 <script>
+import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
-import { rmPrefix, rmSuffix } from "~/utils.js";
-import HomeProfile from "../components/HomeProfile.vue";
+import HomeProfile from "@/components/HomeProfile.vue";
+import { hasContent, gatherCollections, gatherInserts, gatherCards, addTwitterWidget, addAltmetrics } from "~/utils.js";
 export default {
     components: {
-        HomeCard,
+        HomeTop,
         HomeProfile,
+        HomeCard,
+    },
+    methods: {
+        hasContent,
     },
     metaInfo: {
         title: "Home",
     },
     created() {
-        this.inserts = {};
-        this.has = {};
-        this.cards = {};
-        for (let insert of this.$page.allInsert.edges.map((edge) => edge.node)) {
-            let name = rmSuffix(rmPrefix(insert.path, "/insert:/"), "/");
-            if (name.endsWith("-card")) {
-                let cardName = rmSuffix(name, "-card");
-                this.cards[cardName] = insert;
-            } else {
-                this.inserts[name] = insert;
-            }
-            this.has[name] = Boolean(insert && insert.content && insert.content.trim());
-        }
+        this.inserts = gatherInserts(this.$page.allInsert);
+        this.cards = gatherCards(this.inserts);
     },
     computed: {
         latest() {
-            let latest = {};
-            for (let [category, value] of Object.entries(this.$page)) {
-                if (value.edges && category !== "allInsert") {
-                    latest[category] = value.edges.map((edge) => edge.node);
-                }
-            }
-            return latest;
-        },
-        topWidth() {
-            if (this.has.lead && this.has.jumbotron) {
-                return 6;
-            } else {
-                return 12;
-            }
+            return gatherCollections(this.$page);
         },
     },
     mounted() {
         // Insert Twitter feed.
         if (this.cards.twitter) {
-            !(function (d, s, id) {
-                var js,
-                    fjs = d.getElementsByTagName(s)[0],
-                    p = /^http:/.test(d.location) ? "http" : "https";
-                if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = p + "://platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }
-            })(document, "script", "twitter-wjs");
+            addTwitterWidget(document);
         }
         // Add altmetrics stats badges to publications.
         if (this.cards.pubs) {
-            const altmetricScript = document.createElement("script");
-            altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
-            document.head.appendChild(altmetricScript);
+            addAltmetrics(document);
         }
     },
 };
@@ -258,13 +219,10 @@ fragment articleFields on Article {
 #header {
     margin-bottom: 2.5rem;
 }
-#top-content {
-    margin-bottom: 40px;
-}
-#jumbotron .title {
-    font-weight: bold;
-}
 #profiles {
     margin-bottom: 45px;
+}
+#main-content {
+    margin-bottom: 20px;
 }
 </style>

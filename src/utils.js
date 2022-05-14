@@ -443,6 +443,70 @@ function notifyParent(window) {
 }
 module.exports.notifyParent = notifyParent;
 
+function addTwitterWidget(document) {
+    !(function (d, s, id) {
+        var js,
+            fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? "http" : "https";
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    })(document, "script", "twitter-wjs");
+}
+module.exports.addTwitterWidget = addTwitterWidget;
+
+function addAltmetrics(document) {
+    const altmetricScript = document.createElement("script");
+    altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
+    document.head.appendChild(altmetricScript);
+}
+module.exports.addAltmetrics = addAltmetrics;
+
+function hasContent(item) {
+    return Boolean(item && item.content && item.content.trim());
+}
+module.exports.hasContent = hasContent;
+
+function gatherInserts(allInsert) {
+    let inserts = {};
+    for (let insert of allInsert.edges.map((edge) => edge.node)) {
+        let parts = insert.path.split("/");
+        if (parts.length < 4 || parts[0] !== "" || parts[1] !== "insert:" || parts[parts.length-1] !== "") {
+            throw repr`Error: Insert has invalid path ${insert.path}`;
+        }
+        let name = parts[parts.length-2];
+        inserts[name] = insert;
+    }
+    return inserts;
+}
+module.exports.gatherInserts = gatherInserts;
+
+function gatherCollections(page) {
+    let collections = {};
+    for (let [category, value] of Object.entries(page)) {
+        if (value.edges) {
+            collections[category] = value.edges.map((edge) => edge.node);
+        }
+    }
+    return collections;
+}
+module.exports.gatherCollections = gatherCollections;
+
+function gatherCards(inserts) {
+    let cards = {};
+    for (let [name, insert] of Object.entries(inserts)) {
+        if (name.endsWith("-card")) {
+            let cardName = rmSuffix(name, "-card");
+            cards[cardName] = insert;
+        }
+    }
+    return cards;
+}
+module.exports.gatherCards = gatherCards;
+
 /** Search for an object key in an object, recursively.
  * Descend into every value whose `getType()` is "Object" or "Array".
  * @param {Object} obj       The object to search.
