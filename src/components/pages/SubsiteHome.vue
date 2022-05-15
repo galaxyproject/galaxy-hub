@@ -1,98 +1,118 @@
 <template>
     <Layout :subsite="subsite">
         <header id="header">
-            <h1 class="title">{{ $page.main.title }}</h1>
-            <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
+            <h1 class="title">{{ inserts.main.title }}</h1>
+            <h3 v-if="inserts.main.subtitle">{{ inserts.main.subtitle }}</h3>
         </header>
 
-        <div id="top-content" class="row">
-            <section id="lead" v-if="has.lead" :class="`col-sm-${topWidth}`">
-                <div class="lead markdown" v-html="$page.lead.content" />
-            </section>
-            <section id="jumbotron" v-if="has.jumbotron" :class="`col-sm-${topWidth}`">
-                <h3 v-if="$page.jumbotron.title" class="title text-center">{{ $page.jumbotron.title }}</h3>
-                <div class="text-center markdown" v-html="$page.jumbotron.content" />
-            </section>
+        <HomeTop :lead="inserts.lead" :jumbotron="inserts.jumbotron" />
+
+        <div id="main-content" v-if="hasContent(inserts.main)" class="row">
+            <section class="col-sm-12" v-html="inserts.main.content" />
         </div>
 
-        <div id="main-content" v-if="has.main" class="row">
-            <section class="col-sm-12" v-html="$page.main.content" />
+        <div class="row" v-for="(cardRow, i) of cardRows" :key="i">
+            <HomeCard
+                v-for="(card, j) of cardRow"
+                :key="j"
+                :title="card.title"
+                :link="card.link"
+                :icon="card.icon"
+                :width="card.width"
+                :items="card.items"
+                :content="card.content"
+            />
         </div>
 
-        <div class="row">
-            <HomeCard title="News" :link="`/${subsite}/news/`" icon="fas fa-bullhorn" :items="latest.news" />
-            <HomeCard title="Events" :link="`/${subsite}/events/`" icon="far fa-calendar-alt" :items="latest.events" />
-        </div>
-
-        <section class="extra markdown" v-if="$page.extra" v-html="$page.extra.content" />
+        <section class="extra markdown" v-if="hasContent(inserts.extra)" v-html="inserts.extra.content" />
     </Layout>
 </template>
 
 <script>
+import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
+import {
+    hasContent,
+    gatherInserts,
+    gatherCollections,
+    gatherCards,
+    makeCardRows,
+    addTwitterWidget,
+    addAltmetrics,
+} from "~/utils.js";
 export default {
     components: {
+        HomeTop,
         HomeCard,
+    },
+    methods: {
+        hasContent,
     },
     metaInfo() {
         return {
-            title: this.$page.main.title,
+            title: this.inserts.main.title,
         };
     },
     created() {
-        this.has = {};
-        for (let key of Object.keys(this.$page)) {
-            let value = this.$page[key];
-            this.has[key] = value && value.content && value.content.trim();
-        }
+        this.inserts = gatherInserts(this.$page.allInsert);
+        this.cards = gatherCards(this.inserts);
+        this.latest = gatherCollections(this.$page);
     },
     computed: {
-        latest() {
-            let latest = {};
-            for (let category of ["news", "events"]) {
-                latest[category] = this.$page[category].edges.map((edge) => edge.node);
-            }
-            return latest;
-        },
         subsite() {
             return this.$context.subsite;
         },
-        topWidth() {
-            if (this.has.lead && this.has.jumbotron) {
-                return 6;
-            } else {
-                return 12;
-            }
+        cardRows() {
+            return makeCardRows(this.$page.cards.list, this.latest, this.cards, `/${this.$context.subsite}`);
         },
+    },
+    mounted() {
+        // Insert Twitter feed.
+        if (this.cards.twitter) {
+            addTwitterWidget(document);
+        }
+        // Add altmetrics stats badges to publications.
+        if (this.cards.pubs) {
+            addAltmetrics(document);
+        }
     },
 };
 </script>
 
 <page-query>
-query($subsite: String, $mainPath: String, $jumboPath: String, $leadPath: String, $extraPath: String) {
-    main: insert(path: $mainPath) {
+query($subsite: String, $cardsPath: String, $insertRegex: String) {
+    cards: insert(path: $cardsPath) {
         id
-        title
-        subtitle
-        content
-        fileInfo {
-            path
+        list {
+            name
+            type
+            title
+            link
+            icon
+            width
         }
     }
-    jumbotron: insert(path: $jumboPath) {
-        id
-        title
-        content
-    }
-    lead: insert(path: $leadPath) {
-        id
-        title
-        content
-    }
-    extra: insert(path: $extraPath) {
-        id
-        title
-        content
+    allInsert(filter: {path: {regex: $insertRegex}}) {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                title
+                subtitle
+                content
+                link
+                icon
+                items {
+                    title
+                    link
+                    tease
+                }
+                fileInfo {
+                    path
+                }
+            }
+        }
     }
     news: allArticle(
         limit: 5, filter: {category: {eq: "news" }, subsites: {contains: [$subsite]}, draft: {ne: true}}
@@ -136,10 +156,7 @@ fragment articleFields on Article {
 #header .title {
     font-size: 3rem;
 }
-#top-content {
-    margin-bottom: 40px;
-}
-#jumbotron .title {
-    font-weight: bold;
+#main-content {
+    margin-bottom: 20px;
 }
 </style>

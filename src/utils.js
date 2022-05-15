@@ -443,6 +443,114 @@ function notifyParent(window) {
 }
 module.exports.notifyParent = notifyParent;
 
+function addTwitterWidget(document) {
+    !(function (d, s, id) {
+        var js,
+            fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? "http" : "https";
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    })(document, "script", "twitter-wjs");
+}
+module.exports.addTwitterWidget = addTwitterWidget;
+
+function addAltmetrics(document) {
+    const altmetricScript = document.createElement("script");
+    altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
+    document.head.appendChild(altmetricScript);
+}
+module.exports.addAltmetrics = addAltmetrics;
+
+function hasContent(item) {
+    return Boolean(item && item.content && item.content.trim());
+}
+module.exports.hasContent = hasContent;
+
+function gatherInserts(allInsert) {
+    let inserts = {};
+    for (let insert of allInsert.edges.map((edge) => edge.node)) {
+        let parts = insert.path.split("/");
+        if (parts.length < 4 || parts[0] !== "" || parts[1] !== "insert:" || parts[parts.length - 1] !== "") {
+            throw repr`Error: Insert has invalid path ${insert.path}`;
+        }
+        let name = parts[parts.length - 2];
+        inserts[name] = insert;
+    }
+    return inserts;
+}
+module.exports.gatherInserts = gatherInserts;
+
+function gatherCollections(page) {
+    let collections = {};
+    for (let [category, value] of Object.entries(page)) {
+        if (value.edges) {
+            collections[category] = value.edges.map((edge) => edge.node);
+        }
+    }
+    return collections;
+}
+module.exports.gatherCollections = gatherCollections;
+
+function gatherCards(inserts) {
+    let cards = {};
+    for (let [name, insert] of Object.entries(inserts)) {
+        if (name.endsWith("-card")) {
+            let cardName = rmSuffix(name, "-card");
+            cards[cardName] = insert;
+        }
+    }
+    return cards;
+}
+module.exports.gatherCards = gatherCards;
+
+function makeCardRows(rawCards, latest, cardsData, prefix = "", rowWidth = 3) {
+    let rows = [];
+    let row = [];
+    let remaining = rowWidth;
+    for (let card of rawCards) {
+        let cardData;
+        if (card.type === "dynamic") {
+            let items = latest[card.name];
+            if (items) {
+                cardData = { items: items };
+                Object.assign(cardData, card);
+                if (!cardData.link && card.path) {
+                    cardData.link = prefix + card.path;
+                }
+            } else {
+                console.error(repr`Dynamic card ${card.name} listed but no data found in GraphQL query.`);
+            }
+        } else if (card.type === "static") {
+            cardData = cardsData[card.name];
+            if (!cardData) {
+                console.warn(repr`Static card ${card.name} listed but no Markdown file found for it.`);
+            }
+        }
+        if (!cardData) {
+            continue;
+        }
+        let width = card.width || 1;
+        // Standard Bootstrap row width is 12.
+        cardData.width = (width * 12) / rowWidth;
+        row.push(cardData);
+        remaining -= width;
+        if (remaining <= 0) {
+            rows.push(row);
+            row = [];
+            remaining = rowWidth;
+        }
+    }
+    if (row.length > 0) {
+        rows.push(row);
+    }
+    return rows;
+}
+module.exports.makeCardRows = makeCardRows;
+
 /** Search for an object key in an object, recursively.
  * Descend into every value whose `getType()` is "Object" or "Array".
  * @param {Object} obj       The object to search.

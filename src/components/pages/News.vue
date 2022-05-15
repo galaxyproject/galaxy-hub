@@ -25,7 +25,7 @@ export default {
 </script>
 
 <page-query>
-query($subsite: String, $mainPath: String, $footerPath: String) {
+query($subsite: String, $mainPath: String) {
     main: insert(path: $mainPath) {
         id
         title
@@ -33,11 +33,6 @@ query($subsite: String, $mainPath: String, $footerPath: String) {
         fileInfo {
             path
         }
-    }
-    footer: insert(path: $footerPath) {
-        id
-        title
-        content
     }
     articles: allArticle(
             sortBy: "date", order: DESC, filter: {

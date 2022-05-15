@@ -370,10 +370,10 @@ module.exports = function (api) {
                     component: `./src/components/pages/${vueName}.vue`,
                     context: {
                         subsite: subsite,
+                        insertRegex: `^/insert:${prefix}${path}[^/]+/$`,
+                        cardsPath: `/insert:${prefix}${path}cards/`,
                         mainPath: `/insert:${prefix}${path}main/`,
-                        jumboPath: `/insert:${prefix}${path}jumbotron/`,
-                        leadPath: `/insert:${prefix}${path}lead/`,
-                        extraPath: `/insert:${prefix}${path}extra/`,
+                        footerPath: `/insert:${prefix}${path}footer/`,
                     },
                 });
             }

@@ -5,17 +5,9 @@
             <h3 v-if="inserts.main.subtitle">{{ inserts.main.subtitle }}</h3>
         </header>
 
-        <div id="top-content" class="row">
-            <section id="lead" v-if="has.lead" :class="`col-sm-${topWidth}`">
-                <div class="lead markdown" v-html="inserts.lead.content" />
-            </section>
-            <section id="jumbotron" v-if="has.jumbotron" :class="`col-sm-${topWidth}`">
-                <h3 v-if="inserts.jumbotron.title" class="title text-center">{{ inserts.jumbotron.title }}</h3>
-                <div class="text-center markdown" v-html="inserts.jumbotron.content" />
-            </section>
-        </div>
+        <HomeTop :lead="inserts.lead" :jumbotron="inserts.jumbotron" />
 
-        <div id="main-content" v-if="has.main" class="row">
+        <div id="main-content" v-if="hasContent(inserts.main)" class="row">
             <section class="col-sm-12" v-html="inserts.main.content" />
         </div>
 
@@ -52,120 +44,66 @@
             />
         </b-row>
 
-        <div class="row">
-            <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
-            <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
+        <div class="row" v-for="(cardRow, i) of cardRows" :key="i">
             <HomeCard
-                v-if="cards.twitter"
-                :title="cards.twitter.title"
-                :link="cards.twitter.link"
-                :icon="cards.twitter.icon"
-                :content="cards.twitter.content"
+                v-for="(card, j) of cardRow"
+                :key="j"
+                :title="card.title"
+                :link="card.link"
+                :icon="card.icon"
+                :width="card.width"
+                :items="card.items"
+                :content="card.content"
             />
         </div>
 
-        <div class="row">
-            <HomeCard
-                v-if="cards.videos"
-                :title="cards.videos.title"
-                :link="cards.videos.link"
-                :icon="cards.videos.icon"
-                :content="cards.videos.content"
-                :items="cards.videos.items"
-            />
-            <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
-            <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
-        </div>
-
-        <div class="row">
-            <HomeCard
-                v-if="cards.platforms"
-                :title="cards.platforms.title"
-                :link="cards.platforms.link"
-                :icon="cards.platforms.icon"
-                :content="cards.platforms.content"
-                :items="cards.platforms.items"
-            />
-            <HomeCard
-                v-if="cards.pubs"
-                :title="cards.pubs.title"
-                :link="cards.pubs.link"
-                :icon="cards.pubs.icon"
-                :content="cards.pubs.content"
-                :items="cards.pubs.items"
-                :width="8"
-            />
-        </div>
-
-        <section class="extra markdown" v-if="has.extra" v-html="inserts.extra.content" />
+        <section class="extra markdown" v-if="hasContent(inserts.extra)" v-html="inserts.extra.content" />
     </Layout>
 </template>
 
 <script>
+import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
-import { rmPrefix, rmSuffix } from "~/utils.js";
-import HomeProfile from "../components/HomeProfile.vue";
+import HomeProfile from "@/components/HomeProfile.vue";
+import {
+    hasContent,
+    gatherCollections,
+    gatherInserts,
+    gatherCards,
+    makeCardRows,
+    addTwitterWidget,
+    addAltmetrics,
+} from "~/utils.js";
 export default {
     components: {
-        HomeCard,
+        HomeTop,
         HomeProfile,
+        HomeCard,
+    },
+    methods: {
+        hasContent,
     },
     metaInfo: {
         title: "Home",
     },
     created() {
-        this.inserts = {};
-        this.has = {};
-        this.cards = {};
-        for (let insert of this.$page.allInsert.edges.map((edge) => edge.node)) {
-            let name = rmSuffix(rmPrefix(insert.path, "/insert:/"), "/");
-            if (name.endsWith("-card")) {
-                let cardName = rmSuffix(name, "-card");
-                this.cards[cardName] = insert;
-            } else {
-                this.inserts[name] = insert;
-            }
-            this.has[name] = Boolean(insert && insert.content && insert.content.trim());
-        }
+        this.inserts = gatherInserts(this.$page.allInsert);
+        this.cards = gatherCards(this.inserts);
+        this.latest = gatherCollections(this.$page);
     },
     computed: {
-        latest() {
-            let latest = {};
-            for (let [category, value] of Object.entries(this.$page)) {
-                if (value.edges && category !== "allInsert") {
-                    latest[category] = value.edges.map((edge) => edge.node);
-                }
-            }
-            return latest;
-        },
-        topWidth() {
-            if (this.has.lead && this.has.jumbotron) {
-                return 6;
-            } else {
-                return 12;
-            }
+        cardRows() {
+            return makeCardRows(this.$page.cards.list, this.latest, this.cards);
         },
     },
     mounted() {
         // Insert Twitter feed.
         if (this.cards.twitter) {
-            !(function (d, s, id) {
-                var js,
-                    fjs = d.getElementsByTagName(s)[0],
-                    p = /^http:/.test(d.location) ? "http" : "https";
-                if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = p + "://platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }
-            })(document, "script", "twitter-wjs");
+            addTwitterWidget(document);
         }
         // Add altmetrics stats badges to publications.
         if (this.cards.pubs) {
-            const altmetricScript = document.createElement("script");
-            altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
-            document.head.appendChild(altmetricScript);
+            addAltmetrics(document);
         }
     },
 };
@@ -173,6 +111,17 @@ export default {
 
 <page-query>
 query {
+    cards: insert(path: "/insert:/cards/") {
+        id
+        list {
+            name
+            type
+            title
+            link
+            icon
+            width
+        }
+    }
     allInsert(filter: {path: {regex: "^/insert:/[^/]+/$"}}) {
         totalCount
         edges {
@@ -258,13 +207,10 @@ fragment articleFields on Article {
 #header {
     margin-bottom: 2.5rem;
 }
-#top-content {
-    margin-bottom: 40px;
-}
-#jumbotron .title {
-    font-weight: bold;
-}
 #profiles {
     margin-bottom: 45px;
+}
+#main-content {
+    margin-bottom: 20px;
 }
 </style>
