@@ -60,7 +60,7 @@ There are also two GTN CoFest calls planned for the day.
 
 
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 1: Middle East, Europe, Africa**
-    * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20220519T10&p1=980&am=30).
+    * 10:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20220519T10&p1=980&am=30).
     * [Zoom](https://github.com/galaxyproject/training-material/issues/1712)
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 2: Americas**
     * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20220519T11&p1=3705&am=30).
