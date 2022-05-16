@@ -35,7 +35,7 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 
 ## Interested?
 
-On Papercuts Day, please __join us on [Gitter](https://gitter.im/galaxyproject/Lobby)__ (all day). If you don't have a GitHub or Gitter (or Elements/Matrix) account yet, then set them up (in that order).
+On Papercuts Day, please __join us on [Gitter](https://gitter.im/galaxyproject/Lobby)__ (all day). If you don't have a GitHub or Gitter (or Element/Matrix) account yet, then set them up (in that order).
 
 
 # Before the event
