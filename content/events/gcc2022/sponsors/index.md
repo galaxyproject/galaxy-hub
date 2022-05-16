@@ -8,7 +8,7 @@ Sponsors are a key part of GCC2022.  They are potential partners in your success
 
 <a href="https://aws.amazon.com/" target="_blank">
   <!-- <img src="/images/events/gcc2022/aws-logo.png" alt="Platinum" style="max-width: 75%;" /> -->
-  <img src="/images/logos/AWSLogo1280.jpg" alt="Platinum" style="max-width: 75%;" />
+  <img src="/images/logos/aws-logo-smile-dark.png" alt="Platinum" style="max-width: 75%;" />
 </a>
 
 ## Silver sponsors
