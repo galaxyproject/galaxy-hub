@@ -118,3 +118,55 @@ function makeHeading(text) {
         ],
     };
 }
+
+export function rmToc(inputLines) {
+    let outputLines = [];
+    let state = "start";
+    let omit = false;
+    for (let line of inputLines) {
+        switch (state) {
+            case "start":
+                if (line.startsWith(HEADING_TEXT)) {
+                    state = "in start heading";
+                    omit = true;
+                } else {
+                    omit = false;
+                }
+                break;
+            case "in start heading":
+                if (line.startsWith("===")) {
+                    state = "after start heading";
+                    omit = true;
+                } else {
+                    //TODO: Go back and include the previous line if we don't see a "===" after the start heading.
+                    //      Just in case a page coincidentally includes the start heading text.
+                    omit = false;
+                }
+                break;
+            case "after start heading":
+                if (line.startsWith(HEADING_ENDING)) {
+                    state = "in end heading";
+                    omit = true;
+                } else {
+                    omit = false;
+                }
+                break;
+            case "in end heading":
+                if (line.startsWith("===")) {
+                    state = "after end heading";
+                    omit = true;
+                } else {
+                    omit = false;
+                    //TODO: Go back and include previous line here too.
+                }
+                break;
+            case "after end heading":
+                omit = false;
+                break;
+        }
+        if (!omit) {
+            outputLines.push(line);
+        }
+    }
+    return outputLines;
+}
