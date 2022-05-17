@@ -5,10 +5,11 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 const nodePath = require("path");
+const dayjs = require("dayjs");
 const jiti = require("jiti")(__filename);
 const remarkToc = jiti("remark-toc").default;
 const tocRemodel = jiti("./src/build/toc-remodel.mjs").default;
-const { rmPrefix, rmSuffix, rmPathPrefix } = require("./src/utils.js");
+const { repr, getType, rmPrefix, rmSuffix, rmPathPrefix } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 const REMARK_PLUGINS = [
     [remarkToc, { skip: "end-table-of-contents" }],
@@ -17,21 +18,70 @@ const REMARK_PLUGINS = [
 const REMARK_VUE_PLUGINS = REMARK_PLUGINS;
 const REMARK_MD_PLUGINS = REMARK_PLUGINS.concat("remark-attr");
 
+const COMPILE_DATE = dayjs();
 const MD_CONTENT_DIR = CONFIG.build.dirs.md;
 const VUE_CONTENT_DIR = CONFIG.build.dirs.vue;
 const CONTENT_DIR_DEPTH = rmSuffix(MD_CONTENT_DIR, "/").split("/").length;
 
-function mkTemplates(collections) {
-    let templates = {
-        Article: (node) => logAndReturn("Article", rmPathPrefix(node.path, CONTENT_DIR_DEPTH)),
-        Insert: (node) => logAndReturn("Insert", makeFilenamePath("insert", node)),
-    };
-    for (let [name, meta] of Object.entries(collections)) {
-        if (meta.type === "md") {
-            templates[name] = (node) => logAndReturn(name, rmPathPrefix(node.path, CONTENT_DIR_DEPTH));
+const RSS_PLUGIN = {
+    use: "gridsome-plugin-feed",
+    options: {
+        contentTypes: ["Article", "VueArticle"],
+        feedOptions: {
+            description: "The Galaxy Community Hub",
+            id: `https://${CONFIG.host}/feed.atom`,
+        },
+        atom: {
+            enabled: true,
+            output: "/feed.atom",
+        },
+        rss: {
+            enabled: false,
+        },
+        maxItems: 25,
+        filterNodes(node) {
+            if (!(node && node.date && CONFIG.rssCategories.includes(node.category))) {
+                return false;
+            }
+            let normDate = dayjs(node.date);
+            // Don't return future posts.
+            return normDate <= COMPILE_DATE;
+        },
+        nodeToFeedItem(node) {
+            if (!node) {
+                throw repr`Nonexistent node: ${node}`;
+            }
+            if (!node.date) {
+                throw `No date on ${node.path}`;
+            }
+            let item = {
+                title: node.title,
+                content: node.content
+            };
+            let dateType = getType(node.date);
+            if (dateType === "Date") {
+                item.date = node.date;
+            } else if (dateType === "String") {
+                item.date = dayjs(node.date).$d;
+            } else {
+                throw repr`Invalid date type ${dateType} for ${node.date} on ${node.path}`;
+            }
+            item.published = item.date;
+            if (node.tease) {
+                item.description = node.tease;
+            }
+            if (node.image && node.image.startsWith("http")) {
+                item.image = node.image;
+            }
+            if (node.contact) {
+                item.author = [ { name: node.contact } ];
+            } else if (node.authors) {
+                item.author = [ { name: node.authors } ];
+            }
+            //TODO: Remove the table-of-contents/end-table-of-contents headings from node.content
+            return item;
         }
     }
-    return templates;
 }
 
 function mkPlugins(collections) {
@@ -113,6 +163,19 @@ function getPlugin(plugins, typeName) {
     }
 }
 
+function mkTemplates(collections) {
+    let templates = {
+        Article: (node) => logAndReturn("Article", rmPathPrefix(node.path, CONTENT_DIR_DEPTH)),
+        Insert: (node) => logAndReturn("Insert", makeFilenamePath("insert", node)),
+    };
+    for (let [name, meta] of Object.entries(collections)) {
+        if (meta.type === "md") {
+            templates[name] = (node) => logAndReturn(name, rmPathPrefix(node.path, CONTENT_DIR_DEPTH));
+        }
+    }
+    return templates;
+}
+
 function makeFilenamePath(prefix, node) {
     // Note: `node.fileInfo` is not available from nodes made by `vue-remark`. This is fine as long as
     // this is only used for collections sourced by `source-filesystem` (e.g. `Insert`s).
@@ -134,9 +197,10 @@ function logAndReturn(...values) {
 module.exports = {
     siteName: "Galaxy Community Hub",
     siteDescription: "All about Galaxy and its community.",
+    siteUrl: `https://${CONFIG.host}`,
     icon: "./src/favicon.png",
     templates: mkTemplates(CONFIG["collections"]),
-    plugins: mkPlugins(CONFIG["collections"]),
+    plugins: [RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
     css: {
         loaderOptions: {
             scss: {
