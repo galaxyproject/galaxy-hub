@@ -61,6 +61,15 @@ Interested in how informatics and AI can be integrated into molecular and clinic
 
   </div>
 
+  <!-- BoFs -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2022/bof-loons.jpeg" class="card-img-top" alt="A flock of loons" />
+    <div class="card-header">Birds of a Feather</div>
+
+[Bird of a Feather (BoF) sessions](https://bit.ly/gcc2022-bofs) provide opportunities to gather and discuss special topics of interest. Have an idea for a BoF? [Submit a proposal now](https://bit.ly/gcc2022-submit-bof).
+
+  </div>
+
   <!-- Sponsors -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/logos/aws-logo-smile-dark.png" class="card-img-top" alt="Sponsors" />
