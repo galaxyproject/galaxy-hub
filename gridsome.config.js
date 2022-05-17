@@ -56,7 +56,7 @@ const RSS_PLUGIN = {
             }
             let item = {
                 title: node.title,
-                content: node.content
+                content: node.content,
             };
             let dateType = getType(node.date);
             if (dateType === "Date") {
@@ -74,15 +74,15 @@ const RSS_PLUGIN = {
                 item.image = node.image;
             }
             if (node.contact) {
-                item.author = [ { name: node.contact } ];
+                item.author = [{ name: node.contact }];
             } else if (node.authors) {
-                item.author = [ { name: node.authors } ];
+                item.author = [{ name: node.authors }];
             }
             //TODO: Remove the table-of-contents/end-table-of-contents headings from node.content
             return item;
-        }
-    }
-}
+        },
+    },
+};
 
 const EU_RSS_OPTIONS = {
     feedOptions: {
@@ -98,8 +98,8 @@ const EU_RSS_OPTIONS = {
 
 const EU_RSS_PLUGIN = {
     use: "gridsome-plugin-feed",
-    options: Object.assign(Object.assign({}, RSS_PLUGIN.options), EU_RSS_OPTIONS)
-}
+    options: Object.assign(Object.assign({}, RSS_PLUGIN.options), EU_RSS_OPTIONS),
+};
 
 function mkPlugins(collections) {
     // Path globbing rules: https://www.npmjs.com/package/globby#user-content-globbing-patterns
