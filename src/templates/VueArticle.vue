@@ -60,7 +60,7 @@ query VueArticle($path: String!) {
 </page-query>
 
 <script>
-import { resizeIFrames } from "~/utils.js";
+import { resizeIFrames } from "~/lib/client.mjs";
 import ArticleHeader from "@/components/ArticleHeader";
 import ArticleFooter from "@/components/ArticleFooter";
 export default {

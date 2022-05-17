@@ -5,7 +5,6 @@
 </template>
 <script>
 export default {
-    components: {},
     metaInfo() {
         return {
             title: this.$page.main.title,

@@ -1,6 +1,6 @@
-const fs = require("fs");
+import fs from "fs";
 
-class PathInfo {
+export class PathInfo {
     constructor(path) {
         //TODO: `cache` option to tell it to cache results of system calls.
         //      This will prevent it from updating as the filesystem state changes, though.
@@ -109,4 +109,3 @@ class PathInfo {
         return pathInfo.size();
     }
 }
-module.exports.PathInfo = PathInfo;

@@ -16,7 +16,7 @@
 <script>
 import NavBar from "@/components/NavBar";
 import Gitter from "@/components/Gitter";
-import { getSingleKey } from "~/utils.js";
+import { getSingleKey } from "~/lib/utils.js";
 import CONFIG from "~/../config.json";
 const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 export default {

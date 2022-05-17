@@ -9,7 +9,7 @@ import { unified } from "unified";
 import rehypeParse from "rehype-parse";
 import { visit } from "unist-util-visit";
 import urlParse from "url-parse";
-import { rmPrefix, rmSuffix, matchesPrefixes } from "../utils.js";
+import { rmPrefix, rmSuffix, matchesPrefixes } from "../lib/utils.js";
 
 // `verbose: true` makes the parser include position information for each property of each element.
 // This is required for `editProperty()` to work.

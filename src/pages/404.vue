@@ -15,7 +15,7 @@
 
 <script>
 import Redirect from "@/components/Redirect";
-import { repr, gridifyPath } from "~/utils.js";
+import { repr, gridifyPath } from "~/lib/utils.js";
 export default {
     metaInfo() {
         return {

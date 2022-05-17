@@ -12,16 +12,8 @@ var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const {
-    repr,
-    rmPrefix,
-    rmSuffix,
-    getType,
-    matchesPrefixes,
-    subsiteFromPath,
-    flattenSubsites,
-    getSingleKey,
-} = require("./src/utils.js");
+const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes, getSingleKey } = require("./src/lib/utils.js");
+const { subsiteFromPath, flattenSubsites } = require("./src/lib/site.js");
 const CONFIG = require("./config.json");
 const SUBSITES_LIST = flattenSubsites(CONFIG.subsites.hierarchy);
 const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);

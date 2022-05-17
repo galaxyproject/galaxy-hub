@@ -46,7 +46,8 @@
 
 <script>
 import Redirect from "@/components/Redirect";
-import { ensureDomain, getImage, humanDateSpan } from "~/utils.js";
+import { ensureDomain, humanDateSpan } from "~/lib/utils.js";
+import { getImage } from "~/lib/pages.mjs";
 import CONFIG from "~/../config.json";
 import * as dayjs from "dayjs";
 const SOCIAL_TAGS_METADATA = [

@@ -31,15 +31,8 @@
 <script>
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
-import {
-    hasContent,
-    gatherInserts,
-    gatherCollections,
-    gatherCards,
-    makeCardRows,
-    addTwitterWidget,
-    addAltmetrics,
-} from "~/utils.js";
+import { hasContent, gatherInserts, gatherCollections, gatherCards, makeCardRows } from "~/lib/pages.mjs";
+import { addTwitterWidget, addAltmetrics } from "~/lib/client.mjs";
 export default {
     components: {
         HomeTop,

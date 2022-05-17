@@ -77,7 +77,8 @@ query Platform($path: String!) {
 </page-query>
 
 <script>
-import { mdToHtml, getImage, getSingleKey } from "~/utils.js";
+import { mdToHtml, getSingleKey } from "~/lib/utils.js";
+import { getImage } from "~/lib/pages.mjs";
 import CONFIG from "~/../config.json";
 const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 export default {

@@ -10,7 +10,7 @@ const jiti = require("jiti")(__filename);
 const remarkToc = jiti("remark-toc").default;
 const tocRemodel = jiti("./src/build/toc-remodel.mjs").default;
 const { rmToc } = jiti("./src/build/toc-add.mjs");
-const { repr, getType, rmPrefix, rmSuffix, rmPathPrefix, mdToHtml } = require("./src/utils.js");
+const { repr, getType, rmPrefix, rmSuffix, splitlines, rmPathPrefix, mdToHtml } = require("./src/lib/utils.js");
 const CONFIG = require("./config.json");
 const REMARK_PLUGINS = [
     [remarkToc, { skip: "end-table-of-contents" }],
@@ -74,7 +74,7 @@ const RSS_PLUGIN = {
                 item.author = [{ name: node.authors }];
             }
             if (item.content) {
-                let lines = item.content.split(/\r?\n/);
+                let lines = splitlines(item.content);
                 let md = rmToc(lines).join("\n");
                 item.content = mdToHtml(md, false);
             }
@@ -164,12 +164,12 @@ function getPlugin(plugins, typeName) {
 
 function mkTemplates(collections) {
     let templates = {
-        Article: (node) => logAndReturn("Article", rmPathPrefix(node.path, CONTENT_DIR_DEPTH)),
-        Insert: (node) => logAndReturn("Insert", makeFilenamePath("insert", node)),
+        Article: (node) => rmPathPrefix(node.path, CONTENT_DIR_DEPTH),
+        Insert: (node) => makeFilenamePath("insert", node),
     };
     for (let [name, meta] of Object.entries(collections)) {
         if (meta.type === "md") {
-            templates[name] = (node) => logAndReturn(name, rmPathPrefix(node.path, CONTENT_DIR_DEPTH));
+            templates[name] = (node) => rmPathPrefix(node.path, CONTENT_DIR_DEPTH);
         }
     }
     return templates;
@@ -186,11 +186,6 @@ function makeFilenamePath(prefix, node) {
         path = [directory, node.fileInfo.name].join("/");
     }
     return `/${prefix}:/${path}`;
-}
-
-function logAndReturn(...values) {
-    // console.log(values.join("\t"));
-    return values[values.length - 1];
 }
 
 module.exports = {
