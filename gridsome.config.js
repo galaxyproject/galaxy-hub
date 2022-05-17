@@ -84,6 +84,23 @@ const RSS_PLUGIN = {
     }
 }
 
+const EU_RSS_OPTIONS = {
+    feedOptions: {
+        description: "The European Galaxy Instance",
+        id: `https://${CONFIG.host}/eu/feed.atom`,
+    },
+    atom: {
+        enabled: true,
+        output: "/eu/feed.atom",
+    },
+    filterNodes: (node) => node && node.date && node.category === "news" && node.subsites.includes("eu"),
+};
+
+const EU_RSS_PLUGIN = {
+    use: "gridsome-plugin-feed",
+    options: Object.assign(Object.assign({}, RSS_PLUGIN.options), EU_RSS_OPTIONS)
+}
+
 function mkPlugins(collections) {
     // Path globbing rules: https://www.npmjs.com/package/globby#user-content-globbing-patterns
     let plugins = [
@@ -200,7 +217,7 @@ module.exports = {
     siteUrl: `https://${CONFIG.host}`,
     icon: "./src/favicon.png",
     templates: mkTemplates(CONFIG["collections"]),
-    plugins: [RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
+    plugins: [RSS_PLUGIN, EU_RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
     css: {
         loaderOptions: {
             scss: {
