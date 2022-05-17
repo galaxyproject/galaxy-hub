@@ -13,7 +13,6 @@
         "/careers": "careers",
         "/projects/covid19": "covid19"
     },
-    "rssCategories": ["blog", "news", "careers"],
     "build": {
         "dirs": {
             "md": "build/content-md",
