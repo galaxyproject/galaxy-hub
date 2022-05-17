@@ -183,7 +183,7 @@ function getTreeBranch(tree, query) {
 }
 module.exports.getTreeBranch = getTreeBranch;
 
-function mdToHtml(md) {
+function mdToHtml(md, rmP = true) {
     //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
     let rawHtml;
     remark()
@@ -192,10 +192,14 @@ function mdToHtml(md) {
             if (err) {
                 console.error(err);
             } else {
-                rawHtml = String(file);
+                rawHtml = String(file).trim();
             }
         });
-    return rmPrefix(rmSuffix(rawHtml.trim(), "</p>"), "<p>");
+    if (rmP) {
+        return rmPrefix(rmSuffix(rawHtml, "</p>"), "<p>");
+    } else {
+        return rawHtml;
+    }
 }
 module.exports.mdToHtml = mdToHtml;
 

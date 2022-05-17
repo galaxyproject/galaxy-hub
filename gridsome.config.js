@@ -9,7 +9,8 @@ const dayjs = require("dayjs");
 const jiti = require("jiti")(__filename);
 const remarkToc = jiti("remark-toc").default;
 const tocRemodel = jiti("./src/build/toc-remodel.mjs").default;
-const { repr, getType, rmPrefix, rmSuffix, rmPathPrefix } = require("./src/utils.js");
+const { rmToc } = jiti("./src/build/toc-add.mjs");
+const { repr, getType, rmPrefix, rmSuffix, rmPathPrefix, mdToHtml } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 const REMARK_PLUGINS = [
     [remarkToc, { skip: "end-table-of-contents" }],
@@ -18,7 +19,6 @@ const REMARK_PLUGINS = [
 const REMARK_VUE_PLUGINS = REMARK_PLUGINS;
 const REMARK_MD_PLUGINS = REMARK_PLUGINS.concat("remark-attr");
 
-const COMPILE_DATE = dayjs();
 const MD_CONTENT_DIR = CONFIG.build.dirs.md;
 const VUE_CONTENT_DIR = CONFIG.build.dirs.vue;
 const CONTENT_DIR_DEPTH = rmSuffix(MD_CONTENT_DIR, "/").split("/").length;
@@ -28,25 +28,20 @@ const RSS_PLUGIN = {
     options: {
         contentTypes: ["Article", "VueArticle"],
         feedOptions: {
-            description: "The Galaxy Community Hub",
-            id: `https://${CONFIG.host}/feed.atom`,
+            title: "Galaxy Europe",
+            description: "The European Galaxy Instance",
+            id: `https://${CONFIG.host}/eu/feed.atom`,
         },
         atom: {
             enabled: true,
-            output: "/feed.atom",
+            output: "/eu/feed.atom",
         },
         rss: {
             enabled: false,
         },
         maxItems: 25,
-        filterNodes(node) {
-            if (!(node && node.date && CONFIG.rssCategories.includes(node.category))) {
-                return false;
-            }
-            let normDate = dayjs(node.date);
-            // Don't return future posts.
-            return normDate <= COMPILE_DATE;
-        },
+        // Just EU news posts.
+        filterNodes: (node) => node && node.date && node.category === "news" && node.subsites.includes("eu"),
         nodeToFeedItem(node) {
             if (!node) {
                 throw repr`Nonexistent node: ${node}`;
@@ -70,7 +65,7 @@ const RSS_PLUGIN = {
             if (node.tease) {
                 item.description = node.tease;
             }
-            if (node.image && node.image.startsWith("http")) {
+            if (node.image && (node.image.startsWith("https") || node.image.startsWith("http"))) {
                 item.image = node.image;
             }
             if (node.contact) {
@@ -78,27 +73,14 @@ const RSS_PLUGIN = {
             } else if (node.authors) {
                 item.author = [{ name: node.authors }];
             }
-            //TODO: Remove the table-of-contents/end-table-of-contents headings from node.content
+            if (item.content) {
+                let lines = item.content.split(/\r?\n/);
+                let md = rmToc(lines).join("\n");
+                item.content = mdToHtml(md, false);
+            }
             return item;
         },
     },
-};
-
-const EU_RSS_OPTIONS = {
-    feedOptions: {
-        description: "The European Galaxy Instance",
-        id: `https://${CONFIG.host}/eu/feed.atom`,
-    },
-    atom: {
-        enabled: true,
-        output: "/eu/feed.atom",
-    },
-    filterNodes: (node) => node && node.date && node.category === "news" && node.subsites.includes("eu"),
-};
-
-const EU_RSS_PLUGIN = {
-    use: "gridsome-plugin-feed",
-    options: Object.assign(Object.assign({}, RSS_PLUGIN.options), EU_RSS_OPTIONS),
 };
 
 function mkPlugins(collections) {
@@ -217,7 +199,7 @@ module.exports = {
     siteUrl: `https://${CONFIG.host}`,
     icon: "./src/favicon.png",
     templates: mkTemplates(CONFIG["collections"]),
-    plugins: [RSS_PLUGIN, EU_RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
+    plugins: [RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
     css: {
         loaderOptions: {
             scss: {
