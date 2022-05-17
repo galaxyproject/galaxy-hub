@@ -24,6 +24,30 @@ First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll
 
 \*Do not use Yarn 2.
 
+### Get Node and Yarn
+
+What if you don't already have Node and Yarn 1 installed?
+
+#### On MacOS
+
+If you don't already have Node and Yarn installed, then we recommend using Homebrew.  If you don't have Homebrew, then install it with
+```sh
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Then update your `$PATH` by following the displayed instructions.
+
+To install Node:
+```sh
+$ brew install node
+```
+
+Then install Yarn 1:
+```sh
+$ npm install --global yarn
+```
+
+### Clone the repo and launch the site.
+
 You can get the site running locally by first cloning this repo:  
 ```sh
 $ git clone 'https://github.com/galaxyproject/galaxy-hub.git'
