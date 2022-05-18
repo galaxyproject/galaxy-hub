@@ -14,6 +14,7 @@ This page summarizes both GCC2022 events, and other cool events happening around
 
 ## GCC2022 Events
 
+<div class="clearfix"></div>
 <div class="card-deck">
 
   <!-- Training Day -->
