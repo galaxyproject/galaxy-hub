@@ -8,8 +8,8 @@ import nodeWatch from "node-watch";
 import { Command } from "commander";
 import { Partitioner, CONTENT_TYPES } from "./partition-content.mjs";
 import * as mdfixer from "./mdfixer.mjs";
-import { repr } from "../utils.js";
-import { PathInfo } from "../paths.js";
+import { repr } from "../lib/utils.js";
+import { PathInfo } from "../lib/paths.mjs";
 
 // Without additional context or instructions, default to copy for everything, which is the safest.
 const DEFAULT_PLACERS = { md: "copy", vue: "copy", insert: "copy", resource: "copy" };

@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { mdToHtml } from "~/utils.js";
+import { mdToHtml } from "~/lib/utils.js";
 export default {
     props: {
         // Can be an Article, a VueArticle, or any object with a `title`, `link`, and (optionally) a `tease` field.

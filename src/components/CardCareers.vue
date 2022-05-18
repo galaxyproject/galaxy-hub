@@ -31,7 +31,8 @@
 
 <script>
 import Continent from "@/components/Continent";
-import { mdToHtml, getImage } from "~/utils.js";
+import { mdToHtml } from "~/lib/utils.js";
+import { getImage } from "~/lib/pages.mjs";
 export default {
     components: {
         Continent,

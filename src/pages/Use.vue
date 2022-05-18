@@ -159,7 +159,7 @@
 </template>
 
 <script>
-import { rmPrefix, rmSuffix, mdToHtml } from "~/utils.js";
+import { rmPrefix, rmSuffix, mdToHtml } from "~/lib/utils.js";
 const LINK_DISP_NAMES = {
     "academic-cloud": "Academic",
     "commercial-cloud": "Commercial",

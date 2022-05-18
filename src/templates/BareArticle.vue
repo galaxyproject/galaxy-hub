@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { resizeIFrames } from "~/utils.js";
+import { resizeIFrames } from "~/lib/client.mjs";
 export default {
     metaInfo() {
         return {

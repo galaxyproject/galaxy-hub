@@ -5,7 +5,6 @@
         "BareArticle": { "path": "/bare/", "type": "vue" },
         "Platform": { "path": "/use/", "type": "md" }
     },
-    "locale": "en-US",
     "categories": {
         "/blog": "blog",
         "/events": "events",

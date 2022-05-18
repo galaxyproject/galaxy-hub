@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { notifyParent } from "~/utils.js";
+import { notifyParent } from "~/lib/client.mjs";
 import HomeCard from "@/components/HomeCard";
 export default {
     components: {

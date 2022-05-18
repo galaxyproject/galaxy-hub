@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import { rmPrefix, getSingleKey } from "~/utils.js";
+import { rmPrefix, getSingleKey } from "~/lib/utils.js";
 import CONFIG from "~/../config.json";
 const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";

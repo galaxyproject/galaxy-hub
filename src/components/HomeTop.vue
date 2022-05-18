@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { hasContent } from "~/utils.js";
+import { hasContent } from "~/lib/pages.mjs";
 export default {
     props: {
         lead: { type: Object, required: false, default: null },

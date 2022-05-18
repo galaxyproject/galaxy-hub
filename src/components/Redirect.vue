@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { repr, doRedirect } from "~/utils.js";
+import { repr } from "~/lib/utils.js";
 export default {
     props: {
         location: { type: Object, required: true },
@@ -47,6 +47,16 @@ export default {
         redirectIfPossible(this);
     },
 };
+function doRedirect(destUrl, currentPath, cancelled) {
+    if (cancelled) {
+        console.log("Redirect cancelled.");
+    } else if (currentPath === undefined || window.location.pathname === currentPath) {
+        window.location.href = destUrl;
+    } else {
+        // Cancel redirect if the user has navigated away already.
+        console.log(`Skipping redirect: user navigated away from ${currentPath}`);
+    }
+}
 function redirectIfPossible(data) {
     if (data.location && data.url) {
         console.log(repr`Redirecting to ${data.url} in ${data.delay} seconds..`);
