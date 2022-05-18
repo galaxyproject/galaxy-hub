@@ -2,7 +2,7 @@ import fs from "fs";
 import nodePath from "path";
 import { fileURLToPath } from "url";
 import grayMatter from "gray-matter";
-import { splitlines, repr } from "../lib/utils.js";
+import { splitlines, repr, ensurePrefix, ensureSuffix } from "../lib/utils.js";
 import { PathInfo } from "../lib/paths.mjs";
 
 /** Types of files recognized by this module. */
@@ -39,6 +39,12 @@ export class Partitioner {
             configPath = nodePath.join(PROJECT_ROOT, "config.json");
         }
         const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
+        this.collections = [];
+        for (let rawCollection of Object.values(config.collections || {})) {
+            // Normalize path to start and end with /
+            let path = ensurePrefix(ensureSuffix(rawCollection.path, "/"), "/");
+            this.collections.push({ path: path, dest: rawCollection.type });
+        }
         this.contentDir = nodePath.join(projectRoot, config.contentDir);
         this.buildDirs = {};
         for (let [key, relPath] of Object.entries(config.build.dirs)) {
@@ -267,7 +273,7 @@ export class Partitioner {
      */
     makeDirPlan(indexPath, inserts, resources) {
         let plan = [];
-        let vue = indexPath && fileRequiresVue(indexPath);
+        let vue = this.indexRequiresVue(indexPath);
         // index.md
         if (!indexPath) {
             // pass
@@ -298,6 +304,23 @@ export class Partitioner {
             plan.push({ path: resourcePath, dest: destination, placer: this.placers.resource });
         }
         return plan;
+    }
+
+    indexRequiresVue(indexPath) {
+        // If there is no index.md, it probably doesn't require vue!
+        if (!indexPath) {
+            return false;
+        }
+        // Check if it's in a top-level directory the user has defined as belonging to a custom collection.
+        // These have across-the-board vue or md designations.
+        let relIndexPath = nodePath.relative(this.contentDir, indexPath);
+        for (let collection of this.collections) {
+            if (collection.dest === "vue" && `/${relIndexPath}`.startsWith(collection.path)) {
+                return true;
+            }
+        }
+        // Otherwise, read the file to see.
+        return fileRequiresVue(indexPath);
     }
 }
 
