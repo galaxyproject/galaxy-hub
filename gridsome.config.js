@@ -129,18 +129,18 @@ function mkPlugins(collections) {
                 use: "@gridsome/source-filesystem",
                 options: {
                     typeName: name,
-                    path: globPath,
+                    path: [globPath],
                 },
             };
         } else if (meta.type === "vue") {
             let bareUrlPath = rmPrefix(rmSuffix(meta.path, "/"), "/");
-            vueArticlePlugin.options.ignore.push(bareUrlPath);
+            vueArticlePlugin.options.ignore.push(`${VUE_CONTENT_DIR}/${bareUrlPath}`);
             plugin = {
                 use: "@gridsome/vue-remark",
                 options: {
                     typeName: name,
-                    baseDir: `${VUE_CONTENT_DIR}/${meta.path}`,
-                    pathPrefix: `/${meta.path}`,
+                    baseDir: `${VUE_CONTENT_DIR}/${bareUrlPath}`,
+                    pathPrefix: meta.path,
                     ignore: [],
                     template: `src/templates/${name}.vue`,
                     plugins: REMARK_VUE_PLUGINS,
