@@ -47,7 +47,6 @@
     "remark-stringify": "^9.0.0",
     "remark-toc": "^8.0.0",
     "sass": "^1.39.2",
-    "sharp": "^0.29.1",
     "stylus": "^0.55.0",
     "stylus-loader": "3.0.2",
     "unified": "^10.1.0",
@@ -74,6 +73,9 @@
     "jest": "^27.3.1",
     "sass-loader": "^10.1.1",
     "start-server-and-test": "^1.14.0"
+  },
+  "resolutions": {
+    "**/sharp": "0.30.4"
   },
   "prettier": {
     "printWidth": 120,
