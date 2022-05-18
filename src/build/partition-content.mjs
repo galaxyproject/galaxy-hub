@@ -47,6 +47,7 @@ export class Partitioner {
         this.placers = assignPlacers(placer, placers, CONTENT_TYPES);
     }
 
+    // The main entry point to the partitioning process.
     placeDirFiles(dirPath, recursive = false) {
         if (!nodePath.isAbsolute(dirPath)) {
             throw repr`dirPath must be absolute. Received: ${dirPath}`;
@@ -58,7 +59,7 @@ export class Partitioner {
                 this.placeDirFiles(childDir, recursive);
             }
         }
-        let plan = makeDirPlan(indexPath, inserts, resources, this.placers);
+        let plan = this.makeDirPlan(indexPath, inserts, resources);
         this.executeDirPlan(dirPath, plan);
         // Delete empty directories.
         // At this point all contents of this directory (all the way down) should already be in the
@@ -258,45 +259,46 @@ export class Partitioner {
         }
         return buildPaths;
     }
-}
 
-/** Determine what the final state of the files in this directory should be.
- *  What files should be present in which destination directories, and should they be links or
- *  copies?
- */
-function makeDirPlan(indexPath, inserts, resources, placers) {
-    let plan = [];
-    let vue = indexPath && fileRequiresVue(indexPath);
-    // index.md
-    if (!indexPath) {
-        // pass
-    } else if (vue) {
-        plan.push({ path: indexPath, dest: "vue", placer: placers.vue });
-    } else {
-        plan.push({ path: indexPath, dest: "md", placer: placers.md });
-    }
-    // Insert .md files
-    for (let insertPath of inserts) {
-        plan.push({ path: insertPath, dest: "md", placer: placers.insert });
-    }
-    // Resource files (mainly images)
-    // But also 'links.json', etc.
-    for (let resourcePath of resources) {
-        // Check if the file is used by a Vue-requiring Markdown file.
-        //TODO: It's possible a file could be referenced by multiple Markdowns in the same directory.
-        //TODO: This is a very loose check for whether the Markdown file references the resource file.
-        //      The Markdown file could technically include the name of the resource file without
-        //      actually including it in, say, an image element.
-        let destination;
-        let resourceFileName = nodePath.basename(resourcePath);
-        if (vue && fileContainsSubstr(indexPath, resourceFileName)) {
-            destination = "vue";
+    /** Determine what the final state of the files in this directory should be.
+     *  What files should be present in which destination directories, and should they be links or
+     *  copies?
+     *  All paths given must be absolute.
+     */
+    makeDirPlan(indexPath, inserts, resources) {
+        let plan = [];
+        let vue = indexPath && fileRequiresVue(indexPath);
+        // index.md
+        if (!indexPath) {
+            // pass
+        } else if (vue) {
+            plan.push({ path: indexPath, dest: "vue", placer: this.placers.vue });
         } else {
-            destination = "md";
+            plan.push({ path: indexPath, dest: "md", placer: this.placers.md });
         }
-        plan.push({ path: resourcePath, dest: destination, placer: placers.resource });
+        // Insert .md files
+        for (let insertPath of inserts) {
+            plan.push({ path: insertPath, dest: "md", placer: this.placers.insert });
+        }
+        // Resource files (mainly images)
+        // But also 'links.json', etc.
+        for (let resourcePath of resources) {
+            // Check if the file is used by a Vue-requiring Markdown file.
+            //TODO: It's possible a file could be referenced by multiple Markdowns in the same directory.
+            //TODO: This is a very loose check for whether the Markdown file references the resource file.
+            //      The Markdown file could technically include the name of the resource file without
+            //      actually including it in, say, an image element.
+            let destination;
+            let resourceFileName = nodePath.basename(resourcePath);
+            if (vue && fileContainsSubstr(indexPath, resourceFileName)) {
+                destination = "vue";
+            } else {
+                destination = "md";
+            }
+            plan.push({ path: resourcePath, dest: destination, placer: this.placers.resource });
+        }
+        return plan;
     }
-    return plan;
 }
 
 function getChildrenByType(dirPath) {
