@@ -102,6 +102,15 @@ function matchesPrefixes(string, prefixes) {
 }
 module.exports.matchesPrefixes = matchesPrefixes;
 
+function ensurePrefix(string, prefix) {
+    if (string.startsWith(prefix)) {
+        return string;
+    } else {
+        return prefix + string;
+    }
+}
+module.exports.ensurePrefix = ensurePrefix;
+
 function ensureSuffix(string, suffix) {
     if (string.endsWith(suffix)) {
         return string;
