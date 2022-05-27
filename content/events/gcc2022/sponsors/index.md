@@ -2,20 +2,37 @@
 
 # GCC2022 Sponsors
 
-Sponsors are a key part of GCC2022.  They are potential partners in your success, and sponsors make this conference affordable and accessible.
+Sponsors are a key part of GCC2022.  They are potential partners in your
+success, and sponsors make this conference affordable and accessible.
+
+Please join everyone during the sponsor talks to learn more about how their
+services relate to the Galaxy community and software. Sponsor talks are
+generally scheduled at the start of the last session with accepted talks. See
+[the program](https://gcc2022.sched.com/) for exact times.
 
 ## Platinum sponsor
 
 <a href="https://aws.amazon.com/" target="_blank">
-  <!-- <img src="/images/events/gcc2022/aws-logo.png" alt="Platinum" style="max-width: 75%;" /> -->
-  <img src="/images/logos/aws-logo-smile-dark.png" alt="Platinum" style="max-width: 75%;" />
+  <img src="/images/logos/aws-logo-smile-dark.png" alt="Platinum" style="max-width: 50%;" />
 </a>
 
-## Silver sponsors
+<hr/>
+
+## Gold sponsor
+
+<a href="http://www.gigasciencejournal.com/" target="_blank">
+  <img src="/images/logos/gigascience-logo-hires.png" alt="Gold" style="max-width: 50%; padding-right: 2rem;" />
+</a>
+
+<hr/>
+
+## Silver sponsor
 
 <a href="https://galaxyworks.io/" target="_blank">
-  <img src="/images/logos/galaxyworks-logo.png" alt="Silver" style="max-width: 50%;" />
+  <img src="/images/logos/galaxyworks-logo.png" alt="Silver" style="max-width: 30%;" />
 </a>
+
+<hr/>
 
 ## Bronze sponsors
 
@@ -26,6 +43,7 @@ Sponsors are a key part of GCC2022.  They are potential partners in your success
   <img src="/images/logos/limagrain-logo-text.png" alt="Bronze" style="max-width: 25%;" />
 </a>
 
+<hr/>
 
 # Interested in becoming a sponsor?
 
