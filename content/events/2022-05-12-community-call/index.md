@@ -13,6 +13,7 @@ links:
 tags: ["community-call"]
 subsites: [global, us]
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6tT_TFq-6A8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We will have a presentation on **GCC Demo Coordination**, followed by a discussion and community updates. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing) or bring them to the call!
 
