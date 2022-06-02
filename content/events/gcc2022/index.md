@@ -75,7 +75,7 @@ Interested in how informatics and AI can be integrated into molecular and clinic
     <img src="/images/logos/aws-logo-smile-dark.png" class="card-img-top" alt="Sponsors" />
     <div class="card-header">Sponsors</div>
 
-Sponsors are a key part of GCC2022 and *are potential partners in participant success.* Is your organization interested in playing a prominent role in the first in-person gathering of the Galaxy community since 2019? **Please see the [Sponsorships page](/events/gcc2022/sponsors/) for details.**
+[Sponsors](/events/gcc2022/sponsors/) are a key part of GCC2022 and *are potential partners in participant success.* Is your organization interested in playing a prominent role in the first in-person gathering of the Galaxy community since 2019? **Please see the [Sponsorships page](/events/gcc2022/sponsors/#interested-in-becoming-a-sponsor) for details.**
   </div>
 
 
