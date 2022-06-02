@@ -20,7 +20,7 @@ Here is the info to get you started quickly:
 
 -----
 
-We developed two workflows for the analysis of MPXV sequencing data. The workflows are available from [WorkflowHub](https://workflowhub.eu/). 
+We developed two workflows for the analysis of Monkeypox Virus (MPXV) sequencing data. The workflows are available from [WorkflowHub](https://workflowhub.eu/). 
 
 
 | Link | Workflow |  Inputs | Outputs | Aligner | Caller | 
