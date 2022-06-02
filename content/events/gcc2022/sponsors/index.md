@@ -18,10 +18,14 @@ generally scheduled at the start of the last session with accepted talks. See
 
 <hr/>
 
-## Gold sponsor
+## Gold sponsors
 
-<a href="http://www.gigasciencejournal.com/" target="_blank">
-  <img src="/images/logos/gigascience-logo-hires.png" alt="Gold" style="max-width: 50%; padding-right: 2rem;" />
+<a href="http://peerj.com/" target="_blank">
+  <img src="/images/logos/peerj-logo-white.png" alt="Gold" style="max-width: 50%; padding-right: 2rem;" />
+</a>
+
+<a href="https://cloud.google.com/" target="_blank">
+  <img src="/images/logos/google-cloud-platform-wide.png" alt="Gold" style="max-width: 50%; padding-right: 2rem;" />
 </a>
 
 <hr/>
@@ -41,6 +45,9 @@ generally scheduled at the start of the last session with accepted talks. See
 </a>
 <a href="https://www.limagrain.com/en" target="_blank">
   <img src="/images/logos/limagrain-logo-text.png" alt="Bronze" style="max-width: 25%;" />
+</a>
+<a href="http://www.gigasciencejournal.com/" target="_blank">
+  <img src="/images/logos/gigascience-logo-hires.png" alt="Bronze" style="max-width: 25%; padding-right: 2rem;" />
 </a>
 
 <hr/>
