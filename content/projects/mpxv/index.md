@@ -35,6 +35,8 @@ Workflows are designed to be used one after another:
 1. Run the <span class="badge badge-success">ILL-PE</span> to generate lists of variants.
 2. Run the <span class="badge badge-info">REPORTING</span> workflow on variants generated above to produce variant tables. 
 
-The following [tutorial](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#from-fastq-to-annotated-allelic-variants) explains how to import workflows into your Galaxy instance.
+The WorkFlowHub offers a convenient `Run on usegalaxy.eu` option from the workflow pages. Users of other Galaxy servers can go to `Shared Data` -> `Workflows` -> `Import Workflow` and paste these links to import from:
+- [Variant calling workflow](https://workflowhub.eu/workflows/353/git/1/raw/Galaxy-Workflow-Generic_variation_analysis_on_WGS_PE_data.ga)
+- [Reporting workflow](https://workflowhub.eu/workflows/354/git/1/raw/Galaxy-Workflow-Genetic_variation_analysis_reporting.ga)
 
 
