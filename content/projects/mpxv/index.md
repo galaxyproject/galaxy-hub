@@ -33,7 +33,7 @@ We developed two workflows for the analysis of Monkeypox Virus (MPXV) sequencing
 Workflows are designed to be used one after another:
 
 1. Run the <span class="badge badge-success">ILL-PE</span> to generate lists of variants.
-2. Run the <span class="badge badge-info">REPORTING</span> workflows on varinats generated above to produce variant tables. 
+2. Run the <span class="badge badge-info">REPORTING</span> workflow on variants generated above to produce variant tables. 
 
 The following [tutorial](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#from-fastq-to-annotated-allelic-variants) explains how to import workflows into your Galaxy instance.
 
