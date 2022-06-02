@@ -28,7 +28,7 @@ We developed two workflows for the analysis of MPXV sequencing data. The workflo
 | [WorkFlowHub](https://workflowhub.eu/workflows/353)      |**Illumina metatranscriptomic PE**:<br> Variant analysis from metatranscriptomic data.<br><span class="badge badge-success">ILL-PE</span>                               | 1. Paired reads [`fastqsanger`]<br>2. MPXV reference   [[`genbank`](https://www.ncbi.nlm.nih.gov/nuccore/MT903340)] | Variants [`vcf`] | `BWA MEM` | `lofreq` |
 | [WorkFlowHub](https://workflowhub.eu/workflows/354)           |**Report generation**:<br> Generation of final variant analysis reports/plots.<br><span class="badge badge-info">REPORTING</span>                                                 | Variants [`vcf`] | Reports [`tsv`] | - | - | 
  
- `vcf` = variant call format, `tsv` = TAB-separated values, `fastqsanger` = fastq format with Sanger encoding of base quality values
+ `vcf` = variant call format, `tsv` = TAB-separated values, `fastqsanger` = fastq format with Sanger encoding of base quality values.
 
 Workflows are designed to be used one after another:
 
