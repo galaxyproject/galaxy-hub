@@ -11,7 +11,7 @@ title: "GalaxyProject MPXV analysis effort"
 Here is the info to get you started quickly:
 
 - We have two [<kbd>workflows</kbd>](#workflows-for-discovery-of-sequence-variants) for analysis of Illumina data (Oxford nanopore workflows can also be added. Request [here](https://help.galaxyproject.org)).
-- Wokflows can be used to analyze any number of samples.
+- Workflows can be used to analyze any number of samples.
 - Workflows can be used via graphical user interface right now on any of our global instances in EU (https://usegalaxy.eu), US (https://usegalaxy.org), or Australia (https://usegalaxy.org.au). 
 - We provide powerful computational infrastructure for data analysis supported by national supercomputing resources in the US, EU, and Australia. 
 
