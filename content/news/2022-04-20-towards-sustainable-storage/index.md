@@ -4,7 +4,7 @@ title: Towards a sustainable storage, enabling co-financing of public infrastruc
 date: "2022-04-20"
 tags:
 - citations
-author: bgruening
+authors: bgruening
 supporters:
 - crc1425
 - crc992
