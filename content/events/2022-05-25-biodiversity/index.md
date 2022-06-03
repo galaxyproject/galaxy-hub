@@ -10,5 +10,5 @@ external_url: "https://www.biodiversity.be/4443"
 gtn: false
 contact: "Frederik Coppens"
 image:
-subsites: [global, eu, vib]
+subsites: [global, eu]
 ---
