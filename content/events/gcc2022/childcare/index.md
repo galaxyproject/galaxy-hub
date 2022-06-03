@@ -1,6 +1,3 @@
----
-autotoc: false
----
 <slot name="/events/gcc2022/header" />
 
 # Childcare will be offered at GCC2022!
