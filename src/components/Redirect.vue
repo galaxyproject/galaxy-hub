@@ -14,9 +14,12 @@
 
 <script>
 import { repr } from "~/lib/utils.js";
+// On build, Location (a web API) is undefined. But this also runs on the client, in which case it gives a warning if
+// you specify `Object` as the type but it receives a `Location`.
+const LOC_TYPE = typeof Location === "function" ? Location : Object;
 export default {
     props: {
-        location: { type: Object, required: true },
+        location: { type: LOC_TYPE, required: true },
         preText: { type: String, required: false, default: "This content has a new home at " },
         url: { type: String, required: true },
         postText: { type: String, required: false, default: "." },
