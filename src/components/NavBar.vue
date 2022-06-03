@@ -58,7 +58,7 @@
                         <b-dropdown-group>
                             <template #header>
                                 <strong>
-                                    <b-link to="/projects/">Community Projects</b-link>
+                                    <b-link to="/projects/community/">Community Projects</b-link>
                                 </strong>
                             </template>
                             <b-dropdown-item to="/projects/community/climate/">Climate Science</b-dropdown-item>
