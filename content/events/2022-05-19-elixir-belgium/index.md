@@ -10,5 +10,5 @@ external_url: "https://elixir-belgium.org/events/elixir-belgium-fair-data-life-s
 gtn: false
 contact: "Liesbet Peeters, Wim Vranken, Alexander Botzki, Flora D’Anna, Frederik Coppens, Kim De Ruyck"
 image:
-subsites: [global, eu]
+subsites: [global, eu, belgium]
 ---
