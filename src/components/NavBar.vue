@@ -46,8 +46,23 @@
                         <b-dropdown-item to="/images/galaxy-logos/">Branding</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="Projects">
-                        <b-dropdown-item to="/projects/covid19/">Covid19</b-dropdown-item>
-                        <b-dropdown-item to="/projects/mpxv/">Monkeypox</b-dropdown-item>
+                        <b-dropdown-group header="Core Team Projects">
+                            <template #header>
+                                <strong>
+                                    <b-link to="/projects/">Core Team Projects</b-link>
+                                </strong>
+                            </template>
+                            <b-dropdown-item to="/projects/covid19/">Covid19</b-dropdown-item>
+                            <b-dropdown-item to="/projects/mpxv/">Monkeypox</b-dropdown-item>
+                        </b-dropdown-group>
+                        <b-dropdown-group>
+                            <template #header>
+                                <strong>
+                                    <b-link to="/projects/">Community Projects</b-link>
+                                </strong>
+                            </template>
+                            <b-dropdown-item to="/projects/community/climate/">Climate Science</b-dropdown-item>
+                        </b-dropdown-group>
                     </b-nav-item-dropdown>
                     <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
