@@ -55,7 +55,7 @@
                             <b-dropdown-item to="/projects/covid19/">Covid19</b-dropdown-item>
                             <b-dropdown-item to="/projects/mpxv/">Monkeypox</b-dropdown-item>
                         </b-dropdown-group>
-                        <b-dropdown-group>
+                        <b-dropdown-group header="Community Projects">
                             <template #header>
                                 <strong>
                                     <b-link to="/projects/community/">Community Projects</b-link>
