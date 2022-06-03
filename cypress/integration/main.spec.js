@@ -44,7 +44,7 @@ describe("Test Markdown rendering", () => {
 describe("Test insert functionality", () => {
     it("Visits 2012 GCC event page and ensures footer insert is visible", () => {
         cy.visit("/events/gcc2012/");
-        cy.get(".markdown > p > a").findByText("Ask the organizers").should("be.visible");
+        cy.get(".insert > p > a").findByText("Ask the organizers").should("be.visible");
     });
 });
 
