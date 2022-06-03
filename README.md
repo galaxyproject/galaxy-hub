@@ -1,4 +1,4 @@
-# Galaxy Community Hub [![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=galaxy-hub)](https://jenkins.galaxyproject.org/job/galaxy-hub/)
+# Galaxy Community Hub
 
 Source for the [Galaxy Hub Website
 (galaxyproject.org)](https://galaxyproject.org/).  The Galaxy Hub is the
