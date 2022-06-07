@@ -16,6 +16,12 @@ SARS-CoV-2 pandemic showed that even elementary analyses of sequence data can be
 |---|-------|------|------|-----|
 | 1. | [**Finding relatives**](/projects/ppandemic/s1e1/) | How is my {virus,bacterium} relates to others | <span class="badge badge-info">phylogeny</span><span class="badge badge-info">variation</span><span class="badge badge-info">genetic distance</span> | How to understand the relationship between a given pathogen and other existing data? Here we will use Monkeypox as an example to show its relationship with previously identified sequences. We will find all related Monkeypox sequences, understand how distant they are from our sequence, and create a list of common variants. |
 
+# This is not a replacement to Galaxy Training Network
+
+----
+
+To obtain in-depth understanding of how Galaxy works always use [Galaxy Training Network](https://training.galaxyproject.org). This resource is a kind of "cook book" for people who already know how to use Galaxy.
+
 
 
 
