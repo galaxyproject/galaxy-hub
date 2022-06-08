@@ -32,7 +32,7 @@ Cost: **Free, for as long as there is space**
 
 Meeting registration includes admission to conference talks, poster/demo sessions, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
 
-| | Early (< May 12) | Full (< June 24) | Late (> June 24) |
+| | Early (< May 12) | Full (< June 14) | Late (> June 14) |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | $250 | $400 | $500 |
 | Academic / Non-Profit / Government | $400 | $550 | $750 |
