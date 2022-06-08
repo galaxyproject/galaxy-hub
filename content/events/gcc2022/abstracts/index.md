@@ -7,28 +7,17 @@ Conferences.  These include long talks, short talks, poster presentations, and
 demo presentations.  All of these are submitted by the community and go through
 a peer review process before being accepted for the program.
 
-<div class="container">
-    <div class="row">
-        <div class="col"></div>
-        <div class="col">
-            <button type="button" class="btn btn-secondary center">
-                <a target="_blank" href="https://docs.google.com/forms/d/1z29z8Nd8Gho0trS7DySvWAii6hisbZr67cuI--lcZ_4/">
-                    <strong>Submit your abstract <br/>for poster or demo</strong>
-                </a>
-            </button>
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
+**Abstract submission is now closed**, but take a look at [the
+schedule](https://gcc2022.sched.com/) for all the exciting talks coming up!
 
 # Key Dates
 
 | Date    | What |
 | -----   | --- |
 | <s>Apr  12</s> | <s>Abstracts due for short or long talks</s> |
-| May  12 | Talk submitters notified of acceptance status |
-| May  20 | Deadline for confirming abstract acceptance |
-| Jun  3  | Poster/demo abstracts due |
+| <s>May  12</s> | <s>Talk submitters notified of acceptance status</s> |
+| <s>May  20</s> | <s>Deadline for confirming abstract acceptance</s> |
+| <s>Jun  3</s>  | <s>Poster/demo abstracts due</s> |
 | Jun  17 | Poster/demo submitters notified of acceptance status |
 
 # Guidelines

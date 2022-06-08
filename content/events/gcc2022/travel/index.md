@@ -4,7 +4,19 @@
 
 GCC2022 will be held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink) at [1500 S Washington Ave, Minneapolis, MN 55454](https://goo.gl/maps/4RZ77aYGK31e2MZy6). Talks, posters, and demos will be held here.
 
-CoFest will be held on campus. Watch this space for more details.
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <button type="button" class="btn btn-secondary center">
+                <a target="_blank" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink">
+                    <strong>Reserve your hotel room</strong>
+                </a>
+            </button>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
 
 ## Getting Here and Around
 
@@ -50,10 +62,10 @@ Minneapolis St. Paul has a [robust public transportation network](https://www.me
       <p class="card-title">Conference Hotel</p>
     </div>
 
-We have reserved a block of rooms at the conference venue, the [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/hotels/travel/mspdc-courtyard-minneapolis-downtown/). The confernce room rate is $139/night. **There are a limited number of rooms though so we suggest booking your accomodation early. The deadline for reserving a hotel room is June 24.** Room availability to based on first come basis. If needed, parking here is available at $22 per day. [Click here](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink) to make a hotel reservation using the conference rate.
+We have reserved a block of rooms at the conference venue, the [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/hotels/travel/mspdc-courtyard-minneapolis-downtown/). The conference room rate is $139/night. **There are a limited number of rooms though so we suggest booking your accommodation early. The deadline for reserving a hotel room is June 24.** Room availability to based on first come basis. If needed, parking here is available at $22 per day. [Click here](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink) to make a hotel reservation using the conference rate.
   </div>
 
-  <!-- On Campus-->
+  <!-- On Campus
   <div class="card" style="min-width: 25%; max-width: 40rem;">
     <img src="/images/events/gcc2022/travel/dorms.jpg" class="card-img-top" alt="UMN Residence Halls" />
     <div class="card-header">
@@ -62,7 +74,7 @@ We have reserved a block of rooms at the conference venue, the [Courtyard by Mar
 
 As a more economical alternative to the conference hotel, you can stay at the [Yudof Hall](https://housing.umn.edu/yudof).  These dorm rooms are [a 15 minute walk](https://goo.gl/maps/mCQwDNNWGP8AzCrT9) to the conference venue with a nightly rate is $79. The rooms are single occupancy with a shared, lockable bathroom between two rooms that make up a suite. Each room comes with a bed, linens, towels, desk, and a chair. See the [housing page](https://uces.umn.edu/stay/amenities#) for a full list of amenities. Parking is available at the [East River Road Garage](https://pts.umn.edu/Park/Public-Visitor-Parking/Visitor-Public-Parking). **A room can be booked as part of the conference [registration](https://learning.umn.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=32741188).** There is a limited number of rooms available to book as soon as possible.
   </div>
-
+-->
   <!-- Hotels-->
   <div class="card" style="min-width: 25%; max-width: 40rem;">
     <img src="/images/events/gcc2022/travel/hotels.png" class="card-img-top" alt="Hotels, lots of them." />

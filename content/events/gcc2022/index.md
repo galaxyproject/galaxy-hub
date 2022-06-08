@@ -27,7 +27,7 @@ This annual gathering of the Galaxy community includes **training, talks, poster
     <img src="/images/events/gcc2022/schedule-slice.png" class="card-img-top" alt="Key Dates and Schedule" />
     <div class="card-header">Key Dates and Schedule</div>
 
-**[Registration](/events/gcc2022/register/) and [abstract submission](/events/gcc2022/abstracts/) are open**.  Early registration provides significant discounts for all types of participants, especially students and post-docs. See the [Key Dates page](/events/gcc2022/key-dates/) for more.
+**[Registration](/events/gcc2022/register/) is open**.  Early registration provides significant discounts for all types of participants, especially students and post-docs. See the [Key Dates page](/events/gcc2022/key-dates/) for more.
 
 The **[draft conference schedule](https://gcc2022.sched.com/)** shows the dates and times of conference events, and includes other cool events happening in and around the Twin Cities.  A **[summary is here](/events/gcc2022/schedule/)**.
 
@@ -86,7 +86,7 @@ Interested in how informatics and AI can be integrated into molecular and clinic
 
 GCC2022 will be hosted by the **[University of Minnesota, Twin Cities](https://twin-cities.umn.edu/)** in Minneapolis, Minnesota.
 
-The meeting will be **held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/hotels/travel/mspdc-courtyard-minneapolis-downtown/)**, near the university campus and close to engaging neighborhoods, cultural attractions, public art and greenspace, restaurants, and much more. The venue area straddles the Mississippi River and no matter where you are, you're never far from nature with parks, trails, and waterways just a short walk away.
+The meeting will be **held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink)**, near the university campus and close to engaging neighborhoods, cultural attractions, public art and greenspace, restaurants, and much more. The venue area straddles the Mississippi River and no matter where you are, you're never far from nature with parks, trails, and waterways just a short walk away.
   </div>
 
   <!-- MSI -->
@@ -110,7 +110,7 @@ For over 30 years the **[Minnesota Supercomputing Institute (MSI)](https://www.m
     <img src="/images/events/gcc2022/travel/transit.png" class="card-img-top" alt="Public transit" />
     <div class="card-header">Getting Here and Around</div>
 
-**Getting here is easy.**  The Twin Cities are served by the Minneapolis St Paul Airport (MSP), with direct flights from 44 states, Canada, Europe, and Mexico.  It is also **a short flight (or a scenic drive) from Madison, Wisconsin, the site of ISMB and BOSC 2022** (which is just before GCC).  The conference meeting area is served by rapid public transit.  Lodging will be available in on-campus dorms, the conference hotel, and there are also many nearby hotels.  **See the [Travel page](/events/gcc2022/travel/) for details.**
+**Getting here is easy.**  The Twin Cities are served by the Minneapolis St Paul Airport (MSP), with direct flights from 44 states, Canada, Europe, and Mexico.  It is also **a short flight (or a scenic drive) from Madison, Wisconsin, the site of ISMB and BOSC 2022** (which is just before GCC).  The conference meeting area is served by rapid public transit.  Lodging will be available in on the conference hotel, and there are also many nearby hotels.  **See the [Travel page](/events/gcc2022/travel/) for details.**
 
   </div>
 

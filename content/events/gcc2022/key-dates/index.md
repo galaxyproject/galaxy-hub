@@ -10,7 +10,7 @@
 | ~~May 17~~ |  | | [Birds of a Feather Submissions open](https://bit.ly/gcc2022-submit-bof) |
 | ~~May  19~~ |   | ✔ | Early [registration (extended!)](/events/gcc2022/register/) ends; talk and early poster/demo submitters notified of acceptance status~~ |
 | ~~May  20~~ |   | ✔ | ~~Deadline for confirming abstract acceptance~~ |
-| Jun  3 | ✔ | ✔ | Final deadline for [submitting poster/demo abstracts](/events/gcc2022/abstracts/) |
+| ~~Jun  3~~ | ✔ | ✔ | ~~Final deadline for [submitting poster/demo abstracts](/events/gcc2022/abstracts/)~~ |
 | Jun 14 | ✔ |   | Full [registration](/events/gcc2022/register/) ends |
 | Jun 15 | ✔ |   | Late [registration](/events/gcc2022/register/) opens |
 | Jul 15 |   | ✔ | [Birds of a Feather Submission ends](https://bit.ly/gcc2022-submit-bof) |
