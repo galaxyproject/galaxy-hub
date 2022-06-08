@@ -2,7 +2,7 @@
 
 ## Venue
 
-GCC2022 will be held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/hotels/travel/mspdc-courtyard-minneapolis-downtown/) at [1500 S Washington Ave, Minneapolis, MN 55454](https://goo.gl/maps/4RZ77aYGK31e2MZy6). Talks, posters, and demos will be held here.
+GCC2022 will be held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink) at [1500 S Washington Ave, Minneapolis, MN 55454](https://goo.gl/maps/4RZ77aYGK31e2MZy6). Talks, posters, and demos will be held here.
 
 CoFest will be held on campus. Watch this space for more details.
 
