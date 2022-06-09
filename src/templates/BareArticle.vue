@@ -1,6 +1,6 @@
 <template>
     <div>
-        <main id="maincontainer" class="container">
+        <main id="maincontainer" class="container markdown">
             <VueRemarkContent>
                 <!--
                     Insert the content for each `<slot>` in the Markdown.
@@ -9,7 +9,9 @@
                     `insert.name` variable: https://vuejs.org/v2/guide/components-slots.html#Dynamic-Slot-Names
                 -->
                 <template v-for="insert of $page.article.inserts" #[insert.name]>
-                    <div class="markdown" :key="insert.name + ':md'" v-html="insert.content">&nbsp;</div>
+                    <div class="insert" :data-name="insert.name" :key="insert.name + ':md'" v-html="insert.content">
+                        &nbsp;
+                    </div>
                 </template>
             </VueRemarkContent>
         </main>
