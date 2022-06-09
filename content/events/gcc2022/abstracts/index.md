@@ -37,7 +37,7 @@ presentations) that will resonate with GCC2022 participants.
    why it isn't.  For example, if you have implemented Galaxy in a company,
    behind a firewall, then your presentation should focus on the lessons you
    learned, and any contributions that were made back into the ecosystem.  An
-   abstract that merely highlights and inaccessible resource is not compelling.
+   abstract that merely highlights an inaccessible resource is not compelling.
 1. **Project Update.** If an abstract is a project update for a project that has
    previously been presented at a GCC, then it needs to describe a significant
    update to be considered for a talk.  Minor updates submitted as talks will be
