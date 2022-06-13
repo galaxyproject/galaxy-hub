@@ -2,15 +2,13 @@
 
 # Schedule
 
-<div class="float-right">
+GCC2022 is three events spread out over July.  One is virtual only (Training
+Day), one is in-person only (Meeting), and one is hybrid with limited support
+for remote participation (CoFest).
 
-[![See the current schedule](/images/events/gcc2022/schedule/schedule-thumb.png)](https://gcc2022.sched.com/)
-
-</div>
-
-<p class="lead">GCC2022 is three events spread out over several weeks in July.  One is virtual only (training), one is hybrid with limited support for remote participation (CoFest), and one is in-person only (meeting).</p>
-
-This page summarizes both GCC2022 events, and other cool events happening around GCC2022 in time and space.  **For a full schedule, see the [GCC2022 schedule site](https://gcc2022.sched.com/)**.
+This page summarizes all GCC2022 events, and other cool events happening around
+GCC2022 in time and space.  **For a full schedule, see the [GCC2022 schedule
+site](https://gcc2022.sched.com/)**.
 
 ## GCC2022 Events
 
@@ -90,10 +88,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
       </td>
       <td></td>
     </tr>
-    <tr>
-      <td colspan="7"></td>
-    </tr>
-    <tr class="text-center" style="background-color: #BCE">
+    <tr class="text-center" style="background-color: #BCE; border-top: 2px solid black">
       <th>Jul 10</th>
       <th>Jul 11</th>
       <th>Jul 12</th>
@@ -134,10 +129,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
         <br /><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul
       </td>
     </tr>
-    <tr>
-      <td colspan="7"></td>
-    </tr>
-    <tr class="text-center" style="background-color: #BCE">
+    <tr class="text-center" style="background-color: #BCE; border-top: 2px solid black">
       <th>Jul 17</th>
       <th>Jul 18</th>
       <th>Jul 19</th>
@@ -148,7 +140,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
     </tr>
     <tr style="border: 1px solid lightgray">
       <td colspan="4" style="background-color: #8CE;">
-        <span class="lead"><strong>Conference</strong></span>
+        <span class="lead"><strong>Meeting</strong></span>
         <br />Minneapolis
       </td>
       <td colspan="3" style="background-color: #BEF;">

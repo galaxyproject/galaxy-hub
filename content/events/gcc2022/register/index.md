@@ -12,7 +12,7 @@ Registration for GCC2022 is open. See below for event details and description of
         <div class="col">
             <button type="button" class="btn btn-secondary center">
                 <a target="_blank" href="https://learning.umn.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=32741188">
-                    <strong>Register now</strong>
+                    <strong>Register for the conference now</strong>
                 </a>
             </button>
         </div>
