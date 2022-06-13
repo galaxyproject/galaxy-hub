@@ -7,17 +7,17 @@
 <div class="linkbox-horizontal trim-p">
 
 [Home](/events/gcc2022/) |
-[Key Dates](/events/gcc2022/key-dates/) |
-[Conduct](/events/gcc2022/conduct/) |
-[**Abstracts**](/events/gcc2022/abstracts/) |
-[Schedule](/events/gcc2022/schedule/) |
-[Training](/events/gcc2022/training/) |
-[CoFest](/events/gcc2022/cofest/) |
-[Sponsors](/events/gcc2022/sponsors/) |
-[Travel](/events/gcc2022/travel/) |
 [**Register**](/events/gcc2022/register) |
+[Schedule](/events/gcc2022/schedule/) |
+[Abstracts](/events/gcc2022/abstracts/) |
 [Childcare](/events/gcc2022/childcare/) |
-[Organizers](/events/gcc2022/organizers/)
+[CoFest](/events/gcc2022/cofest/) |
+[Conduct](/events/gcc2022/conduct/) |
+[Key Dates](/events/gcc2022/key-dates/) |
+[Organizers](/events/gcc2022/organizers/) |
+[Sponsors](/events/gcc2022/sponsors/) |
+[Training](/events/gcc2022/training/) |
+[**Travel**](/events/gcc2022/travel/)
 
 </div>
 <div class="text-center">

@@ -17,9 +17,15 @@ components: true
   <div class="card" style="min-width: 30%; max-width: 40rem;">
     <img src="/images/events/gcc2022/gcc2022-logo-big.png" class="card-img-top" alt="GCC2022" />
 
-The **2022 Galaxy Community Conference (GCC2022)** will bring together hundreds of researchers, trainers, tool developers, software engineers, and  computational infrastructure providers, all addressing common challenges in data intensive science using the [Galaxy data integration and analysis platform](/).
+The **2022 Galaxy Community Conference (GCC2022)** will bring together hundreds
+of researchers, trainers, tool developers, software engineers, and
+computational infrastructure providers, all addressing common challenges in data
+intensive science using the [Galaxy data integration and analysis platform](/).
 
-This annual gathering of the Galaxy community includes **training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking**.  There is no better event to share your work and learn form others working in data-intensive science.
+This annual gathering of the Galaxy community includes **training, talks,
+posters, demos, Birds of a Feather meetups, and many other opportunities for
+collaboration and networking**.  There is no better event to share your work and
+learn form others working in Galaxy-related data-intensive science.
   </div>
 
   <!-- Schedule & Key Dates -->
@@ -27,18 +33,18 @@ This annual gathering of the Galaxy community includes **training, talks, poster
     <img src="/images/events/gcc2022/schedule-slice.png" class="card-img-top" alt="Key Dates and Schedule" />
     <div class="card-header">Key Dates and Schedule</div>
 
-**[Registration](/events/gcc2022/register/) is open**.  Early registration provides significant discounts for all types of participants, especially students and post-docs. See the [Key Dates page](/events/gcc2022/key-dates/) for more.
+**[Registration](/events/gcc2022/register/) is open**.  Register early for significant discounts. See the [Key Dates page](/events/gcc2022/key-dates/) for more.
 
-The **[draft conference schedule](https://gcc2022.sched.com/)** shows the dates and times of conference events, and includes other cool events happening in and around the Twin Cities.  A **[summary is here](/events/gcc2022/schedule/)**.
+The **[conference schedule](https://gcc2022.sched.com/)** shows the dates and times of conference events, and includes other cool events happening in and around the Twin Cities.  A **[summary is here](/events/gcc2022/schedule/)**.
 
   </div>
 
-  <!-- Abstracts -->
+<!-- BoFs -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/gianmauro-slice.jpg" class="card-img-top" alt="Present at GCC2022" />
-    <div class="card-header">Abstracts</div>
+    <img src="/images/events/gcc2022/bof-loons.jpeg" class="card-img-top" alt="A flock of loons" />
+    <div class="card-header">Birds of a Feather</div>
 
-**Share your work!**  There is no better place than GCC2022 to share your progress and challenges in doing and supporting data-intensive science. GCC2022 is soliciting long talks, lightning talks, poster presentations, and demo presentations.  **See the [Abstracts page](/events/gcc2022/abstracts/)** for details.
+[Bird of a Feather (BoF) sessions](https://bit.ly/gcc2022-bofs) provide opportunities to gather and discuss special topics of interest. Have an idea for a BoF? [Propose a topic now](https://bit.ly/gcc2022-submit-bof) (it only requires a few sentences).
 
   </div>
 
@@ -61,14 +67,7 @@ Interested in how informatics and AI can be integrated into molecular and clinic
 
   </div>
 
-  <!-- BoFs -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/bof-loons.jpeg" class="card-img-top" alt="A flock of loons" />
-    <div class="card-header">Birds of a Feather</div>
 
-[Bird of a Feather (BoF) sessions](https://bit.ly/gcc2022-bofs) provide opportunities to gather and discuss special topics of interest. Have an idea for a BoF? [Submit a proposal now](https://bit.ly/gcc2022-submit-bof).
-
-  </div>
 
   <!-- Sponsors -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">

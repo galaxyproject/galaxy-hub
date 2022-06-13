@@ -13,5 +13,6 @@
 | ~~Jun  3~~ | ✔ | ✔ | ~~Final deadline for [submitting poster/demo abstracts](/events/gcc2022/abstracts/)~~ |
 | Jun 14 | ✔ |   | Full [registration](/events/gcc2022/register/) ends |
 | Jun 15 | ✔ |   | Late [registration](/events/gcc2022/register/) opens |
+| Jun 24 | ✔ |   | Deadline for [reserving the hotel](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink) at the conference rate |
 | Jul 15 |   | ✔ | [Birds of a Feather Submission ends](https://bit.ly/gcc2022-submit-bof) |
 | Jul 17 | ✔ |   | Conference starts! |
