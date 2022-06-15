@@ -1,10 +1,10 @@
 <slot name="/events/gcc2022/header" />
 
-GCC2022 features [separate Training Day, Meeting, and CoFest events](/events/gcc2022/schedule/), which can be registered for separately or all at once.  Steep discounts are offered to students and postdocs, and for registering early.
+GCC2022 features [separate Training Day, Meeting, and CoFest events](/events/gcc2022/schedule/), which can be registered for separately or all at once.
 
 # Registration
 
-Registration for GCC2022 is open. See below for event details and description of all registraion options. The registration is processed by the University of Minneapolis.
+Registration for GCC2022 is open. See below for event details and description of all registration options. The registration is processed by the University of Minneapolis.
 
 <div class="container">
     <div class="row">
@@ -32,11 +32,11 @@ Cost: **Free, for as long as there is space**
 
 Meeting registration includes admission to conference talks, poster/demo sessions, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
 
-| | Early (< May 12) | Full (< June 14) | Late (> June 14) |
+| | ~~Early (< May 12)~~ | ~~Full (< June 14)~~ | Late (> June 14) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc | $250 | $400 | $500 |
-| Academic / Non-Profit / Government | $400 | $550 | $750 |
-| Industry            | $700 | $900 | $1,150 |
+| Student/postdoc | ~~$250~~ | ~~$400~~ | $500 |
+| Academic / Non-Profit / Government | ~~$400~~ | ~~$550~~ | $750 |
+| Industry            | ~~$700~~ | ~~$900~~ | $1,150 |
 
 ## CoFest, July 21-23
 
