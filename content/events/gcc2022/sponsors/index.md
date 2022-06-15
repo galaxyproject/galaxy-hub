@@ -13,7 +13,7 @@ generally scheduled at the start of the last session with accepted talks. See
 ## Platinum sponsor
 
 <a href="https://aws.amazon.com/" target="_blank">
-  <img src="/images/logos/aws-logo-smile-dark.png" alt="Platinum" style="max-width: 50%;" />
+  <img src="/images/logos/aws-logo-smile-dark.png" alt="AWS" style="max-width: 50%;" />
 </a>
 
 <hr/>
@@ -21,11 +21,11 @@ generally scheduled at the start of the last session with accepted talks. See
 ## Gold sponsors
 
 <a href="http://peerj.com/" target="_blank">
-  <img src="/images/logos/peerj-logo-white.png" alt="Gold" style="max-width: 50%; padding-right: 2rem;" />
+  <img src="/images/logos/peerj-logo-cs.jpg" alt="PeerJ" style="max-width: 30%; padding-right: 2rem;" />
 </a>
 
 <a href="https://cloud.google.com/" target="_blank">
-  <img src="/images/logos/google-cloud-platform-wide.png" alt="Gold" style="max-width: 50%; padding-right: 2rem;" />
+  <img src="/images/logos/google-cloud-platform-wide.png" alt="GCP" style="max-width: 50%; padding-right: 2rem;" />
 </a>
 
 <hr/>
@@ -33,7 +33,7 @@ generally scheduled at the start of the last session with accepted talks. See
 ## Silver sponsor
 
 <a href="https://galaxyworks.io/" target="_blank">
-  <img src="/images/logos/galaxyworks-logo.png" alt="Silver" style="max-width: 30%;" />
+  <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 30%;" />
 </a>
 
 <hr/>
@@ -41,13 +41,13 @@ generally scheduled at the start of the last session with accepted talks. See
 ## Bronze sponsors
 
 <a href="https://www.thermofisher.com/us/en/home.html" target="_blank">
-  <img src="/images/logos/thermo-fisher-logo.jpg" alt="Bronze" style="max-width: 25%; padding-right: 2rem;" />
+  <img src="/images/logos/thermo-fisher-logo.jpg" alt="ThermoFisher" style="max-width: 25%; padding-right: 2rem;" />
 </a>
 <a href="https://www.limagrain.com/en" target="_blank">
-  <img src="/images/logos/limagrain-logo-text.png" alt="Bronze" style="max-width: 25%;" />
+  <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%;" />
 </a>
 <a href="http://www.gigasciencejournal.com/" target="_blank">
-  <img src="/images/logos/gigascience-logo-hires.png" alt="Bronze" style="max-width: 25%; padding-right: 2rem;" />
+  <img src="/images/logos/gigascience-logo-hires.png" alt="GigaScience" style="max-width: 25%; padding-right: 2rem;" />
 </a>
 
 <hr/>
