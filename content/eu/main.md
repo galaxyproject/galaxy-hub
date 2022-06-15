@@ -5,7 +5,7 @@ subtitle: The homepage of the European Galaxy community
 
 <!-- Color palette: https://www.color-hex.com/color-palette/9983 -->
 
-<div class="card border-secondary bg-secondary mb-1" style="width: 100%;">
+<div class="card border-secondary bg-secondary" style="width: 100%;">
   <div class="card-body">
     <h2 class="card-title text-dark">The European Galaxy server</h2>
     <p class="card-text">The European Galaxy server <a href="https://usegalaxy.eu/">UseGalaxy.eu</a> is maintained primarily by the Freiburg Galaxy Team in collaboration with other academic groups across Europe and with the US Galaxy team. Please check our <a href="https://galaxyproject.eu/gdpr/tos.html">Terms of Service</a> and <a href="">data retention police</a> before using the server. We offer thousands of tools, increased quota on temporary basis, and compute infrastructure for trainers through Training Infrastructure as a Service (TIaaS).</p> 
