@@ -54,7 +54,7 @@ To apply, make sure to submit an abstract for a talk AND complete the [fellowshi
 
 ## Lodging
 
-A number of rooms are the conference hotel were reserved for the duration of the event. Alternatively, you can sign up for lodging on campus in the residence halls as a very affordable option. There are also numerous nearby lodging options in the city. See the [Travel page](/events/gcc2022/travel/) for more details. If you have questions about lodging or need help, please reach out to [Amy Beckham](mailto:amy@sapphyregroup.com).
+A number of rooms are the conference hotel were reserved for the duration of the event. There are also numerous nearby lodging options in the city. See the [Travel page](/events/gcc2022/travel/) for more details. If you have questions about lodging or need help, please reach out to [Amy Beckham](mailto:amy@sapphyregroup.com).
 
 ## Got kids?
 
