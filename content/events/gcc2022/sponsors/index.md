@@ -20,7 +20,7 @@ generally scheduled at the start of the last session with accepted talks. See
 
 ## Gold sponsors
 
-<a href="http://peerj.com/" target="_blank">
+<a href="https://peerj.com/computer-science/" target="_blank">
   <img src="/images/logos/peerj-logo-cs.jpg" alt="PeerJ" style="max-width: 30%; padding-right: 2rem;" />
 </a>
 
