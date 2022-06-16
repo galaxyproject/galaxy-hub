@@ -48,6 +48,7 @@
                     <b-nav-item-dropdown text="Projects">
                         <b-dropdown-item to="/projects/covid19/">Covid19</b-dropdown-item>
                         <b-dropdown-item to="/projects/mpxv/">Monkeypox</b-dropdown-item>
+                        <b-dropdown-item to="/projects/vgp/">VGP</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
