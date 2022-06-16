@@ -114,3 +114,9 @@ For over 30 years the **[Minnesota Supercomputing Institute (MSI)](https://www.m
   </div>
 
 </div>
+
+# GCC2022 Sponsors
+
+<a href="/events/gcc2022/sponsors/">
+  <img src="/images/events/gcc2022/gcc2022-sponsors-slice.png" alt="GCC2022 sponsors" />
+</a>
