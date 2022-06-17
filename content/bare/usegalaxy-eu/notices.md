@@ -1,5 +1,5 @@
 
-<div class="alert alert-danger">
+<div class="alert" style="background: #FFD500;">
 
 #### **Peace to Ukraine!**
 
