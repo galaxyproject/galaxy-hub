@@ -33,7 +33,9 @@ learn form others working in Galaxy-related data-intensive science.
     <img src="/images/events/gcc2022/schedule-slice.png" class="card-img-top" alt="Key Dates and Schedule" />
     <div class="card-header">Key Dates and Schedule</div>
 
-**[Registration](/events/gcc2022/register/) is open**.  See the [Key Dates page](/events/gcc2022/key-dates/) for more.
+**[Registration](/events/gcc2022/register/) is open**.  See the [Key Dates
+page](/events/gcc2022/key-dates/) for more. Note that there is now a *Webinar
+mode* registration option for limited virtual attendance.
 
 The **[conference schedule](https://gcc2022.sched.com/)** shows the dates and times of conference events, and includes other cool events happening in and around the Twin Cities.  A **[summary is here](/events/gcc2022/schedule/)**.
 
