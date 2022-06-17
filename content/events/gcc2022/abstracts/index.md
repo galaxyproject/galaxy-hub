@@ -10,6 +10,16 @@ a peer review process before being accepted for the program.
 **Abstract submission is now closed**, but take a look at [the
 schedule](https://gcc2022.sched.com/) for all the exciting talks coming up!
 
+## Posters
+
+If you are presenting a poster at GCC2022, maximum size for a poster can be 48"
+x 48" (or 120cm x 120cm). The poster schedule will be posted on the [schedule
+site](https://gcc2022.sched.com/overview/type/C.+Poster+%2F+Demo) with each
+poster being assigned number to match to a poster panel. You can place your
+poster on the first day for the conference and leave it up all the way until the
+end but please be present at the poster during your scheduled poster showing.
+
+
 # Key Dates
 
 | Date    | What |
@@ -18,7 +28,7 @@ schedule](https://gcc2022.sched.com/) for all the exciting talks coming up!
 | <s>May  12</s> | <s>Talk submitters notified of acceptance status</s> |
 | <s>May  20</s> | <s>Deadline for confirming abstract acceptance</s> |
 | <s>Jun  3</s>  | <s>Poster/demo abstracts due</s> |
-| Jun  17 | Poster/demo submitters notified of acceptance status |
+| <s>Jun  17</s> | <s>Poster/demo submitters notified of acceptance status</s> |
 
 # Guidelines
 

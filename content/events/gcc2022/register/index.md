@@ -30,13 +30,21 @@ Cost: **Free, for as long as there is space**
 
 **This is it! Our first in-person GCC since 2019.** The four day meeting will feature accepted and invited talks, poster, demo, and sponsor sessions, training sessions, Birds-of-a-Feather (BoF) sessions, a conference dinner, and lots of time for networking.
 
-Meeting registration includes admission to conference talks, poster/demo sessions, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
+In-person meeting registration includes admission to conference talks, poster/demo sessions, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
 
-| | ~~Early (< May 12)~~ | ~~Full (< June 14)~~ | Late (> June 14) |
+Based on popular demand, there is also a **Webinar mode** option for attendance.
+After registering for this option, you will get access to the live stream of the
+main meeting talks. You will also get invited to the conference Slack where you
+will have an opportunity to ask any questions of the presenters or poster
+authors. Note that in-person training events or CoFest will not be streamed.
+Also note that all speakers are required to attend in person.
+
+| | ~~Early (< May 12)~~ | Full (< June 22) | Late (> June 23) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc | ~~$250~~ | ~~$400~~ | $500 |
-| Academic / Non-Profit / Government | ~~$400~~ | ~~$550~~ | $750 |
-| Industry            | ~~$700~~ | ~~$900~~ | $1,150 |
+| Student/postdoc | ~~$250~~ | $400 | $500 |
+| Academic / Non-Profit / Government | ~~$400~~ | $550 | $750 |
+| Industry            | ~~$700~~ | $900 | $1,150 |
+| Webinar mode        | | | $80 |
 
 ## CoFest, July 21-23
 
@@ -69,4 +77,3 @@ There are fees and time invested into each registration and hence there are unfo
 | Before April 28          | 15%             |
 | April 29 - June 16       | 50%             |
 | June 17 and later        | 100%            |
-| For dorms, after June 30 | 100%            |
