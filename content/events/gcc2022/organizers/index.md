@@ -40,8 +40,7 @@ Training Day
 In Conference Training
 
 * **[Assunta DeSanto](https://github.com/assuntad23)**, [Penn State Universtiy](https://psu.edu/), United States
-* **[Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)**, [University of Freiburg](https://uni-freiburg.de/en/), Germany
-* **[Sergey Golitsynskiy](https://github.com/ic4f)**, [Johns Hopkins University](https://jhu.edu/), United States
+* **[John Davis](https://github.com/jdavcs)**, [Johns Hopkins University](https://jhu.edu/), United States
 
 # CoFest Organizers
 
