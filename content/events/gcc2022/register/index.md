@@ -32,19 +32,11 @@ Cost: **Free, for as long as there is space**
 
 In-person meeting registration includes admission to conference talks, poster/demo sessions, and all training during the conference.  **We strongly recommend that you decide on which training you want to take before you start your meeting registration process.**
 
-Based on popular demand, there is also a **Webinar mode** option for attendance.
-After registering for this option, you will get access to the live stream of the
-main meeting talks. You will also get invited to the conference Slack where you
-will have an opportunity to ask any questions of the presenters or poster
-authors. Note that in-person training events or CoFest will not be streamed.
-Also note that all speakers are required to attend in person.
-
 | | ~~Early (< May 12)~~ | Full (< June 22) | Late (> June 23) |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | ~~$250~~ | $400 | $500 |
 | Academic / Non-Profit / Government | ~~$400~~ | $550 | $750 |
 | Industry            | ~~$700~~ | $900 | $1,150 |
-| Webinar mode        | | | $80 |
 
 ## CoFest, July 21-23
 
