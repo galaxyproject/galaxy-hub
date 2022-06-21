@@ -36,6 +36,17 @@ function repr(strParts, ...values) {
 }
 module.exports.repr = repr;
 
+/** Truncate long strings with an ellipsis, and leave alone strings that are already short enough.
+ */
+function trunc(str, maxLen, endChar="…") {
+    if (str.length > maxLen) {
+        return str.slice(0, maxLen)+endChar;
+    } else {
+        return str;
+    }
+}
+module.exports.trunc = trunc;
+
 function splitlines(text) {
     return text.split(/\r\n|\r|\n/);
 }
