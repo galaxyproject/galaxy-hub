@@ -38,9 +38,9 @@ module.exports.repr = repr;
 
 /** Truncate long strings with an ellipsis, and leave alone strings that are already short enough.
  */
-function trunc(str, maxLen, endChar="…") {
+function trunc(str, maxLen, endChar = "…") {
     if (str.length > maxLen) {
-        return str.slice(0, maxLen)+endChar;
+        return str.slice(0, maxLen) + endChar;
     } else {
         return str;
     }
