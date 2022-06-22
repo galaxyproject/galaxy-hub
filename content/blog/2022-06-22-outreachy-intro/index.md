@@ -33,7 +33,7 @@ Below each intern is being presented and give their expectation on working on Ga
 
 #### What I am working on 
 
-Shivani has been selected to work on the development of a notification system for different events in Galaxy.
+I have been selected to work on the development of a notification system for different events in Galaxy.
 
 ### Soumya Jha
 
@@ -41,14 +41,17 @@ Shivani has been selected to work on the development of a notification system fo
 
 #### What I am working on 
 
-Soumya has been selected to work on Galaxy climate to support local/regional initiatives and concrete actions to fight climate change.
+I have been selected to work on Galaxy climate to support local/regional initiatives and concrete actions to fight climate change.
 
 
 ### Melke Berhan
 
 #### Who I am
 
+Hi, I'm Melke. I'm a researcher with a B.A. in psychology from Addis Ababa University. I am interested in research and working in artificial intelligence to create solutions to different societal problems. In my free time, I like to binge-watch crime documentaries, watch videos on artificial intelligence, and listen to some good playlists.
+
+
 #### What I am working on 
 
-Melke has been select to work on developing a culture of wellbeing for open source projects, the Galaxy community as a use case.
+I'm an Outreachy intern for the May-August round of 2022, working on the project "Develop a culture of well-being for open source projects, the Galaxy community as a use case." The project aims to improve the well-being of open source communities taking into account essential factors such as mental health, diversity, equity, and inclusion.
 
