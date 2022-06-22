@@ -1,8 +1,8 @@
 <template>
     <div>
         <section class="latest-posts row">
-            <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :width="6" :items="latest.news" />
-            <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :width="6" :items="latest.events" />
+            <HomeCard title="News" link="/eu/news/" icon="fas fa-bullhorn" :width="6" :items="latest.news" />
+            <HomeCard title="Events" link="/eu/events/" icon="far fa-calendar-alt" :width="6" :items="latest.events" />
         </section>
     </div>
 </template>
