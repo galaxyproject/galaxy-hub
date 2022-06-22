@@ -2,7 +2,11 @@
 autotoc: false
 ---
 
-<div class='left'><img src="/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
+<div class="left">
+
+![Galaxy Arabic Speaking Community](./GalaxyArabic400.png){width=200}
+
+</div>
 
 ## Galaxy Arabic Speaking Community (العربية Galaxy)
 
@@ -13,11 +17,12 @@ autotoc: false
 </div>
 
 <br />
+
 The **Galaxy Arabic speaking community** supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.
 
 If you are interested, please [follow @Galaxy_Arabic on Twitter](http://twitter.com/galaxy_arabic), subscribe to the [Galaxy Arabic mailing list](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/), and join the [Galaxy Arabic Facebook group](http://bit.ly/2ek7fTh).
 
 ## Other Resources
 
-* Introduction to Galaxy Project presentation in Arabic ([PowerPoint](https://depot.galaxyproject.org/hub/attachments/documents/presenttions/GalaxyProjectIntroArabic.pptx),
+* Introduction to Galaxy Project presentation in Arabic ([PowerPoint](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GalaxyProjectIntroArabic.pptx),
  [PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GalaxyProjectIntroArabic.PDF))

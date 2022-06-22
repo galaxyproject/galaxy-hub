@@ -21,8 +21,8 @@ The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>]
 
 The easiest way to be able to follow our tutorials and learn first-hand about Galaxy is by using a[ __Public Galaxy Server__](/use/). We recommend using one of these:
 - [**US Server**](https://usegalaxy.org)
-- [**EU Server**](https://usegalaxy.eu/)
-- [**AU Server**](https://usegalaxy.org.au/)
+- [**EU Server**](https://usegalaxy.eu)
+- [**AU Server**](https://usegalaxy.org.au)
 
 We also encourage you to create an account for the server you'll be using to keep track of your histories and workflows.
 
@@ -49,7 +49,7 @@ Before diving into Galaxy tutorials, you may check [**Galaxy events**](/events/)
 
 ### Galaxy Training Network
 
-We have many more [**Galaxy Training materials**](https://training.galaxyproject.org/)! The Galaxy Training Network has a great list of tutorials on a variety of topics (_Climate, Transcriptomics, Data Science, Development and more!_) written and maintained by the world-wide Galaxy Community.
+We have many more [**Galaxy Training materials**](https://training.galaxyproject.org)! The Galaxy Training Network has a great list of tutorials on a variety of topics (_Climate, Transcriptomics, Data Science, Development and more!_) written and maintained by the world-wide Galaxy Community.
 
 ### Galaxy Help & Bug Reports
 
@@ -59,7 +59,7 @@ Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an e
 
 Check our [**issues dedicated page**](/issues/) for known issues, problems and tips. Galaxy uses [**GitHub issues**](https://github.com/galaxyproject/galaxy/issues) for tracking down bugs and feature requests, **please make sure you search the list for duplicates before creating a new issue**.
 
-If you couldn't find a solution, reach out to the [**Galaxy Help Forum**](https://help.galaxyproject.org/) as *the* place to ask your questions related to Galaxy use or  [**create an issue**](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue) yourself. Either way, we are more than happy to help you out!
+If you couldn't find a solution, reach out to the [**Galaxy Help Forum**](https://help.galaxyproject.org) as *the* place to ask your questions related to Galaxy use or  [**create an issue**](https://docs.github.com/es/issues/tracking-your-work-with-issues/creating-an-issue) yourself. Either way, we are more than happy to help you out!
 
 ### Mailing lists
 If you haven't used mailing list before they are simply a list of addresses to which the same information is being sent, just another way to communicate and interact with the Community. See them [**here**](/mailing-lists/) and remember [**don't be afraid to ask questions**](/mailing-lists#new-to-mailing-lists/).
@@ -82,7 +82,7 @@ From India to Australia, Japan to France and many more countries [**Regional Com
 Another way communities are formed is by domains such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own [**servers and mailing list**](/community/#communities-of-practice).
 
 ### Set up your own Community
-What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads) for more.
+What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads/) for more.
 
 ## Step 4: Take part and contribute to Galaxy
 
@@ -91,10 +91,10 @@ What if you can't find yourself in these lists of regional and/or community of p
 Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in Gitter or the Help Forum to mention some ways.
 
 ### Working Groups
-Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
+Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
 Some of the current Working Groups include Tools, Systems and User Interface/User Experience.
 
 ### Galaxy Mentor Network
 
 Are you ready & excited to start your own project or community, to contribute to Open Source or to settle into the Galaxy ecosystem?
-Check out the [**Galaxy Mentor Programme.**](https://galaxy-mentor-network.netlify.app/)
+Check out the [**Galaxy Mentor Programme.**](https://galaxy-mentor-network.netlify.app)
