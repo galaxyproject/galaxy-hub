@@ -31,6 +31,8 @@ Below each intern is being presented and give their expectation on working on Ga
 
 #### Who I am
 
+I am Shivani Sangwan from Delhi (India).
+
 #### What I am working on 
 
 I have been selected to work on the development of a notification system for different events in Galaxy.
@@ -39,10 +41,14 @@ I have been selected to work on the development of a notification system for dif
 
 #### Who I am
 
+I am Soumya Jha , a 22 year old Environment major. Hailing from the small state of Jharkhand in India, I have big dreams. 
+I am a polyglot with the knowledge of five languages namely English, Hindi, Sanskrit, Maithili and Korean. I love learning about new cultures and languages. I am a hodophile . My love towards nature and its creations is immense. I have worked in several campaigns for protection of stray animals and environment conservation.
+
 #### What I am working on 
 
-I have been selected to work on Galaxy climate to support local/regional initiatives and concrete actions to fight climate change.
+ I’ve been selected as an intern to the Galaxy Community under the Outreachy 22 cohort. I will be working on the contribution of tools to the Galaxy toolshed and certain documentations for Climate protection on a regional level. Climate in itself is a huge and sensitive topic, a serious discussion of which is the need of the hour.
 
+If you want to know more about me and my work within Galaxy Climate, check out my [website](https://soumya-jha.netlify.app/).
 
 ### Melke Berhan
 
