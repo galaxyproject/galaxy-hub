@@ -14,7 +14,7 @@ title: "The Vertebrate Genomes Project in Galaxy"
 
 The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data:
  - Integration of the Genome Ark on public Galaxy servers.
-  - A Galaxy platform with toolkits specifically tailored for [Genome assembly](assembly.usegalaxy.eu).
+  - A Galaxy platform with toolkits specifically tailored for [Genome assembly](https://assembly.usegalaxy.eu).
   - Multiple workflows available from the IWC on US and EU servers using the most up-to-date VGP pipelines.
   - A list of publicly-available histories for each assembly completed on Galaxy as they are generated.
 
@@ -43,7 +43,7 @@ The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is
       <div class="card-body">
         <h3><b>Workflows</b></h3>
         Current and consistently updated workflows for all VGP workflows in Galaxy. <br><br>
-        <a href="/projects/VGP/workflows/" class="btn btn-danger">View Workflows</a>
+        <a href="/projects/vgp/workflows/" class="btn btn-danger">View Workflows</a>
       </div>
     </div>
   </div>
