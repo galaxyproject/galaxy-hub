@@ -41,14 +41,30 @@ I have been selected to work on the development of a notification system for dif
 
 #### Who I am
 
-I am Soumya Jha , a 22 year old Environment major. Hailing from the small state of Jharkhand in India, I have big dreams. 
-I am a polyglot with the knowledge of five languages namely English, Hindi, Sanskrit, Maithili and Korean. I love learning about new cultures and languages. I am a hodophile . My love towards nature and its creations is immense. I have worked in several campaigns for protection of stray animals and environment conservation.
+Hello, I am a third year undergrad , enthusiastic for Data Science and Machine Learning. My major is Civil and Environmental Engineering. I am from Jharkhand, India. Being a polyglot, I can speak and write five different languages. People recognise me as a hodophile, who loves to explore nature and its beauty. I envision the admiring glances of green and healthy Earth. My major area of study is Air Pollution and its Control.I have also explored " Compound Climate Events" and their causes for some time. I have prior experience in Python,its libraries, Data Structures/ Algorithms in C++ and full (MERN) stack Web Development. 
+
+I believe technology is a boon to humankind. It’s a way to get out of the problems that we’ve created. I have worked in several campaigns for protection of stray animals and for environment conservation. I am looking towards bringing a distinguishable change and awareness towards the changing climate , which can be of some help in lowering the potential threat to our existence.
 
 #### What I am working on 
 
- I’ve been selected as an intern to the Galaxy Community under the Outreachy 22 cohort. I will be working on the contribution of tools to the Galaxy toolshed and certain documentations for Climate protection on a regional level. Climate in itself is a huge and sensitive topic, a serious discussion of which is the need of the hour.
+I’ve been selected as an intern to the Galaxy Community under the Outreachy 22 cohort. I will be working on the contribution of tools to the Galaxy toolshed and certain documentations for Climate protection on a regional level. Climate in itself is a huge and sensitive topic, a serious discussion of which is the need of the hour.
 
-If you want to know more about me and my work within Galaxy Climate, check out my [website](https://soumya-jha.netlify.app/).
+I’ve been selected as an intern to the Galaxy Community under the Outreachy 22 cohort. I will be working on the contribution of tools to the Galaxy toolshed and certain documentations for Climate protection on a regional level. Climate in itself is a huge and sensitive topic, a serious discussion of which is the need of the hour.
+
+“ Who does not want to enjoy the cool air of the Air Conditioner, when it’s scorching heat outside?” Yes , we humans can definitely do it. But what about the stray animals living in the very same locality? And what about the drying giant tree in your neighbourhood? There is no resort. We are selfish. And Climate Change is the proof. It indeed is very important to spread awareness about how important climate change is impacting us and how it  will be in the coming times.
+
+"Climate Change " should not just be the jargon of the ‘Science People’. Local awareness in this case can be a game changer. Thus with the help of Galaxy Community, I have got the chance to bring a change in my local areas by showing them the probable future pictures of the current climatic scenario.
+
+I will be focusing towards the climate analysis for the city of **Mumbai** (lat : 18.75,19.25 ; lon :72.50, 73.00  ). Mumbai is the financial capital of India and is of great significance. The IPCC 2021 report declares that the city will be completely under the water by 2030. My main work includes detailed analysis of the land and ocean interactions of the city. The major focus will be ‘analysis of URBAN HEAT ISLAND ‘  effects and ‘ effect on MARINE lives near the coast’  in the region.  
+
+The main motive is’ making science reproducible’. The entire analysis will be converted into workflow and would be available to anyone who wishes to use it in future, so that their analysis/ research can be more centred and less time consuming. During the process, wherever we feel the technology limitations, I will be contributing to the development of those tools for analysis. This will open more possibilities in the future.
+
+To fight the ‘Climate Change,  a resilient attitude is the need of the hour. The concept of “ NET ZERO” sounds overwhelming but unattainable on true grounds. Technology and our meaningful  actions towards curbing the pollution can help improve the situation. 
+Wish you a Greener Planet! 
+
+
+If you want to know more about me and my work within Galaxy Climate, check out my [Blog_website](https://soumya-jha.netlify.app/).
+Read my blog on Climate Change [here](https://medium.com/@green_soul/climates-last-call-how-will-we-counter-7c4ea93c0913)
 
 ### Melke Berhan
 
