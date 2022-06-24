@@ -1,6 +1,6 @@
 <template>
     <div>
-        <main id="maincontainer" class="container markdown">
+        <main id="maincontainer" :class="['container', 'markdown', ...mdClasses]">
             <VueRemarkContent>
                 <!--
                     Insert the content for each `<slot>` in the Markdown.
@@ -20,11 +20,19 @@
 
 <script>
 import { resizeIFrames } from "~/lib/client.mjs";
+import { addTocClass } from "~/lib/pages.mjs";
 export default {
     metaInfo() {
         return {
             title: this.$page.article.title,
         };
+    },
+    computed: {
+        mdClasses() {
+            let classes = [];
+            addTocClass(classes, this.$page.article);
+            return classes;
+        },
     },
     mounted() {
         resizeIFrames(document);
@@ -38,6 +46,7 @@ query BareArticle($path: String!) {
         id
         title
         content
+        autotoc
         inserts {
             name
             content
