@@ -1,7 +1,7 @@
 // Functions used in dynamic pages (`src/pages/*.vue` and `src/components/pages/*.vue`).
 
 import utils from "./utils.js";
-// Kludge for webpack issue (I think).
+// Kludge for an issue (probably) with webpack.
 const { repr, rmSuffix } = utils;
 
 export function getImage(imagePath, images) {
@@ -25,6 +25,14 @@ export function getImage(imagePath, images) {
 
 export function hasContent(item) {
     return Boolean(item && item.content && item.content.trim());
+}
+
+export function addTocClass(classes, article) {
+    if (article.autotoc === true) {
+        classes.push("toc");
+    } else if (article.autotoc === false) {
+        classes.push("notoc");
+    }
 }
 
 export function gatherInserts(allInsert) {

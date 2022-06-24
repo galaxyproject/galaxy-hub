@@ -44,6 +44,7 @@ query Article($path: String!) {
 </page-query>
 
 <script>
+import { addTocClass } from "~/lib/pages.mjs";
 import ArticleHeader from "@/components/ArticleHeader";
 import ArticleFooter from "@/components/ArticleFooter";
 export default {
@@ -54,11 +55,7 @@ export default {
     computed: {
         mdClasses() {
             let classes = [];
-            if (this.$page.article.autotoc === true) {
-                classes.push("toc");
-            } else if (this.$page.article.autotoc === false) {
-                classes.push("notoc");
-            }
+            addTocClass(classes, this.$page.article);
             return classes;
         },
     },
