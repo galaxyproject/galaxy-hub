@@ -30,7 +30,6 @@ export default {
     computed: {
         mdClasses() {
             let classes = [];
-            console.log("autotoc:", this.$page.article.autotoc);
             addTocClass(classes, this.$page.article);
             return classes;
         },
