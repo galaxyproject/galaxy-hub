@@ -9,11 +9,11 @@ const dayjs = require("dayjs");
 const jiti = require("jiti")(__filename);
 const remarkToc = jiti("remark-toc").default;
 const tocRemodel = jiti("./src/build/toc-remodel.mjs").default;
-const { rmToc } = jiti("./src/build/toc-add.mjs");
+const { rmToc, HEADING_ENDING } = jiti("./src/build/toc-add.mjs");
 const { repr, getType, rmPrefix, rmSuffix, splitlines, rmPathPrefix, mdToHtml } = require("./src/lib/utils.js");
 const CONFIG = require("./config.json");
 const REMARK_PLUGINS = [
-    [remarkToc, { skip: "end-table-of-contents" }],
+    [remarkToc, { skip: HEADING_ENDING }],
     [tocRemodel, { tocAttrs: { class: "toc-wrapper col-md-3" }, bodyAttrs: { class: "body-wrapper col-md-9" } }],
 ];
 const REMARK_VUE_PLUGINS = REMARK_PLUGINS;

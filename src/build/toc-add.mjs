@@ -1,18 +1,20 @@
 import nodePath from "path";
 
-const HEADING_TEXT = "table-of-contents";
-const HEADING_ENDING = "end-table-of-contents";
+export const HEADING_TEXT = "table-of-contents";
+export const HEADING_ENDING = "end-table-of-contents";
+// The default heading pattern remark-toc searches for: https://github.com/remarkjs/remark-toc#optionsheading
+const REMARK_TOC_PATTERN = /^(toc|table[ -]of[ -]contents?)$/i;
 
 /**
- *
  * @param {Object}  [opts]
- * @param {boolean} [opts.onlyIfHeadings=false] Only add a table of contents if there is at least
- *   one heading present in the page.
- * @param {string}  [opts.includeFilename]      Only add a table of contents to files with this
- *   filename.
- * @param {string}  [opts.position='start']     Where to add the table of contents:
- *   'start': Before the page contents (default).
- *   'end':   After the page contents.
+ * @param {boolean} [opts.onlyIfHeadings=false]
+ *   Only add a table of contents if there is at least one heading present in the page.
+ * @param {string}  [opts.includeFilename]
+ *   Only add a table of contents to files with this filename.
+ * @param {string}  [opts.position='start']
+ *   Where to add the table of contents:
+ *     'start': Before the page contents (default).
+ *     'end':   After the page contents.
  */
 export default function attacher(opts) {
     if (opts === undefined) {
@@ -30,6 +32,10 @@ export default function attacher(opts) {
         }
         let hasMetadata = getHasMetadata(tree);
         if (!getHasContent(tree, hasMetadata)) {
+            return;
+        }
+        // Does it already have a ToC heading?
+        if (hasToC(tree)) {
             return;
         }
         let insertionIndex;
@@ -91,6 +97,18 @@ function getHasHeadings(tree) {
     for (let node of tree.children) {
         if (node.type === "heading") {
             return true;
+        }
+    }
+    return false;
+}
+
+/** Does the document already contain a ToC heading recognized by remark-toc? */
+function hasToC(tree) {
+    for (let child of tree.children) {
+        if (child.type === "heading" && child.children.length === 1 && child.children[0].type === "text") {
+            if (REMARK_TOC_PATTERN.test(child.children[0].value)) {
+                return true;
+            }
         }
     }
     return false;
