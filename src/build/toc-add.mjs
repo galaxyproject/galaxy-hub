@@ -1,18 +1,18 @@
 import nodePath from "path";
 
-const HEADING_TEXT = "table-of-contents";
-const HEADING_ENDING = "end-table-of-contents";
+export const HEADING_TEXT = "table-of-contents";
+export const HEADING_ENDING = "end-table-of-contents";
 
 /**
- *
  * @param {Object}  [opts]
- * @param {boolean} [opts.onlyIfHeadings=false] Only add a table of contents if there is at least
- *   one heading present in the page.
- * @param {string}  [opts.includeFilename]      Only add a table of contents to files with this
- *   filename.
- * @param {string}  [opts.position='start']     Where to add the table of contents:
- *   'start': Before the page contents (default).
- *   'end':   After the page contents.
+ * @param {boolean} [opts.onlyIfHeadings=false]
+ *   Only add a table of contents if there is at least one heading present in the page.
+ * @param {string}  [opts.includeFilename]
+ *   Only add a table of contents to files with this filename.
+ * @param {string}  [opts.position='start']
+ *   Where to add the table of contents:
+ *     'start': Before the page contents (default).
+ *     'end':   After the page contents.
  */
 export default function attacher(opts) {
     if (opts === undefined) {
