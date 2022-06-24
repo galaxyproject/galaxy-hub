@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="collection-bare-article">
         <main id="maincontainer" :class="['container', 'markdown', ...mdClasses]">
             <VueRemarkContent>
                 <!--

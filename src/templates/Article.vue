@@ -1,5 +1,5 @@
 <template>
-    <Layout :subsite="$page.article.main_subsite || undefined">
+    <Layout :subsite="$page.article.main_subsite || undefined" class="collection-article">
         <ArticleHeader :article="$page.article" />
         <div :class="['content', 'markdown', ...mdClasses]" v-html="$page.article.content" />
         <ArticleFooter :article="$page.article" />

@@ -1,5 +1,5 @@
 <template>
-    <Layout :subsite="subsite">
+    <Layout :subsite="subsite" class="collection-platform">
         <g-link to="/use/" class="link"> &larr; Platform Directory</g-link>
         <header>
             <h1 class="pageTitle">{{ $page.platform.title }}</h1>
