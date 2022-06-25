@@ -10,7 +10,7 @@ subtitle: The homepage of the European Galaxy community
     <h2 class="card-title text-dark">The European Galaxy server</h2>
     <p class="card-text">The European Galaxy server <a href="https://usegalaxy.eu/">UseGalaxy.eu</a> is maintained primarily by the Freiburg Galaxy Team in collaboration with other academic groups across Europe and with the US Galaxy team. Please check our <a href="https://galaxyproject.eu/gdpr/tos.html">Terms of Service</a> and <a href="">data retention police</a> before using the server. We offer thousands of tools, increased quota on temporary basis, and compute infrastructure for trainers through Training Infrastructure as a Service (TIaaS).</p> 
     <div class="text-center">
-        <a href="" class="btn btn-light btn-outline-dark mx-3">Browse installed tools</a>
+        <a href="https://galaxyproject.eu/tools" class="btn btn-light btn-outline-dark mx-3">Browse installed tools</a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" class="btn btn-light btn-outline-dark mx-3">Request temporary increase of quota</a>
         <a href="https://galaxyproject.eu/tiaas" class="btn btn-light btn-outline-dark mx-3">Request TIaaS</a>
         <a href="https://status.galaxyproject.org/" class="btn btn-light btn-outline-dark mx-3">Check the status of the server</a>
@@ -26,7 +26,7 @@ subtitle: The homepage of the European Galaxy community
       <div class="text-center">
           <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100">
           <br><br>
-          <a href="#" class="btn btn-primary">See all the projects</a>
+          <a href="https://galaxyproject.eu/freiburg/projects" class="btn btn-primary">See all the projects</a>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ subtitle: The homepage of the European Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/citations.svg" alt="projects" height="100">
         <br><br>
-        <a href="#" class="btn btn-primary">Learn how to cite the server</a>
+        <a href="https://galaxyproject.eu/citations" class="btn btn-primary">Learn how to cite the server</a>
       </div>
     </div>
   </div>
@@ -61,7 +61,7 @@ subtitle: The homepage of the European Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/team.svg" alt="team" height="100">
         <br><br>
-        <a href="#" class="btn btn-primary">Meet the team</a>
+        <a href="https://galaxyproject.eu/people" class="btn btn-primary">Meet the team</a>
       </div>
     </div>
   </div>
