@@ -1,12 +1,10 @@
 ---
 title: "European Galaxy Days (EGD)"
 date: '2022-10-03'
-days: 5
-tease: "European community gathering in autumn"
+days: 6
+tease: "European Galaxy Community meeting in Autumn"
 continent: EU
 location: "Freiburg, Germany"
-location_url: ""
-external_url:
 gtn: false
 contact: "Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano"
 links:
@@ -15,17 +13,101 @@ subsites: [global, all-eu]
 ---
 
 
-It's time again to gather together, discuss recent and future Galaxy development and enjoy ourselves in Freiburg at the European Galaxy Days 2022!
+It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy Days 2022**!
 
-To minimize travelling - and yes we recommend taking a train :-) - we are co-locating the EGD this year with the kick-off meeting of the 
-EuroScienceGateway (ESG), an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
+To minimize travelling (and yes, we recommend taking a train :-) ), we are co-locating 3 events on the same week:
+- ELIXIR Implementation Study 2021 meeting,
+- European Galaxy Days,
+- EuroScienceGateway kick-off, an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
-Our current plan (TM) is:
+# Tentative Schedule
 
-* Monday, Oct 3: Arrival day, welcome and get together in the city.
-* Tuesday, Oct 4: Talks about recent and future Galaxy developments and general community updates (please let us know if you want to contribute a talk).
-* Wednesday, Oct 5: Another round of talks in the morning and free slots for BOFs, ELIXIR Implementation Study meeting and spontaneous hack in the afternoon.
-* Thursday, Oct 6: the European Science Gateway kick-off meeting - a lot of planning and throwing crazy ideas at the wall.
-* Friday, Oct 7: We will end the week with a hackathon!
+<table>
+  <tbody>
+    <tr class="lead text-center" style="background-color: lightgray;">
+      <th style="border: 3px solid white;">October 3</th>
+      <th style="border: 3px solid white;">October 4</th>
+      <th style="border: 3px solid white;">October 5</th>
+      <th style="border: 3px solid white;">October 6</th>
+      <th style="border: 3px solid white;">October 7</th>
+    </tr>
+    <tr class="text-center" style="background-color: #EEEEEE; border: 5px solid white">
+      <th style="min-width: 18%; border: 3px solid white;">Monday</th>
+      <th style="min-width: 18%; border: 3px solid white;">Tuesday</th>
+      <th style="min-width: 18%; border: 3px solid white;">Wednesday</th>
+      <th style="min-width: 18%; border: 3px solid white;">Thursday</th>
+      <th style="min-width: 18%; border: 3px solid white;">Friday</th>
+    </tr>
+    <tr class="text-center">
+      <td style="border: 3px solid white;">Arrival & Get together in Freiburg
+      <br><small>(German Holiday)</small>
+      </td>
+      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+        <br><br><small>Community updates</small>
+      </td>
+      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+        <br><br><small>Community updates</small>
+      </td>
+      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>Hackathon</strong></td>
+      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>EuroScienceGateway kick-off</strong>
+        <br><br><small>Discussion</small>
+      </td>
+    </tr>
+    <tr class="text-center">
+      <td colspan="5" class="small">
+        <strong>Lunch Break</strong>
+      </td>
+    </tr>
+    <tr class="text-center">
+      <td style="background-color: DarkOrange; border: 3px solid white;">
+        <strong>ELIXIR IS2021 meeting</strong>
+        <br><br><small>Strengthen Data Management in Galaxy</small>
+      </td>
+      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+        <br><br><small>Community updates</small>
+      </td>
+      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+        <br><br><small>Birds of a Feather</small>
+      </td>
+      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>EuroScienceGateway kick-off</strong>
+        <br><br><small>Discussion</small>
+      </td>
+      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>EuroScienceGateway kick-off</strong>
+        <br><br><small>Discussion</small>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-Please check this site for any updates or changes.
+# Registration
+
+Registration is free, but the space is limited, so we recommend to you register soon to secure your spot for the different events. 
+
+The registration will open soon.
+# Venue
+
+<img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
+<br><br>
+Albert-Ludwigs-University Freiburg<br />
+Institute for Informatics<br />
+Georges-Köhler-Allee, 101<br />
+2nd floor, room 2.16-18<br />
+79110 Freiburg<br />
+Germany
+
+<br><br>
+
+# Logistics
+### How to reach Freiburg from Basel/Mulhouse/Freiburg airport (EuroAirport)
+
+- Option 1: Use the French/German exit and take the [airport shuttle bus](http://www.freiburger-reisedienst.de/en/airportbus/timetable.php) to Freiburg main station (Hauptbahnhof).
+- Option 2: Use the Swiss exit and take the local bus (#50) to the train station in Basel, and from there take a train to Freiburg.
+
+### How to reach the venue from Freiburg Hauptbahnhof
+
+- Option 1: Local train, take the Breisgau S-Bahn from Hauptbahnhof Freiburg to Gottenheim/Breisach to Neue Messe/Universität.
+- Option 2: Tram 4 direction Messe, stop “Technische Fakultät/Messe” (see [tram plan](http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html)).
+
+# Questions?
+
+If you want to present, help, have suggestions or questions, please get in touch with us.
