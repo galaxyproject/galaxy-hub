@@ -2,7 +2,6 @@
 title: Supported communities with their own subdomain
 ---
 
-
 | Supported communities with their own subdomain |
 |-----|-----|-----|
 | [africa.usegalaxy.eu](https://africa.usegalaxy.eu) | [annotation.usegalaxy.eu](https://annotation.usegalaxy.eu) | [cancer.usegalaxy.eu](https://cancer.usegalaxy.eu) |
