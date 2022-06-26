@@ -17,8 +17,8 @@ It's time again to gather together, discuss recent and future Galaxy development
 
 To minimize travelling (and yes, we recommend taking a train :-) ), we are co-locating 3 events on the same week:
 - ELIXIR Implementation Study 2021 meeting,
-- European Galaxy Days,
-- EuroScienceGateway kick-off, an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
+- European Galaxy Days (**EGD**), talks, discussions and community updates,
+- EuroScienceGateway (**ESG**) kick-off, an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
 # Tentative Schedule
 
@@ -28,19 +28,19 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
       <th style="border: 3px solid white;">October 3</th>
       <th style="border: 3px solid white;">October 4</th>
       <th style="border: 3px solid white;">October 5</th>
-      <th style="border: 3px solid white;">October 6</th>
-      <th style="border: 3px solid white;">October 7</th>
+      <th colspan=2 style="border: 3px solid white;">October 6</th>
+      <th colspan=2 style="border: 3px solid white;">October 7</th>
     </tr>
     <tr class="text-center" style="background-color: #EEEEEE; border: 5px solid white">
-      <th style="min-width: 18%; border: 3px solid white;">Monday</th>
-      <th style="min-width: 18%; border: 3px solid white;">Tuesday</th>
-      <th style="min-width: 18%; border: 3px solid white;">Wednesday</th>
-      <th style="min-width: 18%; border: 3px solid white;">Thursday</th>
-      <th style="min-width: 18%; border: 3px solid white;">Friday</th>
+      <th style="min-width: 18%; border: 3px solid white;">Mon</th>
+      <th style="max-width: 18%; border: 3px solid white;">Tue</th>
+      <th style="max-width: 18%; border: 3px solid white;">Wed</th>
+      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Thu</th>
+      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
-      <td style="border: 3px solid white;">Arrival & Get together in Freiburg
-      <br><small>(German Holiday)</small>
+      <td style="border: 3px solid white; background-color: lightgray;">Arrival & Get together in Freiburg
+        <br><small>(German Holiday)</small>
       </td>
       <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
         <br><br><small>Community updates</small>
@@ -48,13 +48,21 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
       <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
         <br><br><small>Community updates</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>Hackathon</strong></td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>EuroScienceGateway kick-off</strong>
-        <br><br><small>Discussion</small>
+      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+        <br><br><small>Community hacking!</small>
+      </td>
+      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+        <br><br><small>Planning sessions</small>
+      </td>
+      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+        <br><br><small>Community hacking!</small>
+      </td>
+      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+        <br><br><small>Discussions</small>
       </td>
     </tr>
     <tr class="text-center">
-      <td colspan="5" class="small">
+      <td colspan="7" style="background-color: #EEEEEE">
         <strong>Lunch Break</strong>
       </td>
     </tr>
@@ -69,11 +77,17 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
       <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
         <br><br><small>Birds of a Feather</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>EuroScienceGateway kick-off</strong>
-        <br><br><small>Discussion</small>
+      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+        <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>EuroScienceGateway kick-off</strong>
-        <br><br><small>Discussion</small>
+      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+        <br><br><small>Planning sessions</small>
+      </td>
+      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+        <br><br><small>Community hacking!</small>
+      </td>
+      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+        <br><br><small>Discussions</small>
       </td>
     </tr>
   </tbody>
