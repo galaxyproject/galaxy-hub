@@ -37,7 +37,7 @@ subtitle: The homepage of the European Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/communities.svg" alt="communities" height="100">
         <br><br><br>
-        <a href="/subdomains/" class="btn btn-primary">Check all the subdomains</a>        
+        <a href="/eu/subdomains/" class="btn btn-primary">Check all the subdomains</a>        
       </div>
     </div>
   </div>
