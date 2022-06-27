@@ -21,7 +21,7 @@ const TO_STRING = {}.toString;
 function repr(strParts, ...values) {
     if (strParts.length === undefined && values.length === 0) {
         // Being used as a util.inspect alias.
-        return util.inspect(strParts);
+        return util.inspect(strParts, { breakLength: Infinity });
     }
     let outParts = [];
     for (let i = 0; i < strParts.length || i < values.length; i++) {
@@ -210,6 +210,39 @@ function humanDateSpan(startDate, endDate) {
     }
 }
 module.exports.humanDateSpan = humanDateSpan;
+
+/** Create a human-readable summary of a Markdown document tree.
+ * @param {Array} nodes          A list of [mdast](https://github.com/syntax-tree/mdast) nodes.
+ * @param {String} [indent="  "] A string to prefix each line with.
+ * @returns {String} The summary as several lines concatenated with '\n'.
+ */
+function summarizeMdNodes(nodes, indent = "  ") {
+    let lines = [];
+    for (let node of nodes) {
+        let line = indent + node.type;
+        switch (node.type) {
+            case "html":
+                line += ": " + trunc(util.inspect(node.value, { breakLength: Infinity }), 80);
+                break;
+            case "heading":
+                line += " " + node.depth;
+                if (node.data && node.data.id) {
+                    line += ": " + node.data.id;
+                }
+                break;
+            case "list":
+                line += `: ${node.children.length} items`;
+                break;
+            default:
+                if (node.children) {
+                    line += `: ${node.children.length} children`;
+                }
+        }
+        lines.push(line);
+    }
+    return lines.join("\n");
+}
+module.exports.summarizeMdNodes = summarizeMdNodes;
 
 /** A better alternative to `typeof`.
  * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
