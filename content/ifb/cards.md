@@ -3,12 +3,12 @@ list:
 - name: news
   type: dynamic
   title: News
-  link: /news/
+  link: /ifb/news/
   icon: fas fa-bullhorn
 - name: events
   type: dynamic
   title: Events
-  link: /events/
+  link: /ifb/events/
   icon: far fa-calendar-alt
 - name: twitter
   type: static

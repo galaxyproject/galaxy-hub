@@ -3,12 +3,12 @@ list:
 - name: news
   type: dynamic
   title: News
-  link: /news/
+  link: /erasmusmc/news/
   icon: fas fa-bullhorn
 - name: events
   type: dynamic
   title: Events
-  link: /events/
+  link: /erasmusmc/events/
   icon: far fa-calendar-alt
 - name: twitter
   type: static
