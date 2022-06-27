@@ -84,7 +84,7 @@ Interested in how informatics and AI can be integrated into molecular and clinic
     <img src="/images/icons/face-mask.png" class="card-img-top" alt="COVID-19" />
     <div class="card-header">COVID-19</div>
 
-COVID-19 is (still) very much around us and to help each other have a safe event, GCC2022 has adopted a [COVID-19 policy](events/gcc2022/conduct/#covid-19-policy). Take a look at the details but the gist of it is that **face masks are required while indoors**. Please keep that in mind at all times during the event.
+COVID-19 is (still) very much around us and to help each other have a safe event, GCC2022 has adopted a [COVID-19 policy](/events/gcc2022/conduct/#covid-19-policy). Take a look at the details but the gist of it is that **face masks are required while indoors**. Please keep that in mind at all times during the event.
   </div>
 
 

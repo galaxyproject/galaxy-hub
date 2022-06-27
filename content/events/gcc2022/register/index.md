@@ -47,7 +47,7 @@ Also note that all speakers are required to attend in person.
 | Webinar mode        | | | $80 <br/>$10 if working in a<br/>low-income country; see below|
 
 If you are currently working in a [low-income
-country](https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html),
+country](https://drive.google.com/file/d/1PW11lByYd61cIT7wPnGmTQpd9kM79EXX/view?usp=sharing),
 as defined by the World Bank, please email [Jenn
 Vessio](mailto:jvessio1@jhu.edu) *before registering* and ask for a discount code
 that you can apply during registration.
