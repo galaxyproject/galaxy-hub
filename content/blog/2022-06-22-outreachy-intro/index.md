@@ -14,7 +14,7 @@ This is only the 2nd time the Galaxy Community is participating in the Outreachy
 
 The Outreachy internship program offers 3-month-long paid internships to members of underrepresented communities in free and open source projects.
 
-And this is why we care: we believe we need to increase the diversity of contributors to Galaxy and that we need to be proactive to make it happen.
+And this is why we care: we believe we need to increase the diversity of contributors to Galaxy and be proactive to make it happen.
 
 ## 3 interns and 3 projects
 
