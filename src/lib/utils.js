@@ -21,7 +21,7 @@ const TO_STRING = {}.toString;
 function repr(strParts, ...values) {
     if (strParts.length === undefined && values.length === 0) {
         // Being used as a util.inspect alias.
-        return util.inspect(strParts, {breakLength:Infinity});
+        return util.inspect(strParts, { breakLength: Infinity });
     }
     let outParts = [];
     for (let i = 0; i < strParts.length || i < values.length; i++) {
@@ -219,15 +219,15 @@ module.exports.humanDateSpan = humanDateSpan;
 function summarizeMdNodes(nodes, indent = "  ") {
     let lines = [];
     for (let node of nodes) {
-        let line = indent+node.type;
+        let line = indent + node.type;
         switch (node.type) {
             case "html":
-                line += ": "+trunc(util.inspect(node.value, {breakLength:Infinity}), 80);
+                line += ": " + trunc(util.inspect(node.value, { breakLength: Infinity }), 80);
                 break;
             case "heading":
-                line += " "+node.depth;
+                line += " " + node.depth;
                 if (node.data && node.data.id) {
-                    line += ": "+node.data.id;
+                    line += ": " + node.data.id;
                 }
                 break;
             case "list":
