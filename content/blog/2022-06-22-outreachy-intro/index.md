@@ -21,7 +21,7 @@ And this is why we care: we believe we need to increase the diversity of contrib
 This round we offered 3 different projects:
 
 - Develop a notification system for different events in Galaxy;
-- Galaxy-climate;
+- Galaxy climate to support local/regional initiatives and concrete actions to fight climate change;
 - Galaxy wellbeing and mental health.
 
 Below each intern is being presented and give their expectation on working on Galaxy Outreachy projects.
