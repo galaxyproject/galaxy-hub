@@ -50,7 +50,6 @@ I believe technology is a boon to humankind. It’s a way to get out of the prob
 
 I’ve been selected as an intern to the Galaxy Community under the Outreachy 22 cohort. I will be working on the contribution of tools to the Galaxy toolshed and certain documentations for Climate protection on a regional level. Climate in itself is a huge and sensitive topic, a serious discussion of which is the need of the hour.
 
-I’ve been selected as an intern to the Galaxy Community under the Outreachy 22 cohort. I will be working on the contribution of tools to the Galaxy toolshed and certain documentations for Climate protection on a regional level. Climate in itself is a huge and sensitive topic, a serious discussion of which is the need of the hour.
 
 “Who does not want to enjoy the cool air of the Air Conditioner, when it’s scorching heat outside?” Yes, we humans can definitely do it. But what about the stray animals living in the very same locality? And what about the drying giant tree in your neighbourhood? There is no resort. We are selfish. And Climate Change is the proof. It indeed is very important to spread awareness about how important climate change is impacting us and how it  will be in the coming times.
 
