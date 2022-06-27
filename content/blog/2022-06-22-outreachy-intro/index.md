@@ -57,7 +57,7 @@ I’ve been selected as an intern to the Galaxy Community under the Outreachy 22
 
 I will be focusing towards the climate analysis for the city of **Mumbai** (lat: 18.75,19.25; lon:72.50, 73.00). Mumbai is the financial capital of India and is of great significance. The IPCC 2021 report declares that the city will be completely under the water by 2030. My main work includes detailed analysis of the land and ocean interactions of the city. The major focus will be ‘analysis of URBAN HEAT ISLAND‘ effects and ‘effect on MARINE lives near the coast’ in the region.  
 
-The main motive is’ making science reproducible’. The entire analysis will be converted into workflow and would be available to anyone who wishes to use it in future, so that their analysis/research can be more centred and less time consuming. During the process, wherever we feel the technology limitations, I will be contributing to the development of those tools for analysis. This will open more possibilities in the future.
+The main motive is ’making science reproducible’. The entire analysis will be converted into workflow and would be available to anyone who wishes to use it in future, so that their analysis/research can be more centred and less time consuming. During the process, wherever we feel the technology limitations, I will be contributing to the development of those tools for analysis. This will open more possibilities in the future.
 
 To fight the ‘Climate Change, a resilient attitude is the need of the hour. The concept of “NET ZERO” sounds overwhelming but unattainable on true grounds. Technology and our meaningful  actions towards curbing the pollution can help improve the situation. 
 Wish you a Greener Planet! 
