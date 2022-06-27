@@ -24,7 +24,7 @@ This round we offered 3 different projects:
 - Galaxy climate to support local/regional initiatives and concrete actions to fight climate change;
 - Galaxy wellbeing and mental health.
 
-Below each intern is being presented and give their expectation on working on Galaxy Outreachy projects.
+Below, the interns are introducing themselves and the projects they are working on.
 
 
 ### Shivani Sangwan 
