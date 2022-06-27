@@ -1,0 +1,3 @@
+---
+title: European Galaxy News
+---
