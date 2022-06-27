@@ -42,7 +42,7 @@ I’ve been selected as an intern to the Galaxy Community under the Outreachy 22
 
 #### Who I am
 
-Hello, I am a third year undergrad, enthusiastic for Data Science and Machine Learning. My major is Civil and Environmental Engineering. I am from Jharkhand, India. Being a polyglot, I can speak and write five different languages. People recognise me as a hodophile, who loves to explore nature and its beauty. I envision the admiring glances of green and healthy Earth. My major area of study is Air Pollution and its Control. I have also explored "Compound Climate Events" and their causes for some time. I have prior experience in Python, its libraries, data structures/algorithms in C++ and full (MERN) stack web development. 
+Hello, I am a third year undergrad, enthusiastic for Data Science and Machine Learning. My major is Civil and Environmental Engineering. I am from Jharkhand, India. Being a polyglot, I can speak and write five different languages. People recognise me as a hodophile, who loves to explore nature and its beauty. I envision the admiring glances of green and healthy Earth. My major area of study is air pollution and its control. I have also explored "Compound Climate Events" and their causes for some time. I have prior experience in Python, its libraries, data structures/algorithms in C++ and full (MERN) stack web development. 
 
 I believe technology is a boon to humankind. It’s a way to get out of the problems that we’ve created. I have worked in several campaigns for protection of stray animals and for environment conservation. I am looking towards bringing a distinguishable change and awareness towards the changing climate, which can be of some help in lowering the potential threat to our existence.
 
