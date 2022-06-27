@@ -20,7 +20,7 @@ And this is why we care: we believe we need to increase the diversity of contrib
 
 This round we offered 3 different projects:
 
-- Galaxy-dev;
+- Develop a notification system for different events in Galaxy;
 - Galaxy-climate;
 - Galaxy wellbeing and mental health.
 
