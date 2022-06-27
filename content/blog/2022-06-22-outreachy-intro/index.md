@@ -31,11 +31,12 @@ Below each intern is being presented and give their expectation on working on Ga
 
 #### Who I am
 
-I am Shivani Sangwan from Delhi (India).
+I am Shivani Sangwan from Delhi (India), a computer science enthusiast interested to explore new skills and technologies every day, slowly building my way into open source. This is the first time I am contributing to a real-world open-source project and interacting with other developers on a public platform. The experience so far has been awesome. I really like the energy of everyone in the team, it is very motivational. Apart from academic interest, I like to play badminton, fitness activities and exploring new places. Would love to interact and connect with everyone in the community during the internship journey. 
 
 #### What I am working on 
 
-I have been selected to work on the development of a notification system for different events in Galaxy.
+I’ve been selected as an intern to the Galaxy Community under the Outreachy 22 cohort. I have been selected to work on the development of a notification system for different events in Galaxy. I have been working on mockuping a user interface for the notification system with an ability to create “manual” notifications. Then proceeding to designing a set of APIs for creating and subscribing to different types of events for a user, for example, History shared with you, Workflow shared with you, Workflow run completed. Continuing my work after the previous tasks to implement a persistence mechanism for events to mark an event as seen or “not new”, with the assignment of different event types (Message, System, Jobs etc) in a SQL Database. We further proceed the tasks by developing a user interface for displaying events and a user interface for manually creating events.
+
 
 ### Soumya Jha
 
