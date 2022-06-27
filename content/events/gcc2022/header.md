@@ -24,7 +24,7 @@
 
 # **2022 Galaxy Community Conference (GCC2022)**
 
-### July 17-23, 2022
+### July 17-23, 2022 - [Now online as well](/events/gcc2022/register)!
 ### University of Minnesota, Twin Cities
 ### Minneapolis, Minnesota, United States
 
