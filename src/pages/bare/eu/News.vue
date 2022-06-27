@@ -1,5 +1,6 @@
 <template>
-    <div> <!-- This gets `id="app"` automatically. -->
+    <!-- This first div gets `id="app"` automatically. -->
+    <div>
         <div id="maincontainer" class="container">
             <h1 class="page-title">{{ $page.main.title }}</h1>
             <div class="markdown" v-if="hasContent($page.main)" v-html="$page.main.content" />
