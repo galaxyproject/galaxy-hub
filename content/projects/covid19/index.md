@@ -63,7 +63,6 @@ The current knowledge about the evolutionary dynamics of SARS-CoV-2 comes primar
     </div>
   </div>
 </div>
-</div>
 
 ------
 
