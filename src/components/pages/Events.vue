@@ -10,6 +10,7 @@
         <div class="body-wrapper col-md-9">
             <div class="content markdown" v-html="$page.main.content" />
         </div>
+        <div class="clearfix"></div>
         <h2 id="upcoming-events">
             <a href="#upcoming-events" aria-hidden="true"><span class="icon icon-link"></span></a>
             Upcoming Events
