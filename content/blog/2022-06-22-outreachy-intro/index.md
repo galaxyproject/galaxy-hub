@@ -22,7 +22,7 @@ This round we offered 3 different projects:
 
 - Develop a notification system for different events in Galaxy;
 - Galaxy climate to support local/regional initiatives and concrete actions to fight climate change;
-- Galaxy wellbeing and mental health.
+- Develop a culture of wellbeing for open source projects, the Galaxy community as a use case.
 
 Below, the interns are introducing themselves and the projects they are working on.
 
