@@ -10,7 +10,7 @@ In June 2022, we welcomed 3 Outreachy interns: Melke Berhan, Shivani Sangwan and
 
 ## What is Outreachy and why we care about it?
 
-This is the 2nd time the Galaxy Community is contributing to Outreachy so you may not be very familiar with this program yet.
+This is only the 2nd time the Galaxy Community is participating in the Outreachy internship program, so you may not be very familiar with it yet.
 
 Outreachy Internship Program offers 3 month long paid internships to people who are underrepresented in free and open source projects.
 
