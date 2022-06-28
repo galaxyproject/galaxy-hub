@@ -95,7 +95,7 @@ COVID-19 is (still) very much around us and to help each other have a safe event
 
 GCC2022 will be hosted by the **[University of Minnesota, Twin Cities](https://twin-cities.umn.edu/)** in Minneapolis, Minnesota.
 
-The meeting will be **held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink)**, near the university campus and close to engaging neighborhoods, cultural attractions, public art and greenspace, restaurants, and much more. The venue area straddles the Mississippi River and no matter where you are, you're never far from nature with parks, trails, and waterways just a short walk away.
+The meeting will be **held at [Courtyard by Marriott Minneapolis Downtown](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink)**, near the university campus and close to engaging neighborhoods, cultural attractions, public art and green space, restaurants, and much more. The venue area straddles the Mississippi River and no matter where you are, you're never far from nature with parks, trails, and waterways just a short walk away.
   </div>
 
   <!-- MSI -->
