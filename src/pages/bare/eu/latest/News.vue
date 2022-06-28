@@ -1,14 +1,7 @@
 <template>
     <div>
         <section class="latest-posts row">
-            <HomeCard
-                title="News"
-                link="/eu/news/"
-                icon="fas fa-bullhorn"
-                :width="12"
-                :items="news"
-                target="_blank"
-            />
+            <HomeCard title="News" link="/eu/news/" icon="fas fa-bullhorn" :width="12" :items="news" target="_blank" />
         </section>
     </div>
 </template>
