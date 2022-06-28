@@ -19,7 +19,7 @@ Conduct](/community/coc/).
 
 ## COVID-19 policy
 
-To protect participant safety, masks are required during all GCC2022 events,
+To protect participant safety, **masks are required during all GCC2022 events**,
 with the following exceptions:
 - You are presenting
 - You are actively eating / drinking

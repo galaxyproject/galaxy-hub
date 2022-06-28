@@ -7,8 +7,22 @@ Day), one is in-person only (Meeting), and one is hybrid with limited support
 for remote participation (CoFest).
 
 This page summarizes all GCC2022 events, and other cool events happening around
-GCC2022 in time and space.  **For a full schedule, see the [GCC2022 schedule
-site](https://gcc2022.sched.com/)**.
+GCC2022 in time and space.  For a full schedule, see the [GCC2022 schedule
+site](https://gcc2022.sched.com/).
+
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <button type="button" class="btn btn-secondary center">
+                <a target="_blank" href="https://gcc2022.sched.com/">
+                    <strong>See full schedule</strong>
+                </a>
+            </button>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
 
 ## GCC2022 Events
 
@@ -160,7 +174,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
       <td></td>
       <td></td>
       <td class="small" style="background-color: lightgray;">
-        <strong><a href="https://www.aquatennial.com/">Aquatenial</a>
+        <strong><a href="https://www.aquatennial.com/">Aquatennial</a>
         <br /><a href="https://www.aquatennial.com/torchlightparade/">Torchlight Parade</a></strong>, Minneapolis
       </td>
       <td colspan="2" style="background-color: lightgray;"></td>
