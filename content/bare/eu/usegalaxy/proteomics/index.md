@@ -118,3 +118,14 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 - [Subina Mehta](https://github.com/bebatut)
 
 --------------------------------------------------------------------
+
+<slot name="/eu/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
+
+<footer>
+<slot name="/footers/eu" />
+</footer>
+
+import Gitter from "@/components/Gitter";
+<Gitter />
