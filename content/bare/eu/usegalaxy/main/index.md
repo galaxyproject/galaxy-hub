@@ -2,9 +2,9 @@
 title: Galaxy Europe
 ---
 
-<slot name="/bare/usegalaxy-eu/notices" />
+<slot name="/bare/eu/usegalaxy/notices" />
 
-<slot name="/bare/usegalaxy-eu/main/jumbotron" />
+<slot name="/bare/eu/usegalaxy/main/jumbotron" />
 
 "Anyone, anywhere in the world should have free, unhindered access to not just my research, but to the research of every great and enquiring mind across the spectrum of human understanding." – Prof. Stephen Hawking
 
@@ -19,7 +19,7 @@ title: Galaxy Europe
 
 <p></p>
 
-<slot name="/bare/usegalaxy-eu/jobs" />
+<slot name="/bare/eu/usegalaxy/jobs" />
 
 <!-- carousel content -->
 
