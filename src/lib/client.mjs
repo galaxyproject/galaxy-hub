@@ -55,10 +55,8 @@ export function notifyParent(window) {
     }
 }
 
-export function addAltmetrics(window) {
-    const altmetricScript = window.document.createElement("script");
-    altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
-    window.document.head.appendChild(altmetricScript);
+export function addAltmetricsScript(window) {
+    addScript(window, "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js");
 }
 
 export function addTwitterScript(window) {
