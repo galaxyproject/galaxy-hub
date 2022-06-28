@@ -6,17 +6,17 @@ title: SARS-CoV-2 Variant analysis from clinical data for identification and val
 
 ## Live Resources
 
-| usegalaxy.eu |
-|:--------:|:------------:|:------------:|:------------:|:------------:|
-| <FlatShield label="Input data" message="view" href="https://usegalaxy.eu/u/subina/h/covid-paper-workflow-input" alt="Raw data" /> |
-| <FlatShield label="Variant analysis history" message="view" href="" alt="Galaxy history" /> |
-| <FlatShield label="Discovery workflow" message="run" href="https://usegalaxy.eu/u/subina/w/covid-discovery-workflow" /> |
-| <FlatShield label="Verification workflow" message="run" href="https://usegalaxy.eu/u/subina/w/covid-verification-workflow" /> |
+| Input,history,workflows   | Link                                                        |
+|--------------------------|-------------------------------------------------------------|
+| Input data               | https://usegalaxy.eu/u/subina/h/covid-paper-workflow-input  |
+| Variant analysis history |                                                             |
+| Discovery workflow       | https://usegalaxy.eu/u/subina/w/covid-discovery-workflow    |
+| Verification workflow    | https://usegalaxy.eu/u/subina/w/covid-verification-workflow |
 
 ## Description
 
 The COVID-19 pandemic continues with the emergence of new strains.As virulence seems to be increasing with each variant, there is a dire need to advance the MS-based diagnostics to identify optimal strain-specific biomarker peptides from non-invasively collected clinical samples.The Galaxy-P Team has developed workflows to detect and validate the SARS-CoV-2 peptides useful for developing targeted MS-based biomarker assays.
-!(./../img/dataset-demographics.png)
+![](./../img/dataset-demographics.png)
 
 
 ## Workflows
