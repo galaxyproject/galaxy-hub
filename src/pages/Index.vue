@@ -66,7 +66,7 @@ import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
 import HomeProfile from "@/components/HomeProfile.vue";
 import { hasContent, gatherCollections, gatherInserts, gatherCards, makeCardRows } from "~/lib/pages.mjs";
-import { addTwitterWidget, addAltmetrics } from "~/lib/client.mjs";
+import { addTwitterScript, addAltmetricsScript } from "~/lib/client.mjs";
 export default {
     components: {
         HomeTop,
@@ -92,11 +92,11 @@ export default {
     mounted() {
         // Insert Twitter feed.
         if (this.cards.twitter) {
-            addTwitterWidget(document);
+            addTwitterScript(window);
         }
         // Add altmetrics stats badges to publications.
         if (this.cards.pubs) {
-            addAltmetrics(document);
+            addAltmetricsScript(window);
         }
     },
 };
