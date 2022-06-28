@@ -2,7 +2,57 @@
 
 # GCC2022 Sponsors
 
-Sponsors are a key part of GCC2022.  They are potential partners in your success, and sponsors make this conference affordable and accessible. 
+Sponsors are a key part of GCC2022.  They are potential partners in your
+success, and sponsors make this conference affordable and accessible.
+
+Please join everyone during the sponsor talks to learn more about how their
+services relate to the Galaxy community and software. Sponsor talks are
+generally scheduled at the start of the last session with accepted talks. See
+[the program](https://gcc2022.sched.com/) for exact times.
+
+## Platinum sponsor
+
+<a href="https://aws.amazon.com/" target="_blank">
+  <img src="/images/logos/aws-logo-smile-dark.png" alt="AWS" style="max-width: 50%;" />
+</a>
+
+<hr/>
+
+## Gold sponsors
+
+<a href="https://peerj.com/computer-science/" target="_blank">
+  <img src="/images/logos/peerj-logo-cs.jpg" alt="PeerJ" style="max-width: 30%; padding-right: 2rem;" />
+</a>
+
+<a href="https://cloud.google.com/" target="_blank">
+  <img src="/images/logos/google-cloud-platform-wide.png" alt="GCP" style="max-width: 50%; padding-right: 2rem;" />
+</a>
+
+<hr/>
+
+## Silver sponsor
+
+<a href="https://galaxyworks.io/" target="_blank">
+  <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 30%;" />
+</a>
+
+<hr/>
+
+## Bronze sponsors
+
+<a href="https://www.thermofisher.com/us/en/home.html" target="_blank">
+  <img src="/images/logos/thermo-fisher-logo.jpg" alt="ThermoFisher" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+<a href="https://www.limagrain.com/en" target="_blank">
+  <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%;" />
+</a>
+<a href="http://www.gigasciencejournal.com/" target="_blank">
+  <img src="/images/logos/gigascience-logo-hires.png" alt="GigaScience" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+
+<hr/>
+
+# Interested in becoming a sponsor?
 
 <div class="float-right">
 
@@ -10,18 +60,20 @@ Sponsors are a key part of GCC2022.  They are potential partners in your success
 
 </div>
 
-Is your organization interested in playing a prominent role in the first in-person gathering of the Galaxy community since 2019? Becoming a GCC2022 sponsor is an excellent way to raise your organization's visibility in active and engaged Galaxy community.  See below for sponsorship packages and then contact the [organizers](/events/gcc2022/organizers/).
-
-# Interested?
+Is your organization interested in playing a prominent role in the first
+in-person gathering of the Galaxy community since 2019? Becoming a GCC2022
+sponsor is an excellent way to raise your organization's visibility in active
+and engaged Galaxy community.  See below for sponsorship packages and then
+contact the [organizers](/events/gcc2022/organizers/).
 
 <button type="button" class="btn btn-secondary">
 
-**[Download the GCC2022 Sponsorship Prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)**
+  **[Download the GCC2022 Sponsorship Prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)**
 
 </button>
 <br /><br />
 
-Sponsortship levels are summarized below.  Please contact the [conference organizers](/events/gcc2022/organizers/) with any questions of if you are interested in sponsoring.
+Sponsortship levels are summarized below.  Please contact the [conference organizers](/events/gcc2022/organizers/) with any questions if you are interested in sponsoring.
 
 
 # Meeting Sponsorships
@@ -31,7 +83,7 @@ Sponsorship are offered at many levels, with an option for every budget:
 | | Platinum | Gold | Silver | Bronze |
 | ----: | :----: | :----: | :----: | :----: |
 | **Cost** | $5000 | $3000 | $2000 | $1000  |
-| **Non-profit cost** | $3750 | $2250 | $1500 | $1000 |
+| **Non-profit cost** | $3750 | $2250 | $1500 | $750 |
 | **Sponsored event** | Dinner or opening reception | A lunch | No | No |
 | **Sponsor talk** | 25 minutes | 15 minutes | No | No |
 | **Exhibit space** | Yes | Yes | Yes | No |
@@ -52,7 +104,7 @@ Sponsorship are offered at many levels, with an option for every budget:
 * Organization logo listed as a platinum sponsor on meeting home and sponsor pages, with link to URL
 * Organization logo listed as a platinum sponsor on printed material distributed to meeting participants
 * 2 full page color ads in printed program
-* 4 registrations for all conference events and meals 
+* 4 registrations for all conference events and meals
 * **Be one of just 2 Platinum Sponsors**
 
 </div>
@@ -106,16 +158,15 @@ Other à la carte sponsorship opportunities are also available. Many additional 
 
 # CollaborationFest Sponsorships
 
-Three days of [collaborative work](/events/gcc2022/cofest/), also known as a hackathon, will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are seeking sponsorships for this event. Please contact the [GCC2022 Organizing Committee](/events/gcc2019/organizers/) if your organization is interested in sponsoring the CollaborationFest. Registration for CoFest will either be free or under $10 / day.
+Three days of [collaborative work](/events/gcc2022/cofest/), also known as a hackathon, will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are seeking sponsorships for this event. Please contact the [GCC2022 Organizing Committee](/events/gcc2019/organizers/) if your organization is interested in sponsoring the CollaborationFest. Registration for CoFest will be free.
 
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |
 | **Cost** | $3000 | $1500 | $500 |
 | **Sponsored event** | CoFest Dinner | A lunch | No |
-| **CoFest registration slots** | 4+ | 2+ | 1 |
-| Ad in printed | Full page | Half page | Quarter page |
-| Logo/Link on web | Yes | Yes | Yes |
+| **Ad in printed** | Full page | Half page | Quarter page |
+| **Logo/Link on web** | Yes | Yes | Yes |
 
 
 <div class="card-deck">
@@ -161,7 +212,7 @@ Three days of [collaborative work](/events/gcc2022/cofest/), also known as a hac
 * Organization logo listed as a Giga level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 * Organization logo listed as a Giga sponsor on printed material distributed to meeting participants
 * A quarter page color ad in printed material
-* A guaranteed participant slot for sponsor organisation representative 
+* A guaranteed participant slot for sponsor organisation representative
 * Thanks and acknowledgements from organisers before and during the collaborative events
 
 </div>
@@ -176,9 +227,9 @@ Three days of [collaborative work](/events/gcc2022/cofest/), also known as a hac
   <a href="https://www.msi.umn.edu/">
     <img src="/images/events/gcc2022/msi-logo-text.png"
       alt="Minnesota Supercomputing Institute" height="120" />
-  </a> &nbsp;&nbsp; 
+  </a> &nbsp;&nbsp;
   <a href="http://galaxyp.org/">
-    <img src="/images/events/gcc2022/galaxyp-logo-text.png" 
+    <img src="/images/events/gcc2022/galaxyp-logo-text.png"
       alt="Galaxy for Proteomics Project" height="120" />
   </a>
 </div>

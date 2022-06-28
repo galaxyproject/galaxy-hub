@@ -25,6 +25,7 @@ links:
 - text: "Video"
   url: "https://youtu.be/bQFv4EVunWw"
 redirect: /somewhere/else/
+subsites: [global]
 components: true
 ---
 
@@ -32,7 +33,23 @@ This also serves to provide a page with all the metadata fields present. If you 
 
 Normally `category` isn't present in the metadata. It's autopopulated by the framework based on where the Markdown file is placed. But this isn't placed in a category, so it's in the metadata here as a workaround.
 
+## Inserts
+
 Here's how Inserts are inserted:
 
 <slot name="/0examples/footer" />
+
+## Vue components
+
+Using Vue components:
+
+import Continent from '~/components/Continent.vue'
+
+They can even be used <continent continent="EU" /> inline!
+
+## Graymatter
+
+Using metadata fields in the content:
+
+Authors: {{ $frontmatter.authors }}
 

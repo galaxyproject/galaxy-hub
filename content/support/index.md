@@ -6,20 +6,15 @@ title: Galaxy Support
 
 ## Quick Start
 
-* [NGS 101](/tutorials/g101/)
-* [Tutorials](/learn/)
-* [Teaching with Galaxy](https://training.galaxyproject.org/)
+* [Learn & Teach with Galaxy](/learn/)
 * [Using Galaxy Choices](/use/#which-platform--platform-type-to-choose)
-* [Galaxy Project Highlights](https://galaxyproject.github.io/)
 
 ## Help Resources
 
-* Query all Galaxy resources with the search function in the top masthead
 * [Galaxy Help](https://help.galaxyproject.org/)
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
-* [Mailing Lists](/mailing-lists/)
-* [Video Help](https://vimeo.com/galaxyproject/)
-* [Galaxy Biostars: retired `Q&A` archive](https://biostar.usegalaxy.org/)
+* [YouTube channel](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA)
+* Query all Galaxy resources with the search function in the top masthead
 
 ## Using Galaxy FAQs
 
@@ -37,13 +32,13 @@ title: Galaxy Support
 * [Understanding the Analysis History](/tutorials/histories/)
 * [Managing Datasets](/learn/managing-datasets/)
 * [Datasets and how jobs execute](/support/how-jobs-execute/)
-* [More about moving Datasets and Histories](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/) (external GVL blog)
+* [More about moving Datasets](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_moving_datasets_between_galaxy_servers.html)
 
 ### Data Options
 
 * [Sharing and Publishing your work](/learn/share/)
 * [Data Privacy Features](/learn/privacy-features/)
-* [Moving data between Galaxy servers (any!)](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
+* [Moving datasets between Galaxy servers (any!)](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_moving_datasets_between_galaxy_servers.html)
 
 ### Help Guides
 

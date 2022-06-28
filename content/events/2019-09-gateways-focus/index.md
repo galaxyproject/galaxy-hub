@@ -10,4 +10,5 @@ external_url: "https://sciencegateways.org/engage/focus-week"
 gtn: false
 contact: "help @ sciencegateways . org"
 image: 
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Admin Training, Nov 7-11"
 date: "2016-08-23"
+subsites: [global, us]
 ---
 <div class='right solid center'>
 <a href='/events/admin-training2016/'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />

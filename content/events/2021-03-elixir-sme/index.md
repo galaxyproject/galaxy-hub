@@ -10,4 +10,5 @@ location_url: "https://elixir-europe.org/events/sme-agritech-2021"
 external_url: ""
 contact: "Jan Taubert"
 gtn: false
+subsites: [global, us]
 ---

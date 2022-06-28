@@ -9,5 +9,6 @@ location_url: http://www.catholic.ac.kr/
 image: cukr.jpg
 gtn: true
 contact: Mallory Freeberg, Mo Heydarian
+subsites: [global, us]
 ---
 Introduction to Galaxy at the Catholic University of Korea.

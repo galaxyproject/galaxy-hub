@@ -10,4 +10,5 @@ image: /images/logos/deNBILogo.png
 external_url: http://www.denbi.de/22-training-cat/training-courses/513-4th-de-nbi-genomics-training-course
 contact: "denbi_genomics @ computational.bio"
 gtn: false
+subsites: [global, us]
 ---

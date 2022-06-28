@@ -10,4 +10,5 @@ external_url: https://faes.org/events/biotech-82-bioinformatics-beginners-4-day-
 image: 
 gtn: false
 contact: training@faes.org
+subsites: [global, us]
 ---

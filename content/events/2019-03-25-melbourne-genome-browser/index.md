@@ -9,4 +9,5 @@ location_url: https://www.google.com/maps/place/Melbourne+Bioinformatics+(former
 external_url: "https://www.eventbrite.com.au/e/genome-browsers-and-using-ucsc-genome-browser-tools-25-mar-registration-57678211082"
 contact: 'enquiries @ melbourne bio informatics . org.au'
 gtn: false
+subsites: [global, us]
 ---

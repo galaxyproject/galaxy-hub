@@ -2,6 +2,7 @@
 title: 'Gateways 2017'
 tease: 'Early-bird registration ends Sep 1!'
 date: '2017-08-17'
+subsites: [global, us]
 ---
 <div class="right">[<img src="/images/logos/gateways-2017-logo-200.png" alt="Gateways 2017" />](https://sciencegateways.org/web/gateways2017)
 </div>

@@ -1,6 +1,7 @@
 ---
 title: "The March 2015 Galaxy News"
 date: "2015-03-02"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2015-03/'><img src="/images/logos/GalaxyUpdate200.png" alt="The March 2015 News" width=150 /></a><br /><br />

@@ -2,9 +2,9 @@
     "host": "galaxyproject.org",
     "contentDir": "content",
     "collections": {
-        "Platform": "/use/"
+        "BareArticle": { "path": "/bare/", "type": "vue" },
+        "Platform": { "path": "/use/", "type": "md" }
     },
-    "locale": "en-US",
     "categories": {
         "/blog": "blog",
         "/events": "events",
@@ -18,6 +18,88 @@
             "vue": "build/content-vue"
         },
         "copyFileExts": ["png", "jpg", "jpeg", "gif", "svg", "pdf"]
+    },
+    "taggedEventsPages": [
+        { "tag": "webinar", "path": "/events/webinars/" },
+        { "tag": "devroundtable", "path": "/community/devroundtable/" },
+        { "tag": "cofest", "path": "/events/cofests/" },
+        { "tag": "papercuts", "path": "/events/cofests/papercuts/" },
+        { "tag": "community-call", "path": "/community/community-calls/" }
+    ],
+    "subsites": {
+        "hierarchy": {
+            "global": {
+                "us": {},
+                "eu": {
+                    "freiburg": {},
+                    "pasteur": {},
+                    "belgium": {},
+                    "ifb": {},
+                    "genouest": {},
+                    "erasmusmc": {},
+                    "elixir-it": {}
+                }
+            }
+        },
+        "shorthands": {
+            "all": [
+                "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu", "us", "global"
+            ],
+            "all-eu": [
+                "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu"
+            ]
+        },
+        "metadata": {
+            "global": {
+                "name": "Global",
+                "order": 0
+            },
+            "us": {
+                "name": "US",
+                "color": "#4e7152",
+                "order": 1
+            },
+            "eu": {
+                "name": "Europe",
+                "color": "#203e5f",
+                "order": 2
+            },
+            "freiburg": {
+                "name": "Freiburg",
+                "order": 3
+            },
+            "erasmusmc": {
+                "name": "Erasmus MC",
+                "color": "#f17925",
+                "order": 4
+            },
+            "belgium": {
+                "name": "VIB",
+                "order": 5
+            },
+            "pasteur": {
+                "name": "Pasteur",
+                "color": "#7591be",
+                "order": 6
+            },
+            "genouest": {
+                "name": "GenOuest",
+                "color": "white",
+                "lightBg": true,
+                "order": 7
+            },
+            "elixir-it": {
+                "name": "ELIXIR-IT/Laniakea",
+                "color": "#2c81bb",
+                "order": 8
+            },
+            "ifb": {
+                "name": "ELIXIR-FR/IFB",
+                "color": "white",
+                "lightBg": true,
+                "order": 9
+            }
+        }
     },
     "redirects": {
         "/admin/authentication/config/": "/authnz/config/",

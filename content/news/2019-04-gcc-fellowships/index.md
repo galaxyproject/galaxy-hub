@@ -2,6 +2,7 @@
 title: 'Apply for a GCC2019 Fellowship'
 tease: 'Apply soon...'
 date: '2019-04-11'
+subsites: [global, us]
 ---
 [<img class="float-right" src="/events/gcc2019/gcc2019-logo-213.png" alt='Apply for a GCC2019 travel fellowship' />](/events/gcc2019/)
 

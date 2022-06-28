@@ -10,6 +10,7 @@ external_url:
 gtn: false
 image: 
 contact: "Presenters"
+subsites: [global, us]
 ---
 
 Galaxy will be featured at the [2018 Genome Informatics](https://coursesandconferences.wellcomegenomecampus.org/our-events/genome-informatics-2018/) meeting.  Here are the details:

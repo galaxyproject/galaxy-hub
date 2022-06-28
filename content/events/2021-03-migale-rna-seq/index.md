@@ -10,4 +10,5 @@ location_url: http://migale.jouy.inra.fr/?q=formations
 external_url: "https://migale.inrae.fr/sites/default/files/formation/2021/module23.pdf"
 contact: "Cyprien Guérin, Valentin Loux, Christelle Hennequet-Antier, Julie Aubert"
 gtn: true
+subsites: [global, us]
 ---

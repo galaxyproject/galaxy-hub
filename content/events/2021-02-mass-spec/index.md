@@ -7,8 +7,8 @@ continent: NA
 location: 'University of Minnesota. Online, Minneapolis, Minnesota, United States'
 image: 
 location_url: ""
-external_url: "
-https://z.umn.edu/celestialmasses"
+external_url: "https://z.umn.edu/celestialmasses"
 gtn: false
 contact: "Pratik Jagtap"
+subsites: [global, us]
 ---

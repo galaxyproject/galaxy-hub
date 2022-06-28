@@ -10,4 +10,5 @@ external_url: "https://indico.egi.eu/event/5000/timetable/?view=standard_inline_
 gtn: false
 contact: "Björn Grüning"
 image: 
+subsites: [global, us]
 ---

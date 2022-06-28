@@ -2,6 +2,7 @@
 title: "Galaxy+Carpentries effort funded by Mozilla Open Science Awards"
 tease: "Gallantries!"
 date: "2019-03-12"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/images/logos/mozilla-science-lab-logo.png" alt="Mozilla Science Labs funds Galaxy + Carpentries proposal" />](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5#7d0f)

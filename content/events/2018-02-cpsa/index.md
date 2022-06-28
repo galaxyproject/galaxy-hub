@@ -10,4 +10,5 @@ external_url: http://www.cpsa-europe.com/2018/program.shtml
 image: 
 gtn: false
 contact: Stephan Kang
+subsites: [global, us]
 ---

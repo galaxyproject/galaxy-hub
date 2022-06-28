@@ -1,6 +1,7 @@
 ---
 title: "BioBlend v0.5.3 Released"
 date: "2015-03-19"
+subsites: [global, us]
 ---
 <div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 

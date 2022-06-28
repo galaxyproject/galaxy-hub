@@ -10,4 +10,5 @@ external_url: "https://wwz.ifremer.fr/Recherche-Technologie/Departements-scienti
 gtn: false
 contact: "Laure Quintric, Patrick Durand, Erwan Corre"
 image: 
+subsites: [global, us]
 ---

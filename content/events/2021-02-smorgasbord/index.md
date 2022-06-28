@@ -10,6 +10,7 @@ location_url:
 external_url:
 contact: "Saskia Hiltemann & Helena Rasche"
 gtn: true
+subsites: [global, us]
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/GTNLogo300.png" alt="GTN logo"/>

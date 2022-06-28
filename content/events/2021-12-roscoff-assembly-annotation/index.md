@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://wwz.ifremer.fr/Recherche/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Bioinformatique/Animations-scientifiques/Formation-Assemblage-et-Annotation-de-genome-2021"
 gtn: true
 contact: "Anthony Bretaudeau, Alexandre Cormier, Erwan Corre, Stéphanie Robin"
+subsites: [global, us]
 ---

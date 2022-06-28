@@ -7,4 +7,5 @@ continent: GL
 location: Online
 external_url: https://github.com/galaxyproject/tools-iuc/issues/1078
 contact: Bérénice, Björn, and Saskia
+subsites: [global, us]
 ---

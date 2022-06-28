@@ -1,6 +1,7 @@
 ---
 title: "January 13, 2015 Galaxy Distribution"
 date: "2015-01-13"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2015-01-13)**

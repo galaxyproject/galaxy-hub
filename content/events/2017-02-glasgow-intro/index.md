@@ -9,6 +9,7 @@ location_url: http://www.polyomics.gla.ac.uk/index.html
 image: /images/logos/GlasgowPolyomics.jpg
 external_url: http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html
 contact: David Meltzer
+subsites: [global, us]
 ---
 Galaxy is an open, web-based platform for data intensive biological research
 that enables researchers to create, run, tune, and share their own

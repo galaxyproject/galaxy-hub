@@ -1,6 +1,7 @@
 ---
 title: "Bioinformatics Analyst @ U Virgina"
 date: "2012-02-24"
+subsites: [global, us]
 ---
 <div class='right'><a href='https://jobs.virginia.edu/applicants/jsp/shared/frameset/Frameset.jsp?time=1330113297920'><img src="/images/logos/UVaBioinformaticsCoreLogo.png" alt="Opening at University of Virginia Bioinformatics Core" /></a></div>
 

@@ -8,4 +8,5 @@ location: "Online, Global"
 external_url: "https://www.eventbrite.com/e/biocompute-database-and-transfer-mechanism-development-workshop-tickets-192462248767"
 gtn: false
 contact: "Charles Hadley King"
+subsites: [global, us]
 ---

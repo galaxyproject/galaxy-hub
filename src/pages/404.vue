@@ -15,7 +15,7 @@
 
 <script>
 import Redirect from "@/components/Redirect";
-import { repr, gridifyPath } from "~/utils.js";
+import { repr, gridifyPath } from "~/lib/utils.js";
 export default {
     metaInfo() {
         return {
@@ -69,13 +69,13 @@ function isFilenamePath(path, maxExtLen = 6) {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/404/") {
-    id
-    title
-    content
-    fileInfo {
-      path
+    main: insert(path: "/insert:/404/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
     }
-  }
 }
 </page-query>

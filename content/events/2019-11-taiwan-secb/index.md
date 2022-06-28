@@ -10,5 +10,6 @@ external_url: "http://taiwansecb.biodiv.tw/"
 contact: 'Anton Nekrutenko'
 image: ""
 gtn: true
+subsites: [global, us]
 ---
 

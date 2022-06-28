@@ -10,5 +10,6 @@ external_url: http://galaxyafrica.sanbi.ac.za/
 image: "/events/2018-04-galaxy-africa/galaxy-africa-logo.svg"
 gtn: true
 contact: galaxyafrica @ sanbi . ac . za
+subsites: [global, us]
 ---
 

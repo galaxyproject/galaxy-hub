@@ -10,4 +10,5 @@ external_url: "https://github.com/manabuishii/workflow-meetup/wiki/20181015"
 image: 
 gtn: false
 contact: "Manabu ISHII "
+subsites: [global, us]
 ---

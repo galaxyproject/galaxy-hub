@@ -5,40 +5,13 @@ title: Chromosome Identifiers in Reference Genomes (and other -omes)
 **[Back to Support Hub](/support/)**
 **[Troubleshooting Help](/support/#troubleshooting)**
 
-Methods described help to identify and correct errors or unexpected results linked to inputs having non-identical chromosome identifiers and/or different chromosome sequence content.
 
-**If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](/learn/custom-genomes/). Improper formating is the most common root cause of CG related errors.
+# [How to correct errors linked to inputs having non-identical chromosome identifiers?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_chromosome_identifiers.html)
 
-## Find BAM dataset identifiers
+## [Find BAM dataset identifiers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_BAM_dataset_identifiers.html)
 
-Quickly learn what the identifiers are in any **BAM** dataset that is the result from mapping.
 
-Warning: This will *not* work for "sequence-only" `bam` datasets, as these usually have no header.
-
-*Method 1*
-
-1. Run **Samtools: IdxStats** on the aligned data (`bam` dataset).
-2. The "index header" chromosome names and lengths will be listed in the output (along with read counts).
-3. Compare the chromosome identifiers to the chromosome (aka "chrom") field in all other inputs: VCF, GTF, GFF(3), BED, Interval, etc.
-4. Note: The orignal mapping targat may have been a built-in genome index, custom genome (transcriptome, exome, other) -- the same `bam` data will still be summarized.
-
-## Directly obtain UCSC sourced *genome* identifiers
-
-*Method 2*
-
-1. Go to http://genome.ucsc.edu/, navigate to "genomes", then the species of interest
-1. On the home page for the genome build, immediately under the top navigation box, in the blue bar next to the full genome build name, is linked text like "(sequences)"
-1. Click on this and it will take you to a detail page with a table listing out the contents
-
-*Method 3*
-
-1. Use the tool "Get Data -> UCSC Main"
-1. In the Table Browser, choose the target genome and build
-1. For "group" choose the last option "All Tables"
-1. For "table" choose "chromInfo"
-1. Leave all other options at default and send the output to Galaxy
-1. This new dataset will load as a tabular dataset into your history
-1. It will list out the contents of the genome build, including the chromosome identifiers (in the first column)
+## [Directly obtain UCSC sourced *genome* identifiers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_UCSC_sourced_genome.html)
 
 
 ## Adjusting Identifiers or Input source
@@ -48,7 +21,7 @@ Warning: This will *not* work for "sequence-only" `bam` datasets, as these usual
 
 A GTF formatted dataset (potentially a "reference annotation dataset"), with Ensembl/UCSC/Other based chromosome identifiers, is to be used with a tool that also makes use of a different sourced reference genome
 
-Or, the reverse may be true, Ensembl/UCSC/Other sourced reference genome and a differnt sourced reference annotation
+Or, the reverse may be true, Ensembl/UCSC/Other sourced reference genome and a different sourced reference annotation
 
 *The underlying genome sequence content is otherwise identical.* If not, see the next section for alternative methods.
 
@@ -83,7 +56,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 **Sequence content is a match but adding "chr" is not enough to obtain an exact identifier match. You want to try to fix the identifiers anyway!!**
 
 1. If the data is in a tabular format (BED, Interval, GTF -- with any headers removed first), and a suitable identifier mapping file can be obtained or created, the tool *Replace column by values which are defined in a convert file* can be used. Note that this will NOT work with BAM, VCF, Wiggle or other structured formats, as these are not tabular formatted data.
-1. Manipuations with tools can often be used to split up a dataset, perform text substitutions and additions, concatinate datasets, and most other common operations one could do with command-line shell tools.
+1. Manipulations with tools can often be used to split up a dataset, perform text substitutions and additions, concatenate datasets, and most other common operations one could do with command-line shell tools.
 1. The dataset could also be downloaded locally to your computer and manipulated there using command-line tools or the text editor of choice.
 
 *Method 6*
@@ -93,7 +66,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 1. Obtain a reference annotation dataset that is a match for the reference genome used
 1. Sometimes the source is the same for both
 1. Sometimes the source is the same, but the content of the reference annotation is not ideal for the tools used
-    - Example: The tool Cuffdiff makes use of specific attributes in the reference annotation (p_id, tss_id, gene_name). If these attributes are not present in the GTF dataset, the resuls will not be fully annotated and some calculations will be skipped
+    - Example: The tool Cuffdiff makes use of specific attributes in the reference annotation (p_id, tss_id, gene_name). If these attributes are not present in the GTF dataset, the results will not be fully annotated and some calculations will be skipped
     - Use the iGenomes version of the reference annotation, as described below
     - Using Cuffdiff and the Gene ID is not present? Check your GTF file - the attribute gene_name is probably missing
 4. Sometimes the source can be **iGenomes**, which does contain the extra specific attributes needed for RNA-seq and certain other operationsar
@@ -120,14 +93,6 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 1. [Custom Reference Genome help](/learn/custom-genomes/)
 1. Be aware that if the genome is large, this option may result in a memory failure. Try *Method 2* or consider moving to a local or cloud Galaxy where you can control the resources
 
-## A Note on Built-in Reference Genomes
+## [A Note on Built-in Reference Genomes](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_chromosome_identifiers.html)
 
-The default variant for all genomes is "Full", defined as all primary chromosomes (or scaffolds/contigs) including mitochondrial plus associated unmapped, plasmid, and other segments.
-
-When only one version of a genome is available for a tool, it represents the default "Full" variant.
-
-Some genomes will have more than one variant available.
-
-- The "Canonical Male" or sometimes simply "Canonical" variant contains the primary chromosomes for a genome. For example a human "Canonical" variant contains chr1-chr22, chrX, chrY, and chrM.
-- The "Canonical Female" variant contains the primary chromosomes excluding chrY.
 

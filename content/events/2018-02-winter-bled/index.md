@@ -10,4 +10,5 @@ external_url: http://bebatut.fr/talks/18/02_12_bled/#/1
 image: 
 gtn: false
 contact: Bérénice Batut
+subsites: [global, us]
 ---

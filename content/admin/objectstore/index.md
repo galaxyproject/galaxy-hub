@@ -143,8 +143,8 @@ the data exists.
 
 This configuration is useful when you have been using a backend for a while,
 then you decide to "extend" it by adding a new backend, **but without having to
-move data from previous backend to the new backend**. For instance, you been
-using `disk` for a while, but now you have ran out of space on `disk`, so you
+move data from previous backend to the new backend**. For instance, you have been
+using `disk` for a while, but now you have run out of space on `disk`, so you
 decided to add an S3 bucket; you would like to do so by (a) keeping the existing
 data on `disk` as they are, and still be able to use them for any job/workflow
 execution, and (b) you would like any new data to be persisted on S3.
@@ -177,7 +177,7 @@ admin-specified weights for backends.) For instance:
 
 Using this configuration, ObjectStore randomly distributes data
 between `database/files1` and `database/files2`, with `0.99` and
-`0.01` probability selecting the former and latter respectively.
+`0.01` probability of selecting the former and latter respectively.
 
 
 Additionally, you can define any nested relation of the backends,

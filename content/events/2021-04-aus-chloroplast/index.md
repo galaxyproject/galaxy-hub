@@ -14,4 +14,5 @@ links:
   - text: "Register"
     url: "https://plant-genomics-galaxy.eventbrite.com.au/"
 image: 
+subsites: [global, us]
 ---

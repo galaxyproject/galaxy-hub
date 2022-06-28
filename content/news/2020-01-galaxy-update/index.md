@@ -2,6 +2,7 @@
 title: 'January 2020 Galactic News'
 tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too"
 date: "2020-01-08"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

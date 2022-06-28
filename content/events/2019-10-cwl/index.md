@@ -10,4 +10,5 @@ external_url: "https://github.com/common-workflow-language/common-workflow-langu
 gtn: false
 contact: "Michael Crusoe"
 image: 
+subsites: [global, us]
 ---

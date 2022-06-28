@@ -10,4 +10,5 @@ external_url: "https://sciencegateways.org/engage/bootcamp"
 image: 
 gtn: false
 contact: "help @ sciencegateways . org"
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "August 2014 CloudMan Release"
 date: "2014-08-08"
+subsites: [global, us]
 ---
 <div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 

@@ -63,7 +63,6 @@ The current knowledge about the evolutionary dynamics of SARS-CoV-2 comes primar
     </div>
   </div>
 </div>
-</div>
 
 ------
 
@@ -74,6 +73,7 @@ Many lineage defining sites have been present in SARS-CoV-2 genomes at below-con
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
 <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/voc_time_progression_S_NS.json"/>
 </div>
+
 
 -----
 

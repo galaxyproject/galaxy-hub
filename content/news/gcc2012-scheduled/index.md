@@ -1,6 +1,7 @@
 ---
 title: "GCC 2012 is Scheduled!"
 date: "2011-11-14"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
 

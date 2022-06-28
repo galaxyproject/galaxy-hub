@@ -1,6 +1,7 @@
 ---
 title: "1000th Galaxy CiteULike Paper"
 date: "2013-06-06"
+subsites: [global, us]
 ---
 <div class='right'><a href='/publication-library/'><img src="/images/logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
 

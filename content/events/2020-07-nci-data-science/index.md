@@ -10,4 +10,5 @@ location_url: ""
 external_url: "https://events.cancer.gov/sbmab/ds-bootcamp"
 gtn: true
 contact: "Anton Nekrutenko"
+subsites: [global, us]
 ---

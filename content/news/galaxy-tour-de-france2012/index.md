@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Tour de France 2012"
 date: "2012-04-25"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/galaxy-tour-de-france2012/'><img src="/images/logos/GalaxyTourDeFranceMap.png" alt="Galaxy Tour de France 2012" height="200" /></a></div>
 

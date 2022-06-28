@@ -1,6 +1,7 @@
 ---
 title: "July 20, 2012 Distribution & News Brief"
 date: "2012-07-21"
+subsites: [global, us]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-07-20/)**
 <div class='right'><a href='/archive/dev-news-briefs/2012-07-20/'><img src="/images/news-graphics/2012_07_20_main-page.png" alt="genome-indexing" width="250px" /></a></div>

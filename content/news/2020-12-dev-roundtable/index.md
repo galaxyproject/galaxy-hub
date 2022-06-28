@@ -3,6 +3,7 @@ title: "Get involved with Galaxy: Introducing Galaxy Working Groups"
 tease: "In a big way. Join the Dec 10 Galaxy Developer Round Table"
 external_url: ""
 date: "2020-12-04"
+subsites: [global, us]
 ---
 
 Hello All,

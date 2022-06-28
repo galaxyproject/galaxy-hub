@@ -10,6 +10,7 @@ external_url: ""
 gtn: true
 contact: "Dave Clements, Lukas Mueller, Surya Saha"
 image:
+subsites: [global, us]
 ---
 
 <div class="float-right"> <a href='http://bti.cornell.edu/'><img src="/images/logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> <br />

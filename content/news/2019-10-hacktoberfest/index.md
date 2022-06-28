@@ -2,6 +2,7 @@
 title: "Hacktoberfest 2019"
 tease: "Please join us"
 date: "2019-10-01"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 24rem" src="/news/2019-10-hacktoberfest/hacktoberfest-2019-logo.png" alt="Hacktoberfest Logo" />](https://github.com/galaxyproject/galaxy/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)

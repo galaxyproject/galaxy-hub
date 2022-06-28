@@ -1,6 +1,7 @@
 ---
 title: "Opening @ GigaScience / BGI HK"
 date: "2012-02-18"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://hk.jobsdb.com/HK/EN/Search/JobAdSingleDetail?jobsIdList=100003001226128&sr=1'><img src="/images/logos/GigaScienceLogo.gif" alt="GigaScience Journal" width="160" /></a><br /><a href='http://hk.jobsdb.com/HK/EN/Search/JobAdSingleDetail?jobsIdList=100003001226128&sr=1'><img src="/images/logos/BGILogo.gif" alt="BGI Honk Kong" height="80" /></a></div>
 

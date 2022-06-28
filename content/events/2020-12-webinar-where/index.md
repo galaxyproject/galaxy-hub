@@ -16,6 +16,7 @@ links:
     url: "https://docs.google.com/presentation/d/1vcXpctBe4ED_XQxKQNzPjkAjRuNZiqAsBXe5ws4CCHE/edit?usp=sharing"
   - text: "Video"
     url: "https://youtu.be/srUg7O318PA"
+subsites: [global, us]
 ---
 
 **11am-Noon, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55))**

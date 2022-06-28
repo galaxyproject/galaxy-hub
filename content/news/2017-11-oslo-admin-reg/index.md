@@ -2,6 +2,7 @@
 title: 'European Galaxy Administrator Workshop'
 tease: '5 days of admin training in Oslo'
 date: '2017-11-15'
+subsites: [global, us]
 ---
 [<img class="float-right" src="/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="170" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
 

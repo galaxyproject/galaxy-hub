@@ -23,6 +23,7 @@ This file contains all variants produced by our effort. It contains the followin
 |3| ALT                   | `T`                 | Alternative base |
 |4| DP                    | `13756`             | Sequencing depth |
 |5| AF                    | `0.924106`          | Alternative allele frequency |
+|6| AF_Illumina_q30       | `0.807077`          | Allele frequency computed by `lofreq` |
 |6| SB                    | `2147483647`        | Strand bias P-value from Fisher's exact test calculated by [`lofreq`](https://csb5.github.io/lofreq/) |
 |7| DP4                   | `1,0,13700,0`       | Depth for Forward Ref Counts, Reverse Ref Counts, Forward Alt Counts, Reverse Alt Counts |
 |8| EFFECT                | `SYNONYMOUS_CODING` | Effect of change (from SnpEff 4.5covid19 version) |
@@ -32,6 +33,11 @@ This file contains all variants produced by our effort. It contains the followin
 |12| TRID                  | `S`                 | Gene product name; different from GENE in ORF1ab |
 |13| Batch                 | `0ce66d803a055fef` | Batch ID cross-referenced in `gx-surveillance.json` file   |
 
+</div>
+
+
+<div class="alert alert-warning" role="alert">
+  Note the two alernative allele frequency fields: "AF" ans "AF_Illumina_q30". LoFreq reports AF values listed in "AF_Illumina_q30". They incorrect due to the known LoFreq <a href="https://github.com/CSB5/lofreq/issues/80">bug</a>. To correct for this we are recomputing AF values from DP4 and DP fields as follows: <tt>AF == (DP4[2] + DP4[3]) / DP</tt>.
 </div>
 
 
@@ -66,7 +72,10 @@ JSON file, `gx-surveillance.json`, with an up-to-date list of all datasets analy
 {
   "0ce66d803a055fef": {
     "batch_id": "NT1666262G",
-    "variation": "https://usegalaxy.eu/histories/view?id=0ce66d803a055fef",
+    "variation": {
+      "history_link": "https://usegalaxy.eu/histories/view?id=0ce66d803a055fef",
+      "workflow_version": "0.2"
+    },
     "samples": [
       "ERR5549561",
       "ERR5549562",
@@ -82,9 +91,13 @@ JSON file, `gx-surveillance.json`, with an up-to-date list of all datasets analy
     "time": "2021-04-20T13:22:46.441010",
     "report": {
       "history_link": "https://usegalaxy.eu/histories/view?id=60c62b0154347389",
-      "datamonkey_link": "https://usegalaxy.eu/api/histories/60c62b0154347389/contents/11ac94870d0bb33aca8fa937e3eb6b8a/display"
+      "datamonkey_link": "https://usegalaxy.eu/api/histories/60c62b0154347389/contents/11ac94870d0bb33aca8fa937e3eb6b8a/display",
+      "workflow_version": "0.1"
     },
-    "consensus": "https://usegalaxy.eu/histories/view?id=25c0f632ceb8ed53",
+    "consensus": {
+      "history_link": "https://usegalaxy.eu/histories/view?id=25c0f632ceb8ed53",
+      "workflow_version": "0.1"
+    },
     "study_accession": "PRJEB37886",
     "collection_dates": [
       "2021-03-13",
@@ -98,9 +111,10 @@ JSON file, `gx-surveillance.json`, with an up-to-date list of all datasets analy
       "2021-03-13",
       "2021-03-13"
     ],
-    "batch_plot": "https://usegalaxy.eu/api/histories/60c62b0154347389/contents/11ac94870d0bb33a6afe29423c00ff36/display"
-  }
-}
+    "batch_plot": "https://usegalaxy.eu/api/histories/60c62b0154347389/contents/11ac94870d0bb33a6afe29423c00ff36/display",
+    "platform": "Illumina",
+    "primer_scheme": "ARTIC nCoV-2019 v3"
+  },
 ```
 
 

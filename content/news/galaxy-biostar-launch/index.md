@@ -1,6 +1,7 @@
 ---
 title: "Galaxy Biostar Launched"
 date: "2014-04-23"
+subsites: [global, us]
 ---
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 

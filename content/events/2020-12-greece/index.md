@@ -10,4 +10,5 @@ external_url: "https://www.openaire.eu/events/eventdetail/791/53|54|55|56|57|58|
 gtn: false
 contact: "Elli Papadopoulou, Alexandros Dimopoulos, Thanasis Vergoulis, Fotis Psomopoulos"
 image: 
+subsites: [global, us]
 ---

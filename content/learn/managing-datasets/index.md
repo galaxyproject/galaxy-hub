@@ -14,22 +14,17 @@ Please review for the most current information about **how to find and manage al
 
 Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [UseGalaxy.org](https://usegalaxy.org) public Galaxy server.
 
-Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/use/) where you are working for server-specific details, including contact information and supplimental resources.
+Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/use/) where you are working for server-specific details, including contact information and supplemental resources.
 
-The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into Workflows, making an analysis pathway transparent, reproducible, and reusable.
+The tracking information associated with Datasets in a History represents an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into Workflows, making an analysis pathway transparent, reproducible, and reusable.
 
 # Getting Datasets in Galaxy
 
 You have multiple options how to get your files into Galaxy thus making them datasets:
 
-<div class='right'>
-
-![Upload Modal Icon](/learn/managing-datasets/upload_icon.png)
-
-</div>
-
-* **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel.
-* **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/main/) and [Test](/test/) instances do). See more details at [FTPUpload](/ftp-upload/).
+* To know more about fetching data from other servers, refer to [Moving datasets between Galaxy servers](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_moving_datasets_between_galaxy_servers.html) FAQ.
+* To know more about uploading files (few), refer to [Upload few files (1-10)](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_upload.html) FAQ.
+* To know more about uploading many files (>10), refer to [Upload many files (>10) via FTP](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_upload_ftp.html) FAQ.
 
 # Dataset Icons & Text
 
@@ -69,14 +64,13 @@ Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to g
 
 # Format
 
-* The format of a dataset is ideally defined by the assigned **[datatype](/learn/datatypes/)** attribute. Deviations in input dataset format are the first variable to examine when a tool (job) fails. Many of the tools in the "Text Manipulation" tool group can be used to both examine and correct a dataset's format to bring it into alignment with the assigned [datatype](/learn/datatypes/) attribute specification.
-* To initially **assign** a dataset's [datatype](/learn/datatypes/) attribute, the uploaded/imported file can be specified with some import tools or be named with the appropriate file extension. To specify, modify or correct a dataset's [datatype](/learn/datatypes/) attribute after upload, click on the "pencil" icon ![](/images/icons/pencil.png) in the right corner of the dataset's box to reach the "Edit Attributes" form. Use the "Change data type" section of the form to make changes and click on *Save*. Galaxy will modify the [datatype](/learn/datatypes/) and metadata.
+* The format of a dataset is ideally defined by the assigned **datatype** attribute. To know more about datatypes, refer to [Understanding Datatypes](https://training.galaxyproject.org/training-material/faqs/galaxy/datatypes_understanding_datatypes.html) FAQ.
 * To **transform** a dataset format (original &rarr; new [datatype](/learn/datatypes/) attribute), use one of the many tools in the *Convert Formats* group.
 * ***TIP*** The quickest way to locate tools that manipulate specific formats is to use the Tool Search (top of left Galaxy Tool panel, *gear icon* menu). For example, type in  *[M-A-F](/learn/datatypes/#maf)* to locate tools in the tool group *Convert Formats* that transform to/from Multiple Alignment Format.
 
 # Visualize
 
-* For many [datatypes](/learn/datatypes/), clicking on the **eye icon** ![](/images/icons/eye.png) for "Display data in browser" will display the contents or a preview of the contents in as unformatted text in the center pane (exceptions include compressed [datatypes](/learn/datatypes/) such as BAM).
+* For many [datatypes](/learn/datatypes/), clicking on the **eye icon** ![](/images/icons/eye.png) for "Display data in browser" will display the contents or preview the contents as unformatted text in the center panel (exceptions include compressed [datatypes](/learn/datatypes/) such as BAM).
 * Direct links to view a dataset within a browser may include:
     * [Trackster "Galaxy Track Browser (GTB)"](/learn/visualization/)
     * [GeneTrack](http://atlas.bx.psu.edu/software/genetrack.html)
@@ -85,11 +79,7 @@ Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to g
 
 # Copy
 
-* To copy the datasets within a history to another history, from the right history pane's top *Options* menu select *Copy Datasets*. On the form in the center pane, specify the *From* and *To* history/histories.
-    * From: Select the datasets to be copied in the left column *Source History:*.
-    * To: Select the location to copy the datasets in the right column *Destination History:*.
-        * Options include a single existing history, multiple existing histories, or a newly created and named history.
-* ***TIP*** to *Copy* a **Hidden** dataset (see below), in the *From* histories right pane, use *gear icon &rarr; Unhide Hidden Datasets*, then once the datasets refresh, use *This dataset has been hidden. Click  _here_ to unhide.*
+* To copy the datasets within a history to another history, refer to [Copy a dataset between histories](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_copy_dataset.html) FAQ.
 
 # Clone (deprecated)
 
@@ -97,13 +87,13 @@ Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to g
     * Options are:
     * *Clone all history items, including deleted items*
     * *Clone only items that are not deleted*
-* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/admin/disk-quotas/) on [Main](/main/) or [Test](/test/)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/images/icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
+* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/admin/disk-quotas/) on [Main](/main/) or [Test](/test/)). First, in the History panel, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/images/icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
 
 # Hidden
 
-* Datasets may be hidden in the default History view as a Workflow option. If you have run a workflow with hidden datasets, choose "gear icon &rarr; Include Hidden Datasets or Unhide Hidden Datasets" or use the toogle at the top of the history panel (directly below the history name) to view them.
+* To unhide hidden datasets and work with them, refer to [How to unhide "hidden datasets"?](https://training.galaxyproject.org/training-material/faqs/galaxy/datasets_hidden.html) FAQ.
     * When using **Clone** (see above) to manage datasets to reduce disk usage for [quotas](/admin/disk-quotas/), viewing and deleting hidden datasets can be a very important step. Unless deleted, hidden datasets are moved to the new cloned history.
-    * When using **Copy** (see above) to manage datasets to reduce disk usage for [quotas](/admin/disk-quotas/), hidden datsets will not be in the "From" list of datasets available to transfer unless they are unhidden using *gear icon &rarr; Unhide Hidden Datasets*, then *This dataset has been hidden. Click__here_ to unhide.*
+    * When using **Copy** (see above) to manage datasets to reduce disk usage for [quotas](/admin/disk-quotas/), hidden datasets will not be in the "From" list of datasets available to transfer unless they are unhidden using *gear icon &rarr; Unhide Hidden Datasets*, then *This dataset has been hidden. Click__here_ to unhide.*
 
 # Delete vs Delete Permanently
 
@@ -117,10 +107,10 @@ Methods
     * **Watch how it works in the [Managing Histories](https://vimeo.com/galaxyproject/managehistories) video.**
     * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/main/) and [Test](/test/), this is currently several months.
     * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
-    * Deleted datsets can be undeleted or permanently deleted within a History.
+    * Deleted datasets can be undeleted or permanently deleted within a History.
     * Links to show/hide deleted (and hidden) datasets are at the top of the History panel. Only active datasets are shown by default.
-    * To review or adjust an individual dataset, click on the name to expand it. If it is only deleted, but not permenently deleted (purged), you'll see a message with links to recover or to purge: *This dataset has been deleted*. Click on *Undelete it* to recover the dataset, making it active and accessible to tools again. Click on *Permenently remove it from disk* to purge the dataset and remove it from the account quota calculation.
-    * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, undelete, purge, and group datasets are available. A selection box will be available for each individual dataset. Check the datasets you want to modify and chose your option.
+    * To review or adjust an individual dataset, click on the name to expand it. If it is only deleted, but not permanently deleted (purged), you'll see a message with links to recover or to purge: *This dataset has been deleted*. Click on *Undelete it* to recover the dataset, making it active and accessible to tools again. Click on *Permanently remove it from disk* to purge the dataset and remove it from the account quota calculation.
+    * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, undelete, purge, and group datasets are available. A selection box will be available for each individual dataset. Check the datasets you want to modify and choose your option.
   
   
 * [Quotas](/admin/disk-quotas/) for Datasets and Histories
@@ -131,16 +121,16 @@ Methods
     * All copies of a dataset must be permanently deleted for it to not be considered.
     * Histories/datasets that are shared with you are *only partially considered* unless you import them.
     * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*.
-    * To review or change the status for an individual History, click on the History name and choose an option from the pull-down menu. *Peremenently delete* will purge an entire History and all Datasets it includes.
-    * To review or change the status for multiple Histories, check the boxes for the Histories to be discarded and then click on one of the the buttons at the bottom of the form. *Permanently delete* will purge entire Histories and all Datasets included.
-    * Note: A History must be *Unshared* before it can be *Deleted* or *Permenently deleted*. Adjust the sharing state for a History on the *User &rarr; Histories* form or from the History menu on the *Share or Publish* form.
+    * To review or change the status for an individual History, click on the History name and choose an option from the pull-down menu. *Permanently delete* will purge an entire History and all Datasets it includes.
+    * To review or change the status for multiple Histories, check the boxes for the Histories to be discarded and then click on one of the buttons at the bottom of the form. *Permanently delete* will purge entire Histories and all Datasets included.
+    * Note: A History must be *Unshared* before it can be *Deleted* or *Permanently deleted*. Adjust the sharing state for a History on the *User &rarr; Histories* form or from the History menu on the *Share or Publish* form.
   
 * ***WARNING*** **Permanently deleted (purged)** datasets and histories **cannot be recovered** by the end user or an administrator. The best way to avoid losing important data by accident is to clearly name all important histories and datasets.
     * Name a dataset:
         * Click on the *pencil icon* ![](/images/icons/pencil.png) on the top right of a Dataset to reach the *Edit Attributes* form. A dataset's primary *Name, Info , Annotation, and Notes* can be adjusted on the first tab, and other metadata attributes can be adjusted on the other tabs.
         * ***TIP*** Copying the Galaxy default *Name* into the "Info: field, then adding in a custom *Name* is one way to preserve the tool output original *Name* while still distinguishing one similarly named dataset from another. This can be useful when reviewing analysis steps and choosing which datasets to retain and which to remove when an analysis is under review or completed.
     * Name a history:
-        * Click near the top of the right history pane where the default text *Unnamed history* is located. Enter the new name and and press "enter/return".
+        * Click near the top of the right history panel where the default text *Unnamed history* is located. Enter the new name and press "enter/return".
         * From *User &rarr; Saved Histories*, check the histories (one or more) to be renamed, then click on the bottom button *Rename*. On the *Rename* form, *Current Name* is on the left, *New Name* is on the right. Edit *New Name* for each history then click on the button *Rename Histories*.
 
 # Searching Datasets

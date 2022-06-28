@@ -1,6 +1,7 @@
 ---
 title: "July 2013 Galaxy Update"
 date: "2013-06-30"
+subsites: [global, us]
 ---
 <div class='right'><a href='/galaxy-updates/2013-06/'><img src="/images/logos/GalaxyUpdate200.png" alt="July 2013 Galaxy Update" width=150 /></a></div>
 

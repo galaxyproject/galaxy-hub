@@ -10,4 +10,5 @@ location_url: "https://neist.res.in/inbix2021/"
 external_url: "https://neist.res.in/inbix2021/workshop.html"
 gtn: true
 contact: "Galaxy India Community"
+subsites: [global, us]
 ---

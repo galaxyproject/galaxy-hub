@@ -10,4 +10,5 @@ location_url: https://www.eventbrite.com.au/e/variant-detection-using-galaxy-aus
 external_url: https://www.eventbrite.com.au/e/variant-detection-using-galaxy-australia-embl-abr-melbourne-bioinformatics-node-tickets-48266015953
 contact: "Igor Makunin"
 gtn: true
+subsites: [global, us]
 ---

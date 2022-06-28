@@ -10,5 +10,6 @@ external_url: http://www.triconference.com/Converged-IT-and-the-Cloud/#Day1
 image: 
 gtn: false
 contact: Enis Afgan
+subsites: [global, us]
 ---
 

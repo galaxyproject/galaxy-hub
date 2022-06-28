@@ -2,6 +2,7 @@
 title: 'September 2019 Galactic News'
 tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other news too."
 date: "2019-08-30"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)

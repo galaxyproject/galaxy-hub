@@ -3,6 +3,7 @@ title: "2021 Galaxy Community Conference will be virtual, global, and affordable
 tease: "And globally accessible"
 external_url: ""
 date: "2021-02-04"
+subsites: [global, us]
 ---
 
 [<img src="/images/events/gcc2021/gcc2021-logo-wide.png" class="float-right" style="max-width: 14rem;" />](https://www.vibconferences.be/events/gcc2021)

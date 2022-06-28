@@ -10,5 +10,6 @@ external_url: "https://www.eventsforce.net/bad/frontEnd/reg/dailyAgenda.csp?ef_s
 image: 
 gtn: true
 contact: "Andrei Mardaryev & Krzys Poterlowicz"
+subsites: [global, us]
 ---
 

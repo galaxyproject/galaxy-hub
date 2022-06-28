@@ -12,6 +12,7 @@ gtn: false
 contact: "Presenters"
 contact_url: "/people/jeremy-goecks/"
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
 Going to [BioIT World 2019](https://www.bio-itworldexpo.com/)?  Galaxy is there too:

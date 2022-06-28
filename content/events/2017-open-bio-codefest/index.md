@@ -9,4 +9,5 @@ image: /images/logos/obf-logo-tiny-trans.png
 location_url: https://brmlab.cz/
 external_url: https://www.open-bio.org/wiki/Codefest_2017
 contact: Brad Chapman, Matúš Kalaš, Heather Wiencko
+subsites: [global, us]
 ---

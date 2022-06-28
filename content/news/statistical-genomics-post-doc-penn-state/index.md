@@ -1,6 +1,7 @@
 ---
 title: "Statistical Genomics Post-Doc"
 date: "2013-09-09"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src="/images/logos/HuckLogo.png" alt="Center for Medical Genomics" width="250" /></a></div>
 

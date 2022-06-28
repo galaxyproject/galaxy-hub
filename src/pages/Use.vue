@@ -159,7 +159,7 @@
 </template>
 
 <script>
-import { rmPrefix, rmSuffix, mdToHtml } from "~/utils.js";
+import { rmPrefix, rmSuffix, mdToHtml } from "~/lib/utils.js";
 const LINK_DISP_NAMES = {
     "academic-cloud": "Academic",
     "commercial-cloud": "Commercial",
@@ -351,40 +351,40 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/use/main/") {
-    fileInfo {
-      path
-    }
-  }
-  allInsert(filter: {path: {regex: "^/insert:/use/[^/]+/$"}}) {
-    totalCount
-    edges {
-      node {
-        id
-        path
-        title
-        content
-      }
-    }
-  }
-  platforms: allPlatform(sortBy: "title", order: ASC) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        scope
-        summary
-        url
-        path
-        platforms {
-          platform_group
-          platform_url
-          platform_purview
+    main: insert(path: "/insert:/use/main/") {
+        fileInfo {
+            path
         }
-      }
     }
-  }
+    allInsert(filter: {path: {regex: "^/insert:/use/[^/]+/$"}}) {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                title
+                content
+            }
+        }
+    }
+    platforms: allPlatform(sortBy: "title", order: ASC) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                scope
+                summary
+                url
+                path
+                platforms {
+                    platform_group
+                    platform_url
+                    platform_purview
+                }
+            }
+        }
+    }
 }
 </page-query>
 

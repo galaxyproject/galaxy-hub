@@ -10,4 +10,5 @@ external_url: "https://depot.galaxyproject.org/hub/attachments/events/2020-02-it
 gtn: false
 contact: "Dave Clements"
 image: 
+subsites: [global, us]
 ---

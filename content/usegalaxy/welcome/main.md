@@ -2,11 +2,27 @@
 title: usegalaxy.org
 ---
 
+<div class="alert trim-p mt-2" style="background: #FFD500;">
+
+🇺🇦 The global community has created a **[continuously updated list][ua-table]** of laboratories that can host Ukrainian scientists at all career levels. If your lab can host a scientist -- add your name to the list **[here][ua-form]**. In addition, Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]**
+
+<br/>
+
+Світова наукова спільнота створила **[список лабораторій][ua-table]**, що постійно оновлюється та які можуть прийняти українських науковців усіх рівнів, у тому числі й аспірантів. Якщо ваша лабораторія має можливість запросити -- ви можете додати ваше ім’я до списку тут. Окрім того, Galaxy Project має відкриті вакансії у своīх європейських та американських осередках. Пишіть нам на **[ukraine@galaxyproject.org][ua-mail]**
+
+<br/>
+
+Научное сообщество создало постоянно обновляемый **[список лабораторий][ua-table]**, которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя **[ukraine@galaxyproject.org][ua-mail]**
+
+</div>
+
+---
+
 #### **Galaxy** is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy [start here][galaxy-101] or consult our <a id="toggleHelp">help resources</a>. You can install your own Galaxy by following the [tutorial][get-galaxy] and choose from thousands of tools from the [Tool Shed](https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial).
 
 <div class="text-center my-5">
 
-[![GTN Smörgåsbord 2: 14-18 March, join a free, global, week-long Galaxy Training event covering everything from RNA-Seq, Single Cell, Proteomics, SARS-CoV-2 and more!  This year will include Galaxy Admin Training.](/images/events/2022-03-smorgasbord2/smorgasbord2-blurb.png)](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
+[![The Galaxy Community Conference is an annual gathering of the Galaxy community includes training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking.](/images/events/gcc2022/gcc2022-schedule-glance.png)](https://gcc2022.sched.com/)
 
 ---
 
@@ -75,3 +91,7 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 [nih]: https://www.nih.gov/
 [nhgri]: http://www.genome.gov
 [terms]: https://usegalaxy.org/static/terms.html
+
+[ua-table]: https://bit.ly/ua-table
+[ua-form]: https://bit.ly/ua-form
+[ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"

@@ -2,8 +2,8 @@ import fs from "fs";
 import nodePath from "path";
 import { fileURLToPath } from "url";
 import grayMatter from "gray-matter";
-import { splitlines, repr } from "../utils.js";
-import { PathInfo } from "../paths.js";
+import { splitlines, repr, ensurePrefix, ensureSuffix } from "../lib/utils.js";
+import { PathInfo } from "../lib/paths.mjs";
 
 /** Types of files recognized by this module. */
 export const CONTENT_TYPES = ["md", "vue", "insert", "resource"];
@@ -39,6 +39,12 @@ export class Partitioner {
             configPath = nodePath.join(PROJECT_ROOT, "config.json");
         }
         const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
+        this.collections = [];
+        for (let rawCollection of Object.values(config.collections || {})) {
+            // Normalize path to start and end with /
+            let path = ensurePrefix(ensureSuffix(rawCollection.path, "/"), "/");
+            this.collections.push({ path: path, dest: rawCollection.type });
+        }
         this.contentDir = nodePath.join(projectRoot, config.contentDir);
         this.buildDirs = {};
         for (let [key, relPath] of Object.entries(config.build.dirs)) {
@@ -47,6 +53,7 @@ export class Partitioner {
         this.placers = assignPlacers(placer, placers, CONTENT_TYPES);
     }
 
+    // The main entry point to the partitioning process.
     placeDirFiles(dirPath, recursive = false) {
         if (!nodePath.isAbsolute(dirPath)) {
             throw repr`dirPath must be absolute. Received: ${dirPath}`;
@@ -58,7 +65,7 @@ export class Partitioner {
                 this.placeDirFiles(childDir, recursive);
             }
         }
-        let plan = makeDirPlan(indexPath, inserts, resources, this.placers);
+        let plan = this.makeDirPlan(indexPath, inserts, resources);
         this.executeDirPlan(dirPath, plan);
         // Delete empty directories.
         // At this point all contents of this directory (all the way down) should already be in the
@@ -207,7 +214,7 @@ export class Partitioner {
                 }
             } else if (buildPathType === "dir") {
                 if (!this.simulate) {
-                    fs.rmdirSync(buildPath, { recursive: true });
+                    fs.rmSync(buildPath, { recursive: true });
                 }
             } else if (buildPathType !== "nonexistent") {
                 throw repr`Cannot remove special file ${buildPath}`;
@@ -258,45 +265,63 @@ export class Partitioner {
         }
         return buildPaths;
     }
-}
 
-/** Determine what the final state of the files in this directory should be.
- *  What files should be present in which destination directories, and should they be links or
- *  copies?
- */
-function makeDirPlan(indexPath, inserts, resources, placers) {
-    let plan = [];
-    let vue = indexPath && fileRequiresVue(indexPath);
-    // index.md
-    if (!indexPath) {
-        // pass
-    } else if (vue) {
-        plan.push({ path: indexPath, dest: "vue", placer: placers.vue });
-    } else {
-        plan.push({ path: indexPath, dest: "md", placer: placers.md });
-    }
-    // Insert .md files
-    for (let insertPath of inserts) {
-        plan.push({ path: insertPath, dest: "md", placer: placers.insert });
-    }
-    // Resource files (mainly images)
-    // But also 'links.json', etc.
-    for (let resourcePath of resources) {
-        // Check if the file is used by a Vue-requiring Markdown file.
-        //TODO: It's possible a file could be referenced by multiple Markdowns in the same directory.
-        //TODO: This is a very loose check for whether the Markdown file references the resource file.
-        //      The Markdown file could technically include the name of the resource file without
-        //      actually including it in, say, an image element.
-        let destination;
-        let resourceFileName = nodePath.basename(resourcePath);
-        if (vue && fileContainsSubstr(indexPath, resourceFileName)) {
-            destination = "vue";
+    /** Determine what the final state of the files in this directory should be.
+     *  What files should be present in which destination directories, and should they be links or
+     *  copies?
+     *  All paths given must be absolute.
+     */
+    makeDirPlan(indexPath, inserts, resources) {
+        let plan = [];
+        let vue = this.indexRequiresVue(indexPath);
+        // index.md
+        if (!indexPath) {
+            // pass
+        } else if (vue) {
+            plan.push({ path: indexPath, dest: "vue", placer: this.placers.vue });
         } else {
-            destination = "md";
+            plan.push({ path: indexPath, dest: "md", placer: this.placers.md });
         }
-        plan.push({ path: resourcePath, dest: destination, placer: placers.resource });
+        // Insert .md files
+        for (let insertPath of inserts) {
+            plan.push({ path: insertPath, dest: "md", placer: this.placers.insert });
+        }
+        // Resource files (mainly images)
+        // But also 'links.json', etc.
+        for (let resourcePath of resources) {
+            // Check if the file is used by a Vue-requiring Markdown file.
+            //TODO: It's possible a file could be referenced by multiple Markdowns in the same directory.
+            //TODO: This is a very loose check for whether the Markdown file references the resource file.
+            //      The Markdown file could technically include the name of the resource file without
+            //      actually including it in, say, an image element.
+            let destination;
+            let resourceFileName = nodePath.basename(resourcePath);
+            if (vue && fileContainsSubstr(indexPath, resourceFileName)) {
+                destination = "vue";
+            } else {
+                destination = "md";
+            }
+            plan.push({ path: resourcePath, dest: destination, placer: this.placers.resource });
+        }
+        return plan;
     }
-    return plan;
+
+    indexRequiresVue(indexPath) {
+        // If there is no index.md, it probably doesn't require vue!
+        if (!indexPath) {
+            return false;
+        }
+        // Check if it's in a top-level directory the user has defined as belonging to a custom collection.
+        // These have across-the-board vue or md designations.
+        let relIndexPath = nodePath.relative(this.contentDir, indexPath);
+        for (let collection of this.collections) {
+            if (collection.dest === "vue" && `/${relIndexPath}`.startsWith(collection.path)) {
+                return true;
+            }
+        }
+        // Otherwise, read the file to see.
+        return fileRequiresVue(indexPath);
+    }
 }
 
 function getChildrenByType(dirPath) {
@@ -384,7 +409,7 @@ function deleteEmptyDirs(dirPath) {
     }
     // readdirSync again because the above loop might've deleted some.
     if (fs.readdirSync(dirPath).length === 0) {
-        fs.rmdirSync(dirPath);
+        fs.rmSync(dirPath, { recursive: true });
     }
 }
 

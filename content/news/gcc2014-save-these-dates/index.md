@@ -1,6 +1,7 @@
 ---
 title: "GCC2014: Save These Dates!"
 date: "2013-10-02"
+subsites: [global, us]
 ---
 <div class='right'><a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="130" /></a></div>
 

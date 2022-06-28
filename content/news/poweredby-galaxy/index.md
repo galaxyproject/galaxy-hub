@@ -1,6 +1,7 @@
 ---
 title: "Powered by Galaxy"
 date: "2011-08-19"
+subsites: [global, us]
 ---
 <div class='right'><a href='/outreach/'><img src="/images/galaxy-logos/powered-by-galaxy.png" /></a></div>
 

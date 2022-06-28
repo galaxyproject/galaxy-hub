@@ -1,6 +1,7 @@
 ---
 title: "Galaxy @ ISMB/ECCB and BOSC 2011"
 date: "2011-07-08"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismbeccb2011'><img src="/events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a></div>Galaxy will have a [strong presence at ISMB/ECCB 2011 and BOSC 2011](/events/ISMB-ECCB-BOSC 2011/).  There will be no less than
 * 3 BOSC talks

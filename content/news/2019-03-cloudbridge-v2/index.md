@@ -2,6 +2,7 @@
 title: 'CloudBridge 2.0 release'
 tease: Support for Google Cloud Platform, customizability without library code changes
 date: '2019-03-14'
+subsites: [global, us]
 ---
 We are pleased to announce the release of CloudBridge 2.0 release.
 

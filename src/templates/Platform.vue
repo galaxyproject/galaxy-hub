@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout :subsite="subsite" class="collection-platform">
         <g-link to="/use/" class="link"> &larr; Platform Directory</g-link>
         <header>
             <h1 class="pageTitle">{{ $page.platform.title }}</h1>
@@ -50,34 +50,37 @@
 
 <page-query>
 query Platform($path: String!) {
-   platform(path: $path) {
-    id
-    title
-    url
-    image
-    images
-    platforms {
-      platform_group
-      platform_url
-      platform_text
+    platform(path: $path) {
+        id
+        title
+        url
+        image
+        images
+        platforms {
+            platform_group
+            platform_url
+            platform_text
+        }
+        scope
+        summary
+        comments
+        user_support
+        pub_libraries
+        quotas
+        citations
+        sponsors
+        fileInfo {
+            path
+        }
     }
-    scope
-    summary
-    comments
-    user_support
-    pub_libraries
-    quotas
-    citations
-    sponsors
-    fileInfo {
-        path
-    }
-  }
 }
 </page-query>
 
 <script>
-import { mdToHtml, getImage } from "~/utils.js";
+import { mdToHtml, getSingleKey } from "~/lib/utils.js";
+import { getImage } from "~/lib/pages.mjs";
+import CONFIG from "~/../config.json";
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
 export default {
     metaInfo() {
         return {
@@ -92,6 +95,7 @@ export default {
     },
     data() {
         return {
+            subsite: ROOT_SUBSITE,
             groupNames: new Map([
                 ["public-server", "Public server"],
                 ["commercial-cloud", "Commercial Cloud"],

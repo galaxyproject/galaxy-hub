@@ -10,4 +10,5 @@ location_url: "https://migale.inra.fr/trainings"
 external_url: "https://migale.inrae.fr/sites/default/files/formation/2020/module9.pdf"
 gtn: true
 contact: "Véronique Martin"
+subsites: [global, us]
 ---

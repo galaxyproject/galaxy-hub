@@ -10,4 +10,5 @@ image: /images/logos/tripal-logo-dark.png
 external_url: http://tripal.info/news/october-training 
 contact: 'Meg Staton'
 gtn: false
+subsites: [global, us]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Proposed IRC Channel Policy Change"
 date: "2014-09-02"
+subsites: [global, us]
 ---
 <div class='right'><img src="/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 

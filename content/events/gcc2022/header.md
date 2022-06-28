@@ -6,24 +6,25 @@
 </div>
 <div class="linkbox-horizontal trim-p">
 
-[Key Dates](/events/gcc2022/key-dates/) |
-[Conduct](/events/gcc2022/conduct/) |
-[Abstracts](/events/gcc2022/abstracts/) |
+[Home](/events/gcc2022/) |
+[**Register**](/events/gcc2022/register) |
 [Schedule](/events/gcc2022/schedule/) |
-[Training](/events/gcc2022/training/) |
-[CoFest](/events/gcc2022/cofest/) |
-[Sponsors](/events/gcc2022/sponsors/) |
-[Travel](/events/gcc2022/travel/) |
-[Register](/events/gcc2022/register) |
+[Abstracts](/events/gcc2022/abstracts/) |
 [Childcare](/events/gcc2022/childcare/) |
-[Organizers](/events/gcc2022/organizers/)
+[CoFest](/events/gcc2022/cofest/) |
+[Conduct](/events/gcc2022/conduct/) |
+[Key Dates](/events/gcc2022/key-dates/) |
+[Organizers](/events/gcc2022/organizers/) |
+[Sponsors](/events/gcc2022/sponsors/) |
+[Training](/events/gcc2022/training/) |
+[**Travel**](/events/gcc2022/travel/)
 
 </div>
 <div class="text-center">
 
 # **2022 Galaxy Community Conference (GCC2022)**
 
-### July 17-23, 2022
+### July 17-23, 2022 - [Now online as well](/events/gcc2022/register)!
 ### University of Minnesota, Twin Cities
 ### Minneapolis, Minnesota, United States
 

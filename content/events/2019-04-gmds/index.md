@@ -10,4 +10,5 @@ external_url: "https://gmds.de/aktuelles-termine/beitrag/dmea-satellitenveransta
 gtn: false
 contact: "Wolfgang Maier"
 image: 
+subsites: [global, us]
 ---

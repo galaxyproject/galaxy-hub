@@ -13,4 +13,5 @@ image:
 links:
   - text: "Slides"
     url: "https://docs.google.com/presentation/d/1Cyu5VWftHl-R9pIhp_zdjpzMiCTfvWEkLzyDvKaBLA0/edit#slide=id.p"
+subsites: [global, us]
 ---

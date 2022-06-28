@@ -6,7 +6,7 @@ Here you will find information on obtaining and setting up a Galaxy instance wit
 # Requirements
 
 * UNIX/Linux or Mac OSX
-* [Python 3.6 or newer](/admin/python/)
+* [Python 3.7 or newer](/admin/python/)
 
 # Get Started
 
@@ -19,7 +19,7 @@ If setting up or running a production Galaxy service or creating your own person
 If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
 ```
-$ git clone -b release_21.09 https://github.com/galaxyproject/galaxy.git
+$ git clone -b release_22.01 https://github.com/galaxyproject/galaxy.git
 ```
 
 ### Updating existing
@@ -27,7 +27,7 @@ $ git clone -b release_21.09 https://github.com/galaxyproject/galaxy.git
 If you have an existing Galaxy repository and want to update it, run:
 
 ```
-$ git fetch origin && git checkout release_21.09 && git pull --ff-only origin release_21.09
+$ git fetch origin && git checkout release_22.01 && git pull --ff-only origin release_22.01
 ```
 
 
@@ -47,9 +47,11 @@ Galaxy requires a few things to run: a virtualenv, configuration files, and depe
 $ sh run.sh
 ```
 
-This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running. If galaxy does not start, you may be using the conda python. See the [admin docs](https://docs.galaxyproject.org/en/master/admin/framework_dependencies.html#conda) for more details.
+This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running. If Galaxy does not start, you may be using the conda python. See the [admin docs](https://docs.galaxyproject.org/en/master/admin/framework_dependencies.html#conda) for more details.
 
 # Next Steps
+
+You can find extensive documentation for setting up Galaxy in the [Admin Documentation](https://docs.galaxyproject.org/en/master/admin/index.html). Below you will find common first steps.
 
 ## Configure
 
@@ -61,11 +63,17 @@ cp config/galaxy.yml.sample config/galaxy.yml
 
 ## Galaxy over network
 
-To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `http` setting. Galaxy will bind to any available network interfaces instead of the localhost if you change it like this:
+To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `http` setting. Galaxy will bind to any available network interfaces on port 8080 instead of the localhost if you add the following:
 
 ```
-http: 0.0.0.0
+gravity:
+  app_server: gunicorn
+  gunicorn:
+    # listening options
+    bind: '0.0.0.0:8080'
 ```
+
+For additional options see the [Listening and proxy options section](https://docs.galaxyproject.org/en/master/admin/scaling.html#listening-and-proxy-options) of the documentation.
 
 ## Become an Admin
 
@@ -187,15 +195,12 @@ If you're doing development or making changes to Galaxy, it is best practice to 
 
 Below are simplified instructions for shutting down local Galaxy server. If your configuration is more complicated, getting help from an administrator is recommended.
 
-### The Galaxy process is running in the background
+Galaxy is by default controlled by gravity. You can start/stop/restart Galaxy using the `galaxyctl` command. If Galaxy is running in the foreground, you can terminate the processes by pressing `Ctrl-C` on your keyboard. If Galaxy is running in the background you can activate your Galaxy's virtualenv and then run `galaxyctl stop`, e.g
 
-* If Galaxy was the last process running within a terminal window, bring it into the foreground with the command `fg` and shut down with `Ctrl-c`.
-* If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the Galaxy job to the foreground with the command `fg <number_of_the_job>` and shut down with `Ctrl-c`.
-
-### I have lost the terminal window running Galaxy
-
-* From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named similiar to `/path/to/galaxy/.venv/bin/python2.7 .venv/bin/uwsgi [additional arguments]`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
-* If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process above before restarting Galaxy again.
+```console
+. /path/to/galaxy/.venv/bin/activate
+galaxyctl stop
+```
 
 ## Installation automation
 

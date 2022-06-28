@@ -2,6 +2,7 @@
 title: "Science Gateways Bootcamp, May, Indianapolis"
 tease: "Learn gateways, from start to finish"
 date: "2019-02-11"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/images/logos/sgci-logo-trans-big.png" alt="Scientific Gateways Community Institute Bootcamp" />](http://sciencegateways.org/bootcamp)

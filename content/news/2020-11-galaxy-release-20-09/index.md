@@ -2,6 +2,7 @@
 title: 'Galaxy Release 20.09'
 tease: GTN in Galaxy, upload from Dropbox, workflow enhancements, better performance!
 date: '2020-11-17'
+subsites: [global, us]
 ---
 
 We are pleased to announce the release of Galaxy

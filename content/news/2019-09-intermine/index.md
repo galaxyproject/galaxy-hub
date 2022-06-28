@@ -2,6 +2,7 @@
 title: "InterMine 4.1.0 Release: Easier Galaxy integration"
 tease: "Configuration free data import/export"
 date: "2019-09-30"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 18rem" src="/images/logos/intermine-logo-wide-trans.png" alt="InterMine" />](http://intermine.org/)

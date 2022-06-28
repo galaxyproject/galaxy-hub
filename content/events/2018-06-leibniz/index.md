@@ -10,4 +10,5 @@ location_url:
 external_url: "http://www.denbi.de/22-training-cat/training-courses/555-a-primer-for-rna-seq-processing-interpreting-and-visualization"
 contact: "Steve Hoffmann, Olaf Wolkenhauer, Wolfgang Hess"
 gtn: false
+subsites: [global, us]
 ---

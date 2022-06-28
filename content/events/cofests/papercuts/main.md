@@ -1,57 +1,49 @@
 ---
 title: "Papercuts CoFests!"
-layout: events_index_papercuts.pug
+noun: "Papercuts CoFest"
 ---
 
-Papercuts events are [Galaxy CoFests](/events/cofests/) that address annoying, but easy to fix bugs ("paper cuts").  *Papercut CoFests* run for 24 hours (following the sun) and are collaborative events, dedicated to
+Papercuts events are [Galaxy CoFests](/events/cofests/) that address annoying, but easy to fix bugs ("paper cuts"). _Papercuts CoFests_ run for 24 hours (following the sun) and are collaborative events, dedicated to
 
-* **Making the Galaxy experience be a pleasure and be productive by removing and reducing irritants.**
-* **Growing the Galaxy *contributor* community by holding regular events.**
-* Identify easy but informative things to fix.
-* Work together and enjoy the community.
-* Dedicate time together for bug-fixing.
-* Make reducing paper cuts fun.
+-   **Making the Galaxy experience be a pleasure and be productive by removing and reducing irritants.**
+-   **Growing the Galaxy _contributor_ community by holding regular events.**
+-   Identify easy but informative things to fix.
+-   Work together and enjoy the community.
+-   Dedicate time together for bug-fixing.
+-   Make reducing paper cuts fun.
 
 <div class="text-center img-sizer autowidth" style="height: 6rem">
 
-![](/events/2020-10-papercuts/papercuts-2020-10-21.png)
-![](/events/2020-11-papercuts/papercuts-2020-11-18.png)
-![](/events/2020-12-papercuts/papercuts-2020-12.gif)
-![](/events/2021-01-papercuts/papercuts-2021-01.png)
+![](/images/galaxy-logos/papercuts.png)
 
 </div>
 
-
 # How to get involved with Papercuts CoFests?
 
-First, you can register your interest.  We'll send you information and a reminder before the next event.  (Registering your interest is optional.  You can also just show up.)
+Papercuts CoFests are held every three months (see below), and it's easy to get involved in the very next one.
 
-<button type="button" class="btn btn-light"> **[I'm interested!](https://docs.google.com/forms/d/e/1FAIpQLSc-OUa9s-L9DO1RMuSeiOWts1am0eWXI9VKM9dHfKxExBS-ag/viewform)**
- </button></a>
+-   **Before**
+    -   Each Papercuts event page has links to issues. in different parts of Galaxy, that have been flagged by experienced community members as being "fixable during a Papercuts."
+    -   Figure out which of these projects interest you the most.
+    -   Do some (even a little bit is useful) on that project.
+    -   Check the event page for more information on that particular event. Depending on what issues we're hoping to tackle, there may be some scheduled Zoom calls or collaboration materials.
+-   **During**
+    -   Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
+    -   People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
+    -   Ask for help! Collaborate! Work together!
+    -   Join the GTN CoFest Calls! (And any other Zoom calls that we may have for the event.)
+-   **After**
+    -   [Stay involved.](https://galaxyproject.org/community/contributing/) Galaxy has lots of ways to get involved. Leverage your newly acquired knowledge to ask for help, and to help others.
+    -   Get your fixes integrated! You may or may not get in a fix integrated during the official Papercuts day. If you don't, then stick with it until you have the final polish on it, so it can be merged.
+    -   Join us again for the next Papercuts.
 
-Papercuts CoFests are held regularly (see below), and it's easy to get involved in the very next one.
+# Guide for WGs: Hosting a Papercuts event
 
-* **Before**
-    * Each Papercuts event page has links to issues. in different parts of Galaxy, that have been flagged by experienced community members as being "fixable during a Papercuts."
-    * Figure out which of these projects interest you the most.
-    * Do some (even a little bit is useful) on that project.
-    * Each event has conference calls, every 3-4 hours, going around the world.  Look at the schedule and figure out which calls you can make it to.
-* **During**
-    * Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
-    * People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
-    * Before the next call, followup with others on Galaxy chat channels.
-    * Be on the next call for a follow up.
-* **After**
-    * Stay involved. Galaxy has lots of ways to get involved. Leverage your newly acquired knowledge to ask for help, and to help others.
-    * Get your fixes integrated!  You may or may not get in a fix integrated during the official Papercuts day.  If you don't then stick with it until you have the final polish on it, and it goes in.
-    * Tell everyone you meet that you are now a Galaxy Project contributor.
-    * Join us again for the next Papercuts.
+If your working group is the host for the next papercuts event, here is what we need from you for the event to be successful:
 
-# Papercuts for Students?
-
-If you are a **learner** and you want to learn how a global open source, open science project operates (and *become a contributor)*, then we strongly encourage you to get involved with Galaxy through Papercuts CoFests.  See above for how to get started.
-
-## Papercuts for Teachers and Student Leaders
-
-If you are a **teacher, professor, or student leader**, and you want to get your students exposed to open source software development in a globally distributed project then *we really want to help you do that.*  [Send us an email](mailto:outreach@galaxyproject.org), and we will work with you to welcome and integrate your group in to Galaxy during the next event.
-
+-   Find **5-10 small to medium issues** that you want to see worked on. Triage them a bit to make sure a contributor has any pertinent information they may need to be successful.
+-   Find **1 or 2 bigger topics** that you want a lot of feedback or collaboration on, if applicable.
+-   Decide if you want to have video calls or not. If you do, we can pre-schedule them ahead of time.
+-   **Be available.** Talk about who's going to take point on certain issues or time zones.
+-   Make the event yours. We welcome help with design decisions for the advertisements, formatting on the event page, etc.
+-   Have fun!

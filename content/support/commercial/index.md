@@ -40,11 +40,11 @@ GalaxyWorks [was founded](https://galaxyproject.org/news/2020-06-galaxyworks-ann
 
 Galaxy is a powerful and open, web-based platform, which is accessible to all scientists. For the beginner, it can be difficult to know how to select from the thousands of available tools, which ones are right for your data analysis.
 
-In addition, for microbiology, few public Galaxy servers are available and their use could limited to subscribers or collaborators only. Many tools, which specially designed for microbiology, are not available in Galaxy main.
+In addition, for microbiology, few public Galaxy servers are available and their use could be limited to subscribers or collaborators only. Many tools, which specially designed for microbiology, are not available in Galaxy main.
 
 At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics research by:
 
-1. Helping you identifying the correct genomics applications that answer your research questions.
+1. Helping you identify the correct genomics applications that answer your research questions.
 2. Providing support in the design of your sequencing experiment.
 3. [Training](/support/commercial/#training) you in using Galaxy for high throughput data analysis.
 4. Providing help in selecting the correct bioinformatics tools and work workflows on either public Galaxy servers or to customize your own local Galaxy server.

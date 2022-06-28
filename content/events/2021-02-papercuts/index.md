@@ -11,6 +11,7 @@ external_url:
 gtn: false
 contact: Community
 tags: [ cofest, papercuts ]
+subsites: [global, us]
 ---
 
 *Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*

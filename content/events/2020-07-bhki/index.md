@@ -10,4 +10,5 @@ location_url: "https://bioinformaticshubofkenya.wordpress.com/upcoming-event/"
 external_url: "https://docs.google.com/forms/d/e/1FAIpQLSdzdwCDd3wg--RfGJff54sz1hEV-r5Kuzj-5YIEbrHStJjpew/viewform"
 gtn: true
 contact: "Peter van Heusden"
+subsites: [global, us]
 ---

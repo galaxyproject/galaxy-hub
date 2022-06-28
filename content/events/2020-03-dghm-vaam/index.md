@@ -10,5 +10,6 @@ external_url: "https://www.dghm-vaam.de/fileadmin/congress/media/dghmvaam2020/dr
 image: 
 gtn: false
 contact: "Rolf Backofen"
+subsites: [global, us]
 ---
 

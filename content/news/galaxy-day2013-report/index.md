@@ -1,6 +1,7 @@
 ---
 title: "2013 Galaxy Day Report"
 date: "2013-12-17"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src="/images/logos/GalaxyIFB.png" alt="Galaxy Day" /></a></div>
 

@@ -14,8 +14,8 @@ import htmlImgToMd from "./html-img-to-md.mjs";
 import fixLinks from "./fix-links.mjs";
 import tocAdd from "./toc-add.mjs";
 import { unescapeLink } from "./unescape-links.mjs";
-import { repr, rmPrefix } from "../utils.js";
-import { PathInfo } from "../paths.js";
+import { repr, rmPrefix } from "../lib/utils.js";
+import { PathInfo } from "../lib/paths.mjs";
 
 const MD_EXT = "md";
 const REMARK_STRINGIFY_OPTIONS = {

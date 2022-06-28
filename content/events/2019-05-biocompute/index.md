@@ -10,4 +10,5 @@ location_url: ""
 gtn: false
 contact: "Instructors"
 image: 
+subsites: [global, us]
 ---

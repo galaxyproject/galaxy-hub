@@ -9,4 +9,5 @@ location_url: http://www.uni-bielefeld.de/ZIF/
 image: /images/logos/deNBILogo.png
 external_url: http://www.denbi.de/symposium2017
 contact: Rolf Backofen, Björn Grüning
+subsites: [global, us]
 ---

@@ -11,6 +11,7 @@ image:
 gtn: False
 contact: "Project organizers"
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
 <div class="float-right">

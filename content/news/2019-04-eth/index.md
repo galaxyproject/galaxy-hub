@@ -2,6 +2,7 @@
 title: "Post-doc position in Computational Biology / Genomics / Transcriptomics / Bioinformatics"
 tease: "ETH Zurich is hiring"
 date: "2019-04-11"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/news/2019-04-eth/eth-zurich-cow.png" alt="ETH Zurich is hiring" />](https://apply.refline.ch/845721/6985/pub/1/index.html

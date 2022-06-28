@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout :subsite="$page.article.main_subsite || undefined" class="collection-article">
         <ArticleHeader :article="$page.article" />
         <div :class="['content', 'markdown', ...mdClasses]" v-html="$page.article.content" />
         <ArticleFooter :article="$page.article" />
@@ -7,40 +7,44 @@
 </template>
 
 <page-query>
-query Article ($path: String!) {
-   article: article (path: $path) {
-    id
-    title
-    tease
-    category
-    date (format: "YYYY-MM-DD")
-    end (format: "YYYY-MM-DD")
-    contact
-    contact_url
-    authors
-    location
-    location_url
-    source_blog
-    source_blog_url
-    skip_title_render
-    redirect
-    external_url
-    autotoc
-    links {
-      url
-      text
-    }
-    image
-    images
-    fileInfo {
+query Article($path: String!) {
+    article: article(path: $path) {
+        id
+        title
+        tease
+        subsites
+        main_subsite
+        category
+        date (format: "YYYY-MM-DD")
+        end (format: "YYYY-MM-DD")
+        contact
+        contact_url
+        authors
+        location
+        location_url
+        source_blog
+        source_blog_url
+        skip_title_render
+        redirect
+        external_url
+        autotoc
+        links {
+            url
+            text
+        }
+        image
+        images
+        fileInfo {
+            path
+        }
         path
+        content
     }
-    content
-  }
 }
 </page-query>
 
 <script>
+import { addTocClass } from "~/lib/pages.mjs";
 import ArticleHeader from "@/components/ArticleHeader";
 import ArticleFooter from "@/components/ArticleFooter";
 export default {
@@ -51,11 +55,7 @@ export default {
     computed: {
         mdClasses() {
             let classes = [];
-            if (this.$page.article.autotoc === true) {
-                classes.push("toc");
-            } else if (this.$page.article.autotoc === false) {
-                classes.push("notoc");
-            }
+            addTocClass(classes, this.$page.article);
             return classes;
         },
     },

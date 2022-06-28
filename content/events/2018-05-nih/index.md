@@ -10,4 +10,5 @@ external_url: https://faes.org/events/biotech-45-bioinformatic-analysis-next-gen
 gtn: false
 contact: registration @ faes . org
 image: 
+subsites: [global, us]
 ---

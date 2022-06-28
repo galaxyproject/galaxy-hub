@@ -2,6 +2,7 @@
 title: 'Galaxy Release 20.05'
 tease: Interactive Tools, refgenie support, Workflow components in vue.js
 date: '2020-06-30'
+subsites: [global, us]
 ---
 
 We are pleased to announce the release of Galaxy

@@ -10,7 +10,7 @@ platforms:
 summary: "Devoted to assisting researchers on the African continent accelerate their genomics research and analyses."
 image: "/images/galaxy-logos/galaxy-africa-logo-300.png"
 comments:
-  - "The public server is configured by the Galaxy Africa team, and hosted by the UesGalaxy.eu team."
+  - "The public server is configured by the Galaxy Africa team, and hosted by the UseGalaxy.eu team."
 user_support:
   - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"

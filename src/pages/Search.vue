@@ -134,19 +134,19 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/search/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
+    main: insert(path: "/insert:/search/main/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
     }
-  }
-  footer: insert(path: "/insert:/search/footer/") {
-    id
-    title
-    content
-  }
+    footer: insert(path: "/insert:/search/footer/") {
+        id
+        title
+        content
+    }
 }
 </page-query>
 

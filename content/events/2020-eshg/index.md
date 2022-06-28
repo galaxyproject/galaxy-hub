@@ -10,4 +10,5 @@ external_url: "https://2020.eshg.org/index.php/programme/monday/#accordion-3224-
 gtn: true
 contact: "Anton Nekrutenko, Marius van den Beek"
 image: 
+subsites: [global, us]
 ---

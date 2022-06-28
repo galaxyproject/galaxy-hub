@@ -3,6 +3,7 @@ title: "JTech, the James Taylor Foundation"
 tease: "JTech: Junior Training and Educational Connections Hotspot"
 external_url: ""
 date: "2020-05-07"
+subsites: [global, us]
 ---
 
 <div class="float-right" style="max-width: 10rem">

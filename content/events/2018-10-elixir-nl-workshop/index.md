@@ -9,4 +9,5 @@ location_url: "https://www.vu.nl/en"
 external_url: "https://www.biosb.nl/education/course-portfolio/bioinformatics-for-translational-medicine-using-galaxy/"
 contact: Celia van Gelder
 gtn: true
+subsites: [global, us]
 ---

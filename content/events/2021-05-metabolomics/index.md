@@ -12,6 +12,7 @@ contact: "Melanie Föll, Amrita Cheema"
 tags: []
 links:
 image: "/images/communities/metabolomics.png"
+subsites: [global, us]
 ---
 
 **When: 14:00 CET**

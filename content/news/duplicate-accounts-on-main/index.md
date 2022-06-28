@@ -1,6 +1,7 @@
 ---
 title: "Duplicate Accounts on Main"
 date: "2013-05-15"
+subsites: [global, us]
 ---
 <div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/images/logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/images/logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a></div>
 

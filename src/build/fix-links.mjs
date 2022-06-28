@@ -9,7 +9,7 @@ import { unified } from "unified";
 import rehypeParse from "rehype-parse";
 import { visit } from "unist-util-visit";
 import urlParse from "url-parse";
-import { rmPrefix, rmSuffix, matchesPrefixes } from "../utils.js";
+import { repr, trunc, rmPrefix, rmSuffix, matchesPrefixes } from "../lib/utils.js";
 
 // `verbose: true` makes the parser include position information for each property of each element.
 // This is required for `editProperty()` to work.
@@ -20,7 +20,7 @@ let debug = false;
 //      Check if that happens in the codebase.
 const PREFIX_WHITELIST = ["http://", "https://", "mailto:", "/images/", "//", "#"];
 const LINK_PROPS = { img: "src", a: "href" };
-const LINK_FIXERS = { img: fixImageLink, a: fixHyperLink };
+const LINK_FIXERS = { image: fixImageLink, img: fixImageLink, link: fixHyperLink, a: fixHyperLink };
 
 /**
  * The unified plugin to transform links in parsed Markdown trees.
@@ -48,13 +48,24 @@ export default function attacher(options) {
         } else {
             console.error("No `bases` option received. Will not be able to convert image src paths to relative paths.");
         }
-        visit(tree, "link", (node) => {
-            node.url = fixHyperLink(node.url);
-        });
-        visit(tree, "image", (node) => {
-            node.url = fixImageLink(node.url, dirPath);
-        });
-        visit(tree, "html", (node) => fixHtmlLinks(node, dirPath));
+        // Fix the urls in the 3 types of nodes we're targeting.
+        for (let nodeType of ["link", "image", "html"]) {
+            visit(tree, nodeType, (node) => {
+                try {
+                    if (nodeType === "link" || nodeType === "image") {
+                        node.url = LINK_FIXERS[nodeType](node.url, dirPath);
+                    } else if (nodeType === "html") {
+                        fixHtmlLinks(node, dirPath);
+                    }
+                } catch (error) {
+                    console.error(error);
+                    console.error(
+                        `Error fixing url in Markdown ${nodeType} in ${file.path}:\n`,
+                        trunc(repr(node), 200)
+                    );
+                }
+            });
+        }
     }
     return transformer;
 }
@@ -152,6 +163,9 @@ function getElementsByTagNames(elem, tagNames) {
 
 /** Perform all the editing appropriate for a hyperlink url (whether in HTML or Markdown). */
 export function fixHyperLink(rawUrl) {
+    if (typeof rawUrl !== "string") {
+        throw repr`Error: rawUrl must be a String. Received: ${rawUrl}`;
+    }
     // Skip certain types of links like external (https?://), static (/images/), intrapage (#).
     if (matchesPrefixes(rawUrl, PREFIX_WHITELIST)) {
         return rawUrl;
@@ -184,6 +198,9 @@ export function fixHyperLink(rawUrl) {
  *                           events/gcc2013.
  */
 export function fixImageLink(rawPath, dirPath = null) {
+    if (typeof rawPath !== "string") {
+        throw repr`Error: rawPath must be a String. Received: ${rawPath}`;
+    }
     let path = rmPrefix(rawPath, "/src");
     if (dirPath) {
         path = toRelImagePath(dirPath, path, PREFIX_WHITELIST);

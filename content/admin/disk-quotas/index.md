@@ -8,7 +8,7 @@ It's now possible for users to force datasets to be removed from disk, which was
 
 ## Disk Accounting
 
-Galaxy keeps track of how much data is used by each dataset, and makes this information available in a couple of ways.  The first is as a total amount of disk space used by the user.  The second is the amount of disk space used by a single history.  These numbers may not always agree, and here's why:
+Galaxy keeps track of how much data is used by each dataset, and makes this information available in a couple of ways.  The first is the total amount of disk space used by the user.  The second is the amount of disk space used by a single history.  These numbers may not always agree, and here's why:
 
 The total amount of disk space used by a user is calculated by finding all *unique* datasets for which the user has an association (i.e. it's in a history) which are not in a library and which have not yet been purged.  The implications of this are:
 

@@ -1,6 +1,7 @@
 ---
 title: "July 2016 Galactic News"
 date: "2016-07-06"
+subsites: [global, us]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2016-07/#gcc2017-26-30-june-2017-montpellier-france'><img src="/images/logos/GCC2107.png" alt="GCC2017 Announced" width="200" /></a>

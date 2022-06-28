@@ -3,6 +3,7 @@ title: "Gateways 2020"
 tease: "Registration and poster submission close October 5"
 external_url:
 date: "2020-09-25"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 14rem" src="/events/2020-10-gateways/gateways2020logo.png" alt="Gateways 2020" />](https://sciencegateways.org/web/gateways2020/welcome)

@@ -4,7 +4,7 @@ title: Galaxy Development
 
 <img src="/images/undraw-illustrations/developer.svg" alt="developer" style="width:230px; float:right;"/>
 
-This page collects resources that are helpful to development of various aspects of the Galaxy software. It is aimed to provide help to all of the numerous Galaxy's [contributors](https://www.openhub.net/p/galaxybx). We salute you!
+This page collects resources that are helpful to the development of various aspects of the Galaxy software. It is aimed to provide help to all of the numerous Galaxy's [contributors](https://www.openhub.net/p/galaxybx). We salute you!
 
 ## Source code
 

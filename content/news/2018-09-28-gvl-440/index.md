@@ -2,6 +2,7 @@
 title: ‘GVL 4.4.0 release'
 tease: Galaxy 18.05 and overridable configs
 date: '2018-09-28'
+subsites: [global, us]
 ---
 In collaboration with the University of Melbourne and [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/), we are pleased to announce the release of the Genomics Virtual Lab (GVL) 4.4.0 on Amazon Web Services (AWS) and NeCTAR clouds.
 

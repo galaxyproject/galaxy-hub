@@ -2,6 +2,7 @@
 title: "GCC2019 Talk Abstract Deadline Extended to 26 April"
 tease: "Easter Holiday, Deadlines and GCC2019"
 date: "2019-04-23"
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)

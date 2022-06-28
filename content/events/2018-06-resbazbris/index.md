@@ -10,4 +10,5 @@ location_url: "https://resbaz.github.io/resbaz2018/brisbane/#venue"
 external_url: "https://resbaz.github.io/resbaz2018/brisbane/#classes"
 contact: "resbazbris @ gmail.com"
 gtn: true
+subsites: [global, us]
 ---

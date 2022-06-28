@@ -1,6 +1,7 @@
 ---
 title: "December Bioinformatics Boot Camps"
 date: "2013-10-18"
+subsites: [global, us]
 ---
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 

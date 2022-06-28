@@ -1,6 +1,7 @@
 ---
 title: "2014 Galaxy Training Survey"
 date: "2013-08-05"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://bit.ly/gxy14training'><img src="/news/2014-galaxy-training-survey/GalaxyTrainingSurvey.png" alt="Take the Galaxy training survey" width="350" /></a></div>
 

@@ -3,27 +3,11 @@
 ---
 [Back to Support Hub](/support/)
 
-# Registering for a Galaxy account
+# [Registering for a Galaxy account](https://training.galaxyproject.org/training-material/faqs/galaxy/galaxy_creating_an_account.html)
 
-Having your own account on the public **[Test](/test/)** and/or **[Main](/main/)** server means that you can save histories, work with more data, and get the most out of Galaxy's functionality.
 
-Accounts are created under the **User** masthead menu. This same menu is also where you will log in and out of Galaxy.
+# [Updating account preferences](https://training.galaxyproject.org/training-material/faqs/galaxy/updating_account_preferences.html)
 
-Be sure to note that the public [Test](/test/) and [Main](/main/) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!).
-
-The activation email will include a link and an abbreviated terms of usage explaination:
-
-> _By clicking on the above link and opening a Galaxy account, you are also confirming that you have read and agreed to Galaxy's Terms and Conditions for the use of this service (https://usegalaxy.org/static/terms.html). Terms include a quota limit of one account per user. Attempts to subvert this limit by creating multiple accounts or through any other method may result in termination of all associated accounts and data._
-
-Most **[other public Galaxy servers](/use/)** have similar usage terms. Ask them if this is not clear, before multiple accounts are problems. Contact information for Galaxy servers is usually on the home page of the server and/or on that server's directory page.
-
-# Updating account preferences
-
-Changed place of study/work and need to update your registered account address? Log into your existing account and update the email address under _User > Preferences_. DO NOT create another new account or it will be detected as a duplicate account. Any use of multiple accounts can result in data loss. FAQ: [Reset password or Change email, username, password](/support/account-updates/).
-
-If you instead want to start over with a new account, delete your old account(s) first under _User > Preferences_, then create a new account.
-
-Note: Updating a registered account email address will not prevent ongoing multiple/duplicate account detection. If you have more than one, existing or new or older, review below about how to clear that up. Use just one account and problems are avoided. Share data, not accounts.
 
 # Adminstrators
 

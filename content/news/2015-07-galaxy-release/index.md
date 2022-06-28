@@ -1,6 +1,7 @@
 ---
 title: "July 2015 Galaxy Release (v 15.07)"
 date: "2015-09-03"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 

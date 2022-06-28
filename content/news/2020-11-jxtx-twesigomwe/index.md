@@ -3,6 +3,7 @@ title: "David Twesigomwe on the impact of the JXTX Foundation"
 tease: "David participated in Biological Data Science 2020"
 external_url: ""
 date: "2020-11-20"
+subsites: [global, us]
 ---
 
 The [JXTX Foundation](/jxtx/foundation/)'s first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/news/2020-10-jxtx-awardees/) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.

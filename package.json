@@ -6,6 +6,7 @@
     "links:internal": "src/build/check-links.mjs",
     "serve": "http-server ./dist/",
     "develop": "src/build/run.mjs develop",
+    "preprocess": "src/build/preprocess.mjs preprocess",
     "format": "prettier --write '*.js' 'cypress/**/*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
     "format:check": "prettier --check '*.js' 'cypress/**/*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
     "markdown:lint": "markdownlint 'content/**/*.md'",
@@ -30,6 +31,8 @@
     "commander": "^8.2.0",
     "dayjs": "^1.10.7",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-feed": "^1.0.2",
+    "ics": "^2.35.0",
     "jiti": "^1.12.0",
     "markdownlint": "^0.24.0",
     "markdownlint-cli": "^0.29.0",
@@ -44,13 +47,12 @@
     "remark-stringify": "^9.0.0",
     "remark-toc": "^8.0.0",
     "sass": "^1.39.2",
-    "sharp": "^0.29.1",
     "stylus": "^0.55.0",
     "stylus-loader": "3.0.2",
     "unified": "^10.1.0",
     "unified-engine": "^9.0.4",
     "unist-util-visit": "^4.0.0",
-    "url-parse": "^1.5.3",
+    "url-parse": "^1.5.10",
     "vega": "^5.21.0",
     "vega-embed": "^6.20.5",
     "vega-lite": "^5.2.0",
@@ -71,6 +73,9 @@
     "jest": "^27.3.1",
     "sass-loader": "^10.1.1",
     "start-server-and-test": "^1.14.0"
+  },
+  "resolutions": {
+    "**/sharp": "0.30.4"
   },
   "prettier": {
     "printWidth": 120,

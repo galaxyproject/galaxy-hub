@@ -2,6 +2,7 @@
 title: 'Poll: Galaxy Dinner @ ISMB/ECCB/BOSC 2017'
 tease: "It's time for a Galaxy dinner gathering in Prague"
 date: '2017-06-25'
+subsites: [global, us]
 ---
 
 <div class="right"><a href="http://bit.ly/ismbdinnerpoll"><img src="/news/2017-06-ismb-dinner-poll/coincidence.gif" alt="Does the Prague astronomical clock resemble a dinner plate?"  width="140" /></a>

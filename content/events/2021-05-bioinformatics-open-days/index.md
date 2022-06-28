@@ -10,4 +10,5 @@ external_url: "https://repositorium.sdum.uminho.pt/bitstream/1822/72588/1/docume
 gtn: false
 contact: "João Pedro Porto Dias, Luís Melo, Oscar Dias"
 image: 
+subsites: [global, us]
 ---

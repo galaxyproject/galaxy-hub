@@ -13,4 +13,5 @@ links:
   - text: "Slides"
     url: "https://docs.google.com/document/d/1Ug93xz-ogrn8bhjKUsOQQSxNtWZoR3gFOfOHXs4F1nc/preview"
 contact: "Alireza Khanteymoori"
+subsites: [global, us]
 ---

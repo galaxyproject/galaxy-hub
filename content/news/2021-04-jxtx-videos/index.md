@@ -3,6 +3,7 @@ title: "Share your favorite James Taylor Story"
 tease: "Help us celebrate James on May 18"
 external_url: ""
 date: "2021-04-02"
+subsites: [global, us]
 ---
 
 <a href="/jxtx/"><img src="/jxtx/i-love-you-so-much.jpg" alt="A good James story" class="float-right" style="max-width: 24rem" /></a>

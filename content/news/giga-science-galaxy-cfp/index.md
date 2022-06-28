@@ -1,6 +1,7 @@
 ---
 title: "GCC2013 & Galaxy GigaScience Series"
 date: "2013-04-04"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="200" /></a></div>
 

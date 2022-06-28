@@ -15,18 +15,17 @@ const options = {
 };
 
 const outTemplate = (pages, total, broken) => `
+### 📝 Link summary of ${pages} pages checked
 
-### 📝Link summary of ${pages} pages checked
-
-| 🔍 Checked   | ✅ Successful | 🚫 Errors   |
-| ---: | ---: | ---: |
-| ${total} | ${total - broken} | ${broken}|
+| 🔍 Checked | ✅ Successful | 🚫 Errors |
+| ---------: | ------------: | --------: |
+|    ${total}   |      ${total - broken}    |      ${broken}    |
 
 ### About this issue
 
 This issue is automatically updated nightly by GitHub Actions CI.
 
-For convenience in clicking through to a local development server to address these issues links here are prefixed with the default local site URL -- these will also be viewable on galaxyproject.org.
+For convenience in clicking through to a local development server to address these issues, links here are prefixed with the default local site URL -- these will also be viewable on galaxyproject.org.
 
 Note that this list will get regenerated nightly, and any fixed links will get removed and new broken links will appear.  Checkmarks are included for a convenience in coordinating addressing these broken links, but their state will intentionally not survive the nightly re-check process in order to reflect an accurate state of the build.
 

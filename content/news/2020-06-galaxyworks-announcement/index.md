@@ -2,6 +2,7 @@
 title: 'GalaxyWorks'
 tease: "A New Company for Providing Commercial Services for Galaxy"
 date: "2020-06-29"
+subsites: [global, us]
 ---
 
 [<img class="float-right" src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 14rem;" />](https://galaxyworks.io/)

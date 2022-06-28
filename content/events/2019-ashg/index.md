@@ -10,5 +10,6 @@ location_url: "https://www.ashg.org/2019meeting/"
 contact: 'Jeremy Goecks, Dan Blankenberg, Mohammad Heydarian'
 image: ""
 gtn: true
+subsites: [global, us]
 ---
 

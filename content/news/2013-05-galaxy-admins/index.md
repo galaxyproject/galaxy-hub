@@ -1,6 +1,7 @@
 ---
 title: "May 2013 GalaxyAdmins Meetup"
 date: "2013-05-08"
+subsites: [global, us]
 ---
 <div class='right'><a href='/community/galaxy-admins/meetups/2013-05-15/'><img src="/images/logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
 <a href='http://rnaseq.pathogenportal.org/'><img src="/images/screenshots/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>

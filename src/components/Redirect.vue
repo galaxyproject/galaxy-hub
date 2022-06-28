@@ -13,10 +13,13 @@
 </template>
 
 <script>
-import { repr, doRedirect } from "~/utils.js";
+import { repr } from "~/lib/utils.js";
+// On build, Location (a web API) is undefined. But this also runs on the client, in which case it gives a warning if
+// you specify `Object` as the type but it receives a `Location`.
+const LOC_TYPE = typeof Location === "function" ? Location : Object;
 export default {
     props: {
-        location: { type: Object, required: true },
+        location: { type: LOC_TYPE, required: true },
         preText: { type: String, required: false, default: "This content has a new home at " },
         url: { type: String, required: true },
         postText: { type: String, required: false, default: "." },
@@ -47,6 +50,16 @@ export default {
         redirectIfPossible(this);
     },
 };
+function doRedirect(destUrl, currentPath, cancelled) {
+    if (cancelled) {
+        console.log("Redirect cancelled.");
+    } else if (currentPath === undefined || window.location.pathname === currentPath) {
+        window.location.href = destUrl;
+    } else {
+        // Cancel redirect if the user has navigated away already.
+        console.log(`Skipping redirect: user navigated away from ${currentPath}`);
+    }
+}
 function redirectIfPossible(data) {
     if (data.location && data.url) {
         console.log(repr`Redirecting to ${data.url} in ${data.delay} seconds..`);

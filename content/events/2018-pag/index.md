@@ -10,6 +10,7 @@ gtn: true
 contact: Presenters
 image: /events/2018-pag/galaxy-at-pag-2018.png
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
 Galaxy was at [Plant and Animal Genome XXVI (PAG 2018)](http://www.intlpag.org/), in San Diego, California, United States, January 13-17. There were also pre-conference events this year as well.

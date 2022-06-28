@@ -10,5 +10,6 @@ external_url: https://www.melbournebioinformatics.org.au/training-events/biocond
 image: 
 gtn: true
 contact: Saskia Hiltemann, Helena Rasche
+subsites: [global, us]
 ---
 

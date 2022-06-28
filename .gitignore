@@ -11,3 +11,6 @@ __pycache__
 /cypress/videos
 /cypress/screenshots
 broken-links.md
+stderr.log
+stdout.log
+test.html

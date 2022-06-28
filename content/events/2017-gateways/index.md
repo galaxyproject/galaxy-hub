@@ -9,4 +9,5 @@ image: /images/logos/sgci-logo-trans-big.png
 location_url: http://sciencegateways.org/gateways2017/
 external_url: http://sched.co/Bl3d
 contact: 'Enis Afgan, Marcus Christie, Nuwan Goonasekera'
+subsites: [global, us]
 ---

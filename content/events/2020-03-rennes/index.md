@@ -10,4 +10,5 @@ external_url: "https://www.omic-rennes.com/modules/galaxy/"
 gtn: true
 contact: "Yvan Le Bras"
 image: 
+subsites: [global, us]
 ---

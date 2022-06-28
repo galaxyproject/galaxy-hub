@@ -10,4 +10,5 @@ external_url: "https://ecostat2021.sciencesconf.org/350383"
 gtn: false
 contact: "Coline Royaux, Yvan Le Bras"
 image:
+subsites: [global, us]
 ---

@@ -11,4 +11,5 @@ location_url: "https://forces-project.eu/events/forces-escience-course-tools-in-
 external_url: "https://nordicesmhub.github.io/forces-2021/"
 contact: "Anne Fouilloux"
 gtn: true
+subsites: [global, us]
 ---

@@ -16,6 +16,7 @@ links:
   - text: "Video"
     url: "https://youtu.be/OEKV6GFlD_s"
 tags: [ "devroundtable" ]
+subsites: [global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OEKV6GFlD_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

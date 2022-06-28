@@ -11,6 +11,7 @@ image: "/images/logos/bhlogo.png"
 gtn: False
 contact: "Project organizers"
 tags: [ cofest ]
+subsites: [global, us]
 ---
 
 Galaxy is a popular topic at [BioHackathon-Europe 2021](https://www.biohackathon-europe.org/index.html) and is a prominent part of many of [this year's selected projects](https://biohackathon-europe.org/projects.html):

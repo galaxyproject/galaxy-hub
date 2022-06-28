@@ -10,4 +10,5 @@ external_url: "http://meetings.ipk-gatersleben.de/compbiostarter/index.php/progr
 gtn: false
 contact: "Anne Fiebig"
 image: 
+subsites: [global, us]
 ---

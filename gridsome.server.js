@@ -8,9 +8,25 @@
 const fs = require("fs");
 const path = require("path");
 const dayjs = require("dayjs");
+var toArray = require("dayjs/plugin/toArray");
+dayjs.extend(toArray);
+const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, matchesPrefixes } = require("./src/utils.js");
+const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes, getSingleKey } = require("./src/lib/utils.js");
+const { subsiteFromPath, flattenSubsites } = require("./src/lib/site.js");
 const CONFIG = require("./config.json");
+const SUBSITES_LIST = flattenSubsites(CONFIG.subsites.hierarchy);
+const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
+if (!ROOT_SUBSITE) {
+    console.error("Error: Subsites hierarchy in config.json must have a single root subsite.");
+}
+const COLLECTION_TYPES = {
+    Article: "md",
+    VueArticle: "vue",
+};
+Object.entries(CONFIG.collections).forEach(([name, meta]) => {
+    COLLECTION_TYPES[name] = meta.type;
+});
 
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
@@ -27,7 +43,7 @@ function categorize(pathParts) {
     //TODO: Allow trailing slashes in category paths.
     let keyParts = pathParts.slice(0, pathParts.length - 2);
     let key = keyParts.join("/");
-    let category = CONFIG["categories"][key];
+    let category = CONFIG.categories[key];
     if (category === undefined) {
         return null;
     } else {
@@ -50,12 +66,8 @@ async function resolveImages(node, args, context, info) {
     if (!node.image) {
         return {};
     }
-    let buildDir;
-    if (node.internal.typeName === "VueArticle") {
-        buildDir = path.join(__dirname, CONFIG.build.dirs.vue);
-    } else {
-        buildDir = path.join(__dirname, CONFIG.build.dirs.md);
-    }
+    let collectionType = COLLECTION_TYPES[node.internal.typeName];
+    let buildDir = path.join(__dirname, CONFIG.build.dirs[collectionType]);
     let dirPath = path.join(buildDir, node.path);
     if (!fs.existsSync(dirPath)) {
         console.error(`Directory not found: ${dirPath}`);
@@ -76,12 +88,12 @@ async function resolveImages(node, args, context, info) {
         }
     }
     if (!imgPath) {
-        console.error(repr`Image not found: ${node.image}`);
+        console.error(node.path + repr`: Image not found: ${node.image}`);
         return {};
     }
     let relImgPathFromContent = path.relative(buildDir, imgPath);
     if (IMAGE_REGISTRY.has(relImgPathFromContent)) {
-        console.log(repr`Image ${relImgPathFromContent} already in asset store.`);
+        console.log(node.path + repr`: Image ${relImgPathFromContent} already in asset store.`);
     }
     let images = addImage(imgPath, args, context);
     if (images) {
@@ -122,6 +134,60 @@ async function addImage(imgPath, args, context) {
     return images;
 }
 
+function getMainSubsite(rawMainSubsite, pagePath) {
+    let mainSubsite = undefined;
+    // Use any (valid) user-defined `main_subsite`.
+    if (rawMainSubsite) {
+        if (SUBSITES_LIST.includes(rawMainSubsite)) {
+            mainSubsite = rawMainSubsite;
+        } else {
+            console.error(pagePath + repr`: main_subsite ${rawMainSubsite} not recognized.`);
+        }
+    }
+    // Otherwise, use any path-derived subsite.
+    if (!mainSubsite) {
+        mainSubsite = subsiteFromPath(pagePath);
+    }
+    return mainSubsite;
+}
+
+function getSubsites(rawSubsites, mainSubsite, pagePath) {
+    let type = getType(rawSubsites);
+    let subsites;
+    if (type === "Array") {
+        subsites = rawSubsites;
+    } else if (type === "String") {
+        // If there's a single subsite, allow authors to forget the enclosing braces (leaving it a String).
+        console.warn(`${pagePath}: Subsite \`${rawSubsites}\` better written as \`["${rawSubsites}"]\``);
+        subsites = [rawSubsites];
+    } else if (rawSubsites) {
+        console.error(`${pagePath}: Invalid type (${type}) for "subsites" key "${repr(rawSubsites)}"`);
+        return [];
+    } else {
+        // For files with no "subsites" key, `node.subsites` will be `undefined`. Translate this to an empty list.
+        subsites = [];
+    }
+    let subsitesSet = new Set();
+    if (mainSubsite) {
+        subsitesSet.add(mainSubsite);
+    }
+    // Add any subsites from the author-written `subsites` yaml key. Translate any shorthands first.
+    for (let subsite of subsites) {
+        let shorthandSubsites = CONFIG.subsites.shorthands[subsite];
+        if (shorthandSubsites) {
+            // It's a shorthand. Add all the subsites it stands for.
+            shorthandSubsites.forEach((translated) => subsitesSet.add(translated));
+        } else if (SUBSITES_LIST.includes(subsite)) {
+            // It's an actual subsite. Just add it to the list.
+            subsitesSet.add(subsite);
+        } else {
+            console.error(pagePath + repr`: Subsite ${subsite} in subsites list not recognized.`);
+        }
+    }
+    // Store the Set of unique subsites to the `subsites` field as an Array.
+    return Array.from(subsitesSet);
+}
+
 class nodeModifier {
     static processNewNode(node, collection, typeName) {
         if (this.collectionProcessors[typeName]) {
@@ -132,6 +198,9 @@ class nodeModifier {
         }
         if (typeName !== "Insert") {
             node = this.processNonInsert(node, collection, typeName);
+        }
+        if (COLLECTION_TYPES[typeName] === "vue") {
+            node = this.processVueType(node, collection, typeName);
         }
         return node;
     }
@@ -152,6 +221,10 @@ class nodeModifier {
                 node.closed = false;
             }
         }
+        // Assign a main subsite (if any).
+        node.main_subsite = getMainSubsite(node.main_subsite, node.path);
+        // Assign subsites.
+        node.subsites = getSubsites(node.subsites, node.main_subsite, node.path);
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
@@ -174,30 +247,27 @@ class nodeModifier {
         }
         return node;
     }
-    static collectionProcessors = {
-        Article: function (node) {
-            // Currently nothing Article-specific.
-            return node;
-        },
-        VueArticle: function (node, collection) {
-            // Find and link Inserts.
-            // Note: `._store` is technically not a stable API, but it's unlikely to go away and there's
-            // almost no other way to do this.
-            const store = collection._store;
-            const insertCollection = store.getCollection("Insert");
-            node.inserts = [];
-            for (let insertName of findInsertsInMarkdown(node.content)) {
-                let path = `/insert:${insertName}/`;
-                let insert = insertCollection.findNode({ path: path });
-                if (insert) {
-                    node.inserts.push(store.createReference(insert));
-                } else {
-                    console.error(repr`Failed to find Insert for path ${path} in ${node.path}`);
-                }
+    static processVueType(node, collection, typeName) {
+        // Find and link Inserts.
+        // Note: `._store` is technically not a stable API, but it's unlikely to go away and there's
+        // almost no other way to do this.
+        const store = collection._store;
+        const insertCollection = store.getCollection("Insert");
+        node.inserts = [];
+        for (let insertName of findInsertsInMarkdown(node.content)) {
+            let path = `/insert:${insertName}/`;
+            let insert = insertCollection.findNode({ path: path });
+            if (insert) {
+                node.inserts.push(store.createReference(insert));
+            } else {
+                console.error(node.path + repr`: Failed to find Insert ${path}`);
             }
-            return node;
-        },
-        Insert: function (node) {
+        }
+        return node;
+    }
+    static collectionProcessors = {
+        // Actions to take for specific collections.
+        Insert: function (node, collection) {
             node.name = rmSuffix(rmPrefix(node.path, "/insert:"), "/");
             return node;
         },
@@ -207,22 +277,33 @@ class nodeModifier {
 module.exports = function (api) {
     api.loadSource((actions) => {
         // Using the Data Store API: https://gridsome.org/docs/data-store-api/
-        // Add derived `category` field.
+        // Add derived fields like `category`.
         /*TODO: Replace this and the later api.onCreateNode() call with this technique instead:
          *      https://gridsome.org/docs/schema-api/#add-a-new-field-with-a-custom-resolver
          *      This currently causes problems because a bug prevents you from filtering based on fields
          *      added this way: https://github.com/gridsome/gridsome/issues/1196
          *      This is supposed to be fixed by Gridsome 1.0.
          */
-        actions.addSchemaTypes(`
-            type Article implements Node @infer {
-                category: String
-                has_date: Boolean
-                end: Date
-                days_ago: Int
-                closed: Boolean
-            }`);
-        let collections = ["Article", "VueArticle"].concat(Object.keys(CONFIG["collections"]));
+        const articleTypes = ["Article", "VueArticle"];
+        for (let type of articleTypes) {
+            actions.addSchemaTypes(
+                actions.schema.createObjectType({
+                    name: type,
+                    interfaces: ["Node"],
+                    extensions: { infer: true },
+                    fields: {
+                        subsites: "[String]",
+                        main_subsite: "String",
+                        category: "String",
+                        has_date: "Boolean",
+                        end: "Date",
+                        days_ago: "Int",
+                        closed: "Boolean",
+                    },
+                })
+            );
+        }
+        let collections = articleTypes.concat(Object.keys(CONFIG.collections));
         let schemas = {};
         for (let collection of collections) {
             schemas[collection] = {
@@ -241,6 +322,54 @@ module.exports = function (api) {
         let typeName = node.internal.typeName;
         node.filename = node.fileInfo.name;
         return nodeModifier.processNewNode(node, collection, typeName);
+    });
+
+    // Programmatically generate repetitive pages.
+    api.createPages(({ createPage }) => {
+        // Using the Pages API: https://gridsome.org/docs/pages-api/
+        // Tagged subsets of events.
+        for (let page of CONFIG.taggedEventsPages) {
+            createPage({
+                path: page.path,
+                component: "./src/components/pages/TaggedEvents.vue",
+                context: {
+                    tag: page.tag,
+                    mainPath: `/insert:${page.path}main/`,
+                    footerPath: `/insert:${page.path}footer/`,
+                },
+            });
+        }
+        // Pages repeated across every subsite.
+        for (let subsite of SUBSITES_LIST) {
+            let prefix;
+            if (subsite === ROOT_SUBSITE) {
+                prefix = "";
+            } else {
+                prefix = `/${subsite}`;
+            }
+            for (let [vueName, path] of [
+                ["SubsiteHome", "/"],
+                ["News", "/news/"],
+                ["Events", "/events/"],
+                ["EventsArchive", "/events/archive/"],
+            ]) {
+                if (subsite === ROOT_SUBSITE && path === "/") {
+                    // The site-wide homepage is manually written, not auto-generated.
+                    continue;
+                }
+                createPage({
+                    path: `${prefix}${path}`,
+                    component: `./src/components/pages/${vueName}.vue`,
+                    context: {
+                        subsite: subsite,
+                        insertRegex: `^/insert:${prefix}${path}[^/]+/$`,
+                        cardsPath: `/insert:${prefix}${path}cards/`,
+                        mainPath: `/insert:${prefix}${path}main/`,
+                        footerPath: `/insert:${prefix}${path}footer/`,
+                    },
+                });
+            }
+        }
     });
 
     // Workaround for lack of access to GraphQL in `afterBuild()` hook.
@@ -280,6 +409,37 @@ module.exports = function (api) {
         `);
     });
 
+    let eventsData;
+    api.createPages(async ({ graphql }) => {
+        eventsData = await graphql(`
+            query {
+                allArticle(filter: { category: { eq: "events" } }) {
+                    totalCount
+                    edges {
+                        node {
+                            id
+                            title
+                            tease
+                            location
+                            location_url
+                            continent
+                            contact
+                            external_url
+                            gtn
+                            links {
+                                text
+                                url
+                            }
+                            date(format: "D MMMM YYYY")
+                            days
+                            path
+                        }
+                    }
+                }
+            }
+        `);
+    });
+
     api.configureServer(async (app) => {
         // Serve /use/feed.json from develop server.
         app.get("/use/feed.json", (request, response) => {
@@ -296,8 +456,58 @@ module.exports = function (api) {
         fs.writeFile(feedPath, makePlatformsJson(platformsData), (error) => {
             if (error) throw error;
         });
+
+        // Write all events to /events/calendar.ics
+        let eventsOutDir = path.join(__dirname, "dist", "events");
+        fs.mkdirSync(eventsOutDir, { recursive: true });
+        let calPath = path.join(eventsOutDir, "calendar.ics");
+        let cal = makeCalendar(eventsData);
+        fs.writeFile(calPath, cal, (error) => {
+            if (error) throw error;
+        });
     });
 };
+
+function makeCalendar(eventsData) {
+    let events = [];
+    for (let event of eventsData.data.allArticle.edges) {
+        event = event.node;
+        if (event.date) {
+            const evt = {};
+            const start = dayjs(event.date);
+            const end = start.add(event.days || 1, "day");
+            // This is so dumb, but month is 0-based in dayjs
+            evt.start = start.toArray().slice(0, 3);
+            evt.start[1] += 1;
+            evt.end = end.toArray().slice(0, 3);
+            evt.end[1] += 1;
+            evt.title = event.title;
+            if (event.location) {
+                evt.location = event.location;
+            }
+            if (event.external_url) {
+                if (event.external_url.startsWith("/")) {
+                    // event's external_url isn't actually external, it's just somewhere else on the site
+                    evt.url = `https://${CONFIG.host}${event.external_url}`;
+                } else {
+                    evt.url = event.external_url;
+                }
+            } else {
+                evt.url = `https://${CONFIG.host}${event.path}`;
+            }
+            evt.description = event.tease ? `${event.tease}\n\n` : "";
+            // Google calendar handles event links poorly; embed in description as well
+            evt.description += `Event Link:\n${evt.url}`;
+
+            events.push(evt);
+        }
+    }
+    const { error, value } = ics.createEvents(events);
+    if (error) {
+        console.error("Error creating calendar:", error);
+    }
+    return value;
+}
 
 function makePlatformsJson(platformsData) {
     let platforms = platformsData.data.platforms.edges.map((edge) => {

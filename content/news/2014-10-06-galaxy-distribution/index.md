@@ -1,6 +1,7 @@
 ---
 title: "October 06, 2014 Galaxy Distribution"
 date: "2014-10-06"
+subsites: [global, us]
 ---
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014-10-06)**

@@ -2,6 +2,7 @@
 title: 'June 2020 Galactic News'
 tease: "James Taylor Foundation, BCC2020, Galaxy+SRA, Events, Platforms, ..."
 date: "2020-06-11"
+subsites: [global, us]
 ---
 
 # In the June 2020 issue

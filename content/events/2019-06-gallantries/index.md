@@ -7,5 +7,6 @@ continent: EU
 external_url: "https://galaxy-carpentries.github.io/gallantries/event/2019-03-25-first-galantries-workshop/"
 contact: 'Berenice Batut'
 gtn: true
+subsites: [global, us]
 ---
 

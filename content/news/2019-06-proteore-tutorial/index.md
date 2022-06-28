@@ -3,6 +3,7 @@ title: "New tutorial on selection of candidate biomarkers"
 tease: "Featuring the ProteoRE server"
 date: "2019-06-21"
 external_url:
+subsites: [global, us]
 ---
 
 [<img class="float-right" style="max-width: 350px" src="/news/2019-06-proteore-tutorial/tutorial-pipeline.png" alt="Galaxy News" />](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html)

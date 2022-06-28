@@ -58,6 +58,10 @@ For information on installing tools from the ToolShed, follow these [directions]
 
 To access and run Data Manager tools, follow these [directions](/admin/tools/data-managers/).
 
+To allow Data Tables to be refreshed using the API, you must properly configure `galaxy_infrastructure_url` in the `/$GALAXY_ROOT/config/galaxy.yml` configuration file and then restart the Galaxy server. This URL must be accessible from the location where the job is executed.
+
+If you are using Containers, make sure that the refgenie storage directory is being mounted as a writable volume.
+
 ## Figure 1. Extending Galaxy’s reference data with refgenie.
 
 ![Figure 1. Extending Galaxy’s reference data with refgenie](./galaxy-refgenie-figure-1.png)

@@ -1,6 +1,5 @@
 ---
 title: Galaxy News
-layout: news_index.pug
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/news.svg" style="width:220px;" alt="news" />

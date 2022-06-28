@@ -16,11 +16,11 @@ links:
 - text: "Slides"
   url: "https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing"
 tags: [ "devroundtable" ]
+subsites: [global, us]
 ---
 
 <div class="video-variable">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/o3GZBfdKu8A" frameborder="0" allow="accelerome
-ter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/o3GZBfdKu8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br />
 

@@ -10,4 +10,5 @@ external_url: "https://workflow4metabolomics.org/w4e2020"
 gtn: true
 contact: "Organizers"
 image: 
+subsites: [global, us]
 ---

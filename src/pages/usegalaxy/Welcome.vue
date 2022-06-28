@@ -5,7 +5,6 @@
 </template>
 <script>
 export default {
-    components: {},
     metaInfo() {
         return {
             title: this.$page.main.title,
@@ -16,14 +15,14 @@ export default {
 
 <page-query>
 query {
-  main: insert(path: "/insert:/usegalaxy/welcome/main/") {
-    id
-    title
-    content
-    fileInfo {
-      path
+    main: insert(path: "/insert:/usegalaxy/welcome/main/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
     }
-  }
 }
 </page-query>
 

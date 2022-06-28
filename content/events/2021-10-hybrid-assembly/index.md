@@ -10,4 +10,5 @@ location_url: "https://www.biocommons.org.au/events"
 external_url: "https://www.biocommons.org.au/events/hybrid-assembly"
 gtn: true
 contact: "Grace Hall"
+subsites: [global, us]
 ---
