@@ -55,22 +55,22 @@ export function notifyParent(window) {
     }
 }
 
-export function addTwitterWidget(document) {
-    !(function (d, s, id) {
-        var js,
-            fjs = d.getElementsByTagName(s)[0],
-            p = /^http:/.test(d.location) ? "http" : "https";
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = p + "://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    })(document, "script", "twitter-wjs");
+export function addAltmetrics(window) {
+    const altmetricScript = window.document.createElement("script");
+    altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
+    window.document.head.appendChild(altmetricScript);
 }
 
-export function addAltmetrics(document) {
-    const altmetricScript = document.createElement("script");
-    altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
-    document.head.appendChild(altmetricScript);
+export function addTwitterScript(window) {
+    addScript(window, "https://platform.twitter.com/widgets.js", { async: true, charset: "utf-8" });
+}
+
+/** Add a <script> to the head of the current document. */
+export function addScript(window, src, attributes = {}) {
+    let script = window.document.createElement("script");
+    script.src = src;
+    for (let [name, value] of Object.entries(attributes)) {
+        script[name] = value;
+    }
+    window.document.head.appendChild(script);
 }
