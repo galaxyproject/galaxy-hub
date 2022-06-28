@@ -1,6 +1,6 @@
 <template>
     <p>
-        <g-link class="title" :to="fields.link">{{ fields.title }}</g-link>
+        <g-link class="title" :to="fields.link" :target="target">{{ fields.title }}</g-link>
         <span class="tease" v-if="fields.tease">
             &ndash;
             <span class="markdown" v-html="mdToHtml(fields.tease)"></span>
@@ -14,6 +14,7 @@ export default {
     props: {
         // Can be an Article, a VueArticle, or any object with a `title`, `link`, and (optionally) a `tease` field.
         item: { type: Object, required: true },
+        target: { type: String, required: false, default: "" },
     },
     methods: {
         mdToHtml,
