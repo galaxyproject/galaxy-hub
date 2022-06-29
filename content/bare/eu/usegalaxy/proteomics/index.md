@@ -128,4 +128,4 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 </footer>
 
 import Gitter from "@/components/Gitter";
-<Gitter />
+<Gitter room="usegalaxy-eu/Lobby" />

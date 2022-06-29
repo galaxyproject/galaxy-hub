@@ -21,7 +21,7 @@ title: Galaxy Europe
 
 <slot name="/bare/eu/usegalaxy/jobs" />
 
-<!-- carousel content -->
+<!-- TODO: carousel content -->
 
 <slot name="/eu/data-policy" />
 
@@ -30,4 +30,4 @@ title: Galaxy Europe
 </footer>
 
 import Gitter from "@/components/Gitter";
-<Gitter />
+<Gitter room="usegalaxy-eu/Lobby" />

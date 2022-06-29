@@ -9,7 +9,7 @@
         <footer class="static-footer" v-if="$static.footer">
             <div class="markdown container" v-html="$static.footer.content" />
         </footer>
-        <Gitter />
+        <Gitter :room="gitter" />
     </div>
 </template>
 
@@ -34,6 +34,9 @@ export default {
                 classes.push(this.subsite);
             }
             return classes;
+        },
+        gitter() {
+            return CONFIG.subsites.metadata[this.subsite]?.gitter || CONFIG.subsites.metadata[ROOT_SUBSITE]?.gitter;
         },
     },
     mounted() {

@@ -93,7 +93,7 @@ Other metabolomics specialized Galaxy servers:
 
 # News and Events
 
-<!-- carousel content -->
+<!-- TODO: carousel content -->
 
 <iframe title="Recent Galaxy Europe news"
  class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
@@ -128,5 +128,5 @@ Other metabolomics specialized Galaxy servers:
 </footer>
 
 import Gitter from "@/components/Gitter";
-<Gitter />
+<Gitter room="usegalaxy-eu/Lobby" />
 
