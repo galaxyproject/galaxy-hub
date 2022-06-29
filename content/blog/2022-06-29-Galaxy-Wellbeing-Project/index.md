@@ -5,6 +5,7 @@ authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
 date: "2022-06-29"
 ---
 
+![](content/blog/2022-06-29-Galaxy-Wellbeing-Project/Wellbeing Project Image.jpg)
 
 # What is the project about?
 
