@@ -1,11 +1,12 @@
 ---
-title: "Galaxy Well-being and Mental Health Project"
-tease: 
+title: "Galaxy Well-being and Mental Health Project" 
 authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
 date: "2022-06-29"
 ---
 
-![](content/blog/2022-06-29-Galaxy-Wellbeing-Project/Wellbeing Project Image.jpg)
+| ![Watercolor Painting](content/blog/2022-06-29-Galaxy-Wellbeing-Project/Wellbeing Project Image.jpg) |
+|:--:|
+| <b>Painting by Beatriz Serrano-Solano</b>|
 
 # What is the project about?
 
