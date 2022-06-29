@@ -1,0 +1,6 @@
+tasks:
+  - init: yarn install
+    command: yarn develop
+ports:
+  - port: 8080
+    onOpen: open-preview
