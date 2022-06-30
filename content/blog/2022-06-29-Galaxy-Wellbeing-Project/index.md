@@ -4,11 +4,13 @@ authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
 date: "2022-06-29"
 ---
 
-| ![Watercolor Painting](Wellbeing_Project_Image.jpg) |
-|:--:|
-| <b>Painting by Beatriz Serrano-Solano</b>|
-
 # What is the project about?
+
+<div class="float-right">
+
+![Watercolor Painting](wellbeing_project_image1.jpg)
+
+</div>
 
 The project aims to improve the well-being of open-source communities by focusing on mental health and diversity, equity, and inclusion (DEI). The project will specifically focus on the well-being of the Galaxy community, while also creating resources that could be applicable to any open-source community. The plan is to create awareness around mental health issues, provide the communities with the resources they need for their well-being, and build a diverse community where everyone feels included regardless of their abilities, identities, status in the project, and other factors. This will consist of clear and accessible information on mental health, as well as providing resources for tracking and dealing with mental health and well-being issues.
 
