@@ -4,7 +4,7 @@ authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
 date: "2022-06-29"
 ---
 
-| ![Watercolor Painting](content/blog/2022-06-29-Galaxy-Wellbeing-Project/Wellbeing_Project_Image.jpg) |
+| ![Watercolor Painting](Wellbeing_Project_Image.jpg) |
 |:--:|
 | <b>Painting by Beatriz Serrano-Solano</b>|
 
