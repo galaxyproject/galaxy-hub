@@ -4,3 +4,4 @@ tasks:
 ports:
   - port: 8080
     onOpen: open-preview
+  - port: 63100
