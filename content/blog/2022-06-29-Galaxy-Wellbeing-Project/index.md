@@ -41,8 +41,7 @@ Mental health self-assessment tool will also be provided for anyone who wants to
 
 # What can you do to contribute now?
 
-We are currently collecting data on open-source communities to help us understand the different challenges faced in the communities and develop solutions to address those issues. We would love it if you could share your experience by filling out or sharing this [form](https://docs.google.com/forms/d/e/1FAIpQLSdXD-DrdWVpwoHwjG4UujIQV_KpIWPDMmn5yqkDb9kYqZRTBw/viewform?usp=sf_link).
-
+We are currently collecting data on open-source communities to help us understand the different challenges faced in the communities as well as the communities' perception and knowledge of mental health to develop solutions or provide resources to address those issues. We have prepared two versions of the survey. One for the Galaxy community to tackle the specific challenges, if any, within the Galaxy community and one for any open source community to help us develop a guideline that could be implemented by any community. We’d appreciate it if you could share your experience by filling out or sharing the survey form. The Galaxy community survey could be accessed [**here**]( https://docs.google.com/forms/d/e/1FAIpQLSfxJcW0WhrCWzsGNc-O4yL7yMk8HDg1ufVroityKYLn1YgGEg/viewform?usp=sf_link) whereas the survey for any open source community could be accessed [**here**](https://docs.google.com/forms/d/e/1FAIpQLSdXD-DrdWVpwoHwjG4UujIQV_KpIWPDMmn5yqkDb9kYqZRTBw/viewform?usp=sf_link).
 
 
 **Come embark on this amazing journey with us where we create a Galactic blog series to demystify the basic concepts, debunk the myths and stigma surrounding mental health and well-being while creating a welcoming, diverse, and inclusive environment in open source.**
