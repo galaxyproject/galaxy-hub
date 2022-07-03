@@ -40,7 +40,7 @@ include peptide targets to detect emerging strains.
 ![](./../img/lorikeet.png)
 
 Here is a table of the different variants obtained from our workflows.
-![](./../img/variant-peptides.png)
+![](./../img/variant-who.png)
 
 
 
