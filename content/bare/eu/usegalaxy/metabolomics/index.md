@@ -3,7 +3,7 @@ title: Galaxy Europe Metabolomics
 autotoc: true
 ---
 
-<slot name="/bare/usegalaxy-eu/notices" />
+<slot name="/bare/eu/usegalaxy/notices" />
 
 <h1>
 
@@ -93,7 +93,7 @@ Other metabolomics specialized Galaxy servers:
 
 # News and Events
 
-<!-- carousel content -->
+<!-- TODO: carousel content -->
 
 <iframe title="Recent Galaxy Europe news"
  class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
@@ -121,12 +121,12 @@ Other metabolomics specialized Galaxy servers:
 
 <slot name="/eu/data-policy" />
 
-<slot name="/bare/usegalaxy-eu/jobs" />
+<slot name="/bare/eu/usegalaxy/jobs" />
 
 <footer>
 <slot name="/footers/eu" />
 </footer>
 
 import Gitter from "@/components/Gitter";
-<Gitter />
+<Gitter room="usegalaxy-eu/Lobby" />
 

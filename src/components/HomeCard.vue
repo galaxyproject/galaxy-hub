@@ -1,12 +1,12 @@
 <template>
     <div :class="['pseudo-card', `col-sm-${width}`]">
         <h2 class="title">
-            <g-link :to="link">
+            <g-link :to="link" :target="target">
                 <span :class="`icon ${icon}`"></span>
                 {{ title }}
             </g-link>
         </h2>
-        <ItemListBrief v-for="(item, i) in items" :key="item.id || i" :item="item" />
+        <ItemListBrief v-for="(item, i) in items" :key="item.id || i" :item="item" :target="target" />
         <div class="markdown content" v-if="content" v-html="content" />
     </div>
 </template>
@@ -25,6 +25,7 @@ export default {
         width: { type: Number, required: false, default: 4 },
         content: { type: String, required: false, default: "" },
         items: { type: Array, required: false, default: () => [] },
+        target: { type: String, required: false, default: "" },
     },
 };
 </script>
