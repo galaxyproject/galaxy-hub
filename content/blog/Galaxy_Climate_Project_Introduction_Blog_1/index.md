@@ -92,7 +92,8 @@ You can also find below the important list of tools for **GIS DATA Handling**.
 
 
 Climate data vary from other generic data in various ways. Its dimensions are generally huge and are mainly available in netCDF, binary, etc. formats, requiring new and more straightforward tools to work on. We have tools for tabular and comma-separated values (CSV) designs, but few instruments are targeted toward netCDF file analysis. Some available tools can be found here [xarray_coords_info](https://toolshed.g2.bx.psu.edu/repository/browse_repository?id=0535bc9a272a7dba). Besides these, there are a couple of other tools.
-Although the ocean of existing tools can be used in combinations to obtain the desired results, this will again create the issue of complicated /untidy workflows and confusion. Moreover, a [newcomer](https://galaxyproject.org/get-started/) to the Galaxy Climate instance may hesitate to learn the jargon and get stuck. Nevertheless, the vision toward expanding climate-specific tools is being highly propagated. The process of tool contribution is not very tedious, and anyone who wishes to do so can contribute.
+Although the ocean of existing tools can be used in combinations to obtain the desired results, this will again create the issue of complicated/untidy workflows and confusion. Moreover, a [newcomer](https://galaxyproject.org/get-started/) to the Galaxy Climate instance may find challenging to learn the jargon and get stuck. Nevertheless, the vision toward expanding climate-specific tools is being highly propagated. The process of tool contribution is not very tedious, and anyone who wishes to do so can contribute.
+
 
 
 # WHAT AM I DOING?
