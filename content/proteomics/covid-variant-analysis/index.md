@@ -15,7 +15,7 @@ title: SARS-CoV-2 Variant analysis from clinical data for identification and val
 
 ## Description
 
-The COVID-19 pandemic continues with the emergence of new strains.As virulence seems to be increasing with each variant, there is a dire need to advance the MS-based diagnostics to identify optimal strain-specific biomarker peptides from non-invasively collected clinical samples.The Galaxy-P Team has developed workflows to detect and validate the SARS-CoV-2 peptides useful for developing targeted MS-based biomarker assays.
+The COVID-19 pandemic continues with the emergence of new strains. As virulence seems to be increasing with each variant, there is a dire need to advance the MS-based diagnostics to identify optimal strain-specific biomarker peptides from non-invasively collected clinical samples.The [Galaxy-P Team](http://galaxyp.org/) has developed workflows to detect and validate the SARS-CoV-2 peptides useful for developing targeted MS-based biomarker assays.
 ![](./../img/dataset-demographics.png)
 
 
