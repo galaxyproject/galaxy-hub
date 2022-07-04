@@ -14,7 +14,7 @@ In our last blog post, we wrote a brief introduction to what the [Galaxy Well-be
 
 # What is Mental Health?
 
-**Mental health**, according to WHO, can be understood as a state of well-being in which an individual recognizes his or her abilities or potential, can cope with everyday stressors, can work effectively, and contribute to his or her community. Mental health is critical to our individual and collective abilities to think, feel, communicate with one another, and enjoy life. Mental health promotion can be viewed as a critical issue for people, communities, and societies all over the world. Mental health problems can affect anyone and can manifest in a variety of ways. Thus, fostering positive mental health benefits everyone. It is not a one-off process but a continuous work which requires consistency and patience.
+**Mental health**, according to [WHO](https://www.who.int/), can be understood as a state of well-being in which an individual recognizes his or her abilities or potential, can cope with everyday stressors, can work effectively, and contribute to his or her community. 
 
 # What is Diversity, Equity and Inclusion (DEI)?
 
