@@ -21,7 +21,7 @@ The COVID-19 pandemic continues with the emergence of new strains. As virulence 
 
 ## Workflows
 
-Our workflows are divided into two parts
+Our workflows are divided into two parts:
 A) Discovery workflow: Where MS/MS data from publicly available & nasopharyngeal patient samples were searched against protein FASTA files from SARS-CoV-2 Wildtype (WT) & variant strains along with Human UniProt & contaminants 
 using SearchGUI/Peptide Shaker & MaxQuant search algorithms.Confident peptides were extracted from the peptide results & SARS-CoV-2 peptides were filtered by removing human proteins & contaminants.
 We detected 210 SARS-CoV-2 peptides from twelve clinical datasets. These peptides were then added to a panel of 803 peptides to get 908 unique peptides.
