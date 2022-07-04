@@ -32,7 +32,8 @@ Handling massive command-line-focused analysis of climate data can be exhaustive
 
 # WHAT ARE THE EXISTING CLIMATE TOOLS IN THE GALAXY TOOLSHED?
 
-The Galaxy tool shed houses more than 2000 tools, out of which several tools are helpful for Climate Analysis.  Some of the relevant tags to find under the Galaxy Toolshed are: “Climate Analysis”, “Ecology”, etc. Follow the list given below for more clarity. 
+The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are helpful for Climate Analysis.  Some of the relevant tags to find under the Galaxy ToolShed are: “Climate Analysis”, “Ecology”, etc. You can follow the list given below for more clarity. 
+
 
 ## CLIMATE ANALYSIS TOOLS
 <ol>
