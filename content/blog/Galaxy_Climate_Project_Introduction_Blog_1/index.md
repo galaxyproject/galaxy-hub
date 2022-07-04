@@ -66,7 +66,8 @@ You can find and use many climate relevant interactive tools @ <https://climate.
     <li><a href="https://www.esmvaltool.org/">ESMValTool:</a> a community diagnostic and performance metrics tool for routine evaluation of Earth system models in the Coupled Model Intercomparison Project (CMIP). The JupyterLab ESMValTool environment can be used for developing new diagnostic recipes and as a teaching platform.
 </li>
     </ol>
-<li>GPU enabled Interactive Jupyter Notebook for Machine Learning</li>
+<li>GPU-enabled Interactive Jupyter Notebook for Machine Learning</li>
+
 <li>RStudio</li>
 <li>OpenRefine Working with messy data</li>
 <li>Ubuntu XFCE Desktop There are some other tools included in the interactive tools section, but these are the most frequent in use.</li>
