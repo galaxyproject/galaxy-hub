@@ -23,9 +23,11 @@ In our last blog post, we wrote a brief introduction to what the [Galaxy Well-be
 **Equity** is a practice that promotes fair and equitable access, opportunities, treatment, and results for everyone. It aims to create the desired outcome for everyone involved by allocating resources tailored to one’s needs. Equity recognizes that everyone is not the same and comes from diverse backgrounds with different experiences. Equity should not be confused with the concept of equality where everyone is given the same access and resources. As expressed by this quote “Equality is giving everyone the same pair of shoes. Equity is giving everyone a pair of shoes that fits.”
 
 <div class="center">
+<div style="height:40%; width:40%; display: inline-block">
 
 ![Equity Image](Equity_Image.jpg)
 
+</div>
 </div>
 
 **Inclusion** puts diversity into action by fostering an environment in which all individuals with different ideas, backgrounds, and viewpoints may grow and succeed. Having diversity alone is not enough and must strive to create an inclusive environment where everyone has a sense of belongingness, feels welcomed and have access to resources to contribute and participate in an environment without barriers. Inclusion requires openness, acceptance, and collaboration. It should not be used synonymously with words such as integration where people have access but are expected to adapt to the way of a particular environment.
