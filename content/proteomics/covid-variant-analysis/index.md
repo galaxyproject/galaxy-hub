@@ -34,11 +34,10 @@ Verified peptides were further investigated to extract additional information us
 ## Results
 
 Most of the verified strain-specific peptides align to the nucleocapsid and spike proteins of the viral proteome, and would serve as the optimal targets for direct detection of SARS-CoV-2 strains.
+![](./../img/variant-who.png)
 The flexibility of the Galaxy workflows has the potential to detect the emerging strains on newly published MS datasets (DDA or Parallel Reaction Monitoring (PRM)). We are expanding our peptide panel to include peptide targets to detect emerging strains.
 ![](./../img/lorikeet.png)
 
-Here is a table of the different variants obtained from our workflows.
-![](./../img/variant-who.png)
 
 
 
