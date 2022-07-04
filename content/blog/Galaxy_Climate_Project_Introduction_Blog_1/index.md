@@ -25,7 +25,8 @@ Galaxy Climate is a scientific workbench focusing on making climate analysis eas
 
 We live on Earth, but why? To state, it has the right temperature, air, and water conditions for our survival. It is an inevitable fact that climate is associated with our existence. And both go hand-in-hand. Technological advances can be of actual use if we can ensure our survival. The world is shifting to greener norms or a more sustainable tomorrow.
 
-Handling massive command-line-focused analysis of climate data can be exhaustive as well as cumbersome. Sometimes it may be system environments, and other times, it may be some technical jargon that has the probability of delaying the analysis. And not everyone is well equipped with coding skills. Nevertheless, a standard, easy-to-use, accurate, and scientifically sound platform is the need of the hour. The GALAXY CLIMATE has almost met all the criteria for improving the situation. And is still growing.
+Handling massive command-line-focused analysis of climate data can be exhaustive as well as cumbersome. Sometimes it may be system environments, and other times, it may be some technical jargon that has the probability of delaying the analysis. And not everyone is well equipped with coding skills. Nevertheless, a standard, easy-to-use, accurate, and scientifically sound platform is the need of the hour. The GALAXY CLIMATE workbench has almost met all the criteria for improving the situation. And it is still growing.
+
 
 
 
