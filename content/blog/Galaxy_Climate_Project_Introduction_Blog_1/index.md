@@ -21,7 +21,7 @@ Galaxy Climate is a scientific workbench focusing on making climate analysis eas
 
 
 
-# WHY IS THE GALAXY FOCUSING ON CLIMATE SCIENCE?
+# Why is GALAXY focusing on CLIMATE SCIENCE?
 
 We live on Earth, but why? To state, it has the right temperature, air, and water conditions for our survival. It is an inevitable fact that climate is associated with our existence. And both go hand-in-hand. Technological advances can be of actual use if we can ensure our survival. The world is shifting to greener norms or a more sustainable tomorrow.
 
@@ -30,7 +30,7 @@ Handling massive command-line-focused analysis of climate data can be exhaustive
 
 
 
-# WHAT ARE THE EXISTING CLIMATE TOOLS IN THE GALAXY TOOLSHED?
+# What are the existing CLIMATE TOOLS available in the GALAXY TOOLSHED?
 
 The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are helpful for Climate Analysis.  Some of the relevant tags to find under the Galaxy ToolShed are: “Climate Analysis”, “Ecology”, etc. You can follow the list given below for more clarity. 
 
@@ -99,7 +99,7 @@ Although the ocean of existing tools can be used in combinations to obtain the d
 
 
 
-# WHAT AM I DOING?
+# What am I doing?
 
 
 As an Outreachy Intern, I will focus on analyzing the climate of the financial capital Of India, the city of Mumbai, (lat: 18.75,19.25; lon:72.50, 73.00). Being situated at the coast of the Arabian Sea, the city of Mumbai is experiencing critical climate events which have led the [Intergovernmental Panel on Climate Change (IPCC)](https://www.ipcc.ch/) to announce its [probable submergence by 2050](https://www.ipcc.ch/srocc/chapter/chapter-4-sea-level-rise-and-implications-for-low-lying-islands-coasts-and-communities/). The very importance of this project is developing real-use tools that are very much required while doing any regional data analysis. And further using these developed tools for our research and debugging. So are you interested in knowing what tool I’m working on, just wait until the next blog post, where I’ll be discussing the idea, scope, and use of my new tool. Until then, goodbye and **happy July!**   
