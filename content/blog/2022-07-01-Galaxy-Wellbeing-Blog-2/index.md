@@ -24,7 +24,7 @@ In our last blog post, we wrote a brief introduction to what the [Galaxy Well-be
 
 <div class="center">
 
-![Equity Image](Equity_Image.png)
+![Equity Image](Equity_Image.jpg)
 
 </div>
 
