@@ -8,11 +8,7 @@ date: "2022-07-04"
 
 # Introduction to GALAXY CLIMATE 
 
-<div class="float-right">
-
 ![Galaxy Climate Project Blog Img](galaxy.png)
-
-</div>
 
 Have you heard about the **Climate Science Workbench** of Galaxy? It is named **GALAXY CLIMATE**. This is the first blog in the series of five blogs that I will be sharing. Let’s explore it in more detail.
 
