@@ -70,7 +70,8 @@ community.
 <li>Ubuntu XFCE Desktop There are some other tools included in the interactive tools section, but these are the most frequent in use.</li>
 </ol>
 
-Machine Learning and Analysis Galaxy Tools are also available to Galaxy Climate. Access the complete tool list here : [MACHINE LEARNING TOOLS](https://toolshed.g2.bx.psu.edu/).
+Machine Learning and Analysis Galaxy Tools are also available to Galaxy Climate. Access the complete tool list [here](https://toolshed.g2.bx.psu.edu/).
+
 
 
 A huge list of **Graph/Display** tools is also available under the general tools of Galaxy Climate.
