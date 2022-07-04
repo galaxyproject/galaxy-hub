@@ -55,7 +55,6 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 ## INTERACTIVE TOOLS
 
 You can find and use many climate relevant interactive tools @ <https://climate.usegalaxy.eu/>  in the interactive tools section.
-community.
 
 <ol>
 <li><a href="https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply">Panoply netCDF viewer</a></li>
