@@ -6,7 +6,7 @@ title: SARS-CoV-2 Variant analysis from clinical data for identification and val
 
 ## Live Resources
 
-| Input,history,workflows  | Link                                                        |
+| Input / History / Workflow  | Link                                                        |
 |--------------------------|-------------------------------------------------------------|
 | Input data               | [https://usegalaxy.eu/u/subina/h/covid-paper-workflow-input](https://usegalaxy.eu/u/galaxyp/h/covid-viruses-input)  |
 | Variant analysis history | [https://usegalaxy.eu/u/galaxyp/h/covid-viruses-history](https://usegalaxy.eu/u/galaxyp/h/covid-viruses-history) |
