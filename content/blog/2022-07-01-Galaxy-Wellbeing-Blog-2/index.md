@@ -10,11 +10,11 @@ In our last blog post, we wrote a brief introduction to what the [Galaxy Well-be
 
 # What is Well-being?
 
-**Well-being** can be defined as the overall sense of health characterized by positive functioning. It has two aspects which are subjective and objective well-being that crucially recognises parts of our lives that we determine ourselves through our potential, how we feel about ourselves, how we form meaningful relationships and our sense of purpose as well as aspects such as economy, health, education and so on. It is considered to constitute 8 main dimensions which are emotional, social, occupational, physical, spiritual, environmental, intellectual and financial. If any of these dimensions are neglected over time, it will be detrimental to our well-being.
+**Well-being** can be defined as the overall sense of health characterized by positive functioning. It has two aspects which are subjective and objective well-being. Subjective well-being aspect focuses on parts of our lives that we determine ourselves through subjective evaluation. This could be how we feel about ourselves, how we form meaningful relationships, how we measure our potential and success, or our sense of purpose. Objective wellbeing aspect views wellbeing in terms of quantitative factors or material resources such as economy, health, and education. Well-being is considered to constitute 8 main dimensions which are emotional, social, occupational, physical, spiritual, environmental, intellectual and financial. If any of these dimensions are neglected over time, it will be detrimental to our well-being.
 
 # What is Mental Health?
 
-**Mental health**, according to [WHO](https://www.who.int/), can be understood as a state of well-being in which an individual recognizes his or her abilities or potential, can cope with everyday stressors, can work effectively, and contribute to his or her community. 
+**Mental health**, according to [WHO](https://www.who.int/), can be understood as a “*state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community.*”
 
 # What is Diversity, Equity and Inclusion (DEI)?
 
@@ -22,10 +22,20 @@ In our last blog post, we wrote a brief introduction to what the [Galaxy Well-be
 
 **Equity** is a practice that promotes fair and equitable access, opportunities, treatment, and results for everyone. It aims to create the desired outcome for everyone involved by allocating resources tailored to one’s needs. Equity recognizes that everyone is not the same and comes from diverse backgrounds with different experiences. Equity should not be confused with the concept of equality where everyone is given the same access and resources. As expressed by this quote “Equality is giving everyone the same pair of shoes. Equity is giving everyone a pair of shoes that fits.”
 
-![Equity_Image](content/blog/2022-07-01-Galaxy-Wellbeing-Blog-2/Equity_Image.png)
+<div class="center">
+
+![Equity_Image](Equity_Image.png)
+
+</div>
 
 **Inclusion** puts diversity into action by fostering an environment in which all individuals with different ideas, backgrounds, and viewpoints may grow and succeed. Having diversity alone is not enough and must strive to create an inclusive environment where everyone has a sense of belongingness, feels welcomed and have access to resources to contribute and participate in an environment without barriers. Inclusion requires openness, acceptance, and collaboration. It should not be used synonymously with words such as integration where people have access but are expected to adapt to the way of a particular environment.
 
-![Inclusion_Image](content/blog/2022-07-01-Galaxy-Wellbeing-Blog-2/Inclusion_Image.png)
+<div class="center">
 
-All three concepts (Diversity, Equity and Inclusion) are interrelated, and all must exist for a healthy work environment. 
+![Inclusion_Image](Inclusion_Image.png)
+
+</div>
+
+Diversity, Equity and Inclusion are interrelated, and all must exist for a healthy work environment.
+
+
