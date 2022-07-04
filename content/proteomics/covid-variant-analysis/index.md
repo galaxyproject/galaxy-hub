@@ -29,7 +29,7 @@ We detected 210 SARS-CoV-2 peptides from twelve clinical datasets. These peptide
  
 B) **Verification workflow**, in which the 908 peptides were verified for their presence in the 12 clinical datasets using PepQuery Tool. The PepQuery Tool ranks the matches of the peptide panel to COVID-19 MS data against a reference proteome containing proteins from human and contaminants. Resulting data was filtered to generate a list of confident peptide matches with associated P-values (<0.05) to SARS-CoV-2 and its variants.
 The peptide list was further analyzed using the tool BlastP. The spectral quality of these verified peptides was inspected manually using the tool Lorikeet within the Multi-omics Viewing Platform (MVP). 
-Verified peptides were further investigated to extract additional information using the GSAID repository and then the peptides were manually aligned to the SARS-SoV2- Wild type sequence for variant identification.
+Verified peptides were further investigated to extract additional information using the GISAID repository and then the peptides were manually aligned to the SARS-CoV-2 Wild type sequence for variant identification.
 
 ## Results
 
