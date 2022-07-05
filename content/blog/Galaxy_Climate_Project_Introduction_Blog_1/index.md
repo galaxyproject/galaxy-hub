@@ -77,7 +77,8 @@ A huge list of **Graph/Display** tools is also available under the general tools
 
 You can also find below the important list of tools for **GIS DATA Handling**.
 | GIS Data Handling Tools|      Description    |
-|----------|:-------------:|
+|----------|:-------------|
+
 | [gdal_gdalinfo](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalinfo/gdal_gdalinfo) |   Lists various information about a GDAL supported raster dataset.  |  
 | [gdal_gdaladdo](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdaladdo/gdal_gdaladdo) | Can be used to build or rebuild overview images for most supported file formats with one of several downsampling algorithms.   |
 |[gdal_gdalbuildvrt](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalbuildvrt/gdal_gdalbuildvrt) | Builds a VRT (Virtual Dataset) that is a mosaic of the list of input GDAL datasets |
