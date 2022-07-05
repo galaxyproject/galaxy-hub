@@ -48,7 +48,7 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 | [ctsm_fates](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=f39a869bd7709275) |    EMERALD version of the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) with Community Terrestrial Systems Model as host model  |
 | [eodie](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=ddd8dba334f1d765) |  Earth Observation Data Information Extractor |
 | [psy_maps]() | Visualization of regular geographical data on a map with psyplot |
-|[shift_longitudes](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=6f6f2aca88e226de) | Shift longitudes ranging from 0. and 360 degrees to -180º and 180º |
+|[shift_longitudes](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=6f6f2aca88e226de) | Shift longitudes ranging from 0º and 360º to -180º and 180º |
 |[suite_cdo](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=11bb18c4362d86a5) |  A suite of cdo tools |
 |[mean_per_zone](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/climate/mean_per_zone/mean_per_zone) |  Creates a png image showing statistic over areas as defined in the vector file |
 
@@ -59,7 +59,6 @@ You can find and use many climate relevant interactive tools @ <https://climate.
 
 | Interactive Tools |      Description   |
 |----------|:-------------|
-
 | [Panoply netCDF viewer](https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply) |    Plots geo-referenced and other arrays from netCDF, HDF, GRIB, and other datasets  |  
 | [PANGEO notebooks](https://live.usegalaxy.eu/?tool_id=interactive_tool_pangeo_notebook) |  Based on Pangeo, an open and inclusive community platform for Big Data geoscience   |
 | [PANGEO python ecosystem](https://pangeo.io/) |  PANGEO is a community platform for Big Data geoscience |
@@ -79,7 +78,6 @@ A huge list of **Graph/Display** tools is also available under the general tools
 You can also find below the important list of tools for **GIS DATA Handling**.
 | GIS Data Handling Tools|      Description    |
 |----------|:-------------|
-
 | [gdal_gdalinfo](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalinfo/gdal_gdalinfo) |   Lists various information about a GDAL supported raster dataset  |  
 | [gdal_gdaladdo](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdaladdo/gdal_gdaladdo) | Can be used to build or rebuild overview images for most supported file formats with one of several downsampling algorithms   |
 |[gdal_gdalbuildvrt](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalbuildvrt/gdal_gdalbuildvrt) | Builds a VRT (Virtual Dataset) that is a mosaic of the list of input GDAL datasets |
