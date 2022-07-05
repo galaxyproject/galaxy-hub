@@ -18,7 +18,7 @@ Have you heard about the **Climate Science Workbench** of Galaxy? It is named **
 Aiming to make computational data analysis accessible to research scientists (from those who lack knowledge in computer programming or systems administration to the most advanced users), Galaxy is a platform for scientific workflow creation, data integration and data analysis. Despite being primarily domain-independent and used as a general workflow management system, it was initially created for genomics research. In recent times, Galaxy has initiated the inclusion and development of climate science-related tools under its ToolShed.
 
 
-Galaxy Climate is a scientific workbench focusing on making climate analysis easier, in simpler words, “**command-line free**”. It houses numerous tools, which makes the process a lot more convenient. The number of tools available for the purpose is rich and is increasing with demand. The supportive community which makes it possible is efficiently equipped with the required expertise and passion for the initiative.
+Galaxy Climate is a scientific workbench focusing on making climate analysis easier, in simpler words, “**command-line free**”. It houses numerous tools, which makes the process of climate analysis and workflow extraction a lot more convenient. The number of tools available for the purpose is rich and is increasing with demand. The supportive community which makes it possible is efficiently equipped with the required expertise and passion for the initiative.
 
 
 
