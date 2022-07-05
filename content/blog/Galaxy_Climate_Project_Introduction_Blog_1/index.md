@@ -30,7 +30,7 @@ We live on Earth, but why? To state, it has the right temperature, air, and wate
 Handling massive command-line-focused analysis of climate data can be exhaustive as well as cumbersome. Sometimes, it may be setting up system environments, and other times, it may be some technical jargon that could delay the analysis. And not everyone is well equipped with coding skills. Nevertheless, a standard, easy-to-use, accurate, and scientifically sound platform is the need of the hour. The Galaxy Climate workbench has almost met all the criteria for improving the situation. And it is still growing.
 
 
-# What are the existing CLIMATE TOOLS available in the GALAXY TOOLSHED?
+# What are the tools for Climate Science available in the Galaxy ToolShed?
 
 The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are helpful for Climate Analysis.  Some of the relevant tags to find under the Galaxy ToolShed are: “Climate Analysis”, “Ecology”, etc. You can follow the list given below for more clarity. 
 
