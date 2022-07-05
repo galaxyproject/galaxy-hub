@@ -59,7 +59,8 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 You can find and use many climate relevant interactive tools @ <https://climate.usegalaxy.eu/>  in the interactive tools section.
 
 | Interactive Tools |      Description   |
-|----------|:-------------:|
+|----------|:-------------|
+
 | [Panoply netCDF viewer](https://live.usegalaxy.eu/?tool_id=interactive_tool_panoply) |    Plots geo-referenced and other arrays from netCDF, HDF, GRIB, and other datasets.   |  
 | [PANGEO notebooks](https://live.usegalaxy.eu/?tool_id=interactive_tool_pangeo_notebook) |  Based on Pangeo, an open and inclusive community platform for Big Data geoscience   |
 | [PANGEO python ecosystem](https://pangeo.io/) |  PANGEO is a community platform for Big Data geoscience |
