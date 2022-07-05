@@ -53,7 +53,8 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 |[suite_cdo](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=11bb18c4362d86a5) |  A suite of cdo tools |
 |[mean_per_zone](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/climate/mean_per_zone/mean_per_zone) |  Creates a png image showing statistic over areas as defined in the vector file. |
 
-## INTERACTIVE TOOLS
+## Interactive tools
+
 
 You can find and use many climate relevant interactive tools @ <https://climate.usegalaxy.eu/>  in the interactive tools section.
 
