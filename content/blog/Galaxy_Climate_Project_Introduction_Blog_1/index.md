@@ -75,7 +75,7 @@ Machine Learning and Analysis Galaxy Tools are also available to Galaxy Climate.
 
 A huge list of **Graph/Display** tools is also available under the general tools of Galaxy Climate.
 
-You can also find below the important list of tools for **GIS DATA Handling**.
+You can also find below the important list of tools for **GIS(Geographic Information System) DATA Handling**.
 | GIS Data Handling Tools|      Description    |
 |----------|:-------------|
 | [gdal_gdalinfo](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/gdal_gdalinfo/gdal_gdalinfo) |   Lists various information about a GDAL supported raster dataset  |  
