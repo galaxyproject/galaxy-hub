@@ -37,7 +37,7 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 
 ## CLIMATE ANALYSIS TOOLS
 | Climate Analysis Tools |      Synopsis    |
-|----------|:-------------|
+|----------|:-------------:|
 
 | [c3s](https://toolshed.g2.bx.psu.edu/repository/browse_repository?id=66db1d2dd5ec1fab) |    Copernicus Climate Change Service (C3S)   |  
 | [cads](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=58c4b9b8233320fc) |  Copernicus Atmosphere Data Store (ADS)   |
