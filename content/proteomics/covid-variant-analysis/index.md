@@ -2,7 +2,7 @@
 title: SARS-CoV-2 Variant analysis from clinical data for identification and validation of peptides
 ---
 
-# Variant specific peptide panel for diagnosis, characterization and surveillance of the SARS-CoV2 variants during the pandemic. 
+# Variant specific peptide panel for diagnosis, characterization and surveillance of the SARS-CoV-2 variants during the pandemic. 
 
 ## Live Resources
 
