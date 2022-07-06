@@ -30,13 +30,14 @@ remind them.  Participants who refuse to wear a mask, or show a repeated pattern
 of being unmasked will be barred from all remaining GCC2022 events, without a
 refund.  This will be treated as a Code of Conduct violation.
 
+In addition, **we ask each participant to test daily using a provided rapid
+test**. The tests will be provided by the conference at registration so please
+use them.
+
 If you feel sick, or have had close exposure, or are testing positive, then do
 not attend in-person events.  If you have already attended some events and
 become sick, please let the [conference organizers](/events/gcc2022/organizers/)
 know, and let anyone you have spent significant time around (masked) or some
 time around (unmasked) so they can take appropriate precautions.
-
-GCC2022 is not requiring proof of vaccination or a recent negative test. Neither
-of those methods guarantees that you are actually negative.
 
 Please, let’s keep each other safe.
