@@ -33,7 +33,8 @@ Handling massive command-line-focused analysis of climate data can be exhaustive
 The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are helpful for Climate Analysis.  Some of the relevant tags to find under the Galaxy ToolShed are: “Climate Analysis”, “Ecology”, etc. You can follow the list given below for more clarity. 
 
 
-## CLIMATE ANALYSIS TOOLS
+## Climate analysis tools
+
 | Climate Analysis Tools |      Synopsis    |
 |----------|:-------------|
 | [c3s](https://toolshed.g2.bx.psu.edu/repository/browse_repository?id=66db1d2dd5ec1fab) |    Copernicus Climate Change Service (C3S)   |  
