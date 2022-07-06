@@ -79,12 +79,12 @@ Interested in how informatics and AI can be integrated into molecular and clinic
 [Sponsors](/events/gcc2022/sponsors/) are a key part of GCC2022 and *are potential partners in participant success.* Is your organization interested in playing a prominent role in the first in-person gathering of the Galaxy community since 2019? **Please see the [Sponsorships page](/events/gcc2022/sponsors/#interested-in-becoming-a-sponsor) for details.**
   </div>
 
-<!-- COVID-19 -->
+  <!-- COVID-19 -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/icons/face-mask.png" class="card-img-top" alt="COVID-19" />
     <div class="card-header">COVID-19</div>
 
-COVID-19 is (still) very much around us and to help each other have a safe event, GCC2022 has adopted a [COVID-19 policy](/events/gcc2022/conduct/#covid-19-policy). Take a look at the details but the gist of it is that **face masks are required while indoors**. Please keep that in mind at all times during the event.
+COVID-19 is (still) very much around us and to help each other have a safe event, GCC2022 has adopted a [COVID-19 policy](/events/gcc2022/conduct/#covid-19-policy). Take a look at the details but the gist of it is that **face masks are required while indoors**. Please keep that in mind at all times during the event. Also, we ask to **test daily** using the provided tests.
   </div>
 
 

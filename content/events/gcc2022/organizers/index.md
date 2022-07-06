@@ -90,4 +90,4 @@ In Conference Training
 
 # Photographer
 
-* **[John Davis](https://training.galaxyproject.org/training-material/hall-of-fame/jdavcs/), [Johns Hopkins University](https://jhu.edu/), United States
+* **[John Davis](https://training.galaxyproject.org/training-material/hall-of-fame/jdavcs/)**, [Johns Hopkins University](https://jhu.edu/), United States
