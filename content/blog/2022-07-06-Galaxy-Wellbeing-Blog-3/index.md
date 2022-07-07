@@ -65,4 +65,5 @@ Social support. Increasingly, there is a recommendation to turn to other people 
  
 # Further Reading and References
 [Understanding Conflict in the Workplace](https://journals.flvc.org/edis/article/download/108147/103437)
+
 [Conflict Resolution](https://www.maxwell.syr.edu/docs/default-source/ektron-files/conflict-resolution-nk.pdf?sfvrsn=4de5d71e_5)
