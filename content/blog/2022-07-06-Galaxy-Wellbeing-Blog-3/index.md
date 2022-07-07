@@ -56,9 +56,9 @@ Several workplace factors can lead to burnout such as
 
 ## How to prevent and recover from burnout 
 
-**Relaxation strategies**: A major approach to coping with stress has been to promote relaxation. There are many techniques by which people can reduce high arousal and achieve a state of calm. These include meditation, biofeedback, naps and a long night’s sleep, hot baths, and massages. 
+**Relaxation strategies**: Relaxation has become a popular method of dealing with stress. There are several strategies for reducing high arousal and achieving a feeling of calm. These include meditation, biofeedback, naps and a long night’s sleep, hot baths, and massages. 
 
-**Self-understanding**: The basic argument for self-understanding is that if people have better knowledge of their personal strengths and weaknesses, in terms of personality, needs, and motives, then they will have a more realistic assessment of why they are experiencing burnout. Such self-knowledge can then be used to change their behavior for more positive outcomes. Many techniques can be used to generate more self-insight, including mindfulness, counseling, and therapy. 
+**Self-understanding**: The basic argument for self-understanding is that if people have better knowledge of their personal strengths and weaknesses, in terms of personality, needs, and motives, then they will have a more realistic assessment of why they are experiencing burnout. Such self-knowledge can then be used to change their behavior for more positive outcomes. Many techniques can be used to generate more self-insight such as mindfulness.
 
 **Coping skills**: Preventive coping strategies are designed to change the person’s response to work stressors so that they have less impact (as opposed to changing the stressors themselves). Many techniques fall within this category, such as time management and conflict resolution, but almost all are characterized by some kind of cognitive restructuring (such as changing one’s job expectations, reinterpreting other people’s behavior, and imagining new goals and next steps). 
 
