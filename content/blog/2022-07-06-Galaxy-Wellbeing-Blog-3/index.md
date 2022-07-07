@@ -43,15 +43,16 @@ Burnout can lead to a number of physical health concerns, including headaches, m
 
 ## Factors that lead to burnout
 
-Several workplace factors can lead to burnout such as 
-•	Too much workload
-•	Lack of work-life balance
-•	Lack of control
-•	Lack of meaningful rewards
-•	Lack of fairness
-•	Being expected to satisfy anonymous demands in record time
-•	Lack of support
-•	Incongruence between one’s and workplace’s value
+Several workplace factors can lead to burnout such as
+
+* Too much workload
+* Lack of work-life balance
+* Lack of control
+* Lack of meaningful rewards
+* Lack of fairness
+* Being expected to satisfy anonymous demands in record time
+* Lack of support
+* Incongruence between one’s and workplace’s value
 
 ## How to prevent and recover from burnout 
 
