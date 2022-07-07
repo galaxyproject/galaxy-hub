@@ -38,7 +38,7 @@ There are 8 main causes of conflict in the workspace
 
 # Burnout
 
-Burnout, according to APA dictionary, is “a physical, emotional, or mental exhaustion accompanied by decreased motivation, lowered performance, and negative attitudes toward oneself and others”. It results from performing at a high level until stress and tension, especially from extreme and prolonged physical or mental exertion or an overburdening workload, take their toll. 
+Burnout, according to [APA dictionary](https://dictionary.apa.org/), is “*a physical, emotional, or mental exhaustion accompanied by decreased motivation, lowered performance, and negative attitudes toward oneself and others*”. It results from performing at a high level until stress and tension, especially from extreme and prolonged physical or mental exertion or an overburdening workload, take their toll. 
 Burnout can lead to a number of physical health concerns, including headaches, muscle tension, hypertension, and sleep disturbances. In fact, burnout has been characterized as a diagnosable mental health disorder by the World Health Organization.
 
 ## Factors that lead to burnout
@@ -56,11 +56,15 @@ Several workplace factors can lead to burnout such as
 
 ## How to prevent and recover from burnout 
 
-Relaxation strategies: A major approach to coping with stress has been to promote relaxation. There are many techniques by which people can reduce high arousal and achieve a state of calm. These include meditation, biofeedback, naps and a long night’s sleep, hot baths, and massages. 
-Self-understanding. The basic argument for self-understanding is that if people have better knowledge of their personal strengths and weaknesses, in terms of personality, needs, and motives, then they will have a more realistic assessment of why they are experiencing burnout. Such self-knowledge can then be used to change their behavior for more positive outcomes. Many techniques can be used to generate more self-insight, including mindfulness, counseling, and therapy. 
-Coping skills. Preventive coping strategies are designed to change the person’s response to work stressors so that they have less impact (as opposed to changing the stressors themselves). Many techniques fall within this category, such as time management and conflict resolution, but almost all are characterized by some kind of cognitive restructuring (such as changing one’s job expectations, reinterpreting other people’s behavior, and imagining new goals and next steps). 
-Changes in work patterns. Given the link between work overload and burnout, a popular recommendation is to work less. This can take several forms—for instance, instituting more breaks in one’s work routine, avoiding overtime work, and taking more time off or more vacations. Other strategies focus on achieving a better balance between positive activities that one enjoys and the work demands that are more burdensome.
-Social support. Increasingly, there is a recommendation to turn to other people for help in dealing with burnout. Social support can be found within both the workplace (colleagues, mentors, supervisors) and at home (family, friends, neighbors). And support can take many forms, including assistance, feedback, emotional comfort, encouragement, recognition, and humor.
+**Relaxation strategies**: A major approach to coping with stress has been to promote relaxation. There are many techniques by which people can reduce high arousal and achieve a state of calm. These include meditation, biofeedback, naps and a long night’s sleep, hot baths, and massages. 
+
+**Self-understanding**: The basic argument for self-understanding is that if people have better knowledge of their personal strengths and weaknesses, in terms of personality, needs, and motives, then they will have a more realistic assessment of why they are experiencing burnout. Such self-knowledge can then be used to change their behavior for more positive outcomes. Many techniques can be used to generate more self-insight, including mindfulness, counseling, and therapy. 
+
+**Coping skills**: Preventive coping strategies are designed to change the person’s response to work stressors so that they have less impact (as opposed to changing the stressors themselves). Many techniques fall within this category, such as time management and conflict resolution, but almost all are characterized by some kind of cognitive restructuring (such as changing one’s job expectations, reinterpreting other people’s behavior, and imagining new goals and next steps). 
+
+**Changes in work patterns**: Given the link between work overload and burnout, a popular recommendation is to work less. This can take several forms—for instance, instituting more breaks in one’s work routine, avoiding overtime work, and taking more time off or more vacations. Other strategies focus on achieving a better balance between positive activities that one enjoys and the work demands that are more burdensome.
+
+**Social support**: Increasingly, there is a recommendation to turn to other people for help in dealing with burnout. Social support can be found within both the workplace (colleagues, mentors, supervisors) and at home (family, friends, neighbors). And support can take many forms, including assistance, feedback, emotional comfort, encouragement, recognition, and humor.
 
  
 # Further Reading and References
