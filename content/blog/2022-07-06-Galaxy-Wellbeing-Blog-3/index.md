@@ -27,9 +27,13 @@ There are 8 main causes of conflict in the workspace
 ## How to handle and resolve conflict
 
 **Define the problem**: Try to explain the concerns that led to the conflict without being provocative. 
+
 **Listen actively**: Listen when the other person is expressing their concern and the impact it has on them. The possibility of a suitable outcome is improved when each person feels listened to. 
+
 **Analyze the conflict**: This will help clarify the specific problem that led to the conflict.
+
 **Come up with a solution**: Creating solutions that are beneficial to both parties.
+
 **Agree to disagree**: Agree to disagree because different perspectives exist which leads to conflict.
 
 # Burnout
