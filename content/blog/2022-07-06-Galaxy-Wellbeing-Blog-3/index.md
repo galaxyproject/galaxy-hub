@@ -34,7 +34,7 @@ There are 8 main causes of conflict in the workspace
 
 **Come up with a solution**: Creating solutions that are beneficial to both parties.
 
-**Agree to disagree**: Agree to disagree because different perspectives exist which leads to conflict.
+**Agree to disagree**: There are different perspectives that exist in a workplace due to differences in background and experiences which can hinder from reaching the same agreement. Therefore, in this case, respecting each others perspectives and differences can be the best option.
 
 # Burnout
 
