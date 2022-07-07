@@ -39,7 +39,7 @@ There are 8 main causes of conflict in the workspace
 # Burnout
 
 Burnout, according to [APA dictionary](https://dictionary.apa.org/), is “*a physical, emotional, or mental exhaustion accompanied by decreased motivation, lowered performance, and negative attitudes toward oneself and others*”. It results from performing at a high level until stress and tension, especially from extreme and prolonged physical or mental exertion or an overburdening workload, take their toll. 
-Burnout can lead to a number of physical health concerns, including headaches, muscle tension, hypertension, and sleep disturbances. In fact, burnout has been characterized as a diagnosable mental health disorder by the World Health Organization.
+Burnout can lead to a number of physical health concerns, including headaches, muscle tension, hypertension, and sleep disturbances.
 
 ## Factors that lead to burnout
 
