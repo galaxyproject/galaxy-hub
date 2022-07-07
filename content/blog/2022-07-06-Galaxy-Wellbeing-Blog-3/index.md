@@ -73,3 +73,5 @@ Several workplace factors can lead to burnout such as
 [Conflict Resolution](https://www.maxwell.syr.edu/docs/default-source/ektron-files/conflict-resolution-nk.pdf?sfvrsn=4de5d71e_5)
 
 [Burnout](https://www.bridgestoeurope.com/wp-content/uploads/2020/03/BOIT_theoretical_abstract_2705.pdf)
+
+[Avoid the Burn](https://www.apa.org/gradpsych/2011/03/corner)
