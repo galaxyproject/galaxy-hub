@@ -15,6 +15,6 @@ Galaxy is a free open platform designed to give researchers across the world unc
 4. Galaxy is hard to learn and hard to use…, **And bicycles are hard to park!**
 5. Galaxy is only useful for teaching, not real science…, **Who are bigger snobs: teachers or scientists?**
 6. Galaxy is neither popular with, nor widely used by real scientists…, **It depends on the meaning of the word “is”.**
-7. Galaxy is free, so there cannot be professional support…, **Try United Airlines!**
-8. Galaxy is free, so there cannot be useful documentation…, **But IKEA is not free.**
+7. Galaxy is free, so there cannot be professional support…, **Try contacting an airline!**
+8. Galaxy is free, so there cannot be useful documentation…, **Have you ever assembled a wardrobe yourself?**
 9. Galaxy cannot be sustainable in the long run, because no commercial organization is managing it…, **Yeah, for the past 15 years.**
