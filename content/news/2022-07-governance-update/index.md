@@ -26,7 +26,7 @@ The [Steering Committee](https://galaxyproject.org/community/steering/) meets mo
 
 ### Executive Board
 
-The [Galaxy Executive (Exec) Board](https://galaxyproject.org/community/exec/) held their first meeting on Wednesday, June 29! The major discussions were about the purpose of the group, deciding to focus on the strategic scientific, technical, and global outreach partnerships and directions to pursue. The Exec also shared some considerations around GCC2023 and future meetings, thinking of new ways to engage the community globally and regionally.
+The full [Galaxy Executive (Exec) Board](https://galaxyproject.org/community/exec/) held their first meeting on Wednesday, June 29! The major discussions were about the purpose of the group, deciding to focus on the strategic scientific, technical, and global outreach partnerships and directions to pursue. The Exec also shared some considerations around GCC2023 and future meetings, thinking of new ways to engage the community globally and regionally.
 
 The Exec will meet again in two months, then shift to quarterly meetings.
 
