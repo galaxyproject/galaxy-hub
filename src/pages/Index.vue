@@ -86,7 +86,7 @@ export default {
     },
     computed: {
         cardRows() {
-            return makeCardRows(this.$page.cards.list, this.latest, this.cards);
+            return makeCardRows(this.$page.cards, this.latest, this.cards);
         },
     },
     mounted() {
