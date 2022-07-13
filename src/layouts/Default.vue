@@ -16,9 +16,9 @@
 <script>
 import NavBar from "@/components/NavBar";
 import Gitter from "@/components/Gitter";
-import { getSingleKey } from "~/lib/utils.js";
+import { getRootSubsite } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
-const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
+const ROOT_SUBSITE = getRootSubsite();
 export default {
     components: {
         NavBar,
@@ -36,7 +36,7 @@ export default {
             return classes;
         },
         gitter() {
-            return CONFIG.subsites.metadata[this.subsite]?.gitter || CONFIG.subsites.metadata[ROOT_SUBSITE]?.gitter;
+            return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[ROOT_SUBSITE]?.gitter;
         },
     },
     mounted() {
