@@ -51,7 +51,7 @@ export function gatherInserts(allInsert) {
 export function gatherCollections(page) {
     let collections = {};
     for (let [category, value] of Object.entries(page)) {
-        if (value.edges) {
+        if (value && value.edges) {
             collections[category] = value.edges.map((edge) => edge.node);
         }
     }

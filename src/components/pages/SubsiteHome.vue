@@ -1,7 +1,7 @@
 <template>
     <Layout :subsite="subsite">
         <header id="header">
-            <h1 class="title">{{ inserts.main ? inserts.main.title : subsite }}</h1>
+            <h1 class="title">{{ inserts.main ? inserts.main.title : subsiteData.name }}</h1>
             <h3 v-if="inserts.main && inserts.main.subtitle">{{ inserts.main.subtitle }}</h3>
         </header>
 
@@ -33,6 +33,7 @@ import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
 import { hasContent, gatherInserts, gatherCollections, gatherCards, makeCardRows } from "~/lib/pages.mjs";
 import { addTwitterScript, addAltmetricsScript } from "~/lib/client.mjs";
+import CONFIG from "~/../config.json";
 export default {
     components: {
         HomeTop,
@@ -43,7 +44,7 @@ export default {
     },
     metaInfo() {
         return {
-            title: this.inserts && this.inserts.main.title,
+            title: this.inserts.main ? this.inserts.main.title : this.subsiteData.name,
         };
     },
     created() {
@@ -52,6 +53,9 @@ export default {
         this.latest = gatherCollections(this.$page);
     },
     computed: {
+        subsiteData() {
+            return CONFIG.subsites.all[this.$context.subsite];
+        },
         subsite() {
             return this.$context.subsite;
         },
