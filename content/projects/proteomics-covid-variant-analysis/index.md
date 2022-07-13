@@ -8,10 +8,10 @@ title: SARS-CoV-2 Variant analysis from clinical data for identification and val
 
 | Input / History / Workflow  | Link                                                        |
 |--------------------------|-------------------------------------------------------------|
-| Input data               | [https://usegalaxy.eu/u/subina/h/covid-paper-workflow-input](https://usegalaxy.eu/u/galaxyp/h/covid-viruses-input)  |
-| Variant analysis history | [https://usegalaxy.eu/u/galaxyp/h/covid-viruses-history](https://usegalaxy.eu/u/galaxyp/h/covid-viruses-history) |
-| Discovery workflow       | [https://usegalaxy.eu/u/subina/w/covid-discovery-workflow](https://usegalaxy.eu/u/galaxyp/w/coviddiscovery-workflow)    |
-| Verification workflow    | [https://usegalaxy.eu/u/subina/w/covid-verification-workflow](https://usegalaxy.eu/u/galaxyp/w/covid-verification-workflow) |
+| Input data               | [Galaxy-COVID-Input-history](https://usegalaxy.eu/u/galaxyp/h/covid-viruses-input)  |
+| Variant analysis history | [Galaxy-COVID-Variant-Analysis-history](https://usegalaxy.eu/u/galaxyp/h/covid-viruses-history) |
+| Discovery workflow       | [Workflow 1](https://usegalaxy.eu/u/galaxyp/w/coviddiscovery-workflow)    |
+| Verification workflow    | [Worklfow 2](https://usegalaxy.eu/u/galaxyp/w/covid-verification-workflow) |
 
 ## Description
 
