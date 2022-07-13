@@ -37,7 +37,7 @@
             </p>
         </section>
         <p class="outlink" v-if="article.external_url">See <a :href="article.external_url">(external) url</a></p>
-        <p class="blogref" v-if="article.source_blog">
+        <p class="blogref" v-if="article.source_blog && article.source_blog_url">
             From <a :href="article.source_blog_url">{{ article.source_blog }}</a>
         </p>
         <div class="clearfix"></div>
