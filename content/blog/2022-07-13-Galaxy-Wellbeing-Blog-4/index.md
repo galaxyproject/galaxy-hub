@@ -1,1 +1,59 @@
+---
+title: "Common Problems Faced in Open-source Part II"
+tease: "Fourth blog post presenting the Outreachy project on Mental Health"
+authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+source_blog: "Galaxy Well-Being Outreachy project"
+date: "2022-07-13"
+---
 
+This is a [continuation blog post](https://galaxyproject.org/blog/2022-07-06-galaxy-wellbeing-blog-3/) mentioning common problems in open-source communities which can affect one’s well-being and mental health.
+
+# Time-zone difference
+
+Open-source projects allow anyone from different parts of the world to contribute freely and work together in a remote setting. Having a global team has its advantages in terms of flexibility, culture, and such, but it can sometimes be challenging to accommodate the different time zones of everyone on the team. The problems can lead to working after hours or extra hours, having meetings very early in the morning or late in the afternoon or night, not being able to communicate effectively across teams, decreased productivity, poor collaboration, and such.
+
+## What can be done to lessen the challenges?
+
+**Setting boundaries**: Everyone should set boundaries by indicating working hours or times they will be available to meet or work together. Sometimes it might be hard to set working hours for open-source projects since some people usually work when they get free time. In cases like this, have a communication channel where you can communicate about the work or plans. Don’t expect an immediate response; let them get back to you when they can.
+
+**Be mindful of other people’s working hours**: Respect others working hours and limit yourself from contacting them or scheduling a meeting outside that hour. Always communicate in advance for any plans that might require working after available hours and take NO for an answer. Sometimes it’s hard for people to say no for different reasons, so generally, it's best to refrain from asking to meet or work outside available hours unless it’s absolutely necessary. When doing so, don’t just inform people of the plan; always ask if it’s possible to meet or work. Don’t push others to work in your time by insisting or asking for unnecessary favors. Always check the other person's time zone before doing anything, whether it's sending emails or scheduling a meeting.
+
+**Create a collaborative workspace**: To work and collaborate effectively, create a space where you can share work, schedule meetings, and communicate across different time zones. This can be done by using project management apps or shared calendars. 
+
+**Think of the next person**: When working on a certain task or project, always try to do things clearly so the next person can understand or pick up where you left off without having trouble. Not having clear documentation or whatever it might be leads to contacting people outside working hours, wasting the persons working time, frustration, poor collaboration, and such. This is especially essential in teams with little to no overlapping working hours.
+
+# Lack of inclusion and diversity
+
+Having diverse teams and inclusive environments leads to high performance and strong results. It will help in incorporating different perspectives, talents, and abilities. However, a lack of inclusion and diversity can decrease productivity, creativity, and other problems.
+
+## What can be done?
+
+**Provide a safe and welcoming environment**: Provide a space where everyone feels welcomed and free to work and contribute.
+
+**Use inclusive language**: Address people how they want to be addressed and don’t use any unnecessary derogatory terms. Acknowledge diversity and be open to people’s identities and backgrounds. Check out [this](https://static1.squarespace.com/static/5ae729f070e8022e46f9af5e/t/610405cb38956863564f8876/1627653579962/Copy+of+Inclusive+Language+Toolkit+V2.pdf) toolkit to learn more about inclusive language.
+
+**Increase accessibility and provide accommodations**: Always create a space where everything is easily accessible to everyone. Accessibility benefits everyone. Since most open-source projects are run remotely, it could be done by increasing website accessibility, creating alternative text for images, being careful with font sizes and colors, and such. Check out the [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) to learn more about what accessibility features to consider. Providing accommodations to people with disabilities on a need basis also creates an inclusive environment and equitable outcome.
+
+**Use metrics**: Measuring DEI is essential to track progress and goals. It increases accountability and participation and helps identify risk areas. It overall improves the working conditions of people involved by measuring the outcomes of the set goals and coming up with solutions for the unmet goals or risk areas.
+
+# Isolation and Loneliness
+
+Most open-source contributors and maintainers work remotely, which can decrease social engagements and lead to isolation. Being socially Isolated can hinder the individual's physical and mental health.
+
+## What can you do?
+
+* Take walks or engage in outdoor activities
+* Meet or talk with family or friends 
+* Join community programs
+* Engage in activities that increase social interaction
+
+# Equating one’s work with self-worth
+
+Some people feel the need to do more work, taking it as an indicator or way of proving their self-worth, but self-worth is not defined by how much work you do or how well you do it, or how much others love your work. Working by putting your health at risk does not indicate your self-worth but will hinder your success in different ways. Don’t seek external validation at the expense of your health.
+
+## What can you do?
+
+* Know your strengths and weaknesses
+* Accept yourself and embrace who you are
+* Take breaks and treat yourself
+* Have a proper measurable success indicator that is not detrimental to your health
