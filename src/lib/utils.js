@@ -52,17 +52,21 @@ function splitlines(text) {
 }
 module.exports.splitlines = splitlines;
 
-/** Return an object's key if and only if it contains a single key.
- * @param {Object} object
- * @returns {String}
+/** Filter an object's contents and return matching keys.
+ * @param {Object}   object The object whose keys will be filtered.
+ * @param {Function} filter A function to apply to the values of the keys.
+ * @returns {Array} All keys whose values pass the filter (return true).
  */
-function getSingleKey(object) {
-    let keys = Object.keys(object);
-    if (keys.length === 1) {
-        return keys[0];
+function filterKeys(object, filter) {
+    let hits = [];
+    for (let [key, value] of Object.entries(object)) {
+        if (filter(value)) {
+            hits.push(key);
+        }
     }
+    return hits;
 }
-module.exports.getSingleKey = getSingleKey;
+module.exports.filterKeys = filterKeys;
 
 function mdToHtml(md, rmP = true) {
     //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
