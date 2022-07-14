@@ -14,7 +14,7 @@ Open-source projects allow anyone from different parts of the world to contribut
 
 ## What can be done to lessen the challenges?
 
-**Setting boundaries**: Everyone should set boundaries by indicating working hours or times they will be available to meet or work together.
+**Set boundaries**: Everyone should set boundaries by indicating working hours or times they will be available to meet or work together.
 
 **Be flexible to irregular working hours**: Sometimes it might be hard to set working hours for open-source projects, since some people usually work when they get free time. In cases like this, have a communication channel where you can communicate asynchronously about the work or plans. Don’t expect an immediate response; let them get back to you when they can.
 
