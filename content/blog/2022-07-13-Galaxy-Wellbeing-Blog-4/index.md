@@ -24,7 +24,7 @@ When sending emails, if the person you are working with has a different working 
 * Scheduling your email to be sent at the receiver's working hour
 * Including a note stating your email is sent during your working hours mentioning your working hours in UTC. 
 
-**Create a collaborative asynchronous workspace**: To work and collaborate effectively, create a space where you can share work, schedule meetings, and communicate across different time zones. This can be done by using project management apps such as Trello or ClickUp or shared calendars.  
+**Create a collaborative asynchronous workspace**: To work and collaborate effectively, create a space where you can share work, schedule meetings, and communicate across different time zones. This can be done by using project management apps such as [Trello](https://trello.com/en) or [ClickUp](https://clickup.com/) or shared calendars.  
 
 **Think of the next person**: When working on a certain task or project, always try to do things clearly, so the next person can understand or pick up where you left off without having trouble. Lack of clear and adequate work might lead to contacting people outside working hours, wasting the person's working time, frustration, or poor collaboration. This is especially essential in teams with little to no overlapping working hours.
 
