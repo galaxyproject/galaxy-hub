@@ -42,7 +42,7 @@ Having diverse teams and inclusive environments leads to high performance and st
 
 **Use metrics**: Measuring DEI is essential to track progress and goals. It increases accountability and participation and helps identify risk areas. It overall improves the working conditions of people involved by measuring the outcomes of the set goals and coming up with solutions for the unmet goals or risk areas. To measure DEI, it's essential to consider all the factors that makeup DEI such as level of accessibility, demographic data of team members or contributors, fair treatment, or belongingness. Check out the [Gartner Inclusion Index](https://hbr.org/2021/05/how-to-measure-inclusion-in-the-workplace) or [Diversity, Equity and Inclusion (DEI) Metrics Inventory](https://www.michamber.com/wp-content/uploads/2020/11/DEI_Metrics_Inventory.pdf) to learn more about measuring DEI and what factors to consider for your community.
 
-# Isolation and Loneliness
+# Isolation and loneliness
 
 Most open-source contributors and maintainers work remotely, which can decrease social engagements and lead to isolation. Being socially isolated can hinder the individual's physical and mental health.
 
