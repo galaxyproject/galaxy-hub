@@ -10,7 +10,7 @@ This is a [continuation blog post](https://galaxyproject.org/blog/2022-07-06-gal
 
 # Time-zone difference
 
-Open-source projects allow anyone from different parts of the world to contribute freely and work together in a remote setting. Having a global team has its advantages in terms of flexibility, culture, and such, but it can sometimes be challenging to accommodate the different time zones of everyone on the team. The problems can lead to working after hours or extra hours, having meetings very early in the morning or late in the afternoon or night, not being able to communicate effectively across teams, decreased productivity, poor collaboration, and such.
+Open-source projects allow anyone from different parts of the world to contribute freely and work together in a remote setting. Having a global team has its advantages in terms of flexibility and culture, but it can sometimes be challenging to accommodate the different time zones of everyone on the team. The problems can lead to working after hours or extra hours, having meetings very early in the morning or late in the afternoon or night, not being able to communicate effectively across teams, decreased productivity, poor collaboration, and such.
 
 ## What can be done to lessen the challenges?
 
