@@ -51,7 +51,7 @@ Most open-source contributors and maintainers work remotely, which can decrease 
 * Take walks or engage in outdoor activities.
 * Meet or talk with family or friends. 
 * Join community programs.
-* Engage in activities that increase social interaction
+* Engage in activities that increase social interaction.
 
 # Equating one’s work with self-worth
 
