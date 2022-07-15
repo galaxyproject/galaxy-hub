@@ -60,6 +60,6 @@ Some people feel the need to do more work, taking it as an indicator or way of p
 ## What can you do?
 
 * Know your strengths and weaknesses through self-evaluation, asking people you trust and taking personality tests that help identify strengths and weaknesses such as [Myers-Briggs Type Indicator](https://www.myersbriggs.org/) personality inventory.
-* Accept yourself and embrace who you are
+* Accept yourself and embrace who you are.
 * Take breaks and treat yourself.
 * Have a proper measurable success indicator that is not detrimental to your health.
