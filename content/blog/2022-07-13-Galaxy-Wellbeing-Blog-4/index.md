@@ -48,7 +48,7 @@ Most open-source contributors and maintainers work remotely, which can decrease 
 
 ## What can you do?
 
-* Take walks or engage in outdoor activities
+* Take walks or engage in outdoor activities.
 * Meet or talk with family or friends 
 * Join community programs
 * Engage in activities that increase social interaction
