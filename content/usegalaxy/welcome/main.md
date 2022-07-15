@@ -2,7 +2,7 @@
 title: usegalaxy.org
 ---
 
-<div class="alert trim-p mt-2 alert-danger">
+<div class="alert alert-danger trim-p mt-2">
 
 <h2>The usegalaxy.org FTP service will be decommissioned on August 12, 2022</h2>
 
