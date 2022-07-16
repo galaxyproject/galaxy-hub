@@ -37,7 +37,9 @@
             <a target="_blank" href="https://gcc2022.sched.com/" type="button" class="btn btn-primary center">
                 <strong>See full schedule</strong>
             </a>
-        </div>
+            <a target="_blank" href="https://galaxy-hub-content.s3.amazonaws.com/GCC2022-program.pdf" type="button" class="btn btn-primary center">
+                <strong>Download program</strong>
+            </a>        </div>
         <div class="col"></div>
     </div>
 </div>
