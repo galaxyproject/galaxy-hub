@@ -34,11 +34,9 @@
     <div class="row">
         <div class="col"></div>
         <div class="col">
-            <button type="button" class="btn btn-secondary center" style="background: orange">
-                <a target="_blank" href="https://gcc2022.sched.com/">
-                    <strong>See full schedule</strong>
-                </a>
-            </button>
+            <a target="_blank" href="https://gcc2022.sched.com/" type="button" class="btn btn-primary center">
+                <strong>See full schedule</strong>
+            </a>
         </div>
         <div class="col"></div>
     </div>
