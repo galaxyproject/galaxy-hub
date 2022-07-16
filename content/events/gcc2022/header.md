@@ -7,8 +7,8 @@
 <div class="linkbox-horizontal trim-p">
 
 [Home](/events/gcc2022/) |
-[**Register**](/events/gcc2022/register) |
-[Schedule](/events/gcc2022/schedule/) |
+[Register](/events/gcc2022/register) |
+[**Schedule**](/events/gcc2022/schedule/) |
 [Abstracts](/events/gcc2022/abstracts/) |
 [Childcare](/events/gcc2022/childcare/) |
 [CoFest](/events/gcc2022/cofest/) |
@@ -29,5 +29,17 @@
 ### Minneapolis, Minnesota, United States
 
 #### [#UseGalaxy2022](https://twitter.com/hashtag/UseGalaxy2022)
+
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <a target="_blank" href="https://gcc2022.sched.com/" type="button" class="btn btn-primary center">
+                <strong>See full schedule</strong>
+            </a>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
 
 </div>
