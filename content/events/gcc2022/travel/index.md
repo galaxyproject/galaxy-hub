@@ -2,25 +2,12 @@
 
 ## Venue
 
-GCC2022 will be held at Courtyard by Marriott Minneapolis Downtown at [1500 S
-Washington Ave, Minneapolis, MN 55454](https://goo.gl/maps/4RZ77aYGK31e2MZy6).
-Talks, posters, and demos will be held here. **Reserving a room by June 30, 2022
-ensures you get the conference rate of $139/night.** To get this rate, you must
-use the reservation link below.
-
-<div class="container">
-    <div class="row">
-        <div class="col"></div>
-        <div class="col">
-            <button type="button" class="btn btn-secondary center">
-                <a target="_blank" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink">
-                    <strong>Reserve your hotel room</strong>
-                </a>
-            </button>
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
+GCC2022 will be held at [Courtyard by Marriott Minneapolis
+Downtown](https://www.marriott.com/en-us/hotels/mspdc-courtyard-minneapolis-downtown/overview/)
+at [1500 S Washington Ave, Minneapolis, MN
+55454](https://goo.gl/maps/4RZ77aYGK31e2MZy6). Talks, posters, and demos will be
+held here. **Reserving a room by June 30, 2022 ensures you get the conference
+rate of $139/night.** To get this rate, you must use the reservation link below.
 
 ## Getting Here and Around
 
@@ -66,7 +53,7 @@ Minneapolis St. Paul has a [robust public transportation network](https://www.me
       <p class="card-title">Conference Hotel</p>
     </div>
 
-We have reserved a block of rooms at the conference venue, the Courtyard by Marriott Minneapolis Downtown. The conference room rate is $139/night. **There are a limited number of rooms though so we suggest booking your accommodation early. The deadline for reserving a hotel room is June 30.** Room availability to based on first come basis. If needed, parking here is available at $22 per day. [Click here](https://www.marriott.com/event-reservations/reservation-link.mi?id=1645812815669&key=GRP&app=resvlink) to make a hotel reservation using the conference rate.
+We have reserved a block of rooms at the conference venue, the Courtyard by Marriott Minneapolis Downtown. The conference room rate is $139/night. **There are a limited number of rooms though so we suggest booking your accommodation early. The deadline for reserving a hotel room is June 30.** Room availability to based on first come basis. If needed, parking here is available at $22 per day.
   </div>
 
   <!-- On Campus
