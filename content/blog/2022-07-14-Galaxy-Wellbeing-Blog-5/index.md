@@ -22,7 +22,7 @@ These factors interact and have implications for the cause and treatment of vari
 <div class="center">
 <div style="height:50%; width:50%; display: inline-block">
 
-![Biopsychosocial Model Venn diagram](BPS_Venn_Diagram.jpg)
+![Biopsychosocial Model Venn diagram](BPS_Venn_Diagram.png)
 
 </div>
 </div>
