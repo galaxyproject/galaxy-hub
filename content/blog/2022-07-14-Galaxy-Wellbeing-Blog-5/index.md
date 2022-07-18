@@ -51,7 +51,7 @@ Each of these behaviors might be exhibited by anyone and are not necessarily an 
 
 * Out of 1501 respondents, 59% of workers reported facing negative effects of job-related stress, including a loss of interest, motivation, or energy (26%), trouble concentrating (21%), and a lack of effort at work (19%) ([APA](https://www.apa.org/pubs/reports/work-well-being/compounding-pressure-2021#:~:text=Nearly%20three%20in%20five%20employees,effort%20at%20work%20(19%25))).
 
-* Out of 1501 respondents, 37% believe that offering mental health resources and 36% believe that regularly recognizing contributions may help foster a psychologically healthy workplace ([APA](https://www.apa.org/pubs/reports/work-well-being/compounding-pressure-2021#:~:text=Nearly%20three%20in%20five%20employees,effort%20at%20work%20(19%25))).
+* Out of 1501 respondents, 37% of workers believe that offering mental health resources and regularly recognizing contributions (36%) may help foster a psychologically healthy workplace ([APA](https://www.apa.org/pubs/reports/work-well-being/compounding-pressure-2021#:~:text=Nearly%20three%20in%20five%20employees,effort%20at%20work%20(19%25))).
 
 * According to [OSMI Mental Health in Tech Survey 2021](https://osmi.typeform.com/report/Fja7Jb9K/t5F4sKEyeGhGgU7V), out of 131 responses, 43 people (32.8%) reported having a mental disorder, and 24 people (18.3%) reported possibly having a mental health disorder.
 
