@@ -43,14 +43,23 @@ Each of these behaviors might be exhibited by anyone and are not necessarily an 
 
 # What are the statistics on mental health problems?
 
-* 1 in every 8 people in the world lives with a mental disorder [WHO](https://www.who.int/news-room/fact-sheets/detail/mental-disorders).
+* 1 in every 8 people in the world lives with a mental disorder ([WHO](https://www.who.int/news-room/fact-sheets/detail/mental-disorders)).
 
-* The cost of lost productivity due to depression and anxiety to the global economy is estimated to be US$ 1 trillion annually [WHO](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace).
+* The cost of lost productivity due to depression and anxiety to the global economy is estimated to be US$ 1 trillion annually ([WHO](https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/mental-health-in-the-workplace)).
 
-* 792 million people (10.7% of the world's population) have at least one mental illness. Anxiety disorders and depression are the two most prevalent mental disorders which make up more than half of all cases. Depression affects 3.4 percent of the world's population (264 million people), whereas anxiety disorders impact 3.8 percent of the world's population (284 million people) [Our World in Data](https://ourworldindata.org/mental-health).
+* 792 million people (10.7% of the world's population) have at least one mental illness. Anxiety disorders and depression are the two most prevalent mental disorders which make up more than half of all cases. Depression affects 3.4 percent of the world's population (264 million people), whereas anxiety disorders impact 3.8 percent of the world's population (284 million people) ([Our World in Data](https://ourworldindata.org/mental-health)).
 
-* Out of 1501 respondents, 59% of workers reported facing negative effects of job-related stress, including a loss of interest, motivation, or energy (26%), trouble concentrating (21%), and a lack of effort at work (19%) [APA](https://www.apa.org/pubs/reports/work-well-being/compounding-pressure-2021#:~:text=Nearly%20three%20in%20five%20employees,effort%20at%20work%20(19%25)).
+* Out of 1501 respondents, 59% of workers reported facing negative effects of job-related stress, including a loss of interest, motivation, or energy (26%), trouble concentrating (21%), and a lack of effort at work (19%) ([APA](https://www.apa.org/pubs/reports/work-well-being/compounding-pressure-2021#:~:text=Nearly%20three%20in%20five%20employees,effort%20at%20work%20(19%25))).
 
-* Out of 1501 respondents, 37% believe that offering mental health resources and 36% believe that regularly recognizing contributions may help foster a psychologically healthy workplace [APA](https://www.apa.org/pubs/reports/work-well-being/compounding-pressure-2021#:~:text=Nearly%20three%20in%20five%20employees,effort%20at%20work%20(19%25)).
+* Out of 1501 respondents, 37% believe that offering mental health resources and 36% believe that regularly recognizing contributions may help foster a psychologically healthy workplace ([APA](https://www.apa.org/pubs/reports/work-well-being/compounding-pressure-2021#:~:text=Nearly%20three%20in%20five%20employees,effort%20at%20work%20(19%25))).
 
 * According to [OSMI Mental Health in Tech Survey 2021](https://osmi.typeform.com/report/Fja7Jb9K/t5F4sKEyeGhGgU7V), out of 131 responses, 43 people (32.8%) reported having a mental disorder, and 24 people (18.3%) reported possibly having a mental health disorder.
+
+# References
+
+Huppert, F. A. (2009). Psychological well‐being: Evidence regarding its causes and consequences. *Applied psychology: health and well‐being*, *1*(2), 137-164.
+
+Lyubomirsky, S., King, L., & Diener, E. (2005). The benefits of frequent positive affect: Does happiness lead to success? *Psychological Bulletin*, *131*(6), 803.
+
+Wright, T. A., Cropanzano, R., & Bonett, D. G. (2007). The moderating role of employee positive well-being on the relation between job satisfaction and job performance. *Journal of occupational health psychology*, *12*(2), 93.
+
