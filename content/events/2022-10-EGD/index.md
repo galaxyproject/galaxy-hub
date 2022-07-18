@@ -112,6 +112,10 @@ Germany
 <br><br>
 
 # Logistics
+### Getting to Freiburg
+
+Freiburg can be easily reached by train with the ICE from the North (via Frankfurt and Karlsruhe) and the South (via Basel) [Deutsche Bahn](https://www.bahn.com/en)
+
 ### How to reach Freiburg from Basel/Mulhouse/Freiburg airport (EuroAirport)
 
 - Option 1: Use the French/German exit and take the [airport shuttle bus](http://www.freiburger-reisedienst.de/en/airportbus/timetable.php) to Freiburg main station (Hauptbahnhof).
