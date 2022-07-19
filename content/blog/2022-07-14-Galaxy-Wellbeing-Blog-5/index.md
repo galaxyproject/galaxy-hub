@@ -57,9 +57,9 @@ Each of these behaviors might be exhibited by anyone and are not necessarily an 
 
 # References
 
-Huppert, F. A. (2009). Psychological well‐being: Evidence regarding its causes and consequences. *Applied psychology: health and well‐being*, *1*(2), 137-164.
+Huppert, F. A. (2009). Psychological well‐being: Evidence regarding its causes and consequences. *Applied Psychology: Health and Well‐being*, *1*(2), 137-164.
 
 Lyubomirsky, S., King, L., & Diener, E. (2005). The benefits of frequent positive affect: Does happiness lead to success? *Psychological Bulletin*, *131*(6), 803.
 
-Wright, T. A., Cropanzano, R., & Bonett, D. G. (2007). The moderating role of employee positive well-being on the relation between job satisfaction and job performance. *Journal of occupational health psychology*, *12*(2), 93.
+Wright, T. A., Cropanzano, R., & Bonett, D. G. (2007). The moderating role of employee positive well-being on the relation between job satisfaction and job performance. *Journal of Occupational Health Psychology*, *12*(2), 93.
 
