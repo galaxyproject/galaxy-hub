@@ -20,7 +20,7 @@ The Biopsychosocial model of mental health provides a comprehensive analysis of 
 These factors interact and have implications for the cause and treatment of various mental health issues. Although specific factors than others may more severely impact different people, it is likely that many people are affected by a complex combination of components. 
 
 <div class="center">
-<div style="height:40%; width:40%; display: inline-block">
+<div style="height:60%; width:60%; display: inline-block">
 
 ![Biopsychosocial Model Venn diagram](BPS_Venn_Diagram.png)
 
