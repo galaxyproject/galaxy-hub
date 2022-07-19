@@ -1,7 +1,7 @@
 ---
 title: "European Galaxy Days (EGD)"
 date: '2022-10-03'
-days: 6
+days: 5
 tease: "European Galaxy Community meeting in Autumn"
 continent: EU
 location: "Freiburg, Germany"
