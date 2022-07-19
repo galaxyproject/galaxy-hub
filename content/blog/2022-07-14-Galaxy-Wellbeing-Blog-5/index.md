@@ -1,5 +1,5 @@
 ---
-title: "Mental Health"
+title: "The Importance of Mental Health and It's Risk Factors"
 tease: "Fifth blog post presenting the Outreachy project on Mental Health"
 authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
 source_blog: "Galaxy Well-Being Outreachy project"
