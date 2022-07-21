@@ -45,13 +45,6 @@ The Galaxy Community strives to:
   - Continued one-on-one communication after requests to cease.
   - Deliberate “outing” of any aspect of a person’s identity without their consent, except as necessary to protect vulnerable people from intentional abuse.
   - Malicious publication of otherwise private communication, or private personal information (“doxing” or “outing”).
-  - ‘Reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’.
-
-The [Galaxy CoC Committee](#the-galaxy-coc-committee) reserves the right not to act on complaints regarding:
-- Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.”
-- Communicating in a ‘tone’ you don’t find congenial.
-- Criticizing racist, sexist, or otherwise oppressive behavior or assumptions.
-
 
 ### Reporting
 
