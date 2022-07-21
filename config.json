@@ -3,7 +3,8 @@
     "contentDir": "content",
     "collections": {
         "BareArticle": { "path": "/bare/", "type": "vue" },
-        "Platform": { "path": "/use/", "type": "md" }
+        "Platform": { "path": "/use/", "type": "md" },
+        "Person": { "path": "/people/", "type": "md" }
     },
     "categories": {
         "/blog": "blog",
