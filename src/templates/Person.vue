@@ -1,6 +1,6 @@
 <template>
     <Layout :subsite="$page.person.main_subsite" class="collection-person">
-        <g-link to="/people/" class="link"> &larr; Community Directory</g-link>
+        <g-link to="/people/" class="link">&larr; Community Directory</g-link>
         <header>
             <h1 class="pageTitle">{{ $page.person.name }}</h1>
         </header>
@@ -9,10 +9,10 @@
         </div>
         <ul class="metadata list-unstyled">
             <li v-if="$page.person.affiliations">
-                <span class="metakey">Affiliations:</span>
-                <template v-for="affiliation in $page.person.affiliations">
-                    <g-link :to="`/sites/${affiliation.id}`" :key="affiliation.id">{{ affiliation.name }}</g-link
-                    >,
+                <span class="metakey">Affiliations: </span>
+                <template v-for="(affiliation, index) in $page.person.affiliations">
+                    <template v-if="index > 0">, </template>
+                    <g-link :to="`/sites/${affiliation.id}`" :key="affiliation.id">{{ affiliation.name }}</g-link>
                 </template>
             </li>
             <li v-if="$page.person.email">
@@ -25,7 +25,7 @@
                 <a :href="`https://github.com/${$page.person.github}`">@{{ $page.person.github }}</a>
             </li>
             <li v-if="$page.person.website">
-                <a :href="$page.person.website">{{ $page.person.website }}</a>
+                <a :href="website_url">{{ $page.person.website }}</a>
             </li>
         </ul>
         <div class="content markdown" v-html="$page.person.content" />
@@ -73,36 +73,6 @@ import { mdToHtml } from "~/lib/utils.js";
 import { getImage } from "~/lib/pages.mjs";
 import { getRootSubsite } from "~/lib/site.js";
 const ROOT_SUBSITE = getRootSubsite();
-/*
-        name
-        subsites
-        affiliations {
-            id
-            url
-            name
-        }
-        email
-        phone
-        website
-        github
-        orcid
-        gitter
-        matrix
-        linkedin
-        twitter
-        google-scholar
-        researchgate
-        galaxy_help
-        location {
-            city
-            country
-            geo
-        }
-        image
-        fileInfo {
-            path
-        }
-*/
 export default {
     metaInfo() {
         return {
@@ -115,6 +85,16 @@ export default {
             return getImage(imagePath, this.$page.person.images);
         },
     },
+    computed: {
+        website_url() {
+            let website = this.$page.person.website;
+            if (website.startsWith('http://') || website.startsWith('https://')) {
+                return website;
+            } else {
+                return `https://${website}`;
+            }
+        }
+    }
 };
 </script>
 

@@ -17,6 +17,8 @@ galaxy_help: sbad
 affiliations:
 - id: cgnu
   name: Crazy Go Nuts University
+- id: psu
+  name: Penn State University
 location:
   city: The Stick
   country: Strong Badia
