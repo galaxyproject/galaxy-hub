@@ -32,7 +32,10 @@ query VueArticle($path: String!) {
         date (format: "YYYY-MM-DD")
         end (format: "YYYY-MM-DD")
         contact
-        contact_url
+        contacts {
+            id
+            name
+        }
         authors
         location
         location_url

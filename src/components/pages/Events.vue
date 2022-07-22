@@ -124,6 +124,10 @@ fragment articleFields on Article {
     location_url
     continent
     contact
+    contacts {
+        id
+        name
+    }
     external_url
     gtn
     links {

@@ -34,6 +34,11 @@
                     title="Training offered by GTN Member"
                 />
             </a>
+            <span v-for="(contact, index) in article.contacts" :key="contact.id || index">
+                <template v-if="index > 0">, </template>
+                <a v-if="contact.id" :href="`/people/${contact.id}/`">{{ contact.name }}</a>
+                <span v-else>{{ contact.name }}</span>
+            </span>
             {{ article.contact }}
         </td>
     </tr>

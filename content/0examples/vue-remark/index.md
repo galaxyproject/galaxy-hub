@@ -8,7 +8,11 @@ date: 2021-04-25
 days: 2
 continent: EU
 contact: people
-contact_url: https://example.com
+contacts:
+- id: jose
+  name: Jose
+- id: me
+  name: Me
 authors: Jose and me
 location: Strong Badia
 location_url: 'https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s'
