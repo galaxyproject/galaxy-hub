@@ -28,6 +28,7 @@
                 <a :href="website_url">{{ $page.person.website }}</a>
             </li>
         </ul>
+         <b-table v-if="$page.person.github" striped hover :repo="getGalaxyRepos($page.person.github)" :fields="fields"></b-table>
         <div class="content markdown" v-html="$page.person.content" />
     </Layout>
 </template>
@@ -74,6 +75,13 @@ import { getImage } from "~/lib/pages.mjs";
 import { getRootSubsite } from "~/lib/site.js";
 const ROOT_SUBSITE = getRootSubsite();
 export default {
+    data() {
+        return {
+            fields: ["Galaxy Repo", "Contributions"],
+            galaxyrepostring: "galaxyproject",
+
+        };
+    },
     metaInfo() {
         return {
             title: this.$page.person.name,
@@ -84,17 +92,51 @@ export default {
         getImage(imagePath) {
             return getImage(imagePath, this.$page.person.images);
         },
+        getGalaxyRepos(github) {
+            let userRepos = this.getRepos(github);
+            console.log(userRepos);
+            let galaxyRepos = this.getRepos(this.galaxyrepostring);
+            return userRepos;
+        },
+        getRepos(github) {
+            let repoNames = [];
+            // Create new XMLHttpRequest object
+            const xhr = new XMLHttpRequest();
+
+            // GitHub endpoint, dynamically passing in specified username
+            const url = `https://api.github.com/users/${github}/repos`;
+
+            // Open a new connection, using a GET request via URL endpoint
+            // Providing 3 arguments (GET/POST, The URL, Async True/False)
+            xhr.open("GET", url, true);
+
+            // When request is received
+            // Process it here
+            xhr.onload = function () {
+                // Parse API data into JSON
+                const data = JSON.parse(this.response);
+
+                // Save the response
+                data.forEach(function (value) {
+                    repoNames.push(value.name);
+                });
+            };
+
+            // Send the request to the server
+            xhr.send();
+            return repoNames;
+        },
     },
     computed: {
         website_url() {
             let website = this.$page.person.website;
-            if (website.startsWith('http://') || website.startsWith('https://')) {
+            if (website.startsWith("http://") || website.startsWith("https://")) {
                 return website;
             } else {
                 return `https://${website}`;
             }
-        }
-    }
+        },
+    },
 };
 </script>
 
