@@ -2,5 +2,8 @@
 name: Assunta DeSanto
 subsites: [us]
 github: assuntad23
-affiliation: psu
+image: adesanto_book_resize.png
+affiliations:
+- id: psu
+  name: Penn State University
 ---

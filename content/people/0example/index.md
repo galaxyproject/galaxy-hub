@@ -1,6 +1,7 @@
 ---
 name: Strong Bad
 subsites: ["eu"]
+main_subsite: "eu"
 email: sbad@homestarrunner.com
 phone: (808) 867-5309
 website: homestarrunner.com

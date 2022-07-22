@@ -1,5 +1,5 @@
 <template>
-    <Layout :subsite="subsite" class="collection-platform">
+    <Layout :subsite="$page.person.main_subsite" class="collection-person">
         <g-link to="/people/" class="link"> &larr; Community Directory</g-link>
         <header>
             <h1 class="pageTitle">{{ $page.person.name }}</h1>
@@ -11,7 +11,8 @@
             <li v-if="$page.person.affiliations">
                 <span class="metakey">Affiliations:</span>
                 <template v-for="affiliation in $page.person.affiliations">
-                    <g-link :to="`/sites/${affiliation.id}`" :key="affiliation.id">{{ affiliation.name }}</g-link>,
+                    <g-link :to="`/sites/${affiliation.id}`" :key="affiliation.id">{{ affiliation.name }}</g-link
+                    >,
                 </template>
             </li>
             <li v-if="$page.person.email">
@@ -21,7 +22,7 @@
         </ul>
         <ul>
             <li v-if="$page.person.github">
-                <a :href="`https://github.com/${$page.person.github}`">@{{ $page.person.github}}</a>
+                <a :href="`https://github.com/${$page.person.github}`">@{{ $page.person.github }}</a>
             </li>
             <li v-if="$page.person.website">
                 <a :href="$page.person.website">{{ $page.person.website }}</a>
@@ -44,14 +45,21 @@ query Person($path: String!) {
         gitter
         matrix
         linkedin
+        image
+        images
         twitter
         subsites
+        main_subsite
         google_scholar
         researchgate
         galaxy_help
         location {
             city
             country
+        }
+        affiliations {
+            id
+            name
         }
         fileInfo {
             path
@@ -104,7 +112,7 @@ export default {
     methods: {
         mdToHtml,
         getImage(imagePath) {
-            return getImage(imagePath, this.$page.platform.images);
+            return getImage(imagePath, this.$page.person.images);
         },
     },
 };
