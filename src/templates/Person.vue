@@ -111,17 +111,17 @@ export default {
             return repoData;
         },
         getGalaxyRepos(github) {
-            let userRepos = this.getRepos(github);
-            let galaxyRepos = this.getRepos(this.galaxyrepostring);
+            let userRepos = this.getRepos(github, "users");
+            let galaxyRepos = this.getRepos(this.galaxyrepostring, "orgs");
             return userRepos;
         },
-        getRepos(github) {
+        getRepos(github, type) {
             let repoNames = [];
             // Create new XMLHttpRequest object
             const xhr = new XMLHttpRequest();
 
             // GitHub endpoint, dynamically passing in specified username
-            const url = `https://api.github.com/users/${github}/repos`;
+            const url = `https://api.github.com/` + type + `/${github}/repos?per_page=100`;
 
             // Open a new connection, using a GET request via URL endpoint
             // Providing 3 arguments (GET/POST, The URL, Async True/False)
@@ -136,8 +136,6 @@ export default {
                 // Save the response
                 data.forEach(function (value) {
                     repoNames.push(value.name);
-                    console.log(value.name)
-                    console.log(value)
                 });
             };
 
