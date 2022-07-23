@@ -28,7 +28,13 @@
                 <a :href="website_url">{{ $page.person.website }}</a>
             </li>
         </ul>
-         <b-table v-if="$page.person.github" striped hover :repo="getGalaxyRepos($page.person.github)" :fields="fields"></b-table>
+        <b-table
+            v-if="$page.person.github"
+            striped
+            hover
+            :items="galaxyRepoData($page.person.github)"
+            :fields="fields"
+        ></b-table>
         <div class="content markdown" v-html="$page.person.content" />
     </Layout>
 </template>
@@ -38,6 +44,7 @@ query Person($path: String!) {
     person(path: $path) {
         id
         name
+        content
         email
         phone
         website
@@ -77,9 +84,8 @@ const ROOT_SUBSITE = getRootSubsite();
 export default {
     data() {
         return {
-            fields: ["Galaxy Repo", "Contributions"],
+            fields: ["galaxy_repo", "contributions"],
             galaxyrepostring: "galaxyproject",
-
         };
     },
     metaInfo() {
@@ -92,9 +98,20 @@ export default {
         getImage(imagePath) {
             return getImage(imagePath, this.$page.person.images);
         },
+        galaxyRepoData(github) {
+            let repoData = [];
+            const userGalaxyRepos = this.getGalaxyRepos(github);
+            console.log(userGalaxyRepos);
+            userGalaxyRepos.forEach(function (value) {
+                console.log(value);
+                repoData.push({ galaxy_repo: value, contributions: 12 });
+            });
+
+            console.log(repoData);
+            return repoData;
+        },
         getGalaxyRepos(github) {
             let userRepos = this.getRepos(github);
-            console.log(userRepos);
             let galaxyRepos = this.getRepos(this.galaxyrepostring);
             return userRepos;
         },
@@ -108,7 +125,7 @@ export default {
 
             // Open a new connection, using a GET request via URL endpoint
             // Providing 3 arguments (GET/POST, The URL, Async True/False)
-            xhr.open("GET", url, true);
+            xhr.open("GET", url, false);
 
             // When request is received
             // Process it here
@@ -119,6 +136,8 @@ export default {
                 // Save the response
                 data.forEach(function (value) {
                     repoNames.push(value.name);
+                    console.log(value.name)
+                    console.log(value)
                 });
             };
 
