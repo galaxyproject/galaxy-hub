@@ -72,7 +72,7 @@ The main source of heat for the planet is the Sun. Earth has an [ellipsoidal](ht
 
 
 
-# What can cause Climate Change?
+# What can cause climate change?
 
 
 
