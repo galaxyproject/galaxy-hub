@@ -46,8 +46,9 @@
                         <b-dropdown-item to="/images/galaxy-logos/">Branding</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown text="Projects">
-                        <b-dropdown-item to="/projects/covid19/">Covid19</b-dropdown-item>
+                        <b-dropdown-item to="/projects/covid19/">COVID-19</b-dropdown-item>
                         <b-dropdown-item to="/projects/mpxv/">Monkeypox</b-dropdown-item>
+                        <b-dropdown-item to="/projects/vgp/">VGP</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
@@ -67,9 +68,10 @@
 </template>
 
 <script>
-import { rmPrefix, getSingleKey } from "~/lib/utils.js";
+import { rmPrefix } from "~/lib/utils.js";
+import { getRootSubsite } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
-const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
+const ROOT_SUBSITE = getRootSubsite();
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
@@ -90,7 +92,7 @@ export default {
             }
         },
         subsiteName() {
-            let nameRaw = CONFIG.subsites.metadata[this.subsite]?.name;
+            let nameRaw = CONFIG.subsites.all[this.subsite]?.name;
             if (nameRaw) {
                 return nameRaw.replace("/", " ");
             } else {
@@ -99,7 +101,7 @@ export default {
         },
         subsiteLinks() {
             let subsitesLinks = [];
-            for (let [subsite, metadata] of Object.entries(CONFIG.subsites.metadata)) {
+            for (let [subsite, metadata] of Object.entries(CONFIG.subsites.all)) {
                 if (subsite === this.subsite) {
                     continue;
                 }
@@ -119,7 +121,7 @@ export default {
             return subsitesLinks;
         },
         theme() {
-            if (CONFIG.subsites.metadata[this.subsite]?.lightBg) {
+            if (CONFIG.subsites.all[this.subsite]?.lightBg) {
                 return "light";
             } else {
                 return "dark";
@@ -127,20 +129,20 @@ export default {
         },
         classes() {
             let classes = [];
-            if (CONFIG.subsites.metadata[this.subsite]?.lightBg) {
+            if (CONFIG.subsites.all[this.subsite]?.lightBg) {
                 classes.push("light-bg");
             }
             return classes;
         },
         logoUrl() {
-            if (CONFIG.subsites.metadata[this.subsite]?.lightBg) {
+            if (CONFIG.subsites.all[this.subsite]?.lightBg) {
                 return "/images/galaxy_logo_hub.svg";
             } else {
                 return "/images/galaxy_logo_hub_white.svg";
             }
         },
         style() {
-            let color = CONFIG.subsites.metadata[this.subsite]?.color;
+            let color = CONFIG.subsites.all[this.subsite]?.color;
             if (color) {
                 return `background-color: ${color}`;
             } else {

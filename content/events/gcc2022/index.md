@@ -28,36 +28,17 @@ collaboration and networking**.  There is no better event to share your work and
 learn form others working in Galaxy-related data-intensive science.
   </div>
 
-  <!-- Schedule & Key Dates -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/schedule-slice.png" class="card-img-top" alt="Key Dates and Schedule" />
-    <div class="card-header">Key Dates and Schedule</div>
-
-**[Registration](/events/gcc2022/register/) is open**.  See the [Key Dates
-page](/events/gcc2022/key-dates/) for more. Note that there is now a *Webinar
-mode* registration option for limited virtual attendance.
-
-The **[conference schedule](https://gcc2022.sched.com/)** shows the dates and times of conference events, and includes other cool events happening in and around the Twin Cities.  A **[summary is here](/events/gcc2022/schedule/)**.
-
-  </div>
-
 <!-- BoFs -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2022/bof-loons.jpeg" class="card-img-top" alt="A flock of loons" />
     <div class="card-header">Birds of a Feather</div>
 
-[Bird of a Feather (BoF) sessions](https://bit.ly/gcc2022-bofs) provide opportunities to gather and discuss special topics of interest. Have an idea for a BoF? [Propose a topic now](https://bit.ly/gcc2022-submit-bof) (it only requires a few sentences).
+[Bird of a Feather (BoF) sessions](https://bit.ly/gcc2022-bofs) provide
+opportunities to gather and discuss special topics of interest. BoF's take place
+every day of the main meeting. **Check out the [BoF
+schedule](https://gcc2022.sched.com/overview/type/E.+BoFs) for the this year's
+topics.**
 
-  </div>
-
-  <!-- Minneapolis Minnesota -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2022/spoon-and-cherry-peter-guyan.jpg" class="card-img-top" alt="Cherry and sppon, Peter Guyan, CC BY-NC-SA 2.0" />
-    <div class="card-header">Minneapolis-St. Paul</div>
-
-The University of Minnesota is located in the heart of the Twin Cities of [Minneapolis](https://www.minneapolis.org/) and [St. Paul](https://www.visitsaintpaul.com/) Minnesota.  The two downtowns are less than 10 miles apart and are connected by rapid transit.  The Twin Cities offer a vibrant cultural, music, sports, and entertainment scene, with great access to the outdoors.  The Twin Cites are one of the most livable metro areas in the United States.
-
-<small>Photo: Peter Guyan, Flickr, CC-BY NC SA 2.0</small>
   </div>
 
   <!-- Keynotes -->
@@ -68,7 +49,6 @@ The University of Minnesota is located in the heart of the Twin Cities of [Minne
 Interested in how informatics and AI can be integrated into molecular and clinical information to improve clinical decision making? Come hear the keynote speakers, **[Hongfang Liu](https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092)** on the opening day and **[Chris Tignanelli](https://med.umn.edu/bio/surgery-faculty-a-z/christopher-tignanelli)** on the closing day.
 
   </div>
-
 
 
   <!-- Sponsors -->
@@ -84,9 +64,33 @@ Interested in how informatics and AI can be integrated into molecular and clinic
     <img src="/images/icons/face-mask.png" class="card-img-top" alt="COVID-19" />
     <div class="card-header">COVID-19</div>
 
-COVID-19 is (still) very much around us and to help each other have a safe event, GCC2022 has adopted a [COVID-19 policy](/events/gcc2022/conduct/#covid-19-policy). Take a look at the details but the gist of it is that **face masks are required while indoors**. Please keep that in mind at all times during the event.
+COVID-19 is (still) very much around us and to help each other have a safe event, GCC2022 has adopted a [COVID-19 policy](/events/gcc2022/conduct/#covid-19-policy). Take a look at the details but the gist of it is that **face masks are required while indoors**. Please keep that in mind at all times during the event. Also, we ask to **test daily** using the provided tests.
   </div>
 
+
+  <!-- Schedule & Key Dates -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2022/schedule-slice.png" class="card-img-top" alt="Key Dates and Schedule" />
+    <div class="card-header">Key Dates and Schedule</div>
+
+[Online registration](/events/gcc2022/register/) is now closed, but **if you
+walk up to the registration desk, we'll still be able to register you**.
+
+There is also a *Webinar mode* registration option for limited virtual
+attendance; if you'd like to attend, please email [Jenn
+Vessio](mailto:jvessio1@jhu.edu) for details.
+
+  </div>
+
+<!-- Minneapolis Minnesota -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2022/spoon-and-cherry-peter-guyan.jpg" class="card-img-top" alt="Cherry and sppon, Peter Guyan, CC BY-NC-SA 2.0" />
+    <div class="card-header">Minneapolis-St. Paul</div>
+
+The University of Minnesota is located in the heart of the Twin Cities of [Minneapolis](https://www.minneapolis.org/) and [St. Paul](https://www.visitsaintpaul.com/) Minnesota.  The two downtowns are less than 10 miles apart and are connected by rapid transit.  The Twin Cities offer a vibrant cultural, music, sports, and entertainment scene, with great access to the outdoors.  The Twin Cites are one of the most livable metro areas in the United States.
+
+<small>Photo: Peter Guyan, Flickr, CC-BY NC SA 2.0</small>
+  </div>
 
   <!-- University of Minnesota -->
   <div class="card" style="min-width: 25%; max-width: 30rem;">

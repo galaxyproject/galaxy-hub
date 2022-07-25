@@ -1,7 +1,7 @@
 ---
 title: "UI/UX Engineer"
 date: '2021-11-27'
-closes: ""
+closes: "2022-07-10"
 summary: "Define how large-scale data analysis is done from a web browser. We are a friendly, ambitious research group at the University of Freiburg working on some of the most popular software in genomics, including Galaxy, deepTools, Bioconda, and BioContainers."
 continent: EU
 location: "University of Freiburg, Freiburg, Germany"

@@ -77,10 +77,10 @@ query Platform($path: String!) {
 </page-query>
 
 <script>
-import { mdToHtml, getSingleKey } from "~/lib/utils.js";
+import { mdToHtml } from "~/lib/utils.js";
 import { getImage } from "~/lib/pages.mjs";
-import CONFIG from "~/../config.json";
-const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
+import { getRootSubsite } from "~/lib/site.js";
+const ROOT_SUBSITE = getRootSubsite();
 export default {
     metaInfo() {
         return {

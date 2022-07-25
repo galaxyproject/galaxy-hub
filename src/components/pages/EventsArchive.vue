@@ -1,9 +1,7 @@
 <template>
     <Layout :subsite="$context.subsite">
-        <template v-if="$page.main">
-            <h1 class="page-title">{{ $page.main.title }}</h1>
-            <div class="markdown" v-html="$page.main.content" />
-        </template>
+        <h1 class="page-title">{{ $page.main ? $page.main.title : `${subsiteData.name} Events Archive` }}</h1>
+        <div class="markdown" v-if="hasContent($page.main)" v-html="$page.main.content" />
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -23,14 +21,24 @@
 
 <script>
 import ArticleTableEvents from "@/components/ArticleTableEvents";
+import { hasContent } from "~/lib/pages.mjs";
+import CONFIG from "~/../config.json";
 export default {
     components: {
         ArticleTableEvents,
     },
+    methods: {
+        hasContent,
+    },
     metaInfo() {
         return {
-            title: this.$page.main.title,
+            title: this.$page.main ? this.$page.main.title : `${this.subsiteData.name} Events Archive`,
         };
+    },
+    computed: {
+        subsiteData() {
+            return CONFIG.subsites.all[this.$context.subsite];
+        },
     },
 };
 </script>

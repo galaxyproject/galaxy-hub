@@ -27,20 +27,6 @@
         { "tag": "community-call", "path": "/community/community-calls/" }
     ],
     "subsites": {
-        "hierarchy": {
-            "global": {
-                "us": {},
-                "eu": {
-                    "freiburg": {},
-                    "pasteur": {},
-                    "belgium": {},
-                    "ifb": {},
-                    "genouest": {},
-                    "erasmusmc": {},
-                    "elixir-it": {}
-                }
-            }
-        },
         "shorthands": {
             "all": [
                 "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu", "us", "global"
@@ -49,9 +35,10 @@
                 "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu"
             ]
         },
-        "metadata": {
+        "all": {
             "global": {
                 "name": "Global",
+                "default": true,
                 "gitter": "galaxyproject/Lobby",
                 "order": 0
             },

@@ -1,7 +1,7 @@
 ---
 title: "DevOps Engineer"
 date: "2022-01-12"
-closes: ""
+closes: "2022-07-10"
 summary: "Work on specific topics such as near-data computing, enabling use of GPUs, meta-scheduling across federated resources, uniform authentication, and testing automation."
 continent: NA
 location: "Department of Biology, Johns Hopkins University, Baltimore, Maryland, United States"

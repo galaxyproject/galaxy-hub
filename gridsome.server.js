@@ -12,14 +12,10 @@ var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes, getSingleKey } = require("./src/lib/utils.js");
-const { subsiteFromPath, flattenSubsites } = require("./src/lib/site.js");
+const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes } = require("./src/lib/utils.js");
+const { subsiteFromPath, getRootSubsite } = require("./src/lib/site.js");
 const CONFIG = require("./config.json");
-const SUBSITES_LIST = flattenSubsites(CONFIG.subsites.hierarchy);
-const ROOT_SUBSITE = getSingleKey(CONFIG.subsites.hierarchy);
-if (!ROOT_SUBSITE) {
-    console.error("Error: Subsites hierarchy in config.json must have a single root subsite.");
-}
+const ROOT_SUBSITE = getRootSubsite();
 const COLLECTION_TYPES = {
     Article: "md",
     VueArticle: "vue",
@@ -138,7 +134,7 @@ function getMainSubsite(rawMainSubsite, pagePath) {
     let mainSubsite = undefined;
     // Use any (valid) user-defined `main_subsite`.
     if (rawMainSubsite) {
-        if (SUBSITES_LIST.includes(rawMainSubsite)) {
+        if (CONFIG.subsites.all[rawMainSubsite]) {
             mainSubsite = rawMainSubsite;
         } else {
             console.error(pagePath + repr`: main_subsite ${rawMainSubsite} not recognized.`);
@@ -177,7 +173,7 @@ function getSubsites(rawSubsites, mainSubsite, pagePath) {
         if (shorthandSubsites) {
             // It's a shorthand. Add all the subsites it stands for.
             shorthandSubsites.forEach((translated) => subsitesSet.add(translated));
-        } else if (SUBSITES_LIST.includes(subsite)) {
+        } else if (CONFIG.subsites.all[subsite]) {
             // It's an actual subsite. Just add it to the list.
             subsitesSet.add(subsite);
         } else {
@@ -340,7 +336,7 @@ module.exports = function (api) {
             });
         }
         // Pages repeated across every subsite.
-        for (let subsite of SUBSITES_LIST) {
+        for (let subsite of Object.keys(CONFIG.subsites.all)) {
             let prefix;
             if (subsite === ROOT_SUBSITE) {
                 prefix = "";

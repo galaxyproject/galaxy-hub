@@ -1,13 +1,13 @@
 <template>
     <Layout :subsite="$context.subsite">
-        <h1 class="page-title">{{ $page.main.title }}</h1>
+        <h1 class="page-title">{{ $page.main ? $page.main.title : `${subsiteData.name} Events` }}</h1>
         <div class="toc-wrapper col-md-3">
             <ul>
                 <li><a href="#upcoming-events">Upcoming Events</a></li>
                 <li><a href="#recent-events">Recent Events</a></li>
             </ul>
         </div>
-        <div class="body-wrapper col-md-9">
+        <div v-if="hasContent($page.main)" class="body-wrapper col-md-9">
             <div class="content markdown" v-html="$page.main.content" />
         </div>
         <div class="clearfix"></div>
@@ -52,14 +52,24 @@
 
 <script>
 import ArticleTableEvents from "@/components/ArticleTableEvents";
+import { hasContent } from "~/lib/pages.mjs";
+import CONFIG from "~/../config.json";
 export default {
     components: {
         ArticleTableEvents,
     },
+    methods: {
+        hasContent,
+    },
     metaInfo() {
         return {
-            title: this.$page.main.title,
+            title: this.$page.main ? this.$page.main.title : `${this.subsiteData.name} Events`,
         };
+    },
+    computed: {
+        subsiteData() {
+            return CONFIG.subsites.all[this.$context.subsite];
+        },
     },
 };
 </script>

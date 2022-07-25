@@ -51,7 +51,7 @@ export function gatherInserts(allInsert) {
 export function gatherCollections(page) {
     let collections = {};
     for (let [category, value] of Object.entries(page)) {
-        if (value.edges) {
+        if (value && value.edges) {
             collections[category] = value.edges.map((edge) => edge.node);
         }
     }
@@ -62,6 +62,9 @@ export function gatherCollections(page) {
 
 export function gatherCards(inserts) {
     let cards = {};
+    if (!inserts) {
+        return cards;
+    }
     for (let [name, insert] of Object.entries(inserts)) {
         if (name.endsWith("-card")) {
             let cardName = rmSuffix(name, "-card");
@@ -71,11 +74,14 @@ export function gatherCards(inserts) {
     return cards;
 }
 
-export function makeCardRows(rawCards, latest, cardsData, prefix = "", rowWidth = 3) {
+export function makeCardRows(cardsMetadata, latest, cardsData, prefix = "", rowWidth = 3) {
     let rows = [];
+    if (!cardsMetadata) {
+        return rows;
+    }
     let row = [];
     let remaining = rowWidth;
-    for (let card of rawCards) {
+    for (let card of cardsMetadata.list) {
         let cardData;
         if (card.type === "dynamic") {
             let items = latest[card.name];
