@@ -104,8 +104,7 @@ We know the world is shifting towards a more critical phase, scientists and rese
 
 The very first diagnostic step began in the early 19th century when ice ages and other natural changes in paleoclimate were first suspected and the natural greenhouse effect was first identified. Since then, there have been many satellites constantly orbiting the earth and collecting data with respect to climate variables such as aerosols, ocean temperature, ocean colour, albedo, ocean chlorophyll content and thousands of others. The category of satellites used to monitor short-term weather patterns, climate change and natural disasters are called [**Earth Observation Satellites**](https://en.wikipedia.org/wiki/List_of_Earth_observation_satellites)
 
-Below is the list of active satellites orbiting the earth and collecting climate data:
-
+Below is the list of satellites orbiting the earth and collecting climate data:
 
 
 ## Satellites for climate change studies
