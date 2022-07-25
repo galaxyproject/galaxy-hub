@@ -18,7 +18,7 @@ At the beginning of the presentation of the project, we presented our participan
 </div>
 </div>
 
-The picture above illustrates the word cloud poll, where bigger words represent more people filling the same words. In this poll, stress was the most answered word.
+The image above illustrates the word cloud poll, where bigger words represent more people filling the same words. In this poll, stress was the most answered word.
 
 Another interesting section of the session was the five questions we asked to get the communities intake on mental health, diversity, equity, inclusion, and values. We asked the following:
 
