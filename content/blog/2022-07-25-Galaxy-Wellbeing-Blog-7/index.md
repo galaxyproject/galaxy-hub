@@ -11,7 +11,7 @@ The Galaxy Well-being and Mental Health Project [Birds of a Feather (BoF) sessio
 At the beginning of the presentation of the project, we presented our participants with a word cloud poll where they could fill in as many words as they liked to the question “What comes to mind when you hear the word mental health?” This gave us a lot of insight into what people associated mental health with. In the poll, there were many words related to mental health problems, words linked to the need to address mental health, and positive words associated with mental health.
 
 <div class="center">
-<div style="height:50%; width:50%; display: inline-block">
+<div style="height:40%; width:40%; display: inline-block">
 
 ![Word Cloud Poll](Word_Cloud_Poll.png)
 
