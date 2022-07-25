@@ -62,6 +62,7 @@ The precipitation is shown with a bar graph and is labelled on the left y-axis. 
 
 ![Galaxy_Climate_Change_Blog_2_Img3.png](Galaxy_Climate_Change_Blog_2_Img3.png)
 
+It is very evident from the climatograms that the city of Tindouf, Algeria must be of a desert biome with very scarce winter rainfall and high temperatures. On the other hand, Barrow in AK has a very cold climate with little rainfall during the monsoons and winters. The climate of Peru is hot and humid with high rainfall throughout the year and a nearly constant temperature.  Los Angeles also experiences some tricky weather with winter rainfalls and moderate temperatures. The city of Mangalore in India experiences moderate temperatures with heavy monsoons and some winter rainfall.
 
 
 # Why do different places have different climates?
