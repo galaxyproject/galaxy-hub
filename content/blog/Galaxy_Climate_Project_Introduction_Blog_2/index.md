@@ -83,7 +83,7 @@ Well, during the last ice age, people journeyed across the land connecting North
 
 
 
-Overall a change in temperature and precipitation over a region can affect its climate. There are many underlying factors which lead to changing patterns of precipitation and global atmospheric and surface temperature. The rising levels of greenhouse gases such as carbon dioxide, methane, water vapour, etc. are leading to enhanced trapping of heat within the atmosphere of the world.  Thus leading to rising temperatures. This has led to higher land and ocean surface temperatures. As a result, the rate of evaporation has gone up, further increasing the global precipitation rate. 
+Overall a change in temperature and precipitation over a region can affect its climate. There are many underlying factors which lead to changing patterns of precipitation and global atmospheric and surface temperature. The rising levels of greenhouse gases such as carbon dioxide, methane, water vapour, etc. are leading to enhanced trapping of heat within the atmosphere of the world.  Thus leading to rising temperatures. This has led to higher land and ocean surface temperatures. As a result, the rate of evaporation has gone up, further increasing the global precipitation rate. There are many less obvious factors such as Albedo which have great significance in Earth's heat exchange processes.
 
 
 
