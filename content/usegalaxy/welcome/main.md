@@ -30,7 +30,7 @@ For more details, alternatives, and help, please **[read the announcement on Gal
 
 <div class="text-center my-5">
 
-[![The Galaxy Community Conference is an annual gathering of the Galaxy community includes training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking.](/images/events/gcc2022/gcc2022-schedule-glance.png)](https://gcc2022.sched.com/)
+[![The Galaxy Community Conference is an annual gathering of the Galaxy community that included training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking.](/images/events/gcc2022/gcc2022-schedule-glance.png)](https://galaxyproject.org/events/gcc2022/)
 
 ---
 

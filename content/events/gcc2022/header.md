@@ -8,7 +8,7 @@
 
 [Home](/events/gcc2022/) |
 [Register](/events/gcc2022/register) |
-[**Schedule**](/events/gcc2022/schedule/) |
+[Schedule](/events/gcc2022/schedule/) |
 [Abstracts](/events/gcc2022/abstracts/) |
 [Childcare](/events/gcc2022/childcare/) |
 [CoFest](/events/gcc2022/cofest/) |
@@ -17,14 +17,14 @@
 [Organizers](/events/gcc2022/organizers/) |
 [Sponsors](/events/gcc2022/sponsors/) |
 [Training](/events/gcc2022/training/) |
-[**Travel**](/events/gcc2022/travel/)
+[Travel](/events/gcc2022/travel/)
 
 </div>
 <div class="text-center">
 
 # **2022 Galaxy Community Conference (GCC2022)**
 
-### July 17-23, 2022 - [Now online as well](/events/gcc2022/register)!
+### July 17-23, 2022
 ### University of Minnesota, Twin Cities
 ### Minneapolis, Minnesota, United States
 
