@@ -50,7 +50,6 @@
                         <b-dropdown-item to="/projects/mpxv/">Monkeypox</b-dropdown-item>
                         <b-dropdown-item to="/projects/vgp/">VGP</b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item to="/events/gcc2022/">GCC2022</b-nav-item>
                     <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
                 </b-navbar-nav>
                 <b-navbar-nav id="global-tools" class="ml-2">

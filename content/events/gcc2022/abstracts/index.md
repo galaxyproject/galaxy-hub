@@ -24,11 +24,11 @@ end but please be present at the poster during your scheduled poster showing.
 
 | Date    | What |
 | -----   | --- |
-| <s>Apr  12</s> | <s>Abstracts due for short or long talks</s> |
-| <s>May  12</s> | <s>Talk submitters notified of acceptance status</s> |
-| <s>May  20</s> | <s>Deadline for confirming abstract acceptance</s> |
-| <s>Jun  3</s>  | <s>Poster/demo abstracts due</s> |
-| <s>Jun  17</s> | <s>Poster/demo submitters notified of acceptance status</s> |
+| Apr  12 | Abstracts due for short or long talks |
+| May  1  | Talk submitters notified of acceptance status |
+| May  20 | Deadline for confirming abstract acceptance |
+| Jun  3  | Poster/demo abstracts due |
+| Jun  17 | Poster/demo submitters notified of acceptance status |
 
 # Guidelines
 

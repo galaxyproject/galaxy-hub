@@ -6,23 +6,7 @@ all at once.
 
 # Registration
 
-Registration for GCC2022 is open. See below for event details and description of
-all registration options. The registration is processed by the University of
-Minneapolis.
-
-<div class="container">
-    <div class="row">
-        <div class="col"></div>
-        <div class="col">
-            <button type="button" class="btn btn-secondary center">
-                <a target="_blank" href="https://learning.umn.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=32741188">
-                    <strong>Register for the conference now</strong>
-                </a>
-            </button>
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
+Registration for GCC2022 is closed. But check back in early 2023 for GCC2023!
 
 ## Training Day, July 8
 
@@ -53,11 +37,11 @@ will have an opportunity to ask any questions of the presenters or poster
 authors. Note that in-person training events or CoFest will not be streamed.
 Also note that all speakers are required to attend in person.
 
-| | ~~Early (< May 12)~~ | ~~Full (< June 22)~~ | Late (> June 23) |
+| | Early (< May 12) | Full (< June 22) | Late (> June 23) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc     | ~~$250~~ | ~~$400~~ | $500 |
-| Academic / Non-Profit / Government | ~~$400~~ | ~~$550~~ | $750 |
-| Industry            | ~~$700~~ | ~~$900~~ | $1,150 |
+| Student/postdoc     | $250 | $400 | $500 |
+| Academic / Non-Profit / Government | $400 | $550 | $750 |
+| Industry            | $700 | $900 | $1,150 |
 | Webinar mode        | | | $80 <br/>$10 if working in a<br/>low-income country; see below|
 
 If you are currently working in a [low-income
