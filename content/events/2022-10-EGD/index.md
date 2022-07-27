@@ -6,21 +6,41 @@ tease: "European Galaxy Community meeting in Autumn"
 continent: EU
 location: "Freiburg, Germany"
 gtn: false
-contact: "Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano"
+contact: "Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis, Anika Erxleben"
 links:
 tags: []
 subsites: [global, all-eu]
 ---
 
-
 It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy Days 2022**!
 
 To minimize travelling (and yes, we recommend taking a train :-) ), we are co-locating 3 events on the same week:
-- ELIXIR Implementation Study 2021 meeting,
-- European Galaxy Days (**EGD**), talks, discussions and community updates,
-- EuroScienceGateway (**ESG**) kick-off, an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
-# Tentative Schedule
+<div class="float-right" style="max-width: 400px">
+
+![logo EGD](logo-egd2022.png)
+
+</div>
+
+<br>
+
+- **ELIXIR Implementation Study 2021 (IS2021)** meeting,
+- **European Galaxy Days (EGD)**, talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
+- **EuroScienceGateway (ESG)** kick-off, an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
+
+<br><br>
+
+# Registration
+
+Registration is free, but the space is limited, so we recommend to you register soon to secure your spot for the different events. 
+
+<div class="row justify-content-center">
+  <a class="btn w-25 btn-dark" href="https://bit.ly/egd2022-registration" role="button">Register now</a>
+</div>
+
+<br><br>
+
+# Schedule
 
 <table>
   <tbody>
@@ -72,7 +92,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
         <br><br><small>Strengthen Data Management in Galaxy</small>
       </td>
       <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
-        <br><br><small>Community updates</small>
+        <br><br><small>ELIXIR-Galaxy Community meeting</small>
       </td>
       <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
         <br><br><small>Birds of a Feather</small>
@@ -93,11 +113,10 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
   </tbody>
 </table>
 
-# Registration
+# Detailed Agenda
 
-Registration is free, but the space is limited, so we recommend to you register soon to secure your spot for the different events. 
+Coming soon
 
-The registration will open soon.
 # Venue
 
 <img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
@@ -114,7 +133,7 @@ Germany
 # Logistics
 ### Getting to Freiburg
 
-Freiburg can be easily reached by train with the ICE from the North (via Frankfurt and Karlsruhe) and the South (via Basel) [Deutsche Bahn](https://www.bahn.com/en)
+Freiburg can be easily reached by train with the ICE from the North (via Frankfurt and Karlsruhe) and the South (via Basel) [Deutsche Bahn](https://www.bahn.com/en).
 
 ### How to reach Freiburg from Basel/Mulhouse/Freiburg airport (EuroAirport)
 
@@ -129,3 +148,9 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 # Questions?
 
 If you want to present, help, have suggestions or questions, please get in touch with us.
+
+# Supporters
+
+This event is supported by ELIXIR.
+
+![logo EGD](/images/logos/ElixirNoTextLogo.png)
