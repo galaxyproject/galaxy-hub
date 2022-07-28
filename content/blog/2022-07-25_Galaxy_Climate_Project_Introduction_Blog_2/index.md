@@ -121,12 +121,15 @@ We have a lot of rain in Mumbai. Being a coastal city, the climate is moderate t
 
 
 
-## Climatograms
+## Climatogram
 
 ![Climatogram](Galaxy_Climate_Change_Blog_2_Img4.png)
 It can be inferred from the climatogram that the climate of Mumbai is moderate and humid. Heavy rainfall in the monsoon months of June to October is clearly indicated. 
 Some rainfall is also witnessed during the winter months but it is of low intensity.
 Find the analysis in a Jupyter Notebook [here](https://github.com/Quickbeasts51429/CLIMATOGRAPH/blob/main/Climography%202%20(1).ipynb).
+
+
+## Heatmap
 
 ![Surface Temperature Heatmap](Galaxy_Climate_Change_Blog_2_Img5.png)
 The above heatmap represents the ERA-5 -Landsat Monthly mean surface temperature over Mumbai for the last 65 years. The visualisation shows that the temperatures are highest near May and June. Somewhat a little high temperatures are also witnessed during October.Find the analysis in a Jupyter Notebook [here](https://github.com/NordicESMhub/galaxy-climate/blob/main/climate-heatmap/heatmap.ipynb)
