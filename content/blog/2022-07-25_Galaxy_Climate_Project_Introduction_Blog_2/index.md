@@ -56,25 +56,20 @@ Scientists use a  [Climatogram](http://mrswhittsweb.pbworks.com/w/file/fetch/103
 
 
 
-The precipitation is shown with a bar graph and is labelled on the left y-axis. The temperature is shown with a line graph, which is labelled on the right y-axis. The months of the year are the x-axis. Following are the climatograms of major cities of the world.
+The precipitation is shown with a bar graph and is labelled on the left y-axis. The temperature is shown with a line graph, which is labelled on the right y-axis. The months of the year are the x-axis. Following are the [climatograms of major cities of the world](https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png ).
 
-
-
-![https://www.creative-activity.ie/Geography/Biomes-World-Map?sort=rating&order=DESC](Galaxy_Climate_Change_Blog_2_Img3.png)
+![https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png](Galaxy_Climate_Change_Blog_2_Img3.png)
 
 It is very evident from the climatograms that the city of Tindouf, Algeria must be of a desert biome with very scarce winter rainfall and high temperatures. On the other hand, Barrow in AK has a very cold climate with little rainfall during the monsoons and winters. The climate of Peru is hot and humid with high rainfall throughout the year and a nearly constant temperature.  Los Angeles also experiences some tricky weather with winter rainfalls and moderate temperatures. The city of Mangalore in India experiences moderate temperatures with heavy monsoons and some winter rainfall.
 
 
 # Why do different places have different climates?
 
-
-
 The main source of heat for the planet is the Sun. Earth has an [ellipsoidal](https://oceanservice.noaa.gov/facts/earth-round.html#:~:text=The%20Earth%20is%20an%20irregularly%20shaped%20ellipsoid.&text=While%20the%20Earth%20appears%20to,actually%20closer%20to%20an%20ellipsoid.) shape, thus different regions receive heat in different proportions. The equator receives direct rays of the sun, thus heats the most. The rays not only heat the land and ocean surfaces but also heats the air above them. This serves to be the major region from where the hot air rises up and forms air currents which further drives the [global conveyor belt system](https://education.nationalgeographic.org/resource/global-conveyor-belt). This eventually transports the moisture and ocean water throughout the globe. This uneven distribution of temperature leads to different patterns of wind, rain and heat which eventually produces a varied climate pattern throughout the globe. But wait! Don’t you think this can lead to extreme temperature differences? The very reason we don’t experience extremes in temperatures and precipitation is due to the atmosphere. The atmosphere acts as a blanket of air around the earth and helps to prevent the heat produced due to solar insolation, from escaping directly into space. And thus a moderate temperature is maintained. Thus it can be concluded that the atmosphere along with solar heating is the major reason for varied climate patterns around the globe.
 
 
 
 # What can cause climate change?
-
 
 
 A few degrees can make a world of difference. Ice around 3 miles thick used to cover most of the Northern Hemisphere during the last glacial age. Is it obvious to think that glacial melting is a natural phenomenon and has been happening for a very long time? Are we just panicking over a natural phenomenon that was bound to be happening in time?
