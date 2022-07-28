@@ -1,6 +1,7 @@
 ---
 name: Assunta DeSanto
 subsites: [us]
+groups: [wg-goats]
 github: assuntad23
 image: adesanto_book_resize.png
 affiliations:

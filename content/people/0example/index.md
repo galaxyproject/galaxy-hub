@@ -2,6 +2,7 @@
 name: Strong Bad
 subsites: ["eu"]
 main_subsite: "eu"
+groups: [wg-goats, iuc]
 email: sbad@homestarrunner.com
 phone: (808) 867-5309
 website: homestarrunner.com
@@ -26,4 +27,5 @@ location:
     lat: '0.0'
     lon: '0.0'
 image:
+draft: true
 ---
