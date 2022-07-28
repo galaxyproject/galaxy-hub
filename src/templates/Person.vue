@@ -101,48 +101,59 @@ export default {
         galaxyRepoData(github) {
             let repoData = [];
             const userGalaxyRepos = this.getGalaxyRepos(github);
-            console.log(userGalaxyRepos);
-            userGalaxyRepos.forEach(function (value) {
-                console.log(value);
-                repoData.push({ galaxy_repo: value, contributions: 12 });
+            userGalaxyRepos.forEach(function (value, key) {
+                repoData.push({ galaxy_repo: key, contributions: 12 });
             });
 
-            console.log(repoData);
             return repoData;
         },
         getGalaxyRepos(github) {
             let userRepos = this.getRepos(github, "users");
             let galaxyRepos = this.getRepos(this.galaxyrepostring, "orgs");
-            return userRepos;
+            let joinedRepos = new Map();
+            userRepos.forEach((value, key) => {
+                if (galaxyRepos.has(key)) {
+                    joinedRepos.set(key, value);
+                }
+            });
+
+            return joinedRepos;
         },
         getRepos(github, type) {
-            let repoNames = [];
+            let pageNum = 1;
+            let perPage = 100;
+            let repoNames = new Map();
+            let responseSize = 0;
             // Create new XMLHttpRequest object
             const xhr = new XMLHttpRequest();
-
-            // GitHub endpoint, dynamically passing in specified username
-            const url = `https://api.github.com/` + type + `/${github}/repos?per_page=100`;
-
-            // Open a new connection, using a GET request via URL endpoint
-            // Providing 3 arguments (GET/POST, The URL, Async True/False)
-            xhr.open("GET", url, false);
 
             // When request is received
             // Process it here
             xhr.onload = function () {
                 // Parse API data into JSON
                 const data = JSON.parse(this.response);
-
+                responseSize = data.length;
                 // Save the response
                 data.forEach(function (value) {
-                    repoNames.push(value.name);
+                    repoNames.set(value.name, value);
                 });
             };
 
-            // Send the request to the server
-            xhr.send();
+            do {
+                // GitHub endpoint, dynamically passing in specified username
+                const url = `https://api.github.com/${type}/${github}/repos?per_page=${perPage}&page=${pageNum}`;
+
+                // Open a new connection, using a GET request via URL endpoint
+                // Providing 3 arguments (GET/POST, The URL, Async True/False)
+                xhr.open("GET", url, false);
+
+                // Send the request to the server
+                xhr.send();
+                pageNum++;
+            } while (responseSize % 100 == 0 && responseSize != 0);
             return repoNames;
         },
+        sendRequest(perPage, pageNum, type, github) {},
     },
     computed: {
         website_url() {
