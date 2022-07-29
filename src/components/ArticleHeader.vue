@@ -71,17 +71,10 @@ function makeJsonLd(meta) {
     if (meta.end) {
         json.endDate = meta.end;
     }
-    let contact;
     if (meta.contacts) {
-        contact = meta.contacts.map((c) => c.name).join(", ");
+        json.contact = meta.contacts.map((c) => ({ "@type": "Person", name: c.name }));
     } else if (meta.contact) {
-        contact = meta.contact;
-    }
-    if (contact) {
-        json.contact = {
-            "@type": "person",
-            name: contact,
-        };
+        json.contact = [{ "@type": "Person", name: meta.contact }];
     }
     json.url = `https://${CONFIG.host}${meta.path}`;
     return json;
