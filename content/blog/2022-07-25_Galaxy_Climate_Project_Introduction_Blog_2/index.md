@@ -46,7 +46,9 @@ There are five major biomes in the world : **aquatic**, **grassland**, **forest*
 
 
 
-![Galaxy Climate Project Outreachy Blog2_img2](https://askabiologist.asu.edu/sites/default/files/resources/articles/biomes/world-biomes-map.gif)
+![Biomes map the article entitle "Boundless Biomes" from Ask A Biologist, Arizona State university, USA](https://askabiologist.asu.edu/sites/default/files/resources/articles/biomes/world-biomes-map.gif)
+
+*This biome map is an illustration made by Sabine Deviche from [an article written by Karla Moeller](https://askabiologist.asu.edu/explore/biomes). It shows both land (terrestrial) and water (aquatic) based habitat types.*
 
 The daily weather might be fluctuating a lot in these biomes. But a long-term trend is the answer to the climate patterns. So a question arises, how is the climate at a place represented?
 
