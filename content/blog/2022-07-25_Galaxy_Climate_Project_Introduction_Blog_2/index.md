@@ -43,7 +43,8 @@ The precipitation is shown with a bar graph and is labelled on the left y-axis. 
 
 ![Galaxy Climate Project Outreachy Blog2_img3](https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png)
 
-Looking at the climatograms plotted by [Teresa Glass](https://sites.google.com/site/teresaglassessinvestigations/lessons/biology/biomes-and-climographs), we infer that the city of Tindouf, Algeria must be of a desert biome with very scarce winter rainfall and high temperatures. On the other hand, Barrow in AK has a very cold climate with little rainfall during the monsoons and winters. The climate of Peru is hot and humid with high rainfall throughout the year and a nearly constant temperature.  Los Angeles also experiences some tricky weather with winter rainfalls and moderate temperatures. The city of Mangalore in India experiences moderate temperatures with heavy monsoons and some winter rainfall.
+Looking at the climatograms plotted by [Teresa Glass](https://sites.google.com/site/teresaglassessinvestigations/lessons/biology/biomes-and-climographs), we infer that the city of Tindouf, Algeria must be of a desert biome with very scarce winter rainfall and high temperatures. On the other hand, Barrow in Alaska has a very cold climate with little rainfall during the monsoons and winters. The climate of Peru is hot and humid with high rainfall throughout the year and a nearly constant temperature.  Los Angeles also experiences some tricky weather with winter rainfalls and moderate temperatures. The city of Mangalore in India experiences moderate temperatures with heavy monsoons and some winter rainfall.
+
 
 
 # Why do different places have different climates?
