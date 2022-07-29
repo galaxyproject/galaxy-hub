@@ -46,7 +46,7 @@
 
 <script>
 import Redirect from "@/components/Redirect";
-import { isEmpty, ensureDomain, humanDateSpan } from "~/lib/utils.js";
+import { isEmpty, getType, ensureDomain, humanDateSpan } from "~/lib/utils.js";
 import { getImage } from "~/lib/pages.mjs";
 import CONFIG from "~/../config.json";
 import * as dayjs from "dayjs";
@@ -59,22 +59,47 @@ function makeJsonLd(meta) {
     let json = {
         "@context": "http://schema.org/",
     };
-    if (meta.category === "events") {
-        json["@type"] = "Event";
+    switch (meta.category) {
+        case "events":
+            json["@type"] = "Event";
+            break;
+        case "news":
+            json["@type"] = "NewsArticle";
+            break;
+        case "blog":
+            json["@type"] = "BlogPosting";
+            break;
     }
     if (meta.title) {
         json.name = meta.title;
     }
     if (meta.date) {
-        json.startDate = meta.date;
+        if (json["@type"] === "Event") {
+            json.startDate = meta.date;
+        } else if (json["@type"] === "BlogPosting" || json["@type"] === "NewsArticle") {
+            json.datePublished = meta.date;
+        }
     }
-    if (meta.end) {
+    if (meta.end && json["@type"] === "Event") {
         json.endDate = meta.end;
     }
-    if (meta.contacts) {
-        json.contact = meta.contacts.map((c) => ({ "@type": "Person", name: c.name }));
+    let contactNames;
+    if (meta.contacts && meta.contacts.length > 0) {
+        contactNames = meta.contacts.map((c) => c.name);
     } else if (meta.contact) {
-        json.contact = [{ "@type": "Person", name: meta.contact }];
+        contactNames = meta.contact.split(",").map((rawName) => rawName.trim());
+    }
+    if (contactNames) {
+        json.contact = contactNames.map((name) => ({ "@type": "Person", name }));
+    }
+    let authorNames;
+    if (getType(meta.authors) === "Array" && meta.authors.length > 0) {
+        authorNames = meta.authors.map((a) => a.name);
+    } else if (getType(meta.authors) === "String" && meta.authors) {
+        authorNames = meta.authors.split(",").map((rawName) => rawName.trim());
+    }
+    if (authorNames) {
+        json.author = authorNames.map((name) => ({ "@type": "Person", name }));
     }
     json.url = `https://${CONFIG.host}${meta.path}`;
     return json;
