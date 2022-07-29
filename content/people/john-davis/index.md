@@ -1,4 +1,8 @@
-<div class='right'>![](/galaxy-team/johndavis.jpg)</div>
+<div class='right'>
+
+![](/galaxy-team/johndavis.jpg)
+
+</div>
 
 # John Davis
 
