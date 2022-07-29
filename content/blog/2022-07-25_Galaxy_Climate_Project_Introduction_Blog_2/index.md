@@ -124,7 +124,7 @@ The above heatmap represents the [ERA-5 (fifth generation ECMWF reanalysis for t
 # What tool is being developed?
 
 Here comes the most awaited part, “[THE TIME SERIES EXTRACTION AND VISUALISATION TOOL](https://github.com/galaxyecology/tools-ecology/pull/58)”. So basically, I was working on the creation of a tool that extracts time series data containing a .csv file from a NetCDF file. Added to the extraction, the tool also plots a well-defined time series over a selected area and time. The tool is built on Python and wrapped in an XML wrapper class. The most intriguing and troublesome part for me was the testing. Beginning with the Windows Operating system, I faced an ocean of challenges and finally concluded that the process was not Windows’ cup of tea. I shifted to Kali Linux and did a lot of experimentation with environment creation and tool testing. Finally, my mentor Anne Fouilloux came to my rescue and the tool is now almost ready to be deployed. Huge Thanks!
-This was all for this blog, meet you in the next blog where we will be discussing the missions and organizations involved in the climate change action. You will also get to know what currently I am working on. So, don’t miss that and until then happy July!
+This was all for this blog, meet you in the next blog where we will be discussing the missions and organizations involved in the climate change action. You will also get to know what currently I am working on. So, don’t miss that and until then happy **August!**
 
 
 
