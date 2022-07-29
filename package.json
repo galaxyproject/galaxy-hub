@@ -21,6 +21,7 @@
   "dependencies": {
     "@babel/core": "^7.16.5",
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "@gridsome/vue-remark": "^0.2.6",
