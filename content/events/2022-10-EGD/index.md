@@ -151,6 +151,6 @@ If you want to present, help, have suggestions or questions, please get in touch
 
 # Supporters
 
-This event is supported by ELIXIR.
+This event is generously supported by [ELIXIR](https://elixir-europe.org/).
 
 ![logo EGD](/images/logos/ElixirNoTextLogo.png)
