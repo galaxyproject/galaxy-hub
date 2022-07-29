@@ -9,7 +9,6 @@ authors: "Soumya Jha, Anne Fouilloux, Jean Iaquinta"
 source_blog: "Galaxy Climate Outreachy Project"
 
 date: "2022-07-25"
-
 ---
 
 
