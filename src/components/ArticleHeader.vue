@@ -46,7 +46,7 @@
 
 <script>
 import Redirect from "@/components/Redirect";
-import { ensureDomain, humanDateSpan } from "~/lib/utils.js";
+import { isEmpty, ensureDomain, humanDateSpan } from "~/lib/utils.js";
 import { getImage } from "~/lib/pages.mjs";
 import CONFIG from "~/../config.json";
 import * as dayjs from "dayjs";
@@ -55,6 +55,37 @@ const SOCIAL_TAGS_METADATA = [
     ["tease", "description", 200],
     ["image", "image", null],
 ];
+function makeJsonLd(meta) {
+    let json = {
+        "@context": "http://schema.org/",
+    };
+    if (meta.category === "events") {
+        json["@type"] = "Event";
+    }
+    if (meta.title) {
+        json.name = meta.title;
+    }
+    if (meta.date) {
+        json.startDate = meta.date;
+    }
+    if (meta.end) {
+        json.endDate = meta.end;
+    }
+    let contact;
+    if (meta.contacts) {
+        contact = meta.contacts.map((c) => c.name).join(", ");
+    } else if (meta.contact) {
+        contact = meta.contact;
+    }
+    if (contact) {
+        json.contact = {
+            "@type": "person",
+            name: contact,
+        };
+    }
+    json.url = `https://${CONFIG.host}${meta.path}`;
+    return json;
+}
 export default {
     components: {
         Redirect,
@@ -86,6 +117,14 @@ export default {
         if (info.meta !== undefined) {
             info.meta.push({ property: "og:type", content: "article" });
             info.meta.push({ property: "twitter:card", content: "summary_large_image" });
+        }
+        // Add JSON-LD.
+        if (info.script === undefined) {
+            info.script = [];
+        }
+        info.script.push({ json: makeJsonLd(this.article), type: "application/ld+json" });
+        // Return the metaInfo, if any.
+        if (!isEmpty(info)) {
             return info;
         }
     },

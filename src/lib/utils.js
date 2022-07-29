@@ -36,6 +36,27 @@ function repr(strParts, ...values) {
 }
 module.exports.repr = repr;
 
+/** Is the object or array empty?
+ * This accepts an Object or Array (actually anything with a `length` property). For values with a `length` property,
+ * this returns `true` if its value is 0.
+ * For Objects, it returns `true` if the number of keys (via `Object.keys()`) is 0.
+ * @param {(Array|Object)} value The value whose emptiness is being tested.
+ * @returns {Boolean} `true` or `false` according to the rules above, or `undefined` if it has no `length` property and
+ *     is not an Object.
+ */
+function isEmpty(value) {
+    if (value.length !== undefined) {
+        return value.length === 0;
+    }
+    let type = getType(value);
+    if (type === "Object") {
+        return Object.keys(value).length === 0;
+    } else {
+        return undefined;
+    }
+}
+module.exports.isEmpty = isEmpty;
+
 /** Truncate long strings with an ellipsis, and leave alone strings that are already short enough.
  */
 function trunc(str, maxLen, endChar = "…") {
