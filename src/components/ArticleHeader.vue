@@ -76,7 +76,7 @@ function makeJsonLd(meta) {
     if (meta.date) {
         if (json["@type"] === "Event") {
             json.startDate = meta.date;
-        } else if (json["@type"] === "BlogPosting" || json["@type"] === "NewsArticle") {
+        } else {
             json.datePublished = meta.date;
         }
     }
