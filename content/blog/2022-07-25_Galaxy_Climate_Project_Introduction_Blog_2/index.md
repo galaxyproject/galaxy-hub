@@ -46,7 +46,7 @@ There are five major biomes in the world : **aquatic**, **grassland**, **forest*
 
 
 
-![Galaxy Climate Project Outreachy Blog2_img2](Galaxy_Climate_Change_Blog_2_Img2.jpg)
+![Galaxy Climate Project Outreachy Blog2_img2](https://askabiologist.asu.edu/sites/default/files/resources/articles/biomes/world-biomes-map.gif)
 
 The daily weather might be fluctuating a lot in these biomes. But a long-term trend is the answer to the climate patterns. So a question arises, how is the climate at a place represented?
 
@@ -58,7 +58,7 @@ Scientists use a  [Climatogram](http://mrswhittsweb.pbworks.com/w/file/fetch/103
 
 The precipitation is shown with a bar graph and is labelled on the left y-axis. The temperature is shown with a line graph, which is labelled on the right y-axis. The months of the year are the x-axis. Following are the [climatograms of major cities of the world](https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png ).
 
-![https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png](Galaxy_Climate_Change_Blog_2_Img3.png)
+![Galaxy Climate Project Outreachy Blog2_img3](https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png)
 
 It is very evident from the climatograms that the city of Tindouf, Algeria must be of a desert biome with very scarce winter rainfall and high temperatures. On the other hand, Barrow in AK has a very cold climate with little rainfall during the monsoons and winters. The climate of Peru is hot and humid with high rainfall throughout the year and a nearly constant temperature.  Los Angeles also experiences some tricky weather with winter rainfalls and moderate temperatures. The city of Mangalore in India experiences moderate temperatures with heavy monsoons and some winter rainfall.
 
