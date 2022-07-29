@@ -23,6 +23,10 @@ const MD_CONTENT_DIR = CONFIG.build.dirs.md;
 const VUE_CONTENT_DIR = CONFIG.build.dirs.vue;
 const CONTENT_DIR_DEPTH = rmSuffix(MD_CONTENT_DIR, "/").split("/").length;
 
+const SITEMAP_PLUGIN = {
+    use: "@gridsome/plugin-sitemap",
+};
+
 const RSS_PLUGIN = {
     use: "gridsome-plugin-feed",
     options: {
@@ -194,7 +198,7 @@ module.exports = {
     siteUrl: `https://${CONFIG.host}`,
     icon: "./src/favicon.png",
     templates: mkTemplates(CONFIG["collections"]),
-    plugins: [RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
+    plugins: [SITEMAP_PLUGIN, RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
     css: {
         loaderOptions: {
             scss: {
