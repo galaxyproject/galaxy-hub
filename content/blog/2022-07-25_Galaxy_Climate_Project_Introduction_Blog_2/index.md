@@ -25,14 +25,7 @@ date: "2022-07-25"
 [Climate](https://en.wikipedia.org/wiki/Climate) is the long-term, around 30 years, average weather over a particular region. It’s the typical pattern of temperature, precipitation, and wind and how those change seasonally throughout the year. 
 
 # What does climate look like?
-
-
-
 Have a look around. Whatever you see is a part of the biosphere. Due to its massiveness, a collective study of this biosphere is nearly impossible. Thus the terrestrial part of the biosphere has been divided into smaller but enormous slices named “Biomes”. No two biomes are alike and the climate determines the boundary of a biome and the abundance of plants and animals found in them.
-
-
-
-
 
 There are five major biomes in the world : **aquatic**, **grassland**, **forest**, **desert**, and **tundra**. Following are the best examples of the five biomes : **Pacific Ocean** (aquatic), **Eurasian steppe** (grassland), **Amazon rainforests** (forest), **Sahara** (desert) and **Kalaallit Nunaat high arctic** (tundra). 
 
