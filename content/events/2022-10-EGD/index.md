@@ -175,4 +175,11 @@ If you want to present, help, have suggestions or questions, please get in touch
 
 This event is generously supported by [ELIXIR](https://elixir-europe.org/).
 
-![logo EGD](/images/logos/ElixirNoTextLogo.png)
+
+<div style="max-width: 300px">
+
+![logo ELIXIR](/images/logos/ElixirNoTextLogo.png) 
+![logo EC](eu_funded_en.jpg)
+
+</div>
+
