@@ -173,7 +173,7 @@ If you want to present, help, have suggestions or questions, please get in touch
 
 # Supporters
 
-This event is generously supported by [ELIXIR](https://elixir-europe.org/).
+This event is generously supported by [ELIXIR](https://elixir-europe.org/) and funded by the European Union’s HORIZON-INFRA-2021-EOSC-01 under Grant Agreement no. 101057388.
 
 
 <div style="max-width: 300px">
