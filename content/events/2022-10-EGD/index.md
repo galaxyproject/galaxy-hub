@@ -26,7 +26,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 - **ELIXIR Galaxy Implementation Study (IS2021)** meeting,
 - **European Galaxy Days (EGD)**, talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
-- **EuroScienceGateway (ESG)** kick-off, an EU-funded project to build a network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
+- **EuroScienceGateway (ESG)** kick-off, an EU-funded project to build a mature network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
 <br><br>
 
@@ -113,9 +113,32 @@ Registration is free, but the space is limited, so we recommend to you register 
   </tbody>
 </table>
 
-# Detailed Agenda
+# Tentative Agenda
 
-Coming soon
+### Thursday, October 6
+
+| Time |  Speaker  |  Title  |  Location  |
+| ---- | -------- | ------ | ------- |
+| 09:00 - 09:30 |    | Arrival  |   |
+| 09:30 - 10:00 |   | Welcome   |
+| 10:00 - 11:30 |   | General presentation & WP1 (Project Management, Coordination and Dissemination)  |   |
+| 11:30 - 12:00 |   | Coffee Break   |   |
+| 12:00 - 13:00 |   | Presentation WP2 (Stimulate FAIR and reusable research) |   |
+| 13:00 - 14:00 |   | Lunch Break  |  |
+| 14:00 - 15:00 |   | Presentation WP3 (Pulsar Network: Distributed heterogeneous compute)  |   |
+| 15:00 - 16:00 |   | Presentation WP4 (Building blocks for a sustainable operating model)  |   |
+| 16:00 - 16:30 |   | Coffee Break  |    |
+| 16:30 - 17:30 |   | Presentation WP5 (Community engagement, adoption and onboarding) |   |
+
+### Friday, October 7
+
+| Time |  Speaker  |  Title  |  Location  |
+| ---- | -------- | ------ | ------- |
+| 09:00 - 09:30 |   | Welcome coffee  |   |
+| 09:30 - 11:30 |   | Discussion   |  |
+| 11:30 - 12:00 |   | Coffee Break |   |
+| 12:00 - 13:00 |   | Closing session |   |
+| 13:00 - 14:00 |   | Lunch Break  |   | 
 
 # Venue
 
@@ -124,7 +147,6 @@ Coming soon
 Albert-Ludwigs-University Freiburg<br />
 Institute for Informatics<br />
 Georges-Köhler-Allee, 101<br />
-2nd floor, room 2.16-18<br />
 79110 Freiburg<br />
 Germany
 
