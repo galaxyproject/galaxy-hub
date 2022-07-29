@@ -38,7 +38,8 @@ There are five major biomes in the world : **aquatic**, **grassland**, **forest*
 
 The daily weather might be fluctuating a lot in these biomes. But a long-term trend is the answer to the climate patterns. So a question arises, how is the climate at a place represented?
 Scientists use a  [Climatogram](http://mrswhittsweb.pbworks.com/w/file/fetch/103526601/climatograms%20unknown%20graphs.pdf) . A climatogram is a graph with a double-Y axis that plots the average monthly temperature & precipitation in a biome. The climate depends on a number of factors but the temperature and precipitation are the major ones which are decisive in the depiction of climate.
-The precipitation is shown with a bar graph and is labelled on the left y-axis. The temperature is shown with a line graph, which is labelled on the right y-axis. The months of the year are the x-axis. Following are the [climatograms of major cities of the world](https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png ).
+The precipitation is shown with a bar graph and is labelled on the left y-axis. The temperature is shown with a line graph, which is labelled on the right y-axis. The months of the year are the x-axis. Following are the [climatograms of major cities of the world](https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png).
+
 
 ![Galaxy Climate Project Outreachy Blog2_img3](https://lh3.googleusercontent.com/-Uyc7LG2ktfg/VNW3LvQ7IrI/AAAAAAAAohE/5us7H7XxSPc/s1600/climographs.png)
 
