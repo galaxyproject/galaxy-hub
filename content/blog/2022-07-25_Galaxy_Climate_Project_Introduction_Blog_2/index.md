@@ -24,14 +24,6 @@ date: "2022-07-25"
 
 [Climate](https://en.wikipedia.org/wiki/Climate) is the long-term, around 30 years, average weather over a particular region. It’s the typical pattern of temperature, precipitation, and wind and how those change seasonally throughout the year. 
 
-
-
-
-
-
-
-
-
 # What does climate look like?
 
 
