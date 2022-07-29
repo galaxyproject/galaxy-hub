@@ -114,7 +114,8 @@ Find the analysis in a Jupyter Notebook [here](https://github.com/Quickbeasts514
 ## Heatmap
 
 ![Surface Temperature Heatmap](Galaxy_Climate_Change_Blog_2_Img5.png)
-The above heatmap represents the [ERA-5 (fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades) Monthly mean](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview) surface temperature over Mumbai for the last 65 years. The visualisation shows that the temperatures are highest near May and June. Somewhat a little high temperatures are also witnessed during October.Find the analysis in a Jupyter Notebook [here](https://github.com/NordicESMhub/galaxy-climate/blob/main/climate-heatmap/heatmap.ipynb)
+The above heatmap represents the [ERA-5 (fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades) Monthly mean](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview) surface temperature over Mumbai for the last 65 years. The visualisation shows that the temperatures are highest near May and June. Somewhat a little high temperatures are also witnessed during October. Find the analysis in a Jupyter Notebook [here](https://github.com/NordicESMhub/galaxy-climate/blob/main/climate-heatmap/heatmap.ipynb).
+
 
 
 
