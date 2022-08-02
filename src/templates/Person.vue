@@ -101,8 +101,12 @@ export default {
         galaxyRepoData(github) {
             let repoData = [];
             const userGalaxyRepos = this.getGalaxyRepos(github);
+            let contribFn = this.getContributions;
+            // let galaxRepoString = this.galaxyrepostring;
             userGalaxyRepos.forEach(function (value, key) {
-                repoData.push({ galaxy_repo: key, contributions: 12 });
+                //get contributions
+                let pullCount = contribFn(github, key, "galaxyproject").length;
+                repoData.push({ galaxy_repo: key, contributions: pullCount });
             });
 
             return repoData;
@@ -118,6 +122,42 @@ export default {
             });
 
             return joinedRepos;
+        },
+        getContributions(github, galaxyRepo, galaxyRepoString) {
+            let pageNum = 1;
+            let perPage = 100;
+            let repoNames = [];
+            let responseSize = 0;
+            // Create new XMLHttpRequest object
+            const xhr = new XMLHttpRequest();
+
+            // When request is received
+            // Process it here
+            xhr.onload = function () {
+                // Parse API data into JSON
+                const data = JSON.parse(this.response);
+                responseSize = data.length;
+                // Save the response
+                data.forEach(function (value) {
+                    repoNames.push(value);
+                });
+            };
+
+            do {
+                // GitHub endpoint, dynamically passing in specified username
+                const url = `https://api.github.com/repos/${galaxyRepoString}/${galaxyRepo}/issues?creator=${github}&state=all&page=${pageNum}&per_page=${perPage}`;
+                // const url =
+                //     `https://api.github.com/repos/assuntad23/${galaxyRepo}/pulls`;
+
+                // Open a new connection, using a GET request via URL endpoint
+                // Providing 3 arguments (GET/POST, The URL, Async True/False)
+                xhr.open("GET", url, false);
+
+                // Send the request to the server
+                xhr.send();
+                pageNum++;
+            } while (responseSize % 100 == 0 && responseSize != 0);
+            return repoNames;
         },
         getRepos(github, type) {
             let pageNum = 1;
@@ -153,7 +193,6 @@ export default {
             } while (responseSize % 100 == 0 && responseSize != 0);
             return repoNames;
         },
-        sendRequest(perPage, pageNum, type, github) {},
     },
     computed: {
         website_url() {
