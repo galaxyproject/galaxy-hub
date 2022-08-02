@@ -9,8 +9,9 @@ location_url: "http://www.giiconference.com/chi653337/"
 external_url:
 image: /events/2019-04-bioit/bioitworld19.png
 gtn: false
-contact: "Presenters"
-contact_url: "/people/jeremy-goecks/"
+contacts:
+- id: jeremy-goecks
+  name: Presenters
 tags: [ cofest ]
 subsites: [global, us]
 ---

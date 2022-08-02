@@ -18,8 +18,7 @@
             </li>
             <li v-if="article.contact">
                 <span class="metakey">Contact: </span>
-                <a v-if="article.contact_url" :href="article.contact_url">{{ article.contact }}</a>
-                <template v-else>{{ article.contact }}</template>
+                {{ article.contact }}
             </li>
             <li v-else-if="article.contacts">
                 <span class="metakey">Contact: </span>
