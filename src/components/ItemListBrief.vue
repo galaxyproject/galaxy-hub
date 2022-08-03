@@ -1,11 +1,10 @@
 <template>
     <div class="item-list-brief">
-        <span class="date" v-if="fields.date">{{ fields.date }}</span>
-        <g-link class="title" :to="fields.link" :target="target">{{ fields.title }}</g-link>
-        <span class="tease" v-if="fields.tease">
-            &ndash;
-            <span class="markdown" v-html="mdToHtml(fields.tease)"></span>
-        </span>
+        <p class="headline">
+            <span class="date" v-if="fields.date">{{ fields.date }}</span>
+            <g-link class="title" :to="fields.link" :target="target">{{ fields.title }}</g-link>
+        </p>
+        <p class="tease markdown" v-if="fields.tease" v-html="mdToHtml(fields.tease)"></p>
     </div>
 </template>
 
@@ -50,6 +49,9 @@ export default {
     margin: 0;
     border-top: 1px solid #ddd;
 }
+.headline {
+    margin: 0;
+}
 .date {
     padding-right: 8px;
     font-weight: bold;
@@ -59,5 +61,7 @@ export default {
 }
 .tease {
     font-size: 80%;
+    margin-top: 2px;
+    margin-bottom: 0;
 }
 </style>
