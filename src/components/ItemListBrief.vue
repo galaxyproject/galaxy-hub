@@ -1,11 +1,12 @@
 <template>
-    <p>
+    <div class="item-list-brief">
+        <span class="date" v-if="fields.date">{{ fields.date }}</span>
         <g-link class="title" :to="fields.link" :target="target">{{ fields.title }}</g-link>
         <span class="tease" v-if="fields.tease">
             &ndash;
             <span class="markdown" v-html="mdToHtml(fields.tease)"></span>
         </span>
-    </p>
+    </div>
 </template>
 
 <script>
@@ -25,13 +26,11 @@ export default {
              *  This will parse the metadata from an Article into the standard set of "item" fields.
              */
             let fields = {
+                date: this.item.date,
                 title: this.item.title,
                 link: this.item.link || this.item.external_url || this.item.path,
                 tease: this.item.tease || "",
             };
-            if (this.item.date) {
-                fields.tease = `*${this.item.date}.* ${fields.tease}`;
-            }
             if (this.item.location) {
                 fields.tease += ` ${this.item.location} `;
             }
@@ -46,6 +45,15 @@ export default {
 </script>
 
 <style scoped>
+.item-list-brief {
+    padding: 8px 12px;
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+.date {
+    padding-right: 8px;
+    font-weight: bold;
+}
 .title {
     font-weight: bold;
 }

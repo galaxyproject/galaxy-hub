@@ -1,22 +1,29 @@
 <template>
     <div :class="['pseudo-card', `col-sm-${width}`]">
-        <h2 class="title">
-            <g-link :to="link" :target="target">
-                <span :class="`icon ${icon}`"></span>
-                {{ title }}
-            </g-link>
-        </h2>
-        <ItemListBrief v-for="(item, i) in items" :key="item.id || i" :item="item" :target="target" />
-        <div class="markdown content" v-if="content" v-html="content" />
+        <div class="inner-container">
+            <h2 class="title">
+                <g-link :to="link" :target="target">
+                    <span :class="`icon ${icon}`"></span>
+                    {{ title }}
+                </g-link>
+            </h2>
+            <div class="body">
+                <div class="markdown content" v-if="hasContent(content)" v-html="content" />
+                <ItemListBrief v-for="(item, i) in items" :key="item.id || i" :item="item" :target="target" />
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
 import ItemListBrief from "@/components/ItemListBrief";
-
+import { hasContent } from "~/lib/pages.mjs";
 export default {
     components: {
         ItemListBrief,
+    },
+    methods: {
+        hasContent,
     },
     props: {
         title: { type: String, required: false, default: "" },
@@ -30,24 +37,28 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import "~/assets/styles.scss";
-
+<style scoped>
 .pseudo-card {
-    background-color: $gray-200;
-    border: 4px solid white;
-    border-radius: 8px;
+    padding: 8px;
+}
+.inner-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0;
+}
+.title {
+    font-weight: normal;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .title .icon {
     margin-right: 0.4em;
 }
-.title {
-    font-weight: normal;
+.content {
+    border-top: 1px solid #ddd;
+    padding: 12px;
 }
-.content.markdown::v-deep p {
-    font-size: 80%;
-}
-.content.markdown::v-deep a {
-    font-size: 120%;
+.content.markdown::v-deep > *:last-child {
+    margin-bottom: 0;
 }
 </style>
