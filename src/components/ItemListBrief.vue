@@ -53,7 +53,8 @@ export default {
     margin: 0;
 }
 .date {
-    padding-right: 8px;
+    display: inline-block;
+    width: 3.3rem;
     font-weight: bold;
 }
 .title {
