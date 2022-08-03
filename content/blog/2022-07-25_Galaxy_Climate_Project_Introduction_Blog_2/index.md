@@ -89,10 +89,6 @@ The data these satellites record are available to the common public in the follo
 We have a lot of rain in Mumbai. Being a coastal city, the climate is moderate throughout the year. During winters, a temperature of 11 degrees Celcius makes us shiver, as we are not used to extreme temperatures. Wet winters and summers are uncommon but possible. But the trends have started moving towards the extremes in a few years. This summer of 2022 was experienced as the hottest summer in 122 years. The Indian Meteorological department has declared a yellow alert for the city as last week, Mumbai received over 200 mm of rain in 36 hours, 69% of the July average received in 5 days. The collective water stock in the seven reservoirs that supply drinking water to Mumbai is now at 88.20 percent. Yes, this very evidently depicts climate change. As we have discussed above, we study the climate using climatograms, let's have a look at the climatograms of the Mumbai region.
 
 
-We have a lot of rain in Mumbai. Being a coastal city, the climate is moderate throughout the year. During winters, a temperature of 11 degrees Celcius makes us shiver, as we are not used to extremes in temperatures. Wet winters and summers are uncommon but possible. But the trends have started moving towards the extremes in a few years. This summer, we’ve experienced the hottest summer in 122 years. The Indian Meteorological department has declared a yellow alert for the city as last week, Mumbai received over 200 mm of rain in 36 hours, 69% of the July average received in 5 days. The collective water stock in the seven reservoirs that supply drinking water to Mumbai is now at 88.20 percent. Yes, this very evidently depicts climate change.  As we have discussed above, we study the climate using climatograms, lets's have a look at the climatograms of the Mumbai region.
-
-
-
 
 
 
