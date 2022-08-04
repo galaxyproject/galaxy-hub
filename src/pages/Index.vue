@@ -159,6 +159,7 @@ query {
             node {
                 ...articleFields
                 date (format: "MMM D")
+                end  (format: "MMM D")
             }
         }
     }
@@ -182,6 +183,7 @@ query {
                 title
                 location
                 external_url
+                closes (format: "MMM D")
                 path
             }
         }

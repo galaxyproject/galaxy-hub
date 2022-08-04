@@ -133,6 +133,7 @@ query($subsite: String, $cardsPath: String, $insertRegex: String) {
             node {
                 ...articleFields
                 date (format: "MMM D")
+                end  (format: "MMM D")
             }
         }
     }
