@@ -8,7 +8,7 @@
                 </g-link>
             </h2>
             <div class="body">
-                <div class="markdown content" v-if="hasContent(content)" v-html="content" />
+                <div class="markdown content" v-if="content && content.trim()" v-html="content" />
                 <ItemListBrief v-for="(item, i) in items" :key="item.id || i" :item="item" :target="target" />
             </div>
         </div>
