@@ -164,7 +164,7 @@ export function makeCardRows(cardsMetadata, latest, cardsData, prefix = "", rowW
         }
         let width = card.width || 1;
         // Standard Bootstrap row width is 12.
-        cardData.width = (width * 12) / rowWidth;
+        cardData.width = Math.round((width * 12) / rowWidth);
         row.push(cardData);
         remaining -= width;
         if (remaining <= 0) {
