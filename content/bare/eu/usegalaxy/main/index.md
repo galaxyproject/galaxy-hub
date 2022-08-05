@@ -19,7 +19,8 @@ title: Galaxy Europe
 
 <p></p>
 
-<slot name="/eu/main" />
+<slot name="/eu/main1" />
+<slot name="/eu/main2" />
 
 <slot name="/eu/data-policy" />
 
