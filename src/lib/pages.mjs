@@ -2,7 +2,7 @@
 
 import utils from "./utils.js";
 // Kludge for an issue (probably) with webpack.
-const { repr, rmSuffix } = utils;
+const { repr, rmSuffix, shrinkWrap } = utils;
 
 export function getImage(imagePath, images) {
     if (!imagePath) {
@@ -48,6 +48,9 @@ export function gatherInserts(allInsert) {
     return inserts;
 }
 
+/** Find the values returned from the GraphQL query which are collections of multiple objects
+ * (anything with an `edges` property), and bundle them into Arrays of nodes.
+ */
 export function gatherCollections(page) {
     let collections = {};
     for (let [category, value] of Object.entries(page)) {
@@ -56,6 +59,63 @@ export function gatherCollections(page) {
         }
     }
     return collections;
+}
+
+/** Look through the Inserts and find "bundles" of related ones.
+ * A "bundle" is a group of Inserts whose name has the same prefix, followed by an integer.
+ * The integer is optional, but only if the name matches one given with the `bundleNames` parameter.
+ * Bundles will be grouped into arrays in the order of their ending integers.
+ * @param {Object} inserts An object holding the insert objects, keyed by their names.
+ * @param {Array} [bundleNames=[]]
+ * @returns {Object} An object whose keys are the bundle names (the prefixes), and whose values are arrays.
+ *     Each array holds a list of Insert objects, ordered by the integers at the ends of their names.
+ *     Inserts without an ending integer will be placed at the start of its array.
+ *     Also, empty slots will be removed from the arrays. All of this means the index of an insert in the array will not
+ *     necessarily be the same as its ending integer. E.g. if you have `main.md`, `main1.md`, and `main4.md`, you will
+ *     end up with an array with those 3 inserts at indices 0, 1, and 2, respectively.
+ *     Empty Inserts (judged by `hasContent()`) will be ignored and not included in the bundles.
+ */
+export function bundleInserts(inserts, bundleNames = []) {
+    let bundles = {};
+    for (let [name, value] of Object.entries(inserts)) {
+        if (!hasContent(value)) {
+            continue;
+        }
+        let bundleName, index;
+        if (bundleNames.includes(name)) {
+            bundleName = name;
+        } else {
+            // Look for a name that ends in an integer.
+            let match = name.match(/^(.*[^\d])(\d+)$/);
+            if (match) {
+                bundleName = match[1];
+                let indexStr = match[2];
+                index = parseInt(indexStr);
+            }
+        }
+        if (bundleName) {
+            let bundle = bundles[bundleName];
+            if (!bundle) {
+                bundle = [];
+                bundles[bundleName] = bundle;
+            }
+            if (index === undefined) {
+                // We allow insert names without an index, like `main.md`.
+                bundle.noIndex = value;
+            } else {
+                bundle[index] = value;
+            }
+        }
+    }
+    // Push the index-less inserts onto the front of each bundle array.
+    // We do this at the end to not mess up the indexing.
+    for (let bundle of Object.values(bundles)) {
+        if (bundle.noIndex) {
+            bundle.unshift(bundle.noIndex);
+        }
+        shrinkWrap(bundle);
+    }
+    return bundles;
 }
 
 // Managing homepage cards

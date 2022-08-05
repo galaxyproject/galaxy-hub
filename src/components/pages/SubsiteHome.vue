@@ -24,14 +24,23 @@
             />
         </div>
 
-        <section class="extra markdown" v-if="hasContent(inserts.extra)" v-html="inserts.extra.content" />
+        <section class="lower" v-if="bundles.lower && bundles.lower.length > 0">
+            <div class="markdown" v-for="(insert, i) of bundles.lower" :key="i" v-html="insert.content" />
+        </section>
     </Layout>
 </template>
 
 <script>
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
-import { hasContent, gatherInserts, gatherCollections, gatherCards, makeCardRows } from "~/lib/pages.mjs";
+import {
+    hasContent,
+    gatherInserts,
+    gatherCollections,
+    bundleInserts,
+    gatherCards,
+    makeCardRows,
+} from "~/lib/pages.mjs";
 import { addTwitterScript, addAltmetricsScript } from "~/lib/client.mjs";
 import CONFIG from "~/../config.json";
 export default {
@@ -51,6 +60,7 @@ export default {
         this.inserts = gatherInserts(this.$page.allInsert);
         this.cards = gatherCards(this.inserts);
         this.latest = gatherCollections(this.$page);
+        this.bundles = bundleInserts(this.inserts, ["main", "lead", "lower"]);
     },
     computed: {
         subsiteData() {
