@@ -62,49 +62,42 @@ export function gatherCollections(page) {
 }
 
 /** Look through the Inserts and find "bundles" of related ones.
- * A "bundle" is a group of Inserts whose name has the same prefix, followed by an integer.
- * The integer is optional, but only if the name matches one given with the `bundleNames` parameter.
- * Bundles will be grouped into arrays in the order of their ending integers.
- * @param {Object} inserts An object holding the insert objects, keyed by their names.
- * @param {Array} [bundleNames=[]]
+ * A "bundle" is a group of Inserts whose name has the same prefix, optionally followed by an integer.
+ * E.g. `main.md`, `main1.md`, and `main4.md` will be put into the bundle named `main`.
+ * All inserts will end up in a bundle, even if they don't end in an integer and have no others inserts with the same
+ * prefix. Also, only ending integers count; `g4gh.md` will be put into the `g4gh` bundle.
+ * @param {Object} inserts An object holding the Insert objects, keyed by their names.
  * @returns {Object} An object whose keys are the bundle names (the prefixes), and whose values are arrays.
  *     Each array holds a list of Insert objects, ordered by the integers at the ends of their names.
- *     Inserts without an ending integer will be placed at the start of its array.
+ *     Any Insert without an ending integer will be placed at the start of its array.
  *     Also, empty slots will be removed from the arrays. All of this means the index of an insert in the array will not
  *     necessarily be the same as its ending integer. E.g. if you have `main.md`, `main1.md`, and `main4.md`, you will
- *     end up with an array with those 3 inserts at indices 0, 1, and 2, respectively.
- *     Empty Inserts (judged by `hasContent()`) will be ignored and not included in the bundles.
+ *     end up with an array like [<main.md>, <main1.md>, <main4.md>].
  */
-export function bundleInserts(inserts, bundleNames = []) {
+export function gatherBundles(inserts) {
     let bundles = {};
     for (let [name, value] of Object.entries(inserts)) {
-        if (!hasContent(value)) {
-            continue;
-        }
         let bundleName, index;
-        if (bundleNames.includes(name)) {
-            bundleName = name;
+        // Does the name end in an integer?
+        let match = name.match(/^(.*[^\d])(\d+)$/);
+        if (match) {
+            bundleName = match[1];
+            let indexStr = match[2];
+            index = parseInt(indexStr);
         } else {
-            // Look for a name that ends in an integer.
-            let match = name.match(/^(.*[^\d])(\d+)$/);
-            if (match) {
-                bundleName = match[1];
-                let indexStr = match[2];
-                index = parseInt(indexStr);
-            }
+            bundleName = name;
         }
-        if (bundleName) {
-            let bundle = bundles[bundleName];
-            if (!bundle) {
-                bundle = [];
-                bundles[bundleName] = bundle;
-            }
-            if (index === undefined) {
-                // We allow insert names without an index, like `main.md`.
-                bundle.noIndex = value;
-            } else {
-                bundle[index] = value;
-            }
+        let bundle = bundles[bundleName];
+        if (!bundle) {
+            bundle = [];
+            bundles[bundleName] = bundle;
+        }
+        if (index === undefined) {
+            // Insert names without an index go at the start of the array, but we can't put it there yet, in case
+            // there's an insert later whose index is 0.
+            bundle.noIndex = value;
+        } else {
+            bundle[index] = value;
         }
     }
     // Push the index-less inserts onto the front of each bundle array.
@@ -116,6 +109,18 @@ export function bundleInserts(inserts, bundleNames = []) {
         shrinkWrap(bundle);
     }
     return bundles;
+}
+
+export function searchBundle(bundle, key, fallback) {
+    if (!bundle) {
+        return fallback;
+    }
+    for (let insert of bundle) {
+        if (insert[key]) {
+            return insert[key];
+        }
+    }
+    return fallback;
 }
 
 // Managing homepage cards

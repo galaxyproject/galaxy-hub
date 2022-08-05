@@ -1,15 +1,13 @@
 <template>
     <Layout>
         <header id="header">
-            <h1 class="display-4">{{ inserts.main.title }}</h1>
-            <h3 v-if="inserts.main.subtitle">{{ inserts.main.subtitle }}</h3>
+            <h1 class="display-4">{{ title }}</h1>
+            <h3 v-if="subtitle">{{ subtitle }}</h3>
         </header>
 
-        <HomeTop :lead="inserts.lead" :jumbotron="inserts.jumbotron" />
+        <HomeTop :lead="bundles.lead" :jumbotron="inserts.jumbotron" />
 
-        <div id="main-content" v-if="hasContent(inserts.main)" class="row">
-            <section class="col-sm-12" v-html="inserts.main.content" />
-        </div>
+        <Bundle id="main-content" class="row" :bundle="bundles.main" :subclasses="['col-sm-12']" />
 
         <b-row id="profiles" class="justify-content-md-center">
             <HomeProfile
@@ -57,7 +55,7 @@
             />
         </div>
 
-        <section class="extra markdown" v-if="hasContent(inserts.extra)" v-html="inserts.extra.content" />
+        <Bundle id="lower" :bundle="bundles.lower" />
     </Layout>
 </template>
 
@@ -65,16 +63,22 @@
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
 import HomeProfile from "@/components/HomeProfile.vue";
-import { hasContent, gatherCollections, gatherInserts, gatherCards, makeCardRows } from "~/lib/pages.mjs";
+import Bundle from "@/components/Bundle.vue";
+import {
+    gatherCollections,
+    gatherInserts,
+    gatherBundles,
+    searchBundle,
+    gatherCards,
+    makeCardRows,
+} from "~/lib/pages.mjs";
 import { addTwitterScript, addAltmetricsScript } from "~/lib/client.mjs";
 export default {
     components: {
         HomeTop,
         HomeProfile,
         HomeCard,
-    },
-    methods: {
-        hasContent,
+        Bundle,
     },
     metaInfo: {
         title: "Home",
@@ -83,10 +87,17 @@ export default {
         this.inserts = gatherInserts(this.$page.allInsert);
         this.cards = gatherCards(this.inserts);
         this.latest = gatherCollections(this.$page);
+        this.bundles = gatherBundles(this.inserts);
     },
     computed: {
         cardRows() {
             return makeCardRows(this.$page.cards, this.latest, this.cards);
+        },
+        title() {
+            return searchBundle(this.bundles.main, "title");
+        },
+        subtitle() {
+            return searchBundle(this.bundles.main, "subtitle");
         },
     },
     mounted() {
@@ -205,5 +216,8 @@ fragment articleFields on Article {
 }
 #main-content {
     margin-bottom: 20px;
+}
+#lower {
+    margin-top: 10px;
 }
 </style>
