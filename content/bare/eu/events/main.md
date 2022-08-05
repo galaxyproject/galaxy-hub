@@ -1,3 +1,0 @@
----
-title: European Galaxy Events
----
