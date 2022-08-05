@@ -150,7 +150,8 @@ footer {
 
 /* override bootstrap blockquote styling */
 
-.blockquote {
+.blockquote,
+.markdown blockquote {
     border-left: 1rem solid #f5f5f5; // same as code
     padding-left: 1rem;
 }
@@ -582,6 +583,10 @@ p.trim-p,
 .markdown .btn p {
     padding: 0 !important;
     margin: 0;
+}
+.img-mx-3 img {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .inline-p p,
 .inline-div div {
