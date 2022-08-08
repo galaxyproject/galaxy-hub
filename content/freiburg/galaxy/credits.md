@@ -3,8 +3,8 @@ Maintained by
 
 <div class="img-sizer img-mx-3" style="height: 100px">
 
-[![Freiburg Galaxy Logo](/images/logos/FreiburgGalaxyTeam.png)](https://galaxyproject.eu/freiburg/)
-[![Galaxy Training Network Logo](/images/galaxy-logos/GTNLogo1000.png)](https://galaxyproject.org/teach/gtn/)
+[![Freiburg Galaxy Logo](/images/logos/FreiburgGalaxyTeam.png)](https://usegalaxy-eu.github.io/freiburg/)
+[![Galaxy Training Network Logo](/images/galaxy-logos/GTNLogo1000.png)](https://training.galaxyproject.org)
 
 </div>
 <p></p>

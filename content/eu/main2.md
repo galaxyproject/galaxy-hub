@@ -14,7 +14,7 @@ subtitle: The homepage of the European Galaxy community
       <div class="text-center">
           <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100">
           <br><br>
-          <a href="https://galaxyproject.eu/freiburg/projects" class="btn btn-primary">See all the projects</a>
+          <a href="https://usegalaxy-eu.github.io/freiburg/projects" class="btn btn-primary">See all the projects</a>
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@ subtitle: The homepage of the European Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/citations.svg" alt="projects" height="100">
         <br><br>
-        <a href="https://galaxyproject.eu/citations" class="btn btn-primary">Learn how to cite the server</a>
+        <a href="https://usegalaxy-eu.github.io/citations" class="btn btn-primary">Learn how to cite the server</a>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ subtitle: The homepage of the European Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/team.svg" alt="team" height="100">
         <br><br>
-        <a href="https://galaxyproject.eu/people" class="btn btn-primary">Meet the team</a>
+        <a href="https://usegalaxy-eu.github.io/people" class="btn btn-primary">Meet the team</a>
       </div>
     </div>
   </div>
