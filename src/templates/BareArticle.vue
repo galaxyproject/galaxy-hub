@@ -1,7 +1,7 @@
 <template>
     <div class="collection-bare-article">
         <main id="maincontainer" :class="['container', 'markdown', ...mdClasses]">
-            <VueRemarkContent>
+            <VueRemarkContent class="vue-remark-content">
                 <!--
                     Insert the content for each `<slot>` in the Markdown.
                     `#[insert.name]` (shorthand for `v-slot:[insert.name]`) identifies which slot each `<template>`
