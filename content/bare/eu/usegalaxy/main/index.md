@@ -22,12 +22,12 @@ title: Galaxy Europe
 <slot name="/eu/main1" />
 <slot name="/eu/main2" />
 
-<slot name="/eu/data-policy" />
+<slot name="/eu/common/data-policy" />
 
 <p></p>
 
 <footer>
-<slot name="/eu/credits-footer" />
+<slot name="/eu/site-footer" />
 </footer>
 
 import Gitter from "@/components/Gitter";

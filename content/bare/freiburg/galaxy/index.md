@@ -23,10 +23,10 @@ title: Galaxy Freiburg
 <p></p>
 <slot name="/eu/common/training" />
 
-<slot name="/eu/data-policy" />
+<slot name="/eu/common/data-policy" />
 <p></p>
 
 <footer style="margin-top: 50px">
-<slot name="/freiburg/credits-footer" />
+<slot name="/freiburg/site-footer" />
 </footer>
 
