@@ -7,11 +7,13 @@ Maintained by
 [![Galaxy Training Network Logo](/images/galaxy-logos/GTNLogo1000.png)](https://galaxyproject.org/teach/gtn/)
 
 </div>
+<p></p>
 
 Sponsors/Funding
 ----------------
 
-<div class="img-sizer img-mx-3" style="height: 68px; margin-bottom: 20px">
+<!-- The very large bottom margin is a workaround for the fact that when the screen gets small, this row of images will wrap, becoming taller, but the layout "height" of the div will remain at 68px, causing things below to slide up underneath some of the images. -->
+<div class="img-sizer img-mx-3" style="height: 68px; margin-bottom: 90px">
 
 [![de.NBI Logo](/images/logos/deNBILogo.png)](https://www.denbi.de)
 [![DFG Logo](/images/logos/dfg_logo.svg)](https://www.dfg.de)
