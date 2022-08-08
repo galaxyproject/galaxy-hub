@@ -23,6 +23,6 @@ title: Galaxy Freiburg
 <slot name="/eu/data-policy" />
 
 <footer>
-<slot name="/footers/freiburg" />
+<slot name="/freiburg/credits-footer" />
 </footer>
 
