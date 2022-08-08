@@ -130,7 +130,7 @@ Participants were also asked what they would like to see get addressed in open-s
 
 The survey results show the need to create awareness about mental health and reduce stigma, as most participants reported having mental health problems. It also shows that some people feel excluded from communities, so it's essential to think of how we can make open source more welcoming and a safe space for everyone. In addition, there is a need to address work-related stressors such as workload and conflict, as well as the need to keep community members involved and informed on what's going on in the community, who are making critical decisions, and having a clear project roadmap. Regarding mental health knowledge, most participants demonstrated a sufficient understanding of mental health matters addressed in the questionnaire. It also showed that most acknowledged and accepted mental health as a component of health and agreed that mental health problems could be preventable. So why is mental health not being adequately addressed in the communities?
 
-# Reference
+# References
 
 Holmgren, K. (2008). *Work‐related stress in women: Assessment, prevalence and return to work* (Master’s thesis). University of Gothenburg, Sweden. https://gupea.ub.gu.se/bitstream/handle/2077/17726/gupea_2077_17726_1.pdf?sequence=1&isAllowed=y
 
