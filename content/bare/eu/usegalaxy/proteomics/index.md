@@ -124,7 +124,7 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 <slot name="/bare/eu/usegalaxy/jobs" />
 
 <footer>
-<slot name="/footers/eu" />
+<slot name="/eu/credits-footer" />
 </footer>
 
 import Gitter from "@/components/Gitter";
