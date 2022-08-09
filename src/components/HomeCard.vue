@@ -55,7 +55,6 @@ export default {
     margin-right: 0.4em;
 }
 .content {
-    border-top: 1px solid #ddd;
     padding: 12px;
 }
 .content.markdown::v-deep > *:last-child {
