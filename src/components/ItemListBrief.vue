@@ -1,11 +1,12 @@
 <template>
-    <p>
-        <g-link class="title" :to="fields.link" :target="target">{{ fields.title }}</g-link>
-        <span class="tease" v-if="fields.tease">
-            &ndash;
-            <span class="markdown" v-html="mdToHtml(fields.tease)"></span>
-        </span>
-    </p>
+    <div class="item-list-brief">
+        <p class="headline">
+            <span class="date date-span" v-if="fields.date && fields.end">{{ fields.date }} - {{ fields.end }}</span>
+            <span class="date date-single" v-else-if="fields.date">{{ fields.date }}</span>
+            <g-link class="title" :to="fields.link" :target="target">{{ fields.title }}</g-link>
+        </p>
+        <p class="tease markdown" v-if="fields.tease" v-html="mdToHtml(fields.tease)"></p>
+    </div>
 </template>
 
 <script>
@@ -25,19 +26,18 @@ export default {
              *  This will parse the metadata from an Article into the standard set of "item" fields.
              */
             let fields = {
+                date: this.item.date,
+                end: this.item.end !== this.item.date && this.item.end,
                 title: this.item.title,
                 link: this.item.link || this.item.external_url || this.item.path,
                 tease: this.item.tease || "",
             };
-            if (this.item.date) {
-                fields.tease = `*${this.item.date}.* ${fields.tease}`;
-            }
             if (this.item.location) {
-                fields.tease += ` ${this.item.location} `;
+                fields.tease += ` ${this.item.location}`;
             }
             if (this.item.closes) {
                 // The date a job opening closes.
-                fields.tease += `*Apply by ${this.item.closes}.*`;
+                fields.tease += `. **Apply by ${this.item.closes}**`;
             }
             return fields;
         },
@@ -46,10 +46,29 @@ export default {
 </script>
 
 <style scoped>
+.item-list-brief {
+    padding: 8px 12px;
+    margin: 0;
+}
+.headline {
+    margin: 0;
+}
+.date {
+    display: inline-block;
+    font-weight: bold;
+}
+.date-single {
+    width: 3.3rem;
+}
+.date-span {
+    margin-right: 0.5rem;
+}
 .title {
     font-weight: bold;
 }
 .tease {
     font-size: 80%;
+    margin-top: 2px;
+    margin-bottom: 0;
 }
 </style>

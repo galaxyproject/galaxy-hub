@@ -47,8 +47,9 @@ query {
                 title
                 tease
                 external_url
-                path
                 date (format: "MMM D")
+                end  (format: "MMM D")
+                path
             }
         }
     }

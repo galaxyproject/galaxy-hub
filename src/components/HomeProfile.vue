@@ -1,5 +1,5 @@
 <template>
-    <b-button class="home-profile m-1 border" :href="link" variant="outline-primary">
+    <b-button class="home-profile border" :href="link" variant="outline-primary">
         <div class="d-flex flex-column justify-content-between wrapper">
             <div class="top">
                 <h2 class="text mb-0">
@@ -29,6 +29,7 @@ export default {
 }
 .home-profile {
     width: 13rem;
+    margin: 0.6rem;
 }
 .user-type {
     font-weight: bolder;
