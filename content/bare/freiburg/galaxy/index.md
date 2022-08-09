@@ -19,7 +19,7 @@ title: Galaxy Freiburg
 <p></p>
 <slot name="/eu/common/about-usegalaxy-eu" />
 <p style="margin-bottom: 50px"></p>
-<slot name="/freiburg/galaxy/credits" />
+<slot name="/bare/freiburg/galaxy/credits" />
 <p></p>
 <slot name="/eu/common/training" />
 
