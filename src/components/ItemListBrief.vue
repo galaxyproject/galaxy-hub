@@ -49,7 +49,6 @@ export default {
 .item-list-brief {
     padding: 8px 12px;
     margin: 0;
-    border-top: 1px solid #ddd;
 }
 .headline {
     margin: 0;
