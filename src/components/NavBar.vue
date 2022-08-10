@@ -181,12 +181,12 @@ function getPath(page) {
 <style scoped>
 #subsite-name {
     display: flex;
-    align-items: center;
     margin-right: 10px;
 }
 #subsite-name > p {
     line-height: 100%;
     white-space: normal;
+    text-align: center;
     font-size: 1.1rem;
     max-width: 95px;
     margin: 0;
