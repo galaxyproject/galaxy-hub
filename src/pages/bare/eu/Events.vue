@@ -65,7 +65,7 @@ export default {
 
 <page-query>
 query {
-    main: insert(path: "/insert:/bare/eu/events/main/") {
+    main: insert(path: "/insert:/eu/events/main/") {
         id
         title
         content
@@ -73,7 +73,7 @@ query {
             path
         }
     }
-    footer: insert(path: "/insert:/bare/eu/events/footer/") {
+    footer: insert(path: "/insert:/eu/events/footer/") {
         id
         title
         content

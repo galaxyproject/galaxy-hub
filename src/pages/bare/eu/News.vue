@@ -33,7 +33,7 @@ export default {
 
 <page-query>
 query {
-    main: insert(path: "/insert:/bare/eu/news/main/") {
+    main: insert(path: "/insert:/eu/news/main/") {
         id
         title
         content

@@ -36,8 +36,7 @@ function repr(strParts, ...values) {
 }
 module.exports.repr = repr;
 
-/** Truncate long strings with an ellipsis, and leave alone strings that are already short enough.
- */
+/** Truncate long strings with an ellipsis, and leave alone strings that are already short enough. */
 function trunc(str, maxLen, endChar = "…") {
     if (str.length > maxLen) {
         return str.slice(0, maxLen) + endChar;
@@ -51,6 +50,20 @@ function splitlines(text) {
     return text.split(/\r\n|\r|\n/);
 }
 module.exports.splitlines = splitlines;
+
+/** Remove empty slots from an Array. */
+function shrinkWrap(array) {
+    let i = 0;
+    while (i < array.length) {
+        let value = array[i];
+        if (value === undefined) {
+            array.splice(i, 1);
+        } else {
+            i++;
+        }
+    }
+}
+module.exports.shrinkWrap = shrinkWrap;
 
 /** Filter an object's contents and return matching keys.
  * @param {Object}   object The object whose keys will be filtered.

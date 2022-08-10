@@ -5,18 +5,11 @@ list:
   title: News
   link: /pasteur/news/
   icon: fas fa-bullhorn
+  width: 1.5
 - name: events
   type: dynamic
   title: Events
   link: /pasteur/events/
   icon: far fa-calendar-alt
-- name: twitter
-  type: static
-- name: videos
-  type: static
-- name: platforms
-  type: static
-- name: pubs
-  type: static
-  width: 2
+  width: 1.5
 ---

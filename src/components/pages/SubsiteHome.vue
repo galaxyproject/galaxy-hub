@@ -1,15 +1,13 @@
 <template>
     <Layout :subsite="subsite">
         <header id="header">
-            <h1 class="title">{{ inserts.main ? inserts.main.title : subsiteData.name }}</h1>
-            <h3 v-if="inserts.main && inserts.main.subtitle">{{ inserts.main.subtitle }}</h3>
+            <h1 class="title">{{ title }}</h1>
+            <h3 v-if="subtitle">{{ subtitle }}</h3>
         </header>
 
-        <HomeTop :lead="inserts.lead" :jumbotron="inserts.jumbotron" />
+        <HomeTop :lead="bundles.lead" :jumbotron="inserts.jumbotron" />
 
-        <div id="main-content" v-if="hasContent(inserts.main)" class="row">
-            <section class="col-sm-12" v-html="inserts.main.content" />
-        </div>
+        <Bundle id="main-content" class="row" :bundle="bundles.main" :subclasses="['col-sm-12']" />
 
         <div class="row" v-for="(cardRow, i) of cardRows" :key="i">
             <HomeCard
@@ -24,23 +22,29 @@
             />
         </div>
 
-        <section class="extra markdown" v-if="hasContent(inserts.extra)" v-html="inserts.extra.content" />
+        <Bundle class="lower" :bundle="bundles.lower" />
     </Layout>
 </template>
 
 <script>
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
-import { hasContent, gatherInserts, gatherCollections, gatherCards, makeCardRows } from "~/lib/pages.mjs";
+import Bundle from "@/components/Bundle";
+import {
+    gatherInserts,
+    gatherCollections,
+    gatherBundles,
+    searchBundle,
+    gatherCards,
+    makeCardRows,
+} from "~/lib/pages.mjs";
 import { addTwitterScript, addAltmetricsScript } from "~/lib/client.mjs";
 import CONFIG from "~/../config.json";
 export default {
     components: {
         HomeTop,
         HomeCard,
-    },
-    methods: {
-        hasContent,
+        Bundle,
     },
     metaInfo() {
         return {
@@ -48,16 +52,19 @@ export default {
         };
     },
     created() {
+        this.subsite = this.$context.subsite;
+        this.subsiteData = CONFIG.subsites.all[this.$context.subsite];
         this.inserts = gatherInserts(this.$page.allInsert);
         this.cards = gatherCards(this.inserts);
         this.latest = gatherCollections(this.$page);
+        this.bundles = gatherBundles(this.inserts);
     },
     computed: {
-        subsiteData() {
-            return CONFIG.subsites.all[this.$context.subsite];
+        title() {
+            return searchBundle(this.bundles.main, "title", this.subsiteData.name);
         },
-        subsite() {
-            return this.$context.subsite;
+        subtitle() {
+            return searchBundle(this.bundles.main, "subtitle");
         },
         cardRows() {
             return makeCardRows(this.$page.cards, this.latest, this.cards, `/${this.$context.subsite}`);
