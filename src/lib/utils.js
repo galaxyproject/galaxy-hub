@@ -65,24 +65,7 @@ function shrinkWrap(array) {
 }
 module.exports.shrinkWrap = shrinkWrap;
 
-/** Filter an object's contents and return matching keys.
- * @param {Object}   object The object whose keys will be filtered.
- * @param {Function} filter A function to apply to the values of the keys.
- * @returns {Array} All keys whose values pass the filter (return true).
- */
-function filterKeys(object, filter) {
-    let hits = [];
-    for (let [key, value] of Object.entries(object)) {
-        if (filter(value)) {
-            hits.push(key);
-        }
-    }
-    return hits;
-}
-module.exports.filterKeys = filterKeys;
-
 function mdToHtml(md, rmP = true) {
-    //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
     let rawHtml;
     remark()
         .use(remarkHtml, { sanitize: false })

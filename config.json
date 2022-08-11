@@ -35,10 +35,10 @@
                 "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu"
             ]
         },
+        "default": "global",
         "all": {
             "global": {
                 "name": "Global",
-                "default": true,
                 "gitter": "galaxyproject/Lobby",
                 "order": 0
             },
