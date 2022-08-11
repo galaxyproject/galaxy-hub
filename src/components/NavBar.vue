@@ -10,47 +10,15 @@
                     <p>{{ subsiteName }}</p>
                 </b-navbar-brand>
                 <b-navbar-nav id="subsite-items">
-                    <b-nav-item-dropdown id="subsite-select" v-if="false && subsiteName" text="Regions">
+                    <b-nav-item-dropdown id="subsite-select" v-if="false" text="Regions">
                         <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
                             {{ link.name }}
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item :to="`${pathPrefix}/news/`">News</b-nav-item>
-                    <b-nav-item :to="`${pathPrefix}/events/`">Events</b-nav-item>
+                    <NavBarItem v-for="item of customContent.left" :key="item.key" :item="item" />
                 </b-navbar-nav>
                 <b-navbar-nav id="global-items" class="ml-auto">
-                    <b-nav-item-dropdown text="Support">
-                        <b-dropdown-item to="/get-started/">Get started</b-dropdown-item>
-                        <b-dropdown-item to="/learn/">Training</b-dropdown-item>
-                        <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
-                        <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
-                    </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="Community">
-                        <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
-                        <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
-                        <b-dropdown-item to="/community/wg/">Working Groups</b-dropdown-item>
-                        <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
-                        <b-dropdown-item to="/community/contributing/">How to contribute</b-dropdown-item>
-                        <b-dropdown-item href="https://galaxy-mentor-network.netlify.app/"
-                            >Galaxy Mentor Network</b-dropdown-item
-                        >
-                        <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
-                    </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="About">
-                        <b-dropdown-item to="/use/">Platforms</b-dropdown-item>
-                        <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
-                        <b-dropdown-item to="/galaxy-project/statistics/">Stats</b-dropdown-item>
-                        <b-dropdown-item to="/mailing-lists">Mailing lists</b-dropdown-item>
-                        <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
-                        <b-dropdown-item to="/citing-galaxy/">Citing Galaxy</b-dropdown-item>
-                        <b-dropdown-item to="/images/galaxy-logos/">Branding</b-dropdown-item>
-                    </b-nav-item-dropdown>
-                    <b-nav-item-dropdown text="Projects">
-                        <b-dropdown-item to="/projects/covid19/">COVID-19</b-dropdown-item>
-                        <b-dropdown-item to="/projects/mpxv/">Monkeypox</b-dropdown-item>
-                        <b-dropdown-item to="/projects/vgp/">VGP</b-dropdown-item>
-                    </b-nav-item-dropdown>
-                    <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
+                    <NavBarItem v-for="item of customContent.right" :key="item.key" :item="item" />
                 </b-navbar-nav>
                 <b-navbar-nav id="global-tools" class="ml-2">
                     <b-nav-form id="search" action="/search/" method="get">
@@ -67,9 +35,11 @@
 </template>
 
 <script>
-import { rmPrefix } from "~/lib/utils.js";
+import NavBarItem from "@/components/NavBarItem";
+import { rmPrefix, matchesPrefixes } from "~/lib/utils.js";
 import { getRootSubsite } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
+import NAVBARS from "~/../navbars.json";
 const ROOT_SUBSITE = getRootSubsite();
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
@@ -77,18 +47,29 @@ export default {
     props: {
         subsite: { type: String, required: false, default: ROOT_SUBSITE },
     },
+    components: {
+        NavBarItem,
+    },
     data() {
+        let pathPrefix;
+        if (!this.subsite || this.subsite === ROOT_SUBSITE) {
+            pathPrefix = "";
+        } else {
+            pathPrefix = `/${this.subsite}`;
+        }
         return {
-            rootSubsite: ROOT_SUBSITE,
+            pathPrefix,
         };
     },
     computed: {
-        pathPrefix() {
-            if (!this.subsite || this.subsite === ROOT_SUBSITE) {
-                return "";
+        customContent() {
+            let rawContent;
+            if (this.subsite && NAVBARS[this.subsite]) {
+                rawContent = NAVBARS[this.subsite];
             } else {
-                return `/${this.subsite}`;
+                rawContent = NAVBARS[ROOT_SUBSITE];
             }
+            return parseCustomContent(rawContent, this.pathPrefix);
         },
         subsiteName() {
             let nameRaw = CONFIG.subsites.all[this.subsite]?.name;
@@ -166,6 +147,39 @@ export default {
         },
     },
 };
+/** Turn the raw, human-friendly navbar definition into a structure more easily used in the template. */
+function parseCustomContent(rawContent, pathPrefix) {
+    let content = {};
+    for (let part of ["left", "right"]) {
+        content[part] = [];
+        for (let rawItem of rawContent[part] || []) {
+            let item = parseCustomItem(rawItem, pathPrefix);
+            content[part].push(item);
+        }
+    }
+    return content;
+}
+function parseCustomItem(rawItem, pathPrefix) {
+    let item = {};
+    if (rawItem.target) {
+        item.type = "link";
+        item.label = rawItem.label;
+        if (rawItem.relativeTo === "subsite" && pathPrefix !== undefined) {
+            item.to = `${pathPrefix}/${rawItem.target}`;
+        } else if (matchesPrefixes(rawItem.target, ["https://", "http://", "mailto:", "ftp:"])) {
+            item.href = rawItem.target;
+        } else {
+            item.to = rawItem.target;
+        }
+        item.key = `${item.type}:${rawItem.relativeTo}:${rawItem.target}`;
+    } else if (rawItem.contents) {
+        item.type = "dropdown";
+        item.label = rawItem.label;
+        item.contents = rawItem.contents.map((subitem) => parseCustomItem(subitem, pathPrefix));
+        item.key = `${item.type}:` + item.contents.map((subitem) => subitem.key).join(":");
+    }
+    return item;
+}
 function getPath(page) {
     if (page) {
         for (let child of Object.values(page)) {
