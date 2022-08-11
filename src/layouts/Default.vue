@@ -16,16 +16,14 @@
 <script>
 import NavBar from "@/components/NavBar";
 import Gitter from "@/components/Gitter";
-import { getRootSubsite } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
-const ROOT_SUBSITE = getRootSubsite();
 export default {
     components: {
         NavBar,
         Gitter,
     },
     props: {
-        subsite: { type: String, required: false, default: ROOT_SUBSITE },
+        subsite: { type: String, required: false, default: CONFIG.subsites.default },
     },
     computed: {
         rootClasses() {
@@ -36,7 +34,7 @@ export default {
             return classes;
         },
         gitter() {
-            return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[ROOT_SUBSITE]?.gitter;
+            return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;
         },
     },
     mounted() {

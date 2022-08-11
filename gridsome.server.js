@@ -13,9 +13,8 @@ dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
 const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes } = require("./src/lib/utils.js");
-const { subsiteFromPath, getRootSubsite } = require("./src/lib/site.js");
+const { subsiteFromPath } = require("./src/lib/site.js");
 const CONFIG = require("./config.json");
-const ROOT_SUBSITE = getRootSubsite();
 const COLLECTION_TYPES = {
     Article: "md",
     VueArticle: "vue",
@@ -338,7 +337,7 @@ module.exports = function (api) {
         // Pages repeated across every subsite.
         for (let subsite of Object.keys(CONFIG.subsites.all)) {
             let prefix;
-            if (subsite === ROOT_SUBSITE) {
+            if (subsite === CONFIG.subsites.default) {
                 prefix = "";
             } else {
                 prefix = `/${subsite}`;
@@ -349,7 +348,7 @@ module.exports = function (api) {
                 ["Events", "/events/"],
                 ["EventsArchive", "/events/archive/"],
             ]) {
-                if (subsite === ROOT_SUBSITE && path === "/") {
+                if (subsite === CONFIG.subsites.default && path === "/") {
                     // The site-wide homepage is manually written, not auto-generated.
                     continue;
                 }

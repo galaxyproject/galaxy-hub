@@ -4,9 +4,7 @@
 
 <script>
 // This is in a component instead of a function so that static pages can use it by embedding it in their Markdown.
-import { getRootSubsite } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
-const ROOT_SUBSITE = getRootSubsite();
 function addGitter(window, room) {
     ((window.gitter = {}).chat = {}).options = { room: room };
     let body = document.querySelector("html > body");
@@ -22,7 +20,7 @@ export default {
     },
     mounted() {
         if (!window.gitter) {
-            let room = this.room || CONFIG.subsites.all[ROOT_SUBSITE]?.gitter;
+            let room = this.room || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;
             addGitter(window, room);
         }
     },

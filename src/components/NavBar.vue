@@ -37,22 +37,20 @@
 <script>
 import NavBarItem from "@/components/NavBarItem";
 import { rmPrefix, matchesPrefixes } from "~/lib/utils.js";
-import { getRootSubsite } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
 import NAVBARS from "~/../navbars.json";
-const ROOT_SUBSITE = getRootSubsite();
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
     props: {
-        subsite: { type: String, required: false, default: ROOT_SUBSITE },
+        subsite: { type: String, required: false, default: CONFIG.subsites.default },
     },
     components: {
         NavBarItem,
     },
     data() {
         let pathPrefix;
-        if (!this.subsite || this.subsite === ROOT_SUBSITE) {
+        if (!this.subsite || this.subsite === CONFIG.subsites.default) {
             pathPrefix = "";
         } else {
             pathPrefix = `/${this.subsite}`;
@@ -67,7 +65,7 @@ export default {
             if (this.subsite && NAVBARS[this.subsite]) {
                 rawContent = NAVBARS[this.subsite];
             } else {
-                rawContent = NAVBARS[ROOT_SUBSITE];
+                rawContent = NAVBARS[CONFIG.subsites.default];
             }
             return parseCustomContent(rawContent, this.pathPrefix);
         },

@@ -79,8 +79,7 @@ query Platform($path: String!) {
 <script>
 import { mdToHtml } from "~/lib/utils.js";
 import { getImage } from "~/lib/pages.mjs";
-import { getRootSubsite } from "~/lib/site.js";
-const ROOT_SUBSITE = getRootSubsite();
+import CONFIG from "~/../config.json";
 export default {
     metaInfo() {
         return {
@@ -95,7 +94,7 @@ export default {
     },
     data() {
         return {
-            subsite: ROOT_SUBSITE,
+            subsite: CONFIG.subsites.default,
             groupNames: new Map([
                 ["public-server", "Public server"],
                 ["commercial-cloud", "Commercial Cloud"],
