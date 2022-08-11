@@ -6,7 +6,7 @@
         ],
         "right": [
             {
-                "label": "Support",
+                "label": "Help",
                 "contents": [
                     { "label": "Get started", "target": "/get-started/" },
                     { "label": "Training", "target": "/learn/" },
