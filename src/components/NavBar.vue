@@ -210,9 +210,21 @@ function getPath(page) {
     margin: 0;
     padding: 0;
 }
+/* Play with search box size at different resolutions to get a little more space when needed. */
 #search-input {
     width: 175px;
 }
+@media (min-width: map.get($grid-breakpoints, "lg")) and (max-width: map.get($grid-breakpoints, "xl")) {
+    #search-input {
+        width: 125px;
+    }
+}
+@media (max-width: map.get($grid-breakpoints, "lg")) {
+    #search-input {
+        width: 250px;
+    }
+}
+// The <b-nav-text> workaround (see above) requires us to set this manually.
 @media (min-width: map.get($grid-breakpoints, "lg")) {
     .edit-link {
         padding-left: 8px;
