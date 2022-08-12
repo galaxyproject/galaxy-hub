@@ -4,9 +4,9 @@ title: usegalaxy.org
 
 <div class="alert alert-info trim-p mt-2">
 
-## The usegalaxy.org **FTP** service will be decommissioned on August 12, 2022
+## The usegalaxy.org **FTP** service has been decommissioned
 
-For more details, alternatives, and help, please **[read the announcement on Galaxy Help](https://help.galaxyproject.org/t/the-usegalaxy-org-ftp-service-will-be-decommissioned-on-august-12-2022/8318)**.
+As previously announced, the FTP file upload service has now been decommissioned. For more details, alternatives, and help, please **[read the announcement on Galaxy Help](https://help.galaxyproject.org/t/the-usegalaxy-org-ftp-service-will-be-decommissioned-on-august-12-2022/8318)**.
 
 </div>
 
