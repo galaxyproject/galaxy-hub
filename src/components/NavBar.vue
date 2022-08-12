@@ -26,7 +26,7 @@
                     </b-nav-form>
                     <b-nav-item :href="editUrl">
                         <i class="fab fa-lg fa-github"></i>
-                        Edit
+                        <span class="xl-plus"> Edit</span>
                     </b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
