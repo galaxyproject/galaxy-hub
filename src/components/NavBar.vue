@@ -24,10 +24,13 @@
                     <b-nav-form id="search" action="/search/" method="get">
                         <b-form-input id="search-input" size="sm" name="q" placeholder="Search"></b-form-input>
                     </b-nav-form>
-                    <b-nav-item :href="editUrl">
-                        <i class="fab fa-lg fa-github"></i>
-                        <span class="xl-plus"> Edit</span>
-                    </b-nav-item>
+                    <b-nav-text>
+                        <!-- Workaround for the lack of a working `aria-label` prop on `<b-nav-item>`. -->
+                        <a class="edit-link" :href="editUrl" aria-label="Edit this page">
+                            <i class="fab fa-lg fa-github"></i>
+                            <span class="xl-plus"> Edit</span>
+                        </a>
+                    </b-nav-text>
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>
@@ -190,7 +193,10 @@ function getPath(page) {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@use "sass:map";
+@import "~bootstrap/scss/bootstrap.scss";
+
 #subsite-name {
     display: flex;
     margin-right: 10px;
@@ -206,5 +212,10 @@ function getPath(page) {
 }
 #search-input {
     width: 175px;
+}
+@media (min-width: map.get($grid-breakpoints, "lg")) {
+    .edit-link {
+        padding-left: 8px;
+    }
 }
 </style>
