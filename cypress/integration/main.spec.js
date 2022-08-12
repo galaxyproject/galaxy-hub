@@ -12,10 +12,6 @@ describe("Sitewide tests", () => {
     it("Visits the homepage", () => {
         cy.visit("/");
     });
-    it("Opens gitter sidecar and the iframe is injected", () => {
-        cy.get(".gitter-open-chat-button").click();
-        cy.get("iframe[src='https://gitter.im/galaxyproject/Lobby/~embed']").should("be.visible");
-    });
     it("Tests the NavBar", () => {
         // Check that the dropdown menus work.
         // findByRole doesn't seem to work on invisible elements.
@@ -28,6 +24,10 @@ describe("Sitewide tests", () => {
             .findByText(/Events/i)
             .click();
         cy.location("pathname").should("equal", "/events/");
+    });
+    it("Opens gitter sidecar and the iframe is injected", () => {
+        cy.get(".gitter-open-chat-button").click();
+        cy.get("iframe[src='https://gitter.im/galaxyproject/Lobby/~embed']").should("be.visible");
     });
 });
 
