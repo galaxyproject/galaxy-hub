@@ -58,12 +58,6 @@ export default {
         update(this);
     },
     computed: {
-        title() {
-            return searchBundle(this.bundles.main, "title", this.subsiteData.name);
-        },
-        subtitle() {
-            return searchBundle(this.bundles.main, "subtitle");
-        },
         cardRows() {
             return makeCardRows(this.$page.cards, this.latest, this.cards, `/${this.$context.subsite}`);
         },
@@ -86,6 +80,8 @@ function update(data) {
     data.cards = gatherCards(data.inserts);
     data.latest = gatherCollections(data.$page);
     data.bundles = gatherBundles(data.inserts);
+    data.title = searchBundle(data.bundles.main, "title", data.subsiteData.name);
+    data.subtitle = searchBundle(data.bundles.main, "subtitle");
 }
 </script>
 
