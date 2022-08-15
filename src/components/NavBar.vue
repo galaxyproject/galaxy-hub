@@ -52,15 +52,12 @@ export default {
         NavBarItem,
     },
     data() {
-        let pathPrefix;
-        if (!this.subsite || this.subsite === CONFIG.subsites.default) {
-            pathPrefix = "";
-        } else {
-            pathPrefix = `/${this.subsite}`;
-        }
         return {
-            pathPrefix,
+            pathPrefix: getPathPrefix(this.subsite, CONFIG.subsites.default),
         };
+    },
+    beforeUpdate() {
+        this.pathPrefix = getPathPrefix(this.subsite, CONFIG.subsites.default);
     },
     computed: {
         customContent() {
@@ -148,6 +145,13 @@ export default {
         },
     },
 };
+function getPathPrefix(subsite, defaultSubsite) {
+    if (!subsite || subsite === defaultSubsite) {
+        return "";
+    } else {
+        return `/${subsite}`;
+    }
+}
 /** Turn the raw, human-friendly navbar definition into a structure more easily used in the template. */
 function parseCustomContent(rawContent, pathPrefix) {
     let content = {};
