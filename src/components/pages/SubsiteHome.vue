@@ -47,8 +47,12 @@ export default {
         Bundle,
     },
     metaInfo() {
+        let data = this;
         return {
-            title: this.inserts.main ? this.inserts.main.title : this.subsiteData.name,
+            title: () => this.title || (this.inserts.main && this.inserts.main.title) || this.subsiteData.name,
+            afterNavigation(metaInfo) {
+                metaInfo.title = data.title;
+            },
         };
     },
     created() {
