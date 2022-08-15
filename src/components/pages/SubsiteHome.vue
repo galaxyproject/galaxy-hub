@@ -52,12 +52,10 @@ export default {
         };
     },
     created() {
-        this.subsite = this.$context.subsite;
-        this.subsiteData = CONFIG.subsites.all[this.$context.subsite];
-        this.inserts = gatherInserts(this.$page.allInsert);
-        this.cards = gatherCards(this.inserts);
-        this.latest = gatherCollections(this.$page);
-        this.bundles = gatherBundles(this.inserts);
+        update(this);
+    },
+    beforeUpdate() {
+        update(this);
     },
     computed: {
         title() {
@@ -81,6 +79,14 @@ export default {
         }
     },
 };
+function update(data) {
+    data.subsite = data.$context.subsite;
+    data.subsiteData = CONFIG.subsites.all[data.$context.subsite];
+    data.inserts = gatherInserts(data.$page.allInsert);
+    data.cards = gatherCards(data.inserts);
+    data.latest = gatherCollections(data.$page);
+    data.bundles = gatherBundles(data.inserts);
+}
 </script>
 
 <page-query>
