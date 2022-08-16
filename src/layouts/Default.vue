@@ -6,8 +6,8 @@
         <main id="maincontainer" class="container">
             <slot />
         </main>
-        <footer class="static-footer" v-if="$static.footer">
-            <div class="markdown container" v-html="$static.footer.content" />
+        <footer class="static-footer" v-if="footer">
+            <div class="markdown container" v-html="footer.content" />
         </footer>
         <Gitter :room="gitter" />
     </div>
@@ -17,6 +17,7 @@
 import NavBar from "@/components/NavBar";
 import Gitter from "@/components/Gitter";
 import CONFIG from "~/../config.json";
+import { rmPrefix, rmSuffix } from "~/lib/utils.js";
 export default {
     components: {
         NavBar,
@@ -36,12 +37,30 @@ export default {
         gitter() {
             return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;
         },
+        footer() {
+            let footers = compileFooters(this.$static.footers.edges);
+            return footers[this.subsite];
+        },
     },
     mounted() {
         // Google Analytics tag.
         addGATag();
     },
 };
+function compileFooters(edges) {
+    let footers = {};
+    for (let edge of edges) {
+        let footer = edge.node;
+        let subsite;
+        if (footer.path === "/insert:/site-footer/") {
+            subsite = CONFIG.subsites.default;
+        } else {
+            subsite = rmSuffix(rmPrefix(footer.path, "/insert:/"), "/site-footer/");
+        }
+        footers[subsite] = footer;
+    }
+    return footers;
+}
 function addGATag() {
     //TODO: Replace with vue-gtag.
     (function (i, s, o, g, r, a, m) {
@@ -68,10 +87,19 @@ query {
     metadata {
         siteName
     }
-    footer: insert(path: "/insert:/site-footer/") {
-        id
-        title
-        content
+    footers: allInsert(filter: {path: {regex: "^/insert:/([^/]+/)?site-footer/$"}}) {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                title
+                content
+                fileInfo {
+                    path
+                }
+            }
+        }
     }
 }
 </static-query>
