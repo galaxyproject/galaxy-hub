@@ -1,7 +1,7 @@
 // Functions specific to the structure of the Hub.
 const CONFIG = require("../../config.json");
 
-function getPathPrefix(subsite, defaultSubsite=CONFIG.subsites.default) {
+function getPathPrefix(subsite, defaultSubsite = CONFIG.subsites.default) {
     if (!subsite || subsite === defaultSubsite) {
         return "";
     } else {

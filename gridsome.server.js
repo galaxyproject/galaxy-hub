@@ -270,7 +270,7 @@ class nodeModifier {
         },
         Dataset: function (node, collection) {
             let pathParts = node.path.split("/");
-            if (! node.path.startsWith("/dataset:")) {
+            if (!node.path.startsWith("/dataset:")) {
                 console.error(`Dataset path doesn't start with /dataset: (${node.path})`);
             }
             node.subsites = [];
@@ -288,11 +288,11 @@ class nodeModifier {
                 let parsedContent = parseNavbarContent(node, pathPrefix);
                 Object.assign(node, parsedContent);
             }
-            if (node.main_subsite && ! node.subsites.includes(node.main_subsite)) {
+            if (node.main_subsite && !node.subsites.includes(node.main_subsite)) {
                 node.subsites.push(node.main_subsite);
             }
             return node;
-        }
+        },
     };
 }
 
