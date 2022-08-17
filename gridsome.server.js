@@ -13,7 +13,7 @@ dayjs.extend(toArray);
 const ics = require("ics");
 const { imageType } = require("gridsome/lib/graphql/types/image");
 const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes } = require("./src/lib/utils.js");
-const { subsiteFromPath } = require("./src/lib/site.js");
+const { subsiteFromPath, getPathPrefix } = require("./src/lib/site.js");
 const CONFIG = require("./config.json");
 const COLLECTION_TYPES = {
     Article: "md",
@@ -191,7 +191,9 @@ class nodeModifier {
         if (node === null) {
             return node;
         }
-        if (typeName !== "Insert") {
+        if (typeName !== "Insert" && COLLECTION_TYPES[typeName]) {
+            // Process all regular, Markdown-based collections except Inserts.
+            // Ones with no entry in COLLECTION_TYPES aren't regular, Markdown-based collections.
             node = this.processNonInsert(node, collection, typeName);
         }
         if (COLLECTION_TYPES[typeName] === "vue") {
@@ -266,7 +268,67 @@ class nodeModifier {
             node.name = rmSuffix(rmPrefix(node.path, "/insert:"), "/");
             return node;
         },
+        Dataset: function (node, collection) {
+            let pathParts = node.path.split("/");
+            if (! node.path.startsWith("/dataset:")) {
+                console.error(`Dataset path doesn't start with /dataset: (${node.path})`);
+            }
+            node.subsites = [];
+            // Special handling for different types of Datasets.
+            // Navbar definitions:
+            if (pathParts[2] === "navbar" && pathParts.length === 4) {
+                node.main_subsite = CONFIG.subsites.default;
+                node.type = "navbar";
+            } else if (pathParts[3] === "navbar" && pathParts.length === 5) {
+                node.main_subsite = pathParts[2];
+                node.type = "navbar";
+            }
+            if (node.type === "navbar") {
+                let pathPrefix = getPathPrefix(node.main_subsite);
+                let parsedContent = parseNavbarContent(node, pathPrefix);
+                Object.assign(node, parsedContent);
+            }
+            if (node.main_subsite && ! node.subsites.includes(node.main_subsite)) {
+                node.subsites.push(node.main_subsite);
+            }
+            return node;
+        }
     };
+}
+
+/** Turn the raw, human-friendly navbar definition into a structure more easily used in the template. */
+function parseNavbarContent(rawContent, pathPrefix) {
+    let content = {};
+    for (let part of ["left", "right"]) {
+        content[part] = [];
+        for (let rawItem of rawContent[part] || []) {
+            let item = parseNavbarItem(rawItem, pathPrefix);
+            content[part].push(item);
+        }
+    }
+    return content;
+}
+
+function parseNavbarItem(rawItem, pathPrefix) {
+    let item = {};
+    if (rawItem.target) {
+        item.type = "link";
+        item.label = rawItem.label;
+        if (rawItem.relativeTo === "subsite" && pathPrefix !== undefined) {
+            item.to = `${pathPrefix}/${rawItem.target}`;
+        } else if (matchesPrefixes(rawItem.target, ["https://", "http://", "mailto:", "ftp:"])) {
+            item.href = rawItem.target;
+        } else {
+            item.to = rawItem.target;
+        }
+        item.key = `${item.type}:${rawItem.relativeTo}:${rawItem.target}`;
+    } else if (rawItem.contents) {
+        item.type = "dropdown";
+        item.label = rawItem.label;
+        item.contents = rawItem.contents.map((subitem) => parseNavbarItem(subitem, pathPrefix));
+        item.key = `${item.type}:` + item.contents.map((subitem) => subitem.key).join(":");
+    }
+    return item;
 }
 
 module.exports = function (api) {
@@ -310,6 +372,18 @@ module.exports = function (api) {
             };
         }
         actions.addSchemaResolvers(schemas);
+        actions.addSchemaTypes(
+            actions.schema.createObjectType({
+                name: "Dataset",
+                interfaces: ["Node"],
+                extensions: { infer: true },
+                fields: {
+                    subsites: "[String]",
+                    main_subsite: "String",
+                    type: "String",
+                },
+            })
+        );
     });
 
     // Populate the derived fields.
