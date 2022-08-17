@@ -19,9 +19,9 @@ const REMARK_PLUGINS = [
 const REMARK_VUE_PLUGINS = REMARK_PLUGINS;
 const REMARK_MD_PLUGINS = REMARK_PLUGINS.concat("remark-attr");
 
-const MD_CONTENT_DIR = CONFIG.build.dirs.md;
-const VUE_CONTENT_DIR = CONFIG.build.dirs.vue;
-const CONTENT_DIR_DEPTH = rmSuffix(MD_CONTENT_DIR, "/").split("/").length;
+const MD_CONTENT_DIR = rmPrefix(rmSuffix(CONFIG.build.dirs.md, "/"), "/");
+const VUE_CONTENT_DIR = rmPrefix(rmSuffix(CONFIG.build.dirs.vue, "/"), "/");
+const CONTENT_DIR_DEPTH = MD_CONTENT_DIR.split("/").length;
 
 const SITEMAP_PLUGIN = {
     use: "@gridsome/plugin-sitemap",
@@ -115,6 +115,13 @@ function mkPlugins(collections) {
                 plugins: REMARK_VUE_PLUGINS,
             },
         },
+        {
+            use: "@gridsome/source-filesystem",
+            options: {
+                path: [`${MD_CONTENT_DIR}/**/*.yml`],
+                typeName: "Dataset",
+            },
+        },
     ];
     // Build custom plugins defined in config.json.
     let articlePlugin = getPlugin(plugins, "Article");
@@ -170,6 +177,7 @@ function mkTemplates(collections) {
     let templates = {
         Article: (node) => rmPathPrefix(node.path, CONTENT_DIR_DEPTH),
         Insert: (node) => makeFilenamePath("insert", node),
+        Dataset: (node) => makeFilenamePath("dataset", node),
     };
     for (let [name, meta] of Object.entries(collections)) {
         if (meta.type === "md") {

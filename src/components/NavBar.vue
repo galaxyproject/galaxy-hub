@@ -37,11 +37,49 @@
     </div>
 </template>
 
+<static-query>
+query {
+    navbars: allDataset(filter: {type: {eq: "navbar"}}) {
+        totalCount
+        edges {
+            node {
+                id
+                main_subsite
+                left {
+                    type
+                    label
+                    href
+                    to
+                    contents {
+                        type
+                        label
+                        href
+                        to
+                    }
+                }
+                right {
+                    type
+                    label
+                    href
+                    to
+                    contents {
+                        type
+                        label
+                        href
+                        to
+                    }
+                }
+            }
+        }
+    }
+}
+</static-query>
+
 <script>
 import NavBarItem from "@/components/NavBarItem";
-import { rmPrefix, matchesPrefixes } from "~/lib/utils.js";
+import { rmPrefix } from "~/lib/utils.js";
+import { getPathPrefix } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
-import NAVBARS from "~/../navbars.json";
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
@@ -53,21 +91,25 @@ export default {
     },
     data() {
         return {
-            pathPrefix: getPathPrefix(this.subsite, CONFIG.subsites.default),
+            pathPrefix: getPathPrefix(this.subsite),
         };
     },
     beforeUpdate() {
-        this.pathPrefix = getPathPrefix(this.subsite, CONFIG.subsites.default);
+        this.pathPrefix = getPathPrefix(this.subsite);
     },
     computed: {
         customContent() {
-            let rawContent;
-            if (this.subsite && NAVBARS[this.subsite]) {
-                rawContent = NAVBARS[this.subsite];
-            } else {
-                rawContent = NAVBARS[CONFIG.subsites.default];
+            let subsite = this.subsite || CONFIG.subsites.default;
+            let defaultNavbar;
+            for (let edge of this.$static.navbars.edges) {
+                let navbar = edge.node;
+                if (navbar.main_subsite === subsite) {
+                    return navbar;
+                } else if (navbar.main_subsite === CONFIG.subsites.default) {
+                    defaultNavbar = navbar;
+                }
             }
-            return parseCustomContent(rawContent, this.pathPrefix);
+            return defaultNavbar;
         },
         subsiteName() {
             let nameRaw = CONFIG.subsites.all[this.subsite]?.name;
@@ -145,46 +187,6 @@ export default {
         },
     },
 };
-function getPathPrefix(subsite, defaultSubsite) {
-    if (!subsite || subsite === defaultSubsite) {
-        return "";
-    } else {
-        return `/${subsite}`;
-    }
-}
-/** Turn the raw, human-friendly navbar definition into a structure more easily used in the template. */
-function parseCustomContent(rawContent, pathPrefix) {
-    let content = {};
-    for (let part of ["left", "right"]) {
-        content[part] = [];
-        for (let rawItem of rawContent[part] || []) {
-            let item = parseCustomItem(rawItem, pathPrefix);
-            content[part].push(item);
-        }
-    }
-    return content;
-}
-function parseCustomItem(rawItem, pathPrefix) {
-    let item = {};
-    if (rawItem.target) {
-        item.type = "link";
-        item.label = rawItem.label;
-        if (rawItem.relativeTo === "subsite" && pathPrefix !== undefined) {
-            item.to = `${pathPrefix}/${rawItem.target}`;
-        } else if (matchesPrefixes(rawItem.target, ["https://", "http://", "mailto:", "ftp:"])) {
-            item.href = rawItem.target;
-        } else {
-            item.to = rawItem.target;
-        }
-        item.key = `${item.type}:${rawItem.relativeTo}:${rawItem.target}`;
-    } else if (rawItem.contents) {
-        item.type = "dropdown";
-        item.label = rawItem.label;
-        item.contents = rawItem.contents.map((subitem) => parseCustomItem(subitem, pathPrefix));
-        item.key = `${item.type}:` + item.contents.map((subitem) => subitem.key).join(":");
-    }
-    return item;
-}
 function getPath(page) {
     if (page) {
         for (let child of Object.values(page)) {
