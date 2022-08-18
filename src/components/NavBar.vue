@@ -39,7 +39,7 @@
 
 <static-query>
 query {
-    navbars: allDataset(filter: {type: {eq: "navbar"}}) {
+    navbars: allDataset(filter: {filename: {eq: "navbar"}}) {
         totalCount
         edges {
             node {
