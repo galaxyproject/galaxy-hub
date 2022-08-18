@@ -29,7 +29,7 @@ The **European Galaxy Days** will be held  4 to 7 October 2022 in Freiburg, Germ
 | 16:00 - 16:30 |   | Coffee Break  |    |
 | 16:30 - 17:30 |   | Birds of a Feather |   |
 
-Please suggest topics to discuss during the Birds of a Feather [here](https://docs.google.com/document/d/1ucZb4868ZYQqK7RdyhPwXPoyfFgKuaNz39-ZHXxqa2Q/edit)
+Please suggest topics to discuss during the Birds of a Feather [here](https://docs.google.com/document/d/1ucZb4868ZYQqK7RdyhPwXPoyfFgKuaNz39-ZHXxqa2Q/edit).
 
 #### Thursday and Friday, October 6/7
 
