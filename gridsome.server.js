@@ -276,14 +276,16 @@ class nodeModifier {
             node.subsites = [];
             // Special handling for different types of Datasets.
             // Navbar definitions:
-            if (pathParts[2] === "navbar" && pathParts.length === 4) {
-                node.main_subsite = CONFIG.subsites.default;
-                node.type = "navbar";
-            } else if (pathParts[3] === "navbar" && pathParts.length === 5) {
-                node.main_subsite = pathParts[2];
-                node.type = "navbar";
-            }
-            if (node.type === "navbar") {
+            if (node.filename === "navbar") {
+                if (pathParts.length === 4) {
+                    // In the root directory (e.g. `content/navbar.yml` -> `/dataset:/navbar/`).
+                    console.log("Top-level navbar:", node.path);
+                    node.main_subsite = CONFIG.subsites.default;
+                } else if (pathParts.length === 5 && CONFIG.subsites.all[pathParts[2]]) {
+                    // In a top-level directory (e.g. `content/eu/navbar.yml` -> `/dataset:/eu/navbar/`).
+                    console.log("Subsite navbar:", node.path);
+                    node.main_subsite = pathParts[2];
+                }
                 let pathPrefix = getPathPrefix(node.main_subsite);
                 let parsedContent = parseNavbarContent(node, pathPrefix);
                 Object.assign(node, parsedContent);
@@ -380,7 +382,6 @@ module.exports = function (api) {
                 fields: {
                     subsites: "[String]",
                     main_subsite: "String",
-                    type: "String",
                 },
             })
         );
