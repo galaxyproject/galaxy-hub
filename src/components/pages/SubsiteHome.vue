@@ -47,25 +47,21 @@ export default {
         Bundle,
     },
     metaInfo() {
+        let data = this;
         return {
-            title: this.inserts.main ? this.inserts.main.title : this.subsiteData.name,
+            title: () => this.title || (this.inserts.main && this.inserts.main.title) || this.subsiteData.name,
+            afterNavigation(metaInfo) {
+                metaInfo.title = data.title;
+            },
         };
     },
     created() {
-        this.subsite = this.$context.subsite;
-        this.subsiteData = CONFIG.subsites.all[this.$context.subsite];
-        this.inserts = gatherInserts(this.$page.allInsert);
-        this.cards = gatherCards(this.inserts);
-        this.latest = gatherCollections(this.$page);
-        this.bundles = gatherBundles(this.inserts);
+        update(this);
+    },
+    beforeUpdate() {
+        update(this);
     },
     computed: {
-        title() {
-            return searchBundle(this.bundles.main, "title", this.subsiteData.name);
-        },
-        subtitle() {
-            return searchBundle(this.bundles.main, "subtitle");
-        },
         cardRows() {
             return makeCardRows(this.$page.cards, this.latest, this.cards, `/${this.$context.subsite}`);
         },
@@ -81,6 +77,16 @@ export default {
         }
     },
 };
+function update(data) {
+    data.subsite = data.$context.subsite;
+    data.subsiteData = CONFIG.subsites.all[data.$context.subsite];
+    data.inserts = gatherInserts(data.$page.allInsert);
+    data.cards = gatherCards(data.inserts);
+    data.latest = gatherCollections(data.$page);
+    data.bundles = gatherBundles(data.inserts);
+    data.title = searchBundle(data.bundles.main, "title", data.subsiteData.name);
+    data.subtitle = searchBundle(data.bundles.main, "subtitle");
+}
 </script>
 
 <page-query>
