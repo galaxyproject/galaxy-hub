@@ -42,10 +42,6 @@ export default {
             return footers[this.subsite];
         },
     },
-    mounted() {
-        // Google Analytics tag.
-        addGATag();
-    },
 };
 function compileFooters(edges) {
     let footers = {};
@@ -60,25 +56,6 @@ function compileFooters(edges) {
         footers[subsite] = footer;
     }
     return footers;
-}
-function addGATag() {
-    //TODO: Replace with vue-gtag.
-    (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-            i[r] ||
-            function () {
-                (i[r].q = i[r].q || []).push(arguments);
-            }),
-            (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-    })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
-    /* global ga */
-    ga("create", "UA-45719423-4", "auto");
-    ga("send", "pageview");
 }
 </script>
 
