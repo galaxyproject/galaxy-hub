@@ -355,8 +355,9 @@ function getChildrenByType(dirPath) {
 
 /** Read the file to see if it requires `vue-remark`.
  *  @returns {boolean} If there's a `components` key in the graymatter, it will return its value (converted to boolean).
- *    Otherwise, it will look for the strings `'<slot '` or `'<g-image '` in the file contents. If either is found, it
- *    will return `true`. Otherwise it returns `false`.
+ *    Otherwise, it will look for the strings `'<slot '`, `'<g-image '`, `'<link-box '`, `'<vega-embed '`, or
+ *    `'<markdown-embed '` in the file contents. If any is found, it will return `true`.
+ *    Otherwise it returns `false`.
  */
 function fileRequiresVue(filePath) {
     let fileContents = fs.readFileSync(filePath, { encoding: "utf8" });
