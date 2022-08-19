@@ -1,8 +1,8 @@
 // Functions used in dynamic pages (`src/pages/*.vue` and `src/components/pages/*.vue`).
-
+import _ from "lodash";
 import utils from "./utils.js";
 // Kludge for an issue (probably) with webpack.
-const { repr, rmSuffix, shrinkWrap } = utils;
+const { repr, rmSuffix } = utils;
 
 export function getImage(imagePath, images) {
     if (!imagePath) {
@@ -102,11 +102,12 @@ export function gatherBundles(inserts) {
     }
     // Push the index-less inserts onto the front of each bundle array.
     // We do this at the end to not mess up the indexing.
-    for (let bundle of Object.values(bundles)) {
+    for (let bundleName of Object.keys(bundles)) {
+        let bundle = bundles[bundleName];
         if (bundle.noIndex) {
             bundle.unshift(bundle.noIndex);
         }
-        shrinkWrap(bundle);
+        bundles[bundleName] = _.compact(bundle);
     }
     return bundles;
 }
