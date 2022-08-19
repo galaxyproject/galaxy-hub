@@ -51,20 +51,6 @@ function splitlines(text) {
 }
 module.exports.splitlines = splitlines;
 
-/** Remove empty slots from an Array. */
-function shrinkWrap(array) {
-    let i = 0;
-    while (i < array.length) {
-        let value = array[i];
-        if (value === undefined) {
-            array.splice(i, 1);
-        } else {
-            i++;
-        }
-    }
-}
-module.exports.shrinkWrap = shrinkWrap;
-
 function mdToHtml(md, rmP = true) {
     let rawHtml;
     remark()
