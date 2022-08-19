@@ -24,9 +24,9 @@
                     <b-nav-form id="search" action="/search/" method="get">
                         <b-form-input id="search-input" size="sm" name="q" placeholder="Search"></b-form-input>
                     </b-nav-form>
-                    <b-nav-text>
+                    <b-nav-text v-if="editUrl">
                         <!-- Workaround for the lack of a working `aria-label` prop on `<b-nav-item>`. -->
-                        <a class="edit-link" :href="editUrl" aria-label="Edit this page">
+                        <a class="edit-link" :href="editUrl" aria-label="Edit this page" target="_blank">
                             <i class="fab fa-lg fa-github"></i>
                             <span class="xl-plus"> Edit</span>
                         </a>
@@ -83,10 +83,10 @@ query {
 <script>
 import NavBarItem from "@/components/NavBarItem";
 import { cloneDeep } from "lodash";
-import { rmPrefix } from "~/lib/utils.js";
+import { rmPrefix, rmSuffix } from "~/lib/utils.js";
 import { getPathPrefix } from "~/lib/site.js";
+import PACKAGE from "~/../package.json";
 import CONFIG from "~/../config.json";
-const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
     props: {
@@ -188,16 +188,20 @@ export default {
             // This will only point to the exact Github source url for Collections which include a "fileInfo { path }"
             // in their GraphQL query. Otherwise, (like for dynamic pages) it'll default to pointing to the repo home
             // page (which has a README, etc., so is not unreasonable).
+            if (!PACKAGE.repository?.url) {
+                return;
+            }
             let sourcePath = getPath(this.$page);
+            let repoUrl = rmSuffix(PACKAGE.repository.url, ".git");
             if (sourcePath) {
                 // Remove build directory prefix (e.g. "build/content-md").
                 // `Article`s contain the prefix (e.g. "build/content-md/galaxy-project/statistics/index.md").
                 // `VueArticle`s lack it (e.g. "events/gcc2019/index.md").
                 sourcePath = rmPrefix(sourcePath, CONFIG.build.dirs.md);
                 sourcePath = rmPrefix(sourcePath, "/");
-                return `${REPO_URL}/${EDIT_PATH}/${sourcePath}`;
+                return `${repoUrl}/${EDIT_PATH}/${sourcePath}`;
             } else {
-                return REPO_URL + "/";
+                return repoUrl + "/";
             }
         },
     },
