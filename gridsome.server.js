@@ -279,11 +279,9 @@ class nodeModifier {
             if (node.filename === "navbar") {
                 if (pathParts.length === 4) {
                     // In the root directory (e.g. `content/navbar.yml` -> `/dataset:/navbar/`).
-                    console.log("Top-level navbar:", node.path);
                     node.main_subsite = CONFIG.subsites.default;
                 } else if (pathParts.length === 5 && CONFIG.subsites.all[pathParts[2]]) {
                     // In a top-level directory (e.g. `content/eu/navbar.yml` -> `/dataset:/eu/navbar/`).
-                    console.log("Subsite navbar:", node.path);
                     node.main_subsite = pathParts[2];
                 }
                 let pathPrefix = getPathPrefix(node.main_subsite);
@@ -300,13 +298,26 @@ class nodeModifier {
 
 /** Turn the raw, human-friendly navbar definition into a structure more easily used in the template. */
 function parseNavbarContent(rawContent, pathPrefix) {
-    let content = {};
+    let content = { customized: [] };
     for (let part of ["left", "right"]) {
         content[part] = [];
-        for (let rawItem of rawContent[part] || []) {
-            let item = parseNavbarItem(rawItem, pathPrefix);
-            content[part].push(item);
+        if (rawContent[part]) {
+            // We need to explictly declare whether each part is customized, or if we should just use the defaults.
+            // If we instead took an empty array as being default/uncustomized, authors wouldn't be able to delete all
+            // the items in a section.
+            // And we can't use null/undefined values because that won't work in the GraphQL schema.
+            content.customized.push(part);
+            for (let rawItem of rawContent[part]) {
+                let item = parseNavbarItem(rawItem, pathPrefix);
+                content[part].push(item);
+            }
         }
+    }
+    if (rawContent.style) {
+        content.customized.push("style");
+        content.style = rawContent.style;
+    } else {
+        content.style = {};
     }
     return content;
 }

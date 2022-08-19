@@ -45,6 +45,11 @@ query {
             node {
                 id
                 main_subsite
+                style {
+                    color
+                    lightBg
+                }
+                customized
                 left {
                     type
                     label
@@ -77,6 +82,7 @@ query {
 
 <script>
 import NavBarItem from "@/components/NavBarItem";
+import { cloneDeep } from "lodash";
 import { rmPrefix } from "~/lib/utils.js";
 import { getPathPrefix } from "~/lib/site.js";
 import CONFIG from "~/../config.json";
@@ -89,27 +95,36 @@ export default {
     components: {
         NavBarItem,
     },
-    data() {
-        return {
-            pathPrefix: getPathPrefix(this.subsite),
-        };
-    },
-    beforeUpdate() {
-        this.pathPrefix = getPathPrefix(this.subsite);
+    created() {
+        this.navbars = {};
+        for (let edge of this.$static.navbars.edges) {
+            let navbar = edge.node;
+            if (navbar.main_subsite) {
+                this.navbars[navbar.main_subsite] = navbar;
+            }
+        }
     },
     computed: {
+        pathPrefix() {
+            return getPathPrefix(this.subsite);
+        },
         customContent() {
+            let defaults = this.navbars[CONFIG.subsites.default];
             let subsite = this.subsite || CONFIG.subsites.default;
-            let defaultNavbar;
-            for (let edge of this.$static.navbars.edges) {
-                let navbar = edge.node;
-                if (navbar.main_subsite === subsite) {
-                    return navbar;
-                } else if (navbar.main_subsite === CONFIG.subsites.default) {
-                    defaultNavbar = navbar;
+            let customizations = this.navbars[subsite];
+            let customContent = cloneDeep(defaults);
+            for (let part of ["left", "right"]) {
+                if (customizations.customized.includes(part)) {
+                    customContent[part] = customizations[part];
                 }
             }
-            return defaultNavbar;
+            if (!customContent.style) {
+                customContent.style = {};
+            }
+            for (let [key, value] of Object.entries(customizations.style || {})) {
+                customContent.style[key] = value;
+            }
+            return customContent;
         },
         subsiteName() {
             let nameRaw = CONFIG.subsites.all[this.subsite]?.name;
@@ -141,7 +156,7 @@ export default {
             return subsitesLinks;
         },
         theme() {
-            if (CONFIG.subsites.all[this.subsite]?.lightBg) {
+            if (this.customContent.style?.lightBg) {
                 return "light";
             } else {
                 return "dark";
@@ -149,20 +164,20 @@ export default {
         },
         classes() {
             let classes = [];
-            if (CONFIG.subsites.all[this.subsite]?.lightBg) {
+            if (this.customContent.style?.lightBg) {
                 classes.push("light-bg");
             }
             return classes;
         },
         logoUrl() {
-            if (CONFIG.subsites.all[this.subsite]?.lightBg) {
+            if (this.customContent.style?.lightBg) {
                 return "/images/galaxy_logo_hub.svg";
             } else {
                 return "/images/galaxy_logo_hub_white.svg";
             }
         },
         style() {
-            let color = CONFIG.subsites.all[this.subsite]?.color;
+            let color = this.customContent.style?.color;
             if (color) {
                 return `background-color: ${color}`;
             } else {
