@@ -44,13 +44,11 @@
             },
             "us": {
                 "name": "US",
-                "color": "#4e7152",
                 "gitter": "galaxyproject/Lobby",
                 "order": 1
             },
             "eu": {
                 "name": "Europe",
-                "color": "#203e5f",
                 "gitter": "usegalaxy-eu/Lobby",
                 "order": 2
             },
@@ -61,7 +59,6 @@
             },
             "erasmusmc": {
                 "name": "Erasmus MC",
-                "color": "#f17925",
                 "gitter": "usegalaxy-eu/Lobby",
                 "order": 4
             },
@@ -72,27 +69,21 @@
             },
             "pasteur": {
                 "name": "Pasteur",
-                "color": "#7591be",
                 "gitter": "usegalaxy-eu/Lobby",
                 "order": 6
             },
             "genouest": {
                 "name": "GenOuest",
-                "color": "white",
-                "lightBg": true,
                 "gitter": "usegalaxy-eu/Lobby",
                 "order": 7
             },
             "elixir-it": {
                 "name": "ELIXIR-IT/Laniakea",
-                "color": "#2c81bb",
                 "gitter": "usegalaxy-eu/Lobby",
                 "order": 8
             },
             "ifb": {
                 "name": "ELIXIR-FR/IFB",
-                "color": "white",
-                "lightBg": true,
                 "gitter": "usegalaxy-eu/Lobby",
                 "order": 9
             }

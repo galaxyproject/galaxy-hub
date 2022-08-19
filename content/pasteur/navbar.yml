@@ -1,3 +1,5 @@
+style:
+  color: "#7591be"
 left:
 - label: News
   relativeTo: subsite

@@ -1,3 +1,6 @@
+style:
+  color: white
+  lightBg: true
 left:
 - label: News
   relativeTo: subsite
