@@ -6,7 +6,7 @@
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-brand id="subsite-name" v-if="subsite !== 'global'" :to="`${pathPrefix}/`">
+                <b-navbar-brand id="subsite-name" v-if="subsite !== defaultSubsite" :to="`${pathPrefix}/`">
                     <p>{{ subsiteName }}</p>
                 </b-navbar-brand>
                 <b-navbar-nav id="subsite-items">
@@ -95,6 +95,11 @@ export default {
     components: {
         NavBarItem,
     },
+    data() {
+        return {
+            defaultSubsite: CONFIG.subsites.default,
+        };
+    },
     created() {
         this.navbars = {};
         for (let edge of this.$static.navbars.edges) {
@@ -145,11 +150,7 @@ export default {
                     name: metadata.name,
                     order: metadata.order,
                 };
-                if (subsite == "global") {
-                    link.path = "/";
-                } else {
-                    link.path = `/${subsite}/`;
-                }
+                link.path = getPathPrefix(subsite) + "/";
                 subsitesLinks.push(link);
             }
             subsitesLinks.sort((a, b) => a.order > b.order);
