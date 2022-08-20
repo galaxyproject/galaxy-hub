@@ -9,6 +9,7 @@ import { PathInfo } from "../lib/paths.mjs";
 export const CONTENT_TYPES = ["md", "vue", "insert", "resource"];
 const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
+const AUTODETECT_COMPONENTS = ["slot", "g-image", "link-box", "vega-embed", "markdown-embed"];
 
 export class Partitioner {
     /** Create a `Partitioner`.
@@ -355,8 +356,8 @@ function getChildrenByType(dirPath) {
 
 /** Read the file to see if it requires `vue-remark`.
  *  @returns {boolean} If there's a `components` key in the graymatter, it will return its value (converted to boolean).
- *    Otherwise, it will look for the strings `'<slot '` or `'<g-image '` in the file contents. If either is found, it
- *    will return `true`. Otherwise it returns `false`.
+ *    Otherwise, it will look in the file contents for the start tags of elements in `AUTODETECT_COMPONENTS`, e.g.
+ *    `'<slot'`. If any is found, it will return `true`. Otherwise it returns `false`.
  */
 function fileRequiresVue(filePath) {
     let fileContents = fs.readFileSync(filePath, { encoding: "utf8" });
@@ -364,14 +365,14 @@ function fileRequiresVue(filePath) {
     if (Object.prototype.hasOwnProperty.call(metadata, "components")) {
         return !!metadata.components;
     }
-    if (fileContainsTags(content, ["slot", "g-image", "link-box", "vega-embed", "markdown-embed"])) {
+    if (fileContainsTags(content, AUTODETECT_COMPONENTS)) {
         return true;
     }
     return false;
 }
 
 function fileContainsTags(fileContents, tags) {
-    let queryStrings = tags.map((tag) => `<${tag} `);
+    let queryStrings = tags.map((tag) => `<${tag}`);
     for (let line of splitlines(fileContents)) {
         for (let query of queryStrings) {
             if (line.includes(query)) {
