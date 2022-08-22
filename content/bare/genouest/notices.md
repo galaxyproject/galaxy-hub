@@ -1,1 +1,0 @@
-../eu/usegalaxy/notices.md
