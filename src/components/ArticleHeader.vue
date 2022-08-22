@@ -8,7 +8,7 @@
         <g-image v-if="article.image" class="img-fluid main-image" :src="image" />
         <h1 class="title float-left" v-if="!article.skip_title_render">{{ article.title }}</h1>
         <div class="clearfix"></div>
-        <p class="subtitle" v-if="article.tease">{{ article.tease }}</p>
+        <p class="subtitle" v-if="article.tease && !article.hide_tease">{{ article.tease }}</p>
         <ul class="metadata list-unstyled" v-if="article.category === 'events'">
             <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
             <li v-if="article.location">
