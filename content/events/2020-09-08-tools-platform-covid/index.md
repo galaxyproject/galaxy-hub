@@ -1,8 +1,8 @@
 ---
 title: "The ELIXIR Tools Platform - solutions for COVID-19 research"
 date: "2020-09-08"
-contact:
-  name: Freiburg Galaxy Team
+contacts:
+- name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
 location: online
 supporters:
