@@ -12,6 +12,7 @@ query Article($path: String!) {
         id
         title
         tease
+        hide_tease
         subsites
         main_subsite
         category

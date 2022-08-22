@@ -1,6 +1,7 @@
 ---
 title: Example Markdown page (without Vue components)
 tease: A tease
+hide_tease: true
 # Normally you wouldn't set the category manually. Instead, it's set based on where this file is
 # placed in the content directory. Since this isn't in the right place, we set it here manually.
 category: events
