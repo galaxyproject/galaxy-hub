@@ -30,7 +30,7 @@ As previously announced, the FTP file upload service has now been decommissioned
 
 <div class="text-center my-5">
 
-[![The Galaxy Community Conference is an annual gathering of the Galaxy community that included training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking.](/images/events/gcc2022/gcc2022-schedule-glance.png)](https://galaxyproject.org/events/gcc2022/)
+[![The Galaxy Community Conference is an annual gathering of the Galaxy community that included training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking.](/images/events/gcc2022/gcc2022-infographic.png){width=500}](https://galaxyproject.org/events/gcc2022/)
 
 ---
 
