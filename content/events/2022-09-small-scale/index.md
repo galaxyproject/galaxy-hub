@@ -18,7 +18,7 @@ subsites: [global, us]
 
 Please <a href="https://epfl.zoom.us/j/62244337954?pwd=L2ZVSytTdlpaM1pvbjZpWjNjUm9JZz09">join us</a> 
 at 4 PM CEST (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20220920T16&p1=1229&ah=1">see in your timezone</a>) 
-for a discussion about 'switch from an old galaxy to a ansible galaxy' lead by Lucille Delisle. 
+for a discussion about 'How I switched from an old galaxy to an ansible galaxy?' lead by Lucille Delisle. 
 There will also be time to discuss any current problems you encounter as a maintainer of a Galaxy server.
 
 
