@@ -161,15 +161,33 @@ Germany
 
 Freiburg can be easily reached by train with the ICE from the North (via Frankfurt and Karlsruhe) and the South (via Basel) [Deutsche Bahn](https://www.bahn.com/en).
 
-### How to reach Freiburg from Basel/Mulhouse/Freiburg airport (EuroAirport)
+#### How to reach Freiburg from Basel/Mulhouse/Freiburg airport (EuroAirport)
 
 - Option 1: Use the French/German exit and take the [airport shuttle bus](http://www.freiburger-reisedienst.de/en/airportbus/timetable.php) to Freiburg main station (Hauptbahnhof).
 - Option 2: Use the Swiss exit and take the local bus (#50) to the train station in Basel, and from there take a train to Freiburg.
 
-### How to reach the venue from Freiburg Hauptbahnhof
+#### How to reach the venue from Freiburg Hauptbahnhof
 
 - Option 1: Local train, take the Breisgau S-Bahn from Hauptbahnhof Freiburg to Gottenheim/Breisach to Neue Messe/Universität.
 - Option 2: Tram 4 direction Messe, stop “Technische Fakultät/Messe” (see [tram plan](http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html)).
+
+### Lodging
+
+#### City Center
+- [Stadthotel Freiburg](https://www.hotel-freiburg.de/de)
+- [Motel One](https://www.motel-one.com/en/hotels/freiburg/hotel-freiburg)
+- [Black Forest Hostel](https://www.blackforest-hostel.de)
+- [Hotel am Rathaus](http://www.am-rathaus.de)
+- [Hotel Barbara](http://www.hotel-barbara.de)
+- [Hotel Bären](https://www.hotel-freiburg-baeren.de/)
+
+#### Main station
+- [Central](https://www.central-freiburg.de)
+- [Park Hotel Post](https://www.park-hotel-post.de/de)
+- [Intercity Hotel](https://hrewards.com/de/intercityhotel-freiburg)
+
+#### Faculty of engineering
+- [Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)
 
 # Questions?
 
