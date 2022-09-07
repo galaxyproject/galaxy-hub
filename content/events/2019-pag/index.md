@@ -4,7 +4,8 @@ date: '2019-01-12'
 days: 5
 tease: Galaxy is for Plants and Animals too...
 continent: NA
-location: San Diego, California
+location:
+  name: San Diego, California
 location_url: http://www.intlpag.org/
 gtn: false
 contact: Presenters

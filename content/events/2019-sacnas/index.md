@@ -4,7 +4,8 @@ date: '2019-10-30'
 days: 1
 tease: "Learn to do data-intensive science with Galaxy"
 continent: NA
-location: "2019 SACNAS, Honolulu, Hawai'i, United States" 
+location:
+  name: "2019 SACNAS, Honolulu, Hawai'i, United States" 
 location_url: http://www.2019sacnas.org/
 external_url: 
 image: 

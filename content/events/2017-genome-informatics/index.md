@@ -4,7 +4,8 @@ date: '2017-11-01'
 days: 4
 tease: ''
 continent: 'NA'
-location: 'Genome Informatics, CSHL, New York, United States'
+location:
+  name: 'Genome Informatics, CSHL, New York, United States'
 location_url: https://meetings.cshl.edu/meetings.aspx?meet=INFO&year=17
 external_url: 
 gtn: false

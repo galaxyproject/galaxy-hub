@@ -4,7 +4,8 @@ date: '2021-03-18'
 days: 1
 tease: 'A community contribution day'
 continent: GL
-location: 'Online, Global'
+location:
+  name: 'Online, Global'
 image: "/images/galaxy-logos/papercuts.png"
 location_url: "/events/cofests/papercuts/"
 external_url:

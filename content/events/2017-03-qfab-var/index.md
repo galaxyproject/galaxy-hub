@@ -3,7 +3,8 @@ title: Variant detection using Galaxy
 date: '2017-03-02'
 tease: by QFAB, University of Queensland
 continent: AU
-location: QFAB, The University of Queensland, St Lucia. Australia
+location:
+  name: QFAB, The University of Queensland, St Lucia. Australia
 image: qfab.png
 location_url: http://www.qfab.org/
 external_url: http://www.qfab.org/workshops/variant-detection-using-galaxy-02-mar-2017

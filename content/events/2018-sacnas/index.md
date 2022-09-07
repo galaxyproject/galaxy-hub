@@ -4,7 +4,8 @@ date: '2018-10-10'
 days: 1
 tease: Galaxy, CyVerse, Data abd Software Carpentry
 continent: NA
-location: 2018 SACNAS, San Antonio, Texas, United States 
+location:
+  name: 2018 SACNAS, San Antonio, Texas, United States 
 location_url: http://www.2018sacnas.org/
 external_url: 
 image: /images/logos/sacnas-no-text.jpg

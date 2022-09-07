@@ -4,7 +4,8 @@ date: '2020-01-22'
 days: 3
 tease: 
 continent: EU
-location: "Toulouse, France"
+location:
+  name: "Toulouse, France"
 location_url: "http://rfmf-mpf-2020.sciencesconf.org"
 gtn: true
 contact: Presenters

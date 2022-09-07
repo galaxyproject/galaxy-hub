@@ -4,7 +4,8 @@ date: '2018-10-15'
 days: 5
 tease: ""
 continent: AU
-location: "Melbourne, Victoria, Australia"
+location:
+  name: "Melbourne, Victoria, Australia"
 location_url: "https://conference.eresearch.edu.au/"
 gtn: true
 contact: Presenters

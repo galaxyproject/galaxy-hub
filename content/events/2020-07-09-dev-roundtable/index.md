@@ -4,7 +4,8 @@ date: '2020-07-09'
 days: 1
 tease: ""
 continent: GL
-location: "Galaxy Developer Roundtable, Online"
+location:
+  name: "Galaxy Developer Roundtable, Online"
 image: 
 location_url: "/community/devroundtable/"
 external_url:

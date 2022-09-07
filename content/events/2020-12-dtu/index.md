@@ -4,7 +4,8 @@ date: '2020-12-14'
 days: 5
 tease: ""
 continent: AS
-location: "2021 International Bioinformatics Workshop, Online, India"
+location:
+  name: "2021 International Bioinformatics Workshop, Online, India"
 location_url: "https://bioinfoeworkshop.in/"
 external_url: "https://youtu.be/UsE3mcgW7GA"
 gtn: true

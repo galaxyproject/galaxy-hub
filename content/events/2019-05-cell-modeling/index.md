@@ -5,7 +5,8 @@ days: 3
 tease: "CellOrganizer integration with Galaxy"
 continent: NA
 external_url: "https://mmbios.pitt.edu/cmw2019"
-location: "MMBioS, PSC, Pittsburgh, Pennsylvania, United States"
+location:
+  name: "MMBioS, PSC, Pittsburgh, Pennsylvania, United States"
 location_url: "https://mmbios.pitt.edu/"
 gtn: false
 contact: "Instructors"

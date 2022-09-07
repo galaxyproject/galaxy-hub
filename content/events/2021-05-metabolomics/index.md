@@ -4,7 +4,8 @@ date: '2021-05-06'
 days: 1
 tease: "Plus recent developments and future plans in the Galaxy Metabolomics community"
 continent: EU
-location: "Galaxy Metabolomics Community Call, Online Freiburg, Germany"
+location:
+  name: "Galaxy Metabolomics Community Call, Online Freiburg, Germany"
 external_url: ""
 location_url: ""
 gtn: false

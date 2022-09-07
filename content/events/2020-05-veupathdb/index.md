@@ -4,7 +4,8 @@ date: "2020-05-14"
 days: 1
 tease: "Run a workflow in galaxy and exporting the results to your VEuPathDB workspace."
 continent: NA
-location: "Online, University of Georgia, Athens, Georgia, United States"
+location:
+  name: "Online, University of Georgia, Athens, Georgia, United States"
 image: 
 location_url: ""
 external_url: "https://vectorbase.org/vectorbase/app/static-content/webinars.html#galaxy"

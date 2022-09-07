@@ -4,7 +4,8 @@ date: '2022-05-19'
 days: 1
 tease: 'A community contribution day'
 continent: GL
-location: 'Online, Global'
+location:
+  name: 'Online, Global'
 location_url: "/events/cofests/papercuts/"
 external_url:
 gtn: false

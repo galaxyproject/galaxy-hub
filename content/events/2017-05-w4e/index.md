@@ -4,7 +4,8 @@ date: '2017-05-29'
 days: 5
 tease: at Institut Pasteur
 continent: EU
-location: Pasteur Institute, Paris, France
+location:
+  name: Pasteur Institute, Paris, France
 image: ifb.png
 location_url: http://www.france-bioinformatique.fr/fr
 external_url: http://www.france-bioinformatique.fr/fr/evenements/W4E2017

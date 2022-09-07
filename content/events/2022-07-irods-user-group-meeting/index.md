@@ -4,7 +4,8 @@ date: '2022-07-05'
 days: 3
 tease: "iRODS 2022 User Group Meeting"
 continent: EU
-location: "KU Leuven, Belgium"
+location:
+  name: "KU Leuven, Belgium"
 external_url: "https://irods.org/ugm2022/"
 location_url: "https://www.kuleuven.be/english/kuleuven"
 gtn: false

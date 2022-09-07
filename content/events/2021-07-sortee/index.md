@@ -4,7 +4,8 @@ date: '2021-07-12'
 days: 3
 tease: "Open, reliable, and transparent ecology research with Galaxy-E"
 continent: GL
-location: "SORTEE 2021, Online, Global"
+location:
+  name: "SORTEE 2021, Online, Global"
 location_url: "https://www.sortee.org/events/"
 external_url: ""
 gtn: true

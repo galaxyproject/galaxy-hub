@@ -4,7 +4,8 @@ date: '2021-11-16'
 days: 2
 tease: ""
 continent: EU
-location: "Der 5. NRZ-Authent Expertinnen- und Expertenworkshop, Online, Germany"
+location:
+  name: "Der 5. NRZ-Authent Expertinnen- und Expertenworkshop, Online, Germany"
 location_url: ""
 external_url: "https://galaxyproject.eu/event/2021-10-12-talk-NRZ-authent/"
 gtn: true

@@ -4,7 +4,8 @@ date: '2019-09-07'
 days: 4
 tease: "Software reuse, made easy"
 continent: NA
-location: "ACM BCB, Niagara Falls, New York, United States"
+location:
+  name: "ACM BCB, Niagara Falls, New York, United States"
 location_url: "https://acm-bcb.org/"
 external_url: ""
 gtn: true

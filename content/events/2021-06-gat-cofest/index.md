@@ -4,7 +4,8 @@ date: '2021-06-01'
 days: 4
 tease: "Galaxy Admin Training (GAT) curriculum and materials CollaborationFest."
 continent: GL
-location: "Online, Global"
+location:
+  name: "Online, Global"
 external_url: ""
 location_url: "https://gitter.im/galaxyproject/admins"
 gtn: false

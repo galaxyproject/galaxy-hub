@@ -4,7 +4,8 @@ date: "2020-03-16"
 days: 5
 tease: "Galaxy Australia"
 continent: AU
-location: "C3DIS 2020, Melbourne, Victoria, Australia"
+location:
+  name: "C3DIS 2020, Melbourne, Victoria, Australia"
 location_url: "http://www.c3dis.com/"
 image: /images/logos/c3dis-logo-2020.png
 external_url:

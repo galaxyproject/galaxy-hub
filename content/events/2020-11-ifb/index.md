@@ -4,7 +4,8 @@ date: '2020-11-26'
 days: 1
 tease: "La session du matin (9H30 à 12h30), ouverte à tous, sera consacrée à un focus sur une sélection de faits marquants."
 continent: EU
-location: "Assemblée générale IFB, Online, France"
+location:
+  name: "Assemblée générale IFB, Online, France"
 location_url: "https://www.france-bioinformatique.fr/ag2020/"
 external_url: "https://www.france-bioinformatique.fr/ag2020/"
 gtn: false

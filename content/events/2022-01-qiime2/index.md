@@ -4,7 +4,8 @@ date: '2022-01-31'
 days: 5
 tease: "We'll be teaching w/ our new Galaxy graphical interface - join us and learn to use QIIME 2 through a GUI! Register by January 7."
 continent: NA
-location: "Online, National Institutes of Health (NIH), Bethesda, Maryland, United States"
+location:
+  name: "Online, National Institutes of Health (NIH), Bethesda, Maryland, United States"
 external_url: "https://education.faes.org/search/publicCourseSearchDetails.do?method=load&courseId=1165589"
 location_url: ""
 image: /images/logos/faes.png

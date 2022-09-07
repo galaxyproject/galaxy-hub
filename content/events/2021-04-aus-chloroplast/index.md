@@ -4,7 +4,8 @@ date: '2021-04-21'
 days: 1
 tease: "An introduction to RNA-seq analysis using the Galaxy Australia web platform"
 continent: AU
-location: "Australian BioCommons, Online, Melbourne, Australia"
+location:
+  name: "Australian BioCommons, Online, Melbourne, Australia"
 external_url: "https://www.biocommons.org.au/events/plant-genomics-galaxy"
 location_url: "https://www.biocommons.org.au/events"
 gtn: true

@@ -4,7 +4,8 @@ date: '2021-06-17'
 days: 1
 tease: 'GCC Cofest prep is pre-empting the June Papercuts day'
 continent: GL
-location: 'Online, Global'
+location:
+  name: 'Online, Global'
 image: "papercuts-cofest-prep.png"
 location_url: "/events/cofests/papercuts/"
 external_url:

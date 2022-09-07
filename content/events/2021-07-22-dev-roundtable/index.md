@@ -4,7 +4,8 @@ date: '2021-07-22'
 days: 1
 tease: "How can we make the tool panel more tractable?"
 continent: GL
-location: "Galaxy Developer Roundtable, Online, Global"
+location:
+  name: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:

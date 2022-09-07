@@ -3,7 +3,8 @@ title: RNA-seq analysis using Galaxy
 date: '2017-03-01'
 tease: by QFAB, University of Queensland
 continent: AU
-location: QFAB, The University of Queensland, St Lucia. Australia
+location:
+  name: QFAB, The University of Queensland, St Lucia. Australia
 image: qfab.png
 location_url: http://www.qfab.org/
 external_url: http://www.qfab.org/workshops/rna-seq-analysis-using-galaxy-01-mar-2017

@@ -4,7 +4,8 @@ date: '2019-06-02'
 days: 5
 tease: 
 continent: NA
-location: "ASMS 2019, Atlanta, Georgia, United States"
+location:
+  name: "ASMS 2019, Atlanta, Georgia, United States"
 image: /images/logos/ASMSLogo.png
 location_url: "http://www.asms.org/conferences/annual-conference/annual-conference-homepage"
 external_url: 

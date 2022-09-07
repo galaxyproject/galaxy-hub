@@ -4,7 +4,8 @@ date: '2018-12-03'
 days: 3
 tease: "4 talks using Galaxy for Metaproteomics" 
 continent: EU
-location: "Helmholtz-UFZ, Leipzig Germany"
+location:
+  name: "Helmholtz-UFZ, Leipzig Germany"
 image: "/events/2018-12-metaproteome/2018-metaproteomics-symposium.png"
 location_url: "https://fems-microbiology.org/opportunities/3rd-international-metaproteome-symposium-2018-3-5-december-2018-germany/"
 external_url: 

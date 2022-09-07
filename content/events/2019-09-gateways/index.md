@@ -4,7 +4,8 @@ date: '2019-09-23'
 days: 3
 tease: "Co-located with eScience 2019"
 continent: NA
-location: "Gateways 2019, San Diego, California, United States"
+location:
+  name: "Gateways 2019, San Diego, California, United States"
 location_url: "https://sciencegateways.org/web/gateways2019/welcome"
 external_url:
 gtn: false

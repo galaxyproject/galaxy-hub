@@ -4,7 +4,8 @@ date: '2020-11-27'
 days: 1
 tease: "An INCOB Workshop from Galaxy Australia"
 continent: AS
-location: "INCOB 2020, Online, Kunming, Yunnan, China"
+location:
+  name: "INCOB 2020, Online, Kunming, Yunnan, China"
 location_url: "https://incob.apbionet.org/incob20/"
 external_url: "https://incob.apbionet.org/incob20/galaxy-a-platform-for-life-science-analyses-more-than-just-genomics/"
 gtn: true

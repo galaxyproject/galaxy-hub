@@ -4,7 +4,8 @@ date: '2021-11-08'
 days: 5
 tease: "Advance the development of an open-source infrastructure for data integration"
 continent: EU
-location: "Barcelona + Online, Spain"
+location:
+  name: "Barcelona + Online, Spain"
 location_url: "https://www.biohackathon-europe.org/index.html"
 external_url: ""
 image: "/images/logos/bhlogo.png"

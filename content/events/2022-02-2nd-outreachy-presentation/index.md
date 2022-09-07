@@ -4,7 +4,8 @@ date: '2022-03-03'
 days: 1
 tease: ''
 continent: GL
-location: 'Online, Global'
+location:
+  name: 'Online, Global'
 image: "https://www.outreachy.org/static/css/img/logo-no-background.86e64a85437c.svg"
 location_url:
 external_url:

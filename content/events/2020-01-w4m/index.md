@@ -4,7 +4,8 @@ date: '2020-01-21'
 days: 1
 tease: "Interactive tutorial"
 continent: EU
-location: 'European RFMF Metabomeeting 2020, Toulouse, France'
+location:
+  name: 'European RFMF Metabomeeting 2020, Toulouse, France'
 image: 
 location_url: "https://rfmf-mpf-2020.sciencesconf.org/"
 external_url: "https://rfmf-mpf-2020.sciencesconf.org/"

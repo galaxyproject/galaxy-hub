@@ -4,7 +4,8 @@ date: '2021-02-25'
 days: 1
 tease: "Connect with the Galaxy Training Community!"
 continent: GL
-location: "Online, Global"
+location:
+  name: "Online, Global"
 image:
 location_url:
 external_url:

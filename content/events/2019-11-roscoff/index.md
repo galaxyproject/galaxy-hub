@@ -4,7 +4,8 @@ tease: "Apprenez à utiliser les méthodes et outils d’analyse de données RNA
 date: '2019-11-25'
 days: 2
 continent: EU
-location: "Roscoff, France" 
+location:
+  name: "Roscoff, France" 
 location_url: ""
 external_url: "http://www.fc.sorbonne-universite.fr/fr/formations-en-sciences-et-pluridisciplinaires/analyse-rnaseq.html"
 contact: 'audrey.vidal @ sorbonne-universite.fr'

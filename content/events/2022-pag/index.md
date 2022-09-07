@@ -4,7 +4,8 @@ date: '2022-01-08'
 days: 5
 tease: "Galaxy is for Plants and Animals too..."
 continent: NA
-location: "PAG, San Diego, California, United States"
+location:
+  name: "PAG, San Diego, California, United States"
 location_url: https://www.intlpag.org/2022/
 gtn: true
 contact: Presenters

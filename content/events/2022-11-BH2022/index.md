@@ -4,7 +4,8 @@ date: '2022-11-07'
 days: 5
 tease: "BioHackathon activities are driven by practical sessions where people gather, discuss, and implement ideas and projects during intensive and productive coding sessions"
 continent: EU
-location: "Paris + Online, France"
+location:
+  name: "Paris + Online, France"
 location_url: "https://biohackathon-europe.org/"
 external_url: ""
 image: "/images/logos/bhlogo.png"

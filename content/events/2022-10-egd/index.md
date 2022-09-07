@@ -4,7 +4,8 @@ date: '2022-10-03'
 days: 5
 tease: "European Galaxy Community meeting in Autumn"
 continent: EU
-location: "Freiburg, Germany"
+location:
+  name: "Freiburg, Germany"
 gtn: false
 contact: "Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis, Anika Erxleben"
 links:

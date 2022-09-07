@@ -4,7 +4,8 @@ date: '2019-01-08'
 days: 1
 tease: "A hands-on workshop" 
 continent: NA
-location: "Washington, DC"
+location:
+  name: "Washington, DC"
 image: "/images/logos/GWUlogo.png"
 gtn: true
 contact: "Dr. Ian Toma (itoma at gwu dot edu)"

@@ -4,7 +4,8 @@ date: '2013-06-30'
 days: 3
 tease: "The 2013 gathering of the global Galaxy community"
 continent: EU
-location: "University of Oslo, Oslo Norway"
+location:
+  name: "University of Oslo, Oslo Norway"
 location_url: http://www.uio.no/
 external_url:
 gtn: false

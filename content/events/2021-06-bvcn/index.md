@@ -4,7 +4,8 @@ date: '2021-06-07'
 days: 5
 tease: "Register by 14 April"
 continent: GL
-location: "Holistic Bioinformatic Approaches used in Microbiome Research, Online, Global"
+location:
+  name: "Holistic Bioinformatic Approaches used in Microbiome Research, Online, Global"
 external_url: "https://biovcnet.github.io/_pages/conference-2021/"
 location_url: "https://biovcnet.github.io/_pages/conference-2021/"
 gtn: false

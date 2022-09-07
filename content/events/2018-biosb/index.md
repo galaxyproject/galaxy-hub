@@ -4,7 +4,8 @@ date: '2018-05-15'
 days: 2
 tease: ""
 continent: EU
-location: "Lunteren, The Netherlands"
+location:
+  name: "Lunteren, The Netherlands"
 location_url: 
 external_url: http://biosb.nl/wp-content/uploads/2018/05/abstract_book.pdf
 gtn: false

@@ -4,7 +4,8 @@ date: '2017-10-01'
 days: 31
 tease: Online...
 continent: GL
-location: Online
+location:
+  name: Online
 contact: Enis and Martin
 subsites: [global, us]
 ---

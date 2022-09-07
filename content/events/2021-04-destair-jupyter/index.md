@@ -4,7 +4,8 @@ date: '2021-04-12'
 days: 5
 tease: "Next generation sequencing for RNA-Seq and Epigenetics"
 continent: EU
-location: "de.NBI / de.STAIR, Online, Germany"
+location:
+  name: "de.NBI / de.STAIR, Online, Germany"
 image: 
 location_url: ""
 external_url: "https://www.leibniz-fli.de/news-events/seminars/detailpage/denbi-destair-training-course"

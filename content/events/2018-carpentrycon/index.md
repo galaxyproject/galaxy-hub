@@ -4,7 +4,8 @@ date: '2018-05-30'
 days: 3
 tease: ""
 continent: EU
-location: CarpentryCon 2018, University College, Dublin, Ireland
+location:
+  name: CarpentryCon 2018, University College, Dublin, Ireland
 image: /images/logos/carpentries-logo-trans-200.png
 location_url: http://www.carpentrycon.org/
 contact: Bérénice Batut

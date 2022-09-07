@@ -4,7 +4,8 @@ date: '2019-01-17'
 days: 2
 tease: "Želite li da naučite kako analizirati genomičke podatke?"
 continent: EU
-location: "Belgrade, Servia"
+location:
+  name: "Belgrade, Servia"
 location_url: "https://www.denbi.de/training/515-galaxy-workshop"
 image: "/images/logos/deNBILogo.png"
 external_url: "https://www.denbi.de/training/515-galaxy-workshop"

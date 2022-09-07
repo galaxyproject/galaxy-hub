@@ -4,7 +4,8 @@ tease: "work on the integration of ELIXIR-supported resources, like Bioschemas, 
 date: '2019-09-11'
 days: 3
 continent: EU
-location: "University of Cambridge, Cambridge, United Kingdom"
+location:
+  name: "University of Cambridge, Cambridge, United Kingdom"
 location_url:
 external_url: "https://training.csx.cam.ac.uk/bioinformatics/event/3123756"
 contact: ''

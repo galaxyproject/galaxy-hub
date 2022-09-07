@@ -8,7 +8,8 @@ end: 2022-03-18
 external_url: https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/?utm_source=org-website&utm_medium=web&utm_campaign=smorgasbord2
 tease: "Get a taste of all the GTN has to offer!"
 continent: GL
-location: "Online, Global"
+location:
+  name: "Online, Global"
 contact: "Saskia Hiltemann & Helena Rasche"
 gtn: true
 ---

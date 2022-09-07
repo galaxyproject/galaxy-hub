@@ -4,7 +4,8 @@ date: '2017-02-06'
 days: 1
 tease: Globus Genomics and Galaxy
 continent: NA
-location: NGS Data Analysis and Informatics, San Diego, California, United States
+location:
+  name: NGS Data Analysis and Informatics, San Diego, California, United States
 image: ngs2017.jpg
 location_url: http://www.mnmconferences.com/
 external_url: http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference

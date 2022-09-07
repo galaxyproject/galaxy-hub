@@ -4,7 +4,8 @@ date: '2020-10-19'
 days: 5
 tease: "a whole lot of Galaxy Australia"
 continent: AU
-location: "Online, Australia"
+location:
+  name: "Online, Australia"
 location_url: "https://conference.eresearch.edu.au/"
 external_url:
 gtn: true

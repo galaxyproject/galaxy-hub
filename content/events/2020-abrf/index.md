@@ -4,7 +4,8 @@ date: '2020-02-29'
 days: 4
 tease: "Single Cell, and Functional Characteristics of Microbiomes"
 continent: NA
-location: "ABRF 2020, Palm Springs, California, United States"
+location:
+  name: "ABRF 2020, Palm Springs, California, United States"
 location_url: http://conf.abrf.org/
 external_url:
 image: "/images/logos/abrf-logo-color-text.png"

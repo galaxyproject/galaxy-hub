@@ -4,7 +4,8 @@ date: '2020-08-31'
 days: 5
 tease: "Machine Learning and FAIR Workflows"
 continent: EU
-location: "ECCB 2020, Online, Europe"
+location:
+  name: "ECCB 2020, Online, Europe"
 location_url: "https://eccb2020.info/newtrendsinbioinformaticsbyeccb/"
 image: "eccb-2020-new-trends-logo.jpg"
 external_url: ""

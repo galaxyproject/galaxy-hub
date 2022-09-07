@@ -4,7 +4,8 @@ date: '2022-05-18'
 days: 1
 tease: "Third ELIXIR Belgium meeting"
 continent: EU
-location: "Brussels, Belgium, Europe"
+location:
+  name: "Brussels, Belgium, Europe"
 location_url: ""
 external_url: "https://elixir-belgium.org/events/elixir-belgium-fair-data-life-sciences-research"
 gtn: false

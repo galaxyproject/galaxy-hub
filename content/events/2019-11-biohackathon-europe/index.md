@@ -4,7 +4,8 @@ date: '2019-11-18'
 days: 5
 tease: "Advance the development of an open-source infrastructure for data integration"
 continent: EU
-location: "Campus des Berges de Seine, Paris, France"
+location:
+  name: "Campus des Berges de Seine, Paris, France"
 location_url: "https://www.biohackathon-europe.org/index.html"
 external_url: ""
 image: 

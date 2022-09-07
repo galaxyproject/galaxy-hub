@@ -4,7 +4,8 @@ date: '2017-07-03'
 days: 4
 tease: "l’occasion de découvrir les avancées scientifiques et techniques en analyse, comparaison et exploitation des données biologiques"
 continent: EU
-location: "Lille, France"
+location:
+  name: "Lille, France"
 location_url: "https://project.inria.fr/jobim2017/"
 gtn: false
 contact: "Presenters"
