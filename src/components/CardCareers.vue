@@ -6,10 +6,13 @@
                 {{ article.title }}
             </a>
         </div>
-        <p class="location">
-            <a :class="article.closed ? 'text-muted' : ''" :href="article.location_url">
-                {{ article.location }}
+        <p class="location" v-if="article.location.name">
+            <a v-if="article.location.url" :class="article.closed ? 'text-muted' : ''" :href="article.location.url">
+                {{ article.location.name }}
             </a>
+            <template v-else :class="article.closed ? 'text-muted' : ''">
+                {{ article.location.name }}
+            </template>
         </p>
         <p class="posted">
             Posted: {{ article.date }}

@@ -242,6 +242,11 @@ class nodeModifier {
         } else {
             node.has_date = false;
         }
+        // Patch old location metadata fields into new, structured fields.
+        if (node.location_url) {
+            node.location = node.location || {};
+            node.location.url = node.location_url;
+        }
         return node;
     }
     static processVueType(node, collection, typeName) {

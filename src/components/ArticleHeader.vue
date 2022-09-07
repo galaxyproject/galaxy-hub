@@ -11,10 +11,10 @@
         <p class="subtitle" v-if="article.tease && !article.hide_tease">{{ article.tease }}</p>
         <ul class="metadata list-unstyled" v-if="article.category === 'events'">
             <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
-            <li v-if="article.location">
+            <li v-if="article.location.name">
                 <span class="metakey">Location: </span>
-                <a v-if="article.location_url" :href="article.location_url">{{ article.location }}</a>
-                <template v-else>{{ article.location }}</template>
+                <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
+                <template v-else>{{ article.location.name }}</template>
             </li>
             <li v-if="article.contact">
                 <span class="metakey">Contact: </span>

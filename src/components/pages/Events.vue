@@ -120,8 +120,10 @@ fragment articleFields on Article {
     id
     title
     tease
-    location
-    location_url
+    location {
+        name
+        url
+    }
     continent
     contact
     external_url

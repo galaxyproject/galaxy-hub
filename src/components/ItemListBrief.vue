@@ -32,8 +32,8 @@ export default {
                 link: this.item.link || this.item.external_url || this.item.path,
                 tease: this.item.tease || "",
             };
-            if (this.item.location) {
-                fields.tease += ` ${this.item.location}`;
+            if (this.item.location?.name) {
+                fields.tease += ` ${this.item.location.name}`;
             }
             if (this.item.closes) {
                 // The date a job opening closes.
