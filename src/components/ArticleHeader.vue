@@ -11,7 +11,7 @@
         <p class="subtitle" v-if="article.tease && !article.hide_tease">{{ article.tease }}</p>
         <ul class="metadata list-unstyled" v-if="article.category === 'events'">
             <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
-            <li v-if="article.location.name">
+            <li v-if="article.location && article.location.name">
                 <span class="metakey">Location: </span>
                 <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
                 <template v-else>{{ article.location.name }}</template>

@@ -22,8 +22,10 @@
         </td>
         <td class="location">
             <Continent :continent="article.continent" />
-            <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
-            <template v-else>{{ article.location.name }}</template>
+            <template v-if="article.location && article.location.name">
+                <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
+                <template v-else>{{ article.location.name }}</template>
+            </template>
         </td>
         <td class="contact">
             <a v-if="article.gtn" href="https://training.galaxyproject.org/">

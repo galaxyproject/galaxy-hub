@@ -6,7 +6,7 @@
                 {{ article.title }}
             </a>
         </div>
-        <p class="location" v-if="article.location.name">
+        <p class="location" v-if="article.location && article.location.name">
             <a v-if="article.location.url" :class="article.closed ? 'text-muted' : ''" :href="article.location.url">
                 {{ article.location.name }}
             </a>
