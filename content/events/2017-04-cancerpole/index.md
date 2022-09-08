@@ -4,7 +4,8 @@ date: '2017-04-19'
 days: 3
 tease: Analyses DNA-Seq avec Galaxy
 continent: EU
-location: Cancerpole, Paris, Fance
+location:
+  name: Cancerpole, Paris, Fance
 image: cancerpole.jpg
 location_url: http://www.canceropole-idf.fr/
 external_url: http://www.canceropole-idf.fr/formation-ngs-dnaseq/

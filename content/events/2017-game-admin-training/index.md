@@ -5,7 +5,8 @@ date: '2017-02-06'
 days: 4
 tease: at Galaxy Australasia Meeting Meeting
 continent: AU
-location: GAMe 2017, University of Melbourne, Melbourne, Victoria, Australia
+location:
+  name: GAMe 2017, University of Melbourne, Melbourne, Victoria, Australia
 location_url:  https://www.emblaustralia.org/events-speakers/public-events/game-2017-galaxy-australasia-meeting
 image: /images/logos/game2017-admin-training-logo.png
 gtn: true

@@ -4,7 +4,8 @@ tease: "Workshop, talk, and a community launch"
 date: '2019-09-10'
 days: 3
 continent: AS
-location: "InCoB 2019, Jakarta, Indonesia"
+location:
+  name: "InCoB 2019, Jakarta, Indonesia"
 location_url: "http://incob2019.org/"
 external_url: ""
 contact: "Simon Gladman, Gareth Price, Nuwan Goonesekera, Dave Clements"

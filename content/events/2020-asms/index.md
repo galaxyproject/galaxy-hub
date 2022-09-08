@@ -4,7 +4,8 @@ date: '2020-06-01'
 days: 12
 tease: 
 continent: NA
-location: "ASMS 2020, Online, San Antonio, Texas, United States"
+location:
+  name: "ASMS 2020, Online, San Antonio, Texas, United States"
 image: /images/logos/ASMSLogo.png
 location_url: "https://www.asms.org/conferences/asms-2020-reboot"
 external_url: 

@@ -4,7 +4,8 @@ date: '2018-09-17'
 days: 4
 tease: ''
 continent: 'EU'
-location: 'Wellcome Genome Campus, Hinxton, United Kingdom'
+location:
+  name: 'Wellcome Genome Campus, Hinxton, United Kingdom'
 location_url: "https://coursesandconferences.wellcomegenomecampus.org/our-events/genome-informatics-2018/"
 external_url: 
 gtn: false

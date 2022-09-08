@@ -11,7 +11,8 @@ continent: EU
 contact: Strong Mad
 contact_url: https://example.com
 authors: Marzipan
-location: Strong Badia
+location:
+  name: Strong Badia
 location_url: https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s
 external_url: https://zombo.com
 source_blog_url: "https://blogs.nature.com/naturejobs/"

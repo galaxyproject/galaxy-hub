@@ -4,7 +4,8 @@ date: '2015-07-06'
 days: 3
 tease: "The 2015 gathering of the global Galaxy community"
 continent: EU
-location: "The Sainsbury Lab, Norwich, United Kingdom"
+location:
+  name: "The Sainsbury Lab, Norwich, United Kingdom"
 location_url: http://www.tsl.ac.uk/
 external_url: http://gcc2015.tsl.ac.uk/
 gtn: true

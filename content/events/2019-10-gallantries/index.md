@@ -4,7 +4,8 @@ tease: "The Gallantries team is offering its second RNA-seq workshop for beginne
 date: '2019-10-07'
 days: 3
 continent: EU
-location: "Rotterdam, The Netherlands; Thessaloniki, Greece; Tartu, Estonia"
+location:
+  name: "Rotterdam, The Netherlands; Thessaloniki, Greece; Tartu, Estonia"
 location_url:
 external_url: "https://galaxy-carpentries.github.io/gallantries/event/2019-08-27-second-gallantries-workshop/"
 contact: 'Berenice Bbatut'

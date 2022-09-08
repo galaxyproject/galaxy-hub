@@ -4,7 +4,8 @@ date: '2019-07-02'
 days: 4
 tease: "l’occasion de découvrir les avancées scientifiques et techniques en analyse, comparaison et exploitation des données biologiques"
 continent: EU
-location: "Nantes, France"
+location:
+  name: "Nantes, France"
 location_url: "https://jobim2019.sciencesconf.org/"
 gtn: false
 contact: "Presenters"

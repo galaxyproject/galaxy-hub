@@ -4,7 +4,8 @@ date: '2021-07-25'
 days: 7
 tease: ""
 continent: EU
-location: "Lyon, Online, France"
+location:
+  name: "Lyon, Online, France"
 image: ismb-eccb-bosc-2021.png
 location_url: https://www.iscb.org/ismbeccb2021
 contact: Presenters

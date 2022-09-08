@@ -4,7 +4,8 @@ date: '2016-07-21'
 days: 1
 tease: ""
 continent: NA
-location: "BTI & Cornell University, Ithaca, New York, United States"
+location:
+  name: "BTI & Cornell University, Ithaca, New York, United States"
 location_url: "http://bti.cornell.edu/"
 external_url: ""
 gtn: true

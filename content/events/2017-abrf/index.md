@@ -4,7 +4,8 @@ date: '2017-03-25'
 days: 4
 tease: at ABRF 2017
 continent: NA
-location: ABRF 2017, San Diego, California, United States
+location:
+  name: ABRF 2017, San Diego, California, United States
 image: abrf2017.png
 location_url: http://conf.abrf.org/home
 external_url: https://galaxyproteomics.github.io/abrf2017/

@@ -35,8 +35,10 @@ query VueArticle($path: String!) {
         contact
         contact_url
         authors
-        location
-        location_url
+        location {
+            name
+            url
+        }
         source_blog
         source_blog_url
         skip_title_render

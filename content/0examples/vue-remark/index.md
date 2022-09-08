@@ -11,7 +11,8 @@ continent: EU
 contact: people
 contact_url: https://example.com
 authors: Jose and me
-location: Strong Badia
+location:
+  name: Strong Badia
 location_url: 'https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s'
 external_url: https://zombo.com
 source_blog_url: "https://blogs.nature.com/naturejobs/"

@@ -3,7 +3,8 @@ title: "Galaxy @ GCB 2019"
 date: '2019-09-16'
 days: 4
 continent: EU
-location: "German Conference on Bioinformatics (GCB), Heidelberg, Germany"
+location:
+  name: "German Conference on Bioinformatics (GCB), Heidelberg, Germany"
 image: "/events/2019-09-gcb/gcb-2019-wide.png"
 location_url: "https://gcb2019.de/"
 external_url: 

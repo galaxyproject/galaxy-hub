@@ -4,7 +4,8 @@ date: '2018-07-03'
 days: 4
 tease: "l’occasion de découvrir les avancées scientifiques et techniques en analyse, comparaison et exploitation des données biologiques"
 continent: EU
-location: "Marseille, France"
+location:
+  name: "Marseille, France"
 location_url: "https://jobim2018.sciencesconf.org/"
 gtn: false
 contact: "Presenters"

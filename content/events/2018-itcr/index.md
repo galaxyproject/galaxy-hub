@@ -4,7 +4,8 @@ date: '2018-05-23'
 days: 2
 tease: ""
 continent: NA
-location: "Bethesda, Maryland, United States"
+location:
+  name: "Bethesda, Maryland, United States"
 location_url: "https://itcr.cancer.gov/about-itcr/news/itcr-2018-annual-meeting-presentations-now-available#"
 external_url: 
 gtn: false

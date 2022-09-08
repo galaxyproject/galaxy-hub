@@ -4,7 +4,8 @@ date: '2021-12-01'
 days: 1
 tease: "...upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments..."
 continent: GL
-location: 'University of Freiburg, New England Biolabs, Online'
+location:
+  name: 'University of Freiburg, New England Biolabs, Online'
 location_url: ""
 image: 
 gtn: true

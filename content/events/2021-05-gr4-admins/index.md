@@ -4,7 +4,8 @@ date: "2021-05-26"
 days: 1
 tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
-location: "Galaxy Resources Webinar Series, Online, Global"
+location:
+  name: "Galaxy Resources Webinar Series, Online, Global"
 image: 
 location_url: "/events/webinars/"
 external_url:

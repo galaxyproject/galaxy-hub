@@ -4,7 +4,8 @@ date: '2014-06-30'
 days: 3
 tease: "The 2014 gathering of the global Galaxy community"
 continent: NA
-location: "Johns Hopkins University, Baltimore, Maryland, United States"
+location:
+  name: "Johns Hopkins University, Baltimore, Maryland, United States"
 location_url: https://jhu.edu
 external_url:
 gtn: false

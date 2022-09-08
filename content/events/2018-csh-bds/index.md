@@ -4,7 +4,8 @@ date: '2018-11-07'
 days: 4
 tease: ""
 continent: NA
-location: "Cold Spring Harbor, New York, USA"
+location:
+  name: "Cold Spring Harbor, New York, USA"
 location_url: "https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=18"
 gtn: false
 contact: Presenters

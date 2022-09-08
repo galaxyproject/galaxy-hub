@@ -4,7 +4,8 @@ date: '2021-03-23'
 days: 10
 tease: ""
 continent: NA
-location: "Online, North America"
+location:
+  name: "Online, North America"
 image: drc-2021.png
 location_url: "https://genetics-gsa.org/drosophila-2021/"
 contact: Presenters

@@ -4,7 +4,8 @@ date: '2020-01-11'
 days: 5
 tease: Galaxy is for Plants and Animals too...
 continent: NA
-location: "PAG, San Diego, California, United States"
+location:
+  name: "PAG, San Diego, California, United States"
 location_url: http://www.intlpag.org/2020/
 gtn: true
 contact: Presenters

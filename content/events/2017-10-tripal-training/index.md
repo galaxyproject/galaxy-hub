@@ -4,7 +4,8 @@ date: '2017-10-27'
 days: 1
 tease: "... setup and usage of the new Tripal Galaxy module ..."
 continent: GL
-location: Online
+location:
+  name: Online
 location_url: http://tripal.info/news/october-training
 image: /images/logos/tripal-logo-dark.png
 external_url: http://tripal.info/news/october-training 

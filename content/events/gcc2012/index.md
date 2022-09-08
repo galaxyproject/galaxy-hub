@@ -4,7 +4,8 @@ date: '2012-07-25'
 days: 3
 tease: "The 2014 gathering of the global Galaxy community"
 continent: NA
-location: "UIC Forum, University of Illinois at Chicago"
+location:
+  name: "UIC Forum, University of Illinois at Chicago"
 location_url: http://www.uicforum.uic.edu/
 external_url:
 gtn: false

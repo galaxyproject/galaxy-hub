@@ -4,7 +4,8 @@ date: "2021-05-29"
 days: 1
 tease: "Sponsored by BioClues, TMS Foundation and Galaxy India"
 continent: AS
-location: "Online, India"
+location:
+  name: "Online, India"
 location_url: "https://meet.google.com/irz-jqwr-ebu"
 external_url: 
 gtn: false

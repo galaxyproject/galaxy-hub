@@ -4,7 +4,8 @@ date: '2021-04-08'
 days: 2
 tease: "Ecostat 2021: Réunion annuelle du GDR Ecologie Statistique"
 continent: EU
-location: "Ecostat 2021, Online, France"
+location:
+  name: "Ecostat 2021, Online, France"
 location_url: "https://ecostat2021.sciencesconf.org/"
 external_url: "https://ecostat2021.sciencesconf.org/350383"
 gtn: false

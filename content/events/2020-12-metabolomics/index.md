@@ -4,7 +4,8 @@ date: '2020-12-10'
 days: 1
 tease: "Bringing together Galaxy metabolomics researchers, users and developers, to discuss needs, ideas, ..."
 continent: EU
-location: "Online, Germany"
+location:
+  name: "Online, Germany"
 location_url: ""
 external_url: "https://galaxyproject.eu/event/2020-11-24-metabolomics/"
 gtn: false

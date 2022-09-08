@@ -4,7 +4,8 @@ date: '2018-02-26'
 days: 5
 tease: "Data analysis of RNA-seq, ChIP-seq, Exome-seq, MethylC-seq data"
 continent: EU
-location: University of Freiburg, Freiburg, Germany
+location:
+  name: University of Freiburg, Freiburg, Germany
 location_url:
 image: /images/logos/deNBILogo.png
 external_url: http://www.denbi.de/22-training-cat/training-courses/460-galaxy5

@@ -4,7 +4,8 @@ tease: "développement de package conda et d'outils Galaxy à partir de scripts 
 date: '2019-11-06'
 days: 3
 continent: EU
-location: "Concarneau, France" 
+location:
+  name: "Concarneau, France" 
 location_url: ""
 external_url: "https://ecoinfo-fair.sciencesconf.org/"
 contact: 'Yvan Le Bras'

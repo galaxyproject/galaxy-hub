@@ -4,7 +4,8 @@ date: '2018-11-12'
 days: 5
 tease: "Advance the development of an open-source infrastructure for data integration"
 continent: EU
-location: "Campus des Berges de Seine, Paris, France"
+location:
+  name: "Campus des Berges de Seine, Paris, France"
 location_url: "https://www.chateauform.com/fr/maison/les-berges-de-seine/"
 external_url: ""
 image: "/events/2018-11-biohackathon/biohack2018.png"

@@ -4,7 +4,8 @@ date: '2010-05-15'
 days: 3
 tease: "The first GCC"
 continent: NA
-location: Cold Spring Harbor Laboratory
+location:
+  name: Cold Spring Harbor Laboratory
 location_url: https://cshl.edu/
 contact: Organizers
 subsites: [global, us]

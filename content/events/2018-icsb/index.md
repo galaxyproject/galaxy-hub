@@ -4,7 +4,8 @@ date: '2018-10-28'
 days: 5
 tease: ""
 continent: EU
-location: "International Conference on Systems Biology, Lyon, France"
+location:
+  name: "International Conference on Systems Biology, Lyon, France"
 location_url: "http://icsb2018-france.com/"
 external_url: ""
 image: "/events/2018-icsb/logo_icsb_2018.jpg"

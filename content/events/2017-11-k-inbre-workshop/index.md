@@ -4,7 +4,8 @@ date: '2017-11-04'
 days: 2
 tease: "Using Galaxy in undergraduate educaiton (and full)"
 continent: NA
-location: Kansas State University, Manhattan, Kansas, United States
+location:
+  name: Kansas State University, Manhattan, Kansas, United States
 location_url: https://www.k-state.edu/
 external_url:
 gtn: false

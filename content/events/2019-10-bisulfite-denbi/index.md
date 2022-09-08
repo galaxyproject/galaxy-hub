@@ -4,7 +4,8 @@ date: '2019-10-09'
 days: 3
 tease: "Learn Galaxy and tools for data handling and preprocessing, differential gene expression analysis, bisulfite sequencing analysis, and Oxford Nanopore data exploration and usage"
 continent: EU
-location: "Albert-Ludwigs-Universität Freiburg, Freiburg, Germany"
+location:
+  name: "Albert-Ludwigs-Universität Freiburg, Freiburg, Germany"
 location_url: 
 image: /images/logos/deNBILogo.png
 external_url: "https://www.denbi.de/training/663-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing"

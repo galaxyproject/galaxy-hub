@@ -4,7 +4,8 @@ date: '2021-03-03'
 days: 1
 tease: "From parameter sweeping to automatic reports"
 continent: EU
-location: "Galaxy-ELIXIR Advanced Features webinar series, Online, Europe"
+location:
+  name: "Galaxy-ELIXIR Advanced Features webinar series, Online, Europe"
 image: 
 location_url: "https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features"
 external_url: "https://galaxyproject.eu/event/2021-01-15-webinars-adv-features-session1/"

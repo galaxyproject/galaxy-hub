@@ -4,7 +4,8 @@ date: '2019-03-27'
 days: 1
 tease: ""
 continent: "AF"
-location: "Tanta University Faculty of Medicine, Tanta, Egypt"
+location:
+  name: "Tanta University Faculty of Medicine, Tanta, Egypt"
 location_url: ""
 external_url: "https://www.facebook.com/events/392829814603666/"
 gtn: false

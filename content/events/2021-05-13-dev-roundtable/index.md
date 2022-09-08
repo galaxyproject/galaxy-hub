@@ -4,7 +4,8 @@ date: '2021-05-13'
 days: 1
 tease: "Giving new users some obvious guidance when they first arrive."
 continent: GL
-location: "Galaxy Developer Roundtable, Online, Global"
+location:
+  name: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:

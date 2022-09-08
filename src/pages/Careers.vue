@@ -71,8 +71,10 @@ fragment articleFields on Article {
     closes (format: "D MMM YYYY")
     closed
     continent
-    location
-    location_url
+    location {
+        name
+        url
+    }
     external_url
     contact
     summary

@@ -4,7 +4,8 @@ date: '2019-12-21'
 days: 2
 tease: "Supported by ApBioNet, BioClues, ISCB, and Galaxy Australia"
 continent: AS
-location: "Hans Raj Mahila Maha Vidyalaya, Jalandhar, Punjab, India"
+location:
+  name: "Hans Raj Mahila Maha Vidyalaya, Jalandhar, Punjab, India"
 location_url: "https://www.hrmmv.org/INSYB2019"
 external_url:
 gtn: true

@@ -4,7 +4,8 @@ date: "2021-09-22"
 days: 3
 tease: ""
 continent: SA
-location: "2nd Women in Bioinformatics & Data Science LA Conference, Online, Latin America"
+location:
+  name: "2nd Women in Bioinformatics & Data Science LA Conference, Online, Latin America"
 image: 
 location_url: "https://wbds.la/conferences/2WBDSLAC/index.html"
 external_url: "https://youtu.be/Snuoucmfg1M"

@@ -5,7 +5,8 @@ date: '2020-04-01'
 days: 2
 tease: ""
 continent: NA
-location: "Exploring Clouds for Acceleration of Science (E-CAS), Online, United States"
+location:
+  name: "Exploring Clouds for Acceleration of Science (E-CAS), Online, United States"
 location_url: 
 external_url: "https://www.youtube.com/watch?v=8pwss1SY8Tg"
 gtn: false

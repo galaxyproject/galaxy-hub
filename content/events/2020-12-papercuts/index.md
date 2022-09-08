@@ -4,7 +4,8 @@ date: '2020-12-17'
 days: 1
 tease: 'A community contribution day'
 continent: GL
-location: 'Online, Global'
+location:
+  name: 'Online, Global'
 image: "papercuts-2020-12.gif"
 location_url: ""
 external_url:

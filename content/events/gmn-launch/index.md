@@ -4,7 +4,8 @@ date: '2022-03-03'
 days: 1
 tease: 'Mentorship... for you!'
 continent: GL
-location: 'Online, Global'
+location:
+  name: 'Online, Global'
 image: "/images/events/gmn-poster.jpg"
 contact: Community
 tags: [ gmn, launch ]
