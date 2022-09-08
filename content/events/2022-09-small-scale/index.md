@@ -16,8 +16,7 @@ subsites: [global, us]
 
 
 
-Please <a href="https://epfl.zoom.us/j/62244337954?pwd=L2ZVSytTdlpaM1pvbjZpWjNjUm9JZz09">join us</a> 
-at 4 PM CEST (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20220920T16&p1=1229&ah=1">see in your timezone</a>) 
+Please [join us](https://epfl.zoom.us/j/62244337954?pwd=L2ZVSytTdlpaM1pvbjZpWjNjUm9JZz09) at 4 PM CEST ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20220920T16&p1=1229&ah=1)) 
 for a discussion about 'How I switched from an old Galaxy to an ansible Galaxy?' lead by Lucille Delisle. 
 There will also be time to discuss any current problems you encounter as a maintainer of a Galaxy server.
 
