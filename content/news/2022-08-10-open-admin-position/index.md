@@ -6,8 +6,8 @@ hide_tease: true
 location:
   name: Freiburg, Germany
 tags: [jobs]
-subsites: [global, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-main_subsite: eu
+subsites: [global, all-eu]
+main_subsite: freiburg
 ---
 
 The **Freiburg Galaxy Team** is looking for a **Systems Engineer/DevOps Engineer**!

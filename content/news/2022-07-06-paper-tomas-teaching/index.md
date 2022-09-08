@@ -7,7 +7,7 @@ tags:
 - paper
 - citations
 supporters:
-subsites: [global, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [global, all-eu]
 main_subsite: eu
 ---
 
