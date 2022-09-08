@@ -5,8 +5,9 @@ tags: [training, TIaaS]
 supporters:
 - galaxy-europe
 authors: Hans-Rudolf Hotz and Lucille Delisle
+tease: 'After 2 years running the SIB "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person.'
+hide_tease: true
 subsites: [all-eu]
-auto_tease: 'After 2 years running the SIB "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person.'
 ---
 
 After 2 years running the [SIB](https://www.sib.swiss/) "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person. Thanks to TIaaS, we could offer the students an easy to set up

@@ -4,7 +4,8 @@ date: "2020-09-08"
 contacts:
 - name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
-location: online
+location:
+  name: online
 supporters:
 - unifreiburg
 - denbi

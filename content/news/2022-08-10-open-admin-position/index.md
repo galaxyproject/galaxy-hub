@@ -3,7 +3,8 @@ title: The European Galaxy Team is hiring!
 date: "2022-08-10"
 tease: "The Freiburg Galaxy Team is looking for a Systems Engineer/DevOps Engineer!"
 hide_tease: true
-location: Freiburg, Germany
+location:
+  name: Freiburg, Germany
 tags: [jobs]
 subsites: [global, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
