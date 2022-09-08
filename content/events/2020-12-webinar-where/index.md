@@ -4,7 +4,8 @@ date: '2020-12-09'
 days: 1
 tease: "Options for using Galaxy: everywhere and right now"
 continent: GL
-location: "Online, Global"
+location:
+  name: "Online, Global"
 location_url: ""
 external_url: ""
 gtn: false

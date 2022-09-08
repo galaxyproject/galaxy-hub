@@ -4,7 +4,8 @@ date: '2019-01-28'
 days: 5
 tease: "The ins and outs of setting up your own production quality Galaxy server"
 continent: NA
-location: "Penn State University, State College, Pennsylvania, United States"
+location:
+  name: "Penn State University, State College, Pennsylvania, United States"
 location_url: "https://www.psu.edu/"
 external_url:
 gtn: true

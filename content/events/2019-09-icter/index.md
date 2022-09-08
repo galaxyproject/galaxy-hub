@@ -4,7 +4,8 @@ date: '2019-09-03'
 days: 3
 tease: ""
 continent: AS
-location: "
+location:
+  name: "
 International Conference on Advances in ICT for Emerging Regions (ICTer), Colombo, Sri Lanka"
 external_url: "http://www.icter.org/conference/workshops-2019/"
 location_url: "http://www.icter.org/conference/"

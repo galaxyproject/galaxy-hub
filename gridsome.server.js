@@ -242,6 +242,11 @@ class nodeModifier {
         } else {
             node.has_date = false;
         }
+        // Patch old location metadata fields into new, structured fields.
+        if (node.location_url) {
+            node.location = node.location || {};
+            node.location.url = node.location_url;
+        }
         return node;
     }
     static processVueType(node, collection, typeName) {
@@ -501,8 +506,9 @@ module.exports = function (api) {
                             id
                             title
                             tease
-                            location
-                            location_url
+                            location {
+                                name
+                            }
                             continent
                             contact
                             external_url
@@ -563,8 +569,8 @@ function makeCalendar(eventsData) {
             evt.end = end.toArray().slice(0, 3);
             evt.end[1] += 1;
             evt.title = event.title;
-            if (event.location) {
-                evt.location = event.location;
+            if (event.location?.name) {
+                evt.location = event.location.name;
             }
             if (event.external_url) {
                 if (event.external_url.startsWith("/")) {

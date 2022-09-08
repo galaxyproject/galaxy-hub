@@ -4,7 +4,8 @@ date: '2020-12-01'
 days: 05
 tease: "Recent advances in computational biology for codifying Biodiversity into one health approach: Biodiversity, Climate change, One health and Zoonotic diseases"
 continent: AS
-location: "Inbix2020, Online, India"
+location:
+  name: "Inbix2020, Online, India"
 image: "inbix2020-logo.jpg"
 location_url: "https://easychair.org/cfp/inbix2020"
 external_url: 

@@ -4,7 +4,8 @@ date: '2022-04-06'
 days: 1
 tease: 
 continent: GL
-location: "Online, Global"
+location:
+  name: "Online, Global"
 image: 
 location_url: 
 external_url:

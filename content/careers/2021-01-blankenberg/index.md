@@ -4,7 +4,8 @@ date: '2021-01-15'
 closes: "2022-07-10"
 summary: "Utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions."
 continent: NA
-location: 'Blankenberg Lab, Cleveland Clinic Lerner Research Institute, Cleveland, Ohio, United States'
+location:
+  name: 'Blankenberg Lab, Cleveland Clinic Lerner Research Institute, Cleveland, Ohio, United States'
 image: /images/logos/cleveland-clinic.svg
 location_url: "https://blankenberglab.org/"
 external_url: "https://blankenberglab.org/jobs"

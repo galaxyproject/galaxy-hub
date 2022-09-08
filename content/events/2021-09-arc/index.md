@@ -4,7 +4,8 @@ date: "2021-09-06"
 days: 3
 tease: "Build use and support ARCs with new tools, templates, and ideas."
 continent: EU
-location: "Villa Denis, Frankenstein, Germany"
+location:
+  name: "Villa Denis, Frankenstein, Germany"
 image: 
 location_url: ""
 external_url: "https://galaxyproject.eu/event/2021-08-26-hackathon-fdo/"

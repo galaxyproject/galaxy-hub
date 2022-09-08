@@ -4,7 +4,8 @@ tease: "Teaching genomics to undergrads"
 date: '2019-08-01'
 days: 4
 continent: NA
-location: "ASMCUE 2019, Tyson, Virginia, United States"
+location:
+  name: "ASMCUE 2019, Tyson, Virginia, United States"
 external_url: ""
 location_url: "https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home"
 contact: 'Mohammad Heydarian, Anton Nekrutenko'

@@ -4,7 +4,8 @@ date: '2017-05-04'
 days: 1
 tease: Galaxy workshop in Arabic
 continent: AF
-location: Tanta University Faculty of Mediciene, Tanta, Egypt
+location:
+  name: Tanta University Faculty of Mediciene, Tanta, Egypt
 image: /images/logos/tanta-faculty-of-medicine.png
 location_url: http://med.tanta.edu.eg/
 external_url: https://www.facebook.com/events/1836526683279672/

@@ -4,7 +4,8 @@ date: '2019-09-09'
 days: 4
 tease: ""
 continent: EU
-location: "University of Lausanne, Lausanne, Switzerland"
+location:
+  name: "University of Lausanne, Lausanne, Switzerland"
 location_url: ""
 image: 
 external_url: "https://www.sib.swiss/training/course/2019-09-metagenomics"

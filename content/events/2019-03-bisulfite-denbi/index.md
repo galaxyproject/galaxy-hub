@@ -4,7 +4,8 @@ date: '2019-03-06'
 days: 3
 tease: "Learn Galaxy and tools for data handling and preprocessing, differential gene expression analysis, bisulfite sequencing analysis, and Oxford Nanopore data exploration and usage"
 continent: EU
-location: "University of Rostock, Rostock, Germany"
+location:
+  name: "University of Rostock, Rostock, Germany"
 location_url: 
 image: /images/logos/deNBILogo.png
 external_url: "https://www.denbi.de/training/532-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing"

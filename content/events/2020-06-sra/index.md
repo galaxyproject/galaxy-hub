@@ -4,7 +4,8 @@ date: '2020-06-24'
 days: 1
 tease: ""
 continent: NA
-location: "Online, United States"
+location:
+  name: "Online, United States"
 location_url: "https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform"
 external_url: ""
 gtn: true

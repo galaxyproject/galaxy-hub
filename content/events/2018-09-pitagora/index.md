@@ -4,7 +4,8 @@ date: '2018-09-03'
 days: 1
 tease: ""
 continent: AS
-location: "日本オラクル 東京都港区"
+location:
+  name: "日本オラクル 東京都港区"
 image: 
 location_url: ""
 external_url: "https://pitagora.connpass.com/event/94966/"

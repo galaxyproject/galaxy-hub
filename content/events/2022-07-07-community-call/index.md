@@ -4,7 +4,8 @@ date: '2022-07-07'
 days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
-location: "Galaxy Community Call, Online, Global"
+location:
+  name: "Galaxy Community Call, Online, Global"
 location_url: "/community/community-calls/"
 external_url:
 gtn: false

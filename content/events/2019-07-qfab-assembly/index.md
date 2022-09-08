@@ -4,7 +4,8 @@ tease: "de novo assembly and initial annotation of a genome from short-read NGS 
 date: '2019-07-30'
 days: 1
 continent: AU
-location: "Translational Research Institute (TRI), Woolloongabba, Queensland, Australia"
+location:
+  name: "Translational Research Institute (TRI), Woolloongabba, Queensland, Australia"
 location_url: "https://www.tri.edu.au/"
 external_url: "https://qfab.org/training#NGS_Workshops"
 contact: 'training@qfab.org'

@@ -4,7 +4,8 @@ date: '2021-03-04'
 days: 1
 tease: "What's changed recently, and what's involved"
 continent: GL
-location: "Galaxy Developer Roundtable, Online, Global"
+location:
+  name: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:

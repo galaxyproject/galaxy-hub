@@ -4,7 +4,8 @@ date: '2017-02-06'
 days: 2
 tease: at Erasmus Medical Centre
 continent: EU
-location: Erasmus Medical Centre, Rotterdam, The Netherlands
+location:
+  name: Erasmus Medical Centre, Rotterdam, The Netherlands
 location_url: https://www.erasmusmc.nl/?lang=en
 image: erasmuslogo.png
 external_url: https://www.molmed.nl/courses/CourseDetail.asp?courseID=1499&backpage=../courses/courses.asp

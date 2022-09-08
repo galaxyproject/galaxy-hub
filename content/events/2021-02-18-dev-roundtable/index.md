@@ -4,7 +4,8 @@ date: '2021-02-18'
 days: 1
 tease: "Security, security, security."
 continent: GL
-location: "Galaxy Developer Roundtable, Online, Global"
+location:
+  name: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:

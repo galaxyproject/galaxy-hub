@@ -4,7 +4,8 @@ date: '2020-12-03'
 days: 1
 tease: ""
 continent: EU
-location: "Research Software Developers Day, Online, Belgium"
+location:
+  name: "Research Software Developers Day, Online, Belgium"
 location_url: "https://www.be-rse.org/speakers"
 external_url: "https://www.be-rse.org/rsdd2020"
 gtn: false

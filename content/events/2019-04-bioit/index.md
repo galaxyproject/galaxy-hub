@@ -4,7 +4,8 @@ date: '2019-04-15'
 days: 4
 tease: ""
 continent: NA
-location: "BioIT World, Boston, Massachusetts, United States"
+location:
+  name: "BioIT World, Boston, Massachusetts, United States"
 location_url: "http://www.giiconference.com/chi653337/" 
 external_url:
 image: /events/2019-04-bioit/bioitworld19.png

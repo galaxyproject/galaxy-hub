@@ -4,7 +4,8 @@ date: '2021-08-19'
 days: 1
 tease: "Jetstream, AWS, GCP, and UseGalaxy.org"
 continent: GL
-location: "Galaxy Developer Roundtable, Online, Global"
+location:
+  name: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:

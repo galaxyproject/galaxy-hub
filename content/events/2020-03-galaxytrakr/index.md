@@ -4,7 +4,8 @@ date: '2020-03-02'
 days: 3
 tease: ""
 continent: NA
-location: "Richmond, Virginia, United States"
+location:
+  name: "Richmond, Virginia, United States"
 location_url:
 external_url: ""
 image: 

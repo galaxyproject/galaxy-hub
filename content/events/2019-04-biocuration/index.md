@@ -5,7 +5,8 @@ days: 4
 tease: "FungiDB's User Workspace: researchers  analyze their own data using Galaxy workflows and integrate it back into FungiDB."
 continent: "EU"
 external_url: "https://www.biocuration2019.org/functional-annotation"
-location: "Biocuration 2019, Cambridge, United Kingdom"
+location:
+  name: "Biocuration 2019, Cambridge, United Kingdom"
 location_url: "https://www.biocuration2019.org/"
 gtn: true
 contact: "Achchuthan Shanmugasundram"

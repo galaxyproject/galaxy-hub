@@ -4,7 +4,8 @@ date: '2021-02-10'
 days: 3
 tease: ""
 continent: AU
-location: "Wellington and Online, New Zealand"
+location:
+  name: "Wellington and Online, New Zealand"
 location_url: "https://www.eresearchnz2021.org.nz/"
 external_url: ""
 gtn: true

@@ -4,7 +4,8 @@ date: '2019-11-23'
 days: 1
 tease: "Using Galaxy in undergraduate education @ CSU San Bernadino"
 continent: NA
-location: "Fall 2019 Southern California Conference for Undergraduate Research (SCCUR), CSUSM, San Marcos, California, United States"
+location:
+  name: "Fall 2019 Southern California Conference for Undergraduate Research (SCCUR), CSUSM, San Marcos, California, United States"
 location_url: https://www.sccur.org/sccur/fall_2019_conference/ 
 external_url: "https://depot.galaxyproject.org/hub/attachments/events/2019-11-sccur/sanders-sccur-poster.pdf"
 image: ""

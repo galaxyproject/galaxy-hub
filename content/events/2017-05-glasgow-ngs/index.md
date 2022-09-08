@@ -4,7 +4,8 @@ date: '2017-05-15'
 days: 2
 tease: Galaxy at NGS 2017 Glasgow
 continent: EU
-location: NGS 2017 Glasgow, Glasgow, United Kingdom
+location:
+  name: NGS 2017 Glasgow, Glasgow, United Kingdom
 image: /images/logos/GlasgowPolyomics.jpg
 location_url: https://biotexcel.com/event/ngs-2017-glasgow/
 external_url: https://biotexcel.com/event/ngs-2017-glasgow/#workshop

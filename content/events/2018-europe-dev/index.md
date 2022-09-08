@@ -4,7 +4,8 @@ date: '2018-11-19'
 days: 2
 tease:
 continent: EU
-location: Freiburg, Germany
+location:
+  name: Freiburg, Germany
 location_url:
 external_url:
 image: /events/2018-europe-dev/2018-europe-logo.small.png

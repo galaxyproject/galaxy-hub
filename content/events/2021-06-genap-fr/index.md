@@ -4,7 +4,8 @@ date: "2021-06-17"
 days: 1
 tease: "L’équipe du projet GenAP vous propose un webinaire gratuit"
 continent: NA
-location: "GenAP, Online, Québec, Canada"
+location:
+  name: "GenAP, Online, Québec, Canada"
 external_url: "https://www.calculquebec.ca/en/nouvelle/apprenez-comment-genap-peut-vous-aider-a-analyser-et-partager-vos-donnees/"
 location_url: "https://genap.ca/p/help/training-workshops"
 gtn: false

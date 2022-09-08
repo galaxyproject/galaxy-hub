@@ -4,7 +4,8 @@ date: '2017-02-08'
 days: 1
 tease: Part of Research Bazaar Melbourne
 continent: AU
-location: Research Bazaar 2017, University of Queensland, Brisbane, Australia
+location:
+  name: Research Bazaar 2017, University of Queensland, Brisbane, Australia
 location_url: https://2017.resbaz.com/brisbane
 image: /images/logos/resbaz-brisbane.png
 external_url: https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887

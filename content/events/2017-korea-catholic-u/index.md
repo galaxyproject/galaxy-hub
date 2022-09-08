@@ -4,7 +4,8 @@ date: '2017-02-07'
 days: 1
 tease: at Catholic University of Korea
 continent: AS
-location: Catholic University of Korea, Seoul, South Korea
+location:
+  name: Catholic University of Korea, Seoul, South Korea
 location_url: http://www.catholic.ac.kr/
 image: cukr.jpg
 gtn: true

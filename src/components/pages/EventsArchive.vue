@@ -70,8 +70,10 @@ query($subsite: String, $mainPath: String, $footerPath: String) {
                 id
                 title
                 tease
-                location
-                location_url
+                location {
+                    name
+                    url
+                }
                 continent
                 contact
                 external_url

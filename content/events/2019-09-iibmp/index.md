@@ -4,7 +4,8 @@ date: '2019-09-10'
 days: 5
 tease: "Toward sharing data analysis workflows"
 continent: AS
-location: "Informatics in Biology, Medicine and Pharmacology (IIBMP) 2019, Tokyo Institute of Technology, Tokyo, Japan"
+location:
+  name: "Informatics in Biology, Medicine and Pharmacology (IIBMP) 2019, Tokyo Institute of Technology, Tokyo, Japan"
 location_url: "https://www.titech.ac.jp/english/maps/#ookayama"
 image: 
 external_url: "https://iibmp2019.tokyo/"

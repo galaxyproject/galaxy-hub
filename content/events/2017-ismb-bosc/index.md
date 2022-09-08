@@ -4,7 +4,8 @@ date: '2017-07-21'
 days: 5
 tease: "it's everywhere"
 continent: EU
-location: Prague, Czechia
+location:
+  name: Prague, Czechia
 image: /images/logos/ismb-2017.png
 location_url: https://www.iscb.org/ismbeccb2017
 contact: Presenters

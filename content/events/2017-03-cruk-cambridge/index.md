@@ -4,7 +4,8 @@ date: '2017-03-07'
 days: 1
 tease: Cambridge, UK, for first time users 
 continent: EU
-location: Cancer Research UK Cambridge Institute, Cambridge, United Kingdom
+location:
+  name: Cancer Research UK Cambridge Institute, Cambridge, United Kingdom
 image: cambridge.png
 location_url: http://www.cambridgecancer.org.uk/
 external_url: https://training.csx.cam.ac.uk/bioinformatics/event/2000038

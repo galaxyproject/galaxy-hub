@@ -4,7 +4,8 @@ date: '2018-01-12'
 days: 1
 tease: "Do your own bioinformatics analysis"
 continent: NA
-location: "Cal State University San Marcos, United States"
+location:
+  name: "Cal State University San Marcos, United States"
 location_url: https://csusm.edu/
 external_url:
 image: /images/logos/csusm-logo.gif

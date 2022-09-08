@@ -4,7 +4,8 @@ date: "2022-03-01"
 days: 4
 tease: "A GeneSpectrum training offering"
 continent: AS
-location: "GeneSpectrum, Online, India"
+location:
+  name: "GeneSpectrum, Online, India"
 external_url: "https://genespectrum.co.in/training/ngs-galaxy/"
 location_url: "https://genespectrum.co.in/training"
 gtn: false

@@ -4,7 +4,8 @@ date: "2021-06-10"
 days: 1
 tease: "Analyze your own data in VectorBase"
 continent: NA
-location: "VectorBase, Online, United States"
+location:
+  name: "VectorBase, Online, United States"
 image: 
 location_url: "https://vectorbase.org/vectorbase/app/static-content/webinars.html"
 external_url: "https://vectorbase.org/vectorbase/app/static-content/webinars.html#vect4"

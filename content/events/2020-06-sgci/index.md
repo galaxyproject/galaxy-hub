@@ -4,7 +4,8 @@ date: "2020-06-24"
 days: 1
 tease: "The ins and outs of the Galaxy platform"
 continent: NA
-location: "SGCI Webinar Series, Online, United States"
+location:
+  name: "SGCI Webinar Series, Online, United States"
 image: 
 location_url: "https://sciencegateways.org/webinar-archive"
 external_url: "https://sciencegateways.org/w/galaxy-powering-science-from-the-desktop-to-global-cyberinfrastructure"

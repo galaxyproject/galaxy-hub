@@ -4,7 +4,8 @@ date: '2021-02-15'
 days: 5
 tease: "Get a taste of all the GTN has to offer!"
 continent: GL
-location: "Online, Global"
+location:
+  name: "Online, Global"
 image:
 location_url:
 external_url:

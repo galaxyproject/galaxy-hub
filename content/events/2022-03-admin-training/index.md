@@ -4,7 +4,8 @@ date: '2022-03-14'
 days: 5
 tease: "The ins and outs of setting up your own production quality Galaxy server."
 continent: GL
-location: "Online, Global"
+location:
+  name: "Online, Global"
 location_url: ""
 external_url:
 gtn: true

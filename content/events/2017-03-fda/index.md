@@ -4,7 +4,8 @@ date: '2017-03-06'
 days: 1
 tease: a US FDA-sponsored workshop
 continent: NA
-location: Food and Drug Adminstration (FDA) Washington, D.C., United States
+location:
+  name: Food and Drug Adminstration (FDA) Washington, D.C., United States
 location_url: http://www.fda.gov/
 gtn: true
 contact: Mo Heydarian, Mallory Freeberg

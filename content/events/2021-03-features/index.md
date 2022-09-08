@@ -4,7 +4,8 @@ date: '2021-03-24'
 days: 1
 tease: "Cool stuff like using your own reference genome, restarting tools & workflows, visualizations, ..."
 continent: EU
-location: "Galaxy-ELIXIR Advanced Features webinar series, Online, Europe"
+location:
+  name: "Galaxy-ELIXIR Advanced Features webinar series, Online, Europe"
 image: 
 location_url: "https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features"
 external_url: "https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features"

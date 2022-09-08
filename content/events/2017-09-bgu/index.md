@@ -4,7 +4,8 @@ tease:
 date: '2017-09-07'
 days: 1
 continent: AS
-location: 'Ben Gurion University of the Negev, Beer-Sheva, Israel'
+location:
+  name: 'Ben Gurion University of the Negev, Beer-Sheva, Israel'
 location_url: http://in.bgu.ac.il/en/egm/Pages/default.aspx
 external_url: 
 contact: Anton Nekrutenko

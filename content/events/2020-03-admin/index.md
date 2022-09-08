@@ -4,7 +4,8 @@ date: '2020-03-02'
 days: 5
 tease: "The ins and outs of setting up your own production quality Galaxy server. Plus, Barcelona!"
 continent: EU
-location: "Barcelona Supercomputing Center, Jordi Girona 29, 08034 Barcelona, Spain"
+location:
+  name: "Barcelona Supercomputing Center, Jordi Girona 29, 08034 Barcelona, Spain"
 location_url: "https://www.bsc.es/"
 external_url:
 gtn: true

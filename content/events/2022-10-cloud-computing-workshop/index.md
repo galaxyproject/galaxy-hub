@@ -4,7 +4,8 @@ date: '2022-10-03'
 days: 5
 tease: "Online video tutorials about the use of cloud computing resources for MS-based proteomics."
 continent: GL
-location: "Online"
+location:
+  name: "Online"
 external_url: "https://www.abrf.org/workshops-webinars"
 location_url: ""
 gtn: false

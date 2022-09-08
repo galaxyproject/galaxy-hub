@@ -4,7 +4,8 @@ date: '2019-10-21'
 days: 5
 tease: "Galaxy Australia and Galaxy ASEAN will be there"
 continent: AU
-location: "Brisbane, Queensland, Australia"
+location:
+  name: "Brisbane, Queensland, Australia"
 location_url: "https://conference.eresearch.edu.au/"
 external_url:
 gtn: false

@@ -4,7 +4,8 @@ date: '2017-05-29'
 days: 1
 tease: Using the Norwegian e-Infrastructure for Life Sciences 
 continent: EU
-location: University of Oslo, Oslo, Norway
+location:
+  name: University of Oslo, Oslo, Norway
 image: /images/logos/UiOLogo.png
 location_url: http://www.uio.no/om/finn-fram/omrader/gaustad/ga06/
 external_url: https://nettskjema.uio.no/answer/84280.html

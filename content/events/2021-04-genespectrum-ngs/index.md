@@ -4,7 +4,8 @@ date: '2021-04-19'
 days: 4
 tease: "NGS data analysis harnessing the power of Galaxy"
 continent: AS
-location: "GeneSpectrum, Online, India"
+location:
+  name: "GeneSpectrum, Online, India"
 location_url: "https://genespectrum.co.in/bioinformatics-training/"
 external_url: "https://genespectrum.co.in/bioinformatics-training/ngs-data-analysis-with-galaxy/"
 gtn: false

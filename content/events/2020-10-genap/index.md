@@ -4,7 +4,8 @@ date: '2020-10-15'
 days: 1
 tease: "Webinar"
 continent: NA
-location: "GenAP, Online, Canada"
+location:
+  name: "GenAP, Online, Canada"
 location_url: "https://genap.ca/"
 external_url: "https://genap.ca/p/help/training-workshops"
 gtn: false

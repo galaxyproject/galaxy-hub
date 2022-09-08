@@ -4,7 +4,8 @@ date: '2017-05-29'
 days: 5
 tease: bringing it all together with Galaxy.
 continent: NA
-location: Toronto, Ontario, Canada
+location:
+  name: Toronto, Ontario, Canada
 image: bioinformatics_ca.jpg
 external_url: https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017
 contact: organizers

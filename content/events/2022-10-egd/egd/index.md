@@ -8,9 +8,9 @@ The **European Galaxy Days** will be held  4 to 7 October 2022 in Freiburg, Germ
 | ---- | -------- | ------ | ------- |
 | 09:00 - 09:30 |    | Arrival  |   |
 | 09:30 - 10:00 |   | Welcome   |
-| 10:00 - 11:30 |   | talks and presentations I  |   |
+| 10:00 - 11:30 |   | Talks and presentations I  |   |
 | 11:30 - 12:00 |   | Coffee Break   |   |
-| 12:00 - 13:00 |   | talks and presentations II |   |
+| 12:00 - 13:00 |   | Talks and presentations II |   |
 | 13:00 - 14:00 |   | Lunch Break  |  |
 | 14:00 - 16:00 |   | ELIXIR-Galaxy Community meeting (part 1)  |   |
 | 16:00 - 16:30 |   | Coffee Break  |    |

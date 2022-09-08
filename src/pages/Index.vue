@@ -192,7 +192,10 @@ query {
             node {
                 id
                 title
-                location
+                location {
+                    name
+                    url
+                }
                 external_url
                 closes (format: "MMM D")
                 path

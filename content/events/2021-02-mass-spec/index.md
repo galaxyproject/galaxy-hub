@@ -4,7 +4,8 @@ date: '2021-02-18'
 days: 1
 tease: "We meet every 6 weeks"
 continent: NA
-location: 'University of Minnesota. Online, Minneapolis, Minnesota, United States'
+location:
+  name: 'University of Minnesota. Online, Minneapolis, Minnesota, United States'
 image: 
 location_url: ""
 external_url: "https://z.umn.edu/celestialmasses"
