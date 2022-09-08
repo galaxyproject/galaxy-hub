@@ -1,7 +1,8 @@
 ---
-subsites: [global, all-eu]
 title: Towards a sustainable storage, enabling co-financing of public infrastructure
 date: "2022-04-20"
+tease: "Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies."
+hide_tease: true
 tags:
 - citations
 authors: bgruening
@@ -10,6 +11,7 @@ supporters:
 - crc992
 - denbi
 - elixir
+subsites: [global, all-eu]
 ---
 
 tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.
