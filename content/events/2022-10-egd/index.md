@@ -190,7 +190,7 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 - [Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)
 
 
-#### Blocked rooms
+#### Pre-booked rooms
 
 A contingent of rooms has been blocked for these dates. Please [**use this link**](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) to book them.
 # Event rules and regulations
