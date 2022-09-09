@@ -187,8 +187,20 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 - [Park Hotel Post](https://www.park-hotel-post.de/de)
 - [Intercity Hotel](https://hrewards.com/de/intercityhotel-freiburg)
 
-#### Faculty of engineering
+#### Faculty of engineering (close to the venue)
 - [Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)
+
+
+#### Pre-booked rooms
+
+A contingent of rooms has been blocked for these dates. Please [**use this link**](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) to book them.
+# Event rules and regulations
+### CoC
+
+The European Galaxy Days will abide the [Galaxy Project Code of Conduct](https://galaxyproject.org/community/coc/). Please, make sure that you read it before the event.
+### COVID-19 policy
+
+A policy compliant with the national regulations will be in place and announced prior to the event.
 
 # Questions?
 
