@@ -189,6 +189,14 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 #### Faculty of engineering
 - [Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)
 
+# Event rules and regulations
+### CoC
+
+The European Galaxy Days will abide the [Galaxy Project Code of Conduct](https://galaxyproject.org/community/coc/). Please, make sure that you read it before the event.
+### COVID-19 policy
+
+A policy compliant with the national regulations will be in place and announced prior to the event.
+
 # Questions?
 
 If you want to present, help, have suggestions or questions, please get in touch with us.
