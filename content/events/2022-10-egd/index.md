@@ -173,11 +173,7 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 
 ### Lodging
 
-#### Special discounts for the EGD
-
-There are many options for accommodation in Freiburg. Please **book through this [link](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en)** to get special discounts for the event.
-#### Other options
-##### City Center
+#### City Center
 - [Stadthotel Freiburg](https://www.hotel-freiburg.de/de)
 - [Motel One](https://www.motel-one.com/en/hotels/freiburg/hotel-freiburg)
 - [Black Forest Hostel](https://www.blackforest-hostel.de)
@@ -185,14 +181,18 @@ There are many options for accommodation in Freiburg. Please **book through this
 - [Hotel Barbara](http://www.hotel-barbara.de)
 - [Hotel Bären](https://www.hotel-freiburg-baeren.de/)
 
-##### Main station
+#### Main station
 - [Central](https://www.central-freiburg.de)
 - [Park Hotel Post](https://www.park-hotel-post.de/de)
 - [Intercity Hotel](https://hrewards.com/de/intercityhotel-freiburg)
 
-##### Faculty of engineering (close to the venue)
+#### Faculty of engineering (close to the venue)
 - [Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)
 
+
+#### Blocked rooms
+
+A contingent of rooms has been blocked for these dates. Please [**use this link**](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) to book them.
 # Event rules and regulations
 ### CoC
 
