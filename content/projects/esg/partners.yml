@@ -1,0 +1,13 @@
+partners:
+- name: VIB
+  image: ./partner-logos/VIB LOGO.png
+  website: https://vib.be/
+- name: University of Oslo
+  image: ./partner-logos/University_of_Oslo_seal.svg.png
+  website: https://www.uio.no/
+- name: University Paris
+  image: ./partner-logos/UNIVERSITY PARIS.png
+  website: https://u-paris.fr/
+- name: Universita Degli Studi Frienze
+  image: ./partner-logos/UNIFI.png
+  website: https://www.bio.unifi.it/
