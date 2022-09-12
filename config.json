@@ -36,56 +36,47 @@
             ]
         },
         "default": "global",
+        "navbar": ["global", "us", "eu", "freiburg", "erasmusmc", "belgium", "pasteur", "genouest", "elixir-it", "ifb"],
         "all": {
             "global": {
                 "name": "Global",
-                "gitter": "galaxyproject/Lobby",
-                "order": 0
+                "gitter": "galaxyproject/Lobby"
             },
             "us": {
                 "name": "US",
-                "gitter": "galaxyproject/Lobby",
-                "order": 1
+                "gitter": "galaxyproject/Lobby"
             },
             "eu": {
                 "name": "Europe",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 2
+                "gitter": "usegalaxy-eu/Lobby"
             },
             "freiburg": {
                 "name": "Freiburg",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 3
+                "gitter": "usegalaxy-eu/Lobby"
             },
             "erasmusmc": {
                 "name": "Erasmus MC",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 4
+                "gitter": "usegalaxy-eu/Lobby"
             },
             "belgium": {
                 "name": "VIB",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 5
+                "gitter": "usegalaxy-eu/Lobby"
             },
             "pasteur": {
                 "name": "Pasteur",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 6
+                "gitter": "usegalaxy-eu/Lobby"
             },
             "genouest": {
                 "name": "GenOuest",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 7
+                "gitter": "usegalaxy-eu/Lobby"
             },
             "elixir-it": {
                 "name": "ELIXIR-IT/Laniakea",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 8
+                "gitter": "usegalaxy-eu/Lobby"
             },
             "ifb": {
                 "name": "ELIXIR-FR/IFB",
-                "gitter": "usegalaxy-eu/Lobby",
-                "order": 9
+                "gitter": "usegalaxy-eu/Lobby"
             }
         }
     },
