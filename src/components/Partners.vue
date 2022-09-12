@@ -5,11 +5,10 @@
         </h2>
 
         <div class="card-body">
-            <a v-for="partner in partners" class="partner-card" target="_blank" :href="partner.website">
+            <a v-for="partner in partners" class="partner-card" target="_blank" :href="partner.website" :title="partner.name">
                 <div class="image-container">
-                    <g-image :src="partner.image"/>
+                    <g-image :src="partner.image" :alt="'Logo of ' + partner.name"/>
                 </div>
-                <h3>{{ partner.name }}</h3>
             </a>
         </div>
     </div>
@@ -34,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 .card-body {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
 }
 

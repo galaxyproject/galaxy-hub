@@ -40,7 +40,7 @@ query {
     dataset(path: "/dataset:/projects/esg/partners/") {
         partners {
             name,
-            image (width: 160),
+            image (width: 140),
             website
         }
     }
