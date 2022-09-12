@@ -49,6 +49,7 @@ Registration is free, but the space is limited, so we recommend to you register 
 <table>
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
+      <th style="border: 3px solid white;"></th>
       <th style="border: 3px solid white;">October 3</th>
       <th style="border: 3px solid white;">October 4</th>
       <th style="border: 3px solid white;">October 5</th>
@@ -56,6 +57,7 @@ Registration is free, but the space is limited, so we recommend to you register 
       <th colspan=2 style="border: 3px solid white;">October 7</th>
     </tr>
     <tr class="text-center" style="background-color: #EEEEEE; border: 5px solid white">
+      <th style="border: 3px solid white;">Time</th>
       <th style="min-width: 18%; border: 3px solid white;">Mon</th>
       <th style="max-width: 18%; border: 3px solid white;">Tue</th>
       <th style="max-width: 18%; border: 3px solid white;">Wed</th>
@@ -63,60 +65,62 @@ Registration is free, but the space is limited, so we recommend to you register 
       <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
+      <th style="border: 3px solid white;">9:00<br> - <br>12:30</th>
       <td style="border: 3px solid white; background-color: lightgray;">Arrival & Get together in Freiburg
         <br><small>(German Holiday)</small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>Community updates</small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>Community updates</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong>
         <br><br><small>Planning sessions</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong>
         <br><br><small>Discussions</small>
       </td>
     </tr>
     <tr class="text-center">
-      <td colspan="7" style="background-color: #EEEEEE">
+      <td colspan="8" style="background-color: #EEEEEE">
         <strong>Lunch Break</strong>
       </td>
     </tr>
     <tr class="text-center">
-      <td style="background-color: DarkOrange; border: 3px solid white;">
-        <strong>ELIXIR IS2021 meeting</strong>
-        <br><br><small>Strengthen Data Management in Galaxy</small>
+      <th style="border: 3px solid white;">14:00<br> - <br>17:30</th>
+      <td style="background-color: #FBB117; border: 3px solid white;">
+        <strong><a href="/events/2022-10-egd/is2021/index.md">ELIXIR IS2021 meeting</a></strong>
+        <br><br><small><a href="https://elixir-europe.org/internal-projects/commissioned-services/strengthen-data-management-galaxy">Strengthen Data Management in Galaxy</a></small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>ELIXIR-Galaxy Community meeting</small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>Birds of a Feather</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong>
         <br><br><small>Planning sessions</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
-        <br><br><small>Discussions</small>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong><br><br><small>Discussions</small>
       </td>
     </tr>
   </tbody>
 </table>
 
+<br><br>
 # Venue
 
 <img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
