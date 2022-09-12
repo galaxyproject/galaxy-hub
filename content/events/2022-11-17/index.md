@@ -15,7 +15,7 @@ tags: ["community-call"]
 subsites: [all]
 ---
 
-We will have some community updates followed by a presentation on the upcoming changes to the release process by *Dannon Baker*. If you'd like to discuss particular topics in the future, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing)!
+We will have some community updates followed by a presentation called [**Galaxy Release Process: Overview and Coming Changes**]() by **Dannon Baker**. If you'd like to discuss particular topics in the future, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing)!
 
 
 ---
