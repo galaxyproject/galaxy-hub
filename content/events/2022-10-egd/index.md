@@ -24,9 +24,9 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 <br>
 
-- **ELIXIR Galaxy Implementation Study (IS2021)** meeting,
-- **European Galaxy Days (EGD)**, talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
-- **EuroScienceGateway (ESG)** kick-off, an EU-funded project to build a mature network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
+- [**ELIXIR Galaxy Implementation Study (IS2021)**](/events/2022-10-egd/is2021/index.md) meeting,
+- [**European Galaxy Days (EGD)**](/events/2022-10-egd/egd/index.md), talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
+- [**EuroScienceGateway (ESG)  kick-off**](/events/2022-10-egd/esg/index.md), an EU-funded project to build a mature network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
 <br><br>
 
