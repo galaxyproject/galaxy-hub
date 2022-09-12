@@ -140,21 +140,11 @@ export default {
             }
         },
         subsiteLinks() {
-            let subsitesLinks = [];
-            for (let [subsite, metadata] of Object.entries(CONFIG.subsites.all)) {
-                if (subsite === this.subsite) {
-                    continue;
-                }
-                let link = {
-                    key: subsite,
-                    name: metadata.name,
-                    order: metadata.order,
-                };
-                link.path = getPathPrefix(subsite) + "/";
-                subsitesLinks.push(link);
-            }
-            subsitesLinks.sort((a, b) => a.order > b.order);
-            return subsitesLinks;
+            return CONFIG.subsites.navbar.map((subsite) => ({
+                key: subsite,
+                name: CONFIG.subsites.all[subsite].name,
+                path: getPathPrefix(subsite) + "/",
+            }));
         },
         theme() {
             if (this.customContent.style?.lightBg) {
