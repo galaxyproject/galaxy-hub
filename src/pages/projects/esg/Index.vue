@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <p v-html="$static.main.content"></p>
+        <p v-html="$page.main.content"></p>
     </Layout>
 </template>
 
@@ -13,11 +13,11 @@ export default {
     },
     metaInfo() {
         return {
-            title: this.$static.main.title,
+            title: this.$page.main.title,
             meta: [
                 {
                     name: "description",
-                    content: this.$static.main.description,
+                    content: this.$page.main.description,
                 },
             ],
         };
@@ -25,7 +25,7 @@ export default {
 };
 </script>
 
-<static-query>
+<page-query>
 query {
     main: insert(path: "/insert:/projects/esg/main/") {
         title,
@@ -33,4 +33,4 @@ query {
         content
     }
 }
-</static-query>
+</page-query>
