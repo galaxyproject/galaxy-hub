@@ -2,48 +2,63 @@ partners:
 - name: VIB
   image: ./partner-logos/VIB LOGO.png
   website: https://vib.be/
+
 - name: University of Oslo
   image: ./partner-logos/University_of_Oslo_seal.svg.png
   website: https://www.uio.no/
+
 - name: University Paris
   image: ./partner-logos/UNIVERSITY PARIS.png
   website: https://u-paris.fr/
+
 - name: Universita Degli Studi Frienze
   image: ./partner-logos/UNIFI.png
   website: https://www.bio.unifi.it/
+
 - name: UK Research and Innovation
   image: ./partner-logos/UKRI.png
   website: https://www.ukri.org/
+
 - name: Universitat de Barcelona
   image: ./partner-logos/UB LOGO.png
   website: https://www.ub.edu/
+
 - name: TÜBİTAK
   image: ./partner-logos/TÜBİTAK_logo.svg.png
   website: https://www.tubitak.gov.tr/
+
 - name: The University of Manchester
   image: ./partner-logos/MANCHESTER.jpg
   website: https://www.manchester.ac.uk/
+
 - name: AGH University of Science and Technology
   image: ./partner-logos/logo-AGH.png
   website: https://www.agh.edu.pl/
+
 - name: Istituto Nazionale di Fisica Nucleare
   image: ./partner-logos/INFN.jpg
   website: https://home.infn.it/
+
 - name: EPFL
   image: ./partner-logos/EPFL LOGO.png
   website: https://www.epfl.ch/
+
 - name: cnrs
   image: ./partner-logos/CNRS.svg.png
   website: https://www.cnrs.fr/
+  
 - name: Consiglio Nazionale delle Ricerche
   image: ./partner-logos/CNR LOGO.jpg
   website: https://www.cnr.it/
+
 - name: cesnet
   image: ./partner-logos/CESNET LOGO.png
   website: https://www.cesnet.cz/
+
 - name: Barcelona Supercomputing Center
   image: ./partner-logos/BSC-Logo.png
   website: https://www.bsc.es/
+
 - name: Institute of Informatics - SAS
   image: ./partner-logos/uisav_logo_en.png
   website: https://www.sav.sk/?doc=ins-org-ins&institute_no=60
