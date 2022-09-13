@@ -6,14 +6,14 @@
             <div class="card shadow-sm bg-light rounded border-0">
                 <h2 class="card-header mt-0">News</h2>
                 <div class="card-body p-2">
-
+                    <ItemListBrief v-for="edge in $page.news.edges" :key="edge.id" :item="edge.node"/>
                 </div>
             </div>
 
             <div class="card shadow-sm bg-light rounded border-0">
                 <h2 class="card-header mt-0">Events</h2>
                 <div class="card-body p-2">
-                    
+                    <ItemListBrief v-for="edge in $page.events.edges" :key="edge.id" :item="edge.node"/>
                 </div>
             </div>
 
@@ -33,12 +33,14 @@
 import Layout from "~/layouts/Default.vue";
 import Partners from "~/components/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
+import ItemListBrief from "~/components/ItemListBrief.vue";
 
 export default {
     components: {
         Layout,
         Partners,
         Twitter,
+        ItemListBrief,
     },
     metaInfo() {
         return {
@@ -71,7 +73,7 @@ query {
     }
 
     news: allArticle(
-        limit: 5, filter: {category: {eq: "news" }, subsites: {contains: ["esg"]}, draft: {ne: true}}
+        limit: 6, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
     ) {
         totalCount
         edges {
@@ -84,7 +86,7 @@ query {
     events: allArticle(
         limit: 5, sortBy: "date", order: ASC,
         filter: {
-            category: {eq: "events"}, subsites: {contains: ["esg"]}, has_date: {eq: true}, days_ago: {lte: 0},
+            category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
             draft: {ne: true}
         }
     ) {
@@ -109,10 +111,16 @@ fragment articleFields on Article {
 </page-query>
 
 <style lang="scss" scoped>
+// keep images in markdown from overflowing
 p {
     &::v-deep img {
         max-width: 100%;
     }
+}
+
+// bootstrap override
+div.card::v-deep p {
+    padding: unset;
 }
 
 .news-and-events {
