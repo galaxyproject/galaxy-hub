@@ -103,7 +103,7 @@ Seven new openings were added to the [Galaxy Career Center](/careers/) in Octobe
 
 # Event News
 
-See all [upcoming events here](/events/index.md):
+See all [upcoming events here](/events/):
 
 <div class="card-deck">
 
@@ -311,7 +311,7 @@ Initier les participant.e.s aux concepts et à l'usage des méthodes bioinformat
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -320,7 +320,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 

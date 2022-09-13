@@ -1,15 +1,12 @@
-/** Fix the links in Markdown `![](images.jpg)` and `[hyper](links)`, and HTML `<img>`s and `<a>`s
- *  - Remove `/src` prefixes.
- *  - Remove `index.md` suffixes.
- *  - Make image links relative to the current directory.
+/** Fix the links in Markdown `![](images.jpg)` and HTML `<img>`s:
+ *  Make image links relative to the current directory.
  */
 
 import nodePath from "path";
 import { unified } from "unified";
 import rehypeParse from "rehype-parse";
 import { visit } from "unist-util-visit";
-import urlParse from "url-parse";
-import { repr, trunc, rmPrefix, rmSuffix, matchesPrefixes } from "../lib/utils.js";
+import { repr, trunc, rmPrefix } from "../lib/utils.js";
 
 // `verbose: true` makes the parser include position information for each property of each element.
 // This is required for `editProperty()` to work.
@@ -20,7 +17,7 @@ let debug = false;
 //      Check if that happens in the codebase.
 const PREFIX_WHITELIST = ["http://", "https://", "mailto:", "/images/", "//", "#"];
 const LINK_PROPS = { img: "src", a: "href" };
-const LINK_FIXERS = { image: fixImageLink, img: fixImageLink, link: fixHyperLink, a: fixHyperLink };
+const LINK_FIXERS = { image: fixImageLink, img: fixImageLink };
 
 /**
  * The unified plugin to transform links in parsed Markdown trees.
@@ -49,10 +46,10 @@ export default function attacher(options) {
             console.error("No `bases` option received. Will not be able to convert image src paths to relative paths.");
         }
         // Fix the urls in the 3 types of nodes we're targeting.
-        for (let nodeType of ["link", "image", "html"]) {
+        for (let nodeType of ["image", "html"]) {
             visit(tree, nodeType, (node) => {
                 try {
-                    if (nodeType === "link" || nodeType === "image") {
+                    if (nodeType === "image") {
                         node.url = LINK_FIXERS[nodeType](node.url, dirPath);
                     } else if (nodeType === "html") {
                         fixHtmlLinks(node, dirPath);
@@ -110,7 +107,7 @@ function getRelFilePath(cwd, rawPath, base) {
 function fixHtmlLinks(node, dirPath = null) {
     let html = node.value;
     let dom = htmlParser.parse(node.value);
-    let elems = getElementsByTagNames(dom, ["a", "img"]);
+    let elems = getElementsByTagName(dom, "img");
     // Sort the list of elements in reverse order of where they appear in the `html` string.
     // If we didn't process elements in reverse order, then the offsets of elements later in the
     // string would become invalid after we replace elements earlier in the string.
@@ -148,46 +145,17 @@ function editProperty(htmlStr, elem, propName, value) {
 /** Find all the elements of a given type in a `hast` tree rooted at `elem`.
  * NOTE: `elem` should be of type `element` or `root`. This does not check that.
  */
-function getElementsByTagNames(elem, tagNames) {
+function getElementsByTagName(elem, tagName) {
     let results = [];
-    if (tagNames.includes(elem.tagName)) {
+    if (elem.tagName === tagName) {
         results.push(elem);
     }
     for (let child of elem.children) {
         if (child.type === "element") {
-            results = results.concat(getElementsByTagNames(child, tagNames));
+            results = results.concat(getElementsByTagName(child, tagName));
         }
     }
     return results;
-}
-
-/** Perform all the editing appropriate for a hyperlink url (whether in HTML or Markdown). */
-export function fixHyperLink(rawUrl) {
-    if (typeof rawUrl !== "string") {
-        throw repr`Error: rawUrl must be a String. Received: ${rawUrl}`;
-    }
-    // Skip certain types of links like external (https?://), static (/images/), intrapage (#).
-    if (matchesPrefixes(rawUrl, PREFIX_WHITELIST)) {
-        return rawUrl;
-    }
-    // Full parsing is needed to take care of situations like a trailing url #fragment.
-    let isAbs = rawUrl.startsWith("/");
-    let urlObj = new urlParse(rawUrl);
-    let newPath = rmSuffix(rmPrefix(urlObj.pathname, "/src"), "index.md");
-    urlObj.set("pathname", newPath);
-    let fixedUrl = urlObj.toString();
-    if (!isAbs) {
-        // url-parse always makes the path absolute. At least it doesn't trim trailing dots like `URL()`.
-        fixedUrl = rmPrefix(fixedUrl, "/");
-    }
-    if (debug) {
-        if (fixedUrl === rawUrl) {
-            console.error(`Link:  Kept   ${rawUrl}`);
-        } else {
-            console.error(`Link:  Edited ${rawUrl} to ${fixedUrl}`);
-        }
-    }
-    return fixedUrl;
 }
 
 /** Perform all the editing appropriate for an image src url (whether in HTML or Markdown).

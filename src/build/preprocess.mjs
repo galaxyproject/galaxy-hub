@@ -118,7 +118,7 @@ function main(command, opts) {
             process.stdout.write("Fixing Markdown files..                ");
             start = Date.now();
             for (let buildDir of Object.values(partitioner.buildDirs)) {
-                mdfixer.main(buildDir, { quiet: !partitioner.verbose, overwrite: true });
+                mdfixer.main(buildDir, { quiet: !partitioner.verbose, overwrite: true, debug: opts.debug });
             }
         }
     }
