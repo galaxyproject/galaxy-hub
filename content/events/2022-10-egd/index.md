@@ -25,9 +25,9 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 <br>
 
-- **ELIXIR Galaxy Implementation Study (IS2021)** meeting,
-- **European Galaxy Days (EGD)**, talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
-- **EuroScienceGateway (ESG)** kick-off, an EU-funded project to build a mature network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
+- [**ELIXIR Galaxy Implementation Study (IS2021)**](/events/2022-10-egd/elixir-is2021/index.md) meeting,
+- [**European Galaxy Days (EGD)**](/events/2022-10-egd/egd/index.md), talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
+- [**EuroScienceGateway (ESG)  kick-off**](/events/2022-10-egd/esg/index.md), an EU-funded project to build a mature network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
 <br><br>
 
@@ -50,6 +50,7 @@ Registration is free, but the space is limited, so we recommend to you register 
 <table>
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
+      <th style="border: 3px solid white;"></th>
       <th style="border: 3px solid white;">October 3</th>
       <th style="border: 3px solid white;">October 4</th>
       <th style="border: 3px solid white;">October 5</th>
@@ -57,6 +58,7 @@ Registration is free, but the space is limited, so we recommend to you register 
       <th colspan=2 style="border: 3px solid white;">October 7</th>
     </tr>
     <tr class="text-center" style="background-color: #EEEEEE; border: 5px solid white">
+      <th style="border: 3px solid white;">Time</th>
       <th style="min-width: 18%; border: 3px solid white;">Mon</th>
       <th style="max-width: 18%; border: 3px solid white;">Tue</th>
       <th style="max-width: 18%; border: 3px solid white;">Wed</th>
@@ -64,87 +66,62 @@ Registration is free, but the space is limited, so we recommend to you register 
       <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
+      <th style="border: 3px solid white;">9:00<br> - <br>12:30</th>
       <td style="border: 3px solid white; background-color: lightgray;">Arrival & Get together in Freiburg
         <br><small>(German Holiday)</small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>Community updates</small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>Community updates</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong>
         <br><br><small>Planning sessions</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong>
         <br><br><small>Discussions</small>
       </td>
     </tr>
     <tr class="text-center">
-      <td colspan="7" style="background-color: #EEEEEE">
+      <td colspan="8" style="background-color: #EEEEEE">
         <strong>Lunch Break</strong>
       </td>
     </tr>
     <tr class="text-center">
-      <td style="background-color: DarkOrange; border: 3px solid white;">
-        <strong>ELIXIR IS2021 meeting</strong>
-        <br><br><small>Strengthen Data Management in Galaxy</small>
+      <th style="border: 3px solid white;">14:00<br> - <br>17:30</th>
+      <td style="background-color: #FBB117; border: 3px solid white;">
+        <strong><a href="/events/2022-10-egd/elixir-is2021/index.md">ELIXIR IS2021 meeting</a></strong>
+        <br><br><small><a href="https://elixir-europe.org/internal-projects/commissioned-services/strengthen-data-management-galaxy">Strengthen Data Management in Galaxy</a></small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>ELIXIR-Galaxy Community meeting</small>
       </td>
-      <td style="background-color: Navy; color: white; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
         <br><br><small>Birds of a Feather</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong>
         <br><br><small>Planning sessions</small>
       </td>
-      <td style="background-color: DarkKhaki; border: 3px solid white;"><strong>EGD <br> CoFest </strong>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: SeaGreen; border: 3px solid white;"><strong>ESG kick-off</strong>
-        <br><br><small>Discussions</small>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/index.md">ESG kick-off</a></strong><br><br><small>Discussions</small>
       </td>
     </tr>
   </tbody>
 </table>
 
-# Tentative Agenda
-
-### Thursday, October 6
-
-| Time |  Speaker  |  Title  |  Location  |
-| ---- | -------- | ------ | ------- |
-| 09:00 - 09:30 |    | Arrival  |   |
-| 09:30 - 10:00 |   | Welcome   |
-| 10:00 - 11:30 |   | General presentation & WP1 (Project Management, Coordination and Dissemination)  |   |
-| 11:30 - 12:00 |   | Coffee Break   |   |
-| 12:00 - 13:00 |   | Presentation WP2 (Stimulate FAIR and reusable research) |   |
-| 13:00 - 14:00 |   | Lunch Break  |  |
-| 14:00 - 15:00 |   | Presentation WP3 (Pulsar Network: Distributed heterogeneous compute)  |   |
-| 15:00 - 16:00 |   | Presentation WP4 (Building blocks for a sustainable operating model)  |   |
-| 16:00 - 16:30 |   | Coffee Break  |    |
-| 16:30 - 17:30 |   | Presentation WP5 (Community engagement, adoption and onboarding) |   |
-
-### Friday, October 7
-
-| Time |  Speaker  |  Title  |  Location  |
-| ---- | -------- | ------ | ------- |
-| 09:00 - 09:30 |   | Welcome coffee  |   |
-| 09:30 - 11:30 |   | Discussion   |  |
-| 11:30 - 12:00 |   | Coffee Break |   |
-| 12:00 - 13:00 |   | Closing session |   |
-| 13:00 - 14:00 |   | Lunch Break  |   | 
-
+<br><br>
 # Venue
 
 <img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
@@ -173,6 +150,12 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 - Option 2: Tram 4 direction Messe, stop “Technische Fakultät/Messe” (see [tram plan](http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html)).
 
 ### Lodging
+
+#### Pre-booked rooms
+
+Through the Freiburg Convention Bureau, we have arranged a hotel contingent in nearby hotels. Rooms can be booked directly [online](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) in the period 03-07 Oct 2022. Extension nights are available on request and can be booked exclusively through the Freiburg Convention Bureau.
+
+If you need assistance, please contact Kerstin Schultheis from the Freiburg Convention Bureau [by email](mailto:groups@fwtm.de) or phone (+49 761 3881-1516).
 
 #### City Center
 - [Stadthotel Freiburg](https://www.hotel-freiburg.de/de)
