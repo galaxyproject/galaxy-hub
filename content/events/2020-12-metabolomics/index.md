@@ -6,10 +6,8 @@ tease: "Bringing together Galaxy metabolomics researchers, users and developers,
 continent: EU
 location:
   name: "Online, Germany"
-location_url: ""
 external_url: "https://galaxyproject.eu/event/2020-11-24-metabolomics/"
 gtn: false
 contact: "Melanie Föll"
-image: 
 subsites: [global, us]
 ---

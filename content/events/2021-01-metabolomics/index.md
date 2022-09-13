@@ -7,11 +7,7 @@ continent: EU
 location:
   name: "Freiburg, Online, Germany"
 external_url: "https://galaxyproject.eu/event/2021-1-25-Metabolomics-Mini-Symposium/"
-location_url: ""
 gtn: false
 contact: "Melanie Föll, Beatriz Serrano-Solano"
-tags: []
-links:
-image: 
 subsites: [global, us]
 ---

@@ -6,8 +6,6 @@ tease: "Build use and support ARCs with new tools, templates, and ideas."
 continent: EU
 location:
   name: "Villa Denis, Frankenstein, Germany"
-image: 
-location_url: ""
 external_url: "https://galaxyproject.eu/event/2021-08-26-hackathon-fdo/"
 gtn: false
 contact: "dataplant /@/ uni-kl.de"
