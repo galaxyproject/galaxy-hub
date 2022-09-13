@@ -5,7 +5,7 @@ date: "2021-10-11"
 subsites: [global, us]
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -103,11 +103,11 @@ Interested in helping? See the [announcement](/news/2021-10-outreachy/) for deta
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-Two new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
+Two new positions were listed in the [Galaxy Career Center](/careers/) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
 * Helmholtz Zentrum München, Germany
 * Tufts University in Massachusetts
@@ -124,7 +124,7 @@ Two new positions were listed in the [Galaxy Career Center](/careers/index.md) r
 
 # Event News
 
-See all [upcoming events here](/events/index.md):
+See all [upcoming events here](/events/):
 
 <div class="card-deck">
 
@@ -181,7 +181,7 @@ Registration will open soon, stay tuned!
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -207,7 +207,7 @@ We are [seeking volunteers (like you!) to lead the discussion on your favorite t
 
 **21 October, Online, Global**
 
-Please join us for the [CoFest day](/events/2021-10-papercuts/index.md) on October 21 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [CoFest day](/events/2021-10-papercuts/) on October 21 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 This month the Metabolomics community will meet to work on tools, get in touch with [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/) to participate.
 
@@ -266,7 +266,7 @@ Single-cell workshop in Spanish. Registration will open soon!
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -327,7 +327,7 @@ The [VEuPathDB Galaxy instance](https://veupathdb.globusgenomics.org) has been u
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 
@@ -462,7 +462,7 @@ The [Galaxy Training Network](https://training.galaxyproject.org/) would like to
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

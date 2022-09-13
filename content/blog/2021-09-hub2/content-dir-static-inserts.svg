@@ -16,7 +16,7 @@
    version="1.1"
    id="svg1242"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="content-dir-static-inserts.ink.svg">
+   sodipodi:docname="content-dir-static-inserts.svg">
   <defs
      id="defs1236">
     <clipPath
@@ -355,7 +355,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="554.81252"
+     inkscape:cx="335.69354"
      inkscape:cy="578.86818"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -364,8 +364,8 @@
      fit-margin-left="10"
      fit-margin-bottom="10"
      fit-margin-right="10"
-     inkscape:window-width="1324"
-     inkscape:window-height="1403"
+     inkscape:window-width="1596"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
@@ -377,7 +377,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -618,7 +618,7 @@
            x="-209.80302"
            y="247.87262"
            style="font-size:6.74271393px;fill:#a86b24;fill-opacity:1;stroke-width:0.34331468"
-           id="tspan13443">See [Learn/FAQ](/src/learn/faq/index.md) for questions </tspan></tspan><tspan
+           id="tspan13443">See [Learn/FAQ](/learn/faq/) for questions about using any</tspan></tspan><tspan
          sodipodi:role="line"
          x="-209.80302"
          y="256.31247"
@@ -627,7 +627,7 @@
            x="-209.80302"
            y="256.31247"
            style="font-size:6.74271393px;fill:#a86b24;fill-opacity:1;stroke-width:0.34331468"
-           id="tspan13447">about using any Galaxy instance, and [Main/FAQ](/src/main/</tspan></tspan><tspan
+           id="tspan13447">Galaxy instance, and [Main/FAQ](/main/faq/) for questions</tspan></tspan><tspan
          sodipodi:role="line"
          x="-209.80302"
          y="264.75235"
@@ -636,7 +636,7 @@
            x="-209.80302"
            y="264.75235"
            style="font-size:6.74271393px;fill:#a86b24;fill-opacity:1;stroke-width:0.34331468"
-           id="tspan13451">faq/index.md) for questions specifically about using </tspan></tspan><tspan
+           id="tspan13451">specifically about using Galaxy's free public server</tspan></tspan><tspan
          sodipodi:role="line"
          x="-209.80302"
          y="273.19214"
@@ -645,7 +645,7 @@
            x="-209.80302"
            y="273.19214"
            style="font-size:6.74271393px;fill:#a86b24;fill-opacity:1;stroke-width:0.34331468"
-           id="tspan13455">Galaxy's free public server [Main](/main/).</tspan><tspan
+           id="tspan13455">[Main](/main/).</tspan><tspan
            dx="0"
            x="13.769629"
            y="273.19214"

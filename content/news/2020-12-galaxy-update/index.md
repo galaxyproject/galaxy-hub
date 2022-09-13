@@ -625,7 +625,7 @@ Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-scien
 <img class="card-img-top" src="/news/2020-10-jxtx-awardees/first-4.jpg" alt="David, Anoushka, Sumaira, and Georgia" />
 <div class="card-header">JXTX Foundation Impact</div>
 
-The [JXTX Foundation](/srcjxtx/foundation/) sponsored [10 graduate students](/news/2020-10-jxtx-awardees/) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:
+The [JXTX Foundation](/jxtx/foundation/) sponsored [10 graduate students](/news/2020-10-jxtx-awardees/) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:
 
 * [David Twesigomwe on the impact of the JXTX Foundation](/news/2020-11-jxtx-twesigomwe/)
 * [Anoushka Joglekar: Making Connections via the JXTX Foundation](/news/2020-11-jxtx-joglekar/)

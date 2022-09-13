@@ -18,7 +18,7 @@ The [June 2017 Galaxy News](/galaxy-updates/2017-06/) is out!
     * [Capture the flag (what?)](/galaxy-updates/2017-06/#hack-the-universe-capture-the-flag-at-gcc2017-)
 * [Making Galaxy Work for You tutorial at ISMB/ECCB 2017](/galaxy-updates/2017-06/#galaxy-tutorial-ismb-eccb-2017)
 * [All upcoming events](/galaxy-updates/2017-06/#all-events)
-* [Training Material Re-use Hackathon Reports](/galaxy-updates/2017-06/index.md#training-material-re-use-hackathon-reports)
+* [Training Material Re-use Hackathon Reports](/galaxy-updates/2017-06/#training-material-re-use-hackathon-reports)
 * And *new*:
     * [Pubs](/galaxy-updates/2017-06/#new-publications) (85 of them, 5 highlighted)
     * [Positions](/galaxy-updates/2017-06/#who-s-hiring)
