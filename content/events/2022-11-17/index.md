@@ -6,11 +6,9 @@ tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"
-location_url: "/community/community-calls/"
-external_url:
+  url: "/community/community-calls/"
 gtn: false
 contact: "Dannon Baker"
-links:
 tags: ["community-call"]
 subsites: [all]
 ---
