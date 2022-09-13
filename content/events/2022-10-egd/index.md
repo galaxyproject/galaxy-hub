@@ -24,7 +24,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 <br>
 
-- [**ELIXIR Galaxy Implementation Study (IS2021)**](/events/2022-10-egd/is2021/index.md) meeting,
+- [**ELIXIR Galaxy Implementation Study (IS2021)**](/events/2022-10-egd/elixir-is2021/index.md) meeting,
 - [**European Galaxy Days (EGD)**](/events/2022-10-egd/egd/index.md), talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
 - [**EuroScienceGateway (ESG)  kick-off**](/events/2022-10-egd/esg/index.md), an EU-funded project to build a mature network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
@@ -96,7 +96,7 @@ Registration is free, but the space is limited, so we recommend to you register 
     <tr class="text-center">
       <th style="border: 3px solid white;">14:00<br> - <br>17:30</th>
       <td style="background-color: #FBB117; border: 3px solid white;">
-        <strong><a href="/events/2022-10-egd/is2021/index.md">ELIXIR IS2021 meeting</a></strong>
+        <strong><a href="/events/2022-10-egd/elixir-is2021/index.md">ELIXIR IS2021 meeting</a></strong>
         <br><br><small><a href="https://elixir-europe.org/internal-projects/commissioned-services/strengthen-data-management-galaxy">Strengthen Data Management in Galaxy</a></small>
       </td>
       <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/index.md">European Galaxy Days</a></strong>
