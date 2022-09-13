@@ -11,8 +11,8 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 | 10:00 - 10:30 |   | Talks and presentations I  |   |
 | 10:30 - 11:00 |   | Coffee Break   |   |
 | 11:00 - 12:30 |   | Talks and presentations II |   |
-| 12:00 - 13:30 |   | Lunch Break  |  |
-| 13:30 - 15:00 |   | ELIXIR-Galaxy Community meeting (Part 1)  |   |
+| 12:30 - 14:00 |   | Lunch Break  |  |
+| 14:00 - 15:00 |   | ELIXIR-Galaxy Community meeting (Part 1)  |   |
 | 15:00 - 15:30 |   | Coffee Break  |    |
 | 15:30 - 17:30 |   | ELIXIR-Galaxy Community meeting (Part 2)  |   |
 
@@ -24,8 +24,8 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 | 09:30 - 10:30 |   | Talks and presentations III   |  |
 | 10:30 - 11:00 |   | Coffee Break |   |
 | 11:00 - 12:30 |   | Talks and presentations IV  |   |
-| 12:00 - 13:30 |   | Lunch Break  |   | 
-| 13:30 - 15:00 |   | Birds of a Feather (Part 1)  |   |
+| 12:30 - 14:00 |   | Lunch Break  |   | 
+| 14:00 - 15:00 |   | Birds of a Feather (Part 1)  |   |
 | 15:00 - 15:30 |   | Coffee Break  |    |
 | 15:30 - 17:30 |   | Birds of a Feather (Part 2)  |   |
 
