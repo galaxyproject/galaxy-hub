@@ -18,7 +18,7 @@ If you have a community specific query you can contact:
 # GCCBOSC 2018 Organizers
 
 * *[Heather Wiencko](https://twitter.com/hlwiencko)*, [Hosted Graphite](http://www.hostedgraphite.com), BOSC 2018 Co-Chair
-* *[Nicole Vasilevsky](Http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/), GCC2018 Co-Chair
+* *[Nicole Vasilevsky](http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/), GCC2018 Co-Chair
 * *[Bastian Greshake Tzovaras](http://ruleofthirds.de/)*, [Open Humans](https://www.openhumans.org/)
 * *[Christopher Sullivan](https://www.researchgate.net/profile/Christopher_Sullivan3)*, [Oregon State University](http://oregonstate.edu/)
 * *[Stephen Ramsey](http://eecs.oregonstate.edu/people/ramsey-stephen)*, [Oregon State University](http://oregonstate.edu/)
@@ -45,4 +45,4 @@ If you have a community specific query you can contact:
 * *[Abhinav Nellore](http://nellore.bio/)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Anna Ritz](http://www.reed.edu/biology/ritz/index.html),* [Reed College](http://www.reed.edu/)
 * *[Margaret Staton](http://gst.tennessee.edu/people/meg-staton/)*, [University of Tennessee Knoxville](http://www.utk.edu/)
-* *[Nicole Vasilevsky](Http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
+* *[Nicole Vasilevsky](http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
