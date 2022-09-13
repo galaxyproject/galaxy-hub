@@ -20,7 +20,7 @@
             <div class="card shadow-sm bg-light rounded border-0">
                 <h2 class="card-header mt-0">Twitter</h2>
                 <div class="card-body p-2">
-                    <Twitter link="https://twitter.com/galaxyproject" height="400" width="100%"/>
+                    <Twitter link="https://twitter.com/galaxyproject" height="410" width="100%"/>
                 </div>
             </div>
         </div>
@@ -109,6 +109,12 @@ fragment articleFields on Article {
 </page-query>
 
 <style lang="scss" scoped>
+p {
+    &::v-deep img {
+        max-width: 100%;
+    }
+}
+
 .news-and-events {
     display: flex;
     flex-direction: row;
