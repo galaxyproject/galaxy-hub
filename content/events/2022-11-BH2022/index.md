@@ -6,7 +6,7 @@ tease: "BioHackathon activities are driven by practical sessions where people ga
 continent: EU
 location:
   name: "Paris + Online, France"
-location_url: "https://biohackathon-europe.org/"
+  url: "https://biohackathon-europe.org/"
 external_url: ""
 image: "/images/logos/bhlogo.png"
 gtn: False

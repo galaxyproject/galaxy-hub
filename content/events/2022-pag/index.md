@@ -6,7 +6,7 @@ tease: "Galaxy is for Plants and Animals too..."
 continent: NA
 location:
   name: "PAG, San Diego, California, United States"
-location_url: https://www.intlpag.org/2022/
+  url: https://www.intlpag.org/2022/
 gtn: true
 contact: Presenters
 image: /images/events/2022-pag/pag-2022-splash.png

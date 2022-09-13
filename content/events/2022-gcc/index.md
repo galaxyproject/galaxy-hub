@@ -6,7 +6,7 @@ tease: "The annual gathering of the Galaxy Community"
 continent: NA
 location:
   name: "University of Minnesota, Minneapolis, Minnesota, United States"
-location_url: https://twin-cities.umn.edu/
+  url: https://twin-cities.umn.edu/
 external_url: "/events/gcc2022/"
 image: 
 gtn: true

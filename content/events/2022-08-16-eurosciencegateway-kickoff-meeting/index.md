@@ -3,8 +3,8 @@ title: "EuroScienceGateway Kick-off Meeting"
 date: "2022-10-06"
 end: "2022-10-07"
 tags: [conference]
-organiser:
-  name: Freiburg Galaxy Team
+contacts:
+- name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
 location:
   name: Institute for Informatics, Albert-Ludwigs-University Freiburg
