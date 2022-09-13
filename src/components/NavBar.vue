@@ -10,7 +10,7 @@
                     <p>{{ subsiteName }}</p>
                 </b-navbar-brand>
                 <b-navbar-nav id="subsite-items">
-                    <b-nav-item-dropdown id="subsite-select" v-if="false" text="Regions">
+                    <b-nav-item-dropdown id="subsite-select" v-if="subsite !== defaultSubsite" text="Regions">
                         <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
                             {{ link.name }}
                         </b-dropdown-item>
