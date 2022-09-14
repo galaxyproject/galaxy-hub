@@ -1,5 +1,5 @@
 <template>
-    <div id="top-content" class="row">
+    <div id="top-content" class="row" v-if="hasContent(jumbotron) || bundleHasContent(lead)">
         <Bundle id="lead" :class="`col-sm-${topWidth}`" :bundle="lead" :subclasses="['lead']" />
         <section id="jumbotron" v-if="hasContent(jumbotron)" :class="`col-sm-${topWidth}`">
             <h3 v-if="jumbotron.title" class="title text-center">{{ jumbotron.title }}</h3>
@@ -10,7 +10,7 @@
 
 <script>
 import Bundle from "@/components/Bundle";
-import { hasContent } from "~/lib/pages.mjs";
+import { hasContent, bundleHasContent } from "~/lib/pages.mjs";
 export default {
     props: {
         lead: { type: Array, required: false, default: () => [] },
@@ -21,6 +21,7 @@ export default {
     },
     methods: {
         hasContent,
+        bundleHasContent,
     },
     computed: {
         topWidth() {
