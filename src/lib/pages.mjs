@@ -1,5 +1,4 @@
 // Functions used in dynamic pages (`src/pages/*.vue` and `src/components/pages/*.vue`).
-import _ from "lodash";
 import utils from "./utils.js";
 // Kludge for an issue (probably) with webpack.
 const { repr, rmSuffix } = utils;
@@ -76,7 +75,7 @@ export function gatherCollections(page) {
  */
 export function gatherBundles(inserts) {
     let bundles = {};
-    for (let [name, value] of Object.entries(inserts)) {
+    for (let [name, insert] of Object.entries(inserts)) {
         let bundleName, index;
         // Does the name end in an integer?
         let match = name.match(/^(.*[^\d])(\d+)$/);
@@ -89,28 +88,35 @@ export function gatherBundles(inserts) {
         }
         let bundle = bundles[bundleName];
         if (!bundle) {
-            bundle = [];
+            bundle = {};
             bundles[bundleName] = bundle;
         }
         if (index === undefined) {
-            // Insert names without an index go at the start of the array, but we can't put it there yet, in case
-            // there's an insert later whose index is 0.
-            bundle.noIndex = value;
+            bundle.noIndex = insert;
         } else {
-            bundle[index] = value;
+            bundle[index] = insert;
         }
     }
-    // Push the index-less inserts onto the front of each bundle array.
-    // We do this at the end to not mess up the indexing.
+    // Take each bundle object and turn it into a simple, contiguous array of Inserts.
+    // Don't exclude Inserts without content at this stage; their metadata could be needed.
     for (let bundleName of Object.keys(bundles)) {
         let bundle = bundles[bundleName];
+        let bundleArray = [];
         if (bundle.noIndex) {
-            bundle.unshift(bundle.noIndex);
+            bundleArray.push(bundle.noIndex);
         }
-        bundles[bundleName] = _.compact(bundle);
+        for (let [key, insert] of Object.entries(bundle)) {
+            if (isNaN(parseInt(key))) {
+                continue;
+            }
+            bundleArray.push(insert);
+        }
+        bundles[bundleName] = bundleArray;
     }
     return bundles;
 }
+
+//TODO: Probably should turn Bundle into a class with these as instance methods.
 
 export function searchBundle(bundle, key, fallback) {
     if (!bundle) {
@@ -122,6 +128,15 @@ export function searchBundle(bundle, key, fallback) {
         }
     }
     return fallback;
+}
+
+export function bundleHasContent(bundle) {
+    for (let insert of bundle) {
+        if (hasContent(insert)) {
+            return true;
+        }
+    }
+    return false;
 }
 
 // Managing homepage cards
