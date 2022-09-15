@@ -25,10 +25,6 @@ describe("Sitewide tests", () => {
             .click();
         cy.location("pathname").should("equal", "/events/");
     });
-    it("Opens gitter sidecar and the iframe is injected", () => {
-        cy.get(".gitter-open-chat-button").click();
-        cy.get("iframe[src='https://gitter.im/galaxyproject/Lobby/~embed']").should("be.visible");
-    });
 });
 
 describe("Test Markdown rendering", () => {
