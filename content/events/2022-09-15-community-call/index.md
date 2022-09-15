@@ -17,7 +17,7 @@ subsites: [all]
 
 We will have some community updates followed by a presentation on [**Tool Search “Past, Present, and Future”**]() by **Michelle Savage, Ahmed Awan, Tyler Collins**. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing) or bring them to the call!
 
-**Please [join us via zoom](https://zoom.us/j/93232917829?pwd=NThHTkdDYmFTRExuV0VvaE1vRmZ1UT09) at 3 pm UTC** ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+community+call&iso=20220915T15)) for an open discussion.
+**Please [join us via Meet](https://meet.google.com/snm-fcah-wov) at 3 pm UTC** ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+community+call&iso=20220915T15)) for an open discussion.
 
 
 ---
