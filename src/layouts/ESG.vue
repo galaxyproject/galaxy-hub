@@ -27,9 +27,17 @@
                 </b-collapse>
             </div>
         </b-navbar>
+
         <main id="maincontainer" class="container">
             <slot />
         </main>
+
+        <footer class="container mt-4">
+            Hosted on the
+            <a href="/">
+                <b>Galaxy Community Hub</b>
+            </a>
+        </footer>
     </div>
 </template>
 
