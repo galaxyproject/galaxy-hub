@@ -4,28 +4,41 @@
 
         <div class="news-and-events mb-4">
             <div class="card shadow-sm bg-light rounded border-0">
-                <h2 class="card-header mt-0">News</h2>
+                <h2 class="card-header mt-0">
+                    <span class="icon fas fa-bullhorn mr-1" />
+                    News
+                </h2>
                 <div class="card-body p-2">
-                    <ItemListBrief v-for="edge in $page.news.edges" :key="edge.id" :item="edge.node"/>
+                    <ItemListBrief v-for="edge in $page.news.edges" :key="edge.id" :item="edge.node" />
                 </div>
             </div>
 
             <div class="card shadow-sm bg-light rounded border-0">
-                <h2 class="card-header mt-0">Events</h2>
+                <h2 class="card-header mt-0">
+                    <span class="icon far fa-calendar-alt mr-1" />
+                    Events
+                </h2>
                 <div class="card-body p-2">
-                    <ItemListBrief v-for="edge in $page.events.edges" :key="edge.id" :item="edge.node"/>
+                    <ItemListBrief v-for="edge in $page.events.edges" :key="edge.id" :item="edge.node" />
                 </div>
             </div>
 
             <div class="card shadow-sm bg-light rounded border-0">
-                <h2 class="card-header mt-0">Twitter</h2>
+                <h2 class="card-header mt-0">
+                    <span class="icon fab fa-twitter mr-1" />
+                    Twitter
+                </h2>
                 <div class="card-body p-2">
-                    <Twitter link="https://twitter.com/galaxyproject" height="410" width="100%"/>
+                    <Twitter link="https://twitter.com/galaxyproject" height="410" width="100%" />
                 </div>
             </div>
         </div>
 
-        <Partners title="Project Partners" pathPrefix="/projects/esg/partner-logos/" :partners="$page.dataset.partners"/>
+        <Partners
+            title="Project Partners"
+            pathPrefix="/projects/esg/partner-logos/"
+            :partners="$page.dataset.partners"
+        />
     </Layout>
 </template>
 
