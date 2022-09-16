@@ -191,9 +191,9 @@ p {
 
 .external-links {
     display: flex;
-    flex-direction: row;
     gap: 2rem;
     justify-content: center;
+    flex-wrap: wrap;
 
     img {
         height: 64px;
