@@ -1,17 +1,24 @@
 <template>
     <component :is="currentLayout">
         <p v-html="$page.main.content" class="mb-4"></p>
+        <table class="table table-striped">
+            <tbody>
+                <ArticleTable v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
+            </tbody>
+        </table>
     </component>
 </template>
 
 <script>
 import Layout from "~/layouts/Default.vue";
 import EsgLayout from "~/layouts/ESG.vue";
+import ArticleTable from "~/components/ArticleTable";
 
 export default {
     components: {
         Layout,
         EsgLayout,
+        ArticleTable,
     },
     metaInfo() {
         return {
@@ -38,11 +45,28 @@ export default {
 </script>
 
 <page-query>
-    query {
-        main: insert(path: "/insert:/projects/esg/news/") {
-            title,
-            description,
-            content
+query {
+    main: insert(path: "/insert:/projects/esg/news/") {
+        title,
+        description,
+        content
+    }
+
+    articles: allArticle(
+            sortBy: "date", order: DESC, filter: {
+                category: {eq: "news"}, subsites: {contains: ["global"]}, draft: {ne: true}
+            }
+        ) {
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                date (format: "D MMMM YYYY")
+                path
+            }
         }
     }
+}
 </page-query>
