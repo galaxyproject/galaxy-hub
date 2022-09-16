@@ -1,5 +1,7 @@
 <template>
-    <component :is="currentLayout"> </component>
+    <component :is="currentLayout">
+        <p v-html="$page.main.content" class="mb-4"></p>
+    </component>
 </template>
 
 <script>
@@ -10,6 +12,17 @@ export default {
     components: {
         Layout,
         EsgLayout,
+    },
+    metaInfo() {
+        return {
+            title: this.$page.main.title,
+            meta: [
+                {
+                    name: "description",
+                    content: this.$page.main.description,
+                },
+            ],
+        };
     },
     data() {
         return {
@@ -23,3 +36,13 @@ export default {
     },
 };
 </script>
+
+<page-query>
+    query {
+        main: insert(path: "/insert:/projects/esg/events/") {
+            title,
+            description,
+            content
+        }
+    }
+</page-query>
