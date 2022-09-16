@@ -3,9 +3,9 @@ partners:
   image: ./partner-logos/VIB LOGO.png
   website: https://vib.be/
 
-- name: University of Oslo
-  image: ./partner-logos/University_of_Oslo_seal.svg.png
-  website: https://www.uio.no/
+- name: The University of Manchester
+  image: ./partner-logos/MANCHESTER.jpg
+  website: https://www.manchester.ac.uk/
 
 - name: University Paris
   image: ./partner-logos/UNIVERSITY PARIS.png
@@ -27,9 +27,9 @@ partners:
   image: ./partner-logos/TÜBİTAK_logo.svg.png
   website: https://www.tubitak.gov.tr/
 
-- name: The University of Manchester
-  image: ./partner-logos/MANCHESTER.jpg
-  website: https://www.manchester.ac.uk/
+- name: University of Oslo
+  image: ./partner-logos/University_of_Oslo_seal.svg.png
+  website: https://www.uio.no/
 
 - name: AGH University of Science and Technology
   image: ./partner-logos/logo-AGH.png
