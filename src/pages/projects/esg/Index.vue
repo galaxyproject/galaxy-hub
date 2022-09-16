@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <component :is="currentLayout">
         <p v-html="$page.main.content" class="mb-4"></p>
 
         <div class="news-and-events mb-4">
@@ -39,11 +39,12 @@
             pathPrefix="/projects/esg/partner-logos/"
             :partners="$page.dataset.partners"
         />
-    </Layout>
+    </component>
 </template>
 
 <script>
 import Layout from "~/layouts/Default.vue";
+import EsgLayout from "~/layouts/ESG.vue";
 import Partners from "~/components/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
 import ItemListBrief from "~/components/ItemListBrief.vue";
@@ -51,9 +52,15 @@ import ItemListBrief from "~/components/ItemListBrief.vue";
 export default {
     components: {
         Layout,
+        EsgLayout,
         Partners,
         Twitter,
         ItemListBrief,
+    },
+    data() {
+        return {
+            currentLayout: Layout,
+        };
     },
     metaInfo() {
         return {
@@ -65,6 +72,11 @@ export default {
                 },
             ],
         };
+    },
+    created() {
+        if (this.$route.query.solo) {
+            this.currentLayout = EsgLayout;
+        }
     },
 };
 </script>
