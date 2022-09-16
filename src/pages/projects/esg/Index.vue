@@ -2,7 +2,26 @@
     <component :is="currentLayout">
         <p v-html="$page.main.content" class="mb-4"></p>
 
-        <div class="news-and-events mb-4">
+        <h2>
+            {{ $page.datasetLinks.heading }}
+        </h2>
+
+        <div class="external-links mb">
+            <b-button
+                v-for="(link, i) in $page.datasetLinks.external_links"
+                class="border-0"
+                :key="i"
+                :title="link.name"
+                :href="link.url"
+                variant="outline-secondary"
+            >
+                <div class="mx-auto">
+                    <g-image :src="link.image" :alt="link.name" />
+                </div>
+            </b-button>
+        </div>
+
+        <div class="news-and-events mb">
             <div class="card shadow-sm bg-light rounded border-0">
                 <h2 class="card-header mt-0">
                     <span class="icon fas fa-bullhorn mr-1" />
@@ -47,7 +66,8 @@
         <Partners
             title="Project Partners"
             pathPrefix="/projects/esg/partner-logos/"
-            :partners="$page.dataset.partners"
+            class="mb"
+            :partners="$page.datasetPartners.partners"
         />
     </component>
 </template>
@@ -108,7 +128,7 @@ query {
         content
     }
 
-    dataset(path: "/dataset:/projects/esg/partners/") {
+    datasetPartners: dataset(path: "/dataset:/projects/esg/partners/") {
         partners {
             name,
             image (width: 140),
@@ -116,10 +136,18 @@ query {
         }
     }
 
+    datasetLinks: dataset(path: "/dataset:/projects/esg/external_links/") {
+        heading,
+        external_links {
+            name,
+            image (width: 320),
+            url
+        }
+    }
+
     news: allArticle(
         limit: 6, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
     ) {
-        totalCount
         edges {
             node {
                 ...articleFields
@@ -134,7 +162,6 @@ query {
             draft: {ne: true}
         }
     ) {
-        totalCount
         edges {
             node {
                 ...articleFields
@@ -160,6 +187,22 @@ p {
     &::v-deep img {
         max-width: 100%;
     }
+}
+
+.external-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+
+    img {
+        height: 64px;
+        width: auto;
+    }
+}
+
+.mb {
+    margin-bottom: 3rem;
 }
 
 // bootstrap override
