@@ -62,3 +62,7 @@ partners:
 - name: Institute of Informatics - SAS
   image: ./partner-logos/uisav_logo_en.png
   website: https://www.sav.sk/?doc=ins-org-ins&institute_no=60
+
+- name: Advanced computing for research
+  image: ./partner-logos/EGI_Logo_RGB.svg
+  website: https://www.egi.eu/
