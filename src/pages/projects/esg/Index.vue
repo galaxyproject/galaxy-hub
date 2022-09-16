@@ -9,7 +9,12 @@
                     News
                 </h2>
                 <div class="card-body p-2">
-                    <ItemListBrief v-for="edge in $page.news.edges" :key="edge.id" :item="edge.node" />
+                    <div>
+                        <ItemListBrief v-for="edge in $page.news.edges" :key="edge.id" :item="edge.node" />
+                    </div>
+                    <a :href="esgUrl('/projects/esg/news')" class="btn btn-secondary border-0 btn-sm w-75">
+                        <b>More News</b>
+                    </a>
                 </div>
             </div>
 
@@ -19,7 +24,12 @@
                     Events
                 </h2>
                 <div class="card-body p-2">
-                    <ItemListBrief v-for="edge in $page.events.edges" :key="edge.id" :item="edge.node" />
+                    <div>
+                        <ItemListBrief v-for="edge in $page.events.edges" :key="edge.id" :item="edge.node" />
+                    </div>
+                    <a :href="esgUrl('/projects/esg/events')" class="btn btn-secondary border-0 btn-sm w-75">
+                        <b>More Events</b>
+                    </a>
                 </div>
             </div>
 
@@ -77,6 +87,15 @@ export default {
         if (this.$route.query.solo) {
             this.currentLayout = EsgLayout;
         }
+    },
+    methods: {
+        esgUrl(url) {
+            if (this.$route.query.solo) {
+                return `${url}?solo=true`;
+            } else {
+                return url;
+            }
+        },
     },
 };
 </script>
@@ -163,6 +182,17 @@ div.card::v-deep p {
 
     @media screen and (max-width: 1200px) {
         flex-direction: column;
+    }
+
+    & .card > .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        & > a {
+            align-self: center;
+            max-width: 250px;
+        }
     }
 }
 </style>
