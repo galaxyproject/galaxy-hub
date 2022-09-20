@@ -1,11 +1,13 @@
 ---
 title: UseGalaxy.eu Tool Updates for 2022-08-16
+tease: "On 2022-08-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process."
+hide_tease: true
 date: '2022-08-16'
 tags: [tools]
 supporters:
 - denbi
 - elixir
-subsites: [freiburg]
+subsites: [eu, freiburg]
 main_subsite: freiburg
 ---
 

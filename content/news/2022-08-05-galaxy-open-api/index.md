@@ -1,6 +1,7 @@
 ---
 title: OpenAPI support in Galaxy and Interactive API Documentation
 tease: "Since Galaxy release 22.05 it's much easier to discover, explore, learn and experiment with the Galaxy Rest API."
+hide_tease: true
 date: '2022-08-05'
 tags: [galaxy]
 supporters:
