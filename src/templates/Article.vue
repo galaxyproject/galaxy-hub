@@ -19,7 +19,11 @@ query Article($path: String!) {
         date (format: "YYYY-MM-DD")
         end (format: "YYYY-MM-DD")
         contact
-        contact_url
+        contacts {
+            name
+            email
+            url
+        }
         authors
         location {
             name

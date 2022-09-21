@@ -76,6 +76,11 @@ query($subsite: String, $mainPath: String, $footerPath: String) {
                 }
                 continent
                 contact
+                contacts {
+                    name
+                    email
+                    url
+                }
                 external_url
                 gtn
                 links {

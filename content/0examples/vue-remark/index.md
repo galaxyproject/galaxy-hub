@@ -9,7 +9,10 @@ date: 2021-04-25
 days: 2
 continent: EU
 contact: people
-contact_url: https://example.com
+contacts:
+- name: Person
+  email: name@example.com
+  url: https://example.com
 authors: Jose and me
 location:
   name: Strong Badia
