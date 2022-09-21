@@ -9,8 +9,12 @@ location:
 external_url: "https://www.futurelearn.com/courses/making-sense-of-genomic-data-covid-19-web-based-bioinformatics"
 location_url: ""
 gtn: false
-contact: "Carolina Castañeda Garcia, Claudine Nkera-Gutabara, Tanya Golubchik, Tracey Calvert-Joshua, Varun Shamanna"
-tags: [ ]
-image: 
+contacts:
+- name: "Carolina Castañeda Garcia"
+- name: "Claudine Nkera-Gutabara"
+- name: "Tanya Golubchik"
+- name: "Tracey Calvert-Joshua"
+- name: "Varun Shamanna"
+tags: [ training ]
 subsites: [global, all-eu]
 ---

@@ -1,5 +1,7 @@
 ---
 title: "EuroScienceGateway Kick-off Meeting"
+tease: "Within the European Galaxy Days, the EuroScienceGateway consortium of 18 partners will get together in Freiburg, Germany, for a 2-day Kick-off Meeting."
+hide_tease: true
 date: "2022-10-06"
 end: "2022-10-07"
 tags: [conference]
@@ -16,7 +18,8 @@ location:
 supporters:
 - eu
 - elixir
-subsites: [freiburg]
+subsites: [eu, freiburg]
+main_subsite: freiburg
 ---
 
 Within the **European Galaxy Days**, the **EuroScienceGateway consortium of 18 partners** will get together in Freiburg, Germany, 
