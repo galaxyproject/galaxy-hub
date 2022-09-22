@@ -7,7 +7,6 @@ continent: GL
 location:
   name: "Online, Mexico, South Africa, Sydney, UK, India"
 external_url: "https://www.futurelearn.com/courses/making-sense-of-genomic-data-covid-19-web-based-bioinformatics"
-location_url: ""
 gtn: false
 contacts:
 - name: "Carolina Castañeda Garcia"

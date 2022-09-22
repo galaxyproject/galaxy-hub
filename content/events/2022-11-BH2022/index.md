@@ -7,7 +7,6 @@ continent: EU
 location:
   name: "Paris + Online, France"
   url: "https://biohackathon-europe.org/"
-external_url: ""
 image: "/images/logos/bhlogo.png"
 gtn: False
 contact: "Project organizers"
