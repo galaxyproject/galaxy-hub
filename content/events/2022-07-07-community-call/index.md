@@ -12,7 +12,7 @@ gtn: false
 contact: "Anup Kumar"
 links:
 tags: ["community-call"]
-subsites: [global, us]
+subsites: [all]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3uNtw0_sSDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

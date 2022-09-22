@@ -6,12 +6,12 @@ tease: ""
 continent: NA
 location:
   name: "BioIT World, Boston, Massachusetts, United States"
-location_url: "http://www.giiconference.com/chi653337/" 
-external_url:
+  url: "http://www.giiconference.com/chi653337/"
 image: /events/2019-04-bioit/bioitworld19.png
 gtn: false
-contact: "Presenters"
-contact_url: "/people/jeremy-goecks/"
+contacts:
+- name: Jeremy Goecks
+  url: /people/jeremy-goecks/
 tags: [ cofest ]
 subsites: [global, us]
 ---

@@ -12,7 +12,7 @@ gtn: false
 contact: "John Davis, Marius van den Beek"
 links:
 tags: ["community-call"]
-subsites: [global, us]
+subsites: [all]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rl3a-vvoAGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -8,9 +8,8 @@ location:
   name: "University of Minnesota, Minneapolis, Minnesota, United States"
   url: https://twin-cities.umn.edu/
 external_url: "/events/gcc2022/"
-image: 
 gtn: true
 contact: Organizers
-tags: [ cofest ]
-subsites: [global, us]
+tags: [cofest]
+subsites: [all]
 ---

@@ -8,6 +8,7 @@ location:
   name: "Online"
 external_url: "https://www.abrf.org/workshops-webinars"
 gtn: false
-contact: "Melanie Foell"
+contacts:
+- name: "Melanie Foell"
 subsites: [global, all-eu]
 ---
