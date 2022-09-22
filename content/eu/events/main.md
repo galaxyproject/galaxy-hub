@@ -2,6 +2,16 @@
 title: European Galaxy Event Horizon
 ---
 
+<div class="alert alert-warning trim-p" style="padding-top: 5px; padding-bottom: 15px">
+
+## The Event Horizon is still migrating
+
+This page won't have all historical posts until we're done moving content from the old host.
+
+This is the home for new Galaxy Europe events, but if you're looking for older content, you can find it [here](https://usegalaxy-eu.github.io/events).
+
+</div>
+
 <img class="img-fluid float-right" src="/images/undraw-illustrations/events.svg" style="width:220px;" alt="events" />
 
 Upcoming (and past) events with content related to the European Galaxy community. For events prior to this year, see the [events archive](/eu/events/archive/).

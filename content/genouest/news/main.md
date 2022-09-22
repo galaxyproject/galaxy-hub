@@ -2,6 +2,16 @@
 title: GenOuest Galaxy News
 ---
 
+<div class="alert alert-warning trim-p" style="padding-top: 5px; padding-bottom: 15px">
+
+## GenOuest Galaxy News is still migrating
+
+This page won't have all historical posts until we're done moving content from the old host.
+
+This is the home for new posts about GenOuest's Galaxy server, but if you're looking for older content, you can find it [here](https://usegalaxy-eu.github.io/genouest/news).
+
+</div>
+
 <img class="img-fluid float-right" src="/images/undraw-illustrations/news.svg" style="width:220px;" alt="news" />
 
 This page contains announcements of interest to the Galaxy Community. These
