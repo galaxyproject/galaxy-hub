@@ -16,10 +16,9 @@
                 <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
                 <template v-else>{{ article.location.name }}</template>
             </li>
-            <li v-if="article.contact">
+            <li v-if="article.contact || article.contacts">
                 <span class="metakey">Contact: </span>
-                <a v-if="article.contact_url" :href="article.contact_url">{{ article.contact }}</a>
-                <template v-else>{{ article.contact }}</template>
+                <Contacts :contact="article.contact" :contacts="article.contacts" />
             </li>
             <li v-if="article.links.length > 0">
                 <span class="metakey">Links: </span>
@@ -46,6 +45,7 @@
 
 <script>
 import Redirect from "@/components/Redirect";
+import Contacts from "@/components/Contacts";
 import { ensureDomain, humanDateSpan } from "~/lib/utils.js";
 import { getImage } from "~/lib/pages.mjs";
 import CONFIG from "~/../config.json";
@@ -58,6 +58,7 @@ const SOCIAL_TAGS_METADATA = [
 export default {
     components: {
         Redirect,
+        Contacts,
     },
     metaInfo() {
         let info = {};
@@ -123,7 +124,7 @@ export default {
             return dayjs(this.article.end);
         },
         articleDateStr() {
-            return this.startDate.format("MMMM D YYYY");
+            return this.startDate.format("MMMM D, YYYY");
         },
         image() {
             return getImage(this.article.image, this.article.images);

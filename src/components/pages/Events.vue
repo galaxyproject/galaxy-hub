@@ -126,6 +126,11 @@ fragment articleFields on Article {
     }
     continent
     contact
+    contacts {
+        name
+        email
+        url
+    }
     external_url
     gtn
     links {

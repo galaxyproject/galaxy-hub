@@ -36,16 +36,18 @@
                     title="Training offered by GTN Member"
                 />
             </a>
-            {{ article.contact }}
+            <Contacts :contact="article.contact" :contacts="article.contacts" />
         </td>
     </tr>
 </template>
 
 <script>
 import Continent from "@/components/Continent";
+import Contacts from "@/components/Contacts";
 export default {
     components: {
         Continent,
+        Contacts,
     },
     props: {
         article: { type: Object, required: true },
