@@ -31,10 +31,7 @@ Welcome to **Galaxy Proteomics**
 
 </div>
 <div class="right" style="width: calc(50% - 12px); max-width: 400px">
-
-import Twitter from "@/components/Twitter";
-<Twitter width="100%" height="420" link="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</Twitter>
-
+  <timeline id="usegalaxyp" sourceType="profile" :options="{ height: '420' }"></timeline>
 </div>
 <div class="clearfix">
 </div>
