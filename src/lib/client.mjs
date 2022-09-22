@@ -63,6 +63,10 @@ export function addTwitterScript(window) {
     addScript(window, "https://platform.twitter.com/widgets.js", { async: true, charset: "utf-8" });
 }
 
+export function addFlickrScript(window) {
+    addScript(window, "https://embedr.flickr.com/assets/client-code.js", { async: true, charset: "utf-8" });
+}
+
 /** Add a <script> to the head of the current document. */
 export function addScript(window, src, attributes = {}) {
     let script = window.document.createElement("script");
