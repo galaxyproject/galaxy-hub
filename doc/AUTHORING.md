@@ -12,7 +12,7 @@ You can use HTML in your `.md` files, but it's best to avoid it when possible. I
 ### HTML wrappers
 
 One common use for HTML is to get the layout you want. Usually you can do this by surrounding a bit of Markdown with a `<div>` styled how you'd like:
-```markdown
+```html
 <div class="float-right">
 
 ![alt text](./image.jpg)
@@ -39,7 +39,7 @@ This framework uses the [remark-attr](https://www.npmjs.com/package/remark-attr)
 If you'd like to resize your image in any other way (percentages, `max-width`, `height`, etc), you'll need to use a [`<div>` wrapper](#html-wrappers). Add the class `img-sizer` to the `<div>`, then resize it using the `style` attribute. Some CSS properties will work better than others: widths are the most reliable, `max-` or `min-` prefixes usually work, but heights can be tricky.
 
 Example:
-```
+```html
 <div class="img-sizer" style="width: 40%">
 
 ![alt text](./image.jpg)
@@ -48,6 +48,22 @@ Example:
 ```
 
 We are planning to get `remark-attr` working in more situations and with more attributes so you no longer have to use the `<div>` wrapper workaround.
+
+### Centering *and* resizing images
+
+Usually, you can just add the `.center` class to an element and it does the trick. But if you're using the method above to resize and image *and* you'd like to center it, there's an extra step.
+
+You'll have to wrap the `.img-sizer` div in another div, and then add `.center` to *that* div:
+```html
+<div class="center">
+  <div class="img-sizer" style="width: 750px">
+
+![alt text](./image.jpg)
+
+  </div>
+</div>
+```
+If you're curious, this is because the `.center` class sets `text-align: center` on its element, which causes its contents to move to its center. Just adding it to the same `<div>` you put `.img-sizer` on doesn't work for two reasons. The simpler issue is that the Markdown image will be wrapped in a `<p>`, which is a block element. `text-align: center` only works on inline elements. The other issue is that you also set the size of the `.img-sizer` `<div>` in its `style` attribute, and if you did it by `width`, that means that `<div>` is no longer the full width of the content. `text-align: center` puts the element's *contents* in the center of itself, but if the element itself is the same size as its contents, then there's nowhere for its contents to move to. So we need to create an additional parent element which remains full width and gets the `.center` class. Then its child (the `.img-sizer` `<div>`) can be resized smaller and find its place in the center of its parent.
 
 ## Helper classes
 

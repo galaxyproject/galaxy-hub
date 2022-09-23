@@ -305,6 +305,9 @@ div.indent {
 .center {
     text-align: center;
 }
+.center > div {
+    display: inline-block;
+}
 
 /* Link Boxes are like infobox's at wikipedia.  They are a list of links, in a box. */
 div.linkbox {
