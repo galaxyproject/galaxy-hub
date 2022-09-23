@@ -7,7 +7,7 @@ import DefaultLayout from "~/layouts/Default.vue";
 import LinkBox from "~/components/LinkBox.vue";
 import VegaEmbed from "~/components/VegaEmbed.vue";
 import MarkdownEmbed from "~/components/MarkdownEmbed.vue";
-import { Tweet, Timeline } from "vue-tweet-embed";
+import Twitter from "~/components/Twitter.vue";
 
 import BootstrapVue from "bootstrap-vue";
 
@@ -18,8 +18,7 @@ export default function (Vue, { router, head, isClient }) {
     Vue.component("LinkBox", LinkBox);
     Vue.component("VegaEmbed", VegaEmbed);
     Vue.component("MarkdownEmbed", MarkdownEmbed);
-    Vue.component("Tweet", Tweet);
-    Vue.component("Timeline", Timeline);
+    Vue.component("Twitter", Twitter);
 
     Vue.use(BootstrapVue);
     Vue.config.ignoredElements = ["gcse:search", "gcse:searchresults-only"];
