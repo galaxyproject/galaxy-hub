@@ -2,6 +2,7 @@
 title: Galaxy Proteomics
 autotoc: false
 gitter: usegalaxy-eu/Lobby
+components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -31,10 +32,7 @@ Welcome to **Galaxy Proteomics**
 
 </div>
 <div class="right" style="width: calc(50% - 12px); max-width: 400px">
-
-import Twitter from "@/components/Twitter";
-<Twitter width="100%" height="420" link="https://twitter.com/usegalaxyp?ref_src=twsrc%5Etfw">Tweets by usegalaxyp</Twitter>
-
+  <twitter user="usegalaxyp" :height="420"></twitter>
 </div>
 <div class="clearfix">
 </div>
