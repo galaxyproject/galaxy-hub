@@ -1,5 +1,7 @@
 <template>
-    <a :title="title" :href="link" data-flickr-embed="true" data-context="true"><slot></slot></a>
+    <a :title="title" :href="link" data-flickr-embed="true" data-context="true">
+        <img v-if="cover" :src="cover" :alt="title" :width="coverWidth" :height="coverHeight" />
+    </a>
 </template>
 
 <script>
@@ -9,6 +11,9 @@ export default {
     props: {
         link: { type: String, required: true },
         title: { type: String, required: false, default: "" },
+        cover: { type: String, required: false, default: "" },
+        coverWidth: { type: String, required: false, default: "" },
+        coverHeight: { type: String, required: false, default: "" },
     },
     mounted() {
         addFlickrScript(window);
