@@ -9,7 +9,7 @@ import { PathInfo } from "../lib/paths.mjs";
 export const CONTENT_TYPES = ["md", "vue", "insert", "resource"];
 const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
-const AUTODETECT_COMPONENTS = ["slot", "g-image", "link-box", "vega-embed", "markdown-embed", "tweet", "timeline"];
+const AUTODETECT_COMPONENTS = ["slot", "g-image", "link-box", "vega-embed", "markdown-embed", "twitter"];
 
 export class Partitioner {
     /** Create a `Partitioner`.
