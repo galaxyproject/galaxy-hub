@@ -16,7 +16,7 @@
                 <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
                 <template v-else>{{ article.location.name }}</template>
             </li>
-            <li v-if="article.contact || article.contacts">
+            <li v-if="hasContacts">
                 <span class="metakey">Contact: </span>
                 <Contacts :contact="article.contact" :contacts="article.contacts" />
             </li>
@@ -29,7 +29,9 @@
             </li>
         </ul>
         <section class="metadata freetext" v-else>
-            <p class="contact" v-if="article.contact">Contact: {{ article.contact }}</p>
+            <p class="contact" v-if="hasContacts">
+                Contact: <Contacts :contact="article.contact" :contacts="article.contacts" />
+            </p>
             <p class="authors" v-if="article.authors">By {{ article.authors }}</p>
             <p class="date" v-if="article.date">
                 {{ articleDateStr }}
@@ -109,6 +111,9 @@ export default {
                 return `/${this.article.category}/`;
             }
             return null;
+        },
+        hasContacts() {
+            return this.article.contact || (this.article.contacts && this.article.contacts.length > 0);
         },
         dateSpan() {
             if (this.article?.date !== this.article?.end) {
