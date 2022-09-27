@@ -14,7 +14,7 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 |               | Saskia Hiltemann & Helena Rasche | GTN Update | 20' |
 |               | Bérénice Batut | Galaxy Mentor Network | 5' |
 | 10:30 - 11:00 |   | *Coffee Break*   |   |
-| 11:00 - 12:30  |   | **Talks and presentations II** |   |
+| 11:00 - 12:30 |   | **Talks and presentations II** |   |
 |               | Hervé Ménager | ​The ELIXIR Tools Ecosystem | 20' |
 |               | Yvan Le Bras | Galaxy-E: Ecological data analysis, citizen science and biodiversity indicators production! | 20' |
 |               | Jason Gill | Use of Galaxy and Apollo for undergraduate genomics instruction | 20' |

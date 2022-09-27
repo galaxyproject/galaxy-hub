@@ -35,13 +35,13 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 Registration is free, but the space is limited, so we recommend to you register soon to secure your spot for the different events. 
 
-> If you want to give a talk (10-20') or have a demo, please register by **September 16**.
+> If you want to give a talk or have a demo, please register by **September 16**.
 
-> The registration for attendance will close on **September 23**.
+> The registration for attendance closed on **September 23**.
 
-<div class="row justify-content-center">
+<!-- <div class="row justify-content-center">
   <a class="btn w-25 btn-dark" href="https://bit.ly/egd2022-registration" role="button">Register now</a>
-</div>
+</div> -->
 
 <br><br>
 
