@@ -55,7 +55,7 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 |               | Marius van den Beek | Building a Galaxy workflow community | 20' |
 |               | Michael Crusoe | CWL & Galaxy | 5' |
 |               | Anup Kumar | Galaxy Jupyterlab for Artificial intelligence | 15' |
-|               | Gildas Le Corguillé | Updates from French health projects | 10' |
+|               | Gildas Le Corguillé | News from the French health projects EMERGEN (Covid19) and ABROmics (AntiBioResistance) | 15' |
 | 12:30 - 14:00 |   | *Lunch Break*  |   | 
 | 14:00 - 15:00 |   | **Birds of a Feather (Part 1)**  |   |
 | 15:00 - 15:30 |   | *Coffee Break*  |    |
