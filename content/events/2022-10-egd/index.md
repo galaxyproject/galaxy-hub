@@ -147,6 +147,9 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 - Option 1: Local train, take the Breisgau S-Bahn from Hauptbahnhof Freiburg to Gottenheim/Breisach to Neue Messe/Universität.
 - Option 2: Tram 4 direction Messe, stop “Technische Fakultät/Messe” (see [tram plan](http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html)).
 
+### Tram tickets for local transport
+
+[Here](https://www.vag-freiburg.de/tickets) you can find the types of tram tickets that VAG offers. The [2x4 rides ticket](https://www.vag-freiburg.de/tickets/einzel-und-tageskarten/2x4-fahrtenkarte) is a convenient option for several days and passengers.
 ### Lodging
 
 <!-- #### Pre-booked rooms
