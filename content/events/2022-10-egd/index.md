@@ -180,7 +180,27 @@ If you need assistance, please contact Kerstin Schultheis from the Freiburg Conv
 The European Galaxy Days will abide the [Galaxy Project Code of Conduct](https://galaxyproject.org/community/coc/). Please, make sure that you read it before the event.
 ### COVID-19 policy
 
-A policy compliant with the national regulations will be in place and announced prior to the event.
+In the context of the COVID-19 pandemic, there is no “zero risk” when it comes to any kind of gathering – especially events that bring groups of people together. To try to limit these risks as much as possible, the EGD team has enabled the following safety measures throughout the event. Please make sure to respect them and request support if at any given time you need it.
+
+**Rules and regulations**
+
+If you don’t feel well or show any symptoms of COVID-19, please avoid joining the event. Online participation is possible at all given times.
+If you choose to attend in person, please make sure you:  
+- wear a FFP2 mask during the conference sessions,
+- clean your hands frequently,
+- cover coughs and sneezes with bent elbow or tissues,
+- try to sit at a 1m distance from other people.
+
+**The EGD team will make sure that at all times:**
+- the rooms are properly ventilated and the window is open between sessions,
+- you may find disinfectant available at the Registration Desk,
+- we encourage you to bring your own mask, but just in case you do not have one, we can offer you one (please request one at the Registration Desk),
+in case you suddenly feel unwell and want to check your health status, we can provide you with a COVID-19 fast test. However, we kindly invite you not to come if you have pre-existent symptoms. 
+
+You may find more information about COVID-19 current restriction in Germany here:
+
+[Coronavirus in Germany (deutschland.de)](https://www.deutschland.de/en/news/coronavirus-in-germany-information)
+
 
 # Questions?
 
