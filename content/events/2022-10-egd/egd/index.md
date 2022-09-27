@@ -33,7 +33,7 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 |               | Simon	Gladman | Achieving scale in Galaxy with Pulsar | 15' |
 |               | María	Chavero | IMPaCT-Data Biomedical Cloud. An initial iteration for a federated virtual computing environment in the context of Precision Medicine in Spain using Galaxy | 20' |
 |               | Nate	Coraor | Gravity: Painless Process Management for Galaxy Servers | 15' |
-|               | Alireza Heidari | Multi-history view | 10' |
+|               | Alireza Heidari | New multi-history view | 10' |
 
 <br><br>
 ### Wednesday, October 5
