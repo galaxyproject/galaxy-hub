@@ -2,8 +2,10 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 
 ## Tentative Agenda
 
-**Location**: Building 101, room 00-026
+
 ### Tuesday, October 4
+
+**Location**: Building 101, room 00-026
 
 
 | Time |  Speaker  |  Title  |  Duration |
@@ -36,6 +38,9 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 
 <br><br>
 ### Wednesday, October 5
+
+**Location**: Building 101, room 00-026
+
 
 | Time |  Speaker  |  Title  |  Duration  |
 | ---- | -------- | ------ | ------- |
