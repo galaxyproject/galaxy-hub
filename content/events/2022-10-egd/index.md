@@ -115,8 +115,6 @@ Registration is free, but the space is limited, so we recommend to you register 
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/">ESG kick-off</a></strong><br><br><small>Discussions</small>
-      </td>
     </tr>
   </tbody>
 </table>
