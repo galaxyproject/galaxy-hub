@@ -35,13 +35,13 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 Registration is free, but the space is limited, so we recommend to you register soon to secure your spot for the different events. 
 
-> If you want to give a talk (10-20') or have a demo, please register by **September 16**.
+> If you want to give a talk or have a demo, please register by **September 16**.
 
-> The registration for attendance will close on **September 23**.
+> The registration for attendance closed on **September 23**.
 
-<div class="row justify-content-center">
+<!-- <div class="row justify-content-center">
   <a class="btn w-25 btn-dark" href="https://bit.ly/egd2022-registration" role="button">Register now</a>
-</div>
+</div> -->
 
 <br><br>
 
@@ -115,8 +115,6 @@ Registration is free, but the space is limited, so we recommend to you register 
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br> CoFest</a></strong>
         <br><br><small>Community hacking!</small>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/">ESG kick-off</a></strong><br><br><small>Discussions</small>
-      </td>
     </tr>
   </tbody>
 </table>
@@ -149,13 +147,16 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 - Option 1: Local train, take the Breisgau S-Bahn from Hauptbahnhof Freiburg to Gottenheim/Breisach to Neue Messe/Universität.
 - Option 2: Tram 4 direction Messe, stop “Technische Fakultät/Messe” (see [tram plan](http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html)).
 
+### Tram tickets for local transport
+
+[Here](https://www.vag-freiburg.de/tickets) you can find the types of tram tickets that VAG offers. The [2x4 rides ticket](https://www.vag-freiburg.de/tickets/einzel-und-tageskarten/2x4-fahrtenkarte) is a convenient option for several days and passengers.
 ### Lodging
 
-#### Pre-booked rooms
+<!-- #### Pre-booked rooms
 
 Through the Freiburg Convention Bureau, we have arranged a hotel contingent in nearby hotels. Rooms can be booked directly [online](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) in the period 03-07 Oct 2022. Extension nights are available on request and can be booked exclusively through the Freiburg Convention Bureau.
 
-If you need assistance, please contact Kerstin Schultheis from the Freiburg Convention Bureau [by email](mailto:groups@fwtm.de) or phone (+49 761 3881-1516).
+If you need assistance, please contact Kerstin Schultheis from the Freiburg Convention Bureau [by email](mailto:groups@fwtm.de) or phone (+49 761 3881-1516). -->
 
 #### City Center
 - [Stadthotel Freiburg](https://www.hotel-freiburg.de/de)
@@ -173,10 +174,6 @@ If you need assistance, please contact Kerstin Schultheis from the Freiburg Conv
 #### Faculty of engineering (close to the venue)
 - [Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)
 
-
-#### Pre-booked rooms
-
-A contingent of rooms has been blocked for these dates. Please [**use this link**](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) to book them.
 # Event rules and regulations
 ### CoC
 
