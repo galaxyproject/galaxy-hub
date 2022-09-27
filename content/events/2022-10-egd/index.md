@@ -149,11 +149,11 @@ Freiburg can be easily reached by train with the ICE from the North (via Frankfu
 
 ### Lodging
 
-#### Pre-booked rooms
+<!-- #### Pre-booked rooms
 
 Through the Freiburg Convention Bureau, we have arranged a hotel contingent in nearby hotels. Rooms can be booked directly [online](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) in the period 03-07 Oct 2022. Extension nights are available on request and can be booked exclusively through the Freiburg Convention Bureau.
 
-If you need assistance, please contact Kerstin Schultheis from the Freiburg Convention Bureau [by email](mailto:groups@fwtm.de) or phone (+49 761 3881-1516).
+If you need assistance, please contact Kerstin Schultheis from the Freiburg Convention Bureau [by email](mailto:groups@fwtm.de) or phone (+49 761 3881-1516). -->
 
 #### City Center
 - [Stadthotel Freiburg](https://www.hotel-freiburg.de/de)
@@ -171,10 +171,6 @@ If you need assistance, please contact Kerstin Schultheis from the Freiburg Conv
 #### Faculty of engineering (close to the venue)
 - [Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)
 
-
-#### Pre-booked rooms
-
-A contingent of rooms has been blocked for these dates. Please [**use this link**](https://tportal.tomas.travel/EuropeanGalaxyDays2022/ukv/?doSearch=1&date_from=03.10.2022&date_to=07.10.2022&number_adult[]=1&searchtext=Freiburg&rate=FIT00020071256464200&reset=1&lang=en) to book them.
 # Event rules and regulations
 ### CoC
 
