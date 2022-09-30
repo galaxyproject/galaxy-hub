@@ -24,7 +24,7 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 | 12:30 - 14:00 |   | *Lunch Break*  |  |
 | 14:00 - 15:00 |   | **ELIXIR-Galaxy Community meeting (Part 1)**  |   |
 |               | Melanie Föll | Galaxy wishlist from the mass spectrometry imaging community | 10' |
-|               | Bérénice Batut | DNAnalyze, an online & interactive game on DNA data analysisr | 5' |
+|               | Bérénice Batut | DNAnalyzer, an online & interactive game on DNA data analysis | 5' |
 |               | Marie Josse | From raw data to biodiversity indicators | 20' |
 |               | Nick	Stoler | ​The Global Hub: Your community's home on the web | 15' |
 | 15:00 - 15:30 |   | *Coffee Break*  |    |
