@@ -59,7 +59,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 
 ### [Type: cancelled by admin or a cluster failure](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_cluster_failure.html)
 
-### [Type: exceeds memory allocation](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_excess_memory.html)
+### [Type: exceeds memory allocation](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_excess_memory.html)
 
 ### [Type: execution exceeds maximum allowed job run time (walltime)](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_walltime.html)
 
