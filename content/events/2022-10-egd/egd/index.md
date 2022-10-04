@@ -48,7 +48,7 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 | 09:30 - 10:30 |   | **Talks and presentations III**   |  |
 |               | Helena Rasche | Updates from the crossover of Admin & Training | 20' |
 |               | Bérénice Batut | microGalaxy, the place to come for anything regarding microbial data analysis in Galaxy | 5' |
-|               | Beatriz Serrano-Solano | Imaging in Galaxy, is that even possible? | 10' |
+|               | Beatriz Serrano-Solano | Image analysis in Galaxy, is that even possible? | 10' |
 | 10:30 - 11:00 |   | *Coffee Break* |   |
 | 11:00 - 12:30 |   | **Talks and presentations IV**  |   |
 |               | Paul De Geest | Improving Galaxy provenance export using RO-Crate | 20' |
