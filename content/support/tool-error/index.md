@@ -57,7 +57,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 
 ### [Type: input problems](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_input_problem.html)
 
-### [Type: cancelled by admin or a cluster failure](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_cluster_failure.html)
+### [Type: cancelled by admin or a cluster failure](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_cluster_failure.html)
 
 ### [Type: exceeds memory allocation](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_excess_memory.html)
 
