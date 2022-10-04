@@ -3,7 +3,7 @@
 ---
 [Back to Support Hub](/support/)
 
-# [Registering for a Galaxy account](https://training.galaxyproject.org/training-material/faqs/galaxy/galaxy_creating_an_account.html)
+# [Registering for a Galaxy account](https://training.galaxyproject.org/training-material/faqs/galaxy/account_create.html)
 
 
 # [Updating account preferences](https://training.galaxyproject.org/training-material/faqs/galaxy/updating_account_preferences.html)
