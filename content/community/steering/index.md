@@ -77,8 +77,6 @@ Please contact the committee member leading the project if you would like to lea
     * [Compute Canada](https://bioinformatics.computecanada.ca/), [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**
     * [Johns Hopkins University](https://jhu.edu), United States
-* **[Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame/hrhotz/)**
-    * [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/), Switzerland
 * **[Hervé Menager](https://research.pasteur.fr/en/member/herve-menager/)**
     * [Institut Pasteur](https://pasteur.fr/), France
 * **[Nancy Ide](https://www.cs.vassar.edu/~ide/)**
