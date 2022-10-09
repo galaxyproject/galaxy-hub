@@ -58,6 +58,10 @@ Today we're unveiling the new subsites, which you can find in the "Regions" drop
 
 As always, please let us know if you have feedback or see anything amiss. You can file an issue on [Github](https://github.com/galaxyproject/galaxy-hub/issues), or contact us on [Gitter](https://gitter.im/galaxyproject/hub2), [Matrix](https://matrix.to/#/#galaxyproject_hub2:gitter.im), or [email](mailto:outreach@galaxyproject.org?subject=Global%20Hub%20issue).
 
+## Want your own subsite?
+
+We have some tips on how to create a subsite for your own community [here](/hub/global/). And we're continuing to add to the documentation, so if you don't find what you need, it may be there the next week. Not sure if a subsite fits your needs? Contact us through any of the methods above and we'd be happy to help.
+
 ## Thanks
 
 I'd like to give a special thanks to Björn Grüning, Dannon Baker, Beatriz Serrano-Solano, and Helena Rasche for their support in this effort.
