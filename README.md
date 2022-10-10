@@ -1,22 +1,10 @@
 # Galaxy Community Hub
 
-Source for the [Galaxy Hub Website
-(galaxyproject.org)](https://galaxyproject.org/).  The Galaxy Hub is the
-community and documentation hub for the Galaxy Project.  It is maintained by
-the community through this GitHub repository.
+This is the repository for the [Galaxy Community Hub](https://galaxyproject.org) website (galaxyproject.org). The Galaxy Community Hub is the community and documentation hub for the Galaxy Project. It is maintained by the community through this GitHub repository.
 
 ## About the Galaxy Project.
 
-We could describe it here, but really, see the web site that is generated from
-this repository: [galaxyproject.org](https://galaxyproject.org).  That will
-save a lot of typing.
-
-## Should I access the Galaxy Hub website through GitHub or  galaxyproject.org?
-
-The only reason to navigate through the GitHub is if you are making updates to
-the web site, and for that you will find instructions below.  If you just want to
-read and explore the web site, then you should absolutely do that through
-[galaxyproject.org](https://galaxyproject.org).
+We could describe it here, but really, see the web site that is generated from this repository: [galaxyproject.org](https://galaxyproject.org). That will save a lot of typing.
 
 ## Getting started
 
