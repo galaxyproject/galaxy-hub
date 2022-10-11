@@ -75,7 +75,7 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 | Member | Pronouns | Language | Location | Joined the project (year) | Relevant information |
 | --- | --- | --- | --- | --- | --- |
 | [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2020 | Member of the [Galaxy Working Groups](/community/wg/): Backend, User Interface / User Experience, GOATS |
-| [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2020 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
+| [Michelle Savage](mailto:msavage@jhu.edu) | she/her | EN | US | 2021 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
 | [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL, EN, FR | BE | 2015 | Member of the [Galaxy Executive Board](/community/exec/) |
 | [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 2013 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project, member of the GOATS [Galaxy Working Group](/community/wg/) |
 | [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 2006 | Retired, not funded by the Galaxy project, member of the [Galaxy Executive Board](/community/exec/) |
@@ -99,3 +99,10 @@ That code of conduct served us reasonably well over the years, but it is time fo
 As a result it is past time to update both our code of conduct and our process for maintaining it.  The first step in that was to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
 
 The Galaxy Outreach, Training and Support [Working Group](/community/wg/) has worked on a first draft of a new Code and new processes. The final Code and processes were adopted after being discussed, revised, and approved by the community.
+
+#### Former members of the CoC Committee
+
+| Member | Pronouns | Language | Location | Joined the project (year) | Relevant information |
+| --- | --- | --- | --- | --- | --- |
+| [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2020 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
+
