@@ -56,12 +56,11 @@ The PMO is not aiming at managing grant resources or increasing the bureaucracy 
 ## PMO Membership
 
 * **[Natalie Kucher](https://github.com/nakucher)**
-* **[Beatriz Serrano-Solano](https://github.com/beatrizserrano)**
 * **[Jennifer Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)**
 * **[Enis Afgan](https://github.com/afgane)**
 
 ## Former Members
 
 * **[Assunta DeSanto](https://github.com/assuntad23)**
-
+* **[Beatriz Serrano-Solano](https://github.com/beatrizserrano)**
 
