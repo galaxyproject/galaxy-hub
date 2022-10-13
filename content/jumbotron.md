@@ -6,7 +6,7 @@ title: Announcements
   <div class="col-1"></div>
   <div class="col-10">
 
-[![The European Galaxy Days](/events/2022-10-egd/egd-deadlines.png)](/events/2022-10-egd/)
+[![Present at community calls](/images/community-call-frontpage.png)](/community/community-calls/)
 
   </div>
   <div class="col-1"></div>
