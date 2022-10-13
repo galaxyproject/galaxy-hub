@@ -17,6 +17,7 @@ We will have some community updates followed by a presentation on [**Muon Scienc
 
 **Please [join us via zoom](https://uni-freiburg.zoom.us/j/65475741866?pwd=SjJ5V2MyOHlwVENZOVNvcnNJL3FJZz09) at 3 pm UTC** ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+community+call&iso=20221013T15)) for an open discussion.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/orQQf03Sv2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
