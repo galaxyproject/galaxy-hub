@@ -70,4 +70,4 @@ Please suggest topics to discuss during the Birds of a Feather [here](https://do
 | ---- | ------ | ------- |
 | 09:30 - 17:30 | CoFest   | SR01-016/018 (first floor) |
 
-Please suggest topics to discuss/work on during the CoFest [here](https://tinyurl.com/EGD2022COFEST)
+Please suggest topics to discuss/work on during the CoFest [here](https://tinyurl.com/EGD2022COFEST).
