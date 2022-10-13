@@ -55,15 +55,15 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 * The majority of submitted reports are not true software bugs. **Usage problems involving incorrect input format or content cause most errors**.
 * Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/support/troubleshoot-an-error/). Sharing details about what you checked is always helpful.
 
-### [Type: input problems](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_input_problem.html)
+### [Type: input problems](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_input_problem.html)
 
-### [Type: cancelled by admin or a cluster failure](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_cluster_failure.html)
+### [Type: cancelled by admin or a cluster failure](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_cluster_failure.html)
 
-### [Type: exceeds memory allocation](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_excess_memory.html)
+### [Type: exceeds memory allocation](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_excess_memory.html)
 
-### [Type: execution exceeds maximum allowed job run time (walltime)](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_walltime.html)
+### [Type: execution exceeds maximum allowed job run time (walltime)](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_walltime.html)
 
-### [Type: ValueError: invalid literal for int() with base 10](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_job_failure_value_error.html)
+### [Type: ValueError: invalid literal for int() with base 10](https://training.galaxyproject.org/training-material/faqs/galaxy/troubleshooting_value_error.html)
 
 ### Type: Tool and software problems
 

@@ -46,7 +46,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/main/):
 
 To know more about unsharing unwanted histories, follow [this FAQ](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_unsharing_histories.html). 
 
-### [Reduce quota usage while still retaining prior work (data, tools, methods)](https://training.galaxyproject.org/training-material/faqs/galaxy/reduce_quota_usage.html)
+### [Reduce quota usage while still retaining prior work (data, tools, methods)](https://training.galaxyproject.org/training-material/faqs/galaxy/account_reduce_quota_usage.html)
 
 
 ## Use-cases for managing data
