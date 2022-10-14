@@ -47,6 +47,10 @@ It is a two-month mentoring program designed for Galaxy community members to com
 
 [Outreachy](https://www.outreachy.org/) provides internships in open source and open science for people subject to systemic bias and impacted by underrepresentation in the technical industry where they are living. Outreachy internship projects may include programming, research, user experience, documentation, graphical design, data science, marketing, user advocacy, or event planning.
 
+### Well-being and Mental Health Guideline
+
+It is a guideline developed as part of the Outreachy program, which focused on developing a culture of well-being in the community. The guideline addresses well-being and mental health in open-source communities by focusing on common challenges faced in open-source that affect mental health and well-being. It is designed to increase awareness about well-being and mental health in the communities, as well as promote it by providing recommendations and resources to those common challenges. You can access it through this [**link**](https://doi.org/10.5281/zenodo.7194426) on Zenodo.
+
 ## Bioconductor
 
 <img class="float-right" style="max-width: 15rem;" src="/images/logos/BioconductorLogo.gif" alt="Bioconductor logo" />
