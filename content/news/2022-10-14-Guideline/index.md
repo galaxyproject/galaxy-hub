@@ -9,4 +9,4 @@ As part of the Outreachy internship, we started a well-being and mental health p
 
 The well-being and mental health guideline was one of the main project deliverables aimed at addressing well-being and mental health in open-source communities by focusing on common challenges faced in open-source that affect mental health and well-being. It is designed to increase awareness about well-being and mental health in the communities, as well as promote it by providing recommendations and resources to those common challenges.
 
-Feel free to check out the guideline [**here**](/content/community/index.md) on the community page and on Zenodo through this [**link**](https://doi.org/10.5281/zenodo.7194426).
+Feel free to check out the guideline [**here**](/community/#well-being-and-mental-health-guideline) on the community page and on Zenodo through this [**link**](https://doi.org/10.5281/zenodo.7194426).
