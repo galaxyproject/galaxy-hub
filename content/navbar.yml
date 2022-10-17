@@ -52,7 +52,7 @@ right:
             target: "/citing-galaxy/"
           - label: Branding
             target: "/images/galaxy-logos/"
-    - label: Projects
+    - label: Applications
       contents:
           - label: COVID-19
             target: "/projects/covid19/"
