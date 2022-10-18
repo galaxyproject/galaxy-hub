@@ -20,4 +20,4 @@ title: Regional Communities
 
 # Set up your own community
 
-What if you can't find yourself in this list of regional communities practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads/) on how to set up your own.
+What if you can't find yourself in this list of regional communities? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads/) on how to set up your own.
