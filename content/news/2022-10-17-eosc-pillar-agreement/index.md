@@ -9,11 +9,11 @@ author_github: beatrizserrano
 
 <div class="float-right">
 
-[![first page](first_page.png){width=350}](./scientific-collaboration-agreement-signed.pdf)
+[![first page](first_page.png){width=350}](/media/../../../media/scientific-collab-agreement-eosc-pillar-eosc-life.pdf)
 
 </div>
 
-The Galaxy community has been working on yet another scientific collaboration agreement between projects of the European Open Science Cloud (EOSC), this time between [EOSC-Pillar](https://www.eosc-pillar.eu/) and [EOSC-Life](https://www.eosc-life.eu/) (see the full document [here](./scientific-collaboration-agreement-signed.pdf)). 
+The Galaxy community has been working on yet another scientific collaboration agreement between projects of the European Open Science Cloud (EOSC), this time between [EOSC-Pillar](https://www.eosc-pillar.eu/) and [EOSC-Life](https://www.eosc-life.eu/) (see the full document [here](/media/../../../media/scientific-collab-agreement-eosc-pillar-eosc-life.pdf)). 
 
 With this new agreement, Galaxy positions itself as a cross-EOSC platform, capable of performing analyses that meet the needs of different scientific disciplines across the EOSC.
 
