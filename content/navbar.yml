@@ -21,9 +21,9 @@ right:
           - label: The Galaxy Community
             target: "/community/"
           - label: Regional communities
-            target: "/community/regional-communities"
+            target: "/community/regional"
           - label: Communities of Practice
-            target: "/community/communities-of-practice"
+            target: "/community/practice"
           - label: Blog
             target: "/blog/"
           - label: Governance
