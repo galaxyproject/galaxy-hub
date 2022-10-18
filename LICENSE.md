@@ -1,7 +1,7 @@
-Copyright (c) 2005-2022 Galaxy Hub Contributors (see contribution history)
+Copyright (c) 2005-2022 Galaxy Project
 
-The [contents](/contents/) of the Galaxy Hub are licensed under the [Creative
-Commons Attribution 4.0 International
+The [content](/content/) (i.e. the source markdown and images) of the Galaxy
+Hub is licensed under the [Creative Commons Attribution 4.0 International
 License](https://creativecommons.org/licenses/by/4.0).
 
 The code behind the infrastructure is licensed under the MIT License, included
