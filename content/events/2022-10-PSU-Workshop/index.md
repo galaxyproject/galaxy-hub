@@ -20,7 +20,7 @@ autotoc: false
 ------
 
 <div class="alert alert-info" role="alert">
-  Free registration is <b>required</b> for this workshop. This will allow us to prepare well and make it as effective as possible. Please use this form to register.
+  Free registration is <b>required</b> for this workshop. This will allow us to prepare well and make it as effective as possible. Please use <a href="https://forms.gle/uoiVHyknURmBMK5z5">[this form]</a> to register.
 </div>
 
 This workshop is for you if:
@@ -47,13 +47,11 @@ The workshop will be divided in six parts. The first five cover analysis of data
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.2858093691607!2d-77.8625461!3d40.79971279999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cea62080da5513%3A0x646243af38221be1!2sWartik%20Laboratory%2C%20State%20College%2C%20PA%2016801!5e0!3m2!1sen!2sus!4v1666294859871!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-
-
 ## Food
 
 -----
 
-This is an in person workshop. We will provide snacks. In order to know how much food to order we ask you to register here. 
+This is an in person workshop. We will provide snacks. In order to know how much food to order we ask you to [register here](https://forms.gle/uoiVHyknURmBMK5z5). 
 
 
 
