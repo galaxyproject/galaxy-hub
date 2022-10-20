@@ -53,6 +53,8 @@ The workshop will be divided in six parts. The first five cover analysis of data
 
 This is an in person workshop. We will provide snacks. In order to know how much food to order we ask you to [register here](https://forms.gle/uoiVHyknURmBMK5z5). 
 
+*This workshop is sponsored by the [Huck Institutes of the Life Sciences](https://www.huck.psu.edu/) at Penn State.*
+
 
 
 
