@@ -141,7 +141,7 @@ look at the provider-specific pages for how to configure it.
         <client_id>custos-xmn3092m8tkh7546hv76-10000001</client_id>
         <client_secret>15Ur37stVGwvONALNjjq89ezRXxoKuunFzvEeTDY</client_secret>
         <redirect_uri>http://localhost:8000/authnz/custos/callback</redirect_uri>
-        <url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/</url>
+        <url>https://dev.custos.usecustos.org/apiserver/identity-management/v1.0.0/</url>
     </provider>
 </OIDC>
 ```
