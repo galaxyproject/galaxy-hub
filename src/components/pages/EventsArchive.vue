@@ -58,7 +58,7 @@ query($subsite: String, $mainPath: String, $footerPath: String) {
         title
         content
     }
-    events: allArticle(
+    events: allParentArticle(
         sortBy: "date", order: DESC, filter: {
             subsites: {contains: [$subsite]}, category: {eq: "events"},
             has_date: {eq: true}, days_ago: {gt: 364}, draft: {ne: true}

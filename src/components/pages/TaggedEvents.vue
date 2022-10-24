@@ -78,7 +78,7 @@ query($tag: String, $mainPath: String, $footerPath: String) {
         title
         content
     }
-    upcoming: allArticle(
+    upcoming: allParentArticle(
         sortBy: "date", order: ASC, filter: {
             category: {eq: "events"}, tags: {contains: [$tag]}, draft: {ne: true},
             has_date: {eq: true}, days_ago: {lte: 0}
@@ -91,7 +91,7 @@ query($tag: String, $mainPath: String, $footerPath: String) {
             }
         }
     }
-    recent: allArticle(
+    recent: allParentArticle(
         sortBy: "date", order: DESC, filter: {
             category: {eq: "events"}, tags: {contains: [$tag]}, draft: {ne: true},
             has_date: {eq: true}, days_ago: {between: [1, 365]}
@@ -105,7 +105,7 @@ query($tag: String, $mainPath: String, $footerPath: String) {
         }
     }
 }
-fragment articleFields on Article {
+fragment articleFields on ParentArticle {
     id
     title
     tease

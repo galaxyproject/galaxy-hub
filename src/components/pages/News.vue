@@ -44,7 +44,7 @@ query($subsite: String, $mainPath: String) {
             path
         }
     }
-    articles: allArticle(
+    articles: allParentArticle(
             sortBy: "date", order: DESC, filter: {
                 category: {eq: "news"}, subsites: {contains: [$subsite]}, draft: {ne: true}
             }
