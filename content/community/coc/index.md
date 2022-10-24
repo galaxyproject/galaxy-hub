@@ -75,7 +75,7 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 | Member | Pronouns | Language | Location | Joined the project (year) | Relevant information |
 | --- | --- | --- | --- | --- | --- |
 | [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2020 | Member of the [Galaxy Working Groups](/community/wg/): Backend, User Interface / User Experience, GOATS |
-| [Michelle Savage](mailto:msavage@jhu.edu) | she/her | EN | US | 2021 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
+| [Michelle Savage](mailto:michellesavage.galaxy@gmail.com) | she/her | EN | US | 2022 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
 | [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL, EN, FR | BE | 2015 | Member of the [Galaxy Executive Board](/community/exec/) |
 | [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 2013 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project, member of the GOATS [Galaxy Working Group](/community/wg/) |
 | [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 2006 | Retired, not funded by the Galaxy project, member of the [Galaxy Executive Board](/community/exec/) |
