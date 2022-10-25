@@ -11,6 +11,7 @@ const dayjs = require("dayjs");
 var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
+const { cloneDeep } = require("lodash");
 const { imageType } = require("gridsome/lib/graphql/types/image");
 const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes } = require("./src/lib/utils.js");
 const { subsiteFromPath, getPathPrefix } = require("./src/lib/site.js");
@@ -262,12 +263,17 @@ class nodeModifier {
         api.loadSource((actions) => {
             let parentArticles = actions.getCollection("ParentArticle");
             let newNode = {
-                id: node.id + "-parent",
-                child_type: typeName
+                source_type: typeName,
+                internal: {
+                    origin: node.internal.origin,
+                    mimeType: node.internal.mimeType,
+                    // If you include the `content` too, the node appears to get re-parsed and ends up
+                    // with the original metadata values (before the edits done by `processNonInsert()`).
+                }
             };
             for (let [key, value] of Object.entries(node)) {
-                if (key !== "$uid") {
-                    newNode[key] = value;
+                if (! (key.startsWith("$") || key === "id" || key === "internal")) {
+                    newNode[key] = cloneDeep(value);
                 }
             }
             parentArticles.addNode(newNode);
