@@ -3,6 +3,7 @@
         <g-link v-if="article.category" :to="categoryIndex" class="link">
             &larr; Back to <span class="text-capitalize">{{ article.category }}</span>
         </g-link>
+        <div v-if="article.pretitle" class="pretitle markdown" v-html="mdToHtml(article.pretitle)" />
         <Redirect v-if="article.redirect" :url="article.redirect" :location="this.location" />
         <div class="clearfix"></div>
         <g-image v-if="article.image" class="img-fluid main-image" :src="image" />
@@ -48,7 +49,7 @@
 <script>
 import Redirect from "@/components/Redirect";
 import Contacts from "@/components/Contacts";
-import { ensureDomain, humanDateSpan } from "~/lib/utils.js";
+import { ensureDomain, humanDateSpan, mdToHtml } from "~/lib/utils.js";
 import { getImage } from "~/lib/pages.mjs";
 import CONFIG from "~/../config.json";
 import * as dayjs from "dayjs";
@@ -94,6 +95,9 @@ export default {
     },
     props: {
         article: { type: Object, required: true },
+    },
+    methods: {
+        mdToHtml,
     },
     data() {
         return {

@@ -1,10 +1,9 @@
 ---
+pretitle: "[Back to Advanced Workflow](/learn/advanced-workflow/)"
 title: Extract Workflow from a History
 ---
 
 <slot name="/learn/linkbox" />
-
-[Back to Advanced Workflow](/learn/advanced-workflow/)
 
 ## Why extract a workflow?
 

@@ -1,10 +1,9 @@
 ---
+pretitle: "[Back to Advanced Workflow](/learn/advanced-workflow/)"
 title: Workflow Variables
 ---
 
 <slot name="/learn/linkbox" />
-
-[Back to Advanced Workflow](/learn/advanced-workflow/)
 
 ## Where are variables used?
 

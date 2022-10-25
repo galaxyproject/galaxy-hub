@@ -1,5 +1,6 @@
 ---
 title: Authoring Guide
+pretitle: "[← Back to Hub documentation](/hub/)"
 ---
 
 These are some tips for writing the Markdown for your articles.

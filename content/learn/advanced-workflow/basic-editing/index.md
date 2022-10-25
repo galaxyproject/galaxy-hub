@@ -1,12 +1,9 @@
 ---
+pretitle: "[Back to Advanced Workflow](/learn/advanced-workflow/)"
 title: Basic Workflow Editing
 ---
 
 <slot name="/learn/linkbox" />
-
-[Back to Advanced Workflow](/learn/advanced-workflow/)
-
-<br />
 
 ## Why edit a workflow?
 

@@ -1,12 +1,10 @@
 ---
-name: "Tutorial: Basic Editing"
+pretitle: |
+  [Back to Basic Editing](/learn/advanced-workflow/basic-editing/)  
+  [Back to Advanced Workflow](/learn/advanced-workflow/)
+title: "Tutorial: Basic Editing"
 ---
 # **** IN PROGRESS DO NOT USE ****
-
-<br />
-[Back to Basic Editing](/learn/advanced-workflow/basic-editing/)
-<br />
-[Back to Advanced Workflow](/learn/advanced-workflow/)
 
 ## 3 Top Workflow Edits
 
