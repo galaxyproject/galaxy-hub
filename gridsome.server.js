@@ -530,7 +530,7 @@ module.exports = function (api) {
     api.createPages(async ({ graphql }) => {
         eventsData = await graphql(`
             query {
-                allArticle(filter: { category: { eq: "events" } }) {
+                allParentArticle(filter: { category: { eq: "events" } }) {
                     totalCount
                     edges {
                         node {
@@ -588,7 +588,7 @@ module.exports = function (api) {
 
 function makeCalendar(eventsData) {
     let events = [];
-    for (let event of eventsData.data.allArticle.edges) {
+    for (let event of eventsData.data.allParentArticle.edges) {
         event = event.node;
         if (event.date) {
             const evt = {};

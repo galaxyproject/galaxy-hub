@@ -148,7 +148,7 @@ query {
             }
         }
     }
-    news: allArticle(
+    news: allParentArticle(
         limit: 5, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
     ) {
         totalCount
@@ -158,7 +158,7 @@ query {
             }
         }
     }
-    events: allArticle(
+    events: allParentArticle(
         limit: 5, sortBy: "date", order: ASC,
         filter: {
             category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
@@ -174,7 +174,7 @@ query {
             }
         }
     }
-    blog: allArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
+    blog: allParentArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
         totalCount
         edges {
             node {
@@ -182,7 +182,7 @@ query {
             }
         }
     }
-    careers: allArticle(
+    careers: allParentArticle(
         limit: 5, sortBy: "date", order: DESC, filter: {
             category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
         }
@@ -203,7 +203,7 @@ query {
         }
     }
 }
-fragment articleFields on Article {
+fragment articleFields on ParentArticle {
     id
     title
     tease

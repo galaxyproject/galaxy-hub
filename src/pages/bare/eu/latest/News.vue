@@ -26,7 +26,7 @@ export default {
 
 <page-query>
 query {
-    news: allArticle(
+    news: allParentArticle(
         limit: 5, filter: {category: {eq: "news" }, subsites: {contains: ["eu"]}, draft: {ne: true}}
     ) {
         totalCount

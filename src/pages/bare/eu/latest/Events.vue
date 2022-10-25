@@ -33,7 +33,7 @@ export default {
 
 <page-query>
 query {
-    events: allArticle(
+    events: allParentArticle(
         limit: 5, sortBy: "date", order: ASC,
         filter: {
             category: {eq: "events"}, subsites: {contains: ["eu"]}, has_date: {eq: true}, days_ago: {lte: 0},

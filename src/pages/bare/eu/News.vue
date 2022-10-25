@@ -41,7 +41,7 @@ query {
             path
         }
     }
-    articles: allArticle(
+    articles: allParentArticle(
             sortBy: "date", order: DESC, filter: {
                 category: {eq: "news"}, subsites: {contains: ["eu"]}, draft: {ne: true}
             }

@@ -38,7 +38,7 @@ query {
             path
         }
     }
-    articles: allArticle(
+    articles: allParentArticle(
             sortBy: "date", order: DESC, filter: {category: {eq: "news"}, draft: {ne: true}}
         ) {
         totalCount
