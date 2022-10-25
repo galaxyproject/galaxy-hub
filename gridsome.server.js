@@ -269,10 +269,10 @@ class nodeModifier {
                     mimeType: node.internal.mimeType,
                     // If you include the `content` too, the node appears to get re-parsed and ends up
                     // with the original metadata values (before the edits done by `processNonInsert()`).
-                }
+                },
             };
             for (let [key, value] of Object.entries(node)) {
-                if (! (key.startsWith("$") || key === "id" || key === "internal")) {
+                if (!(key.startsWith("$") || key === "id" || key === "internal")) {
                     newNode[key] = cloneDeep(value);
                 }
             }
@@ -391,7 +391,7 @@ module.exports = function (api) {
          *      This is supposed to be fixed by Gridsome 1.0.
          */
         actions.addCollection({
-            typeName: "ParentArticle"
+            typeName: "ParentArticle",
         });
         for (let type of ARTICLE_TYPES) {
             actions.addSchemaTypes(
