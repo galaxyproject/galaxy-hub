@@ -31,6 +31,10 @@ This workshop is for you if:
 - Work in computational chemistry
 
 The workshop will be divided in six parts. The first five cover analysis of data from the standpoint of researchers who generate and analyze the data.  The last part is aimed at developers who want to integrate their tools into Galaxy or develop automated analyses utilizing Galaxy workflows and infrastructure. 
+
+<div class="alert alert-success" role="alert">
+  All workshops will begin promptly at 2 pm (14:00)!
+</div>
  
 | When?        | What? |
 | ----------- | ----------- |
