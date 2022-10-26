@@ -11,10 +11,13 @@ const dayjs = require("dayjs");
 var toArray = require("dayjs/plugin/toArray");
 dayjs.extend(toArray);
 const ics = require("ics");
+const { cloneDeep } = require("lodash");
 const { imageType } = require("gridsome/lib/graphql/types/image");
 const { repr, rmPrefix, rmSuffix, getType, matchesPrefixes } = require("./src/lib/utils.js");
 const { subsiteFromPath, getPathPrefix } = require("./src/lib/site.js");
 const CONFIG = require("./config.json");
+// All normal article types which should be grouped into ParentArticles.
+const ARTICLE_TYPES = ["ParentArticle", "Article", "VueArticle"];
 const COLLECTION_TYPES = {
     Article: "md",
     VueArticle: "vue",
@@ -184,24 +187,31 @@ function getSubsites(rawSubsites, mainSubsite, pagePath) {
 }
 
 class nodeModifier {
-    static processNewNode(node, collection, typeName) {
+    static processNewNode(node, collection, api) {
+        let typeName = node.internal.typeName;
+        node.filename = node.fileInfo.name;
         if (this.collectionProcessors[typeName]) {
-            node = this.collectionProcessors[typeName](node, collection);
+            node = this.collectionProcessors[typeName](node);
         }
         if (node === null) {
             return node;
         }
+        // Process all regular, Markdown-based collections except Inserts.
+        // Ones with no entry in COLLECTION_TYPES aren't regular, Markdown-based collections.
         if (typeName !== "Insert" && COLLECTION_TYPES[typeName]) {
-            // Process all regular, Markdown-based collections except Inserts.
-            // Ones with no entry in COLLECTION_TYPES aren't regular, Markdown-based collections.
-            node = this.processNonInsert(node, collection, typeName);
+            node = this.processNonInsert(node);
         }
         if (COLLECTION_TYPES[typeName] === "vue") {
-            node = this.processVueType(node, collection, typeName);
+            node = this.processVueType(node, collection);
+        }
+        // Create a ParentArticle and copy all data for this article into it.
+        // This should go last or it won't get the final versions of all the metadata values.
+        if (ARTICLE_TYPES.includes(typeName) && typeName !== "ParentArticle") {
+            node = this.processArticleType(node, typeName, api);
         }
         return node;
     }
-    static processNonInsert(node, collection, typeName) {
+    static processNonInsert(node) {
         if (node.filename !== "index") {
             // All Markdown files should be named `index.md`, unless it's an `Insert`.
             // `vue-remark` doesn't offer enough filtering to exclude non-index.md files from collection
@@ -249,7 +259,28 @@ class nodeModifier {
         }
         return node;
     }
-    static processVueType(node, collection, typeName) {
+    static processArticleType(node, typeName, api) {
+        api.loadSource((actions) => {
+            let parentArticles = actions.getCollection("ParentArticle");
+            let newNode = {
+                source_type: typeName,
+                internal: {
+                    origin: node.internal.origin,
+                    mimeType: node.internal.mimeType,
+                    // If you include the `content` too, the node appears to get re-parsed and ends up
+                    // with the original metadata values (before the edits done by `processNonInsert()`).
+                },
+            };
+            for (let [key, value] of Object.entries(node)) {
+                if (!(key.startsWith("$") || key === "id" || key === "internal")) {
+                    newNode[key] = cloneDeep(value);
+                }
+            }
+            parentArticles.addNode(newNode);
+        });
+        return node;
+    }
+    static processVueType(node, collection) {
         // Find and link Inserts.
         // Note: `._store` is technically not a stable API, but it's unlikely to go away and there's
         // almost no other way to do this.
@@ -269,11 +300,11 @@ class nodeModifier {
     }
     static collectionProcessors = {
         // Actions to take for specific collections.
-        Insert: function (node, collection) {
+        Insert: function (node) {
             node.name = rmSuffix(rmPrefix(node.path, "/insert:"), "/");
             return node;
         },
-        Dataset: function (node, collection) {
+        Dataset: function (node) {
             let pathParts = node.path.split("/");
             if (!node.path.startsWith("/dataset:")) {
                 console.error(`Dataset path doesn't start with /dataset: (${node.path})`);
@@ -359,8 +390,10 @@ module.exports = function (api) {
          *      added this way: https://github.com/gridsome/gridsome/issues/1196
          *      This is supposed to be fixed by Gridsome 1.0.
          */
-        const articleTypes = ["Article", "VueArticle"];
-        for (let type of articleTypes) {
+        actions.addCollection({
+            typeName: "ParentArticle",
+        });
+        for (let type of ARTICLE_TYPES) {
             actions.addSchemaTypes(
                 actions.schema.createObjectType({
                     name: type,
@@ -378,7 +411,7 @@ module.exports = function (api) {
                 })
             );
         }
-        let collections = articleTypes.concat(Object.keys(CONFIG.collections));
+        let collections = ARTICLE_TYPES.concat(Object.keys(CONFIG.collections));
         let schemas = {};
         for (let collection of collections) {
             schemas[collection] = {
@@ -405,9 +438,7 @@ module.exports = function (api) {
 
     // Populate the derived fields.
     api.onCreateNode((node, collection) => {
-        let typeName = node.internal.typeName;
-        node.filename = node.fileInfo.name;
-        return nodeModifier.processNewNode(node, collection, typeName);
+        return nodeModifier.processNewNode(node, collection, api);
     });
 
     // Programmatically generate repetitive pages.
@@ -499,7 +530,7 @@ module.exports = function (api) {
     api.createPages(async ({ graphql }) => {
         eventsData = await graphql(`
             query {
-                allArticle(filter: { category: { eq: "events" } }) {
+                allParentArticle(filter: { category: { eq: "events" } }) {
                     totalCount
                     edges {
                         node {
@@ -557,7 +588,7 @@ module.exports = function (api) {
 
 function makeCalendar(eventsData) {
     let events = [];
-    for (let event of eventsData.data.allArticle.edges) {
+    for (let event of eventsData.data.allParentArticle.edges) {
         event = event.node;
         if (event.date) {
             const evt = {};

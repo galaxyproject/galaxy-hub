@@ -124,7 +124,7 @@ query($subsite: String, $cardsPath: String, $insertRegex: String) {
             }
         }
     }
-    news: allArticle(
+    news: allParentArticle(
         limit: 5, filter: {category: {eq: "news" }, subsites: {contains: [$subsite]}, draft: {ne: true}}
     ) {
         totalCount
@@ -134,7 +134,7 @@ query($subsite: String, $cardsPath: String, $insertRegex: String) {
             }
         }
     }
-    events: allArticle(
+    events: allParentArticle(
         limit: 5, sortBy: "date", order: ASC,
         filter: {
             category: {eq: "events"}, subsites: {contains: [$subsite]}, has_date: {eq: true}, days_ago: {lte: 0},
@@ -151,7 +151,7 @@ query($subsite: String, $cardsPath: String, $insertRegex: String) {
         }
     }
 }
-fragment articleFields on Article {
+fragment articleFields on ParentArticle {
     id
     title
     tease

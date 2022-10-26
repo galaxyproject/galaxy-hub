@@ -77,7 +77,7 @@ query {
             path
         }
     }
-    upcoming: allArticle(
+    upcoming: allParentArticle(
         sortBy: "date", order: ASC, filter: {
             category: {eq: "events"}, draft: {ne: true}, has_date: {eq: true}, days_ago: {lte: 0}
         }
@@ -89,7 +89,7 @@ query {
             }
         }
     }
-    recent: allArticle(
+    recent: allParentArticle(
         sortBy: "date", order: DESC, filter: {
             category: {eq: "events"}, draft: {ne: true}, has_date: {eq: true}, days_ago: {between: [1, 365]}
         }
@@ -102,7 +102,7 @@ query {
         }
     }
 }
-fragment articleFields on Article {
+fragment articleFields on ParentArticle {
     id
     title
     tease
