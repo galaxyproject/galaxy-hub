@@ -41,7 +41,7 @@ API. This can be accomplished using a platform such as
 To register a new Galaxy client with Custos, make a POST request with the
 following body, replacing information with your relevant data:
 
-* URI : https://custos.scigap.org:/apiserver/tenant-management/v1.0.0/oauth2/tenant
+* URI : https://dev.custos.usecustos.org:/apiserver/tenant-management/v1.0.0/oauth2/tenant
 * Method : POST
 * Body :
 
@@ -62,7 +62,9 @@ following body, replacing information with your relevant data:
     ```
 
 For example:
-![image](/authnz/config/oidc/idps/custos/Custos-post-request.png)
+
+![image](https://user-images.githubusercontent.com/78516064/197259517-a8fa458f-3daf-4428-a41c-e1bcab6cd41f.png)
+
 
 1. The _Domain_ should be the main address that users will use to get to your
    instance of Galaxy.
@@ -85,7 +87,7 @@ For example:
 3. After making the POST request, you should get a response containing your
    `Client ID` and `Client Secret`; note this info! You will need it for the
    Galaxy configuration.
-   ![image](/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
+   ![image](https://user-images.githubusercontent.com/78516064/197289740-da71ecf7-b5f4-479c-b7be-ddcb9bb1076b.png)
 
 4. Finally, to have your client activated, send an email to
    [custos@airavata.apache.org](mailto:custos@airavata.apache.org) with your
@@ -110,7 +112,7 @@ during client registration.
 <?xml version="1.0"?>
 <OIDC>
     <provider name="Custos">
-        <url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/</url>
+        <url>https://dev.custos.usecustos.org/apiserver/identity-management/v1.0.0/</url>
         <client_id>custos-xmn3092m8tkh7546hv76-10000001</client_id>
         <client_secret>15Ur37stVGwvONALNjjq89ezRXxoKuunFzvEeTDY</client_secret>
         <redirect_uri>http://jduniversity.edu/galaxy/authnz/custos/callback</redirect_uri>
