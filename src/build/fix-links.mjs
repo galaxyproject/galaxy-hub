@@ -15,7 +15,7 @@ let debug = false;
 // Prefixes that denote that the path is absolute and does not need altering.
 //TODO: How about urls that begin with a domain but no protocol?
 //      Check if that happens in the codebase.
-const PREFIX_WHITELIST = ["http://", "https://", "mailto:", "/images/", "//", "#"];
+const PREFIX_WHITELIST = ["http://", "https://", "mailto:", "/images/", "/assets/", "//", "#"];
 const LINK_PROPS = { img: "src", a: "href" };
 const LINK_FIXERS = { image: fixImageLink, img: fixImageLink };
 
