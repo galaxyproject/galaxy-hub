@@ -9,7 +9,7 @@ location:
   url: "https://in.bgu.ac.il/en/pages/default.aspx"
 external_url: ""
 gtn: false
-contact: "Beer Sheva"
+contact: "Dan Mishmar and Anton Nekrutenko"
 subsites: [global]
 autotoc: false
 
