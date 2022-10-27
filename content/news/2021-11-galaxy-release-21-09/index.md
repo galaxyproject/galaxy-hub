@@ -2,7 +2,7 @@
 title: 'Galaxy Release 21.09'
 tease: Tool Panel Views, Collections, Reports, Remote Data, FastAPI, SQLAlchemy & much more!
 date: '2021-11-02'
-subsites: [global, us]
+subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 ---
 
 Dear Community,
