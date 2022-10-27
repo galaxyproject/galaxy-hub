@@ -11,7 +11,7 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 
-Hello, I’m Pietro Mandreoli, PhD student at the University of Milan (Italy) and one of the developers of the [Laniakea](laniakea-elixir-it.github.io) platform for the deployment of on-demand Galaxy instances over Cloud infrastructures.
+Hello, I’m Pietro Mandreoli, PhD student at the University of Milan (Italy) and one of the developers of the [Laniakea](https://laniakea-elixir-it.github.io) platform for the deployment of on-demand Galaxy instances over Cloud infrastructures.
 
 The ELIXIR Staff Exchange program gave me the precious opportunity to work in Freiburg for two months, with the amazing useGalaxy.eu team. 
 In this period I worked hard to understand each component of the UseGalaxy.eu infrastructure, how they are configured but above all how it is maintained and kept up to date over time.
