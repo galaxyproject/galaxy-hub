@@ -6,6 +6,8 @@ hide_tease: true
 tags:
 - citations
 authors: bgruening
+authors_structured:
+- github: bgruening
 supporters:
 - crc1425
 - crc992
