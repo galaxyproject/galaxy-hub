@@ -6,7 +6,7 @@ tease: "Participants will be guided through the droplet-based scRNA-seq analysis
 continent: EU
 location:
   name: "Online, EMBL-EBI, Hinxton, United Kingdom"
-location_url: "https://www.ebi.ac.uk/training"
+  url: "https://www.ebi.ac.uk/training"
 external_url: "https://www.ebi.ac.uk/training/events/single-cell-rna-seq-analysis-using-galaxy-0/"
 gtn: false
 contact: "Jane Reynolds"

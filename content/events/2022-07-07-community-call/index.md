@@ -6,7 +6,7 @@ tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"
-location_url: "/community/community-calls/"
+  url: "/community/community-calls/"
 external_url:
 gtn: false
 contact: "Anup Kumar"

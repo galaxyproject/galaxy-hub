@@ -6,7 +6,7 @@ tease: "This 1.5-day course will give a general introduction on the galaxy web-p
 continent: EU
 location:
   name: "Bern Switzerland"
-location_url: "https://www.sib.swiss/training"
+  url: "https://www.sib.swiss/training"
 external_url: "https://www.sib.swiss/training/course/20230425_GALXY"
 gtn: true
 contact: "Lucille Delisle, Hans-Rudolf Hotz"
