@@ -72,9 +72,9 @@ def main(argv):
 
   # Create the directory.
   logging.info(f'Creating post directory: {post_dir}')
+  if post_dir.exists():
+    fail(f'Post directory already exists: {post_dir}')
   if not args.simulate:
-    if post_dir.exists():
-      fail(f'Post directory already exists: {post_dir}')
     post_dir.mkdir()
 
   #TODO: Modify content?
@@ -133,7 +133,9 @@ def make_metadata(input_path, old_metadata, content, add_tease=True):
     elif key in ('organiser', 'organisers'):
       # `organiser` -> `contacts`
       new_key = 'contacts'
-      if isinstance(value, list):
+      if value is None:
+        continue
+      elif isinstance(value, list):
         for item in value:
           validate_dict(item, {'name', 'email'}, {'name'})
         new_value = value
