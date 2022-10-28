@@ -26,7 +26,7 @@ def make_argparser():
       'directory containing an index.md. Omit to just print the metadata to stdout.')
   options.add_argument('input_path', metavar='path/to/post.md', type=pathlib.Path,
     help='The .eu post Markdown file.')
-  options.add_argument('-T', '--skip-tease', dest='tease', default=True, action='store_false')
+  options.add_argument('-T', '--skip-tease', dest='add_tease', default=True, action='store_false')
   options.add_argument('-n', '--simulate', action='store_true',
     help="Don't actually make any changes to the filesystem.")
   options.add_argument('-o', '--open-md', action='store_true',
@@ -58,6 +58,49 @@ def main(argv):
     fail(f'No metadata in {args.input_path}')
   if 'site' not in old_metadata:
     fail(f'No "site" key in {args.input_path}')
+
+  new_metadata = make_metadata(args.input_path, old_metadata, content, add_tease=args.add_tease)
+  new_metadata_str = serialize_metadata(new_metadata)
+
+  if args.output_dir is None:
+    print(new_metadata_str)
+    return 0
+
+  # Create the output directory name.
+  filename = fix_filename_date(args.input_path.stem, new_metadata.get('date'))
+  post_dir = args.output_dir / slugify(filename)
+
+  # Create the directory.
+  logging.info(f'Creating post directory: {post_dir}')
+  if not args.simulate:
+    if post_dir.exists():
+      fail(f'Post directory already exists: {post_dir}')
+    post_dir.mkdir()
+
+  #TODO: Modify content?
+  #      - Convert links to galaxyproject.org to local links.
+  #      - Convert local links to galaxyproject.eu links?
+
+  # Write the Markdown file.
+  post_file = post_dir/'index.md'
+  if args.volume < logging.CRITICAL:
+    print(f'Markdown file: {post_file}')
+  if not args.simulate:
+    with post_file.open('w') as post_fh:
+      if new_metadata_str:
+        print('---\n'+new_metadata_str+'---', file=post_fh)
+      print(content, file=post_fh)
+
+  # Extra, post-porting convenience functions.
+  if args.open_md and not args.simulate:
+    subprocess.run(['mousepad', post_file], stdout=subprocess.DEVNULL)
+  if args.volume < logging.CRITICAL:
+    print('URLs:')
+    print('\t'+make_org_url(post_dir))
+    print('\t'+get_eu_url(args.input_path))
+
+
+def make_metadata(input_path, old_metadata, content, add_tease=True):
 
   # Modify keys and values as necessary.
   new_metadata = {}
@@ -137,11 +180,11 @@ def main(argv):
 
   # Infer the date from the filename, if necessary.
   if not new_metadata.get('date'):
-    date_str = args.input_path.name[:10]
+    date_str = input_path.name[:10]
     try:
       datetime.datetime.strptime(date_str, '%Y-%m-%d')
     except ValueError:
-      fail(f'Filename {args.input_path.name!r} does not include a valid date.')
+      raise RuntimeError(f'Filename {input_path.name!r} does not include a valid date.') from None
     new_metadata['date'] = date_str
 
   # Put any structured author data into a field designed for it.
@@ -163,7 +206,7 @@ def main(argv):
 
   # Add (an attempt at) an automatic tease derived from the content.
   # This requires manual review but is usually a good start.
-  if args.tease and 'tease' not in new_metadata:
+  if add_tease and 'tease' not in new_metadata:
     tease = extract_tease(content)
     if tease:
       new_metadata['tease'] = tease
@@ -173,48 +216,28 @@ def main(argv):
   if is_tool_update(new_metadata) and new_metadata.get('subsites') == ['freiburg']:
     new_metadata['subsites'].append('eu')
 
-  # Serialize metadata into a single string, in the proper order.
-  new_metadata_str = ''
+  return new_metadata
+
+
+def serialize_metadata(metadata):
+  """Serialize metadata into a single string, in the proper order and with custom per-key formatting."""
+  metadata_str = ''
   for key in FIRST_FIELDS:
-    new_metadata_str += make_metadata_line(key, new_metadata.get(key))
-  for key, value in new_metadata.items():
+    metadata_str += make_metadata_line(key, metadata.get(key))
+  for key, value in metadata.items():
     if key not in FIRST_FIELDS and key not in LAST_FIELDS:
-      new_metadata_str += make_metadata_line(key, value)
+      metadata_str += make_metadata_line(key, value)
   for key in LAST_FIELDS:
-    new_metadata_str += make_metadata_line(key, new_metadata.get(key))
+    metadata_str += make_metadata_line(key, metadata.get(key))
+  return metadata_str
 
-  if args.output_dir is None:
-    print(new_metadata_str)
-    return 0
 
-  # Create the output directory name.
-  filename = fix_filename_date(args.input_path.stem, new_metadata.get('date'))
-  post_dir = args.output_dir / slugify(filename)
-
-  # Create the directory.
-  logging.info(f'Creating post directory: {post_dir}')
-  if not args.simulate:
-    post_dir.mkdir()
-
-  #TODO: Modify content?
-  #      - Convert links to galaxyproject.org to local links.
-  #      - Convert local links to galaxyproject.eu links?
-
-  # Write the Markdown file.
-  post_file = post_dir/'index.md'
-  print(f'Markdown file: {post_file}')
-  if not args.simulate:
-    with post_file.open('w') as post_fh:
-      if new_metadata_str:
-        print('---\n'+new_metadata_str+'---', file=post_fh)
-      print(content, file=post_fh)
-
-  # Extra, post-porting convenience functions.
-  if args.open_md and not args.simulate:
-    subprocess.run(['mousepad', post_file], stdout=subprocess.DEVNULL)
-  print('URLs:')
-  print('\t'+make_org_url(post_dir))
-  print('\t'+get_eu_url(args.input_path))
+def make_metadata_line(key, value):
+  if value is not None:
+    kwargs = KEY_YAML_SETTINGS.get(key, {})
+    return yaml.dump({key: value}, allow_unicode=True, **kwargs)
+  else:
+    return ''
 
 
 def validate_dict(dict_, keys, required_keys=frozenset()):
@@ -265,14 +288,6 @@ def is_tool_update(metadata):
   return re.search(r'^UseGalaxy.eu Tool Updates for 202\d-\d{2}-\d{2}$', title)
 
 
-def make_metadata_line(key, value):
-  if value is not None:
-    kwargs = KEY_YAML_SETTINGS.get(key, {})
-    return yaml.dump({key: value}, allow_unicode=True, **kwargs)
-  else:
-    return ''
-
-
 def fix_filename_date(filename, date_str):
   if date_str and not filename.startswith(date_str):
     logging.warning(f'Warning: The date in the filename is different from the date in the metadata ({date_str}).')
@@ -289,7 +304,7 @@ def slugify(raw_str):
     frag = match.group()
     output += raw_str[last:start]
     output += frag[0]+'-'+frag[1:]
-    print(start, end, frag)
+    logging.info(f'{start} {end} {frag}')
     last = match.end()
   output += raw_str[last:]
   return output.replace('_', '-').replace('.', '-').lower()
