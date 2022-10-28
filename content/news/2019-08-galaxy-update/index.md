@@ -1,8 +1,9 @@
 ---
-title: 'August 2019 Galactic News'
-tease: "GCC2019 is done; BCC2020 is coming"
-date: "2019-08-01"
-subsites: [global, us]
+title: August 2019 Galactic News
+date: '2019-08-01'
+tease: GCC2019 is done; BCC2020 is coming
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 The *August 2019 Galactic News* is here!

@@ -10,3 +10,5 @@ supporters:
 - gallantries
 subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 ---
+
+After runnning a number of virtual training events this year (e.g. Smörgåsbord, GCC2021), we now have a large collection of training videos around the GTN materials, created by this community.
