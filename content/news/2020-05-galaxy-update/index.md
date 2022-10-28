@@ -1,8 +1,9 @@
 ---
-title: 'May 2020 Galactic News'
-tease: "James Taylor, BCC2020, COVID-19 Response, and more"
-date: "2020-05-04"
-subsites: [global, us]
+title: May 2020 Galactic News
+date: '2020-05-04'
+tease: James Taylor, BCC2020, COVID-19 Response, and more
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 ---

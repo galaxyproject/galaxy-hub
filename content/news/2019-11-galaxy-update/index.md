@@ -1,8 +1,9 @@
 ---
-title: 'November 2019 Galactic News'
-tease: "Events! Pubs! Platforms! Jobs! Releases!"
-date: "2019-11-12"
-subsites: [global, us]
+title: November 2019 Galactic News
+date: '2019-11-12'
+tease: Events! Pubs! Platforms! Jobs! Releases!
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

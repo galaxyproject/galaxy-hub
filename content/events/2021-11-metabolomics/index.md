@@ -1,17 +1,19 @@
 ---
-title: "Metabolomics Community Call"
+title: Galaxy Metabolomics Community Call
 date: '2021-11-25'
-days: 1
-tease: "Recent developments and future plans in the Galaxy Metabolomics community, including a summary of the metaRbolomics Hackathon."
-continent: EU
-location:
-  name: "Online, Freiburg, Germany"
-external_url: "https://galaxyproject.eu/event/2021-09-14-metabolomics-call/"
-location_url: ""
-gtn: false
-contact: "Melanie Föll"
+end: '2021-11-25'
+tease: Recent developments and future plans in the Galaxy Metabolomics community,
+  including a summary of the metaRbolomics Hackathon.
 tags: []
-links:
-image: "/images/communities/metabolomics.png"
-subsites: [global, us]
+contacts:
+- email: foellmelanie@gmail.com
+  name: Melanie Foell
+location:
+  name: online
+continent: EU
+gtn: false
+subsites: [global, all-eu, us]
+main_subsite: eu
 ---
+
+Recent developments and future plans in the Galaxy Metabolomics community.

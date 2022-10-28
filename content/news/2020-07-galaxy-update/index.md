@@ -1,8 +1,9 @@
 ---
-title: 'July 2020 Galactic News'
-tease: "BCC2020, SRA, Events, Platforms, Training, Jobs, ..."
-date: "2020-07-01"
-subsites: [global, us]
+title: July 2020 Galactic News
+date: '2020-07-01'
+tease: BCC2020, SRA, Events, Platforms, Training, Jobs, ...
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 # In the July 2020 issue

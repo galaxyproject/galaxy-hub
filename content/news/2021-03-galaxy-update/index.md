@@ -1,9 +1,11 @@
 ---
-title: 'March 2021 Galactic News'
-tease: "New Featured and Community News sections; new events, releases, training, and lots of videos"
-date: "2021-03-17"
+title: March 2021 Galactic News
+date: '2021-03-17'
+tease: New Featured and Community News sections; new events, releases, training, and
+  lots of videos
 autotoc: false
-subsites: [global, us]
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
