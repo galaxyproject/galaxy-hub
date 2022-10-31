@@ -10,7 +10,7 @@ location:
 gtn: false
 contact: Aysam Guerler, Marius van der Beek, Beatriz Serrano-Solano
 tags: [community-call]
-subsites: [all-eu, all]
+subsites: [all]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EHBPWuK6Cfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>

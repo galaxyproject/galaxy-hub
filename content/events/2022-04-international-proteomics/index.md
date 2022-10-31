@@ -11,7 +11,7 @@ location:
 external_url: https://www.biocommons.org.au/events/galaxy-proteomics-community
 contact: johan@biocommons.org.au
 tags: []
-subsites: [all-eu, all]
+subsites: [all]
 ---
 
 The Galaxy Proteomics communities in the US, Australia and Europe meet online to talk about topics of shared interest.

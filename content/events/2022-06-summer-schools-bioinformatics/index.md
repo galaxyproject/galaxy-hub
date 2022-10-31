@@ -11,7 +11,7 @@ external_url: https://coursesandconferences.wellcomeconnectingscience.org/event/
 gtn: false
 contact: Organizers
 tags: [training]
-subsites: [all-eu, all]
+subsites: [all]
 ---
 
 This course provides an introduction to the use of bioinformatics in biological research and is run jointly with EMBL-EBI. 
