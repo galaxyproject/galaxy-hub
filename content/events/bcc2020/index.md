@@ -6,7 +6,6 @@ tease: "Galaxy & BOSC join forces again for 8 days of training, meeting, network
 continent: GL
 location:
   name: "Online, Global"
-location_url: ""
 external_url: "https://bcc2020.github.io/"
 image: 
 gtn: true

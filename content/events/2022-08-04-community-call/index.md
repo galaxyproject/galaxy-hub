@@ -5,12 +5,12 @@ tease: A forum to share updates and discuss community-wide topics
 days: 1
 continent: GL
 location:
-  name: Galaxy Community Call, Online, Global
-  url: /community/community-calls/
+  name: "Galaxy Community Call, Online, Global"
+  url: "/community/community-calls/"
 gtn: false
 contact: Kaivan Kamali
 tags: [training, community-call]
-subsites: [all-eu, all]
+subsites: [all]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FZ_UVYoZK7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

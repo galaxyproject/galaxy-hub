@@ -6,7 +6,7 @@ tease: "overview of the main bioinformatics resources useful in the day-to-day l
 continent: EU
 location:
   name: "Vall d'Hebron University Hospital (HUVH), Spain, Europe"
-location_url: "http://en.vhir.org/portal1/homepage.asp"
+  url: "http://en.vhir.org/portal1/homepage.asp"
 external_url: "http://en.vhir.org/portal1/curso.asp?s=docencia&contentid=238299"
 gtn: false
 contact: "Mireia Ferrer"
