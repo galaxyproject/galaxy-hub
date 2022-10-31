@@ -13,7 +13,7 @@ subsites: [global, all-eu, us]
 main_subsite: eu
 ---
 
-This week [we](/freiburg/people) have reached a huge milestone! 
+This week [we](https://usegalaxy-eu.github.io/freiburg/people) have reached a huge milestone! 
 
 We are celebrating **10,000 Galaxy users** on https://usegalaxy.eu; 6,370,000 jobs run on our European Galaxy server; and 11,900,000 datasets have been created by you! We are absolutely amazed about what was happening during the last year.
 

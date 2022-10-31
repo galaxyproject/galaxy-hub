@@ -61,13 +61,13 @@ and increasing crop production from irrigated farmland to supplement the grazing
 
 <div class="multiple-img">
     <img src="/assets/media/tk_rna_workbench.jpg" width="800px" alt="Talks on RNA Workbench and the different projects of mutual interest." />
-    <i>Figure 3, talks on <a href="rna.usegalaxy.eu">RNA Workbench</a> and the different projects of mutual interest. Many of the participants also participated in an extra training session on the Saturday to get an introduction on how to use the Galaxy Training Network resources on <a href="https://usegalaxy.eu">(usegalaxy.eu)</a> to practice bioinformatics which was much appreciated. </i>
+    <i>Figure 3, talks on <a href="https://rna.usegalaxy.eu">RNA Workbench</a> and the different projects of mutual interest. Many of the participants also participated in an extra training session on the Saturday to get an introduction on how to use the Galaxy Training Network resources on <a href="https://usegalaxy.eu">(usegalaxy.eu)</a> to practice bioinformatics which was much appreciated. </i>
 </div>
 <br>
 
 
 Our next step will be to set up Galaxy servers at SLU and the ARC Biotechnology Platform to share workflows with each other.
-Our first project will be based on the [RNA Workbench](rna.usegalaxy.eu) to work with genetics and transcriptomics for predicting the
+Our first project will be based on the [RNA Workbench](https://rna.usegalaxy.eu) to work with genetics and transcriptomics for predicting the
 host response to the Lumpy Skin Disease. Thanks to a live attenuated vaccine from Onderstepoort the spread of
 Lumpy Skin Disease in Europe has not only been halted but reverted. In many other regions the disease
 will however remain endemic which means that workflows must remain relevant for a long time past the end of European funding.

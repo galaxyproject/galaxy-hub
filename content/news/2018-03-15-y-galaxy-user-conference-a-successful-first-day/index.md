@@ -37,7 +37,7 @@ At the end, Simon Gladman (from Australia) and Björn officially launched the us
     <a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/39931636715/in/datetaken/" title="Galaxy User Conference - Freiburg - 2018 - Day 1"><img src="https://farm5.staticflickr.com/4771/39931636715_2f6af569f6.jpg" width="500" height="333" alt="Galaxy User Conference - Freiburg - 2018 - Day 1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-For more information about what are the implication of useGalaxy.eu launch, you can check our [post explaining the details](/posts/2018/03/15/usegalaxy-eu/)
+For more information about what are the implication of useGalaxy.eu launch, you can check our [post explaining the details](/news/2018-03-15-usegalaxy-eu/)
 
 Thank a lot to all the speakers. See you all tomorrow!
 

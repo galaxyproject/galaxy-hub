@@ -40,7 +40,7 @@ We offer:
 
 Positions are for initially 1 year with the possibility of extension. The salary will be determined in accordance with TVL-E13 (100 %).
 
-Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team](/freiburg/people)
+Further information: [Bioinformatics Uni Freiburg](http://www.bioinf.uni-freiburg.de/), [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/freiburg/people)
 
 Please send your application including a motivation letter, CV, certificates, and 3 references latest until 30.8.2018 via email to Joachim Wolff (wolffj@informatik.uni-freiburg.de)
 

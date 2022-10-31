@@ -14,7 +14,7 @@ Galaxy is nowadays well-known to be a __cross-discipline platform that connects 
 
 At the __German level__, [de.NBI](https://www.denbi.de) provides the cloud infrastructure and the newly established [NFDI](https://www.nfdi.de/) (Nationale Forschungsdateninfrastruktur) covers the data aspects. Within the [DFG](https://www.dfg.de/) (Deutsche Forschungsgemeinschaft) funded project [DataPLANT](https://www.nfdi4plants.de/), scientists will be able to use a well-annotated data management platform for plant research, a key aspect for future reproducibility and reusability of the resources. 
 
-On the clinical side, [MIRACUM]((https://www.miracum.org/)) (Medical Informatics in Research and Medicine) supports molecular tumor boards from several university hospitals across Germany. A recent [article](https://www.denbi.de/news/1279-for-better-patient-care-cooperation-between-miracum-and-the-german-network-for-bioinformatics-infrastructure-de-nbi) bridges both the cloud infrastructure and the clinical research carried out by MIRACUM. 
+On the clinical side, [MIRACUM](https://www.miracum.org) (Medical Informatics in Research and Medicine) supports molecular tumor boards from several university hospitals across Germany. A recent [article](https://www.denbi.de/news/1279-for-better-patient-care-cooperation-between-miracum-and-the-german-network-for-bioinformatics-infrastructure-de-nbi) bridges both the cloud infrastructure and the clinical research carried out by MIRACUM. 
 
 [BioDATEN](https://portal.biodaten.info) (Bioinformatics DATa ENvironment), funded by the Ministry of Science, Research and the Arts of the State of Baden-Württemberg, aims at building a Science Data Center to handle increasing amounts of data.
 

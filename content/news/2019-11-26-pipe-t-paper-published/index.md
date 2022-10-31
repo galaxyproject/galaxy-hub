@@ -11,7 +11,7 @@ main_subsite: elixir-it
 
 PIPE-T is a new Galaxy tool implementing a workflow for parsing, filtering, normalizing, imputing, and analyzing RT-qPCR data.
 
-The public server, deployed using [Laniakea](https://laniakea-elixir-it.github.io/), is available at [igg.cloud.ba.infn.it/galaxy](igg.cloud.ba.infn.it/galaxy) since the 22 of October 2019 and is based on Galaxy release_19.01.
+The public server, deployed using [Laniakea](https://laniakea-elixir-it.github.io/), is available at [igg.cloud.ba.infn.it/galaxy](https://igg.cloud.ba.infn.it/galaxy) since the 22 of October 2019 and is based on Galaxy release_19.01.
 
 The paper has been published on Scientific Reports and is available [here](https://www.nature.com/articles/s41598-019-53155-9).
 

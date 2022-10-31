@@ -16,7 +16,7 @@ The [BM425 Advanced Microbiology module](https://www.strath.ac.uk/courses/underg
 
 The first block of the course covers genome sequencing, assembly, and comparative genomics, in an environmental and clinical context. In the first week, the students participate in a workshop where they take a set of raw reads through quality control, assembly and annotation, and contextualise their organism using comparative genomics. We teach this using Galaxy as many of the cohort are unfamiliar with the command-line, and we need a consistent, common interface that allows them to do real science, while minimising the intimidation and complexity of using multiple different tools.
 
-Like everyone else, for the 2020 course presentation we were challenged by the global coronavirus pandemic. In particular, we could not run our usual face-to-face Galaxy workshop in the on-campus computer labs. We were also looking to move on in some way from our on-site teaching hardware, which struggled under the load of an entire class assembling their reads in the previous year’s presentation. We aim to be relevant and timely in our teaching so, for this year’s course, we were asking the students to assemble and annotate the [Wuhan SARS-CoV-2 isolate](doi.org/10.1038/s41586-020-2008-3), and compare it with a 2003 SARS isolate, and a more recent [Dutch SARS-CoV-2 isolate](doi.org/10.1038/s41591-020-0997-y).
+Like everyone else, for the 2020 course presentation we were challenged by the global coronavirus pandemic. In particular, we could not run our usual face-to-face Galaxy workshop in the on-campus computer labs. We were also looking to move on in some way from our on-site teaching hardware, which struggled under the load of an entire class assembling their reads in the previous year’s presentation. We aim to be relevant and timely in our teaching so, for this year’s course, we were asking the students to assemble and annotate the [Wuhan SARS-CoV-2 isolate](https://doi.org/10.1038/s41586-020-2008-3), and compare it with a 2003 SARS isolate, and a more recent [Dutch SARS-CoV-2 isolate](https://doi.org/10.1038/s41591-020-0997-y).
 
 <br>
 
@@ -42,6 +42,6 @@ The student feedback was overwhelmingly positive. Many of the students had not h
 
 **Leighton Pritchard, Nick Tucker, Morgan Feeney, Paul Herron (BM425 Bioinformatics Workshop)**
 
-[1] Wu, F., Zhao, S., Bin Yu, Chen, Y.-M., Wang, W., Song, Z.-G., et al. (2020). A new coronavirus associated with human respiratory disease in China. Nature, 579(7798), 265–269. [http://doi.org/10.1038/s41586-020-2008-3](doi.org/10.1038/s41586-020-2008-3)
+[1] Wu, F., Zhao, S., Bin Yu, Chen, Y.-M., Wang, W., Song, Z.-G., et al. (2020). A new coronavirus associated with human respiratory disease in China. Nature, 579(7798), 265–269. [http://doi.org/10.1038/s41586-020-2008-3](https://doi.org/10.1038/s41586-020-2008-3)
 
 [2] Munnink, B. B. O., Nieuwenhuijse, D. F., Stein, M., O’Toole, Á., Haverkate, M., Mollers, M., et al. (2020). Rapid SARS-CoV-2 whole-genome sequencing and analysis for informed public health decision-making in the Netherlands. Nature Medicine, 382, 1–6. [http://doi.org/10.1038/s41591-020-0997-y](http://doi.org/10.1038/s41591-020-0997-y)

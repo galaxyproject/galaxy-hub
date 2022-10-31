@@ -32,7 +32,7 @@ In all cases you need to go User → Preferences → [Manage Information](https:
 Once configured, you will find an option called "Choose remote files" in the normal Galaxy upload dialogue.
 Choose "Nextcloud/ownCloud" and select the files you want to import.
 
-![](/assets/media/nextcloud_file_picker.png)
+`![](/assets/media/nextcloud_file_picker.png)`
 
 
 ## Example configurations

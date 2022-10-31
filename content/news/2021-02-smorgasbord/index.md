@@ -13,7 +13,7 @@ subsites: [global, all-eu, us]
 main_subsite: eu
 ---
 
-This week, starting from Monday the 15th of February, the [Galaxy Training Network (GTN)](training.galaxyproject.org/) is running a global Galaxy online course: [__GTN Smörgåsbord__](https://shiltemann.github.io/global-galaxy-course/)[^1].
+This week, starting from Monday the 15th of February, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is running a global Galaxy online course: [__GTN Smörgåsbord__](https://shiltemann.github.io/global-galaxy-course/)[^1].
 
 You can choose between many different training sessions along the week ranging from Genomics, Proteomics, or Ecology, to analysing and understanding climate-related scientific data. You can dive into the R-programming language and combine it with Galaxy, or play around with Python. All of that supported by video recordings in our [YouTube channel](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA), hands-on materials and a bunch of [experts](https://shiltemann.github.io/global-galaxy-course/#acknowledgements) supporting you during the entire week.
 
@@ -40,7 +40,7 @@ If you are participating in the training, please [__consider using our data libr
 
 
 
-The load will be spread around three different Galaxy servers ([usegalaxy.eu](usegalaxy.eu), [usegalaxy.org.au](usegalaxy.org.au) and [usegalaxy.org](usegalaxy.org)). In all of them, you will find a very convenient way of __accessing the training materials__ through the hat in the header of the Galaxy server:
+The load will be spread around three different Galaxy servers ([usegalaxy.eu](https://usegalaxy.eu), [usegalaxy.org.au](https://usegalaxy.org.au) and [usegalaxy.org](https://usegalaxy.org)). In all of them, you will find a very convenient way of __accessing the training materials__ through the hat in the header of the Galaxy server:
 
 
 ![GTN hat](/assets/media/2021-02-14-GTN-hat.png)

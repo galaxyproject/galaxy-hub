@@ -17,7 +17,7 @@ main_subsite: freiburg
 [A tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html){:target="_blank"} for the tool is also available
 at the [Galaxy Project training website](https://galaxyproject.github.io/training-material/){:target="_blank"}.
 
-![](/assets/media/goenrichment_example.png){:target="_blank"}
+`![](/assets/media/goenrichment_example.png)`
 
 [GOEnrichment](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/){:target="_blank"} is flexible in that it allows the user to use any version of the [Gene Ontology](http://www.geneontology.org/){:target="_blank"} and any [GO annotation](http://www.geneontology.org/page/download-go-annotations){:target="_blank"} file they desire. To enable the use of [GO slims](http://www.geneontology.org/page/go-subset-guide){:target="_blank"},
 it is accompanied by a sister tool [GOSlimmer](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/){:target="_blank"}, which can convert annotation files from full GO to any specified GO slim.

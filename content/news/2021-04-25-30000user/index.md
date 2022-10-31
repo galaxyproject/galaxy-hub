@@ -14,7 +14,7 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 
-The [European Galaxy Server](www.usegalaxy.eu) has surpassed the **30,000 registered users**.
+The [European Galaxy Server](https://www.usegalaxy.eu) has surpassed the **30,000 registered users**.
 
 ![30K users](/assets/media/30K_users/30K_users.jpg)
 
@@ -26,7 +26,7 @@ The number of active users[^footnote] each month has also grown to an average of
 
 ![Active users](/assets/media/30K_users/plot_active_users.png)
 
-[We](/people) would like to **thank you all** and our [funders](/about), the support from [de.NBI](https://www.denbi.de/), [ELIXIR](http://elixir-europe.org/), [EOSC-Life](https://www.eosc-portal.eu/eosc-life), the [compute center](https://rz.uni-freiburg.de/), and the [Faculty of Medicine](http://www.med.uni-freiburg.de)  at the University of Freiburg.
+[We](https://usegalaxy-eu.github.io/people) would like to **thank you all** and our [funders](https://usegalaxy-eu.github.io/about), the support from [de.NBI](https://www.denbi.de/), [ELIXIR](http://elixir-europe.org/), [EOSC-Life](https://www.eosc-portal.eu/eosc-life), the [compute center](https://rz.uni-freiburg.de/), and the [Faculty of Medicine](http://www.med.uni-freiburg.de)  at the University of Freiburg.
 
 Special thanks also to our partner sites [Erasmus MC](https://galaxyproject.eu/erasmusmc/), [ELIXIR Belgium](https://galaxyproject.eu/vib/), the [Institute Pasteur](https://galaxyproject.eu/pasteur/) and the whole [Galaxy community](https://galaxyproject.org/community/).
 
