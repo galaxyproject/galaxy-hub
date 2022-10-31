@@ -14,7 +14,7 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 
-[We](https://usegalaxy-eu.github.io/people) have exciting news to share! The [European Galaxy Server](www.usegalaxy.eu) surpassed the **20,000 registered users** last week! 
+[We](https://usegalaxy-eu.github.io/people) have exciting news to share! The [European Galaxy Server](https://www.usegalaxy.eu) surpassed the **20,000 registered users** last week! 
 
 5 continents, 100 countries and more than 100 industry companies using Galaxy... 4000 users trained using TIaaS and growing...!
 
