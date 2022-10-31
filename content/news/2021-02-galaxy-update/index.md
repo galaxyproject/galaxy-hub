@@ -3,7 +3,10 @@ title: 'February 2021 Galactic News'
 tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
 date: "2021-02-08"
 autotoc: false
-subsites: [global, us]
+tags:
+- galaxy
+- newsletter
+subsites: [global, us, all-eu]
 ---
 
 <div class="card border-info">
@@ -398,7 +401,7 @@ By Wolfgang Maier and Björn Grüning.
 
 Continuous tracking of viral evolution through genome sequencing.
 
-![Variation](/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png)
+![Variation](./sars-cov-2-variation-plot.png)
 
 </div>
 

@@ -1,8 +1,9 @@
 ---
-title: 'November 2020 Galactic News'
-tease: "JXTX Foundation, Events, Platforms, Jobs, Pubs, ..."
-date: "2020-11-03"
-subsites: [global, us]
+title: November 2020 Galactic News
+date: '2020-11-03'
+tease: JXTX Foundation, Events, Platforms, Jobs, Pubs, ...
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 # In the November 2020 issue
@@ -330,7 +331,7 @@ Leighton reports on the University of Strathclyde's experience teach Advanced Mi
 
 *Spoiler: It went well.*
 
-![SARS in JBrowse](/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg)
+![SARS in JBrowse](./sars-in-jbrowse.jpg)
 
 </div>
 

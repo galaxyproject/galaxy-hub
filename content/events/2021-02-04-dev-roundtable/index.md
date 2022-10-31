@@ -1,23 +1,23 @@
 ---
-title: "Galaxy Developer Training & Onbarding; GTN Update"
+title: Galaxy Developer Training & Onbarding; GTN Update
 date: '2021-02-04'
+tease: How to grow the Galaxy Developer community? Admin Training Update
 days: 1
-tease: "How to grow the Galaxy Developer community? Admin Training Update"
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Dannon Baker, Beatriz Serrano-Solano, Dave Clements, Saskia Hiltemann, Helena Rasche"
+contact: Dannon Baker, Beatriz Serrano-Solano, Dave Clements, Saskia Hiltemann, Helena
+  Rasche
 links:
-  - text: "Slides"
-    url: "https://docs.google.com/presentation/d/1JUQPWET5cPX3l6eLySuLzjQqC_lyuyf_kjBhCHGGL6Y/edit#slide=id.p"
-  - text: "Video"
-    url: "https://youtu.be/OEKV6GFlD_s"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Slides
+  url: https://docs.google.com/presentation/d/1JUQPWET5cPX3l6eLySuLzjQqC_lyuyf_kjBhCHGGL6Y/edit#slide=id.p
+- text: Video
+  url: https://youtu.be/OEKV6GFlD_s
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OEKV6GFlD_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

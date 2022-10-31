@@ -1,15 +1,15 @@
 ---
-title: "Galaxy Community Call: Muon Science community"
+title: 'Galaxy Community Call: Muon Science community'
 date: '2022-10-13'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-  url: "/community/community-calls/"
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Eli Chadwick"
-tags: ["community-call"]
+contact: Eli Chadwick
+tags: [training, community-call]
 subsites: [all]
 ---
 

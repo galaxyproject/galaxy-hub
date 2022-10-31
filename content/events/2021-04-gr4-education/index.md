@@ -1,25 +1,27 @@
 ---
-title: "Galaxy Resources for Educators & Trainers"
-date: "2021-04-28"
+title: Galaxy Resources for Educators & Trainers
+date: '2021-04-28'
+tease: Part of the Galaxy Resources Webinar Series
 days: 1
-tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
 location:
-  name: "Galaxy Resources Webinar Series, Online, Global"
-image: "/events/webinars/gr4-webinars-400.png"
-location_url: "/events/webinars/"
-external_url:
-contact: "Saskia Hiltemann, Subina Mehta, Christine Cucinotta, Miaomiao Zhou, Bérénice Batut"
-tags: [ webinar ]
+  name: Galaxy Resources Webinar Series, Online, Global
+  url: /events/webinars/
+image: /events/webinars/gr4-webinars-400.png
+contact: Saskia Hiltemann, Subina Mehta, Christine Cucinotta, Miaomiao Zhou, Bérénice
+  Batut
+tags: [training, webinar]
 gtn: false
 links:
-- text: "Video"
-  url: "https://youtu.be/AXynJtPXgRQ"
-- text: "Slides 1"
-  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-1.pdf"
-- text: "Slides 2"
-  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-2.pdf"
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/AXynJtPXgRQ
+- text: Slides 1
+  url: https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-1.pdf
+- text: Slides 2
+  url: https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-2.pdf
+supporters:
+- galaxy
+subsites: [all-eu, global, us]
 ---
 
 * **10am Eastern US / 4pm Central European. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Researchers+Webinar&iso=20210428T10&p1=419&ah=1).**

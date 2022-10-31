@@ -1,23 +1,23 @@
 ---
-title: "Webinar: Use Galaxy on the web, the cloud, and your laptop too"
+title: 'Webinar: Use Galaxy on the web, the cloud, and your laptop too'
 date: '2020-12-09'
+tease: 'Options for using Galaxy: everywhere and right now'
 days: 1
-tease: "Options for using Galaxy: everywhere and right now"
 continent: GL
 location:
-  name: "Online, Global"
-location_url: ""
-external_url: ""
+  name: Online, Global
+  url: ''
+external_url: ''
 gtn: false
-tags: [ webinar ]
-contact: "Enis Afgan, Anton Nekrutenko, Michael Schatz"
+tags: [training, webinar]
+contact: Enis Afgan, Anton Nekrutenko, Michael Schatz
 image: 2020-12-webinar-banner.png
 links:
-  - text: "Slides"
-    url: "https://docs.google.com/presentation/d/1vcXpctBe4ED_XQxKQNzPjkAjRuNZiqAsBXe5ws4CCHE/edit?usp=sharing"
-  - text: "Video"
-    url: "https://youtu.be/srUg7O318PA"
-subsites: [global, us]
+- text: Slides
+  url: https://docs.google.com/presentation/d/1vcXpctBe4ED_XQxKQNzPjkAjRuNZiqAsBXe5ws4CCHE/edit?usp=sharing
+- text: Video
+  url: https://youtu.be/srUg7O318PA
+subsites: [all-eu, global, us]
 ---
 
 **11am-Noon, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55))**

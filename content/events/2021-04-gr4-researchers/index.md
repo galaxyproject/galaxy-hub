@@ -1,23 +1,24 @@
 ---
-title: "Galaxy Resources for Researchers"
-date: "2021-04-21"
+title: Galaxy Resources for Researchers
+date: '2021-04-21'
+tease: Part of the Galaxy Resources Webinar Series
 days: 1
-tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
 location:
-  name: "Galaxy Resources Webinar Series, Online, Global"
-image: "gr4-resources.png"
-location_url: "/events/webinars/"
-external_url:
-contact: "Dave Clements"
-tags: [ webinar ]
+  name: Galaxy Resources Webinar Series, Online, Global
+  url: /events/webinars/
+image: gr4-resources.png
+contact: Dave Clements
+tags: [training, webinar]
 gtn: false
 links:
-- text: "Slides"
-  url: "https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit?usp=sharing"
-- text: "Video"
-  url: "https://youtu.be/cFN_WPGz9qk"
-subsites: [global, us]
+- text: Slides
+  url: https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit?usp=sharing
+- text: Video
+  url: https://youtu.be/cFN_WPGz9qk
+supporters:
+- galaxy
+subsites: [all-eu, global, us]
 ---
 
 <div class="lead bg-warning">

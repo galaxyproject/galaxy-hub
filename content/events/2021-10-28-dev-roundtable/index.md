@@ -1,23 +1,22 @@
 ---
-title: "Image analysis in Galaxy - pain points and lessons learnt"
+title: Image analysis in Galaxy - pain points and lessons learnt
 date: '2021-10-28'
+tease: Join the discussion.
 days: 1
-tease: "Join the discussion."
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-wide-600.png
 gtn: false
-contact: "Yi Sun, Jean-Karim Hériché"
-links: 
-- text: "Video"
-  url: "https://youtu.be/o3GZBfdKu8A"
-- text: "Slides"
-  url: "https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+contact: Yi Sun, Jean-Karim Hériché
+links:
+- text: Video
+  url: https://youtu.be/o3GZBfdKu8A
+- text: Slides
+  url: https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 <div class="video-variable">

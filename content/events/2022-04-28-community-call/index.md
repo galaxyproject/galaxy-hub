@@ -1,17 +1,15 @@
 ---
-title: "Galaxy Community Call: The new History"
+title: 'Galaxy Community Call: The new History'
 date: '2022-04-28'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-location_url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Aysam Guerler, Marius van der Beek, Beatriz Serrano-Solano"
-links:
-tags: ["community-call"]
+contact: Aysam Guerler, Marius van der Beek, Beatriz Serrano-Solano
+tags: [community-call]
 subsites: [all]
 ---
 

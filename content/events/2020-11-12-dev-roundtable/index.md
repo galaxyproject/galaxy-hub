@@ -1,21 +1,20 @@
 ---
-title: "Working with the Galaxy Training Network"
+title: Working with the Galaxy Training Network
 date: '2020-11-12'
+tease: Galaxy Training Network
 days: 1
-tease: "Galaxy Training Network"
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Helena Rasche and Saskia Hiltemann"
+contact: Helena Rasche and Saskia Hiltemann
 links:
-  - text: "Video"
-    url: "https://youtu.be/D8GCuQMjjpw"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/D8GCuQMjjpw
+tags: [devroundtable]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/D8GCuQMjjpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

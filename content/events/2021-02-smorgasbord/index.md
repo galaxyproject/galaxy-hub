@@ -1,17 +1,15 @@
 ---
-title: "GTN Smörgåsbord: A Global Galaxy Course"
+title: 'GTN Smörgåsbord: A Global Galaxy Course'
 date: '2021-02-15'
+tease: Get a taste of all the GTN has to offer!
 days: 5
-tease: "Get a taste of all the GTN has to offer!"
 continent: GL
 location:
-  name: "Online, Global"
-image:
-location_url:
-external_url:
-contact: "Saskia Hiltemann & Helena Rasche"
+  name: Online, Global
+contact: Saskia Hiltemann & Helena Rasche
 gtn: true
-subsites: [global, us]
+tags: [training]
+subsites: [all-eu, global, us]
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/GTNLogo300.png" alt="GTN logo"/>

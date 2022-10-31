@@ -1,8 +1,10 @@
 ---
-title: 'September 2020 Galactic News'
-tease: "BCC2020 & GCC2021, events, platforms, blog posts, tutorials, pubs, releases, obs ..."
-date: "2020-09-01"
-subsites: [global, us]
+title: September 2020 Galactic News
+date: '2020-09-01'
+tease: BCC2020 & GCC2021, events, platforms, blog posts, tutorials, pubs, releases,
+  obs ...
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 # In the  September 2020 issue

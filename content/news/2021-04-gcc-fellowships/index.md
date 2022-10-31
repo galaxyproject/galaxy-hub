@@ -3,7 +3,12 @@ title: "GCC2021 Conference Fellowships"
 tease: "Apply by May 17"
 external_url: ""
 date: "2021-04-14"
-subsites: [global, us]
+tags: 
+- galaxy
+- newsletter
+authors_structured:
+- github: tnabtaf
+subsites: [global, us, all-eu]
 ---
 
 <small>Updated May 6th 2021</small>

@@ -1,8 +1,10 @@
 ---
-title: 'September 2019 Galactic News'
-tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other news too."
-date: "2019-08-30"
-subsites: [global, us]
+title: September 2019 Galactic News
+date: '2019-08-30'
+tease: Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other news
+  too.
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 [<img class="float-right" src="/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
@@ -161,14 +163,27 @@ The [Galaxy Genome Annotation (GGA) Project](https://galaxyproject.eu/posts/2019
 
 <div class="card border-info" style="min-width: 8rem;">
 <img class="card-img-top" src="/events/gcc2019/gcc2019-logo-big-wide.png" alt="Galaxy Community Conference Summary" />
-<div class="card-header">[Galaxy Community Conference Summary](https://galaxyproject.eu/posts/2019/08/06/gcc/)</div>
+<div class="card-header trim-p">
 
-A [summary of the 2019 Galaxy Community Conference](https://galaxyproject.eu/posts/2019/08/06/gcc/) by Anika Erxleben, Helena Rasche, and Björn Grüning.
+[Galaxy Community Conference Summary](/news/2019-08-06-gcc/)
+
+</div>
+
+A [summary of the 2019 Galaxy Community Conference](/news/2019-08-06-gcc/) by Anika Erxleben, Helena Rasche, and Björn Grüning.
+
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/blog/2019-08-slamdunk/slamdunk-logo-light.png" alt="Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets" />
-<div class="card-header">[Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets](https://galaxyproject.eu/posts/2019/08/06/gcc/)</div>
+<div class="card-img-top">
+
+![Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets](./slamdunk-logo-light.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets](/news/2019-08-17-slamdunk/)
+
+</div>
 
 This post by Tobias Neumann describes SlamDunk, a novel and fully automated software tool for automated, robust, scalable and reproducible SLAMseq data analysis, that is now available on [UseGalaxy.eu](https://usegalaxy.eu/).
 </div>

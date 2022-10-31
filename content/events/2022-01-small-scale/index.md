@@ -1,18 +1,14 @@
 ---
-title: "Small Scale Galaxy Admins Meeting"
+title: Small Scale Galaxy Admins Meeting
 date: '2022-01-18'
 days: 1
-tease: 
 continent: GL
 location:
-  name: "Online, Global"
-image: 
-location_url: 
-external_url:
+  name: Online, Global
 gtn: false
-contact: "Hans-Rudolf Hotz"
+contact: Hans-Rudolf Hotz
 tags: []
-subsites: [global, us]
+subsites: [all-eu, global, us]
 ---
 
 

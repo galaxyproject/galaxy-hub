@@ -1,17 +1,15 @@
 ---
-title: "Galaxy Community Call: JupyterLab interactive tool"
+title: 'Galaxy Community Call: JupyterLab interactive tool'
 date: '2022-07-07'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"
   url: "/community/community-calls/"
-external_url:
 gtn: false
-contact: "Anup Kumar"
-links:
-tags: ["community-call"]
+contact: Anup Kumar
+tags: [community-call]
 subsites: [all]
 ---
 

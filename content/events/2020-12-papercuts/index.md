@@ -1,18 +1,17 @@
 ---
-title: "Galaxy Papercuts CoFest Day: December 17"
+title: 'Galaxy Papercuts CoFest Day: December 17'
 date: '2020-12-17'
+tease: A community contribution day
 days: 1
-tease: 'A community contribution day'
 continent: GL
 location:
-  name: 'Online, Global'
-image: "papercuts-2020-12.gif"
-location_url: ""
-external_url:
+  name: Online, Global
+  url: ''
+image: papercuts-2020-12.gif
 gtn: false
 contact: Community
-tags: [ cofest, papercuts ]
-subsites: [global, us]
+tags: [cofest, papercuts]
+subsites: [all-eu, global, us]
 ---
 
 *Paper cuts are annoying but easy to fix bugs.*

@@ -1,21 +1,20 @@
 ---
-title: "Bringing GPU support to Galaxy"
+title: Bringing GPU support to Galaxy
 date: '2021-03-18'
+tease: Progress towards executing GPU applications in Galaxy
 days: 1
-tease: "Progress towards executing GPU applications in Galaxy"
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Jashwant Raj, Gulsum Gudukbay"
+contact: Jashwant Raj, Gulsum Gudukbay
 links:
-- text: "Video"
-  url: "https://youtu.be/bQFv4EVunWw"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/bQFv4EVunWw
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bQFv4EVunWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

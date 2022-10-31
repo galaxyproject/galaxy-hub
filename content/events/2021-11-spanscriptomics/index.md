@@ -1,17 +1,19 @@
 ---
-title: "Spanscriptomics: Análisis de células únicas usando Galaxy"
+title: 'Spanscriptomics: Análisis de células únicas usando Galaxy'
 date: '2021-11-29'
+tease: Curso de análisis de células únicas usando Galaxy en español.
 days: 2
-tease: "Curso de análisis de células únicas usando Galaxy en español."
 continent: GL
 location:
-  name: "Virtual y asincrónico, Global"
-external_url: "https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/"
-location_url: ""
+  name: Virtual y asincrónico, Global
+  url: ''
+external_url: https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/
 gtn: false
-contact: "Stefana Dreptate, Wendi Bacon"
-tags: []
-links:
-image: 
-subsites: [global, us]
+contact: Stefana Dreptate, Wendi Bacon
+tags: [training, webinar]
+subsites: [all-eu, global, us]
 ---
+
+Curso de análisis de células únicas con Galaxy en español. 
+
+Single-cell workshop in Spanish.

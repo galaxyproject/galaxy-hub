@@ -1,17 +1,19 @@
 ---
-title: "Metabolomics Community Call"
+title: 'Galaxy Metabolomics Community Call: Galaxy Interactive Tools - how to create
+  and use them'
 date: '2022-06-02'
-days: 1
-tease: "Dan Blankenberg will present 'How to create and use Galaxy Interactive Tools'"
-continent: EU
-location:
-  name: "Online, Freiburg, Germany"
-external_url: "https://galaxyproject.eu/event/2022-05-09-interactive-tools-metabo-call/"
-location_url: ""
-gtn: false
-contact: "Melanie Föll"
+end: '2022-06-02'
+tease: Dan Blankenberg will present 'How to create and use Galaxy Interactive Tools'
 tags: []
-links:
-image: "/images/communities/metabolomics.png"
-subsites: [global, eu]
+contacts:
+- email: foellmelanie@gmail.com
+  name: Melanie Föll
+location:
+  name: online
+continent: EU
+gtn: false
+subsites: [global, all-eu]
+main_subsite: eu
 ---
+
+As part of the bi-monthly metabolomics call, we have invited Dan Blankenberg to present on a general Galaxy topic: __"How to create and use Galaxy Interactive Tools"__. Everyone is welcome to join: The meeting will take place from 2 to 3 pm CEST via Zoom. Please send an email to Melanie to obtain the login details. 

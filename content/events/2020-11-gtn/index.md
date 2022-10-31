@@ -1,18 +1,18 @@
 ---
-title: "Galaxy Training Network day - (online) CoFest and community call"
+title: Galaxy Training Network day - (online) CoFest and community call
 date: '2020-11-19'
+tease: ''
 days: 1
-tease: ""
 continent: GL
 location:
-  name: "Online, Global"
-image:
-location_url:
-external_url:
-contact: "Saskia Hiltemann & Helena Rasche"
+  name: Online, Global
+contact: Saskia Hiltemann & Helena Rasche
 gtn: true
-tags: [ cofest ]
-subsites: [global, us]
+tags: [cofest, training]
+supporters:
+- elixir
+- denbi
+subsites: [all-eu, global, us]
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>

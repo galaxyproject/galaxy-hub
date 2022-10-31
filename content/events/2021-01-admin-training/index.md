@@ -1,17 +1,17 @@
 ---
-title: "2021 Galaxy Admin Training"
+title: 2021 Galaxy Admin Training
 date: '2021-01-25'
+tease: The ins and outs of setting up your own production quality Galaxy server.
 days: 5
-tease: "The ins and outs of setting up your own production quality Galaxy server."
 continent: GL
 location:
-  name: "Online, Global"
-location_url: ""
-external_url:
+  name: Online, Global
+  url: ''
 gtn: true
 contact: Instructors
-image: "/images/galaxy-logos/admin-training-logo.jpg"
-subsites: [global, us]
+image: /images/galaxy-logos/admin-training-logo.jpg
+tags: [training]
+subsites: [all-eu, global, us]
 ---
 
 **The next [Galaxy Admin Training](https://github.com/galaxyproject/admin-training) will be offered online and asynchronously January 25-29.**

@@ -1,8 +1,9 @@
 ---
-title: 'January 2021 Galactic News'
-tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
-date: "2021-01-07"
-subsites: [global, us]
+title: January 2021 Galactic News
+date: '2021-01-07'
+tease: Events, platform news, blog posts, videos, pubs, jobs and releases
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 <div class="card border-info">

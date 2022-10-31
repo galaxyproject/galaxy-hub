@@ -1,17 +1,15 @@
 ---
-title: "Galaxy Community Call: Tool Search “Past, Present, and Future”"
+title: 'Galaxy Community Call: Tool Search “Past, Present, and Future”'
 date: '2022-09-15'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"
   url: "/community/community-calls/"
-external_url:
 gtn: false
-contact: "Michelle Savage, Ahmed Awan, Tyler Collins"
-links:
-tags: ["community-call"]
+contact: Michelle Savage, Ahmed Awan, Tyler Collins
+tags: [training, community-call]
 subsites: [all]
 ---
 

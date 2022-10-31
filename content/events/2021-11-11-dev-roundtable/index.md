@@ -1,21 +1,21 @@
 ---
-title: "Separated data PVC: How it works and potential missed implications; and 21.09 Release Testing"
+title: 'Separated data PVC: How it works and potential missed implications; and 21.09
+  Release Testing'
 date: '2021-11-11'
+tease: Join the discsussion
 days: 1
-tease: "Join the discsussion"
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-wide-600.png
 gtn: false
-contact: "Alexandru Mahmoud, Keith Suderman"
+contact: Alexandru Mahmoud, Keith Suderman
 links:
-- text: "Slides: 21.09 Release Testing"
+- text: 'Slides: 21.09 Release Testing'
   url: https://docs.google.com/presentation/d/1Y-xsA3FY_V3xQCTlyW8uIOg08rUPnC7C8njRI3Z8zkA/edit#slide=id.gc2a6ff74d4_0_0
-tags: [ "devroundtable" ]
-subsites: [global, us]
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 Please <a href="https://psu.zoom.us/j/92752763386">join us</a> at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211111T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about

@@ -1,17 +1,15 @@
 ---
-title: "Galaxy Community Call: Automatic updates of Galaxy tools and workflows"
+title: 'Galaxy Community Call: Automatic updates of Galaxy tools and workflows'
 date: '2022-06-09'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"
   url: "/community/community-calls/"
-external_url:
 gtn: false
-contact: "Simon Bray"
-links:
-tags: ["community-call"]
+contact: Simon Bray
+tags: [community-call]
 subsites: [all]
 ---
 

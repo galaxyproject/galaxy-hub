@@ -1,8 +1,9 @@
 ---
-title: 'June 2020 Galactic News'
-tease: "James Taylor Foundation, BCC2020, Galaxy+SRA, Events, Platforms, ..."
-date: "2020-06-11"
-subsites: [global, us]
+title: June 2020 Galactic News
+date: '2020-06-11'
+tease: James Taylor Foundation, BCC2020, Galaxy+SRA, Events, Platforms, ...
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 # In the June 2020 issue

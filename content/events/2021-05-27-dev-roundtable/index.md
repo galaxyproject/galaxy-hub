@@ -1,23 +1,23 @@
 ---
-title: "Release Testing"
+title: Release Testing
 date: '2021-05-27'
+tease: What's changed recently, and what's involved
 days: 1
-tease: "What's changed recently, and what's involved"
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-wide-600.png
 gtn: false
-contact: "Keith Suderman, Dave Bouvier, David López, Qiang Gu, Vijay Nagampal, Marius van den Beek"
+contact: Keith Suderman, Dave Bouvier, David López, Qiang Gu, Vijay Nagampal, Marius
+  van den Beek
 links:
-- text: "Video"
-  url: "https://youtu.be/b35qKpahQYw"
-- text: "Slides"
-  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-27-dev-roundtable//21-05-release-testing-slides.pdf"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/b35qKpahQYw
+- text: Slides
+  url: https://depot.galaxyproject.org/hub/attachments/events/2021-05-27-dev-roundtable//21-05-release-testing-slides.pdf
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 <div class="video-variable">

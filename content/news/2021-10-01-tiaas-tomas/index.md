@@ -1,13 +1,14 @@
 ---
 title: Teaching bioinformatics through blood, mucus and tears
 date: '2021-10-01'
+tease: 'Watch out for that My Little Pony baby stroller.'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
 authors: TKlingstrom
 authors_structured:
 - github: TKlingstrom
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [global, us, all-eu]
 main_subsite: eu
 ---
 

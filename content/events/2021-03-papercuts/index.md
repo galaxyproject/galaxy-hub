@@ -1,18 +1,17 @@
 ---
-title: "Galaxy Papercuts CoFest Day: March 18"
+title: 'Galaxy Papercuts CoFest Day: March 18'
 date: '2021-03-18'
+tease: A community contribution day
 days: 1
-tease: 'A community contribution day'
 continent: GL
 location:
-  name: 'Online, Global'
-image: "/images/galaxy-logos/papercuts.png"
-location_url: "/events/cofests/papercuts/"
-external_url:
+  name: Online, Global
+  url: /events/cofests/papercuts/
+image: /images/galaxy-logos/papercuts.png
 gtn: false
 contact: Community
-tags: [ cofest, papercuts ]
-subsites: [global, us]
+tags: [cofest, papercuts]
+subsites: [all-eu, global, us]
 ---
 
 *Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*

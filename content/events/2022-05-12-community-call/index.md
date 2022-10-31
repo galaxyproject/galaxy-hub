@@ -1,17 +1,15 @@
 ---
-title: "Galaxy Community Call: GCC Demo Coordination"
+title: 'Galaxy Community Call: GCC Demo Coordination'
 date: '2022-05-12'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-location_url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "TBA"
-links:
-tags: ["community-call"]
+contact: TBA
+tags: [community-call]
 subsites: [all]
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6tT_TFq-6A8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

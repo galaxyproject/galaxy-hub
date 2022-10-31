@@ -1,17 +1,15 @@
 ---
-title: "Galaxy Community Call: Release 22.05"
+title: 'Galaxy Community Call: Release 22.05'
 date: '2022-06-23'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"
   url: "/community/community-calls/"
-external_url:
 gtn: false
-contact: "John Davis, Marius van den Beek"
-links:
-tags: ["community-call"]
+contact: John Davis, Marius van den Beek
+tags: [community-call]
 subsites: [all]
 ---
 

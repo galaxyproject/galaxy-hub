@@ -1,8 +1,9 @@
 ---
-title: 'October 2020 Galactic News'
-tease: "Events & JTech, platforms, blog posts, tutorials, pubs, releases, ..."
-date: "2020-10-07"
-subsites: [global, us]
+title: October 2020 Galactic News
+date: '2020-10-07'
+tease: Events & JTech, platforms, blog posts, tutorials, pubs, releases, ...
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 # In the  October 2020 issue

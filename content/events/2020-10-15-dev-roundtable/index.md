@@ -1,21 +1,20 @@
 ---
-title: "Galaxy release testing and publishing workflows to Dockstore and Workflowhub"
+title: Galaxy release testing and publishing workflows to Dockstore and Workflowhub
 date: '2020-10-15'
+tease: ''
 days: 1
-tease: ""
 continent: GL
 location:
-  name: "Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Sergey Golitsynskiy, Marius van den Beek"
+contact: Sergey Golitsynskiy, Marius van den Beek
 links:
-  - text: "Video"
-    url: "https://youtu.be/lGEBWXu6Lvw"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/lGEBWXu6Lvw
+tags: [devroundtable]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lGEBWXu6Lvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

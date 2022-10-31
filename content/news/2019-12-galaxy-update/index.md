@@ -1,8 +1,10 @@
 ---
-title: 'December 2019 Galactic News'
-tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Platypi too."
-date: "2019-12-09"
-subsites: [global, us]
+title: December 2019 Galactic News
+date: '2019-12-09'
+tease: Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Platypi
+  too.
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
@@ -165,11 +167,19 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[gProfiler is published and running on usegalaxy.eu](https://galaxyproject.eu/posts/2019/11/20/gProfiler/)</div>
+<div class="card-header trim-p">
+
+[gProfiler is published and running on usegalaxy.eu](/news/2019-11-20-g-profiler/)
+
+</div>
 
 By Ivan Kuzmin.  gProfiler is a toolset for functional enrichment analysis and conversions of gene lists.
 
-<img class="card-img-bottom" src="/blog/2019-11-gprofiler/gprofiler-logo.png" alt="gProfiler" />
+<div class="card-img-bottom">
+
+![gProfiler](./gprofiler-logo.png)
+
+</div>
 </div>
 
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">

@@ -1,15 +1,15 @@
 ---
-title: "Galaxy Community Call: Galaxy Release Process: Overview and Coming Changes"
+title: 'Galaxy Community Call: Galaxy Release Process: Overview and Coming Changes'
 date: '2022-10-27'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-  url: "/community/community-calls/"
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Dannon Baker"
-tags: ["community-call"]
+contact: Dannon Baker
+tags: [training, community-call]
 subsites: [all]
 ---
 

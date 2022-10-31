@@ -1,8 +1,9 @@
 ---
-title: 'December 2020 Galactic News'
-tease: "And what a month it is"
-date: "2020-12-08"
-subsites: [global, us]
+title: December 2020 Galactic News
+date: '2020-12-08'
+tease: And what a month it is
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 <div class="card border-info">

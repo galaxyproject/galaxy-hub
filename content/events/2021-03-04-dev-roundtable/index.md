@@ -1,23 +1,22 @@
 ---
-title: "Release Testing"
+title: Release Testing
 date: '2021-03-04'
+tease: What's changed recently, and what's involved
 days: 1
-tease: "What's changed recently, and what's involved"
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Sergey Golitsynskiy, David López, Assunta DeSanto, Keith Suderman, John Chilton"
+contact: Sergey Golitsynskiy, David López, Assunta DeSanto, Keith Suderman, John Chilton
 links:
-  - text: "Slides"
-    url: "https://docs.google.com/presentation/d/1RzRukgRw_8v4_W9X2HNUTL7sBK6Y3wBS0f73BTFfVUc/edit#slide=id.gc2a6ff74d4_0_0"
-  - text: "Video"
-    url: "https://youtu.be/H4oPneXH5hI"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Slides
+  url: https://docs.google.com/presentation/d/1RzRukgRw_8v4_W9X2HNUTL7sBK6Y3wBS0f73BTFfVUc/edit#slide=id.gc2a6ff74d4_0_0
+- text: Video
+  url: https://youtu.be/H4oPneXH5hI
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H4oPneXH5hI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

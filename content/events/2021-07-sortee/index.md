@@ -1,17 +1,18 @@
 ---
-title: "Galaxy-E at SORTEE 2021"
+title: Galaxy-E at SORTEE 2021
 date: '2021-07-12'
+tease: Open, reliable, and transparent ecology research with Galaxy-E
 days: 3
-tease: "Open, reliable, and transparent ecology research with Galaxy-E"
 continent: GL
 location:
-  name: "SORTEE 2021, Online, Global"
-location_url: "https://www.sortee.org/events/"
-external_url: ""
+  name: SORTEE 2021, Online, Global
+  url: https://www.sortee.org/events/
+external_url: ''
 gtn: true
-contact: "Yvan Le Bras"
+contact: Yvan Le Bras
 image: sortee-logo.png
-subsites: [global, us]
+tags: [training]
+subsites: [all-eu, global, us]
 ---
 
 [SORTEE 2021](https://www.sortee.org/events/) brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. The conference will feature social events, 'unconference' discussions, hackathons, workshops, short presentations, and six plenary presentations.

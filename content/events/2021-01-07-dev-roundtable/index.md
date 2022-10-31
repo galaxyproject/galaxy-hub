@@ -1,21 +1,20 @@
 ---
-title: "Galaxy Working Groups Follow Up and Discussion"
+title: Galaxy Working Groups Follow Up and Discussion
 date: '2021-01-07'
+tease: How are we doing after a month?
 days: 1
-tease: "How are we doing after a month?"
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Björn Grüning, Anton Nekrutenko"
+contact: Björn Grüning, Anton Nekrutenko
 links:
-  - text: "Video"
-    url: "https://youtu.be/OuxyMWuUBpQ"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/OuxyMWuUBpQ
+tags: [devroundtable]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OuxyMWuUBpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
