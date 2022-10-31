@@ -1,23 +1,23 @@
 ---
-title: "Galaxy Resources for Administrators & Infrastructure Providers"
-date: "2021-05-26"
+title: Galaxy Resources for Administrators & Infrastructure Providers
+date: '2021-05-26'
+tease: Part of the Galaxy Resources Webinar Series
 days: 1
-tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
 location:
-  name: "Galaxy Resources Webinar Series, Online, Global"
-image: 
-location_url: "/events/webinars/"
-external_url:
-contact: "Gianmauro Cuccuru, Lucille Delisle"
-tags: [ webinar ]
+  name: Galaxy Resources Webinar Series, Online, Global
+  url: /events/webinars/
+contact: Gianmauro Cuccuru, Lucille Delisle
+tags: [training, webinar]
 gtn: false
 links:
-- text: "Slides"
-  url: "https://docs.google.com/presentation/d/1wXVPNUwly-BuAIsz1PUWujsfJRbaLkpFn6Rt8lE-U9U/edit?usp=sharing"
-- text: "Video"
-  url: "https://youtu.be/vx2icgaU_h0"
-subsites: [global, us]
+- text: Slides
+  url: https://docs.google.com/presentation/d/1wXVPNUwly-BuAIsz1PUWujsfJRbaLkpFn6Rt8lE-U9U/edit?usp=sharing
+- text: Video
+  url: https://youtu.be/vx2icgaU_h0
+supporters:
+- galaxy
+subsites: [all-eu, global, us]
 ---
 
 * **10am Eastern US. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Admins+and+Infrastructure+Providers+Webinar&iso=20210526T10&p1=419&ah=1).**

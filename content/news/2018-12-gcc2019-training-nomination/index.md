@@ -1,7 +1,8 @@
 ---
-title: 'Nominate a training for the 2019 Galaxy Community Conference (GCC2019)'
+title: Nominate a training for the 2019 Galaxy Community Conference (GCC2019)
 date: '2018-12-01'
-subsites: [global, us]
+tags: [training, GCC]
+subsites: [eu, freiburg, global, us]
 ---
 <img class="img-fluid mx-auto" src="/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" />
 

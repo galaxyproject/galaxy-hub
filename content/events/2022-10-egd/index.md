@@ -1,16 +1,16 @@
 ---
-title: "European Galaxy Days (EGD)"
+title: European Galaxy Days (EGD)
 date: '2022-10-03'
+tease: European Galaxy Community meeting in Autumn
 days: 5
-tease: "European Galaxy Community meeting in Autumn"
 continent: EU
 location:
-  name: "Freiburg, Germany"
+  name: Freiburg, Germany
 gtn: false
-contact: "Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis, Anika Erxleben"
-links:
-tags: []
-subsites: [global, all-eu]
+contact: Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis, Anika
+  Erxleben
+tags: [training]
+subsites: [all-eu, global]
 ---
 
 It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy Days 2022**!

@@ -1,16 +1,16 @@
 ---
-title: "Galaxy Community Call: Muon Science community"
+title: 'Galaxy Community Call: Muon Science community'
 date: '2022-10-13'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-  url: "/community/community-calls/"
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Eli Chadwick"
-tags: ["community-call"]
-subsites: [all]
+contact: Eli Chadwick
+tags: [training, community-call]
+subsites: [all-eu, all]
 ---
 
 We will have some community updates followed by a presentation on [**Muon Science community**]() by **Eli Chadwick**. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing) or bring them to the call!

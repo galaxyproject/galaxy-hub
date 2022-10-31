@@ -1,18 +1,16 @@
 ---
-title: "Galaxy Community Call: Outcomes of the Outreachy projects"
+title: 'Galaxy Community Call: Outcomes of the Outreachy projects'
 date: '2022-08-18'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-location_url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Outreachy mentors & interns"
-links:
-tags: ["community-call"]
-subsites: [all]
+contact: Outreachy mentors & interns
+tags: [community-call]
+subsites: [all-eu, all]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yJ5K6_OIMs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

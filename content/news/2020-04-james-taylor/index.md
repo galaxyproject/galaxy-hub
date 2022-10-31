@@ -1,9 +1,10 @@
 ---
-title: 'James Taylor'
-tease: "1979 - 2020"
-external_url: ""
-date: "2020-04-03"
-subsites: [global, us]
+title: James Taylor
+date: '2020-04-03'
+tease: 1979 - 2020
+external_url: ''
+tags: []
+subsites: [all-eu, global, us]
 ---
 
 [<img class="float-right" src="/jxtx/james.jpg" alt="James Taylor" style="max-width: 20rem" />](/jxtx/)

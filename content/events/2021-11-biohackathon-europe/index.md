@@ -1,18 +1,20 @@
 ---
-title: "Galaxy @ BioHackathon-Europe 2021"
+title: Galaxy @ BioHackathon-Europe 2021
 date: '2021-11-08'
+tease: Advance the development of an open-source infrastructure for data integration
 days: 5
-tease: "Advance the development of an open-source infrastructure for data integration"
 continent: EU
 location:
-  name: "Barcelona + Online, Spain"
-location_url: "https://www.biohackathon-europe.org/index.html"
-external_url: ""
-image: "/images/logos/bhlogo.png"
-gtn: False
-contact: "Project organizers"
-tags: [ cofest ]
-subsites: [global, us]
+  name: Barcelona + Online, Spain
+  url: https://www.biohackathon-europe.org/index.html
+external_url: ''
+image: /images/logos/bhlogo.png
+gtn: false
+contact: Project organizers
+tags: [cofest]
+supporters:
+- elixir
+subsites: [all-eu, global, us]
 ---
 
 Galaxy is a popular topic at [BioHackathon-Europe 2021](https://www.biohackathon-europe.org/index.html) and is a prominent part of many of [this year's selected projects](https://biohackathon-europe.org/projects.html):

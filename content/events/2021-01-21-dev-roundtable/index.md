@@ -1,21 +1,20 @@
 ---
-title: "Galaxy Developer Roundtable: FastAPI"
+title: 'Galaxy Developer Roundtable: FastAPI'
 date: '2021-01-21'
+tease: ''
 days: 1
-tease: ""
 continent: GL
 location:
-  name: "Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Marius van den Beek"
+contact: Marius van den Beek
 links:
-  - text: "Video"
-    url: "https://youtu.be/Oe3vcFr80UE"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/Oe3vcFr80UE
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Oe3vcFr80UE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

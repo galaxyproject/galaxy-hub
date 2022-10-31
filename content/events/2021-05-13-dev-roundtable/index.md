@@ -1,23 +1,22 @@
 ---
-title: "Customizeable welcome and introduction page for new Galaxy users"
+title: Customizeable welcome and introduction page for new Galaxy users
 date: '2021-05-13'
+tease: Giving new users some obvious guidance when they first arrive.
 days: 1
-tease: "Giving new users some obvious guidance when they first arrive."
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Alex Ostrovsky"
+contact: Alex Ostrovsky
 links:
-- text: "Video"
-  url: "https://youtu.be/MSUt-F9Jib4"
-- text: "Slides"
-  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-13-dev-roundtable/new-users-landing.pdf"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/MSUt-F9Jib4
+- text: Slides
+  url: https://depot.galaxyproject.org/hub/attachments/events/2021-05-13-dev-roundtable/new-users-landing.pdf
+tags: [devroundtable, training, webinar]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MSUt-F9Jib4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

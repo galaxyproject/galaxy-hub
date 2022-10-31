@@ -1,9 +1,10 @@
 ---
-title: 'April 2021 Galactic News'
-tease: "GCC2021 Abstracts and Registration are open, plus lots more."
-date: "2021-04-12"
+title: April 2021 Galactic News
+date: '2021-04-12'
+tease: GCC2021 Abstracts and Registration are open, plus lots more.
 autotoc: false
-subsites: [global, us]
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>

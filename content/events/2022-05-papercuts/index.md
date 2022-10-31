@@ -1,17 +1,16 @@
 ---
-title: "GTN CoFest & Galaxy Papercuts CoFest Day"
+title: GTN CoFest & Galaxy Papercuts CoFest Day
 date: '2022-05-19'
+tease: A community contribution day
 days: 1
-tease: 'A community contribution day'
 continent: GL
 location:
-  name: 'Online, Global'
-location_url: "/events/cofests/papercuts/"
-external_url:
+  name: Online, Global
+  url: /events/cofests/papercuts/
 gtn: false
 contact: Community
-tags: [ cofest, papercuts ]
-subsites: [global, all-eu, us]
+tags: [cofest, papercuts]
+subsites: [all-eu, global, us]
 ---
 
 <img style="float:right; height:12rem; padding-left:10px" class="text-center img-sizer autowidth" src="/events/2022-05-papercuts/papercuts-2022-05.png">

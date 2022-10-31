@@ -1,17 +1,17 @@
 ---
-title: "Galaxy Community Call: Workflows, Planemo, BioBlend and tags to automate SARS-CoV-2 genome surveillance"
+title: 'Galaxy Community Call: Workflows, Planemo, BioBlend and tags to automate SARS-CoV-2
+  genome surveillance'
 date: '2022-09-29'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-  url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Wolfgang Maier"
-tags: ["community-call"]
-subsites: [all]
+contact: Wolfgang Maier
+tags: [training, community-call]
+subsites: [all-eu, all]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A1gTKwjvgrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

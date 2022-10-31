@@ -1,18 +1,16 @@
 ---
-title: "Galaxy Community Call: Tool Search “Past, Present, and Future”"
+title: 'Galaxy Community Call: Tool Search “Past, Present, and Future”'
 date: '2022-09-15'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-location_url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Michelle Savage, Ahmed Awan, Tyler Collins"
-links:
-tags: ["community-call"]
-subsites: [all]
+contact: Michelle Savage, Ahmed Awan, Tyler Collins
+tags: [training, community-call]
+subsites: [all-eu, all]
 ---
 
 We will have some community updates followed by a presentation on [**Tool Search “Past, Present, and Future”**](https://docs.google.com/presentation/d/1rjay3Upxn1tYySkFIle8vYhBDiQEkx1t8TcxbRX6aY4/edit?usp=sharing) by **Michelle Savage, Ahmed Awan, Tyler Collins**. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing) or bring them to the call!

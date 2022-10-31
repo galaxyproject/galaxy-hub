@@ -1,8 +1,10 @@
 ---
-title: 'May 2019 Galactic News'
-tease: 'GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: "2019-05-06"
-subsites: [global, us]
+title: May 2019 Galactic News
+date: '2019-05-06'
+tease: GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms,
+  Pubs, Jobs, Blog!, Training, Tools, Releases and more!
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 [<img class="float-right" src="/news/2019-05-galaxy-update/03may19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)

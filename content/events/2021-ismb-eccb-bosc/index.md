@@ -1,16 +1,17 @@
 ---
-title: 'Galaxy @ ISMB/ECCB 2021 & BOSC 2021'
+title: Galaxy @ ISMB/ECCB 2021 & BOSC 2021
 date: '2021-07-25'
+tease: ''
 days: 7
-tease: ""
 continent: EU
 location:
-  name: "Lyon, Online, France"
+  name: Lyon, Online, France
+  url: https://www.iscb.org/ismbeccb2021
 image: ismb-eccb-bosc-2021.png
-location_url: https://www.iscb.org/ismbeccb2021
 contact: Presenters
 gtn: false
-subsites: [global, us]
+tags: [training, talk, poster]
+subsites: [all-eu, global, us]
 ---
 
 Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org/ismbeccb2021) and [BOSC](https://www.open-bio.org/events/bosc-2021/), and we expect to be there again in 2021. This page will lists all known Galaxy related events and presentations in 2021. If you have something that isn't listed, please add it below (or send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org)).

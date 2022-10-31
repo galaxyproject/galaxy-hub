@@ -1,18 +1,18 @@
 ---
-title: "GTN CoFest and community call"
+title: GTN CoFest and community call
 date: '2019-05-16'
+tease: ''
 days: 1
-tease: ""
 continent: GL
 location:
-  name: "Online"
-image: 
-location_url:
-external_url: 
-contact: "Bérénice Batut, Saskia Hiltemann"
+  name: Online
+contact: Bérénice Batut, Saskia Hiltemann
 gtn: false
-tags: [ cofest ]
-subsites: [global, us]
+tags: [cofest, training]
+supporters:
+- elixir
+- denbi
+subsites: [all-eu, global, us]
 ---
 
 The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: one central place (https://training.galaxyproject.org) to aggregate training materials covering many current research topics. Each topic is supported by different tutorials developed and maintained by the community via a GitHub repository: https://github.com/galaxyproject/training-material.

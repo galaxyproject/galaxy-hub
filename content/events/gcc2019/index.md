@@ -2,6 +2,7 @@
 title: GCC2019 - Freiburg, DE
 skip_title_render: true
 autotoc: false
+subsites: [all]
 ---
 
 <slot name="/events/gcc2019/header" />

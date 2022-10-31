@@ -1,27 +1,28 @@
 ---
-title: "Galaxy Resources for Tool Developers"
-date: "2021-05-12"
+title: Galaxy Resources for Tool Developers
+date: '2021-05-12'
+tease: Part of the Galaxy Resources Webinar Series
 days: 1
-tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
 location:
-  name: "Galaxy Resources Webinar Series, Online, Global"
-image: "gr4-tools-webinar.png"
-location_url: "/events/webinars/"
-external_url:
-contact: "Dan Blankenberg, Anthony Bretaudeau, Petr Novak"
-tags: [ webinar ]
+  name: Galaxy Resources Webinar Series, Online, Global
+  url: /events/webinars/
+image: gr4-tools-webinar.png
+contact: Dan Blankenberg, Anthony Bretaudeau, Petr Novak
+tags: [training, webinar]
 gtn: false
 links:
-- text: "Video"
-  url: "https://youtu.be/MdQyltMAocg"
-- text: "Ecosystem slides"
-  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-ecosystem.pdf "
-- text: "Docker slides"
-  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf "
-- text: "Server slides"
-  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-server.pdf "
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/MdQyltMAocg
+- text: Ecosystem slides
+  url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-ecosystem.pdf '
+- text: Docker slides
+  url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf '
+- text: Server slides
+  url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-server.pdf '
+supporters:
+- galaxy
+subsites: [all-eu, global, us]
 ---
 
 * **10am Eastern US / 4pm Central European / [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1)**

@@ -1,18 +1,18 @@
 ---
-title: "Galaxy Training Network day - (online) CoFest and community call"
+title: Galaxy Training Network day - (online) CoFest and community call
 date: '2019-09-12'
+tease: ''
 days: 1
-tease: ""
 continent: GL
 location:
-  name: "Online"
-image: 
-location_url:
-external_url: 
-contact: "Bérénice Batut"
+  name: Online
+contact: Bérénice Batut
 gtn: false
-tags: [ cofest ]
-subsites: [global, us]
+tags: [cofest, training]
+supporters:
+- elixir
+- denbi
+subsites: [eu, freiburg, global, us]
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>

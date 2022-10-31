@@ -1,17 +1,26 @@
 ---
-title: "Galaxy @ ABRF 2020"
+title: Galaxy @ ABRF 2020
 date: '2020-02-29'
+tease: Single Cell, and Functional Characteristics of Microbiomes
 days: 4
-tease: "Single Cell, and Functional Characteristics of Microbiomes"
 continent: NA
 location:
-  name: "ABRF 2020, Palm Springs, California, United States"
-location_url: http://conf.abrf.org/
-external_url:
-image: "/images/logos/abrf-logo-color-text.png"
+  name: ABRF 2020, Palm Springs, California, United States
+  url: http://conf.abrf.org/
+image: /images/logos/abrf-logo-color-text.png
 gtn: true
-contact: "Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Mehta, Mehmet Tekman"
-subsites: [global, us]
+contact: Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Mehta,
+  Mehmet Tekman
+tags: [training]
+supporters:
+- unifreiburg
+- denbi
+- elixir
+- sciex
+- thermofisher
+- illumina
+- ncgas
+subsites: [eu, freiburg, global, us]
 ---
 
 **Mequite D Room, 8am - 4pm**

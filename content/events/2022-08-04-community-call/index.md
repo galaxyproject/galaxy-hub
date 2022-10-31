@@ -1,18 +1,16 @@
 ---
-title: "Galaxy Community Call: Machine Learning Toolkit in Galaxy"
+title: 'Galaxy Community Call: Machine Learning Toolkit in Galaxy'
 date: '2022-08-04'
+tease: A forum to share updates and discuss community-wide topics
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-location_url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
 gtn: false
-contact: "Kaivan Kamali"
-links:
-tags: ["community-call"]
-subsites: [all]
+contact: Kaivan Kamali
+tags: [training, community-call]
+subsites: [all-eu, all]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FZ_UVYoZK7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

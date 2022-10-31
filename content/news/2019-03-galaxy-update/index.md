@@ -1,8 +1,10 @@
 ---
-title: 'March 2019 Galactic News'
-tease: 'GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: "2019-03-04"
-subsites: [global, us]
+title: March 2019 Galactic News
+date: '2019-03-04'
+tease: GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, Training,
+  Tools, Releases and more!
+tags: [newsletter, galaxy]
+subsites: [all-eu, global, us]
 ---
 
 [<img class="float-right" src="/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)

@@ -1,21 +1,20 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: Galaxy Developer Roundtable
 date: '2020-10-29'
+tease: Tool testing and tool deployment discussion
 days: 1
-tease: "Tool testing and tool deployment discussion"
 continent: GL
 location:
-  name: "Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Online, Global
+  url: /community/devroundtable/
+image: /images/galaxy-logos/galaxy-developer-roundtable-300.png
 gtn: false
-contact: "Dannon Baker, John Chilton, Marius van den Beek"
+contact: Dannon Baker, John Chilton, Marius van den Beek
 links:
-  - text: "Video"
-    url: "https://youtu.be/coKgWylWqNU"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/coKgWylWqNU
+tags: [devroundtable]
+subsites: [all-eu, global, us]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/coKgWylWqNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
