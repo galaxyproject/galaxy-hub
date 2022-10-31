@@ -1,9 +1,7 @@
 ---
 title: 'Training Infrastructure feedback: FORCeS eScience course'
 date: '2021-11-13'
-tease: 'The FORCeS eScience course "Tools in Climate Science: Linking Observations with Modelling"
-  was held at the Tjärnö Marine Biological Laboratory, Sweden, from November 1st to November 8th.'
-hide_tease: true
+tease: 'Tools in Climate Science: Linking Observations with Modelling'
 tags: [training, TIaaS]
 supporters:
 - galaxy-europe
@@ -11,7 +9,7 @@ supporters:
 authors: annefou
 authors_structured:
 - github: annefou
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

@@ -331,7 +331,7 @@ Leighton reports on the University of Strathclyde's experience teach Advanced Mi
 
 *Spoiler: It went well.*
 
-![SARS in JBrowse](/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg)
+![SARS in JBrowse](./sars-in-jbrowse.jpg)
 
 </div>
 

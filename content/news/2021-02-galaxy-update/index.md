@@ -401,7 +401,7 @@ By Wolfgang Maier and Björn Grüning.
 
 Continuous tracking of viral evolution through genome sequencing.
 
-![Variation](/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png)
+![Variation](./sars-cov-2-variation-plot.png)
 
 </div>
 
