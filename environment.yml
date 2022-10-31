@@ -1,0 +1,7 @@
+name: galaxyproject-hub
+channels:
+  - conda-forge
+dependencies:
+  - nodejs
+  - yarn
+
