@@ -10,7 +10,27 @@ authors_structured:
 - github: hexylena
 ---
 
+## Background
+
 On October 25, the OpenSSL team announced that a new version would be released on November 1, containing "CRITICAL" fixes for security vulnerabilities, suggesting exploitation would be possible under common deployment circumstances. Now that the details of these vulnerabilities have been released, we have been able to perform an assessment of their impact on Galaxy. At the time of release, the vulnerability was downgraded in severity from CRITICAL to HIGH, and further analysis by security experts indicates that the exploitability of the vulnerabilities is very low. **As a result, the exploitability against a Galaxy service is also very low.**
+
+## Executive Summary
+
+OS:
+
+- Recent operating systems (e.g. Ubuntu 22.04, RHEL9) require an OS package update.
+- If you installed Galaxy in a Conda, you must check the OpenSSL version.
+
+Galaxy:
+
+- Galaxy 22.05 requires a dependency update.
+- Galaxy 22.01 is safe.
+
+Tools:
+
+- All galaxies may wish to update dependencies for individual environments, and evaluate switching to BioContainers for additional protections.
+
+## Details
 
 Please see the [official disclosure page](https://www.openssl.org/blog/blog/2022/11/01/email-address-overflows/) for details, and the <abbr title="Dutch National Cyber Security Center">NCSC-NL</abbr> has provided a [list of vulnerable OSes, software, and products](https://github.com/NCSC-NL/OpenSSL-2022). You can find a good technical discussion of the vulnerabilities and their exploitability [in this repository](https://github.com/colmmacc/CVE-2022-3602).
 
