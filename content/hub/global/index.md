@@ -1,6 +1,6 @@
 ---
 title: The Global Hub
-pretitle: "[← Back to Hub documentation](/hub/)"
+pretitle: "[← Back to Hub documentation home](/hub/)"
 ---
 
 The "Global Hub" is what we call the system for dividing the Hub into "subsites" where each Galaxy community can have their own section of the website. When you click the "Regions" dropdown menu in the navbar, those are all subsites.
