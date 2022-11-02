@@ -169,3 +169,12 @@ To make it available to your template, you also need to add a clause to your `<p
 ..where `events/` is the url of the dynamic page and `main` is the base name of the Markdown file. You can actually name your Markdown file anything as long as you replace that part of the query. A common one is `footer.md` for content that goes below the dynamic content.
 
 FYI, under the hood this is done with a custom [Collection](https://gridsome.org/docs/collections/) named `Insert`. Any `.md` file *not* named `index.md` automatically becomes an `Insert`.
+
+## License
+
+The [contents](/contents/) of the Galaxy Hub are licensed under the [Creative
+Commons Attribution 4.0 International
+License](https://creativecommons.org/licenses/by/4.0).
+
+The code behind the infrastructure is licensed under the [MIT
+License](LICENSE.md)
