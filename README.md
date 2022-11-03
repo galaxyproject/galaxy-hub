@@ -6,75 +6,11 @@ This is the repository for the [Galaxy Community Hub](https://galaxyproject.org)
 
 We could describe it here, but really, see the web site that is generated from this repository: [galaxyproject.org](https://galaxyproject.org). That will save a lot of typing.
 
-## Getting started
+## More info
 
-First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1](https://yarnpkg.com/)\*, but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
-
-\*Do not use Yarn 2.
-
-### Get Node and Yarn
-
-What if you don't already have Node and Yarn 1 installed?
-
-#### On MacOS
-
-If you don't already have Node and Yarn installed, then we recommend using Homebrew.  If you don't have Homebrew, then install it with
-```sh
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-Then update your `$PATH` by following the displayed instructions.
-
-To install Node:
-```sh
-$ brew install node
-```
-
-Then install Yarn 1:
-```sh
-$ npm install --global yarn
-```
-
-### Clone the repo and launch the site.
-
-You can get the site running locally by first cloning this repo:  
-```sh
-$ git clone 'https://github.com/galaxyproject/galaxy-hub.git'
-```
-
-Then install the dependencies:
-```sh
-$ cd galaxy-hub
-$ yarn install
-```
-
-Then you can build the site in development mode to run it in a local server (at http://localhost:8080) and see your content:
-```sh
-$ yarn develop
-```
-This command includes a hot reloader which will update the site automatically each time you edit a file.
-
-To generate the static files for the entire site, just run `build` instead:
-```sh
-$ yarn build
-```
-The static files can then be found in the `dist` directory.
+The main documentation for the Hub is kept on the Hub itself! See [this page](https://galaxyproject.org/hub/) for info on things like contributing content and running the site locally. Of course, since this repo is the source for the site, you can also find the documentation here. The source for that page is in [content/hub/index.md](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/index.md).
 
 ## Creating static pages
-
-### File organization
-
-To see an example of how the files are organized, see the [`src`](/NickSto/galaxy-hub/tree/gridhub/src) directory of the [`gridhub`](/NickSto/galaxy-hub/tree/gridhub) branch of [`galaxy-hub`](/galaxyproject/galaxy-hub).
-
-For static pages (normal, informational pages), you create a directory, whose name becomes the last part of the url. Then you create an `index.md` file inside it. The url will be everything *after* `content` and *before* `index.md`:
-
-| Path to Markdown file                        | URL path                      |
-|:---------------------------------------------|:----------------------------- |
-| `content/events/2021-02-gtn/index.md`        | `/events/2021-02-gtn/`        |
-| `content/galaxy-project/statistics/index.md` | `/galaxy-project/statistics/` |
-
-### Writing the Markdown
-
-See the [Authoring Guide](doc/AUTHORING.md)
 
 ### Custom layouts for static pages
 
@@ -110,10 +46,6 @@ To define a new category, just add another entry, with the parent url as the key
 ## Creating dynamic pages
 
 Dynamic pages are ones where part of it is auto-generated. Usually they list a certain group of static pages.
-
-### File organization
-
-These are created by making a `.vue` file in the `src/pages/` directory. Much like the Markdown files, the placement of the `.vue` file determines the url. So `src/pages/Blog.vue` displays at `/blog/` and `src/pages/news/Gtn.vue` would display at `/news/gtn/`. There's also the `src/mediated-pages/` directory, which works the same except pages there have access to some custom variables set by the framework.
 
 ### Querying for the auto-generated content
 
