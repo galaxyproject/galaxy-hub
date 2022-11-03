@@ -1,6 +1,6 @@
 ---
 title: Contributing content
-pretitle: "[← Back to Hub documentation home](/hub/)"
+pretitle: "[Home](/) > [Hub](/hub/) > [Contributing](/hub/contributing/)"
 ---
 
 This page is for those who want to create or edit content pages on the Hub.
@@ -62,7 +62,7 @@ The message you get after you do that will include a url you can visit to create
 
 Static files are written in YAML and Markdown.
 
-Each file should start with the metadata in [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) format. This section starts and ends with a line with just three dashes (`---`). The YAML header is where you put the title of the page and other metadata like the date of an event. Then after the YAML section is the content of the page in [Markdown](https://www.markdownguide.org/basic-syntax/).
+Each file should start with the metadata in [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) format. This section starts and ends with a line with just three dashes (`---`). The YAML header is where you put the title of the page and other metadata like the date of an event. Then after the YAML section is the content of the page in [Markdown](https://www.markdownguide.org/basic-syntax/). See [this page](/hub/contributing/markdown/) for tips on formatting your Markdown.
 
 ## Running the development server
 

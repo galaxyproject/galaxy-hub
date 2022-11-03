@@ -1,5 +1,6 @@
 ---
 title: About The Galaxy Community Hub
+pretitle: "[Home](/) > [Hub](/hub/)"
 ---
 
 This website ([galaxyproject.org](/)) is a central place for information and updates about the Galaxy Project.
