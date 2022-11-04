@@ -3,7 +3,7 @@ title: Impact on Galaxy of OpenSSL 3.0.x Vulnerabilities CVE-2022-3602 and CVE-2
 tease: Official severity downgraded to HIGH, exploitability and impact to Galaxy is very low
 date: '2022-11-01'
 tags: [galaxy, admin, security]
-subsites: [global]
+subsites: [global,all]
 authors: Nate Coraor and Helena Rasche
 authors_structured:
 - github: natefoo
