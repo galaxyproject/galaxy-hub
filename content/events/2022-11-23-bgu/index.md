@@ -18,9 +18,9 @@ autotoc: false
 # Galaxy workshop at Ben-Gurion University 
 
 <div class="alert alert-success" role="alert">
-  November <b>23</b>, 09:00am-11:55am | Building 35, Room 403 | Bring your laptop!
+  November <b>23</b>, 09:00am-11:55am | Building 35, Room 403 | Bring your laptop!<br>
+  Free registration is <b>required</b> for this workshop. This will allow us to prepare well and make it as effective as possible. Please use <a href="https://forms.gle/6n2QzXzW68fHfKwFA">[this form]</a> to register.
 </div>
-
 
 ## What will be covered?
 
