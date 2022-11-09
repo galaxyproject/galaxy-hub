@@ -2,10 +2,27 @@
     <component :is="currentLayout">
         <p v-html="$page.main.content" class="mb"></p>
 
-        <h2 class="mb-3">Objectives</h2>
+        <h2 class="mb-3">
+            {{ $page.datasetObjectives.heading }}
+        </h2>
 
-        <div class="objectives mb">
+        <div class="info-4 mb">
             <div v-for="objective in $page.datasetObjectives.objectives" class="card shadow-sm">
+                <h3 class="card-header mt-0">
+                    {{ objective.title }}
+                </h3>
+                <div class="card-body p-2">
+                    <p>{{ objective.content }}</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mb-3">
+            {{ $page.datasetExpectedResults.heading }}
+        </h2>
+
+        <div class="info-4 mb">
+            <div v-for="objective in $page.datasetExpectedResults.expected_results" class="card shadow-sm">
                 <h3 class="card-header mt-0">
                     {{ objective.title }}
                 </h3>
@@ -148,7 +165,16 @@ query {
     }
 
     datasetObjectives: dataset(path: "/dataset:/projects/esg/objectives/") {
+        heading,
         objectives {
+            title,
+            content
+        }
+    }
+
+    datasetExpectedResults: dataset(path: "/dataset:/projects/esg/expected_results/") {
+        heading,
+        expected_results {
             title,
             content
         }
@@ -248,7 +274,7 @@ h1, h2, h3 {
     margin-bottom: 3rem;
 }
 
-.objectives {
+.info-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
@@ -275,7 +301,7 @@ h1, h2, h3 {
 
         p {
             line-height: 1.4em;
-            padding: 0.1rem 0.4rem;
+            padding: 0 0.4rem;
         }
     }
 }
