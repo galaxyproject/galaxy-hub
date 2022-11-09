@@ -2,7 +2,7 @@
     <div :class="['card', article.closed ? 'border-muted text-muted closed' : 'border-primary']">
         <div class="card-header">
             <Continent :continent="article.continent" />
-            <a :class="'title' + (article.closed ? ' text-muted' : '')" :href="article.external_url">
+            <a :class="'title' + (article.closed ? ' text-muted' : '')" :href="article.external_url || article.path">
                 {{ article.title }}
             </a>
         </div>
@@ -25,7 +25,7 @@
         <p class="markdown" v-html="mdToHtml(article.summary)"></p>
         <p v-if="article.contact" class="contact">Contact: {{ article.contact }}</p>
         <p v-if="article.image" class="logo">
-            <a :href="article.external_url">
+            <a :href="article.external_url || article.path">
                 <g-image class="card-img-bottom" :src="getImage(article.image)" />
             </a>
         </p>
