@@ -25,7 +25,7 @@
         <p class="markdown" v-html="mdToHtml(article.summary)"></p>
         <p v-if="article.contact" class="contact">Contact: {{ article.contact }}</p>
         <p v-if="article.image" class="logo">
-            <a :href="article.external_url">
+            <a :href="article.external_url || article.path">
                 <g-image class="card-img-bottom" :src="getImage(article.image)" />
             </a>
         </p>
