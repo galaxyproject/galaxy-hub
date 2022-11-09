@@ -6,9 +6,9 @@
 
         <div class="objectives mb">
             <div v-for="objective in $page.datasetObjectives.objectives" class="card shadow-sm">
-                <h2 class="card-header mt-0">
+                <h3 class="card-header mt-0">
                     {{ objective.title }}
-                </h2>
+                </h3>
                 <div class="card-body p-2">
                     <p>{{ objective.content }}</p>
                 </div>
