@@ -1,10 +1,10 @@
 partners:
 - name: VIB
-  image: ./partner-logos/VIB LOGO.png
+  image: ./partner-logos/VIB.svg
   website: https://vib.be/
 
 - name: The University of Manchester
-  image: ./partner-logos/MANCHESTER.jpg
+  image: ./partner-logos/UNIMAN.svg
   website: https://www.manchester.ac.uk/
 
 - name: University Paris
@@ -16,7 +16,7 @@ partners:
   website: https://www.bio.unifi.it/
 
 - name: UK Research and Innovation
-  image: ./partner-logos/UKRI.png
+  image: ./partner-logos/UKRI_STF_Council-Logo_Horiz-RGB.png
   website: https://www.ukri.org/
 
 - name: Universitat de Barcelona
@@ -24,7 +24,7 @@ partners:
   website: https://www.ub.edu/
 
 - name: TÜBİTAK
-  image: ./partner-logos/TÜBİTAK_logo.svg.png
+  image: ./partner-logos/TÜBİTAK ULAKBİM Logo.svg
   website: https://www.tubitak.gov.tr/
 
 - name: University of Oslo
@@ -32,7 +32,7 @@ partners:
   website: https://www.uio.no/
 
 - name: AGH University of Science and Technology
-  image: ./partner-logos/logo-AGH.png
+  image: ./partner-logos/uni_agh-1.png
   website: https://www.agh.edu.pl/
 
 - name: Istituto Nazionale di Fisica Nucleare
@@ -40,7 +40,7 @@ partners:
   website: https://home.infn.it/
 
 - name: EPFL
-  image: ./partner-logos/EPFL LOGO.png
+  image: ./partner-logos/epfl-logo-new.svg
   website: https://www.epfl.ch/
 
 - name: cnrs
@@ -48,7 +48,7 @@ partners:
   website: https://www.cnrs.fr/
   
 - name: Consiglio Nazionale delle Ricerche
-  image: ./partner-logos/CNR LOGO.jpg
+  image: ./partner-logos/CNR.png
   website: https://www.cnr.it/
 
 - name: cesnet
@@ -56,7 +56,7 @@ partners:
   website: https://www.cesnet.cz/
 
 - name: Barcelona Supercomputing Center
-  image: ./partner-logos/BSC-Logo.png
+  image: ./partner-logos/BSC-logo-paths.svg
   website: https://www.bsc.es/
 
 - name: Institute of Informatics - SAS
@@ -66,3 +66,7 @@ partners:
 - name: Advanced computing for research
   image: ./partner-logos/EGI_Logo_RGB.svg
   website: https://www.egi.eu/
+
+- name: ACK Cyfronet AGH
+  image: ./partner-logos/CyfronetLogo.png
+  website: https://www.cyfronet.pl/

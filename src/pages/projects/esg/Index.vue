@@ -1,6 +1,21 @@
 <template>
     <component :is="currentLayout">
-        <p v-html="$page.main.content" class="mb-4"></p>
+        <p v-html="$page.main.content" class="mb"></p>
+
+        <h2 class="mb-3">Objectives</h2>
+
+        <div class="objectives mb">
+            <div v-for="objective in $page.datasetObjectives.objectives" class="card shadow-sm">
+                <h2 class="card-header mt-0">
+                    {{ objective.title }}
+                </h2>
+                <div class="card-body p-2">
+                    <p>{{ objective.content }}</p>
+                </div>
+            </div>
+        </div>
+
+        <p v-html="$page.section_1.content" class="mb"></p>
 
         <h2>
             {{ $page.datasetLinks.heading }}
@@ -128,6 +143,17 @@ query {
         content
     }
 
+    section_1: insert(path: "/insert:/projects/esg/section_1/") {
+        content
+    }
+
+    datasetObjectives: dataset(path: "/dataset:/projects/esg/objectives/") {
+        objectives {
+            title,
+            content
+        }
+    }
+
     datasetPartners: dataset(path: "/dataset:/projects/esg/partners/") {
         partners {
             name,
@@ -187,6 +213,23 @@ p {
     &::v-deep img {
         max-width: 100%;
     }
+
+    &::v-deep hr {
+        max-width: 80%;
+        margin: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        height: 1px;
+        background-color: #c5c7c9;
+    }
+
+    &::v-deep h1, &::v-deep h2, &::v-deep h3 {
+        font-weight: 400;
+    }
+}
+
+h1, h2, h3 {
+    font-weight: 400;
 }
 
 .external-links {
@@ -205,9 +248,36 @@ p {
     margin-bottom: 3rem;
 }
 
-// bootstrap override
-div.card::v-deep p {
-    padding: unset;
+.objectives {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+
+    @media screen and (max-width: 1000px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    @media screen and (max-width: 400px) {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        background-color: transparent;
+        border: 2px solid #3f6cb3;
+        border-radius: 0.5rem;
+
+        .card-header {
+            background-color: #3f6cb3;
+            color: white;
+            padding: 0.1rem 0.8rem;
+        }
+
+        p {
+            line-height: 1.4em;
+            padding: 0.1rem 0.4rem;
+        }
+    }
 }
 
 .news-and-events {
@@ -215,6 +285,11 @@ div.card::v-deep p {
     flex-direction: row;
     align-items: stretch;
     gap: 2rem;
+
+    // bootstrap override
+    div.card::v-deep p {
+        padding: unset;
+    }
 
     // makes sure the twitter component doesn't expand this element on load
     min-height: 30rem;
