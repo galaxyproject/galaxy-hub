@@ -2,7 +2,7 @@
     <div :class="['card', article.closed ? 'border-muted text-muted closed' : 'border-primary']">
         <div class="card-header">
             <Continent :continent="article.continent" />
-            <a :class="'title' + (article.closed ? ' text-muted' : '')" :href="article.external_url">
+            <a :class="'title' + (article.closed ? ' text-muted' : '')" :href="article.external_url || article.path">
                 {{ article.title }}
             </a>
         </div>
