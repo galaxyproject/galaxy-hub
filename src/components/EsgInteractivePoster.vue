@@ -13,10 +13,10 @@
 				<div class="indicator" :class="{ 'hidden': currentInfo.hidden }"></div>
 			</div>
 			<div class="click-overlay">
-				<a role="button" style="grid-area: wp-1;" @click="() => onWpClick(1)"></a>
-				<a role="button" style="grid-area: wp-2;" @click="() => onWpClick(2)"></a>
-				<a role="button" style="grid-area: wp-3-4;" @click="() => onWpClick(3)"></a>
-				<a role="button" style="grid-area: wp-5;" @click="() => onWpClick(5)"></a>
+				<button style="grid-area: wp-1;" @click="() => onWpClick(1)"></button>
+				<button style="grid-area: wp-2;" @click="() => onWpClick(2)"></button>
+				<button style="grid-area: wp-3-4;" @click="() => onWpClick(3)"></button>
+				<button style="grid-area: wp-5;" @click="() => onWpClick(5)"></button>
 			</div>
 		</div>
 		
@@ -197,7 +197,10 @@ export default {
 		                     "nonB nonA wp-3-4 wp-1"
 		                     "nonB nonA nonC nonC";
 		
-		a {
+		button {
+			border: none;
+			box-shadow: none;
+			background-color: transparent;
 			pointer-events: all;
 		}
 	}
