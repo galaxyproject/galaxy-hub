@@ -1,5 +1,5 @@
 <template>
-    <div class="card h-100 shadow-sm bg-light rounded border-0">
+    <div class="card h-100 shadow-sm">
         <h2 class="card-header mt-0">
             {{ title }}
         </h2>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 433 2954" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-6378,-923)">
+        <g transform="matrix(1,0,0,1,0,94.4882)">
+            <g>
+                <g transform="matrix(0.8,0,0,1.00412,1412.6,553.903)">
+                    <path d="M6708.66,342.326C6708.66,316.358 6682.2,295.276 6649.61,295.276L6295.28,295.276C6262.68,295.276 6236.22,316.358 6236.22,342.326L6236.22,3118.3C6236.22,3144.27 6262.68,3165.35 6295.28,3165.35L6649.61,3165.35C6682.2,3165.35 6708.66,3144.27 6708.66,3118.3L6708.66,342.326Z" style="fill:rgb(11,83,148);"/>
+                </g>
+                <g>
+                    <path d="M6732.28,944.882C6732.28,918.807 6711.11,897.638 6685.04,897.638L6496.06,897.638C6469.99,897.638 6448.82,918.807 6448.82,944.882L6448.82,1370.08C6448.82,1396.15 6469.99,1417.32 6496.06,1417.32L6685.04,1417.32C6711.11,1417.32 6732.28,1396.15 6732.28,1370.08L6732.28,944.882Z" style="fill:rgb(241,194,50);"/>
+                    <g transform="matrix(2.45292e-16,4.00593,-4.00593,2.45292e-16,10621.7,-24995.3)">
+                        <g transform="matrix(31.2037,0,0,31.2037,6562.34,1017.41)">
+                        </g>
+                        <text x="6497.03px" y="1017.4px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:31.204px;">WP1</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="eosc_euro_science_gateway_white.svg">
+        </g>
+        <g transform="matrix(1.50521e-16,2.45819,-2.45819,1.50521e-16,11522.2,-14335.8)">
+            <g transform="matrix(83.3333,0,0,83.3333,7293.66,2029.29)">
+            </g>
+            <text x="6506.02px" y="2029.29px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:83.333px;fill:white;">EuroScienceGateway</text>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,5 @@
 <template>
-    <component :is="currentLayout">
+    <component :is="currentLayout" class="index">
         <p v-html="$page.main.content" class="mb"></p>
 
         <h2 class="mb-3">
@@ -7,7 +7,7 @@
         </h2>
 
         <div class="info-4 mb">
-            <div v-for="objective in $page.datasetObjectives.objectives" class="card shadow-sm">
+            <div v-for="objective in $page.datasetObjectives.objectives" class="card blue-card shadow-sm">
                 <h3 class="card-header mt-0">
                     {{ objective.title }}
                 </h3>
@@ -16,23 +16,8 @@
                 </div>
             </div>
         </div>
-
-        <h2 class="mb-3">
-            {{ $page.datasetExpectedResults.heading }}
-        </h2>
-
-        <div class="info-4 mb">
-            <div v-for="objective in $page.datasetExpectedResults.expected_results" class="card shadow-sm">
-                <h3 class="card-header mt-0">
-                    {{ objective.title }}
-                </h3>
-                <div class="card-body p-2">
-                    <p>{{ objective.content }}</p>
-                </div>
-            </div>
-        </div>
-
-        <p v-html="$page.section_1.content" class="mb"></p>
+        
+        <EsgInteractivePosterVue class="mb"/>
 
         <h2>
             {{ $page.datasetLinks.heading }}
@@ -52,9 +37,26 @@
                 </div>
             </b-button>
         </div>
+        
+        <h2 class="mb-3">
+            {{ $page.datasetExpectedResults.heading }}
+        </h2>
+
+        <div class="info-4 mb">
+            <div v-for="objective in $page.datasetExpectedResults.expected_results" class="card blue-card shadow-sm">
+                <h3 class="card-header mt-0">
+                    {{ objective.title }}
+                </h3>
+                <div class="card-body p-2">
+                    <p>{{ objective.content }}</p>
+                </div>
+            </div>
+        </div>
+
+        <p v-html="$page.section_1.content" class="mb"></p>
 
         <div class="news-and-events mb">
-            <div class="card shadow-sm bg-light rounded border-0">
+            <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
                     <span class="icon fas fa-bullhorn mr-1" />
                     News
@@ -69,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="card shadow-sm bg-light rounded border-0">
+            <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
                     <span class="icon far fa-calendar-alt mr-1" />
                     Events
@@ -84,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="card shadow-sm bg-light rounded border-0">
+            <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
                     <span class="icon fab fa-twitter mr-1" />
                     Twitter
@@ -98,7 +100,7 @@
         <Partners
             title="Project Partners"
             pathPrefix="/projects/esg/partner-logos/"
-            class="mb"
+            class="mb blue-card"
             :partners="$page.datasetPartners.partners"
         />
     </component>
@@ -110,6 +112,7 @@ import EsgLayout from "~/layouts/ESG.vue";
 import Partners from "~/components/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
 import ItemListBrief from "~/components/ItemListBrief.vue";
+import EsgInteractivePosterVue from "~/components/EsgInteractivePoster.vue";
 
 export default {
     components: {
@@ -118,6 +121,7 @@ export default {
         Partners,
         Twitter,
         ItemListBrief,
+        EsgInteractivePosterVue,
     },
     data() {
         return {
@@ -287,22 +291,22 @@ h1, h2, h3 {
     @media screen and (max-width: 400px) {
         grid-template-columns: 1fr;
     }
+}
 
-    .card {
-        background-color: transparent;
-        border: 2px solid #3f6cb3;
-        border-radius: 0.5rem;
+div::v-deep .blue-card {
+    background-color: transparent;
+    border: 2px solid #3f6cb3;
+    border-radius: 0.5rem;
 
-        .card-header {
-            background-color: #3f6cb3;
-            color: white;
-            padding: 0.1rem 0.8rem;
-        }
+    .card-header {
+        background-color: #3f6cb3;
+        color: white;
+        padding: 0.1rem 0.8rem;
+    }
 
-        p {
-            line-height: 1.4em;
-            padding: 0 0.4rem;
-        }
+    p {
+        line-height: 1.4em;
+        padding: 0 0.4rem;
     }
 }
 

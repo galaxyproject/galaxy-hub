@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3454 655" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2479,-3877)">
+        <g transform="matrix(1,0,0,1,1.81899e-12,94.4882)">
+            <g>
+                <g transform="matrix(0.681159,0,0,0.933333,757.617,674.016)">
+                    <path d="M5858.27,3428.57C5858.27,3400.63 5827.19,3377.95 5788.91,3377.95L2667.78,3377.95C2629.5,3377.95 2598.43,3400.63 2598.43,3428.57L2598.43,3681.66C2598.43,3709.6 2629.5,3732.28 2667.78,3732.28L5788.91,3732.28C5827.19,3732.28 5858.27,3709.6 5858.27,3681.66L5858.27,3428.57Z" style="fill:rgb(217,217,217);"/>
+                </g>
+                <g transform="matrix(0.92,0,0,1,2404.72,47.2441)">
+                    <path d="M3779.53,3826.77C3779.53,3800.7 3756.52,3779.53 3728.18,3779.53L2649.78,3779.53C2621.43,3779.53 2598.43,3800.7 2598.43,3826.77L2598.43,4062.99C2598.43,4089.07 2621.43,4110.24 2649.78,4110.24L3728.18,4110.24C3756.52,4110.24 3779.53,4089.07 3779.53,4062.99L3779.53,3826.77Z" style="fill:rgb(217,217,217);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,-81.1208,-190.787)">
+                    <g transform="matrix(125,0,0,125,4538.77,4229.79)">
+                    </g>
+                    <text x="2899.06px" y="4229.79px" style="font-family:'Roboto-Regular', 'Roboto';font-size:125px;">Automated deployment via OI</text>
+                </g>
+                <g transform="matrix(1,0,0,1,2186.6,-190.418)">
+                    <g transform="matrix(125,0,0,125,3577.83,4229.79)">
+                    </g>
+                    <text x="2726.14px" y="4229.79px" style="font-family:'Roboto-Regular', 'Roboto';font-size:125px;">Custom Guides</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,0.571429,0,1802.02)">
+                <g transform="matrix(0.92,0,0,1,137.008,425.197)">
+                    <path d="M3779.53,3862.2C3779.53,3816.57 3756.52,3779.53 3728.18,3779.53L2649.78,3779.53C2621.43,3779.53 2598.43,3816.57 2598.43,3862.2L2598.43,4027.56C2598.43,4073.19 2621.43,4110.24 2649.78,4110.24L3728.18,4110.24C3756.52,4110.24 3779.53,4073.19 3779.53,4027.56L3779.53,3862.2Z" style="fill:rgb(217,217,217);"/>
+                </g>
+                <g transform="matrix(0.92,0,0,1,1270.87,425.197)">
+                    <path d="M3779.53,3862.2C3779.53,3816.57 3756.52,3779.53 3728.18,3779.53L2649.78,3779.53C2621.43,3779.53 2598.43,3816.57 2598.43,3862.2L2598.43,4027.56C2598.43,4073.19 2621.43,4110.24 2649.78,4110.24L3728.18,4110.24C3756.52,4110.24 3779.53,4073.19 3779.53,4027.56L3779.53,3862.2Z" style="fill:rgb(217,217,217);"/>
+                </g>
+                <g transform="matrix(0.92,0,0,1,2404.72,425.197)">
+                    <path d="M3779.53,3862.2C3779.53,3816.57 3756.52,3779.53 3728.18,3779.53L2649.78,3779.53C2621.43,3779.53 2598.43,3816.57 2598.43,3862.2L2598.43,4027.56C2598.43,4073.19 2621.43,4110.24 2649.78,4110.24L3728.18,4110.24C3756.52,4110.24 3779.53,4073.19 3779.53,4027.56L3779.53,3862.2Z" style="fill:rgb(217,217,217);"/>
+                </g>
+                <g transform="matrix(1,0,0,1.75,-81.1208,-2826)">
+                    <g transform="matrix(83.3333,0,0,83.3333,3640.63,4143.3)">
+                    </g>
+                    <text x="2663.34px" y="4143.3px" style="font-family:'Roboto-Regular', 'Roboto';font-size:83.333px;">Academic Cloud Providers</text>
+                </g>
+                <g transform="matrix(1,0,0,1.75,1052.74,-2826)">
+                    <g transform="matrix(83.3333,0,0,83.3333,3515.65,4143.3)">
+                    </g>
+                    <text x="2788.32px" y="4143.3px" style="font-family:'Roboto-Regular', 'Roboto';font-size:83.333px;">Commercial Clouds</text>
+                </g>
+                <g transform="matrix(1,0,0,1.75,2186.6,-2826)">
+                    <g transform="matrix(83.3333,0,0,83.3333,3235.1,4143.3)">
+                    </g>
+                    <text x="3068.88px" y="4143.3px" style="font-family:'Roboto-Regular', 'Roboto';font-size:83.333px;">HPC</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

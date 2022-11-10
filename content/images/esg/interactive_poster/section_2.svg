@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2272 2001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-207,-2531)">
+        <g transform="matrix(1,0,0,1,-543.307,0)">
+            <text x="2192.12px" y="2847.85px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:83.333px;fill:rgb(26,26,24);">3 possible interfaces</text>
+            <g transform="matrix(83.3333,0,0,83.3333,2976.38,2931.18)">
+            </g>
+            <text x="2169.17px" y="2931.18px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:83.333px;fill:rgb(26,26,24);">to attach the Network</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-543.307,648.212)">
+            <g transform="matrix(83.3333,0,0,83.3333,2310.4,2889.52)">
+            </g>
+            <g transform="matrix(83.3333,0,0,83.3333,2339.54,2889.52)">
+            </g>
+            <g transform="matrix(83.3333,0,0,83.3333,2976.38,2889.52)">
+            </g>
+            <text x="1782.49px" y="2889.52px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:83.333px;fill:rgb(26,26,24);">Domain-Speciﬁc Data Providers</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-543.307,1346.46)">
+            <text x="2030.01px" y="2847.85px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:83.333px;fill:rgb(26,26,24);">Assisted deployments on</text>
+            <g transform="matrix(83.3333,0,0,83.3333,2976.38,2931.18)">
+            </g>
+            <text x="2124.08px" y="2931.18px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:83.333px;fill:rgb(26,26,24);">various infrastructures</text>
+        </g>
+    </g>
+</svg>
