@@ -3,12 +3,12 @@
 		<h2>{{ $static.datasetWorkPackages.title }}</h2>
 		
 		<div class="poster-grid">
-			<object type="image/svg+xml" data="/images/esg/interactive_poster/section_1.svg" class="section-1"></object>
-			<object type="image/svg+xml" data="/images/esg/interactive_poster/section_2.svg" class="section-2"></object>
-			<object type="image/svg+xml" data="/images/esg/interactive_poster/section_3.svg" class="section-3"></object>
-			<object type="image/svg+xml" data="/images/esg/interactive_poster/section_4.svg" class="section-4"></object>
-			<object type="image/svg+xml" data="/images/esg/interactive_poster/section_5.svg" class="section-5"></object>
-			<object type="image/svg+xml" data="/images/esg/interactive_poster/section_6.svg" class="section-6"></object>
+			<img src="/images/esg/interactive_poster/section_1.svg" class="section-1" />
+			<img src="/images/esg/interactive_poster/section_2.svg" class="section-2" />
+			<img src="/images/esg/interactive_poster/section_3.svg" class="section-3" />
+			<img src="/images/esg/interactive_poster/section_4.svg" class="section-4" />
+			<img src="/images/esg/interactive_poster/section_5.svg" class="section-5" />
+			<img src="/images/esg/interactive_poster/section_6.svg" class="section-6" />
 			<div class="indicator-grid" :style="{ 'grid-template-columns': getIndicatorGridCol(currentInfo.area),  'grid-template-rows': getIndicatorGridRow(currentInfo.area) }">
 				<div class="indicator" :class="{ 'hidden': currentInfo.hidden }"></div>
 			</div>
@@ -23,7 +23,7 @@
 		<hr />
 		
 		<b-carousel class="carousel mt-2 shadow-sm" v-model="currentInfoIndex" :interval="0" controls>
-			<b-carousel-slide v-for="info in wpInfos">
+			<b-carousel-slide v-for="(info, i) in wpInfos" :key="i">
 				<h3>{{ info.title }}</h3>
 				<p>{{ info.content }}</p>
 			</b-carousel-slide>

@@ -109,10 +109,10 @@
 <script>
 import Layout from "~/layouts/Default.vue";
 import EsgLayout from "~/layouts/ESG.vue";
-import Partners from "~/components/Partners.vue";
+import Partners from "~/components/esg/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
 import ItemListBrief from "~/components/ItemListBrief.vue";
-import EsgInteractivePosterVue from "~/components/EsgInteractivePoster.vue";
+import EsgInteractivePosterVue from "~/components/esg/EsgInteractivePoster.vue";
 
 export default {
     components: {
