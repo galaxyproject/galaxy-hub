@@ -1,0 +1,25 @@
+title: "Work Packages"
+
+summary:
+  title: "Work Packages"
+  content: "Euro Science Gateway is organzied into multiple work packages, each with it's own focus."
+
+wp1:
+  title: "Work Package 1"
+  content: "Project Management, Coordination and Dissemination"
+
+wp2:
+  title: "Work Package 2"
+  content: "Stimulate FAIR and reusable research"
+
+wp3:
+  title: "Work Package 3"
+  content: "Pulsar Network: Distributed heterogeneous compute"
+
+wp4:
+  title: "Work Package 4"
+  content: "Building blocks for a sustainable operating model"
+
+wp5:
+  title: "Work Package 5"
+  content: "Community engagement, adoption and onboarding"

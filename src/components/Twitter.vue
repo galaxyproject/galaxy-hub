@@ -1,5 +1,5 @@
 <template>
-    <div :class="['outer', ...outerClasses]">
+    <div class="twitter" :class="['outer', ...outerClasses]">
         <div class="inner" :style="innerStyle">
             <Tweet
                 v-if="tweet"
