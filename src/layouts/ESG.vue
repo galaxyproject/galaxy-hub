@@ -58,6 +58,8 @@ export default {
             if (path.endsWith("events")) {
                 return "events";
             }
+
+            return "";
         },
     },
 };

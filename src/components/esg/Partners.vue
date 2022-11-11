@@ -5,7 +5,7 @@
         </h2>
 
         <div class="card-body">
-            <a v-for="partner in partners" class="partner-card" target="_blank" :href="partner.website" :title="partner.name">
+            <a v-for="(partner, i) in partners" :key="i" class="partner-card" target="_blank" :href="partner.website" :title="partner.name">
                 <div class="image-container">
                     <g-image :src="partner.image" :alt="'Logo of ' + partner.name"/>
                 </div>
@@ -25,7 +25,10 @@ export default {
             type: String,
             required: true,
         },
-        pathPrefix: String,
+        pathPrefix: {
+            type: String,
+            default: "",
+        },
     },
 };
 </script>

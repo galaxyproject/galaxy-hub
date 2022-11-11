@@ -7,7 +7,7 @@
         </h2>
 
         <div class="info-4 mb">
-            <div v-for="objective in $page.datasetObjectives.objectives" class="card blue-card shadow-sm">
+            <div v-for="(objective, i) in $page.datasetObjectives.objectives" :key="i" class="card blue-card shadow-sm">
                 <h3 class="card-header mt-0">
                     {{ objective.title }}
                 </h3>
@@ -43,12 +43,12 @@
         </h2>
 
         <div class="info-4 mb">
-            <div v-for="objective in $page.datasetExpectedResults.expected_results" class="card blue-card shadow-sm">
+            <div v-for="(result, i) in $page.datasetExpectedResults.expected_results" :key="i" class="card blue-card shadow-sm">
                 <h3 class="card-header mt-0">
-                    {{ objective.title }}
+                    {{ result.title }}
                 </h3>
                 <div class="card-body p-2">
-                    <p>{{ objective.content }}</p>
+                    <p>{{ result.content }}</p>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@
 
         <Partners
             title="Project Partners"
-            pathPrefix="/projects/esg/partner-logos/"
+            path-prefix="/projects/esg/partner-logos/"
             class="mb blue-card"
             :partners="$page.datasetPartners.partners"
         />
