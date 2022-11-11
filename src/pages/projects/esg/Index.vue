@@ -96,7 +96,7 @@
                     Twitter
                 </h2>
                 <div class="card-body p-2">
-                    <Twitter link="https://twitter.com/galaxyproject" height="410" width="100%" />
+                    <Twitter user="galaxyproject" height="410" />
                 </div>
             </div>
         </div>
@@ -316,6 +316,10 @@ div::v-deep .blue-card {
         line-height: 1.4em;
         padding: 0 0.4rem;
     }
+}
+
+div::v-deep .twitter {
+    width: 100%;
 }
 
 .news-and-events {
