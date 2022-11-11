@@ -1,7 +1,7 @@
 <template>
     <div id="esg-interactive-poster">
         <h2>{{ $static.datasetWorkPackages.title }}</h2>
-        
+
         <div class="poster-grid">
             <img src="/images/esg/interactive_poster/section_1.svg" class="section-1" />
             <img src="/images/esg/interactive_poster/section_2.svg" class="section-2" />
@@ -9,19 +9,25 @@
             <img src="/images/esg/interactive_poster/section_4.svg" class="section-4" />
             <img src="/images/esg/interactive_poster/section_5.svg" class="section-5" />
             <img src="/images/esg/interactive_poster/section_6.svg" class="section-6" />
-            <div class="indicator-grid" :style="{ 'grid-template-columns': getIndicatorGridCol(currentInfo.area),  'grid-template-rows': getIndicatorGridRow(currentInfo.area) }">
-                <div class="indicator" :class="{ 'hidden': currentInfo.hidden }"></div>
+            <div
+                class="indicator-grid"
+                :style="{
+                    'grid-template-columns': getIndicatorGridCol(currentInfo.area),
+                    'grid-template-rows': getIndicatorGridRow(currentInfo.area),
+                }"
+            >
+                <div class="indicator" :class="{ hidden: currentInfo.hidden }"></div>
             </div>
             <div class="click-overlay">
-                <button style="grid-area: wp-1;" @click="() => onWpClick(1)"></button>
-                <button style="grid-area: wp-2;" @click="() => onWpClick(2)"></button>
-                <button style="grid-area: wp-3-4;" @click="() => onWpClick(3)"></button>
-                <button style="grid-area: wp-5;" @click="() => onWpClick(5)"></button>
+                <button style="grid-area: wp-1" @click="() => onWpClick(1)"></button>
+                <button style="grid-area: wp-2" @click="() => onWpClick(2)"></button>
+                <button style="grid-area: wp-3-4" @click="() => onWpClick(3)"></button>
+                <button style="grid-area: wp-5" @click="() => onWpClick(5)"></button>
             </div>
         </div>
-        
+
         <hr />
-        
+
         <b-carousel class="carousel mt-2 shadow-sm" v-model="currentInfoIndex" :interval="0" controls>
             <b-carousel-slide v-for="(info, i) in wpInfos" :key="i">
                 <h3>{{ info.title }}</h3>
@@ -36,15 +42,15 @@ export default {
     name: "EsgInteractivePoster",
     data() {
         return {
-            currentInfoIndex: 0
-        }
+            currentInfoIndex: 0,
+        };
     },
     created() {
         this.totalDimensions = {
             w: 2272 + 3454 + 445 + 433,
-            h: 804 + 804 + 1346 + 655
+            h: 804 + 804 + 1346 + 655,
         };
-        
+
         // area defines the coordinates of the highlighter in fractional values
         this.wpInfos = [
             {
@@ -83,7 +89,7 @@ export default {
     computed: {
         currentInfo() {
             return this.wpInfos[this.currentInfoIndex];
-        }
+        },
     },
     methods: {
         getIndicatorGridCol(area) {
@@ -101,30 +107,31 @@ export default {
             } else {
                 this.currentInfoIndex = target;
             }
-        }
-    }
-}
+        },
+    },
+};
 </script>
 
 <style lang="scss">
 #esg-interactive-poster {
     display: flex;
     flex-direction: column;
-    
-    h2, h3 {
+
+    h2,
+    h3 {
         font-weight: 400;
     }
-    
+
     .grid-template {
         display: grid;
         width: 100%;
         grid-template-columns: 2272fr 3454fr 445fr 433fr;
         grid-template-rows: 804fr 804fr 1346fr 655fr;
     }
-    
+
     .poster-grid {
         position: relative;
-        
+
         .section-1 {
             grid-area: s1;
         }
@@ -148,14 +155,15 @@ export default {
             width: 100%;
             height: 100%;
         }
-        
+
         @extend .grid-template;
-        grid-template-areas: "s1 s3 s3 s6"
-                             "s1 s4 s4 s6"
-                             "s2 s4 s4 s6"
-                             "s2 s5 no no";
+        grid-template-areas:
+            "s1 s3 s3 s6"
+            "s1 s4 s4 s6"
+            "s2 s4 s4 s6"
+            "s2 s5 no no";
     }
-    
+
     .indicator-grid {
         position: absolute;
         top: 0;
@@ -163,46 +171,48 @@ export default {
         width: 100%;
         height: 100%;
         pointer-events: none;
-        
+
         .indicator {
             grid-area: indi;
             border: 3px solid;
             border-color: #f1c232;
             border-radius: 0.5rem;
             box-shadow: 0 0 5px #fff12b9c;
-            
+
             pointer-events: none;
             transition: border-color 0.2s;
-            
+
             &.hidden {
                 border-color: #f1c23200;
                 box-shadow: 0 0 5px #fff12b00;
             }
         }
-        
+
         display: grid;
-        grid-template-areas: "nonA nonB nonC"
-                             "nonD indi nonE"
-                             "nonF nonG nonH";
-        
+        grid-template-areas:
+            "nonA nonB nonC"
+            "nonD indi nonE"
+            "nonF nonG nonH";
+
         transition: grid-template-columns 0.2s, grid-template-rows 0.2s;
     }
-    
+
     .click-overlay {
         @extend .grid-template;
-        
+
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         pointer-events: none;
-        
-        grid-template-areas: "wp-5 nonA wp-2 wp-1"
-                             "wp-5 nonA wp-3-4 wp-1"
-                             "nonB nonA wp-3-4 wp-1"
-                             "nonB nonA nonC nonC";
-        
+
+        grid-template-areas:
+            "wp-5 nonA wp-2 wp-1"
+            "wp-5 nonA wp-3-4 wp-1"
+            "nonB nonA wp-3-4 wp-1"
+            "nonB nonA nonC nonC";
+
         button {
             border: none;
             box-shadow: none;
@@ -210,7 +220,7 @@ export default {
             pointer-events: all;
         }
     }
-    
+
     hr {
         width: 80%;
         margin: auto;
@@ -219,27 +229,27 @@ export default {
         height: 1px;
         background-color: #c5c7c9;
     }
-    
+
     .carousel {
         width: 100%;
         max-width: 800px;
         align-self: center;
         border-radius: 0.5rem;
         overflow: hidden;
-        
+
         h3 {
             color: black;
             font-weight: 700;
         }
-        
+
         p {
             color: black;
         }
-        
+
         .carousel-item {
             background-color: #f1c232;
             height: 9em;
-            
+
             //bootstrap overrid
             .carousel-caption {
                 left: 10%;

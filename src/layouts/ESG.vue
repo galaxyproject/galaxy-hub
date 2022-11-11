@@ -14,13 +14,13 @@
 
                 <b-collapse class="ml-auto" id="nav-collapse" is-nav>
                     <b-navbar-nav>
-                        <li class="nav-item" :class="{active: activeUrl === 'esg'}">
+                        <li class="nav-item" :class="{ active: activeUrl === 'esg' }">
                             <a class="nav-link" href="/projects/esg?solo=true"> Home </a>
                         </li>
-                        <li class="nav-item" :class="{active: activeUrl === 'news'}">
+                        <li class="nav-item" :class="{ active: activeUrl === 'news' }">
                             <a class="nav-link" href="/projects/esg/news?solo=true"> News </a>
                         </li>
-                        <li class="nav-item" :class="{active: activeUrl === 'events'}">
+                        <li class="nav-item" :class="{ active: activeUrl === 'events' }">
                             <a class="nav-link" href="/projects/esg/events?solo=true"> Events </a>
                         </li>
                     </b-navbar-nav>

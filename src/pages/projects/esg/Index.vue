@@ -16,8 +16,8 @@
                 </div>
             </div>
         </div>
-        
-        <EsgInteractivePosterVue class="mb"/>
+
+        <EsgInteractivePosterVue class="mb" />
 
         <h2>
             {{ $page.datasetLinks.heading }}
@@ -37,13 +37,17 @@
                 </div>
             </b-button>
         </div>
-        
+
         <h2 class="mb-3">
             {{ $page.datasetExpectedResults.heading }}
         </h2>
 
         <div class="info-4 mb">
-            <div v-for="(result, i) in $page.datasetExpectedResults.expected_results" :key="i" class="card blue-card shadow-sm">
+            <div
+                v-for="(result, i) in $page.datasetExpectedResults.expected_results"
+                :key="i"
+                class="card blue-card shadow-sm"
+            >
                 <h3 class="card-header mt-0">
                     {{ result.title }}
                 </h3>
@@ -253,12 +257,16 @@ p {
         background-color: #c5c7c9;
     }
 
-    &::v-deep h1, &::v-deep h2, &::v-deep h3 {
+    &::v-deep h1,
+    &::v-deep h2,
+    &::v-deep h3 {
         font-weight: 400;
     }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 400;
 }
 
