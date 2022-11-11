@@ -56,27 +56,27 @@ export default {
 			{
 				title: this.$static.datasetWorkPackages.wp1.title,
 				content: this.$static.datasetWorkPackages.wp1.content,
-				area: { x: 0, y: 0, w: this.totalDimensions.w, h: this.totalDimensions.h },
+				area: { x: 40, y: 0, w: this.totalDimensions.w - 60, h: this.totalDimensions.h },
 			},
 			{
 				title: this.$static.datasetWorkPackages.wp2.title,
 				content: this.$static.datasetWorkPackages.wp2.content,
-				area: { x: 2272, y: 0, w: 3454 + 445, h: 804 },
+				area: { x: 2310, y: 5, w: 3860, h: 780 },
 			},
 			{
 				title: this.$static.datasetWorkPackages.wp3.title,
 				content: this.$static.datasetWorkPackages.wp3.content,
-				area: { x: 2272, y: 804, w: 3454 + 445, h: 804 + 1346 },
+				area: { x: 2310, y: 810, w: 3860, h: 2100 },
 			},
 			{
 				title: this.$static.datasetWorkPackages.wp4.title,
 				content: this.$static.datasetWorkPackages.wp4.content,
-				area: { x: 2272, y: 804, w: 3454 + 445, h: 804 + 1346 },
+				area: { x: 2310, y: 810, w: 3860, h: 2100 },
 			},
 			{
 				title: this.$static.datasetWorkPackages.wp5.title,
 				content: this.$static.datasetWorkPackages.wp5.content,
-				area: { x: 0, y: 0, w: 2272, h: 804 + 804 },
+				area: { x: 40, y: 5, w: 2200, h: 1550 },
 			},
 		];
 	},
@@ -164,11 +164,14 @@ export default {
 			border: 3px solid;
 			border-color: #f1c232;
 			border-radius: 0.5rem;
+			box-shadow: 0 0 5px #fff12b9c;
+			
 			pointer-events: none;
 			transition: border-color 0.2s;
 			
 			&.hidden {
 				border-color: #f1c23200;
+				box-shadow: 0 0 5px #fff12b00;
 			}
 		}
 		
