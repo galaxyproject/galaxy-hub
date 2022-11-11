@@ -61,22 +61,22 @@ export default {
 			{
 				title: this.$static.datasetWorkPackages.wp2.title,
 				content: this.$static.datasetWorkPackages.wp2.content,
-				area: { x: 2310, y: 5, w: 3860, h: 780 },
+				area: { x: 2310, y: 10, w: 3850, h: 770 },
 			},
 			{
 				title: this.$static.datasetWorkPackages.wp3.title,
 				content: this.$static.datasetWorkPackages.wp3.content,
-				area: { x: 2310, y: 810, w: 3860, h: 2100 },
+				area: { x: 2310, y: 820, w: 3850, h: 2090 },
 			},
 			{
 				title: this.$static.datasetWorkPackages.wp4.title,
 				content: this.$static.datasetWorkPackages.wp4.content,
-				area: { x: 2310, y: 810, w: 3860, h: 2100 },
+				area: { x: 2310, y: 820, w: 3850, h: 2090 },
 			},
 			{
 				title: this.$static.datasetWorkPackages.wp5.title,
 				content: this.$static.datasetWorkPackages.wp5.content,
-				area: { x: 40, y: 5, w: 2200, h: 1550 },
+				area: { x: 40, y: 5, w: 2200, h: 1570 },
 			},
 		];
 	},
@@ -142,6 +142,11 @@ export default {
 		}
 		.section-6 {
 			grid-area: s6;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
 		}
 		
 		@extend .grid-template;
@@ -237,7 +242,9 @@ export default {
 			
 			//bootstrap overrid
 			.carousel-caption {
-				bottom: 0;
+				left: 10%;
+				right: 10%;
+				bottom: unset;
 			}
 		}
 	}
