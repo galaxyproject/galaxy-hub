@@ -114,7 +114,10 @@ fragment articleFields on Article {
     id
     title
     tease
-    location
+    location {
+        name
+        url
+    }
     location_url
     continent
     contact
