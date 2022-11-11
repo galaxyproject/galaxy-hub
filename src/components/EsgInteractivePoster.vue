@@ -107,8 +107,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/roboto_font.scss";
-
 #esg-interactive-poster {
 	display: flex;
 	flex-direction: column;
