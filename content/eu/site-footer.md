@@ -6,6 +6,7 @@ All content on this site is available under [CC0-1.0](https://creativecommons.or
 [](){: .fa .fa-envelope style="color: #777"} [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu) &nbsp;
 [](){: .fab .fa-github style="color: #777"} [usegalaxy-eu](https://github.com/usegalaxy-eu) &nbsp;
 [](){: .fab .fa-twitter style="color: #777"} [@galaxyproject](https://twitter.com/galaxyproject) &nbsp;
+[](){: .fab .fa-mastodon style="color: #777"} [@galaxyfreiburg](https://xn--baw-joa.social/@galaxyfreiburg){: rel="me noopener noreferrer"} &nbsp;
 [](){: .fa .fa-rss style="color: #777"} Subscribe [via RSS (UseGalaxy.eu Feed)](/eu/feed.atom)
 
 </div>
