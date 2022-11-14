@@ -1,6 +1,6 @@
 <template>
-    <component :is="currentLayout" class="index">
-        <p v-html="$page.main.content" class="mb"></p>
+    <EsgLayout class="index">
+        <div v-html="$page.main.content" class="content mb"></div>
 
         <h2 class="mb-3">
             {{ $page.datasetObjectives.heading }}
@@ -57,12 +57,12 @@
             </div>
         </div>
 
-        <p v-html="$page.section_1.content" class="mb"></p>
+        <div v-html="$page.section_1.content" class="content mb"></div>
 
         <div class="news-and-events mb">
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon fas fa-bullhorn mr-1" />
+                    <span class="icon fas fa-bullhorn mr-1"></span>
                     News
                 </h2>
                 <div class="card-body p-2">
@@ -77,7 +77,7 @@
 
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon far fa-calendar-alt mr-1" />
+                    <span class="icon far fa-calendar-alt mr-1"></span>
                     Events
                 </h2>
                 <div class="card-body p-2">
@@ -92,11 +92,11 @@
 
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon fab fa-twitter mr-1" />
+                    <span class="icon fab fa-twitter mr-1"></span>
                     Twitter
                 </h2>
                 <div class="card-body p-2">
-                    <Twitter user="galaxyproject" height="410" />
+                    <Twitter user="galaxyproject" :height="410" />
                 </div>
             </div>
         </div>
@@ -107,11 +107,10 @@
             class="mb blue-card"
             :partners="$page.datasetPartners.partners"
         />
-    </component>
+    </EsgLayout>
 </template>
 
 <script>
-import Layout from "~/layouts/Default.vue";
 import EsgLayout from "~/layouts/ESG.vue";
 import Partners from "~/components/esg/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
@@ -120,17 +119,11 @@ import EsgInteractivePosterVue from "~/components/esg/EsgInteractivePoster.vue";
 
 export default {
     components: {
-        Layout,
         EsgLayout,
         Partners,
         Twitter,
         ItemListBrief,
         EsgInteractivePosterVue,
-    },
-    data() {
-        return {
-            currentLayout: Layout,
-        };
     },
     metaInfo() {
         return {
@@ -142,11 +135,6 @@ export default {
                 },
             ],
         };
-    },
-    created() {
-        if (this.$route.query.solo) {
-            this.currentLayout = EsgLayout;
-        }
     },
     methods: {
         esgUrl(url) {
@@ -243,7 +231,7 @@ fragment articleFields on Article {
 
 <style lang="scss" scoped>
 // keep images in markdown from overflowing
-p {
+.content {
     &::v-deep img {
         max-width: 100%;
     }
