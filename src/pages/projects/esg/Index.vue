@@ -96,7 +96,7 @@
                     Twitter
                 </h2>
                 <div class="card-body p-2">
-                    <Twitter user="galaxyproject" height="410" />
+                    <Twitter user="galaxyproject" :height="410" />
                 </div>
             </div>
         </div>
