@@ -1,6 +1,6 @@
 <template>
     <component :is="currentLayout">
-        <p v-html="$page.main.content" class="mb-4"></p>
+        <div v-html="$page.main.content" class="mb-4"></div>
         <table class="table table-striped">
             <tbody>
                 <ArticleTable v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />

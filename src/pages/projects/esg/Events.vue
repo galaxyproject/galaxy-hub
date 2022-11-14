@@ -1,6 +1,6 @@
 <template>
     <component :is="currentLayout">
-        <p v-html="$page.main.content" class="mb-4"></p>
+        <div v-html="$page.main.content" class="mb-4"></div>
 
         <h2 id="upcoming-events">
             <a href="#upcoming-events" aria-hidden="true"><span class="icon icon-link"></span></a>
