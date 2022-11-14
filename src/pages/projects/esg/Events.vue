@@ -1,5 +1,5 @@
 <template>
-    <component :is="currentLayout">
+    <EsgLayout>
         <div v-html="$page.main.content" class="mb-4"></div>
 
         <h2 id="upcoming-events">
@@ -37,17 +37,15 @@
                 <ArticleTableEvents v-for="edge in $page.recent.edges" :key="edge.node.id" :article="edge.node" />
             </tbody>
         </table>
-    </component>
+    </EsgLayout>
 </template>
 
 <script>
-import Layout from "~/layouts/Default.vue";
 import EsgLayout from "~/layouts/ESG.vue";
 import ArticleTableEvents from "~/components/ArticleTableEvents";
 
 export default {
     components: {
-        Layout,
         EsgLayout,
         ArticleTableEvents,
     },
@@ -61,16 +59,6 @@ export default {
                 },
             ],
         };
-    },
-    data() {
-        return {
-            currentLayout: Layout,
-        };
-    },
-    created() {
-        if (this.$route.query.solo) {
-            this.currentLayout = EsgLayout;
-        }
     },
 };
 </script>

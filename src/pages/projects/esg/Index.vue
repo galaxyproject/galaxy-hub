@@ -1,5 +1,5 @@
 <template>
-    <Layout class="index">
+    <EsgLayout class="index">
         <div v-html="$page.main.content" class="content mb"></div>
 
         <h2 class="mb-3">
@@ -107,11 +107,10 @@
             class="mb blue-card"
             :partners="$page.datasetPartners.partners"
         />
-    </Layout>
+    </EsgLayout>
 </template>
 
 <script>
-import Layout from "~/layouts/Default.vue";
 import EsgLayout from "~/layouts/ESG.vue";
 import Partners from "~/components/esg/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
@@ -120,17 +119,11 @@ import EsgInteractivePosterVue from "~/components/esg/EsgInteractivePoster.vue";
 
 export default {
     components: {
-        Layout,
         EsgLayout,
         Partners,
         Twitter,
         ItemListBrief,
         EsgInteractivePosterVue,
-    },
-    data() {
-        return {
-            currentLayout: Layout,
-        };
     },
     metaInfo() {
         return {
@@ -142,11 +135,6 @@ export default {
                 },
             ],
         };
-    },
-    created() {
-        if (this.$route.query.solo) {
-            this.currentLayout = EsgLayout;
-        }
     },
     methods: {
         esgUrl(url) {

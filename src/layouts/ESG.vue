@@ -1,5 +1,5 @@
 <template>
-    <div class="layout">
+    <div v-if="$route.query.solo" class="layout">
         <b-navbar toggleable="md" type="dark" variant="dark">
             <div class="container">
                 <b-navbar-brand href="/projects/esg?solo=true">
@@ -39,10 +39,18 @@
             </a>
         </footer>
     </div>
+    <Default v-else>
+        <slot></slot>
+    </Default>
 </template>
 
 <script>
+import Default from "./Default.vue";
+
 export default {
+    components: {
+        Default,
+    },
     computed: {
         activeUrl() {
             const path = this.$route.path;
