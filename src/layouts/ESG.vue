@@ -5,7 +5,7 @@
                 <b-navbar-brand href="/projects/esg?solo=true">
                     <img
                         src="/images/projects/esg/eosc_euro_science_gateway_white.svg"
-                        alt="eosc Euro Science Gateway"
+                        alt="eosc EuroScienceGateway"
                         height="30"
                     />
                 </b-navbar-brand>
