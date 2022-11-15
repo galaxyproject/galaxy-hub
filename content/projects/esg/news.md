@@ -1,6 +1,6 @@
 ---
-title: News - Euro Science Gateway
-description: All News regarding the Euro Science Gateway Project
+title: News - EuroScienceGateway
+description: All News regarding the EuroScienceGateway Project
 ---
 
 # EuroScienceGateway News
