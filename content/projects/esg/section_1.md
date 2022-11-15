@@ -20,8 +20,13 @@
 
 **Global**: Alignment with similar American and Asia-Pacific initiatives. Building a global network of shared resources for all scientists.
 
+
 ## Impact
 
 **Scientific**: The EuroScienceGateway is envisioned as an enabler of breakthrough scientific discoveries in various scientific fields.
 
-**EOSC**: Increased visibility of the European Science Cloud to end-users. Economic/Technological: Adoption and efficient usage of resources provided by the e-Infrastructures. Scaling of data analyses will be facilitated e.g. by eliminating the steep learning curve to use new computational infrastructure unfamiliar to the researchers. Societal: Raised awareness of public academic resources/clouds and contribute to the practical implementation of FAIR principles for data, software and workflows.
+**EOSC**: Increased visibility of the [European Science Cloud](https://www.eosc.eu/) to end-users. 
+
+**Economic/Technological**: Adoption and efficient usage of resources provided by the e-Infrastructures. Scaling of data analyses will be facilitated e.g. by eliminating the steep learning curve to use new computational infrastructure unfamiliar to the researchers. 
+
+**Societal**: Raised awareness of public academic resources/clouds and contribute to the practical implementation of FAIR principles for data, software and workflows.
