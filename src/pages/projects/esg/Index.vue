@@ -64,8 +64,8 @@
         <div class="news-and-events mb">
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon fas fa-bullhorn mr-1"></span>
-                    News
+                    <span class="icon fas fa-bullhorn mr-2"></span>
+                    <a :href="esgUrl('/projects/esg/news')">News</a>
                 </h2>
                 <div class="card-body p-2">
                     <div>
@@ -79,8 +79,8 @@
 
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon far fa-calendar-alt mr-1"></span>
-                    Events
+                    <span class="icon far fa-calendar-alt mr-2"></span>
+                    <a :href="esgUrl('/projects/esg/events')">Events</a>
                 </h2>
                 <div class="card-body p-2">
                     <div>
@@ -94,8 +94,8 @@
 
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon fab fa-twitter mr-1"></span>
-                    Twitter
+                    <span class="icon fab fa-twitter mr-2"></span>
+                    <a href="https://twitter.com/galaxyproject">Twitter</a>
                 </h2>
                 <div class="card-body p-2">
                     <Twitter user="galaxyproject" :height="410" />
@@ -302,6 +302,10 @@ div::v-deep .blue-card {
         background-color: #3f6cb3;
         color: white;
         padding: 0.1rem 0.8rem;
+
+        a {
+            color: white !important;
+        }
     }
 
     p {
