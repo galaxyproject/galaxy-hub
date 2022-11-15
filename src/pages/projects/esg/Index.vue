@@ -4,7 +4,10 @@
 
         <div v-html="$page.main.content" class="content mb"></div>
 
-        <h2 class="mb-3">
+        <h2 :id="slugify($page.datasetObjectives.heading)" class="mb-3">
+            <a :href="'#' + slugify($page.datasetObjectives.heading)" aria-hidden="true">
+                <span class="icon icon-link"></span>
+            </a>
             {{ $page.datasetObjectives.heading }}
         </h2>
 
@@ -19,9 +22,10 @@
             </div>
         </div>
 
-        <EsgInteractivePosterVue class="mb" />
-
-        <h2>
+        <h2 :id="slugify($page.datasetLinks.heading)">
+            <a :href="'#' + slugify($page.datasetLinks.heading)" aria-hidden="true">
+                <span class="icon icon-link"></span>
+            </a>
             {{ $page.datasetLinks.heading }}
         </h2>
 
@@ -40,7 +44,12 @@
             </b-button>
         </div>
 
-        <h2 class="mb-3">
+        <EsgInteractivePosterVue class="mb" />
+
+        <h2 :id="slugify($page.datasetExpectedResults.heading)" class="mb-3">
+            <a :href="'#' + slugify($page.datasetExpectedResults.heading)" aria-hidden="true">
+                <span class="icon icon-link"></span>
+            </a>
             {{ $page.datasetExpectedResults.heading }}
         </h2>
 
@@ -147,6 +156,9 @@ export default {
             } else {
                 return url;
             }
+        },
+        slugify(string) {
+            return string.toLowerCase().replace(/\s+/g, "-");
         },
     },
 };

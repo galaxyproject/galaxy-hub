@@ -1,6 +1,11 @@
 <template>
     <div id="esg-interactive-poster">
-        <h2>{{ $static.datasetWorkPackages.title }}</h2>
+        <h2 id="work-packages">
+            <a href="#work-packages" aria-hidden="true">
+                <span class="icon icon-link"></span>
+            </a>
+            {{ $static.datasetWorkPackages.title }}
+        </h2>
 
         <div class="poster-grid">
             <img src="/images/esg/interactive_poster/section_1.svg" class="section-1" />
