@@ -3,9 +3,9 @@ title: News - Euro Science Gateway
 description: All News regarding the Euro Science Gateway Project
 ---
 
-# Euro Science Gateway News
+# EuroScienceGateway News
 
-This page contains announcements of interest to the Euro Science Gateway Project.
+This page contains announcements of interest to the EuroScienceGateway Project.
 
 ## Contribute
 
