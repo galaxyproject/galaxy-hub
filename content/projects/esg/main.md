@@ -3,9 +3,7 @@ title: EuroScienceGateway
 description: Improving computational workflows in Galaxy by maturing Pulsar Network and publishing computational workflows as FAIR Digital Objects.
 ---
 
-# EuroScienceGateway Project
-
-![eosc | EuroScienceGateway](./eosc_euro_science_gateway.svg)
+![eosc | Euro Science Gateway](./eosc_euro_science_gateway.svg)
 
 ## Project Summary
 

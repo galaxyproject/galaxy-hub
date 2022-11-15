@@ -1,5 +1,7 @@
 <template>
     <EsgLayout class="index">
+        <h1 class="sr-only">{{ $page.main.title }}</h1>
+
         <div v-html="$page.main.content" class="content mb"></div>
 
         <h2 class="mb-3">
