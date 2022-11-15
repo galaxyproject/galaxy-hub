@@ -20,7 +20,7 @@
 
 **Global**: Alignment with similar American and Asia-Pacific initiatives. Building a global network of shared resources for all scientists.
 
-## Impacts
+## Impact
 
 **Scientific**: The EuroScienceGateway is envisioned as an enabler of breakthrough scientific discoveries in various scientific fields.
 
