@@ -106,9 +106,11 @@
         <Partners
             title="Project Partners"
             path-prefix="/projects/esg/partner-logos/"
-            class="mb blue-card"
+            class="mb-4 blue-card"
             :partners="$page.datasetPartners.partners"
         />
+
+        <g-image class="eu-img" src="/images/esg/EN-Funded by the EU-POS.png" width="200" />
     </EsgLayout>
 </template>
 
@@ -344,5 +346,9 @@ div::v-deep .twitter {
             max-width: 250px;
         }
     }
+}
+
+.eu-img {
+    width: 200px;
 }
 </style>
