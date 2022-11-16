@@ -30,7 +30,7 @@
 
         <main id="maincontainer" class="container">
             <slot />
-            
+
             <div class="funding mt-2">
                 <g-image class="eu-img" src="/images/esg/EN-Funded by the EU-POS.png" width="200" />
                 <div v-html="$static.funding.content"></div>
@@ -65,15 +65,15 @@ export default {
         activeUrl() {
             const path = this.$route.path;
 
-            if (path.endsWith("esg")) {
+            if (path.endsWith("esg/")) {
                 return "esg";
             }
 
-            if (path.endsWith("news")) {
+            if (path.endsWith("news/")) {
                 return "news";
             }
 
-            if (path.endsWith("events")) {
+            if (path.endsWith("events/")) {
                 return "events";
             }
 
