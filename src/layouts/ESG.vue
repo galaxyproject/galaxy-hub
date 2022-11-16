@@ -30,6 +30,11 @@
 
         <main id="maincontainer" class="container">
             <slot />
+            
+            <div class="funding mt-2">
+                <g-image class="eu-img" src="/images/esg/EN-Funded by the EU-POS.png" width="200" />
+                <div v-html="$static.funding.content"></div>
+            </div>
         </main>
 
         <footer class="container mt-4">
@@ -41,6 +46,11 @@
     </div>
     <Default v-else>
         <slot></slot>
+
+        <div class="funding mt-2">
+            <g-image class="eu-img" src="/images/esg/EN-Funded by the EU-POS.png" width="200" />
+            <div v-html="$static.funding.content"></div>
+        </div>
     </Default>
 </template>
 
@@ -73,8 +83,33 @@ export default {
 };
 </script>
 
+<static-query>
+query {
+    funding: insert(path: "/insert:/projects/esg/funding_notice/") {
+        content
+    }
+}
+</static-query>
+
 <style lang="scss" scoped>
 #nav-collapse {
     flex-grow: unset;
+}
+
+.funding {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+
+    font-size: 0.75rem;
+    line-height: 1.6em;
+
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+    }
+
+    .eu-img {
+        width: 200px;
+    }
 }
 </style>
