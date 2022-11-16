@@ -1,5 +1,6 @@
 ---
 title: Community Hub History
+pretitle: "[Home](/) > [Hub](/hub/) > Dev > [History](/hub/dev/history/)"
 ---
 
 This page keeps track of some institutional knowledge about this site (the Galaxy Community Hub) itself.

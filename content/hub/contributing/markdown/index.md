@@ -1,9 +1,9 @@
 ---
-title: Authoring Guide
-pretitle: "[← Back to Hub documentation](/hub/)"
+title: Advanced Markdown
+pretitle: "[Home](/) > [Hub](/hub/) > [Contributing](/hub/contributing/) > [Markdown](/hub/contributing/markdown/)"
 ---
 
-These are some tips for writing the Markdown for your articles.
+These are some tips for when you need to go beyond basic Markdown for your articles.
 
 ## Inserting HTML
 
