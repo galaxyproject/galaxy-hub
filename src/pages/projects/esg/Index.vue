@@ -74,13 +74,13 @@
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
                     <span class="icon fas fa-bullhorn mr-2"></span>
-                    <a :href="esgUrl('/projects/esg/news')">News</a>
+                    <a :href="esgUrl('/projects/esg/news/')">News</a>
                 </h2>
                 <div class="card-body p-2">
                     <div>
                         <ItemListBrief v-for="edge in $page.news.edges" :key="edge.id" :item="edge.node" />
                     </div>
-                    <a :href="esgUrl('/projects/esg/news')" class="btn btn-secondary border-0 btn-sm w-75">
+                    <a :href="esgUrl('/projects/esg/news/')" class="btn btn-secondary border-0 btn-sm w-75">
                         <b>More News</b>
                     </a>
                 </div>
@@ -89,13 +89,13 @@
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
                     <span class="icon far fa-calendar-alt mr-2"></span>
-                    <a :href="esgUrl('/projects/esg/events')">Events</a>
+                    <a :href="esgUrl('/projects/esg/events/')">Events</a>
                 </h2>
                 <div class="card-body p-2">
                     <div>
                         <ItemListBrief v-for="edge in $page.events.edges" :key="edge.id" :item="edge.node" />
                     </div>
-                    <a :href="esgUrl('/projects/esg/events')" class="btn btn-secondary border-0 btn-sm w-75">
+                    <a :href="esgUrl('/projects/esg/events/')" class="btn btn-secondary border-0 btn-sm w-75">
                         <b>More Events</b>
                     </a>
                 </div>
