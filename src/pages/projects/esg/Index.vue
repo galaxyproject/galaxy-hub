@@ -129,6 +129,7 @@ import Partners from "~/components/esg/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
 import ItemListBrief from "~/components/ItemListBrief.vue";
 import EsgInteractivePosterVue from "~/components/esg/EsgInteractivePoster.vue";
+import slugify from "@sindresorhus/slugify";
 
 export default {
     components: {
@@ -157,9 +158,7 @@ export default {
                 return url;
             }
         },
-        slugify(string) {
-            return string.toLowerCase().replace(/\s+/g, "-");
-        },
+        slugify,
     },
 };
 </script>
