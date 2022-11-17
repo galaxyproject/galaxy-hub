@@ -1,8 +1,13 @@
 <template>
     <EsgLayout class="index">
+        <h1 class="sr-only">{{ $page.main.title }}</h1>
+
         <div v-html="$page.main.content" class="content mb"></div>
 
-        <h2 class="mb-3">
+        <h2 :id="slugify($page.datasetObjectives.heading)" class="mb-3">
+            <a :href="'#' + slugify($page.datasetObjectives.heading)" aria-hidden="true">
+                <span class="icon icon-link"></span>
+            </a>
             {{ $page.datasetObjectives.heading }}
         </h2>
 
@@ -17,9 +22,10 @@
             </div>
         </div>
 
-        <EsgInteractivePosterVue class="mb" />
-
-        <h2>
+        <h2 :id="slugify($page.datasetLinks.heading)">
+            <a :href="'#' + slugify($page.datasetLinks.heading)" aria-hidden="true">
+                <span class="icon icon-link"></span>
+            </a>
             {{ $page.datasetLinks.heading }}
         </h2>
 
@@ -38,7 +44,12 @@
             </b-button>
         </div>
 
-        <h2 class="mb-3">
+        <EsgInteractivePosterVue class="mb" />
+
+        <h2 :id="slugify($page.datasetExpectedResults.heading)" class="mb-3">
+            <a :href="'#' + slugify($page.datasetExpectedResults.heading)" aria-hidden="true">
+                <span class="icon icon-link"></span>
+            </a>
             {{ $page.datasetExpectedResults.heading }}
         </h2>
 
@@ -62,14 +73,14 @@
         <div class="news-and-events mb">
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon fas fa-bullhorn mr-1"></span>
-                    News
+                    <span class="icon fas fa-bullhorn mr-2"></span>
+                    <a :href="esgUrl('/projects/esg/news/')">News</a>
                 </h2>
                 <div class="card-body p-2">
                     <div>
                         <ItemListBrief v-for="edge in $page.news.edges" :key="edge.id" :item="edge.node" />
                     </div>
-                    <a :href="esgUrl('/projects/esg/news')" class="btn btn-secondary border-0 btn-sm w-75">
+                    <a :href="esgUrl('/projects/esg/news/')" class="btn btn-secondary border-0 btn-sm w-75">
                         <b>More News</b>
                     </a>
                 </div>
@@ -77,14 +88,14 @@
 
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon far fa-calendar-alt mr-1"></span>
-                    Events
+                    <span class="icon far fa-calendar-alt mr-2"></span>
+                    <a :href="esgUrl('/projects/esg/events/')">Events</a>
                 </h2>
                 <div class="card-body p-2">
                     <div>
                         <ItemListBrief v-for="edge in $page.events.edges" :key="edge.id" :item="edge.node" />
                     </div>
-                    <a :href="esgUrl('/projects/esg/events')" class="btn btn-secondary border-0 btn-sm w-75">
+                    <a :href="esgUrl('/projects/esg/events/')" class="btn btn-secondary border-0 btn-sm w-75">
                         <b>More Events</b>
                     </a>
                 </div>
@@ -92,8 +103,8 @@
 
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon fab fa-twitter mr-1"></span>
-                    Twitter
+                    <span class="icon fab fa-twitter mr-2"></span>
+                    <a href="https://twitter.com/galaxyproject">Twitter</a>
                 </h2>
                 <div class="card-body p-2">
                     <Twitter user="galaxyproject" :height="410" />
@@ -104,7 +115,7 @@
         <Partners
             title="Project Partners"
             path-prefix="/projects/esg/partner-logos/"
-            class="mb blue-card"
+            class="mb-4 blue-card"
             :partners="$page.datasetPartners.partners"
         />
     </EsgLayout>
@@ -116,6 +127,7 @@ import Partners from "~/components/esg/Partners.vue";
 import Twitter from "~/components/Twitter.vue";
 import ItemListBrief from "~/components/ItemListBrief.vue";
 import EsgInteractivePosterVue from "~/components/esg/EsgInteractivePoster.vue";
+import slugify from "@sindresorhus/slugify";
 
 export default {
     components: {
@@ -144,6 +156,7 @@ export default {
                 return url;
             }
         },
+        slugify,
     },
 };
 </script>
@@ -298,6 +311,10 @@ div::v-deep .blue-card {
         background-color: #3f6cb3;
         color: white;
         padding: 0.1rem 0.8rem;
+
+        a {
+            color: white !important;
+        }
     }
 
     p {
