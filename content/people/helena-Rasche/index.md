@@ -7,11 +7,6 @@
 - [GTN Contributions](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
 - [ORCID](https://orcid.org/0000-0001-9760-8992)
 
-## Currently
-
-- PhD at ErasmusMC
-- Docent HBO at Avans Hogeschool
-
 ## Previously
 
 
