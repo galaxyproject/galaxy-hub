@@ -80,7 +80,8 @@
             },
             "esg": {
                 "name": "EuroScienceGateway",
-                "gitter": "usegalaxy-eu/Lobby"
+                "gitter": "usegalaxy-eu/Lobby",
+                "custom": true
             }
         }
     },
