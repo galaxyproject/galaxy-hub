@@ -40,9 +40,9 @@ query {
         content
     }
 
-    articles: allArticle(
+    articles: allParentArticle(
             sortBy: "date", order: DESC, filter: {
-                category: {eq: "news"}, subsites: {contains: ["global"]}, draft: {ne: true}
+                category: {eq: "news"}, subsites: {contains: ["esg"]}, draft: {ne: true}
             }
         ) {
         edges {

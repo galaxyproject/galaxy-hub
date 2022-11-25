@@ -77,6 +77,10 @@
             "ifb": {
                 "name": "ELIXIR-FR/IFB",
                 "gitter": "usegalaxy-eu/Lobby"
+            },
+            "esg": {
+                "name": "EuroScienceGateway",
+                "gitter": "usegalaxy-eu/Lobby"
             }
         }
     },
