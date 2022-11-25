@@ -458,6 +458,11 @@ module.exports = function (api) {
         }
         // Pages repeated across every subsite.
         for (let subsite of Object.keys(CONFIG.subsites.all)) {
+            // subsite provides it's own pages/routes
+            if (CONFIG.subsites.all[subsite].custom) {
+                continue;
+            }
+
             let prefix;
             if (subsite === CONFIG.subsites.default) {
                 prefix = "";

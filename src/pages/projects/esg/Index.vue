@@ -206,8 +206,9 @@ query {
         }
     }
 
-    news: allArticle(
-        limit: 6, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
+    news: allParentArticle(
+        limit: 6, sortBy: "date", order: DESC,
+        filter: {category: {eq: "news" }, subsites: {contains: ["esg"]}, draft: {ne: true}}
     ) {
         edges {
             node {
@@ -216,10 +217,10 @@ query {
         }
     }
 
-    events: allArticle(
+    events: allParentArticle(
         limit: 5, sortBy: "date", order: ASC,
         filter: {
-            category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
+            category: {eq: "events"}, subsites: {contains: ["eu"]}, has_date: {eq: true}, days_ago: {lte: 0},
             draft: {ne: true}
         }
     ) {
@@ -233,7 +234,7 @@ query {
     }
 }
 
-fragment articleFields on Article {
+fragment articleFields on ParentArticle {
     id
     title
     tease
