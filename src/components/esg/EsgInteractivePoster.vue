@@ -36,7 +36,9 @@
         <b-carousel class="carousel mt-2 shadow-sm" v-model="currentInfoIndex" :interval="0" controls>
             <b-carousel-slide v-for="(info, i) in wpInfos" :key="i">
                 <h3>{{ info.title }}</h3>
-                <p>{{ info.content }}</p>
+                <p>
+                    {{ info.content }}<span v-if="info.news"> - <a :href="info.news">News</a></span>
+                </p>
             </b-carousel-slide>
         </b-carousel>
     </div>
@@ -68,26 +70,31 @@ export default {
                 title: this.$static.datasetWorkPackages.wp1.title,
                 content: this.$static.datasetWorkPackages.wp1.content,
                 area: { x: 40, y: 0, w: this.totalDimensions.w - 60, h: this.totalDimensions.h },
+                news: "/projects/esg/news/?tag=esg-wp1",
             },
             {
                 title: this.$static.datasetWorkPackages.wp2.title,
                 content: this.$static.datasetWorkPackages.wp2.content,
                 area: { x: 2310, y: 10, w: 3850, h: 770 },
+                news: "/projects/esg/news/?tag=esg-wp2",
             },
             {
                 title: this.$static.datasetWorkPackages.wp3.title,
                 content: this.$static.datasetWorkPackages.wp3.content,
                 area: { x: 2310, y: 820, w: 3850, h: 2090 },
+                news: "/projects/esg/news/?tag=esg-wp3",
             },
             {
                 title: this.$static.datasetWorkPackages.wp4.title,
                 content: this.$static.datasetWorkPackages.wp4.content,
                 area: { x: 2310, y: 820, w: 3850, h: 2090 },
+                news: "/projects/esg/news/?tag=esg-wp4",
             },
             {
                 title: this.$static.datasetWorkPackages.wp5.title,
                 content: this.$static.datasetWorkPackages.wp5.content,
                 area: { x: 40, y: 5, w: 2200, h: 1570 },
+                news: "/projects/esg/news/?tag=esg-wp5",
             },
         ];
     },
