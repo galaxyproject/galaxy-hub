@@ -1,7 +1,7 @@
 ---
 title: EuroScienceGateway - Kickoff meeting
-date: "2022-11-06"
-end: "2022-11-06"
+date: "2022-10-06"
+end: "2022-10-07"
 tease: "The EuroScienceGateway project officially starts with a 2 days kickoff meeting with all 17 partners"
 location:
   city: Freiburg im Breisgau
