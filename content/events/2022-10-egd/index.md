@@ -10,7 +10,7 @@ gtn: false
 contact: Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis, Anika
   Erxleben
 tags: [training]
-subsites: [all-eu, global]
+subsites: [all-eu, global, esg]
 ---
 
 It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy Days 2022**!
