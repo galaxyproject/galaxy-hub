@@ -3,6 +3,7 @@ title: EuroScienceGateway Kick-off Meeting
 date: '2022-10-06'
 end: '2022-10-07'
 tags: [conference]
+continent: EU
 contacts:
 - email: galaxy@informatik.uni-freiburg.de
   name: Freiburg Galaxy Team
