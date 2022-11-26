@@ -18,7 +18,7 @@ location:
 supporters:
 - eu
 - elixir
-subsites: [eu, freiburg]
+subsites: [eu, freiburg, esg]
 main_subsite: freiburg
 ---
 
