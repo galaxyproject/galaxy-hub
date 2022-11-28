@@ -26,7 +26,7 @@ The Galaxy Project
 </div>
 <div style="margin-left: 620px;">
 
-<img src="/images/photos/simon_gladman.jpg" alt="Simon Gladman" width="300"/>
+<img src="/images/photos/simon_gladman.jpg" alt="Simon Gladman is sitting on a couch, he looks absolutely happy as can be, staring into the camera and giving a thumbs up. He has salt and pepper hair and a scruffy grey beard that look like he hasn't slept in a few days. He is wearing his firetruck red indiana galaxy community conference shirt." width="300"/>
 </div>
 </div>
 
