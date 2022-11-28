@@ -1,5 +1,5 @@
 ---
-title: "Remembering Simon Gladma: a Galaxy star goes dim"
+title: "Remembering Simon Gladman: a Galaxy star goes dim"
 tease: "Have you seen my new watch?"
 date: "2022-11-28"
 subsites: [global]
