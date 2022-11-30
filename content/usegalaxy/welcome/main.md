@@ -2,14 +2,6 @@
 title: usegalaxy.org
 ---
 
-<div class="alert alert-info trim-p mt-2">
-
-## The usegalaxy.org **FTP** service has been decommissioned
-
-As previously announced, the FTP file upload service has now been decommissioned. For more details, alternatives, and help, please **[read the announcement on Galaxy Help](https://help.galaxyproject.org/t/the-usegalaxy-org-ftp-service-will-be-decommissioned-on-august-12-2022/8318)**.
-
-</div>
-
 <div class="alert trim-p mt-2" style="background: #FFD500;">
 
 🇺🇦 The global community has created a **[continuously updated list][ua-table]** of laboratories that can host Ukrainian scientists at all career levels. If your lab can host a scientist -- add your name to the list **[here][ua-form]**. In addition, Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]**
@@ -28,11 +20,23 @@ As previously announced, the FTP file upload service has now been decommissioned
 
 #### **Galaxy** is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy [start here][galaxy-101] or consult our <a id="toggleHelp">help resources</a>. You can install your own Galaxy by following the [tutorial][get-galaxy] and choose from thousands of tools from the [Tool Shed](https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial).
 
-<div class="text-center my-5">
+---
 
-[![The Galaxy Community Conference is an annual gathering of the Galaxy community that included training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking.](/images/events/gcc2022/gcc2022-infographic.png){width=500}](https://galaxyproject.org/events/gcc2022/)
+<div class="notice alert alert-info mt-2">
+
+<img src="https://images.squarespace-cdn.com/content/v1/5d3a4213cf4f5b00014ea1db/2424d533-c29d-47f3-abc1-b916ca9d13b3/SG.jpeg?format=300w" width="200" style="float: right; padding: 1rem;">
+
+The Galaxy Community and UseGalaxy.\* initiative lost one of its brightest stars on Saturday, November 26, when Simon Gladman, the principal architect of UseGalaxy.org.au (Galaxy Australia) passed away unexpectedly.
+
+Simon was not just a key member of his own Galaxy community in Australia, but had been a major part of the global Galaxy community for many years. He was a driving force behind the UseGalaxy.\* public server initiative and the technologies and organization of work needed to make UseGalaxy.org.au (along with UseGalaxy.org and UseGalaxy.eu) a success. In addition, he was a friend to all who met him, and an all-around wonderful person. Our deepest condolences are with his family, friends, and all who knew and loved him.
+
+You can find more details in the numerous memorials for Simon: from [the Galaxy Project](https://galaxyproject.org/news/2022-11-28-simon-gladman/), from [Galaxy Australia](https://site.usegalaxy.org.au/simon.html), and from [the Australian BioCommons](https://www.biocommons.org.au/news/simon-gladman). His colleagues are collecting memories, if you have ones that you would like to share, please send them to [christina@biocommons.org.au](mailto:christina@biocommons.org.au?subject=Remembering%20Simon%20Gladman).
+
+</div>
 
 ---
+
+<div class="text-center my-5">
 
 **Donate to the James P. Taylor Foundation for Open Science**
 
