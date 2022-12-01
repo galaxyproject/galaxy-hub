@@ -1,5 +1,5 @@
 ---
-date: '2020-01-07'
+date: '2022-10-14'
 title: 'Galaxy in COBLET2022'
 authors: "Cristóbal Gallardo"
 ---
