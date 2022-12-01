@@ -12,4 +12,4 @@ Between October 11th and 14th took place in Istambul the first Colloquium on Bio
 
 <br>
 
-As could not be otherwise, Galaxy was present through a short talk under the title [Genome assembly for everyone: Galaxy Project-VGP collaboration](https://gallardoalba.github.io/COBLET2022/). The exposition highlighted the role of the Galaxy Project in making genome assembly pipelines accesible through public computational infrastructures and providing the required training in order to to exploit the potential of recent developments in sequencing technologies and assembly algorithms.
+Cristóbal presented Galaxy in a talk with the title [Genome assembly for everyone: Galaxy Project-VGP collaboration](https://gallardoalba.github.io/COBLET2022/). He highlighted the role of the Galaxy Project in making genome assembly pipelines accesible through public computational infrastructures and providing the required training in order to exploit the potential of recent developments in sequencing technologies and assembly algorithms.
