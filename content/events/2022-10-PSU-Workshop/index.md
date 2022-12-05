@@ -40,8 +40,8 @@ The workshop will be divided in six parts. The first five cover analysis of data
 | ----------- | ----------- |
 | October 31  | What is it good for: Overview of the system, what it can do, first analysis |
 | November 7  | History and data upload: Getting data from one dataset to 100,000 samples |
-| December 5  | Galaxy tool ecosystem: What can you do with > 4,000 tools |
-| December 12 | Galaxy workflows: Automating analyses and constructing complex pipelines |
+| December 5 | Galaxy workflows: Automating analyses and constructing complex pipelines |
+| December 12  | Galaxy tool ecosystem: What can you do with > 4,000 tools |
 | December 19 | Galaxy for developers: Adding tools and using API | 
 
 ## Location: Wartik 501
