@@ -40,7 +40,7 @@ Some excellent examples (*emphasis added*):
 
 If you use, extend or reference Galaxy in your published work, please cite this publication:
 
-* [Enis Afgan](/people/enis-afgan/), [Dannon Baker](/people/dannon-baker/), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](https://github.com/mvdbeek),  [Dave Bouvier](/people/dave-bouvier/), [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), [Nate Coraor](/people/nate/), [Björn Grüning](/people/bjoern-gruening/), [Aysam Guerler](/people/guerler/), [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Vahid Jalili](/people/vahid-jalili/), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Jeremy Goecks](/people/jeremy-goecks/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and [Daniel Blankenberg](/people/dan/). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**, *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
+* The Galaxy Community. **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update](https://doi.org/10.1093/nar/gkac247)**, *Nucleic Acids Research*, Volume 50, Issue W1, 5 July 2022, Pages W345–W351, doi:10.1093/nar/gkac247
 
 This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html).
 
