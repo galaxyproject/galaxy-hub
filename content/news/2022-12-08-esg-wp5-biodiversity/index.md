@@ -14,6 +14,15 @@ This community is already familiar with the Galaxy ecosystem, and we will levera
 
 - identify new tools and resources to be integrated
 - improve the discovery, usability and reuse of large, diverse, distributed and authoritative biodiversity datasets from Galaxy
-- facilitate the compute-intensive annotation of large number of genomes to exploit data from the [European Reference Genome Atlas (ERGA)](https://www.erga-biodiversity.eu/)
+- facilitate the compute-intensive annotation of large number of genomes
 - develop customizable workflows to facilitate the analysis of qualitative and quantitative correlations between biodiversity features or derived indices, and climate changes
 
+As an example, we will particularly work on data from large scale genome sequencing projects, including the [European Reference Genome Atlas (ERGA)](https://www.erga-biodiversity.eu/).
+
+![ERGA project logo](/assets/media/erga-logo.webp)
+
+In this frame, we will work on the discoverability of data coming from the [GenomeArk](https://genomeark.github.io/). We will also implement new state-of-the-art tools and workflows (see examples below), able to process automatically high volumes of genome assemblies or annotations.
+
+![functional annotation with Galaxy and Apollo](/assets/media/functional_annotation_to_apollo.png)
+
+![structural annotation with Galaxy and Apollo](/assets/media/structural_annotation_to_apollo.png)

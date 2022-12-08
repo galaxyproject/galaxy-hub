@@ -10,7 +10,7 @@ main_subsite: eu
 
 The fifth Work Package (WP5) of the EuroScienceGateway project will demonstrate the benefits of the EuroScienceGateway services with 3 communities, namely:
 
-- Biodiversity and Climate Science with the impact on human health
+- [Biodiversity](/projects/esg/news/2022-12-08-esg-wp5-biodiversity/) and Climate Science with the impact on human health
 - Materials science
 - Astrophysics
 
