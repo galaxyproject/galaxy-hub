@@ -10,6 +10,14 @@ main_subsite: eu
 
 Astronomy community will be one of the domain use cases of EuroScienceGateway project [WP5](https://galaxyproject.org/projects/esg/news/?tag=esg-wp5).
 
-Rich and diverse open science practices in Astronomy have not been so far substantially coordinated and harmonized with similar activities in other domains, especially BioInformatics.
+There is a large potential for improvement for harmonization of rich and diverse open science practices in Astronomy with similar activities in other domains, such as BioInformatics, material science, and others.
  
-[EPFL](https://www.epfl.ch/en/) and [UP](https://apc.u-paris.fr/APC_CS/) partners will engage in EuroScienceGateway project to integrate catalogs of astronomical workflows and data, in particular those included in the [MMODA](https://www.astro.unige.ch/mmoda/) platform.
+[EPFL](https://www.epfl.ch/en/) and [UPC](https://apc.u-paris.fr/APC_CS/) partners will engage in EuroScienceGateway project to integrate catalogs of astronomical workflows and data, such as those included in the [MMODA](https://www.astro.unige.ch/mmoda/) platform with Galaxy ecosystem.
+
+This is especially interesting and important for emerging field of multi-messenger astronomy combining results from different telescopes and detectors (radio, visible light, X-ray, gamma-ray, gravitational wave, neutrino, cosmic ray) to derive holistic view on the nature of astronomical sources.
+This approach requires efficient interoperability between diverse data and data analysis workflows.
+
+
+<!-- <g-image src="https://upload.wikimedia.org/wikipedia/commons/8/81/ApJL_848_L13_Fig2_Multi-messenger_detection_of_GW170817_and_GRB_170817A.svg" width="500"/> -->
+
+![Observation of the most prolific multi-messenger source so far, a merger of two neutron stars GW170817, as seen by grativational wave (LIGO, bottom panel)  and gamma-ray (Fermi and INTEGRAL, top and middle panels) telescopes](https://upload.wikimedia.org/wikipedia/commons/8/81/ApJL_848_L13_Fig2_Multi-messenger_detection_of_GW170817_and_GRB_170817A.svg)
