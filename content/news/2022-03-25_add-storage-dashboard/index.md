@@ -1,5 +1,5 @@
 ---
-title: Add Storage dashboard
+title: Add Storage dashboard from David López
 date: "2022-03-25"
 tease: "New pull request from David López merged: Add Storage dashboard"
 hide_tease: true
@@ -7,8 +7,6 @@ autotoc: false
 tags: ['area/UI-UX', 'kind/feature', 'highlight']
 subsites: [global]
 ---
-
-# "Add Storage dashboard" from David López
 
 This PR adds a new `Storage Dashboard` feature to the Galaxy client. It is my first "big" PR for the frontend so I will appreciate comments on style, best practices, patterns, and recommendations!
 
