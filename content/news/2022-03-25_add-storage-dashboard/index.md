@@ -53,7 +53,7 @@ This will add a new category `Old Items` with two operations to delete old datas
 
 ## Future work
 - This PR only adds one cleanup operation, more can/will be added in different PRs as extensions.
-- Add full support for multi quotas and different ObjectStores after https://github.com/galaxyproject/galaxy/pull/10977 is completed.
+- Add full support for multi quotas and different ObjectStores after https://github.com/galaxyproject/galaxy/pull/14047 is completed.
 - In addition to the user-friendly usage cleanup utilities, we can add more options here to visually explore storage data with charts and other visualizations for power users.
 - Provide more context information about a particular item when reviewing it. Maybe a popover with more details, or links to history, etc.
 - Let us know your ideas!
