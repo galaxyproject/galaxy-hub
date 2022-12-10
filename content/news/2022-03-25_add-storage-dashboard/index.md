@@ -59,5 +59,5 @@ This will add a new category `Old Items` with two operations to delete old datas
 - Let us know your ideas!
 
 
- Thanks to the reviewers Marius van den Beek and John Davis.
+ Thanks to the reviewers [Marius van den Beek](https://github.com/mvdbeek) and [John Davis](https://github.com/jdavcs).
  Check out the code at [#13113](https://github.com/galaxyproject/galaxy/pull/13113)
