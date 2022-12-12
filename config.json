@@ -1,6 +1,7 @@
 {
     "host": "galaxyproject.org",
     "contentDir": "content",
+    "snowflakes": true,
     "collections": {
         "BareArticle": { "path": "/bare/", "type": "vue" },
         "Platform": { "path": "/use/", "type": "md" }
