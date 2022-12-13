@@ -18,6 +18,8 @@ import NavBar from "@/components/NavBar";
 import Gitter from "@/components/Gitter";
 import CONFIG from "~/../config.json";
 import { rmPrefix, rmSuffix } from "~/lib/utils.js";
+import Snowflakes from "magic-snowflakes";
+
 export default {
     components: {
         NavBar,
@@ -41,6 +43,16 @@ export default {
             let footers = compileFooters(this.$static.footers.edges);
             return footers[this.subsite];
         },
+    },
+    mounted() {
+        if (CONFIG.snowflakes) {
+            new Snowflakes({
+                color: CONFIG.snowflakes.color,
+                count: CONFIG.snowflakes.count,
+                speed: CONFIG.snowflakes.speed,
+                wind: CONFIG.snowflakes.wind,
+            });
+        }
     },
 };
 function compileFooters(edges) {
