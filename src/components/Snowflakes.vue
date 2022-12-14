@@ -21,13 +21,17 @@ export default {
         maxSize: { type: Number, required: false, default: 35 },
     },
     mounted() {
-        const snow = new Snowflakes({
-            ...this.$props,
-        });
-        if (this.duration) {
-            setTimeout(() => {
-                snow.destroy();
-            }, this.duration * 1000);
+        const prefersReducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+        if (!prefersReducedMotionQuery.matches) {
+            // If the user has not set a preference for reduced motion, then we can safely run the snowflakes
+            const snow = new Snowflakes({
+                ...this.$props,
+            });
+            if (this.duration) {
+                setTimeout(() => {
+                    snow.destroy();
+                }, this.duration * 1000);
+            }
         }
     },
 };
