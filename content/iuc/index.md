@@ -32,7 +32,7 @@ IUC membership evolves over time and helpful community contributors are asked to
 **Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
 **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
 **Nicola Soranzo**, Earlham Institute | 2014-08-25 | [@nsoranzo](https://github.com/nsoranzo)
-**Helena Rasche**, University of Freiburg | 2014-08-25 | [@erasche](https://github.com/hexylena)
+**Helena Rasche**, University of Freiburg | 2014-08-25 | [@hexylena](https://github.com/hexylena)
 **Marius van den Beek**, Galaxy Team, Penn State University | 2015-10-12 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
 **Anthony Bretaudeau**, GenOuest BioInformatics Platform | 2016-05-11 | [@abretaud](https://github.com/abretaud)
