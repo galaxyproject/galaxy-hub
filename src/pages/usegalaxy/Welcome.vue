@@ -12,7 +12,7 @@ export default {
             title: this.$page.main.title,
         };
     },
-    components: { Snowflakes }
+    components: { Snowflakes },
 };
 </script>
 
