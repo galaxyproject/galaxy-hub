@@ -18,5 +18,5 @@ quotas:
 citations:
 pub_libraries:
 sponsors:
-  - "This Galaxy server is hosted and maintained by the Lab of [Sergei Pond](http://lab.hyphy.org/) at Temple University's [Institute for Genomic and Evolutionary Medicine (iGEM)](http://igem.temple.edu/) in collaboration with the Lab of [Anton Nekrutenko](https://nekrut.github.io/lab_site/) at the Pennsylvania State University and the Lab of [James Taylor](http://taylorlab.org/) at Johns Hopkins University. "
+  - "This Galaxy server is hosted and maintained by the Lab of [Sergei Pond](http://lab.hyphy.org/) at Temple University's [Institute for Genomic and Evolutionary Medicine (iGEM)](http://igem.temple.edu/) in collaboration with the Lab of [Anton Nekrutenko](https://nekrut.github.io/lab_site/) at the Pennsylvania State University and the Lab of [James Taylor](https://web.archive.org/web/20210308182933/https://taylorlab.org/) at Johns Hopkins University. "
 ---

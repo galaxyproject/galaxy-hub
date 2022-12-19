@@ -2,7 +2,7 @@
 
 # Alex Ostrovsky
 
-I began working with the Galaxy team in April 2019 with [James Taylor's Lab](http://taylorlab.org/) at John's Hopkins. As I work with Galaxy, I am also completing my master's degree in Bioinformatics at the [University of Oregon](https://bioinformatics.uoregon.edu/). My work with Galaxy involves wrapping and developing of tools, especially in the area of single-cell sequencing.
+I began working with the Galaxy team in April 2019 with [James Taylor's Lab](https://web.archive.org/web/20210308182933/https://taylorlab.org/) at John's Hopkins. As I work with Galaxy, I am also completing my master's degree in Bioinformatics at the [University of Oregon](https://bioinformatics.uoregon.edu/). My work with Galaxy involves wrapping and developing of tools, especially in the area of single-cell sequencing.
 
 Before Galaxy, I worked as a Research Assistant in the [Remington lab](http://molbio.uoregon.edu/remington/), the [Postlethwait lab](https://ion.uoregon.edu/content/john-postlethwait), and the [Smear lab](https://ion.uoregon.edu/content/matt-smear) at the University of Oregon.
 
