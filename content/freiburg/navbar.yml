@@ -55,4 +55,4 @@ right:
   - label: Branding
     target: "/images/galaxy-logos/"
 - label: "@jxtx"
-  target: "/jxtx/"
+  target: https://jxtxfoundation.org/
