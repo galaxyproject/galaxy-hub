@@ -12,11 +12,11 @@ subsites: [all]
 
   <!-- About GCC2023 -->
   <div class="card" style="min-width: 30%; max-width: 40rem;">
-    <img src="/images/events/gcc2023/gcc-logo.png" class="card-img-top" alt="GCC2023" />
+    <img src="/images/events/gcc2023/gcc2022-group.png" class="card-img-top" alt="GCC2022 group photo" />
     <div class="card-header">GCC conference</div>
 
-The Galaxy Community Conference (GCC) is an annual conference focused on the use
-and development of the [Galaxy platform](https://galaxyproject.org/) for
+The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
+the use and development of the [Galaxy platform](https://galaxyproject.org/) for
 data-intensive biomedical research. The conference brings together researchers,
 developers, and users of Galaxy from a variety of disciplines to share their
 experiences, knowledge, and skills.
@@ -44,7 +44,7 @@ will be updated as soon as they are set.
 
 <!-- Brisbane -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2023/brisbane.jpg" class="card-img-top" alt="Brisbane, AU" />
+    <img src="/images/events/gcc2023/brisbane.png" class="card-img-top" alt="https://commons.wikimedia.org/wiki/File:South_Bank_Grand_Arbour,_South_Bank_Parklands,_Brisbane,_2020,_02.jpg" />
     <div class="card-header">Brisbane, Australia</div>
 
 [Brisbane](https://www.australia.com/en-us/places/brisbane-and-surrounds/guide-to-brisbane.html)
@@ -59,8 +59,8 @@ inner-city beach and entertainment precinct. Come check it out for yourself.
 
 
   <!-- Galaxy Australia -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2023/galaxyp-au-logo.png" class="card-img-top" alt="Galaxy Australia" />
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
+    <img src="/images/events/gcc2023/galaxy-au.png" class="card-img-top" alt="Galaxy Australia" />
     <div class="card-header">Galaxy Australia</div>
 
 **[Galaxy Australia](https://www.biocommons.org.au/galaxy-australia)** is one of
@@ -76,8 +76,8 @@ and showcase its home base.
 
 
   <!-- Travel -->
-  <div class="card" style="min-width: 30%; max-width: 32%">
-    <img src="/images/events/gcc2023/travel/transit.png" class="card-img-top" alt="Travel" />
+  <div class="card" style="min-width: 30%; max-width: 32.2%">
+    <img src="/images/events/gcc2023/transit.png" class="card-img-top" alt="https://commons.wikimedia.org/wiki/File:Noun_15537_ccElliotVerhaeren_travel.svg" />
     <div class="card-header">Travel</div>
 
 **Getting here is easy peasy - a couple of days on the airplane, and you'll be

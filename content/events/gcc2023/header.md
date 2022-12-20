@@ -1,18 +1,19 @@
 
 <div class="trim-p">
 
-[![gcc2023](/images/events/gcc2023/brisbane-view.jpg)](/events/gcc2023/)
+<!-- https://commons.wikimedia.org/wiki/File:The_heart_reef,_part_of_the_Great_Barrier_Reef_near_Airlie_Beach,_Whitsunday_Islands,_Queensland.jpg -->
+[![gcc2023](/images/events/gcc2023/au-heart-island.png)](/events/gcc2023/)
 
 </div>
 <div class="linkbox-horizontal trim-p">
 
 [Home](/events/gcc2023/) |
-[Register](/events/gcc2023/register) |
 [Abstracts](/events/gcc2023/abstracts/) |
 [CoFest](/events/gcc2023/cofest/) |
 [Conduct](/events/gcc2023/conduct/) |
 [**Key Dates**](/events/gcc2023/key-dates/) |
 [Organizers](/events/gcc2023/organizers/) |
+[Register](/events/gcc2023/register) |
 [Sponsors](/events/gcc2023/sponsors/) |
 [Travel](/events/gcc2023/travel/)
 
@@ -32,7 +33,7 @@
     <div class="row">
         <div class="col"></div>
         <div class="col">
-            <a target="_blank" href="/events/gcc2023/SPONSORS" type="button" class="btn btn-primary center">
+            <a target="_blank" href="/events/gcc2023/sponsors" type="button" class="btn btn-primary center">
                 <strong>VIEW SPONSORSHIP PROSPECTUS</strong>
             </a>
             <a target="_blank" href="/events/gcc2022/" type="button" class="btn btn-primary center">
