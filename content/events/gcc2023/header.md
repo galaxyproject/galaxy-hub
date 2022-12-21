@@ -24,7 +24,8 @@
 
 ### SAVE THE DATE
 ### July 10-16, 2023
-### University of Queensland
+### Galaxy Australia
+### Queensland University of Technology
 ### Brisbane, Queensland, Australia
 
 #### [#UseGalaxy2023](https://twitter.com/hashtag/UseGalaxy2023)
@@ -34,7 +35,7 @@
         <div class="col"></div>
         <div class="col">
             <a target="_blank" href="/events/gcc2023/sponsors" type="button" class="btn btn-primary center">
-                <strong>VIEW SPONSORSHIP PROSPECTUS</strong>
+                <strong>VIEW SPONSORSHIP OPPORTUNITIES</strong>
             </a>
             <a target="_blank" href="/events/gcc2022/" type="button" class="btn btn-primary center">
                 <strong>REVISIT 2022</strong>

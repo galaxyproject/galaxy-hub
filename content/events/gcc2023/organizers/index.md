@@ -15,15 +15,11 @@ here are the people who make it happen.
 * **[Prash Suravajhala](http://www.bioinformatics.org/wiki/Prash )**, [Amrita University](https://www.amrita.edu/), India
 * **[Ross Lazarus](https://www.linkedin.com/in/rosslazarus/)**, Galaxy Project Emeritus
 
-The GCC2023 Organizing Committee can be reached [via email](mailto:gcc2023-org@lists.galaxyproject.org).
-
 # Scientific Program Committee
 
+* **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**, [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**, [Johns Hopkins University](https://jhu.edu/), United States
-* Looking for volunteers. Email the [organizers](/events/gcc2023/organizers/) if interested.
-
-
-Have a question about [abstracts](/events/gcc2023/abstracts/)?  Ask the [Scientific Program Committee](mailto:gcc2023-scicomm@lists.galaxyproject.org).
+* **[Margita Jadan](https://www.irb.hr/eng/Divisions/Division-of-Materials-Chemistry/Laboratory-for-aquaculture-biotechnology/Employees/Margita-Jadan)**, [Ruder Boskovic Institute](https://irb.hr/), Croatia
 
 # Scientific Program Members
 
@@ -36,7 +32,6 @@ TBD
 # CoFest Organizers
 
 * Looking for volunteers. Email the [organizers](/events/gcc2023/organizers/) if interested.
-
 
 # Photographer
 
