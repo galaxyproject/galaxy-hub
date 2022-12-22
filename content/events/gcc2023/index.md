@@ -76,7 +76,7 @@ and showcase its home base.
 
 
   <!-- Travel -->
-  <div class="card" style="min-width: 30%; max-width: 32.2%">
+  <!-- <div class="card" style="min-width: 30%; max-width: 32.2%">
     <img src="/images/events/gcc2023/transit.png" class="card-img-top" alt="https://commons.wikimedia.org/wiki/File:Noun_15537_ccElliotVerhaeren_travel.svg" />
     <div class="card-header">Travel</div>
 
@@ -88,6 +88,6 @@ many cities in eastern Asia. The conference will be held at the Queensland
 University of Technology (QUT) with several nearby lodging options. **See the
 [Travel page](/events/gcc2023/travel/) for details.**
 
-  </div>
+  </div> -->
 
 </div>
