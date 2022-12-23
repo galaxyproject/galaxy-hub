@@ -37,7 +37,7 @@ You can add custom content to the top of those pages using Markdown files. For e
 
 ### Ghost sites
 
-If you want to be part of the Global Hub community but already have a website, you can add yourself as a "ghost site". This means you will have an entry in the navbar 'Regions' dropdown, but no internal page will be created for you. Instead, you provide an `external: <url>` value in your `config.json` entry. See `au` for an example of this. To take advantage of cross-site posting as a ghost site, your application can consume the events JSON feed at `/events/feed.json` (filtered to those occuring < 30 days ago *at build time*).
+If you want to be part of the Global Hub community but already have a website, you can add yourself as a "ghost site". This means you will have an entry in the navbar 'Regions' dropdown, but no internal page will be created for you. Instead, you provide an `external: <url>` value in your `config.json` entry. See the `au` subsite for an example. To take advantage of cross-site posting as a ghost site, your application can consume the events JSON feed at `/events/feed.json` (filtered to those occurring < 30 days ago *at build time*).
 
 
 More to come
