@@ -2,7 +2,7 @@
   "name": "galaxy-hub",
   "private": true,
   "engines": {
-    "node": ">=14"
+    "node": ">=14.14"
   },
   "repository": {
     "type": "git",
