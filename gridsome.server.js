@@ -475,8 +475,12 @@ module.exports = function (api) {
                 ["Events", "/events/"],
                 ["EventsArchive", "/events/archive/"],
             ]) {
-                if (subsite === CONFIG.subsites.default && path === "/") {
+                if (
                     // The site-wide homepage is manually written, not auto-generated.
+                    (subsite === CONFIG.subsites.default && path === "/")
+                    // Don't generate pages for externally hosted sites.
+                    || (CONFIG.subsites.all[subsite].external)
+                ) {
                     continue;
                 }
                 createPage({
@@ -542,6 +546,7 @@ module.exports = function (api) {
                             id
                             title
                             tease
+                            subsites
                             location {
                                 name
                             }
@@ -554,7 +559,9 @@ module.exports = function (api) {
                                 url
                             }
                             date(format: "D MMMM YYYY")
+                            draft
                             days
+                            days_ago
                             path
                         }
                     }
@@ -568,6 +575,14 @@ module.exports = function (api) {
         app.get("/use/feed.json", (request, response) => {
             response.set("Content-Type", "application/json");
             response.send(makePlatformsJson(platformsData));
+        });
+    });
+
+    api.configureServer(async (app) => {
+        // Serve /events/feed.json from develop server.
+        app.get("/events/feed.json", (request, response) => {
+            response.set("Content-Type", "application/json");
+            response.send(makeEventsJson(eventsData));
         });
     });
 
@@ -586,6 +601,12 @@ module.exports = function (api) {
         let calPath = path.join(eventsOutDir, "calendar.ics");
         let cal = makeCalendar(eventsData);
         fs.writeFile(calPath, cal, (error) => {
+            if (error) throw error;
+        });
+
+        // Write out events JSON to /events/feed.json
+        let eventFeedPath = path.join(outDir, "feed.json");
+        fs.writeFile(eventFeedPath, makeEventsJson(eventsData), (error) => {
             if (error) throw error;
         });
     });
@@ -641,4 +662,16 @@ function makePlatformsJson(platformsData) {
         return node;
     });
     return JSON.stringify(platforms, null, "  ");
+}
+
+function makeEventsJson(eventsData) {
+    // Filter events JSON to only include events which occur less than 30 days ago
+    const events = eventsData.data.allParentArticle.edges
+        .filter( (article) => article.node.days_ago && article.node.days_ago < 30 )
+        .map( (edge) => edge.node );
+    const data = {
+        'count': events.length,
+        'events': events,
+    }
+    return JSON.stringify(data, null, "  ");
 }

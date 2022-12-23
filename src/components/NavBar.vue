@@ -11,7 +11,7 @@
                 </b-navbar-brand>
                 <b-navbar-nav id="subsite-items">
                     <b-nav-item-dropdown id="subsite-select" text="Regions">
-                        <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :to="link.path">
+                        <b-dropdown-item v-for="link of subsiteLinks" :key="link.key" :href="link.path" :target="link.external ? '_blank': ''">
                             {{ link.name }}
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
@@ -140,11 +140,19 @@ export default {
             }
         },
         subsiteLinks() {
-            return CONFIG.subsites.navbar.map((subsite) => ({
-                key: subsite,
-                name: CONFIG.subsites.all[subsite].name,
-                path: getPathPrefix(subsite) + "/",
-            }));
+            return CONFIG.subsites.navbar.map((subsite) =>
+                CONFIG.subsites.all[subsite].external ?
+                    {
+                        key: subsite,
+                        name: CONFIG.subsites.all[subsite].name,
+                        path: CONFIG.subsites.all[subsite].external,
+                        external: true,
+                    } : {
+                        key: subsite,
+                        name: CONFIG.subsites.all[subsite].name,
+                        path: getPathPrefix(subsite) + "/",
+                    }
+            )
         },
         theme() {
             if (this.customContent.style?.lightBg) {
