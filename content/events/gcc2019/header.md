@@ -1,10 +1,10 @@
 <div class="center">
   <a href='/events/gcc2019/'>
-    <div class="img-sizer trim-p">
+  <div class="img-sizer trim-p">
 
 ![GCC2019](./gcc2019-logo-big-wide.png)
 
-    </div>
+  </div>
   </a>
   <div class="linkbox-horizontal trim-p">
 
@@ -31,6 +31,7 @@
 
 Freiburg, Germany, 1-6 July 2019
 
+  </div>
   <div class="trim-p">
 
 **[Conference book](https://github.com/usegalaxy-eu/gcc2019/raw/master/com/program/book.pdf)**
