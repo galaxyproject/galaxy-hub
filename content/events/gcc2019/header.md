@@ -4,7 +4,7 @@
 
 ![GCC2019](./gcc2019-logo-big-wide.png)
 
-  </div>
+    </div>
   </a>
   <div class="linkbox-horizontal trim-p">
 
@@ -31,15 +31,14 @@
 
 Freiburg, Germany, 1-6 July 2019
 
-<strong class="trim-p">
+  <div class="trim-p">
 
-[Conference book](https://github.com/usegalaxy-eu/gcc2019/raw/master/com/program/book.pdf)
+**[Conference book](https://github.com/usegalaxy-eu/gcc2019/raw/master/com/program/book.pdf)**
 
-</strong>
-</div>
-<div class="trim-p">
+  </div>
+  <div class="trim-p">
 
 [#usegalaxy](https://twitter.com/hashtag/usegalaxy) / [chat](https://gitter.im/galaxyproject/gcc)
 
-</div>
+  </div>
 </div>
