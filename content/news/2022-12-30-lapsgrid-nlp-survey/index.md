@@ -14,7 +14,7 @@ A key feature is interoperability among tools at each step, from publication dat
 
 Galaxy already includes many LAPPS Grid NLP tools and has a set of generic Machine Learning functions, but the capabilities would be significantly expanded to provide additional functionality, such as creation of custom corpora addressing a specific topic, etc.; support for creation of derived data such as term and relation databases; transduction of output of NLP tools to formats common to Galaxy analytic tools; and, crucially, ability to store and share corpora, extracted data, and similar resources within Galaxy. 
 
-To help prepare the proposal, please complete [the survey](https://docs.google.com/forms/d/e/1FAIpQLSfROXZr2xU6lhF1DttvYrrpKuS-bjksVhu1efYlxW108V-GXg/viewform) if you are interested in applying NLP to your own work in Galaxy. 
+[To help prepare the proposal, please complete this survey](https://docs.google.com/forms/d/e/1FAIpQLSfROXZr2xU6lhF1DttvYrrpKuS-bjksVhu1efYlxW108V-GXg/viewform) if you are interested in applying NLP to your own work in Galaxy. 
 
 Thanks for participating - your ideas will help us make Galaxy better.
 
