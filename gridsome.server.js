@@ -477,9 +477,9 @@ module.exports = function (api) {
             ]) {
                 if (
                     // The site-wide homepage is manually written, not auto-generated.
-                    (subsite === CONFIG.subsites.default && path === "/")
+                    (subsite === CONFIG.subsites.default && path === "/") ||
                     // Don't generate pages for externally hosted sites.
-                    || (CONFIG.subsites.all[subsite].external)
+                    CONFIG.subsites.all[subsite].external
                 ) {
                     continue;
                 }
@@ -667,11 +667,11 @@ function makePlatformsJson(platformsData) {
 function makeEventsJson(eventsData) {
     // Filter events JSON to only include events which occur less than 30 days ago
     const events = eventsData.data.allParentArticle.edges
-        .filter( (article) => article.node.days_ago && article.node.days_ago < 30 )
-        .map( (edge) => edge.node );
+        .filter((article) => article.node.days_ago && article.node.days_ago < 30)
+        .map((edge) => edge.node);
     const data = {
-        'count': events.length,
-        'events': events,
-    }
+        count: events.length,
+        events: events,
+    };
     return JSON.stringify(data, null, "  ");
 }
