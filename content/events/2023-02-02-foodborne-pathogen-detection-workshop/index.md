@@ -197,3 +197,5 @@ This workshop is possible thanks to [EOSC-Life internal grant for academia-indus
 <img class="img-fluid" src="/images/logos/FHNW.png" style="width:200px;" alt="logo FHNW"/>
 <img class="img-fluid" src="/images/logos/eosc_life.png" style="width:200px;" alt="logo EOSC Life"/>
 <img class="img-fluid" src="/images/logos/ElixirNoTextLogo.png" style="width:200px;" alt="logo ELIXIR"/>
+<img class="img-fluid" src="/images/logos/gallantries.png" style="width:200px;" alt="logo Gallantries"/>
+<img class="img-fluid" src="/images/logos/erasmus+.jpg" style="width:200px;" alt="logo Erasmu+"/>
