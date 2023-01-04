@@ -54,7 +54,7 @@ To share about the workflows and (foodborne) pathogen detection in general, we o
 |---|---|---|---|---|---|
 | 9:00am | 9:30am | 30min  | Welcome | Talk | Anna Henger, Bérénice Batut, Abdullah Kahraman |
 | 9:30am | 10:00am | 30min | Galaxy introduction | Talk | Bérénice Batut |
-| 10:00am | 12:00pm | 2h | Galaxy introduction | Hands-on | Bérénice Batut, Engy Nasr |
+| 10:00am | 12:00pm | 2h | Galaxy introduction | Hands-on | Bérénice Batut, Engy Nasr, Hans-Rudolf Hotz |
 | 12:00pm | 1:00pm | 1h | Lunch | | |
 | 1:00pm | 1:30pm | 30min | Foodborne pathogen detection | Talk | Anna Henger | |
 | 1:30pm | 3:30pm | 2h | Foodborne pathogen detection | Hands-on | Bérénice Batut, Engy Nasr |
@@ -181,6 +181,7 @@ This workshop is over, all the training materials will stay online at [https://t
 - Bérénice Batut, University of Freiburg, Germany
 - Engy Nasr, University of Freiburg, Germany
 - Anna Henger, Biolytix, Switzerland
+- Hans-Rudolf Hotz, Friedrich Miescher Institute for Biomedical, Switzerland
 
 # Organizers
 
