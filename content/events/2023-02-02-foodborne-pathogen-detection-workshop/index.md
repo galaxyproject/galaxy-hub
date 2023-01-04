@@ -97,6 +97,7 @@ The FHNW Muttenz Campus is well served by public transport.
 - **From Muttenz railway station**: A six-minute or so walk via Hofackerstrasse or Grenzacherstrasse and through the campus park.
 - **By bus**: Bus 46 (from/to Kleinhüngingen) or 47 (from/to Bottmingen) to the "Fachhochschule" stop, then a two-minute walk
 - **From the 'Zum Park' tram stop in Muttenz**: Tram 14 from Basel and Pratteln, then a 10-minute or so walk via Zwinglistrasse and Kriegackerstrasse
+- **By train**: 5 minutes by train from Basel (S3 direction Olten or S1 direction Frick) and a 5 minute walk from the train station to the campus (see above)
 
 ### By road
 
@@ -181,7 +182,7 @@ This workshop is over, all the training materials will stay online at [https://t
 - Bérénice Batut, University of Freiburg, Germany
 - Engy Nasr, University of Freiburg, Germany
 - Anna Henger, Biolytix, Switzerland
-- Hans-Rudolf Hotz, Friedrich Miescher Institute for Biomedical, Switzerland
+- Hans-Rudolf Hotz, Friedrich Miescher Institute for Biomedical Research, Switzerland
 
 # Organizers
 
@@ -198,4 +199,5 @@ This workshop is possible thanks to [EOSC-Life internal grant for academia-indus
 <img class="img-fluid" src="/images/logos/eosc_life.png" style="width:200px;" alt="logo EOSC Life"/>
 <img class="img-fluid" src="/images/logos/ElixirNoTextLogo.png" style="width:200px;" alt="logo ELIXIR"/>
 <img class="img-fluid" src="/images/logos/gallantries.png" style="width:200px;" alt="logo Gallantries"/>
-<img class="img-fluid" src="/images/logos/erasmus+.jpg" style="width:200px;" alt="logo Erasmu+"/>
+<img class="img-fluid" src="/images/logos/erasmus+.jpg" style="width:200px;" alt="logo Erasmus+"/>
+<img class="img-fluid" src="/images/logos/FMILogo.jpg" style="width:200px;" alt="logo FMI"/>
