@@ -29,7 +29,7 @@ To share about the workflows and (foodborne) pathogen detection in general, we o
 - **Location**
   - Online on Zoom
   - F2F2 at FHNW University of Applied Sciences and Arts Northwestern Switzerland, Room 01.S.01, Muttenz, Switzerland
-- **Time**: 9am-4pm CET
+- **Time**: 9am-4pm CET ([see in your timezone](https://arewemeetingyet.com/Zurich/2023-02-02/09:00/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy))
 - **Cost**: Free
 - **Contact**: [berenice.batut@gmail.com](mailto:berenice.batut@gmail.com) if you have questions, or special requirements
 
@@ -52,13 +52,13 @@ To share about the workflows and (foodborne) pathogen detection in general, we o
 
 | Start | End | Duration | Title | Format | Instructors |
 |---|---|---|---|---|---|
-| 9:00am | 9:30am | 30min  | Welcome | Talk | Anna Henger, Bérénice Batut, Abdullah Kahraman |
-| 9:30am | 10:00am | 30min | Galaxy introduction | Talk | Bérénice Batut |
-| 10:00am | 12:00pm | 2h | Galaxy introduction | Hands-on | Bérénice Batut, Engy Nasr, Hans-Rudolf Hotz |
-| 12:00pm | 1:00pm | 1h | Lunch | | |
-| 1:00pm | 1:30pm | 30min | Foodborne pathogen detection | Talk | Anna Henger | |
-| 1:30pm | 3:30pm | 2h | Foodborne pathogen detection | Hands-on | Bérénice Batut, Engy Nasr |
-| 3:30pm | 4:00pm | 30min | Q&A and Closing | Anna Henger, Bérénice Batut, Abdullah Kahraman |
+| [9:00am](https://arewemeetingyet.com/Zurich/2023-02-02/09:00/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy%20-%20Session%201) | 9:30am | 30min  | Welcome | Talk | Anna Henger, Bérénice Batut, Abdullah Kahraman |
+| [9:30am](https://arewemeetingyet.com/Zurich/2023-02-02/09:30/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy%20-%20Session%202) | 10:00am | 30min | Galaxy introduction | Talk | Bérénice Batut |
+| [10:00am](https://arewemeetingyet.com/Zurich/2023-02-02/10:00/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy%20-%20Session%203) | 12:00pm | 2h | Galaxy introduction | Hands-on | Bérénice Batut, Engy Nasr, Hans-Rudolf Hotz |
+| [12:00pm](https://arewemeetingyet.com/Zurich/2023-02-02/12:00/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy%20-%20Session%204) | 1:00pm | 1h | Lunch | | |
+| [1:00pm](https://arewemeetingyet.com/Zurich/2023-02-02/13:00/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy%20-%20Session%205) | 1:30pm | 30min | Foodborne pathogen detection | Talk | Anna Henger | |
+| [1:30pm](https://arewemeetingyet.com/Zurich/2023-02-02/13:30/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy%20-%20Session%206) | 3:30pm | 2h | Foodborne pathogen detection | Hands-on | Bérénice Batut, Engy Nasr |
+| [3:30pm](https://arewemeetingyet.com/Zurich/2023-02-02/15:30/Workshop%20for%20pathogen%20detection%20from%20sequencing%20data%20using%20Galaxy%20-%20Session%207) | 4:00pm | 30min | Q&A and Closing | Anna Henger, Bérénice Batut, Abdullah Kahraman |
 
 # Registration
 
