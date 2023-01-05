@@ -605,7 +605,7 @@ module.exports = function (api) {
         });
 
         // Write out events JSON to /events/feed.json
-        let eventFeedPath = path.join(outDir, "feed.json");
+        let eventFeedPath = path.join(eventsOutDir, "feed.json");
         fs.writeFile(eventFeedPath, makeEventsJson(eventsData), (error) => {
             if (error) throw error;
         });
