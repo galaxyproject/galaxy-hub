@@ -588,24 +588,24 @@ module.exports = function (api) {
 
     api.afterBuild(async () => {
         // Write all Platforms to /use/feed.json.
-        let outDir = path.join(__dirname, "dist", "use");
-        fs.mkdirSync(outDir, { recursive: true });
-        let feedPath = path.join(outDir, "feed.json");
-        fs.writeFile(feedPath, makePlatformsJson(platformsData), (error) => {
+        const useOutDir = path.join(__dirname, "dist", "use");
+        fs.mkdirSync(useOutDir, { recursive: true });
+        const useFeedPath = path.join(useOutDir, "feed.json");
+        fs.writeFile(useFeedPath, makePlatformsJson(platformsData), (error) => {
             if (error) throw error;
         });
 
         // Write all events to /events/calendar.ics
-        let eventsOutDir = path.join(__dirname, "dist", "events");
+        const eventsOutDir = path.join(__dirname, "dist", "events");
         fs.mkdirSync(eventsOutDir, { recursive: true });
-        let calPath = path.join(eventsOutDir, "calendar.ics");
-        let cal = makeCalendar(eventsData);
+        const calPath = path.join(eventsOutDir, "calendar.ics");
+        const cal = makeCalendar(eventsData);
         fs.writeFile(calPath, cal, (error) => {
             if (error) throw error;
         });
 
         // Write out events JSON to /events/feed.json
-        let eventFeedPath = path.join(outDir, "feed.json");
+        const eventFeedPath = path.join(eventsOutDir, "feed.json");
         fs.writeFile(eventFeedPath, makeEventsJson(eventsData), (error) => {
             if (error) throw error;
         });
