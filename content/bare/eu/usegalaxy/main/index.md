@@ -1,8 +1,6 @@
 ---
 title: Galaxy Europe
 ---
-import Snowflakes from "@/components/Snowflakes";
-<Snowflakes />
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
