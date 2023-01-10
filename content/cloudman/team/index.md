@@ -1,6 +1,6 @@
 # People
 
-[CloudMan](http://usecloudman.org) is developed by the [Taylor lab](http://taylorlab.org) at [Johns Hopkins University](http://www.jhu.edu), [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Center for Comparative Genomics and Bioinformatics at Penn State ](http://www.bx.psu.edu), and [CIR](http://www.irb.hr/en/cir/) at the [Ruđer Bošković Institute(RBI)](http://www.irb.hr/en) along with contributions from the community.
+[CloudMan](http://usecloudman.org) is developed by the [Taylor lab](https://web.archive.org/web/20210308182933/https://taylorlab.org) at [Johns Hopkins University](http://www.jhu.edu), [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Center for Comparative Genomics and Bioinformatics at Penn State ](http://www.bx.psu.edu), and [CIR](http://www.irb.hr/en/cir/) at the [Ruđer Bošković Institute(RBI)](http://www.irb.hr/en) along with contributions from the community.
 
 ## CloudMan Team from A to Z
 

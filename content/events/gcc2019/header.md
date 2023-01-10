@@ -1,6 +1,6 @@
 <div class="center">
   <a href='/events/gcc2019/'>
-    <div class="img-sizer trim-p">
+  <div class="img-sizer trim-p">
 
 ![GCC2019](./gcc2019-logo-big-wide.png)
 
@@ -22,24 +22,25 @@
 [Org](/events/gcc2019/organizers/)
 
   </div>
+
   <div class="trim-p" style="font-size: x-large;">
 
 **2019 Galaxy Community Conference (GCC2019)**
 
-  </div>
+  </div><br />
   <div class="trim-p" style="font-size: large;">
 
 Freiburg, Germany, 1-6 July 2019
 
-<strong class="trim-p">
+  </div><br />
+  <div class="trim-p">
 
-[Conference book](https://github.com/usegalaxy-eu/gcc2019/raw/master/com/program/book.pdf)
+**[Conference book](https://github.com/usegalaxy-eu/gcc2019/raw/master/com/program/book.pdf)**
 
-</strong>
-</div>
-<div class="trim-p">
+  </div><br />
+  <div class="trim-p">
 
 [#usegalaxy](https://twitter.com/hashtag/usegalaxy) / [chat](https://gitter.im/galaxyproject/gcc)
 
-</div>
+  </div>
 </div>

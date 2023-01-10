@@ -2,7 +2,7 @@
 
 # Enis Afgan
 
-I am an Associate Research Scientist in the [Taylor Lab](http://taylorlab.org/) at Johns Hopkins University. With that, I am also an active member of the Galaxy project. As part of ongoing collaboration, I am also affiliated with the [Center for Informatics and Computing](http://www.irb.hr/en/cir/) at the [Ruđer Bošković Institute (RBI)](http://www.irb.hr/eng/).
+I am an Associate Research Scientist in the [Taylor Lab](https://web.archive.org/web/20210308182933/https://taylorlab.org/) at Johns Hopkins University. With that, I am also an active member of the Galaxy project. As part of ongoing collaboration, I am also affiliated with the [Center for Informatics and Computing](http://www.irb.hr/en/cir/) at the [Ruđer Bošković Institute (RBI)](http://www.irb.hr/eng/).
 
 The focus of my current work is in the area of cloud and distributed computing. I actively work on (1) the CloudMan application providing comprehensive (bioinformatics) analysis environments on cloud computing resources and (2) a federated model of efficient job execution leveraging data locality. The general aims are to enable the needed computations to be performed in the most accessible and efficient way possible.
 

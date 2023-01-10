@@ -1,7 +1,7 @@
 <div class='right'>![](/galaxy-team/guerler.jpg)</div>
 # Aysam Guerler
 
-Aysam is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Johns Hopkins University](http://jhu.edu/). He is an active [member of the Galaxy project](/galaxy-team/).
+Aysam is a software engineer in the [Taylor Lab](https://web.archive.org/web/20210308182933/https://taylorlab.org/) at [Johns Hopkins University](http://jhu.edu/). He is an active [member of the Galaxy project](/galaxy-team/).
 
 ## Contact
 

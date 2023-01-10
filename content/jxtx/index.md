@@ -10,7 +10,32 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 <br />
 
----
+**James Taylor, a leader of the Galaxy Project, and one of its original members, passed away on April 2, 2020.**  The community response has been tremendous, reflecting the breadth and depth of his impact.  Learn more about James and his impact:
+
+* [Biography](/jxtx/bio/)
+* [In memory of James Taylor: the birth of Galaxy](https://doi.org/10.1186/s13059-020-02016-0). Anton Nekrutenko & Michael C. Schatz. *Genome Biology* 21, 105 (2020)
+* [Stories](/jxtx/stories/)
+* [Memorials](/jxtx/memorials/)
+* [Community response](/jxtx/we-miss-you/)
+
+
+## JXTX: The James P. Taylor Foundation for Open Science
+
+**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/).**
+
+
+<br />
+
+<div class="text-center">
+<button type="button" class="btn btn-secondary trim-p" style="font-size: x-large; font-weight: 600;">
+
+[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Learn more](https://jxtxfoundation.org/)</button>
+
+</div>
+
+<br />
+
 
 <div class="video-variable">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oGOF3r3SmDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,6 +43,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 <p class="h1 text-center"> Happy Birthday James. </p>
 
+<br />
 
 ---
 
@@ -67,32 +93,3 @@ Here is what we will need you to do **by May 7**:
 Thank you all in advance and please feel free to send this email to other friends of James.
 
 <br />
-
----
-
-**James Taylor, a leader of the Galaxy Project, and one of its original members, passed away on April 2, 2020.**  The community response has been tremendous, reflecting the breadth and depth of his impact.  Learn more about James and his impact:
-
-* [Biography](/jxtx/bio/)
-* [In memory of James Taylor: the birth of Galaxy](https://doi.org/10.1186/s13059-020-02016-0). Anton Nekrutenko & Michael C. Schatz. *Genome Biology* 21, 105 (2020)
-* [Stories](/jxtx/stories/)
-* [Memorials](/jxtx/memorials/)
-* [Community response](/jxtx/we-miss-you/)
-
-
-## JXTX: The James P. Taylor Foundation for Open Science
-
-**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/).**
-
-
-<br />
-
-<div class="text-center">
-<button type="button" class="btn btn-secondary trim-p" style="font-size: x-large; font-weight: 600;">
-
-[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Learn more](https://jxtxfoundation.org/)</button>
-
-</div>
-
-<br />
-
