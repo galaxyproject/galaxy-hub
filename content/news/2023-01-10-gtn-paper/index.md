@@ -9,7 +9,7 @@ subsites: [global]
 
 Our new paper about the Galaxy Training Network has been published this week in Plos Computational Biology: ["Galaxy Training: A powerful framework for teaching!"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010752)
 
-**We would like to thank all contributors to the [GTN](https://training.galaxyproject.org/training-material/hall-of-fame) and Galaxy ecosystem in general.** Without you, we would not have able to build such a great platform and awesome material, and reach some many people! Thank
+**We would like to thank all contributors to the [GTN](https://training.galaxyproject.org/training-material/hall-of-fame) and Galaxy ecosystem in general.** Without you, we would not have able to build such a great platform and awesome material, and reach some many people! We would like to thank also to the reviewers for their valuable comments that helped improving the paper.
 
 ![Content of material available on the GTN and feedback from learners. (A) Evolution of number of topics, tutorials, and contributors over the months between 2017 and 2022. (B) Number and type of tutorials per topics available on the GTN on April 2022. The latest statistics are publicly available from https://training.galaxyproject.org/stats. (C) Type of supporting materials for tutorials per topics available on the GTN on April 2022. (D) Score of the embedded feedback in the tutorials per topics. Three questions are asked in the form: 'How much did you like this tutorial?' (from 1 (bad) to 5 (great)), 'What did you like?', 'What could be improved?'. The latest feedback results are publicly available from https://training.galaxyproject.org/feedback.](/news/2023-01-10-gtn-paper/2023-01-10-gtn-paper-fig2.png)
 
