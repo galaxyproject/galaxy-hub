@@ -1,18 +1,15 @@
 <template>
     <main id="maincontainer" class="container">
-        <Snowflakes />
         <div class="markdown" v-html="$page.main.content" />
     </main>
 </template>
 <script>
-import Snowflakes from "@/components/Snowflakes";
 export default {
     metaInfo() {
         return {
             title: this.$page.main.title,
         };
     },
-    components: { Snowflakes },
 };
 </script>
 

@@ -1,6 +1,5 @@
 <template>
     <div :class="rootClasses">
-        <Snowflakes />
         <header id="masthead">
             <NavBar :subsite="subsite" />
         </header>
@@ -17,7 +16,6 @@
 <script>
 import NavBar from "@/components/NavBar";
 import Gitter from "@/components/Gitter";
-import Snowflakes from "@/components/Snowflakes";
 import CONFIG from "~/../config.json";
 import { rmPrefix, rmSuffix } from "~/lib/utils.js";
 
@@ -25,7 +23,6 @@ export default {
     components: {
         NavBar,
         Gitter,
-        Snowflakes,
     },
     props: {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
