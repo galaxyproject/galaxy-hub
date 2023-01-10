@@ -16,13 +16,13 @@ main_subsite: eu
       (μSR).
       
       Within this field, the Muon Spectroscopy Computational Project
-      [MSCP](https://muon-spectroscopy-computational-project.github.io/index.html "MSCP"),
+      [MSCP](https://muon-spectroscopy-computational-project.github.io/index.html),
       based at the Rutherford Appleton Laboratory in the United Kingdom, is working on building
       software tools for modelling muon spectroscopy experiments. The MSCP has chosen Galaxy
       as the main platform to make these tools easily available to experimental muon scientists,
       and enable sharing of FAIR workflows for muon simulations. So far, many of the software 
       tools developed by the MSCP have been incorporated into Galaxy following best practices; and 
-      we are now deploying a [MuonGalaxy](https://muongalaxy.stfc.ac.uk/ "MuonGalaxy")
+      we are now deploying a [MuonGalaxy](https://muongalaxy.stfc.ac.uk/)
       portal to leverage on the EuroScienceGateway services and foster
       Open Science practices in the muon science community. Our aims include improving interactions 
       within the the muon science field well as connecting to the wider materials science community, 
