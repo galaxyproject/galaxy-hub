@@ -1,6 +1,6 @@
 ---
 title: "Galaxy Community Call"
-date: '2022-02-09'
+date: '2023-02-09'
 days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
