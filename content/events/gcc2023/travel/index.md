@@ -16,16 +16,15 @@ galleries, museums, and performance venues. There is a great choice of
 restaurants and cuisines, including Australian, Asian, and Japanese food.
 
 Within an hour drive are Australian Zoo, Moreton Island, and Gold Coast as some of
-the prime Australian destinations, offering a range of activities and
+the prime Australian travel destinations, offering a range of activities and
 attractions such as surfing, hiking, and wildlife encounters.
 
 ### Getting to Brisbane
 
-The [Brisbane Airport](https://www.bne.com.au/) code is BNE.
+Brisbane is well connected to the world with direct flights available from much
+of the eastern Asia, west coast of North America, and the United Arab Emirates.
+**The [Brisbane Airport](https://www.bne.com.au/) code is BNE.**
 
-Brisbane is well connected to much of the eastern Asia, west coast of North
-America, and the United Arab Emirates. If you are traveling from other locations
-in the world, a layover will be necessary.
 
 Before making travel arrangements, don't forget to check any [visa
 requirements](https://usa.embassy.gov.au/visa-requirements) for traveling to
@@ -42,9 +41,39 @@ GCC2023 will be held at the [Queensland University of
 Technology](https://www.qut.edu.au/) (QUT) [Gardens Point
 campus](https://www.qut.edu.au/about/campuses-and-facilities/gardens-point-campus).
 This is a beautiful location in the center of the city and right on the Brisbane
-river.
+river. This campus is serviced by multiple bus routes, a short walk from Central
+Station (through the city) and South Bank station (a short walk across a
+pedestrian-only bridge).
 
-## Housing
+## Accommodation
 
-Housing details are still being worked on. Please check back here in a few weeks
-for more details.
+There are numerous accommodation options close by to the campus, in all directions.
+Walking in Brisbane in July will be comfortable, with average daily temperature
+of 25C (80F).
+
+You can expect the following average per night room rates at Brisbane hotels:
+- 5-star: $250 - $350 AUD
+- 4-star: $180-$250 AUD
+- 3-star/budget: $90-$180 AUD
+
+Accommodation within 10-15 minutes' walk of QUT include the following. **You can
+also check out [this map](https://goo.gl/maps/66jTSziGdDxQYmS29).**
+
+### 5-star
+
+- [Stamford Plaza](https://www.stamford.com.au/hotels/stamford-plaza-brisbane-hotel/) - 1.0km from venue
+- [Courtyard by Marriott](https://www.marriott.com/en-us/hotels/bnecy-courtyard-brisbane-south-bank/overview/) - 1.0km from venue
+
+### 4-star
+
+- [Royal on the Park](https://www.royalonthepark.com.au/) - <1.0km from venue
+- [Capri by Fraser](https://www.frasershospitality.com/en/australia/brisbane/capri-by-fraser-brisbane/) - <1.0km from venue
+- [Oaks](https://www.oakshotels.com/en/oaks-212-margaret) - <1.0km from venue, apartment style suites
+
+### 3-star
+
+- [River Plaza Apartments](https://www.riverplaza.com.au/) - <1.0km from venue
+
+### Hostels
+
+- [YHA](https://www.yha.com.au/hostels/qld/brisbane-surrounds/brisbane-backpackers-hostel/) - 2.5km from venue

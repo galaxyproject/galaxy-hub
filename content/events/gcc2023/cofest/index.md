@@ -15,7 +15,7 @@ other.
 
 <p class="lead">
     <strong>
-        Our goals are to expand the contributor community and the Galaxy ecosystem.
+        The goals of CoFest are to expand the Galaxy contributor community and its ecosystem.
     </strong>
 </p>
 
