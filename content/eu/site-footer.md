@@ -5,8 +5,8 @@ All content on this site is available under [CC0-1.0](https://creativecommons.or
 
 [](){: .fa .fa-envelope style="color: #777"} [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu) &nbsp;
 [](){: .fab .fa-github style="color: #777"} [usegalaxy-eu](https://github.com/usegalaxy-eu) &nbsp;
-[](){: .fab .fa-twitter style="color: #777"} [@galaxyproject](https://twitter.com/galaxyproject) &nbsp;
-[](){: .fab .fa-mastodon style="color: #777"} [@galaxyfreiburg](https://xn--baw-joa.social/@galaxyfreiburg){: rel="me noopener noreferrer"} &nbsp;
-[](){: .fa .fa-rss style="color: #777"} Subscribe [via RSS (UseGalaxy.eu Feed)](/eu/feed.atom)
+[<b aria-hidden="true" style="font-size: 0.9em; color: #777">[m]</b>]() [usegalaxy.eu space](https://matrix.to/#/#usegalaxy.eu:matrix.org) &nbsp;
+[](){: .fab .fa-mastodon style="color: #777"} <a href="https://xn--baw-joa.social/@galaxyfreiburg" target="_blank" rel="me noopener noreferrer"><span style="font-size: 0.9em">@</span>galaxyfreiburg</a> &nbsp;
+[](){: .fa .fa-rss style="color: #777"} [usegalaxy.eu feed](/eu/feed.atom)
 
 </div>

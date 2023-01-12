@@ -10,7 +10,7 @@ list:
   title: Events
   link: /eu/events/
   icon: far fa-calendar-alt
-- name: twitter
+- name: social
   type: static
 - name: videos
   type: static
