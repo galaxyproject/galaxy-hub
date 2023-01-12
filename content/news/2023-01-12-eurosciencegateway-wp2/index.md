@@ -3,7 +3,9 @@ title: "EuroScienceGateway WP2"
 tease: "Stimulate FAIR and reusable research with computational workflows"
 authors: "Stian Soiland-Reyes"
 date: "2023-01-12"
-tag: esg esg-wp2
+tag: [esg, esg-wp2]
+subsites: [all-eu, esg]
+main_subsite: eu
 ---
 
 # EuroScienceGateway WP2
