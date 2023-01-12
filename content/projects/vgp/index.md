@@ -16,7 +16,7 @@ The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is
   - Integration of the Genome Ark on public Galaxy servers.
   - A Galaxy platform with toolkits specifically tailored for [Genome assembly](https://assembly.usegalaxy.eu).
   - Multiple workflows available from the [IWC](https://github.com/galaxyproject/iwc) on US and EU servers using the most up-to-date VGP pipelines.
-  - A list of publicly-available [histories](https://assembly.usegalaxy.eu/u/gallardoalba/h/vgp-example-history) for each assembly completed on Galaxy as they are generated.
+  - A list of publicly-available histories<sup>1</sup> for each assembly completed on Galaxy as they are generated.
 
 
 <div class="row row-cols-1 row-cols-md-2">
@@ -25,7 +25,7 @@ The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is
       <div class="card-body">
         <h3><b>Data from GenomeArk</b></h3>
         Galaxy has integrated the Genome Ark server as a remote data repository on all public servers. Using the remote data importer, the initial sequence files for all available species as well as the completed assemblies for species as they are completed are available to any logged-in user.<br><br>
-        <a href="https://vgp.github.io/genomeark/" class="btn btn-primary">Explore GenomeArk</a>
+        <a href="https://vgp.github.io/genomeark/" class="btn btn-primary" target="_blank">Explore GenomeArk</a>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@ The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is
       <div class="card-body">
         <h3><b>Analysis Platform</b></h3>
         All tools and workflows are publicly available on the assembly-specific Galaxy workbench, along with relevant links to trainings, workflows, and example analyses. <br><br>
-        <a href="https://assembly.usegalaxy.eu" class="btn btn-warning">Explore Workbench</a>
+        <a href="https://assembly.usegalaxy.eu" class="btn btn-warning" target="_blank">Explore Workbench</a>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@ The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is
       <div class="card-body">
         <h3><b>Project Roadmap</b></h3>
         View the roadmap for the VGP. <br><br>
-        <a href="https://vertebrategenomesproject.org/phase-one" class="btn btn-success">View Roadmap</a>
+        <a href="https://vertebrategenomesproject.org/phase-one" class="btn btn-success" target="_blank">View Roadmap</a>
       </div>
     </div>
   </div>
