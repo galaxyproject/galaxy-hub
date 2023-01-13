@@ -32,6 +32,10 @@ This is a Collaboration Fest. Not a hackathon, not a codefest, but a *Collaborat
 
 Welcome aboard.
 
+## Dates
+
+CoFest will be held for the last 3 days for GCC2023 - from July 14 through July 16.
+
 ## Registration
 
 Registration details are still being worked out. Please check back here in a few weeks.

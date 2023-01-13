@@ -13,7 +13,8 @@ here are the people who make it happen.
 * **[Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Margita Jadan](https://www.irb.hr/eng/Divisions/Division-of-Materials-Chemistry/Laboratory-for-aquaculture-biotechnology/Employees/Margita-Jadan)**, [Ruder Boskovic Institute](https://irb.hr/), Croatia
 * **[Prash Suravajhala](http://www.bioinformatics.org/wiki/Prash )**, [Amrita University](https://www.amrita.edu/), India
-* **[Ross Lazarus](https://www.linkedin.com/in/rosslazarus/)**, Galaxy Project Emeritus
+* **[Roberto Barrero Gumiel](https://www.qut.edu.au/about/our-people/academic-profiles/roberto.barrero)**, [Queensland University of Technology](https://www.qut.edu.au/), Australia
+* **[Ross Lazarus](https://www.linkedin.com/in/rosslazarus/)**, Galaxy Project Emeritus, Australia
 
 # Scientific Program Committee
 

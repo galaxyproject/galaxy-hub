@@ -16,3 +16,5 @@ following are tentative dates which may still change.
 | Jun 12 | Poster/demo acceptance announcements |
 | Jun 16 | Regular registration closes / Late registration opens |
 | Jul 10 | Conference starts! |
+| Jul 14 | CoFest starts |
+| Jul 16 | Last day of GCC2023 |
