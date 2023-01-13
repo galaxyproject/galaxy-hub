@@ -19,24 +19,15 @@ When it comes to computing, pre/post processing and visualisation, typical tasks
 
 Flagship workflows for the climate use cases will be related to topical research into global change and aimed at raising awareness and characterising impacts by combining mainly information from models, satellites and authoritative meteorological/climate data providers, thereby demonstrating how straightforward it can be to get access to large amounts of reliable climate data with Galaxy, process it, and extract information that does make sense out of it.
 
- 
 
 In practice, for each use case we will:
 
-1.    work on one (or more) comprehensive Jupyter Notebook(s) typically using the Pangeo stack and addressing/solving a particular use case;
-
-2.    split the notebook into manageable “chunks” that could be converted into Galaxy tool;
-
-3.    specify/identify the necessary tools (are they already available in Galaxy or not, how much work will building them require?);
-
-4.    explicitly define the corresponding input data (including provenance), parameters and outputs;
-
-5.    develop wrappers for individual tools;
-
-6.    assemble, test and validate the workflow;
-
-7.    proceed with tutorials and/or associated training material;
-
-8.    derive other potential usage of the new tools in different applications;
-
-9.    explore the most appropriate channel(s) to communicate around the developed tools and workflows to reach a receptive audience (articles, events, etc.).
+1.    Work on one (or more) comprehensive Jupyter Notebook(s) typically using the Pangeo stack and addressing/solving a particular use case.
+2.    Integrate the notebook into manageable and reusable “chunks” that could be converted into Galaxy tool.
+3.    Specify/identify the necessary tools. Which ones need to be added to Galaxy.
+4.    Explicitly define the corresponding input data (including provenance), parameters and outputs.
+5.    Develop wrappers for individual tools.
+6.    Assemble, test and validate the workflow.
+7.    Proceed with tutorials and/or associated training material.
+8.    Derive other potential usage of the new tools in different applications.
+9.    Explore the most appropriate channel(s) to communicate around the developed tools and workflows to reach a receptive audience (articles, events, etc.).
