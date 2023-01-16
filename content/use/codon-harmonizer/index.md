@@ -12,9 +12,9 @@ image: "/images/logos/WageningenUniversity.jpg"
 comments:
   - "From [Claassens et al](https://doi.org/10.1371/journal.pone.0184355):"
   - "...different codon usage variants significantly improved production of some of the tested proteins. However, not a single algorithm performed consistently best for the membrane-integrated production of the 6 tested proteins. In conclusion, for improving heterologous membrane protein production in E. coli, the major effect is accomplished by transcriptional tuning. In addition, further improvements may be realized by attempting different codon usage variants, such as codon harmonized variants, which can now be easily generated through our online Codon Harmonizer tool."
-  - "[GitHub repo](http://gitlab.com/wurssb/codonharmonizer)"
+  - "[GitLab repo](http://gitlab.com/wurssb/codonharmonizer)"
 user_support:
-  - "[Codon Harmonizer Manual](http://codonharmonizer.systemsbiology.nl/static/CodonHarmonization_Manual.pdf)"
+  - "[Codon Harmonizer Manual](https://gitlab.com/wurssb/Codonharmonizer/-/raw/master/Manual_Codon_Harmonizer_Galaxy.pdf)"
   - "Email Support: [Bart Nijsse](mailto:bart.nijsse AT wur.nl), [Nico Claassens](mailto:nicoclaassens AT gmail.com)"
 quotas:
   - "Can only be used without creating an account."
