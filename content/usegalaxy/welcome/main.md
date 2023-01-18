@@ -20,17 +20,11 @@ title: usegalaxy.org
 
 #### **Galaxy** is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy [start here][galaxy-101] or consult our <a id="toggleHelp">help resources</a>. You can install your own Galaxy by following the [tutorial][get-galaxy] and choose from thousands of tools from the [Tool Shed](https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial).
 
----
+<div class="text-center my-5">
 
-<div class="notice alert alert-info mt-2">
+[![The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills.](/images/events/gcc2023/gcc2023-logo.png)](https://galaxyproject.org/events/gcc2023/)
 
-<img src="https://images.squarespace-cdn.com/content/v1/5d3a4213cf4f5b00014ea1db/2424d533-c29d-47f3-abc1-b916ca9d13b3/SG.jpeg?format=300w" width="200" style="float: right; padding: 1rem;">
-
-The Galaxy Community and UseGalaxy.\* initiative lost one of its brightest stars on Saturday, November 26, when Simon Gladman, the principal architect of UseGalaxy.org.au (Galaxy Australia) passed away unexpectedly.
-
-Simon was not just a key member of his own Galaxy community in Australia, but had been a major part of the global Galaxy community for many years. He was a driving force behind the UseGalaxy.\* public server initiative and the technologies and organization of work needed to make UseGalaxy.org.au (along with UseGalaxy.org and UseGalaxy.eu) a success. In addition, he was a friend to all who met him, and an all-around wonderful person. Our deepest condolences are with his family, friends, and all who knew and loved him.
-
-You can find more details in the numerous memorials for Simon: from [the Galaxy Project](https://galaxyproject.org/news/2022-11-28-simon-gladman/), from [Galaxy Australia](https://site.usegalaxy.org.au/simon.html), and from [the Australian BioCommons](https://www.biocommons.org.au/news/simon-gladman). His colleagues are collecting memories, if you have ones that you would like to share, please send them to [christina@biocommons.org.au](mailto:christina@biocommons.org.au?subject=Remembering%20Simon%20Gladman).
+Join us in Brisbane, Australia July 10-16 for [the 2023 Galaxy Community Conference](https://galaxyproject.org/events/gcc2023/). [Early registration opens on Feb 17 and abstracts are due by Apr 3](https://galaxyproject.org/events/gcc2023/key-dates/).
 
 </div>
 
