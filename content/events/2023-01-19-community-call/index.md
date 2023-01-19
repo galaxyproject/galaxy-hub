@@ -9,7 +9,7 @@ location:
   url: "/community/community-calls/"
 external_url:
 gtn: false
-contact: "TBD"
+contact: "Natalie Kucher"
 tags: ["community-call"]
 subsites: [all]
 ---
