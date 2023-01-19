@@ -36,7 +36,7 @@ To further easily extend the Network, WP3 is developing an Open Infrastructure, 
 Finally, by integrating the [GA4GH TES](https://www.ga4gh.org/news/ga4gh-tes-api-bringing-compatibility-to-task-execution-across-hpc-systems-the-cloud-and-beyond/) APIs in Pulsar, the service will be opened to other workflow systems, thus enabling other services beyond Galaxy to submit jobs to the Pulsar Network. As a proof of concept, the [Workflow Execution Service](https://github.com/inab/WfExS-backend) will be extended to support TES APIs, therefore allowing the underlying engines, e.g. Nextflow or CWL, to execute tasks using the Pulsar Network.
 
 #### WP3 Resources
-* [WP3 introduction slides at European Galaxy Days 2022](wp3_kickoff_slides.pdf) 
+* [WP3 introduction slides at European Galaxy Days 2022](esg_wp3_kickoff_slides.pdf) 
 
 #### WP3 Objectives
 * O3.1 Build a European wide job-scheduling network
