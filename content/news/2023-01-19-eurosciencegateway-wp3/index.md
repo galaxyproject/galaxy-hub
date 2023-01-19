@@ -18,16 +18,16 @@ Pulsar is a lightweight Python application that can be used for  offloading Gala
 WP3 will advance the Pulsar Network to the production level, hardening the existing network and, further extending it, leveraging the computing resources of 13 European countries, and making it accessible through 6 national Galaxy usegalaxy.``*``.
 
 <div class="center">
-<div class="img-sizer" style="width: 20%">
-
+<div class="img-sizer" style="width: 40%">
 ![The ESG Pulsar Network](esg_pulsar_network.png)
-
 </div>
-
 <figcaption>
   Minimal coverage of Pulsar endpoints and Galaxy National instances expected at the end of the project.
 </figcaption>
 </div>
+
+<br/>
+<br/>
 
 To further easily extend the Network, WP3 is developing an Open Infrastructure, providing to resource providers the instruments to easily deploy and manage Pulsar endpoints and Galaxy instances, tackling the increasing demand of computing capacity, and opening up the Pulsar service to additional scientific domains.
 
