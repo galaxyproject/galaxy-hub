@@ -19,7 +19,9 @@ WP3 will advance the Pulsar Network to the production level, hardening the exist
 
 <div class="center">
 <div class="img-sizer" style="width: 40%">
+
 ![The ESG Pulsar Network](esg_pulsar_network.png)
+
 </div>
 <figcaption>
   Minimal coverage of Pulsar endpoints and Galaxy National instances expected at the end of the project.
