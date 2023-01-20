@@ -19,7 +19,7 @@ subsites: [all]
 
 To share about the workflows and (foodborne) pathogen detection in general, we organize a 1-day **hybrid** (F2F at FHNW Muttenz, Switzerland and online), **free** and **practical workshop** on **February 2nd, 2023** to learn how to detect (foodborne) pathogens from (direct Nanopore) sequencing data using Galaxy, an **open-source** platform for **FAIR data analysis**.
 
-<a class="btn w-100 btn-primary btn-lg" href="https://forms.gle/UAFUxtzcYFf2vRLGA">Registration before January 15th</a>
+<div class="btn w-100 btn-primary btn-lg">Registration closed</div>
 
 
 # General information
