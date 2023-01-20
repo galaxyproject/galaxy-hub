@@ -18,6 +18,7 @@ I'd like to bring more attention to accessibility in general, and hope to show h
 The current tagging component has a few accessibility issues, which can not be solved by us without changing the underlying library.
 For this reason a new tag component was built from scratch.
 It's making it's debut in the History, but will be gradually rolled out across all galaxy components.
+Changes to replace the old tag component are already in the works for Workflows and the Datasets List.
 
 ![Assortment of Tags on a History](./TagsOnHistoryDetails.png)
 
