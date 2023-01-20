@@ -71,7 +71,7 @@ The keyboard focus also only steps into a history item if it is expanded, making
 
 ## Heading Hierarchy, Aria Labels and Screen-Reader Texts
 
-A lot of mark up improvements have been done for screen readers.
+A lot of mark up improvements have been made for screen readers.
 Heading hierarchies have been properly cleaned up, titles have been added to most sub-pages, and many elements have received aria labels.
 Screen-reader only texts have also been added, to help in places where previously only icons communicated an action.
 
