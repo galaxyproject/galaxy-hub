@@ -120,7 +120,7 @@ Thinking about how we design our app in a more accessible manner, leads to new p
 
 We want to highlight that these changes benefit every user to some degree, making them well worth the effort, and implore you to consider prioritizing accessibility in other projects as well; be it by developing with accessibility in mind, or speaking out for changes favoring accessibility.
 
-A big thank you goes out to everyone how contributed on improving galaxies accessibility.
+A big thank you goes out to everyone how contributed on improving Galaxy's accessibility.
 This includes everyone who has reported accessibility issues.
 Your detailed reports have helped a lot in this effort!
 
