@@ -1,6 +1,6 @@
 ---
-title: "The Work Package 3 of the EuroScienceGateway project"
-tease: "Building a distributed compute network across Europe"
+title: "Building a distributed compute network across Europe"
+tease: "The Work Package 3 of the EuroScienceGateway project"
 hide_tease: false
 authors: "Marco Antonio Tangaro, Federico Zambelli"
 date: "2023-01-19"
