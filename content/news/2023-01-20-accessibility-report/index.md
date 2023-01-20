@@ -9,9 +9,11 @@ subsites: [global]
 ---
 
 Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team, and part of the UI/UX working-group. For the upcoming 23.0 update improving Galaxy's accessibility was a high priority for the UI/UX team. This is a preview of some of the accessibility related changes I am most excited about.
-I'd like to bring more attention to accessibility in general, and hope to show how increased focus on accessibility benefit everybody's user experience.
+We would like to bring more attention to accessibility in general, and hope to show how increased focus on accessibility benefits everyone's user experience.
 
-This is just a selection of some highlights. The accessibility has improved in many regions throughout Galaxy, and there is more in the works for future releases.
+This is just a selection of some highlights.
+The accessibility has improved in many regions throughout Galaxy, and there is more in the works for future releases.
+We still have some work to do until Galaxy is as accessible as we want it to be, so please continue reporting any accessibility concerns you run into.
 
 ## Tags
 
@@ -118,6 +120,8 @@ Thinking about how we design our app in a more accessible manner, leads to new p
 
 I want to highlight that these changes benefit every user to some degree, making them well worth the effort, and implore you to consider prioritizing accessibility; be it by developing with accessibility in mind, or speaking out for changes favoring accessibility.
 
-A big thanks goes out to everyone how contributed on improving galaxies accessability, and reporting accessability issues!
+A big thank you goes out to everyone how contributed on improving galaxies accessability.
+This includes everyone who has reported accessability issues.
+Your detailed reports have helped a lot in this effort!
 
 Thank you for reading.
