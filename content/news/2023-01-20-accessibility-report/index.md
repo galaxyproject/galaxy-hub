@@ -72,9 +72,13 @@ The keyboard focus also only steps into a history item if it is expanded, making
 ## Heading Hierarchy, Aria Labels and Screen-Reader Texts
 
 A lot of mark up improvements have been done for screen readers.
-Heading hierarchies have been properly cleaned up, titles have been added to most sub-pages, and many elements have received aria labels.
-Screen-reader only texts have also been added, to help in places where previously only icons communicated an action.
 
+All heading elements have been reordered to follow semantic hierarchy, and the headings sizes are now determined by helper classes, instead of the heading level.
+This is important for screen readers, and other software, so they can generate a table of content. Read more about heading levels on [W3C](https://www.w3.org/WAI/tutorials/page-structure/headings/) or [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#usage_notes).
+
+Aria labels were also added to some elements. This is important to communicate their use to screen readers, if it is not obvious from the tag itself, and to help differentiate sections of the page from one another. E.g the main content from the side-bars. Read more about labeled regions on [W3C](https://www.w3.org/WAI/tutorials/page-structure/labels/).
+
+Screen-reader only texts have also been added, to help in places where previously only icons communicated an action.
 
 ## New font
 
