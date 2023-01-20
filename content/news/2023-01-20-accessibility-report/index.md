@@ -8,7 +8,9 @@ tags: ["UI/UX", "accessibility", "highlight"]
 subsites: [global]
 ---
 
-Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team, and part of the UI/UX working-group. For the upcoming 23.0 update improving Galaxy's accessibility was a high priority for the UI/UX team. This is a collection of some of the accessibility related changes I am most excited about.
+Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team, and part of the UI/UX working-group. For the upcoming 23.0 update improving Galaxy's accessibility was a high priority for the UI/UX team. This is a preview of some of the accessibility related changes I am most excited about.
+The accessibility has improved in many regions throughout galaxy, and there is more in the works for future releases.
+
 I'd like to bring more attention to accessibility in general, and hope to show how increased focus on accessibility benefit everybody's user experience.
 
 ## Tags
