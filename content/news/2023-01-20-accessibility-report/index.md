@@ -17,7 +17,7 @@ We still have some work to do until Galaxy is as accessible as we want it to be,
 
 ## Tags
 
-The current tagging component has a few accessibility issues, which can not be solved by us without changing the underlying library.
+The previous tagging component has a few accessibility issues, which can not be solved by us without changing the underlying library.
 For this reason a new tag component was built from scratch.
 It's making it's debut in the History, but will be gradually rolled out across all Galaxy components.
 Changes to replace the old tag component are already in the works for Workflows and the Datasets List.
