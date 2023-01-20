@@ -8,7 +8,7 @@ tags: ["UI/UX", "accessibility", "highlight"]
 subsites: [global]
 ---
 
-Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team. For the upcoming 23.0 update, a big focus of mine was accessibility. This is a collection of some of the accessibility related changes I am most excited about.
+Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team, and part of the UI/UX working-group. For the upcoming 23.0 update improving Galaxy's accessibility was a high priority for the UI/UX team. This is a collection of some of the accessibility related changes I am most excited about.
 I'd like to bring more attention to accessibility in general, and hope to show how increased focus on accessibility benefit everybody's user experience.
 
 ## Tags
@@ -76,7 +76,7 @@ A lot of mark up improvements have been made for screen readers.
 All heading elements have been reordered to follow semantic hierarchy, and the headings sizes are now determined by helper classes, instead of the heading level.
 This is important for screen readers, and other software, so they can generate a table of content. Read more about heading levels on [W3C](https://www.w3.org/WAI/tutorials/page-structure/headings/) or [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#usage_notes).
 
-Aria labels were also added to some elements. This is important to communicate their use to screen readers, if it is not obvious from the tag itself, and to help differentiate sections of the page from one another. E.g the main content from the side-bars. Read more about labeled regions on [W3C](https://www.w3.org/WAI/tutorials/page-structure/labels/).
+An effort was made to make all elements keyboard selectable, and aria labels were added to many elements. This is important to communicate their use to screen readers, if it is not obvious from the tag itself. Region aria labels were also introduced, to help differentiate sections of the page from one another. E.g the main content from the side-bars. Read more about labeled regions on [W3C](https://www.w3.org/WAI/tutorials/page-structure/labels/).
 
 Screen-reader only texts have also been added, to help in places where previously only icons communicated an action.
 
@@ -114,5 +114,7 @@ Accessibility for applications is a wide topic, with many different aspects. Som
 Thinking about how we design our app in a more accessible manner, leads to new perspectives on user experience, prioritizing ease of use and focusing on more diverse input methods beyond those we are used to ourselves.
 
 I want to highlight that these changes benefit every user to some degree, making them well worth the effort, and implore you to consider prioritizing accessibility; be it by developing with accessibility in mind, or speaking out for changes favoring accessibility.
+
+A big thanks goes out to everyone how contributed on improving galaxies accessability, and reporting accessability issues!
 
 Thank you for reading.
