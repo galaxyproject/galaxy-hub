@@ -71,7 +71,7 @@ The keyboard focus also only steps into a history item if it is expanded, making
 
 ## Heading Hierarchy, Aria Labels and Screen-Reader Texts
 
-A lot of mark up improvements have been done for screen readers.
+A lot of mark up improvements have been made for screen readers.
 
 All heading elements have been reordered to follow semantic hierarchy, and the headings sizes are now determined by helper classes, instead of the heading level.
 This is important for screen readers, and other software, so they can generate a table of content. Read more about heading levels on [W3C](https://www.w3.org/WAI/tutorials/page-structure/headings/) or [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#usage_notes).
@@ -111,7 +111,7 @@ More accessibility-specific tests also need to be added, to ensure there are no 
 ## Accessibility is for everyone.
 
 Accessibility for applications is a wide topic, with many different aspects. Some specific to certain needs, others broad.
-Thinking about we design our app in a more accessible manner, leads to new perspective on user experience, prioritizing ease of use and focusing on more diverse input methods beyond those we are used to ourselves.
+Thinking about we design our app in a more accessible manner, leads to new perspectives on user experience, prioritizing ease of use and focusing on more diverse input methods beyond those we are used to ourselves.
 
 I want to highlight that these changes benefit every user to some degree, making them well worth the effort, and implore you to consider prioritizing accessibility; be it by developing with accessibility in mind, or speaking out for changes favoring accessibility.
 
