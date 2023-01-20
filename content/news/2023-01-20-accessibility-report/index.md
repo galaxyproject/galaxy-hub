@@ -8,10 +8,9 @@ tags: ["UI/UX", "accessibility", "highlight"]
 subsites: [global]
 ---
 
-Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team and part of the UI/UX working group. For the forthcoming 23.0 update improving Galaxy's accessibility was a high priority for the UI/UX team. This is a preview of some of the accessibility-related changes we are most excited about.
-We would like to bring more attention to accessibility in general, and hope to show how increased focus on accessibility benefits everyone's user experience.
+Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team and part of the UI/UX working group. For the forthcoming 23.0 release improving Galaxy's accessibility was a high priority for the UI/UX team. This is a preview of some of the accessibility-related changes we are most excited about.
 
-While accessibility has improved in many regions throughout Galaxy, and there is more in the works for future releases, we wanted to take a moment to highlight some of the accessibility improvements in the upcoming 23.0 release.
+We would like to bring more attention to accessibility in general and hope to show how an increased focus on accessibility benefits everyone's user experience.
 
 We still have some work to do until Galaxy is as accessible as we want it to be, so please continue reporting any accessibility concerns you run into.
 
@@ -113,12 +112,12 @@ Here's a comparison between the old font on Ubuntu, vs the new unified font.
 A priority goal for us is to make Galaxy fully usable by keyboard.
 Another important addition will be to add even more accessibility-specific testing, to identify outstanding issues and ensure there are no regressions.  We piloted automated accessibility testing in the Galaxy hub (this website!) this year, and expect to roll it out to Galaxy in the next cycle.
 
-## Accessibility is for everyone.
+## Accessibility is for everyone
 
-Accessibility for applications is a wide topic, with many different aspects. Some specific to certain needs, others broad.
-Thinking about how we design our app in a more accessible manner, leads to new perspectives on user experience, prioritizing ease of use and focusing on more diverse input methods beyond those we are used to ourselves.
+Accessibility for applications is a big topic, with many different aspects. Some specific to certain needs, others broad.
+Thinking about how we design our application in a more accessible manner, leads to new perspectives on user experience, prioritizing ease of use and focusing on more diverse input methods beyond those we are used to ourselves.
 
 We want to highlight that these changes benefit every user to some degree, making them well worth the effort, and implore you to consider prioritizing accessibility in other projects as well; be it by developing with accessibility in mind, or speaking out for changes favoring accessibility.
 
 A big thank you goes out to everyone who contributed to improving Galaxy's accessibility.
-This includes everyone who has reported accessibility issues -- detailed user reports have helped immensely in this effort!A
+This includes everyone who has reported accessibility issues -- detailed user reports have helped immensely in this effort!
