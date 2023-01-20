@@ -11,13 +11,13 @@ subsites: [global]
 Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team, and part of the UI/UX working-group. For the upcoming 23.0 update improving Galaxy's accessibility was a high priority for the UI/UX team. This is a preview of some of the accessibility related changes I am most excited about.
 I'd like to bring more attention to accessibility in general, and hope to show how increased focus on accessibility benefit everybody's user experience.
 
-This is just a selection of some highlights. The accessibility has improved in many regions throughout galaxy, and there is more in the works for future releases.
+This is just a selection of some highlights. The accessibility has improved in many regions throughout Galaxy, and there is more in the works for future releases.
 
 ## Tags
 
 The current tagging component has a few accessibility issues, which can not be solved by us without changing the underlying library.
 For this reason a new tag component was built from scratch.
-It's making it's debut in the History, but will be gradually rolled out across all galaxy components.
+It's making it's debut in the History, but will be gradually rolled out across all Galaxy components.
 Changes to replace the old tag component are already in the works for Workflows and the Datasets List.
 
 ![Assortment of Tags on a History](./TagsOnHistoryDetails.png)
@@ -61,7 +61,7 @@ This menu can be easily navigated by keyboard or mouse, to add or remove tags.
 It is also the primary way of deleting tags via keyboard.
 Just search for a previously added tag and press enter to delete it.
 
-The auto-completion contains every tag in use on your galaxy account.
+The auto-completion contains every tag in use on your Galaxy account.
 
 ## Keyboard Navigation in the History
 
@@ -89,7 +89,7 @@ Screen-reader only texts have also been added, to help in places where previousl
 
 *image source: [Braille Institute](https://brailleinstitute.org/freefont)*
 
-A small, yet noticeable and change. Galaxy used to rely on a stack of system fonts to display and text. This marginally improves loading times when first visiting galaxy, but has several down-sides:
+A small, yet noticeable and change. Galaxy used to rely on a stack of system fonts to display and text. This marginally improves loading times when first visiting Galaxy, but has several down-sides:
 
 - Not all system fonts are easy to read. The distinction between similar characters like "I" "l" and "1" can be especially challenging. This is amplified by any visual or other reading impairment
 - Text looks different on different devices, making it harder to find places with problematic spacing, or bad readability
@@ -108,7 +108,7 @@ Here's a comparison between the old font on Ubuntu, vs the new unified Font.
 
 ## Future Plans
 
-My focus for accessibility will be to make galaxy 100% usable by keyboard.
+My focus for accessibility will be to make Galaxy 100% usable by keyboard.
 More accessibility-specific tests also need to be added, to ensure there are no regressions.
 
 ## Accessibility is for everyone.
