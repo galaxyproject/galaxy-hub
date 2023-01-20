@@ -108,8 +108,8 @@ Here's a comparison between the old font on Ubuntu, vs the new unified Font.
 
 ## Future Plans
 
-My focus for accessibility will be to make Galaxy 100% usable by keyboard.
-More accessibility-specific tests also need to be added, to ensure there are no regressions.
+A priority goal for us is to make Galaxy 100% usable by keyboard.
+Another aspect will be to add even more accessibility-specific testing, to ensure there are no regressions.
 
 ## Accessibility is for everyone.
 
