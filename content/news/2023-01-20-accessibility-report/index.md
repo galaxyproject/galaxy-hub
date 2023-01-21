@@ -4,7 +4,7 @@ tease: "Accessibility improvement Highlights for the upcoming 23.0 release, and 
 hide_tease: false
 authors: "Laila Los"
 date: "2023-01-20"
-tags: ["UI/UX", "accessibility", "highlight"]
+tags: ["UI/UX", "accessibility", "highlight", esg]
 subsites: [global]
 ---
 
