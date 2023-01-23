@@ -186,6 +186,10 @@ Collaboration Between VGP and Galaxy Project for free and easy access to large g
 
 NOTE: This is not an exhaustive or final list of working groups or projects.  New groups will be added as needs are identified.
 
+## Calendar
+
+[Galaxy WGs Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=5l6o0msfduoir59hrab0jlkocc@group.calendar.google.com), listing meetings of all Galaxy working groups and projects. You can subscribe to this calendar via this [iCalendar link](https://calendar.google.com/calendar/ical/5l6o0msfduoir59hrab0jlkocc%40group.calendar.google.com/public/basic.ics).
+
 ## Timeline
 
 In reverse chronological order:
