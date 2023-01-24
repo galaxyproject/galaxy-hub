@@ -24,31 +24,24 @@ A Docker container is created that installs several packages such as JupyterLab,
 
 
 ### Use-cases
-A recent scientific publication that predicts infected regions of [COVID-19 CT scan images](https://www.sciencedirect.com/science/article/pii/S2666990021000069) is reproduced using multiple features of JupyterLab. In addition, [ColabFold](https://github.com/sokrypton/ColabFold), a faster implementation of [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2), can also be accessed in this notebook to predict the 3D structure of protein sequences. JupyterLab notebook is accessible in two ways - first as an interactive Galaxy tool and second by running the underlying docker container. In both ways, long-running training can be executed on Galaxy’s compute infrastructure.
-
-
-The figure below shows the predicted infected regions of COVID-CT scan images by training Unet AI model on the JupyterLab infrastructure. The accuracy is similar to as published in the associated [paper](https://www.sciencedirect.com/science/article/pii/S2666990021000069). 
+A recent scientific publication that predicts infected regions of [COVID-19 CT scan images](https://www.sciencedirect.com/science/article/pii/S2666990021000069) is reproduced using multiple features of JupyterLab. In addition, [ColabFold](https://github.com/sokrypton/ColabFold), a faster implementation of [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2), can also be accessed in this notebook to predict the 3D structure of protein sequences. JupyterLab notebook is accessible in two ways - first as an interactive Galaxy tool and second by running the underlying docker container. In both ways, long-running training can be executed on Galaxy’s compute infrastructure. The figure below shows the predicted infected regions of COVID-CT scan images by training Unet AI model on the JupyterLab infrastructure. The accuracy is similar to as published in the associated [paper](https://www.sciencedirect.com/science/article/pii/S2666990021000069). 
 
 ![Use-case 1: Predicted infected regions in COVID-19 CT scan images](./covid_ct_scan_masks.png)
 
-
-The figure below shows predicted 3D structure of spike protein of SARS-CoV-2 using ColabFold. 
-
 ![Use-case 2: Predicted 3D structure of SARS-CoV-2 spike protein sequences (300 amino acids)](./3D_300_L_protein.png)
 
+The figure above shows predicted 3D structure of spike protein of SARS-CoV-2 using ColabFold. 
 
 ### How to apply for this resource
 
-[Google form](http://usegalaxy.eu/gpu-request) should be used to apply for this resource. As this resource is intended for research purposes, an official University Email ID should be given. Once the request is approved by a Galaxy admin, the resource can be readily used on Galaxy. Steps for application:
+Please follow these steps for application:
 
-1. Create an account on [Galaxy Europe](https://usegalaxy.eu/) using your official university
-email id
-2. Apply for accessing GPU Jupyterlab using this [Google form](http://usegalaxy.eu/gpu-request)
-3. Use your official university/company email id in the Google form. This resource is available only for research purposes.
-4. Wait for a few days to get the request approved.
-5. Once approved, you will be able to run this resource on Galaxy.
-6. If not authorised, then an error message will be shown.
-7. Contact us at: contact@usegalaxy.eu if there are issues.
+1. Create an account on [Galaxy Europe](https://usegalaxy.eu/) using your official university/company email id.
+2. Apply for accessing GPU Jupyterlab by using this [Google form](http://usegalaxy.eu/gpu-request).
+3. Use your official university/company email id in the above Google form. This resource is available only for research purposes.
+4. Once your request is approved, you will be able to run this resource on Galaxy.
+5. If not authorised, then an error message will be shown.
+6. Contact us at: contact@usegalaxy.eu if there are issues.
 
 ### Much more ...
 
