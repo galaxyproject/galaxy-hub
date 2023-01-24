@@ -27,14 +27,16 @@ In that sense the Galaxy Beacon integration facilitates the first-contact even m
 
 In the current Galaxy-Beacon integration we made sure that no data is shared with Beacon accidentally. There is a 4-times-opt-in procedure that needs to be taken to share data. First the admin needs to enable this feature for the Galaxy server. Second, the user needs to enable the Beacon integration in their user preferences. This will create a magic Beacon history, which only when it contains VCF data (3rd step) will be considered as relevant Beacon data. This means a user needs to actively drag and drop data into this history. The 4th opt-in procedure is of course that the Galaxy admin needs to setup a Beacon server and the background processes that are harvesting the data from the magic Beacon history.
  
-![beacon-history](beacon-history.png)
-
-*Beacon history with VCF file*
 
 
 ![beacon-settings](beacon-setting.png)
 
 *Beacon settings Dialog*
+
+![beacon-history](beacon-history.png)
+
+*Beacon history with VCF file*
+
 
 
 If all 4 things are in place any person can query the Galaxy server, e.g. with the following `curl` command (the API documentation can be found [here](https://app.swaggerhub.com/apis/ELIXIR-Finland/ga-4_gh_beacon_api_specification/1.0.0-rc1)).
