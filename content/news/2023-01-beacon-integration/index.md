@@ -1,5 +1,3 @@
-# Integration of Beacon into Galaxy
-
 ---
 title: 'Integration of Beacon into Galaxy'
 date: "2023-01-24"
