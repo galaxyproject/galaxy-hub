@@ -31,6 +31,12 @@ In the current Galaxy-Beacon integration we made sure that no data is shared wit
 
 *Beacon history with VCF file*
 
+
+![beacon-settings](beacon-setting.png)
+
+*Beacon settings Dialog*
+
+
 If all 4 things are in place any person can query the Galaxy server, e.g. with the following `curl` command (the API documentation can be found [here](https://app.swaggerhub.com/apis/ELIXIR-Finland/ga-4_gh_beacon_api_specification/1.0.0-rc1)).
 
     curl "https://usegalaxy.eu/beacon/query?referenceName=8&assemblyId=hg38&referenceBases=C&alternateBases=T&start=11712"
