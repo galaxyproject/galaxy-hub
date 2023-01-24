@@ -19,7 +19,7 @@ In that sense Beacon facilitates the first-contact and speeds up knowledge excha
 
 
 ![Visual example of a Beacon reuest. The request and response are shown as arrows labeled with their respective content. The request asks for a "C" at chromosome 13 at position 32,936,732 and the response is a simple "Yes"](./Beacon-v1.png)
-*example beacon request*
+*example beacon request. source: [Beacon Project](https://beacon-project.io/)*
 
 ---
 
