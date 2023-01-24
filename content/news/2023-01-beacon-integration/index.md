@@ -13,7 +13,7 @@ A researcher interested in the genomic position 32,936,732 on chromosome 13 can 
 In that sense Beacon facilitates the first-contact and speeds up knowledge exchange dramatically - often benefiting the patients in clinical care.
 
 
-![https://beacon-project.io/](./Beacon-v1.png)
+![Visual example of a Beacon reuest. The request and response are shown as arrows labeled with their respective content. The request asks for a "C" at chromosome 13 at position 32,936,732 and the response is a simple "Yes"](./Beacon-v1.png)
 *example beacon request*
 
 ---
@@ -29,11 +29,11 @@ In the current Galaxy-Beacon integration we made sure that no data is shared wit
  
 
 
-![beacon-settings](./beacon-setting.png)
+![Screenshot of the Beacon settings dialog opened in Galaxy. It shows the setting as "enabled" and buttons to disable the setting or automatically select the beacon history. The buttons are surrounded by descriptive text.](./beacon-setting.png)
 
 *Beacon settings Dialog*
 
-![beacon-history](./beacon-history.png)
+![Screenshot of a Galaxy history containing on VCF dataset](./beacon-history.png)
 
 *Beacon history with VCF file*
 
