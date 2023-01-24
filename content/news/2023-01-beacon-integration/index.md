@@ -1,7 +1,7 @@
 ---
-title: 'Integration of Beacon into Galaxy'
+title: 'Simple and secure publishing of variance data from Galaxy to the Beacon Network'
 date: "2023-01-24"
-tease: "Simple and secure publishing and querying of variance data from Galaxy to Beacon"
+tease: "Galaxy has gained a Beacon integration that enables users to conveniently publish variance data via the Beacon Network"
 tags: [collaboration, usecase, esg]
 subsites: [global,all]
 ---
