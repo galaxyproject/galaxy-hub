@@ -33,7 +33,7 @@ In the current Galaxy-Beacon integration we made sure that no data is shared wit
 
 *Beacon settings Dialog*
 
-![Screenshot of a Galaxy history containing on VCF dataset](./beacon-history.png)
+![Screenshot of a Galaxy history containing a VCF dataset](./beacon-history.png)
 
 *Beacon history with VCF file*
 
