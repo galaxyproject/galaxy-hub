@@ -1,10 +1,9 @@
 ---
 title: 'Integration of Beacon into Galaxy'
 date: "2023-01-24"
-tease: "We have added an integration of Beacon into galaxy"
-hide_tease: true
-tags: [galaxy, collaboration, UseCase]
-subsites: [global]
+tease: "Simple and secure publishing and querying of variance data from Galaxy to Beacon"
+tags: [collaboration, usecase, esg]
+subsites: [global,all]
 ---
 
 Science is most efficient when researchers share their data and results, so others can re-use them. Some datasets, however, cannot be easily shared
