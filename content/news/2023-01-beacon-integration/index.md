@@ -1,4 +1,14 @@
 # Integration of Beacon into Galaxy
+
+---
+title: 'Integration of Beacon into Galaxy'
+date: "2023-01-24"
+tease: "We have added an integration of Beacon into galaxy"
+hide_tease: true
+tags: [galaxy, collaboration, UseCase]
+subsites: [global]
+---
+
 Science is most efficient when researchers share their data and results, so others can re-use them. Some datasets, however, cannot be easily shared because they contain sensitive information about, for example, a patient. Is there a way to share information among scientists without exposing sensitive patient data? The answer to that question for human genome variation data is: yes. 
 The [Beacon network](https://beacon-network.org/#/) enables secure querying of genomic variants without the risk of exposing sensible data. The data owner is responsible for the data and also for their Beacon server in the network. In this way the data never leaves the data owner. A Beacon only contains the raw variants, think about it as some marked coordinates on the chromosome.
 A researcher interested in the genomic position 32,936,732 on chromosome 13 can ask the entire Beacon network if something about this position is known. In the simplest case the researcher gets a “Yes” or “No” answer. In a positive case, the researcher gets a contact address to the Beacon server, or data owner, so that both parties can negotiate the exchange of more detailed data. 
@@ -27,6 +37,23 @@ If all 4 things are in place any person can query the Galaxy server, e.g. with t
 
     curl "https://usegalaxy.eu/beacon/query?referenceName=8&assemblyId=hg38&referenceBases=C&alternateBases=T&start=11712"
 
+
+```
+{
+   "alleleRequest" : {
+      "alternateBases" : "T",
+      "assemblyId" : "hg38",
+      "includeDatasetResponses" : "NONE",
+      "referenceBases" : "C",
+      "referenceName" : "8",
+      "start" : 11712
+   },
+   "apiVersion" : "1.1.0",
+   "beaconId" : "eu.galaxyproject.beacon",
+   "datasetAlleleResponses" : [],
+   "exists" : true
+}
+```
 
 ----
 
