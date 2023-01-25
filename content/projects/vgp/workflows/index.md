@@ -3,21 +3,21 @@
 ### Overview
 -------------
 
-The Vertebrate Genomes Pipelines in Galaxy are intended to allow a user to generate high-quality near error-free assemblies of species from a user's own data or from the [GenomeArk](https://genomeark.github.io/) database. The image below shows major assembly workflows represented as a decision tree. The numbers in the left bottom corner of each workflow are clickable and point to a detailed description of the corresponding workflow. 
+The Vertebrate Genomes Pipelines in Galaxy are intended to allow a user to generate high-quality near error-free assemblies of species from a user's own data or from the [GenomeArk](https://genomeark.github.io/) database. The image below shows major assembly workflows represented as a decision tree. The numbers in the left bottom corner of each workflow are clickable and point to a detailed description of the corresponding workflow.
 
-<div class="alert alert-success" role="alert"> 
+<div class="alert alert-success" role="alert">
 GalaxyProject and VGP provide <a href="https://training.galaxyproject.org/training-material/search?query=VGP" target="_blank">a set of comprehensive tutorials</a> covering various aspects of genome assembly and explaining principles behind these workflows.
 </div>
 
 ![](/images/vgp/overview.svg)
 > **Solo** = data (PacBio HiFi) is only available for the individual for which genome assembly is performed.<br>
-> **Trio** = in addition to PacBio HiFi data representing the individual being assembled there are also Illumina datasets representing Parental and Maternal genomes. 
+> **Trio** = in addition to PacBio HiFi data representing the individual being assembled there are also Illumina datasets representing Parental and Maternal genomes.
 
 
 ### Where can I find these workflows?
 -----------------------
 
-The latest versions of the workflow are located in [this GitHub repository](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2). We are still in the process of polishing and optimizing the workflows. 
+The latest versions of the workflow are located in [this GitHub repository](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2). We are still in the process of polishing and optimizing the workflows.
 Once our optimization work is complete the workflows will be distributed via [DockStore](https://dockstore.org/) and [WorkflowHub](https://workflowhub.eu/) platforms.
 
 ### How can I download and use these workflows?
@@ -25,7 +25,7 @@ Once our optimization work is complete the workflows will be distributed via [Do
 
 Download workflow files from GitHub and plug them into your Galaxy instance as follows:
 
-1. Open two tabs in your browser: one pointing to a Galaxy instance (e.g., https://usegalaxy.org) and another to the [GitHub repository](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2) containing workflows. 
+1. Open two tabs in your browser: one pointing to a Galaxy instance (e.g., https://usegalaxy.org) and another to the [GitHub repository](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2) containing workflows.
 2. In GitHub tab select workflow you want to import
 3. Switch to "Raw" view and copy the URL
 4. Move to Galaxy tab and click "Workflows" (you should be logged in into you Galaxy account)
@@ -36,7 +36,7 @@ Download workflow files from GitHub and plug them into your Galaxy instance as f
 ![](/images/vgp/wf_import.png)
 
 <div class="alert alert-warning" role="alert">
-If Galaxy instance you are using is missing some of the tools used in the workflow: contact administrator of this instance. Major instances such as https://usegalaxy.eu, https://usegalaxy.org, and https://usegalaxy.org.au already have all necessary tools  installed. 
+If Galaxy instance you are using is missing some of the tools used in the workflow: contact administrator of this instance. Major instances such as https://usegalaxy.eu, https://usegalaxy.org, and https://usegalaxy.org.au already have all necessary tools  installed.
 </div>
 
 ### WF1
@@ -44,7 +44,7 @@ If Galaxy instance you are using is missing some of the tools used in the workfl
 
 #### *K*-mer profiling for Solo datasets
 
-| Link | Description |  Inputs | Outputs | Example History | 
+| Link | Description |  Inputs | Outputs | Example History |
 |---|--------|-------|--------|-----|
 | [GitHub](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP-meryldb-creation/meryldb-creation.ga)|**MerylDB generation**:<br>Create Meryl Database used for the estimation of assembly parameters and quality control with Merqury. | 1. Hifi long reads [`fastq`] | 1. Meryl Database of *k*-mer counts <br> 2. GenomeScope summary, models and plots | [History](https://usegalaxy.eu/u/nekrut/h/k-mer-profiling-and-qc-wf1) |
 
@@ -53,7 +53,7 @@ If Galaxy instance you are using is missing some of the tools used in the workfl
 
 #### *K*-mer profiling for Trio datasets
 
-| Link | Description |  Inputs | Outputs |Example History | 
+| Link | Description |  Inputs | Outputs |Example History |
 |---|--------|-------|--------|------|------|
 | [GitHub](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP-meryldb-creation-trio/meryldb-creation-trio.ga)      |**MerylDB generation Trio**:<br>Create Meryl Database used for the estimation of assembly parameters and quality control with Merqury using parental and offspring datasets | 1. Hifi long reads [`fastq`] <br> 2. Paternal short-read Illumina sequencing reads [`fastq`] <br> 3. Maternal short-read Illumina sequencing reads [`fastq`]| 1. Meryl Database of kmer counts <br> 2. GenomeScope summary, models and plots | [History](https://usegalaxy.eu/u/nekrut/h/k-mer-profiling-and-qc-for-trio-wf2) |
 
@@ -62,16 +62,16 @@ If Galaxy instance you are using is missing some of the tools used in the workfl
 
 #### Contiging Solo
 
-| Link | Description |  Inputs | Outputs |Example History | 
+| Link | Description |  Inputs | Outputs |Example History |
 |---|--------|-------|--------|------|
-| [GitHub](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP-Hifiasm/Galaxy-Workflow-Long_read_assembly_with_Hifiasm.ga)      |**Long Read Assembly with Hifiasm**:<br>Generate phased assembly based on PacBio Hifi Reads | 1. Hifi long reads [`fastq`]   <br> 2. K-mer database [`meryldb`]  <br>  3. Genome profile summary generated by Genomescope [`txt`]  <br>  4. Name of first assembly  <br>  5. Name of second assembly | 1. Primary assembly  <br>  2. Alternate assembly  <br>  3. QC: Busco report for both assemblies  <br>  4. Merqury report for both assemblies  <br>  5. Assembly statistics for both assemblies  <br>  6. Nx PLot for both assemblies  <br>  7. Size plot for both assemblies  | [History](https://usegalaxy.eu/u/nekrut/h/contiging-solo-wf3) | 
+| [GitHub](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP-Hifiasm/Galaxy-Workflow-Long_read_assembly_with_Hifiasm.ga)      |**Long Read Assembly with Hifiasm**:<br>Generate phased assembly based on PacBio Hifi Reads | 1. Hifi long reads [`fastq`]   <br> 2. K-mer database [`meryldb`]  <br>  3. Genome profile summary generated by Genomescope [`txt`]  <br>  4. Name of first assembly  <br>  5. Name of second assembly | 1. Primary assembly  <br>  2. Alternate assembly  <br>  3. QC: Busco report for both assemblies  <br>  4. Merqury report for both assemblies  <br>  5. Assembly statistics for both assemblies  <br>  6. Nx PLot for both assemblies  <br>  7. Size plot for both assemblies  | [History](https://usegalaxy.eu/u/nekrut/h/contiging-solo-wf3) |
 
 ### WF4
 -------
 
 #### Contiging Solo with HiC
 
-| Link | Description |  Inputs | Outputs |Example History | 
+| Link | Description |  Inputs | Outputs |Example History |
 |---|--------|-------|--------|-----|
 | [GitHub](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP-Hifiasm-HiC-assembly/Galaxy-Workflow-Long_read_assembly_with_Hifiasm_and_HiC_data.ga)      |**Long Read Assembly with Hifiasm and HiC**:<br>Generate phased assembly based on PacBio Hifi Reads using HiC data for phasing | 1. Hifi long reads [`fastq`]  <br>  2. Concatenated HiC forward reads  [`fastq`]  <br>  3. Concatenated HiC reverse reads  [`fastq`]  <br>  4. K-mer database [`meryldb`]  <br>  5. Genome profile summary generated by Genomescope [`txt`]  <br>  6. Name of first assembly  <br>  7. Name of second assembly |  1. Haplotype 1 assembly   <br>  2. Haplotype 2 assembly  <br>  3. QC: Busco report for both assemblies  <br>  4. Merqury report for both assemblies   <br>  5. Assembly statistics for both assemblies  <br> 6. Nx PLot for both assemblies  <br>  7. Size plot for both assemblies  | [History](https://usegalaxy.eu/u/nekrut/h/contiging-solo-hic-wf4-1)
 
@@ -81,7 +81,7 @@ If Galaxy instance you are using is missing some of the tools used in the workfl
 
 #### Contiging Trio
 
-| Link | Description |  Inputs | Outputs |Example History | 
+| Link | Description |  Inputs | Outputs |Example History |
 |---|--------|-------|--------|-------|
 | [GitHub](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP-Hifiasm-Trio/Galaxy-Workflow-Trio_assembly_with_Hifiasm.ga) |**Long Read Assembly with Hifiasm and Trio data**:<br>Generate phased assembly based on PacBio Hifi Reads using parental Illumina data for phasing | 1. Hifi long reads [`fastq`]  <br>  2. Concatenated Illumina reads : Paternal [`fastq`]  <br>  3. Concatenated Illumina reads : Maternal  [`fastq`]  <br>  4. K-mer database [`meryldb`]  <br>  5. Paternal hapmer database [`meryldb`]  <br>  6. Maternal hapmer database [`meryldb`]  <br>  7. Genome profile summary generated by Genomescope [`txt`]  <br>  8. Name of first haplotype  <br>  9. Name of second haplotype | 1. Haplotype 1 assembly  <br>  2. Haplotype 2 assembly  <br>  3. QC: Busco report for both assemblies  <br>  4. Merqury report for both assemblies  <br>  5. Assembly statistics for both assemblies  <br>  6. Nx Plot for both assemblies  <br>  7. Size plot for both assemblies  | [History](https://usegalaxy.eu/u/nekrut/h/contiging-trio-wf5)
 
@@ -90,7 +90,7 @@ If Galaxy instance you are using is missing some of the tools used in the workfl
 
 #### Purging duplicates
 
-| Link | Description |  Inputs | Outputs |Example History | 
+| Link | Description |  Inputs | Outputs |Example History |
 |---|--------|-------|--------|-------|
 | [GitHub](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP-Purge-assembly/Galaxy-Workflow-Purgedups.ga)      |**Purge Duplications**:<br>Purge Duplicated *k*-mers from the assembly | 1. Hifi long reads - trimmed [`fastq`]  <br>  2. Primary Assembly (hap1) [`fasta`]  <br>  3. Alternate  Assembly(hap2) [`fasta`]  <br>  4. K-mer database [`meryldb`]  <br>  5. Genomescope model parameters [`txt`]  <br>  6. Estimated Genome Size [`txt`]  <br>  7. Name of first haplotype  <br>  8. Name of second haplotype| 1. Haplotype 1 purged purged assembly  <br>  2. Haplotype 2 assembly  <br>  3. QC: Busco report for both assemblies  <br>  4. Merqury report for both assemblies  <br>  5. Assembly statistics for both assemblies  <br>  6. Nx Plot for both assemblies  <br>  7. Size plot for both assemblies | [History with Solo data](https://usegalaxy.eu/u/nekrut/h/purgedups-solo-wf6)<br> <hr>[History with Trio data](https://usegalaxy.eu/u/nekrut/h/purgedups-trio-wf6) |
 
@@ -120,7 +120,7 @@ Two versions of this workflow are available: (1) using <a href="https://github.c
 ### WF9
 -------
 
-#### Decontamination 
+#### Decontamination
 
 | Link | Description |  Inputs | Outputs |
 |---|--------|-------|--------|
@@ -157,7 +157,7 @@ Input(s): PacBio HiFi data
 
 ------
 
-Input(s): (1) HiFi data and (2) HiFi Illumina data 
+Input(s): (1) HiFi data and (2) HiFi Illumina data
 
 #### Workflow trajectory
 
@@ -175,12 +175,12 @@ Input(s): (1) HiFi data and (2) HiFi Illumina data
 | *K*-mer profiling<br><span class="badge badge-danger">1</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765e10e30708b268436/display?to_ext=){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765f50a00c5e39340f0/display?to_ext=png){width="300"} | |
 | Contiging<br><span class="badge badge-danger">4</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867651b4495ea0c075730/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867651d8376c04b13ac0b/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867654f47d1e4029fd991/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765771db2bbc5610868/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765eab9407226003999/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/contiging-solo-hic-wf4-1){width="300"}
 | Purging duplicates<br><span class="badge badge-danger">6</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867653589467cdb784f97/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765aeb09d6c8377045c/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765b49463c932d35fda/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676598628a21ec75eb38/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765a0c0ae1f2fa63e2b/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/purgedups-solo-hic-wf6){width="300"} |
-| Scaffolding with HiC<br><span class="badge badge-danger">8a</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656ede74d1fea39c92/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656cc1e676adae9444/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867650caa307d2e94719f/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/scaffolding-hic-wf8a-solo-primary) | 
+| Scaffolding with HiC<br><span class="badge badge-danger">8a</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656ede74d1fea39c92/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656cc1e676adae9444/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867650caa307d2e94719f/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/scaffolding-hic-wf8a-solo-primary) |
 
 
 ### Trio Only
 
-Inputs(s): (1) HiFi data, (2) Illumina data for parental, and (3) maternal individuals.  
+Inputs(s): (1) HiFi data, (2) Illumina data for parental, and (3) maternal individuals.
 
 #### Workflow trajectory
 
@@ -199,7 +199,7 @@ Inputs(s): (1) HiFi data, (2) Illumina data for parental, and (3) maternal indiv
 
 ### Trio with HiC
 
-Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumina data for maternal individual, and (4) HiC data.  
+Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumina data for maternal individual, and (4) HiC data.
 
 #### Workflow trajectory
 
@@ -211,18 +211,18 @@ Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumin
 
 #### Results
 
-<div class="alert alert-info" role="alert"> 
+<div class="alert alert-info" role="alert">
 Results of workflows 2, 5, and 6 are the same as above
 </div>
 
 | WF  | Outputs |History link|
 |----|:--------:|-------|
-| Scaffolding with HiC<br><span class="badge badge-danger">8a</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676575ae923170a65b07/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765fc525b5c6fd2a769/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656f2eeac9f3169538/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/scaffolding-hic-yahs-wf8a-primary-trio) | 
+| Scaffolding with HiC<br><span class="badge badge-danger">8a</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676575ae923170a65b07/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765fc525b5c6fd2a769/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656f2eeac9f3169538/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/scaffolding-hic-yahs-wf8a-primary-trio) |
 
 
 ### Trio with BioNano
 
-Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumina data for maternal individual, and (4) BioNano data.  
+Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumina data for maternal individual, and (4) BioNano data.
 
 #### Workflow trajectory
 
@@ -234,13 +234,13 @@ Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumin
 
 #### Results
 
-<div class="alert alert-info" role="alert"> 
+<div class="alert alert-info" role="alert">
 Results of workflows 2, 5, and 6 are the same as above
 </div>
 
 | WF  | Outputs |History link|
 |----|:--------:|-------|
-| Scaffolding with BioNano<br><span class="badge badge-danger">7</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867652b1d289ed9f4ba96/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676584630e681ce8cae0/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/bionano-scaffolding-wf7-trio-primary) | 
+| Scaffolding with BioNano<br><span class="badge badge-danger">7</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867652b1d289ed9f4ba96/display?to_ext=png){width="300"} ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676584630e681ce8cae0/display?to_ext=png){width="300"} | [EU](https://usegalaxy.eu/u/nekrut/h/bionano-scaffolding-wf7-trio-primary) |
 
 
 
