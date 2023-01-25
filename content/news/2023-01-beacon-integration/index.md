@@ -76,7 +76,8 @@ and receive a response similar to this one:
 
 ----
 
-This is the first version of a beacon integration. We have many ideas for the future and are happy to receive feedback.
+This is the first version of a Beacon integration. We have many ideas for the future, including the upate to the new Beacon V2,
+and are happy to receive feedback.
 
 Thanks to Benno Weiß, Mira Kuntz and Wolfgang Maier for the Galaxy bits and pieces, and to the entire Beacon team for this great
 collaboration. We hope this work will make it easier in the future to share more data faster.
