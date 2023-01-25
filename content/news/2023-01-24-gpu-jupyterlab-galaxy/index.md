@@ -41,7 +41,7 @@ These benefits are important as users can execute arbitrary code on JupyterLab n
 be downloaded to any laptop or personal computer (having at least 20 GBs of space) or any other compute infrastructure from
 [Docker hub](https://hub.docker.com/layers/anupkumar/docker-ml-jupyterlab/galaxy-integration-0.2/images/sha256-e2d7e28a2f975523db0f5ac29c2e2ce3c7a35b061072098ad388d5b42ee86fba?context=repo) and used.
 If NVIDIA GPUs are available, the Docker container will automatically recognise them. Otherwise, it will run on CPUs.
-The scripts to run the container is mentioned in the [GitHub repository](https://github.com/usegalaxy-eu/gpu-jupyterlab-docker).
+The scripts to run the container is mentioned in the [GitHub repository](https://github.com/usegalaxy-eu/gpu-jupyterlab-docker). In JupyterLab notebooks, additional packages to create different scientific analyses can be installed and development environments such as using `conda` or `mamba` can be created.
 
 ## Use-cases
 
@@ -78,7 +78,7 @@ GPU JupyterLab tool in Galaxy can also be used as usual Galaxy tool that takes i
 Please follow these steps for application:
 
 1. Create an account on [Galaxy Europe](https://usegalaxy.eu/) using your official university/company email id.
-  * if you already have an account change make sure to use an official university/company email in your user preferences.
+  `*` If you already have an account change make sure to use an official university/company email in your user preferences.
 2. [Apply for accessing GPU JupyterLab](http://usegalaxy.eu/gpu-request).
 3. Use your official university/company email id in the Google form that matches your Galaxy account.
 4. Once your request is approved, you will be able to run the GPU-enabled JupyterLab notebook on Galaxy.
