@@ -1,7 +1,7 @@
 ---
-title: 'Simple and data privacy-aware publishing of genomic variance data from Galaxy to the Beacon Network'
+title: 'Simple and data privacy-aware publishing of genomic variance data from Galaxy to the Beacon project'
 date: "2023-01-24"
-tease: "Galaxy has gained a Beacon integration that enables users to publish genetic variance data conveniently via the Beacon Network"
+tease: "Galaxy has gained a Beacon integration that enables users to publish genetic variance data conveniently via Beacon project"
 tags: [collaboration, usecase, esg]
 subsites: [global,all]
 ---
@@ -9,7 +9,7 @@ subsites: [global,all]
 Science is most efficient when researchers share their data and results, so others can re-use them. Some datasets, however, cannot easily be shared
 because they contain sensitive information about, for example, a patient. Is there a way to share information among scientists without
 exposing sensitive patient data? The answer to that question for human genome variation data is: yes. 
-The [Beacon network](https://beacon-network.org) enables querying genomic variant catalogues without the risk of exposing sensitive data.
+The [Beacon network](https://beacon-project.io) enables querying genomic variant catalogues without the risk of exposing sensitive data.
 With Beacon, the data owner is responsible for the data and also for their Beacon server in the network. In this way the data never leaves the data owner.
 A Beacon only contains the raw variants, think about it as some marked coordinates on the chromosome.
 A researcher interested in the genomic position 32,936,732 on chromosome 13 can ask the entire Beacon network if something about this position is known.
@@ -32,7 +32,7 @@ This means in practice that a researcher could ask the question “Is something 
 if the answer is “Yes” the Galaxy instance's support team will arrange the contact between the data owner and the inquiring researcher.
 If and how they exchange more information is then out of scope of the Galaxy team.
 In that sense the Galaxy Beacon integration facilitates the first-contact even more and makes it easier for clinicians and
-data scientists that do not have access to another Beacon server to participate in the Beacon network.
+data scientists that do not have access to another Beacon server to participate in the Beacon project.
 
 ---
 
