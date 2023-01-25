@@ -2,18 +2,14 @@
 title: Tool form improvements from Laila Los
 date: "2022-10-11"
 tease: "New pull request from Laila Los merged: Tool form improvements"
-hide_tease: true
 autotoc: false
-tags: ['kind/enhancement', 'area/UI-UX', 'area/client', 'highlight/power-user']
+tags: ['enhancement', 'UI-UX', 'client', 'power-user']
 subsites: [global]
 ---
 
-Closes #14453
-
-This PR refactors the tool form, and applies various small qol changes.
+During the last release cycle the Tool form saw many small improvements to apply various "quality of life" changes.
 
 Here are the changes (in no particular order):
-
 
 ## Sticky Title Bar
 
@@ -46,16 +42,17 @@ We need to update the documentation texts referring to this button, when this ch
 |--|--|
 | ![image](https://user-images.githubusercontent.com/44241786/187710960-63897b26-7189-47dc-b392-abfcf43a29c5.png) | ![image](https://user-images.githubusercontent.com/44241786/187710694-64034c3b-78bf-49b9-840e-a8d8445083c5.png) |
 
-This PR moves the "Please Wait..." text which appears when the button enters a loading state to a mouseover, instead of displaying it on the button. This follows UX best practices to always have a button text be an action, also when disabled or preforming said action, and to avoid suddenly resizing elements when the user does not expect it.
+This PR moves the "Please Wait..." text which appears when the button enters a loading state to a mouseover, instead of displaying it on the button.
+This follows UX best practices to always have a button text be an action, also when disabled or preforming said action, and to avoid suddenly resizing elements when the user does not expect it.
 
-This change, as well as the symbol change, also affect the `WorkflowRunForm`
+This change, as well as the symbol change, also affect the `WorkflowRunForm`.
 
 
 ## Sections
 
 ![Untitled](https://user-images.githubusercontent.com/44241786/187711980-f07f057e-458d-4fc0-bc72-7617e291f7fc.png)
 
-This PR adds new sections to the tool form, which make use of semantic heading elements to improve accessibility.
+New sections have been added to the tool form, which make use of semantic heading elements to improve accessibility.
 
 
 ## Priority Break Points
@@ -64,7 +61,8 @@ This PR adds new sections to the tool form, which make use of semantic heading e
 |--|--|
 | ![image](https://user-images.githubusercontent.com/44241786/187709773-a07ff05c-56c5-4792-b125-d23c1737951a.png) | ![image](https://user-images.githubusercontent.com/44241786/187709955-25138d8d-97f1-4296-a24c-83a2dccd69a6.png) |
 
-Priority break points in the title bar cause it's text to prefer breaking at set locations, rather than words, in order to maintain coherent blocks of information on each line.
+Priority break points in the title bar cause it's text to prefer breaking at set locations, rather than words, in order to maintain
+coherent blocks of information on each line.
 
 
 ## Show Current Version in Version Select
@@ -72,6 +70,4 @@ Priority break points in the title bar cause it's text to prefer breaking at set
 ![image](https://user-images.githubusercontent.com/44241786/187883972-1cffedc2-dcbc-4fe0-8e08-c5c48ff3174b.png)
 
 
-
-
- Thanks to the reviewers [Nicola Soranzo](https://github.com/nsoranzo), [Dannon](https://github.com/dannon) and [Aysam Guerler](https://github.com/guerler). Check out the code at [#14549](https://github.com/galaxyproject/galaxy/pull/14549)
+Thanks to the reviewers [Nicola Soranzo](https://github.com/nsoranzo), [Dannon](https://github.com/dannon) and [Aysam Guerler](https://github.com/guerler). Check out the code at [#14549](https://github.com/galaxyproject/galaxy/pull/14549)
