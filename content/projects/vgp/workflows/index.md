@@ -126,3 +126,122 @@ Two versions of this workflow are available: (1) using <a href="https://github.c
 | Link | Description |  Inputs | Outputs |
 |---|--------|-------|--------|
 | [Dockstore](https://raw.githubusercontent.com/Delphine-L/iwc/VGP/workflows/VGP-assembly-v2/VGP_decontamination/Galaxy-Workflow-VGP_assembly_decontamination_pipeline.ga)      |**Decontamination**:<br>Decontaminate scaffolded assembly | 1. Scaffolded assembly [`fasta`]  | 1. Decontaminated assembly <br>  2.  Contaminant list |
+
+
+## Examples of use
+
+The following examples use zebra finch data from Genome Ark to demonstrate different modes of assembly.
+
+### Solo data
+
+-----
+
+Input(s): PacBio HiFi data
+
+#### Workflow trajectory
+
+<span class="badge badge-danger">1</span> &#8594;
+<span class="badge badge-danger">3</span> &#8594;
+<span class="badge badge-danger">6</span> &#8594;
+<span class="badge badge-danger">9</span>
+
+#### Results
+
+| WF  | Outputs |History link|
+|----|:--------:|-------|
+| *K*-mer profiling<br><span class="badge badge-danger">1</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765e10e30708b268436/display?to_ext=) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765f50a00c5e39340f0/display?to_ext=png) | |
+| Contiging<br><span class="badge badge-danger">3</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765d31c0b9d6a93bc2e/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676502b5f933778166e7/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676598e8d0eb8496c27b/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765cbaed11ef5a2d425/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867652b6eff5c6c80c80e/display?to_ext=png) |
+| Purging duplicates<br><span class="badge badge-danger">6</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867651af99fe4f722897c/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676589a94689b8900752/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765a9f27ea8db2a7ce7/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867653378d8b6e02e9fb9/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676588c145e14c0b8a24/display?to_ext=png) |
+
+
+### Solo with HiC
+
+------
+
+Input(s): (1) HiFi data and (2) HiFi Illumina data 
+
+#### Workflow trajectory
+
+<span class="badge badge-danger">1</span> &#8594;
+<span class="badge badge-danger">4</span> &#8594;
+<span class="badge badge-danger">6</span> &#8594;
+<span class="badge badge-danger">8a</span> &#8594;
+<span class="badge badge-danger">9</span>
+
+
+#### Results
+
+| WF  | Outputs |History link|
+|----|:--------:|-------|
+| *K*-mer profiling<br><span class="badge badge-danger">1</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765e10e30708b268436/display?to_ext=) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765f50a00c5e39340f0/display?to_ext=png) | |
+| Contiging<br><span class="badge badge-danger">4</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867651b4495ea0c075730/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867651d8376c04b13ac0b/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867654f47d1e4029fd991/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765771db2bbc5610868/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765eab9407226003999/display?to_ext=png) | [EU](https://usegalaxy.eu/u/nekrut/h/contiging-solo-hic-wf4-1)
+| Purging duplicates<br><span class="badge badge-danger">6</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867653589467cdb784f97/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765aeb09d6c8377045c/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765b49463c932d35fda/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676598628a21ec75eb38/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765a0c0ae1f2fa63e2b/display?to_ext=png) | [EU](https://usegalaxy.eu/u/nekrut/h/purgedups-solo-hic-wf6) |
+| Scaffolding with HiC<br><span class="badge badge-danger">8a</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656ede74d1fea39c92/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656cc1e676adae9444/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867650caa307d2e94719f/display?to_ext=png) | [EU](https://usegalaxy.eu/u/nekrut/h/scaffolding-hic-wf8a-solo-primary) | 
+
+
+### Trio Only
+
+Inputs(s): (1) HiFi data, (2) Illumina data for parental, and (3) maternal individuals.  
+
+#### Workflow trajectory
+
+<span class="badge badge-danger">2</span> &#8594;
+<span class="badge badge-danger">5</span> &#8594;
+<span class="badge badge-danger">6</span> &#8594;
+<span class="badge badge-danger">9</span>
+
+#### Results
+
+| WF  | Outputs |History link|
+|----|:--------:|-------|
+| *K*-mer profiling<br><span class="badge badge-danger">2</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676555e5151a2c1d0fa8/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867653c1d1c06cfbdc8b0/display?to_ext=png) | |
+| Contiging<br><span class="badge badge-danger">5</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867658dc57dae3a3b2742/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765e3c03d46d3d68583/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867653e142722dbb7e1e4/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765949f4ae451e0bdb8/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765bf2281d3c8eae5e2/display?to_ext=png) | [EU](https://usegalaxy.eu/u/nekrut/h/contiging-trio-wf5)
+| Purging duplicates<br><span class="badge badge-danger">6</span> | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765d8b46d17266b83f2/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867655e14e86a1b646326/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867659f25ad4a94955b14/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867650b1b53b6441b81e2/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765e1223ea4b1e333ea/display?to_ext=png) | [EU](https://usegalaxy.eu/u/nekrut/h/purgedups-trio-wf6) |
+
+### Trio with HiC
+
+Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumina data for maternal individual, and (4) HiC data.  
+
+#### Workflow trajectory
+
+<span class="badge badge-danger">2</span> &#8594;
+<span class="badge badge-danger">5</span> &#8594;
+<span class="badge badge-danger">6</span> &#8594;
+<span class="badge badge-danger">8a</span> &#8594;
+<span class="badge badge-danger">9</span>
+
+#### Results
+
+<div class="alert alert-info" role="alert"> 
+Results of workflows 2, 5, and 6 are the same as above
+</div>
+
+| WF  | Outputs |History link|
+|----|:--------:|-------|
+| Scaffolding with HiC<br><span class="badge badge-danger">8a</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676575ae923170a65b07/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d86765fc525b5c6fd2a769/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867656f2eeac9f3169538/display?to_ext=png) | [EU](https://usegalaxy.eu/u/nekrut/h/scaffolding-hic-yahs-wf8a-primary-trio) | 
+
+
+### Trio with BioNano
+
+Inputs(s): (1) HiFi data, (2) Illumina data for parental individual, (3) Illumina data for maternal individual, and (4) BioNano data.  
+
+#### Workflow trajectory
+
+<span class="badge badge-danger">2</span> &#8594;
+<span class="badge badge-danger">5</span> &#8594;
+<span class="badge badge-danger">6</span> &#8594;
+<span class="badge badge-danger">7</span> &#8594;
+<span class="badge badge-danger">9</span>
+
+#### Results
+
+<div class="alert alert-info" role="alert"> 
+Results of workflows 2, 5, and 6 are the same as above
+</div>
+
+| WF  | Outputs |History link|
+|----|:--------:|-------|
+| Scaffolding with BioNano<br><span class="badge badge-danger">7</span><br>(Data for primary assembly only!) | ![](https://usegalaxy.eu/api/datasets/4838ba20a6d867652b1d289ed9f4ba96/display?to_ext=png) ![](https://usegalaxy.eu/api/datasets/4838ba20a6d8676584630e681ce8cae0/display?to_ext=png) | [EU](https://usegalaxy.eu/u/nekrut/h/bionano-scaffolding-wf7-trio-primary) | 
+
+
+
