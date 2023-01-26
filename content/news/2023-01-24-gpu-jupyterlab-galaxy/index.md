@@ -69,7 +69,9 @@ The figure above shows predicted 3D structure of spike protein of SARS-CoV-2 usi
 
 ## GPU JupyterLab as a Galaxy tool in a workflow
 
-GPU JupyterLab tool in Galaxy can also be used as usual Galaxy tool that takes input datasets from other Galaxy tools, process them in an IPython notebook and produce output datasets. This feature enables it to be used in Galaxy workflows. The following figure shows a sample workflow where GPU JupyterLab tool is used in a Galaxy workflow.
+GPU JupyterLab intergation in Galaxy can be used as normal Galaxy tool. It takes input datasets from other Galaxy tools, process them in an
+IPython notebook and produce output datasets. Those feature makes Jupyterlab perfectly able to be run inside Galaxy workflows.
+The following figure shows a sample workflow where GPU JupyterLab tool is used in a Galaxy workflow.
 
 ![GPU JupyterLab tool in a sample Galaxy workflow](./workflow_gpu_jupyterlab.png)
 
@@ -97,5 +99,5 @@ and our [preprint](https://www.biorxiv.org/content/10.1101/2022.07.08.499333v1.f
 - [Code](https://github.com/usegalaxy-eu/gpu-jupyterlab-docker) to create the Docker container
 - [Docker container](https://hub.docker.com/layers/anupkumar/docker-ml-jupyterlab/galaxy-integration-0.2/images/sha256-e2d7e28a2f975523db0f5ac29c2e2ce3c7a35b061072098ad388d5b42ee86fba?context=repo) on Docker hub
 - JupyterLab in a [Galaxy workflow](https://usegalaxy.eu/u/kumara/w/gpujupytool-imported-from-uploaded-file)
-- Galaxy training network (GTN)[tutorial](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.html) on how to use this resource
+- Galaxy training network (GTN) [tutorial](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.html) on how to use this resource
 - An accessible infrastructure for artificial intelligence using a Docker-based JupyterLab in Galaxy [Preprint](https://www.biorxiv.org/content/10.1101/2022.07.08.499333v1.full.pdf)
