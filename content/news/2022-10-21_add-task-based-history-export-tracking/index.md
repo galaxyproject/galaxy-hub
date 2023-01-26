@@ -67,5 +67,5 @@ remote source maintains them.
 ![image](https://user-images.githubusercontent.com/46503462/203847316-3fc0b0c4-2cb6-44b0-a242-47431fc25e20.png)
 
 
-Thanks to the reviewers [John Chilton](jmchilton) and [Marius van den Beek](https://github.com/mvdbeek).
+Thanks to the reviewers [John Chilton](https://github.com/jmchilton) and [Marius van den Beek](https://github.com/mvdbeek).
 Check out the code at [#14839](https://github.com/galaxyproject/galaxy/pull/14839)
