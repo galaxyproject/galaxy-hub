@@ -4,7 +4,7 @@ date: '2023-01-24'
 tease: 'Democratising GPU infrastructures by providing accelerated JuypterLab instances via Galaxy and combining them with HPC workflows'
 authors: 'Anup Kumar'
 tags: [tools]
-subsites: [all-eu, esg]
+subsites: [all-eu,global,esg]
 main_subsite: eu
 ---
 
