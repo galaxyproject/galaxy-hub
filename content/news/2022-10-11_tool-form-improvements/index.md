@@ -36,9 +36,6 @@ The second run button in the sticky title bar ensures that a user can run a tool
 
 "Run Tool" is a more specific wording than execute, as in addition to the action, it also clarifies what the action applies to. The buttons icon was also changed from a check-mark, to a play symbol.
 
-We need to update the documentation texts referring to this button, when this change gets merged.
-
-
 ## Remove Button Size and Text Morphing
 
 | Before | After |
