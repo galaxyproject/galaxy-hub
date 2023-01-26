@@ -1,12 +1,15 @@
 ---
-title: Tool form improvements from Laila Los
+title: Tool form improvements
 date: "2022-10-11"
 tease: "New pull request from Laila Los merged: Tool form improvements"
 autotoc: false
+authors: Laila Los
+author_github: ElectronicBlueberry
 tags: ['enhancement', 'UI-UX', 'client', 'power-user']
 subsites: [global]
 ---
 
+The tool form is a central part of Galaxy and for every interface that is used by every user very frequently.
 During the last release cycle the Tool form saw many small improvements to apply various "quality of life" changes.
 
 Here are the changes (in no particular order):
@@ -70,4 +73,5 @@ coherent blocks of information on each line.
 ![image](https://user-images.githubusercontent.com/44241786/187883972-1cffedc2-dcbc-4fe0-8e08-c5c48ff3174b.png)
 
 
-Thanks to the reviewers [Nicola Soranzo](https://github.com/nsoranzo), [Dannon](https://github.com/dannon) and [Aysam Guerler](https://github.com/guerler). Check out the code at [#14549](https://github.com/galaxyproject/galaxy/pull/14549)
+Thanks to the reviewers [Nicola Soranzo](https://github.com/nsoranzo), [Dannon](https://github.com/dannon) and
+[Aysam Guerler](https://github.com/guerler). Check out the code at [#14549](https://github.com/galaxyproject/galaxy/pull/14549)
