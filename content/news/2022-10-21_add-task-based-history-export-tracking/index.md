@@ -1,22 +1,20 @@
 ---
-title: Add task-based history export tracking
+title: Task-based history export tracking
 date: "2022-10-21"
 tease: "New pull request from David López merged: Add task-based history export tracking"
-hide_tease: true
+authors: David López
+author_github: davelopez
 autotoc: false
 tags: ['area/API', 'area/database']
 subsites: [global]
 ---
 
-# "Add task-based history export tracking" from David López
-Requires #15090 (To pass the remaining integration test failure)
-Fixes #14511
-Related to #14771
-
 ## TLDR
 
-This PR enables the tracking of every history export (and potentially any other exportable object) in the database by adding a new table containing structured metadata about the export context.
-It also creates a new `HistoryExport` component in the UI that is based on the asynchronous task (Celery) system instead of the regular job system for handling exports and short-term downloads (#14511).
+This PR enables the tracking of every history export (and potentially any other exportable object) in the Galaxy database
+by adding a new table containing structured metadata about the export context.
+It also creates a new `HistoryExport` component in the UI that is based on the asynchronous task framework (Celery)
+instead of the regular job system for handling exports and short-term downloads (https://github.com/galaxyproject/galaxy/pull/14511).
 
 ## Backend Changes
 
@@ -53,24 +51,21 @@ When you use the direct download option, it will be reused (the package won't be
 - The history changes
 - The export parameter change
 
-  ![image](https://user-images.githubusercontent.com/46503462/203846184-7c64c252-6a5d-4792-92ed-d377e76d6fab.png)
+![image](https://user-images.githubusercontent.com/46503462/203846184-7c64c252-6a5d-4792-92ed-d377e76d6fab.png)
 
 ### Export to Remote File Source (Long term)
 
 When you export your history to a remote file source a reference will be stored in the record and you can reimport it later as long as the remote file source maintains the exported package.
+
 ![image](https://user-images.githubusercontent.com/46503462/203846392-6b9e8cad-ab1a-4709-9fbd-880a792a6cf5.png)
 
 ### List of previous exports
 
-You can download or reimport copies (snapshots) of previous versions of the history as long as they have not expired or the remote source maintains them.
+You can download or reimport copies (snapshots) of previous versions of the history as long as they have not expired or the
+remote source maintains them.
+
 ![image](https://user-images.githubusercontent.com/46503462/203847316-3fc0b0c4-2cb6-44b0-a242-47431fc25e20.png)
 
-## TODO
 
-- [x] Display options to select/change the export format
-- [x] Add a bunch of tests
-- [ ] Make the UI reactive to history changes (requires history store (Pinia) for composition API)
-
-
-
- Thanks to the reviewers {reviewer_text}.
+Thanks to the reviewers [John Chilton](jmchilton) and [Marius van den Beek](https://github.com/mvdbeek).
+Check out the code at [#14839](https://github.com/galaxyproject/galaxy/pull/14839)
