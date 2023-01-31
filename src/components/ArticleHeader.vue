@@ -10,34 +10,36 @@
         <h1 class="title float-left" v-if="!article.skip_title_render">{{ article.title }}</h1>
         <div class="clearfix"></div>
         <p class="subtitle" v-if="article.tease && !article.hide_tease">{{ article.tease }}</p>
-        <ul class="metadata list-unstyled" v-if="article.category === 'events'">
-            <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
-            <li v-if="article.location && article.location.name">
-                <span class="metakey">Location: </span>
-                <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
-                <template v-else>{{ article.location.name }}</template>
-            </li>
-            <li v-if="hasContacts">
-                <span class="metakey">Contact: </span>
-                <Contacts :contact="article.contact" :contacts="article.contacts" />
-            </li>
-            <li v-if="article.links.length > 0">
-                <span class="metakey">Links: </span>
-                <template v-for="link in article.links">
-                    <a :href="link.url" :key="link.url">{{ link.text }}</a
-                    >.
-                </template>
-            </li>
-        </ul>
-        <section class="metadata freetext" v-else>
-            <p class="contact" v-if="hasContacts">
-                Contact: <Contacts :contact="article.contact" :contacts="article.contacts" />
-            </p>
-            <p class="authors" v-if="article.authors">By {{ article.authors }}</p>
-            <p class="date" v-if="article.date">
-                {{ articleDateStr }}
-            </p>
-        </section>
+        <template v-if="!article.hide_metadata === true">
+            <ul class="metadata list-unstyled" v-if="article.category === 'events'">
+                <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
+                <li v-if="article.location && article.location.name">
+                    <span class="metakey">Location: </span>
+                    <a v-if="article.location.url" :href="article.location.url">{{ article.location.name }}</a>
+                    <template v-else>{{ article.location.name }}</template>
+                </li>
+                <li v-if="hasContacts">
+                    <span class="metakey">Contact: </span>
+                    <Contacts :contact="article.contact" :contacts="article.contacts" />
+                </li>
+                <li v-if="article.links.length > 0">
+                    <span class="metakey">Links: </span>
+                    <template v-for="link in article.links">
+                        <a :href="link.url" :key="link.url">{{ link.text }}</a
+                        >.
+                    </template>
+                </li>
+            </ul>
+            <section class="metadata freetext" v-else>
+                <p class="contact" v-if="hasContacts">
+                    Contact: <Contacts :contact="article.contact" :contacts="article.contacts" />
+                </p>
+                <p class="authors" v-if="article.authors">By {{ article.authors }}</p>
+                <p class="date" v-if="article.date">
+                    {{ articleDateStr }}
+                </p>
+            </section>
+        </template>
         <p class="outlink" v-if="article.external_url">See <a :href="article.external_url">(external) url</a></p>
         <p class="blogref" v-if="article.source_blog && article.source_blog_url">
             From <a :href="article.source_blog_url">{{ article.source_blog }}</a>

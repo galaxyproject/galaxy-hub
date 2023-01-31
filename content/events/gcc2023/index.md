@@ -2,8 +2,10 @@
 title: "2023 Galaxy Community Conference (GCC2023)"
 skip_title_render: true
 autotoc: false
+hide_metadata: true
 components: true
 subsites: [all]
+date: 2021-09-01
 ---
 
 <slot name="/events/gcc2023/header" />
