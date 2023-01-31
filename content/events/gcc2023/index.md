@@ -15,7 +15,6 @@ gtn: true
 contact: "Organizing Committee"
 tags: ["cofest", "workshop", "training", "talk", "poster"]
 subsites: [all]
-date: 2021-09-01
 ---
 
 <slot name="/events/gcc2023/header" />
