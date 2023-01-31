@@ -3,6 +3,7 @@ title: "2023 Galaxy Community Conference (GCC2023)"
 date: '2023-07-10'
 skip_title_render: true
 autotoc: false
+hide_metadata: true
 components: true
 days: 7
 tease: "The annual gathering of the Galaxy Community with opportunities to hear latest developments, get training, and meet everyone involved."
@@ -14,6 +15,7 @@ gtn: true
 contact: "Organizing Committee"
 tags: ["cofest", "workshop", "training", "talk", "poster"]
 subsites: [all]
+date: 2021-09-01
 ---
 
 <slot name="/events/gcc2023/header" />
