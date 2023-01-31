@@ -5,7 +5,6 @@ autotoc: false
 hide_metadata: true
 components: true
 subsites: [all]
-date: 2021-09-01
 ---
 
 <slot name="/events/gcc2023/header" />
