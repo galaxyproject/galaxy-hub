@@ -7,4 +7,4 @@ Conferences.  These include long talks, short talks, poster presentations, and
 demo presentations.  All of these are submitted by the community and go through
 a peer review process before being accepted for the program.
 
-**Abstract submission is not yet open.** Please check back here in a few weeks.
+**Abstract submission is not yet open.** Please check back here towards the end of February.

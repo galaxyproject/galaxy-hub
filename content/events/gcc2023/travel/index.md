@@ -26,10 +26,14 @@ of the eastern Asia, west coast of North America, and the United Arab Emirates.
 **The [Brisbane Airport](https://www.bne.com.au/) code is BNE.**
 
 
-Before making travel arrangements, don't forget to check any [visa
+**Before making travel arrangements, don't forget to check any [visa
 requirements](https://usa.embassy.gov.au/visa-requirements) for traveling to
-Australia. If you need a visa application letter from the conference, please
+Australia**. If you need a visa application letter from the conference, please
 contact the [Organizers](/events/gcc2023/organizers/).
+
+Also please check the [current COVID-19
+requirements](https://www.homeaffairs.gov.au/covid19/entering-and-leaving-australia)
+for entering and leaving Australia.
 
 The airport is located approximately 13 kilometers (8 miles) from the city
 center with [many options to get to the
