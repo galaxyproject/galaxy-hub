@@ -42,10 +42,12 @@ Scientific program members are community volunteers who review the submitted abs
 * **Dan Blankenberg**, Cleveland Clinic, United States
 * **Davor Davidović**, Ruđer Bošković Institute, Croatia
 * **Enis Afgan**, Johns Hopkins University, United States
+* **Frederik Coppens**, VIB, Belgium
 * **Hans-Rudolf Hotz**,	Friedrich Miescher Institute for Biomedical Research, Switzerland
 * **Ivan Jakovlić**, BT Lab Wuhan, China
 * **Jeff Leek**, Fred Hutchinson Cancer Research Center, United States
 * **Jeremy Goecks**, Oregon Health & Science University, United States
+* **Justin Lee**, Queensland Cyber Infrastructure Foundation, Australia
 * **Margita Jadan**, Ruđer Bošković Institute, Croatia
 * **Maria Doyle**, Bioconductor, Australia
 * **Matthias Bernt**, Helmholtz Centre for Environmental Research, Germany
