@@ -3,7 +3,7 @@ title: 'Simple and data privacy-aware publishing of genomic variance data from G
 date: "2023-01-24"
 tease: "Galaxy has gained a Beacon integration that enables users to publish genetic variance data conveniently via Beacon project"
 tags: [collaboration, usecase, esg]
-subsites: [global,all]
+subsites: [global,all,esg]
 ---
 
 Science is most efficient when researchers share their data and results, so others can re-use them. Some datasets, however, cannot easily be shared
