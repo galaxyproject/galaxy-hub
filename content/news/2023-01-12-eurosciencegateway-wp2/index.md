@@ -1,6 +1,6 @@
 ---
-title: "EuroScienceGateway WP2"
-tease: "Stimulate FAIR and reusable research with computational workflows"
+title: "Stimulate FAIR and reusable research with computational workflows"
+tease: "The Work Package 2 of the EuroScienceGateway project"
 hide_tease: false
 authors: "Stian Soiland-Reyes"
 date: "2023-01-12"

@@ -5,7 +5,7 @@ tease: "New pull request from David López merged: Add task-based history export
 authors: David López
 author_github: davelopez
 autotoc: false
-tags: ['area/API', 'area/database', esg]
+tags: ['area/API', 'area/database', esg, esg-wp2]
 subsites: [global,esg]
 ---
 

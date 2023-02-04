@@ -1,7 +1,7 @@
 ---
-title: Work Package 5 of the EuroScienceGateway project
+title: "Use-cases from early adopters to embrace Open Science best practices"
+tease: Work Package 5 of the EuroScienceGateway project
 date: "2022-11-24"
-tease: "WP5 - use-cases from 3 early adopters to embrace Open Science best practices"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
@@ -10,9 +10,9 @@ main_subsite: eu
 
 The fifth Work Package (WP5) of the EuroScienceGateway project will demonstrate the benefits of the EuroScienceGateway services with 3 communities, namely:
 
-- [Biodiversity](/news/2022-12-08-esg-wp5-biodiversity/) and Climate Science with the impact on human health
-- Materials science
-- Astrophysics
+- [Biodiversity](/news/2022-12-08-esg-wp5-biodiversity/) and [Climate Science](/news/2022-11-24-esg-wp1/) with the impact on human health
+- [Materials science](/news/2023-01-09/esg-wp5/)
+- [Astronomy](/news/2022-12-12-esg-wp5-astronomy/)
 
 WP5 will showcase results from these 3 early adopters that will lead by example to embrace Open Science best practices.
 

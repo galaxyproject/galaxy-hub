@@ -1,7 +1,7 @@
 ---
 title: The Materials Science community within the EuroScienceGateway project
-date: "2023-01-09"
 tease: "One of the most recent adopters of the Galaxy platfrom"
+date: "2023-01-09"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]

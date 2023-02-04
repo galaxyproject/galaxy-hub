@@ -1,7 +1,7 @@
 ---
 title: The Climate community within the EuroScienceGateway project
-date: "2023-01-12"
 tease: "Climate Community Strategy for Work Package 5"
+date: "2023-01-12"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]

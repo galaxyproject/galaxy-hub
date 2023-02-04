@@ -81,3 +81,5 @@ and are happy to receive feedback.
 
 Thanks to Benno Weiß, Mira Kuntz and Wolfgang Maier for the Galaxy bits and pieces, and to the entire Beacon team for this great
 collaboration. We hope this work will make it easier in the future to share more data faster.
+
+P.S. Beacon is a GA4GH project, read more about [Galaxy and GA4GH](/ga4gh/). 
