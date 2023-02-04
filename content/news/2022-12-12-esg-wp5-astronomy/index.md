@@ -1,7 +1,7 @@
 ---
 title: The Astronomy community and the EuroScienceGateway project
-date: "2022-12-12"
 tease: "Towards harmonizing Open Data Practices in Astronomy with EuroScienceGateway community"
+date: "2022-12-12"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]

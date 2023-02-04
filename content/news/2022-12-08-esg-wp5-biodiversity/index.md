@@ -1,7 +1,7 @@
 ---
 title: The Biodiversity community and the EuroScienceGateway project
-date: "2022-12-08"
 tease: "One of the early adopters to embrace Open Science best practices"
+date: "2022-12-08"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
