@@ -11,7 +11,7 @@ main_subsite: eu
 The fifth Work Package (WP5) of the EuroScienceGateway project will demonstrate the benefits of the EuroScienceGateway services with 3 communities, namely:
 
 - [Biodiversity](/news/2022-12-08-esg-wp5-biodiversity/) and [Climate Science](/news/2022-11-24-esg-wp1/) with the impact on human health
-- [Materials science](/news/2023-01-09/esg-wp5/)
+- [Materials science](/news/2023-01-09-esg-wp5/)
 - [Astronomy](/news/2022-12-12-esg-wp5-astronomy/)
 
 WP5 will showcase results from these 3 early adopters that will lead by example to embrace Open Science best practices.
