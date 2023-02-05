@@ -29,3 +29,4 @@ To know more about the tools please visit [VirHunter](https://github.com/cbib/vi
 Both tools leverage deep learning for the classification task. We came up with many unique solutions to challenging genomic problems, 
 so if you develop a DL tool for genomics feel free to visit our repositories for inspiration. You can thus use any of the repositories to quickstart your DL project.
 
+Read more about our work in our paper "[A Deep Learning-Based Method for Detection of Novel RNA Viruses in Plant Sequencing Data](https://doi.org/10.3389/fbinf.2022.867111)".
