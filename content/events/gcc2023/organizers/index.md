@@ -32,10 +32,12 @@ Scientific program members are community volunteers who review the submitted abs
 
 * **Andrew Lonie**, Australian BioCommons, Australia
 * **Anne Claire Fouilloux**, University of Oslo, Norway
+* **Anna Syme**, Melbourne Bioinformatics, Australia
 * **Anshu Bhardwaj**, Interdisciplinary Research Center and CSIR-Institute of Microbial Technology, India
 * **Beáta Scholtz**, University of Debrecen Medical and Health Science Center, Hungary
 * **Bérénice Batut**, University of Freiburg, Germany
 * **Bryan Raubenolt**, Cleveland Clinic, United States
+* **Cameron Hyde**, University of Melbourne, Australia
 * **Catherine Bromhead**, University of Melbourne, Australia
 * **Clare Sloggett**, University of Melbourne, Australia
 * **Cristóbal Gallardo**, University of Freiburg, Germany
