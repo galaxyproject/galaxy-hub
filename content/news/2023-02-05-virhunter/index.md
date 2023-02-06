@@ -22,8 +22,7 @@ In particular, they "catch" viruses in assembled virome RNAseq data provided as 
 VirHunter’s role is to classify any contig into one of the three classes: virus, bacteria or plant. It has 7 plant host-specific models and a generalistic model that you can apply
 to any plant dataset. Decontaminator helps VirHunter as a preprocessing step by eliminating fungi or phage contamination, so they work even better together.
 
-Last but not the least, both VirHunter and Decontaminator can be easily retrained on your own data (e.g. to study the virome of a specific plant host) with minimal
-or zero changes in the code. 
+Last but not the least, if you are missing a model in VirHunter and Decontaminator please get in contact with us and we will help you creating new models and add them to Galaxy.
 
 To know more about the tools please visit [VirHunter](https://github.com/cbib/virhunter) or [Decontaminator](https://github.com/cbib/decontaminator) GitHub repositories.
 Both tools leverage deep learning for the classification task. We came up with many unique solutions to challenging genomic problems, 
