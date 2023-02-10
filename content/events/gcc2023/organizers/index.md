@@ -54,7 +54,7 @@ Scientific program members are community volunteers who review the submitted abs
 * **Maria Doyle**, Bioconductor, Australia
 * **Matthias Bernt**, Helmholtz Centre for Environmental Research, Germany
 * **Natalie Kucher**, Johns Hopkins University, United Stated
-* **Nicola Soranzo**, Earlham Institute, England
+* **Nicola Soranzo**, Earlham Institute, United Kingdom
 * **Nuwan Goonasekera**, University of Melbourne, Australia
 * **Peter van Heusden**, University of the Western Cape, South Africa
 * **Ralf Weber**, University of Birmingham, England
