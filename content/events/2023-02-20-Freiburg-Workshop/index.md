@@ -11,7 +11,7 @@ tags: ["workshop"]
 subsites: [all]
 ---
 
-We are offering a Galaxy workshop on HTS Data analysis. This is a students workshop at the University of Freiburg where we have a few places left. If you are interested or need more information, please contact Anika Erxleben (erxleben@informatik.uni-freiburg.de).
+We are offering a Galaxy workshop on HTS Data analysis. This is a students workshop at the University of Freiburg where we have a few places left for other Galaxy users, e.g. PhD students and PostDocs. If you are interested or need more information, please contact Anika Erxleben (erxleben@informatik.uni-freiburg.de).
 
 * **Date:** 20-24th February 2023
 * **Time:** 9-17:00
@@ -19,13 +19,13 @@ We are offering a Galaxy workshop on HTS Data analysis. This is a students works
 
 * **Program:**
 
-Day | Topic 
--------- | -------- 
-Monday   | Galaxy Introduction & Quality Control
+Day       | Topic 
+--------- | -------- 
+Monday    | Galaxy Introduction & Quality Control
 Tuesday   |  Epigenetics: ChIP-Seq
-Wednesday   | RNA-Seq Data Analysis
-Thursday   | Genome Assembly
-Friday   | Metatranscriptomics
+Wednesday | RNA-Seq Data Analysis
+Thursday  | Genome Assembly
+Friday    | Metatranscriptomics
 
 
 
