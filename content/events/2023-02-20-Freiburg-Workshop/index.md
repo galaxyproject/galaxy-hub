@@ -19,15 +19,14 @@ We are offering a Galaxy workshop on HTS Data analysis. This is a students works
 
 * **Program:**
 
-----------|--------------------------------------
-Day       | Topic 
---------- | -------------------------------------
-Monday    | Galaxy Introduction & Quality Control
-Tuesday   |  Epigenetics: ChIP-Seq
-Wednesday | RNA-Seq Data Analysis
-Thursday  | Genome Assembly
-Friday    | Metatranscriptomics
-----------|--------------------------------------
+|Day       | Topic 
+|--------- | -------------------------------------
+|Monday    | Galaxy Introduction & Quality Control
+|Tuesday   |  Epigenetics: ChIP-Seq
+|Wednesday | RNA-Seq Data Analysis
+|Thursday  | Genome Assembly
+|Friday    | Metatranscriptomics
+
 
 
 
