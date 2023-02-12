@@ -1,6 +1,6 @@
 ---
 title: Natural Language Processing survey
-date: "2022-12-30"
+date: "2023-02-12"
 tease: "Galaxy/LAPPS User Survey on Natural Language Processing capacity needs"
 hide_tease: false
 tags: [nlp]
