@@ -1,7 +1,7 @@
 ---
 title: "Postdoctoral Scholar"
 date: "2022-07-11"
-closes: ""
+closes: "2022-12-31"
 summary: "The ideal candidate will be successful at the bench with some knowledge of bioinformatics - preferably being able to plan, execute, and analyze (with Galaxy) cell culture and in vivo gene expression regulation
 experiments."
 continent: NA
