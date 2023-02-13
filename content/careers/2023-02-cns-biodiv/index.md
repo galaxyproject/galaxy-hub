@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatician - Gene prediction for Biodiversity Genomics Europe"
 date: "2023-02-10"
-closes: "2023-02-31"
+closes: "2023-02-28"
 summary: "We have an opening position for a Bioinformatician through the EU funded project Biodiversity Genomics Europe (BGE)"
 continent: EU
 location:
