@@ -6,12 +6,12 @@ tease: "A forum to share updates and discuss community-wide topics."
 continent: EU
 location:
   name: "Galaxy Metabolomics Community Call, Online"
-  url: "/community/practice/"
+  url: "/community/community-calls/"
 external_url:
 gtn: false
 contact: "foellmelanie@gmail.com; helge.hecht@recetox.muni.cz"
 tags: ["community-call"]
-subsites: []
+subsites: [all]
 ---
 
 We will have some community updates followed by a presentation. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1OrcpWJcHThn8eZd_eURnh1qybp3yetDd_NKtGvdfyjo/edit?usp=sharing) or bring them to the call!
