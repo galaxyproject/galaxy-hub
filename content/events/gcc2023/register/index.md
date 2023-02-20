@@ -2,8 +2,10 @@
 
 # Registration
 
-**The registration portal is not quite ready yet but should be in the second half
-of February so please check back then.**
+Conference registration is handled via an Eventbrite portal. Click the
+`REGISTER` button above to access the portal. After registering, you will
+receive a confirmation email with the registration details.
+
 
 ## Meeting: July 10-13
 
@@ -14,7 +16,9 @@ The registration fee includes admission to the meeting events, morning/afternoon
 break, and lunch for each day.
 
 Wednesday evening will be the official conference dinner, aiming to showcase
-cultural wealth of Brisbane and Australia.
+cultural wealth of Brisbane and Australia. Note that you can purchase additional
+dinner tickets if you have travel companion(s) and would like them to attend as
+well.
 
 Please note that all prices are listed in Australian Dollars (AUD); here is a
 convenient [currency
@@ -49,16 +53,16 @@ channel.
 
 ## CoFest: July 14-16
 
-[CoFest](/events/gcc2022/cofest/) is an opportunity to meet the people working
-on Galaxy and spend some time with each other in person to plan, work, or learn
-about many Galaxy components.
+[CoFest](/events/gcc2022/cofest/), or CollaborationFest, is an opportunity to
+meet the people working on Galaxy and spend some time with each other in person
+to plan, work, or learn about many Galaxy components.
 
-You can register for 1, 2, or 3 days of CoFest. The registration cost is used to
-cover the costs of lunch and drinks during the event.
+The registration cost is used to cover the costs of lunch and drinks during the
+event.
 
 | | |
 | --- | ---: |
-| Cost per day             | AU$10 |
+| CoFest | AU$30 |
 
 ## Lodging
 

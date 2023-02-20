@@ -6,7 +6,8 @@ all at once.
 
 # Registration
 
-Registration for GCC2022 is closed. But check back in early 2023 for GCC2023!
+Registration for GCC2022 is closed. But check back in early 2023 for
+[GCC2023](/events/gcc2023/)!
 
 ## Training Day, July 8
 
