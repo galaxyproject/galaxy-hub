@@ -13,7 +13,7 @@
 [Conduct](/events/gcc2023/conduct/) |
 [**Key Dates**](/events/gcc2023/key-dates/) |
 [Organizers](/events/gcc2023/organizers/) |
-[Register](/events/gcc2023/register) |
+[**Registration**](/events/gcc2023/register/) |
 [Sponsors](/events/gcc2023/sponsors/) |
 [Travel](/events/gcc2023/travel/)
 
@@ -34,11 +34,11 @@
     <div class="row">
         <div class="col"></div>
         <div class="col">
-            <a target="_blank" href="/events/gcc2023/sponsors" type="button" class="btn btn-primary center">
+            <a target="_blank" href="/events/gcc2023/sponsors/" type="button" class="btn btn-primary center">
                 <strong>VIEW SPONSORSHIP OPPORTUNITIES</strong>
             </a>
-            <a target="_blank" href="/events/gcc2022/" type="button" class="btn btn-primary center">
-                <strong>REVISIT 2022</strong>
+            <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary center">
+                <strong>REGISTER</strong>
             </a>        </div>
         <div class="col"></div>
     </div>
