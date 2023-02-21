@@ -95,4 +95,15 @@ conference will be held at the [Queensland University of Technology
 
   </div>
 
+  <!-- COVID19 -->
+  <div class="card" style="min-width: 30%; max-width: 32.2%">
+    <img src="/images/events/gcc2023/face-mask.png" class="card-img-top" alt="COVID-19" />
+    <div class="card-header">COVID-19</div>
+
+**COVID-19 remains a ongoing global concern**, particularly when attending meetings
+where people have traveled from all over the world. Take a look at the [COVID-19
+page](/events/gcc2023/covid19/) for the GCC2023 conference policy.
+
+  </div>
+
 </div>

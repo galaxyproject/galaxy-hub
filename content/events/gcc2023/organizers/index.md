@@ -18,6 +18,8 @@ The organizing committee is the oversight and coordination group that makes sure
 * **[Roberto Barrero Gumiel](https://www.qut.edu.au/about/our-people/academic-profiles/roberto.barrero)**, [Queensland University of Technology](https://www.qut.edu.au/), Australia
 * **[Ross Lazarus](https://www.linkedin.com/in/rosslazarus/)**, Galaxy Project Emeritus, Australia
 
+To contact the organizing committee, please send an email to gcc2023-orgcomm@biocommons.org.au.
+
 # Scientific Program Committee
 
 The scientific program committee is in charge of the scientific program for GCC2023.
