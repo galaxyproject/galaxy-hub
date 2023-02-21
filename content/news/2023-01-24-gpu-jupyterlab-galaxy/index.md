@@ -87,6 +87,12 @@ Please follow these steps for application:
 5. If your are not authorised, you will get an error message that will guide you to the request [form](http://usegalaxy.eu/gpu-request).
 6. [Contact us](mailto:consegalaxy.eu?subject=request%20GPU%20access) if there are any issues.
 
+## Current GPU Resources
+| Galaxy Europe  | Pulsar  |
+|---|---|
+| 16    |    30     |
+
+
 ## Much more ...
 
 There is much more - best to check out our 
