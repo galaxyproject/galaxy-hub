@@ -7,7 +7,7 @@ continent: EU
 location:
   name: "Bioinformatics Laboratory for Genomics and Biodiversity at Genoscope, France"
 image: "/images/logos/logo_genoscope.gif"
-location_url: "www.genoscope.cns.fr"
+location_url: "https://www.genoscope.cns.fr"
 contact: "job-lbgb@genoscope.cns.fr"
 ---
 
