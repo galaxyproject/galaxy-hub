@@ -11,9 +11,11 @@
 [Abstracts](/events/gcc2023/abstracts/) |
 [CoFest](/events/gcc2023/cofest/) |
 [Conduct](/events/gcc2023/conduct/) |
+[COVID-19](/events/gcc2023/covid19/) |
 [**Key Dates**](/events/gcc2023/key-dates/) |
 [Organizers](/events/gcc2023/organizers/) |
 [**Registration**](/events/gcc2023/register/) |
+[Schedule](/events/gcc2023/schedule/) |
 [Sponsors](/events/gcc2023/sponsors/) |
 [Travel](/events/gcc2023/travel/)
 
@@ -22,7 +24,6 @@
 
 # **2023 Galaxy Community Conference (GCC2023)**
 
-### SAVE THE DATE
 ### July 10-16, 2023
 ### Galaxy Australia
 ### Queensland University of Technology
