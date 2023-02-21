@@ -1,13 +1,13 @@
 ---
 title: "Bioinformatician - Gene prediction for Biodiversity Genomics Europe"
 date: "2023-02-10"
-closes: "2023-02-31"
+closes: "2023-02-28"
 summary: "We have an opening position for a Bioinformatician through the EU funded project Biodiversity Genomics Europe (BGE)"
 continent: EU
 location:
   name: "Bioinformatics Laboratory for Genomics and Biodiversity at Genoscope, France"
 image: "/images/logos/logo_genoscope.gif"
-location_url: "www.genoscope.cns.fr"
+location_url: "https://www.genoscope.cns.fr"
 contact: "job-lbgb@genoscope.cns.fr"
 ---
 
@@ -19,7 +19,7 @@ years and involving 33 partner institutions from across Europe.
 
 # Environment
 
-Genoscope (www.genoscope.cns.fr) was founded in 1996 to contribute to the Human
+Genoscope was founded in 1996 to contribute to the Human
 genome project and develop genomic programs in France. Genoscope then turned to
 environmental genomics. Genoscope is part of the CEA (The French Alternative Energies
 and Atomic Energy Commission, www.cea.fr) and it develops methods and projects for the
@@ -40,7 +40,7 @@ Oceans, https://fondationtaraocean.org/en/home/).
 # The lab
 
 The successful candidate will join the Bioinformatics Laboratory for Genomics and
-Biodiversity (LBGB, www.genoscope.cns.fr/lbgb) at Genoscope, made up of around fifteen
+Biodiversity (LBGB) at Genoscope, made up of around fifteen
 bioinformaticians. The LBGB is in charge of the management and analysis of the sequencing
 data produced at Genoscope, with a broad interest in methodological developments and has
 extensive experience in de novo assembly, gene prediction and comparative genomics of
