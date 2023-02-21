@@ -6,7 +6,7 @@ concurrency:
   group: primary-tests-${{ github.head_ref }}
   cancel-in-progress: true
 env:
-  NODE_OPTIONS: --max-old-space-size=4096 --openssl-legacy-provider
+  NODE_OPTIONS: --max-old-space-size=4096
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
