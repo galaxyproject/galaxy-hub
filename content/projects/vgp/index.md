@@ -75,6 +75,6 @@ The computational resources required for assembly are supported by **public** co
 
 - **EU** - [denBi](https://www.denbi.de/) and [Elixir](https://elixir-europe.org/)
 - **US** - [ACCESS-CI](https://access-ci.org/), [TACC](https://www.tacc.utexas.edu/), [Jetstream2](https://jetstream-cloud.org/) (additional funding is provided by NSF and NIH)
-- **Australia** - [Australian BioCommions](https://www.biocommons.org.au/), [QCIF](https://www.qcif.edu.au/), [Melbourne Bioinformatics.org.au](/https://www.melbournebioinformatics.org.au/), [AARNet](https://www.aarnet.edu.au/)
+- **Australia** - [Australian BioCommions](https://www.biocommons.org.au/), [QCIF](https://www.qcif.edu.au/), [Melbourne Bioinformatics.org.au](https://www.melbournebioinformatics.org.au/), [AARNet](https://www.aarnet.edu.au/)
 
 
