@@ -88,7 +88,7 @@ Please follow these steps for application:
 6. [Contact us](mailto:consegalaxy.eu?subject=request%20GPU%20access) if there are any issues.
 
 ## Current GPU Resources
-| Galaxy Europe  | Pulsar  |
+| Galaxy Europe  | Pulsar Network  |
 |---|---|
 | 16    |    30     |
 
