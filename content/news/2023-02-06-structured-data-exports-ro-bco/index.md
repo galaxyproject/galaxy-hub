@@ -1,47 +1,63 @@
 ---
 title: 'Exporting structured data like RO-Crate or BioComputeObjects'
 tease: 'Galaxy has a very powerful and extensible exporting framework that now can export RO-Crate and BioComputeObjects'
-date: '2023-02-06'
+date: '2023-02-22'
 tags: [tools]
-authors: "David López"
+authors: David López, Stian Soiland-Reyes
 authors_structured:
 - github: davelopez
+- github: stain
 subsites: [global, all-eu]
 ---
 
-Galaxy has gained over the last month a powerful and extensible exporting framework.
-If you would like to export workflow invocations, histories or history elements
-you can now extend the backend in a well defined way to create your preferred format. The same holds true for the frontend where
-where you have an easy way of defining new export formats from which a user can choose.
+Galaxy has over the last month gained a powerful and extensible exporting framework.
 
-Two formats have been added to Galaxy already. That is the BioComputeObjects, for tracking provenance information, and [RO-Crate](https://www.researchobject.org/ro-crate/) an archiving format based
-and schemas.org, [ResearchObjects](https://www.researchobject.org/) and [DataCrate](https://github.com/UTS-eResearch/datacrate).
+Two export formats have alreaady been added to Galaxy:
 
-Every format can be downloaded or written to pluggable Galaxy file sources (Dropbox, Google Drive, FTP, S3 ...) and each export plugin can
-define additional custom operations for example to collect addional metadata from the user before the export starts.
+* [BioComputeObjects](https://biocomputeobject.org/), a standard (IEEE 2791-2020) for tracking provenance information of bioinformatics pipelines for high-throughput sequencing.
+* [RO-Crate](https://www.researchobject.org/ro-crate/), a FAIR archiving format of [Research Objects](https://www.researchobject.org/) based on [schema.org](https://schema.org/) and [Bioschemas](https://bioschemas.org/).
 
-This work is based on previous work from John Chilton who added a backend component and APIs for serving files.
+Every format can be downloaded directly, or written to pluggable Galaxy file sources (Dropbox, Google Drive, FTP, S3 ...). 
+
+The feature described here will be part of the next Galaxy release, and should become available on `usegalaxy.eu` and related instances around March 2023.
 
 
-# Export invocation to RO-crate
+## Export invocation to RO-Crate
 
-In this example a valid RO-Crate archive is exported from the workflow invocation view.
+In this example, a valid [RO-Crate](https://www.researchobject.org/ro-crate/) archive is exported from the workflow invocation view, capturing the complete Galaxy history:
 
-![export-ro-crate-invocation-ui](https://user-images.githubusercontent.com/46503462/191081589-c67901b5-4a5a-4aa3-b2e4-1b22c402729b.gif)
+![export-ro-crate-invocation-ui](export-ro-crate-invocation-ui.gif)
 
-# Export invocation to BioCompute Object
+The RO-Crate is following the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate), embedding the input/output data frmo the workflow history, along with Galaxy log information and the executed Galaxy workflow definitions in several formats: Classical `*.ga` and newer [gxformat2](https://gxformat2.readthedocs.io/en/latest/readme.html#gxformat2) `*.gxwf.yml`, as well as an _Abstract CWL_ representing using the [Common Workflow Language](https://www.commonwl.org/) standard.
 
-In addition to the direct download and export to a remote source, this export plugin allows sending a BCO to an external database.
+The RO-Crate can be explored and extended programmatically using the [Python RO-Crate library](https://pypi.org/project/rocrate/).
 
-![send-bco-form-ui](https://user-images.githubusercontent.com/46503462/191082400-397cbd81-0a8f-41f8-a2c5-a604121ead76.gif)
+The [GTN Smörgåsbord 2023](https://gallantries.github.io/video-library/events/smorgasbord3/) will include a training module on [RO-Crate and Galaxy](https://gallantries.github.io/video-library/modules/ro-crate) that will expand on this approach.
 
-# How to add new export plugins
 
-Adding new export plugins is easy. Once the backend supports a new export format, we can add a new `InvocationExportPlugin` instance inside
+## Export invocation to BioCompute Object
+
+The previous support for exporting [BioCompute Objects](https://biocomputeobject.org/) (BCO) have been integrated into the new exporting framework.  In addition to the direct download of an BCO or storing it in an external source, this export plugin also allows sending a BCO to an external database:
+
+![send-bco-form-ui](send-bco-form-ui.gif)
+
+Note that the BCO is a JSON file with provenance metadata, which includes data references as URLs to the Galaxy history. Therefore, it's recommended to make the history public, in order for workflow data to be accessible. Future work will explore combining BCO export within an RO-Crate archive following the [BCO RO-Crate profile](https://biocompute-objects.github.io/bco-ro-crate/), with further archiving in external repositories like Zenodo and WorkflowHub.
+
+
+## How to add new export plugins
+
+If you would like to export workflow invocations, histories or history elements, 
+you can now extend the backend in a well defined way to create your preferred format. 
+The same holds true for the frontend, where you have an easy way of defining new export formats from which a user can choose.
+
+Adding new export plugins is relatively easy. Once the backend supports a new export format, we can add a new `InvocationExportPlugin` instance inside
 `client/src/components/Workflow/Invocation/Export/Plugins/` and register it in the *index.js* file. That's it!
+
+Each export plugin can define additional custom operations, for example to collect addional metadata from the user before the export starts.
 
 If the plugin needs to display additional components as part of the custom actions, for example for additional metadata,
 it should be done inside a modal like in the example above, and the additional component should be placed in a subfolder with the name of the plugin.
 
+This work is based on previous work from John Chilton, who added a backend component and APIs for serving files.
 
-@pauldg @jmchilton @HadleyKing @davelopez
+@pauldg @jmchilton @HadleyKing @davelopez @stain
