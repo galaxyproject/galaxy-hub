@@ -1,13 +1,13 @@
 ---
 title: 'Exporting structured data like RO-Crate or BioComputeObjects'
 tease: 'Galaxy has a very powerful and extensible exporting framework that now can export RO-Crate and BioComputeObjects'
-date: '2023-02-22'
-tags: [tools]
+date: '2023-02-23'
+tags: [tools, esg, esg-wp2]
 authors: David López, Stian Soiland-Reyes
 authors_structured:
 - github: davelopez
 - github: stain
-subsites: [global, all-eu]
+subsites: [global, all-eu, esg]
 ---
 
 Galaxy has over the last month gained a powerful and extensible exporting framework.
