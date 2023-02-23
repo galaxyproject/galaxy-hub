@@ -94,9 +94,6 @@ Please follow these steps for application:
 | CPU | 8000  |
 | Quota | 250GB  |
 
-
-
-
 ## Much more ...
 
 There is much more - best to check out our 
