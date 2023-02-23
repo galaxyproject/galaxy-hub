@@ -88,11 +88,11 @@ Please follow these steps for application:
 6. [Contact us](mailto:consegalaxy.eu?subject=request%20GPU%20access) if there are any issues.
 
 ## Current Resources
-| Type | Galaxy Europe | Pulsar Network  |
-|---|---|---|
-| GPU | 16  |    30     |
-| CPU | 8000  |    X     |
-| Quota | 250GB  |   -     |
+| Type | Galaxy Europe |
+|---|---|
+| GPU | 16  |
+| CPU | 8000  |
+| Quota | 250GB  |
 
 
 
