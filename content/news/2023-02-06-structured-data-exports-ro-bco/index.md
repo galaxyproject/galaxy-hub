@@ -19,7 +19,8 @@ Two export formats have alreaady been added to Galaxy:
 
 Every format can be downloaded directly, or written to pluggable Galaxy file sources (Dropbox, Google Drive, FTP, S3 ...). 
 
-The feature described here will be part of the next Galaxy release, and should become available on `usegalaxy.eu` and related instances around March 2023.
+The feature described here will be part of the next Galaxy release, and should become available on `usegalaxy.eu` and related instances around March 2023 depending on the instance configuration.
+
 
 
 ## Export invocation to RO-Crate
