@@ -59,6 +59,5 @@ Each export plugin can define additional custom operations, for example to colle
 If the plugin needs to display additional components as part of the custom actions, for example for additional metadata,
 it should be done inside a modal like in the example above, and the additional component should be placed in a subfolder with the name of the plugin.
 
-This work is based on previous work from John Chilton, who added a backend component and APIs for serving files.
-
-@pauldg @jmchilton @HadleyKing @davelopez @stain
+This work is based on previous work from [John Chilton](https://github.com/jmchilton), who added a backend component and APIs for serving files.
+Thanks to [David](https://github.com/davelopez), [Paul](https://github.com/pauldg), [Hardley](https://github.com/HadleyKing), and [Stian](https://github.com/stian) for working on this project.
