@@ -90,7 +90,7 @@ Please follow these steps for application:
 ## Current Resources
 | Type | Galaxy Europe |
 |---|---|
-| GPU | 16  |
+| GPU | 45  |
 | CPU | 8000  |
 | Quota | 250GB  |
 
