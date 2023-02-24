@@ -1,105 +1,109 @@
 ---
-title: "Computational Software Scientist "
+title: "Computational Software Scientist"
+contract type: "Open ended"
+hours: "Full time or Part time"
+salary: "£39,748 to £44,166 per annum (dependent on skills and experience). Specialist allowance of up to £4k per 
+annum depending on experience and access to STFC UK VISA support. Support (up to £8k) for UK VISA (healthcare) costs 
+through the relevant skilled worker routes"
 date: "2023-02-24"
 closes: "2023-03-24"
 summary: "We have an opening position for a scientificaly minded RSE to work in the development of Galaxy tools for materials science applications"
 continent: Europe
 location:
 name: "Science and Technology Facilities Council, Rutherford Appleton Laboratory (RAL), Harwell, Oxfordshire, OR, Daresbury Laboratory, Warrington, WA4 4AD (with regular travel to RAL)"
-image: "/images/logos/logo_genoscope.gif"
+image: "/images/logos/UKRI_STF_Council-Logo_Horiz-RGB.png"
 location_url: "https://www.ukri.org/about-us/stfc/locations/rutherford-appleton-laboratory/"
 contact: "leandro.liborio@stfc.ac.uk"
 ---
 
+Come and do the kind of computing that got you into technology in the first place. Work with cutting-edge tech and world-leading scientists and engineers. And harness the power of some of the country's most advances supercomputers to tackle work that improves daily life in the UK and far beyond.
 
-We have an opening position for a Bioinformatician through the EU funded project
-"Biodiversity Genomics Europe (BGE)". BGE is a joint project of ERGA (European
-Reference Genome Atlas) and BIOSCAN Europe, funded by the EU commission for 3.5
-years and involving 33 partner institutions from across Europe.
+Put simply, come and discover the impact you can make when you're equipped, encouraged and inspired to perform to your very best
 
-# Environment
+# The Project
 
-Genoscope was founded in 1996 to contribute to the Human
-genome project and develop genomic programs in France. Genoscope then turned to
-environmental genomics. Genoscope is part of the CEA (The French Alternative Energies
-and Atomic Energy Commission, www.cea.fr) and it develops methods and projects for the
-exploration of biodiversity, in particular with respect to large-scale DNA sequencing and
-bioinformatics. The projects cover all biodiversity, particularly the genomics of plants and
-fungi and the metagenomics of complex ecosystems. Through the investigation and
-characterisation of biodiversity, Genoscope is committed to contributing to the development
-of sustainable biological solutions in the field of synthetic chemistry.
-Genoscope thus contributes to the sequencing of numerous plant species (orange tree,
-coffee tree, cacao tree, banana, rapeseed, wheat, etc.) and animal species, a crucial stage
-with regard to progress in the field of agronomics and in enhancing our understanding of
-evolution. Genoscope also contributes to the discovery of unknown microscopic organisms
-using metagenomics, now feasible thanks to the development of new sequencing
-technologies and increased bioinformatics data processing capacities. Metagenomics has,
-for example, been used to study the diversity of the oceans of the world (Mission Tara
-Oceans, https://fondationtaraocean.org/en/home/).
+The Theoretical and Computational Physics Group is based in the Scientific Computing Department (SCD), which is part of UKRI. We are an international, family-friendly group that is active in diverse scientific projects, many of which are in collaboration with STFC’s large experimental Facilities such as the Diamond Light Source (https://www.diamond.ac.uk/) and the ISIS neutron and muon source (https://www.isis.stfc.ac.uk/). One of our current collaborations is the Muon Spectroscopy Computational Project (MSCP) (https://muon-spectroscopy-computational-project.github.io/), which focuses on the development of software tools for the interpretation of muon experiments. 
 
-# The lab
+Muons are subatomic particles that are produced at many active muon sources around the world such as ISIS in the UK and J-PARC in Japan, and as an example muons are used to study areas such as organic compounds and magnetic materials, or to determine the composition of ancient archaeological samples. 
 
-The successful candidate will join the Bioinformatics Laboratory for Genomics and
-Biodiversity (LBGB) at Genoscope, made up of around fifteen
-bioinformaticians. The LBGB is in charge of the management and analysis of the sequencing
-data produced at Genoscope, with a broad interest in methodological developments and has
-extensive experience in de novo assembly, gene prediction and comparative genomics of
-complex genomes and samples. Our lab has been a main actor of several genome projects
-and has generated and published several eukaryotic reference genomes as well as several
-bioinformatics tools dedicated to the analysis of genomic data.
+The MSCP has been following a sustainable and modular software architecture that can integrate multiple computational components, as well as incorporate newly developed software tools. At present, the software tools developed by the MSCP are available as command-line tools with some of them integrated into MuonGalaxy (https://muongalaxy.stfc.ac.uk/), part of the open, web-based platform Galaxy(https://galaxyproject.org/). 
 
-# Biodiversity Genomics Europe
+MuonGalaxy is predominantly used by our researchers who need to analyse the muon data produced, however they may not have the capabilities to install and maintain the necessary software tools required for performing their computer simulations themselves.  To counter this we want to consolidate MuonGalaxy and expand Galaxy into other areas of materials science, such as catalysis, neutron diffraction and synchrotron X-Ray experiments. Our main purpose is to enable these communities to have easy access to shared computational resources and data, so that they can accelerate their research. 
 
-Biodiversity Genomics Europe (BGE, https://biodiversitygenomics.eu/) has the overarching
-goal of accelerating the use of genomic science to enhance understanding of biodiversity,
-monitor biodiversity changes, and guide interventions to address its decline.
-The position is part of the ERGA (https://www.erga-biodiversity.eu/) component of BGE,
-which aims at developing the European node of the Earth BioGenome Project (EBP,
-https://www.earthbiogenome.org/) to generate high-quality reference genomes for all
-eukaryotic species in Europe. As an affiliate of EBP, ERGA also serves as an umbrella for
-national nodes of EBP within Europe (e.g. The ATLASea program in France and the Darwin
-Tree of Life in the UK). Over the course of the project, we estimate that our team will
-assemble on the order of 100 genomes while building the capacity to sequence thousands in
-the future. The candidate will work closely with partners at collaborating institutions in
-Europe who are contributing to the gene prediction and delivery tasks. These tasks will
-involve extensive communication and exchange with ERGA community members and other
-project partners as well as active involvement in ERGA committees, in particular the
-annotation committee.
+To help achieve our goal we are currently looking for a Computational Software Scientist to join our group. The successful applicant will join a rapidly growing team whose aim is to transform how research is carried out at large experimental facilities through a multi-disciplinary approach to data processing, computer simulation and data analytics.  By building the software and providing computational and data analytics expertise, the team plan to spark a paradigm shift in the capability of scientists to design, analyse and interpret experiments.
 
-# Role and responsibilities
+# About the Role
 
-* Develop bioinformatic workflows to assess the quality of a given gene catalog, based on biological evidence and also on comparative genomics
-* Develop gene prediction workflows, for example in the Galaxy environment, designed
-for gene annotation by non-bioinformaticians but with taxon-specific expertise and data
-* Contribute to establishing annotation standards and best practices, together with relevant ERGA partners
-* Coordinate the activities of the ERGA annotation committee
-* Contribute to relevant ERGA publications
+This role will sit at the forefront between software development / deployment, and scientific research at large scale facilities. The role will involve interacting with software engineers, data scientists, STFC scientists and end-users of our systems. The aim of the work will be to advance the science performed at experimental facilities by improving either data interpretation or modelling capabilities using the development of computational tools, implementing them in the Galaxy platform and promoting the tools within well-established computational and experimental user communities. 
 
-# The candidate
+The additional development of synergies and follow up opportunities with existing externally funded materials physics/chemistry research and community-focused software development initiatives (https://galaxyproject.org/news/2022-11-05-euro-science-gateway) and (https://www.psdi.ac.uk/) active at the TPCG, will not only be possible but strongly encouraged. 
 
-The candidate must hold a PhD in Bioinformatics, Genetics, Biology or related discipline or
-an engineering degree and must demonstrate experience in the field of genomics associated
-with the development of bioinformatics tools. This position requires fluency in written and
-spoken English, teamwork, communication within multidisciplinary teams, understanding of
-scientific questions, rigor and autonomy.
+# About You
 
-The candidate must have the following technical skills:
-* Knowledge of sequencing technologies and methods for gene prediction
-* Experience with Unix operating systems, including shell scripts and high performance computing environments
+This is a highly collaborative role, and you will work closely with a variety of people as such the ability to interact and communicate well with others is a must. You must have the ability to develop good working relationships and be eager to develop skills in the interaction with experimental and computational scientists.
 
-* Proficiency in programming languages such as Python, Perl and R
+# Essential Criteria
 
-# Details
+* Extensive experience of the Python programming language. 
+* Knowledge of Git(Hub), Linux and Ansible. 
+* Knowledge of databases such as PostgreSQL; MySQL; SQLite and SQLAlchemy. 
+* Experience in documenting software tools. 
+* Experience with team-working and, ideally, co-development of scientific software. 
+* Ability to engage with the relevant scientific and software communities, through networking, as well as organizing workshops and delivering hands-on courses and training as required. 
+* Being comfortable as part of an international collaboration. 
+* Excellent communication skills in spoken and written English.
 
-* Duration of the contract: 18 months, with possibility of extension via the French ATLASea program
-* Salary will be commensurate with qualifications and consistent with CEA (https://www.cea.fr) salary scales
-* Target start date: March 2023
-* Location : Evry, 30 kilometers from Paris. Easily accessible by public transport.
-* We provide a highly stimulating environment with state-of-the-art infrastructures
-* Flexible working hours and teleworking
+# Benefits 
 
-All applications must be addressed to job-lbgb@genoscope.cns.fr and include:
-* A cover letter
-* A complete CV including contact details
-* Names and contact details of at least two references
+We are offering a permanent position with a host of benefits including:
+
+* 30 days holiday (in addition to 10.5 bank holidays and privilege days)
+* Flexible working hours
+* An excellent defined average salary pension scheme
+* Excellent learning and development opportunities
+* Visa Sponsorship for candidates without the right to work in the UK 
+
+We are committed to a diverse and inclusive workforce. We are invested in creating an environment that is welcoming and supportive of all. In this regard, we encourage applications from under-represented groups.
+
+We ask some of the biggest questions in the universe, to answer some of the biggest challenges in the world. Together, our scientists, technologists, engineers, and business-support team explore the unknown across every field you could think of. And they turn what they find into work that changes the world around us.
+
+What could you achieve with the world-leading facilities and experts of one of Europe's largest research organisations by your side? Join us and discover what is possible.
+
+# About The Science and Technology Facilities Council (STFC)
+
+As one of Europe’s largest research organisations, we ask the biggest questions in the universe to find answers that change the world around us. We seek understanding. We’re proud of the impact we make. And we’re committed to helping build a globally competitive, knowledge-based UK economy. Being part of all this means contributing to work that pushes boundaries and creates possibilities. You’ll work with, and learn from, true experts. Whatever your role, you’ll be free to question, and encouraged to share ideas. And, in a positive and supportive culture, you’ll discover just what a difference you can make when you’re equipped and inspired to excel.
+
+We’re a place where curious minds thrive. Not bound by profit, we explore ideas that others don’t, ask questions that others won’t, and discover answers that others are not equipped to find. And, alongside Mars landings and black holes, we also explore diverse, international projects in everything from science and engineering to computing and technology. Whether it’s at the cutting edge or behind the scenes, our work is intellectually challenging. It’s very often ground-breaking.  And it’s endlessly, irresistibly fascinating.
+
+For more information about STFC please visit https://stfc.ukri.org/ 
+
+You can also visit our careers site https://www.stfccareers.co.uk/ 
+
+# About UK Research Innovation (UKRI) 
+
+UKRI is an organisation that brings together the seven disciplinary research councils, Research England and Innovate UK. Together, we build an independent organisation with a strong voice and vision ensuring the UK maintains its world-leading position in research and innovation. 
+
+Supporting some of the world’s most exciting and challenging research projects, we develop and operate some of the most remarkable scientific facilities in the world. We are pushing the frontiers of human knowledge through fundamental research and delivering benefits for UK society and the economy through world-class research, skills and business-led innovation. 
+
+More information can be found at www.ukri.org.  
+
+Choosing to come to work at UKRI means that you will have access to a whole host of benefits from a defined benefit pension scheme, excellent holiday entitlement, access to employee shopping/travel discounts and salary sacrifice cycle to work scheme.  For more details, visit benefits of working for UKRI.
+
+# How we support EDI in the workforce 
+
+At UKRI, we believe that everyone has a right to be treated with dignity and respect, and to be provided with equal opportunities to thrive and succeed in an environment that enables them to do so. We also value diversity of thought and experience within inclusive groups, organisations and the wider community. 
+
+# Disability Confident Employer
+
+As users of the disability confident scheme, we guarantee to interview all disabled applicants who meet the minimum criteria for the vacancy/ies. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. 
+
+# How to Apply
+
+Online applications only preferred for this role. Please submit a CV and covering letter which clearly outlines how you fulfil the criteria specified along with your motivation for UKRI and the role. Ensure that the job reference number is included in the filename description of each document uploaded. Note that failure to address the above criteria or submit an application without a covering letter may result in the application not being considered. Assessment will only be based upon the content of your submitted covering letter and CV and not the ‘experience’ section of the application. 
+
+UKRI seeks to ensure it creates and maintains a system of openness, fairness and inclusion – a collaborative, trusted environment, which is attractive to and accessible to everyone who is interested in developing their career with us.
+
+
+
+
 
