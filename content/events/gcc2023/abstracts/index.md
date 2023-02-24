@@ -9,7 +9,9 @@ demo presentations.  All of these are submitted by the community and go through
 a peer review process before being accepted for the program.
 
 Abstract submission is open. **To submit an abstract, [fill out this
-form](https://forms.gle/ETCPW8Vnprbij7zn6).**
+form](https://forms.gle/ETCPW8Vnprbij7zn6).** By submitting an abstract, you
+agree that at least one of the authors will register and present the work
+in-person at GCC2023.
 
 
 ## Abstract guidelines
