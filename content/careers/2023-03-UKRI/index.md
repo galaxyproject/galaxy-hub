@@ -1,14 +1,14 @@
 ---
-title: "Bioinformatician - Gene prediction for Biodiversity Genomics Europe"
-date: "2023-02-10"
-closes: "2023-02-28"
-summary: "We have an opening position for a Bioinformatician through the EU funded project Biodiversity Genomics Europe (BGE)"
-continent: EU
+title: "Computational Software Scientist "
+date: "2023-02-24"
+closes: "2023-03-24"
+summary: "We have an opening position for a scientificaly minded RSE to work in the development of Galaxy tools for materials science applications"
+continent: Europe
 location:
-  name: "Bioinformatics Laboratory for Genomics and Biodiversity at Genoscope, France"
+name: "Science and Technology Facilities Council, Rutherford Appleton Laboratory (RAL), Harwell, Oxfordshire, OR, Daresbury Laboratory, Warrington, WA4 4AD (with regular travel to RAL)"
 image: "/images/logos/logo_genoscope.gif"
-location_url: "https://www.genoscope.cns.fr"
-contact: "job-lbgb@genoscope.cns.fr"
+location_url: "https://www.ukri.org/about-us/stfc/locations/rutherford-appleton-laboratory/"
+contact: "leandro.liborio@stfc.ac.uk"
 ---
 
 
