@@ -8,9 +8,9 @@ through the relevant skilled worker routes"
 date: "2023-02-24"
 closes: "2023-03-24"
 summary: "We have an opening position for a scientificaly minded RSE to work in the development of Galaxy tools for materials science applications"
-continent: Europe
+continent: EU
 location:
-name: "Science and Technology Facilities Council, Rutherford Appleton Laboratory (RAL), Harwell, Oxfordshire, OR, Daresbury Laboratory, Warrington, WA4 4AD (with regular travel to RAL)"
+    name: "Science and Technology Facilities Council, Rutherford Appleton Laboratory (RAL), Harwell, Oxfordshire, OR, Daresbury Laboratory, Warrington, WA4 4AD (with regular travel to RAL)"
 image: "/images/logos/UKRI_STF_Council-Logo_Horiz-RGB.png"
 location_url: "https://www.ukri.org/about-us/stfc/locations/rutherford-appleton-laboratory/"
 contact: "leandro.liborio@stfc.ac.uk"
@@ -98,6 +98,8 @@ At UKRI, we believe that everyone has a right to be treated with dignity and res
 As users of the disability confident scheme, we guarantee to interview all disabled applicants who meet the minimum criteria for the vacancy/ies. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. 
 
 # How to Apply
+
+**Apply by 24th March 2023**
 
 Online applications only preferred for this role. Please submit a CV and covering letter which clearly outlines how you fulfil the criteria specified along with your motivation for UKRI and the role. Ensure that the job reference number is included in the filename description of each document uploaded. Note that failure to address the above criteria or submit an application without a covering letter may result in the application not being considered. Assessment will only be based upon the content of your submitted covering letter and CV and not the ‘experience’ section of the application. 
 
