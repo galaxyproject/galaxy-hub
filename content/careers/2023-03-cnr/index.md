@@ -1,5 +1,5 @@
 ---
-title: "Technologist for bioinformatics application development"
+title: "Technologist for bioinformatics applications development"
 date: "2023-02-25"
 closes: "2023-03-02"
 summary: "We are recruiting two technologists for 24 months for the development of Galaxy based services."
