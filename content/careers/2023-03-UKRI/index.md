@@ -105,7 +105,7 @@ Online applications only preferred for this role. Please submit a CV and coverin
 
 UKRI seeks to ensure it creates and maintains a system of openness, fairness and inclusion – a collaborative, trusted environment, which is attractive to and accessible to everyone who is interested in developing their career with us.
 
-
+**Apply via this link: https://www.careersportal.co.uk/UKRI-careers/jobs/computational-software-scientist-2953**
 
 
 
