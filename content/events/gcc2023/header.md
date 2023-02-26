@@ -8,11 +8,11 @@
 <div class="linkbox-horizontal trim-p">
 
 [Home](/events/gcc2023/) |
-[Abstracts](/events/gcc2023/abstracts/) |
+[**Abstracts**](/events/gcc2023/abstracts/) |
 [CoFest](/events/gcc2023/cofest/) |
 [Conduct](/events/gcc2023/conduct/) |
 [COVID-19](/events/gcc2023/covid19/) |
-[**Key Dates**](/events/gcc2023/key-dates/) |
+[Key Dates](/events/gcc2023/key-dates/) |
 [Organizers](/events/gcc2023/organizers/) |
 [**Registration**](/events/gcc2023/register/) |
 [Schedule](/events/gcc2023/schedule/) |
@@ -32,16 +32,15 @@
 #### [#UseGalaxy2023](https://twitter.com/hashtag/UseGalaxy2023)
 
 <div class="container">
-    <div class="row">
-        <div class="col"></div>
+    <div class="row" style="flex-direction: column;">
         <div class="col">
-            <a target="_blank" href="/events/gcc2023/sponsors/" type="button" class="btn btn-primary center">
-                <strong>VIEW SPONSORSHIP OPPORTUNITIES</strong>
-            </a>
             <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary center">
-                <strong>REGISTER</strong>
-            </a>        </div>
-        <div class="col"></div>
+                <strong>Register now</strong>
+            </a>
+            <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary center">
+                <strong>Submit an abstract</strong>
+            </a>
+        </div>
     </div>
 </div>
 
