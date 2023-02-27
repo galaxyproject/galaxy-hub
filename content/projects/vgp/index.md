@@ -73,7 +73,7 @@ All initial data, intermediate datasets, and final assembles are available form 
 
 The computational resources required for assembly are supported by **public** computational infrastructure. In turn, this computational infrastructure is brought you by:
 
-- **EU** - [denBi](https://www.denbi.de/) and [Elixir](https://elixir-europe.org/)
+- **EU** - [de.NBI](https://www.denbi.de/), [Uni-Freiburg](https://uni-freiburg.de/) and [ELIXIR](https://elixir-europe.org/)
 - **US** - [ACCESS-CI](https://access-ci.org/), [TACC](https://www.tacc.utexas.edu/), [Jetstream2](https://jetstream-cloud.org/) (additional funding is provided by NSF and NIH)
 - **Australia** - [Australian BioCommions](https://www.biocommons.org.au/), [QCIF](https://www.qcif.edu.au/), [Melbourne Bioinformatics.org.au](https://www.melbournebioinformatics.org.au/), [AARNet](https://www.aarnet.edu.au/)
 
