@@ -1,5 +1,5 @@
 ---
-description: "Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics transcriptomics or proteomics, this is the place to be!"
+description: "Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics or proteomics, this is the place to be!"
 autotoc: true
 title: "Microbial data analysis in Galaxy"
 ---
@@ -16,7 +16,7 @@ Whether you are analysing microbiome samples or bacterial isolates, long reads o
 
 **Many tools for microbial data analysis are freely available** in the ToolShed which can be installed on any Galaxy server. To keep an overview, the *[microGalaxy](#microgalaxy-community)* community of practice maintains a [**curated list**](https://docs.google.com/spreadsheets/d/1Nq_g-CPc8t_eC4M1NAS9XFJDflA7yE3b9hfSg3zu9L4/edit#gid=101894501) of the **150+ tools** available.
 
-If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia or Bérénice about it.
+If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia, [Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
 
 
 ## Workflows and tutorials
@@ -31,7 +31,7 @@ Several curated Galaxy workflows are publicly available for different kinds of m
 |--------|-----------|------------|----------|--------------|----------|-------|
 | Bacteria | 16S | Short reads | Taxonomic Profiling | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | mothur SOP
 | Bacteria | 16S | Long reads | Taxonomic Profiling  | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-| All | Shotgun metagenomics | Short reads | Taxonomic Profiling, Functional Analysis | | <a href="https://asaim.readthedocs.io/en/latest/workflows.html"> | ASaiM (missing reference)
+| All | Shotgun metagenomics | Short reads | Taxonomic Profiling, Functional Analysis | | <a href="https://asaim.readthedocs.io/en/latest/workflows.html" class="fas fa-share-alt" aria-hidden="true"></a> | ASaiM (missing reference)
 | All | Shotgun metagenomics | Long reads | Taxonomic profiling | View Tutorial
 | Plasmid | Shotgun | Long reads | AMR detection |
 | All | Shotgun metatranscriptomics | Short reads | Functional Analysis | | | ASaiM-MT (missing reference)
@@ -43,7 +43,7 @@ Several curated Galaxy workflows are publicly available for different kinds of m
 |--------|------------|----------|--------------|----------|-------|
 | M. tuberculosis | Short reads | Variant Detection | <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html"  class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
 | M. tuberculosis | Short reads | Transmission of Mtb | <a href="https://training.galaxyproject.org/topics/evolution/tutorials/mtb_transmission/tutorial.html"  class="fas fa-graduation-cap" aria-hidden="true"></a>
-| M. tuberculosis | Short reads | Phylogenetics applied to Mtb evolution & epidemiology | <a href="https://training.galaxyproject.org/topics/evolution/tutorials/mtb_phylogeny/tutorial.html"></a>
+| M. tuberculosis | Short reads | Phylogenetics applied to Mtb evolution & epidemiology | <a href="https://training.galaxyproject.org/topics/evolution/tutorials/mtb_phylogeny/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a>
 | Plasmids | Long reads | AMR detection | | <a href="https://erasmusmc-bioinformatics.github.io/AMR-Galaxy-workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
 
 Want to include your workflow here? Let us know!
@@ -133,5 +133,5 @@ Anybody interested in microbial data analysis in the Galaxy is welcome to join m
 
 * Join our [**quarterly meetings**](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
 * Join our **working groups** (see above)
-* Join the [Gitter **Chat**](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://usegalaxy-eu.github.io/index-microgalaxy.html?nonce=2775088#))
+* Join the [Gitter **Chat**](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
 * Join the [**mailing list**](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) microgalaxy@lists.galaxyproject.org
