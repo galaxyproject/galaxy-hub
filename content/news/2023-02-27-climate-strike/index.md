@@ -14,7 +14,7 @@ The next global climate strike will be on **March 3**! As last time, the Freibur
 To raise additional awareness in the scientific community, we decided to pause the job queue for a few hours on Friday. 
 This means that you can still visit our website, but the server will not start new jobs. Running jobs will not be affected.
 
-We encourage all of you to use that time join one of the huge number of strikes that will be [taking place worldwide](https://fridaysforfuture.org/march-3/) on this day!
+We encourage all of you to use that time to join one of the huge number of strikes that will be [taking place worldwide](https://fridaysforfuture.org/march-3/) on this day!
 
 <div class="multiple-img">
     <iframe width="1000" height="600" src="https://globalclimatestrike.net/#map" frameborder="0" allowfullscreen></iframe>
