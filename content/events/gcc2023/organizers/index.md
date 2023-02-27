@@ -33,7 +33,7 @@ The scientific program committee is in charge of the scientific program for GCC2
 Scientific program members are community volunteers who review the submitted abstracts.
 
 * **Andrew Lonie**, Australian BioCommons, Australia
-* **Anne Claire Fouilloux**, University of Oslo, Norway
+* **Anne Claire Fouilloux**, Simula Research Laboratory, Norway
 * **Anna Syme**, Melbourne Bioinformatics, Australia
 * **Anshu Bhardwaj**, Interdisciplinary Research Center and CSIR-Institute of Microbial Technology, India
 * **Beáta Scholtz**, University of Debrecen Medical and Health Science Center, Hungary
