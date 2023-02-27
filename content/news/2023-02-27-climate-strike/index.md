@@ -1,7 +1,7 @@
 ---
 title: 'We are striking!'
 date: '2023-02-27'
-tease: 'usegalaxy.eu closes job-queue on March 3rd to support climate strike'
+tease: 'usegalaxy.eu closes job-queue on March 3 to support climate strike'
 authors: 'Mira Kuntz'
 authors_structured:
 - github: mira-miracoli
