@@ -31,12 +31,12 @@ Several curated Galaxy workflows are publicly available for different kinds of m
 |--------|-----------|------------|----------|--------------|----------|-------|
 | Bacteria | 16S | Short reads | Taxonomic Profiling | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | mothur SOP
 | Bacteria | 16S | Long reads | Taxonomic Profiling  | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-| All | Shotgun metagenomics | Short reads | Taxonomic Profiling, Functional Analysis | | <a href="https://asaim.readthedocs.io/en/latest/workflows.html" class="fas fa-share-alt" aria-hidden="true"></a> | ASaiM (missing reference)
-| All | Shotgun metagenomics | Long reads | Taxonomic profiling | View Tutorial
-| Plasmid | Shotgun | Long reads | AMR detection |
-| All | Shotgun metatranscriptomics | Short reads | Functional Analysis | | | ASaiM-MT (missing reference)
-
-
+| All | Shotgun metagenomics | Short reads | Taxonomic Profiling, Functional Analysis | <a href="hhttps://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | <a href="https://asaim.readthedocs.io/en/latest/workflows.html">ASaiM Docs</a>
+| Plasmid | Shotgun | Long reads | AMR detection | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/beer-data-analysis/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |  
+| Beer microbiome | Shotgun metagenomics  | Long reads | Taxonomic profiling | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/beer-data-analysis/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/beer-data-analysis/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |  
+| All | Shotgun metatranscriptomics | Short reads | Functional Analysis | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |  ASaiM-MT 
+| Pathogens | Shotgun metagenomics | Long reads | Taxonomic Profiling, Gene Identification, SNP identification, Pathogen Tracking | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
+| All | Shotgun metagenomics | Short reads | Assembly |  <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metagenomics-assembly/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
 ### Bacterial Isolates
 
 | Target | Sequencing | Analysis | GTN Tutorial | Workflow | Notes |
@@ -66,6 +66,8 @@ We would like to highlight few events related to microbial data analysis:
 
 # How is Galaxy used for microbial data analysis?
 
+## Projects / Showcases
+
 Below is a list of projects involving members of this community:
 
 | Project | Description | Techniques | Sequencing | Analyses | People involved | Funding | Status |
@@ -78,8 +80,6 @@ Foodborne pathogen detection | | Metagenomics | Long reads | | Bérénice Batut,
 | ASaiM | | Metagenomics, metatranscriptomics | Short reads | Taxonomy profiling, Functional profiling | Bérénice Batut, Saskia Hilteman, Pratik Jagtap, Subina Mehta, etc | | Finished?
 | [Mycobacterium tuberculosis NGS made easy: data](https://gallantries.github.io/video-library/modules/mtb-analysis) | Series of modules containing recorded videos by experts and tutorials | | Illumina (wanting to expand to nanopore) | Mapping & Variant calling, Molecular epidemiology of TB using NGS, Phylogenetics for studying TB evolution and epidemiology | Daniela Brites, Peter van Heusden, Galo A. Goig, Christoph Stritt | Initially funded trough TB projects of capacity building; currently no funding | Ready to be used  but also working on improvements
 
-
-## Projects / Showcases
 
 ## Partners
 
