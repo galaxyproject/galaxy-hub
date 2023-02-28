@@ -1,4 +1,9 @@
+---
+autotoc: false
+---
+
 <slot name="/events/gcc2023/header" />
+
 
 # GCC2023 Abstracts
 
