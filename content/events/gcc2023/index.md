@@ -23,7 +23,6 @@ subsites: [all]
 
 # **2023 Galaxy Community Conference (GCC2023)**
 
-### SAVE THE DATE
 ### July 10-16, 2023
 ### Galaxy Australia
 ### Queensland University of Technology
