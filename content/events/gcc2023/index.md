@@ -19,6 +19,27 @@ subsites: [all]
 
 <slot name="/events/gcc2023/header" />
 
+<div class="text-center my-5">
+
+# **2023 Galaxy Community Conference (GCC2023)**
+
+### July 10-16, 2023
+### Galaxy Australia
+### Queensland University of Technology
+### Brisbane, Queensland, Australia
+
+#### [#UseGalaxy2023](https://twitter.com/hashtag/UseGalaxy2023)
+
+<a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary">
+    <strong>Register now</strong>
+</a>
+<br>
+<a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
+    <strong>Submit an abstract</strong>
+</a>
+
+</div>
+
 <div class="card-deck lead">
 
   <!-- About GCC2023 -->
