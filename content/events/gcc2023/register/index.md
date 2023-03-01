@@ -70,10 +70,10 @@ There are a number of hotels in the vicinity of the conference venue. See the
 [Travel page](/events/gcc2022/travel/) for more details, but you are free to
 reserve whatever accommodation suits you most.
 
-## Cancelation
+## Cancellation
 
-There are fees and time invested into each registration and hence there are
-unfortunate cancelation fees. See the table below for the specifics. If you need
+There are fees and time invested into each registration so there are
+associated cancellation fees. See the table below for the specifics. If you need
 to cancel your registration, please contact [Jenn Vessio](mailto:jvessio1@jhu.edu).
 
 | Cancelation date         | Cancelation fee |
