@@ -55,7 +55,7 @@ To produce high quality assemblies you need to start with high quality high cove
 
 ### Workflows
 
-Once you have the required data you can upload the datasets into European, American, or Australian Galaxy instances and being assembly as described in our [workflows](/projects/vgp/workflows/) page.
+Once you have the required data you can upload the datasets into European, American, or Australian Galaxy instances and begin assembly as described in our [workflows](/projects/vgp/workflows/) page.
 
 <a href="/projects/vgp/workflows/" class="btn btn-danger">Explore Workflows</a>
 
@@ -63,7 +63,7 @@ Once you have the required data you can upload the datasets into European, Ameri
 
 -----
 
-All initial data, intermediate datasets, and final assembles are available form the [GenomeArk](https://vgp.github.io/genomeark/) platform. Galaxy has integrated the Genome Ark server as a remote data repository on all public servers. 
+All initial data, intermediate datasets, and final assembles are available from the [GenomeArk](https://vgp.github.io/genomeark/) platform. Galaxy has integrated the Genome Ark server as a remote data repository on all public servers. 
 
 <a href="https://vgp.github.io/genomeark/" class="btn btn-primary" target="_blank">Explore GenomeArk</a>
 
