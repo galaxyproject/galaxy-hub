@@ -4,6 +4,15 @@ autotoc: false
 
 <slot name="/events/gcc2023/header" />
 
+<div class="text-center my-5">
+    <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary center">
+        <strong>Register now</strong>
+    </a>
+    <br>
+    <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary center">
+        <strong>Submit an abstract</strong>
+    </a>
+</div>
 
 # GCC2023 Abstracts
 
