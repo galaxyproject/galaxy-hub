@@ -90,9 +90,17 @@ Please follow these steps for application:
 ## Current Resources (will be updated regularly)
 | Type | Galaxy Europe |
 |---|---|
-| GPU | 45  |
-| CPU | 8000  |
-| Quota | 250GB  |
+| GPU | 45 |
+| CPU | 8000 |
+| Memory | 60 TB |
+| Disk space | 5 PB |
+
+## Each GPU JupyterLab session (will be updated regularly)
+| Type | Session |
+|---|---|
+| GPU/CPU cores | 1/7 |
+| Memory | 20 GB + 15 GB from GPU |
+| Quota/disk space | 250 GB |
 
 ## Much more ...
 
