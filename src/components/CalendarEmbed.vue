@@ -3,9 +3,6 @@
 </template>
 
 <script>
-import Vue from "vue";
-
-// This is in a component instead of a function so that static pages can use it by embedding it in their Markdown.
 function addEventzilla(eventId) {
     // Wait until the dom is ready and then inject the script
     let body = document.querySelector("html > body");
@@ -26,9 +23,13 @@ export default {
         },
     },
     mounted() {
-        Vue.nextTick(() => {
-            addEventzilla(this.event);
-        });
+        addEventzilla(this.event);
+        setTimeout(() => {
+            // Clunky, but we can iterate on this or manually invoke it in the future.
+            // Just for example purposes.
+            // Wait 2 seconds and then re-fire the page load event that eventzilla is listening for
+            window.dispatchEvent(new Event("load"));
+        }, 2000);
     },
 };
 </script>
