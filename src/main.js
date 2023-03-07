@@ -10,6 +10,7 @@ import MarkdownEmbed from "~/components/MarkdownEmbed.vue";
 import Twitter from "~/components/Twitter.vue";
 import VideoPlayer from "~/components/VideoPlayer.vue";
 import Carousel from "~/components/Carousel.vue";
+import CalendarEmbed from "~/components/CalendarEmbed.vue";
 
 import BootstrapVue from "bootstrap-vue";
 
@@ -23,6 +24,7 @@ export default function (Vue, { router, head, isClient }) {
     Vue.component("Twitter", Twitter);
     Vue.component("VideoPlayer", VideoPlayer);
     Vue.component("Carousel", Carousel);
+    Vue.component("CalendarEmbed",  CalendarEmbed);
 
     Vue.use(BootstrapVue);
     Vue.config.ignoredElements = ["gcse:search", "gcse:searchresults-only"];

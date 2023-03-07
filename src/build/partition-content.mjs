@@ -14,6 +14,7 @@ const AUTODETECT_COMPONENTS = [
     "g-image",
     "link-box",
     "vega-embed",
+    "calendar-embed",
     "markdown-embed",
     "twitter",
     "video-player",
