@@ -76,7 +76,7 @@ All participants should bring a wifi-enabled laptop with
 
 # Instructors
 
-We currently have five confirmed (and highly experienced!) instructors:
+We currently have eight confirmed (and highly experienced!) instructors:
 
 * [(H)elena Rasche](https://github.com/hexylena) - Erasmus Medical Center, the Netherlands
 * [(S)askia Hiltemann](https://github.com/shiltemann) - Erasmus Medical Center, the Netherlands
