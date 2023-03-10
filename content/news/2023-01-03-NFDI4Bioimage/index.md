@@ -4,9 +4,20 @@ date: '2023-01-03'
 subsites: [all-eu]
 ---
 
-Galaxy is well known for its computational capabilities: tools, workflows and infrastructure to run analyses. However, to be able to reproduce and reuse those analyses, a proper data management stategy is needed. And the good news is that Galaxy does it without you noticing! 
+**Galaxy is part of another NFDI - the NFDI4Bioimage**
 
-There are typically seven stages involved in the data life cycle: Plan, Collect, Process, Analyse, Preserve, Share and Reuse. Galaxy is involved in almost all those stages managing your (meta)data. Check out the [page on the RDMkit](https://rdmkit.elixir-europe.org/galaxy_assembly) to get links to tools and resources for each one of those stages.
+The National Research Data Infrastructure (Nationale Forschungsdateninfrastruktur, NFDI) is an initiative jointly funded by the federal-state and the Länder to establish an infrastructure framework for research data management in Germany. The Galaxy Team Freiburg is already part of the [NFDI DataPlant](https://www.nfdi4plants.de/).
+
+[NFDI4BIOIMAGE](https://nfdi4bioimage.de/en/start) is a consortium of the National Research Data Infrastructure  in Germany. Its focus is on all steps of the research data life cycle for microscopy and bioimage analysis. NFDI4BIOIMAGE applied as a consortium in the third call for applications (2021) and was approved as an official part of the NFDI in November 2022. The project was kicked-off in January 2023.
+
+<div class="center">
+
+![NFDI4Bioimage Logo](logo.png)
+
+</div>
+
+The [Galaxy Team Freiburg](https://usegalaxy-eu.github.io/people) is taking part in Task Area (TA) 2 and provide remote access to powerful compute resources via virtual workstations for analysis, visualization, and training (e.g. TIaaS)
+
 
 <div class="center">
 
