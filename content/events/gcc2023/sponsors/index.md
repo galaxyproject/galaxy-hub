@@ -18,6 +18,18 @@ broaden advancement and adoption of the Galaxy platform.
 - Learn about opportunities for placing your services and products in the expanding Galaxy ecosystem
 - Give back to the open source community
 
+<div class="container">
+    <div class="row">
+        <div class="col center">
+          <a href="https://gxy-shared.s3.amazonaws.com/gcc2023-sponsorship-prospectus.pdf">
+            <div type="button" class="btn btn-primary center">
+                <strong>Download sponsorship prospectus</strong>
+            </div>
+          </a>
+        </div>
+    </div>
+</div>
+
 ## Our thank you to the sponsors
 
 Sponsors are potential partners in everyone's success, plus they make GCC
@@ -25,16 +37,6 @@ affordable and accessible We make a strong effort to seamlessly integrate
 sponsors and their events into the broader GCC program, as well as promote
 participant engagement. Furthermore, sponsor talks are generally scheduled
 immediately preceding or following a keynote talk to maximize their attendance.
-
-<div class="container">
-    <div class="row">
-        <div class="col center">
-            <div type="button" class="btn btn-primary center">
-                <strong>SPONSORSHIP PROSPECTUS PDF COMING SOON</strong>
-            </div>
-        </div>
-    </div>
-</div>
 
 # GCC2023 host: Galaxy Australia
 

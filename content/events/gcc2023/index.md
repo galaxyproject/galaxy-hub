@@ -64,11 +64,26 @@ Galaxy community.
   <!-- Schedule & Key Dates -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/key-dates.png" class="card-img-top" alt="Key Dates" />
-    <div class="card-header">Key Dates</div>
+    <div class="card-header">Call for abstracts</div>
 
-GCC2023 will be held from July 10-16, 2023 with registration and abstract
-submission deadlines several months earlier. **Check the [Key
-Dates](/events/gcc2023/key-dates/) page for a most up-to-date list of deadlines**.
+**[Abstract submission is open](https://forms.gle/ETCPW8Vnprbij7zn6) for short
+talks, long talks, posters, and demos.**
+
+Check the [Key Dates page](/events/gcc2023/key-dates/) for a most up-to-date
+list of deadlines and the [schedule page](/events/gcc2023/schedule/) for the
+planned program.
+
+  </div>
+
+<!-- Keynotes -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2023/keynotes-abstract.png" class="card-img-top" alt="Keynotes abstract" />
+    <div class="card-header">Keynote speakers</div>
+
+GCC2023 will have **three keynote speeches**, by inspiring and prominent
+speakers that actively use and rely on Galaxy to make key research discoveries.
+
+Check back here soon to see who those special individuals are.
 
   </div>
 
