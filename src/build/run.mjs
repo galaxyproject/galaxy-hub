@@ -70,8 +70,8 @@ function main(rawArgv) {
     // Gridsome still uses webpack4, which on node 17+ requires the legacy
     // openssl provider flag.
     const spawnArgs = {
-        stdio: "inherit"
-    }
+        stdio: "inherit",
+    };
     if (process.versions.node.split(".")[0] > "16") {
         spawnArgs.env = { ...process.env, NODE_OPTIONS: "--openssl-legacy-provider" };
     }
