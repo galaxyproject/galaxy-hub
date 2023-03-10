@@ -66,6 +66,16 @@ function main(rawArgv) {
         return code;
     }
 
+    // Configure node subprocess arguments;
+    // Gridsome still uses webpack4, which on node 17+ requires the legacy
+    // openssl provider flag.
+    const spawnArgs = {
+        stdio: "inherit"
+    }
+    if (process.versions.node.split(".")[0] > "16") {
+        spawnArgs.env = { ...process.env, NODE_OPTIONS: "--openssl-legacy-provider" };
+    }
+
     // Start hot reloader, if running developer server.
     let watcher, cmd2;
     if (command === "develop") {
@@ -74,14 +84,14 @@ function main(rawArgv) {
         let args = setPlacerArgs(rawArgs, DEFAULT_PLACERS[command]);
         cmd2 = exe + " " + args.join(" ");
         console.log(`$ ${cmd2} &`);
-        watcher = childProcess.spawn(exe, args, { stdio: "inherit" });
+        watcher = childProcess.spawn(exe, args, spawnArgs);
     }
 
     // Start Gridsome.
     let gridsomeExe = findGridsome();
     let cmd3 = `${gridsomeExe} ${command}`;
     console.log(`$ ${cmd3}`);
-    let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
+    let gridsome = childProcess.spawn(gridsomeExe, [command], spawnArgs);
     gridsome.on("exit", (code, signal) => {
         // Copy static images for direct reference to dist -- only when doing a full build.
         // We hook into the exit this way to let Gridsome do its thing first.
