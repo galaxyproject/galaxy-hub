@@ -26,7 +26,14 @@ The workflow or the step by step tools used in the training can be summaried as 
 
 ## Workshops
 
-- The [__first workshop__](https://galaxyproject.org/events/2023-02-02-foodborne-pathogen-detection-workshop/) conducted on the training was on the 2nd of Feburary 2023. Over 40 on-site and online participants from different background knowledge have joined the workshop. The workshop started with an introduction about Galaxy and the GTN, an introduction to the EOSC-Life industry call Foodborne pathogen detection project and finally our new GTN material was explained.
+- The [__first workshop__](https://galaxyproject.org/events/2023-02-02-foodborne-pathogen-detection-workshop/) conducted on the training was on the 2nd of Feburary 2023. 35 on-site and online participants from different background knowledge have attended the workshop. The workshop started with an introduction about Galaxy and the GTN, an introduction to the EOSC-Life industry call Foodborne pathogen detection project and finally our new GTN material was explained.
+
+17 of the attending participants have answered the survey questions and here are some graphs of their feedback - Created by Bérénice Batut.
+
+![Participants Feedback Graphs - Created by Bérénice Batut](/news/2023-01-25-foodborne-training/2023-01-25-workshop-feedback1.png)
+
+![Participants Feedback Graphs - Created by Bérénice Batut](/news/2023-01-25-foodborne-training/2023-01-25-workshop-feedback2.png)
+
 
 - From the 20th till the 24th of Feburary, the training will be also part of the [__High-Throughput Data Analysis workshop with Galaxy (HTS)__](https://galaxyproject.org/events/2023-02-20-freiburg-workshop/)
 
