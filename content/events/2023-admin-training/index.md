@@ -90,7 +90,11 @@ We currently have eight confirmed (and highly experienced!) instructors:
 
 # Registration
 
-Registration will open soon. Please feel free to contact us at contact@usegalaxy.eu if you have any question and check this site for any updates.
+Please apply [via our form](https://docs.google.com/forms/d/e/1FAIpQLSc3zgDTfcLZ2-92EdgJvfR4j0KxQeOv0tiFMzGXZ6hdW7JlwQ/viewform).
+We only have limited space so please register as soon as possible. If you would like to attend but have funding problems we can support up
+to 3 people from Low and Middle Income Countries. Please indicate this in the form or contact us directly.
+
+Please feel free to contact us at contact@usegalaxy.eu if you have any question and check this site for any updates.
 
 
 # Logistics
