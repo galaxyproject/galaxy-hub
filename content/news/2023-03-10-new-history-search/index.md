@@ -9,11 +9,11 @@ authors_structured:
 subsites: [global, all, esg]
 ---
 
-In the previous [`release_22.05`](http://localhost:8080/news/2022-08-galaxy-release-22-05/) (_August 2022_), Galaxy's History Panel was updated to a fresh and enhanced interface that users have been getting used to since. For the latest `release_23.1`, Galaxy developers have worked hard on perfecting and enhancing the user experience of the history:
+In the previous [`release_22.05`](http://localhost:8080/news/2022-08-galaxy-release-22-05/) (_August 2022_), Galaxy's History Panel was updated to a fresh and enhanced interface that users have been getting used to since. For the latest `release_23.0`, Galaxy developers have worked hard on perfecting and enhancing the user experience of the history:
 
-| `22.05` (_August 2022_) | `23.1` (March 2023) |
+| `22.05` (_August 2022_) | `23.0` (March 2023) |
 | ----------------------- | ------------------- |
-| ![Screenshot of a history from release_22.05, the top most dataset is expanded and a "sitemap" icon is clicked which is showing inputs for that dataset. Each of those inputs has a small upward arrow next to the dataset number. The 'end' dataset of those inputs has a checkmark icon next to the dataset number. The history is titled the beta history and there are a lot of new buttons at the top.](https://docs.galaxyproject.org/en/master/_images/22.05-history.png) | ![Screenshot of a history from release_23.1, the top most dataset is expanded and only the inputs for that dataset are being shown in the history. Each of those inputs has a small upward arrow next to the dataset number. The 'end' dataset of those inputs has a checkmark icon next to the dataset number. The history is titled the beta history.](./23.1-history.png) |
+| ![Screenshot of a history from release_22.05, the top most dataset is expanded and a "sitemap" icon is clicked which is showing inputs for that dataset. Each of those inputs has a small upward arrow next to the dataset number. The 'end' dataset of those inputs has a checkmark icon next to the dataset number. The history is titled the beta history and there are a lot of new buttons at the top.](https://docs.galaxyproject.org/en/master/_images/22.05-history.png) | ![Screenshot of a history from release_23.0, the top most dataset is expanded and only the inputs for that dataset are being shown in the history. Each of those inputs has a small upward arrow next to the dataset number. The 'end' dataset of those inputs has a checkmark icon next to the dataset number. The history is titled the beta history.](./23.0-history.png) |
 
 
 ## Ways of searching items in a Galaxy history
