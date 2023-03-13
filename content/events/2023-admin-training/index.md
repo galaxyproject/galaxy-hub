@@ -105,7 +105,7 @@ The Admin training will be held at:
 [Monasterium PoortAckere](https://monasterium.be/en) - 56 Oude Houtlei, Ghent 9000, Belgium ([map](https://goo.gl/maps/jZtVc2xeDVNfVLJW8))
 The venue is in the city centre of Ghent and within walking distance of [several historical attractions](https://visit.gent.be/en/see-do/historical-city-centre). 
 The Monasterium PoortAckere is also a hotel. Participants can make their reservations by filling
-up the [hotel’s reservation form](https://drive.google.com/file/d/1w3qOP1xBBrdGE4q-Ny0nnHIOj_cPrjKM/view?usp=share_link) and sending it to reservations@historichotelsbelgium.com. The hotel should then confirm the reservation. We have been advised that reservations made using this route can be cancelled free of charge up to 2 weeks before arrival.
+up the [hotel’s reservation form](https://drive.google.com/file/d/1udTluBz3hDpZg1aA95q7G10mhLrWwktD/view?usp=sharing) and sending it to reservations@historichotelsbelgium.com. The hotel should then confirm the reservation. We have been advised that reservations made using this route can be cancelled free of charge up to 2 weeks before arrival.
 
 ## Getting to Ghent
 
