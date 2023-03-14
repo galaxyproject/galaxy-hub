@@ -1,7 +1,7 @@
 ---
 title: 'Effortlessly navigate your Galaxy history with enhanced search options'
 tease: 'Data searchability in the Galaxy History panel has been taken to new levels with the advanced search options that allow users to not only find items with more ease, but also find relations within items in their history.'
-date: '2023-03-10'
+date: '2023-03-15'
 tags: [history, esg, "UI/UX"]
 authors: Ahmed Hamid Awan
 authors_structured:
@@ -41,7 +41,7 @@ Here are all possible values a user can filter the history items by, using the s
 | Filter | Description | Example Filter |
 | ------ | ----------- | ------------- |
 | `name` | The name of a dataset or collection | `name:'filename here'` | 
-| `format` | The format or file extension of a dataset | `extension:bed` |
+| `format` | The format of a dataset | `extension:bed` |
 | `tag`  | Tag added to a dataset or collection | `tag:ecoli` |
 | `state` | The state of a dataset or collection. The list of states is populated on clicking the input field as shown below: <br /> ![Screenshot of Galaxy's History Panel advanced search state filter datalist of states.](./history-state-filter-datalist.png) | `state:error` |
 | `database` | The database of a dataset | `genome_build:hg38` |
