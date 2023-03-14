@@ -10,7 +10,7 @@ subsites: [global]
 # The story behind the training
 
 ## General Introduction
-Food contamination with pathogens are a major burden on our society. Globally, they affect an estimated 600 million people a year and impact socioeconomic development at different levels. These outbreaks are mainly due to Salmonella spp. followed by Campylobacter spp. and Noroviruses.
+Food contamination with pathogens are a major burden on our society. Globally, they affect an estimated 600 million people a year and impact socioeconomic development at different levels. These outbreaks are mainly due to *Salmonella* spp. followed by *Campylobacter* spp. and Noroviruses.
 
 The evolution of techniques in the last decades has made possible the development of methods to quickly identify responsible pathogen using their **DNA and without prior isolation**. Long-read sequencing techniques like ONT make these methods even **easier and more practical to identify strains quicker and with fewer reads**.
 
