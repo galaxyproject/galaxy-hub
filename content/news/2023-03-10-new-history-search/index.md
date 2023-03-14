@@ -1,15 +1,15 @@
 ---
 title: 'Effortlessly navigate your Galaxy history with enhanced search options'
-tease: 'Data searchability in the Galaxy History panel has been taken to new levels with the advanced search options that allow users to not only find items with more ease, but also find relations within items in the history.'
+tease: 'Data searchability in the Galaxy History panel has been taken to new levels with the advanced search options that allow users to not only find items with more ease, but also find relations within items in their history.'
 date: '2023-03-10'
 tags: [history, esg, "UI/UX"]
-authors: Ahmed Awan
+authors: Ahmed Hamid Awan
 authors_structured:
 - github: ahmedhamidawan
 subsites: [global, all, esg]
 ---
 
-In the previous [`release_22.05`](http://localhost:8080/news/2022-08-galaxy-release-22-05/) (_August 2022_), Galaxy's History Panel was updated to a fresh and enhanced interface that users have been getting used to since. For the latest `release_23.0`, Galaxy developers have worked hard on perfecting and enhancing the user experience of the history:
+In the previous [`release_22.05`](http://localhost:8080/news/2022-08-galaxy-release-22-05/) (_August 2022_), Galaxy's History Panel was updated to a fresh and enhanced interface that users have been getting used to since. For the latest `release_23.0`, Galaxy developers have worked hard on further perfecting and enhancing the user experience of the history:
 
 | `22.05` (_August 2022_) | `23.0` (March 2023) |
 | ----------------------- | ------------------- |
@@ -41,7 +41,7 @@ Here are all possible values a user can filter the history items by, using the s
 | Filter | Description | Example Filter |
 | ------ | ----------- | ------------- |
 | `name` | The name of a dataset or collection | `name:'filename here'` | 
-| `extension` | The extension of a dataset | `extension:bed` |
+| `format` | The format or file extension of a dataset | `extension:bed` |
 | `tag`  | Tag added to a dataset or collection | `tag:ecoli` |
 | `state` | The state of a dataset or collection. The list of states is populated on clicking the input field as shown below: <br /> ![Screenshot of Galaxy's History Panel advanced search state filter datalist of states.](./history-state-filter-datalist.png) | `state:error` |
 | `database` | The database of a dataset | `genome_build:hg38` |
@@ -55,8 +55,30 @@ Here are all possible values a user can filter the history items by, using the s
 
 ## History Related Items Filter
 
--- *WIP: Add information about the History Related Items filter here* --
+The Related items filter was added to the History filtering options to help users find the inputs and outputs of an item in their history. 
 
+### Older Implementation:
+
+In the previous [`release_22.05`](http://localhost:8080/news/2022-08-galaxy-release-22-05/) (_August 2022_), this feature was added not as a filter but just as a visible indicator, where **only the Inputs** of an item would get the `arrow-up` icon next to them, with the current item being indicated by a checkmark:
+
+![Screenshot of a history from release_22.05, the top most dataset is expanded and a "sitemap" icon is clicked which is showing inputs for that dataset. Each of those inputs has a small upward arrow next to the dataset number. The 'end' dataset of those inputs has a checkmark icon next to the dataset number. The history is titled the beta history and there are a lot of new buttons at the top.](https://docs.galaxyproject.org/en/master/_images/22.05-history.png)
+
+With _ALL_ other items in the history still in view, this made it hard for the user to identify related items in a history as they would have to scroll to find them, with irrelevant items still in view.
+
+### Latest Implementation and Usage:
+
+In the latest `release_23.0`, this feature has been added (by [_Ahmed Awan_](https://github.com/ahmedhamidawan) in PR [#15210](https://github.com/galaxyproject/galaxy/pull/15210)) as a filter (e.g. filter: `related:8` where `8` is the `hid` or history index of the item the user wants to see related items for). Now, the user only sees the items related to the specified item, and **not only the Inputs but _also_ the Outputs** for the item can now be seen as shown below:
+
+![Screenshot of a history from release_23.1, inputs and outputs are being shown for a dataset. Each of those inputs and outputs have small upward and downward arrows next to the dataset number. The 'end' dataset of those inputs has a checkmark icon next to the dataset number. The history is titled the beta history and there is the related:8 filter in the search bar.](./23.0-history-related-filter.png)
+
+All other items irrelevant to the specified dataset are hidden and the user may even add further filters to the query. This filter can come in handy for users looking for datasets created during a workflow invocation or if a user wishes to create a new history for all datasets related to a particular dataset; among other uses.
+
+Here are multiple ways users can apply this filter:
+
+| Button on Expanded Dataset | Add filter text manually |
+| -------------------------- | ------------------------ |
+| Click on the `sitemap` button on an expanded dataset to apply the filter. | Add the `related:item_index` filter to the search field or use the advanced panel.
+| ![GIF of 23.0 history where user clicks on the sitemap icon on an expanded dataset 8, the related:8 filter is emitted to the search field and only the related items to dataset 8 are in view.](./23.0-history-related-filter-button.gif) | ![GIF of 23.0 history where user opens the advanced history search panel, types 8 in the related-hid filter field, presses Search and the related:8 filter is emitted to the search field and only the related items to dataset 8 are in view in the history.](./23.0-history-related-filter-text.gif) |
 
 This work is a collective effort of the [Galaxy UI/UX working group](https://github.com/orgs/galaxyproject/teams/wg-uiux).
-Thanks to [](https://github.com/), [](https://github.com/), [](https://github.com/), [](https://github.com/), and [](https://github.com/) for working on this project.
+Thanks to [Aysam Guerler](https://github.com/guerler), [David Lopez](https://github.com/davelopez), [Ahmed Awan](https://github.com/ahmedhamidawan), ,[Dannon Baker](https://github.com/dannon) and [Marius van den Beek](https://github.com/mvdbeek) for working on this project.
