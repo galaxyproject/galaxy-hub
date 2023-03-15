@@ -3,9 +3,9 @@ title: 'Effortlessly navigate your Galaxy history with enhanced search options'
 tease: 'Data searchability in the Galaxy History panel has been taken to new levels with the advanced search options that allow users to not only find items with more ease, but also find relations within items in their history.'
 date: '2023-03-15'
 tags: [history, esg, "UI/UX"]
-authors: Ahmed Hamid Awan
+authors: Ahmed Hamid Awan, Dannon Baker
 authors_structured:
-- github: ahmedhamidawan
+- github: ahmedhamidawan, dannon
 subsites: [global, all, esg]
 ---
 
@@ -57,7 +57,7 @@ Here are all possible values a user can filter the history items by, using the s
 
 The Related items filter was added to the History filtering options to help users find the inputs and outputs of an item in their history. 
 
-### Older Implementation:
+### Older Implementation
 
 In the previous [`release_22.05`](http://localhost:8080/news/2022-08-galaxy-release-22-05/) (_August 2022_), this feature was added not as a filter but just as a visible indicator, where **only the Inputs** of an item would get the `arrow-up` icon next to them, with the current item being indicated by a checkmark:
 
@@ -65,7 +65,7 @@ In the previous [`release_22.05`](http://localhost:8080/news/2022-08-galaxy-rele
 
 With _ALL_ other items in the history still in view, this made it hard for the user to identify related items in a history as they would have to scroll to find them, with irrelevant items still in view.
 
-### Latest Implementation and Usage:
+### Latest Implementation and Usage
 
 In the latest `release_23.0`, this feature has been added (by [_Ahmed Awan_](https://github.com/ahmedhamidawan) in PR [#15210](https://github.com/galaxyproject/galaxy/pull/15210)) as a filter (e.g. filter: `related:8` where `8` is the `hid` or history index of the item the user wants to see related items for). Now, the user only sees the items related to the specified item, and **not only the Inputs but _also_ the Outputs** for the item can now be seen as shown below:
 
@@ -75,12 +75,10 @@ All other items irrelevant to the specified dataset are hidden and the user may 
 
 Here are multiple ways users can apply this filter:
 
-<video-player src="23.0-history-related-filter-button.mp4" />
-
 | Button on Expanded Dataset | Add filter text manually |
 | -------------------------- | ------------------------ |
 | Click on the `sitemap` button on an expanded dataset to apply the filter. | Add the `related:item_index` filter to the search field or use the advanced panel.
-| ![GIF of 23.0 history where user clicks on the sitemap icon on an expanded dataset 8, the related:8 filter is emitted to the search field and only the related items to dataset 8 are in view.](./23.0-history-related-filter-button.gif) | ![GIF of 23.0 history where user opens the advanced history search panel, types 8 in the related-hid filter field, presses Search and the related:8 filter is emitted to the search field and only the related items to dataset 8 are in view in the history.](./23.0-history-related-filter-text.gif) |
+| <video-player src="23.0-history-related-filter-button.mp4" /> | <video-player src="23.0-history-related-filter-text.mp4" /> |
 
 This work is a collective effort of the [Galaxy UI/UX working group](https://github.com/orgs/galaxyproject/teams/wg-uiux).
 Thanks to [Aysam Guerler](https://github.com/guerler), [David Lopez](https://github.com/davelopez), [Ahmed Awan](https://github.com/ahmedhamidawan), [Dannon Baker](https://github.com/dannon) and [Marius van den Beek](https://github.com/mvdbeek) for working on this project.
