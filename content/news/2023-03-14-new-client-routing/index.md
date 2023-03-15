@@ -44,4 +44,4 @@ for Developers:
 
 Although the majority of work for this project has been completed, there are still some components which rely on Backbone and jQuery which we will have fully tackled in the next release.
 
-For more details on this news contribution take a look a these slides [here](https://docs.google.com/presentation/d/1kLgFNPM4bjpfanrd8J2trn86MwrBF86CBTZZf_Qi1cQ/edit#slide=id.g15b29a93e3f_0_14).
+For more details on this news contribution take a look a these slides [here](/content/news/2023-03-14-new-client-routing/slides.pdf).
