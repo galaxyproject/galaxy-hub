@@ -75,10 +75,12 @@ All other items irrelevant to the specified dataset are hidden and the user may 
 
 Here are multiple ways users can apply this filter:
 
+<video-player src="./23.0-history-related-filter-button.mov" />
+
 | Button on Expanded Dataset | Add filter text manually |
 | -------------------------- | ------------------------ |
 | Click on the `sitemap` button on an expanded dataset to apply the filter. | Add the `related:item_index` filter to the search field or use the advanced panel.
 | ![GIF of 23.0 history where user clicks on the sitemap icon on an expanded dataset 8, the related:8 filter is emitted to the search field and only the related items to dataset 8 are in view.](./23.0-history-related-filter-button.gif) | ![GIF of 23.0 history where user opens the advanced history search panel, types 8 in the related-hid filter field, presses Search and the related:8 filter is emitted to the search field and only the related items to dataset 8 are in view in the history.](./23.0-history-related-filter-text.gif) |
 
 This work is a collective effort of the [Galaxy UI/UX working group](https://github.com/orgs/galaxyproject/teams/wg-uiux).
-Thanks to [Aysam Guerler](https://github.com/guerler), [David Lopez](https://github.com/davelopez), [Ahmed Awan](https://github.com/ahmedhamidawan), ,[Dannon Baker](https://github.com/dannon) and [Marius van den Beek](https://github.com/mvdbeek) for working on this project.
+Thanks to [Aysam Guerler](https://github.com/guerler), [David Lopez](https://github.com/davelopez), [Ahmed Awan](https://github.com/ahmedhamidawan), [Dannon Baker](https://github.com/dannon) and [Marius van den Beek](https://github.com/mvdbeek) for working on this project.
