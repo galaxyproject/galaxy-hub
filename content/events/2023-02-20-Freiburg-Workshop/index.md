@@ -26,11 +26,3 @@ We are offering a Galaxy workshop on HTS Data analysis. This is a students works
 |Wednesday | RNA-Seq Data Analysis
 |Thursday  | Genome Assembly
 |Friday    | Metatranscriptomics
-
-
-
-
-
-
-
-
