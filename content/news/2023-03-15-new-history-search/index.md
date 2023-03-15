@@ -75,7 +75,7 @@ All other items irrelevant to the specified dataset are hidden and the user may 
 
 Here are multiple ways users can apply this filter:
 
-<video-player src="./23.0-history-related-filter-button.mov" />
+<video-player src="23.0-history-related-filter-button.mp4" />
 
 | Button on Expanded Dataset | Add filter text manually |
 | -------------------------- | ------------------------ |
