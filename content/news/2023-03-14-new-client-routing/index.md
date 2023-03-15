@@ -1,0 +1,47 @@
+---
+title: 'Enjoy a much faster user interface'
+date: '2023-03-14'
+tease: Following up on our modernization efforts, we now introduce a single top-router written in Vue, which brings all our Vue components together in a seamless user experience, dramatically reducing the number of required page reloads when navigating the Galaxy user interface.
+authors: Aysam Guerler
+authors_structured:
+- github: guerler
+tags: [client, routing]
+subsites: [global, all, esg]
+---
+
+Five years ago, we embarked on a journey to transform our client application from a mix of backend-generated Mako and frontend-based Backbone.js to single consistent Vue framework. We made significant strides towards this goal in the last years, particularly by rewriting major components such as the History, the Tool and other Forms and the Workflow Editor, which all received major upgrades with this new 23.0 release.
+
+Here is a simplified view of this transition process in which we counted the files and number of lines corresponding to different technologies distributed over the years.
+
+<img class="img-fluid float-right" src="/content/news/2023-03-14-new-client-routing/linecount.png" style="width:250px;" alt="Progress of transition"/>
+
+## How does our client component structure look like now?
+
+With the recent changes, we almost completely transitioned our client structure to consistent Vue application. Although some legacy Makos and Backbone.js modules remain, all essential root components and routes have been transformed as can be seen in our new client map below.
+
+<img class="img-fluid float-right" src="/content/news/2023-03-14-new-client-routing/clientmap.png" style="width:250px;" alt="Overview of client"/>
+
+## Why is this relevant for users?
+
+Having transformed most of the client to a modern framework, we were now able to introduce a single top router which allows users to navigate the interface with significantly less page reloads. This avoids having to reload the client bundle of about ~18MB. Additionally, it also preserves client stores, used e.g. to store history datasets, which otherwise would have been also cleared when navigating away from the Analysis view. Furthermore, pages opened in our recently introduced Window Manager are now preserved instead of being closed upon navigation. Overall this developement yields a seamless and significantly faster user interface and improves user experience.
+
+Try it out by navigating from the Analysis panel to the Workflow list, then load an existing Workflow into the Workflow Editor, modify your Workflow and continue to the Workflow execution form. Notice how the page never needs to reload when navigating this path. There are many such new, reload-free navigation pathways in this release and we will continously enable more.
+
+## Benefits at a Glance
+
+for Users:
+* Instant page rendering without reloads.
+* Window location can be copied and shared.
+* Increased test coverage.
+
+for Developers:
+* Architecture aligns with current literature.
+* Excellent routing features, consistent throughout the application.
+* Better software management and feature deployment.
+* Allows whole client performance and memory usage analysis.
+
+## What are the next steps?
+
+Although the majority of work for this project has been completed, there are still some components which rely on Backbone and jQuery which we will have fully tackled in the next release.
+
+For more details on this news contribution take a look a these slides [here](https://docs.google.com/presentation/d/1kLgFNPM4bjpfanrd8J2trn86MwrBF86CBTZZf_Qi1cQ/edit#slide=id.g15b29a93e3f_0_14).
