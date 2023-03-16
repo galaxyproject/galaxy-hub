@@ -17,7 +17,7 @@
             "md": "build/content-md",
             "vue": "build/content-vue"
         },
-        "copyFileExts": ["png", "jpg", "jpeg", "gif", "svg", "pdf"]
+        "copyFileExts": ["png", "jpg", "jpeg", "gif", "svg", "pdf", "mp4"]
     },
     "taggedEventsPages": [
         { "tag": "webinar", "path": "/events/webinars/" },
