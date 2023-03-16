@@ -1,3 +1,7 @@
+---
+autotoc: false
+---
+
 <slot name="/events/gcc2023/header" />
 
 # Code of Conduct
