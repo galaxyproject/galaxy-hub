@@ -15,7 +15,7 @@ main_subsite: eu
 
 Bertani et al. have used the [European Galaxy server](https://usegalaxy.eu) to analyse for the first time the genome of Salmonella Agona carrying blaCTX-M-55 gene, which confers resistance to third-generation cephalosporin in Brazil. In the [paper](https://www.nature.com/articles/s41598-023-29599-5) they describe the analysis of the genomic findings of this Salmonella isolate which was recovered from a bacteremic patient from Brazil. 
 
-Congratulations to this nice publication and thanks for using the European Galaxy server and sharing your results with us!
+**Congratulations** to this nice publication and thanks for using the **European Galaxy server** and sharing your results with us!
 
 **Abstract:**
 
