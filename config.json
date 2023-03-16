@@ -29,14 +29,34 @@
     "subsites": {
         "shorthands": {
             "all": [
-                "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "au", "eu", "us", "global"
+                "freiburg",
+                "pasteur",
+                "belgium",
+                "ifb",
+                "genouest",
+                "erasmusmc",
+                "elixir-it",
+                "au",
+                "eu",
+                "us",
+                "global"
             ],
-            "all-eu": [
-                "freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu"
-            ]
+            "all-eu": ["freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu"]
         },
         "default": "global",
-        "navbar": ["global", "us", "eu", "au", "freiburg", "erasmusmc", "belgium", "pasteur", "genouest", "elixir-it", "ifb"],
+        "navbar": [
+            "global",
+            "us",
+            "eu",
+            "au",
+            "freiburg",
+            "erasmusmc",
+            "belgium",
+            "pasteur",
+            "genouest",
+            "elixir-it",
+            "ifb"
+        ],
         "all": {
             "global": {
                 "name": "Global",
