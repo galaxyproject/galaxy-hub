@@ -13,13 +13,13 @@ Five years ago, we embarked on a journey to transform our client application fro
 
 Here is a simplified view of this transition process in which we counted the files and number of lines corresponding to different technologies distributed over the years.
 
-<img class="img-fluid float-right" src="/content/news/2023-03-14-new-client-routing/linecount.png" style="width:250px;" alt="Progress of transition"/>
+![Progress of transition](./linecount.png)
 
 ## How does our client component structure look like now?
 
 With these recent changes, we almost completely transitioned our client structure to a consistent Vue application. Although some legacy Makos and Backbone.js modules remain, all essential root components and routes have been transformed as can be seen in our new client map below.
 
-<img class="img-fluid float-right" src="/content/news/2023-03-14-new-client-routing/clientmap.png" style="width:250px;" alt="Overview of client"/>
+![Overview of client](./clientmap.png)
 
 ## Why is this relevant for users?
 
