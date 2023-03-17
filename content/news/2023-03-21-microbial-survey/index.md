@@ -36,7 +36,7 @@ We open the survey for 1 month from **March 21st until April 21st**.
 
 ## Where can I find the survey?
 
-The survey is available as a Google form and can be directly filled here:
+The survey is available as a Google form and can be directly filled in here:
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRQ_6KUfZSk9C9KOGNwKve6gigFvMxToonWEJpkqQZN_pSNg/viewform?embedded=true" width="640" height="929" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
