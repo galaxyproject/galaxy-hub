@@ -13,19 +13,19 @@ Five years ago, we embarked on a journey to transform our client application fro
 
 Here is a simplified view of this transition process in which we counted the files and number of lines corresponding to different technologies distributed over the years.
 
-![Progress of transition](./linecount.png)
+<img src="./linecount.png" alt="Progress of transition" width="60%">
 
 ## How does our client component structure look like now?
 
 With these recent changes, we almost completely transitioned our client structure to a consistent Vue application. Although some legacy Makos and Backbone.js modules remain, all essential root components and routes have been transformed as can be seen in our new client map below.
 
-![Overview of client](./clientmap.png)
+<img src="./clientmap.png" alt="Overview of client" width="60%">
 
 ## Why is this relevant for users?
 
 Having transformed most of the client to a modern framework, we were able to introduce a single top router which allows users to navigate the interface with significantly less page reloads. Additionally, it preserves client stores, used e.g. to store history datasets, which otherwise would have been cleared when navigating away from the Analysis view. Furthermore, pages opened in our recently introduced Window Manager are now preserved instead of being closed upon navigation. Overall this developement yields a seamless and significantly faster user interface and improves the user experience. It also is an overall driver for the client development and the integration of new features.
 
-Try it out by navigating from the Analysis panel to the Workflow list, then load an existing Workflow into the Workflow Editor, modify your Workflow and continue to the Workflow execution form. Notice how the page never needs to reload when navigating this path. There are many such new, reload-free navigation pathways in this release and we will continously enable more.
+Try it out by navigating from the Analysis panel to the Workflow list, then load an existing Workflow into the Workflow Editor, modify your Workflow and continue to the Workflow execution form. Notice how the page never needs to reload when navigating this path. There are many such new, reload-free navigation pathways in this release and we will continuously enable more.
 
 ## Benefits at a Glance
 
