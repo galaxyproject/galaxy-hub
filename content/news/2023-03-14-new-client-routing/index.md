@@ -43,6 +43,6 @@ for Developers:
 
 Although the majority of work for this project has been completed, there are still some components which rely on Backbone and jQuery which we will have fully tackled this year.
 
-For more details on this news contribution take a look a these slides [here](/content/news/2023-03-14-new-client-routing/slides.pdf).
+For more details on this news contribution take a look a these slides [here](./slides.pdf).
 
 If you are interested to learn more, have question or want to contribute to the client development, join our [UI/UX Working Group](https://app.gitter.im/#/room/#galaxyproject_wg-ui-ux:gitter.im).
