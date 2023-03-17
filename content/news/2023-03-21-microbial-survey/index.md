@@ -1,7 +1,7 @@
 ---
 title: 'Evaluation of the current usage and future needs of Galaxy for microbial data analysis - We need your Help!'
 date: '2023-03-21'
-tease: The microGalaxy community of practice would like to learn more about use-cases where Galaxy was beneficial,and also the barriers that prevent researchers from using Galaxy. The aim is to collectively find solutions to improve user experience and reduce barriers. To this end, we are launching a survey to reach out to, and learn from, the microbial research community.
+tease: The microGalaxy community of practice would like to learn more about use-cases where Galaxy was beneficial, and also the barriers that prevent researchers from using Galaxy. The aim is to collectively find solutions to improve user experience and reduce barriers. To this end, we are launching a survey to reach out to, and learn from, the microbial research community.
 hide_tease: true
 authors: Bérénice Batut, Paul Zierep
 authors_structured:
@@ -12,15 +12,15 @@ subsites: [all]
 
 Galaxy is an **open, web-based platform for data-intensive computational research**. It is used in a variety of domains, including **microbial data analysis**: for microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics and proteomics.
 
-**[microGalaxy](/projects/microbial/#microgalaxy-community)**, a community of practice focused on microbial data analysis in Galaxy, would like to **learn** more about **use-cases** where Galaxy was beneficial,and also the barriers** that prevent researchers from using Galaxy**. The aim is to collectively **find solutions **to improve user experience and reduce barriers**.
+**[microGalaxy](/projects/microbial/#microgalaxy-community)**, a community of practice focused on microbial data analysis in Galaxy, would like to **learn** more about **use-cases** where Galaxy was beneficial, and also the **barriers that prevent researchers from using Galaxy**. The aim is to collectively **find solutions** to improve user experience and reduce barriers.
 
-To this end, we are launching a **[survey](https://forms.gle/QZ6tzZ2uRpayuSVSA** to reach out to, and learn from, the microbial research community.
+To this end, we are launching a **[survey](https://forms.gle/QZ6tzZ2uRpayuSVSA)** to reach out to, and learn from, the microbial research community.
 
 ## How will the results of the survey be used?
 
 The results of this survey will be used to
-1. Build a **roadmap** for the community to solve the identified problems and support better microbial data analysis in Galaxy
-2. Share about the benefit of Galaxy for microbial data analysis by writing a **use-case driven community-oriented paper**
+1. Build a **roadmap** for the community to solve the identified problems and supporting better microbial data analysis in Galaxy
+2. Share about the benefits of Galaxy for microbial data analysis by writing a **use-case driven community-oriented paper**
 
 ## Who could fill this survey?
 
@@ -43,7 +43,7 @@ The survey is available as a Google form and can be directly filled here:
 ## How can I participate in the paper or activities of the microGalaxy community of practice?
 
 First, thank you for your interest. You are welcome to join any activity of the microGalaxy community:
-* Join the[ mailing list](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) [microgalaxy@lists.galaxyproject.org](mailto:microgalaxy@lists.galaxyproject.org)
-* Join our[ quarterly meetings](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
-* Participate in our **[working groups](/projects/microbial/#working-groups)** (see above)
-* Chat using the[ Gitter Chat](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
+* Join the [mailing list](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) [microgalaxy@lists.galaxyproject.org](mailto:microgalaxy@lists.galaxyproject.org)
+* Join our [quarterly meetings](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
+* Participate in our **[working groups](/projects/microbial/#working-groups)**
+* Chat using the [Gitter Chat](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
