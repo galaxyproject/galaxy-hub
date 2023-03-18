@@ -22,7 +22,7 @@ title: usegalaxy.org
 
 <div class="text-center my-5">
 
-[![The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills.](/images/events/gcc2023/gcc2023-logo.png)](https://galaxyproject.org/events/gcc2023/)
+[![The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills.](/images/events/gcc2023/gcc2023-call-for-abstracts.png)](https://galaxyproject.org/events/gcc2023/abstracts/)
 
 Join us in Brisbane, Australia July 10-16 for [the 2023 Galaxy Community Conference](https://galaxyproject.org/events/gcc2023/). [Early registration opens on Feb 17 and abstracts are due by Apr 3](https://galaxyproject.org/events/gcc2023/key-dates/).
 
