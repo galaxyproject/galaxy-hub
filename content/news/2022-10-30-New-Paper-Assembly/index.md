@@ -12,7 +12,7 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
-Jarvis and colleagies have used the [European Galaxy server](https://usegalaxy.eu) for all major components of their analysis pipeline and in modular form with different steps that can be optionally performed. Please read theit Nature [paper](https://www.nature.com/articles/s41586-022-05325-5) to discover their findings!
+Jarvis and colleagies have used [Galaxy](https://galaxyproject.org) for all major components of their assembly pipeline. Please read their Nature [paper](https://www.nature.com/articles/s41586-022-05325-5) to learn more and check out our [Galaxy assembly page](https://galaxyproject.org/projects/vgp/).
 
 **Congratulations** to this great publication and thanks for using the **European Galaxy server** and sharing your results with us!
 
