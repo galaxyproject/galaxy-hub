@@ -6,6 +6,7 @@ hide_tease: true
 tags:
 - paper
 - citations
+- vgp
 supporters:
 subsites: [all-eu]
 main_subsite: eu
