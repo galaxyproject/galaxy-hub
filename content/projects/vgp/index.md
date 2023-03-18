@@ -8,7 +8,7 @@ title: "The Vertebrate Genomes Project in Galaxy"
   <img src="/images/vgp/vgp_logo.png"/>
 </p>
 
-## The Vertebrate Genomes Project
+## VGP + Galaxy
 
 ----
 
@@ -19,42 +19,62 @@ The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is
   - A list of publicly-available histories<sup>1</sup> for each assembly completed on Galaxy as they are generated.
 
 
-<div class="row row-cols-1 row-cols-md-2">
-  <div class="col mb-4">
-    <div class="card h-100 shadow-sm bg-light rounded border-0">
-      <div class="card-body">
-        <h3><b>Data from GenomeArk</b></h3>
-        Galaxy has integrated the Genome Ark server as a remote data repository on all public servers. Using the remote data importer, the initial sequence files for all available species as well as the completed assemblies for species as they are completed are available to any logged-in user.<br><br>
-        <a href="https://vgp.github.io/genomeark/" class="btn btn-primary" target="_blank">Explore GenomeArk</a>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card h-100 shadow-sm bg-light rounded border-0">
-      <div class="card-body">
-        <h3><b>Analysis Platform</b></h3>
-        All tools and workflows are publicly available on the assembly-specific Galaxy workbench, along with relevant links to trainings, workflows, and example analyses. <br><br>
-        <a href="https://assembly.usegalaxy.eu" class="btn btn-warning" target="_blank">Explore Workbench</a>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card h-100 shadow-sm bg-light rounded border-0">
-      <div class="card-body">
-        <h3><b>Workflows</b></h3>
-        Current and consistently updated workflows for all VGP workflows in Galaxy. <br><br>
-        <a href="/projects/vgp/workflows/" class="btn btn-danger">View Workflows</a>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card h-100 shadow-sm bg-light rounded border-0">
-      <div class="card-body">
-        <h3><b>Project Roadmap</b></h3>
-        View the roadmap for the VGP. <br><br>
-        <a href="https://vertebrategenomesproject.org/phase-one" class="btn btn-success" target="_blank">View Roadmap</a>
-      </div>
-    </div>
-  </div>
-  </div>
+## Genomes assembled so far using Galaxy platform
+
+-----
+
+The following continuously updated table represents genome assemblies produced so far using Galaxy workflows.
+
+<div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
+  <vega-embed spec="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/json/species_stats.vl.json"/><br>
+  <small>For species repeated twice two haplotype assemblies are available. Taxonomic labels are clickable: "Class" and "Order" will bring you to Wikipedia and "Species" to GenomeArk - a central repository of VGP data. A vector graphics version of this figure is available <a href="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/svg/species_stats.svg">here</a>. | <tt>Size</tt> = estimated genome size; Het = estimated heterozygosity, <tt>Repeat</tt> = estimated repeat content; <tt>Contig NG50</tt> and <tt>Scaffold NG50</tt> = <a href="https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics#NG50">NG50</a> statistics for contigs and scaffolds, respectively; <tt>Gaps</tt> = total length of gaps in scaffolds.</small>
 </div>
+
+
+## I want to assemble a genome!
+
+------
+
+The whole point of bringing VGP assembly workflows to Galaxy is to give *you* the ability to produce high quality assemblies for free. 
+
+### Prerequisites
+
+To produce high quality assemblies you need to start with high quality high coverage (the median coverage for species listed in the table above is 33) [HiFi](https://www.pacb.com/technology/hifi-sequencing/) sequencing data. The following "tiers" of sequencing data are supported by our workflows. Supplementing HiFi data with parental reads, [HiC](https://en.wikipedia.org/wiki/Hi-C_(genomic_analysis_technique)) datasets, and/or [BioNano](https://academic.oup.com/nar/article/38/18/e177/1069400?login=false) optical maps will produce increasingly complete assemblies:
+
+|  Tier<sup>1</sup> | Assembly quality  |
+|------|---------------|
+| HiFi| The minimum requirement |
+| HiFi + HiC| Better continuity |
+| HiFi + BioNano | Better continuity | 
+| HiFi + HiC + BioNano | Even better continuity |
+| HiFi + parental Illumina data| Better haplotype resolution |
+| HiFi + parental Illumina data + HiC| Better haplotype resolution and improved continuity | 
+| HiFi + parental Illumina + BioNano | Better haplotype resolution and improved continuity |
+| HiFi + parental Illumina data + HiC + BioNano | Better haplotype resolution and ultimate continuity |
+<small><sup>1</sup>For details on individual analysis trajectories visit [workflows](/projects/vgp/workflows/) page</small>
+
+### Workflows
+
+Once you have the required data you can upload the datasets into European, American, or Australian Galaxy instances and begin assembly as described in our [workflows](/projects/vgp/workflows/) page.
+
+<a href="/projects/vgp/workflows/" class="btn btn-danger">Explore Workflows</a>
+
+## Where is existing VGP data?
+
+-----
+
+All initial data, intermediate datasets, and final assembles are available from the [GenomeArk](https://vgp.github.io/genomeark/) platform. Galaxy has integrated the Genome Ark server as a remote data repository on all public servers. 
+
+<a href="https://vgp.github.io/genomeark/" class="btn btn-primary" target="_blank">Explore GenomeArk</a>
+
+## Who pays for computation?
+
+------
+
+The computational resources required for assembly are supported by **public** computational infrastructure. In turn, this computational infrastructure is brought you by:
+
+- **EU** - [de.NBI](https://www.denbi.de/), [Uni-Freiburg](https://uni-freiburg.de), [EOSC](https://eosc.eu) and [ELIXIR](https://elixir-europe.org/)
+- **US** - [ACCESS-CI](https://access-ci.org/), [TACC](https://www.tacc.utexas.edu/), [Jetstream2](https://jetstream-cloud.org/) (additional funding is provided by NSF and NIH)
+- **Australia** - [Australian BioCommions](https://www.biocommons.org.au/), [QCIF](https://www.qcif.edu.au/), [Melbourne Bioinformatics.org.au](https://www.melbournebioinformatics.org.au/), [AARNet](https://www.aarnet.edu.au/)
+
+

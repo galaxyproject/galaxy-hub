@@ -1,3 +1,7 @@
+---
+autotoc: false
+---
+
 <slot name="/events/gcc2023/header" />
 
 # Key Dates
@@ -7,7 +11,7 @@ following are tentative dates which may still change.
 
 | Date   | What |
 | -----: | ---  |
-| Feb 17 | Early registration opens |
+| Feb 20 | [Early registration opens](/events/gcc2023/register/) |
 | Feb 24 | [Abstract submission opens](/events/gcc2023/abstracts/) |
 | **Apr 3**  | [**Abstracts due for short and long talks**](/events/gcc2023/abstracts/) |
 | Apr 25 | Talk reviews returned |
