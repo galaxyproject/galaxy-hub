@@ -46,25 +46,23 @@ A [__first workshop__](/events/2023-02-02-foodborne-pathogen-detection-workshop/
 
 More than **90 people registered**, 53% male, with diverse career stages and locations:
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-countries.png" style="width:300px;" alt="Participants Countries Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-participants-countries.png" style="width:400px;" alt="Participants Countries Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-study-area.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-participants-study-area.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
 **63 confirmed** their registration and gave us more information about their motivation in participating in the workshop.
 
 To help prepare for the course, we also questioned them about their background in the generation of pathogen sequencing data, using Galaxy, but also about their confidence about the topics, here are their answers:
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation.png" style="width:500px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation2.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation2.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation3.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation3.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation4.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation4.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation5.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation5.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
-
-<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation7.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-participants-motivation7.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
 As we expected and given the target, we had for this training, **most participants were new or beginner to Galaxy** but also in the data analysis, especially of pathogen sequencing data.
 
@@ -76,19 +74,19 @@ At the end of the workshop, we summarised everything, shared extra resources (tu
 
 During the day, all information and links were shared in a shared Google document. Questions from onsite participants were loudly onsite and answered by onsite helpers. Online participants were requested to ask their questions in a dedicated Slack channel, answered by an online helper. In both setups, the interesting questions were repeated loudly by instructors and tracked in the shared Google document, so they could be reused to prepare for further training.
 
-90% of the participants registered for online participation but many did not show up. In the end, we had around 35 participants both online and onsite. 17 answered our survey. Globally, the feedback is good:
+**90% of the participants** registered for online participation but many did not show up. In the end, we had around **35 participants** both online and onsite. **17** answered our survey. Globally, the feedback is good.
 
-Despite 2 answers reported accessibility issues, due to the hybrid setup making it sometimes hard to hear people in the onsite audience and difficult to follow the steps in the second part of the day when multiple things were done at once, but he instructors were able to repeat the steps, they feel comfortable learning in this workshop environment. They feel comfortable interacting with instructors, who were enthusiastic, knowledgeable about the content, and able to answer questions
+Despite 2 answers reported accessibility issues, due to the hybrid setup making it sometimes hard to hear people in the onsite audience and difficult to follow the steps in the second part of the day when multiple things were done at once, but he instructors were able to repeat the steps, they feel comfortable learning in this workshop environment. They feel comfortable interacting with instructors, who were enthusiastic, knowledgeable about the content, and able to answer questions, the following graphes shows the 17 participants' feedback:
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-feedback3.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-feedback3.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-feedback4.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-feedback4.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-feedback5.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-feedback5.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-feedback1.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-feedback1.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-feedback6.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-feedback6.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
 In detail, they liked the well-documented and detailed training materials with the hands-on part and data interpretation in addition to Slack for interactions and prompt answers. The instructions are very clear on what to do. The instructors are also knowledgeable about the materials of the workshop. 
 One mentioned loving the fact that this workshop is accessible for those who live in Indonesia to learn more about analysis and tools of Nanopore sequencing
@@ -97,9 +95,9 @@ They raised some concerns about the structure of the workshop with maybe a longe
 
 Anyway, they mostly agree that they can immediately apply what they learned and they would recommend the workshop 
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-feedback7.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-feedback7.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
-<img class="img-fluid float-right" src="2023-01-25-workshop-feedback2.png" style="width:300px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
+<img class="img-fluid float-right" src="2023-01-25-workshop-feedback2.png" style="width:400px;" alt="Participants Background Knowledge Graphs - Created by Bérénice Batut"/>
 
 ## Follow-up workshops
 
