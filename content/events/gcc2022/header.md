@@ -34,11 +34,14 @@
     <div class="row">
         <div class="col"></div>
         <div class="col">
+            <a target="_blank" href="https://www.flickr.com/photos/196225242@N08/albums/72177720300868491" type="button" class="btn btn-primary center">
+                <strong>Photo album</strong>
+            </a>
             <a target="_blank" href="https://gcc2022.sched.com/" type="button" class="btn btn-primary center">
-                <strong>See full schedule</strong>
+                <strong>Schedule</strong>
             </a>
             <a target="_blank" href="https://galaxy-hub-content.s3.amazonaws.com/GCC2022-program.pdf" type="button" class="btn btn-primary center">
-                <strong>Download program</strong>
+                <strong>Program</strong>
             </a>        </div>
         <div class="col"></div>
     </div>

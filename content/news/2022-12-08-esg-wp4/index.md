@@ -1,7 +1,7 @@
 ---
-title: Work Package 4 of the EuroScienceGateway project
+title: "Building blocks for a sustainable operating model of the EuroScienceGateway"
+tease: Work Package 4 of the EuroScienceGateway project
 date: "2022-12-08"
-tease: "WP4 - Building blocks for a sustainable operating model"
 hide_tease: false
 tags: [esg-wp4, esg]
 subsites: [all-eu, esg]
