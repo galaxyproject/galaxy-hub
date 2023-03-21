@@ -10,7 +10,9 @@ tags: [microbial]
 subsites: [all]
 ---
 
-Galaxy is an **open-access, web-based platform for data-intensive computational research**. It is used in a variety of domains, including **microbial data analysis**: for microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics, or proteomics. 
+<img class="img-fluid float-right" src="./visual.png" style="width:500px;" alt="Visual for survey advertisement"/>
+
+Galaxy is an **open-access, web-based platform for data-intensive computational research**. It is used in a variety of domains, including **microbial data analysis**: for microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics, or proteomics.
 
 **[microGalaxy](/projects/microbial/#microgalaxy-community)**, a community of practice focused on microbial data analysis in Galaxy, would like to **learn** more about **use-cases** where Galaxy was beneficial, and also the **barriers that prevent researchers from using Galaxy**. The aim is to collectively **find solutions** to improve user experience and reduce barriers.
 
