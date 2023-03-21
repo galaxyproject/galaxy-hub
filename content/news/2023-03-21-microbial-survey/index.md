@@ -25,7 +25,7 @@ The results of this survey will be used to
 ## Who could fill this survey?
 
 **Anyone** who
-* has used Galaxy for any kind of microbial focused research (e.g. metagenomics, metatranscriptomics, microbiome, bacterial isolates … ), or
+* has used Galaxy for any kind of microbial focused research (e.g. metagenomics, metatranscriptomics, microbiome, bacterial isolates), or
 * conducts microbial research or is planning to do so, but has not yet used Galaxy, or is hindered by certain aspects of Galaxy from using it.
 
 The more answers, the better understanding of how to improve Galaxy for the microbial research community we will get. Thank You!
