@@ -1,6 +1,7 @@
 ---
 title: Workshop on High-Throughput Data Analysis with Galaxy
 date: '2023-07-17'
+end
 days: 5
 continent: EU
 location:
@@ -19,7 +20,3 @@ As we have limited places, please apply via this [application form](https://form
 We will inform the participants about a successful application until end of June 2023.
 
 For further questions, please contact Anika Erxleben (erxleben@informatik.uni-freiburg.de).
-
-* **Date:** 17-21th July 2023
-* **Time:** 9-17:00
-* **Location:** University of Freiburg
