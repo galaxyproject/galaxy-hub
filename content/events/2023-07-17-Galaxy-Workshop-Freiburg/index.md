@@ -1,7 +1,6 @@
 ---
 title: Workshop on High-Throughput Data Analysis with Galaxy
 date: '2023-07-17'
-end
 days: 5
 continent: EU
 location:
