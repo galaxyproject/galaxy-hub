@@ -1,3 +1,7 @@
+---
+autotoc: false
+---
+
 <slot name="/events/gcc2023/header" />
 
 GCC2023 is a community effort from planning to post conference publishing and
@@ -18,6 +22,8 @@ The organizing committee is the oversight and coordination group that makes sure
 * **[Roberto Barrero Gumiel](https://www.qut.edu.au/about/our-people/academic-profiles/roberto.barrero)**, [Queensland University of Technology](https://www.qut.edu.au/), Australia
 * **[Ross Lazarus](https://www.linkedin.com/in/rosslazarus/)**, Galaxy Project Emeritus, Australia
 
+To contact the organizing committee, please send an email to gcc2023-orgcomm@biocommons.org.au.
+
 # Scientific Program Committee
 
 The scientific program committee is in charge of the scientific program for GCC2023.
@@ -31,7 +37,7 @@ The scientific program committee is in charge of the scientific program for GCC2
 Scientific program members are community volunteers who review the submitted abstracts.
 
 * **Andrew Lonie**, Australian BioCommons, Australia
-* **Anne Claire Fouilloux**, University of Oslo, Norway
+* **Anne Claire Fouilloux**, Simula Research Laboratory, Norway
 * **Anna Syme**, Melbourne Bioinformatics, Australia
 * **Anshu Bhardwaj**, Interdisciplinary Research Center and CSIR-Institute of Microbial Technology, India
 * **Beáta Scholtz**, University of Debrecen Medical and Health Science Center, Hungary
@@ -54,7 +60,7 @@ Scientific program members are community volunteers who review the submitted abs
 * **Maria Doyle**, Bioconductor, Australia
 * **Matthias Bernt**, Helmholtz Centre for Environmental Research, Germany
 * **Natalie Kucher**, Johns Hopkins University, United Stated
-* **Nicola Soranzo**, Earlham Institute, England
+* **Nicola Soranzo**, Earlham Institute, United Kingdom
 * **Nuwan Goonasekera**, University of Melbourne, Australia
 * **Peter van Heusden**, University of the Western Cape, South Africa
 * **Ralf Weber**, University of Birmingham, England
