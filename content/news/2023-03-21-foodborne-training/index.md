@@ -55,15 +55,15 @@ More than **90 people registered**, 53% male, with diverse career stages and loc
 
 To help prepare for the course, we also questioned them about their background in the generation of pathogen sequencing data, using Galaxy, but also about their confidence about the topics, here are their answers:
 
-<img class="img-fluid float-left" src="./motivation2.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./motivation2.png" style="width:400px;" alt="Participants Background Knowledge about generating pathogen sequencing data, majority of 38% have never generated pathogen sequencing data and minority of 3.2% generate it daily"/>
 
-<img class="img-fluid float-left" src="./motivation3.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./motivation3.png" style="width:400px;" alt="Participants Background Knowledge about using Galaxy platform, majority of 42.9% never used Galaxy, and 33.2% uses galaxy several times per year"/>
 
-<img class="img-fluid float-left" src="./motivation4.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./motivation4.png" style="width:400px;" alt="Participants Background Knowledge about sequencing techniques, the majority of 42.9% are neutral, 28.6% are confident and 15.9% are strongly confident"/>
 
-<img class="img-fluid float-left" src="./motivation5.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./motivation5.png" style="width:400px;" alt="Participants Background Knowledge about analysing sequencing data, the mojority of 45% can analyse sequencing data, the rest are either neutral or cannot analyse sequencing data"/>
 
-<img class="img-fluid float-center" src="./motivation7.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-center" src="./motivation7.png" style="width:400px;" alt="Participants Background Knowledge about identifying pathogens equal precentages of knowlege are found here between participants"/>
 
 As we expected and given the target, we had for this training, **most participants were new or beginner to Galaxy** but also in the data analysis, especially of pathogen sequencing data.
 
@@ -79,15 +79,15 @@ During the day, all information and links were shared in a shared Google documen
 
 2 answers reported accessibility issues, due to the hybrid setup making it sometimes hard to hear people in the onsite audience and difficult to follow the steps in the second part of the day when multiple things were done at once, but the instructors were able to repeat the steps. Otherwise, participants felt **comfortable learning in this workshop environment**. They feel comfortable interacting with instructors, who were enthusiastic, knowledgeable about the content, and able to answer questions, the following graphes shows the 17 participants' feedback:
 
-<img class="img-fluid float-left" src="./feedback3.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./feedback3.png" style="width:400px;" alt="Participants feedback, regarding how they felt about the learning environment of the workshop, all of the partipants are either agreeing or strongly agreeing that it was confortable"/>
 
-<img class="img-fluid float-left" src="./feedback4.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./feedback4.png" style="width:400px;" alt="Participants feedback regarding how confortable they were interacting with the tutors"/>
 
-<img class="img-fluid float-left" src="./feedback5.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./feedback5.png" style="width:400px;" alt="Participants feedback regarding their opinion of how enthusiastic the tutors were"/>
 
-<img class="img-fluid float-left" src="./feedback1.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./feedback1.png" style="width:400px;" alt="Participants feedback regarding their opinion of how knowledgeable the tutors were about the material being taught"/>
 
-<img class="img-fluid float-center" src="./feedback6.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-center" src="./feedback6.png" style="width:400px;" alt="Participants feedback about how clear they were able to get answers to their questions from the tutors"/>
 
 In detail, they liked the **well-documented and detailed training materials with the hands-on part** and data interpretation in addition to **Slack for interactions** and **prompt answers**. They feel that the instructions are very clear on what to do and knowledgeable about the materials of the workshop.
 One mentioned loving the fact that this workshop is accessible for those who live in Indonesia to learn more about analysis and tools of Nanopore sequencing
@@ -96,9 +96,9 @@ They raised some concerns about the structure of the workshop with maybe a longe
 
 Anyway, they mostly agree that **they can immediately apply what they learned** and they would **recommend the workshop**
 
-<img class="img-fluid float-left" src="./feedback7.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./feedback7.png" style="width:400px;" alt="Participants feedback about will they be able to immediately ably what they leared in their work"/>
 
-<img class="img-fluid float-left" src="./feedback2.png" style="width:400px;" alt=""/>
+<img class="img-fluid float-left" src="./feedback2.png" style="width:400px;" alt="Participants feedback about how likely will they recommend this workshop to their colleagues"/>
 
 ## Follow-up workshops
 
