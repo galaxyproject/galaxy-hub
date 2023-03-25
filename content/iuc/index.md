@@ -40,7 +40,6 @@ IUC membership evolves over time and helpful community contributors are asked to
 **Lance Parsons**, Princeton University | 2016-10-28 | [@lparsons](https://github.com/lparsons)
 **Bérénice Batut**, University of Freiburg | 2017-02-14 | [@bebatut](https://github.com/bebatut)
 **Maria Doyle**, Peter MacCallum Cancer Centre | 2017-11-11 | [@mblue9](https://github.com/mblue9)
-**Simon Gladman**, University of Melbourne | 2017-11-11 | [@Slugger70](https://github.com/slugger70)
 **Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | 2018-07-20 | [@bernt-matthias](https://github.com/bernt-matthias)
 **Wolfgang Maier**, University of Freiburg | 2019-11-04 | [@wm75](https://github.com/wm75)
 **Cristóbal Gallardo**, University of Freiburg | 2021-11-25 | [@gallardoalba](https://github.com/gallardoalba)
@@ -55,4 +54,4 @@ IUC membership evolves over time and helpful community contributors are asked to
 | **Edward Kirton**, U.S. Department of Energy | founding member |  |
 | **Ross Lazarus**, Harvard Medical School and University of Sydney | founding member | [@fubar2](https://github.com/fubar2) |
 | **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate) |
-
+| **Simon Gladman**, University of Melbourne | 2017-11-11 | [@Slugger70](https://github.com/slugger70) |
