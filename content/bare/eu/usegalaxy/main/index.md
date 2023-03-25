@@ -10,6 +10,10 @@ title: Galaxy Europe
     <img src="/images/events/gcc2023/au-gcc-banner.png" alt="GCC2023 banner" />
 </a>
 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSclNKwmjclGeOZuZgc19cRjovB61PNLxUZAym2UX0vOKfRLeA/viewform" target="_blank">
+    <img src="/images/events/smorgasbord/smorgasbord.png" alt="Smörgåsbord banner" />
+</a>
+
 <br/>
 <br/>
 
