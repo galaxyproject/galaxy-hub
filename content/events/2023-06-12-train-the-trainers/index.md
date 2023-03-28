@@ -1,5 +1,5 @@
 ---
-title: Gallantries Train the Trainers
+title: Gallantries & ELIXIR-GOBLET Train the Trainers
 date: '2023-06-12'
 days: 4
 tease: "This course introduces trainers to learning principles, training techniques, lesson, session, course, and material design as well as assessment and feedback. This course is has been developed for by trainers in the bioinformatics but is suitable for all trainers and educators in higher education."
@@ -12,11 +12,15 @@ tags: [workshop, training]
 subsites: [all]
 ---
 
-![Flyer for the Gallantries Train the Trainers](/events/2023-06-12-train-the-trainers/flyer.png)
+![Flyer for the Gallantries & ELIXIR-GOBLET Train the Trainers](/events/2023-06-12-train-the-trainers/flyer.png)
 
-[Gallantries](https://gallantries.github.io) worked together with ELIXIR-GOBLET Train the Trainer community to develop a Train the Trainer curriculum.
+[Gallantries](https://gallantries.github.io) worked together with the [ELIXIR-GOBLET Train the Trainer community](https://elixir-europe.org/platforms/training/train-the-trainer) to develop a Train the Trainer curriculum, with a focus on Galaxy, and available on the [Galaxy Training Network](https://training.galaxyproject.org/)
 
-To deliver this curriculum, we organize a **4 half-day** **online** and **free workshop** on **June 12-15th, 2023** to introduce trainers to learning principles, training techniques, lesson, session, course, and material design as well as assessment and feedback.
+To deliver this curriculum, we organize a **4 half-day** **online** and **free workshop** on **June 12-15th, 2023** to introduce trainers to:
+- learning principles,
+- training techniques,
+- lesson, session, course, and material design
+- assessment and feedback.
 
 <a  class="btn w-100 btn-primary btn-lg" href="https://forms.gle/uEn2RJ52v8WavyU76">Registration before June 1st</a>
 
@@ -33,7 +37,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 
 # Pedagogical information
 
-- **Target Audience**: Whoever is interested in becoming a trainer/instructor, or improving your training skills.
+**Target Audience**: Whoever is interested in becoming a trainer/instructor, or improving your training skills.
 
   If you have questions like the following ones, this course may be very helpful to you.
   * How learning works?
@@ -46,18 +50,18 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
   * How can I best assess whether learning is occurring and/or has occurred?
   * What works in a classroom and what doesn't?
 
-- **Learning Objectives:**
-  * To get acquainted with Learning principles and how they apply to training
-  * To be able to select and use training techniques that can help enhance learner engagement and participation
-  * To learn how to use assessment and feedback in training
-  * To learn about session, course, and materials design
+**Learning Objectives:**
+* To get acquainted with Learning principles and how they apply to training
+* To be able to select and use training techniques that can help enhance learner engagement and participation
+* To learn how to use assessment and feedback in training
+* To learn about session, course, and materials design
 
-- **Learning Outcome**: By the end of this course, learners will be able to:
-  * Name learning principles that a good teacher/instructor should have in mind
-  * Describe at least three training techniques, drawing on learning principles
-  * Design a training session and a course
-  * Develop assessment questionnaires
-  * Enumerate types of materials needed for each part of a training session or course
+**Learning Outcome**: By the end of this course, learners will be able to:
+* Name learning principles that a good teacher/instructor should have in mind
+* Describe at least three training techniques, drawing on learning principles
+* Design a training session and a course
+* Develop assessment questionnaires
+* Enumerate types of materials needed for each part of a training session or course
 
 # Preliminary schedule
 
