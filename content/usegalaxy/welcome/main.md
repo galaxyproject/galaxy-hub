@@ -24,7 +24,9 @@ title: usegalaxy.org
 
 [![The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills.](/images/events/gcc2023/gcc2023-call-for-abstracts.png)](https://galaxyproject.org/events/gcc2023/abstracts/)
 
-Join us in Brisbane, Australia July 10-16 for [the 2023 Galaxy Community Conference](https://galaxyproject.org/events/gcc2023/). [Early registration opens on Feb 17 and abstracts are due by Apr 3](https://galaxyproject.org/events/gcc2023/key-dates/).
+Join us in Brisbane, Australia July 10-16 for [the 2023 Galaxy Community Conference](https://galaxyproject.org/events/gcc2023/). [Early registration is open now and abstracts are due by April 3](https://galaxyproject.org/events/gcc2023/key-dates/).
+
+[![The Galaxy Training Network Smörgåsbord 3 is a free global online Galaxy training event from May 22 to May 26, 2023](/images/events/2023-05-smorgasbord3/smorgasbord3-blurb.png)](https://gxy.io/smorgasbord3)
 
 </div>
 
