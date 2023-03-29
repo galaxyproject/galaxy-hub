@@ -2,7 +2,12 @@
 
 [Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in project governance structures are needed to help adapt to increasing complexity and to more fully engage the Galaxy Community. This is our first attempt.
 
-Several community groups have been formed so that project governance truly reflects the global community that Galaxy has become:
+Several community groups have been formed so that project governance truly reflects the global community that Galaxy has become.
+
+## Project Mission Statement
+The Galaxy project is a global open science collaboration providing free access to shareable, reproducible, transparent, best practice data intensive analysis for all researchers.
+
+In support of this mission, project activities include maintaining source code, documentation, data analysis tools, training resources, analysis services, technical support, and an inclusive, self-governing community.
 
 ## Galaxy Executive Board
 
