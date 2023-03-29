@@ -11,6 +11,7 @@
 [CoFest](/events/gcc2023/cofest/) |
 [Conduct](/events/gcc2023/conduct/) |
 [COVID-19](/events/gcc2023/covid19/) |
+[Fellowships](/events/gcc2023/fellowships/) |
 [Key Dates](/events/gcc2023/key-dates/) |
 [Organizers](/events/gcc2023/organizers/) |
 [Registration](/events/gcc2023/register/) |
