@@ -61,7 +61,7 @@ Galaxy community.
 
   </div>
 
-  <!-- Schedule & Key Dates -->
+  <!-- Abstracts -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/key-dates.png" class="card-img-top" alt="Key Dates" />
     <div class="card-header">Call for abstracts</div>
@@ -73,6 +73,27 @@ Check the [Key Dates page](/events/gcc2023/key-dates/) for a most up-to-date
 list of deadlines and the [schedule page](/events/gcc2023/schedule/) for the
 planned program.
 
+You help make GCC be a great event so share your work with a welcoming and
+inspiring community.
+
+**Topics of interest include** methods, tools, pipelines, trainings, or software
+that push the field of data science with Galaxy forward.
+
+  </div>
+
+<!-- Fellowships -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2023/fellowships.png" class="card-img-top" alt="Student fellowships" />
+    <div class="card-header">Fellowships available!</div>
+
+GCC2023 is happy to announce that **fellowships are available for students** to
+participate in GCC2023! Apply to build your professional network and learn.
+
+There are two types of fellowships available: in-person and virtual, so you can
+apply even if you do not want to travel. Check out the [Fellowships
+page](/events/gcc2023/fellowships/) for details and application deadlines.
+
+Brought to you by an anonymous donor.
   </div>
 
 <!-- Keynotes -->
