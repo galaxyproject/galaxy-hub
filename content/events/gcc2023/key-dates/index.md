@@ -14,10 +14,10 @@ following are tentative dates which may still change.
 | ~~Feb 20~~ | [Early registration opens](/events/gcc2023/register/) |
 | ~~Feb 24~~ | [Abstract submission opens](/events/gcc2023/abstracts/) |
 | **Apr 3**  | [**Abstracts due for short and long talks**](/events/gcc2023/abstracts/) |
-| Apr 14 | Applications for in-person [fellowships](events/gcc2023/fellowships/) due |
+| Apr 14 | Applications for in-person [fellowships](/events/gcc2023/fellowships/) due |
 | Apr 25 | Talk reviews returned |
 | May 12 | [Early registration closes / Regular registration opens](/events/gcc2023/register/) |
-| Jun 2  | [Abstracts due for posters/demos](/events/gcc2023/abstracts/) and applications for virtual [fellowships](events/gcc2023/fellowships/) due |
+| Jun 2  | [Abstracts due for posters/demos](/events/gcc2023/abstracts/) and applications for virtual [fellowships](/events/gcc2023/fellowships/) due |
 | Jun 12 | Poster/demo acceptance announcements |
 | Jun 16 | [Regular registration closes / Late registration opens](/events/gcc2023/register/) |
 | Jul 10 | Conference starts! |
