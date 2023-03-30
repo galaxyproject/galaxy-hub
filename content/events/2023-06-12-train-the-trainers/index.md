@@ -22,7 +22,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 - lesson, session, course, and material design
 - assessment and feedback.
 
-<a  class="btn w-100 btn-primary btn-lg" href="https://forms.gle/uEn2RJ52v8WavyU76">Registration before June 1st</a>
+<a  class="btn w-100 btn-primary btn-lg" href="https://forms.gle/uEn2RJ52v8WavyU76">Register here before June 1st</a>
 
 
 # General information
@@ -82,7 +82,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 
 - **Registration**: Before June 1st
 - **Capacity**: Maximum 20 participants
-- **Selection**: If more participants applied than we have the capacity, the "first applied - first served" approach will be used. Participants will be informed on the 1st of June
+- **Selection**: If more participants applied than we have the capacity, the "first applied - first served" approach will be used. Participants will be informed on the June, 1st
 
 # After the workshop
 
