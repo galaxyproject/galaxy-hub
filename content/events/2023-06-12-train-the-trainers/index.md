@@ -68,7 +68,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 | Day | Start | End | Duration | Session | Instructors |
 |---|---|---|---|---|---|
 | June 12th | 9:00am  | 9:30am  | 30min | Welcome | Fotis Psomopoulos, Bérénice Batut |
-| June 12th | 9:30am  | 12:00pm | 2h30  | Learning principles | Fotis Psomopoulos |
+| June 12th | 9:30am  | 12:00pm | 2h30  | Learning principles | Cristóbal Gallardo |
 | June 13th | 9:00am  | 9:30am  | 30min | Welcome | Fotis Psomopoulos, Bérénice Batut |
 | June 13th | 9:30am  | 12:00pm | 2h30  | Design and plan session, course, materials | Bérénice Batut |
 | June 14th | 9:00am  | 9:30am  | 30min | Welcome | Fotis Psomopoulos, Bérénice Batut |
@@ -90,6 +90,7 @@ This workshop is over, all the training materials will stay online at [https://t
 
 # Instructors, helpers and organizers
 
+- Cristóbal Gallardo, University of Freiburg, Germany
 - Bérénice Batut, University of Freiburg, Germany
 - Fotis Psomopoulos, INAB|CERTH, Thessaloniki, Greece
 
