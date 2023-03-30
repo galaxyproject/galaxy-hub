@@ -27,7 +27,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 
 # General information
 
-- **Date**: June 2nd, 2023
+- **Date**: June 12-15th, 2023
 - **Format**: Online via Zoom
 - **Location**: Zoom (details shared later to participants)
 - **Time**: 9am-12pm CEST ([see in your timezone](https://arewemeetingyet.com/Zurich/2023-06-12/09:00/Workshop%20Gallantries%20Train%20the%20Trainers))
