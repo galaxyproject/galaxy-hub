@@ -82,7 +82,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 
 - **Registration**: Before June 1st
 - **Capacity**: Maximum 20 participants
-- **Selection**: If more participants applied than we have the capacity, the "first applied - first served" approach will be used. Participants will be informed on the 16th of January
+- **Selection**: If more participants applied than we have the capacity, the "first applied - first served" approach will be used. Participants will be informed on the 1st of June
 
 # After the workshop
 
