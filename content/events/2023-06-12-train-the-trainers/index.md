@@ -22,7 +22,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 - lesson, session, course, and material design
 - assessment and feedback.
 
-<a  class="btn w-100 btn-primary btn-lg" href="https://forms.gle/uEn2RJ52v8WavyU76">Register here before June 1st</a>
+<a  class="btn w-100 btn-primary btn-lg" href="https://forms.gle/uEn2RJ52v8WavyU76">Register here before May 31st</a>
 
 
 # General information
