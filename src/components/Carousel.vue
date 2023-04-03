@@ -59,8 +59,7 @@
 </template>
 
 <script>
-  import { CarouselPlugin } from 'bootstrap-vue'
-  Vue.use(CarouselPlugin)
+  import { CarouselPlugin } from 'bootstrap-vue';
 
   export default {
     name: "Carousel",

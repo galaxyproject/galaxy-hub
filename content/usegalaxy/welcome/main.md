@@ -1,6 +1,7 @@
 ---
 title: usegalaxy.org
 ---
+
 <carousel />
 
 <div class="alert trim-p mt-2" style="background: #FFD500;">
