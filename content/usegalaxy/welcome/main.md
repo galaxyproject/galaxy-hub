@@ -1,8 +1,7 @@
 ---
 title: usegalaxy.org
 ---
-import Carousel from "@/components/Carousel";
-<Carousel />
+<carousel />
 
 <div class="alert trim-p mt-2" style="background: #FFD500;">
 
