@@ -17,6 +17,7 @@ const AUTODETECT_COMPONENTS = [
     "markdown-embed",
     "twitter",
     "video-player",
+    "carousel",
 ];
 
 export class Partitioner {

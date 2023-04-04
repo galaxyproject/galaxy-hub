@@ -1,5 +1,9 @@
 <template>
     <main id="maincontainer" class="container">
+        <div class="markdown" v-html="$page.top.content" />
+        <div id="carousel-container">
+            <Carousel />
+        </div>
         <div class="markdown" v-html="$page.main.content" />
     </main>
 </template>
@@ -23,6 +27,14 @@ query {
             path
         }
     }
+    top: insert(path: "/insert:/usegalaxy/welcome/top/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
+    }
 }
 </page-query>
 
@@ -38,5 +50,11 @@ query {
     a:hover {
         text-decoration: underline;
     }
+}
+
+#carousel-container {
+    padding-top: 2rem;
+    max-width: 650px;
+    margin: 0 auto;
 }
 </style>
