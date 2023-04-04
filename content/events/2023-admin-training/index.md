@@ -81,9 +81,9 @@ We currently have eight confirmed (and highly experienced!) instructors:
 
 * [Helena Rasche](https://github.com/hexylena) - Erasmus Medical Center, the Netherlands
 * [Saskia Hiltemann](https://github.com/shiltemann) - Erasmus Medical Center, the Netherlands
-* [Na)te Coraor](https://github.com/natefoo) - Galaxy Project, Penn State University, United States
+* [Nate Coraor](https://github.com/natefoo) - Galaxy Project, Penn State University, United States
 * [Marius van den Beek](https://github.com/mvdbeek) - Galaxy Project, Penn State University, *Europe*
-* [Nicola Soranzo](https://github.com/nsoranzo) - Earlham Institute
+* [Nicola Soranzo](https://github.com/nsoranzo) - Earlham Institute, UK
 * [Mira Kuntz](https://github.com/mira-miracoli/) - Uni-Freiburg, Germany
 * [Sanjay Srikakulam](https://github.com/sanjaysrikakulam/) - Uni-Freiburg, Germany
 * [Catherine Bromhead](https://github.com/cat-bro) - Australian BioCommons, Australia
