@@ -31,7 +31,7 @@
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/jxtx/jxtx-foundation.webp"
+                    img-src="/images/jxtx/jxtx-jumbotron.png"
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
                 ></b-carousel-slide>
             </a>
