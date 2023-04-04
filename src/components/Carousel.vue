@@ -10,8 +10,6 @@
             img-width="650"
             img-height="450"
             style="text-shadow: 1px 1px 2px #333"
-            @sliding-start="onSlideStart"
-            @sliding-end="onSlideEnd"
         >
             <a href="https://galaxyproject.org/events/gcc2023/abstracts/" target="_blank">
                 <b-carousel-slide
@@ -47,16 +45,7 @@ export default {
     data() {
         return {
             slide: 0,
-            sliding: null,
         };
-    },
-    methods: {
-        onSlideStart() {
-            this.sliding = true;
-        },
-        onSlideEnd() {
-            this.sliding = false;
-        },
     },
 };
 </script>
