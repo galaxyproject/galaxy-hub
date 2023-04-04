@@ -7,54 +7,31 @@
       controls
       indicators
       background="#ababab"
-      img-width="1024"
-      img-height="480"
+      img-width="650"
+      img-height="450"
       style="text-shadow: 1px 1px 2px #333;"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <!-- Text slides with image -->
-      <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
-      ></b-carousel-slide>
-
-      <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-        <h1>Hello world!</h1>
-      </b-carousel-slide>
-
-      <!-- Slides with image only -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
-
-      <!-- Slides with img slot -->
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-      <b-carousel-slide>
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
-            src="https://picsum.photos/1024/480/?image=55"
-            alt="image slot"
-          >
-        </template>
-      </b-carousel-slide>
-
-      <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-          a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-        </p>
-      </b-carousel-slide>
+      <a href="https://galaxyproject.org/events/gcc2023/abstracts/" target="_blank">
+        <b-carousel-slide
+          img-src="/images/events/gcc2023/gcc2023-call-for-abstracts.png"
+          img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills."
+        ></b-carousel-slide>
+      </a>
+      <a href="https://galaxyproject.org/events/2023-admin-training/" target="_blank">
+        <b-carousel-slide
+          img-src="/images/events/2023-04-gat/gat23-logo-square.png"
+          img-alt="The Galaxy Admin Training is a free, in-person intensive training workshop for prospective and experienced Galaxy server administrators from April 17 to April 21, 2023 in Ghent, Belgium"
+        ></b-carousel-slide>
+      </a>
+      <a href="https://gxy.io/smorgasbord3" target="_blank">
+        <b-carousel-slide
+          img-src="/images/events/2023-05-smorgasbord3/smorgasbord3-square.png"
+          img-alt="The Galaxy Training Network Smörgåsbord 3 is a free global online Galaxy training event from May 22 to May 26, 2023"
+        ></b-carousel-slide>
+      </a>
     </b-carousel>
-
-    <p class="mt-4">
-      Slide #: {{ slide }}<br>
-      Sliding: {{ sliding }}
-    </p>
   </div>
 </template>
 

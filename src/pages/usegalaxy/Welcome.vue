@@ -1,5 +1,7 @@
 <template>
     <main id="maincontainer" class="container">
+        <div class="markdown" v-html="$page.top.content" />
+        <Carousel />
         <div class="markdown" v-html="$page.main.content" />
     </main>
 </template>
@@ -16,6 +18,14 @@ export default {
 <page-query>
 query {
     main: insert(path: "/insert:/usegalaxy/welcome/main/") {
+        id
+        title
+        content
+        fileInfo {
+            path
+        }
+    }
+    top: insert(path: "/insert:/usegalaxy/welcome/top/") {
         id
         title
         content
