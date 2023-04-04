@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-center my-5" style="max-width: 650px;"><p>
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -31,8 +31,14 @@
           img-alt="The Galaxy Training Network Smörgåsbord 3 is a free global online Galaxy training event from May 22 to May 26, 2023"
         ></b-carousel-slide>
       </a>
+      <a href="https://jxtxfoundation.org" target="_blank">
+        <b-carousel-slide
+          img-src="/images/jxtx/jxtx-foundation.webp"
+          img-alt="Donate to the James P. Taylor Foundation for Open Science"
+        ></b-carousel-slide>
+      </a>
     </b-carousel>
-  </div>
+  </p></div>
 </template>
 
 <script>
