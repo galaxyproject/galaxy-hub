@@ -11,6 +11,10 @@
             img-height="450"
             style="text-shadow: 1px 1px 2px #333"
         >
+            <!--
+            It's important that the images here are 13x9 aspect ratio,
+            otherwise the page will jump around when the carousel changes.
+            -->
             <a href="https://galaxyproject.org/events/gcc2023/abstracts/" target="_blank">
                 <b-carousel-slide
                     img-src="/images/events/gcc2023/gcc2023-call-for-abstracts.png"
