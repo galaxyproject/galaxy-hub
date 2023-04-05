@@ -86,7 +86,7 @@ Training coordinators structure the training events at GCC2023 and coordinated w
 
 CoFest organizers coordinate activities during [CoFest](/events/gcc2023/cofest/).
 
-* Looking for volunteers. Email the [organizers](/events/gcc2023/organizers/) if interested.
+* **[Cameron Hyde](https://www.qcif.edu.au/team/cameron-hyde/)**, [QCIF](https://psu.edu/), Australia
 
 # Photographer
 
