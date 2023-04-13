@@ -25,9 +25,9 @@ performing well, and used by your community.
 Galaxy is an open web based platform for data integration and analysis. It is deployed at large and small organizations
 around the world and used in a broad range of research domains.
 
-# Schedule
+# Schedule :new:
 
-The exact schedule is still TBA, if you want to have feeling about the topics have a look at [workshop](https://github.com/galaxyproject/admin-training/tree/2023-gent).
+A tentative schedule for Galaxy Admin training 2023 is now available [here](https://github.com/orgs/galaxyproject/projects/28). Get a sneak peek at the topics that will be covered during this intensive training program. The exact schedule is still TBA.
 
 # Prerequisites
 
