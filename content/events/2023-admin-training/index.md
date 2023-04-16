@@ -13,7 +13,7 @@ contact: Instructors
 subsites: [global, us, eu, esg, esg-wp1]
 ---
 
-**[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** will be offered April 17 through April 21 at 
+**[Galaxy Admin Training](https://github.com/orgs/galaxyproject/projects/28)** will be offered April 17 through April 21 at 
 [Monasterium PoortAckere](https://monasterium.be/en) - 56 Oude Houtlei, Ghent 9000, Belgium ([map](https://goo.gl/maps/jZtVc2xeDVNfVLJW8)).
 
 This workshop will cover basic and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.
