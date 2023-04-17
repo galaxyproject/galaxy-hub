@@ -22,8 +22,8 @@ Conferences.  These include long talks, short talks, poster presentations, and
 demo presentations.  All of these are submitted by the community and go through
 a peer review process before being accepted for the program.
 
-Abstract submission is currently open. **To submit an abstract, [fill out this
-form](https://forms.gle/ETCPW8Vnprbij7zn6).**
+Abstract submission for posters and demos is currently open. **To submit an
+abstract, [fill out this form](https://forms.gle/ETCPW8Vnprbij7zn6).**
 
 By submitting an abstract for a short of long talk, you agree that at least one
 of the authors will register and present the work in-person at GCC2023. Posters
@@ -61,9 +61,9 @@ presentations) that will resonate with GCC2023 participants.
 | Date   | What |
 | -----: | ---  |
 | ~~Feb 24~~ | Abstract submission opens |
-| **Apr 14**  | **Abstracts due for short and long talks** (extended from April 3) |
+| ~~Apr 14~~  | Abstracts due for short and long talks (extended from April 3) |
 | May 2 | Talk reviews returned (extended from April 25) |
-| Jun 2  | Abstracts due for posters/demos |
+| **Jun 2**  | **Abstracts due for posters/demos** |
 | Jun 12 | Poster/demo acceptance announcements |
 
 
