@@ -9,10 +9,14 @@ autotoc: false
 GCC2023 is proud to offer a number of student fellowships to attend the
 conference!
 
-In order to apply, you must be a student or a postdoc. **You can apply via [this
-form](https://docs.google.com/forms/d/e/1FAIpQLSdaA3EGI3LwEpWZfThSCA87DHKag7hSg1bhm-UUQfswkDWszQ/viewform)**, where you will need to write a paragraph about how would this experience
+The fellowships are available only to students or postdocs. The application
+deadline for in-person fellowships has passed but **you can still apply for a
+virtual fellowship, via [this
+form](https://docs.google.com/forms/d/e/1FAIpQLSdaA3EGI3LwEpWZfThSCA87DHKag7hSg1bhm-UUQfswkDWszQ/viewform)**.
+To apply, you will need to write a paragraph about how would this experience
 further your education and career. Additionally, each applicant must submit an
-abstract for consideration for inclusion into the conference program (more below).
+abstract for consideration for inclusion into the conference program (more
+below).
 
 Two types of fellowships are offered:
 - **2 in-person fellowships**: this will cover the conference and CoFest
@@ -33,14 +37,11 @@ from the conference organizers and the students.
 
 ## Timeline
 
-The following are a list of key dates for the fellowship application process.
-Please keep in mind there are abstract submission deadlines that are earlier
-than some of the fellowship due dates; check those on the [Key Dates
-page](/events/gcc2023/key-dates/).
+The following are a list of key dates for the fellowship application process:
 
 | Date   | What |
 | -----: | ---  |
-| April 14 | [Application deadline for in-person fellowships](https://docs.google.com/forms/d/e/1FAIpQLSdaA3EGI3LwEpWZfThSCA87DHKag7hSg1bhm-UUQfswkDWszQ/viewform) |
+| ~~April 14~~ | [Application deadline for in-person fellowships](https://docs.google.com/forms/d/e/1FAIpQLSdaA3EGI3LwEpWZfThSCA87DHKag7hSg1bhm-UUQfswkDWszQ/viewform) |
 | May 25    | Review results returned to applicants |
 | June 2   | [Application deadline for virtual fellowships](https://docs.google.com/forms/d/e/1FAIpQLSdaA3EGI3LwEpWZfThSCA87DHKag7hSg1bhm-UUQfswkDWszQ/viewform) |
 | June 12  | Review results returned to applicants |
