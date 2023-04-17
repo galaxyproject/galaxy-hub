@@ -22,6 +22,7 @@ As a user, you will be able to select between a number of built in themes, inclu
 - Smoky
 - Light Blue
 - Pride
+
 Server administrators may choose to provide additional themes for their users. If your
 admin has enabled this feature, you will find it under User → Preferences; just look for
 the bright red "New!"
