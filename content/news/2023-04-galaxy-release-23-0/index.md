@@ -97,5 +97,6 @@ details and instructions for upgrading your Galaxy installation.
 User facing release notes compiled and written by Helena Rasche.
 
 
+
 Thanks for using Galaxy!
 
