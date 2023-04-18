@@ -7,10 +7,8 @@ location:
   name: "Platform for Advanced Scientific Computing (PASC) Conference, Davos, Switzerland"
 image: 
 location_url: "https://pasc23.pasc-conference.org/"
-external_url: 
 contact: "Gregory Watson, Leandro Liborio, Kelly Elizabeth Nygren, Rolf Verberg, Sergey Yakubov, Hans-Rudolf Hotz"
-gtn: 
-subsites: 
+subsites: [global]
 tags: [esg-wp5, esg, conference]
 ---
 
