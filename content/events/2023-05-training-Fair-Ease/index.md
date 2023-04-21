@@ -11,4 +11,4 @@ contact: "Marie Josse"
 subsites: [all]
 ---
 
-First steps for the Fair-Ease partners on Galaxy with a training session on both the user and the developpement side of the platform.
+First steps for the EOSC FAIR-Ease partners on Galaxy with a training session on both the user and the tool developpement side of the platform.
