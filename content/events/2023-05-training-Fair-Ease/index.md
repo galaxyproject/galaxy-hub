@@ -8,6 +8,7 @@ location:
   name: In-person, Lille
 gtn: false
 contact: "Marie Josse"
+tags: [esg, eosc]
 subsites: [all]
 ---
 
