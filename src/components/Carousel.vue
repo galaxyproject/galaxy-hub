@@ -21,12 +21,6 @@
                     img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills."
                 ></b-carousel-slide>
             </a>
-            <a href="https://galaxyproject.org/events/2023-admin-training/" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/events/2023-04-gat/gat23-logo-square.png"
-                    img-alt="The Galaxy Admin Training is a free, in-person intensive training workshop for prospective and experienced Galaxy server administrators from April 17 to April 21, 2023 in Ghent, Belgium"
-                ></b-carousel-slide>
-            </a>
             <a href="https://gxy.io/smorgasbord3" target="_blank">
                 <b-carousel-slide
                     img-src="/images/events/2023-05-smorgasbord3/smorgasbord3-square.png"
