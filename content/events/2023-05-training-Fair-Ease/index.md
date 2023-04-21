@@ -6,7 +6,7 @@ tease: "[FAIR-EASE and EuroScienceGateway join forces](https://eosc.eu/news/stro
 continent: EU
 location:
   name: Lille (France)
-gtn: false
+gtn: true
 contact: "Marie Josse"
 tags: [esg, eosc]
 subsites: [all]
