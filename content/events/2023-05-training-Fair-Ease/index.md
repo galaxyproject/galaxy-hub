@@ -5,7 +5,7 @@ days: 2
 tease: "[FAIR-EASE and EuroScienceGateway join forces](https://eosc.eu/news/stronger-together-fair-ease-and-eurosciencegateway-join-forces).
 continent: EU
 location:
-  name: In-person, Lille
+  name: Lille (France)
 gtn: false
 contact: "Marie Josse"
 tags: [esg, eosc]
