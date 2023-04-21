@@ -5,6 +5,13 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 </div-->
 
+<div class="alert" style="background: #00d084;">
+#### **Act, don't criminalize!**
+
+Today, 21st of April 2023, a statement in support of peaceful, but resolved protest against insufficient climate politics got released and has been signed by more than 1000 scientists from German-speaking countries in Europe. Read [why members of the Freiburg, Germany branch of Galaxy Europe endorse this initiative](https://galaxyproject.org/news/2023-04-21-act-dont-criminalize/).
+
+</div>
+
 <div class="alert" style="background: #FFD500;">
 
 #### **Peace to Ukraine!**
