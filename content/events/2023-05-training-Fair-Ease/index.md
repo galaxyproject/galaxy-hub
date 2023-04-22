@@ -1,6 +1,6 @@
 ---
 title: "Galaxy training: Fair-Ease feat EuroScienceGateway"
-tease: "[FAIR-EASE and EuroScienceGateway join forces](https://eosc.eu/news/stronger-together-fair-ease-and-eurosciencegateway-join-forces).
+tease: "[FAIR-EASE and EuroScienceGateway join forces](https://eosc.eu/news/stronger-together-fair-ease-and-eurosciencegateway-join-forces)."
 date: '2023-05-16'
 days: 2
 continent: EU
