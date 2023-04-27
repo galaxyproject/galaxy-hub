@@ -41,8 +41,9 @@ to see how these numbers compare.
 
 **If you are currently working in a low-income country**, as defined by the
 World Bank, please email [Jenn Vessio](mailto:jvessio1@jhu.edu) before
-registering and ask for a 20% discount code that you can apply during
-registration.
+registering and ask for a 50% discount code that you can apply during
+registration. The [list of eligible countries is available in this
+document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
 | | Early (< May 12) | Full (<= June 16) | Late (> June 16) |
 | --- | ---: | ---: | ---: |
