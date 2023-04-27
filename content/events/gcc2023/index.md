@@ -64,9 +64,13 @@ Galaxy community.
   <!-- Abstracts -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/key-dates.png" class="card-img-top" alt="Key Dates" />
-    <div class="card-header">Call for abstracts</div>
+    <div class="card-header">Call for participation</div>
 
 **[Abstract submission is open](https://forms.gle/ETCPW8Vnprbij7zn6) for  posters and demos.**
+
+**[Registration is open](/events/gcc2023/register/)**, including a 50% discount
+for researchers working in a [low-income
+country](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
 Check the [Key Dates page](/events/gcc2023/key-dates/) for a most up-to-date
 list of deadlines and the [schedule page](/events/gcc2023/schedule/) for the
