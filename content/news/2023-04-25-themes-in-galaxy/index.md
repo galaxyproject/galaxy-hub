@@ -3,7 +3,7 @@ title: "Behind the curtains on Galaxy's themes"
 tease: "Details about Galaxy's new theming system, what it can do today, and what is planned for the future."
 hide_tease: false
 authors: "Laila Los"
-date: "2023-04-25"
+date: "2023-04-28"
 tags: ["UI/UX", "highlight"]
 subsites: [global]
 ---
@@ -14,7 +14,7 @@ In their current iteration, they are implemented only in the masthead, but will 
 
 This article will outline how to configure themes, how they work, some tips on developing new themes, and a hidden feature which may come in handy with highly customized Galaxy instances.
 
-## What are Themes?
+## 🎨 What are Themes?
 
 ![UseGalaxy.eu using the pride theme](./galaxy-eu-pride.png)
 
@@ -27,7 +27,7 @@ The setting to change your current theme can be found under user preferences.
 
 Further, themes can help tell apart sub-domains, as each sub-domain of a Galaxy instance can have it's own theme file.
 
-## Activate Themes
+## 🗒️ Activate Themes
 
 Activating the theming feature is as simple as setting the `themes_config_file` option in the galaxy config:
 
@@ -39,10 +39,9 @@ By default this will point to the sample themes file, containing 4 themes.
 
 The first theme in the themes file will always be the default theme which logged out users will see.
 
-*Tip!*
-
-If your running multiple sub-domains you can have a separate theme file per sub-domain.
-Simply change the `themes_config_file` option to:
+> ***Tip!*** - 
+> If your running multiple sub-domains you can have a separate theme file per sub-domain.
+> Simply change the `themes_config_file` option to:
 
 ```yaml
   themes_config_file_by_host:
@@ -54,7 +53,7 @@ Simply change the `themes_config_file` option to:
 
 [You can learn more about themes from an admin perspective on the Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/admin/tutorials/customization/tutorial.html)
 
-## The Anatomy of a Theme
+## 🪡 The Anatomy of a Theme
 
 ![Default Theme with themes ID / Name "blue" highlighted, the selectors "masthead", "text" and "color" highlighted, and the value "#f8f9fa" highlighted](./default_theme_annotated.png)
 
@@ -70,13 +69,13 @@ This makes the theming system very flexible and extensible.
 In order to make other parts of the UI themeable, all that has to be done is to replace the values with CSS variables,
 and the theming system will take care of the rest.
 
-## Making a theme
+## 🧑‍🎨 Making a Theme
 
 Where ever possible broad css shorthands are used (e.g. the `background` property instead of `background-color`).
 This allows for complex themes, like the pride theme, to use gradients and images.
 
-When creating your own theme, it can become very cumbersome to keep restarting the server and clearing the cache to see your changes in the browser.
-Instead I recommend using the browsers dev-tools.
+When creating your own theme, it can become very cumbersome to keep reloading the config and clearing the cache to see your changes in the browser.
+Instead you can use the browsers dev-tools.
 
 In Firefox you can access them under the Menu Icon in the top right -> More tools -> Web Developer tools, or via the keyboard shortcut `CTRL + SHIFT + I`.
 
@@ -100,14 +99,13 @@ We could change the value here, however a better place would be where we can aff
 
 Use the inspector to select the first `div` element inside `main`. This is where the theme is being applied.
 
-> *Note*
->
+> ***Note*** - 
 > Some values may be consumed via JavaScript instead of CSS. These currently include the `logo` selectors.
 
 Here you can now try the look of your new theme, by changing the values in the right-hand side of the Inspector.
 Once you are happy with them, copy them into the theme file into the appropriate selectors.
 
-## Super Secret Hidden Feature 🤫
+## 🤫 Super Secret Hidden Feature
 
 A side effect of theme files being converted to CSS variables is that they can be used within galaxy customizations, such as webhooks.
 
@@ -120,5 +118,7 @@ This would inject the CSS variable `--pdh-comics-box-color: red;` into the front
 If we then implement this CSS variable into the webhook, we can now apply themes to it!
 
 ---
+
+In the future we hope to integrate themes into many more parts of Galaxy, and even use them to ship a dark-mode with the default themes. 🌒
 
 I hope you are excited about the future of themes as we are, thank you for reading!
