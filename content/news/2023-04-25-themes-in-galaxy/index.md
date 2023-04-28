@@ -29,7 +29,7 @@ Further, themes can help tell apart sub-domains, as each sub-domain of a Galaxy 
 
 ## 🗒️ Activate Themes
 
-Activating the theming feature is as simple as setting the `themes_config_file` option in the galaxy config:
+Activating the theming feature is as simple as setting the `themes_config_file` option in the Galaxy config:
 
 ```yaml
   themes_config_file: themes_conf.yml
@@ -107,11 +107,11 @@ Once you are happy with them, copy them into the theme file into the appropriate
 
 ## 🤫 Super Secret Hidden Feature
 
-A side effect of theme files being converted to CSS variables is that they can be used within galaxy customizations, such as webhooks.
+A side effect of theme files being converted to CSS variables is that they can be used within Galaxy customizations, such as webhooks.
 
 ![The default theme with an additional section added, containing the selectors "phd-comics", "box", and "color" with the value "red"](./phd-comics-theme.png)
 
-Here we add a theme for the pdh comics webhook used in usegalaxy.eu which changes the webhooks boxes color to red.
+Here we add a theme for the pdh comics webhook used in [usegalaxy.eu](https://usegalaxy.eu) which changes the webhooks boxes color to red.
 
 This would inject the CSS variable `--pdh-comics-box-color: red;` into the front-end.
 
