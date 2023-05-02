@@ -115,7 +115,6 @@ This page contains short-term (6 to 12 months) roadmap of the project. It is org
 ## Outreach and Training
 
 1. Provide better support for the GTN & outreach
-    - Hire & onboard a communications specialist
     - Editing GTN
     - Search and apply for GTN related funding
 2. GTN infrastructure help
