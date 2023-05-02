@@ -84,7 +84,7 @@ approach the conference.
         <ol style="padding-left: 5px;">
             <li>Galaxy Tool Development</li>
             <li>Admin Roundtable</li>
-            <li>Galaxy for Ecology</li>
+            <li>Galaxy Tips and Tricks</li>
             <li>Genome Annotation</li>
             <li>Cancer Genomics</li>
         </ol>
