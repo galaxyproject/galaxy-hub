@@ -52,6 +52,8 @@ right:
             target: "/citing-galaxy/"
           - label: Branding
             target: "/images/galaxy-logos/"
+          - label: Roadmap
+            target: "/roadmap/"
     - label: Applications
       contents:
           - label: COVID-19
