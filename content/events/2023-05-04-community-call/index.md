@@ -1,5 +1,5 @@
 ---
-title: "Galaxy Community Call: King of the Quarries: Investigating the origins of quarry populations of the Caribbean king crab _(Maguimithrax spinosissimus)_ to advise coral reef recovery in the Florida Keys"
+title: "Galaxy Community Call: King of the Quarries: Investigating the origins of quarry populations of the Caribbean king crab (Maguimithrax spinosissimus) to advise coral reef recovery in the Florida Keys"
 date: '2023-05-04'
 days: 1
 tease: "A forum to share updates and discuss community-wide topics"
