@@ -1,4 +1,4 @@
-<div class="alert" style="background: ##f48225;">
+<div class="alert" style="background: #f8b63e;">
 
 #### **Maintenance: Dynamic job router switch**
 
