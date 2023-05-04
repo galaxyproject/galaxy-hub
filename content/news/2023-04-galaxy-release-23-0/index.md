@@ -46,7 +46,7 @@ other analyses! Now, you can focus on just the relevant data.
 
 Many of us over the years have struggled to find just the tool we were looking for. This
 latest release has a number of improvements specifically to make tool search better, 
-and on top of that, a whole new advanced tool!
+and on top of that, a whole new advanced tool search!
 
 ### Conditional Workflow Steps
 
