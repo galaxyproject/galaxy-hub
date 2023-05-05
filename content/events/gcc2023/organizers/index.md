@@ -40,7 +40,6 @@ Scientific program members are community volunteers who review the submitted abs
 * **Anne Claire Fouilloux**, Simula Research Laboratory, Norway
 * **Anna Syme**, Melbourne Bioinformatics, Australia
 * **Anshu Bhardwaj**, Interdisciplinary Research Center and CSIR-Institute of Microbial Technology, India
-* **Beáta Scholtz**, University of Debrecen Medical and Health Science Center, Hungary
 * **Bérénice Batut**, University of Freiburg, Germany
 * **Bryan Raubenolt**, Cleveland Clinic, United States
 * **Cameron Hyde**, University of Melbourne, Australia
@@ -53,7 +52,6 @@ Scientific program members are community volunteers who review the submitted abs
 * **Frederik Coppens**, VIB, Belgium
 * **Hans-Rudolf Hotz**,	Friedrich Miescher Institute for Biomedical Research, Switzerland
 * **Ivan Jakovlić**, BT Lab Wuhan, China
-* **Jeff Leek**, Fred Hutchinson Cancer Research Center, United States
 * **Jeremy Goecks**, Oregon Health & Science University, United States
 * **Justin Lee**, Queensland Cyber Infrastructure Foundation, Australia
 * **Margita Jadan**, Ruđer Bošković Institute, Croatia
@@ -65,7 +63,6 @@ Scientific program members are community volunteers who review the submitted abs
 * **Peter van Heusden**, University of the Western Cape, South Africa
 * **Ralf Weber**, University of Birmingham, England
 * **Ross Lazarus**, Galaxy Project Emeritus, Australia
-* **Sonika Tyagi**, Monash University, Australia
 * **Soyean Kim**, Simon Fraser University, Canada
 * **Thomas Harrop**, University of Melbourne, Australia
 * **Timothy Griffin**, University of Minnesota - Twin Cities, United States
