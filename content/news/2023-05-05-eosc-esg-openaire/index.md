@@ -12,9 +12,15 @@ subsites: [all-eu, esg, all]
 main_subsite: eu
 ---
 
-[![MoU_ESG_OpenAIRE](./mou-Galaxy-202d88cb.png)](https://www.openaire.eu/welcoming-an-open-science-webspace-for-the-galaxy-community)
+<div class='right'>
+<a href="https://www.openaire.eu/welcoming-an-open-science-webspace-for-the-galaxy-community">
+<img src="/news/2023-05-05-eosc-esg-openaire/mou-galaxy-openaire.png" alt="OpenAIRE and Galaxy joining forces, image with both logos" width="40%" /></a>
+</div>
+
 
 The **Open Access Infrastructure for Research in Europe (OpenAIRE)** is a pan-European network for research information and publications funded by the European Commission (EC). Operating since 2009, OpenAIRE is an integral part and a leading force behind the European Open Science Cloud (EOSC) developments. The Horizon 2020 OpenAIRE-Nexus project is the currently running funding phase, forming a consortium of 11 partners, bringing a set of services to implement and accelerate Open Science and tools embedded in researchers' workflows in Europe, EOSC and the world. Its mission is to make it easier for scientists to accept and uptake Open Science practices of openness and FAIRness.
+
+
 
 [**EuroScienceGateway**](https://galaxyproject.org/projects/esg/) started as an EOSC project in 2022 and aims to facilitate access to compute and storage infrastructures across Europe as well as to data, tools, workflows and services that can be customized to suit researchers’ needs. At the heart of the proposal, workflows will integrate with the EOSC-Core. Adoption, development and implementation of technologies to interoperate across services will allow researchers to produce high-quality FAIR data available to all in EOSC.
 
