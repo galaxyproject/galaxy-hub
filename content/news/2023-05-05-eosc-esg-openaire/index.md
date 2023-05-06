@@ -8,7 +8,6 @@ supporters:
 - elixir
 - eosc
 - esg
-external_url: "https://eosc.eu/news/stronger-together-fair-ease-and-eurosciencegateway-join-forces"
 subsites: [all-eu, esg, all]
 main_subsite: eu
 ---
