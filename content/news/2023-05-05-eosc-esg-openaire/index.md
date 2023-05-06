@@ -1,7 +1,7 @@
 ---
 title: 'Joining forces in EOSC: OpenAIRE and EuroScienceGateway sign Memorandum of Understanding'
 tease: 'EuroScienceGateway and OpenAIRE team up to enhance accessibility and FAIRness of scientific data from the Galaxy project.'
-date: '2023-04-17'
+date: '2023-05-05'
 tags: [esg]
 supporters:
 - denbi
