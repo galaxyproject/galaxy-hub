@@ -22,10 +22,13 @@ You could specify that for every single tool, but as you can guess, with over 8,
 
 In order to determine job execution parameters at runtime and based on factors such as the job inputs, the user submitting the job, cluster status, etc, we needed a different approach
 Galaxy lets you do that with [`Dynamic Destination Mapping`](https://docs.galaxyproject.org/en/latest/admin/jobs.html#dynamic-destination-mapping).
-In the past we used this approach with our own python script, which was called [`Sorting Hat`](https://github.com/usegalaxy-eu/sorting-hat).  
+
+In May of 2018, UseGalaxy.eu started a new project: the [`Sorting Hat`](https://github.com/usegalaxy-eu/sorting-hat). The name comes from the character in Harry Potter, so chosen because at the time UseGalaxy.eu had multiple independent clusters backing its computation. The hat sorted those jobs into their "houses": the clusters on which they would run. It was initially conceived of as "Job Configuration as a Service" and we thought about making it an API endpoint available for all Galaxies, but we decided to scale back our ambitions.
+
 This python script dynamically modified destinations based on rules that evaluate the specific job characteristics, for example the dataset input size.
-This allows you to allocate more memory for your job based on the input file size.  
-In light of J.K. Rowling's controversial personal views and statements, we would certainly have chosen the name differently today.  
+This allows you to allocate more memory for your job based on the input file size.
+
+In light of J.K. Rowling's controversial personal views and statements, we would certainly have chosen the name differently today[^1]
 
 ## Why change a running system?
 So far so good – this python script did its job well for some years, but also came with some limitations.
@@ -39,3 +42,9 @@ With the help of Galaxy Australia's admin Catherine Bromhead, we managed to migr
 
 ## How can you contribute?
 TPV makes use of a [shared library](https://github.com/galaxyproject/tpv-shared-database) that is maintained in GitHub, making it easy for everyone in the community to contribute. This library defines resources and parameters that are valid across all Galaxy instances. You can install TPV to your machine and `format`, `lint` and even `dry-run` the configuration, before deploying in production. Once the tests are passing, the pull request gets accepted and all Galaxy servers that are using the shared library will automatically fetch the updated rules.
+
+## Small Scale Admins Take Note
+The [TPV Shared Database](https://github.com/galaxyproject/tpv-shared-database) is a key feature for small admins and will save you significant amounts of time maintaining a small Galaxy instance. For most tools you might want to install, it will already have an entry for the recommended CPU and Memory requirements. It's just up to you to define the maximum memory and cores that are appropriate for your compute resources, and a small TPV config will take care of the rest! If you want to read more about setting up the TPV and TPV Shared Database, the [Galaxy Training Materials](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html#configuring-the-tpv-shared-database).
+
+
+[^1]: The Harry Potter reference was chosen by a trans sysadmin; she regrets not changing it earlier but it would have involved some migration and risked downtime for a non-user facing component which resulted in a low priority.
