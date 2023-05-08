@@ -13,7 +13,7 @@ main_subsite: eu
 ---
 
 
-# Mothballing the Sorting Hat
+# Mothballing the Sorting Hat[^mothball]
 
 ## An old hat
 usegalaxy.eu runs more than 1 million jobs per month. All these jobs have different demands and use different resources and technologies, like Docker, Apptainer etc., which need all sorts of parameters and environment variables. Galaxy handles jobs with resource managers like SLURM, HTCondor or the remote job execution system Pulsar.
@@ -48,4 +48,6 @@ TPV makes use of a [shared library](https://github.com/galaxyproject/tpv-shared-
 The [TPV Shared Database](https://github.com/galaxyproject/tpv-shared-database) is a key feature for small admins and will save you significant amounts of time maintaining a small Galaxy instance. For most tools you might want to install, it will already have an entry for the recommended CPU and Memory requirements. It's just up to you to define the maximum memory and cores that are appropriate for your compute resources, and a small TPV config will take care of the rest! If you want to read more about setting up the TPV and TPV Shared Database, the [Galaxy Training Materials](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html#configuring-the-tpv-shared-database).
 
 
+[^mothball]: [An English expression for taking something out of service](https://en.wiktionary.org/wiki/mothballing)
 [^1]: The Harry Potter reference was chosen by a trans sysadmin; she regrets not changing it earlier but it would have involved some migration and risked downtime for a non-user facing component which resulted in a low priority.
+
