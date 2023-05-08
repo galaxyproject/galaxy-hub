@@ -13,7 +13,7 @@ main_subsite: eu
 ---
 
 
-# Mothballing the Sorting Hat[^mothball]
+# Mothballing the Sorting Hat
 
 ## An old hat
 usegalaxy.eu runs more than 1 million jobs per month. All these jobs have different demands and use different resources and technologies, like Docker, Apptainer etc., which need all sorts of parameters and environment variables. Galaxy handles jobs with resource managers like SLURM, HTCondor or the remote job execution system Pulsar.
@@ -28,7 +28,7 @@ In May of 2018, UseGalaxy.eu started a new project: the [`Sorting Hat`](https://
 This python script dynamically modified destinations based on rules that evaluate the specific job characteristics, for example the dataset input size.
 This allows you to allocate more memory for your job based on the input file size.
 
-In light of J.K. Rowling's controversial personal views and statements, we would certainly have chosen the name differently today[^1]
+In light of J.K. Rowling's controversial personal views and statements, we would certainly have chosen the name differently today[^naming]
 
 ## Why change a running system?
 So far so good – this python script did its job well for some years, but it also came with some limitations.
@@ -48,6 +48,9 @@ TPV makes use of a [shared library](https://github.com/galaxyproject/tpv-shared-
 The [TPV Shared Database](https://github.com/galaxyproject/tpv-shared-database) is a key feature for small admins and will save you significant amounts of time maintaining a small Galaxy instance. For most tools you might want to install, it will already have an entry for the recommended CPU and Memory requirements. It's just up to you to define the maximum memory and cores that are appropriate for your compute resources, and a small TPV config will take care of the rest! If you want to read more about setting up the TPV and TPV Shared Database, the [Galaxy Training Materials](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html#configuring-the-tpv-shared-database).
 
 
+## Footnotes:
+
 [^mothball]: [An English expression for taking something out of service](https://en.wiktionary.org/wiki/mothballing)
-[^1]: The Harry Potter reference was chosen by a trans sysadmin; she regrets not changing it earlier but it would have involved some migration and risked downtime for a non-user facing component which resulted in a low priority.
+
+[^naming]: The Harry Potter reference was chosen by a trans sysadmin; she regrets not changing it earlier but it would have involved some migration and risked downtime for a non-user facing component which resulted in a low priority.
 
