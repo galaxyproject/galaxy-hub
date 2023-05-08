@@ -17,9 +17,10 @@ main_subsite: eu
 
 ## An old hat
 usegalaxy.eu runs more than 1 million jobs per month. All these jobs have different demands and use different resources and technologies, like Docker, Apptainer etc., which need all sorts of parameters and environment variables. Galaxy handles jobs with resource managers like SLURM, HTCondor or the remote job execution system Pulsar.
-But how do these resource managers know which resources each individual job needs?  
-You could now specify that for every single tool, but as you can guess, with over 8,000 tools and many different possibilities to compute a job, this approach leads to chaotic unmaintainable static lists.
-In order to determine job execution parameters at runtime and based on factors such as the job inputs,  the user submitting the job, cluster status, etc, we needed a different approach.  
+But how do these resource managers know which resources each individual job needs?
+You could specify that for every single tool, but as you can guess, with over 8,000 tools and many different possibilities to compute a job, this approach leads to chaotic and unmaintainable static lists.
+
+In order to determine job execution parameters at runtime and based on factors such as the job inputs, the user submitting the job, cluster status, etc, we needed a different approach
 Galaxy lets you do that with [`Dynamic Destination Mapping`](https://docs.galaxyproject.org/en/latest/admin/jobs.html#dynamic-destination-mapping).
 In the past we used this approach with our own python script, which was called [`Sorting Hat`](https://github.com/usegalaxy-eu/sorting-hat).  
 This python script dynamically modified destinations based on rules that evaluate the specific job characteristics, for example the dataset input size.
