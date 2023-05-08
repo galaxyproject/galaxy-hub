@@ -1,8 +1,12 @@
 ---
 title: "Job router switch on EU"
 date: "2023-05-08"
-tease: "Mothballing the Sorting Hat"
+tease: "Mothballing the Sorting Hat – how we migrated our dynamic job routing"
 hide_tease: false
+authors: 'Mira Kuntz, Helena Rasche'
+authors_structured:
+- github: mira-miracoli
+- github: hexylena
 tags: [EU]
 subsites: [all-eu]
 main_subsite: eu
