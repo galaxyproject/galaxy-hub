@@ -27,7 +27,7 @@ This allows you to allocate more memory for your job based on the input file siz
 In light of J.K. Rowling's controversial personal views and statements, we would certainly have chosen the name differently today.  
 
 ## Why change a running system?
-So far so good – this python script did it’s job well for some years, but also came with limits.
+So far so good – this python script did its job well for some years, but also came with some limitations.
 Even though it supported individual rules, defining them was more complicated, less clear structured and also had limited functionality. The other reason was saving time by sharing a unified job routing system across all Galaxy instances. When every Galaxy instance maintains their own scripts and rules, you also get different results on different instances and admins have to spend a big share of their time communicating and implementing new rules in their custom scripts.
 
 ## The Total Perspective Vortex
