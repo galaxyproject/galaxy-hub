@@ -11,7 +11,7 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
-Sabbaghian and colleagues have used the [European Galaxy server](https://usegalaxy.eu) to ientify a signature of seven stable miRNAs which dysregulate in several cancer types and may serve as potential pan-cancer biomarkers. Read their [paper](https://www.frontiersin.org/articles/10.3389/fmolb.2022.1030749/full) about their findings.
+Sabbaghian and colleagues have used the [European Galaxy server](https://usegalaxy.eu) to identify a signature of seven stable miRNAs which dysregulate in several cancer types and may serve as potential pan-cancer biomarkers. Read their [paper](https://www.frontiersin.org/articles/10.3389/fmolb.2022.1030749/full) about their findings.
 
 **Congratulations** to this nice publication and thanks for using the **European Galaxy server** and sharing your results with us!
 

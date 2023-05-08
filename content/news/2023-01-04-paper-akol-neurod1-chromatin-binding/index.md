@@ -1,7 +1,7 @@
 ---
 title: 'New Paper "Multimodal epigenetic changes and altered NEUROD1 chromatin binding in the mouse hippocampus underlie FOXG1 syndrome"'
 date: "2023-01-04"
-tease: "Akol _et al._ analyzed mouse FOXG1 functions on the chromatin level, having processed the multiomics data set on the European Galaxy server."
+tease: "Akol *et al.* analyzed mouse FOXG1 functions on the chromatin level, having processed the multiomics data set on the European Galaxy server."
 hide_tease: true
 tags:
 - paper

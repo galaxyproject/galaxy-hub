@@ -1,7 +1,7 @@
 ---
 title: 'New Paper "STAT3 signaling induced by the IL-6 family of cytokines modulates angiogenesis"'
 date: "2023-01-03"
-tease: "Rapp _et al._ investigated on IL-6 cytokines effects on angiogenesis invoking STAT3 signaling pathway, relying on the European Galaxy server"
+tease: "Rapp *et al.* investigated on IL-6 cytokines effects on angiogenesis invoking STAT3 signaling pathway, relying on the European Galaxy server"
 hide_tease: true
 tags:
 - paper
