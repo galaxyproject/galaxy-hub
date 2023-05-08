@@ -8,7 +8,6 @@ supporters:
 - elixir
 - eosc
 - esg
-external_url: "https://www.openaire.eu/welcoming-an-open-science-webspace-for-the-galaxy-community"
 subsites: [all-eu, esg, all]
 main_subsite: eu
 ---
