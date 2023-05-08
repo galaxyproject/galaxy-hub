@@ -31,12 +31,13 @@ This allows you to allocate more memory for your job based on the input file siz
 In light of J.K. Rowling's controversial personal views and statements, we would certainly have chosen the name differently today[^1]
 
 ## Why change a running system?
-So far so good – this python script did its job well for some years, but also came with some limitations.
-Even though it supported individual rules, defining them was more complicated, less clear structured and also had limited functionality. The other reason was saving time by sharing a unified job routing system across all Galaxy instances. When every Galaxy instance maintains their own scripts and rules, you also get different results on different instances and admins have to spend a big share of their time communicating and implementing new rules in their custom scripts.
+So far so good – this python script did its job well for some years, but it also came with some limitations.
+Even though it supported individual rules, defining them was more complicated, not clearly structured and also had limited functionality. The other goal is to save time by sharing a unified job routing system across all Galaxy instances. When every Galaxy instance maintains their own scripts and rules, you also get different results on different instances and admins have to spend a big share of their time communicating and implementing new rules in their custom scripts.
 
 ## The Total Perspective Vortex
 Galaxy Australia came up with a more sophisticated approach that is available as a [PyPi package](https://pypi.org/galaxyproject/total-perspective-vortex) and lets you define tags and rules on all entities, like users, roles, tools and destinations. These tags can be specified as accepted, preferred, required and rejected. Inheritance makes it easy to give tags for example to groups of tools like tools that need to run in Docker. During the matching process all tags from the job-side (user, role, tool) and from the destination-side are evaluated.
-And because it evaluates really everything it was named [`Total Perspective Vortex`](https://total-perspective-vortex.readthedocs.io) (TPV) after Douglas Adams’ _The Hitchhiker's Guide to the Galaxy_.  
+And because it evaluates really everything it was named [`Total Perspective Vortex`](https://total-perspective-vortex.readthedocs.io) (TPV) after Douglas Adams’ _The Hitchhiker's Guide to the Galaxy_.
+
 With all that functionality, TPV is not tied to a specific Galaxy instance, but rather is a generalized and flexible approach that fits all needs.
 With the help of Galaxy Australia's admin Catherine Bromhead, we managed to migrate our Galaxy instance from Sorting Hat to TPV last week. Despite minor scheduling issues that affected mainly Docker tools, we can consider this migration smooth and user friendly.
 
