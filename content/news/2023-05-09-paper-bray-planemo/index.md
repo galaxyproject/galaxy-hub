@@ -23,9 +23,9 @@ Planemo is implemented as a Python package and distributed via GitHub, PyPI, and
 
 Planemo's documentation is hosted on a (ReadTheDocs site)[https://planemo.readthedocs.io]. In addition, there are several tutorials as part of the Galaxy Training Network. For instance, available are: 
 
-* (Creating Galaxy tools from Conda through deployment) [https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html]
+* (Creating Galaxy tools from Conda through deployment)[https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html]
 
-* (Creating training material with Planemo)[https:// training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html]
+* (Creating training material with Planemo)[https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html]
 
 * (Automating Galaxy workflows using the command line)[https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html]
 
