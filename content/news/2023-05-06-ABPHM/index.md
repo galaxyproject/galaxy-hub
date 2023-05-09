@@ -1,7 +1,7 @@
 ---
 title: Galaxy taking part @ Applied Bioinformatics & Public Health Microbiology 2023
 date: '2023-05-06'
-tease: "During 2nd to the 5th of May, Engy Nasr from the Freiburg Galaxy team travelled to Hinxton, England to join the Applied Bioinformatics & Public Health Microbiology 2023"
+tease: "From the 3rd to the 5th of May, Engy Nasr from the Freiburg Galaxy team travelled to Hinxton, England to join the Applied Bioinformatics & Public Health Microbiology 2023"
 location:
   name: Hinxton, UK
 tags: [conference, talk, bioinformatics showcase, pathogen detection]
@@ -12,12 +12,12 @@ components: true
 subsites: [all-eu]
 ---
 
-During 2nd to the 5th of May, Engy Nasr from the Freiburg Galaxy team travelled to Hinxton, England to join the [**Applied Bioinformatics & Public Health Microbiology 2023**](https://coursesandconferences.wellcomeconnectingscience.org/event/applied-bioinformatics-public-health-microbiology-20230503/).
+From the 3rd to the 5th of May, Engy Nasr from the Freiburg Galaxy team travelled to Hinxton, England to join the [**Applied Bioinformatics & Public Health Microbiology 2023**](https://coursesandconferences.wellcomeconnectingscience.org/event/applied-bioinformatics-public-health-microbiology-20230503/).
 
 <twitter tweet="1653738329647595521"></twitter>
 <twitter tweet="1654050208056049665"></twitter>
 
-The 9th Applied Bioinformatics and Public Health Microbiology conference, which took place in the wellcome connecting Campus, provided a multidisciplinary forum to demonstrate how advances in microbial and viral genomics, bioinformatics, data science, and sequencing technology are being used to meet the needs of public health.
+The 9th Applied Bioinformatics and Public Health Microbiology conference, which took place in the wellcome connecting campus, provided a multidisciplinary forum to demonstrate how advances in microbial and viral genomics, bioinformatics, data science, and sequencing technology are being used to meet the needs of public health.
 
 This year’s meeting focused on how these advances are transforming public health across the globe, including lessons learned from the SARS-Cov2 pandemic. The conference included sessions exploring public health genomics, genomic epidemiology, metagenomics for surveillance, and new bioinformatics approaches – focusing on pipelines and data management. A large proportion of the programme was chosen from submitted abstracts.
 
@@ -35,5 +35,4 @@ On the third and last day; we had a panel discussion regarding preparing for the
 
 <twitter tweet="1654485708378128388"></twitter>
 
-
-
+Overall, I have really enjoyed attending the conference. I met a lot of scientist working on similar projects where we had a chance to exchange our knowledge. I would like to thank the Microbial Genomics for choosing my abstract to win the award and the Wellcome genome campus of having me attenging the conference. Wish to see all the people I met in 2 years in the 10th Applied Bioinformatics and Public Health Microbiology conference.
