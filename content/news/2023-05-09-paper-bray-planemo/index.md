@@ -31,7 +31,7 @@ Planemo's documentation is hosted on a (ReadTheDocs site)[https://planemo.readth
 
 * (Test-driven development with Planemo)[https:// planemo.readthedocs.io/en/latest/writing_advanced.html#test-driven-development]
 
-Furthermore, a frequently asked questions (FAQ) page is available at (ReadTheDocs)[https:// planemo.readthedocs.io/en/latest/faqs.html].
+Furthermore, a frequently asked questions (FAQ) page is available at (ReadTheDocs)[https://planemo.readthedocs.io/en/latest/faqs.html].
 
 
 We thank the broader Galaxy community for their support and software development efforts!
