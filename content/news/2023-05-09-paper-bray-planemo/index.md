@@ -29,7 +29,7 @@ Planemo's documentation is hosted on a (ReadTheDocs site)[https://planemo.readth
 
 * (Automating Galaxy workflows using the command line)[https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html]
 
-* (Test-driven development with Planemo)[https:// planemo.readthedocs.io/en/latest/writing_advanced.html#test-driven-development]
+* (Test-driven development with Planemo)[https://planemo.readthedocs.io/en/latest/writing_advanced.html#test-driven-development]
 
 Furthermore, a frequently asked questions (FAQ) page is available at (ReadTheDocs)[https://planemo.readthedocs.io/en/latest/faqs.html].
 
