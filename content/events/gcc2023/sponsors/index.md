@@ -9,8 +9,11 @@ autotoc: false
 GCC sponsors are potential partners in everyone's success, plus they make GCC
 affordable and accessible.
 
-## Silver sponsor
+## Silver sponsors
 
+<a href="https://www.limagrain.com/en" target="_blank">
+  <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 30%;" />
+</a>
 <a href="https://galaxyworks.io/" target="_blank">
   <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 30%;" />
 </a>
