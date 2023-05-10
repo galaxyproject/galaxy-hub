@@ -33,11 +33,14 @@ subsites: [all]
 <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary">
     <strong>Register now</strong>
 </a>
-<br>
+◇
 <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
     <strong>Submit an abstract</strong>
 </a>
-
+◇
+<a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
+    <strong>Preview the program</strong>
+</a>
 </div>
 
 <div class="card-deck lead">
