@@ -13,7 +13,7 @@ autotoc: false
       <strong>Submit an abstract</strong>
   </a>
   ◇
-  <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
+  <a target="_blank" href="/events/gcc2023/schedule/#schedule" type="button" class="btn btn-primary">
       <strong>Preview the program</strong>
   </a>
 </div>
