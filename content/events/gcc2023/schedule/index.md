@@ -46,6 +46,7 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 |                    | 13:30 - 16:00 | Hands-on training 3                          |
 |                    | 16:00 - 16:45 | Talks session 8: Looking Ahead               |
 | Friday - Sunday    | 09:00 - 17:00 | CoFest                                       |
+
 ## Keynote speakers
 
 GCC2023 is excited to present three keynote speakers that collectively will

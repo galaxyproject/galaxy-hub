@@ -65,20 +65,36 @@ presentations) that will resonate with GCC2023 participants.
 | Date   | What |
 | -----: | ---  |
 | ~~Feb 24~~ | Abstract submission opens |
-| ~~Apr 14~~  | Abstracts due for short and long talks (extended from April 3) |
-| May 2 | Talk reviews returned (extended from April 25) |
+| ~~Apr 14~~ | Abstracts due for short and long talks (extended from April 3) |
+| ~~May 2~~  | Talk reviews returned (extended from April 25) |
 | **Jun 2**  | **Abstracts due for posters/demos** |
 | Jun 12 | Poster/demo acceptance announcements |
+| Jun 22 | Deadline for registering a BoF |
+| Jun 27 | Deadline for submitting your accepted poster to the organizers |
 
 
-## Option to publish in F1000 Galaxy gateway
+# Birds of a Feather (BoF) sessions
+
+Birds of a Feather, or BoF, sessions are informal gatherings during GCC that
+allow participants to discus topics of interest. These are free-form events
+that are organized by the participants and can take any form you'd like (eg,
+presentations, brainstorming, architecture drawing, etc.).
+
+**Interested in organizing a BoF? [Fill out this
+form](https://forms.gle/UU6o9bT329kP9HS7A)** with some details so we can add it
+to the schedule and help advertise. Also, peep an open mind and feel free to
+propose fun activities as well, such as an evening run or a city tour.
+
+
+# Option to publish in F1000 Galaxy gateway
+
 Following GCC2023, you'll have an option to publish your slides or poster in the
 [F1000 Galaxy gateway](https://f1000research.com/gateways/galaxy/). Besides
 being a great collection of Galaxy-related content, each published artifact gets
 a [DOI](https://www.doi.org/), making it easier to reference in the future.
 
 
-## Questions?
+# Questions?
 
-Got questions about abstracts or abstract submission? Ask the [Scientific Program
+Got questions about abstracts, abstract submission, or BoFs? Ask the [Scientific Program
 Committee](https://galaxyproject.org/events/gcc2023/organizers/#scientific-program-committee).
