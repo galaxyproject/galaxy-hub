@@ -75,12 +75,11 @@ Galaxy community.
 for researchers working in a [low-income
 country](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
+**[BoF submission is open](https://forms.gle/UU6o9bT329kP9HS7A).**
+
 Check the [Key Dates page](/events/gcc2023/key-dates/) for a most up-to-date
 list of deadlines and the [program page](/events/gcc2023/schedule/) for the
 planned program.
-
-You help make GCC be a great event so share your work with a welcoming and
-inspiring community.
 
 **Topics of interest include** methods, tools, pipelines, trainings, or software
 that push the field of data science with Galaxy forward.
