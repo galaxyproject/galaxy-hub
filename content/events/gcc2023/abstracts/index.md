@@ -35,6 +35,36 @@ or demos can be presented virtually and at least one of the authors must
 register and be available on Zoom/Slack during their scheduled session.
 
 
+## Poster details
+
+Posters at GCC2023 will be presented in a digital format, on large, TV-sized
+monitors (image below). To accommodate this format, **you must use [this
+Powerpoint presentation
+template](https://docs.google.com/presentation/d/1VtwTMaEB-GnRb-XR6MQjpLCcdg7Uzz5f/edit?usp=sharing&ouid=100125360277624035474&rtpof=true&sd=true)**
+to create your poster. Make a copy of the Powerpoint file and build your poster.
+Once you created the poster, use the poster title as the file name and upload a
+PNG or JPG version of the file to this [Google Drive
+folder](https://drive.google.com/drive/folders/1G7oFQyjtcZ6yLK7wt8Njg7sBa777d1BO?usp=sharing)
+(you will need to sign in using a Google ID).
+
+Complete details about creating a poster from the venue IT are available in
+[this PDF](https://drive.google.com/file/d/1hrPtuuvvhkbEt1eoFIlh9JKAS8ncDDSH/view?usp=sharing).
+
+Because the venue IT department will roll out the posters to the monitors,
+**you will need to upload the poster by June 27, 2023**.
+
+There is [#poster-chat channel](https://gcc2023.slack.com/archives/C058E0U8UC9)
+on [GCC2023 conference
+Slack](https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg).
+This channel will be used by virtual attendees and allow asynchronous
+communication about the posters so please join this Slack channel and upload
+your poster.
+
+<div style="min-width: 50%; max-width: 30rem; margin-left: auto; margin-right: auto;">
+  <img src="/images/events/gcc2023/qut-cube.jpg" alt="QUT Cube" />
+</div>
+
+
 ## Abstract guidelines
 
 We have several guidelines that will help you craft abstracts (and then
