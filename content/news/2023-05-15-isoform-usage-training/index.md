@@ -20,7 +20,7 @@ This new Galaxy training explores the isoform switching concept and provides a s
 
 <div class='center'>
 <a href="https://aacrjournals.org/mcr/article/15/9/1206/268100/The-Landscape-of-Isoform-Switches-in-Human">
-<img src="/news/2023-05-17-isoform-usage-training/isoformswitchanalyzer.jpeg" alt="Overview of computational pipeline for isoform detection and functional prediction. Adapted from Vitting-Seerup et Sandelin, 2017." width="70%" /></a>
+<img src="/news/2023-05-15-isoform-usage-training/isoformswitchanalyzer.jpeg" alt="Overview of computational pipeline for isoform detection and functional prediction. Adapted from Vitting-Seerup et Sandelin, 2017." width="70%" /></a>
 </div>
 
 A second important aspect of this pipeline is that it allows to evaluate alternative splicing at two different levels: gene-specific and genome-wide scale. This dual-approach allows not only to indentify specific genes, but also prividing an analytical instrument for the study of genome-wide regulatory networks. Finally, a third important element of this training, directly derived from the operational capabilities of IsoformSwitchAnalyzeR, is that it allows to integrate multiple layers of information in the analysis. Concretely, in order to evaluate the functional consequences of the isoform switching events, IsoformSwitchAnalyzeR allows to integrate information bout coding-potential, protein-domains, signal peptides and instrinsically disordered regions.
