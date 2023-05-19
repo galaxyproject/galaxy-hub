@@ -2,34 +2,6 @@
 title: usegalaxy.org
 ---
 
-<div class="alert trim-p mt-2" style="background: #FFD500;">
-
-🇺🇦 The global community has created a **[continuously updated list][ua-table]** of laboratories that can host Ukrainian scientists at all career levels. If your lab can host a scientist -- add your name to the list **[here][ua-form]**. In addition, Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]**
-
-<br/>
-
-Світова наукова спільнота створила **[список лабораторій][ua-table]**, що постійно оновлюється та які можуть прийняти українських науковців усіх рівнів, у тому числі й аспірантів. Якщо ваша лабораторія має можливість запросити -- ви можете додати ваше ім’я до списку тут. Окрім того, Galaxy Project має відкриті вакансії у своīх європейських та американських осередках. Пишіть нам на **[ukraine@galaxyproject.org][ua-mail]**
-
-<br/>
-
-Научное сообщество создало постоянно обновляемый **[список лабораторий][ua-table]**, которые могут принять украинских ученых (включая аспирантов). К тому же, Galaxy Project имеет открытые позиции на своих европейских и американских сайтах.  Контактируйте нас используя **[ukraine@galaxyproject.org][ua-mail]**
-
-</div>
-
----
-
-#### **Galaxy** is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy [start here][galaxy-101] or consult our <a id="toggleHelp">help resources</a>. You can install your own Galaxy by following the [tutorial][get-galaxy] and choose from thousands of tools from the [Tool Shed](https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial).
-
-<div class="text-center my-5">
-
-[![The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills.](/images/events/gcc2023/gcc2023-logo.png)](https://galaxyproject.org/events/gcc2023/)
-
-Join us in Brisbane, Australia July 10-16 for [the 2023 Galaxy Community Conference](https://galaxyproject.org/events/gcc2023/). [Early registration opens on Feb 17 and abstracts are due by Apr 3](https://galaxyproject.org/events/gcc2023/key-dates/).
-
-</div>
-
----
-
 <div class="text-center my-5">
 
 **Donate to the James P. Taylor Foundation for Open Science**
@@ -81,7 +53,6 @@ This is a free, public, internet accessible resource. Data transfer and data sto
 See the [Terms of Service and Privacy Policy][terms] for more information, including our cookie policy.
 
 [hub]: http://galaxyproject.org/
-[galaxy-101]: https://usegalaxy.org/galaxy101
 [get-galaxy]: http://getgalaxy.org
 [cloud-galaxy]: http://usegalaxy.org/cloud
 [jxtx-foundation]: https://jxtxfoundation.org/
@@ -97,7 +68,3 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 [nih]: https://www.nih.gov/
 [nhgri]: http://www.genome.gov
 [terms]: https://usegalaxy.org/static/terms.html
-
-[ua-table]: https://bit.ly/ua-table
-[ua-form]: https://bit.ly/ua-form
-[ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"

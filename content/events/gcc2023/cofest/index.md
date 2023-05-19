@@ -1,3 +1,7 @@
+---
+autotoc: false
+---
+
 <slot name="/events/gcc2023/header" />
 
 ## GCC2023 CollaborationFest (CoFest!)
@@ -38,4 +42,6 @@ CoFest will be held for the last 3 days for GCC2023 - from July 14 through July 
 
 ## Registration
 
-Registration details are still being worked out. Please check back here in a few weeks.
+To attend CoFest, please [register using the
+portal](https://gcc-2023.eventbrite.com.au/). There is a AU$30 registration fee,
+used to cover drinks and lunch during the 3-day event.

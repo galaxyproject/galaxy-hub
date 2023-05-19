@@ -183,6 +183,8 @@ This workshop is over, all the training materials will stay online at [https://t
 - Engy Nasr, University of Freiburg, Germany
 - Anna Henger, Biolytix, Switzerland
 - Hans-Rudolf Hotz, Friedrich Miescher Institute for Biomedical Research, Switzerland
+- Peter van Heusden, University of the Western Cape, South Africa
+- Tunc Kayikcioglu, University of Freiburg, Germany
 
 # Organizers
 

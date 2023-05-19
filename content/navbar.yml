@@ -52,6 +52,8 @@ right:
             target: "/citing-galaxy/"
           - label: Branding
             target: "/images/galaxy-logos/"
+          - label: Roadmap
+            target: "/roadmap/"
     - label: Applications
       contents:
           - label: COVID-19
@@ -60,5 +62,7 @@ right:
             target: "/projects/mpxv/"
           - label: VGP
             target: "/projects/vgp/"
+          - label: Microbial
+            target: "/projects/microbial/"
     - label: "@jxtx"
       target: https://jxtxfoundation.org/

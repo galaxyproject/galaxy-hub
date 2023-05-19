@@ -4,7 +4,7 @@ title: Account quotas
 [Back to Support Hub](/support/)
 
  Related topic:
-  
+
 * [Delete versus Delete Permanently](/learn/managing-datasets/#delete-vs-delete-permanently)
 
 Tutorials
@@ -20,7 +20,7 @@ If you are working at [Galaxy Main](/main/) (https://usegalaxy.org), each regist
 Should you have questions after reviewing the options below, this is how to get help:
 
 * Review prior Q`&`A or ask a novel question at the **Galaxy Help** forum https://help.galaxyproject.org/.
-* Chat with us at **Gitter** https://gitter.im/galaxyproject/Lobby/.
+* Chat with us at **Gitter** https://gitter.im/galaxyproject/Lobby.
 * Send an **email** to [galaxy-bugs@lists.galaxyproject.org](mailto:galaxy-bugs@lists.galaxyproject.org) from your registered account email address.
 * **All options** [https://galaxyproject.org/support/#help-resources](/support/#help-resources).
 
@@ -44,7 +44,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/main/):
 
 ### Find Histories that have been shared with you, and unshare those not needed
 
-To know more about unsharing unwanted histories, follow [this FAQ](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_unsharing_histories.html). 
+To know more about unsharing unwanted histories, follow [this FAQ](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_unsharing_histories.html).
 
 ### [Reduce quota usage while still retaining prior work (data, tools, methods)](https://training.galaxyproject.org/training-material/faqs/galaxy/account_reduce_quota_usage.html)
 

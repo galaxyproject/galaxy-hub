@@ -8,6 +8,6 @@ autotoc: false
 
 * Galaxy Team member
 * Email: [marten@bx.psu.edu](mailto:marten@bx.psu.edu)
-* Twitter: https://twitter.com/martenson
+* Mastodon: https://mastodon.world/@martenson
 * GitHub: https://github.com/martenson
 

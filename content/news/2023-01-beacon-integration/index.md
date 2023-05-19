@@ -3,7 +3,7 @@ title: 'Simple and data privacy-aware publishing of genomic variance data from G
 date: "2023-01-24"
 tease: "Galaxy has gained a Beacon integration that enables users to publish genetic variance data conveniently via Beacon project"
 tags: [collaboration, usecase, esg]
-subsites: [global,all]
+subsites: [global,all,esg]
 ---
 
 Science is most efficient when researchers share their data and results, so others can re-use them. Some datasets, however, cannot easily be shared
@@ -81,3 +81,5 @@ and are happy to receive feedback.
 
 Thanks to Benno Weiß, Mira Kuntz and Wolfgang Maier for the Galaxy bits and pieces, and to the entire Beacon team for this great
 collaboration. We hope this work will make it easier in the future to share more data faster.
+
+P.S. Beacon is a GA4GH project, read more about [Galaxy and GA4GH](/ga4gh/). 

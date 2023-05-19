@@ -1,12 +1,47 @@
 ---
 title: "2023 Galaxy Community Conference (GCC2023)"
+date: '2023-07-10'
 skip_title_render: true
 autotoc: false
+hide_metadata: true
 components: true
+days: 7
+tease: "The annual gathering of the Galaxy Community with opportunities to hear latest developments, get training, and meet everyone involved."
+continent: AU
+location:
+  name: "Brisbane, Australia"
+  url: "/events/gcc2023/"
+gtn: true
+contact: "Organizing Committee"
+tags: ["cofest", "workshop", "training", "talk", "poster"]
 subsites: [all]
 ---
 
 <slot name="/events/gcc2023/header" />
+
+<div class="text-center my-5">
+
+# **2023 Galaxy Community Conference (GCC2023)**
+
+### July 10-16, 2023
+### Galaxy Australia
+### Queensland University of Technology
+### Brisbane, Queensland, Australia
+
+#### [#UseGalaxy2023](https://twitter.com/hashtag/UseGalaxy2023)
+
+<a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary">
+    <strong>Register now</strong>
+</a>
+◇
+<a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
+    <strong>Submit an abstract</strong>
+</a>
+◇
+<a target="_blank" href="/events/gcc2023/schedule" type="button" class="btn btn-primary">
+    <strong>Preview the program</strong>
+</a>
+</div>
 
 <div class="card-deck lead">
 
@@ -29,15 +64,57 @@ Galaxy community.
 
   </div>
 
-  <!-- Schedule & Key Dates -->
+  <!-- Abstracts -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/key-dates.png" class="card-img-top" alt="Key Dates" />
-    <div class="card-header">Key Dates</div>
+    <div class="card-header">Call for participation</div>
 
-GCC2023 will be held from July 10-16, 2023 with registration and abstract
-submission deadlines several months earlier. **Check the [Key
-Dates](/events/gcc2023/key-dates/) page for a most up-to-date list of deadlines**.
+**[Abstract submission is open](https://forms.gle/ETCPW8Vnprbij7zn6) for  posters and demos.**
 
+**[Registration is open](/events/gcc2023/register/)**, including a 50% discount
+for researchers working in a [low-income
+country](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
+
+**[BoF submission is open](https://forms.gle/UU6o9bT329kP9HS7A).**
+
+Check the [Key Dates page](/events/gcc2023/key-dates/) for a most up-to-date
+list of deadlines and the [program page](/events/gcc2023/schedule/) for the
+planned program.
+
+**Topics of interest include** methods, tools, pipelines, trainings, or software
+that push the field of data science with Galaxy forward.
+
+  </div>
+
+<!-- Keynotes -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2023/keynotes-images.png" class="card-img-top" alt="Keynotes abstract" />
+    <div class="card-header">Keynote speakers</div>
+
+GCC2023 will have **three keynote speakers**, by inspiring and prominent
+speakers that actively use and rely on Galaxy to make key research discoveries.
+
+The speakers will cover topics on biodiversity and structural biology and their
+use of the Galaxy platform.
+
+Check out their full biographies on the [program
+page](/events/gcc2023/schedule/#keynote-speakers).
+
+  </div>
+
+<!-- Fellowships -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2023/fellowships.png" class="card-img-top" alt="Student fellowships" />
+    <div class="card-header">Fellowships (still) available!</div>
+
+GCC2023 is happy to announce that **fellowships are available for students** to
+participate in GCC2023! Apply to build your professional network and learn.
+
+The deadline for in-person fellowships has passed but you can still apply for
+attending virtually. Check out the [Fellowships
+page](/events/gcc2023/fellowships/) for details and application deadlines.
+
+Brought to you by an anonymous donor.
   </div>
 
 <!-- Brisbane -->
@@ -81,6 +158,17 @@ within Australia as well as the rest of the world with many direct flights. The
 conference will be held at the [Queensland University of Technology
 (QUT)](https://www.qut.edu.au/) with several nearby lodging options. **See the
 [Travel page](/events/gcc2023/travel/) for details.**
+
+  </div>
+
+  <!-- COVID19 -->
+  <div class="card" style="min-width: 30%; max-width: 32.2%">
+    <img src="/images/events/gcc2023/face-mask.png" class="card-img-top" alt="COVID-19" />
+    <div class="card-header">COVID-19</div>
+
+**COVID-19 remains a ongoing global concern**, particularly when attending meetings
+where people have traveled from all over the world. Take a look at the [COVID-19
+page](/events/gcc2023/covid19/) for the GCC2023 conference policy.
 
   </div>
 

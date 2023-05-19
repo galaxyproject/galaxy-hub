@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatician"
 date: '2021-10-21'
-closes: ""
+closes: "2021-12-31"
 summary: "Develop, implement and apply computational tools and methods to store, process, analyze, visualize and integrate in-house and public genetics, epigenetics, RNAseq, NGS, metabolomics, proteomics and other ‘omics data types to address key drug discovery questions"
 continent: NA
 location:

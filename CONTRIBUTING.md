@@ -377,7 +377,7 @@ date: '2017-09-06'
 
 Events root:
 
-- GitHub source: [/src/events/index.md](/src/events/index.md)
+- GitHub source: [/tree/master/content/events/index.md](/tree/master/content/events/index.md)
 - Rendered on web site: [galaxyproject.org/events/](https://galaxyproject.org/events/)
 
 News item indexes displayed:
@@ -387,7 +387,7 @@ News item indexes displayed:
 
 #### Add an Event
 
-To add an event, you'll need to create a directory for the item under `/src/events/` and then create an `index.md` file in the new directory.
+To add an event, you'll need to create a directory for the item under `/tree/master/content/events/` and then create an `index.md` file in the new directory.
 
 The `index.md` file needs to have at least the event metadata.  Optionally, it can also have additional text about the event in the body of the page.  How an event page is indexed depends of several things:
 
@@ -405,30 +405,6 @@ Thus you can control what links are used by setting or not setting `external_url
 - Use
   - Becomes the event page title.
   - Shown in the event list as the name of the event.
-- Format
-  - Free text all on one line, and should be wrapped in quotes.
-
-
-#### `external_url`
-
-- Optional
-  - If it is not present, the `title` text in the index will link to the event's Hub page.
-- Meaning
-  - Where the `title` text links to when it is displayed in an index.
-- Use
-  - If present then title in the index links to this location.
-- Format
-  - URL
-    - Should be an external URL.
-
-#### `tease`
-
-- Optional
-- Meaning
-  - Short bit of additional text about the event.
-  - Meant to complement `title`.
-- Use
-  - Display with the event title, when space allows.
 - Format
   - Free text all on one line, and should be wrapped in quotes.
 
@@ -454,7 +430,30 @@ Thus you can control what links are used by setting or not setting `external_url
 - Format
   - An integer.
 
-#### `location`
+#### `tease`
+
+- Optional
+- Meaning
+  - Short bit of additional text about the event.
+  - Meant to complement `title`.
+- Use
+  - Display with the event title, when space allows.
+- Format
+  - Free text all on one line, and should be wrapped in quotes.
+
+#### `continent`
+
+- Required
+- Meaning
+  - What continent this event is being held on.
+- Use
+  - An icon showing the continent is typically displayed with the event.
+- Format
+  - Must be one of the following two letter values:
+    - `AF`, `AS`, `AU`, `EU`, `GL`, `NA`, `SA`
+    - `GL` stands for *global* and is typically used for online events.
+
+#### `location: name `
 
 - Required
   - but can be "online" or "to be determined" or ...
@@ -473,7 +472,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - University of Iowa, Iowa City, Iowa, United States
   - Plant and Animal Genome XXV, San Diego, California, United States
 
-#### `location_url`
+#### `location: url`
 
 - Optional
 - Meaning
@@ -484,17 +483,17 @@ Thus you can control what links are used by setting or not setting `external_url
 - Format
   - A URL.
 
-#### `continent`
+#### `external_url`
 
-- Required
+- Optional
+  - If it is not present, the `title` text in the index will link to the event's Hub page.
 - Meaning
-  - What continent this event is being held on.
+  - Where the `title` text links to when it is displayed in an index.
 - Use
-  - An icon showing the continent is typically displayed with the event.
+  - If present then title in the index links to this location.
 - Format
-  - Must be one of the following two letter values:
-    - `AF`, `AS`, `AU`, `EU`, `GL`, `NA`, `SA`
-    - `GL` stands for *global* and is typically used for online events.
+  - URL
+    - Should be an external URL.
 
 #### `image`
 
@@ -507,16 +506,6 @@ Thus you can control what links are used by setting or not setting `external_url
 - Format
   - a URL, preferably an internal hub path, usually point into to the `/src/images/` directory.
 
-#### `contact`
-
-- Optional
-- Meaning
-  - Name or email address of who to contact about this event.
-- Use
-  - Display in events index.
-- Format
-  - All on one line, and wrapped in quotes.  Can be a list of names.
-
 #### `gtn`
 
 - Optional
@@ -528,21 +517,55 @@ Thus you can control what links are used by setting or not setting `external_url
 - Format
   - `true|false`
 
+#### `contact`
+
+- Optional
+- Meaning
+  - Name or email address of who to contact about this event.
+- Use
+  - Display in events index.
+- Format
+  - All on one line, and wrapped in quotes.  Can be a list of names.
+
+#### `tags`
+
+- Optional??
+- Meaning
+  - Type of event.
+- Use
+  - ??
+- Format
+  - ??
+
+#### `subsites`
+
+- Optional??
+- Meaning
+  - ??
+- Use
+  - ??
+- Format
+  - ??
+
+
 
 #### Event example metadata
 
 ```
 ---
 title: "RNA-Seq analysis using Galaxy"
-tease:
 date: '2017-09-13'
 days: 2
+tease:
 continent: AU
-location: "QFAB, St Lucia, Queensland, Australia"
-location_url: "http://qfab.org/"
+location: 
+  name: "QFAB, St Lucia, Queensland, Australia"
+  url: "http://qfab.org/"
 external_url: "http://qfab.org/workshops/rna-seq-analysis-using-galaxy-13-14-sep-2017"
-contact: 'training@qfab.org'
 gtn: true
+contact: 'training@qfab.org'
+tags: 
+subsites: 
 ---
 ```
 
