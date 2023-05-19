@@ -11,7 +11,7 @@ external_url:
 gtn: false
 contact: "foellmelanie@gmail.com; helge.hecht@recetox.muni.cz"
 tags: ["community-call"]
-subsites: []
+subsites: [all]
 ---
 
 We will have a presentation by Niek de Jonge (Wageningen University & Research) "MS2Query: reliable and scalable MS2 mass spectra-based analogue search" followed by some community updates. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1OrcpWJcHThn8eZd_eURnh1qybp3yetDd_NKtGvdfyjo/edit?usp=sharing) or bring them to the call!
