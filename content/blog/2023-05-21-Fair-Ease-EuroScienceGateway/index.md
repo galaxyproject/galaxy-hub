@@ -13,7 +13,7 @@ date: "2023-05-22"
 
 Fair-Ease project aims at providing users with an easy and FAIR tool for discovery and access to environmental multidisciplinary and aggregated data-sets, as well as set up a virtual research environment (EAL - Earth Analytical Lab) through web-based interfaces.
 
-EuroScienceGateway leverage a distributed computing network and user-friendly web portal, facilitating access to compute and storage infrastructures across Europe as well as to data, tools, workflows and services that can be customised to suit researchers’ needs
+EuroScienceGateway leverage a distributed computing network and user-friendly web portal, facilitating access to compute and storage infrastructures across Europe as well as to data, tools, workflows and services that can be customised to suit researchers’ needs.
 
 Thus, the collaboration of those two EOSC projects will allow the creation of cross-discipline workflows between climate science, biodiversity studies and the earth sciences, creating, sharing and re-using tools and workflows in Galaxy.
 
@@ -27,9 +27,12 @@ We finished the day by a quick explanation on how to develop and integrate tools
 
 The second day was meant as a workshop where everybody could work on the tools they wanted to integrate in Galaxy and could ask questions and for help to the 3 teachers (Björn, Tunc and myself Marie).
 During this day we were able to get 3 tools up and running in the European Galaxy server:
+
 	- DIVAnd Interactive Tool: notebooks in this Jupyter Lab environment allows to explore programmatic access to DIVAnd's (Data-Interpolating Variational Analysis in n dimensions) package.
 	![DIVAnd jupyterlab](images/divand.png)
+	
 	-  Interactive Hdfview tool: Desktop application to display netcdf, hdf4 or hdf5 files.
+	
 	-  Scoop3-Argo : interactive visual quality control of Argo netCDF files
 	![Scoop3-Argo](images/scoop3.png)
 
