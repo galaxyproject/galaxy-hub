@@ -8,6 +8,8 @@ tags: [conference, talk, bioinformatics showcase, pathogen detection]
 authors: engynasr
 supporters:
 - microbial genomics
+- EOSC-Life
+- ELIXIR
 components: true
 subsites: [all-eu]
 ---
