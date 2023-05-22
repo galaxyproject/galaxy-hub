@@ -3,6 +3,7 @@ title: 'New Paper "A panel of blood-derived miRNAs with a stable expression patt
 date: "2023-05-21"
 tease: "Sabbaghian and colleagues have used the European Galaxy server to study miRNAs as biomarkers for cancer"
 hide_tease: true
+authors: 'Amir Sabbaghian'
 tags:
 - paper
 - citations
@@ -12,8 +13,6 @@ main_subsite: eu
 ---
 
 **New *Frontiers in Molecular Biosciences* Paper: "A panel of blood-derived miRNAs with a stable expression pattern as a potential pan-cancer detection signature"**
-
-From Amir Sabbaghian, main author:
 
 My five-year experience with the Galaxy online platform for transcriptomics/proteomics analysis, has been nothing short of exceptional. Its user-friendly interface, rich collection of analysis tools, collaborative features, and supportive community have collectively made Galaxy an invaluable resource that has greatly enhanced my research capabilities and outcomes. I look forward to continuing to utilize Galaxy for my future analysis needs.
 
