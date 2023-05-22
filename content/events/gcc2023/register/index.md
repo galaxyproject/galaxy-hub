@@ -5,12 +5,16 @@ autotoc: false
 <slot name="/events/gcc2023/header" />
 
 <div class="text-center my-5">
-    <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary center">
+    <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary">
         <strong>Register now</strong>
     </a>
-    <br>
-    <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary center">
+    ◇
+    <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
         <strong>Submit an abstract</strong>
+    </a>
+    ◇
+    <a target="_blank" href="/events/gcc2023/schedule/#schedule" type="button" class="btn btn-primary">
+        <strong>Preview the program</strong>
     </a>
 </div>
 
@@ -41,8 +45,9 @@ to see how these numbers compare.
 
 **If you are currently working in a low-income country**, as defined by the
 World Bank, please email [Jenn Vessio](mailto:jvessio1@jhu.edu) before
-registering and ask for a 20% discount code that you can apply during
-registration.
+registering and ask for a 50% discount code that you can apply during
+registration. The [list of eligible countries is available in this
+document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
 | | Early (< May 12) | Full (<= June 16) | Late (> June 16) |
 | --- | ---: | ---: | ---: |

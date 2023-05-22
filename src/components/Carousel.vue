@@ -15,10 +15,10 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="https://galaxyproject.org/events/gcc2023/abstracts/" target="_blank">
+            <a href="https://galaxyproject.org/events/gcc2023/register/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/events/gcc2023/gcc2023-call-for-abstracts.png"
-                    img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills."
+                    img-src="/images/events/gcc2023/gcc2023-registration-early-deadline.png"
+                    img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills. Early registration closes Friday, May 12."
                 ></b-carousel-slide>
             </a>
             <a href="https://gxy.io/smorgasbord3" target="_blank">

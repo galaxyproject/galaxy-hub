@@ -14,8 +14,8 @@
 [Fellowships](/events/gcc2023/fellowships/) |
 [Key Dates](/events/gcc2023/key-dates/) |
 [Organizers](/events/gcc2023/organizers/) |
+[Program](/events/gcc2023/schedule/) |
 [Registration](/events/gcc2023/register/) |
-[Schedule](/events/gcc2023/schedule/) |
 [Sponsors](/events/gcc2023/sponsors/) |
 [Travel](/events/gcc2023/travel/)
 

@@ -22,7 +22,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 - lesson, session, course, and material design
 - assessment and feedback.
 
-<a  class="btn w-100 btn-primary btn-lg" href="https://forms.gle/uEn2RJ52v8WavyU76">Register here before May 31st</a>
+<div class="btn w-100 btn-primary btn-lg">Registration closed</div>
 
 
 # General information
@@ -80,7 +80,7 @@ To deliver this curriculum, we organize a **4 half-day** **online** and **free w
 
 # Registration
 
-- **Registration**: Before June 1st
+- **Registration**: Before June 1st (closed earlier because already full)
 - **Capacity**: Maximum 20 participants
 - **Selection**: If more participants applied than we have the capacity, the "first applied - first served" approach will be used. Participants will be informed on the June, 1st
 
@@ -93,6 +93,7 @@ This workshop is over, all the training materials will stay online at [https://t
 - Cristóbal Gallardo, University of Freiburg, Germany
 - Bérénice Batut, University of Freiburg, Germany
 - Fotis Psomopoulos, INAB|CERTH, Thessaloniki, Greece
+- Pradeep Eranti
 
 # Supporters
 
