@@ -28,12 +28,12 @@ We finished the day by a quick explanation on how to develop and integrate tools
 The second day was meant as a workshop where everybody could work on the tools they wanted to integrate in Galaxy and could ask questions and for help to the 3 teachers (Björn, Tunc and myself Marie).
 During this day we were able to get 3 tools up and running in the European Galaxy server:
 
-	- DIVAnd Interactive Tool: notebooks in this Jupyter Lab environment allows to explore programmatic access to DIVAnd's (Data-Interpolating Variational Analysis in n dimensions) package.
+	* DIVAnd Interactive Tool: notebooks in this Jupyter Lab environment allows to explore programmatic access to DIVAnd's (Data-Interpolating Variational Analysis in n dimensions) package.
 	![DIVAnd jupyterlab](images/divand.png)
 	
-	-  Interactive Hdfview tool: Desktop application to display netcdf, hdf4 or hdf5 files.
+	* Interactive Hdfview tool: Desktop application to display netcdf, hdf4 or hdf5 files.
 	
-	-  Scoop3-Argo : interactive visual quality control of Argo netCDF files
+	* Scoop3-Argo : interactive visual quality control of Argo netCDF files
 	![Scoop3-Argo](images/scoop3.png)
 
 
