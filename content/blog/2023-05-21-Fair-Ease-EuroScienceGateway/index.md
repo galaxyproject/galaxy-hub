@@ -1,6 +1,6 @@
 ---
 title: "Stronger together: FAIR-EASE and EuroScienceGateway join forces" 
-tease: "Seconde blog post presenting the outcome of a galaxy training session"
+tease: "Presenting some outcomes from the first joined FAIR-EASE / EuroScienceGateway workshop"
 authors: "Marie Jossé"
 source_blog: "https://eosc.eu/news/stronger-together-fair-ease-and-eurosciencegateway-join-forces"
 date: "2023-05-22"
