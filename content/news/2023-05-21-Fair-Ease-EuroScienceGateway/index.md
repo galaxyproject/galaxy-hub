@@ -56,7 +56,7 @@ Try it out! [![European Galaxy server](https://img.shields.io/badge/usegalaxy-.e
 
 [![Scoop3-Argo](images/scoop3.png)](https://usegalaxy.eu/root?tool_id=interactive_tool_scoop3_argo)
 
-Many thanks to the hard workers of these 2 days who help getting these tools (and more tools still in productions). We were worked alongside BODERE Erwan, DETOC Jérôme, DUCOS Fabrice, FRATIANNI Claudia, JOAN Jean-Baptiste, LANGELLA Giuliano, MATHURIN Théo, PASCAL Nicolas, SIZUN Alban and WEBER Clément.
+Many thanks to the hard workers of these 2 days who help getting these tools (and more tools still in production). We worked alongside BODERE Erwan, DETOC Jérôme, DUCOS Fabrice, FRATIANNI Claudia, JOAN Jean-Baptiste, LANGELLA Giuliano, MATHURIN Théo, PASCAL Nicolas, SIZUN Alban and WEBER Clément.
 
 # Conclusion
 
