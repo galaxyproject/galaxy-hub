@@ -9,6 +9,12 @@ autotoc: false
 GCC sponsors are potential partners in everyone's success, plus they make GCC
 affordable and accessible.
 
+## Platinum sponsor
+
+<a href="https://www.bizdata.com.au/" target="_blank">
+  <img src="/images/logos/bizdata-logo.png" alt="BizData" style="max-width: 50%;" />
+</a>
+
 ## Silver sponsors
 
 <a href="https://www.limagrain.com/en" target="_blank">

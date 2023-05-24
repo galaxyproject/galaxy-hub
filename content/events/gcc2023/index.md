@@ -173,3 +173,10 @@ page](/events/gcc2023/covid19/) for the GCC2023 conference policy.
   </div>
 
 </div>
+
+
+# GCC2023 Sponsors
+
+<a href="/events/gcc2023/sponsors/">
+  <img src="/images/events/gcc2023/gcc2023-sponsors-slice.png" alt="GCC2023 sponsors" />
+</a>
