@@ -56,13 +56,16 @@ Try it out! [![European Galaxy server](https://img.shields.io/badge/usegalaxy-.e
 
 [![Scoop3-Argo](images/scoop3.png)](https://usegalaxy.eu/root?tool_id=interactive_tool_scoop3_argo)
 
-Many thanks to the hard workers of these 2 days who help getting these tools (and more tools still in production) up and running on Galaxy Europe. We worked alongside BODERE Erwan, DETOC Jérôme, DUCOS Fabrice, FRATIANNI Claudia, JOAN Jean-Baptiste, LANGELLA Giuliano, MATHURIN Théo, PASCAL Nicolas, SIZUN Alban and WEBER Clément.
 
 # Conclusion
 
 This training allowed the Fair-Ease partners to get the basis about Galaxy and on how to use the platform and how to integrate tools into Galaxy.
-It was pretty efficient as we succeeded, with the attendants, to get many tools ready and 3 tools even deploved in production on the European Galaxy server.
+It was pretty efficient as we succeeded, with the attendants, to get many tools ready and 3 tools were even deployed in production on the European Galaxy server.
+
+Many thanks to BODERE Erwan, DETOC Jérôme, DUCOS Fabrice, FRATIANNI Claudia, JOAN Jean-Baptiste, LANGELLA Giuliano, MATHURIN Théo, PASCAL Nicolas, SIZUN Alban, and WEBER Clément.
+
 We hope to continue this collaboration and go on contributing to the Galaxy ecosystem.
+
 
 
 
