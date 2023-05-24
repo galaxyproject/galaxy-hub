@@ -4,11 +4,13 @@ autotoc: false
 
 <slot name="/events/gcc2023/header" />
 
+
 # Program
 
 GCC2023 consists of the main meeting, interactive training, and a [collaboration
 fest (CoFest)](/events/gcc2023/cofest/). The main meeting and the training are
 interleaved on the same days with the CoFest following.
+
 
 ## Schedule
 
@@ -33,7 +35,8 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 |                    | 16:00 - 17:00 | Talks session 2: Success Stories with Galaxy |
 | Tuesday, July 11   | 9:00 - 10:00  | Talks session 3: Galaxy Education            |
 |                    | 10:20 - 11:20 | Posters & Demos session 2                    |
-|                    | 11:20 - 12:30 | Community update talk                        |
+|                    | 11:20 - 11:45 | Platinum sponsor talk: BizData               |
+|                    | 11:45 - 12:30 | Community update talk                        |
 |                    | 13:30 - 16:00 | Hands-on training 2                          |
 |                    | 16:00 - 17:00 | Talks session 4: New Communities             |
 | Wednesday, July 12 | 9:00 - 10:00  | Keynote 2: Kate Michie                       |
@@ -46,6 +49,7 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 |                    | 13:30 - 16:00 | Hands-on training 3                          |
 |                    | 16:00 - 16:45 | Talks session 8: Looking Ahead               |
 | Friday - Sunday    | 09:00 - 17:00 | CoFest                                       |
+
 
 ## Keynote speakers
 
@@ -134,6 +138,7 @@ already had a number of successful collaborative grants awarded for projects
 impacted by Alphafold2. Dr Michie's drive and leadership in this area have been
 instrumental in providing UNSW researchers with access to the computing
 resources they need to stay competitive on a world stage.
+
 
 ### BioDiversity
 
