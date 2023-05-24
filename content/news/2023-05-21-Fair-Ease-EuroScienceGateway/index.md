@@ -1,9 +1,11 @@
 ---
-title: "Stronger together: FAIR-EASE and EuroScienceGateway join forces" 
+title: "Stronger together: first FAIR-EASE and EuroScienceGateway workshop" 
 tease: "Presenting some outcomes from the first joined FAIR-EASE / EuroScienceGateway workshop"
 authors: "Marie Jossé"
-source_blog: "https://eosc.eu/news/stronger-together-fair-ease-and-eurosciencegateway-join-forces"
 date: "2023-05-22"
+tags: [esg, esg-wp5]
+subsites: [all-eu, esg]
+main_subsite: eu
 ---
 
 # Context
@@ -22,18 +24,22 @@ Thus, the collaboration of those two EOSC projects will allow the creation of cr
 
 With the strong support and help of Björn Grüning and Tunc Tkayikci we conducted a Galaxy discovery of 2 days in Lille. 
 
-The first day aimed at providing training on how to use the Galaxy platform. In order to do so our guiding thread was the climate related tutorials from the GTN written by Anne Fouilloux (https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo-notebook/tutorial.html, https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo/tutorial.html and https://training.galaxyproject.org/training-material/topics/climate/tutorials/panoply/tutorial.html) after a bief introduction from the Galaxy for Ecology initiative. 
+The first day aimed at providing training on how to use the Galaxy platform. In order to do so our guiding thread was the climate related tutorials
+from the GTN written by Anne Fouilloux ([Pangeo Notebook in Galaxy](https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo-notebook/tutorial.html), [Pangeo ecosystem 101 for everyone](https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo/tutorial.html)
+and [Visualize Climate data with Panoply netCDF viewer](https://training.galaxyproject.org/training-material/topics/climate/tutorials/panoply/tutorial.html))
+after a bief introduction from the Galaxy for Ecology initiative. 
 We finished the day by a quick explanation on how to develop and integrate tools for Galaxy with the installation of a local test instance.
 
 The second day was meant as a workshop where everybody could work on the tools they wanted to integrate in Galaxy and could ask questions and for help to the 3 teachers (Björn, Tunc and myself Marie).
 During this day we were able to get 3 tools up and running in the European Galaxy server:
 
-	- DIVAnd Interactive Tool: notebooks in this Jupyter Lab environment allows to explore programmatic access to DIVAnd's (Data-Interpolating Variational Analysis in n dimensions) package.
+    - DIVAnd Interactive Tool: notebooks in this Jupyter Lab environment allows to explore programmatic access to DIVAnd's (Data-Interpolating Variational Analysis in n dimensions) package.
 ![DIVAnd jupyterlab](images/divand.png)
-	
-	- Interactive Hdfview tool: Desktop application to display netcdf, hdf4 or hdf5 files.
-	
-	- Scoop3-Argo : interactive visual quality control of Argo netCDF files
+
+    - Interactive Hdfview tool: Desktop application to display netcdf, hdf4 or hdf5 files.
+
+    - Scoop3-Argo : interactive visual quality control of Argo netCDF files
+
 ![Scoop3-Argo](images/scoop3.png)
 
 
