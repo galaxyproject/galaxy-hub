@@ -31,13 +31,13 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 | Monday, July 10    | 9:00 - 10:00  | Opening and Keynote 1: Carolyn Hogg          |
 |                    | 10:20 - 11:20 | Posters & Demos session 1                    |
 |                    | 11:20 - 12:30 | Talks session 1: New Galaxy Features         |
-|                    | 13:30 - 16:00 | Hands-on training 1                          |
+|                    | 13:30 - 16:00 | Hands-on training 1 <br>- Machine Learning <br> - Workflow Development <br> - Galaxy + R <br> - Intro to Genomics <br> - Single Cell Transcriptomics |
 |                    | 16:00 - 17:00 | Talks session 2: Success Stories with Galaxy |
 | Tuesday, July 11   | 9:00 - 10:00  | Talks session 3: Galaxy Education            |
 |                    | 10:20 - 11:20 | Posters & Demos session 2                    |
 |                    | 11:20 - 11:45 | Platinum sponsor talk: BizData               |
 |                    | 11:45 - 12:30 | Community update talk                        |
-|                    | 13:30 - 16:00 | Hands-on training 2                          |
+|                    | 13:30 - 16:00 | Hands-on training 2 <br> - Tool Development <br> - Admin Roundtable <br> - Galaxy Tips and Tricks <br> - Genome Annotation <br> - Structural Biology and Alphafold                         |
 |                    | 16:00 - 17:00 | Talks session 4: New Communities             |
 | Wednesday, July 12 | 9:00 - 10:00  | Keynote 2: Kate Michie                       |
 |                    | 10:20 - 11:20 | Posters & Demos session 3                    |
@@ -46,7 +46,7 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 | Thursday, July 13  | 9:00 - 10:00  | Keynote 3: Roberto Barrero                   |
 |                    | 10:20 - 11:20 | Talks session 6: Galaxy UI/UX                |
 |                    | 11:20 - 12:30 | Talks session 7: Playing Nice with Everyone  |
-|                    | 13:30 - 16:00 | Hands-on training 3                          |
+|                    | 13:30 - 16:00 | Hands-on training 3 <br> - Contributing to the GTN <br> - Dev Small Groups <br> - Microbiology <br> - Genome Assembly with VGP <br> - Galaxy for Human Genetics                          |
 |                    | 16:00 - 16:45 | Talks session 8: Looking Ahead               |
 | Friday - Sunday    | 09:00 - 17:00 | CoFest                                       |
 
