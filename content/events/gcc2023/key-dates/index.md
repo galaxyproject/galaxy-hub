@@ -21,7 +21,8 @@ following are tentative dates which may still change.
 | Jun 12 | Poster/demo acceptance announcements |
 | Jun 16 | [Regular registration closes / Late registration opens](/events/gcc2023/register/) |
 | Jun 22 | Deadline for registering a BoF |
-| Jun 27 | Deadline for submitting your accepted poster to the organizers |
+| Jun 26 | Deadline for submitting your accepted poster to the organizers |
+| Jul 1  | Deadline for submitting slides for your talk to the organizers |
 | Jul 10 | Conference starts! |
 | Jul 14 | CoFest starts |
 | Jul 16 | Last day of GCC2023 |

@@ -28,26 +28,27 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 
 | Day                | Time          | Event                                        |
 |--------------------|---------------|----------------------------------------------|
-| Monday, July 10    | 9:00 - 10:00  | Opening and Keynote 1: Carolyn Hogg          |
+| Monday, July 10    | 9:00 - 10:00  | Opening and Keynote 1: [Carolyn Hogg](#biodiversity)<br/>*To infinity and beyond – combining genomics and cloud technology to save our species*|
 |                    | 10:20 - 11:20 | Posters & Demos session 1                    |
-|                    | 11:20 - 12:30 | Talks session 1: New Galaxy Features         |
-|                    | 13:30 - 16:00 | Hands-on training 1 <br>- Machine Learning <br> - Workflow Development <br> - Galaxy + R <br> - Intro to Genomics <br> - Single Cell Transcriptomics |
-|                    | 16:00 - 17:00 | Talks session 2: Success Stories with Galaxy |
-| Tuesday, July 11   | 9:00 - 10:00  | Talks session 3: Galaxy Education            |
+|                    | 11:20 - 12:30 | [Talks session 1: New Galaxy Features](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jjplbxp44h8q)|
+|                    | 13:30 - 16:00 | Hands-on training 1 <br/>- Machine Learning <br/> - Workflow Development <br/> - Galaxy + R <br/> - Intro to Genomics <br/> - Single Cell Transcriptomics |
+|                    | 16:00 - 17:00 | [Talks session 2: Success Stories with Galaxy](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.k0mlxy88v0z7)|
+| Tuesday, July 11   | 9:00 - 10:00  | [Talks session 3: Galaxy Education](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jn19e27s2on0)|
 |                    | 10:20 - 11:20 | Posters & Demos session 2                    |
-|                    | 11:20 - 11:45 | Platinum sponsor talk: BizData               |
+|                    | 11:20 - 11:45 | Platinum sponsor talk: [BizData](https://www.bizdata.com.au/)|
 |                    | 11:45 - 12:30 | Community update talk                        |
-|                    | 13:30 - 16:00 | Hands-on training 2 <br> - Tool Development <br> - Admin Roundtable <br> - Galaxy Tips and Tricks <br> - Genome Annotation <br> - Structural Biology and Alphafold                         |
-|                    | 16:00 - 17:00 | Talks session 4: New Communities             |
-| Wednesday, July 12 | 9:00 - 10:00  | Keynote 2: Kate Michie                       |
+|                    | 13:30 - 16:00 | Hands-on training 2 <br/> - Tool Development <br/> - Admin Roundtable <br/> - Galaxy Tips and Tricks <br/> - Genome Annotation <br/> - Structural Biology and Alphafold                         |
+|                    | 16:00 - 17:00 | [Talks session 4: New Communities](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.68zj43i1b7bz)|
+| Wednesday, July 12 | 9:00 - 10:00  | Keynote 2: [Kate Michie](#structural-biology)<br/>*Alphafold2 and the Age of Deep Learning : Recent advances in structural biology*|
 |                    | 10:20 - 11:20 | Posters & Demos session 3                    |
-|                    | 11:20 - 12:30 | Talks session 5: New Galaxy Tooling          |
-|                    | 13:30 - ?     | Visit a Koala sanctuary & Conference Dinner  |
-| Thursday, July 13  | 9:00 - 10:00  | Keynote 3: Roberto Barrero                   |
-|                    | 10:20 - 11:20 | Talks session 6: Galaxy UI/UX                |
-|                    | 11:20 - 12:30 | Talks session 7: Playing Nice with Everyone  |
-|                    | 13:30 - 16:00 | Hands-on training 3 <br> - Contributing to the GTN <br> - Dev Small Groups <br> - Microbiology <br> - Genome Assembly with VGP <br> - Galaxy for Human Genetics                          |
-|                    | 16:00 - 16:45 | Talks session 8: Looking Ahead               |
+|                    | 11:20 - 12:30 | [Talks session 5: New Galaxy Tooling](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.dcqgf31kcj09)          |
+|                    | 13:30 - 17:30 | Optional visit a Koala sanctuary             |
+|                    | 18:00 - 21:00 | Conference dinner                            |
+| Thursday, July 13  | 9:00 - 10:00  | Keynote 3: [Roberto Barrero](#biodiversity-1)<br/>*Improving plant industry access to new genetics through faster and more accurate diagnostics of plant viruses and viroids*|
+|                    | 10:20 - 11:20 | [Talks session 6: Galaxy UI/UX](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.lt99r0b318s5)|
+|                    | 11:20 - 12:30 | [Talks session 7: Playing Nice with Everyone](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.nw9l5nnrz89k)  |
+|                    | 13:30 - 16:00 | Hands-on training 3 <br/> - Contributing to the GTN <br/> - Dev Small Groups <br/> - Microbiology <br/> - Genome Assembly with VGP <br/> - Galaxy for Human Genetics                          |
+|                    | 16:00 - 16:45 | [Talks session 8: Looking Ahead](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.tdri0hju7bvj)|
 | Friday - Sunday    | 09:00 - 17:00 | CoFest                                       |
 
 
@@ -67,7 +68,8 @@ and structural biology.
         <img src="/images/events/gcc2023/carolyn-hogg.png" style="max-height: 200px;" alt="Carolyn Hogg" />
       </td>
       <td style="border: 0;">
-        <strong>Dr. Carolyn Hogg</strong><br/>
+        <strong>Dr. Carolyn Hogg</strong>, with a talk titled<br/>
+        <strong>To infinity and beyond – combining genomics and cloud technology to save our species</strong><br/><br/>
         Senior Research Manager<br/>
         Australasian Wildlife Genomics Group<br/>
         School of Life and Environmental Sciences<br/>
@@ -99,7 +101,8 @@ molecular genetics into real-time conservation management decisions.
         <img src="/images/events/gcc2023/kate-michie.png" style="max-height: 200px;" alt="Kate Michie" />
       </td>
       <td style="border: 0;">
-        <strong>Dr. Kate Michie</strong><br/>
+        <strong>Dr. Kate Michie</strong>, with a talk titled<br/>
+        <strong>Alphafold2 and the Age of Deep Learning : Recent advances in structural biology</strong><br/><br/>
         Senior Lecturer<br/>
         Structural Biology Facility<br/>
         Mark Wainwright Analytical Centre<br/>
@@ -149,7 +152,8 @@ resources they need to stay competitive on a world stage.
         <img src="/images/events/gcc2023/roberto-barrero.png" style="max-height: 200px;" alt="Roberto Barrero" />
       </td>
       <td style="border: 0;">
-        <strong>Associate Professor Roberto Barrero Gumiel</strong><br/>
+        <strong>Associate Professor Roberto Barrero Gumiel</strong>, with a talk titled<br/>
+        <strong>Improving plant industry access to new genetics through faster and more accurate diagnostics of plant viruses and viroids</strong><br/><br/>
         Senior Bioinformatics Solutions Architect<br/>
         Academic Division<br/>
         Research Portfolio<br/>
