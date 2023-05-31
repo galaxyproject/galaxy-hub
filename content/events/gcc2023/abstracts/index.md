@@ -35,6 +35,19 @@ or demos can be presented virtually and at least one of the authors must
 register and be available on Zoom/Slack during their scheduled session.
 
 
+## Key dates relevant to the abstracts
+
+| Date   | What |
+| -----: | ---  |
+| ~~Feb 24~~ | Abstract submission opens |
+| ~~Apr 14~~ | Abstracts due for short and long talks (extended from April 3) |
+| ~~May 2~~  | Talk reviews returned (extended from April 25) |
+| **Jun 2**  | **Abstracts due for posters/demos** |
+| Jun 12 | Poster/demo acceptance announcements |
+| Jun 26 | Deadline for submitting your accepted poster to the organizers |
+| Jul 1  | Deadline for submitting slides for your talk to the organizers |
+
+
 ## Poster details
 
 Posters at GCC2023 will be presented in a digital format, on large, TV-sized
@@ -50,8 +63,10 @@ folder](https://drive.google.com/drive/folders/1G7oFQyjtcZ6yLK7wt8Njg7sBa777d1BO
 Complete details about creating a poster from the venue IT are available in
 [this PDF](https://drive.google.com/file/d/1hrPtuuvvhkbEt1eoFIlh9JKAS8ncDDSH/view?usp=sharing).
 
-Because the venue IT department will roll out the posters to the monitors,
-**you will need to upload the poster by June 27, 2023**.
+Because the venue IT department will roll out the posters to the monitors, **you
+will need to upload your poster to the [Google Drive
+folder](https://drive.google.com/drive/folders/1G7oFQyjtcZ6yLK7wt8Njg7sBa777d1BO?usp=sharing)
+by June 26, 2023**.
 
 There is [#poster-chat channel](https://gcc2023.slack.com/archives/C058E0U8UC9)
 on [GCC2023 conference
@@ -63,6 +78,31 @@ your poster.
 <div style="min-width: 50%; max-width: 30rem; margin-left: auto; margin-right: auto;">
   <img src="/images/events/gcc2023/qut-cube.jpg" alt="QUT Cube" />
 </div>
+
+
+## Slide details for talks
+
+Slides for your talk will be projected on a screen in the 16:9 format.
+
+Because GCC2023 is a hybrid event with virtual participants, the organizers will
+need to ensure all the slides for talks are uniformly available for remote
+attendees. Hence, **we ask that you create your slides in [Google
+Slides](https://slides.google.com)** and share the slide deck with *anyone with the
+link* (in view-only mode). Then, **share that link with Enis Afgan via email by
+July 1, 2023**.
+
+
+# Birds of a Feather (BoF) sessions
+
+Birds of a Feather, or BoF, sessions are informal gatherings during GCC that
+allow participants to discus topics of interest. These are free-form events
+that are organized by the participants and can take any form you'd like (eg,
+presentations, brainstorming, architecture drawing, etc.).
+
+**Interested in organizing a BoF? [Fill out this
+form](https://forms.gle/UU6o9bT329kP9HS7A)** with some details so we can add it
+to the schedule and help advertise. Also, peep an open mind and feel free to
+propose fun activities as well, such as an evening run or a city tour.
 
 
 ## Abstract guidelines
@@ -88,32 +128,6 @@ presentations) that will resonate with GCC2023 participants.
   previously been presented at a GCC, then it needs to describe a significant
   update to be considered for a talk. Minor updates submitted as talks will be
   offered a poster or demo spot.
-
-
-## Key dates relevant to the abstracts
-
-| Date   | What |
-| -----: | ---  |
-| ~~Feb 24~~ | Abstract submission opens |
-| ~~Apr 14~~ | Abstracts due for short and long talks (extended from April 3) |
-| ~~May 2~~  | Talk reviews returned (extended from April 25) |
-| **Jun 2**  | **Abstracts due for posters/demos** |
-| Jun 12 | Poster/demo acceptance announcements |
-| Jun 22 | Deadline for registering a BoF |
-| Jun 27 | Deadline for submitting your accepted poster to the organizers |
-
-
-# Birds of a Feather (BoF) sessions
-
-Birds of a Feather, or BoF, sessions are informal gatherings during GCC that
-allow participants to discus topics of interest. These are free-form events
-that are organized by the participants and can take any form you'd like (eg,
-presentations, brainstorming, architecture drawing, etc.).
-
-**Interested in organizing a BoF? [Fill out this
-form](https://forms.gle/UU6o9bT329kP9HS7A)** with some details so we can add it
-to the schedule and help advertise. Also, peep an open mind and feel free to
-propose fun activities as well, such as an evening run or a city tour.
 
 
 # Option to publish in F1000 Galaxy gateway
