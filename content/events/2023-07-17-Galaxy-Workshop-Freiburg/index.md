@@ -2,20 +2,50 @@
 title: Workshop on High-Throughput Data Analysis with Galaxy
 date: '2023-07-17'
 days: 5
+tease: "This course introduces scientists to the data analysis platform Galaxy. The course is a beginner course; there is no requirement of any programming skills."
 continent: EU
 location:
   name: "University of Freiburg, Germany"
 gtn: true
 contact: "Anika Erxleben"
-tags: ["workshop"]
+tags: [workshop, training]
 subsites: [all]
 ---
 
-We are offering another **Galaxy workshop on High-Throughput Sequencing (HTS) data analysis** on-site (not online, not hybrid) from 17-21st July 2023. This course is a beginner workshop at the University of Freiburg and we will spend a full week with different topics and learn about Galaxy as data analysis platform and the analysis of biological data. 
-The first day starts with an introduction to Galaxy and then we will have 4 different topics (1 per day) in data analysis. For the hands-on course, we will use the [training material](https://training.galaxyproject.org) from the Galaxy Training Network.
-For the workshop, the participants can select 4 topics out of e.g. genome assembly, RNA-Seq data analysis, ChIP-Seq data analysis, Variant Calling etc. (topics to select see application form). From the topic wishlist, we will create a program for the workshop.
-As we have limited places, please apply via this [application form](https://forms.gle/umsFVGFd9cipbVxk6). 
+# General information
 
-We will inform the participants about a successful application until end of June 2023.
+- **Date**: July 17-21th, 2023
+- **Format**: on-site
+- **Location**: Institute of Biology II/III, Schaenzlestr.1, 79104 Freiburg
+- **Time**: 9am-5pm CEST
+- **Cost**: Free
+- **Contact**: Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informtik.uni-freiburg.de))
 
-For further questions, please contact Anika Erxleben (erxleben@informatik.uni-freiburg.de).
+# Pedagogical information
+
+**Target Audience**: Scientist with no or little Galaxy experience who want to analyse sequencing data.
+
+**Learning Objectives:**
+* To get introduced to Galaxy as data analysis platform and the GTN training material
+* To learn how to use use tools and databases in Galaxy
+* To be able to run different tools and workflows
+
+**Training material:**
+For the hands-on course, we will use the [training material](https://training.galaxyproject.org) from the Galaxy Training Network.
+
+# Preliminary schedule
+
+| Day | Start | End | Session | Instructors |
+|---|---|---|---|---|
+| July 17th | 9:00am  | 4pm  | Welcome - Galaxy introduction - Quality control | Anika Erxleben, Teresa Müller |
+| July 18th | 9:00am  | 5pm |  ChIP-Sequencing | Cristóbal Gallardo |
+| July 19th | 9:00am  | 5pm  | RNA-Sequencing | Teresa Müller, Pavankumar Videm |
+| July 20th | 9:00am  | 5pm | Variant Calling/Exome Seqencing | Wolfgang Maier |
+| July 21th | 9:00am  | 4pm  | Metagenomics/ Foodborne | Engy Nasr, Paul Zierep |
+
+
+# Registration
+
+- Registration is closed
+
+
