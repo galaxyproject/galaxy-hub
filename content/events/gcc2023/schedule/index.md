@@ -13,9 +13,6 @@ interleaved on the same days with the CoFest following.
 
 
 ## Schedule
-<calendar-embed event="2138597609" />
-
-## Calendar
 
 Each day of the meeting, there will be three sessions, morning talks, mid-day
 training, and afternoon talks, with breaks and lunch in between. CoFest is
