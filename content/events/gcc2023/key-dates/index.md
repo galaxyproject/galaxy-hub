@@ -17,9 +17,9 @@ following are tentative dates which may still change.
 | ~~Apr 14~~ | Applications for in-person [fellowships](/events/gcc2023/fellowships/) due |
 | ~~May 2~~  | Talk reviews returned (extended from April 25) |
 | ~~May 12~~ | Early registration closes / Regular registration opens |
-| **Jun 2**  | **[Abstracts due for posters/demos](/events/gcc2023/abstracts/) and applications for virtual [fellowships](/events/gcc2023/fellowships/) due** |
+| ~~Jun 2~~  | [Abstracts due for posters/demos](/events/gcc2023/abstracts/) and applications for virtual [fellowships](/events/gcc2023/fellowships/) due |
 | Jun 12 | Poster/demo acceptance announcements |
-| Jun 16 | [Regular registration closes / Late registration opens](/events/gcc2023/register/) |
+| **Jun 16** | **[Regular registration closes / Late registration opens](/events/gcc2023/register/)** |
 | Jun 22 | Deadline for registering a BoF |
 | Jun 26 | Deadline for submitting your accepted poster to the organizers |
 | Jul 1  | Deadline for submitting slides for your talk to the organizers |

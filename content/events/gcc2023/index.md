@@ -34,10 +34,6 @@ subsites: [all]
     <strong>Register now</strong>
 </a>
 ◇
-<a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
-    <strong>Submit an abstract</strong>
-</a>
-◇
 <a target="_blank" href="/events/gcc2023/schedule" type="button" class="btn btn-primary">
     <strong>Preview the program</strong>
 </a>
@@ -48,7 +44,7 @@ subsites: [all]
   <!-- About GCC2023 -->
   <div class="card" style="min-width: 30%; max-width: 40rem;">
     <img src="/images/events/gcc2023/gcc2022-group.png" class="card-img-top" alt="GCC2022 group photo" />
-    <div class="card-header">GCC conference series</div>
+    <div class="card-header">About GCC conference series</div>
 
 The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
 the use and development of the [Galaxy platform](https://galaxyproject.org/) for
@@ -68,8 +64,6 @@ Galaxy community.
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/key-dates.png" class="card-img-top" alt="Key Dates" />
     <div class="card-header">Call for participation</div>
-
-**[Abstract submission is open](https://forms.gle/ETCPW8Vnprbij7zn6) for  posters and demos.**
 
 **[Registration is open](/events/gcc2023/register/)**, including a 50% discount
 for researchers working in a [low-income
@@ -102,7 +96,7 @@ page](/events/gcc2023/schedule/#keynote-speakers).
 
   </div>
 
-<!-- Fellowships -->
+<!-- Fellowships
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/fellowships.png" class="card-img-top" alt="Student fellowships" />
     <div class="card-header">Fellowships (still) available!</div>
@@ -116,7 +110,7 @@ page](/events/gcc2023/fellowships/) for details and application deadlines.
 
 Brought to you by an anonymous donor.
   </div>
-
+-->
 <!-- Brisbane -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/brisbane.png" class="card-img-top" alt="https://commons.wikimedia.org/wiki/File:South_Bank_Grand_Arbour,_South_Bank_Parklands,_Brisbane,_2020,_02.jpg" />
