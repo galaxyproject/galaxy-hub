@@ -9,10 +9,6 @@ autotoc: false
         <strong>Register now</strong>
     </a>
     ◇
-    <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary">
-        <strong>Submit an abstract</strong>
-    </a>
-    ◇
     <a target="_blank" href="/events/gcc2023/schedule/#schedule" type="button" class="btn btn-primary">
         <strong>Preview the program</strong>
     </a>
@@ -51,9 +47,9 @@ document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
 | | Early (< May 12) | Full (<= June 16) | Late (> June 16) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc     | AU$350 | AU$450 | AU$550 |
-| Academic / Non-Profit / Government | AU$450 | AU$550 | AU$750 |
-| Industry            | AU$600 | AU$800 | AU$1,000 |
+| Student/postdoc     | ~~AU$350~~ | AU$450 | AU$550 |
+| Academic / Non-Profit / Government | ~~AU$450~~ | AU$550 | AU$750 |
+| Industry            | ~~AU$600~~ | AU$800 | AU$1,000 |
 | Conference dinner            | |  | AU$65 |
 
 
