@@ -20,9 +20,9 @@ Maintenance will take place on 12 June from 9:30am CEST (7:30am GMT) and should 
 
 ## Updating our database and installing new hardware
 
-Our database is currently running stable and reliable, but it is running on CentOS 7. Since the CentOS project no longer exists and the repositories are no longer maintained, we need to change the operating system on our database server.  Therefore, we will update the server to Rocky Linux 9.
-In order to use this downtime as efficiently as possible, we thought of upgrading the server hardware with two 4TB SSD disks and make it ready for an ever-growing Galaxy community.  
-By now, Galaxy Europe has 70,000 registered users and counting!  
+Our database server is currently running stable and reliable, but it is running on CentOS 8. Since the CentOS project no longer exists and the repositories are no longer maintained, we need to change the operating system on our database server.  Therefore, we will update the server to Rocky Linux 9.
+To use this downtime as efficiently as possible, we thought of upgrading the server hardware with two 4TB SSD disks and making it ready for an ever-growing Galaxy community.  
+Currently, Galaxy Europe has 70,000 registered users and counting!  
 This will not only increase performance and speed up DB queries, but also allow for a more robust, secure and up-to-date PostgreSQL database server.  
 
 ## Affected services
