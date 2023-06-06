@@ -8,10 +8,13 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 
 <div class="alert" style="background: #fd8c00;">
-### **Database maintenance on 12 June**
+
+#### **Database maintenance on 12 June**
 
 Maintenance will take place on 12 June from 9:30am CEST (7:30am GMT) and should not exceed 5:30pm CEST (3:30pm GMT). usegalaxy.eu will not be reachable during this period. You do not need to take any action.  
 [Check out our blog post for more information!](https://galaxyproject.org/news/2023-06-06-eu-maintenance)
+
+</div>
 
 <div class="alert" style="background: #00d084;">
 
