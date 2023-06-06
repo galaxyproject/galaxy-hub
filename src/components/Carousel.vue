@@ -21,12 +21,6 @@
                     img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills. Early registration closes Friday, May 12."
                 ></b-carousel-slide>
             </a>
-            <a href="https://gxy.io/smorgasbord3" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/events/2023-05-smorgasbord3/smorgasbord3-square.png"
-                    img-alt="The Galaxy Training Network Smörgåsbord 3 is a free global online Galaxy training event from May 22 to May 26, 2023"
-                ></b-carousel-slide>
-            </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
                     img-src="/images/jxtx/jxtx-jumbotron.png"
