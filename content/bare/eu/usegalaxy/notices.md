@@ -9,9 +9,9 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 <div class="alert" style="background: #fd8c00;">
 
-#### **Galaxy's database server maintenance on 12 June**
+#### **Galaxy's database server maintenance on the 12th of June**
 
-Maintenance will take place on 12 June from 9:30 am CEST (7:30 am GMT) until 5:30 pm CEST (3:30 pm GMT). usegalaxy.eu will not be reachable during this period. You do not need to take any action.  
+Maintenance will take place on June 12 from 9:30 am CEST (7:30 am GMT) until 5:30 pm CEST (3:30 pm GMT). usegalaxy.eu will not be reachable during this period. You do not need to take any action.  
 [Check out our blog post for more information!](https://galaxyproject.org/news/2023-06-06-eu-maintenance)
 
 </div>
