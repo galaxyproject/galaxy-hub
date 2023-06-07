@@ -5,9 +5,10 @@ hide_tease: true
 tags:
 - paper
 - citations
+- esg
+- esg-wp5
 supporters:
-subsites: [all-eu]
-tags: [esg, esg-wp5]
+subsites: [all-eu,esg]
 main_subsite: eu
 ---
 
