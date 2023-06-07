@@ -7,6 +7,7 @@ tags:
 - citations
 supporters:
 subsites: [all-eu]
+tags: [esg, esg-wp5]
 main_subsite: eu
 ---
 
