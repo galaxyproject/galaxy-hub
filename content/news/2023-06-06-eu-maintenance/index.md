@@ -1,4 +1,3 @@
-
 ---
 title: "EU Maintenance Announcement 12th June"
 date: "2023-06-06"
