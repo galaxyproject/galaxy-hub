@@ -17,8 +17,8 @@
             -->
             <a href="https://galaxyproject.org/events/gcc2023/register/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/events/gcc2023/gcc2023-registration-early-deadline.png"
-                    img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills. Early registration closes Friday, May 12."
+                    img-src="/documents/GCC2023/gcc2023/GCC2023_hub"
+                    img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills."
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">
