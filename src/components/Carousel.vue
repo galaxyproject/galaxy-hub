@@ -21,6 +21,12 @@
                     img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills."
                 ></b-carousel-slide>
             </a>
+            <a href="https://galaxyproject.org/projects/vgp/" target="_blank">
+                <b-carousel-slide
+                    img-src="content/images/vgp/VGP_hub.jpg"
+                    img-alt="The Vertebrate Genomes Project (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data."
+                ></b-carousel-slide>
+            </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
                     img-src="/images/jxtx/jxtx-jumbotron.png"
