@@ -23,7 +23,7 @@
             </a>
             <a href="https://galaxyproject.org/projects/vgp/" target="_blank">
                 <b-carousel-slide
-                    img-src="content/images/vgp/VGP_hub.jpg"
+                    img-src="/images/vgp/VGP_hub.jpg"
                     img-alt="The Vertebrate Genomes Project (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data."
                 ></b-carousel-slide>
             </a>
