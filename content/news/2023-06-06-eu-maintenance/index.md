@@ -13,6 +13,11 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
+# Update
+
+Due to unforseen technical issues, the maintenance will last until 13 June 2pm CEST (12pm GMT).  
+We apologise for this inconvenience.  
+
 # Database maintenance on 12 June
 
 Maintenance will take place on 12 June from 9:30am CEST (7:30am GMT) and should not exceed 5:30pm CEST (3:30pm GMT). usegalaxy.eu will not be reachable during this period.
