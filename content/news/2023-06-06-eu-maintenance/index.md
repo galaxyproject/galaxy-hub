@@ -13,6 +13,12 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
+<div class="alert" style="background: #fd8c00;">
+
+**Galaxy is back online!** If you are being automatically redirected to this blog post from [usegalaxy.eu](https://usegalaxy.eu/), please [clear your browser's cache](https://www.wikihow.com/Clear-Your-Browser%27s-Cache) and visit [usegalaxy.eu](https://usegalaxy.eu/) again. We are sorry for this extra inconvenience.
+
+</div>
+
 # Update
 
 Due to unforseen technical issues, the maintenance will last until 13 June 2pm CEST (12pm GMT).  
