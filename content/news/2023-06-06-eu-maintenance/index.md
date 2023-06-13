@@ -13,7 +13,7 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
-<div class="alert" style="background: #fd8c00;">
+<div class="alert" style="background: #00d084;">
 
 **Galaxy is back online!** If you are being automatically redirected to this blog post from [usegalaxy.eu](https://usegalaxy.eu/), please [clear your browser's cache](https://www.wikihow.com/Clear-Your-Browser%27s-Cache) and visit [usegalaxy.eu](https://usegalaxy.eu/) again. We are sorry for this extra inconvenience.
 
