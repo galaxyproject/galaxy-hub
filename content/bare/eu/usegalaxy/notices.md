@@ -5,17 +5,6 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 </div-->
 
-
-
-<div class="alert" style="background: #fd8c00;">
-
-#### **Galaxy's database server maintenance on the 12th of June**
-
-Maintenance will take place on June 12 from 9:30 am CEST (7:30 am GMT) until 5:30 pm CEST (3:30 pm GMT). usegalaxy.eu will not be reachable during this period. You do not need to take any action.  
-[Check out our blog post for more information!](https://galaxyproject.org/news/2023-06-06-eu-maintenance)
-
-</div>
-
 <div class="alert" style="background: #00d084;">
 
 #### **Act, don't criminalize!**
@@ -24,8 +13,7 @@ Today, 21st of April 2023, a statement in support of peaceful, but resolved prot
 
 </div>
 
-
-<!--div class="alert" style="background: #FFD500;">
+<div class="alert" style="background: #FFD500;">
 
 #### **Peace to Ukraine!**
 
@@ -36,4 +24,3 @@ Today, 21st of April 2023, a statement in support of peaceful, but resolved prot
 [ua-table]: https://bit.ly/ua-table
 [ua-form]: https://bit.ly/ua-form
 [ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
-</div-->
