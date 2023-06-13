@@ -28,7 +28,8 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 
 | Day                | Time          | Event                                        |
 |--------------------|---------------|----------------------------------------------|
-| Monday, July 10    | 9:00 - 10:00  | Opening and Keynote 1: [Carolyn Hogg](#biodiversity)<br/>*To infinity and beyond – combining genomics and cloud technology to save our species*|
+| Monday, July 10    | 9:00 - 9:15   | Opening                                      |
+|                    | 9:15 - 10:00  | Keynote 1: [Carolyn Hogg](#biodiversity)<br/>*To infinity and beyond – combining genomics and cloud technology to save our species*|
 |                    | 10:20 - 11:20 | Posters & Demos session 1                    |
 |                    | 11:20 - 12:30 | [Talks session 1: New Galaxy Features](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jjplbxp44h8q)|
 |                    | 13:30 - 16:00 | Hands-on training 1 <br/>- Machine Learning <br/> - Workflow Development <br/> - Galaxy + R <br/> - Intro to Genomics <br/> - Single Cell Transcriptomics |
@@ -70,7 +71,7 @@ and structural biology.
       <td style="border: 0;">
         <strong>Dr. Carolyn Hogg</strong>, with a talk titled<br/>
         <strong>To infinity and beyond – combining genomics and cloud technology to save our species</strong><br/><br/>
-        Senior Research Manager<br/>
+        Professor<br/>
         Australasian Wildlife Genomics Group<br/>
         School of Life and Environmental Sciences<br/>
         University of Sydney
@@ -80,8 +81,8 @@ and structural biology.
 </table>
 
 I have been working on the conservation of threatened species for over
-twenty-five years both in Australia and overseas. I am currently the Senior
-Research Manager for the Australasian Wildlife Genomics Group in the Faculty of
+twenty-five years both in Australia and overseas. I am currently a Professor 
+for the Australasian Wildlife Genomics Group in the Faculty of
 Science. I have been working with the Save the Tasmanian Devil Program for the
 past ten years; in addition to other species such as orange-bellied parrots,
 koalas, bilbies, and woylies. Working closely with both my academic and
