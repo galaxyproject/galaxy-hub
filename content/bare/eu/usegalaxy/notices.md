@@ -9,7 +9,7 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 #### **Maintenance: upgrade affecting uploads**
 
-The European Galaxy server is performing an upgrade of the system handling dataset uploads. Even though we expect the upgrade to go smoothly, there is a chance of uploads being temporarily disrupted. This upgrade is effective as of now, May 9th 4:30pm CEST. Shall any issues arise, we expect to be back to normal operation by tomorrow May 10th at the latest.
+The European Galaxy server is performing an upgrade of the system handling dataset uploads. Even though we expect the upgrade to go smoothly, there is a chance of uploads being temporarily disrupted. This upgrade is effective as of now, June 15th 14:00pm CEST. Shall any issues arise, we expect to be back to normal operation by tomorrow June 16th at the latest.
 
 </div>
 
