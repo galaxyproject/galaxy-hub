@@ -17,8 +17,7 @@ This integration comes in two parts:
 * Visualization of images stored in FITS files by embedding widely used in Astronomy [AladinLite Viewer](https://aladin.cds.unistra.fr/#AladinLite) developed by the [University of Strasbourg](https://www.unistra.fr/). This visualization allows to represent dynamic range of the image with a variety of colormaps, overlays sky coordinate system grid, and allows to compare the image stored in Galaxy with other sky images fetched from Virtual Observatory archives (see [Pull Request](https://github.com/galaxyproject/galaxy/pull/16187) for more details).
 
 
-TODO: please someone clarify if it will be?
-Both features will be available in the coming release of [Galaxy Europe](https://usegalaxy.eu/) instance.
+Both features will be available on all major Galaxy servers in version 23.1.
 
 These additions are part of an ongoing effort to integrate astronomical tools, workflows, and data archives into Galaxy.
 
