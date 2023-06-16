@@ -1,34 +1,35 @@
 ---
 title: Galaxy for Astronomy : Integration of the FITS file format
 date: "2023-06-16"
-tease: "Enabling the use and visualization of FITS files inside Galaxy"
+tease: "Enabling native support and visualization of Astronomical FITS data in Galaxy"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
 main_subsite: eu
 ---
 
-As part of the EuroScienceGateway project [WP5](https://galaxyproject.org/projects/esg/news/?tag=esg-wp5) the [EPFL](https://www.epfl.ch/en/) and [UPC](https://apc.u-paris.fr/APC_CS/) have worked towards the integration of the, widely used in Astronomy, [FITS](https://fits.gsfc.nasa.gov/fits_primer.html) file format which represents sky images.
+In the scope of EuroScienceGateway project [WP5](https://galaxyproject.org/projects/esg/news/?tag=esg-wp5) [EPFL](https://www.epfl.ch/en/) and [UPC](https://apc.u-paris.fr/APC_CS/) teams contributed to Galaxy code base with integration of [FITS](https://fits.gsfc.nasa.gov/fits_primer.html) file format, widely used in Astronomy to represent sky images, light curves, spectra, and other data.
 
-This integration comes in two parts :
+This integration comes in two parts:
 
--   The implementation of native support for the FITS format inside Galaxy
--   The development of a specific plugin to add visualization and exploration capabilities for FITS files  
+* Introducing to Galaxy native support for FITS format (see [Pull Request](https://github.com/galaxyproject/galaxy/pull/15905)). It allows Galaxy to recognize FITS files and extract from them useful metadata.
 
-Native support for the FITS format will let astronomers work with FITS files inside Galaxy and generate specific metadata as well as enabling the development of tools and plugins which could be used in astronomical workflows.
+* Visualization of images stored in FITS files by embedding widely used in Astronomy [AladinLite Viewer](https://aladin.cds.unistra.fr/#AladinLite) developed by the [University of Strasbourg](https://www.unistra.fr/). This visualization allows to represent dynamic range of the image with a variety of colormaps, overlays sky coordinate system grid, and allows to compare the image stored in Galaxy with other sky images fetched from Virtual Observatory archives (see [Pull Request](https://github.com/galaxyproject/galaxy/pull/16187) for more details).
 
-The visualization plugin which relies on the [Aladin-lite Viewer](https://aladin.cds.unistra.fr/#AladinLite) developed by the [University of Strasbourg](https://www.unistra.fr/) adds the possibility to visualize sky images contained in FITS files and brings an array of features like sky coordinates grid and colormaps used in astronomy.
 
-These additions are part of an ongoing effort to integrate astronomical workflows and data sources like astronomical archives and virtual observatories into galaxy
+TODO: please someone clarify if it will be?
+Both features will be available in the coming release of [Galaxy Europe](https://usegalaxy.eu/) instance.
+
+These additions are part of an ongoing effort to integrate astronomical tools, workflows, and data archives into Galaxy.
 
 <div class="center">
 <div class="img-sizer" style="width: 100%">
 
-![A sky image visualized with the Aladin-lite Viewer inside Galaxy](fitsimageviewerplugin.png)
+![A sky image of NGC 4388 active galaxy visualized with the AladinLite Viewer inside Galaxy](fitsimageviewerplugin.png)
 
 </div>  
 
 <figcaption>
-  A sky image visualized through the Aladin-lite Viewer plugin inside Galaxy
+  A sky image of NGC 4388 active galaxy visualized through the AladinLite Viewer plugin inside Galaxy
 </figcaption>
 </div>  
