@@ -17,7 +17,7 @@ This integration comes in two parts :
 
 Native support for the FITS format will let astronomers work with FITS files inside Galaxy and generate specific metadata as well as enabling the development of tools and plugins which could be used in astronomical workflows.
 
-The visualization plugin which relies on the [Aladin-lite Viewer](https://aladin.cds.unistra.fr/#AladinLite) developed by the [University of Strasbourg](https://www.unistra.fr/) add the possibility to visualize sky images contained in FITS files and brings an array of features like sky coordinates grid and colormaps used in astronomy.
+The visualization plugin which relies on the [Aladin-lite Viewer](https://aladin.cds.unistra.fr/#AladinLite) developed by the [University of Strasbourg](https://www.unistra.fr/) adds the possibility to visualize sky images contained in FITS files and brings an array of features like sky coordinates grid and colormaps used in astronomy.
 
 These additions are part of an ongoing effort to integrate astronomical workflows and data sources like astronomical archives and virtual observatories into galaxy
 
