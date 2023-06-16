@@ -1,5 +1,5 @@
 ---
-title: Galaxy for Astronomy : Integration of the FITS file format
+title: 'Galaxy for Astronomy: Integration of the FITS file format'
 date: "2023-06-16"
 tease: "Enabling native support and visualization of Astronomical FITS data in Galaxy"
 hide_tease: false
