@@ -21,6 +21,8 @@ Both features will be available on all major Galaxy servers in version 23.1.
 
 These additions are part of an ongoing effort to integrate astronomical tools, workflows, and data archives into Galaxy.
 
+We are grateful to [Centre de Données astronomiques de Strasbourg](https://cds.unistra.fr/) for developing AladinLite Viewer.
+
 <div class="center">
 <div class="img-sizer" style="width: 100%">
 
