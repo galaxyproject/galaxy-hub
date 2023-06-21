@@ -36,7 +36,7 @@ This could not be transformed straight forward into a collection logic, since th
 The problem was solved by using the name of the collection elements as `Sample IDs` and transforming them into workflow parameters using the following
 set of tools: `TODO describe`.
 
-* `TODO Image of the singel file workflow`
+* `TODO Image of the collection workflow`
 * `TODO Link to WF in IWC`
 
 In case the `Sample IDs` does not match the element identifies a list with matching IDs could 
