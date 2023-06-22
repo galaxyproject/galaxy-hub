@@ -8,7 +8,7 @@ authors_structured:
 - github: anuprulez
 - github: kysrpex
 tags: [EU]
-subsites: [all-eu]
+subsites: [all-eu, esg]
 main_subsite: eu
 ---
 
