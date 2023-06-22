@@ -7,7 +7,7 @@ continent: EU
 location:
   name: Freiburg, Germany
 gtn: false
-contact: Björn Grüning, Anika Erxleben, Sebastian Schaaf
+contact: contact@usegalaxy.eu
 tags: [training]
 subsites: [all-eu, global, esg]
 ---
