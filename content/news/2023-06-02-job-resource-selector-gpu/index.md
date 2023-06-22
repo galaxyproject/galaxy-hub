@@ -16,7 +16,9 @@ The European Galaxy server relies on the compute nodes provided by the [de.NBI-C
 
 Any Galaxy tools that require a GPU to function (e.g. [instaGRAAL](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Finstagraal%2Finstagraal%2F0.1.6%2Bgalaxy0&version=0.1.6%20galaxy0)) will automatically be scheduled to run on a GPU node by our [job router](https://galaxyproject.org/news/2023-05-08-tpv-switch/). However, there are tools that _can_ take advantage of a GPU, although they run on a CPU by default. Galaxy lets you select the type of compute node where such tools should be sent.
 
-For example, among the tools that can take advantage of a GPU is [Keras](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fkeras_train_and_eval%2Fkeras_train_and_eval%2F1.0.8.4&version=1.0.8.4). On this tool's page, a _job resource selector_ that enables the job to be sent to a GPU compute node is displayed.
+Among those tools is ["Deep learning training and evaluation"](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fkeras_train_and_eval%2Fkeras_train_and_eval%2F1.0.8.4&version=1.0.8.4), which runs [Keras](https://keras.io/) under the hood. Under certain circumstances, the use of a GPU can accelerate the training. In fact, deep learning model architectures such as convolutional neural networks (CNNs) and feed-forward neural networks can be trained several times faster on GPUs, while for other model architectures such as recurrent neural networks (RNNs), the advantage is less significant as they have recurrent connections that are harder to parallelize.
+
+To use a GPU for training deep learning models, go to the [tool's page](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fkeras_train_and_eval%2Fkeras_train_and_eval%2F1.0.8.4&version=1.0.8.4) and scroll down to the "Job Resource Parameters" section at the end of the tool's definition. Choose "Specify job resource parameters" and then under "Use GPU resources" select "Yes".
 
 <div style="text-align: center;">
 
