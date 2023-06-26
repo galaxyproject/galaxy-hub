@@ -39,7 +39,7 @@ register and be available on Zoom/Slack during their scheduled session.
 | ~~Apr 14~~ | Abstracts due for short and long talks (extended from April 3) |
 | ~~May 2~~  | Talk reviews returned (extended from April 25) |
 | ~~Jun 2~~  | Abstracts due for posters/demos |
-| Jun 12 | Poster/demo acceptance announcements |
+| ~~Jun 12~~ | Poster/demo acceptance announcements |
 | Jun 26 | Deadline for submitting your accepted poster to the organizers |
 | Jul 1  | Deadline for submitting slides for your talk to the organizers |
 
@@ -57,7 +57,10 @@ folder](https://drive.google.com/drive/folders/1G7oFQyjtcZ6yLK7wt8Njg7sBa777d1BO
 (you will need to sign in using a Google ID).
 
 Complete details about creating a poster from the venue IT are available in
-[this PDF](https://drive.google.com/file/d/1hrPtuuvvhkbEt1eoFIlh9JKAS8ncDDSH/view?usp=sharing).
+[this
+PDF](https://drive.google.com/file/d/1hrPtuuvvhkbEt1eoFIlh9JKAS8ncDDSH/view?usp=sharing).
+If you have multiple slides, please export those as separate PNG files and save
+them to a folder.
 
 Because the venue IT department will roll out the posters to the monitors, **you
 will need to upload your poster to the [Google Drive
@@ -76,9 +79,12 @@ your poster.
 </div>
 
 
-## Slide details for talks
+## Talk details
 
-Slides for your talk will be projected on a screen in the 16:9 format.
+Slides for your talk will be projected on a screen in the 16:10 format.
+
+Long talks will be 15 minutes total (including any questions and answers from
+the audience). Short talks will be 7 minutes total.
 
 Because GCC2023 is a hybrid event with virtual participants, the organizers will
 need to ensure all the slides for talks are uniformly available for remote

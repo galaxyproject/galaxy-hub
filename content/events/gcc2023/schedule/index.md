@@ -50,6 +50,7 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 |                    | 11:20 - 12:30 | [Talks session 7: Playing Nice with Everyone](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.nw9l5nnrz89k)  |
 |                    | 13:30 - 16:00 | Hands-on training 3 <br/> - Contributing to the GTN <br/> - Dev Small Groups <br/> - Microbiology <br/> - Genome Assembly with VGP <br/> - Galaxy for Human Genetics                          |
 |                    | 16:00 - 16:45 | [Talks session 8: Looking Ahead](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.tdri0hju7bvj)|
+|                    | 16:45 - 17:00 | Conference closing                           |
 | Friday - Sunday    | 09:00 - 17:00 | CoFest                                       |
 
 
@@ -81,7 +82,7 @@ and structural biology.
 </table>
 
 I have been working on the conservation of threatened species for over
-twenty-five years both in Australia and overseas. I am currently a Professor 
+twenty-five years both in Australia and overseas. I am currently a Professor
 for the Australasian Wildlife Genomics Group in the Faculty of
 Science. I have been working with the Save the Tasmanian Devil Program for the
 past ten years; in addition to other species such as orange-bellied parrots,
