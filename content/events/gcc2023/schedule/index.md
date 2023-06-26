@@ -34,20 +34,21 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 |                    | 11:20 - 12:30 | [Talks session 1: New Galaxy Features](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jjplbxp44h8q)|
 |                    | 13:30 - 16:00 | Hands-on training 1 <br/>- Machine Learning <br/> - Workflow Development <br/> - Galaxy + R <br/> - Intro to Genomics <br/> - Single Cell Transcriptomics |
 |                    | 16:00 - 17:00 | [Talks session 2: Success Stories with Galaxy](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.k0mlxy88v0z7)|
-| Tuesday, July 11   | 9:00 - 9:20   | Tribute to [Simon Gladman](https://www.biocommons.org.au/news/simon-gladman) |
-|                    | 9:20 - 10:00  | [Talks session 3: Galaxy Education](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jn19e27s2on0)|
+| Tuesday, July 11   | 9:00 - 9:10   | Tribute to [Simon Gladman](https://www.biocommons.org.au/news/simon-gladman) |
+|                    | 9:10 - 10:00  | [Talks session 3: Galaxy Education](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jn19e27s2on0)|
 |                    | 10:00 - 11:20 | Posters & Demos session 2                    |
 |                    | 11:20 - 11:45 | Platinum sponsor talk: [BizData](https://www.bizdata.com.au/)|
 |                    | 11:45 - 12:30 | Community update talk                        |
 |                    | 13:30 - 16:00 | Hands-on training 2 <br/> - Tool Development <br/> - Admin Roundtable <br/> - Galaxy Tips and Tricks <br/> - Genome Annotation <br/> - Structural Biology and Alphafold                         |
 |                    | 16:00 - 17:00 | [Talks session 4: New Communities](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.68zj43i1b7bz)|
-| Wednesday, July 12 | 9:00 - 9:20   | Sign-up and organization of the koala sanctuary tour |
+| Wednesday, July 12 | 9:00 - 9:20   | Sign-up and organization of the koala sanctuary visit |
 |                    | 9:20 - 10:00  | Keynote 2: [Kate Michie](#structural-biology)<br/>*Alphafold2 and the Age of Deep Learning : Recent advances in structural biology* |
 |                    | 10:00 - 11:20 | Posters & Demos session 3                    |
 |                    | 11:20 - 12:30 | [Talks session 5: New Galaxy Tooling](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.dcqgf31kcj09)          |
 |                    | 13:30 - 17:30 | Optional visit a koala sanctuary             |
 |                    | 18:00 - 21:00 | Conference dinner                            |
-| Thursday, July 13  | 9:00 - 10:00  | Keynote 3: [Roberto Barrero](#biodiversity-1)<br/>*Improving plant industry access to new genetics through faster and more accurate diagnostics of plant viruses and viroids*|
+| Thursday, July 13  | 9:00 - 9:10   | GCC2023 fellowship recipients                |
+|                    | 9:10 - 10:00  | Keynote 3: [Roberto Barrero](#biodiversity-1)<br/>*Improving plant industry access to new genetics through faster and more accurate diagnostics of plant viruses and viroids*|
 |                    | 10:00 - 11:20 | [Talks session 6: Galaxy UI/UX](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.lt99r0b318s5)|
 |                    | 11:20 - 12:30 | [Talks session 7: Playing Nice with Everyone](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.nw9l5nnrz89k)  |
 |                    | 13:30 - 16:00 | Hands-on training 3 <br/> - Contributing to the GTN <br/> - Dev Small Groups <br/> - Microbiology <br/> - Genome Assembly with VGP <br/> - Galaxy for Human Genetics                          |

@@ -40,7 +40,7 @@ register and be available on Zoom/Slack during their scheduled session.
 | ~~May 2~~  | Talk reviews returned (extended from April 25) |
 | ~~Jun 2~~  | Abstracts due for posters/demos |
 | ~~Jun 12~~ | Poster/demo acceptance announcements |
-| Jun 26 | Deadline for submitting your accepted poster to the organizers |
+| ~~Jun 26~~ | Deadline for submitting your accepted poster to the organizers |
 | Jul 1  | Deadline for submitting slides for your talk to the organizers |
 
 
