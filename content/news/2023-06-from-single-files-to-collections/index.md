@@ -12,13 +12,17 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
-Collections are a great way to bundle multiple dataset into single entities (as shown in the histroy) that can be 
+
+Collections are a great way to bundle multiple dataset into single entities (as shown in the history) that can be 
+
 processed collectively. In fact, when the amount of datasets rises up to 1000+ it becomes essential to use collections.
 Galaxy can also use collections in tools that are not specifically designed to process 
 collections using the mapping-over strategy (run the tool for each of the elements in a collection). 
 Therefore, it should be a peace of cake to port complete workflows that 
 were based on processing single files to use collections as well.
-However, when applying this idea on our latest metagenomics workflow  [Foodborn Pathogen detection](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) we encountered some problems 
+
+However, when applying this idea on our latest metagenomics workflow  [Foodborne Pathogen detection](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) we encountered some problems 
+
 that arise when switching from single files to collections. 
 In the following we would like to present some of those issues and how we solved them, in the hopes that these strategies can help
 others to port their workflows to collections.
@@ -26,17 +30,33 @@ others to port their workflows to collections.
 # Case 1 - Simple inputs for workflow logic
 
 It is often useful to add simple inputs to a workflow such as integers or text to specify specific parameters of tools. Galaxy can also use the output of a tool as input
-parameter for another tool. Details are described in the tutorial [Using Workflow Parameters](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html). In the case of the `single file` Foodborn Pathogen Detection Workflow a text input `Sample ID` is used downstream by multiple tools
-as input. 
 
-* `TODO Image of the singel file workflow`
+parameter for another tool. Details are described in the tutorial [Using Workflow Parameters](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html). In the case of the `single file` Foodborne Pathogen Detection Workflow a text input `Sample ID` is used downstream by multiple tools as input.
+
+This figure shows 1 out of 5 workflows, which form together the complete Pathogen Detection workflow. This workflow is the Gene based Pathogenic Identification, which takes as an input the Pre-processed sample reads and the sample ID both marked in green, and mainly identifies all possible pathogens by identifying the genes with Virulence factor for all contigs of the input sample.
+
+![Gene Based Pathogenic Identification For Single Sample Workflow](./figs/genebasedWF_single_marked.png)
+
+</div>  
+<figcaption>
+  Gene Based Pathogenic Identification For Single Sample Workflow: Green Boxes identifies the single sample input sequences file and the text `Sample ID`, these are to be changed to convert this workflow from taking only one sample to taking a collection of samples 
+</figcaption>
+</div>
+
+
 * `TODO Link to WF in IWC`
 
 This could not be transformed straight forward into a collection logic, since the input in this case would need to be a list with matching `Sample IDs`.
-The problem was solved by using the name of the collection elements as `Sample IDs` and transforming them into workflow parameters using the following
-set of tools: `TODO describe`.
+The problem was solved by using the name of the collection elements as `Sample IDs` and transforming them into workflow parameters using the following set of tools marked in Green, which are `Extract element identifiers`, `Split file` and `Parse parameter value`.
 
-* `TODO Image of the collection workflow`
+![Gene Based Pathogenic Identification For Collection of Samples Workflow](./figs/genebasedWF_collection_marked.png)
+
+</div>  
+<figcaption>
+  Gene Based Pathogenic Identification For Collection of Samples Workflow: Green Boxes identifies the collection of samples sequences files as the main input and the tools used to replace the input text `Sample ID`. By this way the user doesn't have to worry about manually entering the `Sample IDs` rather these marked tools will extract them from the collection element names.
+</figcaption>
+</div>
+
 * `TODO Link to WF in IWC`
 
 In case the `Sample IDs` does not match the element identifies a list with matching IDs could 
@@ -112,4 +132,31 @@ might be as simple as adding an empty table or fasta file for this tool, to allo
 
 # Case 3 - Collection workflow logic does not fully comply with single file logic 
 
-`TODO explain unziop problem, how it was solved`
+## Implicit Conversions
+
+Some of our tools ,used in our Foodborne Pathogen Detection Workflow for collection, fails when we run the workflow and succeed when the tool runs alone without a workflow, for example Krakentools: `Extract Kraken Reads By ID` and `Filter Sequence by ID`.
+
+After a bit of investigation we noticed that when these tools run alone (without being in a workflow) they perform an implicit decompressing of the input zipped files, which make the output successful, however when these same tools run with the same exact inputs with-in a workflow this implicit decompressing does not take place, which cause the output to fail.
+
+![Example of the implicit datatype conversion performed by the tools](./figs/implicit_datatype_coversion.png)
+
+</div>  
+<figcaption>
+  Example of the implicit datatype conversion performed by the tools while running stand alone without a workflow in a history
+</figcaption>
+</div>  
+
+The initial solution was to add `Convert compressed file to uncompressed` tool before running these tools, as shown in green in the figure below
+
+![part of the preprocessing workflow](./figs/preprocessing_WFpart_collection_marked.png)
+
+</div>  
+<figcaption>
+  Part of the Pre-processing pathogen detection workflow for collection, showing the initial solution for decompressing within a workflow
+</figcaption>
+</div>  
+
+However, this initial solution is not the optimal, since by hundreds and thousands of sequence files the size will increase dramatically in the user's history by running the workflow. For that we have proposed another solution by updating the tools wrappers themselves to perform the decompression internally without the need to use the `Convert compressed file to uncompressed` tool.
+
+The most optimal solution would be updating Galaxy workflow to perform implicit conversions similar to the ones done when running the tool without a workflow.
+
