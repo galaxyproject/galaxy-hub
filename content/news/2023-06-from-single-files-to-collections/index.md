@@ -119,6 +119,8 @@ missing elements.
 
 However, if this logic needs to be applied to multiple collection or again for multiple steps, the workflow becomes even more unreasonably large and complex. 
 
+`TODO explain that filter can also hide actual problems`
+
 ## Global tool dependent solution
 
 Since this issue cannot be solved satisfactory on the workflow level, one can still aim to improve the problem for the community by solving it on the tool level.
