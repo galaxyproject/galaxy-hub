@@ -12,13 +12,17 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
+
 Collections are a great way to bundle multiple dataset into single entities (as shown in the history) that can be 
+
 processed collectively. In fact, when the amount of datasets rises up to 1000+ it becomes essential to use collections.
 Galaxy can also use collections in tools that are not specifically designed to process 
 collections using the mapping-over strategy (run the tool for each of the elements in a collection). 
 Therefore, it should be a peace of cake to port complete workflows that 
 were based on processing single files to use collections as well.
+
 However, when applying this idea on our latest metagenomics workflow  [Foodborne Pathogen detection](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) we encountered some problems 
+
 that arise when switching from single files to collections. 
 In the following we would like to present some of those issues and how we solved them, in the hopes that these strategies can help
 others to port their workflows to collections.
@@ -26,6 +30,7 @@ others to port their workflows to collections.
 # Case 1 - Simple inputs for workflow logic
 
 It is often useful to add simple inputs to a workflow such as integers or text to specify specific parameters of tools. Galaxy can also use the output of a tool as input
+
 parameter for another tool. Details are described in the tutorial [Using Workflow Parameters](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html). In the case of the `single file` Foodborne Pathogen Detection Workflow a text input `Sample ID` is used downstream by multiple tools as input.
 
 This figure shows 1 out of 5 workflows, which form together the complete Pathogen Detection workflow. This workflow is the Gene based Pathogenic Identification, which takes as an input the Pre-processed sample reads and the sample ID both marked in green, and mainly identifies all possible pathogens by identifying the genes with Virulence factor for all contigs of the input sample.
@@ -154,3 +159,4 @@ The initial solution was to add `Convert compressed file to uncompressed` tool b
 However, this initial solution is not the optimal, since by hundreds and thousands of sequence files the size will increase dramatically in the user's history by running the workflow. For that we have proposed another solution by updating the tools wrappers themselves to perform the decompression internally without the need to use the `Convert compressed file to uncompressed` tool.
 
 The most optimal solution would be updating Galaxy workflow to perform implicit conversions similar to the ones done when running the tool without a workflow.
+
