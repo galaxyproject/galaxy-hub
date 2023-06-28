@@ -15,7 +15,41 @@ main_subsite: eu
 
 For processing the uploads, [UseGalaxy.eu](https://usegalaxy.eu/) has long been using the reference implementation of a tus server, [tusd](https://github.com/tus/tusd). About two weeks ago, we migrated to a different tus server implementation, [rustus](https://s3rius.github.io/rustus/).
 
-The rustus project was started at the end of 2021 by [Pavel Kirilin](https://github.com/s3rius), and since then, it has matured both in terms of stability and features. At the moment, even though there is a significant overlap between the feature sets of tusd and rustus, a couple of tusd features are not available in rustus and vice versa. Given our use case, we considered that the latter were worth the tradeoff of missing on the former. Two features were especially of our interest:
+The rustus project was started at the end of 2021 by [Pavel Kirilin](https://github.com/s3rius), and since then, it has matured both in terms of stability and features. At the moment, even though there is a significant overlap between the feature sets of tusd and rustus, a couple of tusd features are not available in rustus and vice versa.
+
+<details>
+  <summary>
+    Click here for a comparison of tusd and rustus features.
+  </summary>
+
+  <figure style="display: table; text-align:center; margin-left: auto; margin-right:auto">
+
+  |                                                                                    | rustus | tusd  |
+  |------------------------------------------------------------------------------------|--------|-------|
+  | Programming language                                                               | rust   | go    |
+  | Docker container provided                                                          | ✔️     |       |
+  | Helm chart provided (Kubernetes)                                                   | ✔️     | ✔️    |
+  | Amazon S3                                                                          | ✔️     | ✔️    |
+  | Google Cloud Storage                                                               |        | ✔️    |
+  | Microsoft Azure Blob Storage                                                       |        | ✔️    |
+  | File hooks                                                                         | ✔️     | ✔️    |
+  | HTTP hooks                                                                         | ✔️     | ✔️    |
+  | gRPC hooks                                                                         |        | ✔️    |
+  | AMQP hooks (Celery integration)                                                    | ✔️     |       |
+  | Concurrent uploads (e.g. Dynamo, ETCD3 lockers)                                    |        | ✔️    |
+  | Store uploads information in Redis or relational databases                         | ✔️     |       |
+  | Custom directory structure                                                         | ✔️     |       |
+  | Sentry integration                                                                 | ✔️     |       |
+  | HTTPS support                                                                      |        | ✔️    |
+  | Metrics                                                                            |        | ✔️    |
+  | CORS                                                                               | ✔️     | ✔️    |
+
+  </figure>
+
+</details>
+<br>
+
+Given our use case, we considered that the latter were worth the tradeoff of missing on the former. Two features were especially of our interest:
 
 - The Galaxy project (not just Galaxy Europe) uses [Sentry](https://sentry.io) to monitor application exceptions, that rustus integrates nicely with.
 
