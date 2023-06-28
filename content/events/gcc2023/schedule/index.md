@@ -19,8 +19,8 @@ training, and afternoon talks, with breaks and lunch in between. CoFest is
 largely a free-form event that will be organized on the spot.
 
 Training events will consist of five parallel tracks, each session being 2.5
-hours long. More details for each of the trainings will be provided as we
-approach the conference.
+hours long (with a 20 minute tea break after 1h30m). More details for each of
+the trainings will be provided as we approach the conference.
 
 Below you can see the program schedule at a glance while the **list of talks and
 accompanying abstracts are available in [this
@@ -29,31 +29,34 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 | Day                | Time          | Event                                        |
 |--------------------|---------------|----------------------------------------------|
 | Monday, July 10    | 9:00 - 9:20   | Welcome and conference opening               |
-|                    | 9:20 - 10:00  | Keynote 1: [Carolyn Hogg](#biodiversity)<br/>*To infinity and beyond – combining genomics and cloud technology to save our species*|
-|                    | 10:00 - 11:20 | Posters & Demos session 1                    |
+|                    | 9:20 - 10:20  | Keynote 1: [Carolyn Hogg](#biodiversity)<br/>*To infinity and beyond – combining genomics and cloud technology to save our species* |
+|                    | 10:20 - 11:20 | [Posters & Demos session 1](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.iqd2fy2pxc1h) |
 |                    | 11:20 - 12:30 | [Talks session 1: New Galaxy Features](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jjplbxp44h8q)|
-|                    | 13:30 - 16:00 | Hands-on training 1 <br/>- Machine Learning <br/> - Workflow Development <br/> - Galaxy + R <br/> - Intro to Genomics <br/> - Single Cell Transcriptomics |
-|                    | 16:00 - 17:00 | [Talks session 2: Success Stories with Galaxy](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.k0mlxy88v0z7)|
+|                    | 13:30 - 16:20 | Hands-on training 1 <br/>- Machine Learning <br/> - Workflow Development <br/> - Galaxy + R <br/> - Intro to Genomics <br/> - Single Cell Transcriptomics |
+|                    | 16:25 - 17:20 | [Talks session 2: Success Stories with Galaxy](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.k0mlxy88v0z7) |
+|                    | 17:20 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
 | Tuesday, July 11   | 9:00 - 9:10   | Tribute to [Simon Gladman](https://www.biocommons.org.au/news/simon-gladman) |
-|                    | 9:10 - 10:00  | [Talks session 3: Galaxy Education](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jn19e27s2on0)|
-|                    | 10:00 - 11:20 | Posters & Demos session 2                    |
+|                    | 9:10 - 10:10  | [Talks session 3: Galaxy Education](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jn19e27s2on0) |
+|                    | 10:10 - 11:20 | [Posters & Demos session 2](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.rgkgup5q8me5) |
 |                    | 11:20 - 11:45 | Platinum sponsor talk: [BizData](https://www.bizdata.com.au/)|
 |                    | 11:45 - 12:30 | Community update talk                        |
-|                    | 13:30 - 16:00 | Hands-on training 2 <br/> - Tool Development <br/> - Admin Roundtable <br/> - Galaxy Tips and Tricks <br/> - Genome Annotation <br/> - Structural Biology and Alphafold                         |
-|                    | 16:00 - 17:00 | [Talks session 4: New Communities](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.68zj43i1b7bz)|
+|                    | 13:30 - 16:20 | Hands-on training 2 <br/> - Tool Development <br/> - Admin Roundtable <br/> - Galaxy Tips and Tricks <br/> - Genome Annotation <br/> - Structural Biology and Alphafold |
+|                    | 16:25 - 17:30 | [Talks session 4: New Communities](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.68zj43i1b7bz)|
+|                    | 17:30 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
 | Wednesday, July 12 | 9:00 - 9:20   | Sign-up and organization of the koala sanctuary visit |
-|                    | 9:20 - 10:00  | Keynote 2: [Kate Michie](#structural-biology)<br/>*Alphafold2 and the Age of Deep Learning : Recent advances in structural biology* |
-|                    | 10:00 - 11:20 | Posters & Demos session 3                    |
-|                    | 11:20 - 12:30 | [Talks session 5: New Galaxy Tooling](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.dcqgf31kcj09)          |
-|                    | 13:30 - 17:30 | Optional visit a koala sanctuary             |
-|                    | 18:00 - 21:00 | Conference dinner                            |
+|                    | 9:20 - 10:20  | Keynote 2: [Kate Michie](#structural-biology)<br/>*Alphafold2 and the Age of Deep Learning : Recent advances in structural biology* |
+|                    | 10:20 - 11:20 | [Posters & Demos session 3](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jtezcprw35w6) |
+|                    | 11:20 - 12:30 | [Talks session 5: New Galaxy Tooling](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.dcqgf31kcj09) |
+|                    | 13:30 - 17:30 | Optional visit a [koala sanctuary](https://lonepinekoalasanctuary.com/) |
+|                    | 18:00 - 21:00 | [Conference dinner](https://howardsmithwharves.com/space/bougainvillea-house/) |
 | Thursday, July 13  | 9:00 - 9:10   | GCC2023 fellowship recipients                |
-|                    | 9:10 - 10:00  | Keynote 3: [Roberto Barrero](#biodiversity-1)<br/>*Improving plant industry access to new genetics through faster and more accurate diagnostics of plant viruses and viroids*|
-|                    | 10:00 - 11:20 | [Talks session 6: Galaxy UI/UX](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.lt99r0b318s5)|
-|                    | 11:20 - 12:30 | [Talks session 7: Playing Nice with Everyone](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.nw9l5nnrz89k)  |
-|                    | 13:30 - 16:00 | Hands-on training 3 <br/> - Contributing to the GTN <br/> - Dev Small Groups <br/> - Microbiology <br/> - Genome Assembly with VGP <br/> - Galaxy for Human Genetics                          |
-|                    | 16:00 - 16:45 | [Talks session 8: Looking Ahead](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.tdri0hju7bvj)|
-|                    | 16:45 - 17:00 | Conference closing                           |
+|                    | 9:10 - 10:10  | Keynote 3: [Roberto Barrero](#biodiversity-1)<br/>*Improving plant industry access to new genetics through faster and more accurate diagnostics of plant viruses and viroids* |
+|                    | 10:10 - 11:20 | [Talks session 6: Galaxy UI/UX](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.lt99r0b318s5) |
+|                    | 11:20 - 12:30 | [Talks session 7: Playing Nice with Everyone](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.nw9l5nnrz89k) |
+|                    | 13:30 - 16:20 | Hands-on training 3 <br/> - Contributing to the GTN <br/> - Dev Small Groups <br/> - Microbiology <br/> - Genome Assembly with VGP <br/> - Galaxy for Human Genetics |
+|                    | 16:25 - 17:10 | [Talks session 8: Looking Ahead](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.tdri0hju7bvj) |
+|                    | 17:10 - 17:20 | Conference closing                           |
+|                    | 17:20 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
 | Friday - Sunday    | 09:00 - 17:00 | CoFest                                       |
 
 
@@ -196,3 +199,224 @@ ornamental grasses. He has been invited to be the Project Coordinator of an
 international collaboration involving National Plant Protection Organisations
 from nine countries to harmonize standards and best practices for regulatory
 application of high throughput technologies for phytosanitary diagnostics.
+
+## Birds of a Feather (BoF) sessions
+
+Birds of a Feather, or BoF, sessions are informal gatherings during GCC that
+allow participants to discus topics of interest. Anyone can [propose and
+organize a topic](https://forms.gle/UU6o9bT329kP9HS7A), with the following ones
+being planned:
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Galaxy & Mass Spectrometry</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        TBD
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        pjagtap@umn.edu, johan@biocommons.org.au
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        Galaxy communities and researchers interested in proteomics,
+        metabolomics, and imaging mass spectrometry will discuss software
+        tools, workflows, new methods, workshops, and topics related to
+        mass spectrometry.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Workflows</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        TBD
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        johan@biocommons.org.au, ziad@biocommons.org.au, g.price@qcif.edu.au
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        The BoF will cover workflow best practices in Galaxy: including for example,
+        easier / standard file naming instructions inside workflows (could these be made
+        easier to use https://galaxyproject.org/learn/advanced-workflow/variables/ ?).
+        We will also discuss FAIR workflows, and how to support Galaxy users to find and
+        reuse workflows across instances by using registries.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Power Users of Galaxy</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        TBD
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        a.ostrovsky@mac.com, dannon.baker@gmail.com
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        Galaxy power users have a unique and valuable perspective on Galaxy's quirks.
+        Many of our users run Galaxy for large-scale projects, or use it enough across
+        many of their analyses that they notice changes or improvements others might
+        miss. If you are experienced with Galaxy and have noticed pain points, or if you
+        have an idea as to how to make your experience smoother or improved in some way,
+        we want to talk to you!
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Ranting Responses to Dubious non-Galaxy folks</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        TBD
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        wendi.bacon@open.ac.uk
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        This session is to combine forces & create stock answers to how to answer
+        questions about Galaxy to non-computing, dubious Uni members. Some examples:
+        <ul>
+          <li>Why should we try teaching Galaxy to biologists when programming skills are what employers want?</li>
+          <li>Galaxy isn't accessible, so we can't use that.</li>
+          <li>I found Galaxy tricky to use. Our students would never be able to use it.</li>
+          <li>I think we should invest in an HPC.</li>
+          <li>What is it, is it a project or a community? Who is in charge? How many people use it?</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Data-Driven Decision-Making Metrics on UseGalaxy</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        TBD
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        Michelle.Savage@jhmi.edu, enis.afgan@gmail.com
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        Globally, modern community-based websites rely on data metrics to make informed
+        decisions on new and existing features. During this UseGalaxy knowledge-sharing
+        session, we will (1) outline real-world examples (past, present, future) where
+        data-driven decision-making metrics would benefit the UseGalaxy community and
+        (2) build/edit a glossary for these metrics' terminology and calculations with
+        the guidance of existing key metrics already in use and those that may need to
+        be created.<br/>
+        For transparency, we welcome UseGalaxy team members from all major hub sites,
+        although it is not necessary to get consensus across sites. We also welcome any
+        attendee with vested interest on the topic or just curious.
+      </td>
+    </tr>
+  </tbody>
+</table>

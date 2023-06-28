@@ -41,7 +41,16 @@ for entering and leaving Australia.
 
 The airport is located approximately 13 kilometers (8 miles) from the city
 center with [many options to get to the
-city](https://www.bne.com.au/passenger/to-and-from/transport-options).
+city](https://www.bne.com.au/passenger/to-and-from/transport-options), with
+[Airtrain](https://www.airtrain.com.au/catch-airtrain-to/brisbane-city/) being
+our recommendation. For about $15, the train will drop you off in the city within 20
+minutes. Check the
+[map](https://www.airtrain.com.au/wp-content/uploads/2018/10/Airtrain-Network-Map.pdf)
+for closest station to your hotel. For the conference venue, [station Brisbane
+Central](https://goo.gl/maps/DLqWwxz5nF1yUX3d8) is closest.
+
+If you will be arriving to Australia without a working cell service, it is a good
+idea to save an offline map of Brisbane on your phone to ease navigation.
 
 ## Venue
 
