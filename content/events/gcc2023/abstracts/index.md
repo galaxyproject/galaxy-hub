@@ -54,7 +54,7 @@ to create your poster. Make a copy of the Powerpoint file and build your poster.
 Once you created the poster, use the poster title as the file name and upload a
 PNG or JPG version of the file to this [Google Drive
 folder](https://drive.google.com/drive/folders/1G7oFQyjtcZ6yLK7wt8Njg7sBa777d1BO?usp=sharing)
-(you will need to sign in using a Google ID). If you have multiple slides, please 
+(you will need to sign in using a Google ID). If you have multiple slides, please
 export those as separate PNG files and save them to a folder.
 
 Complete details about creating a poster from the venue IT are available in
@@ -72,22 +72,24 @@ For those that will not attend GCC2023 in person but are presenting a poster, we
 you do the following 2 things to help increase the impact of your poster:
 1. Upload your poster to the conference Slack (see below)
 2. Create a ~90 second video where you give a quick overview of the poster
- 
+
 Please do both of these steps no later than July 9.
 
-To start, please first join the [conferene 
-Slack](https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg). 
-Then join the the [#poster-chat channel](https://gcc2023.slack.com/archives/C058E0U8UC9)
-and upload your poster. Feel free to write a sentence or two describing the poster. 
-Meanwhile, everyone will use this channel for (asynchronous)
-communication about the posters so please initiate and monitor activity.
+To start, please first join the [conferene
+Slack](https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg).
+Then join the the [#poster-chat
+channel](https://gcc2023.slack.com/archives/C058E0U8UC9) and upload your poster.
+Feel free to write a sentence or two describing the poster. Meanwhile, everyone
+will use this channel for (asynchronous) communication about the posters so
+please initiate and monitor activity.
 
 For the short video, this is your opportunity to share enthusiasm for your work
-and give the poster a persona. The video. is intended as an overview to capture 
-attention so there is not need (or time) to go into every detail. The goal is to 
-initiate conversation. inslack after someone has watched your video. So go ahead, 
-practive your [elevator pitch](https://www.thebalancemoney.com/elevator-speech-examples-and-writing-tips-2061976) 
-and create the video. Once you have it, upload it to Slack as well (best to do 
+and give the poster a persona. The video. is intended as an overview to capture
+attention so there is not need (or time) to go into every detail. The goal is to
+initiate conversation. inslack after someone has watched your video. So go
+ahead, practive your [elevator
+pitch](https://www.thebalancemoney.com/elevator-speech-examples-and-writing-tips-2061976)
+and create the video. Once you have it, upload it to Slack as well (best to do
 this as a threaded reply to your poster message so they are kept together).
 
 <div style="min-width: 50%; max-width: 30rem; margin-left: auto; margin-right: auto;">
@@ -112,7 +114,7 @@ Because GCC2023 is a hybrid event with virtual participants, the organizers will
 need to ensure all the slides for talks are uniformly available for remote
 attendees. Hence, **we ask that you create your slides in [Google
 Slides](https://slides.google.com)** and share the slide deck with *anyone with the
-link* (in view-only mode). Then, **share that link with Enis Afgan and Jenn Vessio 
+link* (in view-only mode). Then, **share that link with Enis Afgan and Jenn Vessio
 via email by July 1, 2023**.
 
 
