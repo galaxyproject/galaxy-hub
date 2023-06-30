@@ -64,6 +64,8 @@ If an element of a collection is failed or empty the entire downstream processin
 
 ## Intermediate workflow specific solution
 
+### Filter the collection
+
 Collections can be filtered for failed or empty datasets using collection tools such as [filter empty datasets](https://usegalaxy.eu/?tool_id=__FILTER_EMPTY_DATASETS__&version=1.0.0) and [filter failed datasets](https://usegalaxy.eu/?tool_id=__FILTER_FAILED_DATASETS__&version=1.0.0). 
 
 <div class="center">
@@ -113,6 +115,24 @@ However, if this logic needs to be applied to multiple collections or again for 
 Furthermore it needs to be considered, that filtering empty or failed elements from a collection
 can hide the root cause of the problem. The question why some tool runs fail or produce empty output should always be further investigated.
 
+### Rerun the workflow with rerun activated 
+
+In some cases a rerun of the workflow can also solve the issue, for example in our use case where the failure was rather randomly.
+For this strategy it is beneficial to activate the rerun option of galaxy (User/Preferences/Manage Information) on instance with version > 23.0. 
+This allows to only rerun failed elements, which saves computing resources and time.
+
+<div class="center">
+<div class="img-sizer" style="width: 100%">
+
+![Empty collection](./figs/rerun.png)
+
+</div>  
+<figcaption>
+  Rerun option of galaxy using cached files.
+</figcaption>
+</div>  
+
+
 ## Global tool dependent solution
 
 Since this issue cannot be solved satisfactory on the workflow level, one can still aim to improve the problem for the community by solving it on the tool level.
@@ -151,7 +171,7 @@ The initial solution was to add the `Convert compressed file to uncompressed` to
 However, this initial solution is not optimal, since the data size will increase in the user's history (due to file decompression) by running the workflow. Therefore, we have proposed another solution by updating the tools wrappers themselves to perform the decompression internally without the need to use the `Convert compressed file to uncompressed` tool (https://github.com/galaxyproject/tools-iuc/pull/5360). In fact the tool did not require a internal decompression step, since it can indeed work with zipped files, it only needed
 to know that the input is zipped.
 
-Although the problem could be solved again on the tool wrapper level, the general problematic of inconsistent conversion logic between single files and collections is most likely a bug of galaxy which should be followed up (`TODO issue`).
+Although the problem could be solved again on the tool wrapper level, the general problematic of inconsistent conversion logic between single files and collections is most likely a bug which is currently investigated for following galaxy releases.
 
 # Outlook
 
