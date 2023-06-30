@@ -34,7 +34,10 @@ That's a short sentence, but it is very deliberately worded:
 
 This is a Collaboration Fest. Not a hackathon, not a codefest, but a *CollaborationFest*.
 
-Welcome aboard.
+Welcome aboard! If you'd like to get involved check out our live
+[document of CoFest project ideas](https://docs.google.com/spreadsheets/d/1FszurZjtqGVf5jhuW0K9ysZt_VtRvXVhqwAye5_Zj0A/edit?usp=sharing).
+Feel free to add to this document or join someone else's project by adding your name to the
+*Participants* column.
 
 ## Dates
 
