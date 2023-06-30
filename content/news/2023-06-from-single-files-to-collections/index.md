@@ -60,7 +60,8 @@ be provided by the user that is then processed similarly to the described approa
 Even if a workflow is well designed, in some cases in can happen that only few elements of a collection fail. This happened to us rather randomly in case of Kraken2, since
 it requires large amounts of memory (>70 GB), which were not assigned to every run of the tool by the server. That issue was solved by increasing the minimum memory required by the tool on the EU server. But there are various other scenarios where the failure of the tool can be attributed for example to specific input data. In other cases only a few elements of a collection are empty (e.g. if an assembly can not be made due to not overlapping reads).
 
-If an element of a collection is failed or empty the entire downstream processing is stopped, which can be rather annoying if one want to process a large amount of data and got stuck due to a few elements. Two solutions are proposed to handle such cases.
+If a collection is used in the tool [Collapse Collection
+into single dataset in order of the collection](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0) but an element of the collection is failed or empty the entire downstream processing is stopped, which can be rather annoying if one aims to process a large amount of data and got stuck due to a few elements. Two solutions are proposed to handle such cases.
 
 ## Intermediate workflow specific solution
 
