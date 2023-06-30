@@ -142,37 +142,6 @@ Two things need to be considered here.
 * Why does the tool fail, can it be solved? In our case we had to increase the memory of kraken2 for the server. In other cases it could be necessary to inspect the tool wrapper and find individual solutions.
 * Why does the tool produce empty elements? If the tool produces empty elements when in fact it has an output but the output is an empty file (e.g. if a detection tools detects nothing), it might be as simple as adding an empty table or fasta file for this tool, to allow follow up tools to work. E.g. an assembly tool than cannot create any contig should return an empty fasta file instead of failing.
 
-# Case 3 - Collection workflow logic does not fully comply with single file logic 
-
-## Implicit Conversions
-
-Some of the tools, used in the *Foodborne pathogen detection workflow using collections*, failed when we run the workflow but succeed when the tool did run alone without a workflow, for example `Krakentools: Extract Kraken Reads By ID` and `Filter Sequence by ID`.
-
-After a bit of investigation we noticed that when these tools run alone (without being in a workflow) or in a workflow with single files galaxy performs an implicit decompressing of the zipped input files, which then channels the correct file to the underlying wrapper tool. However when the same tools run in a collection in a workflow this implicit decompressing does not take place, which cause the output to fail. 
-
-![Example of the implicit datatype conversion performed by the tools](./figs/implicit_datatype_coversion.png)
-
-</div>  
-<figcaption>
-  Example of the implicit datatype conversion performed by the tools while running stand alone without a workflow in a history.
-</figcaption>
-</div>  
-
-The initial solution was to add the `Convert compressed file to uncompressed` tool before running these tools, as shown in green in the figure below.
-
-![part of the preprocessing workflow](./figs/preprocessing_WFpart_collection_marked.png)
-
-</div>  
-<figcaption>
-  Part of the Pre-processing pathogen detection workflow for collection, showing the initial solution for decompressing within a workflow.
-</figcaption>
-</div>  
-
-However, this initial solution is not optimal, since the data size will increase in the user's history (due to file decompression) by running the workflow. Therefore, we have proposed another solution by updating the tools wrappers themselves to perform the decompression internally without the need to use the `Convert compressed file to uncompressed` tool (https://github.com/galaxyproject/tools-iuc/pull/5360). In fact the tool did not require a internal decompression step, since it can indeed work with zipped files, it only needed
-to know that the input is zipped.
-
-Although the problem could be solved again on the tool wrapper level, the general problematic of inconsistent conversion logic between single files and collections is most likely a bug which is currently investigated for following galaxy releases.
-
 # Outlook
 
 We hope that this post can help others to also move from single file workflows to collections and motivate to improve the overall experience for the community by creating 
