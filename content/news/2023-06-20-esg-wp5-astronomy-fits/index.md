@@ -4,7 +4,7 @@ date: "2023-06-16"
 tease: "Enabling native support and visualization of Astronomical FITS data in Galaxy"
 hide_tease: false
 tags: [esg-wp5, esg]
-subsites: [all-eu, esg]
+subsites: [all, all-eu, esg]
 main_subsite: eu
 ---
 
