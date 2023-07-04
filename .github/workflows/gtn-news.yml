@@ -1,0 +1,166 @@
+---
+# Pull news from the Galaxy Training Network's RSS feed and add them as
+# Galaxy Hub posts.
+name: Galaxy Training Network news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 * * * *
+
+jobs:
+  collect:
+    name: Collect news from the Galaxy Training Network
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install feedparser.
+        run: pip install feedparser~=6.0
+
+      - name: Parse GTN RSS feed.
+        id: parse
+        shell: python -u {0}
+        run: |
+          import json
+          import os
+          from datetime import datetime, timedelta, timezone
+
+          import feedparser
+
+          feedparser.sanitizer._HTMLSanitizer.acceptable_elements.remove("a")
+          feedparser.sanitizer._HTMLSanitizer.acceptable_elements.remove("img")
+
+          feed = feedparser.parse("https://training.galaxyproject.org/training-material/feed.xml")
+
+          posts = {}
+          oldest = datetime.now().astimezone()
+          for entry in feed.entries:
+              feed_title = f"[GTN news] {entry['title']}"
+              feed_link = entry["link"]
+              feed_blurb = entry["summary"]
+              feed_published = entry["published"].split("T")[0]
+              feed_name = feed_link.split("/")[-1].replace(".html", "")
+              posts[f"{feed_published}-{feed_name}"] = {
+                  "title": feed_title,
+                  "link": feed_link,
+                  "blurb": feed_blurb,
+                  "published": feed_published,
+                  "name": feed_name,
+              }
+              feed_published_dt = datetime.fromisoformat(entry["published"])
+              oldest = feed_published_dt if feed_published_dt < oldest else oldest
+          oldest = (oldest - timedelta(days=1)).astimezone(timezone.utc).date()
+
+          with open(os.environ["GITHUB_OUTPUT"], 'w') as file:
+              print("posts=%s" % json.dumps(posts), file=file)
+              print("date=%s" % oldest, file=file)
+
+      # The next two steps prevent the `pull_requests` job from running when the target pull request may
+      # already exist. They are not strictly necessary because the GitHub Action
+      # `peter-evans/create-pull-request@v5` does not create duplicate PRs by default
+      # (see https://github.com/peter-evans/create-pull-request#action-behaviour)
+      - name: Get files touched by existing GitHub PRs that are newer than the oldest article in the feed.
+        id: files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          files="$(gh pr list --repo https://github.com/${{ github.repository }} -s all -S "created:>=${{ steps.parse.outputs.date }}" --json files)"
+          echo files="$files" > $GITHUB_OUTPUT
+      - name: Filter out GTN news for which a PR may already exist.
+        id: filter
+        shell: python -u {0}
+        run: |
+          import json
+          import os
+
+          files=json.loads("""
+              ${{ steps.files.outputs.files }}
+          """)
+          files={file["path"] for item in files for file in item["files"]}
+
+          posts=json.loads("""
+              ${{ steps.parse.outputs.posts }}
+          """)
+
+          existing = {
+              name
+              for name in posts
+              if any(name in file for file in files)
+          }
+          for name in existing:
+              del posts[name]
+
+          with open(os.environ["GITHUB_OUTPUT"], 'w') as file:
+              print("posts=%s" % json.dumps(posts), file=file)
+
+      - name: Prepare matrix for `pull_requests` job.
+        id: matrix
+        shell: python -u {0}
+        run: |
+          import json
+          import os
+
+          posts=json.loads("""
+              ${{ steps.filter.outputs.posts }}
+          """)
+
+          with open(os.environ["GITHUB_OUTPUT"], 'w') as file:
+              print(
+                  "matrix=%s" % f"{json.dumps({'name': list(posts)})}",
+                  file=file
+              )
+    outputs:
+      posts: ${{ steps.filter.outputs.posts }}
+      matrix: ${{ steps.matrix.outputs.matrix }}
+
+  pull_requests:
+    name: Create pull request
+    runs-on: ubuntu-latest
+    needs: collect
+    strategy:
+      fail-fast: false
+      matrix: ${{fromJson(needs.collect.outputs.matrix)}}
+    steps:
+      - name: Check out the Galaxy Hub.
+        uses: actions/checkout@v3
+        with:
+          ref: master
+
+      - name: Create a Galaxy Hub post.
+        id: post
+        shell: python -u {0}
+        run: |
+          import json
+          import os
+          import textwrap
+
+          post = json.loads("""
+              ${{ needs.collect.outputs.posts }}
+          """)["${{ matrix.name }}"]
+          post = textwrap.dedent(f"""
+              ---
+              site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+              date: "{post['published']}"
+              tags: [training, gtn-news]
+              title: "{post['title']}"
+              supporters:
+              - denbi
+              - elixir
+              - gallantries
+              external: '{post["link"]}'
+              ---
+
+              {post["blurb"]}
+
+          """)[1:]
+
+          os.makedirs(f"./content/news/${{ matrix.name }}", exist_ok=True)
+          with open(f"./content/news/${{ matrix.name }}/index.md", "w") as file:
+              file.write(post)
+
+      - name: Create pull request.
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: Publish post ${{ matrix.name }} from GTN
+          branch: ${{ matrix.name }}
+          commit-message: Post ${{ matrix.name }} from GTN
+          body: Publish post ${{ matrix.name }} from GTN.
