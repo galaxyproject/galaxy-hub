@@ -54,9 +54,9 @@ idea to save an offline map of Brisbane on your phone to ease navigation.
 
 ## Venue
 
-GCC2023 will be held at the [Queensland University of
+**GCC2023 is held at the [Queensland University of
 Technology](https://www.qut.edu.au/) (QUT) [Gardens Point
-campus](https://www.qut.edu.au/about/campuses-and-facilities/gardens-point-campus).
+campus](https://www.qut.edu.au/about/campuses-and-facilities/gardens-point-campus)**.
 This is a beautiful location in the center of the city and right on the Brisbane
 river. This campus is serviced by multiple bus routes, a short walk from Central
 Station (through the city) and South Bank station (a short walk across a

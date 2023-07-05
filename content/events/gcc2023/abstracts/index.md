@@ -5,12 +5,12 @@ autotoc: false
 <slot name="/events/gcc2023/header" />
 
 <div class="text-center my-5">
-  <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary">
-      <strong>Register now</strong>
+  <a target="_blank" href="https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg" type="button" class="btn btn-primary">
+      <strong>Join GCC2023 Slack</strong>
   </a>
   ◇
-  <a target="_blank" href="/events/gcc2023/schedule/#schedule" type="button" class="btn btn-primary">
-      <strong>Preview the program</strong>
+  <a target="_blank" href="https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit" type="button" class="btn btn-primary">
+      <strong>View abstract book</strong>
   </a>
 </div>
 
@@ -41,7 +41,7 @@ register and be available on Zoom/Slack during their scheduled session.
 | ~~Jun 2~~  | Abstracts due for posters/demos |
 | ~~Jun 12~~ | Poster/demo acceptance announcements |
 | ~~Jun 26~~ | Deadline for submitting your accepted poster to the organizers |
-| Jul 1  | Deadline for submitting slides for your talk to the organizers |
+| ~~Jul 1~~  | Deadline for submitting slides for your talk to the organizers |
 
 
 ## Poster details
@@ -61,10 +61,6 @@ Complete details about creating a poster from the venue IT are available in
 [this
 PDF](https://drive.google.com/file/d/1hrPtuuvvhkbEt1eoFIlh9JKAS8ncDDSH/view?usp=sharing).
 
-Because the venue IT department will roll out the posters to the monitors, **you
-will need to upload your poster to the [Google Drive
-folder](https://drive.google.com/drive/folders/1G7oFQyjtcZ6yLK7wt8Njg7sBa777d1BO?usp=sharing)
-by June 26, 2023**.
 
 ### Virtual poster presenters
 
@@ -75,7 +71,7 @@ you do the following 2 things to help increase the impact of your poster:
 
 Please do both of these steps no later than July 9.
 
-To start, please first join the [conferene
+To start, please first join the [conference
 Slack](https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg).
 Then join the the [#poster-chat
 channel](https://gcc2023.slack.com/archives/C058E0U8UC9) and upload your poster.
@@ -84,13 +80,13 @@ will use this channel for (asynchronous) communication about the posters so
 please initiate and monitor activity.
 
 For the short video, this is your opportunity to share enthusiasm for your work
-and give the poster a persona. The video. is intended as an overview to capture
-attention so there is not need (or time) to go into every detail. The goal is to
-initiate conversation. inslack after someone has watched your video. So go
-ahead, practive your [elevator
+and give the poster a persona. The video is intended as an overview to capture
+attention so there is no need (or time) to go into every detail. The goal is to
+initiate a conversation in Slack after someone has watched your video. So go
+ahead, practice your [elevator
 pitch](https://www.thebalancemoney.com/elevator-speech-examples-and-writing-tips-2061976)
-and create the video. Once you have it, upload it to Slack as well (best to do
-this as a threaded reply to your poster message so they are kept together).
+and create the video. Once you have it, upload it to Slack (best to do
+this as a threaded reply with your poster message so they are kept together).
 
 <div style="min-width: 50%; max-width: 30rem; margin-left: auto; margin-right: auto;">
   <img src="/images/events/gcc2023/qut-cube.jpg" alt="QUT Cube" />
@@ -113,9 +109,9 @@ the audience). Short talks will be 7 minutes total.
 Because GCC2023 is a hybrid event with virtual participants, the organizers will
 need to ensure all the slides for talks are uniformly available for remote
 attendees. Hence, **we ask that you create your slides in [Google
-Slides](https://slides.google.com)** and share the slide deck with *anyone with the
-link* (in view-only mode). Then, **share that link with Enis Afgan and Jenn Vessio
-via email by July 1, 2023**.
+Slides](https://slides.google.com) and share the slide deck with *anyone with
+the link* (in view-only mode), and provide a link in [this
+spreadsheet](https://docs.google.com/spreadsheets/d/13Cs1ZgUkxN3Al9tfmNFzDYgxH7T-sa6YS6_vppMhJJE/edit#gid=0)**.
 
 
 # Birds of a Feather (BoF) sessions
