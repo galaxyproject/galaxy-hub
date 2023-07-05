@@ -18,16 +18,16 @@ Hans-Rudolf Hotz (Friedrich Miescher Institute, CH) was presenting [**The Galaxy
 Leandro Liborio (Science and Technology Facilities Council, UK) was presenting [**Galaxy and Scientific Communities: How to Incorporate New Ones, Uplift Engaged Ones and Maintain Mature Ones**](https://pasc23.pasc-conference.org/presentation/?id=msa156&sess=sess169), describing several examples from the [**EuroScienceGateway project**](https://galaxyproject.org/projects/esg/).
 
 
- <img src="IMG_0701.jpg" alt="workshop presenters" width="500">
+ <img src="./IMG_0701.jpg" alt="workshop presenters" width="500">
  
 (Sergey, on-line; Leandro; Greg; Rolf; Hans-Rudolf)  
 
- <img src="IMG_0685.jpg" alt="conference dinner" width="500">
+ <img src="./IMG_0685.jpg" alt="conference dinner" width="500">
  
 (catching up with Volodymyr Savchenko (École Polytechnique Fédérale de Lausanne, CH) another collaborator from the [**EuroScienceGateway project**](https://galaxyproject.org/projects/esg/), see his recent blog post on 
 [**Galaxy for Astronomy: Integration of the FITS file format**](https://galaxyproject.org/news/2023-06-20-esg-wp5-astronomy-fits/) )
 
- <img src="IMG_0704.jpg" alt="greg interview" width="500">
+ <img src="./IMG_0704.jpg" alt="Greg interview" width="500">
  
 (Greg is being interviewd by the conference organizers. watch the video on [**youtube**](https://www.youtube.com/watch?v=oJBDPzcxxiA) )
 
