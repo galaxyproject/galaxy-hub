@@ -4,6 +4,16 @@ autotoc: false
 
 <slot name="/events/gcc2023/header" />
 
+<div class="text-center my-5">
+  <a target="_blank" href="https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg" type="button" class="btn btn-primary">
+      <strong>Join GCC2023 Slack</strong>
+  </a>
+  ◇
+  <a target="_blank" href="https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit" type="button" class="btn btn-primary">
+      <strong>View abstract book</strong>
+  </a>
+</div>
+
 
 # Program
 
@@ -34,13 +44,13 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 |                    | 11:20 - 12:30 | [Talks session 1: New Galaxy Features](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jjplbxp44h8q)|
 |                    | 13:30 - 16:20 | Hands-on training 1 <br/>- Machine Learning <br/> - Workflow Development <br/> - Galaxy + R <br/> - Intro to Genomics <br/> - Single Cell Transcriptomics |
 |                    | 16:25 - 17:20 | [Talks session 2: Success Stories with Galaxy](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.k0mlxy88v0z7) |
-|                    | 17:20 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
-| Tuesday, July 11   | 9:00 - 9:10   | Tribute to [Simon Gladman](https://www.biocommons.org.au/news/simon-gladman) |
-|                    | 9:10 - 10:10  | [Talks session 3: Galaxy Education](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jn19e27s2on0) |
-|                    | 10:10 - 11:20 | [Posters & Demos session 2](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.rgkgup5q8me5) |
-|                    | 11:20 - 11:45 | Platinum sponsor talk: [BizData](https://www.bizdata.com.au/)|
+|                    | 17:30 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
+| Tuesday, July 11   | 9:00 - 10:00  | [Talks session 3: Galaxy Education](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.jn19e27s2on0) |
+|                    | 10:00 - 11:10 | [Posters & Demos session 2](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.rgkgup5q8me5) |
+|                    | 11:10 - 11:35 | Platinum sponsor talk: [BizData](https://www.bizdata.com.au/)|
+|                    | 11:35 - 11:45 | Tribute to [Simon Gladman](https://www.biocommons.org.au/news/simon-gladman) |
 |                    | 11:45 - 12:30 | Community update talk                        |
-|                    | 13:30 - 16:20 | Hands-on training 2 <br/> - Tool Development <br/> - Admin Roundtable <br/> - Galaxy Tips and Tricks <br/> - Genome Annotation <br/> - Structural Biology and Alphafold |
+|                    | 13:30 - 16:20 | Hands-on training 2 <br/> - [Tool Development](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html) <br/> - Admin Roundtable <br/> - Galaxy Tips and Tricks <br/> - Genome Annotation <br/> - Structural Biology and Alphafold |
 |                    | 16:25 - 17:30 | [Talks session 4: New Communities](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.68zj43i1b7bz)|
 |                    | 17:30 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
 | Wednesday, July 12 | 9:00 - 9:20   | Sign-up and organization of the koala sanctuary visit |
@@ -53,10 +63,10 @@ document](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_
 |                    | 9:10 - 10:10  | Keynote 3: [Roberto Barrero](#biodiversity-1)<br/>*Improving plant industry access to new genetics through faster and more accurate diagnostics of plant viruses and viroids* |
 |                    | 10:10 - 11:20 | [Talks session 6: Galaxy UI/UX](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.lt99r0b318s5) |
 |                    | 11:20 - 12:30 | [Talks session 7: Playing Nice with Everyone](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.nw9l5nnrz89k) |
-|                    | 13:30 - 16:20 | Hands-on training 3 <br/> - Contributing to the GTN <br/> - Dev Small Groups <br/> - Microbiology <br/> - Genome Assembly with VGP <br/> - Galaxy for Human Genetics |
+|                    | 13:30 - 16:20 | Hands-on training 3 <br/> - [Contributing to the GTN](https://training.galaxyproject.org/training-material/topics/contributing/) <br/> - Dev Small Groups <br/> - Microbiology <br/> - [Genome Assembly with VGP](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_workflow_training/tutorial.html) <br/> - [Galaxy for Human Genetics](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/index.html) |
 |                    | 16:25 - 17:10 | [Talks session 8: Looking Ahead](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.tdri0hju7bvj) |
 |                    | 17:10 - 17:20 | Conference closing                           |
-|                    | 17:20 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
+|                    | 17:30 - 18:30 | [BOFs](#birds-of-a-feather-bof-sessions) |
 | Friday - Sunday    | 09:00 - 17:00 | CoFest                                       |
 
 
@@ -214,7 +224,7 @@ being planned:
         Topic title
       </td>
       <td style="border: 1;">
-        <strong>Galaxy & Mass Spectrometry</strong>
+        <strong>Microbial data analysis in Galaxy</strong>
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -222,7 +232,7 @@ being planned:
         Date & time
       </td>
       <td style="border: 0;">
-        TBD
+        Monday, 17:30-18:30
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -230,7 +240,7 @@ being planned:
         Organizers
       </td>
       <td style="border: 0;">
-        pjagtap@umn.edu, johan@biocommons.org.au
+        berenice.batut@gmail.com, saskiahiltemann@gmail.com
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -238,10 +248,13 @@ being planned:
         Topic summary
       </td>
       <td style="border: 0;">
-        Galaxy communities and researchers interested in proteomics,
-        metabolomics, and imaging mass spectrometry will discuss software
-        tools, workflows, new methods, workshops, and topics related to
-        mass spectrometry.
+        Many efforts on microbial analysis are done in Galaxy. To avoid redundancy and
+        coordinate our efforts, we started <i>microGalaxy</i>, a community focusing on
+        microbial analysis with Galaxy. Whether you are analysing microbiome samples or
+        bacterial isolates, long reads or short, shotgun or 16S, genomics
+        transcriptomics or proteomics, this is the place to be! <br/>
+        We organized quarterly community meeting. What a best occasion than GCC and a
+        BoF for our next meeting? Anyone interested is welcome to join.
       </td>
     </tr>
   </tbody>
@@ -254,7 +267,7 @@ being planned:
         Topic title
       </td>
       <td style="border: 1;">
-        <strong>Workflows</strong>
+        <strong>Data-Driven Decision-Making Metrics on UseGalaxy</strong>
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -262,7 +275,7 @@ being planned:
         Date & time
       </td>
       <td style="border: 0;">
-        TBD
+        Monday, 17:30-18:30
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -270,7 +283,7 @@ being planned:
         Organizers
       </td>
       <td style="border: 0;">
-        johan@biocommons.org.au, ziad@biocommons.org.au, g.price@qcif.edu.au
+        Michelle.Savage@jhmi.edu, enis.afgan@gmail.com
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -278,11 +291,16 @@ being planned:
         Topic summary
       </td>
       <td style="border: 0;">
-        The BoF will cover workflow best practices in Galaxy: including for example,
-        easier / standard file naming instructions inside workflows (could these be made
-        easier to use https://galaxyproject.org/learn/advanced-workflow/variables/ ?).
-        We will also discuss FAIR workflows, and how to support Galaxy users to find and
-        reuse workflows across instances by using registries.
+        Globally, modern community-based websites rely on data metrics to make informed
+        decisions on new and existing features. During this UseGalaxy knowledge-sharing
+        session, we will (1) outline real-world examples (past, present, future) where
+        data-driven decision-making metrics would benefit the UseGalaxy community and
+        (2) build/edit a glossary for these metrics' terminology and calculations with
+        the guidance of existing key metrics already in use and those that may need to
+        be created.<br/>
+        For transparency, we welcome UseGalaxy team members from all major hub sites,
+        although it is not necessary to get consensus across sites. We also welcome any
+        attendee with vested interest on the topic or just curious.
       </td>
     </tr>
   </tbody>
@@ -295,7 +313,7 @@ being planned:
         Topic title
       </td>
       <td style="border: 1;">
-        <strong>Power Users of Galaxy</strong>
+        <strong>Walking tour of QUT & South Bank</strong>
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -303,7 +321,7 @@ being planned:
         Date & time
       </td>
       <td style="border: 0;">
-        TBD
+        Monday, 17:30-18:30
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -311,7 +329,7 @@ being planned:
         Organizers
       </td>
       <td style="border: 0;">
-        a.ostrovsky@mac.com, dannon.baker@gmail.com
+        g.price@qcif.edu.au
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -319,12 +337,7 @@ being planned:
         Topic summary
       </td>
       <td style="border: 0;">
-        Galaxy power users have a unique and valuable perspective on Galaxy's quirks.
-        Many of our users run Galaxy for large-scale projects, or use it enough across
-        many of their analyses that they notice changes or improvements others might
-        miss. If you are experienced with Galaxy and have noticed pain points, or if you
-        have an idea as to how to make your experience smoother or improved in some way,
-        we want to talk to you!
+        Take a walk with the locals to show you some of the city and QUT highlights.
       </td>
     </tr>
   </tbody>
@@ -345,7 +358,7 @@ being planned:
         Date & time
       </td>
       <td style="border: 0;">
-        TBD
+        Tuesday, 17:30-18:30
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -382,7 +395,7 @@ being planned:
         Topic title
       </td>
       <td style="border: 1;">
-        <strong>Data-Driven Decision-Making Metrics on UseGalaxy</strong>
+        <strong>Workflows</strong>
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -390,7 +403,7 @@ being planned:
         Date & time
       </td>
       <td style="border: 0;">
-        TBD
+        Tuesday, 17:30-18:30
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -398,7 +411,7 @@ being planned:
         Organizers
       </td>
       <td style="border: 0;">
-        Michelle.Savage@jhmi.edu, enis.afgan@gmail.com
+        johan@biocommons.org.au, ziad@biocommons.org.au
       </td>
     </tr>
     <tr class="text-left" style="background-color: white">
@@ -406,16 +419,169 @@ being planned:
         Topic summary
       </td>
       <td style="border: 0;">
-        Globally, modern community-based websites rely on data metrics to make informed
-        decisions on new and existing features. During this UseGalaxy knowledge-sharing
-        session, we will (1) outline real-world examples (past, present, future) where
-        data-driven decision-making metrics would benefit the UseGalaxy community and
-        (2) build/edit a glossary for these metrics' terminology and calculations with
-        the guidance of existing key metrics already in use and those that may need to
-        be created.<br/>
-        For transparency, we welcome UseGalaxy team members from all major hub sites,
-        although it is not necessary to get consensus across sites. We also welcome any
-        attendee with vested interest on the topic or just curious.
+        The BoF will cover workflow best practices in Galaxy: including for example,
+        easier / standard file naming instructions inside workflows (could these be made
+        easier to use https://galaxyproject.org/learn/advanced-workflow/variables/ ?).
+        We will also discuss FAIR workflows, and how to support Galaxy users to find and
+        reuse workflows across instances by using registries.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Remembering Simon with board games</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        Tuesday, 17:30-18:30
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        g.price@qcif.edu.au
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        Let's play some board games, which Simon loved so we'll remember the good times with him.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Galaxy & Mass Spectrometry</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        Thursday, 17:30-18:30
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        pjagtap@umn.edu, johan@biocommons.org.au
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        Galaxy communities and researchers interested in proteomics,
+        metabolomics, and imaging mass spectrometry will discuss software
+        tools, workflows, new methods, workshops, and topics related to
+        mass spectrometry.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Power Users of Galaxy</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        Thursday, 17:30-18:30
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        a.ostrovsky@mac.com, dannon.baker@gmail.com
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        Galaxy power users have a unique and valuable perspective on Galaxy's quirks.
+        Many of our users run Galaxy for large-scale projects, or use it enough across
+        many of their analyses that they notice changes or improvements others might
+        miss. If you are experienced with Galaxy and have noticed pain points, or if you
+        have an idea as to how to make your experience smoother or improved in some way,
+        we want to talk to you!
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 1; width: 20%;">
+        Topic title
+      </td>
+      <td style="border: 1;">
+        <strong>Logan Road Pub Crawl and Arcade Games / Pinball</strong>
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Date & time
+      </td>
+      <td style="border: 0;">
+        Thursday, from 17:30
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Organizers
+      </td>
+      <td style="border: 0;">
+        g.price@qcif.edu.au
+      </td>
+    </tr>
+    <tr class="text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        Topic summary
+      </td>
+      <td style="border: 0;">
+        Step into the world of bars, arcade, and pinball at <a href="https://pincadia.info/">Pincadia</a>
+        for an evening of entertainment.
       </td>
     </tr>
   </tbody>

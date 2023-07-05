@@ -4,26 +4,17 @@ autotoc: false
 
 <slot name="/events/gcc2023/header" />
 
-<div class="text-center my-5">
-    <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary">
-        <strong>Register now</strong>
-    </a>
-    ◇
-    <a target="_blank" href="/events/gcc2023/schedule/#schedule" type="button" class="btn btn-primary">
-        <strong>Preview the program</strong>
-    </a>
-</div>
 
 # Registration
 
-Conference registration is handled via an Eventbrite portal. Click the
-`Register now` button above to access the portal. After registering, you will
+**[Conference registration is handled via Eventbrite
+portal](https://gcc-2023.eventbrite.com.au/)**. After registering, you will
 receive a confirmation email with the registration details.
 
 
 ## Meeting: July 10-13
 
-The general meeting portion of GCC2023 will consist of a series of peer-reviewed
+The general meeting portion of GCC2023 consist of a series of peer-reviewed
 talks, posters, demos, training, Birds-of-a-Feather meetups, and sponsor sessions.
 
 The registration fee includes admission to the meeting events, morning/afternoon

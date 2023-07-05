@@ -30,14 +30,20 @@ subsites: [all]
 
 #### [#UseGalaxy2023](https://twitter.com/hashtag/UseGalaxy2023)
 
-<a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary">
-    <strong>Register now</strong>
-</a>
-◇
-<a target="_blank" href="/events/gcc2023/schedule" type="button" class="btn btn-primary">
-    <strong>Preview the program</strong>
-</a>
+  <div class="text-center my-5">
+    <a target="_blank" href="https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg" type="button" class="btn btn-primary">
+        <strong>Join GCC2023 Slack</strong>
+    </a>
+    ◇
+    <a target="_blank" href="https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit" type="button" class="btn btn-primary">
+        <strong>View abstract book</strong>
+    </a>
+  </div>
 </div>
+
+<calendar-embed event="2138590049" />
+
+## Event highlights
 
 <div class="card-deck lead">
 
@@ -60,8 +66,8 @@ Galaxy community.
 
   </div>
 
-  <!-- Abstracts -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <!-- Call for participation -->
+  <!-- <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/key-dates.png" class="card-img-top" alt="Key Dates" />
     <div class="card-header">Call for participation</div>
 
@@ -78,7 +84,7 @@ planned program.
 **Topics of interest include** methods, tools, pipelines, trainings, or software
 that push the field of data science with Galaxy forward.
 
-  </div>
+  </div> -->
 
 <!-- Keynotes -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
