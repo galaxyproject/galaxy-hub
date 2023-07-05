@@ -138,14 +138,10 @@ jobs:
           """)["${{ matrix.name }}"]
           post = textwrap.dedent(f"""
               ---
-              site: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+              site: [all]
               date: "{post['published']}"
               tags: [training, gtn-news]
               title: "{post['title']}"
-              supporters:
-              - denbi
-              - elixir
-              - gallantries
               external: '{post["link"]}'
               ---
 
