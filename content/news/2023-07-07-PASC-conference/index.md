@@ -17,7 +17,7 @@ Hans-Rudolf Hotz (Friedrich Miescher Institute, CH) was presenting [**The Galaxy
 
 Leandro Liborio (Science and Technology Facilities Council, UK) was presenting [**Galaxy and Scientific Communities: How to Incorporate New Ones, Uplift Engaged Ones and Maintain Mature Ones**](https://pasc23.pasc-conference.org/presentation/?id=msa156&sess=sess169), describing several examples from the [**EuroScienceGateway project**](https://galaxyproject.org/projects/esg/).
 
-![workshop presenters](./IMG_0701.jpg)
+![workshop presenters](./IMG_0701.2.jpg)
  
 (Sergey, on-line; Leandro; Greg; Rolf; Hans-Rudolf)  
 
