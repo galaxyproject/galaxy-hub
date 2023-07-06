@@ -39,12 +39,14 @@ jobs:
               feed_blurb = entry["summary"]
               feed_published = entry["published"].split("T")[0]
               feed_name = feed_link.split("/")[-1].replace(".html", "")
+              feed_author = entry["author"]
               posts[f"{feed_published}-{feed_name}"] = {
                   "title": feed_title,
                   "link": feed_link,
                   "blurb": feed_blurb,
                   "published": feed_published,
                   "name": feed_name,
+                  "author": feed_author,
               }
               feed_published_dt = datetime.fromisoformat(entry["published"])
               oldest = feed_published_dt if feed_published_dt < oldest else oldest
@@ -142,6 +144,7 @@ jobs:
               date: "{post['published']}"
               tags: [training, gtn-news]
               title: "{post['title']}"
+              authors: "{post['author']}"
               external: '{post["link"]}'
               ---
 
