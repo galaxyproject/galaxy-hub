@@ -68,6 +68,7 @@ For those that will not attend GCC2023 in person but are presenting a poster, we
 you do the following 2 things to help increase the impact of your poster:
 1. Upload your poster to the conference Slack (see below)
 2. Create a ~90 second video where you give a quick overview of the poster
+3. If you plan on being available during your poster session, set up a virtual meeting link
 
 Please do both of these steps no later than July 9.
 
@@ -87,6 +88,15 @@ ahead, practice your [elevator
 pitch](https://www.thebalancemoney.com/elevator-speech-examples-and-writing-tips-2061976)
 and create the video. Once you have it, upload it to Slack (best to do
 this as a threaded reply with your poster message so they are kept together).
+
+Although not a requirement (timezones can be challenging), if you are available
+during your [scheduled poster
+session](https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit#heading=h.iqd2fy2pxc1h),
+we encourage you to create a virtual meeting (eg, Zoom, Meet, etc) and post a
+link in the [#poster-chat
+channel](https://gcc2023.slack.com/archives/C058E0U8UC9) on Slack. Participants
+can then use this link to connect via their phones and chat to you about your
+poster.
 
 <div style="min-width: 50%; max-width: 30rem; margin-left: auto; margin-right: auto;">
   <img src="/images/events/gcc2023/qut-cube.jpg" alt="QUT Cube" />
