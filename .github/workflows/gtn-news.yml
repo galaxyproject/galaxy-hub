@@ -213,9 +213,11 @@ jobs:
           | jq '.[].number' | wc -l)
           test $exists -ne 1 || exit 0
 
+          set +e
           gh pr create \
             --repo ${{ github.repository }} \
             --base "${{ env.base }}" \
             --head "${{ env.branch }}" \
             --title "Publish latest news from the Galaxy Training Network" \
             --body  "Publish the latest news from the Galaxy Training Network."
+          true
