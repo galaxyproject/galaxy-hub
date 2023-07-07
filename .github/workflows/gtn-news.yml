@@ -124,12 +124,13 @@ jobs:
           """)["${{ matrix.name }}"]
           post = textwrap.dedent(f"""
               ---
-              site: [all]
+              subsites: [all]
+              main_subsite: global
               date: "{post['published']}"
               tags: [training, gtn-news]
               title: "{post['title']}"
               authors: "{post['author']}"
-              external: '{post["link"]}'
+              external_url: '{post["link"]}'
               ---
 
               {post["blurb"]}
