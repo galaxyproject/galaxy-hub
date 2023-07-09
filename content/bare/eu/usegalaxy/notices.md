@@ -7,11 +7,19 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 <div class="alert" style="background: #00d084;">
 
+#### **Maintenance!**
+
+Our GPU compute infrastructure will undergo maintenance on 13th of July. During this maintenance GPU jobs will be affected along with some disruptions to non GPU jobs. We will try to keep the downtime as short as possible. We apologize for any inconvenience.
+
+</div>
+
+<!-- <div class="alert" style="background: #00d084;">
+
 #### **Act, don't criminalize!**
 
 Today, 21st of April 2023, a statement in support of peaceful, but resolved protest against insufficient climate politics got released and has been signed by more than 1000 scientists from German-speaking countries in Europe. Read [why members of the Freiburg, Germany branch of Galaxy Europe endorse this initiative](https://galaxyproject.org/news/2023-04-21-act-dont-criminalize/).
 
-</div>
+</div> -->
 
 <div class="alert" style="background: #FFD500;">
 
