@@ -2,7 +2,7 @@
 title: European Galaxy Days (EGD)
 date: '2023-10-04'
 tease: European Galaxy Community meeting in Autumn
-days: 4
+days: 3
 continent: EU
 location:
   name: Freiburg, Germany
