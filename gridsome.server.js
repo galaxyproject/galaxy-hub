@@ -29,7 +29,7 @@ Object.entries(CONFIG.collections).forEach(([name, meta]) => {
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
 const IMAGE_PREFIX_WHITELIST = ["images/", "https://", "http://"];
-const JSONFEED_DAYS_AGO_LIMIT = 30
+const JSONFEED_DAYS_AGO_LIMIT = 30;
 
 function categorize(pathParts) {
     /** Take a `pathParts` made by splitting the path on `"/"` and return a category:
@@ -586,7 +586,9 @@ module.exports = function (api) {
                             contact
                             image
                             authors
-                            authors_structured{github}
+                            authors_structured {
+                                github
+                            }
                             external_url
                             path
                         }
