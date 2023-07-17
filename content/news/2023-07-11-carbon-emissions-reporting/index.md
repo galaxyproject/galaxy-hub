@@ -33,7 +33,7 @@ detailing the estimated CO2 output and energy usage of that job. Additionally, w
 or the amount of smartphones you could have charged given your job's energy usage. This helps make the numbers more relatable. Here's an example carbon emissions report:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="./ui.png" alt="An image of carbon emissions reporting UI" width="60%" />
+    <img src="./ui.png" alt="An image of carbon emissions reporting UI" width="80%" />
 </div>
 
 ## Implementation details
@@ -107,7 +107,7 @@ As mentioned, we assume that jobs are run in the same geographical location as t
 configured with a location looks as follows:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="./set-location.png" alt="" width="50%"/>
+    <img src="./set-location.png" alt="" width="80%"/>
 </div>
 
 ## Next steps
