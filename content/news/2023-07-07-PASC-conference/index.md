@@ -28,6 +28,6 @@ Leandro Liborio (Science and Technology Facilities Council, UK) was presenting [
 
  ![Greg interview](./IMG_0704.jpg)
 
-(Greg is being interviewd by the conference organizers. watch the video on [**youtube**](https://www.youtube.com/watch?v=oJBDPzcxxiA) )
+(Greg is being interviewed by the conference organizers. watch the video on [**youtube**](https://www.youtube.com/watch?v=oJBDPzcxxiA) )
 
 Overall, it has been an interesting and valuable experience to present the Galaxy project from so many different angles.
