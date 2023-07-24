@@ -15,15 +15,17 @@ During 19th-23rd of June, members (Björn Grüning, Sebastian Schaaf, and Sanjay
 
 On the second day, Sanjay, and Sebastian set up the ESG booth. In the evening Sanjay pitched the booth and advertised Galaxy and the ESG project during the **Exhibition opening and 1 minute pitches** session.
 
+![EGI 2023 booth picture](./EGI_2023_booth.jpg)
+
 ## Day 4 - June 22
 
 The members of the ESG project held a dedicated one and half hour session **EuroScienceGateway: an open infrastructure for data-driven research** where they gave the following three talks followed by a Q&A.
 
-| Presenters | Title |
-|---|---|
-| Sebastian, and Sanjay | Introduction to Galaxy |
-| Björn | Let's talk about storage Or Empower EOSC Users to Bring Their Own Storage (BYOS) |
-| Abulrahman, Sebastián, and Hakan | Bring Your Own Compute (BYOC) |
+| Presenters | Title | Links |
+|---|---|---|
+| Sebastian, and Sanjay | Introduction to Galaxy | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQfHWkU_rg2KaNe58Fp341Il_Y0UxMnQvPA1REs90WvfLfksNvQMcKzn2TVBnd8DQ/pub?start=true&loop=true&delayms=3000) |
+| Björn | Let's talk about storage Or Empower EOSC Users to Bring Their Own Storage (BYOS) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQVTNtkCPMPGE53RGvqmitR__xEI0Rq0gZjwnLkWERNJ7B7_vuaFqOMF7KXDIXA4w/pub?start=true&loop=true&delayms=3000) |
+| Abulrahman, Sebastián, and Hakan | Bring Your Own Compute (BYOC) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQg8bu0q3RomaQwQmN50saGHNsiRfzO0rg15fB3Nej9aFLF8X4uuLRDHdSeeb8z4Q/pub?start=true&loop=true&delayms=3000) |
 
 During the session, the members introduced Galaxy espeically the Galaxy EU's design, setup and architecture. Highlighted the recent developments, such as object stores and distributed computing (PULSAR) a core component of ESG and the efforts to mature it to TLR-9, enabling the efficient utilization of resroucres across Europe.
 
@@ -33,6 +35,6 @@ During the session various aspects of ESG and Galaxy were discussed including th
 
 # Thank You !
 
-The European Galaxy team would like to **thank** the **Galaxy community**, **member of the ESG** for all the contributions that were presented and **EGI** for the fantastic organisation of this meeting.
+The European Galaxy team would like to **thank** the **Galaxy community**, **members of the ESG** for all their contributions that were presented and **EGI** for the fantastic organisation of this meeting.
 
 ![EGI 2023 participant picture](https://pbs.twimg.com/media/Fznr0-OWYAEJ85a?format=jpg&name=large)
