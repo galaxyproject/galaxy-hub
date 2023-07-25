@@ -29,7 +29,7 @@ The members of the ESG project held a dedicated 90 minutes session **EuroScience
 | Björn | Let's talk about storage Or Empower EOSC Users to Bring Their Own Storage (BYOS) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQVTNtkCPMPGE53RGvqmitR__xEI0Rq0gZjwnLkWERNJ7B7_vuaFqOMF7KXDIXA4w/pub?start=true&loop=true&delayms=3000) |
 | Abdulrahman, Sebastián, and Hakan | Bring Your Own Compute (BYOC) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQg8bu0q3RomaQwQmN50saGHNsiRfzO0rg15fB3Nej9aFLF8X4uuLRDHdSeeb8z4Q/pub?start=true&loop=true&delayms=3000) |
 
-During the session, the members introduced Galaxy espeically the Galaxy EU's design, setup and architecture. Highlighted the recent developments, such as object stores and distributed computing (PULSAR) a core component of ESG and the efforts to mature it to TLR-9, enabling the efficient utilization of resroucres across Europe.
+During the session, the members introduced Galaxy,  in particular the Galaxy's EU instance's design, setup and architecture. Highlighted the recent developments, such as object stores and distributed computing. With [PULSAR ](https://pulsar-network.readthedocs.io/en/latest/index.html) being a core component of ESG (and a product of the Galaxy community), the efforts to mature it to TLR-9 and enabling the efficient utilization of resources across Europe were sketched.
 
 The initiative aims to create an open infrastructure for data-driven research, focusing on providing a user-friendly scientific workflow and data integration platform. This endeavor seeks to achieve robustness, scalability, and integration, enabling federated computational infrastructures and democratizing research data analysis.
 
