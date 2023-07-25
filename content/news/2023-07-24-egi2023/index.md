@@ -7,7 +7,9 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
-During 19th-23rd of June, members (Björn Grüning, Sebastian Schaaf, and Sanjay Kumar Srikakulam) of the European Galaxy team travelled to Poznań to join the EGI 2023 to present the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators (Sebastian Luna-Valero, Hakan Bayindir, Lukasz Dutka, Abdul Rahman Azab, and Maiken Pedersen) from different work packages of ESG. At EGI 2023, Galaxy EU for the first time held a booth; a dedicated session with multiple talks introducing and presenting Galaxy, and the ESG project.
+During 19th-23rd of June, Björn Grüning, Sebastian Schaaf, and Sanjay Kumar Srikakulam from the European Galaxy Team travelled to Poznań to join the EGI2023 conference and present the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators. With Sebastián Luna-Valero and Enol Fernández (European Grid Initiative/NL), Hakan Bayındır (ULAKBIM/TR), Łukasz Dutka (Cyfronet/PL), Abdulrahman Azab and Maiken Pedersen (University of Oslo/NO), work packages 1, 3 and 4 of ESG were represented. 
+
+At EGI 2023, we first time held a booth on Galaxy and usegalaxy.eu, presenting the European Galaxy Server to a wider audience from various scientific fields. A dedicated conference session with multiple talks introduced Galaxy and presented its opportunities, as well as the ESG project.
 
 # Events
 
