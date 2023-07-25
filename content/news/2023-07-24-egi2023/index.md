@@ -27,7 +27,7 @@ The members of the ESG project held a dedicated 90 minutes session **EuroScience
 |---|---|---|
 | Sebastian, and Sanjay | Introduction to Galaxy | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQfHWkU_rg2KaNe58Fp341Il_Y0UxMnQvPA1REs90WvfLfksNvQMcKzn2TVBnd8DQ/pub?start=true&loop=true&delayms=3000) |
 | Björn | Let's talk about storage Or Empower EOSC Users to Bring Their Own Storage (BYOS) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQVTNtkCPMPGE53RGvqmitR__xEI0Rq0gZjwnLkWERNJ7B7_vuaFqOMF7KXDIXA4w/pub?start=true&loop=true&delayms=3000) |
-| Abulrahman, Sebastián, and Hakan | Bring Your Own Compute (BYOC) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQg8bu0q3RomaQwQmN50saGHNsiRfzO0rg15fB3Nej9aFLF8X4uuLRDHdSeeb8z4Q/pub?start=true&loop=true&delayms=3000) |
+| Abdulrahman, Sebastián, and Hakan | Bring Your Own Compute (BYOC) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQg8bu0q3RomaQwQmN50saGHNsiRfzO0rg15fB3Nej9aFLF8X4uuLRDHdSeeb8z4Q/pub?start=true&loop=true&delayms=3000) |
 
 During the session, the members introduced Galaxy espeically the Galaxy EU's design, setup and architecture. Highlighted the recent developments, such as object stores and distributed computing (PULSAR) a core component of ESG and the efforts to mature it to TLR-9, enabling the efficient utilization of resroucres across Europe.
 
