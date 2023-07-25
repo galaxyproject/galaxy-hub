@@ -21,7 +21,7 @@ On the second day, Sanjay and Sebastian set up the ESG booth. In the evening San
 
 ## Day 4 - June 22
 
-The members of the ESG project held a dedicated one and half hour session **EuroScienceGateway: an open infrastructure for data-driven research** where they gave the following three talks followed by a Q&A.
+The members of the ESG project held a dedicated 90 minutes session **EuroScienceGateway: an open infrastructure for data-driven research**, where they gave the following three talks, followed by a Q&A.
 
 | Presenters | Title | Links |
 |---|---|---|
