@@ -15,7 +15,7 @@ At EGI 2023, we first time held a booth on Galaxy and usegalaxy.eu, presenting t
 
 ## Day 2 - June 20
 
-On the second day, Sanjay, and Sebastian set up the ESG booth. In the evening Sanjay pitched the booth and advertised Galaxy and the ESG project during the **Exhibition opening and 1 minute pitches** session.
+On the second day, Sanjay and Sebastian set up the ESG booth. In the evening Sanjay pitched the booth and advertised Galaxy and the ESG project during the **Exhibition opening and 1 minute pitches** session.
 
 ![EGI 2023 booth picture](./EGI_2023_booth.jpg)
 
