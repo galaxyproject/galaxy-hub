@@ -33,7 +33,7 @@ During the session, the members introduced Galaxy,  in particular the Galaxy's E
 
 The initiative aims to create an open infrastructure for data-driven research, focusing on providing a user-friendly scientific workflow and data integration platform. This endeavor seeks to achieve robustness, scalability, and integration, enabling federated computational infrastructures and democratizing research data analysis.
 
-During the session various aspects of ESG and Galaxy were discussed including the integration of OneData platform, exploring DIRAC as a new metascheduler and ARC as a new job-runner.
+During the session various aspects of ESG and Galaxy were discussed, including the integration of the OneData platform, exploring [DIRAC ](https://dirac.readthedocs.io/en/latest/index.html) as a new metascheduler, and [ARC ](https://arc-user-guide.readthedocs.io/en/latest/index.html) as a new job-runner.
 
 # Thank You !
 
