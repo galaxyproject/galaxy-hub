@@ -22,7 +22,7 @@ Paul Zierep traveled to Turino in behalf of Bérénice Batut and gave a [talk](h
 
 ![OSA2Micro](images/Paul_Talk.png)
 
-The event did present the main achievements of WP2 of the [EOSC-Life project](www.eosc-life.eu) and was visited by 20 students.
+The event did present the main achievements of WP2 of the [EOSC-Life project](https://www.eosc-life.eu/) and was visited by 20 students.
 The overall feedback of the students wes very positive, mainly due to the practical usability of galaxy ! 
 
 # Thank you !
