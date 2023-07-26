@@ -40,4 +40,4 @@ During the session various aspects of ESG and Galaxy were discussed, including t
 
 The European Galaxy team would like to **thank** the **Galaxy community**, **members of the ESG** for all their contributions that were presented and **EGI** for the fantastic organisation of this meeting.
 
-![EGI2023 participants picture](https://pbs.twimg.com/media/Fznr0-OWYAEJ85a?format=jpg&name=large)
+![EGI2023 participants picture](./egi2023_participants_picture.jpg)
