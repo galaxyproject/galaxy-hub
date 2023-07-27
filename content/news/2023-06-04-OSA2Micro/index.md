@@ -9,7 +9,7 @@ authors: paulzierep
 authors_structured:
 - github: paulzierep
 location:
-  name: online
+  name: Molecular Biotechnology Center (MBC), Turin, Italy
 subsites: [eu, freiburg]
 main_subsite: eu
 ---
@@ -18,7 +18,7 @@ main_subsite: eu
 
 ![OSA2Micro](images/OSA2Micro.png)
 
-Paul Zierep traveled to Turino in behalf of Bérénice Batut and gave a [talk](https://docs.google.com/presentation/d/1ft5FGuDsqpkriyRdDfKAVGH0GI9FMkuQDvIYou8-PyY/edit?usp=sharing) and [live demo](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) for the [OSA2Micro](https://qbio.di.unito.it/cool_timeline/osa2micro/) event. Have a look on the [programme](https://qbio.di.unito.it/wp-content/uploads/2023/04/OSA2Micro_programme_2023-06-30.pdf) to see other interesting talks and lecturers.
+Paul Zierep traveled to Turino on behalf of Bérénice Batut and gave a [talk](https://docs.google.com/presentation/d/1ft5FGuDsqpkriyRdDfKAVGH0GI9FMkuQDvIYou8-PyY/edit?usp=sharing) and [live demo](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) for the [OSA2Micro](https://qbio.di.unito.it/cool_timeline/osa2micro/) event. Have a look on the [programme](https://qbio.di.unito.it/wp-content/uploads/2023/04/OSA2Micro_programme_2023-06-30.pdf) to see other interesting talks and lecturers.
 
 ![OSA2Micro](images/Paul_Talk.png)
 
