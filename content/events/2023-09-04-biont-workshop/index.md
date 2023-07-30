@@ -8,5 +8,5 @@ location: "Online, EU"
 external_url: "https://www.cecam.org/workshop-details/1260"
 gtn: true
 contact: "Bérénice Batut & Teresa Müller"
-subsites: [all-eu]
+subsites: [all]
 ---
