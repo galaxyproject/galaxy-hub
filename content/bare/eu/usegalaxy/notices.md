@@ -5,6 +5,13 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 </div-->
 
+
+
+<div class="alert" style="background: #FFCC000;">
+### **Downtime: Suspicious activity in our cluster**
+
+We recognized suspicious activity in our cluster this morning (Jul 31, 10:50 CEST). To prevent the attack from spreading and protect user data, we took all services offline. At the moment, Galaxy is back online, but as a precautionary measure, we have stopped all running interactive tools and disabled the service until our investigation is complete and pertinent measures put in place. Our team is actively working on resolving the issue, and we will keep you updated on the progress. We apologize for the inconvenience caused.
+
 <div class="alert" style="background: #00d084;">
 
 #### **Act, don't criminalize!**
@@ -13,7 +20,8 @@ Today, 21st of April 2023, a statement in support of peaceful, but resolved prot
 
 </div>
 
-<div class="alert" style="background: #FFD500;">
+
+<!--div class="alert" style="background: #FFD500;">
 
 #### **Peace to Ukraine!**
 
@@ -24,3 +32,4 @@ Today, 21st of April 2023, a statement in support of peaceful, but resolved prot
 [ua-table]: https://bit.ly/ua-table
 [ua-form]: https://bit.ly/ua-form
 [ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
+</div-->
