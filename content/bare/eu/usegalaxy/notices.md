@@ -10,7 +10,7 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 <div class="alert" style="background: #FFCC000;">
 ### **Downtime: Suspicious Activity in our Cluster**
 
-We recognized suspicious activity in our cluster this morning (10:50 am CEST). To prevent the attack from spreading and protect user data, we took the cluster offline. As a precautionary measure we stopped all running interactive tools and disabled the service until we finished our investigation and took measures. Our team is actively working on resolving the issue, and we will keep you updated on the progress. We apologize for the inconvenience caused.
+We recognized suspicious activity in our cluster this morning (10:50 CEST). To prevent the attack from spreading and protect user data, we took the cluster offline. As a precautionary measure we stopped all running interactive tools and disabled the service until we finished our investigation and took measures. Our team is actively working on resolving the issue, and we will keep you updated on the progress. We apologize for the inconvenience caused.
 
 <div class="alert" style="background: #00d084;">
 
