@@ -29,6 +29,7 @@ Object.entries(CONFIG.collections).forEach(([name, meta]) => {
 const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
 const IMAGE_PREFIX_WHITELIST = ["images/", "https://", "http://"];
+const JSONFEED_DAYS_AGO_LIMIT = 30;
 
 function categorize(pathParts) {
     /** Take a `pathParts` made by splitting the path on `"/"` and return a category:
@@ -501,6 +502,8 @@ module.exports = function (api) {
     // Workaround for lack of access to GraphQL in `afterBuild()` hook.
     // Taken from https://github.com/gridsome/gridsome/issues/1390#issuecomment-748792934
     let platformsData;
+    let eventsData;
+    let newsData;
     api.createPages(async ({ graphql }) => {
         platformsData = await graphql(`
             query {
@@ -533,10 +536,7 @@ module.exports = function (api) {
                 }
             }
         `);
-    });
 
-    let eventsData;
-    api.createPages(async ({ graphql }) => {
         eventsData = await graphql(`
             query {
                 allParentArticle(filter: { category: { eq: "events" } }) {
@@ -568,21 +568,51 @@ module.exports = function (api) {
                 }
             }
         `);
+
+        newsData = await graphql(`
+            query {
+                allParentArticle(filter: { category: { eq: "news" } }) {
+                    totalCount
+                    edges {
+                        node {
+                            id
+                            title
+                            tease
+                            days_ago
+                            date(format: "D MMMM YYYY")
+                            subsites
+                            main_subsite
+                            tags
+                            contact
+                            image
+                            authors
+                            authors_structured {
+                                github
+                            }
+                            external_url
+                            path
+                        }
+                    }
+                }
+            }
+        `);
     });
 
     api.configureServer(async (app) => {
-        // Serve /use/feed.json from develop server.
+        // Serve JSON feeds from develop server
         app.get("/use/feed.json", (request, response) => {
             response.set("Content-Type", "application/json");
             response.send(makePlatformsJson(platformsData));
         });
-    });
 
-    api.configureServer(async (app) => {
-        // Serve /events/feed.json from develop server.
         app.get("/events/feed.json", (request, response) => {
             response.set("Content-Type", "application/json");
             response.send(makeEventsJson(eventsData));
+        });
+
+        app.get("/news/feed.json", (request, response) => {
+            response.set("Content-Type", "application/json");
+            response.send(makeNewsJson(newsData));
         });
     });
 
@@ -607,6 +637,14 @@ module.exports = function (api) {
         // Write out events JSON to /events/feed.json
         const eventFeedPath = path.join(eventsOutDir, "feed.json");
         fs.writeFile(eventFeedPath, makeEventsJson(eventsData), (error) => {
+            if (error) throw error;
+        });
+
+        // Write out events JSON to /events/feed.json
+        const newsOutDir = path.join(__dirname, "dist", "news");
+        fs.mkdirSync(newsOutDir, { recursive: true });
+        const newsFeedPath = path.join(newsOutDir, "feed.json");
+        fs.writeFile(newsFeedPath, makeNewsJson(newsData), (error) => {
             if (error) throw error;
         });
     });
@@ -665,13 +703,23 @@ function makePlatformsJson(platformsData) {
 }
 
 function makeEventsJson(eventsData) {
-    // Filter events JSON to only include events which occur less than 30 days ago
     const events = eventsData.data.allParentArticle.edges
-        .filter((article) => article.node.days_ago && article.node.days_ago < 30)
+        .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
         .map((edge) => edge.node);
     const data = {
         count: events.length,
         events: events,
+    };
+    return JSON.stringify(data, null, "  ");
+}
+
+function makeNewsJson(newsData) {
+    const news = newsData.data.allParentArticle.edges
+        .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
+        .map((edge) => edge.node);
+    const data = {
+        count: news.length,
+        news: news,
     };
     return JSON.stringify(data, null, "  ");
 }

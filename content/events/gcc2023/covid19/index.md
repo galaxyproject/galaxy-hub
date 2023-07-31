@@ -34,11 +34,6 @@ with WHO
 we encourage you to wear a mask when in a crowded, enclosed or poorly
 ventilation area. Disposable face masks will be made available at the venue.
 
-The conference registration desk will offer stickers for adding to name badges
-that indicate personal preferences around physical distance (Red: I'm keeping my
-distance right now; Yellow: Avoiding contact but happy to chat; Green: Open to
-handshakes (or hugs!). 
-
 Personal health etiquette and hygiene practices remain essential and everyone's
 responsibility. Hand sanitiser will be available at key points around our venue. 
 

@@ -32,7 +32,7 @@ The following are a list of key dates for the fellowship application process:
 | ~~April 14~~ | [Application deadline for in-person fellowships](https://docs.google.com/forms/d/e/1FAIpQLSdaA3EGI3LwEpWZfThSCA87DHKag7hSg1bhm-UUQfswkDWszQ/viewform) |
 | ~~May 25~~ | Review results returned to applicants |
 | ~~June 2~~ | [Application deadline for virtual fellowships](https://docs.google.com/forms/d/e/1FAIpQLSdaA3EGI3LwEpWZfThSCA87DHKag7hSg1bhm-UUQfswkDWszQ/viewform) |
-| June 12  | Review results returned to applicants |
+| ~~June 12~~  | Review results returned to applicants |
 
 ## Selection process
 
