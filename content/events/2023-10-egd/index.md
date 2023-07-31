@@ -19,7 +19,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 <div class="float-right" style="max-width: 400px">
 
-[//]: # "![logo EGD](logo-egd2023.png)"
+![logo EGD](logo-egd2023.png)
 
 </div>
 
