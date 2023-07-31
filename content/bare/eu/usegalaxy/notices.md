@@ -7,11 +7,10 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 
 
-<div class="alert" style="background: #fd8c00;">
-### **Database maintenance on 12 June**
+<div class="alert" style="background: #FFCC000;">
+### **Downtime: Suspicious Activity in our Cluster**
 
-Maintenance will take place on 12 June from 9:30am CEST (7:30am GMT) and should not exceed 5:30pm CEST (3:30pm GMT). usegalaxy.eu will not be reachable during this period. You do not need to take any action.  
-[Check out our blog post for more information!](https://galaxyproject.org/news/2023-06-06-eu-maintenance)
+We recognized suspicious activity in our cluster this morning (10:50 am CEST). To prevent the attack from spreading and protect user data, we took the cluster offline. As a precautionary measure we stopped all running interactive tools and disabled the service until we finished our investigation and took measures. Our team is actively working on resolving the issue, and we will keep you updated on the progress. We apologize for the inconvenience caused.
 
 <div class="alert" style="background: #00d084;">
 
