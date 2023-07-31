@@ -35,7 +35,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 <br><br>
 
-# Registration (_STAY TUNED_)
+# Registration
 
 Registration is free, but the space is limited, so we recommend to you register soon to secure your spot for the
 different events.
@@ -44,9 +44,9 @@ different events.
 
 [//]: # "> The registration for attendance closed on **September 23**."
 
-<!-- <div class="row justify-content-center">
-  <a class="btn w-25 btn-dark" href="https://bit.ly/egd2023-registration" role="button">Register now</a>
-</div> -->
+<div class="row justify-content-center">
+  <a class="btn w-25 btn-dark" href="https://docs.google.com/forms/d/1Lgwe6Hy-GgcpVUYi7u6uvyGJuZlueXYpWiK0RwgTGec" role="button" target="_blank">Register now</a>
+</div>
 
 <br><br>
 
@@ -87,7 +87,7 @@ different events.
     <tr class="text-center">
       <th style="border: 3px solid white; vertical-align: middle;">14:00<br> - <br>16:00</th>
       <td colspan="2" style="background-color: #FBB117; border: 3px solid white;">
-        <strong><a href="/events/2022-10-egd/elixir-is2021/">ELIXIR Galaxy Community</a></strong>
+        <strong>ELIXIR Galaxy Community</strong>
         <br><br><small>one talk describing the ELIXIR Galaxy Community and several talks highligting interactions with other ElIXIR communities/platforms/focus groups</small>
       </td>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD meets ESG</strong>
