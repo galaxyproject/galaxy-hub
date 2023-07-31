@@ -7,11 +7,12 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 
 
-<div class="alert" style="background: #FFCC000;">
+<div class="alert" style="background: #FFCC00;">
 ### **Downtime: Suspicious activity in our cluster**
 
 We recognized suspicious activity in our cluster this morning (Jul 31, 10:50 CEST). To prevent the attack from spreading and protect user data, we took all services offline. At the moment, Galaxy is back online, but as a precautionary measure, we have stopped all running interactive tools and disabled the service until our investigation is complete and pertinent measures put in place. Our team is actively working on resolving the issue, and we will keep you updated on the progress. We apologize for the inconvenience caused.
 
+</div>
 <div class="alert" style="background: #00d084;">
 
 #### **Act, don't criminalize!**
