@@ -15,7 +15,7 @@ subsites: [all-eu, global, esg]
 It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy
 Days 2023**!
 
-To minimize travelling (and yes, we recommend taking a train :-) ), we are co-locating 2 events on the same week:
+To minimize travelling (and yes, we recommend taking a train :-) ), we are co-locating 3 events on the same week:
 
 <div class="float-right" style="max-width: 400px">
 
@@ -29,8 +29,9 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 [//]: # "- [**ELIXIR Galaxy Community Meeting**](/events/2023-10-egd/gcm/)"
 
-- EuroScienceGateway General Assembly (ESG GA)
-- ELIXIR Galaxy Community Meeting
+- The ELIXIR Galaxy Community Face-to-face (F2F) meeting,
+- The EuroScienceGateway (ESG),
+- The European Galaxy Days (EGD.
 
 <br><br>
 
@@ -51,7 +52,68 @@ different events.
 
 # Schedule
 
-stay tuned...
+<table>
+  <tbody>
+    <tr class="lead text-center" style="background-color: lightgray;">
+      <th style="border: 3px solid white;"></th>
+      <th colspan=2 style="border: 3px solid white;">October 4</th>
+      <th colspan=2 style="border: 3px solid white;">October 5</th>
+      <th colspan=2 style="border: 3px solid white;">October 6</th>
+    </tr>
+    <tr class="text-center" style="background-color: #EEEEEE; border: 5px solid white">
+      <th style="border: 3px solid white;">Time</th>
+      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Wed</th>
+      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Thu</th>
+      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
+    </tr>
+    <tr class="text-center">
+      <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>12:30</th>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
+        <br><br><small>Community update talks</small>
+      </td>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
+        <br><br><small>New developments talks</small>
+      </td>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
+      </td>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      </td>
+    </tr>
+    <tr class="text-center">
+      <td colspan="8" style="background-color: #EEEEEE;">
+        <strong>Lunch Break</strong>
+      </td>
+    </tr>
+    <tr class="text-center">
+      <th style="border: 3px solid white; vertical-align: middle;">14:00<br> - <br>16:00</th>
+      <td colspan="2" style="background-color: #FBB117; border: 3px solid white;">
+        <strong><a href="/events/2022-10-egd/elixir-is2021/">ELIXIR Galaxy Community</a></strong>
+        <br><br><small>one talk describing the ELIXIR Galaxy Community and several talks highligting interactions with other ElIXIR communities/platforms/focus groups</small>
+      </td>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD meets ESG</strong>
+        <br><br><small>Several talks to get to know each other</small>
+      </td>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
+      </td>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      </td>
+    </tr>
+    <tr class="text-center">
+      <th style="border: 3px solid white; vertical-align: middle;">16:00<br> - <br>17:30</th>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
+        <strong>European Galaxy Days (BoFs)</strong>
+      </td>
+      <td style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD (BoFs)</strong>
+      </td>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      </td>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
+      </td>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br><br>
 
