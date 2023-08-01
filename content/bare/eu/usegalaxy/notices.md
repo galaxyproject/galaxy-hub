@@ -24,4 +24,4 @@ Today, 21st of April 2023, a statement in support of peaceful, but resolved prot
 [ua-table]: https://bit.ly/ua-table
 [ua-form]: https://bit.ly/ua-form
 [ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
-</div
+</div>
