@@ -31,7 +31,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 - The ELIXIR Galaxy Community Face-to-face (F2F) meeting,
 - The EuroScienceGateway (ESG),
-- The European Galaxy Days (EGD.
+- The European Galaxy Days (EGD).
 
 <br><br>
 
