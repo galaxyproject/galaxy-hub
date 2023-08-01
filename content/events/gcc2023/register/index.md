@@ -7,10 +7,6 @@ autotoc: false
 
 # Registration
 
-**[Conference registration is handled via Eventbrite
-portal](https://gcc-2023.eventbrite.com.au/)**. After registering, you will
-receive a confirmation email with the registration details.
-
 
 ## Meeting: July 10-13
 
@@ -38,10 +34,10 @@ document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
 | | Early (< May 12) | Full (<= June 16) | Late (> June 16) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc     | ~~AU$350~~ | ~~AU$450~~ | AU$550 |
-| Academic / Non-Profit / Government | ~~AU$450~~ | ~~AU$550~~ | AU$750 |
-| Industry            | ~~AU$600~~ | ~~AU$800~~ | AU$1,000 |
-| Conference dinner            | |  | AU$65 |
+| Student/postdoc     | ~~AU$350~~ | ~~AU$450~~ | ~~AU$550~~ |
+| Academic / Non-Profit / Government | ~~AU$450~~ | ~~AU$550~~ | ~~AU$750~~ |
+| Industry            | ~~AU$600~~ | ~~AU$800~~ | ~~AU$1,000~~ |
+| Conference dinner            | |  | ~~AU$65~~ |
 
 
 ### Virtual meeting attendance
@@ -55,7 +51,7 @@ channel.
 
 | | |
 | --- | ---: |
-| Virtual             | AU$50 |
+| Virtual             | ~~AU$50~~ |
 
 ## CoFest: July 14-16
 
@@ -68,7 +64,7 @@ event.
 
 | | |
 | --- | ---: |
-| CoFest | AU$30 |
+| CoFest | ~~AU$30~~ |
 
 ## Lodging
 
