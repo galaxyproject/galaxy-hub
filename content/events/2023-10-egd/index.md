@@ -38,7 +38,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are **co-
 
 No matter of which particular community, Galaxy is driven by the people who use, develop and administrate it. Accordingly, we are looking forward to a motley gathering and *your* contributions, say: talks, demos, posters and Birds-of-a-feather meetings (BoFs). You have done something you want to present or discuss, we provide the stage.
 
-Our detailed planning depends to a certain extent on the contents you want share, so please consider registering at the last minute.
+Our detailed planning depends to a certain extent on the content you want to share, so please consider registering at the last minute.
 
 # Registration
 
