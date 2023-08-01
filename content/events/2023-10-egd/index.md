@@ -95,7 +95,7 @@ The organizers will contact you for further clarification.
       <th style="border: 3px solid white; vertical-align: middle;">14:00<br> - <br>16:00</th>
       <td colspan="2" style="background-color: #FBB117; border: 3px solid white;">
         <strong>ELIXIR Galaxy Community</strong>
-        <br><br><small>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ElIXIR communities/platforms/focus groups</small>
+        <br><br><small>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities/platforms/focus groups</small>
       </td>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD meets ESG</strong>
         <br><br><small>Several talks to get to know each other</small>
@@ -200,10 +200,10 @@ Please, make sure that you read it before the event.
 If you want to present, help, have suggestions or questions, please get in touch with us.
 Simply contact:
 
-Anika Erxleben (erxleben@informatik.uni-freiburg.de)
-Sebastian Schaaf (sebastian.schaaf.galaxy@gmail.com), 
-Hans-Rudolf Hotz (hrhotz@googlemail.com)
-Björn Grüning (bjoern.gruening@gmail.com)
+Anika Erxleben (erxleben@informatik.uni-freiburg.de)<br />
+Sebastian Schaaf (sebastian.schaaf.galaxy@gmail.com)<br />
+Hans-Rudolf Hotz (hrhotz@googlemail.com)<br />
+Björn Grüning (bjoern.gruening@gmail.com)<br />
 
 # Supporters
 
