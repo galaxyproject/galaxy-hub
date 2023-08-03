@@ -5,7 +5,7 @@ title: Galaxy FTP Upload
 
 <div class="alert alert-success trim-p" role="alert">
 
-The address of FTP server for Main Galaxy is `usegalaxy.org`. Use the same email and password as for Galaxy.
+*UPDATE*: FTP upload is no longer supported in Galaxy.
 
 </div>
 
