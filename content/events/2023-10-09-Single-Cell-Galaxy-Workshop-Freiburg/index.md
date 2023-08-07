@@ -35,11 +35,11 @@ For the hands-on course, we will use the [training material](https://training.ga
 
 # Preliminary schedule
 
-| Day | Start | End | Session
-|---|---|---|---|---|
-| October 09th | 9:00am  | 3pm  | Welcome - Galaxy introduction (optional, if you know Galaxy usage) 
-| October 10th | 9:00am  | 5pm |  Introduction to single-cell RNA-seq, single-cell matrix creation and preprocessing
-| October 11th | 9:00am  | 5pm  | Normalization, clustering, marker gene identification, cell type annotation
-| October 12th | 9:00am  | 5pm | Trajectory inference 
-| October 13th | 9:00am  | 5pm  | Single-cell ATAC-seq data analysis
+| Day | Start | End | Session |
+|---|---|---|---|
+| October 09th | 9:00am  | 3pm  | Welcome - Galaxy introduction (optional, if you know Galaxy usage) |
+| October 10th | 9:00am  | 5pm |  Introduction to single-cell RNA-seq, single-cell matrix creation and preprocessing |
+| October 11th | 9:00am  | 5pm  | Normalization, clustering, marker gene identification, cell type annotation |
+| October 12th | 9:00am  | 5pm | Trajectory inference |
+| October 13th | 9:00am  | 5pm  | Single-cell ATAC-seq data analysis |
 
