@@ -2,7 +2,7 @@
 title: Workshop on Single-cell Data Analysis with Galaxy
 date: '2023-10-09'
 days: 5
-tease: "In this workshop sceintists learn single-cell data analysis on Galaxy. There is no requirement of any programming skills."
+tease: "In this workshop sceintists learn single-cell data analysis using Galaxy. There is no requirement of any programming skills."
 continent: EU
 location:
   name: "University of Freiburg, Germany"
@@ -42,10 +42,4 @@ For the hands-on course, we will use the [training material](https://training.ga
 | October 11th | 9:00am  | 5pm  | Normalization, clustering, marker gene identification, cell type annotation
 | October 12th | 9:00am  | 5pm | Trajectory inference 
 | October 13th | 9:00am  | 5pm  | Single-cell ATAC-seq data analysis
-
-
-# Registration
-
-- Registration is open
-
 
