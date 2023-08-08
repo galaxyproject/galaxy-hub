@@ -1,6 +1,11 @@
 ---
 title: Galaxy FTP Upload
 ---
+
+<div class="alert alert-success trim-p" role="alert">
+UPDATE: FTP upload is *no longer* supported on UseGalaxy.org.
+</div>
+
 # File Upload via FTP
 
 <div class="alert alert-success trim-p" role="alert">
