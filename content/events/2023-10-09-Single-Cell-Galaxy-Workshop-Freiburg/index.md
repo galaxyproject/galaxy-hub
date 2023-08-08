@@ -2,7 +2,7 @@
 title: Workshop on Single-cell Data Analysis with Galaxy
 date: '2023-10-09'
 days: 5
-tease: "In this workshop sceintists learn single-cell data analysis using Galaxy. There is no requirement of any programming skills."
+tease: "In this workshop, scientists learn single-cell data analysis using Galaxy. There is no requirement of any programming skills."
 continent: EU
 location:
   name: "University of Freiburg, Germany"
@@ -23,12 +23,12 @@ subsites: [all]
 
 # Pedagogical information
 
-**Target Audience**: Scientist with no or little Galaxy experience who want to analyse single-cell sequencing data.
+**Target Audience**: Scientists with no or little Galaxy experience who want to analyse single-cell sequencing data.
 
 **Learning Objectives:**
-* To get introduced to Galaxy as data analysis platform and the GTN training material
-* To learn how to use use tools and databases in Galaxy
-* Preprocessing, clustering and downstream analysis of single-cell data 
+* To get introduced to Galaxy as a data analysis platform and the GTN training material
+* To learn how to use tools and databases in Galaxy
+* Preprocessing, clustering, and downstream analysis of single-cell data 
 
 **Training material:**
 For the hands-on course, we will use the [training material](https://training.galaxyproject.org) from the Galaxy Training Network.
