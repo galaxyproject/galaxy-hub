@@ -40,14 +40,16 @@ This Iris test data is relatively tiny with about 150 rows, so the points
 are nicely separated, making the hover information easy to use.
 
 Interactive html plots work best for at most, a few thousand well spread points,
-so the hover display is easy to control.
+so the hover display is easy to control. They reliably freeze up using a recent firefox build if 10k rows, so this tool
+now always fails if >5k rows are chosen for html output. Advice to this effect has been
+added to the form.
 
-Interactive html output is available in stand alone format, where 3MB of javascript is included,
+For <5k rows of data, interactive html output is available in stand alone format, where 3MB of javascript is included,
 allowing it to be viewed offline. Short form html requires an internet connection to download the
 javascript into the browser so cannot be viewed offline.
 
-PNG plots are recommended for large numbers of rows, since the the hover function tends to be less useful
-when the plot is very crowded.
+Only PNG output options will work for large numbers of rows, since the the hover function tends to be less useful
+when the plot is very crowded, and large html outputs can make browser windows freeze up.
 
 If the tabular data does not have a header row of column names, the user can supply and use a
 comma delimited list, as the "header" parameter on the tool form.
