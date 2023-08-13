@@ -26,13 +26,21 @@ delimited with "," is supplied on the tool form.
 
 Whatever the source of column names, they must match the ones provided as parameters.
 
+<<<<<<< HEAD
 **Using the Rossi recidivism data from the lifelines tutorials**
+=======
+### Using the Rossi recidivism data from the lifelines tutorials
+>>>>>>> upstream/master
 
 With race as a grouping variable, the report shows a logrank test result.
 
 ![KM plot sample](lifelines_rossi_km.png)
 
+<<<<<<< HEAD
 A comma separated list (prio, age, race, mar, fin, ) of covariate column names was provided,
+=======
+A comma separated list (prio, age, race, mar, fin) of covariate column names was provided,
+>>>>>>> upstream/master
 so a Cox-PH model is run, the assumption of proportionality are tested,and recommendations made
 in the text report.
 
