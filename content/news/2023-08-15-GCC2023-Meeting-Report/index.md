@@ -14,7 +14,7 @@ From three exceptional keynote speakers to koalas and kangaroos, this year's GCC
 Now that this year's Galaxy Community Conference has come to a close, we are thrilled to be able to share the GCC2023 Meeting Report with the Galaxy Community.
 		
 
-In the GCC2023 meeting report, you will find:
+In the GCC2023 meeting report, you will find the following:
 		
 - A GCC2023 meeting summary, including information on this year's fellowship recipients 
 - An overview of our three fantastic keynote speakers 
