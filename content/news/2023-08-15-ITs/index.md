@@ -47,7 +47,8 @@ Galaxy ITs can be integrated into a "traditional" workflow, with the possibility
 
 ## Updates from usegalaxy.eu
 
-Within the four-year time window between September 2019 and August 2023, our public instance, [live.usegalaxy.eu](https://live.usegalaxy.eu), already had served 21801 IT jobs executions. A coarse look into the job statistics suggests that the typical availability of the system was not very different than that of a user-owned local system. Thanks to the availability of computing resources dedicated to IT executions in our cloud, users usually did not need to wait more than 30s after realising their need and spinning up an IT instance. This excludes the technical issues that we experienced in the recent past and now resolved, which meant we were unable to provide the resources within a few days.
+Within the four-year time window between September 2019 and August 2023, our public instance, [live.usegalaxy.eu](https://live.usegalaxy.eu), already had served 21801 IT jobs executions. A coarse look into the job statistics suggests that the typical availability of the system was not very different than that of a user-owned local system. Thanks to the availability of computing resources dedicated to IT executions in our cloud, users usually did not need to wait much after realising their need and spinning up an IT instance: half of the requests began within 21s, whereas 83.2% were ready for research use within 100s. To ensure the fair distribution of limited resources, we implement user- and system-wide quotas on the number of simultaneous IT instances, which might delay the provision of requested ITs, as well as occasional system maintenance or outages.
+
 
 ![Histogram of waiting time of all IT job requests as experienced by users, 2019-2023](./figs/waiting_time.png)
 
