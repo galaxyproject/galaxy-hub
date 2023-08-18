@@ -26,9 +26,9 @@ Follow-up queries can also be made:
 
 ![Jupyternaut 2](./chatgpt_2.png)
 
-5. An example is provided at `/notebooks/test-Generative-AI.ipynb` inside the notebook. See the following image for further details.
+5. Another way to use ChatGPT is from inside a notebook using the "magic command" `%%ai`, see the next image to get an idea. An example is provided at `/notebooks/test-Generative-AI.ipynb` inside the notebook. See the following image for further details.
 
 ![ChatGPT in a notebook](./chatgpt_4.png)
 
 
-For further examples and details, see the [Jupyter AI page](https://jupyter-ai.readthedocs.io/en/latest/users/index.html).
+For more examples and details, see the [Jupyter AI page](https://jupyter-ai.readthedocs.io/en/latest/users/index.html).
