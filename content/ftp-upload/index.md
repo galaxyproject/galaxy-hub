@@ -3,7 +3,7 @@ title: Galaxy FTP Upload
 ---
 
 <div class="alert alert-success trim-p" role="alert">
-UPDATE: FTP upload is no longer supported on UseGalaxy.org.
+UPDATE: FTP upload is no longer supported on UseGalaxy.org. For more information and to learn about alternative options, please see https://help.galaxyproject.org/t/the-usegalaxy-org-ftp-service-will-be-decommissioned-on-august-12-2022/8318.
 </div>
 
 # File Upload via FTP
