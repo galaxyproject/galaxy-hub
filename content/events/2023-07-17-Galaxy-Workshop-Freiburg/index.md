@@ -9,6 +9,9 @@ location:
 gtn: true
 contact: "Anika Erxleben"
 tags: [workshop, training]
+supporters:
+- dataplant
+- eurosciencegateway
 subsites: [all]
 ---
 
