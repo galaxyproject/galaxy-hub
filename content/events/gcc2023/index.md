@@ -37,6 +37,14 @@ subsites: [all]
     <a target="_blank" href="https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit" type="button" class="btn btn-primary">
         <strong>View abstract book</strong>
     </a>
+    ◇
+    <a target="_blank" href="https://galaxyproject.org/blog/2023-08-14-gc-c2023-meeting-report/" type="button" class="btn btn-primary">
+        <strong>Read meeting report</strong>
+    </a>
+    ◇
+    <a target="_blank" href="https://www.youtube.com/playlist?list=PLNFLKDpdM3B9PicSdtM_kKeOPvZoD1wSQ" type="button" class="btn btn-primary">
+        <strong>Watch recorded talks</strong>
+    </a>
   </div>
 </div>
 
