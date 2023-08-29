@@ -5,6 +5,12 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 </div-->
 
+<div class="alert" style="background: #FFCC00;">
+
+Galaxy Europe might experience minor disruptions on 29.8.2023, and 30.08.2023 due to updates. We apologize for any inconvenience.
+
+</div>
+
 <div class="alert" style="background: #00d084;">
 
 #### **Act, don't criminalize!**
