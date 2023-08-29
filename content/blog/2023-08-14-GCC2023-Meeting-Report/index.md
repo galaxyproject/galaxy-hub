@@ -4,9 +4,10 @@ tease: "That's a wrap! Catch up on all the highlights from GCC2023 here!"
 authors: "Natalie Whitaker"
 date: "2023-08-14"
 ---
-		
 
 # 2023 Galaxy Community Conference Meeting Report
+
+### Check out the GCC2023 playlist on YouTube for recordings of this year's sessions and keynote presentations! https://www.youtube.com/playlist?list=PLNFLKDpdM3B9PicSdtM_kKeOPvZoD1wSQ
 		
 ## GCC2023 Meeting Summary
 #### Overview
