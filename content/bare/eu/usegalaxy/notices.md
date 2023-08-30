@@ -7,7 +7,7 @@ For more information, please see our [blog post](https://galaxyproject.org/news/
 
 <div class="alert" style="background: #FFCC00;">
 
-Galaxy Europe might experience minor disruptions on 29.8.2023, and 30.08.2023 due to updates. We apologize for any inconvenience.
+Galaxy Europe might experience minor delays in job scheduling on 31.8.2023 due to planned updates. We apologize for any inconvenience.
 
 </div>
 
