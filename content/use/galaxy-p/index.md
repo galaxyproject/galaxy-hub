@@ -1,6 +1,6 @@
 ---
 title: "Galaxy-P"
-url: "(https://proteomics.usegalaxy.eu/ )"
+url: "https://proteomics.usegalaxy.eu"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
