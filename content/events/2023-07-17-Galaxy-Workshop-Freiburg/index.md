@@ -9,6 +9,9 @@ location:
 gtn: true
 contact: "Anika Erxleben"
 tags: [workshop, training]
+supporters:
+- dataplant
+- eurosciencegateway
 subsites: [all]
 ---
 
@@ -48,4 +51,17 @@ For the hands-on course, we will use the [training material](https://training.ga
 
 - Registration is closed
 
+# Supporters
 
+This event is generously supported by [DataPLANT](https://www.nfdi4plants.de/) and [EuroScienceGateway](https://galaxyproject.org/projects/esg/).
+
+<div style="max-width: 250px">
+
+![logo DataPLANT](/images/logos/DataPLANT-logo-transparent.png) 
+
+</div>
+<div style="max-width: 500px">
+
+![logo ESG](/images/logos/Eurosciencegateway_logo.png)
+
+</div>
