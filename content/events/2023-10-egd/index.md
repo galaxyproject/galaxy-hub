@@ -222,5 +222,6 @@ HORIZON-INFRA-2021-EOSC-01 under Grant Agreement no. 101057388.
 ![logo ELIXIR](/images/logos/ElixirNoTextLogo.png)
 ![logo EC](eu_funded_en.jpg)
 ![logo de.nbi](denbi.png)
+![logo DataPLANT](/images/logos/DataPLANT-logo-transparent.png) 
 
 </div>
