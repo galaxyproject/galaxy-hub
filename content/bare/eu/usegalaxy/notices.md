@@ -1,4 +1,6 @@
-<div class="alert" style="background: #FFD500;">
+<div class="alert" style="background: #68d4ff;">
+
+#### **Global Climate Strike on September 15th 2023**
 
 The Freiburg Galaxy team will be striking on 15.09.2023. The job queue will be paused for a few hours on Friday. This means that you will still be able to visit our website, but new jobs will not start. Running jobs will remain unaffected. For more information, please see our [blog post](https://galaxyproject.org/news/2023-09-11-climate-strike/).
 
