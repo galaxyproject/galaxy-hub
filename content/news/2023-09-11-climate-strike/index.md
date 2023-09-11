@@ -17,6 +17,6 @@ This means that you can still visit our website, but the server will not start n
 We encourage all of you to use that time to join one of the huge number of strikes that will be [taking place worldwide](https://fridaysforfuture.org/september15/) on this day!
 
 <div class="multiple-img">
-    <iframe width="1000" height="600" src="https://globalclimatestrike.net/#map" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1000" height="600" src="https://fridaysforfuture.org/september15/" frameborder="0" allowfullscreen></iframe>
 </div>
 
