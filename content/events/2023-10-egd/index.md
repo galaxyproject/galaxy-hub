@@ -73,7 +73,7 @@ The organizers will contact you for further clarification.
       <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>12:30</th>
+      <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>13:00</th>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
         <br><br><small>Community update talks</small>
       </td>
@@ -86,13 +86,13 @@ The organizers will contact you for further clarification.
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">12:30<br> - <br>14:00</th>
+      <th style="border: 3px solid white; vertical-align: middle;">13:00<br> - <br>14:30</th>
       <td colspan="6" style="background-color: #EEEEEE;">
         <strong>Lunch Break</strong>
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">14:00<br> - <br>16:00</th>
+      <th style="border: 3px solid white; vertical-align: middle;">14:30<br> - <br>16:00</th>
       <td colspan="2" style="background-color: #FBB117; border: 3px solid white;">
         <strong>ELIXIR Galaxy Community</strong>
         <br><br><small>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities/platforms/focus groups</small>
