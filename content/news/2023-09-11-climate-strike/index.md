@@ -1,6 +1,6 @@
 ---
 title: 'We are striking!'
-date: '2023-09-15'
+date: '2023-09-11'
 tease: 'usegalaxy.eu closes job-queue on September 15th to support climate strike'
 authors: 'Pavan Videm'
 authors_structured:
