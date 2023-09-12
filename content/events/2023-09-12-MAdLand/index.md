@@ -15,7 +15,7 @@ contact:  Prof. Dr. Stefan Rensing (madland2023@madland.science)
 
 At this meeting, the first year of the [MAdLand](https://madland.science/) DFG Priority Programme will be discussed and the projects of all participating labs will be presented (see also the [full program](https://4science.de/madland/Program.php)).
 
-**Cristobal Gallardo Alba** and **Deepti Varshney** will present their talk entitles **Galaxy, Genome Zoo and NFDI4PLANTS: at your service** in which they emphasize the usefulness of the Galaxy platform in facilitating bioinformatics analysis for plant biologists.
+**Cristobal Gallardo Alba** and **Deepti Varshney** will present their talk entitled **Galaxy, Genome Zoo and NFDI4PLANTS: at your service** in which they emphasize the usefulness of the Galaxy platform in facilitating bioinformatics analysis for plant biologists.
 
 In particular in plant biology, isoform analysis holds significant importance due to alternative splicing
 that generates multiple isoforms from a single gene, significantly expanding the functional diversity of
