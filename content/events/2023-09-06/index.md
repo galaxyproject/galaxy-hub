@@ -21,5 +21,5 @@ to build the world’s largest radio telescope, with eventually over one square 
 of collecting area in South Africa and Australia. 
 
 One of the big challenges of SKA is storing and effectively exploiting Exobyte-scale data archive.
-This archive will be difficult to transport, highlighting the role of web-based data analysis platforms.
+This archive will be difficult to transport, highlighting the role of web-based data analysis platforms which bring the scientific workflows to the data.
 Galaxy and EuroScienceGateway were presented to show possible ways to to develop collaborative web-based data analysis. 
