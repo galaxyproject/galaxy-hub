@@ -3,6 +3,7 @@ Title: "Galaxy Newsletter: September 2023"
 Tease: "Galaxy is excited to announce the relaunch of our Galaxy Newsletter! We are thrilled to share updates on Galaxy, including topics such as events, scientific successes, and general community announcements."
 Author: "Natalie Whitaker"
 Date: "2023-09-13"	
+subsites: [global, us]
 ---
 
 ![Galaxy Newsletter Logo](GalaxyNews.png)
