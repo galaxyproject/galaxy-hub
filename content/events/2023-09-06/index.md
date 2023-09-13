@@ -6,7 +6,7 @@ continent: EU
 location:
   name: "Swiss SKA Days 2023 in Zurich"
 image: 
-location_url: "https://pasc23.pasc-conference.org/"
+location_url: "https://indico.skatelescope.org/event/1031/"
 contact: "Volodymyr Savchenko"
 subsites: [global]
 tags: [esg-wp5, esg-wp2, esg, conference]
