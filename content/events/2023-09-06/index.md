@@ -7,7 +7,7 @@ location:
   name: "Swiss SKA Days 2023 in Zurich"
 image: 
 location_url: "https://indico.skatelescope.org/event/1031/"
-contact: "Volodymyr Savchenko"
+contact: "Volodymyr Savchenko, François Antoine Morier-Genoud, Denys Savchenko, Andrii Neronov"
 subsites: [global]
 tags: [esg-wp5, esg-wp2, esg, conference]
 ---
