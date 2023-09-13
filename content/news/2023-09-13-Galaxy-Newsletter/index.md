@@ -66,8 +66,7 @@ The application deadline is 11:59 PM (US Eastern Time) on Friday, September 15th
 
 ### How to donate
 
-The JXTX Foundation 501(c)(3) application is still pending, but you can donate through Zeffy now on the foundation’s website! Your contribution will support the foundation's efforts by providing graduate student scholarships, academic mentorship, and sponsoring student outreach. 
-
+The JXTX Foundation 501(c)(3) application is still pending, but you can donate through Zeffy now on the [foundation’s website](https://jxtxfoundation.org/)! Your contribution will support the foundation's efforts by providing graduate student scholarships, academic mentorship, and sponsoring student outreach. 
 
 ## Upcoming: Galaxy (v23.1) Release
 
