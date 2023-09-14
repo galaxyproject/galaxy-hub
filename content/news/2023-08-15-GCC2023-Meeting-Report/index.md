@@ -29,6 +29,6 @@ In the GCC2023 meeting report, you will find:
 		
 		
 
-[View the full GCC2023 Meeting Report](GCC2023MeetingReport_compressed.pdf)
+[View the full GCC2023 Meeting Report](/assets/media/GCC2023MeetingReport_compressed.pdf)
 
 
