@@ -70,7 +70,7 @@ We think that ITs provide an opportunity to integrate much more interactive scie
 ![Number of monthly (unique) IT users, 2019-2023](./figs/user_stats.png)
 
 ### New ITs
-In the recent past, we added new ITs to [usegalaxy.eu](usegalaxy.eu), reaching now a total of 46 ITs available. But adding your own favourite tool is not very different than a typical non-IT integration experience, either. ITs exploit the containerisation technology: adding new ITs require access to a container running the tool. It then suffices to declare the tool as an interactive tool in its wrapper, and define a port, through which the tool should be accessed from within the container (see our [quick guide](https://github.com/usegalaxy-eu/operations/blob/main/interactive_tools.md) or a comprehensive [admin tutorial](https://training.galaxyproject.org/training-material/topics/admin/tutorials/interactive-tools/tutorial.html)).
+In the recent past, we added new ITs to [usegalaxy.eu](https://usegalaxy.eu), reaching now a total of 46 ITs available. But adding your own favourite tool is not very different than a typical non-IT integration experience, either. ITs exploit the containerisation technology: adding new ITs require access to a container running the tool. It then suffices to declare the tool as an interactive tool in its wrapper, and define a port, through which the tool should be accessed from within the container (see our [quick guide](https://github.com/usegalaxy-eu/operations/blob/main/interactive_tools.md) or a comprehensive [admin tutorial](https://training.galaxyproject.org/training-material/topics/admin/tutorials/interactive-tools/tutorial.html)).
 
 
 
