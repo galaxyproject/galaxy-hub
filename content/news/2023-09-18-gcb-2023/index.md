@@ -25,16 +25,16 @@ On the first day; there were multiple worshops 7 of them were in the morning and
 
 On the second day; we had two keynotes and two talks sessions. At the end of the second talks session, we had the poster session, were 140 posters were presented. Engy's poster, the poster presented by me, was about my project **Foodborne Pathogen Dectection using direct Nanopore** and how is it important to implement it within Galaxy. I have presented my work and showed the Pathogen Detection workflow created in Galaxy along with its [**training material**](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) and results.
 
-![Berenices and Engy's Poster](./figs/EngyPoster.jpeg)
+![Berenices and Engy's Poster](./figs/engy_poster.png)
 
 Paul has also presented his poster about **Microbiome data analysis using the Galaxy platform** with an example of our current project pAllori, where we create Galaxy workflows to perform multi mircobiome data analysis applying machine learning algorthims to identify patients with Helicobacter pylori.
 
-![Paul's Poster](./figs/PaulPoster.jpeg)
+![Paul's Poster](./figs/paul_poster.png)
 
 On the third and last day; we had more keynotes and very interesting other talks sessions, as shown in their [programme](https://gcb2023.de/Programme/_/Programm_GCB_2023%20-%2007.09.2023.pdf). Before closing the conference they annonced the winning poster, and we made it again with the Foodborne project, we won the best poster award, where I got a free conference fees for GCB 2024 in Bielefeld.
 
 <twitter tweet="1702282717381996985"></twitter>
 
-![Best poster prize](./figs/BestPosterPrize.JPG)
+![Best poster prize](./figs/best_poster_prize.png)
 
 Overall, I have really enjoyed attending the conference. I met a lot of scientist working on similar projects where we had a chance to exchange our knowledge. I would like to thank **DECHEMA** for choosing our poster to win the award and having me attenging the conference. Wish to see all the people I met next year in GCB 2024.
