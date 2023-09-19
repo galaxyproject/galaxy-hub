@@ -25,7 +25,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 |               | TBC | TBC | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR-Galaxy Community meeting**  |   |
-|               | TBC | the ELIXIR Galaxy community | 10' |
+|               | ELIXIR Hub | the ELIXIR Galaxy community | 10' |
 |               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
 |               | TBC | TBC | 20' |
 |               | TBC| TBC | 10' |
@@ -50,8 +50,8 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 |               | TBC | TBC | 20' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
-|               |  | baredSC | 10' |
-|               | Kayleigh Smith | Using Galaxy to compare B cells in publicly available data | 10' |
+|               | Lucille Delisle  | baredSC | 10' |
+|               | TBC | TBC | 10' |
 |               | TBC| TBC | 20' |
 |               | TBC | TBC | 20' |
 |               | TBC | TBC | 20' |
