@@ -25,7 +25,7 @@ As part of the effort to bring astronomical workflows to Galaxy within EuroScien
 ![Selection of APERTIF radio telescope images found at ASTRON through IVOA TAP protocol with a Galaxy tool](galaxy-ivoa-astron.png)</div>  
 
 <figcaption>
-Selection of <a href="https://science.astron.nl/sdc/astron-data-explorer/data-releases/apertif-dr1/">APERTIF</a> radio telescope observation data found at <a href="https://science.astron.nl/sdc/astron-data-explorer/">ASTRON</a> archive through IVOA TAP protocol with a <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fastroteam%2Fastronomical_archives%2Fastronomical_archives%2F0.9.0">Galaxy tool</a>
+Selection of <a href="https://science.astron.nl/sdc/astron-data-explorer/data-releases/apertif-dr1/">APERTIF</a> radio telescope observation data found at <a href="https://science.astron.nl/sdc/astron-data-explorer/">ASTRON</a> archive through IVOA TAP protocol with a <a href="https://usegalaxy.eu/root?tool_id=astronomical_archives">Galaxy tool</a>
 </figcaption>
     
 For a demonstation of the tool features, see [video](https://fair.tube/w/bAYTSeD7gt2XiDTWzTo3rz).
