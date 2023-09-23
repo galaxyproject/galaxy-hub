@@ -4,7 +4,7 @@ date: "2023-09-25"
 tease: "Enabling astronomers to search and download data from IVOA-compliant archives directly within Galaxy"
 hide_tease: false
 tags: [esg-wp5, esg]
-subsites: [all-eu, esg]
+subsites: [all-eu, esg, all]
 main_subsite: eu
 ---
 
