@@ -122,7 +122,7 @@ Updates as of September 26th - for a more detailed schedule now check out the [E
   </tbody>
 </table>
 
-As we still offer open slots for community contributions, especially for Thursday October 5th. For the more details check the recently [published detailed schedule](/events/2023-10-egd/egd/).
+We still offer open slots for community contributions, especially for Thursday October 5th. For the more details check the recently [published detailed schedule](/events/2023-10-egd/egd/).
 
 <br><br>
 
