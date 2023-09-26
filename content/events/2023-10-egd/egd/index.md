@@ -2,7 +2,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 
 ## Tentative Agenda
 
-We are still open for spontaneous additional talks - whatever you like to present, discuss, proudly present - take it to the community!
+We are still open for spontaneous additional talks - whatever you like to demonstrate, discuss, proudly present - take it to the community!
 
 ### Wednesday, October 4
 
@@ -13,7 +13,7 @@ We are still open for spontaneous additional talks - whatever you like to presen
 | ---- |  -------- |  ------ |  -------   |
 | 09:00 - 09:30 |  | *Arrival*  |   |
 | 09:30 - 10:00 | The organisers | Welcome, Logistics & General Galaxy Update | 30' |
-| 10:00 - 10:30 |   | **EGD comunity presentations I** |  |
+| 10:00 - 10:30 |   | **EGD community presentations I** |  |
 |               | Bérénice Batut | GTN Update | 20' |
 |               | Maria Doyle | Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms | 5' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
@@ -43,7 +43,7 @@ We are still open for spontaneous additional talks - whatever you like to presen
 
 | Time |  Speaker  |  Title  |  Duration  |
 | ---- | -------- | ------ | ------- |
-| 09:00 - 10:30 |   | **TEGD developer presentations II**   |  |
+| 09:00 - 10:30 |   | **EGD developer presentations I**   |  |
 |               | Anil Thanki | Our work on Galaxy wf-executor | 10' |
 |               | Jonathan Tedds | ELIXIR Deployable Analytics | 10' |
 |               | Stian Soiland-Reyes | Exchanging workflow provenance as FAIR Digital Objects using RO-Crate | 10' |

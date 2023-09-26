@@ -57,7 +57,7 @@ The organizers will contact you for further clarification.
 <br><br>
 
 # Schedule
-Updates as of September 26th - for a more detailed schedule now check out the [EGD subpage](/events/2023-10-egd/egd/))
+Updates as of September 26th - for a more detailed schedule now check out the [EGD subpage](/events/2023-10-egd/egd/).
 <table>
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
@@ -122,7 +122,7 @@ Updates as of September 26th - for a more detailed schedule now check out the [E
   </tbody>
 </table>
 
-As we are looking forward to community contributions, a more detailed schedule with particular presentations will be published from September 8th.
+As still offer open slots for community contributions, especially for Thursday October 5th. For the more details check the recently [published detailed schedule](/events/2023-10-egd/egd/).
 
 <br><br>
 
