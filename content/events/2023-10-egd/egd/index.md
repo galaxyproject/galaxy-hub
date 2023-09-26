@@ -2,6 +2,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 
 ## Tentative Agenda
 
+We are still open for spontaneous additional talks - whatever you like to present, discuss, proudly present - take it to the community!
 
 ### Wednesday, October 4
 
@@ -11,26 +12,26 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | Time |  Speaker  |  Title  |  Duration |
 | ---- |  -------- |  ------ |  -------   |
 | 09:00 - 09:30 |  | *Arrival*  |   |
-| 09:30 - 10:00 | the organisers | Welcome, Logistics & General Galaxy Update | 30' |
+| 09:30 - 10:00 | The organisers | Welcome, Logistics & General Galaxy Update | 30' |
 | 10:00 - 10:30 |   | **EGD comunity presentations I** |  |
 |               | Bérénice Batut | GTN Update | 20' |
 |               | Maria Doyle | Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms | 5' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD community presentations II** |   |
 |               | Beatriz Serrano-Solano | Roadmap for FAIR Image Data Workflows in Galaxy | 20' |
-|               | Lucille Delisle | Using galaxy to interact with OMERO for image analysis | 10' |
+|               | Lucille Delisle | Using Galaxy to interact with OMERO for image analysis | 10' |
 |               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 10' |
 |               | Paul Zierep | Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community | 15' |
 |               | Marie Jossé | Galaxy visualise, analyse and process environmental data on-demand | 20' |
-|               | TBC | TBC | 20' |
+|               | Open slot | Open slot | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
-| 14:30 - 16:00 |   | **ELIXIR-Galaxy Community meeting**  |   |
-|               | ELIXIR Hub | the ELIXIR Galaxy Community | 10' |
+| 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting**  |   |
+|               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
 |               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
-|               | TBC | TBC | 20' |
-|               | TBC| TBC | 10' |
-|               | TBC | TBC | 20' |
-|               | TBC| TBC | 5' |
+|               | Open slot | Open slot | 20' |
+|               | Open slot | Open slot | 10' |
+|               | Open slot | Open slot | 20' |
+|               | Open slot | Open slot |  5' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather (Part 1)**  |   |
 
@@ -43,26 +44,26 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | Time |  Speaker  |  Title  |  Duration  |
 | ---- | -------- | ------ | ------- |
 | 09:00 - 10:30 |   | **TEGD developer presentations II**   |  |
-|               | Anil Thanki | our work on Galaxy wf-executor | 10' |
+|               | Anil Thanki | Our work on Galaxy wf-executor | 10' |
 |               | Jonathan Tedds | ELIXIR Deployable Analytics | 10' |
 |               | Stian Soiland-Reyes | Exchanging workflow provenance as FAIR Digital Objects using RO-Crate | 10' |
-|               | TBC| TBC | 20' |
-|               | TBC | TBC | 20' |
+|               | Open slot | Open slot | 20' |
+|               | Open slot | Open slot | 20' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
 |               | Lucille Delisle  | baredSC | 10' |
 |               | Anne Hartebrodt | codegreen: Time shifting computation to reduce the carbon emissions of software | 10' |
-|               | TBC| TBC | 20' |
-|               | TBC | TBC | 20' |
-|               | TBC | TBC | 20' |
+|               | Open slot | Open slot | 20' |
+|               | Open slot | Open slot | 20' |
+|               | Open slot | Open slot | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |   | 
 | 14:30 - 16:00 |   | **EGD meets ESG**
 |               | Volodymyr Savchenko |  Astronomy in Galaxy | 10' |
 |               | Maiken Pedersen | ARC runner in Galaxy | 10' |
 |               | Patrick Austin | The Galaxy Platform: Applications to Catalysis Workflows | 10' |
 |               | Leandro Liborio | Muongalaxy – tools, workflows and more for muons and materials science | 10' |  
-|               | Abdulrahman  Azab | Adaptive Meta-scheduling for Computational Workloads | 10' |
-|               | TBC | TBC | 20' |
+|               | Abdulrahman  Azab | Adaptive Meta-scheduling for Computational Workloads | 20' |
+|               | Open slot | Open slot | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather (Part 2)**  |   |
 
