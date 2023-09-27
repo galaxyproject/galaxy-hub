@@ -1,6 +1,6 @@
 ---
 title: "microGalaxy Community Call"
-date: '2023-10-05'
+date: '2023-10-04'
 days: 1
 tease: "[microGalaxy](/projects/microbial/#microgalaxy-community) is a communities of practice focusing on microbial data analysis with Galaxy"
 continent: GL
