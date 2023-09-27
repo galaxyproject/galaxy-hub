@@ -15,7 +15,10 @@ During the training, various elements, strategies, debugging techniques and best
 
 # Funding
 
-We would like to thank the EOSC-LIFE and EOSC EuroScienceGateway projects for their support and funding for this training. EOSC-Life has received funding from the European Union’s Horizon 2020 programme under grant agreement number 824087. EuroScienceGateway has received funding from Horizon Europe programme of the EU with the number 101057388.
+We would like to thank the [EOSC-LIFE](https://www.eosc-life.eu/) and [EOSC EuroScienceGateway](https://galaxyproject.org/projects/esg/) projects for their support and funding for this training. EOSC-Life has received funding from the European Union’s Horizon 2020 programme under grant agreement number 824087. EuroScienceGateway has received funding from Horizon Europe programme of the EU with the number 101057388.
+
+![EOSC-Life](https://www.eosc-life.eu/wp-content/uploads/2019/09/Logo-EOSC-Life-neu-720x540.jpg)
+![EOSC EuroScienceGateway](https://github.com/usegalaxy-eu/branding/blob/master/euro-science-gateway/eosc_euro_science_gateway.1024.png?raw=true)
 
 # Acknowledgements
 
