@@ -30,7 +30,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are **co-
 
 - The [**ELIXIR Galaxy Community Face-to-face (F2F)** meeting](https://elixir-europe.org/events/elixir-galaxy-community-meeting-0),
 - The **[EuroScienceGateway](/projects/esg/) General Assembly (ESG GA)**,
-- The **European Galaxy Days (EGD)** themselves.
+- The **[European Galaxy Days (EGD)](/events/2023-10-egd/egd/)** themselves.
 
 <br><br>
 
@@ -57,7 +57,7 @@ The organizers will contact you for further clarification.
 <br><br>
 
 # Schedule
-
+Updates as of September 26th - for a more detailed schedule now check out the [EGD subpage](/events/2023-10-egd/egd/).
 <table>
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
@@ -106,7 +106,7 @@ The organizers will contact you for further clarification.
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">16:00<br> - <br>17:30</th>
+      <th style="border: 3px solid white; vertical-align: middle;">16:30<br> - <br>17:30</th>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
         <strong>European Galaxy Days (BoFs)</strong>
       </td>
@@ -122,7 +122,7 @@ The organizers will contact you for further clarification.
   </tbody>
 </table>
 
-As we are looking forward to community contributions, a more detailed schedule with particular presentations will be published from September 8th.
+We still offer open slots for community contributions, especially for Thursday October 5th. For the more details check the recently [published detailed schedule](/events/2023-10-egd/egd/).
 
 <br><br>
 
