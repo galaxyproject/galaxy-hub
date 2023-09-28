@@ -64,7 +64,7 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | Mehmet Tekman | Fun/educational bioinformatic game as an embedded web applet in UseGalaxy |  5' |
 |               | Open slot | Open slot |  5' |
 |               | Open slot | Open slot | 10' |
-|               | Open slot | Open slot | 20' |
+|               | Laila Los | Workflow Comments - new ways to teach, collaborate and communicate Galaxy workflows | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |   | 
 | 14:30 - 16:00 |   | **EGD meets ESG**
 |               | Volodymyr Savchenko |  Astronomy in Galaxy | 10' |
