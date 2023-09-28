@@ -1,14 +1,5 @@
 left:
-- label: News
-  relativeTo: subsite
-  target: news/
-- label: Events
-  relativeTo: subsite
-  target: events/
-- label: People
-  target: https://usegalaxy-eu.github.io/belgium/people
-- label: Publications
-  target: https://usegalaxy-eu.github.io/belgium/publications
+
 right:
 - label: Help
   contents:
