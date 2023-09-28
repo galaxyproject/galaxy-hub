@@ -23,17 +23,25 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 10' |
 |               | Paul Zierep | Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community | 15' |
 |               | Marie Jossé | Galaxy visualise, analyse and process environmental data on-demand | 20' |
-|               | Open slot | Open slot | 20' |
+|               | Merret Buurman & Markus Konkol | Building spatio-temporal workflows in Galaxy for the AquaINFRA project | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting**  |   |
 |               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
 |               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
+|               | Krzysztof Poterlowicz | Fair Data Management training in Galaxy |  5' |
+|               | Helge Hecht | Galaxy for Mass Spectrometry | 10' |
 |               | Open slot | Open slot | 20' |
-|               | Open slot | Open slot | 10' |
 |               | Open slot | Open slot | 20' |
-|               | Open slot | Open slot |  5' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather (Part 1)**  |   |
+
+**Wednesday BoFs:**
+
+| Title |  Organizer(s)  |  Abstract  |
+| ---- |  -------- |  ------ |
+| Small-scale Admins Gathering | Lucille Delisle | Hosting your own Galaxy instance, for a small number of people (or even just yourself)? Welcome to the Galaxy Small Scale Galaxy Admins, a [community of practice](https://galaxyproject.org/community/#communities-of-practice) group. Having grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/), our meetings are taking place every two months. This time, we happily meet face to face. Join and share your experiences! |
+| microGalaxy Meeting |  Paul Zierep | Many efforts on microbial analysis are done in Galaxy. To avoid redundancy and coordinate our efforts, we started [microGalaxy](https://galaxyproject.org/projects/microbial/#microgalaxy-community), a community focusing on microbial analysis with Galaxy. Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics transcriptomics or proteomics, this is the place to be!<br>We organize quarterly community meetings. What’s a better occasion than EGD and a BoF for our next meeting? Anyone interested is welcome to join. |
+
 
 <br><br>
 ### Thursday, October 5
@@ -66,6 +74,13 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | Open slot | Open slot | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather (Part 2)**  |   |
+
+**Thursday BoFs:**
+
+| Title |  Organizer(s)  |  Abstract  |
+| ---- |  -------- |  ------ |
+| Reducing the environmental impact of Galaxy workflows | Nicola Soranzo | “Green computing” is a label being increasingly used, and in fact driving a Galaxy instance consumes energy. There are many parameters influencing the environmental impact of applied workflows, and focussing on this aspect of computing is the principal topic of this BoF. What are the key factors, which could positively influenced, and how could we effort ‘greener’ data science in Galaxy? |
+| Reducing Galaxy environmental impact via time-shifted computation |  José Manuel Domínguez | Job scheduling on shared resources decouples job submission from execution to optimize utilization of compute power while ensuring a fair assignment of compute resources across users. Most schedulers use “as soon as possible” strategies. However, there are users who are flexible enough to wait. Why not take advantage of this slack to distribute the load in ways that also optimize other criteria (aka meta-scheduling)? Many data analysis tools have a significant carbon footprint, which could be reduced, for example, running the jobs when there is a higher share of renewable energy in the grid (time-shifting), or preferring to run jobs in other datacenters powered with greener energy (location-shifting), or both. Concrete approaches to reduce the environmental impact of the computations will be discussed in this BoF, as well as their integration into Galaxy. Let's do it! |
 
 
 
