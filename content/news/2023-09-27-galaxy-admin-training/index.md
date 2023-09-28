@@ -15,7 +15,7 @@ During the training, various elements, strategies, debugging techniques and best
 
 # Schedule
 
-![GAT 2023 Schedule](gat2023_schedule.png)
+[![GAT 2023 Schedule](gat2023_schedule.png)](https://github.com/orgs/galaxyproject/projects/28/views/1?filterQuery=status%3AMonday%2CTuesday%2CWednesday%2CThursday%2CFriday+)
 
 # Funding
 
