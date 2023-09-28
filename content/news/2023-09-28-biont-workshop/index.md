@@ -1,6 +1,6 @@
 ---
 title: '1st BioNT Training workshop - A practical introduction to bioinformatics and RNA-seq using Galaxy'
-tease: "BioNT delivered its first training workshop, A practical introduction to bioinformatics and RNA-seq using Galaxy, from 4th to 8th of September, 2023. This post reports this workshop organisation, the applicants and participants, as well as their feedback about it."
+tease: "BioNT delivered its first training workshop, A practical introduction to bioinformatics and RNA-seq using Galaxy, from 4th to 8th of September, 2023. This post reports this workshop's organisation, the applicants and participants, as well as their feedback about it."
 authors: Teresa Müller, Bérénice Batut, Silvia Di Giorgio, Lisanna Paladin, Isabella Paredes Cisneros, Sabry Razick, Pubudu Saneth Samarakoon
 date: '2023-09-28'
 authors_structured:
@@ -39,12 +39,12 @@ For registration, the CECAM platform was used to manage the applicant's informat
 
 The workshop was delivered in a **Zoom webinar format**, with **participants' visibility disabled to preserve their privacy**. Participants were able to see and learn from the trainers. However, **direct interactions (e.g. chat or voice) were not possible** within Zoom during the sessions. All direct interaction took place in **written form via a collaborative document**, where anonymous participation was ensured. To serve the collaborative documents, a HedgeDoc collaborative space was set up by BIOBYTE, and is hosted on their server.
 
-A **Main** collaborative document, setup by the instructors and organisers, was shared with the participants before the session. Each section of the workshop had dedicated _Hands-on_ boxes to report on the task status, ask questions or raise issues. **Helpers engaged and helped participants by answering the questions and issues directly in this document**. This Main document was filled in live during the workshop. Separate boxes to answer questions were used to  improve the participant engagement and as an indirect learning assessment.
+A **Main** collaborative document, setup by the instructors and organisers, was shared with the participants before the session. Each section of the workshop had dedicated _Hands-on_ boxes to report on the task status, ask questions, or raise issues. **Helpers engaged and helped participants by answering the questions and issues directly in this document**. This Main document was filled in live during the workshop. Separate boxes to answer questions were used to improve participant engagement and as an indirect learning assessment.
 
 To help with the organisation, four HedgeDoc documents were used:
 1. a **[Template](https://biont.biobyte.de/AZptJADHQBusn0t6tpBL5w)** with all instructions and boxes for hands-on, questions, etc;
 2. the **[Main](https://biont.biobyte.de/JvXq44sER_qfh-1J_XIwbg)** document with the information for the participants during the workshop, filled with boxes related to the section covered by the instructor to help with the navigation and cleaned during each break to avoid an overcrowded document;
-3. a **[History](https://biont.biobyte.de/PLOoUieUS4WPbFNQisbz3Q#)** document with everything that needed to be kept and shared with participants after the workshop
+3. a **[History](https://biont.biobyte.de/s/fDH1UF18o#)** document with everything that needed to be kept and shared with participants after the workshop
 4. a [document](https://biont.biobyte.de/IqUZPrizR82BdwUHRzA0aA#) for Helpers & Instructors was created providing the workshop setup, interactions and explaining tasks of the helpers and instructors.
 
 Galaxy, an open source platform for accessible, reproducible, and transparent computational research, via the **European Galaxy server**, was used during the workshop because it enables participants to access 3,000+ tools, high-performance compute resources, through a standard web browser, without requiring informatics expertise. To support this workshop, a dedicated job queue and resources was provided via the **Training Infrastructure as a Service** (TIaaS - [https://usegalaxy.eu/tiaas/](https://usegalaxy.eu/tiaas/)). This service also provided instructors with a dashboard, enabling them to monitor the progress of the participants.
@@ -64,7 +64,7 @@ The training material used during this workshop, i.e. slides and tutorials, are 
 ## Certificates
 
 Certificates were provided to those participants who explicitly required them after checking for their participation using two criteria: 
-1. they joined some sessions on Zoom and 
+1. they joined at least one session on Zoom or notified that they could not attend live and 
 2. they provided links to their Galaxy histories corresponding to the taught tutorials.
 
 # Outcomes of the workshop
@@ -391,7 +391,7 @@ The feedback on the post-workshop survey was **positive** and participants were 
 
 # Conclusion
 
-The first BioNT workshop, a Bioinformatics Introduction workshop, was **successfully** held from 4th to 8th of September 8, 2023. 
+The first BioNT workshop, a Bioinformatics Introduction workshop, was **successfully** held from 4th to 8th of September, 2023. 
 
 As it was the first workshop in this format, the infrastructure for communication, registration, collecting surveys, and teaching had to be developed and implemented. **Everything has been documented and will be reused for the second workshop that will be run in November 2023.**
 
