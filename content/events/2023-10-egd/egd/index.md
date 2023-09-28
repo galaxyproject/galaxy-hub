@@ -61,8 +61,9 @@ We are still open for spontaneous additional talks - whatever you like to demons
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
 |               | Lucille Delisle  | baredSC | 10' |
 |               | Anne Hartebrodt | codegreen: Time shifting computation to reduce the carbon emissions of software | 10' |
-|               | Open slot | Open slot | 20' |
-|               | Open slot | Open slot | 20' |
+|               | Mehmet Tekman | Fun/educational bioinformatic game as an embedded web applet in UseGalaxy |  5' |
+|               | Open slot | Open slot |  5' |
+|               | Open slot | Open slot | 10' |
 |               | Open slot | Open slot | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |   | 
 | 14:30 - 16:00 |   | **EGD meets ESG**
