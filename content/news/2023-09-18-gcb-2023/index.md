@@ -5,7 +5,10 @@ tease: "From the 11th to the 14th of September, Engy Nasr and Paul Zierep from t
 location:
   name: Hamburg, Germany
 tags: [conference, talk, bioinformatics, poster, pathogen detection]
-authors: engynasr
+authors: Engy Nasr, Paul Zierep
+authors_structured:
+- github: EngyNasr
+- github: paulzierep
 supporters:
 - DECHEMA
 - ELIXIR
@@ -27,7 +30,7 @@ This year’s talks focused on Multiomics analysis with Machine learning for the
 
 On the first day; there were multiple worshops, 7 of them were in the morning and 5 of them were in the afternoon, participants had the chance to choose one of them to attend.
 
-On the second day; we had two keynote and two talk sessions. At the end of the second talk session, we had the poster session, were 140 posters were presented. The poster presented by me, was about the project **Foodborne Pathogen Dectection using direct Nanopore** and how is it important to implement it within Galaxy. I have presented my work and showed the Pathogen Detection workflow created in Galaxy along with its [**training material**](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) and results.
+On the second day; we had two keynote and two talk sessions. At the end of the second talk session, we had the poster session, were 140 posters were presented. The poster prepared by Bérénice Batut and presented by me, was about the project **Foodborne Pathogen Dectection using direct Nanopore** and how is it important to implement it within Galaxy. I have presented my work and showed the Pathogen Detection workflow created in Galaxy along with its [**training material**](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) and results.
 
 <p align="center">
 <img src="engy_poster.png" width="500" height="500">
