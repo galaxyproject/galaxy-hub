@@ -39,6 +39,8 @@ Paul has also presented his poster about **Microbiome data analysis using the Ga
 <img src="paul_poster.png" width="500" height="500">
 </p>
 
+During the poster sessions, we also had the chance to meet Dr. Anne Hartebrodt and learn about Time shifting computation to reduce the carbon emissions of software. This technique is particular interesting for the galaxy project, in order to improve our environmental footprint. Thanks to the contact we made during GCB, Anne will preset her work during the European galaxy days [EGD](https://galaxyproject.org/events/2023-10-egd/egd/).
+
 On the third and last day; we had more keynotes and very interesting other talks sessions, as shown in the [programme](https://gcb2023.de/Programme/_/Programm_GCB_2023%20-%2007.09.2023.pdf). Before closing the conference they annonced the winning poster, and we made it again with the Foodborne project, we won the best poster award, where I got a free conference fee for GCB 2024 in Bielefeld.
 
 <twitter tweet="1702282717381996985"></twitter>
