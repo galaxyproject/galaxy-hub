@@ -9,18 +9,18 @@ We are still open for spontaneous additional talks - whatever you like to demons
 **Location**: Building 101, room XXX
 
 
-| Time |  Speaker  |  Title  |  Duration |
-| ---- |  -------- |  ------ |  -------   |
+| Time          |  Speaker  | Title   | Duration   |
+| ------------- |  -------- | ------- | ---------- |
 | 09:00 - 10:00 |  | *Arrival*  |   |
 | 10:00 - 10:30 | The organisers | Welcome, Logistics & General Galaxy Update | 30' |
-| 10:30 - 11:15 |   | *Coffee Break* |   |
-| 11:15 - 13:00 |   | **EGD community presentations** |   |
+| 10:30 - 11:00 |   | **EGD community presentations I** |   |
 |               | Bérénice Batut | GTN Update | 20' |
-|               | Maria Doyle | Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms | 5' |
+|               | Maria Doyle | Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms | 10' |
+| 11:00 - 11:45 |   | *Coffee Break* |   |
+| 11:45 - 13:00 |   | **EGD community presentations II** |   |
 |               | Beatriz Serrano-Solano | Roadmap for FAIR Image Data Workflows in Galaxy | 20' |
 |               | Marie Jossé | Galaxy visualise, analyse and process environmental data on-demand | 20' |
 |               | Merret Buurman & Markus Konkol | Building spatio-temporal workflows in Galaxy for the AquaINFRA project | 20' |
-|               | Open Slot | Open Slot | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting** (public)  |   |
 |               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
@@ -30,9 +30,8 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | Lucille Delisle | Using Galaxy to interact with OMERO for image analysis | 10' |
 |               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 10' |
 |               | Paul Zierep | Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community | 15' |
-|               | Open Slot | Open Slot | 10' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
-| 16:30 - 17:30 |   | **Birds of a Feather (Part 1)**  |   |
+| 16:30 - 17:30 |   | **Birds of a Feather**  |   |
 
 **Wednesday BoFs:**
 
@@ -55,34 +54,30 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | Jonathan Tedds | ELIXIR Deployable Analytics | 10' |
 |               | Stian Soiland-Reyes | Exchanging workflow provenance as FAIR Digital Objects using RO-Crate | 10' |
 |               | Laila Los | Workflow Comments - new ways to teach, collaborate and communicate Galaxy workflows | 20' |
-|               | Open slot | Open slot | 10' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
 |               | Lucille Delisle  | baredSC | 10' |
 |               | Anne Hartebrodt | codegreen: Time shifting computation to reduce the carbon emissions of software | 10' |
 |               | Mehmet Tekman | Fun/educational bioinformatic game as an embedded web applet in UseGalaxy |  5' |
-|               | Open slot | Open slot |  5' |
-|               | Open slot | Open slot | 10' |
-|               | Open slot | Open slot | 20' |
+|               | Volodymyr Savchenko |  Astronomy in Galaxy | 20' |
+|               | Björn Grüning | Towards sustainable storage management in Galaxy | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |   | 
 | 14:30 - 16:00 |   | **EGD meets ESG**
-|               | Volodymyr Savchenko |  Astronomy in Galaxy | 10' |
+|               | Wendi Bacon | Introducing the Galaxy single cell community of practice | 10' |
 |               | Maiken Pedersen | ARC runner in Galaxy | 10' |
 |               | Patrick Austin | The Galaxy Platform: Applications to Catalysis Workflows | 10' |
-|               | Leandro Liborio | Muongalaxy – tools, workflows and more for muons and materials science | 10' |  
+|               | Leandro Liborio | Muongalaxy – tools, workflows and more for muons and materials science | 10' |
 |               | Abdulrahman Azab | Adaptive Meta-scheduling for Computational Workloads | 20' |
-|               | Vanessa | Climate | 10' |
-|               | Open slot | Open slot | 10' |
+|               | Vanessa stoeckl | IceNet | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
-| 16:30 - 17:30 |   | **Birds of a Feather (Part 2)**  |   |
+| 16:30 - 17:30 |   | **Birds of a Feather**  |   |
 
 **Thursday BoFs:**
 
 | Title |  Organizer(s)  |  Abstract  |
 | ---- |  -------- |  ------ |
-| Reducing the environmental impact of Galaxy workflows | Nicola Soranzo | “Green computing” is a label being increasingly used, and in fact driving a Galaxy instance consumes energy. There are many parameters influencing the environmental impact of applied workflows, and focussing on this aspect of computing is the principal topic of this BoF. What are the key factors, which could positively influenced, and how could we effort ‘greener’ data science in Galaxy? |
-| Time-shifted computation | José Manuel Domínguez | Job scheduling on shared resources decouples job submission from execution to optimize utilization of compute power while ensuring a fair assignment of compute resources across users. Most schedulers use “as soon as possible” strategies. However, there are users who are flexible enough to wait. Why not take advantage of this slack to distribute the load in ways that also optimize other criteria (aka meta-scheduling)? Many data analysis tools have a significant carbon footprint, which could be reduced, for example, running the jobs when there is a higher share of renewable energy in the grid (time-shifting), or preferring to run jobs in other datacenters powered with greener energy (location-shifting), or both. Concrete approaches to reduce the environmental impact of the computations will be discussed in this BoF, as well as their integration into Galaxy. Let's do it! |
-| Write the report | Anika Erxleben-Eggenhofer | Reporting is an essential part of funded research - and an unfavored element in daily work. How to have an easier time on managing such obligations is the topic of this BoF. |
+| Reducing the environmental impact of Galaxy workflows | Nicola Soranzo & José Manuel Domínguez | “Green computing” is a label being increasingly used, and in fact driving a Galaxy instance consumes energy. There are many parameters influencing the environmental impact of applied workflows, and focussing on this aspect of computing is the principal topic of this BoF. What are the key factors, which could positively influenced, and how could we effort ‘greener’ data science in Galaxy? One focus of this BoF will be job scheduling. Job scheduling on shared resources decouples job submission from execution to optimize utilization of compute power while ensuring a fair assignment of compute resources across users. Most schedulers use “as soon as possible” strategies. However, there are users who are flexible enough to wait. Why not take advantage of this slack to distribute the load in ways that also optimize other criteria (aka meta-scheduling)? Many data analysis tools have a significant carbon footprint, which could be reduced, for example, running the jobs when there is a higher share of renewable energy in the grid (time-shifting), or preferring to run jobs in other datacenters powered with greener energy (location-shifting), or both. Concrete approaches to reduce the environmental impact of the computations will be discussed in this BoF, as well as their integration into Galaxy. Let's do it!mple is |
+| Write the report | Anika Erxleben-Eggenhofer | In this special BoF ESG participants will write and enhance the yearly report of the ESG. |
 
 
 
@@ -91,4 +86,4 @@ We are still open for spontaneous additional talks - whatever you like to demons
 
 | Time |  Title  |  Location  |
 | ---- | ------ | ------- |
-| 09:30 - 17:30 | CoFest   | XXXX (first floor) |
+| 09:30 - 17:30 | CoFest   | First and second floor of building 101 |

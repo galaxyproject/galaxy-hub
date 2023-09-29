@@ -74,15 +74,15 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
     </tr>
     <tr class="text-center">
       <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>13:00</th>
-      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">European Galaxy Days</a></strong>
         <br><small>Arrival and Welcome<br>Community update talks</small>
       </td>
-      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">European Galaxy Days</a></strong>
         <br><br><small>New developments talks</small>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2023-10-egd/esg/">ESG Annual Meeting</a></strong>
       </td>
     </tr>
     <tr class="text-center">
@@ -94,15 +94,15 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
     <tr class="text-center">
       <th style="border: 3px solid white; vertical-align: middle;">14:30<br> - <br>16:00</th>
       <td colspan="2" style="background-color: #FBB117; border: 3px solid white;">
-        <strong>ELIXIR Galaxy Community</strong>
+        <strong><a href="/events/2023-10-egd/egd/#wednesday-october-4">ELIXIR Galaxy Community</a></strong>
         <br><br><small>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities/platforms/focus groups</small>
       </td>
-      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD meets ESG</strong>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">EGD meets ESG</a></strong>
         <br><br><small>Several talks to get to know each other</small>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2023-10-egd/esg/">ESG Annual Meeting</a></strong>
       </td>
     </tr>
     <tr class="text-center">
@@ -115,7 +115,7 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2023-10-egd/esg/">ESG Annual Meeting</a></strong>
       </td>
     </tr>
   </tbody>
