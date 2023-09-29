@@ -63,12 +63,12 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | Björn Grüning | Towards sustainable storage management in Galaxy | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |   | 
 | 14:30 - 16:00 |   | **EGD meets ESG**
-|               | Wendi Bacon | Introducing the Galaxy single cell community of practice | 10' |
+|               | Wendi Bacon | Introducing the Galaxy single cell community of practice | 15' |
 |               | Maiken Pedersen | ARC runner in Galaxy | 10' |
 |               | Patrick Austin | The Galaxy Platform: Applications to Catalysis Workflows | 10' |
 |               | Leandro Liborio | Muongalaxy – tools, workflows and more for muons and materials science | 10' |
 |               | Abdulrahman Azab | Adaptive Meta-scheduling for Computational Workloads | 20' |
-|               | Vanessa stoeckl | IceNet | 20' |
+|               | Vanessa Stoeckl | IceNet | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
 
