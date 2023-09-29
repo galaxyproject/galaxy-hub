@@ -29,7 +29,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are **co-
 [//]: # "- [**ELIXIR Galaxy Community Meeting**](/events/2023-10-egd/gcm/)"
 
 - The [**ELIXIR Galaxy Community Face-to-face (F2F)** meeting](https://elixir-europe.org/events/elixir-galaxy-community-meeting-0),
-- The **[EuroScienceGateway](/projects/esg/) General Assembly (ESG GA)**,
+- The **[EuroScienceGateway](/projects/esg/) [General Assembly (ESG GA)](/events/2023-10-egd/esg/)**,
 - The **[European Galaxy Days (EGD)](/events/2023-10-egd/egd/)** themselves.
 
 <br><br>
@@ -57,7 +57,7 @@ The organizers will contact you for further clarification.
 <br><br>
 
 # Schedule
-Updates as of September 26th - for a more detailed schedule now check out the [EGD subpage](/events/2023-10-egd/egd/).
+Updates as of September 29th - for a more detailed schedule now check out the [EGD subpage](/events/2023-10-egd/egd/).
 <table>
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
@@ -75,7 +75,7 @@ Updates as of September 26th - for a more detailed schedule now check out the [E
     <tr class="text-center">
       <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>13:00</th>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
-        <br><br><small>Community update talks</small>
+        <br><small>Arrival and Welcome<br>Community update talks</small>
       </td>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
         <br><br><small>New developments talks</small>
@@ -108,11 +108,10 @@ Updates as of September 26th - for a more detailed schedule now check out the [E
     <tr class="text-center">
       <th style="border: 3px solid white; vertical-align: middle;">16:30<br> - <br>17:30</th>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
-        <strong>European Galaxy Days (BoFs)</strong>
+        <strong>Birds of a Feather meetings (BoFs)<br><br><small>Session 1</small></strong>
       </td>
-      <td style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD (BoFs)</strong>
-      </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
+        <strong>Birds of a Feather meetings (BoFs)<br><br><small>Session 2</small></strong>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
@@ -121,6 +120,8 @@ Updates as of September 26th - for a more detailed schedule now check out the [E
     </tr>
   </tbody>
 </table>
+
+(Coffee breaks included, for sure.)
 
 We still offer open slots for community contributions, especially for Thursday October 5th. For the more details check the recently [published detailed schedule](/events/2023-10-egd/egd/).
 
