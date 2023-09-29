@@ -13,7 +13,7 @@ components: true
 subsites: [all-eu]
 ---
 
-From the 11th to the 14th of Semptember, Engy Nasr (I) and Paul Zierep from the Freiburg Galaxy team travelled to Hamburg to join and present our posters about the 'Accessible and scalable Galaxy pipelines for fast and easy (foodborne) Pathogen detection and tracking' and 'Microbiome data analysis using the Galaxy platform' at the [**German Conference on Bioinformatics (GCB) 2023**](https://gcb2023.de/).
+From the 11th to the 14th of Semptember, Engy Nasr (I) and Paul Zierep from the Freiburg Galaxy team travelled to Hamburg to join and present our posters about 'Accessible and scalable Galaxy pipelines for fast and easy (foodborne) Pathogen detection and tracking' and 'Microbiome data analysis using the Galaxy platform' at the [**German Conference on Bioinformatics (GCB) 2023**](https://gcb2023.de/).
 
 <twitter tweet="1702283085729996879"></twitter> 
 
@@ -27,7 +27,7 @@ This year’s talks focused on Multiomics analysis with Machine learning for the
 
 On the first day; there were multiple worshops, 7 of them were in the morning and 5 of them were in the afternoon, participants had the chance to choose one of them to attend.
 
-On the second day; we had two keynotes and two talks sessions. At the end of the second talks session, we had the poster session, were 140 posters were presented. Engy's poster, the poster presented by me, was about my project **Foodborne Pathogen Dectection using direct Nanopore** and how is it important to implement it within Galaxy. I have presented my work and showed the Pathogen Detection workflow created in Galaxy along with its [**training material**](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) and results.
+On the second day; we had two keynote and two talk sessions. At the end of the second talk session, we had the poster session, were 140 posters were presented. The poster presented by me, was about the project **Foodborne Pathogen Dectection using direct Nanopore** and how is it important to implement it within Galaxy. I have presented my work and showed the Pathogen Detection workflow created in Galaxy along with its [**training material**](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html) and results.
 
 <p align="center">
 <img src="engy_poster.png" width="500" height="500">
@@ -39,7 +39,7 @@ Paul has also presented his poster about **Microbiome data analysis using the Ga
 <img src="paul_poster.png" width="500" height="500">
 </p>
 
-On the third and last day; we had more keynotes and very interesting other talks sessions, as shown in their [programme](https://gcb2023.de/Programme/_/Programm_GCB_2023%20-%2007.09.2023.pdf). Before closing the conference they annonced the winning poster, and we made it again with the Foodborne project, we won the best poster award, where I got a free conference fees for GCB 2024 in Bielefeld.
+On the third and last day; we had more keynotes and very interesting other talks sessions, as shown in the [programme](https://gcb2023.de/Programme/_/Programm_GCB_2023%20-%2007.09.2023.pdf). Before closing the conference they annonced the winning poster, and we made it again with the Foodborne project, we won the best poster award, where I got a free conference fee for GCB 2024 in Bielefeld.
 
 <twitter tweet="1702282717381996985"></twitter>
 
