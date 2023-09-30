@@ -26,10 +26,9 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
 |               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
 |               | Krzysztof Poterlowicz | Fair Data Management training in Galaxy |  5' |
-|               | Helge Hecht | Galaxy for Mass Spectrometry | 10' |
+|               | Helge Hecht | Galaxy for Mass Spectrometry | 20' |
 |               | Lucille Delisle | Using Galaxy to interact with OMERO for image analysis | 10' |
-|               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 10' |
-|               | Paul Zierep | Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community | 15' |
+|               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
 
@@ -57,6 +56,7 @@ We are still open for spontaneous additional talks - whatever you like to demons
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
 |               | Lucille Delisle  | baredSC in Galaxy | 20' |
+|               | Paul Zierep | Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community | 20' |
 |               | Anne Hartebrodt | codegreen: Time shifting computation to reduce the carbon emissions of software | 10' |
 |               | Mehmet Tekman | Fun/educational bioinformatic game as an embedded web applet in UseGalaxy |  5' |
 |               | Volodymyr Savchenko |  Astronomy in Galaxy | 20' |
