@@ -71,6 +71,8 @@ We are still open for spontaneous additional talks - whatever you like to demons
 |               | Vanessa Stoeckl | IceNet | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
+| 17:30 - 18:30 |   | **Meet and greet with the Galaxy America**  |   |
+
 
 **Thursday BoFs:**
 
