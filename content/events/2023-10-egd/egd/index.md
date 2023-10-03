@@ -22,11 +22,11 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting** (public)  |   |
 |               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
-|               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
 |               | Krzysztof Poterlowicz | Fair Data Management training in Galaxy |  5' |
 |               | Helge Hecht | Galaxy for Mass Spectrometry | 20' |
 |               | Lucille Delisle | Using Galaxy to interact with OMERO for image analysis | 10' |
 |               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 20' |
+|               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
 
