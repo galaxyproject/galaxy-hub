@@ -123,8 +123,6 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
 
 (Coffee breaks included, for sure.)
 
-We still offer open slots for community contributions, especially for Thursday October 5th. For the more details check the recently [published detailed schedule](/events/2023-10-egd/egd/).
-
 <br><br>
 
 # Venue
