@@ -12,7 +12,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | 09:00 - 10:00 |  | *Arrival*  |   |
 | 10:00 - 10:30 | The organisers | Welcome, Logistics & General Galaxy Update | 30' |
 | 10:30 - 11:00 |   | **EGD community presentations I** |   |
-|               | Bérénice Batut | GTN Update | 20' |
+|               | Saskia Hiltemann | GTN Update | 20' |
 |               | Maria Doyle | Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms | 10' |
 | 11:00 - 11:45 |   | *Coffee Break* |   |
 | 11:45 - 13:00 |   | **EGD community presentations II** |   |
