@@ -10,10 +10,10 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | Time          |  Speaker  | Title   | Duration   |
 | ------------- |  -------- | ------- | ---------- |
 | 09:00 - 10:00 |  | *Arrival*  |   |
-| 10:00 - 10:30 | The organisers | Welcome, Logistics & General Galaxy Update | 30' |
+| 10:00 - 10:30 | The organisers | [Welcome, Logistics & General Galaxy Update](https://docs.google.com/presentation/d/1oUomxPN5-6pBpAw3mSxIbq7NQEvJ8AMAcBGmhCwVtLI) | 30' |
 | 10:30 - 11:00 |   | **EGD community presentations I** |   |
-|               | Saskia Hiltemann | GTN Update | 20' |
-|               | Maria Doyle | Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms | 10' |
+|               | Saskia Hiltemann | [GTN Update](https://docs.google.com/presentation/d/e/2PACX-1vRuawedTPz7sVbfCizYcLwJmK3-Ic-jtB88OzpH6muosCRFcAs8x6JsYzKyhnAw-jHixK7-Yn1kmEnI/pub?start=false&loop=false&delayms=3000#slide=id.p) | 20' |
+|               | Maria Doyle | [Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms](https://docs.google.com/presentation/d/12qSOm8hEaz57q2apNxyuv7qXI8OS7UDA4PzNMS48MYU/edit#slide=id.p) | 10' |
 | 11:00 - 11:45 |   | *Coffee Break* |   |
 | 11:45 - 13:00 |   | **EGD community presentations II** |   |
 |               | Beatriz Serrano-Solano | Roadmap for FAIR Image Data Workflows in Galaxy | 20' |
