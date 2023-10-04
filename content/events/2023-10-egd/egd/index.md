@@ -21,10 +21,10 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 |               | Merret Buurman & Markus Konkol | [Building spatio-temporal workflows in Galaxy for the AquaINFRA project](https://docs.google.com/presentation/d/1wXE5aRQ2MdQ-LW0WtE37Ih_u4ZDywVLG/edit#slide=id.p1) | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting** (public)  |   |
-|               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
-|               | Krzysztof Poterlowicz | Fair Data Management training in Galaxy |  5' |
-|               | Helge Hecht | Galaxy for Mass Spectrometry | 20' |
-|               | Lucille Delisle | Using Galaxy to interact with OMERO for image analysis | 10' |
+|               | ELIXIR Hub | [The ELIXIR Galaxy Community](ELIXIR-presentation_2023_10_Galaxy-Community-F2F_EGD_presentation.pdf) | 10' |
+|               | Krzysztof Poterlowicz | [Fair Data Management training in Galaxy](https://docs.google.com/presentation/d/1SWO73pjufZI44KjkHg_EUzjMhcgOAeHy/edit#slide=id.g287f34dccc2_0_1098) |  5' |
+|               | Helge Hecht | [Galaxy for Mass Spectrometry](https://docs.google.com/presentation/d/1FNj_qEPQ2bDHMqNp-qjj1iEnqeArEIm4/edit#slide=id.p1) | 20' |
+|               | Lucille Delisle | [Using Galaxy to interact with OMERO for image analysis](Lucille_Delisle_galaxy_omero.pdf) | 10' |
 |               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 20' |
 |               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
