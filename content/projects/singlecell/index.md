@@ -34,7 +34,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 
 # How do we function?
 
-We meet every 3 weeks (alternating USA and AU time zones) for 1 hour.
+**Meetings** We meet every 6 weeks (alternating USA and AU time zones) for 1 hour.
 
 Our meeting agenda is:
  - Random intro chatter & introductions
@@ -44,13 +44,13 @@ Our meeting agenda is:
  - Other cool stuff (example: Smorgasbord)
  - Ongoing actions to send out
 
-We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder.
+**Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder.
 
-We keep rolling notes on a googledoc and monitor our work on Trello.
+**Notes** We keep rolling notes on a googledoc and monitor our work on Trello.
 
-When people ask for help or are working across institutes, we set up chat sub-channels to bring them together.
+**Collaborative Chat Forums** When people ask for help or are working across institutes, we set up chat sub-channels to bring them together.
 
-We have a chat forum to discuss news and ideas, and are represented in the Galaxy Community Reps chat group.
+**General Chat Forum** We have a chat forum to discuss news and ideas, and are represented in the Galaxy Community Reps chat group.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
