@@ -17,16 +17,16 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | 11:00 - 11:45 |   | *Coffee Break* |   |
 | 11:45 - 13:00 |   | **EGD community presentations II** |   |
 |               | Beatriz Serrano-Solano | [Roadmap for FAIR Image Data Workflows in Galaxy](https://docs.google.com/presentation/d/1lz1qCyEju_HcwBoAEKmOIP1cXCC_tJz7pRmd_XexcOU/edit#slide=id.g275e8ac84d7_0_28) | 20' |
-|               | Marie Jossé | Galaxy visualise, analyse and process environmental data on-demand | 20' |
+|               | Marie Jossé & Jérôme Detoc | [Galaxy visualise, analyse and process environmental data on-demand](EGD2023_jdetoc_galaxy_for_fairease.pdf) | 20' |
 |               | Merret Buurman & Markus Konkol | [Building spatio-temporal workflows in Galaxy for the AquaINFRA project](https://docs.google.com/presentation/d/1wXE5aRQ2MdQ-LW0WtE37Ih_u4ZDywVLG/edit#slide=id.p1) | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting** (public)  |   |
-|               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
-|               | Krzysztof Poterlowicz | Fair Data Management training in Galaxy |  5' |
-|               | Helge Hecht | Galaxy for Mass Spectrometry | 20' |
-|               | Lucille Delisle | Using Galaxy to interact with OMERO for image analysis | 10' |
-|               | Anthony Bretaudeau | Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes | 20' |
-|               | Björn Grüning | ELIXIR staff exchange programm with the Australian Biocommons | 20' |
+|               | ELIXIR Hub | [The ELIXIR Galaxy Community](ELIXIR-presentation_2023_10_Galaxy-Community-F2F_EGD_presentation.pdf) | 10' |
+|               | Krzysztof Poterlowicz | [Fair Data Management training in Galaxy](https://docs.google.com/presentation/d/1SWO73pjufZI44KjkHg_EUzjMhcgOAeHy/edit#slide=id.g287f34dccc2_0_1098) |  5' |
+|               | Helge Hecht | [Galaxy for Mass Spectrometry](https://docs.google.com/presentation/d/1FNj_qEPQ2bDHMqNp-qjj1iEnqeArEIm4/edit#slide=id.p1) | 20' |
+|               | Lucille Delisle | [Using Galaxy to interact with OMERO for image analysis](Lucille_Delisle_galaxy_omero.pdf) | 10' |
+|               | Anthony Bretaudeau | [Galaxy Genome Annotation: Galaxy as a platform for the annotation of genomes](https://docs.google.com/presentation/d/1BwZ7W_tg2kbVwIKRsN4abOAtuQJCGIcOkr1tGrO5sKQ/edit#slide=id.g742e3e7cd_1_16) | 20' |
+|               | Björn Grüning | [ELIXIR staff exchange programm with the Australian Biocommons](https://docs.google.com/presentation/d/1OVuOqxyPGKfFBDhBRxrKJS3nCiw5XytA39agAQXKHOU/edit#slide=id.p) | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
 
