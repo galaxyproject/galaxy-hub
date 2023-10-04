@@ -16,9 +16,9 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 |               | Maria Doyle | [Bridging Bioconductor and Galaxy: Enhancing Omics Data Training through Integration of Platforms](https://docs.google.com/presentation/d/12qSOm8hEaz57q2apNxyuv7qXI8OS7UDA4PzNMS48MYU/edit#slide=id.p) | 10' |
 | 11:00 - 11:45 |   | *Coffee Break* |   |
 | 11:45 - 13:00 |   | **EGD community presentations II** |   |
-|               | Beatriz Serrano-Solano | Roadmap for FAIR Image Data Workflows in Galaxy | 20' |
+|               | Beatriz Serrano-Solano | [Roadmap for FAIR Image Data Workflows in Galaxy](https://docs.google.com/presentation/d/1lz1qCyEju_HcwBoAEKmOIP1cXCC_tJz7pRmd_XexcOU/edit#slide=id.g275e8ac84d7_0_28) | 20' |
 |               | Marie Jossé | Galaxy visualise, analyse and process environmental data on-demand | 20' |
-|               | Merret Buurman & Markus Konkol | Building spatio-temporal workflows in Galaxy for the AquaINFRA project | 20' |
+|               | Merret Buurman & Markus Konkol | [Building spatio-temporal workflows in Galaxy for the AquaINFRA project](https://docs.google.com/presentation/d/1wXE5aRQ2MdQ-LW0WtE37Ih_u4ZDywVLG/edit#slide=id.p1) | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting** (public)  |   |
 |               | ELIXIR Hub | The ELIXIR Galaxy Community | 10' |
