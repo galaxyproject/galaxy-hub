@@ -47,9 +47,8 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | Time |  Speaker  |  Title  |  Duration  |
 | ---- | -------- | ------ | ------- |
 | 09:30 - 10:30 |   | **EGD developer presentations I**   |  |
-|               | Anil Thanki | Our work on Galaxy wf-executor | 10' |
-|               | Jonathan Tedds | ELIXIR Deployable Analytics | 10' |
-|               | Stian Soiland-Reyes | Exchanging workflow provenance as FAIR Digital Objects using RO-Crate | 10' |
+|               | Anil Thanki | [Our work on Galaxy wf-executor](https://docs.google.com/presentation/d/18Dp3oV_iv6oCvtJOAIg301kfMfj8NfZsdqRMh5U19kQ) | 10' |
+|               | Stian Soiland-Reyes | [Exchanging workflow provenance as FAIR Digital Objects using RO-Crate](https://docs.google.com/presentation/d/1DstV0shze8keaTsGYP5k3_3L8jiyqzpx) | 10' |
 |               | Laila Los | Workflow Comments - new ways to teach, collaborate and communicate Galaxy workflows | 20' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
