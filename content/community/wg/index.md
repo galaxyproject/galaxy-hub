@@ -24,7 +24,7 @@ Focus on Galaxy administration, maintenance, and installation.
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-systems)
 * [GitHub Project Admin](https://github.com/orgs/galaxyproject/projects/16)
 * [GitHub Project Deployment](https://github.com/orgs/galaxyproject/projects/17)
-* Leadership: Nate Coraor
+* Leadership: Björn Grüning
 
 </div>
 
@@ -70,23 +70,7 @@ Testing and hardening the Galaxy ecosystem, developing and maintaining test infr
 
 </div>
 
-
-<!-- Tools -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-primary text-white">Tools</div>
-
-Tool use is what Galaxy enables. This group works on improving Galaxy's tools ecosystem.
-
-* [Charter](https://docs.google.com/document/d/1E8adM1xvtI1USKOOIfK9kj6u4HcU4F3dLl1CYG0qoZA/edit#)
-* [GitHub Project](https://github.com/orgs/galaxyproject/projects/13)
-* [Google Drive](https://drive.google.com/drive/folders/1P_kRiBMSixkNiTRu0A4VZYPgg1TLxqlL)
-* [Gitter Chat Channel](https://gitter.im/galaxyproject/tools)
-* [Tools Working Group Assignments](https://docs.google.com/spreadsheets/d/1jPhMF5VwoO1jW_ejdx9ZEs-DZ2bkCHezybFjfuorZeM/edit#gid=0)
-* Leadership: Alex Ostrovsky
-
-</div>
-
-<!-- Workflows -->
+<!-- Workflows and Tools -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-wg-primary text-white">Workflows</div>
 
@@ -95,7 +79,7 @@ This group builds the standards and ecosystem for execution, testing, publishing
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/20)
 * [Google Drive](https://drive.google.com/drive/folders/1E8xG5u8mInGr5-GgfpKVTQYeo5xkRkAx?usp=sharing)
 * [Gitter Channel](https://gitter.im/galaxyproject/iwc)
-* Leadership: Marius van den Beek
+* Leadership: Marius van den Beek, Alex Ostrovsky
 
 </div>
 

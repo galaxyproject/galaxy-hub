@@ -15,16 +15,22 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="https://galaxyproject.org/events/gcc2023/register/" target="_blank">
+            <a href="https://www.biorxiv.org/content/10.1101/2023.06.28.546576v1.full" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/events/gcc2023/gcc2023-registration-early-deadline.png"
-                    img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills. Early registration closes Friday, May 12."
+                    img-src="/images/Paper_Alert_August2023.jpg"
+                    img-alt="New paper in preprint titled *Scalable, accessible, and reproducible reference genome assembly and evaluation in Galaxy* by Larivière et al. 2023. Click to read!"
                 ></b-carousel-slide>
             </a>
-            <a href="https://gxy.io/smorgasbord3" target="_blank">
+            <a href="https://galaxyproject.org/events/gcc2023/register/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/events/2023-05-smorgasbord3/smorgasbord3-square.png"
-                    img-alt="The Galaxy Training Network Smörgåsbord 3 is a free global online Galaxy training event from May 22 to May 26, 2023"
+                    img-src="/images/events/gcc2023/gcc2023-in-numbers.png"
+                    img-alt="The Galaxy Community Conference is an annual gathering that brings together scientists, software developers, and trainers of Galaxy from a variety of disciplines to share their experiences, knowledge, and skills."
+                ></b-carousel-slide>
+            </a>
+            <a href="https://galaxyproject.org/projects/vgp/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/vgp/VGP_hub.jpg"
+                    img-alt="The Vertebrate Genomes Project (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data."
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">
