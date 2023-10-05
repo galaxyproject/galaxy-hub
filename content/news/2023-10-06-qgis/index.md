@@ -18,7 +18,7 @@ In the Geographical Information System landscape, there is existing standards to
 
 ## How to access on Galaxy Europe:
 
-To use QGIS, you need to use the {% tool [dedicated form](https://usegalaxy.eu/root?tool_id=interactive_tool_qgis) %}, you can specify input datasets from your history you want to use in QGIS, or not ;), then press the execute button to launch a QGIS instance. When the graphical user interface of QGIS is ready to be used, a URL will be displayed at the top of the Galaxy center panel. 
+To use QGIS, you need to use the tool [dedicated form](https://usegalaxy.eu/root?tool_id=interactive_tool_qgis), you can specify input datasets from your history you want to use in QGIS, or not ;), then press the execute button to launch a QGIS instance. When the graphical user interface of QGIS is ready to be used, a URL will be displayed at the top of the Galaxy center panel. 
 
 ## Coming up soon !
 
