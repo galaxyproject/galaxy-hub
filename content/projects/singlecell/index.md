@@ -8,7 +8,7 @@ We are a mix of users, developers, and trainers providing feedback and energy to
 
 **Welcome to the Galaxy Single-Cell Community of Practice!**
 
-## I'm just trying to learn to analyse my data, how did I get here?
+## I'm just trying to learn to analyse my data, how did I get here? 
 Hello user! You'll be interested in the following resources:
 
  - [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
