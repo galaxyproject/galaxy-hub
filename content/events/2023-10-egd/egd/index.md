@@ -83,4 +83,4 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 
 | Time |  Title  |  Location  |
 | ---- | ------ | ------- |
-| 09:30 - 17:30 | CoFest   | First and second floor of building 101 |
+| 09:30 - 17:30 | [CoFest](https://docs.google.com/document/d/1fumqwpdGWsA6yEvQfHbFmdDhjta1iZPXlv-dw8xG42g/edit)   | First and second floor of building 101 |
