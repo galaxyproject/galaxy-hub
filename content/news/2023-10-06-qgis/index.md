@@ -26,7 +26,7 @@ A tutorial of how to quickly and easily use QGIS on Galaxy will come soon, notab
 
 ![QGIS](./qgis_example.png)
 
-We are still working on QGIS and more and more trainings should be coming up on specific case studies. For instance, on how to use plugins in QGIS and on a study on degraded land and soils. This specific study takes place within the cooperation of the Fair-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/) .
+We are still working on QGIS integration as a Galaxy tool and more and more trainings should be coming up on specific case studies. For instance, on how to use plugins in QGIS and on how to map a geographical land degradation index. This specific study takes place within the cooperation of the Fair-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/) .
 ![EOSC EuroScienceGateway](./eurosciencegateway.png)
 ![EOSC Fair-Ease](./fair_ease_colour.png)
 
