@@ -25,12 +25,12 @@ To use QGIS, you need to use the {% tool [dedicated form](https://ecology.usegal
 
 A dedicated tutorial of how to quickly and easily use QGIS on Galaxy. With this training you will arrive at the end with a nice map that should look like the following.
 
-![QGIS](images/qgis_example.png)
+![QGIS](./qgis_example.png)
 
 We are still working on QGIS and more and more trainings should be coming up on specific case studies. For instance, on how to use plugins in QGIS and on a study on degraded land and soils. This specific study takes place within the cooperation of the Fair-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/) .
-![EOSC EuroScienceGateway](images/eurosciencegateway.png)
-![EOSC Fair-Ease](images/fair_ease_colour.png)
+![EOSC EuroScienceGateway](./eurosciencegateway.png)
+![EOSC Fair-Ease](./fair_ease_colour.png)
 
 
 For more examples and details, see the [QGIS page](https://qgis.org/en/site/index.html).
-![QGIS logo](images/qgis_logo.png)
+![QGIS logo](./qgis_logo.png)
