@@ -49,7 +49,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | 09:30 - 10:30 |   | **EGD developer presentations I**   |  |
 |               | Anil Thanki | [Our work on Galaxy wf-executor](https://docs.google.com/presentation/d/18Dp3oV_iv6oCvtJOAIg301kfMfj8NfZsdqRMh5U19kQ) | 10' |
 |               | Stian Soiland-Reyes | [Exchanging workflow provenance as FAIR Digital Objects using RO-Crate](https://docs.google.com/presentation/d/1DstV0shze8keaTsGYP5k3_3L8jiyqzpx) | 10' |
-|               | Laila Los | Workflow Comments - new ways to teach, collaborate and communicate Galaxy workflows | 20' |
+|               | Laila Los | [Workflow Comments - new ways to teach, collaborate and communicate Galaxy workflows](https://docs.google.com/presentation/d/1O20J7ifwagyW5X6VeK5hshqgfiehuNr39eTr2JA8u7U/edit#slide=id.p) | 20' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
 |               | Lucille Delisle  | [baredSC in Galaxy](Lucille_DELISLE_20231005_baredSC.pdf) | 20' |
@@ -61,8 +61,8 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | 14:30 - 16:00 |   | **EGD meets ESG**
 |               | Wendi Bacon | [Introducing the Galaxy single cell community of practice](https://docs.google.com/presentation/d/1tLaibI0qWgU0XjWgzBT5mHtVUsqEqJbjOSqVSOeHtOM/edit#slide=id.p1) | 15' |
 |               | Maiken Pedersen | [ARC runner in Galaxy](https://docs.google.com/presentation/d/1xb70Z4dZfXEJrvbXFhLQceA1g2UZnEWG/edit#slide=id.p1) | 10' |
-|               | (Patrick Austin) Leandro Liborio | The Galaxy Platform: Applications to Catalysis Workflows | 10' |
 |               | Leandro Liborio | Muongalaxy – tools, workflows and more for muons and materials science | 10' |
+|               | (Patrick Austin) Leandro Liborio | The Galaxy Platform: Applications to Catalysis Workflows | 10' |
 |               | Abdulrahman Azab | [Adaptive Meta-scheduling for Computational Workloads](https://docs.google.com/presentation/d/1-5ch2UpOXH9qBouR6cbqBYbsgzSNMysk/edit#slide=id.p1) | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
