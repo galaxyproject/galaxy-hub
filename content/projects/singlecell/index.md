@@ -27,6 +27,7 @@ Saying that, we'd absolutely love to have users feedback on their experiences to
 - Tool & tutorial development
 - Testing
 - Build & support user community
+- Benchmarking tools and workflows
 
 # Who are we looking for?
 
