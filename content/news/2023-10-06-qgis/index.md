@@ -22,7 +22,7 @@ To use QGIS, you need to use the tool [dedicated form](https://usegalaxy.eu/root
 
 ## Coming up soon !
 
-A tutorial of how to quickly and easily use QGIS on Galaxy will come soon, notably showing how to query remote spatial files through WFS webservice. With this training you will arrive at the end with a nice map that should look like the following.
+A tutorial of how to quickly and easily use QGIS on Galaxy will come soon, notably showing how to query remote spatial files through WFS webservice (search for this title "QGIS Web Feature Services"). With this training you will arrive at the end with a nice map that should look like the following.
 
 ![QGIS](./qgis_example.png)
 
