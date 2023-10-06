@@ -67,6 +67,8 @@ Start by joining our [💬Matrix channel](https://matrix.to/#/#usegalaxy-eu_sing
  - 📝[Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
  - 🧑🏽‍🏫[User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
+[ICal link for non-google users](https://calendar.google.com/calendar/ical/f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com/public/basic.ics)
+
 ## Key words
 
 Single-cell
