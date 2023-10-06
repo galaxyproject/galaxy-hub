@@ -54,4 +54,4 @@ Our meeting agenda is:
 Start by joining our [💬Matrix channel](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im) and introduce yourself! (Or you can just lurk there for a bit!)
 
  - 📝[Meeting Notes doc](https://docs.google.com/document/d/1GA6CQaQUU7sGHXPN194cNnj-fMUe0CcIIjI0FFoKdqE/edit)
- - 🧑🏽‍🏫[User Matrix Channel](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im
+ - 🧑🏽‍🏫[User Matrix Channel](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im)
