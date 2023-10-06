@@ -4,7 +4,7 @@ date: "2023-10-06"
 authors: Marie Jossé and Yvan Le Bras
 tease: "Use QGIS in Galaxy Europe as an interactive tool"
 hide_tease: true
-subsites: [all-eu,global]
+subsites: [all-eu,global,esg]
 ---
 
 ## QGIS ? What does it do ?
