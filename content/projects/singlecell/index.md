@@ -6,17 +6,22 @@ title: "Galaxy Single Cell Community of Practice"
 
 <img class="img-fluid float-right" src="/projects/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
 
-We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities. Do you use Galaxy single cell tools for scRNA-seq or beyond? Do you have feedback for us? Want to be a tester of new resources? Want to impact the future of single cell in Galaxy? Are you a developer looking for a place to play? Are you developing Galaxy single cell materials and want to stay aware of what others are doing in this field?
+We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities. 
+ - **Developers**: Are you developing single cell tools in Galaxy, or looking for a place to develop in Galaxy? Do you need users, testers, or just want to make sure you're not wrapping the same tools as someone else!
+ - **Users**: Do you use Galaxy single cell tools for scRNA-seq or beyond? Do you have feedback for us? Want to be a tester of new resources? Do you want to request new resources?
+ - **Trainers**: Do you use Galaxy to train others in single cell analysis? Do you have feedback or requests on how we can support users better now and in the future?
+Do you want to impact the future of single cell in Galaxy? 
 
 **Welcome to the Galaxy Single-Cell Community of Practice!**
 
 ## I'm just trying to learn to analyse my data, how did I get here?
 Hello user! You'll be interested in the following resources:
 
- - [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
- - [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
- - Galaxy instance: [Single cell instance](https://singlecell.usegalaxy.eu) or Human Cell Atlas instance](https://humancellatlas.usegalaxy.eu)
- - [Matrix channel for asking for help](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+ 🎓 [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
+ 🧠 [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
+ 🖥️ Galaxy instance: [Single cell instance](https://singlecell.usegalaxy.eu) or Human Cell Atlas instance](https://humancellatlas.usegalaxy.eu)
+ ✋🏾[Single cell help forum]([scrna](https://help.galaxyproject.org/tag/scrna))
+ 👐🏾 [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
 
