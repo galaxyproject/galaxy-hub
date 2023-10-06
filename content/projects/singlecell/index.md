@@ -4,6 +4,8 @@ autotoc: true
 title: "Galaxy Single Cell Community of Practice"
 ---
 
+<img class="img-fluid float-right" src="/projects/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
+
 We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities. Do you use Galaxy single cell tools for scRNA-seq or beyond? Do you have feedback for us? Want to be a tester of new resources? Want to impact the future of single cell in Galaxy? Are you a developer looking for a place to play? Are you developing Galaxy single cell materials and want to stay aware of what others are doing in this field?
 
 **Welcome to the Galaxy Single-Cell Community of Practice!**
@@ -13,7 +15,7 @@ Hello user! You'll be interested in the following resources:
 
  - [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
  - [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
- - Galaxy instance: [Single cell instance](https://singlecell.usegalaxy.eu) or [Human Cell Atlas instance](https://humancellatlas.usegalaxy.eu)
+ - Galaxy instance: [Single cell instance](https://singlecell.usegalaxy.eu) or Human Cell Atlas instance](https://humancellatlas.usegalaxy.eu)
  - [Matrix channel for asking for help](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
@@ -53,7 +55,7 @@ Our meeting agenda is:
 
 **General Chat Forum** We have a chat forum to discuss news and ideas, and are represented in the Galaxy Community Reps chat group.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 # How can you join & other important links
 
@@ -67,15 +69,15 @@ Start by joining our [💬Matrix channel](https://matrix.to/#/#usegalaxy-eu_sing
 
 ## Key words
 
-- Single-cell
-- Single cell
-- Single-cell RNA-Sequencing
-- Single-cell RNA-seq
-- scRNA-seq
-- snRNA-seq
-- 10x
-- Single cell biology
-- Single cell multiomics
-- ScanPy
-- Seurat
-- AnnData
+Single-cell
+Single cell
+Single-cell RNA-Sequencing
+Single-cell RNA-seq
+scRNA-seq
+snRNA-seq
+10x
+Single cell biology
+Single cell multiomics
+ScanPy
+Seurat
+AnnData
