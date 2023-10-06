@@ -61,8 +61,8 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | 14:30 - 16:00 |   | **EGD meets ESG**
 |               | Wendi Bacon | [Introducing the Galaxy single cell community of practice](https://docs.google.com/presentation/d/1tLaibI0qWgU0XjWgzBT5mHtVUsqEqJbjOSqVSOeHtOM/edit#slide=id.p1) | 15' |
 |               | Maiken Pedersen | [ARC runner in Galaxy](https://docs.google.com/presentation/d/1xb70Z4dZfXEJrvbXFhLQceA1g2UZnEWG/edit#slide=id.p1) | 10' |
-|               | Leandro Liborio | Muongalaxy – tools, workflows and more for muons and materials science | 10' |
-|               | (Patrick Austin) Leandro Liborio | The Galaxy Platform: Applications to Catalysis Workflows | 10' |
+|               | Leandro Liborio | [Muongalaxy – tools, workflows and more for muons and materials science](Leandro-EGD-Muongalaxy-2023.pdf) | 10' |
+|               | (Patrick Austin) Leandro Liborio | [The Galaxy Platform: Applications to Catalysis Workflows](Leandro-Applications-to-Catalysis-Workflows.pdf) | 10' |
 |               | Abdulrahman Azab | [Adaptive Meta-scheduling for Computational Workloads](https://docs.google.com/presentation/d/1-5ch2UpOXH9qBouR6cbqBYbsgzSNMysk/edit#slide=id.p1) | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
