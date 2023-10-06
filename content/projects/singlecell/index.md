@@ -17,11 +17,11 @@ Do you want to impact the future of single cell in Galaxy?
 ## I'm just trying to learn to analyse my data, how did I get here?
 Hello user! You'll be interested in the following resources:
 
- 🎓 [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
- 🧠 [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
- 🖥️ Galaxy instance: [Single cell instance](https://singlecell.usegalaxy.eu) or Human Cell Atlas instance](https://humancellatlas.usegalaxy.eu)
- ✋🏾[Single cell help forum]([scrna](https://help.galaxyproject.org/tag/scrna))
- 👐🏾 [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+ 🎓 [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)\
+ 🧠 [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
+ 🖥️ [Single cell Galaxy instance](https://singlecell.usegalaxy.eu)\
+ ✋🏾[Single cell help forum]([scrna](https://help.galaxyproject.org/tag/scrna))\
+ 👐🏾 [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)\
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
 
