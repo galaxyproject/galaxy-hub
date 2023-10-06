@@ -34,6 +34,7 @@
                 "pasteur",
                 "belgium",
                 "ifb",
+                "genouest",
                 "erasmusmc",
                 "elixir-it",
                 "au",
@@ -41,7 +42,7 @@
                 "us",
                 "global"
             ],
-            "all-eu": ["freiburg", "pasteur", "belgium", "ifb", "erasmusmc", "elixir-it", "eu"]
+            "all-eu": ["freiburg", "pasteur", "belgium", "ifb", "genouest", "erasmusmc", "elixir-it", "eu"]
         },
         "default": "global",
         "navbar": [
@@ -53,6 +54,7 @@
             "erasmusmc",
             "belgium",
             "pasteur",
+            "genouest",
             "elixir-it",
             "ifb"
         ],
@@ -83,6 +85,10 @@
             },
             "pasteur": {
                 "name": "Pasteur",
+                "gitter": "usegalaxy-eu/Lobby"
+            },
+            "genouest": {
+                "name": "GenOuest",
                 "gitter": "usegalaxy-eu/Lobby"
             },
             "elixir-it": {
