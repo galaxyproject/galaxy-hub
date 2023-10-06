@@ -60,7 +60,7 @@ Our meeting agenda is:
 
 **General Chat Forum** We have a chat forum to discuss news and ideas, and are represented in the Galaxy Community Reps chat group.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 # How can you join & other important links
 
@@ -68,8 +68,8 @@ Start by joining our [💬Community of Practice Matrix channel](https://matrix.t
 
  - 📪[Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
  - ✅[Trello site](https://trello.com/invite/b/KLVgHvCB/ATTI53fe3f6ea71737e3aa6570e5ed148a528698CA27/sccop-tool-wrapping-tutorial-development)
- - 🗓️[SC-CoP Google Calendar](https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon) <-- Subscribe!
- - 🗓️[ICal link for non-google users](https://calendar.google.com/calendar/ical/f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com/public/basic.ics)
+ - 🗓️[SC-CoP Google Calendar]([https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon)) <-- Subscribe!
+ - 🗓️[ICal link for non-google users]([https://calendar.google.com/calendar/ical/f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics))
  - 📝[Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
  - 🧑🏽‍🏫[User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
