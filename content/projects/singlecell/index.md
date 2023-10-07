@@ -64,7 +64,7 @@ Our meeting agenda is:
 
 # How can you join & other important links
 
-Start by joining our [💬Community of Practice Matrix channel](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows) and introduce yourself! (Or you can just lurk there for a bit!)
+Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [SC Community of Practice Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
 
  - <i class="fa fa-envelope" aria-hidden="true"></i> [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
  - <i class="fa fa-trello" aria-hidden="true"></i> [Trello site](https://trello.com/invite/b/KLVgHvCB/ATTI53fe3f6ea71737e3aa6570e5ed148a528698CA27/sccop-tool-wrapping-tutorial-development)
