@@ -60,7 +60,7 @@ Our meeting agenda is:
 
 **General Chat Forum** We have a chat forum to discuss news and ideas, and are represented in the Galaxy Community Reps chat group.
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=Europe%2FBerlin&title=Galaxy%20Single%20Cell%20Community%20of%20Practice&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=AGENDA&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=Europe%2FBerlin&title=Galaxy%20Single%20Cell%20Community%20of%20Practice&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=AGENDA&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
 
 # How can you join & other important links
 
