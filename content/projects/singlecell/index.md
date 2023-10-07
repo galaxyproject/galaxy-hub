@@ -71,7 +71,7 @@ Start by joining our [💬Community of Practice Matrix channel](https://matrix.t
  - <i class="fa fa-calendar" aria-hidden="true"></i> [SC-CoP Google Calendar]([https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon)) <-- Subscribe!
  - <i class="fa fa-calendar" aria-hidden="true"></i> [ICal link for non-google users]([https://calendar.google.com/calendar/ical/f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics))\
  - <i class="fa fa-list-alt" aria-hidden="true"></i> [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
- - <i class="fa fa-comments-o” aria-hidden="true"></i> [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+ - <i class="fa fa-comments-o" aria-hidden="true"></i> [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
  - <i class="fa fa-coffee" aria-hidden="true"></i> [SC Community of Practice Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org)
 
 ## Key words
