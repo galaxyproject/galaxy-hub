@@ -45,12 +45,12 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 **Meetings** We meet every 6 weeks (alternating USA and AU time zones) for 1 hour.
 
 Our meeting agenda is:
- - Random intro chatter & introductions
- - Updates from Trello site (what people are working on / asking for help)
+1. Random intro chatter & introductions
+2. Updates from Trello site (what people are working on / asking for help)
     - 🐛Help/bugs
     - Status reports & new stuff that’s happening
- - Other cool stuff (example: Smorgasbord)
- - Ongoing actions to send out
+3. Other cool stuff (example: Smorgasbord)
+4. Ongoing actions to send out
 
 **Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder.
 
