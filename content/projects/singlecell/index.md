@@ -17,11 +17,11 @@ Do you want to impact the future of single cell in Galaxy?
 ## I'm just trying to learn to analyse my data, how did I get here?
 Hello user! You'll be interested in the following resources:
 
-<i class="fa fa-road" aria-hidden="true"></i> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)\
-<i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
-<i class="fa fa-tv" aria-hidden="true"></i> [Single cell Galaxy instance](https://singlecell.usegalaxy.eu)\
-<i class="fa fa-question-circle-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
-<i class="fa fa-comments-o” aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+ - <i class="fa fa-road" aria-hidden="true"></i> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
+ - <i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
+ - <i class="fa fa-tv" aria-hidden="true"></i> [Single cell Galaxy instance](https://singlecell.usegalaxy.eu)
+ - <i class="fa fa-question-circle-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
+ - <i class="fa fa-comments-o” aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
 
@@ -66,13 +66,13 @@ Our meeting agenda is:
 
 Start by joining our [💬Community of Practice Matrix channel](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows) and introduce yourself! (Or you can just lurk there for a bit!)
 
-<i class="fa fa-envelope" aria-hidden="true"></i> [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)\
-<i class="fa fa-trello" aria-hidden="true"></i> [Trello site](https://trello.com/invite/b/KLVgHvCB/ATTI53fe3f6ea71737e3aa6570e5ed148a528698CA27/sccop-tool-wrapping-tutorial-development)\
-<i class="fa fa-calendar" aria-hidden="true"></i> [SC-CoP Google Calendar]([https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon)) <-- Subscribe!\
-<i class="fa fa-calendar" aria-hidden="true"></i> [ICal link for non-google users]([https://calendar.google.com/calendar/ical/f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics))\
-<i class="fa fa-list-alt" aria-hidden="true"></i> [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!\
-<i class="fa fa-comments-o” aria-hidden="true"></i> [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
-<i class="fa fa-coffee" aria-hidden="true"></i> [SC Community of Practice Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org)
+ - <i class="fa fa-envelope" aria-hidden="true"></i> [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
+ - <i class="fa fa-trello" aria-hidden="true"></i> [Trello site](https://trello.com/invite/b/KLVgHvCB/ATTI53fe3f6ea71737e3aa6570e5ed148a528698CA27/sccop-tool-wrapping-tutorial-development)
+ - <i class="fa fa-calendar" aria-hidden="true"></i> [SC-CoP Google Calendar]([https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon)) <-- Subscribe!
+ - <i class="fa fa-calendar" aria-hidden="true"></i> [ICal link for non-google users]([https://calendar.google.com/calendar/ical/f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics))\
+ - <i class="fa fa-list-alt" aria-hidden="true"></i> [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
+ - <i class="fa fa-comments-o” aria-hidden="true"></i> [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+ - <i class="fa fa-coffee" aria-hidden="true"></i> [SC Community of Practice Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org)
 
 ## Key words
 
