@@ -21,7 +21,7 @@ Hello user! You'll be interested in the following resources:
  - <i class="fa fa-book" aria-hidden="true"></i> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
  - <i class="fa fa-tv" aria-hidden="true"></i> [Single cell Galaxy instance](https://singlecell.usegalaxy.eu)
  - <i class="fa fa-question-circle-o" aria-hidden="true"></i> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
- - <i class="fa fa-comments-o” aria-hidden="true"></i> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+ - <i class="fa fa-comments-o" aria-hidden="true"></i>   [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
 
