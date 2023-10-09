@@ -55,7 +55,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 |               | Lucille Delisle  | [baredSC in Galaxy](Lucille_DELISLE_20231005_baredSC.pdf) | 20' |
 |               | Paul Zierep | [Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community](https://docs.google.com/presentation/d/1BrMlWEJ-gCErUrb_QSW1lqqGiUMqkG4mKK6qNi62c5s/edit#slide=id.g28410ef69c4_0_0) | 20' |
 |               | Anne Hartebrodt | [codegreen: Time shifting computation to reduce the carbon emissions of software](https://docs.google.com/presentation/d/1Ui1Ozp51Er1rWm_wJTY_FejfYNKBAWPm/edit#slide=id.p1) | 10' |
-|               | Mehmet Tekman | Fun/educational bioinformatic game as an embedded web applet in UseGalaxy |  5' |
+|               | Mehmet Tekman | [Fun/educational bioinformatic game as an embedded web applet in UseGalaxy](mtekman__Fun_Bioinformatic_Game_within_Galaxy.pdf) |  5' |
 |               | Volodymyr Savchenko |  [Astronomy in Galaxy](Volodymyr_Savchenko-EGD-2023-astro.pdf) | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |   | 
 | 14:30 - 16:00 |   | **EGD meets ESG**
