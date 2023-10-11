@@ -6,11 +6,11 @@ title: "Galaxy Single Cell Community of Practice"
 
 <img class="img-fluid float-right" src="/projects/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
 
-We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities. 
+We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities.
  - **Developers**: Are you developing single cell tools in Galaxy, or looking for a place to develop in Galaxy? Do you need users, testers, or just want to make sure you're not wrapping the same tools as someone else!
  - **Users**: Do you use Galaxy single cell tools for scRNA-seq or beyond? Do you have feedback for us? Want to be a tester of new resources? Do you want to request new resources?
  - **Trainers**: Do you use Galaxy to train others in single cell analysis? Do you have feedback or requests on how we can support users better now and in the future?
-Do you want to impact the future of single cell in Galaxy? 
+Do you want to impact the future of single cell in Galaxy?
 
 **Welcome to the Galaxy Single-Cell Community of Practice!**
 
@@ -68,8 +68,8 @@ Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [SC Communi
 
  - <i class="fa fa-envelope" aria-hidden="true"></i> [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
  - <i class="fa fa-trello" aria-hidden="true"></i> [Trello site](https://trello.com/invite/b/KLVgHvCB/ATTI53fe3f6ea71737e3aa6570e5ed148a528698CA27/sccop-tool-wrapping-tutorial-development)
- - <i class="fa fa-calendar" aria-hidden="true"></i> [SC-CoP Google Calendar]([https://calendar.google.com/calendar/embed?src=f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com&ctz=Europe%2FLondon](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon)) <-- Subscribe!
- - <i class="fa fa-calendar" aria-hidden="true"></i> [ICal link for non-google users]([https://calendar.google.com/calendar/ical/f6b4dbe4aa3d7076e740e4198aa482d6b92b52129c9f867cfb49f7ac40450796%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics))
+ - <i class="fa fa-calendar" aria-hidden="true"></i> [SC-CoP Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe!
+ - <i class="fa fa-calendar" aria-hidden="true"></i> [ICal link for non-google users](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics)
  - <i class="fa fa-list-alt" aria-hidden="true"></i> [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
  - <i class="fa fa-comments-o" aria-hidden="true"></i> [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
  - <i class="fa fa-coffee" aria-hidden="true"></i> [SC Community of Practice Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org)
