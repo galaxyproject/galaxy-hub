@@ -6,11 +6,11 @@ title: "Galaxy Single Cell Community of Practice"
 
 <img class="img-fluid float-right" src="/projects/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
 
-We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities. 
+We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities.
  - **Developers**: Are you developing single cell tools in Galaxy, or looking for a place to develop in Galaxy? Do you need users, testers, or just want to make sure you're not wrapping the same tools as someone else!
  - **Users**: Do you use Galaxy single cell tools for scRNA-seq or beyond? Do you have feedback for us? Want to be a tester of new resources? Do you want to request new resources?
  - **Trainers**: Do you use Galaxy to train others in single cell analysis? Do you have feedback or requests on how we can support users better now and in the future?
-Do you want to impact the future of single cell in Galaxy? 
+Do you want to impact the future of single cell in Galaxy?
 
 **Welcome to the Galaxy Single-Cell Community of Practice!**
 
