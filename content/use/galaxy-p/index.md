@@ -1,13 +1,13 @@
 ---
 title: "Galaxy-P"
-url: "http://galaxyp.org/"
+url: "https://proteomics.usegalaxy.eu"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
     platform_url: "https://usegalaxyp.org/"
     platform_text: "Use Galaxy-P"
     platform_location: US
-summary: "Galaxy-P is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry based proteomics. Galaxy-P is developed at the [University of Minnesota](http://umn.edu/), deployed at the [Minnesota Supercomputing Institute](http://msi.umn.edu/)."
+summary: "Galaxy-P is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry-based proteomics. Galaxy-P is developed at the [University of Minnesota](http://umn.edu/), deployed at the [Minnesota Supercomputing Institute](http://msi.umn.edu/)."
 image: "/use/galaxy-p/get-galaxy-p-home.png"
 comments:
   - "[usegalaxyp.org](http://galaxyp.org/) is meant to be a resource for training and sharing workflows with the community.  It contains workflows and small-scale testing data.  The site is not meant to be a production instance for large-scale data, and any accounts and data created here are temporary.  The [Galaxy-P team](http://galaxyp.org/) collaborates with Galaxy developers around the world including the European Galaxy Community. and Australian Galaxy Community. Users are recommended to use [usegalaxy.eu](http://usegalaxy.eu/) as an alternative server to run your analyses."
