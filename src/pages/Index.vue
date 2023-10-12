@@ -5,14 +5,14 @@
             <h3 v-if="subtitle">{{ subtitle }}</h3>
         </header>
 
-        <HomeTop :lead="bundles.lead" :jumbotron="inserts.jumbotron" />
+        <!-- <HomeTop :lead="bundles.lead" :jumbotron="inserts.jumbotron" /> -->
 
         <Bundle id="main-content" class="row" :bundle="bundles.main" :subclasses="['col-sm-12']" />
 
         <b-row id="profiles" class="justify-content-md-center">
             <HomeProfile
                 title="SCIENTISTS"
-                link="/scientist/"
+                link="#researchers"
                 img="/images/undraw-illustrations/galaxy-for-scientists.svg"
                 alt="Galaxy for scientists"
             />
@@ -41,6 +41,8 @@
                 alt="Galaxy for admins"
             />
         </b-row>
+
+        <HomeTop :lead="bundles.lead" />
 
         <div class="row" v-for="(cardRow, i) of cardRows" :key="i">
             <HomeCard
