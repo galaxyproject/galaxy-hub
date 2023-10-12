@@ -47,25 +47,23 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | Time |  Speaker  |  Title  |  Duration  |
 | ---- | -------- | ------ | ------- |
 | 09:30 - 10:30 |   | **EGD developer presentations I**   |  |
-|               | Anil Thanki | Our work on Galaxy wf-executor | 10' |
-|               | Jonathan Tedds | ELIXIR Deployable Analytics | 10' |
-|               | Stian Soiland-Reyes | Exchanging workflow provenance as FAIR Digital Objects using RO-Crate | 10' |
-|               | Laila Los | Workflow Comments - new ways to teach, collaborate and communicate Galaxy workflows | 20' |
+|               | Anil Thanki | [Our work on Galaxy wf-executor](https://docs.google.com/presentation/d/18Dp3oV_iv6oCvtJOAIg301kfMfj8NfZsdqRMh5U19kQ) | 10' |
+|               | Stian Soiland-Reyes | [Exchanging workflow provenance as FAIR Digital Objects using RO-Crate](https://docs.google.com/presentation/d/1DstV0shze8keaTsGYP5k3_3L8jiyqzpx) | 10' |
+|               | Laila Los | [Workflow Comments - new ways to teach, collaborate and communicate Galaxy workflows](https://docs.google.com/presentation/d/1O20J7ifwagyW5X6VeK5hshqgfiehuNr39eTr2JA8u7U/edit#slide=id.p) | 20' |
 | 10:30 - 11:15 |   | *Coffee Break* |   |
 | 11:15 - 13:00 |   | **EGD developer presentations II**  |   |
-|               | Lucille Delisle  | baredSC in Galaxy | 20' |
-|               | Paul Zierep | Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community | 20' |
-|               | Anne Hartebrodt | codegreen: Time shifting computation to reduce the carbon emissions of software | 10' |
-|               | Mehmet Tekman | Fun/educational bioinformatic game as an embedded web applet in UseGalaxy |  5' |
-|               | Volodymyr Savchenko |  Astronomy in Galaxy | 20' |
-|               | Björn Grüning | Towards sustainable storage management in Galaxy | 20' |
+|               | Lucille Delisle  | [baredSC in Galaxy](Lucille_DELISLE_20231005_baredSC.pdf) | 20' |
+|               | Paul Zierep | [Microbial data analysis using Galaxy in 2023 - tools, workflows, training and community](https://docs.google.com/presentation/d/1BrMlWEJ-gCErUrb_QSW1lqqGiUMqkG4mKK6qNi62c5s/edit#slide=id.g28410ef69c4_0_0) | 20' |
+|               | Anne Hartebrodt | [codegreen: Time shifting computation to reduce the carbon emissions of software](https://docs.google.com/presentation/d/1Ui1Ozp51Er1rWm_wJTY_FejfYNKBAWPm/edit#slide=id.p1) | 10' |
+|               | Mehmet Tekman | [Fun/educational bioinformatic game as an embedded web applet in UseGalaxy](mtekman__Fun_Bioinformatic_Game_within_Galaxy.pdf) |  5' |
+|               | Volodymyr Savchenko |  [Astronomy in Galaxy](Volodymyr_Savchenko-EGD-2023-astro.pdf) | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |   | 
 | 14:30 - 16:00 |   | **EGD meets ESG**
-|               | Wendi Bacon | Introducing the Galaxy single cell community of practice | 15' |
-|               | Maiken Pedersen | ARC runner in Galaxy | 10' |
-|               | Abdulrahman Azab | Adaptive Meta-scheduling for Computational Workloads | 20' |
-|               | Patrick Austin | The Galaxy Platform: Applications to Catalysis Workflows | 10' |
-|               | Leandro Liborio | Muongalaxy – tools, workflows and more for muons and materials science | 10' |
+|               | Wendi Bacon | [Introducing the Galaxy single cell community of practice](https://docs.google.com/presentation/d/1tLaibI0qWgU0XjWgzBT5mHtVUsqEqJbjOSqVSOeHtOM/edit#slide=id.p1) | 15' |
+|               | Maiken Pedersen | [ARC runner in Galaxy](https://docs.google.com/presentation/d/1xb70Z4dZfXEJrvbXFhLQceA1g2UZnEWG/edit#slide=id.p1) | 10' |
+|               | Leandro Liborio | [Muongalaxy – tools, workflows and more for muons and materials science](Leandro-EGD-Muongalaxy-2023.pdf) | 10' |
+|               | (Patrick Austin) Leandro Liborio | [The Galaxy Platform: Applications to Catalysis Workflows](Leandro-Applications-to-Catalysis-Workflows.pdf) | 10' |
+|               | Abdulrahman Azab | [Adaptive Meta-scheduling for Computational Workloads](https://docs.google.com/presentation/d/1-5ch2UpOXH9qBouR6cbqBYbsgzSNMysk/edit#slide=id.p1) | 20' |
 | 16:00 - 16:30 |   | *Coffee Break*  |    |
 | 16:30 - 17:30 |   | **Birds of a Feather**  |   |
 | 17:30 - 18:30 |   | **Meet and greet with the Galaxy America**  |   |
@@ -75,7 +73,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 
 | Title |  Organizer(s)  |  Abstract  |
 | ---- |  -------- |  ------ |
-| Reducing the environmental impact of Galaxy workflows | Nicola Soranzo & José Manuel Domínguez | As with any type of computing, a Galaxy instance consumes energy and has an environmental impact. In this BoF we will look at possible ways to reduce energy consumption and lower carbon emissions of running Galaxy and user workflows. One focus of this BoF will be job scheduling, which distributes user jobs to compute resources in order to optimise utilization while ensuring fairness across users. Most schedulers use "as soon as possible" strategies, however there are users who are flexible enough to wait. Why not take advantage of this to optimise job scheduling also for other criteria? Many data analysis tools have a significant carbon footprint, which could be reduced, for example, by running the jobs when there is a higher share of renewable energy in the grid (time-shifting), or preferring to run jobs in other datacenters powered with greener energy (location-shifting), or both. Concrete approaches to reduce the environmental impact of the computations will be discussed in this BoF, as well as their integration into Galaxy. Let's do it! |
+| [Reducing the environmental impact of Galaxy workflows](https://docs.google.com/document/d/1krw121K1vHkxnHKcm4qKQfBNXjagQm_j_6C1mdhjB2Q/edit?usp=sharing) | Nicola Soranzo & José Manuel Domínguez | As with any type of computing, a Galaxy instance consumes energy and has an environmental impact. In this BoF we will look at possible ways to reduce energy consumption and lower carbon emissions of running Galaxy and user workflows. One focus of this BoF will be job scheduling, which distributes user jobs to compute resources in order to optimise utilization while ensuring fairness across users. Most schedulers use "as soon as possible" strategies, however there are users who are flexible enough to wait. Why not take advantage of this to optimise job scheduling also for other criteria? Many data analysis tools have a significant carbon footprint, which could be reduced, for example, by running the jobs when there is a higher share of renewable energy in the grid (time-shifting), or preferring to run jobs in other datacenters powered with greener energy (location-shifting), or both. Concrete approaches to reduce the environmental impact of the computations will be discussed in this BoF, as well as their integration into Galaxy. Let's do it! |
 | Write the report | Anika Erxleben-Eggenhofer | In this special BoF ESG participants will write and enhance the yearly report of the ESG. |
 
 
@@ -85,4 +83,4 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 
 | Time |  Title  |  Location  |
 | ---- | ------ | ------- |
-| 09:30 - 17:30 | CoFest   | First and second floor of building 101 |
+| 09:30 - 17:30 | [CoFest](https://docs.google.com/document/d/1fumqwpdGWsA6yEvQfHbFmdDhjta1iZPXlv-dw8xG42g/edit)   | First and second floor of building 101 |
