@@ -41,8 +41,8 @@ Don't hesitate to give use some feedbacks and help if you think they should be i
 The final goal will be to have at least one workflow of tools to access, process and visualise data for each domain cited above. Hopefully even more than that ! 
 If you are interrested by earth system and environmental sciences and have tools that you think could fit right into earth-system.usegalaxy.eu, please contact us so we can try to work together on them ! The more the merrier ! 
 
-This work takes place within the cooperation of the Fair-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/) .
-![EOSC EuroScienceGateway](images/eurosciencegateway.png)
-![EOSC Fair-Ease](images/fair_ease_colour.png)
+This work takes place within the cooperation of the Fair-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/)).
+![EOSC EuroScienceGateway](eurosciencegateway.png)
+![EOSC Fair-Ease](fair_ease_colour.png)
 
 Another cooperation was just started with [Aquainfra project](https://aquainfra.eu/) which will hopefully produce some nice usecases on the water side of the Earth System. 
