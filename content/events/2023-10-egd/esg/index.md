@@ -1,6 +1,6 @@
 # EuroScienceGateway General Assembly Meeting
 
-Being hosted in the frame of the [European Galaxy Days 2023](/events/2023-10-egd/) our first GA meeting will take place in Freiburg. Find essential information dedicated to ESG in the following.
+Having been hosted in the frame of the [European Galaxy Days 2023](/events/2023-10-egd/) our first GA meeting took place in Freiburg. Find essential information dedicated to ESG in the following.
 
 ## Agenda
 
