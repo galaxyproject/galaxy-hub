@@ -3,13 +3,15 @@ title: "Contribute to the Galaxy Publication Library"
 ---
 
 <div class="float-right">
-[<img src="/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
+
+[![Galaxy Publication Library at Zotero](/images/logos/zotero-logo-small-trans.png)](https://www.zotero.org/groups/1732893/galaxy)
+
 </div>
 
 It takes a fair amount of work to keep track of publications that reference
 Galaxy in some way: There are now over 1000 papers per year that do so.  The
 bulk of this curation is currently done by [Galaxy
-Team](/galaxy-team/) members using (quite possibly hundreds) of
+Team](/galaxy-team/) members using (quite possibly hundreds of)
 email alerts and custom software.
 
 If you want to help curate papers then here's how you can help.
@@ -23,7 +25,7 @@ high-throughput supernova of a curator.*)
 We use the [Zotero](https://zotero.org/) social bookmarking service to organize
 publications that are about, use, or reference Galaxy.  The [Galaxy Group on
 Zotero](https://www.zotero.org/groups/galaxy) is open to any community member
-who [would like to contribute](/publication-library/contribute/).
+who would like to contribute.
 
 # Set Up
 
@@ -47,7 +49,7 @@ for this work as we don't store PDFs in the Galaxy Group.
 
 To add publications you'll need to [download and
 install](https://www.zotero.org/download/) the Zotero Client.  The client is
-available for Mac, Linux, and Windows.
+available for Mac, Linux, Windows, and iOS.
 
 ## Install the Zotero Connector in your web browser
 
@@ -59,9 +61,8 @@ automatically imports a wealth of metadata from most publishers.
 default option.)
 
 The [Zotero Connector](https://www.zotero.org/download/) is available for for
-Chrome, Firefox, Safari, and Opera.  A
-[bookmarklet](https://www.zotero.org/downloadbookmarklet) is also available for
-other browsers, tablets, and phones.
+Chrome, Firefox, Safari, and Edge.
+Options for users of other browsers are explained on the download page.
 
 ## Read this page carefully
 
