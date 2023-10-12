@@ -9,7 +9,7 @@ subsites: [all-eu,global]
 
 ## Earth System ?? What's that ?
 
-![Earth System](earth-sys.jpg)
+![Earth System](sys-earth.jpg)
 Earth system models (ESM) seek to simulate all relevant aspects of the Earth system.
 ESMs are composed by a set of equations describing atmospheric and oceanic circulation and thermodynamics, but also the biological and chemical processes that feedback on to the physics of climate, all solved for a number of locations in space that form a three-dimensional grid over the surface of the Earth and underneath the surface of the oceans.
 
