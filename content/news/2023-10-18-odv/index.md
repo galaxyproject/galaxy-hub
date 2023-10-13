@@ -40,8 +40,9 @@ A dedicated tutorial of how to visualise data an create profiles curves with ODV
 ![ODV](odv_example.png)
 
 We are still working on ODV and more and more trainings should be coming up on specific case studies. Some workflows should soon be implemented using ODV and [DIVAnd](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_divand) among others to create a complete analysis of Coastal Water Dynamics. This specific study takes place within the cooperation of the Fair-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/) .
-![EOSC EuroSciencefair_ease_colour.png)
+![EOSC EuroScienceGateway](eurosciencegateway.png)
+![EOSC Fair-Ease](fair_ease_colour.png)
 
 
 For more examples and details, see the [ODV page](https://odv.awi.de/).
-![ODV logo](logo_awi.png)
+![ODV logo](logo_awi.jpeg)
