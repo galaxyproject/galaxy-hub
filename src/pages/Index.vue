@@ -11,31 +11,31 @@
 
         <b-row id="profiles" class="justify-content-md-center">
             <HomeProfile
-                title="SCIENTISTS"
+                title="Researchers"
                 link="#researchers"
                 img="/images/undraw-illustrations/galaxy-for-scientists.svg"
                 alt="Galaxy for scientists"
             />
             <HomeProfile
-                title="TRAINERS"
+                title="Data Analysts"
                 link="/learn/"
-                img="/images/undraw-illustrations/galaxy-for-trainers.svg"
+                img="/images/undraw-illustrations/galaxy-for-developers.svg"
                 alt="Galaxy for trainers"
             />
             <HomeProfile
-                title="TOOL AUTHORS"
+                title="Students"
                 link="/tools/"
                 img="/images/undraw-illustrations/galaxy-for-tool-developers.svg"
                 alt="Galaxy for tool authors"
             />
             <HomeProfile
-                title="DEVELOPERS"
+                title="Instructors"
                 link="/develop/"
-                img="/images/undraw-illustrations/galaxy-for-developers.svg"
+                img="/images/undraw-illustrations/galaxy-for-trainers.svg"
                 alt="Galaxy for developers"
             />
             <HomeProfile
-                title="ADMINS"
+                title="Developers"
                 link="/admin"
                 img="/images/undraw-illustrations/galaxy-for-admins.svg"
                 alt="Galaxy for admins"
