@@ -77,6 +77,11 @@ An explicitly incomplete, unordered list of memorable impressions, and items wor
 
 Having wrapped up a lot on contents and numbers, the most important thing has not been acknowledged yet - you. As Galaxy is nothing without the people, find impressions down below on 'the human factor'. Thanks a ton for all your energy!
 
+<div style="max-width: 400px">
+
+![logo EGD](P1020499_large.JPG)
+
+</div>
 
 **\[particular pics (allowances to be queried) go here\]**
 
