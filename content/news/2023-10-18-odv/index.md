@@ -30,7 +30,7 @@ ODV can display original data points or gridded fields based on the original dat
 
 ## How to access on Galaxy Europe:
 
-To use ODV, you need to use the {% tool [dedicated form](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_odv) %}, you can specify input datasets from your history you want to use in ODV. Then, press the execute button to launch a ODV instance. When the graphical user interface of ODV is ready to be used, a URL will be displayed at the top of the Galaxy center panel. 
+To use ODV, you need to use the tool [dedicated form](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_odv), you can specify input datasets from your history you want to use in ODV. Then, press the execute button to launch a ODV instance. When the graphical user interface of ODV is ready to be used, a URL will be displayed at the top of the Galaxy center panel. 
 
 
 ## Coming up soon !
