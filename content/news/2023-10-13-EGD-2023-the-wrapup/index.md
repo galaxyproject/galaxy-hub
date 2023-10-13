@@ -53,7 +53,7 @@ In a nutshell:
  
 Several results and work in progress were presented in the dedicated ["ESG meets EGD" session on Day 2](/events/2023-10-egd/egd/) as well as during the GA itself - [find all materials there](/events/2023-10-egd/esg/). Also check out our [ESG news page](/projects/esg/news/).
 
-### Number & some highlights
+### Numbers & some highlights
 
 * 3 full days
 * 77 registrations overall, by far onsite, and just two (!) badges not picked up
@@ -65,19 +65,19 @@ Several results and work in progress were presented in the dedicated ["ESG meets
 
 An explicitly incomplete, unordered list of memorable impressions, and items worth to (re-)read yourself:
 
-* A delighted audience being served with a beautiful preview on ['Workflow Comments'](https://docs.google.com/presentation/d/1O20J7ifwagyW5X6VeK5hshqgfiehuNr39eTr2JA8u7U)
-* Having digitally met a large round of the US team (although 'owl-to-owl' talk remains subject to improvement...)
-* Bird-of-a-Feather meetings (BoFs) for Small-scale Admins and the microGalaxy community
-* Another [BoF on how to reduce the environmental impact of Galaxy workflows](https://docs.google.com/document/d/1krw121K1vHkxnHKcm4qKQfBNXjagQm_j_6C1mdhjB2Q) (matching well a talk on [time-shifted computing](https://docs.google.com/presentation/d/1Ui1Ozp51Er1rWm_wJTY_FejfYNKBAWPm))
-* Visitors from [FAIR-EASE](https://galaxyproject.org/events/2023-10-egd/egd/EGD2023_jdetoc_galaxy_for_fairease.pdf) and [AquaINFRA](https://docs.google.com/presentation/d/1wXE5aRQ2MdQ-LW0WtE37Ih_u4ZDywVLG) (two more EOSC projects)
-* A promising integration with [Bioconductor](https://docs.google.com/presentation/d/12qSOm8hEaz57q2apNxyuv7qXI8OS7UDA4PzNMS48MYU)
-* A _very_ lively (and ongoing) discussion on Matrix vs. Slack
-* [Various topics](https://docs.google.com/document/d/1fumqwpdGWsA6yEvQfHbFmdDhjta1iZPXlv-dw8xG42g) on the CoFest
+* A delighted audience being served with a beautiful preview on [**'Workflow Comments'**](https://docs.google.com/presentation/d/1O20J7ifwagyW5X6VeK5hshqgfiehuNr39eTr2JA8u7U)
+* Having digitally met a large round of the **US team** (although 'owl-to-owl' talk remains subject to improvement...)
+* **Bird-of-a-Feather meetings (BoFs)** for Small-scale Admins and the microGalaxy community
+* Another [BoF on how to reduce the **environmental impact** of Galaxy workflows](https://docs.google.com/document/d/1krw121K1vHkxnHKcm4qKQfBNXjagQm_j_6C1mdhjB2Q) (matching well a talk on [time-shifted computing](https://docs.google.com/presentation/d/1Ui1Ozp51Er1rWm_wJTY_FejfYNKBAWPm))
+* Visitors from [FAIR-EASE](https://galaxyproject.org/events/2023-10-egd/egd/EGD2023_jdetoc_galaxy_for_fairease.pdf) and [AquaINFRA](https://docs.google.com/presentation/d/1wXE5aRQ2MdQ-LW0WtE37Ih_u4ZDywVLG) (presenting **two more EOSC projects**)
+* A promising integration with [**Bioconductor**](https://docs.google.com/presentation/d/12qSOm8hEaz57q2apNxyuv7qXI8OS7UDA4PzNMS48MYU)
+* A _very_ lively (and ongoing) discussion on **Matrix vs. Slack**
+* [Various topics](https://docs.google.com/document/d/1fumqwpdGWsA6yEvQfHbFmdDhjta1iZPXlv-dw8xG42g) on the **CoFest**
 
 
 ## The Community
 
-Having wrapped up a lot on contents and numbers, the most important thing has not been acknowledged yet - you. As Galaxy is nothing without the people, find impressions down below on 'the human factor'. Thanks a ton for all your energy!
+Having wrapped up a lot on contents and numbers, the most important thing has not been acknowledged yet - you. Galaxy is nothing without the people, and we had a great atmosphere. Find impressions down below on 'the human factor'. Thanks a ton for all your energy!
 
 <div style="max-width: 800px">
 
@@ -85,8 +85,26 @@ Having wrapped up a lot on contents and numbers, the most important thing has no
 
 </div>
 
-**\[particular pics (allowances to be queried) go here\]**
-
+<table>
+	<tbody>
+		<tr>
+			<td><img src="IMG_20231005_195323.jpg" width="450" /></td>
+			<td rowspan="2"><img src="IMG_20231004_201028.jpg" width="250" /></td>
+		</tr>
+		<tr>
+			<td class="align-bottom"><<!--img src="IMG_20231003_204125.jpg" width="450" />--></td>
+		</tr>
+	</tbody>
+</table>
+<table hidden>
+	<tbody>
+		<tr>
+			<td class="align-bottom"><<!--img src="IMG_X.jpg" width="450" />--></td>
+			<td class="align-bottom"><<!--img src="IMG_Y.jpg" width="450" />--></td>
+			<td class="align-bottom"><<!--img src="IMG_Z.jpg" width="450" />--></td>
+		</tr>
+	</tbody>
+</table>
 
 ## Survey
 
