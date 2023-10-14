@@ -89,19 +89,21 @@ Having wrapped up a lot on contents and numbers, the most important thing has no
 	<tbody>
 		<tr>
 			<td><img src="IMG_20231005_195323.jpg" width="450" /></td>
-			<td rowspan="2"><img src="IMG_20231004_201028.jpg" width="250" /></td>
+			<td rowspan="2"><img src="IMG_20231004_201028.jpg" width="260" /></td>
 		</tr>
 		<tr>
-			<td class="align-bottom"><<!--img src="IMG_20231003_204125.jpg" width="450" />--></td>
+			<!-- Waiting for permission to publish image-->
+			<td class="align-bottom"><!--<img src="IMG_20231003_204125_.jpg" width="450" />--></td>
 		</tr>
 	</tbody>
 </table>
-<table hidden>
+<table>
+	<!-- Waiting for permission to publish images-->
 	<tbody>
 		<tr>
-			<td class="align-bottom"><<!--img src="IMG_X.jpg" width="450" />--></td>
-			<td class="align-bottom"><<!--img src="IMG_Y.jpg" width="450" />--></td>
-			<td class="align-bottom"><<!--img src="IMG_Z.jpg" width="450" />--></td>
+			<td class="align-left"><img src="20231006_165125.jpg" width="240" /></td>
+			<td class="center"><img src="20231006_175833.jpg" width="240" /></td>
+			<td class="align-right"><img src="20231006_175826.jpg" width="240" /></td>
 		</tr>
 	</tbody>
 </table>
