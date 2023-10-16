@@ -3,8 +3,8 @@ title: "A brand new subdomain of Galaxy Europe : earth-system.usegalaxy.eu "
 date: "2023-10-17"
 authors: Marie Jossé
 tease: "A subdomain to process, analyse and access Earth System and Environmental data"
-hide_tease: true
-subsites: [all-eu,global]
+tags: [esg-wp5, esg]
+subsites: [all, all-eu, esg]
 ---
 
 ## Earth System ?? What's that ?
