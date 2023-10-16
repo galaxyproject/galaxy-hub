@@ -27,7 +27,7 @@ subsites: [all, esg]
 
 About a week ago the [2023 edition of the European Galaxy Days (EGD 2023)](/events/2023-10-egd) has ended, and we can say: it was a pleasure! The three days were as intense as exciting, no matter whether during the talks, between the session at coffee or lunch, or in the (partly long) evenings in various gastronomical outposts in the city.
  
-Not least, the EGD were a great success. While for many of us this year's [GCC in Australia](/events/gcc2023/) was too far away, we loved to offer again some time and space to you in the middle of Europe to gather together. Close to 80 participants joined, and like for the [EGD 2022](/events/2022-10-egd/), effectively we had a triple event this year, too. We joined forces again with [ELIXIR's](https://elixir-europe.org) Galaxy community, as well as [EuroScienceGateway](/projects/esg/) (ESG), a project from the [EOSC space](https://eosc.eu), which effectivly is driven by the European Galaxy community. 
+Not least, the EGD were a great success. While for many of us this year's [GCC in Australia](/events/gcc2023/) was too far away, we loved to offer again some time and space to you in the middle of Europe to gather together. Close to 80 participants joined, and like for the [EGD 2022](/events/2022-10-egd/), effectively we had a triple event this year, too.  
 
 ### ELIXIR Galaxy Community F2F Meeting
 
@@ -37,7 +37,7 @@ Consequently, we had a dedicated ELIXIR session on day 1, [introducing the commu
 
 Speaking of funding we like to emphasize ELIXIR's great role in enabling us to [again](/events/2022-10-egd/#supporters) carry out the EGD. We thank both Hub and DE node for their generous funding of the _overall_ event and supportive way in organizing! Not least, travel funding enabled a number of participants to join.
 
-### EuroScienceGateway's General Assembly (GA) 
+### [EuroScienceGateway](/projects/esg/) (ESG) General Assembly
 
 The sub-meeting mostly set on day 3 in parallel with the CoFest marked the project's turnover from year 1 to year 2, and entering the finalization phase for our first report (which is why we had a dedicated BoF). Thus, we had a wrap-up of our achievements, and could note that we are well on track having ESG's proposal in mind. For sure, planning the project's second year was the central task, matching the proposal with recent developments and particular expectations of the partners as well as the (European) research landscape. 
 
@@ -49,7 +49,7 @@ Highlights of ESG's first year in a nutshell:
  * Developments on **Bring Your Own Compute/Storage** ([BYOC](https://drive.google.com/file/d/1I3FCJ8vmo6jESNqMcfGZHRcVxtk169Tm/view)/[BYOS](https://drive.google.com/file/d/1IUBbuowoCYsOAuaKzBtEtwayzY4oooQF/view)) achieved; principle adoption of [ARC as job runner](https://docs.google.com/presentation/d/1xb70Z4dZfXEJrvbXFhLQceA1g2UZnEWG) and efforts on [meta-scheduling](https://docs.google.com/presentation/d/1-5ch2UpOXH9qBouR6cbqBYbsgzSNMysk/edit#slide=id.p1)([WP4: Building blocks for a sustainable operating model](https://galaxyproject.org/news/2022-12-08-esg-wp4/))
  * Lively **communities** and tools/workflows from [astronomy](https://galaxyproject.org/events/2023-10-egd/egd/Volodymyr_Savchenko-EGD-2023-astro.pdf), material sciences ([Muon Galaxy](https://galaxyproject.org/events/2023-10-egd/egd/Leandro-EGD-Muongalaxy-2023.pdf), [Catalysis workflows](https://galaxyproject.org/events/2023-10-egd/egd/Leandro-Applications-to-Catalysis-Workflows.pdf)), climate and biodiversity research ([WP5: Community engagement, adoption and onboarding](https://galaxyproject.org/news/2022-11-24-esg-wp5/))
  
-Several results and work in progress were presented in the dedicated ["ESG meets EGD" session on day 2](/events/2023-10-egd/egd/), as well as during the GA itself - [find all materials there](/events/2023-10-egd/esg/). Also check out our [ESG news page](/projects/esg/news/).
+Several results and work in progress were presented in the dedicated ["ESG meets EGD" session on day 2](/events/2023-10-egd/egd/), as well as during the general assembly itself - [find all materials there](/events/2023-10-egd/esg/). Also check out our [ESG news page](/projects/esg/news/).
 
 ### Numbers & some highlights
 
