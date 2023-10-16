@@ -18,7 +18,7 @@ ESMs are composed by a set of equations describing atmospheric and oceanic circu
 
 
 
-### Fair-Ease : an EOSC project
+### [Fair-Ease](https://fairease.eu/) : an EOSC project
 
 An approach to observation and modelling of the Earth System, Environment and Biodiversity.
 The project focuses onto 2 main aspects:
@@ -37,10 +37,18 @@ The project focuses onto 2 main aspects:
 
 ### Tools, tools and more tools
 
-Thanks to the help and partnership of Galaxy Europe and EuroScienceGateway project we were able to implement 6 interactive tools on usegalaxy.eu. There are now also available on [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/). Go running on the subdomain page to try out these tools !
+Thanks to the help and partnership of Galaxy Europe and [EuroScienceGateway](https://galaxyproject.org/projects/esg/) project we were able to implement 6 interactive tools on usegalaxy.eu. There are now also available on [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/). These tools are :
+- [QGIS](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_qgis)
+- [HDFviewer](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_hdfviewer)
+- Ocean Data viewer [ODV](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_odv)
+- [DIVAnd](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_divand)
+- [Source](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_source)
+- [Scoop Argo](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_scoop3_argo)
+
+Go running on the subdomain page to try out these tools !
 Don't hesitate to give us some feedback and help if you think they should be improved. As said before they are quite new and need to be tested and vetted by the community.
 
-One goal of FAIR-Ease is to have at least one workflow of tools to access, process, and visualise data for each domain cited above. Hopefully even more than that! 
+One goal of Fair-Ease is to have at least one workflow of tools to access, process, and visualise data for each domain cited above. Hopefully even more than that! 
 If you are interested in earth-system and environmental sciences and have tools that you think could fit right into [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/), please contact us so we can try to work together! The more the merrier! 
 
 This work takes place within the cooperation of the FAIR-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/)).
