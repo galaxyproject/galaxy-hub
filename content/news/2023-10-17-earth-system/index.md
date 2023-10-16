@@ -38,7 +38,7 @@ The project focuses onto 2 main aspects:
 ### Tools, tools and more tools
 
 Thanks to the help and partnership of Galaxy Europe and EuroScienceGateway project we were able to implement 6 interactive tools on usegalaxy.eu. There are now also available on [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/). Go running on the subdomain page to try out these tools !
-Don't hesitate to give use some feedbacks and help if you think they should be improve. As said before they are quite new and need to be tested and approved.
+Don't hesitate to give us some feedback and help if you think they should be improved. As said before they are quite new and need to be tested and vetted by the community.
 
 The final goal will be to have at least one workflow of tools to access, process and visualise data for each domain cited above. Hopefully even more than that ! 
 If you are interrested by earth system and environmental sciences and have tools that you think could fit right into earth-system.usegalaxy.eu, please contact us so we can try to work together on them ! The more the merrier ! 
