@@ -37,7 +37,7 @@ The project focuses onto 2 main aspects:
 
 ### Tools, tools and more tools
 
-Thanks to the help and partnership of Galaxy Europe and [EuroScienceGateway](https://galaxyproject.org/projects/esg/) project we were able to implement 6 interactive tools on usegalaxy.eu. There are now also available on [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/). These tools are :
+Thanks to the help and partnership of Galaxy Europe and [EuroScienceGateway](https://eurosciencegateway.eu) project we were able to implement 6 interactive tools on usegalaxy.eu. They are now also available on [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/)! These tools are :
 - [QGIS](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_qgis)
 - [HDFviewer](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_hdfviewer)
 - Ocean Data viewer [ODV](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_odv)
@@ -45,7 +45,7 @@ Thanks to the help and partnership of Galaxy Europe and [EuroScienceGateway](htt
 - [Source](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_source)
 - [Scoop Argo](https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_scoop3_argo)
 
-Go running on the subdomain page to try out these tools !
+Go run them on [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/) and try these tools!
 Don't hesitate to give us some feedback and help if you think they should be improved. As said before they are quite new and need to be tested and vetted by the community.
 
 One goal of Fair-Ease is to have at least one workflow of tools to access, process, and visualise data for each domain cited above. Hopefully even more than that! 
