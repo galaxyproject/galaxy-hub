@@ -41,7 +41,7 @@ Thanks to the help and partnership of Galaxy Europe and EuroScienceGateway proje
 Don't hesitate to give us some feedback and help if you think they should be improved. As said before they are quite new and need to be tested and vetted by the community.
 
 One goal of FAIR-Ease is to have at least one workflow of tools to access, process, and visualise data for each domain cited above. Hopefully even more than that! 
-If you are interrested by earth system and environmental sciences and have tools that you think could fit right into earth-system.usegalaxy.eu, please contact us so we can try to work together on them ! The more the merrier ! 
+If you are interested in earth-system and environmental sciences and have tools that you think could fit right into [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu/), please contact us so we can try to work together! The more the merrier! 
 
 This work takes place within the cooperation of the Fair-Ease and EuroScienceGateway projects (to know more on the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/)).
 ![EOSC EuroScienceGateway](eurosciencegateway.png)
