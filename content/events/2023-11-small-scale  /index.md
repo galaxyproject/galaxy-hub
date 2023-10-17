@@ -22,4 +22,4 @@ for a discussion about general and current problems you encounter as a maintaine
 ---
 
 The [Small Scale Galaxy Admins group](https://galaxyproject.org/projects/small-scale-admins/) is a [Galaxy community of practice](https://galaxyproject.org/community/practice/). It has grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/).
-The meetings are taking place every two months. 
+The meetings are taking place every two months ands are listed in the [Galaxy WG calendar](https://calendar.google.com/calendar/u/0/embed?src=5l6o0msfduoir59hrab0jlkocc@group.calendar.google.com)
