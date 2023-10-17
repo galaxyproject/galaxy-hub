@@ -5,13 +5,12 @@ list:
   title: News
   link: /news/
   icon: fas fa-bullhorn
+  width: 2
 - name: events
   type: dynamic
   title: Events
   link: /events/
   icon: far fa-calendar-alt
-- name: twitter
-  type: static
 - name: videos
   type: static
 - name: blog
