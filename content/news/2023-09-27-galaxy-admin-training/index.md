@@ -1,6 +1,6 @@
 ---
 title: 'Galaxy admin training'
-date: "2023-09-27"
+date: "2023-4-21"
 tease: "Galaxy Admin Training from April 17th to 21st in Ghent, Belgium."
 hide_tease: false
 subsites: [all-eu]
