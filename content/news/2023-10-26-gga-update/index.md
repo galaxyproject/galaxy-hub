@@ -28,6 +28,7 @@ We've worked hard to integrate into Galaxy many state-of-the-art tools:
 | Helixer |  |  |  |  |
 | BRAKER2 |  |  |  |  |
 | BRAKER3 |  |  |  |  |
+| TSEBRA |  |  |  |  |
 | Funannotate |  |  |  |  |
 | MAKER |  |  |  |  |
 | Antismash |  |  |  |  |
