@@ -63,18 +63,18 @@ subtitle: The subdomains of the French Galaxy server
       </div>
     </div>
   </div>
-  <!--div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h2 class="card-title text-dark">MNHN</h2>
       <p class="card-text">Tools from the French Muséum National d'Histoire Naturelle</p>
       <div class="text-center">
-        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/mnhn_sceau_epicea.png" alt="MNHN" height="100">
+        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/mnhn_small.png" alt="MNHN" height="100">
         <br><br><br>
           <a href="https://mnhn.usegalaxy.fr/" class="btn btn-primary">MNHN</a>
       </div>
     </div>
   </div>
-  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <!--div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Plants-Pathogens</h2>
       <p class="card-text">To address the needs of scientific & local communities, we offer customized Galaxy subdomains.</p>
