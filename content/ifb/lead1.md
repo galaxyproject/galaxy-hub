@@ -6,7 +6,7 @@
 
 [![](/images/logos/elixir_node_france.png)](https://elixir-europe.org/about-us/who-we-are/nodes/france)
 [![](/images/logos/ifb-logo-text.jpg)](https://www.france-bioinformatique.fr)
-[![](https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/logo_funders/investissement_avenir.png)](https://www.gouvernement.fr/secretariat-general-pour-l-investissement-sgpi)
+[![](https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/logo_funders/investissement_avenir.png)](https://www.gouvernement.fr/secretariat-general-pour-l-investissement-sgpi)
 
 </div>
 
