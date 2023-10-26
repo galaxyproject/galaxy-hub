@@ -9,19 +9,21 @@ subsites: [all-eu,global]
 
 ## Galaxy and workflows: advancing SARS-CoV-2 genomic surveillance in wastewater
 
-A study in *Nature* titled ["SARS-CoV-2 genomic surveillance in wastewater as a model for monitoring evolution of endemic viruses"](https://www.nature.com/articles/s41467-023-41369-5) by Mukhlid Yousif et. al. has unveiled the potential of Galaxy and its workflows in epidemiological research. The research delved into identifying SARS-CoV-2 variants in wastewater samples from South African urban centers, shedding light on virus transmission dynamics.
+A study in *Nature Communications* titled ["SARS-CoV-2 genomic surveillance in wastewater as a model for monitoring evolution of endemic viruses"](https://www.nature.com/articles/s41467-023-41369-5) by Mukhlid Yousif et. al. demonstrates the usefulness of Galaxy and its workflows in epidemiological research. The research delved into identifying SARS-CoV-2 variants in wastewater samples from South African urban centers, shedding light on virus transmission dynamics.
 
 ### Wastewater surveillance's vital role
 
-With a decline in global SARS-CoV-2 infections, alternative surveillance methods were needed. Wastewater surveillance emerged as a key tool, offering a cost-effective way to gain insights into the virus's spread across communities. Over 70 countries now use this approach to monitor wastewater SARS-CoV-2 levels, complementing clinical surveillance.
+With a decline in global testing for SARS-CoV-2 infections, alternative surveillance methods are needed. Wastewater surveillance has emerged as a key tool, offering a cost-effective way to gain insights into the virus's spread across communities. Over 70 countries now monitor wastewater SARS-CoV-2 levels, complementing clinical surveillance.
 
 ### Galaxy empowers genomic surveillance
 
-The research's standout feature was its use of Galaxy ([usegalaxy.eu](https://usegalaxy.eu/)), an open-source, user-friendly tool for biomedical research. Researchers employed Galaxy to analyze the extensive genomic data from wastewater samples, utilizing its workflows for sequence analysis up to variant calling, which was followed by the usage of the Freyja tool. Galaxy has greatly assisted in managing the vast amount of raw sequence data.
+One of the research's standout technical features is its use of SARS-CoV-2 variant analysis workflows on Galaxy Europe to process the extensive genomic data from wastewater samples into lists of genomic mutations, which could be analyzed further with Freyja.
 
-### Freyja: lineage analysis
+### Freyja: estimating the abundance of viral lineages
 
-Significant to the research was [Freyja](https://github.com/andersen-lab/Freyja), an open-source tool that is also available on Galaxy ([GitHub repo](https://github.com/galaxyproject/tools-iuc/tree/master/tools/freyja)). Freyja estimated the relative abundance of SARS-CoV-2 lineages in wastewater samples, employing a unique barcode library to define known lineages. This analysis provided insights consistent with Variants of Concern (VOCs) in clinical specimens, highlighting the limitations of clinical surveillance's sampling biases.
+[Freyja](https://github.com/andersen-lab/Freyja) is an open-source tool suite that estimates the relative abundance of SARS-CoV-2 lineages in wastewater samples, employing a unique barcode library to define known lineages.
+In this study Freyja was used to gain insight into the dynamics of the spread of Variants of Concern (VOCs), in particular, in comparison to data from clinical sampling of viral specimen.
+The Freyja suite of tools including [Freyja demix for estimating lineage abundance is also available on Galaxy Europe](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/freyja_demix/freyja_demix/1.4.4+galaxy0).
 
 ### Uncovering uncommon mutations
 
@@ -29,6 +31,5 @@ The research also identified numerous amino acid mutations in the SARS-CoV-2 spi
 
 ### Looking ahead
 
-This research not only enhanced our understanding of SARS-CoV-2 transmission in wastewater but also demonstrated Galaxy's prowess in handling complex genomic data. Galaxy's user-friendly interface and versatile tools remain at the forefront of cutting-edge research, offering a means to decode intricate biological data.
+This study enhances our understanding of SARS-CoV-2 transmission, but also demonstrates that [Galaxy workflows and infrastructure developed and set up early in the pandemic](https://doi.org/10.1038/s41587-021-01069-1) are getting repurposed and are still powering surveillance efforts in the post-pandemic era.
 
-In our ongoing battle against emerging pathogens, the synergy of advanced technology and scientific research, as exemplified by Galaxy, promises more breakthroughs in infectious disease understanding, surveillance, and control strategies.
