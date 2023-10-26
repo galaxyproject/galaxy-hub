@@ -1,5 +1,5 @@
 ---
-title: EuroScienceGateway project: Easy deployment of Pulsar endpoints with Infrastructure Manager
+title: "EuroScienceGateway project: Easy deployment of Pulsar endpoints with Infrastructure Manager"
 date: "2023-10-31"
 tease: "Deploy Pulsar endpoints in the EGI Federated Cloud easily with Infrastructure Manager"
 hide_tease: false
@@ -12,7 +12,7 @@ The [EuroScienceGateway Project](../../projects/esg/) is streamlining the way th
 
 The video below shows how to use [Infrastructure Manager Dashboard](https://docs.egi.eu/users/compute/orchestration/im/dashboard/) to deploy and configure cluster of virtual machines with [HTCondor](https://htcondor.org/) and [Pulsar](https://pulsar.readthedocs.io/) that can be connected to Galaxy to execute workloads.
 
-<video>
+# video
 
 The video above assumes the following:
 
