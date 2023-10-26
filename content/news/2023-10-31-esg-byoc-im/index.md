@@ -13,7 +13,7 @@ This post covers a specific case in which a user has access to computing resourc
 
 The video below shows how to use [Infrastructure Manager Dashboard](https://docs.egi.eu/users/compute/orchestration/im/dashboard/) to deploy and configure cluster of virtual machines with [HTCondor](https://htcondor.org/) and [Pulsar](https://pulsar.readthedocs.io/) that can be connected to Galaxy to execute workloads.
 
-<iframe width="100%" height="415" src="https://youtu.be/5EMXzD_JDjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5EMXzD_JDjw?si=oDGCKDuJmil2EjgR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The video above assumes the following:
 
