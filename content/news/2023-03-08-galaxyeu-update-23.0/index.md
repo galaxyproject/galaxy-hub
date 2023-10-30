@@ -3,14 +3,14 @@ title: '23.0 Update'
 date: '2023-03-08'
 tease: Galaxy EU updates to 23.0 and enables new exciting features
 hide_tease: true
-authors: Mira Kuntz
+authors: "Mira Kuntz"
 authors_structured:
-- github: miramiracoli
+- github: mira-miracoli
 tags: [Freiburg, Update, EU, Release23.0]
-subsites: [all, all-eu]
+subsites: [eu]
 main_subsite: eu
 ---
-# usegalaxy.eu updates to 23.0
+# usegalaxy.eu Updates to 23.0
 As the largest Galaxy server, we see it as our role to make the latest developments available to the community and to show the world where the Galaxy community is going next.  
 By updating our servers early, however after thorough testing, we can present the new features to other Galaxy communities and our admin team can accompany admins from other Galaxy instances in the update process and share their experiences.  
 ## New Features
