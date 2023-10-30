@@ -123,7 +123,9 @@ We also added support for GeneNoteBook: a nice way to present functional annotat
 ## New and updated training material!
 
 We have updated and added new training material for everyone that wants to learn Genome Annotation. If you don't know where to start check out our
-recommended learning path and learn from "Introduction to Genome Annotation" to "Refining Genome Annotations with Apollo" everything that you need to know about Genome Annotation: https://training.galaxyproject.org/training-material/learning-pathways/genome-annotation-eukaryote.html
+recommended learning path and learn from "Introduction to Genome Annotation" to "Refining Genome Annotations with Apollo" everything that you need to know about Genome Annotation:
+
+<a href="https://training.galaxyproject.org/training-material/learning-pathways/genome-annotation-eukaryote.html"><button type="button" class="btn btn-success">Genome Annotation learning pathway</button></a>
 
 Alternatively, you can jump right into you favorite topic:
 
@@ -167,13 +169,18 @@ the data to Apollo for manual curation and collaborative editing! A typical Gala
 
 ## The Earth BioGenome Project
 
-Building on the [Assembly workflows](https://galaxyproject.org/projects/vgp/) that have been developed as part of the VGP/BGE/ERGA (→ in short EBP) we are planning to deliver high-quality workflows and interactive tools for your genome annotation efforts. Ideally, running assembly and annnotation workflows after each other 😊
+Building on the [Assembly workflows](https://galaxyproject.org/projects/vgp/) that have been developed as part of the [VGP](https://vertebrategenomesproject.org/)/[BGE](https://biodiversitygenomics.eu/)/[ERGA](https://www.erga-biodiversity.eu/) (→ in short [EBP](https://www.earthbiogenome.org/)) we are planning to deliver high-quality workflows and interactive tools for your genome annotation efforts. Ideally, running assembly and annnotation workflows after each other 😊
 
 ## What's next?
 
-Any tool or workflow missing in our catalog? Please tell us and we will do our best to make it available.
+Any tool or workflow missing in our catalog? Please tell us and we will do our best to make it available!
 
-- jbrowse2
-- GALBA, OMark, BUSCO/InterProScan updates
+We already have these items on our TODO list, stay tuned:
 
-BEAURIS link?
+- JBrowse2
+- GALBA
+- OMark
+- BUSCO update
+- InterProScan update
+
+Join us on our [chat channel](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im) to keep in touch!
