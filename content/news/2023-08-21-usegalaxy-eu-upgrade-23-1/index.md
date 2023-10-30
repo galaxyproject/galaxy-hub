@@ -8,6 +8,14 @@ authors_structured:
 - github: kysrpex
 ---
 
+<div class="alert" style="background: #00d084;">
+
+**Galaxy 23.1 is out!** Check out the
+[Galaxy 23.1 release blog post](https://galaxyproject.org/news/2023-10-05-galaxy23-1-release/)
+for all the details.
+
+</div>
+
 Dear Galaxy Europe users,
 
 We are pleased to announce that Galaxy Europe has just successfully been
