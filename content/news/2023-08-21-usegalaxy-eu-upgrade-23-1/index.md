@@ -10,7 +10,7 @@ authors_structured:
 main_subsite: eu
 ---
 
-<div class="alert" style="background: #00d084;">
+<div class="alert" style="background: #2cd6ff;">
 
 **Galaxy 23.1 is out!** Check out the
 [Galaxy 23.1 release blog post](https://galaxyproject.org/news/2023-10-05-galaxy23-1-release/)
