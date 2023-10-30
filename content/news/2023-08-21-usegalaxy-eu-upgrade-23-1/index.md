@@ -3,11 +3,12 @@ title: 'Galaxy Europe upgrades to Galaxy 23.1'
 tease: We may have ancient buildings, but not an outdated Galaxy. The newest Galaxy release is now up and running.
 hide_tease: false
 date: '2023-08-23'
-subsites: [eu]
 authors: "José Manuel Domínguez"
 authors_structured:
 - github: kysrpex
 main_subsite: eu
+subsites: [eu]
+tags: [esg]
 ---
 
 <div class="alert" style="background: #2cd6ff;">
