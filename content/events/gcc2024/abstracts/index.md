@@ -16,7 +16,7 @@ autotoc: false
 Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are
 are submitted by the community and go through a peer review process by the
-[scientific committee](events/gcc2024/organizers/#scientific-committee-members)
+[scientific committee](/events/gcc2024/organizers/#scientific-committee-members)
 before being accepted into the conference program. Once the conference program
 has been finalized, an electronic version of the abstract book will be made
 available.
