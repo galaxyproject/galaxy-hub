@@ -14,7 +14,16 @@ Whether you are analysing microbiome samples or bacterial isolates, long reads o
 
 ## Tools
 
-**Many tools for microbial data analysis are freely available** in the ToolShed which can be installed on any Galaxy server. To keep an overview, the *[microGalaxy](#microgalaxy-community)* community of practice maintains a [**curated list**](https://docs.google.com/spreadsheets/d/1Nq_g-CPc8t_eC4M1NAS9XFJDflA7yE3b9hfSg3zu9L4/edit#gid=101894501) of the **150+ tools** available.
+**Many tools for microbial data analysis are freely available** in the ToolShed which can be installed on any Galaxy server. To keep an overview, the *[microGalaxy](#microgalaxy-community)* community of practice maintains a **curated list** of the **200+ tools** available.
+
+<iframe
+  id="inlineFrameExample"
+  title="Microbial related tools"
+  width="100%"
+  height="600"
+  frameBorder="0"
+  src="http://bebatut.fr/galaxy_tool_extractor/microgalaxy/">
+</iframe>
 
 If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia, [Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
 
