@@ -9,5 +9,5 @@ location:
 image: /images/logos/open_university_logo.png
 location_url: "https://www.open.ac.uk/people/wb2845"
 external_url: "https://www5.open.ac.uk/stem/life-health-chemical-sciences/sites/www.open.ac.uk.stem.life-health-chemical-sciences/files/files/2024_Bacon_EPSRC-DTP.pdf"
-contact: "Wendi Bacon"
+contact: "[Wendi Bacon](wendi.bacon@open.ac.uk)"
 ---
