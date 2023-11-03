@@ -25,5 +25,7 @@ Board responsibilities include providing authoritative project-wide, external re
     * [Penn State University](https://psu.edu/) United States
 * **[Michael Schatz](https://schatz-lab.org/)**
     * [Johns Hopkins University](https://jhu.edu/), United States
+* **[Wendi Bacon](https://www.open.ac.uk/people/wb2845)**
+    * [The Open University](https://www.open.ac.uk/research/faculties), United Kingdom
 
 <sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
