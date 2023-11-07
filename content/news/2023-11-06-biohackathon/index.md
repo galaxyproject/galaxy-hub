@@ -21,7 +21,6 @@ We discussed and contributed to many projects:
 - [Project 16: Enhancing the image analysis community in Galaxy](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/16) 
     - While we're at it, we also added a interactive table for the [Image analysis community](https://galaxyproject.github.io/galaxy_tool_extractor/imaging/) as described below.
 - [Project 6: BioModelsML: Building a FAIR and reproducible collection of machine learning models in life science and medicine for easy reuse](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/6)
-- [TODO]()
 - Table tennis double team champion.
 
 # Project 20: Genome annotation and other post-assembly workflows for the tree of life
