@@ -17,12 +17,22 @@ ELIXIR organized last week (October 30th - November 03th, 2023) the [BioHackatho
 
 # Community interaction
 
-Björn discussed and contributed on many projects: 
+We discussed and contributed to many projects: 
 - [Project 16: Enhancing the image analysis community in Galaxy](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/16) 
     - While we're at it, we also added a interactive table for the [Image analysis community](https://galaxyproject.github.io/galaxy_tool_extractor/imaging/) as described below.
 - [Project 6: BioModelsML: Building a FAIR and reproducible collection of machine learning models in life science and medicine for easy reuse](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/6)
 - [TODO]()
 - Table tennis double team champion.
+
+# Project 20: Genome annotation and other post-assembly workflows for the tree of life
+
+In this project, we have assessed the performance of multiple Genome Annotation tools and workflows for various test organisms: Human chromosome 19 (HG38), Drosophila melanogaster, Sponge (Phakellia ventilabrum)
+Butterfly (Helleie helle), Shamrock (Trifolium dubium), Snail (Melampus), Coral (Pocillopora meandrina). We used tools like Braker3, Maker, Busco, Funannotate, Helixer, RepeatModeller, Eggnog, InterproScan and also included our annotations
+in a shareable JBrowse instance. During the workshop the need for [RepeatExplorer](http://repeatexplorer.org) emerged so we integrated it into Galaxy as well - thanks to Petr Novak and ELIXIR CZ and Thomas Harrop from the
+Australian Biocommaons. Check out the [RepeatExplorer on Galaxy](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gga/repeatexplorer_clustering/repeatexplorer_clustering/2.3.8+galaxy0).
+
+For more information, please check out our new blog post about general updates about the Galaxy Genome Annotation community https://galaxyproject.org/news/2023-10-30-gga-update and join us on [Matrix](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im).
+
 
 # Project 25: Increasing the findability, visibility, and impact of Galaxy tools for specialised scientific Communities
 
