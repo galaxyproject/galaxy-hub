@@ -1,6 +1,6 @@
 ---
 title: ELIXIR Biohackathon in Barcelona
-date: '2023-30-10'
+date: '2023-10-30'
 tags: [training, hackathon]
 supporters:
 - elixir
