@@ -29,6 +29,6 @@ Authorization infrastructure.
 With both systems now available in python-social-auth, EuroScienceGateway
 project has started the implementation of the support in Galaxy, which will
 allow not just to authenticate with the new identities, but also further
-simpligy the Bring Your Own Compute (BYOC) features of Galaxy so users
+simplify the Bring Your Own Compute (BYOC) features of Galaxy so users
 crendentials can be reused to access existing infrastructure computing services
 without the need of reauthentication.
