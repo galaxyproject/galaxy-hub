@@ -4,7 +4,7 @@ date: '2023-10-13'
 tease: "...but we look back with a relaxed smile. Let's draw the balance!"
 location:
   name: Freiburg, Germany
-tags: [meeting, European Galaxy Days, community, ELIXIR, EuroScienceGateway]
+tags: [meeting, esg, egd, community, elixir]
 authors: Sebastian Schaaf, Anika Erxleben-Eggenhofer, Björn Grüning, Hans-Rudolf Hotz
 authors_structured:
 - github: sebastian-schaaf
@@ -27,7 +27,7 @@ subsites: [all, esg]
 
 About a week ago the [2023 edition of the European Galaxy Days (EGD 2023)](/events/2023-10-egd) has ended, and we can say: it was a pleasure! The three days were as intense as exciting, no matter whether during the talks, between the session at coffee or lunch, or in the (partly long) evenings in various gastronomical outposts in the city.
  
-Not least, the EGD were a great success. While for many of us this year's [GCC in Australia](/events/gcc2023/) was too far away, we loved to offer again some time and space to you in the middle of Europe to gather together. Close to 80 participants joined, and like for the [EGD 2022](/events/2022-10-egd/), effectively we had a triple event this year, too.  
+Not least, the EGD were a great success. While for many of us this year's [GCC in Australia](/events/gcc2023/) was too far away, we loved to offer again some time and space to you in the middle of Europe to gather together. Close to 80 participants joined, and like for the [EGD 2022](/events/2022-10-egd/), effectively we had a triple event this year, too.
 
 ### ELIXIR Galaxy Community F2F Meeting
 
@@ -83,28 +83,6 @@ Having wrapped up a lot on contents and numbers, the most important thing has no
 
 </div>
 
-<table>
-	<tbody>
-		<tr>
-			<td><img src="IMG_20231005_195323.jpg" width="450" /></td>
-			<td rowspan="2"><img src="IMG_20231004_201028.jpg" width="260" /></td>
-		</tr>
-		<tr>
-			<!-- Waiting for permission to publish image-->
-			<td class="align-bottom"><!--<img src="IMG_20231003_204125_.jpg" width="450" />--></td>
-		</tr>
-	</tbody>
-</table>
-<table>
-	<!-- Waiting for permission to publish images-->
-	<tbody>
-		<tr>
-			<td class="align-left"><img src="20231006_165125.jpg" width="240" /></td>
-			<td class="center"><img src="20231006_175833.jpg" width="240" /></td>
-			<td class="align-right"><img src="20231006_175826.jpg" width="240" /></td>
-		</tr>
-	</tbody>
-</table>
 
 ## Survey
 
@@ -128,12 +106,3 @@ This event was generously supported by [ELIXIR](https://elixir-europe.org/), [EL
   <img src="/images/logos/DataPLANT-logo-transparent.png" width="200" />
 </p>
 
-<!--
-<div style="max-width: 300px">
-
-![logo ELIXIR](/images/logos/ElixirNoTextLogo.png) | ![logo de.nbi](denbi.png)
-
-![logo EC](eu_funded_en.jpg) | ![logo DataPLANT](/images/logos/DataPLANT-logo-transparent.png) 
-
-</div>
--->
