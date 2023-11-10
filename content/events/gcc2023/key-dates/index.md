@@ -6,9 +6,6 @@ autotoc: false
 
 # Key Dates
 
-**Most of the organizational details are being actively worked on.** The
-following are tentative dates which may still change.
-
 | Date   | What |
 | -----: | ---  |
 | ~~Feb 20~~ | [Early registration opens](/events/gcc2023/register/) |
@@ -23,8 +20,8 @@ following are tentative dates which may still change.
 | ~~Jun 26~~ | Deadline for submitting your accepted poster to the organizers |
 | ~~Jul 1~~  | Deadline for submitting slides for your talk to the organizers |
 | ~~Jul 5~~  | Deadline for registering a BoF (extended from Jun 22) |
-| Jul 10 | Conference starts! |
-| Jul 14 | CoFest starts |
-| Jul 16 | Last day of GCC2023 |
+| ~~Jul 10~~ | Conference starts! |
+| ~~Jul 14~~ | CoFest starts |
+| ~~Jul 16~~ | Last day of GCC2023 |
 
 Note that all deadlines are [End of Day, Anywhere on Earth time](https://time.is/Anywhere_on_Earth).

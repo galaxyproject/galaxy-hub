@@ -31,17 +31,22 @@ subsites: [all]
 #### [#UseGalaxy2023](https://twitter.com/hashtag/UseGalaxy2023)
 
   <div class="text-center my-5">
-    <a target="_blank" href="https://join.slack.com/t/gcc2023/shared_invite/zt-1ptuyxw02-QHSHuHdyogdhSY~dxqnTXg" type="button" class="btn btn-primary">
-        <strong>Join GCC2023 Slack</strong>
-    </a>
-    ◇
+    <div class="lead" style="padding-bottom: 1rem">
+      GCC2023 is a wrap! Thank you to all the attendees, speakers, and sponsors that participated in person and online.
+    </div>
     <a target="_blank" href="https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit" type="button" class="btn btn-primary">
         <strong>View abstract book</strong>
     </a>
+    ◇
+    <a target="_blank" href="https://galaxyproject.org/blog/2023-08-14-gc-c2023-meeting-report/" type="button" class="btn btn-primary">
+        <strong>Read meeting report</strong>
+    </a>
+    ◇
+    <a target="_blank" href="https://www.youtube.com/playlist?list=PLNFLKDpdM3B9PicSdtM_kKeOPvZoD1wSQ" type="button" class="btn btn-primary">
+        <strong>Watch recorded talks</strong>
+    </a>
   </div>
 </div>
-
-<calendar-embed event="2138590049" />
 
 ## Event highlights
 
@@ -58,9 +63,9 @@ data-intensive biomedical research. **The conference brings together scientists,
 software developers, and trainers of Galaxy from a variety of disciplines to share their
 experiences, knowledge, and skills.**
 
-The conference includes talks, posters, and workshops on a wide range of topics
+The conference included talks, posters, and workshops on a wide range of topics
 related to Galaxy, including genomics, proteomics, transcriptomics, and more.
-The GCC also provides an opportunity for attendees to learn about the latest
+The GCC provides an opportunity for attendees to learn about the latest
 developments in the Galaxy platform and to connect with other members of the
 Galaxy community.
 
@@ -91,11 +96,10 @@ that push the field of data science with Galaxy forward.
     <img src="/images/events/gcc2023/keynotes-images.png" class="card-img-top" alt="Keynotes abstract" />
     <div class="card-header">Keynote speakers</div>
 
-GCC2023 will have **three keynote speakers**, by inspiring and prominent
-speakers that actively use and rely on Galaxy to make key research discoveries.
+**Three inspiring and prominent keynote speakers** presented work on how they
+actively use and rely on Galaxy to make key research discoveries.
 
-The speakers will cover topics on biodiversity and structural biology and their
-use of the Galaxy platform.
+The covered topics focused on biodiversity and structural biology.
 
 Check out their full biographies on the [program
 page](/events/gcc2023/schedule/#keynote-speakers).
@@ -128,7 +132,7 @@ subtropical climate, outdoor lifestyle, and plentiful cultural attractions. The 
 home to the Brisbane River, which winds its way through the city center and is
 lined with parks, gardens, and restaurants. Some popular attractions include the
 Brisbane Botanic Gardens, the Gallery of Modern Art, and South Bank, a large
-inner-city beach and entertainment precinct. Come check it out for yourself.
+inner-city beach and entertainment precinct.
 
   </div>
 
@@ -143,7 +147,7 @@ and its members have been **key contributors to the Galaxy project for over a
 decade**. Galaxy AU is hosted by the [BioCommons
 consortium](https://www.biocommons.org.au/), which aims to support the
 development of open and collaborative approaches to biomedical research in
-Australia. Galaxy AU is thrilled to bring the entire Galaxy community together
+Australia. Galaxy AU was thrilled to bring the entire Galaxy community together
 in 2023 and showcase its home base.
 
   </div>
@@ -155,9 +159,9 @@ in 2023 and showcase its home base.
 
 Brisbane ([airport code BNE](https://www.bne.com.au/)) is very well connected
 within Australia as well as the rest of the world with many direct flights. The
-conference will be held at the [Queensland University of Technology
-(QUT)](https://www.qut.edu.au/) with several nearby lodging options. **See the
-[Travel page](/events/gcc2023/travel/) for details.**
+conference was held at the [Queensland University of Technology
+(QUT)](https://www.qut.edu.au/) with several nearby lodging options. The
+**[Travel page](/events/gcc2023/travel/) has more details.**
 
   </div>
 

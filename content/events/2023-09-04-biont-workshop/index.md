@@ -6,7 +6,7 @@ tease: "Ready to explore the fascinating world of RNA-seq data analysis using Ga
 continent: EU
 location: "Online, EU"
 external_url: "https://www.cecam.org/workshop-details/1260"
-gtn: ture
+gtn: true
 contact: "Bérénice Batut & Teresa Müller"
-subsites: [all-eu]
+subsites: [all]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "DevOps Galaxy"
 date: "2023-03-16"
-closes: "2023-06-15"
+closes: "2024-03-30"
 summary: "We are recruiting a DevOps responsible for managing and maintaining usegalaxy.be."
 image: "/images/logos/vib-logo-large.jpg"
 continent: EU

@@ -19,6 +19,7 @@
         },
         "copyFileExts": ["png", "jpg", "jpeg", "gif", "svg", "pdf", "mp4"]
     },
+    "defaultSocialImage": "/images/galaxy-logos/galaxy_project_logo_blue.png",
     "taggedEventsPages": [
         { "tag": "webinar", "path": "/events/webinars/" },
         { "tag": "devroundtable", "path": "/community/devroundtable/" },
@@ -53,7 +54,6 @@
             "erasmusmc",
             "belgium",
             "pasteur",
-            "genouest",
             "elixir-it",
             "ifb"
         ],
