@@ -44,7 +44,7 @@ Feel free to add to this document or join someone else's project by adding your 
 
 ## Dates
 
-CoFest will be held for the last 2 days of GCC2024: July 26 and 27.
+CoFest will be held for the last 2 days of GCC2024: June 28 and 29.
 
 
 ## Registration

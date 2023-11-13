@@ -41,14 +41,15 @@ navigation.
 
 ## Weather in Brno in July
 
-In July, Brno experiences warm and pleasant summer weather:
+In June, Brno experiences warm and pleasant summer weather:
 
-* Average temperature: The average daytime high temperature in July in Brno is
-  around 25-28°C (77-82°F).
-* Sunshine: July is one of the sunniest months in Brno, with an average of 8-10
-  hours of sunshine per day.
-* Rainfall: July is one of the drier months in Brno. The city typically receives
-  around 50-60mm of rainfall during the month, spread across a few days.
+* Average temperature: The average daytime high temperature in June in Brno is
+  around 24°C (75°F). Average low temperature is 12°C (54°F).
+* Sunshine: June marks the beginning of the summer season in Brno, and you can
+  expect warm and comfortable weather during this time.
+* Rainfall: The amount of rainfall in June is generally moderate, so you may
+  encounter occasional showers. It's a good idea to have an umbrella or raincoat
+  on hand.
 
 
 # Accommodation
