@@ -20,7 +20,7 @@ Being a well-known infrastructure for scientific data handling, Galaxy gets incr
 
 [DataPLANT](https://nfdi4plants.de) has been initiated in October 2020 and addresses the particular needs of the plant science community. Accordingly, the consortium is supported with adaptations of the Galaxy platform: tools, workflows, data types and [training material](https://training.galaxyproject.org/training-material/tags/plants/) have been improved. Scientists from other fields might have spotted the respective GTN materials bundled as [plant module](https://gallantries.github.io/video-library/modules/plants), which is dedicated in particular to plant transcriptomics.
 
-[NFDI4BIOIMAGE](https://nfdi4bioimage.de) in contrast has been kicked off in March 2023, and aims for improved handling of biological imaging data. Being traditionally centric to datatypes, assays or imaging platforms, the improvement of interoperability is on the consortium's agenda. Galaxy again provides the respective infrastructure for image data handling, improving e.g. the toolset of the [imaging.usegalaxy.eu](https://imaging.usegalaxy.eu) subdomain.
+[NFDI4BIOIMAGE](https://nfdi4bioimage.de) has been kicked off in March 2023, and aims for improved handling of biological imaging data. Being traditionally centric to datatypes, assays or imaging platforms, the improvement of interoperability is on the consortium's agenda. Galaxy again provides the respective infrastructure for image data handling, improving e.g. the toolset of the [imaging.usegalaxy.eu](https://imaging.usegalaxy.eu) subdomain.
 
 **At CoRDI, usegalaxy.eu was represented with two posters and two talks:**
 
