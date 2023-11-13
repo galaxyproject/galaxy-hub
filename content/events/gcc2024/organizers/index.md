@@ -34,11 +34,12 @@ The scientific program chair is responsible for the scientific program at GCC202
 Scientific committee members are community volunteers who review the submitted abstracts.
 
 * **[Alex Ostrovsky](https://www.linkedin.com/in/alex-ostrovsky-a5a09914a/)**, [Johns Hopkins University](https://jhu.edu/), United States
+* **[Beatriz Serrano-Solano](https://www.embl.org/people/person/beatriz-serrano-solano/)**, [EMBL](https://www.embl.org/), Spain
 * **[Elliott Price](https://www.recetox.muni.cz/en/research/principal-investigators/dr-elliott-price)**, [Masaryk University](https://www.muni.cz/), Czech Republic
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**, [Johns Hopkins University](https://jhu.edu/), United States
+* **[Hans-Rudolf Hotz](https://www.linkedin.com/in/hans-rudolf-hotz-542b31/)**,	[Friedrich Miescher Institute for Biomedical Research](https://www.fmi.ch/), Switzerland
 * **[Lucille Delisle](https://people.epfl.ch/lucille.delisle?lang=en)**, [Swiss Federal Institute of Technology](https://www.epfl.ch/en/), Switzerland
 * **[Wendi Bacon](https://www.linkedin.com/in/wendi-bacon-7462aa100/)**, [The Open University](https://www.open.ac.uk/), England
-* Looking for volunteers. Email the [organizers](mailto:gcc2024-org@gaggle.email) if interested.
 
 
 # Training Coordinators
