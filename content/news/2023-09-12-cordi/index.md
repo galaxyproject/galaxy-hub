@@ -4,13 +4,15 @@ date: '2023-10-12'
 tease: "The Galaxy Europe Team active at NFDI's CoRDI (Karlsruhe, Germany, Sep 12th to 14th)"
 location:
   name: Karlsruhe, Germany
-tags: [conference, talk, poster, NFDI, research data infrastructure, research data management]
+tags: [conference, talk, poster, nfdi, rdm]
 authors: Sebastian Schaaf, Sanjay Kumar Srikakulam
 authors_structured:
 - github: sebastian-schaaf
 - github: sanjaysrikakulam
 supporters:
 - NFDI
+- NFDI4BioImaging
+- NFDI4Plants
 - ELIXIR
 components: true
 subsites: [all-eu]
