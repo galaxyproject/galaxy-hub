@@ -12,7 +12,7 @@ tags: [workshop, training]
 supporters:
 - dataplant
 - eurosciencegateway
-- de.NBI
+- denbi
 subsites: [all]
 ---
 
