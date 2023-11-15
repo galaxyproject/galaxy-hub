@@ -14,15 +14,15 @@ There are currently three UseGalaxy servers:
 
 ## UseGalaxy.org
 
-[UseGalaxy.org](https://usegalaxy.org) is the Galaxy Project's publicly accessible server.  It was the original Galaxy server and has over 100,000 registered users, and is supported by significant computational resources at the Texas Advanced Computing Center (TACC).
+[UseGalaxy.org](https://usegalaxy.org) is the Galaxy Project's publicly accessible server.  It was the original Galaxy server and has over 100,000 registered users, and is supported by significant computational resources at the Texas Advanced Computing Center (TACC). [Playbooks](https://github.com/galaxyproject/usegalaxy-playbook/)
 
 ## UseGalaxy.eu
 
-[UseGalaxy.eu](https://usegalaxy.eu/) is a publicly accessible server that aims to support the analysis and sharing needs of the European research community.  It was launched in March 2018 at European Galaxy User Meeting in Freiburg.  It is hosted at the University of Freiburg.
+[UseGalaxy.eu](https://usegalaxy.eu/) is a publicly accessible server that aims to support the analysis and sharing needs of the European research community.  It was launched in March 2018 at European Galaxy User Meeting in Freiburg.  It is hosted at the University of Freiburg. [Playbooks](https://github.com/usegalaxy-eu/infrastructure-playbook)
 
 ## UseGalaxy.org.au
 
-[UseGalaxy.org.au](https://usegalaxy.org.au) aims to support the Australian research community.  It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server.
+[UseGalaxy.org.au](https://usegalaxy.org.au) aims to support the Australian research community.  It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. [Playbooks](https://github.com/usegalaxy-au/infrastructure)
 
 
 (See the [UseGalaxy server directory](/use/) for more information on each.)
