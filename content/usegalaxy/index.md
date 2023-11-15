@@ -24,6 +24,9 @@ There are currently three UseGalaxy servers:
 
 [UseGalaxy.org.au](https://usegalaxy.org.au) aims to support the Australian research community.  It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. [Playbooks](https://github.com/usegalaxy-au/infrastructure)
 
+## UseGalaxy.fr
+
+[UseGalaxy.fr](https://usegalaxy.fr) is a publicly accessible server aiming to support the French research community. [Playbooks](https://gitlab.com/ifb-elixirfr/usegalaxy-fr/infrastructure)
 
 (See the [UseGalaxy server directory](/use/) for more information on each.)
 
