@@ -46,3 +46,10 @@ We want to see servers meeting several loose requirements to be considered part 
 - *Functional*: the site provides >90% uptime as monitored by the status page, and participates in automated cross-usegalaxy testing initiatives.
 
 We're excited to see new services join us!
+
+## Incubating Members
+
+These servers might not meet all of the requirements but are aiming to one day!
+
+- [UseGalaxy.be](https://usegalaxy.be) - working towards public playbooks, anonymous access.
+- [UseGalaxy.ca](https://usegalaxy.ca) - working towards public playbooks, anonymous access.
