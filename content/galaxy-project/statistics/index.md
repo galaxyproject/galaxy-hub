@@ -730,6 +730,10 @@ The Galaxy Project [Tool Shed](/toolshed/) contains contributed software and wor
 
 [![](/galaxy-project/statistics/toolshed.svg)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
 
+## Toolshed Download Statistics
+
+[Downloads aggregated by user](http://hexylena.galaxians.org/toolshed-download-stats/downloads-by-user.html) are available, but these are simply extracted from the Toolshed API. These are life-time statistics, monthly downloads are not available.
+
 # Events
 
 As the [Galaxy events calendar and archive](/events/) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/gcc/) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/gcc/#conferences) every year since 2012.
