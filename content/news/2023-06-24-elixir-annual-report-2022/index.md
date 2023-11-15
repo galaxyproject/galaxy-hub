@@ -40,7 +40,7 @@ In the frame of the Community's Implementation Study '[Strengthen Data Managemen
 
 Considering the maturity journey of the ELIXIR Communities, Galaxy appears in tier 3 ("Communities with over four years of work developing standards or technical solutions to meet the Community's needs."): 
 
-<img src="ELIXIR_Community_maturity_journey.png" width="300">
+<img src="ELIXIR_Community_maturity_journey.png" width="600">
 
 Multiple of these Communities are connected to Galaxy, and some explicitly mentioned colaboration efforts:
 
