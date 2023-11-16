@@ -18,4 +18,4 @@ While being a prerequisite for scientific integrity, data integrity is the goal 
 
 ## What does that mean for my research (on usegalaxy.eu)?
 
-A principle plus. [usegalaxy.eu](https://usegalaxy.eu) is a service of which central components run on University of Freiburg IT systems. Although we (and Galaxy Europe) act as recommended by the new policy, being internally aligned supports proper interfacing between units of the same institution. Not least, updating guidelines in rapidly developing fields like data science obviously appears favorable in general, not only from a legal perspective.
+A principle plus. [usegalaxy.eu](https://usegalaxy.eu) is a service of which central components run on University of Freiburg IT systems. Although we (Galaxy Europe and connected units) act as recommended by the new policy, being formally aligned fosters colaborations. Considering the user service relations, the policy define clear responsibilities of both parties. Finally, updating guidelines in rapidly developing fields like data science obviously appears favorable in general, not only from a legal perspective - they serve as common, applicable references.
