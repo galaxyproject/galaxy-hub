@@ -13,15 +13,7 @@ main_subsite: freiburg
 ![biohackathon logo](./bhlogolightnotx.png)
 
 
-ELIXIR organized last week (October 30th - November 03th, 2023) the [BioHackathon](https://biohackathon-europe.org/index.html) in Barcelona. Paul and Björn went there in Person and represented the Galaxy Freiburg team. The event was a total blast: 5 days in a remote area to work, code, have fun, eat and discuss with the 150 other participants from all Europe (even Australia)!
-
-# Community interaction
-
-We discussed and contributed to many projects: 
-- [Project 16: Enhancing the image analysis community in Galaxy](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/16) 
-    - While we're at it, we also added a interactive table for the [Image analysis community](https://galaxyproject.github.io/galaxy_tool_extractor/imaging/) as described below.
-- [Project 6: BioModelsML: Building a FAIR and reproducible collection of machine learning models in life science and medicine for easy reuse](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/6)
-- Table tennis double team champion.
+ELIXIR organized last week (October 30th - November 03th, 2023) the [BioHackathon Europe](https://biohackathon-europe.org/index.html) in Barcelona. Paul and Björn went there in person and represented the Galaxy Freiburg team. The event was a total blast: 5 days in a remote area to work, code, have fun, eat and discuss with the 150 other participants from all Europe (even Australia)!
 
 # Project 20: Genome annotation and other post-assembly workflows for the tree of life
 
@@ -39,7 +31,7 @@ Paul was the co-lead for [Project 25: Increasing the findability, visibility, an
 
 ## Project Workflow
 
-The project could successfully implement a pipeline that collects galaxy tool wrappers, adds metadata from various sources, and filters the tools for a specific Galaxy community.
+The project successfully implemented a pipeline that collects Galaxy tool wrappers, adds metadata from various sources, and filters the tools for a specific Galaxy community.
 
 ![project flowchart](./flowchart_paper.png)
 
@@ -58,7 +50,16 @@ The generated tool list is then transformed into an interactive table, that can 
 
 Furthermore, a crowd-sourced effort was made to improve the bio.tools annotation of the microGalaxy tool selection.
 Thanks to a dedicated and motivated group and the help of many people, especially the Australian outpost guided by Johan Gustafsson, the annotation effort was a great success with more then 50 tools annotated.
-We're currently writing a paper to summarize the results of this project. More information can be found in the [GitHub Project Repository](https://github.com/galaxyproject/galaxy_tool_extractor). A demo of the interactive table is hosted via the [Github Pages](https://galaxyproject.github.io/galaxy_tool_extractor/) for all the tools and for the  [microGalaxy community](https://galaxyproject.github.io/galaxy_tool_extractor/microgalaxy/). 
+We're currently writing a paper to summarize the results of this project. More information can be found in the [GitHub Project Repository](https://github.com/galaxyproject/galaxy_tool_extractor). A demo of the interactive table is hosted via the [Github Pages](https://galaxyproject.github.io/galaxy_tool_extractor/) for all the tools and for the [microGalaxy community](https://galaxyproject.github.io/galaxy_tool_extractor/microgalaxy/).
+
+# Community interaction
+
+We discussed and contributed to many other projects:
+- [Project 16: Enhancing the image analysis community in Galaxy](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/16)
+    - While we're at it, we also added an interactive table for the [Image analysis community](https://galaxyproject.github.io/galaxy_tool_extractor/imaging/) as described above.
+- [Project 6: BioModelsML: Building a FAIR and reproducible collection of machine learning models in life science and medicine for easy reuse](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/6)
+- [Improvements to CWL support in Galaxy and other pull requests](https://github.com/galaxyproject/galaxy/pulls?q=is%3Apr+label%3ABioHackEU23)
+- Table tennis double team champions (Björn and Nicola).
 
 # Fun time
 
