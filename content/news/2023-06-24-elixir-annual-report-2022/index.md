@@ -42,13 +42,13 @@ Considering the maturity journey of the ELIXIR Communities, Galaxy appears in ti
 
 <img src="ELIXIR_Community_maturity_journey.png" width="600">
 
-Multiple of these Communities are connected to Galaxy, and some explicitly mentioned colaboration efforts:
+Multiple of these Communities are connected to Galaxy, and some explicitly mentioned collaboration efforts:
 
 The **Human Copy Number Variation (hCNV)** Community coordinated with the Galaxy Community and the Tools Platform to adapt and test Beacon v2 specifications with respect to the CNV domain. Both Communities met in the ELIXIR studies "[Reference hCNV datasets, use-case workflows and benchmarks](https://elixir-europe.org/internal-projects/commissioned-services/reference-hcnv-datasets)" and "[Beacon and beyond - Implementation-driven standards and protocols for CNV discovery and data exchange](https://elixir-europe.org/internal-projects/commissioned-services/beacon-and-beyond)". Specifically, a benchmarking environment for CNV detection tools has been prototyped. Plans were worked out for containerization and inclusion in Galaxy CNV callers as well as evaluation against whole genome sequencing (WGS) reference datasets. The **Marine Metagenomics** Community brought their notebooks on the Galaxy Europe infrastructure. Galaxy's strong connections to the **Australian BioCommons** supported ELIXIR's Collaboration Strategy: Technical touchpoints included the Tools and Training Platforms, RO-Crate, EDAM, WorkflowHub, TeSS, FAIR training materials, Galaxy itself, and the **Single Cell Omics** Community.
 
 ## Summary
 
-Galaxy is an integrative component of ELIXIR and in turn takes a lot of advantages from the underlying networks. These spread out to various additional efforts, other funding structures like EOSC and new scientific domains. Meanwhile, there is constant growth of Galaxy's user base; in 2022, we grew by 42% to 55,000 registered users.
+Galaxy is an integrative component of ELIXIR and in turn takes a lot of advantages from the underlying networks. These spread out to various additional efforts, other funding structures like EOSC and even new scientific domains. Meanwhile, there is constant growth of Galaxy's user base; in 2022, we grew by 42% to 55,000 registered users.
 
 
 
