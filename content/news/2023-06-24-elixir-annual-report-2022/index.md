@@ -1,6 +1,6 @@
 ---
 title: 'ELIXIR releases 2022 Annual Report - the Galaxy perspective'
-date: "2023-11-24"
+date: "2023-11-17"
 tease: "2022 as a year of growth for ELIXIR, and Galaxy being a part of it."
 hide_tease: false
 subsites: [all-eu, esg]
