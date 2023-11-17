@@ -1,6 +1,6 @@
 ---
 title: bwHPC Symposium
-date: '2023-11-17'
+date: '2023-10-30'
 tease: "Introducing Galaxy: A new cloud and HPC gateway for data-driven computational research"
 location:
   name: Mannheim, Germany
