@@ -4,7 +4,7 @@ date: "2023-11-16"
 tease: "New Research Data Management policy replaces previous version"
 hide_tease: false
 subsites: [all-eu]
-main_subsite: eu
+main_subsite: freiburg
 tags: [rdm, policy, freiburg]
 ---
 
