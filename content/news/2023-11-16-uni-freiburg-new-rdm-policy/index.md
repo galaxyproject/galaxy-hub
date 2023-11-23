@@ -1,7 +1,7 @@
 ---
 title: 'RDM policy at University of Freiburg'
 date: "2023-11-16"
-tease: "New Research Data Management policy replaces previous version"
+tease: "New Research Data Management policy for the University of Freiburg"
 hide_tease: false
 subsites: [all-eu]
 main_subsite: freiburg
