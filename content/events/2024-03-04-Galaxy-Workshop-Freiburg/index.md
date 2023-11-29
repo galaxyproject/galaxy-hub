@@ -23,7 +23,7 @@ subsites: [all]
 - **Location**: Werthmannstrasse 4, 79104 Freiburg
 - **Time**: 9am-5pm CEST
 - **Cost**: Free
-- **Contact**: Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informtik.uni-freiburg.de))
+- **Contact**: Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
 
 # Pedagogical information
 
@@ -50,7 +50,7 @@ For the hands-on course, we will use the [training material](https://training.ga
 
 # Registration
 
-- Apply via Email to Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informtik.uni-freiburg.de))
+- Apply via Email to Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
 
 # Supporters
 
