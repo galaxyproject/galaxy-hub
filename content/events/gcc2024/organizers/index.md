@@ -34,7 +34,7 @@ The scientific program chair is responsible for the scientific program at GCC202
 Scientific committee members are community volunteers who review the submitted abstracts.
 
 * **[Alex Ostrovsky](https://www.linkedin.com/in/alex-ostrovsky-a5a09914a/)**, [Johns Hopkins University](https://jhu.edu/), United States
-* **[Beatriz Serrano-Solano](https://www.embl.org/people/person/beatriz-serrano-solano/)**, [EMBL](https://www.embl.org/), Spain
+* **[Beatriz Serrano-Solano](https://www.embl.org/people/person/beatriz-serrano-solano/)**, [Euro-BioImaging ERIC](https://www.eurobioimaging.eu/), Germany
 * **[Elliott Price](https://www.recetox.muni.cz/en/research/principal-investigators/dr-elliott-price)**, [Masaryk University](https://www.muni.cz/), Czech Republic
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Hans-Rudolf Hotz](https://www.linkedin.com/in/hans-rudolf-hotz-542b31/)**,	[Friedrich Miescher Institute for Biomedical Research](https://www.fmi.ch/), Switzerland
