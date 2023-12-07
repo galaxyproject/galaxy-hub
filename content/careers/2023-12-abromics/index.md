@@ -6,7 +6,7 @@ summary: "The French Institute for Bioinformatics (Institut Français de Bioinfo
 continent: EU
 location:
   name: "Institut Français de Bioinformatique, PF Auvergne BioInformatique (AUBi), AUBIERE (Clermont Ferrand, France)"
-image: /images/logos/open_university_logo.png
+image: /images/logos/ifb-logo-text.jpg
 external_url: "https://www.sfbi.fr/emplois/offre/202311241133-cdd-engineer-position-in-workflows-development-for-omics-data-analysis-in-antibiotic-resistance"
 contact: "Nadia Goué"
 ---
