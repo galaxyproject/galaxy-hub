@@ -8,7 +8,7 @@ autotoc: false
 # Registration
 
 
-## Meeting: July 22-25
+## Meeting: June 24-27
 
 The general meeting portion of GCC2024 consist of a series of peer-reviewed
 talks, posters, demos, training sessions, Birds-of-a-Feather meetups, and sponsor talks.
@@ -52,7 +52,7 @@ the channel.
 | --- | ---: |
 | Virtual    | EUR$50 |
 
-## CoFest: July 26-27
+## CoFest: June 28-29
 
 [CoFest](/events/gcc2024/cofest/), or CollaborationFest, is an opportunity to
 meet the people working on Galaxy and spend some time with each other in person

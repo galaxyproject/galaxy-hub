@@ -1,6 +1,6 @@
 ---
 title: "2024 Galaxy Community Conference (GCC2024)"
-date: '2024-07-22'
+date: '2024-06-24'
 skip_title_render: true
 autotoc: false
 hide_metadata: true
@@ -23,7 +23,7 @@ subsites: [all]
 
 # **2024 Galaxy Community Conference (GCC2024)**
 
-### July 22-27, 2024
+### June 24-29, 2024
 ### [Brno, Czech Republic](https://maps.app.goo.gl/QDx3SRk8YoZEbQv68)
 
 #### [#UseGalaxy2024](https://twitter.com/hashtag/UseGalaxy2024)
