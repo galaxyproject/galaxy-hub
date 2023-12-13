@@ -9,7 +9,10 @@
 The **Galaxy Community** is actively involved in helping the ecosystem improve and sharing scientific discoveries.
 
 <div class="row justify-content-center">
-  <a href="/get-started/" class="btn w-75 btn-primary btn-lg">
+  <a href="/use/?utm_source=homepage" class="btn w-25 mr-2 btn-outline-info btn-lg">
+    Use Galaxy
+  </a>
+  <a href="/get-started/?utm_source=homepage" class="btn pr-4 pl-4 btn-primary btn-lg">
     Get Started: First Steps with Galaxy
   </a>
 </div>
