@@ -7,6 +7,9 @@
 
         <HomeTop :lead="bundles.lead" :jumbotron="inserts.jumbotron" />
 
+        <BeyondUser />
+
+
         <Bundle id="main-content" class="row" :bundle="bundles.main" :subclasses="['col-sm-12']" />
 
         <b-row id="profiles" class="justify-content-md-center">
@@ -63,6 +66,7 @@
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
 import HomeProfile from "@/components/HomeProfile.vue";
+import BeyondUser from "@/components/BeyondUser.vue";
 import Bundle from "@/components/Bundle.vue";
 import {
     gatherCollections,
@@ -78,6 +82,7 @@ export default {
         HomeTop,
         HomeProfile,
         HomeCard,
+        BeyondUser,
         Bundle,
     },
     metaInfo: {
