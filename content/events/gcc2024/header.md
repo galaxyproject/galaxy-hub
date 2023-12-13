@@ -12,6 +12,7 @@
 [Conduct](/events/gcc2024/conduct/) |
 [Key Dates](/events/gcc2024/key-dates/) |
 [Organizers](/events/gcc2024/organizers/) |
+[Schedule](/events/gcc2024/schedule/) |
 [Sponsors](/events/gcc2024/sponsors/) |
 [Training](/events/gcc2024/training/) |
 [Travel](/events/gcc2024/travel/)

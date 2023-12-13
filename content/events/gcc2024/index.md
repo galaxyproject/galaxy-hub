@@ -152,16 +152,16 @@ Brought to you by an anonymous donor.
     <div class="card-header">Brno, Czech Republic</div>
 
 **[Brno](https://www.amazingczechia.com/destinations/brno/) is a captivating,
-mid-size city in the heart of Europe**, offering a captivating blend of the old
-and the new. The city's historic center boasts dazzling medieval and Baroque
-buildings, including the iconic [Špilberk
-Castle](https://www.gotobrno.cz/en/place/spilberk-castle/) and the stunning
-[Cathedral of St. Peter and
+mid-size city in the heart of Europe**, offering a blend of the old and the new.
+The city's historic center boasts dazzling medieval and Baroque buildings,
+including the **[Mendel museum](https://mendelmuseum.muni.cz/en)**, the iconic
+[Špilberk Castle](https://www.gotobrno.cz/en/place/spilberk-castle/), and the
+stunning [Cathedral of St. Peter and
 Paul](https://www.gotobrno.cz/en/place/cathedral-of-st-peter-and-paul/).
 
 Brno is also a hub of education and innovation - including the GCC2024 host,
 [Masaryk University](https://www.muni.cz/en) - contributing to its dynamic and
-forward-thinking atmosphere. With a thriving arts scene, lively cafes, and a
+lively atmosphere. With a thriving arts scene, numerous cafes, and a
 deep connection to Czech history, Brno is a city that seamlessly marries
 tradition with modernity, making it a fascinating destination for GCC2024
 attendees.
