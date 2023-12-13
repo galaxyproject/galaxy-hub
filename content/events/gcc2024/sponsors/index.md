@@ -14,10 +14,10 @@ affordable and accessible.
 ## Benefits of GCC sponsorship
 
 - Engage with some of the most active members and advocates of Galaxy's worldwide community
-- Reach out to 100+ PIs, researchers, practicioners, and trainees in data intensive life sciences
-- Help inspire use of Galaxy in other data-intensive fields, with recent examples including climate modeling, ecology, and natural language processing
+- Reach out to 100+ PIs, researchers, practitioners, and trainees in data intensive life sciences
+- Help inspire use of Galaxy in other data-intensive fields, with recent examples including climate modeling, ecology, and machine learning
 - Learn about opportunities for placing your services and products in the expanding Galaxy ecosystem
-- Give back to the open source community
+- Give back to a popular and growing open source community
 
 <div class="container">
     <div class="row">
