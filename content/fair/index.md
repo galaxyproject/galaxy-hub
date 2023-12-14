@@ -1,5 +1,5 @@
 ---
-title: Galaxy is FAIR
+title: Galaxy and the FAIR principles
 highlight: true
 ---
 
