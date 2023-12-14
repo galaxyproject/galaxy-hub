@@ -21,7 +21,7 @@
                         <p class="card-text">The Galaxy ToolShed is a repository of thousands tools that have been
                             integrated with Galaxy, and you can add your own.</p>
                         <div class="float-right" style="position: absolute; bottom: 0; right: 1rem;">
-                          <a href="/tools/" class="btn btn-outline-light mr-3" style>Add tools</a>
+                          <a href="/tools/" class="btn btn-outline-light mr-3">Add tools</a>
                           <a href="/toolshed/" class="btn btn-info">Browse ToolShed</a>
                         </div>
                     </div>
