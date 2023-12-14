@@ -25,7 +25,7 @@ Introductory page URL: https://galaxyproject.org
 
 ### Does Galaxy have a community **recognition**? What about inter-organisational collaborations, geographical diversity in the source of the submissions, international diversity of delivery partners and/or funders?
 
-Recognition of Galaxy is broad and observed across multiple communities. Galaxy as a platform originates from the US (usegalaxy.org) and has been developed by a worldwide community since its initial release in 2005. [The Galaxy community](https://galaxyproject.org/community/) is traditionally open, welcoming, diverse and highly active. With Galaxy Europe and Galaxy Australia another two major instances have been founded, complemented with multiple national ones, several of them located in Europe.
+Recognition of Galaxy is broad and observed across multiple communities. Galaxy as a platform has been developed by a worldwide community since its initial release in 2005. [The Galaxy community](https://galaxyproject.org/community/) is open, welcoming, diverse, and highly active.
 
 #### Galaxy Main
 
