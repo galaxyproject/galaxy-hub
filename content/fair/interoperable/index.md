@@ -25,17 +25,17 @@ Introductory page URL: https://galaxyproject.org
 
 ### Does Galaxy have a community **recognition**? What about inter-organisational collaborations, geographical diversity in the source of the submissions, international diversity of delivery partners and/or funders?
 
-Recognition of Galaxy is broad and observed across multiple communities. Galaxy as a platform has been developed by a worldwide community since its initial release in 2005. [The Galaxy community](https://galaxyproject.org/community/) is open, welcoming, diverse, and highly active.
+Recognition of Galaxy is broad and observed across multiple communities. Galaxy as a platform has been developed by a worldwide community since its initial release in 2005. [The Galaxy community](https://galaxyproject.org/community/) is open, welcoming, diverse, and highly active. I terms of instances, there are hundreds of local ones worldwide, a number of national Galaxy servers and three continental Galaxy servers ('usegalaxy.*'). 
 
-#### Galaxy Main
+#### Galaxy Main (usegalaxy.org)
 
-#### Galaxy Europe
-For example on usegalaxy.eu, more than 83,000 users are registered, every month another 1000 new users join. Here, >1 million computational jobs are launched per month, as well as ~180,000 workflows runs, and >100,000,000 datasets are aggregated to date. Galaxy Europe reaches users from 100+ countries and is used by companies, universities, publicly funded independent research institutions and citizen science projects. 
+#### Galaxy Europe (usegalaxy.eu)
+On usegalaxy.eu, more than 83,000 users are registered, every month another 1000 new users join. Here, >1 million computational jobs are launched per month, as well as ~180,000 workflows runs, and >100,000,000 datasets are aggregated to date. Galaxy Europe reaches users from 100+ countries and is used by companies, universities, publicly funded independent research institutions and citizen science projects. 
 
 The European Galaxy server is one of the largest ELIXIR services and part of several past and running implementation Studies (IS). For multiple EOSC projects, usegalaxy.eu is the preferred gateway for scientific computing, making it an ideal resource for researchers from a broad range of scientific fields. As a European resource, we address users from all over Europe, but also attract researchers from a global scope. Moreover, in the EOSC project ‘[EuroScienceGateway](https://galaxyproject.org/projects/esg/)’, started in September 2022, a central mission is to link usegalaxy.eu with 12+ national endpoints of the [Pulsar compute network](https://pulsar-network.readthedocs.io/en/latest/) for improved job re-distribution across Europe.
 Analogously, the team behind usegalaxy.eu builds from a number of groups and individuals, distributed all over Europe and of broad international backgrounds. 
 
-#### Galaxy Australia
+#### Galaxy Australia (usegalaxy.org.au)
 
 ## Community
 
@@ -126,11 +126,11 @@ https://usegalaxy-eu.github.io/gdpr/
 and
 https://docs.galaxyproject.org/en/master/admin/special_topics/gdpr_compliance.html 
 
+Notably, the Galaxy Community is dedicated to provide a harassment-free experience for everyone, thus living a [Code of Conduct](https://galaxyproject.org/community/coc/), outlining the behaviours deemed acceptable and unacceptable.
+
 ### Funding & sustainability plan
 
-The European Galaxy project is embedded in national and international funding streams. Notebly, this is the German ELIXIR Node and EU funding like EOSC-related projects. More information, specifically for the German partners, can be accessed at https://usegalaxy-eu.github.io/freiburg/projects. However, the European Galaxy project is built by many contributors across Europe and the world and the underlying funding is much more diverse. 
-
-In other words, Galaxy is a world-wide project that is supported by diverse regional, national and international fundings. The global community is well connected and capable of bridging funding gaps and re-allocating resources by strong vice-versa support.
+The Galaxy Project is embedded in national and international funding streams. Notably, these include NIH and NSF (US), ELIXIR, EOSC and BMBF (EU), Bioplatforms and Research Data Commons (AUS). More information on the continental usegalaxy.* instances you find on the bottom of the Galaxy Hub pages, and e.g. [here](https://usegalaxy-eu.github.io/freiburg/projects). However, the Galaxy project is built by many contributors from all over the world, so that the underlying funding is much more diverse and is subject to constant change in detail. This global community is well connected and capable of bridging funding gaps and re-allocating resources by strong vice-versa support.
 
 ### Governance
 
