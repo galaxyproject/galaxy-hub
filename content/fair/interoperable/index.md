@@ -134,7 +134,7 @@ In other words, Galaxy is a world-wide project that is supported by diverse regi
 
 ### Governance
 
-The European Galaxy project is part of the worldwide Galaxy Project and its governance structure. Please read more about the Galaxy governance at: https://galaxyproject.org/community/governance 
+Please read more about the Galaxy governance at: https://galaxyproject.org/community/governance 
 and
 https://docs.galaxyproject.org/en/master/project/organization.html (code governance). 
 
