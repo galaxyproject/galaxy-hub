@@ -1,5 +1,5 @@
 ---
-title: Galaxy is FAIR
+title: Galaxy is Interoperable
 highlight: true
 ---
 
