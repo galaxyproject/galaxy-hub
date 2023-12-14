@@ -5,7 +5,7 @@
             <h3 v-if="subtitle">{{ subtitle }}</h3>
         </header>
 
-        <HomeTop :lead="bundles.lead" :jumbotron="inserts.jumbotron" />
+        <Hero />
 
         <BeyondUser />
 
@@ -63,6 +63,7 @@
 </template>
 
 <script>
+import Hero from "@/components/Hero";
 import HomeTop from "@/components/HomeTop";
 import HomeCard from "@/components/HomeCard";
 import HomeProfile from "@/components/HomeProfile.vue";
@@ -79,6 +80,7 @@ import {
 import { addAltmetricsScript } from "~/lib/client.mjs";
 export default {
     components: {
+        Hero,
         HomeTop,
         HomeProfile,
         HomeCard,
