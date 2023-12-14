@@ -1,5 +1,5 @@
 ---
-title: Galaxy and the Global Alliance for Genomic Health
+title: Galaxy is FAIR
 highlight: true
 ---
 
