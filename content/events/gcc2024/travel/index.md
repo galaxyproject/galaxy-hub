@@ -39,7 +39,7 @@ If you will be arriving to Brno without a working cell service, it is a good
 idea to save an offline map of the city on your phone before the trip to ease
 navigation.
 
-## Weather in Brno in July
+## Weather in Brno in June
 
 In June, Brno experiences warm and pleasant summer weather:
 
