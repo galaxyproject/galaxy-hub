@@ -25,6 +25,7 @@ $brand-primary: #336699;
 $headings-small-color: inherit;
 
 $body-bg: white;
+$body-bg-home: $brand-dark;
 $navbar-default-bg: rgb(255, 255, 255);
 $navbar-default-border: none;
 
@@ -57,6 +58,10 @@ html {
 
 body {
     margin-bottom: 60px;
+}
+
+.layoutHome {
+    background-color: $body-bg-home;
 }
 
 .gitter-chat-embed,
@@ -139,6 +144,9 @@ footer {
             }
         }
     }
+}
+#masthead.mastheadHome { //TODO better integrate
+    background-color: white;
 }
 
 /* Custom CSS for Galaxy wiki doc

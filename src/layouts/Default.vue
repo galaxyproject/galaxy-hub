@@ -1,6 +1,9 @@
 <template>
     <div :class="rootClasses">
-        <header id="masthead">
+        <header v-if="showHomeNav" id="masthead" class="mastheadHome">
+            <NavBar :subsite="subsite" :showHomeNav="showHomeNav" />
+        </header>
+        <header v-else id="masthead">
             <NavBar :subsite="subsite" />
         </header>
         <main id="maincontainer" class="container">
@@ -33,6 +36,9 @@ export default {
             if (this.subsite) {
                 classes.push(this.subsite);
             }
+            if (rootClasses.includes('global') && window.location.pathname === '/') {
+                classes.push('layoutHome');
+            }
             return classes;
         },
         gitter() {
@@ -41,6 +47,11 @@ export default {
         footer() {
             let footers = compileFooters(this.$static.footers.edges);
             return footers[this.subsite];
+        },
+    },
+    methods: {
+        showHomeNav() {
+            return rootClasses.includes('global') && window.location.pathname === '/';
         },
     },
 };
