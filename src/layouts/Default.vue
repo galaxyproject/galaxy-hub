@@ -1,6 +1,9 @@
 <template>
     <div :class="rootClasses">
-        <header id="masthead">
+        <header v-if="showHomeNav" id="masthead" class="mastheadHome">
+            <NavBar :subsite="subsite" :showHomeNav="showHomeNav" />
+        </header>
+        <header v-else id="masthead">
             <NavBar :subsite="subsite" />
         </header>
         <main id="maincontainer" class="container">
@@ -34,6 +37,9 @@ export default {
                 classes.push(this.subsite);
             }
             return classes;
+        },
+        showHomeNav() {
+            return rootClasses.includes('global') && window.location.pathname === '/';
         },
         gitter() {
             return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;

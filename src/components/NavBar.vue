@@ -96,6 +96,7 @@ const EDIT_PATH = "tree/master/content";
 export default {
     props: {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
+        showHomeNav: { type: Boolean, required: false, default: false },
     },
     components: {
         NavBarItem,
@@ -161,7 +162,7 @@ export default {
             );
         },
         theme() {
-            if (this.customContent.style?.lightBg) {
+            if (this.customContent.style?.lightBg || this.showHomeNav) {
                 return "light";
             } else {
                 return "dark";
@@ -175,7 +176,7 @@ export default {
             return classes;
         },
         logoUrl() {
-            if (this.customContent.style?.lightBg) {
+            if (this.customContent.style?.lightBg || this.showHomeNav) {
                 return "/images/galaxy_logo_hub.svg";
             } else {
                 return "/images/galaxy_logo_hub_white.svg";
