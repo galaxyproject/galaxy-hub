@@ -50,7 +50,7 @@ For the hands-on course, we will use the [training material](https://training.ga
 
 # Registration
 
-- Apply via Email to Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
+The course is fully booked. We will have 2 more Galaxy training courses in Freiburg: one in June, one in July. Please contact Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de)) for more information.
 
 # Supporters
 
