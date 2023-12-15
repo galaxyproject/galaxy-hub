@@ -170,7 +170,7 @@ export default {
         },
         classes() {
             let classes = [];
-            if (this.customContent.style?.lightBg) {
+            if (this.customContent.style?.lightBg || this.showHomeNav) {
                 classes.push("light-bg");
             }
             return classes;
