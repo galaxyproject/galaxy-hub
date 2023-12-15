@@ -36,10 +36,10 @@ export default {
             if (this.subsite) {
                 classes.push(this.subsite);
             }
+            if (rootClasses.includes('global') && window.location.pathname === '/') {
+                classes.push('layoutHome');
+            }
             return classes;
-        },
-        showHomeNav() {
-            return rootClasses.includes('global') && window.location.pathname === '/';
         },
         gitter() {
             return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;
@@ -47,6 +47,11 @@ export default {
         footer() {
             let footers = compileFooters(this.$static.footers.edges);
             return footers[this.subsite];
+        },
+    },
+    methods: {
+        showHomeNav() {
+            return rootClasses.includes('global') && window.location.pathname === '/';
         },
     },
 };
