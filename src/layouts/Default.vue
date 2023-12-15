@@ -36,7 +36,7 @@ export default {
             if (this.subsite) {
                 classes.push(this.subsite);
             }
-            if (rootClasses.includes('global') && window.location.pathname === '/') {
+            if (classes.includes('global') && window.location.pathname === '/') {
                 classes.push('layoutHome');
             }
             return classes;
