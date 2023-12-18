@@ -1,7 +1,7 @@
 <template>
     <div :class="rootClasses">
-        <header v-if="showHomeNav" id="masthead" class="mastheadHome">
-            <NavBar :subsite="subsite" :showHomeNav="showHomeNav" />
+        <header v-if="showHomeNav()" id="masthead" class="mastheadHome">
+            <NavBar :subsite="subsite" :show-home-nav="showHomeNav()" />
         </header>
         <header v-else id="masthead">
             <NavBar :subsite="subsite" />
@@ -9,7 +9,8 @@
         <main id="maincontainer" class="container">
             <slot />
         </main>
-        <footer class="static-footer" v-if="footer">
+        <FooterProject v-if="showHomeNav()" />
+        <footer v-else-if="footer" class="static-footer">
             <div class="markdown container" v-html="footer.content" />
         </footer>
         <Gitter :room="gitter" />
@@ -18,6 +19,7 @@
 
 <script>
 import NavBar from "@/components/NavBar";
+import FooterProject from "@/components/FooterProject";
 import Gitter from "@/components/Gitter";
 import CONFIG from "~/../config.json";
 import { rmPrefix, rmSuffix } from "~/lib/utils.js";
@@ -25,6 +27,7 @@ import { rmPrefix, rmSuffix } from "~/lib/utils.js";
 export default {
     components: {
         NavBar,
+        FooterProject,
         Gitter,
     },
     props: {
@@ -51,7 +54,8 @@ export default {
     },
     methods: {
         showHomeNav() {
-            return rootClasses.includes('global') && window.location.pathname === '/';
+            // return rootClasses.includes('global') && window.location.pathname === '/';
+            return window.location.pathname === '/';
         },
     },
 };

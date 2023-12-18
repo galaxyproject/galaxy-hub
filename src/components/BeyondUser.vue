@@ -65,6 +65,7 @@ export default {
 .gx-h2 {
   font-size: 3rem;
   font-weight: 700;
+  color: white;
 }
 .card-title {
   font-size: 1.5rem;

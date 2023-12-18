@@ -56,9 +56,10 @@ html {
     min-height: 100%;
 }
 
-body {
-    margin-bottom: 60px;
-}
+// Not compatible with the updated homepage
+// body {
+//     margin-bottom: 60px;
+// }
 
 .layoutHome {
     background-color: $body-bg-home;
@@ -242,10 +243,10 @@ card-img-top {
     font-weight: 600;
 }
 
-/* 
-   Button overrides; 
+/*
+   Button overrides;
 
-   more space between buttons on multiple consecutive lines 
+   more space between buttons on multiple consecutive lines
    overall line-height is unchanged.
 */
 
