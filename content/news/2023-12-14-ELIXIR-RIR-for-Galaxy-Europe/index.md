@@ -15,7 +15,7 @@ subsites: [all, eu, esg]
 ---
 <div class="float-right" style="max-width: 400px">
 	
-![logo RIR](/content/images/logos/ELIXIR_RIR_Logo.png)
+![logo RIR](/images/logos/ELIXIR_RIR_Logo.png)
 
 </div>
 <br>
