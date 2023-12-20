@@ -21,7 +21,7 @@ The current set of working groups includes these areas:
 Focus on Galaxy administration, maintenance, and installation.
 
 * [Google Drive](https://drive.google.com/drive/u/0/folders/1jj9M2wpH-j5fRtEXOXUPF2R55W4AAHDT)
-* [Gitter Chat](https://gitter.im/galaxyproject/wg-systems)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-systems:gitter.im)
 * [GitHub Project Admin](https://github.com/orgs/galaxyproject/projects/16)
 * [GitHub Project Deployment](https://github.com/orgs/galaxyproject/projects/17)
 * Leadership: Björn Grüning
@@ -37,7 +37,7 @@ Focus on the Galaxy server code and architecture.
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/11)
 * [Google Drive](https://drive.google.com/drive/folders/1wPjD6j0ERp_XRCvrtFQ7cF8XwojJkm6k)
-* [Gitter Channel](https://gitter.im/galaxyproject/wg-backend)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_backend:gitter.im)
 * Leadership: Marius van den Beek, John Chilton
 
 </div>
@@ -50,7 +50,7 @@ Focus on the Galaxy server code and architecture.
 The UI / UX group focuses on the Galaxy user interface and experience.  We work on the parts of Galaxy that end users see.
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/10)
-* [Gitter Chat](https://gitter.im/galaxyproject/wg-ui-ux)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_ui-ux:gitter.im)
 * [Google Drive](https://drive.google.com/drive/folders/1L5XGq4dF9fn99TXhKXD3NKCmCoS_uQz6)
 * Leadership: Dannon Baker, Aysam Guerler
 
@@ -65,7 +65,7 @@ Testing and hardening the Galaxy ecosystem, developing and maintaining test infr
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/12)
 * [Google Drive](https://drive.google.com/drive/folders/1jglyg2B-iyE7JdPIVxbJtyizJmEyZ-8A)
-* [Gitter Channel](https://gitter.im/galaxyproject/testing-hardening)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_testing-hardening:gitter.im)
 * Leadership: John Chilton, John Davis
 
 </div>
@@ -78,7 +78,7 @@ This group builds the standards and ecosystem for execution, testing, publishing
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/20)
 * [Google Drive](https://drive.google.com/drive/folders/1E8xG5u8mInGr5-GgfpKVTQYeo5xkRkAx?usp=sharing)
-* [Gitter Channel](https://gitter.im/galaxyproject/iwc)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_iwc:gitter.im)
 * Leadership: Marius van den Beek, Alex Ostrovsky
 
 </div>
@@ -92,7 +92,7 @@ Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admi
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
-* [Gitter Channel](https://gitter.im/galaxyproject/wg-goat)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-goat:gitter.im)
 * [Support Charter and Priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
 * Leadership: Delphine Lariviere
 
@@ -105,7 +105,7 @@ Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admi
 
 Communications across working groups.
 
-* [Gitter Chat](https://gitter.im/galaxyproject/wg-all)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-all:gitter.im)
     * Please consider joining if you are involved in any working group.
 
 </div>
@@ -126,7 +126,7 @@ This project emphasizes applying Galaxy in cancer research.
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/14)
 * [Google Drive](https://drive.google.com/drive/folders/1diqrY6lQ_RbxcJUA-phaYutZqij_X3ku)
-* [Gitter Channel](https://gitter.im/galaxyproject/wg-cancer-informatics)
+* [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-cancer-informatics:gitter.im)
 * Leadership: Luke Sargent
 
 </div>
