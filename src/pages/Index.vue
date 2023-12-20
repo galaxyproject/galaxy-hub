@@ -1,11 +1,13 @@
 <template>
     <Layout>
-        <header id="header">
+        <!-- <header id="header">
             <h1 class="display-4">{{ title }}</h1>
             <h3 v-if="subtitle">{{ subtitle }}</h3>
-        </header>
+        </header> -->
 
         <Hero />
+
+        <HomeLearn />
 
         <BeyondUser />
 
@@ -15,6 +17,7 @@
 <script>
 import Hero from "@/components/Hero";
 import BeyondUser from "@/components/BeyondUser.vue";
+import HomeLearn from "@/components/HomeLearn.vue";
 import {
     gatherCollections,
     gatherInserts,
@@ -28,6 +31,7 @@ export default {
     components: {
         Hero,
         BeyondUser,
+        HomeLearn,
     },
     metaInfo: {
         title: "Home",
