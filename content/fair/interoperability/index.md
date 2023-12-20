@@ -26,6 +26,7 @@ Base URLs (home pages): https://usegalaxy.org, https://usegalaxy.eu, https://use
 
 Introductory page URL: https://galaxyproject.org
 
+<!--
 ### Does Galaxy have a community **recognition**? What about inter-organisational collaborations, geographical diversity in the source of the submissions, international diversity of delivery partners and/or funders?
 
 Recognition of Galaxy is broad and observed across multiple communities. Galaxy as a platform has been developed by a worldwide community since its initial release in 2005. [The Galaxy community](https://galaxyproject.org/community/) is open, welcoming, diverse, and highly active. I terms of instances, there are hundreds of local ones worldwide, a number of national Galaxy servers and three continental Galaxy servers ('usegalaxy.*'). 
@@ -39,6 +40,8 @@ The European Galaxy server is one of the largest ELIXIR services and part of sev
 Analogously, the team behind usegalaxy.eu builds from a number of groups and individuals, distributed all over Europe and of broad international backgrounds. 
 
 #### Galaxy Australia (usegalaxy.org.au)
+
+-->
 
 ## Community
 
