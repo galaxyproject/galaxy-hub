@@ -6,7 +6,7 @@
         <header v-else id="masthead">
             <NavBar :subsite="subsite" />
         </header>
-        <main id="maincontainer" class="container">
+        <main id="maincontainer" :class="showHomeNav() ? 'container-fluid-real p-0' : 'container'">
             <slot />
         </main>
         <FooterProject v-if="showHomeNav()" />

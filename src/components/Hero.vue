@@ -1,14 +1,14 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="notification">
+            <div class="notification bgBrighter w-50 text-center mt-2 mb-2">
                 Galaxy Community Conference is coming up.
-                <a href="/events/gcc2024/">Read on.</a>
+                <a href="/events/gcc2024/" class="ml-2">Read on.</a>
             </div>
         </div>
         <div class="row">
             <div class="text-section col-md-7">
-                <h1>
+                <h1 class="mb-3">
                     Meet Galaxy - <br />
                     your companion <br />
                     in data analysis
@@ -18,8 +18,8 @@
                     authoring workflows, training and education, publishing
                     tools, managing infrastructure, and more.
                 </p>
-                <a href="https://usegalaxy.org/" class="btn h-btn mr-3">Use Galaxy now</a>
-                <a href="/learn-more/" class="btn h-btn">Learn more</a>
+                <a href="https://usegalaxy.org/" class="btn h-btn mr-3 bgBright">Use Galaxy now</a>
+                <a href="/learn-more/" class="btn h-btn bgBright">Learn more</a>
             </div>
             <div class="col-md-5">
                 <video-player :src="videoSrc" style="border-radius: 10px;"/>
@@ -46,7 +46,6 @@ export default {
 
 <style scoped>
 .notification {
-    background-color: #60FB8C;
     padding: 10px;
     margin-left: 15px;
     font-size: 1.2rem;
@@ -63,6 +62,7 @@ export default {
     font-weight: 800;
     color: white;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .text-section p {
@@ -72,7 +72,6 @@ export default {
 }
 
 .h-btn {
-    background-color: #00B8F5;
     font-size: 1.3rem;
     font-weight: 500;
 }

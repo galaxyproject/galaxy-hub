@@ -25,7 +25,6 @@ $brand-primary: #336699;
 $headings-small-color: inherit;
 
 $body-bg: white;
-$body-bg-home: $brand-dark;
 $navbar-default-bg: rgb(255, 255, 255);
 $navbar-default-border: none;
 
@@ -38,6 +37,11 @@ $jumbotron-bg: white;
 $carousel-indicator-border-color: gray;
 $carousel-indicator-active-bg: $navbar-inverse-bg;
 $carousel-control-width: 5%;
+
+$home-body-bg: $brand-dark;
+$home-accent-brightest: #82ffff;
+$home-accent-brighter: #60FB8C;
+$home-accent-bright: #2ad8fe;// #00B8F5;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
@@ -61,8 +65,27 @@ html {
 //     margin-bottom: 60px;
 // }
 
+
+// ==== Home ====
+
 .layoutHome {
-    background-color: $body-bg-home;
+    background-color: $home-body-bg;
+}
+
+.bgBrightest {
+    background-color: $home-accent-brightest;
+}
+
+.bgBrighter {
+    background-color: $home-accent-brighter;
+}
+
+.bgBright {
+    background-color: $home-accent-bright;
+}
+
+.sectionLearn {
+    background-image: linear-gradient($home-accent-bright, $home-body-bg 99%);
 }
 
 .gitter-chat-embed,
