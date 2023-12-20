@@ -1,9 +1,12 @@
 ---
-title: Galaxy is Interoperable
+title: Galaxy and Interoperability
 highlight: true
 ---
 
 Galaxy as both a project and a platform facilitates FAIR research, addressing common needs, invoking available standards and contributing to several upstream projects. 
+
+<div class="float-right" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
+<br>
 
 This page focusses on FAIR's 'I' component, so highlighting interoperability measures, pointing to respective implementations and answering a range of questions around the topic. Contents have been generated from [Galaxy Europe's successful evaluation](/news/2023-12-14-ELIXIR-RIR-for-Galaxy-Europe/) of being an [ELIXIR 'Recommended Interoperability Resource' (RIR)](https://elixir-europe.org/platforms/interoperability/rirs), for which central considerations have been addressed. Both asked questions and their answers should be shared here with the community, hopefully serving as references for future needs. 
 
@@ -61,14 +64,9 @@ In the following, we list some publications, e.g. in scientific journals, but al
 
 * User/community main entry point: https://galaxyproject.org/eu/ 
 * Help board: http://help.galaxyproject.org
-* Selected scientific journal publications:
-    * Gruning, B.A. *et al.* (2017) Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers. PLoS Comput Biol, 13, e1005425.
-    * Bray, S.A. *et al.* (2020) The ChemicalToolbox: reproducible, user-friendly cheminformatics analysis on the Galaxy platform. Journal of Cheminformatics, 12.
-    * Serrano-Solano, B. *et al.* (2021) Fostering accessible online education using Galaxy as an e-learning platform. PLOS Computational Biology, 17, 1–10.
-    * The Galaxy Community (2022) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update. Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W345–W351
-    * (more at e.g. https://usegalaxy-eu.github.io/freiburg/publications.html)
-* Beyond conference contributions, dissemination is mainly carried out via events: https://galaxyproject.org/events/ 
-* Dedicated branding material is available [here](https://drive.google.com/drive/folders/0BycJJtbagAMTfnBuUy1xZDhMbjc4Qk5yMElWaER2QXRsV2tkSHU0V0xHdmJ5RDdDaVRQRGs) (general) and [here](https://github.com/usegalaxy-eu/branding) (EU)
+* [Scientific journal publications](https://galaxyproject.org/citing-galaxy/)
+* Beyond conference contributions, dissemination is carried out via [events](https://galaxyproject.org/events/)
+* Dedicated branding material is available for [the project](https://drive.google.com/drive/folders/0BycJJtbagAMTfnBuUy1xZDhMbjc4Qk5yMElWaER2QXRsV2tkSHU0V0xHdmJ5RDdDaVRQRGs) and [for the European Server](https://github.com/usegalaxy-eu/branding)
 
 #### Dependency of other resources
 
