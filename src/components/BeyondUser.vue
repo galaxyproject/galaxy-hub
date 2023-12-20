@@ -20,7 +20,7 @@
                         <h3 class="title">Need more tools?</h3>
                         <p class="text">The Galaxy ToolShed is a repository of thousands tools that have been
                             integrated with Galaxy, and you can add your own.</p>
-                        <div class="float-right" style="position: absolute; bottom: 0; right: 1rem;">
+                        <div class="float-right">
                           <a href="/tools/" class="btn btn-lg btn-outline-light mr-3">Add tools</a>
                           <a href="/toolshed/" class="btn btn-lg btn-info">Browse ToolShed</a>
                         </div>
