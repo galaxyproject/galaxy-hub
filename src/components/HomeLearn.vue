@@ -9,10 +9,10 @@
                     </p>
                 </div>
                 <div class="col col-8">
-                    <a :href="b.link" v-for="b in this.buttonContent" :key="b.title" role="button" rel="noopener" target="_blank" class="btn btn-outline-primary text-left mb-4 ml-3">
+                    <a :href="b.link" v-for="b in this.buttonContent" :key="b.title" role="button" rel="noopener" target="_blank" class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3">
                         <span class="icon fa far fa-arrow-circle-o-right iconXlarge pt-2" aria-hidden="true"></span>
-                        <div class="title">{{ b.title }}</div>
-                        <div class="text">{{ b.text }}</div>
+                        <div class="title text-decoration">{{ b.title }}</div>
+                        <div class="text text-decoration">{{ b.text }}</div>
                     </a>
                 </div>
             </div>
@@ -107,6 +107,7 @@ a {
 
     &.btn-outline-primary:hover .text {
         color: white !important;
+        text-decoration: none;
     }
 
     .iconXlarge {
