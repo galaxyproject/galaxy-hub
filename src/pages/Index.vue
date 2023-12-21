@@ -11,6 +11,8 @@
 
         <BeyondUser />
 
+        <HomeGrow />
+
     </Layout>
 </template>
 
@@ -18,6 +20,7 @@
 import Hero from "@/components/Hero";
 import BeyondUser from "@/components/BeyondUser.vue";
 import HomeLearn from "@/components/HomeLearn.vue";
+import HomeGrow from "@/components/HomeGrow.vue";
 import {
     gatherCollections,
     gatherInserts,
@@ -32,6 +35,7 @@ export default {
         Hero,
         BeyondUser,
         HomeLearn,
+        HomeGrow,
     },
     metaInfo: {
         title: "Home",
