@@ -4,8 +4,8 @@
         <hr />
         <div class="container">
             <div class="row">
-                <div class="col-md-3 center">
-                    <img id="footer-logo" src="/images/galaxy_logo_white.svg" alt="Galaxy project logo" height="60" style="margin-top: 2rem;" />
+                <div class="col-md-3 align-left d-flex align-items-center">
+                    <img id="footer-logo" src="/images/galaxy_logo_white.svg" alt="Galaxy project logo" height="60" />
                 </div>
                 <ul class="col-md-3 footer-items">
                     <li><a href="/community/">Community</a></li>
@@ -15,7 +15,7 @@
                     <li><a href="https://jxtxfoundation.org/">@jxtx</a></li>
                     <li><a href="/community/coc/">Code of Conduct</a></li>
                 </ul>
-                <ul class="col-md-2 footer-items">
+                <ul class="col-md-3 footer-items">
                     <li><a href="https://docs.galaxyproject.org/">API documentation</a></li>
                     <li><a href="/community/contributing/">Contributing</a></li>
                     <li><a href="/gcc/">Galaxy Community Conferences</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="https://pulsar.readthedocs.io/">Pulsar</a></li>
                     <li><a href="https://total-perspective-vortex.readthedocs.io/">TPV</a></li>
                 </div>
-                <div id="social-items" class="col-md-2 footer-items">
+                <div id="social-items" class="col-md-1 footer-items">
                     <li><a href="https://github.com/galaxyproject/">GitHub</a></li>
                     <li><a href="https://matrix.to/#/#galaxyproject_Lobby:gitter.im">Matrix</a></li>
                     <li><a href="https://www.youtube.com/@GalaxyProject">YouTube</a></li>
