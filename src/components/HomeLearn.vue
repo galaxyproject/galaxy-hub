@@ -1,19 +1,44 @@
 <template>
-    <div class="container-fluid-real mt-4 p-3 bgBright sectionLearn">
-        <div class="container">
-            <div class="row">
-                <div class="col col-4">
-                    <h2 class="gx-h2-dark">Learn</h2>
-                    <p class="text">
-                        From curated tools and workflows to self-paced tutorials available on the Galaxy Training Network (GTN), there are plenty of materials to learn from.
-                    </p>
+    <div class="container-fluid-real sectionLearn p-0">
+        <div class="container-fluid-real bgBright bgBrightGradient">
+            <div class="container-fluid-real p-0">
+                <div class="row">
+                    <svg viewBox="15 0 80 40" preserveAspectRatio="none" width="5000" height="50" class="wave top">
+                        <use xlink:href="images/icons/wave.svg#path" />
+                    </svg>
                 </div>
-                <div class="col col-8">
-                    <a :href="b.link" v-for="b in this.buttonContent" :key="b.title" role="button" rel="noopener" target="_blank" class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3">
-                        <span class="icon fa far fa-arrow-circle-o-right iconXlarge pt-2" aria-hidden="true"></span>
-                        <div class="title text-decoration">{{ b.title }}</div>
-                        <div class="text text-decoration">{{ b.text }}</div>
-                    </a>
+            </div>
+            <div class="container p-3">
+                <div class="row">
+                    <div class="col col-4">
+                        <h2 class="gx-h2-dark">Learn</h2>
+                        <p class="text">
+                            From curated tools and workflows to self-paced tutorials available on the Galaxy Training
+                            Network (GTN), there are plenty of materials to learn from.
+                        </p>
+                    </div>
+                    <div class="col col-8">
+                        <a
+                            :href="b.link"
+                            v-for="b in this.buttonContent"
+                            :key="b.title"
+                            role="button"
+                            rel="noopener"
+                            target="_blank"
+                            class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
+                        >
+                            <span class="icon fa far fa-arrow-circle-o-right iconXlarge pt-2" aria-hidden="true"></span>
+                            <div class="title text-decoration">{{ b.title }}</div>
+                            <div class="text text-decoration">{{ b.text }}</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid-real p-0">
+                <div class="row">
+                    <svg viewBox="15 0 80 40" preserveAspectRatio="none" width="5000" height="50" class="wave">
+                        <use xlink:href="images/icons/wave.svg#path" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -22,7 +47,7 @@
 
 <script>
 export default {
-    name: 'HomeLearn',
+    name: "HomeLearn",
     data() {
         return {
             buttonContent: [
@@ -66,22 +91,29 @@ export default {
                     text: "",
                     link: "https://help.galaxyproject.org/",
                 },
-            ]
+            ],
         };
-    }
-}
+    },
+};
 </script>
 
 <style scoped>
-
 .gx-h2-dark {
-  font-size: 3rem;
-  font-weight: 700;
-  color: black;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
 }
 
 .text {
     font-size: 1.45rem;
+}
+
+svg.wave {
+    fill: #2c3143;
+    display: inline;
+    &.top {
+        transform: rotate(180deg);
+    }
 }
 
 a {

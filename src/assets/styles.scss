@@ -40,8 +40,8 @@ $carousel-control-width: 5%;
 
 $home-body-bg: $brand-dark;
 $home-accent-brightest: #82ffff;
-$home-accent-brighter: #60FB8C;
-$home-accent-bright: #2ad8fe;// #00B8F5;
+$home-accent-brighter: #60fb8c;
+$home-accent-bright: #2ad8fe; // #00B8F5;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
@@ -65,7 +65,6 @@ html {
 //     margin-bottom: 60px;
 // }
 
-
 // ==== Home ====
 
 .layoutHome {
@@ -84,7 +83,7 @@ html {
     background-color: $home-accent-bright;
 }
 
-.sectionLearn {
+.bgBrightGradient {
     background-image: linear-gradient($home-accent-bright, $home-body-bg 99%);
 }
 
@@ -169,7 +168,8 @@ footer {
         }
     }
 }
-#masthead.mastheadHome { //TODO better integrate
+#masthead.mastheadHome {
+    //TODO better integrate
     background-color: white;
 }
 
