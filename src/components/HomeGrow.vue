@@ -8,15 +8,30 @@
         <div class="row">
             <div class="col">
                 <div class="card bg1">
-                    <a href="https://www.zotero.org/groups/1732893/galaxy" rel="noopener" target="_blank" class=" text-white">
+                    <a
+                        href="https://www.zotero.org/groups/1732893/galaxy"
+                        rel="noopener"
+                        target="_blank"
+                        class="text-white"
+                    >
                         <h2 class="font-weight-bold">Recent publications</h2>
                     </a>
-                    <a :href="p.link" class="mb-3 text-white small" v-for="p in papers" role="button" rel="noopener" target="_blank">{{ p.title }}</a>
+                    <a
+                        :href="p.link"
+                        class="mb-3 text-white small"
+                        v-for="p in papers"
+                        role="button"
+                        rel="noopener"
+                        target="_blank"
+                        >{{ p.title }}</a
+                    >
                     <a href="citing-galaxy/" class="text-white">
                         <h2 class="font-weight-bold">Cite Galaxy</h2>
                     </a>
                     <span class="small text-white">
-                        The Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W345–W351.
+                        The Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative
+                        biomedical analyses: 2022 update, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022,
+                        Pages W345–W351.
                     </span>
                 </div>
             </div>
@@ -31,19 +46,27 @@
                         </li>
                     </ul>
                     <div class="d-flex justify-content-center">
-                        <a href="https://training.galaxyproject.org" role="button" rel="noopener" target="_blank" class="btn btn-info text-decoration-none mb-4 w-50">See more</a>
+                        <a
+                            href="https://training.galaxyproject.org"
+                            role="button"
+                            rel="noopener"
+                            target="_blank"
+                            class="btn btn-info text-decoration-none mb-4 w-50"
+                            >See more</a
+                        >
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card bg3">
                     <h2 class="font-weight-bold">Exemplar use cases</h2>
-                    See how Galaxy cooperates and helps other projects. These are great exemplars of how Galaxy is being used in production settings.
+                    See how Galaxy cooperates and helps other projects. These are great exemplars of how Galaxy is being
+                    used in production settings.
                     <div class="row mt-4 mb-4">
                         <div class="col">
                             <div class="text-center mt-4">
                                 <a href="projects/vgp/" rel="noopener" target="_blank">
-                                    <img src="/images/vgp/vgp_logo_dark.svg" alt="VGP logo" class="w-100">
+                                    <img src="/images/vgp/vgp_logo_dark.svg" alt="VGP logo" class="w-100" />
                                 </a>
                             </div>
                         </div>
@@ -52,7 +75,11 @@
                         <div class="col">
                             <div class="text-center mt-3">
                                 <a href="projects/microbial/" rel="noopener" target="_blank">
-                                    <img src="/images/microgalaxy/microgalaxy_logo.svg" alt="microGalaxy logo" class="w-100">
+                                    <img
+                                        src="/images/microgalaxy/microgalaxy_logo.svg"
+                                        alt="microGalaxy logo"
+                                        class="w-100"
+                                    />
                                 </a>
                             </div>
                         </div>
@@ -73,7 +100,7 @@
 
 <script>
 export default {
-    name: 'HomeGrow',
+    name: "HomeGrow",
     data() {
         return {
             papers: [
@@ -111,17 +138,17 @@ export default {
                     title: "RNA-Seq reads to counts",
                     link: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html",
                 },
-            ]
+            ],
         };
-    }
-}
+    },
+};
 </script>
 
 <style scoped>
 .gx-h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
 }
 
 .sectionGrow {
@@ -145,15 +172,15 @@ export default {
         }
 
         &.bg1 {
-            background: linear-gradient(155deg, #00A7E1 44%, rgba(249,206,215,.8));
+            background: linear-gradient(155deg, #00a7e1 44%, rgba(249, 206, 215, 0.8));
         }
 
         &.bg2 {
-            background: linear-gradient(155deg, rgba(249,206,215,.8) 4%, rgba(63, 227, 249, .8)); /* #3FE3F9); */
+            background: linear-gradient(155deg, rgba(249, 206, 215, 0.8) 4%, rgba(63, 227, 249, 0.8)); /* #3FE3F9); */
         }
 
         &.bg3 {
-            background: linear-gradient(155deg, rgba(63, 227, 249, .8) 44%, #C6A669);
+            background: linear-gradient(155deg, rgba(63, 227, 249, 0.8) 44%, #c6a669);
         }
     }
 
