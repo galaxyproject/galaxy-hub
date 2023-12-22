@@ -14,31 +14,30 @@
                     in data analysis
                 </h1>
                 <p>
-                    Galaxy is a free, open-source system for analyzing data,
-                    authoring workflows, training and education, publishing
-                    tools, managing infrastructure, and more.
+                    Galaxy is a free, open-source system for analyzing data, authoring workflows, training and
+                    education, publishing tools, managing infrastructure, and more.
                 </p>
                 <a href="https://usegalaxy.org/" class="btn h-btn mr-3 bgBright">Use Galaxy now</a>
                 <a href="/learn-more/" class="btn h-btn bgBright">Learn more</a>
             </div>
             <div class="col-md-5">
-                <video-player :src="videoSrc" style="border-radius: 10px;"/>
+                <video-player :src="videoSrc" style="border-radius: 10px" />
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import VideoPlayer from '@/components/VideoPlayer.vue';
+import VideoPlayer from "@/components/VideoPlayer.vue";
 
 export default {
-    name: 'Hero',
+    name: "Hero",
     components: {
         VideoPlayer,
     },
     data() {
         return {
-            videoSrc: '',
+            videoSrc: "",
         };
     },
 };
@@ -53,7 +52,7 @@ export default {
 }
 
 .container {
-    background-color: #2C3143;
+    background-color: #2c3143;
     padding: 20px;
 }
 
@@ -67,7 +66,7 @@ export default {
 
 .text-section p {
     font-size: 1.5rem;
-    color: #A5A5A5;
+    color: #a5a5a5;
     margin-bottom: 20px;
 }
 
@@ -75,5 +74,4 @@ export default {
     font-size: 1.3rem;
     font-weight: 500;
 }
-
 </style>
