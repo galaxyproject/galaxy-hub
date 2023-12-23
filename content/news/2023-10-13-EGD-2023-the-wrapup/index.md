@@ -25,21 +25,22 @@ subsites: [all, esg]
 
 </div>
 
-About a week ago the [2023 edition of the European Galaxy Days (EGD 2023)](/events/2023-10-egd) has ended, and we can say: it was a pleasure! The three days were as intense as exciting, no matter whether during the talks, between the session at coffee or lunch, or in the (partly long) evenings in various gastronomical outposts in the city.
+About a week ago the [2023 edition of the European Galaxy Days (EGD 2023)](/events/2023-10-egd) was held in Freiburg, Germany! We had three beautiful days, with a lot of talks, and discussions between sessions at coffee or lunch, or in the evenings in various bars and restaurants in the city.
  
-Not least, the EGD were a great success. While for many of us this year's [GCC in Australia](/events/gcc2023/) was too far away, we loved to offer again some time and space to you in the middle of Europe to gather together. Close to 80 participants joined, and like for the [EGD 2022](/events/2022-10-egd/), effectively we had a triple event this year, too.
+While for many of us, this year's [GCC in Australia](/events/gcc2023/) was too far away, we enjoyed offering some time and space for our community to gather together in the middle of Europe. Close to 80 participants joined, and like for the [EGD 2022](/events/2022-10-egd/), effectively we had a triple event this year, too. We co-located the event with the ELIXIR Galaxy Community F2F meeting and the [EuroScienceGateway](/projects/esg/) (ESG) General Assembly meeting.
 
 ### ELIXIR Galaxy Community F2F Meeting
 
-[ELIXIR's Galaxy Community](https://elixir-europe.org/communities/galaxy) finally could have its [face-to-face meeting](https://elixir-europe.org/events/elixir-galaxy-community-meeting-0), after in the beginning of the year the strong wish arose to meet in person again. So, what would have been a better place for a F2F than the EGD, having the opportunity to meet also non-ELIXIR people, enjoy more talks, and present achievements to the larger public? 
+The [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) had its [face-to-face meeting](https://elixir-europe.org/events/elixir-galaxy-community-meeting-0), after at the beginning of the year the strong wish arose to meet in person again. So, what would have been a better place for a F2F than the EGD, having the opportunity to meet also non-ELIXIR people, enjoy more talks, and present achievements to the larger public? 
 
-Consequently, we had a dedicated ELIXIR session on day 1, [introducing the community](https://galaxyproject.org/events/2023-10-egd/egd/ELIXIR-presentation_2023_10_Galaxy-Community-F2F_EGD_presentation.pdf), but also providing a broad overview on community-derived topics: [Fair Data Management training](https://docs.google.com/presentation/d/1SWO73pjufZI44KjkHg_EUzjMhcgOAeHy/edit#slide=id.g287f34dccc2_0_1098), [mass spectrometry](https://docs.google.com/presentation/d/1FNj_qEPQ2bDHMqNp-qjj1iEnqeArEIm4/edit#slide=id.p1), [connecting OMERO to Galaxy for image analysis](https://galaxyproject.org/events/2023-10-egd/egd/Lucille_Delisle_galaxy_omero.pdf) and [genome annotations on really large scale](https://docs.google.com/presentation/d/1BwZ7W_tg2kbVwIKRsN4abOAtuQJCGIcOkr1tGrO5sKQ). A visual highlight was the presentation officially closing our community's participation in the [ELIXIR staff exchange programme](https://elixir-europe.org/internal-projects/staff-exchange-programme), which enabled 14 members to visit the [GCC 2023 in Brisbane, and beyond](https://elixir-europe.org/news/australia_visit_2023) integrate deeper with Australian colleagues and organizations.
+Consequently, we had a dedicated ELIXIR session on day 1, [introducing the community](https://galaxyproject.org/events/2023-10-egd/egd/ELIXIR-presentation_2023_10_Galaxy-Community-F2F_EGD_presentation.pdf), but also providing a broad overview on community-derived topics: [Fair Data Management training](https://docs.google.com/presentation/d/1SWO73pjufZI44KjkHg_EUzjMhcgOAeHy/edit#slide=id.g287f34dccc2_0_1098), [mass spectrometry](https://docs.google.com/presentation/d/1FNj_qEPQ2bDHMqNp-qjj1iEnqeArEIm4/edit#slide=id.p1), [connecting OMERO to Galaxy for image analysis](https://galaxyproject.org/events/2023-10-egd/egd/Lucille_Delisle_galaxy_omero.pdf) and [genome annotations on really large scale](https://docs.google.com/presentation/d/1BwZ7W_tg2kbVwIKRsN4abOAtuQJCGIcOkr1tGrO5sKQ). A visual highlight was the presentation officially closing our community's participation in the [ELIXIR staff exchange program](https://elixir-europe.org/internal-projects/staff-exchange-programme), which enabled 14 members to visit the [GCC 2023 in Brisbane, and beyond](https://elixir-europe.org/news/australia_visit_2023) integrate deeper with Australian colleagues and organizations.
 
-Speaking of funding we like to emphasize ELIXIR's great role in enabling us to [again](/events/2022-10-egd/#supporters) carry out the EGD. We thank both Hub and DE node for their generous funding of the _overall_ event and supportive way in organizing! Not least, travel funding enabled a number of participants to join.
+We want to highlight ELIXIR's role in enabling us to [again](/events/2022-10-egd/#supporters) carry out the EGD. We thank both the ELIXIR-Hub and ELIXIR-DE for their generous funding of the overall event
+and the travel funding of a few of our community members.
 
 ### [EuroScienceGateway](/projects/esg/) (ESG) General Assembly
 
-The sub-meeting mostly set on day 3 in parallel with the CoFest marked the project's turnover from year 1 to year 2, and entering the finalization phase for our first report (which is why we had a dedicated BoF). Thus, we had a wrap-up of our achievements, and could note that we are well on track having ESG's proposal in mind. For sure, planning the project's second year was the central task, matching the proposal with recent developments and particular expectations of the partners as well as the (European) research landscape. 
+The sub-meeting in parallel with the CoFest marked the project's turnover from year 1 to year 2 and entered the finalization phase for our first report. Thus, we had a wrap-up of our achievements. For sure, planning the project's second year was the central task, matching the proposal with recent developments and particular expectations of the partners as well as the (European) research landscape. 
 
 Highlights of ESG's first year in a nutshell: 
  * usegalaxy.eu's user base is growing fast, having passed 77k recently
@@ -58,7 +59,6 @@ Several results and work in progress were presented in the dedicated ["ESG meets
 * 41 ELIXIR members from 11 nodes
 * 28 ESG members from 15 partners
 * 25 public talks, 4 BOFs, 1 full-day CodeFest
-* Many breadroles, cookies and several units of coffee
 * Countless chats, connections, smiles
 
 An explicitly incomplete, unordered list of memorable impressions, and items worth to (re-)read yourself:
@@ -75,7 +75,7 @@ An explicitly incomplete, unordered list of memorable impressions, and items wor
 
 ## The Community
 
-Having wrapped up a lot on contents and numbers, the most important thing has not been acknowledged yet - you. Galaxy is nothing without the people, and we had a great atmosphere. Find impressions down below on 'the human factor'. Thanks a ton for all your energy!
+Having wrapped up a lot of content and numbers, we would like to thank everyone involved during the meeting, and the overall community. Thanks a ton for all your energy to democratize data analysis.
 
 <div style="max-width: 800px">
 
@@ -83,10 +83,9 @@ Having wrapped up a lot on contents and numbers, the most important thing has no
 
 </div>
 
-
 ## Survey
 
-We believe there is always space for improvement, and we like to hear your voice. Thus, please support us with filling the survey that has been sent to the participants - it just takes a minute or two.
+We believe there is always space for improvement, and we like to hear your voice. Thus, please support us with filling out the survey that has been sent to the participants - it just takes a minute or two.
 
 ## Goodbye!
 
