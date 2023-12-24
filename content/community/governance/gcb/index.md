@@ -21,7 +21,6 @@ In summary, the goals of the GCB are:
 * communicate scientist (user) vision and feedback to the GTB and GEB;
 * develop proposals to advance scientist (user) goals in the Galaxy community.
 
-
 ## Community Special Interest Groups (SIGs)
 
 The GCB is a governance structure representing groups that are not primarily technical in nature, such as existing Proteomics and Microbial communities, though engaging in capacity building, toolkit development, outreach and training. The term “Special Interest Group” (SIG) is proposed as a term referring to these kinds of groups. No specific restrictions are proposed, other than making a useful contribution to the Project, so collaborating commercial users could form and manage their own SIG and gain access to the Roadmap process. 
@@ -67,7 +66,8 @@ is the first point of contact for anyone wanting to form a new SIG. To illustrat
 
 ### Prevent work duplication
 
-It’s surprisingly easy for individuals halfway across the world to need the same tool and build the same tool. What a waste of time when there are so many cool things to do!
+It’s surprisingly easy for individuals halfway across the world to need the same tool and build the same tool.
+What a waste of time when there are so many cool things to do!
 
 ### Highlight new resources
 

@@ -6,7 +6,16 @@ title: "Galaxy Working Groups and Projects"
 
 **Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
 
-Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/).  
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/) and are represented by the [Galaxy Technical Board](/community/governance/tcb/).
+
+## Committers Groups
+
+**Keywords:** Tactical emphasis, short and medium term planning, repo focused, applied
+
+Cutting across all Working Groups, *[Committers Groups](/community/committers/)* are responsible for what goes into the project repositories
+(and in Galaxy *everything* goes into repositories, including training materials and web sites). Each GitHub repository  has its own committers group,
+and each group is responsible for setting its own policies and membership. Committers have been around since the start of the project in 2005,
+and have been community-driven since 2015.
 
 ## Current set of Working Groups
 

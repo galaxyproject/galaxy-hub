@@ -7,54 +7,39 @@
 Several community groups have been formed so that project governance truly reflects the global community that Galaxy has become.
 
 ## Project Mission Statement
-The Galaxy project is a global open science collaboration providing free access to shareable, reproducible, transparent, best practice data intensive analysis for all researchers.
+
+The Galaxy project is a global open science collaboration providing free access to shareable, reproducible, transparent,
+best practice data intensive analysis for all researchers.
 
 In support of this mission, project activities include maintaining source code, documentation, data analysis tools, training resources, analysis services, technical support, and an inclusive, self-governing community.
 
 ## Galaxy Technical Board (TCB)
 
-The TCB is a governance structure representing [Galaxy Working Groups](/community/wg/) (WGs) that manage different aspects of the Galaxy Ecosystem.
-The Galaxy Working Groups and the TCB is focussed on technical development, manage important project infrastructure assets,
-including source code. WGs are self-organised, and nominate a representative, which serves on the TCB. The TCB contributes to the
-roadmap, especially by providing technical input.
+The [TCB](/community/governance/tcb/) is a governance structure representing [Galaxy Working Groups](/community/governance/wg/) (WGs) that manage
+different aspects of the Galaxy Ecosystem.
+The Galaxy Working Groups and the [TCB](/community/governance/tcb/) is focussed on technical development, manage important project infrastructure assets,
+including source code. WGs are self-organised, and nominate a representative, which serves on the [TCB](/community/governance/tcb/).
+The [TCB](/community/governance/tcb/) contributes to the roadmap, especially by providing technical input.
+
+Read more about [Galaxy Working Groups](/community/wg/).
 
 ## Galaxy Community Board (GCB)
 
-The [GCB](/community/gcb/) is a governance structure representing “Special Interest Groups” that are not primarily technical in nature, such as existing
-Proteomics and Microbial communities, engaging in capacity building, toolkit development and training. The GCB will provide a supportive virtual forum
+The [GCB](/community/governance/gcb/) is a governance structure representing “Special Interest Groups” that are not primarily technical in nature, such as existing
+Proteomics and Microbial communities, engaging in capacity building, toolkit development and training.
+The [GCB](/community/governance/gcb/) will provide a supportive virtual forum
 for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work,
 including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development;
-managing coherent, community owned proposals and responses in the roadmap processes and other important Project decision making.  
+managing coherent, community owned proposals and responses in the roadmap processes and other important Project decision making.
 
 ## Galaxy Executive Board (GEB)
 
-The [GEB](/community/geb/) is the top-level community governance structure, responsible for the overall direction and coordination of project activities,
+The [GEB](/community/governance/geb) is the top-level community governance structure, responsible for the overall direction and coordination of project activities,
 to ensure coherence, efficiency, integrity, growth, and long term sustainability. Board responsibilities include providing authoritative project-wide,
 external representation; leadership in scientific, technical, governance and community development goals; supporting communication and global activity
 coordination for efficient use of resources and timely completion of milestones; and arbitration among collaborators, users and communities.
 
-
-## Galaxy Executive Board
-
-**Keywords:** Strategic emphasis, long term planning and direction
-
-The *[Galaxy Exec](/community/exec/)* is a group of principal investigators from around the world.  The first iteration of this was formed at the _Galaxy Directions Summit_ in 2019, which gathered together ~20 PIs from around the world.
-
-
-
-## Galaxy Working Groups
-
-**Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
-
-*[Galaxy Working Groups](/community/wg/)* are community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.
-
-	
-## Committers Groups
-
-**Keywords:** Tactical emphasis, short and medium term planning, repo focused, applied
-
-Cutting across all Working Groups, *[Committers Groups](/community/committers/)* are responsible for what goes into the project repositories, and in Galaxy *everything* goes into repositories, including training materials and web sites.  Each repo has its own committers group, and each group is responsible for setting its own policies and membership. Committers have been around since the start of the project in 2005, and have been community-driven since 2015.
-
+<!-- ToDo move to the SIGs page -->
 ## Project Management Office (PMO)
 
 **Keywords:** Project management, support, coordination, international opportunities, roadmap, coc, well-being, community
@@ -71,9 +56,9 @@ The [Project Management Office (PMO)](/community/pmo) supports the different bod
 
 **Proposed governance workflow:**
 
-* [Galaxy Exec](/community/exec/): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz.
-* [Global Steering Committee](/community/steering/): collaborators from active Galaxy communities.
-* [Working groups](/community/wg/): groups of community members responsible for various parts of the Galaxy ecosystem.  
+* [Galaxy Executive Board](/community/governance/geb): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz.
+* [Galaxy Community Board](/community/governance/gcb): collaborators from active Galaxy communities.
+* [Galaxy Technical Board](/community/governance/gtb): groups of community members responsible for various parts of the Galaxy ecosystem.
 * Idea by Björn Grüning, Hans-Rudolf Hotz and others.
 
 The overall idea is:
