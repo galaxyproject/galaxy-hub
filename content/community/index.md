@@ -13,6 +13,95 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 <small>GCC2019 in Freiburg, Germany, photo by Bérénice Batut</small>
 </div>
 
+---
+
+A major goal of the Galaxy Community is to promote the expansion, sustainability and impact of the Galaxy project, by promoting:
+
+* Growth: Recruiting new members to the “Galaxy Community”. Primarily through conferences, seminars, trainings, publications and
+other events that expose external individuals to Galaxy, and through collaborations with research communities and projects
+
+* Retention: Encouraging existing members to stay active or to return for future analyses. Primarily through Galaxy processes that minimize friction,
+e.g having all tools available that are needed for to compute a desired analysis; stable releases that can quickly and reliably execute analysis and
+return results; well documented code and release notes to synchronize admins, users, developers, and trainers; community standards that maintain a
+healthy ecosystem; and building engaged user communities.
+
+* Empowerment: Increasing the productivity and capabilities of community members. This includes increasing the compute resources available
+(e.g. cores/RAM/disk/GPU); optimizing training infrastructures to promote successful events; providing robust software for Galaxy admins working
+in diverse environments; sharing grant materials and metrics to optimize grant writing and reporting, empowering people in their career progression
+by enabling and supporting uptake of  responsibilities in the community 
+
+* Evolve: Identifying new opportunities early to support researchers adopting and exploring new developments and ensure the project stays relevant and state-of-the-art 
+
+Best practices for data-intensive science: Promoting open, transparent, reproducible, and collaborative data-driven science that is
+accessible to everyone regardless of their informatics expertise.
+
+It is important to highlight that “community growth” includes both the quantity and quality of the interactions: recruiting new users
+is obviously valuable, but retention is just as critical.  A goal for growth is to demonstrate the value of the software and community
+to the audience so they become long-term active participants.
+
+---
+
+## Who are we?
+
+The “Galaxy Community” is composed of several overlapping groups of individuals.
+It is common for one person to contribute to multiple groups. The major groups include:
+
+### Users: Signs in and Uses Galaxy to do something
+
+* New user: signs in and runs a tool with demo data
+* Learner: signs in specifically for a training event
+* Users & Researchers: sign in occasionally
+* Power users: sign in regularly
+* “Churned user”: briefly signs in but never returns or leaves following a task completion (eg, workshop, class, research project, degree)
+
+### Software tool developers: Develops software and analysis tools that are integrated into Galaxy
+
+* Create scripts and other software that perform data analyses but does not use Galaxy or contribute to software framework development
+* Goal is to make it exceedingly simple for these developers to integrate their scripts/tools/visualizations into Galaxy
+* Typical progression: aware of Galaxy, appreciates Galaxy, integrates tool(s) into Galaxy, get reward for adding their content to Galaxy
+
+### Galaxy framework developers: Contributes to Galaxy codebase and supporting software ecosystem 
+
+* Galaxy-funded and community developers (not directly funded by a Galaxy grant)
+* Often need assistance to get started as framework code is complex
+* Typical Progression: New developer; developer; approved committer; working group lead (https://galaxyproject.org/community/committers/)
+
+### Trainers, Support, and Outreach: Promotes the use, development & deployment of Galaxy
+
+* Galaxy-funded and community trainers
+* Develops GTN/Hub content, runs workshops, leads classrooms, presents seminars
+* Promotes events on social media, Hub, newsletters
+* Responds to questions on Matrix/Slack/help.galaxyproject.org/
+* Includes both the internal activities (e.g. how to add new features to Galaxy) and external activities (e.g. how to use Galaxy for single cell analysis)
+
+### Admins: Sets up and maintains Galaxy server(s) for ongoing use
+
+* Galaxy-funded
+* usegalaxy.* (e.g. usegalaxy.org, usegalaxy.eu, usegalaxy.org.au)
+* National servers (e.g. usegalaxy.ca, usegalaxy.be)
+* Academic institutional servers (e.g. Rockefeller University)
+* Private servers (e.g. Astrazeneca)
+
+### Leadership: Manages and oversees Galaxy activities
+
+* PIs, PMOs, finance administration, HR
+* Grant lifecycle: application, reporting, closeout
+* Helps determine project priorities based on funded milestones, and tries to anticipate needs in the future
+* Responsible for recruiting personnel, resolving conflicts, rewarding contributions
+* Oversee publications, presentations, and other outputs
+* Oversee GCC organization
+
+The success of each group depends on the health and success of the other groups. For example: 
+* trainers are needed to grow and support the community; 
+* users rely on developers, admins, and trainers to do their work; 
+* developers need feedback from users & trainers, and need admins to deploy their work; 
+* admins need developers for robust code; 
+
+Consequently the success of the project relies on clear communication and trust between all stakeholders.
+Critical to the success of this diverse community is creating and articulating incentives for each set of stakeholders to contribute to the Galaxy project.
+
+---
+
 # Galaxy Community Conference
 
 <img class="float-right" style="max-width: 16rem;" src="/images/events/gcc2021/gcc2021-logo-wide-trans.png">
