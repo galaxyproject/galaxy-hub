@@ -8,7 +8,12 @@ We could describe it here, but really, see the web site that is generated from t
 
 ## More info
 
-The main documentation for the Hub is kept on the Hub itself! See [this page](https://galaxyproject.org/hub/) for info on things like contributing content and running the site locally. Of course, since this repo is the source for the site, you can also find the documentation here. The source for that page is in [content/hub/index.md](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/index.md).
+The main documentation for the Hub is kept on [the Hub](https://galaxyproject.org/hub/) itself! See:
+* ["Contributing"](https://galaxyproject.org/hub/contributing/) for information on contributing content and running the site locally for development purposes
+* ["Markdown"](https://galaxyproject.org/hub/contributing/markdown/) for information on formatting pages
+* ["Subsites"](https://galaxyproject.org/hub/global/) for information on accessing existing subsites or starting your own Hub subsite
+
+Of course, since this repo is the source for the site, you can also find the documentation here. The source for that page is in [content/hub/index.md](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/index.md).
 
 ## Creating static pages
 
