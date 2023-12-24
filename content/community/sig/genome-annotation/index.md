@@ -1,8 +1,10 @@
 ---
 description: "Galaxy as a platform for the annotation of genomes"
-autotoc: true
+autotoc: false
 title: "Galaxy Genome Annotation Community of Practice"
 ---
+
+<slot name="/community/sig/common_linkbox" />
 
 <img class="img-fluid float-right" src="/images/logos/gga-logo.png" style="width:200px;" alt="Logo for Galaxy Genome Annotation community. The 3 capital letters in different colors."/>
 
@@ -23,7 +25,7 @@ Saying that, we'd absolutely love to have users feedback on their experiences to
 
 # What are the goals of the single cell community of practice?
 
-🎯Goals
+🎯 Goals
 - Prevent work duplication
 - Collaborate across pipeline, ensuring users feedback to developers
 - Identify community needs

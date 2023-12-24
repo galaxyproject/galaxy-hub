@@ -4,11 +4,13 @@ autotoc: true
 title: "Galaxy Computational Chemistry Community of Practice"
 ---
 
+<slot name="/community/sig/common_linkbox" />
+
 We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the <>. Do you use Galaxy <>? Do you have feedback for us? Want to be a tester of new resources? Want to impact the future of Computational Chemistry in Galaxy? Are you a developer looking for a place to play? Are you developing Galaxy Computational Chemistry materials and want to stay aware of what others are doing in this field?
 
-**Welcome to the Galaxy <> Community of Practice!**
+**Welcome to the Galaxy Computational Chemistry Community!**
 
-# I'm just trying to learn to analyse my data, how did I get here?
+# I'm just trying to learn to analyse my data, how did I get there?
 
 Hello user! You'll be interested in the following resources:
 
@@ -22,7 +24,7 @@ Saying that, we'd absolutely love to have users feedback on their experiences to
 
 # What are the goals of the <> community of practice?
 
-🎯Goals
+🎯 Goals
 - Prevent work duplication
 - Collaborate across pipeline, ensuring users feedback to developers
 - Identify community needs

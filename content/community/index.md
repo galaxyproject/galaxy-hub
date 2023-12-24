@@ -21,7 +21,7 @@ In 2010 the National Science Foundation initiated a yearly gathering of Galaxy u
 
 # Set up your own community
 
-Galaxy is composed of plenty of subcommunities, either [regional](/community/regional/) or [communities of practice](/community/practice/). Check them out and if you find one suitable for you, please see [**here**](/get-started/new-leads/) on how to set up your own.
+Galaxy is composed of plenty of subcommunities, either [regional](/community/sig/#regional-communities) or [communities of practice](/community/sig/#communities-of-practice). Check them out and if you find one suitable for you, please see [**here**](/get-started/new-leads/) on how to set up your own.
 
 
 # Galaxy Mentor Network

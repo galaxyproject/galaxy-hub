@@ -4,6 +4,8 @@ autotoc: true
 title: "Microbial data analysis in Galaxy"
 ---
 
+<slot name="/community/sig/common_linkbox" />
+
 Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics,  transcriptomics, proteomics or metabolomics, multiomics or integrative analysis **this is the place to be**!
 
 **[microGalaxy](#microgalaxy-community)** is a community of practice in the Galaxy community for anything regarding microbial data analysis in Galaxy!

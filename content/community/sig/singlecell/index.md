@@ -4,6 +4,8 @@ autotoc: true
 title: "Galaxy Single Cell Community of Practice"
 ---
 
+<slot name="/community/sig/common_linkbox" />
+
 <img class="img-fluid float-right" src="/community/sig/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
 
 We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities.
