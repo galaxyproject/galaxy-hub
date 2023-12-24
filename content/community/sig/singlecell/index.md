@@ -4,7 +4,7 @@ autotoc: true
 title: "Galaxy Single Cell Community of Practice"
 ---
 
-<img class="img-fluid float-right" src="/projects/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
+<img class="img-fluid float-right" src="/community/sig/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
 
 We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities.
  - **Developers**: Are you developing single cell tools in Galaxy, or looking for a place to develop in Galaxy? Do you need users, testers, or just want to make sure you're not wrapping the same tools as someone else!

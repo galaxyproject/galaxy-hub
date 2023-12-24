@@ -15,17 +15,17 @@ In support of this mission, project activities include maintaining source code, 
 
 ## Galaxy Technical Board (TCB)
 
-The [TCB](/community/governance/tcb/) is a governance structure representing [Galaxy Working Groups](/community/governance/wg/) (WGs) that manage
+The [TCB](/community/governance/gtb/) is a governance structure representing [Galaxy Working Groups](/community/wg/) (WGs) that manage
 different aspects of the Galaxy Ecosystem.
-The Galaxy Working Groups and the [TCB](/community/governance/tcb/) is focussed on technical development, manage important project infrastructure assets,
-including source code. WGs are self-organised, and nominate a representative, which serves on the [TCB](/community/governance/tcb/).
-The [TCB](/community/governance/tcb/) contributes to the roadmap, especially by providing technical input.
+The Galaxy Working Groups and the [TCB](/community/governance/gtb/) is focussed on technical development, manage important project infrastructure assets,
+including source code. WGs are self-organised, and nominate a representative, which serves on the [TCB](/community/governance/gtb/).
+The [TCB](/community/governance/gtb/) contributes to the roadmap, especially by providing technical input.
 
 Read more about [Galaxy Working Groups](/community/wg/).
 
 ## Galaxy Community Board (GCB)
 
-The [GCB](/community/governance/gcb/) is a governance structure representing “Special Interest Groups” that are not primarily technical in nature, such as existing
+The [GCB](/community/governance/gcb/) is a governance structure representing *[Special Interest Groups](/community/sig/)* that are not primarily technical in nature, such as existing
 Proteomics and Microbial communities, engaging in capacity building, toolkit development and training.
 The [GCB](/community/governance/gcb/) will provide a supportive virtual forum
 for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work,

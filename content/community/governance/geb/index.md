@@ -1,4 +1,7 @@
-# Galaxy Executive Board (GEB)
+---
+title: Galaxy Executive Board (GEB)
+autotoc: false
+---
 
 **Keywords:** Strategic emphasis, long term planning and direction
 

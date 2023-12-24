@@ -8,9 +8,10 @@ title: "Galaxy Genome Annotation Community of Practice"
 
 We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy genome annotation capabilities. Do you use Galaxy genome annotation tools or workflows? Do you have feedback for us? Want to be a tester of new resources? Want to impact the future of genome annotation in Galaxy? Are you a developer looking for a place to play? Are you developing Galaxy genome annotation materials and want to stay aware of what others are doing in this field?
 
-**Welcome to the Galaxy Genome Annotation (GGA) Community of Practice!**
+# **Welcome to the Galaxy Genome Annotation (GGA) Community of Practice!**
 
-## I'm just trying to learn to analyse my data, how did I get here?
+I'm just trying to learn to analyse my data, how did I get here?
+
 Hello user! You'll be interested in the following resources:
 
  - [Learning pathway for getting to grips with Galaxy and genome annotation](https://training.galaxyproject.org/training-material/learning-pathways/genome-annotation-eukaryote.html)

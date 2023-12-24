@@ -23,7 +23,7 @@ In summary, the goals of the GCB are:
 
 ## Community Special Interest Groups (SIGs)
 
-The GCB is a governance structure representing groups that are not primarily technical in nature, such as existing Proteomics and Microbial communities, though engaging in capacity building, toolkit development, outreach and training. The term “Special Interest Group” (SIG) is proposed as a term referring to these kinds of groups. No specific restrictions are proposed, other than making a useful contribution to the Project, so collaborating commercial users could form and manage their own SIG and gain access to the Roadmap process. 
+The GCB is a governance structure representing groups that are not primarily technical in nature, such as existing Proteomics and Microbial communities, though engaging in capacity building, toolkit development, outreach and training. The term *[Special Interest Group](/community/sig)* (SIG) is proposed as a term referring to these kinds of groups. No specific restrictions are proposed, other than making a useful contribution to the Project, so collaborating commercial users could form and manage their own SIG and gain access to the Roadmap process. 
 
 Active contributing communities are encouraged to form and govern their own SIG, with a focus on specific shared interests. Each SIG may elect one member to represent their interests on the GCB. This is analogous to the Technical Board, consisting of representatives of the Working Groups (WG).
 
