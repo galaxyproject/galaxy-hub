@@ -6,7 +6,7 @@ title: "Galaxy Working Groups and Projects"
 
 **Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
 
-Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/) and are represented by the [Galaxy Technical Board](/community/governance/tcb/).
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/) and are represented by the [Galaxy Technical Board](/community/governance/gtb/).
 
 ## Committers Groups
 

@@ -27,7 +27,8 @@ Whether you are analysing microbiome samples or bacterial isolates, long reads o
   src="https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/">
 </iframe>
 
-If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia, [Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
+If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia,
+[Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
 
 <img img class="img-fluid mx-auto" src="/community/sig/microbial/wordcloud_microgalaxy.png" alt="microGalaxy tools"/>
 
@@ -113,7 +114,7 @@ Foodborne pathogen detection | | Metagenomics | Long reads | | Bérénice Batut,
 
 <img class="img-fluid float-right" src="/community/sig/microbial/microgalaxy-logo.png" style="width:200px;" alt="Logo for microgalaxy"/>
 
-microGalaxy is a [community of practice](/community/practice) to
+microGalaxy is a [community of practice](/community/sig/#communities-of-practice) to
 * **Develop** and **Sustain** microbial data analysis in Galaxy
 * Implement **standardised "best practices"**
 * Expand **documentation** and **training**
