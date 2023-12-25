@@ -4,7 +4,7 @@ autotoc: true
 title: "Microbial data analysis in Galaxy"
 ---
 
-Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics,  transcriptomics or proteomics, **this is the place to be**!
+Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics,  transcriptomics, proteomics or metabolomics, multiomics or integrative analysis **this is the place to be**!
 
 **[microGalaxy](#microgalaxy-community)** is a community of practice in the Galaxy community for anything regarding microbial data analysis in Galaxy!
 
@@ -14,10 +14,23 @@ Whether you are analysing microbiome samples or bacterial isolates, long reads o
 
 ## Tools
 
-**Many tools for microbial data analysis are freely available** in the ToolShed which can be installed on any Galaxy server. To keep an overview, the *[microGalaxy](#microgalaxy-community)* community of practice maintains a [**curated list**](https://docs.google.com/spreadsheets/d/1Nq_g-CPc8t_eC4M1NAS9XFJDflA7yE3b9hfSg3zu9L4/edit#gid=101894501) of the **150+ tools** available.
+**Many tools for microbial data analysis are freely available** in the ToolShed which can be installed on any Galaxy server. To keep an overview, the *[microGalaxy](#microgalaxy-community)* community of practice maintains a **curated list** of the **200+ tools** available.
+
+<iframe
+  id="inlineFrameExample"
+  title="Microbial related tools"
+  width="100%"
+  height="600"
+  frameBorder="0"
+  src="https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/">
+</iframe>
 
 If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia, [Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
 
+<img img class="img-fluid mx-auto" src="/projects/microbial/wordcloud_microgalaxy.png" alt="microGalaxy tools"/>
+
+The wordcloud is based on the number of users that used the shown tools since beginning of 2022 until Sept. 2023. The usage
+numbers were queried from useglaxy.eu and the tools comprise all dedicated tools selected for this community.
 
 ## Workflows and tutorials
 
@@ -31,6 +44,7 @@ Several curated Galaxy workflows are publicly available for different kinds of m
 |--------|-----------|------------|----------|--------------|----------|-------|
 | Bacteria | 16S | Short reads | Taxonomic Profiling | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | mothur SOP
 | Bacteria | 16S | Long reads | Taxonomic Profiling  | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
+| Bacteria, Fungi | SSU, LSU and ITS | Short reads | Taxonomic Profiling and Visualization |  WIP | WIP | <a href="https://www.ebi.ac.uk/metagenomics/pipelines/5">Amplicon part of MGnify v5</a>  
 | All | Shotgun metagenomics | Short reads | Taxonomic Profiling, Functional Analysis | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | <a href="https://asaim.readthedocs.io/en/latest/workflows.html">ASaiM Docs</a>
 | Plasmid | Shotgun metagenomics | Long reads | AMR detection | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
 | Beer microbiome | Shotgun metagenomics  | Long reads | Taxonomic profiling | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/beer-data-analysis/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/beer-data-analysis/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
@@ -38,7 +52,7 @@ Several curated Galaxy workflows are publicly available for different kinds of m
 | Pathogens | Shotgun metagenomics | Long reads | Taxonomic Profiling, Gene Identification, SNP identification, Pathogen Tracking | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
 | All | Shotgun metagenomics | Short reads | Assembly |  <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metagenomics-assembly/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
 | All | Shotgun metagenomics | Short reads | Taxonomic Profiling and Visualization |  <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/taxonomic-profiling/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/taxonomic-profiling/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-
+| Bacteria | Shotgun metagenomics, metatranscriptomics, metaproteomics | Short reads | MAGs builing, Functional analysis, Multiomics analysis | NA | <a href="https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-023-00514-9#availability-of-data-and-materials" class="fas fa-share-alt" aria-hidden="true"></a> | <a href="https://github.com/magnusarntzen/ViMO">ViMO (Visualizer for Meta-Omics)</a>  
 
 
 ### Bacterial Isolates

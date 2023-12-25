@@ -1,7 +1,7 @@
 ---
 autotoc: true
 title: Processing many samples at once with collections
-redirect: "/learn"
+redirect: "/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html"
 ---
 
 <div class="alert alert-info trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Note: we assume that the person reading this tutorial

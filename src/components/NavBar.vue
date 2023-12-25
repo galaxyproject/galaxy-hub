@@ -1,6 +1,6 @@
 <template>
     <div :class="classes" :style="style">
-        <b-navbar class="container justify-content-center" toggleable="lg" :type="theme" variant="transparent">
+        <b-navbar class="container" toggleable="lg" :type="theme" variant="transparent">
             <b-navbar-brand to="/">
                 <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" height="30" />
             </b-navbar-brand>

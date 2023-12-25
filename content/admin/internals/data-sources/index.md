@@ -9,9 +9,7 @@ If you add a new data source to Galaxy in your published work, please cite:
 
  [Blankenberg D, Coraor N, Von Kuster G, Taylor J, Nekrutenko A; Galaxy Team. Integrating diverse databases into an unified analysis framework: a Galaxy approach. Database (Oxford). 2011 Apr 29;2011:bar011. Print 2011.](http://www.ncbi.nlm.nih.gov/pubmed/21531983)
 
-Small example of both communication protocols:
-
-[CherryPy server communication with a Galaxy server; T. Houwaart](https://gist.github.com/TorHou/b4ee6890442c5c3d479d)
+Small example of both communication protocols, in [several python-based server flavours are available](https://github.com/hexylena/galaxy-data_source-examples)
 
 ## Adding a new DataSource
 
