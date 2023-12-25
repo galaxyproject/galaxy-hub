@@ -13,21 +13,174 @@ Please read more about the [GCB and SIGs](/community/governance/gcb/) and on [ho
 # Directory of Special Interest Groups
 ## Communities of Practice
 
-| Topic | Info | Links |
-|--------|------|-------|
-| [Metabolomics](https://metabolomics.usegalaxy.eu/) | Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools. | [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/metabolomics/) |
-| [Ecology](https://ecology.usegalaxy.eu/) | A web platform to get, process, analyze and visualize ecological data. | [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/ecology/) [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://ecology.usegalaxy.eu/tours/core.galaxy_ui) |
-| [Genome Annotation](/community/sig/genome-annotation/)| Galaxy as a platform for the annotation of genomes | [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/genome-annotation/) [<i class="fa fa-laptop" aria-hidden="true"></i>](https://annotation.usegalaxy.eu) [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im) [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://galaxy-genome-annotation.github.io/) |
-| [Climate](https://climate.usegalaxy.eu/) | The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflow. | [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/climate/)|
-|[Proteomics](https://proteore.org/)| Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research.  | [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) |
-| [Natural Language Processing](http://galaxy.lappsgrid.org/) | An open, interoperable web service platform for natural language processing (NLP) research and development. | [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org) |
-| [MicroGalaxy](/community/sig/microbial#microgalaxy-community) | Anything regarding microbial data analysis in Galaxy, with meetings, working groups, chat and mailing list |[<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) |
-| Public Health | Announcements and discussion in the Galaxy Public Health Community. |[<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)|
-| [Small Scale Admins](/community/sig/small-scale-admins/) |  Admins of small scale Galaxy servers. |[<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/small-scale-admins.lists.galaxyproject.org/)|
-| [Machine Learning](https://ml.usegalaxy.eu/) | A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis. | [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/statistics/) [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://ml.usegalaxy.eu/) |
-| [Materials Science](https://materials.usegalaxy.eu/) | A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy. | [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://materials.usegalaxy.eu/) |
-| [Single cell](/community/sig/singlecell/) | Group of single cell tool developers, trainers and users to help connect outreach, user needs, and computationalists. | [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im) [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/) [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/) |
-| [Computational Chemistry](/community/sig/computationalchemistry/) | Group of computational chemistry tool developers, trainers and users to help connect outreach, user needs, and computationalists. | [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im) [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/computational-chemistry/) |
+<div class="card-deck">
+
+<!-- Metabolomics -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://metabolomics.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Metabolomics</div>
+</a>
+
+Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/)
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/metabolomics/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://metabolomics.usegalaxy.eu/)
+</div>
+
+<!-- Ecology -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://ecology.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Ecology</div>
+</a>
+
+A web platform to get, process, analyze and visualize ecological data.
+
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/ecology/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://ecology.usegalaxy.eu/tours/core.galaxy_ui)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ecology.usegalaxy.eu/)
+</div>
+
+<!-- Genome Annotation -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/genome-annotation/">
+<div class="card-header bg-wg-applied text-white text-center">Genome Annotation</div>
+</a>
+
+Galaxy as a platform for the annotation of genomes.
+
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/genome-annotation/)
+* [<i class="fa fa-laptop" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://annotation.usegalaxy.eu)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://galaxy-genome-annotation.github.io)
+</div>
+
+<!-- Climate -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://climate.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Climate</div>
+</a>
+
+The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflow.
+
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/climate/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://climate.usegalaxy.eu/)
+</div>
+
+<!-- Proteomics -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://proteore.org/">
+<div class="card-header bg-wg-applied text-white text-center">Proteomics</div>
+</a>
+
+Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://proteore.org)
+</div>
+
+<!-- Natural Language Processing -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="http://galaxy.lappsgrid.org">
+<div class="card-header bg-wg-applied text-white text-center">Natural Language Processing</div>
+</a>
+
+An open, interoperable web service platform for natural language processing (NLP) research and development.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](http://galaxy.lappsgrid.org/)
+</div>
+
+
+<!-- MicroGalaxy -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/microbial#microgalaxy-community">
+<div class="card-header bg-wg-applied text-white text-center">MicroGalaxy</div>
+</a>
+
+Anything regarding microbial data analysis in Galaxy, with meetings, working groups, chat and mailing list
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) 
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://microgalaxy.usegalaxy.eu/)
+</div>
+
+
+<!-- Public Health -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="">
+<div class="card-header bg-wg-applied text-white text-center">Public Health</div>
+</a>
+
+Announcements and discussion in the Galaxy Public Health Community.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)
+</div>
+
+<!-- Small Scale Admins -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/small-scale-admins/">
+<div class="card-header bg-wg-applied text-white text-center">Small Scale Admins</div>
+</a>
+
+Admins of small scale Galaxy servers.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/small-scale-admins.lists.galaxyproject.org/)
+
+</div>
+
+
+<!-- Machine Learning -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://ml.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Machine Learning</div>
+</a>
+
+A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.
+
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/statistics/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ml.usegalaxy.eu/)
+</div>
+
+<!-- Materials Science -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://materials.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Materials Science</div>
+</a>
+
+A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy.
+
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://materials.usegalaxy.eu/)
+</div>
+
+<!-- Single cell -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/singlecell/">
+<div class="card-header bg-wg-applied text-white text-center">Single cell</div>
+</a>
+
+Group of single cell tool developers, trainers and users to help connect outreach, user needs, and computationalists.
+
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im)
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu/)
+</div>
+
+<!-- Computational Chemistry -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/computationalchemistry/">
+<div class="card-header bg-wg-applied text-white text-center">Computational Chemistry</div>
+</a>
+
+Group of computational chemistry tool developers, trainers and users to help connect outreach, user needs, and computationalists.
+
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/computational-chemistry/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://cheminformatics.usegalaxy.eu/)
+</div>
+
+<!-- CoP SIGs Card-div end -->
+</div>
 
 
 # Regional Communities
@@ -93,7 +246,7 @@ The European Galaxy Community and the European Galaxy Server.
 
 <!-- France -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="/eu/">
+<a href="">
 <div class="card-header bg-wg-applied text-white text-center">France</div>
 </a>
 
@@ -105,7 +258,7 @@ Galaxy in the French-speaking world.
 
 <!-- India -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="/eu/">
+<a href="https://www.galaxyproject.in">
 <div class="card-header bg-wg-applied text-white text-center">India</div>
 </a>
 
@@ -122,7 +275,9 @@ Indian Galaxy Community.
 
 </div>
 
+
 <!-- Japan -->
+<!-- Does it still exist?
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/eu/">
 <div class="card-header bg-wg-applied text-white text-center">Japan</div>
@@ -134,23 +289,27 @@ Pitagora Galaxy Community.
 * [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](https://twitter.com/hashtag/usegalaxyjp)
 
 </div>
+-->
+
 
 <!-- The Netherlands -->
+<!-- Does it still exist?
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="/eu/">
+<a href="">
 <div class="card-header bg-wg-applied text-white text-center">The Netherlands</div>
 </a>
 
 Galaxy-NL in the Netherlands.
 
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://www.choosegalaxy.nl/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://www.choosegalaxy.nl)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team)
 
 </div>
+-->
 
 <!-- UK -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="/eu/">
+<a href="">
 <div class="card-header bg-wg-applied text-white text-center">UK</div>
 </a>
 
@@ -162,7 +321,7 @@ Galaxy in the United Kingdom.
 
 <!-- Galaxy Español -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="/eu/">
+<a href="">
 <div class="card-header bg-wg-applied text-white text-center">Galaxy Español</div>
 </a>
 
@@ -181,7 +340,7 @@ Galaxy in Spanish.
 Galaxy African community.
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-africa@lists.galaxyproject.org)
-
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://africa.usegalaxy.eu)
 </div>
 
 <!-- Regional SIGs Card-div end -->
