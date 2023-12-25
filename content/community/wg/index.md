@@ -183,13 +183,15 @@ NOTE: This is not an exhaustive or final list of working groups or projects.  Ne
 
 [Galaxy WGs Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=5l6o0msfduoir59hrab0jlkocc@group.calendar.google.com), listing meetings of all Galaxy working groups and projects. You can subscribe to this calendar via this [iCalendar link](https://calendar.google.com/calendar/ical/5l6o0msfduoir59hrab0jlkocc%40group.calendar.google.com/public/basic.ics).
 
-## Timeline
+
+<!--
+## History
 
 In reverse chronological order:
 
 ### 2021-09-01: Reorganization of working groups and projects
 
-This call merged Admin and Deployment into Systems, and Outreach & Training and Support into GOATS. It also differentiated between working groups and projects.  
+This call merged Admin and Deployment into Systems, and Outreach & Training and Support into GOATS. It also differentiated between working groups and projects.
 
 ### 2021-01-07: Launch follow up
 
@@ -199,4 +201,4 @@ This call was a follow up to see how our first month went, and how goal setting 
 
 Galaxy Working Groups were launched on the [December 10, 2020 Galaxy Developer Roundtable call](/events/2020-12-10-dev-roundtable/). The [recording of that call](https://youtu.be/V87OdtdRLJM) is available.
 
-
+-->
