@@ -12,7 +12,7 @@
                             height="60"
                         />
                     </div>
-                    <ul class="col-md-3 footer-items">
+                    <ul class="col-md-3">
                         <li><a href="/community/">Community</a></li>
                         <li><a href="/community/practice/">Communities of Practice</a></li>
                         <li><a href="/core-team/">Galaxy Core Team</a></li>
@@ -20,26 +20,26 @@
                         <li><a href="https://jxtxfoundation.org/">@jxtx</a></li>
                         <li><a href="/community/coc/">Code of Conduct</a></li>
                     </ul>
-                    <ul class="col-md-3 footer-items">
+                    <ul class="col-md-3">
                         <li><a href="https://docs.galaxyproject.org/">API documentation</a></li>
                         <li><a href="/community/contributing/">Contributing</a></li>
                         <li><a href="/gcc/">Galaxy Community Conferences</a></li>
                         <li><a href="/images/galaxy-logos/">Branding and logos</a></li>
                     </ul>
-                    <div id="ecosystem-items" class="col-md-2 footer-items">
+                    <ul class="col-md-2">
                         <li><a href="https://bioblend.readthedocs.io/">BioBlend</a></li>
                         <li><a href="https://ephemeris.readthedocs.io/">Ephemeris</a></li>
                         <li><a href="https://planemo.readthedocs.io/">Planemo</a></li>
                         <li><a href="https://pulsar.readthedocs.io/">Pulsar</a></li>
                         <li><a href="https://total-perspective-vortex.readthedocs.io/">TPV</a></li>
-                    </div>
-                    <div id="social-items" class="col-md-1 footer-items">
+                    </ul>
+                    <ul class="col-md-1">
                         <li><a href="https://github.com/galaxyproject/">GitHub</a></li>
                         <li><a href="https://matrix.to/#/#galaxyproject_Lobby:gitter.im">Matrix</a></li>
                         <li><a href="https://www.youtube.com/@GalaxyProject">YouTube</a></li>
                         <li><a href="https://mstdn.science/@galaxyproject">Mastodon</a></li>
                         <li><a href="https://www.linkedin.com/groups/4907635/">LinkedIn</a></li>
-                    </div>
+                    </ul>
                 </div>
                 <div class="row">
                     <p style="font-size: 0.7rem; color: #a5a5a5">
@@ -67,17 +67,16 @@ export default {
         background-color: white;
         height: 1px;
         margin: 0 0 40px 0;
+        border: 0;
     }
-}
-
-.footer-items {
-    color: white;
-    font-size: 0.9rem;
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-items a {
-    color: white;
+    ul {
+        color: white;
+        font-size: 0.9rem;
+        list-style-type: none;
+        padding: 0;
+        & li a {
+            color: white;
+        }
+    }
 }
 </style>
