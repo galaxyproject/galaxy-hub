@@ -124,7 +124,7 @@ export default {
 
     .text {
         font-size: 1.5rem;
-        font-weight: 200;
+        font-weight: 400;
         padding-left: 0;
         line-height: 1.6;
     }
