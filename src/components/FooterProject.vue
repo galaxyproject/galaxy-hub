@@ -1,5 +1,5 @@
 <template>
-    <div class="sectionFooter">
+    <div class="footer">
         <div class="container-fluid-real p-0">
             <hr />
             <div class="container">
@@ -59,24 +59,3 @@ export default {
     name: "FooterProject",
 };
 </script>
-
-<style lang="scss" scoped>
-.sectionFooter {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-    hr {
-        background-color: white;
-        height: 1px;
-        margin: 0 0 40px 0;
-        border: 0;
-    }
-    ul {
-        color: white;
-        font-size: 0.9rem;
-        list-style-type: none;
-        padding: 0;
-        & li a {
-            color: white;
-        }
-    }
-}
-</style>

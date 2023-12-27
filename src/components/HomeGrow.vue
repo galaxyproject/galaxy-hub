@@ -1,20 +1,20 @@
 <template>
-    <div class="container sectionGrow">
+    <div class="container mb-4">
         <div class="row">
             <div class="col p-0">
-                <h2 class="gx-h2 mt-4">Grow with Galaxy</h2>
+                <h2 class="mt-4">Grow with Galaxy</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row ">
             <div class="col">
-                <div class="card bg1">
+                <div class="area grow publications h-100">
                     <a
                         href="https://www.zotero.org/groups/1732893/galaxy"
                         rel="noopener"
                         target="_blank"
                         class="text-white"
                     >
-                        <h2 class="font-weight-bold">Recent publications</h2>
+                        <h3>Recent publications</h3>
                     </a>
                     <a
                         :href="p.link"
@@ -26,7 +26,7 @@
                         >{{ p.title }}</a
                     >
                     <a href="citing-galaxy/" class="text-white">
-                        <h2 class="font-weight-bold">Cite Galaxy</h2>
+                        <h3>Cite Galaxy</h3>
                     </a>
                     <span class="small text-white">
                         The Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative
@@ -36,12 +36,12 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card bg2">
-                    <h2 class="font-weight-bold">Popular tutorials</h2>
-                    <ul class="large">
+                <div class="area grow tutorials h-100">
+                    <h3>Popular tutorials</h3>
+                    <ul>
                         <li v-for="t in this.tutorials" :key="t.title">
                             <a :href="t.link" role="button" rel="noopener" target="_blank" class="text-decoration-none">
-                                <span class="title">{{ t.title }}</span>
+                                <div class="link">{{ t.title }}</div>
                             </a>
                         </li>
                     </ul>
@@ -58,8 +58,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card bg3">
-                    <h2 class="font-weight-bold">Exemplar use cases</h2>
+                <div class="area grow cases h-100">
+                    <h3>Exemplar use cases</h3>
                     See how Galaxy cooperates and helps other projects. These are great exemplars of how Galaxy is being
                     used in production settings.
                     <div class="row mt-4 mb-4">
@@ -85,7 +85,7 @@
                         </div>
                         <div class="col">
                             <div class="text-center">
-                                <a href="projects/mpxv/" rel="noopener" target="_blank" class="w-100 mLogo">
+                                <a href="projects/mpxv/" rel="noopener" target="_blank" class="w-100 mpxvLogo">
                                     <span class="icon fa fas fa-viruses pt-2" aria-hidden="true"></span>
                                     <div class="text">Monkey Pox</div>
                                 </a>
@@ -143,72 +143,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-.gx-h2 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: white;
-}
-
-.sectionGrow {
-    margin-bottom: 5rem;
-    .card {
-        position: relative;
-        display: flex;
-        color: white;
-        font-size: 1.3rem;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        text-align: left;
-        padding: 13px 20px;
-        text-decoration: none !important;
-        height: 42rem;
-        border-radius: 20px;
-
-        h2 {
-            margin-top: 0;
-        }
-
-        &.bg1 {
-            background: linear-gradient(155deg, #00a7e1 44%, rgba(249, 206, 215, 0.8));
-        }
-
-        &.bg2 {
-            background: linear-gradient(155deg, rgba(249, 206, 215, 0.8) 4%, rgba(63, 227, 249, 0.8)); /* #3FE3F9); */
-        }
-
-        &.bg3 {
-            background: linear-gradient(155deg, rgba(63, 227, 249, 0.8) 44%, #c6a669);
-        }
-    }
-
-    ul.large {
-        line-height: 1.5rem;
-        li {
-            font-weight: 600;
-            padding-bottom: 2.2rem;
-
-            a {
-                .title {
-                    color: white;
-                }
-            }
-        }
-    }
-
-    a.mLogo {
-        .icon {
-            color: #9b1a1a;
-            font-size: 6rem;
-        }
-        .text {
-            padding-top: 0.2rem;
-            color: #761818;
-            font-size: 1.2rem;
-            font-weight: 800;
-        }
-    }
-}
-</style>
