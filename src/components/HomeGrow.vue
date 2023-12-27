@@ -5,8 +5,8 @@
                 <h2 class="mt-4">Grow with Galaxy</h2>
             </div>
         </div>
-        <div class="row ">
-            <div class="col">
+        <div class="row">
+            <div class="col-xl-4 mb-3">
                 <div class="area grow publications h-100">
                     <a
                         href="https://www.zotero.org/groups/1732893/galaxy"
@@ -20,6 +20,7 @@
                         :href="p.link"
                         class="mb-3 text-white small"
                         v-for="p in papers"
+                        :key="p.title"
                         role="button"
                         rel="noopener"
                         target="_blank"
@@ -35,7 +36,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-xl-4 mb-3">
                 <div class="area grow tutorials h-100">
                     <h3>Popular tutorials</h3>
                     <ul>
@@ -57,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-xl-4 mb-3">
                 <div class="area grow cases h-100">
                     <h3>Exemplar use cases</h3>
                     See how Galaxy cooperates and helps other projects. These are great exemplars of how Galaxy is being
@@ -72,8 +73,8 @@
                         </div>
                     </div>
                     <div class="row mt-4 mb-4">
-                        <div class="col">
-                            <div class="text-center mt-3">
+                        <div class="col d-flex align-items-end">
+                            <div class="w-50 mr-3">
                                 <a href="projects/microbial/" rel="noopener" target="_blank">
                                     <img
                                         src="/images/microgalaxy/microgalaxy_logo.svg"
@@ -82,12 +83,17 @@
                                     />
                                 </a>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="text-center">
-                                <a href="projects/mpxv/" rel="noopener" target="_blank" class="w-100 mpxvLogo">
-                                    <span class="icon fa fas fa-viruses pt-2" aria-hidden="true"></span>
-                                    <div class="text">Monkey Pox</div>
+                            <div class="w-50">
+                                <a
+                                    href="projects/mpxv/"
+                                    class="mpxvLogo text-decoration-none"
+                                    rel="noopener"
+                                    target="_blank"
+                                >
+                                    <div id="mpxvLogo">
+                                        <img src="/images/icons/virusesFaSolid.svg" alt="MPXV icon" class="w-100" />
+                                        <div class="text">Monkey Pox</div>
+                                    </div>
                                 </a>
                             </div>
                         </div>
