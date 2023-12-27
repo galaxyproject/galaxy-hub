@@ -1,25 +1,23 @@
 <template>
     <div class="container mt-4">
         <div class="row">
-            <h2 class="gx-h2">Go beyond being a user</h2>
+            <h2>Go beyond being a user</h2>
         </div>
         <div class="row">
             <div class="col-md-4 mb-3">
-                <a href="/admin/" class="card card-home bg1 btn">
+                <a href="/admin/" class="area beyond instance btn h-100">
                     <div class="text-white">
-                        <h3 class="title">Prefer a custom instance?</h3>
-                        <p class="text">
-                            Galaxy can be installed locally, fine-tuned with a tailored toolset and no usage quotas.
-                        </p>
+                        <h3>Prefer a custom instance?</h3>
+                        <p>Galaxy can be installed locally, fine-tuned with a tailored toolset and no usage quotas.</p>
                     </div>
                 </a>
             </div>
 
             <div class="col-md-8 mb-3">
-                <div class="card card-home bg1">
+                <div class="area beyond toolshed h-100">
                     <div class="text-white">
-                        <h3 class="title">Need more tools?</h3>
-                        <p class="text">
+                        <h3>Need more tools?</h3>
+                        <p>
                             The Galaxy ToolShed is a repository of thousands tools that have been integrated with
                             Galaxy, and you can add your own.
                         </p>
@@ -34,10 +32,10 @@
 
         <div class="row">
             <div class="col-md-7 mb-3">
-                <a href="/community/" class="card card-home bg2">
+                <a href="/community/" class="area beyond community h-100">
                     <div class="text-dark">
-                        <h3 class="title">Galaxy is a world-wide community.</h3>
-                        <p class="text">
+                        <h3 class="text-dark">Galaxy is a world-wide community.</h3>
+                        <p>
                             There are over 500,000 registered Galaxy users from all over the world. Join this lively
                             community to get help, contribute, and learn.
                         </p>
@@ -46,10 +44,10 @@
             </div>
 
             <div class="col-md-5 mb-3">
-                <div class="card card-home bg3 img">
+                <div class="area beyond servers bgBrightest img h-100">
                     <div class="text-dark">
-                        <h3 class="title">Use Galaxy servers are global!</h3>
-                        <p class="text">
+                        <h3 class="text-dark">Use Galaxy servers are global!</h3>
+                        <p>
                             There are over a hundred public and free Galaxy servers available.<br />
                             <a href="/use/">Find yours.</a>
                         </p>
@@ -65,68 +63,3 @@ export default {
     name: "BeyondUser",
 };
 </script>
-
-<style scoped>
-.gx-h2 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: white;
-}
-
-.card-home {
-    text-align: left;
-    padding: 20px;
-    text-decoration: none !important;
-    min-height: 15rem;
-    border-radius: 20px;
-    &:hover {
-        text-decoration: none !important;
-    }
-
-    &.bg1 {
-        background-color: #0e1427;
-        &.btn:hover {
-            background-color: #1b264b;
-        }
-    }
-
-    &.bg2 {
-        background-color: #00a7e1;
-        &:hover {
-            background-color: #00b8f5;
-        }
-    }
-
-    &.bg3 {
-        background-color: #76ffff;
-        position: relative;
-
-        &::before,
-        &:before {
-            content: "";
-            pointer-events: none;
-            display: block;
-            width: 90%;
-            height: 100%;
-            position: absolute;
-            background-image: url("/images/icons/worldMap.svg");
-            opacity: 0.05;
-            background-size: cover;
-            background-position: 0 -200%;
-        }
-    }
-
-    .title {
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin-bottom: 0.25rem;
-    }
-
-    .text {
-        font-size: 1.5rem;
-        font-weight: 400;
-        padding-left: 0;
-        line-height: 1.6;
-    }
-}
-</style>

@@ -1,13 +1,15 @@
 <template>
     <div class="container p-2">
         <div class="row">
-            <div class="w-50 text-center notification bgBrighter">
-                Galaxy Community Conference is coming up.
-                <a href="/events/gcc2024/" class="ml-2">Read on.</a>
+            <div class="col-lg-7">
+                <div class="text-center notification bgBrighter">
+                    Galaxy Community Conference is coming up.
+                    <a href="/events/gcc2024/" class="ml-2">Read on.</a>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-lg-7 mb-4">
                 <h1 class="mb-3">
                     Meet Galaxy - <br />
                     your companion <br />
@@ -20,8 +22,8 @@
                 <a href="https://usegalaxy.org/" class="btn hero mr-3 bgBright">Use Galaxy now</a>
                 <a href="/learn-more/" class="btn hero bgBright">Learn more</a>
             </div>
-            <div class="col-md-5">
-                <video-player :src="videoSrc" class="rounded" />
+            <div class="col-lg-5">
+                <video-player :src="videoSrc" class="rounded heroVideo" />
             </div>
         </div>
     </div>
