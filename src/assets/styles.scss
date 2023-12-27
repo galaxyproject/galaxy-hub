@@ -60,32 +60,234 @@ html {
     min-height: 100%;
 }
 
-// Not compatible with the updated homepage
-// body {
-//     margin-bottom: 60px;
-// }
-
-// ==== Home ====
-
 .layoutHome {
     background-color: $home-body-bg;
+
+    .bgBrightest {
+        background-color: $home-accent-brightest;
+    }
+    
+    .bgBrighter {
+        background-color: $home-accent-brighter;
+    }
+    
+    .bgBright {
+        background-color: $home-accent-bright;
+    }
+    
+    .bgGradient {
+        background-image: linear-gradient($home-accent-bright, $home-body-bg 99%);
+    }
+
+    .notification {
+        padding: 10px;
+        margin: 20px 15px 20px 0;
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: white;
+        &.learn {
+            color: #000;
+        }
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+        margin: 0 0 0.5rem 0;
+    }
+
+    p, .card p {
+        font-size: 1.45rem;
+        margin-bottom: 20px;
+        font-weight: 400;
+        padding: 0;
+        line-height: 1.6;
+        &.hero {
+            color: #a5a5a5;
+        }
+    }
+
+    .area {
+        position: relative;
+        display: flex;
+        font-size: 1.3rem;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        text-align: left;
+        padding: 13px 20px;
+        text-decoration: none !important;
+        // height: 44rem; /* TODO remove */
+        border-radius: 20px;
+        line-height: 1.4rem;
+
+        &.learn {
+            display: block;
+            padding: 0;
+            border: 0;
+            svg.wave {
+                fill: #2c3143;
+                display: inline;
+                &.top {
+                    transform: rotate(180deg);
+                }
+            }
+
+            a.btn {
+                min-width: 335px;
+                padding-left: 20px;
+
+                .title {
+                    font-size: 1.7rem;
+                    color: black;
+                    text-decoration: underline;
+                    font-weight: 400;
+                }
+                &.btn-outline-primary:hover .title {
+                    color: white !important;
+                }
+
+                .text {
+                    min-height: 30px;
+                    font-size: 0.8rem;
+                    text-wrap: nowrap;
+                    color: black;
+                    font-weight: 400;
+                }
+
+                &.btn-outline-primary:hover .text {
+                    color: white !important;
+                    text-decoration: none;
+                }
+
+                .iconXlarge {
+                    float: right !important;
+                    font-size: 50px;
+                }
+            }
+        }
+
+        &.beyond {
+            &:hover {
+                text-decoration: none !important;
+            }
+            &.instance, &.toolshed {
+                background-color: #0e1427;
+                &.btn:hover {
+                    background-color: #1b264b;
+                }
+            }
+        
+            &.community {
+                background-color: #00a7e1;
+                &:hover {
+                    background-color: #00b8f5;
+                }
+            }
+        
+            &.servers {
+                position: relative;
+
+                &::before {
+                    content: "";
+                    pointer-events: none;
+                    display: block;
+                    width: 89%;
+                    height: 87%;
+                    position: absolute;
+                    background-image: url("/images/icons/worldMap.svg");
+                    opacity: 0.05;
+                    background-size: cover;
+                    background-position: 0 -140%;
+                }
+            }
+        }
+
+        &.grow {
+            &.publications {
+                background: linear-gradient(155deg, #00a7e1 44%, rgba(249, 206, 215, 0.8));
+            }
+
+            &.tutorials, .tutorials {
+                background: linear-gradient(155deg, rgba(249, 206, 215, 0.8) 4%, rgba(63, 227, 249, 0.8));
+
+                ul {
+                    padding-left: 1.1rem;
+                    li {
+                        color: white;
+                        a {
+                            .link {
+                                color: white;
+                                font-weight: 600;
+                                padding-bottom: 2.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.cases {
+                color: #fff;
+                background: linear-gradient(155deg, rgba(63, 227, 249, 0.8) 44%, #c6a669);
+            }
+            
+            a.mpxvLogo {
+                .icon {
+                    color: #9b1a1a;
+                    font-size: 6rem;
+                }
+                .text {
+                    padding-top: 0.2rem;
+                    color: #761818;
+                    font-size: 1.2rem;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+
+    a {
+        &.hero {
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+    }
+
+    .footer {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+        hr {
+            background-color: white;
+            height: 1px;
+            margin: 0 0 40px 0;
+            border: 0;
+        }
+        ul {
+            color: white;
+            font-size: 0.9rem;
+            list-style-type: none;
+            padding: 0;
+            & li a {
+                color: white;
+            }
+        }
+    }
 }
 
-.bgBrightest {
-    background-color: $home-accent-brightest;
-}
-
-.bgBrighter {
-    background-color: $home-accent-brighter;
-}
-
-.bgBright {
-    background-color: $home-accent-bright;
-}
-
-.bgBrightGradient {
-    background-image: linear-gradient($home-accent-bright, $home-body-bg 99%);
-}
+// ==== Home (end) ====
 
 .gitter-chat-embed,
 .gitter-open-chat-button {

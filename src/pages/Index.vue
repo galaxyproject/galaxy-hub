@@ -1,9 +1,9 @@
 <template>
     <Layout>
-        <!-- <header id="header">
+        <header v-if="title || subtitle" id="header">
             <h1 class="display-4">{{ title }}</h1>
             <h3 v-if="subtitle">{{ subtitle }}</h3>
-        </header> -->
+        </header>
 
         <Hero />
 
