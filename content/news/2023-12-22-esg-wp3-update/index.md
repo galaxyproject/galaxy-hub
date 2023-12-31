@@ -2,7 +2,7 @@
 title: "EuroScienceGateway Work Package 3: first year achievements"
 tease: ""
 hide_tease: true
-authors: "Marco Antonio Tangaro, Federico Zambelli"
+authors: "MATangaro (CNR), F Zambelli (CNR and UniMi), B Gruening (ALU-FR), M Kuntz (ALU-FR), SK Srikakulam (ALU-FR), s Nicotri (INFN), M Chavero-Díez (BSC-CNS), J Ll. Gelpi (UB), A Bretaudeau (CNRS), E Mercier (CNRS), H Bayindir (TUBITAK ULAKBIM), J Astalos (IISAS), V Tran (IISAS), S Luna-valero (EGI), L Opiola (AGH-UST), O Collin (CNRS), M Ruda (CESNET), J Handl (CESNET)"
 date: "2023-12-22"
 tags: [esg, esg-wp3]
 subsites: [all-eu, esg]
@@ -65,8 +65,8 @@ Most Pulsar endpoints have been already updated to the new configuration:
 
 Moreover, the updated Open Infrastructure allows to deploy full fledged usegalaxy.eu replica servers, thus allowing to instantiate new usegalaxy services easily, but also providing a robust framework for maintaining and updating running instances. We also started documenting the whole procedure, which has been successfully used to deploy a prototype of the Italian UseGalaxy server ([temporary repository](https://usegalaxy-it.github.io/documentation/)).
 
-Currently, 7 UseGalaxy endpoints are available: EU (ALU-FR), Be (VIB), Fr (CNRS), Es (BSC-CNS), No (ELIXIR-NO), Cz (CESNET) and It (CNR). In this case the activities focused on the management and maintenance of the instances:
-* Align to Galaxy 23.0+ release
+Currently, 7 UseGalaxy endpoints are available: [usegalaxy.eu](https://usegalaxy.eu) (ALU-FR), [https://usegalaxy.be](https://usegalaxy.be/) (VIB), [usegalaxy.fr](https://usegalaxy.fr/) (CNRS), [usegalaxy.es](https://usegalaxy.es/) (BSC-CNS), [usegalaxy.no](https://usegalaxy.no/) (ELIXIR-NO), [usegalaxy.cz](https://usegalaxy.cz/) (CESNET) and usegalaxy.it (CNR). In this case the activities focused on the management and maintenance of the instances:
+* Align to Galaxy 23.0 or later release
 * Switch to Total Perspective Vortex dynamic job destination tool ([pre-print](https://arxiv.org/abs/2312.02060))
 * Pulsar endpoints integration
 * OS image and PostgreSQL updates.
