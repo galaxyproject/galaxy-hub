@@ -71,7 +71,7 @@ Currently, 7 UseGalaxy endpoints are available: [usegalaxy.eu](https://usegalaxy
 * Pulsar endpoints integration
 * OS image and PostgreSQL updates.
 
-Finally, in order to enable other workflow engines to access and leverage the European Pulsar Network, we are going to implement support for the GA4GH Task Execution Service, as a proof of concept, allowing other services to submit jobs via TES to Pulsar and therefore to the European Pulsar Network. The Task Execution Service (TES) API is an effort to define a standardized schema and API for describing batch execution tasks. A task defines a set of input files, a set of containers and commands to run, a set of output files, and some logging and metadata.
+Finally, in order to enable other workflow engines to access and leverage the a Pulsar Network, we are going to implement support for the GA4GH Task Execution Service, as a proof of concept, allowing other services to submit jobs via TES to Pulsar. The Task Execution Service (TES) API is an effort to define a standardized schema and API for describing batch execution tasks. A task defines a set of input files, a set of containers and commands to run, a set of output files, and some logging and metadata.
 
 <div class="center">
 <div class="img-sizer" style="width: 40%">
