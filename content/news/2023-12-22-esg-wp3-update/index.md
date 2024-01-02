@@ -2,7 +2,10 @@
 title: "EuroScienceGateway Work Package 3: first year achievements"
 tease: ""
 hide_tease: true
-authors: "MATangaro (CNR), F Zambelli (CNR and UniMi), B Gruening (ALU-FR), M Kuntz (ALU-FR), SK Srikakulam (ALU-FR), s Nicotri (INFN), M Chavero-Díez (BSC-CNS), J Ll. Gelpi (UB), A Bretaudeau (CNRS), E Mercier (CNRS), H Bayindir (TUBITAK ULAKBIM), J Astalos (IISAS), V Tran (IISAS), S Luna-valero (EGI), L Opiola (AGH-UST), O Collin (CNRS), M Ruda (CESNET), J Handl (CESNET)"
+authors: "MATangaro (CNR), F Zambelli (CNR and UniMi)"
+authors_structured:
+- github: mtangaro
+- github: Federico77z
 date: "2023-12-22"
 tags: [esg, esg-wp3]
 subsites: [all-eu, esg]
