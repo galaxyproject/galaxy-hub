@@ -12,8 +12,6 @@ subsites: [all-eu, esg]
 main_subsite: eu
 ---
 
-# EuroScienceGateway Work Package 3: first year achievements
-
 The Work Package 3 of the [**EuroScienceGateway**](/projects/esg/) provides the compute infrastructure to the project and develops the software needed to maintain and further extend its architecture. Indeed, leveraging the Pulsar application, 6 National Galaxy instances will be able to provide access to remote computing resources for end-users. We present here a short summary of the WP3 first year’s achievements.
 
 <div class="center">
