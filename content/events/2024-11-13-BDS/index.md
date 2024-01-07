@@ -6,7 +6,7 @@ tease: "The scope of this meeting will be the infrastructure, software, and algo
 continent: NA
 location:
   name: "Laurel Hollow, NY, USA"
-  url: https://intlpag.org/31/](https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=24
+  url: https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=24
 gtn: true
 contact: "Kelley McGrath: mcgrath@cshl.edu"
 tags: [conference]
