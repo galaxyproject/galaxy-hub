@@ -8,7 +8,7 @@ Galaxy as both a project and a platform facilitates FAIR research, addressing co
 <div class="float-right" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
 <br>
 
-This page focusses on FAIR's 'I' component, so highlighting interoperability measures, pointing to respective implementations and answering a range of questions around the topic. Contents have been generated from [Galaxy Europe's successful evaluation](/news/2023-12-14-ELIXIR-RIR-for-Galaxy-Europe/) of being an [ELIXIR 'Recommended Interoperability Resource' (RIR)](https://elixir-europe.org/platforms/interoperability/rirs), for which central considerations have been addressed. Both asked questions and their answers should be shared here with the community, hopefully serving as references for future needs. 
+This page focusses on FAIR's 'I' component, so highlighting interoperability measures, pointing to respective implementations and answering a range of questions about the topic. Contents have been generated from [Galaxy Europe's successful evaluation](/news/2023-12-14-elixir-rir-for-galaxy-europe/) of being an [ELIXIR 'Recommended Interoperability Resource' (RIR)](https://elixir-europe.org/platforms/interoperability/rirs), for which central considerations have been addressed. Both asked questions and their answers should be shared here with the community, hopefully serving as references for future needs. 
 
 ## Resource facilitation to scientific research
 
@@ -27,7 +27,7 @@ Base URLs (home pages): https://usegalaxy.org, https://usegalaxy.eu, https://use
 Introductory page URL: https://galaxyproject.org
 
 <!--
-### Does Galaxy have a community **recognition**? What about inter-organisational collaborations, geographical diversity in the source of the submissions, international diversity of delivery partners and/or funders?
+### Does Galaxy have community **recognition**? What about inter-organisational collaborations, geographical diversity in the source of the submissions, international diversity of delivery partners and/or funders?
 
 Recognition of Galaxy is broad and observed across multiple communities. Galaxy as a platform has been developed by a worldwide community since its initial release in 2005. [The Galaxy community](https://galaxyproject.org/community/) is open, welcoming, diverse, and highly active. I terms of instances, there are hundreds of local ones worldwide, a number of national Galaxy servers and three continental Galaxy servers ('usegalaxy.*'). 
 
