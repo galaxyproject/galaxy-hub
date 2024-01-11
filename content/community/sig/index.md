@@ -11,6 +11,9 @@ In the following you will find a list of current active Special Interest Groups.
 Please read more about the [GCB and SIGs](/community/governance/gcb/) and on [how to set up your own](/get-started/new-leads/).
 
 # Directory of Special Interest Groups
+
+---
+
 ## Communities of Practice
 
 <div class="card-deck">
@@ -51,7 +54,7 @@ Galaxy as a platform for the annotation of genomes.
 
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/genome-annotation/)
 * [<i class="fa fa-laptop" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://annotation.usegalaxy.eu)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im)
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://galaxy-genome-annotation.github.io)
 </div>
 
@@ -77,6 +80,8 @@ Galaxy-based platform for the functional analysis and the interpretation of prot
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/)
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://proteore.org)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://proteomics.usegalaxy.eu)
+
 </div>
 
 <!-- Natural Language Processing -->
@@ -101,7 +106,9 @@ An open, interoperable web service platform for natural language processing (NLP
 Anything regarding microbial data analysis in Galaxy, with meetings, working groups, chat and mailing list
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) 
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://microgalaxy.usegalaxy.eu/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://microgalaxy.usegalaxy.eu)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im)
+
 </div>
 
 
@@ -114,6 +121,8 @@ Anything regarding microbial data analysis in Galaxy, with meetings, working gro
 Announcements and discussion in the Galaxy Public Health Community.
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_Public-Health:gitter.im)
+
 </div>
 
 <!-- Small Scale Admins -->
@@ -125,6 +134,7 @@ Announcements and discussion in the Galaxy Public Health Community.
 Admins of small scale Galaxy servers.
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/small-scale-admins.lists.galaxyproject.org/)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_admins:gitter.im)
 
 </div>
 
@@ -138,7 +148,8 @@ Admins of small scale Galaxy servers.
 A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.
 
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/statistics/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ml.usegalaxy.eu/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ml.usegalaxy.eu)
+
 </div>
 
 <!-- Materials Science -->
@@ -149,7 +160,9 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 
 A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy.
 
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://materials.usegalaxy.eu/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://materials.usegalaxy.eu)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_materials-science:matrix.org)
+
 </div>
 
 <!-- Single cell -->
@@ -160,10 +173,10 @@ A Galaxy workbench with tools and workflows for materials science, including muo
 
 Group of single cell tool developers, trainers and users to help connect outreach, user needs, and computationalists.
 
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im)
+* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im)
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu)
 </div>
 
 <!-- Computational Chemistry -->
@@ -177,11 +190,13 @@ Group of computational chemistry tool developers, trainers and users to help con
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/computational-chemistry/)
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://cheminformatics.usegalaxy.eu/)
+
 </div>
 
 <!-- CoP SIGs Card-div end -->
 </div>
 
+---
 
 # Regional Communities
 
@@ -198,6 +213,7 @@ The Galaxy Arabic speaking community supports Galaxy activity for the Arabic spe
 * [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](http://twitter.com/galaxy_arabic)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/)
 * [<i class="fab fa-facebook-square" aria-hidden="true">&nbsp; &nbsp;Facebook</i>](http://bit.ly/2ek7fTh)
+
 </div>
 
 <!-- Australia -->
@@ -222,6 +238,7 @@ Australian Galaxy community.
 Česká komunita Galaxy / Czech Galaxy Community.
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://usegalaxy.cz)
 
 </div>
 
@@ -253,6 +270,8 @@ The European Galaxy Community and the European Galaxy Server.
 Galaxy in the French-speaking world. 
 
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://community.france-bioinformatique.fr/c/galaxy/8)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://usegalaxy.fr)
+
 
 </div>
 
@@ -340,12 +359,13 @@ Galaxy in Spanish.
 Galaxy African community.
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-africa@lists.galaxyproject.org)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://africa.usegalaxy.eu)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://africa.usegalaxy.eu)
 </div>
 
 <!-- Regional SIGs Card-div end -->
 </div>
 
+---
 
 ## Scientific Projects
 
@@ -364,7 +384,7 @@ This project emphasizes applying Galaxy in cancer research.
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-cancer-informatics:gitter.im)
 * Leadership: Luke Sargent
 
-    </div>
+</div>
 
 
 <!-- Human Genetics -->
