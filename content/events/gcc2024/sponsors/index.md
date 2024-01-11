@@ -22,9 +22,9 @@ affordable and accessible.
 <div class="container">
     <div class="row">
         <div class="col center">
-          <a href="https://gxy-shared.s3.amazonaws.com/gcc2023-sponsorship-prospectus.pdf">
+          <a href="https://gcc2024a.s3.amazonaws.com/gcc2024-sponsorship-prospectus.pdf">
             <div type="button" class="btn btn-primary center">
-                <strong>Download sponsorship prospectus (still 2023 version)</strong>
+                <strong>Download sponsorship prospectus</strong>
             </div>
           </a>
         </div>

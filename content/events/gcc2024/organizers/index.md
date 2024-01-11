@@ -54,7 +54,8 @@ Training coordinators structure the training events at GCC2024 and coordinated w
 
 CoFest organizers coordinate activities during [CoFest](/events/gcc2024/cofest/).
 
-* Looking for volunteers. Email the [organizers](mailto:gcc2024-org@gaggle.email) if interested.
+* **[Ahmed Awan](https://www.linkedin.com/in/ahmed-awan-70a20919a/)**, [Johns Hopkins University](https://jhu.edu/), United States
+* **[Björn Grüning](https://www.linkedin.com/in/bgruening/)**, [University of Freiburg](https://uni-freiburg.de/en/), Germany
 
 
 # Photographer
