@@ -6,7 +6,7 @@
         <header v-else id="masthead">
             <NavBar :subsite="subsite" />
         </header>
-        <main id="maincontainer" class="container">
+        <main id="maincontainer" :class="showHomeNav() ? 'container-fluid-real p-0' : 'container'">
             <slot />
         </main>
         <FooterProject v-if="showHomeNav()" />
@@ -39,8 +39,8 @@ export default {
             if (this.subsite) {
                 classes.push(this.subsite);
             }
-            if (classes.includes('global') && window.location.pathname === '/') {
-                classes.push('layoutHome');
+            if (classes.includes("global") && window.location.pathname === "/") {
+                classes.push("layoutHome");
             }
             return classes;
         },
@@ -55,7 +55,7 @@ export default {
     methods: {
         showHomeNav() {
             // return rootClasses.includes('global') && window.location.pathname === '/';
-            return window.location.pathname === '/';
+            return window.location.pathname === "/";
         },
     },
 };

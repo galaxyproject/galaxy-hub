@@ -1,20 +1,25 @@
 <template>
     <Layout>
-        <header id="header">
+        <header v-if="title || subtitle" id="header">
             <h1 class="display-4">{{ title }}</h1>
             <h3 v-if="subtitle">{{ subtitle }}</h3>
         </header>
 
         <Hero />
 
+        <HomeLearn />
+
         <BeyondUser />
 
+        <HomeGrow />
     </Layout>
 </template>
 
 <script>
 import Hero from "@/components/Hero";
 import BeyondUser from "@/components/BeyondUser.vue";
+import HomeLearn from "@/components/HomeLearn.vue";
+import HomeGrow from "@/components/HomeGrow.vue";
 import {
     gatherCollections,
     gatherInserts,
@@ -28,6 +33,8 @@ export default {
     components: {
         Hero,
         BeyondUser,
+        HomeLearn,
+        HomeGrow,
     },
     metaInfo: {
         title: "Home",
