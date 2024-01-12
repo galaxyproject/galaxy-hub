@@ -4,7 +4,7 @@
             <div class="col-lg-7">
                 <div class="text-center notification bgBrighter">
                     Galaxy Community Conference is coming up.
-                    <a href="/events/gcc2024/" class="ml-2">Read on.</a>
+                    <strong><a href="/events/gcc2024/" class="ml-2">Read on.</a></strong>
                 </div>
             </div>
         </div>
@@ -23,7 +23,9 @@
                 <a href="/learn-more/" class="btn hero bgBright">Learn more</a>
             </div>
             <div class="col-lg-5">
-                <video-player :src="videoSrc" class="rounded heroVideo" />
+                <a href="/events/gcc2024/">
+                    <img src="/images/events/gcc2024/gcc2024-banner-4.png" alt="GCC2024" />
+                </a>
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
         <div class="container-fluid-real bgBright bgGradient">
             <div class="container-fluid-real p-0">
                 <div class="row area learn">
-                    <svg viewBox="15 0 80 40" preserveAspectRatio="none" width="5000" height="50" class="wave top">
+                    <svg viewBox="1 0 80 40" preserveAspectRatio="none" width="5000" height="100" class="wave top">
                         <use xlink:href="images/icons/waveNounProject.svg#path" />
                     </svg>
                 </div>
@@ -36,7 +36,7 @@
             </div>
             <div class="container-fluid-real p-0">
                 <div class="row area learn">
-                    <svg viewBox="15 0 80 40" preserveAspectRatio="none" width="5000" height="50" class="wave">
+                    <svg viewBox="13 0 80 40" preserveAspectRatio="none" width="5000" height="100" class="wave">
                         <use xlink:href="images/icons/waveNounProject.svg#path" />
                     </svg>
                 </div>
@@ -53,12 +53,12 @@ export default {
             buttonContent: [
                 {
                     title: "Tutorials",
-                    text: "Access topic-based tutorials for free.",
+                    text: "Access topic-based trainings for free.",
                     link: "https://training.galaxyproject.org",
                 },
                 {
                     title: "Videos",
-                    text: "Learn by watching, including conferences.",
+                    text: "Watch to learn, including conferences.",
                     link: "https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA",
                 },
                 {
@@ -73,22 +73,22 @@ export default {
                 },
                 {
                     title: "Data",
-                    text: "Pull data from many popular repositories.",
+                    text: "Pull data from popular repositories.",
                     link: "https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html",
                 },
                 {
                     title: "Community",
-                    text: "Join the world-wide Galaxy community.",
+                    text: "Explore the world-wide community.",
                     link: "https://galaxyproject.org/community/",
                 },
                 {
                     title: "FAQ",
-                    text: "",
+                    text: "Common questions. Good answers.",
                     link: "https://training.galaxyproject.org/training-material/faqs/index.html",
                 },
                 {
-                    title: "Help and support",
-                    text: "",
+                    title: "Help & support",
+                    text: "Advice is always available.",
                     link: "https://help.galaxyproject.org/",
                 },
             ],

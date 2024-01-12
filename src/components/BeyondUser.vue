@@ -22,8 +22,8 @@
                             Galaxy, and you can add your own.
                         </p>
                         <div class="float-right">
-                            <a href="/tools/" class="btn btn-lg btn-outline-light mr-3">Add tools</a>
-                            <a href="/toolshed/" class="btn btn-lg btn-info">Browse ToolShed</a>
+                            <a href="/tools/" class="btn btn-lg btn-outline-light mr-3">Add new tools</a>
+                            <a href="/toolshed/" class="btn btn-lg btn-info">Browse already integrated tools</a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                         <h3 class="text-dark">Use Galaxy servers are global!</h3>
                         <p>
                             There are over a hundred public and free Galaxy servers available.<br />
-                            <a href="/use/">Find yours.</a>
+                            <strong><a href="/use/">Find the one you need.</a></strong>
                         </p>
                     </div>
                 </div>

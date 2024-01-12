@@ -29,17 +29,22 @@
                     <a href="citing-galaxy/" class="text-white">
                         <h3>Cite Galaxy</h3>
                     </a>
-                    <span class="small text-white">
-                        The Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative
-                        biomedical analyses: 2022 update, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022,
+                    <a href="https://doi.org/10.1093/nar/gkac247" target="_blank" class="small text-white">
+                        The Galaxy Community. "The Galaxy platform for accessible, reproducible and collaborative
+                        biomedical analyses: 2022 update", Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022,
                         Pages W345–W351.
-                    </span>
+                    </a>
                 </div>
             </div>
             <div class="col-xl-4 mb-3">
                 <div class="area grow tutorials h-100">
                     <h3>Popular tutorials</h3>
-                    <ul>
+                    <div class="text-white mb-5">
+                        Choose from these self-paced tutorials to perform a
+                        comprihensive analysis or hone your skills on a specific
+                        topic.
+                    </div>
+                    <ul style="list-style-type: none; padding: 0;">
                         <li v-for="t in this.tutorials" :key="t.title">
                             <a :href="t.link" role="button" rel="noopener" target="_blank" class="text-decoration-none">
                                 <div class="link">{{ t.title }}</div>
@@ -61,21 +66,22 @@
             <div class="col-xl-4 mb-3">
                 <div class="area grow cases h-100">
                     <h3>Exemplar use cases</h3>
-                    See how Galaxy cooperates and helps other projects. These are great exemplars of how Galaxy is being
-                    used in production settings.
+                    See how Galaxy cooperates and helps other projects. These
+                    are also great exemplars of how Galaxy is being used in
+                    production settings.
                     <div class="row mt-4 mb-4">
                         <div class="col">
                             <div class="text-center mt-4">
-                                <a href="projects/vgp/" rel="noopener" target="_blank">
+                                <a href="/projects/vgp/" rel="noopener" target="_blank">
                                     <img src="/images/vgp/vgp_logo_dark.svg" alt="VGP logo" class="w-100" />
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="row mt-4 mb-4">
-                        <div class="col d-flex align-items-end">
-                            <div class="w-50 mr-3">
-                                <a href="projects/microbial/" rel="noopener" target="_blank">
+                        <div class="col">
+                            <div class="w-50 mx-auto d-block">
+                                <a href="/projects/microbial/" rel="noopener" target="_blank">
                                     <img
                                         src="/images/microgalaxy/microgalaxy_logo.svg"
                                         alt="microGalaxy logo"
@@ -83,9 +89,13 @@
                                     />
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4 mb-4">
+                        <div class="col">
                             <div class="w-50">
                                 <a
-                                    href="projects/mpxv/"
+                                    href="/projects/mpxv/"
                                     class="mpxvLogo text-decoration-none"
                                     rel="noopener"
                                     target="_blank"
@@ -111,16 +121,20 @@ export default {
         return {
             papers: [
                 {
-                    title: "Goonasekera, N., Bromhead, C., Gladman, S., Coraor, N., Gruning, B., & Afgan, E. (2023). Right-sizing compute resource allocations for bioinformatics tools with Total Perspective Vortex. arXiv preprint arXiv:2312.02060.",
-                    link: "https://arxiv.org/abs/2312.02060",
+                    title: "Hakimzadeh, Ali, et al. 'A pile of pipelines: An overview of the bioinformatics software for metabarcoding data analyses.'' Molecular Ecology Resources (2023).",
+                    link: "https://doi.org/10.1111/1755-0998.13847",
                 },
                 {
-                    title: "Hiltemann, S., Rasche, H., Gladman, S., Hotz, H. R., Larivière, D., Blankenberg, D., ... & Batut, B. (2023). Galaxy Training: A powerful framework for teaching!. PLoS computational biology, 19(1), e1010752.",
-                    link: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010752",
+                    title: "Senft, Rebecca A., et al. 'A biologist’s guide to planning and performing quantitative bioimaging experiments.' PLoS Biology 21.6 (2023): e3002167.",
+                    link: "https://doi.org/10.1371/journal.pbio.3002167",
                 },
                 {
-                    title: "Hakimzadeh, A., Abdala Asbun, A., Albanese, D., Bernard, M., Buchner, D., Callahan, B., ... & Anslan, S. (2023). A pile of pipelines: An overview of the bioinformatics software for metabarcoding data analyses. Molecular Ecology Resources.",
-                    link: "https://pubmed.ncbi.nlm.nih.gov/37548515/",
+                    title: "Banh, Dalton V., et al. 'Bacterial cGAS senses a viral RNA to initiate immunity.' Nature (2023): 1-8.",
+                    link: "https://doi.org/10.1038/s41586-023-06743-9",
+                },
+                {
+                    title: "Sokol-Borrelli, Sarah L., et al. 'A transcriptional network required for bradyzoite development in Toxoplasma gondii is dispensable for recrudescent disease.' Nature Communications 14.1 (2023): 6078.",
+                    link: "https://doi.org/10.1016/j.envint.2022.107531",
                 },
             ],
             tutorials: [
