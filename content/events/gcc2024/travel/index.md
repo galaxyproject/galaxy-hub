@@ -4,6 +4,7 @@ autotoc: false
 
 <slot name="/events/gcc2024/header" />
 
+
 # Brno, Czech Republic
 
 **[Brno](https://www.amazingczechia.com/destinations/brno/) is a captivating,
@@ -21,6 +22,7 @@ deep connection to Czech history, Brno is a city that seamlessly marries
 tradition with modernity, making it a fascinating destination for GCC2024
 attendees.
 
+
 ## Getting to Brno
 
 Getting to Brno is easiest by train from
@@ -35,6 +37,7 @@ please email the [organizers](mailto:gcc2024-org@gaggle.email).
 If you will be arriving to Brno without a working cell service, it is a good
 idea to save an offline map of the city on your phone before the trip to ease
 navigation.
+
 
 ## Weather in Brno in June
 
@@ -61,6 +64,7 @@ hotels include breakfast.
 
 1. [Hotel International](https://www.hotelinternational.cz/en/): EUR115 single or EUR135 double
 2. [Hotel Grand](https://grandhotelbrno.cz/en/): EUR74
+3. [Hotel Barcelo](https://www.barcelo.com/en-us/barcelo-brno-palace/): rate pending
 
 
 # GCC2024 venue
