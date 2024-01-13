@@ -6,7 +6,7 @@ title: "VGP-Galaxy assembly workflows"
 
 The Vertebrate Genomes Project's pipelines in Galaxy are intended to allow a user to generate high-quality, near error-free assemblies of species from a user's own data or from the [GenomeArk](https://genomeark.github.io/) database. These workflows use PacBio HiFi reads, Hi-C data, and, optionally, BioNano optical maps. The image below shows major assembly workflows.
 
-<div class="alert alert-success" role="alert">We maintain a set of comptehensive tutorials explaining the use of these workflows in minute deatils. To access these tutorials see '<i>How can I use these workflows section</i>'</a> at the bottom of this page.</div>
+<div class="alert alert-success" role="alert">We maintain a set of comprehensive tutorials explaining the use of these workflows in minute details. To access these tutorials see '<i>How can I use these workflows section</i>'</a> at the bottom of this page.</div>
 
 
 
@@ -24,7 +24,7 @@ Eight analysis trajectories are possible depending on the combination of input d
 
 --------
 
-The latest versions of wortkflows cabn be found in DockStore:
+The latest versions of workflows can be found in DockStore:
 
 | Workflow | Link | Description |  Inputs | Outputs | 
 |----------|---|--------|-------|--------|
