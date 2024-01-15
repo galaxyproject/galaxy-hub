@@ -4,11 +4,18 @@ title: Set up your own community
 
 <div class='right'><img src="/images/undraw-illustrations/mind_map.svg" alt="" width="240" /></div>
 
-There are many communities established within Galaxy based on [**region**](/community/#regional-communities) or [**domain of science**](/community/#communities-of-practice) but if you feel like you just don't see your own or don't feel identified with them, you can create your own community!
+There are many communities established within Galaxy based on:
+- their [**region**](/community/#regional-communities) around the world - these are regional communities,
+- their [**domain of science**](/community/#communities-of-practice) - these are communities of practices in different scientific domains,
+- their [**topics of interest**](https://galaxyproject.org/community/wg/), such as systems, back-end, user interface - these are working groups. 
 
-Below you'll find a suggested path to follow before you can start your own community, a list of Do's and Don'ts and also useful links you should probably check out.
+We encourage you to look through those communities and if you find one that it is appropriate for your needs, you can join and contribute to that community. However, if you don't find a community that fits your work or domain, or don't feel identified with any of them, you can create your own community of practice!
 
-### Path 
+Below you'll find a suggested recipes to follow before, during and after you can start your own community, a list of Do's and Don'ts and also useful links you should probably check out.
+
+### Community Onboarding Cookbook
+
+Here we outline a few "recipes", or set of steps, you can follow to address different aspects of creating, growing and sustaining, a new community. 
 
 #### Learn the basics about Galaxy
 
@@ -20,8 +27,10 @@ Galaxy has many tools already installed and ready to be used but when creating y
 Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) for writing [**Galaxy Tools**](https://toolshed.g2.bx.psu.edu/).
 
 #### Get involved
-- Introduce yourself and dive in our Working Groups.
-- Participate in our worldwide Galaxy Events.
+- Introduce yourself and dive in our [Working Groups](https://galaxyproject.org/community/wg/).
+- Participate in our worldwide [Galaxy Events](https://galaxyproject.org/events/).
+
+### Create communication channels for your community
 - We strongly recommend you create your community chat. Reach out to our Lobby in [**Gitter**](https://gitter.im/galaxyproject/Lobby) or [**Matrix**](https://app.element.io/#/room%2F%23galaxyproject_Lobby%3Agitter.im) and ask the admins to create your Community Chat.
   - Setting up a mailing list is also another available option by sending an email to outreach@galaxyproject.org although we strongly recommend to use a Community Chat.
 
