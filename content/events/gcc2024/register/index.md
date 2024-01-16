@@ -13,30 +13,39 @@ autotoc: false
 The general meeting portion of GCC2024 consist of a series of peer-reviewed
 talks, posters, demos, training sessions, Birds-of-a-Feather meetups, and sponsor talks.
 
-The registration fee includes admission to the meeting events, morning/afternoon
-break, and lunch for each day.
+The registration fee includes admission to the meeting events, snacks and drinks
+during the morning/afternoon break, and lunch for each day.
 
-Tuesday evening will be the official conference dinner. Note that you can
-purchase additional dinner tickets if you have travel companion(s) and would
-like them to attend as well.
+Tuesday evening will be the official conference dinner, which needs to be
+purchased along with the registration. If you'd like to purchase additional
+dinner tickets for your travel companion(s) you can do so at the time of
+registration.
 
-Please note that all prices are listed in Euros (EUR); here is a
-convenient [currency
-converter](https://www.oanda.com/currency-converter/en/?from=EUR&to=USD&amount=100)
+Please note that all prices are listed in Euros (EUR) and exclude the mandatory
+VAT. If you prefer to reason in a different currency, here is a convenient [currency
+converter](https://www.oanda.com/currency-converter/en/?from=EUR&to=USD&amount=360)
 to see how these numbers compare.
+
+Note that online registration will close on June 15 but in-person registration
+will be available onsite during the event.
 
 **If you are currently working in a low-income country**, as defined by the
 World Bank, please email the [organizers](mailto:gcc2024-org@gaggle.email) before
 registering and ask for a 50% discount code that you can apply during
-registration. The [list of eligible countries is available in this
+registration. The [list of eligible low-income countries is available in this
 document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
-|                                    | Early (< May 20) | Full (<= June 20) | Late (> June 20) |
+If you are a trainer or a member of the scientific committee at GCC2024 and are
+in need of financial help, please email the [event
+organizers](mailto:gcc2024-org@gaggle.email) and a discount code will be
+provided.
+
+|                                    | Early (<= Feb 29) | Full (<= May 25) | Late (<= Jun 15) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc                    | EUR$350 | EUR$450 | EUR$550   |
-| Academic / Non-Profit / Government | EUR$450 | EUR$550 | EUR$750   |
-| Industry                           | EUR$600 | EUR$800 | EUR$1,000 |
-| Conference dinner                  |         |         | EUR$65    |
+| Student/postdoc                    | EUR$360 | EUR$460 | EUR$570   |
+| Academic / Non-Profit / Government | EUR$460 | EUR$565 | EUR$670   |
+| Industry                           | EUR$620 | EUR$770 | EUR$920   |
+| Conference dinner                  |         |         | EUR$70    |
 
 
 ### Virtual meeting attendance
@@ -68,7 +77,7 @@ event.
 ## Lodging
 
 See the [Travel page](/events/gcc2024/travel/) for details about the conference
-hotel. Brno has many wonderful accommodation choices so also feel free to
+hotels. Brno has many wonderful accommodation choices so also feel free to
 explore more and find a spot.
 
 ## Cancellation
@@ -80,6 +89,6 @@ your registration, please contact the
 
 | Cancelation date         | Cancelation fee |
 | ------------------------ | --------------: |
-| Before April 30          | 25%             |
-| May 1 - June 14          | 50%             |
-| June 15 and later        | 100%            |
+| Before April 1           | 25%             |
+| April 1 - May 31         | 50%             |
+| June 1 and later         | 100%            |
