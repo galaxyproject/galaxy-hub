@@ -35,10 +35,14 @@ subsites: [all]
     <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
         <strong>Sign up for announcements</strong>
     </a>
-    <!-- ◇
+    ◇
     <a href="/events/gcc2024/abstracts/" type="button" class="btn btn-primary">
-        <strong>Submit an abstracts</strong>
-    </a> -->
+        <strong>Submit an abstract</strong>
+    </a>
+    ◇
+    <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
+        <strong>Register</strong>
+    </a>
   </div>
 </div>
 
@@ -77,7 +81,7 @@ software that push the field of data science with Galaxy forward.
 Check out the **[abstracts page](/events/gcc2024/abstracts/)** for details on how to
 contribute to the program.
 
-Registration is still pending, but check back soon.
+[Registration](/events/gcc2024/register/) is open.
 
 The **[Key Dates page](/events/gcc2024/key-dates/)** has a list of deadlines to keep
 in mind. These tend to sneak up on you!
@@ -96,8 +100,6 @@ workshops that will be available at GCC2024. Attending trainings is a wonderful
 way to get practical experience on a topic in just a couple of hours, while also
 meeting people that can help you later.
 
-Also, **help shape the details of the training program** by filling out an
-[expression-of-interest form](https://forms.gle/NptKvFU6bq8B7ou39)!
 
 <!-- A **preview of the training topics** includes:
 

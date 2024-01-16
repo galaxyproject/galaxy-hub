@@ -9,6 +9,7 @@
 [Home](/events/gcc2024/) |
 [Key Dates](/events/gcc2024/key-dates/) |
 [Abstracts](/events/gcc2024/abstracts/) |
+[Register](/events/gcc2024/register/) |
 [Schedule](/events/gcc2024/schedule/) |
 [CoFest](/events/gcc2024/cofest/) |
 [Travel](/events/gcc2024/travel/) |

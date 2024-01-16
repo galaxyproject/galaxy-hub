@@ -7,6 +7,13 @@ autotoc: false
 
 # Registration
 
+  <div class="text-center my-5">
+    <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
+        <strong>Register</strong>
+    </a>
+  </div>
+</div>
+
 
 ## Meeting: June 24-27
 
@@ -22,7 +29,10 @@ dinner tickets for your travel companion(s) you can do so at the time of
 registration.
 
 Please note that all prices are listed in Euros (EUR) and exclude the mandatory
-VAT. If you prefer to reason in a different currency, here is a convenient [currency
+VAT. When paying for the registration, you can use a credit card or do a bank
+transfer. You can also register and request the payment be processed afterwards
+by someone else, such as your department administrator. If you prefer to
+reason in a different currency, here is a convenient [currency
 converter](https://www.oanda.com/currency-converter/en/?from=EUR&to=USD&amount=360)
 to see how these numbers compare.
 
@@ -61,6 +71,7 @@ the channel.
 | --- | ---: |
 | Virtual    | EUR$50 |
 
+
 ## CoFest: June 28-29
 
 [CoFest](/events/gcc2024/cofest/), or CollaborationFest, is an opportunity to
@@ -74,11 +85,13 @@ event.
 | --- | ---: |
 | CoFest | EUR$20 |
 
+
 ## Lodging
 
 See the [Travel page](/events/gcc2024/travel/) for details about the conference
 hotels. Brno has many wonderful accommodation choices so also feel free to
 explore more and find a spot.
+
 
 ## Cancellation
 
