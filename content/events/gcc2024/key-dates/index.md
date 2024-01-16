@@ -22,6 +22,7 @@ understand and don't mind.
 | May 26 | [Regular registration closes / Late registration opens](/events/gcc2023/register/) |
 | Jun 15 | Deadline for submitting slides for your talk to the organizers |
 | Jun 15 | Deadline for [registering a BoF](/events/gcc2024/abstracts/#birds-of-a-feather-bof-sessions) |
+| Jun 15 | Late registration closes (on-site registration will be available) |
 | Jun 24 | Conference starts! |
 | Jun 28 | CoFest starts |
 

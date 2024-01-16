@@ -35,10 +35,6 @@ subsites: [all]
     <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
         <strong>Sign up for announcements</strong>
     </a>
-    ◇
-    <a href="/events/gcc2024/training/" type="button" class="btn btn-primary">
-        <strong>Influence the training program</strong>
-    </a>
     <!-- ◇
     <a href="/events/gcc2024/abstracts/" type="button" class="btn btn-primary">
         <strong>Submit an abstracts</strong>
