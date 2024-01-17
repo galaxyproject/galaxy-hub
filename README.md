@@ -1,22 +1,20 @@
 # Galaxy Community Hub
 
-The [Galaxy Community Hub](https://galaxyproject.org) is the community and documentation website for the [Galaxy Project](https://galaxyproject.org/use/). The Hub is maintained by the community through this GitHub repository. To update the Hub, (1) visit the [Hub "About" page](https://galaxyproject.org/hub/) and (2) view the links in this `README.md` file [Table of Contents](https://github.com/galaxyproject/galaxy-hub/blob/master/README.md#table-of-contents).
+The [Galaxy Community Hub](https://galaxyproject.org) is the community and documentation website for the [Galaxy Project](https://galaxyproject.org/use/). The Hub is maintained by the community through this GitHub repository. To update the Hub, (1) visit the [Hub "About" page](https://galaxyproject.org/hub/) and (2) view the links in this `README.md` file [Table of Contents](#table-of-contents).
 
 ## About the Galaxy Project
 
 To learn more about the Galaxy Project, visit the [Hub "Home" page](https://galaxyproject.org).
-
-<a name="table-of-contents"></a>
-
+ 
 # Table of contents
 1. Structuring Content, Files, and URLs
-    1. [Markdown](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/contributing/markdown/index.md) - How to format paragraphs and images
-    2. [File Organization and URLs](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/contributing/file-organization/index.md) - How to name files and structure URL paths
-    3. [Static and Dynamic Pages](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/contributing/file-organization/index.md#page-layout-template) - How to display list of pages, custom layouts, and categorized pages
-    4. [Subsites](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/global/index.md) - How to access existing subsites or start your own Hub subsite
+    1. [Markdown](content/hub/contributing/markdown/index.md) - How to format paragraphs and images
+    2. [File Organization and URLs](content/hub/contributing/file-organization/index.md) - How to name files and structure URL paths
+    3. [Static and Dynamic Pages](content/hub/contributing/file-organization/index.md#page-layout-template) - How to display list of pages, custom layouts, and categorized pages
+    4. [Subsites](content/hub/global/index.md) - How to access existing subsites or start your own Hub subsite
 2. Contributing Content, Images, and Code (multiple options to publish changes)
-    1. [Option "Editor"](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/contributing/index.md#editor) - Do it all in Github
-    2. [Option "Developer"](https://github.com/galaxyproject/galaxy-hub/blob/master/content/hub/contributing/index.md#developer) - Clone the repository (and run in your local environment)
+    1. [Option 1: "Editors"](content/hub/contributing/index.md#option-1) - Do it all in Github
+    2. [Option 2: "Developers"](content/hub/contributing/index.md#option-2) - Clone the repository (and run in your local environment)
 
 ## License
 
