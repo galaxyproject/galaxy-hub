@@ -157,8 +157,7 @@ including the **[Mendel museum](https://mendelmuseum.muni.cz/en)**, the iconic
 stunning [Cathedral of St. Peter and
 Paul](https://www.gotobrno.cz/en/place/cathedral-of-st-peter-and-paul/).
 
-Brno is also a hub of education and innovation - including the GCC2024 host,
-[Masaryk University](https://www.muni.cz/en) - contributing to its dynamic and
+Brno is also a hub of education and innovation with a dynamic and
 lively atmosphere. With a thriving arts scene, numerous cafes, and a
 deep connection to Czech history, Brno is a city that seamlessly marries
 tradition with modernity, making it a fascinating destination for GCC2024
@@ -172,8 +171,8 @@ attendees.
     <img src="/images/events/gcc2024/europe-map.png" class="card-img-top" alt="Europe map" />
     <div class="card-header">Travel</div>
 
-Brno can be accessed via train from Vienna (~1.5hr) or Prague (~2.5hr). Grab a
-comfy seat and enjoy the scenery.
+Brno can be accessed via bus or train from Vienna (~2.5hr) or Prague (~2.5hr).
+Grab a comfy seat and enjoy the scenery.
 
 There will be a conference hotel with a discounted rate for GCC attendees,
 although that's still being worked on. To get most up-to-date travel news

@@ -25,14 +25,66 @@ attendees.
 
 ## Getting to Brno
 
-Getting to Brno is easiest by train from
-[Vienna](https://www.raileurope.com/en-us/destinations/vienna-brno-train) or
-[Prague](https://www.raileurope.com/en-us/destinations/prague-brno-train).
-
 **Before making travel arrangements, don't forget to check any [Schengen visa
 requirements](https://www.schengenvisainfo.com/who-needs-schengen-visa/) for
 traveling to EU**. If you need a visa application letter from the conference,
 please email the [organizers](mailto:gcc2024-org@gaggle.email).
+
+You can comfortably get to Brno by air, bus, car or train.
+
+
+### By air
+
+Visitors of Brno can use [International Airport
+Brno-Tuřany](https://www.brno-airport.cz/en/), which provides flights to
+London/Stansted and other charter destinations. Most GCC attendees should use [Prague
+Airport (PRG)](https://www.prg.aero/en#/) or [Vienna Airport
+(VIE)](https://www.viennaairport.com/en/passengers).
+
+The Brno airport is located 12km/20 minutes from the city center and you can
+easily take a taxi or the express bus, which is located outside the
+entrance to the airport terminal.
+
+From the Vienna airport you can take a bus, operated by [Student
+Agency](https://www.studentagency.eu/en), offering 8 connections daily from
+Vienna to Brno from 13 EUR one way. Duration of the travel is approximately 2,5
+hours. Tickets are available for purchase
+[online](https://www.studentagency.eu/en).
+
+From the Prague airport you can also take a bus, operated by [Student
+Agency](https://www.studentagency.eu/en), offering 36 connections daily from 8
+EUR one way. Duration of the travel is approximately 2,5 hours. Tickets are
+available [online](https://www.studentagency.eu/en).
+
+
+### By bus or train
+
+[Student Agency](https://www.studentagency.eu/en) is a reliable bus and train
+company. From Vienna and Prague, we also recommend the [RailJet
+train](https://idos.idnes.cz/en/vlakyautobusymhdvse/spojeni/). A third option is
+via Rail Europe, with trains from
+[Vienna](https://www.raileurope.com/en-us/destinations/vienna-brno-train) or
+[Prague](https://www.raileurope.com/en-us/destinations/prague-brno-train).
+
+
+### By car
+
+[Brno](https://maps.app.goo.gl/rx4QGKYY42DVauLq8) is located on the main Czech
+highway D1 and D2. For highways and some bigger roads it is necessary to have a
+[highway sticker](https://edalnice.cz/en/index.html), which is available for
+purchased
+[online](https://edalnice.cz/en/single-purchase/index.html#/eshop/order) or at
+the border crossing, petrol stations, or post offices.
+
+
+### By Taxi
+
+Private airport transport is available from [Brno
+Transport](https://www.brno-transport.cz/en/passenger-transport-order) with a
+cost of about 130 EUR from either Prague or Vienna. The transport can be booked
+directly on the [company
+website](https://www.brno-transport.cz/en/passenger-transport-order).
+
 
 If you will be arriving to Brno without a working cell service, it is a good
 idea to save an offline map of the city on your phone before the trip to ease
@@ -69,10 +121,17 @@ hotels include breakfast.
 
 # GCC2024 venue
 
-GCC2024 will be held at the [University Campus Bohunice](https://www.ukb.muni.cz/) at [Masaryk
-University](https://www.muni.cz/en).
+GCC2024 will be held at the [Hotel
+International](https://www.hotelinternational.cz/en/), located at [Husova 16,
+602 00 Brno-střed](https://maps.app.goo.gl/SPxpRFZs6APq5TfG7).
 
 
 # Activities beside the conference
 
-Coming soon!
+The [BRNOPAS tourist card](https://www.gotobrno.cz/en/brnopas/) can be your
+guide around Brno, highlighting interesting places and offering discounts or
+free admission to the 5 popular places: gardens at Brno villas, Old Town Hall
+tower, Brno underground, Cathedral of Saints Peter and Paul, and the Brno Zoo.
+The card is also offers free ticket on city transportation.
+
+More coming soon!
