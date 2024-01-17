@@ -7,7 +7,6 @@ pretitle: "[Home](/) > [Hub](/hub/) > [Contributing](/hub/contributing/) > [File
 
 A central concept of the Hub is that the organization of the files is the same as the organization of the pages on the website. That means that the path for the Markdown file for each page is the same as its url. Examples will illustrate this best:
 
-<a name="page-layout-template"></a>
 <div class="compact">
 
 ### Static pages
