@@ -7,6 +7,11 @@ subsites: [all-eu]
 main_subsite: eu
 ---
 
+**Update:** the official ELIXIR meeting report can be found on F1000Research:
+
+[ELIXIR All Hands Dublin 2023 – Setting the stage for the ELIXIR 2024-28 Scientific Programme](https://f1000research.com/documents/12-1126)
+
+
 During 5-8th of June, members of the European Galaxy team travelled to Dublin to join the ELIXIR All Hands meeting 2023. Some of us travelled by plane, but Björn and Wolfgang took the ferry: 
 
 <twitter tweet="1664969165667463174"></twitter>

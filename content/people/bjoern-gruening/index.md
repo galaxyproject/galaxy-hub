@@ -28,4 +28,10 @@ Georges-Köhler-Allee 106 <br />
     <th> URL </th>
     <td> <a href='https://github.com/bgruening'>GitHub page</a> </td>
   </tr>
+  <tr>
+    <th> Mastodon </th>
+    <td> <a rel="me" href="https://fosstodon.org/@bgruening">Mastodon</a> </td>
+  </tr>
+
+  
 </table>

@@ -29,8 +29,8 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are **co-
 [//]: # "- [**ELIXIR Galaxy Community Meeting**](/events/2023-10-egd/gcm/)"
 
 - The [**ELIXIR Galaxy Community Face-to-face (F2F)** meeting](https://elixir-europe.org/events/elixir-galaxy-community-meeting-0),
-- The **[EuroScienceGateway](/projects/esg/) General Assembly (ESG GA)**,
-- The **European Galaxy Days (EGD)** themselves.
+- The **[EuroScienceGateway](/projects/esg/) [General Assembly (ESG GA)](/events/2023-10-egd/esg/)**,
+- The **[European Galaxy Days (EGD)](/events/2023-10-egd/egd/)** themselves.
 
 <br><br>
 
@@ -57,7 +57,7 @@ The organizers will contact you for further clarification.
 <br><br>
 
 # Schedule
-
+Updates as of September 29th - for a more detailed schedule now check out the [EGD subpage](/events/2023-10-egd/egd/).
 <table>
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
@@ -73,56 +73,55 @@ The organizers will contact you for further clarification.
       <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>12:30</th>
-      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
-        <br><br><small>Community update talks</small>
+      <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>13:00</th>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">European Galaxy Days</a></strong>
+        <br><small>Arrival and Welcome<br>Community update talks</small>
       </td>
-      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>European Galaxy Days</strong>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">European Galaxy Days</a></strong>
         <br><br><small>New developments talks</small>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2023-10-egd/esg/">ESG Annual Meeting</a></strong>
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">12:30<br> - <br>14:00</th>
+      <th style="border: 3px solid white; vertical-align: middle;">13:00<br> - <br>14:30</th>
       <td colspan="6" style="background-color: #EEEEEE;">
         <strong>Lunch Break</strong>
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">14:00<br> - <br>16:00</th>
+      <th style="border: 3px solid white; vertical-align: middle;">14:30<br> - <br>16:00</th>
       <td colspan="2" style="background-color: #FBB117; border: 3px solid white;">
-        <strong>ELIXIR Galaxy Community</strong>
+        <strong><a href="/events/2023-10-egd/egd/#wednesday-october-4">ELIXIR Galaxy Community</a></strong>
         <br><br><small>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities/platforms/focus groups</small>
       </td>
-      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD meets ESG</strong>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">EGD meets ESG</a></strong>
         <br><br><small>Several talks to get to know each other</small>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2023-10-egd/esg/">ESG Annual Meeting</a></strong>
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">16:00<br> - <br>17:30</th>
+      <th style="border: 3px solid white; vertical-align: middle;">16:30<br> - <br>17:30</th>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
-        <strong>European Galaxy Days (BoFs)</strong>
+        <strong>Birds of a Feather meetings (BoFs)<br><br><small>Session 1</small></strong>
       </td>
-      <td style="background-color: #78C7C7; border: 3px solid white;"><strong>EGD (BoFs)</strong>
-      </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
+        <strong>Birds of a Feather meetings (BoFs)<br><br><small>Session 2</small></strong>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong>ESG Annual Meeting</strong>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2023-10-egd/esg/">ESG Annual Meeting</a></strong>
       </td>
     </tr>
   </tbody>
 </table>
 
-As we are looking forward to community contributions, a more detailed schedule with particular presentations will be published from September 8th.
+(Coffee breaks included, for sure.)
 
 <br><br>
 
@@ -222,5 +221,6 @@ HORIZON-INFRA-2021-EOSC-01 under Grant Agreement no. 101057388.
 ![logo ELIXIR](/images/logos/ElixirNoTextLogo.png)
 ![logo EC](eu_funded_en.jpg)
 ![logo de.nbi](denbi.png)
+![logo DataPLANT](/images/logos/DataPLANT-logo-transparent.png) 
 
 </div>

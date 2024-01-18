@@ -14,16 +14,19 @@ There are currently three UseGalaxy servers:
 
 ## UseGalaxy.org
 
-[UseGalaxy.org](https://usegalaxy.org) is the Galaxy Project's publicly accessible server.  It was the original Galaxy server and has over 100,000 registered users, and is supported by significant computational resources at the Texas Advanced Computing Center (TACC).
+[UseGalaxy.org](https://usegalaxy.org) is the Galaxy Project's publicly accessible server.  It was the original Galaxy server and has over 100,000 registered users, and is supported by significant computational resources at the Texas Advanced Computing Center (TACC). [Playbooks](https://github.com/galaxyproject/usegalaxy-playbook/)
 
 ## UseGalaxy.eu
 
-[UseGalaxy.eu](https://usegalaxy.eu/) is a publicly accessible server that aims to support the analysis and sharing needs of the European research community.  It was launched in March 2018 at European Galaxy User Meeting in Freiburg.  It is hosted at the University of Freiburg.
+[UseGalaxy.eu](https://usegalaxy.eu/) is a publicly accessible server that aims to support the analysis and sharing needs of the European research community.  It was launched in March 2018 at European Galaxy User Meeting in Freiburg.  It is hosted at the University of Freiburg. [Playbooks](https://github.com/usegalaxy-eu/infrastructure-playbook)
 
 ## UseGalaxy.org.au
 
-[UseGalaxy.org.au](https://usegalaxy.org.au) aims to support the Australian research community.  It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server.
+[UseGalaxy.org.au](https://usegalaxy.org.au) aims to support the Australian research community.  It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. [Playbooks](https://github.com/usegalaxy-au/infrastructure)
 
+## UseGalaxy.fr
+
+[UseGalaxy.fr](https://usegalaxy.fr) is a publicly accessible server aiming to support the French research community. [Playbooks](https://gitlab.com/ifb-elixirfr/usegalaxy-fr/infrastructure)
 
 (See the [UseGalaxy server directory](/use/) for more information on each.)
 
@@ -39,9 +42,17 @@ This effort was launched in March 2018 and is very much a work in progress.  Sup
 
 We want to see servers meeting several loose requirements to be considered part of the `usegalaxy.*` group.
 
-- *Updated*: These servers commit to updating Galaxy quickly after new releases.
+- *Updated*: These servers commit to updating Galaxy within 90 business days after new releases.
 - *Freely accessible*: these servers may not place restrictions on access or registration, anonymous usage must be permitted.
 - *Public infrastructure configuration*: we hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
-- *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools and join in automated cross-usegalaxy testing initiatives.
+- *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools, and must provide CVMFS reference data.
+- *Functional*: the site provides >90% uptime as monitored by the status page, and participates in automated cross-usegalaxy testing initiatives.
 
 We're excited to see new services join us!
+
+## Incubating Members
+
+These servers might not meet all of the requirements but are aiming to one day!
+
+- [UseGalaxy.be](https://usegalaxy.be) - working towards public playbooks, anonymous access.
+- [UseGalaxy.ca](https://usegalaxy.ca) - working towards public playbooks, anonymous access.

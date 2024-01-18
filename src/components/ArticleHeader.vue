@@ -92,6 +92,12 @@ export default {
         if (info.meta !== undefined) {
             info.meta.push({ property: "og:type", content: "article" });
             info.meta.push({ property: "twitter:card", content: "summary_large_image" });
+            // Set a backup summary image if none is provided.
+            if (!info.meta.some((tag) => tag.property in ["og:image", "twitter:image"])) {
+                const defaultSocialImageURL = ensureDomain(CONFIG.defaultSocialImage);
+                info.meta.push({ property: "og:image", content: defaultSocialImageURL });
+                info.meta.push({ property: "twitter:image", content: defaultSocialImageURL });
+            }
             return info;
         }
     },

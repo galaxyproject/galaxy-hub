@@ -71,3 +71,19 @@ Please suggest topics to discuss during the Birds of a Feather [here](https://do
 | 09:30 - 17:30 | CoFest   | SR01-016/018 (first floor) |
 
 Please suggest topics to discuss/work on during the CoFest [here](https://tinyurl.com/EGD2022COFEST).
+
+
+# Supporters
+
+The CoFest is supported by [DataPLANT](https://www.nfdi4plants.de/) and [EuroScienceGateway](https://galaxyproject.org/projects/esg/).
+
+<div style="max-width: 250px">
+
+![logo DataPLANT](/images/logos/DataPLANT-logo-transparent.png) 
+
+</div>
+<div style="max-width: 500px">
+
+![logo ESG](/images/logos/Eurosciencegateway_logo.png)
+
+</div>
