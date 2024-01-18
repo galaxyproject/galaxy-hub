@@ -14,8 +14,8 @@ To learn more about the Galaxy Project, visit the [Hub "Home" page](https://gala
     3. [Static and Dynamic Pages](content/hub/contributing/file-organization/index.md#static-pages) - How to display list of pages, custom layouts, and categorized pages
     4. [Subsites](content/hub/global/index.md) - How to access existing subsites or start your own Hub subsite
 2. Contributing Content, Images, and Code (multiple options to publish changes)
-    1. [Option 1: "Editors"](content/hub/contributing/index.md#option-1) - Do it all in Github
-    2. [Option 2: "Developers"](content/hub/contributing/index.md#option-2) - Clone the repository (and run in your local environment)
+    1. [[Option 1] Editors](content/hub/contributing/index.md#option-1) - Do it all in Github
+    2. [[Option 2] Developers](content/hub/contributing/index.md#option-2) - Clone the repository (and run in your local environment)
 
 ## License
 

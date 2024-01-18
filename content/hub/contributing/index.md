@@ -9,9 +9,7 @@ First, it might help to understand how this site works. The Hub is a [static sit
 
 To make changes, you have two options.
 
-## Option 1
-
-### Editors: Do it all in Github
+## [Option 1] Editors: Do it all in Github
 
 It's actually possible to contribute using only the Github website.
 
@@ -41,9 +39,7 @@ Once you're done, you'll want to add a "commit message" which describes your pro
 
 Then click "Propose new file" at the bottom. Then click the big, green "Create pull request" button. Then you'll see a couple more text boxes where you can describe your changes. This is the main post (called a "pull request") which the maintainers will read to understand what you're trying to do. You can use the commit message you already wrote if it's good enough for that. Once you're finished, click "Create pull request" at the bottom and the maintainers will look at it and decide if they want to add your changes. They might also reply with questions or requests for tweaks before they accept it.
 
-## Option 2
-
-## Developers: Clone the repository
+## [Option 2] Developers: Clone the repository
 
 For users familiar with git and the command line, you can clone the repository locally. You should probably first fork the repository: on the [repo page](https://github.com/galaxyproject/galaxy-hub), click the "Fork" button at the upper right of the page. Then make sure it shows your username as the owner (or whoever you want the owner to be), and the rest of the options you can leave as their defaults. Then click "Create fork". Then it'll take you to the page for your fork. Now you can clone it by clicking the big green "Code" button at the upper right. You'll probably want the "SSH" option, so copy the address (which should look like `git@github.com:[your-username]/galaxy-hub.git` but with your username instead of `[your-username]`) and paste it into a git clone command:
 ```sh
