@@ -19,7 +19,7 @@ We intentionally do not have chat but if you have a emergency admin question, pl
 
 🎯Goals
 - Help each other
-- Share experience, solutions, knowledge
+- Share experience, solutions, knowledge (see also: [our dedicated space on github](https://github.com/galaxyproject/small-scale-galaxy-admins))
 - Identify particular needs which we can bring forward to the core developers
 
 
