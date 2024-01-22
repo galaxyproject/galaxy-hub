@@ -9,9 +9,9 @@ During GCC 2023 we discussed how to empower the Galaxy community, in terms of Pr
 
 ## Purposes
 
-Representation for community aspects of the ecosystem is central to long term Project sustainability. The goal is to empower participants, giving a genuine voice, in planning and governance, through efficient and transparent structures and processes, that can scale effectively as the Galaxy project continues to expand. 
+Representation of community aspects of the ecosystem is central to long-term Project sustainability. The goal is to empower participants, giving a genuine voice, in planning and governance, through efficient and transparent structures and processes, that can scale effectively as the Galaxy project continues to expand. 
 
-The GCB will provide a supportive virtual forum for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community owned proposals and responses in the roadmap processes and other important Project decision making.
+The GCB will provide a supportive virtual forum for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community owned proposals and responses in the roadmap processes and other important Project decision-making.
 
 Efficient communication between the GCB (Community Board) and both the GEB (Executive Board) and the GTB (Technical Board) requires at least one representative from GEB and from GTB to be also members of the GCB. It is recommended that at least one member of each of the other Boards are also members of the GCB, at all times.
 
@@ -88,15 +88,15 @@ When delivering training (like Smorgasbord [link]) or projects, it’s rather im
 ## WG and SIGs are complimentary
 
 Working Groups are:
-* Focused on technical issues.
-* Manage important Project infrastructure assets, including source code, for the long term. 
-* Are also self-organised.
-* Have representative(s) as a contact point.
-* Send a representative to the Technical Board ([GTB](/community/governance/gtb/)).
-* Contribute to the roadmap by providing technical input and requesting resources for technical and development activities.
+* focused on technical issues
+* manage important Project infrastructure assets, including source code, for the long term
+* self-organised
+* have representative(s) as a contact point
+* send a representative to the Technical Board ([GTB](/community/governance/gtb/))
+* contribute to the roadmap by providing technical input and requesting resources for technical and development activities
 
-SIG members, and especially the representatives, are encouraged to join WG meetings or talk to the WG representative to raise issues or request for help.
-For example requesting assistance from the tools and workflows WG. Vice versa WGs might contact SIGs to harvest inputs from the community.
+SIG members, and especially the representatives, are encouraged to join WG meetings or talk to the WG representative to raise issues or request help.
+For example, requesting assistance from the tools and workflows WG. Vice versa WGs might contact SIGs to harvest inputs from the community.
 For example for some larger UI/UX changes.
 
 
