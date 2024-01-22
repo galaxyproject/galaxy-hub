@@ -16,7 +16,6 @@ The organizing committee is the oversight and coordination group that makes sure
 * **[Björn Grüning](https://www.linkedin.com/in/bgruening/)**, [University of Freiburg](https://uni-freiburg.de/en/), Germany
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Helge Hecht](https://www.muni.cz/en/people/473355-helge-hecht)**, [Masaryk University](https://www.muni.cz/), Czech Republic
-* **[Dana Cernoskova](https://www.scientifika.eu/contact/)**, [Scientifika](https://www.scientifika.eu/), Czech Republic
 * **[Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Natalie Whitaker](https://www.linkedin.com/in/natalie-whitaker-ms-23a0a0186/)**, [Johns Hopkins University](https://jhu.edu/), United States
 
