@@ -15,6 +15,8 @@ Castle](https://www.gotobrno.cz/en/place/spilberk-castle/) and the stunning
 [Cathedral of St. Peter and
 Paul](https://www.gotobrno.cz/en/place/cathedral-of-st-peter-and-paul/).
 
+![Brno Centrum](/images/events/gcc2024/Centrum.jpg)
+
 Brno is also a hub of education and innovation - including the GCC2024 host,
 [Masaryk University](https://www.muni.cz/en) - contributing to its dynamic and
 forward-thinking atmosphere. With a thriving arts scene, lively cafes, and a
@@ -61,6 +63,7 @@ Agency](https://www.studentagency.eu/en), offering 36 connections daily from 8
 EUR one way. Duration of the travel is approximately 2,5 hours. Tickets are
 available [online](https://www.studentagency.eu/en).
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d675370.7206282439!2d16.095088078541234!3d48.60664889321876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x476c55ab471abe9b%3A0x247a52108dd29b4b!2sFlughafen%20Wien%20(VIE)%2C%201300%20Schwechat%2C%20%C3%96sterreich!3m2!1d48.1179542!2d16.5662612!4m5!1s0x4712943ac03f5111%3A0x400af0f6614b1b0!2sBrno!3m2!1d49.1950602!2d16.6068371!5e0!3m2!1sen!2scz!4v1705921893005!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ### By bus or train
 
