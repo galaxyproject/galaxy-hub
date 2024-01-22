@@ -132,6 +132,7 @@ hotels include breakfast.
 GCC2024 will be held at the [Hotel
 International](https://www.hotelinternational.cz/en/), located at [Husova 16,
 602 00 Brno-střed](https://maps.app.goo.gl/SPxpRFZs6APq5TfG7).
+[See the venue!](https://www.hotelinternational.cz/en/rs/visualization-virtual-tour/)
 
 
 # Activities beside the conference
@@ -141,5 +142,15 @@ guide around Brno, highlighting interesting places and offering discounts or
 free admission to the 5 popular places: gardens at Brno villas, Old Town Hall
 tower, Brno underground, Cathedral of Saints Peter and Paul, and the Brno Zoo.
 The card is also offers free ticket on city transportation.
+
+<p align="center">
+  <img alt="Castle" src="/images/events/gcc2024/spilberk.jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Market square" src="/images/events/gcc2024/zelniak.jpg" width="45%">
+</p>
+
+[Vila Tugendhat](https://en.wikipedia.org/wiki/Villa_Tugendhat) was built in 1929–1930 for Greta and Fritz Tugendhat to a design by the German architect Ludwig Mies van der Rohe. Its history is at least as fascinating as its cultural significance. It was added to the UNESCO World Heritage list in 2001.
+
+![Villa Tugendhat](/images/events/gcc2024/tugendhat.jpg)
 
 More coming soon!
