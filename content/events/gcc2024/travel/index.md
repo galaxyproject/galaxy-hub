@@ -47,12 +47,14 @@ Airport (PRG)](https://www.prg.aero/en#/) or [Vienna Airport
 The Brno airport is located 12km/20 minutes from the city center and you can
 easily take a taxi or the express bus, which is located outside the
 entrance to the airport terminal.
+Payment for the bus is possible by credit card using the terminals in the bus.
 
 From the Vienna airport you can take a bus, operated by [Student
 Agency](https://www.studentagency.eu/en), offering 8 connections daily from
 Vienna to Brno from 13 EUR one way. Duration of the travel is approximately 2,5
 hours. Tickets are available for purchase
 [online](https://www.studentagency.eu/en).
+Other options are via train with [OEBB](https://www.oebb.at/en/).
 
 From the Prague airport you can also take a bus, operated by [Student
 Agency](https://www.studentagency.eu/en), offering 36 connections daily from 8
@@ -63,11 +65,10 @@ available [online](https://www.studentagency.eu/en).
 ### By bus or train
 
 [Student Agency](https://www.studentagency.eu/en) is a reliable bus and train
-company. From Vienna and Prague, we also recommend the [RailJet
-train](https://idos.idnes.cz/en/vlakyautobusymhdvse/spojeni/). A third option is
-via Rail Europe, with trains from
-[Vienna](https://www.raileurope.com/en-us/destinations/vienna-brno-train) or
-[Prague](https://www.raileurope.com/en-us/destinations/prague-brno-train).
+company.
+From Vienna and Prague, we also recommend the [RailJet
+trains](https://idos.idnes.cz/en/vlakyautobusymhdvse/spojeni/) operated by RegioJet or České Dráhy.
+Tickets for trains from most surrounding countries are available directly via the railway companies [České Dráhy](https://www.cd.cz/en/default.htm), [OEBB](https://www.oebb.at/en/) or [Deutsche Bahn](https://www.bahn.de/).
 
 
 ### By car
