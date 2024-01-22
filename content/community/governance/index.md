@@ -8,7 +8,7 @@ Several community groups have been formed so that project governance truly refle
 
 ## Project Mission Statement
 
-The Galaxy project is a global open science collaboration providing free access to shareable, reproducible, transparent,
+The Galaxy Project is a global open science collaboration, providing free access to shareable, reproducible, transparent,
 best practice data intensive analysis for all researchers.
 
 In support of this mission, project activities include maintaining source code, documentation, data analysis tools, training resources, analysis services, technical support, and an inclusive, self-governing community.
@@ -19,7 +19,7 @@ The [TCB](/community/governance/gtb/) is a governance structure representing [Ga
 different aspects of the Galaxy Ecosystem.
 The Galaxy Working Groups and the [TCB](/community/governance/gtb/) is focussed on technical development, manage important project infrastructure assets,
 including source code. WGs are self-organised, and nominate a representative, which serves on the [TCB](/community/governance/gtb/).
-The [TCB](/community/governance/gtb/) contributes to the roadmap, especially by providing technical input.
+The [GTB](/community/governance/gtb/) contributes to the roadmap, especially by providing technical input.
 
 Read more about [Galaxy Working Groups](/community/wg/).
 

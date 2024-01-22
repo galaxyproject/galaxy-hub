@@ -90,9 +90,9 @@ When delivering training (like Smorgasbord [link]) or projects, it’s rather im
 Working Groups are:
 * Focused on technical issues.
 * Manage important Project infrastructure assets, including source code, for the long term. 
-* Also self-organised
-* Have representative(s) as a contact point
-* Send a representative to the technical board
+* Are also self-organised.
+* Have representative(s) as a contact point.
+* Send a representative to the Technical Board ([GTB](/community/governance/gtb/)).
 * Contribute to the roadmap by providing technical input and requesting resources for technical and development activities.
 
 SIG members, and especially the representatives, are encouraged to join WG meetings or talk to the WG representative to raise issues or request for help.
