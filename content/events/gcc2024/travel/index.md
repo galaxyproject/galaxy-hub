@@ -22,6 +22,9 @@ deep connection to Czech history, Brno is a city that seamlessly marries
 tradition with modernity, making it a fascinating destination for GCC2024
 attendees.
 
+The Czech Republic has its own currency, the czech crown, but many places accept payments by card.
+There are many cash exchange points in the city center which offer exchanges of most currencies at good rates. 
+
 
 ## Getting to Brno
 
@@ -72,7 +75,7 @@ via Rail Europe, with trains from
 [Brno](https://maps.app.goo.gl/rx4QGKYY42DVauLq8) is located on the main Czech
 highway D1 and D2. For highways and some bigger roads it is necessary to have a
 [highway sticker](https://edalnice.cz/en/index.html), which is available for
-purchased
+purchase
 [online](https://edalnice.cz/en/single-purchase/index.html#/eshop/order) or at
 the border crossing, petrol stations, or post offices.
 
@@ -114,9 +117,10 @@ back here soon or sign up for the [GCC2024 mailing
 list](https://gaggle.email/join/gcc2024-announce@gaggle.email). Note that all
 hotels include breakfast.
 
-1. [Hotel International](https://www.hotelinternational.cz/en/): EUR115 single or EUR135 double
-2. [Hotel Grand](https://grandhotelbrno.cz/en/): EUR74
-3. [Hotel Barcelo](https://www.barcelo.com/en-us/barcelo-brno-palace/): rate pending
+1. [Hotel International](https://www.hotelinternational.cz/en/): 115EUR single or 135EUR double
+2. [Hotel Grand](https://grandhotelbrno.cz/en/): 74EUR single
+3. [Hotel Barcelo](https://www.barcelo.com/en-us/barcelo-brno-palace/): 169EUR single or 184EUR double
+4. [Hotel Continental](https://www.continentalbrno.cz/en/): rate pending
 
 
 # GCC2024 venue
