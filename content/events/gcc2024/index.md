@@ -174,7 +174,7 @@ attendees.
 Brno can be accessed via bus or train from Vienna (~2.5hr) or Prague (~2.5hr).
 Grab a comfy seat and enjoy the scenery.
 
-Discounted rooms are available for conference participants in the venue ([Hotel International](https://www.hotelinternational.cz/en/)).
+Discounted rooms are available for conference participants in the venue ([Hotel International](https://www.hotelinternational.cz/en/)) as well as in other hotels in Brno.
 Instructions for Hotel bookings are sent in the confirmation email after registering for the conference.
 To get most up-to-date travel news
 <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email">
