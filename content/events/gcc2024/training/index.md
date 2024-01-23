@@ -30,7 +30,7 @@ The Beginners Handbook seeks to help make the connections
                 </div>
             </a>
         </td>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
+        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/intro-galaxy-admin/>
                 <h2>Intro to Galaxy Admin</h2>
                 <hr/>
@@ -50,7 +50,7 @@ The Beginners Handbook seeks to help make the connections
         </td>
     </tr>
     <tr>
-     <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
+     <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/intro-galaxy-dev>
                 <h2>Intro to Galaxy Development</h2>
                 <hr/>
@@ -197,7 +197,7 @@ workshops that will help you be more efficient and a share your knowledge better
                 </div>
             </a>
         </td>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
+        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/chatgxy/>
                 <h2>chatGXY</h2>
                 <hr/>
@@ -218,7 +218,7 @@ opportunities.
 
 <table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
     <tr>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
+        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href =/events/gcc2024/training/tool-finding/>
                 <h2>Galaxy Tool Finding for a Community</h2>
                 <hr/>
@@ -247,7 +247,7 @@ opportunities.
         </td>
     </tr>
     <tr>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
+        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/advanced-interactive-tools/>
                 <h2>Advanced and Interactive Tools</h2>
                 <hr/>
@@ -257,7 +257,7 @@ opportunities.
                 </div>
             </a>
         </td>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
+        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/interactive-viz/>
                 <h2>Interactive Visualizations</h2>
                 <hr/>
