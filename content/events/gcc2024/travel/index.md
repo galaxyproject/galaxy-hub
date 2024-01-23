@@ -120,6 +120,7 @@ on reserving your room as soon as we have and publish the discount codes. Check
 back here soon or sign up for the [GCC2024 mailing
 list](https://gaggle.email/join/gcc2024-announce@gaggle.email). Note that all hotel
 prices include VAT and breakfast.
+PROMO codes for hotel bookings are distributed in the confirmation of registration.
 
 1. [Hotel International](https://www.hotelinternational.cz/en/): 115EUR single or 135EUR double
 2. [Hotel Grand](https://grandhotelbrno.cz/en/): 74EUR single
