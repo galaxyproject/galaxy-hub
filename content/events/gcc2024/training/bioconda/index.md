@@ -5,6 +5,6 @@ autotoc: true
 <slot name="/events/gcc2024/header" />
 <div class="text-center">
 
-## BioConda Training
+## BioConda
 
 </div>

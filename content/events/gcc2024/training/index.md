@@ -32,7 +32,7 @@ The Beginners Handbook seeks to help make the connections
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/intro-galaxy-admin/>
-                <h2>Intro to Galaxy Admin</h2>
+                <h2>Intro to Galaxy Administration</h2>
                 <hr/>
                 <div class="my-5">
                 What does it mean to administrate a Galaxy Server? How do I get started? Where are the resources? Find out about them here!
@@ -82,7 +82,7 @@ sessions:
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/single-cell>
-                <h2>Single-cell data analysis</h2>
+                <h2>Single-Cell Data Analysis</h2>
                 <hr/>
                 <div class="my-5">
                     Seems everyone is into single-cell data these data. Join them.
@@ -91,7 +91,7 @@ sessions:
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/assembly-annotation>
-                <h2>Assembly and annotation</h2>
+                <h2>Assembly and Annotation</h2>
                 <hr/>
                 <div class="my-5">
                     It's been around a while but there are some really cool new, and consistent things to learn here.
@@ -101,20 +101,20 @@ sessions:
     </tr>
         <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/intro-ml>
-                <h2>Introduction to Machine Learning</h2>
+            <a href=/events/gcc2024/training/machine-learning>
+                <h2>Machine Learning</h2>
                 <hr/>
                 <div class="my-5">
-                    There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools.
+                    There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data. 
                 </div>
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/applied-ml>
-                <h2>Applied Machine Learning</h2>
+            <a href=/events/gcc2024/training/microbiome-analysis>
+                <h2>Microbiome Analysis</h2>
                 <hr/>
                 <div class="my-5">
-                    A deeper dive on Machine Learning applications.
+                    Microbiome is all around us.
                 </div>
             </a>
         </td>
@@ -131,7 +131,7 @@ sessions:
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/mass-spec-proteomics>
-                <h2>Mass Spec Imaging & Proteomics</h2>
+                <h2>Mass-Spec Imaging & Proteomics</h2>
                 <hr/>
                 <div class="my-5">
                     Get your hands onto some metabolomics data!
@@ -148,11 +148,11 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/microbiome-analysis>
-                <h2>Microbiome Analysis</h2>
+            <a href=/events/gcc2024/training/earth-systems>
+                <h2>Earth Systems</h2>
                 <hr/>
                 <div class="my-5">
-                    Microbiome is all around us.
+                    Who said not Earth is part of galaxy?
                 </div>
             </a>
         </td>
@@ -164,15 +164,6 @@ sessions:
                 <hr/>
                 <div class="my-5">
                     Ecology in Galaxy is a (big!) thing.
-                </div>
-            </a>
-        </td>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/earth-systems>
-                <h2>Earth Systems</h2>
-                <hr/>
-                <div class="my-5">
-                    Who said not Earth is part of galaxy?
                 </div>
             </a>
         </td>
@@ -281,7 +272,7 @@ won't be disappointed.
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
         <a href=/events/gcc2024/training/frontend-dev/>
-                <h2>Galaxy frontend development</h2>
+                <h2>Galaxy Frontend Development</h2>
                 <hr/>
                 <div class="my-5">
                     Focused on CSS & A11y
@@ -290,7 +281,7 @@ won't be disappointed.
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0;  background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/backend-dev/>
-                <h2>Galaxy backend development</h2>
+                <h2>Galaxy Backend Development</h2>
                 <hr/>
                 <div class="my-5">
                     The title also speaks for itself.
@@ -299,7 +290,7 @@ won't be disappointed.
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/automated-testing/>
-                <h2>Automated testing</h2>
+                <h2>Automated Testing</h2>
                 <hr/>
                 <div class="my-5">
                     Good software practices help create good software. Learn how to test your contributions
