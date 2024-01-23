@@ -3,7 +3,7 @@
 **Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
 
 *Committers Groups* are responsible for what goes into the project repositories (and in Galaxy *everything* goes into repositories,
-including training materials and web sites).  These groups are a key component of the [Galaxy Governance Model](/community/governance/).
+including training materials and websites).  These groups are a key component of the [Galaxy Governance Model](/community/governance/).
 
 Each repository (repo) has it's own committers group, and each group is responsible for setting its own policies and membership.
 Committers have been around since the start of the project in 2005, and have been community driven since 2015.

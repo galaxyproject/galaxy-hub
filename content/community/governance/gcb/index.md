@@ -5,13 +5,13 @@
 ## Origins
 
 The Galaxy Community Board (GCB) is proposed to take over the functions of the Global Galaxy Steering Committee.
-During GCC 2023 we discussed how to empower the Galaxy community, in terms of Project planning and effective execution, decision making and governance. 
+During GCC 2023, we discussed how to empower the Galaxy community in terms of project planning and effective execution, decision making and governance. 
 
 ## Purposes
 
-Representation of community aspects of the ecosystem is central to long-term Project sustainability. The goal is to empower participants, giving a genuine voice, in planning and governance, through efficient and transparent structures and processes, that can scale effectively as the Galaxy project continues to expand. 
+Representation of community aspects of the ecosystem is central to long-term project sustainability. The goal is to empower community members to participate in planning and governance, through efficient and transparent structures and processes, that can scale effectively as the Galaxy project continues to expand. 
 
-The GCB will provide a supportive virtual forum for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community owned proposals and responses in the roadmap processes and other important Project decision-making.
+The GCB will provide a supportive virtual forum for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap processes and other important project decision-making.
 
 Efficient communication between the GCB (Community Board) and both the GEB (Executive Board) and the GTB (Technical Board) requires at least one representative from GEB and from GTB to be also members of the GCB. It is recommended that at least one member of each of the other Boards are also members of the GCB, at all times.
 
@@ -27,7 +27,7 @@ The GCB is a governance structure representing groups that are not primarily tec
 
 Active contributing communities are encouraged to form and govern their own SIG, with a focus on specific shared interests. Each SIG may elect one member to represent their interests on the GCB. This is analogous to the Technical Board, consisting of representatives of the Working Groups (WG).
 
-### Characteristics of SIGs:
+### Characteristics of SIGs
 
 * Primarily focused on community development: as distinct from the more technical issues managed by WGs.
 * Flexible model: with simple criteria such as evidence of genuine community support, hub updates and self-regulation,
@@ -46,15 +46,15 @@ for ongoing recognition, easy to create and to dissolve, can be transient
 * SIGs must maintain a page on the Hub with at least:
     * A description of the focus and purposes of the SIG.
     * A clear explanation of how individuals can join and maintain membership.
-    * Details of access to the SIG’s communication channels
-    * A description of roadmap related processes for gathering input from members
+    * Details of access to the SIG’s communication channels.
+    * A description of roadmap-related processes for gathering input from members.
 * SIGs are required to provide the current contact/email address for the nominated GCB representative, and to manage membership and internal communication for itself. 
 * SIGs are expected to use at least one public Matrix channel under the Galaxy Matrix space.
 
 ### Creating a new SIG
 
 We encourage everyone with interest in Galaxy to join a SIG, a WG or create their own SIG. The Galaxy Project Management Office (PMO)
-is the first point of contact for anyone wanting to form a new SIG. To illustrate the scope of SIGs see the community page on the Galaxy hub and the following examples:
+is the first point of contact for anyone wanting to form a new SIG. To illustrate the scope of SIGs, see the community page on the Galaxy Community Hub and the following examples:
 
 * Microbial (People interested in Microbial research, tool, workflow and training development)
 * Industry Forum (a forum for people to exchange needs and experiences with Galaxy in Industry settings)
@@ -83,7 +83,7 @@ The more community you have, the more power you have in developing further resou
 
 ### Many hands make light work
 
-When delivering training (like Smorgasbord [link]) or projects, it’s rather important that the website you point to, quite frankly, looks nice. If half the training is out of date, or - as happened to this author - you send someone to a page to learn a field and they get 3.5 hours into a 7 hour tutorial that no longer works, is outdated, and note relevant to the name of the page itself, then you immediately lose people and waste time. Preparing training material for training events is a big task, but if you can share it amongst a SIG, you ensure sustainability and increase impact. 
+When delivering training (like Smorgasbord [link]) or projects, it’s rather important that the website you point to, quite frankly, looks nice. Imagine half the training is out of date, or - as happened to this author - you send someone to a page to learn a field and they get 3.5 hours into a 7 hours tutorial that no longer works, is outdated and not relevant to the name of the page itself. You immediately lose people and waste time. Preparing training material for training events is a big task, but if you can share it amongst a SIG, you ensure sustainability and increase impact. 
 
 ## WG and SIGs are complimentary
 
