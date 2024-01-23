@@ -98,7 +98,7 @@ html {
         font-size: 3rem;
         font-weight: 700;
         color: $white;
-        &.learn {
+        &.education {
             color: $black;
         }
     }
@@ -141,7 +141,7 @@ html {
         border-radius: 20px;
         line-height: 1.4rem;
 
-        &.learn {
+        &.education {
             display: block;
             padding: 0;
             border: 0;
@@ -187,7 +187,7 @@ html {
             }
         }
 
-        &.beyond {
+        &.callouts {
             &:hover {
                 text-decoration: none !important;
             }
@@ -224,7 +224,7 @@ html {
             }
         }
 
-        &.grow {
+        &.research {
             &.publications {
                 background: linear-gradient(155deg, #00a7e1 44%, rgba(249, 206, 215, 0.8));
             }

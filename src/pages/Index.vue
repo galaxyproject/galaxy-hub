@@ -1,180 +1,306 @@
 <template>
-    <Layout>
-        <header v-if="title || subtitle" id="header">
-            <h1 class="display-4">{{ title }}</h1>
-            <h3 v-if="subtitle">{{ subtitle }}</h3>
-        </header>
+    <layout>
+        <div class="container p-2">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div v-html="$page.hero.notification" class="text-center notification bgBrighter"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mb-4">
+                    <h1 v-html="$page.hero.description" class="mb-3"></h1>
+                    <p v-html="$page.hero.content" class="hero"></p>
+                </div>
+                <div class="col-lg-5">
+                    <div v-html="$page.hero.image"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid-real p-0">
+            <div class="container-fluid-real p-0 bgBright bgGradient">
+                <div class="container-fluid-real p-0 overflow-hidden">
+                    <div class="row area education overflow-hidden">
+                        <svg viewBox="1 0 80 40" preserveAspectRatio="none" width="5000" height="100" class="wave top">
+                            <use xlink:href="images/icons/waveNounProject.svg#path" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <h2 :id="slugify($page.datasetEducation.heading)" class="education">
+                                <a :href="'#' + slugify($page.datasetEducation.heading)" aria-hidden="true">
+                                    <span class="icon icon-link"></span>
+                                </a>
+                                {{ $page.datasetEducation.heading }}
+                            </h2>
+                            <p class="education">{{ $page.datasetEducation.content }}</p>
+                        </div>
+                        <div class="col-xl-8 col-md-12 area education">
+                            <a
+                                :href="education.url"
+                                v-for="(education, i) in $page.datasetEducation.education"
+                                :key="i"
+                                role="button"
+                                rel="noopener"
+                                target="_blank"
+                                class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
+                            >
+                                <span
+                                    class="icon fa far fa-arrow-circle-o-right iconXlarge pt-2"
+                                    aria-hidden="true"
+                                ></span>
+                                <div class="title text-decoration">{{ education.title }}</div>
+                                <div class="text text-decoration">{{ education.content }}</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid-real p-0 overflow-hidden">
+                    <div class="row area education overflow-hidden">
+                        <svg viewBox="13 0 80 40" preserveAspectRatio="none" width="5000" height="100" class="wave">
+                            <use xlink:href="images/icons/waveNounProject.svg#path" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <h2 :id="slugify(this.$static.datasetCallouts.heading)">
+                    <a :href="'#' + slugify(this.$static.datasetCallouts.heading)" aria-hidden="true">
+                        <span class="icon icon-link"></span>
+                    </a>
+                    {{ this.$static.datasetCallouts.heading }}
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <a :href="this.$static.datasetCallouts.callout1.url" class="area callouts instance btn h-100">
+                        <div class="text-white">
+                            <h3>{{ this.$static.datasetCallouts.callout1.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout1.content"></p>
+                        </div>
+                    </a>
+                </div>
 
-        <Hero />
+                <div class="col-md-8 mb-3">
+                    <div class="area callouts toolshed h-100">
+                        <div class="text-white">
+                            <h3>{{ this.$static.datasetCallouts.callout2.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout2.content"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <HomeLearn />
+            <div class="row">
+                <div class="col-md-7 mb-3">
+                    <a :href="this.$static.datasetCallouts.callout3.url" class="area callouts community h-100">
+                        <div class="text-dark">
+                            <h3 class="text-dark">{{ this.$static.datasetCallouts.callout3.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout3.content"></p>
+                        </div>
+                    </a>
+                </div>
 
-        <BeyondUser />
-
-        <HomeGrow />
-    </Layout>
+                <div class="col-md-5 mb-3">
+                    <div class="area callouts servers bgBrightest img h-100">
+                        <div class="text-dark">
+                            <h3 class="text-dark">{{ this.$static.datasetCallouts.callout4.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout4.content"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col p-0">
+                    <h2 :id="slugify(this.$static.datasetResearch.heading)" class="mt-4">
+                        <a :href="'#' + slugify(this.$static.datasetResearch.heading)" aria-hidden="true">
+                            <span class="icon icon-link"></span>
+                        </a>
+                        {{ this.$static.datasetResearch.heading }}
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 mb-3">
+                    <div class="area research publications h-100">
+                        <a
+                            :href="this.$static.datasetResearch.research1.url"
+                            rel="noopener"
+                            target="_blank"
+                            class="text-white"
+                        >
+                            <h3>{{ this.$static.datasetResearch.research1.title }}</h3>
+                        </a>
+                        <a
+                            :href="p.url"
+                            class="mb-3 text-white small"
+                            v-for="p in this.$static.datasetResearch.research1.links"
+                            :key="p.title"
+                            role="button"
+                            rel="noopener"
+                            target="_blank"
+                            >{{ p.title }}</a
+                        >
+                        <a :href="this.$static.datasetResearch.research2.url" class="text-white">
+                            <h3>{{ this.$static.datasetResearch.research2.title }}</h3>
+                        </a>
+                        <a :href="this.$static.datasetResearch.research2.url" target="_blank" class="small text-white">
+                            <div v-html="this.$static.datasetResearch.research2.content"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-3">
+                    <div class="area research tutorials h-100">
+                        <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
+                        <div v-html="this.$static.datasetResearch.research3.content" class="text-white mb-5"></div>
+                        <ul style="list-style-type: none; padding: 0">
+                            <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title">
+                                <a
+                                    :href="t.url"
+                                    role="button"
+                                    rel="noopener"
+                                    target="_blank"
+                                    class="text-decoration-none"
+                                >
+                                    <div class="link">{{ t.title }}</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-center">
+                            <a
+                                :href="this.$static.datasetResearch.research3.button.url"
+                                role="button"
+                                rel="noopener"
+                                target="_blank"
+                                class="btn btn-info text-decoration-none mb-4 w-50"
+                                >{{ this.$static.datasetResearch.research3.button.title }}</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-3">
+                    <div class="area research cases h-100">
+                        <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        <div v-html="this.$static.datasetResearch.research4.content"></div>
+                        <div class="row mt-4 mb-4">
+                            <div class="col">
+                                <div
+                                    v-for="t in this.$static.datasetResearch.research5.logos"
+                                    :key="t.title"
+                                    class="text-center mt-4"
+                                >
+                                    <a :href="t.url" rel="noopener" target="_blank">
+                                        <img :src="t.image" :alt="t.title" :width="t.width" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </layout>
 </template>
 
 <script>
-import Hero from "@/components/Hero";
-import BeyondUser from "@/components/BeyondUser.vue";
-import HomeLearn from "@/components/HomeLearn.vue";
-import HomeGrow from "@/components/HomeGrow.vue";
-import {
-    gatherCollections,
-    gatherInserts,
-    gatherBundles,
-    searchBundle,
-    gatherCards,
-    makeCardRows,
-} from "~/lib/pages.mjs";
-import { addAltmetricsScript } from "~/lib/client.mjs";
+import slugify from "@sindresorhus/slugify";
+
 export default {
-    components: {
-        Hero,
-        BeyondUser,
-        HomeLearn,
-        HomeGrow,
-    },
-    metaInfo: {
-        title: "Home",
-    },
-    created() {
-        this.inserts = gatherInserts(this.$page.allInsert);
-        this.cards = gatherCards(this.inserts);
-        this.latest = gatherCollections(this.$page);
-        this.bundles = gatherBundles(this.inserts);
-    },
-    computed: {
-        cardRows() {
-            return makeCardRows(this.$page.cards, this.latest, this.cards);
-        },
-        title() {
-            return searchBundle(this.bundles.main, "title");
-        },
-        subtitle() {
-            return searchBundle(this.bundles.main, "subtitle");
-        },
-    },
-    mounted() {
-        // Add altmetrics stats badges to publications.
-        if (this.cards.pubs) {
-            addAltmetricsScript(window);
-        }
+    methods: {
+        slugify,
     },
 };
 </script>
 
 <page-query>
 query {
-    cards: insert(path: "/insert:/cards/") {
-        id
-        list {
-            name
-            type
-            title
-            link
-            icon
-            width
+    hero: insert(path: "/insert:/home/hero/") {
+        heading,
+        notification,
+        description,
+        image,
+        content
+    }
+
+    datasetEducation: dataset(path: "/dataset:/home/education/") {
+        heading,
+        content,
+        education {
+            title,
+            content,
+            url
         }
     }
-    allInsert(filter: {path: {regex: "^/insert:/[^/]+/$"}}) {
-        totalCount
-        edges {
-            node {
-                id
-                path
-                title
-                subtitle
-                content
-                link
-                icon
-                items {
-                    title
-                    link
-                    tease
-                }
-                fileInfo {
-                    path
-                }
-            }
-        }
-    }
-    news: allParentArticle(
-        limit: 5, filter: {category: {eq: "news" }, subsites: {contains: ["global"]}, draft: {ne: true}}
-    ) {
-        totalCount
-        edges {
-            node {
-                ...articleFields
-            }
-        }
-    }
-    events: allParentArticle(
-        limit: 5, sortBy: "date", order: ASC,
-        filter: {
-            category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
-            draft: {ne: true}
-        }
-    ) {
-        totalCount
-        edges {
-            node {
-                ...articleFields
-                date (format: "MMM D")
-                end  (format: "MMM D")
-            }
-        }
-    }
-    blog: allParentArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
-        totalCount
-        edges {
-            node {
-                ...articleFields
-            }
-        }
-    }
-    careers: allParentArticle(
-        limit: 5, sortBy: "date", order: DESC, filter: {
-            category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
-        }
-    ) {
-        totalCount
-        edges {
-            node {
-                id
-                title
-                location {
-                    name
-                    url
-                }
-                external_url
-                closes (format: "MMM D")
-                path
-            }
-        }
-    }
-}
-fragment articleFields on ParentArticle {
-    id
-    title
-    tease
-    external_url
-    path
 }
 </page-query>
 
-<style scoped>
-#header {
-    margin-bottom: 2.5rem;
+<static-query>
+query {
+    datasetCallouts: dataset(path: "/dataset:/home/callouts/") {
+        heading,
+        callout1 {
+            title,
+            content,
+            url
+        },
+        callout2 {
+            title,
+            content
+        },
+        callout3 {
+            title,
+            content,
+            url
+        },
+        callout4 {
+            title,
+            content
+        }
+    }
+
+    datasetResearch: dataset(path: "/dataset:/home/research/") {
+        heading,
+        research1 {
+            title,
+            content,
+            url,
+            links {
+                title,
+                url
+            }
+        },
+        research2 {
+            title,
+            content
+        },
+        research3 {
+            title,
+            content,
+            button {
+                title,
+                url
+            },
+            links {
+                title,
+                url
+            }
+        },
+        research4 {
+            title,
+            content
+        },
+        research5 {
+            logos {
+                title,
+                url,
+                image
+            }
+        }
+    }
 }
-#profiles {
-    margin-bottom: 45px;
-}
-#main-content {
-    margin-bottom: 20px;
-}
-#lower {
-    margin-top: 10px;
-}
-</style>
+</static-query>

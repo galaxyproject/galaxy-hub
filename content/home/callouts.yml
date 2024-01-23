@@ -1,0 +1,19 @@
+heading: "Go beyond being a user"
+
+callout1:
+  title: Prefer a custom instance?
+  content: Galaxy can be installed locally, fine-tuned with a tailored toolset and no usage quotas.
+  url: /admin/
+
+callout2:
+  title: Need more tools?
+  content: The Galaxy ToolShed is a repository of thousands tools that have been integrated with Galaxy, and you can add your own.<div class="float-right mt-3 mb-0"><a href="/tools/" class="btn btn-lg btn-outline-light mr-3">Add new tools</a><a href="/toolshed/" class="btn btn-lg btn-info">Browse already integrated tools</a></div>
+
+callout3:
+  title: Galaxy is a world-wide community.
+  content: There are over 500,000 registered Galaxy users from all over the world. Join this lively community to get help, contribute, and learn.
+  url: /community/
+
+callout4:
+  title: Use Galaxy servers are global!
+  content: There are over a hundred public and free Galaxy servers available.<br /><strong><a href="/use/">Find the one you need.</a></strong>
