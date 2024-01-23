@@ -17,15 +17,15 @@ Paul](https://www.gotobrno.cz/en/place/cathedral-of-st-peter-and-paul/).
 
 ![Brno Centrum](/images/events/gcc2024/Centrum.jpg)
 
-Brno is also a hub of education and innovation - including the GCC2024 host,
-[Masaryk University](https://www.muni.cz/en) - contributing to its dynamic and
+Brno is also a hub of education and innovation contributing to its dynamic and
 forward-thinking atmosphere. With a thriving arts scene, lively cafes, and a
 deep connection to Czech history, Brno is a city that seamlessly marries
 tradition with modernity, making it a fascinating destination for GCC2024
 attendees.
 
-The Czech Republic has its own currency, the czech crown, but many places accept payments by card.
-There are many cash exchange points in the city center which offer exchanges of most currencies at good rates. 
+The Czech Republic has its own currency, the czech crown, but many places accept
+payments by card. There are many cash exchange points in the city center that
+offer exchanges of most currencies at good rates.
 
 
 ## Getting to Brno
