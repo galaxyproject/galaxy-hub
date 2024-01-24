@@ -9,11 +9,16 @@ During GCC 2023, we discussed how to empower the Galaxy community in terms of pr
 
 ## Purposes
 
-Representation of community aspects of the ecosystem is central to long-term project sustainability. The goal is to empower community members to participate in planning and governance, through efficient and transparent structures and processes, that can scale effectively as the Galaxy project continues to expand. 
+Representation of community aspects of the ecosystem is central to long-term project sustainability. The goal is to empower community members
+to participate in planning and governance, through efficient and transparent structures and processes, that can scale effectively as the Galaxy project continues to expand.
 
-The GCB will provide a supportive virtual forum for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap processes and other important project decision-making.
+The GCB will provide a supportive virtual forum for the exchange of ideas, and a governance body representing the interests of participating communities.
+It will organise and manage its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives;
+supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap
+processes and other important project decision-making.
 
-Efficient communication between the GCB (Community Board) and both the GEB (Executive Board) and the GTB (Technical Board) requires at least one representative from GEB and from GTB to be also members of the GCB. Therefore, it is recommended that at least one member of each of the other two Boards are also members of the GCB.
+Efficient communication between the GCB (Community Board) and both the GEB (Executive Board) and the GTB (Technical Board) requires at least one representative
+from GEB and from GTB to be also members of the GCB. Therefore, it is recommended that at least one member of each of the other two Boards are also members of the GCB.
 
 In summary, the goals of the GCB are:
 
@@ -23,9 +28,13 @@ In summary, the goals of the GCB are:
 
 ## Community Special Interest Groups (SIGs)
 
-The GCB is a governance structure representing groups that are not primarily technical in nature, such as existing Proteomics and Microbial communities, though engaging in capacity building, toolkit development, outreach and training. The term *[Special Interest Group](/community/sig)* (SIG) is proposed as a term referring to these kinds of groups. No specific restrictions are proposed, other than making a useful contribution to the Project, so collaborating commercial users could form and manage their own SIG and gain access to the Roadmap process. 
+The GCB is a governance structure representing groups that are not primarily technical, such as the existing Proteomics and Microbial communities,
+through engaging in capacity building, toolkit development, outreach and training. The term *[Special Interest Group](/community/sig)* (SIG)
+refers to these dedicated scientific communities. No specific restrictions are proposed, other than making a useful contribution to the project,
+no specific restrictions apply.
 
-Active contributing communities are encouraged to form and govern their own SIG, with a focus on specific shared interests. Each SIG may elect one member to represent their interests on the GCB. This is analogous to the Technical Board, consisting of representatives of the Working Groups (WG).
+Active contributing communities are encouraged to form and govern their own SIG, with a focus on specific shared interests.
+Each SIG may elect one member to represent their interests on the GCB. This is analogous to the Technical Board, consisting of representatives of the Working Groups (WG).
 
 ### Characteristics of SIGs
 
@@ -45,17 +54,18 @@ for ongoing recognition, easy to create and to dissolve, can be transient
 
 * Must have 2 or more members to be viable
 * Must maintain a page on the Community Hub with at least:
-    * A description of the focus and purposes of the SIG.
-    * A clear explanation of how individuals can join and maintain membership.
-    * Details of access to the SIG’s communication channels.
-    * A description of roadmap-related processes for gathering input from members.
+  * A description of the focus and purposes of the SIG.
+  * A clear explanation of how individuals can join and maintain membership.
+  * Details of access to the SIG’s communication channels.
+  * A description of roadmap-related processes for gathering input from members.
 * Provide the current contact/email address for the nominated GCB representative, and to manage membership and internal communication for itself. 
 * Use at least one public Matrix channel under the Galaxy Matrix space.
 
 ### Creating a new SIG
 
 We encourage everyone with an interest in contributing to Galaxy to join a SIG, WG, or to create their own SIG. The Galaxy Project Management Office (PMO)
-is the first point of contact for anyone wanting to form a new SIG. To illustrate the scope of SIGs, check the [SIG directory]((/community/sig)).
+is the first point of contact for anyone wanting to form a new SIG. To illustrate the scope of SIGs, see the community page on the
+Galaxy Community Hub and the following examples:
 
 * Microbial (People interested in Microbial research, tool, workflow and training development)
 * Industry Forum (a forum for people to exchange needs and experiences with Galaxy in Industry settings)

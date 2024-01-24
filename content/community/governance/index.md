@@ -63,7 +63,8 @@ The [Project Management Office (PMO)](/community/pmo) supports the different bod
 
 The overall idea is:
 
-1. The *Technical Board* and the *Community Board* are asked for high-level input. This is the step where the community, either via the technical *Working Groups* or the *Steering Committee*, can influence the process (2 weeks).
+1. The *Technical Board* and the *Community Board* are asked for high-level input. This is the step where the community, either via the technical
+*Working Groups* or the *Special Interest Groups*, can influence the process (2 weeks).
 2. The *Galaxy Exec* reviews suggestions and creates a final high-level roadmap (1 week). It is then given to the *Technical Board* which will (3 weeks):
 
 * Add technical details.
