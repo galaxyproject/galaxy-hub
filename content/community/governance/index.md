@@ -61,19 +61,20 @@ The [Project Management Office (PMO)](/community/pmo) supports the different bod
 * [Galaxy Technical Board](/community/governance/gtb): representatives from Galaxy working groups.
 * Idea by Björn Grüning, Hans-Rudolf Hotz and others.
 
-The overall idea is:
 
-1. The *Technical Board* and the *Community Board* are asked for high-level input. This is the step where the community, either via the technical
-*Working Groups* or the *Special Interest Groups*, can influence the process (2 weeks).
-2. The *Galaxy Exec* reviews suggestions and creates a final high-level roadmap (1 week). It is then given to the *Technical Board* which will (3 weeks):
+In addition to their self-governance and collaboration, these boards interact with each other to build the annual Galaxy roadmap (link):
 
-* Add technical details.
-* Estimate the timings.
-* Add cross working group dependencies.
-* Add other requirements (e.g. hardware).
-* A detailed roadmap is given to the *Galaxy Exec* for the final decision (1 week).
+1. The [Technical Board](/community/governance/gtb) and the Community Board are periodically asked for high-level input, representing the interests of the wider Galaxy community.
+2. The [Galaxy Executive Board](/community/governance/geb) reviews suggestions and creates a final high-level roadmap (1 week).
+3. This roadmap is then given to the [Technical Board](/community/governance/gtb) which will (3 weeks):
+   * Add technical details.
+   * Estimate the timings.
+   * Add cross working group dependencies.
+   * Add other requirements (e.g. hardware).
+   * A detailed roadmap is given to the [Galaxy Executive Board](/community/governance/geb) for the final decision (1 week).
 
-3. The *Galaxy Exec* signs off the roadmap and publishes it on GitHub.
+4. The [Galaxy Executive Board](/community/governance/geb) signs off the roadmap and publishes it on GitHub.
+
 
 
 
