@@ -13,7 +13,7 @@ Representation of community aspects of the ecosystem is central to long-term pro
 
 The GCB will provide a supportive virtual forum for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap processes and other important project decision-making.
 
-Efficient communication between the GCB (Community Board) and both the GEB (Executive Board) and the GTB (Technical Board) requires at least one representative from GEB and from GTB to be also members of the GCB. It is recommended that at least one member of each of the other two Boards are also members of the GCB.
+Efficient communication between the GCB (Community Board) and both the GEB (Executive Board) and the GTB (Technical Board) requires at least one representative from GEB and from GTB to be also members of the GCB. Therefore, it is recommended that at least one member of each of the other two Boards are also members of the GCB.
 
 In summary, the goals of the GCB are:
 
