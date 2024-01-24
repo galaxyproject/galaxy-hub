@@ -9,7 +9,7 @@ autotoc: false
 
   <div class="text-center my-5">
     <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
-        <strong>Register</strong>
+        <strong>Register here</strong>
     </a>
   </div>
 </div>

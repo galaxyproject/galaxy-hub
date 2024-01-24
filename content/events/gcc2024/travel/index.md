@@ -8,9 +8,9 @@ autotoc: false
 # Brno, Czech Republic
 
 **[Brno](https://www.amazingczechia.com/destinations/brno/) is a captivating,
-mid-size city in the heart of Europe**, offering a captivating blend of the old
-and the new. The city's historic center boasts dazzling medieval and Baroque
-buildings, including the iconic [Špilberk
+mid-size city in the heart of Europe**, offering a blend of the old and the new.
+The city's historic center boasts dazzling medieval and Baroque buildings,
+including the iconic [Špilberk
 Castle](https://www.gotobrno.cz/en/place/spilberk-castle/) and the stunning
 [Cathedral of St. Peter and
 Paul](https://www.gotobrno.cz/en/place/cathedral-of-st-peter-and-paul/).
@@ -23,9 +23,12 @@ deep connection to Czech history, Brno is a city that seamlessly marries
 tradition with modernity, making it a fascinating destination for GCC2024
 attendees.
 
-The Czech Republic has its own currency, the czech crown, but many places accept
-payments by card. There are many cash exchange points in the city center that
-offer exchanges of most currencies at good rates.
+The Czech Republic has its own currency, the [Czech crown
+(CZK)](https://en.wikipedia.org/wiki/Czech_koruna), with the [exchange rate of
+1EUR to about
+25CZK](https://www.oanda.com/currency-converter/en/?from=EUR&to=CZK&amount=1).
+Many places accept payments by card and there are many cash exchange points in
+the city center that offer exchanges of most currencies at good rates.
 
 
 ## Getting to Brno
@@ -70,8 +73,11 @@ available [online](https://www.studentagency.eu/en).
 [Student Agency](https://www.studentagency.eu/en) is a reliable bus and train
 company.
 From Vienna and Prague, we also recommend the [RailJet
-trains](https://idos.idnes.cz/en/vlakyautobusymhdvse/spojeni/) operated by RegioJet or České Dráhy.
-Tickets for trains from most surrounding countries are available directly via the railway companies [České Dráhy](https://www.cd.cz/en/default.htm), [OEBB](https://www.oebb.at/en/) or [Deutsche Bahn](https://www.bahn.de/).
+trains](https://idos.idnes.cz/en/vlakyautobusymhdvse/spojeni/) operated by
+RegioJet or České Dráhy. Tickets for trains from most surrounding countries are
+available directly via the railway companies [České
+Dráhy](https://www.cd.cz/en/default.htm), [OEBB](https://www.oebb.at/en/) or
+[Deutsche Bahn](https://www.bahn.de/).
 
 
 ### By car
@@ -113,19 +119,21 @@ In June, Brno experiences warm and pleasant summer weather:
 
 # Accommodation
 
-We are in the process of reserving room blocks at the following hotels in Brno
-that will offer us a discounted nightly rate. Room availability is limited and
-blocks will be released 45 days before GCC2024 starts so we recommend you plan
-on reserving your room as soon as we have and publish the discount codes. Check
-back here soon or sign up for the [GCC2024 mailing
-list](https://gaggle.email/join/gcc2024-announce@gaggle.email). Note that all hotel
-prices include VAT and breakfast.
-PROMO codes for hotel bookings are distributed in the confirmation of registration.
+The following hotels in Brno are offering us discounted nightly rates. Room
+availability is limited and blocks will be released 45 days before GCC2024
+starts (on May 10) so we recommend you reserve your room as soon as possible.
 
-1. [Hotel International](https://www.hotelinternational.cz/en/): 115EUR single or 135EUR double
+The following are nightly hotel rates. To obtain the given rate, you will need
+to provide a conference-specific promo code at the time of reservation. The
+promo codes will be provided in the confirmation email for conference
+registration. Note that all hotel prices include VAT and breakfast but do not
+include the city tax, which is about 1.60EUR per night per person and will need
+to be paid upon checkout.
+
+1. [Hotel International](https://www.hotelinternational.cz/en/): 115EUR single or 135EUR double (this is the conference venue)
 2. [Hotel Grand](https://grandhotelbrno.cz/en/): 74EUR single
 3. [Hotel Barcelo](https://www.barcelo.com/en-us/barcelo-brno-palace/): 169EUR single or 184EUR double
-4. [Hotel Continental](https://www.continentalbrno.cz/en/): rate pending
+4. [Hotel Continental](https://www.continentalbrno.cz/en/): 80EUR single
 
 
 # GCC2024 venue
@@ -150,8 +158,9 @@ The card is also offers free ticket on city transportation.
   <img alt="Market square" src="/images/events/gcc2024/zelniak.jpg" width="45%">
 </p>
 
-[Vila Tugendhat](https://en.wikipedia.org/wiki/Villa_Tugendhat) was built in 1929–1930 for Greta and Fritz Tugendhat to a design by the German architect Ludwig Mies van der Rohe. Its history is at least as fascinating as its cultural significance. It was added to the UNESCO World Heritage list in 2001.
+[Vila Tugendhat](https://en.wikipedia.org/wiki/Villa_Tugendhat) was built in
+1929–1930 for Greta and Fritz Tugendhat to a design by the German architect
+Ludwig Mies van der Rohe. Its history is at least as fascinating as its cultural
+significance. It was added to the UNESCO World Heritage list in 2001.
 
 ![Villa Tugendhat](/images/events/gcc2024/tugendhat.jpg)
-
-More coming soon!
