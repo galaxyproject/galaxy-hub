@@ -29,7 +29,7 @@ Active contributing communities are encouraged to form and govern their own SIG,
 
 ### Characteristics of SIGs
 
-* Primarily focused on community development: as distinct from the more technical issues managed by WGs.
+* Often focused on community development (distinct from the more technical issues managed by WGs)
 * Self-regulated, which includes organising meetings, developing training material and tools, maintaining the Hub pages, and choosing a representative for the GCB
 * Dependent on community needs, SIGs are easy to form and dissolve
 for ongoing recognition, easy to create and to dissolve, can be transient
