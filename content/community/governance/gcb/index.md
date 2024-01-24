@@ -39,7 +39,7 @@ for ongoing recognition, easy to create and to dissolve, can be transient
   * presentation slot at the annual GCC conference
   * Chat channel/room
 * Govern their own activities such as organising meetings, developing training material and tools, maintaining the Hub pages, and choosing a representative for the GCB.
-* Internally organise themselves to gather and articulate their own needs and requirements as part of the Galaxy Project roadmap and (competitive grant) processes.
+* Represented in the GCB in order to articulate needs and requirements as part of the Galaxy Project roadmap and (competitive grant) processes.
 
 ### Requirements for SIGs
 
