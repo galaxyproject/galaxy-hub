@@ -425,5 +425,3 @@ Collaboration Between VGP and Galaxy Project for free and easy access to large g
 
 </div>
 
-
-

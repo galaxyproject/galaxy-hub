@@ -8,7 +8,10 @@ title: "Galaxy Working Groups"
 
 **Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
 
-Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/) and are represented by the [Galaxy Technical Board](/community/governance/gtb/).
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. 
+Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code,
+training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**
+Working groups are an integral part of the [Galaxy Governance Model](/community/governance/) and are represented by the [Galaxy Technical Board](/community/governance/gtb/).
 
 ## Current set of Working Groups
 
@@ -90,7 +93,8 @@ This group builds the standards and ecosystem for execution, testing, publishing
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-wg-goats text-white">GOATS</div>
 
-Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admin, and developer support and documentation. Galaxy Outreach And Training (And) Support = GOATS!
+Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admin, and developer support and documentation.
+Galaxy Outreach And Training (And) Support = GOATS!
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
@@ -120,7 +124,9 @@ NOTE: This is not an exhaustive or final list of working groups. New groups will
 
 ## Calendar
 
-[Galaxy WGs Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=5l6o0msfduoir59hrab0jlkocc@group.calendar.google.com), listing meetings of all Galaxy working groups and projects. You can subscribe to this calendar via this [iCalendar link](https://calendar.google.com/calendar/ical/5l6o0msfduoir59hrab0jlkocc%40group.calendar.google.com/public/basic.ics).
+[Galaxy WGs Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=5l6o0msfduoir59hrab0jlkocc@group.calendar.google.com),
+listing meetings of all Galaxy working groups and projects. You can subscribe to this calendar via this
+[iCalendar link](https://calendar.google.com/calendar/ical/5l6o0msfduoir59hrab0jlkocc%40group.calendar.google.com/public/basic.ics).
 
 
 ## Committers Groups
