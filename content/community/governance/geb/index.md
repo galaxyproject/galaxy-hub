@@ -5,10 +5,10 @@ autotoc: false
 
 **Keywords:** Strategic emphasis, long term planning and direction
 
-The [GEB](/community/governance/geb/) is a group of principal investigators from around the world, that is responsible for [coordinating the direction](/community/governance/) of the [Galaxy Project](/), a mature, successful research software infrastructure project, with a large and diverse global audience.
+The [GEB](/community/governance/geb/) is a group of principal investigators from around the world, tasked with [coordinating the direction](/community/governance/) of the [Galaxy Project](/).
 
 The Galaxy Executive Board was formed at the _Galaxy Directions Summit_ in 2019, which gathered together ~20 PIs from around the world. Initially,
-all Executive members run large grants that have Galaxy as a core part of their aims.
+all Executive members led large grants that have Galaxy as a core component.
 
 ## Mission Statement
 

@@ -28,7 +28,7 @@ Read more about [Galaxy Working Groups](/community/wg/).
 The [GCB](/community/governance/gcb/) is a governance structure representing *[Special Interest Groups](/community/sig/)* that are not primarily technical in nature, such as existing
 Proteomics and Microbial communities, engaging in capacity building, toolkit development and training.
 The [GCB](/community/governance/gcb/) will provide a supportive virtual forum
-for the exchange of ideas, and a governance body representing the interests of participating communities. It will organise and manage its own agenda and work,
+for the exchange of ideas. It will organise and manage its own agenda and work,
 including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development;
 managing coherent, community owned proposals and responses in the roadmap processes and other important Project decision making.
 
@@ -56,9 +56,9 @@ The [Project Management Office (PMO)](/community/pmo) supports the different bod
 
 **Proposed governance workflow:**
 
-* [Galaxy Executive Board](/community/governance/geb): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz.
-* [Galaxy Community Board](/community/governance/gcb): collaborators from active Galaxy communities.
-* [Galaxy Technical Board](/community/governance/gtb): groups of community members responsible for various parts of the Galaxy ecosystem.
+* [Galaxy Executive Board](/community/governance/geb): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, Michael Schatz, Gareth Price, and Wendi Bacon.
+* [Galaxy Community Board](/community/governance/gcb): representatives from active Galaxy communities.
+* [Galaxy Technical Board](/community/governance/gtb): representatives from Galaxy working groups.
 * Idea by Björn Grüning, Hans-Rudolf Hotz and others.
 
 The overall idea is:
