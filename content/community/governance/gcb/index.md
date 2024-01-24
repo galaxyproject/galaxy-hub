@@ -33,8 +33,9 @@ through engaging in capacity building, toolkit development, outreach and trainin
 refers to these dedicated scientific communities. No specific restrictions are proposed, other than making a useful contribution to the project,
 no specific restrictions apply.
 
-Active contributing communities are encouraged to form and govern their own SIG, with a focus on specific shared interests.
-Each SIG may elect one member to represent their interests on the GCB. This is analogous to the Technical Board, consisting of representatives of the Working Groups (WG).
+Active contributors are encouraged to form and govern their own [SIG](/community/sig), with a focus on specific shared interests.
+Each [SIG](/community/sig) may elect one member to represent their interests on the [GCB](/community/governance/gcb/).
+This is analogous to the Technical Board, consisting of representatives of the Working Groups (WG).
 
 ### Characteristics of SIGs
 
@@ -98,7 +99,8 @@ When delivering training (like [Smorgasbord](https://gallantries.github.io/posts
 
 ## WG and SIGs are complimentary
 
-Working Groups are:
+WGs are distinct from SIGs in that they are:
+
 * focused on technical issues
 * manage important project infrastructure assets, including source code, for the long term
 * self-organised

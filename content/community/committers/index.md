@@ -14,6 +14,6 @@ All Committers Groups *should* (but don't) have clear policies for how *contribu
 contribute to any repo.  Committers are the group of people who decide what gets incorporated in the repos they are responsible for.
 Most repos are under [GalaxyProject on GitHub](https://github.com/galaxyproject/).
 
-There is a loose relationship between Committers Group and [Working Groups](/community/committers/) that are relevant to any given repo.
+There is a loose relationship between Committers Group and [Working Groups](/community/wg/) that are relevant to any given repo.
 Membership in working groups is wide open to anyone with the time to contribute. Committer Group membership is limited to those who have the time,
 _and_ have a proven record of submitting quality contributions.

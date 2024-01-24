@@ -3,6 +3,8 @@ title: Special Interest Groups (SIG)
 autotoc: false
 ---
 
+<slot name="/community/sig/common_linkbox" />
+
 Active Galaxy communities are encouraged to form and govern their own SIG, with a focus on specific shared interests.
 Each SIG may elect one member to represent their interests on the [Galaxy Community Board](/community/governance/gcb/).
 This is analogous to the [Galaxy Technical Board](/community/governance/gtb/), consisting of representatives of the [Working Groups](/community/wg/) (WG).

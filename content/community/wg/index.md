@@ -1,6 +1,8 @@
 ---
-title: "Galaxy Working Groups and Projects"
+title: "Galaxy Working Groups"
 ---
+
+<slot name="/community/sig/common_linkbox" />
 
 ## Distributing project guidance to the community
 
