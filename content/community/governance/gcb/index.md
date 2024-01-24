@@ -55,7 +55,7 @@ for ongoing recognition, easy to create and to dissolve, can be transient
 ### Creating a new SIG
 
 We encourage everyone with an interest in contributing to Galaxy to join a SIG, WG, or to create their own SIG. The Galaxy Project Management Office (PMO)
-is the first point of contact for anyone wanting to form a new SIG. To illustrate the scope of SIGs, see the community page on the Galaxy Community Hub and the following examples:
+is the first point of contact for anyone wanting to form a new SIG. To illustrate the scope of SIGs, check the [SIG directory]((/community/sig)).
 
 * Microbial (People interested in Microbial research, tool, workflow and training development)
 * Industry Forum (a forum for people to exchange needs and experiences with Galaxy in Industry settings)
