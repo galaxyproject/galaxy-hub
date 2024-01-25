@@ -130,6 +130,8 @@ For longer trips, Czech Railways has an excellent [app](https://play.google.com/
 As the conference venue is located right in the city center, we recommend exploring the city by foot, as the center is almost exclusively for pedestrians and vehicles are only allowed with a special permit.
 In case you would like to explore other areas, simply hop on a tram or bus, beep in and enjoy the ride!
 
+If you want to explore the city on your own and off the beaten track, simply rent a [nextbike](https://www.nextbikeczech.com/en/mesto/brno-en/) and take a trip along the river on one of Brno's central bike lanes.
+
 # Accommodation
 
 The following hotels in Brno are offering us discounted nightly rates. Room
