@@ -76,12 +76,12 @@
             </div>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <a :href="this.$static.datasetCallouts.callout1.url" class="area callouts instance btn h-100">
+                    <div class="area callouts instance h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout1.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout1.content"></p>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="col-md-8 mb-3">
@@ -96,12 +96,12 @@
 
             <div class="row">
                 <div class="col-md-7 mb-3">
-                    <a :href="this.$static.datasetCallouts.callout3.url" class="area callouts community h-100">
+                    <div class="area callouts community h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout3.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout3.content"></p>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="col-md-5 mb-3">
@@ -245,8 +245,7 @@ query {
         heading,
         callout1 {
             title,
-            content,
-            url
+            content
         },
         callout2 {
             title,
@@ -254,8 +253,7 @@ query {
         },
         callout3 {
             title,
-            content,
-            url
+            content
         },
         callout4 {
             title,

@@ -197,13 +197,13 @@ html {
                 &.btn:hover {
                     background-color: #1b264b;
                 }
+                .pad {
+                    padding-top: 2rem;
+                }
             }
 
             &.community {
                 background-color: $home-accent-bright;
-                &:hover {
-                    background-color: darken($home-accent-bright, 15%);
-                }
             }
 
             &.servers {
