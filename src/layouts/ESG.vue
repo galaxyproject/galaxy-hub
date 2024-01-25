@@ -86,7 +86,7 @@ export default {
 <static-query>
 query {
     funding: insert(path: "/insert:/projects/esg/funding_notice/") {
-        image (width: 200),
+        image,
         content
     }
 }

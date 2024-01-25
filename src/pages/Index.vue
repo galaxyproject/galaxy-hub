@@ -298,7 +298,8 @@ query {
             logos {
                 title,
                 url,
-                image
+                image,
+                width
             }
         }
     }

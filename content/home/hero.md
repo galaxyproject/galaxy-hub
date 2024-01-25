@@ -7,4 +7,5 @@ image: <a href="/events/gcc2024/"><img src="/images/events/gcc2024/gcc2024-banne
 
 Galaxy is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more.
 
-<a href="https://usegalaxy.org/" class="btn hero mr-3 bgBright">Use Galaxy now</a><a href="/learn-more/" class="btn hero bgBright">Learn more</a>
+<a href="https://usegalaxy.org/" class="btn hero mr-3 bgBright">Use Galaxy now</a>
+<a href="/get-started/" class="btn hero bgBright">Learn more</a>
