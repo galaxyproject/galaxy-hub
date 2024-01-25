@@ -180,7 +180,9 @@ significance. It was added to the UNESCO World Heritage list in 2001.
 
 ![Villa Tugendhat](/images/events/gcc2024/tugendhat.jpg)
 
-## For the active
 For the active, we recommend trying the [Hangar](https://hangarbrno.cz/en/home/) bouldering gym by [Adam Ondra](https://www.adamondra.com/bio/) or going for a run around the [Lužánky](https://www.gotobrno.cz/en/place/park-luzanky/) park.
 If you have more time on your hands, enjoy the [Moravian Karst](https://www.moravskykras.net/en/moravian-karst.html) on a hike or explore some of its caves.
 The best place to start your trip is Blansko, which can be reached by train in 20 minutes from the Brno main train station (Brno hlavní nádraží).
+
+For everyone interested in arts and culture, Brno has several [museums and galleries](https://www.gotobrno.cz/en/explore-brno/go-to-brnos-museums-and-galleries/) showcasing various aspects of Czech culture and history.
+
