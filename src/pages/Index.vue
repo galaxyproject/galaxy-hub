@@ -155,9 +155,9 @@
                     </div>
                 </div>
                 <div class="col-xl-4 mb-3">
-                    <div class="area research tutorials h-100">
+                    <div class="area research tutorials h-40">
                         <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
-                        <div v-html="this.$static.datasetResearch.research3.content" class="text-white mb-5"></div>
+                        <div v-html="this.$static.datasetResearch.research3.content" class="text-white mb-3"></div>
                         <ul style="list-style-type: none; padding: 0">
                             <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title">
                                 <a
@@ -177,20 +177,46 @@
                                 role="button"
                                 rel="noopener"
                                 target="_blank"
-                                class="btn btn-info text-decoration-none mb-4 w-50"
+                                class="btn btn-info text-decoration-none w-50"
                                 >{{ this.$static.datasetResearch.research3.button.title }}</a
+                            >
+                        </div>
+                    </div>
+                    <div class="area research events mt-3 h-40">
+                        <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        <div v-html="this.$static.datasetResearch.research4.content" class="text-white mb-2"></div>
+                        <table style="padding: 0">
+                            <tbody>
+                                <tr v-for="t in this.$static.datasetResearch.research4.events" :key="t.event">
+                                    <td>
+                                        <div>{{ t.date }}</div>
+                                    </td>
+                                    <td>
+                                        <div>{{ t.event }}</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="d-flex justify-content-center">
+                            <a
+                                :href="this.$static.datasetResearch.research4.button.url"
+                                role="button"
+                                rel="noopener"
+                                target="_blank"
+                                class="btn btn-info text-decoration-none mt-3 mb-3 w-50"
+                                >{{ this.$static.datasetResearch.research4.button.title }}</a
                             >
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 mb-3">
                     <div class="area research cases h-100">
-                        <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
-                        <div v-html="this.$static.datasetResearch.research4.content"></div>
+                        <h3>{{ this.$static.datasetResearch.research5.title }}</h3>
+                        <div v-html="this.$static.datasetResearch.research5.content"></div>
                         <div class="row mt-4 mb-4">
                             <div class="col">
                                 <div
-                                    v-for="t in this.$static.datasetResearch.research5.logos"
+                                    v-for="t in this.$static.datasetResearch.research6.logos"
                                     :key="t.title"
                                     class="text-center mt-4"
                                 >
@@ -290,9 +316,21 @@ query {
         },
         research4 {
             title,
-            content
+            content,
+            button {
+                title,
+                url
+            },
+            events {
+                event,
+                date
+            }
         },
         research5 {
+            title,
+            content
+        },
+        research6 {
             logos {
                 title,
                 url,

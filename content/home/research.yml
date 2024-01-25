@@ -23,7 +23,7 @@ research3:
   title: Popular tutorials
   content: "Choose from these self-paced tutorials to perform a comprehensive analysis or hone your skills on a specific topic."
   button:
-    title: See more
+    title: Learn more
     url: "https://training.galaxyproject.org"
   links:
   - title: "Visualization of RNA-Seq results with Volcano Plot"
@@ -32,16 +32,26 @@ research3:
     url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html"
   - title: Quality Control
     url: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
-  - title: "Visualization of RNA-Seq results with heatmap2"
-    url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html"
-  - title: "RNA-Seq reads to counts"
-    url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html"
 
 research4:
+  title: Upcoming events
+  content: "The Galaxy community puts on a show every year with dozens of events around the world.<div class='mt-2'>Next up:</div>"
+  button:
+      title: Visit more
+      url: "https://galaxyproject.org/events/"
+  events:
+    - event: "Advances in Genome Biology and Technology (AGBT)"
+      date: "Feb 5, 2024"
+    - event: "An Introduction to High-Performance Computing"
+      date: "Feb 6, 2024"
+    - event: "Materials Galaxy Community Meeting"
+      date: "Feb 7, 2024"
+
+research5:
   title: "Exemplar use cases"
   content: "See how Galaxy cooperates and helps other projects. These are also great exemplars of how Galaxy is being used in production settings."
 
-research5:
+research6:
   logos:
   - title: VGP logo
     url: /projects/vgp/

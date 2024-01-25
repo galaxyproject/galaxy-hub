@@ -240,10 +240,22 @@ html {
                         a {
                             .link {
                                 color: $white;
-                                font-weight: 600;
-                                padding-bottom: 2.2rem;
+                                font-size: 80%;
+                                font-weight: 400;
+                                padding-bottom: 0.5rem;
                             }
                         }
+                    }
+                }
+            }
+
+            &.events {
+                color: $white;
+                background: linear-gradient(155deg, rgba(249, 206, 215, 0.8) 4%, rgba(63, 227, 249, 0.8));
+
+                table {
+                    tr {
+                        font-size: 80%;
                     }
                 }
             }
