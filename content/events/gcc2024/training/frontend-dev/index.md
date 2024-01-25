@@ -7,4 +7,5 @@ autotoc: true
 
 # Galaxy Frontend Development
 
+**More Info Coming Soon**
 </div>

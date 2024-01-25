@@ -7,4 +7,5 @@ autotoc: true
 
 # Teaching  with Galaxy using the GTN and TIaaS
 
+**More Info Coming Soon**
 </div>

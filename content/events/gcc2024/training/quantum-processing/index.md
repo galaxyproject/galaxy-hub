@@ -7,4 +7,5 @@ autotoc: true
 
 # Quantum Processing in Galaxy
 
+**More Info Coming Soon**
 </div>
