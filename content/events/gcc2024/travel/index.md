@@ -30,7 +30,6 @@ the city center that offer exchanges of most currencies at good rates.
 
 ![Brno Centrum](/images/events/gcc2024/Centrum.jpg)
 
-
 ## Getting to Brno
 
 **Before making travel arrangements, don't forget to check any [Schengen visa
