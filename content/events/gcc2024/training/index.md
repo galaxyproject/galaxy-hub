@@ -140,7 +140,7 @@ sessions:
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/exposiomics>
-                <h2>Exposomics</h2>
+                <h2>Exposomics Hands On</h2>
                 <hr/>
                 <div class="my-5">
                     Get your hands onto some exposomic data!
