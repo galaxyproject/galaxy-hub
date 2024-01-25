@@ -125,9 +125,10 @@ In June, Brno experiences warm and pleasant summer weather:
 
 Brno has excellent public transport and all trips can be paid by credit card on the vehicle.
 Otherwise, tickets can be bought in cash at the driver, though this is not recommended.
-For longer trips, Czech Railways has an excellent [app](https://play.google.com/store/apps/details/M%C5%AFj_vlak?id=cz.cd.mujvlak.an&pli=1) to buy train tickets.
+For longer trips, Czech Railways has an excellent [app](https://play.google.com/store/apps/details/M%C5%AFj_vlak?id=cz.cd.mujvlak.an&pli=1) in english to buy train tickets.
 
 As the conference venue is located right in the city center, we recommend exploring the city by foot, as the center is almost exclusively for pedestrians and vehicles are only allowed with a special permit.
+In case you would like to explore other areas, simply hop on a tram or bus, beep in and enjoy the ride!
 
 # Accommodation
 
@@ -155,6 +156,8 @@ International](https://www.hotelinternational.cz/en/), located at [Husova 16,
 602 00 Brno-střed](https://maps.app.goo.gl/SPxpRFZs6APq5TfG7).
 [See the venue!](https://www.hotelinternational.cz/en/rs/visualization-virtual-tour/)
 
+The hotel is located right at the edge of the historic center between the main square and the castle.
+Enjoy an evening walk up to the castle to enjoy the view or go explore the buzzling city center and grab a drink in one of the charming pubs or caffees.
 
 # Activities beside the conference
 
@@ -176,3 +179,8 @@ Ludwig Mies van der Rohe. Its history is at least as fascinating as its cultural
 significance. It was added to the UNESCO World Heritage list in 2001.
 
 ![Villa Tugendhat](/images/events/gcc2024/tugendhat.jpg)
+
+## For the active
+For the active, we recommend trying the [Hangar](https://hangarbrno.cz/en/home/) bouldering gym by [Adam Ondra](https://www.adamondra.com/bio/) or going for a run around the [Lužánky](https://www.gotobrno.cz/en/place/park-luzanky/) park.
+If you have more time on your hands, enjoy the [Moravian Karst](https://www.moravskykras.net/en/moravian-karst.html) on a hike or explore some of its caves.
+The best place to start your trip is Blansko, which can be reached by train in 20 minutes from the Brno main train station (Brno hlavní nádraží).
