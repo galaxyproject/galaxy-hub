@@ -1,0 +1,57 @@
+heading: Grow with Galaxy
+
+research1:
+  title: Recent publications
+  content: "Galaxy can be installed locally, fine-tuned with a tailored toolset and no usage quotas."
+  url: "https://www.zotero.org/groups/1732893/galaxy"
+  links:
+  - title: "Hakimzadeh, Ali, et al. \"A pile of pipelines: An overview of the bioinformatics software for metabarcoding data analyses.\" Molecular Ecology Resources (2023)."
+    url: "https://doi.org/10.1111/1755-0998.13847"
+  - title: "Senft, Rebecca A., et al. \"A biologist’s guide to planning and performing quantitative bioimaging experiments.\" PLoS Biology 21.6 (2023): e3002167."
+    url: "https://doi.org/10.1371/journal.pbio.3002167"
+  - title: "Banh, Dalton V., et al. \"Bacterial cGAS senses a viral RNA to initiate immunity.\" Nature (2023): 1-8."
+    url: "https://doi.org/10.1038/s41586-023-06743-9"
+  - title: "Sokol-Borrelli, Sarah L., et al. \"A transcriptional network required for bradyzoite development in Toxoplasma gondii is dispensable for recrudescent disease.\" Nature Communications 14.1 (2023): 6078."
+    url: "https://doi.org/10.1016/j.envint.2022.107531"
+
+research2:
+  title: Cite Galaxy
+  content: "The Galaxy Community. \"The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update\", Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W345–W351."
+  url: "https://doi.org/10.1093/nar/gkac247"
+
+research3:
+  title: Popular tutorials
+  content: "Choose from these self-paced tutorials to perform a comprehensive analysis or hone your skills on a specific topic."
+  button:
+    title: See more
+    url: "https://training.galaxyproject.org"
+  links:
+  - title: "Visualization of RNA-Seq results with Volcano Plot"
+    url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html"
+  - title: "Reference-based RNA-Seq data analysis"
+    url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html"
+  - title: Quality Control
+    url: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+  - title: "Visualization of RNA-Seq results with heatmap2"
+    url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html"
+  - title: "RNA-Seq reads to counts"
+    url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html"
+
+research4:
+  title: "Exemplar use cases"
+  content: "See how Galaxy cooperates and helps other projects. These are also great exemplars of how Galaxy is being used in production settings."
+
+research5:
+  logos:
+  - title: VGP logo
+    url: /projects/vgp/
+    image: /images/vgp/vgp_logo_dark.svg
+    width: "100%"
+  - title: microGalaxy logo
+    url: /projects/microbial/
+    image: /images/microgalaxy/microgalaxy_logo.svg
+    width: "50%"
+  - title: MPXV logo
+    url: /projects/mpxv/
+    image: /images/mpxv/mpxv_logo.png
+    width: "50%"
