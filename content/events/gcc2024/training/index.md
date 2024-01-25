@@ -240,7 +240,7 @@ opportunities.
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/advanced-interactive-tools/>
-                <h2>Advanced and Interactive Tools</h2>
+                <h2>Advanced Tool Wrapping in Galaxy</h2>
                 <hr/>
                 <div class="my-5">
                     Galaxy is used by tens of thousands users. Learn how to get your tool integrated and
