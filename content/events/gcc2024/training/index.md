@@ -82,7 +82,7 @@ sessions:
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/single-cell>
-                <h2>Single-Cell Data Analysis</h2>
+                <h2>Leveraging Public Single Cell Data</h2>
                 <hr/>
                 <div class="my-5">
                     Seems everyone is into single-cell data these data. Join them.
