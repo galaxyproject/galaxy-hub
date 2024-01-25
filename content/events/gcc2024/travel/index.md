@@ -90,6 +90,10 @@ purchase
 [online](https://edalnice.cz/en/single-purchase/index.html#/eshop/order) or at
 the border crossing, petrol stations, or post offices.
 
+Please verify whether your hotel or accommodation also provides parking, as there is no free parking around the center and parking spots on the streets are very limited.
+If you plan to bring your car, please read the [parking related information](https://www.parkovanivbrne.cz/en) provided by the city of Brno.
+The closest paid and guarded parking within the proximity of the center is at [Janačkovo divadlo](https://www.jdparking.cz/en/) and about 5 minutes walking distance.
+
 
 ### By Taxi
 
@@ -117,6 +121,13 @@ In June, Brno experiences warm and pleasant summer weather:
   encounter occasional showers. It's a good idea to have an umbrella or raincoat
   on hand.
 
+## Getting around
+
+Brno has excellent public transport and all trips can be paid by credit card on the vehicle.
+Otherwise, tickets can be bought in cash at the driver, though this is not recommended.
+For longer trips, Czech Railways has an excellent [app](https://play.google.com/store/apps/details/M%C5%AFj_vlak?id=cz.cd.mujvlak.an&pli=1) to buy train tickets.
+
+As the conference venue is located right in the city center, we recommend exploring the city by foot, as the center is almost exclusively for pedestrians and vehicles are only allowed with a special permit.
 
 # Accommodation
 
