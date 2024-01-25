@@ -22,5 +22,5 @@ University of Freiburg <br>
 
 
 ### Michelle Savage
-John Hopkins University <br>
+Johns Hopkins University <br>
 Senior DevOps Engineer for Galaxy Project

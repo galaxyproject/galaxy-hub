@@ -14,7 +14,7 @@ The Galaxy code base contains thousands of tests that include tests of different
 ## Meet the Instructors
 
 ### John Davis
-John Hopkins University 
+Johns Hopkins University 
 
 ### Keith Suderman 
-John Hopkins University
+Johns Hopkins University
