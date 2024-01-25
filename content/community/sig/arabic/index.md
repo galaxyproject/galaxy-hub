@@ -2,6 +2,8 @@
 autotoc: false
 ---
 
+<slot name="/community/sig/common_linkbox" />
+
 <div class="left">
 
 ![Galaxy Arabic Speaking Community](./GalaxyArabic400.png){width=200}

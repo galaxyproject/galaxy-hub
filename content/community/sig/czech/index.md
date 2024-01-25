@@ -3,6 +3,8 @@ title: "Czech Galaxy Community"
 autotoc: false
 ---
 
+<slot name="/community/sig/common_linkbox" />
+
 ![ELIXIR Czech Republic](/images/logos/elixir-cz-banner.png)
 
 <br />

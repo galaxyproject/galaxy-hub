@@ -14,7 +14,7 @@ subsites: [all]
 
 Galaxy is an **open-access, web-based platform for data-intensive computational research**. It is used in a variety of domains, including **microbial data analysis**: for microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics, or proteomics.
 
-**[microGalaxy](/projects/microbial/#microgalaxy-community)**, a community of practice focused on microbial data analysis in Galaxy, would like to **learn** more about **use-cases** where Galaxy was beneficial, and also the **barriers that prevent researchers from using Galaxy**. The aim is to collectively **find solutions** to improve user experience and reduce barriers.
+**[microGalaxy](/community/sig/microbial/#microgalaxy-community)**, a community of practice focused on microbial data analysis in Galaxy, would like to **learn** more about **use-cases** where Galaxy was beneficial, and also the **barriers that prevent researchers from using Galaxy**. The aim is to collectively **find solutions** to improve user experience and reduce barriers.
 
 To this end, we are launching a **[survey](https://forms.gle/QZ6tzZ2uRpayuSVSA)** to reach out to, and learn from, the microbial research community.
 
@@ -47,5 +47,5 @@ The survey is available as a Google form and can be directly filled in here:
 First, thank you for your interest. You are welcome to join any activity of the microGalaxy community:
 * Join the [mailing list](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) [microgalaxy@lists.galaxyproject.org](mailto:microgalaxy@lists.galaxyproject.org)
 * Join our [quarterly meetings](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
-* Participate in our **[working groups](/projects/microbial/#working-groups)**
+* Participate in our **[working groups](/community/sig/microbial/#working-groups)**
 * Chat using the [Gitter Chat](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))

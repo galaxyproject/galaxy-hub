@@ -64,7 +64,5 @@ right:
     target: "/projects/mpxv/"
   - label: VGP
     target: "/projects/vgp/"
-  - label: Microbial
-    target: "/projects/microbial/"
 - label: "@jxtx"
   target: https://jxtxfoundation.org/
