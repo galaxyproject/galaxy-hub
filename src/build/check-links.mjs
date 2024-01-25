@@ -102,9 +102,13 @@ const siteChecker = new blc.SiteChecker(options, {
         customData.summary.total++;
         if (result.broken) {
             customData.summary.broken++;
-            customData.pagesWithBrokenLinks[result.base.original] =
-                customData.pagesWithBrokenLinks[result.base.original] || [];
-            customData.pagesWithBrokenLinks[result.base.original].push(result);
+            let pageUrl = result.base.original;
+            // Ensure source page ends with a slash for lookup.
+            if (pageUrl[pageUrl.length - 1] !== "/") {
+                pageUrl += "/";
+            }
+            customData.pagesWithBrokenLinks[pageUrl] = customData.pagesWithBrokenLinks[pageUrl] || [];
+            customData.pagesWithBrokenLinks[pageUrl].push(result);
         }
     },
     page: function (error, pageUrl, customData) {
@@ -113,6 +117,10 @@ const siteChecker = new blc.SiteChecker(options, {
             Page is done, go ahead and render out the page's report.
         */
         customData.summary.pages++;
+        // If pageUrl doesn't end with a slash, add one for lookup.
+        if (pageUrl[pageUrl.length - 1] !== "/") {
+            pageUrl += "/";
+        }
         if (customData.pagesWithBrokenLinks[pageUrl]) {
             customData.markdownReport += `#### ${pageUrl}\n`;
             for (const busted in customData.pagesWithBrokenLinks[pageUrl]) {
@@ -123,7 +131,7 @@ const siteChecker = new blc.SiteChecker(options, {
     },
     site: function (error, siteUrl, customData) {
         /* 
-            Fires at the very end of site procsesing.  All there is to do now is
+            Fires at the very end of site processing.  All there is to do now is
             close out the markdown report and write it out.
         */
         const output =
