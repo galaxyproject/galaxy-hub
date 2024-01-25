@@ -16,10 +16,6 @@ A quick walkthrough of the Galaxy backend geared for developers wishing to exten
 ### John Chilton
 Penn State University <br>
 Galaxy Developer
-<br>
-<br>
-<br>
-<br>
 
 ### David Lopez
 University of Freiburg <br>
