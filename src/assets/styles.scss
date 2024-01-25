@@ -86,6 +86,26 @@ html {
         border-radius: 5px;
     }
 
+    nav#heroMaincontainer {
+        .container-fluid {
+            padding-left: 0;
+            justify-content: left;
+        }
+        div.nav div.dropdown:hover div.dropdown-menu {
+            display: block;
+            position: absolute;
+            border: 1px solid $black;
+            filter: drop-shadow(2px 2px 2px $gray);
+        }
+        .dropdown-menu.hero {
+            font-size: 1.3rem;
+            font-weight: 500;
+            a.dropdown-item:hover, a.dropdown-item:focus {
+                color: $white;
+            }
+        }
+    }
+
     h1 {
         font-size: 3.5rem;
         font-weight: 800;

@@ -10,6 +10,38 @@
                 <div class="col-lg-7 mb-4">
                     <h1 v-html="$page.hero.description" class="mb-3"></h1>
                     <p v-html="$page.hero.content" class="hero"></p>
+                    <nav class="navbar navbar-default p-0" id="heroMaincontainer">qabymichelle
+                        <div class="container-fluid">
+                            <div class="nav navbar-nav">
+                                <div v-if="prioritizedGalaxyLocales" class="dropdown show">
+                                    <a 
+                                        :href="prioritizedGalaxyLocales[0].url"
+                                        class="btn hero mr-3 bgBright dropdown-toggle"
+                                        role="button"
+                                        target="_blank"
+                                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false"
+                                    >
+                                        {{ $page.hero.button1 }}
+                                        ({{ prioritizedGalaxyLocales[0].locale }})
+                                    </a>
+                                    <div class="dropdown-menu hero bgBright m-0 pb-0" aria-labelledby="dropdownMenuLink">
+                                        <a 
+                                            :href="site.url"
+                                            v-for="(site, i) in prioritizedGalaxyLocales"
+                                            v-if="i > 0"
+                                            :key="i"
+                                            target="_blank"
+                                            class="dropdown-item" 
+                                        >
+                                            {{ $page.hero.button1 }} ({{ site.locale }})
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a :href="$page.hero.buttonUrl2" class="btn hero bgBright">{{ $page.hero.button2 }}</a>
+                        </div>
+                    </nav>
                 </div>
                 <div class="col-lg-5">
                     <div v-html="$page.hero.image"></div>
@@ -235,10 +267,22 @@
 
 <script>
 import slugify from "@sindresorhus/slugify";
+import CONFIG from "~/../config.json";
 
 export default {
     methods: {
         slugify,
+    },
+    computed: {
+        prioritizedGalaxyLocales() {
+            const utcBrowser = -1 * (new Date()).getTimezoneOffset()/60;
+            let galaxies = CONFIG.usegalaxy;
+            let priority = galaxies.splice(galaxies.findIndex((g) => (utcBrowser >= g.utcMin && utcBrowser < g.utcMax)), 1);
+            if (priority[0]) {
+                galaxies.splice(0, 0, priority[0]);
+            }
+            return galaxies;
+        },
     },
 };
 </script>
@@ -250,6 +294,9 @@ query {
         notification,
         description,
         image,
+        button1,
+        button2,
+        buttonUrl2,
         content
     }
 

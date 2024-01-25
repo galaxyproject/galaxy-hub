@@ -124,5 +124,29 @@
         "/tutorials/rb_rnaseq/": "/tutorials/rb-rnaseq/",
         "/tutorials/var_dip/": "/tutorials/var-dip/",
         "/tutorials/var_hap/": "/tutorials/var-hap/"
-    }
+    },
+    "usegalaxy": [
+        {
+            "locale": "US",
+            "url": "http://www.usegalaxy.org",
+            "utcMin": -11,
+            "utcMax": -4
+        },
+        {
+            "locale": "EU",
+            "url": "http://usegalaxy.eu",
+            "utcMin": -4,
+            "utcMax": 7
+        },
+        {
+            "locale": "AU",
+            "url": "http://usegalaxy.org.au",
+            "utcMin": 7,
+            "utcMax": 14
+        },
+        {
+            "locale": "All",
+            "url": "/use/"
+        }
+    ]
 }
