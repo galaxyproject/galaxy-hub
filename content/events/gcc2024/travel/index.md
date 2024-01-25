@@ -15,8 +15,6 @@ Castle](https://www.gotobrno.cz/en/place/spilberk-castle/) and the stunning
 [Cathedral of St. Peter and
 Paul](https://www.gotobrno.cz/en/place/cathedral-of-st-peter-and-paul/).
 
-![Brno Centrum](/images/events/gcc2024/Centrum.jpg)
-
 Brno is also a hub of education and innovation contributing to its dynamic and
 forward-thinking atmosphere. With a thriving arts scene, lively cafes, and a
 deep connection to Czech history, Brno is a city that seamlessly marries
@@ -30,6 +28,8 @@ The Czech Republic has its own currency, the [Czech crown
 Many places accept payments by card and there are many cash exchange points in
 the city center that offer exchanges of most currencies at good rates.
 
+![Brno Centrum](/images/events/gcc2024/Centrum.jpg)
+
 
 ## Getting to Brno
 
@@ -37,6 +37,7 @@ the city center that offer exchanges of most currencies at good rates.
 requirements](https://www.schengenvisainfo.com/who-needs-schengen-visa/) for
 traveling to EU**. If you need a visa application letter from the conference,
 please email the [organizers](mailto:gcc2024-org@gaggle.email).
+General travel advice is for example provided by the [US Department of State](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/CzechRepublic.html) and the latest COVID-19 related information is available on the website of the [Ministry of Interior of the Czech Republic](https://www.mvcr.cz/mvcren/docDetail.aspx?docid=22239932&docType=ART#1).
 
 You can comfortably get to Brno by air, bus, car or train.
 
@@ -50,7 +51,7 @@ Airport (PRG)](https://www.prg.aero/en#/) or [Vienna Airport
 (VIE)](https://www.viennaairport.com/en/passengers).
 
 The Brno airport is located 12km/20 minutes from the city center and you can
-easily take a taxi or the express bus, which is located outside the
+easily take a taxi or the express bus running every 30 minutes, which is located outside the
 entrance to the airport terminal.
 Payment for the bus is possible by credit card using the terminals in the bus.
 
