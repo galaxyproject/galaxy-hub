@@ -111,10 +111,10 @@ sessions:
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/microbiome-analysis>
-                <h2>Microbiome Analysis</h2>
+                <h2>Pathogen Detection from Sequencing Data using Galaxy</h2>
                 <hr/>
                 <div class="my-5">
-                    Microbiome is all around us.
+                    Microbiome is all around us. Learn how this affects food contamination globally.
                 </div>
             </a>
         </td>
