@@ -186,3 +186,6 @@ The best place to start your trip is Blansko, which can be reached by train in 2
 
 For everyone interested in arts and culture, Brno has several [museums and galleries](https://www.gotobrno.cz/en/explore-brno/go-to-brnos-museums-and-galleries/) showcasing various aspects of Czech culture and history.
 
+In 2017, Brno was awarded the prestigious title of UNESCO Creative City of Music, thus joining a network of 46 cities
+viewing music as one of their development priorities.
+Brno's [music scene](http://www.musicfriendlycity.cz/) has plently to offer!

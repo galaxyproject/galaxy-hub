@@ -53,3 +53,6 @@ To attend CoFest, we do ask that you register. This will help us find adequate
 space and ensure we have enough coffee and drinks.
 
 Registration details are still pending.
+
+The final venue has not been determined yet but we have several promising candidates!
+Stay tuned for updates!
