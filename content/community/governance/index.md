@@ -62,7 +62,7 @@ The [Project Management Office (PMO)](/community/pmo) supports the different bod
 * Idea by Björn Grüning, Hans-Rudolf Hotz and others.
 
 
-In addition to their self-governance and collaboration, these boards interact with each other to build the annual Galaxy roadmap (link):
+In addition to their self-governance and collaboration, these boards interact with each other to build the annual Galaxy [roadmap](/roadmap/):
 
 1. The [Technical Board](/community/governance/gtb) and the Community Board are periodically asked for high-level input, representing the interests of the wider Galaxy community.
 2. The [Galaxy Executive Board](/community/governance/geb) reviews suggestions and creates a final high-level roadmap (1 week).
