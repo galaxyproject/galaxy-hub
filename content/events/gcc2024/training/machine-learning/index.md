@@ -19,6 +19,7 @@ Computer Scientist specializing in AI/ML and software engineering
 
 ### Anup Kumar
 University of Freiburg <br>
+ML researcher, Bioinformatics group, PhD Candidate
 
 
 ### Michelle Savage
