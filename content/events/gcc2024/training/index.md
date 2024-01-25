@@ -73,10 +73,10 @@ sessions:
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/metabolomics>
-                <h2>Metabolomics</h2>
+                <h2>Metabolomics, Illustrated through MS Data Processing</h2>
                 <hr/>
                 <div class="my-5">
-                    Hands-on Metabolomics training - nothing meta about it.
+                    Join us for hands-on Metabolomics training on MS Data.
                 </div>
             </a>
         </td>
