@@ -211,7 +211,7 @@ opportunities.
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href =/events/gcc2024/training/tool-finding/>
-                <h2>Galaxy Tool Finding for a Community</h2>
+                <h2>Collecting, Organizing, and Broadcasting Galaxy Tools for a Dedicated Scientific Community</h2>
                 <hr/>
                 <div class="my-5">
                     Help bring people together.
