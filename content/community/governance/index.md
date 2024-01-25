@@ -52,8 +52,6 @@ The [Project Management Office (PMO)](/community/pmo) supports the different bod
 
 # Proposed Galaxy governance and planning structure
 
-![Galaxy Community Governance Model](./governance.svg)
-
 **Proposed governance workflow:**
 
 * [Galaxy Executive Board](/community/governance/geb): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, Michael Schatz, Gareth Price, and Wendi Bacon.
