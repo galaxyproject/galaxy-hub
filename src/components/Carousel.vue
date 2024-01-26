@@ -30,10 +30,9 @@
                     img-alt="Please help us by providing feedback about what content that you would like to see in the training sessions in GCC2024. Click to fill out the survey!"
                 ></b-carousel-slide>
             </a>
-            <a href="https://galaxyproject.org/projects/vgp/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/vgp/VGP_hub.jpg"
-                    img-alt="The Vertebrate Genomes Project (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data."
+                    img-src="/images/ColabFold_coming soon.jpeg"
+                    img-alt="ColabFold, a machine-learning model based on AlphaFold that is used for predicting the structure of proteins only using only a protein sequence as an input, will soon be available on Galaxy."
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">
