@@ -78,10 +78,12 @@
                                 target="_blank"
                                 class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
                             >
-                                <span
-                                    :class="'icon fa ' + education.icon + ' iconXlarge pt-3 pr-3'"
-                                    aria-hidden="true"
-                                ></span>
+                                <span class="text-center iconXlarge pt-1 mr-3">
+                                    <i
+                                        :class="'icon fa ' + education.icon + ' '"
+                                        aria-hidden="true"
+                                    ></i>
+                                </span>
                                 <div class="title text-decoration">{{ education.title }}</div>
                                 <div class="text text-decoration">{{ education.content }}</div>
                             </a>
