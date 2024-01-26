@@ -39,9 +39,9 @@ $carousel-indicator-active-bg: $navbar-inverse-bg;
 $carousel-control-width: 5%;
 
 $home-body-bg: $brand-dark;
-$home-accent-brightest: #82ffff;
-$home-accent-brighter: #60fb8c;
-$home-accent-bright: #2ad8fe; // #00B8F5;
+$home-accent-brightest: #C2EFFF;
+$home-accent-brighter: #c2ebc2;
+$home-accent-bright: #F6F7F9;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
@@ -226,12 +226,12 @@ html {
 
         &.research {
             &.publications {
-                background: linear-gradient(155deg, #00a7e1 44%, rgba(249, 206, 215, 0.8));
+                background: linear-gradient(155deg, #1D4068 44%, #1B62A4);
             }
 
             &.tutorials,
             .tutorials {
-                background: linear-gradient(155deg, rgba(249, 206, 215, 0.8) 4%, rgba(63, 227, 249, 0.8));
+                background: linear-gradient(155deg, #244F7F 24%, #1B62A4);
 
                 ul {
                     padding-left: 1.1rem;
@@ -251,7 +251,7 @@ html {
 
             &.events {
                 color: $white;
-                background: linear-gradient(155deg, rgba(249, 206, 215, 0.8) 4%, rgba(63, 227, 249, 0.8));
+                background: linear-gradient(155deg, #1B62A4 44%, #D6DBE0);
 
                 table {
                     tr {
@@ -262,7 +262,7 @@ html {
 
             &.cases {
                 color: $white;
-                background: linear-gradient(155deg, rgba(63, 227, 249, 0.8) 44%, #c6a669);
+                background: linear-gradient(155deg, #1B62A4 45%, #D6DBE0);
             }
 
             a.mpxvLogo {
