@@ -4,7 +4,8 @@ title: Set up your own community
 
 <div class='right'><img src="/images/undraw-illustrations/mind_map.svg" alt="" width="240" /></div>
 
-There are many communities established within Galaxy based on:
+
+There are many communities established within Galaxy. We call them [Special Interest Groups](/community/sig/). We have SIGs based for example on:
 - their [**region**](/community/#regional-communities) around the world - these are regional communities,
 - their [**domain of science**](/community/#communities-of-practice) - these are communities of practices in different scientific domains,
 - their [**topics of interest**](https://galaxyproject.org/community/wg/), such as systems, back-end, user interface - these are working groups. 
@@ -29,7 +30,9 @@ Some of the recipes in this cookbook will customize those guidelines to the spec
 
 #### Learn the basics about Galaxy
 
-First of all, you should start with our dedicated [**Get Started**](/get-started/) page to get a head-start of what Galaxy is about. You'll find all the necessary resources and you could even participate in the [**Galaxy Mentorship Network**](https://galaxy-mentor-network.netlify.app/) to get started with the help of a Galaxy Mentor.
+First of all, you should start with our dedicated [**Get Started**](/get-started/) page to get a head-start of what Galaxy is about.
+You'll find all the necessary resources and you could even participate in the [**Galaxy Mentorship Network**](https://galaxy-mentor-network.netlify.app/)
+to get started with the help of a Galaxy Mentor.
 
 #### Learn about Tool Development
 Galaxy has many tools already installed and ready to be used but when creating your community, you'll probably need specific tools for your Galaxy analysis. Don't worry, see our dedicated page for [**Tool Authors**](/tools/) where you'll find everything you'll need and also reach out to the [**Tools Working Group**](/community/wg/) via Gitter.
@@ -39,10 +42,12 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 #### Get involved
 - Introduce yourself and dive in our [Working Groups](https://galaxyproject.org/community/wg/).
 - Participate in our worldwide [Galaxy Events](https://galaxyproject.org/events/).
+- If you want to start your own [Special Interest Group](/community/sig/) we encourage you to read the [Galaxy Community Board](/community/governance/gcb/#creating-a-new-sig) page.
 
 ### Create communication channels for your community
 - We strongly recommend you create your community chat. Reach out to our Lobby in [**Gitter**](https://gitter.im/galaxyproject/Lobby) or [**Matrix**](https://app.element.io/#/room%2F%23galaxyproject_Lobby%3Agitter.im) and ask the admins to create your Community Chat.
 - Setting up a mailing list is also another available option by sending an email to outreach@galaxyproject.org although we strongly recommend to use a Community Chat.
+
 
 ### Do's and Don'ts 
 

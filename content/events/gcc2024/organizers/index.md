@@ -21,6 +21,10 @@ The organizing committee is the oversight and coordination group that makes sure
 
 To contact the organizing committee, please send an email to [gcc2024-org@gaggle.email](mailto:gcc2024-org@gaggle.email).
 
+## Hired consultant
+
+* **[Dana Cernoskova](https://www.linkedin.com/in/dana-cernoskova-523a4927/)**, [Scientifika](https://scientifika.eu/), Czech Republic
+
 
 # Scientific Committee Chair
 
