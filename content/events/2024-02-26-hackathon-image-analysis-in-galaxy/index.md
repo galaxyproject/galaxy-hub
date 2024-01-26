@@ -46,12 +46,14 @@ Passcode: 167106
 
 # Agenda
 
+Times to start for each day and the particular schedules are listed down below. All days do not have a fixed end time (onsite decision with the participants).
+
 **Monday, February 26th**
-| Time | Topic | Speaker |
-|---|---|---|
-| 10:00 | Welcome & Logistics |  |
-| 10:10 | Presentation of personal goals and plans for the week<br>[GDoc: Hackathon Freiburg 2024 - Planning](https://docs.google.com/document/d/1Sckc6me-6oVZlPovle-h4gWKgYCiHkendhnQK2wBOzY/edit) | All the participants |
-| 11:00 | Hacking! |  |
+| Time | Topic |
+|---|---|
+| 10:00 | Welcome & Logistics |
+| 10:10 | Presentation of personal goals and plans for the week<br>[GDoc: Hackathon Freiburg 2024 - Planning](https://docs.google.com/document/d/1Sckc6me-6oVZlPovle-h4gWKgYCiHkendhnQK2wBOzY/edit) |
+| 11:00 | Hacking! |
 
 **Tuesday-Thursday, February 27-29th**
 | Time | Topic |
