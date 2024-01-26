@@ -6,31 +6,39 @@ education:
 - title: Tutorials
   content: Access topic-based trainings for free.
   url: https://training.galaxyproject.org
+  icon: fa-solid fa-chalkboard-teacher
 
 - title: Videos
   content: Watch to learn, including conferences.
   url: https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA
+  icon: fa-regular fa-play-circle
 
 - title: Vetted workflows
   content: (Re)use or adapt quality workflows.
   url: https://training.galaxyproject.org/training-material/workflows/list
+  icon: fa-solid fa-code-branch
 
 - title: Blog
   content: Read highlights from the experts.
   url: /blog/
+  icon: fa-solid fa-comment
 
 - title: Data
   content: Pull data from popular repositories.
   url: https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html
+  icon: fa-solid fa-database
 
 - title: Community
   content: Explore the world-wide community.
   url: https://galaxyproject.org/community/
+  icon: fa-solid fa-user-friends
 
 - title: FAQ
   content: Common questions. Good answers.
   url: https://training.galaxyproject.org/training-material/faqs/index.html
+  icon: fa-regular fa-question-circle
 
 - title: Help & support
   content: Advice is always available.
   url: https://help.galaxyproject.org/
+  icon: fa-solid fa-hands-helping

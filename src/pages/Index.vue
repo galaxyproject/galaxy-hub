@@ -79,7 +79,7 @@
                                 class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
                             >
                                 <span
-                                    class="icon fa far fa-arrow-circle-o-right iconXlarge pt-2"
+                                    :class="'icon fa ' + education.icon + ' iconXlarge pt-3 pr-3'"
                                     aria-hidden="true"
                                 ></span>
                                 <div class="title text-decoration">{{ education.title }}</div>
@@ -306,7 +306,8 @@ query {
         education {
             title,
             content,
-            url
+            url,
+            icon
         }
     }
 }
