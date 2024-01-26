@@ -28,7 +28,7 @@ Registration is free, but the space is limited, so we recommend to register soon
 
 Please note that we expect participants to cover their own travel and accommodation costs. If this is not possible, please let us know, and we will do our best to find a solution.
 
-As this is a hybrid event, remote attendance is also possible (details down below).
+As this is a hybrid event, remote attendance is also possible (details in the registration).
 
 <div class="row justify-content-center">
   <a class="btn w-25 btn-dark" href="https://docs.google.com/forms/d/1nw8xvXGojgI3DUr3tyC9lmAs7kunkf_aVLOgUwRs1VI" role="button" target="_blank">Register now</a>
