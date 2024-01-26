@@ -100,7 +100,8 @@ html {
         .dropdown-menu.hero {
             font-size: 1.3rem;
             font-weight: 500;
-            a.dropdown-item:hover, a.dropdown-item:focus {
+            a.dropdown-item:hover,
+            a.dropdown-item:focus {
                 color: $white;
             }
         }

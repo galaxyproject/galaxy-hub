@@ -14,25 +14,30 @@
                         <div class="container-fluid">
                             <div class="nav navbar-nav">
                                 <div v-if="prioritizedGalaxyLocales" class="dropdown show">
-                                    <a 
+                                    <a
                                         :href="prioritizedGalaxyLocales[0].url"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
                                         role="button"
                                         target="_blank"
-                                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        id="dropdownMenuLink"
+                                        data-toggle="dropdown"
+                                        aria-haspopup="true"
                                         aria-expanded="false"
                                     >
                                         {{ $page.hero.button1 }}:
                                         {{ prioritizedGalaxyLocales[0].locale }}
                                     </a>
-                                    <div class="dropdown-menu hero bgBright m-0 pb-0" aria-labelledby="dropdownMenuLink">
-                                        <a 
+                                    <div
+                                        v-if="prioritizedGalaxyLocales.length > 0"
+                                        class="dropdown-menu hero bgBright m-0 pb-0"
+                                        aria-labelledby="dropdownMenuLink"
+                                    >
+                                        <a
+                                            v-for="(site, i) in prioritizedGalaxyLocales.slice(1)"
                                             :href="site.url"
-                                            v-for="(site, i) in prioritizedGalaxyLocales"
-                                            v-if="i > 0"
                                             :key="i"
                                             target="_blank"
-                                            class="dropdown-item" 
+                                            class="dropdown-item"
                                         >
                                             {{ $page.hero.button1 }}:
                                             {{ site.locale }}
@@ -80,10 +85,7 @@
                                 class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
                             >
                                 <span class="text-center iconXlarge pt-1 mr-3">
-                                    <i
-                                        :class="'icon fa ' + education.icon + ' '"
-                                        aria-hidden="true"
-                                    ></i>
+                                    <i :class="'icon fa ' + education.icon + ' '" aria-hidden="true"></i>
                                 </span>
                                 <div class="title">{{ education.title }}</div>
                                 <div class="text">{{ education.content }}</div>
@@ -278,9 +280,12 @@ export default {
     },
     computed: {
         prioritizedGalaxyLocales() {
-            const utcBrowser = -1 * (new Date()).getTimezoneOffset()/60;
+            const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
             let galaxies = CONFIG.usegalaxy;
-            let priority = galaxies.splice(galaxies.findIndex((g) => (utcBrowser >= g.utcMin && utcBrowser < g.utcMax)), 1);
+            let priority = galaxies.splice(
+                galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
+                1
+            );
             if (priority[0]) {
                 galaxies.splice(0, 0, priority[0]);
             }
