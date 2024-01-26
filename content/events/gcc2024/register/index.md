@@ -57,6 +57,9 @@ provided.
 | Industry                           | EUR620 | EUR770 | EUR920   |
 | Conference dinner                  |        |        | EUR70    |
 
+\* Please note that the above prices do not include the mandatory 21% VAT, which
+will be added during registration.
+
 
 ### Virtual meeting attendance
 
