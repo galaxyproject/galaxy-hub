@@ -10,7 +10,7 @@
                 <div class="col-lg-7 mb-4">
                     <h1 v-html="$page.hero.description" class="mb-3"></h1>
                     <p v-html="$page.hero.content" class="hero"></p>
-                    <nav class="navbar navbar-default p-0" id="heroMaincontainer">qabymichelle
+                    <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
                             <div class="nav navbar-nav">
                                 <div v-if="prioritizedGalaxyLocales" class="dropdown show">
