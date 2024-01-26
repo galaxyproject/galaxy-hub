@@ -28,8 +28,8 @@ purchased along with the registration. If you'd like to purchase additional
 dinner tickets for your travel companion(s) you can do so at the time of
 registration.
 
-Please note that all prices are listed in Euros (EUR) and exclude the mandatory
-VAT. When paying for the registration, you can use a credit card or do a bank
+**Please note that all prices are listed in Euros (EUR) and exclude the mandatory
+VAT (21%).** When paying for the registration, you can use a credit card or do a bank
 transfer. You can also register and request the payment be processed afterwards
 by someone else, such as your department administrator. If you prefer to
 reason in a different currency, here is a convenient [currency
@@ -52,10 +52,10 @@ provided.
 
 |                                    | Early (<= Feb 29) | Full (<= May 25) | Late (<= Jun 15) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc                    | EUR$360 | EUR$460 | EUR$570   |
-| Academic / Non-Profit / Government | EUR$460 | EUR$565 | EUR$670   |
-| Industry                           | EUR$620 | EUR$770 | EUR$920   |
-| Conference dinner                  |         |         | EUR$70    |
+| Student/postdoc                    | EUR360 | EUR460 | EUR570   |
+| Academic / Non-Profit / Government | EUR460 | EUR565 | EUR670   |
+| Industry                           | EUR620 | EUR770 | EUR920   |
+| Conference dinner                  |        |        | EUR70    |
 
 
 ### Virtual meeting attendance
@@ -69,7 +69,7 @@ the channel.
 
 |     |      |
 | --- | ---: |
-| Virtual    | EUR$50 |
+| Virtual    | EUR50 |
 
 
 ## CoFest: June 28-29
@@ -83,7 +83,7 @@ event.
 
 |        |        |
 | --- | ---: |
-| CoFest | EUR$20 |
+| CoFest | EUR30 |
 
 
 ## Lodging
