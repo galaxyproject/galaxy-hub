@@ -16,7 +16,7 @@ education:
 - title: Vetted workflows
   content: (Re)use or adapt quality workflows.
   url: https://training.galaxyproject.org/training-material/workflows/list
-  icon: fa-solid fa-code-branch
+  icon: fa-solid fa-sitemap
 
 - title: Blog
   content: Read highlights from the experts.
