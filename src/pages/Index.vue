@@ -22,8 +22,8 @@
                                         id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                                         aria-expanded="false"
                                     >
-                                        {{ $page.hero.button1 }}
-                                        ({{ prioritizedGalaxyLocales[0].locale }})
+                                        {{ $page.hero.button1 }}:
+                                        {{ prioritizedGalaxyLocales[0].locale }}
                                     </a>
                                     <div class="dropdown-menu hero bgBright m-0 pb-0" aria-labelledby="dropdownMenuLink">
                                         <a 
@@ -34,7 +34,8 @@
                                             target="_blank"
                                             class="dropdown-item" 
                                         >
-                                            {{ $page.hero.button1 }} ({{ site.locale }})
+                                            {{ $page.hero.button1 }}:
+                                            {{ site.locale }}
                                         </a>
                                     </div>
                                 </div>
