@@ -19,12 +19,13 @@ Here we outline a few "recipes", or set of steps, you can follow to address diff
 
 The recipes vary from some technical aspects and where to find help, as well as the social aspects related to creating a community, and encouraging participating and collaboration. 
 
-There are multiple general guidelines for open source communities that you can use, including: 
+There are multiple general guidelines for starting open source communities that you can use, including: 
 - [The Turing Way](https://the-turing-way.netlify.app/index.html), which is a handbook for reproducible, ethical and collaborative data science developed in the [Turing Institute](https://www.turing.ac.uk/) UK, includes guidelines on [Managing a New Community and Team](https://the-turing-way.netlify.app/collaboration/new-community)
 - Guidelines on [Starting a community - taking your software to the world](https://www.software.ac.uk/guide/starting-community-taking-your-software-world) published by the UK [Software Sustainability Institute](https://www.software.ac.uk/). 
 - The OSSWatch guidelines on [How to build an open source community](http://oss-watch.ac.uk/resources/howtobuildcommunity)
+- [It Takes A Village](https://itav.lyrasis.org/) is a framework for open-source communities (originally from the cultural and scientific heritage domain, but applicable to other areas) to develop sustainability strategies. It offers a guidebook, a toolkit and information about their communities. 
 
-Some of the recipes in this cookbook will customise those guidelines to the specific application to the Galaxy Community.
+Some of the recipes in this cookbook will customize those guidelines to the specific application to the Galaxy Community.
 
 #### Learn the basics about Galaxy
 
@@ -41,7 +42,7 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 
 ### Create communication channels for your community
 - We strongly recommend you create your community chat. Reach out to our Lobby in [**Gitter**](https://gitter.im/galaxyproject/Lobby) or [**Matrix**](https://app.element.io/#/room%2F%23galaxyproject_Lobby%3Agitter.im) and ask the admins to create your Community Chat.
-  - Setting up a mailing list is also another available option by sending an email to outreach@galaxyproject.org although we strongly recommend to use a Community Chat.
+- Setting up a mailing list is also another available option by sending an email to outreach@galaxyproject.org although we strongly recommend to use a Community Chat.
 
 ### Do's and Don'ts 
 
