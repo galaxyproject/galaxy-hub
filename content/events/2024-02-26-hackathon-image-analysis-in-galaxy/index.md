@@ -15,7 +15,7 @@ subsites: [all]
 
 - **Date**: Feb 26th - Mar 3rd 2024 (full week)
 - **Format**: hybrid
-- **Location**: Seminar room at Georges-Köhler-Allee 79, 79104 Freiburg
+- **Location**: Seminar room at Georges-Köhler-Allee 79, 79110 Freiburg
 - **Time**: full day, 9/10am CEST to open end
 - **Cost**: Free
 - **Contact**: Beatriz Serrano-Solano ([beatriz.serrano.solano@eurobioimaging.eu](mailto:beatriz.serrano.solano@eurobioimaging.eu)), Yi Sun ([yi.sun@embl.de](mailto:yi.sun@embl.de), Björn Grüning ([gruening@informatik.uni-freiburg.de](mailto:gruening@informatik.uni-freiburg.de)
