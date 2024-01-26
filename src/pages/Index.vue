@@ -84,8 +84,8 @@
                                         aria-hidden="true"
                                     ></i>
                                 </span>
-                                <div class="title text-decoration">{{ education.title }}</div>
-                                <div class="text text-decoration">{{ education.content }}</div>
+                                <div class="title">{{ education.title }}</div>
+                                <div class="text">{{ education.content }}</div>
                             </a>
                         </div>
                     </div>

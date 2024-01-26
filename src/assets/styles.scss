@@ -176,11 +176,12 @@ html {
             a.btn {
                 min-width: 355px;
                 padding-left: 18px;
+                border-width: 2px;
 
                 .title {
                     font-size: 1.7rem;
                     color: $black;
-                    text-decoration: underline;
+                    text-decoration: none;
                     font-weight: 400;
                 }
                 &.btn-outline-primary:hover .title {
@@ -192,6 +193,7 @@ html {
                     font-size: 0.9rem;
                     text-wrap: nowrap;
                     color: $black;
+                    text-decoration: none;
                     font-weight: 400;
                 }
 
