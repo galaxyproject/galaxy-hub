@@ -284,18 +284,6 @@ html {
                 color: $white;
                 background: linear-gradient(155deg, rgba(63, 227, 249, 0.8) 44%, #c6a669);
             }
-
-            a.mpxvLogo {
-                #mpxvLogo {
-                    text-align: center;
-                    .text {
-                        padding-top: 0.2rem;
-                        color: darken($brand-danger, 25%);
-                        font-size: 1.2rem;
-                        font-weight: 800;
-                    }
-                }
-            }
         }
     }
 
