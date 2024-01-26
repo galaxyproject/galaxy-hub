@@ -31,7 +31,7 @@ Please note that we expect participants to cover their own travel and accommodat
 As this is a hybrid event, remote attendance is also possible (details in the registration).
 
 <div class="row justify-content-center">
-  <a class="btn w-25 btn-dark" href="https://docs.google.com/forms/d/1nw8xvXGojgI3DUr3tyC9lmAs7kunkf_aVLOgUwRs1VI" role="button" target="_blank">Register now</a>
+  <a class="btn w-25 btn-dark" href="https://forms.gle/A2VBPtFwVJjpB4tc7" role="button" target="_blank">Register now</a>
 </div>
 
 # Remote attendance
