@@ -8,6 +8,23 @@ There are many communities established within Galaxy. We call them [Special Inte
 [**region**](/community/sig/#regional-communities) or [**domain of science**](/community/sig/#communities-of-practice) but
 if you feel like you just don't see your own or don't feel identified with them, you can create your own community!
 
+### Why shall you build your own community (SIG) ?
+
+The goal of building a new community is to establish a working environment related to your domain of expertise. Every community addresses issues like :
+
+* Technical
+  * relevant tools and software
+  * special data formats and data management
+  * sharing and reproducibility of the computation and results
+  * obtaining the optimal resources for achieving the goals
+
+* Organisational
+  * attracting new people and groups
+  * extending and sharing the acquired expertise
+
+* Training
+  * 
+
 Below you'll find a suggested path to follow before you can start your own community, a list of Do's and Don'ts and also useful links you should probably check out.
 
 ### Path 
