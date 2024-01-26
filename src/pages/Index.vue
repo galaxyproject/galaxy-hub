@@ -85,7 +85,7 @@
                                 class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
                             >
                                 <span class="text-center iconXlarge pt-1 mr-3">
-                                    <i :class="'icon fa ' + education.icon + ' '" aria-hidden="true"></i>
+                                    <i :class="['icon fa', education.icon]" aria-hidden="true"></i>
                                 </span>
                                 <div class="title">{{ education.title }}</div>
                                 <div class="text">{{ education.content }}</div>
@@ -196,16 +196,14 @@
                         <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
                         <div v-html="this.$static.datasetResearch.research3.content" class="text-white mb-3"></div>
                         <ul style="list-style-type: none; padding: 0">
-                            <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title">
+                            <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title" class="pb-2">
                                 <a
                                     :href="t.url"
                                     role="button"
                                     rel="noopener"
                                     target="_blank"
-                                    class="text-decoration-none"
-                                >
-                                    <div class="link">{{ t.title }}</div>
-                                </a>
+                                    class="mb-5 text-white small"
+                                >{{ t.title }}</a>
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
@@ -314,8 +312,8 @@ query {
         education {
             title,
             content,
-            url,
-            icon
+            icon,
+            url
         }
     }
 }
