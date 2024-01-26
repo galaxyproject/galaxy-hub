@@ -50,7 +50,10 @@
                                     class="icon fa far fa-arrow-circle-o-right iconXlarge pt-2"
                                     aria-hidden="true"
                                 ></span>
-                                <div class="title text-decoration">{{ education.title }}</div>
+                                <div class="title">
+                                    <span :class="['icon fa', education.icon]"></span>
+                                    <span class="pl-2 text-decoration">{{ education.title }}</span>
+                                </div>
                                 <div class="text text-decoration">{{ education.content }}</div>
                             </a>
                         </div>
@@ -257,6 +260,7 @@ query {
         education {
             title,
             content,
+            icon,
             url
         }
     }
