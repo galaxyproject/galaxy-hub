@@ -41,7 +41,7 @@ MAdLandDB is a protein database comprising of a comprehensive collection of full
 
 ### MAdLandDB releases   
 
-There have been several releases since MAdLand DB was hosted on [Galaxy](https://usegalaxy.eu/).  
+There have been several releases since MAdLandDB was hosted on [Galaxy](https://usegalaxy.eu/).  
 
 | DATE  | #RELEASE |  
 | ------------- | ------------- | 
@@ -51,6 +51,8 @@ There have been several releases since MAdLand DB was hosted on [Galaxy](https:/
 | 18 January 2024 | 4<sup>th</sup> release |
 
 
+### Confused on where to start? 
+Let this [tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/ncbi-blast-against-the-madland/tutorial.html) be your starting point, providing you with a straightforward path to follow.
 
 Want to know more about MAdLand, please visit [MAdLand](https://madland.science/movies.php)
 
