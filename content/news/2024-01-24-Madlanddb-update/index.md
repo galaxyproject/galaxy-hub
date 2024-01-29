@@ -41,7 +41,7 @@ MAdLandDB is a protein database comprising of a comprehensive collection of full
 
 ### MAdLandDB releases   
 
-There have been several releases since Madland DB was hosted on [Galaxy](https://usegalaxy.eu/).  
+There have been several releases since MAdLand DB was hosted on [Galaxy](https://usegalaxy.eu/).  
 
 | DATE  | #RELEASE |  
 | ------------- | ------------- | 
