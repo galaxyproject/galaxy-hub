@@ -252,7 +252,7 @@ opportunities to learn do how disseminate your tool.
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href =/events/gcc2024/training/tool-finding/>
-                <h2>Building New Galaxy Communities with Tools</h2>
+                <h2>Building New Galaxy Communities via Tools</h2>
                 <hr/>
                 <div class="my-5">
                     Learn how to build new Galaxy flavors and bring together new communities.
@@ -287,7 +287,7 @@ won't be disappointed.
                 <h2>Galaxy Frontend Development</h2>
                 <hr/>
                 <div class="my-5">
-                    Focused on CSS & A11y
+                    Focused on CSS & accessibility to improve the user experience.
                 </div>
             </a>
         </td>
@@ -296,7 +296,7 @@ won't be disappointed.
                 <h2>Galaxy Backend Development</h2>
                 <hr/>
                 <div class="my-5">
-                    The title also speaks for itself.
+                    Get familiar with the server-side development in Galaxy - mostly a Python-based shop.
                 </div>
             </a>
         </td>
@@ -304,7 +304,7 @@ won't be disappointed.
     <tr>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/automated-testing/>
-                <h2>Automated Testing</h2>
+                <h2>Working with Galaxy's Automated Testing</h2>
                 <hr/>
                 <div class="my-5">
                     Good software practices help create good software. Learn how to test your contributions
@@ -312,7 +312,7 @@ won't be disappointed.
                 </div>
             </a>
         </td>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0;  background-color: #F7F0F0;">
+        <td style="width: 45%; text-align: center; padding: 8px; border: 0;  background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/quantum-processing/>
                 <h2>Quantum Processing in Galaxy</h2>
                 <hr/>
