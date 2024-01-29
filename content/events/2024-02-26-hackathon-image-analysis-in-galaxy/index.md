@@ -13,7 +13,7 @@ subsites: [all]
 
 # General information
 
-- **Date**: Feb 26th - Mar 3rd 2024 (full week)
+- **Date**: Feb 26th - Mar 1st 2024 (full week)
 - **Format**: hybrid
 - **Location**: Seminar room at Georges-Köhler-Allee 79, 79110 Freiburg
 - **Time**: full day, 9/10am CEST to open end
@@ -26,7 +26,7 @@ This event addresses individuals interested in hacking Galaxy to improve analyzi
 
 Registration is free, but the space is limited, so we recommend to register soon. Please wait for our confirmation before booking your trip.
 
-Please note that we expect participants to cover their own travel and accommodation costs. If this is not possible, please let us know, and we will do our best to find a solution.
+If you have trouble covering for travel and accommodation, please contact us directly to discuss options.
 
 As this is a hybrid event, remote attendance is also possible (details in the registration).
 
