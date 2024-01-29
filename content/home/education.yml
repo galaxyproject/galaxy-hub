@@ -6,7 +6,7 @@ education:
 - title: Tutorials
   content: Access topic-based trainings for free.
   url: https://training.galaxyproject.org
-  icon: fa-solid fa-chalkboard-teacher
+  icon: fa-solid fa-graduation-cap
 
 - title: Videos
   content: Watch to learn, including conferences.
