@@ -18,7 +18,7 @@ subsites: [all]
 - **Location**: Seminar room at Georges-Köhler-Allee 79, 79110 Freiburg
 - **Time**: full day, 9/10am CEST to open end
 - **Cost**: Free
-- **Contact**: Beatriz Serrano-Solano ([beatriz.serrano.solano@eurobioimaging.eu](mailto:beatriz.serrano.solano@eurobioimaging.eu)), Yi Sun ([yi.sun@embl.de](mailto:yi.sun@embl.de), Björn Grüning ([gruening@informatik.uni-freiburg.de](mailto:gruening@informatik.uni-freiburg.de)
+- **Contact**: Beatriz Serrano-Solano, Yi Sun, Björn Grüning
 
 This event addresses individuals interested in hacking Galaxy to improve analyzing image data and is organized by [Euro-BioImaging](https://www.eurobioimaging.eu) and [NFDI4BIOIMAGE](https://nfdi4bioimage.de). 
 
@@ -38,13 +38,9 @@ As this is a hybrid event, remote attendance is also possible (details in the re
 
 Hacking is not restricted to onsite, we appreciate your participation from anywhere else, too. We provide a Zoom connection and involve a Meeting Owl to include you as close as possible.
 
-**Connection details for online attendance:**
+**For connection details please check the event's [agenda in this GDoc](https://docs.google.com/document/d/1pVToHXfwDLCkRZF0ifg9aVeT3cg-cjGEYWVSyIRd2hc/edit#heading=h.84pge7bu74zm)**
 
-https://embl-org.zoom.us/j/95969566635?pwd=czB1dHNxejVNbm90dlg2cmVSMnZsQT09 
-Meeting ID: 959 6956 6635
-Passcode: 167106
-
-# Agenda
+# Schedule
 
 Times to start for each day and the particular schedules are listed down below. All days do not have a fixed end time (onsite decision with the participants).
 
