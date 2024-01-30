@@ -8,16 +8,16 @@ The **Galaxy Project Management Office (PMO)** is an entity in the [Galaxy gover
   * Communicating relevant issues raised by other internal and external groups.
   * Communicating relevant activities to the community through news, blog posts and/or in the [Galaxy community calls](/community/community-calls).
 * **Open project corporate knowledge** by
-  * Standardizing and managing meeting arrangements, documentation of discussion and decisions from all project governance structures ([Executive Board](/community/exec), [GGSC](/community/steering), [Working Groups](/community/wg)).
+  * Standardizing and managing meeting arrangements, documentation of discussion and decisions from all project governance structures ([Executive Board](/community/governance/geb), [GGSC](/community/steering), [Working Groups](/community/wg)).
   * Curating meeting agendas, discussion, recording and action records.
-* Building **bridges between internal governance entities** by facilitating communication between different governance and community entities in the project ([Executive Board](/community/exec), [GGSC](/community/steering), [Working Groups](/community/wg)).
+* Building **bridges between internal governance entities** by facilitating communication between different governance and community entities in the project ([Executive Board](/community/governance/geb), [GGSC](/community/steering), [Working Groups](/community/wg)).
 
 The PMO is not aiming at managing grant resources or increasing the bureaucracy within the project.
 
 
 ## Specific Support to Governance Structures
 
-* Support the **[Galaxy Executive Board](/community/exec/)**
+* Support the **[Galaxy Executive Board](/community/governance/geb)**
   * Ensure a certain regularity in the meetings.
   * Gather concerns from the different entities and report to the Executive Board.
   * Support building an agenda for the meeting.

@@ -14,7 +14,9 @@ Welcome to the world of MAdLandDB – your go-to protein database for a comprehe
 
 <div class="col-sm-9",tyle="width: 80%">
 
+
 MAdLandDB is a protein database comprising of a comprehensive collection of fully sequenced plant and algal genomes, with a particular emphasis on non-seed plants and streptophyte algae. This database contains over 21 million sequences, representing more than 600 diverse group of species. Its scope extends to various organisms, including fungi, animals, the SAR group, bacteria, and archaea, fostering a platform for comprehensive comparative analysis.The database's unique species abbreviation system, using a 5-letter code, simplifies species identification. For instance, CHABR – <i>Chara braunii</i>, an example of how this nomenclature works. It contains non-redundant, reliable protein sequences utilizing [BLASTp](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.14.1+galaxy1) and [Diamond](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0) search functionalities on [Galaxy](https://usegalaxy.eu/) interface for comparative and evolutionary questions in plant biology
+
 
 </div>
 <div class="col-sm-2",style="width: 20%">
@@ -32,7 +34,9 @@ MAdLandDB is a protein database comprising of a comprehensive collection of full
 
 ### What Sets MAdLandDB Apart? 
 
+
 **Non-redundancy:** One of the database's primary strengths lies in its non-redundant nature. Sequence data is carefully curated, ensuring that you access only the most reliable genomic information.
+
 
 **Genome Project Origins:** MAdLandDB takes pride in sourcing its sequences predominantly from genome projects. This approach enhances the reliability of the data and provides a solid foundation for various comparative analyses.
 

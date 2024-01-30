@@ -4,6 +4,8 @@ autotoc: true
 title: "Small scale Galaxy Admins Community of Practice"
 ---
 
+<slot name="/community/sig/common_linkbox" />
+
 # Who are we?
 
 We are a group of admins who maintain a (small) (local) Galaxy server. Having grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/), our meetings are now taking place every two months. We discuss issues, problems, and of course solutions we encounter as maintainers of a non usegalaxy.* instance, which very often are very specific (and not covered by the Galaxy code base). We have different backgrounds and individual experiences. We do not have the same amount of time dedicated to administering our galaxy instance.
