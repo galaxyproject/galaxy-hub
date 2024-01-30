@@ -45,6 +45,7 @@ Hacking is not restricted to onsite, we appreciate your participation from anywh
 Times to start for each day and the particular schedules are listed down below. All days do not have a fixed end time (onsite decision with the participants).
 
 **Monday, February 26th**
+
 | Time | Topic |
 |---|---|
 | 10:00 | Welcome & Logistics |
@@ -52,11 +53,13 @@ Times to start for each day and the particular schedules are listed down below. 
 | 11:00 | Hacking! |
 
 **Tuesday-Thursday, February 27-29th**
+
 | Time | Topic |
 |---|---|
 | 9:30 | Hacking days - Stand-up meeting |
 
 **Friday, March 1st**
+
 | Time | Topic |
 |---|---|
 | 9:30 | Presentations of [Hackathon outcomes (GDoc)](https://docs.google.com/presentation/d/1saZiyLmS8q4-6BH2LGjxGtpeYLIZSqgoj2tZSGmkFyU/edit#slide=id.g28c070389ad_3_766)<br>and summary writing (to be published on forum.image.sc and others) |
@@ -70,7 +73,7 @@ Please, make sure that you read it before the event.
 
 ## Data protection policy
 
-Your data will be retained during the event and deleted when it has ended. If you would like to update or delete your data during the course of the project, please get in touch with the contact organisers.
+This event follows the data protection policy established by the University of Freiburg as the host of the event. For details please refer to https://uni-freiburg.de/en/data-protection-applications/
 
 # Supporters
 
