@@ -16,7 +16,7 @@ subsites: [all]
 - **Date**: Feb 26th - Mar 1st 2024 (full week)
 - **Format**: hybrid
 - **Location**: Seminar room at Georges-Köhler-Allee 79, 79110 Freiburg
-- **Time**: full day, 9/10am CEST to open end
+- **Time**: full day, 9/10am CET to open end
 - **Cost**: Free
 - **Contact**: Beatriz Serrano-Solano, Yi Sun, Björn Grüning
 
