@@ -4,38 +4,43 @@ title: Set up your own community
 
 <div class='right'><img src="/images/undraw-illustrations/mind_map.svg" alt="" width="240" /></div>
 
-There are already many existing professional groups within the Galaxy project: They are based on 
+There are already many existing professional groups within the Galaxy project. The members of these groups are organized according to: 
 
-- their [**region**](/community/#regional-communities) around the world - these are regional communities
-- their [**topics of interest**](https://galaxyproject.org/community/wg/), such as systems, back-end, user interface - these are working groups.
+- their [**topics of interest**](https://galaxyproject.org/community/wg/) which are in charge of the entire galaxy ecosystem such as code development & maintenance, user interface, etc., these groups are called **Working Groups**.
+- their [**region**](/community/#regional-communities) - these are communities which belong to a particular geographical region in the world
 - their [**domain of science**](/community/#communities-of-practice) - these are _communities of practice_ in different scientific domains
 
-The _communities of practice_ are usually referred to as [Special Interest Groups](/community/sig/) (SIG) and are focused on specific shared research domain interests. If you are involved in a specific research domain and want to learn from other colleagues and share your activities with them, **Special Interest Groups** are what you are looking for.
+The _communities of practice_ are usually referred to as [Special Interest Groups](/community/sig/) (SIG) and are focused on a specific research domain. If you are involved in a particular research topic and want to learn from other colleagues and share your activities with them, **Special Interest Groups** are what you are looking for.
 
 We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join a SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or don't feel identified with any of them, you can create your own community of practice!
 
-### Good to know before you start
+### Good to know before you start building a SIG
 
-The goal of building a new community is to establish a working environment related to your domain of expertise. You shall have an idea how you address the following issues :
+The goal of building a new community is to establish a working environment related to your domain of expertise. In the  process of creating and maintaing a SIG, regardless of your research domain, you will have to address the following issues:
 
-* Technical
-  * relevant tools and software
-  * special data formats and data management
-  * sharing and reproducibility of the computation and results
-  * obtaining the optimal resources for achieving the goals
+1. Identify the technical challenges you want to solve. They will be the main focus for your group and will determine the major part of its activities. Here is a very short list of potential requirements you may want to meet:
+   
+    * create relevant tools and software
+    * define special data formats
+    * manage big data (specific to your domain?)
+    * solve issues related to sharing and reproducibility of the computation and results
+    * obtain the optimal computational resources for achieving your goals
 
-* Organisational
-  * attracting new people and groups
-  * extending and sharing the acquired expertise
+2. Administer your group
+    
+    * Set up a group organization and nominate members responsible for SIG's activities and procedures
+    * Set up means of communication (mailing lists, chatting channels)
+      
+3. Propose possible ways to promote your experience and results in order to: 
 
-* Training
-  * setting up a training network for your domain (who in the SIG will be responsible for what)
-  * mainaining a training documentation (slides, hands-on, automation routines)
+    * attract new people and groups into your SIG
+    * extend and share the acquired expertise
+
+4. Organise a training process for all interested in your SIG's activites
+    
+    * set up a training network for your domain
+    * mainain a training documentation (slides, hands-on, automation routines)
  
-* Administrative
-  * Internal group organization
-  * Means of communication (mailing lists, chatting channels)
-
 Below you'll find a suggested path to follow before you can start your own community, a list of Do's and Don'ts and also useful links you should probably check out.
 
 ### Path 
