@@ -13,8 +13,8 @@ For the first GCC2024 Ecology oriented training session, we propose to give an o
 
 For the second GCC2024 Ecology oriented training session, we propose to focus on the compute and analysis of biodiversity metrics.
 
-## Meet the Trainers
+## Meet the Trainer
 
-### Yvan LeBras
+### Marie Josse
 
-French Museum of Natural History
+CRNS - Data Terra
