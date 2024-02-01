@@ -19,7 +19,7 @@ If setting up or running a production Galaxy service or creating your own person
 If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
 ```
-$ git clone -b release_22.05 https://github.com/galaxyproject/galaxy.git
+$ git clone -b release_23.1 https://github.com/galaxyproject/galaxy.git
 ```
 
 ### Updating existing
@@ -27,7 +27,7 @@ $ git clone -b release_22.05 https://github.com/galaxyproject/galaxy.git
 If you have an existing Galaxy repository and want to update it, run:
 
 ```
-$ git fetch origin && git checkout release_22.05 && git pull --ff-only origin release_22.05
+$ git fetch origin && git checkout release_23.1 && git pull --ff-only origin release_23.1
 ```
 
 

@@ -22,7 +22,7 @@ subtitle: The subdomains of the French Galaxy server
       <h2 class="card-title text-dark">ProteoRE</h2>
       <p class="card-text">Functional analysis and exploration of proteomics and transcriptomics data in biomedical research</p>
       <div class="text-center">
-        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/proteore.png" alt="ProteORE" height="100">
+        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/proteore.png" alt="ProteORE" height="100">
         <br><br><br>
           <a href="https://proteore.usegalaxy.fr/" class="btn btn-primary">ProteoRE</a>
       </div>
@@ -33,7 +33,7 @@ subtitle: The subdomains of the French Galaxy server
       <h2 class="card-title text-dark">Covid19</h2>
       <p class="card-text">Variant analysis, consensus using communuty approuved workflows and datasets</p>
       <div class="text-center">
-        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/covid19.png" alt="Covid19" height="100">
+        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/covid19.png" alt="Covid19" height="100">
         <br><br><br>
           <a href="https://covid19.usegalaxy.fr/" class="btn btn-primary">Covid19</a>
       </div>
@@ -46,7 +46,7 @@ subtitle: The subdomains of the French Galaxy server
       <h2 class="card-title text-dark">Metabarcoding</h2>
       <p class="card-text">With the following tools and pipelines : FROGS, Qiime, Mothur, Obitools, DADA2, PICRUSt</p>
       <div class="text-center">
-        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/metabarcoding.png" alt="Metabarcoding" height="100">
+        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/metabarcoding.png" alt="Metabarcoding" height="100">
         <br><br><br>
           <a href="https://metbarcoding.usegalaxy.fr/" class="btn btn-primary">Metabarcoding</a>
       </div>
@@ -63,23 +63,23 @@ subtitle: The subdomains of the French Galaxy server
       </div>
     </div>
   </div>
-  <!--div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h2 class="card-title text-dark">MNHN</h2>
       <p class="card-text">Tools from the French Muséum National d'Histoire Naturelle</p>
       <div class="text-center">
-        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/mnhn_sceau_epicea.png" alt="MNHN" height="100">
+        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/mnhn_small.png" alt="MNHN" height="100">
         <br><br><br>
           <a href="https://mnhn.usegalaxy.fr/" class="btn btn-primary">MNHN</a>
       </div>
     </div>
   </div>
-  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <!--div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Plants-Pathogens</h2>
       <p class="card-text">To address the needs of scientific & local communities, we offer customized Galaxy subdomains.</p>
       <div class="text-center">
-        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//images/covid19.png" alt="Plants-Pathogens" height="100">
+        <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/covid19.png" alt="Plants-Pathogens" height="100">
         <br><br><br>
           <a href="https://plants-pathongens.usegalaxy.fr/" class="btn btn-primary">Plants-Pathogens</a>
       </div>

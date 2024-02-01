@@ -17,16 +17,3 @@ Today, 21st of April 2023, a statement in support of peaceful, but resolved prot
 </div>
 
 -->
-
-<div class="alert" style="background: #FFD500;">
-
-#### **Peace to Ukraine!**
-
-🇺🇦 The **[list of laboratories][ua-table]** that can host Ukrainian scientists can be found here. Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]** | Список **[лабораторій][ua-table]** які можуть прийняти українських науковців усіх рівнів доступний тут. Galaxy Project має відкриті вакансії у своīх європейських та американських осередках. Пишіть нам на **[ukraine@galaxyproject.org][ua-mail]** | **[Cписок лабораторий][ua-table]**, которые могут принять украинских ученых доступен здесь. Galaxy Project имеет открытые позиции на своих европейских и американских сайтах. Контактируйте нас используя **[ukraine@galaxyproject.org][ua-mail]** 🇺🇦
-
-</div>
-
-[ua-table]: https://bit.ly/ua-table
-[ua-form]: https://bit.ly/ua-form
-[ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
-</div>

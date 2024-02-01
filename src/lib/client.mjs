@@ -59,10 +59,6 @@ export function addAltmetricsScript(window) {
     addScript(window, "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js");
 }
 
-export function addTwitterScript(window) {
-    addScript(window, "https://platform.twitter.com/widgets.js", { async: true, charset: "utf-8" });
-}
-
 export function addFlickrScript(window) {
     addScript(window, "https://embedr.flickr.com/assets/client-code.js", { async: true, charset: "utf-8" });
 }
