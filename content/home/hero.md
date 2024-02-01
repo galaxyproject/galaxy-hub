@@ -5,7 +5,7 @@ description: Meet Galaxy - <br>your companion <br>in data analysis
 image: <a href="/events/gcc2024/"><img src="/images/events/gcc2024/gcc2024-banner-4.png" alt="GCC2024"></a>
 button1: Use Galaxy now
 button2: Learn more
-buttonUrl2: /learn-more/
+buttonUrl2: /get-started/
 ---
 
 Galaxy is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more.
