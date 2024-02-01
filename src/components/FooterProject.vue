@@ -37,12 +37,7 @@
                     </ul>
                 </div>
                 <div class="row">
-                    <p style="font-size: 0.7rem; color: #a5a5a5">
-                        <i>usegalaxy.org</i> is supported by NIH and NSF Grants HG006620, 1661497, and 1929694.
-                        <i>usegalaxy.eu</i> is supported by the German Federal Ministry of Education and Research grant
-                        031L0101C and de.NBI-epi. <i>usegalaxy.org.au</i> is supported by Bioplatforms Australia and the
-                        Australian Research Data Commons.
-                    </p>
+                    <div v-html="citation" class="col citation" />
                 </div>
             </div>
         </div>
@@ -52,5 +47,8 @@
 <script>
 export default {
     name: "FooterProject",
+    props: {
+        citation: { type: String, required: true, default: "" },
+    },
 };
 </script>

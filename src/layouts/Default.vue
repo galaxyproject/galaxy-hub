@@ -9,7 +9,7 @@
         <main id="maincontainer" :class="showHomeNav() ? 'container-fluid-real p-0' : 'container'">
             <slot />
         </main>
-        <FooterProject v-if="showHomeNav()" />
+        <FooterProject v-if="showHomeNav()" :citation="footer.content" />
         <footer v-else-if="footer" class="static-footer">
             <div class="markdown container" v-html="footer.content" />
         </footer>
