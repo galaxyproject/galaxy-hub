@@ -4,13 +4,19 @@ title: Set up your own community
 
 <div class='right'><img src="/images/undraw-illustrations/mind_map.svg" alt="" width="240" /></div>
 
-There are many communities established within Galaxy. We call them [Special Interest Groups](/community/sig/). We have SIGs based for example on
-[**region**](/community/sig/#regional-communities) or [**domain of science**](/community/sig/#communities-of-practice) but
-if you feel like you just don't see your own or don't feel identified with them, you can create your own community!
+There are already many existing professional groups within the Galaxy project: They are based on 
 
-### Why shall you build your own community (SIG) ?
+- their [**region**](/community/#regional-communities) around the world - these are regional communities
+- their [**topics of interest**](https://galaxyproject.org/community/wg/), such as systems, back-end, user interface - these are working groups.
+- their [**domain of science**](/community/#communities-of-practice) - these are _communities of practice_ in different scientific domains
 
-The goal of building a new community is to establish a working environment related to your domain of expertise. Every community addresses issues like :
+The _communities of practice_ are usually referred to as [Special Interest Groups](/community/sig/) (SIG) and are focused on specific shared research domain interests. If you are involved in a specific research domain and want to learn from other colleagues and share your activities with them, **Special Interest Groups** are what you are looking for.
+
+We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join a SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or don't feel identified with any of them, you can create your own community of practice!
+
+### Good to know before you start
+
+The goal of building a new community is to establish a working environment related to your domain of expertise. You shall have an idea how you address the following issues :
 
 * Technical
   * relevant tools and software
@@ -23,7 +29,12 @@ The goal of building a new community is to establish a working environment relat
   * extending and sharing the acquired expertise
 
 * Training
-  * 
+  * setting up a training network for your domain (who in the SIG will be responsible for what)
+  * mainaining a training documentation (slides, hands-on, automation routines)
+ 
+* Administrative
+  * Internal group organization
+  * Means of communication (mailing lists, chatting channels)
 
 Below you'll find a suggested path to follow before you can start your own community, a list of Do's and Don'ts and also useful links you should probably check out.
 
