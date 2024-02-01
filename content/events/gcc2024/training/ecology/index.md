@@ -13,7 +13,7 @@ For the first GCC2024 Ecology oriented training session, we propose to give an o
 
 For the second GCC2024 Ecology oriented training session, we propose to focus on the compute and analysis of biodiversity metrics.
 
-## Meet the Trainer
+## Meet the Instructor
 
 ### Marie Josse
 
