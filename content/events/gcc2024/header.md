@@ -11,7 +11,6 @@
 [Abstracts](/events/gcc2024/abstracts/) |
 [Register](/events/gcc2024/register/) |
 [Schedule](/events/gcc2024/schedule/) |
-[Training](/events/gcc2024/training) |
 [CoFest](/events/gcc2024/cofest/) |
 [Training](/events/gcc2024/training/) |
 [Travel](/events/gcc2024/travel/) |
