@@ -5,7 +5,6 @@ autotoc: true
 <slot name="/events/gcc2024/header" />
 <div class="text-center lead">
 
-
 # Training opportunities at GCC2024
 
 GCC2024 will bring about an exciting set of educational sessions so you can
@@ -14,7 +13,6 @@ working in the similar space, and get answers for any questions you have by the
 top experts on the topic.
 
 </div>
-
 
 ## Trainings for newcomers
 
@@ -66,7 +64,6 @@ fits together, this is your starting point.
     </tr>
 </table>
 <hr/>
-
 
 ## Trainings for domain scientists
 
@@ -166,8 +163,8 @@ sessions:
     </tr>
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/mass-spec-proteomics>
-                <h2>Mass-Spec Imaging & Proteomics</h2>
+            <a href=/events/gcc2024/training/metaproteomics>
+                <h2>Clinical Metaproteomics Workflow</h2>
                 <hr/>
                 <div class="my-5">
                     Get your hands onto some metabolomics data!
@@ -177,7 +174,6 @@ sessions:
     </tr>
 </table>
 <hr/>
-
 
 ## Trainings for educators
 
@@ -209,7 +205,6 @@ workshops that will help you be more efficient and a share your knowledge better
     </tr>
 </table>
 <hr/>
-
 
 ## Trainings for tool developers
 
@@ -272,7 +267,6 @@ opportunities to learn do how disseminate your tool.
     </tr>
 </table>
 <hr/>
-
 
 ## Trainings for systems administrators and software engineers
 
