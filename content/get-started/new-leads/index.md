@@ -25,7 +25,7 @@ The goal of building a new community is to establish a working environment relat
     * create relevant tools and software
     * define special data formats
     * manage big data (specific to your domain?)
-    * solve issues related to sharing and reproducibility of the computation and results
+    * share and reproduce the processes and the results of your work
     * obtain the optimal computational resources for achieving your goals
 
 2. Administer your group
@@ -42,7 +42,8 @@ The goal of building a new community is to establish a working environment relat
     
     * set up a training network for your domain
     * mainain a training documentation (slides, hands-on, automation routines)
- 
+
+Please read the success stories at the bottom of the page. They are full of inspiring examples and solutions.
 
 ### What is _good to do_ before you start building a SIG - main (first) steps !
 
@@ -60,18 +61,25 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 #### Get involved
 - Introduce yourself and dive in our [Working Groups](/community/wg/)
 - Participate in our [worldwide Galaxy Events](/events/)
-- If you want to start your own [Special Interest Group](/community/sig/) we encourage you to read the [Galaxy Community Board](/community/governance/gcb/#creating-a-new-sig) page.
 
-### Do's and Don'ts 
+###  Important Do's and Don'ts in your path to a SIG creation
 
 <div class='right'><img src="/images/undraw-illustrations/questions.svg" alt="" width="180" /></div>
 
-This curated table was made with the help of Community member's experience in hope to avoid obstacles in your path to create your Community.
-
-| __DO__  | __DON'T__  |
+| __DO__ | __DON'T__  |
 |---|---|
 | Be patient! Take the time to learn the basics about Galaxy. | Hurry and dive in straight  to create without knowing a lot about Galaxy and its workarounds. |
+| Join the Galaxy [Matrix channel](https://matrix.org/docs/chat_basics/matrix-for-im/) and consult the [Galaxy help pages](https://help.galaxyproject.org/) | Spend hours or days to read and debug the galaxy code |
 | Ask if a tool for what you need already exists before starting to develop one. | Get hazy with all your tool's possible needs as there are many installed already that can be close to what you would like.|
 | Request your tool to be reviewed, avoid managing your repo alone! | Be a lone wolf. The main servers may not want to install your tool as they want to make sure it follows the [**standards**](https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) they have defined for developing tools. |
-| When you happen to need a tool: Make the tool -> write the training -> set up an event. Repeat events and take advantage of Galaxy’s infrastructure (Smorgasbord, CoFests, GCC, etc.) to improve your tool ,maximize its use and receive feedback from the community. | Set to create very specific tools and avoid feedback. |
+| When you happen to need a tool: Make the tool -> write the training -> set up an event. Repeat events and take advantage of Galaxy’s infrastructure (Smorgasbord, CoFests, GCC, etc.) to improve your tool, maximize its use and receive feedback from the community. | Set to create very specific tools and avoid feedback. |
 | Use already established servers. Asking for a subdomain within the [**usegalaxy.eu**](https://usegalaxy.eu/) server is a great option! |Set up a server all by yourself (consider resources, complexity, security issues and more).|
+
+### Some successful stories
+
+| __SIG__ | __How we did it__ |
+|---|---|
+| Biodiversity  |  [Link to text]() |
+| Climate | [Link to text]() |
+| Material Science | [Link to text]() |
+| Astrophysics | [Link to text]() |
