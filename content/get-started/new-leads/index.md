@@ -12,7 +12,9 @@ There are already many existing professional groups within the Galaxy project. T
 
 The _communities of practice_ are usually referred to as [Special Interest Groups](/community/sig/) (SIG) and are focused on a specific research domain. If you are involved in a particular research topic and want to learn from other colleagues and share your activities with them, **Special Interest Groups** are what you are looking for.
 
-We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join a SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or don't feel identified with any of them, you can create your own community of practice!
+We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join a SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or don't feel identified with any of them, you can create your own community of practice! 
+
+You are still wondering if and why you should start a new SIG? Find some answers [here](/community/governance/gcb/#why-make-a-sig)!
 
 ### What is _good to know_ before you start building a SIG - main challenges !
 
