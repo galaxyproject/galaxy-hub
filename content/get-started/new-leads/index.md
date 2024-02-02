@@ -6,7 +6,7 @@ title: Set up your own community
 
 There are already many existing professional groups within the Galaxy project. The members of these groups are organized according to: 
 
-- their [**topics of interest**](https://galaxyproject.org/community/wg/) which are in charge of the entire galaxy ecosystem such as code development & maintenance, user interface, etc., these groups are called **Working Groups**.
+- their [**topics of interest**](https://galaxyproject.org/community/wg/), these groups are called **Working Groups** and are in charge of the entire galaxy ecosystem such as code development & maintenance, user interface, etc.
 - their [**region**](/community/#regional-communities) - these are communities which belong to a particular geographical region in the world
 - their [**domain of science**](/community/#communities-of-practice) - these are _communities of practice_ in different scientific domains
 
@@ -14,11 +14,11 @@ The _communities of practice_ are usually referred to as [Special Interest Group
 
 We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join a SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or don't feel identified with any of them, you can create your own community of practice!
 
-### Good to know before you start building a SIG
+### What is _good to know_ before you start building a SIG - main challenges !
 
-The goal of building a new community is to establish a working environment related to your domain of expertise. In the  process of creating and maintaing a SIG, regardless of your research domain, you will have to address the following issues:
+The goal of building a new community is to establish a working environment related to your domain of expertise. In the  process of creating and maintaining a SIG, regardless of your research domain, you will need to address the following issues:
 
-1. Identify the technical challenges you want to solve. They will be the main focus for your group and will determine the major part of its activities. Here is a very short list of potential requirements you may want to meet:
+1. Identify the technical challenges you want to handle. They will be the main focus for your SIG and will determine the major part of its activities. Here is a very short list of potential requirements you may want to meet:
    
     * create relevant tools and software
     * define special data formats
@@ -28,26 +28,25 @@ The goal of building a new community is to establish a working environment relat
 
 2. Administer your group
     
-    * Set up a group organization and nominate members responsible for SIG's activities and procedures
     * Set up means of communication (mailing lists, chatting channels)
+    * Set up a group organization and nominate members responsible for SIG's routines (contact person, tool support person, etc.)
       
 3. Propose possible ways to promote your experience and results in order to: 
 
-    * attract new people and groups into your SIG
-    * extend and share the acquired expertise
+    * extend and share the acquired expertise by publishing your results
+    * attract new people into your SIG by identifying other groups who might benefit from your experience
 
-4. Organise a training process for all interested in your SIG's activites
+4. Organise a training process for all interested in your SIG activites
     
     * set up a training network for your domain
     * mainain a training documentation (slides, hands-on, automation routines)
  
-Below you'll find a suggested path to follow before you can start your own community, a list of Do's and Don'ts and also useful links you should probably check out.
 
-### Path 
+### What is _good to do_ before you start building a SIG - main (first) steps !
 
 #### Learn the basics about Galaxy
 
-First of all, you should start with our dedicated [**Get Started**](/get-started/) page to get a head-start of what Galaxy is about.
+First of all, you should start with our dedicated [**Get Started**](https://galaxyproject.org/get-started/) page to get a head-start of what Galaxy is about.
 You'll find all the necessary resources and you could even participate in the [**Galaxy Mentorship Network**](https://galaxy-mentor-network.netlify.app/)
 to get started with the help of a Galaxy Mentor.
 
