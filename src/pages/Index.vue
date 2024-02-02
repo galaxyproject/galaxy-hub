@@ -67,7 +67,10 @@
                     <div class="row">
                         <div class="col-xl-4">
                             <h2 :id="slugify($page.datasetEducation.heading)" class="education">
-                                <a :href="'#' + slugify($page.datasetEducation.heading)" :aria-label="slugify($page.datasetEducation.heading)">
+                                <a
+                                    :href="'#' + slugify($page.datasetEducation.heading)"
+                                    :aria-label="slugify($page.datasetEducation.heading)"
+                                >
                                     <span class="icon icon-link"></span>
                                 </a>
                                 {{ $page.datasetEducation.heading }}
@@ -105,7 +108,10 @@
         <div class="container mt-4">
             <div class="row">
                 <h2 :id="slugify(this.$static.datasetCallouts.heading)">
-                    <a :href="'#' + slugify(this.$static.datasetCallouts.heading)" :aria-label="slugify(this.$static.datasetCallouts.heading)">
+                    <a
+                        :href="'#' + slugify(this.$static.datasetCallouts.heading)"
+                        :aria-label="slugify(this.$static.datasetCallouts.heading)"
+                    >
                         <span class="icon icon-link"></span>
                     </a>
                     {{ this.$static.datasetCallouts.heading }}
@@ -155,7 +161,10 @@
             <div class="row">
                 <div class="col p-0">
                     <h2 :id="slugify(this.$static.datasetResearch.heading)" class="mt-4">
-                        <a :href="'#' + slugify(this.$static.datasetResearch.heading)" :aria-label="slugify(this.$static.datasetResearch.heading)">
+                        <a
+                            :href="'#' + slugify(this.$static.datasetResearch.heading)"
+                            :aria-label="slugify(this.$static.datasetResearch.heading)"
+                        >
                             <span class="icon icon-link"></span>
                         </a>
                         {{ this.$static.datasetResearch.heading }}
@@ -183,10 +192,20 @@
                             target="_blank"
                             >{{ p.title }}</a
                         >
-                        <a :href="this.$static.datasetResearch.research2.url" target="_blank" rel="noopener" class="text-white">
+                        <a
+                            :href="this.$static.datasetResearch.research2.url"
+                            target="_blank"
+                            rel="noopener"
+                            class="text-white"
+                        >
                             <h3>{{ this.$static.datasetResearch.research2.title }}</h3>
                         </a>
-                        <a :href="this.$static.datasetResearch.research2.url" target="_blank" rel="noopener" class="small text-white">
+                        <a
+                            :href="this.$static.datasetResearch.research2.url"
+                            target="_blank"
+                            rel="noopener"
+                            class="small text-white"
+                        >
                             <div v-html="this.$static.datasetResearch.research2.content"></div>
                         </a>
                     </div>
