@@ -183,10 +183,10 @@
                             target="_blank"
                             >{{ p.title }}</a
                         >
-                        <a :href="this.$static.datasetResearch.research2.url" class="text-white">
+                        <a :href="this.$static.datasetResearch.research2.url" target="_blank" rel="noopener" class="text-white">
                             <h3>{{ this.$static.datasetResearch.research2.title }}</h3>
                         </a>
-                        <a :href="this.$static.datasetResearch.research2.url" target="_blank" class="small text-white">
+                        <a :href="this.$static.datasetResearch.research2.url" target="_blank" rel="noopener" class="small text-white">
                             <div v-html="this.$static.datasetResearch.research2.content"></div>
                         </a>
                     </div>
@@ -356,7 +356,8 @@ query {
         },
         research2 {
             title,
-            content
+            content,
+            url
         },
         research3 {
             title,
