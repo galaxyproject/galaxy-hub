@@ -67,7 +67,7 @@
                     <div class="row">
                         <div class="col-xl-4">
                             <h2 :id="slugify($page.datasetEducation.heading)" class="education">
-                                <a :href="'#' + slugify($page.datasetEducation.heading)" aria-hidden="true">
+                                <a :href="'#' + slugify($page.datasetEducation.heading)" :aria-label="slugify($page.datasetEducation.heading)">
                                     <span class="icon icon-link"></span>
                                 </a>
                                 {{ $page.datasetEducation.heading }}
@@ -105,7 +105,7 @@
         <div class="container mt-4">
             <div class="row">
                 <h2 :id="slugify(this.$static.datasetCallouts.heading)">
-                    <a :href="'#' + slugify(this.$static.datasetCallouts.heading)" aria-hidden="true">
+                    <a :href="'#' + slugify(this.$static.datasetCallouts.heading)" :aria-label="slugify(this.$static.datasetCallouts.heading)">
                         <span class="icon icon-link"></span>
                     </a>
                     {{ this.$static.datasetCallouts.heading }}
@@ -155,7 +155,7 @@
             <div class="row">
                 <div class="col p-0">
                     <h2 :id="slugify(this.$static.datasetResearch.heading)" class="mt-4">
-                        <a :href="'#' + slugify(this.$static.datasetResearch.heading)" aria-hidden="true">
+                        <a :href="'#' + slugify(this.$static.datasetResearch.heading)" :aria-label="slugify(this.$static.datasetResearch.heading)">
                             <span class="icon icon-link"></span>
                         </a>
                         {{ this.$static.datasetResearch.heading }}
