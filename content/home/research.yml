@@ -23,7 +23,7 @@ research3:
   title: Popular tutorials
   content: "Choose from these self-paced tutorials to perform a comprehensive analysis or hone your skills on a specific topic."
   button:
-    title: Learn more
+    title: All tutorials
     url: "https://training.galaxyproject.org"
   links:
   - title: "Visualization of RNA-Seq results with Volcano Plot"
