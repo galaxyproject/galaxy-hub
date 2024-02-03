@@ -70,8 +70,10 @@
                                 <a
                                     :href="'#' + slugify($page.datasetEducation.heading)"
                                     :aria-label="slugify($page.datasetEducation.heading)"
+                                    aria-hidden="true"
+                                    tabindex="-1"
                                 >
-                                    <span class="icon icon-link"></span>
+                                    <span class="icon icon-link" tabindex="-1"></span>
                                 </a>
                                 {{ $page.datasetEducation.heading }}
                             </h2>
@@ -111,6 +113,8 @@
                     <a
                         :href="'#' + slugify(this.$static.datasetCallouts.heading)"
                         :aria-label="slugify(this.$static.datasetCallouts.heading)"
+                        aria-hidden="true"
+                        tabindex="-1"
                     >
                         <span class="icon icon-link"></span>
                     </a>
@@ -164,6 +168,8 @@
                         <a
                             :href="'#' + slugify(this.$static.datasetResearch.heading)"
                             :aria-label="slugify(this.$static.datasetResearch.heading)"
+                            aria-hidden="true"
+                            tabindex="-1"
                         >
                             <span class="icon icon-link"></span>
                         </a>
