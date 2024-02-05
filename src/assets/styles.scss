@@ -159,7 +159,7 @@ html {
         text-align: left;
         padding: 13px 20px;
         text-decoration: none !important;
-        border-radius: 10px;
+        border-radius: 7px;
         line-height: 1.4rem;
 
         &.education {
@@ -215,7 +215,7 @@ html {
             &:hover {
                 text-decoration: none !important;
             }
-            &.instance,
+            &.cdark,
             &.toolshed {
                 background-color: #0e1427;
                 &.btn:hover {
@@ -226,11 +226,11 @@ html {
                 }
             }
 
-            &.community {
+            &.clight {
                 background-color: $home-accent-bright;
             }
 
-            &.servers {
+            &.cbright {
                 position: relative;
 
                 &::before {
@@ -251,12 +251,17 @@ html {
         &.research {
             &.publications {
                 background: linear-gradient(155deg, #1d4068 44%, #1b62a4);
+                a:hover {
+                    text-decoration: none !important;
+                }
             }
 
             &.tutorials,
             .tutorials {
                 background: linear-gradient(155deg, #244f7f 24%, #1b62a4);
-
+                a:hover {
+                    text-decoration: none !important;
+                }
                 ul {
                     padding-left: 1.1rem;
                     li {

@@ -122,8 +122,8 @@
                 </h2>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-3">
-                    <div class="area callouts instance h-100">
+                <div class="col-md-6 mb-3">
+                    <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout1.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout1.content"></p>
@@ -131,7 +131,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-8 mb-3">
+                <div class="col-md-6 mb-3">
                     <div class="area callouts toolshed h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout2.title }}</h3>
@@ -142,8 +142,8 @@
             </div>
 
             <div class="row">
-                <div class="col-md-7 mb-3">
-                    <div class="area callouts community h-100">
+                <div class="col-md-4 mb-3">
+                    <div class="area callouts clight h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout3.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout3.content"></p>
@@ -151,11 +151,31 @@
                     </div>
                 </div>
 
-                <div class="col-md-5 mb-3">
-                    <div class="area callouts servers bgBrightest img h-100">
+                <div class="col-md-8 mb-3">
+                    <div class="area callouts cbright bgBrightest img h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout4.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout4.content"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7 mb-3">
+                    <div class="area callouts cdark h-100">
+                        <div class="text-white">
+                            <h3>{{ this.$static.datasetCallouts.callout5.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout5.content"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mb-3">
+                    <div class="area callouts cdark h-100">
+                        <div class="text-white">
+                            <h3>{{ this.$static.datasetCallouts.callout6.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout6.content"></p>
                         </div>
                     </div>
                 </div>
@@ -362,6 +382,14 @@ query {
             content
         },
         callout4 {
+            title,
+            content
+        },
+        callout5 {
+            title,
+            content
+        },
+        callout6 {
             title,
             content
         }

@@ -1,4 +1,4 @@
-heading: Grow with Galaxy
+heading: Galactic pulse
 
 research1:
   title: Recent publications
@@ -40,12 +40,12 @@ research4:
       title: Visit more
       url: "https://galaxyproject.org/events/"
   events:
-    - event: "Advances in Genome Biology and Technology (AGBT)"
-      date: "Feb 5, 2024"
     - event: "An Introduction to High-Performance Computing"
       date: "Feb 6, 2024"
     - event: "Materials Galaxy Community Meeting"
       date: "Feb 7, 2024"
+    - event: "Exploring the Galaxy application for data sciences"
+      date: "Feb 8, 2024"
 
 research5:
   title: "Research highlights"
