@@ -14,7 +14,7 @@ The _communities of practice_ are usually referred to as [Special Interest Group
 
 We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join an existing SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or you don't feel identified with any of them, you can create your own community of practice SIG! 
 
-You are still wondering if and why you should start a new SIG? Find some answers [here](/community/governance/gcb/#why-make-a-sig)!
+You are still wondering if and why you should start a new SIG? Find some arguments [here](/community/governance/gcb/#why-make-a-sig)!
 
 ### What is _good to know_ before you start building a SIG
 
@@ -42,7 +42,6 @@ The goal of building a new community is to establish a working environment relat
     
     * set up a [training network](https://training.galaxyproject.org/) for your domain
     * maintain a training documentation (slides, hands-on, automation routines)
-    * 
 
 ### What is _good to do_ before you start building a SIG
 
@@ -63,7 +62,7 @@ Galaxy has many tools already installed and ready to be used but when creating y
 Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) for writing [**Galaxy Tools**](https://toolshed.g2.bx.psu.edu/).
 
 #### Get involved
-- Introduce yourself and dive in our [Working Groups](/community/sig/)
+- Introduce yourself and dive in our [Special Interest Groups](/community/sig/)
 - Participate in our [worldwide Galaxy Events](/events/)
 
 
