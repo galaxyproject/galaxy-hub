@@ -16,7 +16,7 @@ We encourage you to look through the existing [Special Interest Groups](/communi
 
 You are still wondering if and why you should start a new SIG? Find some answers [here](/community/governance/gcb/#why-make-a-sig)!
 
-### What is _good to know_ before you start building a SIG - main challenges !
+### What is _good to know_ before you start building a SIG
 
 The goal of building a new community is to establish a working environment related to your domain of expertise. In the  process of creating and maintaining a SIG, regardless of your research domain, you will need to address the following issues:
 
@@ -44,7 +44,7 @@ The goal of building a new community is to establish a working environment relat
     * maintain a training documentation (slides, hands-on, automation routines)
     * 
 
-### What is _good to do_ before you start building a SIG - main (first) steps !
+### What is _good to do_ before you start building a SIG
 
 #### Learn the basics about Galaxy
 
