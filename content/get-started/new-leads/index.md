@@ -78,7 +78,7 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 
 
 
-###  Some recomendations in your path to a SIG creation
+###  Some useful recomendations
 
 <div class='right'><img src="/images/undraw-illustrations/questions.svg" alt="" width="180" /></div>
 
@@ -88,7 +88,7 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 | Join the Galaxy [Matrix channel](https://matrix.org/docs/chat_basics/matrix-for-im/) and consult the [Galaxy help pages](https://help.galaxyproject.org/) | Spend hours or days to read and debug the galaxy code |
 | Ask if a tool you need already exists before starting to develop one. | Get hazy with all your tool's possible needs as there are many installed already that can be close to what you would like.|
 | Request your tool to be reviewed, avoid managing your repo alone! | Be a lone wolf. The main servers may not want to install your tool as they want to make sure it follows the [**standards**](https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) they have defined for developing tools. |
-| When you happen to need a tool: Make the tool -> write the training -> set up an event. Repeat events and take advantage of Galaxy’s infrastructure ([Smorgasbord] (https://gallantries.github.io/video-library/events/smorgasbord3/) , [CoFests](https://galaxyproject.org/events/cofests/), [GCC](https://galaxyproject.org/gcc/), etc.) to improve your tool, maximize its use and receive feedback from the community. | Set to create very specific tools and avoid feedback. |
+| When you happen to need a tool: Make the tool -> write the training -> set up an event. Repeat events and take advantage of Galaxy’s infrastructure [Smorgasbord](https://gallantries.github.io/video-library/events/smorgasbord3/) , [CoFests](https://galaxyproject.org/events/cofests/), [GCC](https://galaxyproject.org/gcc/), etc. to improve your tool, maximize its use and receive feedback from the community. | Set to create very specific tools and avoid feedback. |
 | Use already established servers. Asking for a subdomain within the [**usegalaxy.eu**](https://usegalaxy.eu/) server is a great option! |Set up a server all by yourself (consider resources, complexity, security issues and more).|
 
 
