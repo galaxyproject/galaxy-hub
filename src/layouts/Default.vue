@@ -9,20 +9,17 @@
         <footer class="static-footer" v-if="footer">
             <div class="markdown container" v-html="footer.content" />
         </footer>
-        <Gitter :room="gitter" />
     </div>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar";
-import Gitter from "@/components/Gitter";
 import CONFIG from "~/../config.json";
 import { rmPrefix, rmSuffix } from "~/lib/utils.js";
 
 export default {
     components: {
         NavBar,
-        Gitter,
     },
     props: {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
@@ -34,9 +31,6 @@ export default {
                 classes.push(this.subsite);
             }
             return classes;
-        },
-        gitter() {
-            return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;
         },
         footer() {
             let footers = compileFooters(this.$static.footers.edges);
