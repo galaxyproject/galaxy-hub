@@ -55,7 +55,7 @@ to get started with the help of a Galaxy Mentor.
 #### Get acquainted with the Galaxy Training Network
 
 The Galaxy Training Network ([GTN](https://training.galaxyproject.org)) is collection of tutorials developed and maintained by the worldwide Galaxy community. 
-It will show you how various SIGs, e.g. **Climate**, **Metabolomics**, etc. have organized their work and training materials and how the SIGs can organize their events
+It will show you how various SIGs, e.g. **Climate**, **Metabolomics**, carry out their work, prepare training materials and organize their events
 
 #### Learn about Tool Development
 Galaxy has many tools already installed and ready to be used but when creating your community, you'll probably need specific tools for your Galaxy analysis. Don't worry, see our dedicated page for [**Tool Authors**](/tools/) where you'll find everything you'll need and also reach out to the [**Tools Working Group**](/community/wg/) via Gitter.
@@ -67,11 +67,9 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 - Participate in our [worldwide Galaxy Events](/events/)
 
 
-**_Please read the success stories below!! They are full of inspiring examples and solutions._**
+### Please read the success stories below! They are full of inspiring examples and solutions!
 
-### Some successful stories
-
-| __Special Interest Group__ | __How we did it__ |
+| __Special Interest Group__ | __Here is how they did it__ |
 |---|---|
 | Biodiversity  |  [Link to text]() |
 | Climate | [Link to text]() |
