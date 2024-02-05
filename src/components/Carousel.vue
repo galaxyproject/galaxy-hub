@@ -50,7 +50,7 @@
             </a>
             <a href="https://docs.galaxyproject.org/en/master/releases/23.2_announce_user.html" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/NewToGalaxy.jpeg
+                    img-src="/images/NewToGalaxy.jpeg"
                     img-alt="Galaxy 23.2 is live! A few updates and new features to highlight include new Workflow Comments, the integration of InvenioRDM, and improvements to Workflow Sharing."
                 ></b-carousel-slide>
             </a>
