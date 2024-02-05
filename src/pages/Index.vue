@@ -221,16 +221,14 @@
                         <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
                         <div v-html="this.$static.datasetResearch.research3.content" class="text-white mb-3"></div>
                         <ul style="list-style-type: none; padding: 0">
-                            <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title">
+                            <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title" class="pb-2">
                                 <a
                                     :href="t.url"
                                     role="button"
                                     rel="noopener"
                                     target="_blank"
-                                    class="text-decoration-none"
-                                >
-                                    <div class="link">{{ t.title }}</div>
-                                </a>
+                                    class="mb-5 text-white small"
+                                >{{ t.title }}</a>
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
@@ -339,8 +337,8 @@ query {
         education {
             title,
             content,
-            url,
-            icon
+            icon,
+            url
         }
     }
 }

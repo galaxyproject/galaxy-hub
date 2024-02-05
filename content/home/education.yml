@@ -5,40 +5,48 @@ content: From curated tools and workflows to self-paced tutorials available on t
 education:
 - title: Tutorials
   content: Access topic-based trainings for free.
+  icon: fas fa-graduation-cap
   url: https://training.galaxyproject.org
   icon: fa-solid fa-graduation-cap
 
 - title: Videos
   content: Watch to learn, including conferences.
+  icon: fas fa-play
   url: https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA
   icon: fa-regular fa-play-circle
 
 - title: Vetted workflows
   content: (Re)use or adapt quality workflows.
+  icon: fas fa-sitemap
   url: https://training.galaxyproject.org/training-material/workflows/list
   icon: fa-solid fa-sitemap
 
 - title: Blog
   content: Read highlights from the experts.
+  icon: fas fa-blog
   url: /blog/
   icon: fa-solid fa-comment
 
 - title: Data
   content: Pull data from popular repositories.
+  icon: fas fa-database
   url: https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html
   icon: fa-solid fa-database
 
 - title: Community
   content: Explore the world-wide community.
+  icon: fas fa-users
   url: https://galaxyproject.org/community/
   icon: fa-solid fa-user-friends
 
 - title: FAQ
   content: Common questions. Good answers.
+  icon: fas fa-question
   url: https://training.galaxyproject.org/training-material/faqs/index.html
   icon: fa-regular fa-question-circle
 
 - title: Help & support
   content: Advice is always available.
+  icon: fas fa-medkit
   url: https://help.galaxyproject.org/
   icon: fa-solid fa-hands-helping
