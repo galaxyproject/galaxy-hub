@@ -34,7 +34,7 @@ export default {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
     },
     computed: {
-        routePath(){
+        routePath() {
             return this.$route.path;
         },
         rootClasses() {
