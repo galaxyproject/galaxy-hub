@@ -7,12 +7,12 @@ title: Set up your own community
 There are already many existing professional groups within the Galaxy project. The members of these groups are organized according to: 
 
 - their [**topics of interest**](https://galaxyproject.org/community/wg/), these groups are called **Working Groups** and are in charge of the entire galaxy ecosystem such as code development & maintenance, user interface, etc.
-- their [**region**](/community/#regional-communities) - these are communities which belong to a particular geographical region in the world
+- their [**region**](/community/#regional-communities) - these are communities which belong to a particular geographical region in the world, e.g. France, Australia, etc.
 - their [**domain of science**](/community/#communities-of-practice) - these are _communities of practice_ in different scientific domains
 
 The _communities of practice_ are usually referred to as [Special Interest Groups](/community/sig/) (SIG) and are focused on a specific research domain. If you are involved in a particular research topic and want to learn from other colleagues and share your activities with them, **Special Interest Groups** are what you are looking for.
 
-We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join a SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or don't feel identified with any of them, you can create your own community of practice! 
+We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join an existing SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or you don't feel identified with any of them, you can create your own community of practice SIG! 
 
 You are still wondering if and why you should start a new SIG? Find some answers [here](/community/governance/gcb/#why-make-a-sig)!
 
@@ -20,27 +20,27 @@ You are still wondering if and why you should start a new SIG? Find some answers
 
 The goal of building a new community is to establish a working environment related to your domain of expertise. In the  process of creating and maintaining a SIG, regardless of your research domain, you will need to address the following issues:
 
-1. Identify the technical challenges you want to handle. They will be the main focus for your SIG and will determine the major part of its activities. Here is a very short list of potential requirements you may want to meet:
+1. Identify the technical challenges you want to handle. They will be the main focus for your SIG and will determine the major part of its activities. Here is a very _inexhaustive_ list of potential requirements you may want to meet:
    
     * create relevant tools and software
-    * define special data formats
+    * define and manage special data formats
     * manage big data (specific to your domain?)
     * share and reproduce the processes and the results of your work
     * obtain the optimal computational resources for achieving your goals
 
 2. Administer your group
     
-    * Set up means of communication (mailing lists, chatting channels)
+    * Set up means of communication (mailing lists, chat channels)
     * Set up a group organization and nominate members responsible for SIG's routines (contact person, tool support person, etc.)
       
-3. Propose possible ways to promote your experience and results in order to: 
+3. Publish your results and promote your experience in order to: 
 
-    * extend and share the acquired expertise by publishing your results
+    * extend and share the acquired expertise
     * attract new people into your SIG by identifying other groups who might benefit from your experience
 
 4. Organise a training process for all interested in your SIG activites
     
-    * set up a training network for your domain
+    * set up a [training network](https://training.galaxyproject.org/) for your domain
     * mainain a training documentation (slides, hands-on, automation routines)
 
 Please read the success stories at the bottom of the page. They are full of inspiring examples and solutions.
