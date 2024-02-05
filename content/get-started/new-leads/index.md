@@ -42,8 +42,7 @@ The goal of building a new community is to establish a working environment relat
     
     * set up a [training network](https://training.galaxyproject.org/) for your domain
     * maintain a training documentation (slides, hands-on, automation routines)
-
-Please read the success stories at the bottom of the page. They are full of inspiring examples and solutions.
+    * 
 
 ### What is _good to do_ before you start building a SIG - main (first) steps !
 
@@ -67,7 +66,21 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 - Introduce yourself and dive in our [Working Groups](/community/sig/)
 - Participate in our [worldwide Galaxy Events](/events/)
 
-###  Important Do's and Don'ts in your path to a SIG creation
+
+**_Please read the success stories below!! They are full of inspiring examples and solutions._**
+
+### Some successful stories
+
+| __Special Interest Group__ | __How we did it__ |
+|---|---|
+| Biodiversity  |  [Link to text]() |
+| Climate | [Link to text]() |
+| Material Science | [Link to text]() |
+| Astrophysics | [Link to text]() |
+
+
+
+###  Some recomendations in your path to a SIG creation
 
 <div class='right'><img src="/images/undraw-illustrations/questions.svg" alt="" width="180" /></div>
 
@@ -80,11 +93,4 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 | When you happen to need a tool: Make the tool -> write the training -> set up an event. Repeat events and take advantage of Galaxy’s infrastructure ([Smorgasbord] (https://gallantries.github.io/video-library/events/smorgasbord3/) , [CoFests](https://galaxyproject.org/events/cofests/), [GCC](https://galaxyproject.org/gcc/), etc.) to improve your tool, maximize its use and receive feedback from the community. | Set to create very specific tools and avoid feedback. |
 | Use already established servers. Asking for a subdomain within the [**usegalaxy.eu**](https://usegalaxy.eu/) server is a great option! |Set up a server all by yourself (consider resources, complexity, security issues and more).|
 
-### Some successful stories
 
-| __SIG__ | __How we did it__ |
-|---|---|
-| Biodiversity  |  [Link to text]() |
-| Climate | [Link to text]() |
-| Material Science | [Link to text]() |
-| Astrophysics | [Link to text]() |
