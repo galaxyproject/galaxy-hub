@@ -34,7 +34,6 @@
                     img-src="/images/ColabFold_coming soon.jpeg"
                     img-alt="ColabFold, a machine-learning model based on AlphaFold that is used for predicting the structure of proteins only using only a protein sequence as an input, will soon be available on Galaxy."
                 ></b-carousel-slide>
-            </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
                     img-src="/images/jxtx/jxtx-jumbotron.png"
