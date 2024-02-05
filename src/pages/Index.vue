@@ -228,7 +228,8 @@
                                     rel="noopener"
                                     target="_blank"
                                     class="mb-5 text-white small"
-                                >{{ t.title }}</a>
+                                    >{{ t.title }}</a
+                                >
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
@@ -307,7 +308,7 @@ export default {
             let galaxies = CONFIG.usegalaxy;
             let priority = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
-                1
+                1,
             );
             if (priority[0]) {
                 galaxies.splice(0, 0, priority[0]);
