@@ -127,6 +127,3 @@ Other metabolomics specialized Galaxy servers:
 <slot name="/eu/site-footer" />
 </footer>
 
-import Gitter from "@/components/Gitter";
-<Gitter room="usegalaxy-eu/Lobby" />
-
