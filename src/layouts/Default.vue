@@ -34,12 +34,15 @@ export default {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
     },
     computed: {
+        routePath(){
+            return this.$route.path;
+        },
         rootClasses() {
             let classes = ["layout"];
             if (this.subsite) {
                 classes.push(this.subsite);
             }
-            if (classes.includes("global") && window.location.pathname === "/") {
+            if (classes.includes("global") && this.routePath === "/") {
                 classes.push("layoutHome");
             }
             return classes;
@@ -55,7 +58,7 @@ export default {
     methods: {
         showHomeNav() {
             // return rootClasses.includes('global') && window.location.pathname === '/';
-            return window.location.pathname === "/";
+            return this.routePath === "/";
         },
     },
 };

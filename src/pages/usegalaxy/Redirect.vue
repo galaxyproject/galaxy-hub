@@ -31,8 +31,7 @@ export default {
             return CONFIG.usegalaxy;
         },
         getRedirectUrl() {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get("redirectUrl");
+            return this.$route.query.redirectUrl;
         },
     },
     data() {
