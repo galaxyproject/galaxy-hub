@@ -256,7 +256,7 @@ opportunities to learn do how disseminate your tool.
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
             <a href=/events/gcc2024/training/bioconda/>
-                <h2>Adding tools to Bioconda</h2>
+                <h2>BioConda and BioContainers</h2>
                 <hr/>
                 <div class="my-5">
                     Galaxy relies on thousands of tools in Bioconda - the biggest repository of bio tools
@@ -278,10 +278,10 @@ won't be disappointed.
     <tr>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
         <a href=/events/gcc2024/training/frontend-dev/>
-                <h2>Galaxy Frontend Development</h2>
+                <h2>CSS Deep Dive for Frontend Developers</h2>
                 <hr/>
                 <div class="my-5">
-                    Focused on CSS & accessibility to improve the user experience.
+                    Focused on CSS to improve the user experience.
                 </div>
             </a>
         </td>
