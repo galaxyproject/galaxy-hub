@@ -32,6 +32,3 @@ title: Galaxy Europe
 <footer>
 <slot name="/eu/site-footer" />
 </footer>
-
-import Gitter from "@/components/Gitter";
-<Gitter room="usegalaxy-eu/Lobby" />
