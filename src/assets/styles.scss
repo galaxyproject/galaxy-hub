@@ -258,7 +258,7 @@ html {
 
             &.tutorials,
             .tutorials {
-                background: linear-gradient(155deg, #244f7f 24%, #1b62a4);
+                background: linear-gradient(155deg, #244f7f 24%, #2d629f);
                 a:hover {
                     text-decoration: none !important;
                 }
@@ -280,7 +280,7 @@ html {
 
             &.events {
                 color: $white;
-                background: linear-gradient(155deg, #1b62a4 44%, #d6dbe0);
+                background: linear-gradient(155deg, #28588f 44%, #3676bf);
 
                 table {
                     tr {
@@ -291,7 +291,7 @@ html {
 
             &.cases {
                 color: $white;
-                background: linear-gradient(155deg, #1b62a4 45%, #d6dbe0);
+                background: linear-gradient(155deg, #28588f 45%, #3676bf);
             }
         }
     }

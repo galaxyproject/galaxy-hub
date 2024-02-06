@@ -18,7 +18,7 @@ callout4:
   content: Distribute different types of computational jobs across any infrastructure using <a href="https://pulsar.readthedocs.io/" target="_blank" rel="noopener">Pulsar</a> and <a href="https://total-perspective-vortex.readthedocs.io/" target="_blank" rel="noopener">TPV</a>.
 
 callout5:
-  title: Rapidly put your tools before 1,000 of users
+  title: Rapidly put your tools before 1,000s of users
   content: <a href="https://planemo.readthedocs.org/" target="_blank" rel="noopener">Planemo</a>, Galaxy's SDK, automates creation, testing, and deployment of tools, workflows, and interactive tutorials.
 
 callout6:
