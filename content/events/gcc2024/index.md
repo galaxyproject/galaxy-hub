@@ -35,10 +35,14 @@ subsites: [all]
     <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
         <strong>Sign up for announcements</strong>
     </a>
-    <!-- ◇
+    ◇
     <a href="/events/gcc2024/abstracts/" type="button" class="btn btn-primary">
-        <strong>Submit an abstracts</strong>
-    </a> -->
+        <strong>Submit an abstract</strong>
+    </a>
+    ◇
+    <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
+        <strong>Register</strong>
+    </a>
   </div>
 </div>
 
@@ -77,7 +81,7 @@ software that push the field of data science with Galaxy forward.
 Check out the **[abstracts page](/events/gcc2024/abstracts/)** for details on how to
 contribute to the program.
 
-Registration is still pending, but check back soon.
+[Registration](/events/gcc2024/register/) is open.
 
 The **[Key Dates page](/events/gcc2024/key-dates/)** has a list of deadlines to keep
 in mind. These tend to sneak up on you!
@@ -96,8 +100,6 @@ workshops that will be available at GCC2024. Attending trainings is a wonderful
 way to get practical experience on a topic in just a couple of hours, while also
 meeting people that can help you later.
 
-Also, **help shape the details of the training program** by filling out an
-[expression-of-interest form](https://forms.gle/NptKvFU6bq8B7ou39)!
 
 <!-- A **preview of the training topics** includes:
 
@@ -155,8 +157,7 @@ including the **[Mendel museum](https://mendelmuseum.muni.cz/en)**, the iconic
 stunning [Cathedral of St. Peter and
 Paul](https://www.gotobrno.cz/en/place/cathedral-of-st-peter-and-paul/).
 
-Brno is also a hub of education and innovation - including the GCC2024 host,
-[Masaryk University](https://www.muni.cz/en) - contributing to its dynamic and
+Brno is also a hub of education and innovation with a dynamic and
 lively atmosphere. With a thriving arts scene, numerous cafes, and a
 deep connection to Czech history, Brno is a city that seamlessly marries
 tradition with modernity, making it a fascinating destination for GCC2024
@@ -170,11 +171,12 @@ attendees.
     <img src="/images/events/gcc2024/europe-map.png" class="card-img-top" alt="Europe map" />
     <div class="card-header">Travel</div>
 
-Brno can be accessed via train from Vienna (~1.5hr) or Prague (~2.5hr). Grab a
-comfy seat and enjoy the scenery.
+Brno can be accessed via bus or train from Vienna (~2.5hr) or Prague (~2.5hr).
+Grab a comfy seat and enjoy the scenery.
 
-There will be a conference hotel with a discounted rate for GCC attendees,
-although that's still being worked on. To get most up-to-date travel news
+Discounted rooms are available for conference participants in the venue ([Hotel International](https://www.hotelinternational.cz/en/)) as well as in other hotels in Brno.
+Instructions for Hotel bookings are sent in the confirmation email after registering for the conference.
+To get most up-to-date travel news
 <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email">
 sign up for the GCC2024 Announce mailing list</a>.
 

@@ -13,17 +13,23 @@ gtn: true
 contact: Abdelazeem Abdelhameed
 subsites: [global, us]
 ---
-<div class='left'><img src="/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
+<div class='left'><img src="/community/sig/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
 
 ## INTRODUCTION
 
-Genomics is "an emerging medical discipline that involves using genomic information about an individual as part of their clinical care (e.g., for diagnostic or therapeutic decision-making). Already, genomic medicine is making an impact in the fields of oncology, pharmacology, rare and undiagnosed diseases, and infectious disease.
+Genomics is "an emerging medical discipline that involves using genomic information about an individual as part of their
+clinical care (e.g., for diagnostic or therapeutic decision-making). Already, genomic medicine is making an impact in the fields of oncology,
+pharmacology, rare and undiagnosed diseases, and infectious disease.
 
-Pharmacogenomics involves using an individual's genome to determine whether or not a particular therapy, or dose of therapy, will be effective. Currently, more than 100 FDA-approved drugs [fda.gov] have pharmacogenomics information in their labels, in diverse fields such as analgesics, antivirals, cardiovascular drugs, and anti-cancer therapeutics.
+Pharmacogenomics involves using an individual's genome to determine whether or not a particular therapy, or dose of therapy,
+will be effective. Currently, more than 100 FDA-approved drugs [fda.gov] have pharmacogenomics information in their labels,
+in diverse fields such as analgesics, antivirals, cardiovascular drugs, and anti-cancer therapeutics.
 
-DNA sequencing is being used to investigate infectious disease outbreaks, including Ebola virus, drug-resistant strains of Staphylococcus aureas and Klebsiella pneumoniae, as well as food poisoning following contamination with Escherichia coli.
+DNA sequencing is being used to investigate infectious disease outbreaks, including Ebola virus, drug-resistant strains of
+Staphylococcus aureas and Klebsiella pneumoniae, as well as food poisoning following contamination with Escherichia coli.
 
-Whole genome sequencing  or whole exome sequencing (where only the protein-coding exons within genes, rather than the entire genome, are sequenced), has been used to help doctors diagnose-and in some extraordinary cases to identify available treatments-in rare disease cases
+Whole genome sequencing  or whole exome sequencing (where only the protein-coding exons within genes, rather than the entire genome,
+are sequenced), has been used to help doctors diagnose-and in some extraordinary cases to identify available treatments-in rare disease cases
 
 Cancer Cell genome sequencing determine which combination of chemotherapy will be given to the patient.
 
@@ -39,7 +45,7 @@ Galaxy gives you large space on the web, however you can download it locally on 
 
 ## WHY SHOULD I ATTEND ?
 
-You will join our [Arabic Galaxy Community](/community/arabic/) which is the first one in the middle East and Africa.
+You will join our [Arabic Galaxy Community](/community/sig/arabic/) which is the first one in the middle East and Africa.
 
 * As a medical student it is important to have an introducation about the future of medicine, Genomics is entering all fields of medicine both Basic and clinical medicine involving all specialities not only clinical Genetics.
 * As a physician you will need to deal with genomic testing in the coming years as the technology becomes cheaper and more widely available.
@@ -51,7 +57,8 @@ You will receive a Certificate of Attendance for this Training.
 
 ## WHO SHOULD ATTEND ?
 
-Medical students, Medical doctors, Researchers in the field of Bioinformatics, Biochemists, Microbiologists, Phramcologists, Clinical Geneticists and anyone who has something to do with genomics or Genetics.
+Medical students, Medical doctors, Researchers in the field of Bioinformatics, Biochemists, Microbiologists, Phramcologists,
+Clinical Geneticists and anyone who has something to do with genomics or Genetics.
 
 ## When
 
@@ -77,9 +84,9 @@ Biochemistry department , Faculty of medicine ,Tanta University
 
 ## LINKS
 
-* For Reservation Contact : Abdelazeem_Abdelhameed2015505@yahoo.com
-* Website for Galaxy Project : galaxyproject.org
-* Announcement  for the Arabic Community Foundation : https://biostar.usegalaxy.org/p/20343/
-* Website for Galaxy arabic : https://galaxyproject.org/community/arabic/
-* Facebook : Galaxy Community Arabic(Group)
-* Twitter : @Galaxy_Arabic
+* For Reservation Contact: Abdelazeem_Abdelhameed2015505@yahoo.com
+* Website for Galaxy Project: galaxyproject.org
+* Announcement for the Arabic Community Foundation: https://biostar.usegalaxy.org/p/20343/
+* Website for Galaxy arabic: https://galaxyproject.org/community/sig/arabic/
+* Facebook: Galaxy Community Arabic(Group)
+* Twitter: @Galaxy_Arabic

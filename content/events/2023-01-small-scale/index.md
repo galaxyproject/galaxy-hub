@@ -11,16 +11,12 @@ tags: [training]
 subsites: [all-eu, global, us]
 ---
 
-
-
 Please <a href="https://fmi.zoom.us/j/98073380544?pwd=NnRFemhtWUJFeEhvRU5Wbk5TKzY5QT09">join us</a> 
 at 4 PM CET (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20230117T16&p1=1229&ah=1">see in your timezone</a>) 
 for a discussion about the future of this group and its meetings
 There will also be time to discuss any current problems you encounter as a maintainer of a Galaxy server.
 
-
-
 ---
 
-The Galaxy Small Scale Galaxy Admins group is a [community of practice](https://galaxyproject.org/community/practice/). It has grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/).
+The Galaxy Small Scale Galaxy Admins group is a [community of practice](/community/sig/#communities-of-practice). It has grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](/community/steering/).
 The meetings are taking place every two months. 

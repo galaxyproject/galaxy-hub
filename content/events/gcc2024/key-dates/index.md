@@ -13,7 +13,7 @@ understand and don't mind.
 
 | Date   | What |
 | -----: | ---  |
-| Jan 22 | [Early registration opens](/events/gcc2024/register/) |
+| Jan 17 | [Early registration opens](/events/gcc2024/register/) |
 | Mar 1  | [Early registration closes / Regular registration opens](/events/gcc2024/register/) |
 | Apr 15 | [Abstracts due for talks](/events/gcc2024/abstracts/) |
 | May 1  | Talk reviews returned |
