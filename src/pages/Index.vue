@@ -299,7 +299,7 @@
                                 <div
                                     v-for="t in this.$static.datasetResearch.research6.logos"
                                     :key="t.title"
-                                    class="text-center mt-4"
+                                    class="text-center mt-5"
                                 >
                                     <a :href="t.url" rel="noopener" target="_blank">
                                         <img :src="t.image" :alt="t.title" :width="t.width" />

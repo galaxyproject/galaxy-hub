@@ -40,12 +40,12 @@ research4:
       title: Visit more
       url: "https://galaxyproject.org/events/"
   events:
-    - event: "An Introduction to High-Performance Computing"
-      date: "Feb 6, 2024"
     - event: "Materials Galaxy Community Meeting"
       date: "Feb 7, 2024"
     - event: "Exploring the Galaxy application for data sciences"
       date: "Feb 8, 2024"
+    - event: "Hackathon Image Analysis in Galaxy"
+      date: "Feb 26, 2024"
 
 research5:
   title: "Research highlights"
@@ -58,9 +58,9 @@ research6:
     image: /images/vgp/vgp_logo_dark.svg
     width: "100%"
   - title: microGalaxy logo
-    url: /projects/microbial/
-    image: /images/microgalaxy/microgalaxy_logo.svg
-    width: "50%"
+    url: /projects/covid19/
+    image: /images/logos/gxy-covid.png
+    width: "100%"
   - title: MPXV logo
     url: /projects/mpxv/
     image: /images/mpxv/mpxv_logo.png
