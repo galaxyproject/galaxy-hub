@@ -39,9 +39,9 @@ $carousel-indicator-active-bg: $navbar-inverse-bg;
 $carousel-control-width: 5%;
 
 $home-body-bg: $brand-dark;
-$home-accent-brightest: #C2EFFF;
+$home-accent-brightest: #c2efff;
 $home-accent-brighter: #c2ebc2;
-$home-accent-bright: #F6F7F9;
+$home-accent-bright: #f6f7f9;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
@@ -84,6 +84,27 @@ html {
         margin: 20px 15px 20px 0;
         font-size: 1.2rem;
         border-radius: 5px;
+    }
+
+    nav#heroMaincontainer {
+        .container-fluid {
+            padding-left: 0;
+            justify-content: left;
+        }
+        div.nav div.dropdown:hover div.dropdown-menu {
+            display: block;
+            position: absolute;
+            border: 1px solid $black;
+            filter: drop-shadow(2px 2px 2px $gray);
+        }
+        .dropdown-menu.hero {
+            font-size: 1.3rem;
+            font-weight: 500;
+            a.dropdown-item:hover,
+            a.dropdown-item:focus {
+                color: $white;
+            }
+        }
     }
 
     h1 {
@@ -138,7 +159,7 @@ html {
         text-align: left;
         padding: 13px 20px;
         text-decoration: none !important;
-        border-radius: 10px;
+        border-radius: 7px;
         line-height: 1.4rem;
 
         &.education {
@@ -154,13 +175,14 @@ html {
             }
 
             a.btn {
-                min-width: 335px;
-                padding-left: 20px;
+                min-width: 355px;
+                padding-left: 18px;
+                border-width: 2px;
 
                 .title {
                     font-size: 1.7rem;
                     color: $black;
-                    text-decoration: underline;
+                    text-decoration: none;
                     font-weight: 400;
                 }
                 &.btn-outline-primary:hover .title {
@@ -172,6 +194,7 @@ html {
                     font-size: 0.9rem;
                     text-wrap: nowrap;
                     color: $black;
+                    text-decoration: none;
                     font-weight: 400;
                 }
 
@@ -181,8 +204,9 @@ html {
                 }
 
                 .iconXlarge {
-                    float: right !important;
-                    font-size: 50px;
+                    float: left !important;
+                    width: 50px;
+                    font-size: 40px;
                 }
             }
         }
@@ -191,7 +215,7 @@ html {
             &:hover {
                 text-decoration: none !important;
             }
-            &.instance,
+            &.cdark,
             &.toolshed {
                 background-color: #0e1427;
                 &.btn:hover {
@@ -202,11 +226,11 @@ html {
                 }
             }
 
-            &.community {
+            &.clight {
                 background-color: $home-accent-bright;
             }
 
-            &.servers {
+            &.cbright {
                 position: relative;
 
                 &::before {
@@ -226,13 +250,18 @@ html {
 
         &.research {
             &.publications {
-                background: linear-gradient(155deg, #1D4068 44%, #1B62A4);
+                background: linear-gradient(155deg, #1d4068 44%, #1b62a4);
+                a:hover {
+                    text-decoration: none !important;
+                }
             }
 
             &.tutorials,
             .tutorials {
-                background: linear-gradient(155deg, #244F7F 24%, #1B62A4);
-
+                background: linear-gradient(155deg, #244f7f 24%, #1b62a4);
+                a:hover {
+                    text-decoration: none !important;
+                }
                 ul {
                     padding-left: 1.1rem;
                     li {
@@ -251,7 +280,7 @@ html {
 
             &.events {
                 color: $white;
-                background: linear-gradient(155deg, #1B62A4 44%, #D6DBE0);
+                background: linear-gradient(155deg, #1b62a4 44%, #d6dbe0);
 
                 table {
                     tr {
@@ -262,19 +291,7 @@ html {
 
             &.cases {
                 color: $white;
-                background: linear-gradient(155deg, #1B62A4 45%, #D6DBE0);
-            }
-
-            a.mpxvLogo {
-                #mpxvLogo {
-                    text-align: center;
-                    .text {
-                        padding-top: 0.2rem;
-                        color: darken($brand-danger, 25%);
-                        font-size: 1.2rem;
-                        font-weight: 800;
-                    }
-                }
+                background: linear-gradient(155deg, #1b62a4 45%, #d6dbe0);
             }
         }
     }
@@ -304,6 +321,10 @@ html {
             & li a {
                 color: $white;
             }
+        }
+        .citation p {
+            font-size: 0.7rem;
+            color: #a5a5a5;
         }
     }
 }

@@ -10,7 +10,7 @@ education:
 
 - title: Videos
   content: Watch to learn, including conferences.
-  icon: fas fa-play
+  icon: far fa-play-circle
   url: https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA
 
 - title: Vetted workflows
@@ -20,7 +20,7 @@ education:
 
 - title: Blog
   content: Read highlights from the experts.
-  icon: fas fa-blog
+  icon: fas fa-comment
   url: /blog/
 
 - title: Data
@@ -30,15 +30,15 @@ education:
 
 - title: Community
   content: Explore the world-wide community.
-  icon: fas fa-users
+  icon: fas fa-user-friends
   url: https://galaxyproject.org/community/
 
 - title: FAQ
   content: Common questions. Good answers.
-  icon: fas fa-question
+  icon: far fa-question-circle
   url: https://training.galaxyproject.org/training-material/faqs/index.html
 
 - title: Help & support
   content: Advice is always available.
-  icon: fas fa-medkit
+  icon: fas fa-hands-helping
   url: https://help.galaxyproject.org/

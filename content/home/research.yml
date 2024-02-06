@@ -1,4 +1,4 @@
-heading: Grow with Galaxy
+heading: Galactic pulse
 
 research1:
   title: Recent publications
@@ -23,7 +23,7 @@ research3:
   title: Popular tutorials
   content: "Choose from these self-paced tutorials to perform a comprehensive analysis or hone your skills on a specific topic."
   button:
-    title: Learn more
+    title: All tutorials
     url: "https://training.galaxyproject.org"
   links:
   - title: "Visualization of RNA-Seq results with Volcano Plot"
@@ -40,15 +40,15 @@ research4:
       title: Visit more
       url: "https://galaxyproject.org/events/"
   events:
-    - event: "Advances in Genome Biology and Technology (AGBT)"
-      date: "Feb 5, 2024"
     - event: "An Introduction to High-Performance Computing"
       date: "Feb 6, 2024"
     - event: "Materials Galaxy Community Meeting"
       date: "Feb 7, 2024"
+    - event: "Exploring the Galaxy application for data sciences"
+      date: "Feb 8, 2024"
 
 research5:
-  title: "Exemplar use cases"
+  title: "Research highlights"
   content: "See how Galaxy cooperates and helps other projects. These are also great exemplars of how Galaxy is being used in production settings."
 
 research6:

@@ -10,6 +10,44 @@
                 <div class="col-lg-7 mb-4">
                     <h1 v-html="$page.hero.description" class="mb-3"></h1>
                     <p v-html="$page.hero.content" class="hero"></p>
+                    <nav class="navbar navbar-default p-0" id="heroMaincontainer">
+                        <div class="container-fluid">
+                            <div class="nav navbar-nav">
+                                <div v-if="prioritizedGalaxyLocales" class="dropdown show">
+                                    <a
+                                        :href="'/usegalaxy/redirect/?redirectUrl=' + prioritizedGalaxyLocales[0].url"
+                                        class="btn hero mr-3 bgBright dropdown-toggle"
+                                        role="button"
+                                        target="_blank"
+                                        id="dropdownMenuLink"
+                                        data-toggle="dropdown"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                    >
+                                        {{ $page.hero.button1 }}:
+                                        {{ prioritizedGalaxyLocales[0].locale }}
+                                    </a>
+                                    <div
+                                        v-if="prioritizedGalaxyLocales.length > 0"
+                                        class="dropdown-menu hero bgBright m-0 pb-0"
+                                        aria-labelledby="dropdownMenuLink"
+                                    >
+                                        <a
+                                            v-for="(site, i) in prioritizedGalaxyLocales.slice(1)"
+                                            :href="'/usegalaxy/redirect/?redirectUrl=' + site.url"
+                                            :key="i"
+                                            target="_blank"
+                                            class="dropdown-item"
+                                        >
+                                            {{ $page.hero.button1 }}:
+                                            {{ site.locale }}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a :href="$page.hero.buttonUrl2" class="btn hero bgBright">{{ $page.hero.button2 }}</a>
+                        </div>
+                    </nav>
                 </div>
                 <div class="col-lg-5">
                     <div v-html="$page.hero.image"></div>
@@ -29,8 +67,13 @@
                     <div class="row">
                         <div class="col-xl-4">
                             <h2 :id="slugify($page.datasetEducation.heading)" class="education">
-                                <a :href="'#' + slugify($page.datasetEducation.heading)" aria-hidden="true">
-                                    <span class="icon icon-link"></span>
+                                <a
+                                    :href="'#' + slugify($page.datasetEducation.heading)"
+                                    :aria-label="slugify($page.datasetEducation.heading)"
+                                    aria-hidden="true"
+                                    tabindex="-1"
+                                >
+                                    <span class="icon icon-link" tabindex="-1"></span>
                                 </a>
                                 {{ $page.datasetEducation.heading }}
                             </h2>
@@ -46,15 +89,11 @@
                                 target="_blank"
                                 class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
                             >
-                                <span
-                                    class="icon fa far fa-arrow-circle-o-right iconXlarge pt-2"
-                                    aria-hidden="true"
-                                ></span>
-                                <div class="title">
-                                    <span :class="['icon fa', education.icon]"></span>
-                                    <span class="pl-2 text-decoration">{{ education.title }}</span>
-                                </div>
-                                <div class="text text-decoration">{{ education.content }}</div>
+                                <span class="text-center iconXlarge pt-1 mr-3">
+                                    <i :class="'icon fa ' + education.icon + ' '" aria-hidden="true"></i>
+                                </span>
+                                <div class="title">{{ education.title }}</div>
+                                <div class="text">{{ education.content }}</div>
                             </a>
                         </div>
                     </div>
@@ -71,15 +110,20 @@
         <div class="container mt-4">
             <div class="row">
                 <h2 :id="slugify(this.$static.datasetCallouts.heading)">
-                    <a :href="'#' + slugify(this.$static.datasetCallouts.heading)" aria-hidden="true">
+                    <a
+                        :href="'#' + slugify(this.$static.datasetCallouts.heading)"
+                        :aria-label="slugify(this.$static.datasetCallouts.heading)"
+                        aria-hidden="true"
+                        tabindex="-1"
+                    >
                         <span class="icon icon-link"></span>
                     </a>
                     {{ this.$static.datasetCallouts.heading }}
                 </h2>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-3">
-                    <div class="area callouts instance h-100">
+                <div class="col-md-6 mb-3">
+                    <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout1.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout1.content"></p>
@@ -87,7 +131,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-8 mb-3">
+                <div class="col-md-6 mb-3">
                     <div class="area callouts toolshed h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout2.title }}</h3>
@@ -98,8 +142,8 @@
             </div>
 
             <div class="row">
-                <div class="col-md-7 mb-3">
-                    <div class="area callouts community h-100">
+                <div class="col-md-4 mb-3">
+                    <div class="area callouts clight h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout3.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout3.content"></p>
@@ -107,11 +151,31 @@
                     </div>
                 </div>
 
-                <div class="col-md-5 mb-3">
-                    <div class="area callouts servers bgBrightest img h-100">
+                <div class="col-md-8 mb-3">
+                    <div class="area callouts cbright bgBrightest img h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout4.title }}</h3>
                             <p v-html="this.$static.datasetCallouts.callout4.content"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7 mb-3">
+                    <div class="area callouts cdark h-100">
+                        <div class="text-white">
+                            <h3>{{ this.$static.datasetCallouts.callout5.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout5.content"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mb-3">
+                    <div class="area callouts cdark h-100">
+                        <div class="text-white">
+                            <h3>{{ this.$static.datasetCallouts.callout6.title }}</h3>
+                            <p v-html="this.$static.datasetCallouts.callout6.content"></p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +185,12 @@
             <div class="row">
                 <div class="col p-0">
                     <h2 :id="slugify(this.$static.datasetResearch.heading)" class="mt-4">
-                        <a :href="'#' + slugify(this.$static.datasetResearch.heading)" aria-hidden="true">
+                        <a
+                            :href="'#' + slugify(this.$static.datasetResearch.heading)"
+                            :aria-label="slugify(this.$static.datasetResearch.heading)"
+                            aria-hidden="true"
+                            tabindex="-1"
+                        >
                             <span class="icon icon-link"></span>
                         </a>
                         {{ this.$static.datasetResearch.heading }}
@@ -149,10 +218,20 @@
                             target="_blank"
                             >{{ p.title }}</a
                         >
-                        <a :href="this.$static.datasetResearch.research2.url" class="text-white">
+                        <a
+                            :href="this.$static.datasetResearch.research2.url"
+                            target="_blank"
+                            rel="noopener"
+                            class="text-white"
+                        >
                             <h3>{{ this.$static.datasetResearch.research2.title }}</h3>
                         </a>
-                        <a :href="this.$static.datasetResearch.research2.url" target="_blank" class="small text-white">
+                        <a
+                            :href="this.$static.datasetResearch.research2.url"
+                            target="_blank"
+                            rel="noopener"
+                            class="small text-white"
+                        >
                             <div v-html="this.$static.datasetResearch.research2.content"></div>
                         </a>
                     </div>
@@ -169,7 +248,8 @@
                                     rel="noopener"
                                     target="_blank"
                                     class="mb-5 text-white small"
-                                >{{ t.title }}</a>
+                                    >{{ t.title }}</a
+                                >
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
@@ -236,10 +316,25 @@
 
 <script>
 import slugify from "@sindresorhus/slugify";
+import CONFIG from "~/../config.json";
 
 export default {
     methods: {
         slugify,
+    },
+    computed: {
+        prioritizedGalaxyLocales() {
+            const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
+            let galaxies = CONFIG.usegalaxy;
+            let priority = galaxies.splice(
+                galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
+                1
+            );
+            if (priority[0]) {
+                galaxies.splice(0, 0, priority[0]);
+            }
+            return galaxies;
+        },
     },
 };
 </script>
@@ -251,6 +346,9 @@ query {
         notification,
         description,
         image,
+        button1,
+        button2,
+        buttonUrl2,
         content
     }
 
@@ -286,6 +384,14 @@ query {
         callout4 {
             title,
             content
+        },
+        callout5 {
+            title,
+            content
+        },
+        callout6 {
+            title,
+            content
         }
     }
 
@@ -302,7 +408,8 @@ query {
         },
         research2 {
             title,
-            content
+            content,
+            url
         },
         research3 {
             title,

@@ -1,18 +1,26 @@
-heading: "Go beyond being a user"
+heading: "Galaxy is more than you think"
 
 callout1:
-  title: Prefer a custom instance?
-  content: Galaxy can be installed locally, fine-tuned with a tailored toolset and no usage quotas. <div class="float-right mt-3 mb-0"><a href="/admin/" class="btn btn-lg btn-outline-light mr-3">Research options</a></div>
-
-callout2:
-  title: Need more tools?
-  content: The Galaxy ToolShed is a repository of thousands tools that have been integrated with Galaxy, and you can add your own for others to use as well.<div class="float-right pad mt-3 mb-0"><a href="/tools/" class="btn btn-lg btn-outline-light mr-3">Add new tools</a><a href="/toolshed/" class="btn btn-lg btn-info">Browse already integrated tools</a></div>
-
-callout3:
   title: Galaxy is a world-wide community.
-  content: There are over 500,000 registered Galaxy users from all over the world. Join this lively community to get help, contribute, and learn.<div class="float-right mt-3 mb-0"><a href="/community/" class="btn btn-lg btn-info mr-3">Explore the community</a></div>
+  content: There are over 500,000 registered Galaxy users from all over the world. Join this lively community to get help, contribute, and learn.<div class="float-right mt-3 mb-0"><a href="/community/" class="btn btn-lg btn-info mt-6 mr-3">Explore the community</a></div>
   url: /community/
 
+callout2:
+  title: Galaxy has 1,000s of tools
+  content: In partnership with <a href="https://bioconda.github.io/ target="_blank" rel="noopener">BioConda</a> and <a href="https://biocontainers.pro/ target="_blank" rel="noopener">BioContainers</a>, Galaxy provides instant access to vast number of analysis tools. <div class="float-right pad mt-4 mb-0"><a href="/toolshed/" class="btn btn-lg btn-info">Browse available tools</a></div>
+
+callout3:
+  title: Galaxy = workflows
+  content: Create complex workflows and deploy via <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html">UI</a> or <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html">CLI</a>.
+
 callout4:
-  title: Use Galaxy servers are global!
-  content: There are over a hundred public and free Galaxy servers available.<div class="float-right mt-3 mb-0"><a href="/use/" class="btn btn-lg btn-info mr-3">Find the one you need</a></div>
+  title: Galaxy is everything you need to leverage HPC and Clouds
+  content: Distribute different types of computational jobs across any infrastructure using <a href="https://pulsar.readthedocs.io/" target="_blank" rel="noopener">Pulsar</a> and <a href="https://total-perspective-vortex.readthedocs.io/" target="_blank" rel="noopener">TPV</a>.
+
+callout5:
+  title: Rapidly put your tools before 1,000 of users
+  content: <a href="https://planemo.readthedocs.org/" target="_blank" rel="noopener">Planemo</a>, Galaxy's SDK, automates creation, testing, and deployment of tools, workflows, and interactive tutorials.
+
+callout6:
+  title: Galaxy makes learning accessible
+  content: <a href="https://training.galaxyproject.org/">Galaxy Training Network</a> has 100s of community-vetted, hands-on tutorials on a variety of topics.
