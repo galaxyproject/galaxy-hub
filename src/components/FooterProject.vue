@@ -10,7 +10,6 @@
                     <ul class="col-md-3 text-sm-center text-md-left">
                         <li><a href="/community/">Community</a></li>
                         <li><a href="/community/practice/">Communities of Practice</a></li>
-                        <li><a href="/core-team/">Galaxy Core Team</a></li>
                         <li><a href="/careers/">Careers</a></li>
                         <li><a href="https://jxtxfoundation.org/">@jxtx</a></li>
                         <li><a href="/community/coc/">Code of Conduct</a></li>
