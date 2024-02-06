@@ -13,14 +13,12 @@
         <footer v-else-if="footer" class="static-footer">
             <div class="markdown container" v-html="footer.content" />
         </footer>
-        <Gitter :room="gitter" />
     </div>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar";
 import FooterProject from "@/components/FooterProject";
-import Gitter from "@/components/Gitter";
 import CONFIG from "~/../config.json";
 import { rmPrefix, rmSuffix } from "~/lib/utils.js";
 
@@ -28,7 +26,6 @@ export default {
     components: {
         NavBar,
         FooterProject,
-        Gitter,
     },
     props: {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
@@ -46,9 +43,6 @@ export default {
                 classes.push("layoutHome");
             }
             return classes;
-        },
-        gitter() {
-            return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;
         },
         footer() {
             let footers = compileFooters(this.$static.footers.edges);

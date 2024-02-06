@@ -59,53 +59,41 @@
         ],
         "all": {
             "global": {
-                "name": "Global",
-                "gitter": "galaxyproject/Lobby"
+                "name": "Global"
             },
             "us": {
-                "name": "US",
-                "gitter": "galaxyproject/Lobby"
+                "name": "US"
             },
             "eu": {
-                "name": "Europe",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "Europe"
             },
             "freiburg": {
-                "name": "Freiburg",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "Freiburg"
             },
             "erasmusmc": {
-                "name": "Erasmus MC",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "Erasmus MC"
             },
             "belgium": {
-                "name": "VIB",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "VIB"
             },
             "pasteur": {
-                "name": "Pasteur",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "Pasteur"
             },
             "genouest": {
-                "name": "GenOuest",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "GenOuest"
             },
             "elixir-it": {
-                "name": "ELIXIR-IT/Laniakea",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "ELIXIR-IT/Laniakea"
             },
             "ifb": {
-                "name": "ELIXIR-FR/IFB",
-                "gitter": "usegalaxy-eu/Lobby"
+                "name": "ELIXIR-FR/IFB"
             },
             "esg": {
                 "name": "EuroScienceGateway",
-                "gitter": "usegalaxy-eu/Lobby",
                 "custom": true
             },
             "au": {
                 "name": "Australia",
-                "gitter": "galaxyproject/Lobby",
                 "external": "https://site.usegalaxy.org.au"
             }
         }

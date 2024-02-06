@@ -20,10 +20,8 @@ right:
       contents:
           - label: The Galaxy Community
             target: "/community/"
-          - label: Regional communities
-            target: "/community/regional"
-          - label: Communities of Practice
-            target: "/community/practice"
+          - label: Special Interest Groups
+            target: "/community/sig/"
           - label: Blog
             target: "/blog/"
           - label: Governance
@@ -62,7 +60,5 @@ right:
             target: "/projects/mpxv/"
           - label: VGP
             target: "/projects/vgp/"
-          - label: Microbial
-            target: "/projects/microbial/"
     - label: "@jxtx"
       target: https://jxtxfoundation.org/

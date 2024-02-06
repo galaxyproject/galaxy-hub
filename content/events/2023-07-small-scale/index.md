@@ -21,7 +21,7 @@ for a discussion about general and current problems you encounter as a maintaine
 
 ---
 
-The Galaxy Small Scale Galaxy Admins group is a [community of practice](https://galaxyproject.org/community/practice/). It has grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/).
+The Galaxy Small Scale Galaxy Admins group is a [community of practice](/community/sig/#communities-of-practice). It has grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](/community/steering/).
 The meetings are taking place every two months. 
 
 

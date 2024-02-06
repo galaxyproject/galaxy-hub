@@ -88,7 +88,7 @@ A number of notable videos and video collections have recently been published:
 
 In December, Galaxy introduced [Working Groups](/community/wg/), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.*
 
-This month we are introducing the first draft of a [Galaxy Governance Model](/community/governance/) that includes Working Groups as a key component.  The model also includes the new [Galaxy Exec](/community/exec/), the [Global Galaxy Steering Committee](/community/steering/), and incorporates the longstanding [Committers Groups](/community/committers/).
+This month we are introducing the first draft of a [Galaxy Governance Model](/community/governance/) that includes Working Groups as a key component.  The model also includes the new [Galaxy Executive Board](/community/governance/geb/), the Global Galaxy Steering Committee, and incorporates the longstanding [Committers Groups](/community/committers/).
 
 Our hope is that this framework will enable us to become a truly global community.
 </div>
