@@ -4,13 +4,7 @@ title: Set up your own community
 
 <div class='right'><img src="/images/undraw-illustrations/mind_map.svg" alt="" width="240" /></div>
 
-There are already many existing professional groups within the Galaxy project. The members of these groups are organized according to: 
-
-- their [**topics of interest**](https://galaxyproject.org/community/wg/), these groups are called **Working Groups** and are in charge of the entire galaxy ecosystem such as code development & maintenance, user interface, etc.
-- their [**region**](/community/#regional-communities) - these are communities which belong to a particular geographical region in the world, e.g. France, Australia, etc.
-- their [**domain of science**](/community/#communities-of-practice) - these are _communities of practice_ in different scientific domains
-
-The _communities of practice_ are usually referred to as [Special Interest Groups](/community/sig/) (SIG) and are focused on a specific research domain. If you are involved in a particular research topic and want to learn from other colleagues and share your activities with them, **Special Interest Groups** are what you are looking for.
+There exist many scientific groups within the Galaxy project. The members of these groups are organized into _communities of practice_ - usually referred to as [Special Interest Groups](/community/sig/) (SIG).
 
 We encourage you to look through the existing [Special Interest Groups](/community/sig/) and find the one which is appropriate for your needs. You can always join an existing SIG and contribute to that community. However, if you don't find a SIG that fits your work, domain or region, or you don't feel identified with any of them, you can create your own community of practice SIG! 
 
@@ -18,7 +12,7 @@ You are still wondering if and why you should start a new SIG? Find some argumen
 
 ### What is _good to know_ before you start building a SIG
 
-The goal of building a new community is to establish a working environment related to your domain of expertise. In the  process of creating and maintaining a SIG, regardless of your research domain, you will need to address the following issues:
+The goal of building a new community is to establish a working environment related to your domain of expertise. In the process of creating and maintaining a SIG, regardless of your research domain, you will need to address the following issues:
 
 1. Identify the technical challenges you want to handle. They will be the main focus for your SIG and will determine the major part of its activities. Here is a very _inexhaustive_ list of potential requirements you may want to meet:
    
@@ -57,7 +51,7 @@ The Galaxy Training Network ([GTN](https://training.galaxyproject.org)) is colle
 It will show you how various SIGs, e.g. **Climate**, **Metabolomics**, carry out their work, prepare training materials and organize their events
 
 #### Learn about Tool Development
-Galaxy has many tools already installed and ready to be used but when creating your community, you'll probably need specific tools for your Galaxy analysis. Don't worry, see our dedicated page for [**Tool Authors**](/tools/) where you'll find everything you'll need and also reach out to the [**Tools Working Group**](/community/wg/) via Gitter.
+Galaxy has many tools already installed and ready to be used but when creating your community, you'll probably need specific tools for your Galaxy analysis. Don't worry, see our dedicated page for [**Tool Authors**](/tools/) where you'll find information about tool development.
 
 Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) for writing [**Galaxy Tools**](https://toolshed.g2.bx.psu.edu/).
 
