@@ -50,7 +50,7 @@ The Published Workflow Sharing page UI has been overhauled to make the page more
 
 Workflow Publishing now has a configurable iframe embed:
 
-![iframe embed with copy url button and options](23.2-pub-wf-iframe.png)
+![iframe embed with copy url button and options](23.2-wf-pub-iframe.png)
 
 ### Workflow reports
 
