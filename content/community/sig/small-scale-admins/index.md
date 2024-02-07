@@ -28,3 +28,9 @@ We intentionally do not have chat but if you have a emergency admin question, pl
 # Who are we looking for?
 
 Anyone who is maintaining a Galaxy server.
+
+
+# Contact people
+
+- SIG representative: [Hans-Rudolf Hotz](mailto:hansrudolf.hotz@fmi.ch) [@hrhotz](https://github.com/hrhotz)
+- Alternate: [Lucille Delisle](mailto:lucille.delisle@epfl.ch) [@lldelisle](https://github.com/lldelisle)
