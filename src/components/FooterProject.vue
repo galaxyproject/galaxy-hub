@@ -9,15 +9,16 @@
                     </div>
                     <ul class="col-md-3 text-sm-center text-md-left">
                         <li><a href="/community/">Community</a></li>
-                        <li><a href="/community/practice/">Communities of Practice</a></li>
+                        <li><a href="/community/sig/">Special Interest Groups</a></li>
+                        <li><a href="/gcc/">Galaxy Community Conferences</a></li>
                         <li><a href="/careers/">Careers</a></li>
-                        <li><a href="https://jxtxfoundation.org/">@jxtx</a></li>
+                        <li><a href="https://jxtxfoundation.org/">JXTX Foundation</a></li>
                         <li><a href="/community/coc/">Code of Conduct</a></li>
                     </ul>
                     <ul class="col-md-3 text-sm-center text-md-left">
+                        <li><a href="/community/wg/">Working Groups</a></li>
                         <li><a href="https://docs.galaxyproject.org/">API documentation</a></li>
                         <li><a href="/community/contributing/">Contributing</a></li>
-                        <li><a href="/gcc/">Galaxy Community Conferences</a></li>
                         <li><a href="/images/galaxy-logos/">Branding and logos</a></li>
                     </ul>
                     <ul class="col-md-2 text-sm-center text-md-left">
@@ -31,8 +32,9 @@
                         <li><a href="https://github.com/galaxyproject/">GitHub</a></li>
                         <li><a href="https://matrix.to/#/#galaxyproject_Lobby:gitter.im">Matrix</a></li>
                         <li><a href="https://www.youtube.com/@GalaxyProject">YouTube</a></li>
-                        <li><a href="https://mstdn.science/@galaxyproject">Mastodon</a></li>
                         <li><a href="https://www.linkedin.com/groups/4907635/">LinkedIn</a></li>
+                        <li><a href="https://bsky.app/profile/galaxyproject.bsky.social">Bluesky</a></li>
+                        <li><a href="https://mstdn.science/@galaxyproject">Mastodon</a></li>
                     </ul>
                 </div>
                 <div class="row">

@@ -273,7 +273,13 @@
                                         <div>{{ t.date }}</div>
                                     </td>
                                     <td>
-                                        <div>{{ t.event }}</div>
+                                        <a
+                                            :href="t.url"
+                                            rel="noopener"
+                                            target="_blank"
+                                            class="text-white text-decoration-none"
+                                            >{{ t.event }}</a
+                                        >
                                     </td>
                                 </tr>
                             </tbody>
@@ -432,7 +438,8 @@ query {
             },
             events {
                 event,
-                date
+                date,
+                url
             }
         },
         research5 {
