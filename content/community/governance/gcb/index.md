@@ -59,7 +59,7 @@ for ongoing recognition, easy to create and to dissolve, can be transient
   * A clear explanation of how individuals can join and maintain membership.
   * Details of access to the SIG’s communication channels.
   * A description of roadmap-related processes for gathering input from members.
-* Provide the current contact/email address for the nominated GCB representative, and to manage membership and internal communication for itself. 
+  * The current contact/email address for the nominated GCB representative, and to manage membership and internal communication for itself. 
 * Use at least one public Matrix channel under the Galaxy Matrix space.
 
 ### Creating a new SIG
