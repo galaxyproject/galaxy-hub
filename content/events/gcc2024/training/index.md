@@ -162,12 +162,21 @@ sessions:
         </td>
     </tr>
     <tr>
-        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
+        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
             <a href=/events/gcc2024/training/metaproteomics>
                 <h2>Clinical Metaproteomics Workflow</h2>
                 <hr/>
                 <div class="my-5">
                     Get your hands onto some metabolomics data!
+                </div>
+            </a>
+        </td>
+        <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
+            <a href=/events/gcc2024/training/vgp>
+                <h2>Genome Assembly with the VGP Workflows</h2>
+                <hr/>
+                <div class="my-5">
+                    Learn about the genome assembly workflows created with the Vertebrate Genome Project and how you can run them!
                 </div>
             </a>
         </td>
