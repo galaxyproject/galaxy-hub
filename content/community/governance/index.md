@@ -16,7 +16,7 @@ In support of this mission, project activities include maintaining source code, 
 ## Galaxy Technical Board (GTB)
 
 The [GTB](/community/governance/gtb/) is a governance structure representing [Galaxy Working Groups](/community/wg/) (WGs) that manage different aspects of the Galaxy Ecosystem.
-The Galaxy Working Groups and the [GTB](/community/governance/gtb/) is focussed on technical development, manage important project infrastructure assets, including source code. WGs are self-organised, and nominate a representative, which serves on the [TCB](/community/governance/gtb/).
+The Galaxy WGs and the [GTB](/community/governance/gtb/) are focussed on technical development and manage important project infrastructure assets, including source code. WGs are self-organised, and nominate a representative each, who serve on the [GTB](/community/governance/gtb/).
 The [GTB](/community/governance/gtb/) contributes to the roadmap, especially by providing technical input.
 
 Read more about [Galaxy Working Groups](/community/wg/).
