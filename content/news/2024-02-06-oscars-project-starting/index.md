@@ -8,7 +8,7 @@ subsites: [all-eu, esg]
 main_subsite: eu
 ---
 
-[OSCARS logo](/images/logos/OSCARS_logo.png)
+![OSCARS logo](/images/logos/OSCARS_logo.png)
 
 The [Albert-Ludwigs-University Freiburg](https://uni-freiburg.de) and the [Galaxy Team](https://usegalaxy-eu.github.io/people) are happy to announce the participation in the ["**O**pen **S**cience **C**lusters' **A**ction for **R**esearch & **S**ociety" (OSCARS)](https://oscars-project.eu/). With [EuroScienceGateway](https://www.eurosciencegateway.org) running in its second year now, OSCARS is an additional project from the [EOSC](https://digital-strategy.ec.europa.eu/en/policies/open-science-cloud) space to be involved in. Similar to EuroScienceGateway, this project offers the opportunity to foster connection to a variety communities beyond life sciences, underlining Galaxy being principally domain-agnostic. OSCARS is financed by the European Commission though the European Research Executive Agency‘s HORIZON-INFRA-2023-EOSC-01-01 funding line, under grant agreement number 101129751.
 
