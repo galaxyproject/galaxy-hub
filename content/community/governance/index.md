@@ -23,7 +23,7 @@ Read more about [Galaxy Working Groups](/community/wg/).
 
 ## Galaxy Community Board (GCB)
 
-The [GCB](/community/governance/gcb/) is a governance structure representing *[Special Interest Groups](/community/sig/)* that are not primarily technical in nature, such as existing
+The [GCB](/community/governance/gcb/) is a governance structure representing *[Special Interest Groups](/community/sig/)* (SIGs) that are not primarily technical in nature, such as existing
 Proteomics and Microbial communities, engaging in capacity building, toolkit development and training.
 The [GCB](/community/governance/gcb/) will provide a supportive virtual forum
 for the exchange of ideas. It will organise and manage its own agenda and work,
