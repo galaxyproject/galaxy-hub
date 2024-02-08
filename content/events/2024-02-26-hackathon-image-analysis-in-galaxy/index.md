@@ -81,5 +81,6 @@ This event follows the data protection policy established by the University of F
 
 ![logo Euro-BioImaging](/images/logos/eubi_logo.png)
 ![logo NFDI4BIOIMAGE](/images/logos/nfdi4bioimage.png)
+![logo de.NBI](/images/logos/deNBILogo.png)
 
 </div>
