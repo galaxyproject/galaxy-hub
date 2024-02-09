@@ -218,11 +218,17 @@ html {
                 &.cdark,
                 &.toolshed {
                     background-color: #0e1427;
+                    a.btn {
+                        color: $white;
+                    }
                     &.btn:hover {
                         background-color: #1b264b;
                     }
                     .pad {
                         padding-top: 2rem;
+                    }
+                    a {
+                        color: $home-accent-brightest;
                     }
                 }
 
