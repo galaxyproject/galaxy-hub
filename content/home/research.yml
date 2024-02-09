@@ -36,7 +36,7 @@ research3:
 
 research4:
   title: Upcoming events
-  url: "https://galaxyproject.org/events/"
+  url: "/events/"
   content: "The Galaxy community puts on a show every year with dozens of events around the world.<div class='mt-2'>Next up:</div>"
   button:
       title: Visit more

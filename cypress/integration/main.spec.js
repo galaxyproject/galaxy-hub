@@ -3,8 +3,8 @@ describe("Main Page Tests", () => {
         cy.visit("/");
     });
     it("Finds major categories", () => {
-        cy.get("h2 > a[href='/news/']").should("be.visible");
-        cy.get("h2 > a[href='/events/']").should("be.visible");
+        cy.get("a[href='https://training.galaxyproject.org'] > h3").should("be.visible");
+        cy.get("a[href='/events/'] > h3").should("be.visible");
     });
 });
 
