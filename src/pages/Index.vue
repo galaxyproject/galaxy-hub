@@ -84,7 +84,7 @@
                                 :href="education.url"
                                 v-for="(education, i) in $page.datasetEducation.education"
                                 :key="i"
-                                role="button"
+                                role="link"
                                 rel="noopener"
                                 target="_blank"
                                 class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
