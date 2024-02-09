@@ -21,6 +21,7 @@ research2:
 
 research3:
   title: Popular tutorials
+  url: "https://training.galaxyproject.org"
   content: "Choose from these self-paced tutorials to perform a comprehensive analysis or hone your skills on a specific topic."
   button:
     title: View all tutorials
@@ -35,6 +36,7 @@ research3:
 
 research4:
   title: Upcoming events
+  url: "https://galaxyproject.org/events/"
   content: "The Galaxy community puts on a show every year with dozens of events around the world.<div class='mt-2'>Next up:</div>"
   button:
       title: Visit more

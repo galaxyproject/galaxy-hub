@@ -238,7 +238,9 @@
                 </div>
                 <div class="col-xl-4 mb-3">
                     <div class="area research tutorials h-40">
-                        <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
+                        <a :href="this.$static.datasetResearch.research3.url">
+                            <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
+                        </a>
                         <div v-html="this.$static.datasetResearch.research3.content" class="text-white mb-3"></div>
                         <ul style="list-style-type: none; padding: 0">
                             <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title" class="pb-2">
@@ -264,7 +266,9 @@
                         </div>
                     </div>
                     <div class="area research events mt-3 h-40">
-                        <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        <a :href="this.$static.datasetResearch.research4.url">
+                            <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        </a>
                         <div v-html="this.$static.datasetResearch.research4.content" class="text-white mb-2"></div>
                         <table style="padding: 0">
                             <tbody>
@@ -420,6 +424,7 @@ query {
         research3 {
             title,
             content,
+            url,
             button {
                 title,
                 url
@@ -432,6 +437,7 @@ query {
         research4 {
             title,
             content,
+            url,
             button {
                 title,
                 url
