@@ -13,19 +13,17 @@ best practice data intensive analysis for all researchers.
 
 In support of this mission, project activities include maintaining source code, documentation, data analysis tools, training resources, analysis services, technical support, and an inclusive, self-governing community.
 
-## Galaxy Technical Board (TCB)
+## Galaxy Technical Board (GTB)
 
-The [TCB](/community/governance/gtb/) is a governance structure representing [Galaxy Working Groups](/community/wg/)(WGs) that manage
-different aspects of the Galaxy Ecosystem.
-The Galaxy Working Groups and the [TCB](/community/governance/gtb/) is focussed on technical development, manage important project infrastructure assets,
-including source code. WGs are self-organised, and nominate a representative, which serves on the [TCB](/community/governance/gtb/).
+The [GTB](/community/governance/gtb/) is a governance structure representing [Galaxy Working Groups](/community/wg/) (WGs) that manage different aspects of the Galaxy Ecosystem.
+The Galaxy WGs and the [GTB](/community/governance/gtb/) are focussed on technical development and manage important project infrastructure assets, including source code. WGs are self-organised, and nominate a representative each, who serve on the [GTB](/community/governance/gtb/).
 The [GTB](/community/governance/gtb/) contributes to the roadmap, especially by providing technical input.
 
 Read more about [Galaxy Working Groups](/community/wg/).
 
 ## Galaxy Community Board (GCB)
 
-The [GCB](/community/governance/gcb/) is a governance structure representing *[Special Interest Groups](/community/sig/)* that are not primarily technical in nature, such as existing
+The [GCB](/community/governance/gcb/) is a governance structure representing *[Special Interest Groups](/community/sig/)* (SIGs) that are not primarily technical in nature, such as existing
 Proteomics and Microbial communities, engaging in capacity building, toolkit development and training.
 The [GCB](/community/governance/gcb/) will provide a supportive virtual forum
 for the exchange of ideas. It will organise and manage its own agenda and work,
