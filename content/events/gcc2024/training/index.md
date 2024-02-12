@@ -134,11 +134,11 @@ sessions:
     </tr>
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/exposiomics>
+            <a href=/events/gcc2024/training/exposomics>
                 <h2>Exposomics Hands On</h2>
                 <hr/>
                 <div class="my-5">
-                    Get your hands onto some exposomic data!
+                    Learn how to process your mass spectrometry data to study the exposome!
                 </div>
             </a>
         </td>
