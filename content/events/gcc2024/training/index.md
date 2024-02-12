@@ -22,7 +22,7 @@ fits together, this is your starting point.
 <table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
     <tr>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/galaxy-101>
+            <a href="/events/gcc2024/training/galaxy-101">
                 <h2>Intro to Galaxy with Galaxy 101</h2>
                 <hr/>
                 <div class="my-5">
@@ -31,7 +31,7 @@ fits together, this is your starting point.
             </a>
         </td>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/intro-galaxy-admin>
+            <a href="/events/gcc2024/training/intro-galaxy-admin">
                 <h2>Intro to Galaxy Administration</h2>
                 <hr/>
                 <div class="my-5">
@@ -43,7 +43,7 @@ fits together, this is your starting point.
     </tr>
     <tr>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/intro-tool-dev>
+            <a href="/events/gcc2024/training/intro-tool-dev">
                 <h2>Intro to Tool Development</h2>
                 <hr/>
                 <div class="my-5">
@@ -52,7 +52,7 @@ fits together, this is your starting point.
             </a>
         </td>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/intro-galaxy-dev>
+            <a href="/events/gcc2024/training/intro-galaxy-dev">
                 <h2>Intro to Galaxy Development</h2>
                 <hr/>
                 <div class="my-5">
@@ -74,7 +74,7 @@ sessions:
 <table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/metabolomics>
+            <a href="/events/gcc2024/training/metabolomics">
                 <h2>Metabolomics, via MS Data Processing</h2>
                 <hr/>
                 <div class="my-5">
@@ -83,7 +83,7 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/single-cell>
+            <a href="/events/gcc2024/training/single-cell">
                 <h2>Leveraging Public Single Cell Data</h2>
                 <hr/>
                 <div class="my-5">
@@ -93,7 +93,7 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/assembly-annotation>
+            <a href="/events/gcc2024/training/assembly-annotation">
                 <h2>Assembly and Annotation</h2>
                 <hr/>
                 <div class="my-5">
@@ -104,7 +104,7 @@ sessions:
     </tr>
         <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/machine-learning>
+            <a href="/events/gcc2024/training/machine-learning">
                 <h2>Tools for Machine Learning</h2>
                 <hr/>
                 <div class="my-5">
@@ -114,7 +114,7 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/microbiome-analysis>
+            <a href="/events/gcc2024/training/microbiome-analysis">
                 <h2>Pathogen Detection from Sequencing Data</h2>
                 <hr/>
                 <div class="my-5">
@@ -123,7 +123,7 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/alphafold>
+            <a href="/events/gcc2024/training/alphafold">
                 <h2>Run Alphafold in Galaxy Now</h2>
                 <hr/>
                 <div class="my-5">
@@ -134,7 +134,7 @@ sessions:
     </tr>
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/exposomics>
+            <a href="/events/gcc2024/training/exposomics">
                 <h2>Exposomics Hands On</h2>
                 <hr/>
                 <div class="my-5">
@@ -143,7 +143,7 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/earth-systems>
+            <a href="/events/gcc2024/training/earth-systems">
                 <h2>Earth Systems</h2>
                 <hr/>
                 <div class="my-5">
@@ -152,7 +152,7 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/ecology>
+            <a href="/events/gcc2024/training/ecology">
                 <h2>Ecology</h2>
                 <hr/>
                 <div class="my-5">
@@ -163,7 +163,7 @@ sessions:
     </tr>
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/metaproteomics>
+            <a href="/events/gcc2024/training/metaproteomics">
                 <h2>Clinical Metaproteomics Workflow</h2>
                 <hr/>
                 <div class="my-5">
@@ -172,7 +172,7 @@ sessions:
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/vgp>
+            <a href="/events/gcc2024/training/vgp">
                 <h2>Genome Assembly with the VGP Workflows</h2>
                 <hr/>
                 <div class="my-5">
@@ -192,7 +192,7 @@ workshops that will help you be more efficient and a share your knowledge better
 <table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/teaching-gtn-tiaas>
+            <a href="/events/gcc2024/training/teaching-gtn-tiaas">
                 <h2>Teaching with Galaxy using the GTN and TIaas</h2>
                 <hr/>
                 <div class="my-5">
@@ -203,7 +203,7 @@ workshops that will help you be more efficient and a share your knowledge better
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/chatgxy>
+            <a href="/events/gcc2024/training/chatgxy">
                 <h2>chatGXY - a Galaxy-specific Chatbot for Getting Answers</h2>
                 <hr/>
                 <div class="my-5">
@@ -224,7 +224,7 @@ opportunities to learn do how disseminate your tool.
 <table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/advanced-interactive-tools>
+            <a href="/events/gcc2024/training/advanced-interactive-tools">
                 <h2>Advanced Tool Wrapping in Galaxy</h2>
                 <hr/>
                 <div class="my-5">
@@ -234,7 +234,7 @@ opportunities to learn do how disseminate your tool.
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/wf-dev>
+            <a href="/events/gcc2024/training/wf-dev">
                 <h2>Advanced Workflow Development</h2>
                 <hr/>
                 <div class="my-5">
@@ -243,7 +243,7 @@ opportunities to learn do how disseminate your tool.
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/interactive-viz>
+            <a href="/events/gcc2024/training/interactive-viz">
                 <h2>Interactive Visualizations</h2>
                 <hr/>
                 <div class="my-5">
@@ -255,7 +255,7 @@ opportunities to learn do how disseminate your tool.
     </tr>
     <tr>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href =/events/gcc2024/training/tool-finding>
+            <a href="/events/gcc2024/training/tool-finding">
                 <h2>Building New Galaxy Communities via Tools</h2>
                 <hr/>
                 <div class="my-5">
@@ -264,7 +264,7 @@ opportunities to learn do how disseminate your tool.
             </a>
         </td>
         <td style="width: 30%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/bioconda>
+            <a href="/events/gcc2024/training/bioconda">
                 <h2>BioConda and BioContainers</h2>
                 <hr/>
                 <div class="my-5">
@@ -286,7 +286,7 @@ won't be disappointed.
 <table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
     <tr>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-        <a href=/events/gcc2024/training/frontend-dev>
+        <a href="/events/gcc2024/training/frontend-dev">
                 <h2>CSS Deep Dive for Frontend Developers</h2>
                 <hr/>
                 <div class="my-5">
@@ -295,7 +295,7 @@ won't be disappointed.
             </a>
         </td>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0;  background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/backend-dev>
+            <a href="/events/gcc2024/training/backend-dev">
                 <h2>Galaxy Backend Development</h2>
                 <hr/>
                 <div class="my-5">
@@ -306,7 +306,7 @@ won't be disappointed.
     </tr>
     <tr>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-            <a href=/events/gcc2024/training/automated-testing>
+            <a href="/events/gcc2024/training/automated-testing">
                 <h2>Working with Galaxy's Automated Testing</h2>
                 <hr/>
                 <div class="my-5">
@@ -316,7 +316,7 @@ won't be disappointed.
             </a>
         </td>
         <td style="width: 45%; text-align: center; padding: 8px; border: 0;  background-color: #F7F0F0;">
-            <a href=/events/gcc2024/training/quantum-processing>
+            <a href="/events/gcc2024/training/quantum-processing">
                 <h2>Quantum Processing in Galaxy</h2>
                 <hr/>
                 <div class="my-5">
