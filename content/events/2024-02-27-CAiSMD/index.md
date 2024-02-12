@@ -10,14 +10,13 @@ gtn: true
 tags: [workshop, training]
 ---
 
-# Galaxy Meets Secondary Metabolite Discovery !
+# Galaxy Meets Secondary Metabolite Discovery!
 
 <div style="max-width: 400px">
 
-![CAiSMD](CAiSMD_Flyer-2024.png)
+![CAiSMD flyer](CAiSMD_Flyer-2024.png)
 
 </div>
-
 
 # Registration
 
