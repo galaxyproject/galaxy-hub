@@ -10,4 +10,15 @@ gtn: true
 tags: [workshop, training]
 ---
 
-Registration is still open! Apply [here](https://caismd.bharatyuva.org/index.php/caismd)
+# Galaxy Meets Secondary Metabolite Discovery !
+
+<div style="max-width: 400px">
+
+![CAiSMD](CAiSMD_Flyer-2024.png)
+
+</div>
+
+
+# Registration
+
+Registration is free and  is still open! Apply [here](https://caismd.bharatyuva.org/index.php/caismd)
