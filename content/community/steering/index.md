@@ -2,7 +2,7 @@
 
 <div class="alert alert-info float-center text-center trim-p">
 <br>
-The lobal Galaxy Steering Committee is superseded by <a href="/community/governance/gcb/">Galaxy Community Board</a>.
+The Global Galaxy Steering Committee is superseded by the <a href="/community/governance/gcb/">Galaxy Community Board</a>.
 <br>
 <br>
 </div>
