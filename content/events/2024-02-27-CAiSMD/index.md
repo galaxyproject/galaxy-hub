@@ -21,4 +21,4 @@ tags: [workshop, training]
 
 # Registration
 
-Registration is free and  is still open! Apply [here](https://caismd.bharatyuva.org/index.php/caismd)
+Registration is free and is still open! Apply [here](https://caismd.bharatyuva.org/index.php/caismd)
