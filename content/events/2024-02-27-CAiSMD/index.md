@@ -9,3 +9,15 @@ subsites: [all-eu]
 gtn: true
 tags: [workshop, training]
 ---
+
+# Galaxy Meets Secondary Metabolite Discovery!
+
+<div style="max-width: 400px">
+
+![CAiSMD flyer](CAiSMD_Flyer-2024.png)
+
+</div>
+
+# Registration
+
+Registration is free and is still open! Apply [here](https://caismd.bharatyuva.org/index.php/caismd)
