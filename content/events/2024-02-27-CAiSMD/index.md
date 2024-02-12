@@ -9,3 +9,5 @@ subsites: [all-eu]
 gtn: true
 tags: [workshop, training]
 ---
+
+Registration is still open! Apply [here](https://caismd.bharatyuva.org/index.php/caismd)
