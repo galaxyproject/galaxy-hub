@@ -1,4 +1,4 @@
-<div class="alert alert-success text-center trim-p">
+<div class="alert alert-success text-left trim-p">
 
 The GEB focuses on activities that require global coordination. This includes:
  - providing authoritative project-wide, external representation;
