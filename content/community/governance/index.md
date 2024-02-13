@@ -2,7 +2,7 @@
 
 <slot name="/community/governance/linkbox" />
 
-[Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in project governance structures are needed to help adapt to increasing complexity and to more fully engage the Galaxy Community. This is our first attempt.
+[Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Evolving project governance structures are needed to help adapt to increasing complexity and to more fully engage the Galaxy Community.
 
 Several community groups have been formed so that project governance truly reflects the global community that Galaxy has become.
 
@@ -15,16 +15,16 @@ In support of this mission, project activities include maintaining source code, 
 
 ## Galaxy Technical Board (GTB)
 
-The [GTB](/community/governance/gtb/) is a governance structure representing [Galaxy Working Groups](/community/wg/) (WGs) that manage different aspects of the Galaxy Ecosystem.
+The [GTB](/community/governance/gtb/) is a committee representing the [Galaxy Working Groups](/community/wg/) (WGs), which manage different aspects of the Galaxy Ecosystem.
 The Galaxy WGs and the [GTB](/community/governance/gtb/) are focussed on technical development and manage important project infrastructure assets, including source code. WGs are self-organised, and nominate a representative each, who serve on the [GTB](/community/governance/gtb/).
-The [GTB](/community/governance/gtb/) contributes to the roadmap, especially by providing technical input.
+The [GTB](/community/governance/gtb/) contributes to the project [roadmap](/roadmap), especially by providing technical input.
 
 Read more about [Galaxy Working Groups](/community/wg/).
 
 ## Galaxy Community Board (GCB)
 
-The [GCB](/community/governance/gcb/) is a governance structure representing *[Special Interest Groups](/community/sig/)* (SIGs) that are not primarily technical in nature, such as existing
-Proteomics and Microbial communities, engaging in capacity building, toolkit development and training.
+The [GCB](/community/governance/gcb/) is a committee representing *[Special Interest Groups](/community/sig/)* (SIGs) that are not primarily technical in nature (such as the existing
+Proteomics and Microbial communities), engaging in capacity building, toolkit development and training.
 The [GCB](/community/governance/gcb/) will provide a supportive virtual forum
 for the exchange of ideas. It will organise and manage its own agenda and work,
 including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development;
@@ -46,17 +46,13 @@ The [Project Management Office (PMO)](/community/pmo) supports the different bod
 
 # Code of Conduct
 
-**All of these groups, and all aspects of the Galaxy Community, are bound by the [Galaxy Code of Conduct](/community/coc/).**  Look for an update to that, and much more prominent placement across the Galaxy Ecosystem, sometime in 2021.
+**All of these groups, and all aspects of the Galaxy Community, are bound by the [Galaxy Code of Conduct](/community/coc/).**
 
 # Proposed Galaxy governance and planning structure
 
 **Proposed governance workflow:**
 
-* [Galaxy Executive Board](/community/governance/geb): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, Michael Schatz, Gareth Price, and Wendi Bacon.
-* [Galaxy Community Board](/community/governance/gcb): representatives from active Galaxy special interest groups.
-* [Galaxy Technical Board](/community/governance/gtb): representatives from Galaxy working groups.
-* Idea by Björn Grüning, Hans-Rudolf Hotz and others.
-
+Idea by Björn Grüning, Hans-Rudolf Hotz and others.
 
 In addition to their self-governance and collaboration, these boards interact with each other to build the annual Galaxy [roadmap](/roadmap/):
 
@@ -70,7 +66,3 @@ In addition to their self-governance and collaboration, these boards interact wi
    * A detailed roadmap is given to the [Galaxy Executive Board](/community/governance/geb) for the final decision (1 week).
 
 4. The [Galaxy Executive Board](/community/governance/geb) signs off the roadmap and publishes it on GitHub.
-
-
-
-
