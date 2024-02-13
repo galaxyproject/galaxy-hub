@@ -1,4 +1,5 @@
 <div class="alert alert-success float-middle text-center trim-p">
+## Mission Statement
 
 The [GEB](/community/governance/geb/) is the top-level community [governance](/community/governance/) structure, responsible for the overall direction and coordination of global [Galaxy Project](/) activities, to ensure coherence, efficiency, integrity, growth, and long term sustainability.
 
