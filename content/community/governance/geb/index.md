@@ -67,8 +67,8 @@ Galaxy Executive Board responsibilities include, but are not limited to:
  - Coordinate technical support for running the Smörgåsbord (eg, automatically validating tools and workflows are uniformly available on each usegalaxy.* service)
  - Build a Retention strategy to convert Smörgåsbord users into regular users
 
- **European Galaxy Days**
- - The GEB will collaborate with Galaxy Europe in helping organize and advertise the event, collecting feedback and ideas for future roadmap development.
+ **European Galaxy Days** and/or **US Galaxy Get-Together**
+ - The GEB will collaborate with Galaxy Europe or Galaxy US in helping organize and advertise the events, collecting feedback and ideas for future roadmap development.
 
  **Additional key events**
  - Maintain a shared calendar of major events worldwide
