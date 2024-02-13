@@ -25,7 +25,7 @@ Galaxy Executive Board responsibilities include, but are not limited to:
 
 ## 1. Ensure funding & program resources
 
- **Share and coordinate grant activities**
+### Share and coordinate grant activities**
  - Encourage sharing of grant text and resources
  - Identify and respond to project-wide needs
  - Coordinate global partnerships and initiatives
@@ -41,14 +41,16 @@ Galaxy Executive Board responsibilities include, but are not limited to:
 
 ## 2. Identify key technical developments
 
-**Prioritization to the technical roadmap**
+ **Prioritization to the technical roadmap**
  - This is perhaps the most valuable technical resource available within Galaxy as it influences major development activities, potentially spanning many months or years of effort
 
-**Oversee Working Group Structure and Processes**
+ **Oversee Working Group Structure and Processes**
  - Provide feedback and direction during working group updates
-**Encourage processes that promote global participation**
+
+ **Encourage processes that promote global participation**
  - Async reporting, scheduling meetings appropriate for multiple time zones
-**Partner with scientific communities to promote research and manage scientific debt**
+
+ **Partner with scientific communities to promote research and manage scientific debt**
 
 ## 3. Promote the project via conference and training events
 
