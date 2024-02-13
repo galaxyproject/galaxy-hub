@@ -25,68 +25,68 @@ Galaxy Executive Board responsibilities include, but are not limited to:
 
 ## 1. Ensure funding & program resources
 
-### Share and coordinate grant activities**
+### Share and coordinate grant activities
  - Encourage sharing of grant text and resources
  - Identify and respond to project-wide needs
  - Coordinate global partnerships and initiatives
 
- **Record and report Galaxy Metrics globally**
+### Record and report Galaxy Metrics globally
  - User metrics: numbers of users, compute metrics, etc
  - Scientific metrics: numbers of papers, numbers of grants, etc
  - Community metrics: number of trainings, number of contributors, etc
  - Resource metrics: supported datasets, number of tools
 
- **Defining membership in usegalaxy**
+### Defining membership in usegalaxy
  - Define requirements for other instances to join, e.g. compute resources, staffing, outreach, coordination, communication
 
 ## 2. Identify key technical developments
 
- **Prioritization to the technical roadmap**
+### Prioritization to the technical roadmap
  - This is perhaps the most valuable technical resource available within Galaxy as it influences major development activities, potentially spanning many months or years of effort
 
- **Oversee Working Group Structure and Processes**
+### Oversee Working Group Structure and Processes
  - Provide feedback and direction during working group updates
 
- **Encourage processes that promote global participation**
+### Encourage processes that promote global participation
  - Async reporting, scheduling meetings appropriate for multiple time zones
 
- **Partner with scientific communities to promote research and manage scientific debt**
+### Partner with scientific communities to promote research and manage scientific debt
 
 ## 3. Promote the project via conference and training events
 
-**Galaxy Community Conference**
+### Galaxy Community Conference
  - GCC is our single most valuable in person/hybrid event for bringing the Galaxy Community together
  - The GEB will evaluate and decide on host cities.
  - The GEB will also help support all aspect of the conference: overseeing development of the scientific program, promoting attendance, supporting conference logistics (scheduling, meals, travel, housing)
 
- **GTN Smörgåsbord**
+### GTN Smörgåsbord
  This is Galaxy's largest coordinated training event each year with thousands of worldwide participants and is a major source of new users.
  - The GEB will commit resources to updating tutorials and polishing the platform for running a successful event.
  - Coordinate technical support for running the Smörgåsbord (eg, automatically validating tools and workflows are uniformly available on each usegalaxy.* service)
  - Build a Retention strategy to convert Smörgåsbord users into regular users
 
- **European Galaxy Days** and/or **US Galaxy Get-Together**
+### European Galaxy Days and/or US Galaxy Get-Together
  - The GEB will collaborate with Galaxy Europe or Galaxy US in helping organize and advertise the events, collecting feedback and ideas for future roadmap development.
 
- **Additional key events**
+### Additional key events
  - Maintain a shared calendar of major events worldwide
  - Support participation and training at recurring events, including: Annual workshop at the Plant and Animal Genomes conference, the ELIXIR annual All Hands meeting, the International congress of genetics, and the European BioHackathon organized by ELIXIR in November.
 
 ## 4. Develop and enact both internal and external communications strategies
 
-**Maintain the Hub as the primary source of information for the project**
+### Maintain the Hub as the primary source of information for the project
  - Provide resources for maintaining the infrastructure necessary to publish the Hub website
  - Ensure key elements of success are publicized on the Hub, including an up-to-date list of working groups, major events, major successes
  - Maintain the [Galaxy wikipedia page](https://en.wikipedia.org/wiki/Galaxy_(computational_biology)) and other major descriptions of Galaxy
 
-**Encourage and help with writing and publishing scientific manuscripts**
+### Encourage and help with writing and publishing scientific manuscripts
 
-**Ensure Galaxy Newsletter & Reports are created and suitably distributed**
+### Ensure Galaxy Newsletter & Reports are created and suitably distributed
  - Coordinate generation of reports and community communications, including GCC meeting reports, release announcements, etc.
  - Coordinate creation of a [periodic community newsletter](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/)
  - Identify key contacts from the leadership group to “own” content from their region / domain
 
-**Prepare the biennial Web Server issue [NAR paper](/citing-galaxy/#primary-publication)**
+### Prepare the biennial Web Server issue [NAR paper](/citing-galaxy/#primary-publication)
 
 # Galaxy Executive Board Projects: 2023-2025
 
