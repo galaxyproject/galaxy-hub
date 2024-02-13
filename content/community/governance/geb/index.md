@@ -85,7 +85,7 @@ Galaxy Executive Board responsibilities include, but are not limited to:
 
 **Ensure Galaxy Newsletter & Reports are created and suitably distributed**
  - Coordinate generation of reports and community communications, including GCC meeting reports, release announcements, etc.
- - Coordinate creation of a periodic community newsletter
+ - Coordinate creation of a [periodic community newsletter](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/)
  - Identify key contacts from the leadership group to “own” content from their region / domain
 
 **Prepare the biennial Web Server issue [NAR paper](/citing-galaxy/#primary-publication)**
