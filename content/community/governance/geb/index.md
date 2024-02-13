@@ -5,18 +5,36 @@ autotoc: false
 
 **Keywords:** Strategic emphasis, long term planning and direction
 
-The [GEB](/community/governance/geb/) is a group of principal investigators from around the world, tasked with [coordinating the direction](/community/governance/) of the [Galaxy Project](/).
-
-The Galaxy Executive Board was formed at the _Galaxy Directions Summit_ in 2019, which gathered together ~20 PIs from around the world. Initially,
-all Executive members led large grants that have Galaxy as a core component.
-
 ## Mission Statement
+The [GEB](/community/governance/geb/) is the top-level community [governance](/community/governance/) structure, responsible for the overall direction and coordination of [Galaxy Project](/) activities, to ensure coherence, efficiency, integrity, growth, and long term sustainability.
+ {: .alert.alert-success}
 
-The Galaxy Executive Board is the top-level community governance structure, responsible for the overall direction and coordination of project activities, to ensure coherence, efficiency, integrity, growth, and long term sustainability.
+These activities are executed in partnership with:
+ - the technical and community boards, representing the [Galaxy working groups]() and [Galaxy special interest groups](), respectively;
+ - the [GCC] organising committee;
+ - individual PIs;
+ who work together to fulfill [Galaxy Community goals](/community/).
 
-Board responsibilities include providing authoritative project-wide, external representation; leadership in scientific, technical, governance and community development goals; supporting communication and global activity coordination for efficient use of resources and timely completion of milestones; and arbitration among collaborators, users and communities.
+https://galaxyproject.org/community/wg/
+https://galaxyproject.org/community/sig/
+
+https://galaxyproject.org/gcc/
+
+# Responsibilities
+
+Board tasks include:
+ - providing authoritative project-wide, external representation;
+ - leadership in scientific, technical, governance and community development goals;
+ - supporting communication and global activity coordination for efficient use of resources and timely completion of milestones;
+ - and arbitration among collaborators, users and communities.
+
+
+
+
 
 ## Members
+
+The GEB is a group of Galaxy advocates from around the world, focusing on activities that require [global coordination](/community/governance/).
 
 * **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
     * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
