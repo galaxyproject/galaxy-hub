@@ -64,10 +64,10 @@ Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.rea
 
 | __Special Interest Group__ | __Here is how they did it__ |
 |---|---|
-| Biodiversity  |  [the story](/get-started/new-leads/succesful-stories/biodiversity) |
-| Climate | [the story](/get-started/new-leads/succesful-stories/climate) |
-| Material Science | [the story](/get-started/new-leads/succesful-stories/materials-science)|
-| Astrophysics | [the story](/get-started/new-leads/succesful-stories/astrophysics) |
+| Biodiversity  |  [the story](/get-started/new-leads/succesful-stories/biodiversity.md) |
+| Climate | [the story](/get-started/new-leads/succesful-stories/climate.md) |
+| Material Science | [the story](/get-started/new-leads/succesful-stories/materials-science.md)|
+| Astrophysics | [the story](/get-started/new-leads/succesful-stories/astrophysics.md) |
 
 
 
