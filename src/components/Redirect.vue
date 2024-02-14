@@ -54,7 +54,8 @@ function doRedirect(destUrl, currentPath, cancelled) {
     if (cancelled) {
         console.log("Redirect cancelled.");
     } else if (currentPath === undefined || window.location.pathname === currentPath) {
-        window.location.href = destUrl;
+        // window.location.href = destUrl;
+        window.parent.location = destUrl;
     } else {
         // Cancel redirect if the user has navigated away already.
         console.log(`Skipping redirect: user navigated away from ${currentPath}`);
