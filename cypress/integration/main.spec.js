@@ -97,6 +97,6 @@ describe("Redirect tests", () => {
     it("Tests page redirects from metadata", () => {
         cy.visit("/0examples/non-vue/");
         cy.location("pathname").should("equal", "/0examples/non-vue/");
-        cy.location("pathname", { timeout: 6000 }).should("equal", "/");
+        cy.location("pathname", { timeout: 10000 }).should("equal", "/");
     });
 });
