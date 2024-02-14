@@ -56,63 +56,64 @@ The workflows that we are processing using Galaxy are connected to:
 
 Currently, most of the catalysis community performs (b) using a set of desk-based tools, which have names such as DAWN, ATHENA, ARTEMIS AND FEFF, and can be downloaded with the DEMETER package.  These tools are connected in a workflow shown in the flow diagram below:  
 
-
+DIAG 1
 
 To move this workflow into Galaxy, we have broken-up the process into four associated prototype Galaxy tools that can be linked into an equivalent workflow.  The picture below shows the names of the tools and what part of the workflow each tool represents.  For instance, Larch Athena, is used for processing and normalizing the raw data coming from the instrument.
 
-
+DIAG 2
 
 We are now testing these tools and workflow by trying to reproduce a set of published XAS results for catalysis. 
 
-Our setup (technical file)
+### Our setup (technical file)
 
-Setup
+#### Setup
 Galaxy server: 4 core VM, CentOS 7 (dev and prod)
 Job runner: 12 core VM, Rocky 8 (dev and prod)
 Monitoring: 2 core VM, Rocky 8 (dev and prod)
 Storage: 2 core VM, Rocky 8 (shared between dev and prod)
 
-Authentication
+#### Authentication
 Local authentication currently in use. LDAP in use for other services onsite (federated)
 
-Job configuration
+#### Job configuration
 HPC (Slurm) exists onsite, have considered integration but not actively working towards this yet
 
 All jobs use Slurm, with “Galaxy server” acting as control and execution node. “Job runner” is prioritized in Slurm (jobs will only run on server if runner queue is full). Static job allocation (more cores allocated for some tools).
 
 All jobs currently within the Galaxy instance, as galaxy user.
 
-Storage
+#### Storage
 Data uploaded to Galaxy, lives on the storage VM and NFS mounted to the server and runner.
 
-Reference data
+#### Reference data
 No use of reference data.
 
 
-Problems to solve
+### Problems to solve
+
 Current Muon workflows are relatively lightweight simulation, starting from small plaintext files. So far we have not yet needed to use HPC or transfer large amounts of data. However, X-ray use cases are likely to involve larger numbers of hdf5 data, so this is something we will need a solution for at some point. Some problems or work we anticipate (many are related):
 
-Integration with existing HPC resources onsite
+- Integration with existing HPC resources onsite
 
-Implementing authentication using existing LDAP service
-Likely a prerequisite for using HPC resources
+- Implementing authentication using existing LDAP service
+    - Likely a prerequisite for using HPC resources
 
-Data transfer
-X-ray data is archived on tape, neutron/muon on disk. We run a web application for browsing and restoring data, accessible via HTTPS (short lived), Globus transfer, restoring to our HPC system (since disabled due to lack of use) or direct to the facility. This should be integrated with Galaxy somehow
-No matter where the data ends up, there always ends up being restrictions on how long it lives there - so we might have to duplicate data into Galaxy rather than using the Rucio style approach?
+- Data transfer
+    - X-ray data is archived on tape, neutron/muon on disk. We run a web application for browsing and restoring data, accessible via HTTPS (short lived), Globus transfer, restoring to our HPC system (since disabled due to lack of use) or direct to the facility. This should be integrated with Galaxy somehow
+    - No matter where the data ends up, there always ends up being restrictions on how long it lives there - so we might have to duplicate data into Galaxy rather than using the Rucio style approach?
 
-Ideas/proposals/solutions
+### Ideas/proposals/solutions
 The ideas we’ve had for addressing some of our problems (not actioned any of them yet, may not be feasible or other options might be better):
 
-Use Pulsar to integrate with HPC
-Get a node inside existing Slurm network running Pulsar, send jobs there (probably using the “submit as user option” - dependent on setting up proper auth)
-Not spoken with people running our HPC service, so not clear what hoops we’d need to jump through
-Precedent for similar projects in the past (restoring data to HPC, creating accounts and permissioning as needed)
-Setup LDAP auth
-Hopefully just out of the box
-But have also considered whether we might need to do some manual configuration of Galaxy user roles etc. in order to allow both internal and external users but only allow the internal users to access HPC
-Set up a data/filesource tool to integrate with our archive
-ideally just redirects them to the archive UI, they login separately, browse, select the data and it is sent (or registered) in Galaxy
-in cases where the data needs to be restored from tape, this might be more complicated - don’t want to make the user wait for restoration, so maybe make restoration a tool that runs in the workflow? But then it would need to authn to the archive service - not sure what best practice would be.
-Alternatively, rather than Galaxy pulling the data, could push it from the archive UI (might be easier since we directly develop that, so can tailor it to our needs)
+- Use Pulsar to integrate with HPC
+    - Get a node inside existing Slurm network running Pulsar, send jobs there (probably using the “submit as user option” - dependent on setting up proper auth)
+    - Not spoken with people running our HPC service, so not clear what hoops we’d need to jump through
+    - Precedent for similar projects in the past (restoring data to HPC, creating accounts and permissioning as needed)
+- Setup LDAP auth
+    - Hopefully just out of the box
+    - But have also considered whether we might need to do some manual configuration of Galaxy user roles etc. in order to allow both internal and external users but only allow the internal users to access HPC
+- Set up a data/filesource tool to integrate with our archive
+    - ideally just redirects them to the archive UI, they login separately, browse, select the data and it is sent (or registered) in Galaxy
+    - in cases where the data needs to be restored from tape, this might be more complicated - don’t want to make the user wait for restoration, so maybe make restoration a tool that runs in the workflow? But then it would need to authn to the archive service - not sure what best practice would be.
+    - alternatively, rather than Galaxy pulling the data, could push it from the archive UI (might be easier since we directly develop that, so can tailor it to our needs)
 
