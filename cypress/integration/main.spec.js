@@ -12,14 +12,18 @@ describe("Sitewide tests", () => {
     it("Visits the homepage", () => {
         cy.visit("/");
     });
-    it("Tests the NavBar", () => {
+    it("Tests the NavBar - Governance link", () => {
         // Check that the dropdown menus work.
         // findByRole doesn't seem to work on invisible elements.
         cy.get("#global-items [href='/community/governance/']").should("not.be.visible");
         cy.findByRole("button", { name: /Community/i }).click();
         cy.get("#global-items [href='/community/governance/']").should("be.visible");
+    });
+    it("Tests the NavBar - Home link", () => {
         // Check that navigating works.
         cy.visit("/");
+    });
+    it("Tests the NavBar - Events link", () => {
         cy.get("#subsite-items")
             .findByText(/Events/i)
             .click();
