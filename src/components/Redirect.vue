@@ -19,7 +19,7 @@ import { repr } from "~/lib/utils.js";
 const LOC_TYPE = typeof Location === "function" ? Location : Object;
 export default {
     props: {
-        location: { type: LOC_TYPE, required: false, default: undefined},
+        location: { type: LOC_TYPE, required: false, default: undefined },
         preText: { type: String, required: false, default: "This content has a new home at " },
         url: { type: String, required: true },
         postText: { type: String, required: false, default: "." },
