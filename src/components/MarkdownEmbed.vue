@@ -34,6 +34,10 @@ export default {
             .then((response) => response.text())
             .then((markdownText) => {
                 this.markdownContents = markdownText;
+            })
+            .catch((error) => {
+                console.error("MarkdownEmbed vue component failed:", error);
+                this.error = error;
             });
         // TODO: Add a loading spinner.
         // TODO: Add a fallback for when the markdown is not available.

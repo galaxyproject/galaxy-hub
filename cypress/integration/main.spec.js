@@ -93,10 +93,29 @@ describe("Test 404 page", () => {
     });
 });
 
-describe("Redirect tests", () => {
-    it("Tests page redirects from metadata", () => {
-        cy.visit("/0examples/non-vue/");
-        cy.location("pathname", { timeout: 10000 }).should("equal", "/0examples/non-vue/");
-        cy.location("pathname", { timeout: 10000 }).should("equal", "/");
+describe("Page Redirects Test", () => {
+    const sourcePage = "/0examples/test-redirect-source/";
+    // const targetPage = '/0examples/test-redirect-target/';
+    const targetPageTitle = "Test Redirect Target Page";
+    const secondsDelay = 7;
+    it("replaces", () => {
+        cy.on("window:before:load", (win) => {
+            win.__location = {
+                replace: cy.stub().as("replace"),
+            };
+        });
+
+        cy.intercept("GET", sourcePage, (req) => {
+            req.continue((res) => {
+                res.body = res.body.replaceAll("window.location.replace", "window.__location.replace");
+            });
+        }).as("index");
+
+        cy.visit(sourcePage);
+
+        cy.wait("@index", { timeout: secondsDelay * 1000 });
+        cy.wait(secondsDelay * 1000);
+        cy.title().should("include", targetPageTitle);
+        // cy.get('@replace').should('have.been.calledWith', targetPath);
     });
 });

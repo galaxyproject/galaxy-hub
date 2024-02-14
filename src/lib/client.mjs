@@ -70,5 +70,5 @@ export function addScript(window, src, attributes = {}) {
     for (let [name, value] of Object.entries(attributes)) {
         script[name] = value;
     }
-    window.document.head.appendChild(script);
+    // window.document.head.appendChild(script);
 }

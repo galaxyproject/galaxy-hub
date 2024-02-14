@@ -260,7 +260,7 @@
                                 role="button"
                                 rel="noopener"
                                 target="_blank"
-                                class="btn btn-info text-decoration-none w-50"
+                                class="btn text-decoration-none w-50"
                                 >{{ this.$static.datasetResearch.research3.button.title }}</a
                             >
                         </div>
@@ -294,7 +294,7 @@
                                 role="button"
                                 rel="noopener"
                                 target="_blank"
-                                class="btn btn-info text-decoration-none mt-3 mb-3 w-50"
+                                class="btn text-decoration-none mt-3 mb-3 w-50"
                                 >{{ this.$static.datasetResearch.research4.button.title }}</a
                             >
                         </div>
