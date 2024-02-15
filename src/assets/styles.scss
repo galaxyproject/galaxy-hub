@@ -42,6 +42,11 @@ $home-body-bg: $brand-dark;
 $home-accent-brightest: #c2efff;
 $home-accent-brighter: #c2ebc2;
 $home-accent-bright: #f6f7f9;
+$home-cdark-background: #0e1427;
+$home-research-publications: #1b62a4;
+$home-research-tutorials: #2d629f;
+$home-research-events: #3676bf;
+$home-research-cases: #3676bf;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
@@ -139,7 +144,7 @@ html {
             padding: 0;
             line-height: 1.6;
             &.hero {
-                color: #a5a5a5;
+                color: #cccccc;
             }
         }
 
@@ -217,28 +222,34 @@ html {
                 }
                 &.cdark,
                 &.toolshed {
-                    background-color: #0e1427;
+                    background-color: $home-cdark-background;
                     a.btn {
-                        color: $white;
+                        background-color: lighten($home-cdark-background, 75%);
+                        color: $home-body-bg;
+                        font-weight: normal;
                     }
-                    &.btn:hover {
-                        background-color: #1b264b;
+                    a.btn:hover {
+                        background-color: lighten($home-cdark-background, 65%);
                     }
                     .pad {
                         padding-top: 2rem;
                     }
                     a {
                         color: $home-accent-brightest;
+                        font-weight: 600;
                     }
                 }
 
                 &.clight {
                     background-color: $home-accent-bright;
+                    a {
+                        color: #0053a6;
+                        font-weight: 600;
+                    }
                 }
 
                 &.cbright {
                     position: relative;
-
                     &::before {
                         content: "";
                         pointer-events: none;
@@ -251,12 +262,15 @@ html {
                         background-size: cover;
                         background-position: 0%;
                     }
+                    a {
+                        font-weight: 600;
+                    }
                 }
             }
 
             &.research {
                 &.publications {
-                    background: linear-gradient(155deg, #1d4068 44%, #1b62a4);
+                    background: linear-gradient(155deg, #1d4068 44%, $home-research-publications);
                     a:hover {
                         text-decoration: none !important;
                     }
@@ -264,7 +278,7 @@ html {
 
                 &.tutorials,
                 .tutorials {
-                    background: linear-gradient(155deg, #244f7f 24%, #2d629f);
+                    background: linear-gradient(155deg, #244f7f 24%, $home-research-tutorials);
                     a:hover {
                         text-decoration: none !important;
                     }
@@ -282,22 +296,36 @@ html {
                             }
                         }
                     }
+                    a.btn {
+                        background-color: darken($home-research-tutorials, 20%);
+                        color: $white;
+                        &:hover {
+                            background-color: darken($home-research-tutorials, 40%);
+                        }
+                    }
                 }
 
                 &.events {
                     color: $white;
-                    background: linear-gradient(155deg, #28588f 44%, #3676bf);
+                    background: linear-gradient(155deg, #28588f 44%, $home-research-events);
 
                     table {
                         tr {
                             font-size: 80%;
                         }
                     }
+                    a.btn {
+                        background-color: darken($home-research-events, 20%);
+                        color: $white;
+                        &:hover {
+                            background-color: darken($home-research-events, 40%);
+                        }
+                    }
                 }
 
                 &.cases {
                     color: $white;
-                    background: linear-gradient(155deg, #28588f 45%, #3676bf);
+                    background: linear-gradient(155deg, #28588f 45%, $home-research-cases);
                 }
             }
         }
@@ -327,6 +355,7 @@ html {
             padding: 0;
             & li a {
                 color: $white;
+                line-height: 1.5rem;
             }
         }
         .citation p {
