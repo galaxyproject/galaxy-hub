@@ -95,7 +95,6 @@ describe("Test 404 page", () => {
 
 describe("Page Redirects Test", () => {
     const sourcePage = "/0examples/test-redirect-source/";
-    // const targetPage = '/0examples/test-redirect-target/';
     const targetPageTitle = "Test Redirect Target Page";
     const secondsDelay = 7;
     it("replaces", () => {
@@ -104,18 +103,14 @@ describe("Page Redirects Test", () => {
                 replace: cy.stub().as("replace"),
             };
         });
-
         cy.intercept("GET", sourcePage, (req) => {
             req.continue((res) => {
                 res.body = res.body.replaceAll("window.location.replace", "window.__location.replace");
             });
         }).as("index");
-
         cy.visit(sourcePage);
-
-        cy.wait("@index", { timeout: secondsDelay * 1000 });
+        cy.wait("@index");
         cy.wait(secondsDelay * 1000);
         cy.title().should("include", targetPageTitle);
-        // cy.get('@replace').should('have.been.calledWith', targetPath);
     });
 });
