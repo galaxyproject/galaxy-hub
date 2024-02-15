@@ -97,7 +97,7 @@ describe("Page Redirects Test", () => {
     const sourcePage = "/0examples/test-redirect-source/";
     const targetPageTitle = "Test Redirect Target Page";
     const secondsDelay = 7;
-    it("replaces", () => {
+    it("Tests Page Redirects component", () => {
         cy.on("window:before:load", (win) => {
             win.__location = {
                 replace: cy.stub().as("replace"),
