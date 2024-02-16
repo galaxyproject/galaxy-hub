@@ -1,6 +1,6 @@
 ---
 title: Hackathon - Improving the annotation of Galaxy resources for microbial data analysis and beyond
-date: '2024-02-11'
+date: '2024-03-11'
 days: 5
 tease: "This hackathon aims to improve the annotation of Galaxy resources for microbial data analysis and beyond"
 location: "Online"
