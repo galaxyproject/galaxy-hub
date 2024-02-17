@@ -56,11 +56,11 @@ The workflows that we are processing using Galaxy are connected to:
 
 Currently, most of the catalysis community performs (b) using a set of desk-based tools, which have names such as DAWN, ATHENA, ARTEMIS AND FEFF, and can be downloaded with the DEMETER package.  These tools are connected in a workflow shown in the flow diagram below:  
 
-DIAG 1
+<div class='center'><img src="/images/successful-stories/materials-science1.png" alt="800" width="1000" /></div>
 
 To move this workflow into Galaxy, we have broken-up the process into four associated prototype Galaxy tools that can be linked into an equivalent workflow.  The picture below shows the names of the tools and what part of the workflow each tool represents.  For instance, Larch Athena, is used for processing and normalizing the raw data coming from the instrument.
 
-DIAG 2
+<div class='center'><img src="/images/successful-stories/materials-science2.png" alt="800" width="1000" /></div>
 
 We are now testing these tools and workflow by trying to reproduce a set of published XAS results for catalysis. 
 
