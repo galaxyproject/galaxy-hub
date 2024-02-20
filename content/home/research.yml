@@ -42,15 +42,15 @@ research4:
       title: Visit more
       url: "https://galaxyproject.org/events/"
   events:
-    - event: "Exploring the Galaxy application for data sciences"
-      date: "Feb 8, 2024"
-      url: "https://sciencegateways.org/sgx3webinars"
     - event: "Hackathon Image Analysis in Galaxy"
       date: "Feb 26, 2024"
       url: "https://galaxyproject.org/events/2024-02-26-hackathon-image-analysis-in-galaxy/"
     - date: "Mar 4, 2024"
       event: "Workshop on High-Throughput Data Analysis with Galaxy"
       url: "https://galaxyproject.org/events/2024-03-04-galaxy-workshop-freiburg/"
+    - date: "Mar 5, 2024"
+      event: "Awareness in Data Management and Analysis for Industry and Research"
+      url: "https://www.cecam.org/workshop-details/1349"
 
 research5:
   title: "Research highlights"
