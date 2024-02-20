@@ -69,11 +69,11 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
 ## Galaxy Australia
 Please contact comms@biocommons.org.au for additional logo material (reversed colours, alternative file types and more) if required
 
-* Transparent background, horizontal, [PNG](/images/galaxy-logos/galaxy-australia.png)
+* Transparent background, horizontal, [PNG](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
     [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png" alt="Galaxy Australia Logo, horizontal with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
-* Transparent background, stacked, [PNG](/images/galaxy-logos/galaxy-australia-square.jpg)
+* Transparent background, stacked, [PNG](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
 
     [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png" alt="Galaxy Australia Logo, stacked with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
 
