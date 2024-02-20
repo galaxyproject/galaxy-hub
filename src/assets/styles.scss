@@ -42,6 +42,11 @@ $home-body-bg: $brand-dark;
 $home-accent-brightest: #c2efff;
 $home-accent-brighter: #c2ebc2;
 $home-accent-bright: #f6f7f9;
+$home-cdark-background: #0e1427;
+$home-research-publications: #1b62a4;
+$home-research-tutorials: #2d629f;
+$home-research-events: #3676bf;
+$home-research-cases: #3676bf;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
@@ -62,244 +67,285 @@ html {
 
 .layoutHome {
     background-color: $home-body-bg;
-
-    .bgBrightest {
-        background-color: $home-accent-brightest;
-    }
-
-    .bgBrighter {
-        background-color: $home-accent-brighter;
-    }
-
-    .bgBright {
-        background-color: $home-accent-bright;
-    }
-
-    .bgGradient {
-        background-image: linear-gradient($home-accent-bright, $home-body-bg 150%);
-    }
-
-    .notification {
-        padding: 10px;
-        margin: 20px 15px 20px 0;
-        font-size: 1.2rem;
-        border-radius: 5px;
-    }
-
-    nav#heroMaincontainer {
-        .container-fluid {
-            padding-left: 0;
-            justify-content: left;
+    #maincontainer {
+        .bgBrightest {
+            background-color: $home-accent-brightest;
         }
-        div.nav div.dropdown:hover div.dropdown-menu {
-            display: block;
-            position: absolute;
-            border: 1px solid $black;
-            filter: drop-shadow(2px 2px 2px $gray);
+
+        .bgBrighter {
+            background-color: $home-accent-brighter;
         }
-        .dropdown-menu.hero {
-            font-size: 1.3rem;
-            font-weight: 500;
-            a.dropdown-item:hover,
-            a.dropdown-item:focus {
-                color: $white;
+
+        .bgBright {
+            background-color: $home-accent-bright;
+        }
+
+        .bgGradient {
+            background-image: linear-gradient($home-accent-bright, $home-body-bg 150%);
+        }
+
+        .notification {
+            padding: 10px;
+            margin: 20px 15px 20px 0;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        nav {
+            .container-fluid {
+                padding-left: 0;
+                justify-content: left;
+            }
+            div.nav div.dropdown:hover div.dropdown-menu {
+                display: block;
+                position: absolute;
+                border: 1px solid $black;
+                filter: drop-shadow(2px 2px 2px $gray);
+            }
+            .dropdown-menu.hero {
+                font-size: 1.3rem;
+                font-weight: 500;
+                a.dropdown-item:hover,
+                a.dropdown-item:focus {
+                    color: $white;
+                }
             }
         }
-    }
 
-    h1 {
-        font-size: 3.5rem;
-        font-weight: 800;
-        color: $white;
-        margin-bottom: 20px;
-        line-height: 1.4;
-    }
-
-    h2 {
-        font-size: 3rem;
-        font-weight: 700;
-        color: $white;
-        &.education {
-            color: $black;
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: $white;
+            margin-bottom: 20px;
+            line-height: 1.4;
         }
-    }
 
-    h3 {
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: $white;
-        margin: 0 0 0.5rem 0;
-    }
-
-    p,
-    .card p {
-        font-size: 1.45rem;
-        margin-bottom: 20px;
-        font-weight: 400;
-        padding: 0;
-        line-height: 1.6;
-        &.hero {
-            color: #a5a5a5;
+        h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: $white;
+            &.education {
+                color: $black;
+            }
         }
-    }
 
-    .heroVideo {
-        video {
-            width: 100%;
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: $white;
+            margin: 0 0 0.5rem 0;
         }
-    }
 
-    .area {
-        position: relative;
-        display: flex;
-        font-size: 1.3rem;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        text-align: left;
-        padding: 13px 20px;
-        text-decoration: none !important;
-        border-radius: 7px;
-        line-height: 1.4rem;
-
-        &.education {
-            display: block;
+        .highlight {
+            font-size: 1.45rem;
+            margin-bottom: 20px;
+            font-weight: 400;
             padding: 0;
-            border: 0;
-            svg.wave {
-                fill: $home-body-bg;
-                display: inline;
-                &.top {
-                    transform: rotate(180deg);
-                }
-            }
-
-            a.btn {
-                min-width: 355px;
-                padding-left: 18px;
-                border-width: 2px;
-
-                .title {
-                    font-size: 1.7rem;
-                    color: $black;
-                    text-decoration: none;
-                    font-weight: 400;
-                }
-                &.btn-outline-primary:hover .title {
-                    color: $white !important;
-                }
-
-                .text {
-                    min-height: 30px;
-                    font-size: 0.9rem;
-                    text-wrap: nowrap;
-                    color: $black;
-                    text-decoration: none;
-                    font-weight: 400;
-                }
-
-                &.btn-outline-primary:hover .text {
-                    color: $white !important;
-                    text-decoration: none;
-                }
-
-                .iconXlarge {
-                    float: left !important;
-                    width: 50px;
-                    font-size: 40px;
-                }
+            line-height: 1.6;
+            &.hero {
+                color: #cccccc;
             }
         }
 
-        &.callouts {
-            &:hover {
-                text-decoration: none !important;
-            }
-            &.cdark,
-            &.toolshed {
-                background-color: #0e1427;
-                &.btn:hover {
-                    background-color: #1b264b;
-                }
-                .pad {
-                    padding-top: 2rem;
-                }
-            }
-
-            &.clight {
-                background-color: $home-accent-bright;
-            }
-
-            &.cbright {
-                position: relative;
-
-                &::before {
-                    content: "";
-                    pointer-events: none;
-                    display: block;
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    background-image: url("/images/icons/worldMap.svg");
-                    opacity: 0.05;
-                    background-size: cover;
-                    background-position: 0%;
-                }
+        p,
+        .card p {
+            font-size: 1.45rem;
+            margin-bottom: 20px;
+            font-weight: 400;
+            padding: 0;
+            line-height: 1.6;
+            &.hero {
+                color: #cccccc;
             }
         }
 
-        &.research {
-            &.publications {
-                background: linear-gradient(155deg, #1d4068 44%, #1b62a4);
-                a:hover {
-                    text-decoration: none !important;
+        .heroVideo {
+            video {
+                width: 100%;
+            }
+        }
+
+        .area {
+            position: relative;
+            display: flex;
+            font-size: 1.3rem;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            text-align: left;
+            padding: 13px 20px;
+            text-decoration: none !important;
+            border-radius: 7px;
+            line-height: 1.4rem;
+
+            &.education {
+                display: block;
+                padding: 0;
+                border: 0;
+                svg.wave {
+                    fill: $home-body-bg;
+                    display: inline;
+                    &.top {
+                        transform: rotate(180deg);
+                    }
+                }
+
+                a.btn {
+                    min-width: 355px;
+                    padding-left: 18px;
+                    border-width: 2px;
+
+                    .title {
+                        font-size: 1.7rem;
+                        color: $black;
+                        text-decoration: none;
+                        font-weight: 400;
+                    }
+                    &.btn-outline-primary:hover .title {
+                        color: $white !important;
+                    }
+
+                    .text {
+                        min-height: 30px;
+                        font-size: 0.9rem;
+                        text-wrap: nowrap;
+                        color: $black;
+                        text-decoration: none;
+                        font-weight: 400;
+                    }
+
+                    &.btn-outline-primary:hover .text {
+                        color: $white !important;
+                        text-decoration: none;
+                    }
+
+                    .iconXlarge {
+                        float: left !important;
+                        width: 50px;
+                        font-size: 40px;
+                    }
                 }
             }
 
-            &.tutorials,
-            .tutorials {
-                background: linear-gradient(155deg, #244f7f 24%, #2d629f);
-                a:hover {
+            &.callouts {
+                &:hover {
                     text-decoration: none !important;
                 }
-                ul {
-                    padding-left: 1.1rem;
-                    li {
-                        color: $white;
-                        a {
-                            .link {
-                                color: $white;
-                                font-size: 80%;
-                                font-weight: 400;
-                                padding-bottom: 0.5rem;
+                &.cdark,
+                &.toolshed {
+                    background-color: $home-cdark-background;
+                    a.btn {
+                        background-color: lighten($home-cdark-background, 75%);
+                        color: $home-body-bg;
+                        font-weight: normal;
+                    }
+                    a.btn:hover {
+                        background-color: lighten($home-cdark-background, 65%);
+                    }
+                    .pad {
+                        padding-top: 2rem;
+                    }
+                    a {
+                        color: $home-accent-brightest;
+                        font-weight: 600;
+                    }
+                }
+
+                &.clight {
+                    background-color: $home-accent-bright;
+                    a {
+                        color: #0053a6;
+                        font-weight: 600;
+                    }
+                }
+
+                &.cbright {
+                    position: relative;
+                    &::before {
+                        content: "";
+                        pointer-events: none;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-image: url("/images/icons/worldMap.svg");
+                        opacity: 0.05;
+                        background-size: cover;
+                        background-position: 0%;
+                    }
+                    a {
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            &.research {
+                &.publications {
+                    background: linear-gradient(155deg, #1d4068 44%, $home-research-publications);
+                    a:hover {
+                        text-decoration: none !important;
+                    }
+                }
+
+                &.tutorials,
+                .tutorials {
+                    background: linear-gradient(155deg, #244f7f 24%, $home-research-tutorials);
+                    a:hover {
+                        text-decoration: none !important;
+                    }
+                    ul {
+                        padding-left: 1.1rem;
+                        li {
+                            color: $white;
+                            a {
+                                .link {
+                                    color: $white;
+                                    font-size: 80%;
+                                    font-weight: 400;
+                                    padding-bottom: 0.5rem;
+                                }
                             }
                         }
                     }
-                }
-            }
-
-            &.events {
-                color: $white;
-                background: linear-gradient(155deg, #28588f 44%, #3676bf);
-
-                table {
-                    tr {
-                        font-size: 80%;
+                    a.btn {
+                        background-color: darken($home-research-tutorials, 20%);
+                        color: $white;
+                        &:hover {
+                            background-color: darken($home-research-tutorials, 40%);
+                        }
                     }
                 }
-            }
 
-            &.cases {
-                color: $white;
-                background: linear-gradient(155deg, #28588f 45%, #3676bf);
+                &.events {
+                    color: $white;
+                    background: linear-gradient(155deg, #28588f 44%, $home-research-events);
+
+                    table {
+                        tr {
+                            font-size: 80%;
+                        }
+                    }
+                    a.btn {
+                        background-color: darken($home-research-events, 20%);
+                        color: $white;
+                        &:hover {
+                            background-color: darken($home-research-events, 40%);
+                        }
+                    }
+                }
+
+                &.cases {
+                    color: $white;
+                    background: linear-gradient(155deg, #28588f 45%, $home-research-cases);
+                }
             }
         }
-    }
 
-    a {
-        &.hero {
-            font-size: 1.3rem;
-            font-weight: 500;
+        a {
+            &.hero {
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
         }
     }
 
@@ -320,6 +366,7 @@ html {
             padding: 0;
             & li a {
                 color: $white;
+                line-height: 1.5rem;
             }
         }
         .citation p {

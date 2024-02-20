@@ -3,8 +3,8 @@ describe("Main Page Tests", () => {
         cy.visit("/");
     });
     it("Finds major categories", () => {
-        cy.get("h2 > a[href='/news/']").should("be.visible");
-        cy.get("h2 > a[href='/events/']").should("be.visible");
+        cy.get("a[href='https://training.galaxyproject.org'] > h3").should("be.visible");
+        cy.get("a[href='/events/'] > h3").should("be.visible");
     });
 });
 
@@ -12,14 +12,18 @@ describe("Sitewide tests", () => {
     it("Visits the homepage", () => {
         cy.visit("/");
     });
-    it("Tests the NavBar", () => {
+    it("Tests the NavBar - Governance link", () => {
         // Check that the dropdown menus work.
         // findByRole doesn't seem to work on invisible elements.
         cy.get("#global-items [href='/community/governance/']").should("not.be.visible");
         cy.findByRole("button", { name: /Community/i }).click();
         cy.get("#global-items [href='/community/governance/']").should("be.visible");
+    });
+    it("Tests the NavBar - Home link", () => {
         // Check that navigating works.
         cy.visit("/");
+    });
+    it("Tests the NavBar - Events link", () => {
         cy.get("#subsite-items")
             .findByText(/Events/i)
             .click();
@@ -89,10 +93,24 @@ describe("Test 404 page", () => {
     });
 });
 
-describe("Redirect tests", () => {
-    it("Tests page redirects from metadata", () => {
-        cy.visit("/0examples/non-vue/");
-        cy.location("pathname").should("equal", "/0examples/non-vue/");
-        cy.location("pathname", { timeout: 6000 }).should("equal", "/");
+describe("Page Redirects Test", () => {
+    const sourcePage = "/0examples/test-redirect-source/";
+    const targetPageTitle = "Test Redirect Target Page";
+    const secondsDelay = 7;
+    it("Tests Page Redirects component", () => {
+        cy.on("window:before:load", (win) => {
+            win.__location = {
+                replace: cy.stub().as("replace"),
+            };
+        });
+        cy.intercept("GET", sourcePage, (req) => {
+            req.continue((res) => {
+                res.body = res.body.replaceAll("window.location.replace", "window.__location.replace");
+            });
+        }).as("index");
+        cy.visit(sourcePage);
+        cy.wait("@index");
+        cy.wait(secondsDelay * 1000);
+        cy.title().should("include", targetPageTitle);
     });
 });

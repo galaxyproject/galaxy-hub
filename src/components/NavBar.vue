@@ -2,7 +2,7 @@
     <div :class="classes" :style="style">
         <b-navbar class="container" toggleable="lg" :type="theme" variant="transparent">
             <b-navbar-brand to="/">
-                <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" height="30" />
+                <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" width="94" height="30" />
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>

@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-lg-7 mb-4">
                     <h1 v-html="$page.hero.description" class="mb-3"></h1>
-                    <p v-html="$page.hero.content" class="hero"></p>
+                    <div v-html="$page.hero.content" class="hero highlight"></div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
                             <div class="nav navbar-nav">
@@ -84,7 +84,7 @@
                                 :href="education.url"
                                 v-for="(education, i) in $page.datasetEducation.education"
                                 :key="i"
-                                role="button"
+                                role="link"
                                 rel="noopener"
                                 target="_blank"
                                 class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
@@ -126,7 +126,7 @@
                     <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout1.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout1.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout1.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                     <div class="area callouts toolshed h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout2.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout2.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout2.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                     <div class="area callouts clight h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout3.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout3.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout3.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                     <div class="area callouts cbright bgBrightest img h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout4.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout4.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout4.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                     <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout5.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout5.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout5.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                     <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout6.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout6.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout6.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,9 @@
                 </div>
                 <div class="col-xl-4 mb-3">
                     <div class="area research tutorials h-40">
-                        <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
+                        <a :href="this.$static.datasetResearch.research3.url">
+                            <h3>{{ this.$static.datasetResearch.research3.title }}</h3>
+                        </a>
                         <div v-html="this.$static.datasetResearch.research3.content" class="text-white mb-3"></div>
                         <ul style="list-style-type: none; padding: 0">
                             <li v-for="t in this.$static.datasetResearch.research3.links" :key="t.title" class="pb-2">
@@ -258,13 +260,15 @@
                                 role="button"
                                 rel="noopener"
                                 target="_blank"
-                                class="btn btn-info text-decoration-none w-50"
+                                class="btn text-decoration-none w-50"
                                 >{{ this.$static.datasetResearch.research3.button.title }}</a
                             >
                         </div>
                     </div>
                     <div class="area research events mt-3 h-40">
-                        <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        <a :href="this.$static.datasetResearch.research4.url">
+                            <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        </a>
                         <div v-html="this.$static.datasetResearch.research4.content" class="text-white mb-2"></div>
                         <table style="padding: 0">
                             <tbody>
@@ -290,7 +294,7 @@
                                 role="button"
                                 rel="noopener"
                                 target="_blank"
-                                class="btn btn-info text-decoration-none mt-3 mb-3 w-50"
+                                class="btn text-decoration-none mt-3 mb-3 w-50"
                                 >{{ this.$static.datasetResearch.research4.button.title }}</a
                             >
                         </div>
@@ -420,6 +424,7 @@ query {
         research3 {
             title,
             content,
+            url,
             button {
                 title,
                 url
@@ -432,6 +437,7 @@ query {
         research4 {
             title,
             content,
+            url,
             button {
                 title,
                 url

@@ -7,7 +7,7 @@ callout1:
 
 callout2:
   title: Galaxy has 1,000s of tools
-  content: In partnership with <a href="https://bioconda.github.io/ target="_blank" rel="noopener">BioConda</a> and <a href="https://biocontainers.pro/ target="_blank" rel="noopener">BioContainers</a>, Galaxy provides instant access to vast number of analysis tools. <div class="float-right pad mt-4 mb-0"><a href="/toolshed/" class="btn btn-lg btn-info">Browse available tools</a></div>
+  content: In partnership with <a href="https://bioconda.github.io/" target="_blank" rel="noopener">BioConda</a> and <a href="https://biocontainers.pro/" target="_blank" rel="noopener">BioContainers</a>, Galaxy provides instant access to vast number of analysis tools. <div class="float-right pad mt-4 mb-0"><a href="/toolshed/" class="btn btn-lg btn-info">Browse available tools</a></div>
 
 callout3:
   title: Galaxy = workflows
