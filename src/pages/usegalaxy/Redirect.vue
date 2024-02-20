@@ -31,17 +31,14 @@ export default {
             return CONFIG.usegalaxy;
         },
         getRedirectUrl() {
-            return this.$route.query.redirectUrl;
+            const validLocale = CONFIG.usegalaxy.findIndex((g) => g.locale === this.$route.query.locale);
+            return validLocale > -1 ? CONFIG.usegalaxy[validLocale].url : "";
         },
     },
     data() {
         return {
-            location: undefined,
-            redirectUrl: undefined,
+            location: window.location,
         };
-    },
-    mounted() {
-        this.location = window.location;
     },
 };
 </script>
