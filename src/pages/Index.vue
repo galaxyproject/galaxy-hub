@@ -9,11 +9,11 @@
             <div class="row">
                 <div class="col-lg-7 mb-4">
                     <h1 v-html="$page.hero.description" class="mb-3"></h1>
-                    <p v-html="$page.hero.content" class="hero"></p>
+                    <div v-html="$page.hero.content" class="hero highlight"></div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
                             <div class="nav navbar-nav">
-                                <div v-show="prioritizedGalaxyLocales" class="dropdown show">
+                                <div v-if="prioritizedGalaxyLocales" class="dropdown show">
                                     <a
                                         :href="'/usegalaxy/redirect/?redirectUrl=' + prioritizedGalaxyLocales[0].url"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
@@ -28,7 +28,7 @@
                                         {{ prioritizedGalaxyLocales[0].locale }}
                                     </a>
                                     <div
-                                        v-show="prioritizedGalaxyLocales.length > 0"
+                                        v-if="prioritizedGalaxyLocales.length > 0"
                                         class="dropdown-menu hero bgBright m-0 pb-0"
                                         aria-labelledby="dropdownMenuLink"
                                     >
@@ -126,7 +126,7 @@
                     <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout1.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout1.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout1.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                     <div class="area callouts toolshed h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout2.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout2.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout2.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                     <div class="area callouts clight h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout3.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout3.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout3.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                     <div class="area callouts cbright bgBrightest img h-100">
                         <div class="text-dark">
                             <h3 class="text-dark">{{ this.$static.datasetCallouts.callout4.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout4.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout4.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                     <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout5.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout5.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout5.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                     <div class="area callouts cdark h-100">
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout6.title }}</h3>
-                            <p v-html="this.$static.datasetCallouts.callout6.content"></p>
+                            <div v-html="this.$static.datasetCallouts.callout6.content" class="highlight"></div>
                         </div>
                     </div>
                 </div>
