@@ -15,7 +15,7 @@
                             <div class="nav navbar-nav">
                                 <div v-if="prioritizedGalaxyLocales" class="dropdown show">
                                     <a
-                                        :href="'/usegalaxy/redirect/?redirectUrl=' + prioritizedGalaxyLocales[0].url"
+                                        :href="'/usegalaxy/redirect/?locale=' + prioritizedGalaxyLocales[0].locale"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
                                         role="button"
                                         target="_blank"
@@ -34,7 +34,7 @@
                                     >
                                         <a
                                             v-for="(site, i) in prioritizedGalaxyLocales.slice(1)"
-                                            :href="'/usegalaxy/redirect/?redirectUrl=' + site.url"
+                                            :href="'/usegalaxy/redirect/?locale=' + site.locale"
                                             :key="i"
                                             target="_blank"
                                             class="dropdown-item"
