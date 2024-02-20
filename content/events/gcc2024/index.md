@@ -89,6 +89,24 @@ in mind. These tend to sneak up on you!
   </div>
 
 
+<!-- Fellowships -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2024/fellowships.png" class="card-img-top" alt="Fellowships" />
+    <div class="card-header">Fellowships are available</div>
+
+**There are travel & registration fellowships available** for participating at GCC2024!
+
+Thanks to the [JXTX foundation](https://jxtxfoundation.org/), 6 graduate
+students in genomics and data sciences will have an opportunity to attend the
+conference.
+
+**Deadline for application is March 31, 2024**. Complete details and the
+application form are available on the [JXTX
+website](https://jxtxfoundation.org/news/2024-2-19-gcc/).
+
+  </div>
+
+
   <!-- Training -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2024/training.png" class="card-img-top" alt="Training" />
