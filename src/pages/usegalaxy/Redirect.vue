@@ -1,9 +1,9 @@
 <template>
     <layout>
         <Redirect
-            v-if="getRedirectUrl"
+            v-if="redirectUrl"
             pre-text="You are now being redirected to: "
-            :url="getRedirectUrl"
+            :url="redirectUrl"
             post-text=""
             :location="location"
         >
@@ -30,15 +30,24 @@ export default {
         galaxies() {
             return CONFIG.usegalaxy;
         },
+    },
+    data() {
+        return {
+            location: undefined,
+            redirectUrl: undefined,
+        };
+    },
+    methods: {
         getRedirectUrl() {
             const validLocale = CONFIG.usegalaxy.findIndex((g) => g.locale === this.$route.query.locale);
             return validLocale > -1 ? CONFIG.usegalaxy[validLocale].url : "";
         },
     },
-    data() {
-        return {
-            location: window.location,
-        };
+    mounted() {
+        // This has to be set in mounted() because window does not exist when building.
+        // This will execute in the browser on page load.
+        this.location = window.location;
+        this.redirectUrl = this.getRedirectUrl();
     },
 };
 </script>
