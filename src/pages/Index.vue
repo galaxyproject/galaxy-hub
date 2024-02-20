@@ -13,7 +13,7 @@
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
                             <div class="nav navbar-nav">
-                                <div v-if="prioritizedGalaxyLocales" class="dropdown show">
+                                <div v-show="prioritizedGalaxyLocales" class="dropdown show">
                                     <a
                                         :href="'/usegalaxy/redirect/?redirectUrl=' + prioritizedGalaxyLocales[0].url"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
@@ -28,7 +28,7 @@
                                         {{ prioritizedGalaxyLocales[0].locale }}
                                     </a>
                                     <div
-                                        v-if="prioritizedGalaxyLocales.length > 0"
+                                        v-show="prioritizedGalaxyLocales.length > 0"
                                         class="dropdown-menu hero bgBright m-0 pb-0"
                                         aria-labelledby="dropdownMenuLink"
                                     >
