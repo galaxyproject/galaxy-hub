@@ -21,7 +21,7 @@ right:
           - label: The Galaxy Community
             target: "/community/"
           - label: Special Interest Groups
-            target: "/community/sig"
+            target: "/community/sig/"
           - label: Blog
             target: "/blog/"
           - label: Governance
