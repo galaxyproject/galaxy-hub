@@ -71,11 +71,11 @@ Please contact comms@biocommons.org.au for additional logo material (reversed co
 
 * Transparent background, horizontal, [PNG](/images/galaxy-logos/galaxy-australia.png)
 
-    [<img src="/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia Logo, horizontal with transparent background" width=300 />](/images/galaxy-logos/galaxy-australia.png)
+    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png" alt="Galaxy Australia Logo, horizontal with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
 * Transparent background, stacked, [PNG](/images/galaxy-logos/galaxy-australia-square.jpg)
 
-    [<img src="/images/galaxy-logos/galaxy-australia-square.jpg" alt="Galaxy Australia Logo, stacked with transparent background" width=300 />](/images/galaxy-logos/galaxy-australia-square.jpg)
+    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png" alt="Galaxy Australia Logo, stacked with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
 
 
 ## Galaxy Europe
