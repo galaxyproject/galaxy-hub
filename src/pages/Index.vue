@@ -12,10 +12,12 @@
                     <div v-html="$page.hero.content" class="hero highlight"></div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
-                            <div class="nav navbar-nav">
-                                <div v-if="prioritizedGalaxyLocales" class="dropdown show">
+                            <div v-if="prioritizedGalaxyLocales" class="nav navbar-nav">
+                                <div class="dropdown show">
                                     <a
-                                        :href="'/usegalaxy/redirect/?locale=' + prioritizedGalaxyLocales[0].locale"
+                                        v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
+                                        :key="site.locale"
+                                        :href="`/usegalaxy/redirect/?locale=${site.locale}`"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
                                         role="button"
                                         target="_blank"
@@ -25,17 +27,16 @@
                                         aria-expanded="false"
                                     >
                                         {{ $page.hero.button1 }}:
-                                        {{ prioritizedGalaxyLocales[0].locale }}
+                                        {{ site.locale }}
                                     </a>
                                     <div
-                                        v-if="prioritizedGalaxyLocales.length > 0"
                                         class="dropdown-menu hero bgBright m-0 pb-0"
                                         aria-labelledby="dropdownMenuLink"
                                     >
                                         <a
-                                            v-for="(site, i) in prioritizedGalaxyLocales.slice(1)"
-                                            :href="'/usegalaxy/redirect/?locale=' + site.locale"
-                                            :key="i"
+                                            v-for="site in this.prioritizedGalaxyLocales.slice(1)"
+                                            :href="`/usegalaxy/redirect/?locale=${site.locale}`"
+                                            :key="site.locale"
                                             target="_blank"
                                             class="dropdown-item"
                                         >
@@ -329,11 +330,15 @@ import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
 
 export default {
+    data() {
+        return {
+            cancelled: false,
+            prioritizedGalaxyLocales: [],
+        };
+    },
     methods: {
         slugify,
-    },
-    computed: {
-        prioritizedGalaxyLocales() {
+        setPrioritizedGalaxyLocales() {
             const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
             let galaxies = CONFIG.usegalaxy;
             let priority = galaxies.splice(
@@ -343,8 +348,11 @@ export default {
             if (priority[0]) {
                 galaxies.splice(0, 0, priority[0]);
             }
-            return galaxies;
+            this.prioritizedGalaxyLocales = galaxies;
         },
+    },
+    mounted() {
+        this.setPrioritizedGalaxyLocales();
     },
 };
 </script>
