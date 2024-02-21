@@ -67,7 +67,7 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
     [<img src="/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa Logo, transparent background" width=300 />](/images/galaxy-logos/galaxy-africa-logo-big.png)
 
 ## Galaxy Australia
-Please contact comms@biocommons.org.au for additional logo material (reversed colours, alternative file types and more) if required
+Please contact [comms@biocommons.org.au](mailto:comms@biocommons.org.au) for additional logo material (reversed colours, alternative file types and more) if required
 
 * Transparent background, horizontal, [PNG](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
