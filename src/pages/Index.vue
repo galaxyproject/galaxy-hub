@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="container-fluid-real p-0">
-            <div class="container-fluid-real p-0 bgBright bgGradient">
+            <div class="container-fluid-real p-0 bgBright">
                 <div class="container-fluid-real p-0 overflow-hidden">
                     <div class="row area education overflow-hidden">
                         <svg viewBox="1 0 80 40" preserveAspectRatio="none" width="5000" height="100" class="wave top">
