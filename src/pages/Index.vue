@@ -17,7 +17,7 @@
                                     <a
                                         v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
                                         :key="site.locale"
-                                        :href="`/usegalaxy/redirect/?locale=${site.locale}`"
+                                        :href="site.locale"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
                                         role="button"
                                         target="_blank"
@@ -35,7 +35,7 @@
                                     >
                                         <a
                                             v-for="site in this.prioritizedGalaxyLocales.slice(1)"
-                                            :href="`/usegalaxy/redirect/?locale=${site.locale}`"
+                                            :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
                                             class="dropdown-item"
