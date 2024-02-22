@@ -17,7 +17,7 @@
                                     <a
                                         v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
                                         :key="site.locale"
-                                        :href="site.locale"
+                                        :href="site.url"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
                                         role="button"
                                         target="_blank"
