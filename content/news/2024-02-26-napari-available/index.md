@@ -28,5 +28,4 @@ We are still working on integrating more plugins into the Napari interactive too
 
 This work is supported by the [NFDI4BIOIMAGE project](https://nfdi4bioimage.de/).
 
-![NFDI4BIOIMAGE](/content/images/logos/nfdi4bioimage.png)
-
+![logo NFDI4BIOIMAGE](/images/logos/nfdi4bioimage.png)
