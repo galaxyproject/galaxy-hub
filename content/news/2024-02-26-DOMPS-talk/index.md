@@ -21,4 +21,4 @@ DataPLANT contributes to the creation of ARCs, store large amounts of annotated 
 The talk was well-received and sparked a brief discussion about the utilization of MAdLandDB, Galaxy, and ARC.
 
 **Acknowledgements:** 
-The speakers would like to thank the organizers of DOMPS for providing the opportunity to present a talk at the Seminar. The speaker would also like to thank the [MAdLand](https://madland.science/)/[Rensing lab](http://plantco.de), Galaxy Community, [NFDI4PLANT](https://www.nfdi4plants.de/) and [de.NBI](https://www.denbi.de/). 
+The speakers would like to thank the organizers of DOMPS for providing the opportunity to present a talk at the Seminar. The speaker would also like to thank the [MAdLand](https://madland.science/)/[Rensing lab](http://plantco.de), [Galaxy](https://usegalaxy.eu/), [NFDI4PLANT](https://www.nfdi4plants.de/) and [de.NBI](https://www.denbi.de/). 
