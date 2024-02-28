@@ -4,7 +4,7 @@ tease: Galaxy Europe at the Free and Open Source Developers’ European Meeting 
 date: '2024-02-28'
 authors: Polina Polunina, Mira Kuntz
 authors_structured:
-    - github: po-khmel
+    - github: PlushZ
     - github: mira-miracoli
 subsites: [all-eu]
 ---
