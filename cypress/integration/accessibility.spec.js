@@ -3,6 +3,7 @@ const CYPRESS_ACCESSIBILITY_CONFIG = {
     ancestry: true,
     includedImpacts: ["serious", "critical"],
 };
+const GCC_CURRENT = "GCC2022";
 
 describe("Accessibility Testing", () => {
     it("Homepage has no detectable a11y violations on load", () => {
@@ -22,8 +23,8 @@ describe("Accessibility Testing", () => {
         cy.wait(500);
         cy.checkA11y("#app", CYPRESS_ACCESSIBILITY_CONFIG);
     });
-    it("GCC2022 page has no detectable a11y violations on load", () => {
-        cy.visit("/events/gcc2022/").get("#app").injectAxe();
+    it(`${GCC_CURRENT} page has no detectable a11y violations on load`, () => {
+        cy.visit(`/events/${GCC_CURRENT.toLowerCase()}/`).get("#app").injectAxe();
         // Ensure masthead has loaded
         cy.get("#masthead-logo").should("be.visible");
         // Only check for #app; ignores twitter and sidecar.
