@@ -28,6 +28,8 @@ The Czech Republic has its own currency, the [Czech crown
 Many places accept payments by card and there are many cash exchange points in
 the city center that offer exchanges of most currencies at good rates.
 
+We have teamed up with the Brno Convention Center and you can find additional information related to accommodation, travel, gastronomy and free-time activities on their [GCC2024 event app](https://app.brnoconvention.com/en/2024-galaxy-community-conference-gcc2024).
+
 ![Brno Centrum](/images/events/gcc2024/Centrum.jpg)
 
 ## Getting to Brno
