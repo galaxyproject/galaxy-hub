@@ -2,10 +2,11 @@
 title: "Initial EuroScienceGateway workflows published in WorkflowHub"
 tease: "Workflows covering astronomy, biodiversity, earth science and genomics published in WorkflowHub together with onboarding guide"
 date: '2024-02-29'
-authors: Stian Soiland-Reyes, Björn Grüning
+authors: Stian Soiland-Reyes, Björn Grüning, Paul De Geest
 authors_structured:
     - github: stain
     - github: bgruening
+    - github: pauldg
 subsites: [all-eu,esg]
 tags: [esg, esg-wp2, esg-wp5]
 main_subsite: eu
@@ -82,7 +83,7 @@ In contrast, the Intergalactic Workflow Commission ([IWC](https://github.com/gal
 
 ## Cite As
 
-Stian Soiland-Reyes, Björn Grüning (2024):\
+Stian Soiland-Reyes, Björn Grüning, Paul De Geest (2024):\
 **EuroScienceGateway MS3: Initial EuroScienceGateway workflows registered**.\
 *Zenodo* (Milestone)\
 <https://doi.org/10.5281/zenodo.1072892>
