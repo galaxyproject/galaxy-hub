@@ -6,7 +6,7 @@ Here you will find information on obtaining and setting up a Galaxy instance wit
 # Requirements
 
 * UNIX/Linux or Mac OSX
-* [Python 3.7 or newer](/admin/python/)
+* [Python 3.8 or newer](/admin/python/)
 
 # Get Started
 
