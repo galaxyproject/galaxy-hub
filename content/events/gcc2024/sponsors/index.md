@@ -46,6 +46,10 @@ affordable and accessible.
 
 ## Bronze sponsors
 
+<a href="https://www.kws.com/" target="_blank">
+  <img src="/images/logos/KWS-logo.jpg" alt="KWS" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+
 <a href="https://www.limagrain.com/en" target="_blank">
   <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%; padding-right: 2rem;" />
 </a>
