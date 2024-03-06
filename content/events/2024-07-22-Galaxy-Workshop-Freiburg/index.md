@@ -41,11 +41,11 @@ For the hands-on course, we will use the [training material](https://training.ga
 
 | Day | Start | End | Session | Instructors |
 |---|---|---|---|---|
-| March 04th | 9:00am  | 4pm  | Welcome - Galaxy introduction - Quality control |
-| March 05th | 9:00am  | 5pm |  ChIP-Sequencing |
-| March 06th | 9:00am  | 5pm  | RNA-Sequencing |
-| March 07th | 9:00am  | 5pm | Variant Calling/Exome Seqencing |
-| March 08th | 9:00am  | 4pm  | Metagenomics/ Foodborne |
+| July 22nd | 9:15am  | 4pm  | Welcome - Galaxy introduction - Quality control |
+| July 23rd | 9:15am  | 5pm |  ChIP-Sequencing |
+| July 24th | 9:15am  | 5pm  | RNA-Sequencing |
+| July 25th | 9:15am  | 5pm | Variant Calling/Exome Seqencing |
+| July 26th | 9:15am  | 4pm  | Metagenomics/ Foodborne |
 
 
 # Registration
