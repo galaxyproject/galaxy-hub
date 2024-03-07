@@ -15,19 +15,22 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
+            <a href="https://docs.galaxyproject.org/en/master/releases/23.2_announce_user.html" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/NewToGalaxy.jpeg"
+                    img-alt="Galaxy 23.2 is live! A few updates and new features to highlight include new Workflow Comments, the integration of InvenioRDM, and improvements to Workflow Sharing."
+                ></b-carousel-slide>
+            </a>
+            <a href="https://jxtxfoundation.org/news/2024-2-19-gcc/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/events/gcc2024/jxtx-gcc2024-fellowships.png"
+                    img-alt="JXTX Foundation fellowships available for participating in GCC2024."
+                ></b-carousel-slide>
+            </a>
             <a href="https://www.biorxiv.org/content/10.1101/2023.06.28.546576v1.full" target="_blank">
                 <b-carousel-slide
                     img-src="/images/Paper_Alert_August2023.jpg"
                     img-alt="New paper in preprint titled *Scalable, accessible, and reproducible reference genome assembly and evaluation in Galaxy* by Larivière et al. 2023. Click to read!"
-                ></b-carousel-slide>
-            </a>
-            <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSecmWqADPLOCWvueILRirV8ClSTsDaP-lDE8m2j6f6pG24NGw/viewform?usp=sf_link"
-                target="_blank"
-            >
-                <b-carousel-slide
-                    img-src="/images/events/gcc2024/training-survey.jpeg"
-                    img-alt="Please help us by providing feedback about what content that you would like to see in the training sessions in GCC2024. Click to fill out the survey!"
                 ></b-carousel-slide>
             </a>
             <a href="https://galaxyproject.org/projects/vgp/" target="_blank">
@@ -46,12 +49,6 @@
                 <b-carousel-slide
                     img-src="/images/ColabFold_comingsoon.jpeg"
                     img-alt="ColabFold, a machine-learning model based on AlphaFold that is used for predicting the structure of proteins only using only a protein sequence as an input, will soon be available on Galaxy."
-                ></b-carousel-slide>
-            </a>
-            <a href="https://docs.galaxyproject.org/en/master/releases/23.2_announce_user.html" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/NewToGalaxy.jpeg"
-                    img-alt="Galaxy 23.2 is live! A few updates and new features to highlight include new Workflow Comments, the integration of InvenioRDM, and improvements to Workflow Sharing."
                 ></b-carousel-slide>
             </a>
         </b-carousel>

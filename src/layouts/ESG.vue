@@ -32,7 +32,6 @@
             <slot />
 
             <div class="funding mt-2">
-                <g-image class="eu-img" :src="$static.funding.image" />
                 <div v-html="$static.funding.content"></div>
             </div>
         </main>
@@ -48,7 +47,6 @@
         <slot></slot>
 
         <div class="funding mt-2">
-            <g-image class="eu-img" :src="$static.funding.image" />
             <div v-html="$static.funding.content"></div>
         </div>
     </Default>
@@ -86,7 +84,6 @@ export default {
 <static-query>
 query {
     funding: insert(path: "/insert:/projects/esg/funding_notice/") {
-        image (width: 200),
         content
     }
 }

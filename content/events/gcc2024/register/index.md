@@ -45,8 +45,14 @@ registering and ask for a 50% discount code that you can apply during
 registration. The [list of eligible low-income countries is available in this
 document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
-If you are a trainer or a member of the scientific committee at GCC2024 and are
-in need of financial help, please email the [event
+**If you are a student, the [JXTX foundation](https://jxtxfoundation.org/) is
+offering 6 graduate student fellowships** to participate at GCC2024. Check out
+the [foundation website](https://jxtxfoundation.org/news/2024-2-19-gcc/) for
+full details and the application form. The application deadline is March 31,
+2024.
+
+**If you are a GTN trainer or a member of the scientific committee at GCC2024**
+and are in need of financial help, please email the [event
 organizers](mailto:gcc2024-org@gaggle.email) and a discount code will be
 provided.
 

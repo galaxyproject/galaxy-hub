@@ -88,14 +88,13 @@ Galaxy-based platform for the functional analysis and the interpretation of prot
 
 <!-- Natural Language Processing -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="http://galaxy.lappsgrid.org">
+<a href="">
 <div class="card-header bg-wg-applied text-white text-center">Natural Language Processing</div>
 </a>
 
 An open, interoperable web service platform for natural language processing (NLP) research and development.
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](http://galaxy.lappsgrid.org/)
 </div>
 
 
