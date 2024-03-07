@@ -1,6 +1,6 @@
-<div class="alert" style="background: #68d4ff;">
+<div class="alert" style="background: #fc954e;">
 
-#### **Job disruptions possible in the week from March 11**
+#### **Job disruptions possible in the week of March 11**
 
 We are working on our job queue system on March 11.
 This can lead to the following disruptions on that day and possibly in the next days of that week:
