@@ -8,7 +8,7 @@ subsites: [global, all]
 main_subsite: us
 ---
 
-![Foreign Contamincation Screen Tool Now Available in Galaxy](NCBI Tool Post.jpeg)
+![Foreign Contamincation Screen Tool Now Available in Galaxy](NCBIToolPost.jpeg)
 
 # Foreign Contamination Screen Tool: Now Available in Galaxy!
 ## *Check out our latest enhancements.*
