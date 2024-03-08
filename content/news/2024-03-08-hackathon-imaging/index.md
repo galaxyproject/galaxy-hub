@@ -66,7 +66,7 @@ Once you upload a TIFF file to your history, you can click the visualization ico
 
 Alternatively, you can display the TIFF file using the Avivator external application which provides more advanced functionality like zooming, etc. ([PR](https://github.com/galaxyproject/galaxy/pull/17554)).
 
-![Avivator Viewer](./Avivatorviewer.gif)
+![Avivator Viewer](./AvivatorViewer.gif)
 
 ## Visualization of zarr-based images
 
