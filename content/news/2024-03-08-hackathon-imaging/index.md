@@ -60,20 +60,20 @@ It is now possible to visualize TIFF and OME-TIFF files in Galaxy. Previously, m
 
 You can now find a new visualization “Tiff Viewer” that will display basic regular TIFF images ([PR](https://github.com/galaxyproject/galaxy/pull/17553)). 
 
-![TIFF Viewer](./TIFFviewer.gif)
+![TIFF viewer](./TIFF_viewer.gif)
 
 Once you upload a TIFF file to your history, you can click the visualization icon in your expanded dataset and select this new visualization.
 
 Alternatively, you can display the TIFF file using the Avivator external application which provides more advanced functionality like zooming, etc. ([PR](https://github.com/galaxyproject/galaxy/pull/17554)).
 
-![Avivator Viewer](./AvivatorViewer.gif)
+![Avivator viewer](./Avivator_viewer.gif)
 
 ## Visualization of zarr-based images
 
 Work is ongoing towards the visualization of zarr-based images. For that, first Galaxy needs to have a proper *zarr* data type definition, including required metadata. Once this is possible and the Vizarr npm package is updated, Vizarr will be integrated as a Galaxy visualization plugin.
 
 
-![Vizarr Viewer](./VizarrViewer.gif)
+![Vizarr viewer](./Vizarr_viewer.gif)
 
 ## Tool quality standards
 
