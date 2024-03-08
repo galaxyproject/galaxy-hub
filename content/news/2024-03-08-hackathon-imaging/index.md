@@ -95,7 +95,7 @@ The main goal of the project was to investigate the translation of KNIME workflo
 
 **How does it work?**
 
-As the main outcome, it was confirmed that the main nodes for image processing are present on the Galaxy EU server and several steps of the workflow can be translated from KNIME to Galaxy with similar outcomes. We discovered some tools that are present in KNIME and can still be integrated into Galaxy. In particular, processes on binary images present also in imageJ (i.e. outline, fill holes, erode, dilate, voronoi-otsu-labeling, subtract background) can be added or implemented. An overview on the results plus the workflow converted to Galaxy [was published in Zenodo](10.5281/zenodo.10793700).
+As the main outcome, it was confirmed that the main nodes for image processing are present on the Galaxy EU server and several steps of the workflow can be translated from KNIME to Galaxy with similar outcomes. We discovered some tools that are present in KNIME and can still be integrated into Galaxy. In particular, processes on binary images present also in imageJ (i.e. outline, fill holes, erode, dilate, voronoi-otsu-labeling, subtract background) can be added or implemented. An overview on the results plus the workflow converted to Galaxy [was published in Zenodo](https://zenodo.org/records/10793700).
 
 A comprehensive list of tools was prepared and given for implementation (see [issue](https://github.com/BMCV/galaxy-image-analysis/issues/105#issuecomment-1983395507)).
 Furthermore, a small workflow for testing different threshold values and checking outcomes would be soon developed to speed up the workflow development. 
