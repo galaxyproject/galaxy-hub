@@ -5,9 +5,10 @@ autotoc: false
 
 <slot name="/community/governance/linkbox" />
 
-**Keywords:** Strategic emphasis, long term planning and direction
+**Keywords:** Strategic emphasis, long-term planning and direction
 
-The [GEB](/community/governance/geb/) is the top-level community [governance](/community/governance/) structure, responsible for the overall direction and coordination of global [Galaxy Project](/) activities, to ensure coherence, efficiency, integrity, growth, and long term sustainability.
+The [GEB](/community/governance/geb/) is the top-level community [governance](/community/governance/) structure, responsible for the overall direction and coordination
+of global [Galaxy Project](/) activities, to ensure coherence, efficiency, integrity, growth, and long-term sustainability.
 
 These activities are executed in partnership with:
  - the technical and community boards, representing the [Galaxy working groups](/community/wg/) and [Galaxy special interest groups](/community/sig/), respectively;
@@ -55,9 +56,9 @@ Galaxy Executive Board responsibilities include, but are not limited to:
 ## 3. Promote the project via conference and training events
 
 ### Galaxy Community Conference
- - GCC is our single most valuable in person/hybrid event for bringing the Galaxy Community together
+ - GCC is our single most valuable in-person/hybrid event for bringing the Galaxy Community together
  - The GEB will evaluate and decide on host cities.
- - The GEB will also help support all aspect of the conference: overseeing development of the scientific program, promoting attendance, supporting conference logistics (scheduling, meals, travel, housing)
+ - The GEB will also help support all aspects of the conference: overseeing the development of the scientific program, promoting attendance, supporting conference logistics (scheduling, meals, travel, housing)
 
 ### GTN Smörgåsbord
  This is Galaxy's largest coordinated training event each year with thousands of worldwide participants and is a major source of new users.
@@ -70,9 +71,9 @@ Galaxy Executive Board responsibilities include, but are not limited to:
 
 ### Additional key events
  - Maintain a shared calendar of major events worldwide
- - Support participation and training at recurring events, including: Annual workshop at the Plant and Animal Genomes conference, the ELIXIR annual All Hands meeting, the International congress of genetics, and the European BioHackathon organized by ELIXIR in November.
+ - Support participation and training at recurring events, including: Annual workshop at the Plant and Animal Genomes conference, the ELIXIR annual All Hands meeting, the international congress of genetics,and the European BioHackathon organized by ELIXIR in November.
 
-## 4. Develop and enact both internal and external communications strategies
+## 4. Develop and enact both internal and external communication strategies
 
 ### Maintain the Hub as the primary source of information for the project
  - Provide resources for maintaining the infrastructure necessary to publish the Hub website
@@ -82,9 +83,9 @@ Galaxy Executive Board responsibilities include, but are not limited to:
 ### Encourage and help with writing and publishing scientific manuscripts
 
 ### Ensure Galaxy Newsletter & Reports are created and suitably distributed
- - Coordinate generation of reports and community communications, including GCC meeting reports, release announcements, etc.
- - Coordinate creation of a [periodic community newsletter](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/)
- - Identify key contacts from the leadership group to “own” content from their region / domain
+ - Coordinate the generation of reports and community communications, including GCC meeting reports, release announcements, etc.
+ - Coordinate the creation of a [periodic community newsletter](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/)
+ - Identify key contacts from the leadership group to “own” content from their region/domain
 
 ### Prepare the biennial Web Server issue [NAR paper](/citing-galaxy/#primary-publication)
 
@@ -103,7 +104,9 @@ To support CoPs, the GEB will commit resources for:
 Additionally, to support the development of new CoPs, the GEB will commit resources for:
 - developing a streamlined process for CoP creation.
 
-As CoPs strengthen, grow, and become well established, they become critical collaborators and contributors, shaping the future of the project. They typically provide important professional effort, either for specific technical improvements to the source code, or running usegalaxy.*, or large private installations. Examples include institutions such as BioCommons Australia, groups such as Galaxy Europe, and Galaxy installations at large institutions such as the Oak Ridge National Laboratory.
+As CoPs strengthen, grow, and become well-established, they become critical collaborators and contributors, shaping the future of the project.
+They typically provide important professional effort, either for specific technical improvements to the source code, running usegalaxy.*, or large private installations.
+Examples include institutions such as BioCommons Australia, groups such as Galaxy Europe, and Galaxy installations at large institutions such as the Oak Ridge National Laboratory.
 
 A goal for the Galaxy Executive Board is to recognize these powerful communities.
 The GEB will:
@@ -111,7 +114,11 @@ The GEB will:
 
 ## 2. Drive Flagship Projects
 
-Galaxy benefits from major flagship scientific projects and papers such as covid19.galaxyproject.org (Maier et al, Nature Biotechnology, 2021) and Vertebrate Genomes Project (Larivière et al, bioRxiv 2023). Externally, these projects cement Galaxy as a state-of-the-art platform for scientific research in the global scientific consciousness, and provide the strongest examples of the value of Galaxy for its users and the greater scientific field. They are also advantageous for securing funding and other resources for growing and maintaining the community. Internally flagship projects are useful for driving the development of new features: covid19 promoted massive enhancements to workflows and histories to work with very large collections of data; VGP has promoted the development of workflows that can scale to very large datasets with diverse datatypes and repositories.
+Galaxy benefits from major flagship scientific projects and papers such as covid19.galaxyproject.org (Maier et al, Nature Biotechnology, 2021) and Vertebrate Genomes Project
+(Larivière et al, bioRxiv 2023). Externally, these projects cement Galaxy as a state-of-the-art platform for scientific research in the global scientific
+consciousness and provide the strongest examples of the value of Galaxy for its users and the greater scientific field. They are also advantageous for securing funding
+and other resources for growing and maintaining the community. Internally flagship projects are useful for driving the development of new features: COVID-19 promoted
+massive enhancements to workflows and histories to work with very large collections of data; VGP has promoted the development of workflows that can scale to very large datasets with diverse datatypes and repositories.
 
 The GEB will:
  -  identify and promote at least one active flagship project at all times.
@@ -120,23 +127,30 @@ A natural source of such flagship projects are the [CoPs](/community/sig).
 
 ## 3. Address Technical & Scientific Debt
 
-In software development, “technical debt” is widely understood as the costs and efforts needed to modernize software with current techniques. It is an ongoing process to adopt the latest languages, libraries, and resources in pursuit of “clean code”. Within the last few years, Galaxy has made major strides to modernize and has greatly reduced our technical debt, e.g. FastAPI, Sqlalchemy. Vue.js. The reduction of technical debt has enabled several major new features in the past few years such as the successful deployment of the new History, the new tool form, the new activity bar, among others.
+In software development, “technical debt” is widely understood as the costs and efforts needed to modernize software with current techniques. It is an ongoing process to adopt the latest languages,
+libraries, and resources in pursuit of “clean code”. Within the last few years, Galaxy has made major strides to modernize and has greatly reduced our technical
+debt, e.g. FastAPI, SQLAlchemy. Vue.js. The reduction of technical debt has enabled several major new features in the past few years such as the successful deployment
+of the new History, the new tool form, and the new activity bar, among others.
 
-“Scientific debt” is an analogous term highlighting the costs associated with the evolving landscape of science, which leads to out of date tools (e.g. TopHat), data (e.g. obsolete versions of 1000 genomes data), and tutorials (e.g. how to align 35 bp reads) that need to be updated on an ongoing process. Galaxy suffers from a large amount of scientific debt with a large number of out of date tools, workflows, datasets, and tutorials. This is a major threat to the Galaxy project: potential new users will see Galaxy as a legacy project, and current users will be frustrated by their inability to find current resources.
+“Scientific debt” is an analogous term highlighting the costs associated with the evolving landscape of science, which leads to out-of-date tools
+(e.g. TopHat), data (e.g. obsolete versions of 1000 genomes data), and tutorials (e.g. how to align 35 bp reads) that need to be updated on an ongoing process.
+Galaxy suffers from a large amount of scientific debt with a large number of out-of-date tools, workflows, datasets, and tutorials. This is a major
+threat to the Galaxy project: potential new users will see Galaxy as a legacy project, and current users will be frustrated by their inability to find current resources.
 
 The GEB will commit resources to:
  - maintain a systematic record of the code, data, tools, and workflows to identify obsolete resources and commit resources to deprioritize, hide, and potentially purge such stale resources.
 
 ## 4. Create a sustainable governance Structure
 
-The GEB developed organically from like-minded Galaxy advocates collaborating across continents. With the growth of Galaxy, in both its user base and community contributions, a clear, fair, and efficient governance structure is needed.
+The GEB developed organically from like-minded Galaxy advocates collaborating across continents. With the growth of Galaxy, in both its user
+base and community contributions, a clear, fair, and efficient governance structure is needed.
 
-The GEB has already introduced a new (2024) [governance structure](/community/governance) to encourage and empower constructive and effective communication between technical and community groups.
+The GEB has already introduced a new (2024) [governance structure](/community/governance) to encourage and empower
+constructive and effective communication between technical and community groups.
 
 The GEB commits to:
- - improve the new governance model, collecting feedback, addressing issues and working with the community to ensure its success;
+ - improve the new governance model, collecting feedback, addressing issues, and working with the community to ensure its success;
  - develop a transparent GEB membership system to ensure resource power and availability, diversity of voice, productive collaboration, and sustainability for the future.
-
 
 # Members
 
