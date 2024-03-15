@@ -15,6 +15,12 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
+            <a href="https://galaxyproject.org/events/gcc2024/abstracts/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/events/gcc2024/gcc2024-call-for-abstracts.png"
+                    img-alt="GCC2024 abstracts are due April 15."
+                ></b-carousel-slide>
+            </a>
             <a href="https://docs.galaxyproject.org/en/master/releases/23.2_announce_user.html" target="_blank">
                 <b-carousel-slide
                     img-src="/images/NewToGalaxy.jpeg"
