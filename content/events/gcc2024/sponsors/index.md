@@ -46,6 +46,10 @@ affordable and accessible.
 
 ## Bronze sponsors
 
+<a href="https://academic.oup.com/gigascience" target="_blank">
+  <img src="/images/logos/gigascience-oup.png" alt="Gigascience" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+
 <a href="https://www.kws.com/" target="_blank">
   <img src="/images/logos/KWS-logo.jpg" alt="KWS" style="max-width: 25%; padding-right: 2rem;" />
 </a>
