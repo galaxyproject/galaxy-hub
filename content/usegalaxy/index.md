@@ -10,7 +10,7 @@ These servers have significant computational resources behind them and are capab
 
 # Servers
 
-There are currently three UseGalaxy servers:
+There are currently four UseGalaxy servers:
 
 ## UseGalaxy.org
 
