@@ -6,6 +6,8 @@ date: "2024-03-18"
 subsites: [global, all]
 ---
 
+![Galaxy Newsletter Logo](GalaxyNews.png)
+
 Hello, Galaxy Community!
 
 Greetings, Galaxy enthusiasts! We're thrilled to bring you the latest edition of the Galaxy Newsletter, packed with exciting updates and insights from the Galaxy community. In this issue, we'll delve into the highlights of the upcoming GCC2024, explore the Galaxy Mentoring Network, and unveil the newest features of the Galaxy 23.2 Release.
@@ -46,6 +48,8 @@ We look forward to welcoming you to Brno for GCC2024 and celebrating the vibrant
 
 Are you passionate about open science and eager to connect with like-minded individuals? The [Galaxy Mentoring Network (GMN)](https://galaxy-mentor-network.netlify.app/) is calling for applications from both mentors and mentees interested in joining our vibrant community.
 
+![Galaxy Mentoring Network](March1.jpg)
+
 ## About GMN: 
 The GMN facilitates connections between experienced members of the global Galaxy community and those seeking guidance in STEM fields. Our mission is to support the integration of new members, whether they're users, developers, students, or professionals, by fostering meaningful dialogue, sharing experiences, and setting achievable goals over a two-month mentorship period.
 
@@ -73,9 +77,13 @@ We're excited to announce the release of Galaxy 23.2, packed with new features a
 
 1. __Workflow Comments:__ Collaborate with ease using our new Workflow Comments feature in the Galaxy Workflow Editor. With intuitive visual tools, including text comments, markdown explanations, and freehand drawing, users can now enhance communication, structure, and organization within workflows.
 
-2. __Enhanced Published Workflow Sharing:__ Sharing and navigating workflows has never been smoother with the revamped Published Workflow Sharing page. Featuring a more informative layout, a read-only mode, an embedded interactive editor view, and improved responsiveness, users can effortlessly share and collaborate on workflows.
+![23.2 Workflow Comments](March2.png)
 
-3. __Seamless InvenioRDM Integration:__ Galaxy now integrates seamlessly with InvenioRDM, allowing users to import files directly from InvenioRDM repositories into Galaxy and publish Galaxy records, including Histories and datasets, to InvenioRDM. This integration streamlines data import and export processes, empowering users with greater flexibility and efficiency.
+3. __Enhanced Published Workflow Sharing:__ Sharing and navigating workflows has never been smoother with the revamped Published Workflow Sharing page. Featuring a more informative layout, a read-only mode, an embedded interactive editor view, and improved responsiveness, users can effortlessly share and collaborate on workflows.
+
+![23.2 Worklflow Sharing](March3.png)
+
+5. __Seamless InvenioRDM Integration:__ Galaxy now integrates seamlessly with InvenioRDM, allowing users to import files directly from InvenioRDM repositories into Galaxy and publish Galaxy records, including Histories and datasets, to InvenioRDM. This integration streamlines data import and export processes, empowering users with greater flexibility and efficiency.
 
 Upgrade to Galaxy 23.2 today and experience these exciting new features firsthand. For more information and detailed instructions, check out our [user release notes](https://docs.galaxyproject.org/en/master/releases/23.2_announce_user.html).
 
@@ -92,6 +100,8 @@ Join the community for another exciting year with the Galaxy Single Cell Communi
 __Scalable, accessible and reproducible reference genome assembly and evaluation in Galaxy (Larivière et al., Nature Biotechnology, 2024)__
 
 The Earth BioGenome Project aims to sequence genomes of all ~1.8 million eukaryotic species over the next decade, requiring a significant increase in genome production pace. To achieve this, researchers combined the expertise of the Vertebrate Genomes Project (VGP) and the European Reference Genome Atlas (ERGA) to develop an automated assembly pipeline within the Galaxy ecosystem. This pipeline uses PacBio HiFi reads and long-distance information from Hi-C maps and/or optical maps to generate nearly complete assemblies, with extensive quality control functions. Validation using vertebrate datasets has shown improvements in haplotype resolution, particularly for large, repeat-rich genomes. Future work will focus on improving efficiency, incorporating ultra-long-read data, and automating the curation process. The workflows and instructions are [available on the Galaxy website](https://galaxyproject.org/projects/vgp/workflows/), and new genome assemblies are being submitted to the [NCBI under the Vertebrate Genome Project BioProject](https://www.ncbi.nlm.nih.gov/bioproject/489243).
+
+![VGP Workflow](March4.jpeg)
 
   __[Read the full paper!](https://www.nature.com/articles/s41587-023-02100-3)__
 
