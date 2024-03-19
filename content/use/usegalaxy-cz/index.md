@@ -15,6 +15,7 @@ comments:
   - "Supports [Life Science Login](https://lifescience-ri.eu/ls-login.html)"
   - "Supports [E-infra Login](https://aai.cesnet.cz/)"
 user_support:
+  - "[Documentation](https://docs.metacentrum.cz/related/galaxy/)"
   - "Email support: regalaxy@rt.cesnet.cz"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/support/)"
