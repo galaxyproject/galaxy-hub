@@ -146,7 +146,7 @@ to be paid upon checkout.
 
 1. [Hotel International](https://www.hotelinternational.cz/en/): 115EUR single or 135EUR double (this is the conference venue), inquiries via reservation@hotelinternational.cz
 2. [Hotel Grand](https://grandhotelbrno.cz/en/): 74EUR single, inquiries via reservation@grandhotelbrno.cz
-3. [Hotel Barcelo](https://reservation.barcelo.com/?store=cs-cz&usercurrency=CZK&depart=2024-06-29&be_type=ceres&bep=CERES&adult=1&category=urban&arrive=2024-06-24&rooms=1&hotel=7295&marketprice=EUR&locale=en-GB&country=cz&currency=EUR&theme=initialTheme&marketcampaign=REMEA&groupcode=GALAXY2024): 169EUR single or 184EUR double
+3. [Hotel Barcelo](https://reservation.barcelo.com/?bep=CERES&hotel=7295&arrive=2024-06-22&depart=2024-06-29&rooms=1&store=en-ie&theme=initialTheme&adult=1&marketprice=EUR&country=cz&marketcampaign=REMEA&locale=en-gb&currency=EUR&category=urban&usercurrency=EUR&be_type=ceres&groupcode=GALAXY2024): 169EUR single or 184EUR double
 4. [Hotel Continental](https://www.continentalbrno.cz/en/): 80EUR single, inquiries via info@continentalbrno.cz
 
 <div style="max-width: 50%; margin: auto;">
