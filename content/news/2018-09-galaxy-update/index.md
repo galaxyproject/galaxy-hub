@@ -256,7 +256,7 @@ See the [epiGeEC directory entry](/use/epigeec/) for more.
 
 ## MetaCentrum - Czechia
 
-[<img class="float-left" src="/use/metacentrum/metacentrum-logo.png" alt="MetaCentrum" width="200px" />](/use/metacentrum/)
+[<img class="float-left" src="/use/usegalaxy-cz/usegalaxy-cz.png" alt="usegalaxy.cz" width="200px" />](/use/metacentrum/)
 
 [MetaCentrum](https://galaxy.metacentrum.cz/) supports Galaxy instances on the Czech National Grid Infrastructure (NGI), that are available to employees and students of research and academic organizations of Czechia and for scientific purposes only. Use requires [registering for an account](https://metavo.metacentrum.cz/en/application/index.html).
 
