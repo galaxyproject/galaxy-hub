@@ -1,6 +1,6 @@
 ---
 subsites: [all]
-main_subsite: eu
+main_subsite: global
 date: "2024-03-19"
 tags: []
 title: "James 'JJ' Johnson"
@@ -157,12 +157,14 @@ Penn State
 
 ------
 
-I met JJ in the very early GalaxyP days, as usually in our community, on GitHub. We have been working on Proteomic tools a lot and dropped PRs and reviewed them, using the timezone difference very 
+I met JJ in the very early GalaxyP days, as usual in our community, on GitHub. We have been working on Proteomic tools a lot and dropped PRs and reviewed them, using the timezone difference very 
 efficiently. I enjoyed working with him, discussing science and politics and learning from him so much. I remember his great talk in Norwich and the incredible evenings, gosh we had a lot of fun. 
-I tried to pursue him to visit us in Freiburg at GCC 2019, but this was not possible so I was very happy to visit him 2022 in Minneapolis - where he worked.
-As kind as he was, he offered me a bike, so I did not need to rent one every day to get to the venue. He cleaned the bike put it into his care, and we assembled it at the venue. Long story short, 
-it was stolen pretty quickly. I felt so bad, but he ensured me 100 times that it was not a problem and that no one was using this bike. He was so good-heartedness.
-I will miss you JJ and I still own you a bike!
+I tried to persuade him to visit us in Freiburg at GCC 2019, but this was not possible so I was very happy to visit him in 2022 in Minneapolis - where he worked.
+As kind as he was, he offered me a bike, so I did not need to rent one every day to get to the venue. He cleaned the bike, put it into his care, and we assembled it at the venue. Long story short, 
+it was stolen pretty quickly. I felt so bad, but he assured me 100 times that it was not a problem and that no one was using this bike. He was so good-hearted.
+I will miss you JJ and I still owe you a bike!
 
 Björn Grüning</br>
 University of Freiburg
+
+------
