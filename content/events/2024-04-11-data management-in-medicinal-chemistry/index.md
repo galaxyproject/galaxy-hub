@@ -14,7 +14,5 @@ subsites: [eu, freiburg]
 main_subsite: freiburg
 ---
 Everyone interested in data management in medicinal chemistry is welcome to attend.
-
 Register now:[Data management in Medicinal Chemistry](https://elixiruknode.org/news/2024/data-management-medicinal-chemistry/)
-
 This course is funded as part of the UKRI Innovation Scholars. Data Science Training in Health and Bioscience call (DaSH ELIXIR UK). (MR/V038966/1)
