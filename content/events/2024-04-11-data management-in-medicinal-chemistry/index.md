@@ -1,7 +1,6 @@
 ---
 title: 'Data management in Medicinal Chemistry'
 date: '2024-04-11’
-end: '2024-04-11’
 tags: [training]
 contacts:
 - email: contact@elixiruknode.org
