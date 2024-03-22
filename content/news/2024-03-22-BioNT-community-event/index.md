@@ -46,7 +46,7 @@ We are so excited to learn about your ideas for the event!
 
 ## Important Information
 
-* The deadline for proposal submissions is the end of the day on 2 April 2024, anywhere on Earth. We will start reviewing the submitted proposals as they are received.
+* The deadline for proposal submissions is the end of the day on 19 April 2024, anywhere on Earth. We will start reviewing the submitted proposals as they are received.
 * Notification of accepted proposals will be sent to participants no later than 20 April
 * Event registration will open on 2 May
 * For updates, announcements and information about the event, please visit the event website
