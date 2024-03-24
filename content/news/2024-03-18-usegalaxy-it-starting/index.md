@@ -8,7 +8,7 @@ authors_structured:
 - github: Federico77z
 date: "2024-03-18"
 tags: [esg, esg-wp3]
-subsites: [all-eu, esg]
+subsites: [all-eu, esg, global]
 main_subsite: eu
 ---
 The Italian National Galaxy Server, UseGalaxy.it, is under development as part of the EOSC [**EuroScienceGateway**](/projects/esg/) (ESG) project's Work Package 3, which foresees 6 national Galaxy instances as a crucial component for providing scalable, highly available distributed computational infrastructure across Europe.
