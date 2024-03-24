@@ -6,6 +6,3 @@ title: "@ GalaxyProject"
 - [GalaxyProject on Mastodon](https://mstdn.science/@galaxyproject)
 - [Galaxy Training Network on Mastodon](https://mstdn.science/@gtn)
 
----
-
-- [GalaxyProject on Twitter](https://twitter.com/galaxyproject)
