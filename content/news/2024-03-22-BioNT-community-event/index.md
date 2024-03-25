@@ -1,5 +1,5 @@
 ---
-title: 'BioNT Community Event: Open call for porposal'
+title: 'BioNT Community Event: Open call for proposals'
 tease: "Are you interested in training and want to exchange and get to know other learning communities? BioNT, together with the Carpentries, is hosting a 3-day community event."
 authors: Teresa Müller
 date: '2024-03-22'
