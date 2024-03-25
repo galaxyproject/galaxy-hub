@@ -170,5 +170,7 @@ The GEB is a group of Galaxy advocates from around the world. It is currently (2
     * [Johns Hopkins University](https://jhu.edu/), United States
 * **[Wendi Bacon](https://www.open.ac.uk/people/wb2845)**
     * [The Open University](https://www.open.ac.uk/research/faculties), United Kingdom
+* **[Gareth Price](https://www.linkedin.com/in/gareth-price-60025b88/)**
+    * [QCIF](https://www.qcif.edu.au/), [The University of Queensland](https://www.uq.edu.au/), Australia
 
 <sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
