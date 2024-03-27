@@ -1,5 +1,15 @@
-<!--
 
+<div class="alert" style="background: #fc954e;">
+#### **Cluster Maintenance on April 8 and 9th**
+Starting from April 8th 2024, maintenance work will take place at our compute cluster, however our headnode servers are not affected. This means:
+<li> Our website will be reachable </li>
+<li> You can start jobs and workflows </li>
+<li> Jobs can remain in 'grey' state for several days </li>
+<li> You can not upload files </li>
+<li> Interactive tools will be aborted and you can not start new ones </li>
+The maintenance should be completed by April 10th and we will resume to normal operation then. Due to backlog in the job queue, job execution can take notably longer, please refrain from inquiries.
+</div>
+<!--
 <div class="alert" style="background: #68d4ff;">
 
 #### **Global Climate Strike on September 15th 2023**
