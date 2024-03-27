@@ -1,6 +1,6 @@
 
 <div class="alert" style="background: #fc954e;">
-#### **Cluster Maintenance April 8**
+#### **Cluster Maintenance on April 8 and 9th**
 Starting from April 8th 2024, maintenance work will take place at our compute cluster, however our headnode servers are not affected. This means:
 <li> Our website will be reachable </li>
 <li> You can start jobs and workflows </li>
