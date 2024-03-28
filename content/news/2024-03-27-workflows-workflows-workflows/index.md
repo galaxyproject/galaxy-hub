@@ -132,3 +132,40 @@ Markdown Comments also display text, but as rendered markdown. Editing the text 
 The main use for Markdown Comments is leaving longer, rich-text, explanations or notes.
 
 Most of the styling for this type of Comment is done with markdown itself, but just like all other Comments they can be assigned a colour, coloring the Comments border and contents.
+
+### 🔲 Frame Comments
+
+Frame Comments are a bit different from the two types of Comments we just looked at. They can only display a short bit of text at the top, and otherwise consist of a faintly coloured box. They are used to visually group parts of your workflow together, Steps and Comments alike.
+
+Placing Frame Comments is easy. Just select the frame comment tool, and drag around the Steps / Comments you want grouped in a frame. Don't worry about the exact placement too much, as you can use the "fit to content" button, to automatically resize the frame to fit your content with a comfortable margin.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lAOvpGRxTk4" title="Galaxy 23.2 - Workflow Comments -  Placing Frame Comments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Frame Comments also offer a convenience feature, which can help you in quickly re-arranging your Workflows. When a Frame Comment is moved, all it's contents stick to it, and are moved along with it.
+
+The grouping hierarchy of frame comments is saved on the workflow, so using Text- / Markdown Comments together with Frame Comments, can make it easier for other software to understand your Comments, if they implement support for Workflow Comments.
+
+⚠️ A word of caution: When importing your Workflows to Software other than the newest Galaxy version, Comments can be lost.
+Your Workflows will still function perfectly fine, since Workflow Comments are optional and the rest of your Workflow remains backwards compatible when using them.
+
+### 🖍 Freehand Comments
+
+Finally, there are Freehand Comments. These come with not one, but two new Editor Tools: the Freehand Pen, and the Freehand Eraser.
+
+Freehand Comments are drawings directly on your Workflow. The Freehand Pen has configurable smoothing, so these Comments are fairly easy to draw with a mouse. They are perfect for showing what you are referring to in live demos, leaving quick marks when reviewing or debugging a Workflow, drawing arrows to show what your Markdown Comment is referring to, etc. Also doodles.
+
+![a bunch of freehand comments drawn across an example workflow](./freehand-comments.png)
+
+Removing Freehand Comments is just as easy as drawing them. Either use the Freehand Eraser, or press the "Remove all" button in the Editor Tool Bar which appears when either the Pen or the Eraser is selected
+
+### 🗺️ Minimap
+
+It is also worth mentioning that all these Comments, and their colours, are rendered to the Minimap, in the lower right hand corner of the Workflow Editor, as can be seen in several examples above. This can make the Minimap much more useful in quicky getting your bearings on where you are in the Workflow, especially when making use of Frame Comments.
+
+## 💭 Final Thoughts
+
+We hope you these features a useful addition to your Workflow workflow, no matter how you may work with them. We're also excited for the possibilities the new Editor Tool Bar, Workflow Cards, Comments, and embeds offer for the future of Galaxy Workflows
+
+As always, please let us know if you have any feedback about these feature.
+
+Thanks for reading!
