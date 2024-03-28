@@ -80,3 +80,55 @@ _wide workflow card. mostly visible in list view_
 The cards themselves being responsive has the added benefit that when viewing the workflow list in list view on a narrow screen, it will display a narrow card, and similarly when viewing your workflows in grid view on a very wide screen, it will display the wide workflow card.
 
 ## 💬 Workflow Comments
+
+Workflow comments are a new set of features that enable you to visually to explain and structure your Workflows right inside the Workflow editor.
+Have a look at this example of a commented workflow (courtesy of [Helena](https://github.com/hexylena)):
+
+![PAP structural workflow in the workflow editor decorated and explained with comments](./example-workflow-virus.png)
+
+_tip: to learn how make high res workflow screenshots, have a look at [this GTN tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-posters/tutorial.html)_
+
+Comments are saved on your Workflow, so they can be shared with other Workflow contributors, help guide workflow users, or just help you keep track of your work and sort your thoughts, while developing a workflow. They can also help you with teaching, live demos, and providing feedback on a workflow, all directly inside the Workflow editor.
+
+### 🛠️ Editor Tool Bar
+
+<img style="float: left; margin-right: 1rem;" alt="toolbar with tools for placing comments in the workflow editor" src="./toolbar.png" />
+
+![the context aware top portion of the editor toolbar](./toolbar-top.png)
+
+To quickly place workflow comments a set of "editor tools" have been added to a brand new UI element in the workflow editor: the Editor Toolbar.
+
+This new feature allows you to select tools other than the mouse pointer to edit and decorate your Workflow. In this update, the new features present in the Toolbar mostly center around the new Workflow Comments (with exception of the cursor and magnet-snapping), but additional general editor tools may be implemented in the future.
+
+<div style="clear: left;"></div>
+
+### 🧲 Snapping
+
+<img style="float: right; margin-left: 1rem;" alt="toolbar with snapping selected" src="./snapping-tool.png" />
+
+Our first new editor tool can be used on Steps as well as Comments. The snapping editor tool is a toggle, and when turned on, you will notice a new option appear right next to the Toolbar.
+
+Whenever this option is shown while using an editor tool (such as the cursor), snapping is active. The slider can be used to adjust the strength of the snap. Using snapping makes it super easy to align your Steps and Comments to the Workflow gird!
+
+<div style="clear: right;"></div>
+
+### 🔤 Text Comments
+
+The first type of Comment in the Editor Toolbar is a simple Text Comment.
+Text Comments are just free floating text, which can be styled. It's main uses include section headings and short comments.
+
+To place a Text comment, select the Text Comment Tool, then drag a box which determines where your new Comment will be placed. Finally begin typing, to change the Text in the comment.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ndPeBov5O0s" title="Galaxy 23.2 - Workflow Comments - Placing Text Comments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+In the menu that pops up when a Comment is selected, it can be Styled in multiple ways, making the whole text italic, bold, coloured, or larger / smaller.
+
+### 📝 Markdown Comments
+
+Markdown Comments also display text, but as rendered markdown. Editing the text will display the raw text, and selecting anything else will show the Comment in a rendered state. They also come with a border and background, and scroll if they overflow.
+
+![six markdown comments with example text in different colors](./markdown-comments.png)
+
+The main use for Markdown Comments is leaving longer, rich-text, explanations or notes.
+
+Most of the styling for this type of Comment is done with markdown itself, but just like all other Comments they can be assigned a colour, coloring the Comments border and contents.
