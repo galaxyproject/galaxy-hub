@@ -62,7 +62,7 @@ Now that you know what an embed is and how it works, we'd love to see your inter
 
 ## 💌 Workflow Cards
 
-Thw workflow list has a all new look.
+The workflow list has a all new look.
 
 Instead of a table, you will find that you now have a choice of two views: a list view, and a grid view.
 
