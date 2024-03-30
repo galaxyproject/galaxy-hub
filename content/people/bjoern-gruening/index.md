@@ -1,4 +1,4 @@
-<div class='right'><img src="/galaxy-team/BjoernGruening.jpg" alt="Björn Grüning"</div>
+<div class='right'><img src="/galaxy-team/BjoernGruening.jpg" alt="Björn Grüning"></div>
 
 
 # Björn Grüning
