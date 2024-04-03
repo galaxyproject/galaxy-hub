@@ -3,7 +3,7 @@
         <b-carousel
             id="carousel-1"
             v-model="slide"
-            :interval="4000"
+            :interval="5000"
             controls
             indicators
             background="#ababab"
@@ -25,12 +25,6 @@
                 <b-carousel-slide
                     img-src="/images/NewToGalaxy.jpeg"
                     img-alt="Galaxy 23.2 is live! A few updates and new features to highlight include new Workflow Comments, the integration of InvenioRDM, and improvements to Workflow Sharing."
-                ></b-carousel-slide>
-            </a>
-            <a href="https://jxtxfoundation.org/news/2024-2-19-gcc/" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/events/gcc2024/jxtx-gcc2024-fellowships.png"
-                    img-alt="JXTX Foundation fellowships available for participating in GCC2024."
                 ></b-carousel-slide>
             </a>
             <a href="https://www.biorxiv.org/content/10.1101/2023.06.28.546576v1.full" target="_blank">

@@ -45,22 +45,16 @@ registering and ask for a 50% discount code that you can apply during
 registration. The [list of eligible low-income countries is available in this
 document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
-**If you are a student, the [JXTX foundation](https://jxtxfoundation.org/) is
-offering 6 graduate student fellowships** to participate at GCC2024. Check out
-the [foundation website](https://jxtxfoundation.org/news/2024-2-19-gcc/) for
-full details and the application form. The application deadline is March 31,
-2024.
-
 **If you are a GTN trainer or a member of the scientific committee at GCC2024**
 and are in need of financial help, please email the [event
 organizers](mailto:gcc2024-org@gaggle.email) and a discount code will be
 provided.
 
-|                                    | Early (<= Feb 29) | Full (<= May 25) | Late (<= Jun 15) |
+|                                    | ~~Early (<= Feb 29)~~ | Full (<= May 25) | Late (<= Jun 15) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc                    | EUR360 | EUR460 | EUR570   |
-| Academic / Non-Profit / Government | EUR460 | EUR565 | EUR670   |
-| Industry                           | EUR620 | EUR770 | EUR920   |
+| Student/postdoc                    | ~~EUR360~~ | EUR460 | EUR570   |
+| Academic / Non-Profit / Government | ~~EUR460~~ | EUR565 | EUR670   |
+| Industry                           | ~~EUR620~~ | EUR770 | EUR920   |
 | Conference dinner                  |        |        | EUR70    |
 
 \* Please note that the above prices do not include the mandatory 21% VAT, which
