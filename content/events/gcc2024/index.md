@@ -90,7 +90,7 @@ in mind. These tend to sneak up on you!
 
 
 <!-- Fellowships -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <!-- <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2024/fellowships.png" class="card-img-top" alt="Fellowships" />
     <div class="card-header">Fellowships are available</div>
 
@@ -104,7 +104,7 @@ conference.
 application form are available on the [JXTX
 website](https://jxtxfoundation.org/news/2024-2-19-gcc/).
 
-  </div>
+  </div> -->
 
 
   <!-- Training -->

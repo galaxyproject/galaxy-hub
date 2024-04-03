@@ -15,7 +15,7 @@ understand and don't mind.
 | -----: | ---  |
 | ~~Jan 17~~ | [Early registration opens](/events/gcc2024/register/) |
 | ~~Mar 1~~  | [Early registration closes / Regular registration opens](/events/gcc2024/register/) |
-| Mar 31 | [JXTX fellowship application deadline](https://jxtxfoundation.org/news/2024-2-19-gcc/) |
+| ~~Mar 31~~ | [JXTX fellowship application deadline](https://jxtxfoundation.org/news/2024-2-19-gcc/) |
 | Apr 15 | [Abstracts due for talks](/events/gcc2024/abstracts/) |
 | May 1  | Talk reviews returned |
 | May 15 | [Abstracts due for posters/demos](/events/gcc2024/abstracts/) |
