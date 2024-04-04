@@ -21,12 +21,6 @@
                     img-alt="GCC2024 abstracts are due April 15."
                 ></b-carousel-slide>
             </a>
-            <a href="https://docs.galaxyproject.org/en/master/releases/23.2_announce_user.html" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/NewToGalaxy.jpeg"
-                    img-alt="Galaxy 23.2 is live! A few updates and new features to highlight include new Workflow Comments, the integration of InvenioRDM, and improvements to Workflow Sharing."
-                ></b-carousel-slide>
-            </a>
             <a href="https://www.biorxiv.org/content/10.1101/2023.06.28.546576v1.full" target="_blank">
                 <b-carousel-slide
                     img-src="/images/Paper_Alert_August2023.jpg"
