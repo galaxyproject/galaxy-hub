@@ -1,20 +1,20 @@
 ---
-description: "Users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities."
+description: "Users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell and spatial omics capabilities."
 autotoc: true
-title: "Galaxy Single Cell Community of Practice"
+title: "Galaxy Single-cell & Spatial Omics Community of Practice"
 ---
 
 <slot name="/community/sig/common_linkbox" />
 
 <img class="img-fluid float-right" src="/community/sig/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
 
-We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell capabilities.
+We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell and spatial omics capabilities.
  - **Developers**: Are you developing single cell tools in Galaxy, or looking for a place to develop in Galaxy? Do you need users, testers, or just want to make sure you're not wrapping the same tools as someone else!
  - **Users**: Do you use Galaxy single cell tools for scRNA-seq or beyond? Do you have feedback for us? Want to be a tester of new resources? Do you want to request new resources?
  - **Trainers**: Do you use Galaxy to train others in single cell analysis? Do you have feedback or requests on how we can support users better now and in the future?
 Do you want to impact the future of single cell in Galaxy?
 
-**Welcome to the Galaxy Single-Cell Community of Practice!**
+**Welcome to the Galaxy Single-cell & Spatial Omics Community of Practice!**
 
 ## I'm just trying to learn to analyse my data, how did I get here?
 Hello user! You'll be interested in the following resources:
@@ -27,7 +27,7 @@ Hello user! You'll be interested in the following resources:
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
 
-# What are the goals of the single cell community of practice?
+# What are the goals of the single-cell and spatial omics community of practice?
 
 <i class="fa fa-bullseye" aria-hidden="true"></i> Goals
 - Prevent work duplication
@@ -44,7 +44,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 
 # How do we function?
 
-**Meetings** We meet every 6 weeks (alternating USA and AU time zones) for 1 hour.
+**Meetings** We meet every 6 weeks (alternating USA, EU and AU time zones) for 1 hour.
 
 Our meeting agenda is:
 1. Random intro chatter & introductions
@@ -90,3 +90,5 @@ Single cell multiomics
 ScanPy
 Seurat
 AnnData
+Spatial transcriptomics
+Spatial omics
