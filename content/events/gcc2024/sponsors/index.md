@@ -39,7 +39,9 @@ affordable and accessible.
 
 ## Silver sponsors
 
-- Bring your best smile to showcase it at a booth!
+<a href="https://galaxyworks.io/" target="_blank">
+  <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 25%;" />
+</a>
 
 <hr/>
 
@@ -56,10 +58,6 @@ affordable and accessible.
 
 <a href="https://www.limagrain.com/en" target="_blank">
   <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%; padding-right: 2rem;" />
-</a>
-
-<a href="https://galaxyworks.io/" target="_blank">
-  <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 25%;" />
 </a>
 
 <hr/>
