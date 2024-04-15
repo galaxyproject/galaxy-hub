@@ -87,6 +87,15 @@ const RSS_PLUGIN = {
     },
 };
 
+const PLAUSIBLE_PLUGIN = {
+    use: "gridsome-plugin-plausible-analytics",
+    options: {
+        customDomain: "plausible.galaxyproject.eu",
+        dataDomain: "galaxyproject.org",
+        outboundLinkTracking: false,
+    },
+};
+
 function mkPlugins(collections) {
     // Path globbing rules: https://www.npmjs.com/package/globby#user-content-globbing-patterns
     let plugins = [
@@ -206,7 +215,7 @@ module.exports = {
     siteUrl: `https://${CONFIG.host}`,
     icon: "./src/favicon.png",
     templates: mkTemplates(CONFIG["collections"]),
-    plugins: [SITEMAP_PLUGIN, RSS_PLUGIN, ...mkPlugins(CONFIG["collections"])],
+    plugins: [SITEMAP_PLUGIN, RSS_PLUGIN, PLAUSIBLE_PLUGIN, ...mkPlugins(CONFIG["collections"])],
     css: {
         loaderOptions: {
             scss: {
