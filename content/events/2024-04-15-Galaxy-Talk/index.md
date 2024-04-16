@@ -5,7 +5,7 @@ days: 1
 tease: "We present the Galaxy project and the European Galaxy Server with its features and applications for scientists"
 continent: EU
 location:
-  name: "University of Freiburg, Bibliothek der Biometrie im Herderbau, Tennenbacher Str. 46, Raum 03.060, 79104 Freiburg"
+  name: "Time: 16:00 (s.t.), Location: University of Freiburg, Bibliothek der Biometrie im Herderbau, Tennenbacher Str. 46, Raum 03.060, 79104 Freiburg"
 contact: "Anika Erxleben-Eggenhofer"
 tags: [talk]
 supporters:
