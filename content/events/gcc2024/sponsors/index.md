@@ -32,8 +32,9 @@ affordable and accessible.
 
 ## Gold sponsors
 
-- A great opportunity to put your logo here and help a community of students and academics!
-
+<a href="https://jxtxfoundation.org/" target="_blank">
+  <img src="/images/logos/jxtx-logo.png" alt="JXTX Foundation" style="max-width: 25%;" />
+</a>
 <hr/>
 
 
