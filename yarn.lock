@@ -5047,6 +5047,11 @@ core-js-pure@^3.16.0:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.18.0.tgz#e5187347bae66448c9e2d67c01c34c4df3261dc5"
   integrity sha512-ZnK+9vyuMhKulIGqT/7RHGRok8RtkHMEX/BGPHkHx+ouDkq+MUvf9mfIgdqhpmPDu8+V5UtRn/CbCRc9I4lX4w==
 
+core-js@^3.21.0:
+  version "3.36.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.36.1.tgz#c97a7160ebd00b2de19e62f4bbd3406ab720e578"
+  integrity sha512-BTvUrwxVBezj5SZ3f10ImnX2oRByMxql3EimVqMysepbC9EeMUOpLwdy6Eoili2x6E4kf+ZUB5k/+Jv55alPfA==
+
 core-js@^3.6.4, core-js@^3.6.5:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.9.1.tgz#cec8de593db8eb2a85ffb0dbdeb312cb6e5460ae"
@@ -7574,6 +7579,13 @@ gridsome-plugin-feed@^1.0.2:
     fs-extra "^8.1.0"
     micromatch "^4.0.2"
     moment "^2.24.0"
+
+gridsome-plugin-plausible-analytics@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-plausible-analytics/-/gridsome-plugin-plausible-analytics-1.2.0.tgz#8beae724a48a5032126bbe7b382033dff6e449fb"
+  integrity sha512-bYofqUwlCFEbdhvK6AHWM4/LWZVLnl1MHOE0GHoGeyabRqiSjCOG9dWIu/J4mIlHlEK92oacgXubAJUh6reQ/A==
+  dependencies:
+    core-js "^3.21.0"
 
 gridsome@^0.7.0:
   version "0.7.23"
