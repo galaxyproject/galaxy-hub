@@ -151,3 +151,14 @@ managed stakeholder relations and grant participations. Earlier in her career,
 Ute was the managing director of the International Communications Unit at Media
 Consulta International Holding AG in Berlin. She holds a master’s degree in
 history and politics.
+
+
+## Social Programme
+### Conference Dinner
+The conference dinner will take place in the [Augistinian Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno) at Mendel's square, the place where Gregor Mendel conducted his experiments.
+
+### Wednesday Afternoon
+The social programme will take place on the afternoon of Wednesday the 26th and will give you an opportunity to explore the city and its sights.
+
+- A guided tour of the city titled "Brno Ringstrasse", drawing a comparison to the architecture of Vienna.
+- Explore the main sights of the city centre in our [guided tours](https://www.gotobrno.cz/en/explore-brno/) organized by the Brno Tourist Information Centre, including the Old Town Hall, St Peter's Cathedral, the Freedom and Market Square.
