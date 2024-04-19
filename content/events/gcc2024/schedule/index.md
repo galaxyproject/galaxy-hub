@@ -160,10 +160,14 @@ During the dinner, participants have free access to the [Mendel Museum](https://
 Participants may join the guided tours of the abbey including Mendel's room and the library shortly before or after the dinner during the course of the evening.
 
 ### Wednesday Afternoon
-The social programme will take place on the afternoon of Wednesday the 26th and will give you an opportunity to explore the city and its sights.
+The social programme will take place on the afternoon of Wednesday the 26th and will give you an opportunity to explore the city and its sights with an experienced guide, rather than on your own. Please note that places for all activities are limited.
+
 #### City Tours
-A guided tour of the city titled "Brno Ringstrasse", drawing a comparison to the architecture of Vienna.
+Join us on one of the guided tours offered as part of this years Galaxy Community Conference.
+Our first guided tour of the city titled "Brno Ringstrasse" with Don Sparling, founder of the Brno Expat Centre, is drawing a comparison to the architecture of Vienna and will show you the city from a unique perspective.
 Explore the main sights of the city centre in our [guided tours](https://www.gotobrno.cz/en/explore-brno/) organized by the Brno Tourist Information Centre, including the Old Town Hall, St Peter's Cathedral as well as the Freedom and Market Square.
 
 #### Villa Tugendhat
 Those interested in architecture will have the unique opportunity to visit the UNESCO World Heritage [Villa Tugendhat](https://www.tugendhat.eu/en/) in an exclusive guided tour for conference participants.
+
+For more information on Villa Tugendhat, head to the [travel](../travel/index.md) page
