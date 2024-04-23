@@ -31,6 +31,6 @@ pub_libraries:
 sponsors:
   - "[E-Infra CZ](https://www.e-infra.cz/)"
   - "[ELIXIR CZ](https://www.elixir-czech.cz/)"
-  - "[MetaCentrum](https://metavo.metacentrum.cz/"
+  - "[MetaCentrum](https://metavo.metacentrum.cz/)"
   - "[CESNET](https://www.cesnet.cz/)"
 ---
