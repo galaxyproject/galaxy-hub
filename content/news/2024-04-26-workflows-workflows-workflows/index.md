@@ -1,14 +1,14 @@
 ---
 title: "Workflows Workflows Workflows!"
-tease: "Comments, Embeds, Cards... Many new exiting features have arrived to Workflows. Let's have a look at what they are, do, and how you can use them to super-power your Workflow workflow"
+tease: "Comments, Embeds, Cards... Many new exciting features have arrived in Galaxy Workflows. Let's have a look at what they are, do, and how you can use them to super-power your Workflow workflow"
 hide-tease: false
 authors: "Laila Los"
-date: "2024-03-27"
+date: "2024-04-26"
 tags: ["UI/UX", "highlight"]
 subsites: [global]
 ---
 
-In the past few updates to Galaxy, many exiting changes and additions have arrived to workflows.
+In the past few updates to Galaxy, many exciting changes and additions have arrived to workflows.
 
 In this article, we'd like to shine a spotlight on three of them, which we are particularly excited about!
 
@@ -23,7 +23,7 @@ And it's also the first feature we'd like to show you: **Workflow Embeds**
 This is the workflow editor, hosted on usegalaxy.eu, embedded inside the community hub (this site!).
 You can drag it around, zoom in and out, view the workflow on usegalaxy.eu, or download it directly here, all fully interactive.
 
-This does not just work on the community hub, it works on any website. Galaxy workflows are now fully embedable, like a YouTube video embed.
+This does not just work on the community hub, it works on any website. Galaxy workflows are now fully embeddable, like a YouTube video embed.
 
 Powering this embed is the workflow editor in a read-only mode.
 
@@ -36,7 +36,7 @@ Go to the list of your workflows, and click "Share".
 
 _notice how this list looks a bit different than it used to? Hold that thought_
 
-Now make sure "Make workflow accessible" is turned on, and scroll down to the all new "Embed Workflow" section.
+Now make sure "Make workflow accessible" is turned on, and scroll down to the all-new "Embed Workflow" section.
 
 ### ✅ Embed Options
 
@@ -62,11 +62,11 @@ Now that you know what an embed is and how it works, we'd love to see your inter
 
 ## 💌 Workflow Cards
 
-The workflow list has a all new look.
+The workflow list has a all-new look.
 
 Instead of a table, you will find that you now have a choice of two views: a list view, and a grid view.
 
-In both workflows are represented by responsive workflow cards, which have all the options as before, in a all new layout.
+In both workflows are represented by responsive workflow cards, which have all the options as before, in a all-new layout.
 The workflow list will remember your preferred view, so you do not have to switch it every time you access your list of workflows.
 
 ![a workflow card in narrow view, taking up little horizontal space](./workflow-card-narrow.png)
@@ -75,20 +75,20 @@ _narrow workflow card. mostly visible in grid view_
 
 ![a workflow card in wide view, taking up much horizontal, and less vertical space](./workflow-card-wide.png)
 
-_wide workflow card. mostly visible in list view_
+_wide workflow card. mostly visible in the list view_
 
 The cards themselves being responsive has the added benefit that when viewing the workflow list in list view on a narrow screen, it will display a narrow card, and similarly when viewing your workflows in grid view on a very wide screen, it will display the wide workflow card.
 
 ## 💬 Workflow Comments
 
-Workflow comments are a new set of features that enable you to visually to explain and structure your Workflows right inside the Workflow editor.
+Workflow comments are a new set of features that enable you to visually explain and structure your Workflow right inside the Workflow editor.
 Have a look at this example of a commented workflow (courtesy of [Helena](https://github.com/hexylena)):
 
 ![PAP structural workflow in the workflow editor decorated and explained with comments](./example-workflow-virus.png)
 
-_tip: to learn how make high res workflow screenshots, have a look at [this GTN tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-posters/tutorial.html)_
+_tip: to learn how to make high res workflow screenshots, have a look at [this GTN tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-posters/tutorial.html)_
 
-Comments are saved on your Workflow, so they can be shared with other Workflow contributors, help guide workflow users, or just help you keep track of your work and sort your thoughts, while developing a workflow. They can also help you with teaching, live demos, and providing feedback on a workflow, all directly inside the Workflow editor.
+Comments are saved on your Workflow, so they can be shared with other Workflow contributors, help guide workflow users, or just help you keep track of your work and sort your thoughts while developing a workflow. They can also help you with teaching, live demos, and providing feedback on a workflow, all directly inside the Workflow editor.
 
 ### 🛠️ Editor Tool Bar
 
@@ -98,7 +98,7 @@ Comments are saved on your Workflow, so they can be shared with other Workflow c
 
 To quickly place workflow comments a set of "editor tools" have been added to a brand new UI element in the workflow editor: the Editor Toolbar.
 
-This new feature allows you to select tools other than the mouse pointer to edit and decorate your Workflow. In this update, the new features present in the Toolbar mostly center around the new Workflow Comments (with exception of the cursor and magnet-snapping), but additional general editor tools may be implemented in the future.
+This new feature allows you to select tools other than the mouse pointer to edit and decorate your Workflow. In this update, the new features present in the Toolbar mostly center around the new Workflow Comments (with the exception of the cursor and magnet-snapping), but additional general editor tools may be implemented in the future.
 
 <div style="clear: left;"></div>
 
@@ -108,14 +108,14 @@ This new feature allows you to select tools other than the mouse pointer to edit
 
 Our first new editor tool can be used on Steps as well as Comments. The snapping editor tool is a toggle, and when turned on, you will notice a new option appear right next to the Toolbar.
 
-Whenever this option is shown while using an editor tool (such as the cursor), snapping is active. The slider can be used to adjust the strength of the snap. Using snapping makes it super easy to align your Steps and Comments to the Workflow gird!
+Whenever this option is shown while using an editor tool (such as the cursor), snapping is active. The slider can be used to adjust the strength of the snap. Using snapping makes it super easy to align your Steps and Comments to the Workflow grid!
 
 <div style="clear: right;"></div>
 
 ### 🔤 Text Comments
 
 The first type of Comment in the Editor Toolbar is a simple Text Comment.
-Text Comments are just free floating text, which can be styled. It's main uses include section headings and short comments.
+Text Comments are just free-floating text, which can be styled. Its main uses include section headings and short comments.
 
 To place a Text comment, select the Text Comment Tool, then drag a box which determines where your new Comment will be placed. Finally begin typing, to change the Text in the comment.
 
@@ -125,28 +125,28 @@ In the menu that pops up when a Comment is selected, it can be Styled in multipl
 
 ### 📝 Markdown Comments
 
-Markdown Comments also display text, but as rendered markdown. Editing the text will display the raw text, and selecting anything else will show the Comment in a rendered state. They also come with a border and background, and scroll if they overflow.
+Markdown Comments also display text but as rendered markdown. Editing the text will display the raw text, and selecting anything else will show the Comment in a rendered state. They also come with a border and background, and scroll if they overflow.
 
 ![six markdown comments with example text in different colors](./markdown-comments.png)
 
 The main use for Markdown Comments is leaving longer, rich-text, explanations or notes.
 
-Most of the styling for this type of Comment is done with markdown itself, but just like all other Comments they can be assigned a colour, coloring the Comments border and contents.
+Most of the styling for this type of Comment is done with markdown itself, but just like all other Comments, they can be assigned a colour, coloring the Comments border and contents.
 
 ### 🔲 Frame Comments
 
-Frame Comments are a bit different from the two types of Comments we just looked at. They can only display a short bit of text at the top, and otherwise consist of a faintly coloured box. They are used to visually group parts of your workflow together, Steps and Comments alike.
+Frame Comments are a bit different from the two types of Comments we just looked at. They can only display a short bit of text at the top and otherwise consist of a faintly coloured box. They are used to visually group parts of your workflow together, Steps and Comments alike.
 
 Placing Frame Comments is easy. Just select the frame comment tool, and drag around the Steps / Comments you want grouped in a frame. Don't worry about the exact placement too much, as you can use the "fit to content" button, to automatically resize the frame to fit your content with a comfortable margin.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lAOvpGRxTk4" title="Galaxy 23.2 - Workflow Comments -  Placing Frame Comments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Frame Comments also offer a convenience feature, which can help you in quickly re-arranging your Workflows. When a Frame Comment is moved, all it's contents stick to it, and are moved along with it.
+Frame Comments also offer a convenience feature, which can help you in quickly re-arranging your Workflows. When a Frame Comment is moved, all its contents stick to it, and are moved along with it.
 
-The grouping hierarchy of frame comments is saved on the workflow, so using Text- / Markdown Comments together with Frame Comments, can make it easier for other software to understand your Comments, if they implement support for Workflow Comments.
+The grouping hierarchy of frame comments is saved on the workflow, so using Text- / Markdown Comments together with Frame Comments can make it easier for other software to understand your Comments if they implement support for Workflow Comments.
 
 ⚠️ A word of caution: When importing your Workflows to Software other than the newest Galaxy version, Comments can be lost.
-Your Workflows will still function perfectly fine, since Workflow Comments are optional and the rest of your Workflow remains backwards compatible when using them.
+Your Workflows will still function perfectly fine since Workflow Comments are optional and the rest of your Workflow remains backwards compatible when using them.
 
 ### 🖍 Freehand Comments
 
@@ -156,11 +156,11 @@ Freehand Comments are drawings directly on your Workflow. The Freehand Pen has c
 
 ![a bunch of freehand comments drawn across an example workflow](./freehand-comments.png)
 
-Removing Freehand Comments is just as easy as drawing them. Either use the Freehand Eraser, or press the "Remove all" button in the Editor Tool Bar which appears when either the Pen or the Eraser is selected
+Removing Freehand Comments is just as easy as drawing them. Either use the Freehand Eraser or press the "Remove all" button in the Editor Tool Bar which appears when either the Pen or the Eraser is selected
 
 ### 🗺️ Minimap
 
-It is also worth mentioning that all these Comments, and their colours, are rendered to the Minimap, in the lower right hand corner of the Workflow Editor, as can be seen in several examples above. This can make the Minimap much more useful in quicky getting your bearings on where you are in the Workflow, especially when making use of Frame Comments.
+It is also worth mentioning that all these Comments, and their colours, are rendered to the Minimap, in the lower right-hand corner of the Workflow Editor, as can be seen in several examples above. This can make the Minimap much more useful in quickly getting your bearings on where you are in the Workflow, especially when making use of Frame Comments.
 
 ## 🌍 More Embeds
 
@@ -174,8 +174,9 @@ Check out these embedded workflows from the Galaxy community.
 
 ## 💭 Final Thoughts
 
-We hope you these features a useful addition to your Workflow workflow, no matter how you may work with them. We're also excited for the possibilities the new Editor Tool Bar, Workflow Cards, Comments, and embeds offer for the future of Galaxy Workflows
+We hope you these features a useful addition to your Workflow workflow, no matter how you may work with them. We're also
+excited for the possibilities the new Editor Tool Bar, Workflow Cards, Comments, and embeds offer for the future of Galaxy Workflows
 
-As always, please let us know if you have any feedback about these feature.
+As always, please let us know if you have any feedback about these features.
 
 Thanks for reading!
