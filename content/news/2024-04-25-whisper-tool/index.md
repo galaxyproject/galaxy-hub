@@ -19,7 +19,7 @@ Please follow these steps:
 
 a) Upload your audio or video file to the Galaxy.
 
-b) Open Speech to Text tool suite on [Galaxy Europe](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/whisper/whisper/20231117+galaxy0).
+b) Open Speech to Text tool suite on [Galaxy Europe](https://usegalaxy.eu/root?tool_id=whisper).
 
 c) Select desired model for transcription and the language of the speech or use automatic language detection.
 
