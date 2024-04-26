@@ -18,7 +18,7 @@ It sure is!
 
 And it's also the first feature we'd like to show you: **Workflow Embeds**
 
-<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=6e0330de5d80e619&embed=true&buttons=true&about=false&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=0.5"></iframe>
+<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=a80f9b926ba43892&embed=true&buttons=true&about=false&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=0.5"></iframe>
 
 This is the workflow editor, hosted on usegalaxy.eu, embedded inside the community hub (this site!).
 You can drag it around, zoom in and out, view the workflow on usegalaxy.eu, or download it directly here, all fully interactive.
@@ -161,6 +161,16 @@ Removing Freehand Comments is just as easy as drawing them. Either use the Freeh
 ### 🗺️ Minimap
 
 It is also worth mentioning that all these Comments, and their colours, are rendered to the Minimap, in the lower right hand corner of the Workflow Editor, as can be seen in several examples above. This can make the Minimap much more useful in quicky getting your bearings on where you are in the Workflow, especially when making use of Frame Comments.
+
+## 🌍 More Embeds
+
+Check out these embedded workflows from the Galaxy community.
+
+<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=a705370bc2c13d5c&embed=true&buttons=true&about=false&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=0.5"></iframe>
+
+<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=6e0330de5d80e619&embed=true&buttons=true&about=false&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=0.5"></iframe>
+
+<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=585c21b7b1d864fc&embed=true&buttons=true&about=false&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=0.5"></iframe>
 
 ## 💭 Final Thoughts
 
