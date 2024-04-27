@@ -20,3 +20,8 @@ a refund at the discretion of the conference organizers.
 
 Details of the the Code of Conduct can be read in the [Galaxy community Code of
 Conduct](/community/coc/).
+
+**The conference registration desk will offer stickers for adding to name badges
+that indicate personal preferences around physical distance (Red: I'm keeping my
+distance right now; Yellow: Avoiding contact but happy to chat; Green: Open to
+handshakes (or hugs!).**

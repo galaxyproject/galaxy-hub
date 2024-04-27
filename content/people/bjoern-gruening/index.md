@@ -1,4 +1,4 @@
-<div class='right'>![](/galaxy-team/BjoernGruening.jpg)</div>
+<div class='right'><img src="/galaxy-team/BjoernGruening.jpg" alt="Björn Grüning"></div>
 
 
 # Björn Grüning
@@ -28,4 +28,10 @@ Georges-Köhler-Allee 106 <br />
     <th> URL </th>
     <td> <a href='https://github.com/bgruening'>GitHub page</a> </td>
   </tr>
+  <tr>
+    <th> Mastodon </th>
+    <td> <a rel="me" href="https://fosstodon.org/@bgruening">Mastodon</a> </td>
+  </tr>
+
+  
 </table>

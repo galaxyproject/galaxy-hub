@@ -6,9 +6,50 @@ autotoc: false
 
 # GCC2023 Sponsors
 
-Galaxy Project's flagship conference gathers users, adopters, and developers
-from open source communities working on data intensive applications. GCC aims to
-broaden advancement and adoption of the Galaxy platform.
+GCC sponsors are potential partners in everyone's success, plus they make GCC
+affordable and accessible.
+
+## Platinum sponsor
+
+<a href="https://www.bizdata.com.au/" target="_blank">
+  <img src="/images/logos/bizdata-logo.png" alt="BizData" style="max-width: 50%;" />
+</a>
+
+## Silver sponsors
+
+<a href="https://www.limagrain.com/en" target="_blank">
+  <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 30%;" />
+</a>
+<a href="https://galaxyworks.io/" target="_blank">
+  <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 30%;" />
+</a>
+
+<hr/>
+
+## Bronze sponsors
+
+<a href="http://www.gigasciencejournal.com/" target="_blank">
+  <img src="/images/logos/gigascience-logo-hires.png" alt="GigaScience" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+
+<hr/>
+
+## GCC2023 host: Galaxy Australia
+
+GCC2023 is hosted by **[Galaxy Australia](https://usegalaxy-au.github.io/)** and **[Australian BioCommons](https://www.biocommons.org.au/)**.
+
+<div class="center">
+  <a href="https://usegalaxy-au.github.io/">
+    <img src="https://usegalaxy-au.github.io/assets/media/Galaxy_australia_white.png"
+      alt="Galaxy Australia" height="120" />
+  </a> &nbsp;&nbsp;
+  <a href="https://www.biocommons.org.au/">
+    <img src="https://images.squarespace-cdn.com/content/v1/5d3a4213cf4f5b00014ea1db/1566885344365-8BAMFYV0071E8F8XLWI5/Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png?format=1500w"
+      alt="Australian Biocommons" height="120" />
+  </a>
+</div>
+
+<hr/>
 
 ## Benefits of GCC sponsorship
 
@@ -32,25 +73,7 @@ broaden advancement and adoption of the Galaxy platform.
 
 ## Our thank you to the sponsors
 
-Sponsors are potential partners in everyone's success, plus they make GCC
-affordable and accessible We make a strong effort to seamlessly integrate
-sponsors and their events into the broader GCC program, as well as promote
-participant engagement. Furthermore, sponsor talks are generally scheduled
-immediately preceding or following a keynote talk to maximize their attendance.
-
-# GCC2023 host: Galaxy Australia
-
-<div class="center">
-  <a href="https://usegalaxy-au.github.io/">
-    <img src="https://usegalaxy-au.github.io/assets/media/Galaxy_australia_white.png"
-      alt="Galaxy Australia" height="120" />
-  </a> &nbsp;&nbsp;
-  <a href="https://www.biocommons.org.au/">
-    <img src="https://images.squarespace-cdn.com/content/v1/5d3a4213cf4f5b00014ea1db/1566885344365-8BAMFYV0071E8F8XLWI5/Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png?format=1500w"
-      alt="Australian Biocommons" height="120" />
-  </a>
-</div>
-
-<br />
-
-GCC2023 is hosted by **[Galaxy Australia](https://usegalaxy-au.github.io/)** and **[Australian BioCommons](https://www.biocommons.org.au/)**.
+We make a strong effort to seamlessly integrate sponsors and their events into
+the broader GCC program, as well as promote participant engagement. Furthermore,
+sponsor talks are generally scheduled immediately preceding or following a
+keynote talk to maximize their attendance.

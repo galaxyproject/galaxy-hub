@@ -4,26 +4,13 @@ autotoc: false
 
 <slot name="/events/gcc2023/header" />
 
-<div class="text-center my-5">
-    <a target="_blank" href="https://gcc-2023.eventbrite.com.au/" type="button" class="btn btn-primary center">
-        <strong>Register now</strong>
-    </a>
-    <br>
-    <a target="_blank" href="https://forms.gle/ETCPW8Vnprbij7zn6" type="button" class="btn btn-primary center">
-        <strong>Submit an abstract</strong>
-    </a>
-</div>
 
 # Registration
-
-Conference registration is handled via an Eventbrite portal. Click the
-`Register now` button above to access the portal. After registering, you will
-receive a confirmation email with the registration details.
 
 
 ## Meeting: July 10-13
 
-The general meeting portion of GCC2023 will consist of a series of peer-reviewed
+The general meeting portion of GCC2023 consist of a series of peer-reviewed
 talks, posters, demos, training, Birds-of-a-Feather meetups, and sponsor sessions.
 
 The registration fee includes admission to the meeting events, morning/afternoon
@@ -41,15 +28,16 @@ to see how these numbers compare.
 
 **If you are currently working in a low-income country**, as defined by the
 World Bank, please email [Jenn Vessio](mailto:jvessio1@jhu.edu) before
-registering and ask for a 20% discount code that you can apply during
-registration.
+registering and ask for a 50% discount code that you can apply during
+registration. The [list of eligible countries is available in this
+document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
 | | Early (< May 12) | Full (<= June 16) | Late (> June 16) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc     | AU$350 | AU$450 | AU$550 |
-| Academic / Non-Profit / Government | AU$450 | AU$550 | AU$750 |
-| Industry            | AU$600 | AU$800 | AU$1,000 |
-| Conference dinner            | |  | AU$65 |
+| Student/postdoc     | ~~AU$350~~ | ~~AU$450~~ | ~~AU$550~~ |
+| Academic / Non-Profit / Government | ~~AU$450~~ | ~~AU$550~~ | ~~AU$750~~ |
+| Industry            | ~~AU$600~~ | ~~AU$800~~ | ~~AU$1,000~~ |
+| Conference dinner            | |  | ~~AU$65~~ |
 
 
 ### Virtual meeting attendance
@@ -63,7 +51,7 @@ channel.
 
 | | |
 | --- | ---: |
-| Virtual             | AU$50 |
+| Virtual             | ~~AU$50~~ |
 
 ## CoFest: July 14-16
 
@@ -76,7 +64,7 @@ event.
 
 | | |
 | --- | ---: |
-| CoFest | AU$30 |
+| CoFest | ~~AU$30~~ |
 
 ## Lodging
 

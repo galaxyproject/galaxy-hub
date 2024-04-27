@@ -4,11 +4,11 @@ title: "Galaxy Publication Library"
 
 <div class="float-right">
 
-[![Galaxy Publication Library at Zotero](/images/logos/zotero-logo-small-trans.png)](https://www.zotero.org/groups/galaxy)
+[![Galaxy Publication Library at Zotero](/images/logos/zotero-logo-small-trans.png)](https://www.zotero.org/groups/1732893/galaxy)
 
 </div>
 
-The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/search/).
+The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/1732893/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/search/).
 
 *(Need to cite Galaxy in a publication? See [Citing Galaxy](/citing-galaxy/).)*
 
@@ -24,26 +24,26 @@ Galaxy specific tags all start with "+":
 
 | Tag | Explanation |
 | --- | --- |
-| **[+Galactic](https://www.zotero.org/groups/galaxy/items/tag/+Galactic/)** | Publication is about Galaxy. |
-| **[+Stellar](https://www.zotero.org/groups/galaxy/items/tag/+Stellar/)** | Publication features Galaxy prominently. |
-| [+Cloud](https://www.zotero.org/groups/galaxy/items/tag/+Cloud/) | Publications referencing / extending / discussing Galaxy in a cloud context. |
-| [+Education](https://www.zotero.org/groups/galaxy/items/tag/+Education/) | Publications using / referencing / discussing Galaxy in an education/training  context. |
-| [+HowTo](https://www.zotero.org/groups/galaxy/items/tag/+HowTo) | Papers about how to use Galaxy for specific analyses. These are tutorials. |
-| [+IsGalaxy](https://www.zotero.org/groups/galaxy/items/tag/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. |
-| [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. If it's clear from the paper, which instance was used, then methods papers will also include one or more of these tags: |
-| &nbsp; [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | &nbsp; Uses a custom built cloud based instance of Galaxy in its methods. |
-| &nbsp; [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. |
-| &nbsp; [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. |
-| &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy platform](/use/) in its methods. |
-| [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. |
-| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/galaxy-team/) member as an author. |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/).  This is distinct from the *+UsePublic* tag. |
-| [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. |
-| [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. |
-| [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy |
-| [+Unknown](https://www.zotero.org/groups/galaxy/items/tag/+Unknown/) | Publications that we know refer to Galaxy, but we aren't sure how because they are behind a paywall we don't have access to.  These are revisited periodically. |
-| [+Visualization](https://www.zotero.org/groups/galaxy/items/tag/+Visualization/) | Publications referencing Galaxy in a visualization and/or visual analytics context. |
-| [+Workbench](https://www.zotero.org/groups/galaxy/items/tag/+Workbench/) | Publication mentions Galaxy as a platform. |
+| **[+Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/+Galactic/)** | Publication is about Galaxy. |
+| **[+Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/+Stellar/)** | Publication features Galaxy prominently. |
+| [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud/) | Publications referencing / extending / discussing Galaxy in a cloud context. |
+| [+Education](https://www.zotero.org/groups/1732893/galaxy/tags/+Education/) | Publications using / referencing / discussing Galaxy in an education/training  context. |
+| [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | Papers about how to use Galaxy for specific analyses. These are tutorials. |
+| [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. |
+| [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods/) | Uses Galaxy in their methods. If it's clear from the paper, which instance was used, then methods papers will also include one or more of these tags: |
+| &nbsp; [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud/) | &nbsp; Uses a custom built cloud based instance of Galaxy in its methods. |
+| &nbsp; [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. |
+| &nbsp; [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/)), in its methods. |
+| &nbsp; [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy platform](/use/) in its methods. |
+| [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other/) | Publications that don't fit well under any other tag. |
+| [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project/) | Publications with a [Galaxy team](/galaxy-team/) member as an author. |
+| [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic/) | References a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/).  This is distinct from the *+UsePublic* tag. |
+| [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility/) | Reproducibility and persistence in science. |
+| [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. |
+| [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy |
+| [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown/) | Publications that we know refer to Galaxy, but we aren't sure how because they are behind a paywall we don't have access to.  These are revisited periodically. |
+| [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization/) | Publications referencing Galaxy in a visualization and/or visual analytics context. |
+| [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench/) | Publication mentions Galaxy as a platform. |
 
 ### Public Platform tags (">")
 

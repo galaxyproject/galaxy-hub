@@ -1,7 +1,7 @@
 ---
 title: "UseGalaxy.fr"
 url: "https://usegalaxy.fr/"
-scope: "general"
+scope: "usegalaxy"
 platforms:
   - platform_group: "public-server"
     platform_url: "https://usegalaxy.fr/"

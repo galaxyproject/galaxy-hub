@@ -20,20 +20,18 @@ right:
       contents:
           - label: The Galaxy Community
             target: "/community/"
-          - label: Regional communities
-            target: "/community/regional"
-          - label: Communities of Practice
-            target: "/community/practice"
-          - label: Blog
-            target: "/blog/"
           - label: Governance
             target: "/community/governance/"
+          - label: Special Interest Groups
+            target: "/community/sig"
           - label: Working Groups
             target: "/community/wg/"
           - label: How to contribute
             target: "/community/contributing/"
           - label: Galaxy Mentor Network
             target: https://galaxy-mentor-network.netlify.app/
+          - label: Blog
+            target: "/blog/"
           - label: Code of Conduct
             target: "/community/coc/"
     - label: About
@@ -52,6 +50,8 @@ right:
             target: "/citing-galaxy/"
           - label: Branding
             target: "/images/galaxy-logos/"
+          - label: Roadmap
+            target: "/roadmap/"
     - label: Applications
       contents:
           - label: COVID-19
@@ -60,7 +60,5 @@ right:
             target: "/projects/mpxv/"
           - label: VGP
             target: "/projects/vgp/"
-          - label: Microbial
-            target: "/projects/microbial/"
     - label: "@jxtx"
       target: https://jxtxfoundation.org/

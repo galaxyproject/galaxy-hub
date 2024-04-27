@@ -13,7 +13,7 @@ contact: Instructors
 subsites: [global, us, eu, esg, esg-wp1]
 ---
 
-**[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** will be offered April 17 through April 21 at 
+**[Galaxy Admin Training](https://github.com/orgs/galaxyproject/projects/28)** will be offered April 17 through April 21 at 
 [Monasterium PoortAckere](https://monasterium.be/en) - 56 Oude Houtlei, Ghent 9000, Belgium ([map](https://goo.gl/maps/jZtVc2xeDVNfVLJW8)).
 
 This workshop will cover basic and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.
@@ -25,9 +25,9 @@ performing well, and used by your community.
 Galaxy is an open web based platform for data integration and analysis. It is deployed at large and small organizations
 around the world and used in a broad range of research domains.
 
-# Schedule
+# Schedule 🆕
 
-The exact schedule is still TBA, if you want to have feeling about the topics have a look at [workshop](https://github.com/galaxyproject/admin-training/tree/2023-gent).
+A tentative schedule for Galaxy Admin training 2023 is now available [here](https://github.com/orgs/galaxyproject/projects/28). Get a sneak peek at the topics that will be covered during this intensive training program. The exact schedule is still TBA.
 
 # Prerequisites
 
@@ -48,13 +48,15 @@ man
 
 Note: *This is not an exhaustive list (or even a proper subset) of the commands that will be used in the workshop.*  They are included here to give you an idea of the depth of knowledge that is required.
 
+We have a few tutorials that can help you get refreshed if you need:
+- [CLI Basics](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html)
+- [CLI Advanced](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-advanced/tutorial.html)
+
 ### Competent in a Unix/Linux text editor
 
-Linux has several text editors available in it.  You’ll need to be competent in at least one of them before the workshop starts.  Organizers will make sure that these editors are available on the Linux images we use in the workshop:
+Linux has several text editors available in it. You'll need to be comfortable in at least one of them before the workshop starts.  Organizers will make sure that these editors are available on the Linux images we use in the workshop:
 
-* [Nano](https://www.nano-editor.org/): Simple and functional.  Gets the job done.
-* [Emacs](https://www.gnu.org/software/emacs/): Powerful and a wee bit scary.
-* [VIM](http://www.vim.org/): Powerful, efficient, and more than a wee bit scary.
+We recommend that you use [Nano](https://www.nano-editor.org/), if you don't know another text editor. It's [simple and easy to use.](https://www.howtogeek.com/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). If you know another editor like [Emacs](https://www.gnu.org/software/emacs/) or [VIM](http://www.vim.org/) you are of course welcome to use those as well.
 
 ### Some experience with Linux Package Management
 
@@ -68,8 +70,7 @@ Prerequisites include all of the Introduction Session prerequisites, plus famili
 
 All participants should bring a wifi-enabled laptop with
 
-* at least 4GB of memory (more is better)
-* Software to access the command line of a Linux server.
+* (Optional but useful) Software to access the command line of a Linux server.
     * If you are running Linux or Mac OS, then you already have this.
     * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
@@ -78,14 +79,14 @@ All participants should bring a wifi-enabled laptop with
 
 We currently have eight confirmed (and highly experienced!) instructors:
 
-* [(H)elena Rasche](https://github.com/hexylena) - Erasmus Medical Center, the Netherlands
-* [(S)askia Hiltemann](https://github.com/shiltemann) - Erasmus Medical Center, the Netherlands
-* [(Na)te Coraor](https://github.com/natefoo) - Galaxy Project, Penn State University, United States
-* [(M)arius van den Beek](https://github.com/mvdbeek) - Galaxy Project, Penn State University, *Europe*
-* [(Ni)cola Soranzo](https://github.com/nsoranzo) - Earlham Institute
-* [(Mi)ra Kuntz](https://github.com/mira-miracoli/) - Uni-Freiburg, Germany
-* [(Sa)njay Srikakulam](https://github.com/sanjaysrikakulam/) - Uni-Freiburg, Germany
-* [(C)atherine Bromhead](https://github.com/cat-bro) - Australian BioCommons, Australia
+* [Helena Rasche](https://github.com/hexylena) - Erasmus Medical Center, the Netherlands
+* [Saskia Hiltemann](https://github.com/shiltemann) - Erasmus Medical Center, the Netherlands
+* [Nate Coraor](https://github.com/natefoo) - Galaxy Project, Penn State University, United States
+* [Marius van den Beek](https://github.com/mvdbeek) - Galaxy Project, Penn State University, *Europe*
+* [Nicola Soranzo](https://github.com/nsoranzo) - Earlham Institute, UK
+* [Mira Kuntz](https://github.com/mira-miracoli/) - Uni-Freiburg, Germany
+* [Sanjay Srikakulam](https://github.com/sanjaysrikakulam/) - Uni-Freiburg, Germany
+* [Catherine Bromhead](https://github.com/cat-bro) - Australian BioCommons, Australia
 
 
 # Registration

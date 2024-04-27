@@ -40,7 +40,6 @@ Scientific program members are community volunteers who review the submitted abs
 * **Anne Claire Fouilloux**, Simula Research Laboratory, Norway
 * **Anna Syme**, Melbourne Bioinformatics, Australia
 * **Anshu Bhardwaj**, Interdisciplinary Research Center and CSIR-Institute of Microbial Technology, India
-* **Beáta Scholtz**, University of Debrecen Medical and Health Science Center, Hungary
 * **Bérénice Batut**, University of Freiburg, Germany
 * **Bryan Raubenolt**, Cleveland Clinic, United States
 * **Cameron Hyde**, University of Melbourne, Australia
@@ -53,7 +52,6 @@ Scientific program members are community volunteers who review the submitted abs
 * **Frederik Coppens**, VIB, Belgium
 * **Hans-Rudolf Hotz**,	Friedrich Miescher Institute for Biomedical Research, Switzerland
 * **Ivan Jakovlić**, BT Lab Wuhan, China
-* **Jeff Leek**, Fred Hutchinson Cancer Research Center, United States
 * **Jeremy Goecks**, Oregon Health & Science University, United States
 * **Justin Lee**, Queensland Cyber Infrastructure Foundation, Australia
 * **Margita Jadan**, Ruđer Bošković Institute, Croatia
@@ -65,7 +63,6 @@ Scientific program members are community volunteers who review the submitted abs
 * **Peter van Heusden**, University of the Western Cape, South Africa
 * **Ralf Weber**, University of Birmingham, England
 * **Ross Lazarus**, Galaxy Project Emeritus, Australia
-* **Sonika Tyagi**, Monash University, Australia
 * **Soyean Kim**, Simon Fraser University, Canada
 * **Thomas Harrop**, University of Melbourne, Australia
 * **Timothy Griffin**, University of Minnesota - Twin Cities, United States
@@ -78,7 +75,7 @@ Scientific program members are community volunteers who review the submitted abs
 Training coordinators structure the training events at GCC2023 and coordinated with all the trainers.
 
 * **[Assunta DeSanto](https://github.com/assuntad23)**, [Penn State University](https://psu.edu/), United States
-* **[Igor Makunin](https://www.qcif.edu.au/team/igor-makunin/)**, [QCIF](https://psu.edu/), Australia
+* **[Igor Makunin](https://www.qcif.edu.au/team/igor-makunin/)**, [QCIF](https://www.qcif.edu.au/), Australia
 * **[Mark Crowe](https://www.linkedin.com/in/mark-crowe-a308474/)**, [QCIF](https://www.qcif.edu.au/), Australia
 
 
@@ -86,7 +83,7 @@ Training coordinators structure the training events at GCC2023 and coordinated w
 
 CoFest organizers coordinate activities during [CoFest](/events/gcc2023/cofest/).
 
-* Looking for volunteers. Email the [organizers](/events/gcc2023/organizers/) if interested.
+* **[Cameron Hyde](https://www.qcif.edu.au/team/cameron-hyde/)**, [QCIF](https://psu.edu/), Australia
 
 # Photographer
 

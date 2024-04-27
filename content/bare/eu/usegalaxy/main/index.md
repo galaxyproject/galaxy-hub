@@ -4,11 +4,7 @@ title: Galaxy Europe
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<slot name="/bare/eu/usegalaxy/main/jumbotron" />
-
-<a href="/events/gcc2023/" target="_blank">
-    <img src="/images/events/gcc2023/au-gcc-banner.png" alt="GCC2023 banner" />
-</a>
+<Carousel />
 
 <br/>
 <br/>
@@ -36,6 +32,3 @@ title: Galaxy Europe
 <footer>
 <slot name="/eu/site-footer" />
 </footer>
-
-import Gitter from "@/components/Gitter";
-<Gitter room="usegalaxy-eu/Lobby" />
