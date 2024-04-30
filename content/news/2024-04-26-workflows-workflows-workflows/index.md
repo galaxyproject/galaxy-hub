@@ -14,7 +14,7 @@ In this article, we'd like to shine a spotlight on three of them, which we are p
 
 ## 🤯 Is that a Workflow on the Community Hub?
 
-It sure is!
+It sure is! 
 
 And it's also the first feature we'd like to show you: **Workflow Embeds**
 
@@ -22,6 +22,7 @@ And it's also the first feature we'd like to show you: **Workflow Embeds**
 
 This is the workflow editor, hosted on usegalaxy.eu, embedded inside the community hub (this site!).
 You can drag it around, zoom in and out, view the workflow on usegalaxy.eu, or download it directly here, all fully interactive.
+The workflow you are seeing here is from the [EOSC FAIR-EASE project](https://fairease.eu/) designed for the [Earth System](https://earth-system.usegalaxy.eu/) studies.
 
 This does not just work on the community hub, it works on any website. Galaxy workflows are now fully embeddable, like a YouTube video embed.
 
