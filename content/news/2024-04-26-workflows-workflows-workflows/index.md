@@ -14,7 +14,8 @@ In this article, we'd like to shine a spotlight on three of them, which we are p
 
 ## 🤯 Is that a Workflow on the Community Hub?
 
-It sure is!
+It sure is! 
+A brand new workflow from the [EOSC FAIR-EASE project](https://fairease.eu/) designed for the [Earth System](https://earth-system.usegalaxy.eu/) studies.
 
 And it's also the first feature we'd like to show you: **Workflow Embeds**
 
