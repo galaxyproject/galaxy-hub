@@ -2,7 +2,8 @@
 title: "Transcriptomic Data Analysis Using the Galaxy Platform"
 date: "2024-05-02"
 authors: Deepti Varshney
-tease: "Book Chapter: Transcriptomic Data Analysis Using the Galaxy Platform: Coffee (Coffea arabica L.) Flowers as Example"
+tease: "An interesting book chapter presents an overview of a transcriptomics data analysis pipeline using Galaxy, specifically designed for studying gene expression in coffee flowers. This pipeline can be leveraged in genetic improvement programs, for instance, to combat climate change "
+tags: [paper]
 subsites: [global, eu]
 
 ---
