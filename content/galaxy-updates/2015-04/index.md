@@ -397,7 +397,7 @@ One new [public Galaxy server](/use/) was added in March:
 
 <br />
 
-One new [Community Log Board](/blog/) entry was added in March:
+One new [Community Log Board](/news/) entry was added in March:
 
 * [Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)

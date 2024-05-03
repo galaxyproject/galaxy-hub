@@ -372,7 +372,7 @@ upgrade:   $ hg pull
 
 <br /><br />
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 # ToolShed Contributions
 

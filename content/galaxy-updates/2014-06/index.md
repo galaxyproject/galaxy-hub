@@ -324,7 +324,7 @@ One new deployment description was added in May:
 
 * deepTools
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them.
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/news/) you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>

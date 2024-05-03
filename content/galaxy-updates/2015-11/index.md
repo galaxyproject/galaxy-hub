@@ -476,7 +476,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 * **University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions**
     [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.
 
-And 2 new **[Community Log Board](/blog/)** entries were added as well.  Both are about wrapping Tools for Galaxy:
+And 2 new **[Community Log Board](/news/)** entries were added as well.  Both are about wrapping Tools for Galaxy:
 
 * **[Galaxy Tool Generating Dataset Collections](http://web.science.mq.edu.au/~cassidy/2015/10/21/galaxy-tool-generating-datasets/)**
     [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/) documented how create dataset collections in Galaxy tool definitions. (And [Alveo](http://alveo.edu.au/) is also a cool, non-life science application of Galaxy.)

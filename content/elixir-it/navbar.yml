@@ -24,8 +24,8 @@ right:
   contents:
   - label: The Galaxy Community
     target: "/community/"
-  - label: Blog
-    target: "/blog/"
+  - label: News
+    target: "/news/"
   - label: Working Groups
     target: "/community/wg/"
   - label: Governance

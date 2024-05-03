@@ -374,7 +374,7 @@ Tomas has shared with us his hilarious experience when running a workshop from h
 
 <div class="card-header trim-p">
 
-[Human Genetics working group T2 update](/blog/2021-09-human-genetics-wg-update/)
+[Human Genetics working group T2 update](/news/2021-09-human-genetics-wg-update/)
 
 </div>
 
@@ -462,7 +462,7 @@ The [Galaxy Training Network](https://training.galaxyproject.org/) would like to
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

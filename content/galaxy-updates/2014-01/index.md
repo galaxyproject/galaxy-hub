@@ -13,7 +13,7 @@ December saw the launch of two *[Galaxy community hubs](/community/)* - one to d
 
 <div class='left'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
-The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/blog/2013-04-urgi-virtualisation/), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
+The *[Galaxy Community Log Board](/news/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/news/2013-04-urgi-virtualisation/), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
 
 <div class='left'>
 <table>
@@ -27,7 +27,7 @@ The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed
 
 </div>
 
-The [Galaxy Community Log Board](/blog/) describes how things can be done, and it complements the (also [recently announced](/news/galaxy-deployment-catalog/)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/blog/) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/events/gcc2013/bof/galaxy-admins/).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/blog/).
+The [Galaxy Community Log Board](/news/) describes how things can be done, and it complements the (also [recently announced](/news/galaxy-deployment-catalog/)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/news/) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/events/gcc2013/bof/galaxy-admins/).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/news/).
 
 ## Galaxy Deployment Catalog
 

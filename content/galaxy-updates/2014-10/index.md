@@ -273,9 +273,9 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
-The deployment details for the [GalaxEast public server](/use/galaxeast/) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/blog/).
+The deployment details for the [GalaxEast public server](/use/galaxeast/) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/news/).
 
-The *Deployment Catalog* and *[Community Log Board](/blog/)* *[Galaxy community hubs](/community/)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
+The *Deployment Catalog* and *[Community Log Board](/news/)* *[Galaxy community hubs](/community/)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/news/) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 

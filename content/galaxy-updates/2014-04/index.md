@@ -345,9 +345,9 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 
 <br /><br />
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
-There was one new [Community Log Board](/blog/) entry in March:
+There was one new [Community Log Board](/news/) entry in March:
 
 * [Basic Galaxy Puppet Module](https://forge.puppetlabs.com/urgi/galaxy) (work by Olivier Inizan, Mikael Loaec of INRA-URGI)
 

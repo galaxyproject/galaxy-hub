@@ -474,7 +474,7 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 
 <br /><br />
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
