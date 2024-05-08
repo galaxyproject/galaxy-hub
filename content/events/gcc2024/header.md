@@ -12,6 +12,7 @@
 [Register](/events/gcc2024/register/) |
 [Schedule](/events/gcc2024/schedule/) |
 [Keynotes](/events/gcc2024/keynotes/) |
+[Fellowships](/events/gcc2024/fellowships/) |
 [CoFest](/events/gcc2024/cofest/) |
 [Training](/events/gcc2024/training/) |
 [Travel](/events/gcc2024/travel/) |
