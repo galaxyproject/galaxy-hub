@@ -35,8 +35,10 @@ Participants are encouraged to check the [Galaxy platform and available training
 
 Should you have any questions, please contact us at contact@elixiruknode.org
 
-
+# Registration
 
 Register now at [Making clinical datasets FAIR](https://bradford-ac-uk.zoom.us/meeting/register/tZIlc-mhqDwjE9eqsgE-WiD6TEBshic1sGDQ).
+
+# Funding 
 
 This course is funded as part of the UKRI Innovation Scholars. Data Science Training in Health and Bioscience call (DaSH). (MR/V038966/1)
