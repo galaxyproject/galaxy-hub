@@ -73,7 +73,7 @@ chair](/events/gcc2024/organizers/#scientific-program-chair).
 | Date   | What |
 | -----: | ---  |
 | ~~Apr 15~~ | Abstracts due for talks   |
-| May 1  | Talk reviews returned     |
+| ~~May 1~~  | Talk reviews returned     |
 | May 15 | Abstracts due for posters/demos |
 | May 21 | Poster/demo acceptance announcements |
 | Jun 15 | Deadline for submitting slides for your talk to the organizers |
