@@ -17,8 +17,10 @@ Whisper can generate output in 5 formats: text, JSON, SubRip, WebVTT and Tab-Sep
 ## How to use the tool?
 Please follow these steps:
 
-a) Upload your audio or video file to the Galaxy.
-b) Open Speech to Text tool suite on [Galaxy Europe](https://usegalaxy.eu/root?tool_id=whisper).
-c) Select the desired model for transcription and the language of the speech or use automatic language detection.
-d) Select the output format and run the tool to transcribe your speech data.
-
+  a) Upload your audio or video file to the Galaxy.
+  
+  b) Open Speech to Text tool suite on [Galaxy Europe](https://usegalaxy.eu/root?tool_id=whisper).
+  
+  c) Select the desired model for transcription and the language of the speech or use automatic language detection.
+  
+  d) Select the output format and run the tool to transcribe your speech data.
