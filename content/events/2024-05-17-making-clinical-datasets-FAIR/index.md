@@ -10,8 +10,7 @@ location:
   name: online
 supporters:
 - elixir
-subsites: [eu]
-main_subsite: eu
+subsites: [all]
 ---
 
 # What will you learn?
