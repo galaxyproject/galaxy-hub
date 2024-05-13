@@ -19,9 +19,9 @@ The European Geosciences Union (EGU) was held at the Austria Center Vienna (ACV)
 # The posters
 Two posters side by side were presented:
 
-![First poster on the Galaxy basis](/eguposter_1.png)
+![First poster on the Galaxy basis](./eguposter_1.png)
 
-![Second poster focused on Galaxy earth system](/eguposter_2.png)
+![Second poster focused on Galaxy earth system](./eguposter_2.png)
 
 # The follow-up
 During this really fruitfull conference we were able to get in touch with multiple scientists really interested in getting their hand in Galaxy. We are currently reaching out again with them to bring new earth system, climate, and environment users and usecases !
