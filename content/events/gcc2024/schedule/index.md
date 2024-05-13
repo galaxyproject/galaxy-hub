@@ -71,3 +71,12 @@ Explore the main sights of the city centre in our [guided tours](https://www.got
 Those interested in architecture will have the unique opportunity to visit the UNESCO World Heritage [Villa Tugendhat](https://www.tugendhat.eu/en/) in an exclusive guided tour for conference participants.
 
 For more information on Villa Tugendhat, head to the [travel](../travel/index.md) page.
+
+### Additional ideas
+
+#### Rock climbing hall
+[Hangar climbing playground](https://hangarbrno.cz/en/home/) is a state-of-the-art
+bouldering center designed in collaboration with world-class climber Adam
+Ondra. With over 1000 square meters of climbing area and more than 200 routes
+of varying difficulty, it offers an exciting experience for climbers of all
+levels.
