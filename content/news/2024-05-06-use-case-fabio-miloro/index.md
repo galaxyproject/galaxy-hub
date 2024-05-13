@@ -1,6 +1,6 @@
 ---
 title: 'UseGalaxy.eu Use Case: RNA-directed DNA methylation (RdDM) in barley'
-date: '2024-05-06'
+date: '2024-05-13'
 tags: [UseCase]
 authors: Fabio Miloro
 authors_structured:
