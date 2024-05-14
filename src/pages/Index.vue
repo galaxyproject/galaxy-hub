@@ -276,18 +276,19 @@
                         </div>
                         <table style="padding: 0">
                             <tbody>
-                                <tr v-for="t in this.$static.datasetResearch.research4.events" :key="t.event">
+                                <tr v-for="event in events" :key="event.id">
                                     <td>
-                                        <div>{{ t.date }}</div>
+                                        <div>{{ event.date }}</div>
                                     </td>
                                     <td>
                                         <a
-                                            :href="t.url"
+                                            :href="event.path"
                                             rel="noopener"
                                             target="_blank"
                                             class="text-white text-decoration-none"
-                                            >{{ t.event }}</a
                                         >
+                                            {{ event.title }}
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -339,6 +340,11 @@ export default {
             prioritizedGalaxyLocales: [],
         };
     },
+    computed: {
+        events() {
+            return this.$page.events.edges.map((edge) => edge.node);
+        },
+    },
     methods: {
         slugify,
         setPrioritizedGalaxyLocales() {
@@ -383,6 +389,28 @@ query {
             url
         }
     }
+
+    events: allParentArticle(
+        limit: 5, sortBy: "date", order: ASC,
+        filter: {
+            category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
+            draft: {ne: true}
+        }
+    ) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                path
+                date (format: "MMM D")
+                end  (format: "MMM D")
+            }
+        }
+    }
+
 }
 </page-query>
 
@@ -442,20 +470,6 @@ query {
             },
             links {
                 title,
-                url
-            }
-        },
-        research4 {
-            title,
-            content,
-            url,
-            button {
-                title,
-                url
-            },
-            events {
-                event,
-                date,
                 url
             }
         },
