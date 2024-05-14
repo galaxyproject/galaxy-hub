@@ -267,36 +267,40 @@
                         </div>
                     </div>
                     <div class="area research events mt-3 h-40">
-                        <a :href="this.$static.datasetResearch.research4.url">
-                            <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        <a href="/events/">
+                            <h3>Upcoming events</h3>
                         </a>
-                        <div v-html="this.$static.datasetResearch.research4.content" class="text-white mb-2"></div>
+                        <div class="text-white mb-2">
+                            The Galaxy community puts on a show every year with dozens of events around the world.
+                            <div class="mt-2">Next up:</div>
+                        </div>
                         <table style="padding: 0">
                             <tbody>
-                                <tr v-for="t in this.$static.datasetResearch.research4.events" :key="t.event">
+                                <tr v-for="event in events" :key="event.id">
                                     <td>
-                                        <div>{{ t.date }}</div>
+                                        <div>{{ event.date }}</div>
                                     </td>
                                     <td>
                                         <a
-                                            :href="t.url"
+                                            :href="event.path"
                                             rel="noopener"
                                             target="_blank"
                                             class="text-white text-decoration-none"
-                                            >{{ t.event }}</a
                                         >
+                                            {{ event.title }}
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                         <div class="d-flex justify-content-center">
                             <a
-                                :href="this.$static.datasetResearch.research4.button.url"
+                                href="/events/"
                                 role="button"
                                 rel="noopener"
                                 target="_blank"
                                 class="btn text-decoration-none mt-3 mb-3 w-50"
-                                >{{ this.$static.datasetResearch.research4.button.title }}</a
+                                >Visit more</a
                             >
                         </div>
                     </div>
@@ -335,6 +339,11 @@ export default {
             cancelled: false,
             prioritizedGalaxyLocales: [],
         };
+    },
+    computed: {
+        events() {
+            return this.$page.events.edges.map((edge) => edge.node);
+        },
     },
     methods: {
         slugify,
@@ -380,6 +389,28 @@ query {
             url
         }
     }
+
+    events: allParentArticle(
+        limit: 3, sortBy: "date", order: ASC,
+        filter: {
+            category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
+            draft: {ne: true}
+        }
+    ) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                path
+                date (format: "MMM D")
+                end  (format: "MMM D")
+            }
+        }
+    }
+
 }
 </page-query>
 
@@ -439,20 +470,6 @@ query {
             },
             links {
                 title,
-                url
-            }
-        },
-        research4 {
-            title,
-            content,
-            url,
-            button {
-                title,
-                url
-            },
-            events {
-                event,
-                date,
                 url
             }
         },
