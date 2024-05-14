@@ -391,7 +391,7 @@ query {
     }
 
     events: allParentArticle(
-        limit: 5, sortBy: "date", order: ASC,
+        limit: 3, sortBy: "date", order: ASC,
         filter: {
             category: {eq: "events"}, subsites: {contains: ["global"]}, has_date: {eq: true}, days_ago: {lte: 0},
             draft: {ne: true}
