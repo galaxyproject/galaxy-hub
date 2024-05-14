@@ -267,10 +267,13 @@
                         </div>
                     </div>
                     <div class="area research events mt-3 h-40">
-                        <a :href="this.$static.datasetResearch.research4.url">
-                            <h3>{{ this.$static.datasetResearch.research4.title }}</h3>
+                        <a href="/events/">
+                            <h3>Upcoming events</h3>
                         </a>
-                        <div v-html="this.$static.datasetResearch.research4.content" class="text-white mb-2"></div>
+                        <div class="text-white mb-2">
+                            The Galaxy community puts on a show every year with dozens of events around the world.
+                            <div class="mt-2">Next up:</div>
+                        </div>
                         <table style="padding: 0">
                             <tbody>
                                 <tr v-for="t in this.$static.datasetResearch.research4.events" :key="t.event">
@@ -291,12 +294,12 @@
                         </table>
                         <div class="d-flex justify-content-center">
                             <a
-                                :href="this.$static.datasetResearch.research4.button.url"
+                                href="/events/"
                                 role="button"
                                 rel="noopener"
                                 target="_blank"
                                 class="btn text-decoration-none mt-3 mb-3 w-50"
-                                >{{ this.$static.datasetResearch.research4.button.title }}</a
+                                >Visit more</a
                             >
                         </div>
                     </div>
