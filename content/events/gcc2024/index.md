@@ -207,6 +207,9 @@ The **[travel page](/events/gcc2024/travel/) has more details.**
 
 <div class="text-center">
   <span class="lead">GCC2024 is organized under the auspices of the City of Brno.</span>
+</div>
+
+<div>
   <a href="https://en.brno.cz/" target="_blank"><img src="/images/events/gcc2024/brno-city-logo.png" style="max-width: 50%" alt="City of Brno logo" /></a>
 </div>
 

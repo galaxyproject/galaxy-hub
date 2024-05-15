@@ -5,7 +5,7 @@ hide-tease: false
 authors: "David López"
 date: "2024-05-03"
 tags: ["UI/UX", "highlight"]
-subsites: [global]
+subsites: [global,all]
 ---
 
 We're excited to announce a recent integration that aims to enhance research data management in Galaxy. Any InvenioRDM-compatible repository can now be connected to Galaxy, offering a streamlined experience in managing and analyzing your research data. With this integration, you can now export research results directly from Galaxy to your institution's InvenioRDM repository or Zenodo, and import files from these repositories into Galaxy for reproducible analysis workflows.
