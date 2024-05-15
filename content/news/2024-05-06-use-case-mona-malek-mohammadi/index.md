@@ -1,6 +1,6 @@
 ---
 title: 'UseGalaxy.eu Use Case: cardiac regeneration in neonatal mice'
-tease: 'A report out of Galaxy Europe's user space, by Mona Malek Mohammadi'
+tease: "A report out of Galaxy Europe's user space, by Mona Malek Mohammadi"
 date: '2024-05-06'
 tags: [UseCase]
 authors: Mona Malek Mohammadi
