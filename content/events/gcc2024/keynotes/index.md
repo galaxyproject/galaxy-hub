@@ -80,7 +80,7 @@ history and politics.
       </td>
       <td style="border: 0;">
         <strong>Dr. Daria Onichtchouk</strong><br/>
-        Talking about <strong>Gastrulation, pluripotency, and transcriptional networks</strong><br/><br/>
+        Talking title: <strong>Zebrafish swims into the Galaxy</strong><br/><br/>
         Universtity of Freiburg<br/>
         Freiburg, Germany<br/>
       </td>

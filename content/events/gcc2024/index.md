@@ -36,10 +36,6 @@ subsites: [all]
         <strong>Sign up for announcements</strong>
     </a>
     ◇
-    <a href="/events/gcc2024/abstracts/" type="button" class="btn btn-primary">
-        <strong>Submit an abstract</strong>
-    </a>
-    ◇
     <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
         <strong>Register</strong>
     </a>
@@ -72,19 +68,19 @@ Galaxy community.
 
   <!-- Call for participation -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="Call for participation" />
-    <div class="card-header">Call for participation</div>
+    <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="World-class content" />
+    <div class="card-header">World-class content</div>
 
-**GCC topics of interest include** methods, tools, pipelines, trainings, or
-software that push the field of data science with Galaxy forward.
+**GCC2024 will have over 50 talks and about 40 posters** presenting methods,
+tools, pipelines, and software improvements for the Galaxy framework.
 
-Check out the **[abstracts page](/events/gcc2024/abstracts/)** for details on how to
-contribute to the program.
+Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
+The abstract book with all the details is coming soon!
 
-[Registration](/events/gcc2024/register/) is open.
+And don't forget the **amazing lineup of [keynote talks](/events/gcc2024/keynotes/)**.
 
-The **[Key Dates page](/events/gcc2024/key-dates/)** has a list of deadlines to keep
-in mind. These tend to sneak up on you!
+If you haven't registered yet, [registration](/events/gcc2024/register/) is
+(still) open.
 
   </div>
 
@@ -206,10 +202,7 @@ The **[travel page](/events/gcc2024/travel/) has more details.**
 </div>
 
 <div class="text-center">
-  <span class="lead">GCC2024 is organized under the auspices of the City of Brno.</span>
-</div>
-
-<div>
+  <div class="lead">GCC2024 is organized under the auspices of the City of Brno.</div>
   <a href="https://en.brno.cz/" target="_blank"><img src="/images/events/gcc2024/brno-city-logo.png" style="max-width: 50%" alt="City of Brno logo" /></a>
 </div>
 
