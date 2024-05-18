@@ -25,6 +25,14 @@ To contact the organizing committee, please send an email to [gcc2024-org@gaggle
 
 * **[Dana Cernoskova](https://www.linkedin.com/in/dana-cernoskova-523a4927/)**, [Scientifika](https://scientifika.eu/), Czech Republic
 
+## Hosts
+
+This years conference is hosted by Masaryk University and ELIXIR Czech Republic and organized under the auspices of the city of Brno.
+<p align="center">
+    <img src="/images/events/gcc2024/brno-city-logo.png" alt="Snow" style="width:36%">
+    <img src="/images/events/gcc2024/muni-lg-rgb.png" alt="Forest" style="width:30%">
+    <img src="/images/events/gcc2024/logo-elixir-cz.png" alt="Mountains" style="width:27%">
+</p> 
 
 # Scientific Committee Chair
 
