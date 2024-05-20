@@ -66,4 +66,34 @@ All going well the deployment completes as shown below. Infrastructure Manager s
 
 Clicking on the *Outputs* button (see image above) in Infrastructure Manager provides the following information: username for SSH, public SSH key and public IP address to connect via SSH. For more information about possible actions, please refer to the [documentation](https://docs.egi.eu/users/compute/orchestration/im/dashboard/#list-of-actions).
 
+## Testing
+
+Once the deployment has completed, use the credentials and public IP address to *ssh* into the virtual cluster.
+
+For a quick test, to make sure everything is working as expected, run the following commands:
+
+```bash
+# Go to folder with testing scripts
+cd /home/cloudadm/testing/
+
+# Generate a test proxy for the user
+arcproxy
+
+# Submit a test job
+bash submit-cmd.sh
+```
+
+Monitor progress with:
+
+```bash
+# Get list of jobs submitted via ARC
+arcctl job list --long
+
+# Check progress of a specific job
+arcctl job log <jobid>
+
+# Also with Slurm
+squeue
+```
+
 This is all work in progress and we would welcome your feedback to improve it!
