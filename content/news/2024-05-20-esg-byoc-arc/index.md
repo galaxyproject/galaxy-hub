@@ -40,7 +40,7 @@ Once the EGI Check-in account has been created and the membership to a Virtual O
 
 Out of all the deployment options available in Infrastructure Manager the user needs to click on Slurm first (see below), and *Add* ARC later. Although ARC supports other [job schedulers](https://en.wikipedia.org/wiki/Job_scheduler), our focus for this activity has been on Slurm only. Therefore, at the moment, the only way to deploy a ARC endpoints with Infrastructure Manager is with Slurm but this can be expanded in the future.
 
-![Select Slurm in IM](./esg-im-arc-02-slurm-cropped.png)
+![Select Slurm in IM](./esg-im-arc-02-catalog-slurm.png)
 
 After *adding* ARC in Infrastructure Manager, the user should click on **Configure** (see below) to move on with the deployment.
 
