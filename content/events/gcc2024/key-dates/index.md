@@ -19,7 +19,7 @@ understand and don't mind.
 | ~~Apr 15~~ | [Abstracts due for talks](/events/gcc2024/abstracts/) |
 | ~~May 1~~  | Talk reviews returned |
 | ~~May 15~~ | [Abstracts due for posters/demos](/events/gcc2024/abstracts/) |
-| May 21 | Poster/demo acceptance announcements |
+| ~~May 21~~ | Poster/demo acceptance announcements |
 | May 26 | [Regular registration closes / Late registration opens](/events/gcc2024/register/) |
 | Jun 15 | Deadline for submitting slides for your talk to the organizers |
 | Jun 15 | Deadline for [registering a BoF](/events/gcc2024/abstracts/#birds-of-a-feather-bof-sessions) |
