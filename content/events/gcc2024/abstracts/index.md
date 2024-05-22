@@ -4,12 +4,6 @@ autotoc: false
 
 <slot name="/events/gcc2024/header" />
 
-<div class="text-center my-5">
-    <a target="_blank" href="https://app.oxfordabstracts.com/stages/7067/submitter" type="button" class="btn btn-primary">
-        <strong>Abstract submission form</strong>
-    </a>
-</div>
-
 
 # GCC2024 abstracts
 
@@ -53,7 +47,7 @@ propose fun activities as well, such as an evening run or a city tour.
 | ~~Apr 15~~ | Abstracts due for talks   |
 | ~~May 1~~  | Talk reviews returned     |
 | ~~May 15~~ | Abstracts due for posters/demos |
-| May 21 | Poster/demo acceptance announcements |
+| ~~May 21~~ | Poster/demo acceptance announcements |
 | Jun 15 | Deadline for submitting slides for your talk to the organizers |
 
 
