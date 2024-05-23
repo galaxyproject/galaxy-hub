@@ -4,6 +4,7 @@ autotoc: false
 
 <slot name="/events/gcc2024/header" />
 
+
 ## Schedule
 
 The schedule is where you can discover what’s happening when at GCC2024. List of
@@ -16,40 +17,40 @@ available soon.
 | Monday, Jun 24    | 8:30 - 8:45   | Open and welcome                                         | BCD                 |
 |                   | 8:45 - 9:45   | Keynote by Jana Klánová                                  | BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
-|                   | 10:10 - 12:00 | Talks (single track)                                     | BCD                 |
+|                   | 10:10 - 12:00 | [Talks (single track)](#talks)                           | BCD                 |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
-|                   | 13:00 - 14:00 | Trainings I                                              | B, C, D, M1, M2     |
+|                   | 13:00 - 14:00 | [Trainings I](/events/gcc2024/training/)                 | B, C, D, M1, M2     |
 |                   | 14:00 - 16:00 | Posters + coffee                                         | BCD                 |
-|                   | 16:00 - 18:00 | Trainings II                                             | B, C, D, M1, M2     |
+|                   | 16:00 - 18:00 | [Trainings II](/events/gcc2024/training/)                | B, C, D, M1, M2     |
 |                   | 18:00 - 19:00 | BoFs                                                     | B, C, D, M1, M2     |
 |                   |               |                                                          |                     |
-| Tuesday, Jun 25   | 8:30 - 8:45   | Overview of activities on Wednesday afternoon            | BCD                 |
-|                   | 8:45 - 9:45   | Keynote by Ute Gunsenheimer                              | BCD                 |
+| Tuesday, Jun 25   | 8:30 - 9:45   | Community update talk                                    | BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
-|                   | 10:10 - 12:00 | Talks (2 tracks)                                         | BC,                 |
+|                   | 10:10 - 12:00 | [Talks (2 tracks)](#talks)                               | BC,                 |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
-|                   | 13:00 - 14:00 | Trainings I                                              | B, C, D, M1, M2     |
+|                   | 13:00 - 14:00 | [Trainings I](/events/gcc2024/training/)                 | B, C, D, M1, M2     |
 |                   | 14:00 - 16:00 | Posters + coffee                                         | BCD                 |
-|                   | 16:00 - 18:00 | Trainings II                                             | B, C, D, M1, M2     |
+|                   | 16:00 - 18:00 | [Trainings II](/events/gcc2024/training/)                | B, C, D, M1, M2     |
 |                   | 18:00 - 19:00 | BoFs?                                                    | B, C, D, M1, M2     |
-|                   | 19:00 - 22:00 | Conference dinner                                        | TBD                 |
+|                   | 19:00 - 22:00 | Conference dinner                                        | Mendel's Abbey      |
 |                   |               |                                                          |                     |
-| Wednesday, Jun 26 | 8:30 - 9:45   | Community update talk                                    | BCD                 |
+| Wednesday, Jun 26 | 8:30 - 8:45   | Overview of activities on Wednesday afternoon            | BCD                 |
+|                   | 8:45 - 9:45   | Keynote by Ute Gunsenheimer                              | BCD                 |
 |                   | 8:45 - 10:10  | Morning break                                            | Atrium              |
 |                   | 10:10 - 10:30 | Gold sponsor talk: JXTX Foundation                       | BCD                 |
 |                   | 10:30 - 12:00 | Panel discussion                                         | BCD                 |
 |                   | 12:00 - 13:00 | Lunch                                                    | Box lunch           |
-|                   | 13:00 - ...   | Tour of Villa Tugendhat. Walking tour of Brno. Fun BoFs. | TBD                 |
+|                   | 13:00 - ...   | Tour of Villa Tugendhat. Walking tour of Brno. Fun BoFs. | Brno                |
 |                   |               |                                                          |                     |
 | Thursday, Jun 27  | 8:30 - 8:45   | Feedback session                                         | BCD                 |
 |                   | 8:45 - 9:45   | Keynote by Daria Onichtchouk                             | BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
-|                   | 10:10 - 12:00 | Talks (2 tracks)                                         | BC, D               |
+|                   | 10:10 - 12:00 | [Talks (2 tracks)](#talks)                               | BC, D               |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
-|                   | 13:00 - 14:00 | Trainings I                                              | B, C, D, M1, M2     |
+|                   | 13:00 - 14:00 | [Trainings I](/events/gcc2024/training/)                 | B, C, D, M1, M2     |
 |                   | 14:00 - 14:30 | Afternoon break                                          | Atrium              |
-|                   | 14:30 - 16:30 | Trainings II                                             | B, C, D, M1, M2     |
-|                   | 16:30 - 17:30 | Talks (single track) & conference closing                | BCD                 |
+|                   | 14:30 - 16:30 | [Trainings II]](/events/gcc2024/training/)               | B, C, D, M1, M2     |
+|                   | 16:30 - 17:30 | [Talks (single track)](#talks) & conference closing      | BCD                 |
 |                   | 17:30 - 19:00 | BoFs                                                     | B, C, D, M1, M2     |
 |                   |               |                                                          |                     |
 
@@ -98,6 +99,7 @@ available soon.
 |               | Astronomy in Galaxy                                                                                                                                |                                                                                                                               |
 |               | Estimating Cloud Computing Costs when Running Bioinformatics Workloads                                                                             |                                                                                                                               |
 |               | Community-Building Initiatives in Bioconductor                                                                                                     |                                                                                                                               |
+
 
 ## Social Programme
 ### Conference Dinner
