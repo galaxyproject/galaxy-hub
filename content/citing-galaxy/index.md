@@ -40,7 +40,7 @@ Some excellent examples (*emphasis added*):
 
 If you use, extend or reference Galaxy in your published work, please cite this publication:
 
-* The Galaxy Community. **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update](https://doi.org/10.1093/nar/gkac247)**, *Nucleic Acids Research*, Volume 50, Issue W1, 5 July 2022, Pages W345–W351, doi:10.1093/nar/gkac247
+* The Galaxy Community. [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae410/7676834), *Nucleic Acids Research*, 2024;, gkae410, https://doi.org/10.1093/nar/gkae410
 
 This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html).
 
