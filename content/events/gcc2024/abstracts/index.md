@@ -4,6 +4,13 @@ autotoc: false
 
 <slot name="/events/gcc2024/header" />
 
+<div class="text-center my-5">
+    <a target="_blank" href="https://forms.gle/bgbNpfc7YvLPz2ty7" type="button" class="btn btn-primary">
+        <strong>Submit a BoF</strong>
+    </a>
+  </div>
+</div>
+
 
 # GCC2024 abstracts
 
@@ -68,7 +75,11 @@ create your slides in [Google Slides](https://slides.google.com), share the
 slide deck with *anyone with the link* (in view-only mode), and provide a link
 in [this
 spreadsheet](https://docs.google.com/spreadsheets/d/1-YnNkpP9jQ40SlFno-eemR33-KfjBn-W2vPkC5LhRCk/edit?usp=sharing)
-by the June 15 deadline.
+by the June 15 deadline. Note that there is no prescribed template for the
+slides, just the ask to use Google Slides to make and share your slides. Also
+note that you are welcome to change your slides even after you've provided a
+link to them, all the way until the morning of your presentation. You can see
+when you will talk on the [schedule](/events/gcc2024/schedule/#talks) page.
 
 
 ## Poster details
