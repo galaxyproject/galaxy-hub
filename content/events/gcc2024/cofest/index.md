@@ -42,17 +42,18 @@ Feel free to add to this document or join someone else's project by adding your 
 *Participants* column.
 
 
-## Dates
+## Dates & location
 
 CoFest will be held for the last 2 days of GCC2024: June 28 and 29.
+
+CoFest will be held at [KUMST](https://www.kumstbrno.cz/en/), an exciting, open,
+and collaborative place where folks can easily organize into smaller groups and
+find an area to work in.
+
+KUMST is located at [Údolní 495/19, 602 00 Brno](https://maps.app.goo.gl/AtVTBCWcCFc1iBHC8).
 
 
 ## Registration
 
 To attend CoFest, we do ask that you register. This will help us find adequate
 space and ensure we have enough coffee and drinks.
-
-Registration details are still pending.
-
-The final venue has not been determined yet but we have several promising candidates!
-Stay tuned for updates!
