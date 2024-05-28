@@ -365,7 +365,7 @@ export default {
     },
     metaInfo() {
         return {
-            title: this.$page.main.title,
+            title: "Home",
         };
     },
 };
@@ -373,10 +373,6 @@ export default {
 
 <page-query>
 query {
-    main: insert(path: "/insert:/home/main/") {
-        title
-    }
-
     hero: insert(path: "/insert:/home/hero/") {
         heading,
         notification,
