@@ -1,7 +1,7 @@
 ---
-title: "EGI Check-in now available as login option in UseGalaxy.eu”
+title: "EGI Check-in now available as login option in UseGalaxy.eu"
 date: "2024-05-29"
-tease: "EuroScienceGateway project enables EGI users in UseGalaxy.eu "
+tease: "EuroScienceGateway project enables EGI users in UseGalaxy.eu"
 hide_tease: false
 tags: [esg-wp4, esg]
 subsites: [all-eu, esg, global]
