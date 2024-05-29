@@ -49,7 +49,7 @@ available soon.
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
 |                   | 13:00 - 14:00 | [Trainings I](/events/gcc2024/training/)                 | B, C, D, M1, M2     |
 |                   | 14:00 - 14:30 | Afternoon break                                          | Atrium              |
-|                   | 14:30 - 16:30 | [Trainings II]](/events/gcc2024/training/)               | B, C, D, M1, M2     |
+|                   | 14:30 - 16:30 | [Trainings II](/events/gcc2024/training/)               | B, C, D, M1, M2     |
 |                   | 16:30 - 17:30 | [Talks (single track)](#talks) & conference closing      | BCD                 |
 |                   | 17:30 - 19:00 | BoFs                                                     | B, C, D, M1, M2     |
 |                   |               |                                                          |                     |
@@ -118,7 +118,7 @@ Explore the main sights of the city centre in our [guided tours](https://www.got
 #### Villa Tugendhat
 Those interested in architecture will have the unique opportunity to visit the UNESCO World Heritage [Villa Tugendhat](https://www.tugendhat.eu/en/) in an exclusive guided tour for conference participants.
 
-For more information on Villa Tugendhat, head to the [travel](../travel/index.md) page.
+For more information on Villa Tugendhat, head to the [travel](/events/gcc2024/travel/) page.
 
 ### Additional ideas
 
