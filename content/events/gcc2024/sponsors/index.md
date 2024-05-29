@@ -21,6 +21,10 @@ affordable and accessible.
 
 ## Silver sponsors
 
+<a href="https://workflow4metabolomics.org/" target="_blank">
+  <img src="/images/logos/w4m-logo.png" alt="Workflow 4 Metabolomics" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+
 <a href="https://galaxyworks.io/" target="_blank">
   <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 25%;" />
 </a>
