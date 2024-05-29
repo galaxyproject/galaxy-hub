@@ -46,6 +46,10 @@ affordable and accessible.
   <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%; padding-right: 2rem;" />
 </a>
 
+<a href="https://www.denbi.de/" target="_blank">
+  <img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width: 25%; padding-right: 2rem;" />
+</a>
+
 <hr/>
 
 

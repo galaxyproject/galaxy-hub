@@ -15,8 +15,8 @@ In this workshop, we will have a round-table discussion around teaching with Gal
 
 ### Saskia Hiltemann
 
-Erasmus Medical Center, The Netherlands
+University of Freiburg, Germany
 
 ### Helena Rasche
 
-University of Freiburg, Germany
+Erasmus Medical Center, The Netherlands
