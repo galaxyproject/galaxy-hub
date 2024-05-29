@@ -25,9 +25,9 @@ broad community of EGI users without any extra steps.
 If you already have a valid Check-in account,
 [login to UseGalaxy.eu](https://usegalaxy.eu/login/start) now and start using
 the service. If you don't have one yet, register at least one of your identities
-in a new EGI Check-in account [from here]
-(https://docs.egi.eu/users/aai/check-in/signup/) and use it to login to
-UseGalaxy.eu!
+in a new EGI Check-in account
+[from here](https://docs.egi.eu/users/aai/check-in/signup/) and use it to login
+to UseGalaxy.eu!
 
 If you already have a Galaxy account and would like to connect it to your EGI
 account, you can go to the users preferences and click on **Manage Third-Party
