@@ -18,28 +18,22 @@ option for users so they can use their existing EGI Check-in accounts to access
 the European Galaxy Server, thus facilitating the access to the services to the
 broad community of EGI users without any extra steps.
 
-<div class="float-right" style="max-width: 10rem">
 ![Login options in in usegalaxy.eu](./login-options-usegalaxy.png)
-</div>
 
 If you already have a valid Check-in account,
 [login to UseGalaxy.eu](https://usegalaxy.eu/login/start) now and start using
 the service. If you don't have one yet, register at least one of your identities
-in a new EGI Check-in account [from here]
-(https://docs.egi.eu/users/aai/check-in/signup/) and use it to login to
-UseGalaxy.eu!
+in a new EGI Check-in account
+[from here](https://docs.egi.eu/users/aai/check-in/signup/) and use it to login
+to UseGalaxy.eu!
 
 If you already have a Galaxy account and would like to connect it to your EGI
 account, you can go to the users preferences and click on **Manage Third-Party
 Identities** to link both accounts.
 
-<div class="float-left" style="max-width: 12rem;">
 ![Manage Third-Party Identities in user preferences](./user-preferences.png)
-</div>
 
 From there you can select the identity provider and after a successful login
 your accounts will be linked
 
-<div class="float-right" style="max-width: 10rem">
 ![External identities preferences](./external-identities.png)
-</div>
