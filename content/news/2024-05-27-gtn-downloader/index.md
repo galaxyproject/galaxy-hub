@@ -20,6 +20,8 @@ You can now access the GTN data through several methods:
 2. **OneData Client**: Use the [OneData client](https://www.onedata.org/#/home/documentation/21.02/user-guide/oneclient.html) to directly access the data.
 3. **Galaxy Server Integration**: Access the data on the [European Galaxy server](https://usegalaxy.eu/). Go to the "Upload data" button, select "Choose remote files," and navigate to the GTN repository.
 
+<img src="./galaxy-data-upload.png" alt="Galaxy data upload wondow with GTN data option" width="60%">
+
 ### Configuration Example:
 To access the GTN data via OneData or include it in your Galaxy server, use the following configuration:
 ```yaml
