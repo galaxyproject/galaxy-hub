@@ -22,6 +22,40 @@ We are happy to announce the Galaxy Training Academy 2024, a global online train
 The event will provide a self-paced online learning experience for learners who would like to dive into the depths of Galaxy data analysis. The event is similar to the Smörgåsbord, but the program will be more structured. On Monday learners can get to know Galaxy and its tremendous functionality. Between Tuesday and Thursday, learners can choose from different Tracks that they are interested in. This can help learn to either get onboarded or understand fassates of one research area more in-depth. It is still up to the learnes to choose there program for the week but the track will give them guidance on what order will help to achieve their individual learning goals. In there self-paced learning endevers they will be supported via chat by us.
 
 
+### Initial Program:
+
+
+<table>
+  <tr>
+   <td><strong>Day</strong></td>
+   <td><strong>Program</strong></td>
+ </tr>
+ <tr>
+   <td>Monday</td>
+   <td>Galaxy Introduction</td>
+ </tr>
+ <tr>
+   <td>Tuesday-
+     <p> Thurday
+   </td>
+   <td>Different tracks:
+   <ul>
+        <li>Proteomics</li>
+        <li>Assembly</li>
+        <li>Transcriptomics</li>
+        <li>Microbiome</li>
+        <li>Machine learning</li>
+        <li>BY-COVID</li>
+      </ul>
+   </td>
+ </tr>
+ <tr>
+  <td>Friday</td>
+  <td>Choose from a variety of different topics</td>
+ </tr>
+</table> 
+
+
 
 
 ## Your contribution
