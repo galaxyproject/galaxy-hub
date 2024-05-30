@@ -166,13 +166,13 @@ A Galaxy workbench with tools and workflows for materials science, including muo
 
 </div>
 
-<!-- Single cell -->
+<!-- Single cell & sPatial Omics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
-<div class="card-header bg-wg-applied text-white text-center">Single cell</div>
+<div class="card-header bg-wg-applied text-white text-center">Single cell & sPatial Omics</div>
 </a>
 
-Group of single cell tool developers, trainers and users to help connect outreach, user needs, and computationalists.
+The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.
 
 * [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im)
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/)
