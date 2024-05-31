@@ -1026,3 +1026,13 @@ h6:hover > a > span.icon.icon-link::before {
 .tooltable td:nth-child(3) {
     width: 15%;
 }
+
+/* GCC2024 */
+.gcc2024-authors {
+    font-style: italic;
+    font-size: small;
+}
+
+.gcc2024-title {
+    font-weight: 600;
+}
