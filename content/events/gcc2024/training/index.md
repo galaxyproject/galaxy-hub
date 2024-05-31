@@ -170,7 +170,7 @@ sessions:
                     <h2>Clinical Metaproteomics Workflow</h2>
                     <hr/>
                     <div class="my-5">
-                        Get your hands onto some metabolomics data!
+                        Get your hands onto some metaproteomics data!
                     </div>
                 </a>
             </td>
