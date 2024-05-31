@@ -26,12 +26,14 @@ subsites: [all]
 ### June 24-29, 2024
 ### [Brno, Czech Republic](https://maps.app.goo.gl/QDx3SRk8YoZEbQv68)
 
-#### [#UseGalaxy2024](https://twitter.com/hashtag/UseGalaxy2024)
-
   <div class="text-center my-5">
     <div class="lead" style="padding-bottom: 1rem">
       The flagship Galaxy event of the year is upon us! Join the Galaxy world-wide community to share and learn about data science.
     </div>
+    <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
+        <strong>View talk schedule</strong>
+    </a>
+    ◇
     <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
         <strong>Sign up for announcements</strong>
     </a>
@@ -71,8 +73,8 @@ Galaxy community.
     <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="World-class content" />
     <div class="card-header">World-class content</div>
 
-**GCC2024 will have over 50 talks and about 40 posters** presenting methods,
-tools, pipelines, and software improvements for the Galaxy framework.
+**GCC2024 will have more than 50 talks and more than 50 posters** presenting
+methods, tools, pipelines, and software improvements for the Galaxy framework.
 
 Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
 The abstract book with all the details is coming soon!
