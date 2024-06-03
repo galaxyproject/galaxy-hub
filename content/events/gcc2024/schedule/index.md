@@ -221,8 +221,8 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Delphine Larivière, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">TES job submission and streamlined data transfers</span>;
-                    <span class="gcc2024-authors">Aleš Křenek, et al.</span>
+                    <span class="gcc2024-title">DevOps techniques for developing and integrating tools in Galaxy</span>;
+                    <span class="gcc2024-authors">Serena Lorenzini, Giuseppe Profiti</span>
                 </td>
             </tr>
             <tr>
@@ -327,8 +327,8 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Stephen Shank, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">DevOps techniques for developing and integrating tools in Galaxy</span>;
-                    <span class="gcc2024-authors">Serena Lorenzini, Giuseppe Profiti</span>
+                    <span class="gcc2024-title">TES job submission and streamlined data transfers</span>;
+                    <span class="gcc2024-authors">Aleš Křenek, et al.</span>
                 </td>
             </tr>
             <tr>
@@ -477,8 +477,8 @@ the page and the abstract book will be available soon.
             <tr>
                 <td>9</td>
                 <td>
-                    <span class="gcc2024-title">DevOps techniques for developing and integrating tools in Galaxy</span>;
-                    <span class="gcc2024-authors">Serena Lorenzini, Giuseppe Profiti</span>
+                    <span class="gcc2024-title">TES job submission and streamlined data transfers</span>;
+                    <span class="gcc2024-authors">Aleš Křenek, et al.</span>
                 </td>
             </tr>
             <tr>
@@ -689,8 +689,8 @@ the page and the abstract book will be available soon.
             <tr>
                 <td>37</td>
                 <td>
-                    <span class="gcc2024-title">TES job submission and streamlined data transfers</span>;
-                    <span class="gcc2024-authors">Aleš Křenek, et al.</span>
+                    <span class="gcc2024-title">DevOps techniques for developing and integrating tools in Galaxy</span>;
+                    <span class="gcc2024-authors">Serena Lorenzini, Giuseppe Profiti</span>
                 </td>
             </tr>
             <tr>

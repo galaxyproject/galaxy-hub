@@ -31,7 +31,7 @@ subsites: [all]
       The flagship Galaxy event of the year is upon us! Join the Galaxy world-wide community to share and learn about data science.
     </div>
     <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
-        <strong>View talk schedule</strong>
+        <strong>View talk & poster schedule</strong>
     </a>
     ◇
     <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
@@ -39,7 +39,7 @@ subsites: [all]
     </a>
     ◇
     <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
-        <strong>Register</strong>
+        <strong>Register to attend</strong>
     </a>
   </div>
 </div>

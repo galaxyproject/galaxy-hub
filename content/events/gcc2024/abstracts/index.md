@@ -8,6 +8,10 @@ autotoc: false
     <a target="_blank" href="https://forms.gle/bgbNpfc7YvLPz2ty7" type="button" class="btn btn-primary">
         <strong>Submit a BoF</strong>
     </a>
+    ◇
+    <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
+        <strong>View talk & poster schedule</strong>
+    </a>
   </div>
 </div>
 
