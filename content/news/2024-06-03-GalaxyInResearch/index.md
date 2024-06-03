@@ -20,7 +20,7 @@ The study, conducted in Egypt, aimed to investigate the prevalence and character
 
 In addition to carbapenem and colistin resistance, the CRKP isolates exhibited resistance to multiple antimicrobials, highlighting the challenge of treating these infections. Furthermore, most of the CRKP isolates belonged to phylogroup Kp1 and were identified as potentially hypervirulent, posing a significant threat to public health.
 
-
+![Sabal et al. Graph](FoodSaftey1.jpeg)
 Antimicrobial resistance in 35 CRKP strains from diced meat, minced meat, chicken, and mutton samples in Egypt. (Sabala et al., 2024)
 
 ## Galaxy's Role
