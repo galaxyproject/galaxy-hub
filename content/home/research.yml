@@ -16,8 +16,8 @@ research1:
 
 research2:
   title: Cite Galaxy
-  content: "The Galaxy Community. \"The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update\", Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W345–W351."
-  url: "https://doi.org/10.1093/nar/gkac247"
+  content: "The Galaxy Community, \"The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update\", Nucleic Acids Research, 2024; gkae410, https://doi.org/10.1093/nar/gkae410"
+  url: "https://doi.org/10.1093/nar/gkae410"
 
 research3:
   title: Popular tutorials
