@@ -23,6 +23,8 @@ for entry in feed.entries:
     }
     folder = date_ymd + '-' + entry['link'].split('/')[-1].replace('.html', '')
 
+    if 'already-on-hub' in meta['tags']:
+        continue
     if not os.path.exists(f"content/news/{folder}"):
         sys.stderr.write(f"New post: {folder}\n")
         count += 1
