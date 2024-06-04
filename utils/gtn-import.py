@@ -19,7 +19,7 @@ for entry in feed.entries:
         'title': entry['title'],
         'authors': ', '.join([x['name'] for x in entry['authors']]),
         'external_url': entry['link'],
-        'tease': entry['summary'],
+        'tease': entry['summary'].split('. ')[0],
     }
     folder = date_ymd + '-' + entry['link'].split('/')[-1].replace('.html', '')
 
