@@ -41,6 +41,10 @@ subsites: [all]
     <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
         <strong>Register to attend</strong>
     </a>
+    ◇
+    <a href="https://join.slack.com/t/gcc2024/shared_invite/zt-2k5e9ju83-srjhchf7Uh0C2_lE1iITlA" type="button" class="btn btn-primary" target="_blank">
+        <strong>Join GCC2024 Slack</strong>
+    </a>
   </div>
 </div>
 

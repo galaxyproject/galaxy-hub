@@ -88,10 +88,11 @@ when you will talk on the [schedule](/events/gcc2024/schedule/#talks) page.
 
 ## Poster details
 
-**Posters should fit within a 1.1m x 1.1m (44" x 44") space**. Supplies for
-hanging posters are provided during the poster sessions. You must bring a
-printed poster to the conference; there will be no opportunity to print at the
-conference or for the organizers to print your poster.
+**Posters should fit within a 96cm wide and 110cm heigh (37" x 44") space, or A0
+paper format.**. Supplies for hanging posters are provided during the poster
+sessions. You must bring a printed poster to the conference; there will be no
+opportunity to print at the conference or for the organizers to print your
+poster.
 
 If you do not want to travel with a poster, here are a couple of companies in
 Brno that will print posters. Check with them about the timelines by when they
