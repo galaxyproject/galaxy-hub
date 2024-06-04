@@ -1,7 +1,6 @@
 ---
-authors:
-- ''
-date: '2024-03-28T00:00:00+00:00'
+authors: ''
+date: '2024-03-28'
 external_url: https://training.galaxyproject.org/training-material/news/2024/03/28/by-covid-pathways.html
 main_subsite: global
 subsites:

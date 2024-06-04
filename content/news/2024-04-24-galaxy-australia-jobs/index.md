@@ -1,7 +1,6 @@
 ---
-authors:
-- ''
-date: '2024-04-24T00:00:00+00:00'
+authors: ''
+date: '2024-04-24'
 external_url: https://training.galaxyproject.org/training-material/news/2024/04/24/galaxy-australia-jobs.html
 main_subsite: global
 subsites:
