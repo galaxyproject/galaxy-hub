@@ -14,6 +14,10 @@ top experts on the topic.
 
 </div>
 
+<div style="background-color: #cce5ff; padding: 10px; border: 1px solid #b8daff; border-radius: 4px;">
+    <h2 style="color: #004085;">📢 Looking for the schedule view?  <a href="/events/gcc2024/training/schedule" style="color: #004085;">Check it out here</a>.</h2>
+</div>
+
 ## Trainings for newcomers
 
 Welcome! If you're new to the Galaxy Community and not quite sure how it all
