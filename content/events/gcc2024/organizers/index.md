@@ -32,7 +32,7 @@ This years conference is hosted by Masaryk University and ELIXIR Czech Republic 
     <img src="/images/events/gcc2024/brno-city-logo.png" alt="Snow" style="width:36%">
     <img src="/images/events/gcc2024/muni-lg-rgb.png" alt="Forest" style="width:30%">
     <img src="/images/events/gcc2024/logo-elixir-cz.png" alt="Mountains" style="width:27%">
-</p> 
+</p>
 
 # Scientific Committee Chair
 
@@ -72,6 +72,4 @@ CoFest organizers coordinate activities during [CoFest](/events/gcc2024/cofest/)
 
 # Photographer
 
-A dedicated individual responsible for capturing great moments during GCC2024.
-
-* Looking for volunteers. Email the [organizers](mailto:gcc2024-org@gaggle.email) if interested.
+You too! Capture those great moments during GCC2024 and we'll provide a place to share your creations.

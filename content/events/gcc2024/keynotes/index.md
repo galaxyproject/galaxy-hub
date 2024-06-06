@@ -52,7 +52,7 @@ projects.
       </td>
       <td style="border: 0;">
         <strong>Ute Gunsenheimer</strong><br/>
-        Talking about <strong>Science policy and implementation</strong><br/><br/>
+        Talk title: <strong>Building the EOSC federation and the potential role of Galaxy</strong><br/><br/>
         Secretary General<br/>
         EOSC Association<br/>
         Brussels, Belgium<br/>
@@ -80,7 +80,7 @@ history and politics.
       </td>
       <td style="border: 0;">
         <strong>Dr. Daria Onichtchouk</strong><br/>
-        Talking title: <strong>Zebrafish swims into the Galaxy</strong><br/><br/>
+        Talk title: <strong>Zebrafish swims into the Galaxy</strong><br/><br/>
         Universtity of Freiburg<br/>
         Freiburg, Germany<br/>
       </td>

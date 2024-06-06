@@ -15,7 +15,7 @@ the page and the abstract book will be available soon.
 | **Day**           | **Time**      | **Event**                                                | **Room(s)**         |
 |-------------------|---------------|----------------------------------------------------------|---------------------|
 | Monday, Jun 24    | 8:30 - 8:45   | Open and welcome                                         | BCD                 |
-|                   | 8:45 - 9:45   | Keynote by Jana Klánová                                  | BCD                 |
+|                   | 8:45 - 9:45   | [Keynote by Jana Klánová](/events/gcc2024/keynotes/)     | BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
 |                   | 10:10 - 12:00 | [Talks (single track)](#talks)                           | BCD                 |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
@@ -35,7 +35,7 @@ the page and the abstract book will be available soon.
 |                   | 19:00 - 22:00 | Conference dinner                                        | Mendel's Abbey      |
 |                   |               |                                                          |                     |
 | Wednesday, Jun 26 | 8:30 - 8:45   | Overview of activities on Wednesday afternoon            | BCD                 |
-|                   | 8:45 - 9:45   | Keynote by Ute Gunsenheimer                              | BCD                 |
+|                   | 8:45 - 9:45   | [Keynote by Ute Gunsenheimer](/events/gcc2024/keynotes/) | BCD                 |
 |                   | 8:45 - 10:10  | Morning break                                            | Atrium              |
 |                   | 10:10 - 10:30 | Gold sponsor talk: JXTX Foundation                       | BCD                 |
 |                   | 10:30 - 12:00 | Panel discussion                                         | BCD                 |
@@ -44,7 +44,7 @@ the page and the abstract book will be available soon.
 |                   | 13:00 - ...   | Tour of Villa Tugendhat. Walking tour of Brno. Fun BoFs. | Brno                |
 |                   |               |                                                          |                     |
 | Thursday, Jun 27  | 8:30 - 8:45   | Feedback session                                         | BCD                 |
-|                   | 8:45 - 9:45   | Keynote by Daria Onichtchouk                             | BCD                 |
+|                   | 8:45 - 9:45   | [Keynote by Daria Onichtchouk](/events/gcc2024/keynotes/)| BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
 |                   | 10:10 - 12:00 | [Talks (2 tracks)](#talks)                               | BC, D               |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
@@ -810,6 +810,13 @@ the page and the abstract book will be available soon.
                 <td>
                     <span class="gcc2024-title">Toolkit Galaxy MLA computational intelligence toolset for biological sciences that is expandable, reproducible, and easily approachable</span>;
                     <span class="gcc2024-authors">Reyed Reyed</span>
+                </td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>
+                    <span class="gcc2024-title">An Update on the FragPipe Galaxy Tool for Proteomics Workflows</span>;
+                    <span class="gcc2024-authors">Reid Wagner, et al.</span>
                 </td>
             </tr>
         </tbody>
