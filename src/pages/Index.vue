@@ -363,6 +363,11 @@ export default {
     mounted() {
         this.setPrioritizedGalaxyLocales();
     },
+    metaInfo() {
+        return {
+            title: "Home",
+        };
+    },
 };
 </script>
 
