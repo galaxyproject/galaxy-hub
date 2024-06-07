@@ -14,7 +14,7 @@ autotoc: false
       </td>
       <td style="border: 0;">
         <strong>Prof. Jana Klánová</strong><br/>
-        Talking about <strong>Environmental health sciences</strong><br/><br/>
+        Talk title: <strong>Integrating exposomics into biomedical sciences</strong><br/><br/>
         Masaryk University<br/>
         Brno, Czech Republic<br/>
       </td>

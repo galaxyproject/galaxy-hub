@@ -52,26 +52,6 @@ subsites: [all]
 
 <div class="card-deck lead">
 
-  <!-- About GCC -->
-  <div class="card" style="min-width: 30%; max-width: 40rem;">
-    <img src="/images/events/gcc2024/gcc2023-generic.png" class="card-img-top" alt="GCC2022 group photo" />
-    <div class="card-header">About GCC conference series</div>
-
-The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
-the use and development of the [Galaxy platform](https://galaxyproject.org/) for
-data-intensive biomedical research. **The conference brings together scientists,
-software developers, and trainers of Galaxy from a variety of disciplines to share their
-experiences, knowledge, and skills.**
-
-The conference included talks, posters, and workshops on a wide range of topics
-related to Galaxy, including genomics, proteomics, transcriptomics, and more.
-The GCC provides an opportunity for attendees to learn about the latest
-developments in the Galaxy platform and to connect with other members of the
-Galaxy community.
-
-  </div>
-
-
   <!-- Call for participation -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="World-class content" />
@@ -83,13 +63,25 @@ methods, tools, pipelines, and software improvements for the Galaxy framework.
 Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
 The abstract book with all the details is coming soon!
 
-And don't forget the **amazing lineup of [keynote talks](/events/gcc2024/keynotes/)**.
-
 If you haven't registered yet, [registration](/events/gcc2024/register/) is
 (still) open.
 
   </div>
 
+<!-- Keynotes -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2024/gcc2024-keynotes.png" class="card-img-top" alt="Keynotes at GCC2024" />
+    <div class="card-header">Keynote speakers</div>
+
+Three inspiring [keynote speakers](/events/gcc2024/keynotes/):
+
+Monday: **Integrating exposomics into biomedical sciences** by Jana Klánová
+
+Wednesday: **Building the EOSC federation and the potential role of Galaxy** by Ute Gunsenheimer
+
+Thursday: **Zebrafish swims into the Galaxy** by Daria Onichtchouk
+
+  </div>
 
 <!-- Fellowships -->
   <!-- <div class="card" style="min-width: 30%; max-width: 30rem;">
@@ -133,22 +125,6 @@ meeting people that can help you later.
 
   </div>
 
-
-<!-- Keynotes -->
-  <!--<div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2023/keynotes-images.png" class="card-img-top" alt="Keynotes abstract" />
-    <div class="card-header">Keynote speakers</div>
-
-**Three inspiring and prominent keynote speakers** presented work on how they
-actively use and rely on Galaxy to make key research discoveries.
-
-The covered topics focused on biodiversity and structural biology.
-
-Check out their full biographies on the [program
-page](/events/gcc2023/schedule/#keynote-speakers).
-
-  </div> -->
-
 <!-- Fellowships
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/fellowships.png" class="card-img-top" alt="Student fellowships" />
@@ -164,6 +140,26 @@ page](/events/gcc2023/fellowships/) for details and application deadlines.
 Brought to you by an anonymous donor.
   </div>
 -->
+
+  <!-- About GCC -->
+  <div class="card" style="min-width: 30%; max-width: 40rem;">
+    <img src="/images/events/gcc2024/gcc2023-generic.png" class="card-img-top" alt="GCC2022 group photo" />
+    <div class="card-header">About GCC conference series</div>
+
+The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
+the use and development of the [Galaxy platform](https://galaxyproject.org/) for
+data-intensive biomedical research. **The conference brings together scientists,
+software developers, and trainers of Galaxy from a variety of disciplines to share their
+experiences, knowledge, and skills.**
+
+The conference included talks, posters, and workshops on a wide range of topics
+related to Galaxy, including genomics, proteomics, transcriptomics, and more.
+The GCC provides an opportunity for attendees to learn about the latest
+developments in the Galaxy platform and to connect with other members of the
+Galaxy community.
+
+  </div>
+
   <!-- Destination -->
   <div class="card" style="min-width: 30%; max-width: 32.2%;">
     <img src="/images/events/gcc2024/brno.png" class="card-img-top" alt="Brno, Czech Republic" />
@@ -194,11 +190,9 @@ attendees.
 Brno can be accessed via bus or train from Vienna (~2.5hr) or Prague (~2.5hr).
 Grab a comfy seat and enjoy the scenery.
 
-Discounted rooms are available for conference participants in the venue ([Hotel International](https://www.hotelinternational.cz/en/)) as well as in other hotels in Brno.
-Instructions for Hotel bookings are sent in the confirmation email after registering for the conference.
-To get most up-to-date travel news
-<a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email">
-sign up for the GCC2024 Announce mailing list</a>.
+GCC2024 will be held in [Hotel
+International](https://www.hotelinternational.cz/en/), located at [Husova 16,
+602 00 Brno-střed](https://maps.app.goo.gl/HZRSoA5r5CwJdN5U9).
 
 The **[travel page](/events/gcc2024/travel/) has more details.**
 
