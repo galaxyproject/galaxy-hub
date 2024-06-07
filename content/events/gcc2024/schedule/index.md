@@ -831,12 +831,17 @@ the page and the abstract book will be available soon.
 
 The conference dinner will take place in the [Augistinian
 Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno) at Mendel's
-square, the place where Gregor Mendel conducted his experiments. During the
+square, the place where Gregor Mendel conducted his experiments. The price for a ticket is EUR70 excluding VAT.
+During the
 dinner, participants have free access to the [Mendel
-Museum](https://mendelmuseum.muni.cz/en). Participants may join the guided tours
-of the abbey including Mendel's room and the library shortly before or after the
-dinner during the course of the evening.
+Museum](https://mendelmuseum.muni.cz/en).
 
+Participants may join the guided tours
+of the abbey including Mendel's room and the library shortly before (staring 18:30 & 19:15) or after the dinner (starting 21:00).
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2607.404728179705!2d16.59790032686627!3d49.19288132710864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x47129450f5e25ee7%3A0x1d824eaf890ec356!2sHOTEL%20INTERNATIONAL%20BRNO%2C%20Husova%2016%2C%20602%2000%20Brno-st%C5%99ed!3m2!1d49.194984299999994!2d16.605487099999998!4m5!1s0x4712944c5d1a5011%3A0x453228a4c330766d!2sMendel%20Museum%20of%20Masaryk%20University%2C%20Mendlovo%20n%C3%A1m%C4%9Bst%C3%AD%2C%20Brno-st%C5%99ed!3m2!1d49.1913012!2d16.593784!5e0!3m2!1sen!2scz!4v1717766997036!5m2!1sen!2scz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+The venue is a 15 minute walk from Hotel International down Pekařská on Mendlovo Naměstí. Alternatively, you can take trams 5 and 6 from Šilingrovo Naměstí to Mendlovo Naměstí.
 
 ### Wednesday Afternoon
 
@@ -845,6 +850,12 @@ will give you an opportunity to explore the city and its sights with an
 experienced guide, rather than on your own. Please note that places for all
 activities are limited.
 
+| **Day**           | **Time** | **Event**                | **Location**     |
+|-------------------|----------|--------------------------|------------------|
+| Wednesday, Jun 26 | 14:00    | Don's Walk               | Denisovy Sady    |
+|                   | 14:30    | Vila Tugendhat - Group 1 | Vila Tugendhat   |
+|                   | 15:00    | Vila Tugendhat - Group 2 | Vila Tugendhat   |
+|                   | 16:00    | Guided Walking Tour      | Moravské Naměstí |
 
 #### City Tours
 
