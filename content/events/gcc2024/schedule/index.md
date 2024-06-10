@@ -16,8 +16,8 @@ the page and the abstract book will be available soon.
 |-------------------|---------------|----------------------------------------------------------|---------------------|
 | Monday, Jun 24    | 8:30 - 8:45   | Open and welcome                                         | BCD                 |
 |                   | 8:45 - 9:45   | [Keynote by Jana Klánová](/events/gcc2024/keynotes/)     | BCD                 |
-|                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
-|                   | 10:10 - 12:00 | [Talks (single track)](#talks)                           | BCD                 |
+|                   | 9:45 - 10:00  | Morning break                                            | Atrium              |
+|                   | 10:00 - 12:00 | [Talks (single track)](#talks)                           | BCD                 |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
 |                   | 13:00 - 14:00 | [Trainings I](/events/gcc2024/training/)                 | B, C, D, M1, M2     |
 |                   | 14:00 - 16:00 | [Posters](#monday-1400---1600) + coffee                  | BCD                 |
@@ -59,7 +59,7 @@ the page and the abstract book will be available soon.
 # Talks
 
 
-## Monday: 10:10 - 12:00
+## Monday: 10:00 - 12:00
 
 <div>
     <table>
@@ -89,7 +89,7 @@ the page and the abstract book will be available soon.
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Community Lightning Talks: SPOC, GGA, SSA, Imaging, & GCB</span>;
+                    <span class="gcc2024-title">Community Lightning Talks: SPOC, GGA, SSA, Imaging, microGalaxy, & GCB</span>;
                     <span class="gcc2024-authors">Wendi Bacon, et al.</span>
                 </td>
             </tr>
