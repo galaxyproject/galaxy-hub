@@ -10,8 +10,7 @@ location:
   name: online
 supporters:
 - elixir
-subsites: [eu]
-main_subsite: eu
+subsites: [all]
 ---
 
 # What will you learn?
@@ -37,6 +36,9 @@ Should you have any questions, please contact us at contact@elixiruknode.org
 
 
 Register now at [FAIR data management in single-cell analysis](https://bradford-ac-uk.zoom.us/meeting/register/tZwtfuihrz0pGNLVbpJi_5v85NktsmcZl2T3).
+
+
+# Funding 
 
 This course is funded as part of the UKRI Innovation Scholars. Data Science Training in Health and Bioscience Call (DaSH). (MR/V038966/1)
 
