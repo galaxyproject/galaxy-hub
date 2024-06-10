@@ -10,6 +10,8 @@ subsites: [global,all]
 
 # The 2024 Galaxy Community Update Paper is Here!
 
+![GraphicalAbstract](2024update1.jpeg)
+
 The Galaxy Community is thrilled to announce the publication of our latest update paper, titled "The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update." This paper, authored by The Galaxy Community, provides a comprehensive overview of the progress and goals of the Galaxy Project, highlighting significant advancements and strategic directions.
 
 This update paper is an essential resource for the Galaxy Community and its users. It provides a detailed account of the project's advancements and future directions. We encourage all Galaxy users to cite this paper in their research, ensuring they stay informed about the latest developments and contributions of the Galaxy Project.
