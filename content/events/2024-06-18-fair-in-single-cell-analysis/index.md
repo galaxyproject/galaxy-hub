@@ -34,6 +34,7 @@ Participants are encouraged to familiarise themselves with the Galaxy platform a
 
 Should you have any questions, please contact us at contact@elixiruknode.org 
 
+# Registration
 
 Register now at [FAIR data management in single-cell analysis](https://bradford-ac-uk.zoom.us/meeting/register/tZwtfuihrz0pGNLVbpJi_5v85NktsmcZl2T3).
 
