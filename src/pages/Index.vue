@@ -219,21 +219,13 @@
                             target="_blank"
                             >{{ p.title }}</a
                         >
-                        <a
-                            :href="this.$static.datasetResearch.research2.url"
-                            target="_blank"
-                            rel="noopener"
-                            class="text-white"
-                        >
-                            <h3>{{ this.$static.datasetResearch.research2.title }}</h3>
-                        </a>
-                        <a
-                            :href="this.$static.datasetResearch.research2.url"
-                            target="_blank"
-                            rel="noopener"
-                            class="small text-white"
-                        >
-                            <div v-html="this.$static.datasetResearch.research2.content"></div>
+                        <a href="https://doi.org/10.1093/nar/gkae410" target="_blank" rel="noopener" class="text-white">
+                            <h3>Cite Galaxy</h3>
+                            <div>
+                                The Galaxy Community, "The Galaxy platform for accessible, reproducible, and
+                                collaborative data analyses: 2024 update", Nucleic Acids Research, 2024; gkae410,
+                                https://doi.org/10.1093/nar/gkae410
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -454,11 +446,6 @@ query {
                 title,
                 url
             }
-        },
-        research2 {
-            title,
-            content,
-            url
         },
         research3 {
             title,

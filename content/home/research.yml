@@ -14,11 +14,6 @@ research1:
   - title: "Sokol-Borrelli, Sarah L., et al. \"A transcriptional network required for bradyzoite development in Toxoplasma gondii is dispensable for recrudescent disease.\" Nature Communications 14.1 (2023): 6078."
     url: "https://doi.org/10.1016/j.envint.2022.107531"
 
-research2:
-  title: Cite Galaxy
-  content: "The Galaxy Community, \"The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update\", Nucleic Acids Research, 2024; gkae410, https://doi.org/10.1093/nar/gkae410"
-  url: "https://doi.org/10.1093/nar/gkae410"
-
 research3:
   title: Popular tutorials
   url: "https://training.galaxyproject.org"
