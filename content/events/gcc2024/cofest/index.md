@@ -36,10 +36,43 @@ That's a short sentence, but it is very deliberately worded:
 
 This is a Collaboration Fest. Not a hackathon, not a codefest, but a *CollaborationFest*.
 
-Welcome aboard! If you'd like to get involved check out our live
-[document of CoFest project ideas](https://docs.google.com/spreadsheets/d/1n3OiQhqPEr2Xpnx-d7do0eVKreFCYfKo5vlz1_7wpSM/edit?usp=sharing).
+
+## Project ideas
+
+Welcome aboard! If you'd like to get involved early check out our _live document of CoFest
+project ideas_ linked below.
 Feel free to add to this document or join someone else's project by adding your name to the
 *Participants* column.
+
+<div class="text-center mb-3">
+    <a
+        href="https://docs.google.com/spreadsheets/d/1n3OiQhqPEr2Xpnx-d7do0eVKreFCYfKo5vlz1_7wpSM/edit?usp=sharing"
+        type="button"
+        class="btn btn-primary"
+        target="_blank">
+        <strong>Document of CoFest project ideas</strong>
+    </a>
+</div>
+
+<p class="alert alert-info">
+    A good project idea for the Cofest is preferrably a collaborative one or at the very least,
+    one that would benefit from in-person planning, feedback and dicussion.
+</p>
+
+### <i>Note that this is not the exhaustive list of projects for the Cofest!</i>
+
+<p class="lead">
+    <strong>
+        Share your ideas and get input from Working Group Leads.
+    </strong>
+</p>
+
+Show up, share what you're curious to do (doesn't have to be a fully fledged project!), get
+input or support from the Galaxy Working Group leads (UI/UX, Backend, Systems, Tools &
+Workflows, Testing & Hardening, GOATS).
+
+CoFest is all about collaboration and interaction. The best ideas and solutions come from
+open discussions and collective problem-solving. 
 
 
 ## Dates & location
