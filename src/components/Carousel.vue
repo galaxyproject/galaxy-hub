@@ -33,12 +33,6 @@
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
                 ></b-carousel-slide>
             </a>
-            <a href="https://galaxyp.org/" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/ColabFold_comingsoon.jpeg"
-                    img-alt="ColabFold, a machine-learning model based on AlphaFold that is used for predicting the structure of proteins only using only a protein sequence as an input, will soon be available on Galaxy."
-                ></b-carousel-slide>
-            </a>
         </b-carousel>
     </div>
 </template>
