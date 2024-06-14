@@ -16,7 +16,7 @@ Please feel free to get in touch with the CoC Committee if you think that there 
 
 
 ## Changes to Code Of Conduct committee
-Change in membership - NA
+Change in membership - Assunta DeSanto has left the committee.
 
 ## Procedures for changes to Code of Conduct
 CoC Committee members are now listed as codeowners of the file, ensuring that we are aware of any requested changes, and preventing 
