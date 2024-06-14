@@ -5,7 +5,7 @@ autotoc: true
 <slot name="/events/gcc2024/header" />
 <div class="text-center lead">
 
-# Training opportunities at GCC2024
+# <b>Training opportunities at GCC2024</b>
 
 GCC2024 will bring about an exciting set of educational sessions so you can
 learn new concepts, get some practical, hands-on training, interact with others
@@ -31,33 +31,33 @@ top experts on the topic.
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
             <a href="/events/gcc2024/training/galaxy-101" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Intro to Galaxy with Galaxy 101</h3>
+                <h3 style="text-align: center;">Beginner's Handbook: Intro to Galaxy</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Our first tutorial - a step-by-step analysis guide, displaying what Galaxy does best.</p>
+                <p>Join our beginner's training for the Galaxy Project to unlock the fundamentals of data analysis, workflow management, and essential tools, all while building a strong foundation for your future Galaxy endeavors.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Tools for Machine Learning</h3>
+            <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Tools for Machine Learning pt 1</h3>
                 <hr style="margin: 10px 0;"/>
                 <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Assembly and Annotation</h3>
+            <a href="/events/gcc2024/training/assembly-annotation" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Assembly and Annotation pt 1</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>It's been around a while but there are some really cool new, and consistent methods to learn here.</p>
+                <p>Assembly and annotation are crucial for processing and understanding genetic data, providing insights into the structure and function of genomes. Join our training to discover how Galaxy's powerful tools and workflows can tackle these complex tasks.</p>
                 <p><b>Room:</b> Meeting room 1</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Clinical Metaproteomics Workflow</h3>
+            <a href="/events/gcc2024/training/metaproteomics" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Mass Spectrometry and Metaproteomics pt 1</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Get your hands onto some metaproteomics data!</p>
+                <p>Unlock the secrets of host-microbe interactions in disease with a new Galaxy-based workflow, combining mass spectrometry and customized bioinformatics for powerful and accessible protein analysis in clinical research.</p>
                 <p><b>Room:</b> Meeting Room 2</p>
             </a>
         </div>
@@ -68,39 +68,39 @@ top experts on the topic.
             <a href="/events/gcc2024/training/wf-dev" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Advanced Workflow Development</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Techniques and methods for developing large, scalable, and maintainable workflows.</p>
-                <p><b>Room:</b>Congress hall B</p>
+                <p>Learn some of the more advanced techniques in order to develop large, scalable, and maintainable workflows in our training session! Gain hands-on experience with best practices and enhance your workflow development skills for efficient and robust solutions.</p>
+                <p><b>Room:</b> Congress hall B</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
             <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Beginners Handbook Part 2</h3>
+                <h3 style="text-align: center;">Beginner's Handbook: Admin, Dev, and Tools</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>What does it mean to administrate a Galaxy server? How do I get started? Where are the resources? Find out about them here!</p>
+                <p> Come join our breakout sessions to dive into the fundamentals of tool development, Galaxy software development, and Galaxy administration. Choose your favorite and come learn more about it!</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Tools for Machine Learning</h3>
+            <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Tools for Machine Learning pt 2</h3>
                 <hr style="margin: 10px 0;"/>
                 <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Assembly and Annotation</h3>
+            <a href="/events/gcc2024/training/assembly-annotation" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Assembly and Annotation pt 2</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>It's been around a while but there are some really cool new, and consistent methods to learn here.</p>
+                <p>Assembly and annotation are crucial for processing and understanding genetic data, providing insights into the structure and function of genomes. Join our training to discover how Galaxy's powerful tools and workflows can tackle these complex tasks.</p>
                 <p><b>Room:</b> Meeting Room 1</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Clinical Metaproteomics Workflow</h3>
+            <a href="/events/gcc2024/training/metaproteomics" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Mass Spectrometry and Metaproteomics pt 2</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Get your hands onto some metaproteomics data!</p>
+                <p>Unlock the secrets of host-microbe interactions in disease with our new Galaxy-based workflow, combining mass spectrometry and customized bioinformatics for powerful and accessible protein analysis in clinical research.</p>
                 <p><b>Room:</b> Meeting Room 2</p>
             </a>
         </div>
@@ -113,86 +113,86 @@ top experts on the topic.
     <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Ecology</h3>
+            <a href="/events/gcc2024/training/ecology" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Ecology pt 1</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Ecology in Galaxy is a (big!) thing.</p>
+                <p>Kick off GCC2024 with our first-ever Ecology-focused training session, where you'll explore the powerful tools available in the European Galaxy Ecology instance. Learn to manage ecological data, model species distribution, and produce stunning biodiversity indicators using genetics, GIS, and satellite remote-sensing data.</p>
                 <p><b>Room:</b> Congress hall B</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/galaxy-101" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/interactive-viz" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Interactive Visualizations</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>A picture is worth .... So join this training to learn how to effectively visualize data in Galaxy.</p>
+                <p>They say a picture is worth a thousand words. Join our training to learn how to effectively visualize data in Galaxy, transforming complex datasets into intuitive and insightful visual representations.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Tools for Machine Learning</h3>
+            <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Tools for Machine Learning pt 3</h3>
                 <hr style="margin: 10px 0;"/>
                 <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/backend-dev" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Galaxy Backend Development</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Get familiar with the server-side development in Galaxy - mostly a Python-based shop.</p>
+                <p>Explore the essentials of server-side development in Galaxy, with a strong focus on Python. This training will introduce you to the skills and knowledge needed to effectively manage and enhance Galaxy's backend operations.</p>
                 <p><b>Room:</b> Meeting room 1</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Building New Galaxy Communities via Tools</h3>
+            <a href="/events/gcc2024/training/tool-finding" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Galaxy Tool Metadata Extractor</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Learn how to build new Galaxy flavors and bring together new communities.</p>
-                <p><b>Room:</b> Meeting Room 2</p>
+                <p> Join us for a fun dive into the Galaxy Tool Metadata Extractor workflow, crafted during the Biohackathon 2023 in Barcelona! Learn how to gather, organize, and share tools tailored to your scientific community, and discover how crowd-sourced improvements can enhance your projects—plus, we'll brainstorm ways to make this process even simpler and more effective.</p>
+                <p><b>Room:</b> Meeting room 2</p>
             </a>
         </div>
     </div>
     <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 2</b> (4:00 pm - 6:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/wf-dev" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Ecology</h3>
+            <a href="/events/gcc2024/training/ecology" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Ecology pt 2</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Ecology in Galaxy is a (big!) thing.</p>
+                <p>Kick off GCC2024 with our first-ever Ecology-focused training session, where you'll explore the powerful tools available in the European Galaxy Ecology instance. Learn to manage ecological data, model species distribution, and produce stunning biodiversity indicators using genetics, GIS, and satellite remote-sensing data.</p>
                 <p><b>Room:</b> Congress hall B</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Exposomics Hands On</h3>
+            <a href="/events/gcc2024/training/exposomics" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Exposomics</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Learn how to process your mass spectrometry data to study the exposome!</p>
+                <p>Dive into the world of mass spectrometry with Galaxy, where you'll master tools and workflows to study the exposome! Discover how to process high-resolution GC-MS and LC-MS data, detect low abundant analytes, and choose the right parameters for your projects—all while exploring additional open-source packages.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Tools for Machine Learning</h3>
+            <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Tools for Machine Learning pt 4</h3>
                 <hr style="margin: 10px 0;"/>
                 <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/teaching-gtn-tiaas" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Teaching with Galaxy using the GTN and TIaas</h3>
                 <hr style="margin: 10px 0;"/>
                 <p> Learn how to keep your training sessions and classes on track with Galaxy's dedicated resource pool known as TIaaS. This training also focuses on incorporating best practices in utilizing the Galaxy Training Network, the largest repository of Galaxy-related training materials.</p>
-                <p><b>Room:</b> Meeting Room 1</p>
+                <p><b>Room:</b> Meeting room 1</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/frontend-dev" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">CSS Deep Dive for Frontend Developers</h3>
                 <hr style="margin: 10px 0;"/>
-                <p> Focused on CSS to improve the user experience.</p>
-                <p><b>Room:</b> Meeting Room 2</p>
+                <p> Unlock the magic of modern CSS and learn how to simplify your code while achieving intricate designs with minimal JavaScript! In this training, you'll create elaborate layouts, implement custom CSS properties, harness built-in reactivity, and build reusable reactive components</p>
+                <p><b>Room:</b> Meeting room 2</p>
             </a>
         </div>
     </div>
@@ -204,142 +204,87 @@ top experts on the topic.
     <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/microbiome-analysis" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Pathogen Detection from Sequencing Data</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Microbiome is all around us. Learn how this affects food contamination globally.</p>
+                <p> Join us for a deep dive into the PathoGFAIR workflow, where you'll learn how to detect and track foodborne pathogens using cutting-edge metagenomic Nanopore sequencing. This fun and informative workshop will have you mastering Galaxy-based FAIR workflows and creating clear, actionable visualizations and reports.</p>
                 <p><b>Room:</b> Congress hall B</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/galaxy-101" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/alphafold" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Run Alphafold in Galaxy Now</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Anyone can now run Alphafold - one of the transformative tools for protein folding.</p>
+                <p>Exciting news—AlphaFold is now available in Galaxy! Join our training to learn how to leverage this cutting-edge tool for protein structure prediction, and see how it can supercharge your research with the power of AI right at your fingertips.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/vgp" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Genome Assembly with the VGP Workflows</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Learn about the genome assembly workflows created with the Vertebrate Genome Project and how you can run them!</p>
+                <p>Dive into the world of genome assembly with workflows from the Vertebrate Genome Project (VGP)! In this session, you'll learn how to assemble genomes, evaluate their quality, and discover tips to enhance your assemblies for top-notch results.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/chatgxy" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">chatGXY - a Galaxy-specific Chatbot for Getting Answers</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Chatbots are everywhere now - what can you do with a Galaxy-specific one?</p>
+                <p>Come and learn about the galaxy specific llm ChatGXY! In this session, you'll learn about haow this tool can potentially be used to improve the galaxy platform, how the chatbot was created, and the potential problems that it can lead to.</p>
                 <p><b>Room:</b> Meeting room 1</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
-            <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/automated-testing" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Working with Galaxy's Automated Testing</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Good software practices help create good software. Learn how to test your contributions to Galaxy.</p>
-                <p><b>Room:</b> Meeting Room 2</p>
+                <p>This tutorial delves into the diverse testing landscape of the Galaxy codebase, covering unit, functional, and end-to-end tests across both client and backend systems. You'll learn through a representative sample of tests and gain insights into key concepts and issues to consider when writing tests for software, whether for new features or as standalone contributions.</p>
+                <p><b>Room:</b> Meeting room 2</p>
             </a>
         </div>
     </div>
     <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 2</b> (2:30 pm - 4:30 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/wf-dev" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/single-cell" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Leveraging Public Single Cell Data</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Seems everyone is into single-cell data these data. Learn how to integrate data from various public repositories.</p>
+                <p>Unlock the treasure trove of public data and learn how to import it into Galaxy for your own single-cell analyses! Bring your own public dataset or use one of our reccomendations, and discover how to gain new insights with various Galaxy workflows in out training session.</p>
                 <p><b>Room:</b> Congress hall B</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/quantum-processing" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Quantum Processing in Galaxy</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Quantum computing is real! And available for trialing at this training.</p>
+                <p>Quantum computing is real and ready for you to explore! Join our training session to trial this cutting-edge technology and gain hands-on experience with quantum computing applications.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/advanced-interactive-tools" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Advanced Tool Wrapping in Galaxy</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Galaxy is used by tens of thousands users. Learn how to get your tool integrated and impact the work of those researchers.</p>
+                <p>Wrapping a tool in Galaxy might seem straightforward initially, but a myriad of issues can arise. Join our training to explore advanced aspects of tool wrapping and gain the knowledge needed to navigate and solve the problems that arise.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/earth-systems" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Earth Systems</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Who said not Earth is part of Galaxy?</p>
-                <p><b>Room:</b> Meeting Room 1</p>
+                <p>This training unveils Galaxy's exciting platform for Earth System studies, making it easier to analyze the intricate dance between the atmosphere, oceans, land, and biosphere. With dedicated models, tools, and visualizations, researchers can dive into predicting and mitigating climate change impacts like never before!</p>
+                <p><b>Room:</b> Meeting room 1</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
-            <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
+            <a href="/events/gcc2024/training/metabolomics" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Metabolomics, via MS Data Processing</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Join us for this hands-on training on Liquid-Chromatography Mass Spectrometry (LC-MS) analysis.</p>
-                <p><b>Room:</b> Meeting Room 2</p>
+                <p>Dive into the world of Metabolomics with Galaxy, where you can tackle everything from raw data extraction to statistical analysis and annotation—all in one place! In this training, we'll use LC-MS analysis to showcase Galaxy's capabilities, supported by hands-on materials from the Galaxy Training Network.</p>
+                <p><b>Room:</b> Meeting room 2</p>
             </a>
         </div>
     </div>
 </div>
-
-## Trainings for newcomers
-
-Welcome! If you're new to the Galaxy Community and not quite sure how it all
-fits together, this is your starting point.
-
-<table style="width: 100%; border-collapse: separate; border-spacing: 10px;">
-    <tbody>
-        <tr>
-            <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-                <a href="/events/gcc2024/training/galaxy-101">
-                    <h2>Intro to Galaxy with Galaxy 101</h2>
-                    <hr/>
-                    <div class="my-5">
-                    Our first tutorial - a step-by-step analysis guide, displaying what Galaxy does best.
-                    </div>
-                </a>
-            </td>
-            <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-                <a href="/events/gcc2024/training/intro-galaxy-admin">
-                    <h2>Intro to Galaxy Administration</h2>
-                    <hr/>
-                    <div class="my-5">
-                    What does it mean to administrate a Galaxy server? How do I get started? Where are the
-                    resources? Find out about them here!
-                    </div>
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F1E4E4;">
-                <a href="/events/gcc2024/training/intro-tool-dev">
-                    <h2>Intro to Tool Development</h2>
-                    <hr/>
-                    <div class="my-5">
-                    Wrapping tools, publishing them, and finding them -- it'll all make sense after this training.
-                    </div>
-                </a>
-            </td>
-            <td style="width: 45%; text-align: center; padding: 8px; border: 0; background-color: #F7F0F0;">
-                <a href="/events/gcc2024/training/intro-galaxy-dev">
-                    <h2>Intro to Galaxy Development</h2>
-                    <hr/>
-                    <div class="my-5">
-                        If you've ever wondered where to get started on contributing to this open source project,
-                        this is your starting point. We'll walk you through some resources, guides, and ways to get un-stuck.
-                    </div>
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<hr/>
-
-
