@@ -4,7 +4,9 @@ title: Set up your own community
 
 <div class='right'><img src="/images/undraw-illustrations/mind_map.svg" alt="" width="240" /></div>
 
-There are many communities established within Galaxy based on [**region**](/community/#regional-communities) or [**domain of science**](/community/#communities-of-practice) but if you feel like you just don't see your own or don't feel identified with them, you can create your own community!
+There are many communities established within Galaxy. We call them [Special Interest Groups](/community/sig/). We have SIGs based for example on
+[**region**](/community/sig/#regional-communities) or [**domain of science**](/community/sig/#communities-of-practice) but
+if you feel like you just don't see your own or don't feel identified with them, you can create your own community!
 
 Below you'll find a suggested path to follow before you can start your own community, a list of Do's and Don'ts and also useful links you should probably check out.
 
@@ -12,7 +14,9 @@ Below you'll find a suggested path to follow before you can start your own commu
 
 #### Learn the basics about Galaxy
 
-First of all, you should start with our dedicated [**Get Started**](/get-started/) page to get a head-start of what Galaxy is about. You'll find all the necessary resources and you could even participate in the [**Galaxy Mentorship Network**](https://galaxy-mentor-network.netlify.app/) to get started with the help of a Galaxy Mentor.
+First of all, you should start with our dedicated [**Get Started**](/get-started/) page to get a head-start of what Galaxy is about.
+You'll find all the necessary resources and you could even participate in the [**Galaxy Mentorship Network**](https://galaxy-mentor-network.netlify.app/)
+to get started with the help of a Galaxy Mentor.
 
 #### Learn about Tool Development
 Galaxy has many tools already installed and ready to be used but when creating your community, you'll probably need specific tools for your Galaxy analysis. Don't worry, see our dedicated page for [**Tool Authors**](/tools/) where you'll find everything you'll need and also reach out to the [**Tools Working Group**](/community/wg/) via Gitter.
@@ -20,10 +24,9 @@ Galaxy has many tools already installed and ready to be used but when creating y
 Don't forget to follow the [**Best Practices**](https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) for writing [**Galaxy Tools**](https://toolshed.g2.bx.psu.edu/).
 
 #### Get involved
-- Introduce yourself and dive in our Working Groups.
-- Participate in our worldwide Galaxy Events.
-- We strongly recommend you create your community chat. Reach out to our Lobby in [**Gitter**](https://gitter.im/galaxyproject/Lobby) or [**Matrix**](https://app.element.io/#/room%2F%23galaxyproject_Lobby%3Agitter.im) and ask the admins to create your Community Chat.
-  - Setting up a mailing list is also another available option by sending an email to outreach@galaxyproject.org although we strongly recommend to use a Community Chat.
+- Introduce yourself and dive in our [Working Groups](/community/wg/)
+- Participate in our [worldwide Galaxy Events](/events/)
+- If you want to start your own [Special Interest Group](/community/sig/) we encourage you to read the [Galaxy Community Board](/community/governance/gcb/#creating-a-new-sig) page.
 
 ### Do's and Don'ts 
 

@@ -9,7 +9,7 @@ autotoc: false
 
   <div class="text-center my-5">
     <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
-        <strong>Register</strong>
+        <strong>Register here</strong>
     </a>
   </div>
 </div>
@@ -28,8 +28,8 @@ purchased along with the registration. If you'd like to purchase additional
 dinner tickets for your travel companion(s) you can do so at the time of
 registration.
 
-Please note that all prices are listed in Euros (EUR) and exclude the mandatory
-VAT. When paying for the registration, you can use a credit card or do a bank
+**Please note that all prices are listed in Euros (EUR) and exclude the mandatory
+VAT (21%).** When paying for the registration, you can use a credit card or do a bank
 transfer. You can also register and request the payment be processed afterwards
 by someone else, such as your department administrator. If you prefer to
 reason in a different currency, here is a convenient [currency
@@ -45,17 +45,20 @@ registering and ask for a 50% discount code that you can apply during
 registration. The [list of eligible low-income countries is available in this
 document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
-If you are a trainer or a member of the scientific committee at GCC2024 and are
-in need of financial help, please email the [event
+**If you are a GTN trainer or a member of the scientific committee at GCC2024**
+and are in need of financial help, please email the [event
 organizers](mailto:gcc2024-org@gaggle.email) and a discount code will be
 provided.
 
-|                                    | Early (<= Feb 29) | Full (<= May 25) | Late (<= Jun 15) |
+|                                    | ~~Early (<= Feb 29)~~ | ~~Full (<= May 25)~~ | Late (<= Jun 15) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc                    | EUR$360 | EUR$460 | EUR$570   |
-| Academic / Non-Profit / Government | EUR$460 | EUR$565 | EUR$670   |
-| Industry                           | EUR$620 | EUR$770 | EUR$920   |
-| Conference dinner                  |         |         | EUR$70    |
+| Student/postdoc                    | ~~EUR360~~ | ~~EUR460~~ | EUR570   |
+| Academic / Non-Profit / Government | ~~EUR460~~ | ~~EUR565~~ | EUR670   |
+| Industry                           | ~~EUR620~~ | ~~EUR770~~ | EUR920   |
+| Conference dinner                  |        |        | EUR70    |
+
+\* Please note that the above prices do not include the mandatory 21% VAT, which
+will be added during registration.
 
 
 ### Virtual meeting attendance
@@ -69,7 +72,7 @@ the channel.
 
 |     |      |
 | --- | ---: |
-| Virtual    | EUR$50 |
+| Virtual    | EUR50 |
 
 
 ## CoFest: June 28-29
@@ -83,7 +86,7 @@ event.
 
 |        |        |
 | --- | ---: |
-| CoFest | EUR$20 |
+| CoFest | EUR30 |
 
 
 ## Lodging
@@ -102,6 +105,6 @@ your registration, please contact the
 
 | Cancelation date         | Cancelation fee |
 | ------------------------ | --------------: |
-| Before April 1           | 25%             |
-| April 1 - May 31         | 50%             |
+| Before April 1           | ~~25%~~         |
+| April 1 - May 31         | ~~50%~~         |
 | June 1 and later         | 100%            |

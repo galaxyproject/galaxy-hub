@@ -57,17 +57,17 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
 
 ## Where's the source for the web site content?
 
-The text that becomes the website at https://galaxyproject.org is in this GitHub repository (the repo you are looking at right now) under the [`/src` directory](/src).
+The text that becomes the website at https://galaxyproject.org is in this GitHub repository (the repo you are looking at right now) under the [`/content` directory](/content).
 
 ## One web page ≈ One directory in GitHub
 
-Every page in the [Galaxy Hub](https://galaxyproject.org/) has a corresponding directory in GitHub.  For example, the contents of the GitHub directory at [/src/community/](/src/community/)
+Every page in the [Galaxy Hub](https://galaxyproject.org/) has a corresponding directory in GitHub.  For example, the contents of the GitHub directory at [/content/community/](/content/community/)
 become the web pages at
  [https://galaxyproject.org/community/](https://galaxyproject.org/community/).
 
 ## index.md files
 
-Every directory contains an `index.md` file that contains the Markdown text for that directory. For example, the file in GitHub at [/src/community/index.md](/src/community/index.md) becomes [https://galaxyproject.org/community/](https://galaxyproject.org/community/).
+Every directory contains an `index.md` file that contains the Markdown text for that directory. For example, the file in GitHub at [/content/community/index.md](/content/community/index.md) becomes [https://galaxyproject.org/community/](https://galaxyproject.org/community/).
 
 When you update content on the Galaxy Hub you will mostly be updating `index.md` files.
 
@@ -85,9 +85,9 @@ If you don't already have a GitHub account, you will need to [create one](https:
 
 **1. Navigate to the page from within GitHub**
 
-Start at the [root of the content tree (the `/src` directory)](/src) and navigate down to the page you want to edit.  For example, if you want to edit the page at https://galaxyproject.org/community/ you would navigate:
+Start at the [root of the content tree (the `/content` directory)](/content) and navigate down to the page you want to edit.  For example, if you want to edit the page at https://galaxyproject.org/community/ you would navigate:
 
-[`/src`](/src) &rarr; [`/src/community`](/src/community)
+[`/content`](/content) &rarr; [`/content/community`](/content/community)
 
 Within the `community` directory you will see a few image files, and a file named `index.md`.  *Click* on it.
 
@@ -139,11 +139,11 @@ This happens because the GitHub web site, and the galaxyproject.org web site use
 
 In the meantime, there is one thing you can do to not make things worse for yourself and others using the GitHub web site to edits:
 
-:hatching_chick: **Format links to other pages within the Galaxy hub with a leading `/src` and a trailing `index.md`.**
+:hatching_chick: **Format links to other pages within the Galaxy hub with a leading `/content` and a trailing `index.md`.**
 
 Links with both of these things will work in the GitHub web site. For example, links should be
 
-`/src/community/index.md`
+`/content/community/index.md`
 
 instead of just
 
@@ -171,19 +171,19 @@ Once you have added comments, *click* the **Create pull request** button.  This 
 
 You can track the progress of the pull request here.  When the pull request is approved it will be merged into the main repo and then appear on the Galaxy Hub shortly thereafter.
 
-Furthermore, after a pull request or two, the reviewer will add you to the @galaxyproject `galaxy-hub` Editors group.  From that point on you can edit pages directly in the root repo.  That is, clicking the pencil icon on a page under https://github.com/galaxyproject/galaxy-hub/src will no longer fork the repo, and submitted changes will go directly to the repo and to the web site. Our goal with this protocol is to encourage treating this like a wiki where folks are free to just edit (*Galaxy is [community](/src/community/index.md)*).
+Furthermore, after a pull request or two, the reviewer will add you to the @galaxyproject `galaxy-hub` Editors group.  From that point on you can edit pages directly in the root repo.  That is, clicking the pencil icon on a page under https://github.com/galaxyproject/galaxy-hub/content will no longer fork the repo, and submitted changes will go directly to the repo and to the web site. Our goal with this protocol is to encourage treating this like a wiki where folks are free to just edit (*Galaxy is [community](/content/community/index.md)*).
 
 In the meantime, you can continue to do edits in your copy of the repo and then submitting pull requests.
 
 ## Doing more with the GitHub Web Editor
 
-You can edit anything in the `/src` directory through the GitHub Web Editor and this is a good way to become more familiar with the process and how things are set up.  Eventually you may want to switch to a local installation, but you don't need to. There are only a few things that require special explanation.
+You can edit anything in the `/content` directory through the GitHub Web Editor and this is a good way to become more familiar with the process and how things are set up.  Eventually you may want to switch to a local installation, but you don't need to. There are only a few things that require special explanation.
 
 ### Create a new page
 
 Every page in the Galaxy Hub is stored in a directory and matching `index.md` file.  To create a new page, you need to create a new directory.
 
-To create a new page, navigate to the directory you want to create the new page under.  For example, if you want to create a `/community/galaxy-south-africa/` page (just an idea!) then navigate to the the `/src/community` directory.
+To create a new page, navigate to the directory you want to create the new page under.  For example, if you want to create a `/community/galaxy-south-africa/` page (just an idea!) then navigate to the the `/content/community` directory.
 
 *Click* the **Create new file** button near the top and on the right of the directory listing page.  This brings up an empty web form for naming the new file and providing the page content.
 
@@ -219,7 +219,7 @@ To add an image or attachment to the repo, navigate to the directory you want to
 
 **There are standard image and attachment directories.**
 
-These are at `/src/images/` and `/src/document`.
+These are at `/content/images/` and `/content/document`.
 
 1. :hatching_chick: Before uploading a file, please make sure it is not already in one of these directories.
 2. :hatching_chick: If it makes sense, please consider uploading the file to one of the standard directories.  This encourages reuse.
@@ -317,7 +317,7 @@ Many sections of the web site use custom metadata tags that enable advanced hand
 
 News items root:
 
-- GitHub source: [/src/news/index.md](/src/news/index.md)
+- GitHub source: [/content/news/index.md](/content/news/index.md)
 - As rendered on web site: [galaxyproject.org/news/](https://galaxyproject.org/news/)
 
 News item indexes displayed:
@@ -327,7 +327,7 @@ News item indexes displayed:
 
 #### Add a news item
 
-To add a news item, you'll need to create a directory for the item under `/src/news/` and then create an `index.md` file in the new directory.  The `index.md` file should contain the news item text, and start with these metadata:
+To add a news item, you'll need to create a directory for the item under `/content/news/` and then create an `index.md` file in the new directory.  The `index.md` file should contain the news item text, and start with these metadata:
 
 #### `title`
 
@@ -363,7 +363,7 @@ To add a news item, you'll need to create a directory for the item under `/src/n
 
 #### News item example metadata
 
-From `/src/news/2017-09-galaxy-update/index.md`
+From `/content/news/2017-09-galaxy-update/index.md`
 
 ```
 ---
@@ -504,7 +504,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - Displayed on the event's hub page.
   - Display this image anywhere that events are summarized and images are included.
 - Format
-  - a URL, preferably an internal hub path, usually point into to the `/src/images/` directory.
+  - a URL, preferably an internal hub path, usually point into to the `/content/images/` directory.
 
 #### `gtn`
 
@@ -576,7 +576,7 @@ The Galactic Blog includes anything that is related to Galaxy and is longer than
 
 Blog root:
 
-- GitHub source: [/src/blog/index.md](/src/blog/index.md)
+- GitHub source: [/content/blog/index.md](/content/blog/index.md)
 - Rendered on web site: [galaxyproject.org/blog/](https://galaxyproject.org/blog/)
 
 There are two types of blog entries:
@@ -586,7 +586,7 @@ There are two types of blog entries:
 
 #### Add a blog post
 
-To add a blog post, you'll need to create a directory for the post under `/src/blog/` and then create an `index.md` file in the new directory.
+To add a blog post, you'll need to create a directory for the post under `/content/blog/` and then create an `index.md` file in the new directory.
 
 :chicken: New directories (and thus blog post URLs) are named with this convention:
 
@@ -688,7 +688,7 @@ source_blog: "Melbourne Bioinformatics Projects Blog"
 
 Use Galaxy Resource Directory:
 
-- GitHub source: [/src/use/index.md](/src/use/index.md)
+- GitHub source: [/content/use/index.md](/content/use/index.md)
 - Rendered on web site: [galaxyproject.org/use/](https://galaxyproject.org/use/)
 
 The [Use Galaxy resource directory](https://galaxyproject.org/use/) lists:
@@ -699,7 +699,7 @@ The [Use Galaxy resource directory](https://galaxyproject.org/use/) lists:
 
 #### Add a resource
 
-To add a new resource, you'll need to create a directory for the resource under `/src/use/` and then create an `index.md` file in the new directory.
+To add a new resource, you'll need to create a directory for the resource under `/content/use/` and then create an `index.md` file in the new directory.
 
 Resource entries have this metadata:
 
@@ -846,7 +846,7 @@ platforms:
     platform_url: "http://beaconlab.it/agame"
     platform_text: "A-Game server"
 summary: "A Galaxy suite for tArgeted MEtagenomics"
-image: "/src/use/a-game/agame-logo.png"
+image: "/content/use/a-game/agame-logo.png"
 comments:
   - "A web service incorporating state of the art tools and workflows for the analysis of eDNA sequence data."
 user_support:
@@ -873,7 +873,7 @@ sponsors:
       ---
       ```
 
-    - `new-url` can be either an internal relative URL ("/admin/config/tool-dependencies/", note the missing `src` at the front and the missing `index.md` at the end) or point outside the hub.
+    - `new-url` can be either an internal relative URL ("/admin/config/tool-dependencies/", note the missing `content` at the front and the missing `index.md` at the end) or point outside the hub.
     - You are encouraged to also drop all text from the page.  Optionally, you can include something like:
 
       ```

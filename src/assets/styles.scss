@@ -38,6 +38,16 @@ $carousel-indicator-border-color: gray;
 $carousel-indicator-active-bg: $navbar-inverse-bg;
 $carousel-control-width: 5%;
 
+$home-body-bg: $brand-dark;
+$home-accent-brightest: #c2efff;
+$home-accent-brighter: #c2ebc2;
+$home-accent-bright: #f6f7f9;
+$home-cdark-background: #0e1427;
+$home-research-publications: #1b62a4;
+$home-research-tutorials: #2d629f;
+$home-research-events: #3676bf;
+$home-research-cases: #3676bf;
+
 @import "~bootstrap/scss/bootstrap.scss";
 
 //@import "~@fortawesome/fontawesome-free/scss/_variables.scss";
@@ -55,14 +65,311 @@ html {
     min-height: 100%;
 }
 
-body {
-    margin-bottom: 60px;
-}
+.layoutHome {
+    background-color: $home-body-bg;
+    #maincontainer {
+        .bgBrightest {
+            background-color: $home-accent-brightest;
+        }
 
-.gitter-chat-embed,
-.gitter-open-chat-button {
-    /* This is used for the gitter chat box */
-    z-index: 1500 !important;
+        .bgBrighter {
+            background-color: $home-accent-brighter;
+        }
+
+        .bgBright {
+            background-color: $home-accent-bright;
+        }
+
+        .notification {
+            padding: 10px;
+            margin: 20px 15px 20px 0;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        nav {
+            .container-fluid {
+                padding-left: 0;
+                justify-content: left;
+            }
+            div.nav div.dropdown:hover div.dropdown-menu {
+                display: block;
+                position: absolute;
+                border: 1px solid $black;
+                filter: drop-shadow(2px 2px 2px $gray);
+            }
+            .dropdown-menu.hero {
+                font-size: 1.3rem;
+                font-weight: 500;
+                a.dropdown-item:hover,
+                a.dropdown-item:focus {
+                    color: $white;
+                }
+            }
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: $white;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: $white;
+            &.education {
+                color: $black;
+            }
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: $white;
+            margin: 0 0 0.5rem 0;
+        }
+
+        .highlight {
+            font-size: 1.45rem;
+            margin-bottom: 20px;
+            font-weight: 400;
+            padding: 0;
+            line-height: 1.6;
+            &.hero {
+                color: #cccccc;
+            }
+        }
+
+        p,
+        .card p {
+            font-size: 1.45rem;
+            margin-bottom: 20px;
+            font-weight: 400;
+            padding: 0;
+            line-height: 1.6;
+            &.hero {
+                color: #cccccc;
+            }
+        }
+
+        .heroVideo {
+            video {
+                width: 100%;
+            }
+        }
+
+        .area {
+            position: relative;
+            display: flex;
+            font-size: 1.3rem;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            text-align: left;
+            padding: 13px 20px;
+            text-decoration: none !important;
+            border-radius: 7px;
+            line-height: 1.4rem;
+
+            &.education {
+                display: block;
+                padding: 0;
+                border: 0;
+                svg.wave {
+                    fill: $home-body-bg;
+                    display: inline;
+                    &.top {
+                        transform: rotate(180deg);
+                    }
+                }
+
+                a.btn {
+                    min-width: 355px;
+                    padding-left: 18px;
+                    border-width: 2px;
+
+                    .title {
+                        font-size: 1.7rem;
+                        color: $black;
+                        text-decoration: none;
+                        font-weight: 400;
+                    }
+                    &.btn-outline-primary:hover .title {
+                        color: $white !important;
+                    }
+
+                    .text {
+                        min-height: 30px;
+                        font-size: 0.9rem;
+                        text-wrap: nowrap;
+                        color: $black;
+                        text-decoration: none;
+                        font-weight: 400;
+                    }
+
+                    &.btn-outline-primary:hover .text {
+                        color: $white !important;
+                        text-decoration: none;
+                    }
+
+                    .iconXlarge {
+                        float: left !important;
+                        width: 50px;
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            &.callouts {
+                &:hover {
+                    text-decoration: none !important;
+                }
+                &.cdark,
+                &.toolshed {
+                    background-color: $home-cdark-background;
+                    a.btn {
+                        background-color: lighten($home-cdark-background, 75%);
+                        color: $home-body-bg;
+                        font-weight: normal;
+                    }
+                    a.btn:hover {
+                        background-color: lighten($home-cdark-background, 65%);
+                    }
+                    .pad {
+                        padding-top: 2rem;
+                    }
+                    a {
+                        color: $home-accent-brightest;
+                        font-weight: 600;
+                    }
+                }
+
+                &.clight {
+                    background-color: $home-accent-bright;
+                    a {
+                        color: #0053a6;
+                        font-weight: 600;
+                    }
+                }
+
+                &.cbright {
+                    position: relative;
+                    &::before {
+                        content: "";
+                        pointer-events: none;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-image: url("/images/icons/worldMap.svg");
+                        opacity: 0.05;
+                        background-size: cover;
+                        background-position: 0%;
+                    }
+                    a {
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            &.research {
+                &.publications {
+                    background: linear-gradient(155deg, #1d4068 44%, $home-research-publications);
+                    a:hover {
+                        text-decoration: none !important;
+                    }
+                }
+
+                &.tutorials,
+                .tutorials {
+                    background: linear-gradient(155deg, #244f7f 24%, $home-research-tutorials);
+                    a:hover {
+                        text-decoration: none !important;
+                    }
+                    ul {
+                        padding-left: 1.1rem;
+                        li {
+                            color: $white;
+                            a {
+                                .link {
+                                    color: $white;
+                                    font-size: 80%;
+                                    font-weight: 400;
+                                    padding-bottom: 0.5rem;
+                                }
+                            }
+                        }
+                    }
+                    a.btn {
+                        background-color: darken($home-research-tutorials, 20%);
+                        color: $white;
+                        &:hover {
+                            background-color: darken($home-research-tutorials, 40%);
+                        }
+                    }
+                }
+
+                &.events {
+                    color: $white;
+                    background: linear-gradient(155deg, #28588f 44%, $home-research-events);
+
+                    table {
+                        tr {
+                            font-size: 80%;
+                        }
+                    }
+                    a.btn {
+                        background-color: darken($home-research-events, 20%);
+                        color: $white;
+                        &:hover {
+                            background-color: darken($home-research-events, 40%);
+                        }
+                    }
+                }
+
+                &.cases {
+                    color: $white;
+                    background: linear-gradient(155deg, #28588f 45%, $home-research-cases);
+                }
+            }
+        }
+
+        a {
+            &.hero {
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .footer {
+        min-height: 22vh;
+        overflow: hidden;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+        hr {
+            background-color: $white;
+            height: 1px;
+            margin: 0 0 40px 0;
+            border: 0;
+        }
+        ul {
+            color: $white;
+            font-size: 0.9rem;
+            list-style-type: none;
+            padding: 0;
+            & li a {
+                color: $white;
+                line-height: 1.5rem;
+            }
+        }
+        .citation p {
+            font-size: 0.7rem;
+            color: #a5a5a5;
+        }
+    }
 }
 
 .container-fluid {
@@ -139,6 +446,10 @@ footer {
             }
         }
     }
+}
+#masthead.mastheadHome {
+    //TODO better integrate
+    background-color: white;
 }
 
 /* Custom CSS for Galaxy wiki doc
@@ -234,10 +545,10 @@ card-img-top {
     font-weight: 600;
 }
 
-/* 
-   Button overrides; 
+/*
+   Button overrides;
 
-   more space between buttons on multiple consecutive lines 
+   more space between buttons on multiple consecutive lines
    overall line-height is unchanged.
 */
 
@@ -714,4 +1025,14 @@ h6:hover > a > span.icon.icon-link::before {
 /***** From galaxyproject.eu *****/
 .tooltable td:nth-child(3) {
     width: 15%;
+}
+
+/* GCC2024 */
+.gcc2024-authors {
+    font-style: italic;
+    font-size: small;
+}
+
+.gcc2024-title {
+    font-weight: 600;
 }

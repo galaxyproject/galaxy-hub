@@ -3,7 +3,7 @@
         <b-carousel
             id="carousel-1"
             v-model="slide"
-            :interval="4000"
+            :interval="5000"
             controls
             indicators
             background="#ababab"
@@ -19,15 +19,6 @@
                 <b-carousel-slide
                     img-src="/images/Paper_Alert_August2023.jpg"
                     img-alt="New paper in preprint titled *Scalable, accessible, and reproducible reference genome assembly and evaluation in Galaxy* by Larivière et al. 2023. Click to read!"
-                ></b-carousel-slide>
-            </a>
-            <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSecmWqADPLOCWvueILRirV8ClSTsDaP-lDE8m2j6f6pG24NGw/viewform?usp=sf_link"
-                target="_blank"
-            >
-                <b-carousel-slide
-                    img-src="/images/events/gcc2024/training-survey.jpeg"
-                    img-alt="Please help us by providing feedback about what content that you would like to see in the training sessions in GCC2024. Click to fill out the survey!"
                 ></b-carousel-slide>
             </a>
             <a href="https://galaxyproject.org/projects/vgp/" target="_blank">

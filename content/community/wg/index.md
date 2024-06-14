@@ -1,12 +1,17 @@
 ---
-title: "Galaxy Working Groups and Projects"
+title: "Galaxy Working Groups"
 ---
+
+<slot name="/community/sig/common_linkbox" />
 
 ## Distributing project guidance to the community
 
 **Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
 
-Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/).  
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. 
+Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code,
+training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**
+Working groups are an integral part of the [Galaxy Governance Model](/community/governance/) and are represented by the [Galaxy Technical Board](/community/governance/gtb/).
 
 ## Current set of Working Groups
 
@@ -88,7 +93,8 @@ This group builds the standards and ecosystem for execution, testing, publishing
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-wg-goats text-white">GOATS</div>
 
-Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admin, and developer support and documentation. Galaxy Outreach And Training (And) Support = GOATS!
+Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admin, and developer support and documentation.
+Galaxy Outreach And Training (And) Support = GOATS!
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
@@ -105,82 +111,41 @@ Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admi
 
 Communications across working groups.
 
-* [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-all:gitter.im)
-    * Please consider joining if you are involved in any working group.
+<div style="text-align: center;"><a href="https://matrix.to/#/#galaxyproject_wg-all:gitter.im">Matrix Channel</a>
+</div>
+
+Please consider joining if you are involved in any working group.
 
 </div>
 
 </div>
 
-## Current set of Projects
-
-The current set of projects includes these areas:
-
-<div class="card-deck">
-
-<!-- Cancer -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white">Cancer Informatics</div>
-
-This project emphasizes applying Galaxy in cancer research.
-
-* [GitHub Project](https://github.com/orgs/galaxyproject/projects/14)
-* [Google Drive](https://drive.google.com/drive/folders/1diqrY6lQ_RbxcJUA-phaYutZqij_X3ku)
-* [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-cancer-informatics:gitter.im)
-* Leadership: Luke Sargent
-
-</div>
-
-
-<!-- Human Genetics -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white">Human Genetics</div>
-
-This project emphasizes applying Galaxy in human research.
-
-* [Google Drive](https://drive.google.com/drive/folders/1YMCwHicRNLtT0t8AIZaQNoT2uaDaQm3H)
-* [Goals Slide](https://docs.google.com/presentation/d/1h4vZe0zOUQVOeFxc49levRpmgWmJlMkedQjp2QRrQZw/edit?usp=sharing)
-* Leadership: Enis Afgan
-
-</div>
-
-
-<!-- COVID-19 -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white">COVID-19</div>
-
-This project emphasizes analysis of SARS-CoV-2.
-
-* [Project Page](https://galaxyproject.org/projects/covid19/)
-* Leadership: Anton Nekrutenko, Wolfgang Maier
-</div>
-
-<!-- VGP -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white">VGP</div>
-
-Collaboration Between VGP and Galaxy Project for free and easy access to large genome assembly workflows.
-
-* [Slack Channel](https://genomeark.slack.com/archives/C01QJJ175JQ)
-* [Github Project](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2)
-* Leadership: Delphine Lariviere
-</div>
-
-</div>
-
-NOTE: This is not an exhaustive or final list of working groups or projects.  New groups will be added as needs are identified.
+NOTE: This is not an exhaustive or final list of working groups. New groups will be added as needs are identified.
 
 ## Calendar
 
-[Galaxy WGs Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=5l6o0msfduoir59hrab0jlkocc@group.calendar.google.com), listing meetings of all Galaxy working groups and projects. You can subscribe to this calendar via this [iCalendar link](https://calendar.google.com/calendar/ical/5l6o0msfduoir59hrab0jlkocc%40group.calendar.google.com/public/basic.ics).
+[Galaxy WGs Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=5l6o0msfduoir59hrab0jlkocc@group.calendar.google.com),
+listing meetings of all Galaxy working groups and projects. You can subscribe to this calendar via this
+[iCalendar link](https://calendar.google.com/calendar/ical/5l6o0msfduoir59hrab0jlkocc%40group.calendar.google.com/public/basic.ics).
 
-## Timeline
+
+## Committers Groups
+
+**Keywords:** Tactical emphasis, short and medium term planning, repo focused, applied
+
+Cutting across all Working Groups, *[Committers Groups](/community/committers/)* are responsible for what goes into the project repositories
+(and in Galaxy *everything* goes into repositories, including training materials and web sites). Each GitHub repository  has its own committers group,
+and each group is responsible for setting its own policies and membership. Committers have been around since the start of the project in 2005,
+and have been community-driven since 2015.
+
+<!--
+## History
 
 In reverse chronological order:
 
 ### 2021-09-01: Reorganization of working groups and projects
 
-This call merged Admin and Deployment into Systems, and Outreach & Training and Support into GOATS. It also differentiated between working groups and projects.  
+This call merged Admin and Deployment into Systems, and Outreach & Training and Support into GOATS. It also differentiated between working groups and projects.
 
 ### 2021-01-07: Launch follow up
 
@@ -190,4 +155,4 @@ This call was a follow up to see how our first month went, and how goal setting 
 
 Galaxy Working Groups were launched on the [December 10, 2020 Galaxy Developer Roundtable call](/events/2020-12-10-dev-roundtable/). The [recording of that call](https://youtu.be/V87OdtdRLJM) is available.
 
-
+-->
