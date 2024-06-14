@@ -69,7 +69,8 @@
     "vega-embed": "^6.20.5",
     "vega-lite": "^5.2.0",
     "vue-tweet-embed": "^2.4.0",
-    "which": "^2.0.2"
+    "which": "^2.0.2",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
@@ -86,9 +87,6 @@
     "jest": "^27.3.1",
     "sass-loader": "^10.1.1",
     "start-server-and-test": "^1.14.0"
-  },
-  "resolutions": {
-    "**/sharp": "0.30.4"
   },
   "prettier": {
     "printWidth": 120,
