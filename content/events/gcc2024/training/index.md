@@ -85,7 +85,7 @@ top experts on the topic.
             <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Tools for Machine Learning pt 2</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>Part 2 of this multi-part training continues with a focus on the Convolution Neural Network (CNN) model for the purpose of image classification. After a brief summary of the history of AI systems, this lecture compares and contrasts the major neural networks (FNN, CNN, RNN, LSTM, GAN, and Transformers) before focusing an CNN image classifier use case.</p>
+                <p>Part 2 of this multi-part training continues with a focus on the Convolutional Neural Network (CNN) model for the purpose of image classification. After a brief summary of the history of AI systems, this lecture compares and contrasts the major neural networks (FNN, CNN, RNN, LSTM, GAN, and Transformers) before focusing an CNN image classifier use case.</p>
                 <p>In this tutorial: we complete the CNN tutorial for image classification with a choice of a standard dataset (MNIST) or pre-selected non-standard dataset (depending on time: fruit, asteroids, puppies).</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
