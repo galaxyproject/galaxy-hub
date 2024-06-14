@@ -124,9 +124,9 @@ top experts on the topic.
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
             <a href="/events/gcc2024/training/interactive-viz" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Interactive Visualizations</h3>
+                <h3 style="text-align: center;">Interactive Visualization Development</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>They say a picture is worth a thousand words. Join our training to learn how to effectively visualize data in Galaxy, transforming complex datasets into intuitive and insightful visual representations.</p>
+                <p>They say a picture is worth a thousand words. Join this training to learn how Galaxy visualizations work, and how to add one of your own.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
