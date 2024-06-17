@@ -63,8 +63,7 @@ methods, tools, pipelines, and software improvements for the Galaxy framework.
 Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
 The abstract book with all the details is coming soon!
 
-If you haven't registered yet, [registration](/events/gcc2024/register/) is
-(still) open.
+If you haven't registered yet, you can still register on site.
 
   </div>
 

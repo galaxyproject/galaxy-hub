@@ -26,7 +26,7 @@ the page and the abstract book will be available soon.
 |                   |               |                                                          |                     |
 | Tuesday, Jun 25   | 8:30 - 9:45   | Community update talk                                    | BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
-|                   | 10:10 - 12:00 | [Talks (2 tracks)](#talks)                               | BC,                 |
+|                   | 10:10 - 12:00 | [Talks (2 tracks)](#talks)                               | BC, D               |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
 |                   | 13:00 - 14:00 | [Trainings I](/events/gcc2024/training/)                 | B, C, D, M1, M2     |
 |                   | 14:00 - 16:00 | [Posters](#tuesday-1400---1600) + coffee                 | A                   |
@@ -65,7 +65,7 @@ the page and the abstract book will be available soon.
     <table>
         <thead>
             <tr>
-                <th>Single track</th>
+                <th>Single track (room BCD)</th>
             </tr>
         </thead>
         <tbody>
@@ -140,8 +140,8 @@ the page and the abstract book will be available soon.
     <table>
         <thead>
             <tr>
-                <th style="width: 50%">Analysis track</th>
-                <th>Enablement track: workflows & administration</th>
+                <th style="width: 50%">Analysis track (room BC)</th>
+                <th>Enablement track: workflows & administration (room D)</th>
             </tr>
         </thead>
         <tbody>
@@ -256,8 +256,8 @@ the page and the abstract book will be available soon.
     <table>
         <thead>
             <tr>
-                <th style="width: 50%">Analysis track</th>
-                <th>Enablement track: outreach & automation</th>
+                <th style="width: 50%">Analysis track (room BC)</th>
+                <th>Enablement track: outreach & automation (room D)</th>
             </tr>
         </thead>
         <tbody>
@@ -277,8 +277,8 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Subina Mehta, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Communication Strategies and Community Engagement in the Galaxy Project: Exploring Current Practices and Future Opportunities</span>;
-                    <span class="gcc2024-authors">Natalie Whitaker-Allen</span>
+                    <span class="gcc2024-title">Automating Social Media Outreach: A GitHub Workflow for Galaxy Community</span>;
+                    <span class="gcc2024-authors">Arash Kadkhodaei</span>
                 </td>
             </tr>
             <tr>
@@ -372,7 +372,7 @@ the page and the abstract book will be available soon.
     <table>
         <thead>
             <tr>
-                <th>Single track</th>
+                <th>Single track (room BCD)</th>
             </tr>
         </thead>
         <tbody>
@@ -1030,33 +1030,6 @@ the page and the abstract book will be available soon.
                     Title:
                 </td>
                 <td>
-                    <strong>Running from the unexpected results of scientific research </strong> (room D)
-                </td>
-            <tr>
-                <td>
-                    Description:
-                </td>
-                <td>
-                    In this Birds of a Feather (BoF) session, we'll put on our running shoes and race through the maze of our research results that go contrary to expectations. Join other enthusiasts as we share our amusing encounters with studies that went wrong or were contradictory, and also yielded great insights. A relaxed atmosphere is expected, full of laughter, shared experiences and maybe even a few moments of confusion. Whether you're a data-driven athlete or just here for a laugh, join us for a run on the wild side of scientific research!
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Organizer:
-                </td>
-                <td>
-                    Drielli Canal
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                    Title:
-                </td>
-                <td>
                     <strong>Galaxy Training Academy Organizational Meet-Up</strong> (room M1)
                 </td>
             <tr>
@@ -1072,7 +1045,7 @@ the page and the abstract book will be available soon.
                     Organizer:
                 </td>
                 <td>
-                    Natalie Whitaker-Allen
+                    Delphine Lariviere
                 </td>
             </tr>
         </tbody>
@@ -1159,6 +1132,33 @@ the page and the abstract book will be available soon.
                 </td>
                 <td>
                     Johan Gustafsson, Pratik Jagtap, Melanie Föll, Helge Hecht
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td>
+                    <strong>Namaste: Galaxy Bharat</strong> (room D)
+                </td>
+            <tr>
+                <td>
+                    Description:
+                </td>
+                <td>
+                    The session is to discuss about the progress and possibilities of UseGalaxy in Bharat i.e India. Who are interested to join in this boat and sail with us.  How are we doing now? How to sustain until the funding is obtained?  What are expectations/suggestions from other UseGalaxies while usegalaxy.in is coming up.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Organizer:
+                </td>
+                <td>
+                    Kiran K Telukunta
                 </td>
             </tr>
         </tbody>

@@ -59,7 +59,7 @@ propose fun activities as well, such as an evening run or a city tour.
 | ~~May 1~~  | Talk reviews returned     |
 | ~~May 15~~ | Abstracts due for posters/demos |
 | ~~May 21~~ | Poster/demo acceptance announcements |
-| Jun 15 | Deadline for submitting slides for your talk to the organizers |
+| ~~Jun 15~~ | Deadline for submitting slides for your talk to the organizers |
 
 
 # Option to publish in F1000 Galaxy gateway
