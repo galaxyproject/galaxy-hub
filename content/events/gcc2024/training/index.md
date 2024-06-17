@@ -59,7 +59,7 @@ top experts on the topic.
                 <h3 style="text-align: center;">Mass Spectrometry and Metaproteomics pt 1</h3>
                 <hr style="margin: 10px 0;"/>
                 <p>Unlock the secrets of host-microbe interactions in disease with a new Galaxy-based workflow, combining mass spectrometry and customized bioinformatics for powerful and accessible protein analysis in clinical research.</p>
-                <p><b>Room:</b> Meeting Room 2</p>
+                <p><b>Room:</b> Meeting room 2</p>
             </a>
         </div>
     </div>
@@ -75,9 +75,25 @@ top experts on the topic.
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
             <a href="/events/gcc2024/training/intro-galaxy-admin" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Beginner's Handbook: Admin, Dev, and Tools</h3>
+                <h3 style="text-align: center;">Beginner's Handbook: Admin</h3>
                 <hr style="margin: 10px 0;"/>
-                <p> Come join our breakout sessions to dive into the fundamentals of tool development, Galaxy software development, and Galaxy administration. Choose your favorite and come learn more about it!</p>
+                <p> Join us for a fun and engaging training on the basics of Galaxy Administration, where you'll learn the essentials, discover helpful resources, and connect with fellow admins. Bring your questions and get ready to dive into the exciting world of Galaxy Administration!</p>
+                <p><b>Room:</b> Congress hall C</p>
+            </a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
+            <a href="/events/gcc2024/training/intro-galaxy-dev" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Beginner's Handbook: Dev</h3>
+                <hr style="margin: 10px 0;"/>
+                <p>Join our introductory training on Galaxy development and learn how to set up a local instance, make minor client or backend changes, and see your updates in action. Get a brief overview of the client and backend infrastructure to understand how your development efforts translate into the Galaxy platform.</p>
+                <p><b>Room:</b> Congress hall C</p>
+            </a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
+            <a href="/events/gcc2024/training/intro-tool-dev" style="text-decoration: none; color: black;">
+                <h3 style="text-align: center;">Beginner's Handbook: Tools</h3>
+                <hr style="margin: 10px 0;"/>
+                <p> Get ready to boost your galaxy toolkit with our intro tool wrapping training! This fun and comprehensive session will teach you how to integrate your own tools into Galaxy, covering all the basics from XML wrapper creation to dependency management and best practices for seamless functionality.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
@@ -95,7 +111,7 @@ top experts on the topic.
                 <h3 style="text-align: center;">Assembly and Annotation pt 2</h3>
                 <hr style="margin: 10px 0;"/>
                 <p>Assembly and annotation are crucial for processing and understanding genetic data, providing insights into the structure and function of genomes. Join our training to discover how Galaxy's powerful tools and workflows can tackle these complex tasks.</p>
-                <p><b>Room:</b> Meeting Room 1</p>
+                <p><b>Room:</b> Meeting room 1</p>
             </a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
@@ -103,7 +119,7 @@ top experts on the topic.
                 <h3 style="text-align: center;">Mass Spectrometry and Metaproteomics pt 2</h3>
                 <hr style="margin: 10px 0;"/>
                 <p>Unlock the secrets of host-microbe interactions in disease with our new Galaxy-based workflow, combining mass spectrometry and customized bioinformatics for powerful and accessible protein analysis in clinical research.</p>
-                <p><b>Room:</b> Meeting Room 2</p>
+                <p><b>Room:</b> Meeting room 2</p>
             </a>
         </div>
     </div>
@@ -185,7 +201,7 @@ top experts on the topic.
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
             <a href="/events/gcc2024/training/teaching-gtn-tiaas" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Teaching with Galaxy using the GTN and TIaas</h3>
+                <h3 style="text-align: center;">Teaching with Galaxy using the GTN and TIaaS</h3>
                 <hr style="margin: 10px 0;"/>
                 <p> Learn how to keep your training sessions and classes on track with Galaxy's dedicated resource pool known as TIaaS. This training also focuses on incorporating best practices in utilizing the Galaxy Training Network, the largest repository of Galaxy-related training materials.</p>
                 <p><b>Room:</b> Meeting room 1</p>
