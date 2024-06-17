@@ -7,14 +7,6 @@ autotoc: false
 
 # Registration
 
-  <div class="text-center my-5">
-    <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
-        <strong>Register here</strong>
-    </a>
-  </div>
-</div>
-
-
 ## Meeting: June 24-27
 
 The general meeting portion of GCC2024 consist of a series of peer-reviewed
@@ -36,16 +28,16 @@ reason in a different currency, here is a convenient [currency
 converter](https://www.oanda.com/currency-converter/en/?from=EUR&to=USD&amount=360)
 to see how these numbers compare.
 
-Note that online registration will close on June 15 but in-person registration
-will be available onsite during the event.
+Note that online registration will close on June 15 but **in-person registration
+will be available onsite during the event**.
 
-**If you are currently working in a low-income country**, as defined by the
+If you are currently working in a low-income country, as defined by the
 World Bank, please email the [organizers](mailto:gcc2024-org@gaggle.email) before
 registering and ask for a 50% discount code that you can apply during
 registration. The [list of eligible low-income countries is available in this
 document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
-**If you are a GTN trainer or a member of the scientific committee at GCC2024**
+If you are a GTN trainer or a member of the scientific committee at GCC2024
 and are in need of financial help, please email the [event
 organizers](mailto:gcc2024-org@gaggle.email) and a discount code will be
 provided.

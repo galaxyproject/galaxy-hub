@@ -31,7 +31,7 @@ the page and the abstract book will be available soon.
 |                   | 13:00 - 14:00 | [Trainings I](/events/gcc2024/training/)                 | B, C, D, M1, M2     |
 |                   | 14:00 - 16:00 | [Posters](#tuesday-1400---1600) + coffee                 | A                   |
 |                   | 16:00 - 18:00 | [Trainings II](/events/gcc2024/training/)                | B, C, D, M1, M2     |
-|                   | 18:00 - 19:00 | [BoFs](#tuesday-1800---1900)                             | B, C, D, M1         |
+|                   | 18:00 - 19:00 | [BoFs](#tuesday-1800---1900)                             | B, C, D             |
 |                   | 19:00 - 22:00 | [Conference dinner](#conference-dinner)                  | Mendel's Abbey      |
 |                   |               |                                                          |                     |
 | Wednesday, Jun 26 | 8:30 - 8:45   | Overview of [activities on Wednesday afternoon](#wednesday-afternoon) | BCD    |
@@ -52,7 +52,7 @@ the page and the abstract book will be available soon.
 |                   | 14:00 - 14:30 | Afternoon break                                          | Atrium              |
 |                   | 14:30 - 16:30 | [Trainings II](/events/gcc2024/training/)                | B, C, D, M1, M2     |
 |                   | 16:30 - 17:30 | [Talks (single track)](#talks) & conference closing      | BCD                 |
-|                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D             |
+|                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D, M1         |
 |                   |               |                                                          |                     |
 
 
@@ -1143,7 +1143,7 @@ the page and the abstract book will be available soon.
                     Title:
                 </td>
                 <td>
-                    <strong>Namaste: Galaxy Bharat</strong> (room D)
+                    <strong>Namaste: Galaxy Bharat</strong> (room M1)
                 </td>
             <tr>
                 <td>
@@ -1174,7 +1174,7 @@ Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno) at Mendel's
 square, the place where Gregor Mendel conducted his experiments. The price for a ticket is EUR70 excluding VAT.
 During the
 dinner, participants have free access to the [Mendel
-Museum](https://mendelmuseum.muni.cz/en).
+Museum](https://mendelmuseum.muni.cz/en). Please remember to bring your conference badge to dinner.
 
 Participants may join the guided tours
 of the abbey including Mendel's room and the library shortly before (staring 18:30 & 19:15) or after the dinner (starting 21:00).

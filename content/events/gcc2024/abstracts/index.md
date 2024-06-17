@@ -5,12 +5,16 @@ autotoc: false
 <slot name="/events/gcc2024/header" />
 
 <div class="text-center my-5">
-    <a target="_blank" href="https://forms.gle/bgbNpfc7YvLPz2ty7" type="button" class="btn btn-primary">
-        <strong>Submit a BoF</strong>
+    <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
+        <strong>View talks schedule</strong>
     </a>
     ◇
-    <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
-        <strong>View talk & poster schedule</strong>
+    <a href="/events/gcc2024/schedule/#posters" type="button" class="btn btn-primary">
+        <strong>View poster schedule</strong>
+    </a>
+    ◇
+    <a href="/events/gcc2024/schedule/#bofs" type="button" class="btn btn-primary">
+        <strong>View BoF schedule</strong>
     </a>
   </div>
 </div>

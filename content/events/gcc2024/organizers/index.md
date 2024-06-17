@@ -72,4 +72,9 @@ CoFest organizers coordinate activities during [CoFest](/events/gcc2024/cofest/)
 
 # Photographer
 
-You too! Capture those great moments during GCC2024 and we'll provide a place to share your creations.
+You too! Capture those great moments during GCC2024 and share them in the
+`#photos` channel on the [GCC2024
+Slack](https://join.slack.com/t/gcc2024/shared_invite/zt-2kk0u4kn5-cj~PP0~EU03nmupC3cLabQ).
+You can also just email your photos to <a
+href="mailto:photos-aaaang3pcibpgwgxfqnlqe5dyu@gcc2024.slack.com">photos-aaaang3pcibpgwgxfqnlqe5dyu@gcc2024.slack.com</a>
+and the photos will automatically appear in Slack.

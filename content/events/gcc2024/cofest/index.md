@@ -46,11 +46,11 @@ Feel free to add to this document or join someone else's project by adding your 
 
 CoFest will be held for the last 2 days of GCC2024: June 28 and 29.
 
-CoFest will be held at [KUMST](https://www.kumstbrno.cz/en/), an exciting, open,
-and collaborative place where folks can easily organize into smaller groups and
-find an area to work in.
+CoFest will be held at [OPEN GARDENS](https://www.otevrenazahrada.cz/), an open
+space in the nature where folks can easily organize into smaller groups and find
+an area to work in.
 
-KUMST is located at [Údolní 495/19, 602 00 Brno](https://maps.app.goo.gl/AtVTBCWcCFc1iBHC8).
+OPEN GARDENS is located at [Údolní 33, 602 00 Brno-střed](https://maps.app.goo.gl/hgU4JSYEj7Jj8KRU7).
 
 
 ## Registration
