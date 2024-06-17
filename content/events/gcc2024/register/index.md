@@ -50,11 +50,11 @@ and are in need of financial help, please email the [event
 organizers](mailto:gcc2024-org@gaggle.email) and a discount code will be
 provided.
 
-|                                    | ~~Early (<= Feb 29)~~ | Full (<= May 25) | Late (<= Jun 15) |
+|                                    | ~~Early (<= Feb 29)~~ | ~~Full (<= May 25)~~ | Late (<= Jun 15) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc                    | ~~EUR360~~ | EUR460 | EUR570   |
-| Academic / Non-Profit / Government | ~~EUR460~~ | EUR565 | EUR670   |
-| Industry                           | ~~EUR620~~ | EUR770 | EUR920   |
+| Student/postdoc                    | ~~EUR360~~ | ~~EUR460~~ | EUR570   |
+| Academic / Non-Profit / Government | ~~EUR460~~ | ~~EUR565~~ | EUR670   |
+| Industry                           | ~~EUR620~~ | ~~EUR770~~ | EUR920   |
 | Conference dinner                  |        |        | EUR70    |
 
 \* Please note that the above prices do not include the mandatory 21% VAT, which
@@ -105,6 +105,6 @@ your registration, please contact the
 
 | Cancelation date         | Cancelation fee |
 | ------------------------ | --------------: |
-| Before April 1           | 25%             |
-| April 1 - May 31         | 50%             |
+| Before April 1           | ~~25%~~         |
+| April 1 - May 31         | ~~50%~~         |
 | June 1 and later         | 100%            |

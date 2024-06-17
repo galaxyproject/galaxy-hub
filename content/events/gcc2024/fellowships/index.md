@@ -212,18 +212,3 @@ his commitment to advancing scientific knowledge make him an asset to the field
 of molecular microbiology.
 
 <hr/>
-
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2024/shweta-pandey.png" style="max-height: 200px;" alt="Shweta Pandey" />
-      </td>
-      <td style="border: 0;">
-        <strong>Shweta Pandey</strong><br/>
-        <a href="https://www.imtech.res.in/" target="_blank">CSIR-Institute of Microbial Technology (CSIR-IMTECH)</a><br/>
-        Chandigarh, India<br/>
-      </td>
-    </tr>
-  </tbody>
-</table>

@@ -41,7 +41,8 @@ top experts on the topic.
             <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Tools for Machine Learning pt 1</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
+                <p>Part 1 of this multi-part training starts with the history of AI systems across 4 primary components: model, math, data, and use. Topics included are: cognitive science, probabilistic reasoning, GPUs vs. CPUs, and real-life applications (Kaggle competitions, Hugging Face collaborations).</p>
+                <p>In this tutorial: we begin the first part of the CNN tutorial with a standard dataset (MNIST).</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
@@ -100,7 +101,8 @@ top experts on the topic.
             <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Tools for Machine Learning pt 2</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
+                <p>Part 2 of this multi-part training continues with a focus on the Convolutional Neural Network (CNN) model for the purpose of image classification. After a brief summary of the history of AI systems, this lecture compares and contrasts the major neural networks (FNN, CNN, RNN, LSTM, GAN, and Transformers) before focusing an CNN image classifier use case.</p>
+                <p>In this tutorial: we complete the CNN tutorial for image classification with a choice of a standard dataset (MNIST) or pre-selected non-standard dataset (depending on time: fruit, asteroids, puppies).</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
@@ -138,9 +140,9 @@ top experts on the topic.
         </div>
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
             <a href="/events/gcc2024/training/interactive-viz" style="text-decoration: none; color: black;">
-                <h3 style="text-align: center;">Interactive Visualizations</h3>
+                <h3 style="text-align: center;">Interactive Visualization Development</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>They say a picture is worth a thousand words. Join our training to learn how to effectively visualize data in Galaxy, transforming complex datasets into intuitive and insightful visual representations.</p>
+                <p>They say a picture is worth a thousand words. Join this training to learn how Galaxy visualizations work, and how to add one of your own.</p>
                 <p><b>Room:</b> Congress hall C</p>
             </a>
         </div>
@@ -148,7 +150,8 @@ top experts on the topic.
             <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Tools for Machine Learning pt 3</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
+                <p>Part 3 of this multi-part training assumes participants already have theoretical knowledge or experience implementing an AI large language model (LLM) like GPT, BERT, RoBERTa, XLNet, and T5. This lecture discusses the advancements in bioinformatics that leverage deep learning to predict protein behavior and apply natural language-processing (NLP) methodologies to biological sequences.</p>
+                <p>In this tutorial: we fine-tune an LLM trained on protein sequences, specifically ProtT5 (using Hugging Face and JupyterLab in Galaxy Europe). Additionally, we explore the benefits and challenges of this approach, as well as techniques like low-rank adaptations (LoRA) for fitting large language models with billions of parameters on regular GPUs.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
@@ -191,7 +194,8 @@ top experts on the topic.
             <a href="/events/gcc2024/training/machine-learning" style="text-decoration: none; color: black;">
                 <h3 style="text-align: center;">Tools for Machine Learning pt 4</h3>
                 <hr style="margin: 10px 0;"/>
-                <p>There's a whole flavor of Galaxy for machine learning: Galaxy-ML with dedicated tools. This multi-part training session will get you up to speed on how to use ML tools for your data.</p>
+                <p>Part 4 of this multi-part training assumes participants have some theoretical knowledge on an AI large language model (LLM) and seek more customization within established machine learning frameworks, specifically Google's TensorFlow. This lecture explores the benefits and challenges of using "vanilla" RNNs by delving into their algorithmic structures.</p>
+                <p>In this tutorial, we apply a sequence-to-sequence model to translate short English sentences into short French sentences, character-by-character, using a Long Short-Term Memory (LSTM) model, which is a type of RNN. The primary tools used in this tutorial include Galaxy's Interactive Jupyter Notebook tool for Command Line Interface (CLI) and Google's TensorFlow.</p>
                 <p><b>Room:</b> Congress hall D</p>
             </a>
         </div>
