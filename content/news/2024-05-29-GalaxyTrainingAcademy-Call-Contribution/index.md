@@ -1,7 +1,7 @@
 ---
 title: "Open Call for Trainers for the Galaxy Training Academy"
 date: "2024-05-29"
-tease: "Deploy ARC endpoints in the EGI Federated Cloud easily with Infrastructure Manager"
+tease: "Open Call for Trainers for the Galaxy Training Academy"
 hide_tease: false
 tags: [training]
 subsites: [global]
