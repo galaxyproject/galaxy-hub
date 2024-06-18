@@ -195,22 +195,3 @@ The **[travel page](/events/gcc2024/travel/) has more details.**
 
 
 </div>
-
-# Join the GCC2024 Announce mailing list
-
-Want to stay in the loop about the conference? Sign up for the announcement
-mailing list and you'll be the first to know. And don't worry - no spamming here
-and no excessive emails.
-<div class="text-center my-5">
-  <form method="post" action="https://gaggle.email/join/gcc2024-announce@gaggle.email">
-      <div>
-          <input name="name" type="text" placeholder="Your name" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <input name="email" type="email" placeholder="Email address" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <button class="btn btn-primary">Join GCC2024 Announce mailing list</button>
-      </div>
-  </form>
-</div>

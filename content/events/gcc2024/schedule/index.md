@@ -36,7 +36,7 @@ the page and the abstract book will be available soon.
 |                   |               |                                                          |                     |
 | Wednesday, Jun 26 | 8:30 - 8:45   | Overview of [activities on Wednesday afternoon](#wednesday-afternoon) | BCD    |
 |                   | 8:45 - 9:45   | [Keynote by Ute Gunsenheimer](/events/gcc2024/keynotes/) | BCD                 |
-|                   | 8:45 - 10:10  | Morning break                                            | Atrium              |
+|                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
 |                   | 10:10 - 10:30 | Gold sponsor talk: [JXTX Foundation](https://jxtxfoundation.org/) | BCD        |
 |                   | 10:30 - 12:00 | Panel discussion                                         | BCD                 |
 |                   | 12:00 - 12:10 | Group photograph                                         | Atrium              |
