@@ -151,8 +151,8 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Luca Degradi, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Visualizing Workflow Runs in Galaxy: The Graph View for Workflow Invocations</span>;
-                    <span class="gcc2024-authors">Ahmed Awan</span>
+                    <span class="gcc2024-title">Upgrading User Experience: Introducing the New Galaxy UI</span>;
+                    <span class="gcc2024-authors">Aysam Guerler, et al.</span>
                 </td>
             </tr>
             <tr>
@@ -161,8 +161,8 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Deepti Varshney, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Upgrading User Experience: Introducing the New Galaxy UI</span>;
-                    <span class="gcc2024-authors">Aysam Guerler, et al.</span>
+                    <span class="gcc2024-title">Visualizing Workflow Runs in Galaxy: The Graph View for Workflow Invocations</span>;
+                    <span class="gcc2024-authors">Ahmed Awan</span>
                 </td>
             </tr>
             <tr>
