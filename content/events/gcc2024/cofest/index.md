@@ -44,6 +44,11 @@ project ideas_ linked below.
 Feel free to add to this document or join someone else's project by adding your name to the
 *Participants* column.
 
+<p class="alert alert-info">
+    A good project idea for the Cofest is preferrably a collaborative one or at the very least,
+    one that would benefit from in-person planning, feedback and dicussion.
+</p>
+
 <div class="text-center mb-3">
     <a
         href="https://docs.google.com/spreadsheets/d/1n3OiQhqPEr2Xpnx-d7do0eVKreFCYfKo5vlz1_7wpSM/edit?usp=sharing"
@@ -53,11 +58,6 @@ Feel free to add to this document or join someone else's project by adding your 
         <strong>Document of CoFest project ideas</strong>
     </a>
 </div>
-
-<p class="alert alert-info">
-    A good project idea for the Cofest is preferrably a collaborative one or at the very least,
-    one that would benefit from in-person planning, feedback and dicussion.
-</p>
 
 ### <i>Note that this is not the exhaustive list of projects for the Cofest!</i>
 
