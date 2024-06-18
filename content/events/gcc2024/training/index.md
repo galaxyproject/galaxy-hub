@@ -19,7 +19,7 @@ top experts on the topic.
 <!-- Day 1 -->
 <div style="margin-bottom: 40px;">
     <h2 style="text-align: center; background-color: #ddeeff; padding: 20px; border-radius: 10px;"><b>Day 1</b> - Monday, June 24th</h2>
-    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
+    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;" id="day-1-session-1"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
             <a href="/events/gcc2024/training/bioconda" style="text-decoration: none; color: black;">
@@ -63,7 +63,7 @@ top experts on the topic.
             </a>
         </div>
     </div>
-    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 2</b> (4:00 pm - 6:00 pm)</h3>
+    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;" id="day-1-session-2"><b>Session 2</b> (4:00 pm - 6:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
             <a href="/events/gcc2024/training/wf-dev" style="text-decoration: none; color: black;">
@@ -128,7 +128,7 @@ top experts on the topic.
 <!-- Day 2 -->
 <div style="margin-bottom: 40px;">
     <h2 style="text-align: center; background-color: #ddeeff; padding: 20px; border-radius: 10px;"><b>Day 2</b> - Tuesday, June 25th</h2>
-    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
+    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;" id="day-2-session-1"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
             <a href="/events/gcc2024/training/ecology" style="text-decoration: none; color: black;">
@@ -172,7 +172,7 @@ top experts on the topic.
             </a>
         </div>
     </div>
-    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 2</b> (4:00 pm - 6:00 pm)</h3>
+    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;" id="day-2-session-2"><b>Session 2</b> (4:00 pm - 6:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
             <a href="/events/gcc2024/training/ecology" style="text-decoration: none; color: black;">
@@ -221,7 +221,7 @@ top experts on the topic.
 <!-- Day 4 -->
 <div style="margin-bottom: 40px;">
     <h2 style="text-align: center; background-color: #ddeeff; padding: 20px; border-radius: 10px;"><b>Day 4</b> - Thursday, June 27th</h2>
-    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
+    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;" id="day-4-session-1"><b>Session 1</b> (1:00 pm - 2:00 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f7f0f0;">
             <a href="/events/gcc2024/training/microbiome-analysis" style="text-decoration: none; color: black;">
@@ -264,7 +264,7 @@ top experts on the topic.
             </a>
         </div>
     </div>
-    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;"><b>Session 2</b> (2:30 pm - 4:30 pm)</h3>
+    <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: #d0e6ff; padding: 10px; border-radius: 10px;" id="day-4-session-2"><b>Session 2</b> (2:30 pm - 4:30 pm)</h3>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
         <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 45%; background-color: #f1e4e4;">
             <a href="/events/gcc2024/training/single-cell" style="text-decoration: none; color: black;">
