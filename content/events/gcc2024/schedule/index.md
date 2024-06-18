@@ -52,12 +52,11 @@ the page and the abstract book will be available soon.
 |                   | 14:00 - 14:30 | Afternoon break                                          | Atrium              |
 |                   | 14:30 - 16:30 | [Trainings II](/events/gcc2024/training/)                | B, C, D, M1, M2     |
 |                   | 16:30 - 17:30 | [Talks (single track)](#talks) & conference closing      | BCD                 |
-|                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D, M1         |
+|                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D, M1, M2     |
 |                   |               |                                                          |                     |
 
 
 # Talks
-
 
 ## Monday: 10:00 - 12:00
 
@@ -1159,6 +1158,33 @@ the page and the abstract book will be available soon.
                 </td>
                 <td>
                     Kiran K Telukunta
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td>
+                    <strong>Galaxy's release process</strong> (room M2)
+                </td>
+            <tr>
+                <td>
+                    Description:
+                </td>
+                <td>
+                    Discussion of the Galaxy Release process and any improvements we can make to it. Topics can include release cycle, timing, naming, release testing (scope, infrastructure, teams), release notes, announcements, and anything else you can think of!
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Organizers:
+                </td>
+                <td>
+                    John Davis, Dannon Baker
                 </td>
             </tr>
         </tbody>
