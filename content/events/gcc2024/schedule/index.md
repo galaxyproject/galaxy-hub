@@ -167,7 +167,7 @@ the page and the abstract book will be available soon.
             <tr>
                 <td>
                     <span class="gcc2024-title">Genomic and evolutionary analysis of the cytochrome P450 gene family in a ground -herb of Amazonian riparian forests with a waterflooding gradient</span>;
-                    <span class="gcc2024-authors">Luca Degradi, et al.</span>
+                    <span class="gcc2024-authors">Drielli Canal, et al.</span>
                 </td>
                 <td>
                     <span class="gcc2024-title">Enhanced Workflow Management in Galaxy</span>;
