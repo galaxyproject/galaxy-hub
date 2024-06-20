@@ -4,7 +4,7 @@ tease: "See what's new on Galaxy with the 24.1 release notes!"
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2024-06-20"
-tags: ["release"]
+tags: ["highlight"]
 subsites: [global,all]
 ---
 # 24.1 Galaxy Release (June 2024)
@@ -108,9 +108,6 @@ Please see the [full release notes](https://docs.galaxyproject.org/en/master/rel
 *Thank you for using Galaxy!*
 
 [The Galaxy Team](https://galaxyproject.org/galaxy-team/)
-
-
-
 
 
 
