@@ -54,7 +54,9 @@ the page and the abstract book will be available soon.
 |                   | 16:30 - 17:30 | [Talks (single track)](#talks) & conference closing      | BCD                 |
 |                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D, M1, M2     |
 |                   |               |                                                          |                     |
-
+| Friday, Jun 28    | 9:00 - 17:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
+| Saturday, Jun 29  | 9:00 - 17:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
+|                   |               |                                                          |                     |
 
 # Talks
 
