@@ -22,6 +22,6 @@ Part of Galaxy-P Team, working in the area of metaproteomics and proteogenomics
 
 University of Minnesota
 
-### Richard Wagner
+### Reid Wagner
 
 University of Minnesota
