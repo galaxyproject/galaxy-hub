@@ -12,7 +12,7 @@ autotoc: true
 The advanced tool wrapping training for the Galaxy Project specifically targets complex challenges encountered by users, such as handling deferred and discovered datasets, developing interactive tools, implementing output filtering, and working with Galaxy collections.
 
 ### For the training:
-Please clone this repo in preparation: [https://github.com/tcollins2011/GCC_2024_Advanced_Tools_Training](Galaxy advanced tool training)
+Please clone this repo in preparation: [Galaxy advanced tool training](https://github.com/tcollins2011/GCC_2024_Advanced_Tools_Training)
 
 ## Meet the Instructors
 
