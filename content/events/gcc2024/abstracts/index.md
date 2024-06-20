@@ -5,6 +5,10 @@ autotoc: false
 <slot name="/events/gcc2024/header" />
 
 <div class="text-center my-5">
+    <a href="https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf" type="button" class="btn btn-primary">
+        <strong>View abstract book</strong>
+    </a>
+    ◇
     <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
         <strong>View talks schedule</strong>
     </a>
@@ -26,9 +30,7 @@ Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are
 are submitted by the community and go through a peer review process by the
 [scientific committee](/events/gcc2024/organizers/#scientific-committee-members)
-before being accepted into the conference program. Once the conference program
-has been finalized, an electronic version of the abstract book will be made
-available.
+before being accepted into the conference program.
 
 GCC2024 is a Galaxy-centric conference but the topics presented can vary
 greatly. Topics of interest include but are not limited to the following areas:

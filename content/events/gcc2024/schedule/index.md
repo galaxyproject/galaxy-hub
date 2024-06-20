@@ -9,7 +9,7 @@ autotoc: true
 
 The schedule is where you can discover what’s happening when at GCC2024. [List
 of talks](#talks) as well as [list of posters](#posters) are available lower on
-the page and the abstract book will be available soon.
+the page and you can download the [abstract book here](https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf).
 
 
 | **Day**           | **Time**      | **Event**                                                | **Room(s)**         |
