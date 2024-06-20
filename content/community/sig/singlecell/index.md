@@ -1,7 +1,7 @@
 ---
 description: "Users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell and spatial omics capabilities."
 autotoc: true
-title: "Galaxy Single-cell & Spatial Omics Community of Practice"
+title: "🖖🏾SPOC: Galaxy Single-cell & sPatial Omics Community of practice"
 ---
 
 <slot name="/community/sig/common_linkbox" />
@@ -12,9 +12,11 @@ We are a mix of users, developers, and trainers providing feedback and energy to
  - **Developers**: Are you developing single cell tools in Galaxy, or looking for a place to develop in Galaxy? Do you need users, testers, or just want to make sure you're not wrapping the same tools as someone else!
  - **Users**: Do you use Galaxy single cell tools for scRNA-seq or beyond? Do you have feedback for us? Want to be a tester of new resources? Do you want to request new resources?
  - **Trainers**: Do you use Galaxy to train others in single cell analysis? Do you have feedback or requests on how we can support users better now and in the future?
+ - **Bioinformaticians**: Do you do single cell analysis (in Galaxy or outside of it?) Want to contribute to making sure our resources are the best, up-to-date practices in the field? Do you have feedback on how we can do better?
+
 Do you want to impact the future of single cell in Galaxy?
 
-**Welcome to the Galaxy Single-cell & Spatial Omics Community of Practice!**
+**Welcome to 🖖🏾SPOC: the Galaxy Single-cell & sPatial Omics Community of practice!**
 
 ## I'm just trying to learn to analyse my data, how did I get here?
 Hello user! You'll be interested in the following resources:
@@ -27,7 +29,7 @@ Hello user! You'll be interested in the following resources:
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
 
-# What are the goals of the single-cell and spatial omics community of practice?
+# What are the goals of 🖖🏾SPOC?
 
 <i class="fa fa-bullseye" aria-hidden="true"></i> Goals
 - Prevent work duplication
@@ -44,7 +46,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 
 # How do we function?
 
-**Meetings** We meet every 6 weeks (alternating USA, EU and AU time zones) for 1 hour.
+**Meetings** We meet every 4 weeks (alternating USA, EU and AU time zones) for 1 hour.
 
 Our meeting agenda is:
 1. Random intro chatter & introductions
@@ -66,15 +68,14 @@ Our meeting agenda is:
 
 # How can you join & other important links
 
-Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [SC Community of Practice Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
+Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
 
  - <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;   [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
  - <i class="fa fa-trello" aria-hidden="true"></i>&nbsp;&nbsp; [Trello site](https://trello.com/invite/b/KLVgHvCB/ATTI53fe3f6ea71737e3aa6570e5ed148a528698CA27/sccop-tool-wrapping-tutorial-development)
- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [SC-CoP Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe!
+ - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [🖖🏾SPOC Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe!
  - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [ICal link for non-google users](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics)
  - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
  - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;&nbsp; [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
- - <i class="fa fa-coffee" aria-hidden="true"></i>&nbsp;&nbsp; [SC Community of Practice Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org)
 
 ## Key words
 

@@ -1,7 +1,7 @@
 ---
 title: "Open Call for Trainers for the Galaxy Training Academy"
 date: "2024-05-29"
-tease: "Join us this October for the Galaxy Training Academy 2024 as a trainer and play a pivotal role in organizing and hosting our global online training event."
+tease: "Open Call for Trainers for the Galaxy Training Academy"
 hide_tease: false
 tags: [training]
 subsites: [global]

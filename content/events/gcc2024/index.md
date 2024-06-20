@@ -30,16 +30,12 @@ subsites: [all]
     <div class="lead" style="padding-bottom: 1rem">
       The flagship Galaxy event of the year is upon us! Join the Galaxy world-wide community to share and learn about data science.
     </div>
-    <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
-        <strong>View talk & poster schedule</strong>
+    <a href="/events/gcc2024/schedule/" type="button" class="btn btn-primary">
+        <strong>View schedule</strong>
     </a>
     ◇
-    <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
-        <strong>Sign up for announcements</strong>
-    </a>
-    ◇
-    <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
-        <strong>Register to attend</strong>
+    <a href="/events/gcc2024/training/" type="button" class="btn btn-primary">
+        <strong>View trainings</strong>
     </a>
     ◇
     <a href="https://join.slack.com/t/gcc2024/shared_invite/zt-2k5e9ju83-srjhchf7Uh0C2_lE1iITlA" type="button" class="btn btn-primary" target="_blank">
@@ -63,8 +59,7 @@ methods, tools, pipelines, and software improvements for the Galaxy framework.
 Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
 The abstract book with all the details is coming soon!
 
-If you haven't registered yet, [registration](/events/gcc2024/register/) is
-(still) open.
+If you haven't registered yet, you can still register on site.
 
   </div>
 
@@ -199,23 +194,4 @@ The **[travel page](/events/gcc2024/travel/) has more details.**
   </div>
 
 
-</div>
-
-# Join the GCC2024 Announce mailing list
-
-Want to stay in the loop about the conference? Sign up for the announcement
-mailing list and you'll be the first to know. And don't worry - no spamming here
-and no excessive emails.
-<div class="text-center my-5">
-  <form method="post" action="https://gaggle.email/join/gcc2024-announce@gaggle.email">
-      <div>
-          <input name="name" type="text" placeholder="Your name" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <input name="email" type="email" placeholder="Email address" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <button class="btn btn-primary">Join GCC2024 Announce mailing list</button>
-      </div>
-  </form>
 </div>

@@ -9,6 +9,7 @@
 [Home](/events/gcc2024/) |
 [Key Dates](/events/gcc2024/key-dates/) |
 [Abstracts](/events/gcc2024/abstracts/) |
+[Presenter info](/events/gcc2024/presenter-info/) |
 [Register](/events/gcc2024/register/) |
 [Schedule](/events/gcc2024/schedule/) |
 [Keynotes](/events/gcc2024/keynotes/) |

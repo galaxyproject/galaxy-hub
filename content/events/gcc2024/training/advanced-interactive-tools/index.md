@@ -9,7 +9,7 @@ autotoc: true
 
 </div>
 
-The advanced tool wrapping training for the Galaxy Project specifically targets complex challenges encountered by users, such as handling deferred and discovered datasets, developing interactive tools, implementing output filtering, and efficiently managing data libraries and reference data. 
+The advanced tool wrapping training for the Galaxy Project specifically targets complex challenges encountered by users, such as handling deferred and discovered datasets, developing interactive tools, implementing output filtering, and working with Galaxy collections. 
 
 ## Meet the Instructors
 

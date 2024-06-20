@@ -194,6 +194,13 @@ If you want to explore the city on your own and off the beaten track, simply
 rent a [nextbike](https://www.nextbikeczech.com/en/mesto/brno-en/) and take a
 trip along the river on one of Brno's central bike lanes.
 
+For getting around, especially if you will not have mobile phone service, you
+may also consider downloading an offline map of Brno in Google Maps.
+
+If you are looking to get mobile phone service, [this
+spreadsheet](https://docs.google.com/spreadsheets/d/1gOb87Azanif3PlRBWbv-RLunkzN9cbAlUX7hJ2FdgP8/edit?pli=1&gid=0#gid=0)
+has number of choices.
+
 # Activities beside the conference
 
 The [BRNOPAS tourist card](https://www.gotobrno.cz/en/brnopas/) can be your
