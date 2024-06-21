@@ -1,4 +1,14 @@
+function interceptPlausible() {
+    cy.intercept("https://plausible.galaxyproject.eu/js/script.js", {
+        statusCode: 404,
+    });
+}
+
 describe("Main Page Tests", () => {
+    beforeEach(() => {
+        interceptPlausible();
+    });
+
     it("Visits the homepage", () => {
         cy.visit("/");
     });
@@ -9,6 +19,11 @@ describe("Main Page Tests", () => {
 });
 
 describe("Sitewide tests", () => {
+    beforeEach(() => {
+        // This will run before each test in the suite
+        interceptPlausible();
+    });
+
     it("Visits the homepage", () => {
         cy.visit("/");
     });
@@ -32,6 +47,11 @@ describe("Sitewide tests", () => {
 });
 
 describe("Test Markdown rendering", () => {
+    beforeEach(() => {
+        // This will run before each test in the suite
+        interceptPlausible();
+    });
+
     it("Tests Markdown rendering", () => {
         cy.visit("/community/");
         // Make sure the title exists and isn't empty.
@@ -42,6 +62,11 @@ describe("Test Markdown rendering", () => {
 });
 
 describe("Test insert functionality", () => {
+    beforeEach(() => {
+        // This will run before each test in the suite
+        interceptPlausible();
+    });
+
     it("Visits 2012 GCC event page and ensures footer insert is visible", () => {
         cy.visit("/events/gcc2012/");
         cy.get(".insert > p > a").findByText("Ask the organizers").should("be.visible");
@@ -49,6 +74,11 @@ describe("Test insert functionality", () => {
 });
 
 describe("Use Page Tests", () => {
+    beforeEach(() => {
+        // This will run before each test in the suite
+        interceptPlausible();
+    });
+
     it("Visits the Use index, exercises controls", () => {
         cy.visit("/use/");
         // Just to make sure the Cypress waits for Vue to render the page.
@@ -84,6 +114,11 @@ describe("Use Page Tests", () => {
 // Save the tests with long timeouts for the end.
 
 describe("Test 404 page", () => {
+    beforeEach(() => {
+        // This will run before each test in the suite
+        interceptPlausible();
+    });
+
     it("Tests 404 page", () => {
         cy.visit("/thisPageShould_never-exist-fd08b54e4/", { failOnStatusCode: false });
         // Just make sure the page rendered.
@@ -97,6 +132,12 @@ describe("Page Redirects Test", () => {
     const sourcePage = "/0examples/test-redirect-source/";
     const targetPageTitle = "Test Redirect Target Page";
     const secondsDelay = 7;
+
+    beforeEach(() => {
+        // This will run before each test in the suite
+        interceptPlausible();
+    });
+
     it("Tests Page Redirects component", () => {
         cy.on("window:before:load", (win) => {
             win.__location = {

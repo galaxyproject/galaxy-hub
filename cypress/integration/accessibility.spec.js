@@ -7,6 +7,10 @@ const CYPRESS_ACCESSIBILITY_CONFIG = {
 const CURRENT_DATE = new Date();
 
 describe("Accessibility Testing", () => {
+    beforeEach(() => {
+        cy.intercept("https://plausible.galaxyproject.eu/js/script.js", { statusCode: 404 });
+    });
+
     it("Homepage has no detectable a11y violations on load", () => {
         cy.visit("/").get("#app").injectAxe();
         // Ensure masthead has loaded
