@@ -820,6 +820,13 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                     <span class="gcc2024-authors">Reid Wagner, et al.</span>
                 </td>
             </tr>
+            <tr>
+                <td>56</td>
+                <td>
+                    <span class="gcc2024-title">The potential of GlobalFungi and GlobalAMFungi databases for Galaxy</span>;
+                    <span class="gcc2024-authors">Tomáš Větrovský</span>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
