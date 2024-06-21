@@ -1,8 +1,4 @@
-function interceptPlausible() {
-    cy.intercept("https://plausible.galaxyproject.eu/js/script.js", {
-        statusCode: 404,
-    });
-}
+import { interceptPlausible } from "../util.js";
 
 describe("Main Page Tests", () => {
     beforeEach(() => {
@@ -20,7 +16,6 @@ describe("Main Page Tests", () => {
 
 describe("Sitewide tests", () => {
     beforeEach(() => {
-        // This will run before each test in the suite
         interceptPlausible();
     });
 
@@ -48,7 +43,6 @@ describe("Sitewide tests", () => {
 
 describe("Test Markdown rendering", () => {
     beforeEach(() => {
-        // This will run before each test in the suite
         interceptPlausible();
     });
 
@@ -63,7 +57,6 @@ describe("Test Markdown rendering", () => {
 
 describe("Test insert functionality", () => {
     beforeEach(() => {
-        // This will run before each test in the suite
         interceptPlausible();
     });
 
@@ -75,7 +68,6 @@ describe("Test insert functionality", () => {
 
 describe("Use Page Tests", () => {
     beforeEach(() => {
-        // This will run before each test in the suite
         interceptPlausible();
     });
 
@@ -115,7 +107,6 @@ describe("Use Page Tests", () => {
 
 describe("Test 404 page", () => {
     beforeEach(() => {
-        // This will run before each test in the suite
         interceptPlausible();
     });
 
@@ -134,7 +125,6 @@ describe("Page Redirects Test", () => {
     const secondsDelay = 7;
 
     beforeEach(() => {
-        // This will run before each test in the suite
         interceptPlausible();
     });
 

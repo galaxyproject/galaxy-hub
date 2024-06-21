@@ -1,3 +1,5 @@
+import { interceptPlausible } from "../util.js";
+
 const CYPRESS_ACCESSIBILITY_CONFIG = {
     iframes: false,
     ancestry: true,
@@ -8,7 +10,7 @@ const CURRENT_DATE = new Date();
 
 describe("Accessibility Testing", () => {
     beforeEach(() => {
-        cy.intercept("https://plausible.galaxyproject.eu/js/script.js", { statusCode: 404 });
+        interceptPlausible();
     });
 
     it("Homepage has no detectable a11y violations on load", () => {
