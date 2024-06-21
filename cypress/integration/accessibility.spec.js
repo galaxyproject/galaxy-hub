@@ -1,3 +1,5 @@
+import { interceptPlausible } from "../util.js";
+
 const CYPRESS_ACCESSIBILITY_CONFIG = {
     iframes: false,
     ancestry: true,
@@ -7,6 +9,10 @@ const CYPRESS_ACCESSIBILITY_CONFIG = {
 const CURRENT_DATE = new Date();
 
 describe("Accessibility Testing", () => {
+    beforeEach(() => {
+        interceptPlausible();
+    });
+
     it("Homepage has no detectable a11y violations on load", () => {
         cy.visit("/").get("#app").injectAxe();
         // Ensure masthead has loaded
