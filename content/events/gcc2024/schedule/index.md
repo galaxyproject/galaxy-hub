@@ -9,7 +9,7 @@ autotoc: true
 
 The schedule is where you can discover what’s happening when at GCC2024. [List
 of talks](#talks) as well as [list of posters](#posters) are available lower on
-the page and the abstract book will be available soon.
+the page and you can download the [abstract book here](https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf).
 
 
 | **Day**           | **Time**      | **Event**                                                | **Room(s)**         |
@@ -52,12 +52,13 @@ the page and the abstract book will be available soon.
 |                   | 14:00 - 14:30 | Afternoon break                                          | Atrium              |
 |                   | 14:30 - 16:30 | [Trainings II](/events/gcc2024/training/)                | B, C, D, M1, M2     |
 |                   | 16:30 - 17:30 | [Talks (single track)](#talks) & conference closing      | BCD                 |
-|                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D, M1         |
+|                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D, M1, M2     |
+|                   |               |                                                          |                     |
+| Friday, Jun 28    | 9:00 - 17:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
+| Saturday, Jun 29  | 9:00 - 17:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
 |                   |               |                                                          |                     |
 
-
 # Talks
-
 
 ## Monday: 10:00 - 12:00
 
@@ -151,8 +152,8 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Luca Degradi, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Visualizing Workflow Runs in Galaxy: The Graph View for Workflow Invocations</span>;
-                    <span class="gcc2024-authors">Ahmed Awan</span>
+                    <span class="gcc2024-title">Upgrading User Experience: Introducing the New Galaxy UI</span>;
+                    <span class="gcc2024-authors">Aysam Guerler, et al.</span>
                 </td>
             </tr>
             <tr>
@@ -161,14 +162,14 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Deepti Varshney, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Upgrading User Experience: Introducing the New Galaxy UI</span>;
-                    <span class="gcc2024-authors">Aysam Guerler, et al.</span>
+                    <span class="gcc2024-title">Visualizing Workflow Runs in Galaxy: The Graph View for Workflow Invocations</span>;
+                    <span class="gcc2024-authors">Ahmed Awan</span>
                 </td>
             </tr>
             <tr>
                 <td>
                     <span class="gcc2024-title">Genomic and evolutionary analysis of the cytochrome P450 gene family in a ground -herb of Amazonian riparian forests with a waterflooding gradient</span>;
-                    <span class="gcc2024-authors">Luca Degradi, et al.</span>
+                    <span class="gcc2024-authors">Drielli Canal, et al.</span>
                 </td>
                 <td>
                     <span class="gcc2024-title">Enhanced Workflow Management in Galaxy</span>;
@@ -819,6 +820,13 @@ the page and the abstract book will be available soon.
                     <span class="gcc2024-authors">Reid Wagner, et al.</span>
                 </td>
             </tr>
+            <tr>
+                <td>56</td>
+                <td>
+                    <span class="gcc2024-title">The potential of GlobalFungi and GlobalAMFungi databases for Galaxy</span>;
+                    <span class="gcc2024-authors">Tomáš Větrovský</span>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
@@ -1159,6 +1167,33 @@ the page and the abstract book will be available soon.
                 </td>
                 <td>
                     Kiran K Telukunta
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td>
+                    <strong>Galaxy's release process</strong> (room M2)
+                </td>
+            <tr>
+                <td>
+                    Description:
+                </td>
+                <td>
+                    Discussion of the Galaxy Release process and any improvements we can make to it. Topics can include release cycle, timing, naming, release testing (scope, infrastructure, teams), release notes, announcements, and anything else you can think of!
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Organizers:
+                </td>
+                <td>
+                    John Davis, Dannon Baker
                 </td>
             </tr>
         </tbody>

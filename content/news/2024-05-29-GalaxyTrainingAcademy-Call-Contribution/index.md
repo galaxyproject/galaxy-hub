@@ -1,7 +1,7 @@
 ---
 title: "Open Call for Trainers for the Galaxy Training Academy"
 date: "2024-05-29"
-tease: "Open Call for Trainers for the Galaxy Training Academy"
+tease: "Join us this October for the Galaxy Training Academy 2024 as a trainer and play a pivotal role in organizing and hosting our global online training event."
 hide_tease: false
 tags: [training]
 subsites: [global]
@@ -10,7 +10,7 @@ main_subsite: global
 
 # Open Call for Trainers for the Galaxy Training Academy
 
-We are happy to announce the Galaxy Training Academy 2024, a global online training event, where learners can get to know Galaxy and learn how to analyze data for various research topics.
+We are happy to announce the Galaxy Training Academy 2024, a global online training event where learners can get to know Galaxy and learn how to analyze data for various research topics.
 
 
 **Dates**: October 07-11, 2024
@@ -19,7 +19,9 @@ We are happy to announce the Galaxy Training Academy 2024, a global online train
 
 ## The event
 
-The event will provide a self-paced online learning experience for learners who would like to dive into the depths of Galaxy data analysis. The event is similar to the Smörgåsbord, but the program will be more structured. On Monday learners can get to know Galaxy and its tremendous functionality. Between Tuesday and Thursday, learners can choose from different Tracks that they are interested in. This can help learn to either get onboarded or understand fassates of one research area more in-depth. It is still up to the learnes to choose there program for the week but the track will give them guidance on what order will help to achieve their individual learning goals. In there self-paced learning endevers they will be supported via chat by us.
+The event will provide a self-paced online learning experience for learners who would like to dive into the depths of Galaxy data analysis. The event is similar to the Smörgåsbord, but the program will be more structured. On Monday learners can get to know Galaxy and its various functionalities. Between Tuesday and Thursday, learners can choose from different Tracks that they are interested in. Friday will be dedicated to shorter topics. 
+This track system can assist with onboarding or in-depth understanding of facets of one research area. The learners will still choose their program for the week, but the track structure will provide guidance on what order will help them achieve their individual learning goals. We will support them via chat in their self-paced learning endeavors.
+
 
 
 ### Initial Program:
@@ -57,10 +59,9 @@ The event will provide a self-paced online learning experience for learners who 
 
 
 
-
 ## Your contribution
 
-We want to provide a high-quality learning experience and are seeking out for contributors, who will help to make this experience possible. We offer three distinct ways for you to contribute:
+We want to provide a high-quality learning experience and seek contributors to help make this experience possible. We offer three distinct ways for you to contribute:
 
 1. **Host Your Tutorial**: Develop and share your own tutorial to enrich the learning experience.
 2. **Assist in existing Tutorial Setups**: We can propose a tutorial or connect you with other contributors to set up an existing Tutorial.
@@ -70,7 +71,7 @@ Even if you don't have a tutorial in mind, your support in any of the above capa
 
 **To ensure the highest quality of the tutorials you should do:**
 1. **Review** and update the GTN tutorial
-2. **Test** the tutorial on at least 1 Galaxy instance
+2. **Test** the tutorial on at least 1 public Galaxy instance
 3. **Check** that the workflow is in sync with the written instructions
 4. **Record** a video of yourself teaching the tutorial
 
