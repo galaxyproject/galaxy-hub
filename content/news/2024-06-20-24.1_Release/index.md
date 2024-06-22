@@ -103,7 +103,7 @@ The activity bar is now enabled by default, enhancing the user experience by pro
 
 
 ## Release Notes
-Please see the [full release notes](https://docs.galaxyproject.org/en/master/releases/index.html) for all the details!
+Please see the [full release notes](https://docs.galaxyproject.org/en/master/releases/24.1_announce_user.html) for all the details!
 
 *Thank you for using Galaxy!*
 
