@@ -184,8 +184,8 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                     <span class="gcc2024-authors">Patrick Austin, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Maintaining and improving a large collection of workflows</span>;
-                    <span class="gcc2024-authors">Marius van den Beek</span>
+                    <span class="gcc2024-title">A Galaxy Workflow Developer's Companion in your Browser</span>;
+                    <span class="gcc2024-authors">David López</span>
                 </td>
             </tr>
             <tr>
@@ -445,8 +445,8 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             <tr>
                 <td>4</td>
                 <td>
-                    <span class="gcc2024-title">A Galaxy Workflow Developer's Companion in your Browser</span>;
-                    <span class="gcc2024-authors">David López</span>
+                    <span class="gcc2024-title">Maintaining and improving a large collection of workflows</span>;
+                    <span class="gcc2024-authors">Marius van den Beek</span>
                 </td>
             </tr>
             <tr>
