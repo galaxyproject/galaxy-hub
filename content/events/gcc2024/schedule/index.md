@@ -23,6 +23,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
 |                   | 14:00 - 16:00 | [Posters](#monday-1400---1600) + coffee                  | A                   |
 |                   | 16:00 - 18:00 | [Trainings II](/events/gcc2024/training/)                | B, C, D, M1, M2     |
 |                   | 18:00 - 19:00 | [BoFs](#monday-1800---1900)                              | B, C, D, M1, M2     |
+|                   | 19:00 - 21:00 | GCC2024 Welcome Happy Hour                               | Siesta Lobby & Wine Restaurant (inside Hotel International) |
 |                   |               |                                                          |                     |
 | Tuesday, Jun 25   | 8:30 - 9:45   | Community update talk                                    | BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
