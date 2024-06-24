@@ -25,14 +25,12 @@ IUC membership evolves over time and helpful community contributors are asked to
 
 | Member | Joined | GitHub |
 | ------ | ------ | ------ |
-**Daniel Blankenberg**, Galaxy Team, Penn State University | founding member | [@blankenberg](https://github.com/blankenberg)
-**Dave Bouvier**, Galaxy Team, Penn State University | founding member | [@davebx](https://github.com/davebx)
+**Daniel Blankenberg**, Cleveland Clinic | founding member | [@blankenberg](https://github.com/blankenberg)
 **Peter Cock**, The James Hutton Institute | founding member | [@peterjc](https://github.com/peterjc)
 **Nate Coraor**, Galaxy Team, Penn State University | founding member | [@natefoo](https://github.com/natefoo)
 **Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
-**James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
 **Nicola Soranzo**, Earlham Institute | 2014-08-25 | [@nsoranzo](https://github.com/nsoranzo)
-**Helena Rasche**, University of Freiburg | 2014-08-25 | [@hexylena](https://github.com/hexylena)
+**Helena Rasche**, Erasmus University Medical Center | 2014-08-25 | [@hexylena](https://github.com/hexylena)
 **Marius van den Beek**, Galaxy Team, Penn State University | 2015-10-12 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
 **Anthony Bretaudeau**, GenOuest BioInformatics Platform | 2016-05-11 | [@abretaud](https://github.com/abretaud)
@@ -55,3 +53,6 @@ IUC membership evolves over time and helpful community contributors are asked to
 | **Ross Lazarus**, Harvard Medical School and University of Sydney | founding member | [@fubar2](https://github.com/fubar2) |
 | **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate) |
 | **Simon Gladman**, University of Melbourne | 2017-11-11 | [@Slugger70](https://github.com/slugger70) |
+| **Dave Bouvier**, Galaxy Team, Penn State University | founding member | [@davebx](https://github.com/davebx) |
+| **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn) |
+

@@ -144,10 +144,10 @@ registration. Note that all hotel prices include VAT and breakfast but do not
 include the city tax, which is about 1.60EUR per night per person and will need
 to be paid upon checkout.
 
-1. [Hotel International](https://www.hotelinternational.cz/en/): 115EUR single or 135EUR double (this is the conference venue)
-2. [Hotel Grand](https://grandhotelbrno.cz/en/): 74EUR single
-3. [Hotel Barcelo](https://www.barcelo.com/en-us/barcelo-brno-palace/): 169EUR single or 184EUR double
-4. [Hotel Continental](https://www.continentalbrno.cz/en/): 80EUR single
+1. [Hotel International](https://www.hotelinternational.cz/en/): inquiries via reservation@hotelinternational.cz
+2. [Hotel Grand](https://grandhotelbrno.cz/en/): inquiries via reservation@grandhotelbrno.cz
+3. [Hotel Barcelo](https://barcelo.com/)
+4. [Hotel Continental](https://www.continentalbrno.cz/en/): inquiries via info@continentalbrno.cz
 
 <div style="max-width: 50%; margin: auto;">
   <iframe src="https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d10428.935406501356!2d16.598207082028537!3d49.19612319207686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e2!4m5!1s0x47129444ca775b5d%3A0x50b53f0646c60d75!2sHotel%20Continental%20Brno%2C%20Kounicova%2C%20Brno-st%C5%99ed-Veve%C5%99%C3%AD!3m2!1d49.2005461!2d16.604651099999998!4m5!1s0x47129450f5e25ee7%3A0x1d824eaf890ec356!2sHOTEL%20INTERNATIONAL%20BRNO%2C%20Husova%2016%2C%20602%2000%20Brno-st%C5%99ed!3m2!1d49.194984299999994!2d16.605487099999998!4m5!1s0x4712945169d33ca9%3A0xd681d5c5d675d861!2zSG90ZWwgQmFyY2Vsw7MgQnJubyBQYWxhY2UsIMWgaWxpbmdyb3ZvIG7DoW3Em3N0w60sIEJybm8tc3TFmWVk!3m2!1d49.1920291!2d16.6056254!4m5!1s0x4712616e8422ec43%3A0x8a03bcf138404574!2sGrandhotel%20Brno%2C%20Bene%C5%A1ova%2C%20Brno-st%C5%99ed!3m2!1d49.1926049!2d16.6132037!5e0!3m2!1sen!2scz!4v1706188388218!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -193,6 +193,13 @@ explore other areas, simply hop on a tram or bus, beep in and enjoy the ride!
 If you want to explore the city on your own and off the beaten track, simply
 rent a [nextbike](https://www.nextbikeczech.com/en/mesto/brno-en/) and take a
 trip along the river on one of Brno's central bike lanes.
+
+For getting around, especially if you will not have mobile phone service, you
+may also consider downloading an offline map of Brno in Google Maps.
+
+If you are looking to get mobile phone service, [this
+spreadsheet](https://docs.google.com/spreadsheets/d/1gOb87Azanif3PlRBWbv-RLunkzN9cbAlUX7hJ2FdgP8/edit?pli=1&gid=0#gid=0)
+has number of choices.
 
 # Activities beside the conference
 
