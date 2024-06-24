@@ -25,8 +25,8 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
 |                   | 18:00 - 19:00 | [BoFs](#monday-1800---1900)                              | B, C, D, M1, M2     |
 |                   | 19:00 - 21:00 | GCC2024 Welcome Happy Hour                               | Siesta Lobby & Wine Restaurant (inside Hotel International) |
 |                   |               |                                                          |                     |
-| Tuesday, Jun 25   | 8:45 - 9:00  | Overview of dinner tours                                 | BCD                 |
-|                   | 9:00 - 9:45   | What's up in the Galaxy: Community update talk                                    | BCD                 |
+| Tuesday, Jun 25   | 8:45 - 9:00  | Overview of dinner tours                                  | BCD                 |
+|                   | 9:00 - 9:45   | What's up in the Galaxy: Community update talk           | BCD                 |
 |                   | 9:45 - 10:10  | Morning break                                            | Atrium              |
 |                   | 10:10 - 12:00 | [Talks (2 tracks)](#talks)                               | BC, D               |
 |                   | 12:00 - 13:00 | Lunch                                                    | Restaurant Lucullus |
@@ -846,14 +846,15 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                     Title:
                 </td>
                 <td>
-                    <strong>Get involved with BioDIGS and GDSCN</strong> (room B)
+                    <strong>microGalaxy SIG with BioDIGS and GDSCN</strong> (room B)
                 </td>
             <tr>
                 <td>
                     Description:
                 </td>
                 <td>
-                    GDSCN and BioDIGS are looking to get interested researchers and students involved. This BoF will involve discussions of how best you can help the project and participate. If you have any questions or want to join the effort, come join the BoF.
+                    The microGalaxy Special Interest Group (SIG) is a group of researchers and bioinformaticians who collaborate to develop and optimise scientific analytical for microbial data using the Galaxy platform. This SIG aims to (i) develop, maintain, and sustain microbial data analysis in Galaxy, (ii) establish and implement standardised "best practices", (iii) expand documentation and training resources, (iv) coordinate collaborative efforts to avoid redundancy and prioritise tools, workflows, and training (v) outreach to the microbiology research communities both within and outside the Galaxy. In this BoF, we will talk about the recent efforts of the community (tools, workflows, training, resource catalog, papers) and plan efforts for the next months.<br/>
+                    We will also discuss the GDSCN and BioDIGS projects, which are looking to get interested researchers and students involved in soil metagenomics.
                 </td>
             </tr>
             <tr>
@@ -943,33 +944,6 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                 </td>
                 <td>
                     Drielli Canal
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                    Title:
-                </td>
-                <td>
-                    <strong>microGalaxy SIG: microbial data analysis resources in Galaxy</strong> (room M2)
-                </td>
-            <tr>
-                <td>
-                    Description:
-                </td>
-                <td>
-                    The microGalaxy Special Interest Group (SIG) is a group of researchers and bioinformaticians who collaborate to develop and optimise scientific analytical for microbial data using the Galaxy platform. This SIG aims to (i) develop, maintain, and sustain microbial data analysis in Galaxy, (ii) establish and implement standardised "best practices", (iii) expand documentation and training resources, (iv) coordinate collaborative efforts to avoid redundancy and prioritise tools, workflows, and training (v) outreach to the microbiology research communities both within and outside the Galaxy. In this BoF, we will talk about the recent efforts of the community (tools, workflows, training, resource catalog, papers) and plan efforts for the next months.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Organizers:
-                </td>
-                <td>
-                    Bérénice Batut, Paul Zierep
                 </td>
             </tr>
         </tbody>
