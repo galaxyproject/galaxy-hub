@@ -974,6 +974,33 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             </tr>
         </tbody>
     </table>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td>
+                    <strong>Small scale Galaxy Admins Community of Practice</strong> (room M2)
+                </td>
+            <tr>
+                <td>
+                    Description:
+                </td>
+                <td>
+                    We are a group of admins who maintain a (small) (local) Galaxy server. In this BoF we would like to attract other Galaxy admins to join us. After a general introduction of our community, we would like to discuss (and solve) any current issue we face as a Galaxy admin - in a similar style (though in person) to our on-line meetings which we have every two months.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Organizers:
+                </td>
+                <td>
+                    Lucille Delisle, Hans-Rudolf Hotz
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 ## Tuesday: 18:00 - 19:00
@@ -1065,33 +1092,6 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
 ## Thursday: 17:30 - 19:00
 
 <div>
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                    Title:
-                </td>
-                <td>
-                    <strong>Small scale Galaxy Admins Community of Practice</strong> (room B)
-                </td>
-            <tr>
-                <td>
-                    Description:
-                </td>
-                <td>
-                    We are a group of admins who maintain a (small) (local) Galaxy server. In this BoF we would like to attract other Galaxy admins to join us. After a general introduction of our community, we would like to discuss (and solve) any current issue we face as a Galaxy admin - in a similar style (though in person) to our on-line meetings which we have every two months.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Organizers:
-                </td>
-                <td>
-                    Lucille Delisle, Hans-Rudolf Hotz
-                </td>
-            </tr>
-        </tbody>
-    </table>
     <table>
         <tbody>
             <tr>
