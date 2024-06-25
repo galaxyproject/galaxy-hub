@@ -143,8 +143,8 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
     <table>
         <thead>
             <tr>
-                <th style="width: 50%">Analysis track (room BC)</th>
-                <th>Enablement track: workflows & administration (room D)</th>
+                <th style="width: 50%">Analysis track (room D)</th>
+                <th>Enablement track: workflows & administration (room BC)</th>
             </tr>
         </thead>
         <tbody>
@@ -259,8 +259,8 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
     <table>
         <thead>
             <tr>
-                <th style="width: 50%">Analysis track (room BC)</th>
-                <th>Enablement track: outreach & automation (room D)</th>
+                <th style="width: 50%">Analysis track (room D)</th>
+                <th>Enablement track: outreach & automation (room BC)</th>
             </tr>
         </thead>
         <tbody>
