@@ -34,7 +34,7 @@ That's a short sentence, but it is very deliberately worded:
   the whole ecosystem. That includes training, tools, best practice workflows,
   documentation, test cases, translations, infrastructure, and yes, even code.
 
-This is a Collaboration Fest. Not a hackathon, not a codefest, but a *CollaborationFest*.
+This is a Collaboration Fest. Not a hackathon, not a code fest, but a *CollaborationFest*.
 
 
 ## Project ideas
@@ -59,7 +59,7 @@ Feel free to add to this document or join someone else's project by adding your 
     </a>
 </div>
 
-### <i>Note that this is not the exhaustive list of projects for the Cofest!</i>
+### <i>Note that this is not the exhaustive list of projects for the CoFest!</i>
 
 <p class="lead">
     <strong>
@@ -72,7 +72,7 @@ input or support from the Galaxy Working Group leads (UI/UX, Backend, Systems, T
 Workflows, Testing & Hardening, GOATS).
 
 CoFest is all about collaboration and interaction. The best ideas and solutions come from
-open discussions and collective problem-solving. 
+open discussions and collective problem-solving.
 
 
 ## Dates & location

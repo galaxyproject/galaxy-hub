@@ -38,6 +38,10 @@ subsites: [all]
         <strong>View trainings</strong>
     </a>
     ◇
+    <a href="https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf" type="button" class="btn btn-primary">
+        <strong>View abstract book</strong>
+    </a>
+    ◇
     <a href="https://join.slack.com/t/gcc2024/shared_invite/zt-2k5e9ju83-srjhchf7Uh0C2_lE1iITlA" type="button" class="btn btn-primary" target="_blank">
         <strong>Join GCC2024 Slack</strong>
     </a>
