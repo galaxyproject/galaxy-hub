@@ -56,3 +56,7 @@ These servers might not meet all of the requirements but are aiming to one day!
 
 - [UseGalaxy.be](https://usegalaxy.be) - working towards public playbooks, anonymous access.
 - [UseGalaxy.ca](https://usegalaxy.ca) - working towards public playbooks, anonymous access.
+- [UseGalaxy.no](https://usegalaxy.no) - restricted to norwegian.
+- [UseGalaxy.es](https://usegalaxy.es) - working on it.
+- [UseGalaxy.it](https://usegalaxy.it) - working on it.
+- [UseGalaxy.cz](https://usegalaxy.cz) - working on it.
