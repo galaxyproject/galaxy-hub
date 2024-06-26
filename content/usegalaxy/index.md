@@ -45,7 +45,8 @@ We want to see servers meeting several loose requirements to be considered part 
 - *Updated*: These servers commit to updating Galaxy within 90 business days after new releases.
 - *Freely accessible*: these servers may not place restrictions on access or registration, anonymous access must be permitted. Anonymous users may have restrictions placed on them (e.g. 0MB storage, not allowed to run jobs, etc.) but they should be enabled in order to support reviewers and people wanting to browse and see what is available (tools, public workflows, etc.)
 - *Public infrastructure configuration*: we hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
-- *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools, and must provide CVMFS reference data.
+- *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools, and must provide the Galaxy CVMFS reference data.
+- *Share Metrics*: The servers agree to share Key Usage Indicators (KUIs) like number of registered users, active users, total job count, etc. to contribute to the global Galaxy dashboard.
 - *Functional*: the site provides >90% uptime as monitored by the [status page](https://status.galaxyproject.org/), and participates in automated cross-usegalaxy testing initiatives.
 
 We're excited to see new services join us!
