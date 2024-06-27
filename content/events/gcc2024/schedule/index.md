@@ -1174,6 +1174,33 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             </tr>
         </tbody>
     </table>
+        <table>
+        <tbody>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td>
+                    <strong>WF invocation UI feedback</strong> (room B)
+                </td>
+            <tr>
+                <td>
+                    Description:
+                </td>
+                <td>
+                    Galaxy UI has a set of new powerful features such as the WF invocation graph view. We woulds like to invite users to do a quick analysis that will be provided to then and collect their feedback.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Organizer:
+                </td>
+                <td>
+                    ???
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 # Social Programme
