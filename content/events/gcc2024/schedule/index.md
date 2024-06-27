@@ -56,8 +56,8 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
 |                   | 16:30 - 17:30 | [Talks (single track)](#thursday-1630---1715) & conference closing  | BCD      |
 |                   | 17:30 - 19:00 | [BoFs](#thursday-1730---1900)                            | B, C, D, M1         |
 |                   |               |                                                          |                     |
-| Friday, Jun 28    | 9:00 - 17:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
-| Saturday, Jun 29  | 9:00 - 17:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
+| Friday, Jun 28    | 9:00 - 18:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
+| Saturday, Jun 29  | 9:00 - 18:00  | [CoFest](/events/gcc2024/cofest)                         | [OPEN GARDENS](https://www.otevrenazahrada.cz/) |
 |                   |               |                                                          |                     |
 
 # Talks
