@@ -363,6 +363,18 @@ Galaxy African community.
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://africa.usegalaxy.eu)
 </div>
 
+<!-- Galaxy Switzerland -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/switzerland/">
+<div class="card-header bg-wg-applied text-white text-center">Switzerland</div>
+</a>
+
+Galaxy community in Switzerland
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-switzerland@lists.galaxyproject.org)
+
+</div>
+
 <!-- Regional SIGs Card-div end -->
 </div>
 
