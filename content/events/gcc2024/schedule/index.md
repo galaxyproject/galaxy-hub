@@ -1196,7 +1196,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                     Organizer:
                 </td>
                 <td>
-                    ???
+                    Anton Nekrutenko
                 </td>
             </tr>
         </tbody>
