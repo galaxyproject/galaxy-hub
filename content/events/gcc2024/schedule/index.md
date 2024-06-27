@@ -1188,7 +1188,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                     Description:
                 </td>
                 <td>
-                    Galaxy UI has a set of new powerful features such as the WF invocation graph view. We woulds like to invite users to do a quick analysis that will be provided to then and collect their feedback.
+                    Galaxy UI has a set of new powerful features such as the WF invocation graph view. We would like to invite users to do a quick analysis that will be provided to them and collect their feedback.
                 </td>
             </tr>
             <tr>
