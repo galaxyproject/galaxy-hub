@@ -33,6 +33,22 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://metabolomics.usegalaxy.eu/)
 </div>
 
+<!-- Earth -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://earth-system.usegalaxy.eu">
+<a href="https://aqua.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Earth</div>
+</a>
+
+A web platform to get, process, analyze and visualize earth data.
+
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/search2?query=earth-system)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://ecology.usegalaxy.eu/tours/core.galaxy_ui)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance for earth system</i>](https://earth-system.usegalaxy.eu/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance for aquatic sciences</i>](https://aqua.usegalaxy.eu/)
+
+</div>
+
 <!-- Ecology -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ecology.usegalaxy.eu">
