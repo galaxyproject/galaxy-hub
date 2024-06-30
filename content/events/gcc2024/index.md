@@ -26,22 +26,24 @@ subsites: [all]
 ### June 24-29, 2024
 ### [Brno, Czech Republic](https://maps.app.goo.gl/QDx3SRk8YoZEbQv68)
 
-#### [#UseGalaxy2024](https://twitter.com/hashtag/UseGalaxy2024)
-
   <div class="text-center my-5">
     <div class="lead" style="padding-bottom: 1rem">
       The flagship Galaxy event of the year is upon us! Join the Galaxy world-wide community to share and learn about data science.
     </div>
-    <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
-        <strong>Sign up for announcements</strong>
+    <a href="/events/gcc2024/schedule/" type="button" class="btn btn-primary">
+        <strong>View schedule</strong>
     </a>
     ◇
-    <a href="/events/gcc2024/abstracts/" type="button" class="btn btn-primary">
-        <strong>Submit an abstract</strong>
+    <a href="/events/gcc2024/training/" type="button" class="btn btn-primary">
+        <strong>View trainings</strong>
     </a>
     ◇
-    <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
-        <strong>Register</strong>
+    <a href="https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf" type="button" class="btn btn-primary">
+        <strong>View abstract book</strong>
+    </a>
+    ◇
+    <a href="https://join.slack.com/t/gcc2024/shared_invite/zt-2k5e9ju83-srjhchf7Uh0C2_lE1iITlA" type="button" class="btn btn-primary" target="_blank">
+        <strong>Join GCC2024 Slack</strong>
     </a>
   </div>
 </div>
@@ -50,47 +52,38 @@ subsites: [all]
 
 <div class="card-deck lead">
 
-  <!-- About GCC -->
-  <div class="card" style="min-width: 30%; max-width: 40rem;">
-    <img src="/images/events/gcc2024/gcc2023-generic.png" class="card-img-top" alt="GCC2022 group photo" />
-    <div class="card-header">About GCC conference series</div>
-
-The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
-the use and development of the [Galaxy platform](https://galaxyproject.org/) for
-data-intensive biomedical research. **The conference brings together scientists,
-software developers, and trainers of Galaxy from a variety of disciplines to share their
-experiences, knowledge, and skills.**
-
-The conference included talks, posters, and workshops on a wide range of topics
-related to Galaxy, including genomics, proteomics, transcriptomics, and more.
-The GCC provides an opportunity for attendees to learn about the latest
-developments in the Galaxy platform and to connect with other members of the
-Galaxy community.
-
-  </div>
-
-
   <!-- Call for participation -->
   <div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="Call for participation" />
-    <div class="card-header">Call for participation</div>
+    <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="World-class content" />
+    <div class="card-header">World-class content</div>
 
-**GCC topics of interest include** methods, tools, pipelines, trainings, or
-software that push the field of data science with Galaxy forward.
+**GCC2024 will have more than 50 talks and more than 50 posters** presenting
+methods, tools, pipelines, and software improvements for the Galaxy framework.
 
-Check out the **[abstracts page](/events/gcc2024/abstracts/)** for details on how to
-contribute to the program.
+Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
+The abstract book with all the details is coming soon!
 
-[Registration](/events/gcc2024/register/) is open.
-
-The **[Key Dates page](/events/gcc2024/key-dates/)** has a list of deadlines to keep
-in mind. These tend to sneak up on you!
+If you haven't registered yet, you can still register on site.
 
   </div>
 
+<!-- Keynotes -->
+  <div class="card" style="min-width: 30%; max-width: 30rem;">
+    <img src="/images/events/gcc2024/gcc2024-keynotes.png" class="card-img-top" alt="Keynotes at GCC2024" />
+    <div class="card-header">Keynote speakers</div>
+
+Three inspiring [keynote speakers](/events/gcc2024/keynotes/):
+
+Monday: **Integrating exposomics into biomedical sciences** by Jana Klánová
+
+Wednesday: **Building the EOSC federation and the potential role of Galaxy** by Ute Gunsenheimer
+
+Thursday: **Zebrafish swims into the Galaxy** by Daria Onichtchouk
+
+  </div>
 
 <!-- Fellowships -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <!-- <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2024/fellowships.png" class="card-img-top" alt="Fellowships" />
     <div class="card-header">Fellowships are available</div>
 
@@ -104,7 +97,7 @@ conference.
 application form are available on the [JXTX
 website](https://jxtxfoundation.org/news/2024-2-19-gcc/).
 
-  </div>
+  </div> -->
 
 
   <!-- Training -->
@@ -131,22 +124,6 @@ meeting people that can help you later.
 
   </div>
 
-
-<!-- Keynotes -->
-  <!--<div class="card" style="min-width: 30%; max-width: 30rem;">
-    <img src="/images/events/gcc2023/keynotes-images.png" class="card-img-top" alt="Keynotes abstract" />
-    <div class="card-header">Keynote speakers</div>
-
-**Three inspiring and prominent keynote speakers** presented work on how they
-actively use and rely on Galaxy to make key research discoveries.
-
-The covered topics focused on biodiversity and structural biology.
-
-Check out their full biographies on the [program
-page](/events/gcc2023/schedule/#keynote-speakers).
-
-  </div> -->
-
 <!-- Fellowships
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <img src="/images/events/gcc2023/fellowships.png" class="card-img-top" alt="Student fellowships" />
@@ -162,6 +139,26 @@ page](/events/gcc2023/fellowships/) for details and application deadlines.
 Brought to you by an anonymous donor.
   </div>
 -->
+
+  <!-- About GCC -->
+  <div class="card" style="min-width: 30%; max-width: 40rem;">
+    <img src="/images/events/gcc2024/gcc2023-generic.png" class="card-img-top" alt="GCC2022 group photo" />
+    <div class="card-header">About GCC conference series</div>
+
+The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
+the use and development of the [Galaxy platform](https://galaxyproject.org/) for
+data-intensive biomedical research. **The conference brings together scientists,
+software developers, and trainers of Galaxy from a variety of disciplines to share their
+experiences, knowledge, and skills.**
+
+The conference included talks, posters, and workshops on a wide range of topics
+related to Galaxy, including genomics, proteomics, transcriptomics, and more.
+The GCC provides an opportunity for attendees to learn about the latest
+developments in the Galaxy platform and to connect with other members of the
+Galaxy community.
+
+  </div>
+
   <!-- Destination -->
   <div class="card" style="min-width: 30%; max-width: 32.2%;">
     <img src="/images/events/gcc2024/brno.png" class="card-img-top" alt="Brno, Czech Republic" />
@@ -192,35 +189,13 @@ attendees.
 Brno can be accessed via bus or train from Vienna (~2.5hr) or Prague (~2.5hr).
 Grab a comfy seat and enjoy the scenery.
 
-Discounted rooms are available for conference participants in the venue ([Hotel International](https://www.hotelinternational.cz/en/)) as well as in other hotels in Brno.
-Instructions for Hotel bookings are sent in the confirmation email after registering for the conference.
-To get most up-to-date travel news
-<a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email">
-sign up for the GCC2024 Announce mailing list</a>.
+GCC2024 will be held in [Hotel
+International](https://www.hotelinternational.cz/en/), located at [Husova 16,
+602 00 Brno-střed](https://maps.app.goo.gl/HZRSoA5r5CwJdN5U9).
 
 The **[travel page](/events/gcc2024/travel/) has more details.**
 
   </div>
 
 
-</div>
-
-
-# Join the GCC2024 Announce mailing list
-
-Want to stay in the loop about the conference? Sign up for the announcement
-mailing list and you'll be the first to know. And don't worry - no spamming here
-and no excessive emails.
-<div class="text-center my-5">
-  <form method="post" action="https://gaggle.email/join/gcc2024-announce@gaggle.email">
-      <div>
-          <input name="name" type="text" placeholder="Your name" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <input name="email" type="email" placeholder="Email address" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <button class="btn btn-primary">Join GCC2024 Announce mailing list</button>
-      </div>
-  </form>
 </div>

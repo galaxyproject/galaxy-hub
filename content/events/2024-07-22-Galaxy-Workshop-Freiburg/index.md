@@ -58,7 +58,7 @@ If you have further questions, please contact Anika Erxleben-Eggenhofer ([erxleb
 
 # Supporters
 
-This event is generously supported by [DataPLANT](https://www.nfdi4plants.de/) and [EuroScienceGateway](https://galaxyproject.org/projects/esg/).
+This event is generously supported by [DataPLANT](https://www.nfdi4plants.de/), [EuroScienceGateway](https://galaxyproject.org/projects/esg/) and [de.NBI](https://www.denbi.de/).
 
 <div style="max-width: 250px">
 
@@ -68,5 +68,10 @@ This event is generously supported by [DataPLANT](https://www.nfdi4plants.de/) a
 <div style="max-width: 500px">
 
 ![logo ESG](/images/logos/Eurosciencegateway_logo.png)
+
+</div>
+<div style="max-width: 500px">
+
+![logo ESG](/images/logos/deNBILogo.png)
 
 </div>

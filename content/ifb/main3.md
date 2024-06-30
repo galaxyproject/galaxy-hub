@@ -48,7 +48,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
         <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/metabarcoding.png" alt="Metabarcoding" height="100">
         <br><br><br>
-          <a href="https://metbarcoding.usegalaxy.fr/" class="btn btn-primary">Metabarcoding</a>
+          <a href="https://metabarcoding.usegalaxy.fr/" class="btn btn-primary">Metabarcoding</a>
       </div>
     </div>
   </div>

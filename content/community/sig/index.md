@@ -33,6 +33,22 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://metabolomics.usegalaxy.eu/)
 </div>
 
+<!-- Earth -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://earth-system.usegalaxy.eu">
+<a href="https://aqua.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Earth</div>
+</a>
+
+A web platform to get, process, analyze and visualize earth data.
+
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/search2?query=earth-system)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://ecology.usegalaxy.eu/tours/core.galaxy_ui)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance for earth system</i>](https://earth-system.usegalaxy.eu/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance for aquatic sciences</i>](https://aqua.usegalaxy.eu/)
+
+</div>
+
 <!-- Ecology -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ecology.usegalaxy.eu">
@@ -166,13 +182,13 @@ A Galaxy workbench with tools and workflows for materials science, including muo
 
 </div>
 
-<!-- Single cell -->
+<!-- Single cell & sPatial Omics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
-<div class="card-header bg-wg-applied text-white text-center">Single cell</div>
+<div class="card-header bg-wg-applied text-white text-center">Single cell & sPatial Omics</div>
 </a>
 
-Group of single cell tool developers, trainers and users to help connect outreach, user needs, and computationalists.
+The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.
 
 * [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im)
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/)

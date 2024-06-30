@@ -5,7 +5,7 @@ autotoc: true
 <slot name="/events/gcc2024/header" />
 <div class="text-center">
 
-# Mass-Spec Imaging and Proteomics
+# Mass Spectrometry and Metaproteomics
 
 </div>
 
@@ -15,5 +15,13 @@ Clinical metaproteomics has the potential to offer insights into the host-microb
 
 ### Pratik Jagtap
 
-University of Minnesota
+University of Minnesota <br>
 Part of Galaxy-P Team, working in the area of metaproteomics and proteogenomics
+
+### Tim Griffin
+
+University of Minnesota
+
+### Reid Wagner
+
+University of Minnesota
