@@ -16,6 +16,8 @@ Please read more about the [GCB and SIGs](/community/governance/gcb/) and on [ho
 
 ## Communities of Practice
 
+### Scientific Field
+
 <div class="card-deck">
 
 <!-- Climate -->
@@ -87,19 +89,6 @@ Galaxy as a platform for the annotation of genomes.
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://galaxy-genome-annotation.github.io)
 </div>
 
-<!-- Machine Learning -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="https://ml.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center">Machine Learning</div>
-</a>
-
-A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.
-
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/statistics/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ml.usegalaxy.eu)
-
-</div>
-
 <!-- Materials Science -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://materials.usegalaxy.eu">
@@ -111,20 +100,6 @@ A Galaxy workbench with tools and workflows for materials science, including muo
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://materials.usegalaxy.eu)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_materials-science:matrix.org)
 
-</div>
-
-
-<!-- Metabolomics -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="https://metabolomics.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center">Metabolomics</div>
-</a>
-
-Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/)
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/metabolomics/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://metabolomics.usegalaxy.eu/)
 </div>
 
 <!-- MicroGalaxy -->
@@ -139,6 +114,54 @@ Anything regarding microbial data analysis in Galaxy, with meetings, working gro
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://microgalaxy.usegalaxy.eu)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im)
 
+</div>
+
+<!-- Public Health -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="">
+<div class="card-header bg-wg-applied text-white text-center">Public Health</div>
+</a>
+
+Announcements and discussion in the Galaxy Public Health Community.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_Public-Health:gitter.im)
+
+</div>
+
+<!-- CoP FIELD SIGs Card-div end -->
+</div>
+
+---
+
+### Methodologies
+
+<div class="card-deck">
+
+<!-- Machine Learning -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://ml.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Machine Learning</div>
+</a>
+
+A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.
+
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/statistics/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ml.usegalaxy.eu)
+
+</div>
+
+<!-- Metabolomics -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://metabolomics.usegalaxy.eu">
+<div class="card-header bg-wg-applied text-white text-center">Metabolomics</div>
+</a>
+
+Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/)
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/metabolomics/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://metabolomics.usegalaxy.eu/)
 </div>
 
 <!-- Natural Language Processing -->
@@ -166,19 +189,6 @@ Galaxy-based platform for the functional analysis and the interpretation of prot
 
 </div>
 
-<!-- Public Health -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="">
-<div class="card-header bg-wg-applied text-white text-center">Public Health</div>
-</a>
-
-Announcements and discussion in the Galaxy Public Health Community.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_Public-Health:gitter.im)
-
-</div>
-
 <!-- Single cell & sPatial Omics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
@@ -193,6 +203,12 @@ The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developer
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu)
 </div>
 
+<!-- CoP Methodologies SIGs Card-div end -->
+</div>
+
+### Service
+<div class="card-deck">
+
 <!-- Small Scale Admins -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/small-scale-admins/">
@@ -206,7 +222,7 @@ Admins of small scale Galaxy servers.
 
 </div>
 
-<!-- CoP SIGs Card-div end -->
+<!-- CoP Service SIGs Card-div end -->
 </div>
 
 ---
@@ -352,6 +368,7 @@ Galaxy in the United Kingdom.
 </div>
 
 <!-- Galaxy Español -->
+<!-- Does it still exist?
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-wg-applied text-white text-center">Galaxy Español</div>
