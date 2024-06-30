@@ -1,5 +1,7 @@
 # Galaxy Community Board (GCB)
 
+<slot name="/community/governance/linkbox" />
+
 **Keywords:** Special Interest Groups, Community of Practices
 
 HELP: IFRAME EMBED: /Users/wb2845/Documents/GitHub/training-material/topics/community/faqs/governance_gcb.md
