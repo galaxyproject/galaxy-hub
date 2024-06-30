@@ -21,7 +21,7 @@ to participate in planning and governance, through efficient and transparent str
 
 ## Practicalities
 
-The **GCB** organises and manages its own agenda and work, including arranging meetings and asynchronous discussions. The meetings must allow for participations across different timezones. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap
+The **GCB** organises and manages its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap
 processes and other important project decision-making.
 
 Efficient communication between the GCB (Community Board) and both the GEB (Executive Board) and the GTB (Technical Board) requires at least one representative
