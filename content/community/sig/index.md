@@ -233,6 +233,18 @@ Admins of small scale Galaxy servers.
 
 <div class="card-deck">
 
+<!-- Galaxy Africa -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="">
+<div class="card-header bg-wg-applied text-white text-center">Africa</div>
+</a>
+
+Galaxy African community.
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-africa@lists.galaxyproject.org)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://africa.usegalaxy.eu)
+</div>
+
 <!-- Arabic -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/arabic/">
@@ -380,18 +392,6 @@ Galaxy in Spanish.
 
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org)
 
-</div>
-
-<!-- Galaxy Africa -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="">
-<div class="card-header bg-wg-applied text-white text-center">Africa</div>
-</a>
-
-Galaxy African community.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-africa@lists.galaxyproject.org)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://africa.usegalaxy.eu)
 </div>
 
 <!-- Regional SIGs Card-div end -->
