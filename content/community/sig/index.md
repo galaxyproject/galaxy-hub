@@ -7,9 +7,6 @@ autotoc: false
 
 Active Galaxy communities are encouraged to participate in (or form) their own SIG, with a focus on specific shared interests. You can learn more in our dedicated tutorial: [What's a SIG?](HELP: Add new tutorial here)
 
-Each SIG may elect one member to represent their interests on the [Galaxy Community Board](/community/governance/gcb/).
-This is analogous to the [Galaxy Technical Board](/community/governance/gtb/), consisting of representatives of the [Working Groups](/community/wg/) (WG).
-
 In the following you will find a list of current active Special Interest Groups. If you can't find yourself in this list we always welcome new SIGs.
 Please read more about the [GCB and SIGs](/community/governance/gcb/) and on [how to set up your own](HELP: Add new tutorial here).
 
