@@ -249,13 +249,13 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/blog/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/blog/)
+[<img class="float-right" src="/news/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/news/)
 
 # New Galactic Blog Post: Enabling Cloud Bursting for Galaxy
 
-For the second month in a row we have a new *[Galactic Blog](/blog/)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
+For the second month in a row we have a new *[Galactic Blog](/news/)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
 
-* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/blog/2019-05-gcr/)
+* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/news/2019-05-gcr/)
 
 ----
 

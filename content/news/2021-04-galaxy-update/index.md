@@ -450,7 +450,7 @@ By [Nolan Woods](https://www.linkedin.com/in/nolan-woods)
 
 Tips for collections, mapping, AWK, flow control, writing tool wrappers, and more.
 
-![Flow Control: Conditional](/blog/2021-03-tips-and-tricks/conditional-flow-control.png)
+![Flow Control: Conditional](/news/2021-03-tips-and-tricks/conditional-flow-control.png)
 
 </div>
 
@@ -621,7 +621,7 @@ The Galaxy Training Network now has a [Frequently Asked Questions (FAQ) page](ht
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

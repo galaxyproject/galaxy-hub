@@ -429,7 +429,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-One new [Community Log Board](/blog/) entry was added in April:
+One new [Community Log Board](/news/) entry was added in April:
 
 * [Using GALAXY_SLOTS with multithreaded Galaxy tools ](http://galacticengineer.blogspot.co.uk/2015/04/using-galaxyslots-for-multithreaded_22.html)
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
