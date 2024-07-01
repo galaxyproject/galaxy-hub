@@ -18,8 +18,8 @@ main_subsite: eu
 
 The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024. 151 participants from 28 different countries, 54 talks, 55 posters/demos, 14 Birds of a Feather, 80 CoFest participants.
 
-![GCC2024 Logo](gcc2024-logo.png)
-![Group Picture](groupphoto.jpg)
+![GCC2024 Logo](gcc2024logo.png)
+![Group Picture](gcc2024groupphoto.png)
 
 
 ## Keynotes
