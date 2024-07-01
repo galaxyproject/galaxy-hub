@@ -32,7 +32,7 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 
 ### Analysis Track
 
-###Enablement Track
+### Enablement Track
 
 ## Poster Sessions
 
@@ -42,13 +42,16 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 
 ## Birds of a Feather (BoF)
 
-## Conference Dinner
-
-## Conference Nights Activities
-
-## City Tours
-
 ## CoFest
+
+## Social Events
+
+### Conference Dinner and Mendel Museum
+
+### City Tours
+
+### Conference Nights Activities
+
 
 ## Thank you: Scientific Committee Members
 
@@ -89,5 +92,12 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 * [KWS](https://www.kws.com/corp/en/)
 * [Limagrain](https://www.limagrain.com/en)
 * [deNBI](https://www.denbi.de/)
+
+## Thanks to the hosts
+
+* The City of Brno
+* MUNI
+* Elixir Czech Republic
+
 
 
