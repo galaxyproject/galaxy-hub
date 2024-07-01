@@ -1,7 +1,7 @@
 ---
-title: Galaxy Community Conference - a brief summary!
+title: Galaxy Community Conference 2024 - a brief summary!
 date: '2024-07-01'
-tease: A brief summary
+tease: A brief summary for GCC 2024
 tags: [CoFest, training, GCC, Elixir, EOSC, 2024, Brno]
 supporters:
 - JXTX Foundation
@@ -16,10 +16,10 @@ main_subsite: eu
 ---
 
 
-The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024. 151 participants from 28 different countries, 54 talks, 55 posters/demos, 14 Birds of a Feather, 80 CoFest participants.
+The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024. 151 participants from 28 different countries, 54 talks, 55 posters/demos, 14 Birds of a Feather and 80 CoFest participants.
 
 ![GCC2024 Logo](gcc2024logo.png)
-![Group Picture](gcc2024groupphoto.png)
+![GCC2024 Group Picture](gcc2024groupphoto.png)
 
 
 ## Keynotes
@@ -48,10 +48,14 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 
 ### Conference Dinner and Mendel Museum
 
-### City Tours
+### City Tours and Villa Tugendhat
 
 ### Conference Nights Activities
 
+Rock climbing hall, Billiards, Bars
+
+![GCC2024 Billiards](gcc2024billiards.jpg)
+![GCC2024 Beer Nights](gcc2024beer.jpg)
 
 ## Thank you: Scientific Committee Members
 
@@ -93,7 +97,7 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 * [Limagrain](https://www.limagrain.com/en)
 * [deNBI](https://www.denbi.de/)
 
-## Thanks to the hosts
+## Thanks to the GCC 2024 hosts
 
 * The City of Brno
 * MUNI
