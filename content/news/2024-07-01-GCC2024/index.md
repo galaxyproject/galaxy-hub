@@ -69,9 +69,12 @@ During the city tour, we explored the main sights of Brno's city center with gui
 
 ### Conference Nights Activities
 
-Rock climbing hall, Billiards, Bars
+Beyond the enriching presentations and discussions, conference nights were filled with fun and camaraderie. Groups of attendees ventured out to the Bouldering Rock Climbing Hall, testing their climbing skills and bonding over shared challenges. Others enjoyed friendly competitions at local billiards halls.
 
 ![GCC2024 Billiards](gcc2024billiards.jpg)
+
+Dinner outings were a highlight, with groups exploring Brno’s culinary scene, sampling delicious Mexican and Indian cuisine. The evenings often concluded with open-air talks, where participants relaxed and enjoyed local beers and [Kofola](https://en.wikipedia.org/wiki/Kofola) at various pubs and bars, further strengthening connections and creating memorable experiences.
+
 ![GCC2024 Beer Nights](gcc2024beer.jpg)
 
 ## Thank you: Scientific Committee Members
