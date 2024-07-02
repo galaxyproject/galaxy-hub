@@ -8,7 +8,7 @@ title: "Galaxy Mass Spectrometry (MS) - Proteomics and Metabolomics Community"
 
 <img class="img-fluid float-right" src="/community/sig/mass-spectrometry/GalaxyP_logo.png" style="width:200px;" alt="Logo for Galaxy mass spectrometry community."/>
 
-# Welcome to the Galaxy Mass Spectrometry Community!
+## Welcome to the Galaxy Mass Spectrometry Community!
 
 **An Open and Collaborative Community**
 
@@ -47,7 +47,7 @@ We invite you to become a part of our community! Whether you are a seasoned rese
 
 Follow us on [Twitter](https://x.com/usegalaxyp)
 
-# I would like to... 
+## I would like to... 
 
 ## ... analyze my MS data!
 
@@ -77,15 +77,24 @@ To start with the new tools development, check out the [development training mat
 If you would like to create new training materials or hold a training at your institute - we obviously have a [training](https://training.galaxyproject.org/training-material/topics/contributing/) for that!
 
 
-# Important links
+## Important links
 
- - <i class="fa fa-book" aria-hidden="true"></i>&nbsp; &nbsp; [Proteomics training material](https://training.galaxyproject.org/training-material/topics/proteomics/)
-  - <i class="fa fa-book" aria-hidden="true"></i>&nbsp; &nbsp; [Metabolomics training material](https://training.galaxyproject.org/training-material/topics/metabolomics/)
- - <i class="fa fa-tv" aria-hidden="true"></i>&nbsp;&nbsp;   [Proteomics Galaxy instance](https://proteomics.usegalaxy.eu/)
- - <i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp; &nbsp;  [Metabolomics help forum](https://help.galaxyproject.org/tag/metabolomics)
- - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp; &nbsp; [Mass spectrometry user community chat room](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org)
+ - <i class="fa fa-book" aria-hidden="true"></i>&nbsp; &nbsp;[Proteomics training material](https://training.galaxyproject.org/training-material/topics/proteomics/)
+ - <i class="fa fa-book" aria-hidden="true"></i>&nbsp; &nbsp;[Metabolomics training material](https://training.galaxyproject.org/training-material/topics/metabolomics/)
+ - <i class="fa fa-tv" aria-hidden="true"></i>&nbsp;&nbsp; [Proteomics Galaxy instance](https://proteomics.usegalaxy.eu/)
+ - <i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp; &nbsp;[Metabolomics help forum](https://help.galaxyproject.org/tag/metabolomics)
+ - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp; &nbsp;[Mass spectrometry user community chat room](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org)
  - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe!
  - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
+
+## Recent publications
+
+- Metaproteomics for Coinfections in the Upper Respiratory Tract: The Case of COVID-19. Bihani S et al. (2024) doi: 10.1007/978-1-0716-3910-8_15. [link](https://pubmed.ncbi.nlm.nih.gov/38941023/)
+- An integrated metaproteomics workflow for studying host-microbe dynamics in bronchoalveolar lavage samples applied to cystic fibrosis disease. Kruk et al. (2024) doi: 10.1128/msystems.00929-23. [link](https://pubmed.ncbi.nlm.nih.gov/38934598/)
+- A novel clinical metaproteomics workflow enables bioinformatic analysis of host-microbe dynamics in disease. Do et al. (2024) doi: 10.1128/msphere.00793-23. [link](https://pubmed.ncbi.nlm.nih.gov/38780289/)
+- The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update. Galaxy Community (2024). doi: 10.1093/nar/gkae410. [link](https://pubmed.ncbi.nlm.nih.gov/38769056/)
+- The Association of Biomolecular Resource Facilities Proteome Informatics Research Group Study on Metaproteomics (iPRG-2020) Jagtap et al. (2023) doi: 10.7171/3fc1f5fe.a058bad4. [link](https://pubmed.ncbi.nlm.nih.gov/37969874/)
+- A Galaxy of informatics resources for MS-based proteomics. Mehta et al. (2023). doi: 10.1080/14789450.2023.2265062. [link](https://pubmed.ncbi.nlm.nih.gov/37787106/)
 
 ## Key words
 
