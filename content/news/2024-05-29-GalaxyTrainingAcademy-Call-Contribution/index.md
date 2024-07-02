@@ -15,7 +15,7 @@ We are happy to announce the Galaxy Training Academy 2024, a global online train
 
 **Dates**: October 07-11, 2024
 **Location**: Global online
-**Registration deadline**: July the 12th
+**Registration deadline**: July the 26th
 
 ## The event
 
