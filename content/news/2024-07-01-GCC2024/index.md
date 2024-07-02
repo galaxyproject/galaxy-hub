@@ -50,6 +50,12 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 
 ### City Tours and Villa Tugendhat
 
+On Wednesday, we had a delightful day exploring on the Villa Tugendhat and the city of Brno. Two groups visited the Villa Tugendhat, while four groups toured the city.
+
+One Villa tour group took the tram, and another group enjoyed a walk despite the warm weather. The Villa Tugendhat visit was particularly special due to its remarkable modernity for its time. Designed by German architect Ludwig Mies van der Rohe, the villa was built in just two years by the wealthy and influential Jewish Czech Tugendhat family. It is recognized as a UNESCO World Heritage Site.
+
+During the city tour, we explored the main sights of Brno's city center with guided tours organized by the Brno Tourist Information Centre. We visited the Old Town Hall, St. Peter's Cathedral, as well as the Freedom and Market Squares. The experience was enjoyable and provided a rich insight into Brno's history and culture.
+
 ### Conference Nights Activities
 
 Rock climbing hall, Billiards, Bars
