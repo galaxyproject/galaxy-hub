@@ -1,5 +1,5 @@
 ---
-title: Galaxy Community Conference 2024 - a brief summary!
+title: Galaxy Community Conference 2024 - a brief summary from the Freiburg Galaxy Team!
 date: '2024-07-01'
 tease: A brief summary for GCC 2024
 tags: [CoFest, training, GCC, Elixir, EOSC, 2024, Brno]
@@ -26,11 +26,7 @@ The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/event
 
 The conference featured notable keynote speakers, including Jana Klánová from Masaryk University, who discussed the integration of exposomics into biomedical sciences. She highlighted the importance of studying environmental exposures and their effects on health, introduced RECETOX, and discussed European initiatives like PARC and EIRENE that support exposome research. Ute Gunsenheimer, Secretary General of the EOSC Association, spoke on building the EOSC Federation and the potential role of Galaxy. Dr. Daria Onichtchouk from the University of Freiburg shared her extensive use of the Galaxy platform in her research on the genetic control of pluripotency, focusing on the maternal to zygotic transition in zebrafish and its underlying mechanisms, including chromatin accessibility and nucleosome affinity.
 
-## Talks Sessions
-
-### Single Track
-
-### Analysis Track
+## Freiburg Galaxy Team Talks in GCC 2024 Talks Sessions
 
 In the conference, parallel tracks focused on various aspects of analysis and leveraging the usage of Galaxy. The analysis track featured a diverse array of talks showcasing the practical applications of Galaxy in computational biology.
 
@@ -41,7 +37,9 @@ The Freiburg Galaxy team contributed with the following talks in this track:
 * [Navigating the variant landscape: integrating MAVE data analysis into Galaxy](https://docs.google.com/presentation/d/1LGqDHCVEmsYeWxTmLL2Hn4uPiH4PL0rWedBRO_fJdzY/edit#slide=id.p) by Polina Polunina
 * [Viral pathogen data analysis with Galaxy](https://docs.google.com/presentation/d/15Df3YZVsDa4PwkBQtP4EMGHyzsovufzmpbgT6YSLgzU/edit) by Wolfgang Maier
 * [PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison](https://docs.google.com/presentation/d/1jNz6uUMV2fnBdG1bfs-S2JAYo5Wqblyk1fR6lRQHWUY/edit) by Engy Nasr
-### Enablement Track
+
+
+
 
 ## Poster Sessions
 
