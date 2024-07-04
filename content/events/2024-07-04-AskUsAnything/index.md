@@ -1,8 +1,8 @@
 ---
-title: Ask Us Anything about Galaxy webinar
+title: Ask Us Anything about Galaxy live webinar
 date: '2024-07-19'
 days: 1
-tease: "Th European Galaxy Team offers a Q&A session for all users"
+tease: "The European Galaxy Team offers a Q&A session for all users"
 continent: EU
 location:
   name: "online"
@@ -16,7 +16,7 @@ subsites: [all]
 ---
 
 ## General information
-This Q&A session gives you the opportunity to meet the European Galaxy Team and ask whatever you want to know about Galaxy. There will be different experts for the Galaxy infrastructure, developers, admins, data analyists, and trainers online to answer your questions.
+This live Q&A session gives you the opportunity to meet the European Galaxy Team and ask whatever you want to know about Galaxy. There will be different experts, e.g. for the Galaxy infrastructure, developers, admins, data analyists, and trainers online to answer your questions.
 
 **You can ask about:**
 
