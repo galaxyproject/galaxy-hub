@@ -10,6 +10,8 @@ contact: "Anika Erxleben-Eggenhofer"
 tags: [webinar]
 supporters:
 - eurosciencegateway
+- de.NBI
+- de.KCD
 subsites: [all]
 ---
 
