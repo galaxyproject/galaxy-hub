@@ -32,6 +32,15 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 
 ### Analysis Track
 
+In the conference, parallel tracks focused on various aspects of analysis and leveraging the usage of Galaxy. The analysis track featured a diverse array of talks showcasing the practical applications of Galaxy in computational biology.
+
+The Freiburg Galaxy team contributed with the following talks in this track:
+
+
+* [MAdLand computational resources through Galaxy](https://docs.google.com/presentation/d/1KF6ctfqGpPoNpUF7Fin9ex-vPmICGew6B2gHBf0YfXI/edit#slide=id.g2e386364440_0_195) by Deepti Varshney
+* [Navigating the variant landscape: integrating MAVE data analysis into Galaxy](https://docs.google.com/presentation/d/1LGqDHCVEmsYeWxTmLL2Hn4uPiH4PL0rWedBRO_fJdzY/edit#slide=id.p) by Polina Polunina
+* [Viral pathogen data analysis with Galaxy](https://docs.google.com/presentation/d/15Df3YZVsDa4PwkBQtP4EMGHyzsovufzmpbgT6YSLgzU/edit) by Wolfgang Maier
+* [PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison](https://docs.google.com/presentation/d/1jNz6uUMV2fnBdG1bfs-S2JAYo5Wqblyk1fR6lRQHWUY/edit) by Engy Nasr
 ### Enablement Track
 
 ## Poster Sessions
@@ -58,6 +67,8 @@ The Freiburg Galaxy team contributed by providing training for:
 ## Social Events
 
 ### Conference Dinner and Mendel Museum
+
+The conference dinner at the [Augustinian Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno) at Mendel's square was really special. We had the opportunity to dine where Gregor Mendel conducted his famous experiments. Along with a delicious meal, we enjoyed free access to the Mendel Museum. The guided tours of the abbey, including Mendel's room and the library, were fascinating and provided us with insights into the history of genetics and Mendel's groundbreaking work.
 
 ### City Tours and Villa Tugendhat
 
