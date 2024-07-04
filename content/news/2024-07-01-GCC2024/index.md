@@ -1,7 +1,7 @@
 ---
 title: Galaxy Community Conference 2024 - a brief summary from the Freiburg Galaxy Team!
 date: '2024-07-01'
-tease: A brief summary for GCC 2024
+tease: A brief summary from the Freiburg Galaxy Team for GCC 2024
 tags: [CoFest, training, GCC, Elixir, EOSC, 2024, Brno]
 supporters:
 - JXTX Foundation
@@ -28,17 +28,15 @@ The conference featured notable keynote speakers, including Jana Klánová from 
 
 ## Freiburg Galaxy Team Talks in GCC 2024 Talks Sessions
 
-In the conference, parallel tracks focused on various aspects of analysis and leveraging the usage of Galaxy. The analysis track featured a diverse array of talks showcasing the practical applications of Galaxy in computational biology.
+Members of the Freiburg Galaxy team delivered a series of talks at the GCC conference, focusing on various aspects of data analysis and the utilization of Galaxy. Topics included integrating tools, strategies for effectively navigating complex data landscapes, innovative workflow management and optimization approaches, and a pioneering GitHub workflow aimed at automating social media outreach to enhance community engagement. 
 
-The Freiburg Galaxy team contributed with the following talks in this track:
-
-
+* [A Galaxy Workflow Developer's Companion in your Browser](https://docs.google.com/presentation/d/1tXtgGSrUHTsX7adxTr9AzCmdOf2zWn74S_LN3n5HM7U/edit) by David López
+* [Enhanced Workflow Management in Galaxy](https://docs.google.com/presentation/d/1vyr7Qa7O2pJ2FZDVFQNlrQypXwhodhzUMTsusD9h6_0/edit#slide=id.g231410debac_0_0) by Alireza Heidari 
 * [MAdLand computational resources through Galaxy](https://docs.google.com/presentation/d/1KF6ctfqGpPoNpUF7Fin9ex-vPmICGew6B2gHBf0YfXI/edit#slide=id.g2e386364440_0_195) by Deepti Varshney
 * [Navigating the variant landscape: integrating MAVE data analysis into Galaxy](https://docs.google.com/presentation/d/1LGqDHCVEmsYeWxTmLL2Hn4uPiH4PL0rWedBRO_fJdzY/edit#slide=id.p) by Polina Polunina
 * [Viral pathogen data analysis with Galaxy](https://docs.google.com/presentation/d/15Df3YZVsDa4PwkBQtP4EMGHyzsovufzmpbgT6YSLgzU/edit) by Wolfgang Maier
 * [PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison](https://docs.google.com/presentation/d/1jNz6uUMV2fnBdG1bfs-S2JAYo5Wqblyk1fR6lRQHWUY/edit) by Engy Nasr
-
-
+* [Automating Social Media Outreach: A GitHub Workflow for Galaxy Community](https://docs.google.com/presentation/d/11wchlYBzEFcMSn4NEJ0I0h7WM3rGNU5LUm-bL2FuH4c/edit#slide=id.p) by Arash Kadkhodaei
 
 
 ## Poster Sessions
