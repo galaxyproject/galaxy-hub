@@ -3,7 +3,7 @@ title: "EOSC Coordination Meeting, Brussels, Belgium"
 tease: "The Horizont Europe EOSC project EuroScienceGateway attended the EOSC coordination meeting"
 author: "Anika Erxleben-Eggenhofer & Björn Grüning"
 date: "2024-06-20"
-subsites: [EU]
+subsites: [eu]
 ---
 
 # EOSC Coordination Meeting, Brussels: June 20-21, 2024
