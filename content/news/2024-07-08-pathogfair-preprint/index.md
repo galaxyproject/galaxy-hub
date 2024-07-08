@@ -45,13 +45,13 @@ To assist users in understanding and using the workflows, we have provided exten
 
 This tutorial has been used as training support in multiple workshops and conferences' training sessions:
 
-1. A [1-day workshop early 2023](/content/events/2023-02-02-foodborne-pathogen-detection-workshop/) in FHNW in Muttenz, Switzerland that received [highly positive feedback](/content/news/2023-03-21-foodborne-training/)
-2. A 1-day session in several **High-Throughput Data Analysis with Galaxy** workshops delivered in Freiburg with the next iteration will be on [July 26th 2024](/content/events/2024-07-22-galaxy-workshop-freiburg/).
-3. A 2-hour workshop during the Galaxy Community Conference [GCC 2024](/content/events/gcc2024/training/microbiome-analysis).
+1. A [1-day workshop early 2023](/events/2023-02-02-foodborne-pathogen-detection-workshop/) in FHNW in Muttenz, Switzerland that received [highly positive feedback](/news/2023-03-21-foodborne-training/)
+2. A 1-day session in several **High-Throughput Data Analysis with Galaxy** workshops delivered in Freiburg with the next iteration will be on [July 26th 2024](/events/2024-07-22-galaxy-workshop-freiburg/).
+3. A 2-hour workshop during the Galaxy Community Conference [GCC 2024](/events/gcc2024/training/microbiome-analysis).
 
 ## Funding
 
-The PathoGFAIR project was funded via [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/) ([news about the award](content/news/2021-12-08-pathogen-detection-eosc-life-grant/))
+The PathoGFAIR project was funded via [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/) ([news about the award](/news/2021-12-08-pathogen-detection-eosc-life-grant/))
 
 <embed src="https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
 
