@@ -76,6 +76,9 @@ To start with the new tools development, check out the [development training mat
 
 If you would like to create new training materials or hold a training at your institute - we obviously have a [training](https://training.galaxyproject.org/training-material/topics/contributing/) for that!
 
+## ... participate in events!
+
+Events related to MS data processing will be published here.
 
 ## Important links
 
