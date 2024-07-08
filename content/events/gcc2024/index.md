@@ -28,7 +28,7 @@ subsites: [all]
 
   <div class="text-center my-5">
     <div class="lead" style="padding-bottom: 1rem">
-      The flagship Galaxy event of the year is upon us! Join the Galaxy world-wide community to share and learn about data science.
+      GCC is the flagship Galaxy event of the year where the world-wide community comes together to share and learn about data science.
     </div>
     <a href="/events/gcc2024/schedule/" type="button" class="btn btn-primary">
         <strong>View schedule</strong>
@@ -40,10 +40,6 @@ subsites: [all]
     ◇
     <a href="https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf" type="button" class="btn btn-primary">
         <strong>View abstract book</strong>
-    </a>
-    ◇
-    <a href="https://join.slack.com/t/gcc2024/shared_invite/zt-2k5e9ju83-srjhchf7Uh0C2_lE1iITlA" type="button" class="btn btn-primary" target="_blank">
-        <strong>Join GCC2024 Slack</strong>
     </a>
   </div>
 </div>
@@ -57,13 +53,12 @@ subsites: [all]
     <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="World-class content" />
     <div class="card-header">World-class content</div>
 
-**GCC2024 will have more than 50 talks and more than 50 posters** presenting
+**GCC2024 had more than 50 talks and more than 50 posters** presenting
 methods, tools, pipelines, and software improvements for the Galaxy framework.
 
-Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
-The abstract book with all the details is coming soon!
-
-If you haven't registered yet, you can still register on site.
+Check out the **[schedule page](/events/gcc2024/schedule/)** and the [abstract
+book](https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf)
+for more details.
 
   </div>
 
@@ -107,9 +102,9 @@ website](https://jxtxfoundation.org/news/2024-2-19-gcc/).
 
 **Learning is at the core of GCC.** Check out the [training
 page](/events/gcc2024/training/) for details on training sessions and hands-on
-workshops that will be available at GCC2024. Attending trainings is a wonderful
-way to get practical experience on a topic in just a couple of hours, while also
-meeting people that can help you later.
+workshops available at GCC2024. Attending trainings is a wonderful way to get
+practical experience on a topic in just a couple of hours, while also meeting
+people that can help you later.
 
 
 <!-- A **preview of the training topics** includes:
