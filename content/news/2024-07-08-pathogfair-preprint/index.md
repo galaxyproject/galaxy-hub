@@ -10,8 +10,7 @@ main_subsite: freiburg
 
 We are happy to share our new preprint bioRXiv: [**PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking**](https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1).
 
-<img src="graphical_abstract.png" style="max-width: 80%;" alt="Graphical Abstract" />
-
+<img src="graphical_abstract.png" style="max-width: 80%;" alt="Graphical abstract showing in which pathogen investigation step the workflows are applied, on the left side. Then in the middle, is a summary of all 5 workflows forming PathoGFAIR (Preprocessing, Taxonomy Profiling, Gene-based Pathogen Identification and Allele-based Pathogen Identification). Finally on the right side, the workflows features are highlighted" />
 
 ## Background
 
@@ -26,8 +25,6 @@ We tested PathoGFAIR on **130 benchmark samples** containing different pathogens
 PathoGFAIR detects the pathogens or the subspecies of the pathogens in any sample, regardless of whether the sample is isolated or incubated before sequencing. 
 
 Importantly, PathoGFAIR is **easy to use** and can be **straightforwardly adapted and extended** for other types of analysis and sequencing techniques, making it usable in various pathogen detection scenarios.
-
-<embed src="2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
 
 [PathoGFAIR Webpage](https://usegalaxy-eu.github.io/PathoGFAIR/)
 
@@ -54,6 +51,7 @@ This tutorial has been used as training support in multiple workshops and confer
 
 ## Funding
 
-The PathoGFAIR project was funded via [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/) ([news about the award](content/news/2021-12-08-pathogen-detection-eosc-life-grant/) 
+The PathoGFAIR project was funded via [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/) ([news about the award](content/news/2021-12-08-pathogen-detection-eosc-life-grant/))
 
+<embed src="2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
 
