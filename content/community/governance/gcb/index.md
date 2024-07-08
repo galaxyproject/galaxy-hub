@@ -14,20 +14,15 @@
 Each [SIG](/community/sig) may elect one member to represent their interests on the [GCB](/community/governance/gcb/). In practice, this is often (but not always) the person chairing the **SIG**.
 This is analogous to the [Technical Board](/community/governance/gtb/), consisting of representatives of the [Working Groups (WG)](/community/wg).
 
-
-<a href ="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
-     <button type="button">
-        <img src="gtn_hat.png" alt="GTN Hat" width = "50">
+<button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
+    <img src="gtn_hat.png" alt="GTN Hat" width = "50">
      What is a SIG?
-     </button>
-</a>
+</button>
 
-<a href = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
-      <button type="button">
-          <img src="gtn_hat.png" alt="GTN Hat" width = "50">
+<button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
+    <img src="gtn_hat.png" alt="GTN Hat" width = "50">
       Creating a SIG
-      </button>
-</a>
+</button>
 
 ## Purpose
 
