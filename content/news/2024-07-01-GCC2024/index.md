@@ -38,8 +38,9 @@ Members of the Freiburg Galaxy team delivered a series of talks at the GCC confe
 * [PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison](https://f1000research.com/slides/13-716) by Engy Nasr
 * [Automating Social Media Outreach: A GitHub Workflow for Galaxy Community](https://docs.google.com/presentation/d/11wchlYBzEFcMSn4NEJ0I0h7WM3rGNU5LUm-bL2FuH4c/edit#slide=id.p) by Arash Kadkhodaei
 
-
 ## Poster Sessions
+
+
 
 ## Trainings
 
@@ -56,9 +57,17 @@ The Freiburg Galaxy team contributed by providing training for:
 
 ## Panel Discussion
 
+
+
 ## Birds of a Feather (BoF)
 
+
+
 ## CoFest
+
+The Collaboration Fest (CoFest) concluded the conference, bringing together new and experienced Galaxy contributors for two days of discussion, learning, and cooperation at [Open Gardens](https://www.otevrenazahrada.cz/). Participants enjoyed the serene garden environment, taking breaks to visit the deers, pigs, chickens and rabbits. New contributors received guidance on the Galaxy Training Network from Saskia and Helena, while students like Shweta began learning tool wrapping under Björn's mentorship. Experienced contributors collaborated on new projects, including setting out a Galaxy Roadmap, creating a unified template for subdomains, and developing tools to improve data citations and workflow integration. CoFest fostered community growth and inspired future contributions.
+
+![GCC2024 CoFest](CoFest.jpg)
 
 ## Social Events
 
