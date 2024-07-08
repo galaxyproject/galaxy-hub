@@ -1,5 +1,5 @@
 ---
-title: "New Preprint: PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking"
+title: "New Preprint: PathoGFAIR, a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking"
 date: '2024-07-08'
 tags: [paper]
 supporters:
@@ -45,9 +45,9 @@ To assist users in understanding and using the workflows, we have provided exten
 
 This tutorial has been used as training support in multiple workshops and conferences' training sessions:
 
-1. The [first time](/content/events/2023-02-02-foodborne-pathogen-detection-workshop/) in FHNW in Muttenz, Switzerland with [highly positive feedback](/content/news/2023-03-21-foodborne-training/)
-2. As a session in several **High-Throughput Data Analysis with Galaxy** workshops delivered in Freiburg with the next iteration will be on [July 26th 2024](/content/events/2024-07-22-galaxy-workshop-freiburg/).
-3. As a workshop during the Galaxy Community Conference [GCC 2024](/content/events/gcc2024/training/microbiome-analysis).
+1. A [1-day workshop early 2023](/content/events/2023-02-02-foodborne-pathogen-detection-workshop/) in FHNW in Muttenz, Switzerland that received [highly positive feedback](/content/news/2023-03-21-foodborne-training/)
+2. A 1-day session in several **High-Throughput Data Analysis with Galaxy** workshops delivered in Freiburg with the next iteration will be on [July 26th 2024](/content/events/2024-07-22-galaxy-workshop-freiburg/).
+3. A 2-hour workshop during the Galaxy Community Conference [GCC 2024](/content/events/gcc2024/training/microbiome-analysis).
 
 ## Funding
 
