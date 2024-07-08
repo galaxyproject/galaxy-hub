@@ -1,6 +1,5 @@
 ---
-title: Our paper about PathoGFAIR as a preprint on
-  bioRXiv
+title: "New Preprint: PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking"
 date: '2024-07-08'
 tags: [paper]
 supporters:
@@ -9,28 +8,30 @@ subsites: [eu, freiburg]
 main_subsite: freiburg
 ---
 
-Our paper "**PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking**", about PathoGFAIR a Galaxy created collection of workflows for microbiome analyses specially pathogen detection, is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1).
+We are happy to share our new preprint bioRXiv: [**PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking**](https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1).
 
-<div class="multiple-img">
-    <img src="graphical_abstract.png" width="800px" alt="Graphical Abstract" />
-</div>
+<img src="graphical_abstract.png" style="max-width: 80%;" alt="Graphical Abstract" />
 
-## Abstract
 
-### Background
-Food contamination by pathogens poses a global health threat, affecting an estimated 600 million people annually. During a foodborne outbreak investigation, microbiological analysis of food vehicles detects responsible pathogens and traces contamination sources. Metagenomic approaches offer a comprehensive view of the genomic composition of microbial communities, facilitating the detection of potential pathogens in samples. Combined with sequencing techniques like Oxford Nanopore sequencing, such metagenomic approaches become faster and easier to apply. A key limitation of these approaches is the lack of accessible, easy-to-use, and openly available pipelines for pathogen identification and tracking from (meta)genomic data.
+## Background
 
-### Findings
-PathoGFAIR is a collection of Galaxy-based FAIR workflows employing state-of-the-art tools to detect and track pathogens from metagenomic Nanopore sequencing. Although initially developed for foodborne pathogen data, the workflows can be applied to any metagenomic Nanopore pathogenic data. PathoGFAIR incorporates visualisations and reports for comprehensive results. We tested PathoGFAIR on 130 benchmark samples containing different pathogens from multiple hosts under various experimental conditions. Workflows have successfully detected and tracked expected pathogens at least at the species rank in both pathogen-isolated and non-pathogen-isolated samples with sufficient Colony-forming unit and Cycle Threshold values.
+Food contamination by pathogens poses a global health threat, affecting an estimated 600 million people annually. During a foodborne outbreak investigation, microbiological analysis of food vehicles detects responsible pathogens and traces contamination sources. Metagenomic approaches offer a comprehensive view of the genomic composition of microbial communities, facilitating the detection of potential pathogens in samples. Combined with sequencing techniques like Oxford Nanopore sequencing, such metagenomic approaches become faster and easier to apply. **A key limitation of these approaches is the lack of accessible, easy-to-use, and openly available pipelines for pathogen identification and tracking from (meta)genomic data.**
 
-### Conclusions
-PathoGFAIR detects the pathogens or the subspecies of the pathogens in any sample, regardless of whether the sample is isolated or incubated before sequencing. Importantly, PathoGFAIR is easy to use and can be straightforwardly adapted and extended for other types of analysis and sequencing techniques, making it usable in various pathogen detection scenarios.
+### PathoGFAIR
+
+PathoGFAIR is a collection of **5 Galaxy-based FAIR** workflows employing state-of-the-art tools to **detect and track pathogens from metagenomic Nanopore sequencing**. Although initially developed for foodborne pathogen data, the workflows can **be applied to any metagenomic Nanopore pathogenic data**. PathoGFAIR incorporates **visualisations and reports** for comprehensive results. 
+
+We tested PathoGFAIR on **130 benchmark samples** containing different pathogens from multiple hosts under various experimental conditions. Workflows have successfully detected and tracked expected pathogens at least at the species rank in both pathogen-isolated and non-pathogen-isolated samples with sufficient Colony-forming unit and Cycle Threshold values.
+
+PathoGFAIR detects the pathogens or the subspecies of the pathogens in any sample, regardless of whether the sample is isolated or incubated before sequencing. 
+
+Importantly, PathoGFAIR is **easy to use** and can be **straightforwardly adapted and extended** for other types of analysis and sequencing techniques, making it usable in various pathogen detection scenarios.
 
 <embed src="2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
 
 [PathoGFAIR Webpage](https://usegalaxy-eu.github.io/PathoGFAIR/)
 
-## PathoGFAIR Workflows
+## Workflows
 
 | Workflow Name | WorkflowHub | Dockstore | Galaxy Servers |
 |---------------|-------------|-----------|----------------|
@@ -43,12 +44,16 @@ PathoGFAIR detects the pathogens or the subspecies of the pathogens in any sampl
 
 ## Training Material
 
-To assist users in understanding and using the workflows, we have provided extensive training material. This includes tutorials, documentation, and guidelines available via the Galaxy Training Network [GTN](https://bit.ly/pathogen-tuto).
+To assist users in understanding and using the workflows, we have provided extensive training material as a [tutorial via the Galaxy Training Network (GTN)](https://bit.ly/pathogen-tuto).
 
-The training has been teached in multiple workshops and conferences' training sessions, the [first time](https://galaxyproject.org/events/2023-02-02-foodborne-pathogen-detection-workshop/) was in [FHNW in Muttenz Switzerland](https://galaxyproject.org/news/2023-03-21-foodborne-training/), then in following **High-Throughput Data Analysis with Galaxy** workshops the latest is going to be on [July 26th 2024](https://galaxyproject.org/events/2024-07-22-galaxy-workshop-freiburg/). The training also took part in the Galaxy Community Conference [GCC 2024](https://galaxyproject.org/events/gcc2024/training/microbiome-analysis).
+This tutorial has been used as training support in multiple workshops and conferences' training sessions:
+
+1. The [first time](/content/events/2023-02-02-foodborne-pathogen-detection-workshop/) in FHNW in Muttenz, Switzerland with [highly positive feedback](/content/news/2023-03-21-foodborne-training/)
+2. As a session in several **High-Throughput Data Analysis with Galaxy** workshops delivered in Freiburg with the next iteration will be on [July 26th 2024](/content/events/2024-07-22-galaxy-workshop-freiburg/).
+3. As a workshop during the Galaxy Community Conference [GCC 2024](/content/events/gcc2024/training/microbiome-analysis).
 
 ## Funding
 
-PathoGFAIR is the main [project](https://galaxyproject.org/news/2021-12-08-pathogen-detection-eosc-life-grant/) output, which was under the fund of [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/).
+The PathoGFAIR project was funded via [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/) ([news about the award](content/news/2021-12-08-pathogen-detection-eosc-life-grant/) 
 
 
