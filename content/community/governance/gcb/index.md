@@ -1,14 +1,16 @@
 # Galaxy Community Board (GCB)
 
-<slot name="/community/governance/linkbox" />
-
 **Keywords:** Special Interest Groups, Community of Practices
 
-<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance.md" height="400px" width="800px"></iframe>
+## Where is the GCB in the Galaxy Governance Structure?
 
-<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance.md?expand-all=true" height="400px" width="800px"></iframe>
-
-<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_structure.md" height="400px" width="800px"></iframe>
+<div style="float:left; width: 50%;">
+        <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/?expand-all=true#details-what-is-the-galaxy-governance-structure" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
+    </div>
+    <div style="float:right; width: 50%;">
+        <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/?expand-all=true#details-what-s-the-galaxy-community-board" height="540px" width="100%" scrolling="no" frameborder="0"></iframe>
+    </div>
+<div style="clear:both;"></div> <!-- Clear the floats -->
 
 ## Who is in the GCB?
 Each Galaxy Special Interest Group (**SIG**) may elect one member to represent their interests on the [GCB](/community/governance/gcb/). In practice, this is often (but not always) the person chairing the **SIG**.
@@ -16,14 +18,14 @@ This is analogous to the [Technical Board](/community/governance/gtb/), consisti
 
 You can learn more about **SIGs** in our dedicated tutorials below, or explore our [**SIG** directory](/community/sig).
 
-<button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
-    <img src="gtn_hat.png" alt="GTN Hat" width = "50">
-     What is a SIG?
+<button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html" target="_blank">
+  <img src="gtn_hat.png" alt="GTN Hat" width = "50">
+  What is a SIG?
 </button>
 
-<button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
-    <img src="gtn_hat.png" alt="GTN Hat" width = "50">
-      Creating a SIG
+<button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html" target="_blank">
+  <img src="gtn_hat.png" alt="GTN Hat" width = "50">
+  Creating a SIG
 </button>
 
 ## Purpose
