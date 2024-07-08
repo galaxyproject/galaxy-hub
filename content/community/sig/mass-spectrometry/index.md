@@ -28,9 +28,9 @@ Our mission is to:
 
 **How do we function?**
 
-**Meetings** We meet every 2-3 months. There are two meetings in one day, one for the EU and one for AU time zone - you can choose the one that suits you more or join both! Check our **google calendar** to see when the next meeting occurs.
+**Meetings** We meet every 2-3 months. There are two meetings in one day, one for the EU and one for AU time zone - you can choose the one that suits you more or join both! 
 
-**Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder.
+<!-- **Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder. -->
 
 **Notes** We keep rolling notes on a googledoc and monitor our work in a github project.
 
@@ -38,7 +38,7 @@ Our mission is to:
 
 
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=Europe%2FBerlin&title=Galaxy%20Single%20Cell%20Community%20of%20Practice&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=AGENDA&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+<!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=Europe%2FBerlin&title=Galaxy%20Single%20Cell%20Community%20of%20Practice&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=AGENDA&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe> -->
 
 
 **Join Us!**
@@ -51,7 +51,7 @@ Follow us on [Twitter](https://x.com/usegalaxyp)
 
 ## ... analyze my MS data!
 
-You can start with the workshops related to analysis of [proteomic](https://training.galaxyproject.org/training-material/topics/proteomics/) or [metabolomic](https://training.galaxyproject.org/training-material/topics/metabolomics/) data in Galaxy.
+You can start with the [introduction to proteomics](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/introduction/slides.html#1) or [introduction to metabolomics](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/introduction/slides.html#1). Then follow with other tutorials: analysis of [proteomic](https://training.galaxyproject.org/training-material/topics/proteomics/) or [metabolomic](https://training.galaxyproject.org/training-material/topics/metabolomics/) data in Galaxy.
 
 Also, the GalaxyP team provides slides to [conference talks](https://galaxyp.org/conference-presentations/#presentations) or materials from [workshops](https://galaxyp.org/workshops/)
 
@@ -68,7 +68,7 @@ We keep all the source code on Github:
 
 - General [Galaxy repository](https://github.com/galaxyproject).
 - Github repository for [proteomics tools](https://github.com/galaxyproteomics)
-- Github repository for [metabolomics tools](https://github.com/workflow4metabolomics/tools-metabolomics)
+- Github repository for metabolomics tools from [workflow4metabolomics](https://github.com/workflow4metabolomics/tools-metabolomics) or [RECETOX](https://github.com/RECETOX/galaxytools).
 
 To start with the new tools development, check out the [development training materials](https://training.galaxyproject.org/training-material/topics/dev/) 
 
@@ -84,8 +84,8 @@ If you would like to create new training materials or hold a training at your in
  - <i class="fa fa-tv" aria-hidden="true"></i>&nbsp;&nbsp; [Proteomics Galaxy instance](https://proteomics.usegalaxy.eu/)
  - <i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp; &nbsp;[Metabolomics help forum](https://help.galaxyproject.org/tag/metabolomics)
  - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp; &nbsp;[Mass spectrometry user community chat room](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org)
- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe!
- - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
+ <!-- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe! -->
+ - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/1EvGFC39qT8tp-TbLqlXGZehgPm0VXZEYnlac13gBXO0/edit) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
 
 ## Recent publications
 
@@ -95,6 +95,7 @@ If you would like to create new training materials or hold a training at your in
 - The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update. Galaxy Community (2024). doi: 10.1093/nar/gkae410. [link](https://pubmed.ncbi.nlm.nih.gov/38769056/)
 - The Association of Biomolecular Resource Facilities Proteome Informatics Research Group Study on Metaproteomics (iPRG-2020) Jagtap et al. (2023) doi: 10.7171/3fc1f5fe.a058bad4. [link](https://pubmed.ncbi.nlm.nih.gov/37969874/)
 - A Galaxy of informatics resources for MS-based proteomics. Mehta et al. (2023). doi: 10.1080/14789450.2023.2265062. [link](https://pubmed.ncbi.nlm.nih.gov/37787106/)
+- Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics. Guitton et al. (2017) doi: 10.1016/j.biocel.2017.07.002. [link](https://www.sciencedirect.com/science/article/pii/S1357272517301577?via%3Dihub)
 
 ## Key words
 
