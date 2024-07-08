@@ -6,7 +6,7 @@
 
 <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance.md" height="400px" width="800px"></iframe>
 
-<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance.md" height="400px" width="800px" ?expand-all=true></iframe>
+<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance.md?expand-all=true" height="400px" width="800px"></iframe>
 
 <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_structure.md" height="400px" width="800px"></iframe>
 
@@ -18,15 +18,16 @@ This is analogous to the [Technical Board](/community/governance/gtb/), consisti
      <a href ="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
      <img src="gtn_hat.png" alt="GTN Hat" width = "50">
      What is a SIG?
+     </a>
  </button>
- </a>
+
 
  <button type="button">
       <a href = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
       <img src="gtn_hat.png" alt="GTN Hat" width = "50">
       Creating a SIG
+     </a>
   </button>
-  </a>
 
 ## Purpose
 
