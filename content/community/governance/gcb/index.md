@@ -11,8 +11,10 @@
 <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_structure.md" height="400px" width="800px"></iframe>
 
 ## Who is in the GCB?
-Each [SIG](/community/sig) may elect one member to represent their interests on the [GCB](/community/governance/gcb/). In practice, this is often (but not always) the person chairing the **SIG**.
+Each Galaxy Special Interest Group (**SIG**) may elect one member to represent their interests on the [GCB](/community/governance/gcb/). In practice, this is often (but not always) the person chairing the **SIG**.
 This is analogous to the [Technical Board](/community/governance/gtb/), consisting of representatives of the [Working Groups (WG)](/community/wg).
+
+You can learn more about **SIGs** in our dedicated tutorials below, or explore our [**SIG** directory](/community/sig).
 
 <button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
     <img src="gtn_hat.png" alt="GTN Hat" width = "50">
