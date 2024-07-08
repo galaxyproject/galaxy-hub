@@ -8,7 +8,7 @@ autotoc: false
 Active Galaxy communities are encouraged to participate in (or form) their own SIG, with a focus on specific shared interests. You can learn more in our dedicated tutorial: [What's a SIG?](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html)
 
 In the following you will find a list of current active Special Interest Groups. If you can't find yourself in this list we always welcome new SIGs.
-Please read more about the [GCB and SIGs](/community/governance/gcb/) and on [how to set up your own](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html).
+You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn [how to set up your own](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html).
 
 
 # Directory of Special Interest Groups
