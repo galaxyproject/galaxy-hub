@@ -53,5 +53,5 @@ This tutorial has been used as training support in multiple workshops and confer
 
 The PathoGFAIR project was funded via [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/) ([news about the award](content/news/2021-12-08-pathogen-detection-eosc-life-grant/))
 
-<embed src="2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
 
