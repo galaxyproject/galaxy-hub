@@ -4,15 +4,29 @@
 
 **Keywords:** Special Interest Groups, Community of Practices
 
-HELP: IFRAME EMBED: /Users/wb2845/Documents/GitHub/training-material/topics/community/faqs/governance_gcb.md
+<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance.md" height="400px" width="800px"></iframe>
 
-HELP: IFRAME EMBED: /Users/wb2845/Documents/GitHub/training-material/topics/community/faqs/governance.md
+<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance.md" height="400px" width="800px" ?expand-all=true></iframe>
+
+<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_structure.md" height="400px" width="800px"></iframe>
 
 ## Who is in the GCB?
 Each [SIG](/community/sig) may elect one member to represent their interests on the [GCB](/community/governance/gcb/). In practice, this is often (but not always) the person chairing the **SIG**.
-This is analogous to the Technical Board, consisting of representatives of the Working Groups (WG).
+This is analogous to the [Technical Board](/community/governance/gtb/), consisting of representatives of the [Working Groups (WG)](/community/wg).
 
-HELP: Cool/pretty box titled "What's a SIG?" that links to the new GTN training material on 'Whats'a  SIG?', ideally in another tab
+<button type="button">
+     <a href ="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
+     <img src="gtn_hat.png" alt="GTN Hat" width = "50">
+     What is a SIG?
+ </button>
+ </a>
+
+ <button type="button">
+      <a href = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
+      <img src="gtn_hat.png" alt="GTN Hat" width = "50">
+      Creating a SIG
+  </button>
+  </a>
 
 ## Purpose
 
