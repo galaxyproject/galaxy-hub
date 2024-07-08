@@ -24,11 +24,12 @@ This is analogous to the [Technical Board](/community/governance/gtb/), consisti
       Creating a SIG
 </button>
 
-<div class="btn-group">
+
 
 <a class="btn btn-success" href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html" style="color: black"><img src="gtn_hat.png" alt="GTN Hat" width = "50">What is a SIG?</a>
+
 <a class="btn btn-success" href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html" style="color: black"><img src="gtn_hat.png" alt="GTN Hat" width = "50">Creating a SIG</a>
-</div>
+
 
 ## Purpose
 
