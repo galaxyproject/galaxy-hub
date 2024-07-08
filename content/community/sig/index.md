@@ -49,7 +49,6 @@ Group of computational chemistry tool developers, trainers and users to help con
 <!-- Earth -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://earth-system.usegalaxy.eu">
-<a href="https://aqua.usegalaxy.eu">
 <div class="card-header bg-wg-applied text-white text-center">Earth</div>
 </a>
 

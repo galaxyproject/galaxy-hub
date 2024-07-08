@@ -23,7 +23,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
 |                   | 14:00 - 16:00 | [Posters](#monday-1400---1600) + coffee                  | A                   |
 |                   | 16:00 - 18:00 | [Trainings II](/events/gcc2024/training/#day-1-session-2)| B, C, D, M1, M2     |
 |                   | 18:00 - 19:00 | [BoFs](#monday-1800---1900)                              | B, C, D, M1, M2     |
-|                   | 19:00 - 21:00 | GCC2024 Welcome Happy Hour                               | Siesta Lobby & Wine Restaurant (inside Hotel International) |
+|                   | 19:00 - 21:00 | GCC2024 Welcome Happy Hour                               | Siesta Lobby & Wine Restaurant |
 |                   |               |                                                          |                     |
 | Tuesday, Jun 25   | 8:45 - 9:00  | Overview of dinner tours                                  | BCD                 |
 |                   | 9:00 - 9:45   | What's up in the Galaxy: Community update talk           | BCD                 |
@@ -74,61 +74,61 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
         <tbody>
             <tr>
                 <td>
-                    <span class="gcc2024-title">BioDigs: a GDSCN Project</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1yIn1F21OQUSDVOaa8WH8sSkZa1IH3EtL_B74-Vxwino/edit#slide=id.p">BioDigs: a GDSCN Project</a></span>;
                     <span class="gcc2024-authors">Tyler Collins, Alex Ostrovsky</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Galaxy activities in Czech Republic</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1rQwhxHFmgHwMQjRBNv39s1CXBamck7ZfsnaR67Q3lwQ/edit?usp=sharing">Galaxy activities in Czech Republic</a></span>;
                     <span class="gcc2024-authors">Miroslav Ruda, Aleš Křenek</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Galaxy-ML2: Simple, Powerful, and Robust Machine Learning Tools for Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1mYSAp4nKdegAh6ti_0h4KA1hFm6XNFU3bcfTkqt6NVg/edit?usp=sharing">Galaxy-ML2: Simple, Powerful, and Robust Machine Learning Tools for Galaxy</a></span>;
                     <span class="gcc2024-authors">Junhao Qui, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Community Lightning Talks: SPOC, GGA, SSA, Imaging, microGalaxy, & GCB</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1I2aIqA26iWaUJmlD-Z487Sj5a5Lwgr7bLzPidKHgRV0/edit?usp=sharing">Community Lightning Talks: SPOC, GGA, SSA, Imaging, microGalaxy, & GCB</a></span>;
                     <span class="gcc2024-authors">Wendi Bacon, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Empowering Users to Bring Their Own Storage</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1u352wd_QoRQqSB32Y6zGpmj0LI6pMDzmWwN6UkNbHoA/edit#slide=id.p">Empowering Users to Bring Their Own Storage</a></span>;
                     <span class="gcc2024-authors">John Chilton</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">A Galaxy Workflow Developer's Companion in your Browser</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1V9DmVhtbYNtepcPr-eokM4aZktsx8HaFIW38A3N4Abk/edit">A Galaxy Workflow Developer's Companion in your Browser</a></span>;
                     <span class="gcc2024-authors">David López</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Driving Decisions with Data: Introducing the Key Usage Indicators (KUI) for Galaxy Project Governance</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1OqfEgiLYDleHpavQYDZllO181FsYbOBw1saAJ7vV4jc/edit?usp=sharing">Driving Decisions with Data: Introducing the Key Usage Indicators (KUI) for Galaxy Project Governance</a></span>;
                     <span class="gcc2024-authors">Enis Afgan, Nuwan Goonasekera</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">The AquaINFRA platform: A research data infrastructure for marine and inland waters</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/11Tc9BiSI7cBQEkxvmj8B-e5WIouWbQvbCT1f7UEUtkk/edit#slide=id.g2e376c6126b_1_3">The AquaINFRA platform: A research data infrastructure for marine and inland waters</a></span>;
                     <span class="gcc2024-authors">Markus Konkol, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Developing Interactive Neutron Science Applications using Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/14NEYE2u4BrIlze3eE2-TZ7iod_fFeBMgoHeAjcHWXLs/edit#slide=id.g2738d5e508e_1_249">Developing Interactive Neutron Science Applications using Galaxy</a></span>;
                     <span class="gcc2024-authors">Sergey Yakubov, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">ABRomics: a Galaxy-based One Health Antimicrobial Resistance Platform</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/17DKjAoCUtBcirhg7yroRmpcPqN3gGoNISkXOuYjubpU/edit#slide=id.g2e11cf668a8_0_0">ABRomics: a Galaxy-based One Health Antimicrobial Resistance Platform</a></span>;
                     <span class="gcc2024-authors">Pierre Marin, et al.</span>
                 </td>
             </tr>
@@ -150,101 +150,101 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
         <tbody>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Genomics and transcriptomics of Fusarium musae from human and banana</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1x29LzpSw6Vn19BxFlB99OXlnw9fwHjHs/edit?usp=drive_link&ouid=109413952561587720887&rtpof=true&sd=true">Genomics and transcriptomics of Fusarium musae from human and banana</a></span>;
                     <span class="gcc2024-authors">Luca Degradi, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Upgrading User Experience: Introducing the New Galaxy UI</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1FJJZRd3L7Rb7j6lmvxrXonMnIko9Jtgrc6saYeNAYRs/edit?usp=sharing">Upgrading User Experience: Introducing the New Galaxy UI</a></span>;
                     <span class="gcc2024-authors">Aysam Guerler, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">MAdLand computational resources through Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1KF6ctfqGpPoNpUF7Fin9ex-vPmICGew6B2gHBf0YfXI/edit?usp=sharing">MAdLand computational resources through Galaxy</a></span>;
                     <span class="gcc2024-authors">Deepti Varshney, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Visualizing Workflow Runs in Galaxy: The Graph View for Workflow Invocations</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1TvRQ06nrySjwzgt4kJVKGblFloS1or5yfRxLjSVBOgA/edit?usp=sharing">Visualizing Workflow Runs in Galaxy: The Graph View for Workflow Invocations</a></span>;
                     <span class="gcc2024-authors">Ahmed Awan</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Genomic and evolutionary analysis of the cytochrome P450 gene family in a ground -herb of Amazonian riparian forests with a waterflooding gradient</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/112XaTYof3TLWGRBIt1Po5XUwf0a7pi-VSLxtuBuPToU/edit?usp=sharing">Genomic and evolutionary analysis of the cytochrome P450 gene family in a ground -herb of Amazonian riparian forests with a waterflooding gradient</a></span>;
                     <span class="gcc2024-authors">Drielli Canal, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Enhanced Workflow Management in Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1vyr7Qa7O2pJ2FZDVFQNlrQypXwhodhzUMTsusD9h6_0/edit?usp=sharing">Enhanced Workflow Management in Galaxy</a></span>;
                     <span class="gcc2024-authors">Alireza Heidari, Laila Los, Aysam Guerler</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">The Galaxy Platform: Applications to Catalysis Workflows</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1-t_f95BVq31klQCwBeAlUe0ljHY8PEmuJImhdQQAz4c/edit#slide=id.p">The Galaxy Platform: Applications to Catalysis Workflows</a></span>;
                     <span class="gcc2024-authors">Patrick Austin, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">A Galaxy Workflow Developer's Companion in your Browser</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1tXtgGSrUHTsX7adxTr9AzCmdOf2zWn74S_LN3n5HM7U/edit?usp=sharing">A Galaxy Workflow Developer's Companion in your Browser</a></span>;
                     <span class="gcc2024-authors">David López</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">A Toolset for Building and Simulating Transmembrane Proteins in Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1aelczLcAbj3wnz8cWnMH8U1kh4oY4ZwZf4I86ajZ9J0/edit?usp=sharing">A Toolset for Building and Simulating Transmembrane Proteins in Galaxy</a></span>;
                     <span class="gcc2024-authors">Bryan Raubenolt, Jayadev Joshi, Daniel Blankenberg</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Galaxy CoDex for finding tools, workflows, and training</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1AVt1_2o6c47sws3Iq1r5GgDbiezYydYTKR3LQK4fRck/edit?usp=sharing">Galaxy CoDex for finding tools, workflows, and training</a></span>;
                     <span class="gcc2024-authors">Bérénice Batut</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Ab-initio Semi-Empirical Mass Spectra Predictions with Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1xcWAkGHDF33v7-ih3iBz1hIQ1IRA5At3cNMvb2haSnU/edit#slide=id.gcb9a0b074_1_0">Ab-initio Semi-Empirical Mass Spectra Predictions with Galaxy</a></span>;
                     <span class="gcc2024-authors">Wudmir Rojas, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">DevOps techniques for developing and integrating tools in Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/13WQrGLmp4t3lV6fEw0lDGE_iX4gzvLXSX5jee68h9LE/edit#slide=id.p">DevOps techniques for developing and integrating tools in Galaxy</a></span>;
                     <span class="gcc2024-authors">Serena Lorenzini, Giuseppe Profiti</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Bridging the Gap: A Systematic Workflow to Convert Low-Resolution GC-MS Libraries to High-Resolution in Silico for Enhanced Chemical Profiling</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1zNJRJgZo8p0hes8Jr5QMq98NsH-_9brM/edit#slide=id.p1">Bridging the Gap: A Systematic Workflow to Convert Low-Resolution GC-MS Libraries to High-Resolution in Silico for Enhanced Chemical Profiling</a></span>;
                     <span class="gcc2024-authors">Zargham Ahmad, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">TES job submission and streamlined data transfers</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1XiO9TnVpvQa1kDaWGbuiPq_O-G8X4gMfbDPGeSUBSts/edit?usp=sharing">TES job submission and streamlined data transfers</a></span>;
                     <span class="gcc2024-authors">Aleš Křenek, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Automated Reference Genome Assembly in Galaxy - An Update</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/19EgOPaQjUiPVo5Urvl-J9j1IPZHF_ZG9xCLiwvaaMo4/edit?usp=sharing">Automated Reference Genome Assembly in Galaxy - An Update</a></span>;
                     <span class="gcc2024-authors">Delphine Larivière, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Metascheduling with TPV: Weighting jobs on multiple constraints for distributed deployment over local and remote resources</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/14pmxW-8Bnrm9nY55VxOqiBl7REatXdJHFmWG2FqpVt4/edit#slide=id.g273994d4a8c_4_50">Metascheduling with TPV: Weighting jobs on multiple constraints for distributed deployment over local and remote resources</a></span>;
                     <span class="gcc2024-authors">Catherine Bromhead, Justin Lee, Nuwan Goonasekera</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Long-read genomes from diverse outbred dogs</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1r2ADvscB26fqo_h23w66BaPZxVl2Ujhyfl0qjnHyFtA/edit?usp=sharing">Long-read genomes from diverse outbred dogs</a></span>;
                     <span class="gcc2024-authors">Tyler Collins, Alex Ostrovsky</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Data access architecture at "Galactic" scale: what's new and what's next</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1Vt_jWo4oM9X7D2uPnYed-dh3rInOK-LI3g4FMRZNYTA/edit?usp=sharing">Data access architecture at "Galactic" scale: what's new and what's next</a></span>;
                     <span class="gcc2024-authors">John Davis</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Using Galaxy and Integrated Genome Browser to study tardigrade biology</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1MwS1Q3DyeyyK0tyoFs9xSDU8syeP2mYN8Z7kp1cJHFE/edit?usp=sharing">Using Galaxy and Integrated Genome Browser to study tardigrade biology</a></span>;
                     <span class="gcc2024-authors">Paige Kulzer, Nowlan Freese, Ann Loraine</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Integrating OGC API services into Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1zGUw27-d3pst0tooV1vLLEZbXrJwAOHE4X-KeoHqgIs/edit?usp=sharing">Integrating OGC API services into Galaxy</a></span>;
                     <span class="gcc2024-authors">Markus Konkol, Alexander Pilz</span>
                 </td>
             </tr>
@@ -266,101 +266,101 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
         <tbody>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Navigating the variant landscape: integrating MAVE data analysis into Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1LGqDHCVEmsYeWxTmLL2Hn4uPiH4PL0rWedBRO_fJdzY/edit?usp=sharing">Navigating the variant landscape: integrating MAVE data analysis into Galaxy</a></span>;
                     <span class="gcc2024-authors">Polina Polunina</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Updates from the Global Galaxy Training Network (GTN)</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1xXzd7io07KdBk-vVSh_27wlS5bzlDmGuxxpjWL2vB2w/edit?usp=sharing">Updates from the Global Galaxy Training Network (GTN)</a></span>;
                     <span class="gcc2024-authors">Saskia Hiltemann, Helena Rasche, Bérénice Batut</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">A Galaxy-based immunopeptidogenomic pipeline for neoantigen discovery</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1oVPwVmbWsJ0Htn97bJ7xGTlQvn_rU71aW-blE2Ucfss/edit?usp=sharing">A Galaxy-based immunopeptidogenomic pipeline for neoantigen discovery</a></span>;
                     <span class="gcc2024-authors">Subina Mehta, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Automating Social Media Outreach: A GitHub Workflow for Galaxy Community</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/11wchlYBzEFcMSn4NEJ0I0h7WM3rGNU5LUm-bL2FuH4c/edit#slide=id.p">Automating Social Media Outreach: A GitHub Workflow for Galaxy Community</a></span>;
                     <span class="gcc2024-authors">Arash Kadkhodaei</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Clinical metaproteomics workflow to study host-microbiome dynamics</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1yyNY1QJvEVBBfmN-HpptYd_cMqN_WBrr/edit?usp=sharing&ouid=106052719118323950150&rtpof=true&sd=true">Clinical metaproteomics workflow to study host-microbiome dynamics</a></span>;
                     <span class="gcc2024-authors">Katherine Do, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Addressing user needs in single-cell analysis; internship and obstacles</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1ud4vNk4mLyiRky_EUqRTAXcJEm0ds-hk-l4joxEHbyY/edit?usp=sharing">Addressing user needs in single-cell analysis; internship and obstacles</a></span>;
                     <span class="gcc2024-authors">Morgan Howells, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">MitoLink2.0: A generic integrated web-based workflow system to evaluate genotype-phenotype correlations in human mitochondrial diseases</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1GKEx7MLqZKZsuPvAFr9A3vTLsZCs8yaXPGwhEMqgpy4/edit?usp=sharing">MitoLink2.0: A generic integrated web-based workflow system to evaluate genotype-phenotype correlations in human mitochondrial diseases</a></span>;
                     <span class="gcc2024-authors">Shweta Pandey, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Galaxy as a Gateway to Bioinformatics: an updated scRNA-seq analysis training suite</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/13S-cHxzMAkpdKdLeGwOD2Yn1Sx6GZNx3jJRI_L5A6RA/edit?usp=sharing">Galaxy as a Gateway to Bioinformatics: an updated scRNA-seq analysis training suite</a></span>;
                     <span class="gcc2024-authors">Julia Jakiela, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Viral pathogen data analysis with Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/15Df3YZVsDa4PwkBQtP4EMGHyzsovufzmpbgT6YSLgzU/edit?usp=sharing">Viral pathogen data analysis with Galaxy</a></span>;
                     <span class="gcc2024-authors">Wolfgang Maier, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Persist-seq: a set of reproducible single cell RNA-seq analysis pipelines for understanding early persister cells in cancer</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1sR5meAvox1BOXXI-TF3SegRPUoLYkB16/edit?usp=sharing&ouid=104528428606711873757&rtpof=true&sd=true">Persist-seq: a set of reproducible single cell RNA-seq analysis pipelines for understanding early persister cells in cancer</a></span>;
                     <span class="gcc2024-authors">Pablo Moreno, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1jNz6uUMV2fnBdG1bfs-S2JAYo5Wqblyk1fR6lRQHWUY/edit?usp=sharing">PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison</a></span>;
                     <span class="gcc2024-authors">Engy Nasr, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Image Analysis in Galaxy: Recent Developments and Highlights</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1BIYQ1qC6m5Oi0VnsLSEwea9oQtBZ6R4LBxuxNEQV3Sc/edit?usp=sharing">Image Analysis in Galaxy: Recent Developments and Highlights</a></span>;
                     <span class="gcc2024-authors">Leonid Kostrykin, Karl Rohr</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">FAIR viral quasispecies reconstruction from short reads - possibilities and limitations</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1Y4U3qqDVic9H2q32uehINWraHPbvo_hnsp16wpC9n80/edit?usp=sharing">FAIR viral quasispecies reconstruction from short reads - possibilities and limitations</a></span>;
                     <span class="gcc2024-authors">Stephen Shank, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Interactivity as a tool power-up – Interactive Client Tools reimplemented in the frontend</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/157_U3r_9n1BePcheKyFLSl3p_UP6z_vzcN5Thveol2Y/edit?usp=sharing">Interactivity as a tool power-up – Interactive Client Tools reimplemented in the frontend</a></span>;
                     <span class="gcc2024-authors">Sveinung Gundersen, Morten Johansen</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">BREW3R - a workflow to get more reads in genes in 3'-end sequencing methods</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1FGy_pFlo_6bZZUvbeAZdq0YICyK5ln7NCnldnK7c9T4/edit?usp=sharing">BREW3R - a workflow to get more reads in genes in 3'-end sequencing methods</a></span>;
                     <span class="gcc2024-authors">Lucille Lopez-Delisle, Denis Duboule</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">Community-driven standards development for reference genome generation</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1WbKnRffeUPXgC56ppPGTEKSjrrWOcalG_t5FXcs_OzQ/edit?usp=sharing">Community-driven standards development for reference genome generation</a></span>;
                     <span class="gcc2024-authors">Tom Brown, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Reconstructing cell type specification trajectories in the last common animal ancestor</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1gg9VDLGqvNiV-7cNsiG4cfutHba9v8FyYRprkDJ4qmE/edit?usp=sharing">Reconstructing cell type specification trajectories in the last common animal ancestor</a></span>;
                     <span class="gcc2024-authors">Natalia E Padillo-Anthemides</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">UseGalaxy France: an example of a national UseGalaxy server</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1mRpVP5Fy1FDUTIwm5HtMcybgba9yF47pFTON_-aE9xE/edit?usp=sharing">UseGalaxy France: an example of a national UseGalaxy server</a></span>;
                     <span class="gcc2024-authors">Anthony Bretaudeau, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Structural annotation of repeated regions in the Psidium guajava L. genome and development of molecular markers for regulatory regions</span>;
+                    <span class="gcc2024-title"<a target="_blank" href="https://docs.google.com/presentation/d/1Yjipx-fCPTx_cAxZTnLqkOIZbQuE8BRgnT2HMii8ULM/edit?usp=sharing">Structural annotation of repeated regions in the Psidium guajava L. genome and development of molecular markers for regulatory regions</a></span>;
                     <span class="gcc2024-authors">Giovanna Pinto Pires, et al.</span>
                 </td>
                 <td>
-                    <span class="gcc2024-title">"Smarter" job scheduling using user provided infrastructure</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/147_Ur3FQWFYSah54FZvQctsTaeVKC9ui/edit?usp=sharing&ouid=111543614955851989924&rtpof=true&sd=true">"Smarter" job scheduling using user provided infrastructure</a></span>;
                     <span class="gcc2024-authors">Paul De Geest, Frederik Coppens, Sebastian Luna-Valero</span>
                 </td>
             </tr>
@@ -381,25 +381,25 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
         <tbody>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Pairing Data Analysis Methods with Sequencing Products to Meet Scientist’s Needs. What Do People Want?</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1zORkTSwdfB9FNndLglbDxZfXi1Nag50z0bdVPIxAHo8/edit?usp=sharing">Pairing Data Analysis Methods with Sequencing Products to Meet Scientist’s Needs. What Do People Want?</a></span>;
                     <span class="gcc2024-authors">Adrian Reich, Ariel Erijman, Bradley Langhorst</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Astronomy in Galaxy</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1UZa-zNOaMmJbCSxLExDPpQn3xGjQ3uvcTLpJxIAdGfQ">Astronomy in Galaxy</a></span>;
                     <span class="gcc2024-authors">Denys Savchenko, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Estimating Cloud Computing Costs when Running Bioinformatics Workloads</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1LVVItJwPc9zXR7MF2g6CCbljKW3Ggzq9TOXMnF0b2Rc/edit?usp=sharing">Estimating Cloud Computing Costs when Running Bioinformatics Workloads</a></span>;
                     <span class="gcc2024-authors">Enis Afgan, et al.</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title">Community-Building Initiatives in Bioconductor</span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1fBhYVlYmVhiy600CC3ysJcsOxkw7pXje1rWXFDCROm4/edit?usp=sharing">Community-Building Initiatives in Bioconductor</a></span>;
                     <span class="gcc2024-authors">Maria Doyle</span>
                 </td>
             </tr>
