@@ -9,7 +9,7 @@ subsites: [eu, freiburg]
 main_subsite: freiburg
 ---
 
-Our paper "PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking", about PathoGFAIR a Galaxy created collection of workflows for microbiome analyses specially pathogen detection, is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1).
+Our paper "**PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking**", about PathoGFAIR a Galaxy created collection of workflows for microbiome analyses specially pathogen detection, is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1).
 
 <div class="multiple-img">
     <img src="graphical_abstract.png" width="800px" alt="Graphical Abstract" />
@@ -26,7 +26,7 @@ PathoGFAIR is a collection of Galaxy-based FAIR workflows employing state-of-the
 ### Conclusions
 PathoGFAIR detects the pathogens or the subspecies of the pathogens in any sample, regardless of whether the sample is isolated or incubated before sequencing. Importantly, PathoGFAIR is easy to use and can be straightforwardly adapted and extended for other types of analysis and sequencing techniques, making it usable in various pathogen detection scenarios.
 
-<embed src="https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
 
 [PathoGFAIR Webpage](https://usegalaxy-eu.github.io/PathoGFAIR/)
 
