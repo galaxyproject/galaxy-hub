@@ -4,8 +4,8 @@ date: '2024-07-08'
 tags: [paper]
 supporters:
 - EOSC
-subsites: [eu, freiburg]
-main_subsite: freiburg
+subsites: [eu, fr, freiburg]
+main_subsite: eu
 ---
 
 We are happy to share our new preprint bioRXiv: [**PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking**](https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1).
