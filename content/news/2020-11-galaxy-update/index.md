@@ -70,7 +70,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
 
-[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)
+[Donate now](https://jxtxfoundation.org/donate)
 
 </button>
 </div>
