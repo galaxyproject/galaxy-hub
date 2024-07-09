@@ -9,7 +9,7 @@ main_subsite: eu
 
 
 Galaxy Social is an innovative project aimed at democratizing and streamlining social media activities for the Galaxy community.
-Developed by the Freiburg Galaxy Team, this collaborative tool addresses several limitations of traditional social media management methods.
+This collaborative tool addresses several limitations of traditional social media management methods.
 
 Key features of Galaxy Social include:
 
