@@ -3,6 +3,7 @@ title: Galaxy Community Conference 2024 - a brief summary from the Freiburg Gala
 date: '2024-07-01'
 tease: A brief summary from the Freiburg Galaxy Team for GCC 2024
 tags: [CoFest, training, GCC, Elixir, EOSC, 2024, Brno]
+author: "Freiburg Galaxy Team"
 supporters:
 - JXTX Foundation
 - Worfklow4Metabelomics
@@ -19,8 +20,8 @@ main_subsite: eu
 The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024. 151 participants from 28 different countries, 54 talks, 55 posters/demos, 14 Birds of a Feather and 80 CoFest participants.
 
 ![GCC2024 Logo](gcc2024logo.png)
-![GCC2024 Group Picture](gcc2024groupphoto.png)
 
+![GCC2024 Group Picture](gcc2024groupphoto.png)
 
 ## Keynotes
 
@@ -40,8 +41,6 @@ Members of the Freiburg Galaxy team delivered a series of talks at the GCC confe
 
 ## Poster Sessions
 
-
-
 ## Trainings
 
 The conference featured various trainings for different levels and divers topics such as Galaxy development, admin and Galaxy-based scientific research.
@@ -57,17 +56,13 @@ The Freiburg Galaxy team contributed by providing training for:
 
 ## Panel Discussion
 
-
-
 ## Birds of a Feather (BoF)
-
-
 
 ## CoFest
 
 The Collaboration Fest (CoFest) concluded the conference, bringing together new and experienced Galaxy contributors for two days of discussion, learning, and cooperation at [Open Gardens](https://www.otevrenazahrada.cz/). Participants enjoyed the serene garden environment, taking breaks to visit the deers, pigs, chickens and rabbits. New contributors received guidance on the Galaxy Training Network from Saskia and Helena, while students like Shweta began learning tool wrapping under Björn's mentorship. Experienced contributors collaborated on new projects, including setting out a Galaxy Roadmap, creating a unified template for subdomains, and developing tools to improve data citations and workflow integration. CoFest fostered community growth and inspired future contributions.
 
-![GCC2024 CoFest](CoFest.jpg)
+![GCC2024 CoFest](gcc2024CoFest.jpg)
 
 ## Social Events
 
@@ -138,6 +133,3 @@ Dinner outings were a highlight, with groups exploring Brno’s culinary scene, 
 * The City of Brno
 * MUNI
 * Elixir Czech Republic
-
-
-
