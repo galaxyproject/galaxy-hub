@@ -26,6 +26,34 @@ By implementing a GitHub-based workflow, it encourages community participation w
 
 Future plans for Galaxy Social include supporting more social media platforms, introducing time-shifting for posts, improving video handling, and refining post-failure management.
 
-For those interested in contributing or learning more about Galaxy Social, visit the [project's GitHub repository](https://github.com/usegalaxy-eu/galaxy-social), [Poster](https://f1000research.com/posters/13-758), and [Slides](https://f1000research.com/slides/13-759).
+We hope to engage a wider audience with our innovative approach to social media management, and we invite everyone to contribute to the [Galaxy Social GitHub repository](https://github.com/usegalaxy-eu/galaxy-social).
+You can see here an example post:
+```
+---
+media:
+ - bluesky
+ - mastodon
+ - matrix
+ - slack
 
-This innovative approach to social media management not only enhances the Galaxy Project's outreach efforts but also serves as a model for other scientific communities looking to improve their social media presence collaboratively and securely.
+mentions:
+ bluesky:
+  - galaxyproject.bsky.social
+ mastodon:
+  - galaxyfreiburg@bawü.social
+
+hashtags:
+ bluesky:
+  - usegalaxy
+  - GalaxyCommunity
+ mastodon:
+  - usegalaxy
+---
+Deploy ARC endpoints in the EGI Federated Cloud easily with Infrastructure Manager
+https://galaxyproject.org/news/2024-05-20-esg-byoc-arc/
+```
+and here is the result in Slack, Matrix, Mastodon, and Bluesky:
+![image](https://github.com/arash77/galaxy-hub/assets/2973722/c8de8bdf-3cee-466f-aea3-d2462b4bc88f)
+
+
+For those interested in learning more about Galaxy Social, visit the [Poster](https://f1000research.com/posters/13-758), and [Slides](https://f1000research.com/slides/13-759).
