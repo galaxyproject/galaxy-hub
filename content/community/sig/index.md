@@ -35,7 +35,7 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 
 <!-- Earth -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="community/sig/earth">
+<a href="/community/sig/earth/">
 <div class="card-header bg-wg-applied text-white text-center">Earth</div>
 </a>
 
