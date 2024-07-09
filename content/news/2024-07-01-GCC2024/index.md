@@ -16,7 +16,8 @@ tags: [GCC-2024, CoFest, training, Elixir, EOSC, Brno]
 main_subsite: eu
 ---
 
-The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024. 151 participants from 28 different countries, 54 talks, 55 posters/demos, 14 Birds of a Feather and 80 CoFest participants.
+The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024.
+151 participants from 28 different countries, 54 talks, 55 posters/demos, 14 Birds of a Feather and 80 CoFest participants.
 
 ![GCC2024 Logo](gcc2024logo.png)
 
@@ -24,11 +25,17 @@ The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/event
 
 ## Keynotes
 
-The conference featured notable keynote speakers, including Jana Klánová from Masaryk University, who discussed the integration of exposomics into biomedical sciences. She highlighted the importance of studying environmental exposures and their effects on health, introduced RECETOX, and discussed European initiatives like PARC and EIRENE that support exposome research. Ute Gunsenheimer, Secretary General of the EOSC Association, spoke on building the EOSC Federation and the potential role of Galaxy. Dr. Daria Onichtchouk from the University of Freiburg shared her extensive use of the Galaxy platform in her research on the genetic control of pluripotency, focusing on the maternal to zygotic transition in zebrafish and its underlying mechanisms, including chromatin accessibility and nucleosome affinity.
+The conference featured notable keynote speakers, including Jana Klánová from Masaryk University, who discussed the integration of exposomics into biomedical sciences.
+She highlighted the importance of studying environmental exposures and their effects on health, introduced RECETOX, and discussed European initiatives like PARC and EIRENE that support exposome research.
+Ute Gunsenheimer, Secretary General of the EOSC Association, spoke on building the EOSC Federation and the potential role of Galaxy. Dr. Daria Onichtchouk from the University of Freiburg
+shared her extensive use of the Galaxy platform in her research on the genetic control of pluripotency, focusing on the maternal to zygotic transition in zebrafish and its underlying mechanisms,
+including chromatin accessibility and nucleosome affinity.
 
 ## Freiburg Galaxy Team Talks in GCC 2024 Talks Sessions
 
-Members of the Freiburg Galaxy team delivered a series of talks at the GCC conference, focusing on various aspects of data analysis and the utilization of Galaxy. Topics included integrating tools, strategies for effectively navigating complex data landscapes, innovative workflow management and optimization approaches, and a pioneering GitHub workflow aimed at automating social media outreach to enhance community engagement. 
+Members of the Freiburg Galaxy team delivered a series of talks at the GCC conference, focusing on various aspects of data analysis and the utilization of Galaxy.
+Topics included integrating tools, strategies for effectively navigating complex data landscapes, innovative workflow management and optimization approaches, and a pioneering
+GitHub workflow aimed at automating social media outreach to enhance community engagement. 
 
 * [A Galaxy Workflow Developer's Companion in your Browser](https://docs.google.com/presentation/d/1tXtgGSrUHTsX7adxTr9AzCmdOf2zWn74S_LN3n5HM7U/edit) by David López
 * [Enhanced Workflow Management in Galaxy](https://docs.google.com/presentation/d/1vyr7Qa7O2pJ2FZDVFQNlrQypXwhodhzUMTsusD9h6_0/edit#slide=id.g231410debac_0_0) by Alireza Heidari 
@@ -42,7 +49,10 @@ Members of the Freiburg Galaxy team delivered a series of talks at the GCC confe
 
 ## Poster Sessions
 
-The poster sessions at GCC2024, held during the first two days, showcased 55 posters, including 22 linked to conference talks, providing attendees with the opportunity to engage with presenters and delve deeper into their research over coffee. Topics ranged from technical advancements for Galaxy developers to metagenomics, drug discovery, and astrobiology. The posters highlighted new Galaxy features and resources, inspiring future projects, and showcased teaching activities, workshops, and exchange programs, emphasizing the community's dedication to education and collaboration. The Freiburg team contributed several posters, including:
+The poster sessions at GCC2024, held during the first two days, showcased 55 posters, including 22 linked to conference talks, providing attendees with the opportunity to
+engage with presenters and delve deeper into their research over coffee. Topics ranged from technical advancements for Galaxy developers to metagenomics, drug discovery,
+and astrobiology. The posters highlighted new Galaxy features and resources, inspiring future projects, and showcased teaching activities, workshops, and exchange programs,
+emphasizing the community's dedication to education and collaboration. The Freiburg team contributed several posters, including:
 
 - **A Galaxy Workflow Developer's Companion in Your Browser** by David López
 - **Automating Social Media Outreach: A GitHub Workflow for Galaxy Community** by Arash Kadkhodaei
@@ -73,7 +83,9 @@ GCC2024 hosted a panel discussion with prominent members of the Galaxy community
 
 ## Birds of a Feather (BoF)
 
-Birds of a Feather (BoF) sessions at GCC2024 offered a vibrant platform for diverse Galaxy ecosystem communities to exchange ideas on a wide range of topics. The 13 sessions covered subjects from technical data management to microbiology and mass spectrometry, and included discussions on upcoming events like the Galaxy Training Academy in October and the Art of Phylogeny. The Freiburg team actively contributed by leading sessions on:
+Birds of a Feather (BoF) sessions at GCC2024 offered a vibrant platform for diverse Galaxy ecosystem communities to exchange ideas on a wide range of topics.
+The 13 sessions covered subjects from technical data management to microbiology and mass spectrometry, and included discussions on upcoming events like the Galaxy Training Academy in October and the Art of Phylogeny.
+The Freiburg team actively contributed by leading sessions on:
 
 - **The Future of Galaxy in EOSC** by Björn Grüning
 - **Galaxy Collaborative Writing Group** by Marisa Loach
@@ -81,7 +93,10 @@ Birds of a Feather (BoF) sessions at GCC2024 offered a vibrant platform for dive
 
 ## CoFest
 
-The Collaboration Fest (CoFest) concluded the conference, bringing together new and experienced Galaxy contributors for two days of discussion, learning, and cooperation at [Open Gardens](https://www.otevrenazahrada.cz/). Participants enjoyed the serene garden environment, taking breaks to visit the deers, pigs, chickens and rabbits. New contributors received guidance on the Galaxy Training Network from Saskia and Helena, while students like Shweta began learning tool wrapping under Björn's mentorship. Experienced contributors collaborated on new projects, including setting out a Galaxy Roadmap, creating a unified template for subdomains, and developing tools to improve data citations and workflow integration. CoFest fostered community growth and inspired future contributions.
+The Collaboration Fest (CoFest) concluded the conference, bringing together new and experienced Galaxy contributors for two days of discussion, learning, and cooperation at [Open Gardens](https://www.otevrenazahrada.cz/).
+Participants enjoyed the serene garden environment, taking breaks to visit the deers, pigs, chickens and rabbits. New contributors received guidance on the Galaxy Training Network from Saskia and Helena,
+while students like Shweta began learning tool wrapping under Björn's mentorship. Experienced contributors collaborated on new projects, including setting out a Galaxy Roadmap,
+creating a unified template for subdomains, and developing tools to improve data citations and workflow integration. CoFest fostered community growth and inspired future contributions.
 
 ![GCC2024 CoFest](gcc2024CoFest.jpg)
 
@@ -89,15 +104,20 @@ The Collaboration Fest (CoFest) concluded the conference, bringing together new 
 
 ### Conference Dinner and Mendel Museum
 
-The conference dinner at the [Augustinian Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno/) at Mendel's square was really special. We had the opportunity to dine where Gregor Mendel conducted his famous experiments. Along with a delicious meal, we enjoyed free access to the Mendel Museum. The guided tours of the abbey, including Mendel's room and the library, were fascinating and provided us with insights into the history of genetics and Mendel's groundbreaking work.
+The conference dinner at the [Augustinian Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno/) at Mendel's Square was really special. We had the opportunity to dine where
+Gregor Mendel conducted his famous experiments. Along with a delicious meal, we enjoyed free access to the Mendel Museum. The guided tours of the abbey, including Mendel's room and the
+library, were fascinating and provided us with insights into the history of genetics and Mendel's groundbreaking work.
 
 ### City Tours and Villa Tugendhat
 
-On Wednesday, we had a delightful day exploring the [Villa Tugendhat](https://www.tugendhat.eu/en/) and [the city of Brno](https://www.gotobrno.cz/en/explore-brno/). A total of 31 people, divided into two groups, visited the Villa Tugendhat, while 66 people in two groups toured the city.
+On Wednesday, we had a delightful day exploring the [Villa Tugendhat](https://www.tugendhat.eu/en/) and [the city of Brno](https://www.gotobrno.cz/en/explore-brno/).
+A total of 31 people, divided into two groups, visited the Villa Tugendhat, while 66 people in two groups toured the city.
 
-One Villa tour group took the tram, and another group enjoyed a walk despite the warm weather. The Villa Tugendhat visit was particularly special due to its remarkable modernity for its time. Designed by German architect Ludwig Mies van der Rohe, the villa was built in just two years by the wealthy and influential Jewish Czech Tugendhat family. It is recognized as a UNESCO World Heritage Site.
+One Villa tour group took the tram, and another group enjoyed a walk despite the warm weather. The Villa Tugendhat visit was particularly special due to its remarkable modernity for its time.
+Designed by German architect Ludwig Mies van der Rohe, the villa was built in just two years by the wealthy and influential Jewish Czech Tugendhat family. It is recognized as a UNESCO World Heritage Site.
 
-During the city tour, we explored the main sights of Brno's city center with guided tours organized by the Brno Tourist Information Centre. We visited the Old Town Hall, St. Peter's Cathedral, as well as the Freedom and Market Squares. The experience was enjoyable and provided a rich insight into Brno's history and culture.
+During the city tour, we explored the main sights of Brno's city center with guided tours organized by the Brno Tourist Information Centre. We visited the Old Town Hall, St. Peter's Cathedral,
+as well as the Freedom and Market Squares. The experience was enjoyable and provided a rich insight into Brno's history and culture.
 
 ### Conference Nights Activities
 
@@ -105,7 +125,9 @@ Beyond the enriching presentations and discussions, conference nights were fille
 
 ![GCC2024 Billiards](gcc2024billiards.jpg)
 
-Dinner outings were a highlight, with groups exploring Brno’s culinary scene, sampling delicious Mexican and Indian cuisine. The evenings often concluded with open-air talks, where participants relaxed and enjoyed local beers and [Kofola](https://en.wikipedia.org/wiki/Kofola/) at various pubs and bars, further strengthening connections and creating memorable experiences.
+Dinner outings were a highlight, with groups exploring Brno’s culinary scene, and sampling delicious Mexican and Indian cuisine.
+The evenings often concluded with open-air talks, where participants relaxed and enjoyed local beers and [Kofola](https://en.wikipedia.org/wiki/Kofola/) at various pubs and bars,
+further strengthening connections and creating memorable experiences.
 
 ![GCC2024 Beer Nights](gcc2024beer.jpg)
 
