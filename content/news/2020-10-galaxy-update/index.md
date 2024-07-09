@@ -35,9 +35,9 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <img class="card-img-top" src="/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
 <div class="card-header">[First JTech Scholarships Awarded](/news/2020-09-jtech-scholarships/)</div>
 
-The [first group of scholarships have been awarded](/news/2020-09-jtech-scholarships/) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://jxtxfoundation.org/donate) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
+The [first group of scholarships have been awarded](/news/2020-09-jtech-scholarships/) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://jxtxfoundation.org/donate/) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
 
-**Please consider [making a donation to JTech](https://jxtxfoundation.org/donate) to support James Taylor’s legacy.**
+**Please consider [making a donation to JTech](https://jxtxfoundation.org/donate/) to support James Taylor’s legacy.**
 </div>
 
 

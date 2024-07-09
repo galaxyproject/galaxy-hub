@@ -194,4 +194,4 @@ Towards the goal of advancing mentorship, the JXTX Foundation will organize and 
 
 According to his colleagues, James hated self-promotion. But the community would be done a grave disservice if the seeds planted by Dr.Taylor were not nourished to grow and flourish.  Thank you to those who have generously contributed.
 
-**Please consider [making a donation](https://jxtxfoundation.org/donate) to support James Taylor’s legacy.**
+**Please consider [making a donation](https://jxtxfoundation.org/donate/) to support James Taylor’s legacy.**

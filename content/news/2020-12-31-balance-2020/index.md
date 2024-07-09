@@ -34,7 +34,7 @@ _Fu** 2020! What a shitty year! But it's over and we hope you and your family ar
 
 This has been a tough year for everyone. No matter where you were born, which social status or other conditions you live with, the pandemic has affected all of us. Science has been challenged like never before and the society and the way we humans relate to each other have profoundly changed in an unforeseen way. 
 
-For the global Galaxy community, the tragic loss of [James Taylor](https://galaxyproject.org/jxtx/) in April increased that grief. His values are now represented by the [JXTX Foundation for Open Science](https://galaxyproject.org/jxtx/foundation/). Please consider [contributing to the JXTX Foundation](https://jxtxfoundation.org/donate).
+For the global Galaxy community, the tragic loss of [James Taylor](https://galaxyproject.org/jxtx/) in April increased that grief. His values are now represented by the [JXTX Foundation for Open Science](https://galaxyproject.org/jxtx/foundation/). Please consider [contributing to the JXTX Foundation](https://jxtxfoundation.org/donate/).
 
 Despite all the bad news, we want to end it with a **positive note by walking through some of the good news and progresses made this year**.
 

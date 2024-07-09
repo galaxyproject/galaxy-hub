@@ -70,7 +70,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
 
-[Donate now](https://jxtxfoundation.org/donate)
+[Donate now](https://jxtxfoundation.org/donate/)
 
 </button>
 </div>

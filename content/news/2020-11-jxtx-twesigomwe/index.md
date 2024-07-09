@@ -24,7 +24,7 @@ Please help further the careers of junior researchers by considering make a cont
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
 
-[Donate now](https://jxtxfoundation.org/donate)
+[Donate now](https://jxtxfoundation.org/donate/)
 
 </button>
 </div>

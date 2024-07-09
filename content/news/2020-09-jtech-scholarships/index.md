@@ -7,9 +7,9 @@ redirect: "/news/2020-10-jxtx-awardees/"
 subsites: [global, us]
 ---
 
-We are pleased to announce the first group of scholarship awardees for the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://jxtxfoundation.org/donate) program.  JTech supports graduate students, post-docs and junior faculty working at the intersection of computational biology and data science.  The first group of 10 awardees are graduate students presenting their work at the [2020 CSHL Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20) conference.  Awardees represent ten institutions and are presenting a wide range of research at the meeting:
+We are pleased to announce the first group of scholarship awardees for the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://jxtxfoundation.org/donate/) program.  JTech supports graduate students, post-docs and junior faculty working at the intersection of computational biology and data science.  The first group of 10 awardees are graduate students presenting their work at the [2020 CSHL Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20) conference.  Awardees represent ten institutions and are presenting a wide range of research at the meeting:
 
-[<img class="float-right" style="max-width: 14rem" src="/jxtx/jtech-logo-with-text-500.png" alt="JTech" />](https://jxtxfoundation.org/donate)
+[<img class="float-right" style="max-width: 14rem" src="/jxtx/jtech-logo-with-text-500.png" alt="JTech" />](https://jxtxfoundation.org/donate/)
 
 * **Emily Davis-Marcisak**, Johns Hopkins University
     * *Matrix factorization of single-cell RNA-sequencing identifies immune cell states that project across species, cancer type, and infectious disease*
@@ -38,4 +38,4 @@ In addition to covering conference registration, awardees will also be paired wi
 
 “The most important job of senior faculty is to mentor junior faculty and students.” These are the words that Professor [James P. Taylor](/jxtx/), the Ralph S. O’Connor Professor at the Departments of Biology and Computer Science at Johns Hopkins University said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
 
-**Please consider [making a donation](https://jxtxfoundation.org/donate) to support James Taylor’s legacy.**
+**Please consider [making a donation](https://jxtxfoundation.org/donate/) to support James Taylor’s legacy.**
