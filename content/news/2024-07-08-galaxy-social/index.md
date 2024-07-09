@@ -2,7 +2,7 @@
 title: Galaxy Social - Democratising Galaxy’s social media activity
 date: '2024-07-08'
 tease: A summary of what Galaxy Social is.
-tags: [2024, social media, outreach]
+tags: [outreach]
 subsites: [all-eu, global, us]
 main_subsite: eu
 ---
