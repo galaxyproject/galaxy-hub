@@ -1,9 +1,8 @@
 ---
-title: Galaxy Community Conference 2024 - a brief summary from the Freiburg Galaxy Team!
+title: "Galaxy Community Conference 2024 - a brief summary from the Freiburg Galaxy Team!"
+tease: "A brief summary from the Freiburg Galaxy Team for GCC 2024"
 date: '2024-07-01'
-tease: A brief summary from the Freiburg Galaxy Team for GCC 2024
-tags: [CoFest, training, GCC, Elixir, EOSC, 2024, Brno]
-author: "Freiburg Galaxy Team"
+authors: Freiburg Galaxy Team
 supporters:
 - JXTX Foundation
 - Worfklow4Metabelomics
@@ -13,6 +12,7 @@ supporters:
 - Limagrain
 - deNBI
 subsites: [all-eu, global, us]
+tags: [GCC-2024, CoFest, training, Elixir, EOSC, Brno]
 main_subsite: eu
 ---
 
@@ -42,22 +42,42 @@ Members of the Freiburg Galaxy team delivered a series of talks at the GCC confe
 
 ## Poster Sessions
 
+The poster sessions at GCC2024, held during the first two days, showcased 55 posters, including 22 linked to conference talks, providing attendees with the opportunity to engage with presenters and delve deeper into their research over coffee. Topics ranged from technical advancements for Galaxy developers to metagenomics, drug discovery, and astrobiology. The posters highlighted new Galaxy features and resources, inspiring future projects, and showcased teaching activities, workshops, and exchange programs, emphasizing the community's dedication to education and collaboration. The Freiburg team contributed several posters, including:
+
+- **A Galaxy Workflow Developer's Companion in Your Browser** by David López
+- **Automating Social Media Outreach: A GitHub Workflow for Galaxy Community** by Arash Kadkhodaei
+- **Upgrading User Experience: Introducing the New Galaxy UI** by Alireza Heidari and Laila Los
+- **MAdLand Computational Resources Through Galaxy** by Deepti Varshney, Saskia Hiltemann, and Björn Grüning
+- **Community-Driven Standards Development for Reference Genome Generation** by Saim Momin and Björn Grüning
+- **WALL·E – Prevent Abuse of Interactive Research Environments** by Mira Kuntz
+- **Expanding Horizons: Single-Cell Multiomics Analysis Tools in Galaxy** by Pavankumar Videm
+- **Giving the Single Cell Community the Tools It Needs on Galaxy – an ELIXIR Staff Exchange Project** by Marisa Loach
+- **microGalaxy SIG: Microbial Data Analysis Resources in Galaxy** by Paul Zierep, Engy Nasr, and Saim Momin
+
+
 ## Trainings
 
-The conference featured various trainings for different levels and diverse topics such as Galaxy development, admin, and Galaxy-based scientific research.
-The Freiburg Galaxy team contributed by providing training for:
+The conference featured various trainings for different levels and diverse topics such as Galaxy development, admin, and Galaxy-based scientific research. The Freiburg Galaxy team contributed by providing training for:
 
 * [BioConda & BioContainers](https://galaxyproject.org/events/gcc2024/training/bioconda) by Björn Grüning
-* [Machine Learning](https://galaxyproject.org/events/gcc2024/training/machine-learning) by Anup Kumar *et. al.*
-* [Galaxy Backend Development](https://galaxyproject.org/events/gcc2024/training/backend-dev) by David Lopez *et. al.*
-* [Alphafold in Galaxy](https://galaxyproject.org/events/gcc2024/training/alphafold) by Björn Grüning *et. al.*
+* [Machine Learning](https://galaxyproject.org/events/gcc2024/training/machine-learning) by Anup Kumar et. al.
+* [Galaxy Backend Development](https://galaxyproject.org/events/gcc2024/training/backend-dev) by David Lopez et. al.
+* [Alphafold in Galaxy](https://galaxyproject.org/events/gcc2024/training/alphafold) by Björn Grüning et. al.
 * [Pathogen Detection from (Direct Nanopore) Sequencing Data using Galaxy](https://galaxyproject.org/events/gcc2024/training/microbiome-analysis) by Engy Nasr
-* [CSS Deep-Dive](https://galaxyproject.org/events/gcc2024/training/frontend-dev) by Laila Los *et. al.*
+* [CSS Deep-Dive](https://galaxyproject.org/events/gcc2024/training/frontend-dev) by Laila Los et. al.
 * [Collecting, Organizing, and Broadcasting Galaxy Tools for a Dedicated Scientific Community (using the Galaxy CoDex)](https://galaxyproject.org/events/gcc2024/training/frontend-dev) by Paul Zierep
 
 ## Panel Discussion
 
+GCC2024 hosted a panel discussion with prominent members of the Galaxy community, moderated by Enis Afgan, Associate Research Scientist at Johns Hopkins University and Galaxy Project Administrator. The panelists were Brad Langhorst, Group Leader at New England Biolabs; Shurjo K. Sen, Program Director at the National Institutes of Health; Wendi Bacon, Senior Lecturer at The Open University and Galaxy Project Administrator with expertise in single-cell analysis; and Jeremy Goecks, Assistant Center Director of Research Informatics at Moffitt Cancer Center. They provided valuable insights from diverse sectors of the Galaxy ecosystem, including biotechnology, medical research, and federal funding.
+
 ## Birds of a Feather (BoF)
+
+Birds of a Feather (BoF) sessions at GCC2024 offered a vibrant platform for diverse Galaxy ecosystem communities to exchange ideas on a wide range of topics. The 13 sessions covered subjects from technical data management to microbiology and mass spectrometry, and included discussions on upcoming events like the Galaxy Training Academy in October and the Art of Phylogeny. The Freiburg team actively contributed by leading sessions on:
+
+- **The Future of Galaxy in EOSC** by Björn Grüning
+- **Galaxy Collaborative Writing Group** by Marisa Loach
+- **microGalaxy SIG with BioDIGS and GDSCN** by Paul Zierep
 
 ## CoFest
 
@@ -69,7 +89,7 @@ The Collaboration Fest (CoFest) concluded the conference, bringing together new 
 
 ### Conference Dinner and Mendel Museum
 
-The conference dinner at the [Augustinian Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno) at Mendel's square was really special. We had the opportunity to dine where Gregor Mendel conducted his famous experiments. Along with a delicious meal, we enjoyed free access to the Mendel Museum. The guided tours of the abbey, including Mendel's room and the library, were fascinating and provided us with insights into the history of genetics and Mendel's groundbreaking work.
+The conference dinner at the [Augustinian Abbey](https://en.wikipedia.org/wiki/St_Thomas%27s_Abbey,_Brno/) at Mendel's square was really special. We had the opportunity to dine where Gregor Mendel conducted his famous experiments. Along with a delicious meal, we enjoyed free access to the Mendel Museum. The guided tours of the abbey, including Mendel's room and the library, were fascinating and provided us with insights into the history of genetics and Mendel's groundbreaking work.
 
 ### City Tours and Villa Tugendhat
 
@@ -85,7 +105,7 @@ Beyond the enriching presentations and discussions, conference nights were fille
 
 ![GCC2024 Billiards](gcc2024billiards.jpg)
 
-Dinner outings were a highlight, with groups exploring Brno’s culinary scene, sampling delicious Mexican and Indian cuisine. The evenings often concluded with open-air talks, where participants relaxed and enjoyed local beers and [Kofola](https://en.wikipedia.org/wiki/Kofola) at various pubs and bars, further strengthening connections and creating memorable experiences.
+Dinner outings were a highlight, with groups exploring Brno’s culinary scene, sampling delicious Mexican and Indian cuisine. The evenings often concluded with open-air talks, where participants relaxed and enjoyed local beers and [Kofola](https://en.wikipedia.org/wiki/Kofola/) at various pubs and bars, further strengthening connections and creating memorable experiences.
 
 ![GCC2024 Beer Nights](gcc2024beer.jpg)
 
@@ -119,14 +139,14 @@ Dinner outings were a highlight, with groups exploring Brno’s culinary scene, 
 * Ahmed Awan, Johns Hopkins University, United States
 * Björn Grüning, University of Freiburg, Germany
 
-## Thank you to All GCC 2024 sponsors:
+## Thank you to all GCC 2024 sponsors
 
 * [JXTX Foundation](https://jxtxfoundation.org/)
 * [Worfklow4Metabelomics](https://workflow4metabolomics.org/)
 * [GalaxyWorks](https://galaxyworks.io/)
-* [GigaScience](https://academic.oup.com/gigascience)
+* [GigaScience](https://academic.oup.com/gigascience/)
 * [KWS](https://www.kws.com/corp/en/)
-* [Limagrain](https://www.limagrain.com/en)
+* [Limagrain](https://www.limagrain.com/en/)
 * [deNBI](https://www.denbi.de/)
 
 ## Thanks to the GCC 2024 hosts
