@@ -11,9 +11,9 @@ subsites: [all-eu, global]
 
 [Shiny apps](https://shiny.posit.co/) are web apps using R functionality, that give easy responsive access to R packages. 
 Interactive tools are a great way to work with data interactively and responsive using Galaxy. In theory all shiny apps could become ITs, but so far the 
-wrapping and deployment of shiny apps as ITs was technically challenging. Thanks to a Hackathon together with members from the Bioconductor 
-communities best-practices for the development of ITs using Shiny apps were developed, focusing mainly on the development of a Docker image, that can be used
-as a starting point to add any shiny app. 
+wrapping and deployment of shiny apps as ITs was technically challenging. Thanks to a 2 day hackathon in february in Freiburg together with members from the Bioconductor 
+community best-practices for the development of ITs using Shiny apps were developed, focusing mainly on the development of a docker image, that can be used
+as a starting point to add any shiny app.
 As a proof-of-concept the [shiny-phyloseq app](https://github.com/joey711/shiny-phyloseq) has been wrapped as IT. 
 A fork of this Docker image tailored for the shiny app is available here: https://github.com/paulzierep/docker-phyloseq.
 The image can be run locally to test the app and then must be deployed to [quay.io](https://quay.io) or any other Docker registry. 
@@ -51,6 +51,10 @@ Although the IT worked with the original shiny app. The shiny-phyloseq app did n
 
 The changes made to the original app can be found in this [git diff](https://github.com/joey711/shiny-phyloseq/compare/master...paulzierep:shiny-phyloseq:master).
 
-# Demo of the IT
+## Demo of the IT
 
 ![Demo](alpha-div.gif)
+
+## Outlook
+
+To improve the usability and Galaxy-interaction of the phyloseq-shiny app we are working on the possibility to export data (figures, modified phyloseq objects) to the Galaxy history, either by collecting the data as outputs of the IT or by using utility functions such as put / get, that are used in other ITs like [R-studio](https://usegalaxy.eu/?tool_id=interactive_tool_rstudio&version=latest). 
