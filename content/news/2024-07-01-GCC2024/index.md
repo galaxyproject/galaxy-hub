@@ -16,7 +16,6 @@ subsites: [all-eu, global, us]
 main_subsite: eu
 ---
 
-
 The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024. 151 participants from 28 different countries, 54 talks, 55 posters/demos, 14 Birds of a Feather and 80 CoFest participants.
 
 ![GCC2024 Logo](gcc2024logo.png)
@@ -39,7 +38,7 @@ Members of the Freiburg Galaxy team delivered a series of talks at the GCC confe
 * [PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison](https://f1000research.com/slides/13-716) by Engy Nasr
 * [Automating Social Media Outreach: A GitHub Workflow for Galaxy Community](https://f1000research.com/slides/13-759) by Arash Kadkhodaei
 
-![GCC2024 Talks](GCC_talk.jpg)
+![GCC2024 Talks](gcc2024talks.jpg)
 
 ## Poster Sessions
 
