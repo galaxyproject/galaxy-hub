@@ -33,17 +33,19 @@ Members of the Freiburg Galaxy team delivered a series of talks at the GCC confe
 
 * [A Galaxy Workflow Developer's Companion in your Browser](https://docs.google.com/presentation/d/1tXtgGSrUHTsX7adxTr9AzCmdOf2zWn74S_LN3n5HM7U/edit) by David López
 * [Enhanced Workflow Management in Galaxy](https://docs.google.com/presentation/d/1vyr7Qa7O2pJ2FZDVFQNlrQypXwhodhzUMTsusD9h6_0/edit#slide=id.g231410debac_0_0) by Alireza Heidari 
-* [MAdLand computational resources through Galaxy](https://docs.google.com/presentation/d/1KF6ctfqGpPoNpUF7Fin9ex-vPmICGew6B2gHBf0YfXI/edit#slide=id.g2e386364440_0_195) by Deepti Varshney
+* [MAdLand computational resources through Galaxy](https://f1000research.com/slides/13-776) by Deepti Varshney
 * [Navigating the variant landscape: integrating MAVE data analysis into Galaxy](https://docs.google.com/presentation/d/1LGqDHCVEmsYeWxTmLL2Hn4uPiH4PL0rWedBRO_fJdzY/edit#slide=id.p) by Polina Polunina
 * [Viral pathogen data analysis with Galaxy](https://docs.google.com/presentation/d/15Df3YZVsDa4PwkBQtP4EMGHyzsovufzmpbgT6YSLgzU/edit) by Wolfgang Maier
 * [PathoGFAIR: FAIR Workflows for Pathogen Detection & Samples Comparison](https://f1000research.com/slides/13-716) by Engy Nasr
-* [Automating Social Media Outreach: A GitHub Workflow for Galaxy Community](https://docs.google.com/presentation/d/11wchlYBzEFcMSn4NEJ0I0h7WM3rGNU5LUm-bL2FuH4c/edit#slide=id.p) by Arash Kadkhodaei
+* [Automating Social Media Outreach: A GitHub Workflow for Galaxy Community](https://f1000research.com/slides/13-759) by Arash Kadkhodaei
+
+![GCC2024 Talks](GCC_talk.jpg)
 
 ## Poster Sessions
 
 ## Trainings
 
-The conference featured various trainings for different levels and divers topics such as Galaxy development, admin and Galaxy-based scientific research.
+The conference featured various trainings for different levels and diverse topics such as Galaxy development, admin, and Galaxy-based scientific research.
 The Freiburg Galaxy team contributed by providing training for:
 
 * [BioConda & BioContainers](https://galaxyproject.org/events/gcc2024/training/bioconda) by Björn Grüning
