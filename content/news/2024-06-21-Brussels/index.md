@@ -46,4 +46,5 @@ The deployment of a network between data repositories and services will be instr
 Coordination meetings are quite intense and are very different from scientific meetings. We were happy to meet friends and project partners there and spent two nice days in Brussels.
 
 ![ESG everywhere](ESG_everywhere.jpg)
+
 ![Dinner and watching the soccer match](Dinner.jpg)
