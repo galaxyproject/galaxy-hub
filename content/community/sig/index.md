@@ -36,7 +36,6 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 <!-- Earth -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://earth-system.usegalaxy.eu">
-<a href="https://aqua.usegalaxy.eu">
 <div class="card-header bg-wg-applied text-white text-center">Earth</div>
 </a>
 
@@ -122,7 +121,7 @@ An open, interoperable web service platform for natural language processing (NLP
 
 Anything regarding microbial data analysis in Galaxy, with meetings, working groups, chat and mailing list
 
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org) 
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org)
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://microgalaxy.usegalaxy.eu)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im)
 
@@ -284,7 +283,7 @@ The European Galaxy Community and the European Galaxy Server.
 <div class="card-header bg-wg-applied text-white text-center">France</div>
 </a>
 
-Galaxy in the French-speaking world. 
+Galaxy in the French-speaking world.
 
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://community.france-bioinformatique.fr/c/galaxy/8)
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://usegalaxy.fr)
@@ -439,4 +438,3 @@ Collaboration Between VGP and Galaxy Project for free and easy access to large g
 </div>
 
 </div>
-
