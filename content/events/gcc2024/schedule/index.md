@@ -104,8 +104,8 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1V9DmVhtbYNtepcPr-eokM4aZktsx8HaFIW38A3N4Abk/edit">A Galaxy Workflow Developer's Companion in your Browser</a></span>;
-                    <span class="gcc2024-authors">David López</span>
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1V9DmVhtbYNtepcPr-eokM4aZktsx8HaFIW38A3N4Abk/edit">A Maintaining and improving a large collection of workflows</a></span>;
+                    <span class="gcc2024-authors">Marius van den Beek</span>
                 </td>
             </tr>
             <tr>
