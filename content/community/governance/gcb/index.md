@@ -32,6 +32,16 @@ This is analogous to the [Technical Board](/community/governance/gtb/), consisti
 
 You can learn more about **SIGs** in our dedicated tutorials below, or explore our [**SIG** directory](/community/sig).
 
+<div class="box">
+    <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html" style="margin-right: 10px">  
+      <img src="gtn_hat.png" alt="GTN Hat" width="50">  
+      What is a SIG?  
+    </a>
+</div>
+
+
+Original boxes
+
 <button type="button" onclick="window.open('https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html', '_blank')" style="margin-right: 10px">
   <img src="gtn_hat.png" alt="GTN Hat" width="50">
   What is a SIG?
