@@ -104,7 +104,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1V9DmVhtbYNtepcPr-eokM4aZktsx8HaFIW38A3N4Abk/edit">A Maintaining and improving a large collection of workflows</a></span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1V9DmVhtbYNtepcPr-eokM4aZktsx8HaFIW38A3N4Abk/edit">Maintaining and improving a large collection of workflows</a></span>;
                     <span class="gcc2024-authors">Marius van den Beek</span>
                 </td>
             </tr>
@@ -356,7 +356,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             </tr>
             <tr>
                 <td>
-                    <span class="gcc2024-title"<a target="_blank" href="https://docs.google.com/presentation/d/1Yjipx-fCPTx_cAxZTnLqkOIZbQuE8BRgnT2HMii8ULM/edit?usp=sharing">Structural annotation of repeated regions in the Psidium guajava L. genome and development of molecular markers for regulatory regions</a></span>;
+                    <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/1Yjipx-fCPTx_cAxZTnLqkOIZbQuE8BRgnT2HMii8ULM/edit?usp=sharing">Structural annotation of repeated regions in the Psidium guajava L. genome and development of molecular markers for regulatory regions</a></span>;
                     <span class="gcc2024-authors">Giovanna Pinto Pires, et al.</span>
                 </td>
                 <td>
@@ -599,7 +599,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             <tr>
                 <td>26</td>
                 <td>
-                    Hosting Galaxy at the Edge: Directly in Your Pocket!</span>;
+                    <span class="gcc2024-title">Hosting Galaxy at the Edge: Directly in Your Pocket!</span>;
                     <span class="gcc2024-authors">Mehmet Tekman</span>
                 </td>
             </tr>
