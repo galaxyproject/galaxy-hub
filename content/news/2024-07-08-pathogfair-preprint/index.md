@@ -4,7 +4,7 @@ date: '2024-07-08'
 tags: [paper]
 supporters:
 - EOSC
-subsites: [eu, fr, freiburg]
+subsites: [eu, fr, freiburg, global]
 main_subsite: eu
 ---
 
