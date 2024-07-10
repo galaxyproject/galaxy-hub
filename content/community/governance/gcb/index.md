@@ -5,11 +5,27 @@
 ## Where is the GCB in the Galaxy Governance Structure?
 
 <div class="row">
-  <div class="col-md-6"> <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/?expand-all=true#details-what-is-the-galaxy-governance-structure" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
+  <div class="col-md-6">
+    <div class="row">
+    <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/?expand-all=true#details-what-is-the-galaxy-governance-structure" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
+    </div>
   </div>
   <div class="col-md-6"> <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/?expand-all=true#details-what-s-the-galaxy-community-board" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
   </div>
 </div>
+
+div.row
+  div.col-md-6
+    div.row
+      iframe
+    div.row
+      snippet
+
+  div.col-md-6
+    div.row
+      iframe
+    div.row
+      snippet
 
 <div style="clear:both;"></div> <!-- Clear the floats -->
 
