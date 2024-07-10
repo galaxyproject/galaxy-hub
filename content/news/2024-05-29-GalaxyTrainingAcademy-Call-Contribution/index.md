@@ -21,7 +21,7 @@ This track system can assist with onboarding or in-depth understanding of facets
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Register Now](https://forms.gle/B554dNtN5HEuC5XY9)
+<a href="https://forms.gle/B554dNtN5HEuC5XY9">Register Now</a>
 </button>
 </div>
 
