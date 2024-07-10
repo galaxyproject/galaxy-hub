@@ -34,13 +34,12 @@ You can learn more about **SIGs** in our dedicated tutorials below, or explore o
   What is a SIG?
 </button>
 
-
-
-
-<button type = "https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html" target="_blank">
-  <img src="gtn_hat.png" alt="GTN Hat" width = "50">
+<button type="button" onclick="window.open('https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html', '_blank')">
+  <img src="/content/community/governance/gcb/gtn_hat.png" alt="GTN Hat" width="50">
   Creating a SIG
 </button>
+
+
 
 ## Purpose
 
