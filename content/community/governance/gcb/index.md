@@ -2,26 +2,24 @@
 
 **Keywords:** Special Interest Groups, Community of Practices
 
+<!-- This is the text from this GTN snippet. One day, would be good to make one central location for this and embed it https://training.galaxyproject.org/training-material/topics/community/faqs/governance_gcb.html -->
+
+The Galaxy Community Board provides a supportive virtual forum for the exchange of ideas, and a governance body to represent [**Special Interest Groups** (SIGs)](https://galaxyproject.org/community/sig/) in Galaxy.
+
+The goals of the GCB are to:
+
+ - share resources, tips & best practices to make running **SIGs** easier;
+ - discuss scientist (user) feedback to help guide Galaxy platform development;
+ - communicate scientist (user) needs to the Galaxy Governance structure; and
+ - develop proposals to advance scientist (user) goals in the Galaxy community.
+
 ## Where is the GCB in the Galaxy Governance Structure?
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="row">
-    <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/?expand-all=true#details-what-is-the-galaxy-governance-structure" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
-    </div>
-  </div>
-  <div class="col-md-6"> <iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/?expand-all=true#details-what-s-the-galaxy-community-board" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
-  </div>
-</div>
+<!-- This is the text from this GTN snippet. One day, would be good to make one central location for this and embed it https://training.galaxyproject.org/training-material/topics/community/faqs/governance_structure.html -->
 
+Galaxy Governance consists of a [Galaxy Executive Board](https://galaxyproject.org/community/governance/geb/) that provides global direction, working with a [Galaxy Technical Board](https://galaxyproject.org/community/governance/gtb/) that represents [Working Groups](https://galaxyproject.org/community/wg/) and a [Galaxy Community Board](https://galaxyproject.org/community/governance/gcb/) that represents [Special Interest Groups](https://galaxyproject.org/community/sig/).
 
-
-<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_structure.html#what-is-the-galaxy-governance-structure" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
-
-<img src="/content/community/governance/gcb/gtn_hat.png" alt="GTN Hat" width="50">
-
-
-<div style="clear:both;"></div> <!-- Clear the floats -->
+![Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom](structure.png)
 
 ## Who is in the GCB?
 Each Galaxy Special Interest Group (**SIG**) may elect one member to represent their interests on the [GCB](/community/governance/gcb/). In practice, this is often (but not always) the person chairing the **SIG**.
