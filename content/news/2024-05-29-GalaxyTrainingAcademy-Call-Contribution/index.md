@@ -10,7 +10,6 @@ main_subsite: global
 
 We are happy to announce the Galaxy Training Academy 2024, a global online training event where learners can get to know Galaxy and learn how to analyze data for various research topics.
 
-
 **Dates**: October 07-11, 2024
 **Location**: Global online
 **Registration deadline**: July the 26th
@@ -20,6 +19,11 @@ We are happy to announce the Galaxy Training Academy 2024, a global online train
 The event will provide a self-paced online learning experience for learners who would like to dive into the depths of Galaxy data analysis. The event is similar to the Smörgåsbord, but the program will be more structured. On Monday learners can get to know Galaxy and its various functionalities. Between Tuesday and Thursday, learners can choose from different Tracks that they are interested in. Friday will be dedicated to shorter topics. 
 This track system can assist with onboarding or in-depth understanding of facets of one research area. The learners will still choose their program for the week, but the track structure will provide guidance on what order will help them achieve their individual learning goals. We will support them via chat in their self-paced learning endeavors.
 
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Register Now](https://forms.gle/B554dNtN5HEuC5XY9)
+</button>
+</div>
 
 
 ### Initial Program:
