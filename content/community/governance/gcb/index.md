@@ -25,8 +25,6 @@ Galaxy Governance consists of a [Galaxy Executive Board](https://galaxyproject.o
 ![Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom](structure.png)
 </p>
 
-
-
 <img src="structure.png" alt="Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom" style="width:450px">
 
 
