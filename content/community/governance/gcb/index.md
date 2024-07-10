@@ -2,6 +2,8 @@
 
 **Keywords:** Special Interest Groups, Community of Practices
 
+<slot name="/community/governance/linkbox" />
+
 <!-- This is the text from this GTN snippet. One day, would be good to make one central location for this and embed it https://training.galaxyproject.org/training-material/topics/community/faqs/governance_gcb.html -->
 
 The Galaxy Community Board provides a supportive virtual forum for the exchange of ideas, and a governance body to represent [**Special Interest Groups** (SIGs)](https://galaxyproject.org/community/sig/) in Galaxy.
