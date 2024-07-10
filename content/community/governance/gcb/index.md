@@ -22,10 +22,8 @@ The goals of the GCB are to:
 Galaxy Governance consists of a [Galaxy Executive Board](https://galaxyproject.org/community/governance/geb/) that provides global direction, working with a [Galaxy Technical Board](https://galaxyproject.org/community/governance/gtb/) that represents [Working Groups](https://galaxyproject.org/community/wg/) and a [Galaxy Community Board](https://galaxyproject.org/community/governance/gcb/) that represents [Special Interest Groups](https://galaxyproject.org/community/sig/).
 
 <p align="center">
-![Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom](structure.png)
-</p>
-
 <img src="structure.png" alt="Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom" style="width:450px">
+</p>
 
 
 ## Who is in the GCB?
@@ -35,12 +33,12 @@ This is analogous to the [Technical Board](/community/governance/gtb/), consisti
 You can learn more about **SIGs** in our dedicated tutorials below, or explore our [**SIG** directory](/community/sig).
 
 <button type="button" onclick="window.open('https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html', '_blank')">
-  <img src="/content/community/governance/gcb/gtn_hat.png" alt="GTN Hat" width="50">
+  <img src="gtn_hat.png" alt="GTN Hat" width="50">
   What is a SIG?
 </button>
 
 <button type="button" onclick="window.open('https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html', '_blank')">
-  <img src="/content/community/governance/gcb/gtn_hat.png" alt="GTN Hat" width="50">
+  <img src="gtn_hat.png" alt="GTN Hat" width="50">
   Creating a SIG
 </button>
 
