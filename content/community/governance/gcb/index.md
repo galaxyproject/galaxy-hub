@@ -14,18 +14,12 @@
   </div>
 </div>
 
-div.row
-  div.col-md-6
-    div.row
-      iframe
-    div.row
-      snippet
 
-  div.col-md-6
-    div.row
-      iframe
-    div.row
-      snippet
+
+<iframe src="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_structure.html#what-is-the-galaxy-governance-structure" height="470px" width="100%" scrolling="no" frameborder="0"></iframe>
+
+<img src="/content/community/governance/gcb/gtn_hat.png" alt="GTN Hat" width="50">
+
 
 <div style="clear:both;"></div> <!-- Clear the floats -->
 
