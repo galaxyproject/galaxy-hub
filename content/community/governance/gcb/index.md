@@ -1,8 +1,8 @@
 # Galaxy Community Board (GCB)
 
-**Keywords:** Special Interest Groups, Community of Practices
-
 <slot name="/community/governance/linkbox" />
+
+**Keywords:** Special Interest Groups, Community of Practices
 
 <!-- This is the text from this GTN snippet. One day, would be good to make one central location for this and embed it https://training.galaxyproject.org/training-material/topics/community/faqs/governance_gcb.html -->
 
@@ -69,3 +69,10 @@ For example, SIG members could request assistance from the tools and workflows W
 ## Origins
 
 During GCC 2023, we discussed how to empower the Galaxy community in terms of project planning, decision-making, execution, and overall governance. The Galaxy Community Board (GCB) was formed to take over from the Global Galaxy Steering Committee.
+
+## Contributors
+This page is brought to you by:
+[Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
+with thanks for editing and review from:
+[Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/)
+[Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
