@@ -31,20 +31,22 @@ This is analogous to the [Technical Board](/community/governance/gtb/), consisti
 
 You can learn more about **SIGs** in our dedicated tutorials below, or explore our [**SIG** directory](/community/sig).
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="row">
-      <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip">
-        <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
-        <img src="gtn_hat.png" alt="GTN Hat" width="50">
-        What is a SIG?
-        </a>
-      </div>
-      <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip">
-        <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
-        <img src="gtn_hat.png" alt="GTN Hat" width="50">
-        Creating a SIG
-        </a>
+<div style="text-align: center;">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip">
+          <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
+          <img src="gtn_hat.png" alt="GTN Hat" width="50">
+          What is a SIG?
+          </a>
+        </div>
+        <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip">
+          <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
+          <img src="gtn_hat.png" alt="GTN Hat" width="50">
+          Creating a SIG
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -72,7 +74,9 @@ During GCC 2023, we discussed how to empower the Galaxy community in terms of pr
 
 ## Contributors
 This page is brought to you by:
-[Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
+- [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
+
 with thanks for editing and review from:
-[Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/)
-[Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
+
+ - [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/)
+ - [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
