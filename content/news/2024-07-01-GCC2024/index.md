@@ -71,7 +71,6 @@ The conference featured various trainings for different levels and diverse topic
 
 * [BioConda & BioContainers](https://galaxyproject.org/events/gcc2024/training/bioconda) by Björn Grüning
 * [Machine Learning](https://galaxyproject.org/events/gcc2024/training/machine-learning) by Anup Kumar et. al.
-* [Galaxy Backend Development](https://galaxyproject.org/events/gcc2024/training/backend-dev) by David Lopez et. al.
 * [Alphafold in Galaxy](https://galaxyproject.org/events/gcc2024/training/alphafold) by Björn Grüning et. al.
 * [Pathogen Detection from (Direct Nanopore) Sequencing Data using Galaxy](https://galaxyproject.org/events/gcc2024/training/microbiome-analysis) by Engy Nasr
 * [CSS Deep-Dive](https://galaxyproject.org/events/gcc2024/training/frontend-dev) by Laila Los et. al.
