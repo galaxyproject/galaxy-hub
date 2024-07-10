@@ -25,32 +25,30 @@ Galaxy Governance consists of a [Galaxy Executive Board](https://galaxyproject.o
 <img src="structure.png" alt="Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom" style="width:450px">
 </p>
 
-
 ## Who is in the GCB?
 Each Galaxy Special Interest Group (**SIG**) may elect one member to represent their interests on the [GCB](/community/governance/gcb/). In practice, this is often (but not always) the person chairing the **SIG**.
 This is analogous to the [Technical Board](/community/governance/gtb/), consisting of representatives of the [Working Groups (WG)](/community/wg).
 
 You can learn more about **SIGs** in our dedicated tutorials below, or explore our [**SIG** directory](/community/sig).
 
-<div class="box">
-    <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html" style="margin-right: 10px">  
-      <img src="gtn_hat.png" alt="GTN Hat" width="50">  
-      What is a SIG?  
-    </a>
+<div class="row">
+  <div class="col-md-6">
+    <div class="row">
+      <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip">
+        <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
+        <img src="gtn_hat.png" alt="GTN Hat" width="50">
+        What is a SIG?
+        </a>
+      </div>
+      <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip">
+        <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
+        <img src="gtn_hat.png" alt="GTN Hat" width="50">
+        Creating a SIG
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-
-
-Original boxes
-
-<button type="button" onclick="window.open('https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html', '_blank')" style="margin-right: 10px">
-  <img src="gtn_hat.png" alt="GTN Hat" width="50">
-  What is a SIG?
-</button>
-
-<button type="button" onclick="window.open('https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html', '_blank')" style="margin-left: 10px">
-  <img src="gtn_hat.png" alt="GTN Hat" width="50">
-  Creating a SIG
-</button>
 
 ## Purpose
 
