@@ -4,8 +4,11 @@ title: Galaxy Europe
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<Carousel />
-
+<div class="text-center mt-5">
+    <a href="https://galaxyproject.org/news/2024-05-29-galaxy-training-academy-call-contribution"target=”_blank”>
+        <img src="/images/call_for_trainers.png" alt="Galaxy Training Academy" />
+    </a>
+</div>
 <br/>
 <br/>
 
