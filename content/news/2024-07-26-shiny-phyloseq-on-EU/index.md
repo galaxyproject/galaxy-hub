@@ -1,6 +1,6 @@
 ---
 title: 'Shiny phyloseq interactive tool available on usegalaxy.eu - practical outcome of the Bioconductor Hackathon'
-date: '2024-26-07'
+date: '2024-07-26'
 tease: "We are thrilled to announce, that thanks to the help of the Bioconductor community, we could deploy the Shiny phyloseq App as an interactive tool (IT) on usegalaxy.eu"
 hide_tease: false
 authors: Paul Zierep 
