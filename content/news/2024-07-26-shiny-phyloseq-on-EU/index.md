@@ -11,9 +11,7 @@ subsites: [all-eu, global]
 
 [Shiny apps](https://shiny.posit.co/) are web apps using R functionality, that give easy responsive access to R packages. 
 Interactive tools are a great way to work with data interactively and responsive using Galaxy. In theory all shiny apps could become ITs, but so far the 
-wrapping and deployment of shiny apps as ITs was technically challenging. Thanks to a 2 day hackathon in february in Freiburg together with members from the Bioconductor 
-community best-practices for the development of ITs using Shiny apps were developed, focusing mainly on the development of a docker image, that can be used
-as a starting point to add any shiny app.
+wrapping and deployment of shiny apps as ITs was technically challenging. To facilitate the integration of Shiny apps as ITs, the Freiburg Galaxy team conducted a two-day hackathon in February, collaborating with members from the Bioconductor community, including Charlotte Soneson, Hans-Rudolf Hotz, and Federico Marini. During the event, best practices for developing ITs using Shiny apps were established, with a primary focus on creating a Docker image that can serve as a starting point for adding any Shiny app.
 As a proof-of-concept the [shiny-phyloseq app](https://github.com/joey711/shiny-phyloseq) has been wrapped as IT. 
 A fork of this Docker image tailored for the shiny app is available here: https://github.com/paulzierep/docker-phyloseq.
 The image can be run locally to test the app and then must be deployed to [quay.io](https://quay.io) or any other Docker registry. 
