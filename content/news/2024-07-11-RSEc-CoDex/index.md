@@ -13,23 +13,27 @@ subsites: [all-eu, global]
 
 <img src="./rsec.svg" style="max-width: 400px" alt="RSEc" />
 
-The [ELIXIR Research Software Ecosystem (RSEc)](https://research-software-ecosystem.github.io/index) is supported and coordinated by ELIXIR Europe. It makes use of a sophisticated CI architecture that collects metadata for research software metadata, providing a unified resource for researchers. 
+The [ELIXIR Research Software Ecosystem (RSEc)](https://research-software-ecosystem.github.io/index) is supported and coordinated by [ELIXIR Europe](https://elixir-europe.org/).
+It makes use of a sophisticated CI architecture that collects metadata for research software metadata, providing a unified resource for researchers. 
 
-The RSEc collects currently metadata from bio.tools, Bioconda, BioContainers, Debian Med, Galaxy CoDex, OpenEBench, and WorkflowHub available in the [Content repositroy](https://github.com/research-software-ecosystem/content). More information about the sources can be found [here](https://research-software-ecosystem.github.io/sources).
+The RSEc collects metadata from [bio.tools](https://bio.tools), [Bioconda](https://bioconda.github.io/), BioContainers, [Debian Med](https://www.debian.org/devel/debian-med/index.de.html), [Galaxy CoDex](https://github.com/galaxyproject/galaxy_codex),
+[OpenEBench](https://openebench.bsc.es), and [WorkflowHub](https://workflowhub.eu/) available in the [Content repositroy](https://github.com/research-software-ecosystem/content).
+More information about the sources can be found [here](https://research-software-ecosystem.github.io/sources).
 
-The CI architecture is [openly available](https://github.com/research-software-ecosystem/utils) and can be adapted and leveraged to integrate other metadata sources as well. Recently the architecture was extended to also include metadata provided by the Galaxy Codex.
+The CI architecture is [openly available](https://github.com/research-software-ecosystem/utils) and can be adapted and leveraged to integrate other metadata sources as well.
+Recently, the architecture was extended to include Galaxy Codex's metadata.
 
-The CI bots perform the following tasks on a weekly basis:
+The CI bots perform the following tasks weekly:
 
 * Downloads dumps of all meta sources into the content repository
-* Stores the meta data entries of each tool from all sources into a dedicated folder in the content repository
+* Stores the metadata entries of each tool from all sources into a dedicated folder in the content repository
 
 <img src="./CI_01.png" style="max-width: 400px" alt="CI" />
 
 ## The Galaxy Codex
 
 [Galaxy Communities Dock aka Galaxy Codex](https://github.com/galaxyproject/galaxy_codex) is a catalog of Galaxy resources (tools, training, workflows) that can be filtered for any community.
-In this blog post we only cover the tool aspect of the catalog since this is used as source for the contribution of Galaxy to the RSEc.
+In this blog post, we only cover the tool aspect of the catalog since this is used as the source for the contribution of Galaxy to the RSEc.
 
 ### Tool metadata collection
 
@@ -39,11 +43,11 @@ A GitHub action performs every week the following steps:
     1. Parsing tool GitHub repository from [Planemo monitor listed](https://github.com/galaxyproject/planemo-monitor)
     2. Checking in each repo, their `.shed.yaml` file and filter for categories, such as metagenomics 
     3. Extracting metadata from the `.shed.yaml`
-    4. Extracting the requirements in the macros or xml to get version supported in Galaxy
+    4. Extracting the `requirements` from the Galaxy tool metadata (XML files) to get the exact version supported in Galaxy
     5. Checking available against conda version
-    6. Extracting bio.tools information if available in the macros or xml
-    7. Checking available on the 3 main galaxy instances (usegalaxy.eu, usegalaxy.org, usegalaxy.org.au)
-    8. Getting usage statistics form usegalaxy.eu
+    6. Extracting bio.tools information from the Galaxy tool metadata (XML files) if available
+    7. Checking the availability of the tool on one of the 3 main Galaxy instances (usegalaxy.eu, usegalaxy.org, usegalaxy.org.au)
+    8. Getting usage statistics from usegalaxy.eu
 - Create an interactive table for all tools: [All tools](https://galaxyproject.github.io/galaxy_tool_metadata_extractor/)
 - Filter the tool suite per community
 - Create an interactive table for all registered communities, e.g. [microGalaxy](https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/)
@@ -75,5 +79,6 @@ The data is stored as TSV and JSON in the CoDex repository.
 
 ### RSEc integration
 
-The output of the CoDex was also integrated into the RSEc by development of a [Galaxy Tool Metadata GitHub Action](https://github.com/research-software-ecosystem/utils/tree/main/galaxytool-import), which populates the RSEc entries with metadata from the CoDex.
-An example of a tool that has meta data from multiple sources, including Galaxy is [abricate](https://github.com/research-software-ecosystem/content/tree/c840b13928330e97c7eb6ccb6a779ff9b0f37835/data/abricate).
+The output of the CoDex was integrated into the RSEc by the development of a [Galaxy Tool Metadata GitHub Action](https://github.com/research-software-ecosystem/utils/tree/main/galaxytool-import),
+which populates the RSEc entries with metadata from the CoDex.
+An example of a tool that has metadata from multiple sources, including Galaxy is [abricate](https://github.com/research-software-ecosystem/content/tree/c840b13928330e97c7eb6ccb6a779ff9b0f37835/data/abricate).
