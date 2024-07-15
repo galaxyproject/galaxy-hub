@@ -17,7 +17,7 @@ The [ELIXIR Research Software Ecosystem (RSEc)](https://research-software-ecosys
 It makes use of a sophisticated CI architecture that collects metadata for research software metadata, providing a unified resource for researchers. 
 
 The RSEc collects metadata from [bio.tools](https://bio.tools), [Bioconda](https://bioconda.github.io/), BioContainers, [Debian Med](https://www.debian.org/devel/debian-med/index.de.html), [Galaxy CoDex](https://github.com/galaxyproject/galaxy_codex),
-[OpenEBench](https://openebench.bsc.es), and [WorkflowHub](https://workflowhub.eu/) available in the [Content repositroy](https://github.com/research-software-ecosystem/content).
+[OpenEBench](https://openebench.bsc.es), and [WorkflowHub](https://workflowhub.eu/) available in the [Content repository](https://github.com/research-software-ecosystem/content).
 More information about the sources can be found [here](https://research-software-ecosystem.github.io/sources).
 
 The CI architecture is [openly available](https://github.com/research-software-ecosystem/utils) and can be adapted and leveraged to integrate other metadata sources as well.
