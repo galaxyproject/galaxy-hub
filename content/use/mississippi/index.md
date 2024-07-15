@@ -1,10 +1,10 @@
 ---
 title: "MISSISSIPPI"
-url: "http://mississippi.fr/"
+url: "https://mississippi.sorbonne-universite.fr"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://mississippi.fr/"
+    platform_url: "https://mississippi.sorbonne-universite.fr"
     platform_text: "MISSISSIPPI Server"
     platform_location: FR
 summary: "Support for analyses of RNA and small RNA sequencing datasets as well as for epigenetics or metagenomics studies. "

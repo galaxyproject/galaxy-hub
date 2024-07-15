@@ -4,6 +4,7 @@ title: Galaxy Community Conferences (GCCs)
 
 <div class="text-center inline-div">
 
+<a href="https://galaxyproject.org/events/gcc2023/"><img src="/images/events/gcc2023/gcc2023-logo.png" alt="2023 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="2021 Galaxy Community Conference" width="150" /></a> &nbsp;&nbsp;
 <a href="https://bcc2020.github.io/"><img src="/events/bcc2020/bcc2020-logo-white-wide-1000.png" alt="2020 Bioinformatics Community Conference" width="200" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2019/"><img src="/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" /></a> &nbsp;&nbsp;
@@ -32,9 +33,9 @@ GCC is a community driven event.  Training topics are nominated and then voted o
 
 GCC has met annually since 2010 and the program has grown and transformed each year. We hope to see you at the next event.
 
-| Dates | Event | Where | Hosts | # |
+| Dates | Event | Where | Hosts | Attendees |
 | ---- | ---- | ---- | ---- | ----: |
-| **July 10-16, 2023** | **[GCC2023](/events/gcc2023/)** | **Brisbane, Queensland, Australia** | **[Galaxy Australia](http://usegalaxy.org.au/)** |  |
+| **July 10-16, 2023** | **[GCC2023](/events/gcc2023/)** | **Brisbane, Queensland, Australia** | **[Galaxy Australia](http://usegalaxy.org.au/)** | 131 |
 | July 17-23, 2022 | [GCC2022](/events/gcc2022/) | Minneapolis, Minnesota, United States | [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) and [GalaxyP Project](http://galaxyp.org/), University of Minnesota | 131 |
 | June 28-July 10, 2021 | [GCC2021](https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content) | Online, Global | [VIB](https://vib.be/) | 398 |
 | July 17-26, 2020 | [BCC2020](https://bcc2020.github.io/) | Online, Global | [Ontario Institute for Cancer Research](https://oicr.on.ca/), [Galaxy Australia](https://usegalaxy.org.au/) / [Australian BioCommons](https://www.biocommons.org.au/) | 804 |

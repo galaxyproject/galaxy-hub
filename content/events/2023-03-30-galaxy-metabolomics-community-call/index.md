@@ -6,7 +6,7 @@ tease: "A forum to share updates and discuss community-wide topics."
 continent: EU
 location:
   name: "Galaxy Metabolomics Community Call, Online"
-  url: "/community/practice/"
+  url: "/community/sig/#communities-of-practice"
 external_url:
 gtn: false
 contact: "foellmelanie@gmail.com; helge.hecht@recetox.muni.cz"

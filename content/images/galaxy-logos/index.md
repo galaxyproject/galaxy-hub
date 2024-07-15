@@ -67,16 +67,15 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
     [<img src="/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa Logo, transparent background" width=300 />](/images/galaxy-logos/galaxy-africa-logo-big.png)
 
 ## Galaxy Australia
+Please contact [comms@biocommons.org.au](mailto:comms@biocommons.org.au) for additional logo material (reversed colours, alternative file types and more) if required
 
-* Blue background, rectangle
-    * [PNG](/images/galaxy-logos/galaxy-australia.png), [400x170 pixels](/images/galaxy-logos/galaxy-australia.png)
+* Transparent background, horizontal, [PNG](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
-    [<img src="/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia Logo, blue background" width=300 />](/images/galaxy-logos/galaxy-australia.png)
+    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png" alt="Galaxy Australia Logo, horizontal with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
-* Blue background, square
-    * [JPG](/images/galaxy-logos/galaxy-australia-square.jpg), [400x400 pixels](/images/galaxy-logos/galaxy-australia-square.jpg)
+* Transparent background, stacked, [PNG](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
 
-    [<img src="/images/galaxy-logos/galaxy-australia-square.jpg" alt="Galaxy Australia Logo, blue background" width=300 />](/images/galaxy-logos/galaxy-australia-square.jpg)
+    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png" alt="Galaxy Australia Logo, stacked with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
 
 
 ## Galaxy Europe

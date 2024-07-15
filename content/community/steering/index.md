@@ -1,5 +1,14 @@
 # Global Galaxy Steering Committee
 
+<div class="alert alert-info float-center text-center trim-p">
+<br>
+The Global Galaxy Steering Committee is superseded by the <a href="/community/governance/gcb/">Galaxy Community Board</a>.
+<br>
+<br>
+</div>
+
+---
+<!--
 **Keywords:** Strategic emphasis, medium and long term planning, international opportunities, community
 
 [Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in [project governance structures](/community/governance/) are needed to help adapt to increasing complexity.
@@ -95,3 +104,5 @@ Please contact the committee member leading the project if you would like to lea
 ## Contact
 
 You can reach the Galaxy Steering Committee [via the mailing list](mailto:steering@lists.galaxyproject.org).
+
+-->

@@ -1,46 +1,58 @@
 <template>
     <div :class="rootClasses">
-        <header id="masthead">
+        <header v-if="showHomeNav()" id="masthead" class="mastheadHome">
+            <NavBar :subsite="subsite" :show-home-nav="showHomeNav()" />
+        </header>
+        <header v-else id="masthead">
             <NavBar :subsite="subsite" />
         </header>
-        <main id="maincontainer" class="container">
+        <main id="maincontainer" :class="showHomeNav() ? 'container-fluid-real p-0' : 'container'">
             <slot />
         </main>
-        <footer class="static-footer" v-if="footer">
+        <FooterProject v-if="showHomeNav()" :citation="footer.content" />
+        <footer v-else-if="footer" class="static-footer">
             <div class="markdown container" v-html="footer.content" />
         </footer>
-        <Gitter :room="gitter" />
     </div>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar";
-import Gitter from "@/components/Gitter";
+import FooterProject from "@/components/FooterProject";
 import CONFIG from "~/../config.json";
 import { rmPrefix, rmSuffix } from "~/lib/utils.js";
 
 export default {
     components: {
         NavBar,
-        Gitter,
+        FooterProject,
     },
     props: {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
     },
     computed: {
+        routePath() {
+            return this.$route.path;
+        },
         rootClasses() {
             let classes = ["layout"];
             if (this.subsite) {
                 classes.push(this.subsite);
             }
+            if (classes.includes("global") && this.routePath === "/") {
+                classes.push("layoutHome");
+            }
             return classes;
-        },
-        gitter() {
-            return CONFIG.subsites.all[this.subsite]?.gitter || CONFIG.subsites.all[CONFIG.subsites.default]?.gitter;
         },
         footer() {
             let footers = compileFooters(this.$static.footers.edges);
             return footers[this.subsite];
+        },
+    },
+    methods: {
+        showHomeNav() {
+            // return rootClasses.includes('global') && window.location.pathname === '/';
+            return this.routePath === "/";
         },
     },
 };

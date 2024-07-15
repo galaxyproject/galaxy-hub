@@ -1,7 +1,14 @@
 <template>
     <main id="maincontainer" class="container">
         <div class="markdown" v-html="$page.top.content" />
-        <Carousel />
+        <!-- <Carousel /> -->
+
+        <div class="text-center mt-5">
+            <a href="/news/2024-05-29-galaxy-training-academy-call-contribution">
+                <img src="/images/call_for_trainers.png" alt="Galaxy Training Academy" />
+            </a>
+        </div>
+
         <div class="markdown" v-html="$page.main.content" />
     </main>
 </template>

@@ -6,7 +6,7 @@ title: Announcements
   <div class="col-1"></div>
   <div class="col-10">
 
-[![GCC2023](/images/events/gcc2023/gcc2023-in-numbers.png)](/events/gcc2023/)
+[![GCC2023](/images/events/gcc2024/gcc2024-banner-5.png)](/events/gcc2024/)
 
   </div>
   <div class="col-1"></div>

@@ -1,5 +1,18 @@
 <!--
 
+<div class="alert" style="background: #fc954e;">
+
+#### **Cluster Maintenance April 8 and 9**  
+
+Starting from April 8th 2024, maintenance work will take place at our compute cluster, however our headnode servers are not affected. This means:
+<li> Our website will be reachable </li>
+<li> You can start jobs and workflows </li>
+<li> Jobs can remain in 'grey' state for several days </li>
+<li> You can not upload files </li>
+<li> Interactive tools will be aborted and you can not start new ones </li>
+The maintenance should be completed by April 10th and we will resume to normal operation then. Due to backlog in the job queue, job execution can take notably longer, please refrain from inquiries.
+</div>
+
 <div class="alert" style="background: #68d4ff;">
 
 #### **Global Climate Strike on September 15th 2023**
@@ -17,16 +30,3 @@ Today, 21st of April 2023, a statement in support of peaceful, but resolved prot
 </div>
 
 -->
-
-<div class="alert" style="background: #FFD500;">
-
-#### **Peace to Ukraine!**
-
-🇺🇦 The **[list of laboratories][ua-table]** that can host Ukrainian scientists can be found here. Galaxy Project has a number of positions at its EU and US sites. Contact us at **[ukraine@galaxyproject.org][ua-mail]** | Список **[лабораторій][ua-table]** які можуть прийняти українських науковців усіх рівнів доступний тут. Galaxy Project має відкриті вакансії у своīх європейських та американських осередках. Пишіть нам на **[ukraine@galaxyproject.org][ua-mail]** | **[Cписок лабораторий][ua-table]**, которые могут принять украинских ученых доступен здесь. Galaxy Project имеет открытые позиции на своих европейских и американских сайтах. Контактируйте нас используя **[ukraine@galaxyproject.org][ua-mail]** 🇺🇦
-
-</div>
-
-[ua-table]: https://bit.ly/ua-table
-[ua-form]: https://bit.ly/ua-form
-[ua-mail]: mailto:ukraine@galaxyproject.org?subject="Galaxy-UA"
-</div>

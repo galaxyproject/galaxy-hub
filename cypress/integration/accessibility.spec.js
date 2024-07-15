@@ -1,10 +1,18 @@
+import { interceptPlausible } from "../util.js";
+
 const CYPRESS_ACCESSIBILITY_CONFIG = {
     iframes: false,
     ancestry: true,
     includedImpacts: ["serious", "critical"],
 };
 
+const CURRENT_DATE = new Date();
+
 describe("Accessibility Testing", () => {
+    beforeEach(() => {
+        interceptPlausible();
+    });
+
     it("Homepage has no detectable a11y violations on load", () => {
         cy.visit("/").get("#app").injectAxe();
         // Ensure masthead has loaded
@@ -22,8 +30,8 @@ describe("Accessibility Testing", () => {
         cy.wait(500);
         cy.checkA11y("#app", CYPRESS_ACCESSIBILITY_CONFIG);
     });
-    it("GCC2022 page has no detectable a11y violations on load", () => {
-        cy.visit("/events/gcc2022/").get("#app").injectAxe();
+    it(`GCC${CURRENT_DATE.getUTCFullYear()} page has no detectable a11y violations on load`, () => {
+        cy.visit(`/events/gcc${CURRENT_DATE.getUTCFullYear()}/`).get("#app").injectAxe();
         // Ensure masthead has loaded
         cy.get("#masthead-logo").should("be.visible");
         // Only check for #app; ignores twitter and sidecar.

@@ -1,8 +1,8 @@
 <template>
     <div :class="classes" :style="style">
-        <b-navbar class="container justify-content-center" toggleable="lg" :type="theme" variant="transparent">
+        <b-navbar class="container" toggleable="lg" :type="theme" variant="transparent">
             <b-navbar-brand to="/">
-                <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" height="30" />
+                <img id="masthead-logo" :src="logoUrl" alt="Galaxy Community Hub" width="94" height="30" />
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
@@ -96,6 +96,7 @@ const EDIT_PATH = "tree/master/content";
 export default {
     props: {
         subsite: { type: String, required: false, default: CONFIG.subsites.default },
+        showHomeNav: { type: Boolean, required: false, default: false },
     },
     components: {
         NavBarItem,
@@ -161,7 +162,7 @@ export default {
             );
         },
         theme() {
-            if (this.customContent.style?.lightBg) {
+            if (this.customContent.style?.lightBg || this.showHomeNav) {
                 return "light";
             } else {
                 return "dark";
@@ -169,13 +170,13 @@ export default {
         },
         classes() {
             let classes = [];
-            if (this.customContent.style?.lightBg) {
+            if (this.customContent.style?.lightBg || this.showHomeNav) {
                 classes.push("light-bg");
             }
             return classes;
         },
         logoUrl() {
-            if (this.customContent.style?.lightBg) {
+            if (this.customContent.style?.lightBg || this.showHomeNav) {
                 return "/images/galaxy_logo_hub.svg";
             } else {
                 return "/images/galaxy_logo_hub_white.svg";
