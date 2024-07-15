@@ -1,5 +1,5 @@
 ---
-title: 'The ELIXIR Research Software Ecosystem (RSEc) and the Galaxy Codex - powerful GitHub Bot architectures to collect research software metadata'
+title: 'Enabling architectures that collect community-centric research software metadata'
 date: '2024-07-11'
 tease: "The ELIXIR Research Software Ecosystem (RSEc) and the Galaxy Codex make use of GitHub CI bots to collect research software metadata and provide a FAIR tool metadata repository for the global research community"
 hide_tease: false
@@ -14,19 +14,19 @@ subsites: [all-eu, global]
 <img src="./rsec.svg" style="max-width: 400px" alt="RSEc" />
 
 The [ELIXIR Research Software Ecosystem (RSEc)](https://research-software-ecosystem.github.io/index) is supported and coordinated by [ELIXIR Europe](https://elixir-europe.org/).
-It makes use of a sophisticated CI architecture that collects metadata for research software metadata, providing a unified resource for researchers. 
+It makes use of a sophisticated CI architecture that collects metadata for research software metadata, providing a unified resource for researchers, developers and curators. 
 
 The RSEc collects metadata from [bio.tools](https://bio.tools), [Bioconda](https://bioconda.github.io/), BioContainers, [Debian Med](https://www.debian.org/devel/debian-med/index.de.html), [Galaxy CoDex](https://github.com/galaxyproject/galaxy_codex),
 [OpenEBench](https://openebench.bsc.es), and [WorkflowHub](https://workflowhub.eu/) available in the [Content repository](https://github.com/research-software-ecosystem/content).
 More information about the sources can be found [here](https://research-software-ecosystem.github.io/sources).
 
 The CI architecture is [openly available](https://github.com/research-software-ecosystem/utils) and can be adapted and leveraged to integrate other metadata sources as well.
-Recently, the architecture was extended to include Galaxy Codex's metadata.
+The architecture was recently extended to include metadata from the Galaxy Codex.
 
 The CI bots perform the following tasks weekly:
 
-* Downloads dumps of all meta sources into the content repository
-* Stores the metadata entries of each tool from all sources into a dedicated folder in the content repository
+* Download dumps of all metadata sources into the content repository
+* Store the metadata entries for each tool, from all sources, in a dedicated folder in the content repository
 
 <img src="./CI_01.png" style="max-width: 400px" alt="CI" />
 
@@ -37,7 +37,7 @@ In this blog post, we only cover the tool aspect of the catalog since this is us
 
 ### Tool metadata collection
 
-A GitHub action performs every week the following steps:
+A GitHub action performs the following steps every week:
 
 - Extract all tools by
     1. Parsing tool GitHub repository from [Planemo monitor listed](https://github.com/galaxyproject/planemo-monitor)
@@ -48,9 +48,9 @@ A GitHub action performs every week the following steps:
     6. Extracting bio.tools information from the Galaxy tool metadata (XML files) if available
     7. Checking the availability of the tool on one of the 3 main Galaxy instances (usegalaxy.eu, usegalaxy.org, usegalaxy.org.au)
     8. Getting usage statistics from usegalaxy.eu
-- Create an interactive table for all tools: [All tools](https://galaxyproject.github.io/galaxy_tool_metadata_extractor/)
+- Create an interactive table for all tools: [All tools](https://galaxyproject.github.io/galaxy_codex/)
 - Filter the tool suite per community
-- Create an interactive table for all registered communities, e.g. [microGalaxy](https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/)
+- Create a separate interactive table for all registered communities, e.g. [microGalaxy](https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/)
 
 <img src="./Preprint_flowchart.png" style="max-width: 400px" alt="CoDex" />
 
