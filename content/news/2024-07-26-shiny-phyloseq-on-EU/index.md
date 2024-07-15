@@ -55,4 +55,4 @@ The changes made to the original app can be found in this [git diff](https://git
 
 ## Outlook
 
-To improve the usability and Galaxy-interaction of the phyloseq-shiny app we are working on the possibility to export data (figures, modified phyloseq objects) to the Galaxy history, either by collecting the data as outputs of the IT or by using utility functions such as put / get, that are used in other ITs like [R-studio](https://usegalaxy.eu/?tool_id=interactive_tool_rstudio&version=latest). 
+To improve the usability and Galaxy-interaction of the phyloseq-shiny app we are working on the possibility to export data (figures, modified phyloseq objects) to the Galaxy history, either by collecting the data as outputs of the IT or by using utility functions such as put / get, that are used in other ITs like [RStudio](https://usegalaxy.eu/?tool_id=interactive_tool_rstudio&version=latest). 
