@@ -18,7 +18,7 @@ The image can be run locally to test the app and then must be deployed to [quay.
 This app allows to perform dynamic analysis of
 metabarcoding/amplicon data such as:
 
-* filter data based on metadadata and taxonomy
+* filter data based on metadata and taxonomy
 * plot alpha diversity
 * plot distance networks 
 
