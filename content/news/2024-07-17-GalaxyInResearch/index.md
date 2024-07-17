@@ -16,6 +16,10 @@ Lake Baikal, the world's deepest and oldest freshwater lake, is located in Siber
 
 The paper, titled "Genetic diversity studies of Baikal endemic sponges at the interspecies and population levels using high-resolution microsatellite markers," addresses the need for advanced genetic tools to study the unique sponge species of Lake Baikal. Traditional genetic markers were insufficient for this task, prompting the development of new, high-resolution microsatellite markers. These markers were tested on four endemic sponge species, successfully distinguishing between the different genera within the Lubomirskiidae family.
 
+![Figure 1](Yakhnenko.jpeg)
+
+(Yakhnenko et al., 2024)
+
 ## Key Findings
 
 •	__Microsatellite Marker Development:__ The researchers created a set of high-resolution microsatellite markers specific to Lake Baikal sponges.
