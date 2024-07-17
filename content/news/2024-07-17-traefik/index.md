@@ -34,7 +34,7 @@ We decided to use Docker Swarm for mainly two reasons:
 1. Secret handling: Secrets are not saved inside env files, but are encrypted on disk and only available to the container they are attached to.
 2. Scalability and future failover safe deployments: By using Docker swarm you can quite easily add a second proxy node and use e.g. [keepalived](https://www.keepalived.org/) as ingress.
 
-Visit our [operations manual](https://usegalaxy-eu.github.io/operations/traefik.html) for more information on how to deploy and maintain traefik.
+Visit our [operations manual](https://usegalaxy-eu.github.io/operations/traefik.html) for more information on how to deploy and maintain Traefik.
 
 ### Add Subdomains on the Go
 Adding new subdomains is as simple as adding a new line to [template-subdomains.yml](https://github.com/usegalaxy-eu/infrastructure-playbook/blob/master/files/traefik/rules/template-subdomains.yml) in the [infrastructure-playbook](https://github.com/usegalaxy-eu/infrastructure-playbook) repo. It is a [go template](https://blog.gopheracademy.com/advent-2017/using-go-templates/) producing a `yaml` file, which might misleadingly look similar to ansible at first.  
