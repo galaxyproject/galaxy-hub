@@ -10,7 +10,7 @@ subsites: [global,all]
 
 # Galaxy in Research: Unlocking genetic secrets of Lake Baikal’s endemic sponges 
 
-Lake Baikal, the world's deepest and oldest freshwater lake, is located in Siberia. It is a natural wonder teeming with endemic species, including sponges, vital bioindicators of aquatic ecosystem health. Due to recent ecological changes in the lake, continuous monitoring is essential. The latest study by Alena Yakhnenko, Yurij Bukin, Igor Khanaev, and Valeria Itskovich leverages high-resolution microsatellite markers to explore the genetic diversity of Baikal’s sponges, revealing crucial insights into their interspecies and population dynamics.
+Lake Baikal, in Siberia, is the world's deepest and oldest freshwater lake and is a natural wonder teeming with endemic species, including sponges, vital bioindicators of aquatic ecosystem health. Due to recent ecological changes in the lake, continuous monitoring is essential. The latest study by Alena Yakhnenko, Yurij Bukin, Igor Khanaev, and Valeria Itskovich leverages high-resolution microsatellite markers to explore the genetic diversity of Baikal’s sponges, revealing crucial insights into their interspecies and population dynamics.
 
 ## Research Overview
 
