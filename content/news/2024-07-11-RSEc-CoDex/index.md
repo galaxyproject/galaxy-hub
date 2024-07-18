@@ -75,7 +75,6 @@ The script will generate a registry with each tool found in the list of GitHub r
 * Galaxy wrapper owner (from the .shed file)
 * Galaxy wrapper source (from the .shed file)
 * Galaxy wrapper parsed folder (the actual GitHub repository where the folder wa parsed)
-
 * Galaxy wrapper version (from the GitHub wrapper)
 * Conda id (from the GitHub wrapper)
 * Conda version (from the GitHub wrapper)
