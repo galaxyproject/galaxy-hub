@@ -11,13 +11,13 @@ subsites: [all-eu, global]
 
 ## ELIXIR Research Software Ecosystem (RSEc)
 
-<img src="./rsec.svg" style="max-width: 400px" alt="RSEc" />
+<img src="./rsec.svg" style="max-width: 800px" alt="RSEc" />
 
 The [ELIXIR Research Software Ecosystem (RSEc)](https://research-software-ecosystem.github.io/index) is supported and coordinated by [ELIXIR Europe](https://elixir-europe.org/).
 It makes use of a sophisticated CI architecture that collects metadata for research software metadata, providing a unified resource for researchers, developers and curators. 
 
 The RSEc collects metadata from [bio.tools](https://bio.tools), [Bioconda](https://bioconda.github.io/), BioContainers, [Debian Med](https://www.debian.org/devel/debian-med/index.de.html), [Galaxy CoDex](https://github.com/galaxyproject/galaxy_codex),
-[OpenEBench](https://openebench.bsc.es), and [WorkflowHub](https://workflowhub.eu/) available in the [Content repository](https://github.com/research-software-ecosystem/content).
+[OpenEBench](https://openebench.bsc.es), and [WorkflowHub](https://workflowhub.eu/). This metadata is made available in the [RSEc content repository](https://github.com/research-software-ecosystem/content).
 More information about the sources can be found [here](https://research-software-ecosystem.github.io/sources).
 
 The CI architecture is [openly available](https://github.com/research-software-ecosystem/utils) and can be adapted and leveraged to integrate other metadata sources as well.
@@ -28,7 +28,7 @@ The CI bots perform the following tasks weekly:
 * Download dumps of all metadata sources into the content repository
 * Store the metadata entries for each tool, from all sources, in a dedicated folder in the content repository
 
-<img src="./CI_01.png" style="max-width: 400px" alt="CI" />
+<img src="./CI_01.png" style="max-width: 800px" alt="CI" />
 
 ## The Galaxy Codex
 
@@ -52,30 +52,40 @@ A GitHub action performs the following steps every week:
 - Filter the tool suite per community
 - Create a separate interactive table for all registered communities, e.g. [microGalaxy](https://galaxyproject.github.io/galaxy_tool_metadata_extractor/microgalaxy/)
 
-<img src="./Preprint_flowchart.png" style="max-width: 400px" alt="CoDex" />
+<img src="./Preprint_flowchart.png" style="max-width: 800px" alt="CoDex" />
 
 ### Tool metadata output
 
-The script will generate a TSV file with each tool found in the list of GitHub repositories and metadata for these tools:
+The script will generate a registry with each tool found in the list of GitHub repositories and metadata for these tools:
 
-1. Galaxy wrapper id
-2. Description
-3. bio.tool id
-4. bio.tool name
-5. bio.tool description
-6. EDAM operation
-7. EDAM topic
-8. Status
-9. Source
-10. ToolShed categories
-11. ToolShed id
-12. Galaxy wrapper owner
-13. Galaxy wrapper source
-14. Galaxy wrapper version
-15. Conda id
-16. Conda version
+* Galaxy wrapper id (the name of the suite folder)
+* Galaxy tool ids (IDs of the tools in the suite)
+* Description (Description from the .shed file)
+* bio.tool id (the bio.tools ID from the wrapper - the first found in the suite)
+* bio.tool ids (all bio.tools IDs if there are multiple for the wrappers)
+* bio.tool name (the name used by bio.tools)
+* biii (BIII entry in the wrapper)
+* bio.tool description (description given by bio.tools)
+* EDAM operation (by bio.tools)
+* EDAM topic (by bio.tools)
+* Status (Comparing the wrapper version with the conda version of the tool)
+* Source (from the .shed file)
+* ToolShed categories (from the .shed file)
+* ToolShed id (from the .shed file)
+* Galaxy wrapper owner (from the .shed file)
+* Galaxy wrapper source (from the .shed file)
+* Galaxy wrapper parsed folder (the actual GitHub repository where the folder wa parsed)
 
-The data is stored as TSV and JSON in the CoDex repository.
+* Galaxy wrapper version (from the GitHub wrapper)
+* Conda id (from the GitHub wrapper)
+* Conda version (from the GitHub wrapper)
+* EDAM operation (no superclasses) (a subset of the EDAM operations where only the lowest classes are shown)
+* EDAM topic (no superclasses) (a subset of the EDAM operations where only the lowest classes are shown)
+* Available on `*` (shows the number of wrappers available on that server)
+* No. of tool users (2022-2023) `*` (No. of users that used that tool at least ones on that server)
+* Total tool usage `*` (Total number of tool runs on that server)
+
+The data is stored as [TSV](https://github.com/galaxyproject/galaxy_codex/blob/main/results/all_tools.tsv) and [JSON](https://github.com/galaxyproject/galaxy_codex/blob/main/results/all_tools.json) in the CoDex repository.
 
 ### RSEc integration
 
