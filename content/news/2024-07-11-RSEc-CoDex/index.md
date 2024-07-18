@@ -92,3 +92,9 @@ The data is stored as [TSV](https://github.com/galaxyproject/galaxy_codex/blob/m
 The output of the CoDex was integrated into the RSEc by the development of a [Galaxy Tool Metadata GitHub Action](https://github.com/research-software-ecosystem/utils/tree/main/galaxytool-import),
 which populates the RSEc entries with metadata from the CoDex.
 An example of a tool that has metadata from multiple sources, including Galaxy is [abricate](https://github.com/research-software-ecosystem/content/tree/c840b13928330e97c7eb6ccb6a779ff9b0f37835/data/abricate).
+
+<img src="./abricate_example.png" style="max-width: 800px" alt="abricate" />
+
+## Perspectives
+
+The centralized large scale collection of metadata from various sources in a simple to access FAIR repository allows for various exciting downstream tasks, such as the comparison of metadata from different sources to discover discrepancies that can be fed back to the original source and the development of a query frontend, that allows for the retrieval of multi-source metadata.
