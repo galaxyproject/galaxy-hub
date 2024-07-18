@@ -916,6 +916,9 @@ pre {
 .img-sizer {
     margin-bottom: 1rem;
 }
+.img-sizer-small img {
+    width: clamp(10rem, 100%, 20rem);
+}
 .img-sizer p {
     height: 100%;
     margin-bottom: 0;
