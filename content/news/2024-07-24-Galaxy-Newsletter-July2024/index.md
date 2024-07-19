@@ -6,6 +6,7 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-07-24"
 subsites: [global,all]
 ---
+![Galaxy News Logo](GalaxyNews.png)
 
 Hello, Galaxy Community!
 
@@ -16,6 +17,8 @@ Don’t miss the scoop on Galaxy Release 24.1, featuring key updates that enhanc
 Thank you for tuning in and for being a part of Galaxy!
 
 # GCC2024
+
+![GCC2024 Brno Logo](gcc2024-banner.png)
 
 ## Overview
 
@@ -32,6 +35,8 @@ Mark your calendars! GCC2025 will be held in New York. We look forward to anothe
 # 2024 Galaxy Community Update Paper
 
 The latest Galaxy Community Update Paper provides a comprehensive overview of the Galaxy Project's progress and future directions. Galaxy continues to support user-driven research, expanding its scope each year. Users are drawn to Galaxy for its stability, diverse toolset, extensive reference datasets, training resources, and integration capabilities, all enabling complex, reproducible, and shareable data analysis.
+
+![2024 Update Paper Abstract Image](2024update1.jpeg)
 
 The 2024 update highlights several key advancements:
 
@@ -57,7 +62,11 @@ The latest Galaxy release, 24.1, has exciting new features and improvements desi
 
 - __Workflow Invocation Graph View:__ A new graph view in the workflow invocation summary displays job states for each step on the workflow editor canvas. Users can click on a step to see detailed information about that invocation step.
 
+![Workflow Invocation Graph View Image](24.1-wf_graph.png)
+
 - __Zenodo Integration:__ The new Zenodo file source plugin based on Invenio simplifies integration. This update introduces new schemes (invenio:// and zenodo://) for Invenio and Zenodo file sources, aligning them with their intended conventions. Existing exports using the gxfiles:// scheme will continue to work as expected.
+
+![Zenodo Intergration Image](24.1-zenodo.png)
 
 For a complete list of updates and detailed release notes, please view the full [User Release Notes](https://docs.galaxyproject.org/en/master/releases/24.1_announce_user.html).
 
@@ -82,6 +91,8 @@ Don't miss this chance to enhance your skills and connect with the global Galaxy
 ## Call for Trainers
 
 We are currently seeking enthusiastic trainers to help make this event a success. If you have expertise in any of the topics covered or wish to introduce new topics to the event, we invite you to contribute to this exciting training opportunity. Your involvement will play a crucial role in shaping the learning experience for the Galaxy community worldwide. For more information on being a Galaxy Training Academy trainer, [please see the Hub](https://galaxyproject.org/news/2024-05-29-galaxy-training-academy-call-contribution/).
+
+![GTA2024 Call for Trainers Banner](CallForTrainers_GTA2024.jpeg)
 
 # Galaxy in Research
 
