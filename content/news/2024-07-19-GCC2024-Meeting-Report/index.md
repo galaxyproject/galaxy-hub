@@ -14,3 +14,4 @@ __Student Coordinator & Editor:__ Marisa Loach
 
 __Student Contributors:__ Morgan Howells, Stuart Jackson, Julia Jakiela, Engy Nasr, Natalia Padillo-Anthemides, Shweta Pandey, Polina Polunina
 
+<embed src="https://github.com/galaxyproject/galaxy-hub/blob/natwhitaker-patch-1/content/news/2024-07-19-GCC2024-Meeting-Report/GCC2024_Meeting%20Report.pdf" width="100%" height="700" type='application/pdf'>
