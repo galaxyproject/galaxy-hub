@@ -23,55 +23,7 @@ Morgan Howells1, Stuart Jackson2, Julia Jakiela3, Engy Nasr4, Natalia Padillo-An
 
 <hr/>
 
-**Table of Contents** 
-
-[**GCC2024 Meeting Overview**](\#gcc2024-meeting-overview)
-
-[Fellowship Recipients](\#fellowship-recipients)
-
-[**Keynote Speakers**](\#keynote-speakers)
-
-[Jana Klánová](\#jana-klánová)
-
-[Ute Gunsenheimer](\#ute-gunsenheimer)
-
-[Daria Onichtchouk](\#daria-onichtchouk)
-
-[**Talks Sessions**](\#talks-sessions)
-
-[Analysis Track](\#analysis-track)
-
-[Enablement Track](\#enablement-track)
-
-[**Panel Discussion**](\#panel-discussion)
-
-[**Posters**](\#posters)
-
-[**Training Sessions**](\#training-sessions)
-
-[**Birds of a Feather**](\#birds-of-a-feather)
-
-[**CoFest**](\#cofest)
-
-[**Social Events**](\#social-events)
-
-[**Recognition**](\#recognition)
-
-[Sponsors](\#sponsors)
-
-[Hosts](\#hosts)
-
-[Organizing Committee](\#organizing-committee)
-
-[Training Coordinator](\#training-coordinator)
-
-[Scientific Program Members](\#scientific-program-members)
-
-[CoFest Organizers](\#cofest-organizers)
-
-<hr/>
-
-## GCC2024 Meeting Overview {#gcc2024-meeting-overview}
+## GCC2024 Meeting Overview
 
 The Galaxy Community Conference (GCC) is an annual event that brings together Galaxy users and developers from around the world. Galaxy, a free and open-source platform for data analysis, workflow building, training, and more, continues to foster a collaborative and innovative community. GCC2024, held in Brno, Czech Republic, attracted 151 participants from 28 countries, making it a truly international gathering.
 
@@ -85,7 +37,7 @@ GCC2024 also emphasized community building and networking through various social
 
 To view a complete schedule of events, please visit the [GCC2024 website](https://galaxyproject.org/events/gcc2024/schedule/).
 
-### Fellowship Recipients {#fellowship-recipients}
+### Fellowship Recipients
 
 The JXTX \+ GCC2024 Scholarship, sponsored by the JXTX Foundation and the Galaxy Project, supported six outstanding genomics and data sciences students to attend GCC2024. The recipients, selected for their exceptional contributions to their respective fields, presented their research through talks or posters at the conference.
 
@@ -115,11 +67,11 @@ Poster title: Bacterial Community Associated with Native Blowflies (Diptera: Cal
 
 <hr/>
 
-## Keynote Speakers {#keynote-speakers}
+## Keynote Speakers
 
 Three keynote speakers were invited to share their experiences and insights into the changing role of Galaxy in supporting innovation, collaboration, and FAIR principles.
 
-### **Jana Klánová**  {#jana-klánová}
+### **Jana Klánová**
 
 Masaryk University (Brno, Czech Republic)
 
@@ -129,7 +81,7 @@ Professor Jana Klánová kicked off the conference with a talk on exposomics. Th
 
 ![Jana Klánová giving her Keynote presentation](Jana.jpg)
 
-### **Ute Gunsenheimer** {#ute-gunsenheimer}
+### **Ute Gunsenheimer** 
 
 Secretary General, EOSC Association (Brussels, Belgium)
 
@@ -139,7 +91,7 @@ Ute Gunsenheimer presented on the European Open Science Cloud (EOSC), which aims
 
 ![Ute Gunsenheimer giving her Keynote presentation](Ute.jpeg)
 
-### **Daria Onichtchouk** {#daria-onichtchouk}
+### **Daria Onichtchouk**
 
 Independent Group Leader, University of Freiburg (Freiburg, Germany)
 
@@ -151,17 +103,17 @@ Dr. Daria Onichtchouk, a distinguished developmental biologist and avid Galaxy u
 
 <hr/>
 
-## Talks Sessions {#talks-sessions}
+## Talks Sessions
 
 GCC2024 featured three days of talks covering the latest developments and analyses on the platform. ‘Community’ was a key theme throughout the conference, with the first session highlighting the diverse communities that make up Galaxy. Participants heard from regional groups, such as our hosts in the Czech Republic, as well as Special Interest Groups (SIGs) and Galaxy instances focusing on topics like antibiotic resistance, neutron science, and microbiology. This session introduced Galaxy as both a platform and a community, giving newcomers an idea of who to connect with during the conference.
 
 The conference split into parallel analysis and enablement tracks following the initial session.
 
-### Analysis Track {#analysis-track}
+### Analysis Track
 
 The analysis track sessions showcased Galaxy’s versatility, with talks highlighting the diverse datasets and tools used on the platform to facilitate cutting-edge research across disciplines. Topics included the genomic adaptability of a fungal banana pathogen, the integration of tardigrade genomes into Galaxy, and the development of Galaxy tools for catalysis workflows in physical sciences. Researchers shared the latest analyses and workflows run on the platform, demonstrating Galaxy’s power in addressing complex challenges in bioinformatics and beyond. The analysis track underscored the importance of collaboration and using open, FAIR workflows to enhance reproducibility and accessibility.
 
-### Enablement Track  {#enablement-track}
+### Enablement Track
 
 The first enablement track session on workflows and administration included talks on recent upgrades to the Galaxy user interface, new ways to visualize and manage workflows, and features and techniques to help developers create and integrate more tools into Galaxy. These presentations highlighted the continuous efforts to enhance the Galaxy platform, focusing on user experience, workflow management, and integration with external services.
 
@@ -171,7 +123,7 @@ The parallel tracks and the final combined talk session at the end of the confer
 
 <hr/>
 
-## Panel Discussion {#panel-discussion}
+## Panel Discussion
 
 In addition to the talks sessions, GCC2024 featured a panel discussion between key members of the Galaxy community:  
 **Moderator:** Enis Afgan \- Associate Research Scientist (Johns Hopkins University, USA) and Galaxy Project Administrator
@@ -196,7 +148,7 @@ The panel concluded by recognizing that while developers play crucial roles in b
 
 <hr/>
 
-## Posters {#posters}
+## Posters
 
 Poster sessions at GCC2024 took place on the first two days of the conference. Of the 55 posters displayed, 22 were associated with conference talks, offering attendees the perfect opportunity to meet presenters and delve deeper into the details of their work over a cup of coffee.
 
@@ -206,7 +158,7 @@ Additionally, posters showcased various teaching activities, workshops, and exch
 
 <hr/>
 
-## Training Sessions {#training-sessions}
+## Training Sessions
 
 GCC2024 offered an exciting array of 31 educational sessions designed to help attendees learn new concepts, gain practical, hands-on training, and interact with others in similar fields. These sessions provided opportunities to get answers to questions from top experts on various topics.
 
@@ -226,7 +178,7 @@ A huge “thank you” to all the trainers for contributing valuable training se
 
 <hr/>
 
-## Birds of a Feather {#birds-of-a-feather}
+## Birds of a Feather 
 
 Birds of a Feather (BoF) sessions provided yet another opportunity for diverse Birds of a Feather (BoF) sessions, brought to GCC by community members, are valuable parts of the conference, providing opportunities for diverse communities within the Galaxy ecosystem to gather and exchange ideas. This year, 13 BoFs were offered, covering various topics.
 
@@ -236,7 +188,7 @@ The final BoF session included a collaborative writing group inviting students t
 
 <hr/>
 
-## CoFest {#cofest}
+## CoFest 
 
 The Collaboration Fest (CoFest), held at Open Gardens, brought together new and experienced Galaxy contributors for two days of collaboration, learning, and cooperation at the conclusion of the conference. Participants enjoyed breaks amidst garden strolls and visits with the resident chickens and rabbits.
 
@@ -246,7 +198,7 @@ For experienced Galaxy contributors, CoFest provided a space to collaborate on n
 
 <hr/>
 
-## Social Events {#social-events}
+## Social Events 
 
 GCC2024 offered ample opportunities for networking and relaxation through coffee breaks and various social events. Wednesday afternoon's tours were a highlight, providing participants with the chance to explore more of Brno. Two groups embarked on city walking tours, while others visited the UNESCO-listed Villa Tugendhat.  
 A significant addition to this year's social program was the first VENUS (Women & Nonbinary Empowerment, Unity, and Support) lunch, providing a welcoming space for women and non-binary participants to share their experiences within the Galaxy community.
@@ -257,11 +209,11 @@ One of the leading social highlights was the conference dinner hosted at the Aug
 
 <hr/>
 
-## Recognition {#recognition}
+## Recognition 
 
 We sincerely thank all sponsors, hosts, organizing and scientific committees, training coordinators, online support team, scientific program members, and CoFest organizers for their invaluable contributions to GCC2024. Your collective efforts have made GCC2024 a resounding success, fostering community, innovation, and collaboration within the Galaxy ecosystem. We look forward to continuing this journey together at future events.
 
-### Sponsors {#sponsors}
+### Sponsors 
 
 Gold sponsor:
 
@@ -283,13 +235,13 @@ Bronze sponsors:
 * [Limagrain](https://www.limagrain.com/en/)
 * [deNBI](https://www.denbi.de/)
 
-### Hosts {#hosts}
+### Hosts
 
 * The City of Brno
 * MUNI
 * Elixir Czech Republic
 
-### Organizing Committee {#organizing-committee}
+### Organizing Committee 
 
 Björn Grüning, University of Freiburg, Germany  
 Enis Afgan, Johns Hopkins University, United States  
@@ -297,11 +249,11 @@ Helge Hecht, Masaryk University, Czech Republic
 Jenn Vessio, Johns Hopkins University, United States  
 Natalie Whitaker-Allen, Johns Hopkins University, United States
 
-### Training Coordinator {#training-coordinator}
+### Training Coordinator 
 
 Tyler Collins, Johns Hopkins University, United States
 
-### Scientific Program Members {#scientific-program-members}
+### Scientific Program Members 
 
 **Committee Chair:** Enis Afgan, Johns Hopkins University, United States  
 	  
@@ -313,7 +265,7 @@ Hans-Rudolf Hotz, Friedrich Miescher Institute for Biomedical Research, Switzerl
 Lucille Delisle, Swiss Federal Institute of Technology, Switzerland  
 Wendi Bacon, The Open University, England
 
-### CoFest Organizers  {#cofest-organizers}
+### CoFest Organizers 
 
 Ahmed Awan, Johns Hopkins University, United States  
 Björn Grüning, University of Freiburg, Germany
