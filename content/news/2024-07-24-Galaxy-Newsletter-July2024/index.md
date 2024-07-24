@@ -16,6 +16,8 @@ Don’t miss the scoop on Galaxy Release 24.1, featuring key updates that enhanc
 
 Thank you for tuning in and for being a part of Galaxy!
 
+<hr/>
+
 # GCC2024
 
 ![GCC2024 Brno Logo](gcc2024-banner.png)
@@ -26,11 +28,13 @@ The Galaxy Community Conference 2024 (GCC2024) was a remarkable success, bringin
 
 ## GCC2024 Meeting Report
 
-We are excited to announce that the GCC2024 meeting report is now available! This comprehensive report was crafted in collaboration with several students who attended the conference, providing a unique perspective on the event's highlights. The report includes detailed summaries of the keynote speeches, presentation tracks, training sessions, and social events. You can access the full report here.
+We are excited to announce that the GCC2024 meeting report is now available! This comprehensive report was crafted in collaboration with several students who attended the conference, providing a unique perspective on the event's highlights. The report includes detailed summaries of the keynote speeches, presentation tracks, training sessions, and social events. [You can access the full report here](https://galaxyproject.org/news/2024-07-19-gc-c2024-meeting-report/).
 
 ## GCC2025
 
-Mark your calendars! GCC2025 will be held in New York. We look forward to another fantastic gathering of the Galaxy community filled with learning, networking, and fun. Stay tuned for more details as the event approaches.
+Mark your calendars! GCC2025 will be held in New York. We look forward to another fantastic gathering of the Galaxy community filled with learning, networking, and fun. Stay tuned for more details!
+
+<hr/>
 
 # 2024 Galaxy Community Update Paper
 
@@ -54,6 +58,8 @@ A heartfelt thank you to the entire Galaxy community for your contributions and 
 
 [*Read the full update paper here.*](https://academic.oup.com/nar/article/52/W1/W83/7676834)
 
+<hr/>
+
 # Galaxy Release 24.1
 
 The latest Galaxy release, 24.1, has exciting new features and improvements designed to enhance user experience and streamline workflows. See a sneak-peak at just a few of the exciting new updates and features Galaxy 24.1 includes:
@@ -69,6 +75,8 @@ The latest Galaxy release, 24.1, has exciting new features and improvements desi
 ![Zenodo Intergration Image](24.1-zenodo.png)
 
 For a complete list of updates and detailed release notes, please view the full [User Release Notes](https://docs.galaxyproject.org/en/master/releases/24.1_announce_user.html).
+
+<hr/>
 
 # Galaxy Training Academy 2024
 
@@ -94,9 +102,11 @@ We are currently seeking enthusiastic trainers to help make this event a success
 
 ![GTA2024 Call for Trainers Banner](CallForTrainers_GTA2024.jpeg)
 
+<hr/>
+
 # Galaxy in Research
 
-Exploring the Latest in Galaxy-Driven Research
+*Exploring the Latest in Galaxy-Driven Research*
 
 We are excited to spotlight the new "Galaxy in Research" series, which delves into scientific papers showcasing Galaxy's impact on various research fields. Our News posts provide easy-to-read analyses of recent studies, demonstrating how Galaxy tools and workflows are advancing scientific discovery. Additionally, our social media posts aim to keep you informed about these exciting developments and community contributions.
 
@@ -124,6 +134,8 @@ See below for some of our most recent Galaxy in Research highlights!
 
 *Discover how Galaxy is helping to unravel the hidden world of peptide toxins in an Antarctic marine invertebrate.*
 
+<hr/>
+
 # Upcoming Events
 
 | DATE  | EVENT |  VENUE or LOCATION |
@@ -134,6 +146,7 @@ See below for some of our most recent Galaxy in Research highlights!
 | 21–23 October 2024| [EOSC Symposium 2024](https://eosc.eu/symposium2024)  | Berlin, Germany |
 | 13–16 November 2024 | [CSHL Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=24) | Cold Spring Harbor, NY |
 
+<hr/>
 
 *Thank you for being a part of Galaxy!*
 
