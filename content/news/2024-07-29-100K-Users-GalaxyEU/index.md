@@ -5,6 +5,7 @@ tease: "We are thrilled to announce, that UseGalaxy.EU has reached 100,000 users
 hide_tease: false
 authors: Anika Erxleben-Eggenhofer 
 subsites: [all-eu, global]
+tags: [esg]
 ---
 
 ![100K users for Galaxy-EU](100K.png)
