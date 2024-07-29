@@ -1,3 +1,4 @@
+---
 title: 'What do you want to know about Galaxy-EU? Our first "Ask us anything" Q&A session'
 date: '2024-07-29'
 tease: "Galaxy-EU had its first ask us anything live webinar"
