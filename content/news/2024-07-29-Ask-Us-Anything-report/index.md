@@ -5,6 +5,7 @@ tease: "Galaxy-EU had its first ask us anything live webinar"
 hide_tease: false
 authors: Anika Erxleben-Eggenhofer 
 subsites: [all-eu, global]
+tags: [esg, esg-wp1]
 ---
 
 🚀 **First “Ask Us Anything about Galaxy” live Q&A session was successful**
