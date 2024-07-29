@@ -22,6 +22,7 @@ We invite you to a comprehensive virtual training event designed to introduce yo
 
 •	__Cost:__ Free
 
+•	__Registration Deadline:__ Friday August 2nd, 2024
 
 ## Why Attend?
 
