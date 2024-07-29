@@ -6,4 +6,5 @@ authors: "Markus Konkol"
 external_url: "https://blog.52north.org/2024/07/25/the-aquainfra-virtual-research-environment-design-rationale-for-using-the-galaxy-platform/"
 source_blog_url: "https://blog.52north.org/" 
 source_blog: "52°North Blog"
+tags: [esg-wp5, esg, aquainfra, eosc]
 ---
