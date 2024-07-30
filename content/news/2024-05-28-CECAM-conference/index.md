@@ -2,7 +2,7 @@
 title: "Develop and engage: Sustainable software tools for large-scale facilities using the galaxy platform"
 tease: "Talk on Galaxy tools for muon experiments and catalysis research at the CECAM conference"
 hide-tease: false
-authors: Leandro Liborio, Subindev Devadasan, 
+authors: Leandro Liborio, Subindev Devadasan 
 date: "2024-05-28"
 days: 3
 subsites: [all-eu,esg]
