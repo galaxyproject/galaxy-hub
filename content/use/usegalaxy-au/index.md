@@ -33,7 +33,7 @@ citations:
   - "The Galaxy Community. [The Galaxy platform for accessible,reproducible, and collaborative data analyses: 2024 update](https://doi.org/10.1093/nar/gkae410), *Nucleic Acids Research*, Volume 52, Issue W1, 5 July 2024, Pages W83-W94"
   - "List of [all publications supported by Australian BioCommons](https://www.biocommons.org.au/publications), including Galaxy Australia"
 sponsors:
-  - "Galaxy Australia forms part of the national Australian BioCommons infrastructure and is managed by [QCIF](https://www.qcif.edu.au/), [the University of Melbourne](https://www.unimelb.edu.au/) and [AARNet](https://www.aarnet.edu.au/)"
+  - "Galaxy Australia forms part of the national Australian BioCommons infrastructure and is managed by [QCIF](https://www.qcif.edu.au/), [the University of Melbourne](https://www.unimelb.edu.au/) and [AARNet (https://www.aarnet.edu.au/)"
   - "Galaxy Australia is underpinned by computational resources provided by [AARNet](https://www.aarnet.edu.au/), [ARDC Nectar Research Cloud](https://ardc.edu.au/services/ardc-nectar-research-cloud/), [the University of Melbourne](https://www.unimelb.edu.au/), [QCIF](https://www.qcif.edu.au/), [National Computational Infrastructure](http://nci.org.au/), [Pawsey Supercomputing Research Centre](https://pawsey.org.au/) and [Microsoft Azure](https://azure.microsoft.com/en-au)
   - "The above efforts are supported by funding from [the University of Melbourne](https://www.unimelb.edu.au/) and [Bioplatforms Australia](https://bioplatforms.com/biocommons/). Bioplatforms Australia are enabled by [NCRIS](https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris)
 ---
