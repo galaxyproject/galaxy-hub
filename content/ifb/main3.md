@@ -13,7 +13,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
           <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/w4m.png" alt="Workflow4Metabolomics" height="100">
           <br><br>
-          <a href="https://workflow4metabolomics.usegalaxy.fr/" class="btn btn-primary">Workflow4Metabolomics</a>
+          <a href="https://workflow4metabolomics.usegalaxy.fr/" target="_top" class="btn btn-primary">Workflow4Metabolomics</a>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
         <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/proteore.png" alt="ProteORE" height="100">
         <br><br><br>
-          <a href="https://proteore.usegalaxy.fr/" class="btn btn-primary">ProteoRE</a>
+          <a href="https://proteore.usegalaxy.fr/" target="_top" class="btn btn-primary">ProteoRE</a>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
         <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/covid19.png" alt="Covid19" height="100">
         <br><br><br>
-          <a href="https://covid19.usegalaxy.fr/" class="btn btn-primary">Covid19</a>
+          <a href="https://covid19.usegalaxy.fr/" target="_top" class="btn btn-primary">Covid19</a>
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
         <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/metabarcoding.png" alt="Metabarcoding" height="100">
         <br><br><br>
-          <a href="https://metabarcoding.usegalaxy.fr/" class="btn btn-primary">Metabarcoding</a>
+          <a href="https://metabarcoding.usegalaxy.fr/" target="_top" class="btn btn-primary">Metabarcoding</a>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
         <img src="https://forgemia.inra.fr/uploads/-/system/project/avatar/864/met4J_logo.png" alt="met4j" height="100">
         <br><br><br>
-          <a href="https://met4j.usegalaxy.fr/" class="btn btn-primary">Met4j</a>
+          <a href="https://met4j.usegalaxy.fr/" target="_top" class="btn btn-primary">Met4j</a>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
         <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/mnhn_small.png" alt="MNHN" height="100">
         <br><br><br>
-          <a href="https://mnhn.usegalaxy.fr/" class="btn btn-primary">MNHN</a>
+          <a href="https://mnhn.usegalaxy.fr/" target="_top" class="btn btn-primary">MNHN</a>
       </div>
     </div>
   </div>
@@ -81,7 +81,7 @@ subtitle: The subdomains of the French Galaxy server
       <div class="text-center">
         <img src="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome/images/covid19.png" alt="Plants-Pathogens" height="100">
         <br><br><br>
-          <a href="https://plants-pathongens.usegalaxy.fr/" class="btn btn-primary">Plants-Pathogens</a>
+          <a href="https://plants-pathongens.usegalaxy.fr/" target="_top" class="btn btn-primary">Plants-Pathogens</a>
       </div>
     </div>
   </div-->
