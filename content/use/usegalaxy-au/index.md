@@ -19,12 +19,6 @@ user_support:
   - "[Access training material on the Galaxy Training Networks](https://galaxy-au-training.github.io/tutorials/)"
   - "[Post in the global Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
   - "[Visit the global Galaxy Help Forum](https://help.galaxyproject.org/)"
-
-  - "[Help desk for **usegalaxy.org.au**](mailto:help@genome.edu.au)"
-  - "[Training Materials](https://galaxy-au-training.github.io/tutorials/)"
-  - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
-  - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
-  - "[Support](/support/)"
 quotas:
   - "Galaxy Australia applies a default storage quota which can be increased on request"
   - "Registered users get 100GB"
