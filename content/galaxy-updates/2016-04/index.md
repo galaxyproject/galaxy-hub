@@ -427,7 +427,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-Two new [Community Log entries](/blog/) were added in March
+Two new [Community Log entries](/news/) were added in March
 
 * **[Testing connexion between Galaxy and iRODS](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)** by Mikael Loaec and Olivier Inizan
 * **[Setting up Galaxy with TORQUE on AWS](https://gist.github.com/kantale/b7fecd62da22a1523aa2)** by [Alex Kanterakis](https://gist.github.com/kantale)

@@ -169,12 +169,12 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # New Galactic Blog Entries
 
-[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/news/)
 
-We've got two new *[Galactic Blog](/blog/)* entries:
+We've got two new *[Galactic Blog](/news/)* entries:
 
 * [Setup your own instance of the Galaxy Bioinformatics platform on DigitalOcean](https://vimal.io/setup-your-own-galaxy-bioinformatics-instance-on-digitalocean/), by [Vimalkumar Velayudhan](https://vimal.io/)
-* [Galaxy Docker 17.09](/blog/2017-11-galaxy-docker-17-09/), by [Björn Grüning](/people/bjoern-gruening/)
+* [Galaxy Docker 17.09](/news/2017-11-galaxy-docker-17-09/), by [Björn Grüning](/people/bjoern-gruening/)
 
 The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.)
 
@@ -182,7 +182,7 @@ The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy
 
 The Galaxy community needs to know what you are doing.  If you have done something that others would benefit from knowing then please create a *Galactic Blog* post describing your experiences.
 
-Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/blog/).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
+Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/news/).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
 
 Questions? [Ask us](mailto:outreach@galaxyproject.org).
 

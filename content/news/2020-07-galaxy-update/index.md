@@ -347,12 +347,12 @@ The [US Food and Drug Administration](https://www.fda.gov/home) has an opening f
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio](/blog/2020-06-gvl5-beta3/)</div>
+<div class="card-header">[Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio](/news/2020-06-gvl5-beta3/)</div>
 
 By Alexandru Mahmoud, Nuwan Goonasekera, Enis Afgan.
 
 The GVL Beta 3 release features complete analysis on one platform, including training and collaboration.
-<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 3" />
+<img class="card-img-bottom" src="/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 3" />
 </div>
 
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
@@ -369,7 +369,7 @@ A conversation with [Dave Clements](/people/dave-clements/) about moving BCC2020
 
 # Releases
 
-See the GVL Beta 3 release [described in the blog](/blog/2020-06-gvl5-beta3/) (and above).
+See the GVL Beta 3 release [described in the blog](/news/2020-06-gvl5-beta3/) (and above).
 
 <div class="card-deck">
 

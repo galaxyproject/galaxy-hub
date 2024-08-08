@@ -576,20 +576,20 @@ Extended job metadata collection
 </div>
 
 <div class="card border-info" style="min-width: 24rem; max-width: 50%;">
-<div class="card-header">[GVL 5.0 Beta Releases](/blog/2020-04-gvl5-beta2/)</div>
+<div class="card-header">[GVL 5.0 Beta Releases](/news/2020-04-gvl5-beta2/)</div>
 
 By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
 
 GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
 
-* [With Love: The All-new GVL 5.0 (beta)](/blog/2020-02-gvl5-beta/): Now more reliable, with better security, and with new features.
-* [GVL 5.0-beta2 release](/blog/2020-04-gvl5-beta2/): 30% faster and single sign-on, ohh my
+* [With Love: The All-new GVL 5.0 (beta)](/news/2020-02-gvl5-beta/): Now more reliable, with better security, and with new features.
+* [GVL 5.0-beta2 release](/news/2020-04-gvl5-beta2/): 30% faster and single sign-on, ohh my
 
 The GVL makes dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively whenever public and shared servers were not suitable. The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies.
 
 [Galaxy Helm 3.1.0](https://github.com/galaxyproject/galaxy-helm) was also released simultaneously.
 
-<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL" />
+<img class="card-img-bottom" src="/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL" />
 </div>
 
 

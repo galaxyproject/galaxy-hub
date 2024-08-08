@@ -302,11 +302,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/tags/>SymD) | | | | |
 ----
 
-[<img class="float-right" src="/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/blog/)
+[<img class="float-right" src="/news/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/news/)
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/blog/)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/blog/2019-04-gcp/).
+This month we have a *[Galactic Blog](/news/)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/news/2019-04-gcp/).
 
 ----
 

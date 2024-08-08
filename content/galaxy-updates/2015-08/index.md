@@ -411,9 +411,9 @@ Galaxy now has a formal and open policy for managing the project source code - i
 
 <br />
 
-Three new **[Community Log Board](/blog/)** entries were added in July:
+Three new **[Community Log Board](/news/)** entries were added in July:
 
-* **[Moving from MySQL to PostgreSQL](/blog/2015-07-mysql-2-postgresql/)**
+* **[Moving from MySQL to PostgreSQL](/news/2015-07-mysql-2-postgresql/)**
     by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 
 * **[BioJS2Galaxy – A step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)**

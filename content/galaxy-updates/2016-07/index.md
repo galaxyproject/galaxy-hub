@@ -458,7 +458,7 @@ And one [new set of Semi-Public Galaxy server](/use/) was added in June.  Semi-p
 
 <br />
 
-One new [community log board entry](/blog/) was added:
+One new [community log board entry](/news/) was added:
 
 * [Running jobs outside the Galaxy Docker container](https://github.com/bgruening/docker-galaxy-stable/blob/dev/docs/Running_jobs_outside_of_the_container.md)
     by [Marius van den Beek](https://github.com/mvdbeek).

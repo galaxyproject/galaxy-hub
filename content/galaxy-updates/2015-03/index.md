@@ -392,7 +392,7 @@ One new [public Galaxy servers](/use/) was added in February:
 
 <br />
 
-Two new [Community Log Board](/blog/) entires were added in February:
+Two new [Community Log Board](/news/) entires were added in February:
 
 * [FTP upload to Galaxy using ProFTPd and PBKDF2](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html)
     * ProFTPd implemented using PBKFD2 protocol for encryption, by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)

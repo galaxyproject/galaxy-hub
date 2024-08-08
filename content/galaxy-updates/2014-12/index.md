@@ -327,9 +327,9 @@ Two new [public Galaxy servers](/use/) were announced in November:
 
 <br /><br />
 
-**There were no new [Log Board](/blog/) or Deployment Catalog entries in November!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/news/) or Deployment Catalog entries in November!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/news/) you want to share then please publish them **this month.**
 
 
 # New Releases
