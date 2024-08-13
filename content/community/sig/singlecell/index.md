@@ -68,7 +68,7 @@ Our meeting agenda is:
 
 # How can you join & other important links
 
-Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
+Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#spoc3:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
 
  - <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;   [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
  - <i class="fa fa-trello" aria-hidden="true"></i>&nbsp;&nbsp; [ClickUp site](https://sharing.clickup.com/9015477668/b/h/5-90152810734-2/557452707486fef) & [Sign-up to edit](https://forms.gle/TgCyHMiBcwFBskef6)
