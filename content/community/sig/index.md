@@ -197,7 +197,7 @@ Galaxy-based platform for the functional analysis and the interpretation of prot
 
 The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.
 
-* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im)
+* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#spoc3:matrix.org)
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu)
