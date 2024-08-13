@@ -7,7 +7,7 @@ continent: EU
 location: 
     name: "Munich, Germany"
     external_url: "https://scverse.org/conference2024/"
-gtn: true
+gtn: false
 contact: "Saim Momin, Amirhossein Naghsh Nilchi & Pavan Videm"
 subsites: [all]
 ---
