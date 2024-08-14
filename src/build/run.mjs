@@ -42,9 +42,9 @@ if (code) {
     process.exitCode = code;
 }
 
-// Stage static files to ./dist/, standardizing to lowercase paths and filenames
+// Stage static files, standardizing to lowercase paths and filenames
 function stageStaticContent(srcDir, destDir) {
-    // Define the pattern to match image files (common image extensions)
+    // Build glob pattern from defined copyFileExts (image, mov, etc. extensions)
     const pattern = path.join(srcDir, `**/*.{${CONFIG.build.copyFileExts.join(',')}}`);
 
     // use glob to iterate and print matches
