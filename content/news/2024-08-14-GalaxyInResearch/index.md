@@ -29,7 +29,9 @@ quantitative trait methylation (age-eQTMs) correlations across multiple tissues,
 
 ·  	**Epigenetic Signatures of Aging**: Consistent with previous findings, hypermethylated CpG sites were enriched in repressed polycomb regions and CpG islands. At the same time, hypomethylated CpGs were more common in non-CpG islands and enhancers.  
    
-Venn diagram showing the overlap of pathways linked to age-associated CpG sites in breast, prostate, ovary, lung, and colon tissues. The number (n) represents pathways identified with a false discovery rate (FDR) of less than 0.05 (Jain et al., 2024).  
+![Figure 1](GalaxyInResearch_Jain2024.png)
+
+*Venn diagram showing the overlap of pathways linked to age-associated CpG sites in breast, prostate, ovary, lung, and colon tissues. The number (n) represents pathways identified with a false discovery rate (FDR) of less than 0.05 (Jain et al., 2024).*
    
 ## **Galaxy's Role**
 
