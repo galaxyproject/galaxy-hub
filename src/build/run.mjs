@@ -43,31 +43,26 @@ if (code) {
 }
 
 // Stage static files to ./dist/, standardizing to lowercase paths and filenames
-function stageStaticContent() {
+function stageStaticContent(srcDir, destDir) {
     // Define the pattern to match image files (common image extensions)
-    const pattern = path.join('./content', `**/*.{${CONFIG.build.copyFileExts.join(',')}}`);
+    const pattern = path.join(srcDir, `**/*.{${CONFIG.build.copyFileExts.join(',')}}`);
 
-    let staged = 0;
     // use glob to iterate and print matches
     const files = globSync(pattern, { dot: true, nodir: true });
     files.forEach(file => {
         // Compute the new destination path
-        const relativePath = path.relative('./content', file);
-        const lowerCasePath = relativePath.toLowerCase();
-        const destPath = path.join('./dist', lowerCasePath);
+        const relativePath = path.relative(srcDir, file);
+        const destPath = path.join(destDir, relativePath.toLowerCase());
 
         // Ensure the directory structure exists
         fs.ensureDir(path.dirname(destPath))
             .then(() => {
                 // Copy the file to the new destination
                 fs.copy(file, destPath)
-                    .then(() => console.log(`Copied ${file} to ${destPath}`))
                     .catch(err => console.error(`Error copying file ${file}:`, err));
-                staged += 1;
             })
             .catch(err => console.error(`Error creating directory for ${destPath}:`, err));
     });
-    console.debug(`Staged ${staged} static files`);
 }
 
 function main(rawArgv) {
@@ -127,9 +122,7 @@ function main(rawArgv) {
         // Copy static images for direct reference to dist -- only when doing a full build.
         // We hook into the exit this way to let Gridsome do its thing first.
         if (command === "build") {
-            console.log(`Copying integrated static content ("${extsLower.join('", "')}") to dist`);
-            // cpy(globs, "../dist", { cwd: "./content", overwrite: false, parents: true });
-            stageStaticContent();
+            stageStaticContent('./content', './dist');
         }
 
         if (signal) {
