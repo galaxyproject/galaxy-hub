@@ -39,7 +39,7 @@ The research used Galaxy.org’s "get flanks" tool to assign 10 Kb flanking regi
    
 ## **Significance of Study**  
    
-This study advances our understanding of the epigenetic changes associated with aging across different human tissues. By identifying tissue-specific and shared DNAm patterns, the findings could guide the development of biomarkers for aging and contribute to a deeper understanding of the aging process's molecular mechanisms.  
+This study provides important insights into how aging impacts DNA methylation across various human tissues, uncovering tissue-specific and shared epigenetic patterns. The research advances our understanding of the molecular mechanisms driving aging by identifying over 250,000 age-associated CpG sites and age-related expression quantitative trait methylation (age-eQTMs) across multiple tissues. These findings could lead to the development of new biomarkers for aging, with potential applications in early disease detection and personalized medicine. Galaxy’s role in facilitating this analysis highlights the importance of accessible bioinformatics tools in advancing genomic research.
    
 ## **Acknowledgments**  
    
