@@ -71,7 +71,7 @@ function main(rawArgv) {
     // argv[0] is the node binary and argv[1] is run.mjs, so argv[2] should be the command.
     let command = argv[2];
     if (command !== "develop" && command !== "build") {
-        console.error(repr`Invalid command ${command}. Must give 'develop' or 'build'.`);
+        console.error(`Invalid command ${command}. Must give 'develop' or 'build'.`);
         return 1;
     }
 
