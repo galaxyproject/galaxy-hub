@@ -45,11 +45,11 @@ if (code) {
 // Stage static files, standardizing to lowercase paths and filenames
 function stageStaticContent(srcDir, destDir) {
     // Build glob pattern from defined copyFileExts (image, mov, etc. extensions)
-    const pattern = path.join(srcDir, `**/*.{${CONFIG.build.copyFileExts.join(',')}}`);
+    const pattern = path.join(srcDir, `**/*.{${CONFIG.build.copyFileExts.join(",")}}`);
 
     // use glob to iterate and print matches
     const files = globSync(pattern, { dot: true, nodir: true });
-    files.forEach(file => {
+    files.forEach((file) => {
         // Compute the new destination path
         const relativePath = path.relative(srcDir, file);
         const destPath = path.join(destDir, relativePath.toLowerCase());
@@ -58,15 +58,13 @@ function stageStaticContent(srcDir, destDir) {
         fs.ensureDir(path.dirname(destPath))
             .then(() => {
                 // Copy the file to the new destination
-                fs.copy(file, destPath)
-                    .catch(err => console.error(`Error copying file ${file}:`, err));
+                fs.copy(file, destPath).catch((err) => console.error(`Error copying file ${file}:`, err));
             })
-            .catch(err => console.error(`Error creating directory for ${destPath}:`, err));
+            .catch((err) => console.error(`Error creating directory for ${destPath}:`, err));
     });
 }
 
 function main(rawArgv) {
-
     let argv = rawArgv.slice();
     // argv[0] is the node binary and argv[1] is run.mjs, so argv[2] should be the command.
     let command = argv[2];
@@ -122,7 +120,7 @@ function main(rawArgv) {
         // Copy static images for direct reference to dist -- only when doing a full build.
         // We hook into the exit this way to let Gridsome do its thing first.
         if (command === "build") {
-            stageStaticContent('./content', './dist');
+            stageStaticContent("./content", "./dist");
         }
 
         if (signal) {
