@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 import nodePath from "path";
+import fs from "fs-extra";
+import { globSync } from "glob";
+import path from "path";
 import process from "process";
 import childProcess from "child_process";
 import { fileURLToPath } from "url";
 import which from "which";
-import cpy from "cpy";
 import { repr } from "../lib/utils.js";
 import { PathInfo } from "../lib/paths.mjs";
 import { CONTENT_TYPES } from "./partition-content.mjs";
@@ -40,7 +42,36 @@ if (code) {
     process.exitCode = code;
 }
 
+// Stage static files to ./dist/, standardizing to lowercase paths and filenames
+function stageStaticContent() {
+    // Define the pattern to match image files (common image extensions)
+    const pattern = path.join('./content', `**/*.{${CONFIG.build.copyFileExts.join(',')}}`);
+
+    let staged = 0;
+    // use glob to iterate and print matches
+    const files = globSync(pattern, { dot: true, nodir: true });
+    files.forEach(file => {
+        // Compute the new destination path
+        const relativePath = path.relative('./content', file);
+        const lowerCasePath = relativePath.toLowerCase();
+        const destPath = path.join('./dist', lowerCasePath);
+
+        // Ensure the directory structure exists
+        fs.ensureDir(path.dirname(destPath))
+            .then(() => {
+                // Copy the file to the new destination
+                fs.copy(file, destPath)
+                    .then(() => console.log(`Copied ${file} to ${destPath}`))
+                    .catch(err => console.error(`Error copying file ${file}:`, err));
+                staged += 1;
+            })
+            .catch(err => console.error(`Error creating directory for ${destPath}:`, err));
+    });
+    console.debug(`Staged ${staged} static files`);
+}
+
 function main(rawArgv) {
+
     let argv = rawArgv.slice();
     // argv[0] is the node binary and argv[1] is run.mjs, so argv[2] should be the command.
     let command = argv[2];
@@ -96,13 +127,9 @@ function main(rawArgv) {
         // Copy static images for direct reference to dist -- only when doing a full build.
         // We hook into the exit this way to let Gridsome do its thing first.
         if (command === "build") {
-            // cpy's `caseSensitiveMatch` option doesn't seem to be working so let's at
-            // least make sure we get both all-lowercase and all-uppercase variations.
-            let extsLower = CONFIG.build.copyFileExts.map((ext) => ext.toLowerCase());
-            let extsUpper = extsLower.map((ext) => ext.toUpperCase());
-            let globs = [...extsLower, ...extsUpper].map((ext) => `**/*.${ext}`);
             console.log(`Copying integrated static content ("${extsLower.join('", "')}") to dist`);
-            cpy(globs, "../dist", { cwd: "./content", overwrite: false, parents: true });
+            // cpy(globs, "../dist", { cwd: "./content", overwrite: false, parents: true });
+            stageStaticContent();
         }
 
         if (signal) {
