@@ -7,7 +7,6 @@ import process from "process";
 import childProcess from "child_process";
 import { fileURLToPath } from "url";
 import which from "which";
-import { repr } from "../lib/utils.js";
 import { PathInfo } from "../lib/paths.mjs";
 import { CONTENT_TYPES } from "./partition-content.mjs";
 // Direct importing of JSON files isn't supported yet in ES modules. This is a workaround.
