@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import nodePath from "path";
 import fs from "fs-extra";
 import { globSync } from "glob";
 import path from "path";
@@ -14,10 +13,10 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const CONFIG = require("../../config.json");
 
-const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
-const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
-const PREPROCESSOR_PATH = nodePath.join(SCRIPT_DIR, "preprocess.mjs");
-const PREPROCESSOR_RELPATH = nodePath.relative(process.cwd(), PREPROCESSOR_PATH);
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const PROJECT_ROOT = path.dirname(path.dirname(SCRIPT_DIR));
+const PREPROCESSOR_PATH = path.join(SCRIPT_DIR, "preprocess.mjs");
+const PREPROCESSOR_RELPATH = path.relative(process.cwd(), PREPROCESSOR_PATH);
 
 const DEFAULT_PLACERS = {
     /* If we're just running `gridsome build`, resources (non-Markdown files) can be symlinks.
@@ -185,11 +184,11 @@ function findGridsome() {
     if (which.sync("gridsome", { nothrow: true })) {
         return "gridsome";
     }
-    let modulesDir = nodePath.join(PROJECT_ROOT, "node_modules");
+    let modulesDir = path.join(PROJECT_ROOT, "node_modules");
     if (new PathInfo(modulesDir).type() === "dir") {
         for (let moduleName of ["gridsome", "@gridsome"]) {
             for (let relScriptPath of ["bin/gridsome.js", "cli/bin/gridsome.js"]) {
-                let scriptPath = nodePath.join(modulesDir, moduleName, relScriptPath);
+                let scriptPath = path.join(modulesDir, moduleName, relScriptPath);
                 if (new PathInfo(scriptPath).type() === "file") {
                     return scriptPath;
                 }
