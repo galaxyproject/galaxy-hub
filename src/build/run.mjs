@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-import nodePath from "path";
+import fs from "fs-extra";
+import { globSync } from "glob";
+import path from "path";
 import process from "process";
 import childProcess from "child_process";
 import { fileURLToPath } from "url";
 import which from "which";
-import cpy from "cpy";
-import { repr } from "../lib/utils.js";
 import { PathInfo } from "../lib/paths.mjs";
 import { CONTENT_TYPES } from "./partition-content.mjs";
 // Direct importing of JSON files isn't supported yet in ES modules. This is a workaround.
@@ -13,10 +13,10 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const CONFIG = require("../../config.json");
 
-const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
-const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
-const PREPROCESSOR_PATH = nodePath.join(SCRIPT_DIR, "preprocess.mjs");
-const PREPROCESSOR_RELPATH = nodePath.relative(process.cwd(), PREPROCESSOR_PATH);
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const PROJECT_ROOT = path.dirname(path.dirname(SCRIPT_DIR));
+const PREPROCESSOR_PATH = path.join(SCRIPT_DIR, "preprocess.mjs");
+const PREPROCESSOR_RELPATH = path.relative(process.cwd(), PREPROCESSOR_PATH);
 
 const DEFAULT_PLACERS = {
     /* If we're just running `gridsome build`, resources (non-Markdown files) can be symlinks.
@@ -40,12 +40,37 @@ if (code) {
     process.exitCode = code;
 }
 
+// Stage static files, standardizing to lowercase paths but leaving filenames alone
+function stageStaticContent(srcDir, destDir) {
+    // Build glob pattern from defined copyFileExts (image, mov, etc. extensions)
+    const pattern = path.join(srcDir, `**/*.{${CONFIG.build.copyFileExts.join(",")}}`);
+
+    // use glob to iterate and print matches
+    const files = globSync(pattern, { dot: true, nodir: true });
+    files.forEach((file) => {
+        // Compute the new destination path
+        const relativePath = path.relative(srcDir, file);
+
+        const destPath = path.join(destDir, path.dirname(relativePath).toLowerCase(), path.basename(relativePath));
+
+        // Ensure the directory structure exists
+        fs.ensureDir(path.dirname(destPath))
+            .then(() => {
+                // Copy the file to the new destination
+                fs.copy(file, destPath, { overwrite: false }).catch((err) =>
+                    console.error(`Error copying file ${file}:`, err)
+                );
+            })
+            .catch((err) => console.error(`Error creating directory for ${destPath}:`, err));
+    });
+}
+
 function main(rawArgv) {
     let argv = rawArgv.slice();
     // argv[0] is the node binary and argv[1] is run.mjs, so argv[2] should be the command.
     let command = argv[2];
     if (command !== "develop" && command !== "build") {
-        console.error(repr`Invalid command ${command}. Must give 'develop' or 'build'.`);
+        console.error(`Invalid command ${command}. Must give 'develop' or 'build'.`);
         return 1;
     }
 
@@ -96,13 +121,7 @@ function main(rawArgv) {
         // Copy static images for direct reference to dist -- only when doing a full build.
         // We hook into the exit this way to let Gridsome do its thing first.
         if (command === "build") {
-            // cpy's `caseSensitiveMatch` option doesn't seem to be working so let's at
-            // least make sure we get both all-lowercase and all-uppercase variations.
-            let extsLower = CONFIG.build.copyFileExts.map((ext) => ext.toLowerCase());
-            let extsUpper = extsLower.map((ext) => ext.toUpperCase());
-            let globs = [...extsLower, ...extsUpper].map((ext) => `**/*.${ext}`);
-            console.log(`Copying integrated static content ("${extsLower.join('", "')}") to dist`);
-            cpy(globs, "../dist", { cwd: "./content", overwrite: false, parents: true });
+            stageStaticContent("./content", "./dist");
         }
 
         if (signal) {
@@ -165,11 +184,11 @@ function findGridsome() {
     if (which.sync("gridsome", { nothrow: true })) {
         return "gridsome";
     }
-    let modulesDir = nodePath.join(PROJECT_ROOT, "node_modules");
+    let modulesDir = path.join(PROJECT_ROOT, "node_modules");
     if (new PathInfo(modulesDir).type() === "dir") {
         for (let moduleName of ["gridsome", "@gridsome"]) {
             for (let relScriptPath of ["bin/gridsome.js", "cli/bin/gridsome.js"]) {
-                let scriptPath = nodePath.join(modulesDir, moduleName, relScriptPath);
+                let scriptPath = path.join(modulesDir, moduleName, relScriptPath);
                 if (new PathInfo(scriptPath).type() === "file") {
                     return scriptPath;
                 }
