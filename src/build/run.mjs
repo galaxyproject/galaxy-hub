@@ -41,7 +41,7 @@ if (code) {
     process.exitCode = code;
 }
 
-// Stage static files, standardizing to lowercase paths and filenames
+// Stage static files, standardizing to lowercase paths but leaving filenames alone
 function stageStaticContent(srcDir, destDir) {
     // Build glob pattern from defined copyFileExts (image, mov, etc. extensions)
     const pattern = path.join(srcDir, `**/*.{${CONFIG.build.copyFileExts.join(",")}}`);
@@ -51,7 +51,8 @@ function stageStaticContent(srcDir, destDir) {
     files.forEach((file) => {
         // Compute the new destination path
         const relativePath = path.relative(srcDir, file);
-        const destPath = path.join(destDir, relativePath.toLowerCase());
+
+        const destPath = path.join(destDir, path.dirname(relativePath).toLowerCase(), path.basename(relativePath));
 
         // Ensure the directory structure exists
         fs.ensureDir(path.dirname(destPath))
