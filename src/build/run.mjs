@@ -53,7 +53,15 @@ function stageStaticContent(srcDir, destDir) {
         // Compute the new destination path
         const relativePath = path.relative(srcDir, file);
 
-        const destPath = path.join(destDir, kebabCase(path.dirname(relativePath)), path.basename(relativePath));
+        const fileName = path.basename(relativePath);
+        const filePath = path.dirname(relativePath);
+
+        // break part path, map kebab-case, and rejoin
+        const parts = filePath.split(path.sep);
+        const kebabParts = parts.map((part) => kebabCase(part));
+        const kebabPath = kebabParts.join(path.sep);
+
+        const destPath = path.join(destDir, kebabPath, fileName);
 
         // Ensure the directory structure exists
         fs.ensureDir(path.dirname(destPath))
