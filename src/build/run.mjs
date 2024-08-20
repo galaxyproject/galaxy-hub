@@ -10,7 +10,6 @@ import { PathInfo } from "../lib/paths.mjs";
 import { CONTENT_TYPES } from "./partition-content.mjs";
 // Direct importing of JSON files isn't supported yet in ES modules. This is a workaround.
 import { createRequire } from "module";
-import kebabCase from "lodash.kebabcase";
 
 const require = createRequire(import.meta.url);
 const CONFIG = require("../../config.json");
@@ -42,6 +41,16 @@ if (code) {
     process.exitCode = code;
 }
 
+function formatURLPart(str) {
+    // Defines formatting of URL parts for static content staging
+    return (
+        str
+            .replace(/([a-z])([A-Z])/g, "$1-$2")
+            // .replace(/_/g, "-") (test w/o underscore to kebab)
+            .toLowerCase()
+    );
+}
+
 // Stage static files, standardizing to kebab-lowercase paths but leaving filenames alone
 function stageStaticContent(srcDir, destDir) {
     // Build glob pattern from defined copyFileExts (image, mov, etc. extensions)
@@ -58,7 +67,7 @@ function stageStaticContent(srcDir, destDir) {
 
         // break part path, map kebab-case, and rejoin
         const parts = filePath.split(path.sep);
-        const kebabParts = parts.map((part) => kebabCase(part));
+        const kebabParts = parts.map((part) => formatURLPart(part));
         const kebabPath = kebabParts.join(path.sep);
 
         const destPath = path.join(destDir, kebabPath, fileName);
