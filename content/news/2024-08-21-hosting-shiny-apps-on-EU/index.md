@@ -23,6 +23,6 @@ As a prerequisite, the shiny application needs to be available as a package. Thi
 Using this dockerfile, the template shiny application can be dockerized   
 
 
-TODO short description on how to actually make a IT from this 
+Once the Shiny-App Docker container is created and publicly available to everyone, it can be integrated into Galaxy. The process is very similar to the integration of a normal Galaxy tool and [described in the GTN](https://training.galaxyproject.org/training-material/topics/dev/tutorials/interactive-tools/tutorial.html). Alternatively you can drop us a message in our [Galaxy Tool Chat](https://matrix.to/#/#galaxy-iuc_iuc:gitter.im) or create a [new issue](https://github.com/galaxyproject/tools-iuc/issues/new) to inform us about your new App. We will try to integrate it for you and deploy if on the European Galaxy server.
 
 Ultimately, the goal will be to add such interactive tools to (existing) Galaxy workflows. More work for another Hackathon in the future. 
