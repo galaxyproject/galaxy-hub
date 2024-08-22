@@ -13,7 +13,7 @@ On February 29th/March 1st 2024, representatives from the Bioconductor and the G
 
 <img src="./brainstorm.png" style="max-width: 400px" alt="brainstorming" />
 
-Initial work concentrated around the [ideal package](https://bioconductor.org/packages/release/bioc/html/ideal.html). The corresponding Shiny app already offered the stopApp functionality (see: [close-window](https://deanattali.com/blog/advanced-shiny-tips/#close-window)) which deemed to be very useful to cleanly close the app and eventually stop the container. A [proof of concept](https://github.com/federicomarini/docker-ideal) was generated and the dockerized shiny application was made available at the European Galaxy server as an [interactive tool](https://usegalaxy.eu/?tool_id=interactive_tool_ideal&version=latest).  
+Initial work concentrated around the [ideal package](https://bioconductor.org/packages/ideal/). The corresponding Shiny app already offered the stopApp functionality (see: [close-window](https://deanattali.com/blog/advanced-shiny-tips/#close-window)) which deemed to be very useful to cleanly close the app and eventually stop the container. A [proof of concept](https://github.com/federicomarini/docker-ideal) was generated and the dockerized shiny application was made available at the European Galaxy server as an [interactive tool](https://usegalaxy.eu/?tool_id=interactive_tool_ideal&version=latest).  
 In order to provide a general usable recipe, two repositories were set up with easy-to-expand (i.e. exchange with your favorite Shiny application) templates:
 
 [templateDockerShinyPkg](https://github.com/csoneson/templateDockerShinyPkg) 
