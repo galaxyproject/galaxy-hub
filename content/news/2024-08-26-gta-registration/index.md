@@ -8,19 +8,19 @@ tags: ["GTN", "Training",]
 subsites: [global]
 ---
 
-📢 **Registaion for the Galaxy Training Academy is open!**
+📢 **Registration for the Galaxy Training Academy is Open!** 📢
 
 
-If you want to learn how to analyze your data using Galaxy, a open source data analysis platform, than join us for our 5-day Global Online and Asynchronous learning event.
+If you want to learn how to analyze your data using Galaxy, an open-source data analysis platform, then join us for our 5-day Global Online and Asynchronous learning event.
 
-🚀 **Check out the event**
- You can find the [porgam](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html#program) and get an [overview of the Event](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html#overview). 
+🚀 **Explore the Event**
+ You can find the [program](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html#program) and get an [overview of the event](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html#overview). 
 
-📝 **Register now**
-The [registration](https://forms.gle/cxzVatt7MAgiMX12A) is open unitl 2024-09-30! 
+📝 ** Register Now**
+[Registration](https://forms.gle/cxzVatt7MAgiMX12A) is open unitl 2024-09-30! 
 
 
-![Event banner](banner_event_page_1000x300.png)
+![Event banner](./banner_event_page_1000x300.png)
 
 
 
