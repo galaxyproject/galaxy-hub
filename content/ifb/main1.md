@@ -2,6 +2,11 @@
 title: Galaxy France
 subtitle: The homepage of the French Galaxy community
 ---
+<div class="card border-secondary bg-secondary" style="width: 100%;">
+  <div class="card-body">
+    <a href="https://gxy.io/GTA1" target="_blank"><img src="/images/learn/2024-10-GTA-banner_event_page_1000x300.png" alt="Galaxy Training Academy"></a>
+  </div>
+</div>
 
 <div class="card border-secondary bg-secondary" style="width: 100%;">
   <div class="card-body">
