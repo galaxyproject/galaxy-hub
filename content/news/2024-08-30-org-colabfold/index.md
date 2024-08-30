@@ -42,3 +42,4 @@ Hopkins](https://www.arch.jhu.edu/). GPU resources for the AlphaFold2 step are p
 [Frontera](https://frontera-portal.tacc.utexas.edu/) computing project at the [Texas Advanced Computing
 Center](https://www.tacc.utexas.edu/). Frontera is made possible by National Science Foundation award OAC-1818253.
 Additionally, we would like to thank Milot Mirdita (who also developed ColabFold) for his help with the Galaxy tool.
+This work was also supported by NHGRI award U24HG006620 and NSF award DBI-2419522.
