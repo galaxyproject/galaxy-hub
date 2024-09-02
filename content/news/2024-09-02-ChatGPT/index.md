@@ -19,7 +19,7 @@ To help do so, GPT is now available on [Galaxy](https://usegalaxy.eu/), an open-
 
 To access GPT in Galaxy, create an OpenAI account [here](https://platform.openai.com/signup). If needed, [add API credits](https://platform.openai.com/settings/organization/billing) according to your usage.  Go to https://platform.openai.com/api-keys  to “+Create new secret key”, name it “Galaxy”, and click the green button “create secret key”. Copy this key to add the API into Galaxy.
 
-![OpenAI_API_key-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9424a44d-11e3-4594-bca9-d759c67956bd)
+![OpenAI API key](https://github.com/user-attachments/assets/9424a44d-11e3-4594-bca9-d759c67956bd)
 
 
 Back in Galaxy, click “User” and then click on “Manage Information”. In the opened window, scroll down to “Your OpenAI API key”. Paste the API key you created on [OpenAI](https://platform.openai.com/api-keys) here and click “save”. 
@@ -40,7 +40,7 @@ You can also combine the ChatGPT tool in Galaxy with the other tools within a mo
 
 You could, for example, upload audio and video files from various sources to be automatically converted into text in Galaxy using [Whisper](https://usegalaxy.eu/?tool_id=whisper). After a short cleaning, ChatGPT can summarise the text, as visualised below.
 
-![screenshot 171](https://github.com/user-attachments/assets/bd1a82d5-be79-464f-8f57-9fe5487e2abf)
+![ChatGPT tool](https://github.com/user-attachments/assets/bd1a82d5-be79-464f-8f57-9fe5487e2abf)
 
 The screenshot shows the integration of ChatGPT as a tool in Galaxy. The penal on the right side, the ‘History’, shows an example workflow. Here, a mp3-recording from Martin Luther King’s ‘I have a dream’ was converted into text, cleaned, and translated using ChatGPT. The prompt was adapted from [Prompting ChatGPT for Translation](https://doi.org/10.48550/arXiv.2403.00127).
 
