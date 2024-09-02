@@ -5,7 +5,6 @@ tease: "Use ChatGPT in your analysis on the European Galaxy Server to leverage t
 hide_tease: false
 authors: Arash Kadkhodaei, Daniela Schneider 
 subsites: [global, eu, us, freiburg]
-bgruening marked this conversation as resolved.
 tags: [tool]
 ---
 
