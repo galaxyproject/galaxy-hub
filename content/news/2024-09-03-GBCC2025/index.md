@@ -10,6 +10,8 @@ subsites: [global]
 
 # **Announcing the First Galaxy and Bioconductor Community Conference (GBCC 2025): Genomics Data Science and Beyond**
 
+![GBCC2025 Announcement Image](GBCC2025_announcement.png)
+
 We’re excited to announce the first-ever Galaxy and Bioconductor Community Conference (GBCC 2025), scheduled from June 23-26, 2025, at Cold Spring Harbor Laboratory in New York. This event will bring together the [Galaxy](https://galaxyproject.org/) and [Bioconductor](https://bioconductor.org/) communities in a joint effort to advance bioinformatics and data science tools across diverse platforms.
 
 ## **Why GBCC 2025?**
