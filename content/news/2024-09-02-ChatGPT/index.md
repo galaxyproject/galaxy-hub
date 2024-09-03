@@ -52,6 +52,6 @@ Another application example is the direct retrieval of research data from Zenodo
 
 The compiled workflow, the individual analysis steps and the data of each sub-step can be shared and repeated at any time for good scientific practice, simplifying research data management and reinforcing FAIR analysis. With the help of the [Galaxy Training Network](https://training.galaxyproject.org/), users can create an open-source tutorial generated out of their workflow to explain and share their analysis with other users. For an example, see here:
 
-
+<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=a2284469005518e1&embed=true&buttons=true&about=false&heading=false&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=1"></iframe>
 
 Curious? What is your use case with GPT in Galaxy going to be?
