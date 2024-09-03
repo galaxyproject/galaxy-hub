@@ -11,7 +11,7 @@ tags: [tool]
 ## Using Large Language Models in complex workflows
 
 The amount of data researchers face is growing daily. Finding ways of tackling the information overflow to get and analyse relevant data effectively is more critical than ever. Large Language Models (LLMs) like GPT can help in this endeavour and (with good prompting) analyse text data flexibly and effectively. 
-To help do so, [GPT](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chatgpt_openai_api/chatgpt_openai_api/2024+galaxy1) is now available on [Galaxy](https://usegalaxy.eu/), an open-source platform for FAIR data analysis. This enables users to incorporate the LLM into more complex, automatable workflows and analyses. Galaxy Europe contains over 3,500 tools that users can combine in workflows to cover digital analysis without programming skills or expensive hardware. Users can share all steps and results of the analysis according to the FAIR principles, facilitating high reproducibility, transparency and efficient research data management.
+To help do so, [GPT](https://usegalaxy.eu/root?tool_id=chatgpt_openai_api) is now available on [Galaxy](https://usegalaxy.eu/), an open-source platform for FAIR data analysis. This enables users to incorporate the LLM into more complex, automatable workflows and analyses. Galaxy Europe contains over 3,500 tools that users can combine in workflows to cover digital analysis without programming skills or expensive hardware. Users can share all steps and results of the analysis according to the FAIR principles, facilitating high reproducibility, transparency and efficient research data management.
 
 
 ## Setting up GPT
