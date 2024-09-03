@@ -10,7 +10,7 @@ subsites: [global]
 
 # **Announcing the First Galaxy and Bioconductor Community Conference (GBCC 2025): Genomics Data Science and Beyond**
 
-![GBCC2025 Announcement Image](GBCC2025_announcement.png)
+![GBCC2025 Announcement](GBCC2025_announcement.png)
 
 We’re excited to announce the first-ever Galaxy and Bioconductor Community Conference (GBCC 2025), scheduled from June 23-26, 2025, at Cold Spring Harbor Laboratory in New York. This event will bring together the [Galaxy](https://galaxyproject.org/) and [Bioconductor](https://bioconductor.org/) communities in a joint effort to advance bioinformatics and data science tools across diverse platforms.
 
@@ -26,11 +26,11 @@ GBCC 2025 will feature a range of activities designed to support collaboration a
 
 * **Keynotes featuring cutting-edge science:** The conference will feature keynotes, panels, and lightning sessions from leaders in Bioconductor and Galaxy, providing attendees with insights into the latest advancements in statistical methods for genomic data analysis and scientific research. 
 
-* **Hands-on Tutorials and Workshops:** Participants can attend sessions demonstrating the integration of Bioconductor tools within the Galaxy platform. These interactive workshops and tutorials will provide hands-on experience, making data analysis workflows more accessible and efficient for researchers.
+* **Hands-on tutorials and workshops:** Participants can attend sessions demonstrating the integration of Bioconductor tools within the Galaxy platform. These interactive workshops and tutorials will provide hands-on experience, making data analysis workflows more accessible and efficient for researchers.
 
-* **Networking and Community Building:** The conference provides opportunities to connect with peers through poster sessions, networking events, and collaborative activities. GBCC 2025 will serve as a springboard for long-term collaborations between the Galaxy and Bioconductor communities, opening new avenues for joint projects and shared resources.
+* **Networking and community building:** The conference provides opportunities to connect with peers through poster sessions, networking events, and collaborative activities. GBCC 2025 will serve as a springboard for long-term collaborations between the Galaxy and Bioconductor communities, opening new avenues for joint projects and shared resources.
 
-* **Focus on Diversity and Inclusion:** We are committed to ensuring that GBCC 2025 reflects the diversity of the broader scientific community. Scholarships, support for underrepresented groups, and resources for attendees with childcare and other responsibilities will be available, creating an inclusive environment where all voices are valued.
+* **Focus on diversity and inclusion:** We are committed to ensuring that GBCC 2025 reflects the diversity of the broader scientific community. Scholarships, support for underrepresented groups, and resources for attendees with childcare and other responsibilities will be available, creating an inclusive environment where all voices are valued.
 
 ## **Why Attend?**
 
@@ -52,4 +52,4 @@ If you are interested in sponsoring this unique collaborative event, email Jenn 
 * LinkedIn ([Bioconductor](https://www.linkedin.com/company/bioconductor/), [Galaxy](https://www.linkedin.com/company/galaxyproject/))  
 * BlueSky ([Galaxy](https://bsky.app/profile/galaxyproject.bsky.social))
 
-**Stay Tuned**: Registration details and further information will be announced in the coming months. Mark your calendars for June 23-26, 2025, and we look forward to seeing you at Cold Spring Harbor Laboratory\!
+**Stay Tuned**: Registration details and further information will be announced in the coming months. Mark your calendars for June 23-26, 2025, and we look forward to seeing you at Cold Spring Harbor Laboratory!
