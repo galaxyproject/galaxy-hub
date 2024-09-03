@@ -49,7 +49,7 @@ GBCC 2025 is currently planned as a one-time event that will offer a unique oppo
 If you are interested in sponsoring this unique collaborative event, email Jenn Vessio (jvessio1 \[at\] jhu.edu) and Maria Doyle (maria.doyle \[at\] ul.ie). To receive alerts, follow us on social media:
 
 * Mastodon ([Bioconductor](https://genomic.social/@bioconductor), [Galaxy](https://mstdn.science/@galaxyproject))  
-* LinkedIn ([Bioconductor](https://www.linkedin.com/company/bioconductor/), [Galaxy](https://www.linkedin.com/company/galaxyproject/))  
+* LinkedIn ([Bioconductor](https://www.linkedin.com/company/bioconductor/), [Galaxy](https://www.linkedin.com/company/galaxy-project/))  
 * BlueSky ([Galaxy](https://bsky.app/profile/galaxyproject.bsky.social))
 
 **Stay Tuned**: Registration details and further information will be announced in the coming months. Mark your calendars for June 23-26, 2025, and we look forward to seeing you at Cold Spring Harbor Laboratory!
