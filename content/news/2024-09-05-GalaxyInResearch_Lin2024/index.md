@@ -16,7 +16,7 @@ Researchers have successfully sequenced and assembled the chloroplast genomes of
    
 ## **Key Findings**
 
-* The chloroplast genomes of *E. elliptica* and “YN-1” have 127 genes, including an extra psbK gene, compared to other loquats.
+* Compared to other loquats, the chloroplast genomes of *E. elliptica* and “YN-1” have 127 genes, including an extra psbK gene.
 
 * Specific regions such as trnF-GAA-ndhJ and petG-trnP-UGG showed high variability.
 
