@@ -87,3 +87,7 @@ Now the user should click on the `Outputs` button under the `Actions` column to 
 
 <img class="center" src="esg-im-minio-06.png" width="80%" alt="MinIO configuration IM.">
 
+Along with the URL for the MinIO API endpoint, the user will also need to generate an access and secret key in MinIO that will then be used in Galaxy to connect to this cloud storage:
+
+<img class="center" src="esg-im-minio-07.png" width="80%" alt="MinIO configuration IM.">
+
