@@ -24,7 +24,8 @@ Researchers have successfully sequenced and assembled the chloroplast genomes of
 
 * Phylogenetic analysis places “YN-1” closely related to *E. elliptica*, *E. obovata*, and *E. henryi*, suggesting it is a new wild loquat species.
 
-   
+![Figure 1 Lin et al., 2024](Figure_Lin2024.jpeg)
+
 *Three gene maps: E. elliptica, “YN-1”, and “JFZ” (Lin et al., 2024).*  
    
 ## **Galaxy’s Role**  
