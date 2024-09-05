@@ -4,8 +4,8 @@
         <!-- <Carousel /> -->
 
         <div class="text-center mt-5">
-            <a href="/news/2024-05-29-galaxy-training-academy-call-contribution">
-                <img src="/images/call_for_trainers.png" alt="Galaxy Training Academy" />
+            <a href="/news/2024-08-30-org-colabfold">
+                <img src="/images/usegalaxy-welcome/colabfold_announce.png" alt="ColabFold Announcement" />
             </a>
         </div>
 
