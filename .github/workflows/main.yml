@@ -42,12 +42,14 @@ jobs:
         with:
           start: yarn serve
           wait-on: "http://localhost:8080"
-      - uses: actions/upload-artifact@v2
+      - name: Upload Cypress Screenshots
+        uses: actions/upload-artifact@v4
         with:
           name: cypress-screenshots
           path: cypress/screenshots
           if-no-files-found: ignore
-      - uses: actions/upload-artifact@v2
+      - name: Upload Cypress Videos
+        uses: actions/upload-artifact@v4
         with:
           name: cypress-videos
           path: cypress/videos
