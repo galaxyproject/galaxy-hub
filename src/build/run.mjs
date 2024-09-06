@@ -46,7 +46,7 @@ function formatURLPart(str) {
     return (
         str
             .replace(/([a-z])([A-Z])/g, "$1-$2")
-            // .replace(/_/g, "-") (test w/o underscore to kebab)
+            .replace(/_/g, "-")
             .toLowerCase()
     );
 }
