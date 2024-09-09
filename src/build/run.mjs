@@ -43,12 +43,10 @@ if (code) {
 
 function formatURLPart(str) {
     // Defines formatting of URL parts for static content staging
-    return (
-        str
-            .replace(/([a-z])([A-Z])/g, "$1-$2")
-            // .replace(/_/g, "-") (test w/o underscore to kebab)
-            .toLowerCase()
-    );
+    return str
+        .replace(/([a-z])([A-Z])/g, "$1-$2")
+        .replace(/_/g, "-")
+        .toLowerCase();
 }
 
 // Stage static files, standardizing to kebab-lowercase paths but leaving filenames alone
