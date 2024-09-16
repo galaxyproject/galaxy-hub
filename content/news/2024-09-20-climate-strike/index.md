@@ -13,6 +13,6 @@ This means that you can still visit our website, but the server will not start n
 
 
 <div class="multiple-img">
-    <iframe width="1000" height="600" src="https://www.klima-streik.org/" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1000" height="600" src="https://www.klima-streik.org/englisch" frameborder="0" allowfullscreen></iframe>
 </div>
 
