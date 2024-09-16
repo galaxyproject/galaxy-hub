@@ -3,7 +3,7 @@ title: 'Viral pathogen data analysis beyond BY-COVID'
 date: '2024-09-16'
 tease: "A look back at the BY-COVID project and ahead at fresh developments"
 hide_tease: false
-authors: Arash Kadkhodaei, Daniela Schneider 
+authors: Wolfgang Maier
 subsites: [global, eu, freiburg]
 tags: [COVID-19, virology]
 ---
