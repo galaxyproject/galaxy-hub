@@ -24,7 +24,7 @@ Among other things, we have:
 
 4. **extended our analysis support to additional viruses** beyond SARS-CoV-2 and have created solutions for [influenza](https://usegalaxy.eu/published/page?id=a04ab8d6ecb698fa) and [pox virus](https://usegalaxy.eu/published/page?id=9172077f52d9d49f) sequencing data analysis.
 
-5. offered **SARS-CoV-2/One Health/Pathogen data analysis tracks** as part of the **Global Galaxy Training days** in [2022](https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html) and [2023](https://gallantries.github.io/video-library/events/smorgasbord3/), and the [2024 Galaxy Training Academy](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html) in October will feature a dedicated BY-COVID track.
+5. offered **SARS-CoV-2/One Health/Pathogen data analysis tracks** as part of the **GTN Smörgåsbord** in [2022](https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html) and [2023](https://gallantries.github.io/video-library/events/smorgasbord3/), and the [2024 Galaxy Training Academy](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html) in October will feature a dedicated BY-COVID track.
 
    <a href="https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html" target="_blank"><img style="width: 500px; margin-top: 1rem;" alt="Galaxy Training Academy 2024 announcement" src="./banner_gta_1000x300.png" /></a>
 
