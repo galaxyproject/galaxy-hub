@@ -17,7 +17,7 @@ The maintenance should be completed by April 10th and we will resume to normal o
 
 #### **Climate Strike on September 20th 2024**
 
-The Freiburg Galaxy team will be striking on 20.09.2024. The job queue will be paused for a few hours on Friday. This means that you will still be able to visit our website, but new jobs will not start. Running jobs will remain unaffected. For more information, please see our [blog post]().
+The Freiburg Galaxy team will be striking on 20.09.2024. The job queue will be paused for a few hours on Friday. This means that you will still be able to visit our website, but new jobs will not start. Running jobs will remain unaffected. For more information, please see our [blog post](https://galaxyproject.org/news/2024-09-20-climate-strike/).
 
 </div>
 
