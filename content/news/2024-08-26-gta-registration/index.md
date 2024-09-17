@@ -5,7 +5,7 @@ tease: "Join us at the Galaxy Training Academy 2024. Learn all about data analys
 hide_tease: false
 authors: Teresa Müller
 tags: ["GTN", "Training",]
-subsites: [global]
+subsites: [global,eu]
 ---
 
 📢 **Registration for the Galaxy Training Academy is Open!** 📢
