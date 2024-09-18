@@ -1,13 +1,7 @@
 <template>
     <main id="maincontainer" class="container">
         <div class="markdown" v-html="$page.top.content" />
-        <!-- <Carousel /> -->
-
-        <div class="text-center mt-5">
-            <a href="/news/2024-08-30-org-colabfold">
-                <img src="/images/usegalaxy-welcome/colabfold_announce.png" alt="ColabFold Announcement" />
-            </a>
-        </div>
+        <Carousel />
 
         <div class="markdown" v-html="$page.main.content" />
     </main>
