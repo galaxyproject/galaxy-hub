@@ -13,10 +13,10 @@ Ensuring consistent high-quality genome assemblies from a distributed project wi
 The ERGA Assembly Report (EAR) is a community-developed Genome Assembly QC document that leverages the Galaxy platform, a highly accessible and user-friendly environment to provide a comprehensive quality control assessment of genome assemblies. This document covers several critical aspects of assembly evaluation. First, Read QC ensures the raw sequencing data meets quality standards before assembly begins. Assembly contiguity & completeness metrics assess how well the genome has been reconstructed, focusing on factors like scaffold lengths and gaps. Gene completeness is evaluated using tools such as BUSCO to measure how many expected genes are present in the assembly. A contaminant screen helps identify and remove any non-target sequences that may have been introduced during the sequencing process. Finally, the ERGA Assembly Report includes detailed documentation of the software and pipeline versions used in the assembly process to ensure reproducibility and transparency, allowing others to verify or replicate the analysis. By using Galaxy's shared infrastructure, the report supports version control, history sharing, and workflow reuse, which enhances collaboration, transparency, and standardization across the genome assembly community, making it a powerful platform for the ERGA initiative.
 
 <div align="center">
-<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ferga_ear%2Fmake_ear%2F24.08.26%20galaxy0"><button type="button" class="btn btn-primary btn-lg">Check ERGA Assembly Reporting Tool in Galaxy</button></a>
+<a href="https://usegalaxy.eu/root?tool_id=make_ear"><button type="button" class="btn btn-primary btn-lg">Check ERGA Assembly Reporting Tool in Galaxy</button></a>
 </div><br>
 
-![alt text](EAR.png)
+![A graphical representation of ERGA Assembly Reporting tool in a Galaxy workflow and resultant output PDF report](EAR.png)
 
 
 
