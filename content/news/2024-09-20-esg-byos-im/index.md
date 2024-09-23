@@ -1,6 +1,6 @@
 ---
 title: "EuroScienceGateway project: Bring Your Own Storage with Galaxy"
-date: "2024-09-06"
+date: "2024-09-20"
 tease: "Connect Galaxy with external storage resources easily"
 hide_tease: false
 tags: [esg-wp4, esg]
@@ -33,6 +33,8 @@ Once filled out correctly the external cloud storage is connected to Galaxy:
 Now one interesting option for the user is to select the external cloud storage as the default storage location in Galaxy. For that, the user needs to click on the `User` drop-down menu, select `Preferences`, `Preferred Storage Location` and then select the newly added connection.
 
 <img class="center" src="byos-default.png" width="80%" alt="Choose default cloud storage.">
+
+Instead of using a default storage location it is also possible to select it at different levels: per `History`, per `Tool`, and `Workflow`.
 
 # Getting S3 storage from EGI
 
