@@ -3,10 +3,12 @@ title: "Galaxy Newsletter: September 2024"
 tease: "Discover exciting updates, including the Galaxy Training Academy 2024, ColabFold's arrival on Galaxy, GBCC2025, and major community milestones!"
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
-date: "2024-09-23"
+date: "2024-09-24"
 tags: ["highlight"]
 subsites: [global,all]
 ---
+
+![GalaxyNews](GalaxyNews.png)
 
 # Galaxy Newsletter: September 2024  
 
@@ -19,6 +21,8 @@ Thank you for tuning in and for being a part of Galaxy!
 ---
 
 ## **Galaxy Training Academy 2024**  
+
+![GTA2024](GTA2024.png)
 
 **Overview**
 
@@ -40,8 +44,9 @@ Registration is open until September 30th, 2024. To participate, simply register
 
 ---
 
-## **Galaxy and Bioconductor Community Conference 2024 (GBCC2024)**
+## **Galaxy and Bioconductor Community Conference 2025 (GBCC2025)**
 
+![GBCC2025](GBCC2025.png)
 
 Mark your calendars for June 23-26, 2025! We are excited to announce the first-ever Galaxy and Bioconductor Community Conference (GBCC 2025), taking place at the iconic Cold Spring Harbor Laboratory in New York. This event will unite the Galaxy and Bioconductor communities for an unprecedented collaboration aimed at advancing bioinformatics and data science tools across both platforms. 
 
@@ -66,11 +71,11 @@ Get creative! We’re kicking off a GBCC 2025 logo design contest, and we want y
 
 We are thrilled to announce that ColabFold, the powerful tool combining MMseqs2 with AlphaFold2 or RoseTTAFold for ultra-fast protein structure prediction, is now fully available on UseGalaxy.org! This exciting addition allows users to effortlessly predict protein structures and complexes in a fraction of the time, harnessing the speed of MMseqs2 and the accuracy of AlphaFold2—all within the familiar Galaxy environment. 
 
-What makes this even better? The Galaxy version of ColabFold has streamlined the process by splitting it into two steps: the MSA (Multiple Sequence Alignment) step and the AlphaFold2 step. Each step runs at lightning speed, with individual sequences completing in seconds or minutes. This unique two-part design also lets you take an iterative approach, refining your results at each step—a feature we know you’ll love!
+What makes this even better? The Galaxy version of ColabFold has streamlined the process by splitting it into two steps: the MSA (Multiple Sequence Alignment) step and the AlphaFold2 step. Each step runs quickly, with individual sequences completing in seconds or minutes. This unique two-part design also lets you take an iterative approach, refining your results at each step—a feature we know you’ll love!
 
 Plus, with ColabFold running entirely on Galaxy servers, users worldwide now have more capacity than ever to analyze protein structures—no more waiting on limited resources! This is a game-changer for researchers who have been eagerly awaiting this tool.
 
-However, please keep in mind a few key details:
+Interested? Please keep in mind a few key details:
 
 * Galaxy users can run up to two MSA jobs and four AlphaFold2 jobs concurrently.  
 * The MSA tool accepts up to 20 sequences per FASTA/a3m file.  
@@ -90,7 +95,9 @@ We’re thrilled to share some incredible milestones that highlight the growth a
 
 **500,000 Registered Users**
 
-Across all Galaxy instances, we have officially surpassed **half a million registered users**! This achievement speaks to the power of the Galaxy community and the vital role the platform plays in democratizing bioinformatics and data science for researchers worldwide. Every new user is a testament to the accessibility, versatility, and collaborative spirit that Galaxy fosters. We’re proud of this incredible milestone and can’t wait to welcome even more users into the fold as we continue to expand and evolve.
+Across all Galaxy instances, we have officially surpassed **half a million registered users**! This achievement speaks to the power of the Galaxy community and the vital role the platform plays in democratizing bioinformatics and data science for researchers worldwide. Every new user is a testament to the accessibility, versatility, and collaborative spirit that Galaxy fosters. We’re proud of this incredible milestone and can’t wait to welcome even more users into the Galaxy community as we continue to expand and evolve.
+
+![Milestone](Milestone.jpeg)
 
 **Approaching 20,000 Citations**
 
@@ -102,7 +109,7 @@ Thank you to every single user, developer, and contributor who has been part of 
 
 ## **Galaxy in Research**
 
-Exploring the Latest in Galaxy-Driven Research
+_Exploring the Latest in Galaxy-Driven Research_
 
 In the recent editions of Galaxy in Research, we’ve highlighted some of the most exciting scientific breakthroughs made possible by Galaxy. From cutting-edge data analysis to novel insights in genomics and beyond, these studies showcase the power and versatility of the platform. See below for some of our most recent Galaxy in Research highlights!
 
