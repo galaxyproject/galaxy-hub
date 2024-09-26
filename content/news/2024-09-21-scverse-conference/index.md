@@ -29,11 +29,6 @@ The second day of the scverse conference 2024 focused on cutting-edge advancemen
 
 The final day of the scverse conference 2024 wrapped up with interactive workshops on essential topics like training models on atlas-scale single-cell datasets, making first contributions to sc-verse, and using Data Version Control in collaborative science. The workshops were followed by keynote speaker, Maria Brbic who showcased cutting-edge AI tools for single-cell domains, addressing the challenges of heterogeneous data. A key highlight was a talk by Fabian Theis discussing the evolution of single-cell analysis from Scanpy to virtual cells. Other talks explored advanced methods like Segger’s use of graph neural networks for cell segmentation and Novae’s graph-based model for domain assignments. Afternoon workshops included GPU-accelerated single-cell analysis, the Bento platform for subcellular spatial transcriptomics, and a deep dive into Big Data with AnnData. The day concluded with closing remarks, bringing an end to three days of intense collaboration, innovation, and exploration of the future of single-cell genomics.
 
-<p align="center">
-  <img src="./group_photo.png" alt="scverse group photo" width="800"/>
-</p>
-
-
 We extend our gratitude to the organizers of the scverse conference for hosting such an insightful event and creating a platform that promotes deeper exploration and fosters open-source collaborations in the evolving field of single-cell omics. 
 
 
