@@ -109,7 +109,7 @@ Once the bucket is added to Galaxy the user can start using it as the default st
 
 # Running workflows in Galaxy with Bring Your Own Storage
 
-The user can now run tools and workflows in Galaxy using the newly configured external storage. Below is an example of a workflow that performs the assembly of bacterial genomes using [Shovill](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fshovill%2Fshovill%2F1.1.0%20galaxy2) a faster _de novo_ assembly pipeline for Illumina paired end reads.
+The user can now run tools and workflows in Galaxy using the newly configured external storage. Below is an example of a workflow that performs the assembly of bacterial genomes using [Shovill](https://usegalaxy.eu/?tool_id=shovill) a faster _de novo_ assembly pipeline for Illumina paired end reads.
 
 <iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=b17603457e1d4262&embed=true&buttons=true&about=true&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=1"></iframe>
 
