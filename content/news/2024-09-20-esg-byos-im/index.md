@@ -1,5 +1,5 @@
 ---
-title: "EuroScienceGateway project: Bring Your Own Storage with Galaxy"
+title: "Bring Your Own Storage with Galaxy"
 date: "2024-09-20"
 tease: "Connect Galaxy with external storage resources easily"
 hide_tease: false
