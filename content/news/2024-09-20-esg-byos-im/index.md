@@ -138,3 +138,7 @@ See below the output files in the external storage.
 6. The user can also evaluate it by clicking the `Dataset details` of a job and observe that the user's external storage is used as the `Dataset Storage`.
 
 <img class="center" src="dataset-storage-location.png" width="80%" alt="Dataset details showing external storage.">
+
+# Conclusions
+
+Having the possibility to connect Galaxy with external storage capacity enables great flexibility for both the end user and the Galaxy administrator. The end user can benefit from extra storage capacity easily. The Galaxy administrator does not have to look after additional storage systems. All in all, this *Bring their Own Storage (BYOS)* approach allows Galaxy to scale up the number of users in a more sustainable way.
