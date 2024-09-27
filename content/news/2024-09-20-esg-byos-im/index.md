@@ -114,24 +114,27 @@ The user can now run tools and workflows in Galaxy using the newly configured ex
 <iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=b17603457e1d4262&embed=true&buttons=true&about=true&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=1"></iframe>
 
 ## Steps to run the workflow:
+
 1. Create a new history in Galaxy.
+
 2. Select the newly added external storage as the preferred storage location for the `History`.
 
-    <img class="center" src="byos-history-level-selection.png" width="80%" alt="Set storage for this history.">
+<img class="center" src="byos-history-level-selection.png" width="80%" alt="Set storage for this history.">
 
 3. Upload / Import the [input data](https://usegalaxy.eu/published/history?id=8ac959df218c9188).
+
 4. Go to the `Workflow` tab and select the workflow and run it.
 
-    <img class="center" src="run-galaxy-workflow.png" width="80%" alt="Set storage for this history.">
+<img class="center" src="run-galaxy-workflow.png" width="80%" alt="Set storage for this history.">
 
-5. Once the workflow is completed,
+5. Once the workflow is completed, the user can find all the output files in the external storage.
 
-    <img class="center" src="successful-completion-of-the-workflow-invocation.png" width="80%" alt="Successful completion of workflow run">
+<img class="center" src="successful-completion-of-the-workflow-invocation.png" width="80%" alt="Successful completion of workflow run">
 
-    the user can find all the output files in the external storage.
+See below the output files in the external storage.
 
-    <img class="center" src="all-workflow-datasets-now-in-the-bucket.png" width="80%" alt="Output files in external storage.">
+<img class="center" src="all-workflow-datasets-now-in-the-bucket.png" width="80%" alt="Output files in external storage.">
 
-6. The user can also evaluate it by clicking the `Dataset details` of a job and observe that the user's external storage is used as the `Dataset Storage`
+6. The user can also evaluate it by clicking the `Dataset details` of a job and observe that the user's external storage is used as the `Dataset Storage`.
 
-    <img class="center" src="dataset-storage-location.png" width="80%" alt="Dataset details showing external storage.">
+<img class="center" src="dataset-storage-location.png" width="80%" alt="Dataset details showing external storage.">
