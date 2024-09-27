@@ -141,4 +141,4 @@ See below the output files in the external storage.
 
 # Conclusions
 
-Having the possibility to connect Galaxy with external storage capacity enables great flexibility for both the end user and the Galaxy administrator. The end user can benefit from extra storage capacity easily. The Galaxy administrator does not have to look after additional storage systems. All in all, this *Bring their Own Storage (BYOS)* approach allows Galaxy to scale up the number of users in a more sustainable way.
+Having the possibility to connect Galaxy with external storage capacity enables great flexibility for both the end user and the Galaxy administrator. The end user can benefit from extra storage capacity easily. The Galaxy administrator does not have to look after additional storage systems. All in all, this *Bring your Own Storage (BYOS)* approach allows Galaxy to scale up the number of users in a more sustainable way, thanks to the work of John Chilton and colleagues [upstream](https://github.com/galaxyproject/galaxy/pull/18127).
