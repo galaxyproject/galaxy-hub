@@ -9,8 +9,8 @@ title: Galaxy Europe
 -->
 
 <div class="text-center mt-5">
-    <a href="https://galaxyproject.org/news/2024-05-29-galaxy-training-academy-call-contribution"target=”_blank”>
-        <img src="/images/call_for_trainers.png" alt="Galaxy Training Academy" />
+    <a href="https://galaxyproject.org/news/2024-08-26-gta-registration/"target=”_blank”>
+        <img src="/images/galaxy_training_academy_banner.png" alt="Galaxy Training Academy" />
     </a>
 </div>
 <br/>

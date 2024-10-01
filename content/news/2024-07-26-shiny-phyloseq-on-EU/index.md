@@ -10,16 +10,18 @@ subsites: [all-eu, global]
 # Shiny phyloseq interactive tool (IT)
 
 [Shiny apps](https://shiny.posit.co/) are web apps using R functionality, that give easy responsive access to R packages. 
-Interactive tools are a great way to work with data interactively and responsive using Galaxy. In theory all shiny apps could become ITs, but so far the 
-wrapping and deployment of shiny apps as ITs was technically challenging. To facilitate the integration of Shiny apps as ITs, the Freiburg Galaxy team conducted a two-day hackathon in February, collaborating with members from the Bioconductor community, including Charlotte Soneson, Hans-Rudolf Hotz, and Federico Marini. During the event, best practices for developing ITs using Shiny apps were established, with a primary focus on creating a Docker image that can serve as a starting point for adding any Shiny app.
+Interactive tools are a great way to work with data interactively and responsive using Galaxy. In theory, all shiny apps could become ITs, but so far the 
+wrapping and deployment of shiny apps as ITs was technically challenging. To facilitate the integration of Shiny apps as ITs, the Freiburg Galaxy team, with the support of the de.KCD project,
+conducted a two-day hackathon in February, collaborating with members from the Bioconductor community, including Charlotte Soneson, Hans-Rudolf Hotz, and Federico Marini.
+During the event, best practices for developing ITs using Shiny apps were established, with a primary focus on creating a Docker image that can serve as a starting point for adding any Shiny app.
 As a proof-of-concept the [shiny-phyloseq app](https://github.com/joey711/shiny-phyloseq) has been wrapped as IT. 
 A fork of this Docker image tailored for the shiny app is available here: https://github.com/paulzierep/docker-phyloseq.
 The image can be run locally to test the app and then must be deployed to [quay.io](https://quay.io) or any other Docker registry. 
 This app allows to perform dynamic analysis of
 metabarcoding/amplicon data such as:
 
-* filter data based on metdadata and taxonomy
-* plot alpa diversity
+* filter data based on metadata and taxonomy
+* plot alpha diversity
 * plot distance networks 
 
 <img src="./Network.png" style="max-width: 400px" alt="Network" />
@@ -55,4 +57,4 @@ The changes made to the original app can be found in this [git diff](https://git
 
 ## Outlook
 
-To improve the usability and Galaxy-interaction of the phyloseq-shiny app we are working on the possibility to export data (figures, modified phyloseq objects) to the Galaxy history, either by collecting the data as outputs of the IT or by using utility functions such as put / get, that are used in other ITs like [R-studio](https://usegalaxy.eu/?tool_id=interactive_tool_rstudio&version=latest). 
+To improve the usability and Galaxy-interaction of the phyloseq-shiny app we are working on the possibility to export data (figures, modified phyloseq objects) to the Galaxy history, either by collecting the data as outputs of the IT or by using utility functions such as put / get, that are used in other ITs like [RStudio](https://usegalaxy.eu/?tool_id=interactive_tool_rstudio&version=latest). 
