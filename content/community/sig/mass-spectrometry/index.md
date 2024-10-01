@@ -1,18 +1,18 @@
 ---
 description: "Users, developers, and trainers providing feedback and energy to improve and expand the Galaxy mass spectrometry capabilities."
 autotoc: true
-title: "Galaxy Mass Spectrometry (MS) - Proteomics and Metabolomics Community"
+title: "Galaxy Mass Spectrometry Community (GMSC)"
 ---
 
 <slot name="/community/sig/common_linkbox" />
 
-<img class="img-fluid float-right" src="/community/sig/mass-spectrometry/GalaxyP_logo.png" style="width:200px;" alt="Logo for Galaxy mass spectrometry community."/>
+<!-- <img class="img-fluid float-right" src="/community/sig/mass-spectrometry/GalaxyP_logo.png" style="width:200px;" alt="Logo for Galaxy mass spectrometry community."/> -->
 
 ## Welcome to the Galaxy Mass Spectrometry Community!
 
 **An Open and Collaborative Community**
 
-We are a vibrant and inclusive network of researchers, developers, and trainers dedicated to advancing the fields of proteomics and metabolomics. Our community is committed to fostering open, reproducible, and accessible research through the use of Galaxy.
+We are a vibrant and inclusive network of researchers, developers, and trainers dedicated to advancing the fields of proteomics, metabolomics, exposomics and everything mass spec! Our community is committed to fostering open, reproducible, and accessible research through the use of Galaxy.
 
 **Our Mission**
 
@@ -21,7 +21,7 @@ We believe in the power of collaboration and the importance of sharing knowledge
 Our mission is to:
 
 - develop a set of well-documented and tested tools for the analysis of mass spectrometry data (both LC-MS/MS and GC-MS/MS),
-- support researchers in their quest to understand complex biological systems using the MS. We provide both proteomics and metabolomics workflows to analyze complex MS data,
+- support researchers in their quest to understand complex biological systems using the MS. We provide workflows for various -omics to analyze complex MS data,
 - provide comprehensive training materials describing such tools and workflows,
 - facilitate a collaboration across pipelines and tools,
 - conduct a research in an open and reproducible manner.
@@ -53,7 +53,7 @@ Follow us on [Twitter](https://x.com/usegalaxyp)
 
 You can start with the [introduction to proteomics](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/introduction/slides.html#1) or [introduction to metabolomics](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/introduction/slides.html#1). Then follow with other tutorials: analysis of [proteomic](https://training.galaxyproject.org/training-material/topics/proteomics/) or [metabolomic](https://training.galaxyproject.org/training-material/topics/metabolomics/) data in Galaxy.
 
-Also, the GalaxyP team provides slides to [conference talks](https://galaxyp.org/conference-presentations/#presentations) or materials from [workshops](https://galaxyp.org/workshops/)
+Also, the GalaxyP team provides slides to [conference talks](https://galaxyp.org/conference-presentations/#presentations) or materials from [workshops](https://galaxyp.org/workshops/).
 
 ## ... learn more about Galaxy!
 
@@ -68,7 +68,8 @@ We keep all the source code on Github:
 
 - General [Galaxy repository](https://github.com/galaxyproject).
 - Github repository for [proteomics tools](https://github.com/galaxyproteomics)
-- Github repository for metabolomics tools from [workflow4metabolomics](https://github.com/workflow4metabolomics/tools-metabolomics) or [RECETOX](https://github.com/RECETOX/galaxytools).
+- Github repository for metabolomics tools from [workflow4metabolomics](https://github.com/workflow4metabolomics/tools-metabolomics)
+- GitHub repository for functional exposomics at [RECETOX](https://github.com/RECETOX/galaxytools).
 
 To start with the new tools development, check out the [development training materials](https://training.galaxyproject.org/training-material/topics/dev/) 
 
@@ -92,6 +93,8 @@ Events related to MS data processing will be published here.
 
 ## Recent publications
 
+- Hecht, H., Rojas, W. Y., Ahmad, Z., Křenek, A., Klánová, J., & Price, E. J. (2024). Quantum Chemistry-Based Prediction of Electron Ionization Mass Spectra for Environmental Chemicals. Analytical Chemistry, 96(33), 13652–13662. [link](https://doi.org/10.1021/acs.analchem.4c02589)
+- Galvis, J., Guyon, J., Dartigues, B., Hecht, H., Grüning, B., Specque, F., Soueidan, H., Karkar, S., Daubon, T., & Nikolski, M. (2024). DIMet: an open-source tool for differential analysis of targeted isotope-labeled metabolomics data. Bioinformatics, 40(5). [link](https://doi.org/10.1093/bioinformatics/btae282)
 - Metaproteomics for Coinfections in the Upper Respiratory Tract: The Case of COVID-19. Bihani S et al. (2024) doi: 10.1007/978-1-0716-3910-8_15. [link](https://pubmed.ncbi.nlm.nih.gov/38941023/)
 - An integrated metaproteomics workflow for studying host-microbe dynamics in bronchoalveolar lavage samples applied to cystic fibrosis disease. Kruk et al. (2024) doi: 10.1128/msystems.00929-23. [link](https://pubmed.ncbi.nlm.nih.gov/38934598/)
 - A novel clinical metaproteomics workflow enables bioinformatic analysis of host-microbe dynamics in disease. Do et al. (2024) doi: 10.1128/msphere.00793-23. [link](https://pubmed.ncbi.nlm.nih.gov/38780289/)
@@ -109,3 +112,6 @@ Data-dependent acquisition
 Data-independent acquisition
 Metaproteomics
 Proteogenomics
+Exposomics
+ELIXIR
+EIRENE
