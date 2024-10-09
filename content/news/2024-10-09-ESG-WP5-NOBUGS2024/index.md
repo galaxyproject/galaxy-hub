@@ -8,9 +8,12 @@ subsites: [all-eu, esg]
 main_subsite: eu
 ---
 
+
+<img class="center" src="./NOBUGS_2024.png" width="80%" alt="NOBUGS Welcome page">
+
 *Patrick Austin* from Science and Technology Facilities Council (STFC, UKRI) and *Leandro Liborio* from Scientific Computing Department, STFC, UKRI, UK presented the Galaxy platform and the analysis of X-ray Absorption Spectroscopy (XAS) at the NOBUGS 2024 conference at the ILL & ESRF conference in Grenoble, 23-24 September 2024
 
-[Link to the video with the NOBUGS presentation](https://vimeo.com/1016435799/e892312d63)
+<iframe src="https://player.vimeo.com/video/1016435799?h=e892312d63&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen" title="260924 - 56 - Workflow Engines Patrick Austin"></iframe>
 
 [Link to the site with synopsis](https://indico.esrf.fr/event/114/contributions/775/)
 
