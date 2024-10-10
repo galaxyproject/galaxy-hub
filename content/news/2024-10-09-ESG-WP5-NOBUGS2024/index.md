@@ -9,7 +9,7 @@ main_subsite: eu
 ---
 
 
-<img class="center" src="./NOBUGS_2024.png" width="80%" alt="NOBUGS Welcome page">
+![NOBUGS Welcome page](./NOBUGS_2024.png)
 
 *Patrick Austin* from Science and Technology Facilities Council (STFC, UKRI) and *Leandro Liborio* from Scientific Computing Department, STFC, UKRI, UK presented the Galaxy platform and the analysis of X-ray Absorption Spectroscopy (XAS) at the NOBUGS 2024 conference at the ILL & ESRF conference in Grenoble, 23-24 September 2024
 
