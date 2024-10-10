@@ -26,7 +26,7 @@ There are plenty of events happening worldwide and online, [check them out!](/ev
 
 ### News and blog posts
 
-Take a look at the [news](/news/) and [blog posts](/blog/).
+Take a look at the [news](/news/) and [blog posts](/news/).
 
 ## Where can you run your analysis?
 

@@ -261,15 +261,15 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 # New Galactic Blog Posts
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/news/)
 </div>
 
-There are three new *[Galactic Blog](/blog/)* entries:
+There are three new *[Galactic Blog](/news/)* entries:
 
 * [Hybrid training delivers online participatory training to far-reaching venues](https://www.embl-abr.org.au/hybrid-training-delivers-online-participatory-training-to-far-reaching-venues/), by Christina Hall
-* [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/blog/2018-09-totm/), by Bérénice Batut
+* [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/news/2018-09-totm/), by Bérénice Batut
     * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
-* [Contributor of the Month: Yvan Le Bras](/blog/2018-10-cotm-yvan-le-bras/), By Björn Grüning
+* [Contributor of the Month: Yvan Le Bras](/news/2018-10-cotm-yvan-le-bras/), By Björn Grüning
 
 ----
 # Who's Hiring

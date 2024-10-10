@@ -12,7 +12,7 @@ autotoc: false
  <div style="width: 100%; overflow: hidden;">
      <div style="width: 600px; float: left;">
 
-[Simon Gladman](/blog/2018-12-cotm-simon-gladman/) loved unusual watches. During European Galaxy days this past October Simon was showing all of us his latest solar watch.
+[Simon Gladman](/news/2018-12-cotm-simon-gladman/) loved unusual watches. During European Galaxy days this past October Simon was showing all of us his latest solar watch.
 He was passionate about everything that he did. He was a cheesemaker, [a firefighter](https://www.topinfoguide.com/death-obituary/simon-gladman-obituary-news-in-loving-memory-of-simon-gladman-from-wyndham-vale-fire-brigade/), a board game enthusiast, beloved father and one of
 the most genuinely good and generous people that you can imagine.
 He was ingrained in the fabric of the Galaxy Project and a member of the [Australian Biocommons](https://www.biocommons.org.au/news/simon-gladman).

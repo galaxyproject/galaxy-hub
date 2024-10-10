@@ -13,11 +13,6 @@ list:
   icon: far fa-calendar-alt
 - name: videos
   type: static
-- name: blog
-  type: dynamic
-  title: Blog
-  link: /blog/
-  icon: fas fa-pencil-alt
 - name: careers
   type: dynamic
   title: Careers

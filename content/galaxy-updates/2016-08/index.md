@@ -348,7 +348,7 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
 <img src="/images/logos/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="75" />
 </div>
 
-New Galaxy Deployment Catalog and [Community Log Board](/blog/) entries were added:
+New Galaxy Deployment Catalog and [Community Log Board](/news/) entries were added:
 
 * The Public Health Agency of Canada - National Microbiology Laboratory Galaxy server helps identify, prevent and control infectious diseases.
 
