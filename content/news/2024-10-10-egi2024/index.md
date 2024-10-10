@@ -28,7 +28,7 @@ Sebastian presented a talk titled **EuroScienceGateway: Leveraging the European 
 |---|---|---|
 | Sebastian | EuroScienceGateway: Leveraging the European compute infrastructures for data-intensive research guided by FAIR principles | [Slides](https://indico.egi.eu/event/6441/contributions/19369/) |
 
-During the session, Sebastian introduced Galaxy and the ESG project. He presented the ESG architecture, the design, setup, and architecture of Galaxy's EU instance, recent developments in the ESG project, such as Bring Your Own Storage and Bring Your Own Computer, integrations with WLCG IAM and EGI Check-in, optimized job scheduling and visualization and distributed computing using [PULSAR ](https://pulsar-network.readthedocs.io/en/latest/index.html) and [ARC](https://arc-user-guide.readthedocs.io/en/latest/index.html).
+During the session, Sebastian introduced Galaxy and the ESG project. He presented the ESG architecture, the design, setup, and architecture of Galaxy's EU instance, recent developments in the ESG project, such as Bring Your Own Storage and Bring Your Own Compute, integrations with WLCG IAM and EGI Check-in, optimized job scheduling and visualization and distributed computing using [PULSAR](https://pulsar-network.readthedocs.io/en/latest/index.html) and [ARC](https://arc-user-guide.readthedocs.io/en/latest/index.html).
 
 The initiative aims to create an open infrastructure for data-driven research, focusing on providing a user-friendly scientific workflow and data integration platform. This endeavor seeks robustness, scalability, and integration, enabling federated computational infrastructures and democratizing research data analysis.
 
