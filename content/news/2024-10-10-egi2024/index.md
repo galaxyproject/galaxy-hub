@@ -9,7 +9,7 @@ main_subsite: eu
 
 During 1st-3rd of October, Björn Grüning, Mira Kuntz, and Sanjay Kumar Srikakulam from the European Galaxy Team traveled to Lecce to join the [EGI2024 conference](https://www.egi.eu/event/egi2024/) and presented the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators. With Sebastián Luna-Valero and Enol Fernández (EGI), Hakan Bayındır (ULAKBIM/TR), Łukasz Dutka (Cyfronet/PL), work packages 1, 3 and 4 of ESG were represented.
 
-At EGI2024, we held a booth on Galaxy and usegalaxy.eu, presenting the European Galaxy Server to a broader audience from various scientific fields. We also introduced Galaxy through presentations and presented its opportunities, the ESG project, and its updates. The team also participated in several open meetings and discussions, including the **EGI Federated Cloud community** and the **EGI Trusted Research Environments (TRE) Working Group** sessions.
+At EGI2024, we held a [booth](https://www.egi.eu/article/meet-egi2024-exhibitors-eurosciencegateway/) on Galaxy and usegalaxy.eu, presenting the European Galaxy Server to a broader audience from various scientific fields. We also introduced Galaxy through presentations and presented its opportunities, the ESG project, and its updates. The team also participated in several open meetings and discussions, including the **EGI Federated Cloud community** and the **EGI Trusted Research Environments (TRE) Working Group** sessions.
 
 # Events
 
