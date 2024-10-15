@@ -233,12 +233,12 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # Contributor of the Month: Carrie Ganote
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/news/)
 </div>
 
-There is one new *[Galactic Blog](/blog/)* entry:
+There is one new *[Galactic Blog](/news/)* entry:
 
-* [Contributor of the Month: Carrie Ganote](/blog/2018-09-cotm-carrie-ganote/), By Björn Grüning
+* [Contributor of the Month: Carrie Ganote](/news/2018-09-cotm-carrie-ganote/), By Björn Grüning
 
 ----
 

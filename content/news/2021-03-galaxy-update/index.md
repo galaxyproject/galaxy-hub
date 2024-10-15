@@ -98,7 +98,7 @@ Our hope is that this framework will enable us to become a truly global communit
 <div class="card border-info" style="min-width: 25%; max-width: 100%">
 <div class="card-img-top trim-p">
 
-![Themes in Slack over time](/blog/2021-03-smorgasbord/slack-themes.png)
+![Themes in Slack over time](/news/2021-03-smorgasbord/slack-themes.png)
 
 </div>
 <div class="card-header trim-p">
@@ -553,7 +553,7 @@ By Wolfgang Maier, Marius Van Den Beek, Björn Grüning, Sergei Kosakovsky Pond,
 
 This analysis of intrahost variation in the COVID pandemic is split into two postings (**[Part 1](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-1/623)** and **[Part 2](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-2/624)**).
 
-![Part of figure 8, Spatial density of variants per gene/product](/blog/2021-02-covid-intrahost/spatial-density.png)
+![Part of figure 8, Spatial density of variants per gene/product](/news/2021-02-covid-intrahost/spatial-density.png)
 
 </div>
 
@@ -698,7 +698,7 @@ In this second edition, and for six consecutive weeks, speakers from all around 
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

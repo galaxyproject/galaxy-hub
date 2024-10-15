@@ -261,12 +261,12 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/news/)
 
-There are two new *[Galactic Blog](/blog/)* entries:
+There are two new *[Galactic Blog](/news/)* entries:
 
 * **[Galaxy Tool Generator (GTG)](https://galaxy-tool-generator.readthedocs.io/en/latest/)**, by Ming Chen
-* **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/blog/2018-11-totm/)**, by Bérénice Batut
+* **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/news/2018-11-totm/)**, by Bérénice Batut
 
 ----
 # Who's Hiring

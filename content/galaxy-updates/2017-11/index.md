@@ -9,29 +9,29 @@ Welcome to the November 2017 *[Galactic News](/galaxy-updates/)*, a summary of w
 
 # The Galactic Blog
 
-[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/news/)
 
-The new *[Galactic Blog](/blog/)* was launched in October.  The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
+The new *[Galactic Blog](/news/)* was launched in October.  The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
 
 The blog is off to a running start with these posts in October:
 
-* [ELIXIR Galaxy Community](/blog/2017-10-05-elixir-galaxy-community/), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/)
-* [Public Galaxy Server Dashboard](/blog/2017-10-public-galaxy-dashboard/), by [Helena Rasche](/people/helena-rasche/)
-* [SciPy and scikit-learn integration into Galaxy](/blog/2017-10-10-scipy-galaxy/), by [Björn Grüning](/people/bjoern-gruening/)
-* [Small genome assembly in Galaxy](/blog/2017-10-16-unicycler-tutorial/), by [Anton Nekrutenko](/people/anton/)
-* [Galaxy: the first 5,000 pubs](/blog/2017-10-5000-pubs/), by [Dave Clements](/people/dave-clements/)
+* [ELIXIR Galaxy Community](/news/2017-10-05-elixir-galaxy-community/), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/)
+* [Public Galaxy Server Dashboard](/news/2017-10-public-galaxy-dashboard/), by [Helena Rasche](/people/helena-rasche/)
+* [SciPy and scikit-learn integration into Galaxy](/news/2017-10-10-scipy-galaxy/), by [Björn Grüning](/people/bjoern-gruening/)
+* [Small genome assembly in Galaxy](/news/2017-10-16-unicycler-tutorial/), by [Anton Nekrutenko](/people/anton/)
+* [Galaxy: the first 5,000 pubs](/news/2017-10-5000-pubs/), by [Dave Clements](/people/dave-clements/)
 
 ## The Galactic Blog needs you!
 
 The Galaxy community needs to know what you are doing.  If you have done something that others would benefit from knowing then please create a *Galactic Blog* post describing your experiences.
 
-Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/blog/).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
+Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/news/).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
 
 Questions? [Ask us](mailto:outreach@galaxyproject.org).
 
 # Publications
 
-The Galaxy Publication Library [surpassed 5,000 publications](/blog/2017-10-5000-pubs/), in October.  It was a good month for publications in other ways too:
+The Galaxy Publication Library [surpassed 5,000 publications](/news/2017-10-5000-pubs/), in October.  It was a good month for publications in other ways too:
 
 ## Highlighted Publications
 

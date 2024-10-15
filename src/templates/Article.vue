@@ -31,8 +31,6 @@ query Article($path: String!) {
             name
             url
         }
-        source_blog
-        source_blog_url
         skip_title_render
         redirect
         external_url

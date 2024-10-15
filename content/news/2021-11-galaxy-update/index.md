@@ -369,7 +369,7 @@ The switch to online bioinformatics training forced by the COVID-19 pandemic has
 
 <div class="card-header trim-p">
 
-[Sunsetting the CloudLaunch service](/blog/2021-10-sunsetting-cloudlaunch/)
+[Sunsetting the CloudLaunch service](/news/2021-10-sunsetting-cloudlaunch/)
 
 </div>
 
