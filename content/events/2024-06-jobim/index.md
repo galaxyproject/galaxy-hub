@@ -10,7 +10,7 @@ location_url: "https://www.inrae.fr/evenements/jobim-2024"
 gtn: false
 contact: "Presenters"
 image: ""
-subsites: [global, us]
+subsites: [global, eu, esg]
 ---
 
 Galaxy was presented at [JOBIM 2024](https://www.inrae.fr/evenements/jobim-2024), in Toulouse, France, 24-28 june.
