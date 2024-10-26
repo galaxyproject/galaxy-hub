@@ -8,12 +8,6 @@ title: Galaxy Europe
 <Carousel />
 -->
 
-<div class="text-center mt-5">
-    <a href="https://galaxyproject.org/news/2024-08-26-gta-registration/"target=”_blank”>
-        <img src="/images/galaxy_training_academy_banner.png" alt="Galaxy Training Academy" />
-    </a>
-</div>
-<br/>
 <br/>
 
 "Anyone, anywhere in the world should have free, unhindered access to not just my research, but to the research of every great and enquiring mind across the spectrum of human understanding." – Prof. Stephen Hawking
