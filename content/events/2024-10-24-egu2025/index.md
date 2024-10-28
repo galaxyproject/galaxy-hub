@@ -1,7 +1,7 @@
 ---
 title: European Geosciences Union (EGU) 2025
-date: '2024-10-24'
-days: 1
+date: '2025-04-27'
+days: 5
 tease: "A FAIR-EASE session to the European Geoscience Union"
 continent: NA
 location:
