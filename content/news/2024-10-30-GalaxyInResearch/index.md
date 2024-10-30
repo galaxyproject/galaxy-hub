@@ -31,7 +31,7 @@ This research uncovered how specific bacterial species thrive in these frigid en
 
 ## **Galaxy’s Role**
 
-Galaxy was integral to the construction of a detailed phylogenetic tree of the microbial communities identified in the hydrothermal plumes. Specifically:
+Galaxy was integral to constructing a detailed phylogenetic tree of the microbial communities identified in the hydrothermal plumes. Specifically:
 
 * **16S rRNA Phylogenetic Analysis:** Researchers used Galaxy’s MAFFT tool with the L-INS-i method to align the 16S rRNA sequences. This alignment was critical for understanding the relationships between bacteria across different hydrothermal plumes.
 
