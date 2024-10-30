@@ -26,7 +26,7 @@ This research uncovered how specific bacterial species thrive in these frigid en
 
 *	**Limited Role of Methane Oxidation:** Despite detectable pmo gene transcripts, methane oxidation was not observed, likely due to extremely low temperatures and rapid methane dilution in the Arctic waters.
 
-    
+![Figure](Wegener2024.jpg)    
 *Figure showing the water column profiles and location of the study vents.* 
 
 ## **Galaxy’s Role**
