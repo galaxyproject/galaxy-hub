@@ -41,7 +41,7 @@ Our Galaxy team contributed two posters, both well-received and served as excell
 
 ### Social Program: Networking and Cultural Highlights
 
-Beyond the enriching scientific exchange, GCB 2024’s social program added a unique flavor to the event. We attended a networking dinner at the [Zwinger Palace](https://gcb2024.de/Social+Programme.html), complete with guided tours of this historical gem, followed by a delightful dinner reception. Conversations flowed easily, sparking ideas for future collaborations within the bioinformatics community. These informal exchanges gave us the chance to connect with peers, gain insights into their work, and share our own experiences working within the Galaxy ecosystem.
+Beyond the enriching scientific exchange, GCB 2024’s social program added a unique flavor to the event. We attended a networking dinner at the [GLÜCKUNDSELIGKEIT restaurant](https://gcb2024.de/Social+Programme.html), complete with guided tours of the Bielefeld city, followed by a delightful dinner reception. Conversations flowed easily, sparking ideas for future collaborations within the bioinformatics community. These informal exchanges gave us the chance to connect with peers, gain insights into their work, and share our own experiences working within the Galaxy ecosystem.
 
 ### Reflections and Takeaways
 
