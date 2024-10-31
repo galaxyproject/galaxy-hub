@@ -34,7 +34,7 @@ Our Galaxy team contributed two posters, both well-received and served as excell
    This poster highlighted Galaxy's resources for microbial data analysis, outlining workflows and tools designed for complex microbial data sets. We connected with microbiome researchers, discussing ways Galaxy can continue to support and adapt to microbial data needs.
 
 - **Community-Driven Standards Development for Reference Genome Generation**  
-   This poster addressed the collaborative efforts in Galaxy to standardize reference genome generation, with community input playing a key role in refining workflows. The feedback underscored the importance of ongoing community involvement in creating adaptable, high-standard open-source tools.
+   This poster addressed the collaborative efforts of Galaxy EU and [ERGA](https://www.erga-biodiversity.eu/) community to establish community-driven standards for reference genome generation. The feedback underscored the importance of ongoing community involvement in developing adaptable, high-standard open-source tools and workflows.
 
 ![Poster 1: microGalaxy SIG](gcb2024poster_microgalaxy.jpg)  
 ![Poster 2: Community-Driven Standards](gcb2024poster_referencegenome.png)
