@@ -37,7 +37,7 @@ Our Galaxy team contributed two posters, both well-received and served as excell
    This poster addressed the collaborative efforts of Galaxy EU and [ERGA](https://www.erga-biodiversity.eu/) community to establish community-driven standards for reference genome generation. The feedback underscored the importance of ongoing community involvement in developing adaptable, high-standard open-source tools and workflows.
 
 ![Poster 1: microGalaxy SIG](gcb2024poster_microgalaxy.jpg)  
-![Poster 2: Community-Driven Standards](gcb2024poster_referencegenome.png)
+![Poster 2: Community-Driven Standards for Reference Genome Generation](gcb2024poster_referencegenome.png)
 
 ### Social Program: Networking and Cultural Highlights
 
