@@ -2,7 +2,7 @@
 title: "Engaging, Learning, and Sharing at the German Conference of Bioinformatics 2024 with the Galaxy Team!"
 tease: "A recap of our Galaxy team's experience at GCB 2024, featuring insightful talks, interactive poster sessions, hands-on workshops, and memorable social events!"
 date: '2024-10-30'
-authors: Engy Nasr
+authors: Engy Nasr and Saim Momin
 subsites: [all-eu, global, us]
 tags: [GCB-2024, Bielefeld]
 main_subsite: eu
@@ -16,9 +16,9 @@ The [German Conference of Bioinformatics (GCB) 2024](https://gcb2024.de/) took p
 
 Our GCB 2024 journey began with two in-depth workshops, where we gained valuable insights and skills in specialized areas of bioinformatics. With seven workshops running in parallel, we joined the following two sessions:
 
-1. **Computational Pangenomics Workshop:** This workshop covered pangenomics fundamentals, with applications in analyzing genetic diversity across species. We explored advanced computational tools for building and analyzing pangenomic datasets, including *PanBench*, *PanGrowth*, *Plast*, *Bifrost*, and *SANS*. The hands-on exercises illuminated new ways we could use pangenomic analysis within the Galaxy framework.
+1. **Computational Pangenomics Workshop:** This workshop covered pangenomics fundamentals, with applications in analyzing genetic diversity across species. We explored advanced computational tools for building and analyzing pangenomic datasets, including *PanBench*, *PanGrowth*, *Plast*, *Bifrost*, and *SANS*. The hands-on exercises illuminated new ways to use pangenomic analysis within the Galaxy framework.
 
-2. **Standardizing and Harmonizing NGS Analysis Workflows:** Organized by experts from GHGA and universities across Germany, this workshop focused on the need for standardization in Next-Generation Sequencing (NGS) workflows. We learned how the FAIR principles are applied within the German Human Genome-Phenome Archive (GHGA) to harmonize nf-core-based workflows, covering aspects of reproducibility, adaptability, and scalability in various computational environments. The session included hands-on exercises where we managed workflows using *Nextflow* and *nf-core* with configurations for local and cloud settings, highlighting the importance of standardized, FAIR data-sharing practices in international research.
+2. **Standardizing and Harmonizing NGS Analysis Workflows:** Organized by experts from GHGA and universities across Germany, this workshop focused on the need for standardization in Next-Generation Sequencing (NGS) workflows. We learned how the FAIR principles are applied within the German Human Genome-Phenome Archive (GHGA) to harmonize nf-core-based workflows, covering reproducibility, adaptability, and scalability in various computational environments. The session included hands-on exercises where we managed workflows using *Nextflow* and *nf-core* with local and cloud settings configurations, highlighting the importance of standardized, FAIR data-sharing practices in international research.
 
 ### Keynotes, Conference Sessions, and Poster Interactions
 
@@ -45,6 +45,6 @@ Beyond the enriching scientific exchange, GCB 2024’s social program added a un
 
 ### Reflections and Takeaways
 
-Attending GCB 2024 was an inspiring experience for our team, marked by learning, collaboration, and cultural discovery. The breadth of topics—from pangenomics to community standards in genome generation—broadened our understanding of current bioinformatics challenges and innovations. We left with renewed enthusiasm for advancing Galaxy’s contributions in bioinformatics and are grateful to the organizers, speakers, and participants who made this event both insightful and memorable.
+Attending GCB 2024 was an inspiring experience for our team, marked by learning, collaboration, and cultural discovery. The breadth of topics—from pangenomics to community standards in genome generation—broadened our understanding of current bioinformatics challenges and innovations. We left with renewed enthusiasm for advancing Galaxy’s contributions to bioinformatics and are grateful to the organizers, speakers, and participants who made this event both insightful and memorable.
 
 Looking forward to future collaborations with the dynamic GCB community!
