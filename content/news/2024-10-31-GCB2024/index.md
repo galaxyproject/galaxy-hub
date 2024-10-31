@@ -22,7 +22,7 @@ Our GCB 2024 journey began with two in-depth workshops, where we gained valuable
 
 ### Keynotes, Conference Sessions, and Poster Interactions
 
-Across the two main conference days, a mix of talks, poster sessions, and networking opportunities enriched our knowledge. Highlights included keynote talks from prominent figures in bioinformatics and genomic sciences, tackling issues in microbiome data integration, large-scale clinical data analysis, and applications in environmental science. We found sessions on data standardization, open-source workflows, and community-driven research especially pertinent.
+Across the two main conference days, a mix of talks, poster sessions, and networking opportunities enriched our knowledge. Highlights included keynote talks from prominent researchers and experts in bioinformatics and genomic sciences, tackling issues in microbiome data integration, large-scale clinical data analysis, and applications in environmental science. We found sessions on data standardization, open-source workflows, and community-driven research especially pertinent.
 
 The poster sessions, featuring 158 posters, were a lively exchange of ideas. Presenting our work and discussing it with colleagues across bioinformatics sparked new perspectives on data standards, reproducibility, and community collaboration.
 
