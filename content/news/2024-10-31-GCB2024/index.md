@@ -18,7 +18,7 @@ Our GCB 2024 journey began with two in-depth workshops, where we gained valuable
 
 1. **Computational Pangenomics Workshop:** This workshop covered pangenomics fundamentals, with applications in analyzing genetic diversity across species. We explored advanced computational tools for building and analyzing pangenomic datasets, including *PanBench*, *PanGrowth*, *Plast*, *Bifrost*, and *SANS*. The hands-on exercises illuminated new ways we could use pangenomic analysis within the Galaxy framework.
 
-2. **Bioinformatic Metagenome and Metaproteome Analysis for Microbiome Insights:** Led by leading microbiome researchers, this session provided tools and workflows for understanding metagenomic and metaproteomic data. We learned methods for assessing microbial communities, a crucial area in Galaxy’s microbial data analysis tools. 
+2. **Standardizing and Harmonizing NGS Analysis Workflows:** Organized by experts from GHGA and universities across Germany, this workshop focused on the need for standardization in Next-Generation Sequencing (NGS) workflows. We learned how the FAIR principles are applied within the German Human Genome-Phenome Archive (GHGA) to harmonize nf-core-based workflows, covering aspects of reproducibility, adaptability, and scalability in various computational environments. The session included hands-on exercises where we managed workflows using *Nextflow* and *nf-core* with configurations for local and cloud settings, highlighting the importance of standardized, FAIR data-sharing practices in international research.
 
 ### Keynotes, Conference Sessions, and Poster Interactions
 
@@ -37,7 +37,7 @@ Our Galaxy team contributed two posters, both well-received and served as excell
    This poster addressed the collaborative efforts of Galaxy EU and [ERGA](https://www.erga-biodiversity.eu/) community to establish community-driven standards for reference genome generation. The feedback underscored the importance of ongoing community involvement in developing adaptable, high-standard open-source tools and workflows.
 
 ![Poster 1: microGalaxy SIG](gcb2024poster_microgalaxy.jpg)  
-![Poster 2: Community-Driven Standards for Reference Genome Generation](gcb2024poster_referencegenome.png)
+![Poster 2: Community-Driven Standards for Reference Genome Generation](gcb2024poster_referencegenome.ipg)
 
 ### Social Program: Networking and Cultural Highlights
 
