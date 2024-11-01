@@ -1,9 +1,8 @@
 ---
 title: "How I Learned to Wrap Tools from the Galaxy EU Team"
 date: "2024-11-01"
-authors: Marisa Loach
-tease: "ELIXIR Staff Exchange adds more single cell tools to Galaxy"
-subsites: [eu, freiburg]
+authors: "Marisa Loach"
+tease: "An ELIXIR Staff Exchange to expand the single cell tools on Galaxy"
 ---
 I am currently a PhD student at The Open University in the UK, where I reanalyse public single cell RNA sequencing data using Galaxy to explore how cells change in disease. However, I recently took a break from my project to learn how to add more tools to the Galaxy platform. As [my poster at GCC2024](https://f1000research.com/posters/13-806) explained, I went from being a user who wished for more tools to being a user-developer who can wrap those tools for herself.
 
