@@ -18,7 +18,7 @@ We are a diverse group of users, developers, trainers, and imaging data enthusia
 
 - **Trainers**: Are you using Galaxy to train others in image analysis? If you have suggestions or specific needs to better support your trainees, we’d love to hear from you. Your insights are invaluable in helping us create better learning experiences and share data image analysis knowledge. 
 
-##  Connect with iMAGINE
+##  Connect with iMAGE-NET
 
 If you’re interested in image analysis (within or outside Galaxy) and want to help ensure our tools represent the best, up-to-date practices, your feedback is needed! We’re constantly looking for ways to improve, whether in scientific fields already supported by Galaxy image analysis or in exploring new applications.
 
