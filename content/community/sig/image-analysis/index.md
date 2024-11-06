@@ -66,7 +66,7 @@ The Galaxy ToolShed offers a variety of tools for image data analysis, freely av
 
 Image analysis often involves hands-on interaction, and Galaxy offers resources that make this possible. Check out our interactive tools to experience Galaxy's potential beyond traditional workflows.
 
-> ADD GIF HERE??????
+![Napari](/images/galaxy-napari.png)
 
 ## Visualizations
 
@@ -106,9 +106,7 @@ We organize regular meetups as part of the Euro-BioImaging Expert Group "FAIR Im
 
 In-person meetups are also part of our community engagement. We recently participated in BioHackathon 2023 and 2024, where we collaborated on new projects and shared [preprints](https://osf.io/preprints/biohackrxiv/w8dsz).
 
-
 <img class="img-fluid" src="/community/sig/image-analysis/FAIR-wf-poster.png" width="100%" alt="FAIR Workflows Expert Group postcard"/>
-
 
 Poster available in [Zenodo](https://zenodo.org/records/13847465).
 
