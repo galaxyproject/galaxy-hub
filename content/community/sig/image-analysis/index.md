@@ -114,15 +114,8 @@ Poster available in [Zenodo](https://zenodo.org/records/13847465).
 
 ## Community calendar
 
-> *CREATE A CALENDAR*
+<iframe src="https://calendar.google.com/calendar/embed?src=c_8acb465939b9b029599a18b0d57e9793dd9d4a742c20c033f25f43c1f1de6ba9%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
-<iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=UTC&showTitle=1&showNav=1&mode=AGENDA&showDate=1&src=bnB1N3B1azc1bjZwMHU0YWFwdjV0MjF1ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" 
-  style="border:solid 1px #777" 
-  width="100%" 
-  height="300" 
-  frameborder="0" 
-  scrolling="no">
-</iframe>
 
 # Acknowledgments
 
@@ -136,9 +129,5 @@ Community members actively pursue funding opportunities and contribute to variou
 |-------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|----------------|
 | [**NFDI4BIOIMAGE**](https://nfdi4bioimage.de/) | Developing open and FAIR workflows for biological image data......                                          | Riccardo ...                                              | 2023 - XXX     |
 | [**OSCARS**](https://oscars-project.eu/) | Creating reusable workflows for diverse disciplines like microscopy, astrophysics, and environmental sciences | Beatriz Serrano-Solano, Anne Fouilloux, Matus Kalas, ...  | 01.2025 - 01.2027 |
-
-
-
-> *Add partner logos here.*
 
 
