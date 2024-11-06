@@ -203,6 +203,19 @@ The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developer
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu)
 </div>
 
+<!-- Image Analysis -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/image-analysis/">
+<div class="card-header bg-wg-applied text-white text-center">Image Analysis</div>
+</a>
+
+This community gathers image analysis enthusiasts across different scientific disciplines.
+
+* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#imaging:matrix.org)
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/imaging/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://imaging.usegalaxy.eu)
+</div>
+
 <!-- CoP Methodologies SIGs Card-div end -->
 </div>
 
