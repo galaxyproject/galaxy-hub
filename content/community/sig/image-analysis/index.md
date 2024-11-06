@@ -15,7 +15,7 @@ Image analysis bridges multiple disciplines, and this community gathers research
 
 Our primary goals are to:
 * **Coordinate efforts** across the Galaxy ecosystem to reduce redundancy in tools, workflows, and training.
-* **Share our work**—from within and outside Galaxy—to showcase our advancements.
+* **Share our work** — from within and outside Galaxy—to showcase our advancements.
 * **Support each other** through knowledge-sharing, troubleshooting, and collaboration.
 
 Additionally, we strive to:
@@ -26,13 +26,13 @@ Additionally, we strive to:
 
 ## Who we are
 
-We are a diverse group of users, developers, trainers, and imaging data enthusiasts, collaborating to expand Galaxy’s image analysis capabilities, bringing the latest tools, feedback, and beyond.
+We are a diverse group of users, developers, trainers, and image data enthusiasts, collaborating to expand Galaxy’s image analysis capabilities, bringing the latest tools, feedback, and beyond.
 
 - **Developers**: Are you building image analysis tools in Galaxy, or thinking of starting a project here? Do you need users, testers, or just want to make sure you’re not duplicating tools that already exist? Join us to connect, share ideas, and get support for your development journey!
 
-- **Users**: Do you use Galaxy’s image analysis tools for bio-imaging, Earth observation, or other fields? Have feedback for us, or interested in testing new resources? Perhaps you have ideas or requests for new tools—your input can help shape future developments!
+- **Users**: Do you use Galaxy’s image analysis tools for bio-imaging, Earth observation, or other fields? Have feedback for us, or interested in testing new resources? Perhaps you have ideas or requests for new tools — your input can help shape future developments!
 
-- **Trainers**: Are you using Galaxy to train others in image analysis? If you have suggestions or specific needs to better support your trainees, we’d love to hear from you. Your insights are invaluable in helping us create better learning experiences and share data image analysis knowledge. 
+- **Trainers**: Are you using Galaxy to train others in image analysis? If you have suggestions or specific needs to better support your trainees, we'd love to hear from you. Your insights are invaluable in helping us create better learning experiences and share data image analysis knowledge. 
 
 # Getting started: GTN tutorials
 
@@ -64,7 +64,7 @@ The Galaxy ToolShed offers a variety of tools for image data analysis, freely av
 
 ## Interactive tools
 
-Image analysis often involves hands-on interaction, and Galaxy offers resources that make this possible. Check out our interactive tools to experience Galaxy’s potential beyond traditional workflows.
+Image analysis often involves hands-on interaction, and Galaxy offers resources that make this possible. Check out our interactive tools to experience Galaxy's potential beyond traditional workflows.
 
 > ADD GIF HERE?
 
@@ -83,9 +83,9 @@ Our dedicated interface for image data analysis—[imaging.usegalaxy.eu](https:/
 
 # How to get involved?
 
-If you’re interested in image analysis (within or outside Galaxy) and want to help ensure our tools represent the best, up-to-date practices, your feedback is needed! We’re constantly looking for ways to improve, whether in scientific fields already supported by Galaxy image analysis or in exploring new applications.
+If you're interested in image analysis (within or outside Galaxy) and want to help ensure our tools represent the best, up-to-date practices, your feedback is needed! We’re constantly looking for ways to improve, whether in scientific fields already supported by Galaxy or in exploring new applications.
 
-If you’re passionate about shaping the future of image analysis in Galaxy and want to help build a strong, collaborative, and supportive community, **you’re in the right place!**
+If you're passionate about shaping the future of image analysis in Galaxy and want to help build a strong, collaborative, and supportive community, **you're in the right place!**
 
 ## Communication channels
 
@@ -129,7 +129,7 @@ Poster available in [Zenodo](https://zenodo.org/records/13847465).
 
 # Acknowledgments
 
-Our community’s success is made possible through partnerships and collaborations. We thank our partners for their support.
+Our community's success is made possible through partnerships and collaborations. We thank our partners for their support.
 
 ## Partner projects
 
