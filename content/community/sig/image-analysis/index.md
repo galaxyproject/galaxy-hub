@@ -134,8 +134,9 @@ Community members actively pursue funding opportunities and contribute to variou
 
 | Project Name      | Description                                                                                           | Community Members Involved                                | Funding Period |
 |-------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|----------------|
-| **NFDI4BIOIMAGE** | Developing open and FAIR workflows for biological image data                                          | Riccardo ...                                              | 2023 - XXX     |
-| [**OSCARS**](https://oscars-project.eu/) | Creating reusable workflows for diverse disciplines like microscopy, astrophysics, and environmental sciences | Beatriz Serrano-Solano, Anne Fouilloux, Matus Kalas, ...  | 01.2025 - 01.2027    |
+| [**NFDI4BIOIMAGE**](https://nfdi4bioimage.de/) | Developing open and FAIR workflows for biological image data......                                          | Riccardo ...                                              | 2023 - XXX     |
+| [**OSCARS**](https://oscars-project.eu/) | Creating reusable workflows for diverse disciplines like microscopy, astrophysics, and environmental sciences | Beatriz Serrano-Solano, Anne Fouilloux, Matus Kalas, ...  | 01.2025 - 01.2027 |
+
 
 
 > *Add partner logos here.*
