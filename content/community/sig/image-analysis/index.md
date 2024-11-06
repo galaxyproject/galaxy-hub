@@ -38,7 +38,12 @@ We are a diverse group of users, developers, trainers, and imaging data enthusia
 
 To dive into Galaxy, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) offers a wealth of tutorials for beginners and experts alike. These tutorials cover basic and advanced workflows, guiding you through analyses step-by-step. They also include a curated selection of workflows to help you gain hands-on experience in Galaxy.
 
-<iframe src="https://training.galaxyproject.org/training-material/tags/imaging/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe 
+  src="https://training.galaxyproject.org/training-material/tags/imaging/embed.html" height="400px" 
+  width="100%" 
+  class="gtn-embed" 
+  frameborder="0">
+</iframe>
 
 # What is available?
 
@@ -50,16 +55,18 @@ The Galaxy ToolShed offers a variety of tools for image data analysis, freely av
   id="inlineFrameExample"
   title="Image analysis related tools"
   width="100%"
-  height="600"
+  height="300px"
   frameBorder="0"
   src="https://galaxyproject.github.io/galaxy_codex/imaging/">
 </iframe>
 
-> *Is something missing? Reach out to us to keep the list comprehensive.*
+*Are we missing some tools? [Reach out to us](https://matrix.to/#/#galaxyproject_imaging:matrix.org) to keep the list comprehensive.*
 
 ## Interactive environments
 
 Image analysis often involves hands-on interaction, and Galaxy offers resources that make this possible. Check out our interactive tools to experience Galaxy’s potential beyond traditional workflows.
+
+> ADD GIF HERE?
 
 ## Visualizations
 
@@ -73,18 +80,6 @@ Our dedicated interface for image data analysis—[imaging.usegalaxy.eu](https:/
 
 > *Include a screenshot of the dedicated interface for better visual context.*
 
-# How is Galaxy used for image data analysis?
-
-## Partner projects
-
-Community members actively pursue funding opportunities and contribute to various projects, such as:
-
-| Project Name      | Description                                                                                           | Community Members Involved                                | Funding Period |
-|-------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|----------------|
-| **NFDI4BIOIMAGE** | Developing open and FAIR workflows for biological image data                                          | Riccardo ...                                              | 2023 - XXX     |
-| [**OSCARS**](https://oscars-project.eu/) | Creating reusable workflows for diverse disciplines like microscopy, astrophysics, and environmental sciences | Beatriz Serrano-Solano, Anne Fouilloux, Matus Kalas, ...  | 01.2025 - 01.2027    |
-
-
 
 # How to get involved?
 
@@ -96,32 +91,55 @@ If you’re passionate about shaping the future of image analysis in Galaxy and 
 
 Our community connects via our dedicated [Element channel](https://matrix.to/#/#galaxyproject_imaging:matrix.org).
 
-## Community meetings
+## Online community meetings
 
 We organize regular meetups as part of the Euro-BioImaging Expert Group "FAIR Image Data Workflows," chaired by Anne Fouilloux and Beatriz Serrano-Solano.
 
-<img class="img-fluid float-left" src="/community/sig/image-analysis/FAIR-wf-postcard.png" style="width:450px;" alt="FAIR Workflows Expert Group postcard"/>
+<img class="img-fluid float-left" 
+  src="/community/sig/image-analysis/FAIR-wf-postcard.png" 
+  style="width:450px;" 
+  alt="FAIR Workflows Expert Group postcard"/>
 
 - **Frequency**: Monthly
 - **Duration**: 1 hour
 - **Time**: 3rd Wednesday of the month at 4 pm CET
 - **Meeting Agenda**: Updates from the community (e.g., upcoming events), relevant talks or case studies, and coordination for activities such as grant writing, paper development, and event planning. View our open agenda and notes here.
 
-> *Consider adding calendar invite like this for easy scheduling:*
+## In-person meetings and conferences
 
-<iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=UTC&showTitle=1&showNav=1&mode=AGENDA&showDate=1&src=bnB1N3B1azc1bjZwMHU0YWFwdjV0MjF1ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
-
-In-person meetups are also part of our community engagement. We recently participated in BioHackathon 2023 and 2024, where we collaborated on new projects and shared preprints.
+In-person meetups are also part of our community engagement. We recently participated in BioHackathon 2023 and 2024, where we collaborated on new projects and shared [preprints](https://osf.io/preprints/biohackrxiv/w8dsz).
 
 
-<img class="img-fluid float-left" src="/community/sig/image-analysis/FAIR-wf-poster.png" style="width:450px;" alt="FAIR Workflows Expert Group postcard"/>
+<img class="img-fluid" src="/community/sig/image-analysis/FAIR-wf-poster.png" width="100%" alt="FAIR Workflows Expert Group postcard"/>
 
 
 Poster available at https://zenodo.org/records/13847465
 
+## Community calendar
+
+> *Consider adding calendar invite like this for easy scheduling:*
+
+<iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=UTC&showTitle=1&showNav=1&mode=AGENDA&showDate=1&src=bnB1N3B1azc1bjZwMHU0YWFwdjV0MjF1ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" 
+  style="border:solid 1px #777" 
+  width="100%" 
+  height="300" 
+  frameborder="0" 
+  scrolling="no">
+</iframe>
+
 # Acknowledgments
 
 Our community’s success is made possible through partnerships and collaborations. We thank our partners for their support.
+
+## Partner projects
+
+Community members actively pursue funding opportunities and contribute to various projects, such as:
+
+| Project Name      | Description                                                                                           | Community Members Involved                                | Funding Period |
+|-------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|----------------|
+| **NFDI4BIOIMAGE** | Developing open and FAIR workflows for biological image data                                          | Riccardo ...                                              | 2023 - XXX     |
+| [**OSCARS**](https://oscars-project.eu/) | Creating reusable workflows for diverse disciplines like microscopy, astrophysics, and environmental sciences | Beatriz Serrano-Solano, Anne Fouilloux, Matus Kalas, ...  | 01.2025 - 01.2027    |
+
 
 > *Add partner logos here.*
 
