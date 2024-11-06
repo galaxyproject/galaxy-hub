@@ -62,7 +62,7 @@ The Galaxy ToolShed offers a variety of tools for image data analysis, freely av
 
 *Are we missing some tools? [Reach out to us](https://matrix.to/#/#galaxyproject_imaging:matrix.org) to keep the list comprehensive.*
 
-## Interactive environments
+## Interactive tools
 
 Image analysis often involves hands-on interaction, and Galaxy offers resources that make this possible. Check out our interactive tools to experience Galaxy’s potential beyond traditional workflows.
 
@@ -113,7 +113,7 @@ In-person meetups are also part of our community engagement. We recently partici
 <img class="img-fluid" src="/community/sig/image-analysis/FAIR-wf-poster.png" width="100%" alt="FAIR Workflows Expert Group postcard"/>
 
 
-Poster available at https://zenodo.org/records/13847465
+Poster available in [Zenodo](https://zenodo.org/records/13847465).
 
 ## Community calendar
 
