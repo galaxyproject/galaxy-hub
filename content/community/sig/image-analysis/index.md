@@ -14,17 +14,17 @@ Image analysis bridges multiple disciplines, and this community gathers research
 
 
 Our primary goals are to:
-* **Coordinate efforts** across the Galaxy ecosystem to reduce redundancy in tools, workflows, and training
-* **Share our work**—from within and outside Galaxy—to showcase our advancements and inspire new ideas
-* **Support each other** through knowledge-sharing, troubleshooting, and collaboration
+* **Coordinate efforts** across the Galaxy ecosystem to reduce redundancy in tools, workflows, and training.
+* **Share our work**—from within and outside Galaxy—to showcase our advancements.
+* **Support each other** through knowledge-sharing, troubleshooting, and collaboration.
 
 Additionally, we strive to:
-* **Develop and maintain** image analysis tools within Galaxy
-* **Implement FAIR principles** to make workflows reproducible and reusable
-* **Expand documentation** and **training resources** for accessible learning and skill-building
+* **Develop and maintain** image analysis tools within Galaxy.
+* **Implement FAIR principles** to make workflows reproducible and reusable.
+* **Expand documentation** and **training resources** for accessible learning and skill-building.
   
 
-## Who We Are
+## Who we are
 
 We are a diverse group of users, developers, trainers, and imaging data enthusiasts, collaborating to expand Galaxy’s image analysis capabilities, bringing the latest tools, feedback, and beyond.
 
@@ -34,15 +34,15 @@ We are a diverse group of users, developers, trainers, and imaging data enthusia
 
 - **Trainers**: Are you using Galaxy to train others in image analysis? If you have suggestions or specific needs to better support your trainees, we’d love to hear from you. Your insights are invaluable in helping us create better learning experiences and share data image analysis knowledge. 
 
-# Getting Started: GTN Tutorials
+# Getting started: GTN tutorials
 
 To dive into Galaxy, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) offers a wealth of tutorials for beginners and experts alike. These tutorials cover basic and advanced workflows, guiding you through analyses step-by-step. They also include a curated selection of workflows to help you gain hands-on experience in Galaxy.
 
-> *Embed the GTN tutorial table*
+<iframe src="https://training.galaxyproject.org/training-material/tags/imaging/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
 # What is available?
 
-## Image Analysis Tools
+## Image analysis tools
 
 The Galaxy ToolShed offers a variety of tools for image data analysis, freely available for installation on any Galaxy server. Our community maintains a curated list of available tools to keep users informed and up-to-date.
 
@@ -57,7 +57,7 @@ The Galaxy ToolShed offers a variety of tools for image data analysis, freely av
 
 > *Is something missing? Reach out to us to keep the list comprehensive.*
 
-## Interactive Environments
+## Interactive environments
 
 Image analysis often involves hands-on interaction, and Galaxy offers resources that make this possible. Check out our interactive tools to experience Galaxy’s potential beyond traditional workflows.
 
@@ -67,7 +67,7 @@ The **zarr** format is becoming a standard for storing large image data. With va
 
 > *Include vizarr visualization here.*
 
-## A Dedicated Galaxy Interface
+## A dedicated Galaxy interface
 
 Our dedicated interface for image data analysis—[imaging.usegalaxy.eu](https://imaging.usegalaxy.eu)—provides a comprehensive suite of tools and workflows tailored specifically for imaging scientists.
 
@@ -75,9 +75,7 @@ Our dedicated interface for image data analysis—[imaging.usegalaxy.eu](https:/
 
 # How is Galaxy used for image data analysis?
 
-## Projects / Showcases
-
-## Partner Projects
+## Partner projects
 
 Community members actively pursue funding opportunities and contribute to various projects, such as:
 
@@ -94,11 +92,11 @@ If you’re interested in image analysis (within or outside Galaxy) and want to 
 
 If you’re passionate about shaping the future of image analysis in Galaxy and want to help build a strong, collaborative, and supportive community, **you’re in the right place!**
 
-## Communication Channels
+## Communication channels
 
 Our community connects via our dedicated [Element channel](https://matrix.to/#/#galaxyproject_imaging:matrix.org).
 
-## Community Meetings
+## Community meetings
 
 We organize regular meetups as part of the Euro-BioImaging Expert Group "FAIR Image Data Workflows," chaired by Anne Fouilloux and Beatriz Serrano-Solano.
 
