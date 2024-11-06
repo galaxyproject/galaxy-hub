@@ -30,7 +30,7 @@ We are a diverse group of users, developers, trainers, and image data enthusiast
 
 - **Developers**: Are you building image analysis tools in Galaxy, or thinking of starting a project here? Do you need users, testers, or just want to make sure you’re not duplicating tools that already exist? Join us to connect, share ideas, and get support for your development journey!
 
-- **Users**: Do you use Galaxy’s image analysis tools for bio-imaging, Earth observation, or other fields? Have feedback for us, or interested in testing new resources? Perhaps you have ideas or requests for new tools — your input can help shape future developments!
+- **Users**: Do you use Galaxy’s image analysis tools for bioimaging, Earth observation, or other fields? Have feedback for us, or interested in testing new resources? Perhaps you have ideas or requests for new tools — your input can help shape future developments!
 
 - **Trainers**: Are you using Galaxy to train others in image analysis? If you have suggestions or specific needs to better support your trainees, we'd love to hear from you. Your insights are invaluable in helping us create better learning experiences and share data image analysis knowledge. 
 
@@ -66,13 +66,13 @@ The Galaxy ToolShed offers a variety of tools for image data analysis, freely av
 
 Image analysis often involves hands-on interaction, and Galaxy offers resources that make this possible. Check out our interactive tools to experience Galaxy's potential beyond traditional workflows.
 
-> ADD GIF HERE?
+> ADD GIF HERE??????
 
 ## Visualizations
 
-The **zarr** format is becoming a standard for storing large image data. With various adaptations like OME-Zarr and GEO-Zarr, this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
+The **[zarr](https://zarr.dev/)** format is becoming a standard for storing large image data. With various adaptations like [OME-Zarr](https://ome-zarr.readthedocs.io/en/stable/) and [GEOZarr](https://github.com/zarr-developers/geozarr-spec), this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
 
-<video-player width="100%" src="vizarr-visualization.mp4"/>
+<video-player width="100%" src="/community/sig/image-analysis/vizarr-visualization.mp4"/>
 
 ## A dedicated Galaxy interface
 
@@ -85,7 +85,7 @@ Our dedicated interface for image data analysis—[imaging.usegalaxy.eu](https:/
 
 If you're interested in image analysis (within or outside Galaxy) and want to help ensure our tools represent the best, up-to-date practices, your feedback is needed! We’re constantly looking for ways to improve, whether in scientific fields already supported by Galaxy or in exploring new applications.
 
-If you're passionate about shaping the future of image analysis in Galaxy and want to help build a strong, collaborative, and supportive community, **you're in the right place!**
+If you're **passionate about shaping the future of image analysis in Galaxy** and want to help build a strong, collaborative, and supportive community, **you're in the right place!**
 
 ## Communication channels
 
@@ -100,7 +100,7 @@ We organize regular meetups as part of the Euro-BioImaging Expert Group "FAIR Im
 - **Frequency**: Monthly
 - **Duration**: 1 hour
 - **Time**: 3rd Wednesday of the month at 4 pm CET
-- **Meeting Agenda**: Updates from the community (e.g., upcoming events), relevant talks or case studies, and coordination for activities such as grant writing, paper development, and event planning. View our open agenda and notes here.
+- **Meeting Agenda**: Updates from the community (e.g., upcoming events), relevant talks or case studies, and coordination for activities such as grant writing, paper development, and event planning. View our [open agenda and notes here](https://docs.google.com/document/d/1eWyj5IJVW4qeLKcz2SybHbf0Kx6K3Njvirl6ql-f1Fo/edit?tab=t.0#heading=h.wvq01nlj8eqb).
 
 ## In-person meetings and conferences
 
