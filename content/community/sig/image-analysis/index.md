@@ -1,17 +1,17 @@
 ---
 description: "If you need to extract quantitative information from images and want to make your workflows reusable, this community is for you." 
 autotoc: true
-title: "iMAGE-NET – Image Analysis Network in Galaxy"
+title: "Image Analysis Community in Galaxy"
 ---
 
 <slot name="/community/sig/common_linkbox" />
 
-# Welcome to iMAGE-NET – Image Analysis Network in Galaxy!
+
+Welcome to the Image Analysis Community in Galaxy!
 
 Image analysis bridges multiple disciplines, and this community gathers researchers and developers from diverse scientific fields to share knowledge, tools, and workflows.
 
 ## Community goals
-
 
 Our primary goals are to:
 * **Coordinate efforts** across the Galaxy ecosystem to reduce redundancy in tools, workflows, and training.
@@ -125,9 +125,32 @@ Our community's success is made possible through partnerships and collaborations
 
 Community members actively pursue funding opportunities and contribute to various projects, such as:
 
-| Project Name      | Description                                                                                           | Community Members Involved                                | Funding Period |
+| Project Name | Description | Community Members Involved | Funding Period |
 |-------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|----------------|
-| [**NFDI4BIOIMAGE**](https://nfdi4bioimage.de/) | Developing open and FAIR workflows for biological image data......                                          | Riccardo ...                                              | 2023 - XXX     |
-| [**OSCARS**](https://oscars-project.eu/) | Creating reusable workflows for diverse disciplines like microscopy, astrophysics, and environmental sciences | Beatriz Serrano-Solano, Anne Fouilloux, Matus Kalas, ...  | 01.2025 - 01.2027 |
+| [**NFDI4BIOIMAGE**](https://nfdi4bioimage.de/) | NFDI4BIOIMAGE is working on solutions that enable researchers in bioimaging to handle, store, share, and reuse bioimaging data. | Riccardo Massei, Bjoern Gruening, Yi Sun | 2022 - 2027 |
+| [**OSCARS**](https://oscars-project.eu/) | Creating reusable workflows for diverse disciplines like microscopy, astrophysics, and environmental sciences | Beatriz Serrano-Solano, Anne Fouilloux, Matus Kalas  | 2025 - 2027 |
 
 
+<table><tr>
+<td width="18%">
+<img alt="Euro-BioImaging" src="/images/logos/euro-bioimaging-wide.png" />
+</td>
+<td width="12%">
+<img alt="Simula" src="/images/logos/simula-logo.png" />
+</td>
+<td width="10%">
+<img alt="BMCV" src="/images/logos/logo_BMCV.png" />
+</td>
+<td width="20%">
+<img alt="UFZ" src="/images/logos/UFZ-logo.png" />
+</td>
+<td width="10%">
+<img alt="EDAM" src="/images/logos/edam-bioimaging-logo.png" />
+</td>
+<td width="12%">
+<img alt="NFDI4BIOIMAGE" src="/images/logos/nfdi4bioimage.png" />
+</td>
+<td width="12%">
+<img alt="OSCARS" src="/images/logos/OSCARS_logo.png" />
+</td>
+</tr></table>
