@@ -72,13 +72,20 @@ Image analysis often involves hands-on interaction, and Galaxy offers resources 
 
 The **zarr** format is becoming a standard for storing large image data. With various adaptations like OME-Zarr and GEO-Zarr, this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
 
-> *Include vizarr visualization here.*
+<video-player src="/community/sig/image-analysis/vizarr-visualization.mp4"/>
+
+<video width="100%" controls>
+  <source src="file:///community/sig/image-analysis/vizarr-visualization.mp4" type="video/mp4">
+</video>
+
+<video-player width="100%" src="/community/sig/image-analysis/vizarr-visualization.mp4"/> 
+
 
 ## A dedicated Galaxy interface
 
 Our dedicated interface for image data analysis—[imaging.usegalaxy.eu](https://imaging.usegalaxy.eu)—provides a comprehensive suite of tools and workflows tailored specifically for imaging scientists.
 
-> *Include a screenshot of the dedicated interface for better visual context.*
+<img class="img-fluid float-left" src="/community/sig/image-analysis/image-analysis-interface.png" style="width:100%;" alt="Image Analysis dedicated interface in Galaxy"/>
 
 
 # How to get involved?
@@ -89,16 +96,13 @@ If you're passionate about shaping the future of image analysis in Galaxy and wa
 
 ## Communication channels
 
-Our community connects via our dedicated [Element channel](https://matrix.to/#/#galaxyproject_imaging:matrix.org).
+Our community connects via our dedicated [Matrix channel](https://matrix.to/#/#galaxyproject_imaging:matrix.org).
 
 ## Online community meetings
 
-We organize regular meetups as part of the Euro-BioImaging Expert Group "FAIR Image Data Workflows," chaired by Anne Fouilloux and Beatriz Serrano-Solano.
+<img class="img-fluid float-left" src="/community/sig/image-analysis/FAIR-wf-postcard.png" style="width:40%;" alt="FAIR Workflows Expert Group postcard"/>
 
-<img class="img-fluid float-left" 
-  src="/community/sig/image-analysis/FAIR-wf-postcard.png" 
-  style="width:450px;" 
-  alt="FAIR Workflows Expert Group postcard"/>
+We organize regular meetups as part of the Euro-BioImaging Expert Group "FAIR Image Data Workflows," chaired by Anne Fouilloux and Beatriz Serrano-Solano.
 
 - **Frequency**: Monthly
 - **Duration**: 1 hour
@@ -117,7 +121,7 @@ Poster available in [Zenodo](https://zenodo.org/records/13847465).
 
 ## Community calendar
 
-> *Consider adding calendar invite like this for easy scheduling:*
+> *CREATE A CALENDAR*
 
 <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=UTC&showTitle=1&showNav=1&mode=AGENDA&showDate=1&src=bnB1N3B1azc1bjZwMHU0YWFwdjV0MjF1ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" 
   style="border:solid 1px #777" 
