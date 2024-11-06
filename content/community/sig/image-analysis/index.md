@@ -12,6 +12,7 @@ Image analysis bridges multiple disciplines, and this community gathers research
 
 ## Community goals
 
+
 Our primary goals are to:
 * **Coordinate efforts** across the Galaxy ecosystem to reduce redundancy in tools, workflows, and training
 * **Share our work**—from within and outside Galaxy—to showcase our advancements and inspire new ideas
@@ -22,7 +23,6 @@ Additionally, we strive to:
 * **Implement FAIR principles** to make workflows reproducible and reusable
 * **Expand documentation** and **training resources** for accessible learning and skill-building
   
-> *Include I2K Poster https://zenodo.org/records/13847465 *
 
 ## Who We Are
 
@@ -114,6 +114,12 @@ We organize regular meetups as part of the Euro-BioImaging Expert Group "FAIR Im
 <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=UTC&showTitle=1&showNav=1&mode=AGENDA&showDate=1&src=bnB1N3B1azc1bjZwMHU0YWFwdjV0MjF1ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
 
 In-person meetups are also part of our community engagement. We recently participated in BioHackathon 2023 and 2024, where we collaborated on new projects and shared preprints.
+
+
+<img class="img-fluid float-left" src="/community/sig/image-analysis/FAIR-wf-poster.png" style="width:450px;" alt="FAIR Workflows Expert Group postcard"/>
+
+
+Poster available at https://zenodo.org/records/13847465
 
 # Acknowledgments
 
