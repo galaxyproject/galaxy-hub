@@ -72,14 +72,7 @@ Image analysis often involves hands-on interaction, and Galaxy offers resources 
 
 The **zarr** format is becoming a standard for storing large image data. With various adaptations like OME-Zarr and GEO-Zarr, this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
 
-<video-player src="/community/sig/image-analysis/vizarr-visualization.mp4"/>
-
-<video width="100%" controls>
-  <source src="file:///community/sig/image-analysis/vizarr-visualization.mp4" type="video/mp4">
-</video>
-
-<video-player width="100%" src="/community/sig/image-analysis/vizarr-visualization.mp4"/> 
-
+<video-player width="100%" src="vizarr-visualization.mp4"/>
 
 ## A dedicated Galaxy interface
 
