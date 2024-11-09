@@ -1,9 +1,11 @@
 ---
-date: '2024-11-08'
 title: "Report from the Helmholtz Metadata Collaboration Conference (HMC) 2024"
 tease: "Galaxy imaging and RDM workflows were presented at the HMC 2024"
+date: '2024-11-08'
 authors: "Riccardo Massei"
 tags: [fair, imaging, pipelines, workflow]
+subsites: [all-eu, global, us]
+main_subsite: eu
 ---
 
 ## The Helmholtz Metadata Conference (HMC) 2024
