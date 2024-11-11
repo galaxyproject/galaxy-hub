@@ -1,13 +1,14 @@
 ---
-title: Galaxy Course: Brazil!
+title: Galaxy Course Brazil!
 date: '2024-11-19'
 days: 1
-location: SA
-  name: Curitiba, Brazil
+continent: SA
+location:
+  name: "Curitiba, Brazil"
 gtn: false
-contact: Anton Nekrutenk
-tags:
-subsites: [global]
+contact: "Anton Nekrutenk"
+tags: [workshop, training]
+subsites: [all]
 ---
 
 Join Galaxy for an exciting learning opportunity at Hotel Slim Slavieiro on Avenida das Torres in Curitiba, Brazil! You are encouraged to bring your own data to work with during the course.
