@@ -4,7 +4,7 @@ date: '2024-11-15'
 tease: "Porting the MGnify Amplicon Pipeline v5.0 to Galaxy: A Collaborative Effort with EBI"
 hide_tease: false
 authors: Rand Zoabi
-subsites: [eu]
+subsites: [eu,all,global]
 ---
 
 ## MGnify amplicon pipeline v5.0
