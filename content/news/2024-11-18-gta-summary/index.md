@@ -54,7 +54,7 @@ Before the event, an individualized learning path was created for each scientifi
 
 The entire event was supported by the incredible GTN community, providing assistance 24/7 through the Slack chat platform. Each track had its own dedicated channel where instructors promptly offered help and advice.
 
-In total, 80 people contributed to the event, working on 53 updated tutorials, producing 27 new recorded videos from 24 speakers, and providing extensive Slack support throughout the event.
+In total, 80 people contributed to the event, working on 53 updated tutorials, producing 27 new recorded videos from 24 speakers, and providing extensive support throughout the event.
 
 
 ## Feedback
