@@ -6,9 +6,12 @@ tease: In October 2024, the Galaxy Training Network (GTN) was
 tags: [training]
 location:
   name: online
-authors: beatrizserrano
+authors: Delphine Lariviere and Teresa Müller
 authors_structured:
-- github: beatrizserrano
+- name: Delphine Lariviere
+  github: Delphine-L
+- name: Teresa Müller
+  github: teresa-m
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---
