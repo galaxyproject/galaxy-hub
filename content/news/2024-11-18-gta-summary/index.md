@@ -39,7 +39,7 @@ The [full program](https://training.galaxyproject.org/training-material/events/g
 
 ## Participants
 
-With over 2,829 registered participants, the GTA provided training to a wide range of learners from around the world. The majority of participants had little to no experience with Galaxy, with 42.5% being new users and 41.9% identifying as beginners. Nearly all participants came from an academic background, with only 2.9% being industry professionals. 
+With over 2,829 registered participants, the GTA provided training to a wide range of learners from around the world. The majority of participants had little to no experience with Galaxy, with 42.5% being new users and 41.9% identifying as beginners. Nearly all participants came from an academic background, with 2.9% being industry professionals. 
 
 ![World map event registrations](./GTA_participant_registrations.jpeg)
 
