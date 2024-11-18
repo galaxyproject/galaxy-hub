@@ -14,9 +14,8 @@ In this training, we'll cover the basics of Galaxy Administration, what it entai
 ## Meet the Instructors
 
 ### Nate Coraor
-
 Penn State University
 
 ### Helena Rasche
-
 Erasmus Medical Center, The Netherlands
+

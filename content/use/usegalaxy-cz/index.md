@@ -1,7 +1,7 @@
 ---
 title: "UseGalaxy.cz"
 url: "https://usegalaxy.cz/"
-scope: "usegalaxy"
+scope: "general"
 platforms:
   - platform_group: "public-server"
     platform_purview: "Czechia"

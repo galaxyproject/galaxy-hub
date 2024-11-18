@@ -20,3 +20,20 @@ Galaxy Developer
 ### Dannon Baker
 Johns Hopkins University <br>
 Galaxy Developer
+
+## Prerequisites
+
+Attendees are encouraged to have the following requirements fulfilled for the training:
+
+- Bring a laptop capable of running Galaxy
+- Have a functional, familiar code editor (VS Code is a great option)
+- Have git installed locally   (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Have Python 3.8 installed (Galaxy requires version 3.8, to check your version run `python -V`)
+
+### Good to Have:
+
+It would be even more helpful if attendees are able to come with galaxy cloned locally, via:
+
+```bash
+$ git clone https://github.com/galaxyproject/galaxy.git
+```

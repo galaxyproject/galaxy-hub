@@ -51,5 +51,7 @@ right:
     target: "/projects/mpxv/"
   - label: VGP
     target: "/projects/vgp/"
+  - label: BRC Analytics
+    target: "https://brc-analytics.org/"
 - label: "@jxtx"
   target: https://jxtxfoundation.org/

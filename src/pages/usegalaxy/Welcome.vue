@@ -2,6 +2,7 @@
     <main id="maincontainer" class="container">
         <div class="markdown" v-html="$page.top.content" />
         <Carousel />
+
         <div class="markdown" v-html="$page.main.content" />
     </main>
 </template>

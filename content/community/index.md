@@ -28,9 +28,9 @@ healthy ecosystem; and building engaged user communities.
 * Empowerment: Increasing the productivity and capabilities of community members. This includes increasing the compute resources available
 (e.g. cores/RAM/disk/GPU); optimizing training infrastructures to promote successful events; providing robust software for Galaxy admins working
 in diverse environments; sharing grant materials and metrics to optimize grant writing and reporting, empowering people in their career progression
-by enabling and supporting uptake of  responsibilities in the community 
+by enabling and supporting uptake of  responsibilities in the community
 
-* Evolve: Identifying new opportunities early to support researchers adopting and exploring new developments and ensure the project stays relevant and state-of-the-art 
+* Evolve: Identifying new opportunities early to support researchers adopting and exploring new developments and ensure the project stays relevant and state-of-the-art
 
 Best practices for data-intensive science: Promoting open, transparent, reproducible, and collaborative data-driven science that is
 accessible to everyone regardless of their informatics expertise.
@@ -60,7 +60,7 @@ It is common for one person to contribute to multiple groups. The major groups i
 * Goal is to make it exceedingly simple for these developers to integrate their scripts/tools/visualizations into Galaxy
 * Typical progression: aware of Galaxy, appreciates Galaxy, integrates tool(s) into Galaxy, get reward for adding their content to Galaxy
 
-### Galaxy framework developers: Contributes to Galaxy codebase and supporting software ecosystem 
+### Galaxy framework developers: Contributes to Galaxy codebase and supporting software ecosystem
 
 * Galaxy-funded and community developers (not directly funded by a Galaxy grant)
 * Often need assistance to get started as framework code is complex
@@ -91,11 +91,11 @@ It is common for one person to contribute to multiple groups. The major groups i
 * Oversee publications, presentations, and other outputs
 * Oversee GCC organization
 
-The success of each group depends on the health and success of the other groups. For example: 
-* trainers are needed to grow and support the community; 
-* users rely on developers, admins, and trainers to do their work; 
-* developers need feedback from users & trainers, and need admins to deploy their work; 
-* admins need developers for robust code; 
+The success of each group depends on the health and success of the other groups. For example:
+* trainers are needed to grow and support the community;
+* users rely on developers, admins, and trainers to do their work;
+* developers need feedback from users & trainers, and need admins to deploy their work;
+* admins need developers for robust code;
 
 Consequently the success of the project relies on clear communication and trust between all stakeholders.
 Critical to the success of this diverse community is creating and articulating incentives for each set of stakeholders to contribute to the Galaxy project.
@@ -110,7 +110,7 @@ In 2010 the National Science Foundation initiated a yearly gathering of Galaxy u
 
 # Set up your own community
 
-Galaxy is composed of plenty of subcommunities, either [regional](/community/sig/#regional-communities) or [communities of practice](/community/sig/#communities-of-practice). Check them out and if you find one suitable for you, please see [**here**](/get-started/new-leads/) on how to set up your own.
+Galaxy is composed of plenty of subcommunities, either [regional](/community/sig/#regional-communities) or [communities of practice](/community/sig/#communities-of-practice). Check them out and if you do not find one suitable for you, please see [**this tutorial**](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html) on how to set up your own.
 
 
 # Galaxy Mentor Network
@@ -119,7 +119,7 @@ Galaxy is composed of plenty of subcommunities, either [regional](/community/sig
 
 [Galaxy Mentor Network](https://galaxy-mentor-network.netlify.app/) (GMN) program is an initiative by the Galaxy Community to build her members in open source projects.
 
-It is a two-month mentoring program designed for Galaxy community members to come together as mentors and mentees to achieve a goal, share knowledge and expertise, ask questions, receive feedback, network, and most of all, get support from peers(mentors) without having to wait for days for a response from the community via the Help Forum or communication channels. 
+It is a two-month mentoring program designed for Galaxy community members to come together as mentors and mentees to achieve a goal, share knowledge and expertise, ask questions, receive feedback, network, and most of all, get support from peers(mentors) without having to wait for days for a response from the community via the Help Forum or communication channels.
 
 # Interacting communities with Galaxy
 
@@ -129,7 +129,7 @@ It is a two-month mentoring program designed for Galaxy community members to com
 
 [Conda](https://conda.io/docs/index.html) is an open source package management system that is heavily used by Galaxy to manage tool dependencies and installations. [Bioconda](https://bioconda.github.io/) is a specific channel for Conda that distributes popular bioinformatics software, many of which have been wrapped by the Galaxy community.
 
-## Open Life Science 
+## Open Life Science
 
 <img class="float-right" style="max-width: 15rem;" src="/images/logos/open-life-science-logo.png" alt="Open life science logo" />
 
@@ -154,6 +154,6 @@ The mission of the [Bioconductor project](https://www.bioconductor.org/) is to d
 ## F1000Research
 <img class="float-right" style="max-width: 15rem;" src="/images/logos/f1000-logo-simple.jpg" alt="F1000Research logo" />
 
-[F1000Research](https://f1000research.com/?utm_source=shared_link&utm_medium=post&utm_campaign=JRC27054) enables scientists and scholars to publish their research rapidly, openly, and transparently via an author-centric platform. We publish research across all academic disciplines and in multiple formats, including original articles, data notes, software tool articles and method articles. 
+[F1000Research](https://f1000research.com/?utm_source=shared_link&utm_medium=post&utm_campaign=JRC27054) enables scientists and scholars to publish their research rapidly, openly, and transparently via an author-centric platform. We publish research across all academic disciplines and in multiple formats, including original articles, data notes, software tool articles and method articles.
 
 F1000Research operates a unique post-publication open peer review process, enabling authors to engage with their reviewers transparently, whilst also making the research available to a global audience as quickly as possible.

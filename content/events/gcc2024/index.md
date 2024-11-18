@@ -28,22 +28,24 @@ subsites: [all]
 
   <div class="text-center my-5">
     <div class="lead" style="padding-bottom: 1rem">
-      The flagship Galaxy event of the year is upon us! Join the Galaxy world-wide community to share and learn about data science.
+      <div style="padding-bottom: 1rem; font-weight: bold">
+      Conference winds cease,<br/>
+      Brno's labs light up with code—<br/>
+      Galaxy ascends.
+      </div>
+      Another flagship Galaxy event is behind us! GCC2024 was an opportunity where the world-wide Galaxy community
+      came together to share and learn about data science. Now, you can browse this page to see what was shared.
     </div>
-    <a href="/events/gcc2024/schedule/#talks" type="button" class="btn btn-primary">
-        <strong>View talk & poster schedule</strong>
+    <a href="/events/gcc2024/schedule/" type="button" class="btn btn-primary">
+        <strong>View schedule</strong>
     </a>
     ◇
-    <a target="_blank" href="https://gaggle.email/join/gcc2024-announce@gaggle.email" type="button" class="btn btn-primary">
-        <strong>Sign up for announcements</strong>
+    <a href="/events/gcc2024/training/" type="button" class="btn btn-primary">
+        <strong>View trainings</strong>
     </a>
     ◇
-    <a href="https://register.oxfordabstracts.com/event/5248?preview=true" type="button" class="btn btn-primary" target="_blank">
-        <strong>Register to attend</strong>
-    </a>
-    ◇
-    <a href="https://join.slack.com/t/gcc2024/shared_invite/zt-2k5e9ju83-srjhchf7Uh0C2_lE1iITlA" type="button" class="btn btn-primary" target="_blank">
-        <strong>Join GCC2024 Slack</strong>
+    <a href="https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf" type="button" class="btn btn-primary">
+        <strong>View abstract book</strong>
     </a>
   </div>
 </div>
@@ -57,14 +59,12 @@ subsites: [all]
     <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="World-class content" />
     <div class="card-header">World-class content</div>
 
-**GCC2024 will have more than 50 talks and more than 50 posters** presenting
+**GCC2024 had more than 50 talks and more than 50 posters** presenting
 methods, tools, pipelines, and software improvements for the Galaxy framework.
 
-Check out the **[schedule page](/events/gcc2024/schedule/)** for more details.
-The abstract book with all the details is coming soon!
-
-If you haven't registered yet, [registration](/events/gcc2024/register/) is
-(still) open.
+Check out the **[schedule page](/events/gcc2024/schedule/)** and the [abstract
+book](https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf)
+for more details.
 
   </div>
 
@@ -108,9 +108,9 @@ website](https://jxtxfoundation.org/news/2024-2-19-gcc/).
 
 **Learning is at the core of GCC.** Check out the [training
 page](/events/gcc2024/training/) for details on training sessions and hands-on
-workshops that will be available at GCC2024. Attending trainings is a wonderful
-way to get practical experience on a topic in just a couple of hours, while also
-meeting people that can help you later.
+workshops available at GCC2024. Attending trainings is a wonderful way to get
+practical experience on a topic in just a couple of hours, while also meeting
+people that can help you later.
 
 
 <!-- A **preview of the training topics** includes:
@@ -199,23 +199,4 @@ The **[travel page](/events/gcc2024/travel/) has more details.**
   </div>
 
 
-</div>
-
-# Join the GCC2024 Announce mailing list
-
-Want to stay in the loop about the conference? Sign up for the announcement
-mailing list and you'll be the first to know. And don't worry - no spamming here
-and no excessive emails.
-<div class="text-center my-5">
-  <form method="post" action="https://gaggle.email/join/gcc2024-announce@gaggle.email">
-      <div>
-          <input name="name" type="text" placeholder="Your name" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <input name="email" type="email" placeholder="Email address" style="width: 300px; border-radius: 10px; padding: 10px; margin-bottom: 10px;">
-      </div>
-      <div>
-          <button class="btn btn-primary">Join GCC2024 Announce mailing list</button>
-      </div>
-  </form>
 </div>
