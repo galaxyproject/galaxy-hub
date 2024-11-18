@@ -6,10 +6,12 @@ tease: In October 2024, the Galaxy Training Network (GTN) was
 tags: [training]
 location:
   name: online
-authors: Delphine Lariviere and Teresa Müller
+authors: Delphine Lariviere, Natalie Whitaker-Allen and Teresa Müller
 authors_structured:
 - name: Delphine Lariviere
   github: Delphine-L
+- name: Natalie Whitaker-Allen
+  github: natalie-wa
 - name: Teresa Müller
   github: teresa-m
 subsites: [global, all-eu, us]
@@ -65,5 +67,4 @@ If you participated in the event, it is not too late to let us know about your e
 
 We plan on organizing the next Galaxy Training Academy in spring of 2025, so stay tuned on our social media if you want to participate: [LinkedIn](https://www.linkedin.com/groups/4907635/), [Bluesky](https://bsky.app/profile/galaxyproject.bsky.social), [Mastodon](https://mstdn.science/@galaxyproject).
 
-![GTN hat](/assets/media/2021-02-14-GTN-hat.png)
 
