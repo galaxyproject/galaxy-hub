@@ -67,4 +67,11 @@ If you participated in the event, it is not too late to let us know about your e
 
 We plan on organizing the next Galaxy Training Academy in spring of 2025, so stay tuned on our social media if you want to participate: [LinkedIn](https://www.linkedin.com/groups/4907635/), [Bluesky](https://bsky.app/profile/galaxyproject.bsky.social), [Mastodon](https://mstdn.science/@galaxyproject).
 
+## Closing Thoughts
+
+The Galaxy Training Academy 2024 exemplified Galaxy’s commitment to accessibility and community-driven education. Through the GTN, we were able to deliver a flexible, engaging learning experience that allowed hundreds of participants to advance their data analysis skills, regardless of their prior knowledge. The success of this event would not have been possible without the dedication and enthusiasm of our participants, as well as the continued support of the Galaxy Training Network.
+
+Thank you once again to everyone who took part in this year’s training! We look forward to welcoming even more learners in future sessions as we continue to grow and evolve the Galaxy community.
+
+
 
