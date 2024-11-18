@@ -24,7 +24,7 @@ Finally, all taxonomic results are visualized with Krona, providing an interacti
 
 Version 5.0 of the MGnify amplicon pipeline is now fully available on the Galaxy EU server, bringing advanced microbial analysis workflows to researchers through an accessible, web-based interface.
 
-<img src="./pipeline_on_galaxy.png" style="max-width: 1000px" alt="pipeline_on_galaxy" />
+<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=02f90a96d01fed4f&embed=true&buttons=true&about=false&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=1"></iframe>
 
 
 The pipeline has been ported into five modular sub-workflows, allowing users flexibility in their analysis:
