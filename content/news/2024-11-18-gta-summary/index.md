@@ -18,18 +18,18 @@ main_subsite: eu
 
 From October 7th to 11th, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) hosted a global online Galaxy training course. This asynchronous, self-paced learning event was similar to last year’s GTN Smörgåsbord events, which have been successfully running since 2021.
 
-These events federate trainers and trainees all ofver the globe. The trainings available are a mix of pre-recorded lecture and written guides, and the participants can follow the training paths at their own pace while benefitting from support from the trainers on Slack.
+These events federate trainers and trainees all over the globe. The trainings available are a mix of pre-recorded lectures and written guides, and the participants can follow the training paths at their own pace while benefitting from support from the trainers on Slack.
 
 We would like to start this article by thanking everyone who participated in the event. These events are made possible by the hard work of the training teams and by the engagement of the trainees with us, and as the organizing team we were so happy to witness a lot of both! 
 
 
 ## The event 
 
-The [Galaxy Training Academy](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html) kicked off on Monday October 7th with an introductory day. The goal of the training that day was to give participants the opportunity to familiarize themselves with the Galaxy data analysis platform or to develop skill sets commonly use in data analysis, such as through the Data Manipulation Olympics.
+The [Galaxy Training Academy](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html) kicked off on Monday, October 7th, with an introductory day. The goal of the trainings that day was to allow participants to familiarize themselves with the Galaxy data analysis platform or to develop skill sets commonly used in data analyses, such as through the Data Manipulation Olympics.
 
-The next three days were dedicated to in-depth exploration of specific domains: eight different scientific tracks were offered, each featuring individualized learning paths. The participants could choose to learn about proteomics, assembly, transcriptomics, single cell, microbiome, bacterial genomics, BY-COVID, and/or machine learning. While the almost over the clock on-line support was only garanteed for the week, the material will stay online until a newer version is available; so if you missed the event, you can still take advantage of the curated material. 
+The next three days were dedicated to in-depth exploration of specific domains: eight different scientific tracks were offered, each featuring individualized learning paths. The participants could choose to learn about proteomics, assembly, transcriptomics, single cell, microbiome, bacterial genomics, BY-COVID, and/or machine learning. While the almost over-the-clock online support was only guaranteed for the week, the material will stay online until a newer version is available, so if you missed the event, you can still take advantage of the curated material. 
 
-On Friday, participants could "choose their own adventure" from the entire collection of GTN training materials or follow the FAIR(Findable, Accessible, Interoperable, and Reusable) training, to learn how to participate in making science open and accessiible. 
+On Friday, participants could "choose their own adventure" from the entire collection of GTN training materials or follow the FAIR(Findable, Accessible, Interoperable, and Reusable) training, to learn how to participate in making science open and accessible. 
 
 The [full program](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html#program) and detailed event [setup instrauction](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html#setup) were provided to participants in advance.
 
@@ -56,7 +56,7 @@ In total, 80 people contributed to the event, working on 53 updated tutorials, p
 
 ## Feedback
 
-If you participated to the event, it is not too late to let us know about your experience by filling the [feedback form](https://forms.gle/QxJ611JYfm5Uqq998). This will allow us to make the next events even better!
+If you participated in the event, it is not too late to let us know about your experience by filling out the [feedback form](https://forms.gle/QxJ611JYfm5Uqq998). This will allow us to make the next events even better!
 
 ## Next Galaxy Training Academy event
 
