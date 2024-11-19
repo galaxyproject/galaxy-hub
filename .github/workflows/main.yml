@@ -2,53 +2,70 @@ name: PR Tests
 on: 
   pull_request:
   workflow_dispatch:
+
 concurrency:
   group: primary-tests-${{ github.head_ref }}
   cancel-in-progress: true
+
 env:
   NODE_OPTIONS: --max-old-space-size=4096
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
-      - name: Setup node
-        uses: actions/setup-node@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
-      - name: Get yarn cache directory path
+          node-version: '18'
+
+      - name: Get Yarn Cache Directory Path
         id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v1
+        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache Yarn Dependencies
+        uses: actions/cache@v3
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - name: Install project dependencies
-        run: yarn --prefer-offline
-      - name: Jest Tests
+
+      - name: Install Project Dependencies
+        run: yarn install --prefer-offline
+
+      - name: Run Jest Tests
         run: yarn jest
-      - name: Build static site
+
+      - name: Build Static Site
         run: yarn build
+
       - name: Serve and Check Links
-        # Looks weird, but this works significantly better than running it
-        # through a single node process
-        run: yarn run serve & (sleep 5 && yarn run links:internal)
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
+        run: |
+          yarn serve &
+          sleep 5
+          yarn links:internal
+
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v4
         with:
           start: yarn serve
           wait-on: "http://localhost:8080"
+
       - name: Upload Cypress Screenshots
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: cypress-screenshots
           path: cypress/screenshots
           if-no-files-found: ignore
+
       - name: Upload Cypress Videos
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: cypress-videos
