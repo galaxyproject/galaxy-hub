@@ -36,7 +36,7 @@ Galaxy's support groups and nodes in tropical regions across Africa, Australia, 
    
 ## **Significance of Study**  
    
-This review underscores the transformative potential of genomic technologies in improving the quality of life for tropical populations. By addressing critical health, biodiversity, and food security issues, these tools can create sustainable, equitable solutions that benefit half of the world’s population. The role of platforms like Galaxy in democratizing access to bioinformatics resources highlights the importance of fostering global collaboration to address these challenges.  
+This review underscores the transformative potential of genomic technologies in improving the quality of life for tropical populations. By addressing critical health, biodiversity, and food security issues, these tools can create sustainable, equitable solutions that benefit half of the world’s population. The role of platforms like Galaxy in changing access to bioinformatics resources highlights the importance of fostering global collaboration to address these challenges.  
    
 ## **Acknowledgment**  
    
