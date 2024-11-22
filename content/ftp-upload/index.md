@@ -17,7 +17,9 @@ FTP upload is not supported on UseGalaxy.org.
 
 If you are completely new to FTP transfers you might benefit from reading a [wikihow](https://www.wikihow.com/Use-FTP) page about it.
 
-To get started using FTP with Galaxy, you'll need to have registered a regular Galaxy account. Once registered, you can initiate an FTP connection in your preferred FTP
+To get started using FTP with Galaxy, you'll need to have registered a regular Galaxy account. If you are signed-in to Galaxy using a third-party identity and you do not have a Galaxy password please use the reset password option in the login form with your email to create a password for your account.
+
+Once you have a username and a password, you can initiate an FTP connection in your preferred FTP
 client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software) of available FTP clients.
 
 ## Upload with a client
@@ -25,7 +27,7 @@ client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_
 In this example, FileZilla for MacOS is used. Point your client to the FTP server hostname provided in the upload modal window (e.g. `ftp.usegalaxy.eu` for Galaxy Europe).
 ![FTP client connection details](./ftp-connect.png)
 
-If you are having trouble connecting to the server try enabling FTP with `passive` mode in your client. 
+If you are having trouble connecting to the server try enabling FTP with `passive` mode in your client.
 
 In most clients, when a connection is made with `FTP` or `FTPS`, a pop-up server certificate authentication will need to be accepted.
 
@@ -76,10 +78,10 @@ Files uploaded to the FTP server won't automatically be imported to your history
 rather, you will be presented with a list of the contents of your FTP directory
 in the standard upload interface. Select the ones you want to import and hit Start.
 
-![FTP files on the Upload File tool form](./ftp-select.png)
+Depending on the configuration of your Galaxy the import dialogue will be either under `Upload -> Choose FTP Files` or `Upload -> Choose Remote Files -> FTP Directory`.
 
 <div class="alert alert-info" role="alert">
-Files not imported within 3 days will be cleaned up from the FTP folder. Ask your Galaxy admin for details. 
+Files not imported within a couple of days are usually cleaned up from the FTP folder. Ask your Galaxy admin for details.
 </div>
 
 ## Configure your Galaxy as Admin
