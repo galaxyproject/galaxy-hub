@@ -2,52 +2,40 @@
 title: Galaxy FTP Upload
 ---
 
-<div class="alert alert-success trim-p" role="alert">
-UPDATE: FTP upload is no longer supported on UseGalaxy.org. For more information and to learn about alternative options, please see https://help.galaxyproject.org/t/the-usegalaxy-org-ftp-service-will-be-decommissioned-on-august-12-2022/8318.
-</div>
-
 # File Upload via FTP
 
 Uploading data directly from the browser can be unreliable and cumbersome.
-Because of this some Galaxies including the [Main](/main/) allow you to upload data via FTP.
+Because of this some Galaxy instances allow you to upload data via FTP.
 FTP will allow you to monitor the upload status as well as resume interrupted transfers.
 Compression types .gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are also supported.
+
+<div class="alert alert-info trim-p" role="alert">
+FTP upload is not supported on UseGalaxy.org.
+</div>
 
 ## Introduction
 
 If you are completely new to FTP transfers you might benefit from reading a [wikihow](https://www.wikihow.com/Use-FTP) page about it.
 
-To get started using FTP with Galaxy, you'll need to have registered a regular Galaxy account. Once registered, you can initiate an FTP connection in your preferred FTP
+To get started using FTP with Galaxy, you'll need to have registered a regular Galaxy account. If you are signed-in to Galaxy using a third-party identity and you do not have a Galaxy password please use the reset password option in the login form with your email to create a password for your account.
+
+Once you have a username and a password, you can initiate an FTP connection in your preferred FTP
 client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software) of available FTP clients.
 
 ## Upload with a client
 
-In this example, FileZilla for MacOS is used. Point your client to the FTP server hostname provided in the upload modal window (`usegalaxy.org` for Galaxy Main).
+In this example, FileZilla for MacOS is used. Point your client to the FTP server hostname provided in the upload modal window (e.g. `ftp.usegalaxy.eu` for Galaxy Europe).
 ![FTP client connection details](./ftp-connect.png)
 
-<div class="alert alert-warning trim-p" role="alert">
-
-If you are having trouble connecting to the [Main](/main/) server try enabling FTP with `passive` mode in your client. Please connect using `FTP`, `FTPS`, or `FTP-TLS` type of connections. All `SFTP` connections will be rejected.
-
-</div>
+If you are having trouble connecting to the server try enabling FTP with `passive` mode in your client.
 
 In most clients, when a connection is made with `FTP` or `FTPS`, a pop-up server certificate authentication will need to be accepted.
 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/222236679?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
-</div>
-
-In this video, the changes for `FTPS` are explained along with how to configure `FTP` client settings and verfify the target server's certificate.
-
-Below you can see my files copied to the destination on Galaxy's FTP server.
-![files uploaded to Galaxy FTP server](./ftp-files.png)
-
 Need more help? See: [Galaxy Help](https://help.galaxyproject.org/)
 
+## Upload using command line
 
-
-## Upload with lftp (command line)
-
+### lftp
 In this example, `lftp` for MacOS is used.
 
 First, check to see if `lftp` is installed. Type in the command and the prompt will result, as show below, *if installed*. Type `exit` at the prompt to back out of the session.
@@ -64,21 +52,23 @@ Command-line for `lftp` when connecting to the Public Main Galaxy server. Execut
 For explicit FTPS:
 
 ```
-$ lftp -u user@email.edu usegalaxy.org
+$ lftp -u user@email.edu ftp.usegalaxy.example
 ```
 
 For implicit FTPS:
 
 ```
-$ lftp -u user@email.edu ftps://usegalaxy.org
+$ lftp -u user@email.edu ftps://ftp.usegalaxy.example
 ```
 
-If you are using a different Galaxy server, `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure.
+On some Galaxy servers `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure.
 
-General `FTP` instructions for a Galaxy server *that has `FTP` enabled but not `FTPS`*. The base URL for the server is used for `othergalaxy.org` in the command below. The `email` (aka `user@email.edu`) and `password` is also server specific and the same as when logging in through a browser.
+### ftp
+
+General `FTP` command for a Galaxy server *that has `FTP` enabled but not `FTPS`* is below. The `email` (aka `user@email.example`) and `password` is also server specific and the same as when logging in through a browser.
 
 ```
-$ ftp -u user@email.edu othergalaxy.org
+$ ftp -u user@email.example ftp.usegalaxy.example
 ```
 
 
@@ -88,13 +78,12 @@ Files uploaded to the FTP server won't automatically be imported to your history
 rather, you will be presented with a list of the contents of your FTP directory
 in the standard upload interface. Select the ones you want to import and hit Start.
 
-![FTP files on the Upload File tool form](./ftp-select.png)
+Depending on the configuration of your Galaxy the import dialogue will be either under `Upload -> Choose FTP Files` or `Upload -> Choose Remote Files -> FTP Directory`.
 
-<div class="alert alert-warning" role="alert">
-Files not imported within 3 days will be cleaned up from the FTP site.
+<div class="alert alert-info" role="alert">
+Files not imported within a couple of days are usually cleaned up from the FTP folder. Ask your Galaxy admin for details.
 </div>
 
-## Configure for your Galaxy
+## Configure your Galaxy as Admin
 
-FTP upload can be configured in local installations of Galaxy, instructions to do
-so can be found at [admin/config/upload-via-ftp](/admin/config/upload-via-ftp/).
+To configure FTP upload in your installations of Galaxy follow the instructions in the [admin documentation](https://docs.galaxyproject.org/en/master/admin/special_topics/ftp.html).
