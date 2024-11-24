@@ -10,7 +10,7 @@ FTP will allow you to monitor the upload status as well as resume interrupted tr
 Compression types .gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are also supported.
 
 <div class="alert alert-info trim-p" role="alert">
-FTP upload is not supported on UseGalaxy.org.
+FTP upload is not supported on the usegalaxy.org instance.
 </div>
 
 ## Introduction
@@ -31,7 +31,7 @@ If you are having trouble connecting to the server try enabling FTP with `passiv
 
 In most clients, when a connection is made with `FTP` or `FTPS`, a pop-up server certificate authentication will need to be accepted.
 
-Need more help? See: [Galaxy Help](https://help.galaxyproject.org/)
+For more help ask at [Galaxy Help](https://help.galaxyproject.org/).
 
 ## Upload using command line
 
@@ -47,18 +47,18 @@ lftp :~>
 
 If the command is not found, `brew` can be used to install `lftp`. [Instructions when using MacOS](http://macappstore.org/lftp/).
 
-Command-line for `lftp` when connecting to the Public Main Galaxy server. Executing the command will prompt for your password. Your `email` (aka `user@email.edu`) and `password` are exactly the same as when logging into your account at https://usegalaxy.org.
+Command-line for `lftp` when connecting to an example Galaxy server. Executing the command will prompt for your password. Your `email` (aka `user@email.example`) and `password` are exactly the same as when logging into your account at `https://usegalaxy.example`.
 
 For explicit FTPS:
 
 ```
-$ lftp -u user@email.edu ftp.usegalaxy.example
+$ lftp -u user@email.example ftp.usegalaxy.example
 ```
 
 For implicit FTPS:
 
 ```
-$ lftp -u user@email.edu ftps://ftp.usegalaxy.example
+$ lftp -u user@email.example ftps://ftp.usegalaxy.example
 ```
 
 On some Galaxy servers `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure.
