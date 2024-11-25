@@ -14,7 +14,7 @@ subsites: [all-eu, global, us]
 
 
 Please <a href="https://epfl.zoom.us/j/69775900853?pwd=R1gzbllUZzg0RFUrM0Mzd2MvczE3Zz09">join us</a> 
-at 3 PM CET (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20241121T15&p1=945&ah=1">see in your timezone</a>) 
+at 3 PM CET (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20241219T15&p1=945&ah=1">see in your timezone</a>) 
 for a discussion about general and current problems you encounter as a maintainer of a Galaxy server.
 
 
