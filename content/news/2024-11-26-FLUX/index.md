@@ -20,12 +20,12 @@ In this blog post, we'll explore the FLUX.1 models, their unique attributes, and
 
 **FLUX.1 [schnell]**
 * Purpose: Designed for speed.
-* License: Openly available under the Apache 2.0 license.
+* [License](https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-schnell): Openly available under the Apache 2.0 license.
 * Use Case: Ideal for personal use and rapid prototyping.
 
 **FLUX.1 [dev]**
 * Purpose: Guidance-distilled model for non-commercial applications, offering near-professional quality.
-* License: Open-weight model intended for non-commercial contexts.
+* [License](https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev): Open-weight model intended for non-commercial contexts.
 * Use Case: Suited for research and non-commercial exploration.
 
 Both models provide easy access and versatility, making them excellent choices for text-to-image projects. While FLUX.1 [schnell] focuses on performance, FLUX.1 [dev] bridges the gap between quality and efficiency.
@@ -44,10 +44,16 @@ computations involved in text-to-image generation are handled smoothly, providin
 
 ## Setting Up FLUX in Galaxy
 
-The FLUX models are already available on [UseGalaxy.eu](https://usegalaxy.eu/root?tool_id=black_forest_labs_flux).
+The FLUX models are already available on UseGalaxy.eu.
+
+<a href="https://usegalaxy.eu/root?tool_id=black_forest_labs_flux"><button type="button" class="btn btn-success">Run FLUX on usegalaxy.eu!</button></a>
+
 Simply log in to your Galaxy instance and search for the FLUX tool in the tool panel.
 
 Select the desired model (FLUX.1 [schnell] or FLUX.1 [dev]) based on your requirements.
+
+Please be adviced that dev model can not be used for commercial use.
+
 Choose between File or Text based input and select your txt file or enter your text prompt in the designated input field.
 Click "Run Tool" and let Galaxy handle the rest!
 Once the process is complete, you’ll find the generated image in your Galaxy history, ready to view, share, or use in your workflows.
@@ -58,6 +64,6 @@ Text Prompt: `A galaxy full of stars`
 
 Generated Image:
 
-![FLUX_on_text_prompt_(A_galaxy_full_of_stars)](./FLUX_on_text_prompt_(A_galaxy_full_of_stars).png)
+![FLUX_on_text_prompt_(A_galaxy_full_of_stars)](./FLUX_on_text_prompt-a_galaxy_full_of_stars.png)
 
 You can try out your own prompts and see what unique images FLUX can generate!
