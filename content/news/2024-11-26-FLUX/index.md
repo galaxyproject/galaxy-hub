@@ -9,7 +9,10 @@ tags: [tool]
 ---
 
 ## Using Black Forest Labs' FLUX Models Inside Galaxy: A Guide to Text-to-Image Integration
-[The Black Forest Labs (BFL)](https://blackforestlabs.ai/) FLUX series has made significant strides in the world of generative AI, providing robust text-to-image capabilities tailored for various use cases. At Freiburg University, we've integrated FLUX.1 [schnell] and FLUX.1 [dev] into the Galaxy platform, enabling researchers and developers to generate high-quality images directly within Galaxy's user-friendly environment.
+
+[The Black Forest Labs (BFL)](https://blackforestlabs.ai/) FLUX series has made significant strides in the world of generative AI, providing robust text-to-image capabilities
+tailored for various use cases. At Freiburg University, we've integrated FLUX.1 [schnell] and FLUX.1 [dev] into the Galaxy platform, enabling researchers and developers to generate
+high-quality images directly within Galaxy's user-friendly environment.
 
 In this blog post, we'll explore the FLUX.1 models, their unique attributes, and how to use them effectively inside Galaxy.
 
@@ -35,18 +38,21 @@ Galaxy's open platform supports workflows across life sciences, data analysis, a
 * Streamline workflows: Incorporate generative AI into multi-step Galaxy pipelines.
 * Leverage open weights: FLUX's availability under open licenses aligns with Galaxy's ethos of accessibility and reproducibility.
 
-To ensure high performance and speed, we are using a CUDA-based container to run the FLUX models on GPUs. This setup allows for fast inference times when working with the models from Hugging Face. By leveraging Hugging Face’s pre-trained models, we can efficiently load the weights and run inference directly within the Galaxy environment. The CUDA-based container ensures that the heavy computations involved in text-to-image generation are handled smoothly, providing users with a seamless experience.
+To ensure high performance and speed, we are using a CUDA-based container to run the FLUX models on GPUs. This setup allows for fast inference times when working with the models from Hugging Face.
+By leveraging Hugging Face’s pre-trained models, we can efficiently load the weights and run inference directly within the Galaxy environment. The CUDA-based container ensures that the heavy
+computations involved in text-to-image generation are handled smoothly, providing users with a seamless experience.
 
 ## Setting Up FLUX in Galaxy
 
-The FLUX models are already available on [UseGalaxy.eu](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/black_forest_labs_flux/black_forest_labs_flux/2024+galaxy3). Simply log in to your Galaxy instance and search for the FLUX tool in the tool panel.
+The FLUX models are already available on [UseGalaxy.eu](https://usegalaxy.eu/root?tool_id=black_forest_labs_flux).
+Simply log in to your Galaxy instance and search for the FLUX tool in the tool panel.
 
 Select the desired model (FLUX.1 [schnell] or FLUX.1 [dev]) based on your requirements.
 Choose between File or Text based input and select your txt file or enter your text prompt in the designated input field.
-Click Run Tool and let Galaxy handle the rest!
+Click "Run Tool" and let Galaxy handle the rest!
 Once the process is complete, you’ll find the generated image in your Galaxy history, ready to view, share, or use in your workflows.
 
-For an example, I used the text prompt "A galaxy full of stars" to generate an image. Here's [the result](https://usegalaxy.eu/u/brilliantarash/h/flux):
+For example, I used the text prompt "A galaxy full of stars" to generate an image. Here's [the result history](https://usegalaxy.eu/u/brilliantarash/h/flux):
 
 Text Prompt: `A galaxy full of stars`
 
