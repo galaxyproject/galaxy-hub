@@ -23,7 +23,7 @@ collaboration with trusted colleagues.
 
 This CFDE Cloud Workspace will have many advantages:
 
--   Th open source, widely adopted Galaxy platform interface and capabilities are
+-   The open source, widely adopted Galaxy platform interface and capabilities are
     already familiar to most life sciences research communities.
 
 -   The platform can leverage all major cloud providers and academic compute
@@ -34,7 +34,7 @@ This CFDE Cloud Workspace will have many advantages:
     as new tools arise.
 
 -   The open source nature of the platform and compatibility across cloud
-    resources assures sustainability beyond the duration of the project.
+    resources ensures sustainability beyond the duration of the project.
 
 -   The platform will provide long-term infrastructure stability and empower
     research innovation.
@@ -43,4 +43,4 @@ This CFDE Cloud Workspace will have many advantages:
 
 For more information, see
 [the press release at TACC](https://tacc.utexas.edu/news/latest-news/2024/11/25/tacc-receives-nih-award-to-develop-cloud-workspace-implementation-center/)
-and the the [NIH CFDE Funded Research](https://commonfund.nih.gov/dataecosystem/FundedResearch) page.
+and the [NIH CFDE Funded Research](https://commonfund.nih.gov/dataecosystem/FundedResearch) page.
