@@ -6,7 +6,6 @@
         "Platform": { "path": "/use/", "type": "md" }
     },
     "categories": {
-        "/blog": "blog",
         "/events": "events",
         "/news": "news",
         "/careers": "careers",
@@ -105,7 +104,7 @@
         "/admin/internals/galaxy-ops/Help Info.html": "/admin/internals/galaxy-ops/help-info/",
         "/admin/internals/galaxy-ops/Python.html": "/admin/internals/galaxy-ops/python/",
         "/admin/internals/galaxy-ops/C.html": "/admin/internals/galaxy-ops/c/",
-        "/blog/2017-10-16-UnicyclerTutorial/": "/blog/2017-10-16-unicycler-tutorial/",
+        "/blog/2017-10-16-UnicyclerTutorial/": "/news/2017-10-16-unicycler-tutorial/",
         "/cloudman/CustomizeGalaxyCloud.html": "/cloudman/customize-galaxy-cloud/",
         "/tutorials/nt_rnaseq/": "/tutorials/nt-rnaseq/",
         "/tutorials/pt_gfam/": "/tutorials/pt-gfam/",

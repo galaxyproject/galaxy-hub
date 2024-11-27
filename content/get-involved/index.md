@@ -68,7 +68,7 @@ If and when you [setup your own Galaxy instance](/admin/get-galaxy/), you can ma
 
 <img class="img-fluid float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
 
-The [Galactic Blog](/blog/) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
+The [Galactic Blog](/news/) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 
 # Documentation
 

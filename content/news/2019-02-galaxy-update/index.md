@@ -274,12 +274,12 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 # New Galactic Blog Posts
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/blog/2019-01-totm/)
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/news/2019-01-totm/)
 </div>
 
-There are two new *[Galactic Blog](/blog/)* entries:
+There are two new *[Galactic Blog](/news/)* entries:
 
-* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/blog/2019-01-totm/):**
+* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/news/2019-01-totm/):**
     * read about using Prokka for annotation of draft genome sequences
     * by Bérénice Batut
 * **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**

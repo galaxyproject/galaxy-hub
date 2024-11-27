@@ -48,7 +48,7 @@ Action items from BoF:
 Draft implementations of the first two are in place:
 
 * Community/Deployments hub page
-* Community/Logs hub page (since moved to the [Galaxy Blog](/blog/)
+* Community/Logs hub page (since moved to the [Galaxy Blog](/news/)
 
 What do people think of this approach?  The use of *boxes* on the right side is used to create much more informative lists of deployments and logs on their hub pages, using the [http://moinmo.in/MacroMarket/DictColumns](http://moinmo.in/MacroMarket/DictColumns) macro.
 
