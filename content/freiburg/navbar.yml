@@ -1,58 +1,58 @@
 left:
-- label: News
-  relativeTo: subsite
-  target: news/
-- label: Events
-  relativeTo: subsite
-  target: events/
-- label: People
-  target: https://usegalaxy-eu.github.io/freiburg/people
-- label: Projects
-  target: https://usegalaxy-eu.github.io/freiburg/projects
-- label: Services
-  target: https://usegalaxy-eu.github.io/freiburg/services
+    - label: News
+      relativeTo: subsite
+      target: news/
+    - label: Events
+      relativeTo: subsite
+      target: events/
+    - label: People
+      target: https://usegalaxy-eu.github.io/freiburg/people
+    - label: Projects
+      target: https://usegalaxy-eu.github.io/freiburg/projects
+    - label: Services
+      target: https://usegalaxy-eu.github.io/freiburg/services
 right:
-- label: Help
-  contents:
-  - label: Get started
-    target: "/get-started/"
-  - label: Training
-    target: "/learn/"
-  - label: FAQ
-    target: "/support/"
-  - label: Galaxy Help Forum
-    target: https://help.galaxyproject.org/
-- label: Community
-  contents:
-  - label: The Galaxy Community
-    target: "/community/"
-  - label: Blog
-    target: "/blog/"
-  - label: Working Groups
-    target: "/community/wg/"
-  - label: Governance
-    target: "/community/governance/"
-  - label: How to contribute
-    target: "/community/contributing/"
-  - label: Galaxy Mentor Network
-    target: https://galaxy-mentor-network.netlify.app/
-  - label: Code of Conduct
-    target: "/community/coc/"
-- label: About
-  contents:
-  - label: Jobs
-    target: https://usegalaxy-eu.github.io/freiburg/jobs
-  - label: Publications
-    target: https://usegalaxy-eu.github.io/freiburg/publications
-  - label: Citing Galaxy
-    target: https://usegalaxy-eu.github.io/about#acknowledgement
-  - label: Platforms
-    target: "/use/"
-  - label: Stats
-    target: "/galaxy-project/statistics/"
-  - label: Mailing lists
-    target: "/mailing-lists"
-  - label: Branding
-    target: "/images/galaxy-logos/"
-- label: "@jxtx"
-  target: https://jxtxfoundation.org/
+    - label: Help
+      contents:
+          - label: Get started
+            target: "/get-started/"
+          - label: Training
+            target: "/learn/"
+          - label: FAQ
+            target: "/support/"
+          - label: Galaxy Help Forum
+            target: https://help.galaxyproject.org/
+    - label: Community
+      contents:
+          - label: The Galaxy Community
+            target: "/community/"
+          - label: Blog
+            target: "/blog/"
+          - label: Working Groups
+            target: "/community/wg/"
+          - label: Governance
+            target: "/community/governance/"
+          - label: How to contribute
+            target: "/community/contributing/"
+          - label: Galaxy Mentor Network
+            target: https://galaxy-mentor-network.netlify.app/
+          - label: Code of Conduct
+            target: "/community/coc/"
+    - label: About
+      contents:
+          - label: Jobs
+            target: https://usegalaxy-eu.github.io/freiburg/jobs
+          - label: Publications
+            target: https://usegalaxy-eu.github.io/freiburg/publications
+          - label: Citing Galaxy
+            target: https://usegalaxy-eu.github.io/about#acknowledgement
+          - label: Platforms
+            target: "/use/"
+          - label: Stats
+            target: "/galaxy-project/statistics/"
+          - label: Mailing lists
+            target: "/mailing-lists"
+          - label: Branding
+            target: "/images/galaxy-logos/"
+    - label: "@jxtx"
+      target: https://jxtxfoundation.org/

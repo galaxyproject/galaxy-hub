@@ -3,42 +3,42 @@ heading: Learn
 content: From curated tools and workflows to self-paced tutorials available on the Galaxy Training Network (GTN), there are plenty of materials to learn from.
 
 education:
-- title: Tutorials
-  content: Access topic-based trainings for free.
-  icon: fas fa-graduation-cap
-  url: https://training.galaxyproject.org
+    - title: Tutorials
+      content: Access topic-based trainings for free.
+      icon: fas fa-graduation-cap
+      url: https://training.galaxyproject.org
 
-- title: Videos
-  content: Watch to learn, including conferences.
-  icon: far fa-play-circle
-  url: https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA
+    - title: Videos
+      content: Watch to learn, including conferences.
+      icon: far fa-play-circle
+      url: https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA
 
-- title: Vetted workflows
-  content: (Re)use or adapt quality workflows.
-  icon: fas fa-sitemap
-  url: https://training.galaxyproject.org/training-material/workflows/list
+    - title: Vetted workflows
+      content: (Re)use or adapt quality workflows.
+      icon: fas fa-sitemap
+      url: https://training.galaxyproject.org/training-material/workflows/list
 
-- title: Blog
-  content: Read highlights from the experts.
-  icon: fas fa-comment
-  url: /blog/
+    - title: Blog
+      content: Read highlights from the experts.
+      icon: fas fa-comment
+      url: /blog/
 
-- title: Data
-  content: Pull data from popular repositories.
-  icon: fas fa-database
-  url: https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html
+    - title: Data
+      content: Pull data from popular repositories.
+      icon: fas fa-database
+      url: https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html
 
-- title: Community
-  content: Explore the world-wide community.
-  icon: fas fa-user-friends
-  url: https://galaxyproject.org/community/
+    - title: Community
+      content: Explore the world-wide community.
+      icon: fas fa-user-friends
+      url: https://galaxyproject.org/community/
 
-- title: FAQ
-  content: Common questions. Good answers.
-  icon: far fa-question-circle
-  url: https://training.galaxyproject.org/training-material/faqs/index.html
+    - title: FAQ
+      content: Common questions. Good answers.
+      icon: far fa-question-circle
+      url: https://training.galaxyproject.org/training-material/faqs/index.html
 
-- title: Help & support
-  content: Advice is always available.
-  icon: fas fa-hands-helping
-  url: https://help.galaxyproject.org/
+    - title: Help & support
+      content: Advice is always available.
+      icon: fas fa-hands-helping
+      url: https://help.galaxyproject.org/
