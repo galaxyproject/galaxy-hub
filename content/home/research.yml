@@ -5,14 +5,14 @@ research1:
   content: "Galaxy can be installed locally, fine-tuned with a tailored toolset and no usage quotas."
   url: "https://www.zotero.org/groups/1732893/galaxy"
   links:
-  - title: "Hakimzadeh, Ali, et al. \"A pile of pipelines: An overview of the bioinformatics software for metabarcoding data analyses.\" Molecular Ecology Resources (2023)."
-    url: "https://doi.org/10.1111/1755-0998.13847"
-  - title: "Senft, Rebecca A., et al. \"A biologist’s guide to planning and performing quantitative bioimaging experiments.\" PLoS Biology 21.6 (2023): e3002167."
-    url: "https://doi.org/10.1371/journal.pbio.3002167"
-  - title: "Banh, Dalton V., et al. \"Bacterial cGAS senses a viral RNA to initiate immunity.\" Nature (2023): 1-8."
-    url: "https://doi.org/10.1038/s41586-023-06743-9"
-  - title: "Sokol-Borrelli, Sarah L., et al. \"A transcriptional network required for bradyzoite development in Toxoplasma gondii is dispensable for recrudescent disease.\" Nature Communications 14.1 (2023): 6078."
-    url: "https://doi.org/10.1016/j.envint.2022.107531"
+  - title: "Dantan, L. et al. \"Microbial education plays a crucial role in harnessing the beneficial properties of microbiota for infectious disease protection in Crassostrea gigas\"  Sci Rep 14, 26914 (2024)"
+    url: "https://doi.org/10.1038/s41598-024-76096-4"
+  - title: "Yujing Ren et al. \"Effects of microplastics on litter decomposition in wetland soil\" Environmental Pollution, Volume 343, (2024)"
+    url: "https://doi.org/10.1016/j.envpol.2023.123145"
+  - title: "Mathieu-Bégné, E et al. \"Schistosoma haematobium and Schistosoma bovis first generation hybrids undergo gene expressions changes consistent with species compatibility and heterosis\" PLOS Neglected Tropical Diseases (2024)"
+    url: "https://doi.org/10.1371/journal.pntd.0012267"
+  - title: "Sarmah, P. et al. \"The functional and structural characterisation of the bZIP transcription factors from Myristica fragrans Houtt. associated to plant disease-resistant defence: An insight from transcriptomics and computational modelling\" International Journal of Biological Macromolecules, Vol 268, Part 2 (2024)"
+    url: "https://doi.org/10.1016/j.ijbiomac.2024.131817"
 
 research3:
   title: Popular tutorials
@@ -28,7 +28,6 @@ research3:
     url: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html"
   - title: Quality Control
     url: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
-
 
 research5:
   title: "Research highlights"

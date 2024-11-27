@@ -6,7 +6,7 @@ continent: SA
 location:
   name: "Curitiba, Brazil"
 gtn: false
-contact: "Anton Nekrutenk"
+contact: "Anton Nekrutenko"
 tags: [workshop, training]
 subsites: [all]
 ---
