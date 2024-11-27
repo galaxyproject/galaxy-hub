@@ -3,6 +3,7 @@ title: "Galaxy, TACC and SDSC NIH Award to Develop Cloud Workspace Implementatio
 date: "2024-11-26"
 authors: "Scott Cain"
 tags: [grants]
+subsites: [us]
 tease: "New workspace to make data management sustainable for life sciences data analysis"
 ---
 
