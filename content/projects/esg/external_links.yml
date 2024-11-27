@@ -1,12 +1,12 @@
 heading: Projects Part of ESG
 
 external_links:
-- name: Galaxy Training Network
-  image: ./link-images/GTNLogoTrans300.png
-  url: https://training.galaxyproject.org/
-- name: Pulsar
-  image: ./link-images/pulsar_transparent.png
-  url: https://pulsar-network.readthedocs.io/
-- name: Galaxy EU
-  image: ./link-images/useGalaxy.eu.256.png
-  url: https://usegalaxy.eu/
+    - name: Galaxy Training Network
+      image: ./link-images/GTNLogoTrans300.png
+      url: https://training.galaxyproject.org/
+    - name: Pulsar
+      image: ./link-images/pulsar_transparent.png
+      url: https://pulsar-network.readthedocs.io/
+    - name: Galaxy EU
+      image: ./link-images/useGalaxy.eu.256.png
+      url: https://usegalaxy.eu/
