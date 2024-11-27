@@ -54,6 +54,8 @@ Finally, upon running a workflow in Galaxy, a workflow run is now visualized in 
 
 These improvements help make Galaxy’s workflow interface more intuitive, more transparent, and more accessible, thereby promoting scientific discovery and collaboration within the wider community.
 
+![Awan](Awan.jpg)
+
 
 ### **Richard Burhans** 
 
@@ -64,6 +66,8 @@ Galaxy and Nextflow (NF) have different goals and share different audiences. Eac
 Automated conversion between NF and Galaxy is not currently feasible, and manual conversion usually requires substantial time and effort. However, Galaxy allows any command line analysis package to be wrapped as a new tool, offering a simple solution. NF is available in Conda, and NF workflows are command line driven, so they can be wrapped as a monolithic “black box” Galaxy tool. This is technically inefficient because the entire NF workflow runs as a single job in Galaxy without the benefit of inbuilt data resources, workflow management, identical subtask reuse, or resource allocation. The maximum memory and processor allocation required by any step of the NF workflow must be dedicated to the “black box” Galaxy tool for the entire duration of the workflow execution. The only sustainable way to improve workflow logic is through pull requests to the NF repository, compared to editing a Galaxy workflow in a GUI. If all the required tools are available for a traditional Galaxy workflow, this is a poor solution, but if they are not, the savings in skilled effort and time may make the costs of technical inefficiency acceptable. So, when is it a good idea to use a NF workflow as a Galaxy tool? Recently, the Vertebrate Genome Project (VGP) needed to rapidly integrate NCBI’s genome annotation pipeline EGAPx, a NF workflow, into Galaxy. This was required for bridging the gap between genome assembly performed within the Galaxy Framework and annotation. The challenge was that many tools were not yet available in Galaxy for NCBI’s EGAPx NF workflow, so a monolithic proof-ofconcept tool was quickly created, tested, and deployed. Outputs include a GFF3 file with predictions, ready to add value to an existing Galaxy workflow by creating pre-configured JBrowse2 browsers.   
 
 Compared to integrating all the new tools needed for a traditional Galaxy workflow, the new tool requires little developer time and is easily maintained when NCBI’s EGAPx repository is updated. Rapid integration and added scientific value outweigh the costs of technical inefficiency when running a limited number of times on the dedicated VGP Galaxy computational infrastructure. The job and outputs are available in Galaxy for sharing, replication, and downstream processing, in contrast to the usual alternative of running the NF workflow on a workstation command line. Testing confirmed that all outputs are identical to usual NF workflow command line execution because the tool constructs and calls exactly the same command line. This model is too inefficient for commercial cloud or scarce public computational infrastructure, but can be useful in some restricted situations, where the disadvantages are outweighed by the benefits.
+
+![Burhans](Burhans.jpg)
 
 
 ### **Jayadev Joshi**
@@ -87,6 +91,8 @@ Currently, when these types of errors occur, the user has a chance to selfreport
 
 To address these highly engaged users, this feature update focuses on improvements by consolidating client-facing self-reporting error processes, resolving data alignment issues, and generally improving user experience, all while leveraging existing resources to mitigate risk. Additionally, capturing auxiliary operational lessons learned have already revealed themes for future improvements. For example in the area of user support improvements, the monthly frequency totals of user errors demonstrated seasonability for the months of April and May \- an issue which could be addressed by increasing the number of public workshops and training across that same time period. Thus by addressing these areas, our objective is to improve the reliability of user-reported errors and determine possible causative operational processes. 
 
+![Savage](Savage.jpg)
+
 
 ### **Natalie Kucher**
 
@@ -97,6 +103,8 @@ As the scale of data generated and analyzed for biomedical research increases, t
 The NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-space or [AnVIL](https://anvilproject.org/), which is a secure, cloud-based platform for storage, management, and analysis of genomic and related datasets. AnVIL integrates a number of common bioinformatics tools like [Galaxy](https://galaxyproject.org/), [Bioconductor](https://www.bioconductor.org/), and Workflow Description Language (WDL) workflows; so that users can bring their preferred analysis methods to the data or come in through multiple entry points for novice bioinformaticians. Instructors can use AnVIL for teaching with consistent, no-download software environments, dedicated computing resources, and participant and billing management. These advantages result in faster jobs, reduced data transfer, tracked trainee activity and spending, and flexibility for in-person and virtual training events.   
 
 We develop scalable training and outreach content which guides users in onboarding to the platform and running tutorials to learn the building blocks for cloud-computing in AnVIL. In this presentation we will showcase the available AnVIL training resources in the [AnVIL Collection](https://hutchdatascience.org/AnVIL\_Collection/), highlight educational modules for the Genomic Data Science Community Network ([GDSCN](https://www.gdscn.org/)) BioDiversity and Informatics for Genomics Scholars ([BioDIGS](http://www.biodigs.gdscn.org/)) research project with U.S.-based under-resourced undergraduate institutions, and the training opportunities that were presented at our inaugural AnVIL Community Conference CollaborationFests (CoFests) featuring deep learning model deployment, polygenic risk score analysis, and custom tool integration with AnVIL.
+
+![Kucher](Kucher.jpg)
 
 
 ### **Enis Afgan**
@@ -112,6 +120,8 @@ The work presented herein offers a 3 tiered approach to cost estimation. The fir
 
 Available cost estimates are based on historic runtime characteristics of hundreds of thousands of jobs from the usegalaxy.org service, capturing a broad spectrum of uses and offering representative estimates. The accuracy of the estimates were also validated via tool benchmarking on commercial clouds. The approach as a whole provides a graded means with which to estimate costs, depending on the nature of one’s data, the complexity and scale of the analysis, and the desired level of accuracy.
 
+![Afgan](Afgan.jpg)
+
 
 ### **John Davis**
 
@@ -122,6 +132,8 @@ Available cost estimates are based on historic runtime characteristics of hundre
 From an engineering standpoint, Galaxy is a large distributed data-driven system with data taking on many forms \- from configuration files and reference data, to data processing, analysis and visualization tool wrappers, and scientific datasets. At the core of the system is the data model and database, that define the structure of the objects facilitating Galaxy's extensive business logic. The scale of the interactions between Galaxy's business logic and the database is considerable: the data model is referenced tens of thousands of times from all over the code base, with the database being continuously read from and written to every second that the system is running. This talk aims to decompose the complexity of such interactions, using Galaxy's data access architecture as a representative example. Galaxy's data access functionality relies heavily on [SQLAlchemy](sqlalchemy.org) \- a SQL automation tool kit and object-relational mapper widely-used in the Python ecosystem. This talk will include a tour of SQLAlchemy in the context of Galaxy, including our use of its features, the mistakes we made over the years, and how we fixed them. Most notably, SQLAlchemy is about the same age as Galaxy and recently went through the largest upgrade process in its history. The complexity of upgrading a large system to SQLAlchemy 2.0 is akin to moving to Python 3, only harder.  
 
 In this talk, I will share the most notable and consequential lessons we've learned from this process over the course of three years. Given Galaxy's state of active ongoing development (\>80K commits over the past decade), the use of a database migration tool for managing changes to a database schema is an absolute requirement for us. We recently moved our code base to Alembic, which is a tool commonly used alongside SQLAlchemy. Again, we faced unique challenges, both due to the "galactic" scale of our code base, as well as the multitude of Galaxy instances around the world, which had to be provided with a migration path accommodating a wide variety of upgrade scenarios.
+
+![Davis](Davis.jpg)
 
 
 ## **Final Thoughts**
