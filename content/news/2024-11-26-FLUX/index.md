@@ -10,7 +10,7 @@ tags: [tool]
 
 ## Using Black Forest Labs' FLUX Models Inside Galaxy: A Guide to Text-to-Image Integration
 
-In previous news, we have written about [the speech-to-text tool Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/) and [the ChatGPT tool](https://galaxyproject.org/news/2023-08-14-chat-gpt/) in Galaxy. Today, we would like to talk about a new tool that allows you to create images from text.
+In previous news, we have written about [the speech-to-text tool Whisper](../2024-04-25-whisper-tool/) and [the ChatGPT tool](../2023-08-14-chat-gpt/) in Galaxy. Today, we would like to talk about a new tool that allows you to create images from text.
 [The Black Forest Labs (BFL)](https://blackforestlabs.ai/) FLUX series has made significant strides in the world of generative AI, providing robust text-to-image capabilities
 tailored for various use cases. At Freiburg University, we've integrated FLUX.1 [schnell] and FLUX.1 [dev] into the Galaxy platform, enabling researchers and developers to generate
 high-quality images directly within Galaxy's user-friendly environment.
