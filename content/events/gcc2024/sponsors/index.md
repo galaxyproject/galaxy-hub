@@ -39,7 +39,7 @@ affordable and accessible.
 </a>
 
 <a href="https://www.kws.com/" target="_blank">
-  <img src="/images/logos/KWS-logo.jpg" alt="KWS" style="max-width: 25%; padding-right: 2rem;" />
+  <img src="/images/logos/kws-logo-slogan.png" alt="KWS" style="max-width: 25%; padding-right: 2rem;" />
 </a>
 
 <a href="https://www.limagrain.com/en" target="_blank">

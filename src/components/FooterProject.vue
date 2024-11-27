@@ -32,7 +32,7 @@
                         <li><a href="https://github.com/galaxyproject/">GitHub</a></li>
                         <li><a href="https://matrix.to/#/#galaxyproject_Lobby:gitter.im">Matrix</a></li>
                         <li><a href="https://www.youtube.com/@GalaxyProject">YouTube</a></li>
-                        <li><a href="https://www.linkedin.com/groups/4907635/">LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/company/galaxy-project/">LinkedIn</a></li>
                         <li><a href="https://bsky.app/profile/galaxyproject.bsky.social">Bluesky</a></li>
                         <li><a href="https://mstdn.science/@galaxyproject">Mastodon</a></li>
                     </ul>
