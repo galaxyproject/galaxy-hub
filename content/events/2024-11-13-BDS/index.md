@@ -1,14 +1,14 @@
 ---
-title: Single-cell and sPatial Omics | Collaboration Fest
-date: '2024-12-06'
-days: 1
-tease: "The Single-cell and sPatial Omics Community of Practice (SPOC) are hosting their first Collaboration Fest, welcoming new and experienced contributors to our training materials."
+title: Biological Data Science
+date: '2024-11-13'
+days: 4
+tease: "The scope of this meeting will be the infrastructure, software, and algorithms needed to analyze large data sets in biological research."
 continent: NA
 location:
-  url: https://training.galaxyproject.org/training-material/events/2024-12-06-spoc-cofest-2024.html
+  name: "Cold Spring Harbor, NY, USA"
+  url: https://www.agbt.org/events/general-meeting/](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=24
 gtn: true
-tags: [cofest]
+contact: "Kelley McGrath: mcgrath@cshl.edu"
+tags: [conference]
 subsites: [all]
 ---
-
-Join our Single-cell and sPatial Omics Community of Practice by following the [link to our event](https://training.galaxyproject.org/training-material/events/2024-12-06-spoc-cofest-2024.html)!
