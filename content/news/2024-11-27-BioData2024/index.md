@@ -135,6 +135,24 @@ In this talk, I will share the most notable and consequential lessons we've lear
 
 ![Davis](Davis.jpg)
 
+## Special Recognition: Galaxy in Action
+
+We’d like to give a special shoutout to a poster presentation that highlighted the innovative use of Galaxy in advancing reference genome curation. This research showcased the development of pre-curation workflows in Galaxy, including the integration of the TreeVal pipeline. These workflows streamline the generation of high-quality, haplotype-aware reference genomes by producing interactive browser instances, Hi-C contact maps, and critical assembly insights such as repeats, gaps, telomeres, and synteny data.
+
+As part of the Vertebrate Genome Project (VGP), these workflows have been instrumental in assembling over 150 de novo genomes, a remarkable achievement that builds on the VGP assembly pipeline advancements published earlier this year (Larivière et al. 2024). This work demonstrates how Galaxy continues to empower large-scale genome projects, driving new discoveries in comparative genomics, genome evolution, population genomics, and conservation genetics.
+
+### Delphine Larivière
+
+*Universally accessible interacting curation workflows for large genome assembly*
+
+Despite the acceleration in the production of draft genome assemblies, manual curation remains a bottleneck for the publication of high-quality reference genomes. Here we present our latest efforts to accelerate this process with the implementation of pre-curation workflows in Galaxy, including the integration of the TreeVal pipeline. These workflows produce haplotype-aware interactive browser instances as well as Hi-C contact maps and include repeats, gaps, telomeres, coverage distribution, annotations, and synteny data. They allow us to readily pinpoint and fix common issues in the assembly process. In this presentation we will demonstrate the utility of these workflows using genomes of different size and complexity.
+
+Within the framework of the Vertebrate Genome Project (VGP) we routinely use these workflows to generate high-quality, complete reference genomes facilitating a new era of discovery across multiple disciplines ranging from comparative genomics, to genome evolution, to population genomics and conservation genetics.
+
+This work is continuation of the development of the latest version of the VGP assembly pipeline in Galaxy, published earlier this year (Larivière et al. 2024). Within the Vertebrate Genome Project, these workflows have already been applied to assemble de novo genomes of over a hundred and fifty species, tripling the number of species reported in Larivière et al. 2024. 
+
+![Delphine](Delphine.jpg)
+
 
 ## **Final Thoughts**
 
