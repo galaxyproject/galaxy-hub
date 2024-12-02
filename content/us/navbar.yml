@@ -1,9 +1,9 @@
 style:
-  color: "#4e7152"
+    color: "#4e7152"
 left:
-- label: News
-  relativeTo: subsite
-  target: news/
-- label: Events
-  relativeTo: subsite
-  target: events/
+    - label: News
+      relativeTo: subsite
+      target: news/
+    - label: Events
+      relativeTo: subsite
+      target: events/
