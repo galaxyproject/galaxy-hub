@@ -1,25 +1,25 @@
 left:
-- label: News
-  relativeTo: subsite
-  target: news/
-- label: Tools
-  target: https://usegalaxy-eu.github.io/tools
-- label: Example Dropdown
-  contents:
-  - label: Local link
-    target: /faq/
-  - label: External link
-    target: https://usegalaxy.org
+    - label: News
+      relativeTo: subsite
+      target: news/
+    - label: Tools
+      target: https://usegalaxy-eu.github.io/tools
+    - label: Example Dropdown
+      contents:
+          - label: Local link
+            target: /faq/
+          - label: External link
+            target: https://usegalaxy.org
 right:
-- label: FAQ
-  target: /support/
-- label: People
-  target: https://usegalaxy-eu.github.io/people
-- label: Help
-  contents:
-  - label: Get started
-    target: /get-started/
-  - label: Training
-    target: /learn/
-  - label: Galaxy Help Forum
-    target: https://help.galaxyproject.org
+    - label: FAQ
+      target: /support/
+    - label: People
+      target: https://usegalaxy-eu.github.io/people
+    - label: Help
+      contents:
+          - label: Get started
+            target: /get-started/
+          - label: Training
+            target: /learn/
+          - label: Galaxy Help Forum
+            target: https://help.galaxyproject.org

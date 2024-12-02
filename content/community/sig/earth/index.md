@@ -15,15 +15,6 @@ Whether you are analysing geosphere, biosphere, cryosphere, hydrosphere, and atm
 
 **Tools for earth data analysis are freely available** in the ToolShed which can be installed on any Galaxy server.
 
-<iframe
-  id="inlineFrameExample"
-  title="Earth related tools"
-  width="100%"
-  height="600"
-  frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_codex/earth/">
-</iframe>
-
 If tools are missing or information is not up-to-date in the list, please help us! Contact [Marie](mailto:marie14.josse@gmail.fr) or [Jérôme](mailto:jerome.detoc@ifremer.fr) about it.
 
 ## Workflows and tutorials

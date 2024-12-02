@@ -49,7 +49,7 @@ Group of computational chemistry tool developers, trainers and users to help con
 
 <!-- Earth -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="https://earth-system.usegalaxy.eu">
+<a href="/community/sig/earth/">
 <div class="card-header bg-wg-applied text-white text-center">Earth</div>
 </a>
 
@@ -197,10 +197,23 @@ Galaxy-based platform for the functional analysis and the interpretation of prot
 
 The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.
 
-* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:gitter.im)
+* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#spoc3:matrix.org)
 * [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/)
 * [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
 * [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu)
+</div>
+
+<!-- Image Analysis -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/image-analysis/">
+<div class="card-header bg-wg-applied text-white text-center">Image Analysis</div>
+</a>
+
+This community gathers image analysis enthusiasts across different scientific disciplines.
+
+* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#imaging:matrix.org)
+* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/imaging/)
+* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://imaging.usegalaxy.eu)
 </div>
 
 <!-- CoP Methodologies SIGs Card-div end -->
@@ -368,6 +381,18 @@ Galaxy-NL in the Netherlands.
 
 </div>
 -->
+
+<!-- Galaxy Switzerland -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/switzerland/">
+<div class="card-header bg-wg-applied text-white text-center">Switzerland</div>
+</a>
+
+Galaxy community in Switzerland
+
+* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-switzerland@lists.galaxyproject.org)
+
+</div>
 
 <!-- UK -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">

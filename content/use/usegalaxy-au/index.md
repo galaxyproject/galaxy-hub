@@ -8,27 +8,26 @@ platforms:
     platform_text: "UseGalaxy Australia"
     platform_location: AU
 summary: "The Australian UseGalaxy server."
-image: "/use/usegalaxy-au/usegalaxy-au-landing-page-500.png"
+image: "/use/usegalaxy-au/usegalaxy-au-landing-page-2024.png"
 comments:
-  - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/main/) for more."
+  - "Supports Australian life scientists to perform data analyses"
+  - "Powers domain-specific analyses through Galaxy Labs"
+  - "Contains a large collection of core Galaxy tools"
+  - "[See the Australian BioCommons website for more](https://www.biocommons.org.au/galaxy-australia)"
 user_support:
-  - "[Help desk for **usegalaxy.org.au**](mailto:help@genome.edu.au)"
-  - "[Training Materials](https://galaxy-au-training.github.io/tutorials/)"
-  - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
-  - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
-  - "[Support](/support/)"
+  - "[Contact the Australian help desk for **usegalaxy.org.au**](mailto:help@genome.edu.au)"
+  - "[Access training material on the Galaxy Training Networks](https://galaxy-au-training.github.io/tutorials/)"
+  - "[Post in the global Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
+  - "[Visit the global Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
-  - "Disk Quotas"
+  - "Galaxy Australia applies a default storage quota which can be increased on request"
   - "Registered users get 100GB"
-  - "Australian users get 600GB"
+  - "Registered Australian users get 600GB"
 citations:
-  - "[Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140829) [Afgan E](/people/enis-afgan/), Sloggett C, Goonasekera N, Makunin I, Benson D, Crowe M, Gladman S, Kowsar Y, Pheasant M, Horst R, Lonie A., *PLoS One.* 2015 Oct 26;10(10):e0140829. doi: 10.1371/journal.pone.0140829."
-  - "[Nectar Virtual Labs investment has huge economic and research impact](https://nectar.org.au/vls-have-huge-economic-research-impact/)"
-pub_libraries:
-  - "GVL-QLD"
-  - "GVL-MEL"
-  - "UseGalaxy.org.au"
+  - "The Galaxy Community. [The Galaxy platform for accessible,reproducible, and collaborative data analyses: 2024 update](https://doi.org/10.1093/nar/gkae410), *Nucleic Acids Research*, Volume 52, Issue W1, 5 July 2024, Pages W83-W94"
+  - "List of [all publications supported by Australian BioCommons](https://www.biocommons.org.au/publications), including Galaxy Australia"
 sponsors:
-  - "[Research Computing Centre, UQ](https://www.rcc.uq.edu.au/)"
-  - "[Genomics Virtual Lab](https://www.gvl.org.au/)"
+ - "Galaxy Australia forms part of the national Australian BioCommons infrastructure and is managed by [QCIF](https://www.qcif.edu.au/), [the University of Melbourne](https://www.unimelb.edu.au/) and [AARNet](https://www.aarnet.edu.au/)"
+ - "Galaxy Australia is underpinned by computational resources provided by [AARNet](https://www.aarnet.edu.au/), [ARDC Nectar Research Cloud](https://ardc.edu.au/services/ardc-nectar-research-cloud/), [the University of Melbourne](https://www.unimelb.edu.au/), [QCIF](https://www.qcif.edu.au/), [National Computational Infrastructure](http://nci.org.au/), [Pawsey Supercomputing Research Centre](https://pawsey.org.au/) and [Microsoft Azure](https://azure.microsoft.com/en-au)"
+ - "The above efforts are supported by funding from [the University of Melbourne](https://www.unimelb.edu.au/) and [Bioplatforms Australia](https://bioplatforms.com/biocommons/). Bioplatforms Australia are enabled by [NCRIS](https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris)"
 ---

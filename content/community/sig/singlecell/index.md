@@ -68,12 +68,12 @@ Our meeting agenda is:
 
 # How can you join & other important links
 
-Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
+Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#spoc3:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
 
  - <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;   [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
  - <i class="fa fa-trello" aria-hidden="true"></i>&nbsp;&nbsp; [ClickUp site](https://sharing.clickup.com/9015477668/b/h/5-90152810734-2/557452707486fef) & [Sign-up to edit](https://forms.gle/TgCyHMiBcwFBskef6)
- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [🖖🏾SPOC Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe!
- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [ICal link for non-google users](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics)
+ - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [🖖🏾SPOC Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon)
+ - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [🖖🏾SPOC iCalendar for non-google users](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics)
  - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
  - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;&nbsp; [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 

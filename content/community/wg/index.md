@@ -29,7 +29,7 @@ Focus on Galaxy administration, maintenance, and installation.
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-systems:gitter.im)
 * [GitHub Project Admin](https://github.com/orgs/galaxyproject/projects/16)
 * [GitHub Project Deployment](https://github.com/orgs/galaxyproject/projects/17)
-* Leadership: Björn Grüning
+* Organizer: Björn Grüning
 
 </div>
 
@@ -43,7 +43,7 @@ Focus on the Galaxy server code and architecture.
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/11)
 * [Google Drive](https://drive.google.com/drive/folders/1wPjD6j0ERp_XRCvrtFQ7cF8XwojJkm6k)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_backend:gitter.im)
-* Leadership: Marius van den Beek, John Chilton
+* Organizers: Marius van den Beek, John Chilton
 
 </div>
 
@@ -57,7 +57,7 @@ The UI / UX group focuses on the Galaxy user interface and experience.  We work 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/10)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_ui-ux:gitter.im)
 * [Google Drive](https://drive.google.com/drive/folders/1L5XGq4dF9fn99TXhKXD3NKCmCoS_uQz6)
-* Leadership: Dannon Baker, Aysam Guerler
+* Organizers: Dannon Baker, Aysam Guerler
 
 </div>
 
@@ -71,7 +71,7 @@ Testing and hardening the Galaxy ecosystem, developing and maintaining test infr
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/12)
 * [Google Drive](https://drive.google.com/drive/folders/1jglyg2B-iyE7JdPIVxbJtyizJmEyZ-8A)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_testing-hardening:gitter.im)
-* Leadership: John Chilton, John Davis
+* Organizers: John Chilton, John Davis
 
 </div>
 
@@ -84,7 +84,7 @@ This group builds the standards and ecosystem for execution, testing, publishing
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/20)
 * [Google Drive](https://drive.google.com/drive/folders/1E8xG5u8mInGr5-GgfpKVTQYeo5xkRkAx?usp=sharing)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_iwc:gitter.im)
-* Leadership: Marius van den Beek, Alex Ostrovsky
+* Organizers: Marius van den Beek, Alex Ostrovsky
 
 </div>
 
@@ -100,7 +100,7 @@ Galaxy Outreach And Training (And) Support = GOATS!
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-goat:gitter.im)
 * [Support Charter and Priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
-* Leadership: Delphine Lariviere
+* Organizer: Delphine Lariviere
 
 </div>
 

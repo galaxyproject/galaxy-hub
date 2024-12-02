@@ -1,14 +1,14 @@
 heading: Expected Results
 
 expected_results:
-- title: Pulsar Network
-  content: A mature and tested (TRL-9) distributed compute network with demonstrated usage across at least 12 European partners.
+    - title: Pulsar Network
+      content: A mature and tested (TRL-9) distributed compute network with demonstrated usage across at least 12 European partners.
 
-- title: ScienceGateways
-  content: 6 national Galaxy instances operational and proven by the scientific community with more than 100,000 users.
+    - title: ScienceGateways
+      content: 6 national Galaxy instances operational and proven by the scientific community with more than 100,000 users.
 
-- title: Communities
-  content: Science Gateway with a custom set of tools and workflows for the Biodiversity/Climate, Materials Science and Astrophysics community.
+    - title: Communities
+      content: Science Gateway with a custom set of tools and workflows for the Biodiversity/Climate, Materials Science and Astrophysics community.
 
-- title: FAIR data
-  content: EOSC-catalogued FAIR data and workflows that can be found, consumed, created and published by users of the EuroScienceGateway, demonstrated for each of the 3 domain-specific use-cases.
+    - title: FAIR data
+      content: EOSC-catalogued FAIR data and workflows that can be found, consumed, created and published by users of the EuroScienceGateway, demonstrated for each of the 3 domain-specific use-cases.

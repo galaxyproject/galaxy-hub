@@ -2,7 +2,6 @@
 title: Galaxy France
 subtitle: The homepage of the French Galaxy community
 ---
-
 <div class="card border-secondary bg-secondary" style="width: 100%;">
   <div class="card-body">
     <h2 class="card-title text-dark">The French Galaxy server</h2>
