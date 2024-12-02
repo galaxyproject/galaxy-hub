@@ -1,5 +1,5 @@
 ---
-title: "Biological Data Science 2024 Recap"
+title: "Biological Data Science 2024"
 tease: "Galaxy had a strong presence at Biological Data Science 2024, featured in talks and posters that showcased its power and versatility in advancing biological research."
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
@@ -138,5 +138,5 @@ In this talk, I will share the most notable and consequential lessons we've lear
 
 ## **Final Thoughts**
 
-The Biological Data Science 2024 conference was an inspiring showcase of innovation and collaboration, and it was exciting to see Galaxy featured so prominently throughout the event. From talks about cutting-edge AI tools and cloud cost estimation to posters highlighting workflow improvements and cross-platform integration, the conference reinforced how Galaxy continues to support and drive impactful research. The energy and creativity of the community were inspiring, and we’re excited to see these ideas and collaborations shape the future of biological data science.
+The Biological Data Science 2024 conference was an inspiring showcase of innovation and collaboration, and it was exciting to see Galaxy featured so prominently throughout the event. From talks about cutting-edge AI tools and cloud cost estimation to posters highlighting workflow improvements and cross-platform integration, the conference reinforced how Galaxy continues to support and drive impactful research. The energy and creativity of the community were inspiring, and we’re excited to see these ideas and collaborations shape the future of biological data science. Galaxy looks forward to participating again next year!
 
