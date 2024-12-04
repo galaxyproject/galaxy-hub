@@ -5,7 +5,7 @@ You can check the status of all UseGalaxy resources on our [status page](https:/
 
 <div class="img-sizer" style="width: 128px">
 
-[![UptimeRobot](./uptimerobot-logo-dark.png)](https://stats.uptimerobot.com/gXd4fsKqVy)
+[![UptimeRobot](./uptimerobot-logo-dark.png)](https://uptimerobot.com)
 
 </div>
 </div>
