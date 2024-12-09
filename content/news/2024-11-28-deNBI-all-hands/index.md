@@ -22,5 +22,5 @@ The team actively engaged in all the new de.NBI working groups, contributing in 
 
 For more details, the complete agenda of the All Hands Meeting can be found [here](https://www.denbi.de/images/Events/Agendaentwurf_All_Hands_2024_V6.pdf).  
 
-The Team had a good time in Berlin and nice interactions with other German Bioinformatic researchers !
+The Team had a good time in Berlin and nice interactions with other German Bioinformatic researchers!
 
