@@ -1,5 +1,5 @@
 ---
-title: ELIXIR-IT/Laniakea Galaxy News
+title: Galaxy Italy News
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/news.svg" style="width:220px;" alt="news" />

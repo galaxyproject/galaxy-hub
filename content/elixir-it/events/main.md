@@ -1,10 +1,10 @@
 ---
-title: ELIXIR-IT/Laniakea Event Horizon
+title: Galaxy Italy Event Horizon
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/events.svg" style="width:220px;" alt="events" />
 
-Upcoming (and past) events with content relevant to the ELIXIR-IT/Laniakea Galaxy community. For events prior to this year, see the [events archive](/elixir-it/events/archive/).
+Upcoming (and past) events with content relevant to the Italian Galaxy community. For events prior to this year, see the [events archive](/elixir-it/events/archive/).
 
 ### Advertise your event!
 
