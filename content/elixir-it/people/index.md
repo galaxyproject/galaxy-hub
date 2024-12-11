@@ -22,6 +22,7 @@ title: Galaxy Italy Team
       <p class="card-text">UseGalaxy.it and Laniakea lead developer</p>
       <a href="mailto:ma.tangaro@ibiom.cnr.it" title="Email"><i class="fa fa-envelope"></i></a>
       <a href="https://github.com/mtangaro" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://orcid.org/0000-0003-3923-2266"><i class="fab fa-orcid"></i></a>
     </div>
   </div>
 
