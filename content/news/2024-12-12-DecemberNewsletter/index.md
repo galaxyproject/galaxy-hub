@@ -8,6 +8,8 @@ tags: ["highlight"]
 subsites: [global,all]
 ---
 
+![Galaxy News](GalaxyNews.png)
+
 December 2024
 
 Hello, Galaxy Community
@@ -56,6 +58,8 @@ These updates are a testament to Galaxy’s commitment to improving user experie
 
 ---
 
+![GCC2024](gcc2024-banner.png)
+
 # **Galaxy Community Conference 2024** 
 
 The [**Galaxy Community Conference 2024**](https://galaxyproject.org/news/2024-07-19-gc-c2024-meeting-report/) **(GCC2024)** brought together **151 participants from 28 countries** in Brno, Czech Republic, for a dynamic and collaborative event celebrating the Galaxy ecosystem. This year’s conference featured **54 talks**, **55 posters and demos**, **14 Birds of a Feather sessions**, and two days of **Collaboration Fest (CoFest)**, where attendees advanced projects and strengthened the Galaxy platform.
@@ -74,7 +78,7 @@ The conference also spotlighted six exceptional fellowship recipients, supported
 
 In the collaborative spirit of Galaxy, CoFest participants initiated projects such as a **workflow-centric landing page** and subdomain unification for regional servers, ensuring continued innovation.
 
-
+![Group Photo](GroupPhoto3.JPG)
 
 As we celebrate the success of GCC2024, we thank the participants, organizers, and sponsors who made this event possible. Stay tuned for next year's milestone Galaxy event\!
 
@@ -84,7 +88,7 @@ As we celebrate the success of GCC2024, we thank the participants, organizers, a
 
 The **Galaxy Training Academy 2024** was a global success, bringing together over **2,800 registered participants** from October 7th to 11th for an asynchronous, self-paced learning event. 
 
-
+![GTA 2024](GTA.jpg)
 
 This year’s Academy featured **eight scientific tracks**, each offering individualized learning paths:
 
@@ -146,7 +150,7 @@ These sessions collectively equipped participants with critical skills, from dat
 
 We’re already gearing up for the first-ever **Galaxy and Bioconductor Community Conference 2025 (GBCC2025)**, where we’ll bring together experts, practitioners, and enthusiasts from the Galaxy and Bioconductor communities. This conference represents a unique convergence of two powerful open-source bioinformatics platforms, allowing attendees to dive deep into shared advancements, collaborative projects, and community-led developments. 
 
-
+![GBCC2025](GBCC2025.png)
 
 **Why GBCC2025?**  
 GBCC2025 represents the convergence of two powerful open-source bioinformatics platforms, Galaxy and Bioconductor. By combining their strengths, this conference will foster a deeper understanding of their shared advancements, facilitate collaborative projects, and highlight community-led developments that drive impactful research.
