@@ -13,7 +13,7 @@ main_subsite: freiburg
 ![biohackathon logo](https://biohackathon-europe.org/img/biohackathon-logo-white.svg)
 
 
-The this year [BioHackathon Europe](https://biohackathon-europe.org/index.html) in Barcelona took place between the 04.11 - 08.11. Some members from the Freiburg Galaxy Team went there and participated in various Galaxy-related project. The event was a total blast: 5 days in a remote area to work, code, have fun, eat and discuss with the 150 other participants from all Europe (even Australia)!
+This year, [BioHackathon Europe](https://biohackathon-europe.org/index.html) in Barcelona took place between the 4th and 8th of November. Some members of the Galaxy Community went there and participated in various Galaxy-related projects. The event was a total blast: 5 days in a remote area to work, code, have fun, eat and discuss with the 150 other participants from all over Europe (even Australia)!
 
 The main projects that interacted with Galaxy were:
 
