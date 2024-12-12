@@ -1,6 +1,6 @@
 ---
 title: "Galaxy Newsletter: December 2024"
-tease: "From groundbreaking milestones to exciting new features, join us in celebrating Galaxy’s incredible journey through 2024! Plus, get a sneak peak at what Galaxy has in store for 2025."
+tease: "From groundbreaking milestones to exciting new features, join us in celebrating Galaxy’s incredible journey through 2024! Plus, get a sneak peek at what Galaxy has in store for 2025."
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2024-12-12"
@@ -14,7 +14,7 @@ December 2024
 
 Hello, Galaxy Community
 
-As we close out 2024, we are grateful for each of you who engaged with us this year, whether through training sessions, conferences, research initiatives, or as part of the Galaxy community at large. In this year's final newsletter, we celebrate the major achievements, events, and milestones that have strengthened our community. It’s been a remarkable year of growth, learning, and impact across various scientific domains.
+As we close out 2024, we are grateful for each of you who engaged with us this year, whether through training sessions, conferences, research initiatives, or as part of the Galaxy community at large. This year's final newsletter celebrates the major achievements, events, and milestones that have strengthened our community. It’s been a remarkable year of growth, learning, and impact across various scientific domains.
 
 Thank you for tuning in and for being a part of Galaxy!
 
@@ -44,13 +44,13 @@ These milestones reflect the dedication of our global community and the growing 
 
 * **Workflow Comments**: Collaboration within workflows is now easier than ever with the new Workflow Comments feature in the Galaxy Workflow Editor. Add **text comments, markdown explanations, and even freehand drawings** to enhance communication and improve workflow structure and organization.
 
-* **Enhanced Published Workflow Sharing**: Sharing workflows has been revolutionized with a redesigned Published Workflow Sharing page. The updated layout includes a read-only mode, an embedded interactive editor view, and improved responsiveness, making it simpler for users to **share, navigate, and collaborate on workflows**.
+* **Enhanced Published Workflow Sharing**: Sharing workflows has been revolutionized with a redesigned Published Workflow Sharing page. The updated layout includes a read-only mode, an embedded interactive editor view, and improved responsiveness, making it more straightforward for users to **share, navigate, and collaborate on workflows**.
 
 * **Seamless InvenioRDM Integration**: Galaxy now integrates directly with InvenioRDM, allowing users to **import files** from InvenioRDM repositories into Galaxy and **publish Galaxy records** (like Histories and datasets) to InvenioRDM. This integration streamlines data import/export processes, offering greater flexibility and efficiency.
 
 * **Activity Bar Enabled by Default**: The Activity Bar is now enabled by default, providing users with **quick access to essential features** and improving overall workflow navigation.
 
-* **Workflow Invocation Graph View**: The new **graph view** in the workflow invocation summary provides a clear visual representation of job states for each workflow step. Clicking on a step reveals detailed information, i**mproving monitoring and troubleshooting** capabilities.
+* **Workflow Invocation Graph View**: The new **graph view** in the workflow invocation summary clearly represents job states for each workflow step. Clicking on a step reveals detailed information, **improving monitoring and troubleshooting** capabilities.
 
 * **Zenodo Integration**: The Zenodo file source plugin simplifies integration with Zenodo and Invenio repositories. New schemes (`invenio://` and `zenodo://`) enhance alignment with these platforms while maintaining support for existing exports using `gxfiles://`.
 
@@ -64,13 +64,13 @@ These updates are a testament to Galaxy’s commitment to improving user experie
 
 The [**Galaxy Community Conference 2024**](https://galaxyproject.org/news/2024-07-19-gc-c2024-meeting-report/) **(GCC2024)** brought together **151 participants from 28 countries** in Brno, Czech Republic, for a dynamic and collaborative event celebrating the Galaxy ecosystem. This year’s conference featured **54 talks**, **55 posters and demos**, **14 Birds of a Feather sessions**, and two days of **Collaboration Fest (CoFest)**, where attendees advanced projects and strengthened the Galaxy platform.
 
-The conference showcased Galaxy’s global impact, with **three inspiring keynote speakers**:
+The conference showcased Galaxy’s global impact with **three inspiring keynote speakers**:
 
 * **Jana Klánová** shared insights on exposomics and environmental health.  
 * **Ute Gunsenheimer** discussed the European Open Science Cloud (EOSC) and FAIR principles.  
 * **Daria Onichtchouk** highlighted Galaxy’s role in zebrafish research and developmental biology.
 
-The program offered dual tracks—**Analysis** and **Enablement**—featuring cutting-edge research, tool development, and community outreach efforts. Tailored **training sessions** provided hands-on learning, catering to new users, educators, tool developers, and system administrators.
+The program offered dual tracks—**Analysis** and **Enablement**—featuring cutting-edge research, tool development, and community outreach efforts. **Tailored training sessions** provided hands-on learning for new users, educators, tool developers, and system administrators.
 
 **Networking and community building** were at the heart of GCC2024, with social events like walking tours, a VENUS (Women & Nonbinary Empowerment) lunch, and a memorable conference dinner at the historic Augustinian Abbey.
 
@@ -86,7 +86,7 @@ As we celebrate the success of GCC2024, we thank the participants, organizers, a
 
 # **Galaxy Training Academy 2024** 
 
-The **Galaxy Training Academy 2024** was a global success, bringing together over **2,800 registered participants** from October 7th to 11th for an asynchronous, self-paced learning event. 
+The Galaxy Training Academy 2024 was a global success. From October 7th to 11th, over 2,800 registered participants participated in an asynchronous, self-paced learning event. 
 
 ![GTA 2024](GTA.jpg)
 
@@ -101,7 +101,7 @@ This year’s Academy featured **eight scientific tracks**, each offering indivi
 * **BY-COVID**  
 * **Machine learning**
 
-Participants could dive deep into these domains with curated tutorials and pre-recorded lectures while benefiting from **24/7 support on Slack**. The Academy kicked off with an introductory day designed to help new users get familiar with Galaxy or enhance foundational skills through interactive activities like the **Data Manipulation Olympics**. The week concluded with a **"choose your own adventure"** format, offering access to the entire GTN training library and a FAIR (Findable, Accessible, Interoperable, and Reusable) training to promote open science.
+Participants could dive deep into these domains with curated tutorials and pre-recorded lectures while benefiting from **24/7 support on Slack**. The Academy started with an introductory day designed to help new users get familiar with Galaxy or enhance foundational skills through interactive activities like the **Data Manipulation Olympics**. The week concluded with a **"choose your own adventure"** format, offering access to the entire GTN training library and a FAIR (Findable, Accessible, Interoperable, and Reusable) training to promote open science.
 
 This event was made possible by the dedication of the **GTN community**, with **80 contributors** updating **53 tutorials**, producing **27 new training videos**, and hosting **24 expert speakers**. Popular tracks included **Transcriptomics**, **Assembly**, and **Machine Learning**, and participants gave high marks to the engaging content and real-time support.
 
@@ -115,7 +115,7 @@ Thank you to everyone who participated in and contributed to the Galaxy Training
 
 # **Other 2024 Events** 
 
-Throughout the year, Galaxy was featured at numerous conferences, reflecting our **interdisciplinary reach and adaptability**. Here’s a closer look at some of the key events where Galaxy shined:
+Galaxy was featured at numerous conferences throughout the year, reflecting our **interdisciplinary reach and adaptability**. Here’s a closer look at some of the key events where Galaxy shined:
 
 * Biological Data Science 2024  
 * Anvil Community Conference  
@@ -125,7 +125,7 @@ Throughout the year, Galaxy was featured at numerous conferences, reflecting our
 * Advances in Genome Biology and Technology  
 * PAG2024
 
-Additionally, Galaxy’s robust training lineup this year covered critical topics, from **introductory sessions to advanced techniques**, ensuring that researchers and professionals alike could strengthen their Galaxy skills. Below lists some of our 2024 workshops, each of which provided participants with practical, hands-on experience:
+Galaxy’s robust training lineup this year covered critical topics, from **introductory sessions to advanced techniques**, ensuring that researchers and professionals alike could strengthen their Galaxy skills. Below are some of our 2024 workshops, each of which provided participants with practical, hands-on experience:
 
 * An Introduction to **HighPerformance Computing**  
 * Exploring the Galaxy Application for Data Sciences  
@@ -172,7 +172,7 @@ Whether you’re a Galaxy user, a Bioconductor enthusiast, or new to both platfo
 
 # **Galaxy in Research** 
 
-As we look back on 2024, we’re excited to celebrate the new recurring feature in our News section: *Galaxy in Research*. This series has **spotlighted new and exciting studies from around the world**, showcasing how researchers are leveraging Galaxy to tackle complex scientific questions. From population genetics to structural biology, these stories have not only highlighted the versatility of Galaxy but also the incredible innovations of our community. We hope you’ve enjoyed these features as much as we’ve loved sharing them\!
+Looking back on 2024, we’re excited to celebrate the new recurring feature in our News section: *Galaxy in Research*. This series has **spotlighted new and exciting studies from around the world**, showcasing how researchers leverage Galaxy to tackle complex scientific questions. From population genetics to structural biology, these stories have not only highlighted the versatility of Galaxy but also the incredible innovations of our community. We hope you’ve enjoyed these features as much as we’ve loved sharing them\!
 
 [**Galaxy in Research: Transforming life in the tropics using genomic technologies for One Health**](https://galaxyproject.org/news/2024-11-21-galaxy-in-research-calcino2024/)  
 *How can genomics improve health, food production, and biodiversity in tropical regions? A new review explores how cutting-edge technologies, including Galaxy, are shaping a sustainable future for the tropics.*
