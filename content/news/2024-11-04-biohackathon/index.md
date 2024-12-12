@@ -42,7 +42,7 @@ The objective of the project can be divided into two milestones:
 * Galaxy's secure processing protocol: Sensitive datasets are kept encrypted throughout, with sensitive derivative results labelled as sensitive.
 
 # [Project 26](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/26.md)
-We focused on making computational data analysis more environmentally sustainable through improvements to Galaxy. By leveraging Galaxy's control over resource usage, we aimed to reduce the environmental impact of workflows via two key initiatives: job caching and environmentally-friendly job scheduling.
+We focused on making computational data analysis more environmentally sustainable through improvements to Galaxy. By leveraging Galaxy's control over resource usage, we aimed to reduce the environmental impact of workflows via two key initiatives: job caching and environmentally friendly job scheduling.
 ### Smarter Resource Use with Job Caching
 
 Galaxy already tracks the provenance of every tool execution, and we used this information to avoid redundant computations. Job caching enables Galaxy to reuse existing outputs when input parameters and conditions match, saving time and resources. During the Biohackathon, we worked to extend this feature to handle more scenarios. For example, we are refining how dataset metadata is matched to determine whether a job can be reused.
