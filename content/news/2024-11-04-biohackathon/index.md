@@ -20,7 +20,7 @@ The main projects that interacted with Galaxy were:
 # [Project 20](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/11.md)
 
 Building on the achievements of BioHackathon Europe 2023, we successfully enhanced the Galaxy ecosystem by extending the capabilities of the existing Galaxy tool list table. A major milestone was the addition of workflows and training, leading to the creation of the Galaxy Communities Dock (Galaxy Codex).
-This new resource also integrates the Galaxy Labs and allows to automatically add community resources.
+This new resource also integrates the Galaxy Labs and allows the addition of community resources automatically.
 
 This project was led by Bérénice Batut and Wendi Bacon. Paul Zierep helped with updates to the CI and minor code improvements.
 
