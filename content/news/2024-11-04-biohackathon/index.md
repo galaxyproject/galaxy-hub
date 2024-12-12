@@ -36,7 +36,6 @@ microbiome analysis service)[http://preview.biohackrxiv.org/papers/154602ea-ae08
 
 # [Project 22](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/22.md)
 
-Project Objectives
 The objective of the project can be divided into two milestones:
 
 * Development of a workflow that connects EGA, either central or any federated node, and Galaxy through Crypt4GH protocols.
