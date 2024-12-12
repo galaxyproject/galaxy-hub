@@ -64,6 +64,6 @@ This process, known as network booting, uses a technology called [PXE](https://w
 
 # Fun time
 
-And we had an overall great time joining the sport events, wine tasting and amazing food !
+And we had an overall great time joining the sports events, wine tasting and amazing food!
 
 
