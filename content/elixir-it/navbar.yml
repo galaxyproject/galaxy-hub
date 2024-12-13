@@ -1,5 +1,6 @@
 style:
     color: "#2c81bb"
+    #lightBg: true
 left:
     - label: News
       relativeTo: subsite
@@ -8,7 +9,11 @@ left:
       relativeTo: subsite
       target: events/
     - label: People
-      target: https://usegalaxy-eu.github.io/elixir-it/people
+      relativeTo: subsite
+      target: people/
+    - label: Cite
+      relativeTo: subsite
+      target: cite/
 right:
     - label: Help
       contents:
