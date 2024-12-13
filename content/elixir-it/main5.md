@@ -20,13 +20,13 @@ subtitle: Laniakea on-demand platform
   </div>
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
-      <h2 class="card-title text-dark">CorGaT</h2>
+      <h2 class="card-title text-dark">CorGAT</h2>
       <p class="card-text">CorGAT, the Coronavirus Genome Analysis Tool, is a novel, highly effective and user-friendly approach for the functional annotation of SARS-CoV-2 genomes based on Galaxy. </p>
       <div class="text-center">
         <br><br>
-        <img src="https://raw.githubusercontent.com/Laniakea-elixir-it/branding/refs/heads/master/laniakea/laniakea_%40RECAS.png" alt="CorGaT" height="100">
+        <img src="https://raw.githubusercontent.com/Laniakea-elixir-it/branding/refs/heads/master/laniakea/laniakea_%40RECAS.png" alt="CorGAT" height="100">
         <br><br><br>
-          <a href="http://corgat.cloud.ba.infn.it/galaxy" target="_top" class="btn btn-primary">CorGaT</a>
+          <a href="http://corgat.cloud.ba.infn.it/galaxy" target="_top" class="btn btn-primary">CorGAT</a>
       </div>
     </div>
   </div>
