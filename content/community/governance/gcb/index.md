@@ -59,6 +59,8 @@ to participate in planning and governance, through efficient and transparent str
 
 ## Practicalities
 
+SIG representatives can join the **GCB** by following this [FAQ](https://training.galaxyproject.org/training-material/topics/community/faqs/governance_gcb_join.html).
+
 The **GCB** organises and manages its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap
 processes and other important project decision-making.
 
