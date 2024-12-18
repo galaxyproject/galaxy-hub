@@ -1,8 +1,8 @@
 ---
 heading: Meet Galaxy
-notification: Galaxy Community Conference is coming up. <strong><a href="/events/gcc2024/" class="ml-2">Read on.</a></strong>
+notification: Galaxy Community Conference is behind us. <strong><a href="/events/gcc2024/" class="ml-2">See what happened.</a></strong>
 description: Meet Galaxy - <br>a data analysis universe
-image: <a href="/events/gcc2024/"><img src="/images/events/gcc2024/gcc2024-banner-4.png" alt="GCC2024"></a>
+image: <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub logo">
 button1: Use Galaxy now
 button2: "Learn more: First Steps with Galaxy"
 buttonUrl2: /get-started/

@@ -21,12 +21,10 @@ Read more about [Galaxy Working Groups](/community/wg/).
 
 ## Galaxy Community Board (GCB)
 
-The [GCB](/community/governance/gcb/) is a committee representing *[Special Interest Groups](/community/sig/)* (SIGs) that are not primarily technical in nature (such as the existing
-Proteomics and Microbial communities), engaging in capacity building, toolkit development and training.
-The [GCB](/community/governance/gcb/) will provide a supportive virtual forum
-for the exchange of ideas. It will organise and manage its own agenda and work,
-including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development;
-managing coherent, community owned proposals and responses in the roadmap processes and other important Project decision making.
+The GCB is a committee representing *Special Interest Groups* (SIGs) that are not primarily technical in nature (such as Proteomics or Microbiome), engaging in capacity building, toolkit development and training.
+The GCB provides a supportive virtual forum for the exchange of ideas. It organises and manages its own agenda and work, including arranging meetings and asynchronous discussions. Agendas include planning new initiatives; supporting ongoing development; managing coherent, community owned proposals; and collectively engaging with the roadmap processes and other important Project decision making.
+
+<i class="fa fa-book" aria-hidden="true"></i>&nbsp; &nbsp; Read more about the [Galaxy Community Board](/community/governance/gcb/) or peruse our [Special Interest Groups](/community/sig/).
 
 ## Galaxy Executive Board (GEB)
 

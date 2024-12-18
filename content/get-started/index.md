@@ -1,5 +1,5 @@
 ---
-title: Get Started 
+title: Get Started
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/get-started.svg" style="width:200px;" alt="community events" />
@@ -12,7 +12,7 @@ title: Get Started
 
 ## Step 1: Get acquainted with Galaxy terminology
 
-The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem. 
+The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem.
 
 ## Step 2 : Get familiar with Galaxy
 <div class='right'><img src="/images/undraw-illustrations/teamwork.svg" alt="" width="240" /></div>
@@ -55,7 +55,7 @@ We have many more [**Galaxy Training materials**](https://training.galaxyproject
 
 <div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" /></div>
 
-Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)? 
+Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)?
 
 Check our [**issues dedicated page**](/issues/) for known issues, problems and tips. Galaxy uses [**GitHub issues**](https://github.com/galaxyproject/galaxy/issues) for tracking down bugs and feature requests, **please make sure you search the list for duplicates before creating a new issue**.
 
@@ -82,7 +82,7 @@ From India to Australia, Japan to France and many more countries [**Regional Com
 Another way communities are formed is by domains such as Proteomics, Transcriptomics, Ecology and Genome annotation to name a few. Most have set up their own [**servers and mailing list**](/community/#communities-of-practice).
 
 ### Set up your own Community
-What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](/get-started/new-leads/) for more.
+What if you can't find yourself in these lists of regional and/or community of practice? Galaxy welcomes new communities, please see [**here**](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html) for more.
 
 ## Step 4: Take part and contribute to Galaxy
 

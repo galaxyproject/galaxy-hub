@@ -21,7 +21,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ## JXTX: The James P. Taylor Foundation for Open Science
 
-**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/).**
+**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](https://jxtxfoundation.org/).**
 
 
 <br />
@@ -29,7 +29,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 <div class="text-center">
 <button type="button" class="btn btn-secondary trim-p" style="font-size: x-large; font-weight: 600;">
 
-[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Donate now](https://jxtxfoundation.org/donate/)</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
 [Learn more](https://jxtxfoundation.org/)</button>
 
 </div>

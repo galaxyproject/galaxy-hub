@@ -4,7 +4,7 @@ title: Galaxy Community Conferences (GCCs)
 
 <div class="text-center inline-div">
 
-<a href="https://galaxyproject.org/events/gcc2023/"><img src="/images/events/gcc2023/gcc2023-logo.png" alt="2023 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
+<a href="/events/gcc2023/"><img src="/images/events/gcc2023/gcc2023-logo.png" alt="2023 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="2021 Galaxy Community Conference" width="150" /></a> &nbsp;&nbsp;
 <a href="https://bcc2020.github.io/"><img src="/events/bcc2020/bcc2020-logo-white-wide-1000.png" alt="2020 Bioinformatics Community Conference" width="200" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2019/"><img src="/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" /></a> &nbsp;&nbsp;
@@ -15,7 +15,7 @@ title: Galaxy Community Conferences (GCCs)
 <a href="/events/gcc2014/"><img src="/images/logos/GCC2014LogoWide600.png" alt="GCC2014, June 30-July2" width="220" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2013/"><img src="/images/logos/GCC2013Logo800.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2012/"><img src="/events/gcc2012/GCC2012Logo800.png" alt="2012 Galaxy Community Conference" width="170" /></a> &nbsp;&nbsp;
-<a href="https://galaxyproject.org/gcc2011/"><img src="/events/GCC2011Logo400.png" alt="GCC2011" width="185" /></a>
+<a href="/events/gcc2011/"><img src="/events/GCC2011Logo400.png" alt="GCC2011" width="185" /></a>
 
 </div>
 
@@ -47,8 +47,8 @@ GCC has met annually since 2010 and the program has grown and transformed each y
 | June 30 - July 2, 2014 | [GCC2014](/events/gcc2014/) | Baltimore, Maryland, United States | [Dept of Biological Chemistry, Johns Hopkins University](http://biolchem.bs.jhmi.edu/) | 217 |
 | June 30 - July 2, 2013 | [GCC2013](/events/gcc2013/) | Oslo, Norway | [University of Oslo](http://www.uio.no/) | 219 |
 | July 25-27, 2012 | [GCC2012](/events/gcc2012/) | Chicago, Illinois, United States | [University of Illinois at Chicago](http://uic.edu/), [University of Illinois at Urbana-Champagne](http://illinois.edu/), [Computation Institute](http://http//www.ci.uchicago.edu/) | 202 |
-| May 25-26, 2011 | [GCC2011](https://galaxyproject.org/gcc2011/) | Lunteren, The Netherlands | [NBIC](https://www.nbic.nl/) | 148 |
-| May 15-17, 2010 | [GDC2010](https://galaxyproject.org/dev2010/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 69 |
+| May 25-26, 2011 | [GCC2011](/events/gcc2011/) | Lunteren, The Netherlands | [NBIC](https://www.nbic.nl/) | 148 |
+| May 15-17, 2010 | [GDC2010](/events/gdc2010/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 69 |
 
 # Interested in hosting a future GCC?
 

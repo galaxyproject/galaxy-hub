@@ -2,23 +2,6 @@
 autotoc: false
 ---
 
-<style>
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .item {
-        box-sizing: border-box;
-        padding: 10px;
-    }
-    @media (max-width: 600px) {
-        .item {
-            flex: 1 1 100%; /* Each item will take the full width on small viewports */
-        }
-    }
-</style>
-
-
 <slot name="/events/gcc2024/header" />
 <div class="text-center lead">
 

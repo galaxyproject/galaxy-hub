@@ -103,11 +103,11 @@
 
             <div class="card blue-card shadow-sm">
                 <h2 class="card-header mt-0">
-                    <span class="icon fab fa-twitter mr-2"></span>
-                    <a href="https://twitter.com/galaxyproject">Twitter</a>
+                    <span class="icon fab fa-mastodon mr-2"></span>
+                    <a href="https://mstdn.science/@galaxyproject" target="_blank">Mastodon</a>
                 </h2>
                 <div class="card-body p-2">
-                    <Twitter user="galaxyproject" :height="410" />
+                    <Mastodon />
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
 <script>
 import EsgLayout from "~/layouts/ESG.vue";
 import Partners from "~/components/esg/Partners.vue";
-import Twitter from "~/components/Twitter.vue";
+import Mastodon from "~/components/Mastodon.vue";
 import ItemListBrief from "~/components/ItemListBrief.vue";
 import EsgInteractivePosterVue from "~/components/esg/EsgInteractivePoster.vue";
 import slugify from "@sindresorhus/slugify";
@@ -133,7 +133,7 @@ export default {
     components: {
         EsgLayout,
         Partners,
-        Twitter,
+        Mastodon,
         ItemListBrief,
         EsgInteractivePosterVue,
     },

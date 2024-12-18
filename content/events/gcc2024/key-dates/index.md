@@ -24,7 +24,7 @@ understand and don't mind.
 | ~~Jun 15~~ | Deadline for submitting slides for your talk to the organizers |
 | ~~Jun 15~~ | Deadline for [registering a BoF](/events/gcc2024/abstracts/#birds-of-a-feather-bof-sessions) |
 | ~~Jun 15~~ | Late registration closes (on-site registration will be available) |
-| Jun 24 | Conference starts! |
-| Jun 28 | CoFest starts |
+| ~~Jun 24~~ | Conference starts! |
+| ~~Jun 28~~ | CoFest starts |
 
 Note that all deadlines are [End of Day, Anywhere on Earth time](https://time.is/Anywhere_on_Earth).
