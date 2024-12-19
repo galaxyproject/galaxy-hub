@@ -70,6 +70,10 @@ from GEB and from GTB to be also members of the GCB. Therefore, it is recommende
 SIG members, and especially the representatives, are encouraged to join WG meetings or talk to WG representatives to raise issues or request help.
 For example, SIG members could request assistance from the tools and workflows WG. WGs might contact SIGs to collect feedback from the community.
 
+## Meetings Calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&mode=AGENDA&showCalendars=0&src=MDQwNDY2MDRhNGYxODE2NDk0MjBkYTQzMzUzMTBkN2E1MmQxMGJmNDkxNDgwMGEyZjNhYjEzZWE0ZWY3MzEyY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237CB342" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ## Origins
 
 During GCC 2023, we discussed how to empower the Galaxy community in terms of project planning, decision-making, execution, and overall governance. The Galaxy Community Board (GCB) was formed to take over from the Global Galaxy Steering Committee.
