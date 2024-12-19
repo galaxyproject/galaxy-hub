@@ -7,11 +7,16 @@ autotoc: false
 
 Active Galaxy communities are encouraged to participate in (or form) their own SIG, with a focus on specific shared interests. You can learn more in our dedicated tutorial: [What's a SIG?](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html)
 
-In the following you will find a list of current active Special Interest Groups. If you can't find yourself in this list we always welcome new SIGs.
-You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn [how to set up your own](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html).
+# Galaxy Communities Calendar
+Check out the upcoming meetings across the communities.
+*Please note: The Galaxy Community Board introduced this in December 2024, so we are still collecting communities to add to it! Do you not see your community? Just add (8a762890fbe724e9d29b67915aa0197a352642f94b22ec64a85430daaf1abb5e@group.calendar.google.com) to your community events and it will show up here!*
 
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&showCalendars=0&title=%F0%9F%AA%90Galaxy%20Community%20Activities&src=OGE3NjI4OTBmYmU3MjRlOWQyOWI2NzkxNWFhMDE5N2EzNTI2NDJmOTRiMjJlYzY0YTg1NDMwZGFhZjFhYmI1ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 # Directory of Special Interest Groups
+
+In the following you will find a list of current active Special Interest Groups. If you can't find yourself in this list we always welcome new SIGs.
+You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn [how to set up your own](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html).
 
 ---
 
