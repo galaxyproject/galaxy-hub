@@ -13,7 +13,7 @@ subsites: [all-eu, global, us]
 
 Join the us for our monthly meeting! Our meeting times roll across months to ensure at least one meeting is work-day friendly for anyone on the planet.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&mode=AGENDA&showCalendars=0&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%237CB342" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 We discuss what people are working on (often preventing work duplication globally!), welcome new members, and brainstorm all things 🖖🏾Single-cell & sPatial Omics in Galaxy!
 
