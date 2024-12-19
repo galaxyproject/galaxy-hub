@@ -11,7 +11,9 @@ tags: single-cell
 subsites: [all-eu, global, us]
 ---
 
-Join the us for our <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGlubGY0azhmbG80c3FnazNkcnNwZjdzMTNfMjAyNTAyMDRUMDgwMDAwWiBnYWxheHkuc2MuY29wQG0&tmsrc=galaxy.sc.cop%40gmail.com&scp=ALL">monthly meeting</a>! Our meeting times roll across months to ensure at least one meeting is work-day friendly for anyone on the planet.
+Join the us for our monthly meeting! Our meeting times roll across months to ensure at least one meeting is work-day friendly for anyone on the planet.
+
+<iframe src="https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 We discuss what people are working on (often preventing work duplication globally!), welcome new members, and brainstorm all things 🖖🏾Single-cell & sPatial Omics in Galaxy!
 
