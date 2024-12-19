@@ -11,8 +11,8 @@ tags:
 - news
 - gtn
 - single-cell
-tease: As we orbit the end of another stellar year, let’s engage warp drive and reflect on the out-of-this-world achievements of the **Single-cell & sPatial Omics Community (SPOC 🖖). From launching new tools to charting new tutorials, SPOC’s journey through the Galaxy (platform) has been nothing short of cosmic! 🌠
-title: 🚀 2024: A SPOC-tacular Year in Review 🌌
+tease: "As we orbit the end of another stellar year, let’s engage warp drive and reflect on the out-of-this-world achievements of the **Single-cell & sPatial Omics Community (SPOC 🖖). From launching new tools to charting new tutorials, SPOC’s journey through the Galaxy (platform) has been nothing short of cosmic! 🌠"
+title: "🚀 2024: A SPOC-tacular Year in Review 🌌"
 
 ---
 🌌 Looking to the Horizon
