@@ -47,10 +47,17 @@ You can learn more about **SIGs** in our dedicated tutorials below, or explore o
           Creating a SIG
           </a>
         </div>
+        <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip">
+          <a href="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_gcb_join.html">
+          <img src="gtn_hat.png" alt="GTN Hat" width="50">
+          Join the GCB
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 
 ## Purpose
 
@@ -58,8 +65,6 @@ Representation of community aspects of the Galaxy ecosystem is central to long-t
 to participate in planning and governance, through efficient and transparent structures and processes, that can scale effectively as the Galaxy project continues to expand.
 
 ## Practicalities
-
-SIG representatives can join the **GCB** by following this [FAQ](https://training.galaxyproject.org/training-material/topics/community/faqs/governance_gcb_join.html).
 
 The **GCB** organises and manages its own agenda and work, including arranging meetings and asynchronous discussions. The agenda might include planning new initiatives; supporting ongoing development; identifying and advocating for user needs; managing coherent, community-owned proposals and responses in the roadmap
 processes and other important project decision-making.
