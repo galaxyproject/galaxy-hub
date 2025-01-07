@@ -174,5 +174,6 @@ The GEB is a group of Galaxy advocates from around the world. It is currently (2
     * [Australian BioCommons](https://www.biocommons.org.au/), [The University of Queensland](https://www.uq.edu.au/), Australia
 * **[Bérénice Batut](https://research.bebatut.fr)**
     * [Institut Francais de Bioinformatique]([https://www.open.ac.uk/research/faculties](https://www.france-bioinformatique.fr/)), [AuBi](https://mesocentre.uca.fr/projets-associes/plateforme-aubi), France
-
+* **[Saskia Hiltemann](https://www.linkedin.com/in/shiltemann/)**
+    * [University of Freiburg](https://uni-freiburg.de/), Germany & The Netherlands
 <sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
