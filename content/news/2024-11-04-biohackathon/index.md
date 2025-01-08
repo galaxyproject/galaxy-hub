@@ -30,8 +30,8 @@ The updates are available via the [Galaxy CoDex](https://github.com/galaxyprojec
 This project worked on a vision of a “federated microbiome analysis service”.
 Paul Zierep participated in the discussion involving Galaxy and Alireza Heidari supported front-end related coding.
 
-A preprint is available (Enhancing multi-omic analyses through a federated
-microbiome analysis service)[http://preview.biohackrxiv.org/papers/154602ea-ae08-42c0-bb65-0b737d282207/paper.pdf]
+A preprint is available [Enhancing multi-omic analyses through a federated
+microbiome analysis service](https://doi.org/10.37044/osf.io/3x274)
 
 # [Project 22](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/22.md)
 
