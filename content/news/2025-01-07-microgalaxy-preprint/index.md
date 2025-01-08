@@ -1,6 +1,6 @@
 ---
 title: "Unlocking Microbial Data Analysis: The microGalaxy Preprint Is Here!"
-date: '2024-01-07'
+date: '2025-01-07'
 tags: [paper]
 subsites: [eu, fr, freiburg, global, all]
 ---
