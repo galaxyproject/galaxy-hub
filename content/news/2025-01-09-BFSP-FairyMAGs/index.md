@@ -30,9 +30,9 @@ The current state of the workflow is [publicly accessible on usegalaxy.eu](https
 To support user adoption and proficiency, we will create FAIR educational materials hosted on the Galaxy Training Network (GTN), empowering researchers with the skills necessary to use the workflow effectively. 
 The efficacy of the developed workflow will be rigorously evaluated by analysing MAGs generated from simulated and real-world data-spanning diverse environments: 
 
-* atmosphere
-* marine 
-* cow gut microbiomes 
+* Atmosphere
+* Marine 
+* Cow gut microbiomes 
 
 This evaluation will provide valuable insights into the workflow's performance and its applicability across different sample types, complexities and ecosystems.
 
