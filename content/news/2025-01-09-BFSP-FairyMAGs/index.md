@@ -54,6 +54,6 @@ FAIRyMAGs is led by **Paul Zierep** and **Bérénice Batut** in collaboration wi
 
 ## Upcoming Hackathon in Freiburg
 
-As part of the project we are also organizing a Hackathon in Freiburg this Summer to discuss workflow improvements, benchmarking and training development. We openly invite the community to join this Hackathon and contribute their ideas. The exact time will be announced in due time. 
+As part of the project we are also organizing a Hackathon in Freiburg this summer to discuss workflow improvements, benchmarking, and training development. We openly invite the community to join this Hackathon and contribute their ideas. Dates will be announced in due time. 
 
 If you are interested please contact [Paul](mailto:paul.zierep@gmail.com)
