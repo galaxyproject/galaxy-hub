@@ -11,7 +11,7 @@ subsites: [eu,all,global]
 ## Elixir Commissioned Service Funding
 
 
-We are happy to announce, that the Galaxy-based project FAIRyMAGs was selected as part of the 
+We are happy to announce that the Galaxy-based project FAIRyMAGs was selected as part of the 
 to be funded as Commission service in the [ELIXIR 2024–28 Programme's Biodiversity, food security and pathogens Science Tier](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-security-pathogens). The project will be funded for the next two years, starting in January 2025.
 
 ## FAIRyMAGs research goal
