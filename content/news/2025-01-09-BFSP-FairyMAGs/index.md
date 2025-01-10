@@ -3,7 +3,7 @@ title: 'ELIXIR Funding for FAIRyMAGs: Optimising Metagenomics Assembled Genomes 
 date: '2025-01-09'
 tease: "FAIRyMAGs: Optimising Metagenomics Assembled Genomes building: workflow finalisation, training material development, real data evaluation and resource allocation tool creation"
 hide_tease: false
-authors: Paul Zierep
+authors: Paul Zierep, Bérénice Batut
 subsites: [eu,all,global]
 ---
 
