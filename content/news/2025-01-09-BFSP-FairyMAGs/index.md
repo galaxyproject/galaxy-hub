@@ -43,7 +43,7 @@ We will also investigate the computational resources required for executing the 
 <figcaption>Idea of the resource allocation prediction tool.</figcaption> 
 </figure>
 
-By addressing these objectives, our project aims to accelerate metagenomics research by providing researchers with a comprehensive and accessible framework for MAGs construction. This framework will not only streamline the workflow for building MAGs but also facilitate reproducibility, collaboration and innovation within the ELIXIR Microbiome Community.
+By addressing these objectives, our project aims to accelerate metagenomics research by providing researchers with a comprehensive and accessible framework for MAGs construction. This framework will not only streamline the workflow for building MAGs, but also facilitate reproducibility, collaboration, and innovation within the ELIXIR Microbiome Community.
 
 FAIRyMAGs is led by **Paul Zierep** and **Bérénice Batut** in collaboration with four ELIXIR nodes:
 
