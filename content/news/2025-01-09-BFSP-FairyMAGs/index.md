@@ -25,7 +25,7 @@ Leveraging the Galaxy platform, our primary objectives include finalising a user
 <figcaption>Current state of the MAGs building Workflow</figcaption> 
 </figure>
 
-The current state of the workflow is [publicly accessible on usegalaxy.eu](https://usegalaxy.eu/u/paulzierep/w/mags-individual-workflow). An example analysis, using the Marine Benchmark Dataset from the CAMI II challenge, can be found in a corresponding [Galaxy history](https://usegalaxy.eu/u/paulzierep/h/mags-individual-workflow-cami-ii-marine-dataset). This analysis produced 65 MAGs and includes a detailed MultiQC report, which can be viewed under the "bin-report" tag.  
+The current state of the workflow is [publicly accessible on usegalaxy.eu](https://usegalaxy.eu/u/paulzierep/w/mags-individual-workflow). An example analysis, using the Marine Benchmark Dataset from the CAMI II challenge, can be found in a corresponding [Galaxy history](https://usegalaxy.eu/u/paulzierep/h/mags-individual-workflow-cami-ii-marine-dataset). This analysis produced 65 MAGs and a detailed MultiQC report, which can be viewed under the "bin-report" tag.  
 
 To support user adoption and proficiency, we will create FAIR educational materials hosted on the Galaxy Training Network (GTN), empowering researchers with the skills necessary to use the workflow effectively. 
 The efficacy of the developed workflow will be rigorously evaluated by analysing MAGs generated from simulated and real-world data-spanning diverse environments: 
