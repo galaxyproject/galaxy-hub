@@ -12,8 +12,8 @@ image: "/images/logos/sciensano-logo.jpg"
 comments:
   - "A comprehensive bioinformatics portal for genomics-based microbial typing, characterization, and outbreak detection. Extensive support for data generated using Illumina and Oxford Nanopore Technologies (ONT) sequencing."
 user_support:
-  - This instance of Galaxy is provided 'as is'. Bugs can be reported using Galaxy's issue reporting functionality and will be investigated. Requests for new tools or functionality can be sent to the contact email address.
-  - "A series of YouTube videos detailing the use of the tools are available on [YouTube](https://www.youtube.com/playlist?list=PL9O-3w2bLZ4X5DJGYlbqL60PQDzn42Wjh)".
+  - "This instance of Galaxy is provided 'as is'. Bugs can be reported using Galaxy's issue reporting functionality and will be investigated. Requests for new tools or functionality can be sent to the contact email address."
+  - "A series of YouTube videos detailing the use of the tools are available on [YouTube](https://www.youtube.com/playlist?list=PL9O-3w2bLZ4X5DJGYlbqL60PQDzn42Wjh)."
 quotas:
   - "You must read and agree to the terms and conditions before using this Galaxy instance."
   - "Account creation is required."
