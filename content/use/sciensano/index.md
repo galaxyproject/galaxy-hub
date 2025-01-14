@@ -5,25 +5,23 @@ scope: "general"
 platforms:
   - platform_group: "public-server"
     platform_url: "https://galaxy.sciensano.be/policy/disclaimer.html"
-    platform_text: "Sciensano Galaxy"
+    platform_text: "Galaxy @Sciensano"
     platform_location: BE
-summary: "General purpose Galaxy server optimized for microbiological genomics applications of interest for public health."
-image: "/images/logos/sciensano-logo.jpg"
+summary: "Galaxy server for microbiological genomics applications with a focus on public health."
+image: "/use/sciensano/logo-sciensano.png"
 comments:
-  - "Galaxy server is optimized for analysis of Illumina data, but also supports IonTorrent data. Pacific Biosciences and Oxford Nanopore Technologies data are not (yet) supported."
+  - "A comprehensive bioinformatics portal for genomics-based microbial typing, characterization, and outbreak detection. Extensive support for data generated using Illumina and Oxford Nanopore Technologies (ONT) sequencing."
 user_support:
-  - "This Galaxy instance is provided 'as-is' with limited user support. Bugs can be reported through the issue reporting functionality of Galaxy and will be investigated."
-  - "A set of YouTube videos is scheduled to be released in the beginning of 2020 documenting the most interesting tools for public health applications."
+  - "This instance of Galaxy is provided 'as is'. Bugs can be reported using Galaxy's issue reporting functionality and will be investigated. Requests for new tools or functionality can be sent to the contact email address."
+  - "A series of YouTube videos detailing the use of the tools are available on [YouTube](https://www.youtube.com/playlist?list=PL9O-3w2bLZ4X5DJGYlbqL60PQDzn42Wjh)."
 quotas:
-  - "You must agree and read with the usage policy before using this Galaxy instance."
-  - "Requires that you create an account to access it."
+  - "You must read and agree to the terms and conditions before using this Galaxy instance."
+  - "Account creation is required."
   - "Only 2 jobs can be run simultaneously for a single user. Other jobs will be put into the job queue."
-  - "All users currently have a 25 Gb quota."
-  - "Quotas can be increased for collaborative projects."
+  - "The disk quota per user is 50 GB."
   - "Datasets and histories will be automatically deleted after 12 weeks."
 citations:
-  - "Bogaerts, Bert, et al. [Validation of a bioinformatics workflow for routine analysis of whole genome sequencing data and related challenges for pathogen typing in a European National Reference Center: Neisseria meningitidis as a proof-of-concept](https://doi.org/10.3389/fmicb.2019.00362). *Frontiers in Microbiology* 10 (2019): 362."
-  - "Vanneste, Kevin, et al. [Application of whole genome data for in silico evaluation of primers and probes routinely employed for the detection of viral species by RT-qPCR using dengue virus as a case study](https://doi.org/10.1186/s12859-018-2313-0). BMC bioinformatics 19.1 (2018): 312."
+  - "Bogaerts et al. [Galaxy @Sciensano: a comprehensive bioinformatics portal for genomics-based microbial typing, characterization, and outbreak detection](https://pmc.ncbi.nlm.nih.gov/articles/PMC11715294/). BMC Genomics 26(1):20 (2025)."
 pub_libraries:
   - "Sciensano"
 sponsors:
