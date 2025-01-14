@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy @Sciensano"
     platform_location: BE
 summary: "Galaxy server for microbiological genomics applications with a focus on public health."
-image: "/images/logos/sciensano-logo.jpg"
+image: "/use/sciensano/logo-sciensano.png"
 comments:
   - "A comprehensive bioinformatics portal for genomics-based microbial typing, characterization, and outbreak detection. Extensive support for data generated using Illumina and Oxford Nanopore Technologies (ONT) sequencing."
 user_support:
