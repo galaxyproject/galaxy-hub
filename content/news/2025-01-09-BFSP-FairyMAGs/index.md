@@ -20,10 +20,8 @@ Metagenomics Assembled Genomes (MAGs) are crucial for understanding biodiversity
 
 Leveraging the Galaxy platform, our primary objectives include finalising a user-friendly state-of-the-art Galaxy workflow tailored for MAG construction, and ensuring its accessibility and reusability through integration with WorkflowHub. 
 
-<figure>
-<img src="Flowchart_Individual_Assembly.png" alt="Workflow"/> 
-<figcaption>Current state of the MAGs building Workflow</figcaption> 
-</figure>
+<img src="./Flowchart_Individual_Assembly.png" alt="Workflow" />
+*Current state of the MAGs building Workflow*
 
 The current state of the workflow is [publicly accessible on usegalaxy.eu](https://usegalaxy.eu/u/paulzierep/w/mags-individual-workflow). An example analysis, using the Marine Benchmark Dataset from the CAMI II challenge, can be found in a corresponding [Galaxy history](https://usegalaxy.eu/u/paulzierep/h/mags-individual-workflow-cami-ii-marine-dataset). This analysis produced 65 MAGs and a detailed MultiQC report, which can be viewed under the "bin-report" tag.  
 
@@ -38,10 +36,8 @@ This evaluation will provide valuable insights into the workflow's performance a
 
 We will also investigate the computational resources required for executing the assembly step of the workflow using data provided by several Galaxy servers and the MGnify team on various input datasets. The aim would be to optimise resource allocation to ensure efficient and cost-effective MAGs construction. A novel tool will be developed to facilitate this process, allowing researchers to accurately estimate and allocate resources for each step of the assembly pipeline. 
 
-<figure>
-<img src="ML_tool.png" alt="ML Tools"/> 
-<figcaption>Idea of the resource allocation prediction tool.</figcaption> 
-</figure>
+<img src="./ML_tool.png" alt="ML Tools" />
+*Idea of the resource allocation prediction tool.*
 
 By addressing these objectives, our project aims to accelerate metagenomics research by providing researchers with a comprehensive and accessible framework for MAGs construction. This framework will not only streamline the workflow for building MAGs, but also facilitate reproducibility, collaboration, and innovation within the ELIXIR Microbiome Community.
 
