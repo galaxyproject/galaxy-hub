@@ -40,7 +40,7 @@ Galaxy integrates with RO-Crate, a standardized metadata framework designed to p
 
 ### Searchable Repositories
 
-Galaxy provides access to searchable repositories such as the Galaxy Toolshed, a centralized platform that indexes and hosts tools and workflows shared by the global Galaxy community. Researchers can easily browse, search, and discover tools and workflows tailored to their needs, fostering collaboration and knowledge sharing. The Galaxy Toolshed functions as an "app store" for tools, ensuring that resources are well-organized and accessible to users across disciplines.
+Galaxy provides access to searchable repositories such as the Galaxy Toolshed, a centralized platform that indexes and hosts tools shared by the global Galaxy community. Researchers can easily browse, search, and discover tools tailored to their needs, fostering collaboration and knowledge sharing. The Galaxy Toolshed functions as an "app store" for tools, ensuring that resources are well-organized and accessible to users across disciplines.
 
 ### WorkflowHub Integration
 
@@ -49,7 +49,6 @@ Galaxy supports the deposition of workflows into external registries like Workfl
 ### Community-Driven Standards
 
 Galaxy adheres to community-driven standards for metadata and data management, ensuring that its tools and workflows are compatible with broader scientific infrastructures. Standards compliance ensures that research outputs created within Galaxy are not only findable within the Galaxy ecosystem but are also accessible to external tools and platforms that follow similar conventions. Fully integrated into the work area, the Galaxy Training network (available at training.galaxyproject.org) is an initiative that aims at making the Galaxy platform accessible to a wide audience by providing free and open educational resources. It offers an extensive collection of detailed and reviewed tutorials authored by administrators, developers, and scientists. These tutorials serve as valuable resources for individuals seeking to learn how to navigate Galaxy, employ specific functionalities like tools or execute workflows for specific analyses. By mixing trainings and tools in the same friendly user webapp, Galaxy is a tool perfectly suited for open science.
-
 
 ### Support for Ontologies and Keywords
 
