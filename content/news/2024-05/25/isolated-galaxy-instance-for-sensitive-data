@@ -2,10 +2,10 @@
 title: 'Galaxy instance for sensitive data running in isolated network environment'
 date: '2024'
 tease: GDPR-compliant Galaxy clone in isolated environment
-authors: Mirela Minkova, Torfinn Nome & Nikolay Vazov
+authors: Mirela Minkova & Magdalena Harakalova, Torfinn Nome & Nikolay Vazov
 authors_structured:
 - github: vazovn
-tags: [networking, sensitive_data]
+tags: [esg-wp5, esg]
 subsites: [global, all, esg]
 ---
 
@@ -28,3 +28,13 @@ For more information about anDREa and myDRE please visit the following links: ht
 
 In the myDRE environment, we selected a Linux Ubuntu 22.04 Virtual Machine machine with 64 cores and 256 GB RAM, and a basic model of 128 GB SSD.
 While the basic size model is sufficient for installation purposes, it is recommended to increase the machine size to at least 1 TB for running data and tool installations.
+
+For more information contact 
+
+Magdalena Harakalova, MD PhD
+Circulatory Health Research Center &
+Regenerative Medicine Utrecht
+University Medical Centre Utrecht
+Utrecht, The Netherlands
+m.harakalova@umcutrecht.nl
+
