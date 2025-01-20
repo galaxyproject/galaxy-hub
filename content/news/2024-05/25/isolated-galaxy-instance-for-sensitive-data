@@ -10,7 +10,7 @@ subsites: [global, all, esg]
 ---
 
 We are excited to announce that researchers from The Netherlands and Norway are developing a GDPR-compliant Galaxy clone. 
-This setup enables direct download of Docker containers from the Toolshed, which are then converted and saved locally as Apptainer containers.
+This setup enables direct download of tools from the Toolshed, which are then converted and saved locally as Apptainer containers.
 
 
 While the instance is currently undergoing thorough testing, there are several promising developments that are newsworthy. 
