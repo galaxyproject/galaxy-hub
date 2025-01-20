@@ -1,7 +1,7 @@
 ---
 title: "Research Associate in Biomedical Data Science"
 date: '2020-11-24'
-closes: 
+closes: '2021-11-24'
 summary: "Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/)."
 continent: NA
 location:

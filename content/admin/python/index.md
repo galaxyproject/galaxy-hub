@@ -2,7 +2,7 @@
 title: Supported Python versions
 ---
 
-Galaxy's core functionality is currently supported on Python **3.7** or newer.
+Galaxy's core functionality is currently supported on Python **3.8** or newer.
 
 If Galaxy complains about the version of Python you are using:
 

@@ -1,14 +1,14 @@
 heading: Objectives
 
 objectives:
-- title: Objective 1
-  content: Accessible e-Infrastructure resources for European scientists to enable pioneering data-driven research across scientific domains.
+    - title: Objective 1
+      content: Accessible e-Infrastructure resources for European scientists to enable pioneering data-driven research across scientific domains.
 
-- title: Objective 2
-  content: Support the varieties of analysis types and diverse usage patterns through efficient and smart job distribution to appropriate and sustainable infrastructures.
+    - title: Objective 2
+      content: Support the varieties of analysis types and diverse usage patterns through efficient and smart job distribution to appropriate and sustainable infrastructures.
 
-- title: Objective 3
-  content: The application of FAIR principles to workflows and adoption of FAIR Digital Objects to stimulate reusable and reproducible research and enable the EOSC Interoperability Framework.
+    - title: Objective 3
+      content: The application of FAIR principles to workflows and adoption of FAIR Digital Objects to stimulate reusable and reproducible research and enable the EOSC Interoperability Framework.
 
-- title: Objective 4
-  content: Adoption of the EuroScienceGateway by researchers in diverse scientific disciplines.
+    - title: Objective 4
+      content: Adoption of the EuroScienceGateway by researchers in diverse scientific disciplines.

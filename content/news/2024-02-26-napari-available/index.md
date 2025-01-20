@@ -22,7 +22,7 @@ Napari provides a dynamic platform for visualizing and interacting with 2D, 3D, 
 
 To use Napari in Galaxy, first you need to create an account in Galaxy and log in with your credentials. You can access Napari from [here](https://usegalaxy.eu/root?tool_id=interactive_tool_napari) and specify images from your history that you want to visualize using Napari, then press the _Run Tool_ button to launch a Napari instance. When the graphical user interface of Napari is ready, an  'Open' link will be displayed at the top of the Galaxy central panel (see screenshot below). 
 
-![Napari](./galaxy-napari.png)
+![Napari](/images/galaxy-napari.png)
 
 We are still working on integrating more plugins into the Napari interactive tool in Galaxy. 
 

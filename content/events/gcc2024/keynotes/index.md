@@ -14,7 +14,7 @@ autotoc: false
       </td>
       <td style="border: 0;">
         <strong>Prof. Jana Klánová</strong><br/>
-        Talking about <strong>Environmental health sciences</strong><br/><br/>
+        Talk title: <strong><a href="https://drive.google.com/file/d/1QlEVKgHtnS-Qx9SMbF3saxOfW6fw0KgW/view" target="_blank">Integrating exposomics into biomedical sciences</a></strong><br/><br/>
         Masaryk University<br/>
         Brno, Czech Republic<br/>
       </td>
@@ -52,7 +52,7 @@ projects.
       </td>
       <td style="border: 0;">
         <strong>Ute Gunsenheimer</strong><br/>
-        Talking about <strong>Science policy and implementation</strong><br/><br/>
+        Talk title: <strong><a href="https://docs.google.com/presentation/d/1HOApRL4Srbx-geQqfy0-8CZBTW9g9Yov/edit#slide=id.p1" target="_blank">Building the EOSC federation and the potential role of Galaxy</a></strong><br/><br/>
         Secretary General<br/>
         EOSC Association<br/>
         Brussels, Belgium<br/>
@@ -80,7 +80,7 @@ history and politics.
       </td>
       <td style="border: 0;">
         <strong>Dr. Daria Onichtchouk</strong><br/>
-        Talking about <strong>Gastrulation, pluripotency, and transcriptional networks</strong><br/><br/>
+        Talk title: <strong><a href="https://docs.google.com/presentation/d/1laVWA3r-Xk0A_tQZdgCMMfHV6N0KSi2kbs7_cxkoqac/edit#slide=id.p1" target="_blank">Zebrafish swims into the Galaxy</a></strong><br/><br/>
         Universtity of Freiburg<br/>
         Freiburg, Germany<br/>
       </td>

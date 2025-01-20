@@ -83,7 +83,7 @@
                 "name": "GenOuest"
             },
             "elixir-it": {
-                "name": "ELIXIR-IT/Laniakea"
+                "name": "ELIXIR-IT"
             },
             "ifb": {
                 "name": "ELIXIR-FR/IFB"
@@ -118,12 +118,12 @@
             "locale": "US",
             "url": "http://www.usegalaxy.org",
             "utcMin": -11,
-            "utcMax": -4
+            "utcMax": -3
         },
         {
             "locale": "EU",
             "url": "http://usegalaxy.eu",
-            "utcMin": -4,
+            "utcMin": -3,
             "utcMax": 7
         },
         {
