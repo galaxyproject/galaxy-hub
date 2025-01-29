@@ -12,4 +12,6 @@ tags:
 - gtn
 - event
 tease: "The GTN joined the BioNT Community Event & CarpentryConnect in Heidelberg in November 2024. It was a great experience meeting other training communities and people passionate about training."
+title: "The GTN joined the BioNT Community Event & CarpentryConnect - Heidelberg 2024"
 ---
+The GTN joined the BioNT Community Event & CarpentryConnect in Heidelberg in November 2024. It was a great experience meeting other training communities and people passionate about training.
