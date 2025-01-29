@@ -1,3 +1,4 @@
+---
 title: "From Zero to Hero with Python"
 date: '2024-10-17'
 days: 2
@@ -5,7 +6,7 @@ tease: "Data analysis and programming are high-demand fields, making them partic
 continent: EU
 location: "Online, EU"
 external_url: "https://www.cecam.org/workshop-details/from-zero-to-hero-with-python-1362"
-gtn: true
+gtn: false
 contact: "Teresa Müller"
 subsites: [all]
 ---
