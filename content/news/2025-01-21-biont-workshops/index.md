@@ -10,5 +10,5 @@ tags:
 - gtn-news
 - gtn
 - online
-tease: "In 2024 the Freiburg Galaxy team organized two workshops for the BioNT basic curriculum Round Two. The first one was a RNA-Seq workshop using Galaxy and the GTN, The second workshop was a beginners Python course using The Carpentries learning materials."
+tease: "In 2024, the Freiburg Galaxy team organized two workshops for Round Two of the BioNT basic curriculum. The first was an RNA-Seq workshop using Galaxy and the GTN. The second workshop was a beginner's Python course using The Carpentries' learning materials."
 ---
