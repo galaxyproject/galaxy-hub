@@ -27,8 +27,8 @@ Using Galaxy infrastructure and public instances, this collaboration has generat
 The following continuously updated table represents genome assemblies produced so far using Galaxy workflows.
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/json/species_stats.vl.json"/><br>
-  <small>For species repeated twice two haplotype assemblies are available. Taxonomic labels are clickable: "Class" and "Order" will bring you to Wikipedia and "Species" to GenomeArk - a central repository of VGP data. A vector graphics version of this figure is available <a href="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/svg/species_stats.svg">here</a>. | <tt>Size</tt> = estimated genome size; Het = estimated heterozygosity, <tt>Repeat</tt> = estimated repeat content; <tt>Contig NG50</tt> and <tt>Scaffold NG50</tt> = <a href="https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics#NG50">NG50</a> statistics for contigs and scaffolds, respectively; <tt>Gaps</tt> = total length of gaps in scaffolds.</small>
+  <vega-embed spec="https://raw.githubusercontent.com/scottcain/vgp_hub_page_data/refs/heads/main/json/species_stats.jan25.json"/><br>
+  <small>Last updated January, 2025 with 314 assemblies. For species repeated twice two haplotype assemblies are available. Taxonomic labels are clickable: "Class" and "Order" will bring you to Wikipedia and "Species" to GenomeArk - a central repository of VGP data. A vector graphics version of this figure is available <a href="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/svg/species_stats.svg">here</a>. | <tt>Size</tt> = estimated genome size; Het = estimated heterozygosity, <tt>Repeat</tt> = estimated repeat content; <tt>Contig NG50</tt> and <tt>Scaffold NG50</tt> = <a href="https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics#NG50">NG50</a> statistics for contigs and scaffolds, respectively; <tt>Gaps</tt> = total length of gaps in scaffolds.</small>
 </div>
 
 
