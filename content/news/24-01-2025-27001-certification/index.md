@@ -15,5 +15,5 @@ main_subsite: eu
 
 <figure class="figure">
   <g-image src="./certification_group.jpg" class="figure-img img-fluid rounded" />
-  <figcaption class="figure-caption">Dr. Nicole Wöhrle, Dr. Dirk von Suchodoletz, Prof. Dr. Rolf Oven, Dr. Marc Herbstritt, Prof. Dr. Stefan Günther, Jan Leendertse (all University of Freiburg), Kai Weber (TÜV Süd) and Laura Berberich (University of Freiburg) (from left to right) when handing over the certificate. Photo: Jürgen Gocke / University of Freiburg</figcaption>
+  <figcaption class="figure-caption">Dr. Nicole Wöhrle, Dr. Dirk von Suchodoletz, Prof. Dr. Rolf Backofen, Dr. Marc Herbstritt, Prof. Dr. Stefan Günther, Jan Leendertse (all University of Freiburg), Kai Weber (TÜV Süd) and Laura Berberich (University of Freiburg) (from left to right) when handing over the certificate. Photo: Jürgen Gocke / University of Freiburg</figcaption>
 </figure>
