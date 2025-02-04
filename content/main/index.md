@@ -13,7 +13,7 @@ Anyone can use the public servers, with or without an account, but Galaxy user a
 
 ## Status of the public site
 
-The status page with the current state of the Main Server, Test Server, and ToolShed is available at [https://status.galaxyproject.org/](https://status.galaxyproject.org/).
+The status page with the current state of the Main Server, Test Server, and ToolShed is available at [status page](https://stats.uptimerobot.com/shbYTgpExK).
 
 ## Resources available to main site
 

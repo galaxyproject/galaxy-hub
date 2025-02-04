@@ -83,7 +83,7 @@ Another aspect is that the Galaxy servers are used in several projects with glob
 
 #### Uptime
 
-Uptimes and the general status of the service is tracked at  https://status.galaxyproject.org. We announce maintenance breaks depending on the duration according to our Terms of Use ([US](https://usegalaxy.org/static/terms.html), [EU](https://usegalaxy.eu/terms), [AUS](https://site.usegalaxy.org.au/about#terms-of-service)). The useGalaxy.* instances focus on being a stable and reliable services; the infrastructure underlying the European Galaxy server is ISO 27001 certified.
+Uptimes and the general status of the service is tracked at [status page](https://stats.uptimerobot.com/shbYTgpExK). We announce maintenance breaks depending on the duration according to our Terms of Use ([US](https://usegalaxy.org/static/terms.html), [EU](https://usegalaxy.eu/terms), [AUS](https://site.usegalaxy.org.au/about#terms-of-service)). The useGalaxy.* instances focus on being a stable and reliable services; the infrastructure underlying the European Galaxy server is ISO 27001 certified.
 
 #### Accessibility
 
