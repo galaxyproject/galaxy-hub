@@ -2,7 +2,7 @@
 title: "Unlocking Microbial Data Analysis: The microGalaxy Preprint Is Here!"
 date: '2025-01-07'
 tags: [paper]
-subsites: [eu, fr, freiburg, global, all]
+subsites: [eu, freiburg, global, all]
 ---
 
 We are thrilled to announce the release of our preprint, **"microGalaxy: A gateway to tools, workflows, and training for accessible, reproducible, and FAIR microbial data analysis,"** now available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.23.629682v1.full.pdf)!

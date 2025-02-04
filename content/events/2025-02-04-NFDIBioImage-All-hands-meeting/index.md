@@ -10,7 +10,7 @@ supporters:
 - nfdi
 - dfg
 - unifreiburg
-subsites: [eu, freiburg, ndfdibioimage]
+subsites: [eu, freiburg]
 ---
 
 From February 4th to 6th, in Düsseldorf, Germany, members of the Galaxy team will participate in the **NFDI4BIOIMAGE All-Hands Meeting** and present their work on advancing bioimage analysis in Galaxy. This event will provide an excellent opportunity to showcase the tools, workflows, and training materials developed by the Galaxy Image Analysis Community and discuss future directions.
