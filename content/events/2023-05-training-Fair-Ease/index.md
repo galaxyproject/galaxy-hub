@@ -8,7 +8,7 @@ location:
   name: "Lille (France)"
 gtn: true
 contact: "Marie Josse"
-tags: [esg, eosc, training]
+tags: [esg, esg-wp5, eosc, training]
 subsites: [all-eu, global, esg]
 ---
 
