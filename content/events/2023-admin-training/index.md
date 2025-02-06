@@ -10,6 +10,7 @@ location_url: "https://monasterium.be"
 external_url:
 gtn: true
 contact: Instructors
+tags: [esg-wp1]
 subsites: [global, us, eu, esg]
 ---
 
