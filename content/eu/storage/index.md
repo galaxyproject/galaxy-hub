@@ -94,7 +94,7 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Long term</h3>
-      <p class="card-text">250GB of quota, you are responsible for data cleaning. This data can be shared.</p>
+      <p class="card-text">250GB of quota, you are responsible for data cleaning. Data can be shared.</p>
       <br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100"/>
@@ -105,7 +105,7 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
-      <p class="card-text">Unlimited quota, data older than 30 days will be deleted. This data can be shared.</p>
+      <p class="card-text">Unlimited quota, data older than 30 days will be deleted. Data can be shared.</p>
       <br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
