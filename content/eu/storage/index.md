@@ -6,7 +6,7 @@ Storage provides our users freedom to play around with their data and enables ex
 Thanks to the [de.NBI cloud](https://www.denbi.de/cloud) and the [Uni-Freiburg compute center](https://www.rz.uni-freiburg.de) the European Galaxy server
 is managing 3PB of data today (2025/01).
 Users do use this storage for free, governments are paying for the freedom of science and against being locked into some commercial system.
-Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250GB for every user, also called `quota`.
+Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250 GB for every user, also called `quota`.
 
 This system has served us well for many years. However, different user groups have varying storage needs, and some also contribute financially to the global Galaxy infrastructure. Until now, we have addressed this by generously extending storage quotas upon request via our quota-request form. We remain committed to expanding our storage capacity through future grants.
 
@@ -23,7 +23,7 @@ has introduced advanced Research Data Management (RDM) features, including:
 
 # Manage your Storage and Quota
 
-On the European Galaxy server every user has a 250GB quota. This means you can use 250GB of storage for free.
+On the European Galaxy server every user has a 250 GB quota. This means you can use 250 GB of storage for free.
 Once you reach this limit you cannot start new jobs. [Learn more about quotas.](https://galaxyproject.org/support/account-quotas/)
 
 <div align="center">
@@ -101,7 +101,7 @@ Galaxy makes this very easy by providing you options to upload and export data t
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Long term</h3>
-      <p class="card-text">250GB of quota, you are responsible for data cleaning. Data can be shared.</p>
+      <p class="card-text">250 GB of quota, you are responsible for data cleaning. Data can be shared.</p>
       <br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100"/>
@@ -123,7 +123,7 @@ Galaxy makes this very easy by providing you options to upload and export data t
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem;">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Unshareable</h3>
-      <p class="card-text">Belongs to your 250GB quota, data on this storage cannot be shared.</p>
+      <p class="card-text">Belongs to your 250 GB quota, data on this storage cannot be shared.</p>
       <br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
@@ -147,7 +147,9 @@ Galaxy makes this very easy by providing you options to upload and export data t
 ## Long term storage
 
 POSIX/NFS-based storage maintained by the compute center of the University of Freiburg.
-In contrast to the `Short term storage` we will not delete data on this storage. You need to clean up your data to stay below your quota of 250GB.
+In contrast to the `Short term storage` we will not delete data on this storage.
+You need to [clean up your data](#manage-your-storage-and-quota) to stay below your quota of 250 GB.
+The data is stored on a high-available data storage and you are allowed to share the data with everyone
 
 
 ## Short term storage
@@ -156,7 +158,7 @@ S3-based object storage is maintained by the compute center of the University of
 This storage, also called scratch-storage, is `purged monthly` and so it is only appropriate for short-term methods development and such.
 The rapid deletion of stored data enables us to provide this storage without a quota. This storage is not backed up.
 
-⚠️ To enable exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that if we delete old data,
+⚠️ To enable exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
 this might confuse your collaboration partner.
 
 <div align="center">
@@ -187,7 +189,8 @@ default storage to your account.
 <div align="center">
     <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
 </div>
-----
+
+------
 
 # Towards a sustainable storage, enabling co-financing of public infrastructure
 
@@ -208,7 +211,8 @@ This enables DataPLANT now to decide about their preferred quota limits, and the
 
 The system is very flexible and we could enable research networks, like CRCs, in the same way, to participate in the European Galaxy project and offer
 sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but is only a small aspect of
-RDM - for which NFDI and Galaxy provide additional solutions. Please get in contact with us if you want to learn more about [RDM](https://rdmkit.elixir-europe.org/galaxy_assembly).
+RDM - for which [NFDI](https://www.nfdi.de) and Galaxy provide additional solutions.
+Please get in contact with us if you want to learn more about [RDM](https://rdmkit.elixir-europe.org/galaxy_assembly).
 
 ----
 
