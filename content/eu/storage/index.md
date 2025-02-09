@@ -75,7 +75,11 @@ this feature only works if the data is accessible for Galaxy, e.g. via a URL.
 
 If your RAW data is available on your institutional repository or provided by a core facility you can include those repositories into your Galaxy account as well.
 We call those `remote file sources` and you can configure those under your [user settings](https://usegalaxy.eu/file_source_instances/index). Just to give a few examples,
-you can include repositories based on Invenio, Dataverse, FTP, Google Drive, DropBox, AWS, S3 and Webdav, which includes NextCloud, OpenCloud, EUDAT B2Drop and many others.
+you can include repositories based on [InvenioRDM](https://inveniosoftware.org/products/rdm/), [Dataverse](https://dataverse.org), FTP, Google Drive, DropBox, AWS, S3 and Webdav,
+which includes NextCloud, OpenCloud, [EUDAT B2Drop](https://www.eudat.eu/service-catalogue/b2drop) and many others.
+
+👉 If you know about **public** repositories that can be useful for more Galaxy users, please get in [contact](mailto:contact@usegalaxy.eu)
+and we add it into our default `remote file sources`.
 
 ## Data export
 
