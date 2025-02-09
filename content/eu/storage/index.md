@@ -185,8 +185,8 @@ this might confuse your collaboration partner.
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
 Data on this storage cannot be used for public datasets, cannot be shared between users, etc..
-All your data in Galaxy is by default only available to you and can not be seen by other users. However, you can always share data, and histories with others.
-This storage prevents sharing and provides an additional safeguard to you and your data. 
+All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storages you can always share data, and histories with others.
+This special `Unshareable storage`, also called `private storage`, prevents sharing and provides an additional safeguard to you and your data. 
 The data on this storage is counted to the same quota as the `Long-term storage`.
 
 <div align="center">
