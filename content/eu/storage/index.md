@@ -2,9 +2,7 @@
 title: Storage Management on the European Galaxy server
 ---
 
-
-`Storage is always a bottleneck for public Galaxy instances. It provides our users freedom to play around with their data and enables exploratory research.`
-
+Storage provides our users freedom to play around with their data and enables exploratory research. But it is also a limited resource for public Galaxy instances.
 Thanks to the [de.NBI cloud](https://www.denbi.de/cloud) and the [Uni-Freiburg compute center](https://www.rz.uni-freiburg.de) the European Galaxy server
 is managing 3PB of data today (2025/01).
 Users do use this storage for free, governments are paying for the freedom of science and against being locked into some commercial system.
