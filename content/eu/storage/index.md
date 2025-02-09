@@ -72,7 +72,14 @@ If your RAW data is available on your institutional repository or provided by a 
 We call those `remote file sources` and you can configure those under your [user settings](https://usegalaxy.eu/file_source_instances/index). Just to give a few examples,
 you can include repositories based on Invenio, Dataverse, FTP, Google Drive, DropBox, AWS, S3 and Webdav, which includes NextCloud, OpenCloud, EUDAT B2Drop and many others.
 
-## Export results
+## Data export
+
+Sharing data in public repositories enhances transparency, reproducibility, and collaboration in scientific research.
+It allows other researchers to validate findings, build upon existing work, and accelerate scientific discovery.
+Additionally, open data promotes greater visibility and impact for researchers while fostering innovation across disciplines.
+Galaxy is publicly founded as your reseach most likely is. Therefore, we encourage you strongly to share your data, workflows, reports with the scientific community.
+
+Galaxy makes this very easy by providing you options to upload and export data to public repositories.
 
 * Zenodo, DOI
 * https://galaxyproject.org/news/2024-05-03-inveniordm-integration/ is outdated, we need a new blog post and a hint on the old one that points to the new one
