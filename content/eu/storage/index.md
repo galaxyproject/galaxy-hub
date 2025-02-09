@@ -18,6 +18,7 @@ has introduced advanced Research Data Management (RDM) features, including:
 * [More effective data cleaning tools](#manage-your-storage-and-quota)
 * [More efficient data import mechanisms](#smart-data-import)
 * [Short-term storage for method development](#short-term-storage)
+* [Advanced options to export data as FAIR Digital Objects](#data-export)
 * [Options for users to integrate their own storage into Galaxy](#user-owned-storage)
 * [A co-financing model for research groups in cooperation with our compute centre](#towards-a-sustainable-storage-enabling-co-financing-of-public-infrastructure)
     
@@ -102,7 +103,7 @@ To facilitate this, Galaxy provides multiple options to upload and export data t
 
 Under your Galaxy [user settings](https://usegalaxy.eu/file_source_instances/index), you can configure writable remote file sources,
 enabling exports to various external storage systems. This flexibility allows you to manage and share data across different platforms and repositories,
-enhancing collaboration and accessibility.
+enhancing collaboration and accessibility. Galaxy supports the FDO RO-Crate so all exports can be machine readable.
 
 Galaxy integrates with InvenioRDM-compatible repositories, including Zenodo, to streamline research data management. You can export your research results directly to Zenodo,
 where they are assigned a Digital Object Identifier (DOI) for proper citation and increased visibility. Additionally, Galaxy enables importing files from Zenodo,
