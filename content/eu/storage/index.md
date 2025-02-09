@@ -51,12 +51,16 @@ and therefore not count towards your Quota. `deferred data` will be temporary do
 not be injested into Galaxy storage. This feature is especially useful if you have large RAW data that is reduced in size in the first step. Please note that
 this feature only works if the data is accessible for Galaxy, e.g. via a URL.
 
+If your RAW data is available on your institutional repository or provided by a core-facility you can include thos repositories into your Galaxy account as well.
+We call those `remote file sources` and you can configure those under your [user settings](https://usegalaxy.eu/file_source_instances/index). Just to give a few examples,
+you can include repositories based on Invenio, Dataverse, FTP, Google Drive, DropBox, AWS, S3 and webdav, which includes NextCloud, OpenCloud, EUDAT B2Drop and many others.
 
 ## Export results
 
 * Zenodo, DOI
-* export to public archives, e.g. the [ENA exporter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/)
-* export to any writeable object store
+* https://galaxyproject.org/news/2024-05-03-inveniordm-integration/ is outdated, we need a new blog post and a hint on the old one that points to the new one
+* export to public archives, e.g. the [ENA exporter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/), Omero ...
+* export to any writeable `remote file sources`, which you can configure under your [user settings](https://usegalaxy.eu/file_source_instances/index).
 
 <div align="center">
     <img src="/images/undraw-illustrations/export-files.svg" alt="Icon that depicts a person that exports some data." height="100"/>
