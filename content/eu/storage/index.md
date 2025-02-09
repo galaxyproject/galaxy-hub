@@ -163,6 +163,11 @@ S3-based object storage is maintained by the compute center of the University of
 This storage, also called scratch-storage, is `purged monthly` and so it is only appropriate for short-term methods development and such.
 The rapid deletion of stored data enables us to provide this storage without a quota. This storage is not backed up.
 
+The automatic cleaning of this storage works like this:
+* every weekend Galaxy will iterate over all datasets included in the `Short term storage`
+* data older then **30** days will be `deleted`
+* a few days later all `deleted` datasets are `purged`
+
 ⚠️ To enable exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
 this might confuse your collaboration partner.
 
