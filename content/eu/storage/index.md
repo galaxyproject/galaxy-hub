@@ -44,18 +44,23 @@ By following these best practices, you can keep your Galaxy workspace organized 
 
 OR AS TEXT?
 
-Efficient data management is essential for optimizing storage and ensuring a smooth experience in Galaxy. By following a few key strategies, you can effectively clean up your data and ensure optimal usage of storage space.
+Efficient data management is essential for optimizing storage and ensuring a smooth experience in Galaxy.
+By following a few key strategies, you can effectively clean up your data and ensure optimal usage of storage space.
 
-One of the most effective methods is to remove unnecessary intermediate steps. Many tools, such as Trimmomatic, generate temporary datasets that may no longer be needed after analysis. You can search for specific outputs within a history and delete them in bulk to free up space. Additionally, automating this process within workflows can help discard unnecessary intermediate results, streamlining your analysis without manual intervention.
+One of the most effective methods is to remove unnecessary intermediate steps. Many tools, such as Trimmomatic, generate temporary datasets
+that may no longer be needed after analysis. You can search for specific outputs within a history and delete them in bulk to free up space.
+Additionally, automating this process within workflows can help discard unnecessary intermediate results, streamlining your analysis without manual intervention.
 
-To gain insights into your disk usage, the [`storage manager`](https://usegalaxy.eu/storage/) provides a visual representation of storage consumption by history or individual datasets. This can help you identify large or redundant files that may no longer be needed.
+To gain insights into your disk usage, the [`storage manager`](https://usegalaxy.eu/storage/) provides a visual representation of storage consumption
+by history or individual datasets. This can help you identify large or redundant files that may no longer be needed.
 
-If you need to download and delete data, the [Galaxy Training Network (GTN) guide](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/download-delete-data/tutorial.html) offers comprehensive instructions on managing your datasets efficiently.
+If you need to download and delete data, the
+[Galaxy Training Network (GTN) guide](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/download-delete-data/tutorial.html)
+offers comprehensive instructions on managing your datasets efficiently.
 
-It is important to understand how data deletion works in Galaxy. When you delete data, it is not immediately removed from the system. Instead, it remains recoverable for a few days before being permanently purged. This prevents accidental loss and provides an opportunity for data restoration if needed. More details about the difference between deleting and permanent deletion can be found [here](https://galaxyproject.org/learn/managing-datasets/#delete-vs-delete-permanently).
-
-
-
+It is important to understand how data deletion works in Galaxy. When you delete data, it is not immediately removed from the system.
+Instead, it remains recoverable for a few days before being permanently purged. This prevents accidental loss and provides an opportunity for data restoration if needed.
+More details about the difference between deleting and permanent deletion can be found [here](https://galaxyproject.org/learn/managing-datasets/#delete-vs-delete-permanently).
 
 <div align="center">
     <img src="/images/undraw-illustrations/clean-up.svg" alt="Icon that depicts a person that cleans up some data." height="100"/>
@@ -190,7 +195,7 @@ default storage to your account.
     <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
 </div>
 
-------
+----
 
 # Towards a sustainable storage, enabling co-financing of public infrastructure
 
