@@ -174,7 +174,7 @@ The automatic cleaning of this storage works like this:
 * data older then **30** days will be `deleted`
 * a few days later all `deleted` datasets are `purged`
 
-⚠️ To enable exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
+⚠️ To enable collaborative exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
 this might confuse your collaboration partner.
 
 <div align="center">
