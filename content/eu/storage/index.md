@@ -78,9 +78,10 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Long term</h3>
       <p class="card-text">250GB of quota, you are responsible for data cleaning. This data can be shared.</p>
+      <br\><br\>
       <div class="text-center">
-          <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100">
-          <br><br>
+        <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100">
+        <br\><br\>
       </div>
     </div>
   </div>
@@ -88,6 +89,7 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
       <p class="card-text">Unlimited quota, data older than 30 days will be deleted. This data can be shared.</p>
+      <br\><br\>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
         <br/><br/>
@@ -98,10 +100,10 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Unshareable</h3>
       <p class="card-text">Belongs to your 250GB quota, data on this storage cannot be shared.</p>
-      <br><br>
+      <br\><br\>
       <div class="text-center">
         <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
-        <br><br>
+        <br\><br\>
       </div>
     </div>
   </div>
@@ -109,7 +111,7 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">User Owned</h3>
       <p class="card-text">Include your own Storage into Galaxy</p>
-      <br><br>
+      <br\><br\>
       <div class="text-center">
         <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
         <br/><br/>
