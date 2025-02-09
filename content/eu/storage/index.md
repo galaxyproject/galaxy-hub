@@ -8,7 +8,9 @@ is managing 3PB of data today (2025/01).
 Users do use this storage for free, governments are paying for the freedom of science and against being locked into some commercial system.
 Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250 GB for every user, also called `quota`.
 
-This system has served us well for many years. However, different user groups have varying storage needs, and some also contribute financially to the global Galaxy infrastructure. Until now, we have addressed this by generously extending storage quotas upon request via our quota-request form. We remain committed to expanding our storage capacity through future grants.
+This system has served us well for many years. However, different user groups have varying storage needs, and some also contribute
+financially to the global Galaxy infrastructure. Until now, we have addressed this by generously extending storage quotas upon request via our quota-request form.
+We remain committed to expanding our storage capacity through future grants.
 
 That said, long-term sustainability is a growing challenge as the number of users increases. To address this, the Galaxy community
 has introduced advanced Research Data Management (RDM) features, including:
