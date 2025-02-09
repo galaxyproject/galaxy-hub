@@ -167,6 +167,10 @@ default storage to your account.
 
 TLDR; Research groups and networks can include their own storage into the Europan Galaxy server and decide about quota and data policies.
 
+<div align="center">
+    <img src="/images/undraw-illustrations/growth-chart.svg" alt="team" height="100"/>
+</div>
+
 We have enabled an additional strategy that makes it possible to include storage provided by partner consortia in a very transparent way
 into the European Galaxy Server to increase the quota to all consortia members.
 
