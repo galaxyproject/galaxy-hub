@@ -25,7 +25,7 @@ By encouraging stronger passwords, we aim to reduce vulnerabilities and enhance 
 The component dynamically assesses password strength based on factors like length, complexity, and uniqueness. It integrates seamlessly into the existing registration workflow, ensuring a smooth and intuitive experience.
 
 <figure class="figure">
-  <g-image src="./Password-medium.png" class="figure-img img-fluid rounded" />
+  <g-image src="/Password-medium.png" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Preview for Password Strength Indicator</figcaption>
 </figure>
 
