@@ -77,7 +77,7 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Long term</h3>
-      <p class="card-text">250GB of quota, you are responsible for data cleaning.</p>
+      <p class="card-text">250GB of quota, you are responsible for data cleaning. This data can be shared.</p>
       <div class="text-center">
           <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100">
           <br><br>
@@ -87,9 +87,9 @@ you can include repositories based on Invenio, Dataverse, FTP, Google Drive, Dro
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
-      <p class="card-text">Unlimited quota, data older than 30 days will be deleted.</p>
+      <p class="card-text">Unlimited quota, data older than 30 days will be deleted. This data can be shared.</p>
       <div class="text-center">
-        <img src="/images/undraw-illustrations/communities.svg" alt="communities" height="100"/>
+        <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
         <br/><br/>
       </div>
     </div>
@@ -129,6 +129,9 @@ In contrast to the `Short term storage` we will not delete data on this storage.
 S3-based object storage is maintained by the compute center of the University of Freiburg.
 This storage, also called scratch-storage, is `purged monthly` and so it is only appropriate for short-term methods development and such.
 The rapid deletion of stored data enables us to provide this storage without a quota. This storage is not backed up.
+
+⚠️ To enable exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that if we delete old data,
+this might confuse your collaboration partner.
 
 <div align="center">
     <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
