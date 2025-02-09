@@ -88,14 +88,28 @@ and we add it into our default `remote file sources`.
 Sharing data in public repositories enhances transparency, reproducibility, and collaboration in scientific research.
 It allows other researchers to validate findings, build upon existing work, and accelerate scientific discovery.
 Additionally, open data promotes greater visibility and impact for researchers while fostering innovation across disciplines.
-Galaxy is publicly founded as your reseach most likely is. Therefore, we encourage you strongly to share your data, workflows, reports with the scientific community.
 
-Galaxy makes this very easy by providing you options to upload and export data to public repositories.
+As Galaxy is publicly funded, much like most scientific research, we strongly encourage you to share your data, workflows, and reports with the scientific community.
+To facilitate this, Galaxy provides multiple options to upload and export data to public repositories and remote storage locations.
 
-* Zenodo, DOI
+### Export to Public Archives
+
+* European Nucleotide Archive (ENA): Galaxy offers tools to submit raw sequencing data directly to the ENA.
+* OMERO Integration: For researchers working with biological imaging data, Galaxy integrates with OMERO, an open-source platform for managing, visualizing,
+  and analyzing large image datasets. This allows seamless access to OMERO-stored images within Galaxy for efficient data analysis and sharing.
+
+### Export to Writable Remote File Sources
+
+Under your Galaxy [user settings](https://usegalaxy.eu/file_source_instances/index), you can configure writable remote file sources,
+enabling exports to various external storage systems. This flexibility allows you to manage and share data across different platforms and repositories,
+enhancing collaboration and accessibility.
+
+Galaxy integrates with InvenioRDM-compatible repositories, including Zenodo, to streamline research data management. You can export your research results directly to Zenodo,
+where they are assigned a Digital Object Identifier (DOI) for proper citation and increased visibility. Additionally, Galaxy enables importing files from Zenodo,
+supporting reproducible and reusable research workflows.
+
 * https://galaxyproject.org/news/2024-05-03-inveniordm-integration/ is outdated, we need a new blog post and a hint on the old one that points to the new one
-* export to public archives, e.g. the [ENA exporter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/), Omero ...
-* export to any writeable `remote file sources`, which you can configure under your [user settings](https://usegalaxy.eu/file_source_instances/index).
+
 
 <div align="center">
     <img src="/images/undraw-illustrations/export-files.svg" alt="Icon that depicts a person that exports some data." height="100"/>
