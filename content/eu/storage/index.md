@@ -236,7 +236,7 @@ Please get in contact with us if you want to learn more about [RDM](https://rdmk
 
 With our [quota-increase form](https://usegalaxy.eu/quota-increase), you can request a temporary extension of your user quota in UseGalaxy.eu.
 
-Since UseGalaxy.eu is a public service that we provide for free, we request you to be responsible and fair when using the shared resources.
+Since UseGalaxy.eu is a public service that we provide for free, we request you to be **responsible and fair** when using the shared resources.
 
 Before you request an additional quota, please make sure that:
 - You are processing your data in batches.
