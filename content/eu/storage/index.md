@@ -105,8 +105,9 @@ Under your Galaxy [user settings](https://usegalaxy.eu/file_source_instances/ind
 enabling exports to various external storage systems. This flexibility allows you to manage and share data across different platforms and repositories,
 enhancing collaboration and accessibility. Galaxy supports the FDO RO-Crate so all exports can be machine readable.
 
-Galaxy integrates with InvenioRDM-compatible repositories, including Zenodo, to streamline research data management. You can export your research results directly to Zenodo,
-where they are assigned a Digital Object Identifier (DOI) for proper citation and increased visibility. Additionally, Galaxy enables importing files from Zenodo,
+Galaxy integrates with InvenioRDM-compatible repositories, including [Zenodo](https://zenodo.org/), to streamline research data management.
+You can export your research results directly to Zenodo, where they are assigned a Digital Object Identifier (DOI) for proper
+citation and increased visibility. Additionally, Galaxy enables importing files from Zenodo,
 supporting reproducible and reusable research workflows.
 
 * https://galaxyproject.org/news/2024-05-03-inveniordm-integration/ is outdated, we need a new blog post and a hint on the old one that points to the new one
