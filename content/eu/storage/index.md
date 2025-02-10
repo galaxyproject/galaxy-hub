@@ -10,7 +10,7 @@ Everyone gets a fair share of the storage, on the [EU Galaxy server](https://use
 
 This system has served us well for many years. However, different user groups have varying storage needs, and some also contribute
 financially to the global Galaxy infrastructure. Until now, we have addressed this by generously extending storage quotas upon request via our quota-request form.
-We remain committed to expanding our storage capacity through future grants.
+We remain committed to expanding our storage capacity through future grants and we will also keep the quota-request form.
 
 That said, long-term sustainability is a growing challenge as the number of users increases. To address this, the Galaxy community
 has introduced advanced Research Data Management (RDM) features, including:
@@ -128,7 +128,7 @@ supporting reproducible and reusable research workflows.
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Long term</h3>
-      <p class="card-text">250 GB of quota, you are responsible for data cleaning. Data can be shared.</p>
+      <p class="card-text">Belongs to your 250 GB of quota, you are responsible for data cleaning. Data can be shared.</p>
       <br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100"/>
@@ -150,7 +150,7 @@ supporting reproducible and reusable research workflows.
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem;">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Unshareable</h3>
-      <p class="card-text">Belongs to your 250 GB quota, data on this storage cannot be shared.</p>
+      <p class="card-text">Belongs to your 250 GB quota, you are responsible for data cleaning, data on this storage cannot be shared.</p>
       <br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
@@ -203,7 +203,7 @@ S3-based object storage is maintained by the compute center of the University of
 Data on this storage cannot be used for public datasets, cannot be shared between users, etc..
 All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storages you can always share data, and histories with others.
 This special `Unshareable storage`, also called `private storage`, prevents sharing and provides an additional safeguard to you and your data. 
-The data on this storage is counted to the same quota as the `Long-term storage`.
+The data on this storage is counted to the same 250 GB quota as the `Long-term storage`; You are responsible for data cleaning on this storage.
 
 <div align="center">
     <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
@@ -236,7 +236,7 @@ We have enabled an additional strategy that makes it possible to include storage
 into the European Galaxy Server to increase the quota to all consortia members.
 
 Demonstrator: The [NFDI](https://www.nfdi.de) (National Research Data Infrastructure) is building RDM communities in Germany and one of them
-is [DataPLANT](https://nfdi4plants.org). DataPLANT has access to the [bwSFS](https://www.alwr-bw.de/bwsfs/), a state-funded storage for scientists
+is [DataPLANT](https://nfdi4plants.org). DataPLANT has access to the bwSFS, a state-funded storage for scientists
 and in this case in particular for fundamental plant research. In cooperation with DataPLANT we have included part of this storage into
 Galaxy and have configured Galaxy to store data from users associated with DataPLANT on this particular storage only.
 This enables DataPLANT now to decide about their preferred quota limits, and the level of data backup policies and fosters the participation of NFDI with the Galaxy project.
