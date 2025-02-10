@@ -45,6 +45,7 @@ Efficient data management is essential for optimizing storage and ensuring a smo
 
 By following these best practices, you can keep your Galaxy workspace organized and ensure that only essential data is retained.
 
+<!--
 OR AS TEXT?
 
 Efficient data management is essential for optimizing storage and ensuring a smooth experience in Galaxy.
@@ -64,6 +65,8 @@ offers comprehensive instructions on managing your datasets efficiently.
 It is important to understand how data deletion works in Galaxy. When you delete data, it is not immediately removed from the system.
 Instead, it remains recoverable for a few days before being permanently purged. This prevents accidental loss and provides an opportunity for data restoration if needed.
 More details about the difference between deleting and permanent deletion can be found [here](https://galaxyproject.org/learn/managing-datasets/#delete-vs-delete-permanently).
+
+-->
 
 <div align="center">
     <img src="/images/undraw-illustrations/clean-up.svg" alt="Icon that depicts a person that cleans up some data." height="100"/>
