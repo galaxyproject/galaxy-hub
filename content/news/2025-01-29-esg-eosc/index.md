@@ -12,7 +12,7 @@ The [EOSC EU Node](https://open-science-cloud.ec.europa.eu/) was officially laun
 
 In January 2025 the [EuroScienceGateway Project](../../projects/esg/) participated in the [EOSC Winter School 2025](https://eosc.eu/eosc-focus-project/winter-school-2025/) in Seville (Spain) to share feedback on the use of the EOSC EU Node. In particular we tested the [Virtual Machines](https://open-science-cloud.ec.europa.eu/services) service to deploy both Galaxy and Pulsar. The video below shows the steps to do it so you can repeat it yourself.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5EMXzD_JDjw?si=oDGCKDuJmil2EjgR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_FPG3ZvhTZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Additional notes to the video above:
 
