@@ -1,18 +1,13 @@
 ---
 title: "EuroScienceGateway at the EOSCxNFDI joint symposium Berlin 2024"
-date: 2024-10-21
+date: "2024-10-21"
 tease: "Presenting EuroScienceGateway, Galaxy, and GTN at the joint symposium of EOSC and NFDI 2024"
 hide_tease: false
 supporters:
   - eurosciencegateway
   - unifreiburg
-subsites:
-  - global
-  - freiburg
-  - eu
-  - esg
-tags:
-  - esg
+subsites: [global, freiburg, eu, esg]
+tags: [esg]
 main_subsite: eu
 ---
 
