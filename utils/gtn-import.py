@@ -18,7 +18,7 @@ repo = g.get_repo(os.getenv("REPO_NAME") or sys.exit("REPO_NAME not set"))
 default_branch = repo.default_branch
 existing_files = [
     (pr.html_url, file.filename)
-    for pr in repo.get_pulls(state="all", base=default_branch)
+    for pr in repo.get_pulls(state="open", base=default_branch)
     for file in pr.get_files()
 ]
 
