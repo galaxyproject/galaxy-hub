@@ -2,10 +2,10 @@
 title: Storage Management on the European Galaxy server
 ---
 
-Storage provides our users freedom to play around with their data and enables exploratory research. But it is also a limited resource for public Galaxy instances.
+Storage provides our users freedom to play around with their data and enables exploratory research, but it is also a limited resource for public Galaxy instances.
 Thanks to the [de.NBI cloud](https://www.denbi.de/cloud) and the [Uni-Freiburg compute center](https://www.rz.uni-freiburg.de) the European Galaxy server
 is managing 3PB of data today (2025/01).
-Users do use this storage for free, governments are paying for the freedom of science and against being locked into some commercial system.
+Users access this storage for free; governments are paying for the freedom of science and against being locked into some commercial system.
 Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250 GB for every user, also called `quota`.
 
 This system has served us well for many years. However, different user groups have varying storage needs, and some also contribute
