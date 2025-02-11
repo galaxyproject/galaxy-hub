@@ -24,15 +24,16 @@ existing_files = [
     for pr in repo.get_pulls(state="open", base=default_branch)
     for file in pr.get_files()
 ]
-branch_name = f"import-gtn-posts-{datetime.now().strftime('%Y%m%d%H%M%S')}"
-repo.create_git_ref(
-    ref=f"refs/heads/{branch_name}", sha=repo.get_branch(default_branch).commit.sha
-)
-
 
 import_type = os.getenv("IMPORT_TYPE")
 if import_type not in {"news", "events"}:
     sys.exit("IMPORT_TYPE should be either news or events")
+
+branch_name = f"import-gtn-{import_type}-{datetime.now().strftime('%Y%m%d%H%M%S')}"
+repo.create_git_ref(
+    ref=f"refs/heads/{branch_name}", sha=repo.get_branch(default_branch).commit.sha
+)
+
 
 created_files = []
 for entry in feed.get("entries", []):
@@ -53,7 +54,7 @@ for entry in feed.get("entries", []):
     summary = html.unescape(entry.get("summary", ""))
 
     slug = os.path.splitext(os.path.basename(link))[0]
-    folder = f"{date_ymd}-{slug}"
+    folder = f"{date_ymd}-{slug}" if import_type == "news" else f"{slug}"
 
     pr_exists = False
     for pr_url, file_path in existing_files:
@@ -71,8 +72,9 @@ for entry in feed.get("entries", []):
 
     created_files.append(f"[{title}]({link})")
 
+    logging.info(f"New {import_type}: {folder}")
+
     if import_type == "news":
-        logging.info(f"New post: {folder}")
         meta = {
             "subsites": ["all"],
             "main_subsite": "global",
@@ -84,7 +86,6 @@ for entry in feed.get("entries", []):
             "tease": str(summary.split(". ")[0]),
         }
     elif import_type == "events":
-        logging.info(f"New event: {folder}")
         event_str = title.replace("\u2009", " ").replace("–", "-").strip()
         pattern = r"\[(\w+)\s+(\d{1,2})\s*-\s*(\d{1,2}),\s*(\d{4})\]\s*(.+)"
         match = re.match(pattern, event_str)
@@ -152,13 +153,13 @@ for entry in feed.get("entries", []):
 
 try:
     pr = repo.create_pull(
-        title="Import GTN Posts",
-        body=f"This PR imports new GTN posts.\nNew posts:\n{"\n".join(created_files)}",
+        title=f"Import GTN {import_type.capitalize()}",
+        body=f"This PR imports new GTN {import_type.capitalize()}.\n\n{"\n".join(created_files)}",
         head=branch_name,
         base=default_branch,
     )
     logging.info(
-        f"Pull request created: {pr.html_url}\nTotal new posts: {len(created_files)}"
+        f"Pull request created: {pr.html_url}\nTotal new {import_type}: {len(created_files)}"
     )
 except GithubException as e:
     repo.get_git_ref(f"heads/{branch_name}").delete()
