@@ -5,7 +5,7 @@ tease: "The Galaxy Europe team has participated in the ELIXIR All Hands meeting 
 hide_tease: false
 supporters:
   - eurosciencegateway
-  - unifreiburgsss
+  - unifreiburg
   - elixir
 subsites: [global, freiburg, eu, esg]
 tags: [esg,elixir]
