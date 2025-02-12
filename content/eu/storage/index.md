@@ -143,7 +143,7 @@ supporting reproducible and reusable research workflows.
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
       <p class="card-text">Unlimited quota, data older than 30 days will be deleted. Data can be shared.</p>
-      <br/><br/>
+      <br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
         <br/><br/>
@@ -165,7 +165,7 @@ supporting reproducible and reusable research workflows.
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">User Owned</h3>
       <p class="card-text">Include your own Storage into Galaxy</p>
-      <br/><br/><br/>
+      <br/><br/><br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
         <br/><br/>
