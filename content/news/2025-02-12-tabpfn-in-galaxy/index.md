@@ -10,7 +10,7 @@ main_subsite: eu
 
 ### Introduction
 
-Machine learning for tabular data is a critical task in various domains, from healthcare to finance. Traditional approaches like decision trees, gradient boosting, and deep learning require extensive training and hyperparameter tuning. However, a groundbreaking approach called TabPFN (Tabular Prior-data Fitted Network) has revolutionized tabular classification by enabling zero-shot learning—predicting labels without additional training.
+Machine learning for tabular data is a critical task in various domains, from healthcare to finance. Traditional approaches like decision trees, gradient boosting, and deep learning require extensive training and hyperparameter tuning. However, a new approach called TabPFN (Tabular Prior-data Fitted Network) has the potential to revolutionise tabular classification by enabling zero-shot learning—predicting labels without additional training.
 
 The TabPFN Galaxy tool integrates this powerful model into the Galaxy platform, allowing researchers to leverage cutting-edge tabular prediction without the need for extensive ML expertise. This post explores the TabPFN methodology, its implementation in Galaxy, and how you can use it for your own datasets.
 
