@@ -132,7 +132,7 @@ supporting reproducible and reusable research workflows.
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Long term</h3>
       <p class="card-text">Belongs to your 250 GB of quota, you are responsible for data cleaning. Data can be shared.</p>
-      <br/><br/>
+      <br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100"/>
         <br/><br/>
@@ -165,7 +165,7 @@ supporting reproducible and reusable research workflows.
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">User Owned</h3>
       <p class="card-text">Include your own Storage into Galaxy</p>
-      <br/><br/>
+      <br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
         <br/><br/>
