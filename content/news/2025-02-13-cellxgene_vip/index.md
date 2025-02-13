@@ -27,6 +27,7 @@ This integration enhances the capabilities of high-throughput data exploration a
 + It provides more advanced analytical functions to gain insights on cellular compositions and deep biology, such as marker gene identification, differential gene expression analysis, and gene set enrichment analysis.
 + It pioneers methods to visualize multi-modal data, such as spatial transcriptomics embedding aligned with histological image, and the latest 10x Genomic Multiome dataset.
 
+<div align="center">
 Different QC plots by CELLxGENE in real-time!
 
 <img src="static/violin.png" alt="Spatial Transcriptomics Visualization" width="1000">
@@ -38,15 +39,19 @@ Spatial transcriptomics embedding aligned with histological image on one slice!
 
 <img src="static/ST.png" alt="Spatial Transcriptomics Visualization" width="1000">
 
-
+Multiome data visualization showing the spectral embedding and TSS enrichment score
+<img src="static/multiome.png" alt="Spatial Transcriptomics Visualization" width="1000">
+</div>
 
 ## Conclusion
 
 CELLxGENE-VIP helps researchers to go beyond visualization, making single-cell analysis more intuitive, reproducible, and insightful. Whether you are an experienced bioinformatician or a biologist with limited programming background, this tool will streamline your workflow and help you dive deep in your data and unlock new discoveries in your research.
 
-Try it out on **Galaxy** today and take your analysis to the next level!
-
 [CELLxGENE Documentation](https://interactivereport.github.io/cellxgene_VIP/tutorial/docs/)
+
+<div align="center">
+Try it out on <strong>Galaxy</strong> today and take your analysis to the next level!
+</div>
 
 <div align="center">
 <a href="https://usegalaxy.eu/?tool_id=interactive_tool_cellxgene_vip&version=latest"><button type="button" class="btn btn-primary btn-lg">Start CELLxGENE VIP now</button></a>
