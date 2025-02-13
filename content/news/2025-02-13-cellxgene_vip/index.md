@@ -27,32 +27,30 @@ While CELLxGENE focuses on fast and interactive visualization of single-cell dat
 + It pioneers methods to visualize multi-modal data, such as spatial transcriptomics embedding aligned with histological images and the latest 10x Genomic Multiome dataset.
 
 <div align="center">
-<br>
+<br/>
 Different QC plots by CELLxGENE in no-time!
 
-<br>
+<br/>
 <img src="static/violin.png" alt="Violin plot" width="800">
 
-<br>
+<br/><br/>
 <img src="static/heat.png" alt="Heatmap" width="800">
 
-<br>
+<br/><br/>
 <img src="static/dot.png" alt="Dot plot" width="800">
 
-<br>
+<br/><br/>
 Spatial transcriptomics embedding aligned with histological image on one slice!
 
-<br>
+<br/><br/>
 <img src="static/ST.png" alt="Spatial Transcriptomics Visualization" width="800">
 
-<br>
+<br/><br/>
 Multiome data visualization showing the spectral embedding and TSS enrichment score
 
-<br>
+<br/><br/>
 <img src="static/multiome.png" alt="Multiome Visualization" width="800">
 </div>
-
-## Conclusion
 
 CELLxGENE-VIP helps researchers go beyond visualization, making single-cell analysis more intuitive, reproducible, and insightful.
 Whether you are an experienced programmer or not, with this tool you can generate multiple QC plots fast and dive deep into your data and unlock new discoveries in your research.
