@@ -24,13 +24,13 @@ invocations.
 Bar is now present in the Workflow Editor along side multiple interface
 improvements.
 
-[![Youtube video of Galaxy 24.2 Workflow Editor Enhancements ](http://img.youtube.com/vi/42HZQkC7PHY/0.jpg)](http://www.youtube.com/watch?v=42HZQkC7PHY "Galaxy 24.2 Workflow Editor Enhancements")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/42HZQkC7PHY" title="Galaxy 24.2 - Workflow Editor Enhancements: Activity Bar and Undo Stack UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Masthead Revision and Activity Bar Improvements**. The Galaxy masthead has
 been revised to achieve consistency and reduce redundancy, aligning its
 functionality with the Activity Bar.
 
-[![Youtube video of Galaxy 24.2 Masthead Revion and Activity Bar Improvements](http://img.youtube.com/vi/5NMkcpj-1w8/0.jpg)](http://www.youtube.com/watch?v=5NMkcpj-1w8 "Galaxy 24.2 Masthead Revion and Activity Bar Improvements")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5NMkcpj-1w8" title="Galaxy 24.2 - Masthead Revision and Activity Bar Improvements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Improved Navigation and Usability of Collection Builders**. To guide users
 towards creating collections of the correct type, Galaxy now provides better
@@ -40,7 +40,7 @@ from their current history, also ensuring compatibility with required file
 extensions. Additionally, users can upload datasets directly to the collection
 builder.
 
-[![Youtube video of Galaxy 24.2 Improved Navigation and Usability of Collection Builders](http://img.youtube.com/vi/y4gNThU_BZE/0.jpg)](http://www.youtube.com/watch?v=y4gNThU_BZE "Galaxy 24.2 Improved Navigation and Usability of Collection Builders")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y4gNThU_BZE" title="Galaxy 24.2 - Improved Navigation and Usability of Collection Builders" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Enhanced Workflow Invocation View**. The Workflow Invocation View, introduced
 in the previous release has been significantly refined to improve the usability
@@ -69,7 +69,7 @@ user and import directories has been modernized, providing a more intuitive and
 user-friendly interface. Users can now easily import files or folders from
 their user directory or import directory into a library.
 
-[![Youtube video of Galaxy 24.2 Libraries Modernization: Directory Dataset Picker](http://img.youtube.com/vi/i8AHdv5sU5A/0.jpg)](http://www.youtube.com/watch?v=i8AHdv5sU5A "Galaxy 24.2 Libraries Modernization: Directory Dataset Picker")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i8AHdv5sU5A" title="Galaxy 24.2 - Libraries Modernization: Directory Dataset Picker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Live Reporting of Job Console Outputs**. If enabled by the Galaxy
 administrators, it will now be possible to view live console output for running
