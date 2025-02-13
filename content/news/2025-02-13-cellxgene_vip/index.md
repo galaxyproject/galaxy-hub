@@ -27,20 +27,29 @@ While CELLxGENE focuses on fast and interactive visualization of single-cell dat
 + It pioneers methods to visualize multi-modal data, such as spatial transcriptomics embedding aligned with histological images and the latest 10x Genomic Multiome dataset.
 
 <div align="center">
+<br>
 Different QC plots by CELLxGENE in no-time!
 
-<img src="static/violin.png" alt="Spatial Transcriptomics Visualization" width="1000">
-<img src="static/heat.png" alt="Spatial Transcriptomics Visualization" width="1000">
-<img src="static/dot.png" alt="Spatial Transcriptomics Visualization" width="1000">
+<br>
+<img src="static/violin.png" alt="Violin plot" width="800">
 
+<br>
+<img src="static/heat.png" alt="Heatmap" width="800">
 
+<br>
+<img src="static/dot.png" alt="Dot plot" width="800">
+
+<br>
 Spatial transcriptomics embedding aligned with histological image on one slice!
 
-<img src="static/ST.png" alt="Spatial Transcriptomics Visualization">
+<br>
+<img src="static/ST.png" alt="Spatial Transcriptomics Visualization" width="800">
 
+<br>
 Multiome data visualization showing the spectral embedding and TSS enrichment score
 
-<img src="static/multiome.png" alt="Spatial Transcriptomics Visualization" width="1000">
+<br>
+<img src="static/multiome.png" alt="Multiome Visualization" width="800">
 </div>
 
 ## Conclusion
