@@ -34,28 +34,30 @@ Different QC plots by CELLxGENE in no-time!
 <br/>
 <img src="static/violin.png" alt="Violin plot" width="800"/>
 
-<br/><br/>
+<br/>
 
 <img src="static/heat.png" alt="Heatmap" width="800"/>
 
-<br/><br/>
+<br/>
 
 <img src="static/dot.png" alt="Dot plot" width="800"/>
 
-<br/><br/>
+<br/>
 Spatial transcriptomics embedding aligned with histological image on one slice!
 
-<br/><br/>
+<br/>
 
 <img src="static/ST.png" alt="Spatial Transcriptomics Visualization" width="800"/>
 
-<br/><br/>
+<br/>
 Multiome data visualization showing the spectral embedding and TSS enrichment score
 
-<br/><br/>
+<br/>
 
 <img src="static/multiome.png" alt="Multiome Visualization" width="800"/>
 </div>
+
+<br/>
 
 CELLxGENE-VIP helps researchers go beyond visualization, making single-cell analysis more intuitive, reproducible, and insightful.
 Whether you are an experienced programmer or not, with this tool you can generate multiple QC plots fast and deep dive into your data and unlock new discoveries in your research.
