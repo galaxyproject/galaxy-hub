@@ -29,7 +29,7 @@ While CELLxGENE focuses on fast and interactive visualization of single-cell dat
 + It pioneers methods to visualize multi-modal data, such as spatial transcriptomics embedding aligned with histological images and the latest 10x Genomic Multiome dataset.
 
 <div align="center">
-Different QC plots by CELLxGENE in real time!
+Different QC plots by CELLxGENE in no-time!
 
 <img src="static/violin.png" alt="Spatial Transcriptomics Visualization" width="1000">
 <img src="static/heat.png" alt="Spatial Transcriptomics Visualization" width="1000">
