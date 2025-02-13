@@ -6,7 +6,6 @@ hide_tease: false
 authors: Scott Cain
 tags: [Release]
 subsites: [global, all]
-main_subsite: us
 ---
 
 # 24.2 Galaxy Release (February 2025)
