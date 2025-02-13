@@ -27,6 +27,12 @@ This integration enhances the capabilities of high-throughput data exploration a
 + It provides more advanced analytical functions to gain insights on cellular compositions and deep biology, such as marker gene identification, differential gene expression analysis, and gene set enrichment analysis.
 + It pioneers methods to visualize multi-modal data, such as spatial transcriptomics embedding aligned with histological image, and the latest 10x Genomic Multiome dataset.
 
+
+Spatial transcriptomics embedding aligned with histological image on one slice!
+<img src="static/ST.png" alt="Spatial Transcriptomics Visualization" width="1000">
+
+
+
 ## Conclusion
 
 CELLxGENE-VIP helps researchers to go beyond visualization, making single-cell analysis more intuitive, reproducible, and insightful. Whether you are an experienced bioinformatician or a biologist with limited programming background, this tool will streamline your workflow and help you dive deep in your data and unlock new discoveries in your research.
