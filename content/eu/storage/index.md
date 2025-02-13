@@ -142,7 +142,7 @@ supporting reproducible and reusable research workflows.
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
-      <p class="card-text">Unlimited quota, data older than 30 days will be deleted. Data can be shared.</p>
+      <p class="card-text">Unlimited quota, data older than 60 days will be deleted. Data can be shared.</p>
       <br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
@@ -190,7 +190,7 @@ The rapid deletion of stored data enables us to provide this storage without a q
 
 The automatic cleaning of this storage works like this:
 * every weekend Galaxy will iterate over all datasets included in the `Short term storage`
-* data older then **30** days will be `deleted`
+* data older then **60** days will be `deleted`
 * a few days later all `deleted` datasets are `purged`
 
 ⚠️ To enable collaborative exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
