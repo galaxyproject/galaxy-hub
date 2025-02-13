@@ -1,5 +1,5 @@
 ---
-title: CellxGene-VIP next-level scRNA-seq, spatial transcriptomics, and multiome data visualization
+title: CellxGene-VIP scRNA-seq, spatial transcriptomics, and multiome data visualization
 date: '2025-02-13'
 tease: CELLxGENE-VIP is a frontend plugin of CELLxGENE, enabling users to generate multiple QC plots in high-resolution SVG or PNG format.
   It can also visualize spatial transcriptomics and 10X multiome.
