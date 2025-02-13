@@ -16,8 +16,6 @@ subsites: [global, all, eu]
 main_subsite: eu
 ---
 
-# CELLxGENE-VIP; A Major Step for Single-Cell, spatial transcriptomics, and  multiome Data Analysis
-
 CELLxGENE-VIP (Visualization In Plugin) is an extension of the original [CELLxGENE](https://github.com/chanzuckerberg/cellxgene) tool developed by the Chan Zuckerberg Initiative.
 It can efficiently extract deep insights from single-cell RNA sequencing, spatial transcriptomics, and emerging multiome datasets.
 
@@ -38,9 +36,10 @@ Different QC plots by CELLxGENE in no-time!
 
 Spatial transcriptomics embedding aligned with histological image on one slice!
 
-<img src="static/ST.png" alt="Spatial Transcriptomics Visualization" width="1000">
+<img src="static/ST.png" alt="Spatial Transcriptomics Visualization">
 
 Multiome data visualization showing the spectral embedding and TSS enrichment score
+
 <img src="static/multiome.png" alt="Spatial Transcriptomics Visualization" width="1000">
 </div>
 
