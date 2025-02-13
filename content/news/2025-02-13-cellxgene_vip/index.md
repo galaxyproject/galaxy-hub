@@ -13,7 +13,7 @@ supporters:
 authors: nilchia
 authors_structured:
 - github: nilchia
-subsites: [eu]
+subsites: [global, all, eu]
 main_subsite: eu
 ---
 
