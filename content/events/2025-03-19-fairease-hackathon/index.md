@@ -23,9 +23,9 @@ subsites: [eu]
 
 ## 💡 Key Highlights:
 
-- Scientific Challenge: Investigating data anomalies and improving interpretations by combining multiple datasets.
-- Technical Challenge: Bringing all FAIR-EASE services, including Galaxy, together to build a harmonized environment for data retrieval, analysis, and visualization.
-- EuroScienceGateway Team: Actively involved in both the scientific and technical challenges, ensuring the Hunga Tonga use case is feasible within the Galaxy framework and contributing to a unified data access and processing workflow.
+- **Scientific** Challenge: Investigating data anomalies and improving interpretations by combining multiple datasets.
+- **Technical** Challenge: Bringing all FAIR-EASE services, including Galaxy, together to build a harmonized environment for data retrieval, analysis, and visualization.
+- **EuroScienceGateway** Team: Actively involved in both the scientific and technical challenges, ensuring the Hunga Tonga use case is feasible within the Galaxy framework and contributing to a unified data access and processing workflow.
 
 **🚀 A key step toward an integrated data-driven science platform!** #FAIREASE #Hackathon #HungaTonga #Galaxy
 
