@@ -90,5 +90,5 @@ Please see the [full release notes](https://docs.galaxyproject.org/en/master/rel
 
 *Thank you for using Galaxy!*
 
-[The Galaxy Team](https://galaxyproject.org/galaxy-team/)
+**The Galaxy Team**
 
