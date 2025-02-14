@@ -74,18 +74,18 @@ More details about the difference between deleting and permanent deletion can be
 
 ## Smart data import
 
+If your RAW data is available on your institutional repository or provided by a core facility you can include those repositories into Galaxy as well.
+We call those `remote file sources` and you can configure those under your [user settings](https://usegalaxy.eu/file_source_instances/index). Just to give a few examples,
+you can include repositories based on [InvenioRDM](https://inveniosoftware.org/products/rdm/), [Dataverse](https://dataverse.org), FTP, Google Drive, DropBox, AWS, S3 and [WebDav](https://en.wikipedia.org/wiki/WebDAV),
+which includes NextCloud, OpenCloud, [EUDAT B2Drop](https://www.eudat.eu/service-catalogue/b2drop) and many others.
+
+👉 If you know about **public** repositories that can be useful for more Galaxy users, please get in [contact](mailto:contact@usegalaxy.eu)
+and we add it to our default `remote file sources` for all users.
+
 A relatively unknown feature in Galaxy is what we call `deferred data`. You can import data as `deferred`, which will not download the data into your history
 and therefore not count towards your Quota. `deferred data` will be temporarily downloaded when you do the first calculation on top of it, but it will
 not be ingested into Galaxy storage. This feature is especially useful if you have large RAW data that is reduced in size in the first step. Please note that
 this feature only works if the data is accessible for Galaxy, e.g. via a URL.
-
-If your RAW data is available on your institutional repository or provided by a core facility you can include those repositories into your Galaxy account as well.
-We call those `remote file sources` and you can configure those under your [user settings](https://usegalaxy.eu/file_source_instances/index). Just to give a few examples,
-you can include repositories based on [InvenioRDM](https://inveniosoftware.org/products/rdm/), [Dataverse](https://dataverse.org), FTP, Google Drive, DropBox, AWS, S3 and Webdav,
-which includes NextCloud, OpenCloud, [EUDAT B2Drop](https://www.eudat.eu/service-catalogue/b2drop) and many others.
-
-👉 If you know about **public** repositories that can be useful for more Galaxy users, please get in [contact](mailto:contact@usegalaxy.eu)
-and we add it into our default `remote file sources`.
 
 ## Data export
 
@@ -94,7 +94,7 @@ It allows other researchers to validate findings, build upon existing work, and 
 Additionally, open data promotes greater visibility and impact for researchers while fostering innovation across disciplines.
 
 As Galaxy is publicly funded, much like most scientific research, we strongly encourage you to share your data, workflows, and reports with the scientific community.
-To facilitate this, Galaxy provides multiple options to upload and export data to public repositories and remote storage locations.
+To facilitate this, Galaxy provides multiple options for uploading and exporting data to public repositories and remote storage locations.
 
 ### Export to Public Archives
 
@@ -132,7 +132,7 @@ supporting reproducible and reusable research workflows.
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Long term</h3>
       <p class="card-text">Belongs to your 250 GB of quota, you are responsible for data cleaning. Data can be shared.</p>
-      <br/><br/>
+      <br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100"/>
         <br/><br/>
@@ -142,8 +142,8 @@ supporting reproducible and reusable research workflows.
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
-      <p class="card-text">Unlimited quota, data older than 30 days will be deleted. Data can be shared.</p>
-      <br/><br/>
+      <p class="card-text">Unlimited quota, data older than 60 days will be deleted. Data can be shared.</p>
+      <br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
         <br/><br/>
@@ -165,7 +165,7 @@ supporting reproducible and reusable research workflows.
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">User Owned</h3>
       <p class="card-text">Include your own Storage into Galaxy</p>
-      <br/><br/>
+      <br/><br/><br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
         <br/><br/>
@@ -190,7 +190,7 @@ The rapid deletion of stored data enables us to provide this storage without a q
 
 The automatic cleaning of this storage works like this:
 * every weekend Galaxy will iterate over all datasets included in the `Short term storage`
-* data older then **30** days will be `deleted`
+* data older then **60** days will be `deleted`
 * a few days later all `deleted` datasets are `purged`
 
 ⚠️ To enable collaborative exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
@@ -204,7 +204,7 @@ this might confuse your collaboration partner.
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
 Data on this storage cannot be used for public datasets, cannot be shared between users, etc..
-All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storages you can always share data, and histories with others.
+All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storage you can always share data, and histories with others.
 This special `Unshareable storage`, also called `private storage`, prevents sharing and provides an additional safeguard to you and your data. 
 The data on this storage is counted to the same 250 GB quota as the `Long-term storage`; You are responsible for data cleaning on this storage.
 
@@ -215,7 +215,7 @@ The data on this storage is counted to the same 250 GB quota as the `Long-term s
 ### User Owned storage
 
 Every user can [include their own storage](https://usegalaxy.eu/object_store_instances/index).
-If your Institute provides you with S3, iRODS, OneData ... this option is for you. Because Galaxy
+If your Institute provides you with S3, iRODS, [OneData](https://onedata.ai/) ... this option is for you. Because Galaxy
 is not managing this storage, there will be no quota assigned, but the limit of your storage applies 😎
 
 Once you have registered your storage in Galaxy you can run tools are workflows against it. You can set a history to default to this storage or you can set it as global 
@@ -240,7 +240,7 @@ into the European Galaxy Server to increase the quota to all consortia members.
 
 Demonstrator: The [NFDI](https://www.nfdi.de) (National Research Data Infrastructure) is building RDM communities in Germany and one of them
 is [DataPLANT](https://nfdi4plants.org). DataPLANT has access to the bwSFS, a state-funded storage for scientists
-and in this case in particular for fundamental plant research. In cooperation with DataPLANT we have included part of this storage into
+and in this case in particular for fundamental plant research. In cooperation with [DataPLANT](https://www.nfdi4plants.org) we have included part of this storage into
 Galaxy and have configured Galaxy to store data from users associated with DataPLANT on this particular storage only.
 This enables DataPLANT now to decide about their preferred quota limits, and the level of data backup policies and fosters the participation of NFDI with the Galaxy project.
 
