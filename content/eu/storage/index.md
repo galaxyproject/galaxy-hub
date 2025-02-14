@@ -218,7 +218,7 @@ Every user can [include their own storage](https://usegalaxy.eu/object_store_ins
 If your Institute provides you with S3, iRODS, [OneData](https://onedata.ai/) ... this option is for you. Because Galaxy
 is not managing this storage, there will be no quota assigned, but the limit of your storage applies 😎
 
-Once you have registered your storage in Galaxy you can run tools are workflows against it. You can set a history to default to this storage or you can set it as global 
+Once you have registered your storage in Galaxy you can run tools and workflows against it. You can set a history to default to this storage or you can set it as global 
 default storage to your account.
 
 <div align="center">
