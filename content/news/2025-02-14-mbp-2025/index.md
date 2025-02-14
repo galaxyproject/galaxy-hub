@@ -21,7 +21,7 @@ tags: [esg,madland,de.nbi,nfdi4plants,dataplant]
 The Conference [Molecular Biology of Plants (MBP) 2025](https://www.pflanzen-molekularbiologie.de/conference-molecular-biology-of-plants) of the [Section Plant Physiology and Molecular Biology](https://www.pflanzen-molekularbiologie.de/) of the DBG took place in Hennef, North Rhine-Westphalia, Germany, from 10th to 13th Febuary 2025. It was organized by  Prof. Dr. Hans-Henning Kunz (LMU, Munich), Prof. Dr. Christopher Grefen (Bochum), and Prof. Dr. Ute Höcker (Cologne). Click [here](/https://www.pflanzen-molekularbiologie.de/fileadmin/user_upload/SPPMB_Program/2025/MBP2025_preliminary_program.pdf) to see more information.
 
 
-**Deepti Varshney** and **Dr. Saskia Hiltemann** jointly presented a Talk and Poster entitled **"DataPLANT, MAdLand, and Galaxy: Tools and Resources for Plant Research"**
+**Deepti Varshney** and **Dr. Saskia Hiltemann** jointly presented a [Talk](https://tinyurl.com/tools-resources-mbp2025) and Poster entitled **"DataPLANT, MAdLand, and Galaxy: Tools and Resources for Plant Research"** 
 
 
 [MAdLand](https://madland.science/) is a DFG-funded research consortium exploring the molecular mechanism behind the transition from water to land, from alga to land plant. All work presented at MBP2025 is part of a collaboration between  **MAdLand, NFDI4Plants (DATAplant), Galaxy & de.NBI**. In their talk, Dr. Saskia Hiltemann and Deepti Varshney presented tools & resources useful for plant research: **Galaxy, Galaxy training Network (GTN), MAdLand DB (GenomeZoo), TAPscan v4, and DataPLANT ARCs**. Belowe is the abstract of their talk.
