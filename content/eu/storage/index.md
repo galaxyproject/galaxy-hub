@@ -215,11 +215,11 @@ The data on this storage is counted to the same 250 GB quota as the `Long-term s
 ### User Owned storage
 
 Every user can [include their own storage](https://usegalaxy.eu/object_store_instances/index).
-If your Institute provides you with S3, iRODS, [OneData](https://onedata.ai/) ... this option is for you. Because Galaxy
+If your Institute provides you with S3, iRODS, [OneData](https://onedata.org/) ... this option is for you. Because Galaxy
 is not managing this storage, there will be no quota assigned, but the limit of your storage applies 😎
 
 Once you have registered your storage in Galaxy you can run tools and workflows against it. You can set a history to default to this storage or you can set it as global 
-default storage to your account.
+default storage to your account. See a tutorial [here](https://galaxyproject.org/news/2024-09-20-esg-byos-im/).
 
 <div align="center">
     <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
