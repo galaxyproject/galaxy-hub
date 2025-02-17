@@ -137,6 +137,10 @@ supporting reproducible and reusable research workflows.
         <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100"/>
         <br/><br/>
       </div>
+      <hr/>
+      <div class="text-center">
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" height="50"/>
+      </div>
     </div>
   </div>
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
@@ -147,6 +151,11 @@ supporting reproducible and reusable research workflows.
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
         <br/><br/>
+      </div>
+      <hr/>
+      <div class="text-center">
+        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." height="50"/>&nbsp; 
+        <img src="/images/icons/icon_object_store_short_term.png" alt="Icon that depicts short-term storage." height="50"/>
       </div>
     </div>
   </div>
@@ -159,6 +168,11 @@ supporting reproducible and reusable research workflows.
         <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
         <br/><br/>
       </div>
+      <hr/>
+      <div class="text-center">
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50"/>&nbsp;
+        <img src="/images/icons/icon_object_store_unshareable_restricted_private.png" alt="Icon that depicts unshareable, restricted and private storage." height="50"/>        
+      </div>
     </div>
   </div>
   <div class="card border-secondary bg-light mb-1 ml-1 mr-3" style="width: 18rem">
@@ -169,6 +183,10 @@ supporting reproducible and reusable research workflows.
       <div class="text-center">
         <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
         <br/><br/>
+      </div>
+      <hr/>
+      <div class="text-center" style="align: button">
+        <img src="/images/icons/icon_object_store_user_defined.png" alt="Icon that depicts a user-defined storage." height="50"/>
       </div>
     </div>
   </div>
