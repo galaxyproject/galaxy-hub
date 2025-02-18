@@ -139,7 +139,7 @@ supporting reproducible and reusable research workflows.
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" height="50"/>
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" title="Storage has a 250GB quota" height="50"/>
       </div>
     </div>
   </div>
@@ -154,8 +154,8 @@ supporting reproducible and reusable research workflows.
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." height="50"/>&nbsp; 
-        <img src="/images/icons/icon_object_store_short_term.png" alt="Icon that depicts short-term storage." height="50"/>
+        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." title="Storage has a 250GB quota" height="50"/>&nbsp; 
+        <img src="/images/icons/icon_object_store_short_term.png" alt="Icon that depicts short-term storage." title="Data on this storage will be deleted after 60 days" height="50"/>
       </div>
     </div>
   </div>
@@ -170,8 +170,9 @@ supporting reproducible and reusable research workflows.
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50"/>&nbsp;
-        <img src="/images/icons/icon_object_store_unshareable_restricted_private.png" alt="Icon that depicts unshareable, restricted and private storage." height="50"/>        
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50" title="Storage has a 250GB quota"/>&nbsp;
+        <img src="/images/icons/icon_object_store_unshareable_restricted_private.png" alt="Icon that depicts unshareable, restricted and private storage."
+            title="Data on this storage is not shareable" height="50"/>        
       </div>
     </div>
   </div>
@@ -186,7 +187,7 @@ supporting reproducible and reusable research workflows.
       </div>
       <hr/>
       <div class="text-center" style="align: button">
-        <img src="/images/icons/icon_object_store_user_defined.png" alt="Icon that depicts a user-defined storage." height="50"/>
+        <img src="/images/icons/icon_object_store_user_defined.png" alt="Icon that depicts a user-defined storage." title="User defined storage" height="50"/>
       </div>
     </div>
   </div>
