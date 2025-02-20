@@ -204,7 +204,7 @@ The data is stored on a high-available data storage and you are allowed to share
 ## Short term storage
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
-This storage, also called scratch-storage, is `purged monthly` and so it is only appropriate for short-term methods development and such.
+This storage, also called scratch-storage, with data `purged` after 60 days after creation and so it is only appropriate for short-term methods development and such.
 The rapid deletion of stored data enables us to provide this storage without a quota. This storage is not backed up.
 
 The automatic cleaning of this storage works like this:
@@ -222,7 +222,7 @@ this might confuse your collaboration partner.
 ## Unshareable storage
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
-Data on this storage cannot be used for public datasets, cannot be shared between users, etc..
+Data on this storage cannot be shared between users or published.
 All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storage you can always share data, and histories with others.
 This special `Unshareable storage`, also called `private storage`, prevents sharing and provides an additional safeguard to you and your data. 
 The data on this storage is counted to the same 250 GB quota as the `Long-term storage`; You are responsible for data cleaning on this storage.
@@ -263,7 +263,7 @@ and in this case in particular for fundamental plant research. In cooperation wi
 Galaxy and have configured Galaxy to store data from users associated with DataPLANT on this particular storage only.
 This enables DataPLANT now to decide about their preferred quota limits, and the level of data backup policies and fosters the participation of NFDI with the Galaxy project.
 
-The system is very flexible and we could enable research networks, like CRCs, in the same way, to participate in the European Galaxy project and offer
+The system is very flexible and we could enable research networks, like Collaborative Research Centres, in the same way, to participate in the European Galaxy project and offer
 sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but is only a small aspect of
 RDM - for which [NFDI](https://www.nfdi.de) and Galaxy provide additional solutions.
 Please get in contact with us if you want to learn more about [RDM](https://rdmkit.elixir-europe.org/galaxy_assembly).
