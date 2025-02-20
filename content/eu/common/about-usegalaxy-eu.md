@@ -14,7 +14,7 @@ subtitle: The homepage of the European Galaxy community
         <a href="https://usegalaxy-eu.github.io/tools" class="btn btn-light btn-outline-dark mx-3">Browse installed tools</a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" class="btn btn-light btn-outline-dark mx-3">Request temporary increase of quota</a>
         <a href="https://usegalaxy-eu.github.io/tiaas" class="btn btn-light btn-outline-dark mx-3">Request TIaaS</a>
-        <a href="https://status.galaxyproject.org/" class="btn btn-light btn-outline-dark mx-3">Check the status of the server</a>
+        <a href="https://stats.uptimerobot.com/shbYTgpExK" class="btn btn-light btn-outline-dark mx-3">Check the status of the server</a>
         <a href="https://stats.galaxyproject.eu/" class="btn btn-light btn-outline-dark mx-3">See the statistics</a>
       </div>
   </div>

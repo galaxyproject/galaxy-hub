@@ -68,7 +68,7 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 - - -
 ## Issue with performance at Galaxy Main
 
-1. If there are issues with delays, reports of histories not loading, a blue screen stating that Galaxy is busy ... then check the Galaxy Status page to see if there is a problem with the server first: https://status.galaxyproject.org/
+1. If there are issues with delays, reports of histories not loading, a blue screen stating that Galaxy is busy ... then check the Galaxy [status page](https://stats.uptimerobot.com/shbYTgpExK) to see if there is a problem with the server first.
 1. If status is OK, then read recent posts at Galaxy Biostars, where transient issues are often reported and clarified. A new question can be asked if there is no activity about the problem. https://biostar.usegalaxy.org/
 
 - - -

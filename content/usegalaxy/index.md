@@ -32,7 +32,7 @@ There are currently four UseGalaxy servers:
 
 # Status
 
-The uptime status of all UseGalaxy servers, as well as other key Galaxy resources, [is shown here](https://status.galaxyproject.org/). The status page *currently tracks whether the sites load at all - there may still be issues with subsystems like job scheduling that are not reported here yet.*
+The uptime status of all UseGalaxy servers, as well as other key Galaxy resources is shown on [status page](https://stats.uptimerobot.com/shbYTgpExK). The status page *currently tracks whether the sites load at all - there may still be issues with subsystems like job scheduling that are not reported here yet.*
 
 # Work in Progress
 
@@ -46,7 +46,7 @@ We want to see servers meeting several loose requirements to be considered part 
 - *Freely accessible*: these servers may not place restrictions on access or registration, anonymous usage must be permitted.
 - *Public infrastructure configuration*: we hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
 - *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools, and must provide CVMFS reference data.
-- *Functional*: the site provides >90% uptime as monitored by the [status page](https://status.galaxyproject.org/), and participates in automated cross-usegalaxy testing initiatives.
+- *Functional*: the site provides >90% uptime as monitored by the [status page](https://stats.uptimerobot.com/shbYTgpExK), and participates in automated cross-usegalaxy testing initiatives.
 
 We're excited to see new services join us!
 
