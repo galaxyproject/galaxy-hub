@@ -15,10 +15,10 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="/news/2024-08-30-org-colabfold" target="_blank">
+            <a href="https://gxy.io/GTA2025-trainer" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/colabfold_announce.png"
-                    img-alt="ColabFold Announcement"
+                    img-src="/images/usegalaxy-welcome/carousel_gta_2025_call_for_trainer.png"
+                    img-alt="Galaxy Training Academy 2025 call for trainers"
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">
