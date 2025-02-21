@@ -36,7 +36,7 @@ query {
     events: allParentArticle(
         limit: 5, sortBy: "date", order: ASC,
         filter: {
-            category: {eq: "events"}, subsites: {contains: ["fr"]}, has_date: {eq: true}, days_ago: {lte: 0},
+            category: {eq: "events"}, subsites: {contains: ["eu"]}, has_date: {eq: true}, days_ago: {lte: 0},
             draft: {ne: true}
         }
     ) {

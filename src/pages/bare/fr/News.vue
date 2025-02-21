@@ -43,7 +43,7 @@ query {
     }
     articles: allParentArticle(
             sortBy: "date", order: DESC, filter: {
-                category: {eq: "news"}, subsites: {contains: ["fr"]}, draft: {ne: true}
+                category: {eq: "news"}, subsites: {contains: ["eu"]}, draft: {ne: true}
             }
         ) {
         totalCount
