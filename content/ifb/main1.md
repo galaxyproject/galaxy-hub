@@ -10,6 +10,7 @@ subtitle: The homepage of the French Galaxy community
     <ul>
       <li><a href="https://www.genouest.org/">GenOuest</a>, in Rennes</li>
       <li><a href="http://abims.sb-roscoff.fr/">ABiMS</a>, in Roscoff</li>
+      <li><a href="https://mesocentre.uca.fr/projets-associes/plateforme-aubi">AuBi</a>, in Clermont-Ferrand</li>
     </ul>
   </div>
 </div>
