@@ -240,6 +240,9 @@ is not managing this storage, there will be no quota assigned, but the limit of 
 Once you have registered your storage in Galaxy you can run tools and workflows against it. You can set a history to default to this storage or you can set it as global 
 default storage to your account. See a tutorial [here](https://galaxyproject.org/news/2024-09-20-esg-byos-im/).
 
+⚠️ This type of storage provides you a lot of flexibility, however, data acess to this storage needs to be transferred over potentially long distances. This
+has implications for carbon emissions and performance.
+
 <div align="center">
     <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
 </div>
@@ -248,7 +251,7 @@ default storage to your account. See a tutorial [here](https://galaxyproject.org
 
 # Towards a sustainable storage, enabling co-financing of public infrastructure
 
-[tl;dr](https://en.wikipedia.org/wiki/TL;DR) Research groups and networks can include their own storage into the Europan Galaxy server and decide about quota and data policies.
+[tl;dr](https://en.wikipedia.org/wiki/TL;DR) Research groups and networks can co-finance the Europan Galaxy server storage and decide about quota and data policies for their users.
 
 <div align="center">
     <img src="/images/undraw-illustrations/growth-chart.svg" alt="team" height="100"/>
@@ -273,13 +276,14 @@ Please get in contact with us if you want to learn more about [RDM](https://rdmk
 # Request larger Quotas for your project
 
 With our [quota-increase form](https://usegalaxy.eu/quota-increase), you can request a temporary extension of your user quota in UseGalaxy.eu.
+For example you can request 1TB of quota for the next 6 month.
 
 Since UseGalaxy.eu is a public service that we provide for free, we request you to be **responsible and fair** when using the shared resources.
 
 Before you request an additional quota, please make sure that:
-- You are processing your data in batches.
+- You are processing your data in batches
 - You are following our tips to clean up your account
-- None of the above options is working for you.
+- None of the above options is working for you
 
 Please bear in mind that the change will be only effective after being granted, which can take a few working days.
 After the requested extension period ends, your quota will be back to the standard 250 GB. Your data won't be removed, but you won't be able to launch any jobs
