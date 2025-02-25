@@ -98,15 +98,15 @@ To facilitate this, Galaxy provides multiple options for uploading and exporting
 
 ### Export to Public Archives
 
-* European Nucleotide Archive (ENA): Galaxy offers tools to submit raw sequencing data directly to the ENA.
-* OMERO Integration: For researchers working with biological imaging data, Galaxy integrates with OMERO, an open-source platform for managing, visualizing,
+* [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/): Galaxy offers tools to submit raw sequencing data directly to the ENA.
+* [OMERO](https://www.openmicroscopy.org/omero/) Integration: For researchers working with biological imaging data, Galaxy integrates with OMERO, an open-source platform for managing, visualizing,
   and analyzing large image datasets. This allows seamless access to OMERO-stored images within Galaxy for efficient data analysis and sharing.
 
 ### Export to Writable Remote File Sources
 
-Under your Galaxy [user settings](https://usegalaxy.eu/file_source_instances/index), you can configure writable remote file sources,
+Under your Galaxy [user preferences](https://usegalaxy.eu/file_source_instances/index), you can configure writable remote file sources,
 enabling exports to various external storage systems. This flexibility allows you to manage and share data across different platforms and repositories,
-enhancing collaboration and accessibility. Galaxy supports the FDO RO-Crate so all exports can be machine readable.
+enhancing collaboration and accessibility. Galaxy supports the [Fair Digital Object (FDO)](https://fairdo.org/) [RO-Crate](https://www.researchobject.org/ro-crate/) so all exports can be machine readable.
 
 Galaxy integrates with InvenioRDM-compatible repositories, including [Zenodo](https://zenodo.org/), to streamline research data management.
 You can export your research results directly to Zenodo, where they are assigned a Digital Object Identifier (DOI) for proper
@@ -179,7 +179,7 @@ supporting reproducible and reusable research workflows.
   <div class="card border-secondary bg-light mb-1 ml-1 mr-3" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">User Owned</h3>
-      <p class="card-text">Include your own Storage into Galaxy</p>
+      <p class="card-text">Include your own storage into Galaxy</p>
       <br/><br/><br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
@@ -196,9 +196,9 @@ supporting reproducible and reusable research workflows.
 ## Long term storage
 
 POSIX/NFS-based storage maintained by the compute center of the University of Freiburg.
-In contrast to the `Short term storage` we will not delete data on this storage.
+In contrast to the `Short term storage` data will not be deleted on this storage.
 You need to [clean up your data](#manage-your-storage-and-quota) to stay below your quota of 250 GB.
-The data is stored on a high-available data storage and you are allowed to share the data with everyone
+The data is stored on a high-available data storage and you are allowed to share the data with everyone.
 
 
 ## Short term storage
@@ -225,7 +225,7 @@ S3-based object storage is maintained by the compute center of the University of
 Data on this storage cannot be shared between users or published.
 All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storage you can always share data, and histories with others.
 This special `Unshareable storage`, also called `private storage`, prevents sharing and provides an additional safeguard to you and your data. 
-The data on this storage is counted to the same 250 GB quota as the `Long-term storage`; You are responsible for data cleaning on this storage.
+The data on this storage is counted to the same 250 GB quota as the `Long-term storage`. You are responsible for data cleaning on this storage.
 
 <div align="center">
     <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
@@ -248,7 +248,7 @@ default storage to your account. See a tutorial [here](https://galaxyproject.org
 
 # Towards a sustainable storage, enabling co-financing of public infrastructure
 
-TLDR; Research groups and networks can include their own storage into the Europan Galaxy server and decide about quota and data policies.
+[tl;dr](https://en.wikipedia.org/wiki/TL;DR) Research groups and networks can include their own storage into the Europan Galaxy server and decide about quota and data policies.
 
 <div align="center">
     <img src="/images/undraw-illustrations/growth-chart.svg" alt="team" height="100"/>
