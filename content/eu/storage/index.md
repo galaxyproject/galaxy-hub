@@ -20,7 +20,7 @@ has introduced advanced Research Data Management (RDM) features, including:
 * [Short-term storage for method development](#short-term-storage)
 * [Advanced options to export data as FAIR Digital Objects](#data-export)
 * [Options for users to integrate their own storage into Galaxy](#user-owned-storage)
-* [A co-financing model for research groups in cooperation with our compute centre](#towards-a-sustainable-storage-enabling-co-financing-of-public-infrastructure)
+* [A co-financing model for research groups in cooperation with our compute center](#towards-a-sustainable-storage-enabling-co-financing-of-public-infrastructure)
     
 ----
 
