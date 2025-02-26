@@ -86,14 +86,14 @@ for entry in feed.get("entries", []):
         }
     elif import_type == "events":
         title = title.split("] ", 1)[-1]
-        date, duration, gtn = date_ymd, 1, False
+        date, duration, gtn = date_ymd, 1, True
         for tag in tags:
             if tag.startswith("starts:"):
                 date = isoparse(tag.split(":", 1)[1]).strftime("%Y-%m-%d")
             elif tag.startswith("days:"):
                 duration = int(tag.split(":", 1)[1])
             elif tag.startswith("new event-external"):
-                gtn = True
+                gtn = False
 
         if geo := entry.get("georss"):
             location_raw = (
