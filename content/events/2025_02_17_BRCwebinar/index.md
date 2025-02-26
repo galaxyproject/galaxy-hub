@@ -1,6 +1,6 @@
 ---
 title: BRC Analytics Webinar
-date: '2025-03XXXXXXXXXXXXXXXXXXXXXXXX-18'
+date: '2025-03-18'
 days: 1
 tease: "Please join Anton Nekrutenko and Scott Cain for a look at BRC Analytics and new features in Galaxy!"
 continent: GL
