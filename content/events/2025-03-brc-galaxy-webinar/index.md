@@ -1,8 +1,8 @@
 ---
 title: BRC Analytics Webinar
-date: '2025-03-18'
+date: '2025-03-26'
 days: 1
-tease: "Please join Anton Nekrutenko and the developer team for a look at BRC Analytics and new features in Galaxy!"
+tease: "Please join Anton Nekrutenko and Scott Cain for a look at BRC Analytics and new features in Galaxy!"
 continent: GL
 location:
   name: "Online"
@@ -17,8 +17,8 @@ subsites: [all]
 Please join Anton Nekrutenko and Scott Cain for a webinar about [BRC Analytics](https://brc-analytics.org) as well as a discussion of new features in Galaxy. This will be a Q&A which we will present progress we've made in the development of BRC Analytics, as well as a wider discussion of the workflow improvements made to Galaxy as a whole, on which we are building BRC Analytics.
 
 
-- **Date:** MID MARCH?!?
+- **Date:** March 26, 2025
 - **Time:** 1 PM EDT/10 AM PDT
-- **Link:** PASTE ZOOM LINK HERE
+- **Link:** https://psu.zoom.us/j/93960440173 
 
 We will be taking questions and providing information about avenues for following up on development efforts.
