@@ -6,7 +6,6 @@ hide_tease: false
 authors: Scott Cain
 tags: [Release]
 subsites: [global, all]
-main_subsite: us
 ---
 
 # 24.2 Galaxy Release (February 2025)
@@ -91,5 +90,5 @@ Please see the [full release notes](https://docs.galaxyproject.org/en/master/rel
 
 *Thank you for using Galaxy!*
 
-[The Galaxy Team](https://galaxyproject.org/galaxy-team/)
+**The Galaxy Team**
 

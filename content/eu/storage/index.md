@@ -20,7 +20,7 @@ has introduced advanced Research Data Management (RDM) features, including:
 * [Short-term storage for method development](#short-term-storage)
 * [Advanced options to export data as FAIR Digital Objects](#data-export)
 * [Options for users to integrate their own storage into Galaxy](#user-owned-storage)
-* [A co-financing model for research groups in cooperation with our compute centre](#towards-a-sustainable-storage-enabling-co-financing-of-public-infrastructure)
+* [A co-financing model for research groups in cooperation with our compute center](#towards-a-sustainable-storage-enabling-co-financing-of-public-infrastructure)
     
 ----
 
@@ -98,15 +98,15 @@ To facilitate this, Galaxy provides multiple options for uploading and exporting
 
 ### Export to Public Archives
 
-* European Nucleotide Archive (ENA): Galaxy offers tools to submit raw sequencing data directly to the ENA.
-* OMERO Integration: For researchers working with biological imaging data, Galaxy integrates with OMERO, an open-source platform for managing, visualizing,
+* [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/): Galaxy offers tools to submit raw sequencing data directly to the ENA.
+* [OMERO](https://www.openmicroscopy.org/omero/) Integration: For researchers working with biological imaging data, Galaxy integrates with OMERO, an open-source platform for managing, visualizing,
   and analyzing large image datasets. This allows seamless access to OMERO-stored images within Galaxy for efficient data analysis and sharing.
 
 ### Export to Writable Remote File Sources
 
-Under your Galaxy [user settings](https://usegalaxy.eu/file_source_instances/index), you can configure writable remote file sources,
+Under your Galaxy [user preferences](https://usegalaxy.eu/file_source_instances/index), you can configure writable remote file sources,
 enabling exports to various external storage systems. This flexibility allows you to manage and share data across different platforms and repositories,
-enhancing collaboration and accessibility. Galaxy supports the FDO RO-Crate so all exports can be machine readable.
+enhancing collaboration and accessibility. Galaxy supports the [Fair Digital Object (FDO)](https://fairdo.org/) [RO-Crate](https://www.researchobject.org/ro-crate/) so all exports can be machine readable.
 
 Galaxy integrates with InvenioRDM-compatible repositories, including [Zenodo](https://zenodo.org/), to streamline research data management.
 You can export your research results directly to Zenodo, where they are assigned a Digital Object Identifier (DOI) for proper
@@ -137,16 +137,25 @@ supporting reproducible and reusable research workflows.
         <img src="/images/undraw-illustrations/projects.svg" alt="projects" height="100"/>
         <br/><br/>
       </div>
+      <hr/>
+      <div class="text-center">
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" title="Storage has a 250GB quota" height="50"/>
+      </div>
     </div>
   </div>
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
-      <p class="card-text">Unlimited quota, data older than 30 days will be deleted. Data can be shared.</p>
+      <p class="card-text">Unlimited quota, data older than 60 days will be deleted. Data can be shared.</p>
       <br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
         <br/><br/>
+      </div>
+      <hr/>
+      <div class="text-center">
+        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." title="Storage has a 250GB quota" height="50"/>&nbsp; 
+        <img src="/images/icons/icon_object_store_short_term.png" alt="Icon that depicts short-term storage." title="Data on this storage will be deleted after 60 days" height="50"/>
       </div>
     </div>
   </div>
@@ -159,16 +168,26 @@ supporting reproducible and reusable research workflows.
         <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
         <br/><br/>
       </div>
+      <hr/>
+      <div class="text-center">
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50" title="Storage has a 250GB quota"/>&nbsp;
+        <img src="/images/icons/icon_object_store_unshareable_restricted_private.png" alt="Icon that depicts unshareable, restricted and private storage."
+            title="Data on this storage is not shareable" height="50"/>        
+      </div>
     </div>
   </div>
   <div class="card border-secondary bg-light mb-1 ml-1 mr-3" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">User Owned</h3>
-      <p class="card-text">Include your own Storage into Galaxy</p>
+      <p class="card-text">Include your own storage into Galaxy</p>
       <br/><br/><br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
         <br/><br/>
+      </div>
+      <hr/>
+      <div class="text-center" style="align: button">
+        <img src="/images/icons/icon_object_store_user_defined.png" alt="Icon that depicts a user-defined storage." title="User defined storage" height="50"/>
       </div>
     </div>
   </div>
@@ -177,20 +196,20 @@ supporting reproducible and reusable research workflows.
 ## Long term storage
 
 POSIX/NFS-based storage maintained by the compute center of the University of Freiburg.
-In contrast to the `Short term storage` we will not delete data on this storage.
+In contrast to the `Short term storage` data will not be deleted on this storage.
 You need to [clean up your data](#manage-your-storage-and-quota) to stay below your quota of 250 GB.
-The data is stored on a high-available data storage and you are allowed to share the data with everyone
+The data is stored on a high-available data storage and you are allowed to share the data with everyone.
 
 
 ## Short term storage
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
-This storage, also called scratch-storage, is `purged monthly` and so it is only appropriate for short-term methods development and such.
+This storage, also called scratch-storage, with data `purged` after 60 days after creation and so it is only appropriate for short-term methods development and such.
 The rapid deletion of stored data enables us to provide this storage without a quota. This storage is not backed up.
 
 The automatic cleaning of this storage works like this:
 * every weekend Galaxy will iterate over all datasets included in the `Short term storage`
-* data older then **30** days will be `deleted`
+* data older then **60** days will be `deleted`
 * a few days later all `deleted` datasets are `purged`
 
 ⚠️ To enable collaborative exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
@@ -203,10 +222,10 @@ this might confuse your collaboration partner.
 ## Unshareable storage
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
-Data on this storage cannot be used for public datasets, cannot be shared between users, etc..
+Data on this storage cannot be shared between users or published.
 All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storage you can always share data, and histories with others.
 This special `Unshareable storage`, also called `private storage`, prevents sharing and provides an additional safeguard to you and your data. 
-The data on this storage is counted to the same 250 GB quota as the `Long-term storage`; You are responsible for data cleaning on this storage.
+The data on this storage is counted to the same 250 GB quota as the `Long-term storage`. You are responsible for data cleaning on this storage.
 
 <div align="center">
     <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
@@ -215,11 +234,14 @@ The data on this storage is counted to the same 250 GB quota as the `Long-term s
 ### User Owned storage
 
 Every user can [include their own storage](https://usegalaxy.eu/object_store_instances/index).
-If your Institute provides you with S3, iRODS, [OneData](https://onedata.ai/) ... this option is for you. Because Galaxy
+If your Institute provides you with S3, iRODS, [OneData](https://onedata.org/) ... this option is for you. Because Galaxy
 is not managing this storage, there will be no quota assigned, but the limit of your storage applies 😎
 
-Once you have registered your storage in Galaxy you can run tools are workflows against it. You can set a history to default to this storage or you can set it as global 
-default storage to your account.
+Once you have registered your storage in Galaxy you can run tools and workflows against it. You can set a history to default to this storage or you can set it as global 
+default storage to your account. See a tutorial [here](https://galaxyproject.org/news/2024-09-20-esg-byos-im/).
+
+⚠️ This type of storage provides you a lot of flexibility, however, data acess to this storage needs to be transferred over potentially long distances. This
+has implications for carbon emissions and performance.
 
 <div align="center">
     <img src="/images/undraw-illustrations/personal-data.svg" alt="team" height="100"/>
@@ -229,7 +251,7 @@ default storage to your account.
 
 # Towards a sustainable storage, enabling co-financing of public infrastructure
 
-TLDR; Research groups and networks can include their own storage into the Europan Galaxy server and decide about quota and data policies.
+[tl;dr](https://en.wikipedia.org/wiki/TL;DR) Research groups and networks can co-finance the Europan Galaxy server storage and decide about quota and data policies for their users.
 
 <div align="center">
     <img src="/images/undraw-illustrations/growth-chart.svg" alt="team" height="100"/>
@@ -244,7 +266,7 @@ and in this case in particular for fundamental plant research. In cooperation wi
 Galaxy and have configured Galaxy to store data from users associated with DataPLANT on this particular storage only.
 This enables DataPLANT now to decide about their preferred quota limits, and the level of data backup policies and fosters the participation of NFDI with the Galaxy project.
 
-The system is very flexible and we could enable research networks, like CRCs, in the same way, to participate in the European Galaxy project and offer
+The system is very flexible and we could enable research networks, like Collaborative Research Centres, in the same way, to participate in the European Galaxy project and offer
 sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but is only a small aspect of
 RDM - for which [NFDI](https://www.nfdi.de) and Galaxy provide additional solutions.
 Please get in contact with us if you want to learn more about [RDM](https://rdmkit.elixir-europe.org/galaxy_assembly).
@@ -254,13 +276,14 @@ Please get in contact with us if you want to learn more about [RDM](https://rdmk
 # Request larger Quotas for your project
 
 With our [quota-increase form](https://usegalaxy.eu/quota-increase), you can request a temporary extension of your user quota in UseGalaxy.eu.
+For example you can request 1TB of quota for the next 6 month.
 
 Since UseGalaxy.eu is a public service that we provide for free, we request you to be **responsible and fair** when using the shared resources.
 
 Before you request an additional quota, please make sure that:
-- You are processing your data in batches.
+- You are processing your data in batches
 - You are following our tips to clean up your account
-- None of the above options is working for you.
+- None of the above options is working for you
 
 Please bear in mind that the change will be only effective after being granted, which can take a few working days.
 After the requested extension period ends, your quota will be back to the standard 250 GB. Your data won't be removed, but you won't be able to launch any jobs

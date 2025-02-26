@@ -42,6 +42,7 @@ IUC membership evolves over time and helpful community contributors are asked to
 **Wolfgang Maier**, University of Freiburg | 2019-11-04 | [@wm75](https://github.com/wm75)
 **Cristóbal Gallardo**, University of Freiburg | 2021-11-25 | [@gallardoalba](https://github.com/gallardoalba)
 **Peter van Heusden**, South African National Bioinformatics Institute (SANBI) | 2022-05-04 | [@pvanheus](https://github.com/pvanheus)
+**Saim Momin**, University of Freiburg | 2025-02-18 | [@SaimMomin12](https://github.com/SaimMomin12)
 
 ### Former members
 
