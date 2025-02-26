@@ -1,7 +1,6 @@
 import html
 import logging
 import os
-import re
 import sys
 from datetime import datetime
 
@@ -86,20 +85,15 @@ for entry in feed.get("entries", []):
             "tease": str(summary.split(". ")[0]),
         }
     elif import_type == "events":
-        event_str = title.replace("\u2009", " ").replace("–", "-").strip()
-        pattern = r"\[(\w+)\s+(\d{1,2})\s*-\s*(\d{1,2}),\s*(\d{4})\]\s*(.+)"
-        match = re.match(pattern, event_str)
-        if match:
-            month, start_day, end_day, year, title = match.groups()
-            start_date = datetime.strptime(f"{start_day} {month} {year}", "%d %B %Y")
-            end_date = datetime.strptime(f"{end_day} {month} {year}", "%d %B %Y")
-            duration = (end_date - start_date).days + 1
-            date = start_date.strftime("%Y-%m-%d")
-        else:
-            date = date_ymd
-            duration = 1
-
-        gtn = "external" not in entry.get("category")
+        title = title.split("] ", 1)[-1]
+        date, duration, gtn = date_ymd, 1, False
+        for tag in tags:
+            if tag.startswith("starts:"):
+                date = isoparse(tag.split(":", 1)[1]).strftime("%Y-%m-%d")
+            elif tag.startswith("days:"):
+                duration = int(tag.split(":", 1)[1])
+            elif tag.startswith("new event-external"):
+                gtn = True
 
         if geo := entry.get("georss"):
             location_raw = (
@@ -129,7 +123,6 @@ for entry in feed.get("entries", []):
             "gtn": gtn,
             "date": date,
             "days": duration,
-            "tags": list(tags),
             "title": str(title),
             "contact": authors,
             "location": {"name": location},
