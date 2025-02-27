@@ -101,8 +101,6 @@ for entry in feed.get("entries", []):
             elif tag.startswith("new event-external"):
                 gtn = False
 
-        gtn = "external" not in entry.get("category")
-
         if geo := entry.get("georss"):
             location_raw = (
                 Nominatim(user_agent="GTN")
