@@ -21,10 +21,22 @@
                     img-alt="Galaxy Training Academy 2025 call for trainers"
                 ></b-carousel-slide>
             </a>
+            <a href="https://GBCC2025.org/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/GBCC_abstract_splash_screen.png"
+                    img-alt="GBCC2025 abstract submission and registration are now open"
+                ></b-carousel-slide>
+            </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
                     img-src="/images/jxtx/jxtx-jumbotron.png"
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://GBCC2025.org/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/GBCC_abstract_splash_screen.png"
+                    img-alt="GBCC2025 abstract submission and registration are now open"
                 ></b-carousel-slide>
             </a>
         </b-carousel>
