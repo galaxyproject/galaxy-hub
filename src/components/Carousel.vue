@@ -12,7 +12,7 @@
             style="text-shadow: 1px 1px 2px #333"
         >
             <!--
-            It's important that the images here are 13x9 aspect ratio, 
+            It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
             <a href="https://gxy.io/GTA2025-trainer" target="_blank">
