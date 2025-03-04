@@ -17,7 +17,7 @@ subsites: [all, esg, eu]
 
 From **February 4th to 6th**, members of the **Galaxy Freiburg Team** joined the **NFDI4Bioimage All-Hands Meeting** in Düsseldorf, diving into discussions on **bioimage analysis** and **image data management**. Researchers, analysts, and technical experts came together to share insights, showcase progress, and shape the future of the field. The event was filled with energy and collaboration, highlighting the growing potential of bioimage research.  
 
-![Group photo](galaxy-hub/content/news/2025-03-04-NFDI4Bioimage-NewsPost/nfdi4Bi-groupphoto.JPG)
+![Group photo](nfdi4Bi-groupphoto.JPG)
 
 ## Key Discussions
 
@@ -40,7 +40,7 @@ One of the biggest challenges in bioimage analysis is the lack of real-world exa
 
 Another key focus was **OMERO** as tool and platform for managing image data. **Josh Moore** discussed ongoing efforts to make OMERO more accessible in research workflows, enabling scientists to store, organize, and analyze data more efficiently. A structured approach to data management could help researchers track their work and share results more effectively.
 
-![Josh Moore](galaxy-hub/content/news/2025-03-04-NFDI4Bioimage-NewsPost/Josh-Moore-01.JPG)
+![Josh Moore](Josh-Moore-01.JPG)
 
 ### Workflow Standardization
 
