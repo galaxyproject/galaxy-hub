@@ -26,9 +26,8 @@ This sparked engaging conversations on how recent advancements are transforming 
 
 ## Poster Sessions & Knowledge Exchange
 
-The poster sessions and open exchanges provided a space for networking and deeper discussions. Our poster,  
-**_"Advancing FAIR Image Analysis in Galaxy: Tools, Workflows, and Training,"_**  
-fostered meaningful knowledge exchange on community-driven innovation, existing Galaxy tools and workflows, and the future potential of bioimage analysis in Galaxy. 🔬💡  
+The poster sessions and open exchanges provided a space for networking and deeper discussions. Our posters,  
+**_"Advancing FAIR Image Analysis in Galaxy: Tools, Workflows, and Training,"_** and **_"Galaxy Meets OMERO! Overview on the Galaxy OMERO-suite and Vizarr Viewer,"_** fostered meaningful knowledge exchange on community-driven innovation, existing Galaxy tools and workflows, and the future potential of bioimage analysis in Galaxy. 🔬💡  
 
 ## Challenges and Opportunities
 
