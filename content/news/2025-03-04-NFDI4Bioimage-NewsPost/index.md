@@ -67,5 +67,5 @@ This meeting was a **reminder of how far we’ve come**, and how much work lies 
 
 ## More Information
 
-🔗 **[Galaxy Image Analysis Community](https://galaxyproject.org/learn/image-analysis/)**  
+🔗 **[Galaxy Image Analysis Community](https://galaxyproject.org/community/sig/image-analysis/)**  
 🔗 **[NFDI4Bioimage](https://nfdi4bioimage.de/)**  
