@@ -37,7 +37,7 @@ One of the biggest challenges in bioimage analysis is the lack of real-world exa
 
 ### OMERO Integration
 
-Another key focus was **OMERO** as tool and platform for managing image data. **Josh Moore** discussed ongoing efforts to make OMERO more accessible in research workflows, enabling scientists to store, organize, and analyze data more efficiently. A structured approach to data management could help researchers track their work and share results more effectively.
+Another key focus was **OMERO** as a tool and platform for managing image data. **Josh Moore** discussed ongoing efforts to make OMERO more accessible in research workflows, enabling scientists to store, organize, and analyze data more efficiently. A structured approach to data management could help researchers track their work and share results more effectively.
 
 ![Josh Moore](Josh-Moore-01.JPG)
 
