@@ -59,7 +59,7 @@ make it a longer trip to Freiburg and profit from both events.
 </p>
 
 
-Registration is free, but the space is limited to 15 attendees, so we recommend to register soon. Please wait for our confirmation before booking your trip. As this is a hybrid event, remote attendance is also possible (details in the registration).
+Registration is free, but the space is limited to 15 attendees, so we recommend to register soon. Please wait for our confirmation before booking your trip. As this is a hybrid event, remote attendance is also possible.
 
 <div class="row justify-content-center">
   <a class="btn btn-dark px-5 py-4 fs-1" href="https://forms.gle/A2VBPtFwVJjpB4tc7" role="button" target="_blank">Register now</a>
