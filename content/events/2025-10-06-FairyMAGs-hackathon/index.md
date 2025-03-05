@@ -17,6 +17,13 @@ MAGs workflows are both **technically and scientifically challenging**, yet they
 
 As part of the [FairyMAGs project](https://artifact.galaxyproject.org/news/2025-01-09-bfsp-fairy-ma-gs/) withhin the [ELIXIR BFSP Programme](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-security-pathogens), we are organizing a **4-day hackathon** and warmly invite the community to join us in Freiburg. This event is an opportunity to **collaborate, discuss, and improve MAGs workflows together!**  
 
+FAIRyMAGs is led by Paul Zierep and Bérénice Batut in collaboration with four ELIXIR nodes, that will be participating the hackathon.
+
+* ELIXIR France (Bérénice Batut)
+* ELIXIR Germany (Paul Zierep)
+* ELIXIR Italy (Giuseppe Defazio and Bruno Fosso)
+* EMBL-EBI (Martin Beracochea, Santiago Sanchez)
+
 # 🔬 What?
 ## A 4-day scientific and technical hackathon focused on:
 
