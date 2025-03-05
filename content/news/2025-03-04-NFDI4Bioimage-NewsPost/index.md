@@ -15,7 +15,7 @@ subsites: [all, esg, eu]
 
 ## February 4th - 6th, 2025 | Düsseldorf, Germany 🚀
 
-From **February 4th to 6th**, members of the **Galaxy Freiburg Team** joined the **NFDI4Bioimage All-Hands Meeting** in Düsseldorf, diving into discussions on **bioimage analysis** and **image data management**. Researchers, analysts, and technical experts came together to share insights, showcase progress, and shape the future of the field. The event was filled with energy and collaboration, highlighting the growing potential of bioimage research.  
+From **February 4th to 6th**, members of the **Galaxy Community Members** joined the **NFDI4Bioimage All-Hands Meeting** in Düsseldorf, diving into discussions on **bioimage analysis** and **image data management**. Researchers, analysts, and technical experts came together to share insights, showcase progress, and shape the future of the field. The event was filled with energy and collaboration, highlighting the growing potential of bioimage research.  
 
 ![Group photo](nfdi4Bi-groupphoto.JPG)
 
