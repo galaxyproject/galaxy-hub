@@ -6,8 +6,6 @@ location:
   name: "Freiburg, Germany"
 contact: "Paul Zierep, Bérénice Batut"
 tags: [Hackathon]
-organizers:
-  - fair-ease
 supporters:
   - ELIXIR
 subsites: [eu]
