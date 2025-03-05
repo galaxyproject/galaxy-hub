@@ -17,8 +17,8 @@ The seminars are designed to cater to intermediate and advanced analysts,
 focusing on practical, high-level content that extends beyond basic 
 instruction.
 
-On the 26th of February, **Beatrix Serrano-Solano**, **Anne Fouilloux**, **Leonid Kostrykin** and 
-**Riccardo Massei**  helded the webinar **"Image analysis using Galaxy"** where they introduce the [Galaxy Image Analysis Community](https://galaxyproject.org/community/sig/image-analysis/) and highlight
+On the 26th of February, **Beatriz Serrano-Solano**, **Anne Fouilloux**, **Leonid Kostrykin** and 
+**Riccardo Massei** held the webinar **"Image analysis using Galaxy"** where they introduced the [Galaxy Image Analysis Community](https://galaxyproject.org/community/sig/image-analysis/) and highlighted
 its mission to advance the development of FAIR and reproducible image analysis workflows.
  
 ## Galaxy as a web-based, accessible, reproducible, and transparent platform for image analysis
@@ -26,24 +26,23 @@ its mission to advance the development of FAIR and reproducible image analysis w
 The seminar began by exploring Galaxy's capabilities in integrating popular image analysis tools, interactive 
 environments, and notebooks, making it a versatile web platform for image processing. An overview of existing 
 imaging tools, the web-based user interface, and the workflow 
-construction was provided to introduce the Galaxy interface to the seminar attendees. This included giving 
+construction was provided to the seminar attendees. This included giving 
 a feel for the potential use of Galaxy in image processing and analysis. Additionally, 
 an overview of the training materials and the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/imaging/) was given.
 
 ![img.png](img.png)
 
-## Galaxy Live Demos
+## Galaxy live demos
 During the live demonstration, a showcase of various Galaxy features for image analysis took place.
 
-First, a workflow for basic image analysis tasks was demonstrated, including format conversion,
-image enhancement, segmentation, and feature extraction. [This workflow](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/imaging-introduction/tutorial.html) illustrated how to utilize 
-Galaxy tools to create a reproducible analysis pipeline for image analysis, save it, and re-execute 
-it in a reproducible manner.
+First, a workflow for basic image analysis tasks was demonstrated, including image preprocessing and image enhancement, segmentation, and feature extraction. [This workflow](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/imaging-introduction/tutorial.html) illustrated how to utilize 
+Galaxy tools to interactively create a reproducible image analysis pipeline, save it, and re-execute 
+it in a reproducible manner on a large number of images.
 
 Next, the same analysis was repeated using [Jupyter Notebook as an interactive tool](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/jupyterlab/tutorial.html) within Galaxy. 
 The demonstration showed how a similar analysis can be performed outside of a workflow by simply 
 using an interactive tool within Galaxy. This included installing Python libraries suitable for the 
-analysis and converting the final output to a .ome.zarr format.
+analysis and converting the final output to a OME-Zarr format.
 
 Finally, the live demonstration concluded by highlighting the integration of image data management
 and interactive visualization in Galaxy. The features of the [OMERO-suite](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/omero-suite/tutorial.html) were showcased, which merges 
