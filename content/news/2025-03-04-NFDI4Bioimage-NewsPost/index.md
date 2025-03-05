@@ -33,7 +33,7 @@ The poster sessions and open exchanges provided a space for networking and deepe
 
 ### Lack of Real-World Use Cases
 
-One of the biggest challenges in bioimage analysis is the lack of real-world examples. While new technologies continue to push the field forward, many data science researchers struggle to apply these tools without clear **case studies** to follow. Discussions highlighted the need for well-documented examples and shareable datasets to help scientists make better use of available methods.
+One of the biggest challenges in bioimage analysis is the lack of real-world use-cases. While new technologies continue to push the field forward, many data science researchers struggle to apply these tools without clear **case studies** to follow. Discussions highlighted the need for well-documented examples and shareable datasets to help scientists make better use of available methods.
 
 ### OMERO Integration
 
