@@ -5,14 +5,14 @@ end: '2025-04-24'
 location:
   name: "Freiburg, Germany"
 contact: "Beatriz Serrano-Solano, Diana Chiang Jurado"
-tags: [Hackathon]
+tags: [Hackathon,imaging,bioimaging]
 organizers:
   - galaxyfreiburg
   - eurobioimaging
 supporters:
   - nfdi
   - oscars
-subsites: [eu, freiburg, ndfdibioimage, eurobioimaging]
+subsites: [all, esg, eu]
 ---
 
 # Join Us for the Galaxy Imaging Hackathon 2025
