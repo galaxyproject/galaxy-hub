@@ -12,7 +12,7 @@ supporters:
   - nfdi4Bioimage
   - nfdi
   - dfg
-subsites: [all, esg, eu]
+subsites: [all,global,esg,eu]
 ---
 
 # NFDI4Bioimage All-Hands Meeting: A Look Back
