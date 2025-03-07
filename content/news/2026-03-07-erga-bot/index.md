@@ -60,7 +60,7 @@ It handles comments and approvals, updating reviewer statuses in real-time and l
 Once a review is complete, the script updates records, adjusts review points, and sends notifications. It also converts complex documents like PDFs into structured YAML files for easier processing, keeping workloads and histories up-to-date.
 
 
-An example of the ERGA EAR Bot in action can be found [here.](github.com/ERGA-consortium/EARs/pull/85) 
+An example of the ERGA EAR Bot in action can be found [here.](https://github.com/ERGA-consortium/EARs/pull/85) 
 
 For the ERGA-BGE project, the EAR bot has streamlined Assembly Report reviews by automating reviewer assignments, tracking responses, and updating statuses. This has accelerated the process, reduced errors, and ensured fairness, enabling experts to focus on critical evaluation. By managing repetitive tasks, the bot has enhanced efficiency, reliability, and scalability in genome assembly reviews.
 
