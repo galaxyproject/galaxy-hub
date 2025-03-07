@@ -3,7 +3,7 @@ title: "Enhancing Genomic Research: A comprehensive review of FAIR assembly with
 date: "2025-03-07"
 authors: Saim Momin and Arash Kadhkhodaei 
 tease: "Explore how the ERGA EAR Bot is revolutionizing FAIR Assembly reviews in genomic research and contributing in advancing the Biodiversity Genomics Europe (BGE) project"
-subsites: [global, eu, us, freiburg]
+subsites: [global,eu,us,freiburg]
 ---
 
 # **The ERGA EAR Bot**
@@ -12,7 +12,7 @@ The EAR bot is a [GitHub-based](https://github.com/apps/erga-ear-bot) automation
 
 The EAR bot is designed as a GitHub App to offer advanced repository access and customization capabilities, featuring a distinct name and logo for improved integration and user recognition. Unlike standard GitHub Actions, which have limited functionality, the GitHub App provides granular control over permissions, enabling capabilities such as reading and modifying pull requests, assigning reviewers, updating tracking files, and interacting with comments. This architecture ensures seamless automation while preserving security and adaptability.
 
-The EAR bot operates on two core components: *GitHub Action workflows* configured using YAML and *a centralized Python script*. These elements form the architecture of the EAR bot, enabling it to streamline the FAIR review process for assembly reports. GitHub Action workflows assist in automating software development tasks by orchestrating customizable pipelines for building, testing and deploying code. They seamlessly integrate with the GitHub repository, allowing developers to trigger actions based on pull request events —such as when a Pull request (PR) is opened, updated, or commented on—as well as by scheduled tasks. Once activated, they automatically validate pull requests, assign supervisors and reviewers based on pre-defined criteria, process user comments, monitor PR events, and update tracking files. This automation significantly reduces manual intervention, ensuring timely and error-minimized review. The bot enhances efficiency, ensures consistency, and allows experts to prioritize critical evaluations over repetitive tasks, resulting in a faster, more reliable, and transparent review process.
+The EAR bot operates on two core components: *GitHub Action workflows* configured using YAML and *a centralized Python script*. These elements form the architecture of the EAR bot, enabling it to streamline the FAIR review process for assembly reports. GitHub Action workflows assist in automating software development tasks by orchestrating customizable pipelines for building, testing and deploying code. They seamlessly integrate with the GitHub repository, allowing developers to trigger actions based on pull request events —such as when a Pull Request (PR) is opened, updated, or commented on—as well as by scheduled tasks. Once activated, they automatically validate pull requests, assign supervisors and reviewers based on pre-defined criteria, process user comments, monitor PR events, and update tracking files. This automation significantly reduces manual intervention, ensuring timely and error-minimized review. The bot enhances efficiency, ensures consistency, and allows experts to prioritize critical evaluations over repetitive tasks, resulting in a faster, more reliable, and transparent review process.
 
 <div align="center">
     <img src="ERGA_bot.png" alt="A graphical representation of FAIR review process using ERGA Bot" width="600"/>
@@ -25,7 +25,7 @@ The EAR Bot simplifies and automates the review process for assembly reports usi
 
 **1) New PR Handling: Find a supervisor & add label**
 
-Triggered by a new EAR submission, this workflow applies a project label, identifies a supervisor using internal criteria, and validates the PR. It ensures only one file is modified, the change is a new EAR, and the PR body follows the required template. If issues arise, it reports an error and terminates.
+Triggered by a new EAR submission, this workflow applies a project label, identifies a supervisor using internal criteria, and validates the PR. It ensures that only one file is modified, the change is a new EAR, and the PR body follows the required template. If issues arise, it reports an error and terminates.
 
 **2+4) Reviewer Assignment: Triggered by Comments**
 
@@ -60,7 +60,7 @@ It handles comments and approvals, updating reviewer statuses in real-time and l
 Once a review is complete, the script updates records, adjusts review points, and sends notifications. It also converts complex documents like PDFs into structured YAML files for easier processing, keeping workloads and histories up-to-date.
 
 
-An example of ERGA EAR Bot in action can be found [here.](github.com/ERGA-consortium/EARs/pull/85) 
+An example of the ERGA EAR Bot in action can be found [here.](github.com/ERGA-consortium/EARs/pull/85) 
 
 For the ERGA-BGE project, the EAR bot has streamlined Assembly Report reviews by automating reviewer assignments, tracking responses, and updating statuses. This has accelerated the process, reduced errors, and ensured fairness, enabling experts to focus on critical evaluation. By managing repetitive tasks, the bot has enhanced efficiency, reliability, and scalability in genome assembly reviews.
 
