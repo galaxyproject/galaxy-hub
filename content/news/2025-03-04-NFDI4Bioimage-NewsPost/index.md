@@ -5,6 +5,7 @@ contributions:
   funding: [dfg,nfdi4bioimage]
 tags: [meeting]
 layout: news
+date: "2025-03-04"
 cover: "news/images/nfdi4bioimage_allhands2025.png"
 coveralt: "Group photo from the NFDI4Bioimage All-Hands Meeting 2025"
 tease: "Progress, possibilities, and the future: Our journey at the NFDI4Bioimage continues!"
