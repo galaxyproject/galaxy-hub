@@ -1,13 +1,17 @@
 ---
-title: Highlights of the NFDI4Bioimage All-Hands-Meeting!
-date: '2025-02-04'
-days: 3
-tease: "Progress, possibilities, and the future: Our journey at the NFDI4Bioimage continues!"
+title: "Highlights of the NFDI4Bioimage All-Hands-Meeting!"
+contributions:
+  authorship: [dianichj]
+  funding: [dfg,nfdi4bioimage]
 tags: [meeting]
+layout: news
+cover: "news/images/nfdi4bioimage_allhands2025.png"
+coveralt: "Group photo from the NFDI4Bioimage All-Hands Meeting 2025"
+tease: "Progress, possibilities, and the future: Our journey at the NFDI4Bioimage continues!"
 supporters:
-- nfdi4Bioimage
-- nfdi
-- dfg
+  - nfdi4Bioimage
+  - nfdi
+  - dfg
 subsites: [all, esg, eu]
 ---
 
@@ -18,6 +22,7 @@ subsites: [all, esg, eu]
 From **February 4th to 6th**, members of the **Galaxy Community Members** joined the **NFDI4Bioimage All-Hands Meeting** in Düsseldorf, diving into discussions on **bioimage analysis** and **image data management**. Researchers, analysts, and technical experts came together to share insights, showcase progress, and shape the future of the field. The event was filled with energy and collaboration, highlighting the growing potential of bioimage research.  
 
 ![Group photo](nfdi4Bi-groupphoto.JPG)
+<p align="center"><sub>📷 © Christian Schmidt | NFDI4Bioimage</sub></p>
 
 ## Key Discussions
 
@@ -27,7 +32,7 @@ This sparked engaging conversations on how recent advancements are transforming 
 ## Poster Sessions & Knowledge Exchange
 
 The poster sessions and open exchanges provided a space for networking and deeper discussions. Our posters,  
-**_"Advancing FAIR Image Analysis in Galaxy: Tools, Workflows, and Training,"_** and **_"Galaxy Meets OMERO! Overview on the Galaxy OMERO-suite and Vizarr Viewer,"_** fostered meaningful knowledge exchange on community-driven innovation, existing Galaxy tools and workflows, and the future potential of bioimage analysis in Galaxy. 🔬💡  
+**_["Advancing FAIR Image Analysis in Galaxy: Tools, Workflows, and Training"](https://zenodo.org/records/14979253)_** and **_["Galaxy Meets OMERO! Overview on the Galaxy OMERO-suite and Vizarr Viewer"](https://zenodo.org/records/14975462)_** fostered meaningful knowledge exchange on community-driven innovation, existing Galaxy tools and workflows, and the future potential of bioimage analysis in Galaxy. 🔬💡  
 
 ## Challenges and Opportunities
 
@@ -40,6 +45,7 @@ One of the biggest challenges in bioimage analysis is the lack of real-world use
 Another key focus was **OMERO** as a tool and platform for managing image data. **Josh Moore** discussed ongoing efforts to make OMERO more accessible in research workflows, enabling scientists to store, organize, and analyze data more efficiently. A structured approach to data management could help researchers track their work and share results more effectively.
 
 ![Josh Moore](Josh-Moore-01.JPG)
+<p align="center"><sub>📷 © Christian Schmidt | NFDI4Bioimage</sub></p>
 
 ### Workflow Standardization
 
