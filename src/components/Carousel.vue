@@ -15,10 +15,10 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="https://gxy.io/GTA2025-trainer" target="_blank">
+            <a href="https://gxy.io/GTA2025" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/trainingAcademyAD.png"
-                    img-alt="Galaxy Training Academy 2025 call for trainers"
+                    img-src="/images/usegalaxy-welcome/carousel_gta_2025_registration.png"
+                    img-alt="Galaxy Training Academy 2025 registration is now open"
                 ></b-carousel-slide>
             </a>
             <a href="https://GBCC2025.org/" target="_blank">
