@@ -13,7 +13,7 @@ subsites: [eu]
 
 # Join Us for Optimising Metagenomics Assembled Genomes Building Workflows
 
-MAGs workflows are both **technically and scientifically challenging**, yet they are **essential tools** for reducing microbial dark matter, as most microbes cannot be cultivated.  
+Metagenomics Assembled Genomes building workflows are both **technically and scientifically challenging**, yet they are **essential tools** for reducing microbial dark matter, as most microbes cannot be cultivated.  
 
 As part of the [FAIRyMAGs project](https://artifact.galaxyproject.org/news/2025-01-09-bfsp-fairy-ma-gs/) within the [ELIXIR BFSP Programme](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-security-pathogens), we are organizing a **4-day hackathon (October 6-9th)** and 1-day for an optional social event (October 10th). We warmly invite the community to join us in Freiburg. This event is an opportunity to **collaborate, discuss, and improve MAGs workflows together!**  
 
@@ -56,17 +56,34 @@ Seminar room in Freiburg Galaxy team building:
 Georges-Köhler-Allee 79
 79110 Freiburg
 Germany
-You can get there with the S1 or M4 from Freiburg Main Station or City center.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1334.5013784351295!2d7.831373329373388!3d48.01365661220275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911b00372b1dc5%3A0x1328d244d8da765d!2sFreiburg%20Galaxy%20Project!5e0!3m2!1sen!2sde!4v1741177093724!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+### Getting to Freiburg
+
+Freiburg can be easily reached by train with the ICE from the North (via Frankfurt and Karlsruhe) and the South (via
+Basel) [Deutsche Bahn](https://www.bahn.com/en).
+
+#### How to reach Freiburg from Basel/Mulhouse/Freiburg airport (EuroAirport)?
+
+- Option 1: Use the French/German exit and take
+  the [airport shuttle bus](https://www.freiburger-reisedienst.de/index.php) to Freiburg main station (Hauptbahnhof).
+- Option 2: Use the Swiss exit and take the local bus (#50) to the train station in Basel and from there take a train
+  to Freiburg.
+
+#### How to reach the venue from Freiburg Hauptbahnhof?
+
+- Option 1: Local train; Take the Breisgau S-Bahn from Hauptbahnhof Freiburg to Gottenheim/Breisach towards "Freiburg Messe/Universität".
+- Option 2: Tram 4 direction "Messe"; Exit at the stop "Technische Fakultät" (see [tram plan](https://www.vag-freiburg.de/fahrplan/liniennetzplaene)).
+
+The [mobile app](https://www2.bwegt.de/reiseinformationen/apps) of the local public transport company [bwegt](https://www2.bwegt.de/) can also be very helpful to check the schedule of the trains and buses.
+
+### Tram tickets for local transport
+
+[Here](https://www.vag-freiburg.de/tickets) you can find the types of tram tickets that VAG offers.
+The [2x4 rides ticket](https://www.vag-freiburg.de/ticket/2x4-fahrten-karte) and the [day pass](https://www.vag-freiburg.de/ticket/tageskarte-solo) are convenient options for several days and/or passengers.
 
 # Registration
-
-<p align="center">
-  <img src="./hackathon.png" alt="Representation of the Hackathon" width="300">
-</p>
-
 
 Registration is free, but the space is limited to 15 attendees, so we recommend to register soon. Please wait for our confirmation before booking your trip. As this is a hybrid event, remote attendance is also possible.
 
@@ -130,7 +147,14 @@ Please, make sure that you read it before the event.
 
 This event follows the data protection policy established by the University of Freiburg as the host of the event. For details please refer to https://uni-freiburg.de/en/data-protection-applications/
 
-## Next steps
-Keep an 👁️ out for the outcomes of this Hackathon that will be publish afterwards. 
+## Supporters
+
+<figure class="figure">
+  <img src="https://www.denbi.de/templates/nbimaster/img/denbi-logo-color.svg" alt="de.NBI Logo" width="150" style="margin-right: 30px;" />
+  <img src="https://elixir-europe.org/sites/default/files/white-orange-logo.png" alt="ELIXIR Logo" width="150" style="margin-right: 30px;" />
+  <img src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg" alt="IFB Logo" width="150" />
+</figure>
+
+
 
 For any iformation contact Paul Zierep (email: zierep@informatik.uni-freiburg.de) or Bérénice Batut (email: berenice.batut@gmail.com)
