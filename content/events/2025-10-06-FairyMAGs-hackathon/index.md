@@ -1,21 +1,26 @@
 ---
-title: "FairyMAGs Hackathon 2025: Optimising Metagenomics Assembled Genomes building 🚀"
+title: "FAIRyMAGs Hybrid Hackathon 2025: Optimising Metagenomics Assembled Genomes building 🚀"
 date: '2025-10-06'
 end: '2025-10-09'
 location:
   name: "Freiburg, Germany"
+continent: EU
 contact: "Paul Zierep, Bérénice Batut"
-tags: [Hackathon]
+tags: [hackathon, microbial, metagenomics, assembly, training]
 supporters:
   - ELIXIR
-subsites: [eu]
+  - de.NBI
+  - IFB
+subsites: [all]
+tease: "This 4-day hybrid hackathon aims to optimize Metagenomics Assembled Genomes Building workflows"
+hide_tease: true
 ---
 
 # Join Us for Optimising Metagenomics Assembled Genomes Building Workflows
 
 Metagenomics Assembled Genomes building workflows are both **technically and scientifically challenging**, yet they are **essential tools** for reducing microbial dark matter, as most microbes cannot be cultivated.  
 
-As part of the [FAIRyMAGs project](https://artifact.galaxyproject.org/news/2025-01-09-bfsp-fairy-ma-gs/) within the [ELIXIR BFSP Programme](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-security-pathogens), we are organizing a **4-day hackathon (October 6-9th)** and 1-day for an optional social event (October 10th). We warmly invite the community to join us in Freiburg. This event is an opportunity to **collaborate, discuss, and improve MAGs workflows together!**  
+As part of the [FAIRyMAGs project](https://artifact.galaxyproject.org/news/2025-01-09-bfsp-fairy-ma-gs/) within the [ELIXIR BFSP Programme](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-security-pathogens), we are organizing a **4-day hackathon (October 6-9th)** and 1-day for an optional social event (October 10th). We warmly invite the community to join us either **in person in Freiburg** or **online**. This event is an opportunity to **collaborate, discuss, and improve MAGs workflows together!**  
 
 FAIRyMAGs is led by Paul Zierep (ELIXIR-DE) and Bérénice Batut (ELIXIR-FR) in collaboration with Giuseppe Defazio (ELIXIR-IT), Bruno Fosso (ELIXIR-IT), Martin Beracochea (EMBL-EBI), Santiago Sanchez (EMBL-EBI), that will be participating the hackathon.
 
@@ -149,11 +154,13 @@ This event follows the data protection policy established by the University of F
 
 ## Supporters
 
-<figure class="figure">
-  <img src="https://www.denbi.de/templates/nbimaster/img/denbi-logo-color.svg" alt="de.NBI Logo" width="150" style="margin-right: 30px;" />
-  <img src="https://elixir-europe.org/sites/default/files/white-orange-logo.png" alt="ELIXIR Logo" width="150" style="margin-right: 30px;" />
-  <img src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg" alt="IFB Logo" width="150" />
-</figure>
+<div style="max-width: 300px">
+
+![logo de.NBI](/images/logos/deNBILogo.png)
+![logo IFB](/images/logos/IFB.png)
+![logo ELIXIR](/images/logos/elixir-logo-big.png)
+
+</div>
 
 
 
