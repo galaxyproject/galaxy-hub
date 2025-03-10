@@ -1,5 +1,5 @@
 ---
-title: FairyMAGs Hackathon 2025
+title: "FairyMAGs Hackathon 2025: Optimising Metagenomics Assembled Genomes building 🚀"
 date: '2025-10-06'
 end: '2025-10-09'
 location:
@@ -11,53 +11,55 @@ supporters:
 subsites: [eu]
 ---
 
-# FairyMAGs Hackathon: Optimising Metagenomics Assembled Genomes building 🚀 
+# Join Us for Optimising Metagenomics Assembled Genomes Building Workflows
 
 MAGs workflows are both **technically and scientifically challenging**, yet they are **essential tools** for reducing microbial dark matter, as most microbes cannot be cultivated.  
 
-As part of the [FairyMAGs project](https://artifact.galaxyproject.org/news/2025-01-09-bfsp-fairy-ma-gs/) withhin the [ELIXIR BFSP Programme](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-security-pathogens), we are organizing a **4-day hackathon** and warmly invite the community to join us in Freiburg. This event is an opportunity to **collaborate, discuss, and improve MAGs workflows together!**  
+As part of the [FAIRyMAGs project](https://artifact.galaxyproject.org/news/2025-01-09-bfsp-fairy-ma-gs/) within the [ELIXIR BFSP Programme](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-security-pathogens), we are organizing a **4-day hackathon (October 6-9th)** and 1-day for an optional social event (October 10th). We warmly invite the community to join us in Freiburg. This event is an opportunity to **collaborate, discuss, and improve MAGs workflows together!**  
 
-FAIRyMAGs is led by Paul Zierep and Bérénice Batut in collaboration with four ELIXIR nodes, that will be participating the hackathon.
+FAIRyMAGs is led by Paul Zierep (ELIXIR-DE) and Bérénice Batut (ELIXIR-FR) in collaboration with Giuseppe Defazio (ELIXIR-IT), Bruno Fosso (ELIXIR-IT), Martin Beracochea (EMBL-EBI), Santiago Sanchez (EMBL-EBI), that will be participating the hackathon.
 
-* ELIXIR France (Bérénice Batut)
-* ELIXIR Germany (Paul Zierep)
-* ELIXIR Italy (Giuseppe Defazio and Bruno Fosso)
-* EMBL-EBI (Martin Beracochea, Santiago Sanchez)
+# Event Details
 
-# 🔬 What?
-## A 4-day scientific and technical hackathon focused on:
 
-### 🚀 Enhancing FAIR MAGs Workflows
-* 🧩 Optimizing assembly strategies
-  * Individual assembly vs. co-assembly vs. grouped-assembly
-  * Automating decision-making for assembly selection
-* 🔍 Bin refinement improvements
-  * Where do we go beyond MetaWrap?
-  * 🏗️ Should we integrate more binning tools for better results?
+- **Dates**: October 06th–10th, 2025
+   
+      This event is right after the [European Galaxy Days (EGD)](/events/2025-10-01-egd2025/), so you have the chance to make it a longer trip to Freiburg and profit from both events. 
 
-### 📚 Developing user-friendly training materials
-* 🛠️ What parameters should users adjust?
-* 🧑‍🏫 How to make complex concepts more accessible?
+- **Location**: Georges-Koehler-Allee 079, D-79110 Freiburg, Germany & Online
+- **Cost**: Free
+- **Contact**: Paul Zierep, Bérénice Batut
+- **Focus**: Enhancing FAIR MAGs building Workflows, Developing user-friendly training materials, Advancing workflow evaluation methods, Building intelligent computational resource estimation tools
 
-### 📊 Advancing evaluation methods (using CAMI infrastructure & real data)
-* 🧬 Have metagenomic WGS samples? Want to create MAGs? This is your chance!
 
-### ⚙️ Building intelligent resource estimation tools
-* 🚦 Whether you're using Nextflow, Snakemake, or Galaxy, resource allocation is key
-* ❌ Over-provisioning wastes resources; under-provisioning leads to failed jobs
-* 🌍 Let’s design workflow-agnostic tools that optimize resource usage, reducing computational waste and environmental impact!
+# Objectives
 
-# 📍 Where? 
-Seminar room at Georges-Köhler-Allee 79, 79110 Freiburg
+The objectives of this 4-day scientific and technical hackathon are to optimize Metagenomics Assembled Genomes building by:
+
+- 🚀 **Enhancing FAIR MAGs building Workflows**
+  - Optimizing assembly strategies: Individual assembly vs. co-assembly vs. grouped-assembly, Automating decision-making for assembly selection
+  - Bin refinement improvements: Where do we go beyond MetaWrap? Should we integrate more binning tools for better results?
+
+- 📚 **Developing user-friendly training materials**
+
+- 📊 **Advancing workflow evaluation methods** (using CAMI infrastructure & real data)
+
+       Have metagenomic WGS samples? Want to create MAGs? This is your chance!
+
+- ⚙️ **Building intelligent computational resource estimation tools**
+
+    Whether you're using Nextflow, Snakemake, or Galaxy, resource allocation is key. Over-provisioning wastes resources; under-provisioning leads to failed jobs. Let’s **design** **workflow-agnostic tools** that **optimize resource usage**, **reducing computational waste and environmental impact**!
+
+# Venue
+Seminar room in Freiburg Galaxy team building:
+
+Georges-Köhler-Allee 79
+79110 Freiburg
+Germany
 You can get there with the S1 or M4 from Freiburg Main Station or City center.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1334.5013784351295!2d7.831373329373388!3d48.01365661220275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911b00372b1dc5%3A0x1328d244d8da765d!2sFreiburg%20Galaxy%20Project!5e0!3m2!1sen!2sde!4v1741177093724!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-# 📅 When?
-October 06-09, 2025
-
-This event is right after the [European Galaxy Days (EGD)](https://galaxyproject.org/events/2025-10-01-egd2025/), so you have the chance to 
-make it a longer trip to Freiburg and profit from both events. 
 
 # Registration
 
@@ -74,13 +76,13 @@ Registration is free, but the space is limited to 15 attendees, so we recommend 
 
 # Remote attendance
 
-Hacking is not restricted to onsite, we appreciate your participation from anywhere else, too. We provide a Zoom connection and involve a Meeting Owl to include you as close as possible.
+Hacking is not restricted to onsite, we appreciate your participation from anywhere else, too. We will have a Zoom room, open the whole 4 days, and involve a Meeting Owl to include you as close as possible.
 
-# Schedule
+# Preliminary Schedule
 
-Times to start for each day and the particular schedules are listed down below. All days do not have a fixed end time (onsite decision with the participants).
+The schedule is quite flexible: all days do not have a fixed end time (onsite decision with the participants). No requirement to join the whole week.
 
-**Monday, October 6th**
+## Monday, October 6th
 
 | Time | Topic |
 |---|---|
@@ -91,21 +93,21 @@ Times to start for each day and the particular schedules are listed down below. 
 | 12:00 | Lunch |
 | 13:00 | Hacking |
 
-**Tuesday, October 7th**
+## Tuesday, October 7th
 
 | Time | Topic |
 |---|---|
 | 9:30 | Hacking days - Stand-up meeting |
 | 12:00 | Lunch |
 
-**Wednesday, October 8th**
+## Wednesday, October 8th
 
 | Time | Topic |
 |---|---|
 | 9:30 | Hacking days - Stand-up meeting |
 | 12:00 | Lunch |
 
-**Thursday, October 9th**
+## Thursday, October 9th
 
 | Time | Topic |
 |---|---|
@@ -113,7 +115,7 @@ Times to start for each day and the particular schedules are listed down below. 
 | 12:00 | Lunch |
 | 12:30 | Presentations of Hackathon outcomes |
 
-**Friday, October 10th**
+## Friday, October 10th
 
 Social event optional. Sight seeing in Freiburg or visit to [Mundenhof Tier Park](https://www.mundenhof.de/).
 
@@ -131,4 +133,4 @@ This event follows the data protection policy established by the University of F
 ## Next steps
 Keep an 👁️ out for the outcomes of this Hackathon that will be publish afterwards. 
 
-For any iformation contact Paul Zierep (email: zierep@informatik.uni-freiburg.de) or Bérénice Batut (email: berenicebatut@gmail.com)
+For any iformation contact Paul Zierep (email: zierep@informatik.uni-freiburg.de) or Bérénice Batut (email: berenice.batut@gmail.com)
