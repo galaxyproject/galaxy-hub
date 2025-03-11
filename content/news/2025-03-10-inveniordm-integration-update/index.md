@@ -8,20 +8,27 @@ tags: ["Invenio", "Zenodo", "research data management"]
 subsites: [global, all-eu]
 ---
 
-Some time back, [in this post](../2024-05-03-inveniordm-integration/), we introduced an integration that aimed to enhance **research data management in Galaxy** by connecting it with InvenioRDM-compatible repositories like [Zenodo](https://zenodo.org). This integration allowed users to export research results directly from Galaxy to their institution's InvenioRDM repository or Zenodo and import files from these repositories into Galaxy for further analysis.
+Some time back, [in this post](../2024-05-03-inveniordm-integration/), we introduced an integration that aimed to enhance **research data management in Galaxy** by connecting it with
+InvenioRDM-compatible repositories like [Zenodo](https://zenodo.org). This integration allowed users to export research results directly from Galaxy to their institution's InvenioRDM repository or
+Zenodo and import files from these repositories into Galaxy for further analysis.
 
-We’ve recently introduced some general improvements to give users more control over managing their data repositories in Galaxy, along with enhancements in the user interface in the upcoming Galaxy 25.0 release. With this update, managing external data sources is now more user-friendly and customizable, ensuring a smoother experience when importing and exporting research data.
+We’ve recently introduced some general improvements to give users more control over managing their data repositories in Galaxy, along with enhancements in the user interface in the upcoming Galaxy 25.0 release.
+With this update, managing external data sources is now more user-friendly and customizable, ensuring a smoother experience when importing and exporting research data.
 
-We've also addressed some of the limitations of the previous integration, such as the limited number of records that could be listed, the lack of support for pagination, and the inability to use the `Export datasets` tool with InvenioRDM repositories.
+We've also addressed some of the limitations of the previous integration, such as the limited number of records that could be listed, the lack of support for pagination, and the inability to use
+the `Export datasets` tool with InvenioRDM repositories.
 
 ## What's New?
 
-Previously, depending on the server, Galaxy could present a long list of integration options when users tried to import or export data, which could be overwhelming, especially for users who only use a few of them. Also, when an integration required credentials, users had to find the right place to enter them under the `User Preferences -> Manage Information` section along with a potentially long list of other settings.
-Now, you can **create, manage and configure your remote data integrations** from a dedicated section in your **User Preferences**. This improvement allows you to tailor your integrations to only those relevant to your use case, making the interface cleaner and more focused on your needs.
+Previously, depending on the server, Galaxy could present a long list of integration options when users tried to import or export data, which could be overwhelming, especially for users who only use a few of them.
+Also, when an integration required credentials, users had to find the right place to enter them under the `User Preferences -> Manage Information` section along with a potentially long list of other settings.
+Now, you can **create, manage and configure your remote data integrations** from a dedicated section in your **User Preferences**. This improvement allows you to tailor your integrations to only those relevant to your use case,
+making the interface cleaner and more focused on your needs.
 
 ### How to integrate InvenioRDM repositories
 
-The new **Manage Your Remote File Sources** section is available under **User → Preferences**. We will integrate the [_Zenodo Sandbox_](https://sandbox.zenodo.org/) instance for demonstration purposes, but you can also configure your institution's InvenioRDM instance. Here’s how it works:
+The new **Manage Your Remote File Sources** section is available under **User → Preferences**. We will integrate the [_Zenodo Sandbox_](https://sandbox.zenodo.org/) instance for demonstration purposes,
+but you can also configure your institution's InvenioRDM instance. Here’s how it works:
 
 1. Navigate to **User → Preferences → Manage Your Remote File Sources**. If you haven't set up any integrations yet, you'll see an empty list.
    ![Manage Your Remote File Sources](./1-empty-file-sources-list.png)
@@ -40,10 +47,10 @@ The new **Manage Your Remote File Sources** section is available under **User �
 
 This new approach comes with several advantages:
 
--   **Decluttered Interface**: More focused list of integration, instead of an overwhelming list of all possible sources that may or may not be relevant to you. Galaxy instances will still provide publicly available integrations globally, but those requiring credentials will be managed by you. The old integrations will still be available for some time, but gradually phased out and removed from the interface.
+-   **Decluttered Interface**: A More focused list of integration, instead of an overwhelming list of all possible sources that may or may not be relevant to you. Galaxy instances will still provide publicly available integrations globally, but those requiring credentials will be managed by you. The old integrations will still be available for some time but will gradually be phased out and removed from the interface.
 -   **Customization**: You can tailor your integrations to your needs, giving your own names and descriptions to easily identify.
 -   **Faster Access**: Your configured integrations are prioritized when importing/exporting, making them easier to find.
--   **Easier Management**: You can update or remove integrations anytime from **User Preferences** reducing the need to search for the right place to enter credentials.
+-   **Easier Management**: You can update or remove integrations anytime from **User Preferences**, reducing the need to search for the right place to enter credentials.
 
 ## Getting Started
 
