@@ -24,8 +24,16 @@ As part of the [FAIRyMAGs project](https://artifact.galaxyproject.org/news/2025-
 
 FAIRyMAGs is led by Paul Zierep (ELIXIR-DE) and Bérénice Batut (ELIXIR-FR) in collaboration with Giuseppe Defazio (ELIXIR-IT), Bruno Fosso (ELIXIR-IT), Martin Beracochea (EMBL-EBI), Santiago Sanchez (EMBL-EBI), that will be participating the hackathon.
 
-# Event Details
+# Registration
 
+Registration is free, but the space is limited to 15 attendees, so we recommend to register soon. Please wait for our confirmation before booking your trip. As this is a hybrid event, remote attendance is also possible.
+
+<div class="row justify-content-center">
+  <a class="btn btn-dark px-5 py-4 fs-1" href="https://forms.gle/KQK7arqNjqthLRcG6" role="button" target="_blank">Register now</a>
+</div>
+
+
+# Event Details
 
 - **Dates**: October 06th–10th, 2025
    
@@ -87,14 +95,6 @@ The [mobile app](https://www2.bwegt.de/reiseinformationen/apps) of the local pub
 
 [Here](https://www.vag-freiburg.de/tickets) you can find the types of tram tickets that VAG offers.
 The [2x4 rides ticket](https://www.vag-freiburg.de/ticket/2x4-fahrten-karte) and the [day pass](https://www.vag-freiburg.de/ticket/tageskarte-solo) are convenient options for several days and/or passengers.
-
-# Registration
-
-Registration is free, but the space is limited to 15 attendees, so we recommend to register soon. Please wait for our confirmation before booking your trip. As this is a hybrid event, remote attendance is also possible.
-
-<div class="row justify-content-center">
-  <a class="btn btn-dark px-5 py-4 fs-1" href="https://forms.gle/A2VBPtFwVJjpB4tc7" role="button" target="_blank">Register now</a>
-</div>
 
 # Remote attendance
 
