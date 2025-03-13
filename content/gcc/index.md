@@ -4,6 +4,8 @@ title: Galaxy Community Conferences (GCCs)
 
 <div class="text-center inline-div">
 
+<a href="https://gbcc2025.org/"><img src="/news/2026-01-31-GBCC-LOGO/gbcclogo.jpg" alt="2025 Galaxy and Bioconductor Community Conference logo" width="200" /></a> &nbsp;&nbsp;
+<a href="/events/gcc2024/"><img src="/images/events/gcc2024/gcc2024-banner-3.png" alt="2024 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2023/"><img src="/images/events/gcc2023/gcc2023-logo.png" alt="2023 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="2021 Galaxy Community Conference" width="150" /></a> &nbsp;&nbsp;
 <a href="https://bcc2020.github.io/"><img src="/events/bcc2020/bcc2020-logo-white-wide-1000.png" alt="2020 Bioinformatics Community Conference" width="200" /></a> &nbsp;&nbsp;
