@@ -9,6 +9,7 @@
         "/blog": "blog",
         "/events": "events",
         "/news": "news",
+        "/papers": "papers",
         "/careers": "careers",
         "/projects/covid19": "covid19"
     },

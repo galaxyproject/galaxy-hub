@@ -504,6 +504,7 @@ module.exports = function (api) {
     let platformsData;
     let eventsData;
     let newsData;
+    let papersData;
     api.createPages(async ({ graphql }) => {
         platformsData = await graphql(`
             query {
@@ -596,6 +597,34 @@ module.exports = function (api) {
                 }
             }
         `);
+
+         papersData = await graphql(`
+            query {
+                 allParentArticle(filter: { tags: { eq: "paper" } }) {
+                     totalCount
+                     edges {
+                         node {
+                             id
+                             title
+                             tease
+                             days_ago
+                             date(format: "D MMMM YYYY")
+                             subsites
+                             main_subsite
+                             tags
+                             contact
+                             image
+                             authors
+                             authors_structured {
+                                 github
+                             }
+                             external_url
+                             path
+                         }
+                     }
+                 }
+             }
+       `);
     });
 
     api.configureServer(async (app) => {
@@ -613,6 +642,11 @@ module.exports = function (api) {
         app.get("/news/feed.json", (request, response) => {
             response.set("Content-Type", "application/json");
             response.send(makeNewsJson(newsData));
+        });
+
+        app.get("/papers/feed.json", (request, response) => {
+            response.set("Content-Type", "application/json");
+            response.send(makePapersJson(papersData));
         });
     });
 
@@ -647,6 +681,14 @@ module.exports = function (api) {
         fs.writeFile(newsFeedPath, makeNewsJson(newsData), (error) => {
             if (error) throw error;
         });
+
+        // Write out events JSON to /papers/feed.json
+        const papersOutDir = path.join(__dirname, "dist", "papers");
+        fs.mkdirSync(papersOutDir, { recursive: true });
+        const papersFeedPath = path.join(papersOutDir, "feed.json");
+        fs.writeFile(papersFeedPath, makePapersJson(papersData), (error) => {
+            if (error) throw error;
+        }); 
     });
 };
 
@@ -720,6 +762,17 @@ function makeNewsJson(newsData) {
     const data = {
         count: news.length,
         news: news,
+    };
+    return JSON.stringify(data, null, "  ");
+}
+
+function makePapersJson(papersData) {
+    const papers = papersData.data.allParentArticle.edges
+        .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
+        .map((edge) => edge.node);
+    const data = {
+        count: papers.length,
+        papers: papers,
     };
     return JSON.stringify(data, null, "  ");
 }

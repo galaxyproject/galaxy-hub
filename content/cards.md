@@ -1,5 +1,9 @@
 ---
 list:
+- name: papers
+  type: dynamic
+  title: Papers
+  link: /papers/
 - name: news
   type: dynamic
   title: News
