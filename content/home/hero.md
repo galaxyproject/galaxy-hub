@@ -1,8 +1,9 @@
 ---
 heading: Meet Galaxy
-notification: Galaxy Community Conference is behind us. <strong><a href="/events/gcc2024/" class="ml-2">See what happened.</a></strong>
+notification: The <a href="https://gbcc2025.org">Galaxy Biocondunctor Community Conference</a> and <a href="https://training.galaxyproject.org/training-material/events/2025-05-12-galaxy-academy-2025.html">Galaxy Training Academy</a> are soon!
 description: Meet Galaxy - <br>a data analysis universe
-image: <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub logo">
+image: <img src="/images/GBCC2025_hub_splash_screen.png" alt="GBCC2025 banner">
+image2: <img src="/images/carousel_gta_2025_registration-cropped.png" alt="GTA2025 cropped banner">
 button1: Use Galaxy now
 button2: "Learn more: First Steps with Galaxy"
 buttonUrl2: /get-started/

@@ -53,6 +53,9 @@
                 <div class="col-lg-5">
                     <div v-html="$page.hero.image"></div>
                 </div>
+                <div class="col-lg-5">
+                    <div v-html="$page.hero.image2"></div>
+                </div>
             </div>
         </div>
         <div class="container-fluid-real p-0">
