@@ -34,19 +34,22 @@
                                         id="dropdownMenuLink"
                                         data-toggle="dropdown"
                                         aria-haspopup="true"
-                                        aria-expanded="false">
+                                        aria-expanded="false"
+                                    >
                                         UseGalaxy:
                                         {{ site.locale }}
                                     </a>
                                     <div
                                         class="dropdown-menu hero bgBright m-0 pb-0"
-                                        aria-labelledby="dropdownMenuLink">
+                                        aria-labelledby="dropdownMenuLink"
+                                    >
                                         <a
                                             v-for="site in this.prioritizedGalaxyLocales.slice(1)"
                                             :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
-                                            class="dropdown-item">
+                                            class="dropdown-item"
+                                        >
                                             {{ $page.hero.button1 }}:
                                             {{ site.locale }}
                                         </a>
@@ -61,8 +64,14 @@
                     <a href="https://gbcc2025.org" class="d-block mb-3">
                         <img src="/images/GBCC2025_hub_splash_screen.png" alt="GBCC2025 banner" class="img-fluid" />
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRzPhmwhIiynJQVFaFBWB6u1pDp0VwpPCdZs8qS7a6WjpR1w/viewform">
-                        <img src="/images/carousel_gta_2025_registration-cropped.png" alt="GTA2025 cropped banner" class="img-fluid" />
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfRzPhmwhIiynJQVFaFBWB6u1pDp0VwpPCdZs8qS7a6WjpR1w/viewform"
+                    >
+                        <img
+                            src="/images/carousel_gta_2025_registration-cropped.png"
+                            alt="GTA2025 cropped banner"
+                            class="img-fluid"
+                        />
                     </a>
                 </div>
             </div>
@@ -84,7 +93,8 @@
                                     :href="'#' + slugify($page.datasetEducation.heading)"
                                     :aria-label="slugify($page.datasetEducation.heading)"
                                     aria-hidden="true"
-                                    tabindex="-1">
+                                    tabindex="-1"
+                                >
                                     <span class="icon icon-link" tabindex="-1"></span>
                                 </a>
                                 {{ $page.datasetEducation.heading }}
@@ -99,7 +109,8 @@
                                 role="link"
                                 rel="noopener"
                                 target="_blank"
-                                class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3">
+                                class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
+                            >
                                 <span class="text-center iconXlarge pt-1 mr-3">
                                     <i :class="'icon fa ' + education.icon + ' '" aria-hidden="true"></i>
                                 </span>
@@ -125,7 +136,8 @@
                         :href="'#' + slugify(this.$static.datasetCallouts.heading)"
                         :aria-label="slugify(this.$static.datasetCallouts.heading)"
                         aria-hidden="true"
-                        tabindex="-1">
+                        tabindex="-1"
+                    >
                         <span class="icon icon-link"></span>
                     </a>
                     {{ this.$static.datasetCallouts.heading }}
@@ -199,7 +211,8 @@
                             :href="'#' + slugify(this.$static.datasetResearch.heading)"
                             :aria-label="slugify(this.$static.datasetResearch.heading)"
                             aria-hidden="true"
-                            tabindex="-1">
+                            tabindex="-1"
+                        >
                             <span class="icon icon-link"></span>
                         </a>
                         {{ this.$static.datasetResearch.heading }}
@@ -213,7 +226,8 @@
                             :href="this.$static.datasetResearch.research1.url"
                             rel="noopener"
                             target="_blank"
-                            class="text-white">
+                            class="text-white"
+                        >
                             <h3>{{ this.$static.datasetResearch.research1.title }}</h3>
                         </a>
                         <a
@@ -284,7 +298,8 @@
                                             :href="event.path"
                                             rel="noopener"
                                             target="_blank"
-                                            class="text-white text-decoration-none">
+                                            class="text-white text-decoration-none"
+                                        >
                                             {{ event.title }}
                                         </a>
                                     </td>
@@ -312,7 +327,8 @@
                                 <div
                                     v-for="t in this.$static.datasetResearch.research6.logos"
                                     :key="t.title"
-                                    class="text-center mt-5">
+                                    class="text-center mt-5"
+                                >
                                     <a :href="t.url" rel="noopener" target="_blank">
                                         <img :src="t.image" :alt="t.title" :width="t.width" />
                                     </a>
@@ -349,7 +365,7 @@ export default {
             let galaxies = CONFIG.usegalaxy;
             let priority = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
-                1
+                1,
             );
             if (priority[0]) {
                 galaxies.splice(0, 0, priority[0]);
