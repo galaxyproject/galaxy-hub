@@ -8,7 +8,7 @@ date: "2025-03-10"
 tease: "Time to celebrate! Freiburg is hosting its 20th HTS Workshop this March of 2025"
 subsites: [all,esg,eu]
 ---
-# 🚀 Time to Celebrat ​🎉 The Freiburg Galaxy team hosts its 20th on sight workshop
+# 🚀 Time to Celebrate ​🎉 The Freiburg Galaxy Team hosts its 20th on sight workshop
 
 This week, from March 10th to 14th, we are hosting the 20th High Throughput Sequencing Workshop in Freiburg. This one-week in-person workshop first started in 2013. Two instructors from the very first workshop, Björn and Pavan, have again taken on sessions for this milestone event.
 
