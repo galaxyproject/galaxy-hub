@@ -3,13 +3,24 @@
         <div class="container p-2">
             <div class="row">
                 <div class="col-lg-7">
-                    <div v-html="$page.hero.notification" class="text-center notification bgBrighter"></div>
+                    <div class="text-center notification bgBrighter">
+                        The <a href="https://gbcc2025.org">Galaxy Biocondunctor Community Conference</a> and
+                        <a
+                            href="https://training.galaxyproject.org/training-material/events/2025-05-12-galaxy-academy-2025.html"
+                            >Galaxy Training Academy</a
+                        >
+                        are soon!
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-7 mb-4">
-                    <h1 v-html="$page.hero.description" class="mb-3"></h1>
-                    <div v-html="$page.hero.content" class="hero highlight"></div>
+                    <h1 class="mb-3">
+                        Meet Galaxy - <br>a data analysis universe
+                    </h1>
+                    <div class="hero highlight">
+                        Galaxy is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more.
+                    </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
                             <div v-if="prioritizedGalaxyLocales" class="nav navbar-nav">
@@ -24,37 +35,36 @@
                                         id="dropdownMenuLink"
                                         data-toggle="dropdown"
                                         aria-haspopup="true"
-                                        aria-expanded="false"
-                                    >
-                                        {{ $page.hero.button1 }}:
+                                        aria-expanded="false">
+                                        UseGalaxy:
                                         {{ site.locale }}
                                     </a>
                                     <div
                                         class="dropdown-menu hero bgBright m-0 pb-0"
-                                        aria-labelledby="dropdownMenuLink"
-                                    >
+                                        aria-labelledby="dropdownMenuLink">
                                         <a
                                             v-for="site in this.prioritizedGalaxyLocales.slice(1)"
                                             :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
-                                            class="dropdown-item"
-                                        >
+                                            class="dropdown-item">
                                             {{ $page.hero.button1 }}:
                                             {{ site.locale }}
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <a :href="$page.hero.buttonUrl2" class="btn hero bgBright">{{ $page.hero.button2 }}</a>
+                            <a :href="/get-started/" class="btn hero bgBright">Learn more: First Steps with Galaxy</a>
                         </div>
                     </nav>
                 </div>
                 <div class="col-lg-5">
-                    <div v-html="$page.hero.image"></div>
+                    <a href="https://gbcc2025.org"
+                        ><img src="/images/GBCC2025_hub_splash_screen.png" alt="GBCC2025 banner"
+                    /></a>
                 </div>
                 <div class="col-lg-5">
-                    <div v-html="$page.hero.image2"></div>
+                    <img src="/images/carousel_gta_2025_registration-cropped.png" alt="GTA2025 cropped banner" />
                 </div>
             </div>
         </div>
@@ -75,8 +85,7 @@
                                     :href="'#' + slugify($page.datasetEducation.heading)"
                                     :aria-label="slugify($page.datasetEducation.heading)"
                                     aria-hidden="true"
-                                    tabindex="-1"
-                                >
+                                    tabindex="-1">
                                     <span class="icon icon-link" tabindex="-1"></span>
                                 </a>
                                 {{ $page.datasetEducation.heading }}
@@ -91,8 +100,7 @@
                                 role="link"
                                 rel="noopener"
                                 target="_blank"
-                                class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3"
-                            >
+                                class="btn btn-outline-primary text-left text-decoration-none mb-4 ml-3">
                                 <span class="text-center iconXlarge pt-1 mr-3">
                                     <i :class="'icon fa ' + education.icon + ' '" aria-hidden="true"></i>
                                 </span>
@@ -118,8 +126,7 @@
                         :href="'#' + slugify(this.$static.datasetCallouts.heading)"
                         :aria-label="slugify(this.$static.datasetCallouts.heading)"
                         aria-hidden="true"
-                        tabindex="-1"
-                    >
+                        tabindex="-1">
                         <span class="icon icon-link"></span>
                     </a>
                     {{ this.$static.datasetCallouts.heading }}
@@ -193,8 +200,7 @@
                             :href="'#' + slugify(this.$static.datasetResearch.heading)"
                             :aria-label="slugify(this.$static.datasetResearch.heading)"
                             aria-hidden="true"
-                            tabindex="-1"
-                        >
+                            tabindex="-1">
                             <span class="icon icon-link"></span>
                         </a>
                         {{ this.$static.datasetResearch.heading }}
@@ -208,8 +214,7 @@
                             :href="this.$static.datasetResearch.research1.url"
                             rel="noopener"
                             target="_blank"
-                            class="text-white"
-                        >
+                            class="text-white">
                             <h3>{{ this.$static.datasetResearch.research1.title }}</h3>
                         </a>
                         <a
@@ -280,8 +285,7 @@
                                             :href="event.path"
                                             rel="noopener"
                                             target="_blank"
-                                            class="text-white text-decoration-none"
-                                        >
+                                            class="text-white text-decoration-none">
                                             {{ event.title }}
                                         </a>
                                     </td>
@@ -309,8 +313,7 @@
                                 <div
                                     v-for="t in this.$static.datasetResearch.research6.logos"
                                     :key="t.title"
-                                    class="text-center mt-5"
-                                >
+                                    class="text-center mt-5">
                                     <a :href="t.url" rel="noopener" target="_blank">
                                         <img :src="t.image" :alt="t.title" :width="t.width" />
                                     </a>
@@ -368,17 +371,6 @@ export default {
 
 <page-query>
 query {
-    hero: insert(path: "/insert:/home/hero/") {
-        heading,
-        notification,
-        description,
-        image,
-        button1,
-        button2,
-        buttonUrl2,
-        content
-    }
-
     datasetEducation: dataset(path: "/dataset:/home/education/") {
         heading,
         content,
