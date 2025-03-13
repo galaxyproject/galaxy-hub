@@ -35,10 +35,7 @@ Registration is free, but the space is limited to 15 attendees, so we recommend 
 
 # Event Details
 
-- **Dates**: October 06th–10th, 2025
-   
-      This event is right after the [European Galaxy Days (EGD)](/events/2025-10-01-egd2025/), so you have the chance to make it a longer trip to Freiburg and profit from both events. 
-
+- **Dates**: October 06th–10th, 2025 - This event is right after the [European Galaxy Days (EGD)](/events/2025-10-01-egd2025/), so you have the chance to make it a longer trip to Freiburg and profit from both events. 
 - **Location**: Georges-Koehler-Allee 079, D-79110 Freiburg, Germany & Online
 - **Cost**: Free
 - **Contact**: Paul Zierep, Bérénice Batut
@@ -56,8 +53,7 @@ The objectives of this 4-day scientific and technical hackathon are to optimize 
 - 📚 **Developing user-friendly training materials**
 
 - 📊 **Advancing workflow evaluation methods** (using CAMI infrastructure & real data)
-
-       Have metagenomic WGS samples? Want to create MAGs? This is your chance!
+  - Have metagenomic WGS samples? Want to create MAGs? This is your chance!
 
 - ⚙️ **Building intelligent computational resource estimation tools**
 
@@ -162,6 +158,4 @@ This event follows the data protection policy established by the University of F
 
 </div>
 
-
-
-For any iformation contact Paul Zierep (email: zierep@informatik.uni-freiburg.de) or Bérénice Batut (email: berenice.batut@gmail.com)
+For any information contact Paul Zierep (email: zierep@informatik.uni-freiburg.de) or Bérénice Batut (email: berenice.batut@gmail.com)
