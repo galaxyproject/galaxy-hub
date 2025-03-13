@@ -15,11 +15,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-7 mb-4">
-                    <h1 class="mb-3">
-                        Meet Galaxy - <br>a data analysis universe
-                    </h1>
+                    <h1 class="mb-3">Meet Galaxy - <br />a data analysis universe</h1>
                     <div class="hero highlight">
-                        Galaxy is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more.
+                        Galaxy is a free, open-source system for analyzing data, authoring workflows, training and
+                        education, publishing tools, managing infrastructure, and more.
                     </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
@@ -59,12 +58,12 @@
                     </nav>
                 </div>
                 <div class="col-lg-5">
-                    <a href="https://gbcc2025.org"
-                        ><img src="/images/GBCC2025_hub_splash_screen.png" alt="GBCC2025 banner"
-                    /></a>
-                </div>
-                <div class="col-lg-5">
-                    <img src="/images/carousel_gta_2025_registration-cropped.png" alt="GTA2025 cropped banner" />
+                    <a href="https://gbcc2025.org" class="d-block mb-3">
+                        <img src="/images/GBCC2025_hub_splash_screen.png" alt="GBCC2025 banner" class="img-fluid" />
+                    </a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRzPhmwhIiynJQVFaFBWB6u1pDp0VwpPCdZs8qS7a6WjpR1w/viewform">
+                        <img src="/images/carousel_gta_2025_registration-cropped.png" alt="GTA2025 cropped banner" class="img-fluid" />
+                    </a>
                 </div>
             </div>
         </div>
