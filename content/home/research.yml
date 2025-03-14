@@ -1,19 +1,5 @@
 heading: Galactic pulse
 
-research1:
-    title: Recent publications
-    content: "Galaxy can be installed locally, fine-tuned with a tailored toolset and no usage quotas."
-    url: "https://www.zotero.org/groups/1732893/galaxy"
-    links:
-        - title: 'Dantan, L. et al. "Microbial education plays a crucial role in harnessing the beneficial properties of microbiota for infectious disease protection in Crassostrea gigas"  Sci Rep 14, 26914 (2024)'
-          url: "https://doi.org/10.1038/s41598-024-76096-4"
-        - title: 'Yujing Ren et al. "Effects of microplastics on litter decomposition in wetland soil" Environmental Pollution, Volume 343, (2024)'
-          url: "https://doi.org/10.1016/j.envpol.2023.123145"
-        - title: 'Mathieu-Bégné, E et al. "Schistosoma haematobium and Schistosoma bovis first generation hybrids undergo gene expressions changes consistent with species compatibility and heterosis" PLOS Neglected Tropical Diseases (2024)'
-          url: "https://doi.org/10.1371/journal.pntd.0012267"
-        - title: 'Sarmah, P. et al. "The functional and structural characterisation of the bZIP transcription factors from Myristica fragrans Houtt. associated to plant disease-resistant defence: An insight from transcriptomics and computational modelling" International Journal of Biological Macromolecules, Vol 268, Part 2 (2024)'
-          url: "https://doi.org/10.1016/j.ijbiomac.2024.131817"
-
 research3:
     title: Popular tutorials
     url: "https://training.galaxyproject.org"
