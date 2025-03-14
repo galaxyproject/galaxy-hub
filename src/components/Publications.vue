@@ -9,7 +9,7 @@
         <b-row class="mb-2" v-for="(item, i) in this.items" :key="i">
             <b-col cols="11">
                 <g-link class="title" :to="item.data.url">{{ item.data.title }}</g-link>
-                <br/>
+                <br />
                 <div class="tease">
                     {{ item.meta.creatorSummary }}
                     {{ item.data.extra }}
@@ -46,14 +46,12 @@ export default {
             setTimeout(() => {
                 if (typeof window._altmetric_embed_init !== "undefined") {
                     window._altmetric_embed_init();
-                }
-                else {
+                } else {
                     this.initAltmetric();
                 }
             }, 100);
         },
         fetchPubs() {
-            //fetch data from https://api.zotero.org/groups/1732893/items/top?start=0&limit=5, and then render the data
             axios
                 .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=${this.limit}`)
                 .then((response) => {
@@ -66,12 +64,11 @@ export default {
         },
     },
     mounted() {
-        this.fetchPubs();
-        // if altmetric is loaded, call init
-        //_altmetric_embed_init('#new-container');
+        // Inject altmetric scripts and kick off pub fetch
         const altmetricScript = document.createElement("script");
         altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
         document.head.appendChild(altmetricScript);
+        this.fetchPubs();
     },
 };
 </script>
