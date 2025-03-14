@@ -1,25 +1,17 @@
 <template>
-    <div class="pseudo-card col-sm-12">
-        <h2>
-            <g-link to="https://www.zotero.org/groups/galaxy">
-                <span :class="`icon fas fa-book-open`"></span>
-                <b>Recent Publications</b>
-            </g-link>
-        </h2>
-        <b-row class="mb-2" v-for="(item, i) in this.items" :key="i">
-            <b-col cols="11">
-                <g-link class="title" :to="item.data.url">{{ item.data.title }}</g-link>
-                <br />
-                <div class="tease">
-                    {{ item.meta.creatorSummary }},
-                    {{ item.data.journalAbbreviation ? item.data.journalAbbreviation : "preprint" }},
-                    {{ item.data.date }}.
-                </div>
-            </b-col>
-            <b-col cols="1">
-                <span class="altmetric-embed" data-badge-type="donut" :data-doi="item.data.DOI"></span>
-            </b-col>
-        </b-row>
+    <div>
+        <g-link to="https://www.zotero.org/groups/galaxy">
+            <h3 class="text-white">Recent Publications</h3>
+        </g-link>
+        <div class="mb-2" v-for="(item, i) in this.items" :key="i">
+            <g-link class="mb-3 text-white small" :to="item.data.url">{{ item.data.title }}</g-link>
+            <br />
+            <div class="mb-3 text-white small">
+                {{ item.meta.creatorSummary }},
+                {{ item.data.journalAbbreviation ? item.data.journalAbbreviation : "preprint" }},
+                {{ item.data.date }}.
+            </div>
+        </div>
     </div>
 </template>
 
