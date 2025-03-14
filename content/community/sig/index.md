@@ -30,7 +30,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Climate -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://climate.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Climate</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Climate</div>
 </a>
 
 The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflow.
@@ -40,7 +40,7 @@ The Climate Science workbench is a comprehensive set of analysis tools and conso
 <!-- Computational Chemistry -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/computationalchemistry/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Computational Chemistry</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Computational Chemistry</div>
 </a>
 
 Group of computational chemistry tool developers, trainers and users to help connect outreach, user needs, and computationalists.
@@ -50,7 +50,7 @@ Group of computational chemistry tool developers, trainers and users to help con
 <!-- Earth -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/earth/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Earth</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Earth</div>
 </a>
 
 A web platform to get, process, analyze and visualize earth data.
@@ -60,7 +60,7 @@ A web platform to get, process, analyze and visualize earth data.
 <!-- Ecology -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ecology.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Ecology</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Ecology</div>
 </a>
 
 A web platform to get, process, analyze and visualize ecological data.
@@ -70,7 +70,7 @@ A web platform to get, process, analyze and visualize ecological data.
 <!-- Genome Annotation -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/genome-annotation/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Genome Annotation</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Genome Annotation</div>
 </a>
 
 Galaxy as a platform for the annotation of genomes.
@@ -80,7 +80,7 @@ Galaxy as a platform for the annotation of genomes.
 <!-- Materials Science -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://materials.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Materials Science</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Materials Science</div>
 </a>
 
 A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy.
@@ -90,7 +90,7 @@ A Galaxy workbench with tools and workflows for materials science, including muo
 <!-- MicroGalaxy -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/microbial#microgalaxy-community">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>MicroGalaxy</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>MicroGalaxy</div>
 </a>
 
 Anything regarding microbial data analysis in Galaxy, with meetings, working groups, chat and mailing list
@@ -100,7 +100,7 @@ Anything regarding microbial data analysis in Galaxy, with meetings, working gro
 <!-- Public Health -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Public Health</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Public Health</div>
 </a>
 
 Announcements and discussion in the Galaxy Public Health Community.
@@ -119,7 +119,7 @@ Announcements and discussion in the Galaxy Public Health Community.
 <!-- Machine Learning -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ml.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Machine Learning</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Machine Learning</div>
 </a>
 
 A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.
@@ -129,7 +129,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 <!-- Metabolomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://metabolomics.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Metabolomics</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Metabolomics</div>
 </a>
 
 Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.
@@ -139,7 +139,7 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 <!-- Natural Language Processing -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Natural Language Processing</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Natural Language Processing</div>
 </a>
 
 An open, interoperable web service platform for natural language processing (NLP) research and development.
@@ -149,7 +149,7 @@ An open, interoperable web service platform for natural language processing (NLP
 <!-- Proteomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://proteore.org/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Proteomics</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Proteomics</div>
 </a>
 
 Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research.
@@ -159,7 +159,7 @@ Galaxy-based platform for the functional analysis and the interpretation of prot
 <!-- Single cell & sPatial Omics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Single cell & sPatial Omics</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Single cell & sPatial Omics</div>
 </a>
 
 The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.
@@ -169,7 +169,7 @@ The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developer
 <!-- Image Analysis -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/image-analysis/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Image Analysis</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Image Analysis</div>
 </a>
 
 This community gathers image analysis enthusiasts across different scientific disciplines.
@@ -187,7 +187,7 @@ This community gathers image analysis enthusiasts across different scientific di
 <!-- Small Scale Admins -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/small-scale-admins/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Small Scale Admins</div>
+<div class="card-header bg-sig-service text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Small Scale Admins</div>
 </a>
 
 Admins of small scale Galaxy servers.
@@ -206,7 +206,7 @@ Admins of small scale Galaxy servers.
 <!-- Galaxy Africa -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Africa</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Africa</div>
 </a>
 
 Galaxy African community.
@@ -216,7 +216,7 @@ Galaxy African community.
 <!-- Arabic -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/arabic/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Arabic</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Arabic</div>
 </a>
 
 The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.
@@ -226,7 +226,7 @@ The Galaxy Arabic speaking community supports Galaxy activity for the Arabic spe
 <!-- Australia -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://site.usegalaxy.org.au">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Australia</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Australia</div>
 </a>
 
 Australian Galaxy community.
@@ -236,7 +236,7 @@ Australian Galaxy community.
 <!-- Czech -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/czech/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Czech</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Czech</div>
 </a>
 
 Česká komunita Galaxy / Czech Galaxy Community.
@@ -247,7 +247,7 @@ Australian Galaxy community.
 <!-- Europe -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/eu/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Europe</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Europe</div>
 </a>
 
 The European Galaxy Community and the European Galaxy Server.
@@ -258,7 +258,7 @@ The European Galaxy Community and the European Galaxy Server.
 <!-- France -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>France</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>France</div>
 </a>
 
 Galaxy in the French-speaking world.
@@ -268,7 +268,7 @@ Galaxy in the French-speaking world.
 <!-- India -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://www.galaxyproject.in">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>India</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>India</div>
 </a>
 
 Indian Galaxy Community.
@@ -310,7 +310,7 @@ Galaxy-NL in the Netherlands.
 <!-- Galaxy Switzerland -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/switzerland/">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Switzerland</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Switzerland</div>
 </a>
 
 Galaxy community in Switzerland
@@ -320,7 +320,7 @@ Galaxy community in Switzerland
 <!-- UK -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>UK</div>
+<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>UK</div>
 </a>
 
 Galaxy in the United Kingdom.
@@ -353,7 +353,7 @@ The global community is running a set of scientific multi-year-long projects whi
 
 <!-- Cancer -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white text-center">Cancer Informatics</div>
+<div class="card-header bg-sig-projects text-white text-center">Cancer Informatics</div>
 
 This project emphasizes applying Galaxy in cancer research.
 
@@ -367,7 +367,7 @@ This project emphasizes applying Galaxy in cancer research.
 
 <!-- Human Genetics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white text-center">Human Genetics</div>
+<div class="card-header bg-sig-projects text-white text-center">Human Genetics</div>
 
 This project emphasizes applying Galaxy in human research.
 
@@ -380,7 +380,7 @@ This project emphasizes applying Galaxy in human research.
 
 <!-- COVID-19 -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white text-center">COVID-19</div>
+<div class="card-header bg-sig-projects text-white text-center">COVID-19</div>
 
 This project emphasizes analysis of SARS-CoV-2.
 
@@ -390,7 +390,7 @@ This project emphasizes analysis of SARS-CoV-2.
 
 <!-- VGP -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white text-center">VGP</div>
+<div class="card-header bg-sig-projects text-white text-center">VGP</div>
 
 Collaboration Between VGP and Galaxy Project for free and easy access to large genome assembly workflows.
 
