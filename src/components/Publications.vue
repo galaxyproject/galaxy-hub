@@ -52,7 +52,7 @@ export default {
                 });
         },
         formatDate(dateString) {
-            return new Date(dateString).toISOString().split('T')[0] ?? dateString;
+            return new Date(dateString).toISOString().split("T")[0] ?? dateString;
         },
     },
     mounted() {
