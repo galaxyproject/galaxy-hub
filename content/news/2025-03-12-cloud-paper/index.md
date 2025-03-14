@@ -1,6 +1,8 @@
 ---
 title: 'New Paper "Clouds influence the functioning of airborne microorganisms"'
 date: "2025-03-12"
+tease: "Péguilhan et al. have collaborated with Dr. Bérénice Batut and Engy Nasr and used Galaxy for Cloud and Clear skys data analysis in their newly published paper"
+doi: 10.5194/bg-22-1257-2025
 tags:
 - paper
 - citations
