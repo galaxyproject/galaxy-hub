@@ -10,7 +10,7 @@ Active Galaxy communities are encouraged to participate in (or form) their own S
 # Galaxy Communities Calendar
 Check out the upcoming meetings across the communities.
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&showCalendars=0&mode=AGENDA&src=OGE3NjI4OTBmYmU3MjRlOWQyOWI2NzkxNWFhMDE5N2EzNTI2NDJmOTRiMjJlYzY0YTg1NDMwZGFhZjFhYmI1ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&showCalendars=0&mode=AGENDA&src=OGE3NjI4OTBmYmU3MjRlOWQyOWI2NzkxNWFhMDE5N2EzNTI2NDJmOTRiMjJlYzY0YTg1NDMwZGFhZjFhYmI1ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border-width:0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
 
 *Please note: The Galaxy Community Board introduced this in December 2024, so we are still collecting communities to add to it! Do you not see your community? [Follow this FAQ](https://training.galaxyproject.org/training-material/topics/community/faqs/community_activites_calendar.html) to add it!*
 
