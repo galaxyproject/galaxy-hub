@@ -13,7 +13,5 @@ subsites: [global, all]
 
 🌟 Runner up: Charlie Bayne
 
-![Logo 1](./gbcclogo.jpg) ![Logo 2](./gbcclogo2.jpg)
-
 Thank you to all participants for your amazing creativity! Stay tuned for more updates as we gear up for GBCC 2025! 🚀
 
