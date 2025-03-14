@@ -199,6 +199,9 @@
                 </div>
             </div>
             <div class="row">
+                <ClientOnly>
+                    <Publications />
+                </ClientOnly>
                 <div class="col-xl-4 mb-3">
                     <div class="area research publications h-100">
                         <a
@@ -324,8 +327,12 @@
 <script>
 import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
+import Publications from "../components/Publications";
 
 export default {
+    components: {
+        Publications,
+    },
     data() {
         return {
             cancelled: false,
