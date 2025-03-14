@@ -119,79 +119,61 @@ Announcements and discussion in the Galaxy Public Health Community.
 <!-- Machine Learning -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ml.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center">Machine Learning</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Machine Learning</div>
 </a>
 
 A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.
-
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/statistics/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ml.usegalaxy.eu)
 
 </div>
 
 <!-- Metabolomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://metabolomics.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center">Metabolomics</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Metabolomics</div>
 </a>
 
 Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.
 
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/)
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/metabolomics/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://metabolomics.usegalaxy.eu/)
 </div>
 
 <!-- Natural Language Processing -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center">Natural Language Processing</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Natural Language Processing</div>
 </a>
 
 An open, interoperable web service platform for natural language processing (NLP) research and development.
 
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-nlp@lists.galaxyproject.org)
 </div>
 
 <!-- Proteomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://proteore.org/">
-<div class="card-header bg-wg-applied text-white text-center">Proteomics</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Proteomics</div>
 </a>
 
 Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://proteore.org)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://proteomics.usegalaxy.eu)
 
 </div>
 
 <!-- Single cell & sPatial Omics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
-<div class="card-header bg-wg-applied text-white text-center">Single cell & sPatial Omics</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Single cell & sPatial Omics</div>
 </a>
 
 The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.
 
-* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#spoc3:matrix.org)
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/single-cell/)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://singlecell.usegalaxy.eu)
 </div>
 
 <!-- Image Analysis -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/image-analysis/">
-<div class="card-header bg-wg-applied text-white text-center">Image Analysis</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Image Analysis</div>
 </a>
 
 This community gathers image analysis enthusiasts across different scientific disciplines.
 
-* [<b>[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#imaging:matrix.org)
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/imaging/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://imaging.usegalaxy.eu)
 </div>
 
 <!-- CoP Methodologies SIGs Card-div end -->
@@ -205,13 +187,10 @@ This community gathers image analysis enthusiasts across different scientific di
 <!-- Small Scale Admins -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/small-scale-admins/">
-<div class="card-header bg-wg-applied text-white text-center">Small Scale Admins</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Small Scale Admins</div>
 </a>
 
 Admins of small scale Galaxy servers.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/small-scale-admins.lists.galaxyproject.org/)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_admins:gitter.im)
 
 </div>
 
@@ -227,52 +206,40 @@ Admins of small scale Galaxy servers.
 <!-- Galaxy Africa -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center">Africa</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Africa</div>
 </a>
 
 Galaxy African community.
 
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-africa@lists.galaxyproject.org)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://africa.usegalaxy.eu)
 </div>
 
 <!-- Arabic -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/arabic/">
-<div class="card-header bg-wg-applied text-white text-center">Arabic</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Arabic</div>
 </a>
 
 The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.
-
-* [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](http://twitter.com/galaxy_arabic)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/)
-* [<i class="fab fa-facebook-square" aria-hidden="true">&nbsp; &nbsp;Facebook</i>](http://bit.ly/2ek7fTh)
 
 </div>
 
 <!-- Australia -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://site.usegalaxy.org.au">
-<div class="card-header bg-wg-applied text-white text-center">Australia</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Australia</div>
 </a>
 
 Australian Galaxy community.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://usegalaxy.org.au/)
-* [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](http://twitter.com/galaxyaustralia)
 
 </div>
 
 <!-- Czech -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/czech/">
-<div class="card-header bg-wg-applied text-white text-center">Czech</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Czech</div>
 </a>
 
 Česká komunita Galaxy / Czech Galaxy Community.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://usegalaxy.cz)
 
 </div>
 
@@ -280,17 +247,10 @@ Australian Galaxy community.
 <!-- Europe -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/eu/">
-<div class="card-header bg-wg-applied text-white text-center">Europe</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Europe</div>
 </a>
 
 The European Galaxy Community and the European Galaxy Server.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://elixir-europe.org/communities/galaxy)
-* [<b style="font-size:0.9em" aria-hidden="true">[m]&nbsp; &nbsp;Matrix</b>](https://matrix.to/#/#usegalaxy.eu:matrix.org)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](mailto:contact@usegalaxy.eu)
-* [<i class="fab fa-github" aria-hidden="true">&nbsp; &nbsp;GitHub</i>](https://github.com/usegalaxy-eu)
-* [<i class="fab fa-mastodon" aria-hidden="true">&nbsp; &nbsp;Mastodon</i>](https://xn--baw-joa.social/@galaxyfreiburg)
-* [<i class="fa fa-rss" aria-hidden="true">&nbsp; &nbsp;RSS</i>](/eu/feed.atom)
 
 </div>
 
@@ -298,33 +258,20 @@ The European Galaxy Community and the European Galaxy Server.
 <!-- France -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center">France</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>France</div>
 </a>
 
 Galaxy in the French-speaking world.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://community.france-bioinformatique.fr/c/galaxy/8)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://usegalaxy.fr)
-
 
 </div>
 
 <!-- India -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://www.galaxyproject.in">
-<div class="card-header bg-wg-applied text-white text-center">India</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>India</div>
 </a>
 
 Indian Galaxy Community.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://www.galaxyproject.in/)
-* [<i class="fab fa-whatsapp" aria-hidden="true">&nbsp; &nbsp;Whatsapp</i>](https://chat.whatsapp.com/CCXT7t97ZX5D3MiD7MVmun)
-* [<i class="fab fa-whatsapp" aria-hidden="true">&nbsp; &nbsp;Whatsapp</i>](https://chat.whatsapp.com/LYAWg6Yah1i4QbMU0sktqB)
-* [<i class="fab fa-gitter" aria-hidden="true">&nbsp; &nbsp;Gitter</i>](https://gitter.im/usegalaxy-in/adda)
-* [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](http://twitter.com/GxyIndia)
-* [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](http://twitter.com/useGalaxyIndia)
-* [<i class="fab fa-github" aria-hidden="true">&nbsp; &nbsp;GitHub</i>](https://github.com/usegalaxy-in/)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/india.lists.galaxyproject.org/)
 
 </div>
 
@@ -363,24 +310,20 @@ Galaxy-NL in the Netherlands.
 <!-- Galaxy Switzerland -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/switzerland/">
-<div class="card-header bg-wg-applied text-white text-center">Switzerland</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Switzerland</div>
 </a>
 
 Galaxy community in Switzerland
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/galaxy-switzerland@lists.galaxyproject.org)
 
 </div>
 
 <!-- UK -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center">UK</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>UK</div>
 </a>
 
 Galaxy in the United Kingdom.
-
-* [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](http://twitter.com/galaxyukfriends)
 
 </div>
 
