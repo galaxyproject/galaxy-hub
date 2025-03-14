@@ -50,8 +50,7 @@
                                             target="_blank"
                                             class="dropdown-item"
                                         >
-                                            {{ $page.hero.button1 }}:
-                                            {{ site.locale }}
+                                            Use Galaxy Now - {{ site.locale }}
                                         </a>
                                     </div>
                                 </div>
