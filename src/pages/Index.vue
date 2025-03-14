@@ -199,29 +199,11 @@
                 </div>
             </div>
             <div class="row">
-                <ClientOnly>
-                    <Publications />
-                </ClientOnly>
                 <div class="col-xl-4 mb-3">
                     <div class="area research publications h-100">
-                        <a
-                            :href="this.$static.datasetResearch.research1.url"
-                            rel="noopener"
-                            target="_blank"
-                            class="text-white"
-                        >
-                            <h3>{{ this.$static.datasetResearch.research1.title }}</h3>
-                        </a>
-                        <a
-                            :href="p.url"
-                            class="mb-3 text-white small"
-                            v-for="p in this.$static.datasetResearch.research1.links"
-                            :key="p.title"
-                            role="button"
-                            rel="noopener"
-                            target="_blank"
-                            >{{ p.title }}</a
-                        >
+                        <ClientOnly>
+                            <Publications />
+                        </ClientOnly>
                         <a href="https://doi.org/10.1093/nar/gkae410" target="_blank" rel="noopener" class="text-white">
                             <h3>Cite Galaxy</h3>
                             <div>
