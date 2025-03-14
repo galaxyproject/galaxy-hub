@@ -11,7 +11,7 @@
                 <g-link class="title" :to="item.data.url">{{ item.data.title }}</g-link>
                 <br />
                 <div class="tease">
-                    {{ item.meta.creatorSummary }}, 
+                    {{ item.meta.creatorSummary }},
                     {{ item.data.journalAbbreviation ? item.data.journalAbbreviation : "preprint" }},
                     {{ item.data.date }}.
                 </div>
