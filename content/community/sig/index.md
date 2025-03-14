@@ -30,108 +30,80 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Climate -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://climate.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center">Climate</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Climate</div>
 </a>
 
 The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflow.
 
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/climate/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://climate.usegalaxy.eu/)
 </div>
 
 <!-- Computational Chemistry -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/computationalchemistry/">
-<div class="card-header bg-wg-applied text-white text-center">Computational Chemistry</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Computational Chemistry</div>
 </a>
 
 Group of computational chemistry tool developers, trainers and users to help connect outreach, user needs, and computationalists.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/computational-chemistry/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://cheminformatics.usegalaxy.eu/)
 
 </div>
 
 <!-- Earth -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/earth/">
-<div class="card-header bg-wg-applied text-white text-center">Earth</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Earth</div>
 </a>
 
 A web platform to get, process, analyze and visualize earth data.
-
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/search2?query=earth-system)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://ecology.usegalaxy.eu/tours/core.galaxy_ui)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance for earth system</i>](https://earth-system.usegalaxy.eu/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance for aquatic sciences</i>](https://aqua.usegalaxy.eu/)
 
 </div>
 
 <!-- Ecology -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ecology.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center">Ecology</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Ecology</div>
 </a>
 
 A web platform to get, process, analyze and visualize ecological data.
 
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/ecology/)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://ecology.usegalaxy.eu/tours/core.galaxy_ui)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://ecology.usegalaxy.eu/)
 </div>
 
 <!-- Genome Annotation -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/genome-annotation/">
-<div class="card-header bg-wg-applied text-white text-center">Genome Annotation</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Genome Annotation</div>
 </a>
 
 Galaxy as a platform for the annotation of genomes.
 
-* [<i class="fa fa-solid fa-graduation-cap">&nbsp; &nbsp;GTN</i>](https://training.galaxyproject.org/training-material/topics/genome-annotation/)
-* [<i class="fa fa-laptop" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://annotation.usegalaxy.eu)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://galaxy-genome-annotation.github.io)
 </div>
 
 <!-- Materials Science -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://materials.usegalaxy.eu">
-<div class="card-header bg-wg-applied text-white text-center">Materials Science</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Materials Science</div>
 </a>
 
 A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://materials.usegalaxy.eu)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_materials-science:matrix.org)
 
 </div>
 
 <!-- MicroGalaxy -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/microbial#microgalaxy-community">
-<div class="card-header bg-wg-applied text-white text-center">MicroGalaxy</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>MicroGalaxy</div>
 </a>
 
 Anything regarding microbial data analysis in Galaxy, with meetings, working groups, chat and mailing list
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org)
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Galaxy Instance</i>](https://microgalaxy.usegalaxy.eu)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im)
 
 </div>
 
 <!-- Public Health -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-wg-applied text-white text-center">Public Health</div>
+<div class="card-header bg-wg-applied text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>Public Health</div>
 </a>
 
 Announcements and discussion in the Galaxy Public Health Community.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Matrix</i>](https://matrix.to/#/#galaxyproject_Public-Health:gitter.im)
 
 </div>
 
