@@ -5,7 +5,7 @@ tags:
 - paper
 - citations
 supporters:
-subsites: [all-eu]
+subsites: [global,all,all-eu]
 main_subsite: eu
 ---
 
