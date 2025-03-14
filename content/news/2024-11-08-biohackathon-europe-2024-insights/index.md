@@ -2,7 +2,6 @@
 title: 'Biohackathon Europe 2024: A successful collaborative effort to develop workflows for FAIR Image Analysis using Galaxy'
 date: '2024-11-08'
 tease: "At BioHackathon Europe 2024 in Barcelona, a group of FAIR enthusiasts work on development of image analysis workflows using the Galaxy."
-tags: [talk,esg]
 supporters:
 - eurosciencegateway
 - nfdi
