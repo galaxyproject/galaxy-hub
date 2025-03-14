@@ -11,7 +11,7 @@ main_subsite: eu
 
 A new paper published in **Biogeosciences** by Péguilhan et al. explores how clouds influence airborne microorganisms. The research team, including Dr. Bérénice Batut and Engy Nasr from the Galaxy group in Freiburg, developed Galaxy workflows for metagenomic and metatranscriptomic analyses. These workflows enabled the investigation of microbial communities in aerosols collected from a high-altitude meteorological station under both cloudy and clear-sky conditions. The findings suggest that cloud environments promote microbial metabolic activity and influence stress responses, potentially shaping microbial diversity and biogeochemical cycles.
 
-For more details, read the full [paper](https://bg.copernicus.org/articles/22/1257/2025/)!
+For more details, read the full [paper](https://doi.org/10.5194/bg-22-1257-2025)!
 
 **Abstract:**
 
