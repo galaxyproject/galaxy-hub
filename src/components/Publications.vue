@@ -9,7 +9,7 @@
             <div class="mb-3 text-white small">
                 {{ item.meta.creatorSummary }},
                 {{ item.data.journalAbbreviation ? item.data.journalAbbreviation : "preprint" }},
-                {{ item.data.date }}.
+                {{ formatDate(item.data.dateAdded) }}.
             </div>
         </div>
     </div>
@@ -50,6 +50,9 @@ export default {
                 .catch((error) => {
                     console.log(error);
                 });
+        },
+        formatDate(dateString) {
+            return new Date(dateString).toISOString().split('T')[0] ?? dateString;
         },
     },
     mounted() {
