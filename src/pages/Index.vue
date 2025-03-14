@@ -441,15 +441,6 @@ query {
 
     datasetResearch: dataset(path: "/dataset:/home/research/") {
         heading,
-        research1 {
-            title,
-            content,
-            url,
-            links {
-                title,
-                url
-            }
-        },
         research3 {
             title,
             content,
