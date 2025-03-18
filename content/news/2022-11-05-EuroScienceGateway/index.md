@@ -3,7 +3,7 @@ title: The start of the EuroScienceGateway - an EOSC project
 date: "2022-11-05"
 tease: "EuroScienceGateway will deliver a robust, scalable, seamlessly integrated open infrastructure for data-driven research"
 hide_tease: false
-tags: [esg]
+tags: [esg, esg-wp1, esp-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, esg]
 main_subsite: eu
 ---

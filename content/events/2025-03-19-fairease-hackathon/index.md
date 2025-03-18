@@ -5,12 +5,12 @@ end: '2025-03-20'
 location:
   name: "Brest, France"
 contact: "Marie Jossé, Jérôme Detoc"
-tags: [Hackathon]
+tags: [Hackathon, esg, esg-wp1, esg-wp5, esg-wp3]
 organizers:
   - fair-ease
 supporters:
   - eurosciencegateway
-subsites: [eu]
+subsites: [eu,esg, all-eu]
 ---
 
 # FAIR-EASE Hackathon: Advancing Scientific & Technical Data Integration! 🚀

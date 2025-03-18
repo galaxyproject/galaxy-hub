@@ -1,14 +1,14 @@
 ---
 title: UseGalaxy.eu update to 20.09
 date: '2020-12-03'
-tags: [release]
 supporters:
 - denbi
 - elixir
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest, esg]
+tags: [release, esg, esg-wp3, esp-wp4]
 main_subsite: eu
 ---
 

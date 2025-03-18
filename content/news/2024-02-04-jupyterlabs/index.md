@@ -4,7 +4,8 @@ date: "2024-02-04"
 authors: Marie Jossé
 tease: "Jupyterlabs and Notebooks for earth, environment, and climate sciences"
 hide_tease: false
-subsites: [all-eu,global]
+subsites: [all-eu,global, esg]
+tags: [esg, esg-wp5]
 ---
 
 Some news on the progression of the [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu). 
