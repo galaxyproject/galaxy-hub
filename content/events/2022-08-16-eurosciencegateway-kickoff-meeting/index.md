@@ -4,7 +4,7 @@ tease: "Within the European Galaxy Days, the EuroScienceGateway consortium of 18
 hide_tease: true
 date: "2022-10-06"
 end: "2022-10-07"
-tags: [conference]
+tags: [conference,esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 contacts:
 - name: Freiburg Galaxy Team
   email: galaxy@informatik.uni-freiburg.de
@@ -20,7 +20,6 @@ supporters:
 - elixir
 subsites: [eu, freiburg, esg]
 main_subsite: freiburg
-tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 ---
 
 Within the **European Galaxy Days**, the **EuroScienceGateway consortium of 18 partners** will get together in Freiburg, Germany, 
