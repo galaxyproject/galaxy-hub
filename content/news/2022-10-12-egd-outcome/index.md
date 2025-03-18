@@ -2,7 +2,8 @@
 title: 'Outcomes of the European Galaxy Days'
 tease: The European Galaxy Community gathered in Freiburg to discuss recent and future Galaxy developments
 date: '2022-10-12'
-subsites: [global, all-eu]
+subsites: [global, all-eu, esg]
+tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 authors: Beatriz Serrano-Solano
 author_github: beatrizserrano
 ---

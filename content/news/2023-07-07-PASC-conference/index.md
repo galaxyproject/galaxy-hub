@@ -2,7 +2,8 @@
 title: 'Platform for Advanced Scientific Computing Conference 2023'
 tease: Several Galaxy Community members gathered in Davos
 date: '2023-07-07'
-subsites: [global, all-eu]
+subsites: [global, all-eu, esg]
+tags: [esg, esg-wp5]
 authors: Hans-Rudolf Hotz
 author_github: hrhotz
 ---

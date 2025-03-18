@@ -8,7 +8,7 @@ supporters:
   - unifreiburg
   - elixir
 subsites: [freiburg, eu, esg]
-tags: [esg,elixir,galaxy]
+tags: [esg,elixir,galaxy, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 main_subsite: eu
 ---
 The Freiburg Galaxy Team took several opportunities to present Galaxy as a FAIR 

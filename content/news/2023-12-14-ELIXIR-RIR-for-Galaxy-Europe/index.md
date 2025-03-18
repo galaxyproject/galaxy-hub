@@ -12,6 +12,7 @@ supporters:
 components: true
 autotoc: true
 subsites: [all, eu, esg]
+tags: [esg, esg-wp1]
 ---
 <div class="float-right" style="max-width: 400px">
 	

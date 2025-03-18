@@ -8,12 +8,12 @@ location:
   name: "University of Freiburg, Germany"
 gtn: true
 contact: "Anika Erxleben"
-tags: [workshop, training]
+tags: [workshop, training, esg, esg-wp1]
 supporters:
 - dataplant
 - eurosciencegateway
 - denbi
-subsites: [all]
+subsites: [all, esg, all-eu]
 ---
 
 # General information

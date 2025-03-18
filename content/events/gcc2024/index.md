@@ -13,8 +13,8 @@ location:
   url: "/events/gcc2024/"
 gtn: true
 contact: "Organizing Committee"
-tags: ["cofest", "workshop", "training", "talk", "poster"]
-subsites: [all]
+tags: ["cofest", "workshop", "training", "talk", "poster", "esg", "esg-wp1"]
+subsites: [all, esg, all-eu]
 ---
 
 <slot name="/events/gcc2024/header" />

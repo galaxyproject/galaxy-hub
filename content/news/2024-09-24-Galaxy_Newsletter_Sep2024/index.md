@@ -4,7 +4,7 @@ tease: "Discover exciting updates, including the Galaxy Training Academy 2024, C
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2024-09-24"
-tags: ["highlight"]
+tags: [highlight, esg, esg-wp1]
 subsites: [global,all]
 ---
 
