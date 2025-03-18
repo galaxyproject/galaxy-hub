@@ -2,18 +2,6 @@
     <layout>
         <div class="container p-2">
             <div class="row">
-                <div class="col-lg-7">
-                    <div class="text-center notification bgBrighter">
-                        The <a href="https://gbcc2025.org">Galaxy Biocondunctor Community Conference</a> and
-                        <a
-                            href="https://training.galaxyproject.org/training-material/events/2025-05-12-galaxy-academy-2025.html"
-                            >Galaxy Training Academy</a
-                        >
-                        are soon!
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-7 mb-4">
                     <h1 class="mb-3">Meet Galaxy - <br />a data analysis universe</h1>
                     <div class="hero highlight">
