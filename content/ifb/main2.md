@@ -14,7 +14,7 @@ subtitle: The homepage of the French Galaxy community
       <div class="text-center">
           <img src="/images/undraw-illustrations/questions.svg" alt="qsupport" height="100">
           <br><br><br><br>
-          <a href="https://community.cluster.france-bioinformatique.fr/c/galaxy" class="btn btn-primary">Contact support</a>
+          <a href="https://community.france-bioinformatique.fr/c/galaxy/8" target="_parent" class="btn btn-primary">Contact support</a>
       </div>
     </div>
   </div>
