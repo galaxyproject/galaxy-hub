@@ -1,7 +1,7 @@
 ---
 title: "Research Software Engineer"
 date: "2025-01-31"
-closes: "2025-03-01"
+closes: "2025-05-01"
 summary: "Development of software tools and workflows for mass spectrometry data processing with Python, R, and Galaxy."
 continent: EU
 location:
