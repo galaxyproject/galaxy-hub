@@ -3,7 +3,8 @@ title: "Galaxy’s contributions to Genome Assembly and Annotation: Advancing Ge
 date: "2025-03-18"
 authors: Saim Momin
 tease: "Know how Galaxy is contributing towards Genome Assembly and Annotation with cutting-edge tools, global biodiversity projects, and training initiatives"
-subsites: [global,eu,us,freiburg]
+subsites: [global,eu,us,freiburg,esg]
+tags: [esg, esg-wp5]
 ---
 
 The field of genomics has been transformed by high-throughput sequencing and computational platforms, with Galaxy emerging as a pivotal resource for genome assembly and annotation. Developed as an open-source, web-based platform, Galaxy facilitates reproducible, scalable, and accessible genomic analyses. Its contributions span tailored tools, involvement in landmark biodiversity projects, innovative quality control developments, and extensive training initiatives.
