@@ -308,7 +308,8 @@ in Galaxy until you free up space and are again under 250 GB.
 * **Repository** refers to a file storage that you can include in Galaxy to import or export data to.
     * Repositories can be read-only or writable.
     * Repositories in Galaxy are storing `files`, the Galaxy storage is storing `datasets`.
-    * We also call it `remote files` or `remote file sources`. Popular examples are Owncloud, Nextcloud, Dropbox or FTP.
+    * Technically, we call it `remote files` or `remote file sources`.
+    * Popular examples are Owncloud, Nextcloud, Dropbox or FTP.
     * You can add repositories at https://usegalaxy.eu/file_source_instances/
 
 
