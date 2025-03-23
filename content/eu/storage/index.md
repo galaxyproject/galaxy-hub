@@ -230,7 +230,7 @@ The data on this storage is counted to the same 250 GB quota as the `Long-term s
     <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
 </div>
 
-### User Owned storage
+## User Owned storage
 
 Every user can [include their own storage](https://usegalaxy.eu/object_store_instances/index).
 If your Institute provides you with S3, iRODS, [OneData](https://onedata.org/) ... this option is for you. Because Galaxy
