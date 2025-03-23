@@ -4,7 +4,7 @@ title: Storage Management on the European Galaxy server
 
 Storage provides our users freedom to play around with their data and enables exploratory research, but it is also a limited resource for public Galaxy instances.
 Thanks to the [de.NBI cloud](https://www.denbi.de/cloud) and the [Uni-Freiburg compute center](https://www.rz.uni-freiburg.de) the European Galaxy server
-is managing 3PB of data today (2025/01).
+is managing 4PB of data today (2025/01).
 Users access this storage for free; governments are paying for the freedom of science and against being locked into some commercial system.
 Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250 GB for every user, also called `quota`.
 
@@ -21,6 +21,7 @@ has introduced advanced Research Data Management (RDM) features, including:
 * [Advanced options to export data as FAIR Digital Objects](#data-export)
 * [Options for users to integrate their own storage into Galaxy](#user-owned-storage)
 * [A co-financing model for research groups in cooperation with our compute center](#towards-a-sustainable-storage-enabling-co-financing-of-public-infrastructure)
+* [Glossary](#glossary)
     
 ----
 
@@ -75,12 +76,13 @@ More details about the difference between deleting and permanent deletion can be
 ## Smart data import
 
 If your RAW data is available on your institutional repository or provided by a core facility you can include those repositories into Galaxy as well.
-We call those `remote file sources` and you can configure those under your [user settings](https://usegalaxy.eu/file_source_instances/index). Just to give a few examples,
-you can include repositories based on [InvenioRDM](https://inveniosoftware.org/products/rdm/), [Dataverse](https://dataverse.org), FTP, Google Drive, DropBox, AWS, S3 and [WebDav](https://en.wikipedia.org/wiki/WebDAV),
+We call those `repositories` (or technically "remote file sources") and you can configure those under your [user settings](https://usegalaxy.eu/file_source_instances/index).
+Just to give a few examples, you can include repositories based on [InvenioRDM](https://inveniosoftware.org/products/rdm/), [Dataverse](https://dataverse.org),
+FTP, Google Drive, DropBox, AWS, S3 and [WebDav](https://en.wikipedia.org/wiki/WebDAV),
 which includes NextCloud, OpenCloud, [EUDAT B2Drop](https://www.eudat.eu/service-catalogue/b2drop) and many others.
 
 👉 If you know about **public** repositories that can be useful for more Galaxy users, please get in [contact](mailto:contact@usegalaxy.eu)
-and we add it to our default `remote file sources` for all users.
+and we add it to our default `repositories` for all users.
 
 A relatively unknown feature in Galaxy is what we call `deferred data`. You can import data as `deferred`, which will not download the data into your history
 and therefore not count towards your Quota. `deferred data` will be temporarily downloaded when you do the first calculation on top of it, but it will
@@ -102,19 +104,16 @@ To facilitate this, Galaxy provides multiple options for uploading and exporting
 * [OMERO](https://www.openmicroscopy.org/omero/) Integration: For researchers working with biological imaging data, Galaxy integrates with OMERO, an open-source platform for managing, visualizing,
   and analyzing large image datasets. This allows seamless access to OMERO-stored images within Galaxy for efficient data analysis and sharing.
 
-### Export to Writable Remote File Sources
+### Export to Writable Repositories
 
-Under your Galaxy [user preferences](https://usegalaxy.eu/file_source_instances/index), you can configure writable remote file sources,
+Under your Galaxy [user preferences](https://usegalaxy.eu/file_source_instances/), you can configure writable `repositories`,
 enabling exports to various external storage systems. This flexibility allows you to manage and share data across different platforms and repositories,
 enhancing collaboration and accessibility. Galaxy supports the [Fair Digital Object (FDO)](https://fairdo.org/) [RO-Crate](https://www.researchobject.org/ro-crate/) so all exports can be machine readable.
 
 Galaxy integrates with InvenioRDM-compatible repositories, including [Zenodo](https://zenodo.org/), to streamline research data management.
 You can export your research results directly to Zenodo, where they are assigned a Digital Object Identifier (DOI) for proper
 citation and increased visibility. Additionally, Galaxy enables importing files from Zenodo,
-supporting reproducible and reusable research workflows.
-
-* https://galaxyproject.org/news/2024-05-03-inveniordm-integration/ is outdated, we need a new blog post and a hint on the old one that points to the new one
-
+supporting reproducible and reusable research workflows. More informations available at our [blog post](https://galaxyproject.org/news/2025-03-10-inveniordm-integration-update/).
 
 <div align="center">
     <img src="/images/undraw-illustrations/export-files.svg" alt="Icon that depicts a person that exports some data." height="100"/>
@@ -288,6 +287,29 @@ Before you request an additional quota, please make sure that:
 Please bear in mind that the change will be only effective after being granted, which can take a few working days.
 After the requested extension period ends, your quota will be back to the standard 250 GB. Your data won't be removed, but you won't be able to launch any jobs
 in Galaxy until you free up space and are again under 250 GB.
+
+# Glossary
+
+* **Files** in Galaxy are those things that you upload to Galaxy.
+* **Dataset** is one or multiple `files` plus metadata. Galaxy will determine metadata during files uploads, for example datatype, size, but also more advanced metadata like hdf5 properties.
+* **Quota** is the storage limit of your virtual disk in Galaxy. On the European Galaxy instance the quota is 250GB. All your uploaded data (not the deferred data) counts towards your quota.
+  If you exceed your quota no jobs will be started anymore. You need to remove data to be able to run new jobs (and produce new data). Alternatively,
+  you can also use your [`own storage`](#user-owned-storage) or the [`short term store`](#short-term-storage).
+* **Storage Dashboard** helps you to manage your Galaxy Storage. You can find large datasets, remove them, archive histories.
+
+  You can find the storage dashboard at https://usegalaxy.eu/storage/
+* **Galaxy Storage** is used by Galaxy to store your uploads, the result of tool runs or the results of your workflows, including intermediate datasets.
+    * Galaxy histories are stored on the `Galaxy storage`.
+    * Galaxy storage always needs to be writeable.
+    * It can have a `quota` assigned or can be without quota and you can extend the `Galaxy storage` with the your [`own storage`](#user-owned-storage).
+    * The Galaxy storage is storing `datasets`, repositories are storing `files`.
+    * We also call them `object stores` internally. Popular examples are S3, Google Cloud storage, OneData.
+    * You can add Galaxy storage at https://usegalaxy.eu/object_store_instances/
+* **Repository** refers to a file storage that you can include in Galaxy to import or export data to.
+    * Repositories can be read-only or writable.
+    * Repositories in Galaxy are storing `files`, the Galaxy storage is storing `datasets`.
+    * We also call it `remote files` or `remote file sources`. Popular examples are Owncloud, Nextcloud, Dropbox or FTP.
+    * You can add repositories at https://usegalaxy.eu/file_source_instances/
 
 
 <!-- we need to update the  policy, as soon as we have the new scratch in place -->
