@@ -3,7 +3,11 @@ title: 'Freiburg Galaxy team at the EGI 2023'
 date: "2023-07-24"
 tease: "From June 19th to 23rd, members from the Freiburg Galaxy team traveled to Poznań, Poland to participate and present the EuroScienceGateway (ESG) project at the EGI2023 meeting"
 hide_tease: false
-subsites: [all-eu, esg, esg-wp1, esg-wp4, esg-wp3]
+subsites: [all-eu, esg]
+tags:
+- esg-wp1
+- esg-wp4
+- esg-wp3
 main_subsite: eu
 ---
 
