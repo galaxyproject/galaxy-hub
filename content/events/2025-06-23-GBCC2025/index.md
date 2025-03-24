@@ -6,8 +6,10 @@ tease: "Get ready for the first-ever Galaxy and Bioconductor Community Conferenc
 continent: NA
 location:
   name: Cold Spring Harbor, NY, USA
-  url: https://galaxyproject.org/news/2024-09-03-gbc-c2025/
-contact: Organizing Committee
+  url: https://gbcc2025.bioconductor.org/
+contact: 
+  name: Organizing Committee
+  url: https://gbcc2025.bioconductor.org/about/committee/
 gtn: false
 tags: [conference]
 subsites: [all]
@@ -29,4 +31,4 @@ The first Galaxy and Bioconductor Community Conference (GBCC 2025) is scheduled 
 
 Attendees will be able to develop reproducible workflows, promote community-driven tool development, and enhance training and educational resources. This conference serves as a platform to discuss reproducibility and open science, exploring ways to make tools and methods more accessible and transparent for the community.
 
-Stay tuned for more information and registration!
+Stay tuned for more information and [registration](https://gbcc2025.bioconductor.org/registration/conference/)!
