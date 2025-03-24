@@ -31,7 +31,7 @@ Galaxy-Ecology is a web-based platform that embodies these principles, offering:
 
 - **Accessible Workflows:** User-friendly interfaces for constructing and executing complex ecological analyses without extensive programming knowledge.
 
-- **Reproducibility:** Standardized workflows ensure that analyses can be replicated and validated by other researchers.
+- **Reproducibility:** Standardized contributions (tools, workflows) ensure that analyses can be replicated and validated by other researchers.
 
 - **Community Collaboration:** A platform for sharing tools, workflows, and best practices, fostering a collaborative research environment.
 
@@ -52,7 +52,7 @@ The platform provides a range of tools and workflows tailored for ecological dat
 
 ## Join the Galaxy-Ecology Community
 
-We invite ecologists, data analysts, and educators to engage with the Galaxy-Ecology community. Your contributions, whether through utilizing the platform, developing new tools, or participating in discussions, are vital for advancing reproducible and efficient ecological research.
+We invite ecologists, data analysts, and educators to engage with the Galaxy-Ecology community. Your contributions, whether through utilizing the platform, developing new tools, tutorials, or participating in discussions, are vital for advancing reproducible and efficient ecological research.
 
 ## Read the Full Paper
 For an in-depth understanding of our framework and the development of Galaxy-Ecology, read our full paper in *GigaScience*: [https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giae122/8010442](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giae122/8010442).
