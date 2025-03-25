@@ -16,7 +16,7 @@
                                         v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
                                         :key="site.locale"
                                         :href="site.url"
-                                        class="btn hero mr-3 bgBright dropdown-toggle"
+                                        :class="`btn hero mr-3 bgBright dropdown-toggle plausible-event-name=UseGalaxyDropDown+Clicks+${site.locale}`"
                                         role="button"
                                         target="_blank"
                                         id="dropdownMenuLink"
@@ -36,7 +36,7 @@
                                             :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
-                                            class="dropdown-item"
+                                            :class="`dropdown-item plausible-event-name=UseGalaxyDropDown+Clicks+${site.locale}`"
                                         >
                                             Use Galaxy Now - {{ site.locale }}
                                         </a>
