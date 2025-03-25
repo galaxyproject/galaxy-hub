@@ -2,7 +2,8 @@
 date: '2025-03-24'
 title: 'Paper Highlight: “Hydrogen Radical Chemistry at High-Symmetry {2Fe2S} Centers Probed Using a Muonium Surrogate”'
 authors: 'Leandro Liborio'
-subsites: [all-eu, global]
+subsites: [all-eu,global,esg]
+tags: [esg,esg-wp5]
 ---
 
 Muons are subatomic particles that are produced at four active muon sources around the world: ISIS in the UK; J-PARC in Japan; TRIUMF in Canada and PSI in Switzerland. In this paper, muon spectroscopy (μSR) experiments and simulations were carried out on materials for energy applications. Specifically, the experiments were done on redox-active metal hydrides, which are of central importance in novel hydrogen generation methods.
