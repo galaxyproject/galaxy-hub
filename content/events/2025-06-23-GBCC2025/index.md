@@ -7,7 +7,6 @@ continent: NA
 location:
   name: Cold Spring Harbor, NY, USA
   url: https://gbcc2025.bioconductor.org/
-contacts:
 contacts: 
 - name: Organizing Committee
   url: https://gbcc2025.bioconductor.org/about/committee/
