@@ -1,0 +1,43 @@
+hub VEuPathDB_mirror
+shortLabel Mirrored from VEuPathDB
+longLabel Mirrored from VEuPathDB, hosted on Galaxy for BRC Analytics
+useOneFile on
+email scott@scottcain.net
+
+genome GCF_000002765.6
+
+track blat_ests
+shortLabel EST Alignments
+longLabel Transcriptomics__BLAT_and_Blast_Alignments__EST_Alignments.gff3.bed.bb
+visibility pack
+type bigBed
+maxWindowToDraw 200000
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dcd49c548dbdb4b6/display?to_ext=bigbed
+
+track noncoding_rna
+shortLabel Long ncRNA
+longLabel Gene_Models__Transcripts__Long_non-coding_RNA_for_P._falciparum.gff3.bed.bb
+type bigBed
+visibility pack
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213522e4263a10b48a9b/display?to_ext=bigbed
+
+track gene_density
+shortLabel Gene density
+longLabel Gene_Models__Transcripts__Gene_Density.gff3.bed.bb
+type bigBed
+visibility pack
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352e65a559e6d92752/display?to_ext=bigbed
+
+track annotated_transcripts
+shortLabel Annotated transcripts
+longLabel Gene_Models__Transcripts__Annotated_Transcripts.gff3.bed.bb
+type bigBed
+visibility pack
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135247cfdf06197886f/display?to_ext=bigbed
+
+track Long_Read_RNA
+shortLabel Long Read RNA
+longLabel Gene_Models__Transcripts__Long_Read_RNA_for_P._falciparum.gff3.bed.bb
+type bigBed
+visibility pack
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135db1b7794e0e0acd5/display?to_ext=bigbed
