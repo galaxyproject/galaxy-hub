@@ -16,13 +16,14 @@
                                         v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
                                         :key="site.locale"
                                         :href="site.url"
-                                        :class="`btn hero mr-3 bgBright dropdown-toggle plausible-event-name=UseGalaxyDropDown+Clicks+${site.locale}`"
+                                        class="btn hero mr-3 bgBright dropdown-toggle"
                                         role="button"
                                         target="_blank"
                                         id="dropdownMenuLink"
                                         data-toggle="dropdown"
                                         aria-haspopup="true"
                                         aria-expanded="false"
+                                        @click="plausibleCount(`UseGalaxyDropDown Clicks ${site.locale}`)"
                                     >
                                         UseGalaxy:
                                         {{ site.locale }}
@@ -36,7 +37,8 @@
                                             :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
-                                            :class="`dropdown-item plausible-event-name=UseGalaxyDropDown+Clicks+${site.locale}`"
+                                            class="dropdown-item"
+                                            @click="plausibleCount(`UseGalaxyDropDown Clicks ${site.locale}`)"
                                         >
                                             Use Galaxy Now - {{ site.locale }}
                                         </a>
@@ -347,6 +349,11 @@ export default {
                 galaxies.splice(0, 0, priority[0]);
             }
             this.prioritizedGalaxyLocales = galaxies;
+        },
+        plausibleCount(goal) {
+            if (typeof window.plausible !== "undefined") {
+                window.plausible(goal);
+            }
         },
     },
     mounted() {
