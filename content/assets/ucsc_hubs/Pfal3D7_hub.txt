@@ -20,7 +20,7 @@ shortLabel Long ncRNA
 longLabel Gene_Models__Transcripts__Long_non-coding_RNA_for_P._falciparum.gff3.bed.bb
 type bigBed 9
 visibility pack
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358cea612e95235e8b/display?to_ext=bigbed
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351ecb536040b46d9b/display?to_ext=bigbed
 
 #track gene_density
 #shortLabel Gene density
