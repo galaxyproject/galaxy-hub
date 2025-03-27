@@ -10,7 +10,7 @@ genome GCF_000002765.6
 track blat_ests
 shortLabel EST Alignments
 longLabel Transcriptomics__BLAT_and_Blast_Alignments__EST_Alignments.gff3.bed.bb
-visibility pack
+visibility dense
 type bigBed 9
 maxWindowToDraw 200000
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dcd49c548dbdb4b6/display?to_ext=bigbed
