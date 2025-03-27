@@ -65,7 +65,7 @@
     "unified-engine": "^9.0.4",
     "unist-util-visit": "^4.0.0",
     "url-parse": "^1.5.10",
-    "vega": "^5.21.0",
+    "vega": "^5.32.0",
     "vega-embed": "^6.20.5",
     "vega-lite": "^5.2.0",
     "vue-tweet-embed": "^2.4.0",
