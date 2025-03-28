@@ -59,4 +59,4 @@ type bigBed 9+1
 visibility pack
 mouseOverField readCount
 labelFields none
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213543bec696a231c551/display?to_ext=bigbed
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ad910e4f51cb2747/display?to_ext=bigbed
