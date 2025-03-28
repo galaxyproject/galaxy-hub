@@ -40,5 +40,14 @@ track Long_Read_RNA
 shortLabel Long Read RNA
 longLabel Gene_Models__Transcripts__Long_Read_RNA_for_P._falciparum.gff3.bed.bb
 type bigBed 9
-visibility pack
+visibility squish
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358cea612e95235e8b/display?to_ext=bigbed
+
+track annotated_introns
+shortLabel Annotated Introns
+longLabel Annotated introns that are confirmed by RNASeq reads
+type bigBed 9+1
+visibility pack
+mouseOverField readCount
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a1a082e8251d823c/display?to_ext=bigbed
+
