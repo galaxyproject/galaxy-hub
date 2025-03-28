@@ -49,5 +49,14 @@ longLabel Annotated introns that are confirmed by RNASeq reads
 type bigBed 9+1
 visibility pack
 mouseOverField readCount
+labelFields none
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a1a082e8251d823c/display?to_ext=bigbed
 
+track unannotated_introns
+shortLabel Unnnotated Introns
+longLabel Unannotated introns that are suggested by RNASeq reads
+type bigBed 9+1
+visibility pack
+mouseOverField readCount
+labelFields none
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213543bec696a231c551/display?to_ext=bigbed
