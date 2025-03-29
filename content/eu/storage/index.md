@@ -259,15 +259,22 @@ has implications for carbon emissions and performance.
 We have enabled an additional strategy that makes it possible to include storage provided by partner consortia in a very transparent way
 into the European Galaxy Server to increase the quota to all consortia members.
 
-Demonstrator: The [NFDI](https://www.nfdi.de) (National Research Data Infrastructure) is building RDM communities in Germany and one of them
-is [DataPLANT](https://nfdi4plants.org). DataPLANT has access to the bwSFS, a state-funded storage for scientists
-and in this case in particular for fundamental plant research. In cooperation with [DataPLANT](https://www.nfdi4plants.org) we have included part of this storage into
+Demonstrator I: The [NFDI](https://www.nfdi.de) (National Research Data Infrastructure) is building RDM communities in Germany and one of them
+is [DataPLANT](https://nfdi4plants.org). DataPLANT has access to the [bwSFS](https://rdmg.uni-freiburg.de/de/posts/bwsfs/), a state-funded storage for scientists
+and in this case in particular for fundamental plant research. In cooperation with [DataPLANT](https://www.nfdi4plants.org) and the
+[Compute Center of the University of Freiburg](https://www.rz.uni-freiburg.de/) we have included part of this storage into
 Galaxy and have configured Galaxy to store data from users associated with DataPLANT on this particular storage only.
 This enables DataPLANT now to decide about their preferred quota limits, and the level of data backup policies and fosters the participation of NFDI with the Galaxy project.
 
-The system is very flexible and we could enable research networks, like Collaborative Research Centres, in the same way, to participate in the European Galaxy project and offer
+Demonstrator II: [NFDI4BioImage](https://nfdi4bioimage.de/home/) is supporting the Galaxy Imaging community by providing dedicated storage resources. In this demonstrator,
+the [Center for Information Technology (CIT)](https://www.uni-muenster.de/IT/)
+at the University of Münster has set up an S3-based storage solution for a specific working group requiring 300TB of RAW data storage.
+The group now seamlessly stores their RAW data in this dedicated environment, accessing it directly from within Galaxy for analysis. Additionally,
+they can export their results back into the storage, ensuring a smooth and integrated workflow.
+
+The system is very flexible and we could enable research networks, like Collaborative Research Centres, NFDIs, EOSC-Nodes, in the same way, to participate in the European Galaxy project and offer
 sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but is only a small aspect of
-RDM - for which [NFDI](https://www.nfdi.de) and Galaxy provide additional solutions.
+RDM - for which [de.NBI](https://www.denbi.de), [NFDI](https://www.nfdi.de) and Galaxy provide additional solutions.
 Please get in contact with us if you want to learn more about [RDM](https://rdmkit.elixir-europe.org/galaxy_assembly).
 
 ----
