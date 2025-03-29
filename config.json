@@ -133,6 +133,12 @@
             "utcMax": 14
         },
         {
+            "locale": "FR",
+            "url": "http://usegalaxy.fr",
+            "utcMin": -10,
+            "utcMax": 12
+        },
+        {
             "locale": "Other",
             "url": "/use/"
         }
