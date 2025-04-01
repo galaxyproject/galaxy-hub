@@ -1,7 +1,7 @@
 ---
 title: "eLabFTW integration"
 date: "2025-04-02"
-tease: "Bring data straight from your lab"
+tease: "Bring data to Galaxy straight from the lab."
 hide_tease: false
 authors: José Manuel Domínguez
 authors_structured:
@@ -15,12 +15,13 @@ tags: [esg, esg-wp2]
 lab. Each lab can either [host their own installation](https://doc.elabftw.net/#introduction) or go for Deltablot's
 [hosted solution](https://www.deltablot.com/elabftw/). A live demo showcasing its features is available [here](https://demo.elabftw.net/).
 
-And from now on, it is integrated with Galaxy! Release 25.0 brings eLabFTW onboard as a file source. This means that
-files attached to eLabFTW [experiments](https://doc.elabftw.net/user-guide.html#experiments) and 
+And from now on, it is integrated with Galaxy! eLabFTW support has been deployed to
+[usegalaxy.eu](https://usegalaxy.eu), and the file source will be brought onboard to upstream Galaxy in release 25.0.
+This means that files attached to eLabFTW [experiments](https://doc.elabftw.net/user-guide.html#experiments) and
 [resources](https://doc.elabftw.net/user-guide.html#resources) can be imported to
 [histories](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history/tutorial.html)
 with just a few clicks. After the analysis is complete, datasets and histories can be exported back as attachments to an
-experiment or resource. 
+experiment or resource.
 
 ## Getting started
 
@@ -30,16 +31,23 @@ page on your eLabFTW server and go to the _API Keys_ tab.
 ![eLabFTW API Keys tab on settings page](./elabftw_api_keys.png)
 
 Generate a new API key and copy it. Choose "Read/Write" permissions to enable both importing and exporting data. "Read
-Only" API keys still work for importing data to Galaxy, but they will cause Galaxy to error out when exporting data to
-eLabFTW.    
+Only" API keys work for importing data to Galaxy, but not for exporting data to eLabFTW.
 
 ![Creating a new API key](./elabftw_api_keys_generate.png)
 
-On Galaxy, open the eLabFTW integration settings under user preferences _Manage Information_ > 
-_Your eLabFTW Integration Settings_. Enter the API key you just generated and the URL of your eLabFTW instance and click
-_Save_.
+On Galaxy, configure a new eLabFTW file source under user preferences _Manage Your Repositories_ > _Create_ > _eLabFTW_.
 
-![eLabFTW integration settings on Galaxy](./elabftw_integration_settings.png)
+![User preferences](./user_preferences.png)
+
+![Manage Your Repositories](./manage_your_repositories.png)
+
+![Select eLabFTW](./manage_your_repositories_create.png)
+
+Assign a name to your eLabFTW file source, enter the URL to your eLabFTW instance, and enter the API key you just
+generated. If you are using a "Read Only" API key, disable the toggle "Allow Galaxy to export data to eLabFTW?".
+Click _Create_.
+
+![eLabFTW file source setup on Galaxy](./elabftw_file_source.png)
 
 ## Importing files to a Galaxy history
 
