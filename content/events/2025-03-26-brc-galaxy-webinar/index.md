@@ -11,6 +11,7 @@ contact: "scott@scottcain.net"
 tags: [webinar]
 subsites: [all]
 ---
+[Video now available!](https://youtu.be/lYzb0j_UtWk)
 
 ![BRC Analytics logo](/images/logos/brc.svg)
 
