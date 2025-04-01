@@ -6,7 +6,7 @@ hide_tease: false
 authors: José Manuel Domínguez
 authors_structured:
 - github: kysrpex
-subsites: [global, all]
+subsites: [eu, esg]
 tags: []
 ---
 
