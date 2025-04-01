@@ -7,7 +7,7 @@ authors: José Manuel Domínguez
 authors_structured:
 - github: kysrpex
 subsites: [eu, esg]
-tags: []
+tags: [esg, esg-wp2]
 ---
 
 [eLabFTW](https://www.elabftw.net/) is a free and open source electronic lab notebook from
