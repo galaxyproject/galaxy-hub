@@ -23,6 +23,5 @@ Please join Anton Nekrutenko and Scott Cain for a webinar about [BRC Analytics](
 
 
 - **Time:** 1 PM EDT/10 AM PDT
-- **Link:** https://psu.zoom.us/j/93960440173 
 
 We will be taking questions and providing information about avenues for following up on development efforts.
