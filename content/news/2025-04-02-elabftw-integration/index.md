@@ -1,6 +1,6 @@
 ---
 title: "eLabFTW integration"
-date: "2025-06-30"
+date: "2025-04-02"
 tease: "Bring data straight from your lab"
 hide_tease: false
 authors: José Manuel Domínguez
