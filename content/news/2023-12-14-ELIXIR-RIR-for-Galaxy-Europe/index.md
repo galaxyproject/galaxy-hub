@@ -2,7 +2,7 @@
 title: Galaxy Europe has been added as a new ELIXIR RIR
 date: '2023-12-14'
 tease: "usegalaxy.eu is now an ELIXIR Recommended Interoperability Resource!"
-tags: [ELIXIR, RIR, interoperability]
+tags: [ELIXIR, RIR, interoperability, esg, esg-wp1]
 authors: Sebastian Schaaf, Björn Grüning
 authors_structured:
 - github: sebastian-schaaf

@@ -81,7 +81,7 @@ Testing and hardening the Galaxy ecosystem, developing and maintaining test infr
 
 This group builds the standards and ecosystem for execution, testing, publishing and improving workflows, workflow features and workflow performance.
 
-* [GitHub Project](https://github.com/orgs/galaxyproject/projects/20)
+* [GitHub](https://github.com/galaxyproject/iwc)
 * [Google Drive](https://drive.google.com/drive/folders/1E8xG5u8mInGr5-GgfpKVTQYeo5xkRkAx?usp=sharing)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_iwc:gitter.im)
 * Organizers: Marius van den Beek, Alex Ostrovsky

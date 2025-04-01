@@ -34,6 +34,9 @@ This years conference is hosted by Masaryk University and ELIXIR Czech Republic 
     <img src="/images/events/gcc2024/logo-elixir-cz.png" alt="Mountains" style="width:27%">
 </p>
 
+The project is being carried out with the financial support of the Statutory City of Brno under the auspices of the Mayor of the Statutory City of Brno, JUDr. Markéta Vaňková.
+
+
 # Scientific Committee Chair
 
 The scientific program chair is responsible for the scientific program at GCC2024.

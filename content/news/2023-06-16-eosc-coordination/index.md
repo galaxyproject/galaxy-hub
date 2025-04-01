@@ -6,8 +6,8 @@ hide_tease: false
 authors: "Anika Erxleben"
 authors_structured:
 - github: erxleben
-tags: [EU]
-subsites: [all-eu]
+tags: [EU, esg, esg-wp1, eosc]
+subsites: [all-eu, global, esg]
 main_subsite: eu
 ---
 

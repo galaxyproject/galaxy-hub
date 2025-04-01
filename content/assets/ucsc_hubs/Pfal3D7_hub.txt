@@ -1,0 +1,62 @@
+hub VEuPathDB_mirror
+shortLabel Mirrored from VEuPathDB
+longLabel Mirrored from VEuPathDB, hosted by Galaxy for BRC Analytics
+useOneFile on
+email scott+ucschub@scottcain.net
+descriptionUrl https://galaxyproject.net/assets/ucsc_hubs/aboutBRCAnalticsHubs.html
+
+genome GCF_000002765.6
+
+track blat_ests
+shortLabel EST Alignments
+longLabel Transcriptomics__BLAT_and_Blast_Alignments__EST_Alignments.gff3.bed.bb
+visibility dense
+type bigBed 9
+maxWindowToDraw 200000
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dcd49c548dbdb4b6/display?to_ext=bigbed
+
+track noncoding_rna
+shortLabel Long ncRNA
+longLabel Gene_Models__Transcripts__Long_non-coding_RNA_for_P._falciparum.gff3.bed.bb
+type bigBed 9
+visibility pack
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351ecb536040b46d9b/display?to_ext=bigbed
+
+#track gene_density
+#shortLabel Gene density
+#longLabel Gene_Models__Transcripts__Gene_Density.gff3.bed.bb
+#type bigBed 12
+#visibility pack
+#bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352e65a559e6d92752/display?to_ext=bigbed
+
+track annotated_transcripts
+shortLabel Annotated transcripts
+longLabel Gene_Models__Transcripts__Annotated_Transcripts.gff3.bed.bb
+type bigBed 12
+visibility pack
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ec793353604df5ee/display?to_ext=bigbed
+
+track Long_Read_RNA
+shortLabel Long Read RNA
+longLabel Gene_Models__Transcripts__Long_Read_RNA_for_P._falciparum.gff3.bed.bb
+type bigBed 9
+visibility squish
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358cea612e95235e8b/display?to_ext=bigbed
+
+track annotated_introns
+shortLabel Annotated Introns
+longLabel Annotated introns that are confirmed by RNASeq reads
+type bigBed 9+1
+visibility pack
+mouseOverField readCount
+labelFields none
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a1a082e8251d823c/display?to_ext=bigbed
+
+track unannotated_introns
+shortLabel Unnnotated Introns
+longLabel Unannotated introns that are suggested by RNASeq reads
+type bigBed 9+1
+visibility pack
+mouseOverField readCount
+labelFields none
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213598441552f6c1076c/display?to_ext=bigbed

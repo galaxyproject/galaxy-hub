@@ -8,7 +8,7 @@ location:
 image: 
 location_url: "https://indico.skatelescope.org/event/1031/"
 contact: "Volodymyr Savchenko, François Antoine Morier-Genoud, Denys Savchenko, Andrii Neronov"
-subsites: [global]
+subsites: [global, all-eu, esg]
 tags: [esg-wp5, esg-wp2, esg, conference]
 ---
 

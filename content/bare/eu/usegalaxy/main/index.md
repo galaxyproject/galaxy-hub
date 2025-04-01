@@ -4,7 +4,7 @@ title: Galaxy Europe
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<!--Carousel /-->
+<Carousel />
 
 <br/>
 

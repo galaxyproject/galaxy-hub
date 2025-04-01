@@ -4,7 +4,8 @@ date: "2023-10-18"
 authors: Marie Jossé
 tease: "Use Ocean Data View (ODV) in Galaxy Europe as an interactive tool"
 hide_tease: true
-subsites: [all-eu,global]
+subsites: [all-eu,global, esg]
+tags: [esg, esg-wp5]
 ---
 
 ## ODV ? What does it do ?

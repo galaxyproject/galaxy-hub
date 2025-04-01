@@ -15,16 +15,28 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="/news/2024-08-30-org-colabfold" target="_blank">
+            <a href="https://gxy.io/GTA2025" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/colabfold_announce.png"
-                    img-alt="ColabFold Announcement"
+                    img-src="/images/usegalaxy-welcome/carousel_gta_2025_registration.png"
+                    img-alt="Galaxy Training Academy 2025 registration is now open"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://GBCC2025.org/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/GBCC_abstract_splash_screen.png"
+                    img-alt="GBCC2025 abstract submission and registration are now open"
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
                     img-src="/images/jxtx/jxtx-jumbotron.png"
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://GBCC2025.org/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/GBCC_abstract_splash_screen.png"
+                    img-alt="GBCC2025 abstract submission and registration are now open"
                 ></b-carousel-slide>
             </a>
         </b-carousel>

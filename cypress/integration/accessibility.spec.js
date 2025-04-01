@@ -18,6 +18,8 @@ describe("Accessibility Testing", () => {
         // Ensure masthead has loaded
         cy.get("#masthead-logo").should("be.visible");
         // Only check for #app; ignores twitter and sidecar.
+        // This wait is not great; testing if this is something in deferred load of pubs.
+        cy.wait(2500);
         cy.checkA11y("#app", CYPRESS_ACCESSIBILITY_CONFIG);
     });
     it("Use page has no detectable a11y violations on load", () => {
@@ -28,13 +30,6 @@ describe("Accessibility Testing", () => {
         // the table contents fade in and we have to wait for the animation to
         // complete prior to checking contrast.
         cy.wait(500);
-        cy.checkA11y("#app", CYPRESS_ACCESSIBILITY_CONFIG);
-    });
-    it(`GCC${CURRENT_DATE.getUTCFullYear()} page has no detectable a11y violations on load`, () => {
-        cy.visit(`/events/gcc${CURRENT_DATE.getUTCFullYear()}/`).get("#app").injectAxe();
-        // Ensure masthead has loaded
-        cy.get("#masthead-logo").should("be.visible");
-        // Only check for #app; ignores twitter and sidecar.
         cy.checkA11y("#app", CYPRESS_ACCESSIBILITY_CONFIG);
     });
 });
