@@ -222,7 +222,7 @@ this might confuse your collaboration partner.
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
 Data on this storage cannot be shared between users or published.
-All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storage you can always share data, and histories with others.
+All your data in Galaxy is by default only available to you and cannot be seen by other users. However, using normal storage, you can always share data, and histories with others.
 This special `Unshareable storage`, also called `private storage`, prevents sharing and provides an additional safeguard to you and your data. 
 The data on this storage is counted to the same 250 GB quota as the `Long-term storage`. You are responsible for data cleaning on this storage.
 
@@ -237,9 +237,9 @@ If your Institute provides you with S3, iRODS, [OneData](https://onedata.org/) .
 is not managing this storage, there will be no quota assigned, but the limit of your storage applies 😎
 
 Once you have registered your storage in Galaxy you can run tools and workflows against it. You can set a history to default to this storage or you can set it as global 
-default storage to your account. See a tutorial [here](https://galaxyproject.org/news/2024-09-20-esg-byos-im/).
+default storage for your account. See a tutorial [here](https://galaxyproject.org/news/2024-09-20-esg-byos-im/).
 
-⚠️ This type of storage provides you a lot of flexibility, however, data acess to this storage needs to be transferred over potentially long distances. This
+⚠️ This type of storage provides you a lot of flexibility, however, data access to this storage needs to be transferred over potentially long distances. This
 has implications for carbon emissions and performance.
 
 <div align="center">
@@ -259,15 +259,22 @@ has implications for carbon emissions and performance.
 We have enabled an additional strategy that makes it possible to include storage provided by partner consortia in a very transparent way
 into the European Galaxy Server to increase the quota to all consortia members.
 
-Demonstrator: The [NFDI](https://www.nfdi.de) (National Research Data Infrastructure) is building RDM communities in Germany and one of them
-is [DataPLANT](https://nfdi4plants.org). DataPLANT has access to the bwSFS, a state-funded storage for scientists
-and in this case in particular for fundamental plant research. In cooperation with [DataPLANT](https://www.nfdi4plants.org) we have included part of this storage into
+Demonstrator I: The [NFDI](https://www.nfdi.de) (National Research Data Infrastructure) is building RDM communities in Germany and one of them
+is [DataPLANT](https://nfdi4plants.org). DataPLANT has access to the [bwSFS](https://rdmg.uni-freiburg.de/de/posts/bwsfs/), a state-funded storage for scientists
+and in this case in particular for fundamental plant research. In cooperation with [DataPLANT](https://www.nfdi4plants.org) and the
+[Compute Center of the University of Freiburg](https://www.rz.uni-freiburg.de/) we have included part of this storage into
 Galaxy and have configured Galaxy to store data from users associated with DataPLANT on this particular storage only.
 This enables DataPLANT now to decide about their preferred quota limits, and the level of data backup policies and fosters the participation of NFDI with the Galaxy project.
 
-The system is very flexible and we could enable research networks, like Collaborative Research Centres, in the same way, to participate in the European Galaxy project and offer
+Demonstrator II: [NFDI4BioImage](https://nfdi4bioimage.de/home/) is supporting the Galaxy Imaging community by providing dedicated storage resources. In this demonstrator,
+the [Center for Information Technology (CIT)](https://www.uni-muenster.de/IT/)
+at the University of Münster has set up an S3-based storage solution for a specific working group requiring 300TB of RAW data storage.
+The group now seamlessly stores their RAW data in this dedicated environment, accessing it directly from within Galaxy for analysis. Additionally,
+they can export their results back into the storage, ensuring a smooth and integrated workflow.
+
+The system is very flexible and we could enable research networks, like Collaborative Research Centres, NFDIs, EOSC-Nodes, in the same way, to participate in the European Galaxy project and offer
 sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but is only a small aspect of
-RDM - for which [NFDI](https://www.nfdi.de) and Galaxy provide additional solutions.
+RDM - for which [de.NBI](https://www.denbi.de), [NFDI](https://www.nfdi.de) and Galaxy provide additional solutions.
 Please get in contact with us if you want to learn more about [RDM](https://rdmkit.elixir-europe.org/galaxy_assembly).
 
 ----
@@ -275,7 +282,7 @@ Please get in contact with us if you want to learn more about [RDM](https://rdmk
 # Request larger Quotas for your project
 
 With our [quota-increase form](https://usegalaxy.eu/quota-increase), you can request a temporary extension of your user quota in UseGalaxy.eu.
-For example you can request 1TB of quota for the next 6 month.
+For example you can request 1TB of quota for the next 6 months.
 
 Since UseGalaxy.eu is a public service that we provide for free, we request you to be **responsible and fair** when using the shared resources.
 
@@ -284,7 +291,7 @@ Before you request an additional quota, please make sure that:
 - You are following our tips to clean up your account
 - None of the above options is working for you
 
-Please bear in mind that the change will be only effective after being granted, which can take a few working days.
+Please bear in mind that the change will be effective only after being granted, which can take a few working days.
 After the requested extension period ends, your quota will be back to the standard 250 GB. Your data won't be removed, but you won't be able to launch any jobs
 in Galaxy until you free up space and are again under 250 GB.
 
@@ -292,8 +299,8 @@ in Galaxy until you free up space and are again under 250 GB.
 
 * **Files** in Galaxy are those things that you upload to Galaxy.
 * **Dataset** is one or multiple `files` plus metadata. Galaxy will determine metadata during files uploads, for example datatype, size, but also more advanced metadata like hdf5 properties.
-* **Quota** is the storage limit of your virtual disk in Galaxy. On the European Galaxy instance the quota is 250GB. All your uploaded data (not the deferred data) counts towards your quota.
-  If you exceed your quota no jobs will be started anymore. You need to remove data to be able to run new jobs (and produce new data). Alternatively,
+* **Quota** is the storage limit of your virtual disk in Galaxy. On the European Galaxy instance, the quota is 250GB. All your uploaded data (not the deferred data) counts towards your quota.
+  If you exceed your quota, no jobs will be started anymore. You need to remove data to be able to run new jobs (and produce new data). Alternatively,
   you can also use your [`own storage`](#user-owned-storage) or the [`short term store`](#short-term-storage).
 * **Storage Dashboard** helps you to manage your Galaxy Storage. You can find large datasets, remove them, archive histories.
 
@@ -312,7 +319,5 @@ in Galaxy until you free up space and are again under 250 GB.
     * Popular examples are Owncloud, Nextcloud, Dropbox or FTP.
     * You can add repositories at https://usegalaxy.eu/file_source_instances/
 
-
-<!-- we need to update the  policy, as soon as we have the new scratch in place -->
 <slot name="/eu/common/data-policy" />
 
