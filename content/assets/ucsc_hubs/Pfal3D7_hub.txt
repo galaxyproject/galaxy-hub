@@ -63,239 +63,280 @@ bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213598441552f6c1076c/d
 
 track Combined_RNA-Seq
 container multiWig
+shortLabel Combined RNA-Seq
+longLabel Combined RNA-Seq data mirrored from plasmodb.org
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig 0 756
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Bartfai_IDC_2018_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBartfai_IDC_2018_firststrand_merged.wig.newrefseqs.bw
+longLabel Bartfai_IDC_2018_firststrand_merged
 shortLabel Bartfai_IDC_2018_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353b3ad3e3e7338f19/display?to_ext=bigwig
 type bigWig 0 121
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Bartfai_IDC_2018_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBartfai_IDC_2018_secondstrand_merged.wig.newrefseqs.bw
+longLabel Bartfai_IDC_2018_secondstrand_merged
 shortLabel Bartfai_IDC_2018_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cb3f9e80793b5d56/display?to_ext=bigwig
 type bigWig 0 116
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Bunnik_Asexual_Cell_Cycle_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBunnik_Asexual_Cell_Cycle_unstranded_merged.wig.newrefseqs.bw
+longLabel Bunnik_Asexual_Cell_Cycle_unstranded_merged
 shortLabel Bunnik_Asexual_Cell_Cycle_nostrand
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351ab83d95557dedcd/display?to_ext=bigwig
 type bigWig 0 90
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Caro_ribosome_profiling_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FCaro_ribosome_profiling_firststrand_merged.wig.newrefseqs.bw
+longLabel Caro_ribosome_profiling_firststrand_merged
 shortLabel Caro_ribosome_profiling_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d9256ff2495f48db/display?to_ext=bigwig
 type bigWig 1 184
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Caro_ribosome_profiling_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FCaro_ribosome_profiling_secondstrand_merged.wig.newrefseqs.bw
+longLabel Caro_ribosome_profiling_secondstrand_merged
 shortLabel Caro_ribosome_profiling_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b8a1c418d18ea47d/display?to_ext=bigwig
 type bigWig 4 164
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Chappell_IDC_DAFT_UTRSeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FChappell_IDC_DAFT_UTRSeq_firststrand_merged.wig.newrefseqs.bw
+longLabel Chappell_IDC_DAFT_UTRSeq_firststrand_merged
 shortLabel Chappell_IDC_DAFT_UTRSeq_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b5d3594005b1b961/display?to_ext=bigwig
 type bigWig 0 267
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Chappell_IDC_DAFT_UTRSeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FChappell_IDC_DAFT_UTRSeq_secondstrand_merged.wig.newrefseqs.bw
+longLabel Chappell_IDC_DAFT_UTRSeq_secondstrand_merged
 shortLabel Chappell_IDC_DAFT_UTRSeq_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355f8bfccf393fec17/display?to_ext=bigwig
 type bigWig 0 261
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Cultured_Sporozoites_Transcriptome_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FCultured_Sporozoites_Transcriptome_unstranded_merged.wig.newrefseqs.bw
+longLabel Cultured_Sporozoites_Transcriptome_unstranded_merged
 shortLabel Cultured_Sporozoites_nostrand
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356d4ee85c078d09ea/display?to_ext=bigwig
 type bigWig 0 50
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Duffy_Ring-Schiz-Tropho_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FDuffy_Ring-Schiz-Tropho_firststrand_merged.wig.newrefseqs.bw
+longLabel Duffy_Ring-Schiz-Tropho_firststrand_merged
 shortLabel Duffy_Ring-Schiz-Tropho_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b878aafe0b2255ac/display?to_ext=bigwig
 type bigWig 0 41
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Duffy_Ring-Schiz-Tropho_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FDuffy_Ring-Schiz-Tropho_secondstrand_merged.wig.newrefseqs.bw
+longLabel Duffy_Ring-Schiz-Tropho_secondstrand_merged
 shortLabel Duffy_Ring-Schiz-Tropho_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511a1cb103e1f0382/display?to_ext=bigwig
 type bigWig 0 38
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Gomez-Diaz_asexual_stages_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FGomez-Diaz_asexual_stages_firststrand_merged.wig.newrefseqs.bw
+longLabel Gomez-Diaz_asexual_stages_firststrand_merged
 shortLabel Gomez-Diaz_asexual_stages_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135672442f5bbdacd0e/display?to_ext=bigwig
 type bigWig 3 55
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Gomez-Diaz_asexual_stages_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FGomez-Diaz_asexual_stages_secondstrand_merged.wig.newrefseqs.bw
+longLabel Gomez-Diaz_asexual_stages_secondstrand_merged
 shortLabel Gomez-Diaz_asexual_stages_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bdc4fe5263ee46f2/display?to_ext=bigwig
 type bigWig 3 60
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Josling_Schizont_Transcriptomes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FJosling_Schizont_Transcriptomes_firststrand_merged.wig.newrefseqs.bw
+longLabel Josling_Schizont_Transcriptomes_firststrand_merged
 shortLabel Josling_Schizont_Transcriptomes_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e33ff34fa3816c82/display?to_ext=bigwig
 type bigWig 0 29
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Josling_Schizont_Transcriptomes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FJosling_Schizont_Transcriptomes_secondstrand_merged.wig.newrefseqs.bw
+longLabel Josling_Schizont_Transcriptomes_secondstrand_merged
 shortLabel Josling_Schizont_Transcriptomes_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b5e5762a0ccc01ab/display?to_ext=bigwig
 type bigWig 0 26
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Kamaliddin_Sequestration_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FKamaliddin_Sequestration_firststrand_merged.wig.newrefseqs.bw
+longLabel Kamaliddin_Sequestration_firststrand_merged
 shortLabel Kamaliddin_Sequestration_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213555bd8945e4972958/display?to_ext=bigwig
 type bigWig 0 80
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Kamaliddin_Sequestration_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FKamaliddin_Sequestration_secondstrand_merged.wig.newrefseqs.bw
+longLabel Kamaliddin_Sequestration_secondstrand_merged
 shortLabel Kamaliddin_Sequestration_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359cc1309d032f1327/display?to_ext=bigwig
 type bigWig 0 77
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lasonder_Bartfai_Gametocytes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLasonder_Bartfai_Gametocytes_firststrand_merged.wig.newrefseqs.bw
+longLabel Lasonder_Bartfai_Gametocytes_firststrand_merged
 shortLabel Lasonder_Bartfai_Gametocytes_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213518b4eaf10df49944/display?to_ext=bigwig
 type bigWig 0 34
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lasonder_Bartfai_Gametocytes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLasonder_Bartfai_Gametocytes_secondstrand_merged.wig.newrefseqs.bw
+longLabel Lasonder_Bartfai_Gametocytes_secondstrand_merged
 shortLabel Lasonder_Bartfai_Gametocytes_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351b820491d8806d0d/display?to_ext=bigwig
 type bigWig 0 38
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lee_Gambian_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLee_Gambian_firststrand_merged.wig.newrefseqs.bw
+longLabel Lee_Gambian_firststrand_merged
 shortLabel Lee_Gambian_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135399d7c7aa3f0812a/display?to_ext=bigwig
 type bigWig 0 762
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lee_Gambian_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLee_Gambian_secondstrand_merged.wig.newrefseqs.bw
+longLabel Lee_Gambian_secondstrand_merged
 shortLabel Lee_Gambian_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c63af2817010c553/display?to_ext=bigwig
 type bigWig 0 756
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lindner_Oocyst_Salivary_Sporo_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLindner_Oocyst_Salivary_Sporo_firststrand_merged.wig.newrefseqs.bw
+longLabel Lindner_Oocyst_Salivary_Sporo_firststrand_merged
 shortLabel Lindner_Oocyst_Salivary_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356ff9d674b1a4d270/display?to_ext=bigwig
 type bigWig 0 34
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lindner_Oocyst_Salivary_Sporo_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLindner_Oocyst_Salivary_Sporo_secondstrand_merged.wig.newrefseqs.bw
+longLabel Lindner_Oocyst_Salivary_Sporo_secondstrand_merged
 shortLabel Lindner_Oocyst_Salivary_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fb567b1403b377d2/display?to_ext=bigwig
 type bigWig 0 40
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Newbold_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FNewbold_unstranded_merged.wig.newrefseqs.bw
+longLabel Newbold_unstranded_merged
 shortLabel Newbold_nostrand
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356567e5a160d23517/display?to_ext=bigwig
 type bigWig 1 105
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_PfaI_DC_UTR_RNASeq_2020_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FPfaI_DC_UTR_RNASeq_2020_unstranded_merged.wig.newrefseqs.bw
+longLabel DC_UTR_RNASeq_2020_unstranded_merged
 shortLabel DC_UTR_2020_nostrand
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358c2485284f4e8ec4/display?to_ext=bigwig
 type bigWig 0 95
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Pfal3D7_Febrile_temps_RNASeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FPfal3D7_Febrile_temps_RNASeq_firststrand_merged.wig.newrefseqs.bw
+longLabel Febrile_temps_RNASeq_firststrand_merged
 shortLabel Febrile_temps_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358e1152f8b69f8c0e/display?to_ext=bigwig
 type bigWig 0 86
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Pfal3D7_Febrile_temps_RNASeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FPfal3D7_Febrile_temps_RNASeq_secondstrand_merged.wig.newrefseqs.bw
+longLabel Febrile_temps_RNASeq_secondstrand_merged
 shortLabel Febrile_temps_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135efb0ded6fc4d4ed0/display?to_ext=bigwig
 type bigWig 0 81
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Scherf_Intraerythrocytic_cycle_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FScherf_Intraerythrocytic_cycle_firststrand_merged.wig.newrefseqs.bw
+longLabel Scherf_Intraerythrocytic_cycle_firststrand_merged
 shortLabel Scherf_Intraerythrocytic_cycle_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213546e2898419fdde94/display?to_ext=bigwig
 type bigWig 0 68
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Scherf_Intraerythrocytic_cycle_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FScherf_Intraerythrocytic_cycle_secondstrand_merged.wig.newrefseqs.bw
+longLabel Scherf_Intraerythrocytic_cycle_secondstrand_merged
 shortLabel Scherf_Intraerythrocytic_cycle_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359cac7a5a7f6d6add/display?to_ext=bigwig
 type bigWig 0 67
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Scherf_Ring_Oocyst_Sporozoite_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FScherf_Ring_Oocyst_Sporozoite_firststrand_merged.wig.newrefseqs.bw
+longLabel Scherf_Ring_Oocyst_Sporozoite_firststrand_merged
 shortLabel Scherf_Ring_Oocyst_Sporozoite_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135476ef7839895d77b/display?to_ext=bigwig
 type bigWig 0 47
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Scherf_Ring_Oocyst_Sporozoite_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FScherf_Ring_Oocyst_Sporozoite_secondstrand_merged.wig.newrefseqs.bw
+longLabel Scherf_Ring_Oocyst_Sporozoite_secondstrand_merged
 shortLabel Scherf_Ring_Oocyst_Sporozoite_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213543e77c60a52d6bcf/display?to_ext=bigwig
 type bigWig 0 41
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Stunnenberg_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FStunnenberg_unstranded_merged.wig.newrefseqs.bw
+longLabel Stunnenberg_unstranded_merged
 shortLabel Stunnenberg_nostrand
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b2698137cffd8bbc/display?to_ext=bigwig
 type bigWig 0 123
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Tonkin_Hill_Malaria_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FTonkin_Hill_Malaria_firststrand_merged.wig.newrefseqs.bw
+longLabel Tonkin_Hill_Malaria_firststrand_merged
 shortLabel Tonkin_Hill_Malaria_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ff98aad4bc34117a/display?to_ext=bigwig
 type bigWig 0 604
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Tonkin_Hill_Malaria_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FTonkin_Hill_Malaria_secondstrand_merged.wig.newrefseqs.bw
+longLabel Tonkin_Hill_Malaria_secondstrand_merged
 shortLabel Tonkin_Hill_Malaria_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355eef95084803bcfb/display?to_ext=bigwig
 type bigWig 0 675
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Wichers_Intraerythrocytic_Cycle_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FWichers_Intraerythrocytic_Cycle_unstranded_merged.wig.newrefseqs.bw
+longLabel Wichers_Intraerythrocytic_Cycle_unstranded_merged
 shortLabel Wichers_Intraerythrocytic_Cycle_nostrand
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135167983a4020823e6/display?to_ext=bigwig
 type bigWig 0 110
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_pf3d7_IDC2020_Subudhi_ebi_rnaSeq_RSRC%2FmergedBigwigs%2Fpf3d7_IDC2020_Subudhi_firststrand_merged.wig.newrefseqs.bw
+longLabel IDC2020_Subudhi_firststrand_merged
 shortLabel IDC2020_Subudhi_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e9f2e01ffd7885c1/display?to_ext=bigwig
 type bigWig 0 345
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_pf3d7_IDC2020_Subudhi_ebi_rnaSeq_RSRC%2FmergedBigwigs%2Fpf3d7_IDC2020_Subudhi_secondstrand_merged.wig.newrefseqs.bw
+longLabel IDC2020_Subudhi_secondstrand_merged
 shortLabel IDC2020_Subudhi_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e090db3c571a0bed/display?to_ext=bigwig
 type bigWig 0 308
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_pfal3D7_invitro_versus_mosquito_produced_sporozoite_RNASeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2Fpfal3D7_invitro_versus_mosquito_produced_sporozoite_RNASeq_firststrand_merged.wig.newrefseqs.bw
+longLabel invitro_versus_mosquito_produced_sporozoite_RNASeq_firststrand_merged
 shortLabel invitro_versus_mosquito_plus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b1059e4ac541fdb8/display?to_ext=bigwig
 type bigWig 0 25
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_pfal3D7_invitro_versus_mosquito_produced_sporozoite_RNASeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2Fpfal3D7_invitro_versus_mosquito_produced_sporozoite_RNASeq_secondstrand_merged.wig.newrefseqs.bw
+longLabel invitro_versus_mosquito_produced_sporozoite_RNASeq_secondstrand_merged
 shortLabel invitro_versus_mosquito_minus
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358367e9d28beec512/display?to_ext=bigwig
 type bigWig 0 31
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_ppfal3d7_kucharski_RBC_RNAseq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2Fppfal3d7_kucharski_RBC_RNAseq_unstranded_merged.wig.newrefseqs.bw
+longLabel kucharski_RBC_RNAseq_ebi_rnaSeq_RSRC%2Fmerged
 shortLabel kucharski_RBC_RNAseq_nostrand
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e4c584116d7f93d8/display?to_ext=bigwig
