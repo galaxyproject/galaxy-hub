@@ -72,7 +72,7 @@ type bigWig 0 756
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Bartfai_IDC_2018_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBartfai_IDC_2018_firststrand_merged.wig.newrefseqs.bw
 longLabel Bartfai_IDC_2018_firststrand_merged
 shortLabel Bartfai_IDC_2018_plus
-color
+color 130,100,130,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353b3ad3e3e7338f19/display?to_ext=bigwig
 type bigWig 0 121
@@ -80,7 +80,7 @@ type bigWig 0 121
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Bartfai_IDC_2018_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBartfai_IDC_2018_secondstrand_merged.wig.newrefseqs.bw
 longLabel Bartfai_IDC_2018_secondstrand_merged
 shortLabel Bartfai_IDC_2018_minus
-color
+color 120,100,120,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cb3f9e80793b5d56/display?to_ext=bigwig
 type bigWig 0 116
@@ -88,7 +88,7 @@ type bigWig 0 116
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Bunnik_Asexual_Cell_Cycle_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBunnik_Asexual_Cell_Cycle_unstranded_merged.wig.newrefseqs.bw
 longLabel Bunnik_Asexual_Cell_Cycle_unstranded_merged
 shortLabel Bunnik_Asexual_Cell_Cycle_nostrand
-color
+color 110,100,110,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351ab83d95557dedcd/display?to_ext=bigwig
 type bigWig 0 90
@@ -96,7 +96,7 @@ type bigWig 0 90
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Caro_ribosome_profiling_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FCaro_ribosome_profiling_firststrand_merged.wig.newrefseqs.bw
 longLabel Caro_ribosome_profiling_firststrand_merged
 shortLabel Caro_ribosome_profiling_plus
-color
+color 100,150,150,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d9256ff2495f48db/display?to_ext=bigwig
 type bigWig 1 184
@@ -104,7 +104,7 @@ type bigWig 1 184
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Caro_ribosome_profiling_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FCaro_ribosome_profiling_secondstrand_merged.wig.newrefseqs.bw
 longLabel Caro_ribosome_profiling_secondstrand_merged
 shortLabel Caro_ribosome_profiling_minus
-color
+color 100,140,140,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b8a1c418d18ea47d/display?to_ext=bigwig
 type bigWig 4 164
@@ -112,7 +112,7 @@ type bigWig 4 164
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Chappell_IDC_DAFT_UTRSeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FChappell_IDC_DAFT_UTRSeq_firststrand_merged.wig.newrefseqs.bw
 longLabel Chappell_IDC_DAFT_UTRSeq_firststrand_merged
 shortLabel Chappell_IDC_DAFT_UTRSeq_plus
-color
+color 100,130,130,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b5d3594005b1b961/display?to_ext=bigwig
 type bigWig 0 267
@@ -120,7 +120,7 @@ type bigWig 0 267
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Chappell_IDC_DAFT_UTRSeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FChappell_IDC_DAFT_UTRSeq_secondstrand_merged.wig.newrefseqs.bw
 longLabel Chappell_IDC_DAFT_UTRSeq_secondstrand_merged
 shortLabel Chappell_IDC_DAFT_UTRSeq_minus
-color
+color 100,120,120,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355f8bfccf393fec17/display?to_ext=bigwig
 type bigWig 0 261
@@ -128,7 +128,7 @@ type bigWig 0 261
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Cultured_Sporozoites_Transcriptome_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FCultured_Sporozoites_Transcriptome_unstranded_merged.wig.newrefseqs.bw
 longLabel Cultured_Sporozoites_Transcriptome_unstranded_merged
 shortLabel Cultured_Sporozoites_nostrand
-color
+color 100,110,110,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356d4ee85c078d09ea/display?to_ext=bigwig
 type bigWig 0 50
@@ -136,7 +136,7 @@ type bigWig 0 50
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Duffy_Ring-Schiz-Tropho_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FDuffy_Ring-Schiz-Tropho_firststrand_merged.wig.newrefseqs.bw
 longLabel Duffy_Ring-Schiz-Tropho_firststrand_merged
 shortLabel Duffy_Ring-Schiz-Tropho_plus
-color
+color 100,100,100,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b878aafe0b2255ac/display?to_ext=bigwig
 type bigWig 0 41
@@ -144,7 +144,7 @@ type bigWig 0 41
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Duffy_Ring-Schiz-Tropho_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FDuffy_Ring-Schiz-Tropho_secondstrand_merged.wig.newrefseqs.bw
 longLabel Duffy_Ring-Schiz-Tropho_secondstrand_merged
 shortLabel Duffy_Ring-Schiz-Tropho_minus
-color
+color 110,110,110,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511a1cb103e1f0382/display?to_ext=bigwig
 type bigWig 0 38
@@ -152,15 +152,15 @@ type bigWig 0 38
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Gomez-Diaz_asexual_stages_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FGomez-Diaz_asexual_stages_firststrand_merged.wig.newrefseqs.bw
 longLabel Gomez-Diaz_asexual_stages_firststrand_merged
 shortLabel Gomez-Diaz_asexual_stages_plus
-color
+color 110,110,150,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135672442f5bbdacd0e/display?to_ext=bigwig
-type bigWig 3 55
+type bigWig 0 55
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Gomez-Diaz_asexual_stages_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FGomez-Diaz_asexual_stages_secondstrand_merged.wig.newrefseqs.bw
 longLabel Gomez-Diaz_asexual_stages_secondstrand_merged
 shortLabel Gomez-Diaz_asexual_stages_minus
-color
+color 110,110,140,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bdc4fe5263ee46f2/display?to_ext=bigwig
 type bigWig 3 60
@@ -168,7 +168,7 @@ type bigWig 3 60
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Josling_Schizont_Transcriptomes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FJosling_Schizont_Transcriptomes_firststrand_merged.wig.newrefseqs.bw
 longLabel Josling_Schizont_Transcriptomes_firststrand_merged
 shortLabel Josling_Schizont_Transcriptomes_plus
-color
+color 110,110,130,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e33ff34fa3816c82/display?to_ext=bigwig
 type bigWig 0 29
@@ -176,7 +176,7 @@ type bigWig 0 29
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Josling_Schizont_Transcriptomes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FJosling_Schizont_Transcriptomes_secondstrand_merged.wig.newrefseqs.bw
 longLabel Josling_Schizont_Transcriptomes_secondstrand_merged
 shortLabel Josling_Schizont_Transcriptomes_minus
-color
+color 110,110,120,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b5e5762a0ccc01ab/display?to_ext=bigwig
 type bigWig 0 26
@@ -184,7 +184,7 @@ type bigWig 0 26
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Kamaliddin_Sequestration_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FKamaliddin_Sequestration_firststrand_merged.wig.newrefseqs.bw
 longLabel Kamaliddin_Sequestration_firststrand_merged
 shortLabel Kamaliddin_Sequestration_plus
-color
+color 110,150,110,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213555bd8945e4972958/display?to_ext=bigwig
 type bigWig 0 80
@@ -192,7 +192,7 @@ type bigWig 0 80
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Kamaliddin_Sequestration_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FKamaliddin_Sequestration_secondstrand_merged.wig.newrefseqs.bw
 longLabel Kamaliddin_Sequestration_secondstrand_merged
 shortLabel Kamaliddin_Sequestration_minus
-color
+color 110,140,110,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359cc1309d032f1327/display?to_ext=bigwig
 type bigWig 0 77
@@ -200,7 +200,7 @@ type bigWig 0 77
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lasonder_Bartfai_Gametocytes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLasonder_Bartfai_Gametocytes_firststrand_merged.wig.newrefseqs.bw
 longLabel Lasonder_Bartfai_Gametocytes_firststrand_merged
 shortLabel Lasonder_Bartfai_Gametocytes_plus
-color
+color 110,130,110,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213518b4eaf10df49944/display?to_ext=bigwig
 type bigWig 0 34
@@ -208,7 +208,7 @@ type bigWig 0 34
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Lasonder_Bartfai_Gametocytes_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FLasonder_Bartfai_Gametocytes_secondstrand_merged.wig.newrefseqs.bw
 longLabel Lasonder_Bartfai_Gametocytes_secondstrand_merged
 shortLabel Lasonder_Bartfai_Gametocytes_minus
-color
+color 110,120,110,128
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351b820491d8806d0d/display?to_ext=bigwig
 type bigWig 0 38
