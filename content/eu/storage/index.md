@@ -81,6 +81,10 @@ Just to give a few examples, you can include repositories based on [InvenioRDM](
 FTP, Google Drive, DropBox, AWS, S3 and [WebDav](https://en.wikipedia.org/wiki/WebDAV),
 which includes NextCloud, OpenCloud, [EUDAT B2Drop](https://www.eudat.eu/service-catalogue/b2drop) and many others.
 
+<div align="center">
+    <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html"><button type="button" class="btn btn-success">Learn how to add repositories</button></a>
+</div>
+
 👉 If you know about **public** repositories that can be useful for more Galaxy users, please get in [contact](mailto:contact@usegalaxy.eu)
 and we add it to our default `repositories` for all users.
 
@@ -114,6 +118,12 @@ Galaxy integrates with InvenioRDM-compatible repositories, including [Zenodo](ht
 You can export your research results directly to Zenodo, where they are assigned a Digital Object Identifier (DOI) for proper
 citation and increased visibility. Additionally, Galaxy enables importing files from Zenodo,
 supporting reproducible and reusable research workflows. More informations available at our [blog post](https://galaxyproject.org/news/2025-03-10-inveniordm-integration-update/).
+
+<div align="center">
+    <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html"><button type="button" class="btn btn-success">Learn how to add repositories</button></a>
+</div>
+
+If you are interested in Import and Export of data to various platforms, you might want to check out our dedicated blog posts about [InvenioRDM/Zenodo](https://galaxyproject.org/news/2025-03-10-inveniordm-integration-update/) and [eLabFTW](https://galaxyproject.org/news/2025-04-02-elabftw-integration/).
 
 <div align="center">
     <img src="/images/undraw-illustrations/export-files.svg" alt="Icon that depicts a person that exports some data." height="100"/>
@@ -230,7 +240,7 @@ The data on this storage is counted to the same 250 GB quota as the `Long-term s
     <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
 </div>
 
-## User Owned storage
+## User owned storage
 
 Every user can [include their own storage](https://usegalaxy.eu/object_store_instances/index).
 If your Institute provides you with S3, iRODS, [OneData](https://onedata.org/) ... this option is for you. Because Galaxy
@@ -238,6 +248,10 @@ is not managing this storage, there will be no quota assigned, but the limit of 
 
 Once you have registered your storage in Galaxy you can run tools and workflows against it. You can set a history to default to this storage or you can set it as global 
 default storage for your account. See a tutorial [here](https://galaxyproject.org/news/2024-09-20-esg-byos-im/).
+
+<div align="center">
+    <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_galaxy_storage.html"><button type="button" class="btn btn-success">Learn how to add more storage</button></a>
+</div>
 
 ⚠️ This type of storage provides you a lot of flexibility, however, data access to this storage needs to be transferred over potentially long distances. This
 has implications for carbon emissions and performance.
