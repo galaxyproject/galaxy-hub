@@ -13,6 +13,7 @@ supporters:
   - fair-ease
   - ifremer
   - usegalaxy-eu
+  - eurosciencegateway
 subsites: [all,global,esg,eu]
 ---
 
