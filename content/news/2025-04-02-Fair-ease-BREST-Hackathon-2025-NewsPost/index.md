@@ -59,7 +59,7 @@ The energy in the room led to fast-paced development and great progress thanks t
   - Updated consumer scripts and broker functionality  
   - Metrics collection via **Telegraf + InfluxDB**  
   - Deployment coordination with **[EuroScienceGateway (ESG)](https://galaxyproject.org/projects/esg/) WP3 [Pulsar](https://galaxyproject.org/cloudman/services/pulsar/) admins**  
-  - Migration of the **TPV Broker and consumer** to the EU infrastructure  
+  - Migration of the **[TotalPerspectiveVortex](https://total-perspective-vortex.readthedocs.io/en/latest/) (TPV) Broker and consumer** to the EU infrastructure  
   - Long-term planning for stable EU deployment
 
 ## Looking Ahead
