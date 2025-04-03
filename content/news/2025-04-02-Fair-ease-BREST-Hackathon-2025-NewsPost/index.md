@@ -3,7 +3,7 @@ title: "Highlights from the Galaxy Hackathon in Brest, France!"
 contributions:
   authorship: [dianichj, RZ9082]
   funding: [fair-ease,ifremereu,eurosciencegateway]
-tags: [Hackathon]
+tags: [Hackathon,esg, esg-wp3, esg-wp4, esg-wp1]
 layout: news
 date: "2025-04-02"
 cover: "Hackathon-FAIR-EASE-2025-lighthouse.jpg"
