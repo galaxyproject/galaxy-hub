@@ -14,7 +14,7 @@ visibility dense
 type bigBed 9
 maxWindowToDraw 200000
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dcd49c548dbdb4b6/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/about_blat_ests.html
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/blat_ests.html
 
 track noncoding_rna
 shortLabel Long ncRNA
@@ -22,7 +22,7 @@ longLabel Gene_Models__Transcripts__Long_non-coding_RNA_for_P._falciparum.gff3.b
 type bigBed 9
 visibility pack
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351ecb536040b46d9b/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/about_noncoding_rna.html
+descriptionUrl https://galaxyproject.org/assets/noncoding_rna.html
 
 #track gene_density
 #shortLabel Gene density
@@ -37,7 +37,7 @@ longLabel Gene_Models__Transcripts__Annotated_Transcripts.gff3.bed.bb
 type bigBed 12
 visibility pack
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ec793353604df5ee/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/about_annotated_transcripts.html
+descriptionUrl https://galaxyproject.org/assets/annotated_transcripts.html
 
 track Long_Read_RNA
 shortLabel Long Read RNA
