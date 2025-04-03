@@ -49,7 +49,7 @@ The energy in the room led to fast-paced development and great progress thanks t
   - [Tool link](https://usegalaxy.eu/root?tool_id=interactive_tool_terriamap)  
   - [Repo](https://github.com/usegalaxy-eu/galaxy/tree/release_24.2_europe/tools/interactive/terriamap)
 
-- ✅ **RO-Crate validation** support added in Galaxy testing
+- ✅ **[RO-Crate validation](https://rocrate-validator.readthedocs.io/en/stable/)** support added in Galaxy testing
 - ✅ Deployment of **two new ocean biogeochemistry tools**, with one updated
 - ✅ **Pulsar integration** completed on UCA testbed  
   - [Integration PR](https://github.com/usegalaxy-eu/infrastructure-playbook/pull/1447)
