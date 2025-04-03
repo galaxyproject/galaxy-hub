@@ -58,7 +58,7 @@ The energy in the room led to fast-paced development and great progress thanks t
 - ✅ Strategic advancement of **TPV meta-scheduling** including:  
   - Updated consumer scripts and broker functionality  
   - Metrics collection via **Telegraf + InfluxDB**  
-  - Deployment coordination with **ESG WP3 Pulsar admins**  
+  - Deployment coordination with **[EuroScienceGateway (ESG)](https://galaxyproject.org/projects/esg/) WP3 [Pulsar](https://galaxyproject.org/cloudman/services/pulsar/) admins**  
   - Migration of the **TPV Broker and consumer** to the EU infrastructure  
   - Long-term planning for stable EU deployment
 
