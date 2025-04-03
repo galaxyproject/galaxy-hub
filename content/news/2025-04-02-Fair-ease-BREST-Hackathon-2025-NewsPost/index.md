@@ -6,7 +6,7 @@ contributions:
 tags: [Hackathon]
 layout: news
 date: "2025-04-02"
-cover: "news/2025-04-02-Fair-ease-BREST-Hackathon-2025-NewsPost/Hackathon-FAIR-EASE-2025-lighthouse.jpg"
+cover: "Hackathon-FAIR-EASE-2025-lighthouse.jpg"
 coveralt: "Brest Lighthouse photo 2025"
 tease: "Collaboration, innovation, and waves of creativity—Galaxy dives into data at the FAIR-EASE Hackathon in Brest!"
 supporters:
@@ -20,9 +20,9 @@ subsites: [all,global,esg,eu]
 
 ## March 18th–20th, 2025 | Brest, France 🌊
 
-From **March 18th to 20th**, developers, researchers, and ocean data experts gathered in **Brest, France**, for a vibrant and hands-on **Galaxy Hackathon** as part of **FAIR-EASE**. Set against the scenic backdrop of the Atlantic coast, the event brought together a dedicated group of innovators to build workflows, deploy tools, and push the boundaries of interoperability and FAIR data practices.
+From **March 18th to 20th**, developers, researchers, and ocean data experts gathered in **Brest, France**, for a vibrant and hands-on **Hackathon** as part of **FAIR-EASE**. Set against the scenic backdrop of the Atlantic coast, the event brought together a dedicated group of innovators to build workflows, deploy tools, and push the boundaries of interoperability and FAIR data practices.
 
-![Oceanic Code Surge](news/2025-04-02-Fair-ease-BREST-Hackathon-2025-NewsPost/Hackathon-Brest-2025-NTO.jpg)  
+![Oceanic Code Surge](Hackathon-Brest-2025-NTO.jpg)
 <p align="center"><sub>📷 © FAIR-EASE Hackathon 2025</sub></p>
 
 ## Galaxy Challenge: From SAMBA to SAGA
@@ -63,7 +63,7 @@ The energy in the room led to fast-paced development and great progress thanks t
 
 ## Looking Ahead
 
-As waves crashed outside, ideas flowed inside. The **Galaxy Hackathon in Brest** laid the groundwork for exciting future developments. Next steps include:
+As waves crashed outside, ideas flowed inside. The **Hackathon in Brest** laid the groundwork for exciting future developments. Next steps include:
 
 - Advancing **OGC API integration** into Galaxy workflows  
 - Enriching RO-Crate metadata with spatial and temporal context  
