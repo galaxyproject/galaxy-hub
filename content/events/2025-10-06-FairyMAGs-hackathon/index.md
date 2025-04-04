@@ -98,9 +98,11 @@ Hacking is not restricted to onsite, we appreciate your participation from anywh
 
 # Preliminary Schedule
 
-The schedule is quite flexible: all days do not have a fixed end time (onsite decision with the participants). No requirement to join the whole week.
+The schedule is flexible, with no fixed end times each day; decisions will be made onsite with participants.
+Will will focus on specific topics each day, but one can also work on specific ideas individually. 
+There is no requirement to attend the entire week. For example, if your primary interest is Training Development, feel free to join us on Thursday.
 
-## Monday, October 6th
+## Monday, October 6th - **Workflow Development**
 
 | Time | Topic |
 |---|---|
@@ -110,28 +112,37 @@ The schedule is quite flexible: all days do not have a fixed end time (onsite de
 | 11:30 | Focus Groups selection |
 | 12:00 | Lunch |
 | 13:00 | Hacking |
+| 17:00 | Day recap |
+| 17:15 | Open end |
 
-## Tuesday, October 7th
-
-| Time | Topic |
-|---|---|
-| 9:30 | Hacking days - Stand-up meeting |
-| 12:00 | Lunch |
-
-## Wednesday, October 8th
+## Tuesday, October 7th - **MAGs Generation Benchmarking**
 
 | Time | Topic |
 |---|---|
 | 9:30 | Hacking days - Stand-up meeting |
 | 12:00 | Lunch |
+| 13:00 | Hacking |
+| 17:00 | Day recap |
+| 17:15 | Open end |
 
-## Thursday, October 9th
+## Wednesday, October 8th - **Resource Estimation**
+
+| Time | Topic |
+|---|---|
+| 9:30 | Hacking days - Stand-up meeting |
+| 12:00 | Lunch |
+| 13:00 | Hacking |
+| 17:00 | Day recap |
+| 17:15 | Open end |
+
+## Thursday, October 9th - **Training Development**
 
 | Time | Topic |
 |---|---|
 | 9:30 | Hacking |
 | 12:00 | Lunch |
-| 12:30 | Presentations of Hackathon outcomes |
+| 13:00 | Hacking |
+| 15:30 | Presentations of Hackathon outcomes |
 
 ## Friday, October 10th
 
