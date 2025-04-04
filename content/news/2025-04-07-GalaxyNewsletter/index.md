@@ -8,6 +8,8 @@ tags: ["highlight"]
 subsites: [global,all]
 ---
 
+![Galaxy News](GalaxyNews.png)
+
 Hello, Galaxy Community\!
 
 We’re excited to kick off the year with a series of updates for the Galaxy community. In this issue, you'll find information about the Galaxy Training Academy 2025 (GTA2025), an upcoming opportunity to enhance your data analysis skills. We also highlight the Galaxy and Bioconductor Community Conference 2025 (GBCC2025), which will bring together researchers, developers, and educators for the first-ever joint event between our two communities. Additionally, check out the latest features in Galaxy 24.2, including new workflow tools and enhanced usability. Finally, join us in congratulating the recipients of the 2025 JXTX+CSHL Biology of Genomes Scholarships, who will present their work at the Cold Spring Harbor Laboratory conference in May.
@@ -18,15 +20,17 @@ Read on for all the details and a list of upcoming events\!
 
 # **Galaxy Training Academy 2025 (GTA2025)**
 
+![GTA2025](Image1.png)
+
 The Galaxy Training Academy is back in 2025, and it’s the perfect opportunity for both beginners and advanced learners to sharpen their Galaxy data analysis skills\! Whether you are just getting started with Galaxy or looking to deepen your knowledge, GTA2025 offers a self-paced, online, and asynchronous learning experience for all.
 
 **Event Overview**  
 The Galaxy Training Academy 2025 spans five days, from **May 12th to May 16th**, providing participants with a diverse selection of learning tracks to choose from. You will have the flexibility to study at your own pace, with various self-learning materials available throughout the week. Here's what you can expect:
 
 **Program Tracks:** Galaxy Introduction, Proteomics, Assembly, Transcriptomics, Single Cell, Microbiome, Machine Learning, From Zero to Hero with Python, and FAIR Training.  
-**Day 1:** Get started by familiarizing yourself with the Galaxy platform.  
-**Days 2–4:** Explore specialized topics such as Proteomics, Transcriptomics, Single Cell, Microbiome, or Machine Learning.  
-**Day 5:** Round off your learning journey with an in-depth FAIR Training session.
+- **Day 1:** Get started by familiarizing yourself with the Galaxy platform.  
+- **Days 2–4:** Explore specialized topics such as Proteomics, Transcriptomics, Single Cell, Microbiome, or Machine Learning.  
+- **Day 5:** Round off your learning journey with an in-depth FAIR Training session.
 
 **How it Works**  
 The event is asynchronous, meaning you can start and progress through the materials at your own pace, whenever it suits you best. You’ll never be alone—if you have questions or need guidance, trainers from around the globe are available to support you via Slack chat. With participants across all time zones, help is always within reach.
@@ -35,14 +39,16 @@ The event is asynchronous, meaning you can start and progress through the materi
 The Galaxy Training Academy is open to everyone interested in learning bioinformatics data analysis through Galaxy. Whether you're a beginner or an experienced user, there’s something for everyone to master, from fundamental skills to more advanced techniques.
 
 **Key Dates**  
-Event: May 12–16, 2025  
-Registration deadline: May 8th, 2025
+- Event: May 12–16, 2025  
+- Registration deadline: May 8th, 2025
 
 We look forward to welcoming you to GTA2025! 
 
 ---
 
 # **Galaxy and Bioconductor Community Conference 2025 (GBCC2025)**
+
+![GBCC2025](Image2.png)
 
 We’re excited to welcome you to the first-ever joint conference between the Galaxy and Bioconductor communities: the [Galaxy and Bioconductor Community Conference 2025](https://gbcc2025.bioconductor.org/) (GBCC2025)\! This groundbreaking event will unite two leading platforms in computational science and open data analysis, providing an exceptional opportunity for scientists, researchers, software developers, and educators to come together and collaborate.
 
@@ -95,8 +101,12 @@ New buttons make creating and uploading collections easier, guiding users to com
 **Enhanced Workflow Invocation View**  
 Updates to the invocation view improve usability, including separate tabs for workflow steps, direct display of inputs, and relocated progress bars for a cleaner layout.
 
+![WorkflowInvocationView](Image3.png)
+
 **Workflow Invocation Metrics**  
 A new Metrics tab provides insights into workflow resource usage, including runtime, memory, and core allocation.
+
+![WorkflowInvocationMetrics](Image4.png)
 
 **Libraries Modernization**  
 The dataset picker is more intuitive, making it easier to import files from the user and import directories into libraries.
@@ -113,12 +123,12 @@ AI-powered job error diagnostics help users quickly identify and resolve issues 
 
 The James P. Taylor Foundation for Open Science is excited to announce the winners of the 2025 JXTX+CSHL Biology of Genomes Scholarships. These scholarships support graduate students in genomics and data science, allowing them to present their research and engage with the global research community. This year, six awardees from across the globe, representing various institutions, will showcase their work at the Cold Spring Harbor Laboratory’s Biology of Genomes Conference, scheduled for May 6-10.
 
-**Maria Carilli**, California Institute of Technology  
-**Sakuntha Gunarathna**, University of North Dakota  
-**Betselot Zerihun Ayano**, Ethiopian Public Health Institute  
-**Elysia Chou**, University of Michigan  
-**Amy Longtin**, Vanderbilt University  
-**William DeGroat, Rutgers**, The State University of New Jersey
+- **Maria Carilli**, California Institute of Technology  
+- **Sakuntha Gunarathna**, University of North Dakota  
+- **Betselot Zerihun Ayano**, Ethiopian Public Health Institute  
+- **Elysia Chou**, University of Michigan  
+- **Amy Longtin**, Vanderbilt University  
+- **William DeGroat, Rutgers**, The State University of New Jersey
 
 Galaxy congratulates these talented graduate and undergraduate students on their achievements and looks forward to their contributions to the field\! To learn more about this year's outstanding scholarship recipients, please visit the [JXTX Foundation website](https://jxtxfoundation.org/news/2025-3-6-bg-awardees).    
 
