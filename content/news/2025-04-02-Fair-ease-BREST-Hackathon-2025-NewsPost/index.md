@@ -43,7 +43,7 @@ The hackathon also tackled interoperability head-on with experiments in **OGC AP
 
 ## ⚡ Hackathon Highlights: Tools, Metadata & Scheduling
 
-The energy in the room led to fast-paced development and significant progress.  
+The energy in the room led to fast-paced development and great progress thanks to **Sanjay**, **Paul**, **Marie**, and **Eli** and all others that contributed:
 Members of the European Galaxy community achieved the following:
 
 - ✅ **TerriaMap Interactive Tool** added to Galaxy  
