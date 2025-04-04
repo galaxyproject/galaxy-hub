@@ -102,7 +102,7 @@ The schedule is quite flexible: all days do not have a fixed end time (onsite de
 Will will focus on specific topics each day, but one can also work on specific ideas individually. 
 No requirement to join the whole week. E.g. if you are mainly interested in Training Development feel free to only check-in on Thursday.
 
-## Monday, October 6th - Focus Workflow Development
+## Monday, October 6th - Workflow Development
 
 | Time | Topic |
 |---|---|
@@ -115,7 +115,7 @@ No requirement to join the whole week. E.g. if you are mainly interested in Trai
 | 17:00 | Day recap |
 | 17:15 | Open end |
 
-## Tuesday, October 7th - Focus Benchmark
+## Tuesday, October 7th - MAGs Generation Benchmarking
 
 | Time | Topic |
 |---|---|
@@ -125,7 +125,7 @@ No requirement to join the whole week. E.g. if you are mainly interested in Trai
 | 17:00 | Day recap |
 | 17:15 | Open end |
 
-## Wednesday, October 8th - Focus Resource Estimation
+## Wednesday, October 8th - Resource Estimation
 
 | Time | Topic |
 |---|---|
@@ -135,7 +135,7 @@ No requirement to join the whole week. E.g. if you are mainly interested in Trai
 | 17:00 | Day recap |
 | 17:15 | Open end |
 
-## Thursday, October 9th - Focus Training Development
+## Thursday, October 9th - Training Development
 
 | Time | Topic |
 |---|---|
