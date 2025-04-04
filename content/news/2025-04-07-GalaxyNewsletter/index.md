@@ -1,3 +1,13 @@
+---
+title: "Galaxy Newsletter: April 2025"
+tease: "Catch up on exciting updates from the Galaxy community, including new training opportunities, upcoming conferences, and cutting-edge features in Galaxy 24.2!"
+hide-tease: false
+authors: "Natalie Whitaker-Allen"
+date: "2025-04-07"
+tags: ["highlight"]
+subsites: [global,all]
+---
+
 Hello, Galaxy Community\!
 
 We’re excited to kick off the year with a series of updates for the Galaxy community. In this issue, you'll find information about the Galaxy Training Academy 2025 (GTA2025), an upcoming opportunity to enhance your data analysis skills. We also highlight the Galaxy and Bioconductor Community Conference 2025 (GBCC2025), which will bring together researchers, developers, and educators for the first-ever joint event between our two communities. Additionally, check out the latest features in Galaxy 24.2, including new workflow tools and enhanced usability. Finally, join us in congratulating the recipients of the 2025 JXTX+CSHL Biology of Genomes Scholarships, who will present their work at the Cold Spring Harbor Laboratory conference in May.
