@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Newsletter: March 2024"
 tease: "Dive into the March 2024 Galaxy Newsletter!"
-author: "Natalie Whitaker-Allen"
+authors: "Natalie Whitaker-Allen"
 date: "2024-03-18"
 subsites: [global, all]
 ---
