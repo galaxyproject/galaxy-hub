@@ -98,7 +98,7 @@ Hacking is not restricted to onsite, we appreciate your participation from anywh
 
 # Preliminary Schedule
 
-The schedule is quite flexible: all days do not have a fixed end time (onsite decision with the participants). 
+The schedule is flexible, with no fixed end times each day; decisions will be made onsite with participants.
 Will will focus on specific topics each day, but one can also work on specific ideas individually. 
 No requirement to join the whole week. E.g. if you are mainly interested in Training Development feel free to only check-in on Thursday.
 
