@@ -100,7 +100,7 @@ Hacking is not restricted to onsite, we appreciate your participation from anywh
 
 The schedule is flexible, with no fixed end times each day; decisions will be made onsite with participants.
 Will will focus on specific topics each day, but one can also work on specific ideas individually. 
-No requirement to join the whole week. E.g. if you are mainly interested in Training Development feel free to only check-in on Thursday.
+There is no requirement to attend the entire week. For example, if your primary interest is Training Development, feel free to join us on Thursday.
 
 ## Monday, October 6th - **Workflow Development**
 
