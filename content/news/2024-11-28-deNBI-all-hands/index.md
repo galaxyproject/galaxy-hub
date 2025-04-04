@@ -1,7 +1,7 @@
 ---
 title: "de.NBI / ELIXIR-DE All Hands Meeting"
 tease: "The Freiburg Galaxy Team participated in the de.NBI / ELIXIR-DE All Hands Meeting"
-author: "Paul Zierep"
+authors: "Paul Zierep"
 date: "2024-11-28"
 subsites: [eu]
 ---

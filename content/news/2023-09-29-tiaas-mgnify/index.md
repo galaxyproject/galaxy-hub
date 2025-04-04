@@ -5,7 +5,7 @@ date: '2023-09-29'
 tags: [TIaaS]
 supporters:
 - eosc
-author: Sandy Rogers
+authors: Sandy Rogers
 subsites: [all-eu, all]
 main_subsite: eu
 ---
