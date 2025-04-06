@@ -148,14 +148,14 @@ If you are interested in Import and Export of data to various platforms, you mig
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" title="Storage has a 250GB quota" height="50"/>
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" title="Storage has a 250 GB quota" height="50"/>
       </div>
     </div>
   </div>
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
-      <p class="card-text">Unlimited quota, data older than 60 days will be deleted. Data can be shared.</p>
+      <p class="card-text">2 TB of quota, data older than 60 days will be deleted. Data can be shared.</p>
       <br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
@@ -163,7 +163,7 @@ If you are interested in Import and Export of data to various platforms, you mig
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." title="Storage has a 250GB quota" height="50"/>&nbsp; 
+        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." title="Storage has a 250 GB quota" height="50"/>&nbsp; 
         <img src="/images/icons/icon_object_store_short_term.png" alt="Icon that depicts short-term storage." title="Data on this storage will be deleted after 60 days" height="50"/>
       </div>
     </div>
@@ -179,7 +179,7 @@ If you are interested in Import and Export of data to various platforms, you mig
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50" title="Storage has a 250GB quota"/>&nbsp;
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50" title="Storage has a 250 GB quota"/>&nbsp;
         <img src="/images/icons/icon_object_store_unshareable_restricted_private.png" alt="Icon that depicts unshareable, restricted and private storage."
             title="Data on this storage is not shareable" height="50"/>        
       </div>
@@ -214,7 +214,7 @@ The data is stored on a high-available data storage and you are allowed to share
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
 This storage, also called scratch-storage, with data `purged` after 60 days after creation and so it is only appropriate for short-term methods development and such.
-The rapid deletion of stored data enables us to provide this storage without a quota. This storage is not backed up.
+The rapid deletion of stored data enables us to provide this storage with a large quota of 2 TB for everyone. This storage is not backed up.
 
 The automatic cleaning of this storage works like this:
 * every weekend Galaxy will iterate over all datasets included in the `Short term storage`
@@ -313,7 +313,7 @@ in Galaxy until you free up space and are again under 250 GB.
 
 * **Files** in Galaxy are those things that you upload to Galaxy.
 * **Dataset** is one or multiple `files` plus metadata. Galaxy will determine metadata during files uploads, for example datatype, size, but also more advanced metadata like hdf5 properties.
-* **Quota** is the storage limit of your virtual disk in Galaxy. On the European Galaxy instance, the quota is 250GB. All your uploaded data (not the deferred data) counts towards your quota.
+* **Quota** is the storage limit of your virtual disk in Galaxy. On the European Galaxy instance, the quota is 250 GB. All your uploaded data (not the deferred data) counts towards your quota.
   If you exceed your quota, no jobs will be started anymore. You need to remove data to be able to run new jobs (and produce new data). Alternatively,
   you can also use your [`own storage`](#user-owned-storage) or the [`short term store`](#short-term-storage).
 * **Storage Dashboard** helps you to manage your Galaxy Storage. You can find large datasets, remove them, archive histories.
