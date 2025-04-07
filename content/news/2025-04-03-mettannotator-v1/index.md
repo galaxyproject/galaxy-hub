@@ -88,16 +88,22 @@ This makes sure that the pipeline has room for further development down the road
 
 ## Testing the pipeline
 During the process, the ported pipeline was tested, yielding promising results.
-
-<img src="./AMRFinderPlus.png" style="max-width: 800px;" alt="mettannotator_v1.0" />
-<img src="./InterProScan.png" style="max-width: 800px;" alt="mettannotator_v1.0" />
-<img src="./Gecco_summary.png" style="max-width: 800px;" alt="mettannotator_v1.0" />
-<img src="./eggNOGMapper.png" style="max-width: 800px;" alt="mettannotator_v1.0" />
-
-The figures above showcases various output from individual tools within the pipeline such as  InterProScan, eggNOG Mapper ( annotation ), GECCO (detected BGCs ) on Genecluster_Samples. 
-The workflow is highly streamlined on Galaxy and the results are readily demonstrated and understood.
-
-Developing/Porting the mettannotator pipeline in Galaxy has emphasized the importance of reproducible and modular workflows in modern bioinformatics. With Galaxy's intuitive interface and customization capabilities we were able to create a pipeline that balances flexibility and usability.  
+<figure style="text-align: center;">
+  <img src="./AMRFinderPlus.png" style="max-width: 800px;" alt="Diagram showing the AMRFinderPlus tool output" />
+  <figcaption>Figure 1: Overview of AMRFinderPlus tool output</figcaption>
+</figure>
+<figure style="text-align: center;">
+  <img src="./InterProScan.png" style="max-width: 800px;" alt="Diagram showing the InterProScan tool output" />
+  <figcaption>Figure 2: Overview of InterProScan tool output</figcaption>
+</figure>
+<figure style="text-align: center;">
+  <img src="./Gecco_summary.png" style="max-width: 800px;" alt="Diagram showing the GECCO tool output" />
+  <figcaption>Figure 3: Overview of GECCO tool output</figcaption>
+</figure>
+<figure style="text-align: center;">
+  <img src="./eggNOGMapper.png" style="max-width: 800px;" alt="Diagram showing the eggNOGMapper tool output" />
+  <figcaption>Figure 4: Overview of eggNOGMapper tool output</figcaption>
+</figure>
 
 ## What's Next?
-The porting of mettannotator pipeline is the beginning of a long process of overhauling the entire genome annotation function to Galaxy. This version is not only sophisticated but provides a similar and clearer apporach to understanding the process, while utilizing an ample amount of relevant databases. The next step is to incorporate the remaining tools to give a complete and holistic view of genome annotation. 
+The porting of mettannotator pipeline advances the process of complex combination of tools that give comprehensive output in Galaxy. This version is not only sophisticated but provides a similar and clearer apporach to understanding the process, while utilizing an ample amount of relevant databases. The next step is to incorporate the remaining tools to give a complete and holistic view of genome annotation. 
