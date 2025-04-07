@@ -1,10 +1,10 @@
 ---
-title: "Major Galaxy Europe Efficiency Boost - Mensa next to the Office Opens after 5 years !"
+title: "Major Galaxy Europe Efficiency Boost - Mensa next to the Galaxy Europe Office Opens after 5 years !"
 authors: Paul Zierep
 tags: [news]
 layout: news
 date: "2025-04-07"
-tease: "We are presenting Galaxy's applicability for the Humanities"
+tease: "Major Galaxy Europe Efficiency Boost"
 subsites: [eu]
 ---
 
