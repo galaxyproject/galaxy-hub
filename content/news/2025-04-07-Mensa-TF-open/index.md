@@ -5,7 +5,7 @@ tags: [news]
 layout: news
 date: "2025-04-07"
 tease: "We are presenting Galaxy's applicability for the Humanities"
-subsites: [all,eu]
+subsites: [eu]
 ---
 
 # 🥳 Mensa Opening at the Technical Faculty!
