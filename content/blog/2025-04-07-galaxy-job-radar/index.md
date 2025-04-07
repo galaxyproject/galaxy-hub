@@ -1,16 +1,16 @@
 ---
-**Title**: Galaxy Job Radar: Making Galaxy More Accessible to Users 
-**Date**: 2025-07-04 
-**Authors**: Tomas Vondrak 
-**Tease**: Visualizing Galaxy computations to help users understand the Galaxy ecosystem and provide administrators with tools to analyze computational progress.
+title: "Galaxy Job Radar: Making Galaxy More Accessible to Users" 
+date: "2025-07-04" 
+authors: "Tomas Vondrak" 
+tease: "Visualizing Galaxy computations to help users understand the Galaxy ecosystem and provide administrators with tools to analyze computational progress."
 ---
 The Galaxy Project offers invaluable support to scientists and researchers, but its inner workings can be complex and lack visual appeal, potentially deterring many prospective users. To bridge this gap, I've embarked on a project entitled __Galaxy Job Radar__, designed to dynamically visualize the current and past computations within the Galaxy system. This tool also provides significant advantages to Galaxy administrators by offering insights into computational maintenance and potential threats across the network.
 
 My name is __Tomas Vondrak__, and I am working on the __Galaxy Job Radar__ as part of my Master's thesis at __CESNET__ in the Czech Republic, while studying theoretical computer science at __Masaryk University in Brno__.
 
-<center>
+<p align="center">
 <img src="./gjr_web.png" alt="Galaxy Job Radar visualization in web browser for European Galaxy node. It is possible to see queued and running jobs across computational nodes connected to European Galaxy server usegalaxy.eu." width="800"/>
-</center>
+</p>
 
 Currently, __Galaxy Job Radar__ can visualize the live status of running and queued jobs on __Pulsar interfaces connected to its Galaxy server and other computational resources__. It also includes the ability to __replay recent computations__. All data is fetched from the __InfluxDB__ database of the Galaxy node. The project is still __under development__, and we are actively collaborating with European Galaxy node administrators to access more data from internal Galaxy database. Our goal is to design this tool so that every Galaxy admin can easily integrate Galaxy Job Radar into their systems.
 
