@@ -10,7 +10,7 @@ subsites: [eu]
 
 # 🥳 Mensa Opening at the Technical Faculty!
 
-Coming to Freiburg for a lab exchange and planning to visit [**Galaxy Europe (EGD)**](https://galaxyproject.org/events/2025-10-01-egd2025/) ?  
+Coming to Freiburg for a lab exchange and planning to visit [**Galaxy Europe (EGD)**](https://galaxyproject.org/events/2025-10-01-egd2025/)?  
 Not sure where to grab a quick, affordable bite nearby?
 
 **Fear not — your lunch solution has finally arrived!**
