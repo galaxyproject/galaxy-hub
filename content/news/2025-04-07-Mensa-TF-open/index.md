@@ -19,6 +19,8 @@ After a wait of more than **five years**, the **Mensa at the Technical Faculty**
 
 We stopped by for the grand opening, and we were **not disappointed**. From tasty meals to super convenient access, this new spot is set to become a lunchtime favorite.
 
+In times of rising food prices and inflation, having an affordable and reliable place to eat makes a real difference — especially for employees who don’t benefit from student discounts. The Mensa offers a solid meal without breaking the bank, just a short walk from your desk.
+
 Not only is it delicious and fast, but it’ll also likely boost **Galaxy Europe's lunchtime productivity** — no more long treks or pricey options!
 
 ### 💸 Prices:
