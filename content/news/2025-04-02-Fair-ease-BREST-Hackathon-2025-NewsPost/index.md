@@ -1,7 +1,7 @@
 ---
 title: "Highlights from the Galaxy Hackathon in Brest, France!"
+authors: "Diana Chiang Jurado, Rand Zoabi, Eli Chadwick"
 contributions:
-  authorship: [dianichj, RZ9082]
   funding: [fair-ease,ifremereu,eurosciencegateway]
 tags: [Hackathon,esg, esg-wp3, esg-wp4, esg-wp1]
 layout: news
@@ -26,24 +26,25 @@ From **March 18th to 20th**, developers, researchers, and ocean data experts gat
 ![Oceanic Code Surge](Hackathon-Brest-2025-NTO.jpg)
 <p align="center"><sub>📷 © FAIR-EASE Hackathon 2025</sub></p>
 
-## Galaxy Challenge: From SAMBA to SAGA
+## 🌟 The Galaxy Challenge: From SAMBA to SAGA
 
-A major highlight of the event was the **Galaxy Challenge**—focused on adapting the **[SAMBA workflow](https://gitlab.ifremer.fr/bioinfo/workflows/samba)**, developed by **Ifremer**, into a fully operational Galaxy-compatible pipeline called **SAGA**.
+A major highlight of the event was the **Galaxy Challenge**, focused on adapting the **[SAMBA workflow](https://gitlab.ifremer.fr/bioinfo/workflows/samba)**—developed by **Ifremer**—into a fully functional, Galaxy-compatible pipeline: **SAGA**.
 
-- 🌟 **Marie** kickstarted the effort with a “crazy prototype” Galaxy workflow ([check it out](https://usegalaxy.eu/u/marie.josse/w/unnamed-workflow)) and opened a [PR to tools-iuc](https://github.com/ifremer-bioinformatics/tools-iuc/pull/1) to integrate key tools.
-- 🧪 **Rand** wrapped the missing `dbotu3` tool and began developing a microDecon wrapper to handle contamination in metabarcoding data.  
+- The effort began with a creative “prototype” Galaxy workflow ([check it out](https://usegalaxy.eu/u/marie.josse/w/unnamed-workflow)) and a [PR to `tools-iuc`](https://github.com/ifremer-bioinformatics/tools-iuc/pull/1) to integrate key tools.
+- Participants wrapped the missing `dbotu3` tool and began developing a wrapper for **microDecon**, to handle contamination in metabarcoding data.  
   - [dbotu3 Tool Link](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/qiime2_dbotu_q2/qiime2_dbotu_q2/2022.11.1+galaxy0)
-- 🔧 **Diana** rebuilt and polished the workflow from scratch, using SAMBA’s logic and Marie’s base to create the **SAGA workflow**.  
-  - [Galaxy History](https://usegalaxy.eu/u/dianitachj24/h/wf-saga)  
-  - [Final Workflow](https://usegalaxy.eu/u/dianitachj24/w/workflow-constructed-from-history-wf-saga)
+- The **SAGA** workflow was then rebuilt and polished from scratch using SAMBA’s logic and the prototype as a base.  
+  - 🧪 [Galaxy History](https://usegalaxy.eu/u/dianitachj24/h/wf-saga)  
+  - 🧬 [Final Workflow](https://usegalaxy.eu/u/dianitachj24/w/workflow-constructed-from-history-wf-saga)
 
 ## OGC API Meets Galaxy
 
 The hackathon also tackled interoperability head-on with experiments in **OGC API - Processes** using the [fair-ease-galaxy-ogcapi](https://github.com/dmeaux/fair-ease-galaxy-ogcapi) project. The team successfully queried Galaxy’s API to produce compliant process records via FastAPI Swagger—a promising step toward broader data service integration.
 
-## Hackathon Highlights: Tools, Metadata & Scheduling
+## ⚡ Hackathon Highlights: Tools, Metadata & Scheduling
 
-The energy in the room led to fast-paced development and great progress thanks to **Sanjay**, **Paul**, and **Björn**:
+The energy in the room led to fast-paced development and great progress thanks to **Sanjay**, **Paul**, **Marie**, and **Eli** and all others that contributed:
+Members of the European Galaxy community achieved the following:
 
 - ✅ **TerriaMap Interactive Tool** added to Galaxy  
   - [Tool link](https://usegalaxy.eu/root?tool_id=interactive_tool_terriamap)  
@@ -90,6 +91,8 @@ As waves crashed outside, ideas flowed inside. The **Hackathon in Brest** laid t
 ## Final Thoughts 💬
 
 The **FAIR-EASE Hackathon in Brest** was more than just a technical sprint—it was a celebration of community-driven innovation. It showcased the power of collaborative software development in tackling real-world challenges in data analysis, interoperability, and FAIR principles.
+
+Huge thanks to **Ifremer** for hosting us in beautiful Brest and making this hackathon possible. The location, support, and good vibes made all the difference! 🌊✨
 
 We’re proud of what we built, and even more excited about what comes next. 🚀  
 Stay connected—this is just the beginning.
