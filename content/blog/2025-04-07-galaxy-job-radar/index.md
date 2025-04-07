@@ -4,7 +4,7 @@ date: "2025-07-04"
 authors: "Tomas Vondrak" 
 tease: "Visualizing Galaxy computations to help users understand the Galaxy ecosystem and provide administrators with tools to analyze computational progress."
 ---
-The Galaxy Project offers invaluable support to scientists and researchers, but its inner workings can be complex and lack visual appeal, potentially deterring many prospective users. To bridge this gap, I've embarked on a project entitled __Galaxy Job Radar__, designed to dynamically visualize the current and past computations within the Galaxy system. This tool also provides significant advantages to Galaxy administrators by offering insights into computational maintenance and potential threats across the network.
+The Galaxy Project offers invaluable support to scientists and researchers, but its inner workings can be complex and lack visual appeal, potentially deterring many prospective users. To bridge this gap, I've started developing a project entitled __Galaxy Job Radar__, designed to dynamically visualize the current and past computations within the Galaxy system. This tool also provides significant advantages to Galaxy administrators by offering insights into computational maintenance and potential threats across the network.
 
 My name is __Tomas Vondrak__, and I am working on the __Galaxy Job Radar__ as part of my Master's thesis at __CESNET__ in the Czech Republic, while studying theoretical computer science at __Masaryk University in Brno__.
 
