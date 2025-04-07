@@ -17,7 +17,7 @@ Not sure where to grab a quick, affordable bite nearby?
 
 After a wait of more than **five years**, the **Mensa at the Technical Faculty**, located *right across from the Galaxy Europe office*, has officially opened its doors today — and trust us, it was worth the wait.
 
-We stopped by for the grand opening, and we were **not disappointed**. From tasty meals to super convenient access, this new spot is set to become a lunchtime favorite.
+We stopped by for the grand pre-opening, and we were **not disappointed**. From tasty meals to super convenient access, this new spot is set to become a lunchtime favorite.
 
 In times of rising food prices and inflation, having an affordable and reliable place to eat makes a real difference — especially for employees who don’t benefit from student discounts. The Mensa offers a solid meal without breaking the bank, just a short walk from your desk.
 
