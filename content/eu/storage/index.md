@@ -81,6 +81,10 @@ Just to give a few examples, you can include repositories based on [InvenioRDM](
 FTP, Google Drive, DropBox, AWS, S3 and [WebDav](https://en.wikipedia.org/wiki/WebDAV),
 which includes NextCloud, OpenCloud, [EUDAT B2Drop](https://www.eudat.eu/service-catalogue/b2drop) and many others.
 
+<div align="center">
+    <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html"><button type="button" class="btn btn-success">Learn how to add repositories</button></a>
+</div>
+
 👉 If you know about **public** repositories that can be useful for more Galaxy users, please get in [contact](mailto:contact@usegalaxy.eu)
 and we add it to our default `repositories` for all users.
 
@@ -116,6 +120,12 @@ citation and increased visibility. Additionally, Galaxy enables importing files 
 supporting reproducible and reusable research workflows. More informations available at our [blog post](https://galaxyproject.org/news/2025-03-10-inveniordm-integration-update/).
 
 <div align="center">
+    <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html"><button type="button" class="btn btn-success">Learn how to add repositories</button></a>
+</div>
+
+If you are interested in Import and Export of data to various platforms, you might want to check out our dedicated blog posts about [InvenioRDM/Zenodo](https://galaxyproject.org/news/2025-03-10-inveniordm-integration-update/) and [eLabFTW](https://galaxyproject.org/news/2025-04-02-elabftw-integration/).
+
+<div align="center">
     <img src="/images/undraw-illustrations/export-files.svg" alt="Icon that depicts a person that exports some data." height="100"/>
 </div>
 
@@ -138,14 +148,14 @@ supporting reproducible and reusable research workflows. More informations avail
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" title="Storage has a 250GB quota" height="50"/>
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that a storage quota" title="Storage has a 250 GB quota" height="50"/>
       </div>
     </div>
   </div>
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
     <div class="card-body">
       <h3 class="card-title text-dark" style="text-align: center;">Short term</h3>
-      <p class="card-text">Unlimited quota, data older than 60 days will be deleted. Data can be shared.</p>
+      <p class="card-text">2 TB of quota, data older than 60 days will be deleted. Data can be shared.</p>
       <br/><br/><br/>
       <div class="text-center">
         <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
@@ -153,7 +163,7 @@ supporting reproducible and reusable research workflows. More informations avail
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." title="Storage has a 250GB quota" height="50"/>&nbsp; 
+        <img src="/images/icons/icon_object_store_noquota.png" alt="Icon that depicts no storage quota." title="Storage has a 250 GB quota" height="50"/>&nbsp; 
         <img src="/images/icons/icon_object_store_short_term.png" alt="Icon that depicts short-term storage." title="Data on this storage will be deleted after 60 days" height="50"/>
       </div>
     </div>
@@ -169,7 +179,7 @@ supporting reproducible and reusable research workflows. More informations avail
       </div>
       <hr/>
       <div class="text-center">
-        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50" title="Storage has a 250GB quota"/>&nbsp;
+        <img src="/images/icons/icon_object_store_quota.png" alt="Icon that depicts a quota." height="50" title="Storage has a 250 GB quota"/>&nbsp;
         <img src="/images/icons/icon_object_store_unshareable_restricted_private.png" alt="Icon that depicts unshareable, restricted and private storage."
             title="Data on this storage is not shareable" height="50"/>        
       </div>
@@ -204,7 +214,7 @@ The data is stored on a high-available data storage and you are allowed to share
 
 S3-based object storage is maintained by the compute center of the University of Freiburg.
 This storage, also called scratch-storage, with data `purged` after 60 days after creation and so it is only appropriate for short-term methods development and such.
-The rapid deletion of stored data enables us to provide this storage without a quota. This storage is not backed up.
+The rapid deletion of stored data enables us to provide this storage with a large quota of 2 TB for everyone. This storage is not backed up.
 
 The automatic cleaning of this storage works like this:
 * every weekend Galaxy will iterate over all datasets included in the `Short term storage`
@@ -230,7 +240,7 @@ The data on this storage is counted to the same 250 GB quota as the `Long-term s
     <img src="/images/undraw-illustrations/safe.svg" alt="Icon that depicts safe data." height="100"/>
 </div>
 
-## User Owned storage
+## User owned storage
 
 Every user can [include their own storage](https://usegalaxy.eu/object_store_instances/index).
 If your Institute provides you with S3, iRODS, [OneData](https://onedata.org/) ... this option is for you. Because Galaxy
@@ -238,6 +248,10 @@ is not managing this storage, there will be no quota assigned, but the limit of 
 
 Once you have registered your storage in Galaxy you can run tools and workflows against it. You can set a history to default to this storage or you can set it as global 
 default storage for your account. See a tutorial [here](https://galaxyproject.org/news/2024-09-20-esg-byos-im/).
+
+<div align="center">
+    <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_galaxy_storage.html"><button type="button" class="btn btn-success">Learn how to add more storage</button></a>
+</div>
 
 ⚠️ This type of storage provides you a lot of flexibility, however, data access to this storage needs to be transferred over potentially long distances. This
 has implications for carbon emissions and performance.
@@ -299,7 +313,7 @@ in Galaxy until you free up space and are again under 250 GB.
 
 * **Files** in Galaxy are those things that you upload to Galaxy.
 * **Dataset** is one or multiple `files` plus metadata. Galaxy will determine metadata during files uploads, for example datatype, size, but also more advanced metadata like hdf5 properties.
-* **Quota** is the storage limit of your virtual disk in Galaxy. On the European Galaxy instance, the quota is 250GB. All your uploaded data (not the deferred data) counts towards your quota.
+* **Quota** is the storage limit of your virtual disk in Galaxy. On the European Galaxy instance, the quota is 250 GB. All your uploaded data (not the deferred data) counts towards your quota.
   If you exceed your quota, no jobs will be started anymore. You need to remove data to be able to run new jobs (and produce new data). Alternatively,
   you can also use your [`own storage`](#user-owned-storage) or the [`short term store`](#short-term-storage).
 * **Storage Dashboard** helps you to manage your Galaxy Storage. You can find large datasets, remove them, archive histories.

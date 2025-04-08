@@ -14,7 +14,7 @@ visibility dense
 type bigBed 9
 maxWindowToDraw 200000
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dcd49c548dbdb4b6/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/about_blat_ests.html
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/blat_ests.html
 
 track noncoding_rna
 shortLabel Long ncRNA
@@ -22,7 +22,7 @@ longLabel Gene_Models__Transcripts__Long_non-coding_RNA_for_P._falciparum.gff3.b
 type bigBed 9
 visibility pack
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351ecb536040b46d9b/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/about_noncoding_rna.html
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/noncoding_rna.html
 
 #track gene_density
 #shortLabel Gene density
@@ -37,7 +37,7 @@ longLabel Gene_Models__Transcripts__Annotated_Transcripts.gff3.bed.bb
 type bigBed 12
 visibility pack
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ec793353604df5ee/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/about_annotated_transcripts.html
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/annotated_transcripts.html
 
 track Long_Read_RNA
 shortLabel Long Read RNA
@@ -45,7 +45,7 @@ longLabel Gene_Models__Transcripts__Long_Read_RNA_for_P._falciparum.gff3.bed.bb
 type bigBed 9
 visibility squish
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358cea612e95235e8b/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/Long_Read_RNA.html
 
 track annotated_introns
 shortLabel Annotated Introns
@@ -55,17 +55,17 @@ visibility pack
 mouseOverField readCount
 labelFields none
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a1a082e8251d823c/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/annotated_introns.html
 
 track unannotated_introns
-shortLabel Unnnotated Introns
+shortLabel Unannotated Introns
 longLabel Unannotated introns that are suggested by RNASeq reads
 type bigBed 9+1
 visibility pack
 mouseOverField readCount
 labelFields none
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213598441552f6c1076c/display?to_ext=bigbed
-descriptionUrl https://galaxyproject.org/assets/
+descriptionUrl https://galaxyproject.org/assets/uscs_hubs/unannotated_introns.html
 
 track Combined_RNA-Seq
 container multiWig
@@ -74,7 +74,7 @@ longLabel Combined RNA-Seq data mirrored from plasmodb.org
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig 0 756
-descriptionUrl https://galaxyproject.org/assets/
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/Combined_RNA-Seq.html
 
 track Pfalciparum3D7%2Fbigwig%2Fpfal3D7_Bartfai_IDC_2018_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBartfai_IDC_2018_firststrand_merged.wig.newrefseqs.bw
 longLabel Bartfai_IDC_2018_firststrand_merged
