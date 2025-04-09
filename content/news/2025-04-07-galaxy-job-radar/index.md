@@ -1,8 +1,12 @@
 ---
 title: "Galaxy Job Radar: Making Galaxy More Accessible to Users" 
-date: "2025-07-04" 
+date: "2025-10-04" 
 authors: "Tomas Vondrak" 
 tease: "Visualizing Galaxy computations to help users understand the Galaxy ecosystem and provide administrators with tools to analyze computational progress."
+tags: [collaboration, esg, esg-wp3]
+subsites: [all, global, esg, eu]
+external_url: https://gjr.metacentrum.cz
+main_subsite: eu
 ---
 The Galaxy Project offers invaluable support to scientists and researchers, but its inner workings can be complex and lack visual appeal, potentially deterring many prospective users. To bridge this gap, I've started developing a project entitled __Galaxy Job Radar__, designed to dynamically visualize the current and past computations within the Galaxy system. This tool also provides significant advantages to Galaxy administrators by offering insights into computational maintenance and potential threats across the network.
 
@@ -18,7 +22,7 @@ Currently, __Galaxy Job Radar__ can visualize the live status of running and que
 The primary data source for Galaxy Job Radar is the InfluxDB database, which is populated with data from the internal Galaxy Database. __Galaxy administrators can configure data transfer from their Galaxy instances to InfluxDB using the Telegraf project__. Currently, we are utilizing data from the European Galaxy node, but we anticipate expanding the Galaxy Job Radar to other instances in the future. Additionally, there are plans to support multiple Galaxies with a single Galaxy Job Radar instance, offering a comprehensive view of computations across the Galaxy ecosystem.
 
 ## Example and Repository
-__A live instance of Galaxy Job Radar is available at [gjr.metacentrum.cz](http://gjr.metacentrum.cz)__ and its source code can be accessed on GitHub at [CESNET/gjr](https://github.com/CESNET/gjr).
+__A live instance of Galaxy Job Radar is available at [gjr.metacentrum.cz](https://gjr.metacentrum.cz)__ and its source code can be accessed on GitHub at [CESNET/gjr](https://github.com/CESNET/gjr).
 
 ## Future Prospects
 Looking ahead, we plan numerous enhancements for Galaxy Job Radar, ensuring the security and anonymity of Galaxy users. Our aim is to make Galaxy more visually appealing to users and provide a clearer view of their running tasks.
