@@ -3,7 +3,7 @@ title: "Galaxy Newsletter: April 2025"
 tease: "Catch up on exciting updates from the Galaxy community, including new training opportunities, upcoming conferences, and cutting-edge features in Galaxy 24.2!"
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
-date: "2025-04-07"
+date: "2025-04-09"
 tags: ["highlight"]
 subsites: [global,all]
 ---
