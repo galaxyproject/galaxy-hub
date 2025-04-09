@@ -1,6 +1,6 @@
 ---
 title: "Galaxy Job Radar: Making Galaxy More Accessible to Users" 
-date: "2025-10-04" 
+date: "2025-04-10" 
 authors: "Tomas Vondrak" 
 tease: "Visualizing Galaxy computations to help users understand the Galaxy ecosystem and provide administrators with tools to analyze computational progress."
 tags: [collaboration, esg, esg-wp3]
