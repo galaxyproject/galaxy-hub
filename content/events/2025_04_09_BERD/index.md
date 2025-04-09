@@ -24,4 +24,5 @@ Click on 'Start' and close this window.
 
 Once the file on the right side, the history, goes from grey (waiting) to orange (processing) to green, your upload is finished.
 In the next steps, you can analyse your data in Galaxy with various tools according to your needs, make visualisation and also export your findings to a repository of your choice, including to BERD if you like :). All from within Galaxy.
-For example try Openrefine, our word-cloud tool or any of our table manipulation or machine learning / AI tools.
+For example try [Openrefine](https://usegalaxy.eu/root?tool_id=interactive_tool_openrefine), our [word-cloud](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1) tool or any of
+our table manipulation or machine learning / AI tools.
