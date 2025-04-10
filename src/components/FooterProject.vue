@@ -14,6 +14,7 @@
                         <li><a href="/careers/">Careers</a></li>
                         <li><a href="https://jxtxfoundation.org/">JXTX Foundation</a></li>
                         <li><a href="/community/coc/">Code of Conduct</a></li>
+                        <li><a href="mailto:contact@galaxyproject.org">Contact</a></li>
                     </ul>
                     <ul class="col-md-3 text-sm-center text-md-left">
                         <li><a href="/community/wg/">Working Groups</a></li>
