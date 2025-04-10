@@ -23,7 +23,7 @@
             <a href="#recent-events" aria-hidden="true"><span class="icon icon-link"></span></a>
             Recent Events
         </h2>
-        <p>Events in the past 12 months:</p>
+        <p>Events related to this project:</p>
         <table class="table table-striped">
             <thead>
                 <tr>
