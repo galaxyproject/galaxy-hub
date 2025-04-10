@@ -86,8 +86,7 @@ query {
 
     recent: allParentArticle(
         sortBy: "date", order: DESC, filter: {
-            category: {eq: "events"}, subsites: {contains: ["esg"]}, draft: {ne: true},
-            has_date: {eq: true}, date: {between: ["2022-07-01", "2025-12-30"]}
+            category: {eq: "events"}, subsites: {contains: ["esg"]}, draft: {ne: true}
         }
     ) {
         edges {
