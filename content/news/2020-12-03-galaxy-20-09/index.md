@@ -7,8 +7,8 @@ supporters:
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest, esg]
-tags: [release, esg, esg-wp3, esp-wp4]
+subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+tags: [release]
 main_subsite: eu
 ---
 
