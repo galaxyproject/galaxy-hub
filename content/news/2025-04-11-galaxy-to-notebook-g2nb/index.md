@@ -5,7 +5,7 @@ hide-tease: false
 authors: "Thorin Tabor, Michael Reich"
 doi: 10.26502/jbsb.5107096 
 date: "2025-04-11"
-tags: [jupyter,news]
+tags: [jupyter,news,paper]
 subsites: [global,all]
 ---
 
