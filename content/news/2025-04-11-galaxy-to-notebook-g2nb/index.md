@@ -3,6 +3,7 @@ title: "Genomics to Notebook (g2nb): extending the computational notebook "
 tease: "An environment that integrates Jupyter with Galaxy, allowing tools to be added as notebook cells, and providing access to thousands of bioinformatics tools from within a notebook interface."
 hide-tease: false
 authors: "Thorin Tabor, Michael Reich"
+doi: 10.26502/jbsb.5107096 
 date: "2025-04-11"
 tags: [jupyter,news]
 subsites: [global,all]
