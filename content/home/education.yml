@@ -18,10 +18,10 @@ education:
       icon: fas fa-sitemap
       url: https://training.galaxyproject.org/training-material/workflows/list
 
-    - title: Blog
-      content: Read highlights from the experts.
+    - title: News
+      content: Read highlights from our community.
       icon: fas fa-comment
-      url: /blog/
+      url: /news/
 
     - title: Data
       content: Pull data from popular repositories.
