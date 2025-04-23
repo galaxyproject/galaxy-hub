@@ -8,7 +8,7 @@ import { LinkChecker } from "linkinator";
 import fs from "fs";
 
 // TODO: Make this configurable, or yagni?
-const siteURL = "http://localhost:8080";
+const siteURL = "http://127.0.0.1:8080";
 // const siteURL = "./dist/";
 const outputFile = "./broken-links.md";
 
