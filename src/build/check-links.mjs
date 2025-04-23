@@ -1,18 +1,15 @@
 #!/usr/bin/env node
 
 /*
-Use broken-link-checker to look at all internal links, printing out in a format
+Use linkinator to look at all internal links, printing out in a format
 suitable for github issue content.
 */
-import blc from "broken-link-checker";
+import { LinkChecker } from "linkinator";
 import fs from "fs";
 
 // TODO: Make this configurable, or yagni?
 const siteURL = "http://localhost:8080";
 const outputFile = "./broken-links.md";
-const options = {
-    excludeExternalLinks: true,
-};
 
 const outTemplate = (pages, total, broken) => `
 ### 📝 Link summary of ${pages} pages checked
@@ -35,121 +32,92 @@ The following pages have broken links, which should be listed in the order they 
 
 `;
 
-// Our results blob
-const customData = {
-    pagesWithBrokenLinks: {},
-    summary: {
-        broken: 0,
-        total: 0,
-        pages: 0,
-    },
-    markdownReport: ``,
-};
+async function checkLinks() {
+    console.log("Starting link checking process...");
 
-const siteChecker = new blc.SiteChecker(options, {
-    link: function (result, customData) {
-        /*
-            This fires when a link is checked. If options.excludeExternalLinks
-            is true, that exclusion happens prior to this callback.  
+    // Track broken links by page
+    const brokenLinksByPage = {};
+    let brokenCount = 0;
+    let totalCount = 0;
+    let pagesChecked = new Set();
 
-            Result object is structured like this:
-            {
-                url: {
-                    original: "https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/",
-                    resolved: "https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/",
-                    redirected: null,
-                },
-                base: {
-                    original: "http://localhost:8080",
-                    resolved: "http://localhost:8080/",
-                },
-                html: {
-                    index: 280,
-                    offsetIndex: 31,
-                    location: { line: 37, col: 478, startOffset: 37495, endOffset: 37563 },
-                    selector:
-                        "html > body > div:nth-child(1) > main:nth-child(2) > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > p:nth-child(3) > span:nth-child(1) > a:nth-child(1)",
-                    tagName: "a",
-                    attrName: "href",
-                    attrs: {
-                        href: "https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/",
-                        "data-v-2c969a12": "",
-                    },
-                    text: "Annual reports 2020: ELIXIR and IFB",
-                    tag: '<a href="https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/" data-v-2c969a12="">',
-                },
-                http: {
-                    cached: false,
-                    response: {
-                        headers: [Object],
-                        httpVersion: "1.1",
-                        statusCode: 200,
-                        statusMessage: "OK",
-                        url: "https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/",
-                        redirects: [],
-                    },
-                },
-                broken: false,
-                internal: false,
-                samePage: false,
-                excluded: false,
-                brokenReason: null,
-                excludedReason: null,
-            };
+    try {
+        console.log(`Checking links starting from ${siteURL}`);
 
-            Here we increment summaries, and save the result to each page's list of broken links.
-        */
-        customData.summary.total++;
-        if (result.broken) {
-            customData.summary.broken++;
-            let pageUrl = result.base.original;
-            // Ensure source page ends with a slash for lookup.
-            if (pageUrl[pageUrl.length - 1] !== "/") {
-                pageUrl += "/";
+        // Create a new LinkChecker instance with proper config
+        const checker = new LinkChecker();
+
+        // Listen to the "link" event to get data on each link
+        checker.on("link", (result) => {
+            totalCount++;
+
+            if (result.state === "BROKEN") {
+                brokenCount++;
+
+                // Extract the parent page URL
+                const parentPage = result.parent || siteURL;
+                pagesChecked.add(parentPage);
+
+                if (!brokenLinksByPage[parentPage]) {
+                    brokenLinksByPage[parentPage] = [];
+                }
+
+                brokenLinksByPage[parentPage].push({
+                    url: result.url,
+                    status: result.status,
+                    statusText: result.statusText,
+                });
             }
-            customData.pagesWithBrokenLinks[pageUrl] = customData.pagesWithBrokenLinks[pageUrl] || [];
-            customData.pagesWithBrokenLinks[pageUrl].push(result);
-        }
-    },
-    page: function (error, pageUrl, customData) {
-        /*
-            This fires when a page is fully processed and links are checked.
-            Page is done, go ahead and render out the page's report.
-        */
-        customData.summary.pages++;
-        // If pageUrl doesn't end with a slash, add one for lookup.
-        if (pageUrl[pageUrl.length - 1] !== "/") {
-            pageUrl += "/";
-        }
-        if (customData.pagesWithBrokenLinks[pageUrl]) {
-            customData.markdownReport += `#### ${pageUrl}\n`;
-            for (const busted in customData.pagesWithBrokenLinks[pageUrl]) {
-                customData.markdownReport += `- [ ] ${customData.pagesWithBrokenLinks[pageUrl][busted].url.original}\n`;
+        });
+
+        // Started event for logging
+        checker.on("pagestart", (url) => {
+            pagesChecked.add(url);
+            console.log(`Checking: ${url}`);
+        });
+
+        // Start the check with configuration as parameter
+        const result = await checker.check({
+            path: siteURL,
+            recurse: true,
+            linksToSkip: [], // Add any links you want to skip
+            timeout: 30000, // 30 seconds
+            concurrency: 100, // Number of concurrent requests
+            includeLinks: [/^http:\/\/localhost:8080/], // Only check internal links
+        });
+
+        console.log(`Completed checking ${result.links.length} links`);
+
+        // Generate markdown report
+        let markdownReport = "";
+
+        for (const [page, links] of Object.entries(brokenLinksByPage)) {
+            markdownReport += `#### ${page}\n`;
+            for (const link of links) {
+                markdownReport += `- [ ] ${link.url} (${link.status}: ${link.statusText || "Unknown error"})\n`;
             }
-            customData.markdownReport += `\n`;
+            markdownReport += "\n";
         }
-    },
-    site: function (error, siteUrl, customData) {
-        /* 
-            Fires at the very end of site processing.  All there is to do now is
-            close out the markdown report and write it out.
-        */
-        const output =
-            outTemplate(customData.summary.pages, customData.summary.total, customData.summary.broken) +
-            customData.markdownReport;
+
+        const output = outTemplate(pagesChecked.size, totalCount, brokenCount) + markdownReport;
+
+        // Write report to file
         fs.writeFileSync(outputFile, output);
+
+        // Print the report to console
         console.log(output);
-        if (customData.summary.broken > 0) {
+
+        // Set exit code if there are broken links
+        if (brokenCount > 0) {
             process.exitCode = 1;
         }
-    },
-    // Unused hooks
-    /* eslint-disable no-unused-vars */
-    robots: function (robots, customData) {},
-    html: function (tree, robots, response, pageUrl, customData) {},
-    junk: function (result, customData) {},
-    /* eslint-enable no-unused-vars */
-    end: function () {},
-});
 
-siteChecker.enqueue(siteURL, customData);
+        console.log("Link checker completed successfully");
+    } catch (error) {
+        console.error("Error during link checking:", error);
+        process.exitCode = 1;
+    }
+}
+
+// Run the async function
+checkLinks();
