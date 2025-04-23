@@ -9,6 +9,7 @@ import fs from "fs";
 
 // TODO: Make this configurable, or yagni?
 const siteURL = "http://localhost:8080";
+// const siteURL = "./dist/";
 const outputFile = "./broken-links.md";
 
 const outTemplate = (pages, total, broken) => `
@@ -76,6 +77,15 @@ async function checkLinks() {
             console.log(`Checking: ${url}`);
         });
 
+        const skipLinkChecker = async (url) => {
+            // Skip external links
+            if (url.startsWith("http") && !url.startsWith(siteURL)) {
+                console.debug("Skipping external link:", url);
+                return true;
+            }
+            return false;
+        };
+
         // Start the check with configuration as parameter
         const result = await checker.check({
             path: siteURL,
@@ -83,10 +93,7 @@ async function checkLinks() {
             // Only check local links - exclude external links
             excludeExternalLinks: true,
             // Focus only on links within the localhost domain
-            linksToSkip: [
-                // Skip any link that doesn't start with our local server URL
-                (url) => !url.startsWith(siteURL) && !url.startsWith("/"),
-            ],
+            linksToSkip: skipLinkChecker,
             timeout: 30000, // 30 seconds
             concurrency: 100, // Number of concurrent requests
         });
