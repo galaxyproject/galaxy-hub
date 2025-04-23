@@ -85,6 +85,7 @@
     "glob": "^10",
     "http-server": "^13.0.2",
     "jest": "^27.3.1",
+    "linkinator": "^6.1.2",
     "sass-loader": "^10.1.1",
     "start-server-and-test": "^1.14.0"
   },
