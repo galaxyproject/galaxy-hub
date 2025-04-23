@@ -80,10 +80,15 @@ async function checkLinks() {
         const result = await checker.check({
             path: siteURL,
             recurse: true,
-            linksToSkip: [], // Add any links you want to skip
+            // Only check local links - exclude external links
+            excludeExternalLinks: true,
+            // Focus only on links within the localhost domain
+            linksToSkip: [
+                // Skip any link that doesn't start with our local server URL
+                (url) => !url.startsWith(siteURL) && !url.startsWith("/"),
+            ],
             timeout: 30000, // 30 seconds
             concurrency: 100, // Number of concurrent requests
-            includeLinks: [/^http:\/\/localhost:8080/], // Only check internal links
         });
 
         console.log(`Completed checking ${result.links.length} links`);
