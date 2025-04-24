@@ -7,7 +7,7 @@ continent: EU
 location:
   name: "Online (Zoom) - 10:30–12:00 BST "
 contact: "Armin Dadras"
-tags: [workshops,elixir,esg,eurosciencegateway,esg-wp2,single-cell,workflow, workflow-hub, omics, demo,]
+tags: [workshops,elixir,esg,eurosciencegateway,esg-wp2,single-cell,workflow, workflow-hub, omics, demo]
 supporters:
 - eurosciencegateway
 - denbi
