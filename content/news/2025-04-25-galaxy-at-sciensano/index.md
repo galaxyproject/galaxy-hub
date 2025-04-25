@@ -3,7 +3,8 @@ title: "Galaxy @ Sciensano: a comprehensive bioinformatics portal for genomics-b
 date: "2025-04-25"
 authors: Bert Bogaerts, Kevin Vanneste
 tease: "Know How Sciensano harnesses Galaxy for Advanced Microbial Genomics, Precision Typing, and Rapid Outbreak Detection"
-subsites: [global,eu,us,freiburg]
+subsites: [global,eu,all]
+main_subsite: eu
 ---
 
 ## Introduction
