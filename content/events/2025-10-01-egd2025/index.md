@@ -42,7 +42,140 @@ Registration is free. We recommend to register as soon as possible to secure you
 
 # Schedule
 
-The schedule of the meeting will be posted here, as soon as we have the list of participants and speakers.
+<ClientOnly>
+
+<div id="schedule-tabs">
+  <div class="tab-header">
+    <button class="tab-button" :class="{ active: activeTab === 'overview' }" @click="activeTab = 'overview'">🗂️ Overview</button>
+    <button class="tab-button" :class="{ active: activeTab === 'day1' }" @click="activeTab = 'day1'">📅 Day 1</button>
+    <button class="tab-button" :class="{ active: activeTab === 'day2' }" @click="activeTab = 'day2'">📅 Day 2</button>
+    <button class="tab-button" :class="{ active: activeTab === 'day3' }" @click="activeTab = 'day3'">📅 Day 3</button>
+  </div>
+
+  <div class="tab-content" v-if="activeTab === 'overview'">
+    <h3>Overview</h3>
+    <table>
+      <thead>
+        <tr><th>Day</th><th>Time</th><th>Event</th><th>Location</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>01.10.2025 (Wed)</td><td>09:00-13:00</td><td><b>European Galaxy Days</b><br>Arrival and Welcome<br>Community update talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>13:00-14:30</td><td><b>Lunch break</b></td><td>Georges-Köhler-Allee 82</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>14:30-16:00</td><td><b>ELIXIR Galaxy Community</b><br>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities, platforms, and focus groups</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>16:30-17:30</td><td><b>Birds of a Feather meetings (BoFs)</b><br>Session 1</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>09:00-13:00</td><td><b>European Galaxy Days</b><br>New developments talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>13:00-14:30</td><td><b>Lunch break</b></td><td>Georges-Köhler-Allee 82</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>14:30-16:00</td><td><b>European Galaxy Days Meets EuroScienceGateway</b><br>Several talks to get to know each other</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>16:30-17:30</td><td><b>Birds of a Feather meetings (BoFs)</b><br>Session 2</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>09:00-13:00</td><td><b>European Galaxy Days</b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>09:00-13:00</td><td><b>EuroScienceGateway final meeting</b></td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>13:00-14:30</td><td><b>Lunch break</b></td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>14:30-17:30</td><td><b>European Galaxy Days</b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>14:30-17:30</td><td><b>EuroScienceGateway final meeting</b></td><td>Building 101<br>Room Nr. TBA</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-content" v-if="activeTab === 'day1'">
+    <h3>Day 1 – Wednesday, October 4</h3>
+    <table>
+      <thead>
+        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>09:00 - 10:00</td><td>—</td><td>Arrival</td><td>—</td></tr>
+        <tr><td>10:00 - 10:30</td><td>Organization team</td><td>Welcome, Logistics & General Galaxy Update</td><td>30'</td></tr>
+        <tr><td>10:30 - 10:50</td><td>TBA</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>10:50 - 11:00</td><td>TBD</td><td>TBD</td><td>10'</td></tr>
+        <tr><td>11:00 - 11:45</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
+        <tr><td>11:45 - 12:05</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>12:05 - 12:25</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>12:25 - 12:45</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>13:00 - 14:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
+        <tr><td>14:30 - 16:00</td><td>ELIXIR Hub</td><td>The ELIXIR Galaxy Community</td><td>10'</td></tr>
+        <tr><td>16:00 - 16:30</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
+        <tr><td>16:30 - 17:30</td><td>Various</td><td>Birds of a Feather</td><td>60'</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-content" v-if="activeTab === 'day2'">
+    <h3>Day 2 – Thursday, October 5</h3>
+    <table>
+      <thead>
+        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>09:30 - 10:30</td><td>TBD</td><td>TBD</td><td>10'</td></tr>
+        <tr><td>10:30 - 11:15</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
+        <tr><td>11:15 - 13:00</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>13:00 - 14:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
+        <tr><td>14:30 - 16:00</td><td>Various</td><td>Developer Presentations</td><td>90'</td></tr>
+        <tr><td>16:00 - 16:30</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
+        <tr><td>16:30 - 17:30</td><td>Various</td><td>Birds of a Feather</td><td>60'</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-content" v-if="activeTab === 'day3'">
+    <h3>Day 3 – Friday, October 6</h3>
+    <table>
+      <thead>
+        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>09:30 - 10:00</td><td>Oana Marchis and Armin Dadras</td><td>Welcome and WP1</td><td>30'</td></tr>
+        <tr><td>10:00 - 10:30</td><td>TBD</td><td>WPX Update</td><td>30'</td></tr>
+        <tr><td>10:30 - 11:00</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
+        <tr><td>11:00 - 12:30</td><td>Various</td><td>Work Package Presentations</td><td>90'</td></tr>
+        <tr><td>12:30 - 13:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
+        <tr><td>13:30 - 15:00</td><td>Various</td><td>Discussion & Wrap-up</td><td>90'</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+export default {
+  data() {
+    return {
+      activeTab: 'overview'
+    }
+  }
+}
+</script>
+
+<style>
+.tab-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.tab-button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+.tab-button.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+.tab-content {
+  margin-top: 1rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+</style>
+
+</ClientOnly>
 
 # Venue
 
