@@ -16,11 +16,13 @@ subsites: [global, all, eu]
 main_subsite: eu
 ---
 
-[BellaVista](https://github.com/pkosurilab/BellaVista), a lightweight open-source tool for interactive visualization and exploration of imaging-based spatial transcriptomics data, is now available as an interactive tool in Galaxy.
+[BellaVista](https://github.com/pkosurilab/BellaVista), a lightweight open-source tool for interactive visualization and exploration of imaging-based spatial transcriptomics data,
+is now available as an interactive tool in Galaxy.
 
 # What is BellaVista?
 
-BellaVista provides researchers with simple means for simultaneous visualization of images, transcripts, and cell/nuclei segmentation boundaries in spatial transcriptomics data. The interactive tool in Galaxy supports data from multiple platforms including:
+BellaVista provides researchers with simple means for simultaneous visualization of images, transcripts, and cell/nuclei segmentation boundaries in spatial transcriptomics data.
+The interactive tool in Galaxy supports data from multiple platforms including:
 
 * Xenium (10x Genomics)
 * MERSCOPE (Vizgen)
@@ -37,7 +39,9 @@ This enables researchers to:
 
 # How does it work?
 
-To use this new interactive tool, first create an account in Galaxy and log in with your credentials. Then, you can find in the Tool panel “BellaVista Interactive” or go to [this link](https://usegalaxy.eu/?tool_id=interactive_tool_bellavista&version=latest). Then select the technology you are using (i.e. MEROSCOPE or Xenium) and provide images, transcripts and segmentation inputs and click "Run Tool". You can check the status of running ITs [here](https://usegalaxy.eu/interactivetool_entry_points/list).
+To use this new interactive tool, first create an account in Galaxy and log in with your credentials. Then, you can find in the Tool panel “BellaVista Interactive”
+or go to [this link](https://usegalaxy.eu/?tool_id=interactive_tool_bellavista&version=latest). Then select the technology you are using (i.e. MEROSCOPE or Xenium) and
+provide images, transcripts and segmentation inputs and click "Run Tool". You can check the status of running ITs [here](https://usegalaxy.eu/interactivetool_entry_points/list).
 
 <div align="center">
 
