@@ -8,7 +8,7 @@ supporters:
 - elixir
 - denbi
 - unifreiburg
-- nfdi4bioimagingnext-level
+- nfdi4bioimage
 authors: Amirhossein Nilchi
 authors_structured:
 - github: nilchia
