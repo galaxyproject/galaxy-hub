@@ -87,4 +87,4 @@ shortLabel 3_patient_IDC_2020
 color 120,120,120
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358367e9d28beec512/display?to_ext=bigwig
-type bigWig 0 31
+type bigWig 0 1000 
