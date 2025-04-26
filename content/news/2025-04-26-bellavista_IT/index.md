@@ -62,7 +62,9 @@ MEROSCOPE data
 
 # Acknowledgment
 
-The BellaVista integration into Galaxy was accomplished during the [Galaxy Imaging Hackathon 2025](https://galaxyproject.org/events/2025-04-22-galaxy-imaging-hackathon/) at Freiburg, Germany. We would like to thank all participants and organizers who contributed to this project, making spatial transcriptomics analysis more accessible to the bioinformatics community.
+The BellaVista integration into Galaxy was accomplished during the [Galaxy Imaging Hackathon 2025](https://galaxyproject.org/events/2025-04-22-galaxy-imaging-hackathon/) at Freiburg, Germany.
+We would like to thank all participants and organizers who contributed to this project, making spatial transcriptomics analysis more accessible to the bioinformatics community.
+Thanks also to [NFDI4BioImage](https://nfdi4bioimage.de) and [de.NBI/de.KCD](https://datenkompetenz.cloud/) for their support.
 
 Have a look at the [BelllaVista Documentation](https://bellavista.readthedocs.io/en/latest/) for more information.
 
