@@ -1,12 +1,12 @@
 ---
-title: Workshop - Introduction to Galaxy for Digital Humanities and Research Data Management
+title: "Workshop - Introduction to Galaxy for Digital Humanities and Research Data Management"
 date: '2025-05-19'
 days: 1
 tease: "Join us for our workshop introducing Galaxy for Digital Humanities and Research Data Management in Freiburg"
 continent: EU
 location:
-  name: DH Lab,Freiburg, Germany
-  url: [https://digitalhumanities.uni-freiburg.de/dh-lab/](https://digitalhumanities.uni-freiburg.de/dh-lab/)
+  name: DH Lab, Freiburg, Germany
+  url: https://digitalhumanities.uni-freiburg.de/dh-lab/
 contact: Daniela Schneider
 gtn: true
 tags: [workshop]
