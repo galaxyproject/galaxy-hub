@@ -30,7 +30,7 @@ shortLabel Combined RNA-Seq
 longLabel Combined RNA-Seq data mirrored from plasmodb.org
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-type bigWig 0 500
+type bigWig 0 250
 descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/Combined_RNA-Seq.html
 
 track PvivaxP01%2Fbigwig%2FpvivP01_Bhatia_Hynozoite_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBhatia_Hynozoite_firststrand_merged
@@ -63,7 +63,7 @@ shortLabel intraerythrocytic
 color 150,150,150
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357936aa398678063f/display?to_ext=bigwig
-type bigWig 0 280
+type bigWig 0 250
 
 track PvivaxP01%2Fbigwig%2FpvivP01_pvivP01_patient_isolate_RNASeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FpvivP01_patient_isolate_RNASeq_firststrand_merged.bw
 longLabel patient_isolate_RNASeq_ebi_rnaSeq_RSRC_firststrand
@@ -87,4 +87,4 @@ shortLabel 3_patient_IDC_2020
 color 120,120,120
 parent Combined_RNA-Seq
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358367e9d28beec512/display?to_ext=bigwig
-type bigWig 0 500 
+type bigWig 0 250 
