@@ -51,7 +51,12 @@
                 </div>
                 <div class="col-lg-5">
                     <a href="https://gbcc2025.org" class="d-block mb-3">
-                        <img src="/images/GBCC_poster_abstract_extended.png" width="450px" alt="GBCC2025 banner" class="img-fluid" />
+                        <img
+                            src="/images/GBCC_poster_abstract_extended.png"
+                            width="450px"
+                            alt="GBCC2025 banner"
+                            class="img-fluid"
+                        />
                     </a>
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfRzPhmwhIiynJQVFaFBWB6u1pDp0VwpPCdZs8qS7a6WjpR1w/viewform"
