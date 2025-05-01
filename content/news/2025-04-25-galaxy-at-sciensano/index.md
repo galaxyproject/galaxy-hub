@@ -13,7 +13,7 @@ At Sciensano, the Belgian National Health institute, we have set up a user-frien
 The Galaxy @Sciensano instance is freely available for noncommercial use (https://galaxy.sciensano.be/) and supports both internal and external researchers. It provides a wide selection of tools from the ToolShed developed by the global Galaxy community, alongside more than 50 custom-built tools and pipelines developed in-house.
 
 ## Highlighted custom tools 
-Our Galaxy instance emphasizes ease of use, robust traceability, and clear interpretation of analysis results. This is illustrated, for example, by the custom sequence typing tools that perform multi-locus sequence typing (MLST) and core-genome MLST (cgMLST). The output is provided as an easy to interpret HTML output report with key findings, as well as tabular output for automated processing. Biologically relevant information is presented in a clear, accessible format that uses color coding to highlight key details while minimizing irrelevant technical information. The reports are interactive and include hyperlinks to other resources such as PubMLST or NCBI. A large number of MLST and cgMLST databases are provided, which are automatically updated every week. Allele calling can be performed using BLAST-, SRST2- or KMA-based detection.
+Our Galaxy instance emphasizes ease of use, robust traceability, and clear interpretation of analysis results. This is illustrated, for example, by the custom sequence typing tools that perform multi-locus sequence typing (MLST) and core-genome MLST (cgMLST). The output is provided as an easy to interpret HTML output report with key findings [Figure 1](#fig1), as well as tabular output for automated processing. Biologically relevant information is presented in a clear, accessible format that uses color coding to highlight key details while minimizing irrelevant technical information. The reports are interactive and include hyperlinks to other resources such as PubMLST or NCBI. A large number of MLST and cgMLST databases are provided, which are automatically updated every week. Allele calling can be performed using BLAST-, SRST2- or KMA-based detection.
 
 The same general principle is followed in the other in-house developed tools such as gene detection, and the custom wrappers for NCBI AMRFinder+, CheckM, CheckV, etc. A complete overview of the custom tools and wrappers is provided in our publication.
 
@@ -47,3 +47,18 @@ Galaxy has enabled us to make advanced bioinformatics analyses accessible to use
 - Try it out: https://galaxy.sciensano.be/
 - Read our publication on Galaxy @Sciensano in [BMC Genomics](https://pubmed.ncbi.nlm.nih.gov/39780046/)
 - Training videos on [YouTube](https://www.youtube.com/watch?v=z0oxaaNzZks&list=PL9O-3w2bLZ4X5DJGYlbqL60PQDzn42Wjh)
+
+<br></br>
+
+<div align="center" id="fig1">
+  <img src="./sciensano.png" alt="Sciensano Report" width="600">
+  <p><strong>Figure 1:</strong> HTML output report of the custom sequence typing tool. Basic information about the analysis, such as the date of the analysis and the input file(s), is displayed in the top section. The top table lists the detected sequence type (or best matching
+  sequence type in case of an imperfect match). If metadata is available, such as clonal complex or lineage, it is also shown here.
+  The second table lists the detected allele for each locus. In the case of an imperfect match (e.g., for glnS), a visual representation
+  of the pairwise alignment can be viewed by opening the corresponding link. In this case, the glnS locus contained a single single
+  nucleotide polymorphism (SNP) compared to the glnS_3 allele in the database. As this likely corresponds to a novel allele, a
+  download link to the novel allele sequence(s) in FASTA format is provided below the table. This file can be used to submit the
+  allele to the corresponding database. The scheme info section lists information about the underlying database, such as the date
+  of the last update and last change. The command section at the bottom lists the (main) commands that were used in the
+  analysis, including version numbers for traceability.</p>
+</div>
