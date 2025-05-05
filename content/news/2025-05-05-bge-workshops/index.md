@@ -3,6 +3,8 @@ title: Teaching Genome Assembly and Annotation using Galaxy and TIaaS
 date: "2025-05-05"
 authors: Tom Brown
 tease: "Using the Galaxy infrastructure and workflows to teach de-novo genome assembly and annotation"
+subsites: [global,eu,all]
+main_subsite: eu
 ---
 
 ##Introduction
