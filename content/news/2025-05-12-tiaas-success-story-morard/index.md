@@ -55,3 +55,5 @@ None of this would be possible without the support of [the European Galaxy team]
 Their contribution is essential to making hands-on genomics education accessible and effective. A
 sincere thank to them for helping us train the next generation of biotechnology and biomedical
 professionals.
+
+To learn more about my research, you can follow me on [BlueSky](https://bsky.app/profile/mmorard.bsky.social) and [LinkedIn](https://www.linkedin.com/in/miguel-morard/).
