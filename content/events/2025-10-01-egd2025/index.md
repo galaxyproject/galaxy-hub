@@ -84,15 +84,15 @@ Registration is free. We recommend to register as soon as possible to secure you
       </thead>
       <tbody>
         <tr><td>09:00 - 10:00</td><td>—</td><td>Arrival</td><td>—</td></tr>
-        <tr><td>10:00 - 10:30</td><td>Organization team</td><td>Welcome, Logistics & General Galaxy Update</td><td>30'</td></tr>
-        <tr><td>10:30 - 10:50</td><td>TBA</td><td>TBD</td><td>20'</td></tr>
-        <tr><td>10:50 - 11:00</td><td>TBD</td><td>TBD</td><td>10'</td></tr>
+        <tr><td>10:00 - 10:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td>Welcome, Logistics & General Galaxy Update</td><td>30'</td></tr>
+        <tr><td>10:30 - 10:50</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>10:50 - 11:00</td><td>Martin Cech</td><td>Automating Galaxy Tool Management Through a GitHub Repository Template</td><td>10'</td></tr>
         <tr><td>11:00 - 11:45</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>11:45 - 12:05</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
-        <tr><td>12:05 - 12:25</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
-        <tr><td>12:25 - 12:45</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>11:45 - 12:05</td><td>Paul De Geest</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>12:05 - 12:25</td><td>Nicola Soranzo</td><td>Making Galaxy workflows sustainable and FAIR</td><td>20'</td></tr>
+        <tr><td>12:25 - 12:45</td><td>Lukasz Opiola</td><td>Galaxy & Onedata integration, managing Galaxy data using Onedata, BYOD & BYOS</td><td>20'</td></tr>
         <tr><td>13:00 - 14:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
-        <tr><td>14:30 - 16:00</td><td>ELIXIR Hub</td><td>The ELIXIR Galaxy Community</td><td>10'</td></tr>
+        <tr><td>14:30 - 16:00</td><td>ELIXIR Hub</td><td>The ELIXIR Galaxy Community</td><td>90'</td></tr>
         <tr><td>16:00 - 16:30</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
         <tr><td>16:30 - 17:30</td><td>Various</td><td>Birds of a Feather</td><td>60'</td></tr>
       </tbody>
@@ -108,7 +108,7 @@ Registration is free. We recommend to register as soon as possible to secure you
       <tbody>
         <tr><td>09:30 - 10:30</td><td>TBD</td><td>TBD</td><td>10'</td></tr>
         <tr><td>10:30 - 11:15</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>11:15 - 13:00</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
+        <tr><td>11:15 - 13:00</td><td>Marius van den Beek</td><td>The Future of Galaxy Tools</td><td>20'</td></tr>
         <tr><td>13:00 - 14:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
         <tr><td>14:30 - 16:00</td><td>Various</td><td>Developer Presentations</td><td>90'</td></tr>
         <tr><td>16:00 - 16:30</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
@@ -124,12 +124,15 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:30 - 10:00</td><td>Oana Marchis and Armin Dadras</td><td>Welcome and WP1</td><td>30'</td></tr>
-        <tr><td>10:00 - 10:30</td><td>TBD</td><td>WPX Update</td><td>30'</td></tr>
+        <tr><td>09:30 - 17:30</td><td>—</td><td>EGD CoFest & Hackathon</td><td>480'</td></tr>
+        <tr><td>09:30 - 10:00</td><td>Oana Marchis and Armin Dadras</td><td>Welcome and final report from WP1</td><td>30'</td></tr>
+        <tr><td>10:00 - 10:30</td><td>TBD</td><td>Achievments of WP2</td><td>30'</td></tr>
         <tr><td>10:30 - 11:00</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>11:00 - 12:30</td><td>Various</td><td>Work Package Presentations</td><td>90'</td></tr>
+        <tr><td>11:00 - 11:30</td><td>TBD</td><td>Achievments of WP3</td><td>30'</td></tr>
+        <tr><td>11:30 - 12:00</td><td>TBD</td><td>Achievments of WP4</td><td>30'</td></tr>
+        <tr><td>12:00 - 12:30</td><td>TBD</td><td>Achievments of WP5</td><td>30'</td></tr>
         <tr><td>12:30 - 13:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
-        <tr><td>13:30 - 15:00</td><td>Various</td><td>Discussion & Wrap-up</td><td>90'</td></tr>
+        <tr><td>13:30 - 15:00</td><td>All ESG partners</td><td>Final discussions and Wrap-up.</td><td>90'</td></tr>
       </tbody>
     </table>
   </div>
@@ -214,10 +217,6 @@ The [mobile app](https://www2.bwegt.de/reiseinformationen/apps) of the local pub
 
 [Here](https://www.vag-freiburg.de/tickets) you can find the types of tram tickets that VAG offers.
 The [2x4 rides ticket](https://www.vag-freiburg.de/ticket/2x4-fahrten-karte) and the [day pass](https://www.vag-freiburg.de/ticket/tageskarte-solo) are convenient options for several days and/or passengers.
-
-### Accomodation
-
-We are going to organize accomodation options in Freiburg. The information will be announced here, after we have more information.
 
 # Event rules and regulations
 
