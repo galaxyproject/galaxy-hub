@@ -58,7 +58,7 @@ for entry in feed.get("entries", []):
     link = entry.get("link", "")
     summary = html.unescape(entry.get("summary", ""))
 
-    slug = os.path.splitext(os.path.basename(link))[0]
+    slug = os.path.splitext(os.path.basename(link.rstrip("/")))[0]
     folder = f"{date_ymd}-{slug}" if import_type == "news" else f"{slug}"
 
     pr_exists = False
