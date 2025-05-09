@@ -99,7 +99,8 @@ for entry in feed.get("entries", []):
                 duration = int(tag.split(":", 1)[1])
             elif tag.startswith("new event-external"):
                 gtn = False
-
+        if not gtn and link.startswith("https://galaxyproject.org/events/"):
+            continue
         if geo := entry.get("georss"):
             location_raw = (
                 Nominatim(user_agent="GTN")
