@@ -32,3 +32,14 @@ This interactive session will highlight how to make your workflows more **FAIR**
 Whether you're a beginner or experienced developer, this event offers practical insights into improving the visibility and impact of your workflows.
 
 More information and registration is available on [ELIXIR Event Page](https://elixir-europe.org/events/tools-platform-and-single-cell-omics-bring-your-workflow-workflowhub)
+
+
+### Supporters
+
+<div style="max-width: 300px">
+
+![logo de.NBI](/images/logos/deNBILogo.png)
+![logo eurosciencegateway](/images/logos/Eurosciencegateway_logo.png)
+![logo ELIXIR](/images/logos/elixir-logo-big.png)
+
+</div>
