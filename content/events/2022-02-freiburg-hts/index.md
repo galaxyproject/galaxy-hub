@@ -74,7 +74,7 @@ Some important steps to consider before joining the workshop:
 1. Please create an account in the [European Galaxy server](https://usegalaxy.eu) 
 to perform the analysis. Participants from the MPI Freiburg, please note that 
 the European Galaxy server is different from the MPI Galaxy server. You will need 
-to have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
+to have an account on [https://usegalaxy.eu](https://usegalaxy.eu) as well.
 2. We use Slack for the discussions during the hands-on session. Please follow these two steps in order to join us in Slack:
     - First, please register at the Galaxy training network Slack space: [https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ)
     - Once you are in, join our workshop channel named freiburg-galaxy-workshop-2022 by following this link: [https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3](https://app.slack.com/client/T01EL3YJPC2/C031N6QA6P3)
