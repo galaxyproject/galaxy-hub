@@ -18,8 +18,8 @@ To analyse BERD data directly in Galaxy, go to the [Galaxy platform](https://use
 On the left pane, click on the "Upload" button. In the new window, click on the button 'Choose from repository'. 
 In the opening window, insert "BERD" in the search bar. Now you can click on the folder "BERD@NFDI Repository". 
 The datasets from BERD's portal show up here. You can select any folder to see its content. 
-To choose one, click on the item or items you and click on the 'Select' button in the corner. Click on 'Start' and close this window.
-We started with "Instagram Posts from German Parties" and clicked it to upload the containing csv file.
+To choose one, click on the item or items you want and click on the 'Select' button in the corner. Click on 'Start' and close this window.
+We started with "Instagram Posts from German Parties" and clicked it to upload the CSV file.
 
 ## Example Analysis
 
@@ -27,16 +27,17 @@ The [dataset](https://berd-platform.de/records/nghbn-9gx74) "Instagram Posts fro
 
 all Bavarian parties before the election.
 
-Since the data is messy, we first open it in the interactive environemnt of Open Refine, directly from Galaxy. 
+Since the data is messy, we first open it in the interactive environment of Open Refine, directly from Galaxy. 
+
+![Screenshot of the BERD  example file in Open Refine on Galaxy](content/news/25_05_20_Berd_WF/SC_Galaxy_OpenRefine.png "Example file in Open Refine on Galaxy")
+You can adapt the data according to your needs. In the next step, we export the file out of the interactive environment, back to the Galaxy platform.
+There, you can add further analysis. In this example, we were interested in two things: the most prevalent themes of the posts and where they originated.
+Therefore, we first cut out only the posts, cleaned the content from stopwords and made a word cloud.
+
+![Word cloud of party posts](content/news/25_05_20_Berd_WF/BerdWC.png "Word cloud created in Galaxy based on BERD dataset")
 
 
-
-Their [BERD Data Portal](https://www.berd-nfdi.de/data-portal/) is a hub for unstructured and structured academic data based on invenioRDM.
-As such, we made the portal's datasets available to browse directly in Galaxy. 
-That means you can open Galaxy, upload your dataset and start analysing it directly.
-
-![Screenshot of the BERD Data Portal Folder in Galaxy](BERD_Galaxy.png "Browse the BERD Data Portal within Galaxy")
-
+#todo continue
 
 For that, go to https://usegalaxy.eu/, make an account and log in. Click on the left hand side and click on 'Upload'.
 A new window opens. Click on the button 'Choose from repository'. In the upcoming window, insert "BERD" in the search bar.
