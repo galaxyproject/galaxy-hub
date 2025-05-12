@@ -59,19 +59,17 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Day</th><th>Time</th><th>Event</th><th>Location</th></tr>
       </thead>
       <tbody>
-        <tr><td>01.10.2025 (Wed)</td><td>09:00-13:00</td><td><b>European Galaxy Days</b><br>Arrival and Welcome<br>Community update talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>13:00-14:30</td><td><b>Lunch break</b></td><td>Georges-Köhler-Allee 82</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>14:30-16:00</td><td><b>ELIXIR Galaxy Community</b><br>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities, platforms, and focus groups</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>16:30-17:30</td><td><b>Birds of a Feather meetings (BoFs)</b><br>Session 1</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>09:00-13:00</td><td><b>European Galaxy Days</b><br>New developments talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>13:00-14:30</td><td><b>Lunch break</b></td><td>Georges-Köhler-Allee 82</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>14:30-16:00</td><td><b>European Galaxy Days Meets EuroScienceGateway</b><br>Several talks to get to know each other</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>16:30-17:30</td><td><b>Birds of a Feather meetings (BoFs)</b><br>Session 2</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>09:00-13:00</td><td><b>European Galaxy Days</b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>09:00-13:00</td><td><b>EuroScienceGateway final meeting</b></td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>13:00-14:30</td><td><b>Lunch break</b></td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>14:30-17:30</td><td><b>European Galaxy Days</b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>14:30-17:30</td><td><b>EuroScienceGateway final meeting</b></td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>Arrival and Welcome<br>Community update talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Georges-Köhler-Allee 82</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>14:30-16:00</td><td><b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities, platforms, and focus groups</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>16:30-17:30</td><td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 1</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>New developments talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Georges-Köhler-Allee 82</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>14:30-16:00</td><td><b><span class="event-meets">European Galaxy Days Meets EuroScienceGateway</span></b><br>Several talks to get to know each other</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>16:30-17:30</td><td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-esg">EuroScienceGateway final meeting</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
       </tbody>
     </table>
   </div>
@@ -83,18 +81,23 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:00 - 10:00</td><td>—</td><td>Arrival</td><td>—</td></tr>
-        <tr><td>10:00 - 10:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td>Welcome, Logistics & General Galaxy Update</td><td>30'</td></tr>
-        <tr><td>10:30 - 10:50</td><td>TBD</td><td>TBD</td><td>20'</td></tr>
-        <tr><td>10:50 - 11:00</td><td>Martin Cech</td><td>Automating Galaxy Tool Management Through a GitHub Repository Template</td><td>10'</td></tr>
-        <tr><td>11:00 - 11:45</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>11:45 - 12:05</td><td>Paul De Geest</td><td>TBD</td><td>20'</td></tr>
-        <tr><td>12:05 - 12:25</td><td>Nicola Soranzo</td><td>Making Galaxy workflows sustainable and FAIR</td><td>20'</td></tr>
-        <tr><td>12:25 - 12:45</td><td>Lukasz Opiola</td><td>Galaxy & Onedata integration, managing Galaxy data using Onedata, BYOD & BYOS</td><td>20'</td></tr>
-        <tr><td>13:00 - 14:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
-        <tr><td>14:30 - 16:00</td><td>ELIXIR Hub</td><td>The ELIXIR Galaxy Community</td><td>90'</td></tr>
-        <tr><td>16:00 - 16:30</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>16:30 - 17:30</td><td>Various</td><td>Birds of a Feather</td><td>60'</td></tr>
+        <tr><td>09:00 - 10:00</td><td>—</td><td><span class="event-egd">Arrival</span></td><td>—</td></tr>
+        <tr><td>10:00 - 10:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td><span class="event-egd">Welcome, Logistics & General Galaxy Update</span></td><td>30'</td></tr>
+        <tr><td>10:30 - 10:45</td><td>Daniela Schneider</td><td><span class="event-egd">Broadening the Galaxy: Introducing Digital Humanities in Galaxy</span></td><td>15'</td></tr>
+        <tr><td>10:45 - 11:00</td><td>TBA</td><td><span class="event-egd">Galaxy Training Network</span></td><td>15'</td></tr>
+        <tr><td>11:00 - 11:45</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
+        <tr><td>11:45 - 12:05</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 3)</span></td><td>20'</td></tr>
+        <tr><td>12:05 - 12:25</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 4)</span></td><td>20'</td></tr>
+        <tr><td>12:25 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 5)</span></td><td>20'</td></tr>
+        <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
+        <tr><td>14:30 - 14:45</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td></tr>
+        <tr><td>14:45 - 15:00</td><td>Maria Chavero-Diez</td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td></tr>
+        <tr><td>15:00 - 15:15</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 3)</span></td><td>15'</td></tr>
+        <tr><td>15:15 - 15:30</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 4)</span></td><td>15'</td></tr>
+        <tr><td>15:30 - 15:45</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 5)</span></td><td>15'</td></tr>
+        <tr><td>15:45 - 16:00</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 6)</span></td><td>15'</td></tr>
+        <tr><td>16:00 - 16:30</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
+        <tr><td>16:30 - 17:30</td><td>Various</td><td><span class="event-bof">Birds of a Feather (Session 1)</span></td><td>60'</td></tr>
       </tbody>
     </table>
   </div>
@@ -106,13 +109,28 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:30 - 10:30</td><td>TBD</td><td>TBD</td><td>10'</td></tr>
-        <tr><td>10:30 - 11:15</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>11:15 - 13:00</td><td>Marius van den Beek</td><td>The Future of Galaxy Tools</td><td>20'</td></tr>
-        <tr><td>13:00 - 14:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
-        <tr><td>14:30 - 16:00</td><td>Various</td><td>Developer Presentations</td><td>90'</td></tr>
-        <tr><td>16:00 - 16:30</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>16:30 - 17:30</td><td>Various</td><td>Birds of a Feather</td><td>60'</td></tr>
+        <tr><td>09:30 - 09:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 1)</span></td><td>15'</td></tr>
+        <tr><td>09:45 - 10:00</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 2)</span></td><td>15'</td></tr>
+        <tr><td>10:00 - 10:15</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 3)</span></td><td>15'</td></tr>
+        <tr><td>10:15 - 10:30</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 4)</span></td><td>15'</td></tr>
+        <tr><td>10:30 - 11:15</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
+        <tr><td>11:15 - 11:35</td><td>Marius van den Beek</td><td><span class="event-egd">The Future of Galaxy Tools</span></td><td>20'</td></tr>
+        <tr><td>11:35 - 11:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 7)</span></td><td>10'</td></tr>
+        <tr><td>11:45 - 12:00</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 8)</span></td><td>15'</td></tr>
+        <tr><td>12:00 - 12:20</td><td>Nicola Soranzo</td><td><span class="event-egd">Making Galaxy workflows sustainable and FAIR</span></td><td>20'</td></tr>
+        <tr><td>12:20 - 12:30</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 10)</span></td><td>10'</td></tr>
+        <tr><td>12:30 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 11)</span></td><td>15'</td></tr>
+        <tr><td>12:45 - 13:00</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 12)</span></td><td>15'</td></tr>
+        <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
+        <tr><td>14:30 - 14:50</td><td>Lukasz Opiola</td><td><span class="event-meets">Galaxy & Onedata integration, managing Galaxy data using Onedata, BYOD & BYOS</span></td><td>20</td></tr>
+        <tr><td>14:50 - 15:00</td><td>Martin Cech</td><td><span class="event-meets">Automating Galaxy Tool Management Through a GitHub Repository Template</span></td><td>10'</td></tr>
+        <tr><td>15:00 - 15:20</td><td>Paul De Geest</td><td><span class="event-meets">TBD</span></td><td>20'</td></tr>
+        <tr><td>15:20 - 15:30</td><td>Nikolay Vazov</td><td><span class="event-meets">TBD</span></td><td>10'</td></tr>
+        <tr><td>15:30 - 15:40</td><td>Marco Antonio Tangaro</td><td><span class="event-meets">Laniakea Nebula: VPN-Based Isolation for Galaxy Private Deployments</span></td><td>10'</td></tr>
+        <tr><td>15:40 - 15:50</td><td>TBD</td><td><span class="event-meets">TBD</span></td><td>10'</td></tr>
+        <tr><td>15:50 - 16:00</td><td>Eli Chadwick</td><td><span class="event-meets">Highlighting RO-Crate features in Galaxy and why you should use them</span></td><td>10'</td></tr>
+        <tr><td>16:00 - 16:30</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
+        <tr><td>16:30 - 17:30</td><td>Various</td><td><span class="event-bof">Birds of a Feather (Session 2)</span></td><td>60'</td></tr>
       </tbody>
     </table>
   </div>
@@ -124,15 +142,15 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:30 - 17:30</td><td>—</td><td>EGD CoFest & Hackathon</td><td>480'</td></tr>
-        <tr><td>09:30 - 10:00</td><td>Oana Marchis and Armin Dadras</td><td>Welcome and final report from WP1</td><td>30'</td></tr>
-        <tr><td>10:00 - 10:30</td><td>TBD</td><td>Achievments of WP2</td><td>30'</td></tr>
-        <tr><td>10:30 - 11:00</td><td>—</td><td>Coffee Break</td><td>—</td></tr>
-        <tr><td>11:00 - 11:30</td><td>TBD</td><td>Achievments of WP3</td><td>30'</td></tr>
-        <tr><td>11:30 - 12:00</td><td>TBD</td><td>Achievments of WP4</td><td>30'</td></tr>
-        <tr><td>12:00 - 12:30</td><td>TBD</td><td>Achievments of WP5</td><td>30'</td></tr>
-        <tr><td>12:30 - 13:30</td><td>—</td><td>Lunch Break</td><td>—</td></tr>
-        <tr><td>13:30 - 15:00</td><td>All ESG partners</td><td>Final discussions and Wrap-up.</td><td>90'</td></tr>
+        <tr><td>09:30 - 17:30</td><td>—</td><td><span class="event-egd">EGD CoFest & Hackathon</span></td><td>480'</td></tr>
+        <tr><td>09:30 - 10:00</td><td>Oana Marchis and Armin Dadras</td><td><span class="event-esg">Welcome and final report from WP1</span></td><td>30'</td></tr>
+        <tr><td>10:00 - 10:30</td><td>TBD</td><td><span class="event-esg">Achievments of WP2</span></td><td>30'</td></tr>
+        <tr><td>10:30 - 11:00</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
+        <tr><td>11:00 - 11:30</td><td>TBD</td><td><span class="event-esg">Achievments of WP3</span></td><td>30'</td></tr>
+        <tr><td>11:30 - 12:00</td><td>TBD</td><td><span class="event-esg">Achievments of WP4</span></td><td>30'</td></tr>
+        <tr><td>12:00 - 12:30</td><td>TBD</td><td><span class="event-esg">Achievments of WP5</span></td><td>30'</td></tr>
+        <tr><td>12:30 - 13:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
+        <tr><td>13:30 - 15:00</td><td>All ESG partners</td><td><span class="event-esg">Final discussions and Wrap-up</span></td><td>90'</td></tr>
       </tbody>
     </table>
   </div>
@@ -175,6 +193,36 @@ table {
 th, td {
   padding: 0.5rem;
   border: 1px solid #ccc;
+}
+.event-egd {
+  background-color: #ffadad;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.event-lunch {
+  background-color: #ffd6a5;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.event-elixir {
+  background-color: #fdffb6;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.event-bof {
+  background-color: #caffbf;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.event-meets {
+  background-color: #9bf6ff;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.event-esg {
+  background-color: #bdb2ff;
+  padding: 2px 6px;
+  border-radius: 5px;
 }
 </style>
 
