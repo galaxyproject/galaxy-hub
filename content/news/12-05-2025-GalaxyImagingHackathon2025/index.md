@@ -19,7 +19,7 @@ subsites: [all,global,esg,eu]
 # 🧬 Lights, Camera... Hacking! Highlights from the Galaxy Imaging Hackathon 2025 🎬🔬
 
 ## April 22nd-25th, 2025 | Freiburg, Germany 🌱
-In April 2025, members of the Galaxy community came together for an energizing **three-day hackathon** dedicated to advancing FAIR image analysis and workflows in Galaxy. Whether virtually or in-person—and accompanied by delicious coffee and sweets—we rolled up our sleeves, shared ideas, solved bugs, built tools, and wrapped up each day with great conversations over dinner in Freiburg. 🍽️
+In April 2025, members of the Galaxy community came together for an energizing **three-day hackathon** dedicated to advancing FAIR image analysis and workflows in Galaxy. Whether virtually or in-person — and accompanied by delicious coffee and sweets — we rolled up our sleeves, shared ideas, solved bugs, built tools, and wrapped up each day with great conversations over dinner in Freiburg. 🍽️
 
 This wasn’t just about closing issues—it was about shared problem solving and community-driven development. Across those three days, contributors dove into discussions, whiteboarded bold ideas, and tackled technical challenges side by side. By the end, we had made meaningful progress toward expanding Galaxy’s capabilities for image analysis!
 
