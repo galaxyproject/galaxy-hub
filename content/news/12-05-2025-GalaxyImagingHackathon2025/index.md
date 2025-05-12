@@ -34,7 +34,7 @@ We also took the time to highlight training materials — most notably with the 
 Development began on integrating [OMERO as a file source](https://github.com/FAIR-imaging/galaxy-image-community/issues/17), as well as [porting Fractal tasks and workflows](https://github.com/FAIR-imaging/galaxy-image-community/issues/31) into the Galaxy ecosystem. We explored extending support for AI inference tools with [TensorFlow compatibility](https://github.com/FAIR-imaging/galaxy-image-community/issues/37), started building a [VPT preprocessing tool for MEROSCOPE images](https://github.com/FAIR-imaging/galaxy-image-community/issues/41), and developed plans for a new tool focused on [gel band quantification using ImageJ](https://github.com/FAIR-imaging/galaxy-image-community/issues/42).
 
 ## Final Thoughts
-Throughout it all, tool integration, workflow refinement, and in-depth investigation defined the rhythm of the hackathon. We tested pipelines, cleaned up quirks, and kept usability and accessibility front and centre.
+Throughout it all, tool integration, workflow refinement, and in-depth investigation defined the rhythm of the hackathon. We tested pipelines, cleaned up quirks, and kept usability and accessibility front and center.
 
 What excites us most isn't just the code we wrote — it's the momentum of a growing, inclusive community. The Galaxy imaging community is expanding, and together we're building a welcoming, collaborative space to support image analysis in a FAIR, scalable, and user-friendly way.
 
