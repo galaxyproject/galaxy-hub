@@ -36,7 +36,7 @@ Development began on integrating [OMERO as a file source](https://github.com/FAI
 ## Final Thoughts
 Throughout it all, tool integration, workflow refinement, and in-depth investigation defined the rhythm of the hackathon. We tested pipelines, cleaned up quirks, and kept usability and accessibility front and centre.
 
-What excites us most isn’t just the code we wrote—it’s the momentum of a growing, inclusive community. The Galaxy imaging community is expanding, and together we're building a welcoming, collaborative space to support image analysis in a FAIR, scalable, and user-friendly way.
+What excites us most isn't just the code we wrote — it's the momentum of a growing, inclusive community. The Galaxy imaging community is expanding, and together we're building a welcoming, collaborative space to support image analysis in a FAIR, scalable, and user-friendly way.
 
 Thanks to everyone who joined, brainstormed, debugged, contributed, and co-created. We can't wait for the next round and set again Github on Fire!
 
