@@ -1,5 +1,5 @@
 ---
-title: Analysing data from BERD Data Portal with Galaxy
+title: Exploring data from BERD Data Portal with Galaxy
 date: '2025-05-20'
 tease: "Find out how to research your Data from the BERD Data Portal directly in Galaxy"
 continent: EU
