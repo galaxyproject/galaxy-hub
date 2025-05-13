@@ -10,7 +10,9 @@ subsites: [all]
 ---
 In April, we included the [Berd4NFDI](https://www.berd-nfdi.de/about/) data portal in [Galaxy](https://galaxyproject.org/news/2025-04-09-berd-integration/). 
 BERD is a NFDI consortium working towards a platform for collecting, (pre-)processing, analysing and preserving Business, Economic and Related Data. 
-Their data portal is a hub for sharing suitable datasets.
+Their data portal is a hub for sharing suitable datasets. 
+In this post, we showcase how you can make use of the content in Galaxy. 
+We will demonstrate how to import data from BERD, do some data cleaning and wrangling and plot a word cloud and a geo map to see what content featured prominently and what popular locations of posts were.
 
 ## Getting started in Galaxy
 
