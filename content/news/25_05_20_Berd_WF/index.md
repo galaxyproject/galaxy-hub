@@ -14,7 +14,7 @@ Their data portal is a hub for sharing suitable datasets.
 
 ## Getting started in Galaxy
 
-To analyse BERD data directly in Galaxy, go to the [Galaxy platform](https://usegalaxy.eu/). 
+To analyse BERD data directly in Galaxy, go to the [European Galaxy server](https://usegalaxy.eu/). 
 On the left pane, click on the "Upload" button. In the new window, click on the button 'Choose from repository'. 
 In the opening window, insert "BERD" in the search bar. Now you can click on the folder "BERD@NFDI Repository". 
 The datasets from BERD's portal show up here. You can select any folder to see its content. 
