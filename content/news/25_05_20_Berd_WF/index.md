@@ -38,7 +38,7 @@ Therefore, we first cut out only the posts from the table, cleaned the content f
 
 ![Word cloud of party posts](content/news/25_05_20_Berd_WF/BerdWC.png "Word cloud created in Galaxy based on BERD dataset")
 
-As expected, the first glimpse suggests Bayer (Bavaria) and the CSU, the ruling party in Bavaria, feature as prominent topics. 
+As expected, the first glimpse suggests "Bayern" (Bavaria) and the CSU, the ruling party in Bavaria, feature as prominent topics. 
 Furthermore, the posts often contain "zusammen" (together), signalling a need for unity as well as "Menschen" (humans), the main target group - the population of Bavaria.
 Other parties appear smaller on the word cloud. SPD (the social democratic party) appeared more often than AfD (right-wing party) and Grüne, the green party.
 
