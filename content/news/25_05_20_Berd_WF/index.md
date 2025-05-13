@@ -19,7 +19,7 @@ On the left pane, click on the "Upload" button. In the new window, click on the 
 In the opening window, insert "BERD" in the search bar. Now you can click on the folder "BERD@NFDI Repository". 
 The datasets from BERD's portal show up here. You can select any folder to see its content. 
 To choose one, click on the item or items you want to work with and click on the 'Select' button in the corner. Click on 'Start' and close this window.
-We worked with "Instagram Posts from German Parties" and clicked it to upload the CSV file.
+We worked with "Instagram Posts from German Parties" imported the CSV file to Galaxy.
 
 ## Example Analysis
 
