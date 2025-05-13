@@ -21,7 +21,7 @@ The **European Galaxy Days** will be held from the **1st to 3rd of October 2025*
 We are holding **3 events** in the same week:
 
 - The **ELIXIR Galaxy Community Face-to-face (F2F)** meeting,
-- The **EuroScienceGateway** project closure meeting,
+- The **EuroScienceGateway** Final Conference,
 - The **European Galaxy Days (EGD)** meeting.
 
 <figure class="figure">
@@ -68,7 +68,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>02.10.2025 (Thr)</td><td>14:30-16:00</td><td><b><span class="event-meets">European Galaxy Days Meets EuroScienceGateway</span></b><br>Several talks to get to know each other</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>02.10.2025 (Thr)</td><td>16:30-17:30</td><td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-esg">EuroScienceGateway final meeting</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-esg">EuroScienceGateway Final Conference</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>03.10.2025 (Fri)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
       </tbody>
     </table>
@@ -279,3 +279,23 @@ If you want to present, help, have suggestions or questions, please get in touch
 Armin Dadras (dadras@informatik.uni-freiburg.de)<br>
 Hans-Rudolf Hotz (hrhotz@googlemail.com)<br>
 Björn Grüning (bjoern.gruening@gmail.com)<br>
+
+# Funding
+
+<div style="display: flex; gap: 1rem; align-items: center; justify-content: center;">
+  <figure class="figure">
+    <g-image src="/images/logos/ElixirNoTextLogo.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
+  </figure>
+  <figure class="figure">
+    <g-image src="/images/logos/uni-freiburg-wide.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
+  </figure>
+  <figure class="figure">
+    <g-image src="/images/logos/EN_Co-fundedbytheEU_RGB_POS.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
+  </figure>
+</div>
+
+
+**EuroScienceGateway** was funded by the European Union programme Horizon Europe (**HORIZON-INFRA-2021-EOSC-01-04**) under grant agreement number [101057388](https://cordis.europa.eu/project/id/101057388) and by UK Research and Innovation (UKRI) under the UK government’s Horizon Europe funding guarantee grant number [10038963](https://gtr.ukri.org/projects?ref=10038963).
+
+
+
