@@ -1,7 +1,7 @@
 ---
 title: Exploring data from BERD Data Portal with Galaxy
 date: '2025-05-20'
-tease: "Find out how to research your Data from the BERD Data Portal directly in Galaxy"
+tease: "Find out how to explore your Data from the NFDI BERD Data Portal directly in Galaxy"
 continent: EU
 contact: Daniela Schneider
 gtn: false
