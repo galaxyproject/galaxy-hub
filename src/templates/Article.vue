@@ -3,11 +3,11 @@
         <ArticleHeader :article="$page.article" />
         <div :class="['content', 'markdown', ...mdClasses]" v-html="$page.article.content" />
         <Supporters
-        v-if="filteredSupporters.length"
-        title="Supporters"
-        pathPrefix="/images/logos/"
-        class="mb-4 blue-card"
-        :supporters="filteredSupporters"
+            v-if="filteredSupporters.length"
+            title="Supporters"
+            pathPrefix="/images/logos/"
+            class="mb-4 blue-card"
+            :supporters="filteredSupporters"
         />
         <ArticleFooter :article="$page.article" />
     </Layout>
@@ -89,10 +89,8 @@ export default {
             const allSupporters = this.$page.datasetSupporters.supporters || [];
 
             // Return only the supporters mentioned in the article's front matter
-            return allSupporters.filter(s =>
-                articleSupporterNames.includes(s.name)
-            );
-        }
+            return allSupporters.filter((s) => articleSupporterNames.includes(s.name));
+        },
     },
 };
 </script>

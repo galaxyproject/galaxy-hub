@@ -75,7 +75,7 @@ function stageStaticContent(srcDir, destDir) {
             .then(() => {
                 // Copy the file to the new destination
                 fs.copy(file, destPath, { overwrite: false }).catch((err) =>
-                    console.error(`Error copying file ${file}:`, err)
+                    console.error(`Error copying file ${file}:`, err),
                 );
             })
             .catch((err) => console.error(`Error creating directory for ${destPath}:`, err));
