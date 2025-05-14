@@ -28,7 +28,7 @@ We worked with "Instagram Posts from German Parties" imported the CSV file to Ga
 The [dataset](https://berd-platform.de/records/nghbn-9gx74) "Instagram Posts from German Parties" is particularly insightful as the file contains posts from 632 of the 1134 people standing for election in the Bavarian state election.  
 Since the data is messy, we first open it in the interactive environment of Open Refine, directly from Galaxy. 
 
-![Screenshot of the BERD  example file in Open Refine on Galaxy](content/news/25_05_20_Berd_WF/SC_Galaxy_OpenRefine.png "Example file in Open Refine on Galaxy")
+![Screenshot of the BERD  example file in Open Refine on Galaxy](SC_Galaxy_OpenRefine.png "Example file in Open Refine on Galaxy")
 You can adapt the data in OpenRefine according to your needs. In the next step, we export the file out of the interactive environment, back to the Galaxy platform.
 There, you can add further analysis, like removing line breaks with Regular Expressions. 
 In this example, we were interested in two things: the most prevalent themes of the posts and where they originated.
@@ -36,7 +36,7 @@ Therefore, we first cut out only the posts from the table, cleaned the content f
 
 ### Visualising the posts
 
-![Word cloud of party posts](content/news/25_05_20_Berd_WF/BerdWC.png "Word cloud created in Galaxy based on BERD dataset")
+![Word cloud of party posts](BerdWC.png "Word cloud created in Galaxy based on BERD dataset")
 
 As expected, the first glimpse suggests "Bayern" (Bavaria) and the CSU, the ruling party in Bavaria, feature as prominent topics. 
 Furthermore, the posts often contain "zusammen" (together), signalling a need for unity as well as "Menschen" (humans), the main target group - the population of Bavaria.
@@ -49,14 +49,14 @@ The over 200.000 posts originated from more than 6.000 locations. Those are, how
 
 The most prominent location, according to the dataset, was used to send 686 posts. 157 posts were sent from the 10th most prominent location.
 
-![Table showing 10 most prominent origins of the posts with Longitude, latitude, and amount of posts sent from this location](content/news/25_05_20_Berd_WF/LongLat_OR_Datamash.png "Table showing 10 most prominent origins of the posts with Longitude, latitude, and amount of posts sent from this location")
+![Table showing 10 most prominent origins of the posts with Longitude, latitude, and amount of posts sent from this location](LongLat_OR_Datamash.png "Table showing 10 most prominent origins of the posts with Longitude, latitude, and amount of posts sent from this location")
 
 Converted into a GeoJSON, Galaxy is able to visualise the data within the platform.
 Interestingly, not all 10 locations correspond to the biggest cities in Bavaria. Also, smaller locations posted very actively during the election campaign.
 Regensburg, Nürnberg and Erlangen are, for example, not among the top 10 locations where most posts originated. 
 Meanwhile, Landshut and Weiden in der Oberpfalz featured prominently, as the map shows.
 
-![Map visalising top 10 locations of election posts](content/news/25_05_20_Berd_WF/Berd_Map_top_10.png "Map visalising top 10 locations of election posts")
+![Map visalising top 10 locations of election posts](Berd_Map_top_10.png "Map visalising top 10 locations of election posts")
 
 The map shows blue circles, indicating those locations. 
 Some, as in the case of Munich, are overlapping here. 
@@ -64,7 +64,7 @@ Some, as in the case of Munich, are overlapping here.
 Zooming in further shows that several different locations within Munich had very strong social media activity.
 For example, Munich's Maximilianeum has two particularly active locations within a short distance, as the zoomed-in map shows.
 
-![Map zooming in on Munich's Maximilianeum](content/news/25_05_20_Berd_WF/Berd_map_munich.png "Map zooming in on Munich's Maximilianeum")
+![Map zooming in on Munich's Maximilianeum](Berd_map_munich.png "Map zooming in on Munich's Maximilianeum")
 
 Seeing that Maximilianeum currently hosts the Bavarian State Parliament, this comes as little surprise. 
 It seems many politicians posted their Instagram stories directly from the Parliament, as Galaxy's quick analysis of the dataset shows.
