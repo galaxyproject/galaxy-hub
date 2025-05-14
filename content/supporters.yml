@@ -1,0 +1,336 @@
+supporters:
+    - name: australian_biocommons
+      image: /images/logos/australian-biocommons-logo-horizontal-transparent.png
+      website: https://www.biocommons.org.au/
+
+    - name: aws
+      image: /images/logos/aws.png
+      website: https://aws.amazon.com/
+
+    - name: backofenlab
+      image: /images/logos/bioinf-fr-logo-blau.png
+      website: https://bisv01.informatik.uni-freiburg.de/subpage/team.html
+
+    - name: bioconda
+      image: /images/logos/bioconda.png
+      website: https://bioconda.github.io/
+
+    - name: biodaten
+      image: /images/logos/csm_BioDATEN_Logo_001_cmyk_1ee9f788a2.jpg
+      website: https://forschungsdaten.info/fdm-im-deutschsprachigen-raum/deutschland/baden-wuerttemberg/
+
+    - name: biolytix
+      image: /images/logos/biolytix.jpg
+      website: https://www.biolytix.ch/en/
+
+    - name: bmbf
+      image: /images/logos/BMBF_Logo.svg.png
+      website: https://www.bmbf.de/DE/Home/home_node.html
+
+    - name: bycovid
+      image: /images/logos/bycovid.png
+      website: https://by-covid.org/
+
+    - name: converge
+      image: /images/logos/converge_logo.png
+      website: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
+
+    - name: Copernicus Climate Services
+      image: /images/logos/copernicus.png
+      website: https://www.climateurope.eu/copernicus-climate-services/
+
+    - name: corbel
+      image: /images/logos/corbel_logo.png
+      website: https://www.corbel-project.eu
+
+    - name: crc1425
+      image: /images/logos/crc1425.png
+      website: https://www.sfb1425.uni-freiburg.de/
+
+    - name: crc992
+      image: /images/logos/crc992.png
+      website: http://www.sfb992.uni-freiburg.de/
+
+    - name: dataPLANT
+      image: /images/logos/DataPLANT-logo-transparent.png
+      website: https://nfdi4plants.de/
+
+    - name: dataplant
+      image: /images/logos/DataPLANT-logo-transparent.png
+      website: https://nfdi4plants.de/
+
+    - name: de.KCD
+      image: /images/logos/dekcd.png
+      website: https://datenkompetenz.cloud/
+
+    - name: DECHEMA
+      image: /images/logos/DECHEMA.png
+      website: https://dechema.de/
+
+    - name: de.NBI
+      image: /images/logos/deNBI_Logo_rgb.png
+      website: https://www.denbi.de
+
+    - name: deNBI
+      image: /images/logos/deNBI_Logo_rgb.png
+      website: https://www.denbi.de
+
+    - name: denbi
+      image: /images/logos/deNBI_Logo_rgb.png
+      website: https://www.denbi.de
+
+    - name: dfg
+      image: /images/logos/dfg_logo.svg
+      website: https://www.dfg.de
+
+    - name: dzl
+      image: /images/logos/dzl.jpg
+      website: https://www.dzl.de/index.php/de/karriere-de/dzl-academy
+
+    - name: dzlacademy
+      image: /images/logos/dzl.jpg
+      website: https://www.dzl.de/index.php/de/karriere-de/dzl-academy
+
+    - name: egi
+      image: /images/logos/egi_logo.png
+      website: https://www.egi.eu/
+
+    - name: ELIXIR
+      image: /images/logos/elixir-logo-big.png
+      website: https://elixir-europe.org/
+
+    - name: Elixir
+      image: /images/logos/elixir-logo-big.png
+      website: https://elixir-europe.org/
+
+    - name: elixir
+      image: /images/logos/elixir-logo-big.png
+      website: https://elixir-europe.org/
+
+    - name: elixir-belgium
+      image: /images/logos/ELIXIR_BELGIUM_white_background.png
+      website: https://www.elixir-belgium.org/
+
+    - name: EOSC
+      image: /images/logos/EOSC.jpg
+      website: https://eosc.eu/
+
+    - name: EOSC-Life
+      image: /images/logos/Logo-EOSC-Life-neu.png
+      website: https://www.eosc-life.eu/
+
+    - name: eosc
+      image: /images/logos/EOSC.jpg
+      website: https://eosc.eu/
+
+    - name: erasmus+
+      image: /images/logos/erasmus+.jpg
+      website: https://ec.europa.eu/programmes/erasmus-plus/node_en
+
+    - name: esg
+      image: /images/logos/eosceurosciencegateway.jpg
+      website: https://galaxyproject.org/projects/esg/
+
+    - name: eu
+      image: /images/logos/eu_logo.jpg
+      website: https://ec.europa.eu
+
+    - name: eubi
+      image: /images/logos/eubi_logo.png
+      website: https://www.eurobioimaging.eu
+
+    - name: eurosciencegateway
+      image: /images/logos/eosceurosciencegateway.jpg
+      website: https://galaxyproject.org/projects/esg/
+
+    - name: fair-ease
+      image: /images/logos/fair-ease.svg
+      website: https://www.fairease.eu/
+
+    - name: Galaxy
+      image: /images/logos/galaxy_project_logo.png
+      website: https://galaxyproject.org/
+
+    - name: galaxy
+      image: /images/logos/galaxy_project_logo.png
+      website: https://galaxyproject.org/
+
+    - name: galaxy-australia
+      image: /images/logos/Galaxy-Aust-Logo-Horizontal-RGB.png
+      website: https://site.usegalaxy.org.au/
+
+    - name: galaxy-europe
+      image: /images/logos/galaxy-eu.png
+      website: https://galaxyproject.org/eu/
+
+    - name: galaxy-freiburg
+      image: /images/logos/freiburg-galaxy.svg
+      website: https://galaxyproject.org/freiburg/
+
+    - name: GalaxyWorks
+      image: /images/logos/GalaxyWorks.png
+      website: https://galaxyworks.io/
+
+    - name: gallantries
+      image: /images/logos/gallantries.png
+      website: https://gallantries.github.io/
+
+    - name: GigaScience
+      image: /images/logos/The_2012_logo_of_GigaScience_Journal.png
+      website: https://academic.oup.com/gigascience
+
+    - name: healthycloud
+      image: /images/logos/healthycloud-logo.png
+      website: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-hcc-10-2020
+
+    - name: idr
+      image: /images/logos/idr_logo.png
+      website: https://idr.openmicroscopy.org/
+
+    - name: IFB
+      image: /images/logos/ifb-logo.png
+      website: https://www.france-bioinformatique.fr/
+
+    - name: ifb
+      image: /images/logos/ifb-logo.png
+      website: https://www.france-bioinformatique.fr/
+
+    - name: ifremer
+      image: /images/logos/Logo-Ifremer-RVB-vBlue.jpg
+      website: https://www.euroqcharm.eu/en/ifremer
+
+    - name: igem
+      image: /images/logos/igem_logo.png
+      website: https://igem.temple.edu/
+
+    - name: illumina
+      image: /images/logos/illumina-logo.svg
+      website: https://www.illumina.com/
+
+    - name: JXTX Foundation
+      image: /images/logos/jxtxfoundation.png
+      website: https://jxtxfoundation.org/
+
+    - name: KWS
+      image: /images/logos/KWS_Saat_logo.svg.png
+      website: https://www.kws.com/corp/en/
+
+    - name: Life@FAU
+      image: /images/logos/cropped-Life@FAU-1.jpg
+      website: https://www.life.fau.de/
+
+    - name: Limagrain
+      image: /images/logos/logo-LG-Europe-768x732.jpg
+      website: https://www.limagrain-europe.com/
+
+    - name: madland
+      image: /images/logos/MAdLand.jpg
+      website: https://madland.science/
+
+    - name: meinbio
+      image: /images/logos/meinbio.jpg
+      website: https://www.meinbio.uni-freiburg.de/
+
+    - name: melbbioinfo
+      image: /images/logos/melbbioinfo-logo.png
+      website: https://www.melbournebioinformatics.org.au/
+
+    - name: miracum
+      image: /images/logos/miracum.png
+      website: https://www.melbournebioinformatics.org.au/
+
+    - name: mpi
+      image: /images/logos/mpi.jpg
+      website: https://www.ie-freiburg.mpg.de/
+
+    - name: ncgas
+      image: /images/logos/ncgas-logo.png
+      website: https://ncgas.org/
+
+    - name: neic
+      image: /images/logos/neic-logo.png
+      website: https://neic.no/pari/
+
+    - name: neic
+      image: /images/logos/neuromac.jpg
+      website: https://www.sfb-trr167.uni-freiburg.de/
+
+    - name: NFDI
+      image: /images/logos/nfdi_rgb_Wortmarke_Zusatz_quer.png
+      website: https://www.nfdi.de/
+
+    - name: NFDI4BI
+      image: /images/logos/1_NDFI_Logo-4c-600x187.png
+      website: https://nfdi4bioimage.de/home/
+
+    - name: NFDI4BioImaging
+      image: /images/logos/1_NDFI_Logo-4c-600x187.png
+      website: https://nfdi4bioimage.de/home/
+
+    - name: NFDI4Plants
+      image: /images/logos/DataPLANT-logo-transparent.png
+      website: https://www.nfdi4plants.org/
+
+    - name: nfdi
+      image: /images/logos/nfdi_rgb_Wortmarke_Zusatz_quer.png
+      website: https://www.nfdi.de/
+
+    - name: nfdi4Bioimage
+      image: /images/logos/1_NDFI_Logo-4c-600x187.png
+      website: https://nfdi4bioimage.de/home/
+
+    - name: nfdi4bioimage
+      image: /images/logos/1_NDFI_Logo-4c-600x187.png
+      website: https://nfdi4bioimage.de/home/
+
+    - name: nfdi4bioimagingnext-level
+      image: /images/logos/1_NDFI_Logo-4c-600x187.png
+      website: https://nfdi4bioimage.de/home/
+
+    - name: oscars
+      image: /images/logos/oscars_logo.svg
+      website: https://oscars-project.eu/
+
+    - name: pari
+      image: /images/logos/pari-logo.png
+      website: https://neic.no/pari/
+
+    - name: qfab
+      image: /images/logos/qfab-logo.png
+      website: https://qfab.org/
+
+    - name: sanbi
+      image: /images/logos/sanbi_logo.webp
+      website: https://www.sanbi.org/
+
+    - name: sciex
+      image: /images/logos/sciex-logo.jpg
+      website: https://sciex.com/
+
+    - name: thermofisher
+      image: /images/logos/thermofisher-logo.svg
+      website: https://sciex.com/
+
+    - name: TIaaS
+      image: /images/logos/tiaas-logo.png
+      website: https://usegalaxy.org/tiaas/
+
+    - name: unifreiburg
+      image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
+      website: http://uni-freiburg.de/
+
+    - name: usegalaxy-eu
+      image: /images/logos/useGalaxy.eu.svg
+      website: https://usegalaxy.eu/
+
+    - name: ViCE
+      image: /images/logos/Logo_VICE.png
+      website: https://www.rz.uni-freiburg.de/de/rz/aktuell/archiv-bis-2019/vice-ws
+
+    - name: vib
+      image: /images/logos/vib_rf_plant_systems_biology_rgb_pos.png
+      website: http://www.vib.be/
+
+    - name: Worfklow4Metabelomics
+      image: /images/logos/logo-ifb-mono-metabohub_2.1_SD_150px.png
+      website: https://workflow4metabolomics.org/
