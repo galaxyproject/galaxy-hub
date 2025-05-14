@@ -32,4 +32,4 @@ In addition to text analyses, numerous programs for analyzing images and audio f
 across various disciplines. Researchers can focus on their core competencies while simultaneously improving the visibility and traceability 
 of their methods, thus addressing the typical challenges of digital analysis in the humanities. And all this from within the browser.
 
-The workshop takes place from 14-16ct, please register [via this Email](mailto:digitalhumanities@mail.uni-freiburg.de) until May 9th. 
+The workshop takes place from 14-16ct, please register [via this Email](mailto:digitalhumanities@mail.uni-freiburg.de)
