@@ -1,7 +1,6 @@
 import html
 import logging
 import os
-import re
 import sys
 from datetime import datetime
 
@@ -58,7 +57,7 @@ for entry in feed.get("entries", []):
     link = entry.get("link", "")
     summary = html.unescape(entry.get("summary", ""))
 
-    slug = os.path.splitext(os.path.basename(link))[0]
+    slug = os.path.splitext(os.path.basename(link.rstrip("/")))[0]
     folder = f"{date_ymd}-{slug}" if import_type == "news" else f"{slug}"
 
     pr_exists = False
@@ -100,7 +99,8 @@ for entry in feed.get("entries", []):
                 duration = int(tag.split(":", 1)[1])
             elif tag.startswith("new event-external"):
                 gtn = False
-
+        if not gtn and link.startswith("https://galaxyproject.org/events/"):
+            continue
         if geo := entry.get("georss"):
             location_raw = (
                 Nominatim(user_agent="GTN")

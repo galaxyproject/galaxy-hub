@@ -91,6 +91,4 @@ If you are interested in these tools and/or tutorials don't hesitate to test the
 
 We are still working on Earth System tools, workflows, and tutorials. This specific study is in cooperation with the [Fair-Ease](https://fairease.eu/) and [EuroScienceGateway](https://eurosciencegateway.eu/) projects
 (to know more about the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/) .
-![EOSC EuroSciencefair_ease_colour.png)
-
-
+![FairEase](../2023-05-21-Fair-Ease-EuroScienceGateway/images/fair_ease_colour.png)

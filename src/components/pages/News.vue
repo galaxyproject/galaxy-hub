@@ -4,7 +4,7 @@
         <div class="markdown" v-if="hasContent($page.main)" v-html="$page.main.content" />
         <table class="table table-striped">
             <tbody>
-                <ArticleTable v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
+                <ArticleTable v-for="edge in articles" :key="edge.node.id" :article="edge.node" />
             </tbody>
         </table>
     </Layout>
@@ -29,6 +29,16 @@ export default {
     computed: {
         subsiteData() {
             return CONFIG.subsites.all[this.$context.subsite];
+        },
+        articles() {
+            const tag = this.$route.query.tag;
+            const articles = this.$page.articles.edges;
+
+            if (!tag) {
+                return articles;
+            } else {
+                return articles.filter((article) => article.node.tags.includes(tag));
+            }
         },
     },
 };
@@ -58,6 +68,7 @@ query($subsite: String, $mainPath: String) {
                 external_url
                 date (format: "D MMMM YYYY")
                 path
+                tags
             }
         }
     }

@@ -24,7 +24,7 @@ Hello user! You'll be interested in the following resources:
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy genome annotation space!
 
-# What are the goals of the single cell community of practice?
+# What are the goals of the Galaxy Genome Annotation (GGA) Community of practice?
 
 🎯 Goals
 - Prevent work duplication

@@ -50,9 +50,6 @@
                     </nav>
                 </div>
                 <div class="col-lg-5">
-                    <a href="https://gbcc2025.org" class="d-block mb-3">
-                        <img src="/images/GBCC2025_hub_splash_screen.png" alt="GBCC2025 banner" class="img-fluid" />
-                    </a>
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfRzPhmwhIiynJQVFaFBWB6u1pDp0VwpPCdZs8qS7a6WjpR1w/viewform"
                     >
