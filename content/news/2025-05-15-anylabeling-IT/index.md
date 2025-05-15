@@ -27,7 +27,7 @@ To use AnyLabeling in Galaxy, first you need to create an account in Galaxy and 
 ![AnyLabeling](/images/galaxy-anylabeling.png)
 
 
-Open the images from the `input_images` folder using the AnyLabeling UI. Select `Auto Labeling` from the tool menu on the left, choose one of the model from the dropdown list, and then start your labeling task. Once finished, save your output json in `home/output` folder, close the AnyLabeling GUI and its browser tab. The results in json file will be available in your Galaxy history.
+Open the images from the `input_images` folder using the AnyLabeling UI. Select `Auto Labeling` from the tool menu on the left, choose one of the model from the dropdown list, and then start your labeling task. Once finished, save your output json in `home/output` folder, close the AnyLabeling GUI and its browser tab. The results in json file will be available in your Galaxy history. You can then visualize the annotation json file by clicking the `Visualize` icon and selecting the appropriate viewer.
 
 ![AnyLabeling tasks](/images/galaxy-anylabeling-tasks.png)
 
