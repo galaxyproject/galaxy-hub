@@ -5,6 +5,8 @@ authors: Yi Sun
 tease: "Use AnyLabeling in the European Galaxy Server as an interactive tool"
 hide_tease: false
 subsites: [all-eu, global]
+supporters: nfdi4bioimage
+tags: [imaging, nfdi, nfdi4bioimaging, tool]
 main_subsite: eu
 ---
 
