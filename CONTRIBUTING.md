@@ -298,6 +298,16 @@ These tags can be used on any page.
 - Format
   - Free text all on one line.  Should be wrapped in quotes.
 
+#### `supporters`
+
+- Optional
+- Meaning
+  - Acknowledgment of funds and grants.
+- Use
+  - Becomes the value of `<supporters>` HTML tag in the page and will be used to create the supporters card at the bottom of the page.
+- Format
+  - It should be the id to the supporter. All supporters (id, image, url) are included in this file: `content/supporters.yml`. If your supporter is not present there, please add the name and information there. Please include the logo in the following folder: `content/images/logos/`
+
 #### `autotoc`
 
 - Optional

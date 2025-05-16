@@ -340,7 +340,7 @@ export default {
             let galaxies = CONFIG.usegalaxy;
             let priority = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
-                1
+                1,
             );
             if (priority[0]) {
                 galaxies.splice(0, 0, priority[0]);

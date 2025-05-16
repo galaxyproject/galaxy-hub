@@ -41,7 +41,7 @@ export class Partitioner {
     constructor(options = {}) {
         let { configPath, projectRoot, simulate, verbose, placer, placers } = updateValues(
             { projectRoot: PROJECT_ROOT, simulate: true, verbose: false, placer: "copy" },
-            options
+            options,
         );
         this.simulate = !!simulate;
         this.verbose = !!verbose;
@@ -126,7 +126,7 @@ export class Partitioner {
                     if (this.verbose) {
                         console.log(
                             repr`Removing file no longer needed in ${buildPathData.type} directory:\n` +
-                                repr`  ${buildChildPath}`
+                                repr`  ${buildChildPath}`,
                         );
                     }
                     fs.unlinkSync(buildChildPath);
@@ -190,7 +190,7 @@ export class Partitioner {
                 // build directories. If one is removed or renamed, we'll end up here.
                 console.error(
                     repr`Received a ${eventType} event on a path which doesn't exist in the build directory:
-  ${path}`
+  ${path}`,
                 );
             }
             this.deleteFromBuild(path);

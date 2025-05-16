@@ -58,7 +58,7 @@ export default function attacher(options) {
                     console.error(error);
                     console.error(
                         `Error fixing url in Markdown ${nodeType} in ${file.path}:\n`,
-                        trunc(repr(node), 200)
+                        trunc(repr(node), 200),
                     );
                 }
             });

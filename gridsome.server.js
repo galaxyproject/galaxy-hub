@@ -411,7 +411,7 @@ module.exports = function (api) {
                         days_ago: "Int",
                         closed: "Boolean",
                     },
-                })
+                }),
             );
         }
         let collections = ARTICLE_TYPES.concat(Object.keys(CONFIG.collections));
@@ -435,7 +435,7 @@ module.exports = function (api) {
                     subsites: "[String]",
                     main_subsite: "String",
                 },
-            })
+            }),
         );
     });
 
