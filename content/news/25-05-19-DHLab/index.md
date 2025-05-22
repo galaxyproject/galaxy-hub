@@ -1,3 +1,3 @@
 ---
-redirect: "/news/25-05-19-DHLab/"
+redirect: "/news/2025-05-19-dh-lab/"
 ---
