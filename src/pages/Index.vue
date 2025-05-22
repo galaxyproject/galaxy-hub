@@ -51,13 +51,9 @@
                 </div>
                 <div class="col-lg-5">
                     <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfRzPhmwhIiynJQVFaFBWB6u1pDp0VwpPCdZs8qS7a6WjpR1w/viewform"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfMbMGR2dzdHN88rZ_n-3ZbeljJZScB5V4IFUHn3o1OCZdZNw/viewform"
                     >
-                        <img
-                            src="/images/carousel_gta_2025_registration-cropped.png"
-                            alt="GTA2025 cropped banner"
-                            class="img-fluid"
-                        />
+                        <img src="/images/Scholarships_5x4.png" alt="GBCC Scholarship banner" class="img-fluid" />
                     </a>
                 </div>
             </div>
