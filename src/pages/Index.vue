@@ -50,12 +50,10 @@
                     </nav>
                 </div>
                 <div class="col-lg-5">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMbMGR2dzdHN88rZ_n-3ZbeljJZScB5V4IFUHn3o1OCZdZNw/viewform">
-                        <img
-                            src="/images/Scholarships_5x4.png"
-                            alt="GBCC Scholarship banner"
-                            class="img-fluid"
-                        />
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfMbMGR2dzdHN88rZ_n-3ZbeljJZScB5V4IFUHn3o1OCZdZNw/viewform"
+                    >
+                        <img src="/images/Scholarships_5x4.png" alt="GBCC Scholarship banner" class="img-fluid" />
                     </a>
                 </div>
             </div>
@@ -338,7 +336,7 @@ export default {
             let galaxies = CONFIG.usegalaxy;
             let priority = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
-                1,
+                1
             );
             if (priority[0]) {
                 galaxies.splice(0, 0, priority[0]);
