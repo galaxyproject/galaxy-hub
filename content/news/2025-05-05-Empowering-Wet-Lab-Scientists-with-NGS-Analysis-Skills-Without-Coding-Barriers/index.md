@@ -2,7 +2,7 @@
 title: "Empowering Wet Lab Scientists with NGS Analysis Skills Without Coding Barriers"
 tease: "Teaching NGS to wet lab scientists got a whole lot easier once I discovered TIaaS and the Galaxy platform."
 date: "2025-05-08"
-tags: [TIaaS, esg-wp1, esg]
+tags: [tiaas, esg-wp1, esg]
 supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu

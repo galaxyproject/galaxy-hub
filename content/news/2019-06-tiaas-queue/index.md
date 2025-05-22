@@ -2,7 +2,7 @@
 title: TIaaS Queue Status
 date: '2019-06-17'
 tease: using UseGalaxy.eu’s Training infrastructure as a Service (TIaaS).
-tags: [TIaaS, devops]
+tags: [tiaas, devops]
 location:
   name: Freiburg, Germany
 authors: hexylena

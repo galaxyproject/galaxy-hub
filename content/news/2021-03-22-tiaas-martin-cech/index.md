@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Martin Čech
 date: '2021-03-22'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: martenson

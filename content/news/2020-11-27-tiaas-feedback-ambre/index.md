@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Ambre Jousselin
 date: '2020-11-27'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Ambre Jousselin

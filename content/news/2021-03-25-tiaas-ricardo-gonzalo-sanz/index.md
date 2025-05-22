@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Dr. Ricardo Gonzalo Sanz
 date: '2021-03-25'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Dr. Ricardo Gonzalo Sanz
