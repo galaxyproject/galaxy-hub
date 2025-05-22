@@ -1,3 +1,3 @@
 ---
-redirect: "/news/25_05_20_Berd_WF/"
+redirect: "/news/2025-05-20_Berd_WF/"
 ---
