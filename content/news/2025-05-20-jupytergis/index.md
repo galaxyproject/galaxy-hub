@@ -3,7 +3,7 @@ title: "JupyterGIS: Collaborative Geospatial Analysis in the Cloud"
 tease: "Explore how JupyterGIS supports collaborative geospatial analysis in climate adaptation research."
 date: "2025-05-20"
 tags: [gtn, climate, cca, ecology, earth-system, jupyter, tools]
-supporters: [esa]
+supporters: [dataterra, esa, pndb]
 subsites: [all]
 main_subsite: eu
 ---
