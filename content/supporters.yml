@@ -58,6 +58,10 @@ supporters:
     - name: dataplant
       image: /images/logos/DataPLANT-logo-transparent.png
       website: https://nfdi4plants.de/
+      
+    - name: dataterra
+      image: /images/logos/dataterra.png
+      website: https://www.data-terra.org/
 
     - name: de.KCD
       image: /images/logos/dekcd.png
@@ -294,6 +298,10 @@ supporters:
     - name: pari
       image: /images/logos/pari-logo.png
       website: https://neic.no/pari/
+      
+    - name: pndb
+      image: /images/logos/pndb.jpg
+      website: https://www.pndb.fr/
 
     - name: qfab
       image: /images/logos/qfab-logo.png
