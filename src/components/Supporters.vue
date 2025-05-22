@@ -42,7 +42,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-    max-width: calc(120px * 4 );
+    max-width: calc(120px * 4);
     margin: auto;
 }
 
