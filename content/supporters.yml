@@ -99,6 +99,10 @@ supporters:
       image: /images/logos/egi_logo.png
       website: https://www.egi.eu/
 
+    - name: esa
+      image: /images/logos/esa.png
+      website: https://www.esa.int/
+
     - name: ELIXIR
       image: /images/logos/elixir-logo-big.png
       website: https://elixir-europe.org/
