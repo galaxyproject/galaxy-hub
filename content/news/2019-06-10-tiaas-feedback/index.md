@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Nevena Veljkovic
 date: '2019-06-10'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Nevena Veljkovic

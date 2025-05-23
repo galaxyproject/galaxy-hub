@@ -2,7 +2,7 @@
 title: Training Infrastructure as a Service (TIaaS) is sponsored by EOSC-Life
 date: '2021-08-24'
 tease: Anyone providing training is eligible to request the use of this service.
-tags: [TIaaS, training]
+tags: [tiaas, training]
 supporters:
 - eosc
 authors: beatrizserrano

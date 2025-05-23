@@ -2,7 +2,7 @@
 title: de.NBI Training Infrastructure Feedback from Helena Rasche
 date: '2020-03-06'
 tease: and was wildly successful
-tags: [TIaaS, training]
+tags: [tiaas, training]
 supporters:
 - galaxy-europe
 - denbi

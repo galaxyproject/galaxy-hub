@@ -4,6 +4,7 @@ date: "2025-05-19"
 authors: Tom Brown, Diego De Panis
 tease: "Using the Galaxy infrastructure and workflows to teach de-novo genome assembly and annotation"
 subsites: [global,eu,all]
+tags: [tiaas]
 main_subsite: eu
 ---
 

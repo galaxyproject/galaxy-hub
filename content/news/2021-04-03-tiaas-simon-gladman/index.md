@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Simon Gladman
 date: '2021-04-03'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - eosc
