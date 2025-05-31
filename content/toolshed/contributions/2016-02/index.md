@@ -39,13 +39,17 @@
     * [gemini_burden](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_burden): Wrapper for the gemini tool suite: GEMINI burden
 
 * *From [lecorguille](https://toolshed.g2.bx.psu.edu/view/lecorguille):*
-    * [xcms_summary](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_summary): [W4M][LC-MS] XCMS R Package - Preprocessing - HTML Summary for XCMS and CAMERA analysis Part of the W4M project: http://workflow4metabolomics.org\n\nXCMS: http://www.bioconductor.org/packages/release/bioc/html/xcms.html\n\nThis tool create a HTML summary of XCMS and CAMERA analysis
+    * [xcms_summary](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_summary): [W4M][LC-MS] XCMS R Package - Preprocessing - HTML Summary for XCMS and CAMERA analysis Part of the W4M project: [workflow4metabolomics.org](http://workflow4metabolomics.org)
+
+XCMS: [http://www.bioconductor.org](http://www.bioconductor.org/packages/release/bioc/html/xcms.html)
+
+This tool create a HTML summary of XCMS and CAMERA analysis
 
 * *From [mkh](https://toolshed.g2.bx.psu.edu/view/mkh):*
     * [ips5](https://toolshed.g2.bx.psu.edu/view/mkh/ips5): InterProScan 5
 
 * *From [fgiacomoni](https://toolshed.g2.bx.psu.edu/view/fgiacomoni):*
-    * [hmdb_ms_search](https://toolshed.g2.bx.psu.edu/view/fgiacomoni/hmdb_ms_search): [W4M][LC-MS] HMDB database MS Search Package - Annotation - Returns annotation results (adducts and metabolites) from The Human Metabolome Database. Part of the W4M project: http://workflow4metabolomics.org / HMDB: http://www.hmdb.ca/. The wrapper script use the HMDB 'MS search' resource to annotate a list of m/z. The process returns outputs files (CSV and HTML formats) with links through metabocards.
+    * [hmdb_ms_search](https://toolshed.g2.bx.psu.edu/view/fgiacomoni/hmdb_ms_search): [W4M][LC-MS] HMDB database MS Search Package - Annotation - Returns annotation results (adducts and metabolites) from The Human Metabolome Database. Part of the W4M project: [workflow4metabolomics.org](http://workflow4metabolomics.org) / HMDB: [hmdb.ca](http://www.hmdb.ca/). The wrapper script use the HMDB 'MS search' resource to annotate a list of m/z. The process returns outputs files (CSV and HTML formats) with links through metabocards.
 
 * *From [mvdbeek](https://toolshed.g2.bx.psu.edu/view/mvdbeek):*
     * [r_goseq_1_22_0](https://toolshed.g2.bx.psu.edu/view/mvdbeek/r_goseq_1_22_0): goseq does selection-unbiased testing for category enrichment amongst differentially expressed (DE) genes for RNA-seq data Gene Ontology analyser. Does selection-unbiased testing for category enrichment amongst differentially expressed (DE) genes for RNA-seq data.

@@ -67,11 +67,11 @@ date: 2014-04-14
 <br />
 # Visualizations
 
-1. Framework turning https://trello.com/c/kdhJ1Dit
+1. Framework turning [https://trello.com/c/kdhJ1Dit](https://trello.com/c/kdhJ1Dit)
 1. *Trackster*:
 
-* View complete read/feature across tile boundaries, in all tiles https://trello.com/c[/Q03dC1](/archive/dev-news-briefs/2014-04-14/Q03dC1/)QC
-* Better handling of deep coverage regions in read tracks https://trello.com/c/TxxzqWNx
+* View complete read/feature across tile boundaries, in all tiles [https://trello.com/c/Q03dC1QC](https://trello.com/c/Q03dC1QC)
+* Better handling of deep coverage regions in read tracks [https://trello.com/c/TxxzqWNx](https://trello.com/c/TxxzqWNx)
 
 <table>
   <tr>
@@ -88,7 +88,7 @@ date: 2014-04-14
 <br />
 # Workflows
 
-1. Prep for dataset collections: Refactor out common logic for running workflows across controllers https://trello.com/c/pdGNjllH
+1. Prep for dataset collections: Refactor out common logic for running workflows across controllers [https://trello.com/c/pdGNjllH](https://trello.com/c/pdGNjllH)
 
 <br />
 # UI
@@ -98,65 +98,65 @@ date: 2014-04-14
 * Located at the top of the history pane
 * Ability to select: all, none, or check individual datasets
 * Actions: Hide, Unhide, Delete, Undelete, Permanently delete (Purge)
-* https://wiki.galaxyproject.org/Learn/ManagingDatasets#Searching_Datasets
+* [https://wiki.galaxyproject.org/Learn/ManagingDatasets#Searching_Datasets](https://wiki.galaxyproject.org/Learn/ManagingDatasets#Searching_Datasets)
 * Additional actions pending review/implementation
-* https://trello.com/c/8gLGPzxV, https://trello.com/c/mq1m6X5M,
+* [https://trello.com/c/8gLGPzxV](https://trello.com/c/8gLGPzxV), [https://trello.com/c/mq1m6X5M](https://trello.com/c/mq1m6X5M),
 
-1. When multiple tool versions installed, default to the latest version https://trello.com/c/zRBZ9nvD
-1. Better handling when one of many versions of a tool repo is uninstalled https://trello.com/c[/BmdG2201](/archive/dev-news-briefs/2014-04-14/BmdG2201/)
-1. Unify the places where histories are shown and used: UI view and in core code https://trello.com/c/7cN0nmKH
-1. Configure workflow menu, improve buttons and styling https://trello.com/c/xFzp3lt6
-1. Handle disabled `sessionStorage/localStorage` more gracefully in the history pane https://trello.com/c/V2VCxzmx
-1. Remove `BaseView` from base-mvc https://trello.com/c/xUV4qvIc
-1. Do not serve non-HTML content that may contain `JavaScript` in such a way that web browsers execute it https://trello.com/c/G67ELiMI
-1. There are now 2 interfaces to data libraries (the original and new Beta) and feedback is welcomed https://trello.com/c/d3muKvqr
-1. Wiki page on how to compile the css. https://wiki.galaxyproject.org/Develop/CSS https://trello.com/c/gLI6hUjN
+1. When multiple tool versions installed, default to the latest version [https://trello.com/c/zRBZ9nvD](https://trello.com/c/zRBZ9nvD)
+1. Better handling when one of many versions of a tool repo is uninstalled [https://trello.com/c/BmdG2201](https://trello.com/c/BmdG2201)
+1. Unify the places where histories are shown and used: UI view and in core code [https://trello.com/c/7cN0nmKH](https://trello.com/c/7cN0nmKH)
+1. Configure workflow menu, improve buttons and styling [https://trello.com/c/xFzp3lt6](https://trello.com/c/xFzp3lt6)
+1. Handle disabled `sessionStorage/localStorage` more gracefully in the history pane [https://trello.com/c/V2VCxzmx](https://trello.com/c/V2VCxzmx)
+1. Remove `BaseView` from base-mvc [https://trello.com/c/xUV4qvIc](https://trello.com/c/xUV4qvIc)
+1. Do not serve non-HTML content that may contain `JavaScript` in such a way that web browsers execute it [https://trello.com/c/G67ELiMI](https://trello.com/c/G67ELiMI)
+1. There are now 2 interfaces to data libraries (the original and new Beta) and feedback is welcomed [https://trello.com/c/d3muKvqr](https://trello.com/c/d3muKvqr)
+1. Wiki page on how to compile the css. [https://wiki.galaxyproject.org/Develop/CSS](https://wiki.galaxyproject.org/Develop/CSS) [https://trello.com/c/gLI6hUjN](https://trello.com/c/gLI6hUjN)
 
 <br />
 # API
 
 1. New functions:
 
-* Make histories importable and/or published via the API is now implemented (sharing with individual users a pending feature update) https://trello.com/c/Bcsadi1q
-* History export/import https://trello.com/c/qhu1KdWU
-* Ability to extract workflow from a history to workflows https://trello.com/c/ZTehdMZH
+* Make histories importable and/or published via the API is now implemented (sharing with individual users a pending feature update) [https://trello.com/c/Bcsadi1q](https://trello.com/c/Bcsadi1q)
+* History export/import [https://trello.com/c/qhu1KdWU](https://trello.com/c/qhu1KdWU)
+* Ability to extract workflow from a history to workflows [https://trello.com/c/ZTehdMZH](https://trello.com/c/ZTehdMZH)
 
-1. Improved history payload and returned error consistency https://trello.com/c/fWC7WgQf
-1. Check `ftype` attribute (if defined) on test output datasets https://trello.com/c/hFFlM4gY
-1. Published histories contents now fully accessible (no permissions issue) https://trello.com/c/KME3ZRRY
-1. Correct exception formats used in history & HDA https://trello.com/c/bS9wY4Ri
+1. Improved history payload and returned error consistency [https://trello.com/c/fWC7WgQf](https://trello.com/c/fWC7WgQf)
+1. Check `ftype` attribute (if defined) on test output datasets [https://trello.com/c/hFFlM4gY](https://trello.com/c/hFFlM4gY)
+1. Published histories contents now fully accessible (no permissions issue) [https://trello.com/c/KME3ZRRY](https://trello.com/c/KME3ZRRY)
+1. Correct exception formats used in history & HDA [https://trello.com/c/bS9wY4Ri](https://trello.com/c/bS9wY4Ri)
 
 <br />
 # Core
 
 1. Admin:
 
-* History view, allow importing purged datasets https://trello.com/c/tbhpQdMF
-* User list, show 'activated' and 'create_time' columns https://trello.com/c[/C6Mh](/archive/dev-news-briefs/2014-04-14/C6Mh/)EHWo
-* Setting user quota at zero is now permitted (no `ZeroDivisionError`) https://trello.com/c/38NoBtlL
-* Admin user now has permissions to copy datasets from any history to a library https://trello.com/c/Ed91qIUC
-* Improvements to 'Impersonate User' implementation https://trello.com/c/lny2me4u
+* History view, allow importing purged datasets [https://trello.com/c/tbhpQdMF](https://trello.com/c/tbhpQdMF)
+* User list, show 'activated' and 'create_time' columns https://trello.com/c/C6MhEHWo
+* Setting user quota at zero is now permitted (no `ZeroDivisionError`) [https://trello.com/c/38NoBtlL](https://trello.com/c/38NoBtlL)
+* Admin user now has permissions to copy datasets from any history to a library [https://trello.com/c/Ed91qIUC](https://trello.com/c/Ed91qIUC)
+* Improvements to 'Impersonate User' implementation [https://trello.com/c/lny2me4u](https://trello.com/c/lny2me4u)
 
 1. Config:
 
-* Rename `tool-data/shared/ucsc/ucsc_build_sites.txt` to `ucsc_build_sites.txt.sample` https://trello.com/c/FTbvqDMd
+* Rename `tool-data/shared/ucsc/ucsc_build_sites.txt` to `ucsc_build_sites.txt.sample` [https://trello.com/c/FTbvqDMd](https://trello.com/c/FTbvqDMd)
 
 1. Jobs:
 
-* Prevent 'unicode' strings being sent to pbs library as hostname https://trello.com/c/NlFXYDta
-* Fix Torque CLI runner to recognize complete ('C') state as 'ok' https://trello.com/c/vSO52k17
-* Are now cancelled if a running history item is deleted (via API). https://trello.com/c/PDmUdtbw
+* Prevent 'unicode' strings being sent to pbs library as hostname [https://trello.com/c/NlFXYDta](https://trello.com/c/NlFXYDta)
+* Fix Torque CLI runner to recognize complete ('C') state as 'ok' [https://trello.com/c/vSO52k17](https://trello.com/c/vSO52k17)
+* Are now cancelled if a running history item is deleted (via API). [https://trello.com/c/PDmUdtbw](https://trello.com/c/PDmUdtbw)
 
 1. LWR:
 
-* Several updates including communication via message queue, more planned https://trello.com/c/6DcXqXNt
-* Introduce and extend along with `ComputeEnvironment`, to eliminate string based path rewriting https://trello.com/c/dL0poowc
+* Several updates including communication via message queue, more planned [https://trello.com/c/6DcXqXNt](https://trello.com/c/6DcXqXNt)
+* Introduce and extend along with `ComputeEnvironment`, to eliminate string based path rewriting [https://trello.com/c/dL0poowc](https://trello.com/c/dL0poowc)
 
 1. Eggs:
 
-* Guppy 0.1.9+ https://trello.com/c/zeSnHEav
-* Boto 2.25 to facilitate launching into VPC https://trello.com/c/QXfJQhlS
-* PyYAML 3.10 to be used initially with `Cloudlaunch` for parsing `persistent_data yaml` https://trello.com/c/JMZkqBtH
+* Guppy 0.1.9+ [https://trello.com/c/zeSnHEav](https://trello.com/c/zeSnHEav)
+* Boto 2.25 to facilitate launching into VPC [https://trello.com/c/QXfJQhlS](https://trello.com/c/QXfJQhlS)
+* PyYAML 3.10 to be used initially with `Cloudlaunch` for parsing `persistent_data yaml` [https://trello.com/c/JMZkqBtH](https://trello.com/c/JMZkqBtH)
 
 <br />
 # Pull Requests Merged
@@ -166,16 +166,16 @@ Thanks to our Galaxy community contributors!
 1. 309 - Job module for API (list and inspect jobs). Kyle Ellrott. https://trello.com/c/s2Gk6QlH
 1. 312 - Remove unused imports and unused variables. Fix spacing. Nicola Soranzo. https://trello.com/c/iWaf1ak4
 1. 316 - Fixing non-string parameter selection for job searches. Kyle Ellrott. https://trello.com/c/ZXZ9lEkN
-1. 317 - Web API: safer and cleaner workflow parameter passing. Simone Leo. https://trello.com/c[/JaC2](/archive/dev-news-briefs/2014-04-14/JaC2/)EBM8
+1. 317 - Web API: safer and cleaner workflow parameter passing. Simone Leo. https://trello.com/c/JaC2EBM8
 1. 318 - Adding deleted field to 'to_dict' and search selection of Workflows. Kyle Ellrott. https://trello.com/c/lv9q67nF
 1. 315 - Allow jobs to be filtered by tool_id and history_id as well as by state. The tool_id is compared with the like operator. James Johnson https://trello.com/c/dvLvPUmK
 1. 322 - Added "ignore lines starting with specific characters" to group tool. Clayton Turner. https://trello.com/c/j6TP6M7m
-1. 323 - API methods to access Workflow Usage. Kyle Ellrott. https://trello.com/c[/UetzHj64](/archive/dev-news-briefs/2014-04-14/UetzHj64/)
+1. 323 - API methods to access Workflow Usage. Kyle Ellrott. https://trello.com/c/UetzHj64
 1. 325 - Use `placeholder` instead of `value` in html5 - editor.mako. Trevor Wennblom. https://trello.com/c/PIZAXsOS
 1. 326 - Specify third-party cookies must not be blocked - repository.py. Trevor Wennblom. https://trello.com/c/XsAUr6wl
-1. 331 - Code housekeeping: standardize whitespace in various locations. Trevor Wennblom. https://trello.com/c[/WtWdxP2n](/archive/dev-news-briefs/2014-04-14/WtWdxP2n/)
+1. 331 - Code housekeeping: standardize whitespace in various locations. Trevor Wennblom. https://trello.com/c/WtWdxP2n
 1. 341 - Workflows API enhancements (pull request #337 corrected). Nicola Soranzo and Simone Leo. https://trello.com/c/zizGdqy1
-1. 338 - Patch to expose the actual dataset id in the LDDA and HDA to_dict calls (in addition to the instance id). Kyle Ellrott https://trello.com/c[/BrOscq](/archive/dev-news-briefs/2014-04-14/BrOscq/)TJ
+1. 338 - Patch to expose the actual dataset id in the LDDA and HDA to_dict calls (in addition to the instance id). Kyle Ellrott https://trello.com/c/BrOscqTJ
 1. 339 - Strip trailing slashes in tool IDs. Björn Grüning. https://trello.com/c/bpKNn66u
 1. 334 - Optional Input Datasets Not Compatible with Parallelism Tag. Michael Li https://trello.com/c/WMgr8Xx0 https://trello.com/c/Muw6fd8h
 1. 346 - Tool panel label bug correction. Nicola Soranzo. https://trello.com/c/8NpgYM3U
@@ -184,15 +184,15 @@ Thanks to our Galaxy community contributors!
 
 # Fixes
 
-1. Fix issue with tool panel display when the tool_conf.xml has only a single entry https://trello.com/c/6nJIhOdJ
-1. Fix issue when multiple versions of the same tool installed results in separate entries in the tool panel https://trello.com/c/SlNI79mR
-1. Fix Published Page's JS error https://trello.com/c/yGw1DwwM
-1. Fix error in Babel egg utf-8, OSX 10.7 https://trello.com/c/PUdh6SWw
-1. Fix failures when using unicode in History name editable_text fields https://trello.com/c/MTdotrHR
-1. Fix tool form image display for toolshed installed tools https://trello.com/c/5G6jlB4B
-1. Fix to improve link format in user activation emails https://trello.com/c/JALX9DL3
-1. Fix problem with rerun of tools having `DataToolParameter` set as optional https://trello.com/c/pzHcSGzK
-1. Fix bug in Tool Panel when installing repositories https://trello.com/c[/AiUefff](/archive/dev-news-briefs/2014-04-14/AiUefff/)C
+1. Fix issue with tool panel display when the tool_conf.xml has only a single entry [https://trello.com/c/6nJIhOdJ](https://trello.com/c/6nJIhOdJ)
+1. Fix issue when multiple versions of the same tool installed results in separate entries in the tool panel [https://trello.com/c/SlNI79mR](https://trello.com/c/SlNI79mR)
+1. Fix Published Page's JS error [https://trello.com/c/yGw1DwwM](https://trello.com/c/yGw1DwwM)
+1. Fix error in Babel egg utf-8, OSX 10.7 [https://trello.com/c/PUdh6SWw](https://trello.com/c/PUdh6SWw)
+1. Fix failures when using unicode in History name editable_text fields [https://trello.com/c/MTdotrHR](https://trello.com/c/MTdotrHR)
+1. Fix tool form image display for toolshed installed tools [https://trello.com/c/5G6jlB4B](https://trello.com/c/5G6jlB4B)
+1. Fix to improve link format in user activation emails [https://trello.com/c/JALX9DL3](https://trello.com/c/JALX9DL3)
+1. Fix problem with rerun of tools having `DataToolParameter` set as optional [https://trello.com/c/pzHcSGzK](https://trello.com/c/pzHcSGzK)
+1. Fix bug in Tool Panel when installing repositories [https://trello.com/c/AiUefffC](https://trello.com/c/AiUefffC)
 
 <br />
 # Tool Shed
@@ -200,19 +200,19 @@ Thanks to our Galaxy community contributors!
 **[Tool Shed](/toolshed/)**
 ## Documentation
 
-1. Reorganization of the Tool Shed wiki is underway! See current changes https://wiki.galaxyproject.org[/ToolShed](/archive/dev-news-briefs/2014-04-14/ToolShed/) and what is next up https://trello.com/c/Gg0jnll7
-1. Data Manager documentation specific to toolshed http://wiki.galaxyproject.org/Tool%20Shed#The_contents_of_your_tool_shed_repository https://trello.com/c/OPOakK4w
+1. Reorganization of the Tool Shed wiki is underway! See current changes [https://wiki.galaxyproject.org/ToolShed](https://wiki.galaxyproject.org/ToolShed) and what is next up [https://trello.com/c/Gg0jnll7](https://trello.com/c/Gg0jnll7)
+1. Data Manager documentation specific to toolshed [http://wiki.galaxyproject.org/Tool%20Shed#The_contents_of_your_tool_shed_repository](http://wiki.galaxyproject.org/Tool%20Shed#The_contents_of_your_tool_shed_repository) [https://trello.com/c/OPOakK4w](https://trello.com/c/OPOakK4w)
 
 ## Repositories
 
-1. New Tool Shed categories https://trello.com/c/niCdaARH
+1. New Tool Shed categories [https://trello.com/c/niCdaARH](https://trello.com/c/niCdaARH)
 
 * Genome-Wide Association Study
 * Imaging
 * RNA
 
-1. Add support for the new repository type: Repository suite definition https://trello.com/c/sxXMmfLs
-1. Enhancements for updating a repository https://trello.com/c/c4Y9t7db
+1. Add support for the new repository type: Repository suite definition [https://trello.com/c/sxXMmfLs](https://trello.com/c/sxXMmfLs)
+1. Enhancements for updating a repository [https://trello.com/c/c4Y9t7db](https://trello.com/c/c4Y9t7db)
 
 * Will now trigger the install of new dependencies
 * Handles newly defined repository dependencies included in updates to installed repositories

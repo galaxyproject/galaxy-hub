@@ -95,7 +95,7 @@ In a joint training event of de.NBI and RTG2355 about RNAseq Analysis, the Galax
 Freiburg team in collaboration with scientists from the Giessen university have 
 demonstrated and work together on detailed E-learning step-by-step-instructions 
 of RNA-Seq Analysis using the Galaxy Training Network 
-([GTN](https://training.galaxyproject.org/training-material/topics/transcriptomics/)) on the [usegalaxy.eu](usegalaxy.eu).
+([GTN](https://training.galaxyproject.org/training-material/topics/transcriptomics/)) on the [usegalaxy.eu](https://usegalaxy.eu).
 
 ## [de.NBI: Galaxy Microbial Genomics Course - 2024](https://galaxyproject.org/events/2024-05-14-galaxy-microbial-genomics-course/)
 This course provided an overview of the field of genomics and how to use the 
