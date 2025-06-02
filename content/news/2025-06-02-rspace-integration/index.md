@@ -13,10 +13,10 @@ tags: [esg, esg-wp2]
 [RSpace](https://www.researchspace.com/) is an open-source research data management system (RDM) and electronic lab
 notebook (ELN) providing inventory and sample management systems and featuring
 [a wide collection of integrations with other services](https://www.researchspace.com/integrations). Thanks to our
-[joint meeting on February](/news/2025-02-27-rspace-talk/), our collaboration just been kickstarted integrating Galaxy
-with the [RSpace Gallery](https://documentation.researchspace.com/article/sl6mo1i9do-the-gallery) as a file source! This
-means that files from the RSpace Gallery can be easily imported to Galaxy histories. After the analysis is complete,
-datasets and even whole histories can be exported back to the Gallery.
+[joint meeting on February](/news/2025-02-27-rspace-talk/), our collaboration has just been kickstarted
+integrating Galaxy with the [RSpace Gallery](https://documentation.researchspace.com/article/sl6mo1i9do-the-gallery) as
+a file source! This means that files from the RSpace Gallery can be easily imported to Galaxy histories. After the
+analysis is complete, datasets and even whole histories can be exported back to the Gallery.
 
 ## Getting started
 
