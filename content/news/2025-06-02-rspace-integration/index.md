@@ -23,15 +23,6 @@ datasets and even whole histories can be exported back to the Gallery.
 Before it can be used, the feature _must be enabled by a Galaxy administrator_. That makes it available to all users of
 the Galaxy server.
 
-Once enabled, visit the _My RSpace_ page on your RSpace server and scroll all the way down to the bottom to the _Manage
-API key_ section. 
-
-![Manage API key section on the My Rspace page](./rspace_api_key.png)
-
-Click on _Generate key_ (or _Regenerate key_ if you already generated a key but forgot it) and enter your password when
-prompted. Your new API key is displayed on the left hand side. Make sure to copy the key and note it down in a secure
-manner as it will not be visible again.
-
 On Galaxy, configure a new RSpace file source under user preferences _Manage Your Repositories_ > _Create_ > _RSpace_.
 
 ![User preferences](./user_preferences.png)
@@ -40,8 +31,10 @@ On Galaxy, configure a new RSpace file source under user preferences _Manage You
 
 ![Select RSpace](./manage_your_repositories_create.png)
 
-Assign a name to your RSpace file source, enter the URL to your RSpace instance, and enter the API key you just
-generated. Click _Create_.
+Assign a name to your RSpace file source, enter the URL to your RSpace instance, and enter your RSpace API key (if you
+do not have an API key yet,
+[follow the official instructions to generate one](https://documentation.researchspace.com/article/v0dxtfvj7u-rspace-api-introduction#obtaining_your_api_key)).
+Click _Create_.
 
 ![RSpace file source setup on Galaxy](./rspace_file_source.png)
 
