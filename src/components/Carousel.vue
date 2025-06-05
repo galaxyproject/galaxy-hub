@@ -15,10 +15,10 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="https://forms.gle/WKoLb5NUR6FVmeRM9" target="_blank">
+            <a href="https://gbcc2025.org/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/Scholarships_13x9.png"
-                    img-alt="GBCC2025 scholarships available"
+                    img-src="/images/usegalaxy-welcome/GBCC_hub_splash_screen-13x9.png"
+                    img-alt="Attend GBCC2025"
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">

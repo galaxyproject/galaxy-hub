@@ -158,7 +158,7 @@ export default {
                           key: subsite,
                           name: CONFIG.subsites.all[subsite].name,
                           path: getPathPrefix(subsite) + "/",
-                      },
+                      }
             );
         },
         theme() {
