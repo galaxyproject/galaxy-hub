@@ -1,7 +1,7 @@
 heading: Galactic pulse
 
 research3:
-    title: Popular tutorials
+    title: Popular tutorials 
     url: "https://training.galaxyproject.org"
     content: "Choose from these self-paced tutorials to perform a comprehensive analysis or hone your skills on a specific topic."
     button:
