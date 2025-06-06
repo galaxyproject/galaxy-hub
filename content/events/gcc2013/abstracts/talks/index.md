@@ -44,7 +44,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 **[Ross Lazarus](/people/fubar/)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/galaxy-team/) <sup>2</sup>.
 
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
- <sup>2</sup> http://wiki.galaxyproject.org[/GalaxyTeam](/events/gcc2013/abstracts/talks/GalaxyTeam/)
+ <sup>2</sup> http://wiki.galaxyproject.org/GalaxyTeam
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/LazarusReproducibleResearch.pdf), [Vimeo](https://vimeo.com/74885862)*
 
