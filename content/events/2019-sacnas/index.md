@@ -15,8 +15,8 @@ subsites: [global, us]
 ---
 
 <div class="float-right">
-[<img src="/events/2019-sacnas/sacnas-2019-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2019-sacnas/2019-sacnas-flier.pdf)<br />
-<div class="center">[Download poster](https://depot.galaxyproject.org/hub/attachments/events/2019-sacnas/2019-sacnas-flier.pdf)</div></div>
+<a href="https://depot.galaxyproject.org/hub/attachments/events/2019-sacnas/2019-sacnas-flier.pdf"><img src="/events/2019-sacnas/sacnas-2019-flier-thumb.png" /></a><br />
+<div class="center"><a href="https://depot.galaxyproject.org/hub/attachments/events/2019-sacnas/2019-sacnas-flier.pdf">Download poster</a></div></div>
 
 There will be a full day pre-conference workshop at [2019 SACNAS](http://www.2019sacnas.org/) that will introduce participants to best practices, tools, and platforms for doing data-intensive research. This STEM focused session will familiarize students with the field of Genomic Data Science. Participants will be introduced to the field of genomics, learn about current large scale genome sequencing projects, and perform hands-on genomic data analysis.  No prior computational experience is required.
 
