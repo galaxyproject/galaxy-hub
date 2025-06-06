@@ -18,7 +18,7 @@ tags: [esg,madland,de.nbi,nfdi4plants,dataplant]
 ---
 #### MBP2025 - Molecular Biology of Plants 2025
 
-The Conference [Molecular Biology of Plants (MBP) 2025](https://www.pflanzen-molekularbiologie.de/conference-molecular-biology-of-plants) of the [Section Plant Physiology and Molecular Biology](https://www.pflanzen-molekularbiologie.de/) of the DBG took place in Hennef, North Rhine-Westphalia, Germany, from 10th to 13th Febuary 2025. It was organized by  Prof. Dr. Hans-Henning Kunz (LMU, Munich), Prof. Dr. Christopher Grefen (Bochum), and Prof. Dr. Ute Höcker (Cologne). Click [here](/https://www.pflanzen-molekularbiologie.de/fileadmin/user_upload/SPPMB_Program/2025/MBP2025_preliminary_program.pdf) to see more information.
+The Conference [Molecular Biology of Plants (MBP) 2025](https://www.pflanzen-molekularbiologie.de/conference-molecular-biology-of-plants) of the [Section Plant Physiology and Molecular Biology](https://www.pflanzen-molekularbiologie.de/) of the DBG took place in Hennef, North Rhine-Westphalia, Germany, from 10th to 13th Febuary 2025. It was organized by  Prof. Dr. Hans-Henning Kunz (LMU, Munich), Prof. Dr. Christopher Grefen (Bochum), and Prof. Dr. Ute Höcker (Cologne). Click [here](https://www.pflanzen-molekularbiologie.de/fileadmin/user_upload/SPPMB_Program/2025/MBP2025_preliminary_program.pdf) to see more information.
 
 
 **Deepti Varshney** and **Dr. Saskia Hiltemann** jointly presented a [Talk](https://tinyurl.com/tools-resources-mbp2025) and Poster entitled **"DataPLANT, MAdLand, and Galaxy: Tools and Resources for Plant Research"** 
