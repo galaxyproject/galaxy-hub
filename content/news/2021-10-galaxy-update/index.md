@@ -350,7 +350,7 @@ The [VEuPathDB Galaxy instance](https://veupathdb.globusgenomics.org) has been u
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
 
-[![Blood, Mucus, Tears, and My Little Pony](/images/blog/2021-10-blood-mucus-tears/my-little-pony-tears.png)](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+[![Blood, Mucus, Tears, and My Little Pony](/images/news/2021-10-blood-mucus-tears/my-little-pony-tears.png)](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
 
 </div>
 <div class="card-header trim-p">
