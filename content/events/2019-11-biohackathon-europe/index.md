@@ -17,15 +17,26 @@ subsites: [global, us]
 
 <div class="float-right">
 <a href="https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/7"><img style="max-width: 160px" src="/images/logos/intermine-logo-wide-trans.png" alt="InterMine" /></a><br /><br />
-<img style="max-width: 160px" src="/events/2019-11-biohackathon-europe/venue-les-berges.jpg" alt="Campus des Berges de Seine, Paris, France" /><br /><br />
+
+
+<img style="max-width: 160px" src="/events/2019-11-biohackathon-europe/venue-les-berges.jpg" alt="Campus des Berges de Seine, Paris, France" />
+
+  <br /><br />
 <a href="https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17"><img style="max-width: 160px" src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" /></a><br /><br />
-<img style="max-width: 160px" src="/events/2019-11-biohackathon-europe/venue.jpg" alt="And a view too" /><br /><br />
+
+<img style="max-width: 160px" src="/events/2019-11-biohackathon-europe/venue.jpg" alt="And a view too" />
+
+<br /><br />
 <a href="https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31"><img style="max-width: 160px" src="/images/logos/bioconda.png" alt="Bioconda" /></a><br />
 </div>
 <div class="float-right">
 <a href="https://www.biohackathon-europe.org/index.html"><img style="max-width: 160px" src="/images/logos/bhlogo.png" alt="BioHackathon-Europe 2019" /></a><br /><br />
 <a href="https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8"><img style="max-width: 160px" src="/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" /></a><br /><br />
-<img style="max-width: 160px" src="/events/2019-11-biohackathon-europe/bouncy.jpg" alt="Comes with interesting seating" /><br />
+
+
+<img style="max-width: 160px" src="/events/2019-11-biohackathon-europe/bouncy.jpg" alt="Comes with interesting seating" />
+
+  <br />
 <a href="https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3"><img style="max-width: 160px" src="/images/logos/cwl-logo-small-trans.png" alt="CWL" /></a><br />
 <a href="https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/19"><img style="max-width: 160px" src="/images/logos/galaksio_logo.png" alt="Galaksio" /></a>
 </div>
