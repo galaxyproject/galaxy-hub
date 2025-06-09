@@ -43,12 +43,10 @@ if (code) {
 
 function formatURLPart(str) {
     // Defines formatting of URL parts for static content staging
-    return (
-        str
-            .replace(/([a-z])([A-Z])/g, "$1-$2")
-            // .replace(/_/g, "-") (test w/o underscore to kebab)
-            .toLowerCase()
-    );
+    return str
+        .replace(/([a-z])([A-Z])/g, "$1-$2")
+        .replace(/_/g, "-")
+        .toLowerCase();
 }
 
 // Stage static files, standardizing to kebab-lowercase paths but leaving filenames alone
@@ -77,7 +75,7 @@ function stageStaticContent(srcDir, destDir) {
             .then(() => {
                 // Copy the file to the new destination
                 fs.copy(file, destPath, { overwrite: false }).catch((err) =>
-                    console.error(`Error copying file ${file}:`, err)
+                    console.error(`Error copying file ${file}:`, err),
                 );
             })
             .catch((err) => console.error(`Error creating directory for ${destPath}:`, err));

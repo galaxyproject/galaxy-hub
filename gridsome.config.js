@@ -92,7 +92,7 @@ const PLAUSIBLE_PLUGIN = {
     options: {
         customDomain: "plausible.galaxyproject.eu",
         dataDomain: "galaxyproject.org",
-        outboundLinkTracking: false,
+        outboundLinkTracking: true,
     },
 };
 

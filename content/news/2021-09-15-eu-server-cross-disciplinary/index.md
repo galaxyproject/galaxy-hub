@@ -1,7 +1,7 @@
 ---
 title: UseGalaxy.eu as a cross-disciplinary platform for European researchers
 date: '2021-09-15'
-tags: [report]
+tags: [report, tiaas]
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano

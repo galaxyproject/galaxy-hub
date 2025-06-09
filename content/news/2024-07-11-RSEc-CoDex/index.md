@@ -7,8 +7,6 @@ authors: Paul Zierep
 subsites: [all-eu, global]
 ---
 
-# The ELIXIR Research Software Ecosystem (RSEc) and the Galaxy Codex - powerful GitHub Bot architectures to collect research software metadata
-
 ## ELIXIR Research Software Ecosystem (RSEc)
 
 <img src="./rsec.svg" style="max-width: 800px" alt="RSEc" />

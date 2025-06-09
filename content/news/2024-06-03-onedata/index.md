@@ -3,16 +3,9 @@ authors: ''
 date: '2024-06-03'
 external_url: https://training.galaxyproject.org/training-material/news/2024/06/03/onedata.html
 main_subsite: global
-subsites:
-- all
-tags:
-- training
-- gtn-news
-- news
-- esg-wp4
-- esg
-tease: As part of the EuroScienceGateway and in cooperation with Onedata and EGI we
-  are providing all GTN training data on a publicly accessible cloud storage
+subsites: [all-eu, esg, global]
+tags: [training, gtn-news, news, esg-wp4, esg]
+tease: 'As part of the EuroScienceGateway and in cooperation with Onedata and EGI we are providing all GTN training data on a publicly accessible cloud storage'
 title: All GTN training data are now automatically mirrored via Onedata
 
 ---

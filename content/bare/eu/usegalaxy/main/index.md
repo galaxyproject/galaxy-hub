@@ -4,16 +4,8 @@ title: Galaxy Europe
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<!--
 <Carousel />
--->
 
-<div class="text-center mt-5">
-    <a href="https://galaxyproject.org/news/2024-05-29-galaxy-training-academy-call-contribution"target=”_blank”>
-        <img src="/images/call_for_trainers.png" alt="Galaxy Training Academy" />
-    </a>
-</div>
-<br/>
 <br/>
 
 "Anyone, anywhere in the world should have free, unhindered access to not just my research, but to the research of every great and enquiring mind across the spectrum of human understanding." – Prof. Stephen Hawking

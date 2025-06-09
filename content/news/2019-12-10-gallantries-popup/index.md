@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from the Gallantries Project
 date: '2019-12-10'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: hexylena

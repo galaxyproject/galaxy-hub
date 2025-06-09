@@ -9,7 +9,7 @@ Each new Galaxy is released with extensive [notes](https://docs.galaxyproject.or
 
 ## Administration
 
-Documentation for administering Galaxy can be found [here](/admin/).
+Documentation for administering Galaxy can be found [here](https://docs.galaxyproject.org/en/master/admin/index.html).
 
 ## Docs with code
 

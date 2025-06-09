@@ -2,7 +2,7 @@
 title: Training Infrastructure Feedback from Leighton Pritchard
 date: '2020-10-14'
 tease: Addressing challenges the global coronavirus pandemic
-tags: [TIaaS, training]
+tags: [tiaas, training]
 supporters:
 - galaxy-europe
 authors: Leighton Pritchard

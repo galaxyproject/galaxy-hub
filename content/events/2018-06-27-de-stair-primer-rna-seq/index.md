@@ -15,8 +15,7 @@ location:
   street: Beutenbergstr. 11
 supporters:
 - denbi
-subsites: [eu, deNBI]
-main_subsite: deNBI
+subsites: [eu]
 ---
 
 de.STAIR is offering an introductory course on RNA-Sequencing data analysis using the Galaxy platform.

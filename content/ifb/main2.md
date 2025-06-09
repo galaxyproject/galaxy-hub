@@ -7,18 +7,18 @@ subtitle: The homepage of the French Galaxy community
 <!-- Projects/Communities/Citation/Team cards -->
 
 <div class="card-deck">
-  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 9rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Contact</h2>
       <p class="card-text">Ask for help, tools, or temporary increase of quota on our support forum</p>
       <div class="text-center">
           <img src="/images/undraw-illustrations/questions.svg" alt="qsupport" height="100">
           <br><br><br><br>
-          <a href="https://community.cluster.france-bioinformatique.fr/c/galaxy" class="btn btn-primary">Contact support</a>
+          <a href="https://community.france-bioinformatique.fr/c/galaxy/8" target="_parent" class="btn btn-primary">Contact support</a>
       </div>
     </div>
   </div>
-  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 9rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Training</h2>
       <p class="card-text">If you are organising a training session, you can book computing resources using the TIaaS system</p>
@@ -29,7 +29,7 @@ subtitle: The homepage of the French Galaxy community
       </div>
     </div>
   </div>
-  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 9rem">
     <div class="card-body">
       <h2 class="card-title text-dark">GalaxyCat</h2>
       <p class="card-text">Can't find a tool on usegalaxy.fr? Why not search on the IFB Galaxy Catalog ?</p>
@@ -40,7 +40,7 @@ subtitle: The homepage of the French Galaxy community
       </div>
     </div>
   </div>
-  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 9rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Citation</h2>
       <p class="card-text">Have you used the French Galaxy server for your data analysis?</p>
@@ -48,11 +48,11 @@ subtitle: The homepage of the French Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/citations.svg" alt="citation" height="100">
         <br><br>
-        <a href="https://www.france-bioinformatique.fr/remerciements/" class="btn btn-primary">Cite the server</a>
+        <a href="https://www.france-bioinformatique.fr/en/services/acknowledgement/" class="btn btn-primary">Cite the server</a>
       </div>
     </div>
   </div>
-  <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">
+  <div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 9rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Team</h2>
       <p class="card-text">The French Galaxy team is distributed across different cities in France.</p>

@@ -1,60 +1,62 @@
 style:
-  color: white
-  lightBg: true
+    color: white
+    lightBg: true
 left:
-- label: News
-  relativeTo: subsite
-  target: news/
-- label: People
-  target: https://usegalaxy-eu.github.io/ifb/people
+    - label: News
+      relativeTo: subsite
+      target: news/
+    - label: People
+      target: https://usegalaxy-eu.github.io/ifb/people
 right:
-- label: Help
-  contents:
-  - label: Get started
-    target: "/get-started/"
-  - label: Training
-    target: "/learn/"
-  - label: FAQ
-    target: "/support/"
-  - label: Galaxy Help Forum
-    target: https://help.galaxyproject.org/
-- label: Community
-  contents:
-  - label: The Galaxy Community
-    target: "/community/"
-  - label: Working Groups
-    target: "/community/wg/"
-  - label: Governance
-    target: "/community/governance/"
-  - label: How to contribute
-    target: "/community/contributing/"
-  - label: Galaxy Mentor Network
-    target: https://galaxy-mentor-network.netlify.app/
-  - label: Code of Conduct
-    target: "/community/coc/"
-- label: About
-  contents:
-  - label: Platforms
-    target: "/use/"
-  - label: Careers
-    target: "/careers/"
-  - label: Stats
-    target: "/galaxy-project/statistics/"
-  - label: Mailing lists
-    target: "/mailing-lists"
-  - label: Galaxy publications
-    target: "/publication-library/"
-  - label: Citing Galaxy
-    target: "/citing-galaxy/"
-  - label: Branding
-    target: "/images/galaxy-logos/"
-- label: Projects
-  contents:
-  - label: COVID-19
-    target: "/projects/covid19/"
-  - label: Monkeypox
-    target: "/projects/mpxv/"
-  - label: VGP
-    target: "/projects/vgp/"
-- label: "@jxtx"
-  target: https://jxtxfoundation.org/
+    - label: Help
+      contents:
+          - label: Get started
+            target: "/get-started/"
+          - label: Training
+            target: "/learn/"
+          - label: FAQ
+            target: "/support/"
+          - label: Galaxy Help Forum
+            target: https://help.galaxyproject.org/
+    - label: Community
+      contents:
+          - label: The Galaxy Community
+            target: "/community/"
+          - label: Working Groups
+            target: "/community/wg/"
+          - label: Governance
+            target: "/community/governance/"
+          - label: How to contribute
+            target: "/community/contributing/"
+          - label: Galaxy Mentor Network
+            target: https://galaxy-mentor-network.netlify.app/
+          - label: Code of Conduct
+            target: "/community/coc/"
+    - label: About
+      contents:
+          - label: Platforms
+            target: "/use/"
+          - label: Careers
+            target: "/careers/"
+          - label: Stats
+            target: "/galaxy-project/statistics/"
+          - label: Mailing lists
+            target: "/mailing-lists"
+          - label: Galaxy publications
+            target: "/publication-library/"
+          - label: Citing Galaxy
+            target: "/citing-galaxy/"
+          - label: Branding
+            target: "/images/galaxy-logos/"
+    - label: Projects
+      contents:
+          - label: COVID-19
+            target: "/projects/covid19/"
+          - label: Monkeypox
+            target: "/projects/mpxv/"
+          - label: VGP
+            target: "/projects/vgp/"
+          - label: BRC Analytics
+            target: "https://brc-analytics.org/"
+    - label: "@jxtx"
+      target: https://jxtxfoundation.org/

@@ -11,8 +11,8 @@ supporters:
 - KWS
 - Limagrain
 - deNBI
-subsites: [all-eu, global, us]
-tags: [GCC-2024, CoFest, training, Elixir, EOSC, Brno]
+subsites: [all-eu, global, us, esg]
+tags: [GCC-2024, CoFest, training, Elixir, EOSC, Brno, esg, esg-wp1]
 main_subsite: eu
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Dr. Fotis Psomopoulos
 date: '2021-03-28'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: fpsom

@@ -34,13 +34,13 @@ program
     .option(
         "-w, --watch",
         "Watch the given directory for changes in Markdown files and update the output. Only works if " +
-            "an --output is given which is different from the <input>."
+            "an --output is given which is different from the <input>.",
     )
     .option("-e, --ext <ext>", "Markdown file extension to recognize.", MD_EXT)
     .option(
         "-b, --base <path>",
         "The root content directory for this input file. Only needed when working on a single input " +
-            "file, not a directory."
+            "file, not a directory.",
     )
     .option("-q, --quiet", "Output only warnings and errors.")
     .option("--inspect", "Output formatted syntax tree.")
@@ -113,7 +113,7 @@ export function main(inputPath, opts) {
             extensions: [opts.ext],
             quiet: opts.quiet,
         },
-        handleExit
+        handleExit,
     );
 }
 

@@ -2,14 +2,12 @@
     <layout>
         <div class="container p-2">
             <div class="row">
-                <div class="col-lg-7">
-                    <div v-html="$page.hero.notification" class="text-center notification bgBrighter"></div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-7 mb-4">
-                    <h1 v-html="$page.hero.description" class="mb-3"></h1>
-                    <div v-html="$page.hero.content" class="hero highlight"></div>
+                    <h1 class="mb-3">Meet Galaxy - <br />a data analysis universe</h1>
+                    <div class="hero highlight">
+                        Galaxy is a free, open-source system for analyzing data, authoring workflows, training and
+                        education, publishing tools, managing infrastructure, and more.
+                    </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
                             <div v-if="prioritizedGalaxyLocales" class="nav navbar-nav">
@@ -25,8 +23,9 @@
                                         data-toggle="dropdown"
                                         aria-haspopup="true"
                                         aria-expanded="false"
+                                        @click="plausibleCount(`UseGalaxyDropDown Clicks ${site.locale}`)"
                                     >
-                                        {{ $page.hero.button1 }}:
+                                        UseGalaxy:
                                         {{ site.locale }}
                                     </a>
                                     <div
@@ -39,19 +38,21 @@
                                             :key="site.locale"
                                             target="_blank"
                                             class="dropdown-item"
+                                            @click="plausibleCount(`UseGalaxyDropDown Clicks ${site.locale}`)"
                                         >
-                                            {{ $page.hero.button1 }}:
-                                            {{ site.locale }}
+                                            Use Galaxy Now - {{ site.locale }}
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <a :href="$page.hero.buttonUrl2" class="btn hero bgBright">{{ $page.hero.button2 }}</a>
+                            <a :href="/get-started/" class="btn hero bgBright">Learn more: First Steps with Galaxy</a>
                         </div>
                     </nav>
                 </div>
                 <div class="col-lg-5">
-                    <div v-html="$page.hero.image"></div>
+                    <a href="https://gbcc2025.org/">
+                        <img src="/images/GBCC_hub_splash_screen-5x4.png" alt="Attend GBCC" class="img-fluid" />
+                    </a>
                 </div>
             </div>
         </div>
@@ -201,24 +202,9 @@
             <div class="row">
                 <div class="col-xl-4 mb-3">
                     <div class="area research publications h-100">
-                        <a
-                            :href="this.$static.datasetResearch.research1.url"
-                            rel="noopener"
-                            target="_blank"
-                            class="text-white"
-                        >
-                            <h3>{{ this.$static.datasetResearch.research1.title }}</h3>
-                        </a>
-                        <a
-                            :href="p.url"
-                            class="mb-3 text-white small"
-                            v-for="p in this.$static.datasetResearch.research1.links"
-                            :key="p.title"
-                            role="button"
-                            rel="noopener"
-                            target="_blank"
-                            >{{ p.title }}</a
-                        >
+                        <ClientOnly>
+                            <Publications />
+                        </ClientOnly>
                         <a href="https://doi.org/10.1093/nar/gkae410" target="_blank" rel="noopener" class="text-white">
                             <h3>Cite Galaxy</h3>
                             <div>
@@ -324,8 +310,12 @@
 <script>
 import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
+import Publications from "@/components/Publications";
 
 export default {
+    components: {
+        Publications,
+    },
     data() {
         return {
             cancelled: false,
@@ -344,12 +334,17 @@ export default {
             let galaxies = CONFIG.usegalaxy;
             let priority = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
-                1
+                1,
             );
             if (priority[0]) {
                 galaxies.splice(0, 0, priority[0]);
             }
             this.prioritizedGalaxyLocales = galaxies;
+        },
+        plausibleCount(goal) {
+            if (typeof window.plausible !== "undefined") {
+                window.plausible(goal);
+            }
         },
     },
     mounted() {
@@ -365,17 +360,6 @@ export default {
 
 <page-query>
 query {
-    hero: insert(path: "/insert:/home/hero/") {
-        heading,
-        notification,
-        description,
-        image,
-        button1,
-        button2,
-        buttonUrl2,
-        content
-    }
-
     datasetEducation: dataset(path: "/dataset:/home/education/") {
         heading,
         content,
@@ -443,15 +427,6 @@ query {
 
     datasetResearch: dataset(path: "/dataset:/home/research/") {
         heading,
-        research1 {
-            title,
-            content,
-            url,
-            links {
-                title,
-                url
-            }
-        },
         research3 {
             title,
             content,

@@ -5,7 +5,7 @@ tags: [galaxy]
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano
-subsites: [eu, freiburg, elixir-cz]
+subsites: [eu, freiburg]
 main_subsite: eu
 ---
 
