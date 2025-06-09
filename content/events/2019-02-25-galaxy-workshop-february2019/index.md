@@ -40,7 +40,7 @@ You can sign in into our [waiting list](https://goo.gl/forms/gDJuKXf3kl7GAndD3).
    list and can give your place to others, even on short notice.
 2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the     
    MPI Freiburg, please note that the European Galaxy server is different from the MPI Galaxy server. You will need to 
-   have an account on [https://usegalaxy.eu](https://usegalaxy.eu]) as well.
+   have an account on [https://usegalaxy.eu](https://usegalaxy.eu) as well.
 3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute 
    for how to login.
 4. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.

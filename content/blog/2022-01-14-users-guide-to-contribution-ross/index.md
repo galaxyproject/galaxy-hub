@@ -24,7 +24,7 @@ Whatever motivates individuals, in addition to the satisfaction of contributing 
 
 ### Where to start?
 
-Galaxy is a complicated project, with many moving parts. At first, it can be hard to figure out how it all works, or where your specific skill set and interests might fit. One person's view of the *big picture* in terms of Galaxy's impact on open scientific computing can be found [here](../2022-01-16-open-scientific-computing-ross).
+Galaxy is a complicated project, with many moving parts. At first, it can be hard to figure out how it all works, or where your specific skill set and interests might fit. One person's view of the *big picture* in terms of Galaxy's impact on open scientific computing can be found [here](/blog/2022-01-16-open-scientific-computing-ross/).
 
 Two main activity areas can be distinguished, ***technical*** and ***community***. The distinction is only useful for organising things, because active two way interchange and overlap are always needed to keep all the different activities coordinated. There are a number of contributors who work in both areas, to ensure good communication and integration.
 
