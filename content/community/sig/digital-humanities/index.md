@@ -23,6 +23,7 @@ This is a non-extensive overview of Galaxy tools applicable to Humanities and So
 ### **Text tools**
     - diff: Comparing two text documents
     - GPT: Large language model - this is only accessible with OpenAI API. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
+    - Editor
 
 ### **Audio tools**
     - Whisper: Audio to text conversion
@@ -43,16 +44,17 @@ This is a non-extensive overview of Galaxy tools applicable to Humanities and So
 ### **Work in progress**
     - WhisperX: Audio conversion including speaker diarisation
     - E-Scriptorium: Handwritten text-recognition (HTR)
-    - 
+    - Stanford Core NLP
 
 If tools are missing or information is not up-to-date in the list, please help us! Contact [Daniela](mailto:schneidd@informatik.uni-freiburg.de).
+
 
 ## Workflows and tutorials
 
 You can find an overview of the existing tutorials on the dedicated DH-section of the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/digital-humanities/).
 
 In addition to those, we are currently working on:
-- Galaxy introdcution for Digital Humanities
+- Galaxy introduction for Digital Humanities
 - Using OpenRefine in Galaxy to analyse data
 
 ## Training material and events
@@ -64,18 +66,15 @@ The Galaxy community organizes regularly training events. You can check the [eve
 
 Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities and Social sciences in various ways. We are currently working on:
 
+
+
+## Publications / Examples
+
 BERD
 
+POSter
 
-## Projects / Showcases
-
-Below is a list of projects involving members of this community:
-
-| Project | Description | 
-|---------|-------------|
-| [EOSC FAIR-EASE](https://fairease.eu/) | A new approach to observation and modelling of the Earth System, Environment and Biodiversity |
-| [EOSC AquaINFRA](https://aquainfra.eu/) | Develops data and services to support marine and freshwater scientists and stakeholders |
-
+Forthcoming E-Science Days paper
 
 ## Join us
 
