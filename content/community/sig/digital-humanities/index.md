@@ -72,6 +72,8 @@ Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities an
 
 BERD
 
+https://galaxyproject.org/news/2025-05-20-berd-wf/
+
 POSter
 
 Forthcoming E-Science Days paper
