@@ -4,10 +4,7 @@ date: '2025-02-27'
 days: 1
 tease: "Meeting Dr. Mathes from RSpace, the Galaxy Freiburg team explored new ways to streamline research data management."
 tags: [talk,esg]
-supporters:
-- eurosciencegateway
-- denbi
-- unifreiburg
+supporters: [eurosciencegateway, denbi, unifreiburg]
 subsites: [all, esg, eu]
 ---
 On February 27, 2025, the Galaxy Freiburg team hosted Dr. Tilo Mathes from RSpace, who gave a talk titled "Research Data Management with RSpace and Galaxy".
@@ -16,10 +13,9 @@ inventory and sample management systems, and tool integration services to teams,
 RSpace has been completely open-source under [AGPL 3.0 license on GitHub](https://github.com/rspace-os) and is open for individual contributions. In this talk, Dr. Mathes presented various solutions related to
 RDM by RSpace and engaged the audience for a brainstorming session on potential Galaxy-RSpace collaboration.
 
-<figure class="figure">
-	<g-image src="./rspace1.jpg" class="figure-img img-fluid rounded" />
-	<figcaption class="figure-caption">Dr. Tilo Mathes presenting Research Data Management with RSpace and Galaxy</figcaption>
-</figure>
+![Dr. Tilo Mathes presenting Research Data Management with RSpace and Galaxy](./rspace1.jpg)
+
+*Figure: Dr. Tilo Mathes presenting Research Data Management with RSpace and Galaxy*
 
 The first part of this talk focused on vertical interoperability and how different research tools could be connected within the
 [RSpace framework](https://www.researchspace.com/blog/the-time-is-now-vertical-interoperability-between-research-tools-an-essential-enabler-for-the-fairification-of-data).
@@ -37,15 +33,20 @@ Furthermore, while the use of Persistent IDentifiers (PIDs) has become a norm fo
 PIDs are essential for connecting data, metadata, and context, as well as ensuring research reproducibility. RSpace offers various PID options such as International Generic Sample Numbers ([IGSNs](https://ev.igsn.org/)), Open Researcher and Contributor ID ([ORCID](https://orcid.org/)), Research Activity Identifier ([RAiD](https://raid.org/)), Research Organization Registry ([ROR](https://ror.org/)), and Persistent Identification of Instruments ([PIDINST](https://docs.pidinst.org/en/latest/)). Having said that, there are still unresolved issues, such as the extra focus on the design of a specific tool rather than considering the broader ecosystem, the burden that RDM can bring without a proper automation in the workflow, and a late start in a project. These could be solved via integration of existing APIs, workflows, and improving the interoperability of the new tools.
 
 <figure class="figure">
-	<g-image src="https://cdn.prod.website-files.com/60215038b8c6126015a54745/67a379b756739a12d9ef507f_data-src-image-f7fc857f-fbd5-4f0b-b5f5-0111053f19f7.png" class="figure-img img-fluid rounded" />
-	<figcaption class="figure-caption">RSpace Ecosystem Graphic (source: https://www.researchspace.com/blog/the-time-is-now-vertical-interoperability-between-research-tools-an-essential-enabler-for-the-fairification-of-data)</figcaption>
+    <img src="https://cdn.prod.website-files.com/60215038b8c6126015a54745/67a379b756739a12d9ef507f_data-src-image-f7fc857f-fbd5-4f0b-b5f5-0111053f19f7.png" 
+         class="figure-img img-fluid rounded">
+    <figcaption class="figure-caption">
+        RSpace Ecosystem Graphic (source: 
+        <a href="https://www.researchspace.com/blog/the-time-is-now-vertical-interoperability-between-research-tools-an-essential-enabler-for-the-fairification-of-data" target="_blank">
+            ResearchSpace.com
+        </a>)
+    </figcaption>
 </figure>
 
 To increase the FAIRification of research data, Galaxy and RSpace will focus on computational research with a particular emphasis on workflow integration between Galaxy and RSpace frameworks.
 This necessitates ongoing collaboration from both parties to provide feedback from various angles and to develop user-friendly tools and interfaces to reduce the technical burden.
 To accomplish this, we decided to focus on a few examples of Galaxy and RSpace integration to identify strengths and areas for improvement.
 
-<figure class="figure">
-    <g-image src="./rspace2.png" class="figure-img img-fluid rounded" />
-    <figcaption class="figure-caption">Brainstorming session between RSpace and Galaxy</figcaption>
-</figure>
+![Brainstorming session between RSpace and Galaxy](./rspace2.png)
+
+*Figure: Brainstorming session between RSpace and Galaxy*
