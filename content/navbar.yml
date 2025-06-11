@@ -30,8 +30,6 @@ right:
             target: "/community/contributing/"
           - label: Galaxy Mentor Network
             target: https://galaxy-mentor-network.netlify.app/
-          - label: Blog
-            target: "/blog/"
           - label: Code of Conduct
             target: "/community/coc/"
     - label: About

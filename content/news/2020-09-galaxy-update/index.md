@@ -244,13 +244,13 @@ Here's what people are saying right now:
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
-<div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/blog/2020-07-gvl5-beta4/)</div>
+<div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/news/2020-07-gvl5-beta4/)</div>
 
 By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
 
 A data browser, project-level isolation, and the latest release of Galaxy.
 
-<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 5" />
+<img class="card-img-bottom" src="/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 5" />
 </div>
 
 
@@ -297,13 +297,13 @@ The COVID-19 pandemic has forced a rapid - and unplanned - shift towards online 
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">[Galaxy: the first 10,000 pubs](/blog/2020-08-10k-pubs/)</div>
+<div class="card-header">[Galaxy: the first 10,000 pubs](/news/2020-08-10k-pubs/)</div>
 
 By Dave Clements
 
 Ten thousand publications have used, referenced, extended and implemented Galaxy in the past 15 years.  Half of those pubs appeared in just the last 3 years.  Learn about this and other trends in the Galaxy community, as revealed by what we are publishing.
 
-<img class="card-img-bottom" src="/blog/2020-08-10k-pubs/top-20-slice.png" alt="Top 20 Galaxy Journals" />
+<img class="card-img-bottom" src="/news/2020-08-10k-pubs/top-20-slice.png" alt="Top 20 Galaxy Journals" />
 </div>
 
 
