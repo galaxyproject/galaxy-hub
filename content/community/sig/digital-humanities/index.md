@@ -78,7 +78,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     - Word cloud
 
 ### **Research tools**
-    -  OpenAlex explorer: REsearch and fetch papers from OpenAlex using DOI or title/
+    -  OpenAlex explorer: Research and fetch papers from OpenAlex using DOI or title
 
 ### **Domain-specific tools:
     - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
