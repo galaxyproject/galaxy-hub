@@ -1,6 +1,5 @@
 <template>
-    <footer :class="article.category">
-    </footer>
+    <footer :class="article.category"></footer>
 </template>
 
 <script>
