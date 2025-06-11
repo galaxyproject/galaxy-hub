@@ -60,6 +60,8 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     - flux: text to image conversion
     - Convert image format
     - Enhance contrast: image pre-processing
+    - Convert coordinates to label map: converts a GeoJSON of an image with rectangles to a label image (or binary image) for later cropping
+    - Crop image: for cutting of images 
     
 ### **File or format conversion**
     - General tools: Tabular to CSV, CSV to Tabular, convert delimiter to TAB, 
