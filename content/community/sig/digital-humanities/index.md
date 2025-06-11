@@ -71,7 +71,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     - OpenRefine
     - R-Studio
     - GIS
-    - Jupyter Notebooks
+    - Jupyter Notebook
 
 ### **Visualisations**
     - general: Bar chart, Histogram, Scatterplot, Plotting tool for multiple series, Boxplot, etc.
