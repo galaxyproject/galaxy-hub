@@ -104,4 +104,4 @@ The Galaxy community organises regularly scheduled training events. You can chec
 
 ## Join us
 
-Anybody interested in Humanities and Social Sciences in Galaxy is welcome to join this community! **Everybody is Welcome!**
+Anybody interested in Digital Humanities and Social Sciences in Galaxy is welcome to join this community! **Everybody is Welcome!**
