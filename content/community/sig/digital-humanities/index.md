@@ -70,7 +70,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     - FFmpeg Format Converter: Convert between video and audio formats
 
 ### **Interactive tools**
-    - OpenRefine
+    - OpenRefine: data cleaning and enrichment
     - R-Studio
     - GIS
     - Jupyter Notebook
