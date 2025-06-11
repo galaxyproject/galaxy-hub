@@ -21,7 +21,7 @@ Here are some examples:
 
     - Check out the [poster](https://doi.org/10.11588/heidok.00036288) on Galaxy in the Humanities that Daniela Schneider and Jan Leendertse presented at the [E-Science Days 2025](https://artifact.galaxyproject.org/news/2025-03-14-e-science-days/).
 
-    - A German article from Daniela and Jan building on this presentation is forthcoming.
+    - A German article from Daniela Schneider and Jan Leendertse building on this presentation is forthcoming.
 
     - Check out [this article](https://galaxyproject.org/news/2024-09-02-chat-gpt/) to get an example workflow of how you can automatically transcribe and translate an audio file using Galaxy.
 
