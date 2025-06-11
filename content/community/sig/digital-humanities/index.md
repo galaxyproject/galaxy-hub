@@ -81,6 +81,12 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 
 ### **Research tools**
     -  OpenAlex explorer: Research and fetch papers from OpenAlex using DOI or title
+    
+### **AI and Machine Learning tools**
+    - flux: text to image conversion
+    - Whisper: Audio to text conversion
+    - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
+    - TabPFN: Tabular data prediction  
 
 ### **Domain-specific tools:
     - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
