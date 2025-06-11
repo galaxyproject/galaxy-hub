@@ -520,7 +520,7 @@ For those looking to perform de novo transcriptome assembly of RNA-seq data, we 
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
