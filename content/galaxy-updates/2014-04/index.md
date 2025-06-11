@@ -333,13 +333,13 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='left'>&nbsp;&nbsp; <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
 <div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 

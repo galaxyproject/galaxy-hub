@@ -325,11 +325,11 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 **This update brings a large number of updates and new features.**  See the [release announcement](/news/cloudman-release201401/) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
-<div class='right'><br /><div class='right'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
+<div class='right'><br /><div class='right'><a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
 <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /><br /><br /></div>
 <table>
   <tr>
-    <td> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> &nbsp;&nbsp; </td>
+    <td> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
     <td> &nbsp;&nbsp;  &nbsp;&nbsp; </td>
