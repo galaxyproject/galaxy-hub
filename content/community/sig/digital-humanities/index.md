@@ -92,7 +92,7 @@ If tools are missing or information is not up-to-date in the list, please help u
 
 ## Workflows and tutorials
 
-You can find an overview of the existing tutorials on the dedicated DH-section of the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/digital-humanities/). Those are open educational resources (OER) that you can create from your workflows or reuse in teaching and training.
+You can find an overview of the existing tutorials on the dedicated DH-section of the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/digital-humanities/). Those are open educational resources (OER) that you can create from your workflows or reuse in teaching and training. Documentation for providing further tutorials can be accessed [here](https://training.galaxyproject.org/training-material/topics/contributing/).
 
 In addition to those mentioned above, we are currently working on:
 - Galaxy introduction for Digital Humanities
