@@ -37,7 +37,7 @@ You can combine various Galaxy tools into [workflows](https://training.galaxypro
 This is a non-exhaustive overview of Galaxy tools applicable to Humanities and Social sciences use-cases. 
 
 ### **General tools**
-    - remove beginning, select lines, add lines, search in text files, etc.
+    - Text cleaning tools such as text manipulation, select lines, add lines, search in text files, etc.
     
 ### **Text tools**
     - diff: Comparing two text documents
