@@ -29,7 +29,7 @@ Here are some examples:
 # What is available?
 
 To make your own analysis, start by checking out the tools (the term we use in Galaxy for programs) in your Galaxy instance, for example, [Galaxy Europe](https://usegalaxy.eu/). On the website, you can access the tools by clicking on the bar on the left-hand side. The second icon there is **tools**. You can search there or click on the arrows and search for more details in the help text.
-You can combine various Galaxy tools into [workflows](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html) to automate and re-run the analysis or [export](https://galaxyproject.org/news/2024-05-03-inveniordm-integration/)the data you created to a repository.
+You can combine various Galaxy tools into [workflows](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html) to automate and re-run the analysis or [export](https://galaxyproject.org/news/2024-05-03-inveniordm-integration/) the data you created to a repository.
 
 
 ## Tools
