@@ -88,7 +88,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     - E-Scriptorium: Handwritten text-recognition (HTR)
     - Stanford Core NLP
 
-If tools are missing or information is not up-to-date in the list, please help us! Contact [Daniela](mailto:schneidd@informatik.uni-freiburg.de).
+If tools are missing or information is not up-to-date in the list, please help us! Contact [Daniela Schneider](mailto:schneidd@informatik.uni-freiburg.de).
 
 ## Workflows and tutorials
 
