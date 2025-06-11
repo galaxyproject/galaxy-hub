@@ -2,7 +2,7 @@
 date: '2018-06-15'
 title: "A fruitful year for the Galaxy Training material"
 authors: "Bérénice Batut, on behalf of the Galaxy Training Network"
-image: "/blog/2018-06-training-material/cover_art.png"
+image: "/news/2018-06-training-material/cover_art.png"
 ---
 
 The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: one central place ([https://training.galaxyproject.org](https://training.galaxyproject.org)) to aggregate training materials covering many current research topics.

@@ -3,7 +3,7 @@ title: "Galaxy Community Log Board"
 date: "2013-12-06"
 subsites: [global, us]
 ---
-<div class='left'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
+<div class='left'><a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
 **Note: the Community Log Board was integrated into the [Galaxy Blog](/news/) in September 2017.**
 
@@ -11,7 +11,7 @@ The *[Galaxy Community Log Board](/news/)* is a place to share how you addressed
   
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> C'mon, it will make you feel good! </span> </td>

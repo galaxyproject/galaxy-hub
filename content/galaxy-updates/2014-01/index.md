@@ -11,14 +11,14 @@ December saw the launch of two *[Galaxy community hubs](/community/)* - one to d
 
 ## Galaxy Community Log Board
 
-<div class='left'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
+<div class='left'><a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
 The *[Galaxy Community Log Board](/news/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/news/2013-04-urgi-virtualisation/), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
 
 <div class='left'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> C'mon, it will make you feel good! </span> </td>

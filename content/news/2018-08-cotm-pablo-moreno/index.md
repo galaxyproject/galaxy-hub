@@ -2,7 +2,7 @@
 date: '2018-08-01'
 title: "Contributor of the Month: Pablo Moreno"
 authors: "Björn Grüning"
-image: "/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg"
+image: "/news/2018-08-cotm-pablo-moreno/pablo-moreno.jpg"
 ---
 
 **Welcome to the first ever Galaxy Contributor of the Month posting!**

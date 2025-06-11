@@ -2,7 +2,7 @@
 date: '2018-09-05'
 title: "Contributor of the Month: Carrie Ganote"
 authors: "Björn Grüning"
-image: "/blog/2018-09-cotm-carrie-ganote/carrie-ganote.png"
+image: "/news/2018-09-cotm-carrie-ganote/carrie-ganote.png"
 ---
 
 The Galaxy ecosystem is a direct result of the Galaxy community and the contributions and involvement of community members.  The community makes it all work in innumerable ways, including support, training and tutorial development, talks, posters, documentation, issue reporting, feature requests, tool publishing, coding, and Galaxy server, cloud, and appliance support.

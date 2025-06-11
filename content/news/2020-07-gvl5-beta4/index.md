@@ -3,7 +3,7 @@ date: '2020-07-16'
 title: "GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05"
 authors: "Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan"
 tease: "The GVL workbench now integrated through data"
-image: "/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
+image: "/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
 ---
 
