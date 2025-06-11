@@ -11,7 +11,7 @@ Whether you are analysing texts, images, audio data or other media, **Galaxy is 
 
 # How can you use Galaxy for Digital Humanities analysis?
 
-Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities and Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that fits your research needs and supports you with tools for easier research data management on the go.
+Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities (DH) and Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that fits your research needs and supports you with tools for easier research data management on the go.
 
 Here are some examples:
 
