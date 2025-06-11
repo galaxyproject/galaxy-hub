@@ -1,4 +1,3 @@
-
 ---
 title: 'Topic extraction from Astrophysical Reports and follow-up analysis tool suggestions in Galaxy'
 date: "2025-06-11"  
