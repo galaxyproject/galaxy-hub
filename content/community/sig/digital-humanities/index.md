@@ -64,6 +64,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 - Crop image: for cutting images 
 - Image annotator: Annotate your images manually in Galaxy on the left-hand side panel under *Visualisations*.
 - Tiff viewer: View TIFF files in Galaxy on the left-hand side panel under *Visualisations*.
+- Video player: View video files in Galaxy on the left-hand side panel under *Visualisations*.
     
 ### **File or format conversion**
 - General tools: Tabular to CSV, CSV to Tabular, convert delimiter to TAB, 
