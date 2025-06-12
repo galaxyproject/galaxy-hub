@@ -37,7 +37,7 @@ You can combine various Galaxy tools into [workflows](https://training.galaxypro
 This is a non-exhaustive overview of Galaxy tools applicable to Humanities and Social sciences use-cases. 
 
 ### **General tools**
-    - Text cleaning tools such as text manipulation, select lines, add lines, search in text files, etc.
+    - Text cleaning tools such as text manipulation, select lines, add lines, search in text files, Line/Word/Character count, etc.
     
 ### **Text tools**
     - diff: Comparing two text documents
@@ -61,7 +61,9 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     - Convert image format
     - Enhance contrast: image pre-processing
     - Convert coordinates to label map: converts a GeoJSON of an image with rectangles to a label image (or binary image) for later cropping
-    - Crop image: for cutting of images 
+    - Crop image: for cutting images 
+    - Image annotator: Annotate your images manually in Galaxy on the left-hand side panel under *Visualisations*.
+    - Tiff viewer: view your tiff files in Galaxy on the left-hand side panel under *Visualisations*.
     
 ### **File or format conversion**
     - General tools: Tabular to CSV, CSV to Tabular, convert delimiter to TAB, 
@@ -78,7 +80,8 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 ### **Visualisations**
     - general: Bar chart, Histogram, Scatterplot, Plotting tool for multiple series, Boxplot, etc.
     - Word cloud
-
+    - OpenLayers map: Visualise locations on a map with GeoJSON
+    
 ### **Research tools**
     -  OpenAlex explorer: Research and fetch papers from OpenAlex using DOI or title
     
@@ -95,6 +98,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     - WhisperX: Audio conversion including speaker diarisation
     - E-Scriptorium: Handwritten text-recognition (HTR)
     - Stanford Core NLP
+    - Optical character recognition tool (OCR)
 
 If tools are missing or information is not up-to-date in the list, please help us! We are available via this [Matrix Channel](https://matrix.to/#/#galaxyproject-digital-humanities:matrix.org)
 
