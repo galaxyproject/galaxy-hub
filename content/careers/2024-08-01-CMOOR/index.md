@@ -8,5 +8,5 @@ location:
 location_url: "https://bio.jhu.edu/"
 external_url: "https://apply.interfolio.com/150737"
 contact: "Frederick Tan: ftan2@jh.edu"
-closed: true
+closes: "2024-12-31"
 ---
