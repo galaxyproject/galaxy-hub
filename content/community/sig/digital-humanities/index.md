@@ -41,7 +41,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     
 ### **Text tools**
 - diff: Comparing two text documents
-- Editor: make small manual changes that will not be tracked. Find the editor on the left-hand side panel under *Visualisations*.
+- Editor: make manual changes that will not be tracked. Find the editor on the left-hand side panel under *Visualisations*.
 - Regular Expressions: Various tools in Galaxy to help you select specific patterns from your text as explained [here](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_regular_expressions.html).
 - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 
@@ -96,6 +96,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
 
 ### **Work in progress**
+- Yolo DocLayout: Document layout analysis
 - WhisperX: Audio conversion including speaker diarisation
 - E-Scriptorium: Handwritten text-recognition (HTR)
 - Stanford Core NLP: Natural language processing tool
