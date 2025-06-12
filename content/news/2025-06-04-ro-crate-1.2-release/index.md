@@ -1,8 +1,6 @@
 ---
 title: "RO-Crate specification 1.2 released"
 authors: "Stian Soiland-Reyes"
-contributions:
-  funding: [eurosciencegateway, bycovid]
 tags: [esg, esg-wp2]
 layout: news
 date: "2025-06-04"
