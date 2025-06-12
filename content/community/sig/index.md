@@ -110,7 +110,7 @@ Announcements and discussion in the Galaxy Public Health Community.
 <!-- Digital Humanities -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/digital-humanities/">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Public Health</div>
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Digital Humanties</div>
 </a>
 
 Galaxy as a platform for Digital Humanities and Social Sciences.
