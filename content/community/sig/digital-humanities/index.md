@@ -56,7 +56,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 - [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Audio to text conversion
 - FFmpeg Format Converter: Convert between video and audio formats   
 
-### **Image tools**
+### **Image  and video tools**
 - [flux](https://galaxyproject.org/news/2024-11-26-flux/): text to image conversion
 - Convert image format
 - Enhance contrast: image pre-processing
