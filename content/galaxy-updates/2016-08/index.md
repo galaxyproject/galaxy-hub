@@ -332,12 +332,12 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -348,7 +348,7 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
 <img src="/images/logos/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="75" />
 </div>
 
-New Galaxy Deployment Catalog and [Community Log Board](/blog/) entries were added:
+New Galaxy Deployment Catalog and [Community Log Board](/news/) entries were added:
 
 * The Public Health Agency of Canada - National Microbiology Laboratory Galaxy server helps identify, prevent and control infectious diseases.
 

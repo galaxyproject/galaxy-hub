@@ -5,7 +5,7 @@ noun: Meeting
 
 # **Goodbye Developer Roundtables**
 
-Working Groups have changed the way Galaxy operates, for the better. One of those changes is that the need for roundtable talks has largely disappeared, as working group meetings are covering the topics that used to be reserved for round tables. Because of that, we are saying goodbye to developer roundtable talks. For more information on how working groups serve this need, please see [this blog post](/blog/2022-01-27-disbanding-roundtables/).
+Working Groups have changed the way Galaxy operates, for the better. One of those changes is that the need for roundtable talks has largely disappeared, as working group meetings are covering the topics that used to be reserved for round tables. Because of that, we are saying goodbye to developer roundtable talks. For more information on how working groups serve this need, please see [this blog post](/news/2022-01-27-disbanding-roundtables/).
 
 <div class="img-sizer right" style="max-width: 12rem; margin: 1rem">
 

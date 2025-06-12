@@ -5,7 +5,7 @@ title: Dave Clements
 <img class="float-right" src="/images/people/dave-clements/dave-clements-150.jpg" />
 
 <blockquote class="blockquote">
-<p class="lead">My last day with Galaxy will be December 17, 2021. After that I am starting a position at <a href="https://anaconda.com/">Anaconda</a>.  See <a href="/blog/2021-12-clements/">my departing blog post</a> for more.</p>
+<p class="lead">My last day with Galaxy will be December 17, 2021. After that I am starting a position at <a href="https://anaconda.com/">Anaconda</a>.  See <a href="/news/2021-12-clements/">my departing blog post</a> for more.</p>
 </p>
 </blockquote>
 
