@@ -21,7 +21,9 @@ Here are some examples:
 
 - Check out the [poster](https://doi.org/10.11588/heidok.00036288) on Galaxy in the Humanities that Daniela Schneider and Jan Leendertse presented at the [E-Science Days 2025](https://artifact.galaxyproject.org/news/2025-03-14-e-science-days/).
   
-["Poster on Galaxy in the Humanities"](https://archiv.ub.uni-heidelberg.de/volltextserver/36288/7/Schneider_Leendertse_Poster_Galaxy_2025.pdf)
+    <div class="multiple-img">
+        <embed src="https://archiv.ub.uni-heidelberg.de/volltextserver/36288/7/Schneider_Leendertse_Poster_Galaxy_2025.pdf" width="65%" height="700px" type='application/pdf'>
+    </div>
 
 - A German article from Daniela Schneider and Jan Leendertse, building on this presentation, is forthcoming.
 
