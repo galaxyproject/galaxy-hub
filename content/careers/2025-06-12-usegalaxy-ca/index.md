@@ -8,4 +8,5 @@ location:
   name: "Sherbrooke, Québec, Canada"
 location_url: "https://www.usherbrooke.ca"
 external_url: "https://www.usherbrooke.ca/emplois/offre/no/07671"
+contact: "carol.gauthier@usherbrooke.ca"
 ---
