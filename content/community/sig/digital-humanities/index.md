@@ -20,6 +20,8 @@ Here are some examples:
 - We explored Instagram posts from the Bavarian State elections provided by the [BERD Data Portal](https://www.berd-nfdi.de/data-portal/). [Read more](https://galaxyproject.org/news/2025-05-20-berd-wf/) to see how the dataset was cleaned and mined to visualise not only the most frequent words in the post to get an idea of its contents, but also extracted and mapped where most of those posts originated in just a couple of steps in Galaxy.
 
 - Check out the [poster](https://doi.org/10.11588/heidok.00036288) on Galaxy in the Humanities that Daniela Schneider and Jan Leendertse presented at the [E-Science Days 2025](https://artifact.galaxyproject.org/news/2025-03-14-e-science-days/).
+  
+["Poster on Galaxy in the Humanities"](https://archiv.ub.uni-heidelberg.de/volltextserver/36288/7/Schneider_Leendertse_Poster_Galaxy_2025.pdf)
 
 - A German article from Daniela Schneider and Jan Leendertse, building on this presentation, is forthcoming.
 
@@ -41,7 +43,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     
 ### **Text tools**
 - diff: Comparing two text documents
-- Editor: make small manual changes that will not be tracked. Find the editor on the left-hand side panel under *Visualisations*.
+- Editor: make manual changes that will not be tracked. Find the editor on the left-hand side panel under *Visualisations*.
 - Regular Expressions: Various tools in Galaxy to help you select specific patterns from your text as explained [here](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_regular_expressions.html).
 - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 
@@ -96,6 +98,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
 
 ### **Work in progress**
+- Yolo DocLayout: Document layout analysis
 - WhisperX: Audio conversion including speaker diarisation
 - E-Scriptorium: Handwritten text-recognition (HTR)
 - Stanford Core NLP: Natural language processing tool
