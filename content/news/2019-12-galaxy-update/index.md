@@ -163,7 +163,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 # Galactic Blog Activity
 
-[Two new entries](/blog/) in the past month, both related to UseGalaxy.eu..
+[Two new entries](/news/) in the past month, both related to UseGalaxy.eu..
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
@@ -187,7 +187,7 @@ By Ivan Kuzmin.  gProfiler is a toolset for functional enrichment analysis and c
 
 By Ben Orsburn.  The arguments are building up for why you need this.
 
-<img class="card-img-bottom" src="/blog/2019-11-galaxyp-tutorials/news-in-proteomics-research-banner.png" alt="Galaxy P" />
+<img class="card-img-bottom" src="/news/2019-11-galaxyp-tutorials/news-in-proteomics-research-banner.png" alt="Galaxy P" />
 </div>
 </div>
 

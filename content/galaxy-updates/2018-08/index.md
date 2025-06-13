@@ -359,14 +359,14 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # New Galactic Blog Entries
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/news/)
 </div>
 
-There are two new *[Galactic Blog](/blog/)* entry:
+There are two new *[Galactic Blog](/news/)* entry:
 
-* [A fruitful year for the Galaxy Training material](/blog/2018-06-training-material/), by Bérénice Batut
+* [A fruitful year for the Galaxy Training material](/news/2018-06-training-material/), by Bérénice Batut
     * A summary of recent developments in Galaxy Training materials and the Galaxy Training Network
-* [Contributor of the Month: Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), By Björn Grüning
+* [Contributor of the Month: Pablo Moreno](/news/2018-08-cotm-pablo-moreno/), By Björn Grüning
     * The first of a monthly series highlighting Galaxy contributors.
 
 # Public Galaxy Server News

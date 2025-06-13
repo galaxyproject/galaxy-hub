@@ -10,7 +10,6 @@ title: Galaxy Updates
 
 * The [News](/news/)
 * [Galaxy Development News Briefs](/docs/)
-* [Galactic Blog](/blog/)
 * [Galaxy on Twitter](/galaxy-on-twitter/)
 * [Mailing Lists](/mailing-lists/)
 

@@ -456,12 +456,12 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -476,7 +476,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 * **University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions**
     [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.
 
-And 2 new **[Community Log Board](/blog/)** entries were added as well.  Both are about wrapping Tools for Galaxy:
+And 2 new **[Community Log Board](/news/)** entries were added as well.  Both are about wrapping Tools for Galaxy:
 
 * **[Galaxy Tool Generating Dataset Collections](http://web.science.mq.edu.au/~cassidy/2015/10/21/galaxy-tool-generating-datasets/)**
     [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/) documented how create dataset collections in Galaxy tool definitions. (And [Alveo](http://alveo.edu.au/) is also a cool, non-life science application of Galaxy.)
