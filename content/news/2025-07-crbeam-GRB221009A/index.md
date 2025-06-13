@@ -1,6 +1,6 @@
 ---
 title: 'Unraveling the Mystery of GRB 221009A: Secondary Gamma Rays and Cosmic Magnetic Field'
-date: "2025-07-01"
+date: "2025-06-14"
 tease: "The possibility of multi-TeV secondary gamma rays from GRB221009A"
 hide_tease: false
 tags: [esg-wp5, esg, paper, workflow, workflowhub]
