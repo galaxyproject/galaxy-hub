@@ -3,8 +3,9 @@ title: 'Voronoi segmentation for Astronomy'
 date: "2025-06-11"  
 tease: "Dividing the sky images in regions that include individual astronomical objects."
 hide_tease: false
-tags: [esg-wp5, esg]
-subsites: [all-eu, esg, all]
+tags: [esg-wp5, esg, tools, workflow, astrophysics]
+subsites: [all]
+supporters: [esg]
 main_subsite: eu
 ---
 
