@@ -1,7 +1,7 @@
 ---
 title: "New Galaxy Tool: Identify Label Issues in Machine Learning Datasets Using Cleanlab"
 date: "2025-06-13"
-authors: Anup Kumar; Mohammad Joudy
+authors: Mohammad Joudy; Anup Kumar
 tease: "Identify Label Issues in Machine Learning Datasets Using Cleanlab"
 hide_tease: true
 subsites: [all-eu,global,all]
