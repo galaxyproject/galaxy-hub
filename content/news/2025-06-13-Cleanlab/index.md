@@ -19,6 +19,8 @@ Machine learning (ML) models are only as good as the data they learn from — an
 
 ![cleanlab 1](./cleanlab_classification_improvements.png)
 
+The image above shows the difference in the classification performance of a few classifiers across a few [PMLB ML benchmark datasets](https://github.com/EpistasisLab/pmlb). Classification improvements upto 20% are achieved for these datasets.
+
 ### How It Works
 
 1. Upload your dataset (with features and labels).
