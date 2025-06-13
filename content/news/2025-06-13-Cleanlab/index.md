@@ -33,4 +33,4 @@ The image above shows the difference in the classification performance of a few 
 
 The tool makes it easy to clean up datasets in a reproducible way before training your models — a crucial step in any robust ML pipeline.
 
-<a href="https://usegalaxy.eu/root?tool_id=2Fcleanlab_issue_handler"><button type="button" class="btn btn-success">Run Cleanlab!</button></a> 
+<a href="https://usegalaxy.eu/root?tool_id=cleanlab_issue_handler"><button type="button" class="btn btn-success">Run Cleanlab!</button></a> 
