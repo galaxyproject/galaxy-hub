@@ -17,7 +17,7 @@ Machine learning (ML) models are only as good as the data they learn from — an
 
 - Improve ML model accuracy by filtering or correcting noisy labels for both tasks - classification and regression
 
-![cleanlab 1](./cleanlab_classification_improvements.png)
+![Difference in the classification performance of selected classifiers across a  the PMLB ML benchmark datasets](./cleanlab_classification_improvements.png)
 
 The image above shows the difference in the classification performance of a few classifiers across a few [PMLB ML benchmark datasets](https://github.com/EpistasisLab/pmlb). Classification improvements upto 20% are achieved for these datasets.
 
@@ -33,4 +33,4 @@ The image above shows the difference in the classification performance of a few 
 
 The tool makes it easy to clean up datasets in a reproducible way before training your models — a crucial step in any robust ML pipeline.
 
-For more examples and details, see the [Cleanlab Galaxy tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcleanlab%2Fcleanlab_issue_handler%2F2.7.1%2Bgalaxy1.0&version=latest).
+<a href="https://usegalaxy.eu/root?tool_id=2Fcleanlab_issue_handler"><button type="button" class="btn btn-success">Run Cleanlab!</button></a> 
