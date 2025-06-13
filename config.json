@@ -9,7 +9,8 @@
         "/events": "events",
         "/news": "news",
         "/careers": "careers",
-        "/projects/covid19": "covid19"
+        "/projects/covid19": "covid19",
+        "/newspapers": "newspapers"
     },
     "build": {
         "dirs": {
