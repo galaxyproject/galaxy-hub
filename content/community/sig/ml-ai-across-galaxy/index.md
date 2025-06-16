@@ -20,7 +20,7 @@ title: "Machine Learning and Artificial Intelligence Across The Galaxy Community
 **Like every Galaxy community, we’re unique and ours has a special flavor!**  
 MALIC brings together everything related to machine learning (ML) and artificial intelligence (AI) within Galaxy. We connect users, developers, and trainers from diverse fields to collaborate, share, and grow together in this transformative era of AI.
 
-Our mission is to bridge domains from **digital humanities**, **omics**, and **ecology** to **imaging** and beyond by sharing tools, tutorials, and expertise that empower the entire Galaxy ecosystem.
+Our mission is to bridge domains from **digital humanities**, **omics**, **ecology** to **imaging** and beyond by sharing expertise that empower the entire Galaxy platform.
 
 ## Could MALIC be your new home in Galaxy? Let’s find out!
 
@@ -44,7 +44,7 @@ Our primary goals are to:
 * **Support each other** through knowledge-sharing, troubleshooting, and collaboration.
 
 Additionally, we strive to:
-* **Develop and maintain** image analysis tools within Galaxy.
+* **Develop and maintain** ML/AI tools within Galaxy.
 * **Implement FAIR principles** to make workflows reproducible and reusable.
 * **Expand documentation** and **training resources** for accessible learning and skill-building.
 
