@@ -1,7 +1,7 @@
 ---
 description: "If you apply Machine Learning or Artificial Intelligence in any Galaxy field from life sciences to humanities and want to connect, share and learn, this is your community."
 autotoc: true
-title: "Machine Learning and Artificial Intelligence Across The Galaxy Community" 
+title: "Machine Learning and Artificial Intelligence Across the Galaxy Community" 
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
@@ -14,13 +14,21 @@ title: "Machine Learning and Artificial Intelligence Across The Galaxy Community
   <slot name="/community/sig/common_linkbox" />
 </div>
 
-# Welcome to **MALIC!**  
+# Welcome to **MALIC – Machine Learning and Artificial Intelligence across the Galaxy Community!**  
 *The Galaxy-wide community for ML & AI across disciplines*
 
-**Like every Galaxy community, we’re unique and ours has a special flavor!**  
-MALIC brings together everything related to machine learning (ML) and artificial intelligence (AI) within Galaxy. We connect users, developers, and trainers from diverse fields to collaborate, share, and grow together in this transformative era of AI.
+**MALIC** is a stylized name representing the key themes of our community:  
+- **M** – Machine  
+- **A** – Artificial  
+- **L** – Learning  
+- **I** – Intelligence  
+- **C** – Community (across Galaxy)
 
-Our mission is to bridge domains from **digital humanities**, **omics**, **ecology** to **imaging** and beyond by sharing expertise that empower the entire Galaxy platform.
+**Like every Galaxy community, we have our own unique flavor!**
+MALIC brings together everything related to machine learning (ML) and artificial intelligence (AI) within Galaxy.  
+We connect users, developers, and trainers from diverse fields to collaborate, share, and grow together in this transformative era of AI.
+
+**Our mission is to connect fields such as** *digital humanities*, *omics*, *ecology*, **and** *imaging*, **by sharing expertise that strengthens the Galaxy platform.**
 
 ## Could MALIC be your new home in Galaxy? Let’s find out!
 
