@@ -16,7 +16,7 @@ notebook (ELN) providing inventory and sample management systems and featuring
 [a wide collection of integrations with other services](https://www.researchspace.com/integrations). Thanks to our
 [joint meeting on February](/news/2025-02-27-rspace-talk/), our collaboration has just been kickstarted
 integrating Galaxy with the [RSpace Gallery](https://documentation.researchspace.com/article/sl6mo1i9do-the-gallery) as
-a file source! This means that files from the RSpace Gallery can be easily imported to Galaxy histories. After the
+a repository! This means that files from the RSpace Gallery can be easily imported to Galaxy histories. After the
 analysis is complete, datasets and even whole histories can be exported back to the Gallery.
 
 ## Getting started
@@ -24,7 +24,7 @@ analysis is complete, datasets and even whole histories can be exported back to 
 The feature is available in Galaxy 25.0 and later. Before it can be used, the feature _must be enabled by a Galaxy
 administrator_. That makes it available to all users of the Galaxy server.
 
-On Galaxy, configure a new RSpace file source under user preferences _Manage Your Repositories_ > _Create_ > _RSpace_.
+On Galaxy, configure a new RSpace repository under user preferences _Manage Your Repositories_ > _Create_ > _RSpace_.
 
 ![User preferences](./user_preferences.png)
 
@@ -32,12 +32,12 @@ On Galaxy, configure a new RSpace file source under user preferences _Manage You
 
 ![Select RSpace](./manage_your_repositories_create.png)
 
-Assign a name to your RSpace file source, enter the URL to your RSpace instance, and enter your RSpace API key (if you
+Assign a name to your RSpace repository, enter the URL to your RSpace instance, and enter your RSpace API key (if you
 do not have an API key yet,
 [follow the official instructions to generate one](https://documentation.researchspace.com/article/v0dxtfvj7u-rspace-api-introduction#obtaining_your_api_key)).
 Click _Create_.
 
-![RSpace file source setup on Galaxy](./rspace_file_source.png)
+![RSpace repository setup on Galaxy](./rspace_file_source.png)
 
 ## Importing files to a Galaxy history
 
@@ -45,7 +45,7 @@ To import files from RSpace to a Galaxy history, click _Upload_ on the sidebar a
 
 ![Galay upload tool](upload_tool.png)
 
-![Remote file sources](file_sources.png)
+![Repositories](file_sources.png)
 
 After selecting _RSpace_, Galaxy shows one folder for each category of the RSpace Gallery.
 
@@ -59,7 +59,7 @@ import.
 ## Exporting histories to RSpace
 
 Clicking _Export History to File_ under _History options_ opens the history export screen. There, select _to remote 
-file_, choose a name, and finally use the box _Click to select directory_ to open the remote file source browser. The
+file_, choose a name, and finally use the box _Click to select directory_ to open the remote repository browser. The
 same screen displayed when importing files will be shown, from where you can select a target category of the RSpace
 Gallery or a folder within it.
 
