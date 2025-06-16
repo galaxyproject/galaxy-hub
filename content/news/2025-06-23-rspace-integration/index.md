@@ -1,6 +1,6 @@
 ---
 title: "RSpace is now integrated with Galaxy"
-date: "2025-06-02"
+date: "2025-06-23"
 tease: "Analyze data with Galaxy, keep it under control on RSpace"
 hide_tease: false
 authors: José Manuel Domínguez
