@@ -120,7 +120,7 @@ Explore our interactive tools, including Jupyter notebooks, and discover how Gal
 
 </div>
 
-## A dedicated Galaxy subdomain
+## A dedicated Galaxy ML instance
 
 [ml.usegalaxy.eu](https://ml.usegalaxy.eu) is a Galaxy instance designed specifically for machine learning and AI.  
 It offers a rich set of tools and workflows optimized for interactive and reproducible analysis of imaging and other complex data.
