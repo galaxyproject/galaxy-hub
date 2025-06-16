@@ -128,7 +128,7 @@ Galaxy as a platform for Digital Humanities and Social Sciences.
 
 <!-- Machine Learning -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="https://ml.usegalaxy.eu">
+<a href="/community/sig/ml-ai-across-galaxy/">
 <div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Machine Learning</div>
 </a>
 
