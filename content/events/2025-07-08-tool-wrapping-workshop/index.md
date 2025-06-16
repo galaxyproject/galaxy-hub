@@ -24,7 +24,7 @@ Whether you're new to the Galaxy ecosystem or looking to contribute to the [Inte
 
 ## Day 2: Bring Your Own Tool or Contribute to the [IUC Repository](https://github.com/galaxyproject/tools-iuc)
 - Wrap your own tool using Galaxy best practices
-- Or, enhance an existing [IUC]((https://galaxyproject.org/iuc/)) tool by improving tests, versions, or functionality
+- Or, enhance an existing [IUC](https://galaxyproject.org/iuc/) tool by improving tests, versions, or functionality
 
 # Prerequisites
 - Basic knowledge of shell scripting and command-line tools
