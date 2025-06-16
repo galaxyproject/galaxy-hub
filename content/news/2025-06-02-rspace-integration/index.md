@@ -21,8 +21,8 @@ analysis is complete, datasets and even whole histories can be exported back to 
 
 ## Getting started
 
-Before it can be used, the feature _must be enabled by a Galaxy administrator_. That makes it available to all users of
-the Galaxy server.
+The feature is available in Galaxy 25.0 and later. Before it can be used, the feature _must be enabled by a Galaxy
+administrator_. That makes it available to all users of the Galaxy server.
 
 On Galaxy, configure a new RSpace file source under user preferences _Manage Your Repositories_ > _Create_ > _RSpace_.
 
