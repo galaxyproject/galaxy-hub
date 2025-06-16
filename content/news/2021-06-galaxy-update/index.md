@@ -551,7 +551,7 @@ Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend 
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -650,15 +650,15 @@ Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). 
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header trim-p">
 
-[Galaxy Helm Chart v4.0](/blog/2021-05-galaxy-helm-chart-v4/)
+[Galaxy Helm Chart v4.0](/news/2021-05-galaxy-helm-chart-v4/)
 
 </div>
 
 The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single package. The same package can be used to deploy Galaxy for development, testing, or production. With v4, the chart also introduces improvements for managing Galaxy over time.
 
-See this [blog post](/blog/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
+See this [blog post](/news/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
 
-![Galaxy Helm](/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
+![Galaxy Helm](/news/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
 
 </div>
 

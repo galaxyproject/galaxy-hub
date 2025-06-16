@@ -1,7 +1,7 @@
 ---
 title: 'Training Infrastructure Feedback from Hans-Rudolf Hotz and Lucille Delisle'
 date: "2022-04-28"
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 tease: 'After 2 years running the SIB "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person.'

@@ -1,7 +1,7 @@
 ---
 title: Galaxy Africa Community Update
 date: '2020-07-30'
-tags: [training, TIaaS, GCC]
+tags: [training, tiaas, GCC]
 location:
   name: online
 supporters:

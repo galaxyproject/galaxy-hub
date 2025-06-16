@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Abdus Salam
 date: '2021-06-10'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - eosc

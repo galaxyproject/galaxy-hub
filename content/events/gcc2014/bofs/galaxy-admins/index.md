@@ -106,7 +106,7 @@ We investigated splitting the Galaxy-Dev [Mailing List](/mailing-lists/) into tw
 
 Two items were implemented late in 2013:
 
-* Galaxy Log Board: (since moved to the [Galaxy Blog](/blog/) a place for linking to and/or describing experiences administering Galaxy.  These entries are dated, may not be particularly maintained once created.  And, more often then not, Log Board entries are just metadata, plus a link to an external resource on the web, such as a Wordpress page.
+* Galaxy Log Board: (since moved to the [Galaxy Blog](/news/) a place for linking to and/or describing experiences administering Galaxy.  These entries are dated, may not be particularly maintained once created.  And, more often then not, Log Board entries are just metadata, plus a link to an external resource on the web, such as a Wordpress page.
 * Galaxy Deployment Catalog (since dropped): Describes how different Galaxy Servers are implemented.  This is a means for admins to learn what others have done to address particular types of demand and communities.  
 
 # The GalaxyAdmins Group Itself

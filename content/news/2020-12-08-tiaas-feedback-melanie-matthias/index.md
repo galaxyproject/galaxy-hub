@@ -2,7 +2,7 @@
 title: 'Training Infrastructure Feedback on the ELIXIR Belgium workshop “DDA and DIA
   proteomic analysis in Galaxy” '
 date: '2020-12-08'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Matthias313, foellmelanie

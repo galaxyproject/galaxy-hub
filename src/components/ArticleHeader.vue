@@ -41,9 +41,6 @@
             </section>
         </template>
         <p class="outlink" v-if="article.external_url">See <a :href="article.external_url">(external) url</a></p>
-        <p class="blogref" v-if="article.source_blog && article.source_blog_url">
-            From <a :href="article.source_blog_url">{{ article.source_blog }}</a>
-        </p>
         <div class="clearfix"></div>
     </header>
 </template>
@@ -188,13 +185,7 @@ export default {
 .news .date {
     font-size: 80%;
 }
-.blog .date {
-    font-weight: bolder;
-}
 .outlink {
     font-weight: bolder;
-}
-.blogref a {
-    font-style: italic;
 }
 </style>

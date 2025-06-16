@@ -16,7 +16,7 @@ Check out the upcoming meetings across the communities.
 
 # Directory of Special Interest Groups
 
-In the following you will find a list of current active Special Interest Groups. If you can't find yourself in this list we always welcome new SIGs.
+In the following, you will find a list of current active Special Interest Groups. If you can't find yourself in this list, we always welcome new SIGs.
 You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn [how to set up your own](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html).
 
 ---
@@ -104,6 +104,16 @@ Anything regarding microbial data analysis in Galaxy, with meetings, working gro
 </a>
 
 Announcements and discussion in the Galaxy Public Health Community.
+
+</div>
+
+<!-- Digital Humanities -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/digital-humanities/">
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Digital Humanties</div>
+</a>
+
+Galaxy as a platform for Digital Humanities and Social Sciences.
 
 </div>
 

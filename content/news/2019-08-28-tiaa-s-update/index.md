@@ -1,7 +1,7 @@
 ---
 title: TIaaS Queue Status Update
 date: '2019-08-28'
-tags: [devops, TIaaS]
+tags: [devops, tiaas]
 location:
   name: Freiburg, Germany
 authors: hexylena
