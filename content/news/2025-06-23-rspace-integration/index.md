@@ -49,7 +49,7 @@ To import files from RSpace to a Galaxy history, click _Upload_ on the sidebar a
 
 After selecting _RSpace_, Galaxy shows one folder for each category of the RSpace Gallery.
 
-![RSpace experiments and resources listed by Galaxy](rspace_gallery_categories.png)
+![RSpace's Gallery categories listed by Galaxy](rspace_gallery_categories.png)
 
 Each category further contains folders and files just like a regular filesystem. Choose the file you would like to
 import.
