@@ -62,7 +62,7 @@ Additionally, we strive to:
 - **How long?** Just one hour, short and sweet!  
 - **What’s on the agenda?** Tool demos, cross-domain updates, collaboration planning, and relaxed idea sharing.
 
-- Our community connects via our dedicated [Matrix channel](https://matrix.to/).
+- Our community connects via our dedicated [Matrix channel](https://matrix.to/#/#galaxyproject-machine-learning:matrix.org).
 - Check out our [agenda](https://docs.google.com/document/d/1ElFZtbUemUXvygcozbrvS7XEfMIpi0eYPT-gsnjVq3o/edit?usp=sharing) to see what we’re currently working on.
 
 ## New to ML in Galaxy?
