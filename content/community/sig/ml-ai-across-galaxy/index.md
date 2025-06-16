@@ -83,7 +83,7 @@ To dive into ML and AI with Galaxy, the [Galaxy Training Network (GTN)](https://
 
 ## ML and AI tools
 
-The Galaxy ToolShed offers a variety of tools for ML-AI, freely available for installation on any Galaxy server. Our community maintains a curated list of available tools to keep users informed and up-to-date.
+The Galaxy ToolShed offers a variety of tools for ML and AI, freely available for installation on any Galaxy server. Our community maintains a curated list of available tools to keep users informed and up-to-date.
 
 <iframe
   id="inlineFrameExample"
