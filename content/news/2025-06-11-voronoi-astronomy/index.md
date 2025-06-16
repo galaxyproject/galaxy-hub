@@ -24,11 +24,11 @@ Key features of the workflow include:
 <div class="center">
 <div class="img-sizer" style="width: 100%">
 
-![The output of the workflow for the given input parameters: RA = 53.16216667; Dec = -27.79149167; Radius = 2.7 arcmin; Pixel size = 0.262 arcsec; Band = g.](galaxy-voronoi-astronomy-output.tiff)</div>
+![The output of the workflow for the given input parameters: RA = 53.16216667; Dec = -27.79149167; Radius = 2.7 arcmin; Pixel size = 0.262 arcsec; Band = g.](galaxy-voronoi-astronomy-output.png)</div>
 <figcaption>
 Workflow output for RA = 53.16216667; Dec = -27.79149167; Radius = 2.7 arcmin; Pixel size = 0.262 arcsec; Band = g.
 </figcaption>
 
 The authors have observed that the "Stretch image scale" parameter of the [*astropy fits2bitmap* tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/astroteam/astropy_fits2bitmap/astropy_fits2bitmap/0.2.0+galaxy1), along with the method used to create the seed, significantly affects the outcome of the Voronoi segmentation - highlighting opportunities for further refinement and customization of the workflow. Therefore, the Galaxy community encourages further experimentation and invites researchers to adapt and extend the workflow for their own use cases. 
 
-A public version of the workflow is now available on [usegalaxy.eu](https://usegalaxy.eu/published/workflow?id=bc78c184fabcff1d).
+A public version of the workflow is now available on [usegalaxy.eu](https://usegalaxy.eu/published/workflow?id=bc78c184fabcff1d) and on [WorkflowHub](https://workflowhub.eu/workflows/1730).
