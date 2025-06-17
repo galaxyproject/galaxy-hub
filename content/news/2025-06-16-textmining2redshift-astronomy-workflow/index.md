@@ -3,8 +3,8 @@ title: 'From text mining to astronomical sources distance estimation on Galaxy'
 date: "2025-06-16"  
 tease: "Estimating redshifts of optical counter parts of sources detected in astronomy texts with a Galaxy Workflow"
 hide_tease: false
-tags: [esg-wp5, esg]
-subsites: [all-eu, esg, all]
+tags: [esg-wp5, esg, tools, workflow, astrophysics]
+subsites: [all]
 main_subsite: eu
 ---
 
