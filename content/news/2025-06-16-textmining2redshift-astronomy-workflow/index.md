@@ -15,7 +15,15 @@ Next, the FITS file is converted into more accessible CSV using an [astropy base
 
 The resulting source table is then **split into individual sources**, and for each source, a cone search is performed using the [DESI Legacy Survey](https://astronomy.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/astroteam/desi_legacy_survey_astro_tool/desi_legacy_survey_astro_tool/0.0.1+galaxy0). This fetches all nearby optical candidates in the [Legacy Survey](https://www.legacysurvey.org/) catalog.
 
-Finally, a **photometric redshift estimation** step is carried out for each candidate using a [Phosphoros-based](https://github.com/astrorama/PhosphorosCore) tool (currently in staging) deployed on a local Galaxy instance. This allows researchers to assess the distances of candidate counterparts to observed transient sources.
+Finally, a **photometric redshift estimation** step is carried out for each candidate using a [Phosphoros-based](https://github.com/astrorama/PhosphorosCore) tool (currently in staging) deployed on a [local](https://odahub.io/) Galaxy [instance](https://galaxy.odahub.fr/). This allows researchers to assess the distances of candidate counterparts to observed transient sources.
+
+<div class="center">
+<div class="img-sizer" style="width: 100%">
+
+![The overview of the workflow invocation](galaxy-distance-estimation-astro-sources.png)</div>
+<figcaption>
+The overview of the workflow invocation on ODA Galaxy instance.
+</figcaption>
 
 The full workflow is publicly available on:
 - [WorkflowHub](https://workflowhub.eu/workflows/1353?tab=files)
