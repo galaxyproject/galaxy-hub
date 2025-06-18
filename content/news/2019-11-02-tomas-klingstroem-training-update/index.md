@@ -3,7 +3,7 @@ title: Training update from Tomas Klingström
 date: '2019-11-02'
 tease: Agricultural Sciences collaboration between Swedish University of Agricultural
   sciences researchers and the Agricultural Research Council in South Africa
-tags: [TIaaS, training]
+tags: [tiaas, training]
 supporters:
 - galaxy-europe
 - TIaaS

@@ -245,10 +245,10 @@ These and [other Galaxy related events](/events/)  coming up in the next few mon
 # New Galactic Blog Entry: Coding in the Winter Wonderland: Galaxy Admin Training
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/news/)
 </div>
 
-February had one new *[Galactic Blog](/blog/)* entry:
+February had one new *[Galactic Blog](/news/)* entry:
 
 * [Coding in the Winter Wonderland: Galaxy Admin Training in Oslo, 2018](https://arundecano.wordpress.com/2018/02/01/coding-in-the-winter-wonderland-galaxy-admin-training-in-oslo-2018/), by Arun Decano
 

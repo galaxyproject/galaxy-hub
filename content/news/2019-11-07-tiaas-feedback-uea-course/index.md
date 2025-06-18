@@ -1,7 +1,7 @@
 ---
 title: RNA-Seq Training feedback from Simon Moxon
 date: '2019-11-07'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - TIaaS

@@ -3,7 +3,7 @@ title: Training Infrastructure Feedback from Stefanie Dukowic-Schulze
 date: '2022-06-07'
 tease: Dr.
 hide_tease: true
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Stefanie Dukowic-Schulze

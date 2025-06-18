@@ -2,7 +2,7 @@
 title: Galaxy enhances Introduction to Genomics as part of Master program in Belgrade,
   by Nevena Veljkovic
 date: '2019-01-25'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 location:
   name: Galaxy Europe
 supporters:

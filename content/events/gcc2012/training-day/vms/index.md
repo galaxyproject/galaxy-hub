@@ -148,11 +148,11 @@ The IP address can used to access the VM from tools on the host (your laptop)
 2. *cd galaxy-central*.
 3. *sh startAll.sh*.
 
-From the host machine, point your browser at ([VM-ip] = the eth0 ip address you found above)
- *http://[VM-ip]:8080*
+From the host machine, point your browser at (replace [VM-ip] with the eth0 ip address you found above)
+ *http://localhost:8080*
 
 and a local toolshed at
- *http://[VM-ip]:9090*
+ *http://localhost:9090*
 
 Use *sh stopAll.sh* then *sh startAll.sh* to restart these servers if you make changes that require a Galaxy restart.
 

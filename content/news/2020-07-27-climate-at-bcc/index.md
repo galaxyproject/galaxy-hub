@@ -2,7 +2,7 @@
 title: Climate Science at BCC2020
 date: '2020-07-27'
 tease: July has been a very busy month for Galaxy Climate
-tags: [GCC]
+tags: [GCC, tiaas]
 supporters:
 - galaxy-europe
 - eosc

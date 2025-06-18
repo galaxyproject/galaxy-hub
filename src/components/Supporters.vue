@@ -41,25 +41,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.card {
+    max-width: calc(120px * 4);
+    margin: auto;
+}
+
 .card-body {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
+    justify-content: center;
+    padding: 5px;
 }
 
 .supporter-card {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 
     .image-container {
-        aspect-ratio: 1 / 1;
+        height: 100px;
         display: grid;
         place-items: center;
 
         img {
             max-width: 100%;
+            max-height: 100px;
+            object-fit: contain;
         }
     }
 }

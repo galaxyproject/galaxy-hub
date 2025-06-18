@@ -1,7 +1,7 @@
 ---
 title: 'Training Infrastructure Feedback from Marcel Schulz '
 date: '2020-06-08'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Marcel Schulz

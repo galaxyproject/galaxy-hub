@@ -1,7 +1,7 @@
 ---
 title: 'Training Infrastructure Feedback from Hans-Rudolf Hotz and Lucille Delisle'
 date: "2024-11-15"
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 tease: 'We were super happy to stand in front of a group of highly motivated people to teach them galaxy and workflows.'

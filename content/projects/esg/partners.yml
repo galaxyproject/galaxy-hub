@@ -70,3 +70,7 @@ partners:
     - name: ACK Cyfronet AGH
       image: ./partner-logos/CyfronetLogo.png
       website: https://www.cyfronet.pl/
+
+    - name: University of Freiburg
+      image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
+      website: https://www.uni-freiburg.de/

@@ -2,7 +2,7 @@
 title: "Streamlining Bioinformatics Training with Galaxy TIaaS: A Wet Lab Success Story"
 tease: "No more setup headaches—TIaaS lets us deliver scalable, hands-on bioinformatics training that just works."
 date: "2025-05-15"
-tags: [TIaaS, esg-wp1, esg, gtn]
+tags: [tiaas, esg-wp1, esg, gtn]
 supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu

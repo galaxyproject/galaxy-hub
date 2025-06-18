@@ -59,6 +59,10 @@ supporters:
       image: /images/logos/DataPLANT-logo-transparent.png
       website: https://nfdi4plants.de/
 
+    - name: dataterra
+      image: /images/logos/dataterra.png
+      website: https://www.data-terra.org/
+
     - name: de.KCD
       image: /images/logos/dekcd.png
       website: https://datenkompetenz.cloud/
@@ -94,6 +98,10 @@ supporters:
     - name: egi
       image: /images/logos/egi_logo.png
       website: https://www.egi.eu/
+
+    - name: esa
+      image: /images/logos/esa.png
+      website: https://www.esa.int/
 
     - name: ELIXIR
       image: /images/logos/elixir-logo-big.png
@@ -294,6 +302,10 @@ supporters:
     - name: pari
       image: /images/logos/pari-logo.png
       website: https://neic.no/pari/
+
+    - name: pndb
+      image: /images/logos/pndb.jpg
+      website: https://www.pndb.fr/
 
     - name: qfab
       image: /images/logos/qfab-logo.png
