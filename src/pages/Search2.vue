@@ -170,16 +170,16 @@ export default {
                     const end = new Date(this.dateEnd);
                     if (postDate > end) return false;
                 }
-                // Tags
-                if (this.selectedTags.length && !(p.tags && this.selectedTags.every((t) => p.tags.includes(t))))
+                // Tags (Logical OR)
+                if (this.selectedTags.length && !(p.tags && this.selectedTags.some((t) => p.tags.includes(t))))
                     return false;
-                // Subsites
+                // Subsites (Logical OR)
                 if (
                     this.selectedSubsites.length &&
-                    !(p.subsites && this.selectedSubsites.every((s) => p.subsites.includes(s)))
+                    !(p.subsites && this.selectedSubsites.some((s) => p.subsites.includes(s)))
                 )
                     return false;
-                // Authors
+                // Authors (Logical OR)
                 if (
                     this.selectedAuthors.length &&
                     !(
@@ -188,10 +188,10 @@ export default {
                     )
                 )
                     return false;
-                // Supporters
+                // Supporters (Logical OR)
                 if (
                     this.selectedSupporters.length &&
-                    !(p.supporters && this.selectedSupporters.every((s) => p.supporters.includes(s)))
+                    !(p.supporters && this.selectedSupporters.some((s) => p.supporters.includes(s)))
                 )
                     return false;
                 return true;
