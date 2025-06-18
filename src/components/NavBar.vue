@@ -23,6 +23,8 @@
                     <NavBarItem v-for="item of customContent.left" :key="item.key" :item="item" />
                 </b-navbar-nav>
                 <b-navbar-nav id="global-items" class="ml-auto">
+                    <!-- our new search-metadata link -->
+                     <b-nav-item to="/Search2" exact-active-class="active"> Meta-Search </b-nav-item>
                     <NavBarItem v-for="item of customContent.right" :key="item.key" :item="item" />
                 </b-navbar-nav>
                 <b-navbar-nav id="global-tools" class="ml-2">
