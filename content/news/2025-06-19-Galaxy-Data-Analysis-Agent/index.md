@@ -51,7 +51,7 @@ We’re thrilled to announce the launch of the Galaxy Data Analysis Agent, a pow
 - The agent compiles dynamic prompts from your provided examples and generates executable code.
 - The agent runs the code and returns visualizations, intermediate steps, and detailed explanations.
 
-This workflow simplifies data analysis significantly, allowing for reproducible, robust, and no-code exploratory analyses.
+This workflow simplifies data analysis significantly, allowing for flexible, reproducible, robust, and no-code exploratory analyses.
 
 ### Future Developments
 
@@ -70,4 +70,4 @@ Join our detailed presentation to learn more:
 
 We gratefully acknowledge support from the Moffitt Cancer Center and NIH grants U24CA284167, U24CA231877, U41HG006620, and U24HG010263.
 
-[Explore More on Galaxy](https://galaxyproject.org) | [Goecks Lab](https://goeckslab.org)
+[Explore More on Galaxy](https://usegalaxy.org/root?tool_id=toolshed.g2.bx.psu.edu/repos/goeckslab/chatanalysis/interactive_tool_chat_analysis/0.3.0)
