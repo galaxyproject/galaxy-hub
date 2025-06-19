@@ -25,12 +25,12 @@ The tool enables researchers to:
 
 The tool produces nine structured output tables, including:
 * Entity recognition results
-* Source classification and positions
+* Source classification and sky positions
 * Vectorized input and CNN predictions
 * Matching MMODA tool URLs with relevance scores
 
-These outputs offer a transparent, interpretable view of how the input text is semantically parsed and matched to suitable analysis tools. The dot-product-based scoring ensures that the most relevant instruments - based on  wavelength or source type - are prioritized.
+These outputs demonstrate how the input text is semantically parsed and matched to suitable analysis tools. The dot-product-based scoring ensures that the most relevant instruments - based on wavelength or source type - are prioritized.
 
-This prototype tool demonstrates how semantic representations and domain ontologies can bridge textual astronomical alerts with structured tool recommendations, making platforms like Galaxy more integrated and responsive to real-time research needs.
-   
-We acknowledge the MMODA team and the [SIMBAD](https://simbad.u-strasbg.fr/simbad/), [TNS](https://www.wis-tns.org/), and [FINK](https://fink-portal.org/) for their data services and the [IVOA](https://www.ivoa.net/rdf/object-type/2020-10-06/object-type.html) community for their ontology work of astronomical source types.
+This prototype tool is available on the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/repos/astroteam/analyse_short_astro_text_astro_tool/) and will soon be integrated into [usegalaxy.eu](https://usegalaxy.eu/).
+
+We acknowledge the data services provided by [SIMBAD](https://simbad.u-strasbg.fr/simbad/), [TNS](https://www.wis-tns.org/), and [FINK](https://fink-portal.org/), as well as the [IVOA](https://www.ivoa.net/rdf/object-type/2020-10-06/object-type.html) community for their ontology work on astronomical source types.
