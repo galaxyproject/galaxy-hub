@@ -14,8 +14,8 @@ We’re thrilled to announce the launch of the Galaxy Data Analysis Agent, a pow
 ### What Can You Do With It?
 
 - Describe analyses intuitively with simple natural language queries such as:
-  - “Generate a heatmap”
-  - “Summarize this table”
+  - “Perform a comprehensive Exploratory Data Analysis on the current dataset”
+  - “Create a machine learning model to predict response using autogluon”
   - “Run a t-SNE”
 - Receive detailed visualizations, generated code, and clear explanations.
 
@@ -70,4 +70,4 @@ Join our detailed presentation to learn more:
 
 We gratefully acknowledge support from the Moffitt Cancer Center and NIH grants U24CA284167, U24CA231877, U41HG006620, and U24HG010263.
 
-[Explore More on Galaxy](https://usegalaxy.org/root?tool_id=toolshed.g2.bx.psu.edu/repos/goeckslab/chatanalysis/interactive_tool_chat_analysis/0.3.0)
+[Explore this tool on Galaxy](https://usegalaxy.org/root?tool_id=toolshed.g2.bx.psu.edu/repos/goeckslab/chatanalysis/interactive_tool_chat_analysis/0.3.0)
