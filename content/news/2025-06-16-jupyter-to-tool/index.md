@@ -12,6 +12,6 @@ Astronomers have long embraced Jupyter Notebooks as a flexible and powerful envi
 
 The approach is based on semantically annotating notebook inputs and outputs using domain-specific ontologies, such as those maintained at [odahub.io](https://odahub.io/docs/guide-ontology/). Once annotated, notebooks can be pushed to a public repository and tagged with a predefined label to trigger a bot that generates the corresponding Galaxy tool.
 
-This development streamlines the integration of astronomical analysis codes into the Galaxy platform, bridging the gap between interactive scientific computing and scalable, shareable, and reproducible analysis tools.
+This development streamlines the integration of astronomical analysis codes into the Galaxy platform, bridging the gap between interactive scientific computing and scalable, shareable, and reproducible analysis tools. A [Galaxy Training Network tutorialca](https://training.galaxyproject.org/) is currently preparation.
 
 Learn more and contribute at [nb2workflow on GitHub](https://github.com/oda-hub/nb2workflow).
