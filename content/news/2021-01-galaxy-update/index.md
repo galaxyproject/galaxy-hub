@@ -330,7 +330,7 @@ Learn your way through Galaxy interface and functionalities with automatically g
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header"> [Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms](https://doi.org/10.1021/acs.jproteome.0c00822)</div>

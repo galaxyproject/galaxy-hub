@@ -1,10 +1,5 @@
 <template>
-    <footer :class="article.category">
-        <p class="backlink" v-if="article.category === 'blog'">
-            See this and other Galaxy-related posts in
-            <g-link to="/blog/">The Galactic Blog</g-link>
-        </p>
-    </footer>
+    <footer :class="article.category"></footer>
 </template>
 
 <script>
