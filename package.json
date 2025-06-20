@@ -39,6 +39,7 @@
     "bootstrap-vue": "^2.21.2",
     "commander": "^8.2.0",
     "dayjs": "^1.10.7",
+    "fuse.js": "^7.1.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-feed": "^1.0.2",
     "gridsome-plugin-plausible-analytics": "^1.2.0",
