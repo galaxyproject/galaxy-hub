@@ -31,7 +31,7 @@ On the second day, Galaxy Europe hosted a stand during the Career Fair, connecti
 
 The feedback was fantastic—many attendees shared their curiosity about learning bioinformatics and were excited to discover how Galaxy makes that accessible. We also handed out flyers and demoed some training resources available through the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/).
 
-![Participants at the WoCaNet symposium in Göttingen](./Poster_E-Science.jpeg)
+![Participants at the WoCaNet symposium in Göttingen](./WoCaNet.jpeg)
 
 ## Community, Connection, and Collaboration
 
