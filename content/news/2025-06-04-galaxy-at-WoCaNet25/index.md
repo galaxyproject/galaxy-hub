@@ -1,14 +1,15 @@
 ---
 title: "Galaxy Team at the 9th Women's Careers and Networks Symposium"
 authors: Mina H.Ansari
-tags: [workshop, networks, outreach]
+tags: [workshop, networks, outreach, equality, esg-wp1, esg]
 date: "2025-06-04"
 tease: "Galaxy Europe took part in the WoCaNet 2025 symposium to support women in science and introduce researchers to accessible, reproducible data analysis."
 subsites: [all]
+supporters: [unifreiburg, esg]
 main_subsite: eu
 ---
 
-The Galaxy Europe team participated in the Women's Careers and Networks (WoCaNet) Symposium, held on June 4–5, 2025 at the Max Planck Institute, Faßberg Campus, Göttingen, Germany. WoCaNet is a vibrant, student-organized event that brings together a diverse community of researchers, students, and professionals across academia and industry to explore career paths, foster mentorship, and promote gender equality in science.
+The Galaxy Europe team participated in [the Women's Careers and Networks (WoCaNet) Symposium](https://www.uni-goettingen.de/en/203891.html), held on June 4–5, 2025 at [the Max Planck Institute for Multidisciplinary Science](https://www.mpinat.mpg.de/en), Faßberg Campus, Göttingen, Germany. WoCaNet is a vibrant, student-organized event that brings together a diverse community of researchers, students, and professionals across academia and industry to explore career paths, foster mentorship, and promote gender equality in science.
 
 ## Day 1: Workshops and Empowerment and Career Development
 
@@ -24,11 +25,11 @@ On the second day, Galaxy Europe hosted a stand during the Career Fair, connecti
 - **The role of Galaxy in promoting FAIR, open, and reproducible science** 
 - **Accessing publicly available tools and workflows for biological data analysis**
 - **Opportunities to join the Galaxy community, contribute, and build skills**
-- **Resources such as the Galaxy Training Network (GTN)**
+- **Resources such as the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/)**
 
 ![Galaxy stand at career fair event in Göttingen](./Career-Fair.jpeg)
 
-The feedback was fantastic—many attendees shared their curiosity about learning bioinformatics and were excited to discover how Galaxy makes that accessible. We also handed out flyers and demoed some training resources available through the Galaxy Training Network (GTN).
+The feedback was fantastic—many attendees shared their curiosity about learning bioinformatics and were excited to discover how Galaxy makes that accessible. We also handed out flyers and demoed some training resources available through the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/).
 
 ![Participants at the WoCaNet symposium in Göttingen](./Poster_E-Science.jpeg)
 
@@ -36,4 +37,4 @@ The feedback was fantastic—many attendees shared their curiosity about learnin
 
 WoCaNet 2025 created a unique space for reflection, motivation, and connection. We were inspired by the participants’ openness and drive, and it was an honor to contribute to a program that celebrates and supports women in STEM.
 
-We thank the incredible student organizing team behind WoCaNet 2025.
+We thank the incredible student organizing team behind [WoCaNet 2025](https://www.uni-goettingen.de/en/203891.html).
