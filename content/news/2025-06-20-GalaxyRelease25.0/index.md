@@ -1,49 +1,53 @@
 ---
 title: "The Galaxy 25.0 Release is Live!"
 date: "2025-06-20"
-tease: "The latest Galaxy release is here and is packed with user interface upgrades, performance improvements, and smarter tools to streamline your research."
+tease: "The latest Galaxy release is here and is packed with enhanced collection capabilities, streamlined workflow management, interactive tools and visualizations improvements, and new integrations to accelerate your research."
 hide_tease: false
-authors: Natalie Whitaker-Allen
+authors: Natalie Whitaker-Allen, Ahmed Hamid Awan
 subsites: [all]
 ---
 
 # The Galaxy 25.0 Release is Live\!
 
-We’re thrilled to announce the release of Galaxy 25.0, now live across public Galaxy servers\! This update introduces a range of enhancements to the user interface, performance, and usability, all designed to streamline your analysis workflows and make Galaxy even more intuitive for researchers at all levels.
+We’re thrilled to announce the release of Galaxy 25.0, now live across public Galaxy servers\! This update introduces significant enhancements to dataset collections, visualizations, workflow management, interactive tools, and the interface in general, all designed to streamline your analysis pipelines and make Galaxy even more powerful for researchers at all levels.
 
 Whether you're a seasoned Galaxy user or just getting started, Galaxy 25.0 includes new features that improve discoverability, efficiency, and overall experience.
 
 # Key Highlights in Galaxy 25.0
 
-## Smarter Tool Panel Search and Filtering
+## Streamlined Workflow Management Takes Center Stage
 
-The tool panel now remembers your last search,  even after a refresh,  and includes improved filtering for workflows, collections, and histories. This small change makes a significant difference in productivity, especially during long analysis sessions.
+* New "Rerun" button for easily repeating workflows with the same inputs and parameters
+* Enhanced workflow run interface that unifies input uploading, collection creation, and parameter configuration
+* Support for README documentation within workflows with Markdown formatting
+* Bulk actions for multiple workflow management
+* Ability to clone subworkflows directly in the Workflow Editor
 
-## Workflow and Dataset Improvements
+## Revolutionized Dataset Handling and Collection Building
 
-* Enhanced workflow execution for faster runtime  
-* Refined collection handling with better display, compatibility, and responsiveness  
-* Consistent tool versioning and updated references in shared histories and workflows
+* Unified view for datasets with a streamlined interface for common actions
+* Significantly improved collection system with wizard-style builders
+* Support for mixed paired/unpaired datasets and nested lists
+* Improved rule-based import with clearer feedback
+* New ZIP explorer for importing files from local and remote archives
+* Preferred visualization displays for specific datatypes
 
-## Updated Rule Builder UI
+## Interactive Tools Get a Major Upgrade
 
-The rule builder has been reworked for clarity and ease of use. It now provides improved feedback and visual organization, making it easier to manipulate tabular data for collections.
+* New dedicated Interactive Tools panel in the Activity Bar with tool-specific icons
+* JupyterLite integration for in-browser notebooks that interact directly with Galaxy datasets
+* Many, many improvements and additions to the visualization framework in Galaxy
 
-## Dataset Collection Enhancements
+## Integrations and Administrative Features
 
-Collections are now more flexible than ever:
-
-* Improved support for creating and managing nested collections  
-* Enhanced rule-based creation of lists and pairs  
-* New display options and context menu actions
-
-## Performance and Backend Tweaks
-
-A range of backend performance improvements means faster load times and smoother interactions across the board. The system is more robust when handling large datasets and extensive histories.
+* eLabFTW electronic lab notebook integration
+* RSpace research data management system integration
+* Job cancellation notifications for administrators
+* Redesigned File Sources and Storage Location interfaces
 
 # What This Means for You
 
-If you’re working with large datasets, complex workflows, or frequent tool switching, this release will speed up your work and reduce friction. You’ll notice:
+If you’re working with large datasets, complex workflows, or interactive tools, this release will speed up your work and reduce friction. You’ll notice:
 
 * Fewer clicks to get where you need to go  
 * A faster, more stable interface  
