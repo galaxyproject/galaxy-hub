@@ -7,28 +7,40 @@
                 <!-- Title Search -->
                 <div class="filter full-width">
                     <label for="title-search">Title</label>
-                    <input id="title-search" v-model="titleSearch" type="text" placeholder="Type to search titles" />
+                    <input
+                        id="title-search"
+                        v-model.lazy="titleSearch"
+                        type="text"
+                        placeholder="Type to search titles"
+                    />
                 </div>
 
                 <!-- Date Range Filter -->
                 <div class="filter">
                     <label for="date-start">From Date</label>
-                    <input id="date-start" v-model="dateStart" type="date" />
+                    <input id="date-start" v-model.lazy="dateStart" type="date" />
                 </div>
                 <div class="filter">
                     <label for="date-end">To Date</label>
-                    <input id="date-end" v-model="dateEnd" type="date" />
+                    <input id="date-end" v-model.lazy="dateEnd" type="date" />
                 </div>
 
                 <!-- Tags Filter -->
                 <div class="filter">
                     <label for="tag-search">Tags</label>
-                    <input id="tag-search" v-model="tagSearch" type="text" placeholder="Type to filter tags" />
+                    <input id="tag-search" v-model.lazy="tagSearch" type="text" placeholder="Type to filter tags" />
                     <div class="options-list">
-                        <label v-for="tag in filteredUniqueTags" :key="tag" class="option">
+                        <label v-for="tag in displayedTags" :key="tag" class="option">
                             <input type="checkbox" :value="tag" v-model="selectedTags" />
                             {{ tag }}
                         </label>
+                        <button
+                            v-if="filteredUniqueTags.length > tagDisplayLimit"
+                            @click="showAllTags = !showAllTags"
+                            class="show-toggle"
+                        >
+                            {{ showAllTags ? "Show less" : "Show more" }}
+                        </button>
                     </div>
                 </div>
 
@@ -37,27 +49,46 @@
                     <label for="subsite-search">Subsites</label>
                     <input
                         id="subsite-search"
-                        v-model="subsiteSearch"
+                        v-model.lazy="subsiteSearch"
                         type="text"
                         placeholder="Type to filter subsites"
                     />
                     <div class="options-list">
-                        <label v-for="site in filteredUniqueSubsites" :key="site" class="option">
+                        <label v-for="site in displayedSubsites" :key="site" class="option">
                             <input type="checkbox" :value="site" v-model="selectedSubsites" />
                             {{ site }}
                         </label>
+                        <button
+                            v-if="filteredUniqueSubsites.length > subsitesDisplayLimit"
+                            @click="showAllSubsites = !showAllSubsites"
+                            class="show-toggle"
+                        >
+                            {{ showAllSubsites ? "Show less" : "Show more" }}
+                        </button>
                     </div>
                 </div>
 
                 <!-- Author Filter -->
                 <div class="filter">
                     <label for="author-search">Author</label>
-                    <input id="author-search" v-model="authorSearch" type="text" placeholder="Type to filter authors" />
+                    <input
+                        id="author-search"
+                        v-model.lazy="authorSearch"
+                        type="text"
+                        placeholder="Type to filter authors"
+                    />
                     <div class="options-list">
-                        <label v-for="auth in filteredUniqueAuthors" :key="auth" class="option">
+                        <label v-for="auth in displayedAuthors" :key="auth" class="option">
                             <input type="checkbox" :value="auth" v-model="selectedAuthors" />
                             {{ auth }}
                         </label>
+                        <button
+                            v-if="filteredUniqueAuthors.length > authorsDisplayLimit"
+                            @click="showAllAuthors = !showAllAuthors"
+                            class="show-toggle"
+                        >
+                            {{ showAllAuthors ? "Show less" : "Show more" }}
+                        </button>
                     </div>
                 </div>
 
@@ -66,22 +97,34 @@
                     <label for="supporter-search">Supporters</label>
                     <input
                         id="supporter-search"
-                        v-model="supporterSearch"
+                        v-model.lazy="supporterSearch"
                         type="text"
                         placeholder="Type to filter supporters"
                     />
                     <div class="options-list">
-                        <label v-for="sup in filteredUniqueSupporters" :key="sup" class="option">
+                        <label v-for="sup in displayedSupporters" :key="sup" class="option">
                             <input type="checkbox" :value="sup" v-model="selectedSupporters" />
                             {{ sup }}
                         </label>
+                        <button
+                            v-if="filteredUniqueSupporters.length > supportersDisplayLimit"
+                            @click="showAllSupporters = !showAllSupporters"
+                            class="show-toggle"
+                        >
+                            {{ showAllSupporters ? "Show less" : "Show more" }}
+                        </button>
                     </div>
+                </div>
+
+                <!-- Apply Filters Button -->
+                <div class="filter-actions full-width">
+                    <button @click="applyFilters" class="btn btn-primary">Search</button>
                 </div>
             </div>
 
             <!-- Results -->
-            <div class="results" v-if="filteredPosts.length">
-                <div v-for="post in filteredPosts" :key="post.path" class="post-card">
+            <div class="results" v-if="results.length">
+                <div v-for="post in results" :key="post.path" class="post-card">
                     <h2>
                         <g-link :to="post.path">{{ post.title }}</g-link>
                     </h2>
@@ -105,16 +148,18 @@
 </template>
 
 <script>
+import Fuse from "fuse.js";
+
 export default {
     name: "SearchPage",
     data() {
         return {
-            // Filter selections
+            // filter selections
             selectedTags: [],
             selectedSubsites: [],
             selectedAuthors: [],
             selectedSupporters: [],
-            // Search inputs
+            // search inputs
             titleSearch: "",
             tagSearch: "",
             subsiteSearch: "",
@@ -122,64 +167,111 @@ export default {
             supporterSearch: "",
             dateStart: "",
             dateEnd: "",
+            // results and static lists
+            results: [],
+            normalizedPosts: [],
+            allTags: [],
+            allSubsites: [],
+            allAuthors: [],
+            allSupporters: [],
+            // display toggles
+            showAllTags: false,
+            showAllSubsites: false,
+            showAllAuthors: false,
+            showAllSupporters: false,
+            tagDisplayLimit: 10,
+            subsitesDisplayLimit: 10,
+            authorsDisplayLimit: 10,
+            supportersDisplayLimit: 10,
+            // fuzzy index
+            fuse: null,
         };
     },
+    created() {
+        // cache posts
+        this.normalizedPosts = this.$page.allArticle.edges
+            .map((e) => e.node)
+            .filter((n) => ["news", "events"].includes(n.category));
+        // static unique lists and lowercase caches
+        this.allTags = Array.from(new Set(this.normalizedPosts.flatMap((p) => p.tags || []))).sort();
+        this.allTagsLower = this.allTags.map((t) => t.toLowerCase());
+        this.allSubsites = Array.from(new Set(this.normalizedPosts.flatMap((p) => p.subsites || []))).sort();
+        this.allSubsitesLower = this.allSubsites.map((s) => s.toLowerCase());
+        this.allAuthors = Array.from(
+            new Set(this.normalizedPosts.flatMap((p) => [p.authors, p.contact].filter(Boolean))),
+        ).sort();
+        this.allAuthorsLower = this.allAuthors.map((a) => a.toLowerCase());
+        this.allSupporters = Array.from(new Set(this.normalizedPosts.flatMap((p) => p.supporters || []))).sort();
+        this.allSupportersLower = this.allSupporters.map((s) => s.toLowerCase());
+        // initialize fuse index for title
+        this.fuse = new Fuse(
+            this.normalizedPosts.map((p) => ({ ...p, _lcTitle: p.title.toLowerCase() })),
+            { keys: ["_lcTitle"], threshold: 0.3 },
+        );
+        // initial results
+        this.results = [...this.normalizedPosts];
+    },
     computed: {
-        posts() {
-            return this.$page.allArticle.edges
-                .map((e) => e.node)
-                .filter((n) => ["news", "events"].includes(n.category));
-        },
-        uniqueTags() {
-            return [...new Set(this.posts.flatMap((p) => p.tags || []))].sort();
-        },
-        uniqueSubsites() {
-            return [...new Set(this.posts.flatMap((p) => p.subsites || []))].sort();
-        },
-        uniqueAuthors() {
-            return [...new Set(this.posts.flatMap((p) => [p.authors, p.contact].filter(Boolean)))].sort();
-        },
-        uniqueSupporters() {
-            return [...new Set(this.posts.flatMap((p) => p.supporters || []))].sort();
-        },
+        // lightweight filtering on precomputed arrays
         filteredUniqueTags() {
-            return this.uniqueTags.filter((t) => t.toLowerCase().includes(this.tagSearch.toLowerCase()));
+            const term = this.tagSearch.toLowerCase();
+            return this.allTags.filter((t, i) => this.allTagsLower[i].includes(term));
         },
         filteredUniqueSubsites() {
-            return this.uniqueSubsites.filter((s) => s.toLowerCase().includes(this.subsiteSearch.toLowerCase()));
+            const term = this.subsiteSearch.toLowerCase();
+            return this.allSubsites.filter((s, i) => this.allSubsitesLower[i].includes(term));
         },
         filteredUniqueAuthors() {
-            return this.uniqueAuthors.filter((a) => a.toLowerCase().includes(this.authorSearch.toLowerCase()));
+            const term = this.authorSearch.toLowerCase();
+            return this.allAuthors.filter((a, i) => this.allAuthorsLower[i].includes(term));
         },
         filteredUniqueSupporters() {
-            return this.uniqueSupporters.filter((s) => s.toLowerCase().includes(this.supporterSearch.toLowerCase()));
+            const term = this.supporterSearch.toLowerCase();
+            return this.allSupporters.filter((s, i) => this.allSupportersLower[i].includes(term));
         },
-        filteredPosts() {
-            return this.posts.filter((p) => {
-                // Title filter
-                if (this.titleSearch && !p.title.toLowerCase().includes(this.titleSearch.toLowerCase())) {
-                    return false;
-                }
-                // Date range filter
-                const postDate = new Date(p.date);
-                if (this.dateStart) {
-                    const start = new Date(this.dateStart);
-                    if (postDate < start) return false;
-                }
-                if (this.dateEnd) {
-                    const end = new Date(this.dateEnd);
-                    if (postDate > end) return false;
-                }
-                // Tags (Logical OR)
+        displayedTags() {
+            return this.showAllTags ? this.filteredUniqueTags : this.filteredUniqueTags.slice(0, this.tagDisplayLimit);
+        },
+        displayedSubsites() {
+            return this.showAllSubsites
+                ? this.filteredUniqueSubsites
+                : this.filteredUniqueSubsites.slice(0, this.subsitesDisplayLimit);
+        },
+        displayedAuthors() {
+            return this.showAllAuthors
+                ? this.filteredUniqueAuthors
+                : this.filteredUniqueAuthors.slice(0, this.authorsDisplayLimit);
+        },
+        displayedSupporters() {
+            return this.showAllSupporters
+                ? this.filteredUniqueSupporters
+                : this.filteredUniqueSupporters.slice(0, this.supportersDisplayLimit);
+        },
+    },
+    methods: {
+        applyFilters() {
+            let base = [...this.normalizedPosts];
+            // fuzzy title
+            if (this.titleSearch) {
+                const fuseRes = this.fuse.search(this.titleSearch);
+                base = fuseRes.map((r) => r.item);
+            }
+            this.results = base.filter((p) => {
+                // date
+                let ok = true;
+                if (this.dateStart) ok = new Date(p.date) >= new Date(this.dateStart);
+                if (ok && this.dateEnd) ok = new Date(p.date) <= new Date(this.dateEnd);
+                if (!ok) return false;
+                // tags
                 if (this.selectedTags.length && !(p.tags && this.selectedTags.some((t) => p.tags.includes(t))))
                     return false;
-                // Subsites (Logical OR)
+                // subsites
                 if (
                     this.selectedSubsites.length &&
                     !(p.subsites && this.selectedSubsites.some((s) => p.subsites.includes(s)))
                 )
                     return false;
-                // Authors (Logical OR)
+                // authors
                 if (
                     this.selectedAuthors.length &&
                     !(
@@ -188,7 +280,7 @@ export default {
                     )
                 )
                     return false;
-                // Supporters (Logical OR)
+                // supporters
                 if (
                     this.selectedSupporters.length &&
                     !(p.supporters && this.selectedSupporters.some((s) => p.supporters.includes(s)))
@@ -197,14 +289,8 @@ export default {
                 return true;
             });
         },
-    },
-    methods: {
         formatDate(date) {
-            return new Date(date).toLocaleDateString(undefined, {
-                year: "numeric",
-                month: "short",
-                day: "numeric",
-            });
+            return new Date(date).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
         },
     },
 };
@@ -242,7 +328,7 @@ query SearchPosts {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         gap: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .filter {
         display: flex;
@@ -263,7 +349,7 @@ query SearchPosts {
             margin-bottom: 0.5rem;
         }
         .options-list {
-            max-height: 150px;
+            max-height: 200px;
             overflow-y: auto;
             border: 1px solid #eee;
             padding: 0.5rem;
@@ -276,6 +362,24 @@ query SearchPosts {
             input[type="checkbox"] {
                 margin-right: 0.5rem;
             }
+        }
+        .show-toggle {
+            background: none;
+            border: none;
+            color: #007acc;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 0.25rem;
+        }
+    }
+    .filter-actions {
+        grid-column: span 2;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 1.5rem;
+        .btn {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
         }
     }
     .results {
