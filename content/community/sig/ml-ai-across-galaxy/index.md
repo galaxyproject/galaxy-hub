@@ -154,7 +154,7 @@ Galaxy now supports [GPU-enabled Jupyter Notebooks](https://galaxyproject.org/ne
 
 ## AI-Assisted Programming
 
-Through Galaxy Jupyter Notebooks, researchers can harness ChatGPT as a programming assistant. [This integration](https://galaxyproject.org/news/2023-08-14-chat-gpt/) simplifies code generation, debugging, and workflow optimization.
+Through Galaxy Jupyter Notebooks, researchers can harness ChatGPT as a programming assistant. [This integration](https://galaxyproject.org/news/2023-08-14-chat-gpt/) simplifies code generation and debugging.
 
 ## AI-Powered Model Inference
 
