@@ -31,6 +31,7 @@ The tool produces nine structured output tables, including:
 
 These outputs demonstrate how the input text is semantically parsed and matched to suitable analysis tools. The dot-product-based scoring ensures that the most relevant instruments - based on wavelength or source type - are prioritized.
 
-This prototype tool is available on the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/repos/astroteam/analyse_short_astro_text_astro_tool/) and will soon be integrated into [usegalaxy.eu](https://usegalaxy.eu/).
+This prototype tool is available on the [usegalaxy.eu](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/astroteam/analyse_short_astro_text_astro_tool/analyse_short_astro_text_astro_tool/0.0.1+galaxy0).
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/astroteam/analyse_short_astro_text_astro_tool/analyse_short_astro_text_astro_tool/0.0.1+galaxy0"><button type="button" class="btn btn-success">Run Tool on usegalaxy.eu!</button></a>
 
 We acknowledge the data services provided by [SIMBAD](https://simbad.u-strasbg.fr/simbad/), [TNS](https://www.wis-tns.org/), and [FINK](https://fink-portal.org/), as well as the [IVOA](https://www.ivoa.net/rdf/object-type/2020-10-06/object-type.html) community for their ontology work on astronomical source types.
