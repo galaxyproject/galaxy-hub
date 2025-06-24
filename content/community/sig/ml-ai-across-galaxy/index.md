@@ -89,7 +89,7 @@ Here is a curated highlight of tools from our community:
 Integrated with a Large Language Model (LLM), the Galactic Wizard is an AI-powered assistant within Galaxy,
 ready to answer questions.
 
-### Generative AI tools
+## Generative AI tools
 
 - **[Text-to-Image Magic](https://galaxyproject.org/news/2024-11-26-flux/)**: The FLUX model suite enables the generation of high-quality images from text descriptions.
 - **[Large Language Model (LLM)](https://galaxyproject.org/news/2024-09-02-chat-gpt/)**: in Complex Workflows: Galaxy’s ongoing innovation incorporates Large Language Models into complex workflows, enabling users to build and refine intricate pipelines with AI assistance.
