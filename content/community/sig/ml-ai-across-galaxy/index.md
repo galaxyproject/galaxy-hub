@@ -170,8 +170,7 @@ This enables researchers to run predictive models directly within Galaxy—witho
 
 ### BioImage.IO models for image analysis
 
-Galaxy also supports **[BioImage.IO](https://bioimage.io/#/)**, a repository of deep learning models for biomedical image processing (e.g., segmentation, classification).  
-Using the **[BioImage Inference tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3)**, users can:
+Galaxy also supports **[BioImage.IO](https://bioimage.io/#/)**, a repository of deep learning models for biomedical image processing (e.g., segmentation, classification). Using the **[BioImage Inference tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3)**, users can:
 
 - Load models directly from BioImage.IO for inference
 - Apply state-of-the-art models on microscopy data
