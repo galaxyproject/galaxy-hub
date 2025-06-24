@@ -162,7 +162,7 @@ Galaxy integrates a range of pre-trained AI models to support different inferenc
 
 ### BioModels for systems biology
 
-The **[BioModels](https://www.ebi.ac.uk/biomodels/)** repository provides computational models of biological processes (e.g. in SBML format). Galaxy integrates a **[dedicated tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/biomodels_biomd0000001066/biomodels_biomd0000001066/1.1)** that serves a pre-trained Random Forest model to predict immune checkpoint blockade efficacy across multiple cancer patient cohorts.
+The **[BioModels](https://www.ebi.ac.uk/biomodels/)** repository provides predictive models of biological processes (e.g. in SBML format). Galaxy integrates a **[dedicated tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/biomodels_biomd0000001066/biomodels_biomd0000001066/1.1)** that serves a pre-trained Random Forest model to predict immune checkpoint blockade efficacy across multiple cancer patient cohorts.
 
 This enables researchers to run predictive models directly within Galaxy—without the need for local infrastructure.
 
