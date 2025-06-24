@@ -112,7 +112,7 @@ Galaxy hosts more than 3500 tools, numerous ML/AI-powered and tailored for speci
 - [CellPose Interactive](https://usegalaxy.eu/root?tool_id=interactive_tool_cellpose): A generalist algorithm for cellular segmentation and restoration
 - [VirHunter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/virhunter/virhunter/1.0.0+galaxy3): Detect novel RNA viruses in plant sequencing data using deep learning.
 - [Helixer](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1): Perform gene calling with state-of-the-art deep neural networks.
-- [Qupath](https://usegalaxy.eu/root?tool_id=interactive_tool_qupath): Leverage interactive machine learning for object and pixel classification.
+- [Qupath](https://galaxyproject.org/news/2025-06-24-qupath-post/): Leverage interactive machine learning for object and pixel classification.
 - [Deep-Learning Multi-Omics Integration](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.18+galaxy0): Integrate bulk sequencing data across multiple omics.
 - [Alphafold](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxy-australia/alphafold2/alphafold/2.3.2+galaxy3): AI-powered 3D protein structure prediction.
 - [Ilastik](https://usegalaxy.eu/root?tool_id=interactive_tool_ilastik): Utilize an interactive learning and segmentation toolkit for image analysis.
