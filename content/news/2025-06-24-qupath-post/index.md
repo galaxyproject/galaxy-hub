@@ -1,5 +1,5 @@
 ---
-title: 🔬 QuPath-Galaxy: Bringing digital pathology image analysis to your browser.
+title: "🔬 QuPath-Galaxy: Bringing digital pathology image analysis to your browser."
 date: '2025-06-24'
 tease: Explore whole slide images and run powerful tissue analysis directly in your browser with the QuPath-Galaxy interactive tool.
 hide_tease: true
