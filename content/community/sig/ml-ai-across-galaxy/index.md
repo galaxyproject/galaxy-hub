@@ -158,11 +158,26 @@ Through Galaxy Jupyter Notebooks, researchers can harness ChatGPT as a programmi
 
 ## AI-Powered Model Inference
 
-Galaxy integrates pre-trained AI models, such as **[BioModels](https://galaxyproject.org/news/2023-11-29-bio-m-ltool/)**, for inference tasks. Researchers can:
+Galaxy integrates a range of pre-trained AI models to support different inference tasks, from biological systems modeling to biomedical image analysis. These models are accessible through dedicated tools and resources:
 
-- Load models directly from BioImage.IO for inference, which enables the use of several popular image analysis tools implicitly.
-- Access BioImage.IO mirrored models within Galaxy for efficient consumption
-- Link models from BioModel for direct analysis in Galaxy
+### BioModels for systems biology
+
+The **[BioModels](https://www.ebi.ac.uk/biomodels/)** repository provides computational models of biological processes (e.g. in SBML format). Galaxy integrates a **[dedicated tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/biomodels_biomd0000001066/biomodels_biomd0000001066/1.1)** that serves a pre-trained Random Forest model to predict immune checkpoint blockade efficacy across multiple cancer patient cohorts.
+
+This enables researchers to run predictive models directly within Galaxy—without the need for local infrastructure.
+
+> _Learn more in the [BioModels tool blog post](https://galaxyproject.org/news/2023-11-29-bio-m-ltool/)._
+
+### BioImage.IO models for image analysis
+
+Galaxy also supports **[BioImage.IO](https://bioimage.io/#/)**, a repository of deep learning models for biomedical image processing (e.g., segmentation, classification).  
+Using the **[BioImage Inference tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3)**, users can:
+
+- Load models directly from BioImage.IO for inference
+- Apply state-of-the-art models on microscopy data
+- Access mirrored models within Galaxy for fast and efficient use
+
+> _Explore the GTN tutorial: [Processing Images with BioImage.IO models](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/process-image-bioimageio/tutorial.html)_
 
 ## Yolo-based inference tools
 
