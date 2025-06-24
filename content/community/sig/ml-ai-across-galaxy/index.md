@@ -25,12 +25,11 @@ title: "Machine Learning and Artificial Intelligence Across the Galaxy Community
 - **C** – Community (across Galaxy)
 
 **Like every Galaxy community, we have our own unique flavor!**
-MALIC brings together everything related to machine learning (ML) and artificial intelligence (AI) within Galaxy.  
-We connect users, developers, and trainers from diverse fields to collaborate, share, and grow together in this transformative era of AI.
+MALIC brings together everything related to machine learning (ML) and artificial intelligence (AI) within Galaxy. We connect users, developers, and trainers from diverse fields to collaborate, share, and grow together in this transformative era of AI.
 
-**Our mission is to connect fields such as** *digital humanities*, *omics*, *ecology*, **and** *imaging*, **by sharing expertise that strengthens the Galaxy platform.**
+**Our mission is to connect fields such as _digital humanities_, _omics_, _ecology_, and _imaging_, by sharing expertise to strengthen the Galaxy platform.**
 
-## Could MALIC be your new home in Galaxy? Let’s find out!
+## Could MALIC be your new home within Galaxy? Let’s find out!
 
 We’re a growing, welcoming community of people using and developing ML/AI tools in Galaxy.  
 Whether you're working with data in biology, ecology, humanities, imaging or anywhere in between, there's a place for you here!
@@ -38,7 +37,7 @@ Whether you're working with data in biology, ecology, humanities, imaging or any
 - **Developers**  
   Are you wrapping or building ML or deep learning tools? Join us to coordinate efforts, avoid duplications and get early feedback from others in the community.
 - **Users**  
-  Are you using Galaxy ML tools for omics, images or texts? Share your experiences, tell us what works and what could be improved. Your feedback helps shape future tool design.
+  Are you using Galaxy ML tools for omics, images or texts? Share your experiences, tell us what works well and where we can improve. Your feedback helps shape future tool design.
 - **Trainers**  
   Are you contributing tutorials or running workshops? Help us curate and connect training resources across different use cases and domains.
 - **Researchers**  
@@ -69,7 +68,7 @@ Additionally, we strive to:
 
 We got you covered! These resources are perfect for beginners or returning users:
 
-To dive into ML and AI with Galaxy, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) offers a wide range of tutorials. These tutorials guide you step by step through core ML, statistics and AI concepts, tools, and workflows. They help you gain hands-on experience and build reproducible analyses using Galaxy.
+To dive into ML and AI with Galaxy, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) offers a wide range of tutorials. These tutorials guide you step by step through core ML, statistics, and AI concepts, tools, and workflows. They help you gain hands-on experience and build reproducible analyses using Galaxy.
 
 <iframe 
   src="https://training.galaxyproject.org/training-material/tags/statistics/embed.html" height="400px" 
@@ -78,12 +77,47 @@ To dive into ML and AI with Galaxy, the [Galaxy Training Network (GTN)](https://
   frameborder="0">
 </iframe>
 
+# What ML and AI tools are available?
 
-# What is available?
+The Galaxy ToolShed offers a wide variety of ML and AI tools, freely available for installation on any Galaxy server.  
+Our community maintains a curated list to keep users informed and up to date.
 
-## ML and AI tools
+Here is a curated highlight of tools from our community:
 
-The Galaxy ToolShed offers a variety of tools for ML and AI, freely available for installation on any Galaxy server. Our community maintains a curated list of available tools to keep users informed and up-to-date.
+## Galactic Wizard: Your LLM-Powered Guide 
+
+Integrated with a Large Language Model (LLM), the Galactic Wizard is an AI-powered assistant within Galaxy,
+ready to answer questions.
+
+### Generative AI tools
+
+- **[Text-to-Image Magic](https://galaxyproject.org/news/2024-11-26-flux/)**: The FLUX model suite enables the generation of high-quality images from text descriptions.
+- **[Large Language Model (LLM)](https://galaxyproject.org/news/2024-09-02-chat-gpt/)**: in Complex Workflows: Galaxy’s ongoing innovation incorporates Large Language Models into complex workflows, enabling users to build and refine intricate pipelines with AI assistance.
+
+## MCP-based AI-agent
+
+This project offers a **[Model Context Protocol (MCP)](https://github.com/galaxyproject/galaxy-mcp)** server designed to interface with the Galaxy bioinformatics platform. It allows AI assistants and other clients to connect to Galaxy instances, search for and run tools, manage workflows, and interact with various features within the Galaxy ecosystem.
+
+## Intelligent Tool Recommendations
+
+Building on advanced RNN-based systems, **[Galaxy’s tool recommender](https://galaxyproject.org/news/2023-11-29-transformer-paper/)** suggests the most relevant tools based on user activity and data inputs, streamlining workflow creation and analysis.
+
+## ML-based tools
+
+Galaxy hosts more than 3500 tools, numerous ML/AI-powered and tailored for specific research questions:
+
+- [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Open-source speech recognition now available in Galaxy enables accurate transcription of audio files.
+- [Cleanlab](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/cleanlab/cleanlab_issue_handler/2.7.1+galaxy1.0): Detect and optionally [clean ML datasets](https://galaxyproject.org/news/2025-06-13-cleanlab/) issues using Cleanlab.
+- [TabPFN](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/tabpfn/tabpfn/2.0.9+galaxy0): TabPFN offers a foundational model for tabular data. It can be used for classification and regression on tabular datasets.
+- [CellPose Interactive](https://usegalaxy.eu/root?tool_id=interactive_tool_cellpose): A generalist algorithm for cellular segmentation and restoration
+- [VirHunter](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/virhunter/virhunter/1.0.0+galaxy3): Detect novel RNA viruses in plant sequencing data using deep learning.
+- [Helixer](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/genouest/helixer/helixer/0.3.3+galaxy1): Perform gene calling with state-of-the-art deep neural networks.
+- [Qupath](https://usegalaxy.eu/root?tool_id=interactive_tool_qupath): Leverage interactive machine learning for object and pixel classification.
+- [Deep-Learning Multi-Omics Integration](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flexynesis/flexynesis/0.2.18+galaxy0): Integrate bulk sequencing data across multiple omics.
+- [Alphafold](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxy-australia/alphafold2/alphafold/2.3.2+galaxy3): AI-powered 3D protein structure prediction.
+- [Ilastik](https://usegalaxy.eu/root?tool_id=interactive_tool_ilastik): Utilize an interactive learning and segmentation toolkit for image analysis.
+
+**...many other tools that use internal models, as illustrated below by our CODEX project!**
 
 <iframe
   id="inlineFrameExample"
@@ -94,11 +128,9 @@ The Galaxy ToolShed offers a variety of tools for ML and AI, freely available fo
   src="https://galaxyproject.github.io/galaxy_codex/machine-learning/">
 </iframe>
 
-*Are we missing some tools? [Reach out to us](https://matrix.to/#/#galaxyproject_malic:matrix.org) to keep the list comprehensive.*
+## GPU-Enabled JupyterLab Notebook
 
-## Interactive tools
-
-Explore our interactive tools, including Jupyter notebooks, and discover how Galaxy supports modern and user-friendly approaches to AI and ML.
+Galaxy now supports [GPU-enabled Jupyter Notebooks](https://galaxyproject.org/news/2023-06-06-new-paper-gpu-jupyter-lab/), enhancing computational performance for resource-intensive ML and AI tasks. This feature enables users to experiment with deep learning models and large-scale data analytics seamlessly.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 30px; flex-wrap: wrap;">
 
@@ -120,10 +152,35 @@ Explore our interactive tools, including Jupyter notebooks, and discover how Gal
 
 </div>
 
+## AI-Assisted Programming
+
+Through Galaxy Jupyter Notebooks, researchers can harness ChatGPT as a programming assistant. [This integration](https://galaxyproject.org/news/2023-08-14-chat-gpt/) simplifies code generation, debugging, and workflow optimization.
+
+## AI-Powered Model Inference
+
+Galaxy integrates pre-trained AI models, such as **[BioModels](https://galaxyproject.org/news/2023-11-29-bio-m-ltool/)**, for inference tasks. Researchers can:
+
+- Load models directly from BioImage.IO for inference, which enables the use of several popular image analysis tools implicitly.
+- Access BioImage.IO mirrored models within Galaxy for efficient consumption
+- Link models from BioModel for direct analysis in Galaxy
+
+## Yolo-based inference tools
+
+- **[Perform YOLO image labeling](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/yolo_predict/yolo_predict/8.3.0+galaxy0)**: Perform segmentation and object detection on images.
+- **[Perform YOLO training](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/yolo_predict/yolo_predict/8.3.0+galaxy0)**: Process a dataset of images by splitting them into training, validation, and test sets, then trains a machine learning model based on YOLO models.
+- **[DocLayout-YOLO Enhancing document layout analysis](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/doclayoutyolo/doclayoutyolo/0.0.4.1+galaxy0)**: The tool takes a Yolo model trained for annotating bounding boxes around text.
+
+
+_Are we missing some tools? [Reach out to us](https://matrix.to/#/#galaxyproject-machine-learning:matrix.org) to keep the list comprehensive._
+
+
+# Galaxy-ML: Democratizing Machine Learning in Biomedicine and beyond
+
 ## A dedicated Galaxy ML instance
 
-[ml.usegalaxy.eu](https://ml.usegalaxy.eu) is a Galaxy instance designed specifically for machine learning and AI.  
-It offers a rich set of tools and workflows optimized for interactive and reproducible analysis of imaging and other complex data.
+[ml.usegalaxy.eu](https://ml.usegalaxy.eu) is a Galaxy instance designed specifically for machine learning and AI. This web-based toolkit is designed to make supervised machine learning accessible, reproducible, and scalable for researchers. It supports end-to-end workflows, from preprocessing to evaluation, all within a browser. 
+
+_Original Publication: [Galaxy-ML Toolkit](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009014)_
 
 <img class="img-fluid float-left" src="ml-ai-subdomain.png" style="width:100%;" alt="Machine Learning and AI dedicated interface in Galaxy"/>
 
@@ -149,7 +206,7 @@ Poster available in [Zenodo](https://zenodo.org/records/15639973).
 AI, Machine Learning, Deep Learning, Galaxy ML, Keras, scikit-learn, Text Mining, Digital Humanities, Imaging, Genomics, Ecology, Classification, Clustering, Neural Networks, Predictive Models, Training, Community, FAIR workflows
 
 We’re already building something great — but it won’t be complete without you.
-**Come be part of MALIC, your home for Machine Learning and AI in Galaxy.**
+**Come be part of MALIC, your home for Machine Learning and AI within Galaxy!**
 
 <table><tr>
 <td width="10%">
