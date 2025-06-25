@@ -12,7 +12,7 @@ supporters:
 authors: Amirhossein Nilchi
 authors_structured:
 - github: nilchia
-subsites: [global, all, eu]
+subsites: [all]
 main_subsite: eu
 ---
 
