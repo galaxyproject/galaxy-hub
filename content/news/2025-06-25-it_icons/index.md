@@ -2,7 +2,7 @@
 title: New Interactive Tools Panel in Galaxy 25
 date: '2025-06-25'
 tease: New panel allocated for interactive tools on Galaxy
-hide_tease: true
+hide_tease: false
 tags: [tools]
 supporters:
 - elixir
