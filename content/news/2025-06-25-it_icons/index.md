@@ -21,7 +21,7 @@ Ready to explore? Try it out in your Galaxy instance and let us know what you th
 
 <br/>
 
-IT panel
+IT panel on usegalaxy.eu
 
 <img src="static/it_icon.gif" alt="IT panel"/>
 
