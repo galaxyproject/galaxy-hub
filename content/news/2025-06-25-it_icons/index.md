@@ -4,11 +4,6 @@ date: '2025-06-25'
 tease: New panel allocated for interactive tools on Galaxy
 hide_tease: false
 tags: [tools]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-- nfdi4bioimage
 authors: Amirhossein Nilchi
 authors_structured:
 - github: nilchia
