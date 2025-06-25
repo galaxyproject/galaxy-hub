@@ -6,7 +6,7 @@ subsites: [all]
 authors: Nick Stoler
 ---
 
-A year ago we [launched](/blog/2021-09-hub2/) the new version of the Community Hub. This change brought author-friendly features, a modern, Vue-based architecture, and a fast browsing experience.
+A year ago we [launched](/news/2021-09-hub2/) the new version of the Community Hub. This change brought author-friendly features, a modern, Vue-based architecture, and a fast browsing experience.
 
 But galaxyproject.org is not the only Galaxy community site out there. [Communities](https://galaxyproject.eu) [across](https://site.usegalaxy.org.au) the [world](https://www.galaxyproject.in) run websites with similar features and a similar purpose. This leads to duplication of effort in a few ways. We reimplement similar features and each have to maintain a separate hosting setup. Another duplication is in cross-posting of updates. The majority of [news](/news/) and [events](/events/) posts are pointers to posts on other sites, often to other community sites.
 

@@ -13,7 +13,7 @@ subsites: [all, esg, eu]
 The [April 2025](https://cms.aquainfra.eu/files/AquaINFRA%20Newsletter%20April%202025%20V1.0.pdf) issue of [AquaINFRA](https://aquainfra.eu/)'s 
 newsletter provided an overview of the goals, objectives, and accomplishments 
 of this project, which has been funded by the European Open Science Cloud 
-([EOSC](eosc.eu)) initiative. Enhancing collaboration and FAIRness within 
+([EOSC](https://eosc.eu)) initiative. Enhancing collaboration and FAIRness within 
 the aquatic research community is one of the aims of the AquaINFRA project. 
 They are going to link marine and freshwater researchers from all around the 
 world and make resources and data sharing easier.  Co-designing and developing 
@@ -35,5 +35,5 @@ like [Zenodo](https://zenodo.org/) and get a Digital Object Identifier
 for freshwater and marine researchers, they will create a subdomain based 
 on the successful examples of the [Climate](https://climate.usegalaxy.eu/) 
 and [Earth system](https://earth-system.usegalaxy.eu/) communities.  Please 
-click [here]((https://cms.aquainfra.eu/files/AquaINFRA%20Newsletter%20April%202025%20V1.0.pdf)) 
-to reada the AquaINFRA newsletter for April 2025.
+click [here](https://cms.aquainfra.eu/files/AquaINFRA%20Newsletter%20April%202025%20V1.0.pdf) 
+to read the AquaINFRA newsletter for April 2025.

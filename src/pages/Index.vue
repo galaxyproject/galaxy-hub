@@ -50,14 +50,8 @@
                     </nav>
                 </div>
                 <div class="col-lg-5">
-                    <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfRzPhmwhIiynJQVFaFBWB6u1pDp0VwpPCdZs8qS7a6WjpR1w/viewform"
-                    >
-                        <img
-                            src="/images/carousel_gta_2025_registration-cropped.png"
-                            alt="GTA2025 cropped banner"
-                            class="img-fluid"
-                        />
+                    <a href="https://gbcc2025.org/">
+                        <img src="/images/GBCC_hub_splash_screen-5x4.png" alt="Attend GBCC" class="img-fluid" />
                     </a>
                 </div>
             </div>

@@ -15,28 +15,16 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="https://gxy.io/GTA2025" target="_blank">
+            <a href="https://gbcc2025.org/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/carousel_gta_2025_registration.png"
-                    img-alt="Galaxy Training Academy 2025 registration is now open"
-                ></b-carousel-slide>
-            </a>
-            <a href="https://GBCC2025.org/" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/GBCC_abstract_splash_screen.png"
-                    img-alt="GBCC2025 abstract submission and registration are now open"
+                    img-src="/images/usegalaxy-welcome/GBCC_hub_splash_screen-13x9.png"
+                    img-alt="Attend GBCC2025"
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
                     img-src="/images/jxtx/jxtx-jumbotron.png"
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
-                ></b-carousel-slide>
-            </a>
-            <a href="https://GBCC2025.org/" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/GBCC_abstract_splash_screen.png"
-                    img-alt="GBCC2025 abstract submission and registration are now open"
                 ></b-carousel-slide>
             </a>
         </b-carousel>

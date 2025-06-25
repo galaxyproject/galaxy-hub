@@ -2,7 +2,7 @@
 title: "Empowering Genomics Education with Galaxy TIaaS"
 tease: "TIaaS and Galaxy are transforming how we teach genomics—making hands-on bioinformatics accessible to every student, no coding required."
 date: "2025-05-12"
-tags: [TIaaS, esg-wp1, esg, gtn]
+tags: [tiaas, esg-wp1, esg, gtn]
 supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu

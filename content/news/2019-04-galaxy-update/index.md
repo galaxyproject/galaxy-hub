@@ -222,11 +222,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/news/)
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/blog/)* post where [Björn Grüning](https://github.com/bgruening) gives a [sneak peak at GCC2019](/blog/2019-04-gcc2019/).
+This month we have a *[Galactic Blog](/news/)* post where [Björn Grüning](https://github.com/bgruening) gives a [sneak peak at GCC2019](/news/2019-04-gcc2019/).
 
 ----
 
