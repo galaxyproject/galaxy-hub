@@ -2,7 +2,7 @@
 title: "Lights, Camera... Hacking! Highlights from the Galaxy Imaging Hackathon 2025"
 authors: "Diana Chiang Jurado" 
 contributions:
-    funding: [NFDI4BioImage,de.KCD,OSCARS-FIESTA]
+    funding: [NFDI4BioImage, de.KCD, oscars, fiesta]
 tags: [imaging, hackathon, community, workflows, FAIR, microscopy]
 layout: news
 date: "2025-05-12"
@@ -13,6 +13,7 @@ organizers:
 supporters:
   - nfdi
   - oscars
+  - fiesta
 subsites: [all,global,esg,eu]
 ---
 
@@ -50,10 +51,4 @@ Explore more Galaxy imaging resources:
 🔗 [Galaxy Image Analysis Community](https://galaxyproject.org/community/sig/image-analysis/)  
 🔗 [Imaging Flavour of Galaxy](https://imaging.usegalaxy.eu)
 
-### Supporters
 
-<p align="center">
-  <img src="/images/logos/nfdi4bioimage.png" alt="logo NFDI4BioImage" width="150"/>
-  <img src="deKCD.png" alt="logo de.KCD" width="150"/>
-  <img src="/images/logos/OSCARS_logo.png" alt="logo OSCARS" width="150"/>
-</p>
