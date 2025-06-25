@@ -4,7 +4,7 @@ date: "2025-06-16"
 tease: "Convert your scientific notebooks into reusable Galaxy tools with just a tag."
 hide_tease: false
 tags: [esg-wp5, esg]
-subsites: [all-eu, esg, all]
+subsites: [all]
 main_subsite: eu
 ---
 
