@@ -33,8 +33,3 @@ IT panel
 Check this out on <strong>Galaxy</strong>!
 </div>
 
-<div align="center">
-    <a href="https://usegalaxy.eu/interactivetool_entry_points/list">
-      <button type="button" class="btn btn-primary btn-lg">Check IT panel</button>
-    </a>
-</div>
