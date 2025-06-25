@@ -155,6 +155,10 @@ supporters:
       image: /images/logos/fair-ease.svg
       website: https://www.fairease.eu/
 
+    - name: fiesta
+      image: /images/logos/logo-FIESTA.png
+      website: https://www.eurobioimaging.eu/projects/oscars-fair-image-analysis-across-sciences/
+
     - name: Galaxy
       image: /images/logos/galaxy_project_logo.png
       website: https://galaxyproject.org/
