@@ -28,8 +28,7 @@ IT panel on usegalaxy.eu
 <br/>
 </div>
 
-
 <div align="center">
-Check this out on <strong>Galaxy</strong>!
+P.S.: This demonstration is from the EU instance. The ITs on other instances might slightly differ.
 </div>
 
