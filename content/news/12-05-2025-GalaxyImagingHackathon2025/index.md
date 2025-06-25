@@ -51,10 +51,4 @@ Explore more Galaxy imaging resources:
 🔗 [Galaxy Image Analysis Community](https://galaxyproject.org/community/sig/image-analysis/)  
 🔗 [Imaging Flavour of Galaxy](https://imaging.usegalaxy.eu)
 
-### Supporters
 
-<p align="center">
-  <img src="/images/logos/nfdi4bioimage.png" alt="logo NFDI4BioImage" width="150"/>
-  <img src="deKCD.png" alt="logo de.KCD" width="150"/>
-  <img src="/images/logos/OSCARS_logo.png" alt="logo OSCARS" width="150"/>
-</p>
