@@ -1,5 +1,5 @@
 ---
-title: New Interactive Tools Panel in Galaxy 25
+title: New Interactive Tools Panel in Galaxy 25.0
 date: '2025-06-25'
 tease: New panel allocated for interactive tools on Galaxy
 hide_tease: false
