@@ -2,51 +2,50 @@
 title: Citing Galaxy
 ---
 
-**Please cite Galaxy in any research that uses or extends Galaxy.**
+**Please do not forget to cite Galaxy in any research that uses or extends Galaxy.**
 
-So, how can you do that?  It depends on your research:
+# Primary Publication
 
-| If you are | then please |
+When you use Galaxy and want to publish your work, please cite this paper:
+
+* The Galaxy Community. [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae410/7676834), *Nucleic Acids Research*, 2024;, gkae410, https://doi.org/10.1093/nar/gkae410
+
+This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html).
+
+
+Depending on the additional Galaxy services you used please refer to the following:
+
+
+| Service | Reference|
 | ---- | ---- |
 | **Referring to the Galaxy Project in general** | Cite the [primary publication](#primary-publication). |
 | **Referring to specific [public Galaxy platforms](/use/) or using them in your methods** | Cite [that platform's primary publication](#which-galaxy). |
-| **Using a local or temporary cloud instance** | Cite the [primary publication](#primary-publication) and mention that a local or cloud based Galaxy was used.  (Note: We suspect that this is the most under-reported use of Galaxy.) |
-| **Referencing a specific aspect of Galaxy** | Cite a [publication about that specific topic](#citing-specific-galaxy-components-features), if one is available. Topics with pubs include: <br />&bull; [Galaxy Application Programming Interface (API)](#application-programming-interface-api) <br />&bull; [Cloud](#cloud) <br />&bull; [Data Managers](#data-managers) <br />&bull; [DataSource Tools](#datasource-tools) <br />&bull; [External Display Applications](#external-display-applications) <br />&bull; [Interactive Environments](#interactive-environments) <br />&bull; [Reproducibility](#reproducibility) <br />&bull; [ToolShed](#toolshed) <br />&bull; [Training & Education](#training-education) |
+| **Using a local or temporary cloud instance** | Cite the [primary publication](#primary-publication) and mention that a local or cloud based Galaxy was used. If you are unsure how to cite your local Galaxy, contact your cloud provider or systems administrator. (Note: We suspect that this is the most under-reported use of Galaxy.) |
+| **Referencing a specific aspect of Galaxy** | Cite a [publication about that specific topic](#citing-specific-galaxy-components-features), if one is available. Topics with pubs include: <br />&bull; [Galaxy Application Programming Interface (API)](#application-programming-interface-api) <br />&bull; [Cloud](#cloud) <br />&bull; [Data Managers](#data-managers) <br />&bull; [DataSource Tools](#datasource-tools) <br />&bull; [External Display Applications](#external-display-applications) <br />&bull; [Interactive Environments](#interactive-environments) <br />&bull; [Reproducibility](#reproducibility) <br />&bull; [ToolShed](#toolshed) |
+| **Refencing the Galaxy Training Network and online educational services** | Cite [Training & Education](#training-and-education) if you have used the GTN and online educational services. Individual GTN tutorials also provide a citation block at the end that should be cited when applicable.  |
 | **Referencing a Galaxy web resource other than those above** | See [Citing Medicine: NLM Style Guide for Authors, Editors, and Publishers](http://www.ncbi.nlm.nih.gov/books/NBK7256/) for how to cite [web pages](http://www.ncbi.nlm.nih.gov/books/NBK7274/), [wikis](http://www.ncbi.nlm.nih.gov/books/NBK7266/#A61262), and just about everything else. |
 
 
 
 # Which Galaxy?
 
-If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of the [other public Galaxy servers, cloud sevices, VMs or containers](/use/) (and see each resource's page for citation info), or a local install?
+If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of the [other public Galaxy servers, cloud sevices, VMs or containers](/use/) (and see each resource's page for citation info), or a local install.
 
-Some excellent examples (*emphasis added*):
+If you are unsure how to cite Galaxy please check out some of the [examples](#citation-examples). 
 
-* Used usegalaxy.org: from [Hoyt *et al.*](http://www.g3journal.org/content/7/9/2979):
 
-     "The sequencing data were uploaded to the Galaxy web platform, and *we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))*."
-
-* Used a [public server](/use/): from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
-
-     "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
-
-     Which publication should you cite when using public accessible Galaxy platform?  Most of the platform descriptions include a *Citation(s)* section.
-
-* Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
-
-     "All analyses *were done on the Galaxy instance of the IHPE [http://bioinfo.univ-perp.fr](http://bioinfo.univ-perp.fr/)) [[28](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789#pntd.0005789.ref028)].*"
-
-# Primary Publication
-
-If you use, extend or reference Galaxy in your published work, please cite this publication:
-
-* The Galaxy Community. [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae410/7676834), *Nucleic Acids Research*, 2024;, gkae410, https://doi.org/10.1093/nar/gkae410
-
-This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html).
 
 # Citing Specific Galaxy Components / Features
 
 Cite these papers if you want to cite a particular aspect of Galaxy.
+
+## ToolShed
+
+Please cite the following Galaxy Toolshed paper when you have ran tools inside Galaxy:
+
+* [Daniel Blankenberg](/people/dan/), [Gregory Von Kuster](/people/greg-vonkuster/), [Emil Bouvier](/people/dave-bouvier/), [Dannon Baker](/people/dannon-baker/), [Enis Afgan](/people/enis-afgan/), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/galaxy-team/), [James Taylor](/people/james-taylor/) and [Anton Nekrutenko](/people/anton/). **[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.biomedcentral.com/articles/10.1186/gb4161)**. *Genome Biology* (2014) 15:403 doi:10.1186/gb4161
+
+In addition to that, please do not forget to give credit to the individual tools you used in your analysis! References for individual tools are provided at the end of the tool page inside Galaxy. If  you are unsure where to find this information, please refer to this [example](#finding-tool-references)
 
 ## Application Programming Interface (API)
 
@@ -78,11 +77,8 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 * [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/people/john-chilton/), Johannes Köster, Ryan Dale, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Marius van den Beek](https://github.com/mvdbeek), [Jeremy Goecks](/people/jeremy-goecks/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/).
 **[Practical Computational Reproducibility in the Life Sciences](https://doi.org/10.1016/j.cels.2018.03.014)**, *Cell Systems*, Volume 6, Issue 6, 2018, Pages 631-635, ISSN 2405-4712, doi:10.1016/j.cels.2018.03.014.
 
-## ToolShed
 
-* [Daniel Blankenberg](/people/dan/), [Gregory Von Kuster](/people/greg-vonkuster/), [Emil Bouvier](/people/dave-bouvier/), [Dannon Baker](/people/dannon-baker/), [Enis Afgan](/people/enis-afgan/), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/galaxy-team/), [James Taylor](/people/james-taylor/) and [Anton Nekrutenko](/people/anton/). **[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.biomedcentral.com/articles/10.1186/gb4161)**. *Genome Biology* (2014) 15:403 doi:10.1186/gb4161
-
-## Training & Education
+## Training and Education
 
 * [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/people/dannon-baker/), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate,  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), Torsten Houwaart, Pratik Jagtap, [Delphine Lariviere](/people/delphine-lariviere/), Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/people/james-taylor/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [Björn Grüning](/people/bjoern-gruening/). **[Community-Driven Data Analysis Training for Biology](https://doi.org/10.1016/j.cels.2018.05.012)**, *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1
 
@@ -95,3 +91,34 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 This page highlights only a few Galaxy related publications.  However, *the set of relevant publications is orders of magnitude larger.*  The [Galaxy Group](https://www.zotero.org/groups/galaxy) on [Zotero](https://zotero.org/) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy in any way.  The library contains thousands of publications all classified with ~19 Galaxy specific tags.  See the [Galaxy Publication Library page](/publication-library/) for more.
 
 See the [Citations section](/galaxy-project/statistics/#publications--citations) of the [project statistics page](/galaxy-project/statistics/) for a summary of citations of project papers.
+
+
+## Citation examples 
+
+### Examples of papers mentioning Galaxy
+
+Some excellent examples (*emphasis added*):
+
+* Used usegalaxy.org: from [Hoyt *et al.*](http://www.g3journal.org/content/7/9/2979):
+
+     "The sequencing data were uploaded to the Galaxy web platform, and *we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))*."
+
+* Used a [public server](/use/): from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
+
+     "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
+
+     Which publication should you cite when using public accessible Galaxy platform?  Most of the platform descriptions include a *Citation(s)* section.
+
+* Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
+
+     "All analyses *were done on the Galaxy instance of the IHPE [http://bioinfo.univ-perp.fr](http://bioinfo.univ-perp.fr/)) [[28](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789#pntd.0005789.ref028)].*"
+
+
+  ### Finding tool references
+When you search for a tool inside Galaxy, navigate to the bottom of the page. There you will see a reference box that can be copied and used directly. 
+
+_Visual example:_ 
+
+<img width="1078" alt="Screenshot 2025-06-27 at 11 37 11" src="https://github.com/user-attachments/assets/cc83957d-6b54-4642-8e2a-8e24b5f58cb1" />
+
+
