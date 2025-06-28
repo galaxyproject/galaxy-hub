@@ -7,8 +7,6 @@ authors: Natalie Whitaker-Allen, Ahmed Hamid Awan
 subsites: [all]
 ---
 
-# The Galaxy 25.0 Release is Live\!
-
 We’re thrilled to announce the release of Galaxy 25.0, now live across public Galaxy servers\! This update introduces significant enhancements to dataset collections, visualizations, workflow management, interactive tools, and the interface in general, all designed to streamline your analysis pipelines and make Galaxy even more powerful for researchers at all levels.
 
 Whether you're a seasoned Galaxy user or just getting started, Galaxy 25.0 includes new features that improve discoverability, efficiency, and overall experience.
