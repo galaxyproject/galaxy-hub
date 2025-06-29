@@ -1,5 +1,6 @@
 @use "sass:map";
-@import "variables.scss";
+@use "sass:color";
+@import "variables";
 /* hub-specific overrides to variables */
 $font-family-sans-serif:
     -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
@@ -49,17 +50,17 @@ $home-research-tutorials: #2d629f;
 $home-research-events: #3676bf;
 $home-research-cases: #3676bf;
 
-@import "~bootstrap/scss/bootstrap.scss";
+@import "bootstrap/scss/bootstrap";
 
-//@import "~@fortawesome/fontawesome-free/scss/_variables.scss";
-$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
-@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "~@fortawesome/fontawesome-free/scss/solid.scss";
-@import "~@fortawesome/fontawesome-free/scss/regular.scss";
-@import "~@fortawesome/fontawesome-free/scss/brands.scss";
-@import "~@fortawesome/fontawesome-free/scss/v4-shims.scss";
+//@import "@fortawesome/fontawesome-free/scss/variables";
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import "@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/v4-shims";
 
-@import "overrides.scss";
+@import "overrides";
 
 html {
     position: relative;

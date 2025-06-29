@@ -1,20 +1,23 @@
+@use "sass:color";
+@use "sass:map";
+
 // Everything is derived from $base-color
 // Caveat: currently only works for light colored backgrounds, scss provides functions (contrast) that could be used to improve this
 
 // Base color -- Based on the Galaxy masthead color
 $base-color-1: #2c3143;
-$base-color-2: lighten($base-color-1, 25%);
-$base-color-3: lighten($base-color-1, 50%);
+$base-color-2: color.scale($base-color-1, $lightness: 25%);
+$base-color-3: color.scale($base-color-1, $lightness: 50%);
 
 // DB: complement-colors 1, 2 currently unused
-//$complement-color-1: spin($base-color-1, 180);
-//$complement-color-2: spin($base-color-2, 180);
-$complement-color-3: spin($base-color-3, 180);
+//$complement-color-1: color.adjust($base-color-1, $hue: 180deg);
+//$complement-color-2: color.adjust($base-color-2, $hue: 180deg);
+$complement-color-3: color.adjust($base-color-3, $hue: 180deg);
 
 $base-color: $base-color-2;
 
 // Default border bolor, this is between gray-light and gray-lighter -- classic Galaxy border color
-$border-default-color: lighten(black, 75%);
+$border-default-color: color.scale(black, $lightness: 75%);
 
 // When making borders for components with other colors, how much to darken
 $border-darken-percent: 40%;
@@ -71,7 +74,7 @@ $brand-toggle: gold;
 // they use a map called $theme-colors, so here we override that
 
 $theme-colors: ();
-$theme-colors: map-merge(
+$theme-colors: map.merge(
     (
         "primary": $brand-primary,
         "secondary": $gray-300,
@@ -119,7 +122,7 @@ $body-bg: $white;
 $text-color: $gray-dark;
 
 $link-color: #303030;
-$link-hover-color: darken($link-color, 15%);
+$link-hover-color: color.scale($link-color, $lightness: -15%);
 
 // Fonts and sizes
 
@@ -149,7 +152,7 @@ $headings-line-height: 1.1; // default 1.2
 
 $brand-masthead: $brand-dark;
 $brand-masthead-text: $brand-light;
-$brand-masthead-text-active: lighten($brand-light, 15%);
+$brand-masthead-text-active: color.scale($brand-light, $lightness: 15%);
 $brand-masthead-text-hover: $brand-toggle;
 
 // Increase contrast of dropdown items
@@ -184,7 +187,7 @@ $table-border-color: $border-default-color; // table and cell border
 // -------------------------
 
 $btn-default-color: #333;
-$btn-default-bg: darken($white, 5%);
+$btn-default-bg: color.scale($white, $lightness: -5%);
 $btn-default-border: $border-default-color;
 
 // Forms
