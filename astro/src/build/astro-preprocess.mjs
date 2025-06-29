@@ -11,6 +11,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import { glob } from 'glob';
+import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, '../../..');
@@ -50,6 +51,32 @@ function needsVueProcessing(content, frontmatter) {
   }
   
   return false;
+}
+
+/**
+ * Copy images and other assets from a directory
+ */
+async function copyAssets(sourceDir, slug) {
+  const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp'];
+  const assetExtensions = [...imageExtensions, '.pdf', '.mp4', '.webm'];
+  
+  try {
+    const files = await fs.promises.readdir(sourceDir);
+    
+    for (const file of files) {
+      const ext = path.extname(file).toLowerCase();
+      if (assetExtensions.includes(ext)) {
+        const sourcePath = path.join(sourceDir, file);
+        const destDir = path.join(ASTRO_ROOT, 'public/images', slug);
+        const destPath = path.join(destDir, file);
+        
+        await fs.promises.mkdir(destDir, { recursive: true });
+        await fs.promises.copyFile(sourcePath, destPath);
+      }
+    }
+  } catch (error) {
+    // Directory might not exist or have no assets
+  }
 }
 
 /**
@@ -104,6 +131,11 @@ async function processMarkdownFile(filePath) {
     slug = dirname === '.' ? filename : `${dirname}/${filename}`.replace(/\\/g, '/');
   }
   
+  // Copy associated assets if this is an index.md file
+  if (path.basename(filePath) === 'index.md') {
+    await copyAssets(path.dirname(filePath), slug);
+  }
+  
   // Ensure the collection directory exists
   const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
@@ -114,6 +146,9 @@ async function processMarkdownFile(filePath) {
   
   // Add slug to frontmatter for URL generation
   frontmatter.slug = slug;
+  
+  // Process frontmatter (dates, etc.)
+  const processedFrontmatter = processFrontmatter(frontmatter, filePath);
   
   // Convert Gridsome-specific syntax to Astro
   let processedContent = body;
@@ -126,8 +161,39 @@ async function processMarkdownFile(filePath) {
   processedContent = processedContent.replace(/<g-image/g, '<img');
   processedContent = processedContent.replace(/<\/g-image>/g, '</img>');
   
+  // Update image paths to use the public directory
+  processedContent = processedContent.replace(
+    /!\[([^\]]*)\]\(([^)\s]+\.(jpg|jpeg|JPG|JPEG|png|PNG|gif|GIF|svg|SVG|webp|WEBP))([^)]*)\)/g,
+    (match, alt, src, ext, rest) => {
+      // If it's a relative path (not starting with / or http)
+      if (!src.startsWith('/') && !src.startsWith('http')) {
+        return `![${alt}](/images/${slug}/${src}${rest})`;
+      }
+      return match;
+    }
+  );
+  
+  // Update HTML img tags
+  processedContent = processedContent.replace(
+    /<img\s+([^>]*src=["'])([^"']+\.(jpg|jpeg|JPG|JPEG|png|PNG|gif|GIF|svg|SVG|webp|WEBP))["']([^>]*)>/g,
+    (match, prefix, src, ext, suffix) => {
+      // If it's a relative path (not starting with / or http)
+      if (!src.startsWith('/') && !src.startsWith('http')) {
+        return `<img ${prefix}/images/${slug}/${src}"${suffix}>`;
+      }
+      return match;
+    }
+  );
+  
+  // Process markdown (fix links, add TOC if needed)
+  processedContent = await processMarkdown(processedContent, {
+    filePath,
+    addToc: processedFrontmatter.autotoc !== false,
+    fixLinks: true
+  });
+  
   // Reconstruct the file with updated frontmatter
-  const newContent = matter.stringify(processedContent, frontmatter);
+  const newContent = matter.stringify(processedContent, processedFrontmatter);
   
   await fs.promises.writeFile(destPath, newContent);
   
