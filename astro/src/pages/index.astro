@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TestVue from '../components/TestVue.vue';
+---
+
+<BaseLayout title="Home">
+  <div class="container">
+    <h1>Galaxy Community Hub - Astro Migration</h1>
+    <p class="lead">This is the test page for the Astro migration.</p>
+    <div class="alert alert-info">
+      Bootstrap is loaded and working!
+    </div>
+    <TestVue client:load />
+  </div>
+</BaseLayout>

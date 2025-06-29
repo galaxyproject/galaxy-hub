@@ -1,0 +1,29 @@
+{
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "dev:full": "node src/build/dev.mjs",
+    "preprocess": "node src/build/astro-preprocess.mjs",
+    "build": "npm run preprocess && astro build",
+    "build:verbose": "npm run preprocess -- --verbose && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/vue": "^5.1.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "astro": "^5.10.1",
+    "axios": "^1.10.0",
+    "bootstrap": "^5.3.7",
+    "dayjs": "^1.11.13",
+    "glob": "^11.0.3",
+    "gray-matter": "^4.0.3",
+    "lodash": "^4.17.21",
+    "sass": "^1.89.2",
+    "vue": "^3.5.17"
+  }
+}

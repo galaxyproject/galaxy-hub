@@ -1,0 +1,25 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'All about Galaxy and its community.' } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} | Galaxy Community Hub</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style lang="scss" is:global>
+  @import '../assets/styles.scss';
+</style>
