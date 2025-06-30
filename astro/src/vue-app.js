@@ -10,6 +10,10 @@ import LinkBox from './components/LinkBox.vue';
 import VegaEmbed from './components/VegaEmbed.vue';
 import VideoPlayer from './components/VideoPlayer.vue';
 import MarkdownEmbed from './components/MarkdownEmbed.vue';
+import Navbar from './components/Navbar.vue';
+import Carousel from './components/Carousel.vue';
+import Tabs from './components/Tabs.vue';
+import Accordion from './components/Accordion.vue';
 
 // Export setup function for manual Vue app creation
 export function setupGlobalComponents(app) {
@@ -28,6 +32,10 @@ export function setupGlobalComponents(app) {
   app.component('VegaEmbed', VegaEmbed);
   app.component('VideoPlayer', VideoPlayer);
   app.component('MarkdownEmbed', MarkdownEmbed);
+  app.component('Navbar', Navbar);
+  app.component('Carousel', Carousel);
+  app.component('Tabs', Tabs);
+  app.component('Accordion', Accordion);
   
   // Error handling
   app.config.errorHandler = (err, instance, info) => {
