@@ -61,8 +61,8 @@ async function generateSearchDocuments() {
       const doc = {
         id: frontmatter.slug || path.relative(CONTENT_DIR, filePath),
         title: frontmatter.title,
-        content: textContent.substring(0, 500), // First 500 chars for preview
-        fullContent: textContent,
+        content: textContent.substring(0, 300), // First 300 chars for preview
+        fullContent: textContent.substring(0, 1000), // Limit indexed content
         url: `/${frontmatter.slug || ''}`,
         date: frontmatter.date,
         tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
@@ -88,7 +88,6 @@ function buildSearchIndex(documents) {
     this.ref('id');
     this.field('title', { boost: 10 });
     this.field('content', { boost: 5 });
-    this.field('fullContent');
     this.field('tags', { boost: 3 });
     this.field('authors', { boost: 2 });
     
@@ -97,7 +96,6 @@ function buildSearchIndex(documents) {
         id: doc.id,
         title: doc.title,
         content: doc.content,
-        fullContent: doc.fullContent,
         tags: doc.tags.join(' '),
         authors: doc.authors.join(' ')
       });
