@@ -51,6 +51,10 @@ supporters:
       image: /images/logos/crc992.png
       website: http://www.sfb992.uni-freiburg.de/
 
+    - name: datacommons
+      image: /images/logos/datacommons.png
+      website: https://www.eosc-data-commons.eu/
+
     - name: dataPLANT
       image: /images/logos/DataPLANT-logo-transparent.png
       website: https://nfdi4plants.de/
