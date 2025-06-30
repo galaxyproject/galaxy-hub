@@ -12,7 +12,11 @@
     "search-index": "node src/build/generate-search-index.mjs",
     "build:verbose": "npm run preprocess -- --verbose && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
@@ -39,5 +43,8 @@
     "unist-util-visit": "^5.0.0",
     "vega-embed": "^7.0.2",
     "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1"
   }
 }
