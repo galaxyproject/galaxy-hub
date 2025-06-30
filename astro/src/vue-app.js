@@ -5,14 +5,14 @@ import './assets/styles.scss';
 // Import UI compatibility components
 import { BButton, BAlert, BCard, BFormInput } from './components/ui';
 
-// Global component imports will be added here as we migrate them
-// Example:
-// import LinkBox from './components/LinkBox.vue';
+// Import migrated components
+import LinkBox from './components/LinkBox.vue';
+import VegaEmbed from './components/VegaEmbed.vue';
+import VideoPlayer from './components/VideoPlayer.vue';
+import MarkdownEmbed from './components/MarkdownEmbed.vue';
 
-export default (app) => {
-  // This function is called by Astro's Vue integration
-  // to configure the Vue 3 app instance
-  
+// Export setup function for manual Vue app creation
+export function setupGlobalComponents(app) {
   // Global properties (replacing Vue 2 prototype)
   app.config.globalProperties.$static = {};
   app.config.globalProperties.$page = {};
@@ -23,11 +23,19 @@ export default (app) => {
   app.component('BCard', BCard);
   app.component('BFormInput', BFormInput);
   
-  // Additional global component registration
-  // app.component('LinkBox', LinkBox);
+  // Register migrated components globally
+  app.component('LinkBox', LinkBox);
+  app.component('VegaEmbed', VegaEmbed);
+  app.component('VideoPlayer', VideoPlayer);
+  app.component('MarkdownEmbed', MarkdownEmbed);
   
   // Error handling
   app.config.errorHandler = (err, instance, info) => {
     console.error('Vue error:', err, info);
   };
+}
+
+// Default export for Astro's Vue integration
+export default (app) => {
+  setupGlobalComponents(app);
 };

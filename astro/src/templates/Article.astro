@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry } from 'astro:content';
+
+export interface Props {
+  slug: string;
+  collection: string;
+}
+
+const { slug, collection } = Astro.props;
+const entry = await getEntry(collection, slug);
+
+if (!entry) {
+  return Astro.redirect('/404');
+}
+
+const { Content } = await entry.render();
+const { data } = entry;
+---
+
+<BaseLayout title={data.title || 'Galaxy Hub'}>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <article>
+          <header class="mb-4">
+            <h1>{data.title}</h1>
+            {data.date && (
+              <p class="text-muted">
+                Published on {new Date(data.date).toLocaleDateString()}
+              </p>
+            )}
+            {data.authors && (
+              <p class="text-muted">
+                By {Array.isArray(data.authors) ? data.authors.join(', ') : data.authors}
+              </p>
+            )}
+          </header>
+          
+          {data.tease && (
+            <div class="lead mb-4">
+              {data.tease}
+            </div>
+          )}
+          
+          <div class="content">
+            <Content />
+          </div>
+          
+          {data.tags && data.tags.length > 0 && (
+            <div class="tags mt-4">
+              <strong>Tags:</strong>
+              {data.tags.map((tag) => (
+                <span class="badge badge-secondary ml-1">{tag}</span>
+              ))}
+            </div>
+          )}
+        </article>
+      </div>
+      
+      <div class="col-lg-4">
+        <!-- Sidebar content -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">About Galaxy</h5>
+            <p class="card-text">
+              Galaxy is an open-source platform for accessible, reproducible, 
+              and transparent computational biology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  article {
+    max-width: 100%;
+  }
+  
+  .content {
+    line-height: 1.6;
+  }
+  
+  .content :global(h2) {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content :global(h3) {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .content :global(img) {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content :global(pre) {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    overflow-x: auto;
+  }
+  
+  .content :global(blockquote) {
+    border-left: 4px solid #dee2e6;
+    padding-left: 1rem;
+    margin-left: 0;
+  }
+</style>

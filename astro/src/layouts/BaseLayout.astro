@@ -2,9 +2,10 @@
 export interface Props {
   title: string;
   description?: string;
+  bare?: boolean;
 }
 
-const { title, description = 'All about Galaxy and its community.' } = Astro.props;
+const { title, description = 'All about Galaxy and its community.', bare = false } = Astro.props;
 ---
 
 <html lang="en">
@@ -16,7 +17,51 @@ const { title, description = 'All about Galaxy and its community.' } = Astro.pro
     <title>{title} | Galaxy Community Hub</title>
   </head>
   <body>
-    <slot />
+    {!bare && (
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="/">Galaxy Hub</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/news">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/use">Use Galaxy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/community">Community</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    )}
+    
+    <main>
+      <slot />
+    </main>
+    
+    {!bare && (
+      <footer class="footer mt-5 py-3 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="text-muted">
+                © {new Date().getFullYear()} Galaxy Project. 
+                The Galaxy Community Hub is maintained by the community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    )}
   </body>
 </html>
 
