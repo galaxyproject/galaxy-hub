@@ -13,6 +13,7 @@ import VideoPlayer from './components/VideoPlayer.vue';
 import MarkdownEmbed from './components/MarkdownEmbed.vue';
 import Navbar from './components/Navbar.vue';
 import Carousel from './components/Carousel.vue';
+import CarouselDefault from './components/CarouselDefault.vue';
 import Tabs from './components/Tabs.vue';
 import Accordion from './components/Accordion.vue';
 import Search from './components/Search.vue';
@@ -37,7 +38,8 @@ export function setupGlobalComponents(app) {
   app.component('VideoPlayer', VideoPlayer);
   app.component('MarkdownEmbed', MarkdownEmbed);
   app.component('Navbar', Navbar);
-  app.component('Carousel', Carousel);
+  app.component('Carousel', CarouselDefault); // Default carousel for backward compatibility
+  app.component('CarouselCustom', Carousel); // Custom carousel with slide configuration
   app.component('Tabs', Tabs);
   app.component('Accordion', Accordion);
   app.component('Search', Search);

@@ -21,8 +21,16 @@
         class="carousel-item"
         :class="{ active: index === activeIndex }"
       >
+        <a v-if="slide.link" :href="slide.link" target="_blank" rel="noopener">
+          <img
+            v-if="slide.image"
+            :src="slide.image"
+            class="d-block w-100"
+            :alt="slide.alt || slide.caption"
+          >
+        </a>
         <img
-          v-if="slide.image"
+          v-else-if="slide.image"
           :src="slide.image"
           class="d-block w-100"
           :alt="slide.alt || slide.caption"
