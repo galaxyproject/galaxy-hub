@@ -3,8 +3,8 @@ title: "Freiburg Galaxy team at the EGI 2025"
 date: "2025-06-20"
 authors: "Smitesh Jain, Sebastián Luna-Valero, Sanjay Kumar Srikakulam, and Armin Dadras"
 tease: "From June 03rd to 6th, members from the Freiburg Galaxy team travelled to Santander, Spain to participate and present the EuroScienceGateway (ESG) project at the EGI2025 meeting"
-tags: [eosc, meeting, egi, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference]
-supporters: [egi, unifreiburg, esg]
+tags: [eosc, meeting, egi, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, datacommons]
+supporters: [egi, unifreiburg, esg, datacommons]
 subsites: [all]
 main_subsite: eu
 ---
