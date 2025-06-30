@@ -1,0 +1,58 @@
+---
+import Layout from '../../layouts/BaseLayout.astro';
+import VideoPlayer from '../../components/VideoPlayer.vue';
+---
+
+<Layout title="VideoPlayer Component Test">
+  <div class="container my-5">
+    <h1>VideoPlayer Component Test</h1>
+    
+    <h2>Basic Video Player</h2>
+    <p>This tests a basic video player with just a source.</p>
+    <VideoPlayer 
+      client:load 
+      src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" 
+    />
+    
+    <h2>Video Player with Poster</h2>
+    <p>This tests a video player with a poster image.</p>
+    <VideoPlayer 
+      client:load 
+      src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+      poster="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.jpg"
+    />
+    
+    <h2>Video Player with Dimensions</h2>
+    <p>This tests a video player with specific dimensions.</p>
+    <VideoPlayer 
+      client:load 
+      src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+      width={640}
+      height={360}
+    />
+    
+    <h2>Video Player with Autoplay (Muted)</h2>
+    <p>This tests a video player with autoplay (requires muted for autoplay to work).</p>
+    <VideoPlayer 
+      client:load 
+      src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+      autoplay={true}
+      muted={true}
+    />
+    
+    <h2>Video Player with Loop</h2>
+    <p>This tests a video player that loops.</p>
+    <VideoPlayer 
+      client:load 
+      src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+      loop={true}
+    />
+    
+    <h2>Local Video File</h2>
+    <p>This would test a local video file if one existed.</p>
+    <VideoPlayer 
+      client:load 
+      src="/videos/sample.mp4"
+    />
+  </div>
+</Layout>
