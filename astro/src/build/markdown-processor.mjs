@@ -142,6 +142,29 @@ export function processFrontmatter(frontmatter, filePath) {
     delete frontmatter.layout;
   }
   
+  // Ensure tags is always an array
+  if (frontmatter.tags && !Array.isArray(frontmatter.tags)) {
+    if (typeof frontmatter.tags === 'string') {
+      frontmatter.tags = [frontmatter.tags];
+    } else {
+      frontmatter.tags = [];
+    }
+  }
+  
+  // Ensure subsites is always an array
+  if (frontmatter.subsites && !Array.isArray(frontmatter.subsites)) {
+    if (typeof frontmatter.subsites === 'string') {
+      frontmatter.subsites = [frontmatter.subsites];
+    } else {
+      frontmatter.subsites = [];
+    }
+  }
+  
+  // Ensure authors is properly formatted
+  if (frontmatter.authors && !Array.isArray(frontmatter.authors) && typeof frontmatter.authors === 'string') {
+    frontmatter.authors = [frontmatter.authors];
+  }
+  
   // Ensure dates are properly formatted
   if (frontmatter.date && typeof frontmatter.date === 'string') {
     frontmatter.date = new Date(frontmatter.date).toISOString();

@@ -44,7 +44,7 @@ const newsArticles = articles
                   )}
                 </div>
                 
-                {article.data.tags && article.data.tags.length > 0 && (
+                {article.data.tags && Array.isArray(article.data.tags) && article.data.tags.length > 0 && (
                   <div class="tags mt-2">
                     {article.data.tags.map((tag) => (
                       <span class="badge badge-secondary mr-1">{tag}</span>

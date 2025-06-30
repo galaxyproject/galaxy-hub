@@ -47,7 +47,7 @@ const { data } = entry;
             <Content />
           </div>
           
-          {data.tags && data.tags.length > 0 && (
+          {data.tags && Array.isArray(data.tags) && data.tags.length > 0 && (
             <div class="tags mt-4">
               <strong>Tags:</strong>
               {data.tags.map((tag) => (

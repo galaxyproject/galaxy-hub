@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "dev:full": "node src/build/dev.mjs",
+    "dev:watch": "node src/build/dev.mjs --watch",
+    "watch": "node src/build/watch.mjs",
     "preprocess": "node src/build/astro-preprocess.mjs",
     "build": "npm run preprocess && astro build",
     "build:verbose": "npm run preprocess -- --verbose && astro build",
@@ -19,11 +21,20 @@
     "astro": "^5.10.1",
     "axios": "^1.10.0",
     "bootstrap": "^5.3.7",
+    "chokidar": "^4.0.3",
     "dayjs": "^1.11.13",
     "glob": "^11.0.3",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
+    "remark-frontmatter": "^5.0.0",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "remark-toc": "^9.0.0",
     "sass": "^1.89.2",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0",
+    "vega-embed": "^7.0.2",
     "vue": "^3.5.17"
   }
 }
