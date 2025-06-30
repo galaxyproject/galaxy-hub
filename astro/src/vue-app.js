@@ -16,6 +16,7 @@ import Carousel from './components/Carousel.vue';
 import Tabs from './components/Tabs.vue';
 import Accordion from './components/Accordion.vue';
 import Search from './components/Search.vue';
+import CalendarEmbed from './components/CalendarEmbed.vue';
 
 // Export setup function for manual Vue app creation
 export function setupGlobalComponents(app) {
@@ -40,6 +41,7 @@ export function setupGlobalComponents(app) {
   app.component('Tabs', Tabs);
   app.component('Accordion', Accordion);
   app.component('Search', Search);
+  app.component('CalendarEmbed', CalendarEmbed);
   
   // Error handling
   app.config.errorHandler = (err, instance, info) => {

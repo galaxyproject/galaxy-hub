@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/BaseLayout.astro';
+import CalendarEmbed from '../../components/CalendarEmbed.vue';
+---
+
+<Layout title="Calendar Component Test">
+  <div class="container my-5">
+    <h1>Calendar Component Test</h1>
+    
+    <h2>Eventzilla Calendar</h2>
+    <p>This would display an Eventzilla event calendar widget.</p>
+    <CalendarEmbed client:load event="2026621820" />
+    
+    <h2>Google Calendar - Small</h2>
+    <CalendarEmbed 
+      client:load 
+      googleCalendarId="4479a7d76a41a3160e0dd6f173dc3180cd90efd503930a87037dd136fd83b864@group.calendar.google.com"
+      timezone="Europe/Berlin"
+      height={300}
+    />
+    
+    <h2>Google Calendar - Large</h2>
+    <CalendarEmbed 
+      client:load 
+      googleCalendarId="galaxyproject.org_8rj77o8k0i2lbh6rcn2mt06rhs@group.calendar.google.com"
+      timezone="America/New_York"
+      height={600}
+      width="100%"
+    />
+    
+    <h2>Google Calendar - Fixed Width</h2>
+    <CalendarEmbed 
+      client:load 
+      googleCalendarId="galaxyproject.org_8rj77o8k0i2lbh6rcn2mt06rhs@group.calendar.google.com"
+      timezone="UTC"
+      height={400}
+      width={800}
+    />
+  </div>
+</Layout>
