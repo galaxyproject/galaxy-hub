@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { subsites, isValidSubsite, filterContentBySubsite } from '../../config/subsites.js';
+import yaml from 'js-yaml';
+import fs from 'fs/promises';
+import path from 'path';
+
+export async function getStaticPaths() {
+  // Generate paths for all subsites except global
+  const paths = Object.keys(subsites.all)
+    .filter(key => key !== subsites.default && !subsites.all[key].external)
+    .map(subsite => ({
+      params: { subsite },
+      props: { subsite }
+    }));
+  
+  return paths;
+}
+
+const { subsite } = Astro.props;
+
+// Validate subsite
+if (!isValidSubsite(subsite)) {
+  return Astro.redirect('/404');
+}
+
+const subsiteConfig = subsites.all[subsite];
+
+// Load navbar configuration for the subsite
+let navbarConfig = null;
+try {
+  const navbarPath = path.join(process.cwd(), 'src', 'content', 'original', subsite, 'navbar.yml');
+  const navbarContent = await fs.readFile(navbarPath, 'utf-8');
+  navbarConfig = yaml.load(navbarContent);
+} catch (error) {
+  console.warn(`No navbar.yml found for subsite ${subsite}`);
+}
+
+// Get all news articles and filter by subsite
+const allNews = await getCollection('articles', (entry) => {
+  return entry.id.includes('/news/');
+});
+
+const subsiteNews = filterContentBySubsite(allNews, subsite);
+
+// Sort by date descending
+const sortedNews = subsiteNews.sort((a, b) => {
+  const dateA = new Date(a.data.date || a.id);
+  const dateB = new Date(b.data.date || b.id);
+  return dateB - dateA;
+});
+
+const title = `News | Galaxy ${subsiteConfig.name}`;
+---
+
+<Layout title={title} subsite={subsite} navbarConfig={navbarConfig}>
+  <div class="container my-5">
+    <h1>News from Galaxy {subsiteConfig.name}</h1>
+    
+    <div class="row">
+      <div class="col-lg-8">
+        {sortedNews.length > 0 ? (
+          <div class="news-list">
+            {sortedNews.slice(0, 20).map((article) => (
+              <article class="news-item mb-4 pb-4 border-bottom">
+                <h2>
+                  <a href={`/${article.slug}`}>{article.data.title}</a>
+                </h2>
+                <div class="text-muted mb-2">
+                  <small>{new Date(article.data.date || article.id).toLocaleDateString()}</small>
+                </div>
+                {article.data.tease && (
+                  <p>{article.data.tease}</p>
+                )}
+              </article>
+            ))}
+          </div>
+        ) : (
+          <p>No news articles found for this region.</p>
+        )}
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="sticky-top" style="top: 20px;">
+          <h3>Archive</h3>
+          <p>
+            <a href={`/${subsite}/news/archive`}>View all news →</a>
+          </p>
+          
+          <h3>Subscribe</h3>
+          <p>Stay updated with Galaxy {subsiteConfig.name} news.</p>
+          
+          <h3>Categories</h3>
+          <ul>
+            <li><a href={`/${subsite}/news`}>All News</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

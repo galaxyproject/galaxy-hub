@@ -18,6 +18,7 @@ import Tabs from './components/Tabs.vue';
 import Accordion from './components/Accordion.vue';
 import Search from './components/Search.vue';
 import CalendarEmbed from './components/CalendarEmbed.vue';
+import SubsiteHome from './components/SubsiteHome.vue';
 
 // Export setup function for manual Vue app creation
 export function setupGlobalComponents(app) {
@@ -44,6 +45,7 @@ export function setupGlobalComponents(app) {
   app.component('Accordion', Accordion);
   app.component('Search', Search);
   app.component('CalendarEmbed', CalendarEmbed);
+  app.component('SubsiteHome', SubsiteHome);
   
   // Error handling
   app.config.errorHandler = (err, instance, info) => {

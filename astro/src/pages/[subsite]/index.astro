@@ -1,0 +1,68 @@
+---
+import Layout from '../../layouts/BaseLayout.astro';
+import SubsiteHome from '../../components/SubsiteHome.vue';
+import { subsites, isValidSubsite } from '../../config/subsites.js';
+import yaml from 'js-yaml';
+import fs from 'fs/promises';
+import path from 'path';
+
+export async function getStaticPaths() {
+  // Generate paths for all subsites except global (which uses /index.astro)
+  const paths = Object.keys(subsites.all)
+    .filter(key => key !== subsites.default && !subsites.all[key].external)
+    .map(subsite => ({
+      params: { subsite },
+      props: { subsite }
+    }));
+  
+  return paths;
+}
+
+const { subsite } = Astro.props;
+
+// Validate subsite
+if (!isValidSubsite(subsite)) {
+  return Astro.redirect('/404');
+}
+
+// Check if this is an external subsite
+const subsiteConfig = subsites.all[subsite];
+if (subsiteConfig.external) {
+  return Astro.redirect(subsiteConfig.external);
+}
+
+// Load navbar configuration for the subsite
+let navbarConfig = null;
+try {
+  const navbarPath = path.join(process.cwd(), 'src', 'content', 'original', subsite, 'navbar.yml');
+  const navbarContent = await fs.readFile(navbarPath, 'utf-8');
+  navbarConfig = yaml.load(navbarContent);
+} catch (error) {
+  console.warn(`No navbar.yml found for subsite ${subsite}`);
+}
+
+// Load subsite content pieces
+const contentDir = path.join(process.cwd(), 'src', 'content', 'original', subsite);
+const contentPieces = {};
+
+const contentFiles = ['lead', 'jumbotron', 'main1', 'main2', 'cards'];
+for (const file of contentFiles) {
+  try {
+    const content = await fs.readFile(path.join(contentDir, `${file}.md`), 'utf-8');
+    contentPieces[file] = content;
+  } catch (error) {
+    // File doesn't exist, that's okay
+  }
+}
+
+const title = `Galaxy ${subsiteConfig.name}`;
+---
+
+<Layout title={title} subsite={subsite} navbarConfig={navbarConfig}>
+  <SubsiteHome
+    client:load
+    subsite={subsite}
+    subsiteConfig={subsiteConfig}
+    contentPieces={contentPieces}
+  />
+</Layout>

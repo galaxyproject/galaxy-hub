@@ -1,0 +1,137 @@
+---
+import Layout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { subsites, isValidSubsite, filterContentBySubsite } from '../../config/subsites.js';
+import yaml from 'js-yaml';
+import fs from 'fs/promises';
+import path from 'path';
+
+export async function getStaticPaths() {
+  // Generate paths for all subsites except global
+  const paths = Object.keys(subsites.all)
+    .filter(key => key !== subsites.default && !subsites.all[key].external)
+    .map(subsite => ({
+      params: { subsite },
+      props: { subsite }
+    }));
+  
+  return paths;
+}
+
+const { subsite } = Astro.props;
+
+// Validate subsite
+if (!isValidSubsite(subsite)) {
+  return Astro.redirect('/404');
+}
+
+const subsiteConfig = subsites.all[subsite];
+
+// Load navbar configuration for the subsite
+let navbarConfig = null;
+try {
+  const navbarPath = path.join(process.cwd(), 'src', 'content', 'original', subsite, 'navbar.yml');
+  const navbarContent = await fs.readFile(navbarPath, 'utf-8');
+  navbarConfig = yaml.load(navbarContent);
+} catch (error) {
+  console.warn(`No navbar.yml found for subsite ${subsite}`);
+}
+
+// Get all events and filter by subsite
+const allEvents = await getCollection('events');
+const subsiteEvents = filterContentBySubsite(allEvents, subsite);
+
+// Separate upcoming and past events
+const now = new Date();
+const upcomingEvents = [];
+const pastEvents = [];
+
+subsiteEvents.forEach(event => {
+  const eventDate = new Date(event.data.date);
+  if (eventDate >= now) {
+    upcomingEvents.push(event);
+  } else {
+    pastEvents.push(event);
+  }
+});
+
+// Sort events
+upcomingEvents.sort((a, b) => new Date(a.data.date) - new Date(b.data.date));
+pastEvents.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+
+const title = `Events | Galaxy ${subsiteConfig.name}`;
+---
+
+<Layout title={title} subsite={subsite} navbarConfig={navbarConfig}>
+  <div class="container my-5">
+    <h1>Galaxy {subsiteConfig.name} Events</h1>
+    
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Upcoming Events</h2>
+        {upcomingEvents.length > 0 ? (
+          <div class="events-list mb-5">
+            {upcomingEvents.map((event) => (
+              <article class="event-item mb-4 pb-4 border-bottom">
+                <h3>
+                  <a href={`/${event.slug}`}>{event.data.title}</a>
+                </h3>
+                <div class="text-muted mb-2">
+                  <small>
+                    {new Date(event.data.date).toLocaleDateString()}
+                    {event.data.location && ` • ${event.data.location}`}
+                  </small>
+                </div>
+                {event.data.tease && (
+                  <p>{event.data.tease}</p>
+                )}
+              </article>
+            ))}
+          </div>
+        ) : (
+          <p>No upcoming events.</p>
+        )}
+        
+        <h2>Recent Events</h2>
+        {pastEvents.length > 0 ? (
+          <div class="events-list">
+            {pastEvents.slice(0, 10).map((event) => (
+              <article class="event-item mb-4 pb-4 border-bottom">
+                <h3>
+                  <a href={`/${event.slug}`}>{event.data.title}</a>
+                </h3>
+                <div class="text-muted mb-2">
+                  <small>
+                    {new Date(event.data.date).toLocaleDateString()}
+                    {event.data.location && ` • ${event.data.location}`}
+                  </small>
+                </div>
+                {event.data.tease && (
+                  <p>{event.data.tease}</p>
+                )}
+              </article>
+            ))}
+          </div>
+        ) : (
+          <p>No past events.</p>
+        )}
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="sticky-top" style="top: 20px;">
+          <h3>Event Types</h3>
+          <ul>
+            <li><a href={`/${subsite}/events`}>All Events</a></li>
+            <li><a href={`/${subsite}/events/archive`}>Event Archive</a></li>
+          </ul>
+          
+          <h3>Add Your Event</h3>
+          <p>
+            Have an event related to Galaxy {subsiteConfig.name}? 
+            <a href="/community/contributing"> Let us know!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
