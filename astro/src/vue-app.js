@@ -8,6 +8,7 @@ import { BButton, BAlert, BCard, BFormInput } from './components/ui';
 // Import migrated components
 import LinkBox from './components/LinkBox.vue';
 import VegaEmbed from './components/VegaEmbed.vue';
+import Twitter from './components/Twitter.vue';
 import VideoPlayer from './components/VideoPlayer.vue';
 import MarkdownEmbed from './components/MarkdownEmbed.vue';
 import Navbar from './components/Navbar.vue';
@@ -31,6 +32,7 @@ export function setupGlobalComponents(app) {
   // Register migrated components globally
   app.component('LinkBox', LinkBox);
   app.component('VegaEmbed', VegaEmbed);
+  app.component('Twitter', Twitter);
   app.component('VideoPlayer', VideoPlayer);
   app.component('MarkdownEmbed', MarkdownEmbed);
   app.component('Navbar', Navbar);

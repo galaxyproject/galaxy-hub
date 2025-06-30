@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/BaseLayout.astro';
+import Twitter from '../../components/Twitter.vue';
+---
+
+<Layout title="Twitter Component Test">
+  <div class="container my-5">
+    <h1>Twitter Component Test</h1>
+    
+    <h2>Single Tweet</h2>
+    <Twitter client:load tweet="1735317896468574356" />
+    
+    <h2>User Timeline</h2>
+    <Twitter client:load user="galaxyproject" height={600} />
+    
+    <h2>Tweet with Dark Theme</h2>
+    <Twitter client:load tweet="1735317896468574356" theme="dark" />
+    
+    <h2>Non-centered Tweet</h2>
+    <Twitter client:load tweet="1735317896468574356" center={false} />
+  </div>
+</Layout>
