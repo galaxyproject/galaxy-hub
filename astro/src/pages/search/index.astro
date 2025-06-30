@@ -1,0 +1,149 @@
+---
+import Layout from '../../layouts/BaseLayout.astro';
+---
+
+<Layout title="Search Galaxy Hub">
+  <div class="container my-5">
+    <h1>Search Galaxy Hub</h1>
+    
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="search-container my-4">
+          <input 
+            type="search" 
+            id="search-input" 
+            class="form-control form-control-lg"
+            placeholder="Search documentation, news, events, and more..."
+            aria-label="Search"
+          />
+        </div>
+        
+        <div id="search-results" class="mt-4">
+          <!-- Results will be inserted here -->
+        </div>
+        
+        <div id="search-placeholder" class="text-center text-muted my-5">
+          <p>Enter a search term above to find content across the Galaxy Hub.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    import lunr from 'lunr';
+    
+    let searchIndex = null;
+    let documents = {};
+    
+    // Load search index
+    async function loadSearchIndex() {
+      try {
+        const response = await fetch('/search-index.json');
+        const data = await response.json();
+        
+        // Rebuild the index
+        searchIndex = lunr.Index.load(data.index);
+        documents = data.documents.reduce((acc, doc) => {
+          acc[doc.id] = doc;
+          return acc;
+        }, {});
+      } catch (error) {
+        console.error('Failed to load search index:', error);
+      }
+    }
+    
+    // Perform search
+    function performSearch(query) {
+      if (!searchIndex || !query.trim()) {
+        displayResults([]);
+        return;
+      }
+      
+      try {
+        const results = searchIndex.search(query);
+        const docs = results.map(result => ({
+          ...documents[result.ref],
+          score: result.score
+        }));
+        displayResults(docs);
+      } catch (error) {
+        console.error('Search error:', error);
+        displayResults([]);
+      }
+    }
+    
+    // Display search results
+    function displayResults(results) {
+      const resultsContainer = document.getElementById('search-results');
+      const placeholder = document.getElementById('search-placeholder');
+      
+      if (results.length === 0) {
+        resultsContainer.innerHTML = '';
+        placeholder.style.display = 'block';
+        return;
+      }
+      
+      placeholder.style.display = 'none';
+      
+      const resultsHTML = results.map(doc => `
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="${doc.url}">${doc.title || 'Untitled'}</a>
+            </h5>
+            ${doc.content ? `<p class="card-text">${doc.content}</p>` : ''}
+            <div class="text-muted small">
+              ${doc.type ? `<span class="badge badge-secondary">${doc.type}</span>` : ''}
+              ${doc.date ? `<span class="ml-2">${new Date(doc.date).toLocaleDateString()}</span>` : ''}
+            </div>
+          </div>
+        </div>
+      `).join('');
+      
+      resultsContainer.innerHTML = `
+        <h3>Search Results (${results.length})</h3>
+        ${resultsHTML}
+      `;
+    }
+    
+    // Setup search functionality
+    document.addEventListener('DOMContentLoaded', async () => {
+      await loadSearchIndex();
+      
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) {
+        // Debounce search
+        let searchTimeout;
+        searchInput.addEventListener('input', (e) => {
+          clearTimeout(searchTimeout);
+          searchTimeout = setTimeout(() => {
+            performSearch(e.target.value);
+          }, 300);
+        });
+        
+        // Check for query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        if (query) {
+          searchInput.value = query;
+          performSearch(query);
+        }
+      }
+    });
+  </script>
+
+  <style>
+    .search-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    #search-results .card {
+      transition: box-shadow 0.2s;
+    }
+    
+    #search-results .card:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</Layout>
