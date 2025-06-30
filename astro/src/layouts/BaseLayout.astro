@@ -1,4 +1,6 @@
 ---
+import Footer from '../components/Footer.vue';
+
 export interface Props {
   title: string;
   description?: string;
@@ -52,18 +54,7 @@ const { title, description = 'All about Galaxy and its community.', bare = false
     </main>
     
     {!bare && (
-      <footer class="footer mt-5 py-3 bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p class="text-muted">
-                © {new Date().getFullYear()} Galaxy Project. 
-                The Galaxy Community Hub is maintained by the community.
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer client:load />
     )}
   </body>
 </html>
