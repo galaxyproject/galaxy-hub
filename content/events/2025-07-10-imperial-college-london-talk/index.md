@@ -17,7 +17,7 @@ We’re excited to share that [Imperial College London](https://www.imperial.ac.
 
 **Date**: July 11, 2025
 
-**Time**: 14:00–15:00 BST (15:00–16:00 CEST)
+**Time**: 13:00–14:00 BST (14:00–15:00 CEST)
 
 Register for the event using this [link](https://myimperial.powerappsportals.com/events/event/?id=fc1d2204-b36e-41a5-9546-455748647388&readableEventId=Galaxy_the_research_data_powerhousefrom_analysis_to_FAIR_management3267684407).
 
