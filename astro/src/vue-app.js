@@ -14,6 +14,7 @@ import Navbar from './components/Navbar.vue';
 import Carousel from './components/Carousel.vue';
 import Tabs from './components/Tabs.vue';
 import Accordion from './components/Accordion.vue';
+import Search from './components/Search.vue';
 
 // Export setup function for manual Vue app creation
 export function setupGlobalComponents(app) {
@@ -36,6 +37,7 @@ export function setupGlobalComponents(app) {
   app.component('Carousel', Carousel);
   app.component('Tabs', Tabs);
   app.component('Accordion', Accordion);
+  app.component('Search', Search);
   
   // Error handling
   app.config.errorHandler = (err, instance, info) => {
