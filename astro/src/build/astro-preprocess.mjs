@@ -90,6 +90,11 @@ function getContentCollection(filePath, content, frontmatter) {
     return 'inserts';
   }
   
+  // Check for events
+  if (relativePath.startsWith('events/')) {
+    return 'events';
+  }
+  
   // Check for platform pages
   if (relativePath.startsWith('use/') && !relativePath.startsWith('use/index')) {
     return 'platforms';

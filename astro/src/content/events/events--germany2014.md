@@ -1,0 +1,40 @@
+---
+title: '1st German Galaxy Developer workshop, Thursday, October 2nd, Freiburg'
+slug: events/germany2014
+---
+## Table of contents
+
+* [Preliminary Schedule](#preliminary-schedule)
+* [Location](#location)
+* [Food map](#food-map)
+* [Questions?](#questions)
+
+## Preliminary Schedule
+
+| Time |  Speaker  |  Title  |  PDF  |
+| ---- | -------- | ------ | ---- |
+| 9:15 - 9:30 |  ARRIVAL  |
+| 9:30 - 9:45 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Introduction: Galaxy as Developer Platform  |   |
+| 9:45 - 10:15 |  [Nicola Soranzo](/people/nicola-soranzo/) ([CRS4](http://www.crs4.it/))  |  BioBlend and BioBlend.objects: high level API for scripting Galaxy analyses  |  \[pdf]\(https://depot.galaxyproject.org/hub/attachments/documents/presentations/Soranzo\_SG2014T.pdf
+/tmp/AttchmentsWorking//events/germany2014/Soranzo\_SG2014T.pdf)  |
+| 10:15 - 10:45 |  Jürgen Reymann  |  Automated Data Pipelines & Intelligent Microscopy  |  [pdf](https://depot.galaxyproject.org/hub/attachments/AutomatedDataPipelines_IntelligentMicroscopy_JürgenReymann.pdf)   |
+| 11:15 - 11:45 |  Sebastian Wilzbach  |  BioJS 2: taking biological visualization to the next level  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/germany2014/attachment_BioJS-Reusable_JavaScript_for_Life_Sciences.pdf), [video](https://www.youtube.com/watch?v=SkMKuj-Q0YI)  |
+| 11:45 - 13:00 |  Lunch Break (we will need to find some food nearby)  |
+| 13:00 - 13:30 |  Sebastian Schaaf  |  Galaxy deployment joy in Munich  |   |
+| 13:30 - 14:00 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Interactive Environments: IPython in Galaxy  |   |
+| 14:30 - 15:30|  Open Discussion  |
+| 15:30 - 16:00 |  DEPARTURE (... and going to the city)  |
+
+This schedule will most likely change. It will be adapted according to the progress we make during the day and topics we want to discuss.
+
+## Location
+
+The developer day will be held in the [Biology department (Room -01.131) of the Universität of Freiburg](http://portal.uni-freiburg.de/cipbio/). The room is located in the basement of the Biology II/III building, [Schänzlestrasse 1](https://goo.gl/maps/imrQR).
+
+## Food map
+
+We have created a [small map of places to find food and drinks](https://mapsengine.google.com/map/edit?authuser=0\&authuser=0\&hl=de\&hl=de\&mid=zxYC1QmWto0o.kB3duOpOMr8U) for the lunch.
+
+## Questions?
+
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/)

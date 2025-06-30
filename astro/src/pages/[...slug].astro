@@ -10,6 +10,7 @@ export async function getStaticPaths() {
   const vueArticles = await getCollection('vue-articles');
   const platforms = await getCollection('platforms');
   const bareArticles = await getCollection('bare-articles');
+  const events = await getCollection('events');
   
   const paths = [];
   
@@ -65,6 +66,19 @@ export async function getStaticPaths() {
     });
   });
   
+  // Generate paths for events
+  events.forEach((entry) => {
+    const slug = entry.data.slug;
+    paths.push({
+      params: { slug: slug },
+      props: { 
+        collection: 'events',
+        entrySlug: entry.slug,
+        template: 'event'
+      }
+    });
+  });
+  
   return paths;
 }
 
@@ -75,3 +89,4 @@ const { collection, entrySlug, template } = Astro.props;
 {template === 'vue-article' && <VueArticle slug={entrySlug} collection={collection} />}
 {template === 'platform' && <Platform slug={entrySlug} collection={collection} />}
 {template === 'bare' && <BareArticle slug={entrySlug} collection={collection} />}
+{template === 'event' && <Article slug={entrySlug} collection={collection} />}

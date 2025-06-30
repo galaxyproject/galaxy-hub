@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "npm run preprocess && astro dev",
     "dev:full": "node src/build/dev.mjs",
     "dev:watch": "node src/build/dev.mjs --watch",
     "watch": "node src/build/watch.mjs",
@@ -23,6 +23,7 @@
     "axios": "^1.10.0",
     "bootstrap": "^5.3.7",
     "chokidar": "^4.0.3",
+    "date-fns": "^4.1.0",
     "dayjs": "^1.11.13",
     "glob": "^11.0.3",
     "gray-matter": "^4.0.3",

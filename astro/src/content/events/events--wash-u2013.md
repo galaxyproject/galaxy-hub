@@ -1,0 +1,110 @@
+---
+slug: events/wash-u2013
+---
+## Table of contents
+
+* [Registration](#registration)
+* [Audience](#audience)
+* [Agenda](#agenda)
+* [Support](#support)
+* [Slides](#slides)
+* [Flyer](#flyer)
+* [Questions?](#questions)
+
+## Registration
+
+Registration is *free, and open to anyone in the Washington University community*.  Both days are now full.
+
+## Audience
+
+Are you a biomedical researcher who needs to do complex analysis on large datasets?
+
+Galaxy is an open, web-based platform for data intensive biomedical research that enables non-bioinformaticians to create, run, tune, and share their own bioinfor-matic analyses.
+
+These hands-on workshops will teach participants how to integrate data, and perform simple and complex analysis within Galaxy. They will also cover data visualization and visual analytics, and how to share and reuse your bioinformatic analyses, all from within Galaxy.
+
+No programming or Linux command line experience is required.
+
+## Agenda
+
+The agenda is the same for both days.
+
+<table>
+  <tr class="th" >
+    <th> Time </th>
+    <th> Topic </th>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 9:00 </th>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 9:20 </th>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 10:40 </th>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 11:00 </th>
+    <td> <strong>Basic Analysis into Reusable Workflows</strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 11:20 </th>
+    <td> <strong>RNA-Seq Example Part I</strong><div class='indent'>Review NGS data quality issues, quality control options in Galaxy, and Mapping and Splice Junction Calling;  Transcript assembly with Cufflinks</div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 12:20 </th>
+    <td style=" text-align: center;"> <strong>Lunch</strong> (on your own) </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 1:35 </th>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 1:55 </th>
+    <td> <strong>RNA-Seq Example Part II</strong><div class='indent'>Discuss and run differential gene expression analysis, and merging multiple experiments into a single picture; Visualization and Visual Analytics</div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 2:45 </th>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 3:05 </th>
+    <td> <strong>Sharing, Publishing, and Reproducibility with Galaxy</strong><div class='indent'>Share and publish analysis, datasets, and workflows with Galaxy</div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 3:25 </th>
+    <td> <strong>Setting up your own Galaxy Cluster on the Amazon Cloud</strong><div class='indent'>Every participant will set up their own functional and populated (but short-lived) Galaxy server on the cloud </div> </td>
+  </tr>
+  <tr>
+    <th style=" text-align: right;"> 5:00 </th>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
+  </tr>
+</table>
+
+<div class='right'><br /><a href='https://becker.wustl.edu/'><img src="/images/logos/WashUBeckerLibrary.png" alt="Washington University’s Becker Medical Library" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div></div>
+
+## Support
+
+<div class='left'><a href='/events/missouri-workshop-tour2013/'><img src="/images/logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
+
+This workshop is generously supported by Washington University’s [Becker Medical Library](https://becker.wustl.edu/) and an [AWS in Education](http://aws.amazon.com/education/) grant award.
+
+This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/events/missouri-workshop-tour2013/).
+
+## Slides
+
+* [Monday Workshop](https://depot.galaxyproject.org/hub/attachments/documents/presentations/20130429WashUWorkshop.pdf)
+* [Wednesday Workshop](https://depot.galaxyproject.org/hub/attachments/documents/presentations/20130501WashUWorkshop.pdf)
+
+## Flyer
+
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/wash-u2013/WashUGalaxy2013.pdf'><img src="/events/wash-u2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
+Please distribute to groups in Washington University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
+
+## Questions?
+
+Contact \[Kristi Holmes]\(mailto:holmeskr AT wusm DOT wustl DOT edu) or \[Galaxy Outreach]\(mailto:outreach AT galaxyproject DOT org).
