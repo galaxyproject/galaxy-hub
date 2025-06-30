@@ -15,7 +15,7 @@ autotoc: false
 ---
 We’re excited to share that [Imperial College London](https://www.imperial.ac.uk/) is hosting [an online talk on the Galaxy platform](https://myimperial.powerappsportals.com/events/event/?id=fc1d2204-b36e-41a5-9546-455748647388&readableEventId=Galaxy_the_research_data_powerhousefrom_analysis_to_FAIR_management3267684407). This is a good opportunity for researchers, data scientists, and IT specialists to explore how Galaxy supports end-to-end data analysis across various disciplines.
 
-**Date**: July 11, 2025
+**Date**: July 10, 2025
 
 **Time**: 13:00–14:00 BST (14:00–15:00 CEST)
 
