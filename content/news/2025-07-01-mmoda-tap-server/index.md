@@ -13,14 +13,4 @@ Following our recent announcement of [a generic tool for connecting to astronomi
 
 By using the [Astronomical Archives tool](https://usegalaxy.eu/root?tool_id=astronomical_archives) in Galaxy, you can now connect to this service by using the features made available with this tool. 
 
-This new TAP server can be reached to the URL "http://www.astro.unige.ch/mmoda/tap/".
-
-<div class="center">
-<div class="img-sizer" style="width: 100%">
-
-![Querying the INTEGRAL TAP server from within Galaxy to find observations of the Crab Nebula.](galaxy-integral-tap.png)</div>  
-
-<figcaption>
-
-</figcaption>
-</div>
+This new TAP server can be reached to the URL "http://www.astro.unige.ch/mmoda/dispatch-data/tap/".
