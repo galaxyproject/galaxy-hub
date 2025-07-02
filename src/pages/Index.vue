@@ -49,11 +49,6 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-lg-5">
-                    <a href="https://gbcc2025.org/">
-                        <img src="/images/GBCC_hub_splash_screen-5x4.png" alt="Attend GBCC" class="img-fluid" />
-                    </a>
-                </div>
             </div>
         </div>
         <div class="container-fluid-real p-0">
