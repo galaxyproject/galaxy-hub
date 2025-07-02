@@ -60,16 +60,16 @@ Registration is free. We recommend to register as soon as possible to secure you
       </thead>
       <tbody>
         <tr><td>01.10.2025 (Wed)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>Arrival and Welcome<br>Community update talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Georges-Köhler-Allee 82</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA</td></tr>
         <tr><td>01.10.2025 (Wed)</td><td>14:30-16:00</td><td><b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities, platforms, and focus groups</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>01.10.2025 (Wed)</td><td>16:30-17:30</td><td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 1</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>02.10.2025 (Thr)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>New developments talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Georges-Köhler-Allee 82</td></tr>
+        <tr><td>02.10.2025 (Thr)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA</td></tr>
         <tr><td>02.10.2025 (Thr)</td><td>14:30-16:00</td><td><b><span class="event-meets">European Galaxy Days Meets EuroScienceGateway</span></b><br>Several talks to get to know each other</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>02.10.2025 (Thr)</td><td>16:30-17:30</td><td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-esg">EuroScienceGateway Final Conference</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>03.10.2025 (Fri)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA<br>Room Nr. TBA</td></tr>
       </tbody>
     </table>
   </div>
@@ -86,14 +86,14 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>10:30 - 10:45</td><td>Daniela Schneider</td><td><span class="event-egd">Broadening the Galaxy: Introducing Digital Humanities in Galaxy</span></td><td>15'</td></tr>
         <tr><td>10:45 - 11:00</td><td>TBA</td><td><span class="event-egd">Galaxy Training Network</span></td><td>15'</td></tr>
         <tr><td>11:00 - 11:45</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
-        <tr><td>11:45 - 12:05</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 3)</span></td><td>20'</td></tr>
+        <tr><td>11:45 - 12:05</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy Astronomy</span></td><td>20'</td></tr>
         <tr><td>12:05 - 12:25</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 4)</span></td><td>20'</td></tr>
         <tr><td>12:25 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 5)</span></td><td>20'</td></tr>
         <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
         <tr><td>14:30 - 14:45</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td></tr>
         <tr><td>14:45 - 15:00</td><td>Maria Chavero-Diez</td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td></tr>
-        <tr><td>15:00 - 15:15</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 3)</span></td><td>15'</td></tr>
-        <tr><td>15:15 - 15:30</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 4)</span></td><td>15'</td></tr>
+        <tr><td>15:00 - 15:15</td><td>Paul De Geest</td><td><span class="event-elixir">TBD</span></td><td>15'</td></tr>
+        <tr><td>15:15 - 15:30</td><td>Mirela Minkova</td><td><span class="event-elixir">On-demand, Reproducible Galaxy Instances in a Secure Environment for the Dutch Scientific Community</span></td><td>15'</td></tr>
         <tr><td>15:30 - 15:45</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 5)</span></td><td>15'</td></tr>
         <tr><td>15:45 - 16:00</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 6)</span></td><td>15'</td></tr>
         <tr><td>16:00 - 16:30</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
@@ -116,7 +116,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>10:30 - 11:15</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
         <tr><td>11:15 - 11:35</td><td>Marius van den Beek</td><td><span class="event-egd">The Future of Galaxy Tools</span></td><td>20'</td></tr>
         <tr><td>11:35 - 11:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 7)</span></td><td>10'</td></tr>
-        <tr><td>11:45 - 12:00</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 8)</span></td><td>15'</td></tr>
+        <tr><td>11:45 - 12:00</td><td>José Manuel Domínguez</td><td><span class="event-egd">New integrations: eLabFTW and RSpace ELNs, ARC middleware for distributed computing</span></td><td>15'</td></tr>
         <tr><td>12:00 - 12:20</td><td>Nicola Soranzo</td><td><span class="event-egd">Making Galaxy workflows sustainable and FAIR</span></td><td>20'</td></tr>
         <tr><td>12:20 - 12:30</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 10)</span></td><td>10'</td></tr>
         <tr><td>12:30 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 11)</span></td><td>15'</td></tr>
@@ -124,7 +124,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
         <tr><td>14:30 - 14:50</td><td>Lukasz Opiola</td><td><span class="event-meets">Galaxy & Onedata integration, managing Galaxy data using Onedata, BYOD & BYOS</span></td><td>20</td></tr>
         <tr><td>14:50 - 15:00</td><td>Martin Cech</td><td><span class="event-meets">Automating Galaxy Tool Management Through a GitHub Repository Template</span></td><td>10'</td></tr>
-        <tr><td>15:00 - 15:20</td><td>Paul De Geest</td><td><span class="event-meets">TBD</span></td><td>20'</td></tr>
+        <tr><td>15:00 - 15:20</td><td>Jain Smitesh</td><td><span class="event-meets">Sustainability of Galaxy (EuroScienceGateway)</span></td><td>20'</td></tr>
         <tr><td>15:20 - 15:30</td><td>Nikolay Vazov</td><td><span class="event-meets">TBD</span></td><td>10'</td></tr>
         <tr><td>15:30 - 15:40</td><td>Marco Antonio Tangaro</td><td><span class="event-meets">Laniakea Nebula: VPN-Based Isolation for Galaxy Private Deployments</span></td><td>10'</td></tr>
         <tr><td>15:40 - 15:50</td><td>TBD</td><td><span class="event-meets">TBD</span></td><td>10'</td></tr>
