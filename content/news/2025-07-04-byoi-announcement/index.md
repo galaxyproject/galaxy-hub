@@ -8,9 +8,9 @@ supporters: [unifreiburg, esg]
 subsites: [all]
 main_subsite: eu
 ---
-We're excited to introduce a major update to storage functionality on usegalaxy.* instances, now available as part of the [Galaxy 25.0 release](https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html) and the EuroScienceGateway (ESG) project. These features bring improved flexibility, user control, and scalability to your data workflows.
+We're excited to introduce a major update to storage functionality on usegalaxy.* instances, now available as part of the [Galaxy 25.0 release](https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html). These features bring improved flexibility, user control, and scalability to your data workflows.
 
-These improvements are part of EuroScienceGateway’s [“Bring Your Own Infrastructure”]((https://zenodo.org/records/15729502)) vision and play a key role in enabling a federated and flexible research environment. They enhance compliance, scalability, and user empowerment, especially for research groups with institutional infrastructure or data residency requirements.
+These improvements play a key role in enabling a federated and flexible research environment. They enhance compliance, scalability, and user empowerment, especially for research groups with institutional infrastructure or data residency requirements.
 
 # Need more storage or want to connect your own?
 
