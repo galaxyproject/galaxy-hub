@@ -8,7 +8,7 @@ title: 'Galaxy: The Open Source Platform as an entry point to Digital Humanities
   Research Data Management'
 contact: Daniela Schneider
 location:
-  name: Online
+  name: Bonn, Germany
 continent: GL
 external_url: https://digigw.hypotheses.org/6292
 tease: Are you new to digital history? Do you want to learn ways to analyse your sources
