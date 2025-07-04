@@ -75,7 +75,7 @@ Registration is free. We recommend to register as soon as possible to secure you
   </div>
 
   <div class="tab-content" v-if="activeTab === 'day1'">
-    <h3>Day 1 – Wednesday, October 4</h3>
+    <h3>Day 1 – Wednesday, October 1st</h3>
     <table>
       <thead>
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
@@ -103,7 +103,7 @@ Registration is free. We recommend to register as soon as possible to secure you
   </div>
 
   <div class="tab-content" v-if="activeTab === 'day2'">
-    <h3>Day 2 – Thursday, October 5</h3>
+    <h3>Day 2 – Thursday, October 2nd</h3>
     <table>
       <thead>
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
@@ -136,7 +136,7 @@ Registration is free. We recommend to register as soon as possible to secure you
   </div>
 
   <div class="tab-content" v-if="activeTab === 'day3'">
-    <h3>Day 3 – Friday, October 6</h3>
+    <h3>Day 3 – Friday, October 3rd</h3>
     <table>
       <thead>
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
