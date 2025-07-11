@@ -1,18 +1,26 @@
-# Galaxy and Bioconductor Community Conference 2025
+![Galaxy News Banner](GalaxyNews.png)
 
-# Meeting Overview
+<h1 align="center">Galaxy and Bioconductor Community Conference 2025
+    
+<p align="center">
+  <img src="GBCClogo.jpg" alt="DGBCC2025 Logo" width="500"/>
+</p>
+
+## Meeting Overview
 
 The first-ever [Galaxy and Bioconductor Community Conference (GBCC2025)](https://www.google.com/url?q=https://gbcc2025.org/&sa=D&source=docs&ust=1751512397354592&usg=AOvVaw37w9XXIrmRcXavS_TmjkPE) took place from June 23 to 26, 2025, at the iconic Cold Spring Harbor Laboratory in New York, bringing together two powerhouse communities in bioinformatics for their first-ever joint conference. Over four packed days, participants engaged in keynote talks, oral and lightning presentations, hands-on training, poster sessions, and Birds of a Feather (BoF) discussions. The event culminated in a two-day collaborative CoFest (CollaborationFest), where attendees worked side by side on code, documentation, training materials, and infrastructure to advance open science.  
 
-# Fellowship Recipients
+![GBCC2025 Group Photo](Photo1.jpg)
+
+## Fellowship Recipients
 
 GBCC2025 proudly welcomed a cohort of exceptional early-career researchers and students supported by two community-driven initiatives: the [James P. Taylor Foundation for Open Science (JXTX)](https://www.google.com/url?q=https://jxtxfoundation.org&sa=D&source=docs&ust=1751512397354722&usg=AOvVaw2GE7AxQ2JXR1lPmP5yvJpO) and the [JJ Travel Fellowship Fund](https://www.google.com/url?q=https://jxtxfoundation.org/scholarships/jj-fund/&sa=D&source=docs&ust=1751512397354888&usg=AOvVaw3fFtjII8-LB_rzf1krZXEh). These fellowships aim to lower barriers to participation, foster mentorship, and cultivate a more inclusive and representative scientific community.
 
-## James P. Taylor Foundation for Open Science
+### James P. Taylor Foundation for Open Science
 
 The JXTX Foundation honors the legacy of Dr. James P. Taylor, who championed mentorship and diversity in the field of computational biology. The foundation supports students and early-career researchers through conference scholarships, mentorship programming, and outreach to underrepresented groups. JXTX aims to carry forward Dr. Taylor’s vision of open, collaborative science that empowers the next generation of researchers.
 
-### JXTX Scholarship Recipients
+#### JXTX Scholarship Recipients
 
 Six outstanding scholars were selected for the 2025 GBCC JXTX Scholarship, representing a global spectrum of talent and research interests:
 
@@ -40,11 +48,11 @@ Focus: EMT in cancer progression and stromal-tumor cell interactions in metastas
 *McMaster University, Canada*  
 Focus: Biomedical engineering, neurotechnology, and real-time communication tools using EEG and visual tracking.
 
-## JJ Fund
+### JJ Fund
 
 The JJ Fund was established in memory of James Johnson, one of Galaxy’s earliest developers and a devoted mentor. JJ believed deeply in building community through training and support. These fellowships help bring new voices into the Galaxy ecosystem, especially those from underrepresented backgrounds, while continuing his legacy of mentorship and service.
 
-### JJ Travel Fellowship Recipients
+#### JJ Travel Fellowship Recipients
 
 **Pariksheet Nanda**  
 *University of Pittsburgh, USA*  
@@ -54,17 +62,17 @@ Focus: Pathogen-host interactions and computational immunology using open-source
 *University of Minnesota; Rochester & Mayo Clinic, USA*  
 Focus: Single-cell and spatial transcriptomics for studying liver disease; passionate about bridging computational and experimental biology.
 
-## NIH: National Human Genome Research Institute
+### NIH: National Human Genome Research Institute
 
 Thanks to funding from the NHGRI, GBCC2025 was able to support the attendance of more than 30 community members from around the world. This support helped bring together students, early-career researchers, and contributors from a wide range of backgrounds, many of whom were attending a Galaxy or Bioconductor conference for the first time.
 
 By reducing financial barriers, this funding played a key role in expanding access and fostering an inclusive and globally connected community. We are grateful to the NHGRI for their support in helping make GBCC2025 more accessible and impactful for all.
 
-# Keynote Speakers
+## Keynote Speakers
 
 GBCC2025 featured three outstanding keynote speakers whose work exemplifies the core values of the Galaxy and Bioconductor communities: open science, innovation in data analysis, and a commitment to mentorship and education. Each speaker brought a unique perspective, from statistical methods in proteomics to viral evolution to global training infrastructure, sparking rich discussions throughout the conference.
 
-## Charlotte Soneson
+### Charlotte Soneson
 
 *Research Associate, Computational Biology Platform, Friedrich Miescher Institute for Biomedical Research* 
 
@@ -72,7 +80,11 @@ Charlotte Soneson’s keynote talk blended technical depth with community spirit
 
 Charlotte was recognized with the Bioconductor Award (2021) and Ruth Chiquet Prize (2023) for her development of einprot, a powerful tool for the statistical analysis of proteomics data. Her keynote explored the principles of open-source tool development, data reproducibility, and lessons learned from bridging computational rigor with accessibility in biomedical research.
 
-## Sergei L. Kosakovsky Pond
+<p align="center">
+  <img src="Photo2.jpg" alt="Charlotte's keynote talk" width="500"/>
+</p>
+
+### Sergei L. Kosakovsky Pond
 
 *Professor, Department of Biology, Temple University* 
 
@@ -80,7 +92,11 @@ A leader in viral evolution and computational biology, Dr. Sergei Pond delivered
 
 He is the developer of widely used tools such as HyPhy and co-leads BRC-Analytics, a national NIH Bioinformatics Resource Center. With over 40,000 citations and an h-index of 81, Dr. Pond’s keynote emphasized the need for robust, interpretable models in the era of high-throughput sequence data, especially in the context of public health.
 
-## Jason Williams
+<p align="center">
+  <img src="Photo3.jpg" alt="Sergei's keynote talk" width="500"/>
+</p>
+
+### Jason Williams
 
 *Assistant Director for External Collaborations, Cold Spring Harbor Laboratory* 
 
@@ -88,7 +104,11 @@ Jason Williams closed the keynote series with a passionate call for inclusivity,
 
 Jason is also the founder of LifeSciTrainers.org, a global initiative that supports short-format life science training for professionals. His keynote emphasized building equity-centered training ecosystems, encouraging participants to engage not just as users and developers but as educators and mentors committed to breaking down systemic barriers in science.
 
-# GBCC Live\! Session
+<p align="center">
+  <img src="Photo4.jpg" alt="Jason's keynote talk" width="500"/>
+</p>
+
+## GBCC Live\! Session
 
 In the spirit of innovation, we introduced “GBCC Live\!” — a thrilling, real-time showcase at this year’s conference. This session walked attendees through the entire journey a researcher takes, from raw data to a manuscript draft, all within an hour and entirely live on stage.
 
@@ -102,7 +122,7 @@ Finally, we closed with a groundbreaking demonstration: drafting a manuscript li
 
 GBCC Live\! powerfully illustrated how Galaxy and Bioconductor seamlessly integrate to support rapid, reproducible research — all in a high-energy, real-world scenario.
 
-# Talk Sessions
+## Talk Sessions
 
 Across five curated sessions, GBCC2025 featured over 50 oral presentations showcasing cutting-edge research, novel tools, and impactful community projects. The talks covered a range of topics, including workflow automation and visualization, large-scale data integration, machine learning, and cloud-based analysis.
 
@@ -123,7 +143,7 @@ Across five curated sessions, GBCC2025 featured over 50 oral presentations showc
 
 Together, the talk sessions illustrated the incredible range and collaborative strength of the GBCC community, united by a shared mission to advance open, reproducible, and accessible science.
 
-## Lightning Talks
+### Lightning Talks
 
 The GBCC2025 Lightning Talk session provided a fast-paced and high-energy snapshot of community projects and new tools. This year’s lineup included 11 speakers, each given just a few minutes to present their work, making the session a favorite among attendees for its diversity, momentum, and fresh insights.
 
@@ -135,7 +155,7 @@ The session also featured **Alexandru Mahmoud** (Bioconductor Core Team), who of
 
 **Robert Castelo** (Pompeu Fabra University) introduced atena, a Bioconductor package for analyzing transposable elements, while **Daniel Guevara Diaz** and **Daniel Garbozo** (Bioinformatics Group in Munich) presented transcriptomic profiling studies focused on early biomarkers for Chagas cardiomyopathy and novel insights into tuberculosis, respectively.
 
-# Poster Sessions
+## Poster Sessions
 
 The GBCC2025 poster session featured over 50 presentations spanning a broad range of topics in bioinformatics, tool development, and community infrastructure. The session provided an opportunity for in-depth discussion and exchange around both published tools and works in progress.
 
@@ -143,7 +163,14 @@ Several posters expanded on topics introduced in the oral sessions, offering tec
 
 The poster session served as a technical complement to the oral program, providing space for detailed conversation, community feedback, and collaboration across the Galaxy and Bioconductor ecosystems. 
 
-# Training Sessions
+<p align="center">
+  <img src="Photo5.jpg" alt="Poster 1" width="200" style="margin: 10px;" />
+  <img src="Photo6.jpg" alt="Poster 2" width="200" style="margin: 10px;" />
+  <img src="Photo7.jpg" alt="Poster 3" width="200" style="margin: 10px;" />
+  <img src="Photo8.jpg" alt="Poster 4" width="200" style="margin: 10px;" />
+</p>
+
+## Training Sessions
 
 The GBCC2025 training program featured ten hands-on sessions covering a wide range of topics across Galaxy and Bioconductor. These workshops provided attendees with practical skills in workflow development, tool integration, AI interpretation, spatial omics, and more.
 
@@ -162,13 +189,13 @@ Training Sessions:
 
 Each session offered focused instruction and live demonstrations, helping participants build confidence in using and contributing to open-source bioinformatics platforms. Whether new to Galaxy or deepening expertise in Bioconductor, attendees left with practical knowledge they could apply to their research.
 
-# Birds of a Feather
+## Birds of a Feather
 
 The Birds of a Feather sessions at GBCC2025 provided informal, participant-driven spaces for focused discussion, knowledge sharing, and community building. Held across multiple days, these sessions brought together attendees with shared interests to connect on technical challenges, user needs, project updates, and future collaborations.
 
 Topics ranged from Galaxy training infrastructure and FAIR workflows to software development practices, visualization tools, and community coordination across regions and platforms. The flexible, discussion-based format enabled real-time problem-solving, brainstorming, and collaboration among developers, researchers, and educators.
 
-# CoFest
+## CoFest
 
 The final two days of GBCC2025 were dedicated to CoFest, a collaborative sprint where community members came together to contribute to open-source projects across Galaxy and Bioconductor. This event encouraged hands-on work in tool development, documentation, updating training materials, and technical integration between platforms.
 
@@ -176,7 +203,12 @@ Participants also worked on outreach and onboarding resources to support new use
 
 Whether refining software, building training content, or improving documentation, CoFest exemplified the collaborative energy that defines both the Galaxy and Bioconductor communities. It was a productive and inclusive close to the week’s events, translating shared goals into real progress. 
 
-# Celebrating 20 years of Galaxy
+<p align="center">
+  <img src="Photo9.jpg" alt="CoFest 1" width="400" style="margin: 10px;" />
+  <img src="Photo10.jpg" alt="CoFest 2" width="400" style="margin: 10px;" />
+</p>
+
+## Celebrating 20 years of Galaxy
 
 2025 marked a major milestone for the Galaxy community: 20 years of accessible, reproducible, and collaborative science. Since its launch in 2005, Galaxy has evolved into a global platform that supports thousands of tools, powers research across disciplines, and brings together a diverse and active community of users, developers, and educators.
 
@@ -184,9 +216,9 @@ At GBCC2025, this anniversary was more than just a moment of reflection; it was 
 
 From infrastructure innovation to international collaboration, Galaxy’s first 20 years have laid the groundwork for what’s next. As the platform enters its third decade, the commitment to openness, community leadership, and reproducibility remains stronger than ever.
 
-# Recognition
+## Recognition
 
-## Sponsors
+### Sponsors
 
 **Silver Sponsors**  
 [Chan Zuckerberg Initiative](https://chanzuckerberg.com/)  
@@ -204,7 +236,7 @@ From infrastructure innovation to international collaboration, Galaxy’s first 
 **Other Partners**  
 [National Human Genome Research Institute](https://www.genome.gov/)
 
-## Organizing Committee
+### Organizing Committee
 
 Alex Mahmoud, *Harvard Medical School*  
 Andres Wokaty, *CUNY ISPH*  
@@ -221,7 +253,7 @@ Tim Triche, *Van Andel Institute*
 Tyler Collins, *Johns Hopkins University*  
 Wes Wilson, *University of Pennsylvania*
 
-## Scientific Program Members
+### Scientific Program Members
 
 **Chairs**  
 Enis Afgan, *Johns Hopkins University*  
