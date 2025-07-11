@@ -1,0 +1,497 @@
+galaxy_instances:
+  - brand: "/ ChemFlow 20.05"
+    url: "http://vm-chemflow-francegrille.eu"
+    location: "Villeurbanne, France"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "20.05"
+    tools_available: 164
+
+  - brand: "@ Belgium"
+    url: "http://usegalaxy.be"
+    location: "Zillebeke, Belgium"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "21.01"
+    tools_available: 3891
+
+  - brand: "ABiMS"
+    url: "http://galaxy.sb-roscoff.fr"
+    location: "Roscoff, France"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "19.05"
+    tools_available: 690
+
+  - brand: "ARGA"
+    url: "http://mem.rcees.ac.cn:8083"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "21.01"
+    tools_available: 0
+
+  - brand: "AuBi"
+    url: "http://galaxy.mesocentre.uca.fr"
+    location: "Lyon, France"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "21.05"
+    tools_available: 944
+
+  - brand: "Australia"
+    url: "http://usegalaxy.org.au"
+    location: "Melbourne, Australia"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: true
+      terms_url: "https://site.usegalaxy.org.au/about#terms-of-service"
+    version: "22.05"
+    tools_available: 3873
+
+  - brand: "Baumeister Lab"
+    url: "http://mapping-by-sequencing.vm.uni-freiburg.de:8080"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "17.09"
+    tools_available: 64
+
+  - brand: "Binf"
+    url: "http://galaxy.bio.ku.dk"
+    location: "Copenhagen, Denmark"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "21.01"
+    tools_available: 92
+
+  - brand: "BioBix"
+    url: "http://galaxy.ugent.be"
+    location: "Bambrugge, Belgium"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "22.05"
+    tools_available: 207
+
+  - brand: "Europe"
+    url: "http://usegalaxy.eu"
+    location: "Freiburg im Breisgau, Germany"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: true
+      terms_url: "https://usegalaxy.eu/terms"
+    version: "22.05"
+    tools_available: 10314
+
+  - brand: "France"
+    url: "http://usegalaxy.fr"
+    location: "Orsay, France"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: true
+      terms_url: "https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//common/terms.html"
+    version: "22.05"
+    tools_available: 3174
+
+  - brand: "Galaxy Docker Build"
+    url: "http://galaxy.bio.di.uminho.pt"
+    location: "Porto, Portugal"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "20.09"
+    tools_available: 157
+
+  - brand: "Galaxy-GSA"
+    url: "http://www.moralab.science:8080"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "21.05"
+    tools_available: 0
+
+  - brand: "Galaxy-SynBioCAD"
+    url: "http://galaxy-synbiocad.org"
+    location: "Toulouse, France"
+    properties:
+      login_required: true
+      quotas_enabled: false
+      terms: false
+    version: "21.09"
+    tools_available: 123
+
+  - brand: "HyPhy"
+    url: "http://galaxy.hyphy.org"
+    location: "Philadelphia, United States"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "22.05"
+    tools_available: 435
+
+  - brand: "ImmPort Galaxy"
+    url: "http://www.immportgalaxy.org"
+    location: "Ashburn, United States"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: true
+      terms_url: "https://immport.org/disclaimer"
+    version: "20.01"
+    tools_available: 46
+
+  - brand: "iNAP"
+    url: "http://mem.rcees.ac.cn:8081"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "21.01"
+    tools_available: 0
+
+  - brand: "InteractoMIX"
+    url: "http://galaxy.interactomix.com"
+    location: "Barcelona, Spain"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "19.09"
+    tools_available: 82
+
+  - brand: "LAPPS"
+    url: "http://galaxy.lappsgrid.org"
+    location: "Bloomington, United States"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "19.01"
+    tools_available: 0
+
+  - brand: "Migale"
+    url: "http://galaxy.migale.inra.fr"
+    location: "Les Breviaires, France"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "20.09"
+    tools_available: 0
+
+  - brand: "MITOLINK"
+    url: "http://ab-openlab.csir.res.in/frog"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "20.01"
+    tools_available: 174
+
+  - brand: "MITOLINK"
+    url: "http://ab-openlab.csir.res.in/mitolink_v1"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "20.01"
+    tools_available: 174
+
+  - brand: "Norway"
+    url: "http://usegalaxy.no"
+    location: "Bergen, Norway"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: true
+      terms_url: "https://usegalaxy.no/galaxy-terms/"
+    version: "21.09"
+    tools_available: 3955
+
+  - brand: "palfinder"
+    url: "http://palfinder.ls.manchester.ac.uk"
+    location: "Manchester, United Kingdom"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: true
+      terms_url: "https://palfinder.ls.manchester.ac.uk//static/terms.html"
+    version: "19.05"
+    tools_available: 85
+
+  - brand: "Pasteur"
+    url: "http://galaxy.pasteur.fr"
+    location: "Paris, France"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "18.05"
+    tools_available: 716
+
+  - brand: "Protologger"
+    url: "http://protologger.de"
+    location: "Aachen, Germany"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "20.01"
+    tools_available: 67
+
+  - brand: "RNA-Seq"
+    url: "http://galaxy.networkanalyst.ca"
+    location: "Saint-Laurent, Canada"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "18.05"
+    tools_available: 0
+
+  - brand: "TG/HWG"
+    url: "http://treegenes.cam.uchc.edu"
+    location: "Farmington, United States"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "20.01"
+    tools_available: 321
+
+  - brand: "unknown"
+    url: "http://aspendb.uga.edu:8085"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "16.07"
+    tools_available: 0
+
+  - brand: "unknown"
+    url: "http://omicstudio.cloud:4001"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "17.09"
+    tools_available: 0
+
+  - brand: "unknown"
+    url: "http://galaxy3.compbio.cs.cmu.edu:9001"
+    location: "Unknown"
+    properties:
+      login_required: true
+      quotas_enabled: false
+      terms: false
+    version: "19.05"
+    tools_available: 0
+
+  - brand: "unknown"
+    url: "http://galaxy.ul.edu.lb"
+    location: "Beirut, Lebanon"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "18.09"
+    tools_available: 0
+
+  - brand: "unknown"
+    url: "http://galaxy.informatik.uni-halle.de"
+    location: "Halle, Germany"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "16.01"
+    tools_available: 0
+
+  - brand: "unknown"
+    url: "http://life2cloud.com:6005"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "19.05"
+    tools_available: 0
+
+  - brand: "unknown"
+    url: "http://apostl.moffitt.org"
+    location: "Tampa, United States"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "16.04"
+    tools_available: 63
+
+  - brand: "unknown"
+    url: "http://bf2i-galaxy.insa-lyon.fr:8080"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "20.01"
+    tools_available: 445
+
+  - brand: "unknown"
+    url: "http://143.169.238.104/galaxy"
+    location: "Unknown"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "19.05"
+    tools_available: 525
+
+  - brand: "unknown"
+    url: "http://bipaa-galaxy.genouest.org"
+    location: "Le Chesnay, France"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "21.09"
+    tools_available: 1570
+
+  - brand: "unknown"
+    url: "http://dintor.eurac.edu"
+    location: "Borgo Valsugana, Italy"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "17.05"
+    tools_available: 114
+
+  - brand: "unknown"
+    url: "http://www.freebioinfo.org"
+    location: "Hangzhou, China"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "18.05"
+    tools_available: 374
+
+  - brand: "unknown"
+    url: "http://gio.sbcs.qmul.ac.uk"
+    location: "City of London, United Kingdom"
+    properties:
+      login_required: true
+      quotas_enabled: false
+      terms: false
+    version: "16.01"
+    tools_available: 137
+
+  - brand: "unknown"
+    url: "http://galaxy.genouest.org"
+    location: "Le Chesnay, France"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "21.09"
+    tools_available: 5380
+
+  - brand: "unknown"
+    url: "http://galaxy.genelab.nasa.gov"
+    location: "Reston, United States"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "20.01"
+    tools_available: 223
+
+  - brand: "unknown"
+    url: "http://gigagalaxy.net"
+    location: "Singapore, Singapore"
+    properties:
+      login_required: false
+      quotas_enabled: false
+      terms: false
+    version: "15.07"
+    tools_available: 70
+
+  - brand: "unknown"
+    url: "http://galaxy-web.ipk-gatersleben.de"
+    location: "Gatersleben, Germany"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "21.05"
+    tools_available: 111
+
+  - brand: "unknown"
+    url: "http://neo.engr.uconn.edu"
+    location: "Ellington, United States"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: false
+    version: "18.05"
+    tools_available: 88
+
+  - brand: "unknown"
+    url: "http://ngtax.systemsbiology.nl"
+    location: "Wageningen, Netherlands"
+    properties:
+      login_required: true
+      quotas_enabled: false
+      terms: false
+    version: "20.09"
+    tools_available: 74
+
+  - brand: "unknown"
+    url: "http://pepsimili.e-nios.com:8080"
+    location: "Unknown"
+    properties:
+      login_required: true
+      quotas_enabled: true
+      terms: false
+    version: "18.01"
+    tools_available: 168
+
+  - brand: "unknown"
+    url: "http://usegalaxy.org"
+    location: "Austin, United States"
+    properties:
+      login_required: false
+      quotas_enabled: true
+      terms: true
+      terms_url: "https://usegalaxy.org/static/terms.html"
+    version: "23.0"
+    tools_available: 4494
