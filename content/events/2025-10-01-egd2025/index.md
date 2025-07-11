@@ -109,7 +109,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:30 - 09:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 1)</span></td><td>15'</td></tr>
+        <tr><td>09:30 - 09:45</td><td>Lucille Delisle</td><td><span class="event-egd">pyGenomeTracks - make a publishable figure out of your NGS data</span></td><td>15'</td></tr>
         <tr><td>09:45 - 10:00</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 2)</span></td><td>15'</td></tr>
         <tr><td>10:00 - 10:15</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 3)</span></td><td>15'</td></tr>
         <tr><td>10:15 - 10:30</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 4)</span></td><td>15'</td></tr>
