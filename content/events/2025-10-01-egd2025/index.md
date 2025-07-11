@@ -87,7 +87,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>10:45 - 11:00</td><td>TBA</td><td><span class="event-egd">Galaxy Training Network</span></td><td>15'</td></tr>
         <tr><td>11:00 - 11:45</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
         <tr><td>11:45 - 12:05</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy Astronomy</span></td><td>20'</td></tr>
-        <tr><td>12:05 - 12:25</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 4)</span></td><td>20'</td></tr>
+        <tr><td>12:05 - 12:25</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Galaxy Special Interest Groups (with a focus on "Small Scale Admins" and "Switzerland"</span></td><td>20'</td></tr>
         <tr><td>12:25 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 5)</span></td><td>20'</td></tr>
         <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
         <tr><td>14:30 - 14:45</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td></tr>
