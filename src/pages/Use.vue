@@ -2,155 +2,74 @@
     <Layout>
         <ClientOnly>
             <!-- Page name and description. -->
-            <h1 class="page-title">{{ inserts.main.title }}</h1>
-            <div class="markdown" v-html="inserts.main.content"></div>
-
-            <b-tabs nav-class="font-weight-bold">
-                <b-tab v-for="tab in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
-                    <!-- Table name. -->
-                    <h2 :id="tabs.anchor || tabs.id" class="nav-item">
-                        <template v-if="inserts[`tab-${tab.id}`]">
-                            {{ inserts[`tab-${tab.id}`].title }}
-                        </template>
-                        <template v-else>
-                            {{ tab.label }}
-                        </template>
-                    </h2>
-                    <!-- Table description. -->
-                    <div
-                        class="markdown"
-                        v-if="inserts[`tab-${tab.id}`]"
-                        v-html="inserts[`tab-${tab.id}`].content"
-                    ></div>
-                    <!-- Table controls -->
-                    <b-row class="table-controls">
-                        <!-- Search -->
-                        <b-col cols="2">
-                            <b-form-input
-                                :id="`${tab.id}-filter-input`"
-                                v-model="filter"
-                                type="search"
-                                placeholder="Type to Search"
-                            ></b-form-input>
-                        </b-col>
-                        <!-- Items per page selector -->
-                        <b-col cols="2">
-                            <b-form-group
-                                label="Per page"
-                                :label-for="`${tab.id}-per-page-select`"
-                                label-size="md"
-                                label-cols="auto"
-                            >
-                                <b-form-select
-                                    :id="`${tab.id}-per-page-select`"
-                                    v-model="perPage"
-                                    :options="perPageOptions"
-                                    size="sm"
-                                    @input="updatePageData(tab)"
-                                ></b-form-select>
-                            </b-form-group>
-                        </b-col>
-                        <!-- Page selector -->
-                        <b-col cols="5">
-                            <b-form-group
-                                label="Page"
-                                :label-for="`${tab.id}-page-select`"
-                                label-size="md"
-                                label-cols="auto"
-                            >
-                                <b-pagination
-                                    :id="`${tab.id}-page-select`"
-                                    v-model="tab.currentPage"
-                                    :total-rows="tab.displayed"
-                                    :per-page="perPage"
-                                    limit="5"
-                                    first-number
-                                    last-number
-                                    :aria-controls="`${tab.id}-table`"
-                                    @input="updatePageData(tab)"
-                                ></b-pagination>
-                            </b-form-group>
-                        </b-col>
-                        <b-col cols="3">
-                            <p>
-                                Showing {{ tab.pageStart }} to {{ tab.pageEnd }} of {{ tab.displayed }}
-                                <template v-if="filter"> results </template>
-                                <template v-else> total </template>
-                            </p>
-                        </b-col>
-                    </b-row>
-                    <!-- The table itself. -->
-                    <b-table
-                        striped
-                        hover
-                        :id="`${tab.id}-table`"
-                        :items="tab.platforms"
-                        :fields="tab.columns"
-                        primary-key="id"
-                        sort-by="title"
-                        :per-page="perPage"
-                        :current-page="tab.currentPage"
-                        :filter="filter"
-                        :filter-included-fields="['filterKey']"
-                        @filtered="(items, total) => updateDisplayed(tab, total)"
-                    >
-                        <template #cell(resource)="data">
-                            <a :href="data.item.path">
-                                <template v-if="data.item.title">{{ data.item.title }}</template>
-                                <template v-else>{{ data.item.path }}</template>
-                            </a>
-                        </template>
-                        <template #cell(link)="data">
-                            <a
-                                v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
-                                :key="link.text"
-                                :href="link.url"
-                                target="_blank"
-                            >
-                                {{ link.text }}
-                            </a>
-                        </template>
-                        <template #cell(cloud)="data">
-                            <a
-                                v-for="link of getLinks(data.item, ['academic-cloud', 'commercial-cloud'])"
-                                :key="link.text"
-                                :href="link.url"
-                                target="_blank"
-                            >
-                                {{ link.text }}
-                            </a>
-                        </template>
-                        <template #cell(deployable)="data">
-                            <a
-                                v-for="link of getLinks(data.item, ['container', 'vm'])"
-                                :key="link.text"
-                                :href="link.url"
-                                target="_blank"
-                            >
-                                {{ link.text }}
-                            </a>
-                        </template>
-                        <template #cell(summary)="data">
-                            <span class="markdown" v-html="mdToHtml(data.item.summary)"></span>
-                        </template>
-                        <template #cell(purview)="data">
-                            {{ getPlatformValueByGroup(data.item, tab.id, "platform_purview") }}
-                        </template>
-                        <template #cell(keywords)="data">
-                            <g-link :to="keywords[data.item.scope].link">
-                                {{ keywords[data.item.scope].text }}
-                            </g-link>
-                        </template>
-                    </b-table>
-                    <!-- Post-table text (optional). -->
-                    <div
-                        class="markdown"
-                        v-if="inserts[`tab-${tab.id}-footer`]"
-                        v-html="inserts[`tab-${tab.id}-footer`].content"
-                    ></div>
-                </b-tab>
-            </b-tabs>
-
+            <!-- <h1 class="page-title">{{ inserts.main.title }}</h1> -->
+            <!-- <div class="markdown" v-html="inserts.main.content"></div> -->
+            <!-- <pre>{{ this.instances }}</pre> -->
+            <table aria-rowcount="167" id="all-resources-table" role="table" aria-busy="false" aria-colcount="6" class="table b-table table-striped table-hover">
+                <thead role="rowgroup" class="">
+                    <tr class="" role="row">
+                        <th aria-colindex="1" class="" role="columnheader" scope="col">
+                            <span @click="sortBy('title')" style="cursor:pointer">Resource&#160;⬍ </span>
+                        </th>
+                        <th aria-colindex="2" class="" role="columnheader" scope="col">
+                            <span @click="sortBy('url')" style="cursor:pointer">Server&#160;⬍ </span>
+                        </th>
+                        <th aria-colindex="3" class="" role="columnheader" scope="col">
+                            <span @click="sortBy('cloud')" style="cursor:pointer">Cloud&#160;⬍ </span>
+                        </th>
+                        <th aria-colindex="4" class="" role="columnheader" scope="col">
+                            <span @click="sortBy('deployable')" style="cursor:pointer">Deployable&#160;⬍ </span>
+                        </th>
+                        <th aria-colindex="5" class="" role="columnheader" scope="col">
+                            <span>Summary</span>
+                        </th>
+                        <th aria-colindex="6" class="" role="columnheader" scope="col">
+                            <span @click="sortBy('location')" style="cursor:pointer">Location&#160;⬍ </span>
+                        </th>
+                        <th aria-colindex="6" class="" role="columnheader" scope="col">
+                            <span>Keywords</span>
+                        </th>
+                        <th aria-colindex="6" class="" role="columnheader" scope="col">
+                            <span @click="sortBy('tools_available')" style="cursor:pointer">Tools&#160;⬍ </span>
+                        </th>
+                        <th aria-colindex="6" class="" role="columnheader" scope="col">
+                            <span @click="sortBy('version')" style="cursor:pointer">Version&#160;⬍ </span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="instance in instances" :key="instance.id" role="row" class="">
+                        <td role="cell" aria-colindex="1">
+                            <a :href="instance.url" target="_blank">{{ instance.title }}</a>
+                        </td>
+                        <td role="cell" aria-colindex="2">
+                            {{ instance.url }}
+                        </td>
+                        <td role="cell" aria-colindex="3">
+                            {{ instance.cloud || "N/A" }}
+                        </td>
+                        <td role="cell" aria-colindex="4">
+                            {{ instance.deployable ? "Yes" : "No" }}
+                        </td>
+                        <td role="cell" aria-colindex="5">
+                            {{ instance.summary || "No summary available." }}
+                        </td>
+                        <td role="cell" aria-colindex="6">
+                            {{ instance.location }}
+                            {{ /* TODO Next Steps: change to geography object with long/lat*/ }}
+                        </td>
+                        <td role="cell" aria-colindex="6">
+                            {{ instance.keywords ? instance.keywords.join(", ") : "None" }}
+                        </td>
+                        <td role="cell" aria-colindex="7">
+                            {{ instance.tools_available || 0 }}
+                        </td>
+                        <td role="cell" aria-colindex="8">
+                            {{ instance.version || "Unknown" }}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
             <hr />
             <!-- Footer. -->
             <footer class="page-footer markdown" v-if="inserts.footer" v-html="inserts.footer.content"></footer>
@@ -160,7 +79,9 @@
 
 <script>
 import { rmPrefix, rmSuffix, mdToHtml } from "~/lib/utils.js";
-const LINK_DISP_NAMES = {
+import serverStatus from '../../content/use/server_status.yml'; //TODO updates daily
+
+const LINK_DISP_NAMES = { //TODO merge process for: (1) data owner assigns [Server object] (2) data from owner's server [Status object] (3) data Galaxy assigns [...like this object, Tiers, etc]
     "academic-cloud": "Academic",
     "commercial-cloud": "Commercial",
     container: "Container",
@@ -225,125 +146,81 @@ for (let tab of tabs) {
     tab.pageStart = 0;
     tab.pageEnd = 0;
 }
-function platformContainsGroup(platform, group) {
-    let filteredPlatforms = platform.platforms.filter((p) => p.platform_group === group);
-    return filteredPlatforms.length > 0;
-}
-function makeFilterKey(platform) {
-    let key = [];
-    for (let field of ["title", "path", "url"]) {
-        if (platform[field]) {
-            key.push(platform[field]);
-        }
-    }
-    if (platform.summary) {
-        //TODO: Remove Markdown syntax so that "**F**inge**R**printing **O**ntology of **G**enomic variations"
-        //      becomes "FingeRprinting Ontology of Genomic variations".
-        key.push(platform.summary);
-    }
-    if (KEYWORDS[platform.scope]) {
-        key.push(KEYWORDS[platform.scope].text);
-    }
-    for (let platformData of platform.platforms) {
-        for (let pkey of ["platform_url", "platform_text"]) {
-            if (platformData[pkey]) {
-                key.push(platformData[pkey]);
-            }
-        }
-        if (platformData.platform_group) {
-            key.push(LINK_DISP_NAMES[platformData.platform_group]);
-        }
-    }
-    return String(key);
-}
 export default {
-    metaInfo() {
-        return {
-            title: this.inserts.main.title,
-        };
-    },
     data() {
         return {
-            perPage: 20,
-            perPageOptions: [10, 20, 40, 80, { value: 1000, text: "All" }],
-            filter: "",
-            keywords: KEYWORDS,
-            tabs: tabs,
-            pageInserts: {},
+            sortKey: '',
+            sortAsc: true,
+            instances: [],
+            //TODO filter-by specific Tools
+            //TODO pagination + tabs + filter-search
         };
     },
     methods: {
         mdToHtml,
-        platformsByGroup(group) {
-            return this.platforms.filter((platform) => platformContainsGroup(platform, group));
-        },
-        getPlatformValueByGroup(platformData, group, key) {
-            for (let platform of platformData.platforms) {
-                if (platform.platform_group === group) {
-                    return platform[key];
+        mergeLists(servers, statuses) {
+            // Build statusMap keyed by url
+            const statusMap = {};
+            for (const status of Object.values(statuses)) {
+                if (status.url && !(status.url in statusMap)) {
+                    statusMap[status.url] = status;
                 }
             }
-        },
-        getLinks(platform, groups) {
-            let links = [];
-            for (let platformData of platform.platforms) {
-                if (groups.includes(platformData.platform_group)) {
-                    links.push({ url: platformData.platform_url, text: LINK_DISP_NAMES[platformData.platform_group] });
+
+            // Build serverMap keyed by url
+            const serverMap = {};
+            for (const [key, server] of Object.entries(servers)) {
+                if (server.url && !(server.url in serverMap)) {
+                    serverMap[server.url] = server;
                 }
             }
-            return links;
+
+            // Get all unique urls
+            const uniques = new Set([
+                ...Object.keys(statusMap),
+                ...Object.keys(serverMap)
+            ]);
+
+            // Merge by url
+            const merged = Array.from(uniques).map(url => {
+                return {
+                    ...statusMap[url],
+                    ...serverMap[url]
+                };
+            });
+
+            return merged;
         },
-        updateDisplayed(tab, total) {
-            tab.displayed = total;
-            this.updatePageData(tab);
-        },
-        updatePageData(tab) {
-            // pageStart
-            if (tab.displayed === 0) {
-                tab.pageStart = 0;
-            } else {
-                tab.pageStart = (tab.currentPage - 1) * this.perPage + 1;
-            }
-            // pageEnd
-            let pageEnd = tab.currentPage * this.perPage;
-            if (pageEnd > tab.displayed) {
-                tab.pageEnd = tab.displayed;
-            } else {
-                tab.pageEnd = pageEnd;
-            }
+        sortBy(column) {
+        if (this.sortKey === column) {
+            this.sortAsc = !this.sortAsc;
+        } else {
+            this.sortKey = column;
+            this.sortAsc = true;
+        }
+        this.instances.sort((a, b) => {
+                const aVal = a[column] || '';
+                const bVal = b[column] || '';
+                if (aVal < bVal) return this.sortAsc ? -1 : 1;
+                if (aVal > bVal) return this.sortAsc ? 1 : -1;
+                return 0;
+            });
         },
     },
     computed: {
         inserts() {
             return this.pageInserts || {};
         },
-        platforms() {
-            let platforms = this.$page.platforms.edges.map((edge) => edge.node);
-            platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
-            return platforms;
-        },
     },
-    created() {
-        // Fill in the `platforms` array for each tab (and derived attributes).
-        // The source of this data is `this.$page.platforms`, which isn't available to `data()`.
-        // But we need to declare the `tabs` in `data()` in order for the page to be responsive to updates.
-        for (let tab of this.tabs) {
-            if (tab.id === "usegalaxy") {
-                tab.platforms = this.platforms.filter((platform) => platform.scope === "usegalaxy");
-            } else if (tab.id === "all-resources") {
-                tab.platforms = this.platforms;
-            } else {
-                tab.platforms = this.platformsByGroup(tab.anchor || tab.id);
-            }
-            tab.displayed = tab.platforms.length;
-            this.updatePageData(tab);
-        }
-        // This doesn't need to be reactive, do it once on create as local data.
-        this.pageInserts = {};
-        for (let edge of this.$page.allInsert.edges) {
-            let name = rmSuffix(rmPrefix(edge.node.path, "/insert:/use/"), "/");
-            this.pageInserts[name] = edge.node;
-        }
+    async created() {
+        const res = await fetch("/use/feed.json");
+        const servers = await res.json();
+        const status = Object.fromEntries(
+            serverStatus.galaxy_instances.map(row => [row.url, row])
+        );
+        this.instances = this.mergeLists(servers, status); //TODO fix ABiMS dup
+        console.log('instances (merged)', this.instances);
+
         Object.freeze(this.pageInserts);
     },
 };
@@ -354,35 +231,6 @@ query {
     main: insert(path: "/insert:/use/main/") {
         fileInfo {
             path
-        }
-    }
-    allInsert(filter: {path: {regex: "^/insert:/use/[^/]+/$"}}) {
-        totalCount
-        edges {
-            node {
-                id
-                path
-                title
-                content
-            }
-        }
-    }
-    platforms: allPlatform(sortBy: "title", order: ASC) {
-        totalCount
-        edges {
-            node {
-                id
-                title
-                scope
-                summary
-                url
-                path
-                platforms {
-                    platform_group
-                    platform_url
-                    platform_purview
-                }
-            }
         }
     }
 }
