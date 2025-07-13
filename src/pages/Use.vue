@@ -1,10 +1,6 @@
 <template>
     <Layout>
         <ClientOnly>
-            <!-- Page name and description. -->
-            <!-- <h1 class="page-title">{{ inserts.main.title }}</h1> -->
-            <!-- <div class="markdown" v-html="inserts.main.content"></div> -->
-            <!-- <pre>{{ this.instances }}</pre> -->
             <table aria-rowcount="167" id="all-resources-table" role="table" aria-busy="false" aria-colcount="6" class="table b-table table-striped table-hover">
                 <thead role="rowgroup" class="">
                     <tr class="" role="row">
@@ -24,16 +20,16 @@
                             <span>Summary</span>
                         </th>
                         <th aria-colindex="6" class="" role="columnheader" scope="col">
-                            <span @click="sortBy('location')" style="cursor:pointer">Location&#160;⬍ </span>
+                            <span @click="sortBy('status.location')" style="cursor:pointer">Location&#160;⬍ </span>
                         </th>
                         <th aria-colindex="6" class="" role="columnheader" scope="col">
                             <span>Keywords</span>
                         </th>
                         <th aria-colindex="6" class="" role="columnheader" scope="col">
-                            <span @click="sortBy('tools_available')" style="cursor:pointer">Tools&#160;⬍ </span>
+                            <span @click="sortBy('status.tools_available')" style="cursor:pointer">Tools&#160;⬍ </span>
                         </th>
                         <th aria-colindex="6" class="" role="columnheader" scope="col">
-                            <span @click="sortBy('version')" style="cursor:pointer">Version&#160;⬍ </span>
+                            <span @click="sortBy('status.version')" style="cursor:pointer">Version&#160;⬍ </span>
                         </th>
                     </tr>
                 </thead>
@@ -55,17 +51,17 @@
                             {{ instance.summary || "No summary available." }}
                         </td>
                         <td role="cell" aria-colindex="6">
-                            {{ instance.location }}
+                            {{ instance.status && instance.status.location ? instance.status.location : "" }}
                             {{ /* TODO Next Steps: change to geography object with long/lat*/ }}
                         </td>
                         <td role="cell" aria-colindex="6">
                             {{ instance.keywords ? instance.keywords.join(", ") : "None" }}
                         </td>
                         <td role="cell" aria-colindex="7">
-                            {{ instance.tools_available || 0 }}
+                            {{ instance.status && instance.status.tools_available ? instance.status.tools_available : "--" }}
                         </td>
                         <td role="cell" aria-colindex="8">
-                            {{ instance.version || "Unknown" }}
+                            {{ instance.status && instance.status.version ? instance.status.version : "--" }}
                         </td>
                     </tr>
                 </tbody>
@@ -158,53 +154,56 @@ export default {
     },
     methods: {
         mdToHtml,
-        mergeLists(servers, statuses) {
-            // Build statusMap keyed by url
+        combineServerDataWithLodash(servers, statuses) {
             const statusMap = {};
-            for (const status of Object.values(statuses)) {
-                if (status.url && !(status.url in statusMap)) {
-                    statusMap[status.url] = status;
-                }
-            }
-
-            // Build serverMap keyed by url
-            const serverMap = {};
-            for (const [key, server] of Object.entries(servers)) {
-                if (server.url && !(server.url in serverMap)) {
-                    serverMap[server.url] = server;
-                }
-            }
-
-            // Get all unique urls
-            const uniques = new Set([
-                ...Object.keys(statusMap),
-                ...Object.keys(serverMap)
-            ]);
-
-            // Merge by url
-            const merged = Array.from(uniques).map(url => {
-                return {
-                    ...statusMap[url],
-                    ...serverMap[url]
-                };
+            Object.entries(statuses).forEach(([url, data]) => {
+                const domain = new URL(url).hostname;
+                statusMap[domain] = _.omit(data, ['brand']);
             });
 
-            return merged;
+            return _.mapValues(servers, server => {
+                try {
+                    const serverDomain = new URL(server.url).hostname;
+                    return statusMap[serverDomain] 
+                        ? { ...server, status: statusMap[serverDomain] } 
+                        : server;
+                } catch {
+                    return server; /* Fallback if URL parsing fails */
+                }
+            });
         },
-        sortBy(column) {
-        if (this.sortKey === column) {
-            this.sortAsc = !this.sortAsc;
-        } else {
-            this.sortKey = column;
-            this.sortAsc = true;
-        }
-        this.instances.sort((a, b) => {
-                const aVal = a[column] || '';
-                const bVal = b[column] || '';
-                if (aVal < bVal) return this.sortAsc ? -1 : 1;
-                if (aVal > bVal) return this.sortAsc ? 1 : -1;
-                return 0;
-            });
+        sortBy(key) {
+            const nestedKeyChar = ".";
+            const sortKey = key.includes(nestedKeyChar) ? key.split(nestedKeyChar) : key;
+            
+            this.sortedBy = key;
+            this.sortedAsc = !this.sortedAsc;
+            
+            this.instances = _.orderBy(
+                Object.values(this.instances),
+                [item => {
+                    if (Array.isArray(sortKey)) {
+                        return sortKey.reduce((obj, k) => (obj || {})[k], item);
+                    }
+                    return item[sortKey];
+                }],
+                [this.sortedAsc ? 'asc' : 'desc']
+            );
+        },
+        async getPlatforms() { /* replace with db, single yaml, etc */
+            const res = await fetch("/use/feed.json");
+            const servers = await res.json();
+            const status = Object.fromEntries(
+                serverStatus.galaxy_instances.map(row => [row.url, row])
+            );
+            console.log('servers (existing)', servers);
+            console.log('typeof servers', typeof servers);
+            console.log('status (new)', status);
+            console.log('typeof status', typeof status);
+            let tempOutput = this.combineServerDataWithLodash(servers, status);
+            console.log('typeof tempOutput', typeof tempOutput);
+            console.log('tempOutput (combined)', tempOutput);
+            return tempOutput;
         },
     },
     computed: {
@@ -213,15 +212,9 @@ export default {
         },
     },
     async created() {
-        const res = await fetch("/use/feed.json");
-        const servers = await res.json();
-        const status = Object.fromEntries(
-            serverStatus.galaxy_instances.map(row => [row.url, row])
-        );
-        this.instances = this.mergeLists(servers, status); //TODO fix ABiMS dup
-        console.log('instances (merged)', this.instances);
+        this.instances = await this.getPlatforms();
 
-        Object.freeze(this.pageInserts);
+        // Object.freeze(this.pageInserts);
     },
 };
 </script>
