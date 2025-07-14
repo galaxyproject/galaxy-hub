@@ -6,5 +6,7 @@ authors: Łukasz Opioła
 tags: [esg-wp4, esg]
 subsites: [global, all, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 external_url: https://training.galaxyproject.org/training-material/news/2025/03/17/galaxy-meets-onedata.html
 ---

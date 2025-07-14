@@ -7,6 +7,8 @@ authors_structured:
 - github: guerler
 tags: [client, routing]
 subsites: [global, all, esg]
+supporters:
+  - eurosciencegateway
 ---
 
 Five years ago, we embarked on a journey to transform our client application from a mix of backend-generated Mako and frontend-based Backbone.js to a single consistent Vue framework. We made significant strides towards this goal in the last years, particularly by rewriting major components such as the History, the Tool Panel, the Workflow Editor and all Input Forms, which all received major upgrades with this new 23.0 release.

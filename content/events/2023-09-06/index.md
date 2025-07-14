@@ -10,6 +10,8 @@ location_url: "https://indico.skatelescope.org/event/1031/"
 contact: "Volodymyr Savchenko, François Antoine Morier-Genoud, Denys Savchenko, Andrii Neronov"
 subsites: [global, all-eu, esg]
 tags: [esg-wp5, esg-wp2, esg, conference]
+supporters:
+  - eurosciencegateway
 ---
 
 EuroScienceGateway and Galaxy [were presented on Swiss SKA Days 2023](

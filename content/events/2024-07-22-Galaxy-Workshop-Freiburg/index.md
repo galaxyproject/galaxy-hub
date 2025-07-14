@@ -13,7 +13,7 @@ supporters:
 - dataplant
 - eurosciencegateway
 - denbi
-subsites: [all]
+subsites: [all,esg]
 ---
 
 # General information

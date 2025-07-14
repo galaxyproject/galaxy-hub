@@ -11,6 +11,8 @@ supporters:
 - KWS
 - Limagrain
 - deNBI
+- unifreiburg
+- eurosciencegateway
 subsites: [all-eu, global, us, esg]
 tags: [GCC-2024, CoFest, training, Elixir, EOSC, Brno, esg, esg-wp1]
 main_subsite: eu

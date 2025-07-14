@@ -6,9 +6,11 @@ hide_tease: true
 authors: "Mira Kuntz"
 authors_structured:
 - github: mira-miracoli
-tags: [esg,eu]
+tags: [esg,eu,esg-wp1,esg-wp4]
 subsites: [eu]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 # usegalaxy.eu Updates to 23.0

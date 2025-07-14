@@ -6,6 +6,10 @@ hide_tease: false
 subsites: [all-eu, esg]
 tags: [esg, esg-wp1, esg-wp3, esg-wp4]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - egi
 ---
 
 During 1st-3rd of October, Björn Grüning, Mira Kuntz, and Sanjay Kumar Srikakulam from the European Galaxy Team traveled to Lecce to join the [EGI2024 conference](https://www.egi.eu/event/egi2024/) and presented the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators. With Sebastián Luna-Valero and Enol Fernández (EGI), Hakan Bayındır (ULAKBIM/TR), Łukasz Dutka (Cyfronet/PL), work packages 1, 3 and 4 of ESG were represented.

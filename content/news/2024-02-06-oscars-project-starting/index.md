@@ -6,6 +6,8 @@ hide_tease: false
 tags: [oscars, esg, esg-wp1]
 subsites: [all-eu, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 ![OSCARS logo](/images/logos/OSCARS_logo.png)

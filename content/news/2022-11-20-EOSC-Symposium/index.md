@@ -5,6 +5,9 @@ tease: "The European Open Science Cloud (EOSC) had its main EOSC annual event. F
 hide_tease: false
 tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
+  - eosc
 main_subsite: eu
 ---
 

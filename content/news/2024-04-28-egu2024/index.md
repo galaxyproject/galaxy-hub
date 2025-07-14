@@ -4,6 +4,8 @@ tease: We are thrilled to highlight the poster presentation by Vanessa Stoeckl a
 authors: "Vanessa Stoeckl, Bjoern Gruening, Anne Fouilloux, Jean Iaquinta, Alejandro Coca-Castro"
 date: "2024-04-28"
 subsites: [global, all, esg]
+supporters:
+  - eurosciencegateway
 tags: [esg, esg-wp5, esg-wp1]
 ---
 

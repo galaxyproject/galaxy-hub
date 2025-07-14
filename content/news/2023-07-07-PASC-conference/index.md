@@ -6,6 +6,8 @@ subsites: [global, all-eu, esg]
 tags: [esg, esg-wp5]
 authors: Hans-Rudolf Hotz
 author_github: hrhotz
+supporters:
+  - eurosciencegateway
 ---
 
 'Computing Across Scales, Domains, and Communities' was the theme of this year's [**Platform for Advanced Scientific Computing (PASC) Conference**](https://pasc23.pasc-conference.org/) which took place in the alpine town Davos during the last week of June. A theme which mirrors many aspects of the Galaxy community. Greg Watson (Oak Ridge National Laboratory, USA), and Leandro Liborio (Science and Technology Facilities Council, UK) took up the opportunity and organized a minisymposium "Galaxy: An Open Web-Based Platform for FAIR Data Analysis and Computing across Scales, Domains and Communities": 

@@ -6,6 +6,8 @@ tease: "Use QGIS in Galaxy Europe as an interactive tool"
 hide_tease: true
 subsites: [all-eu,global,esg]
 tags: [esg, esg-wp5]
+supporters:
+  - eurosciencegateway
 ---
 
 ## QGIS ? What does it do ?

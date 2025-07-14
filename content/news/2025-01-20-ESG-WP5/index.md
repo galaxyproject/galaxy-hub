@@ -7,6 +7,8 @@ authors_structured:
 - github: vazovn
 tags: [esg-wp5, esg]
 subsites: [global, all, esg]
+supporters:
+  - eurosciencegateway
 ---
 
 We are excited to announce that researchers from The Netherlands and Norway are developing a GDPR-compliant Galaxy clone. 

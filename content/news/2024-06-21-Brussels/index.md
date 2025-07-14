@@ -5,6 +5,10 @@ authors: "Anika Erxleben-Eggenhofer & Björn Grüning"
 date: "2024-06-20"
 subsites: [eu, all-eu, esg]
 tags: [esg, esg-wp1, eosc]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - eosc
 ---
 
 # EOSC Coordination Meeting, Brussels: June 20-21, 2024

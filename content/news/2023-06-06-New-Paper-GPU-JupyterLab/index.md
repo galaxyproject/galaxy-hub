@@ -7,8 +7,9 @@ tags:
 - citations
 - esg
 - esg-wp5
-supporters:
 subsites: [all-eu,esg]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

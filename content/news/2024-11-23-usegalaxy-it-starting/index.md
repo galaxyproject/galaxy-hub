@@ -9,6 +9,8 @@ authors_structured:
 date: "2024-11-23"
 tags: [esg, esg-wp3]
 subsites: [all-eu, esg, global]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

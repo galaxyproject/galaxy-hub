@@ -5,6 +5,8 @@ date: "2023-01-09"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

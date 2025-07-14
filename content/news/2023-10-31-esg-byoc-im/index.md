@@ -6,6 +6,8 @@ hide_tease: false
 tags: [esg-wp4, esg]
 subsites: [all-eu, esg, global]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 The [EuroScienceGateway Project](../../projects/esg/) is streamlining the way that users Bring their Own Compute (BYOC) to Galaxy.

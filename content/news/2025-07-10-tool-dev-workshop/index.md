@@ -3,7 +3,7 @@ title: "Freiburg Galaxy Team’s Internal Tool Development Workshop"
 date: "2025-07-10"
 authors: Saim Momin, Armin Dadras
 tease: "Know more about the recent Tool Development workshop organized at Freiburg Galaxy Team"
-subsites: [all]
+subsites: [all,esg]
 main_subsite: eu
 tags: [workshop, tools, training, uni-freiburg, esg, esg-wp1]
 supporters: [unifreiburg, esg, galaxy]

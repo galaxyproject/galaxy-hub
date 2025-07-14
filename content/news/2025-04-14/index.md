@@ -1,10 +1,12 @@
 --- 
-title: Poster session ESSI2.4 at EGU General Assembly 2025 in Vienna, Austria, 27 April–2 May 2025
+title: "Poster session ESSI2.4 at EGU General Assembly 2025 in Vienna, Austria, 27 April–2 May 2025"
 date: "2025-04-14"
 tease: "EGU25-2605 Posters on site ESSI2.15"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

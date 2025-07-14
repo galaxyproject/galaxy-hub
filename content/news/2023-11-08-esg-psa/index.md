@@ -9,6 +9,9 @@ tease:
 hide_tease: false
 tags: [esg-wp4, esg]
 subsites: [all-eu, esg, global]
+supporters:
+  - eurosciencegateway
+  - egi
 main_subsite: eu
 ---
 

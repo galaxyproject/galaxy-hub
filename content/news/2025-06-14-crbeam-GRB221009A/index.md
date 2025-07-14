@@ -4,7 +4,7 @@ date: "2025-06-14"
 tease: "The possibility of multi-TeV secondary gamma rays from GRB221009A"
 hide_tease: false
 tags: [esg-wp5, esg, paper, workflow, workflowhub]
-subsites: [all]
+subsites: [all, esg]
 supporters: [esg]
 main_subsite: eu
 ---

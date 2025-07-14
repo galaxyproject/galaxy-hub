@@ -5,6 +5,9 @@ tease: "The EuroScienceGateway project started officially with a 2 days kickoff 
 hide_tease: false
 tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 main_subsite: eu
 ---
 
