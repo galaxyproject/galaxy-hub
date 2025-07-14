@@ -59,10 +59,10 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Day</th><th>Time</th><th>Event</th><th>Location</th></tr>
       </thead>
       <tbody>
-        <tr><td>01.10.2025 (Wed)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>Arrival and Welcome<br>Community update talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b> and <b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>Arrival and Welcome<br>Community update talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>01.10.2025 (Wed)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA</td></tr>
         <tr><td>01.10.2025 (Wed)</td><td>14:30-16:00</td><td><b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities, platforms, and focus groups</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>16:30-17:30</td><td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 1</td><td>Building 101<br>Room Nr. TBA</td></tr>
+        <tr><td>01.10.2025 (Wed)</td><td>16:30-17:30</td><td><b><span class="event-elixir">ELIXIR Birds of a Feather meetings (BoFs)</span></b><br>Session 1</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>02.10.2025 (Thr)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>New developments talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
         <tr><td>02.10.2025 (Thr)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA</td></tr>
         <tr><td>02.10.2025 (Thr)</td><td>14:30-16:00</td><td><b><span class="event-meets">European Galaxy Days Meets EuroScienceGateway</span></b><br>Several talks to get to know each other</td><td>Building 101<br>Room Nr. TBA</td></tr>
@@ -81,10 +81,10 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:00 - 10:00</td><td>—</td><td><span class="event-egd">Arrival</span></td><td>—</td></tr>
-        <tr><td>10:00 - 10:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td><span class="event-egd">Welcome, Logistics & General Galaxy Update</span></td><td>30'</td></tr>
+        <tr><td>09:00 - 10:00</td><td>—</td><td><span class="event-elixir">Arrival</span></td><td>—</td></tr>
+        <tr><td>10:00 - 10:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td><span class="event-elixir">Welcome, Logistics & General Galaxy and ELIXIR Update</span></td><td>30'</td></tr>
         <tr><td>10:30 - 10:45</td><td>Daniela Schneider</td><td><span class="event-egd">Broadening the Galaxy: Introducing Digital Humanities in Galaxy</span></td><td>15'</td></tr>
-        <tr><td>10:45 - 11:00</td><td>TBA</td><td><span class="event-egd">Galaxy Training Network</span></td><td>15'</td></tr>
+        <tr><td>10:45 - 11:00</td><td>TBA</td><td><span class="event-elixir">Galaxy Training Network</span></td><td>15'</td></tr>
         <tr><td>11:00 - 11:45</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
         <tr><td>11:45 - 12:05</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy Astronomy</span></td><td>20'</td></tr>
         <tr><td>12:05 - 12:25</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Galaxy Special Interest Groups (with a focus on "Small Scale Admins" and "Switzerland"</span></td><td>20'</td></tr>
