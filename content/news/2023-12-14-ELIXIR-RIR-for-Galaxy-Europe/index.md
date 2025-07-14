@@ -7,8 +7,6 @@ authors: Sebastian Schaaf, Björn Grüning
 authors_structured:
 - github: sebastian-schaaf
 - github: bgruening
-supporters:
-- ELIXIR
 components: true
 autotoc: true
 subsites: [all, eu, esg]
