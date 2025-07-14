@@ -6,6 +6,8 @@ authors_structured:
     - github: patrick-austin
 subsites: [all-eu,global,esg]
 tags: [esg,esg-wp5]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

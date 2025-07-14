@@ -4,8 +4,11 @@ date: '2024-09-23'
 tease: "We are thrilled to announce, that UseGalaxy.EU has reached 100,000 users!"
 hide_tease: false
 authors: Anika Erxleben-Eggenhofer 
-subsites: [all-eu, global]
-tags: [esg]
+subsites: [all-eu, global, esg]
+tags: [esg, esg-wp1, esg-wp5]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 ---
 
 ![100K users for Galaxy-EU](100K.png)

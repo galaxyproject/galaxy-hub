@@ -8,6 +8,8 @@ authors_structured:
 - github: davelopez
 - github: stain
 subsites: [global, all-eu, esg]
+supporters:
+  - eurosciencegateway
 ---
 
 Galaxy has over the last month gained a powerful and extensible exporting framework.

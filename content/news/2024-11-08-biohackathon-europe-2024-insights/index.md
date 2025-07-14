@@ -7,7 +7,7 @@ supporters:
 - nfdi
 - denbi
 - elixir
-tags: [hackathon, biohackathon, fair, esg, elixir, eurobioimaging, bioimaging, workflow]
+tags: [hackathon, biohackathon, fair, esg, esg-wp1, esg-wp5,  elixir, eurobioimaging, bioimaging, workflow]
 subsites: [all, esg, eu]
 ---
 The [Biohackathon Europe 2024](https://biohackathon-europe.org/projects/), held recently in Barcelona, brought together over twenty researchers, developers, and bioinformatics experts from across the Europe to work on [30 projects](https://github.com/elixir-europe/biohackathon-projects-2024) with a particular focus on FAIR (Findable, Accessible, Interoperable, and Reusable) image data analysis. Organized by [ELIXIR Europe](https://elixir-europe.org/) and [Euro-BioImaging](https://www.eurobioimaging.eu/), the event proved the power of collaborative BioHackathon in advancing open science and improving workflows for biological image data.

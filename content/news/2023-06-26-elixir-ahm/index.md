@@ -6,6 +6,10 @@ hide_tease: false
 subsites: [all-eu, esg]
 tags: [esg, esg-wp1]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - elixir
 ---
 
 **Update:** the official ELIXIR meeting report can be found on F1000Research:

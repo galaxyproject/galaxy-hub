@@ -12,6 +12,10 @@ supporters:
 components: true
 autotoc: true
 subsites: [all, eu, esg]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - elixir
 ---
 <div class="float-right" style="max-width: 400px">
 	

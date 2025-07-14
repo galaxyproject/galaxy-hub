@@ -9,6 +9,8 @@ authors_structured:
 tags: [tools, esg, esg-wp5]
 subsites: [global, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 Please welcome [VirHunter](<https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fvirhunter%2Fvirhunter%2F1.0.0%2Bgalaxy3>)

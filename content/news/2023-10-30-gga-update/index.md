@@ -6,6 +6,8 @@ date: "2023-10-30"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all, all-eu, esg]
+supporters:
+  - eurosciencegateway
 ---
 
 ## Galaxy Genome Annotation

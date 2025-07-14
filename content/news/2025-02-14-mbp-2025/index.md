@@ -13,8 +13,9 @@ supporters:
   - madland
 subsites: [global, freiburg, eu, esg]
 tags: [esg,madland,de.nbi,nfdi4plants,dataplant]
-
-
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 ---
 #### MBP2025 - Molecular Biology of Plants 2025
 

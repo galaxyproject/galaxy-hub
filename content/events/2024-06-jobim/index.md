@@ -11,6 +11,9 @@ gtn: false
 contact: "Presenters"
 image: ""
 subsites: [global, eu, esg]
+tags: [esg, esg-wp5]
+supporters:
+  - eurosciencegateway
 ---
 
 Galaxy was presented at [JOBIM 2024](https://www.inrae.fr/evenements/jobim-2024), in Toulouse, France, 24-28 june.

@@ -5,6 +5,8 @@ tease: "Enabling astronomers to search and download data from IVOA-compliant arc
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg, all]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

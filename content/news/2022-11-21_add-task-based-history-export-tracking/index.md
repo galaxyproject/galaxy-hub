@@ -7,6 +7,9 @@ author_github: davelopez
 autotoc: false
 tags: ['area/API', 'area/database', esg, esg-wp2]
 subsites: [all,esg]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 ---
 
 ## TLDR

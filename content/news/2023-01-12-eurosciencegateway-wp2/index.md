@@ -6,6 +6,8 @@ authors: "Stian Soiland-Reyes"
 date: "2023-01-12"
 tags: [esg, esg-wp2]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 
