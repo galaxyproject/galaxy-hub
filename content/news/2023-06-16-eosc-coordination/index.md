@@ -9,6 +9,10 @@ authors_structured:
 tags: [EU, esg, esg-wp1, eosc]
 subsites: [all-eu, global, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - eosc
 ---
 
 ![Brussels](./images/Brussels.jpg)

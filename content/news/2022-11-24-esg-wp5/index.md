@@ -6,6 +6,8 @@ hide_tease: false
 tags: [esg-wp5, esg, esg-wp1]
 subsites: [all-eu, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 The fifth Work Package (WP5) of the EuroScienceGateway project will demonstrate the benefits of the EuroScienceGateway services with 3 communities, namely:

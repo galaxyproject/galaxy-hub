@@ -7,6 +7,9 @@ subsites: [all-eu, esg]
 main_subsite: eu
 tags: [elixir, report, eurosciencegateway, esg, esg-wp3, esg-wp2, esg-wp1, esg-wp3, esg-wp5]
 authors: Sebastian Schaaf
+supporters:
+  - eurosciencegateway
+  - elixir
 authors_structured:
 - github: sebastian-schaaf
 ---

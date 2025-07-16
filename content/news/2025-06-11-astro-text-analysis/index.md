@@ -4,7 +4,9 @@ date: "2025-06-11"
 tease: "Matching short scientific texts to relevant analysis pipelines using AI"
 hide_tease: false
 tags: [esg-wp5, esg, tools, astrophysics]
-subsites: [all]
+subsites: [all, esg]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

@@ -5,6 +5,8 @@ tease: "EuroScienceGateway will deliver a robust, scalable, seamlessly integrate
 hide_tease: false
 tags: [esg, esg-wp1, esp-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

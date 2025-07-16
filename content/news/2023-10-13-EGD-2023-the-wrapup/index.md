@@ -14,6 +14,7 @@ authors_structured:
 supporters:
 - ELIXIR
 - denbi
+- esg
 components: true
 autotoc: true
 subsites: [all, esg]

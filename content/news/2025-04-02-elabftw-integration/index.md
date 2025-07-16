@@ -8,6 +8,9 @@ authors_structured:
 - github: kysrpex
 subsites: [eu, esg]
 tags: [esg, esg-wp2]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 ---
 
 [eLabFTW](https://www.elabftw.net/) is a free and open source electronic lab notebook from

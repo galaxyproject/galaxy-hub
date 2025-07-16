@@ -7,8 +7,11 @@ authors: "José Manuel Domínguez"
 authors_structured:
 - github: kysrpex
 main_subsite: eu
-subsites: [eu]
-tags: [esg]
+subsites: [eu, esg]
+tags: [esg, esg-wp1]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 ---
 
 <div class="alert" style="background: #2cd6ff;">

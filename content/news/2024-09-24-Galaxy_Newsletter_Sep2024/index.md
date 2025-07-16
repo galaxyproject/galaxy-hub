@@ -5,7 +5,9 @@ hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2024-09-24"
 tags: [highlight, esg, esg-wp1]
-subsites: [global,all]
+subsites: [global,all,esg]
+supporters:
+  - eurosciencegateway
 ---
 
 ![GalaxyNews](GalaxyNews.png)

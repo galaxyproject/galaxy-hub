@@ -5,6 +5,10 @@ tease: "The BGE project kick-off meeting was celebrated between November 14th an
 hide_tease: false
 tags: [BGE, biodiversity]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - elixir
 main_subsite: eu
 ---
 

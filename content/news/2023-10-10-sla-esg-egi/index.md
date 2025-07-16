@@ -6,6 +6,10 @@ hide_tease: false
 subsites: [all-eu, esg]
 main_subsite: eu
 tags: [eurosciencegateway, sla, egi, service level agreement, esg, esg-wp1, esg-wp4]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - egi
 authors: Sebastian Schaaf
 authors_structured:
 - github: sebastian-schaaf

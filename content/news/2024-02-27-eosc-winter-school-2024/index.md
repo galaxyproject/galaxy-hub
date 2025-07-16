@@ -4,6 +4,11 @@ date: "2024-02-27"
 authors: "Anika Erxleben"
 subsites: [all-eu, global, esg]
 tags: [esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - egi
+  - eosc
 main_subsite: eu
 ---
 

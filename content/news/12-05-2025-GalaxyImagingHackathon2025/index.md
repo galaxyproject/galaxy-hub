@@ -14,6 +14,7 @@ supporters:
   - nfdi
   - oscars
   - fiesta
+  - eurosciencegateway
 subsites: [all,global,esg,eu]
 ---
 

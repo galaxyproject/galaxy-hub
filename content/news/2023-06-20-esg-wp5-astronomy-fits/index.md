@@ -6,6 +6,8 @@ hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all, all-eu, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 In the scope of EuroScienceGateway project [WP5](https://galaxyproject.org/projects/esg/news/?tag=esg-wp5) [EPFL](https://www.epfl.ch/en/) and [UPC](https://apc.u-paris.fr/APC_CS/) teams contributed to Galaxy code base with integration of [FITS](https://fits.gsfc.nasa.gov/fits_primer.html) file format, widely used in Astronomy to represent sky images, light curves, spectra, and other data.

@@ -8,4 +8,6 @@ date: "2024-06-11"
 subsites: [all-eu,esg]
 tags: [esg, esg-wp5]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---

@@ -9,6 +9,8 @@ location:
   url: https://www.egu24.eu/
 gtn: true
 contact: "Marie Josse: marie.josse@ifremer.fr"
+supporters:
+  - eurosciencegateway
 tags: [conference, esg, esg-wp5]
 subsites: [all, esg, all-eu]
 ---

@@ -10,6 +10,10 @@ gtn: false
 contact: Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis, Anika
   Erxleben
 tags: [training, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - elixir
 subsites: [all-eu, global, esg]
 ---
 

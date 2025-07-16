@@ -1,6 +1,9 @@
 ---
 subsites: [all, esg, all-eu]
 main_subsite: global
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 date: "2023-11-20"
 tags: [training, gtn-news, esg, esg-wp2, esg-wp3]
 title: "[GTN news] Update: Workflow List now searches WorkflowHub.eu, advanced query syntax"

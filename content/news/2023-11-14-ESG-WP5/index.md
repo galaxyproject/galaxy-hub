@@ -6,6 +6,8 @@ hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 --- 
 
 The overall objective of the [AquaINFRA project](https://aquainfra.eu/about) is to develop a virtual environment equipped with FAIR multi-disciplinary data and services to support marine and freshwater scientists and stakeholders restoring healthy oceans, seas, coastal and inland waters. The AquaINFRA virtual environment - [Aqua's Galaxy](https://aqua.usegalaxy.eu/) -  will enable the target stakeholders to store, share, access, analyse and process research data and other research digital objects from their own discipline, across research infrastructures, disciplines and national borders leveraging on EOSC and the other existing operational dataspaces (e.g., EMODnet, Copernicus Marine Service, Digital Twins, etc.).

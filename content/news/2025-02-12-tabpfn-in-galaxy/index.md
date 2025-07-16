@@ -3,8 +3,8 @@ title: 'TabPFN: Foundation Model for Tabular Data in Galaxy'
 date: '2025-02-12'
 tease: 'Fast machine learning method for making predictions on any tabular data'
 authors: 'Anup Kumar'
-tags: [tools]
-subsites: [all-eu,global,esg]
+tags: [tools,esg-wp5]
+subsites: [all-eu,global,esg,esg]
 main_subsite: eu
 ---
 

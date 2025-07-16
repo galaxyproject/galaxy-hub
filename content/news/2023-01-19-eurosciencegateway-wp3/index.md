@@ -6,6 +6,8 @@ authors: "Marco Antonio Tangaro, Federico Zambelli"
 date: "2023-01-19"
 tags: [esg, esg-wp3]
 subsites: [all-eu, esg]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 
