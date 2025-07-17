@@ -4,7 +4,7 @@ date: "2025-07-01"
 tease: "A new new IVOA-compliant TAP server, currently exposing data from the INTEGRAl mission, is now directly accessible from Galaxy."
 hide_tease: false
 tags: []
-subsites: [all]
+subsites: [all,esg]
 supporters: [all-eu, esg, all]
 main_subsite: eu
 ---
