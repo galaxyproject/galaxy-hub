@@ -3,7 +3,7 @@ title: "Accessing multimessenger TAP server"
 date: "2025-07-01"
 tease: "A new new IVOA-compliant TAP server, currently exposing data from the INTEGRAl mission, is now directly accessible from Galaxy."
 hide_tease: false
-tags: []
+tags: [esg,esg-wp5]
 subsites: [all,esg]
 supporters: [all-eu, esg, all]
 main_subsite: eu
