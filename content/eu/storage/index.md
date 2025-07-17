@@ -224,6 +224,28 @@ The automatic cleaning of this storage works like this:
 ⚠️ To enable collaborative exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
 this might confuse your collaboration partner.
 
+### How can you enable Short term storage
+
+Short-term storage can be enabled at three levels: Tool Execution, History, and Workflow Execution. This storage option is ideal for short-term analysis or method development. Data stored in short-term storage is automatically purged after **60** days.
+
+*A) Enable Short-Term Storage at the Tool Execution level*
+To enable short-term storage for individual tool outputs:
+For a desired tool, click on the storage icon ![tool storage icon](/images/icons/storage_button_tool.png) on the Tool Info tab and select Short-Term Storage (e.g., Method Development). Tool outputs will now be saved in short-term storage. 
+
+
+*B) Enable Short-Term Storage at the History level*
+To utilize short-term storage for all output datasets in a history:
+Locate the History panel on the right side of the interface. Below the history name, click the storage icon ![history storage icon](/images/icons/storage_button_history.png). Select Short-Term Storage (e.g., Method Development). All tool output datasets in this history will now be saved in short-term storage.
+
+
+*C) Enable Short-Term Storage for Workflow Execution*
+To utilize short-term storage when running a workflow:
+For a desired workflow, open the Workflow Invocation Form. In the Workflow Info tab, click the Settings ![workflow setting icon](/images/icons/workflow_setting_button.png) button. Change the storage setting to Short-Term Storage (e.g., Method Development). All output datasets from this workflow will be stored temporarily on short-term storage.
+
+
+⚠️ Important Note: As described above, the short term storage is a temporary storage and the data is purged after **60** days. For analysis done by utilizing short-term storage option, we recommend transferring your result datasets to a long term permanent storage history to avoid any loses. 
+
+
 <div align="center">
     <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
 </div>
