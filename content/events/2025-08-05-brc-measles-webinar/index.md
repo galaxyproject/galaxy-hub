@@ -15,7 +15,7 @@ subsites: [all]
 
 **BRC Measles Data Analysis Webinar**
 
-![Webinar infologo](1752585196937.png)
+![Measles webinar infologo](1752585196937.png)
 
 Join us for an in-depth exploration of measles data analysis across the NIAID Bioinformatics Resource Centers: BV-BRC, BRC Analytics and PDN. Discover powerful use cases and step-by-step workflows, and learn how to tap into each platform for your research. We’ll also feature special guest presentations from NCBI Virus and the SRA team, sharing their latest tools and insights. A detailed agenda is coming soon—register today to secure your spot and take your measles analysis to the next level!
 
