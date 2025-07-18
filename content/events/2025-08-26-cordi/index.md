@@ -23,7 +23,7 @@ Join us in the respective sessions to learn more about how Galaxy can help you w
 ❓**What will we talk about?**⁉️
 
 - **The Open Source Platform Galaxy: A Gateway to Digital Humanities and Research Data Management (talk)**, session 'Humanities and Social Sciences - Workflows and cross-domain tools',⌚ August 26, 2025, 16:00-17:30.  
-- **RDM Education with the Galaxy Training Network (GTN) – FAIR and scalable RDM training with Galaxy, GTN and TIaaS (lightning talk)**, session 'Educating RDM: Novel Approaches for training & education in RDM', ⌚ August 
+- **RDM Education with the Galaxy Training Network (GTN) – FAIR and scalable RDM training with Galaxy, GTN and TIaaS (lightning talk)**, session 'Educating RDM: Novel Approaches for training & education in RDM', ⌚ August 27, 2025, 11:00-12:30.
 - **ONE Galaxy (talk)**, session 'RDM Infrastructures: Workflows & Reproducibility - Workflow updates', ⌚ August 27, 2025, 11:00-12:30.
 - **Advancing Interdisciplinary Research using Galaxy (marketplace)**, session 'Marketplace for FAIR data in the Life Sciences: National and International
 Initiatives and Technical Solutions', ⌚ August 27, 2025 Afternoon
