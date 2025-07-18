@@ -26,7 +26,7 @@ Join us in the respective sessions to learn more about how Galaxy can help you w
 - **RDM Education with the Galaxy Training Network (GTN) – FAIR and scalable RDM training with Galaxy, GTN and TIaaS (lightning talk)**, session 'Educating RDM: Novel Approaches for training & education in RDM', ⌚ August 
 - **ONE Galaxy (talk)**, session 'RDM Infrastructures: Workflows & Reproducibility - Workflow updates', ⌚ August 27, 2025, 11:00-12:30.
 - **Advancing Interdisciplinary Research using Galaxy (marketplace)**, session 'Marketplace for FAIR data in the Life Sciences: National and International
-Initiatives and Technical Solutions', ⌚ August
+Initiatives and Technical Solutions', ⌚ August 27, 2025 Afternoon
 
 
 You can find the whole program [here](https://www.nfdi.de/cordi-2025/), where the locations will also be updated before the event. We are looking forward to seeing you there!
