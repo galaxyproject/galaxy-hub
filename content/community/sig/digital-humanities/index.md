@@ -11,7 +11,7 @@ Whether you are analysing texts, images, audio data or other media, **Galaxy is 
 
 # How can you use Galaxy for Digital Humanities analysis?
 
-Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities (DH) and Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that fits your research needs and supports you with tools for easier research data management on the go.
+Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities (DH) and Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that fits your research needs and supports you with tools for easier research data management on the go. Just go to the Galaxy instance of your choice, for example the [European Galaxy Server](https://usegalaxy.eu/), create an account and get started.
 
 Here are some examples:
 
@@ -40,8 +40,15 @@ You can combine various Galaxy tools into [workflows](https://training.galaxypro
 
 This is a non-exhaustive overview of Galaxy tools applicable to Humanities and Social sciences use-cases. 
 
+### 📤 **Uploading/accessing data**
+You can upload your files in various ways in the upload section on the left sidebar of the Galaxy website.
+
+- If you have larger amounts of data, check out this tutorial to [Bring Your Own Data](https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html).
+- You can access repositories like the [BERD Data Portal](https://galaxyproject.org/news/2025-04-09-berd-integration/) or Zenodo directly from within Galaxy.
+
 ### 🛠️ **General tools**
 - Text cleaning tools such as text manipulation, select lines, add lines, search in text files, Line/Word/Character count, etc.
+- Text file format converters (dos2unix): Convert text files with DOS or Mac line breaks to Unix line breaks and other text cleaning options.
     
 ### 📖 **Text tools**
 - diff: Comparing two text documents
@@ -58,17 +65,20 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 ### 🔊**Audio tools**
 - Audio Player: Find the player to listen to audio files in Galaxy on the left-hand side panel under *Visualisations*.
 - [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Audio to text conversion
+- WhisperX: Audio conversion including speaker diarisation
 - FFmpeg Format Converter: Convert between video and audio formats   
 
 ### 🎞️ **Image  and video tools**
+- Tesseract: Optical Character Recognition (OCR)
 - [flux](https://galaxyproject.org/news/2024-11-26-flux/): text to image conversion
-- Convert image format
+- Convert image format (including extracting images from a PDF)
 - Enhance contrast: image pre-processing
 - Convert coordinates to label map: converts a GeoJSON of an image with rectangles to a label image (or binary image) for later cropping
 - Crop image: for cutting images 
 - Image annotator: Annotate your images manually in Galaxy on the left-hand side panel under *Visualisations*.
 - Tiff viewer: View TIFF files in Galaxy on the left-hand side panel under *Visualisations*.
 - Video player: View video files in Galaxy on the left-hand side panel under *Visualisations*.
+- Yolo DocLayout: Document layout analysis
     
 ### 🔃 **File or format conversion**
 - General tools: Tabular to CSV, CSV to Tabular, convert delimiter to TAB, 
@@ -96,16 +106,14 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
 - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 - TabPFN: Tabular data prediction
 - [Cleanlab](https://galaxyproject.org/news/2025-06-13-cleanlab/): Identifies label issues in Machine Learning datasets
+- Yolo DocLayout: Document layout analysis
 
 ### **Domain-specific tools**
 - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
 
 ### 🏗️ **Work in progress**
-- Yolo DocLayout: Document layout analysis
-- WhisperX: Audio conversion including speaker diarisation
 - E-Scriptorium: Handwritten text-recognition (HTR)
 - Stanford Core NLP: Natural language processing tool
-- Optical character recognition tool (OCR)
 
 If tools are missing or information is not up-to-date in the list, please help us! We are available via this [Matrix Channel](https://matrix.to/#/#galaxyproject-digital-humanities:matrix.org)
 
