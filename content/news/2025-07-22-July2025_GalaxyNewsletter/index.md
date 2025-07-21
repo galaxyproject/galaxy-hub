@@ -8,6 +8,8 @@ subsites: [global, all]
 ---
 July 2025  
 
+![Galaxy News Logo](GalaxyNews.png)
+
 Hello, Galaxy Community!
 
 We’re halfway through 2025, and what a year it’s been so far\! From the excitement of GBCC2025 to the global success of this year’s Galaxy Training Academy, it’s clear that the Galaxy community continues to grow, evolve, and inspire. We’ve celebrated big milestones, like Galaxy turning 20 and Galaxy Australia running its 11 millionth job, and released Galaxy 25.0, packed with features designed to make research even more intuitive and reproducible. In this newsletter, you’ll find highlights from recent events, updates on what’s new in the platform, a spotlight on how Galaxy is powering cutting-edge research, and a look ahead to what’s coming next. 
@@ -17,6 +19,10 @@ Whether you’ve been part of Galaxy from the beginning or just joined us this y
 ---
 
 # **Recap: Galaxy and Bioconductor Community Conference 2025**
+
+<p align="center">
+  <img src="GBCClogo.jpg" alt="DGBCC2025 Logo" width="300"/>
+</p>
 
 The first-ever [Galaxy and Bioconductor Community Conference (GBCC2025)](https://gbcc2025.bioconductor.org/) took place June 23–26 at the iconic Cold Spring Harbor Laboratory, bringing together two leading open-source communities in bioinformatics for a historic joint event. With over 300 attendees from around the world, GBCC2025 featured four packed days of keynote talks, oral and lightning presentations, hands-on trainings, Birds of a Feather sessions, and vibrant poster discussions. The main meeting was followed by a two-day CollaborationFest (CoFest) that channeled all that energy into real-time contributions to tools, documentation, training materials, and infrastructure.
 
@@ -28,7 +34,10 @@ GBCC2025 was proud to welcome [JXTX](https://jxtxfoundation.org/) and [JJ](https
 
 CoFest closed out the week with collaborative sprints focused on training infrastructure, tool wrapping, and platform integration—embodying the conference’s open science ethos. And this year also marked Galaxy’s 20th anniversary, a milestone celebrated throughout the week and capped with a community DJ party on Wednesday evening.
 
-You can [read more about GBCC2025 in our full meeting report](https://galaxyproject.org/news/2025-07-11-june2025-newsletter/). Thank you to everyone, speakers, organizers, volunteers, and attendees, for making this inaugural joint conference such a success.   
+You can [read more about GBCC2025 in our full meeting report](https://galaxyproject.org/news/2025-07-11-june2025-newsletter/). Thank you to everyone, speakers, organizers, volunteers, and attendees, for making this inaugural joint conference such a success.
+
+
+![GBCC2025 Group Photo](Photo1.jpg)
 
 ---
 
@@ -70,6 +79,8 @@ Each day featured a pair of expert-led training sessions on topics including:
 Sessions were fully virtual and supported by live chat moderators, allowing participants to ask questions, troubleshoot, and connect with instructors and fellow attendees in real time. Whether new to Galaxy or looking to deepen their skills, attendees left with practical knowledge and confidence to apply these tools to their own research.
 
 Huge thanks to all our instructors, moderators, and attendees for making GTA2025 a truly global success. Missed the academy this year? Don’t worry; we’ll be back\! In the meantime, catch up with all the latest Galaxy trainings on the [Galaxy Training Network](https://training.galaxyproject.org/training-material/).  
+
+![GTA2025 Registrations Map](GTA2025_map.jpg)
 
 ---
 
@@ -157,6 +168,11 @@ This paper outlines the challenges in aligning biodiversity genomics research wi
 ---
 
 # **Save the Date: European Galaxy Days 2025**  
+
+<p align="center">
+  <img src="egd_2025.png" alt="DGBCC2025 Logo" width="400"/>
+</p>
+
 European Galaxy Days (EGD2025) is coming this October\! Join us October 1–3, 2025, in Freiburg, Germany, for three days of talks, workshops, and networking with the vibrant European Galaxy community.
 
 Hosted by Galaxy Europe and the de.NBI, this event will bring together developers, users, and trainers to share updates, ideas, and challenges around Galaxy’s use in research and infrastructure. Whether you're new to Galaxy or deeply embedded in its ecosystem, EGD2025 is an excellent opportunity to connect and contribute.
