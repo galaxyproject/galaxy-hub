@@ -32,7 +32,7 @@ Björn emphasized that Galaxy's success lies in its ability to empower both novi
 
 ## Contributions from the French Galaxy Working Group
 
-The French Galaxy Working Group showcased the breadth of their contributions through several posters and presentations:
+The French Galaxy Working Group animated by the [IFB/ELIXIR-FR](https://www.france-bioinformatique.fr/en/home/) showcased the breadth of their contributions through several posters and presentations:
 
 - [**"Exploring the Richness of the French Galaxy Ecosystem"**](https://hal.science/hal-05132824) [Poster]
 
