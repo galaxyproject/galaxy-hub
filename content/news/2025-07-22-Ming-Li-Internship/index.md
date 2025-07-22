@@ -1,6 +1,6 @@
 ---
 title: "Exploring Genomics with Galaxy: A Six-Week Internship Journey"
-date: "2025-03-18"
+date: "2025-07-22"
 authors: Ming Li
 tease: "My internship experience with assembling genomes and annotating them during a 6 week internship"
 subsites: [all]
