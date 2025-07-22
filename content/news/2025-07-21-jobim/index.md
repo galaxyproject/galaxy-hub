@@ -1,17 +1,17 @@
 ---
+title: 'Galaxy at JOBIM'
+date: '2025-07-21'
+tags:
+- gtn
+- news
+- gtn-news
+- training
 subsites: 
 - eu
 - all
 - global
 - ifb
 main_subsite: ifb
-date: 2025-07-21
-tags:
-- gtn
-- news
-- gtn-news
-- training
-title: 'Galaxy at JOBIM'
 authors: Bérénice Batut, Anthony Bretaudeau, Gildas Le Corguillé, Björn Grüning
 tease: The JOBIM conference, the annual event of the French bioinformatics and biostatistic community, brought together researchers, educators, and innovators in bioinformatics to discuss cutting-edge tools, workflows, and collaborative efforts. Among the highlights of this year's event was the significant presence of Galaxy. This blog post explores the key contributions, presentations, and innovations centered around Galaxy at JOBIM 2025.
 hide_tease: true
