@@ -36,8 +36,11 @@ CoFest closed out the week with collaborative sprints focused on training infras
 
 You can [read more about GBCC2025 in our full meeting report](https://galaxyproject.org/news/2025-07-11-june2025-newsletter/). Thank you to everyone, speakers, organizers, volunteers, and attendees, for making this inaugural joint conference such a success.
 
-
 ![GBCC2025 Group Photo](Photo1.jpg)
+
+**Looking ahead to 2026**
+
+Planning is already underway for next year’s Galaxy Community Conference, which will return to Europe in 2026! We can’t wait to share more details soon, so stay tuned to Galaxy channels for the official announcement, and start getting ready to join us for another unforgettable week of open science, community connection, and Galaxy-powered discovery.
 
 ---
 
@@ -64,17 +67,19 @@ Whether you’ve used Galaxy once or every day for the past decade, thank you fo
 
 The [Galaxy Training Academy (GTA)](https://training.galaxyproject.org/training-material/events/2025-05-12-galaxy-academy-2025.html) 2025 took place May 13–17, bringing together thousands of participants from around the world for a week of free, virtual, hands-on bioinformatics training. This year’s GTA surpassed our expectations, with over 3,700 registrations representing 122 countries; a testament to the global reach and collaborative spirit of the Galaxy community.
 
-Each day featured a pair of expert-led training sessions on topics including:
+Each day featured expert-developed training sessions on topics including:
 
 * Introduction to Galaxy  
-* Data manipulation with Galaxy and Galaxy Workflows  
-* Differential expression analysis  
-* Genome annotation with Galaxy and Apollo  
-* Galaxy tool development  
-* Secure computing with AnVIL  
-* Protein structure prediction with AlphaFold  
-* Single-cell RNA-seq with Bioconductor  
-* Metagenomics using Galaxy and QIIME 2
+* Proteomics
+* Assembly
+* Transcriptomics  
+* Single-cell
+* Microbiome
+* Climate
+* Machine Learning
+* From Zero to Hero with Python
+* Variant Analysis
+* FAIR Training
 
 Sessions were fully virtual and supported by live chat moderators, allowing participants to ask questions, troubleshoot, and connect with instructors and fellow attendees in real time. Whether new to Galaxy or looking to deepen their skills, attendees left with practical knowledge and confidence to apply these tools to their own research.
 
@@ -163,7 +168,7 @@ By combining metagenomics, transcriptomics, and environmental sampling, this stu
 
 This paper outlines the challenges in aligning biodiversity genomics research with conservation goals, including data sharing, metadata standards, and equitable access to sequencing technologies. It calls for harmonized workflows and infrastructure to support long-term impact.
 
-**Galaxy’s role:** The authors recommend Galaxy as an ideal platform for crafting FAIR-compliant, harmonized workflows, which bridge genomic data and conservation actions globally through transparent, reproducible pipelines.  
+**Galaxy’s role:** The authors specifically cite Galaxy as a platform for constructing FAIR-aligned, standardized, and transparent workflows that are reproducible and accessible—whether you're generating reference genomes, analyzing genetic diversity, or sharing results with stakeholders.
 
 ---
 
