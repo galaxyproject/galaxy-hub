@@ -32,7 +32,7 @@ Training was central to the week, with ten hands-on sessions led by experts on t
 
 GBCC2025 was proud to welcome [JXTX](https://jxtxfoundation.org/) and [JJ](https://jxtxfoundation.org/scholarships/jj-fund) Fellowship recipients, alongside over 30 community members supported by NIH funding, helping reduce barriers to participation and strengthening the global, inclusive community that defines Galaxy and Bioconductor.
 
-CoFest closed out the week with collaborative sprints focused on training infrastructure, tool wrapping, and platform integration—embodying the conference’s open science ethos. And this year also marked Galaxy’s 20th anniversary, a milestone celebrated throughout the week and capped with a community DJ party on Wednesday evening.
+CoFest closed out the week with collaborative sprints focused on training infrastructure, tool wrapping, and platform integration, embodying the conference’s open science ethos. And this year also marked Galaxy’s 20th anniversary, a milestone celebrated throughout the week and capped with a community DJ party on Wednesday evening.
 
 You can [read more about GBCC2025 in our full meeting report](https://galaxyproject.org/news/2025-07-11-june2025-newsletter/). Thank you to everyone, speakers, organizers, volunteers, and attendees, for making this inaugural joint conference such a success.
 
@@ -65,7 +65,7 @@ Whether you’ve used Galaxy once or every day for the past decade, thank you fo
 
 # **Galaxy Training Academy 2025: A Global Week of Learning**
 
-The [Galaxy Training Academy (GTA)](https://training.galaxyproject.org/training-material/events/2025-05-12-galaxy-academy-2025.html) 2025 took place May 13–17, bringing together thousands of participants from around the world for a week of free, virtual, hands-on bioinformatics training. This year’s GTA surpassed our expectations, with over 3,700 registrations representing 122 countries; a testament to the global reach and collaborative spirit of the Galaxy community.
+The [Galaxy Training Academy (GTA)](https://training.galaxyproject.org/training-material/events/2025-05-12-galaxy-academy-2025.html) 2025 took place May 13–17, bringing together thousands of participants from around the world for a week of free, virtual, hands-on bioinformatics training. This year’s GTA surpassed our expectations, with over 3,500 registrations representing 122 countries; a testament to the global reach and collaborative spirit of the Galaxy community.
 
 Each day featured expert-developed training sessions on topics including:
 
