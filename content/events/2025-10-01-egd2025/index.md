@@ -88,7 +88,8 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>11:00 - 11:45</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
         <tr><td>11:45 - 12:05</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy Astronomy</span></td><td>20'</td></tr>
         <tr><td>12:05 - 12:25</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Galaxy Special Interest Groups (with a focus on "Small Scale Admins" and "Switzerland"</span></td><td>20'</td></tr>
-        <tr><td>12:25 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 5)</span></td><td>20'</td></tr>
+        <tr><td>12:25 - 12:35</td><td>Mina Hojat Ansari</td><td><span class="event-egd">FAIRYMAGS: A Galaxy Workflow for MAG Recovery Applied to Termite Microbiomes</span></td><td>10'</td></tr>
+        <tr><td>12:35 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 6)</span></td><td>10'</td></tr>
         <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
         <tr><td>14:30 - 14:45</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td></tr>
         <tr><td>14:45 - 15:00</td><td>Maria Chavero-Diez</td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td></tr>
@@ -110,17 +111,17 @@ Registration is free. We recommend to register as soon as possible to secure you
       </thead>
       <tbody>
         <tr><td>09:30 - 09:45</td><td>Lucille Delisle</td><td><span class="event-egd">pyGenomeTracks - make a publishable figure out of your NGS data</span></td><td>15'</td></tr>
-        <tr><td>09:45 - 10:00</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 2)</span></td><td>15'</td></tr>
-        <tr><td>10:00 - 10:15</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 3)</span></td><td>15'</td></tr>
+        <tr><td>09:45 - 09:55</td><td>Arthur Barreau</td><td><span class="event-egd">Two-Step Approach for Galaxy Tool Development Using Jupyter ("Interactive JupyterLab Notebook")</span></td><td>10'</td></tr>
+        <tr><td>09:55 - 10:15</td><td>Anup Kumar</td><td><span class="event-egd">Serving locally hosted LLMs using LiteLLM and Ollama with Galaxy</span></td><td>20'</td></tr>
         <tr><td>10:15 - 10:30</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 4)</span></td><td>15'</td></tr>
         <tr><td>10:30 - 11:15</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
         <tr><td>11:15 - 11:35</td><td>Marius van den Beek</td><td><span class="event-egd">The Future of Galaxy Tools</span></td><td>20'</td></tr>
-        <tr><td>11:35 - 11:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 7)</span></td><td>10'</td></tr>
+        <tr><td>11:35 - 11:45</td><td>Arash Kadkhodaei<br>Alireza Heidary</td><td><span class="event-egd">Simple and Secure Credential Handling for Tools in Galaxy</span></td><td>10'</td></tr>
         <tr><td>11:45 - 12:00</td><td>José Manuel Domínguez</td><td><span class="event-egd">New integrations: eLabFTW and RSpace ELNs, ARC middleware for distributed computing</span></td><td>15'</td></tr>
         <tr><td>12:00 - 12:20</td><td>Nicola Soranzo</td><td><span class="event-egd">Making Galaxy workflows sustainable and FAIR</span></td><td>20'</td></tr>
-        <tr><td>12:20 - 12:30</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 10)</span></td><td>10'</td></tr>
-        <tr><td>12:30 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 11)</span></td><td>15'</td></tr>
-        <tr><td>12:45 - 13:00</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 12)</span></td><td>15'</td></tr>
+        <tr><td>12:20 - 12:35</td><td>Yvan Le Bras</td><td><span class="event-egd">Galaxy Ecology: 2025 Update</span></td><td>15'</td></tr>
+        <tr><td>12:35 - 12:40</td><td>Pauline Seguineau</td><td><span class="event-egd">Galaxy Earth-System</span></td><td>5'</td></tr>
+        <tr><td>12:40 - 13:00</td><td>Beatriz Serrano-Solano</td><td><span class="event-egd">Update by the Imaging Community</span></td><td>20'</td></tr>
         <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
         <tr><td>14:30 - 14:50</td><td>Lukasz Opiola</td><td><span class="event-meets">Galaxy & Onedata integration, managing Galaxy data using Onedata, BYOD & BYOS</span></td><td>20</td></tr>
         <tr><td>14:50 - 15:00</td><td>Martin Cech</td><td><span class="event-meets">Automating Galaxy Tool Management Through a GitHub Repository Template</span></td><td>10'</td></tr>
