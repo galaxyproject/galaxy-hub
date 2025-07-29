@@ -122,6 +122,14 @@ supporters:
     - name: elixir-belgium
       image: /images/logos/ELIXIR_BELGIUM_white_background.png
       website: https://www.elixir-belgium.org/
+    
+    - name: elixir-cz
+      image: /images/logos/elixir-cz-banner.png
+      website: https://www.elixir-czech.cz/
+    
+    - name: eirene
+      image: /images/logos/eirene_black.jpg
+      website: https://eirene.eu/
 
     - name: EOSC
       image: /images/logos/EOSC.jpg
@@ -250,6 +258,10 @@ supporters:
     - name: melbbioinfo
       image: /images/logos/melbbioinfo-logo.png
       website: https://www.melbournebioinformatics.org.au/
+    
+    - name: metabohub
+      image: /images/logos/MetaboHubLogo.jpg
+      website: https://www.metabohub.fr/home.html
 
     - name: miracum
       image: /images/logos/miracum.png
@@ -318,6 +330,10 @@ supporters:
     - name: qfab
       image: /images/logos/qfab-logo.png
       website: https://qfab.org/
+    
+    - name: rfmf
+      image: /images/logos/RFMF.png
+      website: https://www.rfmf.fr/
 
     - name: sanbi
       image: /images/logos/sanbi_logo.webp
