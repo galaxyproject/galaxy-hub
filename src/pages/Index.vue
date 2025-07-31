@@ -6,7 +6,7 @@
                     <h1 class="mb-3">Meet Galaxy - <br />a data analysis universe</h1>
                     <div class="hero highlight">
                         Galaxy is a free, open-source system for analyzing data, authoring workflows, training and
-                        education, publishing tools, managing infrastructure,  and more.
+                        education, publishing tools, managing infrastructure, and more.
                     </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
