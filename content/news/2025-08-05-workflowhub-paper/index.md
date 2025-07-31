@@ -1,5 +1,5 @@
 ---
-title: "WorkflowHub – A Game Changer for Reproducible Science and EuroScienceGateway"
+title: "WorkflowHub: Advancing FAIR, Reproducible Workflows Across Europe"
 tease: "'WorkflowHub: a registry for computational workflows' has just been published in Scientific Data (Nature) as an open-access article. It explains why the platform was created and how it streamlines the sharing, discovery, and FAIRness of workflows."
 date: "2025-08-05"
 tags: [esg-wp1, esg-wp2, paper, workflow, fair]
