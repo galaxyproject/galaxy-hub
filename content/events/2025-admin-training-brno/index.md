@@ -68,7 +68,7 @@ We’ll be using Ubuntu based images during the workshop, which means we’ll be
 
 Prerequisites include all of the Introduction Session prerequisites, plus familiarity with the topics presented in that session.
 
-# Laptop Requirements
+### Laptop Requirements
 
 All participants should bring a wifi-enabled laptop with
 
@@ -87,13 +87,15 @@ We currently have these confirmed (and highly experienced!) instructors:
 * [Martin Demko](https://github.com/martindemko) - CESNET / CEITEC, Brno, Czechia
 * [Martin Cech](https://github.com/martenson) - CESNET / ELIXIR CZ, Brno, Czechia
 
+# Costs
+
+Our plan is to run this as a low-cost event. Ideally there will be no registration fee and little in terms of catering. We plan to provide coffee and basic snacks to get through the days however meals will be covered by participants themselves.
+
 # Registration
 
 Please apply [application not available yet]().
 
-We only have limited space so please register as soon as possible. If you would like to attend but have funding problems we can support up
-to 3 people from Low and Middle Income Countries. Please indicate this in the form or contact us directly.
-
+We only have limited space so please register as soon as possible. 
 Please feel free to contact us at galaxy@cesnet.cz if you have any question and check this site for any updates.
 
 # Logistics
@@ -107,14 +109,12 @@ The venue is in the city centre of Brno, which is an amazing city to visit, see 
 
 There are many affordable hotels around and also plenty of opportunity for private accomodation. There is no organised effort or group reservation.
 
-## Getting to and around Brno
-
-### To
+## Getting To Brno
 
 * **By train** - Plenty of trains arriving in Brno from all of Europe. The venue is 10 mins tram ride from the main train station.
 * **By plane** - Generally fly to Prague or Vienna and take a train or bus to Brno. There is a couple of flights landing in Brno directly but they are rare.
 * **By car** - Plenty of highways, drive safely.
 
-### Around
+## Getting Around
 
 There is serious amount of public transportation avaialble that will get you anywhere. Use Google Maps or https://idos.cz/en to find connections and use your card, phone, watch and any other **contactless** payment device to easily pay for it when entering the vehicle (details at https://www.pipniajed.cz/en.html). 
