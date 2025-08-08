@@ -22,7 +22,8 @@ Join [Diana Chiang Jurado](https://github.com/dianichj) from the [University of 
 
 As part of [Postdoc Appreciation Week Germany](https://paw-germany.de/), this interactive webinar will walk you through:
 
-- What the Galaxy Platform is and why it matters
+- Discover the Galaxy Platform
+- Why is Galaxy a game-changer for researchers like you? 
 - How researchers from any discipline can use it
 - Live hands-on demo to try it yourself
 - Final Q & A to get your questions answered
