@@ -20,7 +20,38 @@ The newly developed service currently exposes the European Space Agency's (ESA) 
 ![Example of an ADQL query, that performs a cone search around a point with provided coordinates](galaxy-ivoa-mmoda-tap.png)</div>  
 
 <figcaption>
-Conse search query of <a href="https://sci.esa.int/web/integral">INTEGRAL</a> mission data through IVOA TAP protocol with a <a href="https://usegalaxy.eu/root?tool_id=astronomical_archives">Galaxy tool</a>
+Cone search query of <a href="https://sci.esa.int/web/integral">INTEGRAL</a> mission data through IVOA TAP protocol with a <a href="https://usegalaxy.eu/root?tool_id=astronomical_archives">Galaxy tool</a>
 </figcaption>
 </div>
+
+Depending on the type of products, a dedicated type of visualization is possible.
+
+### Mosaic
     
+<div class="center">
+<div class="img-sizer" style="width: 100%">
+
+![Example of visualization of a mosaic using the Aladin tool]()</div>  
+
+
+</div>
+
+### Lightcurve
+    
+<div class="center">
+<div class="img-sizer" style="width: 100%">
+
+![Example of visualization of a lightcurve using the dedicated FITS graph viewer](lc_example.png)</div>  
+
+
+</div>
+
+### Spectrum
+    
+<div class="center">
+<div class="img-sizer" style="width: 100%">
+
+![Example of visualization of a spectrum using the dedicated FITS graph viewer]()</div>  
+
+
+</div>
