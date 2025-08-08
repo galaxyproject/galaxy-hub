@@ -26,7 +26,7 @@ As part of [Postdoc Appreciation Week Germany](https://paw-germany.de/), this in
 - Why is Galaxy a game-changer for researchers like you? 
 - How researchers from any discipline can use it
 - Live hands-on demo to try it yourself
-- Final Q & A to get your questions answered
+- Final Q & A to address all your questions
 
 Organized by the [University of Freiburg](https://uni-freiburg.de/en/)’s [Centre for Advanced Researcher Development (CARD)](https://uni-freiburg.de/gdape/card/), this session is open to everyone interested in accessible data analysis. **You don’t need to be a postdoc to attend.** Seats are limited. Reserve yours now.
 
