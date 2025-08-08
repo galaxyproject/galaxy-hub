@@ -31,6 +31,10 @@ supporters:
       image: /images/logos/bycovid.png
       website: https://by-covid.org/
 
+    - name: card
+      image: /images/logos/card.jpg
+      website: https://uni-freiburg.de/gdape/card/
+
     - name: converge
       image: /images/logos/converge_logo.png
       website: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
@@ -366,6 +370,10 @@ supporters:
     - name: vib
       image: /images/logos/vib_rf_plant_systems_biology_rgb_pos.png
       website: http://www.vib.be/
+
+    - name: workflowhub
+      image: /images/logos/workflowhub.png
+      website: https://workflowhub.eu/
 
     - name: Worfklow4Metabelomics
       image: /images/logos/logo-ifb-mono-metabohub_2.1_SD_150px.png

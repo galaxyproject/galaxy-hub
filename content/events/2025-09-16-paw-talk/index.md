@@ -8,7 +8,7 @@ continent: "EU"
 location: Online
 gtn: false
 tags: [talks, uni-freiburg, esg, esg-wp1]
-supporters: [esg, unifreiburg]
+supporters: [card, esg, unifreiburg]
 subsites: [all,esg]
 autotoc: false
 ---
