@@ -1,6 +1,6 @@
 ---
 title: "The European Galaxy team at Postdoc Appreciation Week Germany 2025"
-tease: "Discover how the Galaxy Platform is making data analysis accessible to researchers from all backgrounds. Join a live demo and explore real-world use cases in our webinar at the Postdoc Appreciation Week 2025."
+tease: "Discover how the Galaxy Platform is making data analysis accessible to researchers from all backgrounds. Join a live demo and explore real-world use cases at our webinar during the Postdoc Appreciation Week 2025."
 contact: "Diana Chiang Jurado"
 date: "2025-09-16"
 days: 1
