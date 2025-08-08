@@ -144,6 +144,7 @@ Registration is free. We recommend to register as soon as possible to secure you
       </thead>
       <tbody>
         <tr><td>09:30 - 17:30</td><td>—</td><td><span class="event-egd">EGD CoFest & Hackathon</span></td><td>480'</td></tr>
+        <tr><td>09:30 - 17:30</td><td>—</td><td><span class="event-egd">Sub-Hackathon: secure sensitive data transfer from FEGA and analysis in Galaxy (<a href="https://elixir-europe.org/how-we-work/scientific-programme/commissioned-services/science/hdtr/data">Elixir-commissioned service</a>)</span></td><td>480'</td></tr>
         <tr><td>09:30 - 10:00</td><td>Oana Marchis and Armin Dadras</td><td><span class="event-esg">Welcome and final report from WP1</span></td><td>30'</td></tr>
         <tr><td>10:00 - 10:30</td><td>TBD</td><td><span class="event-esg">Achievments of WP2</span></td><td>30'</td></tr>
         <tr><td>10:30 - 11:00</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
