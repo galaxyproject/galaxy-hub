@@ -1,6 +1,6 @@
 ---
 title: "2025 Galaxy Admin Training"
-date: '2025-09-01'
+date: '2025-11-24'
 days: 5
 tease: "Learn how to set up your own production quality Galaxy server"
 continent: EU
