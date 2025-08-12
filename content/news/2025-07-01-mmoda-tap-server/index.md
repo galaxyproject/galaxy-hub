@@ -31,7 +31,7 @@ Depending on the type of products, a dedicated type of visualization is possible
 <div class="center">
 <div class="img-sizer" style="width: 100%">
 
-![Example of visualization of a mosaic using the Aladin tool]()</div>  
+![Example of visualization of a mosaic using the Aladin tool](mosaic_example.png)</div>  
 
 
 </div>
@@ -51,7 +51,7 @@ Depending on the type of products, a dedicated type of visualization is possible
 <div class="center">
 <div class="img-sizer" style="width: 100%">
 
-![Example of visualization of a spectrum using the dedicated FITS graph viewer]()</div>  
+![Example of visualization of a spectrum using the dedicated FITS graph viewer](spectrum_example.png)</div>  
 
 
 </div>
