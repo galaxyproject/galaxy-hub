@@ -35,9 +35,9 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <img class="card-img-top" src="/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
 <div class="card-header">[First JTech Scholarships Awarded](/news/2020-09-jtech-scholarships/)</div>
 
-The [first group of scholarships have been awarded](/news/2020-09-jtech-scholarships/) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
+The [first group of scholarships have been awarded](/news/2020-09-jtech-scholarships/) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://jxtxfoundation.org/donate/) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
 
-**Please consider [making a donation to JTech](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**
+**Please consider [making a donation to JTech](https://jxtxfoundation.org/donate/) to support James Taylor’s legacy.**
 </div>
 
 
@@ -239,7 +239,7 @@ How to use **[refgenie](http://refgenie.databio.org/)** with your local instance
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.
+Pub curation activities [are on hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.
 
 <div class="card-deck">
 

@@ -1,6 +1,6 @@
 ---
-title: ELIXIR-IT/Laniakea Galaxy Event Archive
+title: Galaxy Italy Event Archive
 ---
 
-Old events relevant to the ELIXIR-IT/Laniakea Galaxy community.
+Old events relevant to the Italian Galaxy community.
 

@@ -70,7 +70,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
 
-[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)
+[Donate now](https://jxtxfoundation.org/donate/)
 
 </button>
 </div>
@@ -411,7 +411,7 @@ This tutorial got a thorough update from [Mallory Freeberg](https://training.gal
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

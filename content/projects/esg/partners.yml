@@ -1,72 +1,76 @@
 partners:
-- name: VIB
-  image: ./partner-logos/VIB.svg
-  website: https://vib.be/
+    - name: VIB
+      image: ./partner-logos/VIB.svg
+      website: https://vib.be/
 
-- name: The University of Manchester
-  image: ./partner-logos/UNIMAN.svg
-  website: https://www.manchester.ac.uk/
+    - name: The University of Manchester
+      image: ./partner-logos/UNIMAN.svg
+      website: https://www.manchester.ac.uk/
 
-- name: University Paris
-  image: ./partner-logos/UNIVERSITY PARIS.png
-  website: https://u-paris.fr/
+    - name: University Paris
+      image: ./partner-logos/UNIVERSITY PARIS.png
+      website: https://u-paris.fr/
 
-- name: Universita Degli Studi Frienze
-  image: ./partner-logos/UNIFI.png
-  website: https://www.bio.unifi.it/
+    - name: Universita Degli Studi Frienze
+      image: ./partner-logos/UNIFI.png
+      website: https://www.bio.unifi.it/
 
-- name: UK Research and Innovation
-  image: ./partner-logos/UKRI_STF_Council-Logo_Horiz-RGB.png
-  website: https://www.ukri.org/
+    - name: UK Research and Innovation
+      image: ./partner-logos/UKRI_STF_Council-Logo_Horiz-RGB.png
+      website: https://www.ukri.org/
 
-- name: Universitat de Barcelona
-  image: ./partner-logos/UB LOGO.png
-  website: https://www.ub.edu/
+    - name: Universitat de Barcelona
+      image: ./partner-logos/UB LOGO.png
+      website: https://www.ub.edu/
 
-- name: TÜBİTAK
-  image: ./partner-logos/TÜBİTAK ULAKBİM Logo.svg
-  website: https://www.tubitak.gov.tr/
+    - name: TÜBİTAK
+      image: ./partner-logos/TÜBİTAK ULAKBİM Logo.svg
+      website: https://www.tubitak.gov.tr/
 
-- name: University of Oslo
-  image: ./partner-logos/University_of_Oslo_seal.svg.png
-  website: https://www.uio.no/
+    - name: University of Oslo
+      image: ./partner-logos/University_of_Oslo_seal.svg.png
+      website: https://www.uio.no/
 
-- name: AGH University of Science and Technology
-  image: ./partner-logos/uni_agh-1.png
-  website: https://www.agh.edu.pl/
+    - name: AGH University of Science and Technology
+      image: ./partner-logos/uni_agh-1.png
+      website: https://www.agh.edu.pl/
 
-- name: Istituto Nazionale di Fisica Nucleare
-  image: ./partner-logos/INFN.jpg
-  website: https://home.infn.it/
+    - name: Istituto Nazionale di Fisica Nucleare
+      image: ./partner-logos/INFN.jpg
+      website: https://home.infn.it/
 
-- name: EPFL
-  image: ./partner-logos/epfl-logo-new.svg
-  website: https://www.epfl.ch/
+    - name: EPFL
+      image: ./partner-logos/epfl-logo-new.svg
+      website: https://www.epfl.ch/
 
-- name: cnrs
-  image: ./partner-logos/CNRS.svg.png
-  website: https://www.cnrs.fr/
-  
-- name: Consiglio Nazionale delle Ricerche
-  image: ./partner-logos/CNR.png
-  website: https://www.cnr.it/
+    - name: cnrs
+      image: ./partner-logos/CNRS.svg.png
+      website: https://www.cnrs.fr/
 
-- name: cesnet
-  image: ./partner-logos/CESNET LOGO.png
-  website: https://www.cesnet.cz/
+    - name: Consiglio Nazionale delle Ricerche
+      image: ./partner-logos/CNR.png
+      website: https://www.cnr.it/
 
-- name: Barcelona Supercomputing Center
-  image: ./partner-logos/BSC-logo-paths.svg
-  website: https://www.bsc.es/
+    - name: cesnet
+      image: ./partner-logos/CESNET LOGO.png
+      website: https://www.cesnet.cz/
 
-- name: Institute of Informatics - SAS
-  image: ./partner-logos/uisav_logo_en.png
-  website: https://www.sav.sk/?doc=ins-org-ins&institute_no=60
+    - name: Barcelona Supercomputing Center
+      image: ./partner-logos/BSC-logo-paths.svg
+      website: https://www.bsc.es/
 
-- name: Advanced computing for research
-  image: ./partner-logos/EGI_Logo_RGB.svg
-  website: https://www.egi.eu/
+    - name: Institute of Informatics - SAS
+      image: ./partner-logos/uisav_logo_en.png
+      website: https://www.sav.sk/?doc=ins-org-ins&institute_no=60
 
-- name: ACK Cyfronet AGH
-  image: ./partner-logos/CyfronetLogo.png
-  website: https://www.cyfronet.pl/
+    - name: Advanced computing for research
+      image: ./partner-logos/EGI_Logo_RGB.svg
+      website: https://www.egi.eu/
+
+    - name: ACK Cyfronet AGH
+      image: ./partner-logos/CyfronetLogo.png
+      website: https://www.cyfronet.pl/
+
+    - name: University of Freiburg
+      image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
+      website: https://www.uni-freiburg.de/

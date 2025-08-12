@@ -16,6 +16,7 @@ I'm just trying to learn to analyse my data, how did I get here?
 
 Hello user! You'll be interested in the following resources:
 
+ - [A list of our tools, repositories, and resources](https://galaxy-genome-annotation.github.io/)
  - [Learning pathway for getting to grips with Galaxy and genome annotation](https://training.galaxyproject.org/training-material/learning-pathways/genome-annotation-eukaryote.html)
  - [Genome Annotation training material](https://training.galaxyproject.org/training-material/topics/genome-annotation/)
  - Galaxy instance: [Genome annotation instance](https://annotation.usegalaxy.eu)
@@ -23,7 +24,7 @@ Hello user! You'll be interested in the following resources:
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy genome annotation space!
 
-# What are the goals of the single cell community of practice?
+# What are the goals of the Galaxy Genome Annotation (GGA) Community of practice?
 
 🎯 Goals
 - Prevent work duplication

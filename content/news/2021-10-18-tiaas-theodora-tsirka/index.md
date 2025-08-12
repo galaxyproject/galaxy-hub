@@ -3,7 +3,7 @@ title: Training Infrastructure Feedback from Dr. Theodora Tsirka
 date: '2021-10-18'
 tease: We have received feedback about TIaaS from Dr. Theodora Tsirka, during the Training School on Microbiome Sequencing and Data Analysis
 hide_tease: true
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - eosc

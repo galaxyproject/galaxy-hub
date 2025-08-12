@@ -3,8 +3,16 @@ title: 'Freiburg Galaxy team at the EGI 2023'
 date: "2023-07-24"
 tease: "From June 19th to 23rd, members from the Freiburg Galaxy team traveled to Poznań, Poland to participate and present the EuroScienceGateway (ESG) project at the EGI2023 meeting"
 hide_tease: false
-subsites: [all-eu]
+subsites: [all-eu, esg]
+tags:
+- esg-wp1
+- esg-wp4
+- esg-wp3
 main_subsite: eu
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - egi
 ---
 
 During 19th-23rd of June, Björn Grüning, Sebastian Schaaf, and Sanjay Kumar Srikakulam from the European Galaxy Team travelled to Poznań to join the [EGI2023 conference](https://www.egi.eu/event/egi2023/) and presented the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators. With Sebastián Luna-Valero and Enol Fernández (European Grid Initiative/NL), Hakan Bayındır (ULAKBIM/TR), Łukasz Dutka (Cyfronet/PL), Abdulrahman Azab and Maiken Pedersen (University of Oslo/NO), work packages 1, 3 and 4 of ESG were represented.

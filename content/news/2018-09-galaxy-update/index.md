@@ -233,12 +233,12 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # Contributor of the Month: Carrie Ganote
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/news/)
 </div>
 
-There is one new *[Galactic Blog](/blog/)* entry:
+There is one new *[Galactic Blog](/news/)* entry:
 
-* [Contributor of the Month: Carrie Ganote](/blog/2018-09-cotm-carrie-ganote/), By Björn Grüning
+* [Contributor of the Month: Carrie Ganote](/news/2018-09-cotm-carrie-ganote/), By Björn Grüning
 
 ----
 
@@ -256,11 +256,11 @@ See the [epiGeEC directory entry](/use/epigeec/) for more.
 
 ## MetaCentrum - Czechia
 
-[<img class="float-left" src="/use/metacentrum/metacentrum-logo.png" alt="MetaCentrum" width="200px" />](/use/metacentrum/)
+[<img class="float-left" src="/use/usegalaxy-cz/usegalaxy-cz.png" alt="usegalaxy.cz" width="200px" />](/use/usegalaxy-cz/)
 
-[MetaCentrum](https://galaxy.metacentrum.cz/) supports Galaxy instances on the Czech National Grid Infrastructure (NGI), that are available to employees and students of research and academic organizations of Czechia and for scientific purposes only. Use requires [registering for an account](https://metavo.metacentrum.cz/en/application/index.html).
+[MetaCentrum](https://usegalaxy.cz/) supports Galaxy instances on the Czech National Grid Infrastructure (NGI), that are available to employees and students of research and academic organizations of Czechia and for scientific purposes only. Use requires [registering for an account](https://metavo.metacentrum.cz/en/application/index.html).
 
-See the [Metacentrum directory entry](/use/metacentrum/) for more.
+See the [Metacentrum directory entry](/use/usegalaxy-cz/) for more.
 
 ## Public Servers in Publications
 

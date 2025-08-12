@@ -19,7 +19,7 @@ export const program = new Command();
 program
     .description(
         "Process the files in the content directory and set up the build directories so they're ready\n" +
-            "for Gridsome."
+            "for Gridsome.",
     )
     .argument(
         "[command]",
@@ -27,19 +27,19 @@ program
             "'preprocess': Just do a one-time setup of the build directories, then exit.\n" +
             "'watch': Watch the content directory and keep it in sync with the build directories. " +
             "This does not do any preprocessing! You must make sure the content and build" +
-            "directories are already synced!"
+            "directories are already synced!",
     )
     .option(
         "-C, --no-clear",
         "Don't empty the build directories first. By default, this deletes everything in the build " +
             "directories before preprocessing. This has no effect if only watching, as no clearing is " +
-            "ever done in that case."
+            "ever done in that case.",
     )
     .option(
         "-p, --placer <name>",
         `Method of placing Markdown files into the build directories:
                      'link': Link to the original file from the build directory.
-                     'copy': Place a copy of the original file in the build directory.`
+                     'copy': Place a copy of the original file in the build directory.`,
     )
     .option("-F, --no-fix-markdown")
     .option("-v, --verbose", "Output only warnings and errors.")
@@ -50,7 +50,7 @@ program
 for (let contentType of CONTENT_TYPES) {
     program.option(
         `--${contentType} <name>`,
-        repr`Set the method of placing ${contentType} files. Overrides default --placer.`
+        repr`Set the method of placing ${contentType} files. Overrides default --placer.`,
     );
 }
 
@@ -149,7 +149,7 @@ function fixMdOnEvent(eventType, path, partitioner, verbose, simulate) {
         if (eventType === "remove") {
             console.error(
                 repr`Warning: Received a ${eventType} event on ${path}, but build path ${buildPathData.path}` +
-                    " exists."
+                    " exists.",
             );
         }
     } else {
@@ -157,7 +157,7 @@ function fixMdOnEvent(eventType, path, partitioner, verbose, simulate) {
         if (eventType !== "remove" && PathInfo.type(path) !== "dir") {
             console.error(
                 repr`Warning: received a ${eventType} event on ${path}, but it was not found in the build ` +
-                    "directory."
+                    "directory.",
             );
         }
         return;

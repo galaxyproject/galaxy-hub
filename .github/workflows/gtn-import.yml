@@ -1,0 +1,44 @@
+---
+# Pull news/events from the Galaxy Training Network's RSS feed and add them as
+# Galaxy Hub posts.
+name: Galaxy Training Network news/events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,8,16 * * *"
+
+jobs:
+  collect:
+    name: Collect news/events from the Galaxy Training Network
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO_NAME: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r utils/gtn-import-requirements.txt
+
+      - name: Parse GTN news RSS feed
+        env:
+          FEED_URL: https://training.galaxyproject.org/training-material/feed.xml
+          IMPORT_TYPE: news
+        run: python utils/gtn-import.py
+
+      - name: Parse GTN events RSS feed
+        env:
+          FEED_URL: https://training.galaxyproject.org/training-material/events/feed.xml
+          IMPORT_TYPE: events
+          START_DATE: "2025-02-14"
+        run: python utils/gtn-import.py

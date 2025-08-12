@@ -3,7 +3,7 @@ title: The de.NBI / ELIXIR-DE training platform - Bioinformatics training in Ger
   and across Europe within ELIXIR
 date: '2019-11-30'
 doi: 10.12688/f1000research.20244.1
-tags: [paper, training]
+tags: [paper, training, tiaas]
 supporters:
 - denbi
 - elixir

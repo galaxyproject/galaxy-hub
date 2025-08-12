@@ -123,7 +123,8 @@ $link-hover-color: darken($link-color, 15%);
 
 // Fonts and sizes
 
-$font-family-sans-serif: "Lucida Grande", verdana, arial, helvetica, sans-serif; //JT "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:
+    "Lucida Grande", verdana, arial, helvetica, sans-serif; //JT "Helvetica Neue", Helvetica, Arial, sans-serif;
 //$font-family-serif: Georgia, "Times New Roman", Times, serif;
 $font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base: $font-family-sans-serif;

@@ -12,7 +12,8 @@ title: "The Vertebrate Genomes Project in Galaxy"
 
 ----
 
-The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data:
+The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for all the [74,962 vertebrate species](https://worldanimalfoundation.org/advocate/how-many-animals-are-in-the-world/).
+Using Galaxy infrastructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data:
   - Integration of the Genome Ark on public Galaxy servers.
   - A Galaxy platform with toolkits specifically tailored for [Genome assembly](https://assembly.usegalaxy.eu).
   - Multiple workflows available from the [IWC](https://github.com/galaxyproject/iwc) on US and EU servers using the most up-to-date VGP pipelines.
@@ -26,8 +27,8 @@ The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP) is
 The following continuously updated table represents genome assemblies produced so far using Galaxy workflows.
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/json/species_stats.vl.json"/><br>
-  <small>For species repeated twice two haplotype assemblies are available. Taxonomic labels are clickable: "Class" and "Order" will bring you to Wikipedia and "Species" to GenomeArk - a central repository of VGP data. A vector graphics version of this figure is available <a href="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/svg/species_stats.svg">here</a>. | <tt>Size</tt> = estimated genome size; Het = estimated heterozygosity, <tt>Repeat</tt> = estimated repeat content; <tt>Contig NG50</tt> and <tt>Scaffold NG50</tt> = <a href="https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics#NG50">NG50</a> statistics for contigs and scaffolds, respectively; <tt>Gaps</tt> = total length of gaps in scaffolds.</small>
+  <vega-embed spec="https://raw.githubusercontent.com/scottcain/vgp_hub_page_data/refs/heads/main/json/species_stats.jan25.json"/><br>
+  <small>Last updated January, 2025 with 315 assemblies of 188 species. For species repeated twice two haplotype assemblies are available. Taxonomic labels are clickable: "Class" and "Order" will bring you to Wikipedia and "Species" to GenomeArk - a central repository of VGP data. A vector graphics version of this figure is available <a href="https://raw.githubusercontent.com/nekrut/vgp_hub_page_data/main/svg/species_stats.svg">here</a>. | <tt>Size</tt> = estimated genome size; Het = estimated heterozygosity, <tt>Repeat</tt> = estimated repeat content; <tt>Contig NG50</tt> and <tt>Scaffold NG50</tt> = <a href="https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics#NG50">NG50</a> statistics for contigs and scaffolds, respectively; <tt>Gaps</tt> = total length of gaps in scaffolds.</small>
 </div>
 
 
@@ -75,6 +76,6 @@ The computational resources required for assembly are supported by **public** co
 
 - **EU** - [de.NBI](https://www.denbi.de/), [Uni-Freiburg](https://uni-freiburg.de), [EOSC](https://eosc.eu) and [ELIXIR](https://elixir-europe.org/)
 - **US** - [ACCESS-CI](https://access-ci.org/), [TACC](https://www.tacc.utexas.edu/), [Jetstream2](https://jetstream-cloud.org/) (additional funding is provided by NSF and NIH)
-- **Australia** - [Australian BioCommions](https://www.biocommons.org.au/), [QCIF](https://www.qcif.edu.au/), [Melbourne Bioinformatics.org.au](https://www.melbournebioinformatics.org.au/), [AARNet](https://www.aarnet.edu.au/)
+- **Australia** - [Australian BioCommons](https://www.biocommons.org.au/), [the University of Melbourne](https://www.unimelb.edu.au/), [Bioplatforms Australia](https://bioplatforms.com/) and [NCRIS](https://www.education.gov.au/ncris). See [full list of partners on Galaxy Australia](https://site.usegalaxy.org.au/about#operational-partners).
 
 

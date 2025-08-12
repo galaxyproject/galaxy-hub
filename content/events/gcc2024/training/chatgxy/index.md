@@ -13,13 +13,13 @@ The aim behind ChatGXY is to improve the user experience in Galaxy by translatin
 
 ## Meet the Instructors
 
-### Ahmed Hamid Awan
-Johns Hopkins University <br>
-I'm a Software Engineer working primarily on the front end (client), as well as the backend of Galaxy for the past two years.
-
 ### Dannon Baker
 Johns Hopkins University <br>
 
 ### Tyler Collins
 Johns Hopkins University <br>
 Galaxy developer and enthusiast of tool integration and better understanding bioinformatic analyses. 
+
+### Ahmed Hamid Awan
+Johns Hopkins University <br>
+Galaxy Developer

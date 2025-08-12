@@ -1,56 +1,59 @@
 style:
-  color: "#2c81bb"
+    color: "#2c81bb"
+    #lightBg: true
 left:
-- label: News
-  relativeTo: subsite
-  target: news/
-- label: Events
-  relativeTo: subsite
-  target: events/
-- label: People
-  target: https://usegalaxy-eu.github.io/elixir-it/people
+    - label: News
+      relativeTo: subsite
+      target: news/
+    - label: Events
+      relativeTo: subsite
+      target: events/
+    - label: People
+      relativeTo: subsite
+      target: people/
+    - label: Cite
+      relativeTo: subsite
+      target: cite/
 right:
-- label: Help
-  contents:
-  - label: Get started
-    target: "/get-started/"
-  - label: Training
-    target: "/learn/"
-  - label: FAQ
-    target: "/support/"
-  - label: Galaxy Help Forum
-    target: https://help.galaxyproject.org/
-- label: Community
-  contents:
-  - label: The Galaxy Community
-    target: "/community/"
-  - label: Blog
-    target: "/blog/"
-  - label: Working Groups
-    target: "/community/wg/"
-  - label: Governance
-    target: "/community/governance/"
-  - label: How to contribute
-    target: "/community/contributing/"
-  - label: Galaxy Mentor Network
-    target: https://galaxy-mentor-network.netlify.app/
-  - label: Code of Conduct
-    target: "/community/coc/"
-- label: About
-  contents:
-  - label: Publications
-    target: https://usegalaxy-eu.github.io/elixir-it/publications
-  - label: Platforms
-    target: "/use/"
-  - label: Careers
-    target: "/careers/"
-  - label: Stats
-    target: "/galaxy-project/statistics/"
-  - label: Mailing lists
-    target: "/mailing-lists"
-  - label: Citing Galaxy
-    target: "/citing-galaxy/"
-  - label: Branding
-    target: "/images/galaxy-logos/"
-- label: "@jxtx"
-  target: https://jxtxfoundation.org/
+    - label: Help
+      contents:
+          - label: Get started
+            target: "/get-started/"
+          - label: Training
+            target: "/learn/"
+          - label: FAQ
+            target: "/support/"
+          - label: Galaxy Help Forum
+            target: https://help.galaxyproject.org/
+    - label: Community
+      contents:
+          - label: The Galaxy Community
+            target: "/community/"
+          - label: Working Groups
+            target: "/community/wg/"
+          - label: Governance
+            target: "/community/governance/"
+          - label: How to contribute
+            target: "/community/contributing/"
+          - label: Galaxy Mentor Network
+            target: https://galaxy-mentor-network.netlify.app/
+          - label: Code of Conduct
+            target: "/community/coc/"
+    - label: About
+      contents:
+          - label: Publications
+            target: https://usegalaxy-eu.github.io/elixir-it/publications
+          - label: Platforms
+            target: "/use/"
+          - label: Careers
+            target: "/careers/"
+          - label: Stats
+            target: "/galaxy-project/statistics/"
+          - label: Mailing lists
+            target: "/mailing-lists"
+          - label: Citing Galaxy
+            target: "/citing-galaxy/"
+          - label: Branding
+            target: "/images/galaxy-logos/"
+    - label: "@jxtx"
+      target: https://jxtxfoundation.org/

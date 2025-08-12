@@ -268,12 +268,14 @@ class nodeModifier {
                 internal: {
                     origin: node.internal.origin,
                     mimeType: node.internal.mimeType,
-                    // If you include the `content` too, the node appears to get re-parsed and ends up
-                    // with the original metadata values (before the edits done by `processNonInsert()`).
+                    // No longer including content in internal object as it may cause re-parsing issues
+                    // Instead, we'll add it as a direct property
                 },
+                // Add content as a direct property rather than in internal
+                content: node.content,
             };
             for (let [key, value] of Object.entries(node)) {
-                if (!(key.startsWith("$") || key === "id" || key === "internal")) {
+                if (!(key.startsWith("$") || key === "id" || key === "internal" || key === "content")) {
                     newNode[key] = cloneDeep(value);
                 }
             }
@@ -409,7 +411,7 @@ module.exports = function (api) {
                         days_ago: "Int",
                         closed: "Boolean",
                     },
-                })
+                }),
             );
         }
         let collections = ARTICLE_TYPES.concat(Object.keys(CONFIG.collections));
@@ -433,7 +435,7 @@ module.exports = function (api) {
                     subsites: "[String]",
                     main_subsite: "String",
                 },
-            })
+            }),
         );
     });
 
@@ -563,6 +565,7 @@ module.exports = function (api) {
                             days
                             days_ago
                             path
+                            content
                         }
                     }
                 }
@@ -591,6 +594,7 @@ module.exports = function (api) {
                             }
                             external_url
                             path
+                            content
                         }
                     }
                 }
@@ -705,7 +709,10 @@ function makePlatformsJson(platformsData) {
 function makeEventsJson(eventsData) {
     const events = eventsData.data.allParentArticle.edges
         .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
-        .map((edge) => edge.node);
+        .map((edge) => {
+            // We include all fields, including content in the JSON feed
+            return edge.node;
+        });
     const data = {
         count: events.length,
         events: events,
@@ -716,7 +723,10 @@ function makeEventsJson(eventsData) {
 function makeNewsJson(newsData) {
     const news = newsData.data.allParentArticle.edges
         .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
-        .map((edge) => edge.node);
+        .map((edge) => {
+            // We include all fields, including content in the JSON feed
+            return edge.node;
+        });
     const data = {
         count: news.length,
         news: news,

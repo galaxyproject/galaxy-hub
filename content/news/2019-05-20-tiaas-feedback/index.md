@@ -1,7 +1,7 @@
 ---
 title: Another successful Galaxy workshop in Melbourne
 date: '2019-05-20'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - TIaaS

@@ -14,6 +14,7 @@
                         <li><a href="/careers/">Careers</a></li>
                         <li><a href="https://jxtxfoundation.org/">JXTX Foundation</a></li>
                         <li><a href="/community/coc/">Code of Conduct</a></li>
+                        <li><a href="mailto:contact@galaxyproject.org">Contact</a></li>
                     </ul>
                     <ul class="col-md-3 text-sm-center text-md-left">
                         <li><a href="/community/wg/">Working Groups</a></li>
@@ -32,7 +33,7 @@
                         <li><a href="https://github.com/galaxyproject/">GitHub</a></li>
                         <li><a href="https://matrix.to/#/#galaxyproject_Lobby:gitter.im">Matrix</a></li>
                         <li><a href="https://www.youtube.com/@GalaxyProject">YouTube</a></li>
-                        <li><a href="https://www.linkedin.com/groups/4907635/">LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/company/galaxy-project/">LinkedIn</a></li>
                         <li><a href="https://bsky.app/profile/galaxyproject.bsky.social">Bluesky</a></li>
                         <li><a href="https://mstdn.science/@galaxyproject">Mastodon</a></li>
                     </ul>

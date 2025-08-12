@@ -2,9 +2,9 @@
     <Layout>
         <Redirect
             v-if="redirectUrl"
-            pre-text="This url is no longer valid. Perhaps you meant "
+            :pre-text="redirectPreText"
             :url="redirectUrl"
-            post-text="?"
+            :post-text="redirectPostText"
             :location="location"
         >
         </Redirect>
@@ -29,16 +29,40 @@ export default {
         return {
             location: undefined,
             redirectUrl: undefined,
+            redirectPreText: "This url is no longer valid. Perhaps you meant ",
+            redirectPostText: "?",
         };
     },
     mounted() {
         // This has to be set in mounted() because window does not exist when building.
         // This will execute in the browser on page load.
         this.location = window.location;
+
+        // Check if this is an old blog URL and redirect to news
+        const blogRedirect = checkBlogRedirect(window.location.pathname);
+        if (blogRedirect) {
+            this.redirectUrl = blogRedirect;
+            this.redirectPreText =
+                "Blog posts have been merged into the news section of the hub. You will be redirected to ";
+            this.redirectPostText = ".";
+            return;
+        }
+
         // If the url is different under Gridsome's slugification rules, redirect to that.
         this.redirectUrl = doRedirectIfNeeded(window.location.href);
     },
 };
+function checkBlogRedirect(pathname) {
+    // Check if this is an old /blog/ URL pattern
+    if (pathname.startsWith("/blog/")) {
+        // Replace /blog/ with /news/ in the pathname
+        const newsPath = pathname.replace(/^\/blog\//, "/news/");
+
+        // Return the full URL with the new path
+        return window.location.origin + newsPath + window.location.search + window.location.hash;
+    }
+    return null;
+}
 function doRedirectIfNeeded(currentUrl) {
     let url = new URL(currentUrl);
     if (isFilenamePath(url.pathname)) {

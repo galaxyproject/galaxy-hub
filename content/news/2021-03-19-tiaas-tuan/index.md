@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Dr. Tuan Leng Tay
 date: '2021-03-19'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Dr. Tuan Leng Tay

@@ -1,7 +1,7 @@
 ---
 title: 20,000 users
 date: '2020-10-21'
-tags: [galaxy, TIaaS]
+tags: [galaxy, tiaas]
 supporters:
 - denbi
 - elixir

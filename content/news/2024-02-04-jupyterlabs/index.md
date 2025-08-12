@@ -4,7 +4,10 @@ date: "2024-02-04"
 authors: Marie Jossé
 tease: "Jupyterlabs and Notebooks for earth, environment, and climate sciences"
 hide_tease: false
-subsites: [all-eu,global]
+subsites: [all-eu,global, esg]
+tags: [esg, esg-wp5]
+supporters:
+  - eurosciencegateway
 ---
 
 Some news on the progression of the [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu). 
@@ -90,6 +93,4 @@ If you are interested in these tools and/or tutorials don't hesitate to test the
 
 We are still working on Earth System tools, workflows, and tutorials. This specific study is in cooperation with the [Fair-Ease](https://fairease.eu/) and [EuroScienceGateway](https://eurosciencegateway.eu/) projects
 (to know more about the projects see the [blog](https://galaxyproject.org/news/2023-05-21-fair-ease-euro-science-gateway/) .
-![EOSC EuroSciencefair_ease_colour.png)
-
-
+![FairEase](../2023-05-21-Fair-Ease-EuroScienceGateway/images/fair_ease_colour.png)

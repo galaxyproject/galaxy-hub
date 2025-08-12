@@ -39,7 +39,11 @@
     * [gemini_burden](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_burden): Wrapper for the gemini tool suite: GEMINI burden
 
 * *From [lecorguille](https://toolshed.g2.bx.psu.edu/view/lecorguille):*
-    * [xcms_summary](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_summary): [W4M][LC-MS] XCMS R Package - Preprocessing - HTML Summary for XCMS and CAMERA analysis Part of the W4M project: http://workflow4metabolomics.org\n\nXCMS: http://www.bioconductor.org/packages/release/bioc/html/xcms.html\n\nThis tool create a HTML summary of XCMS and CAMERA analysis
+    * [xcms_summary](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_summary): [W4M][LC-MS] XCMS R Package - Preprocessing - HTML Summary for XCMS and CAMERA analysis Part of the W4M project: http://workflow4metabolomics.org
+
+XCMS: http://www.bioconductor.org/packages/release/bioc/html/xcms.html
+
+This tool create a HTML summary of XCMS and CAMERA analysis
 
 * *From [mkh](https://toolshed.g2.bx.psu.edu/view/mkh):*
     * [ips5](https://toolshed.g2.bx.psu.edu/view/mkh/ips5): InterProScan 5

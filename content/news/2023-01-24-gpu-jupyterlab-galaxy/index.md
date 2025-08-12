@@ -3,9 +3,11 @@ title: 'GPU-enabled JupyterLab enables interactive AI use-cases in Galaxy'
 date: '2023-01-24'
 tease: 'Democratising GPU infrastructures by providing accelerated JuypterLab instances via Galaxy and combining them with HPC workflows'
 authors: 'Anup Kumar'
-tags: [tools]
+tags: [tools,esg,esg-wp5]
 subsites: [all-eu,global,esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 ## Introduction
