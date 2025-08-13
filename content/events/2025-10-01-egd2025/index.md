@@ -112,7 +112,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr>
           <td>02.10.2025 (Thu)</td>
           <td>16:30-17:30</td>
-          <td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2<br>Alireza Heidari: TBA<br>Bérénice Batut: microGalaxy for Microbiology</td>
+          <td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2<br>Birds of a Feather (Galaxy Tool Management -- how to save admin's sanity)<br>Bérénice Batut: microGalaxy for Microbiology</td>
           <td>Building 101</td>
           <td>01 009 / 013<br>and<br>01 016 / 018</td>
         </tr>
@@ -198,7 +198,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>15:00 - 15:20</td><td>Jain Smitesh</td><td><span class="event-meets">Sustainability of Galaxy (EuroScienceGateway)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>15:20 - 15:30</td><td>Nikolay Vazov</td><td><span class="event-meets">TBD</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>15:30 - 15:40</td><td>Marco Antonio Tangaro</td><td><span class="event-meets">Laniakea Nebula: VPN-Based Isolation for Galaxy Private Deployments</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>15:40 - 15:50</td><td>TBD</td><td><span class="event-meets">TBD</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:40 - 15:50</td><td>Teresa Müller</td><td><span class="event-meets">Exploring the Galaxy Training Network: What's Here, What's New</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>15:50 - 16:00</td><td>Eli Chadwick</td><td><span class="event-meets">Highlighting RO-Crate features in Galaxy and why you should use them</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>16:00 - 16:30</td><td>—</td><td><span class="event-lunch">Coffee Break & Poster session<br>Posters:<br>Martin Cech (TBA)<br>Eli Chadwick (TBA)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBA)<br>Pauline Seguineau (TBA)<br>Marie Jossé (TBA)<br>Arthur Barreau (TBA)<br>Charles Girardot (TBA)<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions</span></td><td>—</td><td>02 016 / 018</td></tr>
         <tr><td>16:30 - 17:30</td><td>Martin Cech</td><td><span class="event-bof">Birds of a Feather (Galaxy Tool Management -- how to save admin's sanity)</span></td><td>60'</td><td>01 009 / 013</td></tr>
