@@ -112,7 +112,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr>
           <td>02.10.2025 (Thu)</td>
           <td>16:30-17:30</td>
-          <td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2<br>Alireza Heidari: TBA<br>Bérénice Batut: microGalaxy for Microbiology</td>
+          <td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2<br>Birds of a Feather (Galaxy Tool Management -- how to save admin's sanity)<br>Bérénice Batut: microGalaxy for Microbiology</td>
           <td>Building 101</td>
           <td>01 009 / 013<br>and<br>01 016 / 018</td>
         </tr>
