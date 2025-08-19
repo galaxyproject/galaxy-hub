@@ -68,7 +68,10 @@ bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213598441552f6c1076c/d
 descriptionUrl https://galaxyproject.org/assets/uscs_hubs/unannotated_introns.html
 
 track Gametocytes_lifecycle
+aggregate stacked
 container multiWig
+showSubtrackColorOnUi on
+graphTypeDefault bar
 shortLabel Gametocytes Lifec 
 longLabel Gametocytes 4 life cycle stages (mirrorred from VEuPathDB)
 type bigWig
@@ -88,6 +91,14 @@ shortLabel GametocyteIInupls
 color 130,110,130
 parent Gametocytes_lifecycle
 bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.2_Gametocyte_II_non-unique_forward_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.3_Gametocyte_II_unique_reverse_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte II unique reverse 
+shortLabel GametocyteIIunqrev
+color 130,120,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.3_Gametocyte_II_unique_reverse_Coverage.wig.newrefseqs.bw
 type bigWig
 
 track Combined_RNA-Seq
