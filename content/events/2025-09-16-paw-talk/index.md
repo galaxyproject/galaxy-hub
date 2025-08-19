@@ -5,7 +5,8 @@ contact: "Diana Chiang Jurado"
 date: "2025-09-16"
 days: 1
 continent: "EU"
-location: Online
+location:
+  name: Online, Global
 gtn: false
 tags: [talks, uni-freiburg, esg, esg-wp1]
 supporters: [card, esg, unifreiburg]
