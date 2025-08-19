@@ -157,3 +157,14 @@ The mission of the [Bioconductor project](https://www.bioconductor.org/) is to d
 [F1000Research](https://f1000research.com/?utm_source=shared_link&utm_medium=post&utm_campaign=JRC27054) enables scientists and scholars to publish their research rapidly, openly, and transparently via an author-centric platform. We publish research across all academic disciplines and in multiple formats, including original articles, data notes, software tool articles and method articles.
 
 F1000Research operates a unique post-publication open peer review process, enabling authors to engage with their reviewers transparently, whilst also making the research available to a global audience as quickly as possible.
+
+# A few success stories
+
+Please read the success stories below! They are full of inspiring examples and solutions!
+
+| __Special Interest Group__ | __Here is how they did it__ |
+|---|---|
+| Biodiversity  |  [The Biodiversity success story from 2022-2025](/community/sig/successful-stories/biodiversity/) |
+| Climate Science | [The Climate Science  success story from 2022-2025](/community/sig/successful-stories/climate/) |
+| Materials Science | [The Materials Science success story from 2022-2025](/community/sig/successful-stories/materials-science/)|
+| Astrophysics | [The Astrophysics success story from 2022-2025](/community/sig/successful-stories/astrophysics/) |

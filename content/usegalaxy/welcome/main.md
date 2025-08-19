@@ -44,7 +44,7 @@ This instance of Galaxy is utilizing infrastructure generously provided by the [
 
 ---
 
-The development and maintenance of this site are supported by [NIH][nih] [NHGRI][nhgri] award U24 HG006620. Additional support is provided by [NIH][nih] award HG010263, as well as [NSF][nsf] awards 1931531 and 2138585.
+The development and maintenance of this site are supported by [NIH][nih] [NHGRI][nhgri] award U24HG006620. Additional support is provided by [NIH][nih] awards U24HG010263, U24AI183870, U24CA284167, and OT2OD037936, as well as [NSF][nsf] award 2419522.
 
 This site uses [Jetstream2][jetstream2] at the [Indiana University Pervasive Technology Institute][iu-pti], [Bridges-2][bridges2] at the [Pittsburgh Supercomputing Center][psc], [Rockfish][rockfish] at [Johns Hopkins University Advanced Research Computing][jhu-arch], [Stampede3][stampede3] and [Ranch][ranch] at the [Texas Advanced Computing Center][tacc], and [Expanse][expanse] at the [San Diego Supercomputer Center][sdsc], through allocation MCB140147 from the [Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS)][access] program, which is supported by [National Science Foundation][nsf] grants #2138259, #2138286, #2138307, #2137603, and #2138296.
 
