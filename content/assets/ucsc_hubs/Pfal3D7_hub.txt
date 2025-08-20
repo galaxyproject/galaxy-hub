@@ -80,7 +80,7 @@ descriptionUrl https://plasmodb.org/a/app/search/transcript/DatasetsByDatasetNam
 
 track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.1_Gametocyte_II_unique_forward_Coverage.wig.newrefseqs.bw
 longLabel Gametocyte II unique forward
-shortLabel GametocyteIIunqpls
+shortLabel II unique plus
 color 130,100,130
 parent Gametocytes_lifecycle
 bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.1_Gametocyte_II_unique_forward_Coverage.wig.newrefseqs.bw
@@ -88,15 +88,15 @@ type bigWig
 
 track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.2_Gametocyte_II_non-unique_forward_Coverage.wig.newrefseqs.bw
 longLabel Gametocyte II non-unique forward
-shortLabel GametocyteIInupls
+shortLabel II nonuniq plus
 color 130,110,130
 parent Gametocytes_lifecycle
 bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.2_Gametocyte_II_non-unique_forward_Coverage.wig.newrefseqs.bw
 type bigWig
 
 track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.3_Gametocyte_II_unique_reverse_Coverage.wig.newrefseqs.bw
-longLabel Gametocyte II unique reverse 
-shortLabel GametocyteIIunqrev
+longLabel Gametocyte II unique reverse
+shortLabel II unique rev
 color 130,120,130
 parent Gametocytes_lifecycle
 bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.3_Gametocyte_II_unique_reverse_Coverage.wig.newrefseqs.bw
@@ -104,10 +104,42 @@ type bigWig
 
 track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.4_Gametocyte_II_non-unique_reverse_Coverage.wig.newrefseqs.bw
 longLabel Gametocyte II non-unique reverse
-shortLabel GametocyteIInurev
+shortLabel II nonuniq rev
 color 130,130,130
 parent Gametocytes_lifecycle
 bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.4_Gametocyte_II_non-unique_reverse_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.1_Gametocyte_V_unique_forward_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V unique forward
+shortLabel V unique plus
+color 130,100,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.1_Gametocyte_V_unique_forward_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.2_Gametocyte_V_non-unique_forward_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V non-unique forward
+shortLabel V nonuniq plus
+color 130,110,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.2_Gametocyte_V_non-unique_forward_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.3_Gametocyte_V_unique_reverse_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V unique reverse 
+shortLabel V unique rev 
+color 130,120,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.3_Gametocyte_V_unique_reverse_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.4_Gametocyte_V_non-unique_reverse_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V non-unique reverse
+shortLabel V nonuniq rev
+color 130,130,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.4_Gametocyte_V_non-unique_reverse_Coverage.wig.newrefseqs.bw
 type bigWig
 
 track Combined_RNA-Seq
