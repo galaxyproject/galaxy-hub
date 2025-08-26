@@ -29,7 +29,7 @@ around the world and used in a broad range of research domains.
 
 # Schedule 🆕
 
-A tentative schedule for Galaxy Admin training 2025 is now available [here](https://github.com/orgs/galaxyproject/projects/73). Get a sneak peek at the topics that will be covered during this intensive training program. The exact schedule is still TBA.
+A tentative schedule for Galaxy Admin training 2025 is now available [here](https://github.com/orgs/galaxyproject/projects/73). Get a sneak peek at the topics that will be covered during this intensive training program. The exact schedule is still TBD.
 
 # Prerequisites
 
@@ -56,7 +56,7 @@ We have a few tutorials that can help you get refreshed if you need:
 
 ### Competent in a Unix/Linux text editor
 
-Linux has several text editors available in it. You'll need to be comfortable in at least one of them before the workshop starts.  Organizers will make sure that these editors are available on the Linux images we use in the workshop:
+Linux has several text editors available in it. You'll need to be comfortable in at least one of them before the workshop starts. Organizers will make sure that these editors are available on the Linux images we use in the workshop:
 
 We recommend that you use [Nano](https://www.nano-editor.org/), if you don't know another text editor. It's [simple and easy to use.](https://www.howtogeek.com/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). If you know another editor like [Emacs](https://www.gnu.org/software/emacs/) or [VIM](http://www.vim.org/) you are of course welcome to use those as well.
 
@@ -95,8 +95,8 @@ Our plan is to run this as a low-cost event. Ideally there will be no registrati
 
 Please apply [application not available yet]().
 
-We only have limited space so please register as soon as possible. 
-Please feel free to contact us at galaxy@cesnet.cz if you have any question and check this site for any updates.
+We only have limited space so please register as soon as possible.
+Please feel free to contact us at galaxy@cesnet.cz or join the [admin chat](https://matrix.to/#/#galaxyproject_admins:gitter.im) if you have any question and check this site for any updates.
 
 # Logistics
 
@@ -107,7 +107,7 @@ The venue is in the city centre of Brno, which is an amazing city to visit, see 
 
 ## Accomodation
 
-There are many affordable hotels around and also plenty of opportunity for private accomodation. There is no organised effort or group reservation.
+There are many affordable hotels around and also plenty of opportunity for private accomodation. There is no organised effort or group reservation. If you are unsure where to book some tips for generic hotels nearby are: [Continental](https://www.continentalbrno.cz/en), [Avanti](https://www.hotelavanti.cz/en/), and [Cosmopolitan](https://www.hotelcosmopolitan.cz/en/).
 
 ## Getting To Brno
 
@@ -117,4 +117,4 @@ There are many affordable hotels around and also plenty of opportunity for priva
 
 ## Getting Around
 
-There is serious amount of public transportation avaialble that will get you anywhere. Use Google Maps or https://idos.cz/en to find connections and use your card, phone, watch and any other **contactless** payment device to easily pay for it when entering the vehicle (details at https://www.pipniajed.cz/en.html). 
+There is serious amount of public transportation available that will get you anywhere. Use Google Maps or https://mapy.com/en to find connections and use your card, phone, watch and any other **contactless** payment device to easily pay for it when entering the vehicle (details at https://www.pipniajed.cz/en.html). 
