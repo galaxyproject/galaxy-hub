@@ -35,7 +35,7 @@ GCC is a community driven event.  Training topics are nominated and then voted o
 
 GCC has met annually since 2010 and the program has grown and transformed each year. We hope to see you at the next event.
 
-| Dates | Event | Where | Hosts | Attendees |
+| Dates | Event | Where | Hosts | Participants |
 | ---- | ---- | ---- | ---- | ----: |
 | **June 23-28, 2025** | **[GBCC2025](https://gbcc2025.org/)** | **Cold Spring Harbor, New York, United States** | **[CSHL](http://cshl.edu/)** | &#160; |
 | June 24-29, 2024 | [GCC2024](/events/gcc2024/) | Brno, Czech Republic | [Masaryk University](https://www.muni.cz/), [ELIXIR Czech Republic](https://www.elixir-czech.cz/), and [the city of Brno](https://www.brno.cz/) | 151 |

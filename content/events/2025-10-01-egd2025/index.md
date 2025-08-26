@@ -34,7 +34,7 @@ Galaxy is powered by the people who use, develop, and administrate it, regardles
 
 # Registration
 
-Registration is free. We recommend to register as soon as possible to secure your spot for different events as well as helping us to organize the event better. The traveling, accommodation, and subsistence expenses will be partially covered by the organizers for a limited number of ELIXIR participants. The organizers will contact you for further clarification.
+Registration is free. We recommend to register as soon as possible to secure your spot for different events as well as helping us to organize the event better.
 
 <div class="row justify-content-center">
   <a class="btn w-25 btn-dark" href="https://docs.google.com/forms/d/19pQ3c906y1GxvtzEmsEXcXSk31x-5HQje5WlnlRdCOI/" role="button" target="_blank">Register now</a>
@@ -56,102 +56,240 @@ Registration is free. We recommend to register as soon as possible to secure you
     <h3>Overview</h3>
     <table>
       <thead>
-        <tr><th>Day</th><th>Time</th><th>Event</th><th>Location</th></tr>
+        <tr><th>Day</th><th>Time</th><th>Event</th><th>Location</th><th>Room</th></tr>
       </thead>
       <tbody>
-        <tr><td>01.10.2025 (Wed)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b> and <b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>Arrival and Welcome<br>Community update talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>14:30-16:00</td><td><b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities, platforms, and focus groups</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>01.10.2025 (Wed)</td><td>16:30-17:30</td><td><b><span class="event-elixir">ELIXIR Birds of a Feather meetings (BoFs)</span></b><br>Session 1</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>09:00-13:00</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>New developments talks</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>14:30-16:00</td><td><b><span class="event-meets">European Galaxy Days Meets EuroScienceGateway</span></b><br>Several talks to get to know each other</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>02.10.2025 (Thr)</td><td>16:30-17:30</td><td><b><span class="event-bof">Birds of a Feather meetings (BoFs)</span></b><br>Session 2</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-egd">European Galaxy Days</span></b><br>Co-Fest and Hackathon</td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>09:00-17:30</td><td><b><span class="event-esg">EuroScienceGateway Final Conference</span></b></td><td>Building 101<br>Room Nr. TBA</td></tr>
-        <tr><td>03.10.2025 (Fri)</td><td>13:00-14:30</td><td><b><span class="event-lunch">Lunch break</span></b></td><td>Building 101 Nr. TBA<br>Room Nr. TBA</td></tr>
+        <tr>
+          <td>01.10.2025 (Wed)</td>
+          <td>09:00–10:00</td>
+          <td><b><span class="event-egd">European Galaxy Days</span></b> &amp; <b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>Arrival &amp; Welcome · Community update talks</td>
+          <td>Building 101</td>
+          <td>00 036 (Hörsaal)</td>
+        </tr>
+        <tr>
+          <td>01.10.2025 (Wed)</td>
+          <td>10:00–10:30</td>
+          <td><b><span class="event-lunch">Coffee break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>01.10.2025 (Wed)</td>
+          <td>10:30–13:00</td>
+          <td><b><span class="event-egd">European Galaxy Days</span></b> &amp; <b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>Arrival &amp; Welcome · Community update talks</td>
+          <td>Building 101</td>
+          <td>00 036 (Hörsaal)</td>
+        </tr>
+        <tr>
+          <td>01.10.2025 (Wed)</td>
+          <td>13:00–14:00</td>
+          <td><b><span class="event-lunch">Lunch break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>01.10.2025 (Wed)</td>
+          <td>14:00–16:00</td>
+          <td><b><span class="event-elixir">ELIXIR Galaxy Community</span></b><br>Community overview &amp; interactions with ELIXIR platforms</td>
+          <td>Building 101</td>
+          <td>00 036 (Hörsaal)</td>
+        </tr>
+        <tr>
+          <td>01.10.2025 (Wed)</td>
+          <td>16:00–16:30</td>
+          <td><b><span class="event-lunch">Coffee break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>01.10.2025 (Wed)</td>
+          <td>16:30–17:30</td>
+          <td><b><span class="event-elixir">ELIXIR Birds of a Feather (BoFs)</span></b><br>Session 1<br>1. H.-R. Hotz: Running a local Galaxy server (Small-Scale Admin SIG)<br>2. Y. Le Bras: Galaxy for citizen science</td>
+          <td>Building 101</td>
+          <td>01 009 / 013 &amp; 01 016 / 018</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>09:00–10:00</td>
+          <td><b><span class="event-egd">European Galaxy Days</span></b><br>New developments talks</td>
+          <td>Building 101</td>
+          <td>00 036 (Hörsaal)</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>10:00–10:30</td>
+          <td><b><span class="event-lunch">Coffee break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>10:30–13:00</td>
+          <td><b><span class="event-egd">European Galaxy Days</span></b><br>New developments talks</td>
+          <td>Building 101</td>
+          <td>00 036 (Hörsaal)</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>13:00–14:00</td>
+          <td><b><span class="event-lunch">Lunch break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>14:00–16:00</td>
+          <td><b><span class="event-meets">European Galaxy Days Meets EuroScienceGateway</span></b><br>Talks to connect communities</td>
+          <td>Building 101</td>
+          <td>00 036 (Hörsaal)</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>16:00–16:30</td>
+          <td><b><span class="event-lunch">Coffee break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>16:30–17:30</td>
+          <td><b><span class="event-bof">Birds of a Feather (BoFs)</span></b><br>Session 2<br>1. Galaxy Tool Management<br>2. microGalaxy for Microbiology</td>
+          <td>Building 101</td>
+          <td>01 009 / 013 &amp; 01 016 / 018</td>
+        </tr>
+        <tr>
+          <td>03.10.2025 (Fri)</td>
+          <td>09:30–17:30</td>
+          <td><b><span class="event-egd">European Galaxy Days</span></b><br>Co-Fest &amp; Hackathon</td>
+          <td>Building 101</td>
+          <td>01 009 / 013 &amp; 01 016 / 018</td>
+        </tr>
+        <tr>
+          <td>03.10.2025 (Fri)</td>
+          <td>09:30–17:30</td>
+          <td><b><span class="event-esg">EuroScienceGateway Final Conference</span></b></td>
+          <td>Building 101</td>
+          <td>00 036 (Hörsaal)</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>10:00–10:30</td>
+          <td><b><span class="event-lunch">Coffee break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>03.10.2025 (Fri)</td>
+          <td>13:00–14:30</td>
+          <td><b><span class="event-lunch">Lunch break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
+        <tr>
+          <td>02.10.2025 (Thu)</td>
+          <td>16:00–16:30</td>
+          <td><b><span class="event-lunch">Coffee break</span></b></td>
+          <td>Building 101</td>
+          <td>02 016 / 018</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
+  <!-- DAY 1 -->
   <div class="tab-content" v-if="activeTab === 'day1'">
     <h3>Day 1 – Wednesday, October 1st</h3>
     <table>
       <thead>
-        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
+        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th><th>Room</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:00 - 10:00</td><td>—</td><td><span class="event-elixir">Arrival</span></td><td>—</td></tr>
-        <tr><td>10:00 - 10:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td><span class="event-elixir">Welcome, Logistics & General Galaxy and ELIXIR Update</span></td><td>30'</td></tr>
-        <tr><td>10:30 - 10:45</td><td>Daniela Schneider</td><td><span class="event-egd">Broadening the Galaxy: Introducing Digital Humanities in Galaxy</span></td><td>15'</td></tr>
-        <tr><td>10:45 - 11:00</td><td>TBA</td><td><span class="event-elixir">Galaxy Training Network</span></td><td>15'</td></tr>
-        <tr><td>11:00 - 11:45</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
-        <tr><td>11:45 - 12:05</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy Astronomy</span></td><td>20'</td></tr>
-        <tr><td>12:05 - 12:25</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Galaxy Special Interest Groups (with a focus on "Small Scale Admins" and "Switzerland"</span></td><td>20'</td></tr>
-        <tr><td>12:25 - 12:35</td><td>Mina Hojat Ansari</td><td><span class="event-egd">FAIRYMAGS: A Galaxy Workflow for MAG Recovery Applied to Termite Microbiomes</span></td><td>10'</td></tr>
-        <tr><td>12:35 - 12:45</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 6)</span></td><td>10'</td></tr>
-        <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
-        <tr><td>14:30 - 14:45</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td></tr>
-        <tr><td>14:45 - 15:00</td><td>Maria Chavero-Diez</td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td></tr>
-        <tr><td>15:00 - 15:15</td><td>Paul De Geest</td><td><span class="event-elixir">TBD</span></td><td>15'</td></tr>
-        <tr><td>15:15 - 15:30</td><td>Mirela Minkova</td><td><span class="event-elixir">On-demand, Reproducible Galaxy Instances in a Secure Environment for the Dutch Scientific Community</span></td><td>15'</td></tr>
-        <tr><td>15:30 - 15:45</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 5)</span></td><td>15'</td></tr>
-        <tr><td>15:45 - 16:00</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 6)</span></td><td>15'</td></tr>
-        <tr><td>16:00 - 16:30</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
-        <tr><td>16:30 - 17:30</td><td>Various</td><td><span class="event-bof">Birds of a Feather (Session 1)</span></td><td>60'</td></tr>
+        <tr><td>08:30–09:00</td><td>—</td><td><span class="event-elixir">Arrival and Registration</span></td><td>30'</td><td>Main corridor</td></tr>
+        <tr><td>09:00–09:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td><span class="event-elixir">Welcome, Logistics &amp; General Galaxy and ELIXIR Update</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:30–09:45</td><td>Daniela Schneider</td><td><span class="event-egd">Broadening the Galaxy: Introducing Digital Humanities in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:45–10:00</td><td>Bérénice Batut</td><td><span class="event-elixir">The Microbiology Galaxy Lab and the effort from the microGalaxy to build the first community-driven gateway for reproducible and FAIR analysis of microbial data</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>10:00–10:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
+        <tr><td>10:30–10:50</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy and Astronomy community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>10:50–11:10</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Galaxy Special Interest Groups (with a focus on “Small Scale Admins” and “Switzerland”)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:10–11:25</td><td>Mina Hojat Ansari</td><td><span class="event-egd">FAIRYMAGS: A Galaxy Workflow for MAG Recovery Applied to Termite Microbiomes</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:25–11:35</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 6)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:35–11:55</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 7)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:55–12:15</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 8)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:15–12:35</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 9)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:35–12:45</td><td>Solenne Correard</td><td><span class="event-egd">The Biodiversity Galaxy Lab: A Collaborative Hub with curated tools, workflows and training for FAIR and Reproducible biodiversity analysis</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:45–13:00</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 10)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
+        <tr><td>14:00–14:15</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>14:15–14:30</td><td>Maria Chavero-Diez</td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>14:30–14:45</td><td>Paul De Geest</td><td><span class="event-elixir">TBD</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>14:45–15:00</td><td>Mirela Minkova</td><td><span class="event-elixir">On-demand, Reproducible Galaxy Instances in a Secure Environment for the Dutch Scientific Community</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:15–15:30</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 5)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:30–15:45</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 6)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:45–16:00</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 6)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>16:00–16:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
+        <tr><td>16:30–17:30</td><td>Yvan Le Bras</td><td><span class="event-bof">Birds of a Feather (Galaxy for citizen science)</span></td><td>60'</td><td>01 009 / 013</td></tr>
+        <tr><td>16:30–17:30</td><td>Hans-Rudolf Hotz</td><td><span class="event-bof">Birds of a Feather (Running a local Galaxy server – Small-Scale Admin SIG)</span></td><td>60'</td><td>01 016 / 018</td></tr>
       </tbody>
     </table>
   </div>
 
+  <!-- DAY 2 -->
   <div class="tab-content" v-if="activeTab === 'day2'">
     <h3>Day 2 – Thursday, October 2nd</h3>
     <table>
       <thead>
-        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
+        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th><th>Room</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:30 - 09:45</td><td>Lucille Delisle</td><td><span class="event-egd">pyGenomeTracks - make a publishable figure out of your NGS data</span></td><td>15'</td></tr>
-        <tr><td>09:45 - 09:55</td><td>Arthur Barreau</td><td><span class="event-egd">Two-Step Approach for Galaxy Tool Development Using Jupyter ("Interactive JupyterLab Notebook")</span></td><td>10'</td></tr>
-        <tr><td>09:55 - 10:15</td><td>Anup Kumar</td><td><span class="event-egd">Serving locally hosted LLMs using LiteLLM and Ollama with Galaxy</span></td><td>20'</td></tr>
-        <tr><td>10:15 - 10:30</td><td>TBD</td><td><span class="event-egd">TBD (EGD talk 4)</span></td><td>15'</td></tr>
-        <tr><td>10:30 - 11:15</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
-        <tr><td>11:15 - 11:35</td><td>Marius van den Beek</td><td><span class="event-egd">The Future of Galaxy Tools</span></td><td>20'</td></tr>
-        <tr><td>11:35 - 11:45</td><td>Arash Kadkhodaei<br>Alireza Heidary</td><td><span class="event-egd">Simple and Secure Credential Handling for Tools in Galaxy</span></td><td>10'</td></tr>
-        <tr><td>11:45 - 12:00</td><td>José Manuel Domínguez</td><td><span class="event-egd">New integrations: eLabFTW and RSpace ELNs, ARC middleware for distributed computing</span></td><td>15'</td></tr>
-        <tr><td>12:00 - 12:20</td><td>Nicola Soranzo</td><td><span class="event-egd">Making Galaxy workflows sustainable and FAIR</span></td><td>20'</td></tr>
-        <tr><td>12:20 - 12:35</td><td>Yvan Le Bras</td><td><span class="event-egd">Galaxy Ecology: 2025 Update</span></td><td>15'</td></tr>
-        <tr><td>12:35 - 12:40</td><td>Pauline Seguineau</td><td><span class="event-egd">Galaxy Earth-System</span></td><td>5'</td></tr>
-        <tr><td>12:40 - 13:00</td><td>Beatriz Serrano-Solano</td><td><span class="event-egd">Update by the Imaging Community</span></td><td>20'</td></tr>
-        <tr><td>13:00 - 14:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
-        <tr><td>14:30 - 14:50</td><td>Lukasz Opiola</td><td><span class="event-meets">Galaxy & Onedata integration, managing Galaxy data using Onedata, BYOD & BYOS</span></td><td>20</td></tr>
-        <tr><td>14:50 - 15:00</td><td>Martin Cech</td><td><span class="event-meets">Automating Galaxy Tool Management Through a GitHub Repository Template</span></td><td>10'</td></tr>
-        <tr><td>15:00 - 15:20</td><td>Jain Smitesh</td><td><span class="event-meets">Sustainability of Galaxy (EuroScienceGateway)</span></td><td>20'</td></tr>
-        <tr><td>15:20 - 15:30</td><td>Nikolay Vazov</td><td><span class="event-meets">TBD</span></td><td>10'</td></tr>
-        <tr><td>15:30 - 15:40</td><td>Marco Antonio Tangaro</td><td><span class="event-meets">Laniakea Nebula: VPN-Based Isolation for Galaxy Private Deployments</span></td><td>10'</td></tr>
-        <tr><td>15:40 - 15:50</td><td>TBD</td><td><span class="event-meets">TBD</span></td><td>10'</td></tr>
-        <tr><td>15:50 - 16:00</td><td>Eli Chadwick</td><td><span class="event-meets">Highlighting RO-Crate features in Galaxy and why you should use them</span></td><td>10'</td></tr>
-        <tr><td>16:00 - 16:30</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
-        <tr><td>16:30 - 17:30</td><td>Various</td><td><span class="event-bof">Birds of a Feather (Session 2)</span></td><td>60'</td></tr>
+        <tr><td>09:00–09:15</td><td>TBA</td><td><span class="event-egd">TBA</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:15–09:30</td><td>Arash Kadkhodaei</td><td><span class="event-egd">Serving locally hosted LLMs using LiteLLM and Ollama with Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:30–09:45</td><td>Lucille Delisle</td><td><span class="event-egd">pyGenomeTracks – make a publishable figure out of your NGS data</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:45–10:00</td><td>Arthur Barreau</td><td><span class="event-egd">Two-Step Approach for Galaxy Tool Development Using Jupyter (“Interactive JupyterLab Notebook”)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>10:00–10:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
+        <tr><td>10:30–10:50</td><td>Marius van den Beek</td><td><span class="event-egd">The Future of Galaxy Tools</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>10:50–11:05</td><td>Alireza Heidari</td><td><span class="event-egd">Simple and Secure Credential Handling for Tools in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:05–11:20</td><td>José Manuel Domínguez</td><td><span class="event-egd">New integrations: eLabFTW and RSpace ELNs, ARC middleware for distributed computing</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:20–11:40</td><td>Nicola Soranzo</td><td><span class="event-egd">Making Galaxy workflows sustainable and FAIR</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:40–12:00</td><td>Yvan Le Bras</td><td><span class="event-egd">Galaxy Ecology: 2025 Update</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:00–12:20</td><td>Pauline Seguineau<br>Marie Jossé</td><td><span class="event-egd">Galaxy Earth-System</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:20–12:40</td><td>Beatriz Serrano-Solano</td><td><span class="event-egd">Update by the Imaging Community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:40–13:00</td><td>TBA</td><td><span class="event-egd">TBA</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
+        <tr><td>14:00–14:20</td><td>Lukasz Opiola</td><td><span class="event-meets">Galaxy &amp; Onedata integration, managing Galaxy data using Onedata, BYOD &amp; BYOS</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>14:20–14:35</td><td>Martin Cech</td><td><span class="event-meets">Automating Galaxy Tool Management Through a GitHub Repository Template</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>14:35–14:55</td><td>Jain Smitesh</td><td><span class="event-meets">Sustainability of Galaxy (EuroScienceGateway)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>14:55–15:10</td><td>Nikolay Vazov</td><td><span class="event-meets">TBD</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:10–15:25</td><td>Marco Antonio Tangaro</td><td><span class="event-meets">Laniakea Nebula: VPN-Based Isolation for Galaxy Private Deployments</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:25–15:40</td><td>Teresa Müller</td><td><span class="event-meets">Exploring the Galaxy Training Network: What's Here, What's New</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:40–15:50</td><td>Eli Chadwick</td><td><span class="event-meets">Highlighting RO-Crate features in Galaxy and why you should use them</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:50–16:00</td><td>Anton Nekrutenko</td><td><span class="event-meets">The future of Galaxy ecosystem</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>16:00–16:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
+        <tr><td>16:30–17:30</td><td>Martin Cech</td><td><span class="event-bof">Birds of a Feather (Galaxy Tool Management – how to save admins’ sanity)</span></td><td>60'</td><td>01 009 / 013</td></tr>
+        <tr><td>16:30–17:30</td><td>Bérénice Batut</td><td><span class="event-bof">Birds of a Feather (microGalaxy for Microbiology)</span></td><td>60'</td><td>01 016 / 018</td></tr>
       </tbody>
     </table>
   </div>
 
+  <!-- DAY 3 -->
   <div class="tab-content" v-if="activeTab === 'day3'">
     <h3>Day 3 – Friday, October 3rd</h3>
     <table>
       <thead>
-        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th></tr>
+        <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th><th>Room</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:30 - 17:30</td><td>—</td><td><span class="event-egd">EGD CoFest & Hackathon</span></td><td>480'</td></tr>
-        <tr><td>09:30 - 10:00</td><td>Oana Marchis and Armin Dadras</td><td><span class="event-esg">Welcome and final report from WP1</span></td><td>30'</td></tr>
-        <tr><td>10:00 - 10:30</td><td>TBD</td><td><span class="event-esg">Achievments of WP2</span></td><td>30'</td></tr>
-        <tr><td>10:30 - 11:00</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>—</td></tr>
-        <tr><td>11:00 - 11:30</td><td>TBD</td><td><span class="event-esg">Achievments of WP3</span></td><td>30'</td></tr>
-        <tr><td>11:30 - 12:00</td><td>TBD</td><td><span class="event-esg">Achievments of WP4</span></td><td>30'</td></tr>
-        <tr><td>12:00 - 12:30</td><td>TBD</td><td><span class="event-esg">Achievments of WP5</span></td><td>30'</td></tr>
-        <tr><td>12:30 - 13:30</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>—</td></tr>
-        <tr><td>13:30 - 15:00</td><td>All ESG partners</td><td><span class="event-esg">Final discussions and Wrap-up</span></td><td>90'</td></tr>
+        <tr><td>09:00–17:30</td><td>—</td><td><span class="event-egd">EGD CoFest &amp; Hackathon</span></td><td>480'</td><td>01 009 / 013</td></tr>
+        <tr><td>09:00–17:30</td><td>—</td><td><span class="event-egd">Sub-Hackathon: secure sensitive data transfer from FEGA and analysis in Galaxy (<a href="https://elixir-europe.org/how-we-work/scientific-programme/commissioned-services/science/hdtr/data">ELIXIR-commissioned service</a>)</span></td><td>480'</td><td>01 016 / 018</td></tr>
+        <tr><td>09:00–09:30</td><td>Oana Marchis &amp; Armin Dadras</td><td><span class="event-esg">Welcome and final report from WP1</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:30–10:00</td><td>TBD</td><td><span class="event-esg">Achievements of WP2</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>10:00–10:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
+        <tr><td>10:30–11:00</td><td>TBD</td><td><span class="event-esg">Achievements of WP3</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:00–11:30</td><td>Sebastian Luna-Valero</td><td><span class="event-esg">Achievements of WP4</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:30–12:00</td><td>TBD</td><td><span class="event-esg">Achievements of WP5</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:00–13:00</td><td>All ESG partners</td><td><span class="event-esg">Final discussions and wrap-up</span></td><td>60'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
+        <tr><td>14:00–16:00</td><td>All ESG partners</td><td><span class="event-esg">Final discussions and wrap-up</span></td><td>90'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>16:00–16:30</td><td>—</td><td><span class="event-lunch">Coffee Break</span></td><td>30'</td><td>02 016 / 018</td></tr>
       </tbody>
     </table>
   </div>
@@ -232,7 +370,7 @@ th, td {
 # Venue
 
 <figure class="figure">
-  <g-image src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" class="figure-img img-fluid rounded" />
+  <g-image src="https://www.tf.uni-freiburg.de/de/kontakt/kontakt/@@tx-slides/6a23b96432bb47f584e637df3ef1a865/@@image" class="figure-img img-fluid rounded" />
 </figure>
 
 Albert-Ludwigs-University Freiburg<br>
@@ -240,6 +378,8 @@ Institute for Informatics<br>
 Georges-Köhler-Allee, 101<br>
 79110 Freiburg im Breisgau<br>
 Germany
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d459.48765302079113!2d7.834661693743385!3d48.01245843582384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sde!4v1755071188224!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 # Logistics
 
