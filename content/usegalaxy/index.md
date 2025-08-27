@@ -43,10 +43,11 @@ This effort was launched in March 2018 and is very much a work in progress.  Sup
 We want to see servers meeting several loose requirements to be considered part of the `usegalaxy.*` group.
 
 - *Updated*: These servers commit to updating Galaxy within 90 business days after new releases.
-- *Freely accessible*: these servers may not place restrictions on access or registration, anonymous usage must be permitted.
-- *Public infrastructure configuration*: we hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
-- *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools, and must provide CVMFS reference data.
-- *Functional*: the site provides >90% uptime as monitored by the [status page](https://status.galaxyproject.org/), and participates in automated cross-usegalaxy testing initiatives.
+- *Freely accessible*: These servers may not place restrictions on access or registration, anonymous access to the server must be permitted, and anonymous jobs should be allowed whenever possible.
+- *Public infrastructure configuration*: We hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
+- *Common Tools & Reference Data*: Once work in progress finishes, these servers will share a common set of tools, and must provide CVMFS reference data.
+- *Functional*: The site provides >90% uptime as monitored by the [status page](https://status.galaxyproject.org/), and participates in automated cross-usegalaxy testing initiatives.
+- *Transparent*: Usage data are shared publicly at [gxy.io/kui](https://gxy.io/kui).
 
 We're excited to see new services join us!
 
