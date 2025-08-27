@@ -74,7 +74,7 @@ All participants should bring a wifi-enabled laptop with
 
 * (Optional but useful) Software to access the command line of a Linux server.
     * If you are running Linux or Mac OS, then you already have this.
-    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * If you are running Windows than you’ll need to get putty or something similar installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
 # Instructors
@@ -89,13 +89,14 @@ We currently have these confirmed (and highly experienced!) instructors:
 
 # Costs
 
-Our plan is to run this as a low-cost event. Ideally there will be no registration fee and little in terms of catering. We plan to provide coffee and basic snacks to get through the days however meals will be covered by participants themselves.
+Our plan is to run this as a low-cost event. There is no registration fee but also very little in terms of catering. We plan to provide coffee and basic snacks to get through the days however meals will be covered by participants themselves.
 
 # Registration
 
-Please apply [application not available yet]().
+Please register using this [registration form](https://forms.gle/ai7Ua6CBQoFrw4yK8).
 
 We only have limited space so please register as soon as possible.
+
 Please feel free to contact us at galaxy@cesnet.cz or join the [admin chat](https://matrix.to/#/#galaxyproject_admins:gitter.im) if you have any question and check this site for any updates.
 
 # Logistics
