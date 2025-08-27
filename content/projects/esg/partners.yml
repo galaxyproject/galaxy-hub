@@ -52,7 +52,7 @@ partners:
       website: https://www.cnr.it/
 
     - name: cesnet
-      image: ./partner-logos/CESNET LOGO.png
+      image: ./partner-logos/CESNET_LOGO.png
       website: https://www.cesnet.cz/
 
     - name: Barcelona Supercomputing Center
