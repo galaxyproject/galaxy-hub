@@ -35,6 +35,10 @@ supporters:
       image: /images/logos/card.jpg
       website: https://uni-freiburg.de/gdape/card/
 
+    - name: cesnet
+      image: /projects/esg/partner-logos/CESNET_LOGO.png
+      website: https://www.cesnet.cz/
+
     - name: converge
       image: /images/logos/converge_logo.png
       website: https://elixir-europe.org/about-us/how-funded/eu-projects/converge

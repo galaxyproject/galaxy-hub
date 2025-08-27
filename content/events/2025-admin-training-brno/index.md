@@ -12,6 +12,7 @@ gtn: true
 contact: Instructors
 tags: [gat, admins]
 supporters:
+  - cesnet
   - elixir-cz
 subsites: [global, us, eu, fr, esg]
 ---
