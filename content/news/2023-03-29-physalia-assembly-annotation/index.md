@@ -2,7 +2,7 @@
 title: 'Using Galaxy & TIaaS to teach hands-on genome assembly and annotation'
 tease: 'On Feb. 27 to Mar. 3, we (several VGP-associated instructors) used the UseGalaxy EU infrastructure to aid in teaching an online Physalia course of 40+ students how to assemble and annotate their own genome from their browser.'
 date: '2023-03-31'
-tags: [assembly, news]
+tags: [assembly, news, tiaas]
 authors: Linelle Abueg
 authors_structured:
 - github: abueg

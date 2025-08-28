@@ -15,16 +15,46 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="https://www.biorxiv.org/content/10.1101/2023.06.28.546576v1.full" target="_blank">
+            <a
+                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#empower-users-to-build-more-kinds-of-collections-more-intelligently"
+                target="_blank"
+            >
                 <b-carousel-slide
-                    img-src="/images/Paper_Alert_August2023.jpg"
-                    img-alt="New paper in preprint titled *Scalable, accessible, and reproducible reference genome assembly and evaluation in Galaxy* by Larivière et al. 2023. Click to read!"
+                    img-src="/images/usegalaxy-welcome/r25_Slide1.PNG"
+                    img-alt="Improved collection creation in release 25.0"
                 ></b-carousel-slide>
             </a>
-            <a href="https://galaxyproject.org/projects/vgp/" target="_blank">
+            <a
+                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#add-zip-explorer-to-import-individual-files-from-local-or-remote-zip-archives"
+                target="_blank"
+            >
                 <b-carousel-slide
-                    img-src="/images/vgp/VGP_hub.jpg"
-                    img-alt="The Vertebrate Genomes Project (VGP) is an international collaborative effort by the G10K consortium to generate near error-free genome assemblies for more than 70,000 vertebrate species. Using Galaxy infrasctructure and public instances, this collaboration has generated new, more open methods of genome assembly and access to data."
+                    img-src="/images/usegalaxy-welcome/r25_Slide2.PNG"
+                    img-alt="New ZIP explorer in release 25.0"
+                ></b-carousel-slide>
+            </a>
+            <a
+                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#a-new-unified-view-for-datasets"
+                target="_blank"
+            >
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/r25_Slide3.PNG"
+                    img-alt="New unified dataset view in release 25.0"
+                ></b-carousel-slide>
+            </a>
+            <a
+                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#an-enhanced-workflow-run-form-interface"
+                target="_blank"
+            >
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/r25_Slide4.PNG"
+                    img-alt="Improved workflow run in release 25.0"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/r25_Slide5.PNG"
+                    img-alt="More highlights in release 25.0"
                 ></b-carousel-slide>
             </a>
             <a href="https://jxtxfoundation.org" target="_blank">

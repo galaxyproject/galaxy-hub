@@ -6,6 +6,8 @@ hide_tease: false
 tags: [esg-wp4, esg]
 subsites: [all-eu, esg, global]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 The [EuroScienceGateway Project](../../projects/esg/) is streamlining the way that users Bring their Own Compute (BYOC) to Galaxy. A [previous post](../2023-10-31-esg-byoc-im/) explained how to deploy [HTCondor](https://htcondor.org/) and [Pulsar](https://pulsar.readthedocs.io/) in the [EGI Federated Cloud](https://www.egi.eu/service/cloud-compute/) using [Infrastructure Manager](https://www.egi.eu/service/infrastructure-manager/) (IM). In this new post we will present how to deploy [Slurm](https://slurm.schedmd.com/) and [ARC](https://www.nordugrid.org/arc/arc7/) instead. The *Advanced Resource Connector (ARC)* middleware, developed by the [NorduGrid Collaboration](http://www.nordugrid.org/), is an open source software solution enabling e-Science computing infrastructures with emphasis on processing of large data volumes. ARC is being used to enable national and international e-infrastructures since its first release in 2002.

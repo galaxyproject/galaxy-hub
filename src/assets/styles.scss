@@ -1,8 +1,9 @@
 @use "sass:map";
 @import "variables.scss";
 /* hub-specific overrides to variables */
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$font-family-sans-serif:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 300;
@@ -823,6 +824,26 @@ h6:hover .heading-anchor span:before {
     background-color: #d87e55 !important;
 }
 
+.bg-sig-field {
+    background-color: #006b15 !important;
+}
+
+.bg-sig-method {
+    background-color: #630177 !important;
+}
+
+.bg-sig-service {
+    background-color: #77072f !important;
+}
+
+.bg-sig-region {
+    background-color: #cc4d00 !important;
+}
+
+.bg-sig-projects {
+    background-color: #150276 !important;
+}
+
 /*********
    Gridsome-era additions.
  *********/
@@ -915,6 +936,9 @@ pre {
 }
 .img-sizer {
     margin-bottom: 1rem;
+}
+.img-sizer-small img {
+    width: clamp(10rem, 100%, 20rem);
 }
 .img-sizer p {
     height: 100%;

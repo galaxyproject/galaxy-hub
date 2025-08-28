@@ -13,7 +13,7 @@ subsites: [global, us]
 
 ## Galaxy Developer Conference 2010
 
-[GDC2010](https://galaxyproject.org/dev2010/) was the first gathering of the Galaxy Community and started the [Galaxy Community Conferences](/gcc/).
+[GDC2010](/events/gdc2010/) was the first gathering of the Galaxy Community and started the [Galaxy Community Conferences](/gcc/).
 
 ## Slides
 

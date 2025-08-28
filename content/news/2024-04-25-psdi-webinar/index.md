@@ -9,6 +9,8 @@ authors_structured:
     - github: leandro-liborio
 subsites: [all-eu,esg]
 tags: [esg, esg-wp5]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

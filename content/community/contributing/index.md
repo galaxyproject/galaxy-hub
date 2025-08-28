@@ -4,7 +4,7 @@ autotoc: false
 ---
 <div class='right'><img src="/images/undraw-illustrations/contribute.svg" alt="" width="240" /></div>
 
-If you want to [**contribute to the Galaxy Project**](../../blog/2022-01-14-users-guide-to-contribution-ross), there are many ways to do so, __not only with code__!
+If you want to [**contribute to the Galaxy Project**](../../news/2022-01-14-users-guide-to-contribution-ross), there are many ways to do so, __not only with code__!
 
 ## Contribute with __code__
 - [__Galaxy Project GitHub Organization__](https://github.com/galaxyproject): repositories of the Galaxy ecosystem, including the [**main code of Galaxy**](https://github.com/galaxyproject/galaxy).

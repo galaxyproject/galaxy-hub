@@ -206,7 +206,9 @@ export default {
             "nonD indi nonE"
             "nonF nonG nonH";
 
-        transition: grid-template-columns 0.2s, grid-template-rows 0.2s;
+        transition:
+            grid-template-columns 0.2s,
+            grid-template-rows 0.2s;
     }
 
     .click-overlay {

@@ -8,6 +8,8 @@ authors_structured:
 - github: Federico77z
 date: "2023-12-22"
 tags: [esg, esg-wp3]
+supporters:
+  - eurosciencegateway
 subsites: [all-eu, esg]
 main_subsite: eu
 ---

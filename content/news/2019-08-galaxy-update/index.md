@@ -271,8 +271,8 @@ Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shan
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/blog/2019-07-galaxy-twitter/galaxy-on-twitter.png" alt="Galaxy on Twitter" />
-<div class="card-header">[Galaxy on Twitter: An Update](/blog/2019-07-galaxy-twitter/)</div>
+<img class="card-img-top" src="/news/2019-07-galaxy-twitter/galaxy-on-twitter.png" alt="Galaxy on Twitter" />
+<div class="card-header">[Galaxy on Twitter: An Update](/news/2019-07-galaxy-twitter/)</div>
 
 An update from the team behind [@galaxyproject](https://twitter.com/galaxyproject) tweets, motivated by the new [@gxytraining](https://twitter.com/gxytraining) account.
 
@@ -280,8 +280,8 @@ There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.c
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/blog/2019-07-looking-for-galaxy/19-feet-of-family-sedan.jpg" alt="Where do cars go after they die?" />
-<div class="card-header">[Looking for Galaxy (info), in all the right places](/blog/2019-07-looking-for-galaxy/)</div>
+<img class="card-img-top" src="/news/2019-07-looking-for-galaxy/19-feet-of-family-sedan.jpg" alt="Where do cars go after they die?" />
+<div class="card-header">[Looking for Galaxy (info), in all the right places](/news/2019-07-looking-for-galaxy/)</div>
 
 How to find Galaxy info on the web, and find *only* Galaxy info on the web.  No more phones, astronomy, soccer, cars, chocolate, or Ansible (OK, maybe Ansible).
 

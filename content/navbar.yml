@@ -30,8 +30,6 @@ right:
             target: "/community/contributing/"
           - label: Galaxy Mentor Network
             target: https://galaxy-mentor-network.netlify.app/
-          - label: Blog
-            target: "/blog/"
           - label: Code of Conduct
             target: "/community/coc/"
     - label: About
@@ -60,5 +58,7 @@ right:
             target: "/projects/mpxv/"
           - label: VGP
             target: "/projects/vgp/"
+          - label: BRC Analytics
+            target: "https://brc-analytics.org/"
     - label: "@jxtx"
       target: https://jxtxfoundation.org/

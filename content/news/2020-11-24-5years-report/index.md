@@ -2,7 +2,7 @@
 title: Activity report of the last 5 years of the Freiburg Galaxy Team
 date: '2020-11-24'
 tease: Crucial infrastructure  serving more than 22,000 researchers
-tags: [data, training, tools, streetscience, COVID-19, report]
+tags: [data, training, tools, streetscience, COVID-19, report, tiaas]
 supporters:
 - unifreiburg
 - elixir

@@ -23,7 +23,7 @@
             <a href="#recent-events" aria-hidden="true"><span class="icon icon-link"></span></a>
             Recent Events
         </h2>
-        <p>Events in the past 12 months:</p>
+        <p>Events (co-)organized by the EuroScienceGateway:</p>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -73,7 +73,7 @@ query {
 
     upcoming: allParentArticle(
         sortBy: "date", order: ASC, filter: {
-            category: {eq: "events"}, subsites: {contains: ["eu"]}, draft: {ne: true},
+            category: {eq: "events"}, subsites: {contains: ["esg"]}, draft: {ne: true},
             has_date: {eq: true}, days_ago: {lte: 0}
         }
     ) {
@@ -86,8 +86,7 @@ query {
 
     recent: allParentArticle(
         sortBy: "date", order: DESC, filter: {
-            category: {eq: "events"}, subsites: {contains: ["eu"]}, draft: {ne: true},
-            has_date: {eq: true}, days_ago: {between: [1, 365]}
+            category: {eq: "events"}, subsites: {contains: ["esg"]}, draft: {ne: true}
         }
     ) {
         edges {

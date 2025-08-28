@@ -2,7 +2,7 @@
 title: TIaaS Calendar and Stats site
 date: '2020-02-27'
 tease: Training Infrastructure as a Service
-tags: [devops]
+tags: [devops, tiaas]
 location:
   name: Freiburg, Germany
 authors: bgruening

@@ -5,8 +5,11 @@ tease: "2022 as a year of growth for ELIXIR, and Galaxy being a part of it."
 hide_tease: false
 subsites: [all-eu, esg]
 main_subsite: eu
-tags: [elixir, report, eurosciencegateway]
+tags: [elixir, report, eurosciencegateway, esg, esg-wp3, esg-wp2, esg-wp1, esg-wp3, esg-wp5]
 authors: Sebastian Schaaf
+supporters:
+  - eurosciencegateway
+  - elixir
 authors_structured:
 - github: sebastian-schaaf
 ---

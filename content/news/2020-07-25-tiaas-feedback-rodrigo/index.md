@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Rodrigo Ortega Polo
 date: '2020-07-25'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Rodrigo Ortega Polo

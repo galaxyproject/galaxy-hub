@@ -2,7 +2,7 @@
 title: EuroScienceGateway Kick-off Meeting
 date: '2022-10-06'
 end: '2022-10-07'
-tags: [conference]
+tags: [conference, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 continent: EU
 contacts:
 - email: galaxy@informatik.uni-freiburg.de
@@ -17,7 +17,8 @@ location:
 supporters:
 - eu
 - elixir
-subsites: [eu, freiburg, esg]
+- esg
+subsites: [all-eu, freiburg, esg]
 main_subsite: freiburg
 ---
 

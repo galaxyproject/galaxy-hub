@@ -9,6 +9,8 @@ authors_structured:
     - github: pauldg
 subsites: [all-eu,esg]
 tags: [esg, esg-wp2, esg-wp5]
+supporters:
+  - eurosciencegateway
 main_subsite: eu
 ---
 

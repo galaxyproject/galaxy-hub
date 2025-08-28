@@ -5,10 +5,12 @@ tease: "Find solutions and templates in WorkflowHub, immediately import to Galax
 hide_tease: false
 subsites: [all-eu, esg]
 main_subsite: eu
-tags: [eosc-life, workflows, workflowhub.eu, repository, catalog, import, RO-crate, research object]
+tags: [eosc-life, workflows, workflowhub.eu, repository, catalog, import, RO-crate, research object, esg, esg-wp2]
 authors: Sebastian Schaaf
 authors_structured:
 - github: sebastian-schaaf
+supporters:
+  - eurosciencegateway
 ---
 
 Ever tried [WorkflowHub](https://workflowhub.eu)? The platform aims to support researchers in discovering and re-using workflows from various platforms. Following the FAIR principles, the registry lists workflows and their metadata in an accessible and interoperable way, agnostic to particular workflow management systems. All contents (workflow descriptions, but also test data and examples) are kept in their native forms in workflow-centric, multi-component Research Objects using the RO-Crate specification. WorkflowHub extensively uses open standards, e.g. GA4GH's TRS API and Bioschemas, fostering compatibility with a number of other services, e.g. Galaxy.

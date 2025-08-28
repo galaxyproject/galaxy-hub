@@ -16,8 +16,7 @@ location:
   street: Albert-Einstein-Str. 22
 supporters:
 - denbi
-subsites: [eu, deNBI]
-main_subsite: deNBI
+subsites: [eu]
 ---
 
 Galaxy for linking Bisulfite sequencing with RNA sequencing, March 2019, registration is open!

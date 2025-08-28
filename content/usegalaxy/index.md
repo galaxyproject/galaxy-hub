@@ -22,7 +22,7 @@ There are currently four UseGalaxy servers:
 
 ## UseGalaxy.org.au
 
-[UseGalaxy.org.au](https://usegalaxy.org.au) aims to support the Australian research community.  It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. [Playbooks](https://github.com/usegalaxy-au/infrastructure)
+[UseGalaxy.org.au](https://usegalaxy.org.au) is a global, publicly accessible service, with a core aim to support the Australian life science researchers by providing open access to best practice bioinformatics techniques. Galaxy Australia maintains tools, workflows and reference datasets as requested by Australian researchers and their collaborators. Launched in 2018 and operated by Australian BioCommons in collaboration with QCIF, The University of Melbourne and AARNet, the service is underpinned by computational resources provided by The University of Melbourne, QCIF, Pawsey Supercomputing Research Centre, AARNet and Microsoft Azure. [Playbooks](https://github.com/usegalaxy-au/infrastructure)
 
 ## UseGalaxy.fr
 

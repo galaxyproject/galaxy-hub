@@ -8,8 +8,12 @@ location:
     name: Freiburg, Germany
 gtn: false
 contact: contact@usegalaxy.eu
-tags: [training]
+tags: [training, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, global, esg]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - elixir
 ---
 
 It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy Days 2023**!

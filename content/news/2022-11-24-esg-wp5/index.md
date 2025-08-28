@@ -3,9 +3,11 @@ title: "Use-cases from early adopters to embrace Open Science best practices"
 tease: Work Package 5 of the EuroScienceGateway project
 date: "2022-11-24"
 hide_tease: false
-tags: [esg-wp5, esg]
+tags: [esg-wp5, esg, esg-wp1]
 subsites: [all-eu, esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 The fifth Work Package (WP5) of the EuroScienceGateway project will demonstrate the benefits of the EuroScienceGateway services with 3 communities, namely:

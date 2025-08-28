@@ -16,8 +16,7 @@ location:
 supporters:
 - denbi
 - emed
-subsites: [eu, deNBI]
-main_subsite: deNBI
+subsites: [eu]
 ---
 
 The registration for the Galaxy training on RNA-Seq analyses and clinical applications (September 2018) is open! For the program and registration, please check the [English](https://www.denbi.de/22-training-cat/training-courses/599-rna-seq-data-analysis-with-galaxy-for-clinical-applications-gmds-2018) and [German](https://gmds.de/aktuelles-termine/tagungen-2018-willkommen/anmeldung-zur-tagung/) announcements.

@@ -6,6 +6,9 @@ tags:
 - paper
 subsites: [all-eu,esg]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
+  - unifreiburg
 ---
 
 **New *BMC Bioinformatics* Paper on "Transformer-based tool recommendation system in Galaxy"**

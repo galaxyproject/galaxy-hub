@@ -385,19 +385,19 @@ One new [public Galaxy server](/use/) was added in March:
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
 
 <br />
 
-One new [Community Log Board](/blog/) entry was added in March:
+One new [Community Log Board](/news/) entry was added in March:
 
 * [Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
@@ -714,9 +714,9 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
      Samtools is a set of utilities that manipulate alignments in the BAM format. It imports from and exports to the SAM (Sequence Alignment/Map) format, does sorting, merging and indexing, and allows to retrieve reads in any regions swiftly.
 
-     Samtools is designed to work on a stream. It regards an input file \u2018-\u2019 as the standard input (stdin) and an output file \u2018-\u2019 as the standard output (stdout). Several commands can thus be combined with Unix pipes. Samtools always output warning and error messages to the standard error output (stderr).
+     Samtools is designed to work on a stream. It regards an input file '-' as the standard input (stdin) and an output file '-' as the standard output (stdout). Several commands can thus be combined with Unix pipes. Samtools always output warning and error messages to the standard error output (stderr).
 
-     Samtools is also able to open a BAM (not SAM) file on a remote FTP or HTTP server if the BAM file name starts with \u2018ftp://\u2019 or \u2018http://\u2019. Samtools checks the current working directory for the index file and will download the index upon absence. Samtools does not retrieve the entire alignment file unless it is asked to do so.
+     Samtools is also able to open a BAM (not SAM) file on a remote FTP or HTTP server if the BAM file name starts with 'ftp://' or 'http://'. Samtools checks the current working directory for the index file and will download the index upon absence. Samtools does not retrieve the entire alignment file unless it is asked to do so.
 
      Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
 * [package_gengetopt_2_22_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_gengetopt_2_22_6): Contains a tool dependency definition that downloads and compiles version 2.22.6 of GNU gengetopt Gengetopt is a tool to write command line option parsing code for C programs.

@@ -1,7 +1,7 @@
 ---
 title: Training Infrastructure Feedback from Lachlan Gray
 date: '2021-01-28'
-tags: [training, TIaaS]
+tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Lachlan Gray

@@ -207,7 +207,7 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">CANARIE funds GenAP expansion</div>
 
-[GenAP](/use/genap/), a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
+GenAP, a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
 
 <img class="card-img-bottom" src="/use/genap/genap-logo-trans-250.png" alt="GenAP" />
 
@@ -359,7 +359,7 @@ This tutorial uses sequencing data obtained through the MinION sequencer (Oxford
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

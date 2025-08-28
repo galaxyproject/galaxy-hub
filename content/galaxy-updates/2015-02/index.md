@@ -351,12 +351,12 @@ CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.t
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -463,7 +463,7 @@ In no particular order:
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
     * [snpsift_dbnsfp_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_datatypes): Galaxy applicable data formats for SnpSift. snpsift_dbnsfp tool Allows for the creation of a snpsift dbnsfp Galaxy dataset from a tabular file that can be used by SnpSift dbnsfp to annotate a vcf formatted file.
     * [snpeff_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpeff_datatypes): Galaxy applicable data formats for SnpEff tools Galaxy applicable data formats for SnpEff tools.  The snpeffdb datatype provides the means to represent a SnpEff genome database in a Galaxy dataset.
-    * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net[/SnpSift](/galaxy-updates/2015-02/SnpSift/).html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+    * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net/SnpSift.html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
     * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
@@ -475,7 +475,7 @@ In no particular order:
      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
      Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 * [snpsift_dbnsfp_generic](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_generic): snpEff SnpSift dbnsfp tool that can use any dbnsfp-like annotation data Annotates variants on genes using a tabular set of annotation values such as those from the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.)<br />
-    This tool determines the available annotations from the input, so it can be used for other organisms other than human or other annotation values than available from dbNSFP. http://snpeff.sourceforge.net[/SnpSift](/galaxy-updates/2015-02/SnpSift/).html#dbNSFP <br />
+    This tool determines the available annotations from the input, so it can be used for other organisms other than human or other annotation values than available from dbNSFP. http://snpeff.sourceforge.net/SnpSift.html#dbNSFP <br />
     SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
     Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
     Repository-Development: https://github.com/galaxy-iuc/tool_shed/

@@ -3,7 +3,10 @@ title: "Poster highlight: Implementation of a reproducible pipeline for producin
 tease: We are thrilled to highlight the poster presentation by Vanessa Stoeckl at the European Geoscience Union (EGU) Conference 2024. "
 authors: "Vanessa Stoeckl, Bjoern Gruening, Anne Fouilloux, Jean Iaquinta, Alejandro Coca-Castro"
 date: "2024-04-28"
-subsites: [global, all]
+subsites: [global, all, esg]
+supporters:
+  - eurosciencegateway
+tags: [esg, esg-wp5, esg-wp1]
 ---
 
 Hello, Galaxy Community!

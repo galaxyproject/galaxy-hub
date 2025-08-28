@@ -3,9 +3,11 @@ title: 'All GTN training data in one basket'
 date: '2024-05-27'
 tease: "Providing effortless access to GTN training data via Onedata"
 authors: Polina Polunina
-tags: [esg-wp4, esg]
-subsites: [global, all, esg]
+tags: [esg-wp4, esg, esg-wp1]
+subsites: [global, all, esg, all-eu]
 main_subsite: eu
+supporters:
+  - eurosciencegateway
 ---
 
 As part of the [EuroScienceGateway](https://eurosciencegateway.eu/) and in cooperation with [Onedata](https://onedata.org) and [EGI](https://www.egi.eu/) we are providing all [GTN](https://training.galaxyproject.org/) training data on a publicly accessible [cloud storage](https://datahub.egi.eu/share/2697e33bd34f1870b0961414b8c77753chf583). 

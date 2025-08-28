@@ -1,5 +1,5 @@
 ---
-title: ELIXIR-IT/Laniakea Galaxy News
+title: Galaxy Italy News
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/news.svg" style="width:220px;" alt="news" />
@@ -7,8 +7,6 @@ title: ELIXIR-IT/Laniakea Galaxy News
 This page contains announcements of interest to the Galaxy Community. These
 include __items from the Galaxy Team or the Galaxy community__ and address
 anything that is of wide interest to the community.
-
-Also see the *[Galactic Blog](/blog/)* for more.
 
 ### Contribute
 

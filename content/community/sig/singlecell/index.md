@@ -50,7 +50,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 
 Our meeting agenda is:
 1. Random intro chatter & introductions
-2. Updates from Trello site (what people are working on / asking for help)
+2. Updates from ClickUp site (what people are working on / asking for help)
     - <i class="fa fa-optin-monster" aria-hidden="true"></i> Help/bugs
     - Status reports & new stuff that’s happening
 3. Other cool stuff (example: Smorgasbord)
@@ -58,7 +58,7 @@ Our meeting agenda is:
 
 **Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder.
 
-**Notes** We keep rolling notes on a googledoc and monitor our work on Trello.
+**Notes** We keep rolling notes on a googledoc and monitor our work on ClickUp.
 
 **Collaborative Chat Forums** When people ask for help or are working across institutes, we set up chat sub-channels to bring them together.
 
@@ -68,14 +68,9 @@ Our meeting agenda is:
 
 # How can you join & other important links
 
-Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#usegalaxy-eu_single-cell-workflows:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
+1. Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#spoc3:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
 
- - <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;   [Mailing list](https://lists.galaxyproject.org/lists/single-cell-cop.lists.galaxyproject.org/)
- - <i class="fa fa-trello" aria-hidden="true"></i>&nbsp;&nbsp; [Trello site](https://trello.com/invite/b/KLVgHvCB/ATTI53fe3f6ea71737e3aa6570e5ed148a528698CA27/sccop-tool-wrapping-tutorial-development)
- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [🖖🏾SPOC Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe!
- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [ICal link for non-google users](https://calendar.google.com/calendar/ical/galaxy.sc.cop%40gmail.com/public/basic.ics)
- - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?usp=sharing) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
- - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;&nbsp; [User Matrix Channel](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+2. Then, follow the instructions on our ['👋🏾New here?'](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?tab=t.34ufduimwwz5) tab for key links to calendars, notes, how to contribute, and more!
 
 ## Key words
 

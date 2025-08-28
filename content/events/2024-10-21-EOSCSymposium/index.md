@@ -7,5 +7,9 @@ continent: EU
 location: "Berlin, Germany"
 external_url: "https://eosc.eu/symposium2024"
 contact: "For EuroScienceGateway: Anika Erxleben-Eggenhofer (erxleben@informatik.uni-freiburg.de)"
-subsites: [all]
+subsites: [all, esg, all-eu]
+tags: [esg, esg-wp1]
+supporters:
+  - eurosciencegateway
+  - eosc
 ---

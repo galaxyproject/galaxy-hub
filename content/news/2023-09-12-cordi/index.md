@@ -4,18 +4,20 @@ date: '2023-10-12'
 tease: "The Galaxy Europe Team active at NFDI's CoRDI (Karlsruhe, Germany, Sep 12th to 14th)"
 location:
   name: Karlsruhe, Germany
-tags: [conference, talk, poster, nfdi, rdm]
+tags: [conference, talk, poster, nfdi, rdm, esg, esg-wp1, tiaas,esg-wp2]
 authors: Sebastian Schaaf, Sanjay Kumar Srikakulam
 authors_structured:
 - github: sebastian-schaaf
 - github: sanjaysrikakulam
 supporters:
-- NFDI
-- NFDI4BioImaging
-- NFDI4Plants
-- ELIXIR
+  - NFDI
+  - NFDI4BioImaging
+  - NFDI4Plants
+  - ELIXIR
+  - eurosciencegateway
+  - unifreiburg
 components: true
-subsites: [all-eu]
+subsites: [all-eu, esg]
 ---
 
 Being a well-known infrastructure for scientific data handling, Galaxy gets increasingly recognized as a powerful solution for research data management (RDM). Thus, it simply _had_ to be represented at [CoRDI, the first 'Conference on Research Data Infrastructure'](https://www.nfdi.de/cordi-2023/?lang=en) in Karlsruhe/Germany. Starting from Sep 12th, the three-day event was geographically close to the Freiburg Team, and organized by [NFDI, the National initiative for Research Data Infrastructure](https://www.nfdi.de/?lang=en). NFDI now involves 27 consortia from three funding rounds and various scientific fields; it aims for both streamlining German RDM efforts, but also with European initiatives like EOSC. Obviously, 'joining forces' is a principle from Galaxy's center of gravity, and less obviously, Galaxy is already participating in two projects from the NFDI space...
