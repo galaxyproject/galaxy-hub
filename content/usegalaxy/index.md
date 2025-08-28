@@ -48,6 +48,7 @@ We want to see servers meeting several loose requirements to be considered part 
 - *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools, and must provide the Galaxy CVMFS reference data.
 - *Share Metrics*: The servers agree to share Key Usage Indicators (KUIs) like number of registered users, active users, total job count, etc. to contribute to the global Galaxy dashboard.
 - *Functional*: the site provides >90% uptime as monitored by the [status page](https://status.galaxyproject.org/), and participates in automated cross-usegalaxy testing initiatives.
+- *Conduct*: Adhere to the [Galaxy Project Code of Conduct](https://galaxyproject.org/community/coc/).
 
 We're excited to see new services join us!
 
