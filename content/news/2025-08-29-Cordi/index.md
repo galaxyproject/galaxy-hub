@@ -17,7 +17,7 @@ Our team engaged in several key discussions centred on the open-source platform,
 ![The Galaxy Freiburg team at CoRDI](./Cordi_2025.jpg)
 
 Education in research data management (RDM) was the focal point in the session "Educating RDM: Novel Approaches for Training & Education in RDM."
-Here, the lightning talk on "RDM Education with the Galaxy Training Network (GTN) – FAIR and Scalable RDM Training with Galaxy, GTN, and TIaaS" introduced the Galaxy Training Network and illustrated how Galaxy is instrumental in fostering scalable and fair RDM education and how to use it.
+Here, the talk on "RDM Education with the Galaxy Training Network (GTN) – FAIR and Scalable RDM Training with Galaxy, GTN, and TIaaS" introduced the GTN, how the GTN ensures the fairness of their training materials, and illustrated how Galaxy and the GTN help to facilitate scalable and fair RDM education.
 
 In efforts towards reproducibility, the "ONE Galaxy" session provided insights into workflow updates that streamline RDM infrastructures, showcasing improved methodologies for ensuring research integrity.
 
