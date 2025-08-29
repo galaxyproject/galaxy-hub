@@ -28,6 +28,10 @@ There are currently four UseGalaxy servers:
 
 [UseGalaxy.fr](https://usegalaxy.fr) is a publicly accessible server aiming to support the French research community. [Playbooks](https://gitlab.com/ifb-elixirfr/usegalaxy-fr/infrastructure)
 
+<!-- ## UseGalaxy.be
+
+[UseGalaxy.be](https://usegalaxy.be) -->
+
 (See the [UseGalaxy server directory](/use/) for more information on each.)
 
 # Status
@@ -54,5 +58,5 @@ We're excited to see new services join us!
 
 These servers might not meet all of the requirements but are aiming to one day!
 
-- [UseGalaxy.be](https://usegalaxy.be) - working towards public playbooks, anonymous access.
+<!-- - [UseGalaxy.be](https://usegalaxy.be) - working towards public playbooks, anonymous access. -->
 - [UseGalaxy.ca](https://usegalaxy.ca) - working towards public playbooks, anonymous access.
