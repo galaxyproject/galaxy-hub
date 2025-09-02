@@ -27,7 +27,5 @@ This talk introduced Galaxy for users in the Digital Humanities and Social Scien
 Finally, the "Marketplace for FAIR Data in the Life Sciences: National and International Initiatives and Technical Solutions" session spotlighted how Galaxy advances interdisciplinary research. 
 In this marketplace, Galaxy's adaptability was highlighted, further cementing its status as a key player in fostering collaboration and innovation.
 
-In the meeting on base4NFDI, which followed the official conference....
-
 Additionally, we participated in many other formats and enjoyed the possibility to get in touch with many international researchers and RDM-experts and learn from their experience.
 We thank the orga-team for all their effort to make the conference a success and promote research data management worldwide. We are looking for the next CoRDI already.
