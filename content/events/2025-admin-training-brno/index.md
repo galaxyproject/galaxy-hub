@@ -14,6 +14,7 @@ tags: [gat, admins]
 supporters:
   - cesnet
   - elixir-cz
+  - de.KCD
 subsites: [global, us, eu, fr, esg]
 ---
 
