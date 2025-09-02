@@ -10,7 +10,7 @@ tags: [tool, AI, LLM]
 
 ## LLM Hub: Accessible Large Language Models for Everyone
 
-Large Language Models (LLMs) have revolutionized how we process and analyze text data, offering powerful capabilities for tasks ranging from content generation to complex reasoning. However, accessing these models often requires API keys, payment setups, and technical expertise that can be barriers for many researchers. Today, we're excited to introduce [LLM Hub](https://usegalaxy.eu/?tool_id=llm_hub) on Galaxy Europe - a tool that makes powerful AI models accessible to everyone without the need for personal API keys or payment information.
+Large Language Models (LLMs) have revolutionized how we process and analyze text data, offering powerful capabilities for tasks ranging from content generation to complex reasoning. However, accessing these models often requires API keys, payment setups, and technical expertise that can be barriers for many researchers. Today, we're excited to introduce [LLM Hub](https://usegalaxy.eu/?tool_id=llm_hub) - a tool that makes powerful AI models accessible to everyone.
 
 ## What Makes LLM Hub Different?
 
