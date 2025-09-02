@@ -1,5 +1,5 @@
 ---
-title: 'LLM Hub: Accessible Large Language Models for Everyone'
+title: 'LLM Hub: Large Language Models Made Easy in Galaxy'
 date: '2025-09-02'
 tease: "Access powerful Large Language Models in Galaxy without API keys"
 hide_tease: false
@@ -8,19 +8,16 @@ subsites: [global, eu, us, freiburg]
 tags: [tool, AI, LLM]
 ---
 
-## LLM Hub: Accessible Large Language Models for Everyone
+## LLM Hub: Large Language Models Made Easy in Galaxy
 
-Large Language Models (LLMs) have revolutionized how we process and analyze text data, offering powerful capabilities for tasks ranging from content generation to complex reasoning. However, accessing these models often requires API keys, payment setups, and technical expertise that can be barriers for many researchers. Today, we're excited to introduce [LLM Hub](https://usegalaxy.eu/?tool_id=llm_hub) - a tool that makes powerful AI models accessible to everyone.
+Large Language Models (LLMs) are transforming research, helping with tasks from summarizing papers to analyzing complex text. But setting them up can be tricky—API keys, subscriptions, and technical knowledge can get in the way.  
 
-When you use LLM Hub, your data is processed like any other Galaxy job—securely and privately—at the University of Freiburg's compute center, using encrypted connections, without permanently storing inputs or outputs, and fully protected within Galaxy's established privacy framework in compliance with European data protection standards.
+[LLM Hub](https://usegalaxy.eu/?tool_id=llm_hub) changes that. It brings powerful LLMs directly into Galaxy, so you can use them like any other Galaxy tool—securely, privately, and without extra setup. Your data stays protected on the University of Freiburg’s servers and is never permanently stored.  
 
 ## Available Models
 
-LLM Hub offers access to a carefully curated selection of models, each optimized for different use cases. These models are currently hosted at the University of Freiburg and represent our initial offering.
-This collection may expand in the future with additional models from various providers.
-
-If you have a community model you'd like us to consider adding, contact [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu).
-
+LLM Hub offers a selection of models for different needs. All are hosted at the University of Freiburg, and more will be added over time.
+Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu).  
 
 ### Text Models
 
@@ -49,34 +46,17 @@ If you have a community model you'd like us to consider adding, contact [contact
 
 ## Key Features
 
-### Multiple Input Types
-LLM Hub supports various input formats depending on the model type:
-- **Text files** (TXT, HTML, JSON) for text-based analysis
-- **Images** (JPG, PNG, GIF, TIFF, BMP) for visual understanding
-- **Combined inputs** for multimodal analysis
-
-### Workflow Integration
-As with all Galaxy tools, LLM Hub seamlessly integrates into larger analytical workflows. You can:
-- Process data with other Galaxy tools before LLM analysis
-- Use LLM outputs as inputs for downstream analysis
-- Create reproducible workflows combining traditional data processing with AI capabilities
-- Share complete analytical pipelines with colleagues
+- **Multiple Input Types:** Text files (TXT, HTML, JSON), images (JPG, PNG, GIF, TIFF, BMP), or both.  
+- **Workflow Integration:** Combine LLM Hub with other Galaxy tools for reproducible pipelines.  
 
 ### Use Cases
 
-The versatility of LLM Hub makes it suitable for numerous research applications:
-
-**Text Analysis & Processing:**
-- Summarize research papers or documents
-- Extract key information from unstructured text
-- Translate content between languages
-- Perform sentiment analysis on social media data
-- Generate structured data from free-form text
-
-**Image & Document Analysis:**
+- Summarize documents or research papers  
+- Extract information from unstructured text  
+- Translate between languages  
+- Analyze sentiment in social media data  
 - Extract text from scanned documents (OCR) or Excel screenshots 😱
-- Describe scientific images or experimental results
-- Process screenshots of interfaces or applications
+- Process screenshots, images, or scanned documents  
 
 ## Getting Started
 
@@ -88,16 +68,13 @@ Using LLM Hub is straightforward:
 4. **Enter your prompt** describing the task you want the LLM to perform
 5. **Run the tool** and receive your results in Markdown format
 
-The tool's intelligent interface guides you through the selection process, ensuring you choose the right model for your specific needs.
 
-## Technical Implementation
+## Behind the Scenes
 
-LLM Hub is powered by a LiteLLM proxy server hosted at [the University of Freiburg's computing center (RZ)](https://www.rz.uni-freiburg.de/en).
+LLM Hub communicate with a LiteLLM proxy server hosted by [University of Freiburg’s computing center (RZ)](https://www.rz.uni-freiburg.de/en).
 
 ## Try It Now
 
-LLM Hub is available immediately on [Galaxy Europe](https://usegalaxy.eu). Whether you're analyzing research data, processing documents, or exploring the capabilities of modern AI, LLM Hub provides the tools you need without the traditional barriers to entry.
+LLM Hub is available on [Galaxy Europe](https://usegalaxy.eu). Whether you're analyzing research data, processing documents, or exploring the capabilities of modern AI, LLM Hub provides the tools you need without the traditional barriers to entry.
 
 <a href="https://usegalaxy.eu/root?tool_id=llm_hub"><button type="button" class="btn btn-success">Try LLM Hub on Galaxy Europe!</button></a>
-
-Experience the power of large language models integrated into your scientific workflows - no API keys required, no payment setup needed, just powerful AI capabilities at your fingertips.
