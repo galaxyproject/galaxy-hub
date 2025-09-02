@@ -79,7 +79,7 @@ The versatility of LLM Hub makes it suitable for numerous research applications:
 - Generate structured data from free-form text
 
 **Image & Document Analysis:**
-- Extract text from scanned documents (OCR)
+- Extract text from scanned documents (OCR) or Excel screenshots 😱
 - Analyze charts, graphs, and diagrams
 - Describe scientific images or experimental results
 - Process screenshots of interfaces or applications
