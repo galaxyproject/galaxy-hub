@@ -10,7 +10,7 @@ subsites: [all,eu]
 ---
 # The Freiburg Galaxy team participated in CoRDI
 
-The [CoRDI](https://www.nfdi.de/cordi-2025/) took place in Aachen from August 25-29, 2025. 
+The [CoRDI](https://www.nfdi.de/cordi-2025/) took place in Aachen from August 26-28, 2025. 
 The conference provided a fertile ground for exploring the latest advancements in data management and the ever-growing influence of digital tools in research. 
 Our team engaged in several key discussions centred on the open-source platform, Galaxy, and its role in the national research data infrastructure (NFDI).
 
