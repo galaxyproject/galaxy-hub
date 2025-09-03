@@ -43,10 +43,12 @@ This effort was launched in March 2018 and is very much a work in progress.  Sup
 We want to see servers meeting several loose requirements to be considered part of the `usegalaxy.*` group.
 
 - *Updated*: These servers commit to updating Galaxy within 90 business days after new releases.
-- *Freely accessible*: these servers may not place restrictions on access or registration, anonymous usage must be permitted.
-- *Public infrastructure configuration*: we hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
-- *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools, and must provide CVMFS reference data.
-- *Functional*: the site provides >90% uptime as monitored by the [status page](https://status.galaxyproject.org/), and participates in automated cross-usegalaxy testing initiatives.
+- *Freely accessible*: These servers may not place restrictions on access or registration, anonymous access must be permitted. Anonymous users may have restrictions placed on them (e.g. 0MB storage, not allowed to run jobs, etc.) but they should be enabled in order to support reviewers and people wanting to browse and see what is available (tools, public workflows, etc.)
+- *Public infrastructure configuration*: We hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
+- *Common Tools & Reference Data*: Once work in progress finishes, these servers will share a common set of tools, and must provide the Galaxy CVMFS reference data.
+- *Share Metrics*: The servers agree to share Key Usage Indicators (KUIs) like number of registered users, active users, total job count, etc. to contribute to the [global Galaxy KUI dashboard](https://gxy.io/kui).
+- *Functional*: The site provides >90% uptime as monitored by the [status page](https://status.galaxyproject.org/), and participates in automated cross-usegalaxy testing initiatives.
+- *Conduct*: Adhere to the [Galaxy Project Code of Conduct](https://galaxyproject.org/community/coc/).
 
 We're excited to see new services join us!
 
@@ -56,3 +58,7 @@ These servers might not meet all of the requirements but are aiming to one day!
 
 - [UseGalaxy.be](https://usegalaxy.be) - working towards public playbooks, anonymous access.
 - [UseGalaxy.ca](https://usegalaxy.ca) - working towards public playbooks, anonymous access.
+- [UseGalaxy.no](https://usegalaxy.no) - restricted to norwegian.
+- [UseGalaxy.es](https://usegalaxy.es) - working on it.
+- [UseGalaxy.it](https://usegalaxy.it) - working on it.
+- [UseGalaxy.cz](https://usegalaxy.cz) - working on it.
