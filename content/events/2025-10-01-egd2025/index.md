@@ -206,11 +206,11 @@ Registration is free. We recommend to register as soon as possible to secure you
       <tbody>
         <tr><td>08:30–09:00</td><td>—</td><td><span class="event-elixir">Arrival and Registration</span></td><td>30'</td><td>Main corridor</td></tr>
         <tr><td>09:00–09:30</td><td>Hans-Rudolf Hotz<br>Björn Grüning</td><td><span class="event-elixir">Welcome, Logistics &amp; General Galaxy and ELIXIR Update</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>09:30–09:45</td><td>Daniela Schneider</td><td><span class="event-egd">Broadening the Galaxy: Introducing Digital Humanities in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:30–09:45</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Galaxy Special Interest Groups (with a focus on “Small Scale Admins” and “Switzerland”)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>09:45–10:00</td><td>Bérénice Batut</td><td><span class="event-elixir">The Microbiology Galaxy Lab and the effort from the microGalaxy to build the first community-driven gateway for reproducible and FAIR analysis of microbial data</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>10:00–10:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
         <tr><td>10:30–10:50</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy and Astronomy community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>10:50–11:10</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Galaxy Special Interest Groups (with a focus on “Small Scale Admins” and “Switzerland”)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>10:50–11:10</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 4)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:10–11:25</td><td>Mina Hojat Ansari</td><td><span class="event-egd">FAIRYMAGS: A Galaxy Workflow for MAG Recovery Applied to Termite Microbiomes</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:25–11:35</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 6)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:35–11:55</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 7)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
@@ -241,7 +241,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th><th>Room</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:00–09:15</td><td>TBA</td><td><span class="event-egd">TBA</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:00–09:15</td><td>Daniela Schneider</td><td><span class="event-egd">Broadening the Galaxy: Introducing Digital Humanities in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>09:15–09:30</td><td>Arash Kadkhodaei</td><td><span class="event-egd">Serving locally hosted LLMs using LiteLLM and Ollama with Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>09:30–09:45</td><td>Lucille Delisle</td><td><span class="event-egd">pyGenomeTracks – make a publishable figure out of your NGS data</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>09:45–10:00</td><td>Arthur Barreau</td><td><span class="event-egd">Two-Step Approach for Galaxy Tool Development Using Jupyter (“Interactive JupyterLab Notebook”)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
