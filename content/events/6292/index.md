@@ -7,6 +7,8 @@ days: 1
 title: 'Galaxy: The Open Source Platform as an entry point to Digital Humanities and
   Research Data Management'
 contact: Daniela Schneider
+supporters:
+  - dataplant
 location:
   name: Bonn, Germany
 continent: GL
