@@ -7,7 +7,25 @@ subsites: [all]
 
 # Leveraging Deep Learning & AI in Your Research on Galaxy
 
-Machine learning (ML) and artificial intelligence (AI) are revolutionizing biomedical research. Applications of these techniques now span **genomics, imaging, and more** – from predicting drug metabolism using brain scans to identifying genotype–phenotype associations and drug responses. Deep learning, a subset of AI, has achieved remarkable feats such as detecting splice sites, predicting protein 3D structures, and diagnosing cancers from histopathology images. A prime example is DeepMind’s **AlphaFold2**, which stunned the world by predicting protein structures with near-experimental accuracy. AlphaFold’s release provided the 3D structures of essentially all human proteins to the scientific community, accelerating insights in structural biology and drug discovery. However, tapping into these advanced AI methods often requires significant coding and computational expertise, posing a hurdle for many biologists. This is where the Galaxy platform steps in – offering a user-friendly, no-code environment to leverage ML/DL in research while ensuring **scalability and reproducibility**.
+Machine learning (ML) and artificial intelligence (AI) are revolutionizing biomedical research. Applications of these techniques now span **genomics, imaging, and more** – from predicting drug metabolism using brain scans to [identifing survival markers of brain tumor with Flexynesis on Galaxy](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/flexynesis_survival/tutorial.html).
+More generally, deep learning, a subset of AI, has achieved remarkable feats such as detecting splice sites, predicting protein 3D structures, and diagnosing cancers from histopathology images. A prime example is DeepMind’s **AlphaFold2**, which stunned the world by predicting protein structures with near-experimental accuracy. AlphaFold’s release provided the 3D structures of essentially all human proteins to the scientific community, accelerating insights in structural biology and drug discovery. However, tapping into these advanced AI methods often requires significant coding and computational expertise, posing a hurdle for many biologists. This is where the Galaxy platform steps in – offering a user-friendly, no-code environment to leverage ML/DL in research while ensuring **scalability and reproducibility** with a robust training network.
+
+Some recent research additions which leverage AI on Galaxy that researchers can get started right away via the Galaxy Training Network (GTN) hands-on tutorials and a few recent research tools that can be used on Galaxy-hosted servers include:
+
+**New AI Tutorials on the GTN:**
+1. [Modeling breast cancer subtypes with Flexynesis](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/flexynesis_classification/tutorial.html) (2 hours)
+2. [Preparing data from CbioPortal for Flexynesis integration](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/flexynesis_cbio_import/tutorial.html) (1 hour)
+3. [Performing unsupervised analysis of bone marrow cells with Flexynesis](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/flexynesis_unsupervised/tutorial.html) (2 hours)
+4. [Identifing survival markers of brain tumor with Flexynesis](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/flexynesis_survival/tutorial.html) (2 hours)
+
+**New AI Tools on Galaxy-hosted servers:**
+1. [Tabular data prediction using TabPFN](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftabpfn%2Ftabpfn%2F2.0.9%2Bgalaxy0&version=latest)
+2. [LLM Hub](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fllm_hub%2Fllm_hub%2F1.100.0%2Bgalaxy0&version=latest)
+3. _Flexynesis_
+   a. [Flexynesis](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflexynesis%2Fflexynesis%2F0.2.20%2Bgalaxy3&version=latest)
+   b. [Flexynesis plot](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflexynesis_plot%2Fflexynesis_plot%2F0.2.20%2Bgalaxy3&version=latest)
+   c. [Flexynesis utils](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflexynesis_utils%2Fflexynesis_utils%2F0.2.20%2Bgalaxy3&version=latest)
+   d. [Flexynesis cBioPortal import](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflexynesis_cbioportal_import%2Fflexynesis_cbioportal_import%2F0.2.20%2Bgalaxy3&version=latest)
 
 ## AI and Deep Learning in Biomedical Science
 
