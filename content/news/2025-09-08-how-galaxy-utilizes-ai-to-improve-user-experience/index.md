@@ -1,7 +1,8 @@
 ---
 title: "How Galaxy Utilizes AI to Improve User Experience"
-date: "2025-08-17"
-tease: "The Job Error Wizard doesn’t interpret the biological data; it helps you run the tools correctly"
+date: "2025-09-08"
+tease: "AI is being applied to improve the user experience itself—helping researchers debug analyses, discover relevant tools, and collaborate more efficiently"
+authors: "Michelle Terese Savage"
 subsites: [all]
 ---
 
@@ -9,7 +10,7 @@ subsites: [all]
 
 Artificial intelligence (AI) is transforming not only how scientists analyze their data, but also how they **interact with scientific platforms**. Within the Galaxy Project, AI is being applied to improve the user experience itself—helping researchers debug analyses, discover relevant tools, and collaborate more efficiently. These innovations ensure that the platform is not only powerful, but also intuitive and supportive of the diverse needs of biomedical researchers.
 
-## AI in Everyday Life: A Familiar Parallel
+## AI in Everyday Life: A Familiar Assistant
 
 Most of us already interact with AI systems every day. Recommendation engines on streaming services, virtual assistants on smartphones, and autocorrect in text messaging are all examples of AI working behind the scenes to **smooth the user experience**. Importantly, these systems are designed not to replace the user, but to augment their abilities.
 
@@ -17,13 +18,11 @@ Galaxy’s AI-driven features serve a similar purpose. They don’t perform the 
 
 ## The Job Error Wizard: AI-Powered Debugging
 
-One of the most prominent AI enhancements is the [**Job Error Wizard**](https://github.com/galaxyproject/galaxy/blob/dev/client/src/components/GalaxyWizard.vue) (formerly ChatGXY). This AI assistant uses large language models (LLMs) to **interpret job failure messages and logs**, providing human-readable explanations and actionable suggestions. Instead of cryptic error codes, researchers receive guidance like: *“Your FASTQ file appears to be truncated; try re-uploading or validating the file.”*
-
-This not only accelerates problem-solving but also turns each error into a **learning opportunity**. For biomedical researchers who may not have extensive computational training, this feature dramatically reduces frustration.
+One of the most prominent AI enhancements is the **[Job Error Wizard](https://github.com/galaxyproject/galaxy/blob/dev/client/src/components/GalaxyWizard.vue)** (formerly ChatGXY). This AI assistant uses large language models (LLMs) to **interpret job failure messages and logs**, providing human-readable explanations and actionable suggestions. Instead of cryptic error codes, researchers receive guidance like: *“Your FASTQ file appears to be truncated; try re-uploading or validating the file.”* This not only accelerates problem-solving but also turns each error into a **learning opportunity**. For researchers who may not have extensive computational training, this feature is designed to dramatically reduce frustration and foster proactive solutions.
 
 ## The Galaxy MCP Server: Opening Doors for AI Agents
 
-Another key innovation is the [**Model Context Protocol (MCP) server**](https://github.com/galaxyproject/galaxy-mcp). Through MCP, external AI systems can connect to Galaxy and carry out actions such as:
+Another key innovation is the **[Model Context Protocol (MCP) server](https://github.com/galaxyproject/galaxy-mcp)**. Through MCP, external AI systems can connect to Galaxy and carry out actions such as:
 
 - Searching for tools relevant to a research question  
 - Launching workflows with specified parameters  
@@ -43,7 +42,7 @@ In Galaxy, AI is explicitly designed to **complement—not replace—researchers
 
 ## The Road Ahead: Community-Driven AI in Galaxy
 
-As with all things Galaxy, the future of AI-driven features will be **community-driven**. The [Machine Learning & AI Across Galaxy (MALIC) SIG](https://galaxyproject.org/community/sig/ml-ai-across-galaxy/) is already exploring new opportunities for integrating AI into the platform—whether that’s developing domain-specific models, designing smarter user interfaces, or creating AI-enhanced reproducibility checks. 
+As with all things Galaxy, the future of AI-driven features will be **community-driven**. The [machine learning & AI special interest group](https://galaxyproject.org/community/sig/ml-ai-across-galaxy/) continues to explore new opportunities for integrating AI into the platform—whether that’s developing domain-specific models, designing smarter user interfaces, or creating AI-enhanced reproducibility checks. 
 
 ---
 
