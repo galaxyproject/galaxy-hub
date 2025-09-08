@@ -172,7 +172,7 @@ Registration is free. We recommend to register as soon as possible to secure you
           <td>00 036 (Hörsaal)</td>
         </tr>
         <tr>
-          <td>02.10.2025 (Thu)</td>
+          <td>03.10.2025 (Fri)</td>
           <td>10:00–10:30</td>
           <td><b><span class="event-lunch">Coffee break</span></b></td>
           <td>Building 101</td>
@@ -186,7 +186,7 @@ Registration is free. We recommend to register as soon as possible to secure you
           <td>02 016 / 018</td>
         </tr>
         <tr>
-          <td>02.10.2025 (Thu)</td>
+          <td>03.10.2025 (Fri)</td>
           <td>16:00–16:30</td>
           <td><b><span class="event-lunch">Coffee break</span></b></td>
           <td>Building 101</td>
@@ -212,18 +212,19 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>10:30–10:50</td><td>Volodymyr Savchenko</td><td><span class="event-egd">Galaxy and Astronomy community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>10:50–11:10</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 4)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:10–11:25</td><td>Mina Hojat Ansari</td><td><span class="event-egd">FAIRYMAGS: A Galaxy Workflow for MAG Recovery Applied to Termite Microbiomes</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>11:25–11:35</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 6)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>11:35–11:55</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 7)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:25–11:35</td><td>Leandro Liborio</td><td><span class="event-egd">Managing materials science workflows with Galaxy at STFC</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:35–11:45</td><td>Martin Etzrodt</td><td><span class="event-egd">The ISCC Discovery Protocol: Decentralized signing, timestamping, and discovery for the International Standard Content Code (ISCC)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:45–11:55</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 7)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:55–12:15</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 8)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:15–12:35</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 9)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:35–12:45</td><td>Solenne Correard</td><td><span class="event-egd">The Biodiversity Galaxy Lab: A Collaborative Hub with curated tools, workflows and training for FAIR and Reproducible biodiversity analysis</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:45–13:00</td><td>TBD</td><td><span class="event-egd">TBD (Community talk update 10)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
         <tr><td>14:00–14:15</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>14:15–14:30</td><td>Maria Chavero-Diez</td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>14:15–14:30</td><td>Maria Chavero-Diez<br><em>(Online Presentation)</em></td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>14:30–14:45</td><td>Paul De Geest</td><td><span class="event-elixir">TBD</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>14:45–15:00</td><td>Mirela Minkova</td><td><span class="event-elixir">On-demand, Reproducible Galaxy Instances in a Secure Environment for the Dutch Scientific Community</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>15:15–15:30</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 5)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:15–15:30</td><td>Marisa Loach</td><td><span class="event-elixir">The Single Cell and Spatial Omics Community</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>15:30–15:45</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 6)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>15:45–16:00</td><td>TBD</td><td><span class="event-elixir">TBD (ELIXIR talk 6)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>16:00–16:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
@@ -281,11 +282,11 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>09:00–17:30</td><td>—</td><td><span class="event-egd">EGD CoFest &amp; Hackathon</span></td><td>480'</td><td>01 009 / 013</td></tr>
         <tr><td>09:00–17:30</td><td>—</td><td><span class="event-egd">Sub-Hackathon: secure sensitive data transfer from FEGA and analysis in Galaxy (<a href="https://elixir-europe.org/how-we-work/scientific-programme/commissioned-services/science/hdtr/data">ELIXIR-commissioned service</a>)</span></td><td>480'</td><td>01 016 / 018</td></tr>
         <tr><td>09:00–09:30</td><td>Oana Marchis &amp; Armin Dadras</td><td><span class="event-esg">Welcome and final report from WP1</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>09:30–10:00</td><td>TBD</td><td><span class="event-esg">Achievements of WP2</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>09:30–10:00</td><td>Eli Chadwick</td><td><span class="event-esg">Achievements of WP2</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>10:00–10:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech (TBD)<br>Eli Chadwick (TBD)<br>Teresa Müller (Galaxy Training Academy)<br>Yvan Le Bras (TBD)<br>Pauline Seguineau (TBD)<br>Marie Jossé (TBD)<br>Arthur Barreau (TBD)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
-        <tr><td>10:30–11:00</td><td>TBD</td><td><span class="event-esg">Achievements of WP3</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>10:30–11:00</td><td>Marco Antonio Tangaro</td><td><span class="event-esg">Achievements of WP3</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:00–11:30</td><td>Sebastian Luna-Valero</td><td><span class="event-esg">Achievements of WP4</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>11:30–12:00</td><td>TBD</td><td><span class="event-esg">Achievements of WP5</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:30–12:00</td><td>Nikolay Vazov</td><td><span class="event-esg">Achievements of WP5</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:00–13:00</td><td>All ESG partners</td><td><span class="event-esg">Final discussions and wrap-up</span></td><td>60'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
         <tr><td>14:00–16:00</td><td>All ESG partners</td><td><span class="event-esg">Final discussions and wrap-up</span></td><td>90'</td><td>00 036 (Hörsaal)</td></tr>
