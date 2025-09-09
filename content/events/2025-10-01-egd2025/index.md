@@ -160,7 +160,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr>
           <td>03.10.2025 (Fri)</td>
           <td>09:30–17:30</td>
-          <td><b><span class="event-egd">European Galaxy Days</span></b><br>Co-Fest &amp; Hackathon</td>
+          <td><b><span class="event-egd">European Galaxy Days</span></b><br><a href="https://docs.google.com/document/d/17lcJPnnZYnlFJao3deItakQWoF7CqIpbMcsGz_jMcOc">EGD CoFest &amp; Hackathon</a></td>
           <td>Building 101</td>
           <td>01 009 / 013 &amp; 01 016 / 018</td>
         </tr>
@@ -279,7 +279,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><th>Time</th><th>Speaker</th><th>Title</th><th>Duration</th><th>Room</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:00–17:30</td><td>—</td><td><span class="event-egd">EGD CoFest &amp; Hackathon</span></td><td>480'</td><td>01 009 / 013</td></tr>
+        <tr><td>09:00–17:30</td><td>—</td><td><span class="event-egd"><a href="https://docs.google.com/document/d/17lcJPnnZYnlFJao3deItakQWoF7CqIpbMcsGz_jMcOc">EGD CoFest &amp; Hackathon</a></span></td><td>480'</td><td>01 009 / 013</td></tr>
         <tr><td>09:00–17:30</td><td>—</td><td><span class="event-egd">Sub-Hackathon: secure sensitive data transfer from FEGA and analysis in Galaxy (<a href="https://elixir-europe.org/how-we-work/scientific-programme/commissioned-services/science/hdtr/data">ELIXIR-commissioned service</a>)</span></td><td>480'</td><td>01 016 / 018</td></tr>
         <tr><td>09:00–09:30</td><td>Oana Marchis &amp; Armin Dadras</td><td><span class="event-esg">Welcome and final report from WP1</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>09:30–10:00</td><td>Eli Chadwick</td><td><span class="event-esg">Achievements of WP2</span></td><td>30'</td><td>00 036 (Hörsaal)</td></tr>
