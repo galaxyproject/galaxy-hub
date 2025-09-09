@@ -279,6 +279,10 @@ supporters:
       image: /images/logos/mpi.jpg
       website: https://www.ie-freiburg.mpg.de/
 
+    - name: mwk
+      image: /images/logos/mwk_logo.png
+      website: https://mwk.baden-wuerttemberg.de/
+
     - name: ncgas
       image: /images/logos/ncgas-logo.png
       website: https://ncgas.org/
