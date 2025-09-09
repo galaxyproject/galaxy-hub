@@ -11,20 +11,22 @@ Whether you are analysing texts, images, audio data or other media, **Galaxy is 
 
 # How can you use Galaxy for Digital Humanities analysis?
 
-Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities (DH) and Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that fits your research needs and supports you with tools for easier research data management on the go. Just go to the Galaxy instance of your choice, for example the [European Galaxy Server](https://usegalaxy.eu/), create an account and get started.
+Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities (DH) and Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that fits your research needs and supports you with tools for easier research data management on the go. Just go to the Galaxy instance of your choice, for example, the [European Galaxy Server](https://usegalaxy.eu/), create an account and get started.
 
 Here are some examples:
 
 ## 📄 Publications / Examples
 
+- See the newest [poster](https://zenodo.org/records/17016028) on how Galaxy can help researchers in Digital Humanities and Social Sciences presented at the [Historikertag 2025](https://www.historikertag.de/Bonn2025/).
+  
+    <div class="multiple-img">
+        <embed src="https://zenodo.org/records/17016028/preview/2025_Historikertag_Poster_Galaxy_DS.pdf" width="65%" height="700px" type='application/pdf'>
+    </div>
+
 - We explored Instagram posts from the Bavarian State elections provided by the [BERD Data Portal](https://www.berd-nfdi.de/data-portal/). [Read more](https://galaxyproject.org/news/2025-05-20-berd-wf/) to see how the dataset was cleaned and mined to visualise not only the most frequent words in the post to get an idea of its contents, but also extracted and mapped where most of those posts originated in just a couple of steps in Galaxy.
 
 - Check out the [poster](https://doi.org/10.11588/heidok.00036288) on Galaxy in the Humanities that Daniela Schneider and Jan Leendertse presented at the [E-Science Days 2025](https://artifact.galaxyproject.org/news/2025-03-14-e-science-days/).
   
-    <div class="multiple-img">
-        <embed src="https://archiv.ub.uni-heidelberg.de/volltextserver/36288/7/Schneider_Leendertse_Poster_Galaxy_2025.pdf" width="65%" height="700px" type='application/pdf'>
-    </div>
-
 - A German article from Daniela Schneider and Jan Leendertse, building on this presentation, is forthcoming.
 
 - Check out [this article](https://galaxyproject.org/news/2024-09-02-chat-gpt/) to get an example workflow of how you can automatically transcribe and translate an audio file using Galaxy.
@@ -38,7 +40,7 @@ You can combine various Galaxy tools into [workflows](https://training.galaxypro
 
 ## Tools
 
-This is a non-exhaustive overview of Galaxy tools applicable to Humanities and Social sciences use-cases. 
+This is a non-exhaustive overview of Galaxy tools applicable to Humanities and Social sciences use-cases. You can find the tools by going to a Galaxy instance, for example, the [European Galaxy Server](https://usegalaxy.eu/) and clicking on "Tools" on the left-side bar. There, you can search the tools by name or browse them by category. 
 
 ### 📤 **Uploading/accessing data**
 You can upload your files in various ways in the upload section on the left sidebar of the Galaxy website.
@@ -60,7 +62,7 @@ You can upload your files in various ways in the upload section on the left side
 - **Text Manipulation for tabular data**: Replace Text, Replace text in a specific column, Replace parts of text, text reformatting, Text transformation, Sort a row, reverse a file, Compute an expression, Regex replace, Subtract Whole Dataset, Merge Columns, Unique occurences, Add column, Merge Columns together, Convert delimiters to TAB, Change Case, Trim characters, Secure Hash
 - **Filter and Sort for tabular data**: Unique, Unique lines, Sort, Select random lines, Select first lines (head), Select last lines (tail), Remove beginning, Cut columns, Search in textfiles, XPath, Column arrange, Query tabular, Filter data on any column, Sort data, Select lines, Remove columns, Sort Column Order
 - **Join, Substract and Group for tabular data**: Join two files, Split file, Reverse, Transpose, Datamash, Subtract, Join two Datasets, Group data by a column
-- **Further**:  Tabular data prediction using TabPFN 
+- **Further**:  Tabular data prediction using TabPFN,  Cleanlab Issue Handler to detect and optionally clean data issues,  SaQC for quality control
 
 ### 🔊**Audio tools**
 - Audio Player: Find the player to listen to audio files in Galaxy on the left-hand side panel under *Visualisations*.
@@ -72,6 +74,7 @@ You can upload your files in various ways in the upload section on the left side
 - Tesseract: Optical Character Recognition (OCR)
 - [flux](https://galaxyproject.org/news/2024-11-26-flux/): text to image conversion
 - Convert image format (including extracting images from a PDF)
+- PDFimages: Extract images from a PDF file
 - Enhance contrast: image pre-processing
 - Convert coordinates to label map: converts a GeoJSON of an image with rectangles to a label image (or binary image) for later cropping
 - Crop image: for cutting images 
@@ -79,11 +82,13 @@ You can upload your files in various ways in the upload section on the left side
 - Tiff viewer: View TIFF files in Galaxy on the left-hand side panel under *Visualisations*.
 - Video player: View video files in Galaxy on the left-hand side panel under *Visualisations*.
 - Yolo DocLayout: Document layout analysis
+- LLM Hub: Run LLMs on your images
     
 ### 🔃 **File or format conversion**
 - General tools: Tabular to CSV, CSV to Tabular, convert delimiter to TAB, 
 - markitdown: Converting documents to markdown format - for easier processing with large language models.
 - Convert image format
+- PDFimages to extract images from PDFs
 - FFmpeg Format Converter: Convert between video and audio formats
 
 ### 👩‍💻 **Interactive tools**
@@ -103,6 +108,7 @@ You can upload your files in various ways in the upload section on the left side
 ### 🤖 **AI and Machine Learning tools**
 - [flux](https://galaxyproject.org/news/2024-11-26-flux/): text to image conversion
 - [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Audio to text conversion
+- LLM Hub: Run various AI models hosted by the Freiburg Compute Center (RZ) without any API keys
 - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 - TabPFN: Tabular data prediction
 - [Cleanlab](https://galaxyproject.org/news/2025-06-13-cleanlab/): Identifies label issues in Machine Learning datasets
