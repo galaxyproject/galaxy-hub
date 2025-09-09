@@ -36,7 +36,7 @@ Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@useg
 | Model | Provider | Description |
 |-------|----------|-------------|
 | **Gemma-3-12B** | Google DeepMind | Handles text and images, great for describing photos, diagrams, or screenshots |
-| **Qwen2.5-VL-7B** | Alibaba Cloud | Budget-friendly image understanding, extract info from charts, UIs, or screenshots |
+| **Qwen2.5-VL-7B** | Alibaba Cloud | Efficient at understanding images and extracting info from charts, UIs, or screenshots |
 
 ### Image Models
 
