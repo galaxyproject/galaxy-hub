@@ -1,7 +1,7 @@
 ---
 title: 'LLM Hub: Large Language Models Made Easy in Galaxy'
 date: '2025-09-02'
-tease: "Access powerful Large Language Models in Galaxy without API keys"
+tease: "Access powerful Large Language Models in Galaxy easily"
 hide_tease: false
 authors: Arash Kadkhodaei
 subsites: [global, eu, us, freiburg]
@@ -35,7 +35,7 @@ Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@useg
 
 | Model | Provider | Description |
 |-------|----------|-------------|
-| **Gemma-3-12B** | Google DeepMind | Handles text + images, great for describing photos, diagrams, or screenshots |
+| **Gemma-3-12B** | Google DeepMind | Handles text and images, great for describing photos, diagrams, or screenshots |
 | **Qwen2.5-VL-7B** | Alibaba Cloud | Budget-friendly image understanding, extract info from charts, UIs, or screenshots |
 
 ### Image Models
@@ -61,17 +61,18 @@ Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@useg
 ## Getting Started
 
 Using LLM Hub is straightforward:
+ <a href="https://usegalaxy.eu/root?tool_id=llm_hub"><button type="button" class="btn btn-success">Click to try LLM Hub on Galaxy Europe!</button></a>
 
 1. **Select your model type** based on your input data (text, image, or multimodal)
 2. **Choose the appropriate model** for your task complexity and requirements
-3. **Upload your context data** (optional) - this can be text files, images, or both
+3. **Upload your context data** (optional) - this can be text files, images, or both. Click on the icon "Upload" on the left panel and select what you want to upload. When the item in your history turns green, it is ready to go.
 4. **Enter your prompt** describing the task you want the LLM to perform
 5. **Run the tool** and receive your results in Markdown format
 
 
 ## Behind the Scenes
 
-LLM Hub communicate with a LiteLLM proxy server hosted by [University of Freiburg’s computing center (RZ)](https://www.rz.uni-freiburg.de/en).
+LLM Hub communicates with a LiteLLM proxy server hosted by [University of Freiburg’s computing center (RZ)](https://www.rz.uni-freiburg.de/en).
 
 ## Try It Now
 
