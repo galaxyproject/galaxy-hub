@@ -14,19 +14,17 @@ tags: [gat, admins]
 supporters:
   - cesnet
   - elixir-cz
+  - de.KCD
 subsites: [global, us, eu, fr, esg]
 ---
 
-**[Galaxy Admin Training](https://github.com/orgs/galaxyproject/projects/73)** will be offered November 24 through November 28 in CESNET offices, Brno, Czechia ([map](https://maps.app.goo.gl/btN9zLdmwA8ubeSPA)).
+**Galaxy Admin Training** will be offered November 24 through November 28 in CESNET offices, Brno, Czechia ([map](https://maps.app.goo.gl/btN9zLdmwA8ubeSPA)).
 
 This workshop will cover basic and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.
 Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community.
 Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management,
 using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running,
 performing well, and used by your community.
-
-Galaxy is an open web based platform for data integration and analysis. It is deployed at large and small organizations
-around the world and used in a broad range of research domains.
 
 # Schedule 🆕
 
@@ -41,12 +39,9 @@ A tentative schedule for Galaxy Admin training 2025 is now available [here](http
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
 
   ```
-cd, mkdir, rmdir, ls
-tar, gzip
-cp, mv, rm, chmod, ln 
-~, .., ./, /tmp,
-cat, tail, less
-man
+cd, mkdir, rmdir, ls, cp, mv, rm, ln, cat, tail, head, less, man
+chmod, chown, tar, gzip, grep
+~, .., ./, /tmp, |
 ```
 
 Note: *This is not an exhaustive list (or even a proper subset) of the commands that will be used in the workshop.*  They are included here to give you an idea of the depth of knowledge that is required.
@@ -57,9 +52,7 @@ We have a few tutorials that can help you get refreshed if you need:
 
 ### Competent in a Unix/Linux text editor
 
-Linux has several text editors available in it. You'll need to be comfortable in at least one of them before the workshop starts. Organizers will make sure that these editors are available on the Linux images we use in the workshop:
-
-We recommend that you use [Nano](https://www.nano-editor.org/), if you don't know another text editor. It's [simple and easy to use.](https://www.howtogeek.com/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). If you know another editor like [Emacs](https://www.gnu.org/software/emacs/) or [VIM](http://www.vim.org/) you are of course welcome to use those as well.
+Linux has several text editors available in it. You'll need to be comfortable in at least one of them before the workshop starts. We recommend that you use [Nano](https://www.nano-editor.org/), if you don't know another text editor. It's [simple and easy to use.](https://www.howtogeek.com/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). If you know another editor like [Emacs](https://www.gnu.org/software/emacs/) or [VIM](http://www.vim.org/) you are of course welcome to use those as well.
 
 ### Some experience with Linux Package Management
 
@@ -75,7 +68,7 @@ All participants should bring a wifi-enabled laptop with
 
 * (Optional but useful) Software to access the command line of a Linux server.
     * If you are running Linux or Mac OS, then you already have this.
-    * If you are running Windows than you’ll need to get putty or something similar installed before the workshop.
+    * If you are running Windows than you’ll need to get [putty](https://putty.software/) or something similar installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
 # Instructors
