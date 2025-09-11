@@ -125,10 +125,9 @@ If tools are missing or information is not up-to-date in the list, please help u
 
 ## 🎓 Workflows and training materials
 
-You can find an overview of the existing tutorials on the dedicated DH-section of the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/digital-humanities/). Those are open educational resources (OER) that you can create from your workflows or reuse in teaching and training. Documentation for providing further tutorials can be accessed [here](https://training.galaxyproject.org/training-material/topics/contributing/).
+You can find an overview of the existing tutorials on the dedicated DH-section of the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/digital-humanities/). Those are open educational resources (OER) that you can create from your workflows or reuse in teaching and training. Documentation for providing further tutorials can be accessed [here](https://training.galaxyproject.org/training-material/topics/contributing/). If you have never worked with Galaxy before, we suggest you start with our [Introduction to Digital Humanities in Galaxy](https://training.galaxyproject.org/training-material/topics/digital-humanities/tutorials/introduction_to_dh/tutorial.html).
 
 In addition to those mentioned above, we are currently working on:
-- Galaxy introduction for Digital Humanities
 - Using OpenRefine in Galaxy to analyse data
 
 ##  🏛️ Upcoming events
