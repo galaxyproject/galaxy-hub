@@ -254,7 +254,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>11:40–12:00</td><td>Yvan Le Bras</td><td><span class="event-egd">Galaxy Ecology: 2025 Update</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:00–12:20</td><td>Pauline Seguineau<br>Marie Jossé</td><td><span class="event-egd">Galaxy Earth-System</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:20–12:40</td><td>Beatriz Serrano-Solano</td><td><span class="event-egd">Update by the Imaging Community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>12:40–13:00</td><td>TBA</td><td><span class="event-egd">TBA</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:40–13:00</td><td>Anthony Bretaudeau</td><td><span class="event-egd">Modern genome browsing in Galaxy with Jbrowse2</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
         <tr><td>14:00–14:20</td><td>Lukasz Opiola</td><td><span class="event-meets">Galaxy &amp; Onedata integration, managing Galaxy data using Onedata, BYOD &amp; BYOS</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>14:20–14:35</td><td>Martin Cech</td><td><span class="event-meets">Automating Galaxy Tool Management Through a GitHub Repository Template</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
