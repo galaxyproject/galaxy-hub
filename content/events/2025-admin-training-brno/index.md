@@ -78,6 +78,7 @@ We currently have these confirmed (and highly experienced!) instructors:
 * [Marius van den Beek](https://github.com/mvdbeek) - Galaxy Project, Penn State University, *Europe*
 * [Mira Kuntz](https://github.com/mira-miracoli) - Uni-Freiburg, Germany
 * [Bjoern Gruening](https://github.com/bgruening) - Uni-Freiburg, Germany
+* [Paul De Geest](https://github.com/pauldg) - VIB, Belgium
 * [Martin Demko](https://github.com/martindemko) - CESNET / CEITEC, Brno, Czechia
 * [Martin Cech](https://github.com/martenson) - CESNET / ELIXIR CZ, Brno, Czechia
 
