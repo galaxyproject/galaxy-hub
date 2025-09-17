@@ -27,7 +27,9 @@ This makes it easier to balance sequencing depth with variation, improves recove
 
 ## The Workflow in Galaxy
 
-![The Group Assignment for Co-Assembly workflow in Galaxy](./workflow-group-coassembly.jpg)
+<iframe title="Galaxy Workflow Embed" style="width: 100%; height: 700px; border: none;" src="https://usegalaxy.eu/published/workflow?id=03ef267ff7634a4b&embed=true&buttons=true&about=false&heading=true&minimap=true&zoom_controls=true&initialX=-20&initialY=-20&zoom=1"></iframe>
+
+*The Group Assignment for Co-Assembly workflow in Galaxy*
 
 **Workflow steps:**
 1. Takes in paired-end reads and a metadata file.  
