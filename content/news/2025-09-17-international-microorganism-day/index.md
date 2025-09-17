@@ -53,7 +53,7 @@ Microbial research isn't just for labs and universities. Galaxy supports inspiri
 
 From fighting antibiotic resistance to understanding climate change, microbes hold the key to some of humanity's biggest challenges. At the heart of this work is **Galaxy** and the **Microbiology Galaxy Lab**, which is democratizing access to advanced bioinformatics. This platform makes it possible for scientists, clinicians, and even students around the world to analyze complex microbial data without needing specialized computational skills
 
-The **[Microbiology Galaxy Lab](https://microbiology.usegalaxy.eu/)** is a free, globally accessible platform including over **300 tool suites and 100 curated workflows**. Whether you're tracking "superbugs", predicting disease biomarkers, or exploring how cloud microbes influence weather patterns, this platform supports research across health, ecology, and sustainability. With **FAIR-aligned** (Findable, Accessible, Interoperable, Reusable) workflows, over **35 tutorials**, and a vibrant community, it empowers researchers to share knowledge and accelerate discovery.
+The **[Microbiology Galaxy Lab](https://microbiology.usegalaxy.eu/)** is a free, globally accessible platform including over **315 tool suites and 115 curated workflows**. Whether you're tracking "superbugs", predicting disease biomarkers, or exploring how cloud microbes influence weather patterns, this platform supports research across health, ecology, and sustainability. With **FAIR-aligned** (Findable, Accessible, Interoperable, Reusable) workflows, over **35 tutorials**, and a vibrant community, it empowers researchers to share knowledge and accelerate discovery.
 
 ***But the impact goes even deeper...***
 
