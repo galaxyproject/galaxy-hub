@@ -10,7 +10,8 @@ main_subsite: eu
 ---
 
 
-Metagenome assembly can be performed on individual samples or by pooling reads from several samples (co-assembly). Both strategies have advantages and drawbacks. To provide a balanced option, we have developed a **Group Assignment for Co-Assembly workflow** in Galaxy.  
+Metagenome assembly can be performed on individual samples or by pooling reads from several samples (co-assembly). Both strategies have advantages and drawbacks. To provide a balanced option, we have developed a **Group Assignment for Co-Assembly workflow** [in Galaxy](https://usegalaxy.eu/published/workflow?id=03ef267ff7634a4b).
+
 
 This standalone workflow lets users define groups of samples based on metadata such as population, caste, disease status, or sampling location. It then produces group-specific datasets that can be used directly in downstream workflows like **FAIRyMAGs** for assembly, binning, MAG recovery, and annotation.
 
