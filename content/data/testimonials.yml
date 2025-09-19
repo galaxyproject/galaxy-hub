@@ -1,0 +1,32 @@
+heading: "What Galaxy Users Say"
+
+testimonials:
+    - quote: "I went from zero bioinformatics experience to publishing papers in 18 months. Galaxy made the impossible possible."
+      attribution: "Marine Biology Researcher"
+
+    - quote: "My undergrads can now run the same analyses that took my PhD students weeks to set up. That's the power of Galaxy."
+      attribution: "Bioinformatics Professor"
+
+    - quote: "We've been using the same Galaxy workflow for three years across four different projects. Talk about reproducible science."
+      attribution: "Genomics Lab"
+
+    - quote: "No more 'works on my machine' problems. Galaxy workflows just work, everywhere, every time."
+      attribution: "Computational Biology Student"
+
+    - quote: "Our wet lab researchers are now doing their own RNA-seq analysis. Galaxy removed the computational bottleneck."
+      attribution: "Research Institute Director"
+
+    - quote: "The data visualization in Galaxy helped us spot a pattern we'd missed for months in traditional analysis."
+      attribution: "Cancer Research Team"
+
+    - quote: "When our local cluster went down, we moved everything to Galaxy public servers in an afternoon. Lifesaver."
+      attribution: "Small University Lab"
+
+    - quote: "I teach Galaxy to 200+ students each semester. The learning curve is practically flat compared to command line tools."
+      attribution: "Bioinformatics Instructor"
+
+    - quote: "Galaxy turned our messy collection of scripts into clean, documented workflows that anyone can understand."
+      attribution: "Pharmaceutical Researcher"
+
+    - quote: "Best research decision we made was switching to Galaxy. The community support alone is worth it."
+      attribution: "Ecology Research Group"

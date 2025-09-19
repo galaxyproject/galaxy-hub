@@ -178,6 +178,18 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid-real p-0">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="mb-4 text-white">{{ this.$static.datasetTestimonials.heading }}</h2>
+                        <div class="area testimonials p-4">
+                            <Testimonials :testimonials="this.$static.datasetTestimonials.testimonials" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container mb-4">
             <div class="row">
                 <div class="col p-0">
@@ -306,10 +318,12 @@
 import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
 import Publications from "@/components/Publications";
+import Testimonials from "@/components/Testimonials";
 
 export default {
     components: {
         Publications,
+        Testimonials,
     },
     data() {
         return {
@@ -446,6 +460,14 @@ query {
                 image,
                 width
             }
+        }
+    }
+
+    datasetTestimonials: dataset(path: "/dataset:/data/testimonials/") {
+        heading,
+        testimonials {
+            quote,
+            attribution
         }
     }
 }
