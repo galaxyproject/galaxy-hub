@@ -184,7 +184,10 @@
                     <div class="col-12 text-center">
                         <h2 class="mb-4 text-white">{{ this.$static.datasetTestimonials.heading }}</h2>
                         <div class="testimonials-container">
-                            <Testimonials :testimonials="this.$static.datasetTestimonials.testimonials" />
+                            <Testimonials
+                                :testimonials="this.$static.datasetTestimonials.testimonials"
+                                :showControls="true"
+                            />
                         </div>
                     </div>
                 </div>

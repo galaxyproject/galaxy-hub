@@ -1,11 +1,57 @@
 <template>
-    <div class="testimonial-widget">
-        <blockquote class="blockquote text-center mb-0" :class="textColorClass">
-            <p class="mb-2" :class="quoteTextClass">{{ currentTestimonial.quote }}</p>
-            <footer class="blockquote-footer" :class="attributionTextClass" v-if="currentTestimonial.attribution && showAttribution">
-                {{ currentTestimonial.attribution }}
-            </footer>
-        </blockquote>
+    <div
+        class="testimonial-widget"
+        :class="{ compact: compact, 'has-controls': showControls }"
+        @mouseenter="pauseRotation"
+        @mouseleave="resumeRotation"
+    >
+        <!-- Navigation Controls -->
+        <div v-if="showControls" class="testimonial-controls">
+            <button
+                @click="previousTestimonial"
+                class="control-btn control-prev"
+                aria-label="Previous testimonial"
+                :disabled="testimonials.length <= 1"
+            >
+                ‹
+            </button>
+
+            <div class="testimonial-indicators">
+                <button
+                    v-for="(testimonial, index) in testimonials"
+                    :key="index"
+                    @click="goToTestimonial(index)"
+                    class="indicator"
+                    :class="{ active: index === currentIndex }"
+                    :aria-label="`Go to testimonial ${index + 1}`"
+                ></button>
+            </div>
+
+            <button
+                @click="nextTestimonial"
+                class="control-btn control-next"
+                aria-label="Next testimonial"
+                :disabled="testimonials.length <= 1"
+            >
+                ›
+            </button>
+        </div>
+
+        <!-- Testimonial Content -->
+        <div class="testimonial-content" role="region" aria-live="polite" aria-label="User testimonials">
+            <transition name="fade" mode="out-in">
+                <blockquote :key="currentIndex" class="blockquote text-center mb-0" :class="textColorClass">
+                    <p class="quote-text" :class="quoteTextClass">{{ currentTestimonial.quote }}</p>
+                    <footer
+                        class="blockquote-footer"
+                        :class="attributionTextClass"
+                        v-if="currentTestimonial.attribution && showAttribution"
+                    >
+                        {{ currentTestimonial.attribution }}
+                    </footer>
+                </blockquote>
+            </transition>
+        </div>
     </div>
 </template>
 
@@ -30,9 +76,13 @@ export default {
         },
         textColor: {
             type: String,
-            default: 'white', // 'white', 'dark', or 'auto'
+            default: "white", // 'white', 'dark', or 'auto'
         },
         compact: {
+            type: Boolean,
+            default: false,
+        },
+        showControls: {
             type: Boolean,
             default: false,
         },
@@ -41,40 +91,78 @@ export default {
         return {
             currentIndex: 0,
             intervalId: null,
+            isPaused: false,
         };
     },
     computed: {
         currentTestimonial() {
             if (this.testimonials && this.testimonials.length > 0) {
-                return this.testimonials[this.currentIndex];
+                // Ensure currentIndex is within bounds
+                const safeIndex = Math.min(this.currentIndex, this.testimonials.length - 1);
+                const testimonial = this.testimonials[safeIndex];
+
+                // Validate testimonial structure
+                if (testimonial && typeof testimonial === "object") {
+                    return {
+                        quote: testimonial.quote || "No testimonial available.",
+                        attribution: testimonial.attribution || "",
+                    };
+                }
             }
-            return { quote: "", attribution: "" };
+            return {
+                quote: "Loading testimonials...",
+                attribution: "",
+            };
+        },
+        hasValidTestimonials() {
+            return (
+                this.testimonials &&
+                Array.isArray(this.testimonials) &&
+                this.testimonials.length > 0 &&
+                this.testimonials.some((t) => t && t.quote)
+            );
         },
         textColorClass() {
-            if (this.textColor === 'white') return 'text-white';
-            if (this.textColor === 'dark') return 'text-dark';
-            return ''; // auto - inherit from parent
+            if (this.textColor === "white") return "text-white";
+            if (this.textColor === "dark") return "text-dark";
+            return ""; // auto - inherit from parent
         },
         quoteTextClass() {
-            const baseClass = this.compact ? 'testimonial-quote-compact' : 'testimonial-quote';
-            if (this.textColor === 'white') return `${baseClass} text-white`;
-            if (this.textColor === 'dark') return `${baseClass} text-dark`;
-            return baseClass;
+            const classes = ["quote-text"];
+            if (this.textColor === "white") classes.push("text-white");
+            if (this.textColor === "dark") classes.push("text-dark");
+            return classes.join(" ");
         },
         attributionTextClass() {
-            if (this.textColor === 'white') return 'text-white-50';
-            if (this.textColor === 'dark') return 'text-muted';
-            return 'text-muted';
+            if (this.textColor === "white") return "text-white-50";
+            if (this.textColor === "dark") return "text-muted";
+            return "text-muted";
         },
     },
     methods: {
         nextTestimonial() {
-            if (this.testimonials && this.testimonials.length > 0) {
-                this.currentIndex = (this.currentIndex + 1) % this.testimonials.length;
+            if (!this.hasValidTestimonials) return;
+            this.currentIndex = (this.currentIndex + 1) % this.testimonials.length;
+        },
+        previousTestimonial() {
+            if (!this.hasValidTestimonials) return;
+            this.currentIndex = this.currentIndex === 0 ? this.testimonials.length - 1 : this.currentIndex - 1;
+        },
+        goToTestimonial(index) {
+            if (index >= 0 && index < this.testimonials.length) {
+                this.currentIndex = index;
             }
         },
+        pauseRotation() {
+            this.isPaused = true;
+            this.stopRotation();
+        },
+        resumeRotation() {
+            this.isPaused = false;
+            this.startRotation();
+        },
         startRotation() {
-            if (this.autoRotate && this.testimonials && this.testimonials.length > 1) {
+            if (this.autoRotate && !this.isPaused && this.hasValidTestimonials && this.testimonials.length > 1) {
                 this.intervalId = setInterval(this.nextTestimonial, this.rotationInterval);
             }
         },
@@ -84,24 +172,28 @@ export default {
                 this.intervalId = null;
             }
         },
-        randomizeStart() {
-            if (this.testimonials && this.testimonials.length > 0) {
-                this.currentIndex = Math.floor(Math.random() * this.testimonials.length);
+        validateCurrentIndex() {
+            if (this.hasValidTestimonials && this.currentIndex >= this.testimonials.length) {
+                this.currentIndex = 0;
             }
         },
     },
     mounted() {
-        this.randomizeStart();
         this.startRotation();
     },
     beforeDestroy() {
         this.stopRotation();
     },
     watch: {
-        testimonials() {
-            this.randomizeStart();
-            this.stopRotation();
-            this.startRotation();
+        testimonials: {
+            handler() {
+                this.validateCurrentIndex();
+                this.stopRotation();
+                if (this.hasValidTestimonials) {
+                    this.startRotation();
+                }
+            },
+            immediate: true,
         },
     },
 };
@@ -111,35 +203,153 @@ export default {
 @import "~/assets/styles.scss";
 
 .testimonial-widget {
-    transition: opacity 0.3s ease-in-out;
+    position: relative;
+    min-height: 120px; // Prevent layout shift
+
+    &.compact {
+        min-height: 100px;
+
+        .quote-text {
+            font-size: 0.95rem;
+        }
+
+        .blockquote-footer {
+            font-size: 0.8rem;
+        }
+
+    }
+
+    &.has-controls {
+        padding-top: 40px; // Space for controls
+    }
+}
+
+// Testimonial Controls
+.testimonial-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    .testimonial-widget:hover & {
+        opacity: 1;
+    }
+}
+
+.control-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: inherit;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover:not(:disabled) {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+    }
+
+    &:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+    }
+}
+
+.testimonial-indicators {
+    display: flex;
+    gap: 8px;
+
+    .indicator {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.2s ease;
+
+        &.active {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.6);
+        }
+    }
+}
+
+// Testimonial Content
+.testimonial-content {
+    position: relative;
 }
 
 .blockquote {
     border-left: none;
+    margin: 0;
 }
 
-.testimonial-quote {
+
+.quote-text {
     font-style: italic;
     font-size: 1.1rem;
-}
-
-.testimonial-quote-compact {
-    font-style: italic;
-    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
 }
 
 .blockquote-footer {
     font-size: 0.9rem;
+    opacity: 0.8;
 }
 
-// Compact mode for smaller spaces
-.testimonial-widget.compact {
-    .blockquote {
-        font-size: 0.9rem;
+// Smooth Transitions
+.fade-enter-active,
+.fade-leave-active {
+    transition: all 0.4s ease;
+}
+
+.fade-enter-from {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.fade-leave-to {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.fade-enter-to,
+.fade-leave-from {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+    .testimonial-widget.has-controls {
+        padding-top: 35px;
     }
 
-    .blockquote-footer {
-        font-size: 0.8rem;
+    .control-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .quote-text {
+        font-size: 1rem;
     }
 }
 </style>

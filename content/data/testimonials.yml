@@ -1,32 +1,32 @@
 heading: "What Galaxy Users Say"
 
 testimonials:
-    - quote: "I went from zero bioinformatics experience to publishing papers in 18 months. Galaxy made the impossible possible."
+    - quote: "Went from zero bioinformatics experience to publishing my first paper in 18 months. Galaxy made it possible."
       attribution: "Marine Biology Researcher"
 
-    - quote: "My undergrads can now run the same analyses that took my PhD students weeks to set up. That's the power of Galaxy."
+    - quote: "My undergrads can now run the same analyses that took my PhD students weeks to set up. That's Galaxy for you."
       attribution: "Bioinformatics Professor"
 
-    - quote: "We've been using the same Galaxy workflow for three years across four different projects. Talk about reproducible science."
+    - quote: "Same Galaxy workflow, three years running across four different projects. Now that's reproducible science."
       attribution: "Genomics Lab"
 
-    - quote: "No more 'works on my machine' problems. Galaxy workflows just work, everywhere, every time."
+    - quote: "No more 'it works on my machine' headaches. Galaxy workflows just work, period."
       attribution: "Computational Biology Student"
 
     - quote: "Our wet lab researchers are now doing their own RNA-seq analysis. Galaxy removed the computational bottleneck."
       attribution: "Research Institute Director"
 
-    - quote: "The data visualization in Galaxy helped us spot a pattern we'd missed for months in traditional analysis."
+    - quote: "Galaxy's visualizations helped us catch a pattern we'd been missing for months. Sometimes you need a fresh perspective."
       attribution: "Cancer Research Team"
 
-    - quote: "When our local cluster went down, we moved everything to Galaxy public servers in an afternoon. Lifesaver."
+    - quote: "Local cluster died on a Friday. Had everything running on Galaxy public servers by Monday morning. Crisis averted."
       attribution: "Small University Lab"
 
-    - quote: "I teach Galaxy to 200+ students each semester. The learning curve is practically flat compared to command line tools."
+    - quote: "Teaching Galaxy to 200+ students each semester. The learning curve is nothing compared to command line nightmares."
       attribution: "Bioinformatics Instructor"
 
-    - quote: "Galaxy turned our messy collection of scripts into clean, documented workflows that anyone can understand."
+    - quote: "Turned our frankenstein collection of scripts into actual workflows that make sense. Even the new postdocs get it."
       attribution: "Pharmaceutical Researcher"
 
-    - quote: "Best research decision we made was switching to Galaxy. The community support alone is worth it."
+    - quote: "Best decision we've made in years. Galaxy community support beats any commercial vendor hands down."
       attribution: "Ecology Research Group"
