@@ -11,7 +11,15 @@ body:
     attributes:
       value: |
         Thanks for your interest in joining the **usegalaxy.\*** federation!  
-        Please complete all required fields. This form reflects the discussion in PR #3283 and subsequent criteria updates (e.g., anonymous access policy, uptime/metrics, CVMFS, CoC, etc.).
+        Please complete all required fields.
+
+  - type: input
+    id: region_country
+    attributes:
+      label: Region / Country
+      placeholder: "e.g., Belgium (EU)"
+    validations:
+      required: true
 
   - type: input
     id: instance_url
@@ -179,20 +187,14 @@ body:
           required: true
         - label: "We will contribute back knowledge/issues/PRs where feasible."
           required: true
+    validations:
+      required: true
 
   - type: input
     id: coc_link
     attributes:
       label: Code of Conduct URL
       placeholder: "Link to your CoC or the federation CoC"
-    validations:
-      required: true
-
-  - type: input
-    id: region_country
-    attributes:
-      label: Region / Country
-      placeholder: "e.g., Belgium (EU)"
     validations:
       required: true
 
