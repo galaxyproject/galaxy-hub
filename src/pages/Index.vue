@@ -183,7 +183,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2 class="mb-4 text-white">{{ this.$static.datasetTestimonials.heading }}</h2>
-                        <div class="area testimonials p-4">
+                        <div class="testimonials-container">
                             <Testimonials :testimonials="this.$static.datasetTestimonials.testimonials" />
                         </div>
                     </div>
@@ -366,6 +366,17 @@ export default {
     },
 };
 </script>
+
+<style lang="scss" scoped>
+@import "~/assets/styles.scss";
+
+.testimonials-container {
+    background: linear-gradient(155deg, #1d4068 44%, #2d629f);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 <page-query>
 query {
