@@ -182,12 +182,8 @@
             <div class="container p-4">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h2 class="mb-4 text-white">{{ this.$static.datasetTestimonials.heading }}</h2>
                         <div class="testimonials-container">
-                            <Testimonials
-                                :testimonials="this.$static.datasetTestimonials.testimonials"
-                                :showControls="true"
-                            />
+                            <Testimonials :showControls="true" :showHeading="true" />
                         </div>
                     </div>
                 </div>
@@ -477,12 +473,5 @@ query {
         }
     }
 
-    datasetTestimonials: dataset(path: "/dataset:/data/testimonials/") {
-        heading,
-        testimonials {
-            quote,
-            attribution
-        }
-    }
 }
 </static-query>

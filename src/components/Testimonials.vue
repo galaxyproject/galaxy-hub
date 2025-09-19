@@ -5,20 +5,23 @@
         @mouseenter="pauseRotation"
         @mouseleave="resumeRotation"
     >
+        <!-- Optional Heading -->
+        <h2 v-if="showHeading" class="testimonial-heading mb-4">{{ heading }}</h2>
+
         <!-- Navigation Controls -->
         <div v-if="showControls" class="testimonial-controls">
             <button
                 @click="previousTestimonial"
                 class="control-btn control-prev"
                 aria-label="Previous testimonial"
-                :disabled="testimonials.length <= 1"
+                :disabled="allTestimonials.length <= 1"
             >
                 ‹
             </button>
 
             <div class="testimonial-indicators">
                 <button
-                    v-for="(testimonial, index) in testimonials"
+                    v-for="(testimonial, index) in allTestimonials"
                     :key="index"
                     @click="goToTestimonial(index)"
                     class="indicator"
@@ -31,7 +34,7 @@
                 @click="nextTestimonial"
                 class="control-btn control-next"
                 aria-label="Next testimonial"
-                :disabled="testimonials.length <= 1"
+                :disabled="allTestimonials.length <= 1"
             >
                 ›
             </button>
@@ -60,7 +63,8 @@ export default {
     props: {
         testimonials: {
             type: Array,
-            required: true,
+            required: false,
+            default: null,
         },
         autoRotate: {
             type: Boolean,
@@ -86,6 +90,10 @@ export default {
             type: Boolean,
             default: false,
         },
+        showHeading: {
+            type: Boolean,
+            default: false,
+        },
     },
     data() {
         return {
@@ -95,11 +103,18 @@ export default {
         };
     },
     computed: {
+        allTestimonials() {
+            // Use provided testimonials prop, or fall back to GraphQL data
+            return this.testimonials || (this.$static.datasetTestimonials && this.$static.datasetTestimonials.testimonials) || [];
+        },
+        heading() {
+            return this.$static.datasetTestimonials && this.$static.datasetTestimonials.heading || "Testimonials";
+        },
         currentTestimonial() {
-            if (this.testimonials && this.testimonials.length > 0) {
+            if (this.allTestimonials && this.allTestimonials.length > 0) {
                 // Ensure currentIndex is within bounds
-                const safeIndex = Math.min(this.currentIndex, this.testimonials.length - 1);
-                const testimonial = this.testimonials[safeIndex];
+                const safeIndex = Math.min(this.currentIndex, this.allTestimonials.length - 1);
+                const testimonial = this.allTestimonials[safeIndex];
 
                 // Validate testimonial structure
                 if (testimonial && typeof testimonial === "object") {
@@ -116,10 +131,10 @@ export default {
         },
         hasValidTestimonials() {
             return (
-                this.testimonials &&
-                Array.isArray(this.testimonials) &&
-                this.testimonials.length > 0 &&
-                this.testimonials.some((t) => t && t.quote)
+                this.allTestimonials &&
+                Array.isArray(this.allTestimonials) &&
+                this.allTestimonials.length > 0 &&
+                this.allTestimonials.some((t) => t && t.quote)
             );
         },
         textColorClass() {
@@ -142,14 +157,14 @@ export default {
     methods: {
         nextTestimonial() {
             if (!this.hasValidTestimonials) return;
-            this.currentIndex = (this.currentIndex + 1) % this.testimonials.length;
+            this.currentIndex = (this.currentIndex + 1) % this.allTestimonials.length;
         },
         previousTestimonial() {
             if (!this.hasValidTestimonials) return;
-            this.currentIndex = this.currentIndex === 0 ? this.testimonials.length - 1 : this.currentIndex - 1;
+            this.currentIndex = this.currentIndex === 0 ? this.allTestimonials.length - 1 : this.currentIndex - 1;
         },
         goToTestimonial(index) {
-            if (index >= 0 && index < this.testimonials.length) {
+            if (index >= 0 && index < this.allTestimonials.length) {
                 this.currentIndex = index;
             }
         },
@@ -162,7 +177,7 @@ export default {
             this.startRotation();
         },
         startRotation() {
-            if (this.autoRotate && !this.isPaused && this.hasValidTestimonials && this.testimonials.length > 1) {
+            if (this.autoRotate && !this.isPaused && this.hasValidTestimonials && this.allTestimonials.length > 1) {
                 this.intervalId = setInterval(this.nextTestimonial, this.rotationInterval);
             }
         },
@@ -173,7 +188,7 @@ export default {
             }
         },
         validateCurrentIndex() {
-            if (this.hasValidTestimonials && this.currentIndex >= this.testimonials.length) {
+            if (this.hasValidTestimonials && this.currentIndex >= this.allTestimonials.length) {
                 this.currentIndex = 0;
             }
         },
@@ -185,7 +200,7 @@ export default {
         this.stopRotation();
     },
     watch: {
-        testimonials: {
+        allTestimonials: {
             handler() {
                 this.validateCurrentIndex();
                 this.stopRotation();
@@ -199,12 +214,29 @@ export default {
 };
 </script>
 
+<static-query>
+query {
+    datasetTestimonials: dataset(path: "/dataset:/data/testimonials/") {
+        heading,
+        testimonials {
+            quote,
+            attribution
+        }
+    }
+}
+</static-query>
+
 <style lang="scss" scoped>
 @import "~/assets/styles.scss";
 
 .testimonial-widget {
     position: relative;
     min-height: 120px; // Prevent layout shift
+
+    .testimonial-heading {
+        color: inherit;
+        text-align: center;
+    }
 
     &.compact {
         min-height: 100px;
