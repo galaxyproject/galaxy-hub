@@ -105,10 +105,14 @@ export default {
     computed: {
         allTestimonials() {
             // Use provided testimonials prop, or fall back to GraphQL data
-            return this.testimonials || (this.$static.datasetTestimonials && this.$static.datasetTestimonials.testimonials) || [];
+            return (
+                this.testimonials ||
+                (this.$static.datasetTestimonials && this.$static.datasetTestimonials.testimonials) ||
+                []
+            );
         },
         heading() {
-            return this.$static.datasetTestimonials && this.$static.datasetTestimonials.heading || "Testimonials";
+            return (this.$static.datasetTestimonials && this.$static.datasetTestimonials.heading) || "Testimonials";
         },
         currentTestimonial() {
             if (this.allTestimonials && this.allTestimonials.length > 0) {
@@ -248,7 +252,6 @@ query {
         .blockquote-footer {
             font-size: 0.8rem;
         }
-
     }
 
     &.has-controls {
@@ -332,7 +335,6 @@ query {
     border-left: none;
     margin: 0;
 }
-
 
 .quote-text {
     font-style: italic;
