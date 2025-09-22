@@ -1,7 +1,7 @@
 ---
 title: From data to discovery - Galaxy workshop at University of Graz
 date: '2025-09-22'
-days: 5
+days: 3
 tease: "This course introduces scientists to the data analysis platform Galaxy. The course is an intermediate course; there is no requirement of any programming skills."
 continent: EU
 location:
@@ -34,6 +34,14 @@ subsites: [all]
 
 **Training material:**
 For the hands-on course, we will use the [training material](https://training.galaxyproject.org) from the Galaxy Training Network.
+
+# Preliminary schedule
+
+| Day | Start | End | Session |
+|---|---|---|---|
+| September 24th | 10:00am  | 5pm  | Welcome - Galaxy introduction - Quality control |
+| September 25th | 9:00am  | 5pm |  Transcriptomics |
+| September 26th | 9:00am  | 5pm  | Proteomics and Metabolomics |
 
 # Registration
 
