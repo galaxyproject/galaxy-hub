@@ -18,7 +18,7 @@ subsites: [all]
 
 - **Date**: September 24-26, 2025
 - **Format**: on-site
-- **Location**: university of Graz, Graz, Austira
+- **Location**: University of Graz, Graz, Austria
 - **Time**: 9:15am-5pm CEST
 - **Cost**: Free
 - **Contact**: Amirhossein Nilchi ([nilchia@informatik.uni-freiburg.de](mailto:nilchia@informatik.uni-freiburg.de))
