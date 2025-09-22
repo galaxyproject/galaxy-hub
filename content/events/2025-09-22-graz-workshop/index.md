@@ -51,4 +51,6 @@ If you have further questions, please contact Amirhossein Nilchi ([nilchia@infor
 
 # Supporters
 
-This event is generously supported by [University of Graz](https://www.uni-graz.at/en/)
+This event is generously supported by [University of Graz](https://www.uni-graz.at/en/), [Ministry of Science, Research and Arts](https://mwk.baden-wuerttemberg.de/en/home) and [de.NBI](https://www.denbi.de/).
+
+
