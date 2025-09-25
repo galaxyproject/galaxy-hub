@@ -24,7 +24,7 @@ Whether you are analysing microbiome samples or bacterial isolates, long reads o
   width="100%"
   height="600"
   frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_codex/microgalaxy/">
+  src="https://galaxyproject.github.io/galaxy_codex/communities/microgalaxy/resources/">
 </iframe>
 
 If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia,
