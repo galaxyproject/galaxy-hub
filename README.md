@@ -1,4 +1,4 @@
-# Galaxy Community Hub 
+# Galaxy Community Hub
 
 The [Galaxy Community Hub](https://galaxyproject.org) ↗️ is the community and documentation website for the [Galaxy Project](https://galaxyproject.org/use/)↗️. The Hub is maintained by the community through this GitHub repository. To update the Hub, (1) visit the [Hub "About" page](https://galaxyproject.org/hub/)↗️ and (2) view the links in this `README.md` file [Table of Contents](#table-of-contents).
 
