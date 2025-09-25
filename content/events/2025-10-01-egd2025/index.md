@@ -218,7 +218,7 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>11:55–12:15</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Small Scale Admins (Special Interest Group)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:15–12:35</td><td>Marisa Loach</td><td><span class="event-egd">The Single Cell and Spatial Omics Community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:35–12:45</td><td>Solenne Correard</td><td><span class="event-egd">The Biodiversity Galaxy Lab: A Collaborative Hub with curated tools, workflows and training for FAIR and Reproducible biodiversity analysis</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>12:45–13:00</td><td>Jérôme Detoc</td><td><span class="event-egd">study of marine data in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:45–13:00</td><td>Jérôme Detoc</td><td><span class="event-egd">Study of marine data in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
         <tr><td>14:00–14:15</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>14:15–14:30</td><td>Maria Chavero-Diez<br><em>(Online Presentation)</em></td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
