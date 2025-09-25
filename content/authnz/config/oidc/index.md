@@ -43,22 +43,26 @@ the following steps:
 1. In your Galaxy home directory, go to the `config` folder and create a copy
 of `galaxy.yml.sample` and name it `galaxy.yml` if you have not done that yet.
 
-2. Open the `config/galaxy.yml` file, and uncomment `enable_oidc`,
-   `oidc_config_file`, and `oidc_backends_config_file` attributes and set them
-   as follows:
+2. Open the `galaxy.yml` file and uncomment `enable_oidc`, `oidc_config_file`,
+and `oidc_backends_config_file` attributes and set them
+   as follows (you may adjust the file names as needed):
 
     ```
     # Enables and disables OpenID Connect (OIDC) support.
     enable_oidc: true
-
+  
     # Sets the path to OIDC configuration file.
-    oidc_config_file: config/oidc_config.xml
-
+    # The value of this option will be resolved with respect to
+    # <config_dir>.
+    oidc_config_file: oidc_config.xml
+  
     # Sets the path to OIDC backends configuration file.
-    oidc_backends_config_file: config/oidc_backends_config.xml
+    # The value of this option will be resolved with respect to
+    # <config_dir>.
+    oidc_backends_config_file: oidc_backends_config.xml
     ```
 
-3. Create the `config/oidc_config.xml` and `config/oidc_backends_config.xml`
+3. Create the `oidc_config.xml` and `oidc_backends_config.xml`
    files by copying their `.sample` files. The following sections describe the
    attributes of those files while the IdP-specific pages listed above provide
    details on setting up the specific provider. Make sure to refer to the
@@ -69,7 +73,7 @@ of `galaxy.yml.sample` and name it `galaxy.yml` if you have not done that yet.
 # Global OIDC Configuration
 
 Some configurations are common between all the IdPs. These configurations are
-set in the `config/oidc_config.xml` file. Currently, the following properties
+set in the `oidc_config.xml` file. Currently, the following properties
 are set via this file:
 
 - **Verify SSL**: sets whether the hosts SSL certificates for HTTPS requests
@@ -123,7 +127,7 @@ The following is an example on how to setup this file:
 # OIDC configuration options for Identity Providers
 
 Which OIDC IdPs are enabled and configured is defined in the
-`config/oidc_backends_config.xml` file. Each `provider` block enables and
+`oidc_backends_config.xml` file. Each `provider` block enables and
 defines an IdP. There could be multiple providers defined in this file and each
 provider needs to be configured with settings specific to that IdP. Note that you may
 define multiple **different** IdPs, but you cannot define multiple instances of
