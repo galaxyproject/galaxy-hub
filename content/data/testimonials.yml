@@ -49,7 +49,7 @@ testimonials:
     attribution: "anonymous"
     originalQuote: "Previously, I relied on a company service for the bioinformatic analysis of RNA-seq data. While this approach provided results, it was expensive, inflexible, and offered limited control over the type of analysis performed or the ability to explore and interpret the data ourselves. I began using Galaxy relatively recently after discovering the training opportunities available through the community. Following the training, I was able to analyze my data independently, and I hope to publish the results obtained using Galaxy in the near future. Without the training provided by the community and the accessibility of tools on the Galaxy server, we would still be spending valuable resources on outsourced services, resources that could be better invested in our research."
 
-  - quote: "Our lab can't afford to purchase and maintain a server, and we rely on Galaxy to rund jobs too big for our personal computers. Also use Galaxy to train students, postdocs in bioinformatics. Use workflows to save time and ensure reproducibility and sharability of analyses. "
+  - quote: "Our lab can't afford to purchase and maintain a server, and we rely on Galaxy to [run] jobs too big for our personal computers. Also use Galaxy to train students, postdocs in bioinformatics. Use workflows to save time and ensure reproducibility and sharability of analyses. "
     attribution: "Andrew G"
     originalQuote: "Our lab can't afford to purchase and maintain a server, and we rely on Galaxy to rund jobs too big for our personal computers. Also use Galaxy to train students, postdocs in bioinformatics. Use workflows to save time and ensure reproducibility and sharability of analyses. "
 
