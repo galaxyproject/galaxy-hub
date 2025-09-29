@@ -1,6 +1,8 @@
 
 # September 2025 Galaxy Newsletter
-![GalaxyNews](GalaxyNews.png)
+<p align="center">
+  <img src="GalaxyNews.png" alt="Galaxy News Logo" width="600"/>
+</p>
 
 Hello Galaxy Community,
 
@@ -13,7 +15,7 @@ We’re diving into fall with a newsletter packed full of events, breakthroughs,
 We’re pleased to share that European Galaxy Days (EGD) 2025 will take place from October 1 to 3, 2025, in Freiburg im Breisgau, Germany. This gathering is for everyone in the Galaxy community (users, developers, admins, etc.), anyone interested in where Galaxy is and where it’s going\!
 
 <p align="center">
-  <img src="EGD2025.png" alt="DGBCC2025 Logo" width="500"/>
+  <img src="EGD2025.png" alt="EGDC2025 Logo" width="500"/>
 </p>
 
 **What to expect**
@@ -87,7 +89,7 @@ This paper introduces Galaxy @ Sciensano, a highly tailored Galaxy instance buil
 *Comparative mitogenomics of the eulipotyphlan species (Mammalia, Eulipotyphla) provides novel insights into the molecular evolution of hibernation (Chen, Yang, and Chai, 2025\)*
 
 <p align="center">
-  <img src="Paper1.jpg" alt="DGBCC2025 Logo" width="500"/>
+  <img src="Paper1.jpg" width="500"/>
 </p>
 
 This study compared mitochondrial genomes across hedgehogs, shrews, and moles to investigate how mitochondrial gene evolution relates to hibernation. The authors examined sequence variation, annotated mitochondrial genes, constructed phylogenies, and tested for adaptive evolution, uncovering evidence that shifts in energy-metabolism genes may underlie hibernation strategies. They used the MITOS tool on the Galaxy platform to annotate mitochondrial genes, ensuring consistent, reproducible analysis across species and making their comparative pipeline transparent and shareable, a strong example of Galaxy enabling high-quality evolutionary genomics research.
