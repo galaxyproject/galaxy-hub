@@ -24,21 +24,9 @@ We are holding **3 events** in the same week:
 - The **EuroScienceGateway** Final Conference,
 - The **European Galaxy Days (EGD)** meeting.
 
-<figure class="figure">
-  <g-image src="./logo_egd_2025.png" class="figure-img img-fluid rounded" />
-</figure>
+# Updates
 
-# Contributing
-
-Galaxy is powered by the people who use, develop, and administrate it, regardless of their community. We invite you to contribute and enrich our meeting through different activities such as talks, demos, posters, and Birds-of-a-feather meetings (BoFs). If you have something to share or talk about, we give you a slot in the schedule.
-
-# Registration
-
-Registration is free. We recommend to register as soon as possible to secure your spot for different events as well as helping us to organize the event better.
-
-<div class="row justify-content-center">
-  <a class="btn w-25 btn-dark" href="https://docs.google.com/forms/d/19pQ3c906y1GxvtzEmsEXcXSk31x-5HQje5WlnlRdCOI/" role="button" target="_blank">Register now</a>
-</div>
+- The talks of this event will be streamed using [this Zoom link](https://uni-freiburg.zoom-x.de/j/62026241585?pwd=8O0apbtJnQkhtwmMB2QKap5cNsZOWh.1).
 
 # Schedule
 
@@ -421,6 +409,10 @@ If you want to present, help, have suggestions or questions, please get in touch
 Armin Dadras (dadras@informatik.uni-freiburg.de)<br>
 Hans-Rudolf Hotz (hrhotz@googlemail.com)<br>
 Björn Grüning (bjoern.gruening@gmail.com)<br>
+
+<figure class="figure">
+  <g-image src="./logo_egd_2025.png" class="figure-img img-fluid rounded" />
+</figure>
 
 # Funding
 
