@@ -214,8 +214,8 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>11:10–11:25</td><td>Mina Hojat Ansari</td><td><span class="event-egd">FAIRYMAGS: A Galaxy Workflow for MAG Recovery Applied to Termite Microbiomes</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:25–11:35</td><td>Leandro Liborio</td><td><span class="event-egd">Managing materials science workflows with Galaxy at STFC</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:35–11:45</td><td>Titusz Pan</td><td><span class="event-egd">The ISCC Discovery Protocol: Decentralized signing, timestamping, and discovery for the International Standard Content Code (ISCC)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>11:45–11:55</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Switzerland (Special Interest Group)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>11:55–12:15</td><td>Lucille Delisle<br>Hans-Rudolf Hotz</td><td><span class="event-egd">Small Scale Admins (Special Interest Group)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:45–11:55</td><td>Hans-Rudolf Hotz</td><td><span class="event-egd">Switzerland (Special Interest Group)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>11:55–12:15</td><td>Hans-Rudolf Hotz</td><td><span class="event-egd">Small Scale Admins (Special Interest Group)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:15–12:35</td><td>Marisa Loach</td><td><span class="event-egd">The Single Cell and Spatial Omics Community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:35–12:45</td><td>Solenne Correard</td><td><span class="event-egd">The Biodiversity Galaxy Lab: A Collaborative Hub with curated tools, workflows and training for FAIR and Reproducible biodiversity analysis</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:45–13:00</td><td>Jérôme Detoc</td><td><span class="event-egd">Study of marine data in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
