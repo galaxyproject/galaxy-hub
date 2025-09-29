@@ -1,6 +1,6 @@
 
 # September 2025 Galaxy Newsletter
-
+![GalaxyNews](GalaxyNews.png)
 
 Hello Galaxy Community,
 
@@ -11,6 +11,10 @@ We’re diving into fall with a newsletter packed full of events, breakthroughs,
 ## **European Galaxy Days (Oct 1–3, 2025, Freiburg, Germany)**  
 
 We’re pleased to share that European Galaxy Days (EGD) 2025 will take place from October 1 to 3, 2025, in Freiburg im Breisgau, Germany. This gathering is for everyone in the Galaxy community (users, developers, admins, etc.), anyone interested in where Galaxy is and where it’s going\!
+
+<p align="center">
+  <img src="EGD2025.png" alt="DGBCC2025 Logo" width="500"/>
+</p>
 
 **What to expect**
 
@@ -32,7 +36,7 @@ Joining EGD is a chance to:
 * **Registration:** Free. We encourage you to register early to secure your spot and help the organisers plan effectively.   
 * **Travel & Local Access:** Freiburg is well connected by train (including via Frankfurt, Karlsruhe, Basel), and local transport options (tram, buses) are convenient for reaching the venue.
 
-[Learn more about the event and register now\!](https://galaxyproject.org/events/2025-10-01-egd2025/)
+[Learn more about the event!](https://galaxyproject.org/events/2025-10-01-egd2025/)
 
 ---
 
@@ -82,6 +86,10 @@ This paper introduces Galaxy @ Sciensano, a highly tailored Galaxy instance buil
 
 *Comparative mitogenomics of the eulipotyphlan species (Mammalia, Eulipotyphla) provides novel insights into the molecular evolution of hibernation (Chen, Yang, and Chai, 2025\)*
 
+<p align="center">
+  <img src="Paper1.jpg" alt="DGBCC2025 Logo" width="500"/>
+</p>
+
 This study compared mitochondrial genomes across hedgehogs, shrews, and moles to investigate how mitochondrial gene evolution relates to hibernation. The authors examined sequence variation, annotated mitochondrial genes, constructed phylogenies, and tested for adaptive evolution, uncovering evidence that shifts in energy-metabolism genes may underlie hibernation strategies. They used the MITOS tool on the Galaxy platform to annotate mitochondrial genes, ensuring consistent, reproducible analysis across species and making their comparative pipeline transparent and shareable, a strong example of Galaxy enabling high-quality evolutionary genomics research.
 
 [Read the full paper.](https://www.tandfonline.com/doi/full/10.1080/24701394.2025.2558619)
@@ -122,20 +130,20 @@ Want to make your research data well-organized, shareable, and reusable? This le
 
 | Date | Event | Venue / Location |
 | ----- | ----- | ----- |
-| 30 September 2025 | [Vertebrate Genomes Project (VGP) In-Person Conference](https://galaxyproject.org/events/2025-09-30-vpg-in-person/) | New York, NY, USA  |
+| 30 September 2025 | [Vertebrate Genomes Project (VGP) In-Person Conference](https://galaxyproject.org/events/2025-09-30-vgp-conference/) | New York, NY, USA  |
 | 1 October 2025 | [European Galaxy Days (EGD)](https://galaxyproject.org/events/2025-10-01-egd2025/) | Freiburg, Germany  |
-| 6 October 2025 | [FAIRyMAGs Hybrid Hackathon 2025: Optimising Metagenomics Assembled Genomes building](https://galaxyproject.org/events/2025-10-06-fairymags-hackathon/) | Freiburg, Germany  |
-| 7 October 2025 | [Single-cell & sPatial Omics Community Meeting: SPOC](https://galaxyproject.org/events/2025-10-07-spoc/) | Online, Global  |
-| 14 October 2025 | [ASHG 2025 Annual Meeting](https://galaxyproject.org/events/2025-10-14-ashg2025/) | Boston, MA, USA  |
-| 28 October 2025 | [Science Gateways 2025](https://galaxyproject.org/events/2025-10-28-science-gateways-2025/) | Green Bay, WI, USA |
-| 4 November 2025 | [Single-cell & sPatial Omics Community Meeting: SPOC](https://galaxyproject.org/events/2025-11-04-spoc/) | Online, Global  |
-| 5 November 2025 | [Genome Informatics (CSHL Genome Informatics Conference)](https://galaxyproject.org/events/2025-11-05-genome-informatics/) | Cold Spring Harbor, NY, USA  |
-| 13 November 2025 | [Galaxy Community Board Meeting: GCB](https://galaxyproject.org/events/2025-11-13-galaxy-community-board/) | Online, Global |
+| 6 October 2025 | [FAIRyMAGs Hybrid Hackathon 2025: Optimising Metagenomics Assembled Genomes building](https://galaxyproject.org/events/2025-10-06-fairy-ma-gs-hackathon/) | Freiburg, Germany  |
+| 7 October 2025 | [Single-cell & sPatial Omics Community Meeting: SPOC](https://galaxyproject.org/events/2025-10-07-spoc-meet/) | Online, Global  |
+| 14 October 2025 | [ASHG 2025 Annual Meeting](https://meetings.ashg.org/event/ASHG25/home/) | Boston, MA, USA  |
+| 28 October 2025 | [Science Gateways 2025](https://sciencegateways.org/gateways2025) | Green Bay, WI, USA |
+| 4 November 2025 | [Single-cell & sPatial Omics Community Meeting: SPOC](https://galaxyproject.org/events/2025-11-04-spoc-meet/) | Online, Global  |
+| 5 November 2025 | [Genome Informatics (CSHL Genome Informatics Conference)](https://meetings.cshl.edu/meetings.aspx?meet=INFO) | Cold Spring Harbor, NY, USA  |
+| 13 November 2025 | [Galaxy Community Board Meeting: GCB](https://galaxyproject.org/events/2025-11-13-gcb-meet/) | Online, Global |
 | 24 November 2025 | [2025 Galaxy Admin Training](https://galaxyproject.org/events/2025-admin-training-brno/) | Brno, Czechia |
-| 3 December 2025 | [Introduction to Galaxy, the Open-Source Platform for FAIR Data Analysis (in German)](https://galaxyproject.org/events/2025-12-03-introduction-galaxy-german/) | Online  |
-| 4 December 2025 | [Single-cell & sPatial Omics Community Meeting: SPOC](https://galaxyproject.org/events/2025-12-04-spoc/) | Online, Global |
-| 9 January 2026 | [PAG 33 Plant and Animal Genome Conference](https://galaxyproject.org/events/2026-01-09-pag33/) | San Diego, CA, USA |
-| 11 October 2026 | [ASM Conference on Rapid Applied Microbial NGS and Bioinformatic Pipelines](https://galaxyproject.org/events/2026-10-11-asm-ngs-conference/) | Washington, DC, USA |
+| 3 December 2025 | [Introduction to Galaxy, the Open-Source Platform for FAIR Data Analysis (in German)](https://dataschool.hefdi.de/module/galaxy-europe/) | Online  |
+| 4 December 2025 | [Single-cell & sPatial Omics Community Meeting: SPOC](https://galaxyproject.org/events/2025-12-04-spoc-meet/) | Online, Global |
+| 9 January 2026 | [PAG 33 Plant and Animal Genome Conference](https://intlpag.org/PAG33/) | San Diego, CA, USA |
+| 11 October 2026 | [ASM Conference on Rapid Applied Microbial NGS and Bioinformatic Pipelines](https://asm.org/events/asm-big/home) | Washington, DC, USA |
 
 ---
 
