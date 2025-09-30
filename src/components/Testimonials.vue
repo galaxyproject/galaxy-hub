@@ -8,28 +8,6 @@
         <!-- Optional Heading -->
         <h2 v-if="showHeading" class="testimonial-heading mb-4">{{ heading }}</h2>
 
-        <!-- Navigation Controls -->
-        <div v-if="showControls" class="testimonial-controls">
-            <button
-                @click="previousTestimonial"
-                class="control-btn control-prev"
-                aria-label="Previous testimonial"
-                :disabled="allTestimonials.length <= 1"
-            >
-                ‹
-            </button>
-
-
-            <button
-                @click="nextTestimonial"
-                class="control-btn control-next"
-                aria-label="Next testimonial"
-                :disabled="allTestimonials.length <= 1"
-            >
-                ›
-            </button>
-        </div>
-
         <!-- Testimonial Content -->
         <div class="testimonial-content" role="region" aria-live="polite" aria-label="User testimonials">
             <transition name="fade" mode="out-in">
@@ -253,50 +231,6 @@ query {
     }
 }
 
-// Testimonial Controls
-.testimonial-controls {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-
-    .testimonial-widget:hover & {
-        opacity: 1;
-    }
-}
-
-.control-btn {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: inherit;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s ease;
-
-    &:hover:not(:disabled) {
-        background: rgba(255, 255, 255, 0.2);
-        transform: scale(1.1);
-    }
-
-    &:disabled {
-        opacity: 0.3;
-        cursor: not-allowed;
-    }
-}
-
 
 // Testimonial Content
 .testimonial-content {
@@ -344,16 +278,6 @@ query {
 
 // Mobile responsive
 @media (max-width: 768px) {
-    .testimonial-widget.has-controls {
-        padding-top: 35px;
-    }
-
-    .control-btn {
-        width: 28px;
-        height: 28px;
-        font-size: 16px;
-    }
-
     .quote-text {
         font-size: 1rem;
     }
