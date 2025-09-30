@@ -16,6 +16,11 @@ subsites: [all, eu, esg]
 tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 ---
 
+_We will try to keep the schedule as up-to-date as possible - though expect any short term changes and adjustments!_
+
+For anouncements please follow [usegalaxy-eu/announce](https://app.element.io/#/room/!ArjKhGljVCmzqxhauY:matrix.org)<br>
+For social interaction please use [usegalaxy-eu/Lobby](https://app.element.io/#/room/#usegalaxy-eu_Lobby:gitter.im)
+
 The **European Galaxy Days** will be held from the **1st to 3rd of October 2025** in Freiburg im Breisgau, Germany. This 3-day meeting will be similar to the events we held in [2023](https://galaxyproject.org/events/2023-10-egd/),  [2022](https://galaxyproject.org/events/2022-10-egd/), [2018](https://galaxyproject.org/events/2018-europe-dev/), [2016](https://galaxyproject.org//events/sg2016/), [2014](https://galaxyproject.org//events/sg2014/), and [2012](https://galaxyproject.org//events/switzerland2012/). The first two days will give an overview of the current state of the Galaxy framework and community with several talks, demonstrations, and Birds of a Feather sessions. As part of a CoFest, the third day offer the opportunity to continue the discussions, to code and hack as well as enjoy the Galaxy community.
 
 We are holding **3 events** in the same week:
