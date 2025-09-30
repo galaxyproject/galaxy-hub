@@ -2,349 +2,465 @@ heading: "What Galaxy Users Say"
 
 testimonials:
   - quote: "Without Galaxy I would not be able to conduct the analyses I do or would have to find a collaborator who could help, not easy when you work at a small college. It provides me a measure of independence and helps me the next generation of students the basics of this type of analysis"
+    attribution: anonymous
     originalQuote: "Without Galaxy I would not be able to conduct the analyses I do or would have to find a collaborator who could help, not easy when you work at a small college. It provides me a measure of independence and helps me the next generation of students the basics of this type of analysis"
 
   - quote: "With 20 years of experience in research involving all sorts of bioinformatics, Galaxy remains the most intuitive and easily accessed resource for small to medium research projects making it ideal tool for all kinds of users from new students, MSc and PhD students to experience researchers without extensive bioinformatic experience. Also the tool is ideal for teaching how to approach bioinformatics as it provides strong tools, and computing while providing visible outputs. just excellent. "
+    attribution: anonymous
     originalQuote: "With 20 years of experience in research involving all sorts of bioinformatics, Galaxy remains the most intuitive and easily accessed resource for small to medium research projects making it ideal tool for all kinds of users from new students, MSc and PhD students to experience researchers without extensive bioinformatic experience. Also the tool is ideal for teaching how to approach bioinformatics as it provides strong tools, and computing while providing visible outputs. just excellent. "
 
   - quote: "We use galaxy for training and diversifying the genomics workforce.  All PhD students are exposed to and trained to use galaxy when starting to learn Bioinformatics.  This tool has contributed to the education of many students over the years. "
+    attribution: anonymous
     originalQuote: "We use galaxy for training and diversifying the genomics workforce.  All PhD students are exposed to and trained to use galaxy when starting to learn Bioinformatics.  This tool has contributed to the education of many students over the years. "
 
   - quote: "We have used Galaxy a lot in recent years and could not easily map reads otherwise for our RNA- and ChIP-seq analysis. "
+    attribution: anonymous
     originalQuote: "We have used Galaxy a lot in recent years and could not easily map reads otherwise for our RNA- and ChIP-seq analysis. "
 
   - quote: "Very important. It's very kind to beginners which do not have background [in] computing. It have helped a lot of ph.D students to start their journey to [bioinformatics] in the past years."
+    attribution: anonymous
     originalQuote: "Very important. It's very kind to beginners which do not have background I'm computing. It have helped a lot of ph.D students to start their journey to bioinformatic in the past years."
 
   - quote: "Very critical, as a student in a 3rd world country, I can’t afford extensive setups and high functioning computers that can handle every individual software I should use. Galaxy is a great resource that provide all the softwares I need online."
+    attribution: anonymous
     originalQuote: "Very critical, as a student in a 3rd world country, I can’t afford extensive setups and high functioning computers that can handle every individual software I should use. Galaxy is a great resource that provide all the softwares I need online."
 
   - quote: "Used to teach undergraduate/postgraduate students how to process and analyse transcriptomic data; used to teach undergraduate students how to assemble and analyse bacterial genome sequence data."
+    attribution: anonymous
     originalQuote: "Used to teach undergraduate/postgraduate students how to process and analyse transcriptomic data; used to teach undergraduate students how to assemble and analyse bacterial genome sequence data."
 
   - quote: "To be honest, Galaxy has been most useful in teaching when students don't have much confidence in coding. It's a great user-friendly system for helping students learn the workflows of bioinformatic without them getting bogged down in syntax. "
+    attribution: anonymous
     originalQuote: "To be honest, Galaxy has been most useful in teaching when students don't have much confidence in coding. It's a great user-friendly system for helping students learn the workflows of bioinformatic without them getting bogged down in syntax. "
 
   - quote: "Teaching graduate students to use Galaxy to 1. retrieve and analyze ENCODE data from UCSC genome browser 2. analyze ChIP-seq data and conduct overlapping with genome features defined by ENCODE"
+    attribution: anonymous
     originalQuote: "Teaching graduate students to use Galaxy to 1. retrieve and analyze ENCODE data from UCSC genome browser 2. analyze ChIP-seq data and conduct overlapping with genome features defined by ENCODE"
 
   - quote: "Even for me, a wet-lab basic scientist with bioinformatic tool development knowledge and experience, who can load up a powerful linux machine and/or cloud compute services, it is more cost-effective in terms of my time and expert staff time to utilize Galaxy, as configuring each tool and keeping it updated to be functional in an enormous effort, which the Galaxy team handles well."
+    attribution: anonymous
     originalQuote: "Reproducible and sharable analysis to other researchers who do not have their own servers or budgets for cloud computing (particularly trainees!!!) We have taught Galaxy in our Big Data for Basic Scientists course for the last 4 years as it has been the most accessible resource with the most up to date tools, and it would be truly terrible to lose such access for developing biomedical trainees.   Even for me, a wet-lab basic scientist with bioinformatic tool development knowledge and experience, who can load up a powerful linux machine and/or cloud compute services, it is more cost-effective in terms of my time and expert staff time to utilize Galaxy, as configuring each tool and keeping it updated to be functional in an enormous effort, which the Galaxy team handles well.   I don't care if innovation is the #1 aspect of NIH grant reviews now, existing platforms including Galaxy NEED to remain supported just to keep it going, as it spurs innovation across other grants. If I were to pick the top two to keep NIH funded, it would be Galaxy and UCSC genome browser."
 
   - quote: "Quite critical: Great learning tool to teach students + other bioinformatics adopters without burdening them with the coding aspect. "
+    attribution: anonymous
     originalQuote: "Quite critical: Great learning tool to teach students + other bioinformatics adopters without burdening them with the coding aspect. "
 
   - quote: "I relied on a company service for the bioinformatic analysis of RNA-seq data. While this approach provided results, it was expensive, inflexible, and offered limited control over the type of analysis performed or the ability to explore and interpret the data ourselves...  Following the training, I was able to analyze my data independently, and I hope to publish the results obtained using Galaxy in the near future."
+    attribution: anonymous
     originalQuote: "Previously, I relied on a company service for the bioinformatic analysis of RNA-seq data. While this approach provided results, it was expensive, inflexible, and offered limited control over the type of analysis performed or the ability to explore and interpret the data ourselves. I began using Galaxy relatively recently after discovering the training opportunities available through the community. Following the training, I was able to analyze my data independently, and I hope to publish the results obtained using Galaxy in the near future. Without the training provided by the community and the accessibility of tools on the Galaxy server, we would still be spending valuable resources on outsourced services, resources that could be better invested in our research."
 
   - quote: "Our lab can't afford to purchase and maintain a server, and we rely on Galaxy to [run] jobs too big for our personal computers. Also use Galaxy to train students, postdocs in bioinformatics. Use workflows to save time and ensure reproducibility and sharability of analyses. "
+    attribution: anonymous
     originalQuote: "Our lab can't afford to purchase and maintain a server, and we rely on Galaxy to rund jobs too big for our personal computers. Also use Galaxy to train students, postdocs in bioinformatics. Use workflows to save time and ensure reproducibility and sharability of analyses. "
 
   - quote: "Not as much for research but definitely for  teaching. My students in my Genomics and  Bioinformatics class  are required to use usegalaxy.org for doing an RNAseq experiment comparing transcriptomes from normal and cancerous prostate samples."
+    attribution: anonymous
     originalQuote: "Not as much for research but definitely for  teaching. My students in my Genomics and  Bioinformatics class  are required to use galaxy.org for doing an RNAseq experiment comparing transcriptomes from normal and cancerous prostate samples."
 
   - quote: "Makes learning and using bioinformatics tools accessible to beginners via the GUI. The wide library of tools is invaluable for labs that may not have dedicated research computing power, where students would be otherwise limited by their personal laptop capabilities."
+    attribution: anonymous
     originalQuote: "Makes learning and using bioinformatics tools accessible to beginners via the GUI. The wide library of tools is invaluable for labs that may not have dedicated research computing power, where students would be otherwise limited by their personal laptop capabilities."
 
   - quote: "Its very crucial since its free, [easy] to use and also teach for my students by showing the tutorials"
+    attribution: anonymous
     originalQuote: "Its very crucial since its free, east to use and also teach for my students by showing the tutorials"
 
   - quote: "It's an essential teaching tool for clinical genomics for our medical students"
+    attribution: anonymous
     originalQuote: "It's an essential teaching tool for clinical genomics for our medical students"
 
   - quote: "It was simply transformative. It enabled a wet lab trained scientist like myself with no formal computational experience to performed advanced NGS analysis of disease-relevant datasets by following the tutorials and providing a simple-to-use interface. It's a wonderful initiative, one that I intend to keep on using for many years to come."
+    attribution: anonymous
     originalQuote: "It was simply transformative. It enabled a wet lab trained scientist like myself with no formal computational experience to performed advanced NGS analysis of disease-relevant datasets by following the tutorials and providing a simple-to-use interface. It's a wonderful initiative, one that I intend to keep on using for many years to come."
 
   - quote: "It is very important for me to analyze my ChIP-seq data for my project."
+    attribution: anonymous
     originalQuote: "It is very important for me to analyze my ChIP-seq data for my project."
 
   - quote: "It is very essential. We use galaxy not just for our data analysis but also for teaching students who really need it and appreciate it. "
+    attribution: anonymous
     originalQuote: "It is very essential. We use galaxy not just for our data analysis but also for teaching students who really need it and appreciate it. "
 
   - quote: "It is indispensable for my research and development and teaching of my junior staff."
+    attribution: anonymous
     originalQuote: "It is indispensable for my research and development and teaching of my junior staff."
 
   - quote: "It is essential to analyze the ChIP-seq, RNA-seq and WGS analyses. "
+    attribution: anonymous
     originalQuote: "It is essential to analyze the ChIP-seq, RNA-seq and WGS analyses. "
 
   - quote: "It is essential because my students, readers, and I come from a laboratory background so learning programming is a steep learning curve that distracts from lab work."
+    attribution: anonymous
     originalQuote: "It is essential because my students, readers, and I come from a laboratory background so learning programming is a steep learning curve that distracts from lab work."
 
   - quote: "It is critical for my teaching to university students"
+    attribution: anonymous
     originalQuote: "It is critical for my teaching to university students"
 
   - quote: "It is a crucial resource for researchers without strong infrastructure (i.e. not having powerful enough computers), a great automation tool for beginner bioinformatics, and a teaching source, and all that is also free."
+    attribution: anonymous
     originalQuote: "It is a crucial resource for researchers without strong infrastructure (i.e. not having powerful enough computers), a great automation tool for beginner bioinformatics, and a teaching source, and all that is also free."
 
   - quote: "It increased the speed of analysis and helped with teaching others basic bioinformatics, so overall, such a great tool to use"
+    attribution: anonymous
     originalQuote: "It increased the speed of analysis and helped with teaching others basic bioinformatics, so overall, such a great tool to use"
 
   - quote: "it has helped me immensely to learn novel bioinformatic techniques."
+    attribution: anonymous
     originalQuote: "it has helped me immensely to learn novel bioinformatic techniques."
 
   - quote: "It has enabled me to view published chip-seq and rna-seq data by myself. "
+    attribution: anonymous
     originalQuote: "It has enabled me to view published chip-seq and rna-seq data by myself. "
 
   - quote: "It has been critical for training in bioinformatics."
+    attribution: anonymous
     originalQuote: "It has been critical for training in bioinformatics."
 
   - quote: "It has been an essential part of my research for many years... We use many applications that are embedded within the Galaxy framework: Deeptools, Deseq2, Macs2, Diffbind, Meme-ChIP etc. The ability to interface with the UCSC Table browser, and to download datasets directly from NCBI is also very powerful."
+    attribution: anonymous
     originalQuote: "It has been an essential part of my research for many years. We have used it for for basic mapping functions, operations on genomic datasets (ChIP-seq, cut&run-seq, ATAC-seq), as well as RNA-seq bioinformatics. We use many applications that are embedded within the Galaxy framework: Deeptools, Deseq2, Macs2, Diffbind, Meme-ChIP etc. The ability to interface with the UCSC Table browser, and to download datasets directly from NCBI is also very powerful."
 
   - quote: "It allows students to perform complex analyses that usually need years of experience and hence leads to critical research outcomes."
+    attribution: anonymous
     originalQuote: "It allows students to perform complex analyses that usually need years of experience and hence leads to critical research outcomes."
 
   - quote: "I'm at a small university without large labs, computational resources, or technical staff. Having critical bioinformatic tools freely available through Galaxy is an enormous benefit for me and my undergraduate students, allowing us to contribute research that wouldn't be possible otherwise. "
+    attribution: anonymous
     originalQuote: "I'm at a small university without large labs, computational resources, or technical staff. Having critical bioinformatic tools freely available through Galaxy is an enormous benefit for me and my undergraduate students, allowing us to contribute research that wouldn't be possible otherwise. "
 
   - quote: "I used Galaxy for my studies in Master of Data Science and Bioinformatics to learn transcriptomics analyses for my future career."
+    attribution: anonymous
     originalQuote: "I used Galaxy for my studies in Master of Data Science and Bioinformatics to learn transcriptomics analyses for my future career."
 
   - quote: "I use it mostly for teaching. Galaxy provides an excellent entry point for new bioinformatics students to start working with real data."
+    attribution: anonymous
     originalQuote: "I use it mostly for teaching. Galaxy provides an excellent entry point for new bioinformatics students to start working with real data."
 
   - quote: "I use it for working with students in bioinformatics classes, it has a very convenient interface and is practically automatic."
+    attribution: anonymous
     originalQuote: "I use it for working with students in bioinformatics classes, it has a very convenient interface and is practically automatic."
 
   - quote: "I use it for keeping track of student projects and sharing workflows with new students.  "
+    attribution: anonymous
     originalQuote: "I use it for keeping track of student projects and sharing workflows with new students.  "
 
   - quote: "I use it as a platform to teach new researchers how to do bioinformatics analyses."
+    attribution: anonymous
     originalQuote: "I use it as a platform to teach new researchers how to do bioinformatics analyses."
 
   - quote: "I use Galaxy to teach on online course that introduces students to doing research in Biology using Bioinformatics. This is taught to over 100 students every quarter with no prior experience in Bioinformatics. Galaxy makes Bioinformatics incredibly approachable for students and greatly lowers the barrier for getting them interested in pursuing novel avenues of research."
+    attribution: anonymous
     originalQuote: "I use Galaxy to teach on online course that introduces students to doing research in Biology using Bioinformatics. This is taught to over 100 students every quarter with no prior experience in Bioinformatics. Galaxy makes Bioinformatics incredibly approachable for students and greatly lowers the barrier for getting them interested in pursuing novel avenues of research. Being a online course, it also provides students with a unique opportunity to get engaged in biomedical research using publicly available datasets."
 
   - quote: "I use Galaxy primarily for analyzing RNA-seq data and teaching bioinformatics classes."
+    attribution: anonymous
     originalQuote: "I use Galaxy primarily for analyzing RNA-seq data and teaching bioinformatics classes."
 
   - quote: "I use Galaxy in the undergraduate classroom to train students on using denovo or other assembly programs."
+    attribution: anonymous
     originalQuote: "I use Galaxy in the undergraduate classroom to train students on using denovo or other assembly programs."
 
   - quote: "I use Galaxy in my Bioinformatics class to teach how to run a WES alignment pipeline.  This is one of the only free resources that is available for students to use."
+    attribution: anonymous
     originalQuote: "I use Galaxy in my Bioinformatics class to teach how to run a WES alignment pipeline.  This is one of the only free resources that is available for students to use."
 
   - quote: "I use Galaxy for education in an upper level Biology elective about genomics"
+    attribution: anonymous
     originalQuote: "I use Galaxy for education in an upper level Biology elective about genomics"
 
   - quote: "I use Galaxy for a community college undergraduate research class that I teach. I set up a Galaxy workflow for students to use to analyse their nanopore sequencing data. Without Galaxy, they would not be able to conduct these analyses, as it is not practical to have non-STEM students learn command line software in a single term."
+    attribution: anonymous
     originalQuote: "I use Galaxy for a community college undergraduate research class that I teach. I set up a Galaxy workflow for students to use to analyse their nanopore sequencing data. Without Galaxy, they would not be able to conduct these analyses, as it is not practical to have non-STEM students learn command line software in a single term."
 
   - quote: "I use Galaxy as an approachable tool for teaching medical students about the analysis of genetic data.  They use the tool to analyze data they created.  We have found Galaxy to be the right balance of industry standard tool, and approachability that works for medical students. "
+    attribution: anonymous
     originalQuote: "I use Galaxy as an approachable tool for teaching medical students about the analysis of genetic data.  They use the tool to analyze data they created.  We have found Galaxy to be the right balance of industry standard tool, and approachability that works for medical students. "
 
   - quote: "Galaxy is how I now introduce any bioinformatics newbie to the process. The interface is extremely easy to work with, the documentation is sublime and provides enough detail without being overwhelming, and the community is extremely involved. Every single person I've introduced Galaxy to uses it almost exclusively for their subsequent analyses and data processing. "
+    attribution: anonymous
     originalQuote: "I truly cannot overstate how essential Galaxy is not just for my research, but for teaching undergraduates as well. When I started college in 2015, there weren't really well established tutorials to learn bioinformatic analysis that were accessible for free. I was fortunate enough to work in a lab as an undergraduate and receive basic training in R, bash, and general bioinformatic analysis. Galaxy is how I now introduce any bioinformatics newbie to the process. The interface is extremely easy to work with, the documentation is sublime and provides enough detail without being overwhelming, and the community is extremely involved. Every single person I've introduced Galaxy to uses it almost exclusively for their subsequent analyses and data processing. "
 
   - quote: "I started my basics of learning Bioinformatics from Galaxy, The interface it provides with the various tools and easy to use options has really helped. Along with that the tutorials and descriptions that is provided by Galaxy has helped me a lot to gain a deeper understanding of Bioinformatics."
+    attribution: anonymous
     originalQuote: "I started my basics of learning Bioinformatics from Galaxy, The interface it provides with the various tools and easy to use options has really helped. Along with that the tutorials and descriptions that is provided by Galaxy has helped me a lot to gain a deeper understanding of Bioinformatics."
 
   - quote: "I rely on Galaxy for student (undergraduate and Masters) bioinformatics computer labs. It provides a user-friendly introduction to introduce students to a range of different applications for whole genome sequence analysis."
+    attribution: anonymous
     originalQuote: "I rely on Galaxy for student (undergraduate and Masters) bioinformatics computer labs. It provides a user-friendly introduction to introduce students to a range of different applications for whole genome sequence analysis."
 
   - quote: "I learnt basics of bioinformatics in a Galaxy training and I was able to complete a full analysis for a paper by myself (miRNAseq analysis)"
+    attribution: anonymous
     originalQuote: "I learnt basics of bioinformatics in a Galaxy training and I was able to complete a full analysis for a paper by myself (miRNAseq analysis)"
 
   - quote: "I honestly use it most in the classroom. Its such an excellent resource for undergraduates. We use it in our biochemistry courses for students who know wet-lab work, but do not have computer science experience. It allows them to do data analysis in a way that makes sense to them and avoids a lot of scripting errors."
+    attribution: anonymous
     originalQuote: "I honestly use it most in the classroom. Its such an excellent resource for undergraduates. We use it in our biochemistry courses for students who know wet-lab work, but do not have computer science experience. It allows them to do data analysis in a way that makes sense to them and avoids a lot of scripting errors."
 
   - quote: "I have used it mostly for teaching purposes and I appreciate it a lot as students can learn state-of-the-art approaches to molecular modeling without a need to master many separate programs. Compared to similar courses I have taught without Galaxy, students got engaged much more and they acquired more skills that could immediately be applied for certain projects."
+    attribution: anonymous
     originalQuote: "I have used it mostly for teaching purposes and I appreciate it a lot as students can learn state-of-the-art approaches to molecular modeling without a need to master many separate programs. Compared to similar courses I have taught without Galaxy, students got engaged much more and they acquired more skills that could immediately be applied for certain projects."
 
   - quote: "I have not used Galaxy for research. But it has been an incredible platform for learning bioinformatics' concepts as well teaching students seamlessly. "
+    attribution: anonymous
     originalQuote: "I have not used Galaxy for research. But it has been an incredible platform for learning bioinformatics' concepts as well teaching students seamlessly. "
 
   - quote: "I have not personally used Galaxy for published research, but I have TA'd for classes that use it, and I have used it myself, as an invaluable teaching tool!"
+    attribution: anonymous
     originalQuote: "I have not personally used Galaxy for published research, but I have TA'd for classes that use it, and I have used it myself, as an invaluable teaching tool!"
 
   - quote: "I hace use Galaxy as a tool to help me teach bioinformatics and biostatistics pipelines and workflows to students. I've also enouraged them to use it whenever they need it, since it is a free platform. "
+    attribution: anonymous
     originalQuote: "I hace use Galaxy as a tool to help me teach bioinformatics and biostatistics pipelines and workflows to students. I've also enouraged them to use it whenever they need it, since it is a free platform. "
 
   - quote: "I and my students used Galaxy for a range of genomic analyses in our research. I rely on Galaxy in my teaching extensively, including an M.Sc. level course on 'Bioinformatics Research Methods' and advanced Ph.D. level workshop on 'Transcriptomics'."
+    attribution: anonymous
     originalQuote: "I and my students used Galaxy for a range of genomic analyses in our research. I rely on Galaxy in my teaching extensively, including an M.Sc. level course on 'Bioinformatics Research Methods' and advanced Ph.D. level workshop on 'Transcriptomics'."
 
   - quote: "I am working on RNAseq, WGS, and metagenome data and Galaxy can help a lot with my analysis workflow."
+    attribution: anonymous
     originalQuote: "I am working on RNAseq, WGS, and metagenome data and Galaxy can help a lot with my analysis workflow."
 
   - quote: "I am an educator at a community college. Galaxy has been instrumental in giving me the opportunity to get familiarized with genome assembly, annotation, and variant analysis. I don't believe I would have undertaken this had Galaxy not been available. "
+    attribution: anonymous
     originalQuote: "I am an educator at a community college. Galaxy has been instrumental in giving me the opportunity to get familiarized with genome assembly, annotation, and variant analysis. I don't believe I would have undertaken this had Galaxy not been available. "
 
   - quote: "Online tools like Galaxy are an incredible asset for training future biologists and pre-medical trainees about comparative and analytical genomics to prepare them for post-college success in careers serving and developing personalized medical applications for the next generation. "
+    attribution: anonymous
     originalQuote: "I am an associate professor at a small primarily undergraduate university in central Virginia. We do have the budget to support some genomics educational components and I have been working very hard to get a microbe sequencing program running using Oxford Nanopore devices.  However, we do not have the technical support or computational infrastructure required to have a full classroom of independent genome analysis computers. Galaxy allows my students (from single person to full classroom) to use their somewhat battered and often outdated laptops to access research-level and community-recognized computational power remotely to complete their analyses in a timely manner that facilitates teaching in a condensed classroom timeframe. Online tools like Galaxy are an incredible asset for training future biologists and pre-medical trainees about comparative and analytical genomics to prepare them for post-college success in careers serving and developing personalized medical applications for the next generation. "
 
   - quote: "I am a high schooler senior who, during my four years, took classes such as AP Chemistry and AP Calculus, but not computer science or python. However, with an interest in researching the gut microbiome in relation to the stages of Alzheimer's disease, there was no other way to get involved in wetlab/clinical research than to do some coding. As I'm learning how to use Galaxy, it has been very useful for me to be able to use tools to sequence bacteria and dna."
+    attribution: anonymous
     originalQuote: "I am a high schooler senior who, during my four years, took classes such as AP Chemistry and AP Calculus, but not computer science or python. However, with an interest in researching the gut microbiome in relation to the stages of Alzheimer's disease, there was no other way to get involved in wetlab/clinical research than to do some coding. As I'm learning how to use Galaxy, it has been very useful for me to be able to use tools to sequence bacteria and dna."
 
   - quote: "I actually use it for my undergraduate teaching in Bioinformatics."
+    attribution: anonymous
     originalQuote: "I actually use it for my undergraduate teaching in Bioinformatics."
 
   - quote: "UseGalaxy.org has been an invaluable resource for our small laboratory. It not only enables us to perform analyses that necessitate specific tools but also provides excellent tutorials. In all aspects related to biostatistics, Galaxy stands as a state-of-the-art organization. We are grateful for their immeasurable collaboration."
+    attribution: anonymous
     originalQuote: "Galaxy.org has been an invaluable resource for our small laboratory, Galaxy. It not only enables us to perform analyses that necessitate specific tools but also provides excellent tutorials. In all aspects related to biostatistics, Galaxy stands as a state-of-the-art organization. We are grateful for their immeasurable collaboration."
 
   - quote: "Galaxy was absolutely critical for [our] research, as it enabled high-quality processing and analysis of our large-scale RNA sequencing data through a reproducible, user-friendly workflow environment."
+    attribution: anonymous
     originalQuote: "Galaxy was absolutely critical for this research, as it enabled high-quality processing and analysis of our large-scale RNA sequencing data through a reproducible, user-friendly workflow environment. With Galaxy, rigorous quality control (FastQC), read trimming, and exploratory data analysis such as principal component analysis were efficiently performed, ensuring the reliability of our gene expression results. The platform's integrated tools for statistical and enrichment analysis also streamlined the identification of differentially expressed genes and pathway enrichments, which were essential for drawing our study’s main biological conclusions."
 
   - quote: "Galaxy provides an accessible way to perform bioinformatic pipelines, essentially teaching students and researchers how to optimize and utilize tools with an easily understandable UI. This has been essential not only for me but also for my peers in research who found Galaxy to be an easier way to perform pipelines such as post processing of genomics and transcriptomics data."
+    attribution: anonymous
     originalQuote: "Galaxy provides an accessible way to perform bioinformatic pipelines, essentially teaching students and researchers how to optimize and utilize tools with an easily understandable UI. This has been essential not only for me but also for my peers in research who found Galaxy to be an easier way to perform pipelines such as post processing of genomics and transcriptomics data."
 
   - quote: "[T]/he tutorials and online workshops provide an invaluable resource for learning. Being able to work through the flow through with a sample dataset is a great learning tool, and also allows the user to validate the methods before trialing with test data... I hope it remains a resource in the future to help support ongoing research and train the next generation of bioinformaticians."
+    attribution: anonymous
     originalQuote: "Galaxy provides a graphical user interface that helps to support new bioinformaticians in their learning process. Additionally, the tutorials and online workshops provide an invaluable resource for learning. Being able to work through the flow through with a sample dataset is a great learning tool, and also allows the user to validate the methods before trialing with test data. Overall galaxy has been an excellent resource and I'm always amazed with how quickly they implement new tools into the program. I hope it remains a resource in the future to help support ongoing research and train the next generation of bioinformaticians."
 
   - quote: "Galaxy provided an easy way for me, someone with little coding and genomic analysis experience, to learn interactively bioinformatics, and carry out the analyses myself. Through Galaxy, I was able to identify mutants from my mutagenesis screen through a high-thruput method that involves whole genome sequencing...  I also cannot remember how many times the Galaxy forum helped me. People there are enthusiastic and helpful."
+    attribution: anonymous
     originalQuote: "Galaxy provided an easy way for me, someone with little coding and genomic analysis experience, to learn interactively bioinformatics, and carry out the analyses myself. Through Galaxy, I was able to identify mutants from my mutagenesis screen through a high-thruput method that involves whole genome sequencing. I was also able to learn and run RNAseq analysis pipeline myself. Later, I learned to deploy these programs locally. Without Galaxy, I would not be able to know where to even start. I also cannot remember how many times the Galaxy forum helped me. People there are enthusiastic and helpful.   Galaxy is crucial in my scientific training. It’s not just a collection of tools, but also a platform of education."
 
   - quote: "Galaxy plays a crucial role in the training of undergraduate students for the workforce in bioinformatics. The Galaxy platform provides a friendly way to introduce students to the workflow of data analysis used in a research setting.  I have relied on Galaxy to train over 200 students on the principles of bioinformatics and analysis of high-throughput DNA sequencing (both Illumina and Nanopore sequences). "
+    attribution: anonymous
     originalQuote: "Galaxy plays a crucial role in the training of undergraduate students for the workforce in bioinformatics. The Galaxy platform provides a friendly way to introduce students to the workflow of data analysis used in a research setting.  I have relied on Galaxy to train over 200 students on the principles of bioinformatics and analysis of high-throughput DNA sequencing (both Illumina and Nanopore sequences). "
 
   - quote: "Galaxy makes bioinformatics more use-friendly for the average researcher. For every new mutant parasite that I make, I do WGS and use Galaxy for my last few steps of SNP analysis. I have also used Galaxy to make phylogenetic trees and heat maps though they did not end up being published. "
+    attribution: anonymous
     originalQuote: "Galaxy makes bioinformatics more use-friendly for the average researcher. For every new mutant parasite that I make, I do WGS and use Galaxy for my last few steps of SNP analysis. I have also used Galaxy to make phylogenetic trees and heat maps though they did not end up being published. "
 
   - quote: "Galaxy makes bioinformatics accessible. It allows my graduate students and me to quickly implement new analyses without having to be good with programming languages. This is especially important since we are at a small institute with no available bioinformatics support"
+    attribution: anonymous
     originalQuote: "Galaxy makes bioinformatics accessible. It allows my graduate students and me to quickly implement new analyses without having to be good with programming languages. This is especially important since we are at a small institute with no available bioinformatics support"
 
   - quote: "Galaxy made by undergraduate research possible! Without it, the stepping into bioinformatics would be a lengthy tedious process Galaxy let me learn the technicalities while also producing results  Save Galaxy "
+    attribution: anonymous
     originalQuote: "Galaxy made by undergraduate research possible! Without it, the stepping into bioinformatics would be a lengthy tedious process Galaxy let me learn the technicalities while also producing results  Save Galaxy "
 
   - quote: "Galaxy is very useful to introduce the bioinformatics analyses to undergraduate students."
+    attribution: anonymous
     originalQuote: "Galaxy is very useful to introduce the bioinformatics analyses to undergraduate students."
 
   - quote: "Galaxy is very helpful for my work, especially in teaching students. It allows them to easily run genomic data analyses without needing complex command-line skills."
+    attribution: anonymous
     originalQuote: "Galaxy is very helpful for my work, especially in teaching students. It allows them to easily run genomic data analyses without needing complex command-line skills."
 
   - quote: "Galaxy is used as part a sequencing experiment done  by undergraduate students in a microbiology lab course. "
+    attribution: anonymous
     originalQuote: "Galaxy is used as part a sequencing experiment done  by undergraduate students in a microbiology lab course. "
 
   - quote: "Galaxy is the only tool available to use to demonstrate bioinformatics analyses to non-coding users. I have extensively used it while teaching"
+    attribution: anonymous
     originalQuote: "Galaxy is the only tool available to use to demonstrate bioinformatics analyses to non-coding users. I have extensively used it while teaching"
 
   - quote: "Galaxy is part of my Linux server in my research with students as an Assist Research Professor, Bioengineering, University of Illinois Urbana-Champaign, IL. Many undergrad student, other graduate students and faculty have been using Galaxy in Bioinformatics areas and is critical as a server all over the world!"
+    attribution: anonymous
     originalQuote: "Galaxy is part of my Linux server in my research with students as an Assist Research Professor, Bioengineering, University of Illinois Urbana-Champaign, IL. Many undergrad student, other graduate students and faculty have been using Galaxy in Bioinformatics areas and is critical as a server all over the world!"
 
   - quote: "Galaxy is necessary resource for our lab and provides accessible processing for students and trainees. "
+    attribution: anonymous
     originalQuote: "Galaxy is necessary resource for our lab and provides accessible processing for students and trainees. "
 
   - quote: "Galaxy is incredibly helpful for getting beginners started with bioinformatics. It also has some tools that I can't get on my own HPC / are more updated on Galaxy"
+    attribution: anonymous
     originalQuote: "Galaxy is incredibly helpful for getting beginners started with bioinformatics. It also has some tools that I can't get on my own HPC / are more updated on Galaxy"
 
   - quote: "Galaxy is essential for giving students an up to date education on modern life sciences and enables integration and innovation from basic concepts to the complex "
+    attribution: anonymous
     originalQuote: "Galaxy is essential for giving students an up to date education on modern life sciences and enables integration and innovation from basic concepts to the complex "
 
   - quote: "Galaxy is critical for routine analyses of functional genomics experiments (RNA-seq, ChIP-seq, CUT7RUN-seq, ATAC-seq) in yeast and human cell lines"
+    attribution: anonymous
     originalQuote: "Galaxy is critical for routine analyses of functional genomics experiments (RNA-seq, ChIP-seq, CUT7RUN-seq, ATAC-seq) in yeast and human cell lines"
 
   - quote: "Galaxy is critical for our research because it provides a user-friendly, reproducible platform for analyzing large-scale genomic datasets without requiring extensive programming expertise. It allowed us to integrate diverse workflows, from RNA-seq to ChIP-seq, ensuring consistent data processing across experiments."
+    attribution: anonymous
     originalQuote: "Galaxy is critical for our research because it provides a user-friendly, reproducible platform for analyzing large-scale genomic datasets without requiring extensive programming expertise. It allowed us to integrate diverse workflows, from RNA-seq to ChIP-seq, ensuring consistent data processing across experiments."
 
   - quote: "Galaxy is critical for my work because I use it to train students in bioinformatics and genomics analysis. Its user-friendly interface and reproducible workflows make it easy for students to grasp complex concepts without needing deep programming knowledge. This helps them gain hands-on experience with real research data and develop confidence in applying computational tools to biological problems."
+    attribution: anonymous
     originalQuote: "Galaxy is critical for my work because I use it to train students in bioinformatics and genomics analysis. Its user-friendly interface and reproducible workflows make it easy for students to grasp complex concepts without needing deep programming knowledge. This helps them gain hands-on experience with real research data and develop confidence in applying computational tools to biological problems."
 
   - quote: "Galaxy is critical for my bioinformatic analyses. It makes using genome assembly, variant identification, and other critical analyses so much more accessible than needing to use the command line versions of the software."
+    attribution: anonymous
     originalQuote: "Galaxy is critical for my bioinformatic analyses. It makes using genome assembly, variant identification, and other critical analyses so much more accessible than needing to use the command line versions of the software."
 
   - quote: "Galaxy is critical for me to demonstrate my research students, about how straightforward bioinformatics is, when the tools are in your hand."
+    attribution: anonymous
     originalQuote: "Galaxy is critical for me to demonstrate my research students, about how straightforward bioinformatics is, when the tools are in your hand."
 
   - quote: "Galaxy is an easy to use tool that enables undergraduate students to perform advanced and complex analyses in intuitive and easy to understand ways. It is critical for training the next generation of scientists. "
+    attribution: anonymous
     originalQuote: "Galaxy is an easy to use tool that enables undergraduate students to perform advanced and complex analyses in intuitive and easy to understand ways. It is critical for training the next generation of scientists. "
 
   - quote: "Galaxy is absolutely critical for our research. It provides an indispensable, unified platform that handles everything from secure data storage and running complex analyses to enabling reproducible science. Furthermore, its user-friendly interface is perfect for teaching bioinformatics to our undergraduate students."
+    attribution: anonymous
     originalQuote: "Galaxy is absolutely critical for our research. It provides an indispensable, unified platform that handles everything from secure data storage and running complex analyses to enabling reproducible science. Furthermore, its user-friendly interface is perfect for teaching bioinformatics to our undergraduate students."
 
   - quote: "Galaxy is a user friendly platform that allows trainees without coding experience to perform basic NGS analyses. It is a critical resource for my trainees."
+    attribution: anonymous
     originalQuote: "Galaxy is a user friendly platform that allows trainees without coding experience to perform basic NGS analyses. It is a critical resource for my trainees."
 
   - quote: "Galaxy is a really useful research tool, but I would miss it more in my classroom. It is the perfect tool to bridge the gap for students who don't have strong coding skills yet."
+    attribution: anonymous
     originalQuote: "Galaxy is a really useful research tool, but I would miss it more in my classroom. It is the perfect tool to bridge the gap for students who don't have strong coding skills yet."
 
   - quote: "Galaxy is a critical tool I have used for getting beginning students to use genomics tools.  Its suite of simple, menu-driven tools in a single source is an invaluable teaching tool."
+    attribution: anonymous
     originalQuote: "Galaxy is a critical tool I have used for getting beginning students to use genomics tools.  Its suite of simple, menu-driven tools in a single source is an invaluable teaching tool."
 
   - quote: "Galaxy is a critical tool for my research for three main reasons...  Handling computationally intensive tasks... Teaching and education... [and] Exploring new methodologies."
+    attribution: anonymous
     originalQuote: "Galaxy is a critical tool for my research for three main reasons, even though I have my own dedicated bioinformatics server.  Handling computationally intensive tasks: Galaxy's platform is essential for processing computationally intensive tasks, like mapping transcriptome reads to reference genomes, which can be challenging on a local server.  Teaching and education: I use Galaxy as a core tool in my bioinformatics courses. It provides an intuitive environment that allows students to easily learn and explore various workflows.  Exploring new methodologies: The platform's flexibility allows me to test and validate new pipelines before exporting them to my own server, which streamlines my workflow and enhances efficiency."
 
   - quote: "GALAXY is a brilliant tool for people who has no bioinformatics experience - they can do simple analysis by their self. GALAXY is also ideal for teaching - we can show our students sophisticated analysis and beauty of sciences. "
+    attribution: anonymous
     originalQuote: "GALAXY is a brilliant tool for people who has no bioinformatics experience - they can do simple analysis by their self. GALAXY is also ideal for teaching - we can show our students sophisticated analysis and beauty of sciences. "
 
   - quote: "Galaxy helps and acelerates simple as well as complex tasks, share results, methods and workflows, in a public, free, online way, with lots of learning materials and community forum support. No other initiative in history of data analysis has reached this ammount of colaboration."
+    attribution: anonymous
     originalQuote: "Galaxy helps and acelerates simple as well as complex tasks, share results, methods and workflows, in a public, free, online way, with lots of learning materials and community forum support. No other initiative in history of data analysis has reached this ammount of colaboration."
 
   - quote: "Galaxy has significantly shortened the time I spend learning new omics analysis content. Its standardized workflows have regulated the analytical procedures for many researchers, also preventing them from unintentionally making basic errors such as incomplete analysis steps."
+    attribution: anonymous
     originalQuote: "Galaxy has significantly shortened the time I spend learning new omics analysis content. Its standardized workflows have regulated the analytical procedures for many researchers, also preventing them from unintentionally making basic errors such as incomplete analysis steps."
 
   - quote: "Galaxy has been very useful at analyzing my Tn-seq data, with a particularly useful tutorial (https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/tnseq/tutorial.html) that I have been sharing with my mentees to get started on learning how to analyze these data as well."
+    attribution: anonymous
     originalQuote: "Galaxy has been very useful at analyzing my Tn-seq data, with a particularly useful tutorial (https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/tnseq/tutorial.html) that I have been sharing with my mentees to get started on learning how to analyze these data as well."
 
   - quote: "Galaxy has been invaluable for my education research in Biology - it has made bioinformatics accessible for students with or without a strong computational background. "
+    attribution: anonymous
     originalQuote: "Galaxy has been invaluable for my education research in Biology - it has made bioinformatics accessible for students with or without a strong computational background. "
 
   - quote: "Galaxy has been instrumental in my own research as well as in teaching students bioinformatics."
+    attribution: anonymous
     originalQuote: "Galaxy has been instrumental in my own research as well as in teaching students bioinformatics."
 
   - quote: "Galaxy has been incredibly helpful for analyzing my genomic data, especially since I’m not familiar with coding. I also incorporate Galaxy into my teaching, especially int the frame of pratical courses. "
+    attribution: anonymous
     originalQuote: "Galaxy has been incredibly helpful for analyzing my genomic data, especially since I’m not familiar with coding. I also incorporate Galaxy into my teaching, especially int the frame of pratical courses. "
 
   - quote: "Galaxy has been critical in my research by enabling me to publish twice thanks to its powerful platform. It significantly improved my understanding of genomic pipelines in AMR studies and made it easy to run my own analyses quickly and at no cost. The user-friendly, free interface allowed me to focus on the science while accelerating my research workflow"
+    attribution: anonymous
     originalQuote: "Galaxy has been critical in my research by enabling me to publish twice thanks to its powerful platform. It significantly improved my understanding of genomic pipelines in AMR studies and made it easy to run my own analyses quickly and at no cost. The user-friendly, free interface allowed me to focus on the science while accelerating my research workflow"
 
   - quote: "Galaxy has been critical for my personal learning of sequencing analysis tools (when I was a postdoc) and later on for education purposes as a professor where I mostly use it to teach students in the lab and in graduate school classes."
+    attribution: anonymous
     originalQuote: "Galaxy has been critical for my personal learning of sequencing analysis tools (when I was a postdoc) and later on for education purposes as a professor where I mostly use it to teach students in the lab and in graduate school classes."
 
   - quote: "Galaxy has been a very important teaching too for training students in how to do bioinformatics analyses. I also use it heavily for a graduate course I teach in bioinformatics. "
+    attribution: anonymous
     originalQuote: "Galaxy has been a very important teaching too for training students in how to do bioinformatics analyses. I also use it heavily for a graduate course I teach in bioinformatics. "
 
   - quote: "Galaxy has allowed me, a new graduate student with no coding background, to excel. It has allowed me to learn bioinformatics in a non-threatening way. Without galaxy, my masters thesis could never have been done."
+    attribution: anonymous
     originalQuote: "Galaxy has allowed me, a new graduate student with no coding background, to excel. It has allowed me to learn bioinformatics in a non-threatening way. Without galaxy, my masters thesis could never have been done."
 
   - quote: "Galaxy gives me access to the analysis tools I need, and also provides a convenient and accessible teaching environment for training new students and technicians. The galaxy platform has also been incredibly useful to help me better understand how many of the analysis tools/algorithms work by allowing experimentation with the analyses performed."
+    attribution: anonymous
     originalQuote: "Galaxy gives me access to the analysis tools I need, and also provides a convenient and accessible teaching environment for training new students and technicians. The galaxy platform has also been incredibly useful to help me better understand how many of the analysis tools/algorithms work by allowing experimentation with the analyses performed."
 
   - quote: "Galaxy enables us to perform sophisticated genomics data analysis without having to code or buying expensive cluster access. Over the last 8 years, this has helped us generate invaluable insights for our research, and galaxy also helps us train the next generation of scientists"
+    attribution: anonymous
     originalQuote: "Galaxy enables us to perform sophisticated genomics data analysis without having to code or buying expensive cluster access. Over the last 8 years, this has helped us generate invaluable insights for our research, and galaxy also helps us train the next generation of scientists"
 
   - quote: "Galaxy and the developed methods for genome and RNA sequence analysis have been instrumental to our research of bacterial stress response, antibiotic persitence, wherein we identified key physiological changes leading to deep understanding of bacterial stress physiology, thereby in the long run inspiring novel therapy."
+    attribution: anonymous
     originalQuote: "Galaxy and the developed methods for genome and RNA sequence analysis have been instrumental to our research of bacterial stress response, antibiotic persitence, wherein we identified key physiological changes leading to deep understanding of bacterial stress physiology, thereby in the long run inspiring novel therapy."
 
   - quote: "Galaxy allows our group access to tools for analysis of NGS data without having to use resources to establish our own computational infrastructure. The interface allows even beginners the ability to analyze their data decreasing the barrier to discovery and democratizing the use of cutting edge approaches. In addition, I use Galaxy in the class I teach to introduce biologists to the tools available for genomic research without requiring advanced computational knowledge."
+    attribution: anonymous
     originalQuote: "Galaxy allows our group access to tools for analysis of NGS data without having to use resources to establish our own computational infrastructure. The interface allows even beginners the ability to analyze their data decreasing the barrier to discovery and democratizing the use of cutting edge approaches. In addition, I use Galaxy in the class I teach to introduce biologists to the tools available for genomic research without requiring advanced computational knowledge."
 
   - quote: "Galaxy allows my students who are new to bioinformatics to run their analyses without being bogged down by the coding. While they will eventually move on to coding for more advanced analyses, it offers a good start that is critical for them in their development as scientists. "
+    attribution: anonymous
     originalQuote: "Galaxy allows my students who are new to bioinformatics to run their analyses without being bogged down by the coding. While they will eventually move on to coding for more advanced analyses, it offers a good start that is critical for them in their development as scientists. "
 
   - quote: "The tutorials have been invaluable for us to learn new techniques and cut down on the amount of time to get up to speed with new analyses. at the same time, the Galaxy platform provides a user-friendly way for students to learn how to analyze large datasets."
+    attribution: anonymous
     originalQuote: "Galaxy allows me to train my students. The tutorials have been invaluable for us to learn new techniques and cut down on the amount of time to get up to speed with new analyses. at the same time, the Galaxy platform provides a user-friendly way for students to learn how to analyze large datasets. My students usually do not use Galaxy for the final analyses because we have very large datasets but without the Galaxy platform to learn and play with first it would be extremely difficult to get them up to speed in a reasonable amount of time."
 
   - quote: "Galaxy allows me to teach NGS analysis with examples on microbiome, variant and RNA SEQ data."
+    attribution: anonymous
     originalQuote: "Galaxy allows me to teach NGS analysis with examples on microbiome, variant and RNA SEQ data."
 
   - quote: "Galaxy allows me and my students to perform advanced bioinformatics analysis that would not be possible otherwise. Galaxy is an invaluable resource for my research and as a tool for education."
+    attribution: anonymous
     originalQuote: "Galaxy allows me and my students to perform advanced bioinformatics analysis that would not be possible otherwise. Galaxy is an invaluable resource for my research and as a tool for education."
 
   - quote: "For me is critical since I can access my account from any computer and work on. Easy to follow the tutorials and fast analysis."
+    attribution: anonymous
     originalQuote: "For me is critical since I can access my account from any computer and work on. Easy to follow the tutorials and fast analysis."
 
   - quote: "Extremely. We use the VGP assembly pipeline extensive in my lab AND classes! It's been key to promoting international collaborations as well. Staff is extremely helpful. "
+    attribution: anonymous
     originalQuote: "Extremely. We use the VGP assembly pipeline extensive in my lab AND classes! It's been key to promoting international collaborations as well. Staff is extremely helpful. "
 
   - quote: "Essential for independent researchers without access to computational infrastructure, and essential to be able to include student coauthors in research and publication "
+    attribution: anonymous
     originalQuote: "Essential for independent researchers without access to computational infrastructure, and essential to be able to include student coauthors in research and publication "
 
   - quote: "At a small regional institution ... access to cutting-edge research resources is limited. Galaxy helps bridge this gap by providing an accessible, fully featured bioinformatics platform, enabling us to teach and explore state-of-the-art microbial genomics and bioinformatics."
+    attribution: anonymous
     originalQuote: "At a small regional institution like Northeastern State University in Tahlequah, Oklahoma, access to cutting-edge research resources is limited. Galaxy helps bridge this gap by providing an accessible, fully featured bioinformatics platform, enabling us to teach and explore state-of-the-art microbial genomics and bioinformatics. It also facilitates collaboration and workflow sharing with other faculty, allowing us to extend the reach and impact of our research and teaching."
 
   - quote: "As a ungrduated lab intern, Galaxy tremendously helped me. I was new to bioinformatic tools but using Galaxy, I could perform much more than I have done before. Thanks to this amazing site, I could successfully done my work!"
+    attribution: anonymous
     originalQuote: "As a ungrduated lab intern, Galaxy tremendously helped me. I was new to bioinformatic tools but using Galaxy, I could perform much more than I have done before. Thanks to this amazing site, I could successfully done my work!"
 
   - quote: "As a graduate school instructor, I require students to use Galaxy services to acquire fundamental bioinformatics skills. My courses would be unfeasible without utilizing such services."
+    attribution: anonymous
     originalQuote: "As a graduate school instructor, I require students to use Galaxy services to acquire fundamental bioinformatics skills. My courses would be unfeasible without utilizing such services."
 
   - quote: "Analysis of transcriptomic and genomic data is a routine part of my research, even though bioinformatics is not my primary training. I use Galaxy on a weekly basis and train my students, both in the classroom and the lab, to apply it for their own projects."
+    attribution: anonymous
     originalQuote: "Analysis of transcriptomic and genomic data is a routine part of my research, even though bioinformatics is not my primary training. I use Galaxy on a weekly basis and train my students, both in the classroom and the lab, to apply it for their own projects."
 
   - quote: "Although my use of Galaxy has not led to directly to any publications, it has proved invaluable for training undergraduate and postgraduate students in the basic principles of transcriptomic analysis, enabling those students with no coding experience to analyse real-world data quickly. It is an excellent teaching resource for bioinformaticians."
+    attribution: anonymous
     originalQuote: "Although my use of Galaxy has not led to directly to any publications, it has proved invaluable for training undergraduate and postgraduate students in the basic principles of transcriptomic analysis, enabling those students with no coding experience to analyse real-world data quickly. It is an excellent teaching resource for bioinformaticians."
 
   - quote: "Galaxy has been an excellent platform to analyze RNA-sequencing data, especially for researchers like me an intermediate coding skills. It also provide up-to-date computational workflows and tutorial for streamline genomic analysis. Galaxy has helped generate reliable data needed for my research."
+    attribution: anonymous
     originalQuote: "Galaxy has been an excellent platform to analyze RNA-sequencing data, especially for researchers like me an intermediate coding skills. It also provide up-to-date computational workflows and tutorial for streamline genomic analysis. Galaxy has helped generate reliable data needed for my research."
 
   - quote: "[E]xisting platforms including Galaxy NEED to remain supported just to keep it going, as it spurs innovation across other grants. If I were to pick the top two to keep NIH funded, it would be Galaxy and UCSC genome browser."
+    attribution: anonymous
     originalQuote: "Reproducible and sharable analysis to other researchers who do not have their own servers or budgets for cloud computing (particularly trainees!!!) We have taught Galaxy in our Big Data for Basic Scientists course for the last 4 years as it has been the most accessible resource with the most up to date tools, and it would be truly terrible to lose such access for developing biomedical trainees.   Even for me, a wet-lab basic scientist with bioinformatic tool development knowledge and experience, who can load up a powerful linux machine and/or cloud compute services, it is more cost-effective in terms of my time and expert staff time to utilize Galaxy, as configuring each tool and keeping it updated to be functional in an enormous effort, which the Galaxy team handles well.     I don't care if innovation is the #1 aspect of NIH grant reviews now, existing platforms including Galaxy NEED to remain supported just to keep it going, as it spurs innovation across other grants. If I were to pick the top two to keep NIH funded, it would be Galaxy and UCSC genome browser."
