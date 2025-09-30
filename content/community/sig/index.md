@@ -33,7 +33,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Climate</div>
 </a>
 
-The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflow.
+The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.
 
 </div>
 
@@ -146,7 +146,7 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 
 </div>
 
-<!-- Natural Language Processing -->
+<!-- Natural Language Processing 
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Natural Language Processing</div>
@@ -155,6 +155,8 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 An open, interoperable web service platform for natural language processing (NLP) research and development.
 
 </div>
+-->
+
 
 <!-- Proteomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
@@ -323,7 +325,7 @@ Galaxy-NL in the Netherlands.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Switzerland</div>
 </a>
 
-Galaxy community in Switzerland
+Galaxy community in Switzerland.
 
 </div>
 
@@ -402,7 +404,7 @@ This project emphasizes analysis of SARS-CoV-2.
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">VGP</div>
 
-Collaboration Between VGP and Galaxy Project for free and easy access to large genome assembly workflows.
+Collaboration between VGP and Galaxy Project for free and easy access to large genome assembly workflows.
 
 * [Slack Channel](https://genomeark.slack.com/archives/C01QJJ175JQ)
 * [Github Project](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2)
