@@ -29,21 +29,9 @@ We are holding **3 events** in the same week:
 - The **EuroScienceGateway** Final Conference,
 - The **European Galaxy Days (EGD)** meeting.
 
-<figure class="figure">
-  <g-image src="./logo_egd_2025.png" class="figure-img img-fluid rounded" />
-</figure>
+# Updates
 
-# Contributing
-
-Galaxy is powered by the people who use, develop, and administrate it, regardless of their community. We invite you to contribute and enrich our meeting through different activities such as talks, demos, posters, and Birds-of-a-feather meetings (BoFs). If you have something to share or talk about, we give you a slot in the schedule.
-
-# Registration
-
-Registration is free. We recommend to register as soon as possible to secure your spot for different events as well as helping us to organize the event better.
-
-<div class="row justify-content-center">
-  <a class="btn w-25 btn-dark" href="https://docs.google.com/forms/d/19pQ3c906y1GxvtzEmsEXcXSk31x-5HQje5WlnlRdCOI/" role="button" target="_blank">Register now</a>
-</div>
+- The talks of this event will be streamed using [this Zoom link](https://uni-freiburg.zoom-x.de/j/62026241585?pwd=8O0apbtJnQkhtwmMB2QKap5cNsZOWh.1).
 
 # Schedule
 
@@ -222,16 +210,16 @@ Registration is free. We recommend to register as soon as possible to secure you
         <tr><td>11:45–11:55</td><td>Hans-Rudolf Hotz</td><td><span class="event-egd">Switzerland (Special Interest Group)</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>11:55–12:15</td><td>Hans-Rudolf Hotz</td><td><span class="event-egd">Small Scale Admins (Special Interest Group)</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>12:15–12:35</td><td>Marisa Loach</td><td><span class="event-egd">The Single Cell and Spatial Omics Community</span></td><td>20'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>12:35–12:45</td><td>Solenne Correard</td><td><span class="event-egd">The Biodiversity Galaxy Lab: A Collaborative Hub with curated tools, workflows and training for FAIR and Reproducible biodiversity analysis</span></td><td>10'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>12:45–13:00</td><td>Jérôme Detoc</td><td><span class="event-egd">Study of marine data in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>13:00–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>60'</td><td>02 016 / 018</td></tr>
+        <tr><td>12:35–12:50</td><td>Solenne Correard</td><td><span class="event-egd">The Biodiversity Galaxy Lab: A Collaborative Hub with curated tools, workflows and training for FAIR and Reproducible biodiversity analysis</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>12:50–13:05</td><td>Jérôme Detoc</td><td><span class="event-egd">Study of marine data in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>13:05–14:00</td><td>—</td><td><span class="event-lunch">Lunch Break</span></td><td>55'</td><td>02 016 / 018</td></tr>
         <tr><td>14:00–14:15</td><td>Leonid Kostrykin</td><td><span class="event-elixir">Streamlining the User Experience for Reproducible Image Analysis in Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>14:15–14:30</td><td>Maria Chavero-Diez<br><em>(Online Presentation)</em></td><td><span class="event-elixir">From Galaxy to EGA: Orchestrating Sensitive Data Access for Interactive Federated Analysis</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>14:30–14:45</td><td>Paul De Geest</td><td><span class="event-elixir">Dynamic meta-scheduling in Galaxy with TPV Broker for smarter workload distribution</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>14:45–15:00</td><td>Mirela Minkova</td><td><span class="event-elixir">On-demand, Reproducible Galaxy Instances in a Secure Environment for the Dutch Scientific Community</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>15:15–15:30</td><td>Matthias Bernt</td><td><span class="event-elixir">Automatic tool generation for the SAQC and OGS tool (suites)</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>15:30–15:45</td><td>Giuseppe Profiti</td><td><span class="event-elixir">Infrastructure changes to run a Galaxy server in a hospital setting</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
-        <tr><td>15:45–16:00</td><td>Björn Grüning</td><td><span class="event-elixir">Galaxy inside the European Open Science Cloud</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
+        <tr><td>15:45–16:00</td><td>Paul Zierep</td><td><span class="event-elixir">Precision Diagnosis and Risk Stratification of Helicobacter pylori-Induced Gastritis Using Multi-Omics Machine Learning Signatures Or The Synergy Between Complex Research Projects and Galaxy</span></td><td>15'</td><td>00 036 (Hörsaal)</td></tr>
         <tr><td>16:00–16:30</td><td>—</td><td><span class="event-lunch">Coffee Break &amp; Poster session<br>Posters:<br>Martin Cech & Martin Demko (Czech Galaxies -- lessons, approaches, and challenges)<br>Eli Chadwick (RO-Crate – Capturing FAIR research outputs throughout the ELIXIR landscape)<br>Teresa Müller (Galaxy Training Academy)<br>Marie Jossé (Improving the Qualification and Calibration of Ocean Biogeochemical Data Using Galaxy)<br>Charles Girardot: LabID workflow integration: Recording data-provenance from sample to workflow results<br>Florian Heyl: Spatial transcriptomics quality control and how to find high quality regions<br>Melanie Föll: Using Qupath in Galaxy for spatial proteomics</span></td><td>30'</td><td>02 016 / 018</td></tr>
         <tr><td>16:30–17:30</td><td>Yvan Le Bras</td><td><span class="event-bof">Birds of a Feather (Galaxy for citizen science)</span></td><td>60'</td><td>01 009 / 013</td></tr>
         <tr><td>16:30–17:30</td><td>Hans-Rudolf Hotz</td><td><span class="event-bof">Birds of a Feather (Running a local Galaxy server – Small-Scale Admin SIG)</span></td><td>60'</td><td>01 016 / 018</td></tr>
@@ -426,6 +414,10 @@ If you want to present, help, have suggestions or questions, please get in touch
 Armin Dadras (dadras@informatik.uni-freiburg.de)<br>
 Hans-Rudolf Hotz (hrhotz@googlemail.com)<br>
 Björn Grüning (bjoern.gruening@gmail.com)<br>
+
+<figure class="figure">
+  <g-image src="./logo_egd_2025.png" class="figure-img img-fluid rounded" />
+</figure>
 
 # Funding
 
