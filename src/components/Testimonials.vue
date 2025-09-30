@@ -19,16 +19,6 @@
                 ‹
             </button>
 
-            <div class="testimonial-indicators">
-                <button
-                    v-for="(testimonial, index) in allTestimonials"
-                    :key="index"
-                    @click="goToTestimonial(index)"
-                    class="indicator"
-                    :class="{ active: index === currentIndex }"
-                    :aria-label="`Go to testimonial ${index + 1}`"
-                ></button>
-            </div>
 
             <button
                 @click="nextTestimonial"
@@ -198,6 +188,10 @@ export default {
         },
     },
     mounted() {
+        // Start at a random position to ensure all testimonials get displayed
+        if (this.hasValidTestimonials && this.allTestimonials.length > 1) {
+            this.currentIndex = Math.floor(Math.random() * this.allTestimonials.length);
+        }
         this.startRotation();
     },
     beforeDestroy() {
@@ -303,28 +297,6 @@ query {
     }
 }
 
-.testimonial-indicators {
-    display: flex;
-    gap: 8px;
-
-    .indicator {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        background: transparent;
-        cursor: pointer;
-        transition: all 0.2s ease;
-
-        &.active {
-            background: rgba(255, 255, 255, 0.8);
-        }
-
-        &:hover {
-            background: rgba(255, 255, 255, 0.6);
-        }
-    }
-}
 
 // Testimonial Content
 .testimonial-content {
