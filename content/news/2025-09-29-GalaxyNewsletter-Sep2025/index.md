@@ -1,3 +1,11 @@
+---
+title: "September 2025 Galaxy Newsletter"
+date: "2025-09-29"
+authors: Natalie Whitaker-Allen
+tease: "From public-health genomics to hibernating hedgehogs (and even turtle conservation), discover what’s new in Galaxy. Plus upcoming events, workshops, and fresh GTN highlights!"
+hide_tease: false
+subsites: [global, all]
+---
 
 # September 2025 Galaxy Newsletter
 <p align="center">
