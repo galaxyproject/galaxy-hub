@@ -146,7 +146,7 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 
 </div>
 
-<!-- Natural Language Processing -->
+<!-- Natural Language Processing 
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Natural Language Processing</div>
@@ -155,6 +155,8 @@ Community-driven metabolomics Galaxy service. The main aim is to give people a p
 An open, interoperable web service platform for natural language processing (NLP) research and development.
 
 </div>
+-->
+
 
 <!-- Proteomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
