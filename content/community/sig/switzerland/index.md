@@ -10,6 +10,6 @@ At this stage, we just have a [mailing list](https://lists.galaxyproject.org/lis
 
 # Contact people
 
-- SIG representative: [Lucille Delisle](mailto:lucille.delisle@epfl.ch) [@lldelisle](https://github.com/lldelisle)
+- SIG representative: [Lucille Delisle](mailto:lucille.delisle@unige.ch) [@lldelisle](https://github.com/lldelisle)
 - Alternate: [Hans-Rudolf Hotz](mailto:hansrudolf.hotz@fmi.ch) [@hrhotz](https://github.com/hrhotz)
 
