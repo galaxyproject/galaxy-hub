@@ -231,7 +231,6 @@ query {
     }
 }
 
-
 // Testimonial Content
 .testimonial-content {
     position: relative;
