@@ -178,6 +178,17 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid-real p-0">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="testimonials-container">
+                            <Testimonials :showControls="true" :showHeading="true" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container mb-4">
             <div class="row">
                 <div class="col p-0">
@@ -306,10 +317,12 @@
 import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
 import Publications from "@/components/Publications";
+import Testimonials from "@/components/Testimonials";
 
 export default {
     components: {
         Publications,
+        Testimonials,
     },
     data() {
         return {
@@ -352,6 +365,17 @@ export default {
     },
 };
 </script>
+
+<style lang="scss" scoped>
+@import "~/assets/styles.scss";
+
+.testimonials-container {
+    background: linear-gradient(155deg, #1d4068 44%, #2d629f);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 <page-query>
 query {
@@ -448,5 +472,6 @@ query {
             }
         }
     }
+
 }
 </static-query>
