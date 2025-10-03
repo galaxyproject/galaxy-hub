@@ -99,7 +99,7 @@
                         :sort-compare="customSortCompare"
                         @filtered="(items, total) => updateDisplayed(tab, total)"
                     >
-                        <template #cell(resource)="data">
+                        <template #cell(platform)="data">
                             <a :href="data.item.path">
                                 {{ data.item.title || data.item.path }}
                             </a><br>
@@ -112,6 +112,14 @@
                             >
                                 {{ short(link.url) }}
                             </a>
+                        </template>
+                        <template #cell(region)="data">
+                            <span v-if="getRegionValue(data.item)">
+                                {{ getRegionValue(data.item) }}
+                            </span>
+                            <span v-else class="text-muted">
+                                -
+                            </span>
                         </template>
                         <template #cell(tier)="data">
                             <span v-if="getTierValue(data.item)" class="badge badge-primary">
@@ -209,7 +217,7 @@ const tabs = [
         anchor: "usegalaxy-dir",
         linkGroup: "public-server",
         columns: [
-            createSortableField("resource", "Resource"),
+            createSortableField("platform", "Resource"),
             { key: "link", label: "Server" }, 
             { key: "summary", label: "Summary" }, 
             { key: "keywords", label: "Keywords" }
@@ -220,7 +228,7 @@ const tabs = [
         label: "All",
         linkGroup: "public-server",
         columns: [
-            createSortableField("resource", "Resource"),
+            createSortableField("platform", "Resource"),
             { key: "link", label: "Server" }, 
             { key: "cloud", label: "Cloud" }, 
             { key: "deployable", label: "Deployable" }, 
@@ -232,9 +240,11 @@ const tabs = [
         id: "public-server",
         label: "Public Servers",
         columns: [
-            createSortableField("resource", "Resource"),
-            createSortableField("tier", "Tier"),
+            createSortableField("platform", "Resource"),
+            // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
+            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" }, 
+            createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" }
         ]
     },
@@ -242,7 +252,7 @@ const tabs = [
         id: "academic-cloud",
         label: "Academic Clouds",
         columns: [
-            createSortableField("resource", "Resource"),
+            createSortableField("platform", "Resource"),
             { key: "link", label: "Link" }, 
             { key: "summary", label: "Summary" }, 
             { key: "purview", label: "Purview" }, 
@@ -253,9 +263,10 @@ const tabs = [
         id: "commercial-cloud",
         label: "Commercial Clouds",
         columns: [
-            createSortableField("resource", "Resource"),
+            createSortableField("platform", "Resource"),
             { key: "link", label: "Link" }, 
             { key: "summary", label: "Summary" }, 
+            createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" }
         ]
     },
@@ -265,7 +276,7 @@ const tabs = [
         anchor: "container",
         linkGroup: "container",
         columns: [
-            createSortableField("resource", "Resource"),
+            createSortableField("platform", "Resource"),
             { key: "link", label: "Link" }, 
             { key: "summary", label: "Summary" }, 
             { key: "keywords", label: "Keywords" }
@@ -277,7 +288,7 @@ const tabs = [
         anchor: "vm",
         linkGroup: "vm",
         columns: [
-            createSortableField("resource", "Resource"),
+            createSortableField("platform", "Resource"),
             { key: "link", label: "Link" }, 
             { key: "summary", label: "Summary" }, 
             { key: "keywords", label: "Keywords" }
@@ -285,7 +296,6 @@ const tabs = [
     }
 ];
 
-// Initialize tab properties
 for (const tab of tabs) {
     tab.platforms = [];
     tab.displayed = 0;
@@ -346,7 +356,7 @@ export default {
             keywords: KEYWORDS,
             tabs: tabs,
             pageInserts: {},
-            tabState: null  // Will be initialized in created()
+            tabState: null
         };
     },
     
@@ -355,7 +365,7 @@ export default {
             return this.pageInserts || {};
         },
         platforms() {
-            const platforms = this.$page.platforms.edges.map((edge) => edge.node); // Use 'const'
+            const platforms = this.$page.platforms.edges.map((edge) => edge.node);
             platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
             return platforms;
         }
@@ -365,33 +375,31 @@ export default {
         mdToHtml,
         
         getTierValue(item) {
-            // Handle array format: designation = [{ tier: 1 }]
-            if (item.designation && Array.isArray(item.designation) && item.designation.length > 0) {
-                return item.designation[0].tier;
-            }
-            // Handle object format: designation = { tier: 1 }
-            if (item.designation && item.designation.tier) {
-                return item.designation.tier;
-            }
-            return null;
+            const { getTierValue } = useTableSorting();
+            return getTierValue(item);
+        },
+        
+        getRegionValue(item, platform_group = null) {
+            const { getRegionValue } = useTableSorting();
+            return getRegionValue(item, platform_group);
         },
         
         platformsByGroup(group) {
             return this.platforms.filter((platform) => platformContainsGroup(platform, group));
         },
         
-        getPlatformValueByGroup(platformData, group, key) {
-            for (const platform of platformData.platforms) { // Use 'const' instead of 'let'
+        getPlatformValueByGroup(platformData, group, key) { //TODO refactor
+            for (const platform of platformData.platforms) {
                 if (platform.platform_group === group) {
                     return platform[key];
                 }
             }
-            return undefined; // Explicit return for no match
+            return undefined;
         },
         
         getLinks(platform, groups) {
-            const links = []; // Use 'const'
-            for (const platformData of platform.platforms) { // Use 'const'
+            const links = [];
+            for (const platformData of platform.platforms) {
                 if (groups.includes(platformData.platform_group)) {
                     links.push({ 
                         url: platformData.platform_url, 
@@ -413,8 +421,8 @@ export default {
             } else {
                 tab.pageStart = (tab.currentPage - 1) * this.perPage + 1;
             }
-            
-            const pageEnd = tab.currentPage * this.perPage; // Use 'const'
+
+            const pageEnd = tab.currentPage * this.perPage;
             if (pageEnd > tab.displayed) {
                 tab.pageEnd = tab.displayed;
             } else {
@@ -423,13 +431,18 @@ export default {
         },
         
         short(url) {
-            // Remove (1) http(s):// and www. prefixes and (2) hanging "/" and (3) numeric 4-digit port suffix for display purposes
+            // For display purposes, remove (1) http(s):// and www. prefixes and (2) hanging "/" and (3) numeric 4-digit port suffix 
             return url.replace(/^(https?:\/\/)?(www\.)?/, "").replace(/\/$/, "").replace(/:\d{4}$/, "");
         },
         
         customSortCompare(aRow, bRow, key) {
             const { customSortCompare } = useTableSorting();
-            return customSortCompare(aRow, bRow, key);
+            const activeTab = this.tabs[this.tabState?.activeTabIndex || 0];
+            const context = {
+                platform_group: activeTab?.linkGroup || activeTab?.id
+            };
+            
+            return customSortCompare(aRow, bRow, key, context);
         }
     },
     
@@ -437,7 +450,7 @@ export default {
         const { createTabStateManager } = useTableRouting();
         this.tabState = createTabStateManager(this.tabs, this.$route, this.$router);
         
-        for (const tab of this.tabs) { // Use 'const' instead of 'let'
+        for (const tab of this.tabs) {
             if (tab.id === "usegalaxy") {
                 tab.platforms = this.platforms.filter((platform) => platform.scope === "usegalaxy");
             } else if (tab.id === "all") {
@@ -450,7 +463,7 @@ export default {
         }
 
         this.pageInserts = {};
-        for (const edge of this.$page.allInsert.edges) { // Use 'const' instead of 'let'
+        for (const edge of this.$page.allInsert.edges) {
             const name = rmSuffix(rmPrefix(edge.node.path, "/insert:/use/"), "/");
             this.pageInserts[name] = edge.node;
         }
@@ -460,10 +473,10 @@ export default {
     },
 
     watch: {
-        '$route.query.resource_type'(newType, oldType) {
+        "$route.query.platform_group"(newGroup, oldGroup) {
             // Handle direct URL navigation or browser back/forward
-            if (newType !== oldType && this.tabState) {
-                this.tabState.handleRouteChange(newType, oldType);
+            if (newGroup !== oldGroup && this.tabState) {
+                this.tabState.handleRouteChange(newGroup, oldGroup);
             }
         }
     }
@@ -505,6 +518,7 @@ query {
                     platform_group
                     platform_url
                     platform_purview
+                    platform_location
                 }
             }
         }
@@ -540,9 +554,9 @@ footer.page-footer {
 }
 
 ::v-deep .table td:first-child,
-::v-deep .table td[aria-describedby$="-resource"],
-::v-deep .table td[data-label="Resource"],
-::v-deep .table td[data-label="resource"] {
+::v-deep .table td[aria-describedby$="-platform"],
+::v-deep .table td[data-label="Platform"],
+::v-deep .table td[data-label="platform"] {
     white-space: normal !important;
     word-wrap: break-word;
     word-break: break-word;
@@ -551,7 +565,7 @@ footer.page-footer {
 }
 
 ::v-deep .table th:first-child,
-::v-deep .table th[aria-describedby$="-resource"] {
+::v-deep .table th[aria-describedby$="-platform"] {
     white-space: normal !important;
     word-wrap: break-word;
     word-break: break-word;

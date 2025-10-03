@@ -533,6 +533,9 @@ module.exports = function (api) {
                                 platform_location
                                 platform_purview
                             }
+                            designation {
+                                tier
+                            }
                         }
                     }
                 }

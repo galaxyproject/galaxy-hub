@@ -5,14 +5,14 @@ export function useTableSorting() {
      * @param {Object} aRow - First row object to compare
      * @param {Object} bRow - Second row object to compare
      * @param {string} key - Column key being sorted
+     * @param {Object} context - Context object with platform_group info
      * @returns {number|false} - Sort result (-1, 0, 1) or false for default sorting
      */
-    const customSortCompare = (aRow, bRow, key) => {
-        // Get the appropriate sort handler for this key
+    const customSortCompare = (aRow, bRow, key, context = {}) => {
         const sortHandler = getSortHandler(key);
         
         if (sortHandler) {
-            return sortHandler(aRow, bRow);
+            return sortHandler(aRow, bRow, context);
         }
         
         // Return false to use Bootstrap Vue's default sorting for other columns
@@ -26,24 +26,25 @@ export function useTableSorting() {
      */
     const getSortHandler = (key) => {
         const sortHandlers = {
-            'resource': resourceSortHandler,
-            'title': titleSortHandler,
-            'summary': textSortHandler,
-            'tier': tierSortHandler,
+            platform: platformSortHandler,
+            title: titleSortHandler,
+            summary: textSortHandler,
+            tier: tierSortHandler,
+            region: regionSortHandler
         };
         
         return sortHandlers[key] || null;
     };
     
     /**
-     * Sort handler for resource columns (handles title/path fallback)
+     * Sort handler for platform columns (handles title/path fallback)
      * @param {Object} aRow - First row object
      * @param {Object} bRow - Second row object
      * @returns {number} - Sort result (-1, 0, 1)
      */
-    const resourceSortHandler = (aRow, bRow) => {
-        const a = getResourceDisplayValue(aRow);
-        const b = getResourceDisplayValue(bRow);
+    const platformSortHandler = (aRow, bRow) => {
+        const a = getPlatformDisplayValue(aRow);
+        const b = getPlatformDisplayValue(bRow);
         return compareStrings(a, b);
     };
     
@@ -54,8 +55,8 @@ export function useTableSorting() {
      * @returns {number} - Sort result (-1, 0, 1)
      */
     const titleSortHandler = (aRow, bRow) => {
-        const a = (aRow.title || '').toLowerCase().trim();
-        const b = (bRow.title || '').toLowerCase().trim();
+        const a = (aRow.title || "").toLowerCase().trim();
+        const b = (bRow.title || "").toLowerCase().trim();
         return compareStrings(a, b);
     };
     
@@ -66,8 +67,8 @@ export function useTableSorting() {
      * @returns {number} - Sort result (-1, 0, 1)
      */
     const textSortHandler = (aRow, bRow) => {
-        const a = String(aRow.value || '').toLowerCase().trim();
-        const b = String(bRow.value || '').toLowerCase().trim();
+        const a = String(aRow.value || "").toLowerCase().trim();
+        const b = String(bRow.value || "").toLowerCase().trim();
         return compareStrings(a, b);
     };
     
@@ -77,11 +78,10 @@ export function useTableSorting() {
      * @param {Object} bRow - Second row object
      * @returns {number} - Sort result (-1, 0, 1)
      */
-    const tierSortHandler = (aRow, bRow) => {
+    const tierSortHandler = (aRow, bRow) => { // TODO refactor into another method
         const a = getTierValue(aRow);
         const b = getTierValue(bRow);
         
-        // Handle null/undefined cases
         if (a === null && b === null) return 0;
         if (a === null) return 1;
         if (b === null) return -1;
@@ -90,12 +90,33 @@ export function useTableSorting() {
     };
     
     /**
-     * Get the display value for resource column (title or path fallback)
+     * Sort handler for region columns (handles string region values)
+     * @param {Object} aRow - First row object
+     * @param {Object} bRow - Second row object
+     * @param {Object} context - Context object with platform_group
+     * @returns {number} - Sort result (-1, 0, 1)
+     */
+    const regionSortHandler = (aRow, bRow, context = {}) => {
+        const a = getRegionValue(aRow, context.platform_group);
+        const b = getRegionValue(bRow, context.platform_group);
+
+        if (a === null && b === null) return 0;
+        if (a === null) return 1;
+        if (b === null) return -1;
+        
+        const aStr = String(a || "");
+        const bStr = String(b || "");
+        
+        return aStr.localeCompare(bStr);
+    };
+    
+    /**
+     * Get the display value for platform column (title or path fallback)
      * @param {Object} row - Row object
      * @returns {string} - Display value for sorting
      */
-    const getResourceDisplayValue = (row) => {
-        return (row.title || row.path || '').toLowerCase().trim();
+    const getPlatformDisplayValue = (row) => {
+        return (row.title || row.path || "").toLowerCase().trim();
     };
     
     /**
@@ -104,15 +125,40 @@ export function useTableSorting() {
      * @returns {number|null} - Tier value for sorting
      */
     const getTierValue = (row) => {
-        // Handle array format: designation = [{ tier: 1 }]
         if (row.designation && Array.isArray(row.designation) && row.designation.length > 0) {
             const tier = parseInt(row.designation[0].tier, 10);
             return isNaN(tier) ? null : tier;
         }
-        // Handle object format: designation = { tier: 1 }
         if (row.designation && row.designation.tier) {
             const tier = parseInt(row.designation.tier, 10);
             return isNaN(tier) ? null : tier;
+        }
+        return null;
+    };
+    
+    /**
+     * Get the region value for sorting (returns string value or null)
+     * @param {Object} row - Row object
+     * @param {string} platform_group - Optional platform group to filter by
+     * @returns {string|null} - Region value for sorting
+     */
+    const getRegionValue = (row, platform_group) => {
+        if (platform_group) {
+            for (const platformData of row.platforms) {
+                if (platformData.platform_group === platform_group && platformData.platform_location) {
+                    return platformData.platform_location;
+                }
+            }
+        } else {
+            const locations = [];
+            for (const platformData of row.platforms) {
+                if (platformData.platform_location && !locations.includes(platformData.platform_location)) {
+                    locations.push(platformData.platform_location);
+                }
+            }
+            if (locations.length > 0) {
+                return locations.join(", ");
+            }
         }
         return null;
     };
@@ -124,9 +170,16 @@ export function useTableSorting() {
      * @returns {number} - Sort result (-1, 0, 1)
      */
     const compareStrings = (a, b) => {
-        return a.localeCompare(b, undefined, {
+        if (a == null && b == null) return 0;
+        if (a == null) return 1;
+        if (b == null) return -1;
+        
+        const aStr = String(a);
+        const bStr = String(b);
+        
+        return aStr.localeCompare(bStr, undefined, {
             numeric: true,
-            sensitivity: 'base'
+            sensitivity: "base"
         });
     };
     
@@ -143,7 +196,7 @@ export function useTableSorting() {
             label,
             sortable: true,
             thClass: `sortable-${key}-column`,
-            thStyle: { cursor: 'pointer' },
+            thStyle: { cursor: "pointer" },
             ...options
         };
     };
@@ -155,14 +208,11 @@ export function useTableSorting() {
      */
     const createSortableFields = (fieldConfigs) => {
         return fieldConfigs.map(config => {
-            if (typeof config === 'string') {
-                // Simple string format: convert "resource" to full config
+            if (typeof config === "string") {
                 return createSortableField(config, capitalizeFirst(config));
             } else if (config.sortable !== false) {
-                // Object format: enhance with sortable properties
                 return createSortableField(config.key, config.label, config);
             }
-            // Return as-is if sortable is explicitly false
             return config;
         });
     };
@@ -179,7 +229,7 @@ export function useTableSorting() {
     /**
      * Get sort state for debugging
      * @param {Object} tableRef - Reference to Bootstrap Vue table
-     * @returns {Object} - Current sort state
+     * @returns {Object|null} - Current sort state or null
      */
     const getSortState = (tableRef) => {
         if (!tableRef) return null;
@@ -196,18 +246,21 @@ export function useTableSorting() {
         // Main sorting function
         customSortCompare,
         
-        resourceSortHandler,
+        platformSortHandler,
         titleSortHandler,
         textSortHandler,
         tierSortHandler,
+        regionSortHandler,
         
         createSortableField,
         createSortableFields,
         
-        getResourceDisplayValue,
+        getPlatformDisplayValue,
         getTierValue,
+        getRegionValue,
         compareStrings,
         getSortState,
-        getSortHandler
+        getSortHandler,
+        capitalizeFirst
     };
 }

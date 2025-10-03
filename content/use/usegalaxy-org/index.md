@@ -26,4 +26,6 @@ quotas:
   - "Storage and computational quotas.  See [Main](/main/) for details."
 sponsors:
   - "[Galaxy Project](/galaxy-project/)"
+designation: 
+  tier: 1 # MANUAL UPDATES: BY ADMIN ONLY
 ---

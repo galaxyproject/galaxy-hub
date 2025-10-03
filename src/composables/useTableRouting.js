@@ -5,20 +5,19 @@ export function useTableRouting() {
      * @returns {string} URL-friendly slug
      */
     const getTabSlug = (tab) => {
-        if (!tab || !tab.id) return '';
+        if (!tab || !tab.id) return "";
         
-        // Handle special cases first
         const slugMap = {
-            'usegalaxy': 'usegalaxy',
-            'all': 'all',
-            'public-server': 'public-servers',
-            'academic-cloud': 'academic-clouds',
-            'commercial-cloud': 'commercial-clouds',
-            'containers': 'containers',
-            'vms': 'vms'
+            usegalaxy: "usegalaxy",
+            all: "all",
+            "public-server": "public-servers",
+            "academic-cloud": "academic-clouds",
+            "commercial-cloud": "commercial-clouds",
+            containers: "containers",
+            vms: "vms"
         };
         
-        return slugMap[tab.id] || tab.id.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+        return slugMap[tab.id] || tab.id.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
     };
     
     /**
@@ -40,25 +39,20 @@ export function useTableRouting() {
      */
     const getActiveTabIndex = (tabs, route) => {
         if (!route || !route.query) {
-            // console.log('No route or query available');
             return 0;
         }
 
-        const resourceType = route.query.resource_type;
-        // console.log('Looking for resource_type:', resourceType);
+        const platformGroup = route.query.platform_group;
         
-        if (!resourceType || !tabs || !Array.isArray(tabs)) {
-            // console.log('No resource_type or tabs not ready');
+        if (!platformGroup || !tabs || !Array.isArray(tabs)) {
             return 0;
         }
 
         const tabIndex = tabs.findIndex(tab => {
             const slug = getTabSlug(tab);
-            // console.log(`Comparing tab ${tab.id} (slug: ${slug}) with ${resourceType}`);
-            return slug === resourceType;
+            return slug === platformGroup;
         });
 
-        // console.log('Found tab index:', tabIndex);
         return tabIndex >= 0 ? tabIndex : 0;
     };
     
@@ -67,6 +61,7 @@ export function useTableRouting() {
      * @param {Object} router - Vue router instance
      * @param {Object} route - Current route object
      * @param {Object} tab - Selected tab object
+     * @returns {void}
      */
     const updateUrlForTab = (router, route, tab) => {
         if (!router || !tab) return;
@@ -75,15 +70,15 @@ export function useTableRouting() {
         const newQuery = { ...route.query };
         
         if (slug) {
-            newQuery.resource_type = slug;
+            newQuery.platform_group = slug;
         } else {
-            delete newQuery.resource_type;
+            delete newQuery.platform_group;
         }
         
         // Update URL without page refresh, ignore navigation duplicated errors
         router.push({ query: newQuery }).catch(err => {
-            if (err.name !== 'NavigationDuplicated') {
-                console.warn('Navigation error:', err);
+            if (err.name !== "NavigationDuplicated") {
+                console.warn("Navigation error:", err);
             }
         });
     };
@@ -96,11 +91,9 @@ export function useTableRouting() {
      * @returns {Object} Tab state manager with reactive activeTabIndex
      */
     const createTabStateManager = (tabs, route, router) => {
-        // Initialize active tab index from URL
         let activeTabIndex = getActiveTabIndex(tabs, route);
         
         return {
-            // Reactive property for active tab index
             get activeTabIndex() {
                 return activeTabIndex;
             },
@@ -109,39 +102,31 @@ export function useTableRouting() {
                 activeTabIndex = value;
             },
             
-            // Method to handle tab changes
             onTabChange(newTabIndex) {
-                // console.log('Tab changed to index:', newTabIndex);
                 activeTabIndex = newTabIndex;
                 const tab = tabs[newTabIndex];
                 updateUrlForTab(router, route, tab);
             },
             
-            // Method to initialize from URL
             initializeFromUrl() {
-                const resourceType = route.query.resource_type;
-                // console.log('Initializing from URL, resource_type:', resourceType);
+                const platformGroup = route.query.platform_group;
                 
-                if (resourceType) {
-                    const tabIndex = tabs.findIndex(tab => getTabSlug(tab) === resourceType);
-                    // console.log('Found tab index:', tabIndex, 'for resource_type:', resourceType);
+                if (platformGroup) {
+                    const tabIndex = tabs.findIndex(tab => getTabSlug(tab) === platformGroup);
                     
                     if (tabIndex >= 0) {
                         activeTabIndex = tabIndex;
-                        // console.log('Set activeTabIndex to:', tabIndex);
                         return true;
                     }
                 }
                 
-                // Default to first tab if no match or no resource_type
+                // Default to first tab if no match or no platform_group
                 activeTabIndex = 0;
                 return false;
             },
             
-            // Method to handle route changes
-            handleRouteChange(newResourceType, oldResourceType) {
-                // console.log('Route query changed from', oldResourceType, 'to', newResourceType);
-                if (newResourceType !== oldResourceType) {
+            handleRouteChange(newPlatformType, oldPlatformType) {
+                if (newPlatformType !== oldPlatformType) {
                     this.initializeFromUrl();
                 }
             }
@@ -155,11 +140,10 @@ export function useTableRouting() {
      * @returns {Object|null} Initial tab object or null
      */
     const initializeFromUrl = (tabs, route) => {
-        const resourceType = route.query.resource_type;
-        if (resourceType && tabs) {
-            const tab = getTabFromSlug(tabs, resourceType);
+        const platformGroup = route.query.platform_group;
+        if (platformGroup && tabs) {
+            const tab = getTabFromSlug(tabs, platformGroup);
             if (tab) {
-                // console.log(`Initialized with tab: ${tab.label} (${resourceType})`);
                 return tab;
             }
         }
