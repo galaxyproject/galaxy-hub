@@ -15,6 +15,7 @@ supporters:
   - cesnet
   - elixir-cz
   - de.KCD
+  - ics-muni
 subsites: [global, us, eu, fr, esg]
 ---
 
