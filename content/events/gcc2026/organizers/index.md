@@ -18,10 +18,10 @@ The organizing committee is the oversight and coordination group that makes sure
 GCC2026 runs smoothly.
 
 * **[Ahmed Awan](https://www.linkedin.com/in/ahmed-awan-70a20919a/)**, [Johns Hopkins University](https://jhu.edu/), United States
-* **[Anthony Bretaudeau](https://cv.hal.science/anthony-bretaudeau)**, [French National Institute for Agriculture, Food, and Environment (INRAE)](https://www.inrae.fr/en), France
+* **[Anthony Bretaudeau](https://cv.hal.science/anthony-bretaudeau)**, [IRISA / CNRS](https://www.irisa.fr/en), [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/), France
 * **[Bérénice Batut](https://www.linkedin.com/in/berenicebatut/)**, [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/), France
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**, [Johns Hopkins University](https://jhu.edu/), United States
-* **[Gildas Le Corguillé](https://www.linkedin.com/in/gildas-le-corguill%C3%A9-4b247b38/)**, [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/), France
+* **[Gildas Le Corguillé](https://www.linkedin.com/in/gildas-le-corguill%C3%A9-4b247b38/)**, [Station Biologique de Roscoff / Sorbonne Université](https://www.sb-roscoff.fr/en), [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/), France
 * **[Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Natalie Whitaker](https://www.linkedin.com/in/natalie-whitaker-ms-23a0a0186/)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Tyler Collins](https://orcid.org/0000-0002-3026-9049)**, [Johns Hopkins University](https://jhu.edu/), United States
