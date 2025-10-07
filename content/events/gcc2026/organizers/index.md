@@ -19,7 +19,7 @@ GCC2026 runs smoothly.
 
 * **[Ahmed Awan](https://www.linkedin.com/in/ahmed-awan-70a20919a/)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Anthony Bretaudeau](https://cv.hal.science/anthony-bretaudeau)**, [IRISA / CNRS](https://www.irisa.fr/en), [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/), France
-* **[Bérénice Batut](https://www.linkedin.com/in/berenicebatut/)**, [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/), France
+* **[Bérénice Batut](https://www.linkedin.com/in/berenicebatut/)**, [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/) & Auvergne Bioinformatique, Université Clermont Auvergne, France
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Gildas Le Corguillé](https://www.linkedin.com/in/gildas-le-corguill%C3%A9-4b247b38/)**, [Station Biologique de Roscoff / Sorbonne Université](https://www.sb-roscoff.fr/en), [Institut Français de Bioinformatique](https://www.france-bioinformatique.fr/en/), France
 * **[Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)**, [Johns Hopkins University](https://jhu.edu/), United States
