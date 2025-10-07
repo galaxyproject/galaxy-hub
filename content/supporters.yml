@@ -367,6 +367,10 @@ supporters:
       image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
       website: http://uni-freiburg.de/
 
+    - name: ics-muni
+      image: /images/logos/ics-muni.png
+      website: https://www.ics.muni.cz/
+
     - name: usegalaxy-eu
       image: /images/logos/useGalaxy.eu.svg
       website: https://usegalaxy.eu/
