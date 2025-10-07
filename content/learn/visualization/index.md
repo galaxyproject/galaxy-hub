@@ -11,6 +11,22 @@ title: Galaxy's Visualization Framework
 * No external servers or downloads required
 * Support for third-party visualizations and custom plugin development
 
+### Example
+
+1. Select **Visualizations** from the Activity Bar.
+![](/learn/visualization/charts-1.png)
+
+2. From the list of visualizations, select for example **Bar, Line, and Scatter**.
+![](/learn/visualization/charts-2.png)
+
+3. If you do not have a compatible tabular dataset, upload an example from the dropdown menu.
+![](/learn/visualization/charts-3.png)
+
+4. Expand the side panel, add tracks, and configure your visualization.
+![](/learn/visualization/charts-4.png)
+
+You can now save and share your visualization with others.
+
 ### Learn More
 
 More about *Galaxy Charts*: [https://charts.galaxyproject.org/](https://charts.galaxyproject.org/)
