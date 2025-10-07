@@ -3,11 +3,13 @@ title: "Galaxy Job Radar: Making Galaxy More Accessible to Users"
 date: "2025-04-10" 
 authors: "Tomas Vondrak" 
 tease: "Visualizing Galaxy computations to help users understand the Galaxy ecosystem and provide administrators with tools to analyze computational progress."
-tags: [collaboration, esg, esg-wp3]
+tags: [esg, esg-wp3]
 subsites: [all, global, esg, eu]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+  - cesnet
+  - elixir-cz
 ---
 The Galaxy Project offers invaluable support to scientists and researchers, but its inner workings can be complex and lack visual appeal, potentially deterring many prospective users. To bridge this gap, I've started developing a project entitled __Galaxy Job Radar__, designed to dynamically visualize the current and past computations within the Galaxy system. This tool also provides significant advantages to Galaxy administrators by offering insights into computational maintenance and potential threats across the network.
 
