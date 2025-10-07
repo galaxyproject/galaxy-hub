@@ -13,21 +13,21 @@ title: Galaxy's Visualization Framework
 
 ### Example
 
-1. Select **Visualizations** from the Activity Bar.
+#### 1. **Open `Visualization` from the `Activity Bar`**
 ![](/learn/visualization/charts-1.png)
 
-2. From the list of visualizations, select for example **Bar, Line, and Scatter**.
+#### 2. **Select `Bar, Line, and Scatter` and Upload an Example.**
 ![](/learn/visualization/charts-2.png)
 
-3. If you do not have a compatible tabular dataset, upload an example from the dropdown menu.
+#### 3. **Visualize and Expand the Side Panel**
 ![](/learn/visualization/charts-3.png)
 
-4. Expand the side panel, add tracks, and configure your visualization.
+#### 4. **Add `Tracks` and Configure**
 ![](/learn/visualization/charts-4.png)
 
-You can now save and share your visualization with others.
+**You can now save and share your visualization with others.**
 
-### Learn More
+### Learn More and Explore Examples
 
 More about *Galaxy Charts*: [https://charts.galaxyproject.org/](https://charts.galaxyproject.org/)
 
