@@ -4,6 +4,8 @@ title: Galaxy's Visualization Framework
 
 *Galaxy Charts* is Galaxy's primary visualization framework for creating interactive, browser-based visualizations directly from Galaxy datasets. It supports seamless integration of third-party visualization plugins and includes a broad set of JavaScript-based visualizations, from standard charts such as bar, line, scatter, and pie to advanced viewers for molecules, proteins, networks, and phylogenetic trees.
 
+Learn more at [https://charts.galaxyproject.org/](https://charts.galaxyproject.org/).
+
 ### Key Points
 
 * Fast, interactive visualizations in the browser
@@ -13,23 +15,19 @@ title: Galaxy's Visualization Framework
 
 ### Example
 
-#### 1. **Open `Visualization` from the `Activity Bar`**
+#### 1. **Click on `Visualization` from `Activity Bar`**
 ![](/learn/visualization/charts-1.png)
 
-#### 2. **Select `Bar, Line, and Scatter` and Upload an Example.**
+#### 2. **Select `Bar, Line, and Scatter` and Upload Example.**
 ![](/learn/visualization/charts-2.png)
 
-#### 3. **Visualize and Expand the Side Panel**
+#### 3. **Visualize and Expand `Side Panel`**
 ![](/learn/visualization/charts-3.png)
 
-#### 4. **Add `Tracks` and Configure**
+#### 4. **Add `Tracks` and `Settings`**
 ![](/learn/visualization/charts-4.png)
 
-**You can now save and share your visualization with others.**
-
-### Learn More and Explore Examples
-
-More about *Galaxy Charts*: [https://charts.galaxyproject.org/](https://charts.galaxyproject.org/)
+*You can now save and share your visualization with others.*
 
 ---
 
