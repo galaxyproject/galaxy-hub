@@ -32,7 +32,7 @@ I contributed to the training ecosystem by:
 - Writing new workflows and training materials  
 - Developing a hands-on tutorial for **electrophoresis gel image analysis** in biochemistry applications  
 
-The electrophoresis tutorial in particular reflects my passion for bridging molecular biology with accessible, reproducible computational tools. By combining **QuPath** and **Galaxy imaging tools**, the workflow provides an open alternative for gel quantification — a method that is widely used but often lacks transparency in analysis.
+The electrophoresis tutorial, written in collaboration with **Diana Chiang Jurado**, reflects my passion for bridging molecular biology with accessible, reproducible computational tools. By combining **QuPath** and **Galaxy imaging tools**, the workflow provides an open alternative for gel quantification — a method that is widely used but often lacks transparency in analysis.
 
 ## Gratitude, Memories, and Reflections
 
@@ -42,7 +42,7 @@ On my final day in Freiburg, we gathered for an enjoyable **barbecue with the Ga
 
 > *“Science is not only about answering questions, but also about building the bridges that allow others to cross into new territories of knowledge.”*  
 
-I would like to thank the **Galaxy Europe team** — especially **Dr. Björn Grüning**, **Prof. Rolf Backofen**, **Dr. Martin Raden**, **Dr. Anup Kumar**, **Dr. Pavan Videm** and all my wonderful colleagues — for their support, encouragement, and vision. It was my honor to work alongside you, to share knowledge, and to contribute in my own way to the Galaxy ecosystem.  
+I would like to thank the **Galaxy Europe team** — especially **Dr. Björn Grüning**, **Prof. Rolf Backofen**, **Dr. Martin Raden**, **Dr. Anup Kumar**, **Dr. Pavan Videm** and all my wonderful colleagues — for their support, encouragement, and vision. It was my honor to work alongside you, to share knowledge, and to contribute in my own way to the Galaxy ecosystem. I would also like to warmly acknowledge the invaluable support of my supervisors at the University of Isfahan, **Dr. Fatemeh Javadi-Zarnaghi** and **Dr. Fariba Dehghanian**, whose scientific guidance and continuous encouragement, greatly enriched my research stay and overall academic growth.
 
 I returned to my PhD journey at the **University of Isfahan** with renewed energy, inspiration, and a deep appreciation for the Galaxy community. I look forward to continuing our collaboration and to helping build tools and training that empower researchers worldwide.  
 
