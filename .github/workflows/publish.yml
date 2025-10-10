@@ -53,3 +53,4 @@ jobs:
           workflow: feed_bot.yml
           repo: usegalaxy-eu/galaxy-social-assistant
           token: ${{ secrets.SOCIAL_ASSISTANT_DISPATCH_TOKEN }}
+          ref: main
