@@ -47,6 +47,7 @@ jobs:
         if: steps.check_changes.outputs.changes_detected == 'true'
         run: sleep 30
       - name: Create Galaxy Social Assistant Token
+        if: steps.check_changes.outputs.changes_detected == 'true'
         uses: actions/create-github-app-token@v2
         id: galaxy-social-assistant-token
         with:
