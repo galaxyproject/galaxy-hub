@@ -52,6 +52,8 @@ jobs:
         with:
           app-id: ${{ vars.GALAXY_SOCIAL_ASSISTANT_APP_ID }}
           private-key: ${{ secrets.GALAXY_SOCIAL_ASSISTANT_PRIVATE_KEY }}
+          owner: "usegalaxy-eu"
+          repositories: "galaxy-social-assistant"
       - name: Trigger Galaxy Social Assistant
         if: steps.check_changes.outputs.changes_detected == 'true'
         uses: benc-uk/workflow-dispatch@v1
