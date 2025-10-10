@@ -1,0 +1,52 @@
+name: Deploy CloudFront Rewrites Function
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'deploy/rewrites.js'
+  pull_request:
+    branches:
+      - master
+    paths:
+      - 'deploy/rewrites.js'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - name: Run tests
+        run: node deploy/test-rewrites.js
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Deploy CloudFront Rewrites Function
+        uses: dhollerbach/actions.deploy-cloudfront-function@v1
+        with:
+          function-name: hub-rewrites
+          comment: Deployed from GitHub Actions
+          source-file: ./deploy/rewrites.js
