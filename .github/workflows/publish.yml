@@ -34,3 +34,22 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "us-east-2" # optional: defaults to us-east-1
           SOURCE_DIR: "dist" # optional: defaults to entire repository
+
+      - name: Check for news/events content changes
+        id: check_changes
+        run: |
+          if git diff --name-only HEAD~1 HEAD | grep -E '^content/(news|events)/' > /dev/null; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Wait for feeds to be available
+        if: steps.check_changes.outputs.changes_detected == 'true'
+        run: sleep 30
+      - name: Trigger Galaxy Social Assistant
+        if: steps.check_changes.outputs.changes_detected == 'true'
+        uses: peter-evans/repository-dispatch@v4
+        with:
+          token: ${{ secrets.SOCIAL_ASSISTANT_DISPATCH_TOKEN }}
+          repository: usegalaxy-eu/galaxy-social-assistant
+          event-type: feed-updated
