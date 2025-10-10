@@ -46,11 +46,17 @@ jobs:
       - name: Wait for feeds to be available
         if: steps.check_changes.outputs.changes_detected == 'true'
         run: sleep 30
+      - name: Create Galaxy Social Assistant Token
+        uses: actions/create-github-app-token@v2
+        id: galaxy-social-assistant-token
+        with:
+          app-id: ${{ vars.GALAXY_SOCIAL_ASSISTANT_APP_ID }}
+          private-key: ${{ secrets.GALAXY_SOCIAL_ASSISTANT_PRIVATE_KEY }}
       - name: Trigger Galaxy Social Assistant
         if: steps.check_changes.outputs.changes_detected == 'true'
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: feed_bot.yml
           repo: usegalaxy-eu/galaxy-social-assistant
-          token: ${{ secrets.SOCIAL_ASSISTANT_DISPATCH_TOKEN }}
+          token: ${{ steps.galaxy-social-assistant-token.outputs.token }}
           ref: main
