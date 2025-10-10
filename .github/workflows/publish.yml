@@ -48,8 +48,8 @@ jobs:
         run: sleep 30
       - name: Trigger Galaxy Social Assistant
         if: steps.check_changes.outputs.changes_detected == 'true'
-        uses: peter-evans/repository-dispatch@v4
+        uses: benc-uk/workflow-dispatch@v1
         with:
+          workflow: feed_bot.yml
+          repo: usegalaxy-eu/galaxy-social-assistant
           token: ${{ secrets.SOCIAL_ASSISTANT_DISPATCH_TOKEN }}
-          repository: usegalaxy-eu/galaxy-social-assistant
-          event-type: feed-updated
