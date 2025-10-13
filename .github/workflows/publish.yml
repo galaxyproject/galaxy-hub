@@ -34,3 +34,38 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "us-east-2" # optional: defaults to us-east-1
           SOURCE_DIR: "dist" # optional: defaults to entire repository
+
+  galaxy-social-assistant:
+    needs: publish
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check for news/events content changes
+        uses: dorny/paths-filter@v3
+        id: check_changes
+        with:
+          filters: |
+            content:
+              - 'content/news/**'
+              - 'content/events/**'
+      - name: Wait for feeds to be available
+        if: steps.check_changes.outputs.content == 'true'
+        run: sleep 30
+      - name: Create Galaxy Social Assistant Token
+        uses: actions/create-github-app-token@v2
+        id: galaxy-social-assistant-token
+        with:
+          app-id: ${{ vars.GALAXY_SOCIAL_ASSISTANT_APP_ID }}
+          private-key: ${{ secrets.GALAXY_SOCIAL_ASSISTANT_PRIVATE_KEY }}
+          owner: "usegalaxy-eu"
+          repositories: "galaxy-social-assistant"
+      - name: Trigger Galaxy Social Assistant
+        if: steps.check_changes.outputs.content == 'true'
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: feed_bot.yml
+          repo: usegalaxy-eu/galaxy-social-assistant
+          token: ${{ steps.galaxy-social-assistant-token.outputs.token }}
+          ref: main
