@@ -10,7 +10,7 @@
                 v-model="tabState.activeTabIndex"
                 @activate-tab="tabState.onTabChange"
             >
-                <b-tab v-for="(tab, index) in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
+                <b-tab v-for="(tab) in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
                     <!-- Table name. -->
                     <h2 :id="tabs.anchor || tabs.id" class="nav-item">
                         <template v-if="inserts[`tab-${tab.id}`]">
@@ -19,6 +19,7 @@
                         <template v-else>
                             {{ tab.label }}
                         </template>
+                        {{ index }}
                     </h2>
                     <!-- Table description. -->
                     <div
