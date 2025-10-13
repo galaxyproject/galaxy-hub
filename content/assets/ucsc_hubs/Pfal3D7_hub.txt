@@ -67,6 +67,81 @@ labelFields none
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213598441552f6c1076c/display?to_ext=bigbed
 descriptionUrl https://galaxyproject.org/assets/uscs_hubs/unannotated_introns.html
 
+track Gametocytes_lifecycle
+aggregate none
+container multiWig
+visibility dense
+showSubtrackColorOnUi on
+graphTypeDefault bar
+shortLabel Gametocytes Lifec 
+longLabel Gametocytes 4 life cycle stages (mirrorred from VEuPathDB)
+type bigWig
+descriptionUrl https://plasmodb.org/a/app/search/transcript/DatasetsByDatasetNames?param.dataset_name=pfal3D7_Lasonder_Bartfai_Gametocytes_ebi_rnaSeq_RSRC&autoRun=1
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.1_Gametocyte_II_unique_forward_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte II unique forward
+shortLabel II unique plus
+color 130,100,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.1_Gametocyte_II_unique_forward_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.2_Gametocyte_II_non-unique_forward_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte II non-unique forward
+shortLabel II nonuniq plus
+color 130,110,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.2_Gametocyte_II_non-unique_forward_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.3_Gametocyte_II_unique_reverse_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte II unique reverse
+shortLabel II unique rev
+color 130,120,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.3_Gametocyte_II_unique_reverse_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_003.4_Gametocyte_II_non-unique_reverse_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte II non-unique reverse
+shortLabel II nonuniq rev
+color 130,130,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_003.4_Gametocyte_II_non-unique_reverse_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.1_Gametocyte_V_unique_forward_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V unique forward
+shortLabel V unique plus
+color 130,100,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.1_Gametocyte_V_unique_forward_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.2_Gametocyte_V_non-unique_forward_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V non-unique forward
+shortLabel V nonuniq plus
+color 130,110,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.2_Gametocyte_V_non-unique_forward_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.3_Gametocyte_V_unique_reverse_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V unique reverse 
+shortLabel V unique rev 
+color 130,120,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.3_Gametocyte_V_unique_reverse_Coverage.wig.newrefseqs.bw
+type bigWig
+
+track Strand_specific_transcriptomes_of_4_life_cycle_stages_004.4_Gametocyte_V_non-unique_reverse_Coverage.wig.newrefseqs.bw
+longLabel Gametocyte V non-unique reverse
+shortLabel V nonuniq rev
+color 130,130,130
+parent Gametocytes_lifecycle
+bigDataUrl https://js2.jetstream-cloud.org:8001/brc-analytics/pfal3D7/Strand_specific_transcriptomes_of_4_life_cycle_stages_004.4_Gametocyte_V_non-unique_reverse_Coverage.wig.newrefseqs.bw
+type bigWig
+
 track Combined_RNA-Seq
 container multiWig
 shortLabel Combined RNA-Seq

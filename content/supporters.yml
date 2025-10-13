@@ -31,6 +31,14 @@ supporters:
       image: /images/logos/bycovid.png
       website: https://by-covid.org/
 
+    - name: card
+      image: /images/logos/card.jpg
+      website: https://uni-freiburg.de/gdape/card/
+
+    - name: cesnet
+      image: /projects/esg/partner-logos/CESNET_LOGO.png
+      website: https://www.cesnet.cz/
+
     - name: converge
       image: /images/logos/converge_logo.png
       website: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
@@ -122,11 +130,11 @@ supporters:
     - name: elixir-belgium
       image: /images/logos/ELIXIR_BELGIUM_white_background.png
       website: https://www.elixir-belgium.org/
-    
+
     - name: elixir-cz
-      image: /images/logos/elixir-cz-banner.png
+      image: /images/logos/elixir-cz-logo.png
       website: https://www.elixir-czech.cz/
-    
+
     - name: eirene
       image: /images/logos/eirene_black.jpg
       website: https://eirene.eu/
@@ -258,7 +266,7 @@ supporters:
     - name: melbbioinfo
       image: /images/logos/melbbioinfo-logo.png
       website: https://www.melbournebioinformatics.org.au/
-    
+
     - name: metabohub
       image: /images/logos/MetaboHubLogo.jpg
       website: https://www.metabohub.fr/home.html
@@ -270,6 +278,10 @@ supporters:
     - name: mpi
       image: /images/logos/mpi.jpg
       website: https://www.ie-freiburg.mpg.de/
+
+    - name: mwk
+      image: /images/logos/mwk_logo.png
+      website: https://mwk.baden-wuerttemberg.de/
 
     - name: ncgas
       image: /images/logos/ncgas-logo.png
@@ -330,7 +342,7 @@ supporters:
     - name: qfab
       image: /images/logos/qfab-logo.png
       website: https://qfab.org/
-    
+
     - name: rfmf
       image: /images/logos/RFMF.png
       website: https://www.rfmf.fr/
@@ -355,6 +367,10 @@ supporters:
       image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
       website: http://uni-freiburg.de/
 
+    - name: ics-muni
+      image: /images/logos/ics-muni.png
+      website: https://www.ics.muni.cz/
+
     - name: usegalaxy-eu
       image: /images/logos/useGalaxy.eu.svg
       website: https://usegalaxy.eu/
@@ -366,6 +382,10 @@ supporters:
     - name: vib
       image: /images/logos/vib_rf_plant_systems_biology_rgb_pos.png
       website: http://www.vib.be/
+
+    - name: workflowhub
+      image: /images/logos/workflowhub.png
+      website: https://workflowhub.eu/
 
     - name: Worfklow4Metabelomics
       image: /images/logos/logo-ifb-mono-metabohub_2.1_SD_150px.png
