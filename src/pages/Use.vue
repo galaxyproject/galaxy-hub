@@ -5,12 +5,8 @@
             <h1 class="page-title">{{ inserts.main.title }}</h1>
             <div class="markdown" v-html="inserts.main.content"></div>
 
-            <b-tabs 
-                nav-class="font-weight-bold"
-                v-model="tabState.activeTabIndex"
-                @activate-tab="tabState.onTabChange"
-            >
-                <b-tab v-for="(tab) in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
+            <b-tabs nav-class="font-weight-bold" v-model="tabState.activeTabIndex" @activate-tab="tabState.onTabChange">
+                <b-tab v-for="tab in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
                     <!-- Table name. -->
                     <h2 :id="tabs.anchor || tabs.id" class="nav-item">
                         <template v-if="inserts[`tab-${tab.id}`]">
@@ -102,8 +98,8 @@
                     >
                         <template #cell(platform)="data">
                             <a :href="data.item.path">
-                                {{ data.item.title || data.item.path }}
-                            </a><br>
+                                {{ data.item.title || data.item.path }} </a
+                            ><br />
                             <a
                                 v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
                                 :key="link.url"
@@ -118,17 +114,13 @@
                             <span v-if="getRegionValue(data.item)">
                                 {{ getRegionValue(data.item) }}
                             </span>
-                            <span v-else class="text-muted">
-                                -
-                            </span>
+                            <span v-else class="text-muted"> - </span>
                         </template>
                         <template #cell(tier)="data">
                             <span v-if="getTierValue(data.item)" class="badge badge-primary">
                                 Tier {{ getTierValue(data.item) }}
                             </span>
-                            <span v-else class="text-muted">
-                                -
-                            </span>
+                            <span v-else class="text-muted"> - </span>
                         </template>
                         <template #cell(link)="data">
                             <a
@@ -198,14 +190,14 @@ const LINK_DISP_NAMES = {
     "commercial-cloud": "Commercial",
     container: "Container",
     vm: "VM",
-    "public-server": "Server"
+    "public-server": "Server",
 };
 
 const KEYWORDS = {
     usegalaxy: { link: "/use/#usegalaxy-dir", text: "UseGalaxy" },
     general: { link: "/use/#genomics", text: "Genomics" },
     domain: { link: "/use/#domain", text: "Domain" },
-    "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" }
+    "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" },
 };
 
 const { createSortableField } = useTableSorting();
@@ -219,10 +211,10 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Server" }, 
-            { key: "summary", label: "Summary" }, 
-            { key: "keywords", label: "Keywords" }
-        ]
+            { key: "link", label: "Server" },
+            { key: "summary", label: "Summary" },
+            { key: "keywords", label: "Keywords" },
+        ],
     },
     {
         id: "all",
@@ -230,12 +222,12 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Server" }, 
-            { key: "cloud", label: "Cloud" }, 
-            { key: "deployable", label: "Deployable" }, 
-            { key: "summary", label: "Summary" }, 
-            { key: "keywords", label: "Keywords" }
-        ]
+            { key: "link", label: "Server" },
+            { key: "cloud", label: "Cloud" },
+            { key: "deployable", label: "Deployable" },
+            { key: "summary", label: "Summary" },
+            { key: "keywords", label: "Keywords" },
+        ],
     },
     {
         id: "public-server",
@@ -244,32 +236,32 @@ const tabs = [
             createSortableField("platform", "Resource"),
             // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
             { key: "link", label: "Link" },
-            { key: "summary", label: "Summary" }, 
+            { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
-            { key: "keywords", label: "Keywords" }
-        ]
+            { key: "keywords", label: "Keywords" },
+        ],
     },
     {
         id: "academic-cloud",
         label: "Academic Clouds",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" }, 
-            { key: "summary", label: "Summary" }, 
-            { key: "purview", label: "Purview" }, 
-            { key: "keywords", label: "Keywords" }
-        ]
+            { key: "link", label: "Link" },
+            { key: "summary", label: "Summary" },
+            { key: "purview", label: "Purview" },
+            { key: "keywords", label: "Keywords" },
+        ],
     },
     {
         id: "commercial-cloud",
         label: "Commercial Clouds",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" }, 
-            { key: "summary", label: "Summary" }, 
+            { key: "link", label: "Link" },
+            { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
-            { key: "keywords", label: "Keywords" }
-        ]
+            { key: "keywords", label: "Keywords" },
+        ],
     },
     {
         id: "containers",
@@ -278,10 +270,10 @@ const tabs = [
         linkGroup: "container",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" }, 
-            { key: "summary", label: "Summary" }, 
-            { key: "keywords", label: "Keywords" }
-        ]
+            { key: "link", label: "Link" },
+            { key: "summary", label: "Summary" },
+            { key: "keywords", label: "Keywords" },
+        ],
     },
     {
         id: "vms",
@@ -290,11 +282,11 @@ const tabs = [
         linkGroup: "vm",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" }, 
-            { key: "summary", label: "Summary" }, 
-            { key: "keywords", label: "Keywords" }
-        ]
-    }
+            { key: "link", label: "Link" },
+            { key: "summary", label: "Summary" },
+            { key: "keywords", label: "Keywords" },
+        ],
+    },
 ];
 
 for (const tab of tabs) {
@@ -312,23 +304,23 @@ function platformContainsGroup(platform, group) {
 
 function makeFilterKey(platform) {
     const key = [];
-    
+
     for (const field of ["title", "path", "url"]) {
         if (platform[field]) {
             key.push(platform[field]);
         }
     }
-    
+
     if (platform.summary) {
         // TODO: Remove Markdown syntax so that "**F**inge**R**printing **O**ntology of **G**enomic variations"
         // becomes "FingeRprinting Ontology of Genomic variations".
         key.push(platform.summary);
     }
-    
+
     if (KEYWORDS[platform.scope]) {
         key.push(KEYWORDS[platform.scope].text);
     }
-    
+
     for (const platformData of platform.platforms) {
         for (const pkey of ["platform_url", "platform_text"]) {
             if (platformData[pkey]) {
@@ -345,10 +337,10 @@ function makeFilterKey(platform) {
 export default {
     metaInfo() {
         return {
-            title: this.inserts.main.title
+            title: this.inserts.main.title,
         };
     },
-    
+
     data() {
         return {
             perPage: 20,
@@ -357,10 +349,10 @@ export default {
             keywords: KEYWORDS,
             tabs: tabs,
             pageInserts: {},
-            tabState: null
+            tabState: null,
         };
     },
-    
+
     computed: {
         inserts() {
             return this.pageInserts || {};
@@ -369,27 +361,28 @@ export default {
             const platforms = this.$page.platforms.edges.map((edge) => edge.node);
             platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
             return platforms;
-        }
+        },
     },
-    
+
     methods: {
         mdToHtml,
-        
+
         getTierValue(item) {
             const { getTierValue } = useTableSorting();
             return getTierValue(item);
         },
-        
+
         getRegionValue(item, platform_group = null) {
             const { getRegionValue } = useTableSorting();
             return getRegionValue(item, platform_group);
         },
-        
+
         platformsByGroup(group) {
             return this.platforms.filter((platform) => platformContainsGroup(platform, group));
         },
-        
-        getPlatformValueByGroup(platformData, group, key) { //TODO refactor
+
+        getPlatformValueByGroup(platformData, group, key) {
+            //TODO refactor
             for (const platform of platformData.platforms) {
                 if (platform.platform_group === group) {
                     return platform[key];
@@ -397,25 +390,25 @@ export default {
             }
             return undefined;
         },
-        
+
         getLinks(platform, groups) {
             const links = [];
             for (const platformData of platform.platforms) {
                 if (groups.includes(platformData.platform_group)) {
-                    links.push({ 
-                        url: platformData.platform_url, 
-                        text: LINK_DISP_NAMES[platformData.platform_group] 
+                    links.push({
+                        url: platformData.platform_url,
+                        text: LINK_DISP_NAMES[platformData.platform_group],
                     });
                 }
             }
             return links;
         },
-        
+
         updateDisplayed(tab, total) {
             tab.displayed = total;
             this.updatePageData(tab);
         },
-        
+
         updatePageData(tab) {
             if (tab.displayed === 0) {
                 tab.pageStart = 0;
@@ -430,27 +423,30 @@ export default {
                 tab.pageEnd = pageEnd;
             }
         },
-        
+
         short(url) {
-            // For display purposes, remove (1) http(s):// and www. prefixes and (2) hanging "/" and (3) numeric 4-digit port suffix 
-            return url.replace(/^(https?:\/\/)?(www\.)?/, "").replace(/\/$/, "").replace(/:\d{4}$/, "");
+            // For display purposes, remove (1) http(s):// and www. prefixes and (2) hanging "/" and (3) numeric 4-digit port suffix
+            return url
+                .replace(/^(https?:\/\/)?(www\.)?/, "")
+                .replace(/\/$/, "")
+                .replace(/:\d{4}$/, "");
         },
-        
+
         customSortCompare(aRow, bRow, key) {
             const { customSortCompare } = useTableSorting();
             const activeTab = this.tabs[this.tabState?.activeTabIndex || 0];
             const context = {
-                platform_group: activeTab?.linkGroup || activeTab?.id
+                platform_group: activeTab?.linkGroup || activeTab?.id,
             };
-            
+
             return customSortCompare(aRow, bRow, key, context);
-        }
+        },
     },
-    
+
     created() {
         const { createTabStateManager } = useTableRouting();
         this.tabState = createTabStateManager(this.tabs, this.$route, this.$router);
-        
+
         for (const tab of this.tabs) {
             if (tab.id === "usegalaxy") {
                 tab.platforms = this.platforms.filter((platform) => platform.scope === "usegalaxy");
@@ -479,8 +475,8 @@ export default {
             if (newGroup !== oldGroup && this.tabState) {
                 this.tabState.handleRouteChange(newGroup, oldGroup);
             }
-        }
-    }
+        },
+    },
 };
 </script>
 

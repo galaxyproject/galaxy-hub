@@ -6,7 +6,7 @@ export function useTableRouting() {
      */
     const getTabSlug = (tab) => {
         if (!tab || !tab.id) return "";
-        
+
         const slugMap = {
             usegalaxy: "usegalaxy",
             all: "all",
@@ -14,12 +14,12 @@ export function useTableRouting() {
             "academic-cloud": "academic-clouds",
             "commercial-cloud": "commercial-clouds",
             containers: "containers",
-            vms: "vms"
+            vms: "vms",
         };
-        
+
         return slugMap[tab.id] || tab.id.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
     };
-    
+
     /**
      * Find tab object from URL slug
      * @param {Array} tabs - Array of tab objects
@@ -28,9 +28,9 @@ export function useTableRouting() {
      */
     const getTabFromSlug = (tabs, slug) => {
         if (!slug || !tabs) return null;
-        return tabs.find(tab => getTabSlug(tab) === slug);
+        return tabs.find((tab) => getTabSlug(tab) === slug);
     };
-    
+
     /**
      * Get active tab index based on URL query parameter
      * @param {Array} tabs - Array of tab objects
@@ -43,19 +43,19 @@ export function useTableRouting() {
         }
 
         const platformGroup = route.query.platform_group;
-        
+
         if (!platformGroup || !tabs || !Array.isArray(tabs)) {
             return 0;
         }
 
-        const tabIndex = tabs.findIndex(tab => {
+        const tabIndex = tabs.findIndex((tab) => {
             const slug = getTabSlug(tab);
             return slug === platformGroup;
         });
 
         return tabIndex >= 0 ? tabIndex : 0;
     };
-    
+
     /**
      * Update URL with new tab selection
      * @param {Object} router - Vue router instance
@@ -65,24 +65,24 @@ export function useTableRouting() {
      */
     const updateUrlForTab = (router, route, tab) => {
         if (!router || !tab) return;
-        
+
         const slug = getTabSlug(tab);
         const newQuery = { ...route.query };
-        
+
         if (slug) {
             newQuery.platform_group = slug;
         } else {
             delete newQuery.platform_group;
         }
-        
+
         // Update URL without page refresh, ignore navigation duplicated errors
-        router.push({ query: newQuery }).catch(err => {
+        router.push({ query: newQuery }).catch((err) => {
             if (err.name !== "NavigationDuplicated") {
                 console.warn("Navigation error:", err);
             }
         });
     };
-    
+
     /**
      * Initialize tab from URL query parameters and return reactive state manager
      * @param {Array} tabs - Array of tab objects
@@ -92,47 +92,47 @@ export function useTableRouting() {
      */
     const createTabStateManager = (tabs, route, router) => {
         let activeTabIndex = getActiveTabIndex(tabs, route);
-        
+
         return {
             get activeTabIndex() {
                 return activeTabIndex;
             },
-            
+
             set activeTabIndex(value) {
                 activeTabIndex = value;
             },
-            
+
             onTabChange(newTabIndex) {
                 activeTabIndex = newTabIndex;
                 const tab = tabs[newTabIndex];
                 updateUrlForTab(router, route, tab);
             },
-            
+
             initializeFromUrl() {
                 const platformGroup = route.query.platform_group;
-                
+
                 if (platformGroup) {
-                    const tabIndex = tabs.findIndex(tab => getTabSlug(tab) === platformGroup);
-                    
+                    const tabIndex = tabs.findIndex((tab) => getTabSlug(tab) === platformGroup);
+
                     if (tabIndex >= 0) {
                         activeTabIndex = tabIndex;
                         return true;
                     }
                 }
-                
+
                 // Default to first tab if no match or no platform_group
                 activeTabIndex = 0;
                 return false;
             },
-            
+
             handleRouteChange(newPlatformType, oldPlatformType) {
                 if (newPlatformType !== oldPlatformType) {
                     this.initializeFromUrl();
                 }
-            }
+            },
         };
     };
-    
+
     /**
      * Initialize tab state from URL query parameters (legacy method for backwards compatibility)
      * @param {Array} tabs - Array of tab objects
@@ -149,13 +149,13 @@ export function useTableRouting() {
         }
         return null;
     };
-    
+
     return {
         getTabSlug,
         getTabFromSlug,
         getActiveTabIndex,
         updateUrlForTab,
         initializeFromUrl,
-        createTabStateManager
+        createTabStateManager,
     };
 }
