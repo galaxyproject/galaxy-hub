@@ -19,4 +19,4 @@ Slides & photos
 
 Thank you to the University of Freiburg, ELIXIR, the European Commission, and everyone who contributed talks, demos, code, and reviews. Community momentum is strong—the next cycle is already underway. Are you ready for GCC2026 in Clermont-Ferrand (France) from June 22-24 2026?
 
-<!--- ![*Group photo EGD2025*](./photo.jpg) waiting for Bérénice Batut --->
+![EGD2025 Group photo taken by Pavan Videm](https://github.com/user-attachments/assets/3fbdb486-4167-4e9b-8f89-622b81a8994a)
