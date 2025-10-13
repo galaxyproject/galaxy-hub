@@ -25,7 +25,7 @@ This update highlights how the Galaxy single-cell and spatial omics community co
 The paper showcases the progress made toward more **FAIR single-cell and spatial omics analysis within Galaxy**, supported by over **175 tools**, **120 training resources**, and an active global community of contributors.
 
 Key areas include:
-- **New tool integrations** for multimodal single-cell data, imaging, and spatial transcriptomics.  
+- **New tool integrations** for multimodal single-cell data, pseudo-bulk, CNV, single-cell format converters, and spatial transcriptomics.  
 - **Enhanced workflows** for reproducible preprocessing, clustering, and downstream analysis.  
 - **Community-driven training** through the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/), featuring hands-on tutorials and use cases.  
 - **Cross-infrastructure interoperability**, connecting Galaxy instances and cloud resources across Europe and beyond.
@@ -42,6 +42,9 @@ You can explore tools and training resources at:
 - [Galaxy Europe Single-Cell Portal](https://singlecell.usegalaxy.eu/)
 - [Galaxy Training Network](https://training.galaxyproject.org/)
 - [SPOC: Galaxy Single-cell & sPatial Omics Community of Practice](https://galaxyproject.org/community/sig/singlecell/)
+- [Galaxy Europe](https://usegalaxy.eu/)
+- [Galaxy Australia](https://usegalaxy.org.au)
+- [Galaxy Main](https://galaxy-main.usegalaxy.org)
 
 Interested in contributing? Connect with us in community meetings, share your workflows, and be part of upcoming training and collaboration events.
 
