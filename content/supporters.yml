@@ -132,7 +132,7 @@ supporters:
       website: https://www.elixir-belgium.org/
 
     - name: elixir-cz
-      image: /images/logos/elixir-cz-banner.png
+      image: /images/logos/elixir-cz-logo.png
       website: https://www.elixir-czech.cz/
 
     - name: eirene
@@ -366,6 +366,10 @@ supporters:
     - name: unifreiburg
       image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
       website: http://uni-freiburg.de/
+
+    - name: ics-muni
+      image: /images/logos/ics-muni.png
+      website: https://www.ics.muni.cz/
 
     - name: usegalaxy-eu
       image: /images/logos/useGalaxy.eu.svg

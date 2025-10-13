@@ -92,7 +92,7 @@ ready to answer questions.
 ## Generative AI tools
 
 - **[Text-to-Image Magic](https://galaxyproject.org/news/2024-11-26-flux/)**: The FLUX model suite enables the generation of high-quality images from text descriptions.
-- **[Large Language Model (LLM)](https://galaxyproject.org/news/2024-09-02-chat-gpt/)**: in Complex Workflows: Galaxy’s ongoing innovation incorporates Large Language Models into complex workflows, enabling users to build and refine intricate pipelines with AI assistance.
+- **[Large Language Models (LLM)](https://galaxyproject.org/news/2025-10-10-llm-hub/)**: in Complex Workflows: Galaxy’s ongoing innovation incorporates Large Language Models into complex workflows, enabling users to build and refine intricate pipelines with AI assistance.
 
 ## MCP-based AI-agent
 
@@ -125,7 +125,7 @@ Galaxy hosts more than 3500 tools, numerous ML/AI-powered and tailored for speci
   width="100%"
   height="300px"
   frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_codex/machine-learning/">
+  src="https://galaxyproject.github.io/galaxy_codex/communities/machine-learning/resources/">
 </iframe>
 
 ## GPU-Enabled JupyterLab Notebook
