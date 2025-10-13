@@ -42,7 +42,7 @@ You can explore tools and training resources at:
 - [Galaxy Europe Single-Cell Portal](https://singlecell.usegalaxy.eu/)
 - [Galaxy Training Network](https://training.galaxyproject.org/)
 - [SPOC: Galaxy Single-cell & sPatial Omics Community of Practice](https://galaxyproject.org/community/sig/singlecell/)
-- [Galaxy Europe](https://usegalaxy.eu/)
+- [Galaxy Europe](https://singlecell.usegalaxy.eu/)
 - [Galaxy Australia](https://usegalaxy.org.au)
 - [Galaxy Main](https://galaxy-main.usegalaxy.org)
 
