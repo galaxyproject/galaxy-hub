@@ -125,7 +125,7 @@ Galaxy hosts more than 3500 tools, numerous ML/AI-powered and tailored for speci
   width="100%"
   height="300px"
   frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_codex/machine-learning/">
+  src="https://galaxyproject.github.io/galaxy_codex/communities/machine-learning/resources/">
 </iframe>
 
 ## GPU-Enabled JupyterLab Notebook
