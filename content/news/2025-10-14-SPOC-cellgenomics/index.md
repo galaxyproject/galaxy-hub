@@ -44,7 +44,7 @@ You can explore tools and training resources at:
 - [SPOC: Galaxy Single-cell & sPatial Omics Community of Practice](https://galaxyproject.org/community/sig/singlecell/)
 - [Galaxy Europe](https://singlecell.usegalaxy.eu/)
 - [Galaxy Australia](https://usegalaxy.org.au)
-- [Galaxy Main](https://galaxy-main.usegalaxy.org)
+- [Galaxy Main](https://usegalaxy.org)
 
 Interested in contributing? Connect with us in community meetings, share your workflows, and be part of upcoming training and collaboration events.
 
