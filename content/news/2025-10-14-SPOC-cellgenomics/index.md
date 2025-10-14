@@ -39,12 +39,11 @@ This collaborative effort demonstrates the value of open science, from transpare
 ## Join the Community
 
 You can explore tools and training resources at:
-- [Galaxy Europe Single-Cell Portal](https://singlecell.usegalaxy.eu/)
-- [Galaxy Training Network](https://training.galaxyproject.org/)
+- [Galaxy Main Single-Cell and Spatial Omics lab](https://singlecell.usegalaxy.org)
+- [Galaxy Europe Single-Cell and Spatial Omics lab](https://singlecell.usegalaxy.eu/)
+- [Galaxy Australia  Single-Cell and Spatial Omics lab](https://singlecell.usegalaxy.org.au)
+- [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/single-cell/)
 - [SPOC: Galaxy Single-cell & sPatial Omics Community of Practice](https://galaxyproject.org/community/sig/singlecell/)
-- [Galaxy Europe](https://singlecell.usegalaxy.eu/)
-- [Galaxy Australia](https://singlecell.usegalaxy.org.au)
-- [Galaxy Main](https://usegalaxy.org)
 
 Interested in contributing? Connect with us in community meetings, share your workflows, and be part of upcoming training and collaboration events.
 
