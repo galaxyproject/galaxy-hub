@@ -130,13 +130,17 @@ The workflow described above produced a list of variants observed in each sample
 
 First we looked for general patterns of substitutions within P/C and P/V overlaps by simply plotting aggregate data for each substitutions (e.g., the number of samples a substitution occurs at, median, min, and max alternative allele frequencies and its effect, synonymous or non-synonymous, on each reading frame). This is presented in Fig. 5. One can see that in both cases the P reading frame appears to be more permissive—most substitutions are non-synonymous (“red”)  in P and synonymous (“green”) in C or V. 
 
-![](fig6.png)
+<vega-embed spec="https://gist.githubusercontent.com/nekrut/604d0886724301acaa0c96c0df00f7a3/raw/7e5227634895bbaea6dd781a024a7b2bb518aaae/vars.json" />
+
+<!-- ![](fig6.png) -->
 
  >**Figure 6.** Nucleotide changes within P/C (top) and P/V (bottom) overlaps. Each substitution is represented by two ticks corresponding to each reading frame. Green = synonymous for that frame; Red = non-synonymous for that frame; length of each tick represents the alternative allele frequency spread = the difference between min and max values. The opacity is the number of samples (from min = 2 to max = 225) the change is found in. 
 
+<!--
  <div class="alert alert-info" role="alert">
   👉  You can view the interactive view of the above image <a href="https://usegalaxy.org/visualizations/display?visualization=jupyterlite&dataset_id=f9cad7b01a47213516812bfc3ef85974" target="_blank">here</a>. (You will need to scroll down).
 </div>
+-->
 
 Nucleotide substitutions in the C-protein and the V-protein region downstream of the editing site appear to affect C and V protein function less than they affect protein P (Table 4). Variants in the C–P overlap (nucleotides ~1,836–2,370) are mostly synonymous in C but nonsynonymous in P. This suggests strong purifying selection on C (which contains nuclear localization, export, and SHCBP1-binding signals), while P tolerates or favors amino-acid changes in this region, indicating adaptive fine-tuning of P’s polymerase cofactor and regulatory functions while C’s integrity is maintained. Substitutions in the P–V overlap (nucleotides ~2,514–2,704) frequently show synonymous changes in V but nonsynonymous in P, again pointing to P-directed adaptation. However, some sites (e.g., 2514-A, 2580-G) show the opposite pattern (nonsynonymous in V, synonymous in P), possibly corresponding to residues within or adjacent to V/P amino-acid positions 100–120, a region known to mediate STAT1 and Jak1 binding [[8]](https://pubmed.ncbi.nlm.nih.gov/18385234/) [[9]](https://pubmed.ncbi.nlm.nih.gov/20980517/). These variants could represent V-specific adaptive evolution affecting interferon antagonism, while the broader pattern reflects the evolutionary compromise needed to maintain two overlapping reading frames with distinct but interdependent functions (see more on this in the evolutionary analysis section below).
 
@@ -201,13 +205,17 @@ Next we analyzed the substitution patterns in the context of sampling locations 
 
 Our final analysis aimed to identify potentially adaptive substitutions, particularly within the P/C and P/V overlaps. Traditional codon-based models, which assume a constant nonsynonymous to synonymous substitution rate (ω = dN/dS) across all lineages at a given site, are not well-suited for detecting transient or lineage-specific instances of positive selection. To address this limitation, we employed the Mixed Effects Model of Evolution (MEME) method [[10]](https://pubmed.ncbi.nlm.nih.gov/22807683/). MEME is specifically designed to detect episodic diversifying selection at individual sites within a multiple sequence alignment. It achieves this by integrating fixed effects (allowing ω to vary across sites) with random effects (allowing ω to vary across branches). For each site, MEME fits a mixture model. This model accounts for the possibility that some branches may be subject to purifying or neutral selection (ω ≤ 1), while others may experience positive selection (ω > 1). The probabilities of these scenarios are estimated using maximum likelihood. This approach enables MEME to pinpoint sites where positive selection has occurred in only a subset of lineages, rather than uniformly across the entire phylogeny. 
 
-![](fig7.png)
+<!-- ![](fig7.png) -->
+
+<vega-embed spec="https://gist.githubusercontent.com/nekrut/fc1fd9503ead5f36d3e2a903bab794c7/raw/4f282c46386d7f37691eb948429211254b882acf/dist.json" />
 
 > **Figure 7.** Substitutions within P/V/C locus in each sample. Samples (X-axis) are sorted by collection time from 01/22/2018 (left) to 05/07/2024 (right). The rightmost blue sample had no collection date associated with it. Genomic coordinates of variants are on the Y-axis. Blue = Canada; Red = USA; Orange = Romania. Size of this circle is proportional for alternative allele frequency at that site.  
 
+<!--
 <div class="alert alert-info" role="alert">
   👉  You can view the interactive view of the above image <a href="https://usegalaxy.org/visualizations/display?visualization=jupyterlite&dataset_id=f9cad7b01a47213516812bfc3ef85974" target="_blank">here</a>. (You will need to scroll down).
 </div>
+-->
 
 To apply MEME directly to the output of our workflow we will use consensus sequences generated by the variant caller for each processed sample. These sequences can be used as an input to the MEME tool that already exists in the Galaxy platform. However, MEME requires exact codon alignments of the coding sequences to perform the detection of sites under selection. Thus before we can use MEME we need to post-process sequences generated by the workflow. Specifically, we need extract regions corresponding to P, V, and C proteins. For this we would use a new JupyterLite notebook ([Video 4](https://youtu.be/opPVkPxU25c)). Similarly to the previous analysis this notebook was generated entirely using ChatGPT LLM. It takes two files from Galaxy history: the GenBank annotation for measles and consensus sequences generated by the variant calling workflow. The notebook first filters out sequences that differ in length from the MeV genome. Next, it reads the coordinates of CDS annotations from the GenBank file and uses these coordinates to slice consensus sequences into CDS blocks serving each separately. We then save consensus sequences corresponding to CDS for P, V, and C proteins back to the Galaxy. We then use Rapid Neighbour-Joining tool [[11]](https://link.springer.com/chapter/10.1007/978-3-540-87361-7_10) in Galaxy to compute phylogenetic trees for each set of sequences to compute MEME estimates. To eliminate potential artifacts this analysis was performed exclusively using ancestral states reconstructed for the internal nodes of the tree [[12]](https://doi.org/10.1038/nature16933).
 
