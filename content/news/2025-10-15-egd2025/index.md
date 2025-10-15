@@ -62,6 +62,6 @@ to Termite Microbiomes | Mina Hojat Ansari | https://f1000research.com/slides/14
 | Achievements of Work Package 4 of EuroScienceGateway – Building Blocks for a Sustainable Operating Model | Sebastian Luna-Valero | https://f1000research.com/slides/14-1109 |
 | Achievements of Work Package 5 of EuroScienceGateway – Community Engagement, Adoption, and Onboarding | Nikolay Vazov, Leandro Liborio, Volodymyr Savchenko | https://f1000research.com/slides/14-1110 |
 
-Thank you to the University of Freiburg, [ELIXIR](https://elixir-europe.org/), the European Commission for making this event possible, and everyone who contributed talks, demos, code, and reviews. Community momentum is strong—the next cycle is already underway. Are you ready for [GCC2026](https://galaxyproject.org/events/gcc2026/) in Clermont-Ferrand (France) from June 22-24 2026?
+Thanks to the [University of Freiburg](https://uni-freiburg.de), [ELIXIR](https://elixir-europe.org/), the European Commission for making this event possible, and everyone who contributed talks, demos, code, and reviews. Community momentum is strong—the next community event is already underway. Are you ready for [GCC2026](https://galaxyproject.org/events/gcc2026/) in Clermont-Ferrand (France) from June 22-24 2026?
 
 ![EGD2025 Group photo taken by Pavan Videm](https://github.com/user-attachments/assets/3fbdb486-4167-4e9b-8f89-622b81a8994a)
