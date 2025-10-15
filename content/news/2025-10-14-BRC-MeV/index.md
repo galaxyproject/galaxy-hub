@@ -12,6 +12,8 @@ tags:
 autotoc: false
 ---
 
+# From data to publication in a browser with [BRC-Analytics](https://brc-analytics.org): Evolutionary dynamics of coding overlaps in measles virus 
+
 Anton Nekrutenko<sup>1</sup>, Danielle Callan<sup>2</sup>, Marius Van Den Beek<sup>1</sup>, Dannon Baker<sup>3</sup>, David Rogers<sup>4</sup>, Wolfgang Maier<sup>5</sup>, Aysam Guerler<sup>3</sup>,  Hiram Clawson<sup>6</sup>, Scott Cain<sup>1</sup>, Michael Schatz<sup>3</sup>, Kelsey Beavers<sup>7</sup>, Maximilah Haeussler<sup>6</sup>, Bjorn Gruning<sup>5</sup>, and Sergei Kosakowsky Pond<sup>2</sup>
 
 <sup>1</sup> Dept. of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA  
