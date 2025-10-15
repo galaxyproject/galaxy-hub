@@ -1,10 +1,10 @@
 ---
-title: 'From data to publication in a browser with BRC-Analytics: Evolutionary dynamics of coding overlaps in measles virus'
+title: 'BRC-analytics is open for business!'
 authors: Anton Nekrutenko 
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-14'
-tease: 'BRC-analytics is open for business!'
+tease: 'From data to publication in a browser with BRC-Analytics: Evolutionary dynamics of coding overlaps in measles virus'
 hide_tease: false
 tags:
 - paper
