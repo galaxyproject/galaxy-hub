@@ -22,7 +22,7 @@ Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@useg
 ### Text Models
 
 | Model | Developed by | Description |
-|-------|----------|-------------|
+|-------|--------------|-------------|
 | **GPT-OSS-120B** | OpenAI | Best suited for complex tasks, deep reasoning, and detailed outputs |
 | **GPT-OSS-20B** | OpenAI | Smooth for straightforward Q&A or text generation, efficient on small servers |
 | **Qwen3-30B-A3B** | Alibaba Cloud | Strong all-rounder for technical tasks, coding, and long structured outputs |
