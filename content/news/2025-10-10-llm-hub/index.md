@@ -16,7 +16,7 @@ Large Language Models (LLMs) are transforming research, helping with tasks from 
 
 ## Available Models
 
-LLM Hub offers a selection of models for different needs. All are hosted at the University of Freiburg, and more will be added over time.
+LLM Hub offers a selection of models for different needs. All are hosted **locally at the University of Freiburg**, and more will be added over time.
 Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu).  
 
 ### Text Models
