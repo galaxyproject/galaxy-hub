@@ -17,7 +17,14 @@ tags:
 
 We're proud to share our new publication in *Nature Communications*:
 **"Flexynesis: A deep learning toolkit for bulk multi-omics data integration for precision oncology and beyond."**
-📘 [Read the full article here](https://www.nature.com/articles/s41467-025-63688-5)
+* [Read the full article here](https://www.nature.com/articles/s41467-025-63688-5)
+* [GitHub Repository](https://github.com/BIMSBbioinfo/flexynesis)
+
+---
+
+🧬 *Flexynesis was developed by the Bioinformatics and Omics Data Science Platform at Max Delbrück Center for Molecular Medicine in collaboration with the Galaxy community, bringing cutting-edge multi-omics integration tools to researchers worldwide.*
+
+---
 
 ![graphical abstract](./static/graphical_abstract.png)
 
@@ -48,7 +55,3 @@ Check out our available **Galaxy Training Material**:
 * [Modeling Breast Cancer Subtypes with Flexynesis](https://gxy.io/GTN:T00554)
 * [Prepare Data from cBioPortal for Flexynesis Integration](https://gxy.io/GTN:T00553)
 * [Unsupervised Analysis of Bone Marrow Cells with Flexynesis](https://gxy.io/GTN:T00556)
-
----
-
-🧬 *Flexynesis was developed by the Bioinformatics and Omics Data Science Platform at Max Delbrück Center for Molecular Medicine in collaboration with the Galaxy community, bringing cutting-edge multi-omics integration tools to researchers worldwide.*
