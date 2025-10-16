@@ -42,19 +42,8 @@ Using these atlases in Galaxy is simple:
 4. **Search for "Tabula Atlasses"**
 5. **Select "Tabula Sapiens"** or **"Tabula Muris Senis"**
 6. **Select the atlas** (or specific tissues) you want to work with
+7. **(optional)** Click on the setting icon and select `Defer dataset resolution`
 7. **Import directly to your history** with a single click on `Start`
-
-Once imported, you can use the datasets with any of Galaxy's single-cell analysis tools, including scanpy, Seurat, and other workflows for quality control, integration, clustering, and visualization.
-
-# Worried about your account storage?
-
-1. **Navigate to the Upload** on the left panel
-2. **Select** `Choose from repository`
-3. **Search for "Tabula Atlasses"**
-4. **Select "Tabula Sapiens"** or **"Tabula Muris Senis"**
-5. **Select the atlas** (or specific tissues) you want to work with
-5. Click on the setting icon and select `Defer dataset resolution`
-6. **Link the data to your history** with a single click on `Start`
 
 You can upload the data as deferred datasets, meaning that the data is not directly copied to your history but it's linked. So while you can access the data, it is not counted as your storage quota!!
 
