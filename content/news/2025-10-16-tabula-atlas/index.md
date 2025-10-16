@@ -57,7 +57,7 @@ These comprehensive reference atlases are now ready to accelerate your single-ce
 
 Analyze your single-cell data at [Galaxy Single-cell lab](https://singlecell.usegalaxy.eu/)
 Access Galaxy single-cell training resources at [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/single-cell/)
-[Galaxy Single-cell SIG](https://galaxyproject.org/community/sig/singlecell/)
+Join us and get help from the [Galaxy Single-cell Special Interest Group](https://galaxyproject.org/community/sig/singlecell/)
 
 <div align="center">
     <a href="https://usegalaxy.eu/">
