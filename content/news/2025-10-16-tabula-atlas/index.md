@@ -47,11 +47,17 @@ Using these atlases in Galaxy is simple:
 
 You can upload the data as deferred datasets, meaning that the data is not directly copied to your history but it's linked. So while you can access the data, it is not counted as your storage quota!!
 
-For uploading as deferred data:
-
 # Get Started Today
 
 These comprehensive reference atlases are now ready to accelerate your single-cell research. Whether you're annotating cell types or studying aging, Tabula Sapiens and Tabula Muris Senis provide the foundation you need.
+
+[Our recent publication](https://www.sciencedirect.com/science/article/pii/S2666979X25002617) gives an overview of all the Galaxy tools/workflows/training resources.
+
+## More resources to navigate through single-cell and spatial omics material in Galaxy world!
+
+[Galaxy Single-cell lab](https://singlecell.usegalaxy.eu/)
+[GTN Single-cell topic](https://training.galaxyproject.org/training-material/topics/single-cell/)
+[Galaxy Single-cell SIG](https://galaxyproject.org/community/sig/singlecell/)
 
 <div align="center">
     <a href="https://usegalaxy.eu/">
