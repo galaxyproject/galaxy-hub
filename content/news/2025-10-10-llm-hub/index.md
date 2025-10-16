@@ -33,14 +33,14 @@ Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@useg
 
 ### Multimodal Models
 
-| Model | Provider | Description |
+| Model | Developed by | Description |
 |-------|----------|-------------|
 | **Gemma-3-12B** | Google DeepMind | Handles text and images, great for describing photos, diagrams, or screenshots |
 | **Qwen2.5-VL-7B** | Alibaba Cloud | Efficient at understanding images and extracting info from charts, UIs, or screenshots |
 
 ### Image Models
 
-| Model | Provider | Description |
+| Model | Developed by | Description |
 |-------|----------|-------------|
 | **NuMarkdown-8B-Thinking** | NuMind | Advanced OCR and document understanding, excels at extracting structured data from scanned images |
 
