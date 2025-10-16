@@ -145,5 +145,4 @@ Below is a list of projects involving members of this community:
 
 ## Join us
 
-Anybody interested in Ecology data analysis in Galaxy is welcome to join Ecology galaxy community! **Everybody is Welcome!**
-[usegalaxy.eu Galaxy Ecology](https://matrix.to/#/#usegalaxy-eu_galaxy-ecology:gitter.im) Matrix channel.
+Anybody interested in Ecology data analysis in Galaxy is welcome to join Ecology galaxy community! **Everybody is Welcome!** Don't hesitate to contact us, for example from our [usegalaxy.eu Galaxy Ecology](https://matrix.to/#/#usegalaxy-eu_galaxy-ecology:gitter.im) Matrix channel.
