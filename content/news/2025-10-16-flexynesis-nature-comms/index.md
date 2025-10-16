@@ -51,4 +51,4 @@ Check out our available **Galaxy Training Material**:
 
 ---
 
-🧬 *This work was developed by the Bioinformatics and Omics Data Science Platform at Max Delbrück Center for Molecular Medicine in collaboration with the Galaxy community, bringing cutting-edge multi-omics integration tools to researchers worldwide.*
+🧬 *Flexynesis was developed by the Bioinformatics and Omics Data Science Platform at Max Delbrück Center for Molecular Medicine in collaboration with the Galaxy community, bringing cutting-edge multi-omics integration tools to researchers worldwide.*
