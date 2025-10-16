@@ -36,7 +36,7 @@ These reference atlases are invaluable resources for:
 
 Using these atlases in Galaxy is simple:
 
-1. **Create an account** on Galaxy and log in with your credentials
+1. **Create an account** on [Galaxy](https://usegalaxy.eu) and log in with your credentials
 2. **Navigate to the Upload** on the left panel
 3. **Select** `Choose from repository`
 4. **Search for "Tabula Atlasses"**
