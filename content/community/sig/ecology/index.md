@@ -17,7 +17,7 @@ Galaxy Ecology founding article "Guidance framework to apply best practices in e
 
 ## Tools
 
-**Tools for earth data analysis are freely available** in the ToolShed which can be installed on any Galaxy server.
+**Tools for earth data analysis are freely available** in the [ToolShed](https://toolshed.g2.bx.psu.edu/), notably in the [Ecology repository](https://toolshed.g2.bx.psu.edu/repository/browse_categories?sort=name&operation=repositories_by_category&id=b4146bb7fe9b8726), which can be installed on any Galaxy server.
 
 If tools are missing or information is not up-to-date in the list, please help us! Contact [Yvan](mailto:yvan.le-bras@mnhn.fr) or [Pauline](mailto:pauline.seguineau@mnhn.fr) about it.
 
