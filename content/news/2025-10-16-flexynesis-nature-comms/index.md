@@ -39,10 +39,6 @@ To address these limitations, we introduce **Flexynesis**, a comprehensive toolk
 
 This toolset makes deep learning-based bulk multi-omics data integration in clinical and pre-clinical research more accessible to the broader scientific community. Whether you're an experienced machine learning practitioner or new to computational approaches, Flexynesis provides the tools and transparency needed for rigorous multi-omics analysis in precision oncology.
 
-## Get Started with Flexynesis
-
-- **GitHub Repository**: [https://github.com/BIMSBbioinfo/flexynesis](https://github.com/BIMSBbioinfo/flexynesis)
-- **Galaxy Server**: [https://usegalaxy.eu/](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflexynesis%2Fflexynesis%2F0.2.20%2Bgalaxy3&version=latest)
 
 ## Want to have practical training to learn how to use Flexynesis?
 
