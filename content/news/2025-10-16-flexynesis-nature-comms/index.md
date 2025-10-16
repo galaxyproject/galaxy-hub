@@ -32,7 +32,7 @@ To address these limitations, we introduce **Flexynesis**, a comprehensive toolk
 - **Modular and Transparent Architecture**: Choose from multiple deep learning architectures and classical machine learning methods with clear, understandable workflows
 - **Multi-Task Capabilities**: Support for regression, classification, and survival modeling in both single and multi-task settings
 - **Streamlined Workflow**: Automated data processing, feature selection, hyperparameter tuning, and biomarker discovery
-- **Maximum Accessibility**: Available on the Galaxy Server at [https://usegalaxy.eu/](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflexynesis%2Fflexynesis%2F0.2.20%2Bgalaxy3&version=latest)
+- **Maximum Accessibility**: Available on PyPi, Guix, Bioconda and on [Galaxy Europe](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflexynesis%2Fflexynesis%2F0.2.20%2Bgalaxy3&version=latest)
 - **User-Friendly**: Designed for researchers with or without deep learning experience
 
 ## Making Deep Learning Accessible
