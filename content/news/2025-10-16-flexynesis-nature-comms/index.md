@@ -4,7 +4,7 @@ authors: Amirhossein Nilchi
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-16'
-tease: 'Our New paper in Nature Communications introduces Flexynesis'
+tease: 'Flexynesis: bridging multi-omics complexity with transparent AI for Cancer research and beyond'
 hide_tease: true
 tags:
 - paper
