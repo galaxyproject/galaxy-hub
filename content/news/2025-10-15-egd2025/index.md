@@ -13,9 +13,12 @@ From **1–3 October 2025**, the [University of Freiburg](https://uni-freiburg.d
 Across talks, demos, Birds-of-a-Feathers (BoFs), and a concluding hackathon, the week showed how the Galaxy ecosystem is advancing research across domains from [Microbiology](https://microbiology.usegalaxy.org/), [Materials Science](https://materials.usegalaxy.eu/), [Ecology](https://ecology.usegalaxy.eu/), [Climate Science](https://climate.usegalaxy.eu/), [Imaging](https://imaging.usegalaxy.eu/), and [Digital Humanities](https://galaxyproject.org/community/sig/digital-humanities/). Freiburg’s campus hosted hybrid sessions and BoFs across multiple rooms, with Friday dedicated to a focused Co-Fest & Hackathon where groups squashed bugs, improved tools, tuned workflows, and formed plans for next collaborations. If you want to learn more about the event, please have a look at our social media coverage on [Mastodon](https://mastodon.social/tags/EGD2025), [Bluesky](https://bsky.app/hashtag/EGD2025?author=galaxyproject.bsky.social), and [LinkedIn](https://www.linkedin.com/search/results/all/?keywords=%23egd2025&origin=HASH_TAG_FROM_FEED&sid=kCg) (47 posts with #EGD2025). Also, Matrix channels ([usegalaxy-eu Lobby](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im) and [use-galaxy announce](https://matrix.to/#/!ArjKhGljVCmzqxhauY:matrix.org?via=matrix.org&via=matrix.uni-freiburg.de&via=t2bot.io)) supported live coordination and announcements and both are still available if you are interested to join.
 
 Slides & photos
-  - Photo gallery: https://photos.app.goo.gl/haiWYYBryV4pKvxe9
-  - Slides: 
-  | Slide Title | Presenter(s) | Link |
+<br>
+Photo gallery: https://photos.app.goo.gl/haiWYYBryV4pKvxe9
+<br>
+Slides: 
+
+| Slide Title | Presenter(s) |
 | --- | --- | --- |
 | [Welcome, Logistics & General Galaxy and ELIXIR Update](https://f1000research.com/slides/14-1066) | Hans-Rudolf Hotz |
 | [Special Interest Groups and Working Groups: the Galaxy Governance Model](https://f1000research.com/slides/14-1067) | Marisa Loach |
