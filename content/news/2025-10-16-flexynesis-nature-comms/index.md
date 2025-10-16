@@ -46,7 +46,7 @@ Check out our available **Galaxy Training Material**:
 
 * [Identifing Survival Markers of Brain tumor with Flexynesis](https://gxy.io/GTN:T00555)
 * [Modeling Breast Cancer Subtypes with Flexynesis](https://gxy.io/GTN:T00554)
-* [Prepare Data from CbioPortal for Flexynesis Integration](https://gxy.io/GTN:T00553)
+* [Prepare Data from cBioPortal for Flexynesis Integration](https://gxy.io/GTN:T00553)
 * [Unsupervised Analysis of Bone Marrow Cells with Flexynesis](https://gxy.io/GTN:T00556)
 
 ---
