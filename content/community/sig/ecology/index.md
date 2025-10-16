@@ -139,6 +139,7 @@ Below is a list of projects involving members of this community:
 |---------|-------------|
 | [CCAMLR](https://www.ccamlr.org/) | Commission for the Conservation of Antarctic Marine Living Resources |
 | [GEO BON](https://geobon.org/bons/national-regional-bon/national-bon/french-bon/) | Group on Earth Observation Biodiversity Observation Network EBV (Essential Biodiveristy Variables) operationlization pilot |
+| [GINAMO]([[https://geobon.org/bons/national-regional-bon/national-bon/french-bon/](https://www.biodiversa.eu/2024/04/15/ginamo/](https://www.biodiversa.eu/2024/04/15/ginamo/)) | Genetic Indicators for NAture MOnitoring |
 | [MOOREV](https://moorev.fr/) | Microclimates and tools for observing the responses of living organisms on the seabed through citizen science |
 | [OFVi](https://www.oneforestvision.org/) | One forest Vision initiative: Protect tropical forests and wetlands |
 
