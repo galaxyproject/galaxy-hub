@@ -67,33 +67,56 @@ These lessons focus on manners to preprocess media data (sound, images, videos) 
 ### Data analysis
 These lessons focus on manners to analyze data used in Ecology
 
+#### From modeling to biodiversity indicators production
+A lot of tools and resources were developped for the French BON (Biodiversity Observation Network) EBV (Essential Biodiversity Variables) operationalization pilot, to showcase the use of Galaxy to construct and share models (GAM, GLM, GLMTMB, BRT, ...) and to produce biodiversity metrics, indices and indicators. Here are presented tutorials particularly related to this topic:
+
+
 | Target | GTN Tutorial |
 |--------|----------|
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Champs blocs indicators  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/champs-blocs/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Compute and analyze biodiversity metrics with PAMPA toolsuite  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Regional GAM  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/regionalGAM/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Ecoregionalization workflow tutorial  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Ecoregionalization_tutorial/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Life Traits Ecoregionalization workflow  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ecoregiolifetraits/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Species distribution modeling  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/species-distribution-modeling/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Obis marine indicators  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Phylodiversity analysis quick tutorial  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/phylodiversity_workflow/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| From NDVI data with OpenEO to time series visualisation with Holoviews  | <a href="[From NDVI data with OpenEO to time series visualisation with Holoviews ](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/tutorial.html)" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Sentinel 2 biodiversity  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/remote-sensing/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+
+#### From genetics / genomics biodiversity data
+Genetics / genomics data represents a particularly specific biodiversity data type. Here are presented tutorials particularly related to these data:
+
+| Target | GTN Tutorial |
+|--------|----------|
+| Marine Omics identifying biosynthetic gene clusters  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/marine_omics_bgc/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Metabarcoding/eDNA through Obitools  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Taxonomic Analysis of eDNA  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/eDNA-taxonomic-analysis/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Preparing genomic data for phylogeny reconstruction  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/phylogeny-data-prep/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| RAD-Seq Reference-based data analysis  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ref-based-rad-seq/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| RAD-Seq de-novo data analysis  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/de-novo-rad-seq/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| RAD-Seq to construct genetic maps  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/genetic-map-rad-seq/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+
+#### From satelite remote sensing biodiversity data
+Satelite remote sensing data represents a particularly specific biodiversity data type. Here are presented tutorials particularly related to these data:
+
+| From NDVI data with OpenEO to time series visualisation with Holoviews  | <a href="[From NDVI data with OpenEO to time series visualisation with Holoviews ](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/tutorial.html)" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Sentinel 2 biodiversity  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/remote-sensing/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+
+#### From citizen science biodiversity data
+Citizen science data represents a particularly specific biodiversity data type. Here are presented tutorials particularly related to these data:
+
+| Champs blocs indicators  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/champs-blocs/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Compute and analyze biodiversity metrics with PAMPA toolsuite  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Regional GAM  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/regionalGAM/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
 
 ### Data visualization
 These lessons focus on manners to visualize data used in Ecology
 
 | Target | GTN Tutorial |
 |--------|----------|
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
-| target | <a href="" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Visualization of Climate Data using NetCDF xarray Map Plotting  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/x-array-map-plot/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
+| Visualize EBV cube data with Panoply netCDF viewer  | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/panoply_ebv/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> |
 
 
 ## A dedicated interface
@@ -122,4 +145,5 @@ Below is a list of projects involving members of this community:
 
 ## Join us
 
-Anybody interested in earth data analysis in Galaxy is welcome to join Ecology galaxy community! **Everybody is Welcome!**
+Anybody interested in Ecology data analysis in Galaxy is welcome to join Ecology galaxy community! **Everybody is Welcome!**
+[usegalaxy.eu Galaxy Ecology](https://matrix.to/#/#usegalaxy-eu_galaxy-ecology:gitter.im) Matrix channel.
