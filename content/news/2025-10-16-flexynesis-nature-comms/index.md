@@ -15,7 +15,7 @@ tags:
 - galaxy
 ---
 
-We're thrilled to share our new publication in *Nature Communications*:
+We're proud to share our new publication in *Nature Communications*:
 **"Flexynesis: A deep learning toolkit for bulk multi-omics data integration for precision oncology and beyond."**
 📘 [Read the full article here](https://www.nature.com/articles/s41467-025-63688-5)
 
