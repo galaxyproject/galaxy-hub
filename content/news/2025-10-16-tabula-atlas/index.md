@@ -55,7 +55,7 @@ These comprehensive reference atlases are now ready to accelerate your single-ce
 
 ## More resources to navigate through single-cell and spatial omics material in Galaxy world!
 
-[Galaxy Single-cell lab](https://singlecell.usegalaxy.eu/)
+Analyze your single-cell data at [Galaxy Single-cell lab](https://singlecell.usegalaxy.eu/)
 [GTN Single-cell topic](https://training.galaxyproject.org/training-material/topics/single-cell/)
 [Galaxy Single-cell SIG](https://galaxyproject.org/community/sig/singlecell/)
 
