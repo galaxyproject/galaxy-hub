@@ -15,8 +15,9 @@ Across talks, demos, Birds-of-a-Feathers (BoFs), and a concluding hackathon, the
 Slides & photos
   - Photo gallery: https://photos.app.goo.gl/haiWYYBryV4pKvxe9
   - Slides: 
-  | Slide Title | Presenter(s) | Link |
-| --- | --- | --- |
+  
+| Slide Title | Presenter(s) |
+| --- | --- |
 | [Welcome, Logistics & General Galaxy and ELIXIR Update](https://f1000research.com/slides/14-1066) | Hans-Rudolf Hotz |
 | [Special Interest Groups and Working Groups: the Galaxy Governance Model](https://f1000research.com/slides/14-1067) | Marisa Loach |
 | [The Microbiology Galaxy Lab and the effort from the microGalaxy to build the first community-driven gateway for reproducible and FAIR analysis of microbial data](https://f1000research.com/slides/14-1021) | Bérénice Batut |
