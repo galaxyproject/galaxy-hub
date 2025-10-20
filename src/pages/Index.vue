@@ -49,6 +49,15 @@
                         </div>
                     </nav>
                 </div>
+                <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                    <a href="/events/gcc2026/">
+                        <img
+                            src="/images/events/gcc2026/gcc2026-first-announcement-slide.png"
+                            alt="Galaxy Community Conference 2026 - Announcement"
+                            class="img-fluid"
+                        />
+                    </a>
+                </div>
             </div>
         </div>
         <div class="container-fluid-real p-0">
