@@ -15,7 +15,6 @@
                         <template v-else>
                             {{ tab.label }}
                         </template>
-                        {{ index }}
                     </h2>
                     <!-- Table description. -->
                     <div
