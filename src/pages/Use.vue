@@ -97,9 +97,7 @@
                         @filtered="(items, total) => updateDisplayed(tab, total)"
                     >
                         <template #cell(platform)="data">
-                            <a :href="data.item.path">
-                                {{ data.item.title || data.item.path }} </a
-                            ><br />
+                            <a :href="data.item.path"> {{ data.item.title || data.item.path }} </a><br />
                             <a
                                 v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
                                 :key="link.url"
