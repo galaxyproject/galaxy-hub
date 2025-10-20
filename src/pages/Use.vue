@@ -223,7 +223,7 @@ const tabs = [
         label: "Public Servers",
         columns: [
             createSortableField("platform", "Resource"),
-            createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
+            // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
