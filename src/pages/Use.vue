@@ -97,28 +97,19 @@
                         @filtered="(items, total) => updateDisplayed(tab, total)"
                     >
                         <template #cell(platform)="data">
-                            <a :href="data.item.path"> {{ data.item.title || data.item.path }} </a><br />
-                            <a
-                                v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
-                                :key="link.url"
-                                :href="link.url"
-                                target="_blank"
-                                class="small text-muted"
-                            >
-                                {{ short(link.url) }}
-                            </a>
+                            <a :href="data.item.path">{{ data.item.title || data.item.path }}</a>
                         </template>
                         <template #cell(region)="data">
                             <span v-if="getRegionValue(data.item)">
                                 {{ getRegionValue(data.item) }}
                             </span>
-                            <span v-else class="text-muted"> - </span>
+                            <span v-else> - </span>
                         </template>
                         <template #cell(tier)="data">
                             <span v-if="getTierValue(data.item)" class="badge badge-primary">
                                 Tier {{ getTierValue(data.item) }}
                             </span>
-                            <span v-else class="text-muted"> - </span>
+                            <span v-else> - </span>
                         </template>
                         <template #cell(link)="data">
                             <a
@@ -232,7 +223,7 @@ const tabs = [
         label: "Public Servers",
         columns: [
             createSortableField("platform", "Resource"),
-            // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
+            createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
