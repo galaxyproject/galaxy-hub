@@ -28,7 +28,7 @@ export function useTableSorting() {
             platform: platformSortHandler,
             title: titleSortHandler,
             summary: textSortHandler,
-            tier: tierSortHandler,
+            // tier: tierSortHandler,
             region: regionSortHandler,
         };
 
@@ -253,14 +253,14 @@ export function useTableSorting() {
         platformSortHandler,
         titleSortHandler,
         textSortHandler,
-        tierSortHandler,
+        // tierSortHandler,
         regionSortHandler,
 
         createSortableField,
         createSortableFields,
 
         getPlatformDisplayValue,
-        getTierValue,
+        // getTierValue,
         getRegionValue,
         compareStrings,
         getSortState,

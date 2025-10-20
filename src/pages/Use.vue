@@ -104,12 +104,12 @@
                             </span>
                             <span v-else> - </span>
                         </template>
-                        <template #cell(tier)="data">
+                        <!-- <template #cell(tier)="data">
                             <span v-if="getTierValue(data.item)" class="badge badge-primary">
                                 Tier {{ getTierValue(data.item) }}
                             </span>
                             <span v-else> - </span>
-                        </template>
+                        </template> -->
                         <template #cell(link)="data">
                             <a
                                 v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
