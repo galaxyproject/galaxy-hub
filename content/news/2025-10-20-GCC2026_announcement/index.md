@@ -1,6 +1,6 @@
 ---
 title: "GCC2026: The Galaxy Community is Heading to Clermont-Ferrand, France"
-date: "2025-09-29"
+date: "2025-10-20"
 authors: Natalie Whitaker-Allen
 tease: "Join us in June 2026 in the volcanic heart of Clermont-Ferrand for a week of collaboration, discovery, and open science."
 hide_tease: false
