@@ -496,9 +496,6 @@ query {
                 summary
                 url
                 path
-                designation {
-                    tier
-                }
                 platforms {
                     platform_group
                     platform_url
