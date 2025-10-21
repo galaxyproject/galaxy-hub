@@ -33,9 +33,9 @@ On the left below is a Galaxy history with over 10,000 datasets. Processing them
 
 ## Intrigued? 
 
-[Watch this video](https://youtu.be/m6NjGxD4F68) to see how this works:
+[Watch this video](https://youtu.be/yehY9tR_NX8?si=J_4o0bvNcKLDQ2MT) to see how this works:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m6NjGxD4F68?si=vIDCKdG76NdQoASO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yehY9tR_NX8?si=J_4o0bvNcKLDQ2MT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## The bottom line
 
