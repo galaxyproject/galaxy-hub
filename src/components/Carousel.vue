@@ -27,6 +27,12 @@
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
                 ></b-carousel-slide>
             </a>
+            <a href="https://galaxyproject.org/news/2025-10-21-whycollections/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/theguy.png"
+                    img-alt="Use collections!"
+                ></b-carousel-slide>
+            </a>
         </b-carousel>
     </div>
 </template>
