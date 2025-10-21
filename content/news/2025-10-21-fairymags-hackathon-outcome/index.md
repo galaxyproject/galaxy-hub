@@ -142,4 +142,23 @@ A key challenge identified:
 
 The **FAIRyMAGs hackathon** brought together a great community of MAGs scientists. And although the hackathon was slightly Galaxy-centric, a nice exchange beyond workflow engines could be establised, targeting major MAGs issues together !
 
-To continue this exchange a dedicated community slack channel for MAGs workflows was introduced, that will be used to continue the work and openly invites anyone working on MAGs: [**mags-workflows**](https://microbial-bioinfo.slack.com/archives/C09M4D21Q3U).
+<div align="center" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; justify-items: center;">
+  <img src="./static/IMG_20251007_103940.jpg" alt="Correlation between sample metadata and memory usage" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_103946.jpg" alt="Correlation between sample metadata and memory usage" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_141445.jpg" alt="Correlation between sample metadata and memory usage" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_152237.jpg" alt="Correlation between sample metadata and memory usage" style="width:90%; border-radius:8px;">
+  <p style="grid-column: span 2; text-align:center; font-style:italic; margin-top:8px;">
+    FairyMAGs Hackers
+  </p>
+</div>
+
+To continue this exchange a dedicated community slack channel for MAGs workflows was introduced, that will be used to continue the work and openly invites anyone working on MAGs:
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://microbial-bioinfo.slack.com/archives/C09M4D21Q3U" target="_blank" 
+     style="display: inline-block; background-color: #4A154B; color: #ffffff; 
+            font-weight: bold; padding: 15px 30px; border-radius: 8px; 
+            text-decoration: none; font-size: 18px;">
+    Join mags-workflows on Slack
+  </a>
+</div>
