@@ -29,7 +29,7 @@ Dataset collections are Galaxy’s secret superpower — they let you process do
 
 ![](datasets.svg)
 
-On the left below is a Galaxy history with over 10,000 datasets. Processing them one-by-one? That is just batshit-crazy. Instead, you can bundle them all into a collection — shown on the right — and run your analyses once across the entire set.
+On the left above is a Galaxy history with over 10,000 datasets. Processing them one-by-one? That is just batshit-crazy. Instead, you can bundle them all into a collection — shown on the right — and run your analyses once across the entire set.
 
 ## Intrigued? 
 
