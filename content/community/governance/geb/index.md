@@ -154,7 +154,7 @@ The GEB commits to:
 
 # Members
 
-The GEB is a group of Galaxy advocates from around the world. It is currently (2024) comprised of the following members:
+The GEB is a group of Galaxy advocates from around the world. It is currently (2025) comprised of the following members:
 
 * **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
     * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
@@ -168,8 +168,8 @@ The GEB is a group of Galaxy advocates from around the world. It is currently (2
     * [Penn State University](https://psu.edu/) United States
 * **[Michael Schatz](https://schatz-lab.org/)**
     * [Johns Hopkins University](https://jhu.edu/), United States
-* **[Wendi Bacon](https://www.open.ac.uk/people/wb2845)**
-    * [The Open University](https://www.open.ac.uk/research/faculties), United Kingdom
+* **[Marisa Loach](https://www.linkedin.com/in/marisa-loach-624087380/)**
+    * [The Open University](https://www.open.ac.uk/), United Kingdom
 * **[Gareth Price](https://www.linkedin.com/in/gareth-price-60025b88/)**
     * [Australian BioCommons](https://www.biocommons.org.au/), [The University of Queensland](https://www.uq.edu.au/), Australia
 * **[Bérénice Batut](https://research.bebatut.fr)**
