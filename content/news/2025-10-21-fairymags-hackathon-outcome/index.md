@@ -85,7 +85,7 @@ All progress was tracked in the
 * **Dataset identification** is in progress (blocked by subworkflow bug — WIP)
 * Started a **comprehensive tutorial** for short & long reads → [HackMD draft](https://hackmd.io/Oa3WA5BvTi-eg-LrhWSfSg?edit)
 
-### 🧭 Learning Pathways
+### 🧭 Learning Pathway with step-by-step tutorials
 
 * Updated tutorials to include missing tools:
 
