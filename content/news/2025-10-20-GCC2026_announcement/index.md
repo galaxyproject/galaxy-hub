@@ -15,7 +15,7 @@ Hosted by Université Clermont Auvergne (UCA), GCC2026 will bring together resea
 
 ## What to expect
 
-GCC is more than a conference, it’s a celebration of collaboration, innovation, and open science.
+GCC is more than a conference; it’s a celebration of collaboration, innovation, and open science.
 
 Attendees can look forward to:
 
@@ -38,8 +38,9 @@ We’re thrilled to have Université Clermont Auvergne as our host this year. UC
 
 ## Key Dates
 
-| Week of January 9 | Early registration opens |
+| **Date** | What's happening? |
 | :---- | :---- |
+| **Week of January 9** | Early registration opens |
 | **Week of February 3** | Abstract submissions open |
 | **April 6** | Talk abstracts close |
 | **April 20** | Notifications of abstract acceptance sent |
