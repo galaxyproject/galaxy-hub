@@ -152,7 +152,7 @@ The **FAIRyMAGs hackathon** brought together a great community of MAGs scientist
   </p>
 </div>
 
-To continue this exchange a dedicated community slack channel for MAGs workflows was introduced, that will be used to continue the work and openly invites anyone working on MAGs:
+To continue this exchange a dedicated community slack channel for MAGs workflows was introduced, that will be used to continue the work and openly invites anyone working on MAGs. The slack channel is part of the [bioinfo](microbial-bioinfo.slack.com) workspace, login to bioinfo is required!
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="https://microbial-bioinfo.slack.com/archives/C09M4D21Q3U" target="_blank" 
