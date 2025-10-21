@@ -83,7 +83,7 @@ All progress was tracked in the
 ## 📚 Developing User-Friendly Training Materials
 
 * **Dataset identification** is in progress (blocked by subworkflow bug — WIP)
-* Started a **comprehensive tutorial** for short & long reads → [HackMD draft](https://hackmd.io/Oa3WA5BvTi-eg-LrhWSfSg?edit)
+* Started a **comprehensive tutorial** to run the full workflow on  short & long reads → [HackMD draft](https://hackmd.io/Oa3WA5BvTi-eg-LrhWSfSg?edit)
 
 ### 🧭 Learning Pathway with step-by-step tutorials
 
