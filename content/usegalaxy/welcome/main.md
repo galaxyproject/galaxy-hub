@@ -6,11 +6,11 @@ title: usegalaxy.org
 
 **Donate to the James P. Taylor Foundation for Open Science**
 
-<button type="button" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;">
+<a href="https://jxtxfoundation.org/" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;" target="_blank">
 
-[Learn More][jxtx-foundation]
+<i class="fa fa-external-link-alt fa-sm" aria-hidden="true"></i>&nbsp;Learn More
 
-</button>
+</a>
 
 </div>
 

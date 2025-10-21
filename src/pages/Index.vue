@@ -49,6 +49,17 @@
                         </div>
                     </nav>
                 </div>
+                <!-- When removing this announcement, do not remove it entirely, comment it instead since it would be
+                    useful to have this same consistent styling for future announcements (reuse `hero-announcement-...` classes etc.) -->
+                <div class="col-lg-5 hero-announcement-container">
+                    <a href="/events/gcc2026/" class="hero-announcement-img-link">
+                        <img
+                            src="/images/events/gcc2026/gcc2026-first-announcement-slide.png"
+                            alt="Galaxy Community Conference 2026 - Announcement"
+                            class="img-fluid rounded"
+                        />
+                    </a>
+                </div>
             </div>
         </div>
         <div class="container-fluid-real p-0">
