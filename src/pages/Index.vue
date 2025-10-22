@@ -9,14 +9,11 @@
                         education, publishing tools, managing infrastructure, and more.
                     </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
-                        <div style="color:white">
-                        My geolocation country {{ " (" + userCountryCode + ")" || "Loading..." }}
-                        </div>
                         <div class="container-fluid">
-                            <div v-if="prioritizedGalaxyLocales" class="nav navbar-nav">
+                            <div v-if="prioritizedGalaxyInstances" class="nav navbar-nav">
                                 <div class="dropdown show">
                                     <a
-                                        v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
+                                        v-for="site in this.prioritizedGalaxyInstances.slice(0, 1)"
                                         :key="site.locale"
                                         :href="site.url"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
@@ -28,15 +25,14 @@
                                         aria-expanded="false"
                                         @click="plausibleCount(`UseGalaxyDropDown Clicks ${site.locale}`)"
                                     >
-                                        UseGalaxy:
-                                        {{ site.locale }}
+                                        UseGalaxy Now - {{ site.locale }}
                                     </a>
                                     <div
                                         class="dropdown-menu hero bgBright m-0 pb-0"
                                         aria-labelledby="dropdownMenuLink"
                                     >
                                         <a
-                                            v-for="site in this.prioritizedGalaxyLocales.slice(1)"
+                                            v-for="site in this.prioritizedGalaxyInstances.slice(1)"
                                             :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
@@ -321,6 +317,7 @@ import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
 import Publications from "@/components/Publications";
 import Testimonials from "@/components/Testimonials";
+import GeolocationService from "@/services/geolocation"; // Added this import
 
 export default {
     components: {
@@ -330,9 +327,8 @@ export default {
     data() {
         return {
             cancelled: false,
-            prioritizedGalaxyLocales: [],
-            userCountry: null, // Added to store the user's country
-            userCountryCode: null, // Added to store the user's country code
+            prioritizedGalaxyInstances: [],
+            visitorCountryCode: null,
         };
     },
     computed: {
@@ -342,39 +338,54 @@ export default {
     },
     methods: {
         slugify,
-        setPrioritizedGalaxyLocales() {
-            const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
+        async setPrioritizedGalaxyInstances() {
             let galaxies = CONFIG.usegalaxy;
-            let priority = galaxies.splice(
+            galaxies = this.setPriorityUtc(galaxies);
+            galaxies = await this.setPriorityCountryCode(galaxies);
+            this.prioritizedGalaxyInstances = galaxies;
+        },
+        setPriorityUtc(galaxies) {
+            const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
+            let priorityUtc = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
                 1,
             );
-            if (priority[0]) {
-                galaxies.splice(0, 0, priority[0]);
+            if (priorityUtc[0]) {
+                galaxies.splice(0, 0, priorityUtc[0]);
             }
-            this.prioritizedGalaxyLocales = galaxies;
+            return galaxies;
         },
-        plausibleCount(goal) {
-            if (typeof window.plausible !== "undefined") {
-                window.plausible(goal);
+        async setPriorityCountryCode(galaxies) {
+            const geolocationService = new GeolocationService({
+                enabled: true,
+                timeout: 4000,
+            });
+
+            try {
+                const result = await geolocationService.getVisitorCountryCode();
+                if (result.status === 'success') {
+                    const visitorCountryCode = result.country;
+                    this.visitorCountryCode = visitorCountryCode;
+
+                    let priorityCountryCode = galaxies.splice(
+                        galaxies.findIndex((g) => g.locale === visitorCountryCode),
+                        1,
+                    );
+                    if (priorityCountryCode[0]) {
+                        galaxies.splice(0, 0, priorityCountryCode[0]);
+                    }
+                } else {
+                    // console.warn('Failed to retrieve visitor country code:', result.message);
+                }
+            } catch (error) {
+                // console.error('Error in setPriorityCountryCode:', error);
             }
-        },
-        async loadUserCountry() {
-            // Fetch the user's country using the geolocation service
-            const response = await fetch('https://ipapi.co/json/');
-            if (response.ok) {
-                const data = await response.json();
-                this.userCountry = data.country_name; // Set the user's country
-                // get user's country code
-                this.userCountryCode = data.country_code;
-            } else {
-                console.error('Failed to fetch user country');
-            }
+
+            return galaxies;
         },
     },
     mounted() {
-        this.setPrioritizedGalaxyLocales();
-        this.loadUserCountry(); // Call the method to load the user's country
+        this.setPrioritizedGalaxyInstances();
     },
     metaInfo() {
         return {
