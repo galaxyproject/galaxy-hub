@@ -9,6 +9,9 @@
                         education, publishing tools, managing infrastructure, and more.
                     </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
+                        <div style="color:white">
+                        My geolocation country {{ " (" + userCountryCode + ")" || "Loading..." }}
+                        </div>
                         <div class="container-fluid">
                             <div v-if="prioritizedGalaxyLocales" class="nav navbar-nav">
                                 <div class="dropdown show">
@@ -328,6 +331,8 @@ export default {
         return {
             cancelled: false,
             prioritizedGalaxyLocales: [],
+            userCountry: null, // Added to store the user's country
+            userCountryCode: null, // Added to store the user's country code
         };
     },
     computed: {
@@ -354,9 +359,22 @@ export default {
                 window.plausible(goal);
             }
         },
+        async loadUserCountry() {
+            // Fetch the user's country using the geolocation service
+            const response = await fetch('https://ipapi.co/json/');
+            if (response.ok) {
+                const data = await response.json();
+                this.userCountry = data.country_name; // Set the user's country
+                // get user's country code
+                this.userCountryCode = data.country_code;
+            } else {
+                console.error('Failed to fetch user country');
+            }
+        },
     },
     mounted() {
         this.setPrioritizedGalaxyLocales();
+        this.loadUserCountry(); // Call the method to load the user's country
     },
     metaInfo() {
         return {
