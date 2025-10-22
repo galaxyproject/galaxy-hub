@@ -183,3 +183,5 @@ Their work has helped shape the development and direction of the project.
     * Retired<sup>*</sup>, Australia
 * **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
     * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+* **[Wendi Bacon](https://www.open.ac.uk/people/wb2845)**
+    * [The Open University](https://www.open.ac.uk/research/faculties), United Kingdom
