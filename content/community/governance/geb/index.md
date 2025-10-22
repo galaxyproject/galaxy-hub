@@ -160,10 +160,6 @@ The GEB is a group of Galaxy advocates from around the world. It is currently (2
     * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
 * **[Björn Grüning](https://github.com/bgruening)**
     * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
-* **[Ross Lazarus](https://github.com/fubar2)**
-    * Retired<sup>*</sup>, Australia
-* **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
-    * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Anton Nekrutenko](https://www.huck.psu.edu/people/anton-nekrutenko)**
     * [Penn State University](https://psu.edu/) United States
 * **[Michael Schatz](https://schatz-lab.org/)**
@@ -177,3 +173,13 @@ The GEB is a group of Galaxy advocates from around the world. It is currently (2
 * **[Saskia Hiltemann](https://www.linkedin.com/in/shiltemann/)**
     * [University of Freiburg](https://uni-freiburg.de/), Germany & The Netherlands
 <sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
+
+# Former Members
+
+We thank all former members of the Galaxy Executive Board for their commitment and valuable contributions to the Galaxy community.
+Their work has helped shape the development and direction of the project.
+
+* **[Ross Lazarus](https://github.com/fubar2)**
+    * Retired<sup>*</sup>, Australia
+* **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
+    * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
