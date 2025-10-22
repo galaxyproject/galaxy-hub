@@ -1,18 +1,16 @@
 ---
 title: "From Functional Nucleic Acids to Galaxy Training: Reflections on My Research Stay in Freiburg"
-contributions:
-  authorship: [Reyhaneh Tavakoli Koopaei]
+date: "2025-10-20"
+authors: "Reyhaneh Tavakoli Koopaei"
+tease: "Collaboration and innovation with the Galaxy Europe team"
 tags: [gtn, galaxy-europe, training, imaging, RNA, dnazyme, cleaveRNA]
-layout: news
-date: '2025-10-20'
-cover:
-  - news/images/galaxy-guest-researcher/sweet_memories_1.png
-  - news/images/galaxy-guest-researcher/sweet_memories_2.png
-coveralt: "Celebrating collaboration and innovation with the Galaxy Europe team."
+supporters: [unifreiburg, uniisfahan]
+subsites: [all]
+main_subsite: eu
 ---
 
 I am a PhD candidate in **Biochemistry** at the **University of Isfahan**, with a research focus on the application of **functional nucleic acids** in medicine — both for diagnostics and for theranostics.
-In **September 2024**, I had the privilege of joining the **Galaxy Europe** team in Freiburg as a visiting scientist under the leadership of **Dr. Björn Grüning**.
+In **September 2024**, I had the privilege of joining the **Galaxy Europe** team at the **University of Freiburg** as a visiting scientist under the leadership of **Dr. Björn Grüning**.
 
 This experience was a turning point in my scientific journey. The Galaxy team welcomed me warmly, provided professional and technical support, and created an environment where collaboration and creativity flourished. It was also a joy and an honor to celebrate the New Year together — a moment that symbolized the spirit of community that Galaxy embodies.
 
