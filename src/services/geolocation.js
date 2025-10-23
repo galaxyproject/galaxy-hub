@@ -40,18 +40,14 @@ class GeolocationService {
             });
 
             if (!response.ok) {
-                throw new Error('Failed to fetch geolocation data');
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
             }
 
-            const data = await response.json();
-
-            if (data.error) {
-                throw new Error(data.reason || 'Unknown error occurred');
-            }
-
+            const data = await response.text(); // Plain text response
+            
             return {
                 status: 'success',
-                country: data.country_code,
+                country: data.trim() // Remove any whitespace
             };
 
         } catch (error) {
@@ -93,7 +89,6 @@ class GeolocationService {
                 regionName: 'North America',
                 note: 'Galaxy Hub server location (configured)'
             };
-
         } catch (error) {
             console.warn('Server location service error:', error.message);
             return {
@@ -149,7 +144,6 @@ class GeolocationService {
                 federationStatus: false, // Galaxy Hub doesn't typically federate
                 timestamp: new Date().toISOString()
             };
-
         } catch (error) {
             console.error('Error retrieving galaxy servers info:', error);
             return {
@@ -159,6 +153,11 @@ class GeolocationService {
             };
         }
     }
+}
+
+// Factory function for creating geolocation service
+export function createGeolocationService(config = {}) {
+    return new GeolocationService(config);
 }
 
 // Default export

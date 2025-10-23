@@ -317,7 +317,7 @@ import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
 import Publications from "@/components/Publications";
 import Testimonials from "@/components/Testimonials";
-import GeolocationService from "@/services/geolocation"; // Added this import
+import GeolocationService from "@/services/geolocation";
 
 export default {
     components: {
@@ -338,15 +338,17 @@ export default {
     },
     methods: {
         slugify,
+        
         async setPrioritizedGalaxyInstances() {
             let galaxies = CONFIG.usegalaxy;
             galaxies = this.setPriorityUtc(galaxies);
             galaxies = await this.setPriorityCountryCode(galaxies);
             this.prioritizedGalaxyInstances = galaxies;
         },
+        
         setPriorityUtc(galaxies) {
             const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
-            let priorityUtc = galaxies.splice(
+            const priorityUtc = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
                 1,
             );
@@ -355,6 +357,7 @@ export default {
             }
             return galaxies;
         },
+        
         async setPriorityCountryCode(galaxies) {
             const geolocationService = new GeolocationService({
                 enabled: true,
@@ -367,21 +370,25 @@ export default {
                     const visitorCountryCode = result.country;
                     this.visitorCountryCode = visitorCountryCode;
 
-                    let priorityCountryCode = galaxies.splice(
+                    const priorityCountryCode = galaxies.splice(
                         galaxies.findIndex((g) => g.locale === visitorCountryCode),
                         1,
                     );
                     if (priorityCountryCode[0]) {
                         galaxies.splice(0, 0, priorityCountryCode[0]);
                     }
-                } else {
-                    // console.warn('Failed to retrieve visitor country code:', result.message);
                 }
             } catch (error) {
-                // console.error('Error in setPriorityCountryCode:', error);
+                console.warn('Error in setPriorityCountryCode:', error);
             }
 
             return galaxies;
+        },
+        
+        plausibleCount(goal) {
+            if (typeof window !== 'undefined' && typeof window.plausible !== 'undefined') {
+                window.plausible(goal);
+            }
         },
     },
     mounted() {
