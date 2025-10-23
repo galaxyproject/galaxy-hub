@@ -29,7 +29,7 @@ The event openly invited the MAGs community to collaborate on:
 * Performing benchmarking
 * Creating tools for computational resource estimation
 
-A total of **35 researchers from around the world** participated — eight gathering in **Freiburg (Germany)** and five in an **Australien Outpost** (coordinated by **Tiff Nelson**), while the rest joined remotely.
+A total of **35 researchers from around the world** participated — eight gathering in **Freiburg (Germany)** and five in an **Australian Outpost** (coordinated by **Tiff Nelson**), while the rest joined remotely.
 
 Preparation included a shared Google Docs, spreadsheets, and slides for coordination. During the hackathon, participants joined **joint sessions** between Australia and Europe in the mornings and **Europe-focused working groups** in the afternoons. Communication flowed via a **dedicated Slack channel** in the Galaxy Training Network (GTN).
 
