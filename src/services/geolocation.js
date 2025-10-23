@@ -78,26 +78,16 @@ class GeolocationService {
             };
         }
 
-        try {
-            // For Galaxy Hub, we can return static server location info
-            // This would typically be configured based on where Galaxy Hub is hosted
-            return {
-                status: 'success',
-                country: 'US', // Update based on actual server location
-                countryName: 'United States',
-                region: 'NA',
-                regionName: 'North America',
-                note: 'Galaxy Hub server location (configured)'
-            };
-        } catch (error) {
-            console.warn('Server location service error:', error.message);
-            return {
-                status: 'error',
-                country: null,
-                region: null,
-                message: 'Location service temporarily unavailable'
-            };
-        }
+        // For Galaxy Hub, we can return static server location info
+        // This would typically be configured based on where Galaxy Hub is hosted
+        return {
+            status: 'success',
+            country: 'US', // Update based on actual server location
+            countryName: 'United States',
+            region: 'NA',
+            regionName: 'North America',
+            note: 'Galaxy Hub server location (configured)'
+        };
     }
 
     /**
