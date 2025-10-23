@@ -65,7 +65,7 @@ All progress was tracked in the
 ### 📈 MAGs Visualization
 
 * Plots modularized for reusability
-* Discussions on **multi-sample binning** based on [Nature Communications, 2025](https://www.nature.com/articles/s41467-025-57957-6)
+* Discussions on **multi-sample binning** based on [Han *et al*, Nature Communications, 2025](https://www.nature.com/articles/s41467-025-57957-6)
 * **MAGs submission workflow** WIP in collaboration with the **MGnify team**:
 
   * ENA MAG file generation → [Issue #58](https://github.com/usegalaxy-eu/FAIRyMAGs/issues/58)
