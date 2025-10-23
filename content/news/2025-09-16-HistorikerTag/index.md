@@ -6,7 +6,7 @@ tags: [conference]
 layout: news
 date: "2025-09-19"
 supporters: [dataplant, denbi, deKCD, mwk] 
-tease: ""
+tease: "Get your historic material ready - Galaxy supports your endeavours in Digital History"
 subsites: [all,eu]
 ---
 # The Freiburg Galaxy team participated in the German Historikertag
@@ -23,3 +23,4 @@ Set in the old Senate's room, this definitely ranks among the most historic setu
 
 ![The Galaxy Freiburg Poster at the Historikertag 2025](./GalPoster.jpeg)
 
+Our [workshop](https://digigw.hypotheses.org/6292), organised by the working group Digitale Geschichtswissenschaft, allowed us to explore the Galaxy platform and introduce the new users to the environment and options in Galaxy. The unfolding discussions about further tools and development were very productive, as were the other sessions from the Historikertag's rich program. A promising first Historikertag!
