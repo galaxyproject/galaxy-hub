@@ -15,12 +15,6 @@
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a href="https://galaxyproject.org/events/gcc2026/" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/events/gcc2026/gcc2026-first-announcement-slide.png"
-                    img-alt="Galaxy Community Conference 2026 - Announcement"
-                ></b-carousel-slide>
-            </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
                     img-src="/images/jxtx/jxtx-jumbotron.png"
