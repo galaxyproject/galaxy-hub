@@ -194,7 +194,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <div class="testimonials-container">
-                            <Testimonials :showControls="true" :showHeading="true" />
+                            <Testimonials :show-controls="true" :show-heading="true" />
                         </div>
                     </div>
                 </div>
