@@ -17,13 +17,13 @@
             -->
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/jxtx/jxtx-jumbotron.png"
+                    img-src="/images/usegalaxy-welcome/jxtx_carousel.svg"
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
                 ></b-carousel-slide>
             </a>
             <a href="https://galaxyproject.org/news/2025-10-21-whycollections/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/theguy.png"
+                    img-src="/images/usegalaxy-welcome/theguy.svg"
                     img-alt="Use collections!"
                 ></b-carousel-slide>
             </a>
