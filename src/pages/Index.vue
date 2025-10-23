@@ -350,14 +350,14 @@ export default {
     },
     methods: {
         slugify,
-        
+
         async setPrioritizedGalaxyInstances() {
             let galaxies = CONFIG.usegalaxy;
             galaxies = this.setPriorityUtc(galaxies);
             galaxies = await this.setPriorityCountryCode(galaxies);
             this.prioritizedGalaxyInstances = galaxies;
         },
-        
+
         setPriorityUtc(galaxies) {
             const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
             const priorityUtc = galaxies.splice(
@@ -369,7 +369,7 @@ export default {
             }
             return galaxies;
         },
-        
+
         async setPriorityCountryCode(galaxies) {
             const geolocationService = new GeolocationService({
                 enabled: true,
@@ -378,7 +378,7 @@ export default {
 
             try {
                 const result = await geolocationService.getVisitorCountryCode();
-                if (result.status === 'success') {
+                if (result.status === "success") {
                     const visitorCountryCode = result.country;
                     this.visitorCountryCode = visitorCountryCode;
 
@@ -391,14 +391,14 @@ export default {
                     }
                 }
             } catch (error) {
-                console.warn('Error in setPriorityCountryCode:', error);
+                console.warn("Error in setPriorityCountryCode:", error);
             }
 
             return galaxies;
         },
-        
+
         plausibleCount(goal) {
-            if (typeof window !== 'undefined' && typeof window.plausible !== 'undefined') {
+            if (typeof window !== "undefined" && typeof window.plausible !== "undefined") {
                 window.plausible(goal);
             }
         },
