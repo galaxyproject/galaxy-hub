@@ -27,6 +27,7 @@ The event was based on preliminary work conducted by the FairyMAGs project team.
 * the improving of a published [**Galaxy MAGs workflow**](https://iwc.galaxyproject.org/workflow/mags-building-main/)- but also Galaxy-agnostic workflow improvements
 * development of **MAGs training material** based on the Galaxy Training Network and already existing training of Assembly and Binning
 * the **improvement and extension of benchmarks**, based on a draft benchmarking workflow build on CAMI infrastructure 
+* application of the workflow on **real live use cases** including project specific examples of termite, cloud, marine, bee and soil related analysis
 * the creation of tools for **computational resource estimation**, for which a preliminary workflow and analysis notbook was already developed using assembly statistics provide by the MGnify Team 
 
 However, any topic related to MAGs was welcome and the community was openly invited to bring their own ideas !
