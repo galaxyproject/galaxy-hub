@@ -9,7 +9,7 @@
             <div class="col-md-6">
                 <div class="youtube-container">
                     <iframe
-                        width="100%"
+                        width="400"
                         height="277"
                         src="https://www.youtube.com/embed/k6fTVIR4GME?mute=1&cc_load_policy=1&autoplay=1&loop=1&playlist=k6fTVIR4GME"
                         title="YouTube video player"
