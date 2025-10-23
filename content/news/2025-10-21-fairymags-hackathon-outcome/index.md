@@ -40,7 +40,7 @@ Preparation included a shared Google Docs, spreadsheets, and slides for coordina
 All progress was tracked in the
 👉 [**FAIRyMAGs Hackathon – Coordination & Tracking Sheet**](https://docs.google.com/spreadsheets/d/1TbuSUWMILAB3W5uO8O8ZRHrh5i7BedXfSVcA2MB0iAM/edit). Some of the highlight outcomes are summarized here:
 
-### ⚙️ Enhancing FAIR MAGs Building Workflows
+### ⚙️ Enhancing Galaxy MAGs Building Workflows
 
 #### 🔧 Tool Updates
 
