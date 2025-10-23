@@ -115,21 +115,25 @@
     "usegalaxy": [
         {
             "locale": "US",
-            "url": "http://www.usegalaxy.org",
+            "url": "https://www.usegalaxy.org",
             "utcMin": -11,
             "utcMax": -3
         },
         {
             "locale": "EU",
-            "url": "http://usegalaxy.eu",
+            "url": "https://usegalaxy.eu",
             "utcMin": -3,
             "utcMax": 7
         },
         {
             "locale": "AU",
-            "url": "http://usegalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
             "utcMin": 7,
             "utcMax": 14
+        },
+        {
+            "locale": "FR",
+            "url": "https://usegalaxy.fr/"
         },
         {
             "locale": "Other",
