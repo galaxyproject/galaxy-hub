@@ -45,7 +45,6 @@ All progress was tracked in the
 * **SemiBin2** version update → [PR #7347](https://github.com/galaxyproject/tools-iuc/pull/7347)
 * **COMEBin**, a new high-performance binner → [PR #7285](https://github.com/galaxyproject/tools-iuc/pull/7285)
 * **MaAsLin3**, for downstream differential analysis → [PR #7263](https://github.com/galaxyproject/tools-iuc/pull/7263)
-* **Visualization plots collection** for advanced MAGs exploration → [Issue #54](https://github.com/usegalaxy-eu/FAIRyMAGs/issues/54)
 
 ### 🗂️ Database Updates
 
@@ -61,6 +60,8 @@ All progress was tracked in the
   * **Sample grouping subworkflow update** → [View on Galaxy](https://usegalaxy.eu/u/wolfgang-maier/w/grouping-wf) to fix bugs in subworkflows
 * **Fallback workflow** to recover MAGs when tools fail → [View on Galaxy](https://usegalaxy.eu/u/paulzierep/w/mags-fallback-1)
 * **Adapted workflow for long reads** tested on ONT samples (thanks to *Stefan Kranz*)
+* **Visualization plots collection** for advanced MAGs exploration → [Issue #54](https://github.com/usegalaxy-eu/FAIRyMAGs/issues/54)
+
 
 ### 📈 MAGs Visualization
 
