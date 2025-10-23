@@ -21,14 +21,26 @@ The biological world as we know it is largely composed of *dark matter* — micr
 
 From **October 6–9, 2025**, the [**FAIRyMAGs project**](https://elixir-europe.org/how-we-work/scientific-programme/commissioned-services/science/bfsp/fairymags) (funded by [ELIXIR](https://elixir-europe.org/)) organized a hybrid, four-day hackathon as part of the [**ELIXIR BFSP Programme**](https://elixir-europe.org/internal-projects/commissioned-services/science/biodiversity-foodsecurity-pathogens).
 
-The event was based on preliminary work conducted by the FairyMAGs project team. The proposed tasks included 
-* the improving of a published [**Galaxy MAGs workflow**](https://iwc.galaxyproject.org/workflow/mags-building-main/)- but also Galaxy-agnostic workflow improvements
-* development of **MAGs training material** based on the Galaxy Training Network and already existing training of Assembly and Binning
-* the **improvement and extension of benchmarks**, based on a draft benchmarking workflow build on CAMI infrastructure 
-* application of the workflow on **real live use cases** including project specific examples of termite, cloud, marine, bee and soil related analysis
-* the creation of tools for **computational resource estimation**, for which a preliminary workflow and analysis notbook was already developed using assembly statistics provide by the MGnify Team 
+## FAIRyMAGs project
 
-However, any topic related to MAGs was welcome and the community was openly invited to bring their own ideas !
+The **FAIRyMAGs project** aims to advance metagenomics research by developing, optimizing, evaluating, and disseminating robust FAIR workflows for building **metagenome-assembled genomes (MAGs)**.
+
+The project has already published an initial [Galaxy MAGs workflow](https://iwc.galaxyproject.org/workflow/mags-building-main/) and successfully applied it to both **CAMI benchmarking datasets** and real-world use cases, including **termite**, **cloud**, **marine**, and **bee** microbiomes.
+
+To further enhance the quality and reproducibility of MAG analyses, FAIRyMAGs is also improving and extending existing **MAGs benchmarking frameworks** by integrating the [CAMI infrastructure](https://academic.oup.com/nar/article/53/W1/W102/8126258) into the Galaxy platform.
+
+An additional focus of the project is the study of **computational resource requirements** for MAG construction. The team has investigated the resources needed for the assembly step of the workflow using data provided the **MGnify team**.
+
+The FAIRyMAGs project is led by **Paul Zierep** and **Bérénice Batut**, in collaboration with four **ELIXIR Nodes**:
+
+* **ELIXIR France** – Bérénice Batut
+* **ELIXIR Germany** – Paul Zierep
+* **ELIXIR Italy** – Giuseppe Defazio and Bruno Fosso
+* **EMBL-EBI** – Martin Beracochea and Santiago Sanchez
+
+## The FAIRyMAGs hackathon
+
+The hackathon aimed to build on the preliminary work of the project but also openly invite the MAGs community to discuss and hack on any ideas related to MAGs generation !
 
 A total of **23 researchers from around the world** participated — eight gathering in **Freiburg (Germany)** and five in an **Australian Outpost** (coordinated by **Tiff Nelson**), while the rest joined remotely.
 
