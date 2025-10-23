@@ -21,18 +21,5 @@ Our [poster "Approaching Digital History with the Open Source Platform Galaxy"](
 It explains what resources the platform offers and how the Open Educational Resources from the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/digital-humanities/) help guide researchers' first steps.
 Set in the old Senate's room, this definitely ranks among the most historic setups of our team's poster presentations to date.
 
-![The Galaxy Freiburg team at CoRDI](./Cordi_2025.jpg)
+![The Galaxy Freiburg Poster at the Historikertag 2025](./GalPoster.jpeg)
 
-Education in research data management (RDM) was the focal point in the session "Educating RDM: Novel Approaches for Training & Education in RDM."
-Here, the talk on "RDM Education with the Galaxy Training Network (GTN) – FAIR and Scalable RDM Training with Galaxy, GTN, and TIaaS" introduced the GTN, how the GTN ensures the fairness of their training materials, and illustrated how Galaxy and the GTN help to facilitate scalable and fair RDM education.
-
-In efforts towards reproducibility, the "ONE Galaxy" session provided insights into workflow updates that streamline RDM infrastructures, showcasing improved methodologies for ensuring research integrity.
-
-In the session titled "Humanities and Social Sciences - Workflows and Cross-Domain Tools," we delved into "The Open Source Platform Galaxy: A Gateway to Digital Humanities and Research Data Management." 
-This talk introduced Galaxy for users in the Digital Humanities and Social Sciences.
-
-Finally, the "Marketplace for FAIR Data in the Life Sciences: National and International Initiatives and Technical Solutions" session spotlighted how Galaxy advances interdisciplinary research. 
-In this marketplace, Galaxy's adaptability was highlighted, further cementing its status as a key player in fostering collaboration and innovation.
-
-Additionally, we participated in many other formats and enjoyed the possibility to get in touch with many international researchers and RDM-experts and learn from their experience.
-We thank the orga-team for all their effort to make the conference a success and promote research data management worldwide. We are looking for the next CoRDI already.
