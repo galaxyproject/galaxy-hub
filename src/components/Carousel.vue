@@ -7,8 +7,8 @@
             controls
             indicators
             background="#ababab"
-            img-width="650"
-            img-height="450"
+            img-width="400"
+            img-height="277"
             style="text-shadow: 1px 1px 2px #333"
         >
             <!--
@@ -50,7 +50,7 @@ export default {
 <style lang="scss" scoped>
 .carousel-container {
     padding-top: 2rem;
-    max-width: 650px;
+    max-width: 400px;
     margin: 0 auto;
 }
 </style>
