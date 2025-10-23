@@ -7,9 +7,7 @@ date: '2025-10-21'
 tease: 'Exploring Microbial Dark Matter: Outcomes of the FAIRyMAGs Hackathon 2025'
 hide_tease: true
 tags:
-- hackathonThe event was based on preliminary work conducted by the FairyMAGs project team. The proposed tasks included the improving of a published Galaxy MAGs workflow (https://iwc.galaxyproject.org/workflow/mags-building-main/)- but also Galaxy-agnostic workflow improvements; development of MAGs training material based on the Galaxy Training Network and already existing trianing of Assembly and Binning.
-The improvement and extension of benchmarks, based on a draft bencharking workflow based on CAMI infrastructre. As well as the creation of tools for computational resource estimation, for which a preliminary workflow and analysis notbook was already developed using assembly statistics provide by hte MGnify Team. 
-
+- hackathon
 - galaxy
 - mags
 - microbial
