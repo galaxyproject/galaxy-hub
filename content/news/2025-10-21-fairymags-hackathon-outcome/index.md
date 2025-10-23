@@ -58,8 +58,7 @@ All progress was tracked in the
 * **Host/contamination removal** (long & short reads) → [PR #991](https://github.com/galaxyproject/iwc/pull/991)
 * **Main MAGs workflow update** → [PR #975](https://github.com/galaxyproject/iwc/pull/975)
   * Added **user-friendly workflow annotations**
-  * **Sample grouping subworkflow update** → [View on Galaxy](https://usegalaxy.eu/u/wolfgang-maier/w/grouping-wf)
-    * **Bug fixes** in subworkflows
+  * **Sample grouping subworkflow update** → [View on Galaxy](https://usegalaxy.eu/u/wolfgang-maier/w/grouping-wf) to fix bugs in subworkflows
 * **Fallback workflow** to recover MAGs when tools fail → [View on Galaxy](https://usegalaxy.eu/u/paulzierep/w/mags-fallback-1)
 * **Adapted workflow for long reads** tested on ONT samples (thanks to *Stefan Kranz*)
 
