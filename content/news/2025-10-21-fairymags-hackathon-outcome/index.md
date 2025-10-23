@@ -104,7 +104,7 @@ Using **CAMI infrastructure and real datasets**, the group worked to standardize
 * Agreed datasets:
 
   * **CAMI II plant-associated** dataset → [Dataset link](https://frl.publisso.de/data/frl:6425521/plant_associated/)
-  * **LomanLab mock community data** → [Mock dataset](https://lomanlab.github.io/mockcommunity/)
+  * **Loman Lab Mock Community Experiments** → [Mock dataset](https://lomanlab.github.io/mockcommunity/)
 * **MGnify**, **nf-core/mag**, and **Galaxy** teams aligned on common benchmarking datasets.
 * Planned reach out to **MAGNETO** developers.
 * Improved **visualizations for CAMI II benchmarks** using *amber* → [Issue #66](https://github.com/usegalaxy-eu/FAIRyMAGs/issues/66)
