@@ -47,8 +47,6 @@ A total of **23 researchers from around the world** participated — 8 gathering
 
 Preparation included a shared Google Docs, spreadsheets, and slides for coordination. During the hackathon, participants joined **joint sessions** between Australia and Europe in the mornings and **Europe-focused working groups** in the afternoons. Communication flowed via a **dedicated Slack channel** in the Galaxy Training Network (GTN).
 
----
-
 # 🚀 Highlight Outcomes
 
 All progress was tracked in the
@@ -92,9 +90,7 @@ All progress was tracked in the
 
 * Added required tools and databases to **usegalaxy.org.au**, expanding FAIRyMAGs access to Australian researchers.
 
----
-
-# 📚 Developing User-Friendly Training Materials
+## 📚 Developing User-Friendly Training Materials
 
 * **Dataset identification** is in progress (blocked by subworkflow bug — WIP)
 * Started a **comprehensive tutorial** to run the full workflow on  short & long reads → [HackMD draft](https://hackmd.io/Oa3WA5BvTi-eg-LrhWSfSg?edit)
@@ -110,13 +106,12 @@ All progress was tracked in the
 
   * **Preprocessing for Group Assignment and Co-Assembly** → [PR #6416](https://github.com/galaxyproject/training-material/pull/6416)
 
----
 
-# 📊 Advancing Workflow Evaluation & Benchmarking
+## 📊 Advancing Workflow Evaluation & Benchmarking
 
 Using **CAMI infrastructure and real datasets**, the group worked to standardize benchmarking for MAG workflows.
 
-## Benchmarking Progress
+### Benchmarking Progress
 
 * **MGnify**, **nf-core/mag**, and **Galaxy** teams aligned on common benchmarking datasets.
 * Started discussion with the **MAGNETO** developers for benchmark alignment. 
@@ -139,9 +134,7 @@ Using **CAMI infrastructure and real datasets**, the group worked to standardize
 * **Termite related MAGs discussions** — attempt to recover more MAGs via group-assembly strategy.
 * **Progress on the Cloud use case** — recovered mid-quality MAGS via the fallback workflow.
 
----
-
-# ⚙️ Building Smarter Resource Estimation Tools
+## ⚙️ Building Smarter Resource Estimation Tools
 
 * Collected **binning tool performance data** from MGnify → [PR #75](https://github.com/usegalaxy-eu/FAIRyMAGs/pull/75)
 * Evaluated **correlation between sample metadata and memory usage** → [PR #68](https://github.com/usegalaxy-eu/FAIRyMAGs/pull/68)
