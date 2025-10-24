@@ -10,10 +10,10 @@
                     </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
-                            <div v-if="prioritizedGalaxyInstances" class="nav navbar-nav">
+                            <div v-if="prioritizedGalaxyLocales" class="nav navbar-nav">
                                 <div class="dropdown show">
                                     <a
-                                        v-for="site in this.prioritizedGalaxyInstances.slice(0, 1)"
+                                        v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
                                         :key="site.locale"
                                         :href="site.url"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
@@ -25,14 +25,15 @@
                                         aria-expanded="false"
                                         @click="plausibleCount(`UseGalaxyDropDown Clicks ${site.locale}`)"
                                     >
-                                        UseGalaxy Now - {{ site.locale }}
+                                        UseGalaxy:
+                                        {{ site.locale }}
                                     </a>
                                     <div
                                         class="dropdown-menu hero bgBright m-0 pb-0"
                                         aria-labelledby="dropdownMenuLink"
                                     >
                                         <a
-                                            v-for="site in this.prioritizedGalaxyInstances.slice(1)"
+                                            v-for="site in this.prioritizedGalaxyLocales.slice(1)"
                                             :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
@@ -194,7 +195,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <div class="testimonials-container">
-                            <Testimonials :show-controls="true" :show-heading="true" />
+                            <Testimonials :showControls="true" :showHeading="true" />
                         </div>
                     </div>
                 </div>
@@ -329,7 +330,6 @@ import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
 import Publications from "@/components/Publications";
 import Testimonials from "@/components/Testimonials";
-import GeolocationService from "@/services/geolocation";
 
 export default {
     components: {
@@ -339,8 +339,7 @@ export default {
     data() {
         return {
             cancelled: false,
-            prioritizedGalaxyInstances: [],
-            visitorCountryCode: null,
+            prioritizedGalaxyLocales: [],
         };
     },
     computed: {
@@ -350,61 +349,26 @@ export default {
     },
     methods: {
         slugify,
-
-        async setPrioritizedGalaxyInstances() {
-            let galaxies = CONFIG.usegalaxy;
-            galaxies = this.setPriorityUtc(galaxies);
-            galaxies = await this.setPriorityCountryCode(galaxies);
-            this.prioritizedGalaxyInstances = galaxies;
-        },
-
-        setPriorityUtc(galaxies) {
+        setPrioritizedGalaxyLocales() {
             const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
-            const priorityUtc = galaxies.splice(
+            let galaxies = CONFIG.usegalaxy;
+            let priority = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
                 1,
             );
-            if (priorityUtc[0]) {
-                galaxies.splice(0, 0, priorityUtc[0]);
+            if (priority[0]) {
+                galaxies.splice(0, 0, priority[0]);
             }
-            return galaxies;
+            this.prioritizedGalaxyLocales = galaxies;
         },
-
-        async setPriorityCountryCode(galaxies) {
-            const geolocationService = new GeolocationService({
-                enabled: true,
-                timeout: 4000,
-            });
-
-            try {
-                const result = await geolocationService.getVisitorCountryCode();
-                if (result.status === "success") {
-                    const visitorCountryCode = result.country;
-                    this.visitorCountryCode = visitorCountryCode;
-
-                    const priorityCountryCode = galaxies.splice(
-                        galaxies.findIndex((g) => g.locale === visitorCountryCode),
-                        1,
-                    );
-                    if (priorityCountryCode[0]) {
-                        galaxies.splice(0, 0, priorityCountryCode[0]);
-                    }
-                }
-            } catch (error) {
-                console.warn("Error in setPriorityCountryCode:", error);
-            }
-
-            return galaxies;
-        },
-
         plausibleCount(goal) {
-            if (typeof window !== "undefined" && typeof window.plausible !== "undefined") {
+            if (typeof window.plausible !== "undefined") {
                 window.plausible(goal);
             }
         },
     },
     mounted() {
-        this.setPrioritizedGalaxyInstances();
+        this.setPrioritizedGalaxyLocales();
     },
     metaInfo() {
         return {
