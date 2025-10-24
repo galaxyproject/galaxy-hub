@@ -23,6 +23,13 @@ From **October 6–9, 2025**, the [**FAIRyMAGs project**](https://elixir-europe.
 
 ## FAIRyMAGs project
 
+The **FAIRyMAGs project** was started in January 2025 for the duration of 20 months until August 2026 and is led by **Paul Zierep** and **Bérénice Batut**, in collaboration with four **ELIXIR Nodes**:
+
+* **ELIXIR France** – Bérénice Batut
+* **ELIXIR Germany** – Paul Zierep
+* **ELIXIR Italy** – Giuseppe Defazio and Bruno Fosso
+* **EMBL-EBI** – Martin Beracochea and Santiago Sanchez
+
 The **FAIRyMAGs project** aims to advance metagenomics research by developing, optimizing, evaluating, and disseminating robust FAIR workflows for building **metagenome-assembled genomes (MAGs)**.
 
 The project has already published an initial [Galaxy MAGs workflow](https://iwc.galaxyproject.org/workflow/mags-building-main/) and successfully applied it to both **CAMI benchmarking datasets** and real-world use cases, including **termite**, **cloud**, **marine**, and **bee** microbiomes.
@@ -31,18 +38,12 @@ To further enhance the quality and reproducibility of MAG analyses, FAIRyMAGs is
 
 An additional focus of the project is the study of **computational resource requirements** for MAG construction. The team has investigated the resources needed for the assembly step of the workflow using data provided the **MGnify team**.
 
-The FAIRyMAGs project is led by **Paul Zierep** and **Bérénice Batut**, in collaboration with four **ELIXIR Nodes**:
-
-* **ELIXIR France** – Bérénice Batut
-* **ELIXIR Germany** – Paul Zierep
-* **ELIXIR Italy** – Giuseppe Defazio and Bruno Fosso
-* **EMBL-EBI** – Martin Beracochea and Santiago Sanchez
 
 ## The FAIRyMAGs hackathon
 
-The hackathon aimed to build on the preliminary work of the project but also openly invite the MAGs community to discuss and hack on any ideas related to MAGs generation !
+The hackathon aimed to build on the preliminary work of the project, but also openly invited the MAGs community to discuss and hack on any ideas related to MAGs generation !
 
-A total of **23 researchers from around the world** participated — eight gathering in **Freiburg (Germany)** and five in an **Australian Outpost** (coordinated by **Tiff Nelson**), while the rest joined remotely.
+A total of **23 researchers from around the world** participated — 8 gathering in **Freiburg (Germany)** and 5 in an **Australian outpost** (coordinated by **Tiff Nelson**), while the rest joined remotely.
 
 Preparation included a shared Google Docs, spreadsheets, and slides for coordination. During the hackathon, participants joined **joint sessions** between Australia and Europe in the mornings and **Europe-focused working groups** in the afternoons. Communication flowed via a **dedicated Slack channel** in the Galaxy Training Network (GTN).
 
@@ -159,19 +160,19 @@ A key challenge identified:
 
 # 💬 Summary and Outlook
 
-The **FAIRyMAGs hackathon** brought together a great community of MAGs scientists. And although the hackathon was slightly Galaxy-centric, a nice exchange beyond workflow engines could be establised, targeting major MAGs issues together !
+The **FAIRyMAGs hackathon** brought together a great community of MAGs scientists. And although the hackathon was slightly Galaxy-centric, a nice exchange beyond workflow engines could be established, targeting major MAGs issues together!
 
 <div align="center" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; justify-items: center;">
-  <img src="./static/IMG_20251007_103940.jpg" alt="FairyMAGs Hackers 1" style="width:90%; border-radius:8px;">
-  <img src="./static/IMG_20251007_103946.jpg" alt="FairyMAGs Hackers 2" style="width:90%; border-radius:8px;">
-  <img src="./static/IMG_20251007_141445.jpg" alt="FairyMAGs Hackers 3" style="width:90%; border-radius:8px;">
-  <img src="./static/IMG_20251007_152237.jpg" alt="FairyMAGs Hackers 4" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_103940.jpg" alt="FAIRyMAGs Hackers 1" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_103946.jpg" alt="FAIRyMAGs Hackers 2" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_141445.jpg" alt="FAIRyMAGs Hackers 3" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_152237.jpg" alt="FAIRyMAGs Hackers 4" style="width:90%; border-radius:8px;">
   <p style="grid-column: span 2; text-align:center; font-style:italic; margin-top:8px;">
-    FairyMAGs Hackers
+    FAIRyMAGs Hackers
   </p>
 </div>
 
-To continue this exchange, we created a dedicated community Slack channel for MAGs workflows, which will be used to continue the discussions, and openly invites anyone working on MAGs. The Slack channel is part of the [microbioinfo](https://microbial-bioinfo.slack.com) workspace. If you want to join, contact us and we will send an invite!
+To continue these exchanges, we created a dedicated community Slack channel for MAGs workflows, which will be used to continue the discussions, and openly invites anyone working on MAGs. The Slack channel is part of the [microbioinfo](https://microbial-bioinfo.slack.com) workspace. If you want to join, contact us and we will send an invite!
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="https://microbial-bioinfo.slack.com/archives/C09M4D21Q3U" target="_blank" 
