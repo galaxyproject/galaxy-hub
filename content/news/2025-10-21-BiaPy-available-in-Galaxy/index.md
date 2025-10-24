@@ -17,7 +17,7 @@ subsites: [all,global,esg,eu]
 We are excited to announce that the powerful bioimage analysis toolkit **BiaPy** is now available as a fully integrated tool within Galaxy. Researchers can now perform advanced deep-learning-based workflows for image segmentation, classification, and reconstruction.
 With BiaPy accessible through the Galaxy Tool Shed (version 3.6.5 + galaxy0), Galaxy users can harness BiaPy’s flexible network architectures and pretrained models from the [BioImage Model Zoo](https://bioimage.io/#/models) and [TorchVision](https://docs.pytorch.org/vision/stable/index.html) in a familiar, data-analysis-centric interface.
 
-![Image analysis tasks that BiaPy can perform](/images/biapy.pdf)
+![Image analysis tasks that BiaPy can perform](biapy.png)
 
 We encourage all Galaxy users, especially those working in microscopy, histology, cell biology, high-content screening, and spatial-omics imaging, to explore BiaPy’s capabilities, whether segmenting complex tissue structures, classifying phenotypes at scale, or reconstructing volumetric image stacks. BiaPy in Galaxy offers a new level of accessibility and reproducibility.
 
