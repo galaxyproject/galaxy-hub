@@ -162,6 +162,29 @@ html {
             }
         }
 
+        .hero-announcement-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .hero-announcement-img-link {
+                display: inline-block;
+                transition: transform 0.2s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                img {
+                    transition: box-shadow 0.2s ease-in-out;
+                }
+
+                &:hover img {
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+                }
+            }
+        }
+
         .area {
             position: relative;
             display: flex;
