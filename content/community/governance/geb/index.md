@@ -154,26 +154,33 @@ The GEB commits to:
 
 # Members
 
-The GEB is a group of Galaxy advocates from around the world. It is currently (2024) comprised of the following members:
+The GEB is a group of Galaxy advocates from around the world. It is currently (2025) comprised of the following members:
 
 * **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
     * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
 * **[Björn Grüning](https://github.com/bgruening)**
     * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
-* **[Ross Lazarus](https://github.com/fubar2)**
-    * Retired<sup>*</sup>, Australia
-* **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
-    * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Anton Nekrutenko](https://www.huck.psu.edu/people/anton-nekrutenko)**
     * [Penn State University](https://psu.edu/) United States
 * **[Michael Schatz](https://schatz-lab.org/)**
     * [Johns Hopkins University](https://jhu.edu/), United States
-* **[Wendi Bacon](https://www.open.ac.uk/people/wb2845)**
-    * [The Open University](https://www.open.ac.uk/research/faculties), United Kingdom
+* **[Marisa Loach](https://www.linkedin.com/in/marisa-loach-624087380/)**
+    * [The Open University](https://www.open.ac.uk/), United Kingdom
 * **[Gareth Price](https://www.linkedin.com/in/gareth-price-60025b88/)**
     * [Australian BioCommons](https://www.biocommons.org.au/), [The University of Queensland](https://www.uq.edu.au/), Australia
 * **[Bérénice Batut](https://research.bebatut.fr)**
     * [Institut Francais de Bioinformatique](https://www.france-bioinformatique.fr/), [AuBi](https://mesocentre.uca.fr/projets-associes/plateforme-aubi), France
 * **[Saskia Hiltemann](https://www.linkedin.com/in/shiltemann/)**
     * [University of Freiburg](https://uni-freiburg.de/), Germany & The Netherlands
-<sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
+
+# Former Members
+
+We thank all former members of the Galaxy Executive Board for their commitment and valuable contributions to the Galaxy community.
+Their work has helped shape the development and direction of the project.
+
+* **[Ross Lazarus](https://github.com/fubar2)**
+    * Retired, Australia
+* **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
+    * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+* **[Wendi Bacon](https://www.open.ac.uk/people/wb2845)**
+    * [The Open University](https://www.open.ac.uk/research/faculties), United Kingdom
