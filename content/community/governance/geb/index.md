@@ -180,7 +180,7 @@ We thank all former members of the Galaxy Executive Board for their commitment a
 Their work has helped shape the development and direction of the project.
 
 * **[Ross Lazarus](https://github.com/fubar2)**
-    * Retired<sup>*</sup>, Australia
+    * Retired, Australia
 * **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
     * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Wendi Bacon](https://www.open.ac.uk/people/wb2845)**
