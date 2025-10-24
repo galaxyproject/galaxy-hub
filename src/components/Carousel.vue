@@ -28,10 +28,7 @@
                 ></b-carousel-slide>
             </a>
             <a href="https://training.galaxyproject.org/" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/gtn.svg"
-                    img-alt="Try GTN"
-                ></b-carousel-slide>
+                <b-carousel-slide img-src="/images/usegalaxy-welcome/gtn.svg" img-alt="Try GTN"></b-carousel-slide>
             </a>
             <a href="https://galaxyproject.org/usegalaxy/" target="_blank">
                 <b-carousel-slide
