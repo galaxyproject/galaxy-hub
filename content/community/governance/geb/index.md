@@ -172,7 +172,6 @@ The GEB is a group of Galaxy advocates from around the world. It is currently (2
     * [Institut Francais de Bioinformatique](https://www.france-bioinformatique.fr/), [AuBi](https://mesocentre.uca.fr/projets-associes/plateforme-aubi), France
 * **[Saskia Hiltemann](https://www.linkedin.com/in/shiltemann/)**
     * [University of Freiburg](https://uni-freiburg.de/), Germany & The Netherlands
-<sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
 
 # Former Members
 
