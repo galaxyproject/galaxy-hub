@@ -51,7 +51,7 @@ You can upload your files in various ways in the upload section on the left side
 ### 🛠️ **General tools**
 - Text cleaning tools such as text manipulation, select lines, add lines, search in text files, Line/Word/Character count, etc.
 - Text file format converters (dos2unix): Convert text files with DOS or Mac line breaks to Unix line breaks and other text cleaning options.
--  Concatenate multiple datasets tail-to-head while specifying how: Join multiple single files into one bigger file based on your needs.
+- Concatenate multiple datasets tail-to-head while specifying how: Join multiple single files into one bigger file based on your needs.
     
 ### 📖 **Text tools**
 - diff: Comparing two text documents
