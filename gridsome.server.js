@@ -645,6 +645,9 @@ module.exports = function (api) {
                             citations
                             pub_libraries
                             sponsors
+                            designation {
+                                tier
+                            }
                             platforms {
                                 platform_group
                                 platform_url

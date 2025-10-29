@@ -104,11 +104,9 @@
                             </span>
                             <span v-else> - </span>
                         </template>
+                        <!-- account for null values -->
                         <template #cell(tier)="data">
-                            <span v-if="getTierValue(data.item)" class="badge badge-primary">
-                                Tier {{ getTierValue(data.item) }}
-                            </span>
-                            <span v-else> - </span>
+                            <i v-if="tierDefinitions[data.item.designation.tier].icon" :class="tierDefinitions[data.item.designation.tier].icon" :title="tierDefinitions[data.item.designation.tier].name" style="color: #2196f3;"></i>
                         </template>
                         <template #cell(link)="data">
                             <a
@@ -187,6 +185,15 @@ const KEYWORDS = {
     domain: { link: "/use/#domain", text: "Domain" },
     "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" },
 };
+
+const TIER_DEFINITIONS = [
+    { tier: 1, name: "Global instances", icon: "fas fa-globe", description: "Stable, reliable, and suitable for critical workloads." },
+    { tier: 2, name: "National instances", icon: "fas fa-building-columns", description: "For development and testing purposes; may have limited reliability." },
+    { tier: 3, name: "Subdomains", icon: "fas fa-network-wired", description: "Early-stage or experimental services; not recommended for production use." },
+    { tier: 4, name: "Institutional instances", icon: "fas fa-building", description: "Local deployments for specific institutions; may vary in quality and reliability." },
+    { tier: 5, name: "Integrated platforms", icon: "fas fa-rocket", description: "Platforms that can launch Galaxy (e.g. AnVIL); suitability depends on the underlying infrastructure." },
+    { tier: 6, name: "Development instances for testing", icon: "fas fa-flask", description: "For testing and development; not intended for regular use." },
+];
 
 const { createSortableField } = useTableSorting();
 
@@ -337,6 +344,7 @@ export default {
             tabs: tabs,
             pageInserts: {},
             tabState: null,
+            tierDefinitions: TIER_DEFINITIONS,
         };
     },
 
@@ -356,6 +364,7 @@ export default {
 
         getTierValue(item) {
             const { getTierValue } = useTableSorting();
+            console.log('item', item);
             return getTierValue(item);
         },
 
