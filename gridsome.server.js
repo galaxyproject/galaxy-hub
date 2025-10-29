@@ -338,8 +338,9 @@ class nodeModifier {
             // Try to match platform URLs with designations
             if (node.platforms && Array.isArray(node.platforms)) {
                 for (const platform of node.platforms) {
-                    if (platform.url) { //platform_url
-                        const url = platform.url.replace(/^https?:\/\//, ""); //platform_url
+                    if (platform.platform_url) { //platform_url
+                        // const url = platform.url.replace(/^https?:\/\//, ""); //platform_url
+                        const url = normalizeUrl(platform.platform_url);
                         const designation = DESIGNATIONS_MAP.get(url);
                         if (designation) {
                             node.designation = designation;
@@ -351,7 +352,8 @@ class nodeModifier {
             
             // Also try matching against the main platform URL if it exists
             if (!node.designation && node.url) {
-                const url = node.url.replace(/^https?:\/\//, "");
+                // const url = node.url.replace(/^https?:\/\//, "");
+                const url = normalizeUrl(node.url);
                 const designation = DESIGNATIONS_MAP.get(url);
                 if (designation) {
                     node.designation = designation;
@@ -411,6 +413,17 @@ function parseNavbarItem(rawItem, pathPrefix) {
     return item;
 }
 
+    
+// Helper function to normalize URLs for consistent matching
+function normalizeUrl(url) {
+    if (!url) return null;
+    return url
+        .replace(/^https?:\/\//, '') // Remove protocol
+        .replace(/\/$/, '')          // Remove trailing slash
+        .replace(/:\d+$/, '')        // Remove port numbers
+        .toLowerCase();              // Normalize case
+}
+
 function loadDesignationsData() {
     const designationsPath = path.join(__dirname, "content/usegalaxy/designations.csv");
     if (!fs.existsSync(designationsPath)) {
@@ -451,9 +464,12 @@ function loadDesignationsData() {
                 designation[header.toLowerCase()] = values[index] || "";
             });
             
+            // Show all designations with URLs
             if (designation.url) {
-                const url = designation.url.replace(/^https?:\/\//, "");
-                designationsMap.set(url, designation);
+                const normalizedUrl = normalizeUrl(designation.url);
+                if (normalizedUrl) {
+                    designationsMap.set(normalizedUrl, designation);
+                }
             }
         }
     }
