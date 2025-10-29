@@ -129,10 +129,6 @@ export function useTableSorting() {
      * @returns {number|null} - Tier value for sorting
      */
     const getTierValue = (row) => {
-        if (row.designation && Array.isArray(row.designation) && row.designation.length > 0) {
-            const tier = parseInt(row.designation[0].tier, 10);
-            return isNaN(tier) ? null : tier;
-        }
         if (row.designation && row.designation.tier) {
             const tier = parseInt(row.designation.tier, 10);
             return isNaN(tier) ? null : tier;

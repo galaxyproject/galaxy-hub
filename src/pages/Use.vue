@@ -104,9 +104,8 @@
                             </span>
                             <span v-else> - </span>
                         </template>
-                        <!-- account for null values -->
                         <template #cell(tier)="data">
-                            <i v-if="tierDefinitions[data.item.designation.tier].icon" :class="tierDefinitions[data.item.designation.tier].icon" :title="tierDefinitions[data.item.designation.tier].name" style="color: #2196f3;"></i>
+                            <i v-if="tierDefinitions[data.item.designation.tier]" :class="tierDefinitions[data.item.designation.tier].icon" :title="tierDefinitions[data.item.designation.tier].name" style="color: #2196f3;"></i>
                         </template>
                         <template #cell(link)="data">
                             <a
