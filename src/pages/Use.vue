@@ -106,10 +106,17 @@
                         </template>
                         <template #cell(tier)="data">
                             <div v-if="getTierValue(data.item)" class="icon-tier">
-                                <i v-if="getTierDefinition(data.item)" 
-                                   :class="getTierDefinition(data.item).icon" 
-                                   :title="'Tier ' + getTierDefinition(data.item).tier + ' - ' + getTierDefinition(data.item).name"
-                                   style="margin-right: 4px;">
+                                <i
+                                    v-if="getTierDefinition(data.item)"
+                                    :class="getTierDefinition(data.item).icon"
+                                    :title="
+                                        'Tier ' +
+                                        getTierDefinition(data.item).tier +
+                                        ' - ' +
+                                        getTierDefinition(data.item).name
+                                    "
+                                    style="margin-right: 4px"
+                                >
                                 </i>
                             </div>
                             <span v-else> - </span>
@@ -193,12 +200,43 @@ const KEYWORDS = {
 };
 
 const TIER_DEFINITIONS = [
-    { tier: 1, name: "Global instances", icon: "fas fa-globe", description: "Stable, reliable, and suitable for critical workloads." },
-    { tier: 2, name: "National instances", icon: "fas fa-building-columns", description: "For development and testing purposes; may have limited reliability." },
-    { tier: 3, name: "Subdomains", icon: "fas fa-network-wired", description: "Early-stage or experimental services; not recommended for production use." },
-    { tier: 4, name: "Institutional instances", icon: "fas fa-building", description: "Local deployments for specific institutions; may vary in quality and reliability." },
-    { tier: 5, name: "Integrated platforms", icon: "fas fa-rocket", description: "Platforms that can launch Galaxy (e.g. AnVIL); suitability depends on the underlying infrastructure." },
-    { tier: 6, name: "Development instances for testing", icon: "fas fa-flask", description: "For testing and development; not intended for regular use." },
+    {
+        tier: 1,
+        name: "Global instances",
+        icon: "fas fa-globe",
+        description: "Stable, reliable, and suitable for critical workloads.",
+    },
+    {
+        tier: 2,
+        name: "National instances",
+        icon: "fas fa-building-columns",
+        description: "For development and testing purposes; may have limited reliability.",
+    },
+    {
+        tier: 3,
+        name: "Subdomains",
+        icon: "fas fa-network-wired",
+        description: "Early-stage or experimental services; not recommended for production use.",
+    },
+    {
+        tier: 4,
+        name: "Institutional instances",
+        icon: "fas fa-building",
+        description: "Local deployments for specific institutions; may vary in quality and reliability.",
+    },
+    {
+        tier: 5,
+        name: "Integrated platforms",
+        icon: "fas fa-rocket",
+        description:
+            "Platforms that can launch Galaxy (e.g. AnVIL); suitability depends on the underlying infrastructure.",
+    },
+    {
+        tier: 6,
+        name: "Development instances for testing",
+        icon: "fas fa-flask",
+        description: "For testing and development; not intended for regular use.",
+    },
 ];
 
 const { createSortableField } = useTableSorting();
@@ -378,7 +416,7 @@ export default {
         getTierDefinition(item) {
             const tierValue = this.getTierValue(item);
             if (!tierValue) return null;
-            return this.tierDefinitions.find(def => def.tier === parseInt(tierValue, 10)) || null;
+            return this.tierDefinitions.find((def) => def.tier === parseInt(tierValue, 10)) || null;
         },
 
         getRegionValue(item, platform_group = null) {
@@ -553,7 +591,6 @@ footer.page-footer {
     text-align: center;
     font-size: 1.2rem;
     color: #25537b;
-
 }
 
 ::v-deep .table td:first-child,

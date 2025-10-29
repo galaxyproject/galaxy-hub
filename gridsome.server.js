@@ -337,18 +337,20 @@ class nodeModifier {
             if (node.platforms && Array.isArray(node.platforms)) {
                 for (const platform of node.platforms) {
                     platform.designation = null;
-                    
+
                     if (platform.platform_url) {
                         const url = normalizeUrl(platform.platform_url);
                         const designation = DESIGNATIONS_MAP.get(url);
                         if (designation) {
                             platform.designation = designation;
-                            console.log(`Found designation for ${platform.platform_url}: ${designation.designation} (Tier ${designation.tier})`);
+                            console.log(
+                                `Found designation for ${platform.platform_url}: ${designation.designation} (Tier ${designation.tier})`,
+                            );
                         }
                     }
                 }
             }
-            
+
             return node;
         },
     };
@@ -402,15 +404,14 @@ function parseNavbarItem(rawItem, pathPrefix) {
     return item;
 }
 
-    
 // Helper function to normalize URLs for consistent matching
 function normalizeUrl(url) {
     if (!url) return null;
     return url
-        .replace(/^https?:\/\//, '') // Remove protocol
-        .replace(/\/$/, '')          // Remove trailing slash
-        .replace(/:\d+$/, '')        // Remove port numbers
-        .toLowerCase();              // Normalize case
+        .replace(/^https?:\/\//, "") // Remove protocol
+        .replace(/\/$/, "") // Remove trailing slash
+        .replace(/:\d+$/, "") // Remove port numbers
+        .toLowerCase(); // Normalize case
 }
 
 function loadDesignationsData() {
@@ -419,26 +420,26 @@ function loadDesignationsData() {
         console.warn("Designations CSV file not found:", designationsPath);
         return new Map();
     }
-    
+
     const csvContent = fs.readFileSync(designationsPath, "utf8");
-    const lines = csvContent.split("\n").filter(line => line.trim());
-    const headers = lines[0].split(",").map(h => h.trim());
+    const lines = csvContent.split("\n").filter((line) => line.trim());
+    const headers = lines[0].split(",").map((h) => h.trim());
     const designationsMap = new Map();
-    
+
     for (let i = 1; i < lines.length; i++) {
         const line = lines[i];
         if (!line.trim()) continue;
-        
+
         // Parse CSV line, handling quoted values
         const values = [];
         let current = "";
         let inQuotes = false;
-        
+
         for (let j = 0; j < line.length; j++) {
             const char = line[j];
             if (char === '"') {
                 inQuotes = !inQuotes;
-            } else if (char === ',' && !inQuotes) {
+            } else if (char === "," && !inQuotes) {
                 values.push(current.trim());
                 current = "";
             } else {
@@ -446,13 +447,13 @@ function loadDesignationsData() {
             }
         }
         values.push(current.trim());
-        
+
         if (values.length >= headers.length) {
             const designation = {};
             headers.forEach((header, index) => {
                 designation[header.toLowerCase()] = values[index] || "";
             });
-            
+
             // Show all designations with URLs
             if (designation.url) {
                 const normalizedUrl = normalizeUrl(designation.url);
@@ -462,7 +463,7 @@ function loadDesignationsData() {
             }
         }
     }
-    
+
     return designationsMap;
 }
 

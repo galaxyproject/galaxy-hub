@@ -138,13 +138,13 @@ export function useTableSorting() {
             if (platform_group && platform.platform_group !== platform_group) {
                 continue;
             }
-            
+
             if (platform.designation && platform.designation.tier) {
                 const tier = parseInt(platform.designation.tier, 10);
                 return isNaN(tier) ? null : tier;
             }
         }
-        
+
         return null;
     };
 
