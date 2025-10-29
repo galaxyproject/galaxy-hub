@@ -333,30 +333,19 @@ class nodeModifier {
             return node;
         },
         Platform: function (node) {
-            node.designation = null;
-            
-            // Try to match platform URLs with designations
+            // Process each platform URL to add designation data
             if (node.platforms && Array.isArray(node.platforms)) {
                 for (const platform of node.platforms) {
-                    if (platform.platform_url) { //platform_url
-                        // const url = platform.url.replace(/^https?:\/\//, ""); //platform_url
+                    platform.designation = null;
+                    
+                    if (platform.platform_url) {
                         const url = normalizeUrl(platform.platform_url);
                         const designation = DESIGNATIONS_MAP.get(url);
                         if (designation) {
-                            node.designation = designation;
-                            break;
+                            platform.designation = designation;
+                            console.log(`Found designation for ${platform.platform_url}: ${designation.designation} (Tier ${designation.tier})`);
                         }
                     }
-                }
-            }
-            
-            // Also try matching against the main platform URL if it exists
-            if (!node.designation && node.url) {
-                // const url = node.url.replace(/^https?:\/\//, "");
-                const url = normalizeUrl(node.url);
-                const designation = DESIGNATIONS_MAP.get(url);
-                if (designation) {
-                    node.designation = designation;
                 }
             }
             
@@ -645,15 +634,15 @@ module.exports = function (api) {
                             citations
                             pub_libraries
                             sponsors
-                            designation {
-                                tier
-                            }
                             platforms {
                                 platform_group
                                 platform_url
                                 platform_text
                                 platform_location
                                 platform_purview
+                                designation {
+                                    tier
+                                }
                             }
                         }
                     }

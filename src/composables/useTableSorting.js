@@ -128,11 +128,23 @@ export function useTableSorting() {
      * @param {Object} row - Row object
      * @returns {number|null} - Tier value for sorting
      */
-    const getTierValue = (row) => {
-        if (row.designation && row.designation.tier) {
-            const tier = parseInt(row.designation.tier, 10);
-            return isNaN(tier) ? null : tier;
+    const getTierValue = (row, platform_group = null) => {
+        if (!row.platforms || !Array.isArray(row.platforms)) {
+            return null;
         }
+
+        // Find the platform with the matching group that has designation data
+        for (const platform of row.platforms) {
+            if (platform_group && platform.platform_group !== platform_group) {
+                continue;
+            }
+            
+            if (platform.designation && platform.designation.tier) {
+                const tier = parseInt(platform.designation.tier, 10);
+                return isNaN(tier) ? null : tier;
+            }
+        }
+        
         return null;
     };
 

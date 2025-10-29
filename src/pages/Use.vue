@@ -105,7 +105,14 @@
                             <span v-else> - </span>
                         </template>
                         <template #cell(tier)="data">
-                            <i v-if="tierDefinitions[data.item.designation.tier]" :class="tierDefinitions[data.item.designation.tier].icon" :title="tierDefinitions[data.item.designation.tier].name" style="color: #2196f3;"></i>
+                            <div v-if="getTierValue(data.item)" class="icon-tier">
+                                <i v-if="getTierDefinition(data.item)" 
+                                   :class="getTierDefinition(data.item).icon" 
+                                   :title="'Tier ' + getTierDefinition(data.item).tier + ' - ' + getTierDefinition(data.item).name"
+                                   style="margin-right: 4px;">
+                                </i>
+                            </div>
+                            <span v-else> - </span>
                         </template>
                         <template #cell(link)="data">
                             <a
@@ -363,8 +370,15 @@ export default {
 
         getTierValue(item) {
             const { getTierValue } = useTableSorting();
-            console.log('item', item);
-            return getTierValue(item);
+            const activeTab = this.tabs[this.tabState?.activeTabIndex || 0];
+            const platform_group = activeTab?.linkGroup || activeTab?.id;
+            return getTierValue(item, platform_group);
+        },
+
+        getTierDefinition(item) {
+            const tierValue = this.getTierValue(item);
+            if (!tierValue) return null;
+            return this.tierDefinitions.find(def => def.tier === parseInt(tierValue, 10)) || null;
         },
 
         getRegionValue(item, platform_group = null) {
@@ -503,20 +517,20 @@ query {
                 summary
                 url
                 path
-                designation {
-                    operative
-                    tier
-                    url
-                    city
-                    region
-                    description
-                    notes
-                }
                 platforms {
                     platform_group
                     platform_url
                     platform_purview
                     platform_location
+                    designation {
+                        operative
+                        tier
+                        url
+                        city
+                        region
+                        description
+                        notes
+                    }
                 }
             }
         }
@@ -535,24 +549,14 @@ footer.page-footer {
     font-size: 100%;
 }
 
-/* Tier badge styling */
-.badge-primary {
-    background-color: #007bff;
-    color: white;
-    padding: 0.25em 0.6em;
-    border-radius: 0.25rem;
-    font-size: 0.75em;
-    font-weight: 600;
-}
-
-/* Center align tier column */
-::v-deep .table td[aria-describedby$="-tier"],
-::v-deep .table th[aria-describedby$="-tier"] {
+.icon-tier {
     text-align: center;
+    font-size: 1.2rem;
+    color: #25537b;
+
 }
 
 ::v-deep .table td:first-child,
-::v-deep .table td[aria-describedby$="-platform"],
 ::v-deep .table td[data-label="Platform"],
 ::v-deep .table td[data-label="platform"] {
     white-space: normal !important;
@@ -562,8 +566,7 @@ footer.page-footer {
     vertical-align: top;
 }
 
-::v-deep .table th:first-child,
-::v-deep .table th[aria-describedby$="-platform"] {
+::v-deep .table th:first-child {
     white-space: normal !important;
     word-wrap: break-word;
     word-break: break-word;
