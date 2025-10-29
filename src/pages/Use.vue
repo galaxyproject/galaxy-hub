@@ -104,12 +104,12 @@
                             </span>
                             <span v-else> - </span>
                         </template>
-                        <!-- <template #cell(tier)="data">
+                        <template #cell(tier)="data">
                             <span v-if="getTierValue(data.item)" class="badge badge-primary">
                                 Tier {{ getTierValue(data.item) }}
                             </span>
                             <span v-else> - </span>
-                        </template> -->
+                        </template>
                         <template #cell(link)="data">
                             <a
                                 v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
@@ -211,8 +211,7 @@ const tabs = [
         columns: [
             createSortableField("platform", "Resource"),
             { key: "link", label: "Server" },
-            { key: "cloud", label: "Cloud" },
-            { key: "deployable", label: "Deployable" },
+            { key: "cloud", label: "Deployable" },
             { key: "summary", label: "Summary" },
             { key: "keywords", label: "Keywords" },
         ],
@@ -222,7 +221,7 @@ const tabs = [
         label: "Public Servers",
         columns: [
             createSortableField("platform", "Resource"),
-            // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
+            createSortableField("tier", "Tier"),
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
@@ -496,6 +495,15 @@ query {
                 summary
                 url
                 path
+                designation {
+                    operative
+                    tier
+                    url
+                    city
+                    region
+                    description
+                    notes
+                }
                 platforms {
                     platform_group
                     platform_url
