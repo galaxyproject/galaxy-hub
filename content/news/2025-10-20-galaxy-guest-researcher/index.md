@@ -9,7 +9,7 @@ subsites: [all]
 main_subsite: eu
 ---
 
-![](sweet_memories_1.png)
+![](./sweet_memories_1.png)
 
 I am a PhD candidate in **Biochemistry** at the **University of Isfahan**, with a research focus on the application of **functional nucleic acids** in medicine — both for diagnostics and for theranostics.
 In **September 2024**, I had the privilege of joining the **Galaxy Europe** team at the **University of Freiburg** as a visiting scientist under the leadership of **Dr. Björn Grüning**.
