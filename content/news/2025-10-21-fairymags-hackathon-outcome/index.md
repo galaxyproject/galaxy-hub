@@ -35,7 +35,7 @@ The **FAIRyMAGs project** aims to advance metagenomics research by developing, o
 
 The project has already published an initial [Galaxy MAGs workflow](https://iwc.galaxyproject.org/workflow/mags-building-main/) and successfully applied it to both **CAMI benchmarking datasets** and real-world use cases, including **termite**, **cloud**, **marine**, and **bee** microbiomes.
 
-To further enhance the quality and reproducibility of MAG analyses, FAIRyMAGs is also improving and extending existing **MAGs benchmarking frameworks** by integrating the [CAMI infrastructure](https://academic.oup.com/nar/article/53/W1/W102/8126258) into the Galaxy platform.
+To further enhance the quality and reproducibility of MAG analyses, FAIRyMAGs is also improving and extending existing **MAGs benchmarking frameworks** by integrating the [CAMI infrastructure](https://academic.oup.com/nar/article/53/W1/W102/8126258) into the Galaxy platform. The CAMI challenges provided simulated benchmark datasets for short and long reads, that can be used to benchmark assembly tools and binners used for MAGs workflows.
 
 An additional focus of the project is the study of **computational resource requirements** for MAG construction. The team has investigated the resources needed for the assembly step of the workflow using data provided the **MGnify team**.
 
