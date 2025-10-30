@@ -47,7 +47,7 @@ I would like to thank the **Galaxy Europe team** — especially **Dr. Björn Gr�
 
 I returned to my PhD journey at the **University of Isfahan** with renewed energy, inspiration, and a deep appreciation for the Galaxy community. I look forward to continuing our collaboration and to helping build tools and training that empower researchers worldwide.
 
-![](sweet_memories_2.png)
+![](./sweet_memories_2.png)
 
 ---
 
