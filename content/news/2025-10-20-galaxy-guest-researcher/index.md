@@ -1,18 +1,18 @@
 ---
 title: "From Functional Nucleic Acids to Galaxy Training: Reflections on My Research Stay in Freiburg"
-contributions:
-  authorship: [Reyhaneh Tavakoli Koopaei]
+date: "2025-10-20"
+authors: "Reyhaneh Tavakoli Koopaei"
+tease: "Collaboration and innovation with the Galaxy Europe team"
 tags: [gtn, galaxy-europe, training, imaging, RNA, dnazyme, cleaveRNA]
-layout: news
-date: '2025-10-20'
-cover:
-  - news/images/galaxy-guest-researcher/sweet_memories_1.png
-  - news/images/galaxy-guest-researcher/sweet_memories_2.png
-coveralt: "Celebrating collaboration and innovation with the Galaxy Europe team."
+supporters: [unifreiburg, uniisfahan]
+subsites: [all]
+main_subsite: eu
 ---
 
+![](./sweet_memories_1.png)
+
 I am a PhD candidate in **Biochemistry** at the **University of Isfahan**, with a research focus on the application of **functional nucleic acids** in medicine — both for diagnostics and for theranostics.
-In **September 2024**, I had the privilege of joining the **Galaxy Europe** team in Freiburg as a visiting scientist under the leadership of **Dr. Björn Grüning**.
+In **September 2024**, I had the privilege of joining the **Galaxy Europe** team at the **University of Freiburg** as a visiting scientist under the leadership of **Dr. Björn Grüning**.
 
 This experience was a turning point in my scientific journey. The Galaxy team welcomed me warmly, provided professional and technical support, and created an environment where collaboration and creativity flourished. It was also a joy and an honor to celebrate the New Year together — a moment that symbolized the spirit of community that Galaxy embodies.
 
@@ -46,6 +46,8 @@ On my final day in Freiburg, we gathered for an enjoyable **barbecue with the Ga
 I would like to thank the **Galaxy Europe team** — especially **Dr. Björn Grüning**, **Prof. Rolf Backofen**, **Dr. Martin Raden**, **Dr. Anup Kumar**, **Dr. Pavan Videm** and all my wonderful colleagues — for their support, encouragement, and vision. It was my honor to work alongside you, to share knowledge, and to contribute in my own way to the Galaxy ecosystem. I would also like to warmly acknowledge the invaluable support of my supervisors at the University of Isfahan, **Dr. Fatemeh Javadi-Zarnaghi** and **Dr. Fariba Dehghanian**, whose scientific guidance and continuous encouragement, greatly enriched my research stay and overall academic growth.
 
 I returned to my PhD journey at the **University of Isfahan** with renewed energy, inspiration, and a deep appreciation for the Galaxy community. I look forward to continuing our collaboration and to helping build tools and training that empower researchers worldwide.
+
+![](./sweet_memories_2.png)
 
 ---
 
