@@ -12,6 +12,7 @@ tags:
 - mags
 - microbial
 - metagennomics
+- fairymags
 
 ---
 
@@ -43,9 +44,19 @@ An additional focus of the project is the study of **computational resource requ
 
 The hackathon aimed to build on the preliminary work of the project, but also openly invited the MAGs community to discuss and hack on any ideas related to MAGs generation !
 
-A total of **23 researchers from around the world** participated — 8 gathering in **Freiburg (Germany)** and 5 in an **Australian outpost** (coordinated by **Tiff Nelson**), while the rest joined remotely.
+A total of **23 researchers from around the world** participated — 8 gathering in **Freiburg (Germany)** and 6 in an **Australian outpost** (coordinated by **Tiff Nelson**), while the rest joined remotely.
 
 Preparation included a shared Google Docs, spreadsheets, and slides for coordination. During the hackathon, participants joined **joint sessions** between Australia and Europe in the mornings and **Europe-focused working groups** in the afternoons. Communication flowed via a **dedicated Slack channel** in the Galaxy Training Network (GTN).
+
+## Hackathon summary
+
+During the hackathon, researchers worked independently on various goals related to MAGs workflows, depending on their background and expertise. Researchers familiar with Galaxy updated and added Galaxy tools, and modified and extended the preliminary MAGs workflow. Some participants focused on individual MAGs generation projects—for example, Stefan Kranz adapted the workflow to support long-read input. Impressively, the full modification was completed in just one hour, showcasing the efficiency of the Galaxy workflow editor.
+
+Beyond hands-on development, the hackathon also included multiple discussion sessions that extended beyond Galaxy-centric topics. One such discussion focused on the potential to predict the computational resources required for MAGs workflow tools based on input data characteristics and metadata. Reducing resource demands could have significant environmental benefits, given the scale of MAGs-related analyses.
+
+Another collaborative effort among MAGs developers from different communities centered on establishing shared benchmark and CI-testing datasets. As part of this, core developers from the nf-core, MGnify, and Galaxy MAGs workflows initiated the first steps toward a benchmark focusing on complete MAGs workflows.
+
+The team also began developing detailed training materials on MAGs generation. The broader community was invited to contribute their own resources via the Galaxy Training Network (GTN), which supports training materials both within and beyond the Galaxy ecosystem. For example, MGnify plans to develop training modules on MAGs submission using various approaches—such as command-line, front-end submission, and Galaxy-integrated tools.
 
 # 🚀 Highlight Outcomes
 
@@ -160,6 +171,8 @@ The **FAIRyMAGs hackathon** brought together a great community of MAGs scientist
   <img src="./static/IMG_20251007_103946.jpg" alt="FAIRyMAGs Hackers 2" style="width:90%; border-radius:8px;">
   <img src="./static/IMG_20251007_141445.jpg" alt="FAIRyMAGs Hackers 3" style="width:90%; border-radius:8px;">
   <img src="./static/IMG_20251007_152237.jpg" alt="FAIRyMAGs Hackers 4" style="width:90%; border-radius:8px;">
+  <img src="./static/FAIRyMAGsHacking1.jpg" alt="FAIRyMAGs Hackers 5" style="width:90%; border-radius:8px;">
+  <img src="./static/FAIRyMAGsHackathon.jpg" alt="FAIRyMAGs Hackers 6" style="width:90%; border-radius:8px;">
   <p style="grid-column: span 2; text-align:center; font-style:italic; margin-top:8px;">
     FAIRyMAGs Hackers
   </p>
