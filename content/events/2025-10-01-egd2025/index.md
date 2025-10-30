@@ -33,6 +33,7 @@ We are holding **3 events** in the same week:
 
 - The talks of this event will be streamed using [this Zoom link](https://uni-freiburg.zoom-x.de/j/62026241585?pwd=8O0apbtJnQkhtwmMB2QKap5cNsZOWh.1).
 - [Restaurant tipps](https://www.google.com/maps/d/viewer?mid=19KdBsPU1beicirZ_RceyKx-kaUYrAgI&usp=sharing)
+- Have a look at our [blog post](https://galaxyproject.org/news/2025-10-15-egd2025/) (with links to all presented slides)
 
 # Schedule
 
