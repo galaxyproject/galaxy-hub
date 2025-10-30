@@ -9,6 +9,8 @@ subsites: [all]
 main_subsite: eu
 ---
 
+![](./sweet_memories_1.png)
+
 I am a PhD candidate in **Biochemistry** at the **University of Isfahan**, with a research focus on the application of **functional nucleic acids** in medicine — both for diagnostics and for theranostics.
 In **September 2024**, I had the privilege of joining the **Galaxy Europe** team at the **University of Freiburg** as a visiting scientist under the leadership of **Dr. Björn Grüning**.
 
@@ -44,6 +46,8 @@ On my final day in Freiburg, we gathered for an enjoyable **barbecue with the Ga
 I would like to thank the **Galaxy Europe team** — especially **Dr. Björn Grüning**, **Prof. Rolf Backofen**, **Dr. Martin Raden**, **Dr. Anup Kumar**, **Dr. Pavan Videm** and all my wonderful colleagues — for their support, encouragement, and vision. It was my honor to work alongside you, to share knowledge, and to contribute in my own way to the Galaxy ecosystem. I would also like to warmly acknowledge the invaluable support of my supervisors at the University of Isfahan, **Dr. Fatemeh Javadi-Zarnaghi** and **Dr. Fariba Dehghanian**, whose scientific guidance and continuous encouragement, greatly enriched my research stay and overall academic growth.
 
 I returned to my PhD journey at the **University of Isfahan** with renewed energy, inspiration, and a deep appreciation for the Galaxy community. I look forward to continuing our collaboration and to helping build tools and training that empower researchers worldwide.
+
+![](./sweet_memories_2.png)
 
 ---
 

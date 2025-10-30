@@ -27,6 +27,12 @@
                     img-alt="Use collections!"
                 ></b-carousel-slide>
             </a>
+            <a href="https://galaxyproject.org/news/2025-10-28-window-manager/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/window_manager.svg"
+                    img-alt="Use collections!"
+                ></b-carousel-slide>
+            </a>
             <a href="https://training.galaxyproject.org/" target="_blank">
                 <b-carousel-slide img-src="/images/usegalaxy-welcome/gtn.svg" img-alt="Try GTN"></b-carousel-slide>
             </a>
