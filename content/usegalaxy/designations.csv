@@ -1,0 +1,195 @@
+Operative,Tier,URL,City,Region,Description,Notes
+1,1,usegalaxy.eu,"Freiburg, Germany",EU,"[Galaxy Europe](https://galaxyproject.org/eu/), [Galaxy Freiburg](https://galaxyproject.org/freiburg/)",Main instance for the EU
+1,1,usegalaxy.fr,"Lyon, France",France,"[Galaxy France](https://galaxyproject.org/ifb/), [IFB](https://www.france-bioinformatique.fr/)",Main instance for FR
+1,1,usegalaxy.org,"Austin, TX, USA",USA,"[Galaxy US](https://galaxyproject.org/us/), [TACC](https://www.tacc.utexas.edu/)",Main instance for the USA
+1,1,usegalaxy.org.au,"Melbourne, Australia",Australia,"[Galaxy Australia](https://site.usegalaxy.org.au/), [Australian Biocommons](https://www.biocommons.org.au/galaxy-australia)",Main instance for AU
+1,2,africa.usegalaxy.eu,"Cape Town, South Africa",Africa,[Galaxy Africa](https://galaxyproject.org/use/galaxy-africa/),African Galaxy Instance
+1,2,india.usegalaxy.eu,"Bangalore, India",India,[Galaxy India](https://galaxyproject.org/use/galaxy-india/),India national instance
+1,2,usegalaxy.be,"Leuven, Belgium",Belgium,"[UseGalaxy Belgium](https://galaxyproject.org/use/usegalaxy-be/), [ELIXIR Belgium](https://www.elixir-belgium.org/)",Belgium national instance
+1,2,usegalaxy.ca,"Toronto, Canada",Canada,[Digitial Research Alliance of Canada](https://docs.alliancecan.ca/wiki/Galaxy),Canadian national instance
+1,2,usegalaxy.cz,"Brno, Czechia",Czechia,"[UseGalaxy Czechia](https://galaxyproject.org/use/usegalaxy-cz/), [MetaCenrum](https://metavo.metacentrum.cz/)",Czechia national instance
+1,2,usegalaxy.es,"Barcelona, Spain",Spain,[Spanish National Bioinformatics Institute](https://inb-elixir.es/),Spain national instance
+1,2,usegalaxy.it,"Bologna, Italy",Italy,"[Galaxy Italy](https://galaxyproject.org/elixir-it/), [ELIXIR Italy](https://elixir-italy.org/)",Italy national instance
+1,2,usegalaxy.no,"Oslo, Norway",Norway,"[UseGalaxy Norway](https://galaxyproject.org/use/usegalaxy-no/), [ELIXIR Norway](https://elixir.no/)",Norway national instance
+1,3,aqua.usegalaxy.eu,"Freiburg, Germany",EU,[Marine and freshwater science](https://aquainfra.eu/),
+1,3,assembly.usegalaxy.eu,"Freiburg, Germany",EU,[Genome Assembly Workbench](https://assembly.usegalaxy.eu/),
+1,3,astronomy.usegalaxy.eu,"Freiburg, Germany",EU,[Galaxy for Astronomy](astronomy.usegalaxy.eu),
+1,3,cancer.usegalaxy.eu,"Freiburg, Germany",EU,[Cancer Galaxy workbench](https://cancer.usegalaxy.eu/),
+1,3,erasmusmc.usegalaxy.eu,"Rotterdam, Netherlands",Netherlands,[Galaxy Erasmus MC](https://galaxyproject.org/erasmusmc/),
+1,3,https://annotation.usegalaxy.eu/,"Freiburg, Germany",EU,[Galaxy for genome annotation](https://galaxyproject.org/use/gga/),
+1,3,https://cheminformatics.usegalaxy.eu/,"Freiburg, Germany",EU,"[For processing, analysing and visualising chemical data, and performing molecular simulations.](https://galaxyproject.org/use/chemicaltoolbox/)",
+1,3,https://climate.usegalaxy.eu/,"Freiburg, Germany",EU,[A comprehensive set of analysis tools and consolidated workflows for climate analysis and visualisation](https://galaxyproject.org/use/climate-science-workbench/),
+1,3,https://clipseq.usegalaxy.eu/,"Freiburg, Germany",EU,"[The CLIP-Explorer is a webserver to process, analyse and visualise CLIP-Seq data.](https://galaxyproject.org/use/clip-explorer/)",
+1,3,https://covid19.usegalaxy.eu/,"Freiburg, Germany",EU,[A companion to our study describing the analysis of early COVID-19 data](https://galaxyproject.org/use/covid-19/),
+1,3,https://earth-system.usegalaxy.eu/,"Freiburg, Germany",EU,"[Process, analyse and visualize Earth System, Environment and Biodiversity data](https://earth-system.usegalaxy.eu/)",
+1,3,https://ecology.usegalaxy.eu/,"Freiburg, Germany",EU,"[A web platform to get, process, analyze and visualize ecological data](https://galaxyproject.org/use/ecology/)",
+1,3,https://eirene.usegalaxy.eu/,"Freiburg, Germany",EU,[Environmental Exposure Assessment Research Infrastructure - EIRENE](https://eirene.usegalaxy.eu/),
+1,3,https://graphclust.usegalaxy.eu/,"Freiburg, Germany",EU,[Scalable clustering of RNAs based on sequence and secondary structures feature](https://galaxyproject.org/use/graphclust/),
+1,3,https://hicexplorer.usegalaxy.eu/,"Freiburg, Germany",EU,[Tools to process and visualize chromosome conformation.](https://galaxyproject.org/use/hic-explorer/),
+1,3,https://humancellatlas.usegalaxy.eu/,"Freiburg, Germany",EU,[Tools and workflows for the analysis of Single Cell RNA-Seq data](https://galaxyproject.org/use/human-cell-atlas/),
+1,3,https://imaging.usegalaxy.eu/,"Freiburg, Germany",EU,[Galaxy Docker repository for image analysis](https://galaxyproject.org/use/imaging/),
+1,3,https://lite.usegalaxy.eu/,"Freiburg, Germany",EU,[UseGalaxy.eu lite](https://lite.usegalaxy.eu/),
+1,3,https://materials.usegalaxy.eu/,"Freiburg, Germany",EU,[Materials Galaxy workbench is the place to go for anything materials science](https://materials.usegalaxy.eu/),
+1,3,https://metabolomics.usegalaxy.eu/,"Freiburg, Germany",EU,[A community driven metabolomics Galaxy service](https://galaxyproject.org/use/metabolomics/),
+1,3,https://metagenomics.usegalaxy.eu/,"Freiburg, Germany",EU,"[Webserver to process, analyse and visualize Metagenomic and Microbiota data in general.](https://galaxyproject.org/use/metagenomics/)",
+1,3,https://microbiology.usegalaxy.eu/,"Freiburg, Germany",EU,[Galaxy Europe Microbiology Lab by the microGalaxy community](https://microbiology.usegalaxy.eu/),
+1,3,https://microbiology.usegalaxy.org/,"Austin, TX, USA",USA,[Galaxy Microbiology Lab US](https://microbiology.usegalaxy.org/),
+1,3,https://ml.usegalaxy.eu/,"Freiburg, Germany",EU,"[Comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows](https://galaxyproject.org/use/ml-workbench/)",
+1,3,https://nanopore.usegalaxy.eu/,"Freiburg, Germany",EU,"[Webserver to process, analyse and visualize Oxford Nanopore Technologies (ONT) data and similar long-reads technologies.](https://galaxyproject.org/use/nanogalaxy/)",
+1,3,https://phage.usegalaxy.eu/,"Freiburg, Germany",EU,[Phage Galaxy is a web platform to analyze phage data](https://phage.usegalaxy.eu/),
+1,3,https://plants.usegalaxy.eu/,"Freiburg, Germany",EU,[Community driven plant data analsys Galaxy service](https://galaxyproject.org/use/plants/),
+1,3,https://proteomics.usegalaxy.eu/,"Minneapolis, MN, USA",USA,"[Omics data-analysis, with particular emphasis on mass spectrometry-based proteomics](https://galaxyp.org/)",
+1,3,https://rna.usegalaxy.eu/,"Freiburg, Germany",EU,"[RNA biology, including structure analysis, alignment, annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.](https://galaxyproject.org/use/rna-workbench/)",
+1,3,https://singlecell.usegalaxy.eu/,"Freiburg, Germany",EU,[The Single Cell Omics workbench is a comprehensive set of analysis tools and consolidated workflows](https://galaxyproject.org/use/singlecell/),
+1,3,https://singlecell.usegalaxy.org/,"Austin, TX, USA",USA,[Galaxy Single Cell Lab US](https://singlecell.usegalaxy.org/),
+1,3,https://streetscience.usegalaxy.eu/,"Freiburg, Germany",EU,[Galaxy dedicated for the Street Science Community](https://galaxyproject.org/use/streetscience/),
+1,3,https://vgp.usegalaxy.org/,"Austin, TX, USA",USA,[Vertebrate Genomes Project in Galaxy US](https://vgp.usegalaxy.org/),
+1,3,https://virology.usegalaxy.eu/,"Freiburg, Germany",EU,"[Comprehensive set of analysis tools and consolidated workflows for virology work, including SARS-CoV-2.](https://galaxyproject.org/use/virology/)",
+1,3,live.usegalaxy.eu,"Freiburg, Germany",EU,[Live instance of the European Galaxy server](live.usegalaxy.eu),This is your gateway to start interactive tools
+1,3,spatialomics.usegalaxy.eu,"Freiburg, Germany",EU,[SpatialOMICS Galaxy subdomain serves as a hub for all tools related to the analysis of highly-multiplexed image analysis](spatialomics.usegalaxy.eu),
+1,4,dintor.eurac.edu,"Bolzano, Italy",Italy,"[Data Integrator Tool Suite](https://dintor.eurac.edu/), [Institute for Medicine, EURAC](https://www.eurac.edu/en/institutes-centers/institute-for-biomedicine)",
+1,4,galaxy-synbiocad.org,"Jouy-en-Josas, France",France,[Galaxy-SynBioCAD](https://www.micalis.fr/equipe/galaxy-synbiocad/),
+1,4,galaxy-web.ipk-gatersleben.de,"Gatersleben, Germany",Germany,[IPK Leibniz Crop Analysis Suite](https://cats.ipk-gatersleben.de/),
+1,4,galaxy.bio.di.uminho.pt,"Braga, Portugal",Portugal,[Biosystems Research Group Web Services](https://bio.di.uminho.pt/),
+1,4,galaxy.interactomix.com,"Madrid, Spain",Spain,[InteractoMIX](https://galaxyproject.org/use/interactomix/),
+1,4,galaxy.mesocentre.uca.fr,"Clermont-Ferrand, France",France,[Auvergne Bioinformatics platform - AuBi](https://www.france-genomique.org/platforms-and-equipments/plateforme-de-bio-informatique-de-clermont-ferrand-aubi/?lang=en),
+1,4,galaxy.migale.inra.fr,"Jouy-en-Josas, France",France,[Migale Server](https://galaxyproject.org/use/migale/),
+1,4,galaxy.pasteur.fr,"Paris, France",France,[Galaxy Pasteur](https://galaxyproject.org/pasteur/),
+1,4,galaxy.ugent.be,"Ghent, Belgium",Belgium,[BIOBIX lab of Bioinformatics and Computational Genomics](https://biobix.ugent.be/),
+1,4,http://134.2.17.68:8081/,"Würzburg, Germany",Germany,[Visualize halogen bond contacts in the protein binding site. Analyze a protein binding site for halogen bonding hotspots. Evaluate halogen contacts with the protein backbone using the scoring function XBScore.](https://galaxyproject.org/use/halogen-bonding/),
+1,4,http://apostl.moffitt.org,"Tampa, FL, USA",USA,[Moffitt Cancer Center](moffit.org),
+1,4,http://corgat.cloud.ba.infn.it/galaxy,"Bari, Italy",Italy,"[Align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.](https://galaxyproject.org/use/corgat/)",
+1,4,http://cropgalaxy.excellenceinbreeding.org/,"Montpellier, France",France,"[Hosts tools for the RiceGalaxy , GOBii project , HTPG project and the Excellence in Breeding (EiB) platform , including genomic selection, marker selection, GWAS, imputation, file conversion, and cluster analysis.](https://galaxyproject.org/use/cropgalaxy/)",
+1,4,http://galaxy.inf.ethz.ch,"Zurich, Switzerland",Switzerland,"[Customized Galaxy, extended with machine learning based tools for sequence and tiling array data analysis.](https://galaxyproject.org/use/oqtans/)",
+1,4,http://galaxy.irri.org/,"Los Baños, Philippines",Philippines,"[Tools for designing single-nucleotide polymorphism assays, analyzing genome-wide association studies, population diversity, rice−bacterial pathogen diagnostics, and a suite of published genomic prediction methods.](https://galaxyproject.org/use/rice-galaxy/)",
+1,4,http://galaxy.ul.edu.lb/,"Beirut, Lebanon",Lebanon,[Includes the SpCLUST tool set for fast and reliable clustering of potentially divergent biological sequences](https://galaxyproject.org/use/lebanese-university/),
+1,4,http://hyperbrowser.uio.no/hb/,"Oslo, Norway",Norway,[Statistical methodology and computing power to handle a variety of biological inquires on genomic datasets](https://galaxyproject.org/use/genomic-hyperbrowser/),
+1,4,http://igg.cloud.ba.infn.it/galaxy,"Bari, Italy",Italy,"[Supports PIPE-T, a tool for Reverse transcription quantitative real-time polymerase chain reaction (RT-qPCR) analysis.](https://galaxyproject.org/use/gaslini/)",
+1,4,http://pepsimili.e-nios.com:8080,"Athena, Greece",France,[PepSimili Galaxy Server](https://galaxyproject.org/use/pepsimili/),
+1,4,http://smile.hku.hk/SARGs,"Hong Kong, China",Hong Kong,[Fast annotation and classification of antibiotic resistance gene-like sequences from metagenomic data.](https://galaxyproject.org/use/args-oap/),
+1,4,http://viramp.com/,"State College, PA, USA",USA,[VirAmp is a web-based semi- de novo fast virus genome assembly pipeline designed for extremely high coverage NGS data.](https://galaxyproject.org/use/viramp/),
+1,4,https://covid19.usegalaxy.fr,"Lyon, France",France,[Provides numerous workflows for COVID-19 analysis.](https://galaxyproject.org/use/covid-19-fr/),
+1,4,https://galaxy-compchem.ilifu.ac.za/,"Cape Town, South Africa",South Africa,"[Prepare, simulate and analyse and visualise molecular simulations, especially molecular dynamics and free energies.](https://galaxyproject.org/use/bridge/)",
+1,4,https://galaxytrakr.org/,"Laurel, MD, USA",USA,[Supporting food-borne pathogen research](https://galaxyproject.org/use/galaxytrakr/),
+1,4,https://grappa.eecs.utk.edu/grappa/,"Knoxville, TN, USA",USA,"[GrAPPA is a web-based interface constructed on the Galaxy framework for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.](https://galaxyproject.org/use/grappa/)",
+1,4,https://hyperbrowser.uio.no/coloc-stats,"Oslo, Norway",Norway,[a unified web interface to perform co-localization analysis of genomic features](https://galaxyproject.org/use/coloc-stats/),
+1,4,https://iris.angers.inra.fr/galaxypub-cfbp,"Angers, France",France,"[Web based access to tools ( SkIf , KI-S ) of IRHS-EmerSys lab.](https://galaxyproject.org/use/cirm-cfbp/)",
+1,4,https://workflow4metabolomics.usegalaxy.fr/,"Toulouse, France",France,"[A collaborative portal dedicated to metabolomics data processing, analysis and annotation.](https://galaxyproject.org/use/workflow4metabolomics/)",
+1,4,mapping-by-sequencing.vm.uni-freiburg.de:8080,"Freiburg, Germany",Germany,[NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system.](https://galaxyproject.org/use/mimodd-nacreousmap/),
+1,4,palfinder.ls.manchester.ac.uk,"Manchester, United Kingdom",United Kingdom,"[Preziosi Lab, University of Manchester](preziosilab.org)",
+1,4,protologger.bi.denbi.de,"Bielefeld, Germany",Germany,[Protologger Server](https://galaxyproject.org/use/protologger/),
+1,4,treegenes.cam.uchc.edu,"Farmington, CT, USA",USA,[TreeGenes](https://treegenesdb.org/),
+1,4,vm-chemflow-francegrille.eu,"Paris, France",France,"[ChemFlow: Chemometrics without programming](https://galaxyproject.org/use/chemflow/), [ChemProject](https://www.chemproject.org/chemflow)",
+1,4,www.immportgalaxy.org,"Bethesda, MD, USA",USA,[ImmPort Galaxy](https://galaxyproject.org/use/immport-galaxy/),
+1,5,http://www.climb.ac.uk/,"Birmingham, United Kingdom",United Kingdom,[Cloud Infrastructure for Big Data Microbial Bioinformatics](https://galaxyproject.org/use/climb/),"Cloud-based compute, storage, and analysis tools for microbiologists across the UK"
+1,5,https://anvilproject.org/,"Boston, MA, USA",USA,"[NHGRI Analysis Visualization, and Informatics LabSpace (AnVIL) ](https://galaxyproject.org/use/anvil/)",Human Genetics and Genomics
+1,5,https://brc-analytics.org/,"Austin, TX, USA",USA,"[Analytics for pathogen, host, and vector data](https://brc-analytics.org/)",
+1,5,https://cfdeworkspace.org/,"Austin, TX, USA",USA,[NIH Common Fund Data Ecosystem Cloud Workspace](https://cfdeworkspace.org/),
+1,5,https://cloud.snic.se/,"Uppsala, Sweden",Sweden,[Swedish Science Cloud](https://galaxyproject.org/use/snic-science-cloud/),
+1,5,https://laniakea-elixir-it.github.io/,"Bologna, Italy",Italy,[Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://galaxyproject.org/use/laniakea/),ELIXIR Italy
+1,5,https://nectar.org.au/research-cloud/,"Melbourne, Australia",Australia,[Australia National Research Cloud (Nectar)](https://galaxyproject.org/use/nectar/),
+1,5,https://terra.bio/,"Boston, MA, USA",USA,"[Biomedical data analysis, secure sharing, and global collaboration](https://galaxyproject.org/use/terra/)",
+1,5,https://veupathdb.org/veupathdb/app/galaxy-orientation,"Philadelphia, PA, USA",USA,"[Free, interactive, web-based platform for large-scale data analysis focused on eukaryotic pathogens](https://galaxyproject.org/use/veupathdb/)",
+1,5,https://www.surf.nl/en/services/compute/surf-research-cloud,"Utrecht, Netherlands",Netherlands,[User-friendly platform provided by SURF - the Dutch national research and education network](https://galaxyproject.org/use/surf/),
+1,6,beta.usegalaxy.eu,"Freiburg, Germany",EU,[Beta version of Galaxy EU](https://galaxyproject.org/use/galaxy-test/),
+1,6,build.usegalaxy.eu,"Freiburg, Germany",EU,[Build and testing for Galaxy EU](build.usegalaxy.eu),
+1,6,https://test.galaxyproject.org/,"Austin, TX, USA",USA,[Beta version of Galaxy Main](https://galaxyproject.org/use/galaxy-test/),
+1,6,test.usegalaxy.eu,"Freiburg, Germany",EU,[Test version of Galaxy EU](https://galaxyproject.org/use/galaxy-test/),
+0,3,143.169.238.104/galaxy,,,unknown,
+0,3,ab-openlab.csir.res.in/frog,,,MITOLINK,
+0,3,ab-openlab.csir.res.in/mitolink_v1,,,MITOLINK,
+0,3,aspendb.uga.edu:8085,,,unknown,
+0,3,bf2i-galaxy.insa-lyon.fr:8080,,,unknown,
+0,3,bipaa-galaxy.genouest.org,,France,unknown,
+0,3,galaxy.bio.ku.dk,,Denmark,Binf,
+0,3,galaxy.genelab.nasa.gov,,United States,unknown,
+0,3,galaxy.genouest.org,,France,unknown,
+0,3,galaxy.hyphy.org,,United States,HyPhy,
+0,3,galaxy.informatik.uni-halle.de,,Germany,Bad Gateway,
+0,3,galaxy.lappsgrid.org,,United States,LAPPS,
+0,3,galaxy.networkanalyst.ca,,Canada,RNA-Seq,
+0,3,galaxy.sb-roscoff.fr,,France,ABiMS,
+0,3,galaxy.ul.edu.lb,,Lebanon,unknown,
+0,3,galaxy3.compbio.cs.cmu.edu:9001,,,unknown,
+0,3,gio.sbcs.qmul.ac.uk,,United Kingdom,unknown,
+0,3,life2cloud.com:6005,,,unknown,
+0,3,mem.rcees.ac.cn:8081,,,iNAP,
+0,3,mem.rcees.ac.cn:8083,,,ARGA,
+0,3,neo.engr.uconn.edu,,United States,unknown,
+0,3,ngtax.systemsbiology.nl,,Netherlands,[A Semantic Framework for High-throughput Marker Gene (Amplicon) Analysis](https://galaxyproject.org/use/ng-tax/),
+0,3,omicstudio.cloud:4001,,,unknown,
+0,3,www.freebioinfo.org,,China,[FreeBioInfo](https://galaxyproject.org/use/freebioinfo/),
+0,3,www.moralab.science:8080,,,Galaxy-GSA,
+,4,http://143.169.238.104/galaxy/,,Unknown,"[A general purpose Galaxy instance that includes most standard tools for DNA/RNA sequencing, plus extra tools for panel resequencing, variant annotation and some tools for Illumina SNParray analysis.](https://galaxyproject.org/use/biomina/)","Tool Publishing, Tools"
+,4,http://ab-openlab.csir.res.in/frog/,,India,[FROG stands for F inge R printing O ntology of G enomic variations. FROG fingerprints have been devised to capture genomic variations at various levels.](https://galaxyproject.org/use/ab-openlab/),Genomics
+,4,http://aspendb.uga.edu:8085/,,United States,[This site provides a user-friendly interface for AGEseq (Analysis of Genome Editing by Sequencing) in a Galaxy instance.](https://galaxyproject.org/use/ageseq-aspendb/),
+,4,http://avispa.biociphers.org/,,International,[BCL Galaxy gives a user friendly interface for analysis tools developed by the BioCiphers Lab at the University of Pennsylvania.](https://galaxyproject.org/use/biociphers-lab-galaxy/),"Tool Publishing, Tools"
+,4,http://bf2i-galaxy.insa-lyon.fr:8080/,,Unknown,"[Locally developed as well as standard tools are available on a 16-core server with 32GB memory, accessible to all users, and located in the BF2I lab.](https://galaxyproject.org/use/bf2i-map/)","Tool Publishing, Tools"
+0,4,http://bimib.disco.unimib.it:5555/,,Italy,[Metabolic Reaction Enrichment Analysis and visualization of RNA-seq data](https://galaxyproject.org/use/marea4galaxy/),
+0,4,http://bioinformatics.hsanmartino.it:8080/,,Italy,[This Galaxy implementation is meant to demonstrate integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment.](https://galaxyproject.org/use/usmi-galaxy-demonstrator/),Domain
+,4,http://cart.embl.de/,,Germany,[Retrieves annotations on biological effects of chemicals and determines which ones are enriched.](https://galaxyproject.org/use/cart/),"Tool Publishing, Tools"
+0,4,http://ccbb.jnu.ac.in/gcac,,India,[GCAC is a web enabled platform for predictive model building using R and caret package for virtual screening.](https://galaxyproject.org/use/gcac/),
+,4,http://cistrome.org/ap/root,,International,[ChIP-chip/seq and gene expression data](https://galaxyproject.org/use/cistrome-analysis-pipeline/),
+,4,http://codonharmonizer.systemsbiology.nl/,,Netherlands,[Easily generate codon harmonized variants of gene sequences for heterologous expression](https://galaxyproject.org/use/codon-harmonizer/),
+0,4,http://galaxy.bio.ku.dk/,,Denmark,[RNA structure-probing data analysis to improve the prediction of RNA secondary and tertiary structure and allow structural changes to be identified and investigated.](https://galaxyproject.org/use/vinther-lab/),
+,4,http://galaxy.cloud.ba.infn.it:8080/,,Italy,[Taxonomic studies of environmental microbial communities](https://galaxyproject.org/use/biomas/),
+0,4,http://galaxy.informatik.uni-halle.de/,,Germany,"[Provides implementations of GeMoMa , InMoDe, CRISPRer, TALgetter, TALgetterLong, TALENoffer, and Dimont](https://galaxyproject.org/use/martin-luther-u-halle-wittenberg/)",
+0,4,http://galaxy.lappsgrid.org/,,International,"[An open, interoperable web service platform for natural language processing (NLP) research and development.](https://galaxyproject.org/use/lapps-grid/)",
+0,4,http://galaxy.morganlangille.com/,,Canada,[Prediction of the unobserved character states in a community of organisms from phylogenetic information.](https://galaxyproject.org/use/langille-lab/),
+0,4,http://galaxy.plantgenie.org:8080/,,International,[Plant Genome Integrative Explorer Galaxy instance](https://galaxyproject.org/use/plantgenie/),
+0,4,http://galaxy.prabi.fr/,,France,"[Includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including kissplice/kissDE, TETools, SEX-DETector, and priam .](https://galaxyproject.org/use/galaxy-prabi/)","Tool Publishing, Tools"
+,4,http://galaxy.sb-roscoff.fr/,,France,[Analysis and bioinformatics for Marine Science.](https://galaxyproject.org/use/abims/),
+,4,http://galaxy3.compbio.cs.cmu.edu:9001/,,United States,[Create generative models of the spatial organization of cells from microscope images and automatically provide geometries for spatial simulations of cell processes and behaviors](https://galaxyproject.org/use/cell-organizer/),Scope
+,4,http://galaxy3.sb-roscoff.fr/,,France,[Hosts tools/resources developed at the Station Biologique de Roscoff in collaboration with ABiMS .](https://galaxyproject.org/use/abims-tools/),"Tool Publishing, Tools"
+0,4,http://genomequebec.mcgill.ca/exomeai,,Canada,[Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data.](https://galaxyproject.org/use/majewski-lab/),
+0,4,http://gigagalaxy.net/,,Unknown,[GigaGalaxy hosts tools and data analyses from papers published in GigaScience .](https://galaxyproject.org/use/gigagalaxy/),
+,4,http://gio.sbcs.qmul.ac.uk/,,United Kingdom,"[Proteomics Informed by Transcriptomics (PIT) methodology, and selection of surrogate peptides for targeted proteomics.](https://galaxyproject.org/use/galaxy-integrated-omics-gio/)",
+0,4,http://huttenhower.sph.harvard.edu/galaxy/,,United States,"[metagenomic and functional genomic analyses, intended for research and academic use](https://galaxyproject.org/use/huttenhower-lab/)",Genomics
+0,4,http://life2cloud.com:6005/,,International,"[QAP is an open source software that can be used to analyze virus quasispecies using CBS, NGS and TGS data. wQAP (web QAP), is the online version of QAP.](https://galaxyproject.org/use/wqap/)",
+0,4,http://lisis.cs.ucy.ac.cy/,,Cyprus,[A platform for Virtual Screening.](https://galaxyproject.org/use/lisis/),
+0,4,http://mem.rcees.ac.cn:8081/,,China,[Inter-Domain Ecological Network Analysis Pipeline](https://galaxyproject.org/use/idenap/),Domain
+,4,http://mem.rcees.ac.cn:8083/,,China,[Antibiotic Resistance Gene Analyzer](https://galaxyproject.org/use/arga/),
+,4,http://motherbox.chemeng.ntua.gr/anastasia_dev/,,Unknown,[A utomated N ucleotide A minoacid S equences T ranslational pl A tform for S ystemic I nterpretation and A nalysis](https://galaxyproject.org/use/anastasia/),
+0,4,http://mpds.osdd.net/,,India,[A disease-specific web portal for Tuberculosis for drug discovery and development.](https://galaxyproject.org/use/mpdstb/),hello
+,4,http://omicstudio.cloud:4001/,,Unknown,[A Galaxy framework for exploring unmapped RNA-Seq data](https://galaxyproject.org/use/cafu/),
+0,4,http://orione.crs4.it/,,Italy,[A Galaxy based web server for microbiology. Orione includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.](https://galaxyproject.org/use/orione/),
+0,4,http://osddlinux.osdd.net:8001/,,India,[Drug discovery](https://galaxyproject.org/use/osddlinux-livegalaxy/),
+0,4,http://pharmacology.slu.edu/,,United States,"[Standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, single-cell RNA-Seq, Gene Expression and Cancer Genomics (e.g. TCGA).](https://galaxyproject.org/use/galaxy-slu/)","Genomics, Tool Publishing, Tools"
+0,4,http://prestige.case.edu/,,United States,[Predicting Specific Tissue Interactions of Genes and Enhancers](https://galaxyproject.org/use/prestige/),
+0,4,http://protologger.de/,,Germany,"[All-in-one genome description tool, aimed at simplifying gathering the data required for writing protologues. This includes providing taxonomic, functional and ecological insights.](https://galaxyproject.org/use/protologger/)","Tool Publishing, Tools"
+0,4,http://ribogalaxy.ucc.ie/,,Ireland,[Tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique.](https://galaxyproject.org/use/ribogalaxy/),"Tool Publishing, Tools"
+,4,http://services.cbib.u-bordeaux2.fr/galaxy/,,France,[A general purpose Galaxy instance that includes EMBOSS (a software analysis package for molecular biology) and fibronectin (diversity analysis of synthetic libraries of a Fibronectin domain).](https://galaxyproject.org/use/cbib-galaxy/),Domain
+0,4,http://share-galaxy.ibers.aber.ac.uk/,,United Kingdom,"[Software, tools and pages written by IBERS researchers for release to the wider community.](https://galaxyproject.org/use/ibers-aberystwyth/)","Tool Publishing, Tools"
+,4,http://socscicompute.ss.uci.edu/,,United States,[Tools for solving Galton's problem in Comparative Research and complex network problems in Social Science.](https://galaxyproject.org/use/cossci/),"Tool Publishing, Tools"
+0,4,http://tgm-pipeline.uni.lu/galaxy/,,Luxembourg,"[The TGM pipeline is a workflow combining tranSMART server, Galaxy Server and MINERVA platform to enable visually-aided exploration, analysis and interpretation of high-throughput translational medicine data.](https://galaxyproject.org/use/tgm/)",
+0,4,http://www.beaconlab.it/VINYL,,Italy,[A flexible and fully automated system for the functional annotation and prioritization of genetic variants.](https://galaxyproject.org/use/vinyl/),
+,4,http://www.galaxeast.fr/,,France,[Integrative 'omics data analysis](https://galaxyproject.org/use/galaxeast/),
+,4,http://www.moralab.science:8080/,,International,[Gene Set Analysis tools](https://galaxyproject.org/use/galaxy-gsa/),"Tool Publishing, Tools"
+0,4,http://www.proteore.org/,,France,[ProteoRE (Proteomics Research Environment)](https://galaxyproject.org/use/proteore/),
+0,4,http://z.umn.edu/metaproteomicsgateway,,United States,"[Metaproteomics gateway providing access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized metaproteomics workflows](https://galaxyproject.org/use/metaproteomics-gateway/)",
+0,4,http://z.umn.edu/proteogenomicsgateway,,United States,"[Provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized proteogenomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows.](https://galaxyproject.org/use/proteogenomics-gateway/)",Genomics
+0,4,https://ab-openlab.csir.res.in/mitolink_v1,,India,[MitoLink is an integrated workflow system to facilitate understanding of genotype-phenotype correlations in cases of mitochondrial dysfunction.](https://galaxyproject.org/use/mitolink/),
+,4,https://ariaweb.pasteur.fr/,,France,[Automated NOE assignment and NMR structure calculation](https://galaxyproject.org/use/ariaweb/),
+,4,https://biodivine-vm.fi.muni.cz/galaxy/,,Czech Republic,[Systems biology tools implemented by the Sybila team.](https://galaxyproject.org/use/biodivine/),"Tool Publishing, Tools"
+,4,https://coralsnp.science.psu.edu/galaxy/,,United States,[Standard Tools for Acroporid Genotyping (STAG)](https://galaxyproject.org/use/coral-snp/),"Tool Publishing, Tools"
+,4,https://cpt.tamu.edu/galaxy-pub/,,United States,[Phage biology and automated annotation.](https://galaxyproject.org/use/center-for-phage-technology-cpt/),
+,4,https://deepts.nwafu.edu.cn/,,China,"[Explore transcriptional switches from pairwise, temporal, and population RNA-Seq using deepTS.](https://galaxyproject.org/use/deepts/)",
+,4,https://epigeec.genap.ca/galaxy/,,Canada,[Compare user-provided epigenomic datasets with thousands of public datasets.](https://galaxyproject.org/use/epigeec/),Genomics
+,4,https://galaxy.aws.biochemistry.gwu.edu/,,United States,"[BioCompute Objects is a standard for communication of High-throughput Sequencing (HTS) analysis results, data set creation and curation, and bioinformatics verification protocols.](https://galaxyproject.org/use/biocompute-object/)",
+0,4,https://galaxy.genelab.nasa.gov/,,United States,"[NASA GeneLab is a comprehensive space-related omics database in which users can upload, download, share, store, and analyze spaceflight and corresponding model organism data.](https://galaxyproject.org/use/genelab/)",
+0,4,https://galaxy.hyphy.org/,,International,[Tools for HIV sequencing analysis.](https://galaxyproject.org/use/hyphy/),"Tool Publishing, Tools"
+0,4,https://galaxy.immuneml.uio.no/,,Norway,[Machine learning-based analysis and classification of adaptive immune receptors and repertoires (AIRR).](https://galaxyproject.org/use/immuneml/),
+0,4,https://galaxy.networkanalyst.ca/,,Canada,[For mapping and quantification of raw RNA-seq data](https://galaxyproject.org/use/network-analyst/),
+0,4,https://galaxy.sciensano.be/policy/disclaimer.html,,Belgium,[Galaxy server for microbiological genomics applications with a focus on public health.](https://galaxyproject.org/use/sciensano/),Genomics
+0,4,https://lifeportal.uio.no/,,Norway,[a Galaxy instance to satisfy the computational needs of the Norwegian research community in life sciences but also of any other user willing to use the service.](https://galaxyproject.org/use/lifeportal-oslo/),
+0,4,https://mississippi.sorbonne-universite.fr/,,France,[Support for analyses of RNA and small RNA sequencing datasets as well as for epigenetics or metagenomics studies.](https://galaxyproject.org/use/mississippi/),Genomics
+0,4,https://neo.engr.uconn.edu/,,United States,[A customized installation of the Galaxy framework deploying bioinformatic tools and pipelines developed in the Mandoiu Lab at the University of Connecticut for high-throughput sequencing and immunogenomics data analysis](https://galaxyproject.org/use/mandoiu/),"Genomics, Tool Publishing, Tools"
+0,4,https://ngphylogeny.fr/,,France,[Robust phylogenetic analysis for everyone.](https://galaxyproject.org/use/ngphylogeny/),
+,4,https://pistacho.ac.uma.es/galaxy-bitlab,,Unknown,[Detailed analysis of metagenomes.](https://galaxyproject.org/use/bitlab/),
+0,4,https://repeatexplorer-elixir.cerit-sc.cz/,,Czech Republic,"[Graph-based clustering and characterization of repetitive sequences, and detection of transposable element protein coding domains.](https://galaxyproject.org/use/repeatexplorer/)",Domain
+0,4,https://shaman.pasteur.fr/,,France,[A user-friendly website for metataxonomic analysis from raw reads to statistical analysis](https://galaxyproject.org/use/shaman/),
+0,4,https://viralvariant.anses.fr/,,France,[Determine the composition of a viral population](https://galaxyproject.org/use/vvv/),
+,4,https://w3.iss.it/site/aries/,,Italy,"[Analysis of genomic data in the field of public health and food safety, with the aim of deploying a comprehensive bioinformatics approach to the study of food-borne zoonoses and infectious diseases at the human and animal interface.](https://galaxyproject.org/use/aries/)",Genomics
+0,4,https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows,,United States,"[A simplified, workflow-centic interface to Galaxy, focused on genomics data from hardwood trees.](https://galaxyproject.org/use/hardwood-genomics/)",Genomics
+0,5,http://globusgenomics.org/,,United States,[Genomics](https://galaxyproject.org/use/globus-genomics/),Genomics
+0,5,https://portal.phenomenal-h2020.eu/cloud-research-environment-setup,,Europe,[Domain](https://galaxyproject.org/use/phenomenal/),Domain

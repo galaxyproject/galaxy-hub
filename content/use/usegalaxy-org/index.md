@@ -7,6 +7,10 @@ platforms:
     platform_url: "https://usegalaxy.org"
     platform_text: "UseGalaxy.org Server (Main)"
     platform_location: US
+  - platform_group: "academic-cloud"
+    platform_url: "https://test.galaxyproject.org"
+    platform_text: "UseGalaxy.org Test Server (Main)"
+    platform_location: US
 summary: "The [Galaxy Project](/galaxy-project/) free public server; biomedical research "
 comments:
   - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/main/) for more."

@@ -104,12 +104,23 @@
                             </span>
                             <span v-else> - </span>
                         </template>
-                        <!-- <template #cell(tier)="data">
-                            <span v-if="getTierValue(data.item)" class="badge badge-primary">
-                                Tier {{ getTierValue(data.item) }}
-                            </span>
+                        <template #cell(tier)="data">
+                            <div v-if="getTierValue(data.item)" class="icon-tier">
+                                <i
+                                    v-if="getTierDefinition(data.item)"
+                                    :class="getTierDefinition(data.item).icon"
+                                    :title="
+                                        'Tier ' +
+                                        getTierDefinition(data.item).tier +
+                                        ' - ' +
+                                        getTierDefinition(data.item).name
+                                    "
+                                    style="margin-right: 4px"
+                                >
+                                </i>
+                            </div>
                             <span v-else> - </span>
-                        </template> -->
+                        </template>
                         <template #cell(link)="data">
                             <a
                                 v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
@@ -188,6 +199,46 @@ const KEYWORDS = {
     "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" },
 };
 
+const TIER_DEFINITIONS = [
+    {
+        tier: 1,
+        name: "Global instances",
+        icon: "fas fa-globe",
+        description: "Stable, reliable, and suitable for critical workloads.",
+    },
+    {
+        tier: 2,
+        name: "National instances",
+        icon: "fas fa-building-columns",
+        description: "For development and testing purposes; may have limited reliability.",
+    },
+    {
+        tier: 3,
+        name: "Subdomains",
+        icon: "fas fa-network-wired",
+        description: "Early-stage or experimental services; not recommended for production use.",
+    },
+    {
+        tier: 4,
+        name: "Institutional instances",
+        icon: "fas fa-building",
+        description: "Local deployments for specific institutions; may vary in quality and reliability.",
+    },
+    {
+        tier: 5,
+        name: "Integrated platforms",
+        icon: "fas fa-rocket",
+        description:
+            "Platforms that can launch Galaxy (e.g. AnVIL); suitability depends on the underlying infrastructure.",
+    },
+    {
+        tier: 6,
+        name: "Development instances for testing",
+        icon: "fas fa-flask",
+        description: "For testing and development; not intended for regular use.",
+    },
+];
+
 const { createSortableField } = useTableSorting();
 
 const tabs = [
@@ -211,8 +262,7 @@ const tabs = [
         columns: [
             createSortableField("platform", "Resource"),
             { key: "link", label: "Server" },
-            { key: "cloud", label: "Cloud" },
-            { key: "deployable", label: "Deployable" },
+            { key: "cloud", label: "Deployable" },
             { key: "summary", label: "Summary" },
             { key: "keywords", label: "Keywords" },
         ],
@@ -222,7 +272,7 @@ const tabs = [
         label: "Public Servers",
         columns: [
             createSortableField("platform", "Resource"),
-            // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
+            createSortableField("tier", "Tier"),
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
@@ -338,6 +388,7 @@ export default {
             tabs: tabs,
             pageInserts: {},
             tabState: null,
+            tierDefinitions: TIER_DEFINITIONS,
         };
     },
 
@@ -357,7 +408,15 @@ export default {
 
         getTierValue(item) {
             const { getTierValue } = useTableSorting();
-            return getTierValue(item);
+            const activeTab = this.tabs[this.tabState?.activeTabIndex || 0];
+            const platform_group = activeTab?.linkGroup || activeTab?.id;
+            return getTierValue(item, platform_group);
+        },
+
+        getTierDefinition(item) {
+            const tierValue = this.getTierValue(item);
+            if (!tierValue) return null;
+            return this.tierDefinitions.find((def) => def.tier === parseInt(tierValue, 10)) || null;
         },
 
         getRegionValue(item, platform_group = null) {
@@ -501,6 +560,15 @@ query {
                     platform_url
                     platform_purview
                     platform_location
+                    designation {
+                        operative
+                        tier
+                        url
+                        city
+                        region
+                        description
+                        notes
+                    }
                 }
             }
         }
@@ -519,24 +587,13 @@ footer.page-footer {
     font-size: 100%;
 }
 
-/* Tier badge styling */
-.badge-primary {
-    background-color: #007bff;
-    color: white;
-    padding: 0.25em 0.6em;
-    border-radius: 0.25rem;
-    font-size: 0.75em;
-    font-weight: 600;
-}
-
-/* Center align tier column */
-::v-deep .table td[aria-describedby$="-tier"],
-::v-deep .table th[aria-describedby$="-tier"] {
+.icon-tier {
     text-align: center;
+    font-size: 1.2rem;
+    color: #25537b;
 }
 
 ::v-deep .table td:first-child,
-::v-deep .table td[aria-describedby$="-platform"],
 ::v-deep .table td[data-label="Platform"],
 ::v-deep .table td[data-label="platform"] {
     white-space: normal !important;
@@ -546,8 +603,7 @@ footer.page-footer {
     vertical-align: top;
 }
 
-::v-deep .table th:first-child,
-::v-deep .table th[aria-describedby$="-platform"] {
+::v-deep .table th:first-child {
     white-space: normal !important;
     word-wrap: break-word;
     word-break: break-word;
