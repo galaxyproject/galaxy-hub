@@ -19,8 +19,7 @@ When your analysis history grows long, it can become hard to see how datasets re
 
 ## Intrigued?
 
-
-[Watch this video](https://youtu.be/w4_XHNUaZII?si=Oi0Q3Sv-FKNJKZPi) to learn how to use name tags effectively:
+[Watch this (SHORT!) video](https://youtu.be/w4_XHNUaZII?si=Oi0Q3Sv-FKNJKZPi) to learn how to use name tags effectively:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w4_XHNUaZII?si=Oi0Q3Sv-FKNJKZPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
