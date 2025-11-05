@@ -57,7 +57,7 @@ The Galaxy ToolShed offers a variety of tools for image data analysis, freely av
   width="100%"
   height="300px"
   frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_codex/imaging/">
+  src="https://galaxyproject.github.io/galaxy_codex/communities/imaging/resources/">
 </iframe>
 
 *Are we missing some tools? [Reach out to us](https://matrix.to/#/#galaxyproject_imaging:matrix.org) to keep the list comprehensive.*
@@ -72,7 +72,7 @@ Image analysis often involves hands-on interaction, and Galaxy offers resources 
 
 The **[zarr](https://zarr.dev/)** format is becoming a standard for storing large image data. With various adaptations like [OME-Zarr](https://ome-zarr.readthedocs.io/en/stable/) and [GEOZarr](https://github.com/zarr-developers/geozarr-spec), this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
 
-<video-player width="100%" src="/community/sig/image-analysis/vizarr-visualization.mp4"/>
+<video-player width="50%" src="/community/sig/image-analysis/vizarr-visualization.mp4"/>
 
 ## A dedicated Galaxy interface
 
