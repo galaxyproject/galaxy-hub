@@ -4,7 +4,7 @@ subsites:
 - all
 - global
 - ifb
-date: 2025-09-17
+date: '2025-09-17'
 tags:
 - microbiology
 title: 'How Galaxy is Unlocking the Secrets of Microbes: From Health to Ecosystems'
