@@ -46,14 +46,58 @@ jobs:
         uses: dorny/paths-filter@v3
         id: check_changes
         with:
+          list-files: json
           filters: |
             content:
-              - 'content/news/**'
-              - 'content/events/**'
-      - name: Wait for feeds to be available
+              - added: 'content/news/**/index.md'
+              - added: 'content/events/**/index.md'
+      - name: Wait for updated feeds to be available
         if: steps.check_changes.outputs.content == 'true'
-        run: sleep 30
+        shell: python
+        run: |
+          import json
+          import re
+          import time
+          import urllib.request
+
+          files = json.loads("${{ steps.check_changes.outputs.content_files }}")
+          print(f"Checking {len(files)} new posts in feeds...")
+
+          timeout = 3600
+          start_time = time.time()
+          wait_time = 10.0
+
+          while time.time() - start_time < timeout:
+              try:
+                  all_found = True
+                  for file in files:
+                      match = re.match(r"content/(news|events)/([^/]+)/", file)
+                      if not match:
+                          print(f"Skipping invalid file path: {file}")
+                          continue
+                      feed_type, dir_name = match.groups()
+                      req = urllib.request.Request(
+                          f"https://galaxyproject.org/{feed_type}/feed.json"
+                      )
+                      with urllib.request.urlopen(req, timeout=30) as response:
+                          feed = json.load(response)
+                      if not any(
+                          f"/{feed_type}/{dir_name}/" in item["path"] for item in feed[feed_type]
+                      ):
+                          print(f"Waiting for /{feed_type}/{dir_name}/")
+                          all_found = False
+                          break
+                  if all_found:
+                      print("All content found in feeds!")
+                      exit(0)
+              except Exception as e:
+                  print(f"Error fetching feed: {e}")
+              time.sleep(wait_time)
+              wait_time = min(wait_time * 1.5, 300.0)
+          print("Timeout waiting for feeds")
+          exit(1)
       - name: Create Galaxy Social Assistant Token
+        if: steps.check_changes.outputs.content == 'true'
         uses: actions/create-github-app-token@v2
         id: galaxy-social-assistant-token
         with:
