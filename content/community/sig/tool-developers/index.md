@@ -81,7 +81,7 @@ If you think you can contribute - through development, testing, review, or docum
 
 - 🐙 **GitHub**: github.com/galaxyproject/tools-iuc
 
-- 🕐 **Meetings**: Every 2nd and 4th Thursday of the Month at 13:00 | 🗓️ [Agenda and Meeting Link](https://docs.google.com/document/d/1_pcdij_N7hS35TfJkoxPlCeUrPEr9mNLby7KXDDjCHY/edit?usp=sharing)   
+- 🕐 **Meetings**: Every 2nd and 4th Thursday of the Month at 13:00 | 🗓️ [Agenda and Meeting Link](https://docs.google.com/document/d/1_pcdij_N7hS35TfJkoxPlCeUrPEr9mNLby7KXDDjCHY/edit?usp=sharing) | 🗓️ [Subscribe to Calendar](https://calendar.google.com/calendar/u/0?cid=MmQxN2JjMGJjYWNmZThkZGFkNDJiYmIxYWJhZWQyMDdjYzhjZTJlNDI0MTFhZTE1ODMxZDgyZjllMzU4NjJmOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 - 📢 **Updates**: Shared through IUC and Galaxy community channels.
 
@@ -90,11 +90,11 @@ If you think you can contribute - through development, testing, review, or docum
 
 - 📘 **IUC Development Guidelines**: https://galaxy-iuc-standards.readthedocs.io/
 
-- 🧩 **Tools-iuc development repository**: https://github.com/galaxyproject/tools-iuc 
+- 🧩 **Tools-IUC development repository**: https://github.com/galaxyproject/tools-iuc 
 
 - 🎓 **Galaxy Training Material**: [Tool Development Tutorials](https://training.galaxyproject.org/training-material/topics/dev/)
 
-- 🧰 **Galaxy ToolShed**: toolshed.g2.bx.psu.edu
+- 🧰 **Galaxy ToolShed**: https://toolshed.g2.bx.psu.edu/
 
 - 🌈 **Community Guidelines**: [Galaxy Code of Conduct](https://galaxyproject.org/community/coc/)
 
