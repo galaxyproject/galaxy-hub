@@ -65,7 +65,11 @@ Larivière, Delphine, et al. "Scalable, accessible and reproducible reference ge
 
 # Celebrating the Next Generation of Genome Informatics Researchers
 
-The [JXTX Foundation](https://jxtxfoundation.org/), established to honor Galaxy co-founder James Taylor (JT), continues to support early-career scientists in genomics and computational biology. These scholarships cover registration and travel expenses for emerging computational biologists to attend the conference and share their work—continuing JT’s legacy of community, collaboration, and open science. This year, three outstanding graduate students have been awarded the 2025 JXTX / CSHL Genome Informatics Scholarships.
+<p align="center">
+  <img src="groupphoto.jpg" alt="JXTX awardees group photo" width="600"/>
+</p>
+
+The [JXTX Foundation](https://jxtxfoundation.org/), established to honor Galaxy co-founder James Taylor (JT), continues to support early-career scientists in genomics and computational biology. These scholarships cover registration and travel expenses for emerging computational biologists to attend the conference and share their work, continuing JT’s legacy of community, collaboration, and open science. This year, three outstanding graduate students have been awarded the 2025 JXTX / CSHL Genome Informatics Scholarships.
 
 ## Zoe Rudnick
 
