@@ -5,7 +5,7 @@
         <Supporters
             v-if="filteredSupporters.length"
             title="Supporters"
-            pathPrefix="/images/logos/"
+            path-prefix="/images/logos/"
             class="mb-4 blue-card"
             :supporters="filteredSupporters"
         />

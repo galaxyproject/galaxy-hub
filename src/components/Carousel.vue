@@ -3,64 +3,43 @@
         <b-carousel
             id="carousel-1"
             v-model="slide"
-            :interval="5000"
+            :interval="3000"
             controls
             indicators
             background="#ababab"
-            img-width="650"
-            img-height="450"
+            img-width="400"
+            img-height="277"
             style="text-shadow: 1px 1px 2px #333"
         >
             <!--
             It's important that the images here are 13x9 aspect ratio,
             otherwise the page will jump around when the carousel changes.
             -->
-            <a
-                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#empower-users-to-build-more-kinds-of-collections-more-intelligently"
-                target="_blank"
-            >
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/r25_Slide1.PNG"
-                    img-alt="Improved collection creation in release 25.0"
-                ></b-carousel-slide>
-            </a>
-            <a
-                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#add-zip-explorer-to-import-individual-files-from-local-or-remote-zip-archives"
-                target="_blank"
-            >
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/r25_Slide2.PNG"
-                    img-alt="New ZIP explorer in release 25.0"
-                ></b-carousel-slide>
-            </a>
-            <a
-                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#a-new-unified-view-for-datasets"
-                target="_blank"
-            >
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/r25_Slide3.PNG"
-                    img-alt="New unified dataset view in release 25.0"
-                ></b-carousel-slide>
-            </a>
-            <a
-                href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html#an-enhanced-workflow-run-form-interface"
-                target="_blank"
-            >
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/r25_Slide4.PNG"
-                    img-alt="Improved workflow run in release 25.0"
-                ></b-carousel-slide>
-            </a>
-            <a href="https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html" target="_blank">
-                <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/r25_Slide5.PNG"
-                    img-alt="More highlights in release 25.0"
-                ></b-carousel-slide>
-            </a>
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/jxtx/jxtx-jumbotron.png"
+                    img-src="/images/usegalaxy-welcome/jxtx_carousel.svg"
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://galaxyproject.org/news/2025-10-21-whycollections/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/theguy.svg"
+                    img-alt="Use collections!"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://galaxyproject.org/news/2025-10-28-window-manager/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/window_manager.svg"
+                    img-alt="Use collections!"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://training.galaxyproject.org/" target="_blank">
+                <b-carousel-slide img-src="/images/usegalaxy-welcome/gtn.svg" img-alt="Try GTN"></b-carousel-slide>
+            </a>
+            <a href="https://galaxyproject.org/usegalaxy/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/dotstar.svg"
+                    img-alt="Usegalaxy.*"
                 ></b-carousel-slide>
             </a>
         </b-carousel>
@@ -80,7 +59,7 @@ export default {
 <style lang="scss" scoped>
 .carousel-container {
     padding-top: 2rem;
-    max-width: 650px;
+    max-width: 400px;
     margin: 0 auto;
 }
 </style>

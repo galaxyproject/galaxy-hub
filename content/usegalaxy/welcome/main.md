@@ -6,17 +6,29 @@ title: usegalaxy.org
 
 **Donate to the James P. Taylor Foundation for Open Science**
 
-<button type="button" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;">
+<a href="https://jxtxfoundation.org/" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;" target="_blank">
 
-[Learn More][jxtx-foundation]
+<i class="fa fa-external-link-alt fa-sm" aria-hidden="true"></i>&nbsp;Learn More
 
-</button>
+</a>
 
 </div>
 
 <div class="alert alert-info trim-p">
 
-Want to learn the best practices for genome assembly using Galaxy? Visit the Galaxy VGP page at [https://galaxyproject.org/projects/vgp/][vgp]
+<p class="text-center"><strong>Follow us on social media!</strong></p>
+
+<div class="text-center mt-2">
+<a href="https://mstdn.science/@galaxyproject" target="_blank" class="btn btn-outline-primary mx-1">
+<i class="fab fa-mastodon" aria-hidden="true"></i> Mastodon
+</a>
+<a href="https://bsky.app/profile/galaxyproject.bsky.social" target="_blank" class="btn btn-outline-primary mx-1">
+<i class="fa fa-cloud" aria-hidden="true"></i> Bluesky
+</a>
+<a href="https://www.linkedin.com/company/101662592" target="_blank" class="btn btn-outline-primary mx-1">
+<i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+</a>
+</div>
 
 </div>
 

@@ -43,7 +43,7 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           # For non-Pull Requests, run in compressOnly mode and we'll PR after.
-          compressOnly: ${{ github.event_name != 'pull_request' }}
+          ## compressOnly: ${{ github.event_name != 'pull_request' }}
           # Attempt to prevent webp recompression by minimizing diff.
           webpQuality: '90'
           minPctChange: '2.5'

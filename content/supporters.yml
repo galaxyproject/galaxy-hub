@@ -130,11 +130,11 @@ supporters:
     - name: elixir-belgium
       image: /images/logos/ELIXIR_BELGIUM_white_background.png
       website: https://www.elixir-belgium.org/
-    
+
     - name: elixir-cz
-      image: /images/logos/elixir-cz-banner.png
+      image: /images/logos/elixir-cz-logo.png
       website: https://www.elixir-czech.cz/
-    
+
     - name: eirene
       image: /images/logos/eirene_black.jpg
       website: https://eirene.eu/
@@ -266,7 +266,7 @@ supporters:
     - name: melbbioinfo
       image: /images/logos/melbbioinfo-logo.png
       website: https://www.melbournebioinformatics.org.au/
-    
+
     - name: metabohub
       image: /images/logos/MetaboHubLogo.jpg
       website: https://www.metabohub.fr/home.html
@@ -342,7 +342,7 @@ supporters:
     - name: qfab
       image: /images/logos/qfab-logo.png
       website: https://qfab.org/
-    
+
     - name: rfmf
       image: /images/logos/RFMF.png
       website: https://www.rfmf.fr/
@@ -367,6 +367,10 @@ supporters:
       image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
       website: http://uni-freiburg.de/
 
+    - name: ics-muni
+      image: /images/logos/ics-muni.png
+      website: https://www.ics.muni.cz/
+
     - name: usegalaxy-eu
       image: /images/logos/useGalaxy.eu.svg
       website: https://usegalaxy.eu/
@@ -386,3 +390,7 @@ supporters:
     - name: Worfklow4Metabelomics
       image: /images/logos/logo-ifb-mono-metabohub_2.1_SD_150px.png
       website: https://workflow4metabolomics.org/
+      
+    - name: uniisfahan
+      image: /images/logos/UniIsfahan.png
+      website: https://www.ui.ac.ir/

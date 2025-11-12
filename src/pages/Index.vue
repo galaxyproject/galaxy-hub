@@ -10,10 +10,10 @@
                     </div>
                     <nav class="navbar navbar-default p-0" id="heroMaincontainer">
                         <div class="container-fluid">
-                            <div v-if="prioritizedGalaxyLocales" class="nav navbar-nav">
+                            <div v-if="prioritizedGalaxyInstances" class="nav navbar-nav">
                                 <div class="dropdown show">
                                     <a
-                                        v-for="site in this.prioritizedGalaxyLocales.slice(0, 1)"
+                                        v-for="site in this.prioritizedGalaxyInstances.slice(0, 1)"
                                         :key="site.locale"
                                         :href="site.url"
                                         class="btn hero mr-3 bgBright dropdown-toggle"
@@ -25,15 +25,14 @@
                                         aria-expanded="false"
                                         @click="plausibleCount(`UseGalaxyDropDown Clicks ${site.locale}`)"
                                     >
-                                        UseGalaxy:
-                                        {{ site.locale }}
+                                        UseGalaxy Now - {{ site.locale }}
                                     </a>
                                     <div
                                         class="dropdown-menu hero bgBright m-0 pb-0"
                                         aria-labelledby="dropdownMenuLink"
                                     >
                                         <a
-                                            v-for="site in this.prioritizedGalaxyLocales.slice(1)"
+                                            v-for="site in this.prioritizedGalaxyInstances.slice(1)"
                                             :href="site.url"
                                             :key="site.locale"
                                             target="_blank"
@@ -49,6 +48,18 @@
                         </div>
                     </nav>
                 </div>
+                <!-- When removing this announcement, do not remove it entirely, comment it instead since it would be
+                    useful to have this same consistent styling for future announcements (reuse `hero-announcement-...` classes etc.) -->
+
+                <!-- <div class="col-lg-5 hero-announcement-container">
+                    <a href="" class="hero-announcement-img-link">
+                        <img
+                            src=""
+                            alt=""
+                            class="img-fluid rounded"
+                        />
+                    </a>
+                </div> -->
             </div>
         </div>
         <div class="container-fluid-real p-0">
@@ -173,6 +184,17 @@
                         <div class="text-white">
                             <h3>{{ this.$static.datasetCallouts.callout6.title }}</h3>
                             <div v-html="this.$static.datasetCallouts.callout6.content" class="highlight"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid-real p-0">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="testimonials-container">
+                            <Testimonials :showControls="true" :showHeading="true" />
                         </div>
                     </div>
                 </div>
@@ -306,15 +328,19 @@
 import slugify from "@sindresorhus/slugify";
 import CONFIG from "~/../config.json";
 import Publications from "@/components/Publications";
+import Testimonials from "@/components/Testimonials";
+import Geolocation from "@/composables/geolocation";
 
 export default {
     components: {
         Publications,
+        Testimonials,
     },
     data() {
         return {
             cancelled: false,
-            prioritizedGalaxyLocales: [],
+            prioritizedGalaxyInstances: [],
+            visitorCountryCode: null,
         };
     },
     computed: {
@@ -324,26 +350,61 @@ export default {
     },
     methods: {
         slugify,
-        setPrioritizedGalaxyLocales() {
-            const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
+
+        async setPrioritizedGalaxyInstances() {
             let galaxies = CONFIG.usegalaxy;
-            let priority = galaxies.splice(
+            galaxies = this.setPriorityUtc(galaxies);
+            galaxies = await this.setPriorityCountryCode(galaxies);
+            this.prioritizedGalaxyInstances = galaxies;
+        },
+
+        setPriorityUtc(galaxies) {
+            const utcBrowser = (-1 * new Date().getTimezoneOffset()) / 60;
+            const priorityUtc = galaxies.splice(
                 galaxies.findIndex((g) => utcBrowser >= g.utcMin && utcBrowser < g.utcMax),
                 1,
             );
-            if (priority[0]) {
-                galaxies.splice(0, 0, priority[0]);
+            if (priorityUtc[0]) {
+                galaxies.splice(0, 0, priorityUtc[0]);
             }
-            this.prioritizedGalaxyLocales = galaxies;
+            return galaxies;
         },
+
+        async setPriorityCountryCode(galaxies) {
+            const geolocation = new Geolocation({
+                enabled: true,
+                timeout: 4000,
+            });
+
+            try {
+                const result = await geolocation.getVisitorCountryCode();
+                if (result.status === "success") {
+                    const visitorCountryCode = result.country;
+                    this.visitorCountryCode = visitorCountryCode;
+
+                    const priorityCountryCode = galaxies.splice(
+                        galaxies.findIndex((g) => g.locale === visitorCountryCode),
+                        1,
+                    );
+                    if (priorityCountryCode[0]) {
+                        galaxies.splice(0, 0, priorityCountryCode[0]);
+                    }
+                }
+            } catch (error) {
+                console.warn("Error in setPriorityCountryCode:", error);
+            }
+
+            return galaxies;
+        },
+
         plausibleCount(goal) {
-            if (typeof window.plausible !== "undefined") {
+            if (typeof window !== "undefined" && typeof window.plausible !== "undefined") {
                 window.plausible(goal);
             }
         },
     },
     mounted() {
-        this.setPrioritizedGalaxyLocales();
+        this.setPrioritizedGalaxyInstances();
     },
     metaInfo() {
         return {
@@ -352,6 +413,17 @@ export default {
     },
 };
 </script>
+
+<style lang="scss" scoped>
+@import "~/assets/styles.scss";
+
+.testimonials-container {
+    background: linear-gradient(155deg, #1d4068 44%, #2d629f);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 <page-query>
 query {
@@ -448,5 +520,6 @@ query {
             }
         }
     }
+
 }
 </static-query>
