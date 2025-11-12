@@ -10,7 +10,7 @@ main_subsite: eu
 ---
 At the [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) in Brussels, the programme spotlighted the first wave of EOSC Nodes and the momentum behind the Federation’s launch. Roksana Wilk presented “From National Resources to EOSC: The EOSC Node Poland Gateway,” positioning the Polish node within EOSC’s broader move from plans to operations. 
 
-The demo and accompanying video walk through a complete workflow on [eosc.pl](https://eosc.pl/):
+The demo and accompanying video walk through a complete workflow on the [EOSC Node - Poland](https://eosc.pl/):
 
 1. Integrate data into [Onedata](https://onedata.org/#/home) spaces and catalogue.
 2. Select datasets via [data.eosc.pl](https://data.eosc.pl/ozw/onezone/i#/login).
@@ -19,6 +19,6 @@ The demo and accompanying video walk through a complete workflow on [eosc.pl](ht
 5. Run analysis on [Galaxy](https://usegalaxy.eu/).
 6. Gather results back to [Onedata](https://onedata.org/#/home) as [RO-Crate](https://www.researchobject.org/ro-crate/) with provenance.
 7. Publish via the [eosc.pl](https://eosc.pl/) catalogue for discovery and reuse. 
-
+A detailed description of the demo, along with access to datasets and a complete reproduction guide, is available at: https://data.eosc.pl/share/d8413445a54fb9feb5d6ce7b87b24751ch11a0
 # Video
-<iframe width="800" height="450" src="https://www.youtube.com/embed/826burTjOEU" title="From National Resources to EOSC: The EOSC Node Poland Gateway" allowfullscreen loading="lazy"></iframe>
+<iframe width="800" height="450" src="https://gxy.io/eosc-node-poland-demo" title="From National Resources to EOSC: The EOSC Node Poland Gateway" allowfullscreen loading="lazy"></iframe>
