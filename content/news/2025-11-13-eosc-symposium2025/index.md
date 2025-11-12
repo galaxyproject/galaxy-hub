@@ -1,7 +1,7 @@
 ---
 title: "One framework, one workflow, many communities: Freiburg Galaxy team at EOSC Symposium 2025"
 date: "2025-11-13"
-authors: "Armin Dadras, Björn Grüning"
+authors: "Armin Dadras, Diana Chiang Jurado"
 tease: "Galaxy showed how 'one framework, one workflow, many communities' can run cross-disciplinary imaging analyses on the emerging EOSC Federation. Here is what we presented, with slides and video."
 tags: [eosc, workflows, imaging, fair, interoperability, pulsar, federation, reproducibility, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, climate, esg-wp3]
 supporters: [eosc, unifreiburg, esg, elixir, denbi, nfdi, egi, ifremer, fiesta, workflowhub, dataterra, eubi, dataplant, bmbf]
@@ -22,7 +22,7 @@ Why this matters now? With the EOSC Federation moving into operations and [the f
 
 ![EOSC Node Germany at EOSC Symposium 2025](https://eosc.eu/wp-content/uploads/2025/11/20251104_EOSC-Symposium_D2_423.jpg)
 
-Björn also contributed to the breakout on onboarding to the German Node, outlining hands-on lessons from integrating Galaxy with EOSC-AAI, running single-user instances on EEN resources, deploying [Pulsar Network](https://pulsar-network.readthedocs.io/en/latest/) for distributed compute, and connecting [storage options available to users](https://doi.org/10.5281/zenodo.15729501). The takeaway: onboarding is feasible today with standards and coordinated support.
+Björn also contributed to the breakout on onboarding to the German EOSC Node (NFDI), outlining hands-on lessons from integrating Galaxy with EOSC-AAI, running single-user instances on EEN resources, deploying [Pulsar Network](https://pulsar-network.readthedocs.io/en/latest/) for distributed compute, and connecting [storage options available to users](https://doi.org/10.5281/zenodo.15729501). The takeaway: onboarding is feasible today with standards and coordinated support.
 
 ![EOSC Node Life Science Connect Booth](https://eosc.eu/wp-content/uploads/2025/11/20251103_EOSC-Symposium_0320-768x512.jpg)
 
@@ -33,3 +33,7 @@ Other projects at the Symposium showcased Galaxy in their contexts as well. We w
 
 # View the slides
 <iframe src="https://indico.cern.ch/event/1543880/contributions/6744855/attachments/3167355/5628495/20251103_Galaxy_GRUENING_Welcoming_the_EOSC_Federation_Scientific_Use_cases_from_the_first_wave_of_EOSC_candidate_nodes_EOSC%20Symposium2025.pdf#page=1" width="800" height="500" loading="lazy"></iframe>
+
+# Acknowledgement
+
+The video represents a collaborative effort among multiple partners, with special thanks to Marie Jossé, the EGI Foundation, and Diana Chiang Jurado for their valuable contributions.
