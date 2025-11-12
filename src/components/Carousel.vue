@@ -3,12 +3,12 @@
         <b-carousel
             id="carousel-1"
             v-model="slide"
-            :interval="5000"
+            :interval="3000"
             controls
             indicators
             background="#ababab"
-            img-width="650"
-            img-height="450"
+            img-width="400"
+            img-height="277"
             style="text-shadow: 1px 1px 2px #333"
         >
             <!--
@@ -17,14 +17,29 @@
             -->
             <a href="https://jxtxfoundation.org" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/jxtx/jxtx-jumbotron.png"
+                    img-src="/images/usegalaxy-welcome/jxtx_carousel.svg"
                     img-alt="Donate to the James P. Taylor Foundation for Open Science"
                 ></b-carousel-slide>
             </a>
             <a href="https://galaxyproject.org/news/2025-10-21-whycollections/" target="_blank">
                 <b-carousel-slide
-                    img-src="/images/usegalaxy-welcome/theguy.png"
+                    img-src="/images/usegalaxy-welcome/theguy.svg"
                     img-alt="Use collections!"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://galaxyproject.org/news/2025-10-28-window-manager/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/window_manager.svg"
+                    img-alt="Use collections!"
+                ></b-carousel-slide>
+            </a>
+            <a href="https://training.galaxyproject.org/" target="_blank">
+                <b-carousel-slide img-src="/images/usegalaxy-welcome/gtn.svg" img-alt="Try GTN"></b-carousel-slide>
+            </a>
+            <a href="https://galaxyproject.org/usegalaxy/" target="_blank">
+                <b-carousel-slide
+                    img-src="/images/usegalaxy-welcome/dotstar.svg"
+                    img-alt="Usegalaxy.*"
                 ></b-carousel-slide>
             </a>
         </b-carousel>
@@ -44,7 +59,7 @@ export default {
 <style lang="scss" scoped>
 .carousel-container {
     padding-top: 2rem;
-    max-width: 650px;
+    max-width: 400px;
     margin: 0 auto;
 }
 </style>
