@@ -10,7 +10,6 @@ main_subsite: eu
 ---
 At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) in Brussels, Björn Grüning demonstrated a scientific use case powered by Galaxy on federated European infrastructure: processing massive imaging datasets with reusable workflows that work across domains, from astrophysics to climate and marine science, and into the life sciences. The demo highlighted how authenticated access, interoperable services, and portable workflows accelerate discovery once nodes interconnect.
 
-![Bjoern at EOSC Symposium 2025](https://eosc.eu/wp-content/uploads/2025/11/20251104_EOSC-Symposium_D2_530.jpg)
 
 Björn’s [opening slide](https://indico.cern.ch/event/1543880/contributions/6744855/attachments/3167355/5628495/20251103_Galaxy_GRUENING_Welcoming_the_EOSC_Federation_Scientific_Use_cases_from_the_first_wave_of_EOSC_candidate_nodes_EOSC%20Symposium2025.pdf) set the tone: “One framework, One workflow, Many communities.” That message underpins our approach—shared, [FAIR](https://en.wikipedia.org/wiki/FAIR_data) methods delivered through a familiar analysis environment so researchers can reproduce, adapt, and reuse without re-implementing the stack.
 
