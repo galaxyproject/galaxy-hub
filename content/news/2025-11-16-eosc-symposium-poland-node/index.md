@@ -15,9 +15,10 @@ The demo and accompanying video walk through a complete workflow on [eosc.pl](ht
 1. Integrate data into [Onedata](https://onedata.org/#/home) spaces and catalogue.
 2. Select datasets via [data.eosc.pl](https://data.eosc.pl/ozw/onezone/i#/login).
 3. Choose environment.
-4. Run analysis by configuring [Onedata](https://onedata.org/#/home) as [a source in Galaxy](https://training.galaxyproject.org/training-material/hall-of-fame/lopiola/).
-5. Gather results back to [Onedata](https://onedata.org/#/home) as [RO-Crate](https://www.researchobject.org/ro-crate/) with provenance.
-6. Publish via the [eosc.pl](https://eosc.pl/) catalogue for discovery and reuse. 
+4. Configuring [Onedata](https://onedata.org/#/home) as [a source in Galaxy](https://training.galaxyproject.org/training-material/hall-of-fame/lopiola/).
+5. Run analysis on [Galaxy](https://usegalaxy.eu/).
+6. Gather results back to [Onedata](https://onedata.org/#/home) as [RO-Crate](https://www.researchobject.org/ro-crate/) with provenance.
+7. Publish via the [eosc.pl](https://eosc.pl/) catalogue for discovery and reuse. 
 
 # Video
 <iframe width="800" height="450" src="https://www.youtube.com/embed/826burTjOEU" title="From National Resources to EOSC: The EOSC Node Poland Gateway" allowfullscreen loading="lazy"></iframe>
