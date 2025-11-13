@@ -1,5 +1,5 @@
 ---
-title: "Polish EOSC Node at EOSC Symposium 2025: Galaxy and Pulsar in action"
+title: "EOSC Node Poland at EOSC Symposium 2025: Galaxy and Pulsar in action"
 date: "2025-11-16"
 authors: "Armin Dadras"
 tease: "At the EOSC Symposium 2025, the Polish EOSC Node demonstrated a complete FAIR research workflow powered by Galaxy and PLGrid’s Pulsar integrating data analysis, execution, and provenance tracking through Onedata. The presentation video and full details are available via the [EOSC Node - Poland](https://eosc.pl/search/all_collection?q=EOSC%20Symposium%20Demo)."
