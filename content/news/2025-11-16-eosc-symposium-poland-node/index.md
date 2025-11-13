@@ -25,4 +25,5 @@ A detailed description of the demo with a complete reproduction guide and all in
 Log in to [data.eosc.pl](https://data.eosc.pl) for read-only access to the demo space.
 
 # Video
-<iframe width="800" height="450" src="https://gxy.io/eosc-node-poland-demo" title="From National Resources to EOSC: The EOSC Node Poland Gateway" allowfullscreen loading="lazy"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/826burTjOEU?si=rQ4XaxoHHPZt1qLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
