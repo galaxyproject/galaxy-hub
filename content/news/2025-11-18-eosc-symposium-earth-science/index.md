@@ -20,7 +20,7 @@ This demonstration highlighted the added value of Galaxy in orchestrating reprod
 
 # Watch the Demo
 
-<iframe width="560" height="315" src="https://gxy.io/plume2bloom" title="From Plume to Bloom: Data Terra RI × EOSC Federation" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jPh1L9N_wKA?si=jYc8xERrs4HITVT5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Acknowledgements
 
