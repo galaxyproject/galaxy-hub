@@ -31,7 +31,8 @@ Other projects at the Symposium showcased Galaxy in their contexts as well. We w
 <iframe src="https://gxy.io/eosc25" width="800" height="450" allowfullscreen loading="lazy"></iframe>
 
 # View the slides
-<iframe src="https://indico.cern.ch/event/1543880/contributions/6744855/attachments/3167355/5628495/20251103_Galaxy_GRUENING_Welcoming_the_EOSC_Federation_Scientific_Use_cases_from_the_first_wave_of_EOSC_candidate_nodes_EOSC%20Symposium2025.pdf#page=1" width="800" height="500" loading="lazy"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2w8okrORVtM?si=SO6A-pkCr6kw9IkD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Acknowledgement
 
