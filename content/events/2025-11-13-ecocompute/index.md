@@ -1,6 +1,5 @@
 ---
-subsites:
-- [global, eu, freiburg]
+subsites: [global, eu, freiburg]
 gtn: false
 date: '2025-11-13'
 days: 2
