@@ -25,6 +25,6 @@ This demonstration highlighted the added value of Galaxy in orchestrating reprod
 # Acknowledgements
 
 Data Terra’s presence at the symposium was supported by:  
-Frédéric Huynh, Sébastien Payan, Erwan Quimber, Jian-Sheng Sun, Alessandro Rizzo, Marina Ripon, Jean-Philippe Malet, Christelle Pierkot, Karim Ramage, Erwan Bodéré, Marie Jossé, and Jérôme Détoc.
+Frédéric Huynh, Sébastien Payan, Erwann Quimbert, Jian-Sheng Sun, Alessandro Rizzo, Marina Ripon, Jean-Philippe Malet, Christelle Pierkot, Karim Ramage, Erwan Bodéré, Marie Jossé, and Jérôme Détoc.
 
 Credits for event photos: EOSC Association
