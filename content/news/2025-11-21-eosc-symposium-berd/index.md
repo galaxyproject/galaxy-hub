@@ -13,7 +13,7 @@ At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-ma
 The presentation showcases a complete workflow that enables interdisciplinary and reliable research, highlighting two key integrations:
 
 1. A data-processing workflow connecting the [BERD Data Portal](https://berd-platform.de/portals/data) with the [Galaxy Europe](https://usegalaxy.eu/login/start) analysis platform.
-2. The integration of the resulting data and services into the [EOSC EU Node](https://open-science-cloud.ec.europa.eu/resources/all), making them discoverable across Europe.
+2. The integration of the resulting data into the Resource Hub of the [EOSC EU Node](https://open-science-cloud.ec.europa.eu/resources/all), making them discoverable across Europe.
 
 Watch the full screencast below to see the workflow in action:
 
@@ -27,7 +27,7 @@ This is where Galaxy's power becomes visible. The project, described in the pres
 
 Here is how Galaxy helps:
 
-- **Data Connection:** The workflow connects to the [BERD@NFDI data portal](https://www.berd-nfdi.de/), which hosts the raw planning documents.
+- **Data Connection:** The workflow connects to the [BERD Data Portal](https://www.berd-nfdi.de/), which hosts the raw planning documents.
 - **Automated Analysis:** Galaxy runs a multi-step workflow that automates the "FAIR-ification" of this data. The workflow employs:
     - **Optical Character Recognition (OCR)** tools like Tesseract to extract text from scanned PDF images.
     - **Text Mining and LLM tools** for sophisticated keyword and pattern extraction.
@@ -41,7 +41,7 @@ This project is more than just a use case; it's a model of true collaboration. T
 
 The active participation of the Galaxy team, including Björn Grüning and Daniela Schneider, underscores our commitment to supporting the scientific community. By providing both the platform and the expertise, the Galaxy Project is helping to build the next generation of FAIR data infrastructures, supporting vital research into societal, economic, and environmental challenges.
 
-This "B-Plan Use Case" is a perfect example of how open infrastructures like the [BERD Platform](https://berd-platform.de/) and Galaxy Europe can be combined to create value, demonstrating the very [momentum](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) that the EOSC Symposium set out to celebrate.
+This "B-Plan Use Case" is a perfect example of how open infrastructures like the [BERD Data Portal](https://berd-platform.de/) and Galaxy Europe can be combined to create value, demonstrating the very [momentum](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) that the EOSC Symposium set out to celebrate.
 
 View the full presentation slides here:
 
