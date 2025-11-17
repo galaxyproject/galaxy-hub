@@ -51,7 +51,6 @@ View the full presentation slides here:
 
 - [Galaxy Europe](https://usegalaxy.eu/)
 - [BERD@NFDI Consortium](https://www.berd-nfdi.de/)
-- [BERD Platform](https://berd-platform.de/)
 - [BERD Data Portal](https://berd-platform.de/portals/data)
 - [B-Plan Project (GreenDIA)](https://greendia.de/b-plan-project/)
 - [EOSC EU Node](https://open-science-cloud.ec.europa.eu/resources/all)
