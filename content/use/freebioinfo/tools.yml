@@ -1,0 +1,1320 @@
+tools:
+    - name: Upload File
+      version: 1.1.6
+      link: /galaxy/tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Text2file
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=text2file
+      description: copy the content in the text area to file
+    - name: Merge
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=combinefiels
+      description: files into one
+    - name: tar
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=tar
+      description: add files to archive
+    - name: untar
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=untar
+      description: extract files from archive
+    - name: FastaQContig
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=FastaQContig
+      description: make contigs using forward and reverse fastaq sequences
+    - name: Assign Seqs into samples(Updated and slightly tolerant to more errors by beginners)
+      version: 0.3.0
+      link: /galaxy/tool_runner?tool_id=LibSeqAssign
+      description: assign Seqs into Sampels based on primer and barcode sequences.
+    - name: RetriveDominantSeqbyLength
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RetriveDominantSeqbyLength
+      description: retrieve majority of sequences accoring to length distribution.
+    - name: SeqLenDistri
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SeqLenDistri
+      description: check the length distribution of a fasta seq.
+    - name: CheckBarcode
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CheckBarcode
+      description: If something is wrong with Assign seqs into samples,this tool helps
+          check the barcode pair.          you can compare this result and adjust your tag
+          file.
+    - name: DenoiseAmplicon
+      version: "0.01"
+      link: /galaxy/tool_runner?tool_id=DenoiseAmplicon
+      description: remove amplicon or chimera artifacts
+    - name: Taxonomic OTU reporter
+      version: 0.6.0
+      link: /galaxy/tool_runner?tool_id=TaxonomicOTUreporter
+      description: generating TOR based on fasta sequences(No barcode and primer regions,proper
+          names:Sample_(one letter for replicate)numbers e.g. Org_a1179.
+    - name: UCTaxa2OTUreporter
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=UCTaxa2OTUreporter
+      description: construct taxonomic OTU reporter using ucfile and taxa assignment
+    - name: Functional Gene
+      version: 0.22.0
+      link: /galaxy/tool_runner?tool_id=FunctionalGene
+      description: analysis pipeline for HTS of functional genes.
+    - name: Uniseqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=uniseqs
+      description: get unique seqs from a fasta file.
+    - name: Seq2OTU
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Seq2OTU
+      description: generating an OTU table according to Sequence identity.
+    - name: BLASTXFrame
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=blastxframe
+      description: get the correct translation frame.
+    - name: vsearch_derep
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=vsearchderep
+      description: remove replicated sequences
+    - name: vsearch_chimera
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=vsearchchimera
+      description: remove chimera sequences from the fasta either by denovo or by references
+    - name: vsearch_cluster
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=vsearchcluster
+      description: cluster DNA sequences into different groups based on similarity.
+    - name: vsearch_search
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=vsearchsearch
+      description: find similar sequences from a database fasta file.
+    - name: BLASTClassifier
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=blastnpclassifier
+      description: using lowest common ancestor based on blastp/blastn analysis
+    - name: Core microbiome
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Coremicrobiome
+      description: from a taxonomic OTUreporter
+    - name: SeqClusterByDistance
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SeqClusterByDistance
+      description: number of clusters under different sequence distance.
+    - name: CheckSequences
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Check_seqs
+      description: of a fasta file
+    - name: Count_sample_seqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=count_seqs
+      description: of a fasta file
+    - name: CountFrameShift
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CountFrameShift
+      description: based on blastx analysis
+    - name: SampleGC
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SampleGC
+      description: calculate the GC content of sample.
+    - name: Check data frame
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=assertdataframe
+      description: :data frame with different number of elements cause problems in the
+          following analysis.                     Here we kick off those problematic lines.
+    - name: "Select Taxonomic "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Select_Tax
+      description: groups from the data frame
+    - name: Delete/select Columns
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=DeleteOrSelect_Columns
+      description: From a data frame.
+    - name: ListSamples
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=List+Sample
+      description: in a data frame
+    - name: Rename samples
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Rename_samples
+      description: in a data frame
+    - name: GetOneWayExperimentDesign
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=GetOneWayExperimentDesign
+      description: Based on Sample names and Defined levels of Factors.
+    - name: "Select samples "
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=SelectSamplesfromDataframe
+      description: based on sample list,factors,regex and readnums from data frame
+    - name: Dominat Taxa
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Dominant_Taxa
+      description: which is present in the current taxonomic OTU report
+    - name: Select Fasta sequences
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Select_fasta
+      description: from a file
+    - name: Remove Fasta sequences
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=remove_fasta
+      description: from a file
+    - name: "Remove Rare OTU "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Remove_rare_OTU
+      description: From an OTU reporter
+    - name: Select_Frequent_OTU
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Select_Freq_OTU
+      description: from a taxonomic OTU reporter
+    - name: Sort_Samples
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=sort_samples
+      description: of a dataframes according treatments or all samples
+    - name: Combine_colSums
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=colsums_dataframe
+      description: of several dataframes into a new datasets
+    - name: Combine_Columns
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Combine_Columns
+      description: of data frame
+    - name: TaxaLists
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=TaxaLists
+      description: of data frame
+    - name: AssignBarcode
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Assignbarcode
+      description: transform 2D dataframe to Arrays(mxd format)
+    - name: "Count taxnomic numbers "
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=Count_Tax
+      description: based on a  a taxnomic otu reporter
+    - name: AutoSample
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=autosample
+      description: group samples based on their characteristics(sep by ",".
+    - name: Basic_Summary
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=taxsummary
+      description: of a taxonomic OTU reporters
+    - name: "Sum up Tax "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Sum_up_Tax
+      description: from the data frame
+    - name: Calculate bray curtis
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Calculate_bray_curtis_dist
+      description: based on a data frame
+    - name: Variation of community composition within treatments
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=variationofcommunity
+      description: based on pairwised distances.
+    - name: Boxplot(ggplot)
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=boxplot2
+      description: of dataframes
+    - name: Module_Summary
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=ModuleSummary
+      description: based on an taxonomic OTUreporter and modules
+    - name: UPGMA cluster
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=UPGMA_cluster
+      description: analysis based on a dist matrix
+    - name: Permutation test
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PermutationTest
+      description: to analyze significant difference between community composition based
+          on a pairwise distance matrix
+    - name: Permutation test
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PermutationR
+      description: based on a hybridized distance matrix or similarity matrix.
+    - name: ANOSIM
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Anosim
+      description: of a taxonomic OTU reporter to analyze significant difference between
+          treatments;基于OTUreporter或距离矩阵分析不同组之间的差异
+    - name: Alpha Diversity
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Alpha_Diversity
+      description: of each sample
+    - name: Relative/Absolute abundance
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Relative_abundance
+      description: of a data frame
+    - name: Barplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=BarplotRelative
+      description: of mean+sd tables.
+    - name: Paired barplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PairPlot2
+      description: of two data frame or one data frame
+    - name: One Way Multicomp
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=OneWayGLMMulticomp
+      description: using glm model for binary data(negative binomial test.)
+    - name: Combine tables
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CombineSigtables
+      description: into a result table.
+    - name: Compare_treatments
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=timeserial
+      description: dissimilarity between treatments based on a dist matrix
+    - name: Statistic image
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=statisticimage
+      description: mark statistic result in a manner of heatmap style.
+    - name: One_Way_Multicomp3
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=OneWayMulticomp3
+      description: using TukeyHSD or negative binomical tests
+    - name: DFPostHSDPvals
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=DFPostHSDPvals
+      description: calculated pairwise p-values using different posthoc tests.
+    - name: MultiwayANOVA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MultiAnova
+      description: make multiple ANOVA for a dataframe.
+    - name: Heatmap
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Heatmap
+      description: analysis of selected taxa(species)
+    - name: BLAST
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=BLAST
+      description: analyses locally
+    - name: NMMD
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=NMMD
+      description: based on a dist matrix
+    - name: PCoA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PCoA
+      description: based on a dist matrix
+    - name: RDA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=rda
+      description: analyses and plot
+    - name: RDA/CCA/NMMD
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=Ordination
+      description: analyses and plot
+    - name: Mantel tests
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Mantel
+      description: 不同环境变量对种群结构的解释能力.
+    - name: PCA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PCA
+      description: analyses and plot
+    - name: PLSDA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PLSDA
+      description: analyses and plot
+    - name: SpearmanNet
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=spearmannet
+      description: for analyze microbial network
+    - name: IndicativeNetwork
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=bipartnetwork
+      description: indicates association of taxa with one or the other treatments.
+    - name: Correlations
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Correlations
+      description: between Taxonomic OTU reporter and Environmental variables.
+    - name: Kmer Cluster
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=kmercluster
+      description: analyses and plot
+    - name: Variation_Partion
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=variation_partition
+      description: of community composition using different sets of explaining matrixs
+    - name: Boxplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=boxplot
+      description: of community composition using different sets of explaining matrixs
+    - name: Rarefaction
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=rarefaction
+      description: analysis of a taxonomic OTU reporters
+    - name: Plot_Rare_lines
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Plot_Rare_lines
+      description: of a rarefaction table
+    - name: LibCompareTab
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=LibCompareTab
+      description: statistic analysis usng the algorithm describled in RDP libcompare.
+    - name: RespondingBox/Barplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RespondingBox
+      description: identify association between responses and envparaments
+    - name: Pieplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PiePlot
+      description: of dataframe.
+    - name: Statistic2BiNetwork
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Statistic2BiNetwork
+      description: construct a network based on statistic analysis
+    - name: Mantel
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=mantel
+      description: tests between two distant matrix or dataframe.
+    - name: RandomForest
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RandomForest
+      description: to identify key tax discrimnative among treatments.
+    - name: CompareOTUreporter
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CompareOTUreporter
+      description: compare common samples in two OTUreporter.
+    - name: CountRelativeAbundance
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CountRelativeAbundance
+      description: Count the number of taxa with a minimum relative abundace.
+    - name: Correlation Plot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Corrplot
+      description: based on a dataframe
+    - name: RespondingPairedBar
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RespondingPairedBar
+      description: Based on statistic tables
+    - name: Image
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=imageplot2
+      description: for plotting an image based on a dataframe.
+    - name: Pairwise Mantel
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=pairwisemantel
+      description: tests among distance matrix or dataframe.
+    - name: Normalize by Copy Number
+      version: 1.1.1
+      link: /galaxy/tool_runner?tool_id=PICRUSt_normalize
+      description: ""
+    - name: Predict Metagenome
+      version: 1.1.1
+      link: /galaxy/tool_runner?tool_id=PICRUSt_predict
+      description: ""
+    - name: Categorize by Function
+      version: 1.1.1
+      link: /galaxy/tool_runner?tool_id=PICRUSt_categorize
+      description: ""
+    - name: Metagenome Contributions
+      version: 1.1.1
+      link: /galaxy/tool_runner?tool_id=PICRUSt_metagenome
+      description: ""
+    - name: OneWayOptimizationPCA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PCA2
+      description: analyses and plot
+    - name: Plots
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=compositeplots
+      description: based on data frames.
+    - name: SEM
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=sem
+      description: analysis to relationship between datasets.
+    - name: Connect to Genbank
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=genbank
+      description: ""
+    - name: Get Microbial Data
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=microbial_import1
+      description: ""
+    - name: Download_Seq_From_NCBI
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=DownloadSeqFromNCBI
+      description: based on an file with all accession numbers.
+    - name: SeqsintoGroups
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SeqsintoGroups
+      description: based on sequence identity
+    - name: RetriveSeqViaAcc
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RetriveSeqViaAcc
+      description: Download Gene/genomic sequences from GenBank via accession numbers
+    - name: " Genome2genes"
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Genome2genes
+      description: Parse a genbank format genome sequences into genes and ammino seqs.
+    - name: Multiple BLASTN
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MBLASTN
+      description: analyses agains a database
+    - name: RNA Mapping
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RNAMappersummary
+      description: summary based on BLASTN reporter
+    - name: Table
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=combinemaptable
+      description: generator based on mapped
+    - name: Annotation
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=annotationgenomeblastp
+      description: genes based on blastp analysis
+    - name: BLASTP2KO2GO
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=blastp2ko2go
+      description: based on ammino acid sequences of genes
+    - name: De Nova
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=denovaassembler
+      description: assembler of RNA-seq.
+    - name: SOAPDenovo
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=soapdenovotrans
+      description: assembler of RNA-seq.
+    - name: tRNAscanSE
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=tRNAScanSE
+      description: searching for tRNA genes in genomic(DNA) sequences.
+    - name: Transdecoder
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=transdecoder
+      description: of transcripts of RNA-seq.
+    - name: ORFfinder
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=orffinder
+      description: (open reading frame) finder using fasta sequences
+    - name: Mapping
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MagicMBLASTN
+      description: short sequences against a database using BWA or Magic Blast
+    - name: HTSeq Coverage
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=HTScoverage
+      description: calculator of sam files
+    - name: "RPKM "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RPKMCalculator
+      description: of HTS dataframe
+    - name: Pathway/GeneSets
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PathwayExpression
+      description: expression based RPKM of genesets.
+    - name: Pathway/Genesets
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Gesa
+      description: enrichment analysis using Gesa.
+    - name: GeneNetwork
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=GeneNetWorks
+      description: by distance or correlations.
+    - name: Gene2Pathway
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=gene2pathway
+      description: summary gene list to pathway.
+    - name: Spider Clouds
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=spider_clouds
+      description: plot dots according to their affinity to treatments.(gc_ding).
+    - name: TranOpenron
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=transoperon
+      description: Retrieve operon using draft genome and transcriptomics.
+    - name: RAPT
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RAPT
+      description: assemble and annotation of genomes.
+    - name: PGAP
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PGAP
+      description: genomes annotation using NCBI PGAP pipeline.
+    - name: AntiSMASH
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=antismash
+      description: 预测抗生素/抗菌肽合成基因簇.
+    - name: KOFamScan
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KOPfamScan
+      description: 基于KEGG的kofamscan注释基因(氨基酸序列）。Annotating AA sequences to KEGG KO using
+          kofamscan.
+    - name: SelectTopKOs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SelectTopKOs
+      description: 筛选最相近KO,Select the toppest KO.
+    - name: Gene prediction
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=geneprediction
+      description: using glimmer3
+    - name: Gene validation
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=GenePredicthmmblastp
+      description: based on blastp and hmm analysis.
+    - name: Gene prediction
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=genemarks
+      description: using GeneMarkSuites
+    - name: Genome plot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=plotgenome
+      description: using genoPlotR
+    - name: Gene2COG
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=gene2cog
+      description: Gene annotation to cog using blastp
+    - name: Gene2Pathway
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=gene2pathway2
+      description: summary gene list to pathway.
+    - name: Pathway/Module2genes
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=pathway2genes
+      description: gene list of pathway.
+    - name: Add_Colors
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=addcolor
+      description: of a fasta sequence
+    - name: Combine_Annotation
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=combineannotation
+      description: of a genome
+    - name: Add_annotation
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=addannotation
+      description: of a fasta sequence
+    - name: PyCoreGenome
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PyCoreGenome
+      description: calculate pearson and spearman correlation for a dataframe.
+    - name: Display
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGAPI
+      description: database release and linked database informations KEGG(www.kegg.jp)
+    - name: Obtain
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGlist
+      description: a list of entries identifier and associated defination from KEGG(www.kegg.jp)
+    - name: Retrieve
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGGet
+      description: given database entries from KEGG(www.kegg.jp)
+    - name: Find
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGlink
+      description: relatied entries by using database cross-reference in KEGG(www.kegg.jp)
+    - name: Find
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGfind
+      description: entries with matching query keyword or other query data from KEGG(www.kegg.jp)
+    - name: Convert
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGconv
+      description: KEGG identifier to outside identifier or vice versa
+    - name: Find
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGddi
+      description: adverse drug-drug interactions from KEGG(www.kegg.jp)
+    - name: "Retrive "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=retrievekeggseqs
+      description: all genes of a KEGG organisms(www.kegg.jp)
+    - name: List
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=listpathwaygenes
+      description: genes in pathway of a KEGG organisms(www.kegg.jp)
+    - name: Retrieve Key Sentences
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Sumy
+      description: from a paper or web page.(So far, Only english)
+    - name: Para2sents
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Para2Sents
+      description: split paragraph into sentences(text)
+    - name: Get Sentences
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=GetSentences
+      description: from Sentences lines with words/phase
+    - name: WordFreq
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=WordFreq
+      description: analyses of inputed text
+    - name: Get Similar sentences
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=structsimilar
+      description: from a data bases(ghostwriter----based on ChenChenMatrix)
+    - name: PDF2TEXT
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=pdf2text
+      description: Transformation PDF into Text.
+    - name: Format Article
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=FormatArticleForDB
+      description: Format an article for DB construction
+    - name: Load Article
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=LoadArticle
+      description: into database(Only for developping team)
+    - name: Load Sentence
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=LoadSent2DB
+      description: into database(Only for developping team)
+    - name: Load Abstract
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=LoadAbstract
+      description: into database(Only for developping team)
+    - name: Query Article DB
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=QueryDB
+      description: for sentences with keywords.
+    - name: Parse Article
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=ParseArticle22
+      description: Parse articles using python
+    - name: Science Parser
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=sciparse
+      description: parse Science paper into json format.
+    - name: vennplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Vennplot
+      description: for different samples(max 5)
+    - name: Heatmap2
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Heatmap2
+      description: analysis
+    - name: Download
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=downloaduniport
+      description: Sequences from uniport based on uniport id.
+    - name: Enrichment
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=enrichment
+      description: analysis of pathway,genesets or taxonomic group
+    - name: HorizBarplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=horizBarplot
+      description: of pathway enrichemnt analysis.
+    - name: RootCalibration
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RootRecognization
+      description: calculate pairwise distance between sampling points.
+    - name: AssignSamp2Roots
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=AssignSamp2Roots
+      description: assign samples to its coordination according to log and samle name.
+    - name: HistPairWiseDistance
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=HistPairWiseDistance
+      description: describle the distribution of pairwise distance.
+    - name: RenameRootPoints
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RenameRootPoints
+      description: rename root point.
+    - name: RenameDistMatrix
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RenameDistMatrix
+      description: rename the distance matrix according to sampcood2sampname.
+    - name: CommunityToSpatial
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CommunityToSpatial
+      description: diffence in community composition vs difference in spatial distance.
+    - name: PyCorrelation
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PyCorrelation
+      description: calculate pearson and spearman correlation for a dataframe.
+    - name: CoOcurringNetWork
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CoOcurringNetWork
+      description: 基于最小相对丰度，发现共存类群，构建共现网络.
+    - name: Radfit
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=radfit
+      description: analysis of a taxonomic otu reporter.
+    - name: RDP classifier(2.01)
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=RDPclassifier
+      description: of sequences data
+    - name: Qiime2RDP
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=2RDP
+      description: Qiime classifier to RDP classifier
+    - name: Community compositon comparison
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=communitcompositon
+      description: between different methods using pairwise braycurtis distance.
+    - name: Spider Plot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=spiderplot
+      description: of data according to known factors.
+    - name: Generating
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CalPrimers
+      description: Barcode primers
+    - name: Map Seqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MapSeqs
+      description: between database
+    - name: Remove OTUs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RemoveOTUs
+      description: of a complex inoculant
+    - name: Make Table
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MakeTable
+      description: based on denove OTU picking
+    - name: AlignTable
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=AlignTable
+      description: OTU report according to sequence numbers
+    - name: FormatPathogenReporter
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=FormatPathogenReporter
+      description: split the subspecies column into species .
+    - name: "Select "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=uniqueseqsbyid
+      description: unique seqs by ids
+    - name: Parse
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Parseblast
+      description: Blast reporter
+    - name: Split Fastq
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SplitFastq2Samples
+      description: into samples
+    - name: Gene(translation)
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=gene2amino
+      description: to amino acid seqs.
+    - name: "Select "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=screenseqlength
+      description: seqs by length
+    - name: Representative seqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=seqs2otus
+      description: of a set of fasta sequences
+    - name: Data distribution
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=DataDistribution
+      description: analysis using PDFs of normal,lognormal,logistic and gamma.
+    - name: Data transformation
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Datatransformation
+      description: using log, byrow and bycol.
+    - name: PyDatatransform
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PyDatatransform
+      description: transform dataset using python3 packages.
+    - name: BLAST
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=standaloneblast
+      description: analysis (Standalone) .
+    - name: " Genome2Genes"
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Genome2geneforplot
+      description: for genome plots.
+    - name: Run
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Runlinux
+      description: linux command
+    - name: "Genbank2Fasta "
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=genbank2fasta
+      description: convert genbank format  into fasta format
+    - name: 2Dto1D
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=2DTo1D
+      description: Transform 2D tables into 1D array(Tables seperted by \n\n)
+    - name: 1Dto2D
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=1DTo2D
+      description: Transform 1D tables into 2D array(Tables seperted by \n\n)
+    - name: MarkinChina
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=markinchina
+      description: Mark your sample points in the map of China
+    - name: NMMD
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=NMMD2
+      description: based on a dataframe
+    - name: SpearmanNet2
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=spearmannet2
+      description: construct network without data transformation.
+    - name: StatisticNet
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=StatisticNet
+      description: generate an network based on statistic analysis
+    - name: AlignColums
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=AlignColums
+      description: align 2 tables into 1 tables according to key
+    - name: DownLoadSeqFromNCBI
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=DownloadSeqfromNCBI
+      description: using id files
+    - name: Rename seq
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Rename_seqsbatch
+      description: of a fasta in batch mode
+    - name: Rename seq2
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Rename_seqsbatch2
+      description: Multiple Sequences
+    - name: Rename Fasta
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=fastades2name
+      description: by sequence description
+    - name: Select_OTUs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Select_RichOTU
+      description: with the highest abundant from samples
+    - name: Select_OTUs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Select_OTU
+      description: from a taxonomic OTU reporter with minimum number of reads
+    - name: 2DtoArrays
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=2DtoArrays
+      description: transform 2D dataframe to Arrays(mxd format)
+    - name: UC2list
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=uc2list
+      description: convert a uc(10 columns)into 2column lists
+    - name: List2Table
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=listto2dtable
+      description: convert a  2column lists into 2D table
+    - name: Plot_Distmatrix
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Plotdistmatrix
+      description: plot a distance matrix.
+    - name: Plot_image
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=plotimage
+      description: plot images of a dataframe
+    - name: Count_Sig_table
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=countsigtable
+      description: from a combined statistic table
+    - name: Combine_Multi_Table
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Combine_multiTable
+      description: based on the first columns.
+    - name: MapBacterialPathogens
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MapBacterialPathogens
+      description: detect potential bacterial pathogens 16S rRNA sequences.
+    - name: BiDataframeCompare
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Bi_DataframeCompare
+      description: compare two dataframe.
+    - name: Retrieve_Seqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Retrieve_Seqs
+      description: based on sample names.
+    - name: CombineDifferntTablesBySamples
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CombineDifferntTablesBySamples
+      description: Combine multiple tables into a dataframe according to sample names(Only
+          consider samples in all tables).
+    - name: Assign the taxa
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=AssignTax
+      description: into its parent's taxrank using NCBITAX.
+    - name: Add_Tag
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Addtag
+      description: to a dataframe
+    - name: Select_module
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Select_module
+      description: transform 2D dataframe to Arrays(mxd format)
+    - name: AddTaxa2Seq
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=AddTaxa2Seq
+      description: based on the classification
+    - name: Paired Correlation
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PairedCorrelation
+      description: between two dataframe
+    - name: Fasta2Fasta
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=fasta2fasta
+      description: retrieve fasta seqs from the reference using the ids from the other
+          fasta.
+    - name: SelectRespondingTaxa
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SelectRespondingTaxa
+      description: from a statistic analysis.
+    - name: Geneid2Description
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Geneid2Description
+      description: assign gene description to data frame.
+    - name: FastqCounter
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=fastqcount
+      description: counts read number in fastq libraries.
+    - name: SelectSubgraphbyNode
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SelectSubgraphbyNode
+      description: from a gml format network.
+    - name: Multipatt
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=multipatt
+      description: of a data frame
+    - name: GetRange
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=range
+      description: get the ranges for the dataframe
+    - name: BraydistBoxplot
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=boxplot3
+      description: of a distant matrix
+    - name: rgbcolor2hex
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=rgbcolor2hex
+      description: change rgb color into hex color format.
+    - name: NetworkComparisons
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=NetworkComparisons
+      description: calculate the distance between networks
+    - name: BaTS
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=BaTS
+      description: calculate significance between treatments based on phylogenetic relationships
+    - name: ImageSplitDf
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=ImageSplitDf
+      description: split the statistic table for the image plot.
+    - name: RenameTarfile
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RenameTarfile
+      description: rename files in a tar folders.
+    - name: 2aliyun
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=2aliyun
+      description: send files to aliyun server
+    - name: generalspecialist
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=generalspecialist
+      description: 分析种群结构特征.
+    - name: speciesdistribution
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=speciesdistribution
+      description: 分析物种分布特征.
+    - name: CombinePDF
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=CombinePDF
+      description: two pdfs page by page.
+    - name: SelectTopNByTaxa
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SelectTopNByTaxa
+      description: select top n OTUs with highest abundance.
+    - name: SelectColumn
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SelectColWith
+      description: select the columns with the value .
+    - name: Make_Contig
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PairwiseContig
+      description: using pairwise alignment(We trust the begining of forward or reverse
+          sequences).
+    - name: MultipleAlignment
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=multialignment
+      description: of DNA or AA seqs
+    - name: CheckAlignment
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CheckAlign
+      description: remove undesired region of a multiple sequence alignment.
+    - name: Adjust_Oritention
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=adjustoritention
+      description: of DNA sequences
+    - name: Denoise_16S_rRNA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Denoise16Srrna
+      description: of a fasta query file
+    - name: Get_16S_rRNA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Get16SrrnaRef
+      description: reference sequecnes of a fasta query file
+    - name: SelectSeqsByName
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=SelectSeqsByName
+      description: 从数据库中筛选出需要的序列.
+    - name: Alignment_of_16S
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Mothur16SAlign
+      description: rRNA genes using mothur
+    - name: Select_seqs_by_id
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Select_seqs_by_id
+      description: from a fasta file
+    - name: Classifier
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Gene_classifier
+      description: of 16S rRNA or other functional gene sequences.
+    - name: Overlapped_seqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=OverlappedSeq
+      description: between bidirectional sequences
+    - name: AlignQual
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=alignqual
+      description: measurement of quality of bidirectional sequences based on multiple
+          alignments.
+    - name: Get_Seqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=UniqueSeqsbyIds
+      description: by ids.
+    - name: Count_seqs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=countseqs
+      description: in file(fasta/fastq).
+    - name: CountSilvaSpecies
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CountSilvaSpecies
+      description: of species in a given genus in silva database.
+    - name: RetrieveSilvaRep
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RetrieveSilvaRep
+      description: retrieve representative speices sequences selected from the silva database.
+    - name: CalSpeciesDist
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CalSpeciesDist
+      description: similarity within species and between species in silva database.
+    - name: Fastq2fasta
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=fastq2fasta
+      description: convert a fastq format file into fasta
+    - name: Subseq of fasta
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Subseq
+      description: retrieve subseqs from a fasta files
+    - name: Translate
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=translatedna
+      description: DNA sequences into AA.
+    - name: Calculate_Pairwise
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=pairdistdna
+      description: distance between DNA sequences.
+    - name: GetWithinDist
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=getwithindist
+      description: using pairwise distance and seq2otu assignment.
+    - name: Retrieve Sequences
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=retrievesequncesfromdb
+      description: from a blast databases..
+    - name: ModiFastaId
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=ModiFastaId
+      description: modified the id of fasta file..
+    - name: RetriveNCBIRefbyBlastn
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RetriveNCBIRefbyBlastn
+      description: from the reference genomes(NCBIRef).
+    - name: NCBIRef16SrRNA
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=NCBIRef16SrRNA
+      description: retrieve corresponding 16S rRNA gene from NCBIrefgenome.
+    - name: FastTree
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=FastTree
+      description: construct phylogenetic tree based on aligned DNA or AA sequences.
+    - name: LibCompare
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=LibCompare
+      description: statistic analysis for library comparison.
+    - name: ePCR
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=ePCR
+      description: analysis of batch sequence data
+    - name: Gene2Gene
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Gene2Gene
+      description: is analysis to find out genes presented in common geneme(NCBIRef).
+    - name: blastx
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=blastx
+      description: analysis against bacteriaref curated from NCBI
+    - name: CommonForRev
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CommonForRev
+      description: for short reads analysis(Get common sequneces based on id or description
+          from paired reads.
+    - name: RandomSamplingSeqs
+      version: "0.01"
+      link: /galaxy/tool_runner?tool_id=RandomSamplingSeqs
+      description: retrieve randomly from the fasta files
+    - name: DecorateTree
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=DecorateTree
+      description: assign background color to a tree.
+    - name: CommonFastq
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CommonFastq
+      description: retrieve common sequence from paired fastq files based on seqid.
+    - name: RetrieveSeqwithSite
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RetrieveSeqwithSite
+      description: 提取具有特定位点的DNA序列.
+    - name: Endonuclease
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Endonuclease
+      description: DNA内切酶分析.
+    - name: FastqChecker
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=FastqChecker
+      description: check the rawdata of fastq files.
+    - name: FastqFilter
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=fastqfilter
+      description: Filter low quality sequences in a fastq library.
+    - name: Retrieve16S/18S
+      version: 0.3.0
+      link: /galaxy/tool_runner?tool_id=soapextract
+      description: rRNA gene from metagenomic library.
+    - name: Kraken
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=kraken
+      description: classify sequences into taxa
+    - name: Diamond
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=diamond
+      description: a blastx/n programe to analyze large datsets.
+    - name: Megahit
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Megahit
+      description: make contig with megahits.
+    - name: PRODIGAL
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=prodigal
+      description: predict prokaryotic genes
+    - name: Coocurrence Network
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CoocurrenceNetwork
+      description: based on OTU reporter.
+    - name: NetCoverage
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=NetCoverage
+      description: calculate the coverage of modules in different samples
+    - name: SPAdes
+      version: "3.14"
+      link: /galaxy/tool_runner?tool_id=SPAdes
+      description: assemble contigs with the packages of SPAdes verion 3.14
+    - name: MetaGeneMarkerS
+      version: "0.01"
+      link: /galaxy/tool_runner?tool_id=MetaGeneMarkerS
+      description: predict gene using the metagenomic models
+    - name: KO2Modules
+      version: 0.2.0
+      link: /galaxy/tool_runner?tool_id=KO2Modules
+      description: map KEGG module based on KOs
+    - name: MetaCompVenn
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MetaCompVenn
+      description: map KEGG module based on KOs
+    - name: RespondingJaccard
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RespondingJaccard
+      description: calculate responding patterns
+    - name: EsGecopyPerBillion
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=EsGecopyPerBillion
+      description: estimate gene copy numbers in per billion reads.
+    - name: LibCompareFolds
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=LibCompareFolds
+      description: statistic analysis usng the algorithm describled in RDP libcompare.
+    - name: RetrieveSeq
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RetrieveSeqfromMetagenomicsByBLAST
+      description: with high similarity to the provided reference from a metagenomic library
+          .
+    - name: MetaModuleSummary
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MetaModuleSummary
+      description: make a summary of module according to the gene and taxa
+    - name: CheckKEGGModuleBritebyTaxa
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CheckKEGGModuleBritebyTaxa
+      description: Check summarized KEGG module/brite by Taxa. 根际不同KEGG moudle 和Brite的分析结果。
+    - name: PyDataManager
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=PyDataManager
+      description: modify dataframe using python3 packages. 利用Pandas包操作数据框。
+    - name: CountRatio
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CountRatio
+      description: calculate the log2 of ratio of counts seperated by the taxrank and
+          value.
+    - name: RankedStack
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=rankedstackplot
+      description: plot the number of responding genes according to responding level and
+          taxa.
+    - name: RhizosphereRatio
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RhizosphereRatio
+      description: Diversity or population.
+    - name: KEGGMapGeneAbundance
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=KEGGMapByGeneAbundance
+      description: calculate the geneabundance for KEGG pathways(Shotgun metagnomics).
+    - name: DifferenntKEGGmapsbetweenTreatments
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=DifferenntKEGGmapsbetweenTreatments
+      description: map the pathways based on mapped.
+    - name: RetrieveMap
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=RetrieveMap
+      description: from data from the mapping .
+    - name: MappingKEGGbyKOs
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=MappingKEGGbyKOs
+      description: color the KEGG pathway by KOs.
+    - name: LAMPDesign
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=LAMPDesign
+      description: 根据序列文件(fasta格式)设计LAMP引物.
+    - name: CompostReactor
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=CompostReactor
+      description: 堆肥反应控制单元.
+    - name: Incubator
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Incubator
+      description: 菌体发酵控制器.
+    - name: Taxaotureporter2LeFse
+      version: 0.1.0
+      link: /galaxy/tool_runner?tool_id=Taxaotureporter2lefse
+      description: split the subspecies column into species .
+    - name: A) Format Data for LEfSe
+      version: "1.0"
+      link: /galaxy/tool_runner?tool_id=LEfSe_for
+      description: ""
+    - name: B) LDA Effect Size (LEfSe)
+      version: "1.0"
+      link: /galaxy/tool_runner?tool_id=LEfSe_run
+      description: ""
+    - name: C) Plot LEfSe Results
+      version: "1.0"
+      link: /galaxy/tool_runner?tool_id=LEfSe_res
+      description: ""
+    - name: D) Plot Cladogram
+      version: "1.0"
+      link: /galaxy/tool_runner?tool_id=LEfSe_cla
+      description: ""
+    - name: E) Plot One Feature
+      version: "1.0"
+      link: /galaxy/tool_runner?tool_id=LEfSe_sfe
+      description: ""
+    - name: F) Plot Differential Features
+      version: "1.0"
+      link: /galaxy/tool_runner?tool_id=LEfSe_fea
+      description: ""

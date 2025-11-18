@@ -1,0 +1,744 @@
+tools:
+    - name: RAVE
+      version: "1.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgdroc%2Frave%2Frave%2F1.0
+      description: "- Rapid Allelic Variant Extractor"
+    - name: Decompress an archive
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcmonjeau%2Fdecompress_an_archive_and_merge%2Fextract_archive_merge%2F1.0.0
+      description: in zip, gz, tar.gz, fastq.gz, fastq.bz2 or tar.bz2 format
+    - name: Upload File
+      version: 1.1.4
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Gigwa
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=gigwa
+      description: ": SNP filtering"
+    - name: APPGCC
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=appgcc
+      description: RShiny tool
+    - name: FGSEA-2
+      version: 1.8.0+galaxy1.1
+      link: /tool_runner?tool_id=fgsea.rice
+      description: "- fast preranked gene set enrichment analysis"
+    - name: Find-gene-by-terms
+      version: v.0.3.0
+      link: /tool_runner?tool_id=findby.annot.genev4
+      description: Find gene(s) using a single or list of text terms/phrases
+    - name: Find-seq
+      version: v.01
+      link: /tool_runner?tool_id=blat.34-2
+      description: Align your nucleotide sequences to rice variety-representative  genomes
+    - name: Get-contig-names
+      version: v.01
+      link: /tool_runner?tool_id=get-cont-name2
+      description: Extract contig / scaffold / chromosome / gene names from representative
+          rice genomes
+    - name: Get-genes-by-region(s)-IDs v2
+      version: v.0.20
+      link: /tool_runner?tool_id=get.genesv5
+      description: Retrieve list of genes within specified region of rice genomes
+    - name: Get-subseq
+      version: 0.1.0
+      link: /tool_runner?tool_id=getsubseq2
+      description: Extract sequence for your gene IDs (entire or region) from rice genome
+          or multiFASTA file
+    - name: Liftover_via_SNP
+      version: v.01
+      link: /tool_runner?tool_id=blat.liftovr.1
+      description: Lift a large chromosome region flanked by 2 SNPs from one genome to
+          another
+    - name: Blat Alignment Filter
+      version: v.01
+      link: /tool_runner?tool_id=parseBlat.xml2
+      description: Stringent filtering of alignment results (psl v3, from blat)
+    - name: Convert ped files to binary
+      version: 0.1.0
+      link: /tool_runner?tool_id=plink-make-bed
+      description: ""
+    - name: Compute Principal Components
+      version: 0.2.0
+      link: /tool_runner?tool_id=makePCA2
+      description: ""
+    - name: Compute Kinship from Genotype
+      version: 0.5.0
+      link: /tool_runner?tool_id=gemma-gk5
+      description: ""
+    - name: Add Pheno to Fam File
+      version: 0.1.0
+      link: /tool_runner?tool_id=add_pheno_to_fam
+      description: ""
+    - name: Association with Linear Model
+      version: v.01
+      link: /tool_runner?tool_id=gemma-assoc-lm
+      description: ""
+    - name: Mixed Linear Model
+      version: v.01
+      link: /tool_runner?tool_id=gemma-assoc-lmm
+      description: ""
+    - name: Plot Results
+      version: "0.5"
+      link: /tool_runner?tool_id=gwas-plot
+      description: Make Manhattan and QQ plots
+    - name: Pathotype Identifier
+      version: "1.00"
+      link: /tool_runner?tool_id=patho-ident
+      description: for rice datasets
+    - name: Filter
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3Afilter
+      description: Genotypes
+    - name: LD prune
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3Aprune
+      description: dataset
+    - name: LD clumping and annotation
+      version: "1.9"
+      link: /tool_runner?tool_id=plink%3Aclump1
+      description: ""
+    - name: LD-based result clumping
+      version: "1.9"
+      link: /tool_runner?tool_id=plink%3Aclump
+      description: ""
+    - name: Compute Distance Matrix
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3AcomputeDistance
+      description: from genotypes
+    - name: Compute Allele Frequencies
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3Acomputefreq
+      description: across genotypes
+    - name: Filter
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3Afilter-pbed
+      description: Genotypes in pbed format
+    - name: LD prune
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3Aprune-pbed
+      description: dataset using pbed
+    - name: GEA-R:AMMI-SREG
+      version: "0.01"
+      link: /tool_runner?tool_id=ammisreg
+      description: R script in Galaxy
+    - name: Factorial Regression:GEA-R
+      version: "0.01"
+      link: /tool_runner?tool_id=FR
+      description: R script in Galaxy
+    - name: PLS:GEA-R
+      version: "0.01"
+      link: /tool_runner?tool_id=PLS
+      description: R script in Galaxy
+    - name: BLUP/BLUE
+      version: 1.11.0
+      link: /tool_runner?tool_id=blup_and_blue_multiple2
+      description: calculator (multiple traits)
+    - name: Hapmap filter
+      version: 1.0.0
+      link: /tool_runner?tool_id=gbs-hmp-filter
+      description: Filter per SNPs based on user-specified criteria
+    - name: Numeric matrix encoder
+      version: 1.0.3
+      link: /tool_runner?tool_id=bglr%3Aencode
+      description: encodes genotypes to numeric
+    - name: Sample Matching
+      version: 0.3.0
+      link: /tool_runner?tool_id=sample_matching2
+      description: compares samples between genotype and phenotype files
+    - name: Parallel Genotype-Phenotype Matching
+      version: 0.1.0
+      link: /tool_runner?tool_id=parallel_sample_matching
+      description: genotype and phenotype files
+    - name: Parallel Genotype-Phenotype Matching
+      version: 0.1.0
+      link: /tool_runner?tool_id=parallel_sample_matching2
+      description: genotype and phenotype files
+    - name: GEBV
+      version: 1.5.0
+      link: /tool_runner?tool_id=GEBV_Prediction
+      description: calculator
+    - name: Cross validation
+      version: 1.2.0
+      link: /tool_runner?tool_id=Cross_Validation
+      description: within and across groups
+    - name: K-fold Cross-validation
+      version: 1.5.0
+      link: /tool_runner?tool_id=K-fold+Cross-validation
+      description: model training
+    - name: Split datasets by grouping factor
+      version: "1.0"
+      link: /tool_runner?tool_id=SplitDatasetsByGrouping
+      description: ""
+    - name: Merge multiple GEBV results
+      version: "1.0"
+      link: /tool_runner?tool_id=SummarizeModelTraining
+      description: ""
+    - name: Make Bed Files
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3Apbed2bed
+      description: From composite data
+    - name: "Convert bed/bim/fam "
+      version: 1.90b5.2
+      link: /tool_runner?tool_id=plink%3Abed-to-ped
+      description: to ped/map
+    - name: Make VCF Files
+      version: "1.09"
+      link: /tool_runner?tool_id=plink%3Apbed2vcf
+      description: From composite data
+    - name: Convert Hapmap to Plink
+      version: 5.2.42
+      link: /tool_runner?tool_id=tassel-hapmap2plink
+      description: genotype format
+    - name: Convert Hapmap to VCF
+      version: 1.0.0
+      link: /tool_runner?tool_id=tassel-hapmap2vcf
+      description: genotype format
+    - name: Convert Flapjack to VCF
+      version: 1.0.0
+      link: /tool_runner?tool_id=tassel-flapjack2vcf
+      description: genotype format
+    - name: Convert genotyping data
+      version: "1.0"
+      link: /tool_runner?tool_id=ConvertGenotypingFormats
+      description: converts various genotyping formats
+    - name: Convert BLUP output
+      version: "1.0"
+      link: /tool_runner?tool_id=ConvertPhenotypingFileForGEBV
+      description: to be compatible with GEBV (sample matching)
+    - name: Convert BLUP output
+      version: "1.0"
+      link: /tool_runner?tool_id=ConvertPhenotypingFileForGEBV1
+      description: to be compatible with GEBV
+    - name: Convert GEBV output
+      version: "1.0"
+      link: /tool_runner?tool_id=ConvertGEBVoutput
+      description: to be compatible with scatter plot
+    - name: Generate membership file
+      version: "1.0"
+      link: /tool_runner?tool_id=GenerateMembershipFile
+      description: in the same order as phenotype file
+    - name: Create Grouping File
+      version: "1.0"
+      link: /tool_runner?tool_id=CreateGroupingFile
+      description: to be compatible with cross-validation
+    - name: Get Standard statistics
+      version: "1.9"
+      link: /tool_runner?tool_id=bcftools%3Astats
+      description: from VCF
+    - name: BCFTools filtering
+      version: "1.6"
+      link: /tool_runner?tool_id=bcftools%3Afilter
+      description: ""
+    - name: Convert formats
+      version: "1.6"
+      link: /tool_runner?tool_id=bcftools%3Aconvert
+      description: ""
+    - name: Create Variant ID
+      version: "1.9"
+      link: /tool_runner?tool_id=bcftools%3Acreate-variantid
+      description: from VCF
+    - name: Extract QC annotations
+      version: "1.9"
+      link: /tool_runner?tool_id=bcftools%3Aextract-qc-annotations
+      description: from VCF
+    - name: sample SNPs
+      version: 0.1.0
+      link: /tool_runner?tool_id=sampleSNPs_1
+      description: Take a random sample of SNPs from a file
+    - name: Sample-based genome-wide LD
+      version: 0.1.0
+      link: /tool_runner?tool_id=sampleLD_1
+      description: Estimate linkage disequilibrium decay with distance
+    - name: Purity
+      version: 0.1.0
+      link: /tool_runner?tool_id=purity_1
+      description: marker selection from a HapMap file using Genetic Algorithm
+    - name: Purity (beta)
+      version: 0.1.0
+      link: /tool_runner?tool_id=purity_beta
+      description: supports VCF file format
+    - name: Prune SNPs
+      version: 0.1.0
+      link: /tool_runner?tool_id=plink_ld_prune
+      description: on LD threshold (plink)
+    - name: Convert VCF
+      version: 0.1.0
+      link: /tool_runner?tool_id=plink_vcf2bed
+      description: to BED (plink)
+    - name: Naive imputation
+      version: 0.1.0
+      link: /tool_runner?tool_id=naive_impute
+      description: using population mean or mode
+    - name: Beagle
+      version: "4.1"
+      link: /tool_runner?tool_id=Beagle
+      description: imputation
+    - name: Impute2
+      version: 2.3.2
+      link: /tool_runner?tool_id=Impute2
+      description: imputation
+    - name: makeNPUTEinputmatrix
+      version: 1.0.0
+      link: /tool_runner?tool_id=makeNPUTEinput
+      description: Creat NPUTE input matrix from HapMap file.
+    - name: NPUTE
+      version: "1.0"
+      link: /tool_runner?tool_id=NPUTE
+      description: Numerical Imputation
+    - name: makeHMPfromNPUTEoutput
+      version: 1.0.0
+      link: /tool_runner?tool_id=makeHMPfromNPUTEoutput
+      description: Creat Hapmap file from NPUTE output matrix.
+    - name: Impute Validation
+      version: 0.0.1
+      link: /tool_runner?tool_id=Impute+Validataion
+      description: File Input
+    - name: Change calls to missing
+      version: 1.0.0
+      link: /tool_runner?tool_id=set_random_missing_calls
+      description: calls with a given rate.
+    - name: encode
+      version: 1.0.0
+      link: /tool_runner?tool_id=encode
+      description: encode genotypes for further machine learning analysis
+    - name: folds
+      version: 1.0.0
+      link: /tool_runner?tool_id=folds
+      description: create folds for classifiers evaluation through cross-validation
+    - name: LASSO
+      version: 1.0.0
+      link: /tool_runner?tool_id=lasso
+      description: predict phenotype using a LASSO approach
+    - name: svm
+      version: 1.0.0
+      link: /tool_runner?tool_id=svm
+      description: predict phenotype using a SVM approach
+    - name: randomForest
+      version: 1.0.1
+      link: /tool_runner?tool_id=randomForest
+      description: predict phenotype using a random forest approach
+    - name: compute R2
+      version: 1.0.0
+      link: /tool_runner?tool_id=computeR2
+      description: compute R-squared value of a prediction vs true phenotype
+    - name: evaluation
+      version: 1.0.0
+      link: /tool_runner?tool_id=evaluation
+      description: evaluate results of classifiers prediction
+    - name: prediction
+      version: 1.0.0
+      link: /tool_runner?tool_id=prediction
+      description: use machine learning model to predict phenotype from genotype
+    - name: plot prediction
+      version: 1.0.0
+      link: /tool_runner?tool_id=plotPrediction
+      description: shows scatterplot of a prediction vs true phenotype
+    - name: Calculate Distance Matrix
+      version: 1.0.0
+      link: /tool_runner?tool_id=tassel-calc-genetic-matrix
+      description: from Genotype Data
+    - name: SNPRelate GRM
+      version: 0.1.0
+      link: /tool_runner?tool_id=SNPRelate
+      description: calculator
+    - name: Get Distance Matrix
+      version: 1.0.0
+      link: /tool_runner?tool_id=get-genetic-matrix
+      description: from Genotype Data
+    - name: Principal Component Analysis
+      version: 0.1.0
+      link: /tool_runner?tool_id=plink_pca
+      description: ""
+    - name: Hybrid K-Means Clustering
+      version: 0.1.0
+      link: /tool_runner?tool_id=hkmeans_clustering
+      description: ""
+    - name: K-Means Clustering
+      version: 0.1.0
+      link: /tool_runner?tool_id=kmeans_clustering
+      description: ""
+    - name: Calculate Kinship
+      version: 1.0.0
+      link: /tool_runner?tool_id=tassel-calc-kinship
+      description: from Genotype Data
+    - name: Run PCA
+      version: 1.0.0
+      link: /tool_runner?tool_id=tassel-calc-pca
+      description: (Principal Component Analysis) on genetic data
+    - name: Association using GLM
+      version: 1.0.0
+      link: /tool_runner?tool_id=tassel-compute-glm-1
+      description: (General Linear Model)
+    - name: Association using MLM
+      version: 1.0.0
+      link: /tool_runner?tool_id=tassel-compute-mlm
+      description: (Mixed Linear Model)
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.1
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.1
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.1
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Unzip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: datasets from a list
+    - name: Flatten Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: into a flat list of datasets
+    - name: Merge Collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: into single list of datasets
+    - name: Relabel List Identifiers
+      version: 1.0.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: from contents of a file
+    - name: Filter List
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: from contents of a file
+    - name: Sort Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: of list of datasets
+    - name: Filter
+      version: 1.1.0
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.0.3
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.1
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.2"
+      link: /tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: 0.1.1
+      link: /tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.1"
+      link: /tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Join two Datasets
+      version: 2.1.1
+      link: /tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.1
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Uniqprimer
+      version: 0.5.0
+      link: /tool_runner?tool_id=uniqprimer
+      description: Design specific primers of sequences
+    - name: Summary Statistics
+      version: 1.1.1
+      link: /tool_runner?tool_id=Summary_Statistics1
+      description: for any numerical column
+    - name: Count
+      version: 1.0.2
+      link: /tool_runner?tool_id=Count1
+      description: occurrences of each record
+    - name: Bar chart
+      version: 1.0.0
+      link: /tool_runner?tool_id=barchart_gnuplot
+      description: for multiple columns
+    - name: Boxplot
+      version: 1.0.0
+      link: /tool_runner?tool_id=qual_stats_boxplot
+      description: of quality statistics
+    - name: VCF to MAF Custom Track
+      version: 1.0.0
+      link: /tool_runner?tool_id=vcf_to_maf_customtrack1
+      description: for display at UCSC
+    - name: InTreeGreat
+      version: 1.0.0
+      link: /tool_runner?tool_id=intreegreat
+      description: Display Newick tree
+    - name: CircosJS
+      version: 0.0.1
+      link: /tool_runner?tool_id=circosjs
+      description: CircosJS Client to build interactive graphs in a circular layout
+    - name: Highcharts scatter plot
+      version: 1.0.0
+      link: /tool_runner?tool_id=highcharts_scatter
+      description: using columns of a tabular file
+    - name: Highcharts Bar Charts
+      version: 1.0.0
+      link: /tool_runner?tool_id=highcharts_histogram
+      description: displays values from columns of a tabular file
+    - name: VCF intersect
+      version: "1.0"
+      link: /tool_runner?tool_id=vcf_intersect
+      description: "- VCF intersection"
+    - name: " Get Intertek Order form and HTPG Sample File "
+      version: 1.0.0
+      link: /tool_runner?tool_id=HTPG_uid_generator
+      description: ""
+    - name: Get a list of Unique IDs (UIDs) in a text file
+      version: 1.0.0
+      link: /tool_runner?tool_id=UIDs_generator
+      description: ""
+    - name: SimpleTracker
+      version: 0.1.0
+      link: /tool_runner?tool_id=simpletracker
+      description: Generates sample IDs and plate layout for sample barcoding and collection
+    - name: Intertek / Flapjack - SNP Sample File Processor
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fintertek_flapjack_snp_sample_processor%2F0.0.1
+      description: convert an HDF5 formatted genotype file into a Flapjack formatted genotype
+          file
+    - name: Intertek-Flapjack Converter
+      version: 1.0.0
+      link: /tool_runner?tool_id=Intertek-Fj-converter
+      description: ""
+    - name: "Extract txt files from Excel workbook "
+      version: 1.0.0
+      link: /tool_runner?tool_id=excel-txt_extractor
+      description: ""
+    - name: Convert csv file to txt format
+      version: 1.0.0
+      link: /tool_runner?tool_id=csv-txt_converter
+      description: ""
+    - name: RAVE
+      version: "1.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgdroc%2Frave%2Frave%2F1.0
+      description: "- Rapid Allelic Variant Extractor"
+    - name: sNMF
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsnmf%2Fsnmf%2F2.0.0
+      description: Fast and efficient program for estimating individual ancestry coefficients
+    - name: SnpEff
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsnpeff_from_gff_vcf%2FsnpEff%2F2.0.0
+      description: Predicts SNP effect from a genomic VCF file
+    - name: Tassel
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Ftassel5%2FTassel%2F2.0.0
+      description: Software to evaluate traits associations, evolutionary patterns, and
+          linkage disequilibrium
+    - name: MLMM (GWAS analysis)
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fmlmm%2Fmlmm%2F2.0.0
+      description: GWAS using Multi-Locus Mixed-Model (MLMM)
+    - name: SnpSift Annotate
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_annotate%2F4.3%2Bt.galaxy0
+      description: SNPs from dbSnp
+    - name: SnpSift Intervals
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_int%2F4.3%2Bt.galaxy0
+      description: Filter variants using intervals
+    - name: SnpSift rmInfo
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_rmInfo%2F4.3%2Bt.galaxy0
+      description: remove INFO field annotations
+    - name: SnpSift Variant Type
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2Fsnpsift_vartype%2F4.3%2Bt.galaxy0
+      description: Annotate with variant type
+    - name: SnpSift CaseControl
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_caseControl%2F4.3%2Bt.galaxy0
+      description: Count samples are in 'case' and 'control' groups.
+    - name: SnpSift Extract Fields
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_extractFields%2F4.3%2Bt.galaxy0
+      description: from a VCF file into a tabular file
+    - name: SnpSift Filter
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_filter%2F4.3%2Bt.galaxy0
+      description: Filter variants using arbitrary expressions
+    - name: SnpSift vcfCheck
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_vcfCheck%2F4.3%2Bt.galaxy0
+      description: basic checks for VCF specification compliance
+    - name: FastME
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Ffastme%2Ffastme%2F2.0.0
+      description: Distance-based inference of phylogenetic trees
+    - name: "PLINK: MDS plot"
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fsniplay_mdsplot%2F2.0.0
+      description: IBS matrix / multi-dimensional scaling
+    - name: Ped2Fasta
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fsniplay_pedToFasta%2F2.0.0
+      description: Convert PED file to Fasta File
+    - name: Get VCF annotation statistics
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2FannotationStatsFromVCF%2F2.0.0
+      description: Get annotation fromi a VCF file annotated by snpeff
+    - name: SNP density
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fsniplay_density%2F2.0.0
+      description: Calculate SNP densities along chromosome from a VCF input
+    - name: "PLINK: ped2bed"
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fped2bed%2F2.0.0
+      description: Convert ped to bed
+    - name: HapmapToMLMMFiles
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fhapmap_to_mlmm_files%2F2.0.0
+      description: Converts a hapmap file into MLMM input files
+    - name: Rooting
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fsniplay_rooting%2F2.0.0
+      description: Midpoint rooting of newick tree
+    - name: Get Haplotypes From Phased VCF
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2FgetHaplotypesFromPhasedVCF%2F2.0.0
+      description: Get Haplotypes From Phased VCF
+    - name: Check GWAS Inputs
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fcheck_GWAS_inputs%2F2.0.0
+      description: Checks concordance between input files for GWAS analysis
+    - name: Diversity by gene
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fcalculate_diversity%2F2.0.0
+      description: Calculates various diversity indexes with EggLib
+    - name: VCF to Hapmap
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fsniplay%2Fsniplay_vcf2fastaandhapmap%2F2.0.0
+      description: Convert VCF to Hapmap
+    - name: VCFtools Filter
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fvcftools_filter_stats_diversity%2Fsniplay_vcftoolsfilter%2F2.0.0
+      description: VCFtools Filter
+    - name: VCFtools SlidingWindow
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fvcftools_filter_stats_diversity%2Fsniplay_vcftoolsslidingwindow%2F2.0.0
+      description: VCFtools SlidingWindow
+    - name: VCFtools Stats
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fvcftools_filter_stats_diversity%2Fsniplay_vcftoolsstats%2F2.0.0
+      description: VCFtools Stats
+    - name: Readseq
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Freadseq%2Fsniplay_readseq%2F2.0.0
+      description: Convert various alignment formats
+    - name: PLINK
+      version: 2.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdereeper%2Fplink%2Fsniplay_plink%2F2.0.0
+      description: Filter large VCF file
+    - name: Flapjack to HDF5
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_fj2hdf5%2F0.0.1
+      description: convert a Flapjack formatted genotype file into HDF5
+    - name: Transpose
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_transpose%2F0.0.1
+      description: transpose a file's contents
+    - name: HapMap to Flapjack
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_hapmap2fj%2F0.0.1
+      description: convert a HapMap formatted file into a Flapjack formatted genotype
+          file
+    - name: Flapjack CreateProject
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_createproject%2F0.0.1
+      description: create a Flapjack project file from Flapjack formatted input files.
+    - name: Flapjack Create Similarity Matrix
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_creatematrix%2F0.0.1
+      description: create a similarity matrix from a Flapjack formatted genotype file
+    - name: Flapjack PedVerStats
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_pedverstats%2F0.0.1
+      description: run pedigree verification of F1s (known parents) analysis on a dataset
+    - name: Flapjack Split By Sample
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_split_by_sample%2F0.0.1
+      description: create a Flapjack project file from Flapjack formatted input files.
+    - name: Flapjack MABCStats
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_mabcstats%2F0.0.1
+      description: run marker assisted backcrossing (MABC) analysis on a dataset
+    - name: HDF5 to Flapjack
+      version: 0.0.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fcropgeeks%2Fflapjack%2Fflapjack_hdf52fj%2F0.0.1
+      description: convert an HDF5 formatted genotype file into a Flapjack formatted genotype
+          file
+    - name: Manhattan plot
+      version: 0.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fgwastools_manhattan_plot%2Fgwastools_manhattan_plot%2F0.1.0
+      description: Generate plots for use with GWAS pipelines
