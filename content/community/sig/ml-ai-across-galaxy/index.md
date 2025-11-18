@@ -1,35 +1,36 @@
 ---
 description: "If you apply Machine Learning or Artificial Intelligence in any Galaxy field from life sciences to humanities and want to connect, share and learn, this is your community."
 autotoc: true
-title: "Machine Learning and Artificial Intelligence Across the Galaxy Community" 
+title: "Galaxy Community for Research in AI, Statistics, and Prediction" 
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="malic-logo.png"
-       alt="Logo for MALIC – Machine Learning and AI Across Galaxy Community"
-       style="height: 500px; max-width: 100%; margin: 0 auto;" />
+  <img src="grasp-logo.png"
+       alt="Logo for GRASP – Galaxy for Research in AI, Statistics, and Prediction"
+       style="height: 300px; max-width: 100%; margin: 0 auto;" />
 </div>
 
 <div style="float: right; margin-left: 30px; margin-bottom: 20px;">
   <slot name="/community/sig/common_linkbox" />
 </div>
 
-# Welcome to **MALIC – Machine Learning and Artificial Intelligence across the Galaxy Community!**  
+# Welcome to **GRASP – Galaxy for Research in AI, Statistics, and Prediction!**  
 *The Galaxy-wide community for ML & AI across disciplines*
 
-**MALIC** is a stylized name representing the key themes of our community:  
-- **M** – Machine  
-- **A** – Artificial  
-- **L** – Learning  
-- **I** – Intelligence  
-- **C** – Community (across Galaxy)
+**GRASP** is a stylized name representing the key themes of our community: 
+
+- **G** – Galaxy Community for
+- **R** – Research in
+- **A** – AI
+- **S** – Statistics  
+- **P** – Prediction
 
 **Like every Galaxy community, we have our own unique flavor!**
-MALIC brings together everything related to machine learning (ML) and artificial intelligence (AI) within Galaxy. We connect users, developers, and trainers from diverse fields to collaborate, share, and grow together in this transformative era of AI.
+GRASP brings together everything related to machine learning (ML) and artificial intelligence (AI) within Galaxy. We connect users, developers, and trainers from diverse fields to collaborate, share, and grow together in this transformative era of AI.
 
 **Our mission is to connect fields such as _digital humanities_, _omics_, _ecology_, and _imaging_, by sharing expertise to strengthen the Galaxy platform.**
 
-## Could MALIC be your new home within Galaxy? Let’s find out!
+## Could GRASP be your new home within Galaxy? Let’s find out!
 
 We’re a growing, welcoming community of people using and developing ML/AI tools in Galaxy.  
 Whether you're working with data in biology, ecology, humanities, imaging or anywhere in between, there's a place for you here!
@@ -43,17 +44,18 @@ Whether you're working with data in biology, ecology, humanities, imaging or any
 - **Researchers**  
   Are you exploring new ML applications in Galaxy? Join us to benchmark workflows, improve reproducibility and exchange ideas across disciplines.
 
-## MALIC Community Goals
+## GRASP Community Goals
 
 Our primary goals are to:
-* **Coordinate efforts** across the Galaxy ecosystem to reduce redundancy in tools, workflows, and training.
-* **Share our work** from within and outside Galaxy to showcase our advancements.
-* **Support each other** through knowledge-sharing, troubleshooting, and collaboration.
+
+- **Coordinate efforts** across the Galaxy ecosystem to reduce redundancy in tools, workflows, and training.
+- **Share our work** from within and outside Galaxy to showcase our advancements.
+- **Support each other** through knowledge-sharing, troubleshooting, and collaboration.
 
 Additionally, we strive to:
-* **Develop and maintain** ML/AI tools within Galaxy.
-* **Implement FAIR principles** to make workflows reproducible and reusable.
-* **Expand documentation** and **training resources** for accessible learning and skill-building.
+- **Develop and maintain** ML/AI tools within Galaxy.
+- **Implement FAIR principles** to make workflows reproducible and reusable.
+- **Expand documentation** and **training resources** for accessible learning and skill-building.
 
 ## Meetings and Communication
 
@@ -222,7 +224,7 @@ Poster available in [Zenodo](https://zenodo.org/records/15639973).
 AI, Machine Learning, Deep Learning, Galaxy ML, Keras, scikit-learn, Text Mining, Digital Humanities, Imaging, Genomics, Ecology, Classification, Clustering, Neural Networks, Predictive Models, Training, Community, FAIR workflows
 
 We’re already building something great — but it won’t be complete without you.
-**Come be part of MALIC, your home for Machine Learning and AI within Galaxy!**
+**Come be part of GRASP, your home for Machine Learning and AI within Galaxy!**
 
 <table><tr>
 <td width="10%">
