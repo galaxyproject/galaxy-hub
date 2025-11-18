@@ -5,6 +5,9 @@
             <h1 class="page-title">{{ inserts.main.title }}</h1>
             <div class="markdown" v-html="inserts.main.content"></div>
 
+            <!-- Platform Map Visualization -->
+            <PlatformMap :platforms="platforms" />
+
             <b-tabs nav-class="font-weight-bold" v-model="tabState.activeTabIndex" @activate-tab="tabState.onTabChange">
                 <b-tab v-for="tab in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
                     <!-- Table name. -->
@@ -58,12 +61,12 @@
                             </div>
 
                             {{ /* TODO format search labels, reformat pagination labels */ }}
-                            <small v-if="isToolSearch" class="text-primary">
+                            <!-- <small v-if="isToolSearch" class="text-primary">
                                 🔍 Tool search: "{{ toolSearchQuery }}"
                             </small>
                             <small v-else-if="isReferenceSearch" class="text-success">
                                 🧬 Reference search: "{{ referenceSearchQuery }}"
-                            </small>
+                            </small> -->
                         </b-col>
                         <!-- Items per page selector -->
                         <b-col cols="2">
@@ -130,6 +133,17 @@
                     >
                         <template #cell(platform)="data">
                             <a :href="data.item.path">{{ data.item.title || data.item.path }}</a>
+                        </template>
+                        <template #cell(release)="data">
+                            <div v-if="getReleaseInfo(data.item)">
+                                <div class="release-version">
+                                    {{ getReleaseInfo(data.item).version }}
+                                </div>
+                                <div class="release-date text-muted">
+                                    <small>{{ getReleaseInfo(data.item).date }}</small>
+                                </div>
+                            </div>
+                            <span v-else>-</span>
                         </template>
                         <template #cell(region)="data">
                             <span v-if="getRegionValue(data.item)">
@@ -266,6 +280,7 @@
 </template>
 
 <script>
+import PlatformMap from "~/components/PlatformMap.vue";
 import { rmPrefix, rmSuffix, mdToHtml } from "~/lib/utils.js";
 import { useTableRouting } from "~/composables/useTableRouting.js";
 import { useTableSorting } from "~/composables/useTableSorting.js";
@@ -296,10 +311,11 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
             { key: "link", label: "Server" },
             { key: "summary", label: "Summary" },
-            { key: "tools_count", label: "Tools" },
-            { key: "references_count", label: "References" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             { key: "keywords", label: "Keywords" },
         ],
     },
@@ -309,10 +325,13 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
             { key: "link", label: "Server" },
             { key: "cloud", label: "Cloud" },
             { key: "deployable", label: "Deployable" },
             { key: "summary", label: "Summary" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             { key: "keywords", label: "Keywords" },
         ],
     },
@@ -321,9 +340,12 @@ const tabs = [
         label: "Public Servers",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
             // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" },
         ],
@@ -333,6 +355,7 @@ const tabs = [
         label: "Academic Clouds",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "purview", label: "Purview" },
@@ -344,6 +367,7 @@ const tabs = [
         label: "Commercial Clouds",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
@@ -422,6 +446,10 @@ function makeFilterKey(platform) {
 }
 
 export default {
+    components: {
+        PlatformMap,
+    },
+    
     metaInfo() {
         return {
             title: this.inserts.main.title,
@@ -432,6 +460,7 @@ export default {
         return {
             perPage: 20,
             perPageOptions: [10, 20, 40, 80, { value: 1000, text: "All" }],
+            items: [],
             filter: "",
             isToolSearch: false,
             toolSearchQuery: "",
@@ -454,25 +483,13 @@ export default {
         },
 
         processedFilter() {
-            // Check if this is a tool search
+            // Pure computed property - just returns the filter value
+            // The watcher on 'filter' handles setting search mode flags
             if (this.filter.toLowerCase().startsWith("tool:")) {
-                this.isToolSearch = true;
-                this.toolSearchQuery = this.filter.substring(5).trim().toLowerCase();
-                this.isReferenceSearch = false;
-                this.referenceSearchQuery = "";
-                return ""; // Return empty to prevent default filtering
+                return ""; // Return empty to trigger custom filter
             } else if (this.filter.toLowerCase().startsWith("reference:")) {
-                // Check if this is a reference search
-                this.isReferenceSearch = true;
-                this.referenceSearchQuery = this.filter.substring(10).trim().toLowerCase();
-                this.isToolSearch = false;
-                this.toolSearchQuery = "";
-                return ""; // Return empty to prevent default filtering
+                return ""; // Return empty to trigger custom filter
             } else {
-                this.isToolSearch = false;
-                this.toolSearchQuery = "";
-                this.isReferenceSearch = false;
-                this.referenceSearchQuery = "";
                 return this.filter;
             }
         },
@@ -482,11 +499,13 @@ export default {
             platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
             const toolsMap = this.buildToolsMap();
             const referencesMap = this.buildReferencesMap();
+            const domainsMap = this.buildDomainsMap();
 
             platforms.forEach((platform) => {
                 const platformPath = platform.path.replace(/\/$/, ""); // Remove trailing slash
                 platform.tools = toolsMap[platformPath] || [];
                 platform.references = referencesMap[platformPath] || [];
+                platform.domains = domainsMap[platformPath] || [];
             });
 
             return platforms;
@@ -664,7 +683,7 @@ export default {
             const toolsMap = {};
 
             if (this.$page.tools && this.$page.tools.edges) {
-                this.$page.tools.edges.forEach((edge, index) => {
+                this.$page.tools.edges.forEach((edge) => {
                     const toolsData = edge.node;
 
                     // Only process datasets that have tools and are named "tools"
@@ -687,7 +706,7 @@ export default {
         buildReferencesMap() {
             const referencesMap = {};
             if (this.$page.references && this.$page.references.edges) {
-                this.$page.references.edges.forEach((edge, index) => {
+                this.$page.references.edges.forEach((edge) => {
                     const referencesData = edge.node;
 
                     // Only process references that have references array and are named "references"
@@ -723,6 +742,31 @@ export default {
             return referencesMap;
         },
 
+        buildDomainsMap() {
+            const domainsMap = {};
+            if (this.$page.domains && this.$page.domains.edges) {
+                this.$page.domains.edges.forEach((edge) => {
+                    const domainsData = edge.node;
+
+                    // Only process datasets that have domains array and are named "domains"
+                    if (!domainsData.domains || domainsData.fileInfo?.name !== "domains") {
+                        return;
+                    }
+
+                    // Extract platform path from dataset path
+                    let pathMatch = domainsData.path.match(/^\/dataset:(\/use\/[^/]+)\/domains\/?$/);
+
+                    if (pathMatch && domainsData.domains) {
+                        const platformPath = pathMatch[1];
+                        // Store the full domains array for this platform
+                        domainsMap[platformPath] = domainsData.domains;
+                    }
+                });
+            }
+
+            return domainsMap;
+        },
+
         getMatchingTools(platform, toolName) {
             if (!platform.tools || !toolName) {
                 return [];
@@ -749,21 +793,23 @@ export default {
             return this.getMatchingReferences(platform, referenceName).length > 0;
         },
 
-        customFilter(items, filter) {
+        customFilter(item, filter) {
+            // Custom filter function for b-table
+            // Bootstrap Vue calls this for EACH item individually
+            // Return true to include the item, false to exclude it
+
             if (this.isToolSearch && this.toolSearchQuery) {
-                const filtered = items.filter((item) => this.platformHasTool(item, this.toolSearchQuery));
-                return filtered;
+                return this.platformHasTool(item, this.toolSearchQuery);
             }
             if (this.isReferenceSearch && this.referenceSearchQuery) {
-                const filtered = items.filter((item) => this.platformHasReference(item, this.referenceSearchQuery));
-                return filtered;
+                return this.platformHasReference(item, this.referenceSearchQuery);
             }
             // Otherwise use default filtering
             if (!filter) {
                 return true;
             }
             const filterLower = filter.toLowerCase();
-            return items.filterKey && items.filterKey.toLowerCase().includes(filterLower); // t / f
+            return item.filterKey && item.filterKey.toLowerCase().includes(filterLower);
         },
 
         getTierValue(item) {
@@ -774,6 +820,25 @@ export default {
         getRegionValue(item, platform_group = null) {
             const { getRegionValue } = useTableSorting();
             return getRegionValue(item, platform_group);
+        },
+
+        getReleaseInfo(platform) {
+            if (!platform.domains || platform.domains.length === 0) {
+                return null;
+            }
+
+            const domainWithRelease = platform.domains.find(domain => domain.release && domain.release.version_major);
+            
+            if (!domainWithRelease) {
+                return null;
+            }
+
+            const version = domainWithRelease.release.version_major;
+
+            return {
+                version: version,
+                rawVersion: version
+            };
         },
 
         platformsByGroup(group) {
@@ -869,6 +934,28 @@ export default {
     },
 
     watch: {
+        filter(newFilter) {
+            // Watch filter changes and set search mode flags
+            const filterLower = newFilter.toLowerCase();
+
+            if (filterLower.startsWith("tool:")) {
+                this.isToolSearch = true;
+                this.toolSearchQuery = newFilter.substring(5).trim().toLowerCase();
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            } else if (filterLower.startsWith("reference:")) {
+                this.isReferenceSearch = true;
+                this.referenceSearchQuery = newFilter.substring(10).trim().toLowerCase();
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+            } else {
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            }
+        },
+
         "$route.query.platform_group"(newGroup, oldGroup) {
             // Handle direct URL navigation or browser back/forward
             if (newGroup !== oldGroup && this.tabState) {
@@ -905,6 +992,8 @@ query {
                 title
                 scope
                 summary
+                image
+                images
                 url
                 path
                 platforms {
@@ -949,6 +1038,35 @@ query {
                     type
                     items {
                         name
+                    }
+                }
+            }
+        }
+    }
+    domains: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                domains {
+                    platform_url
+                    ip
+                    release {
+                        version_major
+                        version_minor
+                    }
+                    location {
+                        city
+                        region
+                        country
+                        country_name
+                        latitude
+                        longitude
                     }
                 }
             }
@@ -1094,5 +1212,15 @@ footer.page-footer {
 .reference-match small {
     color: #495057;
     line-height: 1.4;
+}
+
+.release-version {
+    font-weight: 500;
+    color: #333;
+}
+
+.release-date {
+    font-size: 0.85rem;
+    margin-top: 0.125rem;
 }
 </style>

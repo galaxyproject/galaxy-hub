@@ -49,6 +49,7 @@
     "markdownlint": "^0.24.0",
     "markdownlint-cli": "^0.29.0",
     "node-watch": "^0.7.1",
+    "ol": "^10.7.0",
     "prettier": "^3.5.3",
     "rehype-parse": "^8.0.3",
     "remark": "^13.0.0",

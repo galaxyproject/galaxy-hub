@@ -30,6 +30,9 @@ export function useTableSorting() {
             summary: textSortHandler,
             // tier: tierSortHandler,
             region: regionSortHandler,
+            release: releaseSortHandler,
+            tools_count: toolsCountSortHandler,
+            references_count: referencesCountSortHandler,
         };
 
         return sortHandlers[key] || null;
@@ -115,6 +118,49 @@ export function useTableSorting() {
     };
 
     /**
+     * Sort handler for release column (sorts by version_major)
+     * @param {Object} aRow - First row object
+     * @param {Object} bRow - Second row object
+     * @returns {number} - Sort result (-1, 0, 1)
+     */
+    const releaseSortHandler = (aRow, bRow) => {
+        const a = getReleaseVersion(aRow);
+        const b = getReleaseVersion(bRow);
+
+        if (a === null && b === null) return 0;
+        if (a === null) return 1;
+        if (b === null) return -1;
+
+        return compareStrings(a, b);
+    };
+
+    /**
+     * Sort handler for tools_count column (handles numeric tool counts)
+     * @param {Object} aRow - First row object
+     * @param {Object} bRow - Second row object
+     * @returns {number} - Sort result (-1, 0, 1)
+     */
+    const toolsCountSortHandler = (aRow, bRow) => {
+        const a = aRow.tools?.length || 0;
+        const b = bRow.tools?.length || 0;
+
+        return a - b;
+    };
+
+    /**
+     * Sort handler for references_count column (handles numeric reference counts)
+     * @param {Object} aRow - First row object
+     * @param {Object} bRow - Second row object
+     * @returns {number} - Sort result (-1, 0, 1)
+     */
+    const referencesCountSortHandler = (aRow, bRow) => {
+        const a = aRow.references?.items?.length || 0;
+        const b = bRow.references?.items?.length || 0;
+
+        return a - b;
+    };
+
+    /**
      * Get the display value for platform column (title or path fallback)
      * @param {Object} row - Row object
      * @returns {string} - Display value for sorting
@@ -165,6 +211,25 @@ export function useTableSorting() {
             }
         }
         return null;
+    };
+
+    /**
+     * Get the release version for sorting (returns version_major or null)
+     * @param {Object} row - Row object
+     * @returns {string|null} - Version string for sorting
+     */
+    const getReleaseVersion = (row) => {
+        if (!row.domains || row.domains.length === 0) {
+            return null;
+        }
+
+        const domainWithRelease = row.domains.find(domain => domain.release && domain.release.version_major);
+        
+        if (!domainWithRelease) {
+            return null;
+        }
+
+        return domainWithRelease.release.version_major;
     };
 
     /**
@@ -255,6 +320,9 @@ export function useTableSorting() {
         textSortHandler,
         // tierSortHandler,
         regionSortHandler,
+        releaseSortHandler,
+        toolsCountSortHandler,
+        referencesCountSortHandler,
 
         createSortableField,
         createSortableFields,
@@ -262,6 +330,7 @@ export function useTableSorting() {
         getPlatformDisplayValue,
         // getTierValue,
         getRegionValue,
+        getReleaseVersion,
         compareStrings,
         getSortState,
         getSortHandler,

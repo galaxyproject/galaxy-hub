@@ -3,6 +3,7 @@ import utils from "./utils.js";
 // Kludge for an issue (probably) with webpack.
 const { repr, rmSuffix } = utils;
 
+// TODO: Needs refactor - will cause JS error because this method returns a string or object; only works inside of DOM <IMG> tag, but will fail ("silent fail") in other contexts.
 export function getImage(imagePath, images) {
     if (!imagePath) {
         return imagePath;
