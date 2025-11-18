@@ -746,7 +746,7 @@ export default {
             // Custom filter function for b-table
             // Bootstrap Vue calls this for EACH item individually
             // Return true to include the item, false to exclude it
-            
+
             if (this.isToolSearch && this.toolSearchQuery) {
                 return this.platformHasTool(item, this.toolSearchQuery);
             }
@@ -867,7 +867,7 @@ export default {
         filter(newFilter) {
             // Watch filter changes and set search mode flags
             const filterLower = newFilter.toLowerCase();
-            
+
             if (filterLower.startsWith("tool:")) {
                 this.isToolSearch = true;
                 this.toolSearchQuery = newFilter.substring(5).trim().toLowerCase();
@@ -885,7 +885,7 @@ export default {
                 this.referenceSearchQuery = "";
             }
         },
-        
+
         "$route.query.platform_group"(newGroup, oldGroup) {
             // Handle direct URL navigation or browser back/forward
             if (newGroup !== oldGroup && this.tabState) {
