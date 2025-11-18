@@ -44,7 +44,7 @@
                             >
                                 <div
                                     v-for="(suggestion, index) in filteredSuggestions"
-                                    :key="`${suggestion.type}-${suggestion.name}`"
+                                    :key="index"
                                     class="autocomplete-item"
                                     :class="{ selected: index === selectedSuggestionIndex }"
                                     @mousedown.prevent="selectSuggestion(suggestion)"
@@ -56,14 +56,6 @@
                                     </b-badge>
                                 </div>
                             </div>
-
-                            {{ /* TODO format search labels, reformat pagination labels */ }}
-                            <small v-if="isToolSearch" class="text-primary">
-                                🔍 Tool search: "{{ toolSearchQuery }}"
-                            </small>
-                            <small v-else-if="isReferenceSearch" class="text-success">
-                                🧬 Reference search: "{{ referenceSearchQuery }}"
-                            </small>
                         </b-col>
                         <!-- Items per page selector -->
                         <b-col cols="2">
@@ -111,20 +103,29 @@
                             </p>
                         </b-col>
                     </b-row>
+                    <b-row>
+                        <b-col cols="12">
+                            <div class="query-indicator">
+                                <small v-if="isToolSearch"> 🔍 Tool search: "{{ toolSearchQuery }}" </small>
+                                <small v-else-if="isReferenceSearch">
+                                    🔍 Reference search: "{{ referenceSearchQuery }}"
+                                </small>
+                            </div>
+                        </b-col>
+                    </b-row>
                     <!-- The table itself. -->
                     <b-table
                         striped
                         hover
                         :id="`${tab.id}-table`"
-                        :items="tab.platforms"
+                        :items="getFilteredPlatforms(tab)"
                         :fields="tab.columns"
                         primary-key="id"
                         sort-by="title"
+                        class="mt-0"
                         :per-page="perPage"
                         :current-page="tab.currentPage"
                         :filter="processedFilter"
-                        :filter-function="customFilter"
-                        :filter-included-fields="['filterKey']"
                         :sort-compare="customSortCompare"
                         @filtered="(items, total) => updateDisplayed(tab, total)"
                     >
@@ -175,6 +176,36 @@
                         </template>
                         <template #cell(summary)="data">
                             <span class="markdown" v-html="mdToHtml(data.item.summary)"></span>
+                            <template v-if="tab.id === 'all'">
+                                <span
+                                    v-if="
+                                        getLinks(data.item, [
+                                            'public-server',
+                                            'academic-cloud',
+                                            'commercial-cloud',
+                                            'container',
+                                            'vm',
+                                        ]).length > 0
+                                    "
+                                >
+                                    <span> </span>
+                                    <a
+                                        v-for="link of getLinks(data.item, [
+                                            'public-server',
+                                            'academic-cloud',
+                                            'commercial-cloud',
+                                            'container',
+                                            'vm',
+                                        ])"
+                                        :key="link.text"
+                                        :href="link.url"
+                                        target="_blank"
+                                        class="mr-2"
+                                    >
+                                        {{ link.text }}
+                                    </a>
+                                </span>
+                            </template>
                         </template>
                         <template #cell(purview)="data">
                             {{ getPlatformValueByGroup(data.item, tab.id, "platform_purview") }}
@@ -189,8 +220,8 @@
                                 <!-- Tool search mode: show matching tools with versions -->
                                 <div v-if="getMatchingTools(data.item, toolSearchQuery).length > 0">
                                     <div
-                                        v-for="tool in getMatchingTools(data.item, toolSearchQuery)"
-                                        :key="`${tool.name}-${tool.version}`"
+                                        v-for="(tool, toolIndex) in getMatchingTools(data.item, toolSearchQuery)"
+                                        :key="toolIndex"
                                         class="tool-match"
                                     >
                                         <strong>{{ tool.name }}</strong>
@@ -285,6 +316,8 @@ const KEYWORDS = {
     "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" },
 };
 
+const SUGGESTIONS_MAX = 15;
+
 const { createSortableField } = useTableSorting();
 
 const tabs = [
@@ -296,10 +329,9 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Server" },
             { key: "summary", label: "Summary" },
-            { key: "tools_count", label: "Tools" },
-            { key: "references_count", label: "References" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             { key: "keywords", label: "Keywords" },
         ],
     },
@@ -309,10 +341,9 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Server" },
-            { key: "cloud", label: "Cloud" },
-            { key: "deployable", label: "Deployable" },
             { key: "summary", label: "Summary" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             { key: "keywords", label: "Keywords" },
         ],
     },
@@ -322,8 +353,9 @@ const tabs = [
         columns: [
             createSortableField("platform", "Resource"),
             // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" },
         ],
@@ -333,7 +365,6 @@ const tabs = [
         label: "Academic Clouds",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "purview", label: "Purview" },
             { key: "keywords", label: "Keywords" },
@@ -344,7 +375,6 @@ const tabs = [
         label: "Commercial Clouds",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" },
@@ -357,7 +387,6 @@ const tabs = [
         linkGroup: "container",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "keywords", label: "Keywords" },
         ],
@@ -369,7 +398,6 @@ const tabs = [
         linkGroup: "vm",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "keywords", label: "Keywords" },
         ],
@@ -432,6 +460,7 @@ export default {
         return {
             perPage: 20,
             perPageOptions: [10, 20, 40, 80, { value: 1000, text: "All" }],
+            items: [],
             filter: "",
             isToolSearch: false,
             toolSearchQuery: "",
@@ -445,6 +474,9 @@ export default {
             showAutocomplete: false,
             selectedSuggestionIndex: -1,
             autocompleteInputValue: "",
+            cachedToolsMap: {},
+            cachedReferencesMap: {},
+            cachedAllSuggestions: [],
         };
     },
 
@@ -454,25 +486,13 @@ export default {
         },
 
         processedFilter() {
-            // Check if this is a tool search
+            // Pure computed property - just returns the filter value
+            // The watcher on 'filter' handles setting search mode flags
             if (this.filter.toLowerCase().startsWith("tool:")) {
-                this.isToolSearch = true;
-                this.toolSearchQuery = this.filter.substring(5).trim().toLowerCase();
-                this.isReferenceSearch = false;
-                this.referenceSearchQuery = "";
-                return ""; // Return empty to prevent default filtering
+                return ""; // Return empty to trigger custom filter
             } else if (this.filter.toLowerCase().startsWith("reference:")) {
-                // Check if this is a reference search
-                this.isReferenceSearch = true;
-                this.referenceSearchQuery = this.filter.substring(10).trim().toLowerCase();
-                this.isToolSearch = false;
-                this.toolSearchQuery = "";
-                return ""; // Return empty to prevent default filtering
+                return ""; // Return empty to trigger custom filter
             } else {
-                this.isToolSearch = false;
-                this.toolSearchQuery = "";
-                this.isReferenceSearch = false;
-                this.referenceSearchQuery = "";
                 return this.filter;
             }
         },
@@ -480,66 +500,18 @@ export default {
         platforms() {
             const platforms = this.$page.platforms.edges.map((edge) => edge.node);
             platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
-            const toolsMap = this.buildToolsMap();
-            const referencesMap = this.buildReferencesMap();
 
             platforms.forEach((platform) => {
                 const platformPath = platform.path.replace(/\/$/, ""); // Remove trailing slash
-                platform.tools = toolsMap[platformPath] || [];
-                platform.references = referencesMap[platformPath] || [];
+                platform.tools = this.cachedToolsMap[platformPath] || [];
+                platform.references = this.cachedReferencesMap[platformPath] || [];
             });
 
             return platforms;
         },
 
-        // Build autocomplete suggestions from all tools and references
         allSuggestions() {
-            const suggestions = [];
-            const uniqueTools = new Set();
-            const uniqueReferences = new Set();
-
-            // Collect all unique tool names
-            if (this.$page.tools && this.$page.tools.edges) {
-                this.$page.tools.edges.forEach((edge) => {
-                    const toolsData = edge.node;
-                    if (toolsData.tools) {
-                        toolsData.tools.forEach((tool) => {
-                            if (tool.name && !uniqueTools.has(tool.name)) {
-                                uniqueTools.add(tool.name);
-                                suggestions.push({
-                                    name: tool.name,
-                                    type: "tool",
-                                    displayType: "tool",
-                                });
-                            }
-                        });
-                    }
-                });
-            }
-
-            // Collect all unique reference names
-            if (this.$page.references && this.$page.references.edges) {
-                this.$page.references.edges.forEach((edge) => {
-                    const referencesData = edge.node;
-                    if (referencesData.references && referencesData.references[0]) {
-                        const refObj = referencesData.references[0];
-                        const refType = refObj.type || "genome";
-                        if (refObj.items) {
-                            refObj.items.forEach((ref) => {
-                                if (ref.name && !uniqueReferences.has(ref.name)) {
-                                    uniqueReferences.add(ref.name);
-                                    suggestions.push({
-                                        name: ref.name,
-                                        type: "reference",
-                                        displayType: refType,
-                                    });
-                                }
-                            });
-                        }
-                    }
-                });
-            }
-            return suggestions;
+            return this.cachedAllSuggestions;
         },
 
         // Filter suggestions based on current input
@@ -551,9 +523,7 @@ export default {
                 return [];
             }
 
-            // Filter and rank suggestions
             const matches = this.allSuggestions.filter((suggestion) => suggestion.name.toLowerCase().includes(input));
-
             // Sort by relevance: starts-with matches first, then contains
             matches.sort((a, b) => {
                 const aName = a.name.toLowerCase();
@@ -566,8 +536,7 @@ export default {
                 return aName.localeCompare(bName);
             });
 
-            // Limit to 15 suggestions for performance
-            const limited = matches.slice(0, 15);
+            const limited = matches.slice(0, SUGGESTIONS_MAX);
             return limited;
         },
     },
@@ -580,12 +549,36 @@ export default {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         },
 
+        getFilteredPlatforms(tab) {
+            // Get the base platforms for this tab
+            let platforms = tab.platforms;
+
+            // Apply tool search filter
+            if (this.isToolSearch && this.toolSearchQuery) {
+                platforms = platforms.filter((platform) => this.platformHasTool(platform, this.toolSearchQuery));
+            }
+            // Apply reference search filter
+            else if (this.isReferenceSearch && this.referenceSearchQuery) {
+                platforms = platforms.filter((platform) =>
+                    this.platformHasReference(platform, this.referenceSearchQuery),
+                );
+            }
+            // Apply regular text search filter
+            else if (this.filter && this.filter.trim()) {
+                const filterLower = this.filter.toLowerCase();
+                platforms = platforms.filter(
+                    (platform) => platform.filterKey && platform.filterKey.toLowerCase().includes(filterLower),
+                );
+            }
+
+            return platforms;
+        },
+
         // Autocomplete methods
         onInputChange(value) {
             this.autocompleteInputValue = value;
             this.filter = value;
             this.selectedSuggestionIndex = -1;
-            // Show autocomplete if there are suggestions
             if (this.filteredSuggestions.length > 0) {
                 this.showAutocomplete = true;
             } else {
@@ -664,7 +657,7 @@ export default {
             const toolsMap = {};
 
             if (this.$page.tools && this.$page.tools.edges) {
-                this.$page.tools.edges.forEach((edge, index) => {
+                this.$page.tools.edges.forEach((edge) => {
                     const toolsData = edge.node;
 
                     // Only process datasets that have tools and are named "tools"
@@ -687,7 +680,7 @@ export default {
         buildReferencesMap() {
             const referencesMap = {};
             if (this.$page.references && this.$page.references.edges) {
-                this.$page.references.edges.forEach((edge, index) => {
+                this.$page.references.edges.forEach((edge) => {
                     const referencesData = edge.node;
 
                     // Only process references that have references array and are named "references"
@@ -749,21 +742,23 @@ export default {
             return this.getMatchingReferences(platform, referenceName).length > 0;
         },
 
-        customFilter(items, filter) {
+        customFilter(item, filter) {
+            // Custom filter function for b-table
+            // Bootstrap Vue calls this for EACH item individually
+            // Return true to include the item, false to exclude it
+
             if (this.isToolSearch && this.toolSearchQuery) {
-                const filtered = items.filter((item) => this.platformHasTool(item, this.toolSearchQuery));
-                return filtered;
+                return this.platformHasTool(item, this.toolSearchQuery);
             }
             if (this.isReferenceSearch && this.referenceSearchQuery) {
-                const filtered = items.filter((item) => this.platformHasReference(item, this.referenceSearchQuery));
-                return filtered;
+                return this.platformHasReference(item, this.referenceSearchQuery);
             }
             // Otherwise use default filtering
             if (!filter) {
                 return true;
             }
             const filterLower = filter.toLowerCase();
-            return items.filterKey && items.filterKey.toLowerCase().includes(filterLower); // t / f
+            return item.filterKey && item.filterKey.toLowerCase().includes(filterLower);
         },
 
         getTierValue(item) {
@@ -840,9 +835,68 @@ export default {
 
             return customSortCompare(aRow, bRow, key, context);
         },
+
+        initializeCachedData() {
+            // Build and cache toolsMap
+            this.cachedToolsMap = this.buildToolsMap();
+
+            // Build and cache referencesMap
+            this.cachedReferencesMap = this.buildReferencesMap();
+
+            // Build and cache all suggestions
+            const suggestions = [];
+            const uniqueTools = new Set();
+            const uniqueReferences = new Set();
+
+            // Collect all unique tool names
+            if (this.$page.tools && this.$page.tools.edges) {
+                this.$page.tools.edges.forEach((edge) => {
+                    const toolsData = edge.node;
+                    if (toolsData.tools && Array.isArray(toolsData.tools)) {
+                        toolsData.tools.forEach((tool) => {
+                            if (tool.name && !uniqueTools.has(tool.name)) {
+                                uniqueTools.add(tool.name);
+                                suggestions.push({
+                                    name: tool.name,
+                                    type: "tool",
+                                    displayType: "tool",
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+
+            // Collect all unique reference names
+            if (this.$page.references && this.$page.references.edges) {
+                this.$page.references.edges.forEach((edge) => {
+                    const referencesData = edge.node;
+                    if (referencesData.references && referencesData.references[0]) {
+                        const refObj = referencesData.references[0];
+                        const refType = refObj.type || "genome";
+                        if (refObj.items) {
+                            refObj.items.forEach((ref) => {
+                                if (ref.name && !uniqueReferences.has(ref.name)) {
+                                    uniqueReferences.add(ref.name);
+                                    suggestions.push({
+                                        name: ref.name,
+                                        type: "reference",
+                                        displayType: refType,
+                                    });
+                                }
+                            });
+                        }
+                    }
+                });
+            }
+
+            this.cachedAllSuggestions = suggestions;
+        },
     },
 
     created() {
+        this.initializeCachedData();
+
         const { createTabStateManager } = useTableRouting();
         this.tabState = createTabStateManager(this.tabs, this.$route, this.$router);
 
@@ -869,6 +923,27 @@ export default {
     },
 
     watch: {
+        filter(newFilter) {
+            const filterLower = newFilter.toLowerCase();
+
+            if (filterLower.startsWith("tool:")) {
+                this.isToolSearch = true;
+                this.toolSearchQuery = newFilter.substring(5).trim().toLowerCase();
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            } else if (filterLower.startsWith("reference:")) {
+                this.isReferenceSearch = true;
+                this.referenceSearchQuery = newFilter.substring(10).trim().toLowerCase();
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+            } else {
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            }
+        },
+
         "$route.query.platform_group"(newGroup, oldGroup) {
             // Handle direct URL navigation or browser back/forward
             if (newGroup !== oldGroup && this.tabState) {
@@ -968,13 +1043,13 @@ footer.page-footer {
     font-size: 100%;
 }
 
-/* Autocomplete dropdown styling */
 .autocomplete-dropdown {
     position: absolute;
     top: 100%;
     left: 15px;
     right: 15px;
     max-height: 300px;
+    width: 380px;
     overflow-y: auto;
     background: white;
     border: 1px solid #ced4da;
@@ -1010,10 +1085,14 @@ footer.page-footer {
 
 .suggestion-name {
     flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     margin-right: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.query-indicator {
+    height: 20px;
+    margin: 1px 0px 4px;
 }
 
 /* Tier badge styling */
