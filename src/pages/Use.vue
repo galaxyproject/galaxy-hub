@@ -58,12 +58,12 @@
                             </div>
 
                             {{ /* TODO format search labels, reformat pagination labels */ }}
-                            <small v-if="isToolSearch" class="text-primary">
+                            <!-- <small v-if="isToolSearch" class="text-primary">
                                 🔍 Tool search: "{{ toolSearchQuery }}"
                             </small>
                             <small v-else-if="isReferenceSearch" class="text-success">
                                 🧬 Reference search: "{{ referenceSearchQuery }}"
-                            </small>
+                            </small> -->
                         </b-col>
                         <!-- Items per page selector -->
                         <b-col cols="2">
@@ -313,6 +313,8 @@ const tabs = [
             { key: "cloud", label: "Cloud" },
             { key: "deployable", label: "Deployable" },
             { key: "summary", label: "Summary" },
+            { key: "tools_count", label: "Tools" },
+            { key: "references_count", label: "References" },
             { key: "keywords", label: "Keywords" },
         ],
     },
@@ -324,6 +326,8 @@ const tabs = [
             // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
+            { key: "tools_count", label: "Tools" },
+            { key: "references_count", label: "References" },
             createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" },
         ],
@@ -432,6 +436,7 @@ export default {
         return {
             perPage: 20,
             perPageOptions: [10, 20, 40, 80, { value: 1000, text: "All" }],
+            items: [],
             filter: "",
             isToolSearch: false,
             toolSearchQuery: "",
@@ -454,25 +459,13 @@ export default {
         },
 
         processedFilter() {
-            // Check if this is a tool search
+            // Pure computed property - just returns the filter value
+            // The watcher on 'filter' handles setting search mode flags
             if (this.filter.toLowerCase().startsWith("tool:")) {
-                this.isToolSearch = true;
-                this.toolSearchQuery = this.filter.substring(5).trim().toLowerCase();
-                this.isReferenceSearch = false;
-                this.referenceSearchQuery = "";
-                return ""; // Return empty to prevent default filtering
+                return ""; // Return empty to trigger custom filter
             } else if (this.filter.toLowerCase().startsWith("reference:")) {
-                // Check if this is a reference search
-                this.isReferenceSearch = true;
-                this.referenceSearchQuery = this.filter.substring(10).trim().toLowerCase();
-                this.isToolSearch = false;
-                this.toolSearchQuery = "";
-                return ""; // Return empty to prevent default filtering
+                return ""; // Return empty to trigger custom filter
             } else {
-                this.isToolSearch = false;
-                this.toolSearchQuery = "";
-                this.isReferenceSearch = false;
-                this.referenceSearchQuery = "";
                 return this.filter;
             }
         },
@@ -664,7 +657,7 @@ export default {
             const toolsMap = {};
 
             if (this.$page.tools && this.$page.tools.edges) {
-                this.$page.tools.edges.forEach((edge, index) => {
+                this.$page.tools.edges.forEach((edge) => {
                     const toolsData = edge.node;
 
                     // Only process datasets that have tools and are named "tools"
@@ -687,7 +680,7 @@ export default {
         buildReferencesMap() {
             const referencesMap = {};
             if (this.$page.references && this.$page.references.edges) {
-                this.$page.references.edges.forEach((edge, index) => {
+                this.$page.references.edges.forEach((edge) => {
                     const referencesData = edge.node;
 
                     // Only process references that have references array and are named "references"
@@ -749,21 +742,23 @@ export default {
             return this.getMatchingReferences(platform, referenceName).length > 0;
         },
 
-        customFilter(items, filter) {
+        customFilter(item, filter) {
+            // Custom filter function for b-table
+            // Bootstrap Vue calls this for EACH item individually
+            // Return true to include the item, false to exclude it
+            
             if (this.isToolSearch && this.toolSearchQuery) {
-                const filtered = items.filter((item) => this.platformHasTool(item, this.toolSearchQuery));
-                return filtered;
+                return this.platformHasTool(item, this.toolSearchQuery);
             }
             if (this.isReferenceSearch && this.referenceSearchQuery) {
-                const filtered = items.filter((item) => this.platformHasReference(item, this.referenceSearchQuery));
-                return filtered;
+                return this.platformHasReference(item, this.referenceSearchQuery);
             }
             // Otherwise use default filtering
             if (!filter) {
                 return true;
             }
             const filterLower = filter.toLowerCase();
-            return items.filterKey && items.filterKey.toLowerCase().includes(filterLower); // t / f
+            return item.filterKey && item.filterKey.toLowerCase().includes(filterLower);
         },
 
         getTierValue(item) {
@@ -869,6 +864,28 @@ export default {
     },
 
     watch: {
+        filter(newFilter) {
+            // Watch filter changes and set search mode flags
+            const filterLower = newFilter.toLowerCase();
+            
+            if (filterLower.startsWith("tool:")) {
+                this.isToolSearch = true;
+                this.toolSearchQuery = newFilter.substring(5).trim().toLowerCase();
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            } else if (filterLower.startsWith("reference:")) {
+                this.isReferenceSearch = true;
+                this.referenceSearchQuery = newFilter.substring(10).trim().toLowerCase();
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+            } else {
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            }
+        },
+        
         "$route.query.platform_group"(newGroup, oldGroup) {
             // Handle direct URL navigation or browser back/forward
             if (newGroup !== oldGroup && this.tabState) {
