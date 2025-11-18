@@ -2,13 +2,13 @@
 title: "Galaxy Tool Wrapping: Introducing the New Tool Developers SIG"
 date: "2025-11-20"
 authors: "Armin Dadras, Saim Momin"
-tease: "Join the newly formed Tool Developers Significant Interest Group (SIG) to collaborate on high-quality tool maintenance and standardize best practices across the Galaxy ecosystem. This initiative offers a dedicated space for mentorship, peer review, and community-driven development for developers of all experience levels."
+tease: "Join the newly formed Tool Developers Special Interest Group (SIG) to collaborate on high-quality tool maintenance and standardize best practices across the Galaxy ecosystem. This initiative offers a dedicated space for mentorship, peer review, and community-driven development for developers of all experience levels."
 tags: [eosc, tools, sig, community, esg, esg-wp1]
 supporters: [unifreiburg, esg]
 subsites: [all, esg]
 main_subsite: eu
 ---
-The Galaxy Project is pleased to announce the formation of the [Tool Developers Significant Interest Group (SIG)](https://galaxyproject.org/community/sig/tool-developers/), a new initiative designed to strengthen the backbone of the Galaxy ecosystem: its tools.
+The Galaxy Project is pleased to announce the formation of the [Tool Developers Special Interest Group (SIG)](https://galaxyproject.org/community/sig/tool-developers/), a new initiative designed to strengthen the backbone of the Galaxy ecosystem: its tools.
 
 Operating as an extension of the [Intergalactic Utilities Commission (IUC)](https://galaxyproject.org/iuc/), this group provides a dedicated forum for developers of all experience levels to collaborate on high-quality, sustainable tool development. The [SIG](https://galaxyproject.org/community/sig/) was established to address the growing need for coordinated maintenance, standardized best practices, and a supportive environment for knowledge sharing within the community.
 
