@@ -1,0 +1,390 @@
+tools:
+    - name: Upload File
+      version: 1.1.6
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Get PDB file
+      version: 0.1.0
+      link: /tool_runner?tool_id=get_pdb
+      description: from Protein Data Bank
+    - name: PubChem Download
+      version: "0.2"
+      link: /tool_runner?tool_id=ctb_pubchem_download_as_smiles
+      description: as canonical SMILES
+    - name: PubChem Assay Downloader
+      version: "0.2"
+      link: /tool_runner?tool_id=ctb_pubchem_download_assays
+      description: as table
+    - name: Send to cloud
+      version: 0.1.0
+      link: /tool_runner?tool_id=send_to_cloud
+      description: ""
+    - name: Unzip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: datasets from a collection
+    - name: Filter empty
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_EMPTY_DATASETS__
+      description: datasets from a collection
+    - name: Flatten Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: into a flat list of datasets
+    - name: Merge Collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: into single list of datasets
+    - name: Relabel List Identifiers
+      version: 1.0.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: from contents of a file
+    - name: Filter List
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: from contents of a file
+    - name: Sort Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: of list of datasets
+    - name: Tag elements from file
+      version: 1.0.0
+      link: /tool_runner?tool_id=__TAG_FROM_FILE__
+      description: from contents of a file
+    - name: Apply Rule to Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__APPLY_RULES__
+      description: ""
+    - name: Build List
+      version: 1.0.0
+      link: /tool_runner?tool_id=__BUILD_LIST__
+      description: from one or more datasets
+    - name: Extract Dataset
+      version: 1.0.0
+      link: /tool_runner?tool_id=__EXTRACT_DATASET__
+      description: from a list
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.2
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.1
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.1
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Compound conversion
+      version: 2.4.2.0
+      link: /tool_runner?tool_id=openbabel_compound_convert
+      description: "- interconvert between various chemistry and molecular modeling data
+          files"
+    - name: Filter
+      version: 1.1.0
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.1.0
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.1
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Join two Datasets
+      version: 2.1.2
+      link: /tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.3
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: ESP-Shape Similarity tool
+      version: 1.0+galaxy0
+      link: /tool_runner?tool_id=esp_sim
+      description: ""
+    - name: SDF filter
+      version: 1.0+galaxy0
+      link: /tool_runner?tool_id=sdf_filter
+      description: to remove molecules with selected atom types
+    - name: Prepare ligands
+      version: 1.5.7+galaxy0
+      link: /tool_runner?tool_id=prepare_ligand
+      description: for docking with AUTODOCK-GPU,VINA or UNIDOCK
+    - name: Prepare affinity maps
+      version: 1.5.7+galaxy0
+      link: /tool_runner?tool_id=prepare_receptor
+      description: for AUTODOCK-GPU
+    - name: Prepare receptor
+      version: 1.1.3+galaxy0
+      link: /tool_runner?tool_id=unidock_receptor
+      description: for VINA or UNIDOCK
+    - name: Run AUTODOCK-GPU
+      version: 1.5.7+galaxy0
+      link: /tool_runner?tool_id=autodock_gpu
+      description: ""
+    - name: VINA Dock (CPU)
+      version: 1.5.7+galaxy0
+      link: /tool_runner?tool_id=docking_tool
+      description: ""
+    - name: Run UNIDOCK-GPU
+      version: 1.1.3+galaxy0
+      link: /tool_runner?tool_id=unidock_gpu
+      description: ""
+    - name: Extract docked pose
+      version: 1.0+galaxy0
+      link: /tool_runner?tool_id=pose_extract
+      description: from AUTODOCK-GPU output
+    - name: Extract mol2
+      version: 1.0+galaxy0
+      link: /tool_runner?tool_id=mol2_extract
+      description: from UNIDOCK output
+    - name: CHARMM solvate
+      version: 0.0.1+galaxy0
+      link: /tool_runner?tool_id=pbc_solvate
+      description: and neutralize a protein-ligand complex in a TIP3P waterbox
+    - name: NVT Molecular Dynamics (NAMD)
+      version: 0.0.1+galaxy0
+      link: /tool_runner?tool_id=namd_run_nvt
+      description: ""
+    - name: NPT Molecular Dynamics (NAMD)
+      version: 0.0.1+galaxy0
+      link: /tool_runner?tool_id=namd_run_npt
+      description: ""
+    - name: AnteChamber
+      version: 22.0+galaxy0
+      link: /tool_runner?tool_id=ambertools_antechamber
+      description: "- Amber's molecular input file processor"
+    - name: Amber2Gromacs
+      version: "1.0"
+      link: /tool_runner?tool_id=parmed_amber2gmx
+      description: Converts Amber files to Gromacs format
+    - name: Gromacs2Amber
+      version: "1.0"
+      link: /tool_runner?tool_id=parmed_gmx2amber
+      description: Converts Gromacs files to Amber format
+    - name: Convert Parameters
+      version: 22.0+galaxy0
+      link: /tool_runner?tool_id=parmconv
+      description: to AMBER prmtop in preparation for MMGBSA/MMPBSA
+    - name: MDTraj file converter
+      version: 1.9.7+galaxy0
+      link: /tool_runner?tool_id=md_converter
+      description: "- interconvert between MD trajectory file formats."
+    - name: GROMACS system setup
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_full_setup
+      description: "- create protein-ligand system, solvate and neutralize"
+    - name: GROMACS energy minimization
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_em
+      description: of the system prior to equilibration and production MD
+    - name: GROMACS simulation (GPU)
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_sim
+      description: for system equilibration or data collection
+    - name: GROMACS simulation (CPU)
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_sim_cpu
+      description: for system equilibration or data collection
+    - name: GROMACS structure configuration
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_editconf
+      description: using editconf
+    - name: Create GROMACS index files
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_makendx
+      description: using make_ndx
+    - name: Merge GROMACS topologies
+      version: 3.4.3+galaxy0
+      link: /tool_runner?tool_id=gmx_merge_topology_files
+      description: and GRO files
+    - name: Create GROMACS position restraints files
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_restraints
+      description: using genrestr
+    - name: GROMACS initial setup
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_setup
+      description: of topology and GRO structure file
+    - name: GROMACS solvation and adding ions
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_solvate
+      description: to structure and topology files
+    - name: Angle Analysis
+      version: "0.19"
+      link: /tool_runner?tool_id=mdanalysis_angle
+      description: Time series of Angles
+    - name: Cosine Content
+      version: "0.20"
+      link: /tool_runner?tool_id=mdanalysis_cosine_analysis
+      description: "- measure the cosine content of the PCA projection"
+    - name: Dihedral Analysis
+      version: "0.19"
+      link: /tool_runner?tool_id=mdanalysis_dihedral
+      description: Time series of dihedrals
+    - name: Distance Analysis
+      version: "0.20"
+      link: /tool_runner?tool_id=mdanalysis_distance
+      description: "- time series using MDAnalysis"
+    - name: Hydrogen Bond Analysis
+      version: "0.20"
+      link: /tool_runner?tool_id=mdanalysis_hbonds
+      description: "- analyze H-bonds between two segments"
+    - name: Ramachandran Plots
+      version: "0.20"
+      link: /tool_runner?tool_id=mdanalysis_ramachandran_plot
+      description: "- calculate and plot the distribution of two dihedrals in a trajectory"
+    - name: RDF Analysis
+      version: "0.20"
+      link: /tool_runner?tool_id=mdanalysis_rdf
+      description: "- Radial Distribution Function between two atoms"
+    - name: DCCM analysis
+      version: "2.3"
+      link: /tool_runner?tool_id=bio3d_dccm
+      description: Dynamical Cross-Correlation Maps using Bio3D (DCCM)
+    - name: PCA
+      version: "2.3"
+      link: /tool_runner?tool_id=bio3d_pca
+      description: Principle component analysis using Bio3D
+    - name: PCA visualization
+      version: 2.3.4
+      link: /tool_runner?tool_id=bio3d_pca_visualize
+      description: "- generate trajectories of principal components of atomic motion"
+    - name: RMSD Analysis
+      version: 2.3.4
+      link: /tool_runner?tool_id=bio3d_rmsd
+      description: using Bio3D
+    - name: RMSF Analysis
+      version: "2.3"
+      link: /tool_runner?tool_id=bio3d_rmsf
+      description: rmsf using Bio3D
+    - name: mmpbsa mmgbsa
+      version: "19.11"
+      link: /tool_runner?tool_id=mmpbsa_mmgbsa
+      description: "- estimate ligand binding affinities"
+    - name: Extract energy components with GROMACS
+      version: 2022+galaxy1
+      link: /tool_runner?tool_id=gmx_energy
+      description: ""
+    - name: GROMACS Radius of Gyration
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_rg
+      description: of a molecular structure
+    - name: GROMACS RMSD calculation
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_rmsd
+      description: of molecular structures
+    - name: GROMACS minimum distance
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_mindist
+      description: between groups
+    - name: GROMACS clustering
+      version: 2022+galaxy0
+      link: /tool_runner?tool_id=gmx_cluster
+      description: ""
+    - name: GMX_MMGBSA
+      version: "@TOOL_VERSION@+galaxy@GALAXY_VERSION@"
+      link: /tool_runner?tool_id=gmx_mmgbsa
+      description: tool for estimating ligand binding affinities from Gromacs inputs
+    - name: Hydrogen Bond Analysis using VMD
+      version: 1.9.3
+      link: /tool_runner?tool_id=vmd_hbonds
+      description: between two segments of a trajectory
+    - name: Protein-ligand Interaction Profiler
+      version: 1.0+gala xy0
+      link: /tool_runner?tool_id=plip_gmx
+      description: for gromacs complexes
+    - name: Protein-ligand Interaction Profiler
+      version: 1.0+gala xy0
+      link: /tool_runner?tool_id=plip
+      description: for individual protein ligand pairs
+    - name: Protein-ligand Interaction Profiler
+      version: 1.0+gala xy0
+      link: /tool_runner?tool_id=plip_traj
+      description: for quantifying interactions across a trajectory
+    - name: ABFE Setup
+      version: 1.0+galaxy0
+      link: /tool_runner?tool_id=bfee_NAMD_geometric
+      description: of geometrical absolute binding free energy calculations
+    - name: ABFE Run
+      version: 1.0+galaxy0
+      link: /tool_runner?tool_id=bfee_run
+      description: GPU-accelerated geometric absolute binding free energy simulations
+    - name: ABFE Analysis
+      version: 1.0+galaxy0
+      link: /tool_runner?tool_id=bfee_post_treatment
+      description: of geometric absolute binding free energy simulations
+    - name: Alchemical Setup
+      version: 1.2.0.1
+      link: /tool_runner?tool_id=alchemical_setup
+      description: Setup alchemical free energy calculations
+    - name: Alchemical Run
+      version: "2019.1"
+      link: /tool_runner?tool_id=gmx_fep
+      description: Alchemical free energy simulations using gromacs
+    - name: Alchemical Analysis
+      version: 1.0.2
+      link: /tool_runner?tool_id=alchemical_analysis
+      description: Analysis of alchemical free energy calculations

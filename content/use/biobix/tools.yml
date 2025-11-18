@@ -1,0 +1,648 @@
+tools:
+    - name: FastQC
+      version: 0.74+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc%2F0.74%2Bgalaxy0
+      description: Read Quality reports
+    - name: "Step 1: Mapping (can be both RIBO-seq or RNA-seq)"
+      version: "2.0"
+      link: /tool_runner?tool_id=mapping
+      description: using fastq files as input
+    - name: "Step 2: MappingQC"
+      version: "1.0"
+      link: /tool_runner?tool_id=mappingQC
+      description: quality control of mapping results
+    - name: "Step 3: Transcript calling"
+      version: 1.0.0
+      link: /tool_runner?tool_id=transcript_calling
+      description: for all ribosome profiles
+    - name: "Step 3: TIS calling"
+      version: "1.0"
+      link: /tool_runner?tool_id=tis_calling
+      description: Finds all TISes in your ribosome profiling data.
+    - name: "Step 4: TIS overview"
+      version: "1.0"
+      link: /tool_runner?tool_id=tis_overview
+      description: Create a tab separated file from the TIS_overview table.
+    - name: "Step 5: SNP calling"
+      version: 1.3.1
+      link: /tool_runner?tool_id=snp_calling
+      description: using mapped next-generation sequencing reads
+    - name: "Step 6: Translation assembly"
+      version: "1.0"
+      link: /tool_runner?tool_id=2_assembly
+      description: Assembles all translation products
+    - name: "Step 7: Translation Database"
+      version: "0.1"
+      link: /tool_runner?tool_id=Generate+derived+translation+product+database
+      description: Generates a Translation Product database
+    - name: "Step 8: FLOSS calculation"
+      version: "1.0"
+      link: /tool_runner?tool_id=FlossProteoformer
+      description: Calculates first (if not already done for that analysis id) the reference
+          fractions and cut off values based on known protein-coding transcripts. With these,
+          the FLOSS scores are calculated and classified for each possible translation product.
+    - name: Upload File
+      version: 1.1.7
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: UCSC Archaea
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct_archaea1
+      description: table browser
+    - name: NCBI Datasets Genomes
+      version: 13.14.0
+      link: /tool_runner/data_source_redirect?tool_id=ncbi_datasets_source
+      description: import data from the NCBI Datasets Genomes page
+    - name: SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=sra_source
+      description: server
+    - name: EBI SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: InterMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=intermine
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: ZebrafishMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=zebrafishmine
+      description: server
+    - name: EuPathDB
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=eupathdb
+      description: server
+    - name: HbVar
+      version: 2.0.0
+      link: /tool_runner/data_source_redirect?tool_id=hbvar
+      description: Human Hemoglobin Variants and Thalassemias
+    - name: Send to cloud
+      version: 0.1.0
+      link: /tool_runner?tool_id=send_to_cloud
+      description: ""
+    - name: Export datasets
+      version: 0.1.0
+      link: /tool_runner?tool_id=export_remote
+      description: to remote files source
+    - name: Unzip collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: ""
+    - name: Filter empty datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_EMPTY_DATASETS__
+      description: ""
+    - name: Flatten collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: ""
+    - name: Merge collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: ""
+    - name: Relabel identifiers
+      version: 1.0.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: ""
+    - name: Filter collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: ""
+    - name: Sort collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: ""
+    - name: Tag elements
+      version: 1.0.0
+      link: /tool_runner?tool_id=__TAG_FROM_FILE__
+      description: ""
+    - name: Apply rules
+      version: 1.1.0
+      link: /tool_runner?tool_id=__APPLY_RULES__
+      description: ""
+    - name: Build list
+      version: 1.2.0
+      link: /tool_runner?tool_id=__BUILD_LIST__
+      description: ""
+    - name: Extract dataset
+      version: 1.0.1
+      link: /tool_runner?tool_id=__EXTRACT_DATASET__
+      description: ""
+    - name: Duplicate file to collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__DUPLICATE_FILE_TO_COLLECTION__
+      description: ""
+    - name: Parse parameter value
+      version: 0.1.0
+      link: /tool_runner?tool_id=param_value_from_file
+      description: from dataset
+    - name: Convert genome coordinates
+      version: 1.0.6
+      link: /tool_runner?tool_id=liftOver1
+      description: between assemblies and genomes
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.2
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.2
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.1
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.2
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.2
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: BED-to-GFF
+      version: 2.0.0
+      link: /tool_runner?tool_id=bed2gff1
+      description: converter
+    - name: GFF-to-BED
+      version: 1.0.1
+      link: /tool_runner?tool_id=gff2bed1
+      description: converter
+    - name: MAF to BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_BED1
+      description: Converts a MAF formatted file to the BED format
+    - name: MAF to Interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_Interval1
+      description: Converts a MAF formatted file to the Interval format
+    - name: MAF to FASTA
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_To_Fasta1
+      description: Converts a MAF formatted file to FASTA format
+    - name: SFF converter
+      version: 1.0.1
+      link: /tool_runner?tool_id=Sff_extractor
+      description: ""
+    - name: Wig/BedGraph-to-bigWig
+      version: 1.1.1
+      link: /tool_runner?tool_id=wig_to_bigWig
+      description: converter
+    - name: BED-to-bigBed
+      version: 1.0.1
+      link: /tool_runner?tool_id=bed_to_bigBed
+      description: converter
+    - name: Filter
+      version: 1.1.1
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.2.0
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.4
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.2"
+      link: /tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: 0.1.1
+      link: /tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.2"
+      link: /tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Join two Datasets
+      version: 2.1.3
+      link: /tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.4
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Extract Pairwise MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval2Maf_pairwise1
+      description: given a set of genomic intervals
+    - name: Split MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_split_blocks_by_species1
+      description: by Species
+    - name: Stitch MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval_Maf_Merged_Fasta2
+      description: given a set of genomic intervals
+    - name: Stitch Gene blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=GeneBed_Maf_Fasta2
+      description: given a set of coding exon intervals
+    - name: MAF Coverage Stats
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_stats1
+      description: Alignment coverage information
+    - name: Join MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Thread_For_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Limit_To_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_limit_size1
+      description: by Size
+    - name: Extract MAF by block number
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_by_block_number1
+      description: given a set of block numbers and a MAF file
+    - name: Reverse Complement
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_Reverse_Complement_1
+      description: a MAF file
+    - name: Filter MAF
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_filter
+      description: by specified attributes
+    - name: Wiggle-to-Interval
+      version: 1.0.1
+      link: /tool_runner?tool_id=wiggle2simple1
+      description: converter
+    - name: Aggregate datapoints
+      version: 1.1.4
+      link: /tool_runner?tool_id=aggregate_scores_in_intervals2
+      description: Appends the average, min, max of datapoints per interval
+    - name: Gene BED To Exon/Intron/Codon BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=gene2exon1
+      description: expander
+    - name: Summary Statistics
+      version: 1.1.2
+      link: /tool_runner?tool_id=Summary_Statistics1
+      description: for any numerical column
+    - name: Count
+      version: 1.0.3
+      link: /tool_runner?tool_id=Count1
+      description: occurrences of each record
+    - name: VCF to MAF Custom Track
+      version: 1.0.1
+      link: /tool_runner?tool_id=vcf_to_maf_customtrack1
+      description: for display at UCSC
+    - name: g:Profiler
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_linkToGProfile
+      description: tools for functional profiling of gene lists
+    - name: DAVID
+      version: 1.0.1
+      link: /tool_runner?tool_id=hgv_david
+      description: functional annotation for a list of genes
+    - name: LD
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_ldtools
+      description: linkage disequilibrium and tag SNPs
+    - name: MasterVar to pgSnp
+      version: 1.0.0
+      link: /tool_runner?tool_id=master2pgSnp
+      description: Convert from MasterVar to pgSnp format
+    - name: Convert tar to directory
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_tar_to_directory
+      description: ""
+    - name: Convert XTC, DCD, and TRR
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_mdconvert
+      description: ""
+    - name: Convert Interval to BGZIP
+      version: 1.0.3
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bgzip_0
+      description: ""
+    - name: OpenBabel converter for molecular formats
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_molecules
+      description: ""
+    - name: Convert BGZ VCF to tabix
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_vcf_bgzip_to_tabix_0
+      description: ""
+    - name: Convert PDB to GRO
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_Pdb_to_Gro_0
+      description: ""
+    - name: Convert compressed file to uncompressed.
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_gz_to_uncompressed
+      description: ""
+    - name: Convert Genomic Intervals To BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bed_0
+      description: ""
+    - name: Convert uncompressed file to compressed
+      version: 1.16+galaxy0
+      link: /tool_runner?tool_id=CONVERTER_uncompressed_to_gz
+      description: ""
+    - name: Convert BED, GFF, or VCF to BigWig
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_bed_gff_or_vcf_to_bigwig_0
+      description: ""
+    - name: Convert tabular to CSV
+      version: 1.0.0
+      link: /tool_runner?tool_id=tabular_to_csv
+      description: ""
+    - name: Convert CRAM to BAM
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_cram_to_bam_0
+      description: ""
+    - name: Convert Picard Interval List to BED6
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_picard_interval_list_to_bed6
+      description: converter
+    - name: Convert BAM to queryname-sorted BAM
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_bam_to_qname_sorted_bam
+      description: ""
+    - name: Convert MAF to Fasta
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_maf_to_fasta_0
+      description: ""
+    - name: Convert FASTQ files to seek locations
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fastq_to_fqtoc0
+      description: ""
+    - name: Convert neostore.zip files to neostore
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_neostorezip_to_neostore
+      description: ""
+    - name: Convert tabular to dbnsfp
+      version: 1.0.2
+      link: /tool_runner?tool_id=tabular_to_dbnsfp
+      description: ""
+    - name: SMILES to SMILES
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_smiles_to_smiles
+      description: ""
+    - name: Convert Interval to tabix
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_interval_to_tabix_0
+      description: ""
+    - name: Convert Genomic Intervals To Strict BED
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bedstrict_0
+      description: ""
+    - name: Convert Genomic Intervals To Strict BED6
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bed6_0
+      description: ""
+    - name: Convert GFF to Interval Index
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_gff_to_interval_index_0
+      description: ""
+    - name: Convert compressed file to uncompressed.
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_bz2_to_uncompressed
+      description: ""
+    - name: Convert compressed and uncompressed BCF files
+      version: 0.0.1
+      link: /tool_runner?tool_id=CONVERTER_bcf_uncompressed_to_bcf
+      description: ""
+    - name: Convert Wiggle to Interval
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_wiggle_to_interval_0
+      description: ""
+    - name: Convert GFF to Feature Location Index
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_gff_to_fli_0
+      description: ""
+    - name: Convert MOL2 to MOL
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_mol2_to_mol
+      description: ""
+    - name: Convert BigWig to Wiggle
+      version: 377+galaxy0
+      link: /tool_runner?tool_id=bigwigtowig
+      description: Convert bigWig to wig
+    - name: Convert Genomic Intervals To Strict BED12
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bed12_0
+      description: ""
+    - name: Convert Genomic Intervals To Coverage
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bigwig_0
+      description: ""
+    - name: Convert SAM to BAM without sorting
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_sam_to_unsorted_bam
+      description: ""
+    - name: Convert BED to GFF
+      version: 2.0.1
+      link: /tool_runner?tool_id=CONVERTER_bed_to_gff_0
+      description: ""
+    - name: Convert plink pbed to linkage lped
+      version: "0.02"
+      link: /tool_runner?tool_id=pbed2lpedconvert
+      description: ""
+    - name: Convert plink pbed to ld reduced format
+      version: "0.02"
+      link: /tool_runner?tool_id=pbed2ldindepconvert
+      description: ""
+    - name: Convert Wiggle to BigWig
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_wig_to_bigwig
+      description: ""
+    - name: Convert Bam to Bai
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_Bam_Bai_0
+      description: ""
+    - name: Convert FASTA to Tabular
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_tabular
+      description: ""
+    - name: Convert Len file to Linecount
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_len_to_linecount
+      description: ""
+    - name: Convert FASTA to 2bit
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_2bit
+      description: ""
+    - name: Convert FASTA to fai file
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_fai
+      description: ""
+    - name: Convert lped to fped
+      version: "0.02"
+      link: /tool_runner?tool_id=lped2fpedconvert
+      description: ""
+    - name: Convert BAM to BigWig
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_bam_to_bigwig_0
+      description: ""
+    - name: Convert BAM to coordinate-sorted BAM
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_bam_to_coodinate_sorted_bam
+      description: ""
+    - name: Convert InChI to MOL
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_inchi_to_mol
+      description: ""
+    - name: Convert Ref taxonomy to Seq Taxonomy
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_ref_to_seq_taxomony
+      description: converts 2 or 3 column sequence taxonomy file to a 2 column mothur
+          taxonomy_outline format
+    - name: Convert SAM to BigWig
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_sam_to_bigwig_0
+      description: ""
+    - name: Convert FASTA to len file
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_len
+      description: ""
+    - name: Convert Parquet to csv
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_parquet_to_csv
+      description: ""
+    - name: Convert MAF to Genomic Intervals
+      version: 1.0.3
+      link: /tool_runner?tool_id=CONVERTER_maf_to_interval_0
+      description: ""
+    - name: Convert BedGraph to BigWig
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_bedgraph_to_bigwig
+      description: ""
+    - name: Convert FASTA to Bowtie color space Index
+      version: 1.2.3
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_bowtie_color_index
+      description: ""
+    - name: Convert CML to SMILES
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_cml_to_smiles
+      description: ""
+    - name: Convert GRO to PDB
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_Gro_to_Pdb_0
+      description: ""
+    - name: Convert CSV to tabular
+      version: 1.0.0
+      link: /tool_runner?tool_id=csv_to_tabular
+      description: ""
+    - name: Convert SMILES to MOL
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_SMILES_to_MOL
+      description: ""
+    - name: Convert lped to plink pbed
+      version: "0.02"
+      link: /tool_runner?tool_id=lped2pbedconvert
+      description: ""
+    - name: Convert Biom datasets
+      version: 2.1.5
+      link: /tool_runner?tool_id=CONVERTER_biom
+      description: ""
+    - name: Convert FASTA to Bowtie base space Index
+      version: 1.3.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_bowtie_base_index
+      description: ""
+    - name: Convert GFF to BED
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_gff_to_bed_0
+      description: ""
+    - name: Convert BED to Feature Location Index
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_bed_to_fli_0
+      description: ""
