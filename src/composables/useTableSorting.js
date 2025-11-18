@@ -30,6 +30,8 @@ export function useTableSorting() {
             summary: textSortHandler,
             // tier: tierSortHandler,
             region: regionSortHandler,
+            tools_count: toolsCountSortHandler,
+            references_count: referencesCountSortHandler,
         };
 
         return sortHandlers[key] || null;
@@ -112,6 +114,32 @@ export function useTableSorting() {
         const bStr = String(b || "");
 
         return aStr.localeCompare(bStr);
+    };
+
+    /**
+     * Sort handler for tools_count column (handles numeric tool counts)
+     * @param {Object} aRow - First row object
+     * @param {Object} bRow - Second row object
+     * @returns {number} - Sort result (-1, 0, 1)
+     */
+    const toolsCountSortHandler = (aRow, bRow) => {
+        const a = aRow.tools?.length || 0;
+        const b = bRow.tools?.length || 0;
+
+        return a - b;
+    };
+
+    /**
+     * Sort handler for references_count column (handles numeric reference counts)
+     * @param {Object} aRow - First row object
+     * @param {Object} bRow - Second row object
+     * @returns {number} - Sort result (-1, 0, 1)
+     */
+    const referencesCountSortHandler = (aRow, bRow) => {
+        const a = aRow.references?.items?.length || 0;
+        const b = bRow.references?.items?.length || 0;
+
+        return a - b;
     };
 
     /**
@@ -255,6 +283,8 @@ export function useTableSorting() {
         textSortHandler,
         // tierSortHandler,
         regionSortHandler,
+        toolsCountSortHandler,
+        referencesCountSortHandler,
 
         createSortableField,
         createSortableFields,
