@@ -24,14 +24,46 @@
                     ></div>
                     <!-- Table controls -->
                     <b-row class="table-controls">
-                        <!-- Search -->
-                        <b-col cols="2">
+                        <!-- Search with Autocomplete -->
+                        <b-col cols="2" class="position-relative">
                             <b-form-input
                                 :id="`${tab.id}-filter-input`"
                                 v-model="filter"
                                 type="search"
-                                placeholder="Type to Search"
+                                placeholder="Search, tool:name, or reference:genome"
+                                @input="onInputChange"
+                                @keydown="onInputKeydown"
+                                @blur="closeAutocomplete"
+                                autocomplete="off"
                             ></b-form-input>
+
+                            <!-- Autocomplete Dropdown -->
+                            <div
+                                v-if="showAutocomplete && filteredSuggestions.length > 0"
+                                class="autocomplete-dropdown"
+                            >
+                                <div
+                                    v-for="(suggestion, index) in filteredSuggestions"
+                                    :key="`${suggestion.type}-${suggestion.name}`"
+                                    class="autocomplete-item"
+                                    :class="{ selected: index === selectedSuggestionIndex }"
+                                    @mousedown.prevent="selectSuggestion(suggestion)"
+                                    @mouseenter="selectedSuggestionIndex = index"
+                                >
+                                    <span class="suggestion-name">{{ suggestion.name }}</span>
+                                    <b-badge :variant="suggestion.type === 'tool' ? 'primary' : 'success'" class="ml-2">
+                                        {{ suggestion.displayType }}
+                                    </b-badge>
+                                </div>
+                            </div>
+
+                            {{ /* TODO format search labels, reformat pagination labels */ }}
+                            <!-- <small v-if="isToolSearch" class="text-primary">
+                                🔍 Tool search: "{{ toolSearchQuery }}"
+                            </small>
+                            <small v-else-if="isReferenceSearch" class="text-success">
+                                🧬 Reference search: "{{ referenceSearchQuery }}"
+                            </small> -->
                         </b-col>
                         <!-- Items per page selector -->
                         <b-col cols="2">
@@ -90,7 +122,8 @@
                         sort-by="title"
                         :per-page="perPage"
                         :current-page="tab.currentPage"
-                        :filter="filter"
+                        :filter="processedFilter"
+                        :filter-function="customFilter"
                         :filter-included-fields="['filterKey']"
                         :sort-compare="customSortCompare"
                         @filtered="(items, total) => updateDisplayed(tab, total)"
@@ -151,6 +184,70 @@
                                 {{ keywords[data.item.scope].text }}
                             </g-link>
                         </template>
+                        <template #cell(tools_count)="data">
+                            <div v-if="isToolSearch && toolSearchQuery">
+                                <!-- Tool search mode: show matching tools with versions -->
+                                <div v-if="getMatchingTools(data.item, toolSearchQuery).length > 0">
+                                    <div
+                                        v-for="tool in getMatchingTools(data.item, toolSearchQuery)"
+                                        :key="`${tool.name}-${tool.version}`"
+                                        class="tool-match"
+                                    >
+                                        <strong>{{ tool.name }}</strong>
+                                        <br />
+                                        <small class="text-muted">v{{ tool.version }}</small>
+                                    </div>
+                                </div>
+                                <span v-else>-</span>
+                            </div>
+                            <div v-else>
+                                <!-- Normal mode: show total count -->
+                                <span v-if="data.item.tools && data.item.tools.length > 0">
+                                    <a :href="data.item.url" target="_NEW">{{
+                                        formatNumber(data.item.tools.length)
+                                    }}</a>
+                                </span>
+                                <span v-else>-</span>
+                            </div>
+                        </template>
+                        <template #cell(references_count)="data">
+                            <div v-if="isReferenceSearch && referenceSearchQuery">
+                                <!-- Reference search mode: show matching references -->
+                                <div v-if="getMatchingReferences(data.item, referenceSearchQuery).length > 0">
+                                    <div
+                                        v-for="(reference, idx) in getMatchingReferences(
+                                            data.item,
+                                            referenceSearchQuery,
+                                        ).slice(0, 5)"
+                                        :key="idx"
+                                        class="reference-match"
+                                    >
+                                        <small>{{ reference.name }}</small>
+                                    </div>
+                                    <small
+                                        v-if="getMatchingReferences(data.item, referenceSearchQuery).length > 5"
+                                        class="text-muted"
+                                    >
+                                        +{{ getMatchingReferences(data.item, referenceSearchQuery).length - 5 }} more
+                                    </small>
+                                </div>
+                                <span v-else>-</span>
+                            </div>
+                            <div v-else>
+                                <!-- Normal mode: show total count and type -->
+                                <span
+                                    v-if="
+                                        data.item.references &&
+                                        data.item.references.items &&
+                                        data.item.references.items.length > 0
+                                    "
+                                >
+                                    {{ formatNumber(data.item.references.items.length) }}
+                                    {{ data.item.references.type }}
+                                </span>
+                                <span v-else>-</span>
+                            </div>
+                        </template>
                     </b-table>
                     <!-- Post-table text (optional). -->
                     <div
@@ -201,6 +298,8 @@ const tabs = [
             createSortableField("platform", "Resource"),
             { key: "link", label: "Server" },
             { key: "summary", label: "Summary" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             { key: "keywords", label: "Keywords" },
         ],
     },
@@ -214,6 +313,8 @@ const tabs = [
             { key: "cloud", label: "Cloud" },
             { key: "deployable", label: "Deployable" },
             { key: "summary", label: "Summary" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             { key: "keywords", label: "Keywords" },
         ],
     },
@@ -225,6 +326,8 @@ const tabs = [
             // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
             { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
+            createSortableField("tools_count", "Tools"),
+            createSortableField("references_count", "References"),
             createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" },
         ],
@@ -333,11 +436,20 @@ export default {
         return {
             perPage: 20,
             perPageOptions: [10, 20, 40, 80, { value: 1000, text: "All" }],
+            items: [],
             filter: "",
+            isToolSearch: false,
+            toolSearchQuery: "",
+            isReferenceSearch: false,
+            referenceSearchQuery: "",
             keywords: KEYWORDS,
             tabs: tabs,
             pageInserts: {},
             tabState: null,
+            // Autocomplete state
+            showAutocomplete: false,
+            selectedSuggestionIndex: -1,
+            autocompleteInputValue: "",
         };
     },
 
@@ -345,15 +457,309 @@ export default {
         inserts() {
             return this.pageInserts || {};
         },
+
+        processedFilter() {
+            // Pure computed property - just returns the filter value
+            // The watcher on 'filter' handles setting search mode flags
+            if (this.filter.toLowerCase().startsWith("tool:")) {
+                return ""; // Return empty to trigger custom filter
+            } else if (this.filter.toLowerCase().startsWith("reference:")) {
+                return ""; // Return empty to trigger custom filter
+            } else {
+                return this.filter;
+            }
+        },
+
         platforms() {
             const platforms = this.$page.platforms.edges.map((edge) => edge.node);
             platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
+            const toolsMap = this.buildToolsMap();
+            const referencesMap = this.buildReferencesMap();
+
+            platforms.forEach((platform) => {
+                const platformPath = platform.path.replace(/\/$/, ""); // Remove trailing slash
+                platform.tools = toolsMap[platformPath] || [];
+                platform.references = referencesMap[platformPath] || [];
+            });
+
             return platforms;
+        },
+
+        // Build autocomplete suggestions from all tools and references
+        allSuggestions() {
+            const suggestions = [];
+            const uniqueTools = new Set();
+            const uniqueReferences = new Set();
+
+            // Collect all unique tool names
+            if (this.$page.tools && this.$page.tools.edges) {
+                this.$page.tools.edges.forEach((edge) => {
+                    const toolsData = edge.node;
+                    if (toolsData.tools) {
+                        toolsData.tools.forEach((tool) => {
+                            if (tool.name && !uniqueTools.has(tool.name)) {
+                                uniqueTools.add(tool.name);
+                                suggestions.push({
+                                    name: tool.name,
+                                    type: "tool",
+                                    displayType: "tool",
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+
+            // Collect all unique reference names
+            if (this.$page.references && this.$page.references.edges) {
+                this.$page.references.edges.forEach((edge) => {
+                    const referencesData = edge.node;
+                    if (referencesData.references && referencesData.references[0]) {
+                        const refObj = referencesData.references[0];
+                        const refType = refObj.type || "genome";
+                        if (refObj.items) {
+                            refObj.items.forEach((ref) => {
+                                if (ref.name && !uniqueReferences.has(ref.name)) {
+                                    uniqueReferences.add(ref.name);
+                                    suggestions.push({
+                                        name: ref.name,
+                                        type: "reference",
+                                        displayType: refType,
+                                    });
+                                }
+                            });
+                        }
+                    }
+                });
+            }
+            return suggestions;
+        },
+
+        // Filter suggestions based on current input
+        filteredSuggestions() {
+            const input = this.autocompleteInputValue.toLowerCase().trim();
+
+            // Don't show suggestions if input is empty or already has tool:/reference: prefix
+            if (!input || input.startsWith("tool:") || input.startsWith("reference:")) {
+                return [];
+            }
+
+            // Filter and rank suggestions
+            const matches = this.allSuggestions.filter((suggestion) => suggestion.name.toLowerCase().includes(input));
+
+            // Sort by relevance: starts-with matches first, then contains
+            matches.sort((a, b) => {
+                const aName = a.name.toLowerCase();
+                const bName = b.name.toLowerCase();
+                const aStartsWith = aName.startsWith(input);
+                const bStartsWith = bName.startsWith(input);
+
+                if (aStartsWith && !bStartsWith) return -1;
+                if (!aStartsWith && bStartsWith) return 1;
+                return aName.localeCompare(bName);
+            });
+
+            // Limit to 15 suggestions for performance
+            const limited = matches.slice(0, 15);
+            return limited;
         },
     },
 
     methods: {
         mdToHtml,
+
+        formatNumber(num) {
+            // Format number with commas (e.g., 1000 -> 1,000)
+            return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        },
+
+        // Autocomplete methods
+        onInputChange(value) {
+            this.autocompleteInputValue = value;
+            this.filter = value;
+            this.selectedSuggestionIndex = -1;
+            // Show autocomplete if there are suggestions
+            if (this.filteredSuggestions.length > 0) {
+                this.showAutocomplete = true;
+            } else {
+                this.showAutocomplete = false;
+            }
+        },
+
+        onInputKeydown(event) {
+            // Only handle special keys when autocomplete is showing
+            if (!this.showAutocomplete || this.filteredSuggestions.length === 0) {
+                return;
+            }
+
+            switch (event.key) {
+                case "ArrowDown":
+                    event.preventDefault();
+                    this.selectedSuggestionIndex = Math.min(
+                        this.selectedSuggestionIndex + 1,
+                        this.filteredSuggestions.length - 1,
+                    );
+                    break;
+
+                case "ArrowUp":
+                    event.preventDefault();
+                    this.selectedSuggestionIndex = Math.max(this.selectedSuggestionIndex - 1, -1);
+                    break;
+
+                case "Enter":
+                    if (this.selectedSuggestionIndex >= 0) {
+                        event.preventDefault();
+                        this.selectSuggestion(this.filteredSuggestions[this.selectedSuggestionIndex]);
+                    }
+                    break;
+
+                case "Tab":
+                    if (this.selectedSuggestionIndex >= 0) {
+                        event.preventDefault();
+                        this.selectSuggestion(this.filteredSuggestions[this.selectedSuggestionIndex]);
+                    }
+                    break;
+
+                case "ArrowRight":
+                    if (this.selectedSuggestionIndex >= 0) {
+                        event.preventDefault();
+                        this.selectSuggestion(this.filteredSuggestions[this.selectedSuggestionIndex]);
+                    }
+                    break;
+
+                case "Escape":
+                    event.preventDefault();
+                    this.showAutocomplete = false;
+                    this.selectedSuggestionIndex = -1;
+                    break;
+            }
+        },
+
+        selectSuggestion(suggestion) {
+            const prefix = suggestion.type === "tool" ? "tool:" : "reference:";
+            const newFilterValue = prefix + suggestion.name;
+
+            this.filter = newFilterValue;
+            this.autocompleteInputValue = this.filter;
+            this.showAutocomplete = false;
+            this.selectedSuggestionIndex = -1;
+        },
+
+        closeAutocomplete() {
+            // Delay closing to allow click events to fire
+            setTimeout(() => {
+                this.showAutocomplete = false;
+                this.selectedSuggestionIndex = -1;
+            }, 200);
+        },
+
+        buildToolsMap() {
+            const toolsMap = {};
+
+            if (this.$page.tools && this.$page.tools.edges) {
+                this.$page.tools.edges.forEach((edge) => {
+                    const toolsData = edge.node;
+
+                    // Only process datasets that have tools and are named "tools"
+                    if (!toolsData.tools || toolsData.fileInfo?.name !== "tools") {
+                        return;
+                    }
+
+                    // Extract platform path from dataset path
+                    let pathMatch = toolsData.path.match(/^\/dataset:(\/use\/[^/]+)\/tools\/?$/);
+
+                    if (pathMatch && toolsData.tools) {
+                        const platformPath = pathMatch[1];
+                        toolsMap[platformPath] = toolsData.tools;
+                    }
+                });
+            }
+            return toolsMap;
+        },
+
+        buildReferencesMap() {
+            const referencesMap = {};
+            if (this.$page.references && this.$page.references.edges) {
+                this.$page.references.edges.forEach((edge) => {
+                    const referencesData = edge.node;
+
+                    // Only process references that have references array and are named "references"
+                    if (!referencesData.references || referencesData.fileInfo?.name !== "references") {
+                        return;
+                    }
+
+                    // Extract platform path from dataset path
+                    let pathMatch = referencesData.path.match(/^\/dataset:(\/use\/[^/]+)\/references\/?$/);
+
+                    if (pathMatch && referencesData.references) {
+                        const platformPath = pathMatch[1];
+                        // Extract items and type from references array
+                        const items = [];
+                        let referenceType = "";
+                        referencesData.references.forEach((ref) => {
+                            if (ref.items) {
+                                items.push(...ref.items);
+                            }
+                            if (ref.type && !referenceType) {
+                                referenceType = ref.type;
+                            }
+                        });
+                        referencesMap[platformPath] = {
+                            items: items,
+                            type: referenceType,
+                            length: items.length,
+                        };
+                    }
+                });
+            }
+
+            return referencesMap;
+        },
+
+        getMatchingTools(platform, toolName) {
+            if (!platform.tools || !toolName) {
+                return [];
+            }
+
+            return platform.tools.filter((tool) => tool.name && tool.name.toLowerCase() === toolName.toLowerCase());
+        },
+
+        getMatchingReferences(platform, referenceName) {
+            if (!platform.references || !platform.references.items || !referenceName) {
+                return [];
+            }
+
+            return platform.references.items.filter(
+                (reference) => reference.name && reference.name.toLowerCase() === referenceName.toLowerCase(),
+            );
+        },
+
+        platformHasTool(platform, toolName) {
+            return this.getMatchingTools(platform, toolName).length > 0;
+        },
+
+        platformHasReference(platform, referenceName) {
+            return this.getMatchingReferences(platform, referenceName).length > 0;
+        },
+
+        customFilter(item, filter) {
+            // Custom filter function for b-table
+            // Bootstrap Vue calls this for EACH item individually
+            // Return true to include the item, false to exclude it
+
+            if (this.isToolSearch && this.toolSearchQuery) {
+                return this.platformHasTool(item, this.toolSearchQuery);
+            }
+            if (this.isReferenceSearch && this.referenceSearchQuery) {
+                return this.platformHasReference(item, this.referenceSearchQuery);
+            }
+            // Otherwise use default filtering
+            if (!filter) {
+                return true;
+            }
+            const filterLower = filter.toLowerCase();
+            return item.filterKey && item.filterKey.toLowerCase().includes(filterLower);
+        },
 
         getTierValue(item) {
             const { getTierValue } = useTableSorting();
@@ -458,6 +864,28 @@ export default {
     },
 
     watch: {
+        filter(newFilter) {
+            // Watch filter changes and set search mode flags
+            const filterLower = newFilter.toLowerCase();
+
+            if (filterLower.startsWith("tool:")) {
+                this.isToolSearch = true;
+                this.toolSearchQuery = newFilter.substring(5).trim().toLowerCase();
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            } else if (filterLower.startsWith("reference:")) {
+                this.isReferenceSearch = true;
+                this.referenceSearchQuery = newFilter.substring(10).trim().toLowerCase();
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+            } else {
+                this.isToolSearch = false;
+                this.toolSearchQuery = "";
+                this.isReferenceSearch = false;
+                this.referenceSearchQuery = "";
+            }
+        },
+
         "$route.query.platform_group"(newGroup, oldGroup) {
             // Handle direct URL navigation or browser back/forward
             if (newGroup !== oldGroup && this.tabState) {
@@ -505,6 +933,44 @@ query {
             }
         }
     }
+    tools: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                tools {
+                    name
+                    version
+                    link
+                    description
+                }
+            }
+        }
+    }
+    references: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                references {
+                    type
+                    items {
+                        name
+                    }
+                }
+            }
+        }
+    }
 }
 </page-query>
 
@@ -517,6 +983,54 @@ a.nav-link {
 }
 footer.page-footer {
     font-size: 100%;
+}
+
+/* Autocomplete dropdown styling */
+.autocomplete-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 15px;
+    right: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    margin-top: -1px;
+}
+
+.autocomplete-item {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.15s ease;
+}
+
+.autocomplete-item:last-child {
+    border-bottom: none;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+    background-color: #f8f9fa;
+}
+
+.autocomplete-item.selected {
+    background-color: #e9ecef;
+}
+
+.suggestion-name {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 0.5rem;
 }
 
 /* Tier badge styling */
@@ -568,5 +1082,34 @@ footer.page-footer {
 ::v-deep .table th[aria-sort="descending"] div::after {
     content: "\2193";
     padding-left: 15px;
+}
+
+/* Tool match styling */
+.tool-match {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.tool-match:last-child {
+    border-bottom: none;
+}
+
+.tool-match strong {
+    color: #495057;
+}
+
+/* Reference match styling */
+.reference-match {
+    padding: 0.15rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.reference-match:last-child {
+    border-bottom: none;
+}
+
+.reference-match small {
+    color: #495057;
+    line-height: 1.4;
 }
 </style>

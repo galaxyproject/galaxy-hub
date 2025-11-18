@@ -1,0 +1,469 @@
+tools:
+    - name: Upload File
+      version: 1.1.6
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Convert MAT or RDATA to TAB
+      version: 0.0.2
+      link: /tool_runner?tool_id=V17.10_convertbin2tab_mult_v2
+      description: ""
+    - name: Convert JDX to TAB
+      version: 0.0.1
+      link: /tool_runner?tool_id=V17.10_jdx2tab
+      description: convert JCAMP file in tabular file
+    - name: Conversions between 3d MAT and 2d TAB
+      version: 0.0.1
+      link: /tool_runner?tool_id=V20.10_3dmat2tab_sci
+      description: ""
+    - name: Add header and sample labels in dataset
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_header_r
+      description: ""
+    - name: Merge files
+      version: 0.0.1
+      link: /tool_runner?tool_id=V23.10_merge_r
+      description: ""
+    - name: Delete/extracts
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_edit_r
+      description: rows or columns
+    - name: Delete/extract lines/columns
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_applyfind__r
+      description: delete or extract row(s) or column(s) from a logical filter
+    - name: Find  files
+      version: 0.0.2
+      link: /tool_runner?tool_id=V19.10_find_r
+      description: find line(s) or column(s) in a file from a condition
+    - name: Sort files
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_sort_r
+      description: ""
+    - name: Transpose matrix
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_transpose_sci
+      description: ""
+    - name: 2D->3Dmatrix
+      version: "16.07"
+      link: /tool_runner?tool_id=V19.10_matrix2cube_sci
+      description: in a .mat file
+    - name: Contingency table
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_contingencytable_r
+      description: ""
+    - name: Correlation matrix
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_corr_r
+      description: ""
+    - name: Maha+Eucl distances
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_distance_r
+      description: compute statistic distance
+    - name: Matrix distance
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_distancematrix_r
+      description: computes a square matrix of distances
+    - name: Mean
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_mean_r
+      description: ""
+    - name: Matrix summary
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_matrixsummary_sci
+      description: ""
+    - name: Summary
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_summary_r
+      description: ""
+    - name: Standard deviation
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_stdev_r
+      description: ""
+    - name: Barplot
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_barplot_r
+      description: ""
+    - name: Boxplot
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_ggboxplot_r
+      description: ""
+    - name: Correlation circle
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_corrcircleplot_r
+      description: ""
+    - name: Correlogram
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_correlogram_r
+      description: ""
+    - name: Heatmap
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_heatmap_r
+      description: ""
+    - name: Histogram
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_gghistogram_r
+      description: ""
+    - name: QQplot
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_qqplot_r
+      description: ""
+    - name: Scatter plot
+      version: 1.0.1
+      link: /tool_runner?tool_id=V22.08_xyplot_r
+      description: for multiple series and graph types
+    - name: Matrix of correlation plot
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_corrplot_r
+      description: ""
+    - name: Spectra plot
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_matplot_r
+      description: with transpose option
+    - name: Blunderbuss data
+      version: "20.10"
+      link: /tool_runner?tool_id=V22.10_blunderbuss_sci
+      description: as input of "spectra plot"
+    - name: Interactive graph
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_xyplotinteractif_r
+      description: create interactive scatter plot
+    - name: Split dataset
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_split_r
+      description: in two datasets, calibration and validation
+    - name: SC
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_scale_r
+      description: Scale
+    - name: LOG
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_log_r
+      description: Logarithm-Power
+    - name: DT
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_detrend_sci
+      description: Detrend
+    - name: SG
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_savgol_sci
+      description: Savitzky-Golay derivate
+    - name: VSN
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_vsn_oct
+      description: Variable Sorting for Normalisation
+    - name: PQN
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_pqn_oct
+      description: Probabilistic Quotient Normalisation
+    - name: SNV
+      version: "20.10"
+      link: /tool_runner?tool_id=V20.10_snv_sci
+      description: Standard Normal Variate
+    - name: RNV
+      version: "20.05"
+      link: /tool_runner?tool_id=V21.03_rnv_oct
+      description: Robust Normal Variate
+    - name: MSC
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_msc_r
+      description: Multiplicative Scatter Correction
+    - name: conversion nm-cm-1
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_pretreatconversion_r
+      description: "- conversion wavelength unit"
+    - name: SF
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_simufilter_sci
+      description: Simufilter
+    - name: GR
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_gapremove_sci
+      description: GapRemove
+    - name: PCA
+      version: 1.0.0
+      link: /tool_runner?tool_id=pca_sci0
+      description: Principal Component Analysis
+    - name: Applies an exploration model to a new dataset
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_applypca_sci
+      description: ""
+    - name: CCA
+      version: 0.0.1
+      link: /tool_runner?tool_id=V22.08_cca_oct
+      description: Common Components Analysis
+    - name: Applies a CCA model to a new dataset
+      version: 0.0.1
+      link: /tool_runner?tool_id=V22.08_apply_cca_oct
+      description: ""
+    - name: PLSR
+      version: 0.0.3
+      link: /tool_runner?tool_id=V19.10_plsr_sci
+      description: Partial Least Squares Regression
+    - name: Tune the dimension
+      version: 0.0.3
+      link: /tool_runner?tool_id=V19.10_dimensiontune_sci1
+      description: of a PLSR/PCR model
+    - name: PCR
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_pcr_sci
+      description: Principal Component Regression
+    - name: MLR
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_mlr_sci
+      description: Multiple Linear Regression
+    - name: Covsel MLR
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_covselmlr_sci
+      description: variable selection by covsel, then MLR
+    - name: SLR
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_linearregress_r
+      description: Simple Linear Regression
+    - name: Apply a regression model
+      version: 0.0.3
+      link: /tool_runner?tool_id=V20.10_regres_mult
+      description: to a new dataset
+    - name: Fit KNN-LWPLSR
+      version: "20.04"
+      link: /tool_runner?tool_id=2021_12_knn_lwplsr
+      description: ""
+    - name: Tune KNN-LWPLSR
+      version: "20.04"
+      link: /tool_runner?tool_id=2021_12_tune_knn_lwplsr
+      description: ""
+    - name: Apply KNN-LWPLSR
+      version: "20.04"
+      link: /tool_runner?tool_id=2021_12_apply_knnlwplsr2
+      description: ""
+    - name: HC
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_hclust_r
+      description: Hierarchical Clustering
+    - name: KM
+      version: 1.0.1
+      link: /tool_runner?tool_id=V19.10_kmeans_r
+      description: Kmeans Clustering
+    - name: FDA
+      version: 0.0.2
+      link: /tool_runner?tool_id=V21.11_fda_sci
+      description: Factorial Discriminant Analysis
+    - name: KNNDA
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_knnda_sci
+      description: K-Nearest-Neighbor Discriminant Analysis
+    - name: PLS-DA
+      version: 0.0.2
+      link: /tool_runner?tool_id=V20.10_plsda_sci
+      description: Partial Least Square Discriminant Analysis
+    - name: PLS-FDA
+      version: 0.0.2
+      link: /tool_runner?tool_id=V20.10_plsfda_sci
+      description: Partial Least Square - Factorial Discriminant Analysis
+    - name: CovselFDA
+      version: 0.0.2
+      link: /tool_runner?tool_id=V20.10_covselfda_sci3
+      description: ""
+    - name: CART
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_cart_r
+      description: Classification And Regression Tree
+    - name: Apply a discrimination model
+      version: "20.10"
+      link: /tool_runner?tool_id=V20.10_discrimapply_mult_v0
+      description: to a new dataset
+    - name: Fit KNN-LWPLSR-DA
+      version: "20.04"
+      link: /tool_runner?tool_id=2022_07_knn_lwplsrda
+      description: ""
+    - name: Tune KNN-LWPLSR-DA
+      version: "20.04"
+      link: /tool_runner?tool_id=2022_07_tune_knnlwplsrda
+      description: ""
+    - name: Apply KNN-LWPLSR-DA
+      version: "20.04"
+      link: /tool_runner?tool_id=2022_07_apply_knnlwplsrda
+      description: ""
+    - name: CovSel
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_covsel_sci
+      description: Covariate Selection
+    - name: SPA
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_spa_oct
+      description: Successive Projections Algorithm
+    - name: VIP
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_vip_oct
+      description: Variable Importance in Projection - PLS
+    - name: EPO
+      version: "20.05"
+      link: /tool_runner?tool_id=V19.10_epo_sci
+      description: External Parameter Orthogonalization
+    - name: EROS
+      version: "20.05"
+      link: /tool_runner?tool_id=V19.10_eros_sci
+      description: Error Removal by Orthogonal Substraction
+    - name: Apply a orthogonalization model to a new set of spectra
+      version: 0.0.3
+      link: /tool_runner?tool_id=V20.10_orthoprojapply_sci
+      description: ""
+    - name: Bias-slope correction
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_biasslope_r
+      description: ""
+    - name: TOP optimization
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_topoptim_sci
+      description: of Transfer Orthogonal Projection
+    - name: TOP apply
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_topapply_sci
+      description: of Transfer Orthogonal Projection
+    - name: PDS
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_pds_sci
+      description: Piecewise Direct Standardization
+    - name: ICA
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_ica_sci
+      description: Independent Component Analysis
+    - name: Simplisma resolution
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_simplisma_oct
+      description: ""
+    - name: MCR-ALS
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_mcrals_r
+      description: Multivariate Curve Resolution Alternating Least Squares
+    - name: tune PARAFAC
+      version: 0.0.3
+      link: /tool_runner?tool_id=V19.10_parafactune_mult
+      description: ""
+    - name: PARAFAC
+      version: 0.0.2
+      link: /tool_runner?tool_id=V19.10_parafac_mult
+      description: ""
+    - name: ACOM
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_acom_sci
+      description: co-inertia analysis and common component
+    - name: CCSWA
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_ccswa
+      description: common components and specific weights analysis
+    - name: MB H-Builder
+      version: "20.05"
+      link: /tool_runner?tool_id=V19.10_mb_build_hmb_sci1
+      description: horiz. tables
+    - name: MB V-Builder
+      version: "20.05"
+      link: /tool_runner?tool_id=V19.10_mb_build_vmb_sci1
+      description: vertic. tables
+    - name: MB preprocessings
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_mb_preprocessing_oct1
+      description: the tables
+    - name: MB weight
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_mb_weight_tables_oct1
+      description: the tables
+    - name: MB methods
+      version: "20.05"
+      link: /tool_runner?tool_id=V20.10_mb_computes_oct1
+      description: computed
+    - name: MB export results
+      version: 0.0.3
+      link: /tool_runner?tool_id=V19.10_mbexportcsv_sci1
+      description: in csv
+    - name: mb4chemGraphs
+      version: 1.0.0
+      link: /tool_runner?tool_id=mb4chemGraphs
+      description: Graphical representation of multi-block analysis results
+    - name: SO export results
+      version: 0.0.3
+      link: /tool_runner?tool_id=V19.10_soexportcsv_sci
+      description: ""
+    - name: SO builder
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_mb_build_somb_sci
+      description: ""
+    - name: SOplsr fit
+      version: 0.0.3
+      link: /tool_runner?tool_id=V24.09_soplsfit_oct
+      description: ""
+    - name: SOplsr apply
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_soplsapply_oct
+      description: ""
+    - name: SOplsr tune
+      version: 0.0.2
+      link: /tool_runner?tool_id=V24.09_soplstune_oct
+      description: ""
+    - name: SOcovsel fit
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_socovselfit_oct
+      description: ""
+    - name: SOcovsel apply
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_socovselapply_oct
+      description: ""
+    - name: SOcovsel tune
+      version: 0.0.2
+      link: /tool_runner?tool_id=V24.09_socovseltune_oct
+      description: ""
+    - name: SO export results
+      version: 0.0.3
+      link: /tool_runner?tool_id=V19.10_soexportcsv_sci
+      description: ""
+    - name: SO builder
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_mb_build_somb_sci
+      description: ""
+    - name: soplsda fit
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_soplsdafit_oct
+      description: ""
+    - name: soplsda apply
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_soplsdaapply_oct_v3
+      description: ""
+    - name: soplsda tune
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_soplsdatune_oct_v0
+      description: ""
+    - name: socovselda fit
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_socovseldafit_oct
+      description: ""
+    - name: socovselda apply
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_socovseldaapply_oct
+      description: ""
+    - name: socovselda tune
+      version: 0.0.1
+      link: /tool_runner?tool_id=V24.09_socovseldatune_oct_v0
+      description: ""
+    - name: SO export results
+      version: 0.0.3
+      link: /tool_runner?tool_id=V19.10_soexportcsv_sci
+      description: ""
+    - name: "Anovas "
+      version: "16.07"
+      link: /tool_runner?tool_id=anovas_r
+      description: F values for multiple variables
+    - name: ASCA
+      version: "16.07"
+      link: /tool_runner?tool_id=V19.10_asca_sci
+      description: anova simultaneous components analysis
+    - name: AP
+      version: 20.05>
+      link: /tool_runner?tool_id=V20.10_accuracyprofile
+      description: Accuracy profile
+    - name: Calculates uncertainties
+      version: 0.0.1
+      link: /tool_runner?tool_id=V19.10_calcaccuracyprofile
+      description: for given concentrations from a model built with accuracy profile

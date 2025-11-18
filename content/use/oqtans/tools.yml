@@ -1,0 +1,569 @@
+tools:
+    - name: Upload File
+      version: 1.1.4
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: EBI SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: Get Microbial Data
+      version: 1.0.0
+      link: /tool_runner?tool_id=microbial_import1
+      description: ""
+    - name: BioMart
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=biomart
+      description: Ensembl server
+    - name: CBI Rice Mart
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=cbi_rice_mart
+      description: rice mart
+    - name: GrameneMart
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=gramenemart
+      description: Central server
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: MotifGen (FASTA)
+      version: 0.3.3
+      link: /tool_runner?tool_id=motifgen-fasta
+      description: Generation of a sequence toy data set for motif discovery in FASTA
+          format.
+    - name: MotifGen (ARFF)
+      version: 0.3.3
+      link: /tool_runner?tool_id=motifgen-arff
+      description: Generation of a sequence toy data set for motif discovery in ARFF format.
+    - name: CloudGen (ARFF)
+      version: 0.3.3
+      link: /tool_runner?tool_id=cloudgen
+      description: Generation of a toy data set
+    - name: Train and Test SVMs
+      version: 0.3.3
+      link: /tool_runner?tool_id=easysvm
+      description: Train SVMs and predict for given hyper-parameters
+    - name: Evaluate Predictions
+      version: 0.3.3
+      link: /tool_runner?tool_id=eval
+      description: Use predictions and labeled examples to measure prediction performance
+    - name: SVM Model Selection
+      version: 0.3.3
+      link: /tool_runner?tool_id=easymodelsel
+      description: Find the best combination of SVM hyper-parameters
+    - name: Positional Oligomer Matrices
+      version: 0.3.3
+      link: /tool_runner?tool_id=easypoim
+      description: Visualize SVMs with WD kernel
+    - name: (0) Examples and Instructions
+      version: 1.0.0
+      link: /tool_runner?tool_id=kirmes_instructions
+      description: "Instructions on how to use the KIRMES modular   \tprediction and classification\
+          \ tools, including examples   \twith predefined datasets."
+    - name: (1) KIRMES K-Mer Counting
+      version: 1.0.0
+      link: /tool_runner?tool_id=kirmes_k_mer_counting
+      description: Find over-represented motifs using a k-mer counting strategy
+    - name: (1) PRIORITY Gibbs Sampler
+      version: 1.0.0
+      link: /tool_runner?tool_id=kirmes_priority
+      description: Find over-represented motifs using Raluca Gordan's PRIORITY program
+    - name: (1) INCLUSive MotifSampler
+      version: 1.0.0
+      link: /tool_runner?tool_id=kirmes_motifsampler
+      description: Find over-represented motifs in a FASTA file
+    - name: (2) Prepare Prediction Dataset
+      version: 1.0.0
+      link: /tool_runner?tool_id=kirmes_motifscanner
+      description: Find a set of motifs in a FASTA file
+    - name: (3) KIRMES Training and Prediction
+      version: 1.0.0
+      link: /tool_runner?tool_id=kirmes_training
+      description: Trains KIRMES using a set of positive and negative    regulatory regions
+    - name: ARTS
+      version: 1.0.0
+      link: /tool_runner?tool_id=arts
+      description: Accurate transcription start site prediction
+    - name: ASP
+      version: "0.3"
+      link: /tool_runner?tool_id=asp
+      description: Accurate splice site prediction
+    - name: NuPoP
+      version: "0.1"
+      link: /tool_runner?tool_id=nupop
+      description: Predict nucleosome positioning for DNA sequences of any length
+    - name: Examples and Instructions (v0.2)
+      version: "0.2"
+      link: /tool_runner?tool_id=mgeneweb_instructions
+      description: Instructions on how to use the mGene monolithic tools and examples
+          with predefined datasets
+    - name: mGeneTrain (v0.2)
+      version: "0.2"
+      link: /tool_runner?tool_id=mgenetrain
+      description: Trains mGene using set of known genes
+    - name: mGenePredict (v0.2)
+      version: "0.2"
+      link: /tool_runner?tool_id=mgenepredict
+      description: Predicts genes using a trained mGene system
+    - name: mGeneEval (v0.2)
+      version: "0.2"
+      link: /tool_runner?tool_id=mgeneeval
+      description: Computes performance measures based on gene labels and predictions
+    - name: Examples and Instructions
+      version: "0.4"
+      link: /tool_runner?tool_id=mgene_tools_instructions_0.4
+      description: Instructions on how to use the mGene tools with predefined datasets
+    - name: GenomeTool
+      version: "0.4"
+      link: /tool_runner?tool_id=genometool
+      description: Creates a genome information object (GIO) from FASTA sequences
+    - name: mGene_GFFParser
+      version: "0.4"
+      link: /tool_runner?tool_id=mgene_parsegff_0.4
+      description: Generates an annotation gene structure object (AGS)
+    - name: Anno2SignalLabel
+      version: "0.4"
+      link: /tool_runner?tool_id=anno2label_0.4
+      description: Generates labeled positions from an annotation gene structure (AGS)
+    - name: SignalTrain
+      version: "0.4"
+      link: /tool_runner?tool_id=signaltrain_0.4
+      description: Trains a signal predictor using a set of labeled positions
+    - name: SignalPredict
+      version: "0.4"
+      link: /tool_runner?tool_id=signalpredict_0.4
+      description: Applies a trained signal predictor to the whole genome
+    - name: SignalEval
+      version: "0.4"
+      link: /tool_runner?tool_id=signaleval_0.4
+      description: Computes performance measures based on signal labels and predictions
+    - name: Anno2ContentLabel
+      version: "0.4"
+      link: /tool_runner?tool_id=anno2contentlabel_0.4
+      description: Generates labeled content segments from an annotation
+    - name: ContentTrain
+      version: "0.4"
+      link: /tool_runner?tool_id=contenttrain_0.4
+      description: Trains a content predictor using a set of labeled segments
+    - name: ContentPredict
+      version: "0.4"
+      link: /tool_runner?tool_id=contentpredict_0.4
+      description: Applies a trained content predictor to the whole genome
+    - name: ContentEval
+      version: "0.4"
+      link: /tool_runner?tool_id=contenteval_0.4
+      description: Computes performance measures based on content (segment) labels and
+          predictions
+    - name: GeneTrain
+      version: "0.4"
+      link: /tool_runner?tool_id=genetrain_0.4
+      description: Trains mGene using set of known genes and signal predictions
+    - name: GenePredict
+      version: "0.4"
+      link: /tool_runner?tool_id=genepredict_0.4
+      description: Genome-wide gene prediction using the trained mGene system
+    - name: GeneEval
+      version: "0.4"
+      link: /tool_runner?tool_id=geneeval_0.4
+      description: Computes performance measures based on gene labels and predictions
+    - name: ComposeMGenePredictor
+      version: "0.4"
+      link: /tool_runner?tool_id=makemgenepredictor_0.4
+      description: Creates a complete mGene predictor object from the various parts
+    - name: Bowtie2
+      version: "0.2"
+      link: /tool_runner?tool_id=bowtie2
+      description: is a short-read aligner
+    - name: Map with BWA for Illumina
+      version: 0.6.2
+      link: /tool_runner?tool_id=bwa_wrapper
+      description: ""
+    - name: Map with GenomeMapper
+      version: "0.5"
+      link: /tool_runner?tool_id=genomemapper_wrapper
+      description: ""
+    - name: Map with PALMapper
+      version: "0.5"
+      link: /tool_runner?tool_id=palmapper_wrapper
+      description: ""
+    - name: Tophat for Illumina
+      version: 1.5.0
+      link: /tool_runner?tool_id=tophat
+      description: Find splice junctions using RNA-seq data
+    - name: Tophat2
+      version: "0.6"
+      link: /tool_runner?tool_id=tophat2
+      description: Gapped-read mapper for RNA-seq data
+    - name: STAR
+      version: 2.3.0
+      link: /tool_runner?tool_id=rnaseq-star
+      description: RNA-seq read mapper
+    - name: ASP
+      version: "0.3"
+      link: /tool_runner?tool_id=asp
+      description: Accurate splice site prediction
+    - name: mTIM-Train
+      version: "0.2"
+      link: /tool_runner?tool_id=mTIMTrain
+      description: data preparation and training
+    - name: Predict using mTIM
+      version: 1.0.0
+      link: /tool_runner?tool_id=mTIMPredict
+      description: Genome-wide prediction with mTIM
+    - name: Evaluate mTIM transcript predictions
+      version: 1.0.0
+      link: /tool_runner?tool_id=mTIMEval
+      description: Evaluation of mTIM transcript predictions
+    - name: Trinity
+      version: r2013_08_14
+      link: /tool_runner?tool_id=trinity
+      description: De novo assembly of transcriptome from RNA-Seq data
+    - name: Scripture
+      version: R4.4
+      link: /tool_runner?tool_id=scripture
+      description: ab initio transcriptome reconstruction from RNA-Seq reads
+    - name: Cufflinks
+      version: 2.1.1
+      link: /tool_runner?tool_id=cufflinks
+      description: transcript assembly and FPKM estimates for RNA-Seq data
+    - name: Cuffcompare
+      version: 2.1.1
+      link: /tool_runner?tool_id=cuffcompare
+      description: compare assembled transcripts to a reference annotation and track Cufflinks
+          transcripts across multiple experiments
+    - name: Cuffmerge
+      version: 2.1.1
+      link: /tool_runner?tool_id=cuffmerge
+      description: merge together several Cufflinks assemblies
+    - name: rQuant
+      version: "2.2"
+      link: /tool_runner?tool_id=rquantweb
+      description: Determines transcript abundance from read alignments
+    - name: rDiff
+      version: "0.3"
+      link: /tool_runner?tool_id=rdiff-web
+      description: Determines differentially expressed transcripts from read alignments
+    - name: DESeq
+      version: 1.12.1
+      link: /tool_runner?tool_id=deseq-hts
+      description: Determines differentially expressed transcripts from read alignments
+    - name: DESeq2
+      version: 1.0.19
+      link: /tool_runner?tool_id=deseq2-hts
+      description: Differential gene expression analysis based on the negative binomial
+          distribution
+    - name: DEXSeq
+      version: 1.6.0
+      link: /tool_runner?tool_id=dexseq-hts
+      description: Inference of differential exon usage in RNA-Seq
+    - name: edgeR
+      version: 3.2.4
+      link: /tool_runner?tool_id=edgeR-hts
+      description: Empirical analysis of digital gene expression data in R
+    - name: Cuffdiff
+      version: 2.1.1
+      link: /tool_runner?tool_id=cuffdiff
+      description: find significant changes in transcript expression, splicing, and promoter
+          use
+    - name: RiboDiff
+      version: "0.2"
+      link: /tool_runner?tool_id=ribodiff
+      description: Detect protein translational efficiency difference
+    - name: topGO
+      version: 2.6.0
+      link: /tool_runner?tool_id=topgo
+      description: Enrichment analysis for Gene Ontology
+    - name: GeneSetter
+      version: "0.1"
+      link: /tool_runner?tool_id=genesetter
+      description: plots family of diff. or not or expressed genes
+    - name: SAFT
+      version: "0.2"
+      link: /tool_runner?tool_id=SAFT
+      description: Simple Alignment Filtering Tool
+    - name: MMR
+      version: "0.1"
+      link: /tool_runner?tool_id=MMRtool
+      description: Multiple Mapper Resolution
+    - name: Examine_GFF
+      version: "0.1"
+      link: /tool_runner?tool_id=gff_examine
+      description: file Parent-Child relations
+    - name: FeatureScan
+      version: "0.1"
+      link: /tool_runner?tool_id=gff_available_limits
+      description: gives an overview about GFF feature content
+    - name: GTF_to_GFF3
+      version: "0.1"
+      link: /tool_runner?tool_id=fml_gtf2gff3
+      description: converter
+    - name: BED_to_GFF3
+      version: "0.1"
+      link: /tool_runner?tool_id=fml_bed2gff
+      description: converter
+    - name: GBK-to-GFF
+      version: 2.1.0
+      link: /tool_runner?tool_id=fml_gbk2gff
+      description: converter
+    - name: SInBaD
+      version: "0.1"
+      link: /tool_runner?tool_id=sinbad
+      description: Exploring functional variant discovery in non-coding regions
+    - name: Map with BFAST
+      version: 0.1.3
+      link: /tool_runner?tool_id=bfast_wrapper
+      description: ""
+    - name: Map with PerM
+      version: 1.1.2
+      link: /tool_runner?tool_id=PerM
+      description: for SOLiD and Illumina
+    - name: Re-align with SRMA
+      version: 0.2.5
+      link: /tool_runner?tool_id=srma_wrapper
+      description: ""
+    - name: Map with Mosaik
+      version: 1.1.2
+      link: /tool_runner?tool_id=mosaik_wrapper
+      description: ""
+    - name: Random subset of FASTQ
+      version: "0.1"
+      link: /tool_runner?tool_id=sub_sample_wrapper
+      description: ""
+    - name: Create error model
+      version: "0.1"
+      link: /tool_runner?tool_id=gen_error_model_wrapper
+      description: ""
+    - name: Artificial spliced reads from GFF and Fastq
+      version: "0.1"
+      link: /tool_runner?tool_id=gen_art_reads_wrapper
+      description: ""
+    - name: SplicePredict (v0.2)
+      version: "0.2"
+      link: /tool_runner?tool_id=splicepredict
+      description: Predicts splice sites on the whole genome
+    - name: Train QPALMA
+      version: 0.9.3
+      link: /tool_runner?tool_id=qpalma_train
+      description: ""
+    - name: Map with PALMapper
+      version: "0.4"
+      link: /tool_runner?tool_id=palmapper_wrapper_test
+      description: ""
+    - name: Examples and Instructions
+      version: 1.0.0
+      link: /tool_runner?tool_id=mtimweb_instructions
+      description: Instructions on how to use the mTIM tools and examples with predefined
+          datasets
+    - name: Predict using mTIM
+      version: 1.0.0
+      link: /tool_runner?tool_id=mTIMPredict
+      description: Genome-wide prediction with mTIM
+    - name: Detect isoforms using SplAdder
+      version: 1.0.0
+      link: /tool_runner?tool_id=SplAdder
+      description: Detection of new RNA-seq confirmed isoforms with SplAdder
+    - name: Infer ORFs using SplAdder
+      version: 1.0.0
+      link: /tool_runner?tool_id=InferORF
+      description: Inference of Open Reading Frames using InferORF
+    - name: Evaluate mTIM transcript predictions
+      version: 1.0.0
+      link: /tool_runner?tool_id=mTIMEval
+      description: Evaluation of mTIM transcript predictions
+    - name: Compare to Optimal Alignment
+      version: 0.9.3
+      link: /tool_runner?tool_id=qpalma_eval
+      description: ""
+    - name: Analyze Error Model
+      version: 0.0.1
+      link: /tool_runner?tool_id=error_eval
+      description: ""
+    - name: Analyze Alignment Error
+      version: 0.0.1
+      link: /tool_runner?tool_id=align_error_eval
+      description: ""
+    - name: SAFT
+      version: "0.2"
+      link: /tool_runner?tool_id=SAFT
+      description: Simple Alignment Filtering Tool
+    - name: AXT to concatenated FASTA
+      version: 1.0.0
+      link: /tool_runner?tool_id=axt_to_concat_fasta
+      description: Converts an AXT formatted file to a concatenated FASTA alignment
+    - name: AXT to FASTA
+      version: 1.0.0
+      link: /tool_runner?tool_id=axt_to_fasta
+      description: Converts an AXT formatted file to FASTA format
+    - name: AXT to LAV
+      version: 1.0.0
+      link: /tool_runner?tool_id=axt_to_lav_1
+      description: Converts an AXT formatted file to LAV format
+    - name: BED-to-GFF
+      version: 2.0.0
+      link: /tool_runner?tool_id=bed2gff1
+      description: converter
+    - name: GFF-to-BED
+      version: 1.0.1
+      link: /tool_runner?tool_id=gff2bed1
+      description: converter
+    - name: LAV to BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=lav_to_bed1
+      description: Converts a LAV formatted file to BED format
+    - name: MAF to BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_BED1
+      description: Converts a MAF formatted file to the BED format
+    - name: MAF to Interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_Interval1
+      description: Converts a MAF formatted file to the Interval format
+    - name: MAF to FASTA
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_To_Fasta1
+      description: Converts a MAF formatted file to FASTA format
+    - name: Wiggle-to-Interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=wiggle2simple1
+      description: converter
+    - name: SFF converter
+      version: 1.0.1
+      link: /tool_runner?tool_id=Sff_extractor
+      description: ""
+    - name: GTF-to-BEDGraph
+      version: 1.0.0
+      link: /tool_runner?tool_id=gtf2bedgraph
+      description: converter
+    - name: Wig/BedGraph-to-bigWig
+      version: 1.1.0
+      link: /tool_runner?tool_id=wig_to_bigWig
+      description: converter
+    - name: BED-to-bigBed
+      version: 1.0.0
+      link: /tool_runner?tool_id=bed_to_bigBed
+      description: converter
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.1
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.1
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.1
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Join two Datasets
+      version: 2.1.1
+      link: /tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.1
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Filter
+      version: 1.1.0
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.0.3
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.1
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GTF data by attribute values_list
+      version: "0.1"
+      link: /tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
