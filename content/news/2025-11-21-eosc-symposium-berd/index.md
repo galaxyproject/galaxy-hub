@@ -17,7 +17,7 @@ The presentation showcases a complete workflow that enables interdisciplinary an
 
 Watch the full screencast below to see the workflow in action:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dPWYo0n4TXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dPWYo0n4TXg?si=olaUhU99GIHPhdGL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## The Galaxy Role: From Unstructured Text to Actionable Insights
 
