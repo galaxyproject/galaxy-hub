@@ -25,7 +25,7 @@ Key objectives include:
 
 # Call for Participation
 
-Membership is open to **all** individuals interested in improving the Galaxy tool ecosystem, **regardless of their current skill level**. Whether you are an experienced [IUC](https://galaxyproject.org/iuc/) member or a newcomer seeking to learn tool wrapping, your contributions are vital.
+Participation is open to **all** individuals interested in improving the Galaxy tool ecosystem, **regardless of their current skill level**. Whether you are an experienced [IUC](https://galaxyproject.org/iuc/) member or a newcomer seeking to learn tool wrapping, your contributions are vital.
 
 The group engages through bimonthly virtual meetings, peer review cycles, and collaborative hackathons.
 
@@ -33,7 +33,7 @@ The group engages through bimonthly virtual meetings, peer review cycles, and co
 
 We invite all interested developers to participate in our upcoming sessions.
 
-- **Meetings:** Held every 2nd and 4th Thursday of the month at 14:00 CET.
+- **Meetings:** Held every 2nd and 4th Thursday of the month at 14:00 CET. [Subscribe to the Calendar](https://calendar.google.com/calendar/u/0?cid=MmQxN2JjMGJjYWNmZThkZGFkNDJiYmIxYWJhZWQyMDdjYzhjZTJlNDI0MTFhZTE1ODMxZDgyZjllMzU4NjJmOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 - **Communication:** Join the discussion on our [Matrix channel](https://matrix.to/#/#galaxy-iuc_iuc:gitter.im) or follow our progress on the GitHub Project Board.
 
 For full details on our mission, resources, and meeting agenda, please visit the [Tool Developers SIG webpage](https://galaxyproject.org/community/sig/tool-developers/).
