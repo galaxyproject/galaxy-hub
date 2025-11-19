@@ -8,7 +8,7 @@ supporters: [eosc, esg]
 subsites: [all, esg]
 main_subsite: eu
 ---
-At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/), there was an interesting lightening talk about "BERD@NFDI – Galaxy Project B-Plan Use Case," presented in a compelling screencast and a dedicated Lightning Talk by Dr. Felicitas Sommer. This project tackles a difficult challenge: making the regulatory information from thousands of unstructured dataset such as land-use plans accessible for interdisciplinary research. For the [Galaxy Project](https://galaxyproject.org/), this use case is a promising story of collaboration, demonstrating how our open platform serves as a critical engine for data analysis and FAIR data-practices in new research domains.
+At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/), there was an interesting lightning talk about "BERD@NFDI – Galaxy Project B-Plan Use Case," presented in a compelling screencast and a dedicated Lightning Talk by Dr. Felicitas Sommer. This project tackles a difficult challenge: making the regulatory information from thousands of unstructured dataset such as land-use plans accessible for interdisciplinary research. For the [Galaxy Project](https://galaxyproject.org/), this use case is a promising story of collaboration, demonstrating how our open platform serves as a critical engine for data analysis and FAIR data-practices in new research domains.
 
 The presentation showcases a complete workflow that enables interdisciplinary and reliable research, highlighting two key integrations:
 
@@ -17,7 +17,7 @@ The presentation showcases a complete workflow that enables interdisciplinary an
 
 Watch the full screencast below to see the workflow in action:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I2AuWYBjzts?si=wul0WSOfRg8HMipa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dPWYo0n4TXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## The Galaxy Role: From Unstructured Text to Actionable Insights
 
