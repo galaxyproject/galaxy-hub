@@ -1,0 +1,233 @@
+tools:
+    - name: Upload File
+      version: 1.1.4
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.1
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.1
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.1
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Filter
+      version: 1.1.0
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.0.3
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.1
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.1
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Plotting tool
+      version: 1.0.1
+      link: /tool_runner?tool_id=XY_Plot_1
+      description: for multiple series and graph types
+    - name: Summary Statistics
+      version: 1.1.1
+      link: /tool_runner?tool_id=Summary_Statistics1
+      description: for any numerical column
+    - name: DMGeneIdConverter
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_DMGeneIdConverter
+      description: D. melanogaster gene ID conversion
+    - name: gcoords2cons
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_gcoords2cons
+      description: Genomic Coordinates to Consequence types
+    - name: Gcoords2gcoords
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_Gcoords2gcoords
+      description: Generation and split of genomic coordinates
+    - name: gcoords2genes
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_gcoords2genes
+      description: Genomic Coordinates to neighbouring Genes
+    - name: gcoords2reg
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_gcoords2reg
+      description: Retrieval of Ensembl regulatory information
+    - name: gcoords2snp
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_gcoords2snp
+      description: Genomic Coordinates to SNP
+    - name: gcoordsconservation
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_gcoordsconservation
+      description: Sequence conservation status/GERP scores retriever
+    - name: gene2canonexons
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_gene2canonexons
+      description: Extract exon coordinates of a Gene
+    - name: liftgcoords
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_liftgcoords
+      description: Lifts Genomic Coordinates from any build to the most recent
+    - name: snp2gcoords
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_snp2gcoords
+      description: SNP to Genomic Coordinates
+    - name: tbl2tbl
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_tbl2tbl
+      description: Convert among table formats
+    - name: tblsubmerge
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_tblsubmerge
+      description: Denormalize table
+    - name: tblsubsplit
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_tblsubsplit
+      description: Normalize table
+    - name: HSEnsgProteinMapper
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_HSEnsgProteinMapper
+      description: Maps between a variety of protein IDs for H.sapiens
+    - name: HSGeneIdConverter
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_HSGeneIdConverter
+      description: H.sapiens gene ID conversion
+    - name: HSGeneOrthologyMapper
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_HSGeneOrthologyMapper
+      description: Orthology mapping for H.sapiens
+    - name: Interval2Genes
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_Interval2Genes
+      description: Finds all genes contained in an interval.
+    - name: Pos2LDBlock
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_Pos2LDBlock
+      description: Map a position in the genome to the LD block.
+    - name: SNPGeneGlobalLDChecker
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_SNPGeneGlobalLDChecker
+      description: Linkage disequilibrium in SNP/gene pairs
+    - name: TableJoiner
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_TableJoiner
+      description: Join two unsorted tables
+    - name: VCF2Dint
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_VCF2Dint
+      description: Conversion from VCF to Dintegrator input format
+    - name: ClinVarAnnotator
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_ClinVarAnnotator
+      description: Flags variants found in the ClinVar database
+    - name: DrugBankAnnotator
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_DrugBankAnnotator
+      description: Retrieve information from DrugBank
+    - name: GOAnnotator
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_GOAnnotator
+      description: Accesses information from the Gene Ontology
+    - name: HSGeneAtlas
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_HSGeneAtlas
+      description: GNF Gene Atlas gene expression data supplementing for H.sapiens
+    - name: InteractionAnnotator
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_InteractionAnnotator
+      description: Find interacting proteins with iRefIndex
+    - name: PharmaADMEntor
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_PharmaADMEntor
+      description: Flag variants found in the PharmaADME database
+    - name: ReactomeAnnotator
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_ReactomeAnnotator
+      description: Accesses information from Reactome
+    - name: GOEnricher
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_GOEnricher
+      description: Compute Gene Set Enrichment Analysis
+    - name: GOFunSim
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_GOFunSim
+      description: Compute similarity between pairs of proteins
+    - name: MendelianFilter
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_MendelianFilter
+      description: Filter variants that do not comply with Mendelian inheritence
+    - name: MetaRanker
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_MetaRanker
+      description: Computes MetaRanker scores from multiple columns
+    - name: Prioritizer
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_Prioritizer
+      description: Combine various Dintegrator modules to perform integrative gene prioritization.
+    - name: gcoords2ld
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_gcoords2ld
+      description: Pairwise coordinate/gene LD checker
+    - name: HSEnsg2gcoords
+      version: "0.1"
+      link: /tool_runner?tool_id=cbm_dintor_HSEnsg2gcoords
+      description: Assign gene borders for Ensembl gene IDs.

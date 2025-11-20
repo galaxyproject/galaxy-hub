@@ -1,0 +1,1040 @@
+tools:
+    - name: Upload File
+      version: 1.1.6
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: UCSC Archaea
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct_archaea1
+      description: table browser
+    - name: EBI SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: InterMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=intermine
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: ZebrafishMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=zebrafishmine
+      description: server
+    - name: EuPathDB
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=eupathdb
+      description: server
+    - name: Send to cloud
+      version: 0.1.0
+      link: /tool_runner?tool_id=send_to_cloud
+      description: ""
+    - name: Unzip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: datasets from a collection
+    - name: Flatten Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: into a flat list of datasets
+    - name: Merge Collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: into single list of datasets
+    - name: Relabel List Identifiers
+      version: 1.0.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: from contents of a file
+    - name: Filter List
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: from contents of a file
+    - name: Sort Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: of list of datasets
+    - name: Apply Rule to Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__APPLY_RULES__
+      description: ""
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fsaket-choudhary%2Freplace_delimiters%2Fconvertdelimiter%2F1.0.0
+      description: delimiters
+    - name: Add line to file
+      version: 0.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fadd_line_to_file%2Fadd_line_to_file%2F0.1.0
+      description: writes a line of text at the begining or end of a text file.
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Condense
+      version: 1.0.0
+      link: /tool_runner?tool_id=Condense+characters1
+      description: consecutive characters
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.2
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.0
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.1
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.2
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: BED-to-GFF
+      version: 2.0.0
+      link: /tool_runner?tool_id=bed2gff1
+      description: converter
+    - name: GFF-to-BED
+      version: 1.0.1
+      link: /tool_runner?tool_id=gff2bed1
+      description: converter
+    - name: MAF to BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_BED1
+      description: Converts a MAF formatted file to the BED format
+    - name: MAF to Interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_Interval1
+      description: Converts a MAF formatted file to the Interval format
+    - name: MAF to FASTA
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_To_Fasta1
+      description: Converts a MAF formatted file to FASTA format
+    - name: SFF converter
+      version: 1.0.1
+      link: /tool_runner?tool_id=Sff_extractor
+      description: ""
+    - name: Wig/BedGraph-to-bigWig
+      version: 1.1.1
+      link: /tool_runner?tool_id=wig_to_bigWig
+      description: converter
+    - name: BED-to-bigBed
+      version: 1.0.1
+      link: /tool_runner?tool_id=bed_to_bigBed
+      description: converter
+    - name: Filter
+      version: 1.1.0
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.1.0
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.1
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.2"
+      link: /tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: 0.1.1
+      link: /tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.1"
+      link: /tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Join two Datasets
+      version: 2.1.3
+      link: /tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.4
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Extract Pairwise MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval2Maf_pairwise1
+      description: given a set of genomic intervals
+    - name: Stitch MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval_Maf_Merged_Fasta2
+      description: given a set of genomic intervals
+    - name: Stitch Gene blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=GeneBed_Maf_Fasta2
+      description: given a set of coding exon intervals
+    - name: MAF Coverage Stats
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_stats1
+      description: Alignment coverage information
+    - name: Join MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Thread_For_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Limit_To_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_limit_size1
+      description: by Size
+    - name: Extract MAF by block number
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_by_block_number1
+      description: given a set of block numbers and a MAF file
+    - name: Reverse Complement
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_Reverse_Complement_1
+      description: a MAF file
+    - name: Filter MAF
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_filter
+      description: by specified attributes
+    - name: Extract Genomic DNA
+      version: 2.2.4
+      link: /tool_runner?tool_id=Extract+genomic+DNA+1
+      description: using coordinates from assembled/unassembled genomes
+    - name: bedtools ExpandBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_expandbed%2F2.29.2
+      description: replicate lines based on lists of values in columns
+    - name: bedtools NucBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_nucbed%2F2.29.2
+      description: profile the nucleotide content of intervals in a FASTA file
+    - name: bedtools GroupByBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_groupbybed%2F2.29.2
+      description: group by common cols and summarize other cols
+    - name: bedtools Intersect intervals
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_intersectbed%2F2.29.2
+      description: find overlapping intervals in various ways
+    - name: bedtools OverlapBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_overlapbed%2F2.29.2
+      description: computes the amount of overlap from two intervals
+    - name: bedtools GetFastaBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_getfastabed%2F2.29.2
+      description: use intervals to extract sequences from a FASTA file
+    - name: bedtools MaskFastaBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_maskfastabed%2F2.29.2
+      description: use intervals to mask sequences from a FASTA file
+    - name: bedtools MergeBED
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_mergebed%2F2.29.2
+      description: combine overlapping/nearby intervals into a single interval
+    - name: bedtools Multiple Intersect
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_multiintersectbed%2F2.29.2
+      description: identifies common intervals among multiple interval files
+    - name: bedtools SortBED
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_sortbed%2F2.29.2
+      description: order the intervals
+    - name: bedtools BAM to BED
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_bamtobed%2F2.29.2
+      description: converter
+    - name: bedtools ComplementBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_complementbed%2F2.29.2
+      description: Extract intervals not represented by an interval file
+    - name: bedtools WindowBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_windowbed%2F2.29.2
+      description: find overlapping intervals within a window around an interval
+    - name: bedtools AnnotateBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_annotatebed%2F2.29.2
+      description: annotate coverage of features from multiple files
+    - name: bedtools JaccardBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_jaccard%2F2.29.2
+      description: calculate the distribution of relative distances between two files
+    - name: bedtools TagBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_tagbed%2F2.29.2
+      description: tag BAM alignments based on overlaps with interval files
+    - name: bedtools ClosestBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_closestbed%2F2.29.2
+      description: find the closest, potentially non-overlapping interval
+    - name: bedtools SpacingBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_spacingbed%2F2.29.2
+      description: reports the distances between features
+    - name: bedtools Merge BedGraph files
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_unionbedgraph%2F2.29.2
+      description: combines coverage intervals from multiple BEDGRAPH files
+    - name: bedtools MakeWindowsBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_makewindowsbed%2F2.29.2
+      description: make interval windows across a genome
+    - name: bedtools Compute both the depth and breadth of coverage
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_coveragebed%2F2.29.2
+      description: of features in file B on the features in file A (bedtools coverage)
+    - name: bedtools Genome Coverage
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_genomecoveragebed%2F2.29.2
+      description: compute the coverage over an entire genome
+    - name: bedtools MultiCovBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_multicovtbed%2F2.29.2
+      description: counts coverage from multiple BAMs at specific intervals
+    - name: bedtools SubtractBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_subtractbed%2F2.29.2
+      description: remove intervals based on overlaps
+    - name: bedtools ClusterBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_clusterbed%2F2.29.2
+      description: cluster overlapping/nearby intervals
+    - name: bedtools SlopBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_slopbed%2F2.29.2
+      description: adjust the size of intervals
+    - name: bedtools FlankBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_flankbed%2F2.29.2
+      description: create new intervals from the flanks of existing intervals
+    - name: bedtools LinksBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_links%2F2.29.2
+      description: create a HTML page of links to UCSC locations
+    - name: bedtools BED12 to BED6
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_bed12tobed6%2F2.29.2
+      description: converter
+    - name: bedtools BED to BAM
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_bedtobam%2F2.29.2
+      description: converter
+    - name: bedtools MapBed
+      version: 2.29.2.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_map%2F2.29.2.2
+      description: apply a function to a column for each overlapping interval
+    - name: bedtools BED to IGV
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_bedtoigv%2F2.29.2
+      description: create batch script for taking IGV screenshots
+    - name: bedtools ShuffleBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_shufflebed%2F2.29.2
+      description: randomly redistrubute intervals in a genome
+    - name: bedtools ReldistBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_reldistbed%2F2.29.2
+      description: calculate the distribution of relative distances
+    - name: bedtools RandomBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_randombed%2F2.29.2
+      description: generate random intervals in a genome
+    - name: bedtools BEDPE to BAM
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_bedpetobam%2F2.29.2
+      description: converter
+    - name: bedtools FisherBed
+      version: 2.29.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbedtools%2Fbedtools_fisher%2F2.29.2
+      description: calculate Fisher statistic between two feature files
+    - name: Wiggle-to-Interval
+      version: 1.0.1
+      link: /tool_runner?tool_id=wiggle2simple1
+      description: converter
+    - name: Aggregate datapoints
+      version: 1.1.4
+      link: /tool_runner?tool_id=aggregate_scores_in_intervals2
+      description: Appends the average, min, max of datapoints per interval
+    - name: Gene BED To Exon/Intron/Codon BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=gene2exon1
+      description: expander
+    - name: Samtools stats
+      version: 2.0.2+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_stats%2Fsamtools_stats%2F2.0.2%2Bgalaxy2
+      description: generate statistics for BAM dataset
+    - name: Summary Statistics
+      version: 1.1.2
+      link: /tool_runner?tool_id=Summary_Statistics1
+      description: for any numerical column
+    - name: Count
+      version: 1.0.3
+      link: /tool_runner?tool_id=Count1
+      description: occurrences of each record
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=solid2fastq
+      description: SOLiD output to fastq
+    - name: Compute quality statistics
+      version: 1.0.0
+      link: /tool_runner?tool_id=solid_qual_stats
+      description: for SOLiD data
+    - name: Draw quality score boxplot
+      version: 1.0.0
+      link: /tool_runner?tool_id=solid_qual_boxplot
+      description: for SOLiD data
+    - name: "SNP quality filtering. Step 1 (part 1): Missigness per individual list"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering1fixed1
+      description: ""
+    - name: "SNP quality filtering. Step 1 (part 2): Missigness per individual sorted
+          list"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfilteringfixed12
+      description: ""
+    - name: "SNP quality filtering. Step 1 (part 3): Missigness per individual, individual
+          selection"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering1fixed13
+      description: ""
+    - name: "SNP quality filtering. Step 1 (part 4): Missigness per individual, filtering"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering1fixed14
+      description: ""
+    - name: "SNP quality filtering. Step 2: Minor allele count per marker"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering2
+      description: ""
+    - name: "SNP quality filtering. Step 3: Minimum quality score"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering3
+      description: ""
+    - name: "SNP quality filtering. Step 4: Minimum reads per marker"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering4
+      description: ""
+    - name: "SNP quality filtering. Step 5: Missingness per marker"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering5
+      description: ""
+    - name: "SNP quality filtering. Step 6: Minimum allele frequency"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering6
+      description: ""
+    - name: "SNP quality filtering. Step 7: Hardy-Weinberg equilibrium"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering7
+      description: ""
+    - name: "SNP quality filtering. Step 8: Mendelian errors (for family-based data only)"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering8
+      description: ""
+    - name: "SNP quality filtering. Step 9: Linkage disequilibrium (retain only independent
+          SNPs for further population structure analysis)"
+      version: 0.1.0
+      link: /tool_runner?tool_id=qcfiltering9
+      description: ""
+    - name: "LinkImputeR. Step 1: Run LinkImputeR in accuracy mode"
+      version: 0.2.0
+      link: /tool_runner?tool_id=LinkImputeR_Step1
+      description: ""
+    - name: "LinkImputeR. Step 2: Perform the final imputation"
+      version: 0.2.0
+      link: /tool_runner?tool_id=LinkImputeR_Step2
+      description: ""
+    - name: "fastSTRUCTURE. Step 1: BED, BIM and FAM file calculation"
+      version: 0.1.0
+      link: /tool_runner?tool_id=fastSTRUCTURE1
+      description: ""
+    - name: "fastSTRUCTURE. Step 2: Run fastSTRUCTURE"
+      version: 0.1.0
+      link: /tool_runner?tool_id=fastSTRUCTURE2
+      description: ""
+    - name: "fastSTRUCTURE. Step 3: Create population structure file for GWAS"
+      version: 0.1.0
+      link: /tool_runner?tool_id=fastSTRUCTURE3
+      description: ""
+    - name: "fastSTRUCTURE. Step 4: Plotting the results"
+      version: 0.1.0
+      link: /tool_runner?tool_id=fastSTRUCTURE4
+      description: ""
+    - name: "GWAS with EMMAX. Step 1: SNP file from VCF to PED format"
+      version: 0.1.0
+      link: /tool_runner?tool_id=GWASwithEMMAX_Step1
+      description: ""
+    - name: "GWAS with EMMAX. Step 2: SNP file from PED to tPED format"
+      version: 0.1.0
+      link: /tool_runner?tool_id=GWASwithEMMAX_Step2
+      description: ""
+    - name: GWAS with EMMAX. Step 3. Calculate the kinship matrix with EMMAX
+      version: 0.1.0
+      link: /tool_runner?tool_id=GWASwithEMMAX_Step3
+      description: ""
+    - name: "GWAS with EMMAX. Step 4: Association mapping"
+      version: 0.1.0
+      link: /tool_runner?tool_id=GWASwithEMMAX_Step4
+      description: ""
+    - name: SamBada
+      version: 0.1.0
+      link: /tool_runner?tool_id=samBada
+      description: Landscape genomic analysis of large datasets for an input file that
+          contains environment and molecular data in one file
+    - name: Metasoft
+      version: 0.1.0
+      link: /tool_runner?tool_id=Metasoft
+      description: Metasoft estimates effect size, heterogeneity and M-values
+    - name: Bayenv
+      version: 0.1.0
+      link: /tool_runner?tool_id=Bayenv
+      description: Bayenv determines in local adaptation can be identified by correlation
+          between allele frequencies and ecological variables or graphical location.
+    - name: BayeScan2.0
+      version: 0.1.0
+      link: /tool_runner?tool_id=BayeScan2
+      description: BayeScan aims at identifying candidate loci under natural selection
+          from genetic data, using differences in allele frequencies between populations.
+    - name: Multiple Testing Correction
+      version: 0.1.0
+      link: /tool_runner?tool_id=MultiTestCorrect
+      description: Exploratory analysis of the population structure.
+    - name: OrthoFinder OnlyGroups
+      version: 2.2.6
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Forthofinder_onlygroups%2Forthofinder_onlygroups%2F2.2.6
+      description: finds orthogroups in a set of proteomes
+    - name: VCF to MAF Custom Track
+      version: 1.0.1
+      link: /tool_runner?tool_id=vcf_to_maf_customtrack1
+      description: for display at UCSC
+    - name: Reference Annotation Input
+      version: 0.1.0
+      link: /tool_runner?tool_id=refanninput
+      description: An input specifically designed for local Reference Annotations
+    - name: g:Profiler
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_linkToGProfile
+      description: tools for functional profiling of gene lists
+    - name: DAVID
+      version: 1.0.1
+      link: /tool_runner?tool_id=hgv_david
+      description: functional annotation for a list of genes
+    - name: LD
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_ldtools
+      description: linkage disequilibrium and tag SNPs
+    - name: MasterVar to pgSnp
+      version: 1.0.0
+      link: /tool_runner?tool_id=master2pgSnp
+      description: Convert from MasterVar to pgSnp format
+    - name: PASS
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_pass
+      description: significant transcription factor binding sites from ChIP data
+    - name: GPASS
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_gpass
+      description: significant single-SNP associations in case-control studies
+    - name: BEAM
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_beam
+      description: significant single- and multi-locus SNP associations in case-control
+          studies
+    - name: LPS
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_lps
+      description: LASSO-Patternsearch algorithm
+    - name: aurora_statonlab_hmmscan_merger
+      version: 1.0.0
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_statonlab_hmmscan_merger%2Faurora_statonlab_hmmscan_merger%2F1.0.0
+      description: Merge results from the aurora_statonlab_hmmscan tool and group differentially
+          expressed genes across multiple organims by pfam
+    - name: aurora_freebayes
+      version: 1.0.0
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_freebayes%2Faurora_freebayes%2F1.0.0
+      description: Bayesian haplotype-based genetic polymorphism discovery and genotyping.
+    - name: aurora_find_ssrs
+      version: 1.0.0
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_findssrs%2Ffind_ssrs%2F1.0.0
+      description: Identifies simple sequence repeats (SSRs) and calls primers from the
+          sequences in a fastq formatted file.
+    - name: aurora_fastqc_site
+      version: 2.2.1
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_fastqc_site%2Faurora_fastqc_site%2F2.2.1
+      description: Evaluate short reads with FastQC software on a single or a paired of
+          untrimmed and trimmed reads        files.
+    - name: aurora_fastqc
+      version: 2.1.2
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_fastqc%2Faurora_fastqc%2F2.1.2
+      description: Evaluate short reads with FastQC software on a single or a paired of
+          untrimmed and trimmed reads        files.
+    - name: aurora_tool
+      version: 1.0.0
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_fasta_importer%2Faurora_tool_report%2F1.0.0
+      description: some description
+    - name: aurora_fasta_importer
+      version: 1.0.0
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_fasta_importer%2Faurora_fasta_importer_report%2F1.0.0
+      description: Import fasta to galaxy by copying uploaded fasta or downloading fasta
+          from an URL.
+    - name: aurora_dustmasker
+      version: 1.0.0
+      link: /tool_runner?tool_id=testtoolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_dustmasker%2Faurora_dustmasker%2F1.0.0
+      description: Low complexity region masker based on Symmetric DUST algorithm
+    - name: aurora_deseq2
+      version: 2.2.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_deseq2%2Faurora_deseq2_report%2F2.2.2
+      description: Differential analysis of count data with the DESeq2 package
+    - name: Aurora Galaxy WGCNA
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fspficklin%2Faurora_wgcna%2Faurora_wgcna%2F1.0.0
+      description: Identify gene co-expression network modules using WGCNA.
+    - name: FASTQE
+      version: 0.2.6
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffastqe%2Ffastqe%2F0.2.6
+      description: visualize fastq files with emoji's 🧬😎
+    - name: MultiQC
+      version: 1.8+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmultiqc%2Fmultiqc%2F1.8%2Bgalaxy0
+      description: aggregate results from bioinformatics analyses into a single report
+    - name: FastQC
+      version: 0.72+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc%2F0.72%2Bgalaxy1
+      description: Read Quality reports
+    - name: HISAT2
+      version: 2.1.0+galaxy5
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fhisat2%2Fhisat2%2F2.1.0%2Bgalaxy5
+      description: A fast and sensitive alignment program
+    - name: Bowtie2
+      version: 2.3.4.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbowtie2%2Fbowtie2%2F2.3.4.2
+      description: "- map reads against reference genome"
+    - name: StringTie merge
+      version: 2.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstringtie%2Fstringtie_merge%2F2.1.1
+      description: transcripts
+    - name: StringTie
+      version: 2.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstringtie%2Fstringtie%2F2.1.1
+      description: transcript assembly and quantification
+    - name: HISAT
+      version: 1.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fhisat%2Fhisat%2F1.0.3
+      description: spliced aligner
+    - name: Scale Image
+      version: "0.4"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fimgteam%2Fscale_image%2Fip_scale_image%2F0.4
+      description: Scales image
+    - name: featureCounts
+      version: 1.4.6.p5
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffeaturecounts%2Ffeaturecounts%2F1.4.6.p5
+      description: Measure gene expression in RNA-Seq experiments from SAM or BAM files.
+    - name: DESeq2
+      version: 2.11.40.6+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeseq2%2Fdeseq2%2F2.11.40.6%2Bgalaxy1
+      description: Determines differentially expressed features from count tables
+    - name: FASTQ Groomer
+      version: 1.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastq_groomer%2Ffastq_groomer%2F1.1.1
+      description: convert between various FASTQ quality formats
+    - name: FastQC
+      version: "0.72"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc%2F0.72
+      description: Read Quality reports
+    - name: Trimmomatic
+      version: 0.38.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fpjbriggs%2Ftrimmomatic%2Ftrimmomatic%2F0.38.1
+      description: flexible read trimming tool for Illumina NGS data
+    - name: aurora_skewer
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmingchen0919%2Faurora_skewer%2Faurora_skewer_report%2F2.0.1
+      description: A fast and accurate adapter trimmer for next-generation sequencing
+          single or paired end reads.
+    - name: Diamond view
+      version: 2.0.8
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdiamond%2Fbg_diamond_view%2F2.0.8
+      description: generate formatted output from DAA files
+    - name: Diamond
+      version: 2.0.8.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdiamond%2Fbg_diamond%2F2.0.8.0
+      description: alignment tool for short sequences against a protein database
+    - name: Diamond makedb
+      version: 2.0.8
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdiamond%2Fbg_diamond_makedb%2F2.0.8
+      description: Build database from a FASTA file
+    - name: Augustus
+      version: 3.3.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Faugustus%2Faugustus%2F3.3.3
+      description: gene prediction for prokaryotic and eukaryotic genomes
+    - name: VCFtools
+      version: 0.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnilesh%2Fvcftools%2Fvcftools%2F0.0.1
+      description: The vcftools program is intended for analysis of diploid SNP data in
+          VCF format.
+    - name: Filter
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcf_filter%2Fvcf_filter%2F1.0.0
+      description: a VCF file
+    - name: "VcfAllelicPrimitives:"
+      version: 1.0.0_rc3+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcfallelicprimitives%2Fvcfallelicprimitives%2F1.0.0_rc3%2Bgalaxy0
+      description: Split alleleic primitives (gaps or mismatches) into multiple VCF lines
+    - name: Intersect
+      version: 0.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcftools_isec%2Fvcftools_isec%2F0.1.1
+      description: multiple VCF datasets
+    - name: Merge
+      version: 0.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcftools_merge%2Fvcftools_merge%2F0.1.1
+      description: multiple VCF datasets
+    - name: Annotate
+      version: "0.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcftools_annotate%2Fvcftools_annotate%2F0.1
+      description: a VCF dataset with custom filters
+    - name: Compare
+      version: "0.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcftools_compare%2Fvcftools_compare%2F0.1
+      description: multiple VCF datasets
+    - name: Subset
+      version: "0.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcftools_subset%2Fvcftools_subset%2F0.1
+      description: columns from a VCF dataset
+    - name: Slice VCF
+      version: "0.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcftools_slice%2Fvcftools_slice%2F0.1
+      description: to get data from selected regions
+    - name: bcftools view
+      version: 0.1.19.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbcftools%2Fbcftools_view%2F0.1.19.0
+      description: Convert, filter, subset VCF/BCF files
+    - name: bcftools bcftools
+      version: 0.1.19.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbcftools%2Fbcftools_bcftools%2F0.1.19.0
+      description: Convert, filter, subset VCF/BCF files
+    - name: Map with BWA-MEM
+      version: 0.7.17.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbwa%2Fbwa_mem%2F0.7.17.1
+      description: "- map medium and long reads (> 100 bp) against reference genome"
+    - name: Map with BWA
+      version: 0.7.17.4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbwa%2Fbwa%2F0.7.17.4
+      description: "- map short reads (< 100 bp) against reference genome"
+    - name: FastqToSam
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_FastqToSam%2F2.18.2.1
+      description: convert Fastq data into unaligned BAM
+    - name: CollectBaseDistributionByCycle
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectBaseDistributionByCycle%2F2.18.2.1
+      description: charts the nucleotide distribution per cycle in a SAM or BAM dataset
+    - name: AddOrReplaceReadGroups
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_AddOrReplaceReadGroups%2F2.18.2.1
+      description: add or replaces read group information
+    - name: MeanQualityByCycle
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MeanQualityByCycle%2F2.18.2.1
+      description: chart distribution of base qualities
+    - name: RevertOriginalBaseQualitiesAndAddMateCigar
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_RevertOriginalBaseQualitiesAndAddMateCigar%2F2.18.2.1
+      description: revert the original base qualities and add the mate cigar tag
+    - name: CollectHsMetrics
+      version: 2.18.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectHsMetrics%2F2.18.2
+      description: compute metrics about datasets generated through hybrid-selection (e.g.
+          exome)
+    - name: SortSam
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_SortSam%2F2.18.2.1
+      description: sort SAM/BAM dataset
+    - name: RevertSam
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_RevertSam%2F2.18.2.1
+      description: revert SAM/BAM datasets to a previous state
+    - name: MarkDuplicates
+      version: 2.18.2.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MarkDuplicates%2F2.18.2.2
+      description: examine aligned records in BAM datasets to locate duplicate molecules
+    - name: Collect Alignment Summary Metrics
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CASM%2F2.18.2.1
+      description: writes a file containing summary alignment metrics
+    - name: NormalizeFasta
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_NormalizeFasta%2F2.18.2.1
+      description: normalize fasta datasets
+    - name: Downsample SAM/BAM
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_DownsampleSam%2F2.18.2.1
+      description: Downsample a file to retain a subset of the reads
+    - name: MergeBamAlignment
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MergeBamAlignment%2F2.18.2.1
+      description: merge alignment data with additional info stored in an unmapped BAM
+          dataset
+    - name: MarkDuplicatesWithMateCigar
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MarkDuplicatesWithMateCigar%2F2.18.2.1
+      description: examine aligned records in BAM datasets to locate duplicate molecules
+    - name: CleanSam
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CleanSam%2F2.18.2.1
+      description: perform SAM/BAM grooming
+    - name: ReplaceSamHeader
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_ReplaceSamHeader%2F2.18.2.1
+      description: replace header in a SAM/BAM dataset
+    - name: MergeSamFiles
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MergeSamFiles%2F2.18.2.1
+      description: merges multiple SAM/BAM datasets into one
+    - name: ValidateSamFile
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_ValidateSamFile%2F2.18.2.1
+      description: assess validity of SAM/BAM dataset
+    - name: FixMateInformation
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_FixMateInformation%2F2.18.2.1
+      description: ensure that all mate-pair information is in sync between each read
+          and it's mate pair
+    - name: QualityScoreDistribution
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_QualityScoreDistribution%2F2.18.2.1
+      description: chart quality score distribution
+    - name: BedToIntervalList
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_BedToIntervalList%2F2.18.2.1
+      description: convert coordinate data into picard interval list format
+    - name: CollectRnaSeqMetrics
+      version: 2.18.2.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectRnaSeqMetrics%2F2.18.2.2
+      description: collect metrics about the alignment of RNA to various functional classes
+          of loci in the genome
+    - name: CollectWgsMetrics
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectWgsMetrics%2F2.18.2.1
+      description: compute metrics for evaluating of whole genome sequencing experiments
+    - name: Picard Collect Sequencing Artifact Metrics
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_artifact_metrics%2F2.18.2.1
+      description: Collect metrics to quantify single-base sequencing artifacts
+    - name: ReorderSam
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_ReorderSam%2F2.18.2.1
+      description: reorder reads to match ordering in reference sequences
+    - name: CollectGcBiasMetrics
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectGcBiasMetrics%2F2.18.2.1
+      description: charts the GC bias metrics
+    - name: FilterSamReads
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_FilterSamReads%2F2.18.2.1
+      description: include or exclude aligned and unaligned reads and read lists
+    - name: AddCommentsToBam
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_AddCommentsToBam%2F2.18.2.1
+      description: add comments to BAM dataset
+    - name: EstimateLibraryComplexity
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_EstimateLibraryComplexity%2F2.18.2.1
+      description: assess sequence library complexity from read sequences
+    - name: SamToFastq
+      version: 2.18.2.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_SamToFastq%2F2.18.2.2
+      description: extract reads and qualities from SAM/BAM dataset and convert to fastq
+    - name: CollectInsertSizeMetrics
+      version: 2.18.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectInsertSizeMetrics%2F2.18.2.1
+      description: plots distribution of insert sizes
+    - name: Samtools sort
+      version: 2.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_sort%2Fsamtools_sort%2F2.0.3
+      description: order of storing aligned sequences
+    - name: BedCov
+      version: 2.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_bedcov%2Fsamtools_bedcov%2F2.0.2
+      description: calculate read depth for a set of genomic intervals
+    - name: Filter SAM or BAM, output SAM or BAM
+      version: 1.8+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtool_filter2%2Fsamtool_filter2%2F1.8%2Bgalaxy1
+      description: files on FLAG MAPQ RG LN or by region
+    - name: Reheader
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_reheader%2Fsamtools_reheader%2F2.0
+      description: copy SAM/BAM header between datasets
+    - name: MPileup
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_mpileup%2Fsamtools_mpileup%2F2.0
+      description: call variants
+    - name: RmDup
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_rmdup%2Fsamtools_rmdup%2F2.0
+      description: remove PCR duplicates
+    - name: CalMD
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_calmd%2Fsamtools_calmd%2F2.0
+      description: recalculate MD/NM tags
+    - name: Flagstat
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_flagstat%2Fsamtools_flagstat%2F2.0
+      description: tabulate descriptive stats for BAM datset
+    - name: Split
+      version: "1.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_split%2Fsamtools_split%2F1.1
+      description: BAM dataset on readgroups
+    - name: Slice
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_slice_bam%2Fsamtools_slice_bam%2F2.0
+      description: BAM by genomic regions
+    - name: BAM-to-SAM
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbam_to_sam%2Fbam_to_sam%2F2.0
+      description: convert BAM to SAM
+    - name: IdxStats
+      version: "2.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_idxstats%2Fsamtools_idxstats%2F2.0
+      description: tabulate mapping statistics for BAM dataset
+    - name: GATK
+      version: 3.4-0.d9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Favowinkel%2Fgatk%2Fgatk%2F3.4-0.d9
+      description: tool collection Version 3.4-0
+    - name: featureCounts
+      version: 1.6.4+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffeaturecounts%2Ffeaturecounts%2F1.6.4%2Bgalaxy2
+      description: Measure gene expression in RNA-Seq experiments from SAM or BAM files.
+    - name: SAM-to-BAM
+      version: 2.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsam_to_bam%2Fsam_to_bam%2F2.1.1
+      description: convert SAM to BAM
+    - name: SnpSift Intervals
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_int%2F4.3%2Bt.galaxy0
+      description: Filter variants using intervals
+    - name: SnpSift rmInfo
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_rmInfo%2F4.3%2Bt.galaxy0
+      description: remove INFO field annotations
+    - name: SnpSift Variant Type
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2Fsnpsift_vartype%2F4.3%2Bt.galaxy0
+      description: Annotate with variant type
+    - name: SnpSift CaseControl
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_caseControl%2F4.3%2Bt.galaxy0
+      description: Count samples are in 'case' and 'control' groups.
+    - name: SnpSift Extract Fields
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_extractFields%2F4.3%2Bt.galaxy0
+      description: from a VCF file into a tabular file
+    - name: SnpSift Filter
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_filter%2F4.3%2Bt.galaxy0
+      description: Filter variants using arbitrary expressions
+    - name: SnpSift Annotate
+      version: 4.3+t.galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_annotate%2F4.3%2Bt.galaxy1
+      description: SNPs from dbSnp
+    - name: SnpSift vcfCheck
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_vcfCheck%2F4.3%2Bt.galaxy0
+      description: basic checks for VCF specification compliance
+    - name: HISAT2
+      version: 2.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fhisat2%2Fhisat2%2F2.1.0
+      description: A fast and sensitive alignment program
+    - name: OrthoFinder OnlyGroups
+      version: 2.1.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Forthofinder_onlygroups%2Forthofinder_onlygroups%2F2.1.2
+      description: finds orthogroups in a set of proteomes
+    - name: toolfactory
+      version: "2.00"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffubar%2Ftool_factory_2%2Frgtf2%2F2.00
+      description: Scripts into tools v2.0
+    - name: Guppy basecaller wrapper
+      version: 0.2.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fartbio%2Fguppy_basecaller%2Fguppy-basecaller%2F0.2.0
+      description: A simple wrapper for guppy basecaller that depends on configuration
+          files
+    - name: bcftools query
+      version: 1.15.1+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbcftools_query%2Fbcftools_query%2F1.15.1%2Bgalaxy3
+      description: Extracts fields from VCF/BCF file and prints them in user-defined format

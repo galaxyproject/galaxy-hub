@@ -1,0 +1,49 @@
+tools:
+    - name: Upload File
+      version: 1.1.7
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: NG-Tax 2
+      version: "2"
+      link: /tool_runner?tool_id=NG-Tax2
+      description: ""
+    - name: Demultiplex
+      version: "2.0"
+      link: /tool_runner?tool_id=NG-Tax-demultiplex
+      description: "Demultiplex reads for submission: FASTQ format"
+    - name: Create fasta and tree files (dev version)
+      version: "1.0"
+      link: /tool_runner?tool_id=CreateFastaTree_dev
+      description: ""
+    - name: Concat fastq files
+      version: 1.0.0
+      link: /tool_runner?tool_id=concat_fastq_files
+      description: Concatenates fastq files you select from your history
+    - name: NGTax Uploader
+      version: "1.0"
+      link: /tool_runner?tool_id=NGTaxUploader
+      description: ""
+    - name: NG-Tax 2
+      version: "2"
+      link: /tool_runner?tool_id=NG-Tax2
+      description: ""
+    - name: Demultiplex (dev version)
+      version: "2.0"
+      link: /tool_runner?tool_id=NG-Tax-demultiplex_dev
+      description: "Demultiplex reads for submission: FASTQ format"
+    - name: Create fasta and tree files (dev version)
+      version: "1.0"
+      link: /tool_runner?tool_id=CreateFastaTree_dev
+      description: ""
+    - name: Concat fastq files (dev version)
+      version: 1.0.0
+      link: /tool_runner?tool_id=concat_fastq_files_dev
+      description: Concatenates fastq files you select from your history
+    - name: FastQC
+      version: 0.72+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc%2F0.72%2Bgalaxy1
+      description: Read Quality reports
+    - name: Select
+      version: 1.0.1
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression

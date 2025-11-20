@@ -1,0 +1,169 @@
+tools:
+    - name: Upload File
+      version: 1.1.6
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Copy Shared Data FCS Files as Individual Datasets
+      version: "1.0"
+      link: /tool_runner?tool_id=copy_from_file_system_dataset
+      description: ""
+    - name: Copy Shared Data FCS Files as a Collection
+      version: "1.0"
+      link: /tool_runner?tool_id=copy_from_file_system_collection
+      description: ""
+    - name: Extract keywords
+      version: "1.0"
+      link: /tool_runner?tool_id=extract_fcs_keywords
+      description: from FCS files
+    - name: Get list of markers
+      version: "2.0"
+      link: /tool_runner?tool_id=get_fcs_headers
+      description: and channels in FCS files
+    - name: Get summary
+      version: "1.0"
+      link: /tool_runner?tool_id=get_fcs_stats
+      description: of FCS files
+    - name: Generate scatter plots
+      version: "1.0"
+      link: /tool_runner?tool_id=gen_density_plots
+      description: for any given markers in FCS file
+    - name: Generate 1D density plots
+      version: "1.0"
+      link: /tool_runner?tool_id=ggcyto_1d_density_plots
+      description: for FCS file
+    - name: Generate stacked density plots
+      version: "1.0"
+      link: /tool_runner?tool_id=flowviz_density_plots
+      description: for a set of FCS files
+    - name: Edit markers or channels
+      version: "2.0"
+      link: /tool_runner?tool_id=edit_fcs_markers
+      description: in FCS files
+    - name: Merge and downsample
+      version: "1.0"
+      link: /tool_runner?tool_id=fcs_merge_downsample
+      description: FCS files with FlowSOM
+    - name: Pre-process samples
+      version: "1.0"
+      link: /tool_runner?tool_id=metacyto_preprocess
+      description: for MetaCyto
+    - name: Check markers in analysis panels
+      version: "1.0"
+      link: /tool_runner?tool_id=metacyto_checkpanel
+      description: for MetaCyto
+    - name: flowAI
+      version: "1.0"
+      link: /tool_runner?tool_id=flowAI
+      description: automatic quality control
+    - name: Transform FCS data
+      version: "1.2"
+      link: /tool_runner?tool_id=fcs_gate_trans_convert
+      description: with optional compensation and automated gating with flowDensity.
+    - name: Convert FCS to Text
+      version: "1.0"
+      link: /tool_runner?tool_id=convert_fcs_to_text
+      description: with no transformation
+    - name: Check headers
+      version: "1.2"
+      link: /tool_runner?tool_id=get_headers
+      description: of any set of flowtext files
+    - name: Get summary
+      version: "1.0"
+      link: /tool_runner?tool_id=get_txt_fcs_stats
+      description: of txt-converted FCS files
+    - name: Generate scatter plots
+      version: "1.0"
+      link: /tool_runner?tool_id=gen_density_plots_txt
+      description: for any given markers in a txt-converted FCS file
+    - name: Remove, rearrange and/or rename columns
+      version: "2"
+      link: /tool_runner?tool_id=edit_rearrange_columns
+      description: in txt-converted FCS files
+    - name: Merge and downsample
+      version: "1.1"
+      link: /tool_runner?tool_id=fcstxt_merge_downsample
+      description: txt-converted FCS files into one text file based on headers
+    - name: Check data
+      version: "1.1"
+      link: /tool_runner?tool_id=txt_diagnosis
+      description: in txt-converted FCS files
+    - name: Extract populations
+      version: "1.0"
+      link: /tool_runner?tool_id=extract_pop
+      description: of interest from FLOCK or Cross Sample output
+    - name: Collapse populations
+      version: "1.0"
+      link: /tool_runner?tool_id=collapse_populations
+      description: from FLOCK or Cross Sample analysis
+    - name: Collapse populations automatically
+      version: "1.0"
+      link: /tool_runner?tool_id=auto_collapse_populations
+      description: based on quartile binning from FLOCK results
+    - name: Generate summary statistics
+      version: "1.0"
+      link: /tool_runner?tool_id=flowclr_stats
+      description: of FLOCK output
+    - name: Run FLOCK
+      version: "1.2"
+      link: /tool_runner?tool_id=run_flock
+      description: using a FCS file that was converted/transformed to a text file
+    - name: Generate the centroids
+      version: "1.0"
+      link: /tool_runner?tool_id=generate_mfi
+      description: from a flow result file
+    - name: Run Cross Sample
+      version: "1.1"
+      link: /tool_runner?tool_id=run_cross_sample
+      description: using a Flow file that was run using FLOCK
+    - name: Generate a reference Self Organizing Map
+      version: "1.0"
+      link: /tool_runner?tool_id=flowsom_tree
+      description: using FlowSOM.
+    - name: Map individual FCS to reference SOM
+      version: "1.0"
+      link: /tool_runner?tool_id=flowsom_cross_comp
+      description: using FlowSOM.
+    - name: Compare Samples
+      version: "1.0"
+      link: /tool_runner?tool_id=flowsom_compare
+      description: using a FlowSOM tree
+    - name: Explore cell ontology
+      version: "1.0"
+      link: /tool_runner?tool_id=get_cell_ontology
+      description: given a phenotype using flowCL
+    - name: Associate FLOCK populations
+      version: "1.1"
+      link: /tool_runner?tool_id=get_profiles_cell_ontology
+      description: with cell ontology
+    - name: Autoclustering analysis
+      version: "1.0"
+      link: /tool_runner?tool_id=metacyto_autocluster
+      description: using MetaCyto
+    - name: Guided identification of clusters
+      version: "1.0"
+      link: /tool_runner?tool_id=metacyto_search_clr
+      description: using MetaCyto
+    - name: Generate overview information
+      version: "1.1"
+      link: /tool_runner?tool_id=gen_flow_overview
+      description: of reference set of clusters or populations.
+    - name: Generate overview information
+      version: "1.1"
+      link: /tool_runner?tool_id=cross_sample_overview
+      description: of a multi-sample analysis.
+    - name: Generate a heat map
+      version: "1.1"
+      link: /tool_runner?tool_id=clustergrammer_flow
+      description: of a flow analysis using Clustergrammer
+    - name: Generate histograms
+      version: "1.0"
+      link: /tool_runner?tool_id=metacyto_histogram
+      description: of MetaCyto's clustering results
+    - name: Metadata analysis of all data
+      version: "1.1"
+      link: /tool_runner?tool_id=metacyto_glm_all
+      description: using MetaCyto's generalized linear model analysis
+    - name: Metadata analysis of a given cluster definition
+      version: "1.1"
+      link: /tool_runner?tool_id=metacyto_glm_clr
+      description: using MetaCyto's generalized linear model analysis

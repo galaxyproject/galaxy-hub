@@ -117,6 +117,16 @@ Galaxy as a platform for Digital Humanities and Social Sciences.
 
 </div>
 
+<!-- Galaxy Tool Developers -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="/community/sig/tool-developers/">
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Galaxy Tool Developers</div>
+</a>
+
+A group dedicated to improving Galaxy’s tool ecosystem through coordinated development, shared maintenance practices, and open collaboration. Welcomes anyone interested in building or refining Galaxy tool wrappers.
+
+</div>
+
 <!-- CoP FIELD SIGs Card-div end -->
 </div>
 

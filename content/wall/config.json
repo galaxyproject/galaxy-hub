@@ -1,0 +1,32 @@
+{
+  "servers": [
+    "mastodon.social",
+    "mstdn.science"
+  ],
+  "tags": [
+    "galaxyproject",
+    "galaxyinresearch",
+    "usegalaxy"
+  ],
+  "accounts": [
+    "galaxyproject@mstdn.science"
+  ],
+  "loadFederated": false,
+  "loadPublic": false,
+  "loadTrends": false,
+  "languages": [],
+  "badWords": [],
+  "hideSensitive": true,
+  "hideBoosts": false,
+  "hideBots": true,
+  "hideReplies": true,
+  "limit": 40,
+  "interval": 60,
+  "title": "Fediwall",
+  "theme": "light",
+  "showInfobar": true,
+  "showText": true,
+  "showMedia": true,
+  "playVideos": true,
+  "privacyContact": "https://defnull.de/contact/"
+}

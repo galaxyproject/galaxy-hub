@@ -1,0 +1,489 @@
+tools:
+    - name: Upload File
+      version: 1.1.7
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Pick Fasta sequences
+      version: 3.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fartbio%2Fcherry_pick_fasta%2Fcherry_pick_fasta%2F3.0.1
+      description: with header satisfying a string query
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_barley
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_barley
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_barley
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_barley
+      description: Search protein database with protein query sequence(s)
+    - name: Extract FASTA from coding sequences in barley
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_ESTs_barley
+      description: using BLAST
+    - name: Extract FASTA from pseudomolecules in barley
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_chromosomes_barley
+      description: using BLAST
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_barley_shape
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_barley_shape
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_barley_shape
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_rye_lo7
+      description: Search protein database with protein query sequence(s)
+    - name: BLAST transcripts, ESTs in SHAPE barley
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_ESTs_barley_shape
+      description: to get fasta file of hits
+    - name: Extract FASTA from pseudomolecules in barley
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_chromosomes_shape
+      description: using BLAST
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_barley_shape2
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_barley_shape2
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapperbarley_shape2
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_barley_shape2
+      description: Search protein database with protein query sequence(s)
+    - name: Diamond
+      version: 2.0.15+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdiamond%2Fbg_diamond%2F2.0.15%2Bgalaxy0
+      description: alignment tool for short sequences against a protein database
+    - name: BLAST transcripts, ESTs in SHAPE barley
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_ESTs_barley_shape2
+      description: to get fasta file of hits
+    - name: Extract FASTA from pseudomolecules in barley
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_chromosomes_shape2
+      description: using BLAST
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_bulbosum_v1
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_bulbosum_v1
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_bulbosum_v1
+      description: Search protein database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapperbarley_bulbosum_v1
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_panhordeum_v1
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_panhordeum_v1
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_panhordeum_v1
+      description: Search protein database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_panhordeum_v1
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_wheat
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_wheat
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: Extract FASTA from coding sequences in wheat
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_ESTs_wheat
+      description: using BLAST
+    - name: Extract FASTA from pseudomolecules in wheat
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_chromosomes_wheat
+      description: using BLAST
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_wheat_pangenome
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_wheat_pangenome
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_wheat_pan
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_wheat_pan
+      description: Search protein database with protein query sequence(s)
+    - name: Extract FASTA from coding sequences in wheat pan genomes
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_ESTs_wheat_pan
+      description: using BLAST
+    - name: Extract FASTA from pseudomolecules in wheat pan genome
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_chromosomes_wheat_pan
+      description: using BLAST
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_rye
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_rye
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_rye
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_rye
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: Extract FASTA from coding sequences in rye
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_ESTs
+      description: using BLAST
+    - name: Extract FASTA from pseudomolecules in rye
+      version: "0.1"
+      link: /tool_runner?tool_id=blast_chromosomes
+      description: using BLAST
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_faba
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_faba
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_faba
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_faba
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: Extract nucleotide range and flanking sequences
+      version: 1.0.0
+      link: /tool_runner?tool_id=extra_flank_seqs_faba
+      description: Get FASTA sequences from BED interval
+    - name: Filter CDS and protein FASTA Faba bean
+      version: "2.3"
+      link: /tool_runner?tool_id=filter_by_fasta_ids_faba
+      description: on the headers and/or the sequences
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_brassica
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_brassica
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_chamomile
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_chamomile
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_chamomile
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_chamomile
+      description: Search protein database with protein query sequence(s)
+    - name: NCBI BLAST+ blastn
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastn_wrapper_oats
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ tblastn
+      version: "@WRAPPER_VERSION@"
+      link: /tool_runner?tool_id=ncbi_tblastn_wrapper_oats
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ blastx
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastx_wrapper_oats
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.10.1+galaxy0
+      link: /tool_runner?tool_id=ncbi_blastp_wrapper_oats
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: paf-to-paf.gz
+      version: 1.15.1+galaxy0
+      link: /tool_runner?tool_id=CONVERTER_uncompressed_to_gz
+      description: converter
+    - name: paf.gz-to-paf
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_gz_to_uncompressed
+      description: converter
+    - name: bam-to-bai
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_Bam_Bai_0
+      description: converter
+    - name: bam-to-bigwig
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_bam_to_bigwig_0
+      description: converter
+    - name: bam-to-qname_sorted.bam
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_bam_to_qname_sorted_bam
+      description: converter
+    - name: unsorted.bam-to-bam
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_bam_to_coodinate_sorted_bam
+      description: converter
+    - name: cram-to-bam
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_cram_to_bam_0
+      description: converter
+    - name: bed-to-gff
+      version: 2.0.1
+      link: /tool_runner?tool_id=CONVERTER_bed_to_gff_0
+      description: converter
+    - name: bed-to-bgzip
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bgzip_0
+      description: converter
+    - name: bed-to-tabix
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_tabix_0
+      description: converter
+    - name: bed-to-bigwig
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_bed_gff_or_vcf_to_bigwig_0
+      description: converter
+    - name: bed-to-fli
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_bed_to_fli_0
+      description: converter
+    - name: bedgraph-to-bigwig
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_bedgraph_to_bigwig
+      description: converter
+    - name: len-to-linecount
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_len_to_linecount
+      description: converter
+    - name: parquet-to-csv
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_parquet_to_csv
+      description: converter
+    - name: bigwig-to-wig
+      version: 377+galaxy0
+      link: /tool_runner?tool_id=bigwigtowig
+      description: converter
+    - name: csv-to-tabular
+      version: 1.0.0
+      link: /tool_runner?tool_id=csv_to_tabular
+      description: converter
+    - name: tsv-to-csv
+      version: 1.0.0
+      link: /tool_runner?tool_id=tabular_to_csv
+      description: converter
+    - name: fasta-to-tabular
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_tabular
+      description: converter
+    - name: fasta-to-bowtie_base_index
+      version: 1.3.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_bowtie_base_index
+      description: converter
+    - name: fasta-to-bowtie_color_index
+      version: 1.2.3
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_bowtie_color_index
+      description: converter
+    - name: fasta-to-twobit
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_2bit
+      description: converter
+    - name: fasta-to-len
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_len
+      description: converter
+    - name: fasta-to-fai
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_fasta_to_fai
+      description: converter
+    - name: fastq-to-fqtoc
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_fastq_to_fqtoc0
+      description: converter
+    - name: fastq.bz2-to-fastq
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_bz2_to_uncompressed
+      description: converter
+    - name: gff-to-bed
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_gff_to_bed_0
+      description: converter
+    - name: gff-to-interval_index
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_gff_to_interval_index_0
+      description: converter
+    - name: gff-to-fli
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_gff_to_fli_0
+      description: converter
+    - name: interval-to-bed
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bed_0
+      description: converter
+    - name: interval-to-bedstrict
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bedstrict_0
+      description: converter
+    - name: interval-to-bed6
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bed6_0
+      description: converter
+    - name: interval-to-bed12
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bed12_0
+      description: converter
+    - name: interval-to-bigwig
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_interval_to_bigwig_0
+      description: converter
+    - name: picard_interval_list-to-bed6
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_picard_interval_list_to_bed6
+      description: converter
+    - name: tar-to-directory
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_tar_to_directory
+      description: converter
+    - name: maf-to-fasta
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_maf_to_fasta_0
+      description: converter
+    - name: maf-to-interval
+      version: 1.0.3
+      link: /tool_runner?tool_id=CONVERTER_maf_to_interval_0
+      description: converter
+    - name: sam-to-unsorted.bam
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_sam_to_unsorted_bam
+      description: converter
+    - name: sam-to-bigwig
+      version: 1.0.2
+      link: /tool_runner?tool_id=CONVERTER_sam_to_bigwig_0
+      description: converter
+    - name: dbnsfp.tabular-to-snpsiftdbnsfp
+      version: 1.0.1
+      link: /tool_runner?tool_id=tabular_to_dbnsfp
+      description: converter
+    - name: bcf-to-bcf_uncompressed
+      version: 0.0.1
+      link: /tool_runner?tool_id=CONVERTER_bcf_uncompressed_to_bcf
+      description: converter
+    - name: wig-to-bigwig
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_wig_to_bigwig
+      description: converter
+    - name: wig-to-interval
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_wiggle_to_interval_0
+      description: converter
+    - name: vcf_bgzip-to-tabix
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_vcf_bgzip_to_tabix_0
+      description: converter
+    - name: lped-to-fped
+      version: "0.02"
+      link: /tool_runner?tool_id=lped2fpedconvert
+      description: converter
+    - name: lped-to-pbed
+      version: "0.02"
+      link: /tool_runner?tool_id=lped2pbedconvert
+      description: converter
+    - name: pbed-to-lped
+      version: "0.02"
+      link: /tool_runner?tool_id=pbed2lpedconvert
+      description: converter
+    - name: pbed-to-ldindep
+      version: "0.02"
+      link: /tool_runner?tool_id=pbed2ldindepconvert
+      description: converter
+    - name: biom1-to-biom2
+      version: 2.1.5
+      link: /tool_runner?tool_id=CONVERTER_biom
+      description: converter
+    - name: smi-to-sdf
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_molecules
+      description: converter
+    - name: smi-to-mol
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_SMILES_to_MOL
+      description: converter
+    - name: smi-to-smi
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_smiles_to_smiles
+      description: converter
+    - name: inchi-to-mol
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_inchi_to_mol
+      description: converter
+    - name: mol2-to-mol
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_mol2_to_mol
+      description: converter
+    - name: cml-to-smi
+      version: 2.4.1
+      link: /tool_runner?tool_id=CONVERTER_cml_to_smiles
+      description: converter
+    - name: pdb-to-gro
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_Pdb_to_Gro_0
+      description: converter
+    - name: trr-to-xtc
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_mdconvert
+      description: converter
+    - name: gro-to-pdb
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_Gro_to_Pdb_0
+      description: converter
+    - name: mothur.ref.taxonomy-to-mothur.seq.taxonomy
+      version: 1.0.1
+      link: /tool_runner?tool_id=CONVERTER_ref_to_seq_taxomony
+      description: converter
+    - name: neostore.zip-to-neostore
+      version: 1.0.0
+      link: /tool_runner?tool_id=CONVERTER_neostorezip_to_neostore
+      description: converter
