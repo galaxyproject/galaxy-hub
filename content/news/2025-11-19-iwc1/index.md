@@ -13,16 +13,11 @@ tags:
 autotoc: false
 ---
 
-![](iwc.png)
+<img src="iwc.png" alt="IWC" width="600" />
 
 ## Galaxy is workflows!
 
-The Intergalactic Workflow Commission ([IWC](https://iwc.galaxyproject.org)) is a curated library of Galaxy workflows designed to make data analysis accessible.  IWC workflows are community curated
-![](window_manager.svg)
-
-… but that’s just the beginning! Once activated, you can open and view multiple datasets and visualizations as individual windows right inside Galaxy’s interface:
-
-![](wm.png)
+The Intergalactic Workflow Commission ([IWC](https://iwc.galaxyproject.org)) is a curated library of Galaxy workflows designed to make data analysis accessible.  IWC workflows are community curated.
 
 ## Intrigued?
 
