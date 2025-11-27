@@ -8,13 +8,19 @@ autotoc: true
 
 ## The City
 
-Clermont-Ferrand is a dynamic university city nestled in the heart of the Auvergne region, with a population of approximately 145,000 in the city and over 500,000 in the metropolitan area. The city is distinguished by its unique architecture built from dark volcanic stone, giving it a striking appearance that sets it apart from other French cities.
+### Between history and modernity
 
-As the historical capital of the Auvergne region, Clermont-Ferrand perfectly balances its rich medieval heritage with a modern, innovative spirit. The city is famously the birthplace of Michelin tires and remains a hub for rubber and tire manufacturing, while also being home to a thriving tech and research sector.
+Perched on a hill and protected by ancient ramparts, Clermont-Ferrand is a city with an evocative atmosphere that blends a modern identity with a captivating historic center. The city is nestled in the heart of the Auvergne region, with a population of approximately 145,000. 
 
-The compact and walkable city center features beautiful Gothic architecture, lively squares, and a welcoming atmosphere. Students make up a significant portion of the population, contributing to a vibrant cultural scene with numerous cafés, bars, theaters, and music venues.
+As the historical capital of the Auvergne region, Clermont-Ferrand perfectly balances its rich medieval heritage with a modern, innovative spirit.
 
-## Weather in Late June
+On the one hand, it hosts a remarkable monument, the Romanesque Basilica of Notre-Dame-du-Port, a UNESCO World Heritage Site. The ornate and sculpted Renaissance private palaces rival the exquisitely carved Amboise Fountain in beauty, while Art Nouveau friezes adorn the 20th-century facades and shop windows. 
+
+On the other, the city is famously the birthplace of Michelin tires and remains a hub for rubber and tire manufacturing, while also being home to a thriving tech and research sector.
+
+The compact and walkable city center features beautiful Gothic architecture, lively squares, and a welcoming atmosphere. Students make up a significant portion of the population, contributing to a vibrant cultural scene with numerous cafés, bars, theaters, and music venues. Clermont-Ferrand is an amazing city with a rich cultural, religious, architectural, gastronomic, and sporting heritage: you'll be spoiled for choice with its museums, parks, fine restaurants, and vibrant nightlife.
+
+### Weather in Late June
 
 Late June in Clermont-Ferrand offers pleasant summer weather, ideal for both conference activities and outdoor exploration. Average daytime temperatures typically range from 20°C to 26°C (68°F to 79°F), making it comfortable for walking around the city and exploring the surrounding region.
 
