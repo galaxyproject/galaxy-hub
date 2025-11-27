@@ -34,11 +34,13 @@ The long summer days mean you'll have plenty of daylight to enjoy the city, with
 
 Reaching Clermont-Ferrand is convenient thanks to its well-connected transportation network. The city is served by Clermont-Ferrand Auvergne Airport (CFE), located just a short 15-minute drive from the city center, with regular flights to major European hubs such as Paris, Amsterdam, and Lyon.
 
+From the airport you can either get a taxi or you can take the bus 20 towards GERZAT Champfleuri and get to the city center in 20 minutes. Tickets can be bought to a machine directly at the airport (~1,60€) or directly in the bus with your credit card. FYI, buses are **free** on saturdays and sundays.
+
 For international travelers, Paris Charles de Gaulle (CDG) and Lyon–Saint Exupéry (LYS) airports offer the most connections from around the world. Both airports provide easy onward connections to Clermont-Ferrand by train or rental car, with regular shuttle buses also available.
 
 ## By Train
 
-France's efficient rail system makes traveling to Clermont-Ferrand straightforward and scenic. High-speed trains (TGV/Intercités) connect the city to Paris in about 3.5 hours, with several daily departures from Gare de Bercy. The journey offers stunning views of the French countryside and the volcanic landscapes of the Auvergne region.
+France's rail system makes traveling to Clermont-Ferrand straightforward and scenic. High-speed trains (TGV/Intercités) connect the city to Paris in about 3.5 hours, with several daily departures from Gare de Bercy. The journey offers stunning views of the French countryside and the volcanic landscapes of the Auvergne region.
 
 Direct train connections are also available from Lyon (2 hours), Marseille (4 hours), and other major French cities. The Clermont-Ferrand train station is centrally located and well-connected to the city's public transportation network.
 
