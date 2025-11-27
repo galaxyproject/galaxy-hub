@@ -50,25 +50,29 @@ For those driving, Clermont-Ferrand is easily accessible via the A71, A72, and A
 
 # Local Attractions
 
+## Historic City Center
+
+Clermont-Ferrand blends medieval charm, volcanic stone architecture, and lush green spaces. The city’s skyline is dominated by the Cathedral of Our Lady of the Assumption, an extraordinary Gothic masterpiece built entirely from dark volcanic lava, its lace-like spires rising above the rooftops. Not far away, the Romanesque Basilica of Notre-Dame du Port showcases warm blond arkose stone, intricate carved capitals, and its famous Black Madonna.
+
+The city is home to two medieval hearts — Clermont and Montferrand — each offering winding lanes, Renaissance mansions, sculpted staircases, and ornate fountains. Just a few kilometres away, the thermal district of Royat shifts the mood entirely with Belle Époque architecture, grand hotels, colourful villas, and historic spa buildings.
+
+For a breath of fresh air, the Lecoq Garden provides a serene 19th-century oasis in the city center, while the nearby Henri Lecoq Museum houses vast natural science collections. For sweeping views of the city and the surrounding volcanoes, the hilltop Montjuzet Park offers cypress-lined paths, wide lawns, and a perfect picnic spot overlooking the Auvergne landscape.
+
+## Michelin Adventure Museum
+
+Discover the fascinating history of the Michelin company, from its founding in Clermont-Ferrand to becoming a global tire giant. The museum features vintage cars, racing vehicles, historical advertising featuring the iconic Michelin Man (Bibendum), and interactive exhibits about tire technology.
+
 ## The Puy de Dôme
 
 The iconic Puy de Dôme volcano dominates the skyline just 15 km west of the city and is an absolute must-see. At 1,465 meters, this dormant volcano offers spectacular panoramic views of the entire Chaîne des Puys volcanic range and the surrounding countryside. You can reach the summit via a panoramic train (about 15 minutes) or hike up one of several trails.
 
 The Puy de Dôme is a UNESCO World Heritage site and home to ancient Roman temple ruins and modern communications antennas. On clear days, the 360-degree views are breathtaking and provide excellent photo opportunities.
 
-## Historic City Center
-
-The old town features stunning medieval architecture, including the magnificent Cathedral of Our Lady of the Assumption, built entirely from black volcanic stone. The cathedral's Gothic spires are visible throughout the city and the interior features remarkable stained glass windows and frescoes.
-
-The Place de Jaude is the city's central square and social hub, surrounded by shops, cafés, and restaurants. The square features a striking statue of Vercingetorix, the Gallic chieftain who united the tribes against Julius Caesar, commemorating the region's Celtic heritage.
+To reach the Puy de Dôme it's around 25min from the city center or there's shuttle bus called ["La navette du Panoramique des Dômes"](https://www.panoramiquedesdomes.fr/comment-venir/) (free on saturdays and sundays). 
 
 ## Vulcania
 
-This unique European volcano theme park, located 15 km from the city, offers an interactive and educational experience about volcanoes, earth sciences, and the natural forces that shaped the Auvergne region. It's both entertaining and educational, with immersive exhibits, 4D films, and simulators.
-
-## Michelin Adventure Museum
-
-Discover the fascinating history of the Michelin company, from its founding in Clermont-Ferrand to becoming a global tire giant. The museum features vintage cars, racing vehicles, historical advertising featuring the iconic Michelin Man (Bibendum), and interactive exhibits about tire technology.
+This unique European volcano theme park, located 15 km from the city, offers an interactive and educational experience about volcanoes, earth sciences, and the natural forces that shaped the Auvergne region. It's both entertaining and educational, with immersive exhibits, 4D films, and simulators. [To go to Vulcania](https://www.vulcania.com/en/shuttle/).
 
 # Culinary Scene
 
