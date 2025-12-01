@@ -708,7 +708,7 @@ function makePlatformsJson(platformsData) {
 
 function makeEventsJson(eventsData) {
     const events = eventsData.data.allParentArticle.edges
-        .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
+        .filter((article) => article.node.days_ago != null && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
         .map((edge) => {
             // We include all fields, including content in the JSON feed
             return edge.node;
@@ -722,7 +722,7 @@ function makeEventsJson(eventsData) {
 
 function makeNewsJson(newsData) {
     const news = newsData.data.allParentArticle.edges
-        .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
+        .filter((article) => article.node.days_ago != null && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
         .map((edge) => {
             // We include all fields, including content in the JSON feed
             return edge.node;
