@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://neo.engr.uconn.edu/
+  ip: 137.99.3.159
+  version: IPv4
+  asn: AS13796 University of Connecticut
+  org: University of Connecticut
+  release:
+    version_major: '18.05'
+    version_minor: null
+  location:
+    city: Storrs
+    region: Connecticut
+    region_code: CT
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: 06268
+    latitude: 41.8006
+    longitude: -72.2466
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:44:51Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

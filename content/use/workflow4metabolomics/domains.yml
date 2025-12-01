@@ -1,0 +1,26 @@
+domains:
+- platform_url: https://workflow4metabolomics.usegalaxy.fr
+  ip: 192.54.201.186
+  version: IPv4
+  asn: AS1303 Renater
+  release:
+    version_major: '25.0'
+    version_minor: 3.dev0
+  location:
+    city: Orsay
+    region: Île-de-France
+    region_code: IDF
+    country: FR
+    country_name: France
+    country_code: FR
+    continent_code: EU
+    postal: '91400'
+    latitude: 48.6972
+    longitude: 2.18962
+    timezone: Europe/Paris
+    currency: EUR
+  response:
+    time: '2025-11-25T21:24:25Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

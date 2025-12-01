@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://pharmacology.slu.edu/
+  ip: 165.134.201.153
+  version: IPv4
+  asn: AS25969 St. Louis University
+  org: St. Louis University
+  location:
+    city: St Louis
+    region: Missouri
+    region_code: MO
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '63118'
+    latitude: 38.5943
+    longitude: -90.2321
+    timezone: America/Chicago
+    currency: USD
+  response:
+    time: '2025-11-25T19:42:00Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

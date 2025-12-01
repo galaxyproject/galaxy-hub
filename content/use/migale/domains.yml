@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://galaxy.migale.inra.fr/
+  ip: 138.102.144.93
+  version: IPv4
+  asn: AS2200 Renater
+  org: Institut national de recherche pour l'agriculture, l'alimentation et l'environnement
+  location:
+    city: Vincennes
+    region: Île-de-France
+    region_code: IDF
+    country: FR
+    country_name: France
+    country_code: FR
+    continent_code: EU
+    postal: '94300'
+    latitude: 48.8457
+    longitude: 2.4409
+    timezone: Europe/Paris
+    currency: EUR
+  response:
+    time: '2025-11-25T19:45:30Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

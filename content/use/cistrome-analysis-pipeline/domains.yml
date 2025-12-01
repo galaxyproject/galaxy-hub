@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://cistrome.org/ap/root
+  ip: 155.52.218.90
+  version: IPv4
+  asn: AS40831 Mass General Brigham Incorporated
+  org: Dana-Farber Cancer Institute
+  location:
+    city: Lowell
+    region: Massachusetts
+    region_code: MA
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: 01854
+    latitude: 42.6481
+    longitude: -71.3343
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:39:42Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

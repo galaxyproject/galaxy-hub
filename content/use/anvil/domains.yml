@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://anvilproject.org/
+  ip: 3.171.76.117
+  version: IPv4
+  asn: AS16509 Amazon.com, Inc.
+  org: AWS CloudFront (GLOBAL)
+  location:
+    city: Washington
+    region: District of Columbia
+    region_code: DC
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '20068'
+    latitude: 38.9072
+    longitude: -77.0369
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:37:05Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

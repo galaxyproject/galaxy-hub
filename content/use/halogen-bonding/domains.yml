@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://134.2.17.68:8081/
+  ip: 134.2.17.68
+  version: IPv4
+  asn: AS553 BelWue-Koordination
+  org: UNI-TUEBINGEN
+  location:
+    city: Tübingen
+    region: Baden-Wurttemberg
+    region_code: BW
+    country: DE
+    country_name: Germany
+    country_code: DE
+    continent_code: EU
+    postal: '72076'
+    latitude: 48.5348
+    longitude: 9.0495
+    timezone: Europe/Berlin
+    currency: EUR
+  response:
+    time: '2025-11-25T19:42:53Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

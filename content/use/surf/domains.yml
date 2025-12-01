@@ -1,0 +1,23 @@
+domains:
+- platform_url: https://www.surf.nl/en/services/compute/surf-research-cloud
+  ip: 145.100.190.243
+  version: IPv4
+  asn: AS1103 SURF B.V.
+  location:
+    city: Groningen
+    region: Groningen
+    region_code: GR
+    country: NL
+    country_name: The Netherlands
+    country_code: NL
+    continent_code: EU
+    postal: '9724'
+    latitude: 53.2145
+    longitude: 6.5751
+    timezone: Europe/Amsterdam
+    currency: EUR
+  response:
+    time: '2025-11-25T21:22:52Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

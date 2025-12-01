@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://galaxy.genelab.nasa.gov/
+  ip: 161.40.160.139
+  version: IPv4
+  asn: AS297 National Aeronautics and Space Administration
+  org: National Aeronautics and Space Administration
+  location:
+    city: Reston
+    region: Virginia
+    region_code: VA
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '20190'
+    latitude: 38.9586
+    longitude: -77.357
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:42:14Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

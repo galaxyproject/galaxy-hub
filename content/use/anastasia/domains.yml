@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://motherbox.chemeng.ntua.gr/anastasia_dev/
+  ip: 147.102.81.191
+  version: IPv4
+  asn: AS3323 National Technical University of Athens
+  org: National Technical University of Athens
+  location:
+    city: Athens
+    region: Attica
+    region_code: I
+    country: GR
+    country_name: Greece
+    country_code: GR
+    continent_code: EU
+    postal: ''
+    latitude: 37.9842
+    longitude: 23.7353
+    timezone: Europe/Athens
+    currency: EUR
+  response:
+    time: '2025-11-25T19:37:04Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://ecology.usegalaxy.eu/
+  ip: 132.230.103.37
+  version: IPv4
+  asn: AS553 BelWue-Koordination
+  org: UNI-FREIBURG
+  release:
+    version_major: '25.0'
+    version_minor: 4.dev0
+  location:
+    city: Freiburg im Breisgau
+    region: Baden-Wurttemberg
+    region_code: BW
+    country: DE
+    country_name: Germany
+    country_code: DE
+    continent_code: EU
+    postal: '79104'
+    latitude: 48.0089
+    longitude: 7.8464
+    timezone: Europe/Berlin
+    currency: EUR
+  response:
+    time: '2025-11-25T19:40:06Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

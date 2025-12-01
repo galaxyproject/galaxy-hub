@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://lisis.cs.ucy.ac.cy/
+  ip: 194.42.17.132
+  version: IPv4
+  asn: AS209617 University of Cyprus
+  org: Kition
+  location:
+    city: Larnaca
+    region: Larnaka
+    region_code: '03'
+    country: CY
+    country_name: Cyprus
+    country_code: CY
+    continent_code: EU
+    postal: ''
+    latitude: 34.9165
+    longitude: 33.6272
+    timezone: Asia/Nicosia
+    currency: EUR
+  response:
+    time: '2025-11-25T19:44:49Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

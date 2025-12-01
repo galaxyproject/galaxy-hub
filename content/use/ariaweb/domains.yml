@@ -1,0 +1,23 @@
+domains:
+- platform_url: https://ariaweb.pasteur.fr/
+  ip: 157.99.4.143
+  version: IPv4
+  asn: AS29110 Institut Pasteur
+  location:
+    city: Paris
+    region: Île-de-France
+    region_code: IDF
+    country: FR
+    country_name: France
+    country_code: FR
+    continent_code: EU
+    postal: '75015'
+    latitude: 48.8558
+    longitude: 2.3494
+    timezone: Europe/Paris
+    currency: EUR
+  response:
+    time: '2025-11-25T19:37:12Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

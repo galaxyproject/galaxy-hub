@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://cpt.tamu.edu/galaxy-pub/
+  ip: 128.194.37.105
+  version: IPv4
+  asn: AS3794 Texas A&M University
+  org: Texas A&M University
+  location:
+    city: College Station
+    region: Texas
+    region_code: TX
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '77845'
+    latitude: 30.5118
+    longitude: -96.3171
+    timezone: America/Chicago
+    currency: USD
+  response:
+    time: '2025-11-25T19:39:36Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

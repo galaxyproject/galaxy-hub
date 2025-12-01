@@ -1,0 +1,34 @@
+domains:
+- platform_url: http://aspendb.uga.edu:8085/
+  ip: 128.192.11.195
+  network: 128.192.0.0/20
+  version: IPv4
+  asn: AS36441
+  org: UGA-ASN
+  location:
+    city: Athens
+    region: Georgia
+    region_code: GA
+    country: US
+    country_name: United States
+    country_code: US
+    country_code_iso3: USA
+    country_capital: Washington
+    continent_code: NA
+    in_eu: false
+    postal: '30605'
+    latitude: 33.9332
+    longitude: -83.3536
+    timezone: America/New_York
+    utc_offset: '-0500'
+    country_calling_code: '+1'
+    currency: USD
+    currency_name: Dollar
+    languages: en-US,es-US,haw,fr
+    country_area: 9629091.0
+    country_population: 327167434
+  response:
+    time: '2025-11-24T18:31:32Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

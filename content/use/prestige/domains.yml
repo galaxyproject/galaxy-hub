@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://prestige.case.edu/
+  ip: 129.22.245.51
+  version: IPv4
+  asn: AS32666 Case Western Reserve University
+  org: Case Western Reserve University
+  location:
+    city: Cleveland
+    region: Ohio
+    region_code: OH
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '44124'
+    latitude: 41.4951
+    longitude: -81.4657
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:57:21Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

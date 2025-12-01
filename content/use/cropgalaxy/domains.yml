@@ -1,0 +1,27 @@
+domains:
+- platform_url: http://cropgalaxy.excellenceinbreeding.org/
+  ip: 13.250.245.3
+  version: IPv4
+  asn: AS16509 Amazon.com, Inc.
+  org: AWS EC2 (ap-southeast-1)
+  release:
+    version_major: '17.09'
+    version_minor: null
+  location:
+    city: Singapore
+    region: Central Singapore
+    region_code: '01'
+    country: SG
+    country_name: Singapore
+    country_code: SG
+    continent_code: AS
+    postal: 048582
+    latitude: 1.28009
+    longitude: 103.851
+    timezone: Asia/Singapore
+    currency: SGD
+  response:
+    time: '2025-11-25T19:40:02Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

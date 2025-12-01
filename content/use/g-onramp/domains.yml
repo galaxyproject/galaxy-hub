@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://wustl.app.box.com/v/g-onramp-vm-v1
+  ip: 74.112.186.157
+  version: IPv4
+  asn: AS396982 Google LLC
+  org: Box.com
+  location:
+    city: Redwood City
+    region: California
+    region_code: CA
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '94061'
+    latitude: 37.4849
+    longitude: -122.229
+    timezone: America/Los_Angeles
+    currency: USD
+  response:
+    time: '2025-11-25T19:40:15Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

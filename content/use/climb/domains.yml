@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://www.climb.ac.uk/
+  ip: 147.188.173.230
+  version: IPv4
+  asn: AS786 Jisc Services Limited
+  org: The University of Birmingham
+  location:
+    city: Birmingham
+    region: England
+    region_code: ENG
+    country: GB
+    country_name: United Kingdom
+    country_code: GB
+    continent_code: EU
+    postal: B43
+    latitude: 52.547
+    longitude: -1.9396
+    timezone: Europe/London
+    currency: GBP
+  response:
+    time: '2025-11-25T19:39:46Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

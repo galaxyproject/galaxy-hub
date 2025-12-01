@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://biodivine-vm.fi.muni.cz/galaxy/
+  ip: 147.251.58.104
+  version: IPv4
+  asn: AS2852 CESNET z.s.p.o.
+  org: Masarykova univerzita - Ustav vypocetni techniky
+  location:
+    city: Brno
+    region: South Moravian
+    region_code: '64'
+    country: CZ
+    country_name: Czechia
+    country_code: CZ
+    continent_code: EU
+    postal: 602 00
+    latitude: 49.1953
+    longitude: 16.6016
+    timezone: Europe/Prague
+    currency: CZK
+  response:
+    time: '2025-11-25T19:37:51Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

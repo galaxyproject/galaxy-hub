@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://socscicompute.ss.uci.edu/
+  ip: 35.161.53.164
+  version: IPv4
+  asn: AS16509 Amazon.com, Inc.
+  org: AWS EC2 (us-west-2)
+  location:
+    city: Portland
+    region: Oregon
+    region_code: OR
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '97207'
+    latitude: 45.5235
+    longitude: -122.676
+    timezone: America/Los_Angeles
+    currency: USD
+  response:
+    time: '2025-11-25T19:39:56Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://usegalaxyp.org/
+  ip: 173.236.246.197
+  version: IPv4
+  asn: AS26347 New Dream Network, LLC
+  org: DreamHost
+  location:
+    city: Ashburn
+    region: Virginia
+    region_code: VA
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '20147'
+    latitude: 39.0228
+    longitude: -77.4549
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:40:54Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

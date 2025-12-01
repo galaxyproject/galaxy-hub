@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://galaxy-synbiocad.org/
+  ip: 147.100.164.116
+  version: IPv4
+  asn: AS2200 Renater
+  org: Institut national de recherche pour l'agriculture, l'alimentation et l'environnement
+  release:
+    version_major: '21.09'
+    version_minor: 1.dev0
+  location:
+    city: Paris
+    region: Île-de-France
+    region_code: IDF
+    country: FR
+    country_name: France
+    country_code: FR
+    continent_code: EU
+    postal: '75007'
+    latitude: 48.8609
+    longitude: 2.30617
+    timezone: Europe/Paris
+    currency: EUR
+  response:
+    time: '2025-11-25T21:22:54Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

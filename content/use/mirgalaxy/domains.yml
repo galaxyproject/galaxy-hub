@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://hub.docker.com/r/glogobyte/mirgalaxy
+  ip: 104.18.43.187
+  version: IPv4
+  asn: AS13335 Cloudflare, Inc.
+  org: Cloudflare, Inc.
+  location:
+    city: New York
+    region: New York
+    region_code: NY
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '10123'
+    latitude: 40.7128
+    longitude: -74.006
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:45:33Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

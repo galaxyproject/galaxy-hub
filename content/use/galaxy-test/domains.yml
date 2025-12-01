@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://test.galaxyproject.org/
+  ip: 129.114.60.69
+  version: IPv4
+  asn: AS32093 University of Texas at Austin
+  org: The University of Texas at Austin Texas Advanced Computing Center
+  release:
+    version_major: '26.0'
+    version_minor: dev0
+  location:
+    city: Austin
+    region: Texas
+    region_code: TX
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '78758'
+    latitude: 30.3912
+    longitude: -97.7218
+    timezone: America/Chicago
+    currency: USD
+  response:
+    time: '2025-11-25T19:42:01Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

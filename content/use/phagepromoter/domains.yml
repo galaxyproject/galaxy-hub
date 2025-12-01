@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://galaxy.bio.di.uminho.pt/
+  ip: 193.136.19.202
+  version: IPv4
+  asn: AS1930 Fundacao para a Ciencia e a Tecnologia, I.P.
+  org: Universidade do Minho
+  release:
+    version_major: '20.09'
+    version_minor: null
+  location:
+    city: Porto
+    region: Porto
+    region_code: '13'
+    country: PT
+    country_name: Portugal
+    country_code: PT
+    continent_code: EU
+    postal: 4200-001
+    latitude: 41.1459
+    longitude: -8.6169
+    timezone: Europe/Lisbon
+    currency: EUR
+  response:
+    time: '2025-11-25T19:56:42Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

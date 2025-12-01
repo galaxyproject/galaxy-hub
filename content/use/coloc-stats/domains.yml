@@ -1,0 +1,26 @@
+domains:
+- platform_url: https://hyperbrowser.uio.no/coloc-stats
+  ip: 129.240.189.148
+  version: IPv4
+  asn: AS224 SIKT - KUNNSKAPSSEKTORENS TJENESTELEVERANDOR
+  release:
+    version_major: '16.01'
+    version_minor: null
+  location:
+    city: Oslo
+    region: Oslo County
+    region_code: '03'
+    country: 'NO'
+    country_name: Norway
+    country_code: 'NO'
+    continent_code: EU
+    postal: 0598
+    latitude: 59.9133
+    longitude: 10.7389
+    timezone: Europe/Oslo
+    currency: NOK
+  response:
+    time: '2025-11-25T19:39:51Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://tgm-pipeline.uni.lu/galaxy/
+  ip: 158.64.79.239
+  version: IPv4
+  asn: AS2602 Fondation RESTENA
+  org: Fondation RESTENA
+  location:
+    city: Luxembourg
+    region: Luxembourg
+    region_code: LU
+    country: LU
+    country_name: Luxembourg
+    country_code: LU
+    continent_code: EU
+    postal: L-1341
+    latitude: 49.6113
+    longitude: 6.1294
+    timezone: Europe/Luxembourg
+    currency: EUR
+  response:
+    time: '2025-11-25T21:23:00Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

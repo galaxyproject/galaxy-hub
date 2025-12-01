@@ -1,0 +1,8 @@
+domains:
+- platform_url: http://ab-openlab.csir.res.in/frog/
+  ip: 14.139.234.87
+  response:
+    time: '2025-11-24T06:35:47Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

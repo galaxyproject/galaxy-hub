@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://galaxy.morganlangille.com/
+  ip: 129.173.80.34
+  version: IPv4
+  asn: AS8111 Dalhousie University
+  org: Dalhousie University
+  location:
+    city: Halifax
+    region: Nova Scotia
+    region_code: NS
+    country: CA
+    country_name: Canada
+    country_code: CA
+    continent_code: NA
+    postal: B3H
+    latitude: 44.6344
+    longitude: -63.5822
+    timezone: America/Halifax
+    currency: CAD
+  response:
+    time: '2025-11-25T19:43:42Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://grappa.eecs.utk.edu/grappa/
+  ip: 160.36.58.215
+  version: IPv4
+  asn: AS3450 University of Tennessee
+  org: University of Tennessee
+  release:
+    version_major: '22.05'
+    version_minor: '1'
+  location:
+    city: Knoxville
+    region: Tennessee
+    region_code: TN
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '37922'
+    latitude: 35.8585
+    longitude: -84.1206
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:42:52Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

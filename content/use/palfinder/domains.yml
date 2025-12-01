@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://palfinder.ls.manchester.ac.uk/
+  ip: 130.88.97.220
+  version: IPv4
+  asn: AS786 Jisc Services Limited
+  org: The University of Manchester
+  release:
+    version_major: '22.05'
+    version_minor: '1'
+  location:
+    city: Manchester
+    region: England
+    region_code: ENG
+    country: GB
+    country_name: United Kingdom
+    country_code: GB
+    continent_code: EU
+    postal: M13
+    latitude: 53.4702
+    longitude: -2.2305
+    timezone: Europe/London
+    currency: GBP
+  response:
+    time: '2025-11-25T19:56:37Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

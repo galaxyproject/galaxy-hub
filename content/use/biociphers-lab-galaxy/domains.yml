@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://avispa.biociphers.org/
+  ip: 45.60.75.182
+  version: IPv4
+  asn: AS19551 Incapsula Inc
+  org: Incapsula Inc
+  location:
+    city: New York
+    region: New York
+    region_code: NY
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '10123'
+    latitude: 40.7128
+    longitude: -74.006
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:37:19Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

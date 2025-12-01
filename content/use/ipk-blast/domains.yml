@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://galaxy-web.ipk-gatersleben.de
+  ip: 194.94.136.157
+  version: IPv4
+  asn: AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: Leibniz-Institut fuer Pflanzengenetik und Kulturpflanzenforschung, Gatersleben
+  release:
+    version_major: '22.05'
+    version_minor: '1'
+  location:
+    city: Kiel
+    region: Schleswig-Holstein
+    region_code: SH
+    country: DE
+    country_name: Germany
+    country_code: DE
+    continent_code: EU
+    postal: '24105'
+    latitude: 54.3308
+    longitude: 10.1368
+    timezone: Europe/Berlin
+    currency: EUR
+  response:
+    time: '2025-11-25T19:43:41Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

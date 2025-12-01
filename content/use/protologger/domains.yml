@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://protologger.de/
+  ip: 3.33.251.168
+  version: IPv4
+  asn: AS16509 Amazon.com, Inc.
+  org: AWS Global Accelerator (GLOBAL)
+  location:
+    city: Montreal
+    region: Quebec
+    region_code: QC
+    country: CA
+    country_name: Canada
+    country_code: CA
+    continent_code: NA
+    postal: H4X
+    latitude: 45.5019
+    longitude: -73.5674
+    timezone: America/Toronto
+    currency: CAD
+  response:
+    time: '2025-11-25T19:57:24Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

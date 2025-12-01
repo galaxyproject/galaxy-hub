@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://mpds.osdd.net/
+  ip: 14.139.64.105
+  version: IPv4
+  asn: AS55824 NKN Core Network
+  org: Indian Institute of Chemical Technology
+  location:
+    city: Hyderabad
+    region: Telangana
+    region_code: TS
+    country: IN
+    country_name: India
+    country_code: IN
+    continent_code: AS
+    postal: '500009'
+    latitude: 17.3843
+    longitude: 78.4583
+    timezone: Asia/Kolkata
+    currency: INR
+  response:
+    time: '2025-11-25T19:46:13Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

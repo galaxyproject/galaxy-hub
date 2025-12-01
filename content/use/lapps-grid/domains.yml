@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://galaxy.lappsgrid.org/
+  ip: 149.165.157.218
+  version: IPv4
+  asn: AS10680 Indiana University
+  org: Indiana University
+  location:
+    city: Bloomington
+    region: Indiana
+    region_code: IN
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '47408'
+    latitude: 39.172
+    longitude: -86.5016
+    timezone: America/Indiana/Indianapolis
+    currency: USD
+  response:
+    time: '2025-11-25T19:44:15Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

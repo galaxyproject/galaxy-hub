@@ -1,0 +1,23 @@
+domains:
+- platform_url: https://galaxy.immuneml.uio.no/
+  ip: 129.240.189.178
+  version: IPv4
+  asn: AS224 SIKT - KUNNSKAPSSEKTORENS TJENESTELEVERANDOR
+  location:
+    city: Oslo
+    region: Oslo County
+    region_code: '03'
+    country: 'NO'
+    country_name: Norway
+    country_code: 'NO'
+    continent_code: EU
+    postal: 0598
+    latitude: 59.9133
+    longitude: 10.7389
+    timezone: Europe/Oslo
+    currency: NOK
+  response:
+    time: '2025-11-25T19:43:38Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

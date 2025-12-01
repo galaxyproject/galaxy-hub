@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://143.169.238.104/galaxy/
+  ip: 143.169.238.104
+  version: IPv4
+  asn: AS2611 BELNET
+  org: Uianet
+  location:
+    city: Hasselt
+    region: Flanders
+    region_code: VLG
+    country: BE
+    country_name: Belgium
+    country_code: BE
+    continent_code: EU
+    postal: '3500'
+    latitude: 50.935
+    longitude: 5.3372
+    timezone: Europe/Brussels
+    currency: EUR
+  response:
+    time: '2025-11-25T19:38:23Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

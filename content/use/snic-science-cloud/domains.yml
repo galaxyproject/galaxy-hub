@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://cloud.snic.se/
+  ip: 130.239.81.248
+  version: IPv4
+  asn: AS2833 Umea University
+  org: Umea University
+  location:
+    city: Umeå
+    region: Västerbotten County
+    region_code: AC
+    country: SE
+    country_name: Sweden
+    country_code: SE
+    continent_code: EU
+    postal: 903 43
+    latitude: 63.8247
+    longitude: 20.2559
+    timezone: Europe/Stockholm
+    currency: SEK
+  response:
+    time: '2025-11-25T21:22:47Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

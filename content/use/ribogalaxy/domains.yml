@@ -1,0 +1,24 @@
+domains:
+- platform_url: http://ribogalaxy.ucc.ie/
+  ip: 143.239.21.32
+  version: IPv4
+  asn: AS1213 HEAnet CLG
+  org: University College Cork
+  location:
+    city: Cork
+    region: Munster
+    region_code: M
+    country: IE
+    country_name: Ireland
+    country_code: IE
+    continent_code: EU
+    postal: T12
+    latitude: 51.8755
+    longitude: -8.493
+    timezone: Europe/Dublin
+    currency: EUR
+  response:
+    time: '2025-11-25T19:57:29Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

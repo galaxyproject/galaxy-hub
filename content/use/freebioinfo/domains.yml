@@ -1,0 +1,27 @@
+domains:
+- platform_url: http://www.freebioinfo.org/
+  ip: 47.110.130.237
+  version: IPv4
+  asn: AS37963 Hangzhou Alibaba Advertising Co.,Ltd.
+  org: Aliyun Computing Co., LTD
+  release:
+    version_major: '18.05'
+    version_minor: null
+  location:
+    city: Hangzhou
+    region: Zhejiang
+    region_code: ZJ
+    country: CN
+    country_name: China
+    country_code: CN
+    continent_code: AS
+    postal: ''
+    latitude: 30.2943
+    longitude: 120.1663
+    timezone: Asia/Shanghai
+    currency: CNY
+  response:
+    time: '2025-11-25T19:40:14Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

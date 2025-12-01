@@ -1,0 +1,26 @@
+domains:
+- platform_url: https://viralvariant.anses.fr/
+  ip: 37.58.186.143
+  version: IPv4
+  asn: AS16347 ADISTA SAS
+  release:
+    version_major: '25.0'
+    version_minor: 4.dev0
+  location:
+    city: Paris
+    region: Île-de-France
+    region_code: IDF
+    country: FR
+    country_name: France
+    country_code: FR
+    continent_code: EU
+    postal: '75010'
+    latitude: 48.8558
+    longitude: 2.3494
+    timezone: Europe/Paris
+    currency: EUR
+  response:
+    time: '2025-11-25T21:24:23Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

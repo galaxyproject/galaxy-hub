@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://galaxy.hyphy.org/
+  ip: 129.32.209.139
+  version: IPv4
+  asn: AS3778 Temple University
+  org: Temple University
+  release:
+    version_major: '25.0'
+    version_minor: '3'
+  location:
+    city: Philadelphia
+    region: Pennsylvania
+    region_code: PA
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '19142'
+    latitude: 39.9233
+    longitude: -75.2313
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T19:43:02Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

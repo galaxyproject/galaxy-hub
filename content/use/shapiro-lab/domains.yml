@@ -1,0 +1,24 @@
+domains:
+- platform_url: https://binkley2.ncifcrf.gov/users/bshapiro//software.html
+  ip: 129.43.40.56
+  version: IPv4
+  asn: AS6150 National Cancer Institute
+  org: National Cancer Institute
+  location:
+    city: Frederick
+    region: Maryland
+    region_code: MD
+    country: US
+    country_name: United States
+    country_code: US
+    continent_code: NA
+    postal: '21702'
+    latitude: 39.4388
+    longitude: -77.3626
+    timezone: America/New_York
+    currency: USD
+  response:
+    time: '2025-11-25T21:22:44Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK

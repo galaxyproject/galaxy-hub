@@ -1,0 +1,27 @@
+domains:
+- platform_url: https://ngtax.systemsbiology.nl/
+  ip: 137.224.132.98
+  version: IPv4
+  asn: AS1103 SURF B.V.
+  org: Wageningen Universiteit
+  release:
+    version_major: '20.09'
+    version_minor: null
+  location:
+    city: Wageningen
+    region: Gelderland
+    region_code: GE
+    country: NL
+    country_name: The Netherlands
+    country_code: NL
+    continent_code: EU
+    postal: '6709'
+    latitude: 51.9719
+    longitude: 5.6446
+    timezone: Europe/Amsterdam
+    currency: EUR
+  response:
+    time: '2025-11-25T19:46:24Z'
+    status_code: 200
+    response_time_ms: 0
+    reason: OK
