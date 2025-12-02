@@ -5,6 +5,7 @@ autotoc: false
 <slot name="/events/gcc2026/header" />
 
 # Meet the GCC2026 keynote speaker
+
 The GCC2026 keynote speaker will be announced soon!
 
 <!--
@@ -27,3 +28,4 @@ The GCC2026 keynote speaker will be announced soon!
 Explanation
 
 <hr/>
+-->
