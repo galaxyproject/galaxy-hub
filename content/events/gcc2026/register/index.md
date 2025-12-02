@@ -4,7 +4,8 @@ autotoc: false
 
 <slot name="/events/gcc2026/header" />
 
-TO DO: Update with the real registration info and prices
+
+***This page will be updated with as soon as final registration information and prices will be released (early January 2028***
 # Registration
 
 ## Meeting: June 22-24
