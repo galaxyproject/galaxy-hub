@@ -42,12 +42,14 @@ and are in need of financial help, please email the [event
 organizers](TO DO) and a discount code will be
 provided.
 
+<!--
 |                                    | Early (<= Feb) | Full (<= May) | Late (<= Jun 15) |
 | --- | ---: | ---: | ---: |
 | Student/postdoc                    | EURXXX | EURXXX | EURXXX   |
 | Academic / Non-Profit / Government | EURXXX | EURXXX | EURXXX   |
 | Industry                           | EURXXX | EURXXX | EURXXX   |
 | Conference dinner                  |        |        | EURXX    |
+-->
 
 \* Please note that the above prices do not include the mandatory 21% VAT, which
 will be added during registration.
