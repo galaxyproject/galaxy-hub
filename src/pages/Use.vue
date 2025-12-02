@@ -44,7 +44,7 @@
                             >
                                 <div
                                     v-for="(suggestion, index) in filteredSuggestions"
-                                    :key="`${suggestion.type}-${suggestion.name}`"
+                                    :key="index"
                                     class="autocomplete-item"
                                     :class="{ selected: index === selectedSuggestionIndex }"
                                     @mousedown.prevent="selectSuggestion(suggestion)"
@@ -56,14 +56,6 @@
                                     </b-badge>
                                 </div>
                             </div>
-
-                            {{ /* TODO format search labels, reformat pagination labels */ }}
-                            <!-- <small v-if="isToolSearch" class="text-primary">
-                                🔍 Tool search: "{{ toolSearchQuery }}"
-                            </small>
-                            <small v-else-if="isReferenceSearch" class="text-success">
-                                🧬 Reference search: "{{ referenceSearchQuery }}"
-                            </small> -->
                         </b-col>
                         <!-- Items per page selector -->
                         <b-col cols="2">
@@ -104,11 +96,21 @@
                             </b-form-group>
                         </b-col>
                         <b-col cols="3">
-                            <p>
+                            <p class="page-label">
                                 Showing {{ tab.pageStart }} to {{ tab.pageEnd }} of {{ tab.displayed }}
                                 <template v-if="filter"> results </template>
                                 <template v-else> total </template>
                             </p>
+                        </b-col>
+                    </b-row>
+                    <b-row>
+                        <b-col cols="12">
+                            <div class="query-indicator">
+                                <small v-if="isToolSearch"> 🔍 Tool search: "{{ toolSearchQuery }}" </small>
+                                <small v-else-if="isReferenceSearch">
+                                    🔍 Reference search: "{{ referenceSearchQuery }}"
+                                </small>
+                            </div>
                         </b-col>
                     </b-row>
                     <!-- The table itself. -->
@@ -116,10 +118,11 @@
                         striped
                         hover
                         :id="`${tab.id}-table`"
-                        :items="tab.platforms"
+                        :items="getFilteredPlatforms(tab)"
                         :fields="tab.columns"
                         primary-key="id"
                         sort-by="title"
+                        class="mt-0"
                         :per-page="perPage"
                         :current-page="tab.currentPage"
                         :filter="processedFilter"
@@ -175,6 +178,36 @@
                         </template>
                         <template #cell(summary)="data">
                             <span class="markdown" v-html="mdToHtml(data.item.summary)"></span>
+                            <template v-if="tab.id === 'all'">
+                                <span
+                                    v-if="
+                                        getLinks(data.item, [
+                                            'public-server',
+                                            'academic-cloud',
+                                            'commercial-cloud',
+                                            'container',
+                                            'vm',
+                                        ]).length > 0
+                                    "
+                                >
+                                    <span> </span>
+                                    <a
+                                        v-for="link of getLinks(data.item, [
+                                            'public-server',
+                                            'academic-cloud',
+                                            'commercial-cloud',
+                                            'container',
+                                            'vm',
+                                        ])"
+                                        :key="link.text"
+                                        :href="link.url"
+                                        target="_blank"
+                                        class="mr-2"
+                                    >
+                                        {{ link.text }}
+                                    </a>
+                                </span>
+                            </template>
                         </template>
                         <template #cell(purview)="data">
                             {{ getPlatformValueByGroup(data.item, tab.id, "platform_purview") }}
@@ -189,8 +222,8 @@
                                 <!-- Tool search mode: show matching tools with versions -->
                                 <div v-if="getMatchingTools(data.item, toolSearchQuery).length > 0">
                                     <div
-                                        v-for="tool in getMatchingTools(data.item, toolSearchQuery)"
-                                        :key="`${tool.name}-${tool.version}`"
+                                        v-for="(tool, toolIndex) in getMatchingTools(data.item, toolSearchQuery)"
+                                        :key="toolIndex"
                                         class="tool-match"
                                     >
                                         <strong>{{ tool.name }}</strong>
@@ -285,6 +318,8 @@ const KEYWORDS = {
     "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" },
 };
 
+const SUGGESTIONS_MAX = 15;
+
 const { createSortableField } = useTableSorting();
 
 const tabs = [
@@ -296,7 +331,6 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Server" },
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -309,9 +343,6 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Server" },
-            { key: "cloud", label: "Cloud" },
-            { key: "deployable", label: "Deployable" },
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -324,7 +355,6 @@ const tabs = [
         columns: [
             createSortableField("platform", "Resource"),
             // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -337,7 +367,6 @@ const tabs = [
         label: "Academic Clouds",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "purview", label: "Purview" },
             { key: "keywords", label: "Keywords" },
@@ -348,7 +377,6 @@ const tabs = [
         label: "Commercial Clouds",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" },
@@ -361,7 +389,6 @@ const tabs = [
         linkGroup: "container",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "keywords", label: "Keywords" },
         ],
@@ -373,7 +400,6 @@ const tabs = [
         linkGroup: "vm",
         columns: [
             createSortableField("platform", "Resource"),
-            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "keywords", label: "Keywords" },
         ],
@@ -473,6 +499,7 @@ export default {
         platforms() {
             const platforms = this.$page.platforms.edges.map((edge) => edge.node);
             platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
+
             const toolsMap = this.buildToolsMap();
             const referencesMap = this.buildReferencesMap();
 
@@ -532,6 +559,7 @@ export default {
                     }
                 });
             }
+
             return suggestions;
         },
 
@@ -544,9 +572,7 @@ export default {
                 return [];
             }
 
-            // Filter and rank suggestions
             const matches = this.allSuggestions.filter((suggestion) => suggestion.name.toLowerCase().includes(input));
-
             // Sort by relevance: starts-with matches first, then contains
             matches.sort((a, b) => {
                 const aName = a.name.toLowerCase();
@@ -559,8 +585,7 @@ export default {
                 return aName.localeCompare(bName);
             });
 
-            // Limit to 15 suggestions for performance
-            const limited = matches.slice(0, 15);
+            const limited = matches.slice(0, SUGGESTIONS_MAX);
             return limited;
         },
     },
@@ -573,12 +598,35 @@ export default {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         },
 
+        getFilteredPlatforms(tab) {
+            // Get the base platforms for this tab
+            let platforms = tab.platforms;
+
+            // Apply tool search filter
+            if (this.isToolSearch && this.toolSearchQuery) {
+                platforms = platforms.filter((platform) => this.platformHasTool(platform, this.toolSearchQuery));
+            }
+            // Apply reference search filter
+            else if (this.isReferenceSearch && this.referenceSearchQuery) {
+                platforms = platforms.filter((platform) =>
+                    this.platformHasReference(platform, this.referenceSearchQuery),
+                );
+            }
+            // Apply regular text search filter
+            else if (this.filter && this.filter.trim()) {
+                const filterLower = this.filter.toLowerCase();
+                platforms = platforms.filter(
+                    (platform) => platform.filterKey && platform.filterKey.toLowerCase().includes(filterLower),
+                );
+            }
+
+            return platforms;
+        },
+
         // Autocomplete methods
         onInputChange(value) {
             this.autocompleteInputValue = value;
-            this.filter = value;
             this.selectedSuggestionIndex = -1;
-            // Show autocomplete if there are suggestions
             if (this.filteredSuggestions.length > 0) {
                 this.showAutocomplete = true;
             } else {
@@ -865,7 +913,6 @@ export default {
 
     watch: {
         filter(newFilter) {
-            // Watch filter changes and set search mode flags
             const filterLower = newFilter.toLowerCase();
 
             if (filterLower.startsWith("tool:")) {
@@ -985,13 +1032,13 @@ footer.page-footer {
     font-size: 100%;
 }
 
-/* Autocomplete dropdown styling */
 .autocomplete-dropdown {
     position: absolute;
     top: 100%;
     left: 15px;
     right: 15px;
     max-height: 300px;
+    width: 380px;
     overflow-y: auto;
     background: white;
     border: 1px solid #ced4da;
@@ -1027,10 +1074,14 @@ footer.page-footer {
 
 .suggestion-name {
     flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     margin-right: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.query-indicator {
+    height: 20px;
+    margin: 1px 0px 4px;
 }
 
 /* Tier badge styling */
