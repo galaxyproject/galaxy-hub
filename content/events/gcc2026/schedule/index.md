@@ -5,6 +5,8 @@ autotoc: true
 <slot name="/events/gcc2026/header" />
 
 ***This page will be updated as soon as schudule will be released (early January 2028***
+
+<!--
 # Daily schedule
 
 The schedule is where you can discover what’s happening when at GCC2026.
