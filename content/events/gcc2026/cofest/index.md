@@ -120,13 +120,7 @@ Planemo was improved to support user-defined tools in Galaxy, enabling direct up
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <div class="card-header">Biodiversity & Ecology Resources</div>
 
-Curate tools and materials for biodiversity research in Galaxy, with EDAM annotations.
-
-Outcomes:
-- Filtered Galaxy tools for new “Ecology” and “Earth” SIGs
-- A wish list for new Galaxy tools
-- Some wrappers got (and some need) annotation fixed
-- Additions and curation in Bio.tools
+This project curated Galaxy tools for biodiversity research, adding EDAM annotations and creating filtered collections for the **Ecology** and **Earth** SIGs. A wish list for new tools was developed, existing wrappers were reviewed and annotated, and contributions were made to **Bio.tools**—all to improve accessibility and support for researchers.
 
   </div>
 
