@@ -105,12 +105,7 @@ Two tutorials were created for the Galaxy Training Network (GTN): **"Best Practi
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <div class="card-header">Improve User Defined Tools</div>
 
-- Enable User Defined Tool support in planemo
-- Test user defined tool upload to testtoolshed
-- Enable resource requirement specification (minCpu, minRam, minGPU etc)
-- Gather feedback
-- Improve support for scripts (think Rscript)
-- Improve Documentation
+Planemo was improved to support user-defined tools in Galaxy, enabling direct uploads to the Test Tool Shed and allowing resource requirements (CPU, RAM, GPU) to be specified. Community feedback refined functionality, while support for R scripts and documentation were enhanced to simplify tool development and deployment.
 
   </div>
 
