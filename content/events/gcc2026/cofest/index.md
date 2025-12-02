@@ -91,12 +91,7 @@ space and ensure we have enough coffee and drinks.
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <div class="card-header">Deploying an R Shiny App on Galaxy</div>
 
-- Bring your own Shiny app and deploy it on Galaxy
-    - Learn to convert your Shiny app into a R package
-    - Learn to create a docker container following best practices
-    - Write Galaxy configuration file and deploy!
-- Fix/Update the existing R shiny apps
-    - Example : [Pampa Performance Indicators of Marine Protected Areas for the management of coastal ecosystems, resources and their uses](https://github.com/usegalaxy-eu/galaxy/blob/release_25.0_europe/tools/interactive/interactivetool_pampa.xml)
+This project involved deploying custom Shiny apps on Galaxy by converting them into R packages and containerizing them with Docker for consistency and portability. Galaxy configuration files were implemented to enable seamless user access. Additionally, existing Shiny apps—such as the **[Pampa Performance Indicators of Marine Protected Areas](https://github.com/usegalaxy-eu/galaxy/blob/release_25.0_europe/tools/interactive/interactivetool_pampa.xml)**—were updated to enhance functionality, showcasing the integration of interactive tools for research and resource management.
 
   </div>
 
