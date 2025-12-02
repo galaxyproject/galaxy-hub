@@ -64,9 +64,11 @@ available virtually. There will be a conference Slack channel where anyone will
 be able to post questions to the speakers and/or interact with others present in
 the channel.
 
+<!--
 |     |      |
 | --- | ---: |
 | Virtual    | EURXX |
+-->
 
 
 ## CoFest: June 25-26
