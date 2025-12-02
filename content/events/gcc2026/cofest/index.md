@@ -124,9 +124,7 @@ This project curated Galaxy tools for biodiversity research, adding EDAM annotat
   <div class="card" style="min-width: 30%; max-width: 40rem;">
     <div class="card-header">Galaxy ITs</div>
 
-Galaxy ITs often require wildcard DNS and SSL, which can be restrictive. Since Galaxy 24.0, path-based ITs are supported, but tools need configuration.
-
-Goal: Enable ITs via URL paths for easier use. See: [F1000](https://f1000research.com/slides/12-1163). 
+Galaxy 24.0 introduced path-based ITs, removing the need for wildcard DNS/SSL and simplifying deployment. This project enabled direct URL path access for ITs, reducing technical barriers and improving flexibility, as outlined in the **[F1000 Research presentation](https://f1000research.com/slides/12-1163)**.
 
   </div>
 
