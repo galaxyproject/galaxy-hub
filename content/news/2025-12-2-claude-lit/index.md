@@ -10,6 +10,9 @@ subsites: [all, global]
 
 # Using Claude AI for  Literature Searches
 
+![Claude Survey Results](c_vs_c.png)
+
+
 <div class="alert alert-info" role="alert">
   👉  This is an experiment of using LLMs for finding relevant papers. As you can see it is a bit nuanced! This survey has one key limitation: I did not use Google's Gemini here. Once I do, I will update these results.
 </div>
