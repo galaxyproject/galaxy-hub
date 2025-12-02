@@ -4,7 +4,7 @@ autotoc: true
 
 <slot name="/events/gcc2026/header" />
 
-***This page will be updated as soon as schudule will be released (early January 2028***
+***This page will be updated as soon as schudule will be released (early January 2026)***
 
 <!--
 # Daily schedule
