@@ -80,9 +80,11 @@ to plan, work, or learn about many Galaxy components.
 The registration cost is used to cover the costs of space and drinks during the
 event.
 
+<!--
 |        |        |
 | --- | ---: |
 | CoFest | EURXX |
+-->
 
 
 ## Lodging
