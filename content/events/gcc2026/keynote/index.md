@@ -5,7 +5,9 @@ autotoc: false
 <slot name="/events/gcc2026/header" />
 
 # Meet the GCC2026 keynote speaker
-TO DO
+The GCC2026 keynote speaker will be announced soon!
+
+<!--
 <table style="width: 100%">
   <tbody>
     <tr class="lead text-left" style="background-color: white">
