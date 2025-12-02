@@ -96,7 +96,7 @@
                             </b-form-group>
                         </b-col>
                         <b-col cols="3">
-                            <p>
+                            <p class="page-label">
                                 Showing {{ tab.pageStart }} to {{ tab.pageEnd }} of {{ tab.displayed }}
                                 <template v-if="filter"> results </template>
                                 <template v-else> total </template>
@@ -126,6 +126,8 @@
                         :per-page="perPage"
                         :current-page="tab.currentPage"
                         :filter="processedFilter"
+                        :filter-function="customFilter"
+                        :filter-included-fields="['filterKey']"
                         :sort-compare="customSortCompare"
                         @filtered="(items, total) => updateDisplayed(tab, total)"
                     >
@@ -474,9 +476,6 @@ export default {
             showAutocomplete: false,
             selectedSuggestionIndex: -1,
             autocompleteInputValue: "",
-            cachedToolsMap: {},
-            cachedReferencesMap: {},
-            cachedAllSuggestions: [],
         };
     },
 
@@ -501,17 +500,67 @@ export default {
             const platforms = this.$page.platforms.edges.map((edge) => edge.node);
             platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
 
+            const toolsMap = this.buildToolsMap();
+            const referencesMap = this.buildReferencesMap();
+
             platforms.forEach((platform) => {
                 const platformPath = platform.path.replace(/\/$/, ""); // Remove trailing slash
-                platform.tools = this.cachedToolsMap[platformPath] || [];
-                platform.references = this.cachedReferencesMap[platformPath] || [];
+                platform.tools = toolsMap[platformPath] || [];
+                platform.references = referencesMap[platformPath] || [];
             });
 
             return platforms;
         },
 
+        // Build autocomplete suggestions from all tools and references
         allSuggestions() {
-            return this.cachedAllSuggestions;
+            const suggestions = [];
+            const uniqueTools = new Set();
+            const uniqueReferences = new Set();
+
+            // Collect all unique tool names
+            if (this.$page.tools && this.$page.tools.edges) {
+                this.$page.tools.edges.forEach((edge) => {
+                    const toolsData = edge.node;
+                    if (toolsData.tools) {
+                        toolsData.tools.forEach((tool) => {
+                            if (tool.name && !uniqueTools.has(tool.name)) {
+                                uniqueTools.add(tool.name);
+                                suggestions.push({
+                                    name: tool.name,
+                                    type: "tool",
+                                    displayType: "tool",
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+
+            // Collect all unique reference names
+            if (this.$page.references && this.$page.references.edges) {
+                this.$page.references.edges.forEach((edge) => {
+                    const referencesData = edge.node;
+                    if (referencesData.references && referencesData.references[0]) {
+                        const refObj = referencesData.references[0];
+                        const refType = refObj.type || "genome";
+                        if (refObj.items) {
+                            refObj.items.forEach((ref) => {
+                                if (ref.name && !uniqueReferences.has(ref.name)) {
+                                    uniqueReferences.add(ref.name);
+                                    suggestions.push({
+                                        name: ref.name,
+                                        type: "reference",
+                                        displayType: refType,
+                                    });
+                                }
+                            });
+                        }
+                    }
+                });
+            }
+
+            return suggestions;
         },
 
         // Filter suggestions based on current input
@@ -577,7 +626,6 @@ export default {
         // Autocomplete methods
         onInputChange(value) {
             this.autocompleteInputValue = value;
-            this.filter = value;
             this.selectedSuggestionIndex = -1;
             if (this.filteredSuggestions.length > 0) {
                 this.showAutocomplete = true;
@@ -835,67 +883,9 @@ export default {
 
             return customSortCompare(aRow, bRow, key, context);
         },
-
-        initializeCachedData() {
-            // Build and cache toolsMap
-            this.cachedToolsMap = this.buildToolsMap();
-
-            // Build and cache referencesMap
-            this.cachedReferencesMap = this.buildReferencesMap();
-
-            // Build and cache all suggestions
-            const suggestions = [];
-            const uniqueTools = new Set();
-            const uniqueReferences = new Set();
-
-            // Collect all unique tool names
-            if (this.$page.tools && this.$page.tools.edges) {
-                this.$page.tools.edges.forEach((edge) => {
-                    const toolsData = edge.node;
-                    if (toolsData.tools && Array.isArray(toolsData.tools)) {
-                        toolsData.tools.forEach((tool) => {
-                            if (tool.name && !uniqueTools.has(tool.name)) {
-                                uniqueTools.add(tool.name);
-                                suggestions.push({
-                                    name: tool.name,
-                                    type: "tool",
-                                    displayType: "tool",
-                                });
-                            }
-                        });
-                    }
-                });
-            }
-
-            // Collect all unique reference names
-            if (this.$page.references && this.$page.references.edges) {
-                this.$page.references.edges.forEach((edge) => {
-                    const referencesData = edge.node;
-                    if (referencesData.references && referencesData.references[0]) {
-                        const refObj = referencesData.references[0];
-                        const refType = refObj.type || "genome";
-                        if (refObj.items) {
-                            refObj.items.forEach((ref) => {
-                                if (ref.name && !uniqueReferences.has(ref.name)) {
-                                    uniqueReferences.add(ref.name);
-                                    suggestions.push({
-                                        name: ref.name,
-                                        type: "reference",
-                                        displayType: refType,
-                                    });
-                                }
-                            });
-                        }
-                    }
-                });
-            }
-
-            this.cachedAllSuggestions = suggestions;
-        },
     },
 
     created() {
-        this.initializeCachedData();
 
         const { createTabStateManager } = useTableRouting();
         this.tabState = createTabStateManager(this.tabs, this.$route, this.$router);

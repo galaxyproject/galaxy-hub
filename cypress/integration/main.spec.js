@@ -73,24 +73,29 @@ describe("Use Page Tests", () => {
 
     it("Visits the Use index, exercises controls", () => {
         cy.visit("/use/");
+        cy.wait(1000);
         // Just to make sure the Cypress waits for Vue to render the page.
         cy.get("#masthead-logo").should("be.visible");
         // Switching tabs.
         cy.findByRole("tab", { name: /Public Servers/i }).click();
+        cy.wait(1000);
         cy.get(".tab-pane.active").within(() => {
             cy.get("#public-server-filter-input").should("be.visible");
             // Searching the table.
-            cy.get("#public-server-filter-input").type("Galaxy Test");
+            cy.get("#public-server-filter-input").type("Galaxy Test", { delay: 0 });
+            cy.wait(5000);
             cy.findByText(/Beta version of Galaxy Main/i).should("be.visible");
             // The pageStart/pageEnd/displayed calculation.
             cy.findByText(/Showing 1 to 1 of 1 results/i).should("be.visible");
             cy.get("#public-server-filter-input").clear();
-            cy.findByText(/Showing .+ total/i).should("be.visible");
+            cy.wait(3000);
+            cy.contains(".page-label", /Showing .+ total/i).should("be.visible");
         });
     });
 
     it("Tries to visit another page after /use/, via the masthead", () => {
         cy.visit("/use/");
+        cy.wait(1000);
         cy.get("#masthead-logo").should("be.visible");
         // This test gives intermittent failures without a wait here
         // (Todo: investigate a more refined wait target -- these explicit sleeps are terrible)
