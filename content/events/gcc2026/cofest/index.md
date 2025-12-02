@@ -98,10 +98,7 @@ This project involved deploying custom Shiny apps on Galaxy by converting them i
   <div class="card" style="min-width: 30%; max-width: 30rem;">
     <div class="card-header">Making Your First Contribution to the Galaxy Training Network</div>
 
-- Get support and advice on making your first contribution to the Galaxy Training Network. I will be working on creating my first GTN tutorial.
-Drafting started for two tutorials:
-    - (1) Best Practice for Citing Galaxy
-    - (2) Hybrid genome assembly - Nanopore and Illumina
+Two tutorials were created for the Galaxy Training Network (GTN): **"Best Practices for Citing Galaxy"**—guiding proper attribution in publications—and **"Hybrid Genome Assembly – Nanopore and Illumina"**—a workflow for combining sequencing data. Both tutorials followed GTN standards to improve accessibility for researchers.
 
   </div>
 
