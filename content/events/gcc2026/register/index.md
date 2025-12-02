@@ -95,8 +95,10 @@ cancellation fees. See the table below for the specifics. If you need to cancel
 your registration, please contact the
 [organizers](TO DO).
 
+<!--
 | Cancelation date         | Cancelation fee |
 | ------------------------ | --------------: |
 | Before April             | XX%             |
 | April   - May            | XX%             |
 | June   and later         | XXX%            |
+-->
