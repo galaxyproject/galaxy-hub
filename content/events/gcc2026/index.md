@@ -122,6 +122,7 @@ Join us at **[CoFest](/events/gcc2026/cofest/)**
   </div>
 
   <!-- Keynote -->
+ <!--
   <div class="card" style="min-width: 30%; max-width: 32.2%">
     <img src="/images/events/gcc2026/keynote-photo.png" class="card-img-top" alt="GCC2026 Keynote speaker" />
     <div class="card-header">GCC2026 Keynote speaker</div>
@@ -129,6 +130,7 @@ Join us at **[CoFest](/events/gcc2026/cofest/)**
 A very inspiring (keynote speaker)[/event/gcc2026/keynote/], XX, speaking of XX on DATE
 
   </div>
+  -->
 
 
 
