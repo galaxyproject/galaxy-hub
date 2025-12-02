@@ -886,7 +886,6 @@ export default {
     },
 
     created() {
-
         const { createTabStateManager } = useTableRouting();
         this.tabState = createTabStateManager(this.tabs, this.$route, this.$router);
 
