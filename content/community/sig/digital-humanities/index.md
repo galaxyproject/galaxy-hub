@@ -11,7 +11,7 @@ Whether you are analysing texts, images, audio data or other media, **Galaxy is 
 
 # How can you use Galaxy for Digital Humanities analysis?
 
-Galaxy is a flexible setup, so it can leverage analysis in Digital Humanities (DH) and Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that fits your research needs and supports you with tools for easier research data management on the go. Simply visit the Galaxy instance of your choice, such as the [European Galaxy Server](https://usegalaxy.eu/), create an account, and get started.
+Galaxy is a flexible setup, allowing it to leverage analysis in Digital Humanities (DH) and the Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that meets your research needs and supports you with tools for easier management of research data on the go. Simply visit the Galaxy instance of your choice, such as the [European Galaxy Server](https://usegalaxy.eu/), create an account, and get started.
 
 Here are some examples:
 
@@ -27,14 +27,16 @@ Here are some examples:
 
 - Check out the [poster](https://doi.org/10.11588/heidok.00036288) on Galaxy in the Humanities that Daniela Schneider and Jan Leendertse presented at the [E-Science Days 2025](https://artifact.galaxyproject.org/news/2025-03-14-e-science-days/).
   
-- A German article from Daniela Schneider and Jan Leendertse, building on this presentation, is forthcoming.
+- [Read](https://doi.org/10.11588/heibooks.1652.c23955) the German article from Daniela Schneider and Jan Leendertse, building on the above poster. It explains Galaxy's applicability to Humanities and Social Sciences research within a reproducible research environment.
 
 - Check out [this article](https://galaxyproject.org/news/2024-09-02-chat-gpt/) to get an example workflow of how you can automatically transcribe and translate an audio file using Galaxy.
+
+- [Explore](https://galaxyproject.org/news/2025-11-21-eosc-symposium-berd/) the use case that the team from the [BERD Data Portal](https://www.berd-nfdi.de/data-portal/) presented at the European Open Science Cloud (EOSC) Symposium 2025 using Galaxy. It highlights how the platform can help unlock data from large amounts of unstructured and non-machine-readable B-Plans.
 
 
 # What is available?
 
-To make your own analysis, start by checking out the tools (the term we use in Galaxy for programs) in your Galaxy instance, for example, [Galaxy Europe](https://usegalaxy.eu/). On the website, you can access the tools by clicking on the bar on the left-hand side. The second icon there is **tools**. You can search there or click on the arrows and search for more details in the help text.
+To conduct your own analysis, start by exploring the tools (the term we use in Galaxy for programs) in your Galaxy instance, such as [Galaxy Europe](https://usegalaxy.eu/). On the website, you can access the tools by clicking on the bar on the left-hand side. The second icon there is **tools**. You can search there or click on the arrows and search for more details in the help text.
 You can combine various Galaxy tools into [workflows](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html) to automate and re-run the analysis or [export](https://galaxyproject.org/news/2024-05-03-inveniordm-integration/) the data you created to a repository.
 
 
@@ -84,6 +86,7 @@ You can upload your files in various ways in the upload section on the left side
 - Video player: View video files in Galaxy on the left-hand side panel under *Visualisations*.
 - Yolo DocLayout: Document layout analysis
 - LLM Hub: Run LLMs on your images
+- File Format Identification: Check multimedia files for corrupt or duplicated files
     
 ### 🔃 **File or format conversion**
 - General tools: Tabular to CSV, CSV to Tabular, convert delimiter to TAB, 
