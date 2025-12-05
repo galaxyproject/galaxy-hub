@@ -27,3 +27,7 @@ pnpm-debug.log*
 test-results/
 playwright-report/
 playwright/.cache/
+
+# preprocessed content (regenerated from /content/ on each build)
+src/content/
+public/images/
