@@ -37,18 +37,18 @@ const { Content } = await render(article);
 
 const { title, date, authors = [], tags = [], tease, image } = article.data;
 
-// MDX components map - keys match kebab-case names used in content
+// MDX components map - keys match PascalCase names used in preprocessed content
 const components = {
-  'vega-embed': VegaEmbed,
-  'twitter': Twitter,
-  'mastodon': Mastodon,
-  'video-player': VideoPlayer,
-  'carousel': Carousel,
-  'calendar-embed': CalendarEmbed,
-  'markdown-embed': MarkdownEmbed,
-  'flickr': Flickr,
-  'supporters': Supporters,
-  'contacts': Contacts,
+  VegaEmbed,
+  Twitter,
+  Mastodon,
+  VideoPlayer,
+  Carousel,
+  CalendarEmbed,
+  MarkdownEmbed,
+  Flickr,
+  Supporters,
+  Contacts,
 };
 ---
 

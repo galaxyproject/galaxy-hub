@@ -214,6 +214,43 @@ function convertGridsomeSyntax(content) {
 }
 
 /**
+ * Convert kebab-case component names to PascalCase for MDX
+ * MDX treats lowercase/kebab-case as HTML elements, PascalCase as components
+ */
+function convertComponentsToPascalCase(content) {
+  // Map of kebab-case to PascalCase component names
+  const componentMap = {
+    'vega-embed': 'VegaEmbed',
+    'twitter': 'Twitter',
+    'mastodon': 'Mastodon',
+    'video-player': 'VideoPlayer',
+    'carousel': 'Carousel',
+    'calendar-embed': 'CalendarEmbed',
+    'markdown-embed': 'MarkdownEmbed',
+    'flickr': 'Flickr',
+    'supporters': 'Supporters',
+    'contacts': 'Contacts',
+  };
+
+  let processed = content;
+
+  for (const [kebab, pascal] of Object.entries(componentMap)) {
+    // Convert opening tags: <kebab-case ... > to <PascalCase ...>
+    processed = processed.replace(
+      new RegExp(`<${kebab}(\\s|>|\\/)`, 'gi'),
+      `<${pascal}$1`
+    );
+    // Convert closing tags: </kebab-case> to </PascalCase>
+    processed = processed.replace(
+      new RegExp(`</${kebab}>`, 'gi'),
+      `</${pascal}>`
+    );
+  }
+
+  return processed;
+}
+
+/**
  * Convert Vue-style bindings and HTML to JSX syntax for MDX compatibility
  * :prop="value" -> prop={value}
  * :prop="123" -> prop={123}
@@ -338,6 +375,8 @@ async function processMarkdownFile(filePath) {
   // to avoid remark escaping asterisks in JSX comments)
   if (hasComponents) {
     processedContent = convertVueToJsx(processedContent);
+    // Convert kebab-case component names to PascalCase for MDX
+    processedContent = convertComponentsToPascalCase(processedContent);
   }
 
   // Process frontmatter
@@ -466,6 +505,20 @@ export async function preprocessContent(options = {}) {
 
   const results = [...mdResults, ...yamlResults];
   const errors = mdErrors + yamlErrors;
+
+  // Copy global images directory (content/images/ -> public/images/)
+  const globalImagesDir = path.join(CONTENT_DIR, 'images');
+  try {
+    const stats = await fs.promises.stat(globalImagesDir);
+    if (stats.isDirectory()) {
+      console.log('Copying global images directory...');
+      await fs.promises.cp(globalImagesDir, PUBLIC_IMAGES_DIR, { recursive: true });
+      const imageCount = (await glob('**/*', { cwd: globalImagesDir, nodir: true })).length;
+      console.log(`  Copied ${imageCount} files from content/images/`);
+    }
+  } catch {
+    // Global images directory doesn't exist, that's fine
+  }
 
   // Summary
   const summary = results.reduce((acc, result) => {
