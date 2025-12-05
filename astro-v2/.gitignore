@@ -31,3 +31,4 @@ playwright/.cache/
 # preprocessed content (regenerated from /content/ on each build)
 src/content/
 public/images/
+public/search-index.json
