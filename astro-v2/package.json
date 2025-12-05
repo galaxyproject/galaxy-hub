@@ -38,6 +38,9 @@
     "tailwindcss": "^4.1.17",
     "unified": "^11.0.5",
     "unist-util-visit": "^5.0.0",
+    "vega": "^6.2.0",
+    "vega-embed": "^7.1.0",
+    "vega-lite": "^6.4.1",
     "vue": "^3.5.25"
   },
   "devDependencies": {
