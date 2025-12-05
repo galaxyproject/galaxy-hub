@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Get all news articles
+const articles = await getCollection('articles');
+
+// Helper to ensure date is a Date object
+function toDate(d: Date | string | undefined): Date | null {
+  if (!d) return null;
+  return d instanceof Date ? d : new Date(d);
+}
+
+const newsArticles = articles
+  .filter(article => article.data.slug.startsWith('news/'))
+  .sort((a, b) => {
+    const dateA = toDate(a.data.date)?.getTime() || 0;
+    const dateB = toDate(b.data.date)?.getTime() || 0;
+    return dateB - dateA;
+  });
+
+function formatDate(date: Date | string | undefined): string {
+  const d = toDate(date);
+  if (!d) return '';
+  return d.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  });
+}
+
+function toISOString(date: Date | string | undefined): string {
+  const d = toDate(date);
+  return d ? d.toISOString() : '';
+}
+
+// Build URL from slug
+function buildUrl(slug: string): string {
+  // slug is like "news/2024/01/my-article", we want "/news/2024/01/my-article/"
+  return `/${slug}/`;
+}
+---
+
+<BaseLayout title="News" description="Latest news from the Galaxy Project">
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">News</h1>
+      <p class="text-lg text-gray-600">Latest updates from the Galaxy Project community</p>
+    </header>
+
+    <div class="space-y-8">
+      {newsArticles.slice(0, 50).map((article) => (
+        <article class="border-b border-gray-200 pb-8">
+          <a href={buildUrl(article.data.slug)} class="group block">
+            <h2 class="text-xl font-semibold text-gray-900 group-hover:text-galaxy-primary transition-colors mb-2">
+              {article.data.title || 'Untitled'}
+            </h2>
+            {article.data.date && (
+              <time datetime={toISOString(article.data.date)} class="text-sm text-gray-500 mb-2 block">
+                {formatDate(article.data.date)}
+              </time>
+            )}
+            {article.data.tease && (
+              <p class="text-gray-600">{article.data.tease}</p>
+            )}
+            {article.data.tags && article.data.tags.length > 0 && (
+              <div class="flex flex-wrap gap-2 mt-3">
+                {article.data.tags.slice(0, 5).map((tag: string) => (
+                  <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-600">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </a>
+        </article>
+      ))}
+    </div>
+
+    {newsArticles.length > 50 && (
+      <div class="mt-8 text-center">
+        <p class="text-gray-500">Showing 50 of {newsArticles.length} articles</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

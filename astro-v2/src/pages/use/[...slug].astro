@@ -1,0 +1,175 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const platforms = await getCollection('platforms');
+
+  return platforms.map(platform => {
+    // Remove 'use/' prefix from slug for the URL
+    const urlSlug = platform.data.slug.replace(/^use\//, '');
+    return {
+      params: { slug: urlSlug },
+      props: { platform },
+    };
+  });
+}
+
+const { platform } = Astro.props;
+const { Content } = await render(platform);
+
+const {
+  title,
+  url,
+  summary,
+  tags = [],
+  platforms: instances = [],
+  user_support = [],
+  quotas = [],
+  citations = [],
+  sponsors = []
+} = platform.data;
+---
+
+<BaseLayout title={title || 'Galaxy Server'} description={summary}>
+  <article class="max-w-4xl mx-auto">
+    <!-- Platform Header -->
+    <header class="mb-8 pb-8 border-b border-gray-200">
+      <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{title}</h1>
+
+      {summary && (
+        <p class="text-xl text-gray-600 mb-6">{summary}</p>
+      )}
+
+      {url && (
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors text-lg font-medium"
+        >
+          Launch Galaxy
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </a>
+      )}
+
+      {tags && tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-6">
+          {tags.map((tag: string) => (
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary">
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </header>
+
+    <!-- Platform Details -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      {user_support && user_support.length > 0 && (
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">User Support</h3>
+          <ul class="text-sm text-gray-600 space-y-1">
+            {user_support.map((item: string) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {quotas && quotas.length > 0 && (
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Quotas</h3>
+          <ul class="text-sm text-gray-600 space-y-1">
+            {quotas.map((item: string) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {sponsors && sponsors.length > 0 && (
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Sponsors</h3>
+          <ul class="text-sm text-gray-600 space-y-1">
+            {sponsors.map((item: string) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+
+    <!-- Platform Instances -->
+    {instances && instances.length > 0 && (
+      <div class="mb-8 p-6 bg-gray-50 rounded-lg">
+        <h3 class="font-semibold text-gray-900 mb-4">Available Instances</h3>
+        <div class="space-y-3">
+          {instances.map((instance: { platform_url?: string; platform_text?: string; platform_location?: string }) => (
+            <div class="flex items-center justify-between">
+              <div>
+                <span class="font-medium text-gray-900">{instance.platform_text || 'Instance'}</span>
+                {instance.platform_location && (
+                  <span class="text-sm text-gray-500 ml-2">({instance.platform_location})</span>
+                )}
+              </div>
+              {instance.platform_url && (
+                <a
+                  href={instance.platform_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-galaxy-primary hover:underline text-sm"
+                >
+                  Launch
+                </a>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Platform Content -->
+    <div class="prose prose-lg prose-galaxy max-w-none">
+      <Content />
+    </div>
+
+    <!-- Platform Footer -->
+    <footer class="mt-12 pt-8 border-t border-gray-200">
+      <div class="flex justify-between items-center">
+        <a href="/use/" class="text-galaxy-primary hover:underline flex items-center gap-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Back to Galaxy Servers
+        </a>
+        {url && (
+          <a href={url} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors">
+            Launch Galaxy
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+        )}
+      </div>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .prose-galaxy {
+    --tw-prose-links: #25537B;
+    --tw-prose-headings: #1f2937;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~="not-prose"] *)) {
+    color: var(--tw-prose-links);
+    text-decoration: none;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~="not-prose"] *)):hover {
+    text-decoration: underline;
+  }
+</style>

@@ -1,0 +1,140 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Get all events
+const events = await getCollection('events');
+const now = new Date();
+
+// Helper to ensure date is a Date object
+function toDate(d: Date | string | undefined): Date | null {
+  if (!d) return null;
+  return d instanceof Date ? d : new Date(d);
+}
+
+// Separate upcoming and past events
+const upcomingEvents = events
+  .filter(event => {
+    const eventDate = toDate(event.data.date);
+    const endDate = toDate(event.data.end) || eventDate;
+    return endDate && endDate >= now;
+  })
+  .sort((a, b) => {
+    const dateA = toDate(a.data.date)?.getTime() || 0;
+    const dateB = toDate(b.data.date)?.getTime() || 0;
+    return dateA - dateB; // Ascending for upcoming
+  });
+
+const pastEvents = events
+  .filter(event => {
+    const eventDate = toDate(event.data.date);
+    const endDate = toDate(event.data.end) || eventDate;
+    return endDate && endDate < now;
+  })
+  .sort((a, b) => {
+    const dateA = toDate(a.data.date)?.getTime() || 0;
+    const dateB = toDate(b.data.date)?.getTime() || 0;
+    return dateB - dateA; // Descending for past
+  });
+
+function formatDate(date: Date | string | undefined): string {
+  const d = toDate(date);
+  if (!d) return '';
+  return d.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  });
+}
+
+function formatDateRange(start: Date | string | undefined, end?: Date | string): string {
+  const startDate = toDate(start);
+  const endDate = toDate(end);
+  if (!startDate) return '';
+  if (!endDate || startDate.getTime() === endDate.getTime()) {
+    return formatDate(startDate);
+  }
+  return `${formatDate(startDate)} - ${formatDate(endDate)}`;
+}
+
+function buildUrl(slug: string): string {
+  return `/${slug}/`;
+}
+---
+
+<BaseLayout title="Events" description="Galaxy Project events, workshops, and conferences">
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Events</h1>
+      <p class="text-lg text-gray-600">Workshops, conferences, and community gatherings</p>
+    </header>
+
+    {upcomingEvents.length > 0 && (
+      <section class="mb-12">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
+          <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+          Upcoming Events
+        </h2>
+        <div class="space-y-6">
+          {upcomingEvents.map((event) => (
+            <article class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+              <a href={buildUrl(event.data.slug)} class="block">
+                <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+                  <div class="flex-1">
+                    <h3 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
+                      {event.data.title || 'Untitled Event'}
+                    </h3>
+                    {event.data.tease && (
+                      <p class="text-gray-600 mt-1">{event.data.tease}</p>
+                    )}
+                    {event.data.location && (
+                      <p class="text-sm text-gray-500 mt-2 flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        {event.data.location.city || event.data.location.name || 'Online'}
+                      </p>
+                    )}
+                  </div>
+                  <div class="sm:text-right">
+                    {event.data.date && (
+                      <time class="text-sm font-medium text-galaxy-primary">
+                        {formatDateRange(event.data.date, event.data.end)}
+                      </time>
+                    )}
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section>
+      <h2 class="text-2xl font-semibold text-gray-900 mb-6">Past Events</h2>
+      <div class="space-y-4">
+        {pastEvents.slice(0, 30).map((event) => (
+          <article class="border-b border-gray-200 pb-4">
+            <a href={buildUrl(event.data.slug)} class="group block">
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                  {event.data.title || 'Untitled Event'}
+                </h3>
+                {event.data.date && (
+                  <time class="text-sm text-gray-500">
+                    {formatDateRange(event.data.date, event.data.end)}
+                  </time>
+                )}
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+      {pastEvents.length > 30 && (
+        <p class="mt-4 text-gray-500 text-sm">Showing 30 of {pastEvents.length} past events</p>
+      )}
+    </section>
+  </div>
+</BaseLayout>

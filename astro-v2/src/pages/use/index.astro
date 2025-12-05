@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Get all platforms
+const platforms = await getCollection('platforms');
+
+// Group platforms by category
+const publicServers = platforms.filter(p => !p.data.scope || p.data.scope === 'general');
+const domainServers = platforms.filter(p => p.data.scope === 'domain');
+
+function buildUrl(slug: string): string {
+  return `/${slug}/`;
+}
+---
+
+<BaseLayout title="Use Galaxy" description="Find a Galaxy server to analyze your data">
+  <div class="max-w-6xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Use Galaxy</h1>
+      <p class="text-lg text-gray-600">
+        Galaxy is available in many forms. Find the right option for your research.
+      </p>
+    </header>
+
+    <!-- Quick links -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <a href="https://usegalaxy.org" target="_blank" rel="noopener" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">UseGalaxy.org</h3>
+        <p class="text-gray-600 text-sm mb-3">The main US Galaxy server, free for everyone.</p>
+        <span class="text-galaxy-primary text-sm font-medium">Start analyzing &rarr;</span>
+      </a>
+      <a href="https://usegalaxy.eu" target="_blank" rel="noopener" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">UseGalaxy.eu</h3>
+        <p class="text-gray-600 text-sm mb-3">The European Galaxy server with extensive tools.</p>
+        <span class="text-galaxy-primary text-sm font-medium">Start analyzing &rarr;</span>
+      </a>
+      <a href="https://usegalaxy.org.au" target="_blank" rel="noopener" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">UseGalaxy.org.au</h3>
+        <p class="text-gray-600 text-sm mb-3">Galaxy Australia for the Oceania region.</p>
+        <span class="text-galaxy-primary text-sm font-medium">Start analyzing &rarr;</span>
+      </a>
+    </div>
+
+    <!-- All servers -->
+    <section>
+      <h2 class="text-2xl font-semibold text-gray-900 mb-6">All Galaxy Servers</h2>
+      <p class="text-gray-600 mb-6">
+        There are {platforms.length}+ Galaxy servers around the world. Find one that fits your needs.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {platforms.slice(0, 30).map((platform) => (
+          <a href={buildUrl(platform.data.slug)} class="block p-4 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+            <h3 class="font-semibold text-gray-900 mb-1">{platform.data.title || 'Galaxy Server'}</h3>
+            {platform.data.summary && (
+              <p class="text-sm text-gray-600 line-clamp-2">{platform.data.summary}</p>
+            )}
+            {platform.data.url && (
+              <span class="text-xs text-galaxy-primary mt-2 block">{new URL(platform.data.url).hostname}</span>
+            )}
+          </a>
+        ))}
+      </div>
+
+      {platforms.length > 30 && (
+        <p class="mt-6 text-gray-500 text-center">Showing 30 of {platforms.length} servers</p>
+      )}
+    </section>
+  </div>
+</BaseLayout>

@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Sidebar from '../components/layout/Sidebar.astro';
+import MobileMenu from '../components/layout/MobileMenu.vue';
 
 interface Props {
   title: string;
@@ -31,18 +32,10 @@ const { title, description = 'Galaxy Community Hub' } = Astro.props;
       <!-- Sidebar (desktop only) -->
       <Sidebar />
 
-      <!-- Mobile header placeholder -->
+      <!-- Mobile header with Vue-powered menu -->
       <div class="lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between">
-        <span class="text-xl font-bold text-galaxy-gold">Galaxy</span>
-        <button
-          id="mobile-menu-btn"
-          class="text-white p-2 hover:bg-medium-bg rounded-md"
-          aria-label="Toggle menu"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+        <a href="/" class="text-xl font-bold text-galaxy-gold">Galaxy</a>
+        <MobileMenu client:load />
       </div>
 
       <!-- Main content area -->

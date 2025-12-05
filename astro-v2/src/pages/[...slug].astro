@@ -1,0 +1,38 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+
+  // Filter out news/ and events/ articles (they have their own routes)
+  // Also filter out use/ articles (handled separately)
+  const genericArticles = articles.filter(article => {
+    const slug = article.data.slug;
+    return !slug.startsWith('news/') &&
+           !slug.startsWith('events/') &&
+           !slug.startsWith('use/');
+  });
+
+  return genericArticles.map(article => ({
+    params: { slug: article.data.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const { title, date, authors = [], tags = [], tease, image } = article.data;
+---
+
+<ArticleLayout
+  title={title || 'Galaxy Hub'}
+  description={tease}
+  date={date}
+  authors={authors}
+  tags={tags}
+  image={image}
+>
+  <Content />
+</ArticleLayout>
