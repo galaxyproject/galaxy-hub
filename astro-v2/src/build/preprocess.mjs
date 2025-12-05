@@ -42,15 +42,48 @@ const VUE_COMPONENTS = [
 ];
 
 /**
- * Check if content contains Vue components
+ * Check if content contains Vue components that need MDX processing
+ * Only use MDX for files that explicitly opt-in OR have specific safe component patterns
  */
-function needsVueProcessing(content, frontmatter) {
+function needsVueProcessing(content, frontmatter, filePath = '') {
+  // Skip MDX for directories with known broken HTML or complex patterns
+  // These directories have content that can't be parsed by MDX (divs containing markdown, etc.)
+  // Also skip news (has Gridsome import statements that won't work in Astro)
+  // Skip bare/ as it has complex component usage requiring full Vue component suite
+  const SKIP_MDX_DIRS = ['cloudman/', 'community/', 'events/', 'news/', 'bare/'];
+  for (const dir of SKIP_MDX_DIRS) {
+    if (filePath.includes(dir)) {
+      return false;
+    }
+  }
+
+  // Explicit opt-in via frontmatter (for other directories)
   if (frontmatter.components === true) {
     return true;
   }
 
-  for (const component of VUE_COMPONENTS) {
-    if (content.includes(`<${component}`) || content.includes(`</${component}>`)) {
+  // Only check for components that are unlikely to appear in malformed HTML
+  // and are clearly custom Vue components (not standard HTML-like)
+  // Note: slot/Insert removed - requires complex MDX config that's not worth it
+  // Those files stay as .md and we handle inserts differently
+  const SAFE_COMPONENTS = [
+    'twitter',        // Social embeds
+    'mastodon',
+    'vega-embed',     // Data viz
+    'calendar-embed', // Calendar
+    'video-player',   // Media
+    'carousel',
+    'flickr',
+    'supporters',     // Custom lists
+    'contacts',
+    'markdown-embed',
+  ];
+
+  for (const component of SAFE_COMPONENTS) {
+    // Only match properly formatted component tags (with space after name or self-closing)
+    // Case-sensitive to avoid false positives like "<insert your text here>"
+    const openTagRegex = new RegExp(`<${component}(\\s|>|\\/)`);
+    if (openTagRegex.test(content)) {
       return true;
     }
   }
@@ -85,6 +118,7 @@ async function copyAssets(sourceDir, slug) {
 
 /**
  * Determine which collection a file belongs to
+ * Note: vue-articles merged into articles - all content can have components
  */
 function getContentCollection(filePath, content, frontmatter) {
   const relativePath = path.relative(CONTENT_DIR, filePath);
@@ -115,20 +149,16 @@ function getContentCollection(filePath, content, frontmatter) {
     return 'platforms';
   }
 
-  // Check if needs Vue processing
-  if (needsVueProcessing(content, frontmatter)) {
-    return 'vue-articles';
-  }
-
-  // Default to regular articles
+  // All other content goes to articles (including those with components)
   return 'articles';
 }
 
 /**
  * Generate a safe filename from a slug
  */
-function slugToFilename(slug) {
-  return slug.replace(/\//g, '--') + '.md';
+function slugToFilename(slug, useMdx = false) {
+  const ext = useMdx ? '.mdx' : '.md';
+  return slug.replace(/\//g, '--') + ext;
 }
 
 /**
@@ -176,6 +206,93 @@ function convertGridsomeSyntax(content) {
   processed = processed.replace(/<g-image/g, '<img');
   processed = processed.replace(/<\/g-image>/g, '');
 
+  // Note: <slot name="/path"> tags are left as-is for now
+  // They'll be rendered as text in .md files. A future enhancement could
+  // implement server-side insert processing during render.
+
+  return processed;
+}
+
+/**
+ * Convert Vue-style bindings and HTML to JSX syntax for MDX compatibility
+ * :prop="value" -> prop={value}
+ * :prop="123" -> prop={123}
+ * <!-- comment --> -> {/* comment *\/}
+ * rowspan=3 -> rowspan="3"
+ */
+function convertVueToJsx(content) {
+  let processed = content;
+
+  // Convert HTML comments to JSX comments
+  // Also remove markdown escapes like \_ which aren't valid in JSX expressions
+  processed = processed.replace(
+    /<!--([\s\S]*?)-->/g,
+    (match, content) => {
+      const cleaned = content.replace(/\\([_*`~])/g, '$1');
+      return `{/* ${cleaned} */}`;
+    }
+  );
+
+  // Convert markdown auto-links <URL> to proper links [URL](URL)
+  // MDX interprets <URL> as JSX tags
+  processed = processed.replace(
+    /<(https?:\/\/[^>]+)>/g,
+    '[$1]($1)'
+  );
+
+  // Escape empty angle brackets <> which look like JSX fragments
+  processed = processed.replace(/<>/g, '&lt;&gt;');
+
+  // Convert void HTML elements to self-closing JSX
+  const voidElements = ['br', 'hr', 'img', 'input', 'embed', 'source', 'track', 'wbr', 'area', 'base', 'col', 'meta', 'link'];
+  for (const tag of voidElements) {
+    // Match tags that aren't already self-closing
+    processed = processed.replace(
+      new RegExp(`<${tag}(\\s[^>]*[^/])?>`, 'gi'),
+      (match, attrs) => `<${tag}${attrs || ''} />`
+    );
+  }
+
+  // Fix missing space between tag and attribute (e.g., <rowclass= -> <row class=)
+  // Common pattern in malformed legacy HTML
+  processed = processed.replace(/<(\w+)(class|style|id|href|src|rowspan|colspan|width|height)=/gi, '<$1 $2=');
+
+  // Fix malformed style/class attributes where class is embedded in style
+  // style=" class="green"  text-align:center;" -> class="green" style="text-align:center;"
+  processed = processed.replace(/style="\s*class="([^"]+)"\s*([^"]*)"/gi, 'class="$1" style="$2"');
+
+  // Fix unquoted HTML attributes (e.g., rowspan=3 -> rowspan="3")
+  // Match attribute=value where value is not quoted
+  // Run multiple times to catch consecutive unquoted attributes
+  let prev;
+  do {
+    prev = processed;
+    processed = processed.replace(
+      /(\s)(\w+)=(\d+)(?=\s|>|\/)/g,
+      '$1$2="$3"'
+    );
+  } while (prev !== processed);
+
+  // Convert Vue bindings :prop="value" to JSX prop={value}
+  // Handle numeric values
+  processed = processed.replace(
+    /:(\w+)="(\d+(?:\.\d+)?)"/g,
+    '$1={$2}'
+  );
+
+  // Handle string values (keep as strings for now)
+  processed = processed.replace(
+    /:(\w+)="([^"]+)"/g,
+    (match, prop, value) => {
+      // If it looks like a variable/expression, use JSX syntax
+      if (/^[a-zA-Z_]\w*$/.test(value) || value.includes('.')) {
+        return `${prop}={${value}}`;
+      }
+      // Otherwise keep as string attribute
+      return `${prop}="${value}"`;
+    }
+  );
+
   return processed;
 }
 
@@ -204,25 +321,42 @@ async function processMarkdownFile(filePath) {
     await copyAssets(path.dirname(filePath), slug);
   }
 
+  // Check if content needs Vue/component processing
+  const hasComponents = needsVueProcessing(body, frontmatter, filePath);
+
   // Process content
   let processedContent = body;
   processedContent = convertGridsomeSyntax(processedContent);
   processedContent = processImagePaths(processedContent, slug);
+
   processedContent = await processMarkdown(processedContent, {
     addToc: frontmatter.autotoc === true,
     fixLinks: true
   });
 
+  // Convert Vue bindings/HTML to JSX for MDX files (AFTER markdown processing
+  // to avoid remark escaping asterisks in JSX comments)
+  if (hasComponents) {
+    processedContent = convertVueToJsx(processedContent);
+  }
+
   // Process frontmatter
   const processedFrontmatter = processFrontmatter({ ...frontmatter }, filePath);
   processedFrontmatter.slug = slug;
+
+  // Add hasComponents flag for rendering
+  if (hasComponents) {
+    processedFrontmatter.hasComponents = true;
+  }
 
   // Ensure collection directory exists
   const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
 
-  // Write processed file
-  const destPath = path.join(collectionDir, slugToFilename(slug));
+  // Write processed file - use .mdx extension for files with components
+  // But inserts stay as .md (they don't need MDX and often have < characters)
+  const useMdx = hasComponents && collection !== 'inserts';
+  const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
   const newContent = matter.stringify(processedContent, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);
 
@@ -240,6 +374,43 @@ async function processDataset(filePath) {
   await fs.promises.copyFile(filePath, destPath);
 
   return { source: filePath, destination: destPath, collection: 'datasets' };
+}
+
+/**
+ * Process items in batches to avoid file table overflow
+ */
+async function processBatch(items, processFn, batchSize = 50) {
+  const results = [];
+  let errors = 0;
+  let processed = 0;
+
+  for (let i = 0; i < items.length; i += batchSize) {
+    const batch = items.slice(i, i + batchSize);
+    const batchResults = await Promise.allSettled(
+      batch.map(item => processFn(item))
+    );
+
+    for (const result of batchResults) {
+      if (result.status === 'fulfilled') {
+        results.push(result.value);
+        processed++;
+      } else {
+        errors++;
+        console.error(`Error:`, result.reason?.message || result.reason);
+      }
+    }
+
+    if (processed % 500 === 0 || i + batchSize >= items.length) {
+      console.log(`  Processed ${processed}/${items.length} files...`);
+    }
+
+    // Small delay between batches to let file handles close
+    if (i + batchSize < items.length) {
+      await new Promise(resolve => setTimeout(resolve, 10));
+    }
+  }
+
+  return { results, errors };
 }
 
 /**
@@ -264,51 +435,37 @@ export async function preprocessContent(options = {}) {
   const markdownFiles = await glob('**/*.md', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: ['**/node_modules/**']
+    ignore: ['**/node_modules/**', '0examples/**']
   });
 
   const yamlFiles = await glob('**/*.{yml,yaml}', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: ['**/node_modules/**']
+    ignore: ['**/node_modules/**', '**/navbar.yml', '**/navbar.yaml']
   });
 
   console.log(`Found ${markdownFiles.length} markdown files`);
   console.log(`Found ${yamlFiles.length} YAML files`);
   console.log('');
 
-  const results = [];
-  let processed = 0;
-  let errors = 0;
+  // Process markdown files in batches
+  console.log('Processing markdown files...');
+  const { results: mdResults, errors: mdErrors } = await processBatch(
+    markdownFiles,
+    processMarkdownFile,
+    50  // batch size
+  );
 
-  // Process markdown files
-  for (const file of markdownFiles) {
-    try {
-      const result = await processMarkdownFile(file);
-      results.push(result);
-      processed++;
+  // Process YAML files in batches
+  console.log('Processing YAML files...');
+  const { results: yamlResults, errors: yamlErrors } = await processBatch(
+    yamlFiles,
+    processDataset,
+    50
+  );
 
-      if (verbose) {
-        console.log(`  ${result.slug} -> ${result.collection}`);
-      } else if (processed % 500 === 0) {
-        console.log(`  Processed ${processed} files...`);
-      }
-    } catch (error) {
-      errors++;
-      console.error(`Error processing ${file}:`, error.message);
-    }
-  }
-
-  // Process YAML files
-  for (const file of yamlFiles) {
-    try {
-      const result = await processDataset(file);
-      results.push(result);
-    } catch (error) {
-      errors++;
-      console.error(`Error processing ${file}:`, error.message);
-    }
-  }
+  const results = [...mdResults, ...yamlResults];
+  const errors = mdErrors + yamlErrors;
 
   // Summary
   const summary = results.reduce((acc, result) => {

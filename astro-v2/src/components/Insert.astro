@@ -1,0 +1,33 @@
+---
+/**
+ * Insert component for embedding content snippets
+ * Used in MDX files via <Insert name="/path/to/insert" />
+ */
+import { getInsert } from '../utils/content';
+import { render } from 'astro:content';
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+
+// Load and render the insert content
+const insert = await getInsert(name);
+let InsertContent: any = null;
+
+if (insert) {
+  const rendered = await render(insert);
+  InsertContent = rendered.Content;
+}
+---
+
+{InsertContent ? (
+  <div class="insert" data-insert={name}>
+    <InsertContent />
+  </div>
+) : (
+  <div class="insert insert-missing text-amber-600 bg-amber-50 p-2 rounded border border-amber-200 text-sm" data-insert={name}>
+    Insert not found: {name}
+  </div>
+)}

@@ -43,25 +43,18 @@ const baseArticleSchema = z.object({
   skip_title_render: z.boolean().optional().nullable(),
   image: z.string().optional().nullable(),
   components: z.boolean().optional().nullable(),
+  hasComponents: z.boolean().optional().nullable(),
 }).passthrough();
 
-// Articles collection
+// Articles collection (supports both .md and .mdx for component embedding)
 const articles = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/articles' }),
   schema: baseArticleSchema,
-});
-
-// Vue articles (articles with embedded Vue components)
-const vueArticles = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/vue-articles' }),
-  schema: baseArticleSchema.extend({
-    inserts: z.array(z.string()).optional(),
-  }),
 });
 
 // Events collection (very permissive for legacy content)
 const events = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/events' }),
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/events' }),
   schema: baseArticleSchema.extend({
     end: z.coerce.date().optional().nullable(),
     location: z.union([z.string(), locationSchema]).optional().nullable(),
@@ -84,7 +77,7 @@ const platformInstanceSchema = z.object({
 
 // Platforms collection (Galaxy servers/instances)
 const platforms = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/platforms' }),
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/platforms' }),
   schema: baseArticleSchema.extend({
     url: z.string().url().optional().nullable(),
     scope: z.string().optional().nullable(),
@@ -101,13 +94,13 @@ const platforms = defineCollection({
 
 // Bare articles (minimal layout)
 const bareArticles = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/bare-articles' }),
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/bare-articles' }),
   schema: baseArticleSchema,
 });
 
 // Inserts (content snippets for embedding)
 const inserts = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/inserts' }),
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/inserts' }),
   schema: z.object({
     slug: z.string(),
     title: z.string().optional(),
@@ -122,7 +115,6 @@ const datasets = defineCollection({
 
 export const collections = {
   articles,
-  'vue-articles': vueArticles,
   events,
   platforms,
   'bare-articles': bareArticles,

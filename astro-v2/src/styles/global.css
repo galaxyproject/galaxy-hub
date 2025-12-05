@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -148,4 +149,107 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Galaxy-branded prose styles */
+.prose {
+  --tw-prose-links: #25537B;
+  --tw-prose-headings: #1f2937;
+  max-width: 65ch;
+}
+
+.prose a {
+  color: var(--tw-prose-links);
+  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.prose code:not(pre code) {
+  background-color: #f3f4f6;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+.prose pre {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.prose img {
+  border-radius: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0.75rem;
+}
+
+.prose th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+.prose blockquote {
+  border-left: 4px solid #25537B;
+  padding-left: 1rem;
+  color: #4b5563;
+  font-style: italic;
+}
+
+/* Linkbox styling (used in many articles) */
+.linkbox {
+  float: right;
+  width: 200px;
+  margin: 0 0 1rem 1.5rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.linkbox a {
+  display: block;
+  color: #25537B;
+  text-decoration: none;
+  padding: 0.25rem 0;
+}
+
+.linkbox a:hover {
+  text-decoration: underline;
+}
+
+.linkbox hr {
+  margin: 0.5rem 0;
+  border-color: #e2e8f0;
+}
+
+@media (max-width: 768px) {
+  .linkbox {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+  }
+}
+
+/* Trim paragraph margins in certain contexts */
+.trim-p p:first-child {
+  margin-top: 0;
+}
+.trim-p p:last-child {
+  margin-bottom: 0;
 }

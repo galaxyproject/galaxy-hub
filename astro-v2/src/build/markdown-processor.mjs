@@ -111,7 +111,8 @@ export async function processMarkdown(content, options = {}) {
   processor.use(remarkStringify, {
     fences: true,
     rule: '-',
-    listItemIndent: 'one'
+    listItemIndent: 'one',
+    resourceLink: true  // Prevent auto-link conversion for [url](url) patterns
   });
 
   const result = await processor.process(content);
