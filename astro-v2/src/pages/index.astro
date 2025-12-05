@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { Button } from '@/components/ui/button';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+---
+
+<BaseLayout title="Galaxy Community Hub" description="The Galaxy Community Hub - resources for the Galaxy Project community">
+	<div class="max-w-7xl mx-auto">
+		<!-- Hero Section -->
+		<section class="text-center py-12">
+			<h1 class="text-5xl font-bold text-galaxy-primary mb-4">Galaxy Community Hub</h1>
+			<p class="text-xl text-galaxy-grey mb-8 max-w-2xl mx-auto">
+				Open source platform for accessible, reproducible, and transparent data analysis.
+			</p>
+			<div class="flex justify-center gap-4">
+				<Button client:load class="bg-galaxy-primary hover:bg-galaxy-dark text-white">
+					Use Galaxy
+				</Button>
+				<Button client:load variant="outline" class="border-galaxy-primary text-galaxy-primary hover:bg-galaxy-primary hover:text-white">
+					Learn More
+				</Button>
+			</div>
+		</section>
+
+		<!-- Phase 1 Status -->
+		<section class="py-8">
+			<h2 class="text-2xl font-semibold text-galaxy-dark mb-6">Phase 1: Foundation Setup</h2>
+			<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+				<Card client:load class="border-l-4 border-l-green-500">
+					<CardHeader>
+						<CardTitle class="text-lg">Astro 5.x</CardTitle>
+						<CardDescription>Static site generator</CardDescription>
+					</CardHeader>
+					<CardContent>
+						<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+							Complete
+						</span>
+					</CardContent>
+				</Card>
+
+				<Card client:load class="border-l-4 border-l-green-500">
+					<CardHeader>
+						<CardTitle class="text-lg">Vue 3</CardTitle>
+						<CardDescription>Interactive islands</CardDescription>
+					</CardHeader>
+					<CardContent>
+						<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+							Complete
+						</span>
+					</CardContent>
+				</Card>
+
+				<Card client:load class="border-l-4 border-l-green-500">
+					<CardHeader>
+						<CardTitle class="text-lg">Tailwind CSS 4</CardTitle>
+						<CardDescription>Utility-first styling</CardDescription>
+					</CardHeader>
+					<CardContent>
+						<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+							Complete
+						</span>
+					</CardContent>
+				</Card>
+
+				<Card client:load class="border-l-4 border-l-green-500">
+					<CardHeader>
+						<CardTitle class="text-lg">shadcn-vue</CardTitle>
+						<CardDescription>UI component library</CardDescription>
+					</CardHeader>
+					<CardContent>
+						<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+							Complete
+						</span>
+					</CardContent>
+				</Card>
+
+				<Card client:load class="border-l-4 border-l-green-500">
+					<CardHeader>
+						<CardTitle class="text-lg">Nanostores</CardTitle>
+						<CardDescription>State management</CardDescription>
+					</CardHeader>
+					<CardContent>
+						<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+							Complete
+						</span>
+					</CardContent>
+				</Card>
+
+				<Card client:load class="border-l-4 border-l-blue-500">
+					<CardHeader>
+						<CardTitle class="text-lg">Playwright Tests</CardTitle>
+						<CardDescription>E2E testing</CardDescription>
+					</CardHeader>
+					<CardContent>
+						<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+							In Progress
+						</span>
+					</CardContent>
+				</Card>
+			</div>
+		</section>
+	</div>
+</BaseLayout>
