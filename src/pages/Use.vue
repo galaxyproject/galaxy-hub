@@ -106,10 +106,15 @@
                     <b-row>
                         <b-col cols="12">
                             <div class="query-indicator">
-                                <small v-if="isToolSearch"> 🔍 Tool search: "{{ toolSearchQuery }}" </small>
-                                <small v-else-if="isReferenceSearch">
-                                    🔍 Reference search: "{{ referenceSearchQuery }}"
-                                </small>
+                                <div v-if="filter.length > 0 && filter.length < KEYWORD_LENGTH_MIN">
+                                    <small class="font-weight-bold">Search term is too short</small>
+                                </div>
+                                <div v-else>
+                                    <small v-if="isToolSearch"> 🔍 Tool search: "{{ toolSearchQuery }}" </small>
+                                    <small v-else-if="isReferenceSearch">
+                                        🔍 Reference search: "{{ referenceSearchQuery }}"
+                                    </small>
+                                </div>
                             </div>
                         </b-col>
                     </b-row>
@@ -318,6 +323,7 @@ const KEYWORDS = {
     "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" },
 };
 
+const KEYWORD_LENGTH_MIN = 3;
 const SUGGESTIONS_MAX = 15;
 
 const { createSortableField } = useTableSorting();
@@ -476,6 +482,10 @@ export default {
             showAutocomplete: false,
             selectedSuggestionIndex: -1,
             autocompleteInputValue: "",
+            KEYWORD_LENGTH_MIN: KEYWORD_LENGTH_MIN,
+            SUGGESTIONS_MAX: SUGGESTIONS_MAX,
+            // Pre-built suggestions (built once, never changes)
+            allSuggestions: [],
         };
     },
 
@@ -512,57 +522,6 @@ export default {
             return platforms;
         },
 
-        // Build autocomplete suggestions from all tools and references
-        allSuggestions() {
-            const suggestions = [];
-            const uniqueTools = new Set();
-            const uniqueReferences = new Set();
-
-            // Collect all unique tool names
-            if (this.$page.tools && this.$page.tools.edges) {
-                this.$page.tools.edges.forEach((edge) => {
-                    const toolsData = edge.node;
-                    if (toolsData.tools) {
-                        toolsData.tools.forEach((tool) => {
-                            if (tool.name && !uniqueTools.has(tool.name)) {
-                                uniqueTools.add(tool.name);
-                                suggestions.push({
-                                    name: tool.name,
-                                    type: "tool",
-                                    displayType: "tool",
-                                });
-                            }
-                        });
-                    }
-                });
-            }
-
-            // Collect all unique reference names
-            if (this.$page.references && this.$page.references.edges) {
-                this.$page.references.edges.forEach((edge) => {
-                    const referencesData = edge.node;
-                    if (referencesData.references && referencesData.references[0]) {
-                        const refObj = referencesData.references[0];
-                        const refType = refObj.type || "genome";
-                        if (refObj.items) {
-                            refObj.items.forEach((ref) => {
-                                if (ref.name && !uniqueReferences.has(ref.name)) {
-                                    uniqueReferences.add(ref.name);
-                                    suggestions.push({
-                                        name: ref.name,
-                                        type: "reference",
-                                        displayType: refType,
-                                    });
-                                }
-                            });
-                        }
-                    }
-                });
-            }
-
-            return suggestions;
-        },
-
         // Filter suggestions based on current input
         filteredSuggestions() {
             const input = this.autocompleteInputValue.toLowerCase().trim();
@@ -572,21 +531,20 @@ export default {
                 return [];
             }
 
-            const matches = this.allSuggestions.filter((suggestion) => suggestion.name.toLowerCase().includes(input));
+            // Use pre-computed nameLower instead of calling .toLowerCase() on each iteration
+            const matches = this.allSuggestions.filter((suggestion) => suggestion.nameLower.includes(input));
+
             // Sort by relevance: starts-with matches first, then contains
             matches.sort((a, b) => {
-                const aName = a.name.toLowerCase();
-                const bName = b.name.toLowerCase();
-                const aStartsWith = aName.startsWith(input);
-                const bStartsWith = bName.startsWith(input);
+                const aStartsWith = a.nameLower.startsWith(input);
+                const bStartsWith = b.nameLower.startsWith(input);
 
                 if (aStartsWith && !bStartsWith) return -1;
                 if (!aStartsWith && bStartsWith) return 1;
-                return aName.localeCompare(bName);
+                return a.nameLower.localeCompare(b.nameLower);
             });
 
-            const limited = matches.slice(0, SUGGESTIONS_MAX);
-            return limited;
+            return matches.slice(0, SUGGESTIONS_MAX);
         },
     },
 
@@ -625,6 +583,12 @@ export default {
 
         // Autocomplete methods
         onInputChange(value) {
+            if (value.length < KEYWORD_LENGTH_MIN) {
+                this.showAutocomplete = false;
+                this.selectedSuggestionIndex = -1;
+                return;
+            }
+
             this.autocompleteInputValue = value;
             this.selectedSuggestionIndex = -1;
             if (this.filteredSuggestions.length > 0) {
@@ -659,6 +623,7 @@ export default {
                         event.preventDefault();
                         this.selectSuggestion(this.filteredSuggestions[this.selectedSuggestionIndex]);
                     }
+                    this.showAutocomplete = false;
                     break;
 
                 case "Tab":
@@ -888,6 +853,57 @@ export default {
     created() {
         const { createTabStateManager } = useTableRouting();
         this.tabState = createTabStateManager(this.tabs, this.$route, this.$router);
+
+        const suggestions = [];
+        const uniqueTools = new Set();
+        const uniqueReferences = new Set();
+
+        // Collect all unique tool names
+        if (this.$page.tools && this.$page.tools.edges) {
+            this.$page.tools.edges.forEach((edge) => {
+                const toolsData = edge.node;
+                if (toolsData.tools) {
+                    toolsData.tools.forEach((tool) => {
+                        if (tool.name && !uniqueTools.has(tool.name)) {
+                            uniqueTools.add(tool.name);
+                            suggestions.push({
+                                name: tool.name,
+                                nameLower: tool.name.toLowerCase(),
+                                type: "tool",
+                                displayType: "tool",
+                            });
+                        }
+                    });
+                }
+            });
+        }
+
+        // Collect all unique reference names
+        if (this.$page.references && this.$page.references.edges) {
+            this.$page.references.edges.forEach((edge) => {
+                const referencesData = edge.node;
+                if (referencesData.references && referencesData.references[0]) {
+                    const refObj = referencesData.references[0];
+                    const refType = refObj.type || "genome";
+                    if (refObj.items) {
+                        refObj.items.forEach((ref) => {
+                            if (ref.name && !uniqueReferences.has(ref.name)) {
+                                uniqueReferences.add(ref.name);
+                                suggestions.push({
+                                    name: ref.name,
+                                    nameLower: ref.name.toLowerCase(),
+                                    type: "reference",
+                                    displayType: refType,
+                                });
+                            }
+                        });
+                    }
+                }
+            });
+        }
+
+        // Freeze the array to prevent Vue reactivity overhead
+        this.allSuggestions = Object.freeze(suggestions);
 
         for (const tab of this.tabs) {
             if (tab.id === "usegalaxy") {
