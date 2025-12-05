@@ -37,13 +37,14 @@ test.describe('Phase 1: Foundation Setup', () => {
   test('shadcn button component renders', async ({ page }) => {
     await page.goto('/');
 
-    // Find buttons on the page (from shadcn Button component)
+    // Find buttons on the page (from shadcn components)
     const buttons = page.locator('button');
     await expect(buttons.first()).toBeVisible();
 
-    // Check that a button with client:load hydration is interactive
-    const useGalaxyBtn = page.getByRole('button', { name: /use galaxy/i });
-    await expect(useGalaxyBtn).toBeVisible();
+    // Check that search submit button is present in sidebar
+    await page.setViewportSize({ width: 1280, height: 800 });
+    const searchBtn = page.locator('aside button[type="submit"]');
+    await expect(searchBtn).toBeVisible();
   });
 
   test('sidebar visible on desktop viewport', async ({ page }) => {
@@ -69,9 +70,9 @@ test.describe('Phase 1: Foundation Setup', () => {
     const sidebar = page.locator('aside');
     await expect(sidebar).toBeHidden();
 
-    // Mobile header should be visible instead
-    const mobileHeader = page.locator('#mobile-menu-btn');
-    await expect(mobileHeader).toBeVisible();
+    // Mobile menu button should be visible instead
+    const mobileMenuBtn = page.locator('button[aria-label="Open menu"]');
+    await expect(mobileMenuBtn).toBeVisible();
   });
 
   test('shadcn Card components render', async ({ page }) => {

@@ -1,45 +1,48 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-// Shared schema for contact information
+// Shared schema for contact information (very permissive to handle legacy content)
 const contactSchema = z.object({
-  name: z.string().optional(),
-  email: z.string().email().optional(),
-  url: z.string().url().optional(),
-  github: z.string().optional(),
-  twitter: z.string().optional(),
+  name: z.string().optional().nullable(),
+  email: z.string().optional().nullable(),
+  url: z.string().optional().nullable(),
+  github: z.string().optional().nullable(),
+  twitter: z.string().optional().nullable(),
 }).passthrough();
 
-// Shared schema for location
+// Shared schema for location (very permissive)
 const locationSchema = z.object({
-  name: z.string().optional(),
-  street: z.string().optional(),
-  city: z.string().optional(),
-  region: z.string().optional(),
-  postal: z.union([z.string(), z.number()]).optional(),
-  country: z.string().optional(),
+  name: z.string().optional().nullable(),
+  street: z.string().optional().nullable(),
+  city: z.string().optional().nullable(),
+  region: z.string().optional().nullable(),
+  postal: z.union([z.string(), z.number()]).optional().nullable(),
+  country: z.string().optional().nullable(),
   geo: z.object({
-    lat: z.number(),
-    lon: z.number(),
-  }).optional(),
+    lat: z.coerce.number(),
+    lon: z.coerce.number(),
+  }).optional().nullable(),
 }).passthrough();
 
-// Base article schema (shared across most collections)
+// Helper for array or single value
+const arrayOrString = z.union([z.array(z.string()), z.string()]).optional().nullable();
+
+// Base article schema (shared across most collections - very permissive for legacy content)
 const baseArticleSchema = z.object({
-  title: z.string().optional(),
+  title: z.string().optional().nullable(),
   slug: z.string(),
-  date: z.coerce.date().optional(),
-  tease: z.string().optional(),
-  authors: z.array(z.string()).optional(),
-  contacts: z.array(contactSchema).optional(),
-  tags: z.array(z.string()).optional(),
-  subsites: z.array(z.string()).optional(),
-  main_subsite: z.string().optional(),
-  redirect: z.string().optional(),
-  autotoc: z.boolean().optional(),
-  skip_title_render: z.boolean().optional(),
-  image: z.string().optional(),
-  components: z.boolean().optional(),
+  date: z.coerce.date().optional().nullable(),
+  tease: z.string().optional().nullable(),
+  authors: arrayOrString,
+  contacts: z.union([z.array(contactSchema), contactSchema]).optional().nullable(),
+  tags: arrayOrString,
+  subsites: arrayOrString,
+  main_subsite: z.string().optional().nullable(),
+  redirect: z.string().optional().nullable(),
+  autotoc: z.boolean().optional().nullable(),
+  skip_title_render: z.boolean().optional().nullable(),
+  image: z.string().optional().nullable(),
+  components: z.boolean().optional().nullable(),
 }).passthrough();
 
 // Articles collection
@@ -56,43 +59,43 @@ const vueArticles = defineCollection({
   }),
 });
 
-// Events collection
+// Events collection (very permissive for legacy content)
 const events = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/events' }),
   schema: baseArticleSchema.extend({
-    end: z.coerce.date().optional(),
-    location: locationSchema.optional(),
-    external_url: z.string().url().optional(),
-    gtn: z.boolean().optional(),
-    days: z.number().optional(),
-    continent: z.enum(['AF', 'AS', 'EU', 'NA', 'OC', 'SA', 'GL']).optional(),
-    supporters: z.array(z.string()).optional(),
+    end: z.coerce.date().optional().nullable(),
+    location: z.union([z.string(), locationSchema]).optional().nullable(),
+    external_url: z.string().optional().nullable(),
+    gtn: z.boolean().optional().nullable(),
+    days: z.number().optional().nullable(),
+    continent: z.string().optional().nullable(),
+    supporters: z.union([z.array(z.string()), z.string()]).optional().nullable(),
   }),
 });
 
-// Platform schema for Galaxy servers
+// Platform schema for Galaxy servers (permissive)
 const platformInstanceSchema = z.object({
-  platform_group: z.string().optional(),
-  platform_url: z.string().url().optional(),
-  platform_text: z.string().optional(),
-  platform_location: z.string().optional(),
-  platform_purview: z.string().optional(),
+  platform_group: z.string().optional().nullable(),
+  platform_url: z.string().optional().nullable(),
+  platform_text: z.string().optional().nullable(),
+  platform_location: z.string().optional().nullable(),
+  platform_purview: z.string().optional().nullable(),
 }).passthrough();
 
 // Platforms collection (Galaxy servers/instances)
 const platforms = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/platforms' }),
   schema: baseArticleSchema.extend({
-    url: z.string().url().optional(),
-    scope: z.string().optional(),
-    platforms: z.array(platformInstanceSchema).optional(),
-    summary: z.string().optional(),
-    comments: z.array(z.string()).optional(),
-    user_support: z.array(z.string()).optional(),
-    quotas: z.array(z.string()).optional(),
-    citations: z.array(z.string()).optional(),
-    pub_libraries: z.array(z.string()).optional(),
-    sponsors: z.array(z.string()).optional(),
+    url: z.string().url().optional().nullable(),
+    scope: z.string().optional().nullable(),
+    platforms: z.array(platformInstanceSchema).optional().nullable(),
+    summary: z.string().optional().nullable(),
+    comments: z.array(z.string()).optional().nullable(),
+    user_support: z.array(z.string()).optional().nullable(),
+    quotas: z.array(z.string()).optional().nullable(),
+    citations: z.array(z.string()).optional().nullable(),
+    pub_libraries: z.array(z.string()).optional().nullable(),
+    sponsors: z.array(z.string()).optional().nullable(),
   }),
 });
 
