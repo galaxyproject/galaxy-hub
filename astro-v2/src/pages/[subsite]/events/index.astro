@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EventsList from '../../../components/events/EventsList.vue';
+import { subsites } from '../../../stores/subsiteStore';
+
+export function getStaticPaths() {
+  // Generate paths for all non-external subsites (excluding global which uses /events/)
+  return subsites
+    .filter(s => s.id !== 'global' && !('external' in s))
+    .map(subsite => ({
+      params: { subsite: subsite.id },
+      props: { subsiteName: subsite.name, subsiteId: subsite.id }
+    }));
+}
+
+const { subsite } = Astro.params;
+const { subsiteName, subsiteId } = Astro.props;
+
+// Get all events and prepare data for client component
+const events = await getCollection('events');
+
+// Transform to plain objects for Vue component
+const eventData = events.map(e => ({
+  slug: e.data.slug,
+  title: e.data.title || 'Untitled Event',
+  date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
+  end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
+  tease: e.data.tease,
+  location: e.data.location,
+  subsites: e.data.subsites,
+}));
+---
+
+<BaseLayout title={`${subsiteName} Events`} description={`Galaxy Project events for ${subsiteName}`}>
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">{subsiteName} Events</h1>
+      <p class="text-lg text-gray-600">Workshops, conferences, and community gatherings</p>
+    </header>
+
+    <EventsList client:load events={eventData} initialSubsite={subsiteId} />
+  </div>
+</BaseLayout>

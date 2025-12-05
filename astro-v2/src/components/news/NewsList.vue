@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useStore } from '@nanostores/vue';
-import { currentSubsite } from '@/stores/subsiteStore';
+import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
 
 interface NewsArticle {
   slug: string;
@@ -14,9 +14,17 @@ interface NewsArticle {
 
 const props = defineProps<{
   articles: NewsArticle[];
+  initialSubsite?: SubsiteId;
 }>();
 
 const $subsite = useStore(currentSubsite);
+
+// Set initial subsite from URL route if provided
+onMounted(() => {
+  if (props.initialSubsite && props.initialSubsite !== 'global') {
+    currentSubsite.set(props.initialSubsite);
+  }
+});
 
 // Helper to normalize subsites to array
 function getSubsites(article: NewsArticle): string[] {

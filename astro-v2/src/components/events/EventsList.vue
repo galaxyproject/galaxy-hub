@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
-import { currentSubsite } from '@/stores/subsiteStore';
+import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
 
 interface EventData {
   slug: string;
@@ -18,9 +18,17 @@ interface EventData {
 
 const props = defineProps<{
   events: EventData[];
+  initialSubsite?: SubsiteId;
 }>();
 
 const $subsite = useStore(currentSubsite);
+
+// Set initial subsite from URL route if provided
+onMounted(() => {
+  if (props.initialSubsite && props.initialSubsite !== 'global') {
+    currentSubsite.set(props.initialSubsite);
+  }
+});
 
 // Helper to normalize subsites to array
 function getSubsites(event: EventData): string[] {

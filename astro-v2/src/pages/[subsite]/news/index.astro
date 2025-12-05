@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NewsList from '../../../components/news/NewsList.vue';
+import { subsites } from '../../../stores/subsiteStore';
+
+export function getStaticPaths() {
+  // Generate paths for all non-external subsites (excluding global which uses /news/)
+  return subsites
+    .filter(s => s.id !== 'global' && !('external' in s))
+    .map(subsite => ({
+      params: { subsite: subsite.id },
+      props: { subsiteName: subsite.name, subsiteId: subsite.id }
+    }));
+}
+
+const { subsite } = Astro.params;
+const { subsiteName, subsiteId } = Astro.props;
+
+// Get all news articles
+const articles = await getCollection('articles');
+
+// Helper to ensure date is a Date object
+function toDate(d: Date | string | undefined): Date | null {
+  if (!d) return null;
+  return d instanceof Date ? d : new Date(d);
+}
+
+const newsArticles = articles
+  .filter(article => article.data.slug.startsWith('news/'))
+  .sort((a, b) => {
+    const dateA = toDate(a.data.date)?.getTime() || 0;
+    const dateB = toDate(b.data.date)?.getTime() || 0;
+    return dateB - dateA;
+  });
+
+// Transform to plain objects for Vue component
+const articleData = newsArticles.map(a => ({
+  slug: a.data.slug,
+  title: a.data.title || 'Untitled',
+  date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
+  tease: a.data.tease,
+  tags: Array.isArray(a.data.tags) ? a.data.tags : (a.data.tags ? [a.data.tags] : []),
+  subsites: a.data.subsites,
+}));
+---
+
+<BaseLayout title={`${subsiteName} News`} description={`Latest news from Galaxy ${subsiteName}`}>
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">{subsiteName} News</h1>
+      <p class="text-lg text-gray-600">Latest updates from the Galaxy {subsiteName} community</p>
+    </header>
+
+    <NewsList client:load articles={articleData} initialSubsite={subsiteId} />
+  </div>
+</BaseLayout>
