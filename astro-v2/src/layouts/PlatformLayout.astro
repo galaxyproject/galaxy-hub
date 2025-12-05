@@ -1,0 +1,238 @@
+---
+/**
+ * PlatformLayout
+ * Layout for Galaxy server/platform pages
+ * Displays platform info, instances table, and various metadata sections
+ */
+import BaseLayout from './BaseLayout.astro';
+
+interface PlatformInstance {
+  platform_group?: string;
+  platform_url?: string;
+  platform_text?: string;
+  platform_location?: string;
+  platform_purview?: string;
+}
+
+interface Props {
+  title: string;
+  url?: string;
+  image?: string;
+  summary?: string;
+  scope?: string;
+  platforms?: PlatformInstance[];
+  comments?: string[];
+  user_support?: string[];
+  quotas?: string[];
+  citations?: string[];
+  pub_libraries?: string[];
+  sponsors?: string[];
+  tags?: string[];
+}
+
+const {
+  title,
+  url,
+  image,
+  summary,
+  scope,
+  platforms: instances = [],
+  comments = [],
+  user_support = [],
+  quotas = [],
+  citations = [],
+  pub_libraries = [],
+  sponsors = [],
+  tags = [],
+} = Astro.props;
+
+// Platform group display names
+const groupNames: Record<string, string> = {
+  'public-server': 'Public Server',
+  'commercial-cloud': 'Commercial Cloud',
+  'academic-cloud': 'Academic Cloud',
+  'container': 'Container',
+  'vm': 'Virtual Machine',
+};
+
+// Scope display names
+const scopeNames: Record<string, string> = {
+  'usegalaxy': 'UseGalaxy Server',
+  'general': 'Genomics',
+  'domain': 'Domain Specific',
+  'tool-publishing': 'Tool Publishing',
+};
+
+// Sections to render
+const sections = [
+  { key: 'comments', name: 'Comments', items: comments },
+  { key: 'user_support', name: 'User Support', items: user_support },
+  { key: 'quotas', name: 'Quotas', items: quotas },
+  { key: 'citations', name: 'Citations', items: citations },
+  { key: 'sponsors', name: 'Sponsors', items: sponsors },
+].filter(s => s.items && s.items.length > 0);
+---
+
+<BaseLayout title={title || 'Galaxy Server'} description={summary}>
+  <article class="max-w-4xl mx-auto">
+    <!-- Back Link -->
+    <a href="/use/" class="inline-flex items-center gap-1 text-galaxy-primary hover:underline mb-6">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      Platform Directory
+    </a>
+
+    <!-- Platform Header -->
+    <header class="mb-8">
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="flex-1">
+          <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{title}</h1>
+
+          {url && (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-6 py-3 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors text-lg font-medium mb-4"
+            >
+              Launch Galaxy
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          )}
+
+          {tags && tags.length > 0 && (
+            <div class="flex flex-wrap gap-2">
+              {tags.map((tag: string) => (
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {image && (
+          <div class="flex-shrink-0">
+            <a href={url} target="_blank" rel="noopener noreferrer" class="block border border-gray-200 rounded-lg p-2 hover:border-galaxy-primary transition-colors">
+              <img src={image} alt={title} class="max-w-48 h-auto" />
+            </a>
+          </div>
+        )}
+      </div>
+    </header>
+
+    <!-- Platform Instances Table -->
+    {instances && instances.length > 0 && (
+      <div class="mb-8 overflow-x-auto">
+        <table class="w-full border-collapse">
+          <tbody class="divide-y divide-gray-200">
+            {instances.map((instance: PlatformInstance) => (
+              <tr class="bg-gray-50 even:bg-white">
+                <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40">
+                  {groupNames[instance.platform_group || ''] || instance.platform_group || 'Instance'}:
+                </th>
+                <td class="px-4 py-3 text-sm">
+                  {instance.platform_url ? (
+                    <a href={instance.platform_url} target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline">
+                      {instance.platform_text || instance.platform_url}
+                    </a>
+                  ) : (
+                    <span>{instance.platform_text}</span>
+                  )}
+                  {instance.platform_location && (
+                    <span class="text-gray-500 ml-2">({instance.platform_location})</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+            {scope && (
+              <tr class="bg-gray-50 even:bg-white">
+                <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40">Scope:</th>
+                <td class="px-4 py-3 text-sm">
+                  <a href={`/use/#${scope}`} class="text-galaxy-primary hover:underline">
+                    {scopeNames[scope] || scope}
+                  </a>
+                </td>
+              </tr>
+            )}
+            {summary && (
+              <tr class="bg-gray-50 even:bg-white">
+                <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40 align-top">Summary:</th>
+                <td class="px-4 py-3 text-sm text-gray-700" set:html={summary} />
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+    )}
+
+    <!-- Platform Content -->
+    <div class="prose prose-lg prose-galaxy max-w-none mb-8">
+      <slot />
+    </div>
+
+    <!-- Metadata Sections -->
+    {sections.map((section) => (
+      <div class="mb-6">
+        <h2 class="text-xl font-semibold text-gray-900 mb-3 capitalize">{section.name}</h2>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          {section.items.map((item: string) => (
+            <li class="prose prose-sm max-w-none" set:html={item} />
+          ))}
+          {section.key === 'citations' && pub_libraries && pub_libraries.length > 0 && (
+            <>
+              {pub_libraries.map((tag: string) => (
+                <li>
+                  <a href={`https://www.zotero.org/groups/1732893/galaxy/tags/%3E${tag}`} target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline">
+                    {tag} tagged publications
+                  </a>
+                  {' '}in the{' '}
+                  <a href="/publication-library/" class="text-galaxy-primary hover:underline">Galaxy Publication Library</a>
+                </li>
+              ))}
+            </>
+          )}
+        </ul>
+      </div>
+    ))}
+
+    <!-- Platform Footer -->
+    <footer class="mt-12 pt-8 border-t border-gray-200">
+      <div class="flex justify-between items-center">
+        <a href="/use/" class="text-galaxy-primary hover:underline flex items-center gap-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Back to Galaxy Servers
+        </a>
+        {url && (
+          <a href={url} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors">
+            Launch Galaxy
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+        )}
+      </div>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .prose-galaxy {
+    --tw-prose-links: #25537B;
+    --tw-prose-headings: #1f2937;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~="not-prose"] *)) {
+    color: var(--tw-prose-links);
+    text-decoration: none;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~="not-prose"] *)):hover {
+    text-decoration: underline;
+  }
+</style>

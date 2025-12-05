@@ -1,0 +1,30 @@
+---
+/**
+ * Dynamic route for bare articles
+ * These are minimal pages without sidebar/footer, used for embedding
+ */
+import { getCollection, render } from 'astro:content';
+import BareArticleLayout from '../../layouts/BareArticleLayout.astro';
+
+export async function getStaticPaths() {
+  const bareArticles = await getCollection('bare-articles');
+
+  return bareArticles.map(article => {
+    // Remove 'bare/' prefix from slug for URL if present
+    const urlSlug = article.data.slug.replace(/^bare\//, '');
+    return {
+      params: { slug: urlSlug },
+      props: { article },
+    };
+  });
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const { title, tease } = article.data;
+---
+
+<BareArticleLayout title={title || 'Page'} description={tease}>
+  <Content />
+</BareArticleLayout>

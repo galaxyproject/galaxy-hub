@@ -90,6 +90,16 @@ function getContentCollection(filePath, content, frontmatter) {
   const relativePath = path.relative(CONTENT_DIR, filePath);
   const basename = path.basename(filePath);
 
+  // Bare articles - must check early, before inserts check
+  // Content in bare/ directory uses minimal layout
+  if (relativePath.startsWith('bare/')) {
+    // Non-index files in bare/ are still inserts
+    if (basename !== 'index.md') {
+      return 'inserts';
+    }
+    return 'bare-articles';
+  }
+
   // Non-index markdown files are inserts
   if (basename !== 'index.md' && filePath.endsWith('.md')) {
     return 'inserts';
@@ -103,14 +113,6 @@ function getContentCollection(filePath, content, frontmatter) {
   // Platform pages (Galaxy servers)
   if (relativePath.startsWith('use/') && !relativePath.startsWith('use/index')) {
     return 'platforms';
-  }
-
-  // Bare articles (minimal layout)
-  const barePaths = ['eu/news', 'eu/events', 'eu/latest', 'fr/news', 'fr/events', 'everywhere/'];
-  for (const barePath of barePaths) {
-    if (relativePath.startsWith(barePath)) {
-      return 'bare-articles';
-    }
   }
 
   // Check if needs Vue processing

@@ -1,0 +1,49 @@
+---
+/**
+ * Dynamic route for vue-articles
+ * These are articles that contain embedded Vue components (slots/inserts)
+ */
+import { getCollection, render } from 'astro:content';
+import VueArticleLayout from '../../layouts/VueArticleLayout.astro';
+import { getInsert } from '../../utils/content';
+
+export async function getStaticPaths() {
+  const vueArticles = await getCollection('vue-articles');
+
+  return vueArticles.map(article => {
+    // Use the slug from frontmatter for URL
+    const urlSlug = article.data.slug;
+    return {
+      params: { slug: urlSlug },
+      props: { article },
+    };
+  });
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+// Extract article metadata
+const { title, date, authors, tags, tease, image } = article.data;
+
+// Normalize authors to array
+const authorList = Array.isArray(authors) ? authors : (authors ? [authors] : []);
+
+// Normalize tags to array
+const tagList = Array.isArray(tags) ? tags : (tags ? [tags] : []);
+
+// Get raw body for slot extraction (if available)
+const rawBody = article.body || '';
+---
+
+<VueArticleLayout
+  title={title || 'Article'}
+  description={tease}
+  date={date}
+  authors={authorList}
+  tags={tagList}
+  image={image}
+  rawBody={rawBody}
+>
+  <Content />
+</VueArticleLayout>
