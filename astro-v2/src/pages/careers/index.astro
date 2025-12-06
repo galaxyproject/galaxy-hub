@@ -1,0 +1,198 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+
+// Get all career listings
+const articles = await getCollection('articles');
+const careers = articles
+  .filter(article => article.data.slug.startsWith('careers/'))
+  .map(career => ({
+    ...career,
+    data: {
+      ...career.data,
+      closes: career.data.closes ? new Date(career.data.closes) : null,
+    }
+  }));
+
+const now = new Date();
+
+// Open positions: closes date is in the future or not set
+const openPositions = careers
+  .filter(c => c.data.closes && c.data.closes > now)
+  .sort((a, b) => {
+    const dateA = a.data.closes?.getTime() || 0;
+    const dateB = b.data.closes?.getTime() || 0;
+    return dateA - dateB; // Sort by closes date (soonest first)
+  });
+
+// Closed positions: closes date is in the past
+const closedPositions = careers
+  .filter(c => c.data.closes && c.data.closes <= now)
+  .sort((a, b) => {
+    const dateA = a.data.closes?.getTime() || 0;
+    const dateB = b.data.closes?.getTime() || 0;
+    return dateB - dateA; // Sort by closes date (most recent first)
+  })
+  .slice(0, 50); // Limit to last 50 closed positions
+
+function formatDate(date: Date | null | undefined): string {
+  if (!date) return '';
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function getLocationName(location: any): string {
+  if (!location) return '';
+  if (typeof location === 'string') return location;
+  return location.name || '';
+}
+
+function getContinentLabel(continent: string | undefined): string {
+  const labels: Record<string, string> = {
+    'NA': 'North America',
+    'EU': 'Europe',
+    'AF': 'Africa',
+    'AS': 'Asia',
+    'AU': 'Australia/Oceania',
+    'SA': 'South America',
+    'GL': 'Global',
+  };
+  return labels[continent || ''] || continent || '';
+}
+---
+
+<BaseLayout title="Careers" description="Galaxy community job openings">
+  <div class="max-w-5xl mx-auto">
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex items-start gap-6">
+        <div class="flex-1">
+          <h1 class="text-3xl font-bold text-galaxy-dark mb-4">Galactic Career Center</h1>
+          <p class="text-gray-600">
+            The Galaxy community is continually searching for new developers, bioinformaticians,
+            system administrators, and researchers. This page lists openings from around the world
+            that use, deploy, enhance and administer Galaxy.
+          </p>
+          <p class="text-gray-600 mt-2">
+            If you have an opening you want to list here, please send it to
+            <a href="mailto:outreach@galaxyproject.org" class="text-galaxy-primary hover:underline">
+              outreach@galaxyproject.org
+            </a> and we will list it here and in the next month's newsletter.
+          </p>
+        </div>
+        <img
+          src="/images/GalaxyIsExpandingCloud.png"
+          alt="Galaxy is hiring"
+          class="w-48 hidden md:block"
+        />
+      </div>
+    </div>
+
+    <!-- Open Positions -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-galaxy-dark mb-6 flex items-center gap-2">
+        <span class="inline-flex items-center justify-center w-8 h-8 bg-green-100 text-green-700 rounded-full text-sm font-semibold">
+          {openPositions.length}
+        </span>
+        Open Positions
+      </h2>
+
+      {openPositions.length === 0 ? (
+        <p class="text-gray-500 italic">No open positions at this time. Check back soon!</p>
+      ) : (
+        <div class="space-y-4">
+          {openPositions.map((career) => (
+            <Card class="hover:shadow-md transition-shadow border-l-4 border-l-green-500">
+              <CardHeader class="pb-2">
+                <div class="flex flex-wrap items-start justify-between gap-2">
+                  <CardTitle class="text-lg">
+                    <a
+                      href={career.data.external_url || `/${career.data.slug}/`}
+                      target={career.data.external_url ? '_blank' : undefined}
+                      rel={career.data.external_url ? 'noopener noreferrer' : undefined}
+                      class="text-galaxy-primary hover:text-galaxy-dark hover:underline"
+                    >
+                      {career.data.title}
+                    </a>
+                  </CardTitle>
+                  <span class="text-sm text-gray-500 whitespace-nowrap">
+                    Closes: {formatDate(career.data.closes)}
+                  </span>
+                </div>
+                <CardDescription class="flex flex-wrap gap-3 text-sm">
+                  {getLocationName(career.data.location) && (
+                    <span class="flex items-center gap-1">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      {career.data.location_url ? (
+                        <a href={career.data.location_url} target="_blank" rel="noopener noreferrer" class="hover:underline">
+                          {getLocationName(career.data.location)}
+                        </a>
+                      ) : (
+                        getLocationName(career.data.location)
+                      )}
+                    </span>
+                  )}
+                  {career.data.continent && (
+                    <span class="text-gray-400">
+                      ({getContinentLabel(career.data.continent)})
+                    </span>
+                  )}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {career.data.summary && (
+                  <p class="text-gray-600 text-sm line-clamp-3">{career.data.summary}</p>
+                )}
+                {career.data.contact && (
+                  <p class="text-sm text-gray-500 mt-2">
+                    Contact: <a href={`mailto:${career.data.contact}`} class="text-galaxy-primary hover:underline">{career.data.contact}</a>
+                  </p>
+                )}
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      )}
+    </section>
+
+    <!-- Closed Positions -->
+    <section>
+      <h2 class="text-2xl font-bold text-galaxy-dark mb-6 flex items-center gap-2">
+        <span class="inline-flex items-center justify-center w-8 h-8 bg-gray-100 text-gray-600 rounded-full text-sm font-semibold">
+          {closedPositions.length}
+        </span>
+        Previous Positions
+      </h2>
+
+      {closedPositions.length === 0 ? (
+        <p class="text-gray-500 italic">No previous positions to display.</p>
+      ) : (
+        <div class="space-y-3">
+          {closedPositions.map((career) => (
+            <div class="flex flex-wrap items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+              <span class="text-sm text-gray-400 whitespace-nowrap min-w-20">
+                {formatDate(career.data.closes)}
+              </span>
+              <a
+                href={career.data.external_url || `/${career.data.slug}/`}
+                target={career.data.external_url ? '_blank' : undefined}
+                rel={career.data.external_url ? 'noopener noreferrer' : undefined}
+                class="text-gray-600 hover:text-galaxy-primary hover:underline flex-1"
+              >
+                {career.data.title}
+              </a>
+              {getLocationName(career.data.location) && (
+                <span class="text-sm text-gray-400 hidden sm:inline">
+                  {getLocationName(career.data.location)}
+                </span>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  </div>
+</BaseLayout>
