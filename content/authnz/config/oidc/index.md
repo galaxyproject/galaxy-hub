@@ -28,7 +28,6 @@ support the OIDC protocol and Galaxy currently supports the following OIDC
 IdPs:
 
 - [CILogon](/authnz/config/oidc/idps/cilogon/)
-- [Custos](/authnz/config/oidc/idps/custos/)
 - [Elixir AAI](/authnz/config/oidc/idps/elixir-aai/)
 - [Globus](/authnz/config/oidc/idps/globus/)
 - [Google](/authnz/config/oidc/idps/google/)
@@ -141,11 +140,11 @@ look at the provider-specific pages for how to configure it.
 ```xml
 <?xml version="1.0"?>
 <OIDC>
-    <provider name="Custos">
-        <client_id>custos-xmn3092m8tkh7546hv76-10000001</client_id>
+    <provider name="keycloak">
+        <client_id>gxyclient</client_id>
         <client_secret>15Ur37stVGwvONALNjjq89ezRXxoKuunFzvEeTDY</client_secret>
-        <redirect_uri>http://localhost:8000/authnz/custos/callback</redirect_uri>
-        <url>https://dev.custos.usecustos.org/apiserver/identity-management/v1.0.0/</url>
+        <redirect_uri>http://localhost:8080/authnz/keycloak/callback</redirect_uri>
+        <url>https://my.keycloak.server/realms/gxyrealm</url>
     </provider>
 </OIDC>
 ```
