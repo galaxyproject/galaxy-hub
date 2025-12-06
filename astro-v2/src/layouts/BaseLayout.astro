@@ -34,7 +34,13 @@ const { title, description = 'Galaxy Community Hub' } = Astro.props;
 
       <!-- Mobile header with Vue-powered menu -->
       <div class="lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between">
-        <a href="/" class="text-xl font-bold text-galaxy-gold">Galaxy</a>
+        <a href="/" class="block">
+          <img
+            src="/images/galaxy_logo_hub_white.svg"
+            alt="Galaxy Community Hub"
+            class="h-8 w-auto"
+          />
+        </a>
         <MobileMenu client:load />
       </div>
 
