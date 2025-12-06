@@ -29,8 +29,11 @@ Currently, Galaxy supports the following identity providers (the list of
 enabled/configured identity providers on different Galaxy instances may be
 different):
 
-- [Custos](/authnz/use/oidc/idps/custos/)
+- Azure
+- CILogon
 - [Elixir AAI](/authnz/use/oidc/idps/elixir-aai/)
 - [Globus](/authnz/use/oidc/idps/globus/)
 - [Google](/authnz/use/oidc/idps/google/)
+- Keycloak
+- OIDC (generic)
 - [Okta](/authnz/use/oidc/idps/okta/)
