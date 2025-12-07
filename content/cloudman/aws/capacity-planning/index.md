@@ -80,7 +80,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
   </tr>
   <tr>
     <td> </td>
-    <td> <rowclass="th"style="text-align:center">1 </td>
+    <td style="text-align:center">1</td>
     <td> </td>
     <td style=" text-align:center;"> 2 </td>
     <td> </td>
