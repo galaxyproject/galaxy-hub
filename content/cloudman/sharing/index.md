@@ -77,9 +77,9 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
 
 
 <table>
-  <tr>
-    <td> <tablewidth="100%" rowclass="th">Cluster share string</td>
-    <td> Contact info (URL, email)</td>
+  <tr class="th">
+    <th>Cluster share string</th>
+    <th>Contact info (URL, email)</th>
   </tr>
   <tr>
     <td style=" width: 65%;"> cm-d276b27d9c82cfd56c5bf3cdead0fa0b/shared/2016-06-23--00-36/</td>
@@ -87,7 +87,7 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
   </tr>
   <tr>
     <td> </td>
-    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+    <td style="background-color: #EEE; font-weight: bold; text-align: left;">Description</td>
   </tr>
   <tr>
     <td> </td>
@@ -102,7 +102,7 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
   </tr>
   <tr>
     <td> </td>
-    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+    <td style="background-color: #EEE; font-weight: bold; text-align: left;">Description</td>
   </tr>
   <tr>
     <td> </td>
@@ -117,7 +117,7 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
   </tr>
   <tr>
     <td> </td>
-    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+    <td style="background-color: #EEE; font-weight: bold; text-align: left;">Description</td>
   </tr>
   <tr>
     <td> </td>
