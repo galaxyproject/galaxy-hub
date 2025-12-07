@@ -56,13 +56,19 @@ function hasProblematicHtml(content) {
   }
 
   // Check for multiple divs in content - MDX often fails with complex div structures
-  const divCount = (content.match(/<div[\s>]/gi) || []).length;
-  if (divCount > 1) {
+  const openDivCount = (content.match(/<div[\s>]/gi) || []).length;
+  const closeDivCount = (content.match(/<\/div>/gi) || []).length;
+  if (openDivCount > 1 || openDivCount !== closeDivCount) {
     return true;
   }
 
   // Check for HTML tables - they often contain special characters like <= that break MDX
   if (/<table[\s>]/i.test(content)) {
+    return true;
+  }
+
+  // Check for markdown tables (pipe-delimited) - they may contain <= characters that break MDX
+  if (/^\|.*\|.*\n\|[\s:-]+\|/m.test(content)) {
     return true;
   }
 
@@ -74,8 +80,23 @@ function hasProblematicHtml(content) {
   }
 
   // Check for malformed/custom HTML tags like <row>, <column>, etc.
-  const malformedTags = /<(row|column|linkbox)[\s>]/i;
+  const malformedTags = /<(row|column|linkbox|link-box)[\s>]/i;
   if (malformedTags.test(content)) {
+    return true;
+  }
+
+  // Check for arrow patterns like <--- or <-- that MDX misinterprets as JSX
+  if (/<-{2,}/.test(content)) {
+    return true;
+  }
+
+  // Check for < followed by numbers (like <1.0km, <500) - MDX misinterprets as JSX
+  if (/<\d/.test(content)) {
+    return true;
+  }
+
+  // Check for Vue-specific import patterns that don't work in MDX
+  if (/^import\s+\w+\s+from\s+/m.test(content)) {
     return true;
   }
 
@@ -95,7 +116,7 @@ function needsVueProcessing(content, frontmatter, filePath = '') {
   // - news/: similar HTML issues
   // - bare/: complex component usage requiring full Vue component suite
   // Note: InsertSlot/slot tags won't work in these directories until content is cleaned up
-  const SKIP_MDX_DIRS = ['cloudman/', 'community/', 'events/', 'news/', 'bare/'];
+  const SKIP_MDX_DIRS = ['events/', 'news/', 'bare/'];
   for (const dir of SKIP_MDX_DIRS) {
     if (filePath.includes(dir)) {
       return false;
