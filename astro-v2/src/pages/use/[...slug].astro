@@ -5,6 +5,19 @@
 import { getCollection, render } from 'astro:content';
 import PlatformLayout from '../../layouts/PlatformLayout.astro';
 
+// Import MDX components for embedded content
+import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
+import Twitter from '../../components/mdx/Twitter.astro';
+import Mastodon from '../../components/mdx/Mastodon.astro';
+import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
+import Carousel from '../../components/mdx/Carousel.astro';
+import CalendarEmbed from '../../components/mdx/CalendarEmbed.astro';
+import MarkdownEmbed from '../../components/mdx/MarkdownEmbed.astro';
+import Flickr from '../../components/mdx/Flickr.astro';
+import Supporters from '../../components/mdx/Supporters.astro';
+import Contacts from '../../components/mdx/Contacts.astro';
+import InsertSlot from '../../components/mdx/InsertSlot.astro';
+
 export async function getStaticPaths() {
   const platforms = await getCollection('platforms');
 
@@ -39,6 +52,21 @@ const {
 
 // Normalize tags to array
 const tagList = Array.isArray(tags) ? tags : (tags ? [tags] : []);
+
+// MDX components map
+const components = {
+  VegaEmbed,
+  Twitter,
+  Mastodon,
+  VideoPlayer,
+  Carousel,
+  CalendarEmbed,
+  MarkdownEmbed,
+  Flickr,
+  Supporters,
+  Contacts,
+  InsertSlot,
+};
 ---
 
 <PlatformLayout
@@ -56,5 +84,5 @@ const tagList = Array.isArray(tags) ? tags : (tags ? [tags] : []);
   sponsors={sponsors}
   tags={tagList}
 >
-  <Content />
+  <Content components={components} />
 </PlatformLayout>

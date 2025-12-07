@@ -42,19 +42,69 @@ const VUE_COMPONENTS = [
 ];
 
 /**
+ * Check if content contains patterns that break MDX parsing
+ * - HTML blocks containing markdown (divs with markdown links, etc.)
+ * - Complex HTML structures (tables, multiple divs)
+ * - Malformed HTML tags
+ */
+function hasProblematicHtml(content) {
+  // Check for <div> tags containing markdown syntax (links, bold, etc.)
+  // This pattern fails in MDX because markdown isn't processed inside HTML
+  const divWithMarkdown = /<div[^>]*>[\s\S]*?\[[^\]]+\]\([^)]+\)[\s\S]*?<\/div>/i;
+  if (divWithMarkdown.test(content)) {
+    return true;
+  }
+
+  // Check for multiple divs in content - MDX often fails with complex div structures
+  const divCount = (content.match(/<div[\s>]/gi) || []).length;
+  if (divCount > 1) {
+    return true;
+  }
+
+  // Check for HTML tables - they often contain special characters like <= that break MDX
+  if (/<table[\s>]/i.test(content)) {
+    return true;
+  }
+
+  // Check for divs with text content followed by newline (common in legacy content)
+  // These often fail because MDX treats the content as a paragraph
+  const divWithTextContent = /<div[^>]*>[^<\n]+\n/i;
+  if (divWithTextContent.test(content)) {
+    return true;
+  }
+
+  // Check for malformed/custom HTML tags like <row>, <column>, etc.
+  const malformedTags = /<(row|column|linkbox)[\s>]/i;
+  if (malformedTags.test(content)) {
+    return true;
+  }
+
+  return false;
+}
+
+/**
  * Check if content contains Vue components that need MDX processing
  * Only use MDX for files that explicitly opt-in OR have specific safe component patterns
  */
 function needsVueProcessing(content, frontmatter, filePath = '') {
-  // Skip MDX for directories with known broken HTML or complex patterns
-  // These directories have content that can't be parsed by MDX (divs containing markdown, etc.)
-  // Also skip news (has Gridsome import statements that won't work in Astro)
-  // Skip bare/ as it has complex component usage requiring full Vue component suite
+  // Skip MDX for directories with widespread broken HTML or complex patterns
+  // These directories have legacy content that can't be safely converted to MDX:
+  // - cloudman/: malformed HTML tags like <row>
+  // - community/: complex HTML structures, nested divs
+  // - events/: divs with markdown, tables, HTML comments
+  // - news/: similar HTML issues
+  // - bare/: complex component usage requiring full Vue component suite
+  // Note: InsertSlot/slot tags won't work in these directories until content is cleaned up
   const SKIP_MDX_DIRS = ['cloudman/', 'community/', 'events/', 'news/', 'bare/'];
   for (const dir of SKIP_MDX_DIRS) {
     if (filePath.includes(dir)) {
       return false;
     }
+  }
+
+  // Check for problematic HTML patterns that break MDX
+  if (hasProblematicHtml(content)) {
+    return false;
   }
 
   // Explicit opt-in via frontmatter (for other directories)
@@ -64,8 +114,6 @@ function needsVueProcessing(content, frontmatter, filePath = '') {
 
   // Only check for components that are unlikely to appear in malformed HTML
   // and are clearly custom Vue components (not standard HTML-like)
-  // Note: slot/Insert removed - requires complex MDX config that's not worth it
-  // Those files stay as .md and we handle inserts differently
   const SAFE_COMPONENTS = [
     'twitter',        // Social embeds
     'mastodon',
@@ -77,6 +125,7 @@ function needsVueProcessing(content, frontmatter, filePath = '') {
     'supporters',     // Custom lists
     'contacts',
     'markdown-embed',
+    'slot',           // Content insertion (will be converted to InsertSlot)
   ];
 
   for (const component of SAFE_COMPONENTS) {
@@ -206,9 +255,13 @@ function convertGridsomeSyntax(content) {
   processed = processed.replace(/<g-image/g, '<img');
   processed = processed.replace(/<\/g-image>/g, '');
 
-  // Note: <slot name="/path"> tags are left as-is for now
-  // They'll be rendered as text in .md files. A future enhancement could
-  // implement server-side insert processing during render.
+  // Convert <slot name="/path" /> to <InsertSlot name="/path" />
+  // This enables content insertion via the InsertSlot MDX component
+  // Handle both self-closing <slot ... /> and paired <slot ...></slot>
+  processed = processed.replace(/<slot\s+name=/gi, '<InsertSlot name=');
+  processed = processed.replace(/<\/slot>/gi, '</InsertSlot>');
+  // Make sure slot tags are self-closing if they aren't already
+  processed = processed.replace(/<InsertSlot([^>]*[^/])>/g, '<InsertSlot$1 />');
 
   return processed;
 }

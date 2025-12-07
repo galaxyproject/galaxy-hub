@@ -1,0 +1,15 @@
+---
+/**
+ * InsertSlot MDX wrapper
+ * Re-exports the main InsertSlot component for use in MDX content
+ */
+import InsertSlotBase from '../InsertSlot.astro';
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+---
+
+<InsertSlotBase name={name} />
