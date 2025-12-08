@@ -1,4 +1,4 @@
-<slot name="/images/linkbox" />
+<Insert name="/images/linkbox" />
 
 Common place to store logos.  Logos are for specific institutions, events or software. Icons are generic images like calendars, arrow, "New!" balloons and so on.
 

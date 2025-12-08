@@ -1,6 +1,6 @@
-<slot name="/events/gcc2012/page-header" />
+<Insert name="/events/gcc2012/page-header" />
 
-<slot name="/events/gcc2012/linkbox" />
+<Insert name="/events/gcc2012/linkbox" />
 There are different registration levels, depending on your career stage and your organization's for-profit status, and how early you register.  Our goal has been to make this an *absurdly affordable* conference for students and postdocs, and *downright affordable* for everyone else.
 
 <table>
@@ -83,4 +83,4 @@ If you need a visa to travel to the United States for the conference, please fol
 
 Please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa) if you have any questions or special requests.
 
-<slot name="/events/gcc2012/ask-the-organizers" />
+<Insert name="/events/gcc2012/ask-the-organizers" />

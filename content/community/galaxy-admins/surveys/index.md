@@ -1,6 +1,6 @@
 <div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-<slot name="/community/galaxy-admins/linkbox" />
+<Insert name="/community/galaxy-admins/linkbox" />
 
 Two surveys of the Galaxy developer/deployer/administrator community have been done:
 

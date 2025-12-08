@@ -2,9 +2,9 @@
 title: "Birds of a Feather (BoF) Flock Together at GCC2015"
 ---
 
-<slot name="/events/gcc2015/header" />
+<Insert name="/events/gcc2015/header" />
 
-<slot name="/events/gcc2015/linkbox" />
+<Insert name="/events/gcc2015/linkbox" />
 
 <div class='left'><img src="/images/logos/GCC2015BoFs300.png" alt="" width="200" /></div>
 

@@ -11,7 +11,7 @@ title: "Galaxy Community for Research in AI, Statistics, and Prediction"
 </div>
 
 <div style="float: right; margin-left: 30px; margin-bottom: 20px;">
-  <slot name="/community/sig/common_linkbox" />
+  <Insert name="/community/sig/common_linkbox" />
 </div>
 
 # Welcome to **GRASP – Galaxy for Research in AI, Statistics, and Prediction!**  

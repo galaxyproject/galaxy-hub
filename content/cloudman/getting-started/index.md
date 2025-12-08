@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Galaxy on the Cloud
 ---
-<slot name="/cloudman/linkbox-horizontal" />
+<Insert name="/cloudman/linkbox-horizontal" />
 
 This getting started guide will guide you through creating their own
 *Galaxy on the Cloud* instance. It takes about 10 minutes to complete. There is

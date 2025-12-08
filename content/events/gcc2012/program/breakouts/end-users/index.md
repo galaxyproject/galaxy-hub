@@ -1,13 +1,13 @@
 ---
 title: Galaxy End Users
 ---
-<slot name="/events/gcc2012/page-header" />
+<Insert name="/events/gcc2012/page-header" />
 
 
 
 **A [GCC22012](/events/gcc2012/) [Breakout Session](/events/gcc2012/program/breakouts/)**
 
-<slot name="/events/gcc2012/linkbox" />
+<Insert name="/events/gcc2012/linkbox" />
 # Participants
 
 * Jane Dorweiler

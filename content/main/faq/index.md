@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions about Main
 ---
-<slot name="/faqs/linkbox" />
+<Insert name="/faqs/linkbox" />
 
 
 

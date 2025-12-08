@@ -1,6 +1,6 @@
 ---
 ---
-<slot name="/events/gcc2013/header" />
+<Insert name="/events/gcc2013/header" />
 
 import linkbox from "../../linkbox.json"
 <link-box :data="linkbox" />
@@ -918,4 +918,4 @@ happens some amount of core changes need to take place to make this as easy and 
 * BioBlend and Blend4j (links are at the top of this page) can make your API scripting easier.
 * Thanks for coming!
 
-<slot name="/events/gcc2013/footer" />
+<Insert name="/events/gcc2013/footer" />

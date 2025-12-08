@@ -2,7 +2,7 @@
 title: "GCC2019 Venue: Freiburg Germany"
 ---
 
-<slot name="/events/gcc2019/header" />
+<Insert name="/events/gcc2019/header" />
 
 [<img class="float-right" style="max-width: 200px" src="/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany"  />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
 </div>

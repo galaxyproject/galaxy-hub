@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2024/header" />
+<Insert name="/events/gcc2024/header" />
 
 
 # Code of Conduct

@@ -2,11 +2,11 @@
 title: Tool Development from bright idea to toolshed - Data Managers
 ---
 
-<slot name="/events/gcc2014/header" />
+<Insert name="/events/gcc2014/header" />
 
 <br /><br />
 
-<slot name="/events/gcc2014/linkbox" />
+<Insert name="/events/gcc2014/linkbox" />
 
 <div class='right'> <a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
@@ -741,4 +741,4 @@ data_manager_snpeff/tool_dependencies.xml
 ```
 
 
-<slot name="/events/gcc2014/footer" />
+<Insert name="/events/gcc2014/footer" />

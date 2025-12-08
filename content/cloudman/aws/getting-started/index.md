@@ -1,12 +1,12 @@
 ---
 title: Getting Started with Galaxy CloudMan
 ---
-<slot name="/cloudman/header" />
+<Insert name="/cloudman/header" />
 
 ## This is an old and currently outdated guide only kept for historical reasons. Do not use the instructions on this page. Use the new getting started guide available here: https://wiki.galaxyproject.org/CloudMan/GettingStarted
 
 
-<slot name="/cloudman/aws/linkbox" />
+<Insert name="/cloudman/aws/linkbox" />
 
 This page provides a step-by-step instructions on how to start your own instance of Galaxy on [Amazon Web Services (AWS)](http://aws.amazon.com/) [Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). More general information and instructions about Galaxy CloudMan can be found [here](/cloudman/).
 

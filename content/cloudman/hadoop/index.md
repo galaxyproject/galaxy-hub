@@ -1,6 +1,6 @@
-<slot name="/cloudman/header" />
+<Insert name="/cloudman/header" />
 
-<slot name="/cloudman/linkbox-horizontal" />
+<Insert name="/cloudman/linkbox-horizontal" />
 
 This page will provide details on how Hadoop has been integrated into CloudMan. Examples on how to use Hadoop through CloudMan will be provided for the enduser.
 

@@ -2,7 +2,7 @@
 title: Promotion and Outreach
 ---
 
-<slot name="/events/gcc2013/header" />
+<Insert name="/events/gcc2013/header" />
 
 import linkbox from "../linkbox.json"
 <link-box :data="linkbox" />

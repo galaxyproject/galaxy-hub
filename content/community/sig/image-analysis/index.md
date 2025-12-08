@@ -4,7 +4,7 @@ autotoc: true
 title: "Image Analysis Community in Galaxy"
 ---
 
-<slot name="/community/sig/common_linkbox" />
+<Insert name="/community/sig/common_linkbox" />
 
 
 Welcome to the Image Analysis Community in Galaxy!

@@ -4,7 +4,7 @@ autotoc: true
 title: "Galaxy <> Community of Practice"
 ---
 
-<slot name="/community/sig/common_linkbox" />
+<Insert name="/community/sig/common_linkbox" />
 
 We are a mix of users, developers, and trainers providing feedback and energy to improve and expand the <>. Do you use Galaxy <>? Do you have feedback for us? Want to be a tester of new resources? Want to impact the future of <> in Galaxy? Are you a developer looking for a place to play? Are you developing Galaxy <> materials and want to stay aware of what others are doing in this field?
 

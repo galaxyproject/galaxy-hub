@@ -2,7 +2,7 @@
 
 <br />
 
-<slot name="/community/galaxy-admins/linkbox" />
+<Insert name="/community/galaxy-admins/linkbox" />
 
 <div class='center'>**Note:** Next [GalaxyAdmins](/community/galaxy-admins/meetups/) Meetup: [January 16](/community/galaxy-admins/meetups/2013-01-16/) <br /> John Chilton on Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan</div>
 

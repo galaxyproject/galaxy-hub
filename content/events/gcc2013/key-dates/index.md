@@ -2,7 +2,7 @@
 title: Key Dates
 ---
 
-<slot name="/events/gcc2013/header" />
+<Insert name="/events/gcc2013/header" />
 
 import linkbox from "../linkbox.json"
 <link-box :data="linkbox" />
@@ -115,4 +115,4 @@ A few other events of interest to many participants are also happening either ve
  **[Software Carpentry Boot Camp](http://bit.ly/14EmcSA)**, July 3-4, University of Oslo, Oslo, Norway
    [Software Carpentry Boot Camps](http://software-carpentry.org/boot-camps/) are  example-driven workshops on basic computing skills. Short tutorials alternate with hands-on practical exercises, and participants are encouraged both to help one another, and to try applying what they have learned to their own research problems during and between sessions.
 
-<slot name="/events/gcc2013/footer" />
+<Insert name="/events/gcc2013/footer" />

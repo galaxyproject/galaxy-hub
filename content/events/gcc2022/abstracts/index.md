@@ -1,4 +1,4 @@
-<slot name="/events/gcc2022/header" />
+<Insert name="/events/gcc2022/header" />
 
 # GCC2022 Abstracts
 

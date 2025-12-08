@@ -41,7 +41,7 @@ The site also has dynamically generated pages like [galaxyproject.org/news/](/ne
 #### Repeated static content blocks
 
 There are several pages on this site dedicated to [GCC 2019](/events/gcc2019/). And they all share a common header. This is true of many groups of pages that share a common element. In the old Hub, you would write that element in a Markdown file in a separate `partials/` directory. Then you'd insert it into each page with custom syntax we devised (like `{{> Events/GCC2019/Header }}`). But in the new Hub, you just keep the Markdown file in the same `content/` directory as everything else. For example, this header now lives at `content/events/gcc2019/header.md`, right next to the main GCC 2019 page. And now the syntax for inserting it is with the standards-based Vue element `<slot>`. In this case:  
-`<slot name="/events/gcc2019/header" />`.
+`<Insert name="/events/gcc2019/header" />`.
 
 <div class="clearfix"></div>
 <div class="img-resizer trim-p right" style="width: 500px; margin: 0 0 2em 1em; border: 1px solid #212529">

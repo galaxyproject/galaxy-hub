@@ -3,7 +3,7 @@ title: Galaxy Executive Board (GEB)
 autotoc: false
 ---
 
-<slot name="/community/governance/linkbox" />
+<Insert name="/community/governance/linkbox" />
 
 **Keywords:** Strategic emphasis, long-term planning and direction
 
@@ -18,7 +18,7 @@ These activities are executed in partnership with:
 
 # Mission Statement
 
- <slot name="/community/governance/geb/linkbox2" />
+ <Insert name="/community/governance/geb/linkbox2" />
 
 # Responsibilities
 

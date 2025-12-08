@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions for CloudMan
 ---
-<slot name="/cloudman/linkbox-horizontal" />
+<Insert name="/cloudman/linkbox-horizontal" />
 
 See [Learn/FAQ](/learn/faq/) for questions about using any Galaxy instance and [CloudMan](/cloudman/) page for general information about CloudMan.
 

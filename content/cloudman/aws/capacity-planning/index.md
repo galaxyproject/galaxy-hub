@@ -1,7 +1,7 @@
 ---
 title: Capacity Planning
 ---
-<slot name="/cloudman/linkbox-horizontal" />
+<Insert name="/cloudman/linkbox-horizontal" />
 
 <table>
   <tr>
@@ -13,7 +13,7 @@ title: Capacity Planning
 
 This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/cloudman/aws/).  See the [general capacity planning page](/cloudman/capacity-planning/) for advice that applies across different cloud infrastructures.
 
-<slot name="/cloudman/aws/linkbox" />
+<Insert name="/cloudman/aws/linkbox" />
 
 
 # Amazon Web Services

@@ -1,7 +1,7 @@
 ---
 title: Sponsorships
 ---
-<slot name="/events/gcc2013/header" />
+<Insert name="/events/gcc2013/header" />
 
 import linkbox from "../linkbox.json"
 <link-box :data="linkbox" />
@@ -139,4 +139,4 @@ Sponsorships are available at four different levels.
 
 
 
-<slot name="/events/gcc2013/footer" />
+<Insert name="/events/gcc2013/footer" />

@@ -2,7 +2,7 @@
 pretitle: "[Back to Advanced Workflow](/learn/advanced-workflow/)"
 title: Workflows as Custom Tools
 ---
-<slot name="/learn/linkbox" />
+<Insert name="/learn/linkbox" />
 
 <br />
 

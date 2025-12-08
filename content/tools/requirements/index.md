@@ -2,7 +2,7 @@
 title: Tool Requirements
 ---
 
-<slot name="/admin/tools/linkbox" />
+<Insert name="/admin/tools/linkbox" />
 
 A Galaxy tool can require other pieces of software in order to do its job. This does not mean that you as the Galaxy user need to do something.
 

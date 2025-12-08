@@ -1,4 +1,4 @@
-<slot name="/events/gcc2019/header" />
+<Insert name="/events/gcc2019/header" />
 
 # GCC 2019 Code of Conduct
 

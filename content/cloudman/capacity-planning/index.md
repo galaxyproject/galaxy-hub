@@ -1,9 +1,9 @@
 ---
 title: Capacity Planning
 ---
-<slot name="/cloudman/header" />
+<Insert name="/cloudman/header" />
 
-<slot name="/cloudman/linkbox-horizontal" />
+<Insert name="/cloudman/linkbox-horizontal" />
 
 This page offers advice on how much cloud infrastructure you will need to run your Galaxy instance.  This of course depends on the magnitude of your data, what type of analysis you are doing, and how consistent you expect your load to be.  Since these will be different for everyone, this page does not offer hard and fast rules, but rather guidelines to help you along.  Fortunately, due to the *elastic* nature of CloudMan, configuration can be fairly forgiving.
 

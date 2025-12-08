@@ -1,4 +1,4 @@
-<slot name="/events/gcc2013/header" />
+<Insert name="/events/gcc2013/header" />
 
 import linkbox from "../linkbox.json"
 <link-box :data="linkbox" />
@@ -463,4 +463,4 @@ There is no better place than a Galaxy Community Conference to meet and learn fr
 
 If you have an idea for a BoF, then you are *[strongly encouraged to start one](/events/gcc2013/bof/#want-to-plan-a-bof).*
 
-<slot name="/events/gcc2013/footer" />
+<Insert name="/events/gcc2013/footer" />

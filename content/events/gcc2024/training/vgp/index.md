@@ -2,7 +2,7 @@
 autotoc: true
 ---
 
-<slot name="/events/gcc2024/header" />
+<Insert name="/events/gcc2024/header" />
 <div class="text-center">
 
 # Genome Assembly with VGP Workflows

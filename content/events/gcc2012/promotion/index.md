@@ -1,6 +1,6 @@
-<slot name="/events/gcc2012/page-header" />
+<Insert name="/events/gcc2012/page-header" />
 
-<slot name="/events/gcc2012/linkbox" />
+<Insert name="/events/gcc2012/linkbox" />
 
 Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/promotion//).  A [flier](/events/gcc2012/promotion/#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 

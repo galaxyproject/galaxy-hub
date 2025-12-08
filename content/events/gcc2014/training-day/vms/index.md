@@ -1,12 +1,12 @@
 ---
 title: Training Day Virtual Machine Images
 ---
-<slot name="/events/gcc2014/header" />
+<Insert name="/events/gcc2014/header" />
 <br /><br />
 
 
 
-<slot name="/events/gcc2014/linkbox" />
+<Insert name="/events/gcc2014/linkbox" />
 
 <div class='left'><a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day"  /></a></div>
 
@@ -59,4 +59,4 @@ The VM(s) to download depend on the workshops you are attending:
 The VM is now installed.
 
 
-<slot name="/events/gcc2014/footer" />
+<Insert name="/events/gcc2014/footer" />

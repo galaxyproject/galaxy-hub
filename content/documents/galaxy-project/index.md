@@ -1,4 +1,4 @@
-<slot name="/documents/linkbox" />
+<Insert name="/documents/linkbox" />
 
 Documents about the [Galaxy Project](/galaxy-project/).
 

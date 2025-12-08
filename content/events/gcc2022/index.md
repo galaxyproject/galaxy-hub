@@ -6,7 +6,7 @@ components: true
 subsites: [all]
 ---
 
-<slot name="/events/gcc2022/header" />
+<Insert name="/events/gcc2022/header" />
 
 <!-- currently unused, but it will be eventually, and this tells partitioner to put it in the right spot -->
 <!-- import links from "./links.json" -->

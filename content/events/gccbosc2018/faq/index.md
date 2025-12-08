@@ -1,4 +1,4 @@
-<slot name="/events/gccbosc2018/header" />
+<Insert name="/events/gccbosc2018/header" />
 
 # Frequently Asked Questions (FAQs) about GCCBOSC 2018
 

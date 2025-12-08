@@ -1,7 +1,7 @@
 ---
 title: Logistics
 ---
-<slot name="/events/gcc2014/header" />
+<Insert name="/events/gcc2014/header" />
 
 <br /><br />
 
@@ -11,7 +11,7 @@ title: Logistics
 
 Details on conference location, lodging options and transportation.
 
-<slot name="/events/gcc2014/linkbox" />
+<Insert name="/events/gcc2014/linkbox" />
 
 
 <div class='right'>
@@ -156,4 +156,4 @@ A [block of rooms have been reserved at the Inn at The Colonnade Baltimore](http
 * [125+ other attractions](http://baltimore.org/attractions/)
 * *Add your favorite here*
 
-<slot name="/events/gcc2014/footer" />
+<Insert name="/events/gcc2014/footer" />

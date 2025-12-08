@@ -2,9 +2,9 @@
 title: GCC2012 Photos
 ---
 
-<slot name="/events/gcc2012/page-header" />
+<Insert name="/events/gcc2012/page-header" />
 
-<slot name="/events/gcc2012/linkbox" />
+<Insert name="/events/gcc2012/linkbox" />
 
 
 If you have some you would like to have posted here, please send them to outreach@galaxyproject.org.

@@ -333,5 +333,5 @@ in Galaxy until you free up space and are again under 250 GB.
     * Popular examples are Owncloud, Nextcloud, Dropbox or FTP.
     * You can add repositories at https://usegalaxy.eu/file_source_instances/
 
-<slot name="/eu/common/data-policy" />
+<Insert name="/eu/common/data-policy" />
 

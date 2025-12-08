@@ -1,6 +1,6 @@
-<slot name="/admin/linkbox" />
-<slot name="/develop/linkbox" />
-<slot name="/faqs/linkbox" />
+<Insert name="/admin/linkbox" />
+<Insert name="/develop/linkbox" />
+<Insert name="/faqs/linkbox" />
 
 # Galaxy Data
 

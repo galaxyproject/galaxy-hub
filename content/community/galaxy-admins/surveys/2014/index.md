@@ -2,7 +2,7 @@
 ---
 <div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-<slot name="/community/galaxy-admins/linkbox" />
+<Insert name="/community/galaxy-admins/linkbox" />
 
 Two community-wide questionnaires were run in the fall of 2014.  One asked *Galaxy users* about their experience, while the other focused on *Galaxy Admins, developers, and Tool Authors.*  The *Admin* questionnaire is summarized below.
 

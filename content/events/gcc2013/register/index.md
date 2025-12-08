@@ -1,7 +1,7 @@
 ---
 title: Registration
 ---
-<slot name="/events/gcc2013/header" />
+<Insert name="/events/gcc2013/header" />
 
 import linkbox from "../linkbox.json"
 <link-box :data="linkbox" />
@@ -175,4 +175,4 @@ Interested in the [Training Day](/events/gcc2013/training-day/), but not the mai
 
 See [Key Dates](/events/gcc2013/key-dates/) for a full timeline.
 
-<slot name="/events/gcc2013/footer" />
+<Insert name="/events/gcc2013/footer" />

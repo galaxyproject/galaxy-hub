@@ -1,4 +1,4 @@
-<slot name="/events/gcc2019/header" />
+<Insert name="/events/gcc2019/header" />
 
 GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).  The event is organized by members of the host organizations and the larger Galaxy Community.
 

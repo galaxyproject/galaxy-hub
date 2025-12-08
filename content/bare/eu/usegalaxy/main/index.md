@@ -2,7 +2,7 @@
 title: Galaxy Europe
 ---
 
-<slot name="/bare/eu/usegalaxy/notices" />
+<Insert name="/bare/eu/usegalaxy/notices" />
 
 <Carousel />
 
@@ -21,13 +21,13 @@ title: Galaxy Europe
 
 <p></p>
 
-<slot name="/eu/main1" />
-<slot name="/eu/main2" />
+<Insert name="/eu/main1" />
+<Insert name="/eu/main2" />
 
-<slot name="/eu/common/data-policy" />
+<Insert name="/eu/common/data-policy" />
 
 <p></p>
 
 <footer>
-<slot name="/eu/site-footer" />
+<Insert name="/eu/site-footer" />
 </footer>

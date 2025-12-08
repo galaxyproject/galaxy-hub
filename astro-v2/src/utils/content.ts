@@ -115,24 +115,32 @@ export async function getPlatformsByScope(scope: string): Promise<PlatformEntry[
   return platforms.filter(p => p.data.scope === scope);
 }
 
-/**
- * Get an insert by its slug/path
- */
-export async function getInsert(slug: string): Promise<InsertEntry | undefined> {
-  const inserts = await getCollection('inserts');
+// Cache for insert lookups - loaded once per build
+let insertCache: Map<string, InsertEntry> | null = null;
 
-  // Normalize slug (handle different path formats)
-  const normalizedSlug = slug
+function normalizeSlug(slug: string): string {
+  return slug
     .replace(/^\/insert:\//, '')
     .replace(/^\//, '')
     .replace(/\/$/, '');
+}
 
-  return inserts.find(insert => {
-    const insertSlug = insert.data.slug
-      .replace(/^\//, '')
-      .replace(/\/$/, '');
-    return insertSlug === normalizedSlug;
-  });
+/**
+ * Get an insert by its slug/path
+ * Uses caching to avoid repeated collection queries during build
+ */
+export async function getInsert(slug: string): Promise<InsertEntry | undefined> {
+  // Build cache on first call
+  if (!insertCache) {
+    const inserts = await getCollection('inserts');
+    insertCache = new Map();
+    for (const insert of inserts) {
+      const key = normalizeSlug(insert.data.slug);
+      insertCache.set(key, insert);
+    }
+  }
+
+  return insertCache.get(normalizeSlug(slug));
 }
 
 /**

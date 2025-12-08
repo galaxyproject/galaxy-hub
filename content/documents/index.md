@@ -1,4 +1,4 @@
-<slot name="/documents/linkbox" />
+<Insert name="/documents/linkbox" />
 
 Common page structure for attached documents that are likely to be linked to from more than one page.  See also [Images](/images/).
 

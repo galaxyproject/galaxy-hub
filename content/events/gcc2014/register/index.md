@@ -1,7 +1,7 @@
 ---
 title: Register
 ---
-<slot name="/events/gcc2014/header" />
+<Insert name="/events/gcc2014/header" />
 
 <br /><br />
 
@@ -9,7 +9,7 @@ title: Register
 **Note:** Total registrations are capped at 250 participants and we expect to hit that registration cap. *Early registration is strongly encouraged.*
 </div>
 
-<slot name="/events/gcc2014/linkbox" />
+<Insert name="/events/gcc2014/linkbox" />
 
 
 
@@ -166,4 +166,4 @@ Interested in only the conference?  Conference-only registration includes admiss
 
 See the [Key Dates page](/events/gcc2014/key-dates/) for a full timeline.
 
-<slot name="/events/gcc2014/footer" />
+<Insert name="/events/gcc2014/footer" />

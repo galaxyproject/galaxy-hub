@@ -1,4 +1,4 @@
-<slot name="/events/gcc2022/header" />
+<Insert name="/events/gcc2022/header" />
 
 GCC2022 features [separate Training Day, Meeting, and CoFest
 events](/events/gcc2022/schedule/), which can be registered for separately or

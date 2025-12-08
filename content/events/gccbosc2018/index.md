@@ -1,4 +1,4 @@
-<slot name="/events/gccbosc2018/header" />
+<Insert name="/events/gccbosc2018/header" />
 
 The 2018 Galaxy Community Conference (GCC2018) and Bioinformatics Open Source Conference 2018 (BOSC2018) [joined together for a unified event (GCCBOSC 2018)](https://gccbosc2018.sched.com) held in Portland, Oregon, United States, June 25-30, 2018.  The event featured [two days of training](https://gccbosc2018.sched.com/overview/type/A.+Training), a two day meeting, and finished with [two (or four) days of intense collaboration at the GCC OBF CollaborationFest](https://gccbosc2018.sched.com/overview/type/C.+CollaborationFest).  The meeting featured joint and parallel sessions, and [shared keynotes](/events/gccbosc2018/keynotes/), poster and demo sessions, and social events.  Colocating GCC and BOSC brought together the widest possible community of bioinformatics developers and practitioners into a single place.
 

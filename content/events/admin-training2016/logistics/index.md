@@ -2,11 +2,11 @@
 title: Galaxy Admin Training Logistics
 ---
 
-<slot name="/events/admin-training2016/header" />
+<Insert name="/events/admin-training2016/header" />
 
 <div class='right'>
 
-<slot name="/events/admin-training2016/linkbox" />
+<Insert name="/events/admin-training2016/linkbox" />
 
 </div>
 
@@ -115,4 +115,4 @@ The **[Advanced Session](/events/admin-training2016/advanced-session/)** will be
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 
-<slot name="/events/admin-training2016/footer" />
+<Insert name="/events/admin-training2016/footer" />

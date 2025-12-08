@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2024/header" />
+<Insert name="/events/gcc2024/header" />
 
 # Logistical details for talks, posters, and demos
 

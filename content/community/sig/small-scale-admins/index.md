@@ -4,7 +4,7 @@ autotoc: true
 title: "Small scale Galaxy Admins Community of Practice"
 ---
 
-<slot name="/community/sig/common_linkbox" />
+<Insert name="/community/sig/common_linkbox" />
 
 # Who are we?
 

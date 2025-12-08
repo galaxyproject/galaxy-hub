@@ -1,9 +1,9 @@
 ---
 title: Key Dates
 ---
-<slot name="/events/gcc2012/page-header" />
+<Insert name="/events/gcc2012/page-header" />
 
-<slot name="/events/gcc2012/linkbox" />
+<Insert name="/events/gcc2012/linkbox" />
 
 <table>
   <tr class="th" >
@@ -75,4 +75,4 @@ title: Key Dates
 
 
 
-<slot name="/events/gcc2012/ask-the-organizers" />
+<Insert name="/events/gcc2012/ask-the-organizers" />

@@ -1,6 +1,6 @@
 # The Galaxy Governance Model
 
-<slot name="/community/governance/linkbox" />
+<Insert name="/community/governance/linkbox" />
 
 [Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Evolving project governance structures are needed to help adapt to increasing complexity and to more fully engage the Galaxy Community.
 

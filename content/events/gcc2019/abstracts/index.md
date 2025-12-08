@@ -1,4 +1,4 @@
-<slot name="/events/gcc2019/header" />
+<Insert name="/events/gcc2019/header" />
 
 Doing work in data-intensive science?  There is no better place than GCC2019 to present your work and to learn from others.
 

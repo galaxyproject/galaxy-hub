@@ -1,7 +1,7 @@
 ---
 /**
- * Insert component for embedding content snippets
- * Used in MDX files via <Insert name="/path/to/insert" />
+ * Insert component
+ * Renders content from an insert at the given path
  */
 import { getInsert } from '../utils/content';
 import { render } from 'astro:content';
@@ -23,11 +23,11 @@ if (insert) {
 ---
 
 {InsertContent ? (
-  <div class="insert" data-insert={name}>
+  <div class="insert" data-name={name}>
     <InsertContent />
   </div>
 ) : (
-  <div class="insert insert-missing text-amber-600 bg-amber-50 p-2 rounded border border-amber-200 text-sm" data-insert={name}>
-    Insert not found: {name}
+  <div class="insert insert-missing text-amber-600 bg-amber-50 p-2 rounded border border-amber-200" data-name={name}>
+    <em>Insert not found: {name}</em>
   </div>
 )}

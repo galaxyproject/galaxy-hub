@@ -25,7 +25,7 @@ const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 
 // Vue components that indicate a file needs special processing
 const VUE_COMPONENTS = [
-  'slot',
+  'insert',
   'g-image',
   'g-link',
   'link-box',
@@ -140,7 +140,7 @@ function needsVueProcessing(content, frontmatter, filePath = '') {
     'supporters',     // Custom lists
     'contacts',
     'markdown-embed',
-    'slot',           // Content insertion (will be converted to InsertSlot)
+    'Insert',         // Content insertion component
   ];
 
   for (const component of SAFE_COMPONENTS) {
@@ -269,14 +269,6 @@ function convertGridsomeSyntax(content) {
   // Replace g-image with regular images
   processed = processed.replace(/<g-image/g, '<img');
   processed = processed.replace(/<\/g-image>/g, '');
-
-  // Convert <slot name="/path" /> to <InsertSlot name="/path" />
-  // This enables content insertion via the InsertSlot MDX component
-  // Handle both self-closing <slot ... /> and paired <slot ...></slot>
-  processed = processed.replace(/<slot\s+name=/gi, '<InsertSlot name=');
-  processed = processed.replace(/<\/slot>/gi, '</InsertSlot>');
-  // Make sure slot tags are self-closing if they aren't already
-  processed = processed.replace(/<InsertSlot([^>]*[^/])>/g, '<InsertSlot$1 />');
 
   return processed;
 }
@@ -435,8 +427,7 @@ async function processMarkdownFile(filePath) {
   processedContent = processImagePaths(processedContent, slug);
 
   // Skip remark processing for files with HTML that remark would mangle
-  // (divs, slots, tables, etc.)
-  const hasHtmlContent = /<(div|slot|table|span)[\s>]/i.test(processedContent);
+  const hasHtmlContent = /<(div|table|span)[\s>]/i.test(processedContent);
   if (!hasHtmlContent) {
     processedContent = await processMarkdown(processedContent, {
       addToc: frontmatter.autotoc === true,

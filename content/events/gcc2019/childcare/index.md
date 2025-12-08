@@ -2,7 +2,7 @@
 title: "Childcare at GCC2019"
 ---
 
-<slot name="/events/gcc2019/header" />
+<Insert name="/events/gcc2019/header" />
 
 **Childcare will be offered at GCC2019!**
 

@@ -13,7 +13,7 @@ import MarkdownEmbed from '../../components/mdx/MarkdownEmbed.astro';
 import Flickr from '../../components/mdx/Flickr.astro';
 import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
-import InsertSlot from '../../components/mdx/InsertSlot.astro';
+import Insert from '../../components/mdx/Insert.astro';
 
 export async function getStaticPaths() {
   const events = await getCollection('events');
@@ -45,7 +45,7 @@ const components = {
   Flickr,
   Supporters,
   Contacts,
-  InsertSlot,
+  Insert,
 };
 
 function toDate(d: Date | string | undefined): Date | null {

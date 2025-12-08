@@ -1,9 +1,9 @@
 ---
 title: "Galaxy Admin Training: Advanced Topics"
 ---
-<slot name="/events/admin-training2016/header" />
+<Insert name="/events/admin-training2016/header" />
 
-<slot name="/events/admin-training2016/linkbox" />
+<Insert name="/events/admin-training2016/linkbox" />
 
 
 
@@ -269,4 +269,4 @@ The **advanced session will be held at the [Commanders House](http://www.univers
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 
-<slot name="/events/admin-training2016/footer" />
+<Insert name="/events/admin-training2016/footer" />

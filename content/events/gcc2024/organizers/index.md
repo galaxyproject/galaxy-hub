@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2024/header" />
+<Insert name="/events/gcc2024/header" />
 
 GCC2024 is a community effort from planning to post conference publishing and
 feedback.  In addition to all the participants, presenters, and instructors,

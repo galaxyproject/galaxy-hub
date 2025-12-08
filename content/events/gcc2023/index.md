@@ -17,7 +17,7 @@ tags: ["cofest", "workshop", "training", "talk", "poster"]
 subsites: [all]
 ---
 
-<slot name="/events/gcc2023/header" />
+<Insert name="/events/gcc2023/header" />
 
 <div class="text-center my-5">
 

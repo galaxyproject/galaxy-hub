@@ -5,7 +5,7 @@ pretitle: |
 title: "Basic Workflow Editing: Workflow Editor View Unannotated"
 ---
 
-<slot name="/learn/linkbox" />
+<Insert name="/learn/linkbox" />
 
 An example view of the workflow editor without annotation.
 

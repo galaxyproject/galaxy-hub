@@ -4,7 +4,7 @@ autotoc: false
 title: "Galaxy Genome Annotation Community of Practice"
 ---
 
-<slot name="/community/sig/common_linkbox" />
+<Insert name="/community/sig/common_linkbox" />
 
 <img class="img-fluid float-right" src="/images/logos/gga-logo.png" style="width:200px;" alt="Logo for Galaxy Genome Annotation community. The 3 capital letters in different colors."/>
 

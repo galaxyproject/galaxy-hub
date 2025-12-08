@@ -3,7 +3,7 @@ title: Special Interest Groups (SIG)
 autotoc: false
 ---
 
-<slot name="/community/sig/common_linkbox" />
+<Insert name="/community/sig/common_linkbox" />
 
 Active Galaxy communities are encouraged to participate in (or form) their own SIG, with a focus on specific shared interests. You can learn more in our dedicated tutorial: [What's a SIG?](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html)
 

@@ -1,8 +1,8 @@
 ---
 ---
-<slot name="/events/gcc2014/header" />
+<Insert name="/events/gcc2014/header" />
 
-<slot name="/events/gcc2014/linkbox" />
+<Insert name="/events/gcc2014/linkbox" />
 
 If you have some you would like to have posted here, please send them to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  To see a larger version of any picture, right click it.
 

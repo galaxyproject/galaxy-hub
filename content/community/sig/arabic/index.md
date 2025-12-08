@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<slot name="/community/sig/common_linkbox" />
+<Insert name="/community/sig/common_linkbox" />
 
 <div class="left">
 

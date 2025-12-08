@@ -2,7 +2,7 @@
 title: GCC2013 Training Day
 ---
 
-<slot name="/events/gcc2013/header" />
+<Insert name="/events/gcc2013/header" />
 
 import linkbox from "../../linkbox.json"
 <link-box :data="linkbox" />
@@ -362,4 +362,4 @@ grep sanitizer tools
 
 1. If you figure something out that was not sufficiently clear (or worse, completely wrong!) in the tool syntax documentation, please contribute it! Send your suggested clarifications to the galaxy-dev list and we'll make sure it gets added. We need all the help we can get to make the documentation better so every little bit you can provide will help the whole community.
 
-<slot name="/events/gcc2013/footer" />
+<Insert name="/events/gcc2013/footer" />

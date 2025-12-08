@@ -4,7 +4,7 @@ autotoc: false
 ---
 <div class='center'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="" width="240" /></div>
 
-<slot name="/community/galaxy-admins/linkbox" />
+<Insert name="/community/galaxy-admins/linkbox" />
 
 *Galaxy-Admins* was a discussion group for Galaxy community members who are responsible for Galaxy installations.  
 

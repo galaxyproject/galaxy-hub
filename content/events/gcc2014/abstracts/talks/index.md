@@ -1,9 +1,9 @@
 ---
 title: GCC2014 Talk Abstracts
 ---
-<slot name="/events/gcc2014/header" />
+<Insert name="/events/gcc2014/header" />
 
-<slot name="/events/gcc2014/linkbox" />
+<Insert name="/events/gcc2014/linkbox" />
 
 
 # Session 1, Tuesday, July 1, 9:15-10:30

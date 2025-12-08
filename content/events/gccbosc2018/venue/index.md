@@ -1,4 +1,4 @@
-<slot name="/events/gccbosc2018/header" />
+<Insert name="/events/gccbosc2018/header" />
 
 <br />
 

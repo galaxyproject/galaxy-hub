@@ -1,9 +1,9 @@
 ---
 title:  1st German Galaxy Developer workshop, Thursday, October 2nd, Freiburg 
 ---
-<slot name="/events/sg2014/header" />
+<Insert name="/events/sg2014/header" />
 
-<slot name="/events/sg2014/linkbox" />
+<Insert name="/events/sg2014/linkbox" />
 
 
 
