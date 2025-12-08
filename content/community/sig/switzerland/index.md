@@ -3,7 +3,7 @@ title: "Galaxy community in Switzerland"
 autotoc: false
 ---
 
-Only few people have access to a local (aka Swiss based) galaxy server in Switzerland. Nevertheless, the usage of usegalaxy.eu by people registering with a "*.ch" mail address is huge (~870 registrations as of September 2025). The aim of this community is to make things easier for any people in Switzerland wishing to contact other Swiss people.
+Only few people have access to a local (aka Swiss based) galaxy server in Switzerland. Nevertheless, the usage of usegalaxy.eu by people registering with a "*.ch" mail address is huge (~950 registrations as of December 2025). The aim of this community is to make things easier for any people in Switzerland wishing to contact other Swiss people.
 
 At this stage, we just have a [mailing list](https://lists.galaxyproject.org/lists/galaxy-switzerland@lists.galaxyproject.org), feel free to subscribe if you are using galaxy in Switzerland or write to us.
 
