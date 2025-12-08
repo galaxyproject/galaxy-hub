@@ -19,7 +19,7 @@ keynote talk to maximize their attendance.
 <div class="container">
     <div class="row">
         <div class="col center">
-          <a href="/images/events/gcc2026/GCC2026 Sponsorship Prospectus.pdf">
+          <a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing">
             <div type="button" class="btn btn-primary center">
                 <strong>Download sponsorship prospectus</strong>
             </div>
