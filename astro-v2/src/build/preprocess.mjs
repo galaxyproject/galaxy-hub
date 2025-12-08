@@ -108,15 +108,9 @@ function hasProblematicHtml(content) {
  * Only use MDX for files that explicitly opt-in OR have specific safe component patterns
  */
 function needsVueProcessing(content, frontmatter, filePath = '') {
-  // Skip MDX for directories with widespread broken HTML or complex patterns
-  // These directories have legacy content that can't be safely converted to MDX:
-  // - cloudman/: malformed HTML tags like <row>
-  // - community/: complex HTML structures, nested divs
-  // - events/: divs with markdown, tables, HTML comments
-  // - news/: similar HTML issues
-  // - bare/: complex component usage requiring full Vue component suite
-  // Note: InsertSlot/slot tags won't work in these directories until content is cleaned up
-  const SKIP_MDX_DIRS = ['events/', 'news/', 'bare/'];
+  // Skip MDX for directories with complex Vue component patterns
+  // bare/: heavy use of slot and Vue-specific syntax requiring full Vue processing
+  const SKIP_MDX_DIRS = ['bare/'];
   for (const dir of SKIP_MDX_DIRS) {
     if (filePath.includes(dir)) {
       return false;
@@ -440,10 +434,15 @@ async function processMarkdownFile(filePath) {
   processedContent = convertGridsomeSyntax(processedContent);
   processedContent = processImagePaths(processedContent, slug);
 
-  processedContent = await processMarkdown(processedContent, {
-    addToc: frontmatter.autotoc === true,
-    fixLinks: true
-  });
+  // Skip remark processing for files with HTML that remark would mangle
+  // (divs, slots, tables, etc.)
+  const hasHtmlContent = /<(div|slot|table|span)[\s>]/i.test(processedContent);
+  if (!hasHtmlContent) {
+    processedContent = await processMarkdown(processedContent, {
+      addToc: frontmatter.autotoc === true,
+      fixLinks: true
+    });
+  }
 
   // Convert Vue bindings/HTML to JSX for MDX files (AFTER markdown processing
   // to avoid remark escaping asterisks in JSX comments)
