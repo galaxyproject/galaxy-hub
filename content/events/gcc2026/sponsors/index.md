@@ -68,6 +68,8 @@ GCC2026 will be hosted by **Université Clermont Auvergne (UCA)**, featuring:
 ## Ready to Partner with Us?
 
 **Contact the GCC2026 Organizing Committee:**
-Email: [gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org)
+Email: 
+- [gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org)
+- [Jenn Vessio](mailto:jvessio1@jhu.edu)
 
 *Flexible sponsorship tiers available for organizations of all sizes.*
