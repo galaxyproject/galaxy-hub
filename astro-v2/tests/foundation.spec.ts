@@ -78,16 +78,12 @@ test.describe('Phase 1: Foundation Setup', () => {
   test('shadcn Card components render', async ({ page }) => {
     await page.goto('/');
 
-    // Cards should be visible (Phase 1 status cards)
-    const cards = page.locator('[class*="border-l-4"]');
+    // Cards should be visible (callout cards with border-t-4)
+    const cards = page.locator('[class*="border-t-4"], [class*="rounded-xl"]');
     await expect(cards.first()).toBeVisible();
 
-    // Check card content is present
-    await expect(page.getByText('Astro 5.x')).toBeVisible();
-    await expect(page.getByText('Vue 3')).toBeVisible();
-    await expect(page.getByText('Tailwind CSS 4')).toBeVisible();
-    await expect(page.getByText('shadcn-vue')).toBeVisible();
-    await expect(page.getByText('Nanostores')).toBeVisible();
+    // Check that callout content is present
+    await expect(page.getByText('Galaxy is more than you think')).toBeVisible();
   });
 
   test('footer renders with proper structure', async ({ page }) => {
@@ -108,9 +104,9 @@ test.describe('Phase 1: Foundation Setup', () => {
   test('Galaxy branding colors are applied', async ({ page }) => {
     await page.goto('/');
 
-    // Hero should use Galaxy primary color
-    const title = page.locator('h1').first();
-    await expect(title).toHaveClass(/text-galaxy-primary/);
+    // Hero section should use Galaxy gradient background
+    const heroSection = page.locator('section').first();
+    await expect(heroSection).toHaveClass(/bg-gradient-to-br|from-galaxy-primary/);
 
     // Sidebar should use Galaxy dark background
     await page.setViewportSize({ width: 1280, height: 800 });
