@@ -4,7 +4,7 @@ date: "2025-11-27"
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-tease: 'Teaching about galaxy and its workflow capabilities .'
+tease: 'Teaching about galaxy and its workflow capabilities.'
 hide_tease: true
 authors: Lucille Delisle and Hans-Rudolf Hotz
 authors_structured:
