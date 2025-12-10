@@ -8,50 +8,34 @@ autotoc: true
 
 The **Galaxy Community Conference (GCC)** is the flagship event for one of the most impactful open-source platforms in computational biology. By sponsoring GCC2026, you're investing in a global movement democratizing data-intensive research.
 
-## Galaxy's Impact: By the Numbers
+# Our thank you to the sponsors
 
-### Research at Scale
-- **>600,000 registered users** worldwide across public servers
-- **Millions of computational jobs** executed monthly
-- **22,000+ citations** in peer-reviewed literature
-- **Every 1 second** a job completes on Galaxy servers globally
+We make a strong effort to seamlessly integrate sponsors and their events into
+the broader GCC program, as well as promote participant engagement. Furthermore,
+sponsor talks are generally scheduled immediately preceding or following a
+keynote talk to maximize their attendance.
 
-### Training & Community
-- **14,000+ researchers trained** through Galaxy Training Infrastructure
-- **300+ training materials** in the Galaxy Training Network
-- **100+ countries** accessing training resources
-- **Hundreds of events annually** across six continents
 
-### Open Science Leadership
-- **10,000+ integrated analysis tools** accessible without programming
-- **20 years** of sustained development since 2005
-- **Fully open source** with active community governance
-- **Funded by NIH, NSF, and major European research infrastructures**
+<div class="container">
+    <div class="row">
+        <div class="col center">
+          <a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing">
+            <div type="button" class="btn btn-primary center">
+                <strong>Download sponsorship prospectus</strong>
+            </div>
+          </a>
+        </div>
+    </div>
+</div>
 
-## Why GCC2026 Matters
 
-### Direct Access to Decision Makers
+# Benefits of GCC sponsorship
 
-Connect with **Principal Investigators**, **bioinformatics core directors**, **research software engineers**, and **industry scientists** who:
-- Manage the Galaxy project research programs
-- Build and maintain production analysis pipelines
-- Lead computational biology initiatives
-
-### Strategic Value
-
-- **Visibility**: Logo placement, ceremony recognition, social media reach to thousands of community members
-- **Engagement**: Exhibit space, speaking opportunities, networking events, recruitment access
-- **Intelligence**: First-hand exposure to emerging trends, researcher needs, and competitive landscape
-- **Goodwill**: Support open science, reproducible research, and training the next generation
-
-### Innovation Hub
-
-Recent GCC topics include:
-- AI/ML integration and workflow optimization
-- Cloud-native deployment and containerization
-- Clinical diagnostics and precision medicine
-- Large-scale population genomics
-- Multi-omics integration
+- Engage with some of the most active members and advocates of Galaxy's worldwide community
+- Reach out to 100+ PIs, researchers, practitioners, and trainees in data intensive life sciences
+- Help inspire use of Galaxy in other data-intensive fields, with recent examples including climate modeling, ecology, and machine learning
+- Learn about opportunities for placing your services and products in the expanding Galaxy ecosystem
+- Give back to a popular and growing open source community
 
 ## Beyond Life Sciences
 
@@ -84,6 +68,8 @@ GCC2026 will be hosted by **Université Clermont Auvergne (UCA)**, featuring:
 ## Ready to Partner with Us?
 
 **Contact the GCC2026 Organizing Committee:**
-Email: [gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org)
+Email: 
+- [gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org)
+- [Jenn Vessio](mailto:jvessio1@jhu.edu)
 
 *Flexible sponsorship tiers available for organizations of all sizes.*
