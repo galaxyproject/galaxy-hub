@@ -61,11 +61,14 @@ To ensure the community can effectively use these new tools and workflows, we de
 
 #### 5. Interactive Visualization with Vitessce
 
-We integrated Vitessce, a powerful web-based visualization tool, to enable interactive exploration of spatial omics data directly within Galaxy. This integration allows researchers to:
+We integrated easy-vitessce, which streamlines the creation of configuration files for Vitessce, a powerful web-based visualization tool, enabling interactive exploration of single-cell and spatial omics data directly within Galaxy. With easy-vitessce, the existing Galaxy Scanpy and Squidpy plotting tools can produce interactive visualizations without requiring any changes to their inputs.
+This integration allows researchers to:
 - Visualize spatial coordinates and gene expression patterns
 - Interactively explore cell types and tissue organization
 - Create publication-ready figures
 - Share interactive visualizations with collaborators
+
+Additionally, we created conda recipes for Vitessce and easy-vitessce, making them easy to install via conda for Galaxy and other platforms.
 
 #### 6. BioStudies Upload Integration
 
