@@ -210,32 +210,32 @@ const TIER_DEFINITIONS = [
         tier: 2,
         name: "National instances",
         icon: "fas fa-building-columns",
-        description: "For development and testing purposes; may have limited reliability.",
+        description: "Robust services with geographic / regional focus (e.g. Italy, Canada); suitable for production use.",
     },
     {
         tier: 3,
         name: "Subdomains",
         icon: "fas fa-network-wired",
-        description: "Early-stage or experimental services; not recommended for production use.",
+        description: "Instances serving specific specialities or communities; reliability depends on parent domain infrastructure.",
     },
     {
         tier: 4,
         name: "Institutional instances",
         icon: "fas fa-building",
-        description: "Local deployments for specific institutions; may vary in quality and reliability.",
+        description: "Instances hosted by institutions; reliability depends on institutional infrastructure.",
     },
     {
         tier: 5,
         name: "Integrated platforms",
         icon: "fas fa-rocket",
         description:
-            "Platforms that can launch Galaxy (e.g. AnVIL); suitability depends on the underlying infrastructure.",
+            "Platforms that can launch Galaxy (e.g. AnVIL); variable reliability depends on platform infrastructure.",
     },
     {
         tier: 6,
         name: "Development instances for testing",
         icon: "fas fa-flask",
-        description: "For testing and development; not intended for regular use.",
+        description: "For development, testing, or experimental purposes; may have limited reliability and not recommended for production use.",
     },
 ];
 
