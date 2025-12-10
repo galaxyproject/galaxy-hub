@@ -78,6 +78,10 @@ To enhance data sharing and FAIR compliance, we developed functionality for uplo
 - Make spatial omics data publicly accessible
 - Comply with journal and funder data sharing requirements
 
+#### 7. Add Seurat Spatial tools into Galaxy
+
+New functions have been added to the Galaxy Seurat tools to provide greater flexibility for Galaxy users in spatial analysis. The new features, including ImageDimPlots, FeatureDimPlots, and Subset, are currently awaiting review in a [pull request](https://github.com/galaxyproject/tools-iuc/pull/7501). Once merged, these functions will be integrated into the Spatial workflow and included in Galaxy training materials.
+
 ### Impact and Community Engagement
 
 By integrating SpatialData into Galaxy, we've created a bridge between the spatial omics community and the broader bioinformatics ecosystem. The workflows and training materials will enable researchers to:
