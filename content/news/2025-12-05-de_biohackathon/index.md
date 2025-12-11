@@ -68,7 +68,7 @@ This integration allows researchers to:
 - Create publication-ready figures
 - Share interactive visualizations with collaborators
 
-Additionally, we created conda recipes for Vitessce and easy-vitessce, making them easy to install via conda for Galaxy and other platforms.
+Additionally, we created conda recipes for [Vitessce](https://github.com/bioconda/bioconda-recipes/pull/61109) and [easy-vitessce](https://github.com/bioconda/bioconda-recipes/pull/61123), making them easy to install via conda for Galaxy and other platforms.
 
 #### 6. BioStudies Upload Integration
 
