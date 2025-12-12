@@ -9,6 +9,9 @@ subsites: [all, global]
 ---
 December 2025  
 
+<p align="center">
+  <img src="GalaxyNews.png" width="1000"/>
+</p>
 
 Hello Galaxy Community,
 
@@ -22,6 +25,9 @@ In this final newsletter of the year, we celebrate the 20-year milestone, share 
 
 2025 marked 20 years since Galaxy first launched with a bold vision: to make high-throughput data analysis accessible to every scientist, regardless of coding experience or computational resources. In the early 2000s, genomic alignments were already considered “big data,” yet approachable and reproducible analysis platforms were rare. Galaxy changed that trajectory and helped shape the way modern life science computing works today.  
 
+<p align="center">
+  <img src="GBCC-group.jpeg" width="600"/>
+</p>
 
 Galaxy’s early design decisions created a strong foundation for everything that followed:
 
@@ -34,11 +40,15 @@ From those beginnings, Galaxy evolved from a research prototype into a global ec
 
 Today, Galaxy is maintained and expanded by hundreds of contributors: developers, trainers, tool authors, infrastructure teams, and researchers. Their combined efforts have made Galaxy one of the most widely used platforms for FAIR and reproducible science. Galaxy now supports work in genomics, proteomics, metabolomics, imaging, ecology, machine learning, and many additional fields. Throughout this expansion, Galaxy’s founding principles remain central: accessibility, reproducibility, scalability, collaboration, and adaptability.  
 
-
+<p align="left">
+  <img src="STATS.jpg" width="400"/>
+</p>
 
 Reaching this 20-year milestone is a community achievement. Galaxy thrives because of the people who build tools, teach workshops, host servers, write documentation, answer questions, and use the platform to drive scientific discovery. Thank you for being part of this journey.  
 
-
+<p align="center">
+  <img src="GCC2023-group.jpeg" width="600"/>
+</p>
 
 Here's to the next 20 years of open, reproducible, and community-driven science\!  
 
@@ -93,7 +103,9 @@ The Galaxy Training Network (GTN) remains one of the strongest examples of commu
 
 The GTN now offers more than 490 peer-reviewed tutorials created and maintained by over 500 contributors. These materials span 35 scientific topics, including genomics, proteomics, machine learning, climate science, imaging, single-cell analysis, and many additional fields. Every tutorial is built to be accessible, reproducible, and ready for use in classrooms, workshops, and self-guided learning.
 
-
+<p align="center">
+  <img src="GTN.jpg" width="1000"/>
+</p>
 
 This year also brought significant improvements to the GTN infrastructure. Tutorials continue to receive updates on new tools and workflows, and many have been translated or adapted to better support international communities. GTN contributors also helped power several major training events throughout 2025, including regional workshops, community-led hackathons, and the Galaxy Training Academy.
 
@@ -114,7 +126,9 @@ The plastisphere showed significantly reduced alpha diversity and a clear shift 
 
 Nitrososphaeraceae was observed on plastic, suggesting potential consequences for nitrogen cycling. Network analysis revealed that plastisphere microbial networks were far less connected and less complex than those from soil, indicating reduced stability. Although some putative bacterial pathogens were detected, enrichment was minimal and not statistically significant. Functional predictions suggested decreased ammonia oxidation and limited evidence for enhanced plastic degradation.  
 
-
+<p align="left">
+  <img src="iCAMP.jpeg" width="800"/>
+</p>
 
 *Overview of iCAMP ([Ning et al. 2020](https://www.nature.com/articles/s41467-020-18560-z))*
 
@@ -127,6 +141,9 @@ The authors demonstrate Flexynesis across a broad set of prediction tasks, inclu
 
 Flexynesis is fully accessible through PyPI, Guix, Bioconda, and the Galaxy platform. The integration into Galaxy provides a graphical interface that removes the need for command-line experience and allows users to run complex, multi-step machine learning workflows reproducibly and at scale.
 
+<p align="left">
+  <img src="Flexynesis.jpeg" width="800"/>
+</p>
 
 *Summary of Flexynesis (Uyar et al. 2025\)*
 
@@ -139,7 +156,9 @@ Crosses between the engineered plants and wild-type individuals revealed strong 
 
 Galaxy supported read processing, junction validation, and sequence assessment, including analyses needed to confirm that the engineered karyotypes did not carry unintended large-scale rearrangements. The study relied on high-quality long-read data and systematic analysis pipelines, and Galaxy provided a reproducible environment for these steps.
 
-
+<p align="left">
+  <img src="CRISPRjpg.jpg" width="800"/>
+</p>
 
 *(Rönspies et al. 2025\)*  
 
@@ -155,7 +174,9 @@ Planning is underway for the next Galaxy Training Academy, which will bring toge
 
 ## **Galaxy Community Conference 2026**
 
-
+<p align="left">
+  <img src="GCC2026-banner.png" width="800"/>
+</p>
 
 GCC2026 will take place in Clermont-Ferrand, France, and will gather our global community for talks, training, posters, and collaborative sessions. As always, the meeting will feature updates from tool developers, infrastructure teams, and researchers who are using Galaxy in creative ways. GCC is a unique meeting that grows stronger each year, and 2026 will be no exception.
 
