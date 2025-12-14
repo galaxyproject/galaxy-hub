@@ -1,10 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { Button } from '@/components/ui/button';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 
-// Get recent events (upcoming and recent)
+// Get recent news
+const news = await getCollection('news');
+const recentNews = news
+	.sort((a, b) => {
+		const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+		const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+		return dateB.getTime() - dateA.getTime();
+	})
+	.slice(0, 3);
+
+// Get upcoming events
 const events = await getCollection('events');
 const now = new Date();
 const upcomingEvents = events
@@ -19,253 +27,683 @@ const upcomingEvents = events
 	})
 	.slice(0, 4);
 
-// Callout data from original content
-const callouts = [
-	{
-		title: "Galaxy is a world-wide community",
-		content: "There are over 500,000 registered Galaxy users from all over the world. Join this lively community to get help, contribute, and learn.",
-		link: "/community/",
-		linkText: "Explore the community",
-		icon: "users"
-	},
-	{
-		title: "Galaxy has 1,000s of tools",
-		content: "In partnership with BioConda and BioContainers, Galaxy provides instant access to a vast number of analysis tools.",
-		link: "/toolshed/",
-		linkText: "Browse available tools",
-		icon: "tools"
-	},
-	{
-		title: "Galaxy = workflows",
-		content: "Create complex workflows and deploy them via the UI or CLI. Share and publish reproducible analyses.",
-		link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html",
-		linkText: "Learn about workflows",
-		icon: "workflow"
-	},
-	{
-		title: "Leverage HPC and Clouds",
-		content: "Distribute different types of computational jobs across any infrastructure using Pulsar and TPV.",
-		link: "/admin/",
-		linkText: "Admin documentation",
-		icon: "cloud"
-	},
-	{
-		title: "Put your tools before 1,000s of users",
-		content: "Planemo, Galaxy's SDK, automates creation, testing, and deployment of tools, workflows, and interactive tutorials.",
-		link: "https://planemo.readthedocs.org/",
-		linkText: "Get started with Planemo",
-		icon: "code"
-	},
-	{
-		title: "Galaxy makes learning accessible",
-		content: "Galaxy Training Network has 100s of community-vetted, hands-on tutorials on a variety of topics.",
-		link: "https://training.galaxyproject.org/",
-		linkText: "Start learning",
-		icon: "learn"
-	}
-];
-
 function formatDate(date: Date | string | undefined): string {
 	if (!date) return '';
 	const d = date instanceof Date ? date : new Date(date);
-	return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+	return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
+
+// Feature pillars
+const pillars = [
+	{
+		title: "Analyze",
+		subtitle: "1000+ Tools",
+		description: "Access thousands of analysis tools through an intuitive interface. From genomics to proteomics.",
+		icon: "beaker"
+	},
+	{
+		title: "Reproduce",
+		subtitle: "Workflows",
+		description: "Create, share, and publish reproducible workflows. Every analysis is tracked and shareable.",
+		icon: "workflow"
+	},
+	{
+		title: "Learn",
+		subtitle: "200+ Tutorials",
+		description: "Galaxy Training Network offers hands-on tutorials for researchers at every skill level.",
+		icon: "academic"
+	},
+	{
+		title: "Scale",
+		subtitle: "Cloud & HPC",
+		description: "Run analyses on powerful infrastructure. From laptops to supercomputers.",
+		icon: "cloud"
+	}
+];
 ---
 
-<BaseLayout title="Galaxy Community Hub" description="The Galaxy Community Hub - resources for the Galaxy Project community">
-	<!-- Hero Section -->
-	<section class="relative bg-gradient-to-br from-galaxy-primary via-galaxy-dark to-galaxy-primary text-white py-20">
-		<div class="max-w-7xl mx-auto px-4 text-center">
-			<img
-				src="/images/galaxy_logo_white.svg"
-				alt="Galaxy"
-				class="h-24 md:h-32 w-auto mx-auto mb-8"
-			/>
-			<h1 class="text-4xl md:text-6xl font-bold mb-6">
-				Meet Galaxy<br/>
-				<span class="text-galaxy-accent">Your companion in data analysis</span>
-			</h1>
-			<p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-				Open source platform for accessible, reproducible, and transparent computational research.
-			</p>
-			<div class="flex flex-wrap justify-center gap-4">
-				<a
-					href="https://usegalaxy.org/"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="inline-flex items-center px-8 py-3 bg-galaxy-accent hover:bg-green-400 text-galaxy-dark font-semibold rounded-lg transition-colors"
-				>
-					Use Galaxy Now
-				</a>
-				<a
-					href="/get-started/"
-					class="inline-flex items-center px-8 py-3 bg-white/10 hover:bg-white/20 text-white border border-white/30 font-semibold rounded-lg transition-colors"
-				>
-					Learn More
-				</a>
-			</div>
-		</div>
-	</section>
+<BaseLayout title="Galaxy Community Hub" description="Galaxy: Open source platform for accessible, reproducible, and transparent computational research">
+	<style>
+		/*
+		 * Galaxy Hub Homepage v2
+		 * Refined design using Galaxy brand colors
+		 * Harmonizes with sidebar navigation
+		 */
 
-	<!-- Galaxy is more than you think -->
-	<section class="py-16 bg-gray-50">
-		<div class="max-w-7xl mx-auto px-4">
-			<h2 class="text-3xl font-bold text-galaxy-dark text-center mb-12">
-				Galaxy is more than you think
-			</h2>
-			<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-				{callouts.map((callout) => (
-					<Card client:load class="h-full hover:shadow-lg transition-shadow border-t-4 border-t-galaxy-primary">
-						<CardHeader>
-							<CardTitle class="text-lg text-galaxy-dark">{callout.title}</CardTitle>
-						</CardHeader>
-						<CardContent>
-							<p class="text-gray-600 mb-4">{callout.content}</p>
-							<a
-								href={callout.link}
-								class="text-galaxy-primary hover:text-galaxy-dark font-medium inline-flex items-center"
-							>
-								{callout.linkText}
-								<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-								</svg>
-							</a>
-						</CardContent>
-					</Card>
-				))}
-			</div>
-		</div>
-	</section>
+		.homepage-v2 {
+			/* Use Galaxy brand colors */
+			--galaxy-primary: #25537B;
+			--galaxy-dark: #2C3143;
+			--galaxy-gold: #ffd700;
+			--galaxy-gold-dark: #d4a800;
+			--medium-bg: #3C435C;
+			--light-bg: #EDF4FA;
 
-	<!-- Quick Links Section -->
-	<section class="py-16">
-		<div class="max-w-7xl mx-auto px-4">
-			<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-				<a href="/events/" class="group block p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-100">
-					<div class="w-12 h-12 bg-galaxy-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-galaxy-primary/20 transition-colors">
-						<svg class="w-6 h-6 text-galaxy-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-						</svg>
-					</div>
-					<h3 class="font-semibold text-galaxy-dark mb-2">Events</h3>
-					<p class="text-sm text-gray-600">Conferences, workshops, and community gatherings</p>
-				</a>
+			--text-primary: #f8fafc;
+			--text-secondary: rgba(248, 250, 252, 0.7);
+			--text-muted: rgba(248, 250, 252, 0.5);
 
-				<a href="/use/" class="group block p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-100">
-					<div class="w-12 h-12 bg-galaxy-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-galaxy-primary/20 transition-colors">
-						<svg class="w-6 h-6 text-galaxy-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"></path>
-						</svg>
-					</div>
-					<h3 class="font-semibold text-galaxy-dark mb-2">Galaxy Platforms</h3>
-					<p class="text-sm text-gray-600">Public servers and cloud deployments</p>
-				</a>
+			background: var(--galaxy-dark);
+			color: var(--text-primary);
+		}
 
-				<a href="/community/" class="group block p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-100">
-					<div class="w-12 h-12 bg-galaxy-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-galaxy-primary/20 transition-colors">
-						<svg class="w-6 h-6 text-galaxy-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-						</svg>
-					</div>
-					<h3 class="font-semibold text-galaxy-dark mb-2">Community</h3>
-					<p class="text-sm text-gray-600">Connect with the global Galaxy community</p>
-				</a>
+		/* Hero Section - Dark theme matching sidebar */
+		.hero-section {
+			padding: 4rem 2rem;
+			background: linear-gradient(135deg, var(--galaxy-dark) 0%, var(--galaxy-primary) 100%);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		}
 
-				<a href="https://training.galaxyproject.org/" target="_blank" rel="noopener noreferrer" class="group block p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-100">
-					<div class="w-12 h-12 bg-galaxy-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-galaxy-primary/20 transition-colors">
-						<svg class="w-6 h-6 text-galaxy-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-						</svg>
-					</div>
-					<h3 class="font-semibold text-galaxy-dark mb-2">Training</h3>
-					<p class="text-sm text-gray-600">Learn Galaxy with GTN tutorials</p>
-				</a>
-			</div>
-		</div>
-	</section>
+		.hero-container {
+			max-width: 1100px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: 1.2fr 1fr;
+			gap: 3rem;
+			align-items: center;
+		}
 
-	<!-- Upcoming Events -->
-	{upcomingEvents.length > 0 && (
-		<section class="py-16 bg-gray-50">
-			<div class="max-w-7xl mx-auto px-4">
-				<div class="flex justify-between items-center mb-8">
-					<h2 class="text-2xl font-bold text-galaxy-dark">Upcoming Events</h2>
-					<a href="/events/" class="text-galaxy-primary hover:text-galaxy-dark font-medium inline-flex items-center">
-						View all events
-						<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-						</svg>
-					</a>
-				</div>
-				<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-					{upcomingEvents.map((event) => (
-						<a
-							href={`/events/${event.data.slug}/`}
-							class="block bg-white rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow border border-gray-100"
-						>
-							<div class="text-sm text-galaxy-primary font-medium mb-2">
-								{formatDate(event.data.date)}
-							</div>
-							<h3 class="font-semibold text-galaxy-dark mb-2 line-clamp-2">
-								{event.data.title}
-							</h3>
-							{event.data.location && (
-								<p class="text-sm text-gray-500">{event.data.location}</p>
-							)}
+		@media (max-width: 900px) {
+			.hero-container {
+				grid-template-columns: 1fr;
+				text-align: center;
+			}
+		}
+
+		.hero-text h1 {
+			font-size: 2.75rem;
+			font-weight: 700;
+			line-height: 1.15;
+			margin-bottom: 1.25rem;
+			color: var(--text-primary);
+		}
+
+		.hero-text h1 .highlight {
+			color: var(--galaxy-gold);
+		}
+
+		.hero-text .tagline {
+			font-size: 1.125rem;
+			line-height: 1.7;
+			color: var(--text-secondary);
+			margin-bottom: 2rem;
+			max-width: 500px;
+		}
+
+		@media (max-width: 900px) {
+			.hero-text .tagline {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.hero-actions {
+			display: flex;
+			gap: 1rem;
+			flex-wrap: wrap;
+		}
+
+		@media (max-width: 900px) {
+			.hero-actions {
+				justify-content: center;
+			}
+		}
+
+		.btn-primary {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.875rem 1.75rem;
+			background: var(--galaxy-gold);
+			color: var(--galaxy-dark);
+			font-weight: 600;
+			font-size: 0.95rem;
+			border-radius: 6px;
+			text-decoration: none;
+			transition: all 0.2s ease;
+		}
+
+		.btn-primary:hover {
+			background: var(--galaxy-gold-dark);
+			transform: translateY(-1px);
+		}
+
+		.btn-secondary {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.875rem 1.75rem;
+			background: transparent;
+			border: 1px solid rgba(255, 255, 255, 0.25);
+			color: var(--text-primary);
+			font-weight: 500;
+			font-size: 0.95rem;
+			border-radius: 6px;
+			text-decoration: none;
+			transition: all 0.2s ease;
+		}
+
+		.btn-secondary:hover {
+			background: rgba(255, 255, 255, 0.1);
+			border-color: rgba(255, 255, 255, 0.4);
+		}
+
+		/* Hero visual */
+		.hero-visual {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.hero-visual img {
+			max-width: 280px;
+			height: auto;
+			filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+		}
+
+		@media (max-width: 900px) {
+			.hero-visual img {
+				max-width: 200px;
+			}
+		}
+
+		/* Stats Row */
+		.stats-row {
+			padding: 2rem;
+			background: var(--medium-bg);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		.stats-container {
+			max-width: 1100px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 1.5rem;
+		}
+
+		@media (max-width: 700px) {
+			.stats-container {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		.stat-item {
+			text-align: center;
+			padding: 1rem;
+		}
+
+		.stat-number {
+			font-size: 2rem;
+			font-weight: 700;
+			color: var(--galaxy-gold);
+			line-height: 1;
+		}
+
+		.stat-label {
+			font-size: 0.8rem;
+			color: var(--text-muted);
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			margin-top: 0.5rem;
+		}
+
+		/* Pillars Section */
+		.pillars-section {
+			padding: 4rem 2rem;
+			background: var(--galaxy-dark);
+		}
+
+		.pillars-container {
+			max-width: 1100px;
+			margin: 0 auto;
+		}
+
+		.section-header {
+			text-align: center;
+			margin-bottom: 3rem;
+		}
+
+		.section-header h2 {
+			font-size: 1.75rem;
+			font-weight: 700;
+			margin-bottom: 0.5rem;
+			color: var(--text-primary);
+		}
+
+		.section-header p {
+			color: var(--text-secondary);
+			font-size: 1rem;
+		}
+
+		.pillars-grid {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 1.5rem;
+		}
+
+		@media (max-width: 900px) {
+			.pillars-grid {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		@media (max-width: 550px) {
+			.pillars-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.pillar-card {
+			background: var(--medium-bg);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			border-radius: 8px;
+			padding: 1.5rem;
+			transition: all 0.2s ease;
+		}
+
+		.pillar-card:hover {
+			border-color: var(--galaxy-gold);
+			transform: translateY(-2px);
+		}
+
+		.pillar-icon {
+			width: 2.5rem;
+			height: 2.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: var(--galaxy-primary);
+			border-radius: 6px;
+			margin-bottom: 1rem;
+		}
+
+		.pillar-icon svg {
+			width: 1.25rem;
+			height: 1.25rem;
+			color: var(--galaxy-gold);
+		}
+
+		.pillar-title {
+			font-size: 1.125rem;
+			font-weight: 600;
+			margin-bottom: 0.25rem;
+			color: var(--text-primary);
+		}
+
+		.pillar-subtitle {
+			font-size: 0.8rem;
+			color: var(--galaxy-gold);
+			margin-bottom: 0.75rem;
+		}
+
+		.pillar-description {
+			font-size: 0.875rem;
+			line-height: 1.5;
+			color: var(--text-secondary);
+		}
+
+		/* Content Section (News & Events) */
+		.content-section {
+			padding: 4rem 2rem;
+			background: linear-gradient(180deg, var(--medium-bg) 0%, var(--galaxy-dark) 100%);
+		}
+
+		.content-container {
+			max-width: 1100px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: 1.5fr 1fr;
+			gap: 3rem;
+		}
+
+		@media (max-width: 900px) {
+			.content-container {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.content-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 1.5rem;
+			padding-bottom: 0.75rem;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		.content-header h2 {
+			font-size: 1.25rem;
+			font-weight: 600;
+			color: var(--text-primary);
+		}
+
+		.content-header a {
+			font-size: 0.85rem;
+			color: var(--galaxy-gold);
+			text-decoration: none;
+			display: flex;
+			align-items: center;
+			gap: 0.25rem;
+		}
+
+		.content-header a:hover {
+			text-decoration: underline;
+		}
+
+		/* News cards */
+		.news-list {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+		.news-card {
+			display: block;
+			padding: 1.25rem;
+			background: rgba(255, 255, 255, 0.03);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			border-radius: 6px;
+			text-decoration: none;
+			color: inherit;
+			transition: all 0.2s ease;
+		}
+
+		.news-card:hover {
+			background: rgba(255, 255, 255, 0.06);
+			border-color: rgba(255, 255, 255, 0.15);
+		}
+
+		.news-date {
+			font-size: 0.75rem;
+			color: var(--galaxy-gold);
+			font-weight: 500;
+			text-transform: uppercase;
+			letter-spacing: 0.03em;
+		}
+
+		.news-title {
+			font-size: 1rem;
+			font-weight: 600;
+			margin: 0.5rem 0;
+			line-height: 1.4;
+			color: var(--text-primary);
+		}
+
+		.news-excerpt {
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+			line-height: 1.5;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		/* Events list */
+		.events-list {
+			display: flex;
+			flex-direction: column;
+			gap: 0.75rem;
+		}
+
+		.event-card {
+			display: flex;
+			gap: 1rem;
+			padding: 1rem;
+			background: rgba(255, 255, 255, 0.03);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			border-radius: 6px;
+			text-decoration: none;
+			color: inherit;
+			transition: all 0.2s ease;
+		}
+
+		.event-card:hover {
+			background: rgba(255, 255, 255, 0.06);
+			border-color: rgba(255, 255, 255, 0.15);
+		}
+
+		.event-date-box {
+			flex-shrink: 0;
+			width: 3rem;
+			height: 3rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background: var(--galaxy-primary);
+			border-radius: 4px;
+		}
+
+		.event-date-day {
+			font-size: 1.125rem;
+			font-weight: 700;
+			line-height: 1;
+			color: var(--galaxy-gold);
+		}
+
+		.event-date-month {
+			font-size: 0.6rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			color: var(--text-secondary);
+		}
+
+		.event-info {
+			flex: 1;
+			min-width: 0;
+		}
+
+		.event-title {
+			font-weight: 600;
+			font-size: 0.9rem;
+			line-height: 1.3;
+			color: var(--text-primary);
+			margin-bottom: 0.25rem;
+		}
+
+		.event-location {
+			font-size: 0.75rem;
+			color: var(--text-muted);
+		}
+
+		/* CTA Section */
+		.cta-section {
+			padding: 4rem 2rem;
+			text-align: center;
+			background: var(--galaxy-dark);
+			border-top: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		.cta-container {
+			max-width: 600px;
+			margin: 0 auto;
+		}
+
+		.cta-container h2 {
+			font-size: 1.75rem;
+			font-weight: 700;
+			margin-bottom: 0.75rem;
+			color: var(--text-primary);
+		}
+
+		.cta-container p {
+			font-size: 1rem;
+			color: var(--text-secondary);
+			margin-bottom: 2rem;
+		}
+
+		.cta-buttons {
+			display: flex;
+			justify-content: center;
+			gap: 1rem;
+			flex-wrap: wrap;
+		}
+	</style>
+
+	<div class="homepage-v2">
+		<!-- Hero Section -->
+		<section class="hero-section">
+			<div class="hero-container">
+				<div class="hero-text">
+					<h1>
+						Meet Galaxy<br/>
+						<span class="highlight">Your Data Analysis Platform</span>
+					</h1>
+					<p class="tagline">
+						Open source platform for accessible, reproducible, and transparent computational research. Used by 500,000+ researchers worldwide.
+					</p>
+					<div class="hero-actions">
+						<a href="https://usegalaxy.org/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+							Use Galaxy
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M5 12h14M12 5l7 7-7 7"/>
+							</svg>
 						</a>
+						<a href="/get-started/" class="btn-secondary">
+							Learn More
+						</a>
+					</div>
+				</div>
+				<div class="hero-visual">
+					<img src="/images/galaxy_logo_white.svg" alt="Galaxy" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Stats Row -->
+		<div class="stats-row">
+			<div class="stats-container">
+				<div class="stat-item">
+					<div class="stat-number">500K+</div>
+					<div class="stat-label">Researchers</div>
+				</div>
+				<div class="stat-item">
+					<div class="stat-number">10K+</div>
+					<div class="stat-label">Tools</div>
+				</div>
+				<div class="stat-item">
+					<div class="stat-number">200+</div>
+					<div class="stat-label">Tutorials</div>
+				</div>
+				<div class="stat-item">
+					<div class="stat-number">150+</div>
+					<div class="stat-label">Countries</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Pillars Section -->
+		<section class="pillars-section">
+			<div class="pillars-container">
+				<div class="section-header">
+					<h2>Everything you need for computational research</h2>
+					<p>From data analysis to publication, Galaxy provides the complete toolkit.</p>
+				</div>
+
+				<div class="pillars-grid">
+					{pillars.map((pillar) => (
+						<div class="pillar-card">
+							<div class="pillar-icon">
+								{pillar.icon === 'beaker' && (
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+									</svg>
+								)}
+								{pillar.icon === 'workflow' && (
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+									</svg>
+								)}
+								{pillar.icon === 'academic' && (
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+									</svg>
+								)}
+								{pillar.icon === 'cloud' && (
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+									</svg>
+								)}
+							</div>
+							<h3 class="pillar-title">{pillar.title}</h3>
+							<div class="pillar-subtitle">{pillar.subtitle}</div>
+							<p class="pillar-description">{pillar.description}</p>
+						</div>
 					))}
 				</div>
 			</div>
 		</section>
-	)}
 
-	<!-- Statistics / Social Proof -->
-	<section class="py-16 bg-galaxy-dark text-white">
-		<div class="max-w-7xl mx-auto px-4">
-			<div class="grid gap-8 md:grid-cols-4 text-center">
+		<!-- News & Events -->
+		<section class="content-section">
+			<div class="content-container">
 				<div>
-					<div class="text-4xl font-bold text-galaxy-accent mb-2">500K+</div>
-					<div class="text-white/80">Registered Users</div>
+					<div class="content-header">
+						<h2>Latest News</h2>
+						<a href="/news/">
+							View all →
+						</a>
+					</div>
+					<div class="news-list">
+						{recentNews.map((item) => (
+							<a href={`/news/${item.data.slug}/`} class="news-card">
+								<div class="news-date">{formatDate(item.data.date)}</div>
+								<h3 class="news-title">{item.data.title}</h3>
+								{item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
+							</a>
+						))}
+					</div>
 				</div>
+
 				<div>
-					<div class="text-4xl font-bold text-galaxy-accent mb-2">1000+</div>
-					<div class="text-white/80">Analysis Tools</div>
-				</div>
-				<div>
-					<div class="text-4xl font-bold text-galaxy-accent mb-2">200+</div>
-					<div class="text-white/80">Training Tutorials</div>
-				</div>
-				<div>
-					<div class="text-4xl font-bold text-galaxy-accent mb-2">20+</div>
-					<div class="text-white/80">Public Servers</div>
+					<div class="content-header">
+						<h2>Upcoming Events</h2>
+						<a href="/events/">
+							View all →
+						</a>
+					</div>
+					<div class="events-list">
+						{upcomingEvents.map((event) => {
+							const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
+							const day = date.getDate();
+							const month = date.toLocaleDateString('en-US', { month: 'short' });
+							return (
+								<a href={`/events/${event.data.slug}/`} class="event-card">
+									<div class="event-date-box">
+										<span class="event-date-day">{day}</span>
+										<span class="event-date-month">{month}</span>
+									</div>
+									<div class="event-info">
+										<h3 class="event-title">{event.data.title}</h3>
+										{event.data.location && typeof event.data.location === 'string' && (
+											<div class="event-location">{event.data.location}</div>
+										)}
+									</div>
+								</a>
+							);
+						})}
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!-- Get Started CTA -->
-	<section class="py-16">
-		<div class="max-w-4xl mx-auto px-4 text-center">
-			<h2 class="text-3xl font-bold text-galaxy-dark mb-4">Ready to get started?</h2>
-			<p class="text-xl text-gray-600 mb-8">
-				Galaxy is free to use and available at several public servers around the world.
-			</p>
-			<div class="flex flex-wrap justify-center gap-4">
-				<a
-					href="https://usegalaxy.org/"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="inline-flex items-center px-8 py-3 bg-galaxy-primary hover:bg-galaxy-dark text-white font-semibold rounded-lg transition-colors"
-				>
-					Use Galaxy
-				</a>
-				<a
-					href="/support/"
-					class="inline-flex items-center px-8 py-3 bg-gray-100 hover:bg-gray-200 text-galaxy-dark font-semibold rounded-lg transition-colors"
-				>
-					Get Support
-				</a>
+		<!-- CTA Section -->
+		<section class="cta-section">
+			<div class="cta-container">
+				<h2>Ready to get started?</h2>
+				<p>Galaxy is free to use and available at public servers around the world.</p>
+				<div class="cta-buttons">
+					<a href="https://usegalaxy.org/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+						Start Using Galaxy
+					</a>
+					<a href="/community/" class="btn-secondary">
+						Join the Community
+					</a>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 </BaseLayout>
