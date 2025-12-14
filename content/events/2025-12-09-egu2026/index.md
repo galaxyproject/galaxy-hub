@@ -1,3 +1,4 @@
+---
 title: European Geosciences Union (EGU) 2026
 date: '2026-05-04'
 days: 5
