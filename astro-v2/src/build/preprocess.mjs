@@ -541,10 +541,18 @@ export async function preprocessContent(options = {}) {
     ignore: ['**/node_modules/**', '0examples/**']
   });
 
+  // Only process YAML files that are true datasets, not platform-specific ones
+  // Platform-specific files (in use/*/) would overwrite each other since they have same basenames
   const yamlFiles = await glob('**/*.{yml,yaml}', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: ['**/node_modules/**', '**/navbar.yml', '**/navbar.yaml']
+    ignore: [
+      '**/node_modules/**',
+      '**/navbar.yml',
+      '**/navbar.yaml',
+      '**/use/**/*.yml',  // Exclude platform-specific YAML files (they have duplicate names)
+      '**/use/**/*.yaml'
+    ]
   });
 
   console.log(`Found ${markdownFiles.length} markdown files`);
