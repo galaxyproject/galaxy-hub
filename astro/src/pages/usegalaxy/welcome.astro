@@ -18,6 +18,15 @@ const mainInsert = inserts.find(i => i.data.slug === 'usegalaxy/welcome/main');
 // Render the content
 const { Content: TopContent } = topInsert ? await render(topInsert) : { Content: null };
 const { Content: MainContent } = mainInsert ? await render(mainInsert) : { Content: null };
+
+// Carousel slides - keep in sync with Gridsome's Carousel.vue
+const carouselSlides = [
+  { href: "https://jxtxfoundation.org", img: "/images/usegalaxy-welcome/jxtx_carousel.svg", alt: "Donate to the James P. Taylor Foundation for Open Science" },
+  { href: "https://galaxyproject.org/news/2025-10-21-whycollections/", img: "/images/usegalaxy-welcome/theguy.svg", alt: "Use collections!" },
+  { href: "https://galaxyproject.org/news/2025-10-28-window-manager/", img: "/images/usegalaxy-welcome/window_manager.svg", alt: "Window Manager" },
+  { href: "https://training.galaxyproject.org/", img: "/images/usegalaxy-welcome/gtn.svg", alt: "Try GTN" },
+  { href: "https://galaxyproject.org/usegalaxy/", img: "/images/usegalaxy-welcome/dotstar.svg", alt: "Usegalaxy.*" },
+];
 ---
 
 <!DOCTYPE html>
@@ -113,6 +122,12 @@ const { Content: MainContent } = mainInsert ? await render(mainInsert) : { Conte
       padding: 0 15px;
     }
 
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 0 15px;
+    }
+
     .col-md-8 {
       flex: 0 0 66.666%;
       max-width: 66.666%;
@@ -171,8 +186,119 @@ const { Content: MainContent } = mainInsert ? await render(mainInsert) : { Conte
       font-weight: normal;
     }
 
+    /* Carousel styles */
+    .carousel-container {
+      padding-top: 2rem;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .carousel {
+      position: relative;
+      width: 100%;
+      background: #ababab;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .carousel-inner {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 13 / 9;
+    }
+
+    .carousel-slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .carousel-slide.active {
+      opacity: 1;
+    }
+
+    .carousel-slide a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .carousel-controls {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .carousel-control {
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 3px;
+    }
+
+    .carousel-control:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .carousel-indicators {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 0;
+    }
+
+    .carousel-indicator {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ccc;
+      border: none;
+      cursor: pointer;
+    }
+
+    .carousel-indicator.active {
+      background: #25537B;
+    }
+
+    /* YouTube container */
+    .youtube-container {
+      padding-top: 2rem;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .youtube-container iframe {
+      width: 100%;
+      aspect-ratio: 400 / 277;
+      border: none;
+      border-radius: 4px;
+    }
+
+    /* Media row for carousel and video */
+    .media-row {
+      margin-bottom: 2rem;
+    }
+
     @media (max-width: 768px) {
-      .col-md-4, .col-md-8 {
+      .col-md-4, .col-md-6, .col-md-8 {
         flex: 0 0 100%;
         max-width: 100%;
       }
@@ -190,10 +316,125 @@ const { Content: MainContent } = mainInsert ? await render(mainInsert) : { Conte
     </div>
   )}
 
+  <!-- Carousel and YouTube Video Row -->
+  <div class="row media-row">
+    <div class="col-md-6">
+      <div class="carousel-container">
+        <div class="carousel" id="welcome-carousel">
+          <div class="carousel-inner">
+            {carouselSlides.map((slide, index) => (
+              <div class={`carousel-slide ${index === 0 ? 'active' : ''}`} data-index={index}>
+                <a href={slide.href} target="_blank">
+                  <img src={slide.img} alt={slide.alt} />
+                </a>
+              </div>
+            ))}
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-control" id="prev-btn" aria-label="Previous slide">‹</button>
+            <button class="carousel-control" id="next-btn" aria-label="Next slide">›</button>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          {carouselSlides.map((_, index) => (
+            <button
+              class={`carousel-indicator ${index === 0 ? 'active' : ''}`}
+              data-index={index}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="youtube-container">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/k6fTVIR4GME?mute=1&cc_load_policy=1&autoplay=0&loop=0&playlist=k6fTVIR4GME"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
+
   {MainContent && (
     <div class="welcome-main prose">
       <MainContent />
     </div>
   )}
+
+  <script>
+    // Simple carousel functionality
+    document.addEventListener('DOMContentLoaded', () => {
+      const carousel = document.getElementById('welcome-carousel');
+      if (!carousel) return;
+
+      const slides = carousel.querySelectorAll('.carousel-slide');
+      const indicators = document.querySelectorAll('.carousel-indicator');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+
+      let currentSlide = 0;
+      let autoPlayInterval: ReturnType<typeof setInterval>;
+
+      function showSlide(index: number) {
+        // Wrap around
+        if (index >= slides.length) index = 0;
+        if (index < 0) index = slides.length - 1;
+
+        slides.forEach(slide => slide.classList.remove('active'));
+        indicators.forEach(ind => ind.classList.remove('active'));
+
+        slides[index].classList.add('active');
+        indicators[index].classList.add('active');
+        currentSlide = index;
+      }
+
+      function nextSlide() {
+        showSlide(currentSlide + 1);
+      }
+
+      function prevSlide() {
+        showSlide(currentSlide - 1);
+      }
+
+      function startAutoPlay() {
+        autoPlayInterval = setInterval(nextSlide, 3000);
+      }
+
+      function stopAutoPlay() {
+        clearInterval(autoPlayInterval);
+      }
+
+      // Event listeners
+      nextBtn?.addEventListener('click', () => {
+        stopAutoPlay();
+        nextSlide();
+        startAutoPlay();
+      });
+
+      prevBtn?.addEventListener('click', () => {
+        stopAutoPlay();
+        prevSlide();
+        startAutoPlay();
+      });
+
+      indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+          stopAutoPlay();
+          showSlide(index);
+          startAutoPlay();
+        });
+      });
+
+      // Pause on hover
+      carousel.addEventListener('mouseenter', stopAutoPlay);
+      carousel.addEventListener('mouseleave', startAutoPlay);
+
+      // Start autoplay
+      startAutoPlay();
+    });
+  </script>
 </body>
 </html>
