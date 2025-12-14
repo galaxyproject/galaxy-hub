@@ -1,0 +1,199 @@
+---
+/**
+ * UseGalaxy.org Welcome Page
+ *
+ * This is the #1 most visited page (54.6k visits) - it's embedded in Galaxy instances
+ * as the welcome screen users see when first loading usegalaxy.org
+ *
+ * Uses a minimal layout without sidebar/footer since it's embedded in an iframe
+ */
+import { getCollection, render } from 'astro:content';
+import '../../styles/global.css';
+
+// Get the insert content
+const inserts = await getCollection('inserts');
+const topInsert = inserts.find(i => i.data.slug === 'usegalaxy/welcome/top');
+const mainInsert = inserts.find(i => i.data.slug === 'usegalaxy/welcome/main');
+
+// Render the content
+const { Content: TopContent } = topInsert ? await render(topInsert) : { Content: null };
+const { Content: MainContent } = mainInsert ? await render(mainInsert) : { Content: null };
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Galaxy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+    }
+
+    a {
+      color: #25537B;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .btn-secondary {
+      background: #6c757d;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background: #5a6268;
+    }
+
+    .btn-outline-primary {
+      border: 1px solid #25537B;
+      color: #25537B;
+      background: transparent;
+    }
+
+    .btn-outline-primary:hover {
+      background: #25537B;
+      color: white;
+    }
+
+    .alert {
+      padding: 15px 20px;
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+
+    .alert-info {
+      background: #d1ecf1;
+      border: 1px solid #bee5eb;
+      color: #0c5460;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .my-5 {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .mt-2 {
+      margin-top: 0.5rem;
+    }
+
+    .mx-1 {
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -15px;
+    }
+
+    .col-md-4 {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+      padding: 0 15px;
+    }
+
+    .col-md-8 {
+      flex: 0 0 66.666%;
+      max-width: 66.666%;
+      padding: 0 15px;
+    }
+
+    .col-sm-4, .col-sm-6 {
+      padding: 0 15px;
+    }
+
+    .col-sm-4 {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .align-items-center {
+      align-items: center;
+    }
+
+    .float-right {
+      float: right;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 30px 0;
+    }
+
+    /* Top section styling */
+    .welcome-top {
+      background: linear-gradient(135deg, #25537B 0%, #2C3143 100%);
+      color: white;
+      padding: 30px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+
+    .welcome-top a {
+      color: #ffd700;
+    }
+
+    .welcome-top h4 {
+      margin: 0;
+      font-size: 1.1em;
+      font-weight: normal;
+    }
+
+    @media (max-width: 768px) {
+      .col-md-4, .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  {TopContent && (
+    <div class="welcome-top">
+      <TopContent />
+    </div>
+  )}
+
+  {MainContent && (
+    <div class="welcome-main prose">
+      <MainContent />
+    </div>
+  )}
+</body>
+</html>
