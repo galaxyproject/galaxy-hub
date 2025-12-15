@@ -1,0 +1,243 @@
+---
+/**
+ * HomeLayout - Special layout for the homepage
+ *
+ * Features:
+ * - Full-width hero section without sidebar
+ * - Scroll-triggered masthead that appears after scrolling past hero
+ * - Smooth transition for the navigation appearance
+ */
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Galaxy Community Hub - Open source platform for data analysis' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <title>{title} | Galaxy Hub</title>
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <!-- Scroll-triggered Masthead -->
+    <header id="masthead" class="masthead">
+      <div class="masthead-inner">
+        <a href="/" class="masthead-logo">
+          <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
+        </a>
+
+        <nav class="masthead-nav">
+          <a href="/news/">News</a>
+          <a href="/events/">Events</a>
+          <a href="/community/">Community</a>
+          <a href="https://training.galaxyproject.org" target="_blank">Training</a>
+          <a href="https://usegalaxy.org" class="use-galaxy-btn" target="_blank">
+            Use Galaxy
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </nav>
+
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu dropdown -->
+      <div id="mobile-menu" class="mobile-menu hidden">
+        <a href="/news/">News</a>
+        <a href="/events/">Events</a>
+        <a href="/community/">Community</a>
+        <a href="https://training.galaxyproject.org" target="_blank">Training</a>
+        <a href="https://usegalaxy.org" target="_blank">Use Galaxy →</a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <slot />
+    </main>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      }
+
+      /* Masthead - hidden by default, slides down on scroll */
+      .masthead {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background: linear-gradient(135deg, #2C3143 0%, #25537B 100%);
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+        box-shadow: none;
+      }
+
+      .masthead.visible {
+        transform: translateY(0);
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .masthead-inner {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0.75rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .masthead-logo img {
+        height: 2rem;
+        width: auto;
+      }
+
+      .masthead-nav {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      .masthead-nav a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+
+      .masthead-nav a:hover {
+        color: #ffd700;
+      }
+
+      .use-galaxy-btn {
+        display: inline-flex;
+        align-items: center;
+        background: #ffd700;
+        color: #2C3143 !important;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        font-weight: 600;
+      }
+
+      .use-galaxy-btn:hover {
+        background: #e6c200;
+        color: #2C3143 !important;
+      }
+
+      .mobile-menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+      }
+
+      .mobile-menu {
+        background: #2C3143;
+        padding: 1rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .mobile-menu a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .mobile-menu a:last-child {
+        border-bottom: none;
+        color: #ffd700;
+        font-weight: 600;
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      @media (max-width: 768px) {
+        .masthead-nav {
+          display: none;
+        }
+
+        .mobile-menu-toggle {
+          display: block;
+        }
+
+        .mobile-menu:not(.hidden) {
+          display: flex;
+        }
+      }
+
+      /* Main content needs no top padding since hero is full-bleed */
+      main {
+        min-height: 100vh;
+      }
+    </style>
+
+    <script>
+      // Scroll-triggered masthead
+      const masthead = document.getElementById('masthead');
+      const heroHeight = window.innerHeight * 0.6; // Show after scrolling 60% of viewport
+
+      function updateMasthead() {
+        if (window.scrollY > heroHeight) {
+          masthead?.classList.add('visible');
+        } else {
+          masthead?.classList.remove('visible');
+        }
+      }
+
+      // Throttle scroll events for performance
+      let ticking = false;
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(() => {
+            updateMasthead();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+
+      // Mobile menu toggle
+      const mobileToggle = document.getElementById('mobile-menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      mobileToggle?.addEventListener('click', () => {
+        mobileMenu?.classList.toggle('hidden');
+      });
+
+      // Initial check
+      updateMasthead();
+    </script>
+  </body>
+</html>
