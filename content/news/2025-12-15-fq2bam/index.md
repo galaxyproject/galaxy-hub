@@ -2,13 +2,13 @@
 title: "GPU-accelerated genome mapper Parabricks FQ2BAM is now in Galaxy"
 date: "2025-12-15"
 authors: Anup Kumar 
-tease: "NVIDIA Parabricks' GPU-accelerated FQ2BAM is now available in Galaxy on L40S GPUs, bringing FASTQ-to-BAM alignment to just a few minutes for ~2.5 GB paired-end human whole-genome datasets. Its runtime is benchmarked against BWA-MEM2 and BWA across five runs and shows that mapping and QC metrics remain essentially identical to CPU-based alignment—while delivering a major speedup for Galaxy workflows."
+tease: "NVIDIA Parabricks' GPU-accelerated FQ2BAM is now available in Galaxy on L40S GPUs, bringing FASTQ-to-BAM alignment to just a few minutes for 2.5 GB paired-end human whole-genome datasets. Its runtime is benchmarked against BWA-MEM2 and BWA across five runs and shows that mapping and QC metrics remain essentially identical to CPU-based alignment—while delivering a major speedup for Galaxy workflows."
 subsites: [global,eu,us,freiburg]
 ---
 
 # **Parabricks FQ2BAM mapper**
 
-NVIDIA's Parabricks provides a GPU-accelerated tool suite for genomic analysis. [FQ2BAM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy0&version=latest) tool from Parabricks has been integrated into Galaxy and runs on an L40S GPU to generate read alignments in a few minutes for zipped paired-end reads of size as large as 2.5 GB. It provides a drop-in replacement for BWA-MEM2 while maintaining the same accuracy. Parabricks' FQ2BAM pipeline wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration consistent with GATK best practices.
+NVIDIA's Parabricks provides a GPU-accelerated tool suite for genomic analysis, [FQ2BAM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy0&version=latest). It is integrated into Galaxy and runs on an L40S GPU to generate read alignments in a few minutes for zipped paired-end reads of size as large as 2.5 GB. It provides a drop-in replacement for BWA-MEM2 while maintaining the same accuracy. Parabricks' [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) tool wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration consistent with GATK best practices.
 
 
 ## FQ2BAM vs BWA-MEM2 runtime comparison (on gzipped paired-end FASTQ files of the human genome, each of size approximately 2.5 GB)
