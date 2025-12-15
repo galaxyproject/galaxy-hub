@@ -1,0 +1,99 @@
+name: Publish Astro Hub
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'astro/**'
+  schedule:
+    # Daily rebuild at 11:30 PM UTC
+    - cron: "30 23 * * *"
+
+concurrency:
+  group: publish-astro
+  cancel-in-progress: false
+
+env:
+  NODE_OPTIONS: --max-old-space-size=4096
+
+defaults:
+  run:
+    working-directory: astro
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    outputs:
+      has_new_content: ${{ steps.check_changes.outputs.content }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check for news/events content changes
+        uses: dorny/paths-filter@v3
+        id: check_changes
+        with:
+          list-files: json
+          filters: |
+            content:
+              - added: 'astro/src/content/articles/**/*.md'
+              - added: 'astro/src/content/events/**/*.md'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: astro/package-lock.json
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Static Site
+        run: npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-2
+
+      - name: Sync to S3
+        run: aws s3 sync dist/ s3://${{ secrets.AWS_S3_BUCKET }}/ --delete --acl public-read --follow-symlinks
+
+      - name: Invalidate CloudFront cache for feeds
+        if: steps.check_changes.outputs.content == 'true'
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/events/feed.json" "/news/feed.json" \
+            --region us-east-1
+
+      - name: Wait for cache invalidation
+        if: steps.check_changes.outputs.content == 'true'
+        run: sleep 90
+
+  galaxy-social-assistant:
+    needs: publish
+    if: github.event_name == 'push' && needs.publish.outputs.has_new_content == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Galaxy Social Assistant Token
+        uses: actions/create-github-app-token@v2
+        id: galaxy-social-assistant-token
+        with:
+          app-id: ${{ vars.GALAXY_SOCIAL_ASSISTANT_APP_ID }}
+          private-key: ${{ secrets.GALAXY_SOCIAL_ASSISTANT_PRIVATE_KEY }}
+          owner: "usegalaxy-eu"
+          repositories: "galaxy-social-assistant"
+
+      - name: Trigger Galaxy Social Assistant
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: feed_bot.yml
+          repo: usegalaxy-eu/galaxy-social-assistant
+          token: ${{ steps.galaxy-social-assistant-token.outputs.token }}
+          ref: main
+          inputs: '{"days": "1"}'

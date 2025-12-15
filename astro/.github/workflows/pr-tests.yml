@@ -1,0 +1,61 @@
+name: Astro PR Tests
+on:
+  pull_request:
+    paths:
+      - 'astro/**'
+  workflow_dispatch:
+
+concurrency:
+  group: astro-tests-${{ github.head_ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_OPTIONS: --max-old-space-size=4096
+
+defaults:
+  run:
+    working-directory: astro
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: astro/package-lock.json
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Check Types
+        run: npm run check || true
+
+      - name: Build Static Site
+        run: npm run build
+
+      - name: Start Preview Server
+        run: |
+          npm run preview &
+          sleep 5
+
+      - name: Check Internal Links
+        run: |
+          npx linkinator http://localhost:4321 \
+            --recurse \
+            --skip "^(?!http://localhost)" \
+            --timeout 30000 \
+            --concurrency 5 \
+            || true
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: astro-build
+          path: astro/dist
+          retention-days: 7
