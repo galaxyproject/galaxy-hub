@@ -4,6 +4,7 @@
  * EuroScienceGateway project page
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
+import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
 import { getCollection } from 'astro:content';
 
 // Check for solo mode
@@ -129,6 +130,9 @@ function esgUrl(path: string): string {
       </div>
     </section>
   )}
+
+  <!-- Interactive Work Packages Poster -->
+  <EsgInteractivePoster />
 
   <!-- Expected Results -->
   {expectedResults && (

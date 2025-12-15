@@ -1,0 +1,358 @@
+---
+/**
+ * ESG Interactive Poster Component
+ *
+ * Displays a visual poster with clickable work package areas.
+ * When clicking on different sections, a highlight indicator moves
+ * and a carousel shows information about that work package.
+ */
+
+// Work package data
+const workPackages = [
+  {
+    title: "Work Packages",
+    content: "EuroScienceGateway is organized into multiple work packages, each with its own focus.",
+    news: null,
+    hidden: true
+  },
+  {
+    title: "Work Package 1",
+    content: "Project Management, Coordination and Dissemination.",
+    news: "/projects/esg/news/?tag=esg-wp1"
+  },
+  {
+    title: "Work Package 2",
+    content: "Stimulate FAIR and reusable research.",
+    news: "/projects/esg/news/?tag=esg-wp2"
+  },
+  {
+    title: "Work Package 3",
+    content: "Pulsar Network: Distributed heterogeneous compute.",
+    news: "/projects/esg/news/?tag=esg-wp3"
+  },
+  {
+    title: "Work Package 4",
+    content: "Building blocks for a sustainable operating model.",
+    news: "/projects/esg/news/?tag=esg-wp4"
+  },
+  {
+    title: "Work Package 5",
+    content: "Community engagement, adoption and onboarding.",
+    news: "/projects/esg/news/?tag=esg-wp5"
+  }
+];
+---
+
+<div id="esg-interactive-poster" class="poster-wrapper">
+  <h2 id="work-packages" class="text-2xl font-light text-gray-700 mb-6">
+    <a href="#work-packages" class="hover:text-blue-600">Work Packages</a>
+  </h2>
+
+  <div class="poster-grid">
+    <img src="/images/esg/interactive_poster/section_1.svg" class="section-1" alt="" />
+    <img src="/images/esg/interactive_poster/section_2.svg" class="section-2" alt="" />
+    <img src="/images/esg/interactive_poster/section_3.svg" class="section-3" alt="" />
+    <img src="/images/esg/interactive_poster/section_4.svg" class="section-4" alt="" />
+    <img src="/images/esg/interactive_poster/section_5.svg" class="section-5" alt="" />
+    <img src="/images/esg/interactive_poster/section_6.svg" class="section-6" alt="" />
+
+    <div class="indicator-grid" id="indicator-grid">
+      <div class="indicator hidden" id="indicator"></div>
+    </div>
+
+    <div class="click-overlay">
+      <button data-wp="1" aria-label="Work Package 1" style="grid-area: wp-1"></button>
+      <button data-wp="2" aria-label="Work Package 2" style="grid-area: wp-2"></button>
+      <button data-wp="3" aria-label="Work Packages 3 and 4" style="grid-area: wp-3-4"></button>
+      <button data-wp="5" aria-label="Work Package 5" style="grid-area: wp-5"></button>
+    </div>
+  </div>
+
+  <hr class="poster-divider" />
+
+  <div class="carousel-container">
+    <div class="carousel" id="wp-carousel">
+      <button class="carousel-control prev" id="carousel-prev" aria-label="Previous">‹</button>
+
+      <div class="carousel-content" id="carousel-content">
+        {workPackages.map((wp, index) => (
+          <div class={`carousel-slide ${index === 0 ? 'active' : ''}`} data-index={index}>
+            <h3>{wp.title}</h3>
+            <p>
+              {wp.content}
+              {wp.news && <span> - <a href={wp.news}>News</a></span>}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <button class="carousel-control next" id="carousel-next" aria-label="Next">›</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .poster-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .poster-wrapper h2,
+  .poster-wrapper h3 {
+    font-weight: 400;
+  }
+
+  .poster-grid {
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2272fr 3454fr 445fr 433fr;
+    grid-template-rows: 804fr 804fr 1346fr 655fr;
+    grid-template-areas:
+      "s1 s3 s3 s6"
+      "s1 s4 s4 s6"
+      "s2 s4 s4 s6"
+      "s2 s5 no no";
+  }
+
+  .poster-grid img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-1 { grid-area: s1; }
+  .section-2 { grid-area: s2; }
+  .section-3 { grid-area: s3; }
+  .section-4 { grid-area: s4; }
+  .section-5 { grid-area: s5; }
+  .section-6 { grid-area: s6; }
+
+  .indicator-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: grid;
+    grid-template-areas:
+      "nonA nonB nonC"
+      "nonD indi nonE"
+      "nonF nonG nonH";
+    transition: grid-template-columns 0.2s, grid-template-rows 0.2s;
+  }
+
+  .indicator {
+    grid-area: indi;
+    border: 3px solid #f1c232;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px rgba(255, 241, 43, 0.6);
+    pointer-events: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .indicator.hidden {
+    border-color: transparent;
+    box-shadow: none;
+  }
+
+  .click-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: grid;
+    grid-template-columns: 2272fr 3454fr 445fr 433fr;
+    grid-template-rows: 804fr 804fr 1346fr 655fr;
+    grid-template-areas:
+      "wp-5 nonA wp-2 wp-1"
+      "wp-5 nonA wp-3-4 wp-1"
+      "nonB nonA wp-3-4 wp-1"
+      "nonB nonA nonC nonC";
+  }
+
+  .click-overlay button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    pointer-events: all;
+    cursor: pointer;
+  }
+
+  .click-overlay button:hover {
+    background-color: rgba(241, 194, 50, 0.1);
+  }
+
+  .poster-divider {
+    width: 80%;
+    margin: 1.5rem auto;
+    height: 1px;
+    background-color: #c5c7c9;
+    border: none;
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    align-items: stretch;
+    background-color: #f1c232;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-height: 9rem;
+  }
+
+  .carousel-control {
+    background: rgba(0, 0, 0, 0.2);
+    color: #333;
+    border: none;
+    padding: 0 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .carousel-control:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .carousel-content {
+    flex: 1;
+    position: relative;
+    padding: 1rem;
+  }
+
+  .carousel-slide {
+    display: none;
+    text-align: center;
+  }
+
+  .carousel-slide.active {
+    display: block;
+  }
+
+  .carousel-slide h3 {
+    color: black;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  .carousel-slide p {
+    color: black;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .carousel-slide a {
+    color: #25537B;
+    text-decoration: underline;
+  }
+
+  .carousel-slide a:hover {
+    color: #1a3a54;
+  }
+</style>
+
+<script>
+  // Total dimensions for calculating indicator position
+  const totalDimensions = {
+    w: 2272 + 3454 + 445 + 433,
+    h: 804 + 804 + 1346 + 655
+  };
+
+  // Work package indicator areas (in pixels relative to total dimensions)
+  const wpAreas = [
+    { x: 0, y: 0, w: totalDimensions.w, h: totalDimensions.h, hidden: true }, // Summary
+    { x: 40, y: 0, w: totalDimensions.w - 60, h: totalDimensions.h }, // WP1
+    { x: 2310, y: 10, w: 3850, h: 770 }, // WP2
+    { x: 2310, y: 820, w: 3850, h: 2090 }, // WP3
+    { x: 2310, y: 820, w: 3850, h: 2090 }, // WP4
+    { x: 40, y: 5, w: 2200, h: 1570 } // WP5
+  ];
+
+  let currentIndex = 0;
+
+  function updateCarousel(index: number) {
+    const slides = document.querySelectorAll('.carousel-slide');
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+    currentIndex = index;
+  }
+
+  function updateIndicator(index: number) {
+    const grid = document.getElementById('indicator-grid');
+    const indicator = document.getElementById('indicator');
+    if (!grid || !indicator) return;
+
+    const area = wpAreas[index];
+
+    if (area.hidden) {
+      indicator.classList.add('hidden');
+    } else {
+      indicator.classList.remove('hidden');
+    }
+
+    const colStart = area.x;
+    const colMid = area.w;
+    const colEnd = totalDimensions.w - (area.x + area.w);
+
+    const rowStart = area.y;
+    const rowMid = area.h;
+    const rowEnd = totalDimensions.h - (area.y + area.h);
+
+    grid.style.gridTemplateColumns = `${colStart}fr ${colMid}fr ${colEnd}fr`;
+    grid.style.gridTemplateRows = `${rowStart}fr ${rowMid}fr ${rowEnd}fr`;
+  }
+
+  function showSlide(index: number) {
+    const totalSlides = wpAreas.length;
+    if (index >= totalSlides) index = 0;
+    if (index < 0) index = totalSlides - 1;
+
+    updateCarousel(index);
+    updateIndicator(index);
+  }
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', () => {
+    // Previous/Next buttons
+    document.getElementById('carousel-prev')?.addEventListener('click', () => {
+      showSlide(currentIndex - 1);
+    });
+
+    document.getElementById('carousel-next')?.addEventListener('click', () => {
+      showSlide(currentIndex + 1);
+    });
+
+    // Work package click handlers
+    document.querySelectorAll('.click-overlay button').forEach(button => {
+      button.addEventListener('click', () => {
+        const wp = parseInt(button.getAttribute('data-wp') || '0');
+
+        // Special case: WP3 and WP4 share the same area, toggle between them
+        if (wp === 3 && currentIndex === 3) {
+          showSlide(4);
+        } else if (wp === 3 && currentIndex === 4) {
+          showSlide(3);
+        } else {
+          showSlide(wp);
+        }
+      });
+    });
+
+    // Initialize with summary view
+    showSlide(0);
+  });
+</script>
