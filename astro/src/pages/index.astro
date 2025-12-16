@@ -2,9 +2,10 @@
 import HomeLayout from '../layouts/HomeLayout.astro';
 import { getCollection } from 'astro:content';
 
-// Get recent news
-const news = await getCollection('news');
-const recentNews = news
+// Get recent news (news articles are in 'articles' collection, filtered by slug)
+const articles = await getCollection('articles');
+const recentNews = articles
+	.filter(article => article.data.slug?.startsWith('news/'))
 	.sort((a, b) => {
 		const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
 		const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
@@ -750,7 +751,7 @@ const pillars = [
 					</div>
 					<div class="news-list">
 						{recentNews.map((item) => (
-							<a href={`/news/${item.data.slug}/`} class="news-card">
+							<a href={`/${item.data.slug}/`} class="news-card">
 								<div class="news-date">{formatDate(item.data.date)}</div>
 								<h3 class="news-title">{item.data.title}</h3>
 								{item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
