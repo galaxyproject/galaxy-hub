@@ -68,6 +68,10 @@ FQ2BAM appears slightly more uniform overall (image above) but shows a prominent
     <img src="bwa_mem2_mqc.png" alt="Mapping quality of BWA-MEM2" width="600"/>
 </div>
 
+### Galaxy history
+
+The analysis history is linked [here](https://usegalaxy.eu/u/kumara/h/benchmarking-of-fq2bam-with-bwa-mem2-and-bwa).
+
 ### Acknowledgements
 
 Thanks a lot to Wolfgang Maier, Michael Schatz, Björn Grüning and Mira Kuntz for helping in the development and integration on the European Galaxy server, NVIDIA team (Ben Busby, Daniel Puleri, Tong Zhu and others) for their support and explanations and everyone involved in making this possible.
