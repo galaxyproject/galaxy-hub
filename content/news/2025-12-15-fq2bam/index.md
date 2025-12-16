@@ -2,7 +2,7 @@
 title: "GPU-accelerated genome mapper Parabricks FQ2BAM is now in Galaxy"
 date: "2025-12-15"
 authors: Anup Kumar 
-tease: "NVIDIA Parabricks' GPU-accelerated FQ2BAM is now available in Galaxy on L40S GPUs, bringing FASTQ-to-BAM alignment to just a few minutes for 2.5 GB paired-end human whole-genome datasets. Its runtime is benchmarked against BWA-MEM2 and BWA across five runs and shows that mapping and QC metrics remain essentially identical to CPU-based alignment—while delivering a major speedup for Galaxy workflows."
+tease: "NVIDIA Parabricks' GPU-accelerated FQ2BAM is now available in Galaxy, bringing FASTQ-to-BAM alignment runtime to just a few minutes for 2.5 GB paired-end human whole-genome datasets. Its runtime is benchmarked against BWA-MEM2 and BWA across five runs and shows that mapping and QC metrics remain essentially identical to CPU-based alignment—while delivering a major speedup for Galaxy workflows."
 subsites: [global,eu,us,freiburg]
 ---
 
