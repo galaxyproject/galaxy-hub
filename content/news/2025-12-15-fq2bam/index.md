@@ -8,16 +8,16 @@ subsites: [global,eu,us,freiburg]
 
 # **Parabricks FQ2BAM mapper**
 
-NVIDIA's Parabricks provides a GPU-accelerated tool suite for genomic analysis, [FQ2BAM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy0&version=latest). It is integrated into Galaxy and runs on an L40S GPU to generate read alignments in a few minutes for zipped paired-end reads of size as large as 2.5 GB. It provides a drop-in replacement for BWA-MEM2 while maintaining the same accuracy. Parabricks' [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) tool wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration consistent with GATK best practices.
+NVIDIA's [Parabricks](https://docs.nvidia.com/clara/parabricks/latest/gettingstarted/gettingthesoftware.html#running-nvidia-parabricks) developed a GPU-accelerated tool suite for genomic analysis. One of the tools from the suite is [FQ2BAM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy0&version=latest) which accelerates mapping of DNA reads. It is now integrated into Galaxy and runs on an L40S GPU to generate read alignments in a few minutes for zipped paired-end FASTQ reads of size as large as 2.5 GB. It is a drop-in replacement for BWA-MEM2 while maintaining the same mapping quality. [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) tool wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration.
 
 
 ## FQ2BAM vs BWA-MEM2 runtime comparison (on gzipped paired-end FASTQ files of the human genome, each of size approximately 2.5 GB)
 
 Across five repeated runs, the three mapping tools separate very clearly in speed:
 
-- FQ2BAM (1 GPU and 8 CPU cores) was consistently the fastest: 5–8 min per run. In practice, that’s “finish-and-move-on” performance with a tight spread.
+- FQ2BAM (1 GPU and 8 CPU cores) was consistently the fastest: 5–8 min per run.
 
-- BWA-MEM2 (8 cores) came next but showed large variability: 14–40 min (median 16 min, mean 23.2 ± 11.4 min (SD)). Most runs clustered around ~14–16 min, but one slow run (40 min) noticeably widened the distribution.
+- BWA-MEM2 (8 cores) came next but showed large variability: 14–40 min (median 16 min, mean 23.2 ± 11.4 min (SD)). Most runs are clustered around ~14–16 min, but one slow run (40 min) noticeably widened the distribution.
 
 - BWA (8 cores) was the slowest overall yet fairly steady: 34–46 min (median 38 min, mean 39.0 ± 4.5 min (SD)), making it predictable but substantially longer.
 
@@ -25,12 +25,12 @@ Across five repeated runs, the three mapping tools separate very clearly in spee
     <img src="runtimes.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
 </div>
 
-In terms of typical (median) speed, FQ2BAM (1 L40S GPU and 8 cores) is approximately 3x faster than BWA-MEM2 (8 cores) and 7x faster than BWA (8 cores). FQ2BAM dominates on runtime optimizing throughput for Galaxy users. It will prove to be a game changer for faster genomic analyses while running Galaxy workflows. BWA-MEM2 is usually much faster than BWA but less consistent, and BWA remains the slow, steady baseline.
+In terms of typical (median) speed, FQ2BAM (1 L40S GPU and 8 cores) is approximately 3-4x faster than BWA-MEM2 (8 cores) and 6-7x faster than BWA (8 cores). FQ2BAM achieves superior performance on runtime optimizing throughput for Galaxy users. It will prove to be a game changer for faster genomic analyses while running Galaxy workflows. BWA-MEM2 is usually much faster than BWA but less consistent, and BWA remains the slow, steady baseline.
 
 
 ## FQ2BAM vs BWA-MEM2 mapping statistics
 
-The alignment files (BAM) from FQ2BAM and BWA-MEM2 tools are analysed using [QualiMap BamQC](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fqualimap_bamqc%2Fqualimap_bamqc%2F2.3%2Bgalaxy0&version=latest) tool to compare various mapping statistics on the same human genome. Both alignments are essentially identical in overall mapping performance: they use the same reference size (3,209,286,105 hg38) and number of reads (53,317,838), and both achieve approximately 99.6% mapped reads (53,102,797 for FQ2BAM vs 53,102,800 for BWA-MEM2) with only approximately 0.4% unmapped. Paired-end behavior is also nearly the same (approximately 99.24% “both in pair”) and supplementary alignments are comparable (approximately 0.09%).
+The alignment files (BAM) from FQ2BAM and BWA-MEM2 tools are analysed using [QualiMap BamQC](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fqualimap_bamqc%2Fqualimap_bamqc%2F2.3%2Bgalaxy0&version=latest) tool to compare various mapping statistics on the same human reads. Both alignments are essentially identical in overall mapping performance: they use the same reference size (3,209,286,105 hg38) and number of reads (53,317,838), and both achieve approximately 99.6% mapped reads (53,102,797 for FQ2BAM vs 53,102,800 for BWA-MEM2) with only approximately 0.4% unmapped. Paired-end behavior is also nearly the same (approximately 99.24% “both in pair”) and supplementary alignments are comparable (approximately 0.09%).
 
 <div align="center">
     <img src="parabricks_qm.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
