@@ -68,9 +68,16 @@ FQ2BAM appears slightly more uniform overall (image above) but shows a prominent
     <img src="bwa_mem2_mqc.png" alt="Mapping quality of BWA-MEM2" width="600"/>
 </div>
 
-### Galaxy history
+### Workflow invocation
 
-The analysis history is linked [here](https://usegalaxy.eu/u/kumara/h/benchmarking-of-fq2bam-with-bwa-mem2-and-bwa).
+The [Galaxy workflow invocation](https://usegalaxy.eu/workflows/invocations/9b028594c3ddbf80) plot shows comparison between FQ2BAM, BWA-MEM2 and BWA across several parameters. The individual runtimes of mappers are: BWA (~45 min), BWA-MEM2 (~12 min) and FQ2BAM (~6 min), being the fastest. 
+
+<div align="center">
+    <img src="wf_invocations.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA_MEM2 and BWA" width="600"/>
+</div>
+
+In terms of compute usage, allocated core time, BWA takes around 360 minutes, followed by BWA-MEM2 (around 100 minutes) and FQ2BAM (around 40 minutes). Overall, FQ2BAM, accelerated by GPU, achieves the best runtime compared to standard mappers such as BWA-MEM2 running on CPUs.
+
 
 ### Acknowledgements
 
