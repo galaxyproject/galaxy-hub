@@ -6,9 +6,9 @@ tease: "NVIDIA Parabricks' GPU-accelerated FQ2BAM is now available in Galaxy, br
 subsites: [global,eu,us,freiburg]
 ---
 
-# **Parabricks FQ2BAM mapper**
+# Parabricks FQ2BAM mapper
 
-NVIDIA's [Parabricks](https://docs.nvidia.com/clara/parabricks/latest/gettingstarted/gettingthesoftware.html#running-nvidia-parabricks) developed a GPU-accelerated tool suite for genomic analysis. One of the tools from the suite is [FQ2BAM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy0&version=latest) which accelerates mapping of DNA reads. It is now integrated into Galaxy and runs on a GPU to generate read alignments in a few minutes for zipped paired-end FASTQ reads of size 2.5 GB. It is a drop-in replacement for BWA-MEM2 while maintaining the same mapping quality. [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) tool wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration.
+NVIDIA's [Parabricks](https://docs.nvidia.com/clara/parabricks/latest/gettingstarted/gettingthesoftware.html#running-nvidia-parabricks) developed a GPU-accelerated tool suite for genomic analysis. One of the tools from the suite is [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) which accelerates mapping of DNA reads. It is now integrated into Galaxy and runs on a GPU to generate read alignments in a few minutes for zipped paired-end FASTQ reads of size 2.5 GB. It is a drop-in replacement for BWA-MEM2 while maintaining the same mapping quality. [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) tool wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration.
 
 
 ## FQ2BAM vs BWA-MEM2 runtime comparison (on gzipped paired-end FASTQ files of the human genome, each of size approximately 2.5 GB)
@@ -30,14 +30,13 @@ In terms of typical (median) speed, FQ2BAM (1 GPU and 8 cores) is approximately 
 
 ## FQ2BAM vs BWA-MEM2 mapping statistics
 
-The alignment files (BAM) from FQ2BAM and BWA-MEM2 tools are analysed using [QualiMap BamQC](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fqualimap_bamqc%2Fqualimap_bamqc%2F2.3%2Bgalaxy0&version=latest) tool to compare various mapping statistics on the same human reads. Both alignments are essentially identical in overall mapping performance: they use the same reference size (3,209,286,105 hg38) and number of reads (53,317,838), and both achieve approximately 99.6% mapped reads (53,102,797 for FQ2BAM vs 53,102,800 for BWA-MEM2) with only approximately 0.4% unmapped. Paired-end behavior is also nearly the same (approximately 99.24% “both in pair”) and supplementary alignments are comparable (approximately 0.09%).
+The alignment files (BAM) from FQ2BAM and BWA-MEM2 tools are analysed using QualiMap BamQC tool to compare various mapping statistics on the same human reads. Both alignments are essentially identical in overall mapping performance: they use the same reference size (3,209,286,105 hg38) and number of reads (53,317,838), and both achieve approximately 99.6% mapped reads (53,102,797 for FQ2BAM vs 53,102,800 for BWA-MEM2) with only approximately 0.4% unmapped. Paired-end behavior is also nearly the same (approximately 99.24% “both in pair”) and supplementary alignments are comparable (approximately 0.09%).
 
 <div align="center">
     <img src="parabricks_qm.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
 </div>
 
 FQ2BAM reports 11.2M duplicate reads flagged as duplicates (21.01%) and "duplicated reads skipped" consistent with duplicates being explicitly marked and handled in that pipeline, while the BWA-MEM2 report shows 0 flagged duplicates but a large estimated duplicate count (33.7M; duplication rate 46.16%), suggesting duplicates were not marked and QualiMap BamQC inferred them instead. BWA-MEM2 also has more overlapping read pairs (26.08% vs 20.36%) and slightly more clipped reads (1.29% vs 1.07%), indicating small differences in alignment/fragment handling even though the headline mapping rates are the same.
-
 
 <div align="center">
     <img src="bwa-mem2_qm.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
@@ -58,7 +57,7 @@ FQ2BAM appears slightly more uniform overall (image above) but shows a prominent
     <img src="bwa_mem2_mq.png" alt="Mapping quality of BWA-MEM2" width="600"/>
 </div>
 
-[MultiQC tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmultiqc%2Fmultiqc%2F1.27%2Bgalaxy4&version=latest) produces the following plots showing similar outcomes of alignments by FQ2BAM and BWA-MEM2.
+MultiQC tool produces the following plots showing similar outcomes of alignments by FQ2BAM and BWA-MEM2.
 
 <div align="center">
     <img src="parabricks_mqc.png" alt="Mapping quality of FQ2BAM via MultiQC" width="600"/>
@@ -67,10 +66,6 @@ FQ2BAM appears slightly more uniform overall (image above) but shows a prominent
 <div align="center">
     <img src="bwa_mem2_mqc.png" alt="Mapping quality of BWA-MEM2 via MultiQC" width="600"/>
 </div>
-
-### Galaxy history
-
-The Galaxy history for the above analysis is linked [here](https://usegalaxy.eu/u/kumara/h/benchmarking-of-fq2bam-with-bwa-mem2-and-bwa).
 
 ### Workflow invocation
 
@@ -82,17 +77,13 @@ The [Galaxy workflow invocation](https://usegalaxy.eu/workflows/invocations/9b02
 
 In terms of compute usage, allocated core time, BWA takes around 360 minutes, followed by BWA-MEM2 (around 100 minutes) and FQ2BAM (around 40 minutes). Overall, FQ2BAM, accelerated by GPU, achieves the best runtime compared to standard mappers such as BWA-MEM2 running on CPUs.
 
+### Resources
+
+- The Galaxy history for the above analysis is linked [here](https://usegalaxy.eu/u/kumara/h/benchmarking-of-fq2bam-with-bwa-mem2-and-bwa).
+- Try out the [FQ2BAM tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy1&version=latest) available on European Galaxy server.
+- [Galaxy workflow invocation](https://usegalaxy.eu/workflows/invocations/9b028594c3ddbf80)
+
 
 ### Acknowledgements
 
 Thanks a lot to Wolfgang Maier, Michael Schatz, Björn Grüning and Mira Kuntz for helping in the development and integration on the European Galaxy server, NVIDIA team (Ben Busby, Daniel Puleri, Tong Zhu and others) for their support and explanations and everyone involved in making this possible.
-
- 
-
-
-
-
-
-
-
-
