@@ -8,7 +8,7 @@ subsites: [global,eu,us,freiburg]
 
 # **Parabricks FQ2BAM mapper**
 
-NVIDIA's [Parabricks](https://docs.nvidia.com/clara/parabricks/latest/gettingstarted/gettingthesoftware.html#running-nvidia-parabricks) developed a GPU-accelerated tool suite for genomic analysis. One of the tools from the suite is [FQ2BAM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy0&version=latest) which accelerates mapping of DNA reads. It is now integrated into Galaxy and runs on an L40S GPU to generate read alignments in a few minutes for zipped paired-end FASTQ reads of size as large as 2.5 GB. It is a drop-in replacement for BWA-MEM2 while maintaining the same mapping quality. [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) tool wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration.
+NVIDIA's [Parabricks](https://docs.nvidia.com/clara/parabricks/latest/gettingstarted/gettingthesoftware.html#running-nvidia-parabricks) developed a GPU-accelerated tool suite for genomic analysis. One of the tools from the suite is [FQ2BAM](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fparabricks_fq2bam%2Fparabricks_fq2bam%2F4.6.0-1%2Bgalaxy0&version=latest) which accelerates mapping of DNA reads. It is now integrated into Galaxy and runs on a GPU to generate read alignments in a few minutes for zipped paired-end FASTQ reads of size 2.5 GB. It is a drop-in replacement for BWA-MEM2 while maintaining the same mapping quality. [FQ2BAM](https://docs.nvidia.com/clara/parabricks/latest/documentation/tooldocs/man_fq2bam.html) tool wraps BWA-MEM2 to perform alignment from FASTQ to BAM and then handles downstream processing such as sorting, with optional steps for duplicate marking and base-quality score recalibration.
 
 
 ## FQ2BAM vs BWA-MEM2 runtime comparison (on gzipped paired-end FASTQ files of the human genome, each of size approximately 2.5 GB)
@@ -25,7 +25,7 @@ Across five repeated runs, the three mapping tools separate very clearly in spee
     <img src="runtimes.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
 </div>
 
-In terms of typical (median) speed, FQ2BAM (1 L40S GPU and 8 cores) is approximately 3-4x faster than BWA-MEM2 (8 cores) and 6-7x faster than BWA (8 cores). FQ2BAM achieves superior performance on runtime optimizing throughput for Galaxy users. It will prove to be a game changer for faster genomic analyses while running Galaxy workflows. BWA-MEM2 is usually much faster than BWA but less consistent, and BWA remains the slow, steady baseline.
+In terms of typical (median) speed, FQ2BAM (1 GPU and 8 cores) is approximately 3-4x faster than BWA-MEM2 (8 cores) and 6-7x faster than BWA (8 cores). FQ2BAM achieves superior performance on runtime optimizing throughput for Galaxy users. It will prove to be a game changer for faster genomic analyses while running Galaxy workflows. BWA-MEM2 is usually much faster than BWA but less consistent, and BWA remains the slow, steady baseline.
 
 
 ## FQ2BAM vs BWA-MEM2 mapping statistics
@@ -61,11 +61,11 @@ FQ2BAM appears slightly more uniform overall (image above) but shows a prominent
 [MultiQC tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmultiqc%2Fmultiqc%2F1.27%2Bgalaxy4&version=latest) produces the following plots showing similar outcomes of alignments by FQ2BAM and BWA-MEM2.
 
 <div align="center">
-    <img src="parabricks_mqc.png" alt="Mapping quality of BWA-MEM2" width="600"/>
+    <img src="parabricks_mqc.png" alt="Mapping quality of FQ2BAM via MultiQC" width="600"/>
 </div>
 
 <div align="center">
-    <img src="bwa_mem2_mqc.png" alt="Mapping quality of BWA-MEM2" width="600"/>
+    <img src="bwa_mem2_mqc.png" alt="Mapping quality of BWA-MEM2 via MultiQC" width="600"/>
 </div>
 
 ### Galaxy history
