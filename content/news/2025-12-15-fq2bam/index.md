@@ -51,7 +51,7 @@ In both "mapping quality across the reference" plots, FQ2BAM and BWA-MEM2 show a
     <img src="parabricks_mq.png" alt="Mapping quality of FQ2BAM" width="600"/>
 </div>
 
-While both tools deliver broadly comparable mapping confidence, BWA-MEM2 output (BAM file) often preserves the contig order coming from the FASTA at alignment time (resembling more “alphabetical” depending on how that FASTA is ordered) but FQ2BAM follows a different sequence order (chr1, chr10 appearing first and then blocks of "_alt" (alternate loci) and "chrUn_*" (unplaced) contigs).
+While both tools deliver broadly comparable mapping confidence, BWA-MEM2 output (BAM file) often preserves the contig order coming from the FASTA at alignment time (resembling more “alphabetical” depending on how that FASTA is ordered) but FQ2BAM output follows a different sequence order (chr1, chr10 appearing first and then blocks of "_alt" (alternate loci) and "chrUn_*" (unplaced) contigs).
 
 <div align="center">
     <img src="bwa_mem2_mq.png" alt="Mapping quality of BWA-MEM2" width="600"/>
