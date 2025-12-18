@@ -92,7 +92,7 @@ We meet monthly via the **Euro-BioImaging Expert Group** on “FAIR Image Data W
 
 ### In-person Meetings
 
-We’re active in conferences and hackathons — including BioHackathon 2023 and 2024 — where we shared new developments and collaborative outputs, like this [preprint](https://osf.io/preprints/biohackrxiv/w8dsz) and community poster.
+We’re active in conferences and hackathons—including the BioHackathons 2023 and 2024—where we shared new developments and collaborative outputs, like this [preprint](https://osf.io/preprints/biohackrxiv/w8dsz) and community poster.
 
 ## 🙌 Meet the dream team of Project 9 @ BioHackathon Europe 2025
 
