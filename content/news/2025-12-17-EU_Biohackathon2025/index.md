@@ -38,7 +38,7 @@ Concrete results from the hackathon:
   - Improved *BIA retrieval* tooling
 - **ISCC support in Galaxy**
   - ISCC hash generator
-  - Tools for hash verification and comparison
+  - Tools for hash verification and comparison in the making
 - **Metadata & standards**
   - Extended **GeoJSON** support
   - Advanced **EDAM Bioimaging** maturity
