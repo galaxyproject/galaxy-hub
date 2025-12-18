@@ -17,7 +17,7 @@ main_subsite: freiburg
 <p align="center">
   <img src="biohackathon2025P9.JPG" alt="Project 9 team at BioHackathon 2025" width="70%">
   <br>
-  <sub>© 📸 Leonid Kostrykin</sub>
+  <sub>CC BY 4.0 📸 Leonid Kostrykin</sub>
 </p>
 
 ## Evolving FAIR Image Analysis in Galaxy for Cross-domain & AI-ready Applications
