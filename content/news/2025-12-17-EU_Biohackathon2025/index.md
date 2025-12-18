@@ -22,7 +22,7 @@ main_subsite: freiburg
 
 ## Evolving FAIR Image Analysis in Galaxy for Cross-domain & AI-ready Applications
 
-At this year’s **BioHackathon Europe**, Project 9 brought together a multidisciplinary, cross-RI team to advance FAIR image analysis in Galaxy, focusing on interoperability, reusability, and AI‑readiness. The project connected members of Euro‑BioImaging, ELIXIR, and beyond.
+At this year's **BioHackathon Europe**, Project 9 brought together a multidisciplinary, cross-RI team to advance FAIR image analysis in Galaxy, focusing on interoperability, reusability, and AI‑readiness. The project connected members of Euro‑BioImaging, ELIXIR, and beyond.
 
 ## Why this project?
 
@@ -61,9 +61,9 @@ Key efforts still evolving:
 
 ➡️ Follow our progress on the [project board](https://github.com/orgs/FAIR-imaging/projects/4)
 
-## What’s next
+## What's next
 
-We’re aiming to:
+We're aiming to:
 
 - Write a report
 - Finalize and stabilize all WIPs  
@@ -73,7 +73,7 @@ We’re aiming to:
 
 ## Get involved
 
-Whether you're into Galaxy or any kind of imaging, your input is welcome. We’re always looking for feedback, tool testers, tutorial contributors, and creative ideas.
+Whether you're into Galaxy or any kind of imaging, your input is welcome. We're always looking for feedback, tool testers, tutorial contributors, and creative ideas.
 
 If you're **passionate about open science and FAIR imaging**, join us, we're building this together.
 
@@ -83,7 +83,7 @@ Join our [Matrix channel](https://matrix.to/#/#galaxyproject_imaging:matrix.org)
 
 ### Community Meetings
 
-We meet monthly via the **Euro-BioImaging Expert Group** on “FAIR Image Data Workflows”, chaired by Anne Fouilloux and Beatriz Serrano-Solano.
+We meet monthly via the **Euro-BioImaging Expert Group** on "FAIR Image Data Workflows", chaired by Anne Fouilloux and Beatriz Serrano-Solano.
 
 - **When**: 3rd Wednesday of each month at 16:00 CET  
 - **Duration**: ~1 hour  
@@ -92,7 +92,7 @@ We meet monthly via the **Euro-BioImaging Expert Group** on “FAIR Image Data W
 
 ### In-person Meetings
 
-We’re active in conferences and hackathons—including the BioHackathons 2023 and 2024—where we shared new developments and collaborative outputs, like this [preprint](https://osf.io/preprints/biohackrxiv/w8dsz) and community poster.
+We're active in conferences and hackathons—including the BioHackathons 2023 and 2024—where we shared new developments and collaborative outputs, like this [preprint](https://osf.io/preprints/biohackrxiv/w8dsz) and community poster.
 
 ## 🙌 Meet the dream team of Project 9 @ BioHackathon Europe 2025
 
