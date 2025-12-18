@@ -54,7 +54,7 @@ Key efforts still evolving:
 - **OMERO → Galaxy** integration for seamless image import  
 - **ISCC tutorial** to support adoption and good practices  
 - **Galaxy Imaging Lab** setup  
-- **“Where to start” tutorial** for new users  
+- **"Where to start" tutorial** for new users  
 - **Community paper**
   - Authorship coordination
   - Outline and roadmap underway
