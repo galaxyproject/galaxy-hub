@@ -45,7 +45,7 @@ Concrete results from the hackathon:
     - Tool and tutorial annotation
     - Domain-specific term enrichment
 
-Together, these improvements strengthen provenance, traceability, and FAIRness across Galaxy imaging workflows.
+Together, these improvements strengthen provenance, traceability, and FAIRness across Galaxy image analysis workflows.
 
 ## Work in progress (WIP)
 
