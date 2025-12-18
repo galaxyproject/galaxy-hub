@@ -2,7 +2,7 @@
 title: "GPU-accelerated genome mapper Parabricks FQ2BAM is now in Galaxy"
 date: "2025-12-15"
 authors: Anup Kumar 
-tease: "NVIDIA Parabricks' GPU-accelerated FQ2BAM is now available in Galaxy, bringing FASTQ-to-BAM alignment runtime to just a few minutes for 2.5 GB paired-end human whole-genome datasets. Its runtime is benchmarked against BWA-MEM2 and BWA across five runs and shows that mapping and QC metrics remain essentially identical to CPU-based alignment—while delivering a major speedup for Galaxy workflows."
+tease: "NVIDIA Parabricks GPU-accelerated FQ2BAM is now available in Galaxy, bringing FASTQ-to-BAM alignment runtime to just a few minutes for 2.5 GB paired-end human whole-genome datasets. Its runtime is benchmarked against BWA-MEM2 and BWA across five runs and shows that mapping and QC metrics remain essentially identical to CPU-based alignment—while delivering a major speedup for Galaxy workflows."
 subsites: [global,eu,us,freiburg]
 ---
 
@@ -51,7 +51,7 @@ In both "mapping quality across the reference" plots, FQ2BAM and BWA-MEM2 show a
     <img src="parabricks_mq.png" alt="Mapping quality of FQ2BAM" width="600"/>
 </div>
 
-FQ2BAM appears slightly more uniform overall (image above) but shows a prominent dense block toward the end of the reference with a stronger/extended low-MAPQ signal, whereas BWA-MEM2 shows a more evenly distributed set of chromosome blocks with more frequent narrow MAPQ dips across many chromosomes (image below). Net outcome: both pipelines deliver broadly comparable mapping confidence, with differences mainly in where (and how strongly) low-confidence alignments accumulate.
+While both tools deliver broadly comparable mapping confidence, BWA-MEM2 output (BAM file) often preserves the contig order coming from the FASTA at alignment time (resembling more “alphabetical” depending on how that FASTA is ordered) but FQ2BAM follows a different sequence order (chr1, chr10 appearing first and then blocks of "_alt" (alternate loci) and "chrUn_*" (unplaced) contigs).
 
 <div align="center">
     <img src="bwa_mem2_mq.png" alt="Mapping quality of BWA-MEM2" width="600"/>
