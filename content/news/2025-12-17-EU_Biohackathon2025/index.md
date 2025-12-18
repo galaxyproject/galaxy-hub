@@ -74,7 +74,7 @@ We’re aiming to:
 
 Whether you're into Galaxy or any kind of imaging, your input is welcome. We’re always looking for feedback, tool testers, tutorial contributors, and creative ideas.
 
-If you're **passionate about open science and FAIR imaging**, join us, we’re building this together.
+If you're **passionate about open science and FAIR imaging**, join us, we're building this together.
 
 ### Communication Channels
 
