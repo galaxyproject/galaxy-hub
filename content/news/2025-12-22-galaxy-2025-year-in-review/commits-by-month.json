@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Galaxy Core Commits by Month (2025)",
+  "width": 500,
+  "height": 200,
+  "data": {
+    "values": [
+      {"month": "Jan", "commits": 442, "order": 1},
+      {"month": "Feb", "commits": 689, "order": 2},
+      {"month": "Mar", "commits": 1038, "order": 3},
+      {"month": "Apr", "commits": 796, "order": 4},
+      {"month": "May", "commits": 895, "order": 5},
+      {"month": "Jun", "commits": 499, "order": 6},
+      {"month": "Jul", "commits": 411, "order": 7},
+      {"month": "Aug", "commits": 622, "order": 8},
+      {"month": "Sep", "commits": 447, "order": 9},
+      {"month": "Oct", "commits": 735, "order": 10},
+      {"month": "Nov", "commits": 706, "order": 11},
+      {"month": "Dec", "commits": 183, "order": 12}
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusTopLeft": 3,
+    "cornerRadiusTopRight": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "month",
+      "type": "nominal",
+      "sort": {"field": "order"},
+      "axis": {"title": null, "labelAngle": 0}
+    },
+    "y": {
+      "field": "commits",
+      "type": "quantitative",
+      "axis": {"title": "Commits"}
+    },
+    "color": {
+      "condition": {
+        "test": "datum.commits === 1038",
+        "value": "#197cd2"
+      },
+      "value": "#48a1dd"
+    },
+    "tooltip": [
+      {"field": "month", "title": "Month"},
+      {"field": "commits", "title": "Commits"}
+    ]
+  }
+}

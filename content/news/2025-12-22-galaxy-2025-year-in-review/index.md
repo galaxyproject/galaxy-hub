@@ -7,7 +7,7 @@ tags: [galaxy, community, statistics, year-in-review]
 subsites: [all]
 ---
 
-![Galaxy 2025 Year in Review](images/cover_art.png)
+<img src="images/cover_art.png" alt="Galaxy 2025 Year in Review" width="300" />
 
 *Image credit: Bob Harris | [bumblebeagle.org/xmas2025](http://www.bumblebeagle.org/xmas2025/)*
 
@@ -45,6 +45,10 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
 | galaxy | 7,554 |
 | training-material | 4,974 |
 | tools-iuc | 2,365 |
+
+### Galaxy Core Commits by Month
+
+<vega-embed spec="commits-by-month.json" />
 
 ## Infrastructure & Developer Tools
 
