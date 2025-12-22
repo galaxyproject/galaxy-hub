@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./bootstrap-compat.css";
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
