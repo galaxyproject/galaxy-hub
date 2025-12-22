@@ -24,12 +24,12 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
 
 <table class="table">
   <tr>
-    <td style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">650K+</strong><br/>registered users</td>
-    <td style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">186M+</strong><br/>jobs executed</td>
+    <td style="background: linear-gradient(135deg, #7a8b10, #90b668); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">650K+</strong><br/>registered users</td>
+    <td style="background: linear-gradient(135deg, #a89707, #e1d808); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">186M+</strong><br/>jobs executed</td>
   </tr>
   <tr>
-    <td style="background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">333M+</strong><br/>datasets stored</td>
-    <td style="background: linear-gradient(135deg, #43e97b, #38f9d7); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">862K+</strong><br/>workflows created</td>
+    <td style="background: linear-gradient(135deg, #9c2a07, #ed7808); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">333M+</strong><br/>datasets stored</td>
+    <td style="background: linear-gradient(135deg, #3e7b36, #80d281); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">862K+</strong><br/>workflows created</td>
   </tr>
 </table>
 
@@ -42,19 +42,19 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
   </tr>
   <tr>
     <td>usegalaxy.eu</td>
-    <td style="text-align: right; background-color: #ebf5fb;"><strong style="color: #3498db;">93.3M</strong></td>
+    <td style="text-align: right; background-color: #e8f3e6;"><strong style="color: #3e7b36;">93.3M</strong></td>
   </tr>
   <tr>
     <td>usegalaxy.org</td>
-    <td style="text-align: right; background-color: #f5eef8;"><strong style="color: #9b59b6;">72.9M</strong></td>
+    <td style="text-align: right; background-color: #f5f3e0;"><strong style="color: #7a8b10;">72.9M</strong></td>
   </tr>
   <tr>
     <td>usegalaxy.org.au</td>
-    <td style="text-align: right; background-color: #fef5e7;"><strong style="color: #e67e22;">13.6M</strong></td>
+    <td style="text-align: right; background-color: #fdf2e6;"><strong style="color: #ed7808;">13.6M</strong></td>
   </tr>
   <tr>
     <td>usegalaxy.fr</td>
-    <td style="text-align: right; background-color: #e8f8f5;"><strong style="color: #1abc9c;">6.9M</strong></td>
+    <td style="text-align: right; background-color: #e6f0ef;"><strong style="color: #196e63;">6.9M</strong></td>
   </tr>
 </table>
 
@@ -67,21 +67,21 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
   </tr>
   <tr>
     <td>galaxy</td>
-    <td style="text-align: right; background-color: #daecf8;"><strong style="color: #197cd2;">7,554</strong></td>
+    <td style="text-align: right; background-color: #e8f3e6;"><strong style="color: #3e7b36;">7,554</strong></td>
   </tr>
   <tr>
     <td>training-material</td>
-    <td style="text-align: right; background-color: #e8f4fc;"><strong style="color: #48a1dd;">4,974</strong></td>
+    <td style="text-align: right; background-color: #eef5e8;"><strong style="color: #5a9b4a;">4,974</strong></td>
   </tr>
   <tr>
     <td>tools-iuc</td>
-    <td style="text-align: right; background-color: #f0f8fd;"><strong style="color: #80c3ea;">2,365</strong></td>
+    <td style="text-align: right; background-color: #f4f7ec;"><strong style="color: #80d281;">2,365</strong></td>
   </tr>
 </table>
 
 ### Galaxy Core Commits by Month
 
-<vega-embed spec="https://gist.githubusercontent.com/nekrut/4e89eede2b1478c8554a3f3f7c351d21/raw/c2e6405a1d9696ae631e14fbc1ef42b9ba1520d1/commits-by-month.json" />
+<vega-embed spec="https://gist.githubusercontent.com/nekrut/ee85b69a80af1a23ba9248b2014343e2/raw/76a2f0c4aa78cad5eef0a65533b6e4bc3b7c3efc/commits-by-month.json" />
 
 ## Infrastructure & Developer Tools
 
@@ -112,9 +112,9 @@ The [Intergalactic Workflow Commission (IWC)](https://iwc.galaxyproject.org/) ma
 
 <table class="table">
   <tr>
-    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #9b59b6;">25</strong><br/>workflow categories</td>
-    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #e74c3c;">270</strong><br/>PRs merged in 2025</td>
-    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #27ae60;">1,251</strong><br/>commits in 2025</td>
+    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #6f265d;">25</strong><br/>workflow categories</td>
+    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #9c2a07;">270</strong><br/>PRs merged in 2025</td>
+    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #3e7b36;">1,251</strong><br/>commits in 2025</td>
   </tr>
 </table>
 
