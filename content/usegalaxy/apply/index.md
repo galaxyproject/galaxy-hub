@@ -8,7 +8,7 @@ Operators of public Galaxy instances who want to join the **usegalaxy.\*** feder
 
 ## How to apply
 
-1. **Open a new issue** in `galaxyproject/galaxy-hub` using the template **“usegalaxy.* Dot-Star Application.”**
+1. **Open a new issue** in `galaxyproject/galaxy-hub` using the template **<a href="https://github.com/galaxyproject/galaxy-hub/issues/new?template=instance_request.yml" target="_blank">"Galaxy Application: Join Our Instance Network."</a>**
 2. **Complete all required fields** and submit the issue for federation review.
 
 ## What you’ll provide (concise checklist)
@@ -29,9 +29,6 @@ Operators of public Galaxy instances who want to join the **usegalaxy.\*** feder
     - Short-term/scratch storage availability
     - CVMFS reference data availability/link
 - **Operations & reliability**
-    - Approximate tool count
-    - Public uptime/status page URL
-    - Uptime over the last 90 days (%) + methodology/source
     - Upgrade policy & cadence (commitment to timely upgrades)
     - Cross-UseGalaxy testing participation (yes/planned/not yet)
     - Optional: Link to metrics dashboards (e.g., KUI)
