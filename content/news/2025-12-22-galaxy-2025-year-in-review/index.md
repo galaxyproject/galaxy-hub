@@ -26,16 +26,16 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
 
 <table class="table">
   <tr>
-    <td style="background: linear-gradient(135deg, #7a8b10, #90b668); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">650K+</strong><br/>registered users</td>
-    <td style="background: linear-gradient(135deg, #a89707, #e1d808); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">186M+</strong><br/>jobs executed</td>
+    <td style="width: 50%; background: linear-gradient(135deg, #7a8b10, #90b668); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">650K+</strong><br/>registered users</td>
+    <td style="width: 50%; background: linear-gradient(135deg, #a89707, #e1d808); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">186M+</strong><br/>jobs executed</td>
   </tr>
   <tr>
-    <td style="background: linear-gradient(135deg, #9c2a07, #ed7808); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">333M+</strong><br/>datasets stored</td>
-    <td style="background: linear-gradient(135deg, #3e7b36, #80d281); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">862K+</strong><br/>workflows created</td>
+    <td style="width: 50%; background: linear-gradient(135deg, #9c2a07, #ed7808); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">333M+</strong><br/>datasets stored</td>
+    <td style="width: 50%; background: linear-gradient(135deg, #3e7b36, #80d281); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">862K+</strong><br/>workflows created</td>
   </tr>
   <tr>
-    <td style="background: linear-gradient(135deg, #6f265d, #ac55a9); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">22,699</strong><br/>publications citing Galaxy</td>
-    <td style="background: linear-gradient(135deg, #196e63, #38a89d); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">3,574</strong><br/>GTA 2025 trainees</td>
+    <td style="width: 50%; background: linear-gradient(135deg, #6f265d, #ac55a9); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">22,699</strong><br/>publications citing Galaxy</td>
+    <td style="width: 50%; background: linear-gradient(135deg, #196e63, #38a89d); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">3,574</strong><br/>GTA 2025 trainees</td>
   </tr>
 </table>
 
