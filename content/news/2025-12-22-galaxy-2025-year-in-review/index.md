@@ -11,6 +11,8 @@ subsites: [all]
 
 *Image credit: Bob Harris | [bumblebeagle.org/xmas2025](http://www.bumblebeagle.org/xmas2025/)*
 
+See also: [Galaxy Newsletter December 2025](https://galaxyproject.org/news/2025-12-12-galaxy-newsletter/)
+
 2025 was a busy year. Here's what the Galaxy community built:
 
 - Over **14,900 commits** were pushed across Galaxy core, training materials, and tools repositories
@@ -30,6 +32,10 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
   <tr>
     <td style="background: linear-gradient(135deg, #9c2a07, #ed7808); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">333M+</strong><br/>datasets stored</td>
     <td style="background: linear-gradient(135deg, #3e7b36, #80d281); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">862K+</strong><br/>workflows created</td>
+  </tr>
+  <tr>
+    <td style="background: linear-gradient(135deg, #6f265d, #ac55a9); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">22,699</strong><br/>publications citing Galaxy</td>
+    <td style="background: linear-gradient(135deg, #196e63, #38a89d); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">3,574</strong><br/>GTA 2025 trainees</td>
   </tr>
 </table>
 
