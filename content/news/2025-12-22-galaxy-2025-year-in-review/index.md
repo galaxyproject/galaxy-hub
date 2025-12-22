@@ -41,19 +41,19 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
     <th style="text-align: right;">Jobs</th>
   </tr>
   <tr>
-    <td>usegalaxy.eu</td>
+    <td>🇪🇺 usegalaxy.eu</td>
     <td style="text-align: right; background-color: #e8f3e6;"><strong style="color: #3e7b36;">93.3M</strong></td>
   </tr>
   <tr>
-    <td>usegalaxy.org</td>
+    <td>🇺🇸 usegalaxy.org</td>
     <td style="text-align: right; background-color: #f5f3e0;"><strong style="color: #7a8b10;">72.9M</strong></td>
   </tr>
   <tr>
-    <td>usegalaxy.org.au</td>
+    <td>🇦🇺 usegalaxy.org.au</td>
     <td style="text-align: right; background-color: #fdf2e6;"><strong style="color: #ed7808;">13.6M</strong></td>
   </tr>
   <tr>
-    <td>usegalaxy.fr</td>
+    <td>🇫🇷 usegalaxy.fr</td>
     <td style="text-align: right; background-color: #e6f0ef;"><strong style="color: #196e63;">6.9M</strong></td>
   </tr>
 </table>
