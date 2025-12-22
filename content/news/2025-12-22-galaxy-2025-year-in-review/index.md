@@ -7,7 +7,7 @@ tags: [galaxy, community, statistics, year-in-review]
 subsites: [all]
 ---
 
-<img src="images/cover_art.png" alt="Galaxy 2025 Year in Review" width="300" />
+![Galaxy 2025 Year in Review](./cover_art.png)
 
 *Image credit: Bob Harris | [bumblebeagle.org/xmas2025](http://www.bumblebeagle.org/xmas2025/)*
 
