@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.16.5",
-    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
@@ -74,6 +74,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
     "@testing-library/cypress": "^8.0.1",
+    "abort-controller": "^3.0.0",
     "axe-core": "^4.3.3",
     "cypress": "8.6.0",
     "cypress-axe": "^0.13.0",
@@ -85,6 +86,7 @@
     "http-server": "^13.0.2",
     "jest": "^27.3.1",
     "linkinator": "^6.1.2",
+    "node-fetch": "^3.3.2",
     "sass-loader": "^10.1.1",
     "start-server-and-test": "^1.14.0"
   },
