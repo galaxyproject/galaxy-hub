@@ -74,7 +74,6 @@
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
     "@testing-library/cypress": "^8.0.1",
-    "abort-controller": "^3.0.0",
     "axe-core": "^4.3.3",
     "cypress": "8.6.0",
     "cypress-axe": "^0.13.0",
@@ -86,7 +85,6 @@
     "http-server": "^13.0.2",
     "jest": "^27.3.1",
     "linkinator": "^6.1.2",
-    "node-fetch": "^3.3.2",
     "sass-loader": "^10.1.1",
     "start-server-and-test": "^1.14.0"
   },
