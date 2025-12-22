@@ -7,7 +7,9 @@ tags: [galaxy, community, statistics, year-in-review]
 subsites: [all]
 ---
 
-![Galaxy 2025 Year in Review](images/hero-background.png)
+![Galaxy 2025 Year in Review](images/cover_art.png)
+
+*Image credit: Bob Harris | [bumblebeagle.org/xmas2025](http://www.bumblebeagle.org/xmas2025/)*
 
 2025 was a busy year. Here's what the Galaxy community built:
 
