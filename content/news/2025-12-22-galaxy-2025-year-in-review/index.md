@@ -22,29 +22,62 @@ subsites: [all]
 
 Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.fr, and usegalaxy.be:
 
-| Metric | Value |
-|--------|-------|
-| Registered users | 650K+ |
-| Jobs executed | 186M+ |
-| Datasets stored | 333M+ |
-| Workflows created | 862K+ |
+<table class="table">
+  <tr>
+    <td style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">650K+</strong><br/>registered users</td>
+    <td style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">186M+</strong><br/>jobs executed</td>
+  </tr>
+  <tr>
+    <td style="background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">333M+</strong><br/>datasets stored</td>
+    <td style="background: linear-gradient(135deg, #43e97b, #38f9d7); color: white; text-align: center; padding: 15px; border-radius: 8px;"><strong style="font-size: 1.5em;">862K+</strong><br/>workflows created</td>
+  </tr>
+</table>
 
 ### Jobs by Server (2025)
 
-| Server | Jobs |
-|--------|------|
-| usegalaxy.eu | 93.3M |
-| usegalaxy.org | 72.9M |
-| usegalaxy.org.au | 13.6M |
-| usegalaxy.fr | 6.9M |
+<table class="table">
+  <tr>
+    <th>Server</th>
+    <th style="text-align: right;">Jobs</th>
+  </tr>
+  <tr>
+    <td>usegalaxy.eu</td>
+    <td style="text-align: right; background-color: #ebf5fb;"><strong style="color: #3498db;">93.3M</strong></td>
+  </tr>
+  <tr>
+    <td>usegalaxy.org</td>
+    <td style="text-align: right; background-color: #f5eef8;"><strong style="color: #9b59b6;">72.9M</strong></td>
+  </tr>
+  <tr>
+    <td>usegalaxy.org.au</td>
+    <td style="text-align: right; background-color: #fef5e7;"><strong style="color: #e67e22;">13.6M</strong></td>
+  </tr>
+  <tr>
+    <td>usegalaxy.fr</td>
+    <td style="text-align: right; background-color: #e8f8f5;"><strong style="color: #1abc9c;">6.9M</strong></td>
+  </tr>
+</table>
 
 ## 2025 Commits by Repository
 
-| Repository | Commits |
-|------------|---------|
-| galaxy | 7,554 |
-| training-material | 4,974 |
-| tools-iuc | 2,365 |
+<table class="table">
+  <tr>
+    <th>Repository</th>
+    <th style="text-align: right;">Commits</th>
+  </tr>
+  <tr>
+    <td>galaxy</td>
+    <td style="text-align: right; background-color: #daecf8;"><strong style="color: #197cd2;">7,554</strong></td>
+  </tr>
+  <tr>
+    <td>training-material</td>
+    <td style="text-align: right; background-color: #e8f4fc;"><strong style="color: #48a1dd;">4,974</strong></td>
+  </tr>
+  <tr>
+    <td>tools-iuc</td>
+    <td style="text-align: right; background-color: #f0f8fd;"><strong style="color: #80c3ea;">2,365</strong></td>
+  </tr>
+</table>
 
 ### Galaxy Core Commits by Month
 
@@ -77,11 +110,13 @@ New visualization framework launched in 2024, with 244 commits in 2025 adding co
 
 The [Intergalactic Workflow Commission (IWC)](https://iwc.galaxyproject.org/) maintains peer-reviewed, production-ready workflows:
 
-| Metric | Value |
-|--------|-------|
-| Workflow categories | 25 |
-| PRs merged in 2025 | 270 |
-| Commits in 2025 | 1,251 |
+<table class="table">
+  <tr>
+    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #9b59b6;">25</strong><br/>workflow categories</td>
+    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #e74c3c;">270</strong><br/>PRs merged in 2025</td>
+    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #27ae60;">1,251</strong><br/>commits in 2025</td>
+  </tr>
+</table>
 
 ### VGP Assembly v2
 
