@@ -145,12 +145,23 @@
                             </span>
                             <span v-else> - </span>
                         </template>
-                        <!-- <template #cell(tier)="data">
-                            <span v-if="getTierValue(data.item)" class="badge badge-primary">
-                                Tier {{ getTierValue(data.item) }}
-                            </span>
+                        <template #cell(tier)="data">
+                            <div v-if="getTierValue(data.item)" class="icon-tier">
+                                <i
+                                    v-if="getTierDefinition(data.item)"
+                                    :class="getTierDefinition(data.item).icon"
+                                    :title="
+                                        'Tier ' +
+                                        getTierDefinition(data.item).tier +
+                                        ' - ' +
+                                        getTierDefinition(data.item).name
+                                    "
+                                    style="margin-right: 4px"
+                                >
+                                </i>
+                            </div>
                             <span v-else> - </span>
-                        </template> -->
+                        </template>
                         <template #cell(link)="data">
                             <a
                                 v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
@@ -326,6 +337,49 @@ const KEYWORDS = {
 const KEYWORD_LENGTH_MIN = 3;
 const SUGGESTIONS_MAX = 15;
 
+const TIER_DEFINITIONS = [
+    {
+        tier: 1,
+        name: "Global instances",
+        icon: "fas fa-globe",
+        description: "Stable, reliable, and suitable for critical workloads.",
+    },
+    {
+        tier: 2,
+        name: "National instances",
+        icon: "fas fa-building-columns",
+        description:
+            "Robust services with geographic / regional focus (e.g. Italy, Canada); suitable for production use.",
+    },
+    {
+        tier: 3,
+        name: "Subdomains",
+        icon: "fas fa-network-wired",
+        description:
+            "Instances serving specific specialities or communities; reliability depends on parent domain infrastructure.",
+    },
+    {
+        tier: 4,
+        name: "Institutional instances",
+        icon: "fas fa-building",
+        description: "Instances hosted by institutions; reliability depends on institutional infrastructure.",
+    },
+    {
+        tier: 5,
+        name: "Integrated platforms",
+        icon: "fas fa-rocket",
+        description:
+            "Platforms that can launch Galaxy (e.g. AnVIL); variable reliability depends on platform infrastructure.",
+    },
+    {
+        tier: 6,
+        name: "Development instances for testing",
+        icon: "fas fa-flask",
+        description:
+            "For development, testing, or experimental purposes; may have limited reliability and not recommended for production use.",
+    },
+];
+
 const { createSortableField } = useTableSorting();
 
 const tabs = [
@@ -337,6 +391,8 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("tier", "Tier"),
+            { key: "link", label: "Server" },
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -349,6 +405,9 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
+            { key: "link", label: "Server" },
+            { key: "cloud", label: "Cloud" },
+            { key: "deployable", label: "Deployable" },
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -360,7 +419,8 @@ const tabs = [
         label: "Public Servers",
         columns: [
             createSortableField("platform", "Resource"),
-            // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
+            createSortableField("tier", "Tier"),
+            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -373,6 +433,8 @@ const tabs = [
         label: "Academic Clouds",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("tier", "Tier"),
+            { key: "link", label: "Link" },
             { key: "summary", label: "Summary" },
             { key: "purview", label: "Purview" },
             { key: "keywords", label: "Keywords" },
@@ -486,6 +548,7 @@ export default {
             SUGGESTIONS_MAX: SUGGESTIONS_MAX,
             // Pre-built suggestions (built once, never changes)
             allSuggestions: [],
+            tierDefinitions: TIER_DEFINITIONS,
         };
     },
 
@@ -774,9 +837,31 @@ export default {
             return item.filterKey && item.filterKey.toLowerCase().includes(filterLower);
         },
 
+        shouldShowPlatform(platform) {
+            // Show platforms unless operative explicitly equals "0"
+            if (!platform.platforms || platform.platforms.length === 0) {
+                return false;
+            }
+            return platform.platforms.some(
+                (p) =>
+                    !p.designation ||
+                    p.designation.operative === null ||
+                    p.designation.operative === undefined ||
+                    String(p.designation.operative) !== "0",
+            );
+        },
+
         getTierValue(item) {
             const { getTierValue } = useTableSorting();
-            return getTierValue(item);
+            const activeTab = this.tabs[this.tabState?.activeTabIndex || 0];
+            const platform_group = activeTab?.linkGroup || activeTab?.id;
+            return getTierValue(item, platform_group);
+        },
+
+        getTierDefinition(item) {
+            const tierValue = this.getTierValue(item);
+            if (!tierValue) return null;
+            return this.tierDefinitions.find((def) => def.tier === parseInt(tierValue, 10)) || null;
         },
 
         getRegionValue(item, platform_group = null) {
@@ -829,14 +914,6 @@ export default {
             } else {
                 tab.pageEnd = pageEnd;
             }
-        },
-
-        short(url) {
-            // For display purposes, remove (1) http(s):// and www. prefixes and (2) hanging "/" and (3) numeric 4-digit port suffix
-            return url
-                .replace(/^(https?:\/\/)?(www\.)?/, "")
-                .replace(/\/$/, "")
-                .replace(/:\d{4}$/, "");
         },
 
         customSortCompare(aRow, bRow, key) {
@@ -907,11 +984,15 @@ export default {
 
         for (const tab of this.tabs) {
             if (tab.id === "usegalaxy") {
-                tab.platforms = this.platforms.filter((platform) => platform.scope === "usegalaxy");
+                tab.platforms = this.platforms.filter(
+                    (platform) => platform.scope === "usegalaxy" && this.shouldShowPlatform(platform),
+                );
             } else if (tab.id === "all") {
-                tab.platforms = this.platforms;
+                tab.platforms = this.platforms.filter((platform) => this.shouldShowPlatform(platform));
             } else {
-                tab.platforms = this.platformsByGroup(tab.anchor || tab.id);
+                tab.platforms = this.platformsByGroup(tab.anchor || tab.id).filter((platform) =>
+                    this.shouldShowPlatform(platform),
+                );
             }
             tab.displayed = tab.platforms.length;
             this.updatePageData(tab);
@@ -977,7 +1058,10 @@ query {
             }
         }
     }
-    platforms: allPlatform(sortBy: "title", order: ASC) {
+    platforms: allPlatform(
+        sortBy: "title", 
+        order: ASC
+        ) {
         totalCount
         edges {
             node {
@@ -992,6 +1076,49 @@ query {
                     platform_url
                     platform_purview
                     platform_location
+                    designation {
+                        operative
+                        tier
+                        url
+                    }
+                }
+            }
+        }
+    }
+    tools: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                tools {
+                    name
+                    version
+                    link
+                    description
+                }
+            }
+        }
+    }
+    references: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                references {
+                    type
+                    items {
+                        name
+                    }
                 }
             }
         }
@@ -1100,24 +1227,64 @@ footer.page-footer {
     margin: 1px 0px 4px;
 }
 
-/* Tier badge styling */
-.badge-primary {
-    background-color: #007bff;
-    color: white;
-    padding: 0.25em 0.6em;
-    border-radius: 0.25rem;
-    font-size: 0.75em;
-    font-weight: 600;
+.autocomplete-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 15px;
+    right: 15px;
+    max-height: 300px;
+    width: 380px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    margin-top: -1px;
 }
 
-/* Center align tier column */
-::v-deep .table td[aria-describedby$="-tier"],
-::v-deep .table th[aria-describedby$="-tier"] {
-    text-align: center;
+.autocomplete-item {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.15s ease;
+}
+
+.autocomplete-item:last-child {
+    border-bottom: none;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+    background-color: #f8f9fa;
+}
+
+.autocomplete-item.selected {
+    background-color: #e9ecef;
+}
+
+.suggestion-name {
+    flex: 1;
+    margin-right: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.query-indicator {
+    height: 20px;
+    margin: 1px 0px 4px;
+}
+
+.icon-tier {
+    font-size: 1.2rem;
+    color: #25537b;
 }
 
 ::v-deep .table td:first-child,
-::v-deep .table td[aria-describedby$="-platform"],
 ::v-deep .table td[data-label="Platform"],
 ::v-deep .table td[data-label="platform"] {
     white-space: normal !important;
@@ -1127,8 +1294,7 @@ footer.page-footer {
     vertical-align: top;
 }
 
-::v-deep .table th:first-child,
-::v-deep .table th[aria-describedby$="-platform"] {
+::v-deep .table th:first-child {
     white-space: normal !important;
     word-wrap: break-word;
     word-break: break-word;

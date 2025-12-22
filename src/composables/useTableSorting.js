@@ -28,7 +28,7 @@ export function useTableSorting() {
             platform: platformSortHandler,
             title: titleSortHandler,
             summary: textSortHandler,
-            // tier: tierSortHandler,
+            tier: tierSortHandler,
             region: regionSortHandler,
             tools_count: toolsCountSortHandler,
             references_count: referencesCountSortHandler,
@@ -83,17 +83,17 @@ export function useTableSorting() {
      * @param {Object} bRow - Second row object
      * @returns {number} - Sort result (-1, 0, 1)
      */
-    // const tierSortHandler = (aRow, bRow) => {
-    //     // TODO refactor into another method
-    //     const a = getTierValue(aRow);
-    //     const b = getTierValue(bRow);
+    const tierSortHandler = (aRow, bRow) => {
+        // TODO refactor into another method
+        const a = getTierValue(aRow);
+        const b = getTierValue(bRow);
 
-    //     if (a === null && b === null) return 0;
-    //     if (a === null) return 1;
-    //     if (b === null) return -1;
+        if (a === null && b === null) return 0;
+        if (a === null) return 1;
+        if (b === null) return -1;
 
-    //     return a - b;
-    // };
+        return a - b;
+    };
 
     /**
      * Sort handler for region columns (handles string region values)
@@ -156,17 +156,25 @@ export function useTableSorting() {
      * @param {Object} row - Row object
      * @returns {number|null} - Tier value for sorting
      */
-    // const getTierValue = (row) => {
-    //     if (row.designation && Array.isArray(row.designation) && row.designation.length > 0) {
-    //         const tier = parseInt(row.designation[0].tier, 10);
-    //         return isNaN(tier) ? null : tier;
-    //     }
-    //     if (row.designation && row.designation.tier) {
-    //         const tier = parseInt(row.designation.tier, 10);
-    //         return isNaN(tier) ? null : tier;
-    //     }
-    //     return null;
-    // };
+    const getTierValue = (row, platform_group = null) => {
+        if (!row.platforms || !Array.isArray(row.platforms)) {
+            return null;
+        }
+
+        // Find the platform with the matching group that has designation data
+        for (const platform of row.platforms) {
+            if (platform_group && platform.platform_group !== platform_group) {
+                continue;
+            }
+
+            if (platform.designation && platform.designation.tier) {
+                const tier = parseInt(platform.designation.tier, 10);
+                return isNaN(tier) ? null : tier;
+            }
+        }
+
+        return null;
+    };
 
     /**
      * Get the region value for sorting (returns string value or null)
@@ -281,7 +289,7 @@ export function useTableSorting() {
         platformSortHandler,
         titleSortHandler,
         textSortHandler,
-        // tierSortHandler,
+        tierSortHandler,
         regionSortHandler,
         toolsCountSortHandler,
         referencesCountSortHandler,
@@ -290,7 +298,7 @@ export function useTableSorting() {
         createSortableFields,
 
         getPlatformDisplayValue,
-        // getTierValue,
+        getTierValue,
         getRegionValue,
         compareStrings,
         getSortState,
