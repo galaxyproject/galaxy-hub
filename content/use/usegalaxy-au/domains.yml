@@ -1,0 +1,27 @@
+domains:
+    - platform_url: https://usegalaxy.org.au/
+      ip: 138.44.7.153
+      version: IPv4
+      asn: AS7575 Australian Academic and Research Network (AARNet)
+      org: Australian Academic and Research Network
+      release:
+          version_major: "25.0"
+          version_minor: 4.dev0
+      location:
+          city: Sydney
+          region: New South Wales
+          region_code: NSW
+          country: AU
+          country_name: Australia
+          country_code: AU
+          continent_code: OC
+          postal: "2131"
+          latitude: -33.8672
+          longitude: 151.1997
+          timezone: Australia/Sydney
+          currency: AUD
+      response:
+          time: "2025-11-25T21:23:03Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

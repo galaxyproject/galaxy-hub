@@ -30,6 +30,7 @@ export function useTableSorting() {
             summary: textSortHandler,
             tier: tierSortHandler,
             region: regionSortHandler,
+            release: releaseSortHandler,
             tools_count: toolsCountSortHandler,
             references_count: referencesCountSortHandler,
         };
@@ -114,6 +115,23 @@ export function useTableSorting() {
         const bStr = String(b || "");
 
         return aStr.localeCompare(bStr);
+    };
+
+    /**
+     * Sort handler for release column (sorts by version_major)
+     * @param {Object} aRow - First row object
+     * @param {Object} bRow - Second row object
+     * @returns {number} - Sort result (-1, 0, 1)
+     */
+    const releaseSortHandler = (aRow, bRow) => {
+        const a = getReleaseVersion(aRow);
+        const b = getReleaseVersion(bRow);
+
+        if (a === null && b === null) return 0;
+        if (a === null) return 1;
+        if (b === null) return -1;
+
+        return compareStrings(a, b);
     };
 
     /**
@@ -204,6 +222,25 @@ export function useTableSorting() {
     };
 
     /**
+     * Get the release version for sorting (returns version_major or null)
+     * @param {Object} row - Row object
+     * @returns {string|null} - Version string for sorting
+     */
+    const getReleaseVersion = (row) => {
+        if (!row.domains || row.domains.length === 0) {
+            return null;
+        }
+
+        const domainWithRelease = row.domains.find((domain) => domain.release && domain.release.version_major);
+
+        if (!domainWithRelease) {
+            return null;
+        }
+
+        return domainWithRelease.release.version_major;
+    };
+
+    /**
      * Compare two strings using locale-aware comparison
      * @param {string} a - First string
      * @param {string} b - Second string
@@ -291,6 +328,7 @@ export function useTableSorting() {
         textSortHandler,
         tierSortHandler,
         regionSortHandler,
+        releaseSortHandler,
         toolsCountSortHandler,
         referencesCountSortHandler,
 
@@ -300,6 +338,7 @@ export function useTableSorting() {
         getPlatformDisplayValue,
         getTierValue,
         getRegionValue,
+        getReleaseVersion,
         compareStrings,
         getSortState,
         getSortHandler,

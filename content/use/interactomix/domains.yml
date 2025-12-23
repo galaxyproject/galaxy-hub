@@ -1,0 +1,26 @@
+domains:
+    - platform_url: http://galaxy.interactomix.com/
+      ip: 84.89.134.158
+      version: IPv4
+      asn: AS13041 Consorci de Serveis Universitaris de Catalunya
+      release:
+          version_major: "19.09"
+          version_minor: null
+      location:
+          city: Barcelona
+          region: Catalonia
+          region_code: CT
+          country: ES
+          country_name: Spain
+          country_code: ES
+          continent_code: EU
+          postal: 08080
+          latitude: 41.3891
+          longitude: 2.1606
+          timezone: Europe/Madrid
+          currency: EUR
+      response:
+          time: "2025-11-25T19:43:39Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK
