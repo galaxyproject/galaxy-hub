@@ -394,12 +394,12 @@ function parseNavbarItem(rawItem, pathPrefix) {
         } else {
             item.to = rawItem.target;
         }
-        item.key = `${item.type}:${rawItem.relativeTo}:${rawItem.target}`;
+        item.key = `${item.type}|${rawItem.relativeTo}|${rawItem.target}`;
     } else if (rawItem.contents) {
         item.type = "dropdown";
         item.label = rawItem.label;
         item.contents = rawItem.contents.map((subitem) => parseNavbarItem(subitem, pathPrefix));
-        item.key = `${item.type}:` + item.contents.map((subitem) => subitem.key).join(":");
+        item.key = `${item.type}|` + item.contents.map((subitem) => subitem.key).join("|");
     }
     return item;
 }
