@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://share-galaxy.ibers.aber.ac.uk/
+      ip: 144.124.105.86
+      version: IPv4
+      asn: AS786 Jisc Services Limited
+      org: Aberystwyth University
+      location:
+          city: Aberystwyth
+          region: Wales
+          region_code: WLS
+          country: GB
+          country_name: United Kingdom
+          country_code: GB
+          continent_code: EU
+          postal: SY23
+          latitude: 52.4112
+          longitude: -4.0716
+          timezone: Europe/London
+          currency: GBP
+      response:
+          time: "2025-11-25T19:43:33Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK
