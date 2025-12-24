@@ -15,11 +15,15 @@ const {
   title,
   description,
   date,
-  authors = [],
-  tags = [],
+  authors: authorsRaw = [],
+  tags: tagsRaw = [],
   toc = false,
   image,
 } = Astro.props;
+
+// Ensure arrays are never null
+const authors = authorsRaw || [];
+const tags = tagsRaw || [];
 
 // Helper to ensure date is a Date object
 function toDate(d: Date | string | undefined): Date | null {
