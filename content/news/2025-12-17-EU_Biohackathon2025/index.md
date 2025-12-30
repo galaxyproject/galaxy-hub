@@ -83,7 +83,7 @@ Join our [Matrix channel](https://matrix.to/#/#galaxyproject_imaging:matrix.org)
 
 ### Community Meetings
 
-We meet monthly via the **Euro-BioImaging Expert Group** on "FAIR Image Data Workflows", chaired by Anne Fouilloux and Beatriz Serrano-Solano.
+We meet monthly via the **Euro-BioImaging Expert Group** on "FAIR Image Data Workflows".
 
 - **When**: 3rd Wednesday of each month at 16:00 CET  
 - **Duration**: ~1 hour  
