@@ -67,7 +67,7 @@ We're aiming to:
 
 - Write a report
 - Finalize and stabilize all WIPs  
-- Deliver **ready-to-use workflows** for image analysis in Galaxy  
+- Keep delivering **ready-to-use workflows** for image analysis in Galaxy  
 - Publish a community paper including tutorials and training materials  
 - Keep building an open, collaborative imaging community that makes image data science **FAIR**!
 
