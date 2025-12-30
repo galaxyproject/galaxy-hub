@@ -1,5 +1,5 @@
 ---
-title: European BioHackathon 2025 – FAIR Image Analysis in Galaxy (P9)  
+title: European BioHackathon 2025 – FAIR Image Analysis in Galaxy (Project 9)  
 date: '2025-12-17'
 authors: "Diana Chiang Jurado"
 tags: [training, hackathon, biohackathon, imaging]  
