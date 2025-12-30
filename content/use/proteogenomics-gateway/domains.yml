@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://z.umn.edu/proteogenomicsgateway
+      ip: 134.84.66.196
+      version: IPv4
+      asn: AS217 University of Minnesota
+      org: University of Minnesota
+      location:
+          city: Minneapolis
+          region: Minnesota
+          region_code: MN
+          country: US
+          country_name: United States
+          country_code: US
+          continent_code: NA
+          postal: "55401"
+          latitude: 44.9856
+          longitude: -93.2655
+          timezone: America/Chicago
+          currency: USD
+      response:
+          time: "2025-11-25T19:57:22Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

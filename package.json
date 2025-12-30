@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.16.5",
-    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
@@ -49,6 +49,7 @@
     "markdownlint": "^0.24.0",
     "markdownlint-cli": "^0.29.0",
     "node-watch": "^0.7.1",
+    "ol": "^10.7.0",
     "prettier": "^3.5.3",
     "rehype-parse": "^8.0.3",
     "remark": "^13.0.0",

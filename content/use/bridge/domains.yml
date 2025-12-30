@@ -1,0 +1,27 @@
+domains:
+    - platform_url: https://galaxy-compchem.ilifu.ac.za/
+      ip: 154.114.10.101
+      version: IPv4
+      asn: AS2018 TENET (The UNINET Project)
+      org: University of Cape Town   African Research Cloud   TSN401
+      release:
+          version_major: "19.05"
+          version_minor: null
+      location:
+          city: Bloemfontein
+          region: Free State
+          region_code: FS
+          country: ZA
+          country_name: South Africa
+          country_code: ZA
+          continent_code: AF
+          postal: "9301"
+          latitude: -29.1252
+          longitude: 26.163
+          timezone: Africa/Johannesburg
+          currency: ZAR
+      response:
+          time: "2025-11-25T19:38:57Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK
