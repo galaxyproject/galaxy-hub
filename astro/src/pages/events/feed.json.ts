@@ -9,7 +9,35 @@ import type { APIContext } from 'astro';
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
 function formatDate(date: Date): string {
-  return date.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
+  // Match Gridsome format: "4 November 2026"
+  const day = date.getDate();
+  const month = date.toLocaleDateString('en-US', { month: 'long' });
+  const year = date.getFullYear();
+  return `${day} ${month} ${year}`;
+}
+
+// Generate short hash ID like Gridsome does
+function generateShortId(str: string): string {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash;
+  }
+  return Math.abs(hash).toString(16).slice(0, 8);
+}
+
+// Expand "all" subsite to full list of regional subsites
+const ALL_SUBSITES = [
+  'freiburg', 'pasteur', 'belgium', 'ifb', 'genouest',
+  'erasmusmc', 'elixir-it', 'au', 'eu', 'us', 'global'
+];
+
+function expandSubsites(subsites: string[]): string[] {
+  if (subsites.includes('all')) {
+    return ALL_SUBSITES;
+  }
+  return subsites;
 }
 
 function getDaysAgo(date: Date): number {
@@ -48,11 +76,25 @@ export async function GET(context: APIContext) {
           }
         }
 
-        // Normalize subsites to array
+        // Normalize subsites to array and expand "all"
         let subsites: string[] = [];
         if (data.subsites) {
           subsites = Array.isArray(data.subsites) ? data.subsites : [data.subsites];
         }
+        subsites = expandSubsites(subsites);
+
+        // Get contact info - can be string or array
+        let contact = '';
+        if (data.contacts) {
+          if (typeof data.contacts === 'string') {
+            contact = data.contacts;
+          } else if (Array.isArray(data.contacts)) {
+            contact = data.contacts.join(', ');
+          }
+        }
+
+        // Build proper path - slug may already include "events/" prefix
+        const pathSlug = slug.startsWith('events/') ? slug.slice(7) : slug;
 
         // Render content to HTML
         let content = '';
@@ -66,13 +108,13 @@ export async function GET(context: APIContext) {
         }
 
         return {
-          id: event.id,
+          id: generateShortId(event.id),
           title: data.title || null,
           tease: data.tease || null,
           subsites,
           location: locationObj,
           continent: data.continent || null,
-          contact: typeof data.contacts === 'string' ? data.contacts : '',
+          contact,
           external_url: data.external_url || null,
           gtn: data.gtn || null,
           links: [],
@@ -80,7 +122,7 @@ export async function GET(context: APIContext) {
           draft: data.draft || null,
           days: data.days || null,
           days_ago: daysAgo,
-          path: `/events/${slug}/`,
+          path: `/events/${pathSlug}/`,
           content,
         };
       })

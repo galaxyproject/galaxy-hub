@@ -9,13 +9,41 @@ import type { APIContext } from 'astro';
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
 function formatDate(date: Date): string {
-  return date.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
+  // Match Gridsome format: "22 December 2025"
+  const day = date.getDate();
+  const month = date.toLocaleDateString('en-US', { month: 'long' });
+  const year = date.getFullYear();
+  return `${day} ${month} ${year}`;
 }
 
 function getDaysAgo(date: Date): number {
   const now = new Date();
   const diff = now.getTime() - date.getTime();
   return Math.floor(diff / (1000 * 60 * 60 * 24));
+}
+
+// Generate short hash ID like Gridsome does
+function generateShortId(str: string): string {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash;
+  }
+  return Math.abs(hash).toString(16).slice(0, 8);
+}
+
+// Expand "all" subsite to full list of regional subsites
+const ALL_SUBSITES = [
+  'freiburg', 'pasteur', 'belgium', 'ifb', 'genouest',
+  'erasmusmc', 'elixir-it', 'au', 'eu', 'us', 'global'
+];
+
+function expandSubsites(subsites: string[]): string[] {
+  if (subsites.includes('all')) {
+    return ALL_SUBSITES;
+  }
+  return subsites;
 }
 
 export async function GET(context: APIContext) {
@@ -42,10 +70,12 @@ export async function GET(context: APIContext) {
     const daysAgo = getDaysAgo(date);
     const slug = (data.slug || article.id).replace(/\/$/, '');
 
-    // Normalize arrays
-    const subsites = data.subsites
+    // Normalize arrays and expand "all" subsites
+    let subsites = data.subsites
       ? (Array.isArray(data.subsites) ? data.subsites : [data.subsites])
       : [];
+    subsites = expandSubsites(subsites);
+
     const tags = data.tags
       ? (Array.isArray(data.tags) ? data.tags : [data.tags])
       : [];
@@ -54,7 +84,7 @@ export async function GET(context: APIContext) {
       : '';
 
     return {
-      id: article.id,
+      id: generateShortId(article.id),
       title: data.title || null,
       tease: data.tease || null,
       days_ago: daysAgo,
