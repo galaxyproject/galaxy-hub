@@ -3,8 +3,9 @@
  * Outputs events within 30 days at /events/feed.json
  * Format matches original Gridsome feed for backward compatibility
  */
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
+import { marked } from 'marked';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -96,13 +97,14 @@ export async function GET(context: APIContext) {
         // Build proper path - slug may already include "events/" prefix
         const pathSlug = slug.startsWith('events/') ? slug.slice(7) : slug;
 
-        // Render content to HTML
+        // Render markdown body to HTML
         let content = '';
         try {
-          const rendered = await render(event);
-          // Note: rendered.Content is a component, we'd need to render it
-          // For now, use tease as content fallback
-          content = data.tease || '';
+          if (event.body) {
+            content = await marked.parse(event.body);
+          } else {
+            content = data.tease || '';
+          }
         } catch {
           content = data.tease || '';
         }

@@ -5,6 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
+import { marked } from 'marked';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -64,7 +65,7 @@ export async function GET(context: APIContext) {
       return dateB.getTime() - dateA.getTime();
     });
 
-  const feedItems = newsArticles.map(article => {
+  const feedItems = await Promise.all(newsArticles.map(async article => {
     const data = article.data;
     const date = data.date instanceof Date ? data.date : new Date(data.date || 0);
     const daysAgo = getDaysAgo(date);
@@ -83,6 +84,18 @@ export async function GET(context: APIContext) {
       ? (Array.isArray(data.authors) ? data.authors.join(', ') : data.authors)
       : '';
 
+    // Render markdown body to HTML
+    let content = '';
+    try {
+      if (article.body) {
+        content = await marked.parse(article.body);
+      } else {
+        content = data.tease || '';
+      }
+    } catch {
+      content = data.tease || '';
+    }
+
     return {
       id: generateShortId(article.id),
       title: data.title || null,
@@ -98,9 +111,9 @@ export async function GET(context: APIContext) {
       authors_structured: [],
       external_url: data.external_url || '',
       path: `/${slug}/`,
-      content: data.tease || '',
+      content,
     };
-  });
+  }));
 
   return new Response(JSON.stringify({ count: feedItems.length, news: feedItems }, null, 2), {
     headers: {
