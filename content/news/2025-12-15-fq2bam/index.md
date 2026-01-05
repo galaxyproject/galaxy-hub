@@ -15,17 +15,17 @@ NVIDIA's [Parabricks](https://docs.nvidia.com/clara/parabricks/latest/gettingsta
 
 Across five repeated runs, the three mapping tools separate very clearly in speed:
 
-- FQ2BAM (1 GPU and 8 CPU cores) was consistently the fastest: 5–8 min per run.
+- FQ2BAM (running on 1 GPU (L40S) and 8 cores) was consistently the fastest: 5–8 min per run.
 
-- BWA-MEM2 (8 cores) came next but showed large variability: 14–40 min (median 16 min, mean 23.2 ± 11.4 min (SD)). Most runs are clustered around ~14–16 min, but one slow run (40 min) noticeably widened the distribution.
+- BWA-MEM2 (running on 8 cores) came next but showed large variability: 14–40 min (median 16 min, mean 23.2 ± 11.4 min (SD)). Most runs are clustered around ~14–16 min, but one slow run (40 min) noticeably widened the distribution.
 
-- BWA (8 cores) was the slowest overall yet fairly steady: 34–46 min (median 38 min, mean 39.0 ± 4.5 min (SD)), making it predictable but substantially longer.
+- BWA (running on 8 cores) was the slowest overall yet fairly steady: 34–46 min (median 38 min, mean 39.0 ± 4.5 min (SD)), making it predictable but substantially longer.
 
 <div align="center">
     <img src="runtimes.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
 </div>
 
-In terms of typical (median) speed, FQ2BAM (1 GPU and 8 cores) is approximately 3-4x faster than BWA-MEM2 (8 cores) and 6-7x faster than BWA (8 cores). FQ2BAM achieves superior performance on runtime optimizing throughput for Galaxy users. It will prove to be a game changer for faster genomic analyses while running Galaxy workflows. BWA-MEM2 is usually much faster than BWA but less consistent, and BWA remains the slow, steady baseline.
+In terms of typical (median) speed, FQ2BAM (running on 1 GPU (L40S) and 8 cores) is approximately 3-4x faster than BWA-MEM2 (running on 8 cores) and 6-7x faster than BWA (running on 8 cores). FQ2BAM achieves superior performance on runtime optimizing throughput for Galaxy users. It will prove to be a game changer for faster genomic analyses while running Galaxy workflows. BWA-MEM2 is usually much faster than BWA but less consistent, and BWA remains the slow, steady baseline.
 
 
 ## FQ2BAM vs BWA-MEM2 mapping statistics
