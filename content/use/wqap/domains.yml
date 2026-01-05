@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://life2cloud.com:6005/
+      ip: 154.209.106.80
+      version: IPv4
+      asn: AS132839 POWER LINE DATACENTER
+      org: Digital Core Technology Co., Ltd
+      location:
+          city: Hong Kong
+          region: Kowloon
+          region_code: ""
+          country: HK
+          country_name: Hong Kong
+          country_code: HK
+          continent_code: AS
+          postal: "999077"
+          latitude: 22.3193
+          longitude: 114.169
+          timezone: Asia/Hong_Kong
+          currency: HKD
+      response:
+          time: "2025-11-25T21:24:26Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK
