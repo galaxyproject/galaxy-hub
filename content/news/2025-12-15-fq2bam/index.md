@@ -77,6 +77,15 @@ The [Galaxy workflow invocation](https://usegalaxy.eu/workflows/invocations/9b02
 
 In terms of compute usage, allocated core time, BWA takes around 360 minutes, followed by BWA-MEM2 (around 100 minutes) and FQ2BAM (around 40 minutes). Overall, FQ2BAM, accelerated by GPU, achieves the best runtime compared to standard mappers such as BWA-MEM2 running on CPUs.
 
+### Performance comparison on human WGS from 1000 genomes project
+
+The mapping performance of FQ2BAM is compared with BWA-MEM2 and BWA using paired-end whole-genome sequencing (WGS) data from a [human subject](https://www.internationalgenome.org/data-portal/sample/HG00513)
+ in the [1000 Genomes Project](https://www.internationalgenome.org/). Each read file (forward and reverse) is approximately 8 GB. FQ2BAM (running on one L40S GPU and 8 CPU cores) is the fastest, completing mapping in approximately 36 minutes, whereas BWA-MEM2 takes more than 60 minutes on 8 CPU cores. The runtimes of the three mappers are shown in the following plot. More details on the runtime comparison can be found in the corresponding [workflow invocation](https://usegalaxy.eu/workflows/invocations/23928023449e767a/metrics).
+
+<div align="center">
+    <img src="visualization_1000_genomes.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA_MEM2 and BWA" width="600"/>
+</div>
+
 ### Resources
 
 - The Galaxy history for the above analysis is linked [here](https://usegalaxy.eu/u/kumara/h/benchmarking-of-fq2bam-with-bwa-mem2-and-bwa).
