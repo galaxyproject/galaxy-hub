@@ -1,5 +1,5 @@
 ---
-title: "Pulling Hugging Face models directly into Galaxy (and running DocLayout-YOLO inference)"
+title: "Pulling Hugging Face models directly into Galaxy"
 date: "2026-01-07"
 authors: Anup Kumar
 tease: "Galaxy can now browse the Hugging Face Hub as a repository source, import model files straight into your history, and feed them into tools—no manual downloads required. Here’s a step-by-step example using DocLayout-YOLO for document layout segmentation."
@@ -19,14 +19,14 @@ With Galaxy’s new **Hugging Face Hub file source**, you can **browse Hugging F
 
 ---
 
-## What we’ll do in this walkthrough
+## Model integration and making inference
 
 We’ll demonstrate the full flow with a practical example:
 
-1. Open Galaxy’s **Upload** dialog and choose **Hugging Face Hub** as the repository source  
-2. Browse to a DocLayout-YOLO model repo and select a `.pt` weights file  
+1. Open Galaxy’s **Upload** dialog and choose **Hugging Face Hub** as the repository source
+2. Browse to a DocLayout-YOLO model respository and select a `.pt` weights file  
 3. Import the file into the Galaxy history  
-4. Run the **DocLayout-YOLO** tool using:
+4. Run the [**DocLayout-YOLO** tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdoclayoutyolo%2Fdoclayoutyolo%2F0.0.4.1%2Bgalaxy0&version=latest) using:
    - the imported YOLO model weights
    - a document page image as input  
 5. View the segmented output image
@@ -41,7 +41,9 @@ All screenshots below are provided **in the same order as the actual steps**.
 
 From the Galaxy **Upload** dialog, click **Choose from repository**.
 
-![Figure 1 — Upload dialog: choose “Choose from repository”】【1_choose_from_repo_hf.png】
+<div align="center">
+    <img src="1_choose_from_repo_hf.png" alt="Upload dialog: choose “Choose from repository”" width="600"/>
+</div>
 
 ---
 
@@ -49,7 +51,9 @@ From the Galaxy **Upload** dialog, click **Choose from repository**.
 
 In the repository picker, choose **Hugging Face Hub**.
 
-![Figure 2 — Repository picker: select “Hugging Face Hub”】【2_hf_hub.png】
+<div align="center">
+    <img src="2_hf_hub.png" alt="Repository picker: select “Hugging Face Hub”" width="600"/>
+</div>
 
 ---
 
@@ -57,7 +61,9 @@ In the repository picker, choose **Hugging Face Hub**.
 
 Now you can browse/search Hugging Face directly from Galaxy. Here we search for *doclayout* and select the pretrained DocLayout-YOLO repository.
 
-![Figure 3 — Browse Hugging Face repos from Galaxy and select the DocLayout-YOLO repository】【3_doclayout_hf.png】
+<div align="center">
+    <img src="3_doclayout_hf.png" alt="Browse Hugging Face repos from Galaxy and select the DocLayout-YOLO repository" width="600"/>
+</div>
 
 ---
 
@@ -65,7 +71,9 @@ Now you can browse/search Hugging Face directly from Galaxy. Here we search for 
 
 Inside the repository, pick the weights file (here a `.pt` file).
 
-![Figure 4 — Select the YOLO weights file from the repository】【4_select_model.png】
+<div align="center">
+    <img src="4_select_model.png" alt="Select the YOLO weights file from the repository" width="600"/>
+</div>
 
 ---
 
@@ -73,7 +81,9 @@ Inside the repository, pick the weights file (here a `.pt` file).
 
 After adding the file to the upload queue, click **Start** to import it into your Galaxy history.
 
-![Figure 5 — File added to upload queue; click Start to import】【5_import_model.png】
+<div align="center">
+    <img src="5_import_model.png" alt="File added to upload queue; click Start to import" width="600"/>
+</div>
 
 At this point, your YOLO weights are now a normal Galaxy dataset: versioned in the history, shareable, and usable as a tool/workflow input.
 
@@ -88,7 +98,9 @@ Open the **DocLayout-YOLO** tool form and set:
 - **Yolo model** → the `.pt` file you imported from Hugging Face
 - **Input image** → the document page image you want to segment
 
-![Figure 6 — DocLayout-YOLO tool form using the imported model weights】【6_doclayout_tool.png】
+<div align="center">
+    <img src="6_doclayout_tool.png" alt="DocLayout-YOLO tool form using the imported model weights" width="600"/>
+</div>
 
 Then click **Run Tool**.
 
@@ -98,7 +110,9 @@ Then click **Run Tool**.
 
 The tool produces a segmented image with detected regions (e.g., headings, paragraphs, page headers) drawn as bounding boxes.
 
-![Figure 7 — Segmented output image produced by DocLayout-YOLO】【7_segmented_image.png】
+<div align="center">
+    <img src="7_segmented_image.png" alt="Segmented output image produced by DocLayout-YOLO" width="600"/>
+</div>
 
 ---
 
@@ -108,16 +122,9 @@ Pulling models from Hugging Face *inside Galaxy* makes ML workflows much easier 
 
 - **No manual download/upload loop** (especially painful for large weights)
 - **Tool inputs become explicit**: the exact model file used is captured in the history and workflow provenance
-- **Reusable across analyses**: share histories/workflows with the model artifact included (subject to instance policy)
+- **Reusable across analyses**: share histories/workflows with the model artifact included
 
 ---
 
-## For admins: enabling the “Hugging Face Hub” template (quick notes)
 
-The PR that added this feature includes a ready-to-use template file (`production_huggingface.yml`) and suggests enabling it by including it in `config/file_source_templates.yml`. :contentReference[oaicite:2]{index=2}
-
-Add:
-
-```yaml
-- include: ./lib/galaxy/files/templates/examples/production_huggingface.yml
 
