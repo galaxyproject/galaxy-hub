@@ -33,13 +33,13 @@ In terms of typical (median) speed, FQ2BAM (running on 1 GPU (L40S) and 8 cores)
 The alignment files (BAM) from FQ2BAM and BWA-MEM2 tools are analysed using QualiMap BamQC tool to compare various mapping statistics on the same human reads. Both alignments are essentially identical in overall mapping performance: they use the same reference size (3,209,286,105 hg38) and number of reads (53,317,838), and both achieve approximately 99.6% mapped reads (53,102,797 for FQ2BAM vs 53,102,800 for BWA-MEM2) with only approximately 0.4% unmapped. Paired-end behavior is also nearly the same (approximately 99.24% “both in pair”) and supplementary alignments are comparable (approximately 0.09%).
 
 <div align="center">
-    <img src="parabricks_qm.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
+    <img src="parabricks_qm.png" alt="Mapping statistics of FQ2BAM" width="600"/>
 </div>
 
 FQ2BAM reports 11.2M duplicate reads flagged as duplicates (21.01%) and "duplicated reads skipped" consistent with duplicates being explicitly marked and handled in that pipeline, while the BWA-MEM2 report shows 0 flagged duplicates but a large estimated duplicate count (33.7M; duplication rate 46.16%), suggesting duplicates were not marked and QualiMap BamQC inferred them instead. BWA-MEM2 also has more overlapping read pairs (26.08% vs 20.36%) and slightly more clipped reads (1.29% vs 1.07%), indicating small differences in alignment/fragment handling even though the headline mapping rates are the same.
 
 <div align="center">
-    <img src="bwa-mem2_qm.png" alt="Runtime comparison of FQ2BAM with BWA-MEM2" width="600"/>
+    <img src="bwa-mem2_qm.png" alt="Mapping statistics of BWA-MEM2" width="600"/>
 </div>
 
 
@@ -83,7 +83,7 @@ The mapping performance of FQ2BAM is compared with BWA-MEM2 and BWA using paired
  in the [1000 Genomes Project](https://www.internationalgenome.org/). Each read file (forward and reverse) is approximately 8 GB. FQ2BAM (running on one L40S GPU and 8 CPU cores) is the fastest, completing mapping in approximately 36 minutes, whereas BWA-MEM2 takes more than 60 minutes on 8 CPU cores. The runtimes of the three mappers are shown in the following plot. More details on the runtime comparison can be found in the corresponding [workflow invocation](https://usegalaxy.eu/workflows/invocations/23928023449e767a/metrics).
 
 <div align="center">
-    <img src="visualization_1000_genomes.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA_MEM2 and BWA" width="600"/>
+    <img src="visualization_1000_genomes.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA_MEM2 and BWA on 1000 genomes data" width="600"/>
 </div>
 
 ### Resources
