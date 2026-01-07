@@ -36,12 +36,12 @@ Concrete results from the hackathon:
 - **BioImage Archive → Galaxy integration**
   - Added *BioStudies upload* support
   - Improved *BIA retrieval* tooling
-- **ISCC support in Galaxy**
-  - ISCC hash generator
-  - Tools for hash verification and comparison in the making
+- **International Standard Content Code (ISCC) support in Galaxy**
+  - ISCC hash generator for generating content-based identifiers
+  - Tools for hash verification and comparison (in development)
 - **Metadata & standards**
-  - Extended **GeoJSON** support
-  - Advanced **EDAM Bioimaging** maturity
+  - Ongoing work on extended **GeoJSON** support
+  - Roadmap towards advanced **EDAM Bioimaging** maturity
     - Tool and tutorial annotation
     - Domain-specific term enrichment
 
