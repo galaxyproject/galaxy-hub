@@ -11,11 +11,11 @@ tags: [tools]
 
 # Pulling Hugging Face models directly into Galaxy (and running DocLayout-YOLO inference)
 
-A common friction point in ML-powered Galaxy workflows is **getting the right model file into the right place**: downloading weights locally, uploading again, and repeating for every history or workflow run.
+A common friction point in ML-powered scientific analysis in Galaxy is **getting the appropriate model into the right tool**: downloading weights locally, uploading again, and repeating for every history or workflow run.
 
-With Galaxy’s new **Hugging Face Hub file source**, you can **browse Hugging Face repositories from within Galaxy**, import a model artifact directly into your history, and immediately use it as a tool input. This feature is implemented as a Galaxy file source plugin built on the `fsspec` approach and uses the `huggingface_hub` library under the hood. :contentReference[oaicite:0]{index=0}
+With Galaxy’s new **Hugging Face Hub source** integration, you can **browse Hugging Face repositories from within Galaxy**, import a model artifact directly into your history, and immediately use it as a tool input. This feature is implemented as a Galaxy file source plugin built on the `fsspec` approach and uses the `huggingface_hub` library under the hood.
 
-> **Note:** The Hugging Face file source + user template landed as part of Galaxy **v25.1.0**. :contentReference[oaicite:1]{index=1}
+> **Note:** The Hugging Face file source + user template landed as part of Galaxy **v25.1.0**.
 
 ---
 
