@@ -72,7 +72,7 @@ MultiQC tool produces the following plots showing similar outcomes of alignments
 The [Galaxy workflow invocation](https://usegalaxy.eu/workflows/invocations/9b028594c3ddbf80) plot shows comparison between FQ2BAM, BWA-MEM2 and BWA across several parameters. The individual runtimes of mappers are: BWA (~45 min), BWA-MEM2 (~12 min) and FQ2BAM (~6 min), being the fastest. 
 
 <div align="center">
-    <img src="wf_invocations.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA_MEM2 and BWA" width="600"/>
+    <img src="wf_invocations.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA-MEM2 and BWA" width="600"/>
 </div>
 
 In terms of compute usage, allocated core time, BWA takes around 360 minutes, followed by BWA-MEM2 (around 100 minutes) and FQ2BAM (around 40 minutes). Overall, FQ2BAM, accelerated by GPU, achieves the best runtime compared to standard mappers such as BWA-MEM2 running on CPUs.
@@ -83,7 +83,7 @@ The mapping performance of FQ2BAM is compared with BWA-MEM2 and BWA using paired
  in the [1000 Genomes Project](https://www.internationalgenome.org/). Each read file (forward and reverse) is approximately 8 GB. FQ2BAM (running on one L40S GPU and 8 CPU cores) is the fastest, completing mapping in approximately 36 minutes, whereas BWA-MEM2 takes more than 60 minutes on 8 CPU cores. The runtimes of the three mappers are shown in the following plot. More details on the runtime comparison can be found in the corresponding [workflow invocation](https://usegalaxy.eu/workflows/invocations/23928023449e767a/metrics).
 
 <div align="center">
-    <img src="visualization_1000_genomes.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA_MEM2 and BWA on 1000 genomes data" width="600"/>
+    <img src="visualization_1000_genomes.png" alt="Workflow invocation metrics comparing runtimes of FQ2BAM, BWA-MEM2 and BWA on 1000 genomes data" width="600"/>
 </div>
 
 ### Resources
