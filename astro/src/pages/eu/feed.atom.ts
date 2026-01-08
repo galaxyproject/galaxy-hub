@@ -5,6 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
+import { marked } from 'marked';
 
 const SITE_URL = 'https://galaxyproject.org';
 const FEED_TITLE = 'Galaxy Europe';
@@ -71,6 +72,18 @@ export async function GET(context: APIContext) {
     const title = data.title || 'Untitled';
     const description = data.tease || '';
 
+    // Render markdown body to HTML
+    let content = '';
+    try {
+      if (article.body) {
+        content = await marked.parse(article.body);
+      } else {
+        content = description;
+      }
+    } catch {
+      content = description;
+    }
+
     atomContent += `    <entry>
         <title type="html"><![CDATA[${title}]]></title>
         <id>${url}</id>
@@ -83,9 +96,9 @@ export async function GET(context: APIContext) {
 `;
     }
 
-    // Content - use tease for now
-    if (description) {
-      atomContent += `        <content type="html"><![CDATA[${description}]]></content>
+    // Content - render full body as HTML
+    if (content) {
+      atomContent += `        <content type="html"><![CDATA[${content}]]></content>
 `;
     }
 
