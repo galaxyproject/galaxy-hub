@@ -47,10 +47,10 @@ export async function GET(context: APIContext) {
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);
       const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || 0);
-      return dateA.getTime() - dateB.getTime();
+      return dateB.getTime() - dateA.getTime(); // Future events first
     });
 
-  const siteUrl = context.site?.toString() || 'https://galaxyproject.org';
+  const siteUrl = (context.site?.toString() || 'https://galaxyproject.org').replace(/\/$/, '');
 
   let icsContent = [
     'BEGIN:VCALENDAR',
@@ -81,7 +81,10 @@ export async function GET(context: APIContext) {
     }
 
     const uid = `${event.data.slug}@galaxyproject.org`;
-    const url = `${siteUrl}/events/${event.data.slug}/`;
+    // slug already includes "events/" prefix, so don't add it again
+    const slug = event.data.slug || event.id;
+    const pathSlug = slug.startsWith('events/') ? slug : `events/${slug}`;
+    const url = `${siteUrl}/${pathSlug}/`;
     const title = event.data.title || 'Untitled Event';
     const description = event.data.tease || '';
 
