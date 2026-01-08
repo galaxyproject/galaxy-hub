@@ -1,34 +1,42 @@
 ---
-title: "Pulling Hugging Face models directly into Galaxy"
+title: "Integration of Hugging Face models with Galaxy"
 date: "2026-01-07"
 authors: Anup Kumar
-tease: "Galaxy can now browse the Hugging Face Hub as a repository source, import model files straight into your history, and feed them into tools—no manual downloads required. Here’s a step-by-step example using DocLayout-YOLO for document layout segmentation."
+tease: "Users can now browse the Hugging Face Hub as a repository source, import models straight into the history, and feed them into tools. A step-by-step example shows how to pull models from Hugging Face Galaxy's library and then using the existing DocLayout-YOLO tool for document layout segmentation."
 subsites: [global,eu,us]
 main_subsite: freiburg
 tags: [tools]
 ---
 
 
-# Pulling Hugging Face models directly into Galaxy (and running DocLayout-YOLO inference)
+# Integration of Hugging Face Hub with Galaxy
 
 A common friction point in ML-powered scientific analysis in Galaxy is **getting the appropriate model into the right tool**: downloading weights locally, uploading again, and repeating for every history or workflow run.
 
-With Galaxy’s new **Hugging Face Hub source** integration, you can **browse Hugging Face repositories from within Galaxy**, import a model artifact directly into your history, and immediately use it as a tool input. This feature is implemented as a Galaxy file source plugin built on the `fsspec` approach and uses the `huggingface_hub` library under the hood.
+With Galaxy’s new **Hugging Face Hub** integration, you can **browse Hugging Face model repositories from within Galaxy** file uploader, import a model artifact directly into your history, and immediately use it as a tool input. This feature is implemented as a Galaxy file source plugin built on the `fsspec` and `huggingface_hub` libraries. A wide range of models across many scientific disciplines such as protein language models (Rostlab/prot_bert), biomedical and clinical NLP (medicalai/ClinicalBERT), chemistry language models (ibm-research/MoLFormer-XL-both-10pct), weather monitoring models (nvidia/fourcastnet3 and ibm-nasa-geospatial/Prithvi-EO-1.0-100M),  astronomy (AstroMLab/AstroSage-8B), large language models (Llama-4: meta-llama/Llama-4-Scout-17B-16E-Instruct) and many more. All of these models can be swiftly pulled from Hugging Face Hub into Galaxy history leading to faster ML-based analyses.
 
-> **Note:** The Hugging Face file source + user template landed as part of Galaxy **v25.1.0**.
+<div align="center">
+    <img src="hf_hub_0.png" alt="HF hub" width="600"/>
+</div>
+
+<div align="center">
+    <img src="hf_hub_0.1.png" alt="HF hub models" width="600"/>
+</div>
+
+> **Note:** The Hugging Face Hub has been integrated as part of Galaxy **v25.1** release.
 
 ---
 
-## Model integration and making inference
+## Model integration and inference
 
-We’ll demonstrate the full flow with a practical example:
+We’ll demonstrate the usage of a Hugging Face model for segmenting document layout in the following steps:
 
-1. Open Galaxy’s **Upload** dialog and choose **Hugging Face Hub** as the repository source
-2. Browse to a DocLayout-YOLO model respository and select a `.pt` weights file  
-3. Import the file into the Galaxy history  
-4. Run the [**DocLayout-YOLO** tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdoclayoutyolo%2Fdoclayoutyolo%2F0.0.4.1%2Bgalaxy0&version=latest) using:
-   - the imported YOLO model weights
-   - a document page image as input  
+1. Open Galaxy’s **Upload** dialog and choose **Hugging Face Hub** as the repository source.
+2. Browse to a DocLayout-YOLO model respository and select a `.pt` weights file (**Hint**: use "doclayout" as the search string to accurately find the model from the list). 
+3. Import the file into the Galaxy history. 
+4. Find and run the [**DocLayout-YOLO** tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fdoclayoutyolo%2Fdoclayoutyolo%2F0.0.4.1%2Bgalaxy0&version=latest) using:
+   - Imported YOLO model weights
+   - Document page image as input  
 5. View the segmented output image
 
 All screenshots below are provided **in the same order as the actual steps**.
@@ -37,7 +45,7 @@ All screenshots below are provided **in the same order as the actual steps**.
 
 ## Step-by-step: import a model from Hugging Face Hub
 
-### 1) Open Upload and choose “Choose from repository”
+### 1) Open Galaxy Upload and choose “Choose from repository”
 
 From the Galaxy **Upload** dialog, click **Choose from repository**.
 
@@ -59,7 +67,7 @@ In the repository picker, choose **Hugging Face Hub**.
 
 ### 3) Search for the model repository
 
-Now you can browse/search Hugging Face directly from Galaxy. Here we search for *doclayout* and select the pretrained DocLayout-YOLO repository.
+Now you can browse/search Hugging Face Hub models directly from Galaxy. Here we search for the model using *doclayout* as the search string and select the pretrained DocLayout-YOLO repository (juliozhao/DocLayout-YOLO-DocLayNet-Docsynth300K_pretrained).
 
 <div align="center">
     <img src="3_doclayout_hf.png" alt="Browse Hugging Face repos from Galaxy and select the DocLayout-YOLO repository" width="600"/>
@@ -85,18 +93,18 @@ After adding the file to the upload queue, click **Start** to import it into you
     <img src="5_import_model.png" alt="File added to upload queue; click Start to import" width="600"/>
 </div>
 
-At this point, your YOLO weights are now a normal Galaxy dataset: versioned in the history, shareable, and usable as a tool/workflow input.
+At this point, your YOLO weights are now a normal Galaxy dataset: , usable as a tool/workflow input and shareable.
 
 ---
 
-## Run inference in Galaxy: DocLayout-YOLO example
+## Run inference in Galaxy: DocLayout-YOLO segmentation
 
 ### 6) Configure the DocLayout-YOLO tool
 
 Open the **DocLayout-YOLO** tool form and set:
 
-- **Yolo model** → the `.pt` file you imported from Hugging Face
-- **Input image** → the document page image you want to segment
+- **Yolo model** → the `.pt` file imported from Hugging Face
+- **Input image** → the document page image to be segmented
 
 <div align="center">
     <img src="6_doclayout_tool.png" alt="DocLayout-YOLO tool form using the imported model weights" width="600"/>
@@ -116,13 +124,15 @@ The tool produces a segmented image with detected regions (e.g., headings, parag
 
 ---
 
-## Why this matters for reproducible Galaxy ML workflows
+## Significance for reproducible Galaxy ML-based workflows
 
-Pulling models from Hugging Face *inside Galaxy* makes ML workflows much easier to operationalize:
+Pulling models from Hugging Face from *inside Galaxy* makes ML workflows much easier to operationalize:
 
-- **No manual download/upload loop** (especially painful for large weights)
-- **Tool inputs become explicit**: the exact model file used is captured in the history and workflow provenance
-- **Reusable across analyses**: share histories/workflows with the model artifact included
+- **Wide range of models across analyses**: A wide range of models such as large language models (LLMs), biology and imaging foundation models and many more are available for downstream analyses.
+- **No manual download/upload loop** (especially cumbersome for large weights and models)
+- **Tool inputs become explicit**: the exact model file used is captured in the history and workflow provenance.
+- **Reusable across analyses**: share histories/workflows with the model artifact included.
+- **Standardisation of ML models**: usage of widely used Hugging Face Hub as model repository provides standard and safer model loaders and structured model metadata.
 
 ---
 
