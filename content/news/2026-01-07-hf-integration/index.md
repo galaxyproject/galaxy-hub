@@ -137,7 +137,7 @@ Pulling models from Hugging Face from *inside Galaxy* makes ML workflows much ea
 - **No manual download/upload loop** (especially cumbersome for large weights and models)
 - **Tool inputs become explicit**: the exact model file used is captured in the history and workflow provenance.
 - **Reusable across analyses**: share histories/workflows with the model artifact included.
-- **Standardisation of ML models**: usage of widely used Hugging Face Hub as model repository provides standard and safer model loaders and structured model metadata.
+- **Standardization of ML models**: usage of widely used Hugging Face Hub as model repository provides standard and safer model loaders and structured model metadata.
 
 ---
 
