@@ -142,4 +142,8 @@ Pulling models from Hugging Face from *inside Galaxy* makes ML workflows much ea
 ---
 
 
+## Acknowledgements
+
+Thanks a lot to David Lopez for the integration of Hugging Face Hub into Galaxy.
+
 
