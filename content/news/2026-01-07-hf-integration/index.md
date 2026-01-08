@@ -106,7 +106,7 @@ At this point, your YOLO weights are now a normal Galaxy dataset: usable as a to
 
 ### 6) Configure the DocLayout-YOLO tool
 
-Open the **DocLayout-YOLO** tool form and set:
+Open the [**DocLayout-YOLO**](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/doclayoutyolo/doclayoutyolo/0.0.4.1+galaxy0) tool form and set:
 
 - **Yolo model** → the `.pt` file imported from Hugging Face
 - **Input image** → the document page image to be segmented
