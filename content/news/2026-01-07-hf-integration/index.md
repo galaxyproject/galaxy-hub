@@ -124,7 +124,7 @@ Then click **Run Tool**.
 The tool produces a segmented image with detected regions (e.g., headings, paragraphs, page headers) drawn as bounding boxes.
 
 <div align="center">
-    <img src="7_segmented_image.png" alt="Segmented output image produced by DocLayout-YOLO" width="600"/>
+    <img src="7_segmented_image.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
 </div>
 
 ---
