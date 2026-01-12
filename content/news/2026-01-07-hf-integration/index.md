@@ -95,7 +95,7 @@ At this point, your YOLO weights are now a normal Galaxy dataset: usable as a to
 
 ## Run inference in Galaxy
 
-The [workflow](https://usegalaxy.eu/u/kumara/w/ocr-with-doclayout-hugging-face-and-llm-hub-1) for text segmentation and extraction includes tools such as DocLayout-YOLO and LLM Hub. The DocLayout-YOLO tool uses the pre-trained model, supplied by Galaxy's Hugging Face integration, to detect text chunks and create bounding-boxes around them. These bounding boxes containing text chunks are extracted from the original image and eventually sent to LLM hub tool for extraction that utilises advanced LLM with OCR capabilities.
+The [workflow](https://usegalaxy.eu/u/kumara/w/ocr-with-doclayout-hugging-face-and-llm-hub-1) for text segmentation uses DocLayout-YOLO tool for text segmentation. The DocLayout-YOLO tool uses the pre-trained model, powered by Galaxy's Hugging Face integration, to detect text chunks and create bounding boxes around them. These bounding boxes containing text chunks are extracted from the original image and are processed downstream by Convert coordinates to label map and Crop image tools.
 
 <div align="center">
     <img src="yolo_workflow.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
