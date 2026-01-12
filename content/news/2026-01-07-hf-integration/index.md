@@ -128,7 +128,7 @@ The LLM Hub tool utilises multi-modal LLMs with adavanced OCR capabilities to ex
 
 ### Workflow output
 
-The following image shows the output of the text segmentation and detection output produced by the workflow in the markdown format. Additionally, the output enlists the **thinking process** of the associated imaging LLM before producing the text from the bounding regions.
+The following image shows the output of the text segmentation and detection output produced by the workflow in the markdown format. Additionally, the output enlists the **thinking process** of the associated imaging LLM before producing the text from the bounding regions. The [workflow invocation](https://usegalaxy.eu/workflows/invocations/6fc32b7a39dc5b6e) provides more details.
 
 
 <div align="center">
