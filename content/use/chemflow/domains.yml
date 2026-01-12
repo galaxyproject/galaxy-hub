@@ -1,0 +1,27 @@
+domains:
+    - platform_url: https://vm-chemflow-francegrille.eu/
+      ip: 134.158.151.110
+      version: IPv4
+      asn: AS789 Renater
+      org: CNRS Centre de Calcul de l'IN2P3
+      release:
+          version_major: "20.05"
+          version_minor: null
+      location:
+          city: Paris
+          region: Île-de-France
+          region_code: IDF
+          country: FR
+          country_name: France
+          country_code: FR
+          continent_code: EU
+          postal: "75019"
+          latitude: 48.8558
+          longitude: 2.3494
+          timezone: Europe/Paris
+          currency: EUR
+      response:
+          time: "2025-11-25T19:39:38Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

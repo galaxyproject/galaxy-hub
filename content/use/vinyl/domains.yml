@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://www.beaconlab.it/VINYL
+      ip: 89.46.110.76
+      version: IPv4
+      asn: AS31034 Aruba S.p.A.
+      org: Aruba S.p.A.
+      location:
+          city: Arezzo
+          region: Tuscany
+          region_code: "52"
+          country: IT
+          country_name: Italy
+          country_code: IT
+          continent_code: EU
+          postal: "52100"
+          latitude: 43.4631
+          longitude: 11.8783
+          timezone: Europe/Rome
+          currency: EUR
+      response:
+          time: "2025-11-25T21:24:18Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

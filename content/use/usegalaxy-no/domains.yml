@@ -1,0 +1,27 @@
+domains:
+    - platform_url: https://usegalaxy.no
+      ip: 158.37.7.52
+      version: IPv4
+      asn: AS224 SIKT - KUNNSKAPSSEKTORENS TJENESTELEVERANDOR
+      org: UNINETT
+      release:
+          version_major: "23.2"
+          version_minor: 2.dev0
+      location:
+          city: Bergen
+          region: Vestland
+          region_code: "46"
+          country: "NO"
+          country_name: Norway
+          country_code: "NO"
+          continent_code: EU
+          postal: "5008"
+          latitude: 60.3951
+          longitude: 5.3237
+          timezone: Europe/Oslo
+          currency: NOK
+      response:
+          time: "2025-11-25T21:23:12Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

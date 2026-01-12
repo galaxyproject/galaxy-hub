@@ -5,6 +5,9 @@
             <h1 class="page-title">{{ inserts.main.title }}</h1>
             <div class="markdown" v-html="inserts.main.content"></div>
 
+            <!-- Platform Map Visualization -->
+            <PlatformMap :platforms="platforms" />
+
             <b-tabs nav-class="font-weight-bold" v-model="tabState.activeTabIndex" @activate-tab="tabState.onTabChange">
                 <b-tab v-for="tab in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
                     <!-- Table name. -->
@@ -56,6 +59,14 @@
                                     </b-badge>
                                 </div>
                             </div>
+
+                            {{ /* TODO format search labels, reformat pagination labels */ }}
+                            <small v-if="isToolSearch" class="text-primary">
+                                🔍 Tool search: "{{ toolSearchQuery }}"
+                            </small>
+                            <small v-else-if="isReferenceSearch" class="text-success">
+                                🧬 Reference search: "{{ referenceSearchQuery }}"
+                            </small>
                         </b-col>
                         <!-- Items per page selector -->
                         <b-col cols="2">
@@ -139,18 +150,40 @@
                         <template #cell(platform)="data">
                             <a :href="data.item.path">{{ data.item.title || data.item.path }}</a>
                         </template>
+                        <template #cell(release)="data">
+                            <div v-if="getReleaseInfo(data.item)">
+                                <div class="release-version">
+                                    {{ getReleaseInfo(data.item).version }}
+                                </div>
+                                <div class="release-date text-muted">
+                                    <small>{{ getReleaseInfo(data.item).date }}</small>
+                                </div>
+                            </div>
+                            <span v-else>-</span>
+                        </template>
                         <template #cell(region)="data">
                             <span v-if="getRegionValue(data.item)">
                                 {{ getRegionValue(data.item) }}
                             </span>
                             <span v-else> - </span>
                         </template>
-                        <!-- <template #cell(tier)="data">
-                            <span v-if="getTierValue(data.item)" class="badge badge-primary">
-                                Tier {{ getTierValue(data.item) }}
-                            </span>
+                        <template #cell(tier)="data">
+                            <div v-if="getTierValue(data.item)" class="icon-tier">
+                                <i
+                                    v-if="getTierDefinition(data.item)"
+                                    :class="getTierDefinition(data.item).icon"
+                                    :title="
+                                        'Tier ' +
+                                        getTierDefinition(data.item).tier +
+                                        ' - ' +
+                                        getTierDefinition(data.item).name
+                                    "
+                                    style="margin-right: 4px"
+                                >
+                                </i>
+                            </div>
                             <span v-else> - </span>
-                        </template> -->
+                        </template>
                         <template #cell(link)="data">
                             <a
                                 v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
@@ -304,6 +337,7 @@
 </template>
 
 <script>
+import PlatformMap from "~/components/PlatformMap.vue";
 import { rmPrefix, rmSuffix, mdToHtml } from "~/lib/utils.js";
 import { useTableRouting } from "~/composables/useTableRouting.js";
 import { useTableSorting } from "~/composables/useTableSorting.js";
@@ -326,6 +360,49 @@ const KEYWORDS = {
 const KEYWORD_LENGTH_MIN = 3;
 const SUGGESTIONS_MAX = 15;
 
+const TIER_DEFINITIONS = [
+    {
+        tier: 1,
+        name: "Global instances",
+        icon: "fas fa-globe",
+        description: "Stable, reliable, and suitable for critical workloads.",
+    },
+    {
+        tier: 2,
+        name: "National instances",
+        icon: "fas fa-building-columns",
+        description:
+            "Robust services with geographic / regional focus (e.g. Italy, Canada); suitable for production use.",
+    },
+    {
+        tier: 3,
+        name: "Subdomains",
+        icon: "fas fa-network-wired",
+        description:
+            "Instances serving specific specialities or communities; reliability depends on parent domain infrastructure.",
+    },
+    {
+        tier: 4,
+        name: "Institutional instances",
+        icon: "fas fa-building",
+        description: "Instances hosted by institutions; reliability depends on institutional infrastructure.",
+    },
+    {
+        tier: 5,
+        name: "Integrated platforms",
+        icon: "fas fa-rocket",
+        description:
+            "Platforms that can launch Galaxy (e.g. AnVIL); variable reliability depends on platform infrastructure.",
+    },
+    {
+        tier: 6,
+        name: "Development instances for testing",
+        icon: "fas fa-flask",
+        description:
+            "For development, testing, or experimental purposes; may have limited reliability and not recommended for production use.",
+    },
+];
+
 const { createSortableField } = useTableSorting();
 
 const tabs = [
@@ -337,6 +414,8 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
+            createSortableField("tier", "Tier"),
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -349,6 +428,8 @@ const tabs = [
         linkGroup: "public-server",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
+            createSortableField("tier", "Tier"),
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -360,7 +441,8 @@ const tabs = [
         label: "Public Servers",
         columns: [
             createSortableField("platform", "Resource"),
-            // createSortableField("tier", "Tier"), // TODO when tier data loaded in content/use/*/index.md
+            createSortableField("release", "Release"),
+            createSortableField("tier", "Tier"),
             { key: "summary", label: "Summary" },
             createSortableField("tools_count", "Tools"),
             createSortableField("references_count", "References"),
@@ -373,6 +455,7 @@ const tabs = [
         label: "Academic Clouds",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("tier", "Tier"),
             { key: "summary", label: "Summary" },
             { key: "purview", label: "Purview" },
             { key: "keywords", label: "Keywords" },
@@ -383,6 +466,7 @@ const tabs = [
         label: "Commercial Clouds",
         columns: [
             createSortableField("platform", "Resource"),
+            createSortableField("release", "Release"),
             { key: "summary", label: "Summary" },
             createSortableField("region", "Region"),
             { key: "keywords", label: "Keywords" },
@@ -458,6 +542,10 @@ function makeFilterKey(platform) {
 }
 
 export default {
+    components: {
+        PlatformMap,
+    },
+
     metaInfo() {
         return {
             title: this.inserts.main.title,
@@ -486,6 +574,7 @@ export default {
             SUGGESTIONS_MAX: SUGGESTIONS_MAX,
             // Pre-built suggestions (built once, never changes)
             allSuggestions: [],
+            tierDefinitions: TIER_DEFINITIONS,
         };
     },
 
@@ -512,14 +601,28 @@ export default {
 
             const toolsMap = this.buildToolsMap();
             const referencesMap = this.buildReferencesMap();
+            const domainsMap = this.buildDomainsMap();
 
             platforms.forEach((platform) => {
                 const platformPath = platform.path.replace(/\/$/, ""); // Remove trailing slash
                 platform.tools = toolsMap[platformPath] || [];
                 platform.references = referencesMap[platformPath] || [];
+                platform.domains = domainsMap[platformPath] || [];
             });
 
-            return platforms;
+            // Filter out platforms where operative is explicitly "0"
+            return platforms.filter((platform) => {
+                if (!platform.platforms || platform.platforms.length === 0) {
+                    return false;
+                }
+                return platform.platforms.some(
+                    (p) =>
+                        !p.designation ||
+                        p.designation.operative === null ||
+                        p.designation.operative === undefined ||
+                        String(p.designation.operative) !== "0",
+                );
+            });
         },
 
         // Filter suggestions based on current input
@@ -729,6 +832,31 @@ export default {
             return referencesMap;
         },
 
+        buildDomainsMap() {
+            const domainsMap = {};
+            if (this.$page.domains && this.$page.domains.edges) {
+                this.$page.domains.edges.forEach((edge) => {
+                    const domainsData = edge.node;
+
+                    // Only process datasets that have domains array and are named "domains"
+                    if (!domainsData.domains || domainsData.fileInfo?.name !== "domains") {
+                        return;
+                    }
+
+                    // Extract platform path from dataset path
+                    let pathMatch = domainsData.path.match(/^\/dataset:(\/use\/[^/]+)\/domains\/?$/);
+
+                    if (pathMatch && domainsData.domains) {
+                        const platformPath = pathMatch[1];
+                        // Store the full domains array for this platform
+                        domainsMap[platformPath] = domainsData.domains;
+                    }
+                });
+            }
+
+            return domainsMap;
+        },
+
         getMatchingTools(platform, toolName) {
             if (!platform.tools || !toolName) {
                 return [];
@@ -774,14 +902,55 @@ export default {
             return item.filterKey && item.filterKey.toLowerCase().includes(filterLower);
         },
 
+        shouldShowPlatform(platform) {
+            // Show platforms unless operative explicitly equals "0"
+            if (!platform.platforms || platform.platforms.length === 0) {
+                return false;
+            }
+            return platform.platforms.some(
+                (p) =>
+                    !p.designation ||
+                    p.designation.operative === null ||
+                    p.designation.operative === undefined ||
+                    String(p.designation.operative) !== "0",
+            );
+        },
+
         getTierValue(item) {
             const { getTierValue } = useTableSorting();
-            return getTierValue(item);
+            const activeTab = this.tabs[this.tabState?.activeTabIndex || 0];
+            const platform_group = activeTab?.linkGroup || activeTab?.id;
+            return getTierValue(item, platform_group);
+        },
+
+        getTierDefinition(item) {
+            const tierValue = this.getTierValue(item);
+            if (!tierValue) return null;
+            return this.tierDefinitions.find((def) => def.tier === parseInt(tierValue, 10)) || null;
         },
 
         getRegionValue(item, platform_group = null) {
             const { getRegionValue } = useTableSorting();
             return getRegionValue(item, platform_group);
+        },
+
+        getReleaseInfo(platform) {
+            if (!platform.domains || platform.domains.length === 0) {
+                return null;
+            }
+
+            const domainWithRelease = platform.domains.find((domain) => domain.release && domain.release.version_major);
+
+            if (!domainWithRelease) {
+                return null;
+            }
+
+            const version = domainWithRelease.release.version_major;
+
+            return {
+                version: version,
+                rawVersion: version,
+            };
         },
 
         platformsByGroup(group) {
@@ -829,14 +998,6 @@ export default {
             } else {
                 tab.pageEnd = pageEnd;
             }
-        },
-
-        short(url) {
-            // For display purposes, remove (1) http(s):// and www. prefixes and (2) hanging "/" and (3) numeric 4-digit port suffix
-            return url
-                .replace(/^(https?:\/\/)?(www\.)?/, "")
-                .replace(/\/$/, "")
-                .replace(/:\d{4}$/, "");
         },
 
         customSortCompare(aRow, bRow, key) {
@@ -929,6 +1090,7 @@ export default {
 
     watch: {
         filter(newFilter) {
+            // Watch filter changes and set search mode flags
             const filterLower = newFilter.toLowerCase();
 
             if (filterLower.startsWith("tool:")) {
@@ -977,7 +1139,10 @@ query {
             }
         }
     }
-    platforms: allPlatform(sortBy: "title", order: ASC) {
+    platforms: allPlatform(
+        sortBy: "title", 
+        order: ASC
+        ) {
         totalCount
         edges {
             node {
@@ -985,6 +1150,8 @@ query {
                 title
                 scope
                 summary
+                image
+                images
                 url
                 path
                 platforms {
@@ -992,6 +1159,11 @@ query {
                     platform_url
                     platform_purview
                     platform_location
+                    designation {
+                        operative
+                        tier
+                        url
+                    }
                 }
             }
         }
@@ -1029,6 +1201,73 @@ query {
                     type
                     items {
                         name
+                    }
+                }
+            }
+        }
+    }
+    tools: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                tools {
+                    name
+                    version
+                    link
+                    description
+                }
+            }
+        }
+    }
+    references: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                references {
+                    type
+                    items {
+                        name
+                    }
+                }
+            }
+        }
+    }
+    domains: allDataset {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+                domains {
+                    platform_url
+                    ip
+                    release {
+                        version_major
+                        version_minor
+                    }
+                    location {
+                        city
+                        region
+                        country
+                        country_name
+                        latitude
+                        longitude
                     }
                 }
             }
@@ -1100,24 +1339,64 @@ footer.page-footer {
     margin: 1px 0px 4px;
 }
 
-/* Tier badge styling */
-.badge-primary {
-    background-color: #007bff;
-    color: white;
-    padding: 0.25em 0.6em;
-    border-radius: 0.25rem;
-    font-size: 0.75em;
-    font-weight: 600;
+.autocomplete-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 15px;
+    right: 15px;
+    max-height: 300px;
+    width: 380px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    margin-top: -1px;
 }
 
-/* Center align tier column */
-::v-deep .table td[aria-describedby$="-tier"],
-::v-deep .table th[aria-describedby$="-tier"] {
-    text-align: center;
+.autocomplete-item {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.15s ease;
+}
+
+.autocomplete-item:last-child {
+    border-bottom: none;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+    background-color: #f8f9fa;
+}
+
+.autocomplete-item.selected {
+    background-color: #e9ecef;
+}
+
+.suggestion-name {
+    flex: 1;
+    margin-right: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.query-indicator {
+    height: 20px;
+    margin: 1px 0px 4px;
+}
+
+.icon-tier {
+    font-size: 1.2rem;
+    color: #25537b;
 }
 
 ::v-deep .table td:first-child,
-::v-deep .table td[aria-describedby$="-platform"],
 ::v-deep .table td[data-label="Platform"],
 ::v-deep .table td[data-label="platform"] {
     white-space: normal !important;
@@ -1127,8 +1406,7 @@ footer.page-footer {
     vertical-align: top;
 }
 
-::v-deep .table th:first-child,
-::v-deep .table th[aria-describedby$="-platform"] {
+::v-deep .table th:first-child {
     white-space: normal !important;
     word-wrap: break-word;
     word-break: break-word;
@@ -1178,5 +1456,15 @@ footer.page-footer {
 .reference-match small {
     color: #495057;
     line-height: 1.4;
+}
+
+.release-version {
+    font-weight: 500;
+    color: #333;
+}
+
+.release-date {
+    font-size: 0.85rem;
+    margin-top: 0.125rem;
 }
 </style>

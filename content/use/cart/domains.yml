@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://cart.embl.de/
+      ip: 194.94.44.56
+      version: IPv4
+      asn: AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+      org: European Molecular Biology Laboratory, Heidelberg
+      location:
+          city: Heidelberg
+          region: Baden-Wurttemberg
+          region_code: BW
+          country: DE
+          country_name: Germany
+          country_code: DE
+          continent_code: EU
+          postal: "69126"
+          latitude: 49.3759
+          longitude: 8.6943
+          timezone: Europe/Berlin
+          currency: EUR
+      response:
+          time: "2025-11-25T19:39:02Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

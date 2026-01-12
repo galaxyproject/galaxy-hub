@@ -1,0 +1,27 @@
+domains:
+    - platform_url: http://igg.cloud.ba.infn.it/galaxy
+      ip: 212.189.202.114
+      version: IPv4
+      asn: AS137 Consortium GARR
+      org: Istituto Nazionale di Fisica Nucleare INFN
+      release:
+          version_major: "19.05"
+          version_minor: null
+      location:
+          city: Bologna
+          region: Emilia-Romagna
+          region_code: "45"
+          country: IT
+          country_name: Italy
+          country_code: IT
+          continent_code: EU
+          postal: "40127"
+          latitude: 44.5004
+          longitude: 11.3568
+          timezone: Europe/Rome
+          currency: EUR
+      response:
+          time: "2025-11-25T19:42:04Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK
