@@ -101,7 +101,7 @@ The [workflow](https://usegalaxy.eu/u/kumara/w/ocr-with-doclayout-hugging-face-a
     <img src="yolo_workflow.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
 </div>
 
-### Configure the DocLayout-YOLO tool in the workfow
+### DocLayout-YOLO tool in the workfow
 
 The [**DocLayout-YOLO**](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/doclayoutyolo/doclayoutyolo/0.0.4.1+galaxy0) tool form and set:
 
@@ -117,23 +117,24 @@ The DocLayout-YOLO tool produces a segmented image with detected regions (e.g., 
     <img src="7_segmented_image.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
 </div>
 
-### Configure the LLM Hub tool in the workfow
+### Convert coordinates to label map tool
 
-The LLM Hub tool utilises multi-modal LLMs with adavanced OCR capabilities to extract text from the images having bounded regions. The tool has the following settings.
+The tool converts a list of shapes to a label map via rasterization. It uses the polygon coordinates provided by the DocLayout-YOLO tool to create a list of shapes. **Hint**: To correctly utilise the tool, it is important to set the height and width parameters of the input image correctly. For the input image in the shown example, the image has a size of 374 x 648 which are provide into the parameters of this tool.
 
 <div align="center">
-    <img src="llm_hub_step.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
+    <img src="convert_coor_label_map.png" alt="Convert coordinates to label map tool parameters" width="400"/>
 </div>
 
 
-### Workflow output
+### Workflow output by Crop image tool
 
-The following image shows the output of the text segmentation and detection output produced by the workflow in the markdown format. Additionally, the output enlists the **thinking process** of the associated imaging LLM before producing the text from the bounding regions. The [workflow invocation](https://usegalaxy.eu/workflows/invocations/6fc32b7a39dc5b6e) provides more details.
+The Crop tool creates sub-images for each shape identified by the segmentation and rasterisation by DocLayout-YOLO and Convert coordinates to label map tool, respectively.
 
 
 <div align="center">
-    <img src="llm_hub_output.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
+    <img src="labelmap.png" alt="Sub-images by Crop image tool" width="400"/>
 </div>
+
 
 ## Significance for reproducible Galaxy ML-based workflows
 
