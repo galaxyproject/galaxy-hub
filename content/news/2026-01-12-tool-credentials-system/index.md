@@ -1,6 +1,6 @@
 ---
 title: "Secure Your Tools with Galaxy's New Credentials System"
-date: "2026-01-07"
+date: "2026-01-12"
 tease: "Galaxy 25.1 introduces a powerful new credentials system that lets tools securely access external APIs and services with encrypted secret storage and a streamlined user experience."
 authors: Arash Kadkhodaei
 subsites: [all]
