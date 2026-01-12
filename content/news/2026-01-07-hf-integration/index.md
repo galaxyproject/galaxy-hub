@@ -13,7 +13,7 @@ tags: [tools]
 
 A common friction point in ML-powered scientific analysis in Galaxy is **getting the appropriate model into the right tool**: downloading weights locally, uploading again, and repeating for every history or workflow run.
 
-With Galaxy’s new [**Hugging Face Hub**](https://huggingface.co/) integration, you can **browse Hugging Face model repositories from within Galaxy** file uploader, import a model artifact directly into your history, and immediately use it as a tool input. This feature is implemented as a Galaxy file source plugin built on the `fsspec` and `huggingface_hub` libraries. 
+With Galaxy’s new [**Hugging Face Hub**](https://huggingface.co/) integration, you can **browse Hugging Face model repositories from within Galaxy** file uploader, import a model artifact directly into your history, and immediately use it as a tool input. This feature is implemented as a Galaxy's file source plugin built on the `fsspec` and `huggingface_hub` libraries. 
 
 <div align="center">
     <img src="hf_gpt_oss.png" alt="HF GPT OSS 120B" width="600"/>
@@ -95,13 +95,13 @@ At this point, your YOLO weights are now a normal Galaxy dataset: usable as a to
 
 ## Run inference in Galaxy
 
-The [workflow](https://usegalaxy.eu/u/kumara/w/ocr-with-doclayout-hugging-face-and-llm-hub-1) for text segmentation uses DocLayout-YOLO tool for text segmentation. The DocLayout-YOLO tool uses the pre-trained model, powered by Galaxy's Hugging Face integration, to detect text chunks and create bounding boxes around them. These bounding boxes containing text chunks are extracted from the original image and are processed downstream by Convert coordinates to label map and Crop image tools.
+The [workflow](https://usegalaxy.eu/u/schnda/w/extract-text-passages-from-images) for text segmentation uses DocLayout-YOLO tool for text segmentation. The DocLayout-YOLO tool uses the pre-trained model, powered by Galaxy's Hugging Face integration, to detect text chunks and create bounding boxes around them. These bounding boxes containing text chunks are extracted from the original image and are processed downstream by Convert coordinates to label map and Crop image tools.
 
 <div align="center">
     <img src="yolo_workflow.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
 </div>
 
-### DocLayout-YOLO tool in the workfow
+### DocLayout-YOLO tool in the workflow
 
 The [**DocLayout-YOLO**](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/doclayoutyolo/doclayoutyolo/0.0.4.1+galaxy0) tool form and set:
 
@@ -119,7 +119,7 @@ The DocLayout-YOLO tool produces a segmented image with detected regions (e.g., 
 
 ### Convert coordinates to label map tool
 
-The tool converts a list of shapes to a label map via rasterization. It uses the polygon coordinates provided by the DocLayout-YOLO tool to create a list of shapes. **Hint**: To correctly utilise the tool, it is important to set the height and width parameters of the input image correctly. For the input image in the shown example, the image has a size of 374 x 648 which are provide into the parameters of this tool.
+The tool converts a list of shapes to a label map via rasterization. It uses the polygon coordinates provided by the DocLayout-YOLO tool  to rasterize the them into a label map. **Hint**: To correctly utilize the tool, it is important to set the height and width parameters of the input image correctly. For the input image in the shown example, the image has a size of 374 x 648 (width x height) which are provided as the parameters of this tool.
 
 <div align="center">
     <img src="convert_coor_label_map.png" alt="Convert coordinates to label map tool parameters" width="400"/>
