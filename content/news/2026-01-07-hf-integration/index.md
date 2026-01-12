@@ -95,7 +95,7 @@ At this point, your YOLO weights are now a normal Galaxy dataset: usable as a to
 
 ## Run inference in Galaxy
 
-The [workflow](https://usegalaxy.eu/u/schnda/w/extract-text-passages-from-images) for text segmentation uses DocLayout-YOLO tool for text segmentation. The DocLayout-YOLO tool uses the pre-trained model, powered by Galaxy's Hugging Face integration, to detect text chunks and create bounding boxes around them. These bounding boxes containing text chunks are extracted from the original image and are processed downstream by Convert coordinates to label map and Crop image tools.
+The [workflow](https://usegalaxy.eu/u/schnda/w/extract-text-passages-from-images) for text segmentation uses DocLayout-YOLO tool for text segmentation. The DocLayout-YOLO tool uses the pre-trained model, powered by Galaxy's Hugging Face integration, to detect text chunks and create bounding boxes around them. These bounding boxes containing text chunks are extracted from the original image and are processed downstream by Convert coordinates to label map and Crop image tools. You could combine the output with other tools in Galaxy, such as the [LLM Hub](https://usegalaxy.eu/?tool_id=llm_hub) or [Tesseract](https://usegalaxy.eu/?tool_id=tesseract) for optical character recognition (OCR). This will make your image machine-readable.
 
 <div align="center">
     <img src="yolo_workflow.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
@@ -119,16 +119,16 @@ The DocLayout-YOLO tool produces a segmented image with detected regions (e.g., 
 
 ### Convert coordinates to label map tool
 
-The tool converts a list of shapes to a label map via rasterization. It uses the polygon coordinates provided by the DocLayout-YOLO tool  to rasterize the them into a label map. **Hint**: To correctly utilize the tool, it is important to set the height and width parameters of the input image correctly. For the input image in the shown example, the image has a size of 374 x 648 (width x height) which are provided as the parameters of this tool.
+To make use of this information, the workflow converts the location coordinates into a different format. In this step, [**Convert coordinates to label map**](https://usegalaxy.eu/root?tool_id=ip_points_to_label) it is important that the width and height of your input match the image you want to cut. 
+You can find this information about your image by clicking on the image in your history and clicking on the "i" at the bottom to show the dataset details. Navigate to the edit tab to find your image's height and width. You can now feed this information to the **Convert coordinates to label map** tool. Use the [cropping tool](https://usegalaxy.eu/root?tool_id=ip_crop_image) to extract your images. 
 
 <div align="center">
     <img src="convert_coor_label_map.png" alt="Convert coordinates to label map tool parameters" width="400"/>
 </div>
 
-
 ### Workflow output by Crop image tool
 
-The Crop tool creates sub-images for each shape identified by the segmentation and rasterisation by DocLayout-YOLO and Convert coordinates to label map tool, respectively.
+The Crop tool creates sub-images for each shape identified by the segmentation and rasterisation by DocLayout-YOLO and Convert coordinates to label map tool, respectively. Depending on the input image, we get several separate images. Those can now be used with other tools, like Tesseract or LLM Hub, for example.
 
 
 <div align="center">
@@ -150,5 +150,9 @@ Pulling models from Hugging Face from *inside Galaxy* makes ML workflows much ea
 ## Acknowledgements
 
 Thanks a lot to David Lopez for the integration of Hugging Face Hub into Galaxy.
+
+## Resources
+
+- Galaxy history: https://usegalaxy.eu/u/schnda/h/extract-text-passages-from-images-test
 
 
