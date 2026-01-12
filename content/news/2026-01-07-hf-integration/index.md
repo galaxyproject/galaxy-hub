@@ -119,7 +119,7 @@ The DocLayout-YOLO tool produces a segmented image with detected regions (e.g., 
 
 ### Convert coordinates to label map tool
 
-To make use of this information, the workflow converts the location coordinates into a different format. In this step, [**Convert coordinates to label map**](https://usegalaxy.eu/root?tool_id=ip_points_to_label) it is important that the width and height of your input match the image you want to cut. 
+To make use of the segmented information, the workflow converts the location coordinates into a different format. In this step, [**Convert coordinates to label map**](https://usegalaxy.eu/root?tool_id=ip_points_to_label) tool is used. It is important that the width and height of your input match the image you want to cut. 
 You can find this information about your image by clicking on the image in your history and clicking on the "i" at the bottom to show the dataset details. Navigate to the edit tab to find your image's height and width. You can now feed this information to the **Convert coordinates to label map** tool. Use the [cropping tool](https://usegalaxy.eu/root?tool_id=ip_crop_image) to extract your images. 
 
 <div align="center">
@@ -128,7 +128,7 @@ You can find this information about your image by clicking on the image in your 
 
 ### Workflow output by Crop image tool
 
-The Crop tool creates sub-images for each shape identified by the segmentation and rasterisation by DocLayout-YOLO and Convert coordinates to label map tool, respectively. Depending on the input image, we get several separate images. Those can now be used with other tools, like Tesseract or LLM Hub, for example.
+The Crop image tool creates sub-images for each shape identified by the segmentation and rasterisation by DocLayout-YOLO and Convert coordinates to label map tool, respectively. Depending on the input image, we get several separate images. Those can now be used with other tools, like Tesseract or LLM Hub, for example.
 
 
 <div align="center">
