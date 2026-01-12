@@ -32,8 +32,6 @@ A wide range of models across many scientific disciplines include protein langua
 
 > **Note:** The Hugging Face Hub has been integrated as part of the **Galaxy v25.1** release.
 
----
-
 ## Model integration and inference
 
 We’ll demonstrate the usage of a Hugging Face model for segmenting document layout in the following steps:
@@ -46,8 +44,6 @@ We’ll demonstrate the usage of a Hugging Face model for segmenting document la
    - Document page image as input  
 5. View the segmented output image.
 
----
-
 ## Step-by-step: Import a model from Hugging Face Hub and run the DocLayout-YOLO tool
 
 ### 1) Open Galaxy Upload and choose “Choose from repository”
@@ -58,7 +54,6 @@ From the Galaxy **Upload** dialog, click **Choose from repository**.
     <img src="1_choose_from_repo_hf.png" alt="Upload dialog: choose “Choose from repository”" width="600"/>
 </div>
 
----
 
 ### 2) Select “Hugging Face Hub” as the repository source
 
@@ -68,7 +63,6 @@ In the repository picker, choose **Hugging Face Hub**.
     <img src="2_hf_hub.png" alt="Repository picker: select “Hugging Face Hub”" width="600"/>
 </div>
 
----
 
 ### 3) Search for the model repository
 
@@ -78,7 +72,6 @@ Now you can browse/search Hugging Face Hub models directly from Galaxy. Here we 
     <img src="3_doclayout_hf.png" alt="Browse Hugging Face repos from Galaxy and select the DocLayout-YOLO repository" width="600"/>
 </div>
 
----
 
 ### 4) Select the model weights file
 
@@ -88,7 +81,6 @@ Inside the repository, pick the weights file (here a `.pt` file).
     <img src="4_select_model.png" alt="Select the YOLO weights file from the repository" width="600"/>
 </div>
 
----
 
 ### 5) Import the selected file into your history
 
@@ -100,34 +92,48 @@ After adding the file to the upload queue, click **Start** to import it into you
 
 At this point, your YOLO weights are now a normal Galaxy dataset: usable as a tool/workflow input and shareable.
 
----
 
-## Run inference in Galaxy: DocLayout-YOLO segmentation
+## Run inference in Galaxy
 
-### 6) Configure the DocLayout-YOLO tool
+The [workflow](https://usegalaxy.eu/u/kumara/w/ocr-with-doclayout-hugging-face-and-llm-hub-1) for text segmentation and extraction includes tools such as DocLayout-YOLO and LLM Hub. The DocLayout-YOLO tool uses the pre-trained model, supplied by Galaxy's Hugging Face integration, to detect text chunks and create bounding-boxes around them. These bounding boxes containing text chunks are extracted from the original image and eventually sent to LLM hub tool for extraction that utilises advanced LLM with OCR capabilities.
 
-Open the [**DocLayout-YOLO**](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/doclayoutyolo/doclayoutyolo/0.0.4.1+galaxy0) tool form and set:
+<div align="center">
+    <img src="yolo_workflow.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
+</div>
+
+### Configure the DocLayout-YOLO tool in the workfow
+
+The [**DocLayout-YOLO**](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/doclayoutyolo/doclayoutyolo/0.0.4.1+galaxy0) tool form and set:
 
 - **Yolo model** → the `.pt` file imported from Hugging Face
 - **Input image** → the document page image to be segmented
 
-<div align="center">
-    <img src="6_doclayout_tool.png" alt="DocLayout-YOLO tool form using the imported model weights" width="600"/>
-</div>
 
-Then click **Run Tool**.
+#### The segmented image with detected layout regions
 
----
-
-### 7) View the output: segmented page with detected layout regions
-
-The tool produces a segmented image with detected regions (e.g., headings, paragraphs, page headers) drawn as bounding boxes.
+The DocLayout-YOLO tool produces a segmented image with detected regions (e.g., headings, paragraphs, page headers) drawn as bounding boxes.
 
 <div align="center">
     <img src="7_segmented_image.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
 </div>
 
----
+### Configure the LLM Hub tool in the workfow
+
+The LLM Hub tool utilises multi-modal LLMs with adavanced OCR capabilities to extract text from the images having bounded regions. The tool has the following settings.
+
+<div align="center">
+    <img src="llm_hub_step.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
+</div>
+
+
+### Workflow output
+
+The following image shows the output of the text segmentation and detection output produced by the workflow in the markdown format. Additionally, the output enlists the **thinking process** of the associated imaging LLM before producing the text from the bounding regions.
+
+
+<div align="center">
+    <img src="llm_hub_output.png" alt="Segmented output image produced by DocLayout-YOLO" width="400"/>
+</div>
 
 ## Significance for reproducible Galaxy ML-based workflows
 
@@ -138,8 +144,6 @@ Pulling models from Hugging Face from *inside Galaxy* makes ML workflows much ea
 - **Tool inputs become explicit**: the exact model file used is captured in the history and workflow provenance.
 - **Reusable across analyses**: share histories/workflows with the model artifact included.
 - **Standardization of ML models**: usage of widely used Hugging Face Hub as model repository provides standard and safer model loaders and structured model metadata.
-
----
 
 
 ## Acknowledgements
