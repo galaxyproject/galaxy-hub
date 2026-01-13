@@ -5,871 +5,916 @@ import { getCollection } from 'astro:content';
 // Get recent news (news articles are in 'articles' collection, filtered by slug)
 const articles = await getCollection('articles');
 const recentNews = articles
-	.filter(article => article.data.slug?.startsWith('news/'))
-	.sort((a, b) => {
-		const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
-		const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
-		return dateB.getTime() - dateA.getTime();
-	})
-	.slice(0, 3);
+  .filter((article) => article.data.slug?.startsWith('news/'))
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 3);
 
 // Get upcoming events
 const events = await getCollection('events');
 const now = new Date();
 const upcomingEvents = events
-	.filter(e => {
-		const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
-		return eventDate >= now;
-	})
-	.sort((a, b) => {
-		const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
-		const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
-		return dateA.getTime() - dateB.getTime();
-	})
-	.slice(0, 4);
+  .filter((e) => {
+    const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
+    return eventDate >= now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 4);
 
 function formatDate(date: Date | string | undefined): string {
-	if (!date) return '';
-	const d = date instanceof Date ? date : new Date(date);
-	return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  if (!date) return '';
+  const d = date instanceof Date ? date : new Date(date);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
 const currentYear = new Date().getFullYear();
 
 // Feature pillars
 const pillars = [
-	{
-		title: "Analyze",
-		subtitle: "1000+ Tools",
-		description: "Access thousands of analysis tools through an intuitive interface. From genomics to proteomics.",
-		icon: "beaker"
-	},
-	{
-		title: "Reproduce",
-		subtitle: "Workflows",
-		description: "Create, share, and publish reproducible workflows. Every analysis is tracked and shareable.",
-		icon: "workflow"
-	},
-	{
-		title: "Learn",
-		subtitle: "200+ Tutorials",
-		description: "Galaxy Training Network offers hands-on tutorials for researchers at every skill level.",
-		icon: "academic"
-	},
-	{
-		title: "Scale",
-		subtitle: "Cloud & HPC",
-		description: "Run analyses on powerful infrastructure. From laptops to supercomputers.",
-		icon: "cloud"
-	}
+  {
+    title: 'Analyze',
+    subtitle: '1000+ Tools',
+    description: 'Access thousands of analysis tools through an intuitive interface. From genomics to proteomics.',
+    icon: 'beaker',
+  },
+  {
+    title: 'Reproduce',
+    subtitle: 'Workflows',
+    description: 'Create, share, and publish reproducible workflows. Every analysis is tracked and shareable.',
+    icon: 'workflow',
+  },
+  {
+    title: 'Learn',
+    subtitle: '200+ Tutorials',
+    description: 'Galaxy Training Network offers hands-on tutorials for researchers at every skill level.',
+    icon: 'academic',
+  },
+  {
+    title: 'Scale',
+    subtitle: 'Cloud & HPC',
+    description: 'Run analyses on powerful infrastructure. From laptops to supercomputers.',
+    icon: 'cloud',
+  },
 ];
 ---
 
-<HomeLayout title="Galaxy Community Hub" description="Galaxy: Open source platform for accessible, reproducible, and transparent computational research">
-	<style>
-		/*
-		 * Galaxy Hub Homepage v2
-		 * Refined design using Galaxy brand colors
-		 * Harmonizes with sidebar navigation
-		 */
-
-		.homepage-v2 {
-			/* Use Galaxy brand colors */
-			--galaxy-primary: #25537B;
-			--galaxy-dark: #2C3143;
-			--galaxy-gold: #ffd700;
-			--galaxy-gold-dark: #d4a800;
-			--medium-bg: #3C435C;
-			--light-bg: #EDF4FA;
-
-			--text-primary: #f8fafc;
-			--text-secondary: rgba(248, 250, 252, 0.7);
-			--text-muted: rgba(248, 250, 252, 0.5);
-
-			background: var(--galaxy-dark);
-			color: var(--text-primary);
-		}
-
-		/* Subtle grid overlay for dark sections */
-		.grid-overlay {
-			position: relative;
-		}
-
-		.grid-overlay::before {
-			content: '';
-			position: absolute;
-			inset: 0;
-			background-image:
-				linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-				linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
-			background-size: 24px 24px;
-			pointer-events: none;
-			z-index: 0;
-		}
-
-		.grid-overlay > * {
-			position: relative;
-			z-index: 1;
-		}
-
-		/* Hero Section - Dark theme matching sidebar */
-		.hero-section {
-			padding: 4rem 2rem;
-			background: linear-gradient(135deg, var(--galaxy-dark) 0%, var(--galaxy-primary) 100%);
-			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-		}
-
-		.hero-container {
-			max-width: 1100px;
-			margin: 0 auto;
-			display: grid;
-			grid-template-columns: 1.2fr 1fr;
-			gap: 3rem;
-			align-items: center;
-		}
-
-		@media (max-width: 900px) {
-			.hero-container {
-				grid-template-columns: 1fr;
-				text-align: center;
-			}
-		}
-
-		.hero-text h1 {
-			font-size: 2.75rem;
-			font-weight: 700;
-			line-height: 1.15;
-			margin-bottom: 1.25rem;
-			color: var(--text-primary);
-		}
-
-		.hero-text h1 .highlight {
-			color: var(--galaxy-gold);
-		}
-
-		.hero-text .tagline {
-			font-size: 1.125rem;
-			line-height: 1.7;
-			color: var(--text-secondary);
-			margin-bottom: 2rem;
-			max-width: 500px;
-		}
-
-		@media (max-width: 900px) {
-			.hero-text .tagline {
-				margin-left: auto;
-				margin-right: auto;
-			}
-		}
-
-		.hero-actions {
-			display: flex;
-			gap: 1rem;
-			flex-wrap: wrap;
-		}
-
-		@media (max-width: 900px) {
-			.hero-actions {
-				justify-content: center;
-			}
-		}
-
-		.btn-primary {
-			display: inline-flex;
-			align-items: center;
-			gap: 0.5rem;
-			padding: 0.875rem 1.75rem;
-			background: var(--galaxy-gold);
-			color: var(--galaxy-dark);
-			font-weight: 600;
-			font-size: 0.95rem;
-			border-radius: 6px;
-			text-decoration: none;
-			transition: all 0.2s ease;
-		}
-
-		.btn-primary:hover {
-			background: var(--galaxy-gold-dark);
-			transform: translateY(-1px);
-		}
-
-		.btn-secondary {
-			display: inline-flex;
-			align-items: center;
-			gap: 0.5rem;
-			padding: 0.875rem 1.75rem;
-			background: transparent;
-			border: 1px solid rgba(255, 255, 255, 0.25);
-			color: var(--text-primary);
-			font-weight: 500;
-			font-size: 0.95rem;
-			border-radius: 6px;
-			text-decoration: none;
-			transition: all 0.2s ease;
-		}
-
-		.btn-secondary:hover {
-			background: rgba(255, 255, 255, 0.1);
-			border-color: rgba(255, 255, 255, 0.4);
-		}
-
-		/* Hero visual */
-		.hero-visual {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.hero-visual img {
-			max-width: 360px;
-			height: auto;
-			filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
-		}
-
-		@media (max-width: 900px) {
-			.hero-visual img {
-				max-width: 240px;
-			}
-		}
-
-		/* Stats Row */
-		.stats-row {
-			padding: 2rem;
-			background: var(--medium-bg);
-			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-		}
-
-		.stats-container {
-			max-width: 1100px;
-			margin: 0 auto;
-			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-			gap: 1.5rem;
-		}
-
-		@media (max-width: 700px) {
-			.stats-container {
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-
-		.stat-item {
-			text-align: center;
-			padding: 1rem;
-		}
-
-		.stat-number {
-			font-size: 2rem;
-			font-weight: 700;
-			color: var(--galaxy-gold);
-			line-height: 1;
-		}
-
-		.stat-label {
-			font-size: 0.8rem;
-			color: var(--text-muted);
-			text-transform: uppercase;
-			letter-spacing: 0.05em;
-			margin-top: 0.5rem;
-		}
-
-		/* Pillars Section */
-		.pillars-section {
-			padding: 4rem 2rem;
-			background: var(--galaxy-dark);
-		}
-
-		.pillars-container {
-			max-width: 1100px;
-			margin: 0 auto;
-		}
-
-		.section-header {
-			text-align: center;
-			margin-bottom: 3rem;
-		}
-
-		.section-header h2 {
-			font-size: 1.75rem;
-			font-weight: 700;
-			margin-bottom: 0.5rem;
-			color: var(--text-primary);
-		}
-
-		.section-header p {
-			color: var(--text-secondary);
-			font-size: 1rem;
-		}
-
-		.pillars-grid {
-			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-			gap: 1.5rem;
-		}
-
-		@media (max-width: 900px) {
-			.pillars-grid {
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-
-		@media (max-width: 550px) {
-			.pillars-grid {
-				grid-template-columns: 1fr;
-			}
-		}
-
-		.pillar-card {
-			background: var(--medium-bg);
-			border: 1px solid rgba(255, 255, 255, 0.08);
-			border-radius: 8px;
-			padding: 1.5rem;
-			transition: all 0.2s ease;
-		}
-
-		.pillar-card:hover {
-			border-color: var(--galaxy-gold);
-			transform: translateY(-2px);
-		}
-
-		.pillar-icon {
-			width: 2.5rem;
-			height: 2.5rem;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			background: var(--galaxy-primary);
-			border-radius: 6px;
-			margin-bottom: 1rem;
-		}
-
-		.pillar-icon svg {
-			width: 1.25rem;
-			height: 1.25rem;
-			color: var(--galaxy-gold);
-		}
-
-		.pillar-title {
-			font-size: 1.125rem;
-			font-weight: 600;
-			margin-bottom: 0.25rem;
-			color: var(--text-primary);
-		}
-
-		.pillar-subtitle {
-			font-size: 0.8rem;
-			color: var(--galaxy-gold);
-			margin-bottom: 0.75rem;
-		}
-
-		.pillar-description {
-			font-size: 0.875rem;
-			line-height: 1.5;
-			color: var(--text-secondary);
-		}
-
-		/* Content Section (News & Events) */
-		.content-section {
-			padding: 4rem 2rem;
-			background: linear-gradient(180deg, var(--medium-bg) 0%, var(--galaxy-dark) 100%);
-		}
-
-		.content-container {
-			max-width: 1100px;
-			margin: 0 auto;
-			display: grid;
-			grid-template-columns: 1.5fr 1fr;
-			gap: 3rem;
-		}
-
-		@media (max-width: 900px) {
-			.content-container {
-				grid-template-columns: 1fr;
-			}
-		}
-
-		.content-header {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			margin-bottom: 1.5rem;
-			padding-bottom: 0.75rem;
-			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-		}
-
-		.content-header h2 {
-			font-size: 1.25rem;
-			font-weight: 600;
-			color: var(--text-primary);
-		}
-
-		.content-header a {
-			font-size: 0.85rem;
-			color: var(--galaxy-gold);
-			text-decoration: none;
-			display: flex;
-			align-items: center;
-			gap: 0.25rem;
-		}
-
-		.content-header a:hover {
-			text-decoration: underline;
-		}
-
-		/* News cards */
-		.news-list {
-			display: flex;
-			flex-direction: column;
-			gap: 1rem;
-		}
-
-		.news-card {
-			display: block;
-			padding: 1.25rem;
-			background: rgba(255, 255, 255, 0.03);
-			border: 1px solid rgba(255, 255, 255, 0.08);
-			border-radius: 6px;
-			text-decoration: none;
-			color: inherit;
-			transition: all 0.2s ease;
-		}
-
-		.news-card:hover {
-			background: rgba(255, 255, 255, 0.06);
-			border-color: rgba(255, 255, 255, 0.15);
-		}
-
-		.news-date {
-			font-size: 0.75rem;
-			color: var(--galaxy-gold);
-			font-weight: 500;
-			text-transform: uppercase;
-			letter-spacing: 0.03em;
-		}
-
-		.news-title {
-			font-size: 1rem;
-			font-weight: 600;
-			margin: 0.5rem 0;
-			line-height: 1.4;
-			color: var(--text-primary);
-		}
-
-		.news-excerpt {
-			font-size: 0.85rem;
-			color: var(--text-secondary);
-			line-height: 1.5;
-			display: -webkit-box;
-			-webkit-line-clamp: 2;
-			-webkit-box-orient: vertical;
-			overflow: hidden;
-		}
-
-		/* Events list */
-		.events-list {
-			display: flex;
-			flex-direction: column;
-			gap: 0.75rem;
-		}
-
-		.event-card {
-			display: flex;
-			gap: 1rem;
-			padding: 1rem;
-			background: rgba(255, 255, 255, 0.03);
-			border: 1px solid rgba(255, 255, 255, 0.08);
-			border-radius: 6px;
-			text-decoration: none;
-			color: inherit;
-			transition: all 0.2s ease;
-		}
-
-		.event-card:hover {
-			background: rgba(255, 255, 255, 0.06);
-			border-color: rgba(255, 255, 255, 0.15);
-		}
-
-		.event-date-box {
-			flex-shrink: 0;
-			width: 3rem;
-			height: 3rem;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			background: var(--galaxy-primary);
-			border-radius: 4px;
-		}
-
-		.event-date-day {
-			font-size: 1.125rem;
-			font-weight: 700;
-			line-height: 1;
-			color: var(--galaxy-gold);
-		}
-
-		.event-date-month {
-			font-size: 0.6rem;
-			font-weight: 600;
-			text-transform: uppercase;
-			color: var(--text-secondary);
-		}
-
-		.event-info {
-			flex: 1;
-			min-width: 0;
-		}
-
-		.event-title {
-			font-weight: 600;
-			font-size: 0.9rem;
-			line-height: 1.3;
-			color: var(--text-primary);
-			margin-bottom: 0.25rem;
-		}
-
-		.event-location {
-			font-size: 0.75rem;
-			color: var(--text-muted);
-		}
-
-		/* CTA Section */
-		.cta-section {
-			padding: 4rem 2rem;
-			text-align: center;
-			background: var(--galaxy-dark);
-			border-top: 1px solid rgba(255, 255, 255, 0.1);
-		}
-
-		.cta-container {
-			max-width: 600px;
-			margin: 0 auto;
-		}
-
-		.cta-container h2 {
-			font-size: 1.75rem;
-			font-weight: 700;
-			margin-bottom: 0.75rem;
-			color: var(--text-primary);
-		}
-
-		.cta-container p {
-			font-size: 1rem;
-			color: var(--text-secondary);
-			margin-bottom: 2rem;
-		}
-
-		.cta-buttons {
-			display: flex;
-			justify-content: center;
-			gap: 1rem;
-			flex-wrap: wrap;
-		}
-
-		/* Footer */
-		.home-footer {
-			background: #1a1f2e;
-			color: var(--text-primary);
-			padding: 3rem 2rem 1.5rem;
-		}
-
-		.footer-container {
-			max-width: 1100px;
-			margin: 0 auto;
-			display: grid;
-			grid-template-columns: 1.5fr 1fr 1fr 1fr;
-			gap: 2rem;
-		}
-
-		@media (max-width: 800px) {
-			.footer-container {
-				grid-template-columns: 1fr 1fr;
-			}
-		}
-
-		@media (max-width: 500px) {
-			.footer-container {
-				grid-template-columns: 1fr;
-			}
-		}
-
-		.footer-brand h3 {
-			color: var(--galaxy-gold);
-			font-size: 1.125rem;
-			margin-bottom: 0.75rem;
-		}
-
-		.footer-brand p {
-			font-size: 0.875rem;
-			color: var(--text-secondary);
-			line-height: 1.6;
-		}
-
-		.footer-links h4,
-		.footer-social h4 {
-			font-size: 0.9rem;
-			font-weight: 600;
-			margin-bottom: 1rem;
-			color: var(--text-primary);
-		}
-
-		.footer-links ul {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-		}
-
-		.footer-links li {
-			margin-bottom: 0.5rem;
-		}
-
-		.footer-links a {
-			color: var(--text-secondary);
-			text-decoration: none;
-			font-size: 0.875rem;
-			transition: color 0.2s;
-		}
-
-		.footer-links a:hover {
-			color: var(--galaxy-gold);
-		}
-
-		.social-icons {
-			display: flex;
-			gap: 1rem;
-		}
-
-		.social-icons a {
-			color: var(--text-secondary);
-			transition: color 0.2s;
-		}
-
-		.social-icons a:hover {
-			color: var(--galaxy-gold);
-		}
-
-		.social-icons svg {
-			width: 1.5rem;
-			height: 1.5rem;
-		}
-
-		.footer-bottom {
-			max-width: 1100px;
-			margin: 2rem auto 0;
-			padding-top: 1.5rem;
-			border-top: 1px solid rgba(255, 255, 255, 0.1);
-			text-align: center;
-		}
-
-		.footer-bottom p {
-			font-size: 0.8rem;
-			color: var(--text-muted);
-			margin: 0;
-		}
-	</style>
-
-	<div class="homepage-v2">
-		<!-- Hero Section -->
-		<section class="hero-section grid-overlay">
-			<div class="hero-container">
-				<div class="hero-text">
-					<h1>
-						Meet Galaxy<br/>
-						<span class="highlight">Your Data Analysis Platform</span>
-					</h1>
-					<p class="tagline">
-						Open source platform for accessible, reproducible, and transparent computational research. Used by 500,000+ researchers worldwide.
-					</p>
-					<div class="hero-actions">
-						<a href="https://usegalaxy.org/" target="_blank" rel="noopener noreferrer" class="btn-primary">
-							Use Galaxy
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M5 12h14M12 5l7 7-7 7"/>
-							</svg>
-						</a>
-						<a href="/get-started/" class="btn-secondary">
-							Learn More
-						</a>
-					</div>
-				</div>
-				<div class="hero-visual">
-					<img src="/images/galaxy_logo_white.svg" alt="Galaxy" />
-				</div>
-			</div>
-		</section>
-
-		<!-- Stats Row -->
-		<div class="stats-row">
-			<div class="stats-container">
-				<div class="stat-item">
-					<div class="stat-number">500K+</div>
-					<div class="stat-label">Researchers</div>
-				</div>
-				<div class="stat-item">
-					<div class="stat-number">10K+</div>
-					<div class="stat-label">Tools</div>
-				</div>
-				<div class="stat-item">
-					<div class="stat-number">200+</div>
-					<div class="stat-label">Tutorials</div>
-				</div>
-				<div class="stat-item">
-					<div class="stat-number">150+</div>
-					<div class="stat-label">Countries</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Pillars Section -->
-		<section class="pillars-section grid-overlay">
-			<div class="pillars-container">
-				<div class="section-header">
-					<h2>Everything you need for computational research</h2>
-					<p>From data analysis to publication, Galaxy provides the complete toolkit.</p>
-				</div>
-
-				<div class="pillars-grid">
-					{pillars.map((pillar) => (
-						<div class="pillar-card">
-							<div class="pillar-icon">
-								{pillar.icon === 'beaker' && (
-									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-									</svg>
-								)}
-								{pillar.icon === 'workflow' && (
-									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-									</svg>
-								)}
-								{pillar.icon === 'academic' && (
-									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-									</svg>
-								)}
-								{pillar.icon === 'cloud' && (
-									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-									</svg>
-								)}
-							</div>
-							<h3 class="pillar-title">{pillar.title}</h3>
-							<div class="pillar-subtitle">{pillar.subtitle}</div>
-							<p class="pillar-description">{pillar.description}</p>
-						</div>
-					))}
-				</div>
-			</div>
-		</section>
-
-		<!-- News & Events -->
-		<section class="content-section">
-			<div class="content-container">
-				<div>
-					<div class="content-header">
-						<h2>Latest News</h2>
-						<a href="/news/">
-							View all →
-						</a>
-					</div>
-					<div class="news-list">
-						{recentNews.map((item) => (
-							<a href={`/${item.data.slug}/`} class="news-card">
-								<div class="news-date">{formatDate(item.data.date)}</div>
-								<h3 class="news-title">{item.data.title}</h3>
-								{item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
-							</a>
-						))}
-					</div>
-				</div>
-
-				<div>
-					<div class="content-header">
-						<h2>Upcoming Events</h2>
-						<a href="/events/">
-							View all →
-						</a>
-					</div>
-					<div class="events-list">
-						{upcomingEvents.map((event) => {
-							const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
-							const day = date.getDate();
-							const month = date.toLocaleDateString('en-US', { month: 'short' });
-							return (
-								<a href={`/events/${event.data.slug}/`} class="event-card">
-									<div class="event-date-box">
-										<span class="event-date-day">{day}</span>
-										<span class="event-date-month">{month}</span>
-									</div>
-									<div class="event-info">
-										<h3 class="event-title">{event.data.title}</h3>
-										{event.data.location && typeof event.data.location === 'string' && (
-											<div class="event-location">{event.data.location}</div>
-										)}
-									</div>
-								</a>
-							);
-						})}
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- CTA Section -->
-		<section class="cta-section grid-overlay">
-			<div class="cta-container">
-				<h2>Ready to get started?</h2>
-				<p>Galaxy is free to use and available at public servers around the world.</p>
-				<div class="cta-buttons">
-					<a href="https://usegalaxy.org/" target="_blank" rel="noopener noreferrer" class="btn-primary">
-						Start Using Galaxy
-					</a>
-					<a href="/community/" class="btn-secondary">
-						Join the Community
-					</a>
-				</div>
-			</div>
-		</section>
-
-		<!-- Footer -->
-		<footer class="home-footer">
-			<div class="footer-container">
-				<div class="footer-brand">
-					<h3>Galaxy Project</h3>
-					<p>Open source platform for accessible, reproducible, and transparent data analysis.</p>
-				</div>
-				<div class="footer-links">
-					<h4>Resources</h4>
-					<ul>
-						<li><a href="/use/">Use Galaxy</a></li>
-						<li><a href="https://training.galaxyproject.org">Training</a></li>
-						<li><a href="https://docs.galaxyproject.org">Documentation</a></li>
-					</ul>
-				</div>
-				<div class="footer-links">
-					<h4>Community</h4>
-					<ul>
-						<li><a href="/news/">News</a></li>
-						<li><a href="/events/">Events</a></li>
-						<li><a href="/community/">Get Involved</a></li>
-					</ul>
-				</div>
-				<div class="footer-social">
-					<h4>Connect</h4>
-					<div class="social-icons">
-						<a href="https://github.com/galaxyproject" aria-label="GitHub">
-							<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-						</a>
-						<a href="https://mastodon.social/@galaxyproject" aria-label="Mastodon">
-							<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="footer-bottom">
-				<p>&copy; {currentYear} Galaxy Project. All rights reserved.</p>
-			</div>
-		</footer>
-	</div>
+<HomeLayout
+  title="Galaxy Community Hub"
+  description="Galaxy: Open source platform for accessible, reproducible, and transparent computational research"
+>
+  <style>
+    /*
+     * Galaxy Hub Homepage v2
+     * Refined design using Galaxy brand colors
+     * Harmonizes with sidebar navigation
+     */
+
+    .homepage-v2 {
+      /* Use Galaxy brand colors */
+      --galaxy-primary: #25537b;
+      --galaxy-dark: #2c3143;
+      --galaxy-gold: #ffd700;
+      --galaxy-gold-dark: #d4a800;
+      --medium-bg: #3c435c;
+      --light-bg: #edf4fa;
+
+      --text-primary: #f8fafc;
+      --text-secondary: rgba(248, 250, 252, 0.7);
+      --text-muted: rgba(248, 250, 252, 0.5);
+
+      background: var(--galaxy-dark);
+      color: var(--text-primary);
+    }
+
+    /* Subtle grid overlay for dark sections */
+    .grid-overlay {
+      position: relative;
+    }
+
+    .grid-overlay::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+      background-size: 24px 24px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .grid-overlay > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Section - Dark theme matching sidebar */
+    .hero-section {
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, var(--galaxy-dark) 0%, var(--galaxy-primary) 100%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+    }
+
+    .hero-text h1 {
+      font-size: 2.75rem;
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+      color: var(--text-primary);
+    }
+
+    .hero-text h1 .highlight {
+      color: var(--galaxy-gold);
+    }
+
+    .hero-text .tagline {
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+      max-width: 500px;
+    }
+
+    @media (max-width: 900px) {
+      .hero-text .tagline {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 900px) {
+      .hero-actions {
+        justify-content: center;
+      }
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.875rem 1.75rem;
+      background: var(--galaxy-gold);
+      color: var(--galaxy-dark);
+      font-weight: 600;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary:hover {
+      background: var(--galaxy-gold-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.875rem 1.75rem;
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: var(--text-primary);
+      font-weight: 500;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    /* Hero visual */
+    .hero-visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-visual img {
+      max-width: 360px;
+      height: auto;
+      filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+    }
+
+    @media (max-width: 900px) {
+      .hero-visual img {
+        max-width: 240px;
+      }
+    }
+
+    /* Stats Row */
+    .stats-row {
+      padding: 2rem;
+      background: var(--medium-bg);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .stats-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 700px) {
+      .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--galaxy-gold);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 0.5rem;
+    }
+
+    /* Pillars Section */
+    .pillars-section {
+      padding: 4rem 2rem;
+      background: var(--galaxy-dark);
+    }
+
+    .pillars-container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-header h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--text-primary);
+    }
+
+    .section-header p {
+      color: var(--text-secondary);
+      font-size: 1rem;
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .pillars-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 550px) {
+      .pillars-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .pillar-card {
+      background: var(--medium-bg);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .pillar-card:hover {
+      border-color: var(--galaxy-gold);
+      transform: translateY(-2px);
+    }
+
+    .pillar-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--galaxy-primary);
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    .pillar-icon svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      color: var(--galaxy-gold);
+    }
+
+    .pillar-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      color: var(--text-primary);
+    }
+
+    .pillar-subtitle {
+      font-size: 0.8rem;
+      color: var(--galaxy-gold);
+      margin-bottom: 0.75rem;
+    }
+
+    .pillar-description {
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: var(--text-secondary);
+    }
+
+    /* Content Section (News & Events) */
+    .content-section {
+      padding: 4rem 2rem;
+      background: linear-gradient(180deg, var(--medium-bg) 0%, var(--galaxy-dark) 100%);
+    }
+
+    .content-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 3rem;
+    }
+
+    @media (max-width: 900px) {
+      .content-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .content-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .content-header h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .content-header a {
+      font-size: 0.85rem;
+      color: var(--galaxy-gold);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .content-header a:hover {
+      text-decoration: underline;
+    }
+
+    /* News cards */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .news-card {
+      display: block;
+      padding: 1.25rem;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 6px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s ease;
+    }
+
+    .news-card:hover {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .news-date {
+      font-size: 0.75rem;
+      color: var(--galaxy-gold);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .news-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0.5rem 0;
+      line-height: 1.4;
+      color: var(--text-primary);
+    }
+
+    .news-excerpt {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Events list */
+    .events-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .event-card {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 6px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s ease;
+    }
+
+    .event-card:hover {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .event-date-box {
+      flex-shrink: 0;
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--galaxy-primary);
+      border-radius: 4px;
+    }
+
+    .event-date-day {
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1;
+      color: var(--galaxy-gold);
+    }
+
+    .event-date-month {
+      font-size: 0.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+    }
+
+    .event-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .event-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      line-height: 1.3;
+      color: var(--text-primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .event-location {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: var(--galaxy-dark);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .cta-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .cta-container h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+
+    .cta-container p {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .home-footer {
+      background: #1a1f2e;
+      color: var(--text-primary);
+      padding: 3rem 2rem 1.5rem;
+    }
+
+    .footer-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 800px) {
+      .footer-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .footer-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .footer-brand h3 {
+      color: var(--galaxy-gold);
+      font-size: 1.125rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-brand p {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .footer-links h4,
+    .footer-social h4 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--text-primary);
+    }
+
+    .footer-links ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--galaxy-gold);
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .social-icons a {
+      color: var(--text-secondary);
+      transition: color 0.2s;
+    }
+
+    .social-icons a:hover {
+      color: var(--galaxy-gold);
+    }
+
+    .social-icons svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    .footer-bottom {
+      max-width: 1100px;
+      margin: 2rem auto 0;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: center;
+    }
+
+    .footer-bottom p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+  </style>
+
+  <div class="homepage-v2">
+    <!-- Hero Section -->
+    <section class="hero-section grid-overlay">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>
+            Meet Galaxy<br />
+            <span class="highlight">Your Data Analysis Platform</span>
+          </h1>
+          <p class="tagline">
+            Open source platform for accessible, reproducible, and transparent computational research. Used by 500,000+
+            researchers worldwide.
+          </p>
+          <div class="hero-actions">
+            <a href="https://usegalaxy.org/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              Use Galaxy
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <a href="/get-started/" class="btn-secondary"> Learn More </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="/images/galaxy_logo_white.svg" alt="Galaxy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Row -->
+    <div class="stats-row">
+      <div class="stats-container">
+        <div class="stat-item">
+          <div class="stat-number">500K+</div>
+          <div class="stat-label">Researchers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">10K+</div>
+          <div class="stat-label">Tools</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">200+</div>
+          <div class="stat-label">Tutorials</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">150+</div>
+          <div class="stat-label">Countries</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pillars Section -->
+    <section class="pillars-section grid-overlay">
+      <div class="pillars-container">
+        <div class="section-header">
+          <h2>Everything you need for computational research</h2>
+          <p>From data analysis to publication, Galaxy provides the complete toolkit.</p>
+        </div>
+
+        <div class="pillars-grid">
+          {
+            pillars.map((pillar) => (
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  {pillar.icon === 'beaker' && (
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                      />
+                    </svg>
+                  )}
+                  {pillar.icon === 'workflow' && (
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+                      />
+                    </svg>
+                  )}
+                  {pillar.icon === 'academic' && (
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 14l9-5-9-5-9 5 9 5z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                      />
+                    </svg>
+                  )}
+                  {pillar.icon === 'cloud' && (
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                      />
+                    </svg>
+                  )}
+                </div>
+                <h3 class="pillar-title">{pillar.title}</h3>
+                <div class="pillar-subtitle">{pillar.subtitle}</div>
+                <p class="pillar-description">{pillar.description}</p>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- News & Events -->
+    <section class="content-section">
+      <div class="content-container">
+        <div>
+          <div class="content-header">
+            <h2>Latest News</h2>
+            <a href="/news/"> View all → </a>
+          </div>
+          <div class="news-list">
+            {
+              recentNews.map((item) => (
+                <a href={`/${item.data.slug}/`} class="news-card">
+                  <div class="news-date">{formatDate(item.data.date)}</div>
+                  <h3 class="news-title">{item.data.title}</h3>
+                  {item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
+                </a>
+              ))
+            }
+          </div>
+        </div>
+
+        <div>
+          <div class="content-header">
+            <h2>Upcoming Events</h2>
+            <a href="/events/"> View all → </a>
+          </div>
+          <div class="events-list">
+            {
+              upcomingEvents.map((event) => {
+                const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
+                const day = date.getDate();
+                const month = date.toLocaleDateString('en-US', { month: 'short' });
+                return (
+                  <a href={`/events/${event.data.slug}/`} class="event-card">
+                    <div class="event-date-box">
+                      <span class="event-date-day">{day}</span>
+                      <span class="event-date-month">{month}</span>
+                    </div>
+                    <div class="event-info">
+                      <h3 class="event-title">{event.data.title}</h3>
+                      {event.data.location && typeof event.data.location === 'string' && (
+                        <div class="event-location">{event.data.location}</div>
+                      )}
+                    </div>
+                  </a>
+                );
+              })
+            }
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section grid-overlay">
+      <div class="cta-container">
+        <h2>Ready to get started?</h2>
+        <p>Galaxy is free to use and available at public servers around the world.</p>
+        <div class="cta-buttons">
+          <a href="https://usegalaxy.org/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Start Using Galaxy
+          </a>
+          <a href="/community/" class="btn-secondary"> Join the Community </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="home-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h3>Galaxy Project</h3>
+          <p>Open source platform for accessible, reproducible, and transparent data analysis.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="/use/">Use Galaxy</a></li>
+            <li><a href="https://training.galaxyproject.org">Training</a></li>
+            <li><a href="https://docs.galaxyproject.org">Documentation</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="/news/">News</a></li>
+            <li><a href="/events/">Events</a></li>
+            <li><a href="/community/">Get Involved</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="https://github.com/galaxyproject" aria-label="GitHub">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                ><path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                ></path></svg
+              >
+            </a>
+            <a href="https://mastodon.social/@galaxyproject" aria-label="Mastodon">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                ><path
+                  d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"
+                ></path></svg
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; {currentYear} Galaxy Project. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
 </HomeLayout>

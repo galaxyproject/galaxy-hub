@@ -3,7 +3,10 @@ import type { APIContext } from 'astro';
 
 // Format date for iCalendar (YYYYMMDDTHHMMSSZ)
 function formatICSDate(date: Date): string {
-  return date.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+  return date
+    .toISOString()
+    .replace(/[-:]/g, '')
+    .replace(/\.\d{3}/, '');
 }
 
 // Format date for all-day events (YYYYMMDD)
@@ -13,11 +16,7 @@ function formatICSDateOnly(date: Date): string {
 
 // Escape special characters for iCalendar
 function escapeICS(text: string): string {
-  return text
-    .replace(/\\/g, '\\\\')
-    .replace(/;/g, '\\;')
-    .replace(/,/g, '\\,')
-    .replace(/\n/g, '\\n');
+  return text.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
 }
 
 // Fold long lines (iCal spec: max 75 octets per line)
@@ -40,7 +39,7 @@ export async function GET(context: APIContext) {
 
   // Get events from the past year and all future events
   const relevantEvents = events
-    .filter(e => {
+    .filter((e) => {
       const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
       return eventDate >= oneYearAgo;
     })
@@ -52,7 +51,7 @@ export async function GET(context: APIContext) {
 
   const siteUrl = (context.site?.toString() || 'https://galaxyproject.org').replace(/\/$/, '');
 
-  let icsContent = [
+  const icsContent = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
     'PRODID:-//Galaxy Project//Galaxy Events Calendar//EN',
@@ -64,9 +63,7 @@ export async function GET(context: APIContext) {
 
   for (const event of relevantEvents) {
     const startDate = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || 0);
-    const endDate = event.data.end instanceof Date
-      ? event.data.end
-      : (event.data.end ? new Date(event.data.end) : null);
+    const endDate = event.data.end instanceof Date ? event.data.end : event.data.end ? new Date(event.data.end) : null;
 
     // Use end date or default to same day
     const effectiveEnd = endDate || new Date(startDate.getTime() + 24 * 60 * 60 * 1000);

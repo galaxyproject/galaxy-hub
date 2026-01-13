@@ -10,7 +10,7 @@ export async function GET(context: APIContext) {
   const platforms = await getCollection('platforms');
 
   // Format as array (matching Gridsome output)
-  const feedItems = platforms.map(platform => {
+  const feedItems = platforms.map((platform) => {
     const data = platform.data;
     const slug = (data.slug || platform.id).replace(/\/$/, '');
 

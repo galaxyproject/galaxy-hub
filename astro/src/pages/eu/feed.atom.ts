@@ -30,16 +30,20 @@ export async function GET(context: APIContext) {
 
   // Filter to EU news articles
   const euNews = articles
-    .filter(article => {
+    .filter((article) => {
       // Must be a news article
       if (!article.data.slug.startsWith('news/')) return false;
       // Must have a date
       if (!article.data.date) return false;
       // Must be for EU subsite
       const subsites = article.data.subsites
-        ? (Array.isArray(article.data.subsites) ? article.data.subsites : [article.data.subsites])
+        ? Array.isArray(article.data.subsites)
+          ? article.data.subsites
+          : [article.data.subsites]
         : [];
-      return subsites.includes('eu') || subsites.includes('all') || subsites.includes('global') || subsites.length === 0;
+      return (
+        subsites.includes('eu') || subsites.includes('all') || subsites.includes('global') || subsites.length === 0
+      );
     })
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);
@@ -49,9 +53,12 @@ export async function GET(context: APIContext) {
     .slice(0, MAX_ITEMS);
 
   const now = new Date();
-  const latestDate = euNews.length > 0
-    ? (euNews[0].data.date instanceof Date ? euNews[0].data.date : new Date(euNews[0].data.date || 0))
-    : now;
+  const latestDate =
+    euNews.length > 0
+      ? euNews[0].data.date instanceof Date
+        ? euNews[0].data.date
+        : new Date(euNews[0].data.date || 0)
+      : now;
 
   let atomContent = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">

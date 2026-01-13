@@ -17,13 +17,13 @@ export { default as Contacts } from './Contacts.astro';
 // This map is for reference of kebab-case names used in content
 export const componentMapping = {
   'vega-embed': 'VegaEmbed',
-  'twitter': 'Twitter',
-  'mastodon': 'Mastodon',
+  twitter: 'Twitter',
+  mastodon: 'Mastodon',
   'video-player': 'VideoPlayer',
-  'carousel': 'Carousel',
+  carousel: 'Carousel',
   'calendar-embed': 'CalendarEmbed',
   'markdown-embed': 'MarkdownEmbed',
-  'flickr': 'Flickr',
-  'supporters': 'Supporters',
-  'contacts': 'Contacts',
+  flickr: 'Flickr',
+  supporters: 'Supporters',
+  contacts: 'Contacts',
 };

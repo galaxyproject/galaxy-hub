@@ -2,11 +2,7 @@
 import { ref, computed, onMounted } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite } from '@/stores/subsiteStore';
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from '@/components/ui/collapsible';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown } from 'lucide-vue-next';
 import SubsiteSwitcher from './SubsiteSwitcher.vue';
 
@@ -77,9 +73,7 @@ const navSections: NavSection[] = [
 ];
 
 // Bottom links
-const bottomLinks: NavItem[] = [
-  { label: '@jxtx Foundation', href: 'https://jxtxfoundation.org/', external: true },
-];
+const bottomLinks: NavItem[] = [{ label: '@jxtx Foundation', href: 'https://jxtxfoundation.org/', external: true }];
 
 // Track which sections are open
 const openSections = ref<Set<string>>(new Set());

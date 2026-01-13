@@ -18,7 +18,7 @@ import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
-const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..');  // galaxy-hub/
+const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..'); // galaxy-hub/
 const CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
 const ASTRO_CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
@@ -130,17 +130,17 @@ function needsVueProcessing(content, frontmatter, filePath = '') {
   // Only check for components that are unlikely to appear in malformed HTML
   // and are clearly custom Vue components (not standard HTML-like)
   const SAFE_COMPONENTS = [
-    'twitter',        // Social embeds
+    'twitter', // Social embeds
     'mastodon',
-    'vega-embed',     // Data viz
+    'vega-embed', // Data viz
     'calendar-embed', // Calendar
-    'video-player',   // Media
+    'video-player', // Media
     'carousel',
     'flickr',
-    'supporters',     // Custom lists
+    'supporters', // Custom lists
     'contacts',
     'markdown-embed',
-    'Insert',         // Content insertion component
+    'Insert', // Content insertion component
   ];
 
   for (const component of SAFE_COMPONENTS) {
@@ -281,30 +281,24 @@ function convertComponentsToPascalCase(content) {
   // Map of kebab-case to PascalCase component names
   const componentMap = {
     'vega-embed': 'VegaEmbed',
-    'twitter': 'Twitter',
-    'mastodon': 'Mastodon',
+    twitter: 'Twitter',
+    mastodon: 'Mastodon',
     'video-player': 'VideoPlayer',
-    'carousel': 'Carousel',
+    carousel: 'Carousel',
     'calendar-embed': 'CalendarEmbed',
     'markdown-embed': 'MarkdownEmbed',
-    'flickr': 'Flickr',
-    'supporters': 'Supporters',
-    'contacts': 'Contacts',
+    flickr: 'Flickr',
+    supporters: 'Supporters',
+    contacts: 'Contacts',
   };
 
   let processed = content;
 
   for (const [kebab, pascal] of Object.entries(componentMap)) {
     // Convert opening tags: <kebab-case ... > to <PascalCase ...>
-    processed = processed.replace(
-      new RegExp(`<${kebab}(\\s|>|\\/)`, 'gi'),
-      `<${pascal}$1`
-    );
+    processed = processed.replace(new RegExp(`<${kebab}(\\s|>|\\/)`, 'gi'), `<${pascal}$1`);
     // Convert closing tags: </kebab-case> to </PascalCase>
-    processed = processed.replace(
-      new RegExp(`</${kebab}>`, 'gi'),
-      `</${pascal}>`
-    );
+    processed = processed.replace(new RegExp(`</${kebab}>`, 'gi'), `</${pascal}>`);
   }
 
   return processed;
@@ -322,26 +316,34 @@ function convertVueToJsx(content) {
 
   // Convert HTML comments to JSX comments
   // Also remove markdown escapes like \_ which aren't valid in JSX expressions
-  processed = processed.replace(
-    /<!--([\s\S]*?)-->/g,
-    (match, content) => {
-      const cleaned = content.replace(/\\([_*`~])/g, '$1');
-      return `{/* ${cleaned} */}`;
-    }
-  );
+  processed = processed.replace(/<!--([\s\S]*?)-->/g, (match, content) => {
+    const cleaned = content.replace(/\\([_*`~])/g, '$1');
+    return `{/* ${cleaned} */}`;
+  });
 
   // Convert markdown auto-links <URL> to proper links [URL](URL)
   // MDX interprets <URL> as JSX tags
-  processed = processed.replace(
-    /<(https?:\/\/[^>]+)>/g,
-    '[$1]($1)'
-  );
+  processed = processed.replace(/<(https?:\/\/[^>]+)>/g, '[$1]($1)');
 
   // Escape empty angle brackets <> which look like JSX fragments
   processed = processed.replace(/<>/g, '&lt;&gt;');
 
   // Convert void HTML elements to self-closing JSX
-  const voidElements = ['br', 'hr', 'img', 'input', 'embed', 'source', 'track', 'wbr', 'area', 'base', 'col', 'meta', 'link'];
+  const voidElements = [
+    'br',
+    'hr',
+    'img',
+    'input',
+    'embed',
+    'source',
+    'track',
+    'wbr',
+    'area',
+    'base',
+    'col',
+    'meta',
+    'link',
+  ];
   for (const tag of voidElements) {
     // Match tags that aren't already self-closing
     processed = processed.replace(
@@ -364,31 +366,22 @@ function convertVueToJsx(content) {
   let prev;
   do {
     prev = processed;
-    processed = processed.replace(
-      /(\s)(\w+)=(\d+)(?=\s|>|\/)/g,
-      '$1$2="$3"'
-    );
+    processed = processed.replace(/(\s)(\w+)=(\d+)(?=\s|>|\/)/g, '$1$2="$3"');
   } while (prev !== processed);
 
   // Convert Vue bindings :prop="value" to JSX prop={value}
   // Handle numeric values
-  processed = processed.replace(
-    /:(\w+)="(\d+(?:\.\d+)?)"/g,
-    '$1={$2}'
-  );
+  processed = processed.replace(/:(\w+)="(\d+(?:\.\d+)?)"/g, '$1={$2}');
 
   // Handle string values (keep as strings for now)
-  processed = processed.replace(
-    /:(\w+)="([^"]+)"/g,
-    (match, prop, value) => {
-      // If it looks like a variable/expression, use JSX syntax
-      if (/^[a-zA-Z_]\w*$/.test(value) || value.includes('.')) {
-        return `${prop}={${value}}`;
-      }
-      // Otherwise keep as string attribute
-      return `${prop}="${value}"`;
+  processed = processed.replace(/:(\w+)="([^"]+)"/g, (match, prop, value) => {
+    // If it looks like a variable/expression, use JSX syntax
+    if (/^[a-zA-Z_]\w*$/.test(value) || value.includes('.')) {
+      return `${prop}={${value}}`;
     }
-  );
+    // Otherwise keep as string attribute
+    return `${prop}="${value}"`;
+  });
 
   return processed;
 }
@@ -431,7 +424,7 @@ async function processMarkdownFile(filePath) {
   if (!hasHtmlContent) {
     processedContent = await processMarkdown(processedContent, {
       addToc: frontmatter.autotoc === true,
-      fixLinks: true
+      fixLinks: true,
     });
   }
 
@@ -489,9 +482,7 @@ async function processBatch(items, processFn, batchSize = 50) {
 
   for (let i = 0; i < items.length; i += batchSize) {
     const batch = items.slice(i, i + batchSize);
-    const batchResults = await Promise.allSettled(
-      batch.map(item => processFn(item))
-    );
+    const batchResults = await Promise.allSettled(batch.map((item) => processFn(item)));
 
     for (const result of batchResults) {
       if (result.status === 'fulfilled') {
@@ -509,7 +500,7 @@ async function processBatch(items, processFn, batchSize = 50) {
 
     // Small delay between batches to let file handles close
     if (i + batchSize < items.length) {
-      await new Promise(resolve => setTimeout(resolve, 10));
+      await new Promise((resolve) => setTimeout(resolve, 10));
     }
   }
 
@@ -538,7 +529,7 @@ export async function preprocessContent(options = {}) {
   const markdownFiles = await glob('**/*.md', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: ['**/node_modules/**', '0examples/**']
+    ignore: ['**/node_modules/**', '0examples/**'],
   });
 
   // Only process YAML files that are true datasets, not platform-specific ones
@@ -550,9 +541,9 @@ export async function preprocessContent(options = {}) {
       '**/node_modules/**',
       '**/navbar.yml',
       '**/navbar.yaml',
-      '**/use/**/*.yml',  // Exclude platform-specific YAML files (they have duplicate names)
-      '**/use/**/*.yaml'
-    ]
+      '**/use/**/*.yml', // Exclude platform-specific YAML files (they have duplicate names)
+      '**/use/**/*.yaml',
+    ],
   });
 
   console.log(`Found ${markdownFiles.length} markdown files`);
@@ -564,16 +555,12 @@ export async function preprocessContent(options = {}) {
   const { results: mdResults, errors: mdErrors } = await processBatch(
     markdownFiles,
     processMarkdownFile,
-    50  // batch size
+    50 // batch size
   );
 
   // Process YAML files in batches
   console.log('Processing YAML files...');
-  const { results: yamlResults, errors: yamlErrors } = await processBatch(
-    yamlFiles,
-    processDataset,
-    50
-  );
+  const { results: yamlResults, errors: yamlErrors } = await processBatch(yamlFiles, processDataset, 50);
 
   const results = [...mdResults, ...yamlResults];
   const errors = mdErrors + yamlErrors;
@@ -619,7 +606,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const args = process.argv.slice(2);
   const options = {
     verbose: args.includes('--verbose') || args.includes('-v'),
-    clear: !args.includes('--no-clear')
+    clear: !args.includes('--no-clear'),
   };
 
   preprocessContent(options)

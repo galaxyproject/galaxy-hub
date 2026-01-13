@@ -97,18 +97,15 @@ describe('needsVueProcessing', () => {
 
 describe('convertGridsomeSyntax', () => {
   it('converts g-link to anchor tags', () => {
-    expect(convertGridsomeSyntax('<g-link to="/page">text</g-link>'))
-      .toBe('<a to="/page">text</a>');
+    expect(convertGridsomeSyntax('<g-link to="/page">text</g-link>')).toBe('<a to="/page">text</a>');
   });
 
   it('converts g-image to img tags', () => {
-    expect(convertGridsomeSyntax('<g-image src="pic.png" />'))
-      .toBe('<img src="pic.png" />');
+    expect(convertGridsomeSyntax('<g-image src="pic.png" />')).toBe('<img src="pic.png" />');
   });
 
   it('handles paired g-image tags', () => {
-    expect(convertGridsomeSyntax('<g-image src="pic.png"></g-image>'))
-      .toBe('<img src="pic.png">');
+    expect(convertGridsomeSyntax('<g-image src="pic.png"></g-image>')).toBe('<img src="pic.png">');
   });
 
   it('leaves other content unchanged', () => {
@@ -123,8 +120,7 @@ describe('convertVueToJsx', () => {
   });
 
   it('converts auto-links to markdown links', () => {
-    expect(convertVueToJsx('<https://example.com>'))
-      .toBe('[https://example.com](https://example.com)');
+    expect(convertVueToJsx('<https://example.com>')).toBe('[https://example.com](https://example.com)');
   });
 
   it('escapes empty angle brackets', () => {
@@ -150,27 +146,24 @@ describe('convertVueToJsx', () => {
 
 describe('convertComponentsToPascalCase', () => {
   it('converts vega-embed to VegaEmbed', () => {
-    expect(convertComponentsToPascalCase('<vega-embed spec="x" />'))
-      .toBe('<VegaEmbed spec="x" />');
+    expect(convertComponentsToPascalCase('<vega-embed spec="x" />')).toBe('<VegaEmbed spec="x" />');
   });
 
   it('converts video-player to VideoPlayer', () => {
-    expect(convertComponentsToPascalCase('<video-player src="x"></video-player>'))
-      .toBe('<VideoPlayer src="x"></VideoPlayer>');
+    expect(convertComponentsToPascalCase('<video-player src="x"></video-player>')).toBe(
+      '<VideoPlayer src="x"></VideoPlayer>'
+    );
   });
 
   it('converts calendar-embed to CalendarEmbed', () => {
-    expect(convertComponentsToPascalCase('<calendar-embed id="x" />'))
-      .toBe('<CalendarEmbed id="x" />');
+    expect(convertComponentsToPascalCase('<calendar-embed id="x" />')).toBe('<CalendarEmbed id="x" />');
   });
 
   it('converts twitter (lowercase) to Twitter', () => {
-    expect(convertComponentsToPascalCase('<twitter id="123" />'))
-      .toBe('<Twitter id="123" />');
+    expect(convertComponentsToPascalCase('<twitter id="123" />')).toBe('<Twitter id="123" />');
   });
 
   it('leaves unknown components unchanged', () => {
-    expect(convertComponentsToPascalCase('<custom-component />'))
-      .toBe('<custom-component />');
+    expect(convertComponentsToPascalCase('<custom-component />')).toBe('<custom-component />');
   });
 });

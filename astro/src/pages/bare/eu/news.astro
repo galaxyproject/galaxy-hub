@@ -12,14 +12,17 @@ const allNews = await getCollection('events', (entry) => {
   const tags = entry.data.tags || [];
   // Filter for EU subsite
   return (
-    (subsites.includes('eu') || subsites.includes('all') || subsites.includes('all-eu') || subsites.includes('global')) &&
+    (subsites.includes('eu') ||
+      subsites.includes('all') ||
+      subsites.includes('all-eu') ||
+      subsites.includes('global')) &&
     !entry.data.draft
   );
 });
 
 // Sort by date descending
 const news = allNews
-  .filter(n => {
+  .filter((n) => {
     // Check if it's actually a news item (has date, in news path or has news-like structure)
     return n.data.date;
   })
@@ -33,11 +36,16 @@ const news = allNews
 // Actually get news from the articles collection
 const allArticles = await getCollection('articles');
 const newsArticles = allArticles
-  .filter(article => {
+  .filter((article) => {
     const path = article.data.slug || article.id;
     const subsites = article.data.subsites || [];
     const isNews = path.startsWith('news/') || path.startsWith('news--');
-    const isEU = subsites.includes('eu') || subsites.includes('all') || subsites.includes('all-eu') || subsites.includes('global') || subsites.length === 0;
+    const isEU =
+      subsites.includes('eu') ||
+      subsites.includes('all') ||
+      subsites.includes('all-eu') ||
+      subsites.includes('global') ||
+      subsites.length === 0;
     return isNews && isEU && !article.data.draft;
   })
   .sort((a, b) => {
@@ -57,26 +65,27 @@ function formatDate(date: Date | string | undefined): string {
 <BareArticleLayout title="Galaxy Europe News">
   <h2>Galaxy Europe News</h2>
   <div class="news-list">
-    {newsArticles.length > 0 ? (
-      <ul>
-        {newsArticles.map(article => {
-          const slug = (article.data.slug || article.id).replace(/\.mdx?$/, '').replace(/--/g, '/').replace(/^news\//, '');
-          return (
-            <li>
-              <a href={`/news/${slug}/`}>{article.data.title}</a>
-              {article.data.date && (
-                <span class="date"> - {formatDate(article.data.date)}</span>
-              )}
-              {article.data.tease && (
-                <p class="tease">{article.data.tease}</p>
-              )}
-            </li>
-          );
-        })}
-      </ul>
-    ) : (
-      <p>No news articles found.</p>
-    )}
+    {
+      newsArticles.length > 0 ? (
+        <ul>
+          {newsArticles.map((article) => {
+            const slug = (article.data.slug || article.id)
+              .replace(/\.mdx?$/, '')
+              .replace(/--/g, '/')
+              .replace(/^news\//, '');
+            return (
+              <li>
+                <a href={`/news/${slug}/`}>{article.data.title}</a>
+                {article.data.date && <span class="date"> - {formatDate(article.data.date)}</span>}
+                {article.data.tease && <p class="tease">{article.data.tease}</p>}
+              </li>
+            );
+          })}
+        </ul>
+      ) : (
+        <p>No news articles found.</p>
+      )
+    }
   </div>
 
   <style>
@@ -92,7 +101,7 @@ function formatDate(date: Date | string | undefined): string {
     }
 
     .news-list a {
-      color: #25537B;
+      color: #25537b;
       font-weight: 500;
       text-decoration: none;
     }

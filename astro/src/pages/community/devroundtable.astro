@@ -8,18 +8,18 @@ const pageDescription = 'Developer-focused community meetings to discuss Galaxy 
 
 // Get events with this tag
 const allEvents = await getCollection('events');
-const taggedEvents = allEvents.filter(event => {
+const taggedEvents = allEvents.filter((event) => {
   const tags = event.data.tags;
   if (!tags) return false;
   const tagArray = Array.isArray(tags) ? tags : [tags];
-  return tagArray.some(t => t.toLowerCase().trim() === tag.toLowerCase());
+  return tagArray.some((t) => t.toLowerCase().trim() === tag.toLowerCase());
 });
 
 const now = new Date();
 
 // Split into upcoming and past
 const upcomingEvents = taggedEvents
-  .filter(e => {
+  .filter((e) => {
     const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
     return eventDate >= now;
   })
@@ -30,7 +30,7 @@ const upcomingEvents = taggedEvents
   });
 
 const pastEvents = taggedEvents
-  .filter(e => {
+  .filter((e) => {
     const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
     return eventDate < now;
   })
@@ -54,8 +54,8 @@ function formatDate(date: Date | string | undefined): string {
       <h1 class="text-3xl font-bold text-galaxy-dark mb-2">{pageTitle}</h1>
       <p class="text-gray-600">{pageDescription}</p>
       <p class="text-gray-600 mt-2">
-        The Developer Roundtable meets regularly to discuss technical topics,
-        share updates, and coordinate development efforts across the Galaxy community.
+        The Developer Roundtable meets regularly to discuss technical topics, share updates, and coordinate development
+        efforts across the Galaxy community.
       </p>
     </div>
 
@@ -66,32 +66,30 @@ function formatDate(date: Date | string | undefined): string {
         <span class="text-sm font-normal text-gray-500 ml-2">({upcomingEvents.length})</span>
       </h2>
 
-      {upcomingEvents.length === 0 ? (
-        <p class="text-gray-500 italic">No upcoming roundtables scheduled. Check back soon!</p>
-      ) : (
-        <div class="space-y-4">
-          {upcomingEvents.map((event) => (
-            <a
-              href={`/events/${event.data.slug}/`}
-              class="block p-4 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-md transition-all"
-            >
-              <div class="flex items-start justify-between gap-4">
-                <div>
-                  <h3 class="font-semibold text-galaxy-dark hover:text-galaxy-primary">
-                    {event.data.title}
-                  </h3>
-                  {event.data.tease && (
-                    <p class="text-gray-600 text-sm mt-1 line-clamp-2">{event.data.tease}</p>
-                  )}
+      {
+        upcomingEvents.length === 0 ? (
+          <p class="text-gray-500 italic">No upcoming roundtables scheduled. Check back soon!</p>
+        ) : (
+          <div class="space-y-4">
+            {upcomingEvents.map((event) => (
+              <a
+                href={`/events/${event.data.slug}/`}
+                class="block p-4 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-md transition-all"
+              >
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 class="font-semibold text-galaxy-dark hover:text-galaxy-primary">{event.data.title}</h3>
+                    {event.data.tease && <p class="text-gray-600 text-sm mt-1 line-clamp-2">{event.data.tease}</p>}
+                  </div>
+                  <span class="text-sm text-galaxy-primary font-medium whitespace-nowrap">
+                    {formatDate(event.data.date)}
+                  </span>
                 </div>
-                <span class="text-sm text-galaxy-primary font-medium whitespace-nowrap">
-                  {formatDate(event.data.date)}
-                </span>
-              </div>
-            </a>
-          ))}
-        </div>
-      )}
+              </a>
+            ))}
+          </div>
+        )
+      }
     </section>
 
     <!-- Past -->
@@ -101,21 +99,23 @@ function formatDate(date: Date | string | undefined): string {
         <span class="text-sm font-normal text-gray-500 ml-2">(recent {pastEvents.length})</span>
       </h2>
 
-      {pastEvents.length === 0 ? (
-        <p class="text-gray-500 italic">No past roundtables found.</p>
-      ) : (
-        <div class="space-y-2">
-          {pastEvents.map((event) => (
-            <a
-              href={`/events/${event.data.slug}/`}
-              class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-            >
-              <span class="text-sm text-gray-500 min-w-24">{formatDate(event.data.date)}</span>
-              <span class="text-gray-700 hover:text-galaxy-primary">{event.data.title}</span>
-            </a>
-          ))}
-        </div>
-      )}
+      {
+        pastEvents.length === 0 ? (
+          <p class="text-gray-500 italic">No past roundtables found.</p>
+        ) : (
+          <div class="space-y-2">
+            {pastEvents.map((event) => (
+              <a
+                href={`/events/${event.data.slug}/`}
+                class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
+              >
+                <span class="text-sm text-gray-500 min-w-24">{formatDate(event.data.date)}</span>
+                <span class="text-gray-700 hover:text-galaxy-primary">{event.data.title}</span>
+              </a>
+            ))}
+          </div>
+        )
+      }
     </section>
   </div>
 </BaseLayout>

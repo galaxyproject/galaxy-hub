@@ -1,32 +1,34 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "./bootstrap-compat.css";
-@import "@fontsource/atkinson-hyperlegible/400.css";
-@import "@fontsource/atkinson-hyperlegible/700.css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import './bootstrap-compat.css';
+@import '@fontsource/atkinson-hyperlegible/400.css';
+@import '@fontsource/atkinson-hyperlegible/700.css';
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme {
   /* Galaxy Brand Colors */
-  --color-galaxy-primary: #25537B;
-  --color-galaxy-dark: #2C3143;
+  --color-galaxy-primary: #25537b;
+  --color-galaxy-dark: #2c3143;
   --color-galaxy-gold: #ffd700;
   --color-galaxy-gold-dark: #d19e00;
   --color-galaxy-grey: #58585a;
 
   /* Background Colors */
-  --color-dark-bg: #2C3143;
-  --color-medium-bg: #3C435C;
-  --color-light-bg: #EDF4FA;
-  --color-card-bg: #5D678D;
+  --color-dark-bg: #2c3143;
+  --color-medium-bg: #3c435c;
+  --color-light-bg: #edf4fa;
+  --color-card-bg: #5d678d;
 
   /* Accent/Highlight */
   --color-accent: #ffd700;
   --color-accent-hover: #ffe60d;
 
   /* Typography */
-  --font-sans: 'Atkinson Hyperlegible', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-sans:
+    'Atkinson Hyperlegible', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
 }
 
 /* Base styles */
@@ -172,8 +174,8 @@ body {
 
 /* Galaxy-branded prose styles */
 .prose {
-  --tw-prose-links: #25537B;
-  --tw-prose-headings: #2C3143;
+  --tw-prose-links: #25537b;
+  --tw-prose-headings: #2c3143;
 }
 
 .prose h1,
@@ -230,7 +232,7 @@ body {
 }
 
 .prose th {
-  background-color: #25537B;
+  background-color: #25537b;
   color: white;
   font-weight: 600;
 }
@@ -259,7 +261,7 @@ body {
 
 .linkbox a {
   display: block;
-  color: #25537B;
+  color: #25537b;
   text-decoration: none;
   padding: 0.25rem 0;
 }

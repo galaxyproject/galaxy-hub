@@ -7,7 +7,7 @@ import EventsList from '../../components/events/EventsList.vue';
 const events = await getCollection('events');
 
 // Transform to plain objects for Vue component
-const eventData = events.map(e => ({
+const eventData = events.map((e) => ({
   slug: e.data.slug,
   title: e.data.title || 'Untitled Event',
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,

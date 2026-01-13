@@ -38,14 +38,10 @@ onMounted(async () => {
     }
 
     // Create tweet embed
-    await (window as any).twttr.widgets.createTweet(
-      props.id || url.split('/').pop(),
-      container.value,
-      {
-        theme: 'light',
-        dnt: true,
-      }
-    );
+    await (window as any).twttr.widgets.createTweet(props.id || url.split('/').pop(), container.value, {
+      theme: 'light',
+      dnt: true,
+    });
 
     loaded.value = true;
   } catch (e) {

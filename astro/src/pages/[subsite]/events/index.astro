@@ -7,10 +7,10 @@ import { subsites } from '../../../stores/subsiteStore';
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /events/)
   return subsites
-    .filter(s => s.id !== 'global' && !('external' in s))
-    .map(subsite => ({
+    .filter((s) => s.id !== 'global' && !('external' in s))
+    .map((subsite) => ({
       params: { subsite: subsite.id },
-      props: { subsiteName: subsite.name, subsiteId: subsite.id }
+      props: { subsiteName: subsite.name, subsiteId: subsite.id },
     }));
 }
 
@@ -21,7 +21,7 @@ const { subsiteName, subsiteId } = Astro.props;
 const events = await getCollection('events');
 
 // Transform to plain objects for Vue component
-const eventData = events.map(e => ({
+const eventData = events.map((e) => ({
   slug: e.data.slug,
   title: e.data.title || 'Untitled Event',
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,

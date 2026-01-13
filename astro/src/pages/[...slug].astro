@@ -20,14 +20,12 @@ export async function getStaticPaths() {
 
   // Filter out news/ and events/ articles (they have their own routes)
   // Also filter out use/ articles (handled separately)
-  const genericArticles = articles.filter(article => {
+  const genericArticles = articles.filter((article) => {
     const slug = article.data.slug;
-    return !slug.startsWith('news/') &&
-           !slug.startsWith('events/') &&
-           !slug.startsWith('use/');
+    return !slug.startsWith('news/') && !slug.startsWith('events/') && !slug.startsWith('use/');
   });
 
-  return genericArticles.map(article => ({
+  return genericArticles.map((article) => ({
     params: { slug: article.data.slug },
     props: { article },
   }));

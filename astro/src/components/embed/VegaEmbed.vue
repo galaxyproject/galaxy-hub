@@ -16,7 +16,7 @@ async function renderChart() {
     const [vegaModule, vegaLiteModule, vegaEmbedModule] = await Promise.all([
       import('vega'),
       import('vega-lite'),
-      import('vega-embed')
+      import('vega-embed'),
     ]);
 
     const vegaEmbed = vegaEmbedModule.default;

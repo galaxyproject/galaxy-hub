@@ -19,11 +19,13 @@ function fixLinksPlugin() {
       if (!node.url) return;
 
       // Skip external URLs and anchors
-      if (node.url.startsWith('http://') ||
-          node.url.startsWith('https://') ||
-          node.url.startsWith('//') ||
-          node.url.startsWith('#') ||
-          node.url.startsWith('mailto:')) {
+      if (
+        node.url.startsWith('http://') ||
+        node.url.startsWith('https://') ||
+        node.url.startsWith('//') ||
+        node.url.startsWith('#') ||
+        node.url.startsWith('mailto:')
+      ) {
         return;
       }
 
@@ -71,7 +73,7 @@ function addTocPlugin(options = {}) {
     const tocHeading = {
       type: 'heading',
       depth: 2,
-      children: [{ type: 'text', value: 'Table of contents' }]
+      children: [{ type: 'text', value: 'Table of contents' }],
     };
 
     let insertIndex = 0;
@@ -88,13 +90,11 @@ function addTocPlugin(options = {}) {
  */
 export async function processMarkdown(content, options = {}) {
   const {
-    addToc = false,  // Don't auto-add TOC by default
-    fixLinks = true
+    addToc = false, // Don't auto-add TOC by default
+    fixLinks = true,
   } = options;
 
-  const processor = unified()
-    .use(remarkParse)
-    .use(remarkFrontmatter, ['yaml']);
+  const processor = unified().use(remarkParse).use(remarkFrontmatter, ['yaml']);
 
   if (fixLinks) {
     processor.use(fixLinksPlugin);
@@ -104,7 +104,7 @@ export async function processMarkdown(content, options = {}) {
     processor.use(addTocPlugin, { onlyIfHeadings: true });
     processor.use(remarkToc, {
       heading: 'table[ -]of[ -]contents?',
-      tight: true
+      tight: true,
     });
   }
 
@@ -112,7 +112,7 @@ export async function processMarkdown(content, options = {}) {
     fences: true,
     rule: '-',
     listItemIndent: 'one',
-    resourceLink: true  // Prevent auto-link conversion for [url](url) patterns
+    resourceLink: true, // Prevent auto-link conversion for [url](url) patterns
   });
 
   const result = await processor.process(content);

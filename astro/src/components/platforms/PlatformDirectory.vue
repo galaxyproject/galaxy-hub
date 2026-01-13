@@ -29,7 +29,7 @@ const selectedLocation = ref<string>('all');
 // Extract unique scopes and locations for filters
 const scopes = computed(() => {
   const uniqueScopes = new Set<string>();
-  props.platforms.forEach(p => {
+  props.platforms.forEach((p) => {
     if (p.scope) uniqueScopes.add(p.scope);
   });
   return ['all', ...Array.from(uniqueScopes).sort()];
@@ -37,8 +37,8 @@ const scopes = computed(() => {
 
 const locations = computed(() => {
   const uniqueLocations = new Set<string>();
-  props.platforms.forEach(p => {
-    p.platforms?.forEach(inst => {
+  props.platforms.forEach((p) => {
+    p.platforms?.forEach((inst) => {
       if (inst.platform_location) uniqueLocations.add(inst.platform_location);
     });
   });
@@ -52,23 +52,22 @@ const filteredPlatforms = computed(() => {
   // Search filter
   if (searchQuery.value) {
     const query = searchQuery.value.toLowerCase();
-    result = result.filter(p =>
-      p.title?.toLowerCase().includes(query) ||
-      p.summary?.toLowerCase().includes(query) ||
-      p.url?.toLowerCase().includes(query)
+    result = result.filter(
+      (p) =>
+        p.title?.toLowerCase().includes(query) ||
+        p.summary?.toLowerCase().includes(query) ||
+        p.url?.toLowerCase().includes(query)
     );
   }
 
   // Scope filter
   if (selectedScope.value !== 'all') {
-    result = result.filter(p => p.scope === selectedScope.value);
+    result = result.filter((p) => p.scope === selectedScope.value);
   }
 
   // Location filter
   if (selectedLocation.value !== 'all') {
-    result = result.filter(p =>
-      p.platforms?.some(inst => inst.platform_location === selectedLocation.value)
-    );
+    result = result.filter((p) => p.platforms?.some((inst) => inst.platform_location === selectedLocation.value));
   }
 
   // Sort by title
@@ -83,9 +82,9 @@ function clearFilters() {
 
 function getScopeLabel(scope: string): string {
   const labels: Record<string, string> = {
-    'usegalaxy': 'UseGalaxy',
-    'domain': 'Domain Specific',
-    'general': 'General Purpose',
+    usegalaxy: 'UseGalaxy',
+    domain: 'Domain Specific',
+    general: 'General Purpose',
     'academic-cloud': 'Academic Cloud',
   };
   return labels[scope] || scope;
@@ -112,12 +111,7 @@ function getHostname(url: string): string {
         <!-- Search -->
         <div class="flex-1">
           <label class="block text-sm font-medium text-gray-700 mb-1">Search</label>
-          <Input
-            v-model="searchQuery"
-            type="text"
-            placeholder="Search servers..."
-            class="w-full"
-          />
+          <Input v-model="searchQuery" type="text" placeholder="Search servers..." class="w-full" />
         </div>
 
         <!-- Scope Filter -->
@@ -148,13 +142,7 @@ function getHostname(url: string): string {
 
         <!-- Clear Filters -->
         <div class="flex items-end">
-          <Button
-            variant="outline"
-            @click="clearFilters"
-            class="h-10"
-          >
-            Clear
-          </Button>
+          <Button variant="outline" @click="clearFilters" class="h-10"> Clear </Button>
         </div>
       </div>
 
@@ -166,12 +154,7 @@ function getHostname(url: string): string {
 
     <!-- Platform Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a
-        v-for="platform in filteredPlatforms"
-        :key="platform.slug"
-        :href="`/${platform.slug}/`"
-        class="block group"
-      >
+      <a v-for="platform in filteredPlatforms" :key="platform.slug" :href="`/${platform.slug}/`" class="block group">
         <Card class="h-full hover:shadow-lg transition-shadow border-t-4 border-t-galaxy-primary">
           <CardHeader class="pb-2">
             <div class="flex items-start justify-between">
@@ -196,8 +179,18 @@ function getHostname(url: string): string {
               </span>
               <span v-if="getLocationFromPlatform(platform)" class="flex items-center gap-1">
                 <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  ></path>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  ></path>
                 </svg>
                 {{ getLocationFromPlatform(platform) }}
               </span>

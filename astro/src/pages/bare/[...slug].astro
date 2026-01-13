@@ -22,7 +22,7 @@ import Insert from '../../components/mdx/Insert.astro';
 export async function getStaticPaths() {
   const bareArticles = await getCollection('bare-articles');
 
-  return bareArticles.map(article => {
+  return bareArticles.map((article) => {
     // Remove 'bare/' prefix from slug for URL if present
     const urlSlug = article.data.slug.replace(/^bare\//, '');
     return {

@@ -41,9 +41,7 @@ function next() {
 
 function prev() {
   if (normalizedImages.value.length === 0) return;
-  currentIndex.value =
-    (currentIndex.value - 1 + normalizedImages.value.length) %
-    normalizedImages.value.length;
+  currentIndex.value = (currentIndex.value - 1 + normalizedImages.value.length) % normalizedImages.value.length;
 }
 
 function goTo(index: number) {
@@ -102,7 +100,7 @@ function goTo(index: number) {
           @click="goTo(index)"
           :class="[
             'w-2.5 h-2.5 rounded-full transition-colors',
-            index === currentIndex ? 'bg-galaxy-primary' : 'bg-gray-300 hover:bg-gray-400'
+            index === currentIndex ? 'bg-galaxy-primary' : 'bg-gray-300 hover:bg-gray-400',
           ]"
           :aria-label="`Go to image ${index + 1}`"
         ></button>

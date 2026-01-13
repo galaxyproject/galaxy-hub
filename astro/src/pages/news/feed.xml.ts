@@ -7,7 +7,7 @@ export async function GET(context: APIContext) {
 
   // Filter to only news articles, sorted by date
   const newsArticles = articles
-    .filter(article => article.data.slug.startsWith('news/'))
+    .filter((article) => article.data.slug.startsWith('news/'))
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);
       const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || 0);
@@ -19,7 +19,7 @@ export async function GET(context: APIContext) {
     title: 'Galaxy News',
     description: 'News from the Galaxy Project community',
     site: context.site || 'https://galaxyproject.org',
-    items: newsArticles.map(article => ({
+    items: newsArticles.map((article) => ({
       title: article.data.title || 'Untitled',
       pubDate: article.data.date instanceof Date ? article.data.date : new Date(article.data.date || 0),
       description: article.data.tease || '',

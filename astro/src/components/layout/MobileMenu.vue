@@ -2,25 +2,9 @@
 import { ref, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, setSubsite, type SubsiteId } from '@/stores/subsiteStore';
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from '@/components/ui/sheet';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from '@/components/ui/collapsible';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown, Menu, X } from 'lucide-vue-next';
 
 interface NavItem {
@@ -114,10 +98,7 @@ function handleNavClick() {
 <template>
   <Sheet v-model:open="isOpen">
     <SheetTrigger as-child>
-      <button
-        class="lg:hidden p-2 text-white hover:bg-medium-bg rounded-md transition-colors"
-        aria-label="Open menu"
-      >
+      <button class="lg:hidden p-2 text-white hover:bg-medium-bg rounded-md transition-colors" aria-label="Open menu">
         <Menu class="h-6 w-6" />
       </button>
     </SheetTrigger>
@@ -132,9 +113,7 @@ function handleNavClick() {
       <div class="flex flex-col h-[calc(100%-4rem)] overflow-y-auto">
         <!-- Region Switcher -->
         <div class="px-4 py-4 border-b border-medium-bg">
-          <label class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2 block">
-            Region
-          </label>
+          <label class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2 block"> Region </label>
           <Select :model-value="subsite" @update:model-value="handleSubsiteChange">
             <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
               <SelectValue placeholder="Select region" />

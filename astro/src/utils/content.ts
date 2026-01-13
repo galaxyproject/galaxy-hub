@@ -20,7 +20,7 @@ export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
     return articles;
   }
 
-  return articles.filter(article => {
+  return articles.filter((article) => {
     const subsites = article.data.subsites || [];
     return subsites.includes(subsite) || subsites.includes('all');
   });
@@ -36,7 +36,7 @@ export async function getEvents(subsite?: string): Promise<EventEntry[]> {
     return events;
   }
 
-  return events.filter(event => {
+  return events.filter((event) => {
     const subsites = event.data.subsites || [];
     return subsites.includes(subsite) || subsites.includes('all');
   });
@@ -51,7 +51,7 @@ export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]>
   now.setHours(0, 0, 0, 0);
 
   return events
-    .filter(event => {
+    .filter((event) => {
       const eventDate = event.data.date;
       if (!eventDate) return false;
       return new Date(eventDate) >= now;
@@ -75,7 +75,7 @@ export async function getRecentEvents(subsite?: string, days = 365): Promise<Eve
   cutoff.setDate(cutoff.getDate() - days);
 
   return events
-    .filter(event => {
+    .filter((event) => {
       const eventDate = event.data.date;
       if (!eventDate) return false;
       const date = new Date(eventDate);
@@ -94,7 +94,7 @@ export async function getRecentEvents(subsite?: string, days = 365): Promise<Eve
 export async function getEventsByTag(tag: string, subsite?: string): Promise<EventEntry[]> {
   const events = await getEvents(subsite);
 
-  return events.filter(event => {
+  return events.filter((event) => {
     const tags = event.data.tags || [];
     return tags.includes(tag);
   });
@@ -112,7 +112,7 @@ export async function getPlatforms(): Promise<PlatformEntry[]> {
  */
 export async function getPlatformsByScope(scope: string): Promise<PlatformEntry[]> {
   const platforms = await getPlatforms();
-  return platforms.filter(p => p.data.scope === scope);
+  return platforms.filter((p) => p.data.scope === scope);
 }
 
 // Cache for insert lookups - loaded once per build
@@ -150,7 +150,7 @@ export async function getNews(subsite?: string): Promise<ArticleEntry[]> {
   const articles = await getArticles(subsite);
 
   return articles
-    .filter(article => article.data.slug?.startsWith('news/'))
+    .filter((article) => article.data.slug?.startsWith('news/'))
     .sort((a, b) => {
       const dateA = new Date(a.data.date || 0);
       const dateB = new Date(b.data.date || 0);
@@ -161,15 +161,10 @@ export async function getNews(subsite?: string): Promise<ArticleEntry[]> {
 /**
  * Get articles by category (path prefix)
  */
-export async function getArticlesByCategory(
-  category: string,
-  subsite?: string
-): Promise<ArticleEntry[]> {
+export async function getArticlesByCategory(category: string, subsite?: string): Promise<ArticleEntry[]> {
   const articles = await getArticles(subsite);
 
-  return articles.filter(article =>
-    article.data.slug?.startsWith(`${category}/`)
-  );
+  return articles.filter((article) => article.data.slug?.startsWith(`${category}/`));
 }
 
 /**
@@ -177,7 +172,7 @@ export async function getArticlesByCategory(
  */
 export async function getArticleBySlug(slug: string): Promise<ArticleEntry | undefined> {
   const articles = await getCollection('articles');
-  return articles.find(a => a.data.slug === slug);
+  return articles.find((a) => a.data.slug === slug);
 }
 
 /**
@@ -185,7 +180,7 @@ export async function getArticleBySlug(slug: string): Promise<ArticleEntry | und
  */
 export async function getEventBySlug(slug: string): Promise<EventEntry | undefined> {
   const events = await getCollection('events');
-  return events.find(e => e.data.slug === slug);
+  return events.find((e) => e.data.slug === slug);
 }
 
 /**

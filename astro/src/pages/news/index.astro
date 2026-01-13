@@ -13,7 +13,7 @@ function toDate(d: Date | string | undefined): Date | null {
 }
 
 const newsArticles = articles
-  .filter(article => article.data.slug.startsWith('news/'))
+  .filter((article) => article.data.slug.startsWith('news/'))
   .sort((a, b) => {
     const dateA = toDate(a.data.date)?.getTime() || 0;
     const dateB = toDate(b.data.date)?.getTime() || 0;
@@ -21,12 +21,12 @@ const newsArticles = articles
   });
 
 // Transform to plain objects for Vue component
-const articleData = newsArticles.map(a => ({
+const articleData = newsArticles.map((a) => ({
   slug: a.data.slug,
   title: a.data.title || 'Untitled',
   date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
   tease: a.data.tease,
-  tags: Array.isArray(a.data.tags) ? a.data.tags : (a.data.tags ? [a.data.tags] : []),
+  tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
   subsites: a.data.subsites,
 }));
 ---

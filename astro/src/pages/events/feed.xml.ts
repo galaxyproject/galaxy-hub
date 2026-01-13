@@ -20,7 +20,7 @@ export async function GET(context: APIContext) {
     title: 'Galaxy Events',
     description: 'Events from the Galaxy Project community',
     site: context.site || 'https://galaxyproject.org',
-    items: relevantEvents.map(event => ({
+    items: relevantEvents.map((event) => ({
       title: event.data.title || 'Untitled',
       pubDate: event.data.date instanceof Date ? event.data.date : new Date(event.data.date || 0),
       description: event.data.tease || '',

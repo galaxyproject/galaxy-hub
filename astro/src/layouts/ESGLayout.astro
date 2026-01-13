@@ -34,74 +34,75 @@ const fundingNotice = `
 `;
 ---
 
-{solo ? (
-  <!-- Solo mode: Standalone ESG layout -->
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content={description || 'EuroScienceGateway - Improving computational workflows in Galaxy'} />
-      <title>{title} | EuroScienceGateway</title>
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    </head>
-    <body class="min-h-screen bg-white">
-      <!-- ESG Header -->
-      <nav class="bg-gray-800 text-white">
-        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="/projects/esg/?solo=true" class="flex items-center">
-            <img
-              src="/images/projects/esg/eosc_euro_science_gateway_white.svg"
-              alt="EuroScienceGateway"
-              class="h-8"
-            />
-          </a>
-          <div class="flex gap-6">
-            <a
-              href="/projects/esg/?solo=true"
-              class:list={["hover:text-gray-300", { "text-blue-300 font-semibold": isHome }]}
-            >
-              Home
+{
+  solo ? (
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content={description || 'EuroScienceGateway - Improving computational workflows in Galaxy'}
+        />
+        <title>{title} | EuroScienceGateway</title>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      </head>
+      <body class="min-h-screen bg-white">
+        <nav class="bg-gray-800 text-white">
+          <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="/projects/esg/?solo=true" class="flex items-center">
+              <img
+                src="/images/projects/esg/eosc_euro_science_gateway_white.svg"
+                alt="EuroScienceGateway"
+                class="h-8"
+              />
             </a>
-            <a
-              href="/projects/esg/news/?solo=true"
-              class:list={["hover:text-gray-300", { "text-blue-300 font-semibold": isNews }]}
-            >
-              News
-            </a>
-            <a
-              href="/projects/esg/events/?solo=true"
-              class:list={["hover:text-gray-300", { "text-blue-300 font-semibold": isEvents }]}
-            >
-              Events
-            </a>
+            <div class="flex gap-6">
+              <a
+                href="/projects/esg/?solo=true"
+                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isHome }]}
+              >
+                Home
+              </a>
+              <a
+                href="/projects/esg/news/?solo=true"
+                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isNews }]}
+              >
+                News
+              </a>
+              <a
+                href="/projects/esg/events/?solo=true"
+                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isEvents }]}
+              >
+                Events
+              </a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
-      <!-- Main Content -->
-      <main class="max-w-6xl mx-auto px-4 py-8">
-        <slot />
+        <main class="max-w-6xl mx-auto px-4 py-8">
+          <slot />
 
-        <!-- Funding Notice -->
-        <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
-          <Fragment set:html={fundingNotice} />
-        </div>
-      </main>
+          <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
+            <Fragment set:html={fundingNotice} />
+          </div>
+        </main>
 
-      <!-- Footer -->
-      <footer class="max-w-6xl mx-auto px-4 py-6 text-center text-gray-600 text-sm">
-        Hosted on the <a href="/" class="text-blue-600 hover:underline font-semibold">Galaxy Community Hub</a>
-      </footer>
-    </body>
-  </html>
-) : (
-  <!-- Integrated mode: Uses BaseLayout -->
-  <BaseLayout title={`${title} | EuroScienceGateway`} description={description}>
-    <slot />
+        <footer class="max-w-6xl mx-auto px-4 py-6 text-center text-gray-600 text-sm">
+          Hosted on the{' '}
+          <a href="/" class="text-blue-600 hover:underline font-semibold">
+            Galaxy Community Hub
+          </a>
+        </footer>
+      </body>
+    </html>
+  ) : (
+    <BaseLayout title={`${title} | EuroScienceGateway`} description={description}>
+      <slot />
 
-    <!-- Funding Notice -->
-    <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
-      <Fragment set:html={fundingNotice} />
-    </div>
-  </BaseLayout>
-)}
+      <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
+        <Fragment set:html={fundingNotice} />
+      </div>
+    </BaseLayout>
+  )
+}

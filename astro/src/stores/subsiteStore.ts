@@ -14,14 +14,14 @@ export const subsites = [
   { id: 'ifb', name: 'ELIXIR-FR/IFB', path: '/ifb/' },
 ] as const;
 
-export type SubsiteId = typeof subsites[number]['id'];
+export type SubsiteId = (typeof subsites)[number]['id'];
 
 // Current subsite state
 export const currentSubsite = atom<SubsiteId>('global');
 
 // Computed: get current subsite info
 export const currentSubsiteInfo = computed(currentSubsite, (id) => {
-  return subsites.find(s => s.id === id) ?? subsites[0];
+  return subsites.find((s) => s.id === id) ?? subsites[0];
 });
 
 // Computed: is current subsite external?
@@ -31,7 +31,7 @@ export const isExternalSubsite = computed(currentSubsiteInfo, (info) => {
 
 // Helper: set subsite
 export function setSubsite(id: SubsiteId) {
-  const subsite = subsites.find(s => s.id === id);
+  const subsite = subsites.find((s) => s.id === id);
   if (subsite) {
     if ('external' in subsite && subsite.external) {
       // External subsites redirect

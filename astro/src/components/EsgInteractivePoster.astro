@@ -10,36 +10,36 @@
 // Work package data
 const workPackages = [
   {
-    title: "Work Packages",
-    content: "EuroScienceGateway is organized into multiple work packages, each with its own focus.",
+    title: 'Work Packages',
+    content: 'EuroScienceGateway is organized into multiple work packages, each with its own focus.',
     news: null,
-    hidden: true
+    hidden: true,
   },
   {
-    title: "Work Package 1",
-    content: "Project Management, Coordination and Dissemination.",
-    news: "/projects/esg/news/?tag=esg-wp1"
+    title: 'Work Package 1',
+    content: 'Project Management, Coordination and Dissemination.',
+    news: '/projects/esg/news/?tag=esg-wp1',
   },
   {
-    title: "Work Package 2",
-    content: "Stimulate FAIR and reusable research.",
-    news: "/projects/esg/news/?tag=esg-wp2"
+    title: 'Work Package 2',
+    content: 'Stimulate FAIR and reusable research.',
+    news: '/projects/esg/news/?tag=esg-wp2',
   },
   {
-    title: "Work Package 3",
-    content: "Pulsar Network: Distributed heterogeneous compute.",
-    news: "/projects/esg/news/?tag=esg-wp3"
+    title: 'Work Package 3',
+    content: 'Pulsar Network: Distributed heterogeneous compute.',
+    news: '/projects/esg/news/?tag=esg-wp3',
   },
   {
-    title: "Work Package 4",
-    content: "Building blocks for a sustainable operating model.",
-    news: "/projects/esg/news/?tag=esg-wp4"
+    title: 'Work Package 4',
+    content: 'Building blocks for a sustainable operating model.',
+    news: '/projects/esg/news/?tag=esg-wp4',
   },
   {
-    title: "Work Package 5",
-    content: "Community engagement, adoption and onboarding.",
-    news: "/projects/esg/news/?tag=esg-wp5"
-  }
+    title: 'Work Package 5',
+    content: 'Community engagement, adoption and onboarding.',
+    news: '/projects/esg/news/?tag=esg-wp5',
+  },
 ];
 ---
 
@@ -75,15 +75,22 @@ const workPackages = [
       <button class="carousel-control prev" id="carousel-prev" aria-label="Previous">‹</button>
 
       <div class="carousel-content" id="carousel-content">
-        {workPackages.map((wp, index) => (
-          <div class={`carousel-slide ${index === 0 ? 'active' : ''}`} data-index={index}>
-            <h3>{wp.title}</h3>
-            <p>
-              {wp.content}
-              {wp.news && <span> - <a href={wp.news}>News</a></span>}
-            </p>
-          </div>
-        ))}
+        {
+          workPackages.map((wp, index) => (
+            <div class={`carousel-slide ${index === 0 ? 'active' : ''}`} data-index={index}>
+              <h3>{wp.title}</h3>
+              <p>
+                {wp.content}
+                {wp.news && (
+                  <span>
+                    {' '}
+                    - <a href={wp.news}>News</a>
+                  </span>
+                )}
+              </p>
+            </div>
+          ))
+        }
       </div>
 
       <button class="carousel-control next" id="carousel-next" aria-label="Next">›</button>
@@ -110,10 +117,10 @@ const workPackages = [
     grid-template-columns: 2272fr 3454fr 445fr 433fr;
     grid-template-rows: 804fr 804fr 1346fr 655fr;
     grid-template-areas:
-      "s1 s3 s3 s6"
-      "s1 s4 s4 s6"
-      "s2 s4 s4 s6"
-      "s2 s5 no no";
+      's1 s3 s3 s6'
+      's1 s4 s4 s6'
+      's2 s4 s4 s6'
+      's2 s5 no no';
   }
 
   .poster-grid img {
@@ -121,12 +128,24 @@ const workPackages = [
     height: 100%;
   }
 
-  .section-1 { grid-area: s1; }
-  .section-2 { grid-area: s2; }
-  .section-3 { grid-area: s3; }
-  .section-4 { grid-area: s4; }
-  .section-5 { grid-area: s5; }
-  .section-6 { grid-area: s6; }
+  .section-1 {
+    grid-area: s1;
+  }
+  .section-2 {
+    grid-area: s2;
+  }
+  .section-3 {
+    grid-area: s3;
+  }
+  .section-4 {
+    grid-area: s4;
+  }
+  .section-5 {
+    grid-area: s5;
+  }
+  .section-6 {
+    grid-area: s6;
+  }
 
   .indicator-grid {
     position: absolute;
@@ -137,10 +156,12 @@ const workPackages = [
     pointer-events: none;
     display: grid;
     grid-template-areas:
-      "nonA nonB nonC"
-      "nonD indi nonE"
-      "nonF nonG nonH";
-    transition: grid-template-columns 0.2s, grid-template-rows 0.2s;
+      'nonA nonB nonC'
+      'nonD indi nonE'
+      'nonF nonG nonH';
+    transition:
+      grid-template-columns 0.2s,
+      grid-template-rows 0.2s;
   }
 
   .indicator {
@@ -149,7 +170,9 @@ const workPackages = [
     border-radius: 0.5rem;
     box-shadow: 0 0 5px rgba(255, 241, 43, 0.6);
     pointer-events: none;
-    transition: border-color 0.2s, box-shadow 0.2s;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s;
   }
 
   .indicator.hidden {
@@ -168,10 +191,10 @@ const workPackages = [
     grid-template-columns: 2272fr 3454fr 445fr 433fr;
     grid-template-rows: 804fr 804fr 1346fr 655fr;
     grid-template-areas:
-      "wp-5 nonA wp-2 wp-1"
-      "wp-5 nonA wp-3-4 wp-1"
-      "nonB nonA wp-3-4 wp-1"
-      "nonB nonA nonC nonC";
+      'wp-5 nonA wp-2 wp-1'
+      'wp-5 nonA wp-3-4 wp-1'
+      'nonB nonA wp-3-4 wp-1'
+      'nonB nonA nonC nonC';
   }
 
   .click-overlay button {
@@ -255,7 +278,7 @@ const workPackages = [
   }
 
   .carousel-slide a {
-    color: #25537B;
+    color: #25537b;
     text-decoration: underline;
   }
 
@@ -268,7 +291,7 @@ const workPackages = [
   // Total dimensions for calculating indicator position
   const totalDimensions = {
     w: 2272 + 3454 + 445 + 433,
-    h: 804 + 804 + 1346 + 655
+    h: 804 + 804 + 1346 + 655,
   };
 
   // Work package indicator areas (in pixels relative to total dimensions)
@@ -278,7 +301,7 @@ const workPackages = [
     { x: 2310, y: 10, w: 3850, h: 770 }, // WP2
     { x: 2310, y: 820, w: 3850, h: 2090 }, // WP3
     { x: 2310, y: 820, w: 3850, h: 2090 }, // WP4
-    { x: 40, y: 5, w: 2200, h: 1570 } // WP5
+    { x: 40, y: 5, w: 2200, h: 1570 }, // WP5
   ];
 
   let currentIndex = 0;
@@ -337,7 +360,7 @@ const workPackages = [
     });
 
     // Work package click handlers
-    document.querySelectorAll('.click-overlay button').forEach(button => {
+    document.querySelectorAll('.click-overlay button').forEach((button) => {
       button.addEventListener('click', () => {
         const wp = parseInt(button.getAttribute('data-wp') || '0');
 

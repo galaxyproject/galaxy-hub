@@ -6,8 +6,8 @@ import { subsites } from '../../stores/subsiteStore';
 // Generate paths for all non-external subsites
 export function getStaticPaths() {
   return subsites
-    .filter(s => s.id !== 'global' && !('external' in s && s.external))
-    .map(s => ({
+    .filter((s) => s.id !== 'global' && !('external' in s && s.external))
+    .map((s) => ({
       params: { subsite: s.id },
       props: { subsiteInfo: s },
     }));
@@ -20,7 +20,7 @@ const { subsiteInfo } = Astro.props;
 const allEvents = await getCollection('events');
 const now = new Date();
 
-const subsiteEvents = allEvents.filter(event => {
+const subsiteEvents = allEvents.filter((event) => {
   const eventSubsites = event.data.subsites;
   if (!eventSubsites) return false;
   const subsitesArray = Array.isArray(eventSubsites) ? eventSubsites : [eventSubsites];
@@ -28,7 +28,7 @@ const subsiteEvents = allEvents.filter(event => {
 });
 
 const upcomingEvents = subsiteEvents
-  .filter(e => {
+  .filter((e) => {
     const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
     return eventDate >= now;
   })
@@ -42,7 +42,7 @@ const upcomingEvents = subsiteEvents
 // Get news for this subsite
 const allArticles = await getCollection('articles');
 const subsiteNews = allArticles
-  .filter(article => {
+  .filter((article) => {
     if (!article.data.slug.startsWith('news/')) return false;
     const articleSubsites = article.data.subsites;
     if (!articleSubsites) return false;
@@ -116,60 +116,52 @@ const { title, description } = subsiteLabels[subsite] || {
       <section>
         <div class="flex items-center justify-between mb-4">
           <h2 class="text-xl font-bold text-galaxy-dark">Upcoming Events</h2>
-          <a href={`/${subsite}/events/`} class="text-sm text-galaxy-primary hover:underline">
-            View all →
-          </a>
+          <a href={`/${subsite}/events/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
         </div>
 
-        {upcomingEvents.length === 0 ? (
-          <p class="text-gray-500 italic">No upcoming events.</p>
-        ) : (
-          <div class="space-y-3">
-            {upcomingEvents.map((event) => (
-              <a
-                href={`/events/${event.data.slug}/`}
-                class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
-              >
-                <div class="text-xs text-galaxy-primary font-medium mb-1">
-                  {formatDate(event.data.date)}
-                </div>
-                <h3 class="font-medium text-galaxy-dark line-clamp-2">
-                  {event.data.title}
-                </h3>
-              </a>
-            ))}
-          </div>
-        )}
+        {
+          upcomingEvents.length === 0 ? (
+            <p class="text-gray-500 italic">No upcoming events.</p>
+          ) : (
+            <div class="space-y-3">
+              {upcomingEvents.map((event) => (
+                <a
+                  href={`/events/${event.data.slug}/`}
+                  class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                >
+                  <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>
+                  <h3 class="font-medium text-galaxy-dark line-clamp-2">{event.data.title}</h3>
+                </a>
+              ))}
+            </div>
+          )
+        }
       </section>
 
       <!-- Recent News -->
       <section>
         <div class="flex items-center justify-between mb-4">
           <h2 class="text-xl font-bold text-galaxy-dark">Recent News</h2>
-          <a href={`/${subsite}/news/`} class="text-sm text-galaxy-primary hover:underline">
-            View all →
-          </a>
+          <a href={`/${subsite}/news/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
         </div>
 
-        {subsiteNews.length === 0 ? (
-          <p class="text-gray-500 italic">No recent news.</p>
-        ) : (
-          <div class="space-y-3">
-            {subsiteNews.map((article) => (
-              <a
-                href={`/${article.data.slug}/`}
-                class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
-              >
-                <div class="text-xs text-gray-500 mb-1">
-                  {formatDate(article.data.date)}
-                </div>
-                <h3 class="font-medium text-galaxy-dark line-clamp-2">
-                  {article.data.title}
-                </h3>
-              </a>
-            ))}
-          </div>
-        )}
+        {
+          subsiteNews.length === 0 ? (
+            <p class="text-gray-500 italic">No recent news.</p>
+          ) : (
+            <div class="space-y-3">
+              {subsiteNews.map((article) => (
+                <a
+                  href={`/${article.data.slug}/`}
+                  class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                >
+                  <div class="text-xs text-gray-500 mb-1">{formatDate(article.data.date)}</div>
+                  <h3 class="font-medium text-galaxy-dark line-clamp-2">{article.data.title}</h3>
+                </a>
+              ))}
+            </div>
+          )
+        }
       </section>
     </div>
 
@@ -191,17 +183,11 @@ const { title, description } = subsiteLabels[subsite] || {
           <h3 class="font-semibold text-galaxy-dark">News</h3>
           <p class="text-sm text-gray-600">Read latest news</p>
         </a>
-        <a
-          href="/use/"
-          class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
-        >
+        <a href="/use/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
           <h3 class="font-semibold text-galaxy-dark">Platforms</h3>
           <p class="text-sm text-gray-600">Find Galaxy servers</p>
         </a>
-        <a
-          href="/community/"
-          class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
-        >
+        <a href="/community/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
           <h3 class="font-semibold text-galaxy-dark">Community</h3>
           <p class="text-sm text-gray-600">Get involved</p>
         </a>

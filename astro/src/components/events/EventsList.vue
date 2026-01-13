@@ -9,10 +9,12 @@ interface EventData {
   date?: string;
   end?: string;
   tease?: string;
-  location?: {
-    city?: string;
-    name?: string;
-  } | string;
+  location?:
+    | {
+        city?: string;
+        name?: string;
+      }
+    | string;
   subsites?: string[] | string;
 }
 
@@ -63,11 +65,13 @@ const filteredEvents = computed(() => {
   }
 
   // Filter by subsite - include events tagged with this subsite or 'all'
-  return props.events.filter(event => {
+  return props.events.filter((event) => {
     const eventSubsites = getSubsites(event);
-    return eventSubsites.includes('all') ||
-           eventSubsites.includes(subsite) ||
-           eventSubsites.some(s => s.toLowerCase() === subsite.toLowerCase());
+    return (
+      eventSubsites.includes('all') ||
+      eventSubsites.includes(subsite) ||
+      eventSubsites.some((s) => s.toLowerCase() === subsite.toLowerCase())
+    );
   });
 });
 
@@ -81,7 +85,7 @@ function toDate(d: string | undefined): Date | null {
 
 const upcomingEvents = computed(() => {
   return filteredEvents.value
-    .filter(event => {
+    .filter((event) => {
       const eventDate = toDate(event.date);
       const endDate = toDate(event.end) || eventDate;
       return endDate && endDate >= now;
@@ -96,7 +100,7 @@ const upcomingEvents = computed(() => {
 // All past events (before year filtering)
 const allPastEvents = computed(() => {
   return filteredEvents.value
-    .filter(event => {
+    .filter((event) => {
       const eventDate = toDate(event.date);
       const endDate = toDate(event.end) || eventDate;
       return endDate && endDate < now;
@@ -111,7 +115,7 @@ const allPastEvents = computed(() => {
 // Available years for past events (sorted descending)
 const availablePastYears = computed(() => {
   const years = new Set<number>();
-  allPastEvents.value.forEach(event => {
+  allPastEvents.value.forEach((event) => {
     const year = getYear(event);
     if (year) years.add(year);
   });
@@ -119,11 +123,15 @@ const availablePastYears = computed(() => {
 });
 
 // Set default year to most recent when available years change
-watch(availablePastYears, (years) => {
-  if (years.length > 0 && (selectedPastYear.value === null || !years.includes(selectedPastYear.value))) {
-    selectedPastYear.value = years[0];
-  }
-}, { immediate: true });
+watch(
+  availablePastYears,
+  (years) => {
+    if (years.length > 0 && (selectedPastYear.value === null || !years.includes(selectedPastYear.value))) {
+      selectedPastYear.value = years[0];
+    }
+  },
+  { immediate: true }
+);
 
 // Reset pagination when year or subsite changes
 watch([selectedPastYear, $subsite], () => {
@@ -135,12 +143,12 @@ const pastEvents = computed(() => {
   if (selectedPastYear.value === null) {
     return allPastEvents.value;
   }
-  return allPastEvents.value.filter(event => getYear(event) === selectedPastYear.value);
+  return allPastEvents.value.filter((event) => getYear(event) === selectedPastYear.value);
 });
 
 // Count per year for badges
 function countPastForYear(year: number): number {
-  return allPastEvents.value.filter(event => getYear(event) === year).length;
+  return allPastEvents.value.filter((event) => getYear(event) === year).length;
 }
 
 function selectPastYear(year: number) {
@@ -152,7 +160,7 @@ function formatDate(date: string | undefined): string {
   return new Date(date).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
-    day: 'numeric'
+    day: 'numeric',
   });
 }
 
@@ -182,10 +190,7 @@ function buildUrl(slug: string): string {
     <div v-if="$subsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
       <p class="text-sm text-galaxy-dark">
         Showing events for <strong class="capitalize">{{ $subsite }}</strong> subsite.
-        <button
-          @click="() => currentSubsite.set('global')"
-          class="ml-2 text-galaxy-primary hover:underline"
-        >
+        <button @click="() => currentSubsite.set('global')" class="ml-2 text-galaxy-primary hover:underline">
           Show all events
         </button>
       </p>
@@ -212,9 +217,25 @@ function buildUrl(slug: string): string {
                 </h3>
                 <p v-if="event.tease" class="text-gray-600 mt-1">{{ event.tease }}</p>
                 <p v-if="event.location" class="text-sm text-gray-500 mt-2 flex items-center gap-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
                   </svg>
                   {{ getLocationText(event.location) }}
                 </p>
@@ -252,7 +273,7 @@ function buildUrl(slug: string): string {
               'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
               selectedPastYear === year
                 ? 'bg-galaxy-primary text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
             ]"
           >
             {{ year }}
@@ -285,7 +306,9 @@ function buildUrl(slug: string): string {
         </article>
       </div>
       <div v-if="pastEvents.length > pastDisplayCount" class="mt-6 text-center">
-        <p class="text-gray-500 text-sm mb-3">Showing {{ pastDisplayCount }} of {{ pastEvents.length }} events in {{ selectedPastYear }}</p>
+        <p class="text-gray-500 text-sm mb-3">
+          Showing {{ pastDisplayCount }} of {{ pastEvents.length }} events in {{ selectedPastYear }}
+        </p>
         <button
           @click="loadMorePast"
           class="px-6 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"

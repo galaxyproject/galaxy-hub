@@ -15,13 +15,13 @@ export { default as Contacts } from './Contacts.vue';
 // Component map for MDX with kebab-case keys
 export const mdxComponents = {
   'vega-embed': () => import('./VegaEmbed.vue'),
-  'twitter': () => import('./Twitter.vue'),
-  'mastodon': () => import('./Mastodon.vue'),
+  twitter: () => import('./Twitter.vue'),
+  mastodon: () => import('./Mastodon.vue'),
   'video-player': () => import('./VideoPlayer.vue'),
-  'carousel': () => import('./Carousel.vue'),
+  carousel: () => import('./Carousel.vue'),
   'calendar-embed': () => import('./CalendarEmbed.vue'),
   'markdown-embed': () => import('./MarkdownEmbed.vue'),
-  'flickr': () => import('./Flickr.vue'),
-  'supporters': () => import('./Supporters.vue'),
-  'contacts': () => import('./Contacts.vue'),
+  flickr: () => import('./Flickr.vue'),
+  supporters: () => import('./Supporters.vue'),
+  contacts: () => import('./Contacts.vue'),
 };

@@ -51,7 +51,7 @@ watch(searchQuery, (query) => {
 
 // Get unique collections
 const collections = computed(() => {
-  const unique = new Set(searchIndex.value.map(e => e.collection));
+  const unique = new Set(searchIndex.value.map((e) => e.collection));
   return ['all', ...Array.from(unique).sort()];
 });
 
@@ -64,29 +64,26 @@ const results = computed(() => {
   const query = searchQuery.value.toLowerCase().trim();
   const words = query.split(/\s+/);
 
-  let filtered = searchIndex.value.filter(entry => {
-    const searchText = [
-      entry.title,
-      entry.excerpt,
-      entry.tease,
-      ...entry.tags
-    ].join(' ').toLowerCase();
+  let filtered = searchIndex.value.filter((entry) => {
+    const searchText = [entry.title, entry.excerpt, entry.tease, ...entry.tags].join(' ').toLowerCase();
 
     // All words must match
-    return words.every(word => searchText.includes(word));
+    return words.every((word) => searchText.includes(word));
   });
 
   // Filter by collection
   if (selectedCollection.value !== 'all') {
-    filtered = filtered.filter(e => e.collection === selectedCollection.value);
+    filtered = filtered.filter((e) => e.collection === selectedCollection.value);
   }
 
   // Sort by date (most recent first)
-  return filtered.sort((a, b) => {
-    const dateA = new Date(a.date).getTime() || 0;
-    const dateB = new Date(b.date).getTime() || 0;
-    return dateB - dateA;
-  }).slice(0, 100);
+  return filtered
+    .sort((a, b) => {
+      const dateA = new Date(a.date).getTime() || 0;
+      const dateB = new Date(b.date).getTime() || 0;
+      return dateB - dateA;
+    })
+    .slice(0, 100);
 });
 
 function formatDate(dateStr: string): string {
@@ -96,7 +93,7 @@ function formatDate(dateStr: string): string {
   return date.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
-    day: 'numeric'
+    day: 'numeric',
   });
 }
 
@@ -122,12 +119,12 @@ function highlightMatch(text: string, maxLength: number = 200): string {
   if (!text) return '';
 
   const query = searchQuery.value.toLowerCase();
-  const words = query.split(/\s+/).filter(w => w.length > 2);
+  const words = query.split(/\s+/).filter((w) => w.length > 2);
 
   let result = text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
 
   // Simple highlighting (would need proper escaping for production)
-  words.forEach(word => {
+  words.forEach((word) => {
     const regex = new RegExp(`(${word})`, 'gi');
     result = result.replace(regex, '<mark class="bg-yellow-200">$1</mark>');
   });
@@ -200,16 +197,10 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           <div class="flex items-center gap-4 text-xs text-gray-500">
             <time v-if="result.date">{{ formatDate(result.date) }}</time>
             <div v-if="result.tags?.length" class="flex gap-1 flex-wrap">
-              <span
-                v-for="tag in result.tags.slice(0, 3)"
-                :key="tag"
-                class="px-2 py-0.5 bg-gray-100 rounded"
-              >
+              <span v-for="tag in result.tags.slice(0, 3)" :key="tag" class="px-2 py-0.5 bg-gray-100 rounded">
                 {{ tag }}
               </span>
-              <span v-if="result.tags.length > 3" class="text-gray-400">
-                +{{ result.tags.length - 3 }} more
-              </span>
+              <span v-if="result.tags.length > 3" class="text-gray-400"> +{{ result.tags.length - 3 }} more </span>
             </div>
           </div>
         </a>
@@ -219,7 +210,12 @@ function highlightMatch(text: string, maxLength: number = 200): string {
     <!-- No results -->
     <div v-else-if="searchQuery.trim() && !isLoading" class="text-center py-12">
       <svg class="w-16 h-16 mx-auto text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+        ></path>
       </svg>
       <p class="text-gray-500 mb-2">No results found for "{{ searchQuery }}"</p>
       <p class="text-sm text-gray-400">Try different keywords or check your spelling</p>
@@ -228,7 +224,12 @@ function highlightMatch(text: string, maxLength: number = 200): string {
     <!-- Empty state -->
     <div v-else-if="!isLoading" class="text-center py-12">
       <svg class="w-16 h-16 mx-auto text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+        ></path>
       </svg>
       <p class="text-gray-500">Start typing to search the Galaxy Community Hub</p>
     </div>

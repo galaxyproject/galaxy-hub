@@ -21,7 +21,7 @@ import Insert from '../../components/mdx/Insert.astro';
 export async function getStaticPaths() {
   const platforms = await getCollection('platforms');
 
-  return platforms.map(platform => {
+  return platforms.map((platform) => {
     // Remove 'use/' prefix from slug for the URL
     const urlSlug = platform.data.slug.replace(/^use\//, '');
     return {
@@ -51,7 +51,7 @@ const {
 } = platform.data;
 
 // Normalize tags to array
-const tagList = Array.isArray(tags) ? tags : (tags ? [tags] : []);
+const tagList = Array.isArray(tags) ? tags : tags ? [tags] : [];
 
 // MDX components map
 const components = {

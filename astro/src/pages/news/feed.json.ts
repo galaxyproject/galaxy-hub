@@ -28,7 +28,7 @@ function generateShortId(str: string): string {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
     const char = str.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
+    hash = (hash << 5) - hash + char;
     hash = hash & hash;
   }
   return Math.abs(hash).toString(16).slice(0, 8);
@@ -36,8 +36,17 @@ function generateShortId(str: string): string {
 
 // Expand "all" subsite to full list of regional subsites
 const ALL_SUBSITES = [
-  'freiburg', 'pasteur', 'belgium', 'ifb', 'genouest',
-  'erasmusmc', 'elixir-it', 'au', 'eu', 'us', 'global'
+  'freiburg',
+  'pasteur',
+  'belgium',
+  'ifb',
+  'genouest',
+  'erasmusmc',
+  'elixir-it',
+  'au',
+  'eu',
+  'us',
+  'global',
 ];
 
 function expandSubsites(subsites: string[]): string[] {
@@ -52,7 +61,7 @@ export async function GET(context: APIContext) {
 
   // Filter to news articles within days_ago limit
   const newsArticles = articles
-    .filter(article => {
+    .filter((article) => {
       if (!article.data.slug.startsWith('news/')) return false;
       if (!article.data.date) return false;
       const date = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
@@ -65,55 +74,51 @@ export async function GET(context: APIContext) {
       return dateB.getTime() - dateA.getTime();
     });
 
-  const feedItems = await Promise.all(newsArticles.map(async article => {
-    const data = article.data;
-    const date = data.date instanceof Date ? data.date : new Date(data.date || 0);
-    const daysAgo = getDaysAgo(date);
-    const slug = (data.slug || article.id).replace(/\/$/, '');
+  const feedItems = await Promise.all(
+    newsArticles.map(async (article) => {
+      const data = article.data;
+      const date = data.date instanceof Date ? data.date : new Date(data.date || 0);
+      const daysAgo = getDaysAgo(date);
+      const slug = (data.slug || article.id).replace(/\/$/, '');
 
-    // Normalize arrays and expand "all" subsites
-    let subsites = data.subsites
-      ? (Array.isArray(data.subsites) ? data.subsites : [data.subsites])
-      : [];
-    subsites = expandSubsites(subsites);
+      // Normalize arrays and expand "all" subsites
+      let subsites = data.subsites ? (Array.isArray(data.subsites) ? data.subsites : [data.subsites]) : [];
+      subsites = expandSubsites(subsites);
 
-    const tags = data.tags
-      ? (Array.isArray(data.tags) ? data.tags : [data.tags])
-      : [];
-    const authors = data.authors
-      ? (Array.isArray(data.authors) ? data.authors.join(', ') : data.authors)
-      : '';
+      const tags = data.tags ? (Array.isArray(data.tags) ? data.tags : [data.tags]) : [];
+      const authors = data.authors ? (Array.isArray(data.authors) ? data.authors.join(', ') : data.authors) : '';
 
-    // Render markdown body to HTML
-    let content = '';
-    try {
-      if (article.body) {
-        content = await marked.parse(article.body);
-      } else {
+      // Render markdown body to HTML
+      let content = '';
+      try {
+        if (article.body) {
+          content = await marked.parse(article.body);
+        } else {
+          content = data.tease || '';
+        }
+      } catch {
         content = data.tease || '';
       }
-    } catch {
-      content = data.tease || '';
-    }
 
-    return {
-      id: generateShortId(article.id),
-      title: data.title || null,
-      tease: data.tease || null,
-      days_ago: daysAgo,
-      date: formatDate(date),
-      subsites,
-      main_subsite: data.main_subsite || null,
-      tags,
-      contact: typeof data.contacts === 'string' ? data.contacts : '',
-      image: data.image || null,
-      authors,
-      authors_structured: [],
-      external_url: data.external_url || '',
-      path: `/${slug}/`,
-      content,
-    };
-  }));
+      return {
+        id: generateShortId(article.id),
+        title: data.title || null,
+        tease: data.tease || null,
+        days_ago: daysAgo,
+        date: formatDate(date),
+        subsites,
+        main_subsite: data.main_subsite || null,
+        tags,
+        contact: typeof data.contacts === 'string' ? data.contacts : '',
+        image: data.image || null,
+        authors,
+        authors_structured: [],
+        external_url: data.external_url || '',
+        path: `/${slug}/`,
+        content,
+      };
+    })
+  );
 
   return new Response(JSON.stringify({ count: feedItems.length, news: feedItems }, null, 2), {
     headers: {

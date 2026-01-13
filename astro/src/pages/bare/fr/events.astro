@@ -13,15 +13,19 @@ const allEvents = await getCollection('events', (entry) => {
   const subsites = entry.data.subsites || [];
   // Filter for FR subsite
   return (
-    (subsites.includes('fr') || subsites.includes('all') || subsites.includes('all-fr') || subsites.includes('global') || subsites.length === 0) &&
+    (subsites.includes('fr') ||
+      subsites.includes('all') ||
+      subsites.includes('all-fr') ||
+      subsites.includes('global') ||
+      subsites.length === 0) &&
     !entry.data.draft
   );
 });
 
 // Split into upcoming and past
 const upcomingEvents = allEvents
-  .filter(e => {
-    const endDate = e.data.date_end ? new Date(e.data.date_end) : (e.data.date ? new Date(e.data.date) : null);
+  .filter((e) => {
+    const endDate = e.data.date_end ? new Date(e.data.date_end) : e.data.date ? new Date(e.data.date) : null;
     return endDate && endDate >= now;
   })
   .sort((a, b) => {
@@ -32,8 +36,8 @@ const upcomingEvents = allEvents
   .slice(0, 20);
 
 const pastEvents = allEvents
-  .filter(e => {
-    const endDate = e.data.date_end ? new Date(e.data.date_end) : (e.data.date ? new Date(e.data.date) : null);
+  .filter((e) => {
+    const endDate = e.data.date_end ? new Date(e.data.date_end) : e.data.date ? new Date(e.data.date) : null;
     return endDate && endDate < now;
   })
   .sort((a, b) => {
@@ -61,45 +65,59 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
 <BareArticleLayout title="Galaxy France Events">
   <h2>Galaxy France Events</h2>
 
-  {upcomingEvents.length > 0 && (
-    <section>
-      <h3>Upcoming Events</h3>
-      <ul class="events-list">
-        {upcomingEvents.map(event => {
-          const slug = (event.data.slug || event.id).replace(/\.mdx?$/, '').replace(/--/g, '/').replace(/^events\//, '');
-          return (
-            <li>
-              <a href={`/events/${slug}/`}>{event.data.title}</a>
-              <span class="date">{formatDateRange(event.data.date, event.data.date_end)}</span>
-              {event.data.location && (
-                <span class="location">{typeof event.data.location === 'string' ? event.data.location : event.data.location.name}</span>
-              )}
-            </li>
-          );
-        })}
-      </ul>
-    </section>
-  )}
+  {
+    upcomingEvents.length > 0 && (
+      <section>
+        <h3>Upcoming Events</h3>
+        <ul class="events-list">
+          {upcomingEvents.map((event) => {
+            const slug = (event.data.slug || event.id)
+              .replace(/\.mdx?$/, '')
+              .replace(/--/g, '/')
+              .replace(/^events\//, '');
+            return (
+              <li>
+                <a href={`/events/${slug}/`}>{event.data.title}</a>
+                <span class="date">{formatDateRange(event.data.date, event.data.date_end)}</span>
+                {event.data.location && (
+                  <span class="location">
+                    {typeof event.data.location === 'string' ? event.data.location : event.data.location.name}
+                  </span>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
 
-  {pastEvents.length > 0 && (
-    <section>
-      <h3>Recent Events</h3>
-      <ul class="events-list">
-        {pastEvents.map(event => {
-          const slug = (event.data.slug || event.id).replace(/\.mdx?$/, '').replace(/--/g, '/').replace(/^events\//, '');
-          return (
-            <li>
-              <a href={`/events/${slug}/`}>{event.data.title}</a>
-              <span class="date">{formatDateRange(event.data.date, event.data.date_end)}</span>
-              {event.data.location && (
-                <span class="location">{typeof event.data.location === 'string' ? event.data.location : event.data.location.name}</span>
-              )}
-            </li>
-          );
-        })}
-      </ul>
-    </section>
-  )}
+  {
+    pastEvents.length > 0 && (
+      <section>
+        <h3>Recent Events</h3>
+        <ul class="events-list">
+          {pastEvents.map((event) => {
+            const slug = (event.data.slug || event.id)
+              .replace(/\.mdx?$/, '')
+              .replace(/--/g, '/')
+              .replace(/^events\//, '');
+            return (
+              <li>
+                <a href={`/events/${slug}/`}>{event.data.title}</a>
+                <span class="date">{formatDateRange(event.data.date, event.data.date_end)}</span>
+                {event.data.location && (
+                  <span class="location">
+                    {typeof event.data.location === 'string' ? event.data.location : event.data.location.name}
+                  </span>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
 
   <style>
     .events-list {
@@ -114,7 +132,7 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
     }
 
     .events-list a {
-      color: #25537B;
+      color: #25537b;
       font-weight: 500;
       text-decoration: none;
       display: block;
@@ -137,8 +155,8 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
     }
 
     h3 {
-      color: #2C3143;
-      border-bottom: 2px solid #25537B;
+      color: #2c3143;
+      border-bottom: 2px solid #25537b;
       padding-bottom: 0.5rem;
     }
 

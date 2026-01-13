@@ -22,12 +22,14 @@ if (insert) {
 }
 ---
 
-{InsertContent ? (
-  <div class="insert" data-name={name}>
-    <InsertContent />
-  </div>
-) : (
-  <div class="insert insert-missing text-amber-600 bg-amber-50 p-2 rounded border border-amber-200" data-name={name}>
-    <em>Insert not found: {name}</em>
-  </div>
-)}
+{
+  InsertContent ? (
+    <div class="insert" data-name={name}>
+      <InsertContent />
+    </div>
+  ) : (
+    <div class="insert insert-missing text-amber-600 bg-amber-50 p-2 rounded border border-amber-200" data-name={name}>
+      <em>Insert not found: {name}</em>
+    </div>
+  )
+}

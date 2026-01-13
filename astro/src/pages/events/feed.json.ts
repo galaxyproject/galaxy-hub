@@ -22,7 +22,7 @@ function generateShortId(str: string): string {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
     const char = str.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
+    hash = (hash << 5) - hash + char;
     hash = hash & hash;
   }
   return Math.abs(hash).toString(16).slice(0, 8);
@@ -30,8 +30,17 @@ function generateShortId(str: string): string {
 
 // Expand "all" subsite to full list of regional subsites
 const ALL_SUBSITES = [
-  'freiburg', 'pasteur', 'belgium', 'ifb', 'genouest',
-  'erasmusmc', 'elixir-it', 'au', 'eu', 'us', 'global'
+  'freiburg',
+  'pasteur',
+  'belgium',
+  'ifb',
+  'genouest',
+  'erasmusmc',
+  'elixir-it',
+  'au',
+  'eu',
+  'us',
+  'global',
 ];
 
 function expandSubsites(subsites: string[]): string[] {
@@ -54,14 +63,14 @@ export async function GET(context: APIContext) {
   // Filter events within days_ago limit and transform
   const feedItems = await Promise.all(
     events
-      .filter(event => {
+      .filter((event) => {
         if (!event.data.date) return false;
         const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date);
         const daysAgo = getDaysAgo(date);
         // Include events from recent past and future (negative days_ago)
         return daysAgo < JSONFEED_DAYS_AGO_LIMIT;
       })
-      .map(async event => {
+      .map(async (event) => {
         const data = event.data;
         const date = data.date instanceof Date ? data.date : new Date(data.date || 0);
         const daysAgo = getDaysAgo(date);
