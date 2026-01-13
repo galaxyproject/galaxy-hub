@@ -19,12 +19,14 @@ const eventData = events.map(e => ({
 ---
 
 <BaseLayout title="Events" description="Galaxy Project events, workshops, and conferences">
-  <div class="max-w-4xl mx-auto">
-    <header class="mb-8">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2">Events</h1>
+  <div class="max-w-5xl mx-auto bg-white">
+    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">Events</h1>
       <p class="text-lg text-gray-600">Workshops, conferences, and community gatherings</p>
     </header>
 
-    <EventsList client:load events={eventData} />
+    <div class="px-6 sm:px-8 py-6">
+      <EventsList client:load events={eventData} />
+    </div>
   </div>
 </BaseLayout>

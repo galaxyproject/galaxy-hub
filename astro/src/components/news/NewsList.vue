@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
 
@@ -19,12 +19,25 @@ const props = defineProps<{
 
 const $subsite = useStore(currentSubsite);
 
+// Pagination
+const pageSize = 50;
+const displayCount = ref(pageSize);
+
 // Set initial subsite from URL route if provided
 onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
 });
+
+// Reset pagination when subsite changes
+watch($subsite, () => {
+  displayCount.value = pageSize;
+});
+
+function loadMore() {
+  displayCount.value += pageSize;
+}
 
 // Helper to normalize subsites to array
 function getSubsites(article: NewsArticle): string[] {
@@ -90,7 +103,7 @@ function buildUrl(slug: string): string {
     <!-- Articles -->
     <div class="space-y-8">
       <article
-        v-for="article in filteredArticles.slice(0, 50)"
+        v-for="article in filteredArticles.slice(0, displayCount)"
         :key="article.slug"
         class="border-b border-gray-200 pb-8"
       >
@@ -117,9 +130,15 @@ function buildUrl(slug: string): string {
       </article>
     </div>
 
-    <!-- More indicator -->
-    <div v-if="filteredArticles.length > 50" class="mt-8 text-center">
-      <p class="text-gray-500">Showing 50 of {{ filteredArticles.length }} articles</p>
+    <!-- Load more -->
+    <div v-if="filteredArticles.length > displayCount" class="mt-8 text-center">
+      <p class="text-gray-500 mb-4">Showing {{ displayCount }} of {{ filteredArticles.length }} articles</p>
+      <button
+        @click="loadMore"
+        class="px-6 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
+      >
+        Load more
+      </button>
     </div>
 
     <!-- No results -->

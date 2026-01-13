@@ -9,6 +9,10 @@ interface Props {
   tags?: string[];
   toc?: boolean;
   image?: string;
+  backLink?: {
+    href: string;
+    label: string;
+  };
 }
 
 const {
@@ -19,6 +23,7 @@ const {
   tags: tagsRaw = [],
   toc = false,
   image,
+  backLink,
 } = Astro.props;
 
 // Ensure arrays are never null
@@ -128,6 +133,16 @@ function toISOString(d: Date | string | undefined): string {
         </div>
       )}
 
+      {backLink && (
+        <div class={`pt-4 ${tags.length === 0 ? 'border-t border-gray-200' : ''}`}>
+          <a href={backLink.href} class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            {backLink.label}
+          </a>
+        </div>
+      )}
     </footer>
   </article>
 </BaseLayout>

@@ -23,12 +23,25 @@ const props = defineProps<{
 
 const $subsite = useStore(currentSubsite);
 
+// Pagination for past events
+const pageSize = 50;
+const pastDisplayCount = ref(pageSize);
+
 // Set initial subsite from URL route if provided
 onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
 });
+
+// Reset pagination when subsite changes
+watch($subsite, () => {
+  pastDisplayCount.value = pageSize;
+});
+
+function loadMorePast() {
+  pastDisplayCount.value += pageSize;
+}
 
 // Helper to normalize subsites to array
 function getSubsites(event: EventData): string[] {
@@ -88,8 +101,7 @@ const pastEvents = computed(() => {
       const dateA = toDate(a.date)?.getTime() || 0;
       const dateB = toDate(b.date)?.getTime() || 0;
       return dateB - dateA;
-    })
-    .slice(0, 50);
+    });
 });
 
 function formatDate(date: string | undefined): string {
@@ -187,7 +199,7 @@ function buildUrl(slug: string): string {
       </h2>
       <div class="space-y-4">
         <article
-          v-for="event in pastEvents"
+          v-for="event in pastEvents.slice(0, pastDisplayCount)"
           :key="event.slug"
           class="border-b border-gray-200 pb-4"
         >
@@ -203,9 +215,15 @@ function buildUrl(slug: string): string {
           </a>
         </article>
       </div>
-      <p v-if="pastEvents.length >= 50" class="mt-4 text-gray-500 text-sm">
-        Showing first 50 past events
-      </p>
+      <div v-if="pastEvents.length > pastDisplayCount" class="mt-6 text-center">
+        <p class="text-gray-500 text-sm mb-3">Showing {{ pastDisplayCount }} of {{ pastEvents.length }} past events</p>
+        <button
+          @click="loadMorePast"
+          class="px-6 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
+        >
+          Load more
+        </button>
+      </div>
     </section>
   </div>
 </template>

@@ -81,10 +81,10 @@ function toISOString(d: Date | string | undefined): string {
 ---
 
 <BaseLayout title={title || 'Event'} description={tease}>
-  <article class="max-w-4xl mx-auto">
+  <article class="max-w-5xl mx-auto bg-white">
     <!-- Event Header -->
-    <header class="mb-8 pb-8 border-b border-gray-200">
-      <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{title}</h1>
+    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-4">{title}</h1>
 
       {tease && (
         <p class="text-xl text-gray-600 mb-6">{tease}</p>
@@ -163,14 +163,14 @@ function toISOString(d: Date | string | undefined): string {
     </header>
 
     <!-- Event Content -->
-    <div class="prose prose-lg prose-galaxy max-w-none">
+    <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
       <Content components={components} />
     </div>
 
     <!-- Event Footer -->
-    <footer class="mt-12 pt-8 border-t border-gray-200">
-      <div class="flex justify-between items-center">
-        <a href="/events/" class="text-galaxy-primary hover:underline flex items-center gap-1">
+    <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
+      <div class="flex justify-between items-center pt-4 border-t border-gray-200">
+        <a href="/events/" class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
