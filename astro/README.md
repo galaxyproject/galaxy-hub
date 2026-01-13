@@ -1,43 +1,76 @@
-# Astro Starter Kit: Minimal
+# Galaxy Community Hub - Astro Migration
 
-```sh
-npm create astro@latest -- --template minimal
+This is the Astro-based implementation of the Galaxy Community Hub, migrating from the existing Gridsome setup.
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server (http://localhost:4321)
+npm run dev
+
+# Full dev with preprocessing and search index
+npm run dev:fresh
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Building
 
-## 🚀 Project Structure
+```bash
+# Build for production
+npm run build
 
-Inside of your Astro project, you'll see the following folders and files:
+# Preview production build
+npm run preview
+```
 
-```text
-/
-├── public/
+## Code Quality
+
+```bash
+# Run ESLint
+npm run lint
+
+# Fix auto-fixable lint issues
+npm run lint:fix
+
+# Check formatting
+npm run format:check
+
+# Fix formatting
+npm run format
+```
+
+## Testing
+
+```bash
+# Run Playwright tests
+npm run test
+
+# Run tests with UI
+npm run test:ui
+
+# Run unit tests
+npm run test:unit
+```
+
+## Project Structure
+
+```
+astro/
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/     # Vue and Astro components
+│   ├── layouts/        # Page layouts (Article, Home, Platform, etc.)
+│   ├── pages/          # File-based routing
+│   ├── styles/         # Global CSS
+│   └── content.config.ts
+├── public/             # Static assets
+└── content/            # Symlinked from parent (news, events, etc.)
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Notes
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- This is a parallel development effort - the existing Gridsome site remains unchanged
+- Content is shared with the parent directory via symlinks
+- Uses Tailwind CSS with Galaxy brand colors
+- Vue 3 components for interactive elements
