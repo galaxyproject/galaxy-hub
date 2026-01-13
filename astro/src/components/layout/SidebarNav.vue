@@ -83,11 +83,11 @@ const bottomLinks: NavItem[] = [
 // Track which sections are open
 const openSections = ref<Set<string>>(new Set(['Use Galaxy', 'Community']));
 
-function toggleSection(title: string) {
-  if (openSections.value.has(title)) {
-    openSections.value.delete(title);
-  } else {
+function setSection(title: string, open: boolean) {
+  if (open) {
     openSections.value.add(title);
+  } else {
+    openSections.value.delete(title);
   }
   // Trigger reactivity
   openSections.value = new Set(openSections.value);
@@ -134,7 +134,7 @@ function buildHref(href: string, external?: boolean): string {
 
     <!-- Collapsible sections -->
     <div v-for="section in navSections" :key="section.title">
-      <Collapsible :open="isOpen(section.title)" @update:open="toggleSection(section.title)">
+      <Collapsible :open="isOpen(section.title)" @update:open="(open) => setSection(section.title, open)">
         <CollapsibleTrigger
           class="flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
         >
