@@ -23,7 +23,8 @@ const props = defineProps<{
 
 const $subsite = useStore(currentSubsite);
 
-// Pagination for past events
+// Year-based navigation for past events
+const selectedPastYear = ref<number | null>(null);
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
 
@@ -34,13 +35,15 @@ onMounted(() => {
   }
 });
 
-// Reset pagination when subsite changes
-watch($subsite, () => {
-  pastDisplayCount.value = pageSize;
-});
-
 function loadMorePast() {
   pastDisplayCount.value += pageSize;
+}
+
+// Get year from event
+function getYear(event: EventData): number | null {
+  if (!event.date) return null;
+  const date = new Date(event.date);
+  return isNaN(date.getTime()) ? null : date.getFullYear();
 }
 
 // Helper to normalize subsites to array
@@ -90,7 +93,8 @@ const upcomingEvents = computed(() => {
     });
 });
 
-const pastEvents = computed(() => {
+// All past events (before year filtering)
+const allPastEvents = computed(() => {
   return filteredEvents.value
     .filter(event => {
       const eventDate = toDate(event.date);
@@ -103,6 +107,45 @@ const pastEvents = computed(() => {
       return dateB - dateA;
     });
 });
+
+// Available years for past events (sorted descending)
+const availablePastYears = computed(() => {
+  const years = new Set<number>();
+  allPastEvents.value.forEach(event => {
+    const year = getYear(event);
+    if (year) years.add(year);
+  });
+  return Array.from(years).sort((a, b) => b - a);
+});
+
+// Set default year to most recent when available years change
+watch(availablePastYears, (years) => {
+  if (years.length > 0 && (selectedPastYear.value === null || !years.includes(selectedPastYear.value))) {
+    selectedPastYear.value = years[0];
+  }
+}, { immediate: true });
+
+// Reset pagination when year or subsite changes
+watch([selectedPastYear, $subsite], () => {
+  pastDisplayCount.value = pageSize;
+});
+
+// Past events filtered by selected year
+const pastEvents = computed(() => {
+  if (selectedPastYear.value === null) {
+    return allPastEvents.value;
+  }
+  return allPastEvents.value.filter(event => getYear(event) === selectedPastYear.value);
+});
+
+// Count per year for badges
+function countPastForYear(year: number): number {
+  return allPastEvents.value.filter(event => getYear(event) === year).length;
+}
+
+function selectPastYear(year: number) {
+  selectedPastYear.value = year;
+}
 
 function formatDate(date: string | undefined): string {
   if (!date) return '';
@@ -193,10 +236,36 @@ function buildUrl(slug: string): string {
 
     <!-- Past Events -->
     <section>
-      <h2 class="text-2xl font-semibold text-gray-900 mb-6">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">
         Past Events
-        <span class="text-sm font-normal text-gray-500">({{ pastEvents.length }})</span>
+        <span class="text-sm font-normal text-gray-500">({{ allPastEvents.length }} total)</span>
       </h2>
+
+      <!-- Year navigation for past events -->
+      <div class="mb-6">
+        <div class="flex flex-wrap gap-2">
+          <button
+            v-for="year in availablePastYears"
+            :key="year"
+            @click="selectPastYear(year)"
+            :class="[
+              'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
+              selectedPastYear === year
+                ? 'bg-galaxy-primary text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            ]"
+          >
+            {{ year }}
+            <span class="ml-1 text-xs opacity-75">({{ countPastForYear(year) }})</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="text-sm text-gray-500 mb-4">
+        {{ pastEvents.length }} event{{ pastEvents.length !== 1 ? 's' : '' }}
+        <span v-if="selectedPastYear"> in {{ selectedPastYear }}</span>
+      </p>
+
       <div class="space-y-4">
         <article
           v-for="event in pastEvents.slice(0, pastDisplayCount)"
@@ -216,7 +285,7 @@ function buildUrl(slug: string): string {
         </article>
       </div>
       <div v-if="pastEvents.length > pastDisplayCount" class="mt-6 text-center">
-        <p class="text-gray-500 text-sm mb-3">Showing {{ pastDisplayCount }} of {{ pastEvents.length }} past events</p>
+        <p class="text-gray-500 text-sm mb-3">Showing {{ pastDisplayCount }} of {{ pastEvents.length }} events in {{ selectedPastYear }}</p>
         <button
           @click="loadMorePast"
           class="px-6 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
