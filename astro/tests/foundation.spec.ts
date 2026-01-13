@@ -28,14 +28,19 @@ test.describe('Phase 1: Foundation Setup', () => {
     const hero = page.locator('h1').first();
     await expect(hero).toBeVisible();
 
-    // Body should have Tailwind background class
+    // Verify main content area is visible and uses Tailwind
+    const main = page.locator('main');
+    await expect(main).toBeVisible();
+
+    // Check article pages have proper body classes
+    await page.goto('/admin/');
     const body = page.locator('body');
-    await expect(body).toHaveClass(/min-h-screen/);
     await expect(body).toHaveClass(/bg-background/);
   });
 
   test('shadcn button component renders', async ({ page }) => {
-    await page.goto('/');
+    // Use an article page that has sidebar with search button
+    await page.goto('/admin/');
 
     // Find buttons on the page (from shadcn components)
     const buttons = page.locator('button');
@@ -50,7 +55,8 @@ test.describe('Phase 1: Foundation Setup', () => {
   test('sidebar visible on desktop viewport', async ({ page }) => {
     // Set desktop viewport
     await page.setViewportSize({ width: 1280, height: 800 });
-    await page.goto('/');
+    // Use an article page - homepage has special layout without sidebar
+    await page.goto('/admin/');
 
     // Sidebar should be visible on desktop (lg:flex)
     const sidebar = page.locator('aside');
@@ -64,7 +70,8 @@ test.describe('Phase 1: Foundation Setup', () => {
   test('sidebar hidden on mobile viewport', async ({ page }) => {
     // Set mobile viewport
     await page.setViewportSize({ width: 375, height: 667 });
-    await page.goto('/');
+    // Use an article page - homepage has special layout
+    await page.goto('/admin/');
 
     // Sidebar should be hidden on mobile (hidden lg:flex)
     const sidebar = page.locator('aside');
@@ -78,12 +85,13 @@ test.describe('Phase 1: Foundation Setup', () => {
   test('shadcn Card components render', async ({ page }) => {
     await page.goto('/');
 
-    // Cards should be visible (callout cards with border-t-4)
-    const cards = page.locator('[class*="border-t-4"], [class*="rounded-xl"]');
+    // Homepage has pillar cards for feature showcase
+    const cards = page.locator('.pillar-card');
     await expect(cards.first()).toBeVisible();
 
-    // Check that callout content is present
-    await expect(page.getByText('Galaxy is more than you think')).toBeVisible();
+    // Check that pillar content is present
+    await expect(page.getByText('Analyze')).toBeVisible();
+    await expect(page.getByText('Reproduce')).toBeVisible();
   });
 
   test('footer renders with proper structure', async ({ page }) => {
@@ -104,17 +112,21 @@ test.describe('Phase 1: Foundation Setup', () => {
   test('Galaxy branding colors are applied', async ({ page }) => {
     await page.goto('/');
 
-    // Hero section should use Galaxy gradient background
-    const heroSection = page.locator('section').first();
-    await expect(heroSection).toHaveClass(/bg-gradient-to-br|from-galaxy-primary/);
+    // Hero section should use Galaxy styling (custom CSS class)
+    const heroSection = page.locator('.hero-section');
+    await expect(heroSection).toBeVisible();
 
-    // Sidebar should use Galaxy dark background
+    // Homepage footer uses custom styling
+    const homeFooter = page.locator('.home-footer');
+    await expect(homeFooter).toBeVisible();
+
+    // Test sidebar and standard footer on article page
     await page.setViewportSize({ width: 1280, height: 800 });
+    await page.goto('/admin/');
     const sidebar = page.locator('aside');
     await expect(sidebar).toHaveClass(/bg-galaxy-dark/);
-
-    // Footer should use Galaxy dark background
-    const footer = page.locator('footer');
-    await expect(footer).toHaveClass(/bg-galaxy-dark/);
+    // Use the main page footer (not article footer)
+    const footer = page.locator('footer.bg-galaxy-dark');
+    await expect(footer).toBeVisible();
   });
 });

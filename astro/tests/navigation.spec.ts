@@ -8,7 +8,8 @@ test.describe('Navigation', () => {
     });
 
     test('sidebar has main navigation links', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout without sidebar
+      await page.goto('/admin/');
 
       const sidebar = page.locator('aside');
       await expect(sidebar).toBeVisible();
@@ -25,7 +26,8 @@ test.describe('Navigation', () => {
     });
 
     test('events link navigates correctly', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout
+      await page.goto('/admin/');
 
       const eventsLink = page.locator('aside a[href="/events/"], aside a[href="/events"]');
       if (await eventsLink.first().isVisible()) {
@@ -35,7 +37,8 @@ test.describe('Navigation', () => {
     });
 
     test('news link navigates correctly', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout
+      await page.goto('/admin/');
 
       const newsLink = page.locator('aside a[href="/news/"], aside a[href="/news"]');
       if (await newsLink.first().isVisible()) {
@@ -45,7 +48,8 @@ test.describe('Navigation', () => {
     });
 
     test('use link navigates correctly', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout
+      await page.goto('/admin/');
 
       const useLink = page.locator('aside a[href="/use/"], aside a[href="/use"]');
       if (await useLink.first().isVisible()) {
@@ -62,14 +66,16 @@ test.describe('Navigation', () => {
     });
 
     test('mobile menu button is visible', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout
+      await page.goto('/admin/');
 
       const menuButton = page.locator('button[aria-label="Open menu"]');
       await expect(menuButton).toBeVisible();
     });
 
     test('mobile menu opens on click', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout
+      await page.goto('/admin/');
 
       const menuButton = page.locator('button[aria-label="Open menu"]');
       await menuButton.click();
@@ -84,7 +90,8 @@ test.describe('Navigation', () => {
     });
 
     test('mobile menu has navigation links', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout
+      await page.goto('/admin/');
 
       const menuButton = page.locator('button[aria-label="Open menu"]');
       await menuButton.click();
@@ -175,14 +182,16 @@ test.describe('Navigation', () => {
     });
 
     test('sidebar has search input', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout without sidebar
+      await page.goto('/admin/');
 
       const searchInput = page.locator('aside input[type="search"]');
       await expect(searchInput).toBeVisible();
     });
 
     test('search form submits', async ({ page }) => {
-      await page.goto('/');
+      // Use article page - homepage has special layout without sidebar
+      await page.goto('/admin/');
 
       const searchInput = page.locator('aside input[type="search"]');
       await searchInput.fill('galaxy');

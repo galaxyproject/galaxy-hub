@@ -47,8 +47,8 @@ test.describe('Content Rendering', () => {
       const eventLink = page.locator('a[href*="/events/gcc"]').first();
       if (await eventLink.isVisible({ timeout: 2000 }).catch(() => false)) {
         await eventLink.click();
-        // Page should load without errors
-        await expect(page.locator('h1')).toBeVisible({ timeout: 15000 });
+        // Page should load without errors (use first h1 since pages may have multiple)
+        await expect(page.locator('h1').first()).toBeVisible({ timeout: 15000 });
       }
     });
 
@@ -132,18 +132,18 @@ test.describe('Content Rendering', () => {
     test('headings are styled correctly', async ({ page }) => {
       await page.goto('/admin/');
 
-      // h1 should be larger than h2
+      // Check h1 and h2 are visible and have appropriate styling
       const h1 = page.locator('h1').first();
       const h2 = page.locator('h2').first();
 
-      if (await h1.isVisible() && await h2.isVisible()) {
-        const h1Box = await h1.boundingBox();
-        const h2Box = await h2.boundingBox();
+      if ((await h1.isVisible()) && (await h2.isVisible())) {
+        // Compare computed font sizes instead of element heights
+        // (heights can vary based on content length)
+        const h1FontSize = await h1.evaluate((el) => parseFloat(getComputedStyle(el).fontSize));
+        const h2FontSize = await h2.evaluate((el) => parseFloat(getComputedStyle(el).fontSize));
 
-        if (h1Box && h2Box) {
-          // h1 should be taller (larger font)
-          expect(h1Box.height).toBeGreaterThanOrEqual(h2Box.height);
-        }
+        // h1 should have larger or equal font size
+        expect(h1FontSize).toBeGreaterThanOrEqual(h2FontSize);
       }
     });
 
