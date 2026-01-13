@@ -154,10 +154,30 @@ body {
   }
 }
 
+/* Subtle grid background pattern (like workflow editor mesh) */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(37, 83, 123, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(37, 83, 123, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
 /* Galaxy-branded prose styles */
 .prose {
   --tw-prose-links: #25537B;
-  --tw-prose-headings: #1f2937;
+  --tw-prose-headings: #2C3143;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: var(--tw-prose-headings);
+}
+
+.prose h2 {
+  border-bottom: 2px solid #ffd70033;
+  padding-bottom: 0.5rem;
 }
 
 .prose a {
@@ -166,6 +186,7 @@ body {
 }
 
 .prose a:hover {
+  color: #ffd700;
   text-decoration: underline;
 }
 
@@ -201,15 +222,19 @@ body {
 }
 
 .prose th {
-  background-color: #f9fafb;
+  background-color: #25537B;
+  color: white;
   font-weight: 600;
 }
 
 .prose blockquote {
-  border-left: 4px solid #25537B;
+  border-left: 4px solid #ffd700;
   padding-left: 1rem;
   color: #4b5563;
   font-style: italic;
+  background-color: #ffd70008;
+  padding: 1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 
 /* Linkbox styling (used in many articles) */

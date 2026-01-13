@@ -25,6 +25,10 @@ const {
 const authors = authorsRaw || [];
 const tags = tagsRaw || [];
 
+// Check if we have meaningful metadata to show in header
+// Skip header if title is a fallback value and no other metadata
+const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length > 0 || tags.length > 0 || description;
+
 // Helper to ensure date is a Date object
 function toDate(d: Date | string | undefined): Date | null {
   if (!d) return null;
@@ -49,71 +53,73 @@ function toISOString(d: Date | string | undefined): string {
 ---
 
 <BaseLayout title={title} description={description}>
-  <article class="max-w-5xl mx-auto">
-    <!-- Article Header -->
-    <header class="mb-8 pb-8 border-b border-gray-200">
-      <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{title}</h1>
+  <article class="max-w-5xl mx-auto bg-white">
+    <!-- Article Header - only show if we have metadata -->
+    {hasMetadata && (
+      <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+        <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-6">{title}</h1>
 
-      {description && (
-        <p class="text-xl text-gray-600 mb-4">{description}</p>
-      )}
-
-      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
-        {date && (
-          <time datetime={toISOString(date)}>
-            {formatDate(date)}
-          </time>
+        {description && (
+          <p class="text-lg text-gray-600 mb-4">{description}</p>
         )}
 
-        {authors.length > 0 && (
-          <div class="flex items-center gap-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-            </svg>
-            <span>{authors.join(', ')}</span>
+        <div class="flex flex-wrap items-center gap-4 text-sm text-galaxy-primary/80">
+          {date && (
+            <time datetime={toISOString(date)} class="font-medium">
+              {formatDate(date)}
+            </time>
+          )}
+
+          {authors.length > 0 && (
+            <div class="flex items-center gap-1.5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+              <span>{authors.join(', ')}</span>
+            </div>
+          )}
+        </div>
+
+        {tags.length > 0 && (
+          <div class="flex flex-wrap gap-2 mt-4">
+            {tags.map((tag) => (
+              <a
+                href={`/tags/${tag.toLowerCase()}/`}
+                class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-galaxy-primary/25 text-galaxy-dark hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
+              >
+                {tag}
+              </a>
+            ))}
           </div>
         )}
-      </div>
-
-      {tags.length > 0 && (
-        <div class="flex flex-wrap gap-2 mt-4">
-          {tags.map((tag) => (
-            <a
-              href={`/tags/${tag.toLowerCase()}/`}
-              class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary hover:bg-galaxy-primary/20 transition-colors"
-            >
-              {tag}
-            </a>
-          ))}
-        </div>
-      )}
-    </header>
+      </header>
+    )}
 
     {image && (
-      <figure class="mb-8 -mx-4 sm:mx-0">
+      <figure class="px-6 sm:px-8 pb-6">
         <img
           src={image}
           alt={title}
-          class="w-full rounded-lg shadow-lg"
+          class="w-full"
         />
       </figure>
     )}
 
     <!-- Article Content -->
-    <div class="prose prose-lg prose-galaxy max-w-none">
+    <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
       <slot />
     </div>
 
-    <!-- Article Footer -->
-    <footer class="mt-12 pt-8 border-t border-gray-200">
+    <!-- Footer -->
+    <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
       {tags.length > 0 && (
-        <div class="mb-6">
-          <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">Tags</h3>
+        <div class="mb-5 pt-6 border-t border-gray-200">
+          <h3 class="text-sm font-semibold text-galaxy-dark uppercase tracking-wide mb-3">Tags</h3>
           <div class="flex flex-wrap gap-2">
             {tags.map((tag) => (
               <a
                 href={`/tags/${tag.toLowerCase()}/`}
-                class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors"
+                class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-galaxy-primary/25 text-galaxy-dark hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
               >
                 #{tag}
               </a>
