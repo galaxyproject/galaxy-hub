@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite } from '@/stores/subsiteStore';
 import {
@@ -81,7 +81,21 @@ const bottomLinks: NavItem[] = [
 ];
 
 // Track which sections are open
-const openSections = ref<Set<string>>(new Set(['Use Galaxy', 'Community']));
+const openSections = ref<Set<string>>(new Set());
+
+// On mount, open the section containing the current page
+onMounted(() => {
+  const currentPath = window.location.pathname;
+  for (const section of navSections) {
+    for (const item of section.items) {
+      // Check if current path starts with this item's href (for nested pages)
+      if (currentPath.startsWith(item.href) || currentPath === item.href) {
+        openSections.value.add(section.title);
+        break;
+      }
+    }
+  }
+});
 
 function setSection(title: string, open: boolean) {
   if (open) {
