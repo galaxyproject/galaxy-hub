@@ -58,7 +58,7 @@ function toISOString(d: Date | string | undefined): string {
 ---
 
 <BaseLayout title={title} description={description}>
-  <article class="max-w-6xl mx-auto bg-white">
+  <article class="max-w-6xl mx-auto bg-white relative article-with-corner">
     <!-- Article Header - only show if we have metadata -->
     {hasMetadata && (
       <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
@@ -173,5 +173,23 @@ function toISOString(d: Date | string | undefined): string {
   .prose-galaxy :where(pre):not(:where([class~="not-prose"] *)) {
     background-color: #1f2937;
     border-radius: 0.5rem;
+  }
+
+  /* Folded corner accent - three diagonal lines */
+  .article-with-corner::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 6px,
+      #ffd700 6px,
+      #ffd700 8px
+    );
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
   }
 </style>
