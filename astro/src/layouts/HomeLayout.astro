@@ -34,6 +34,9 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
+    <!-- Hover trigger zone at top of page -->
+    <div id="masthead-trigger" class="masthead-trigger"></div>
+
     <!-- Scroll-triggered Masthead -->
     <header id="masthead" class="masthead">
       <div class="masthead-inner">
@@ -170,6 +173,16 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
           'Segoe UI',
           Roboto,
           sans-serif;
+      }
+
+      /* Hover trigger zone at top of page */
+      .masthead-trigger {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 20px;
+        z-index: 999;
       }
 
       /* Masthead - hidden by default, slides down on scroll */
@@ -453,15 +466,28 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     <script>
       // Scroll-triggered masthead
       const masthead = document.getElementById('masthead');
+      const mastheadTrigger = document.getElementById('masthead-trigger');
       const heroHeight = window.innerHeight * 0.15; // Show after scrolling 15% of viewport
+      let isHovering = false;
 
       function updateMasthead() {
-        if (window.scrollY > heroHeight) {
+        if (window.scrollY > heroHeight || isHovering) {
           masthead?.classList.add('visible');
         } else {
           masthead?.classList.remove('visible');
         }
       }
+
+      // Hover trigger for masthead
+      mastheadTrigger?.addEventListener('mouseenter', () => {
+        isHovering = true;
+        updateMasthead();
+      });
+
+      masthead?.addEventListener('mouseleave', () => {
+        isHovering = false;
+        updateMasthead();
+      });
 
       // Throttle scroll events for performance
       let ticking = false;
