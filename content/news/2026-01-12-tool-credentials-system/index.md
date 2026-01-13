@@ -19,7 +19,7 @@ Many powerful scientific tools need to connect to external APIs and services:
 - **Database tools** require authentication to query remote databases
 - **Specialized services** might need tokens or passwords for proprietary APIs
 
-Previously, handling these credentials was complicated and often insecure. Users had to manually configure preferences in obscure settings, and sensitive information like API keys could end up stored in plain text or scattered across multiple configuration files.
+Previously, handling these credentials required users to manually configure preferences through the user preferences system, which was less intuitive and required administrator setup. The new system provides a more streamlined, integrated experience with enhanced security features.
 
 # What's New in Galaxy 25.1
 
