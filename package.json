@@ -111,7 +111,8 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "/cypress/"
+      "/cypress/",
+      "/astro/"
     ],
     "transform": {
       "^.+\\.m?js$": "babel-jest"
