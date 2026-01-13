@@ -48,7 +48,8 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and s
 You can upload your files in various ways in the upload section on the left sidebar of the Galaxy website.
 
 - If you have larger amounts of data, check out this tutorial to [Bring Your Own Data](https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html).
-- You can access repositories like the [BERD Data Portal](https://galaxyproject.org/news/2025-04-09-berd-integration/) or Zenodo directly from within Galaxy.
+- You can access repositories like the [BERD Data Portal](https://galaxyproject.org/news/2025-04-09-berd-integration/), Dataverse or Zenodo directly from within Galaxy.
+- You can access HuggingFace directly from within Galaxy - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) to read how.
 
 ### 🛠️ **General tools**
 - Text cleaning tools such as text manipulation, select lines, add lines, search in text files, Line/Word/Character count, etc.
@@ -79,12 +80,12 @@ You can upload your files in various ways in the upload section on the left side
 - Convert image format (including extracting images from a PDF)
 - PDFimages: Extract images from a PDF file
 - Enhance contrast: image pre-processing
-- Convert coordinates to label map: converts a GeoJSON of an image with rectangles to a label image (or binary image) for later cropping
+- Convert coordinates to label map: converts a GeoJSON of an image with rectangles to a label image (or binary image) for later cropping - see this [example workflow](https://galaxyproject.org/news/2026-01-07-hf-integration/) to learn more.
 - Crop image: for cutting images 
 - Image annotator: Annotate your images manually in Galaxy on the left-hand side panel under *Visualisations*.
 - Tiff viewer: View TIFF files in Galaxy on the left-hand side panel under *Visualisations*.
 - Video player: View video files in Galaxy on the left-hand side panel under *Visualisations*.
-- Yolo DocLayout: Document layout analysis
+- Yolo DocLayout: Document layout analysis - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) for an example workflow.
 - LLM Hub: Run LLMs on your images
 - File Format Identification: Check multimedia files for corrupt or duplicated files
     
@@ -93,7 +94,7 @@ You can upload your files in various ways in the upload section on the left side
 - markitdown: Converting documents to markdown format - for easier processing with large language models.
 - Convert image format
 - PDFimages to extract images from PDFs
-- FFmpeg Format Converter: Convert between video and audio formats
+- FFmpeg Format Converter: Convert between video and audio formats 
 
 ### 👩‍💻 **Interactive tools**
 - OpenRefine: data cleaning and enrichment - for example, with the Gemeinsame Normdatei (translated as Integrated Authority File) or GND as explained [here](https://blog.lobid.org/2018/08/27/openrefine.html).
@@ -116,7 +117,7 @@ You can upload your files in various ways in the upload section on the left side
 - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 - TabPFN: Tabular data prediction
 - [Cleanlab](https://galaxyproject.org/news/2025-06-13-cleanlab/): Identifies label issues in Machine Learning datasets
-- Yolo DocLayout: Document layout analysis
+- Yolo DocLayout: Document layout analysis - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) for an example workflow.
 
 ### **Domain-specific tools**
 - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
