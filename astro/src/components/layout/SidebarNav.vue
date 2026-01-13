@@ -8,6 +8,7 @@ import {
   CollapsibleTrigger,
 } from '@/components/ui/collapsible';
 import { ChevronDown } from 'lucide-vue-next';
+import SubsiteSwitcher from './SubsiteSwitcher.vue';
 
 interface NavItem {
   label: string;
@@ -186,6 +187,11 @@ function buildHref(href: string, external?: boolean): string {
           </a>
         </CollapsibleContent>
       </Collapsible>
+    </div>
+
+    <!-- Region Selector -->
+    <div class="pt-4 border-t border-gray-700">
+      <SubsiteSwitcher />
     </div>
 
     <!-- Bottom links (@jxtx Foundation) -->

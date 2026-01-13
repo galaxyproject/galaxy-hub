@@ -92,10 +92,24 @@ const pillars = [
 
 		/* Subtle grid overlay for dark sections */
 		.grid-overlay {
+			position: relative;
+		}
+
+		.grid-overlay::before {
+			content: '';
+			position: absolute;
+			inset: 0;
 			background-image:
-				linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-				linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+				linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+				linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
 			background-size: 24px 24px;
+			pointer-events: none;
+			z-index: 0;
+		}
+
+		.grid-overlay > * {
+			position: relative;
+			z-index: 1;
 		}
 
 		/* Hero Section - Dark theme matching sidebar */

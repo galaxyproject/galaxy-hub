@@ -2,7 +2,6 @@
 // Sidebar navigation for Galaxy Hub
 // Desktop: Fixed left sidebar with Vue-powered navigation
 // Mobile: Hidden (use MobileMenu.vue for mobile)
-import SubsiteSwitcher from './SubsiteSwitcher.vue';
 import SidebarNav from './SidebarNav.vue';
 ---
 
@@ -35,11 +34,6 @@ import SidebarNav from './SidebarNav.vue';
         </button>
       </div>
     </form>
-  </div>
-
-  <!-- Region Switcher (Vue component for reactivity) -->
-  <div class="border-b border-medium-bg py-3">
-    <SubsiteSwitcher client:load />
   </div>
 
   <!-- Navigation (Vue component for collapsible sections) -->
