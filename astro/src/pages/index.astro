@@ -34,6 +34,8 @@ function formatDate(date: Date | string | undefined): string {
 	return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
+const currentYear = new Date().getFullYear();
+
 // Feature pillars
 const pillars = [
 	{
@@ -844,7 +846,7 @@ const pillars = [
 				</div>
 			</div>
 			<div class="footer-bottom">
-				<p>&copy; 2025 Galaxy Project. All rights reserved.</p>
+				<p>&copy; {currentYear} Galaxy Project. All rights reserved.</p>
 			</div>
 		</footer>
 	</div>
