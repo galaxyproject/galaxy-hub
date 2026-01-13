@@ -48,7 +48,6 @@
     "magic-snowflakes": "^6.1.0",
     "markdownlint": "^0.24.0",
     "markdownlint-cli": "^0.29.0",
-    "marked": "^17.0.1",
     "node-watch": "^0.7.1",
     "ol": "^10.7.0",
     "prettier": "^3.5.3",
