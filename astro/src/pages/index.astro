@@ -90,6 +90,14 @@ const pillars = [
 			color: var(--text-primary);
 		}
 
+		/* Subtle grid overlay for dark sections */
+		.grid-overlay {
+			background-image:
+				linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+				linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+			background-size: 24px 24px;
+		}
+
 		/* Hero Section - Dark theme matching sidebar */
 		.hero-section {
 			padding: 4rem 2rem;
@@ -648,7 +656,7 @@ const pillars = [
 
 	<div class="homepage-v2">
 		<!-- Hero Section -->
-		<section class="hero-section">
+		<section class="hero-section grid-overlay">
 			<div class="hero-container">
 				<div class="hero-text">
 					<h1>
@@ -699,7 +707,7 @@ const pillars = [
 		</div>
 
 		<!-- Pillars Section -->
-		<section class="pillars-section">
+		<section class="pillars-section grid-overlay">
 			<div class="pillars-container">
 				<div class="section-header">
 					<h2>Everything you need for computational research</h2>
@@ -795,7 +803,7 @@ const pillars = [
 		</section>
 
 		<!-- CTA Section -->
-		<section class="cta-section">
+		<section class="cta-section grid-overlay">
 			<div class="cta-container">
 				<h2>Ready to get started?</h2>
 				<p>Galaxy is free to use and available at public servers around the world.</p>

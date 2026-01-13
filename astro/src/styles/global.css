@@ -162,6 +162,14 @@ body {
   background-size: 24px 24px;
 }
 
+/* Grid pattern for dark backgrounds */
+.bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
 /* Galaxy-branded prose styles */
 .prose {
   --tw-prose-links: #25537B;
