@@ -8,7 +8,7 @@ import SidebarNav from './SidebarNav.vue';
 <aside class="hidden lg:flex flex-col w-64 bg-galaxy-dark text-white sticky top-0 h-screen overflow-y-auto">
   <!-- Logo Section -->
   <div class="p-4 pr-6 border-b border-medium-bg flex justify-center">
-    <a href="/" class="block">
+    <a href="/" class="sidebar-logo block">
       <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-10 w-auto" />
     </a>
   </div>
@@ -46,7 +46,7 @@ import SidebarNav from './SidebarNav.vue';
     <div class="flex justify-center gap-4">
       <a
         href="https://github.com/galaxyproject"
-        class="text-gray-400 hover:text-galaxy-gold transition-colors"
+        class="social-icon text-gray-400 hover:text-galaxy-gold"
         aria-label="GitHub"
         target="_blank"
         rel="noopener"
@@ -59,7 +59,7 @@ import SidebarNav from './SidebarNav.vue';
       </a>
       <a
         href="https://www.youtube.com/@galaxyproject"
-        class="text-gray-400 hover:text-galaxy-gold transition-colors"
+        class="social-icon text-gray-400 hover:text-galaxy-gold"
         aria-label="YouTube"
         target="_blank"
         rel="noopener"
@@ -72,7 +72,7 @@ import SidebarNav from './SidebarNav.vue';
       </a>
       <a
         href="https://mastodon.social/@galaxyproject"
-        class="text-gray-400 hover:text-galaxy-gold transition-colors"
+        class="social-icon text-gray-400 hover:text-galaxy-gold"
         aria-label="Mastodon"
         target="_blank"
         rel="noopener"
@@ -86,3 +86,27 @@ import SidebarNav from './SidebarNav.vue';
     </div>
   </div>
 </aside>
+
+<style>
+  .sidebar-logo {
+    transition:
+      transform 0.3s ease,
+      filter 0.3s ease;
+  }
+
+  .sidebar-logo:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.4));
+  }
+
+  /* Social icon hover animations */
+  .social-icon {
+    transition:
+      transform 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .social-icon:hover {
+    transform: scale(1.15);
+  }
+</style>
