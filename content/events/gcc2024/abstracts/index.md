@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<Insert name="/events/gcc2024/header" />
+<slot name="/events/gcc2024/header" />
 
 <div class="text-center my-5">
     <a href="https://gcc2024.s3.eu-central-1.amazonaws.com/gcc2024-abstract-book.pdf" type="button" class="btn btn-primary">

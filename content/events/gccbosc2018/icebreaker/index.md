@@ -1,4 +1,4 @@
-<Insert name="/events/gccbosc2018/header" />
+<slot name="/events/gccbosc2018/header" />
 
 # Breaking the Ice @ GCCBOSC 2018
 

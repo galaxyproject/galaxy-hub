@@ -1,4 +1,4 @@
-<Insert name="/events/gccbosc2018/header" />
+<slot name="/events/gccbosc2018/header" />
 
 # GCCBOSC 2018 Organizers
 

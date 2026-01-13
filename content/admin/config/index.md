@@ -2,7 +2,7 @@
 title: Galaxy Configuration for Admins
 ---
 
-<Insert name="/admin/linkbox" />
+<slot name="/admin/linkbox" />
 
 ## Production Galaxy
 

@@ -4,7 +4,7 @@ autotoc: true
 title: "Digital Humanities and Social Sciences in Galaxy"
 ---
 
-<Insert name="/community/sig/common_linkbox" />
+<slot name="/community/sig/common_linkbox" />
 
 Whether you are analysing texts, images, audio data or other media, **Galaxy is here to help**!
 

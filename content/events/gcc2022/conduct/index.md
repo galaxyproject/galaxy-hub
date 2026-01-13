@@ -1,4 +1,4 @@
-<Insert name="/events/gcc2022/header" />
+<slot name="/events/gcc2022/header" />
 
 # Code of Conduct
 

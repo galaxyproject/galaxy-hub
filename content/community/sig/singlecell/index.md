@@ -4,7 +4,7 @@ autotoc: true
 title: "🖖🏾SPOC: Galaxy Single-cell & sPatial Omics Community of practice"
 ---
 
-<Insert name="/community/sig/common_linkbox" />
+<slot name="/community/sig/common_linkbox" />
 
 <img class="img-fluid float-right" src="/community/sig/singlecell/SC-CoP.png" style="width:200px;" alt="Logo for Galaxy single cell community. People in a circle holding hands standing on a swirling UMAP"/>
 

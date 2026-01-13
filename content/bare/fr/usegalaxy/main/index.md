@@ -2,10 +2,10 @@
 title: Galaxy France
 ---
 
-<Insert name="/bare/fr/usegalaxy/notices" />
+<slot name="/bare/fr/usegalaxy/notices" />
 
-<Insert name="/ifb/lead1" />
-<Insert name="/ifb/lead2" />
+<slot name="/ifb/lead1" />
+<slot name="/ifb/lead2" />
 
 <Carousel />
 
@@ -21,12 +21,12 @@ title: Galaxy France
 </iframe>
 
 <p></p>
-<Insert name="/ifb/main1" />
-<Insert name="/ifb/main2" />
-<Insert name="/ifb/main3" />
+<slot name="/ifb/main1" />
+<slot name="/ifb/main2" />
+<slot name="/ifb/main3" />
 
 <p></p>
 
 <footer>
-<Insert name="/ifb/site-footer" />
+<slot name="/ifb/site-footer" />
 </footer>

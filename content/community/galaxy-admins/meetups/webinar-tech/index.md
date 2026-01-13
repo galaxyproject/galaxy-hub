@@ -1,6 +1,6 @@
 <div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-<Insert name="/community/galaxy-admins/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 The [GalaxyAdmins](/community/galaxy-admins/meetups/) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](/community/galaxy-admins/meetups/webinar-tech/).  
 

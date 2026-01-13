@@ -3,7 +3,7 @@ pretitle: "[Back to Advanced Workflow](/learn/advanced-workflow/)"
 title: Workflow Variables
 ---
 
-<Insert name="/learn/linkbox" />
+<slot name="/learn/linkbox" />
 
 ## Where are variables used?
 

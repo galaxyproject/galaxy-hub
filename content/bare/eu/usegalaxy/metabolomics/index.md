@@ -3,7 +3,7 @@ title: Galaxy Europe Metabolomics
 autotoc: true
 ---
 
-<Insert name="/bare/eu/usegalaxy/notices" />
+<slot name="/bare/eu/usegalaxy/notices" />
 
 <h1>
 
@@ -119,11 +119,11 @@ Other metabolomics specialized Galaxy servers:
 
 --------------------------------------------------------------------
 
-<Insert name="/eu/common/data-policy" />
+<slot name="/eu/common/data-policy" />
 
-<Insert name="/bare/eu/usegalaxy/jobs" />
+<slot name="/bare/eu/usegalaxy/jobs" />
 
 <footer>
-<Insert name="/eu/site-footer" />
+<slot name="/eu/site-footer" />
 </footer>
 

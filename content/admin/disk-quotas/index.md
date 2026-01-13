@@ -1,4 +1,4 @@
-<Insert name="/admin/linkbox" />
+<slot name="/admin/linkbox" />
 
 # Data management: accounting and disk quotas
 

@@ -1,4 +1,4 @@
-<Insert name="/events/gccbosc2018/header" />
+<slot name="/events/gccbosc2018/header" />
 
 Help get the word out about the joint GCC2018 & BOSC 2018 conference.
 

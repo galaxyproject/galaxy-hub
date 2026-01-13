@@ -1,6 +1,6 @@
 <div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="250" /></a></div><br />
 
-<Insert name="/community/galaxy-admins/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 The [GalaxyAdmins](/community/galaxy-admins/meetups/) group has bi-monthly conference calls and irregular gatherings at various Galaxy-related events.
 

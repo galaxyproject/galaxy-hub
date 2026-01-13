@@ -5,7 +5,7 @@ gitter: usegalaxy-eu/Lobby
 components: true
 ---
 
-<Insert name="/bare/eu/usegalaxy/notices" />
+<slot name="/bare/eu/usegalaxy/notices" />
 
 <h1>
 
@@ -117,10 +117,10 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 
 --------------------------------------------------------------------
 
-<Insert name="/eu/common/data-policy" />
+<slot name="/eu/common/data-policy" />
 
-<Insert name="/bare/eu/usegalaxy/jobs" />
+<slot name="/bare/eu/usegalaxy/jobs" />
 
 <footer>
-<Insert name="/eu/site-footer" />
+<slot name="/eu/site-footer" />
 </footer>

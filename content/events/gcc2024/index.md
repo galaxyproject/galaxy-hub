@@ -17,7 +17,7 @@ tags: ["cofest", "workshop", "training", "talk", "poster", "esg", "esg-wp1"]
 subsites: [all, esg, all-eu]
 ---
 
-<Insert name="/events/gcc2024/header" />
+<slot name="/events/gcc2024/header" />
 
 <div class="text-center my-5">
 

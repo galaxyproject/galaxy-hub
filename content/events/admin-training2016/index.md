@@ -108,4 +108,4 @@ This is one of three comprehensive Galaxy admin and developer training events be
 
 We would like to thank the [University of Utah Center for High Performance Computing (CHPC)](http://www.chpc.utah.edu/) for compute infrastructure support, and the [USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/), [Department of Biomedical Informatics](http://medicine.utah.edu/dbmi/) and the [Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)](http://medicine.utah.edu/ccts/bmic/) at the [University of Utah](http://utah.edu) for hosting this event.
 
-<Insert name="/events/admin-training2016/footer" />
+<slot name="/events/admin-training2016/footer" />

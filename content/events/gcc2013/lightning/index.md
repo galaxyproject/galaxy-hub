@@ -1,7 +1,7 @@
 ---
 title: Lightning Talks
 ---
-<Insert name="/events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 
 
@@ -380,4 +380,4 @@ From [Ross Lazarus](/people/fubar/), *Benevolent Lightning Session Moderator for
 * If you have more than 5 or 6 slides, you are probably screwed before you start and stand a high risk of being cut off in mid-flight unless you have rehearsed a few times with a timer to be sure you can fit everything in.
 * You are advised not to read your acknowledgements out loud. It's a lightning talk for heaven's sake.
 
-<Insert name="/events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

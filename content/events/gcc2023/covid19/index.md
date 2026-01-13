@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<Insert name="/events/gcc2023/header" />
+<slot name="/events/gcc2023/header" />
 
 # COVID considerations
 

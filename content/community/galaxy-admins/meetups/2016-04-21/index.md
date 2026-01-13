@@ -4,7 +4,7 @@
 
 </div></div>
 
-<Insert name="/community/galaxy-admins/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 <table>
   <tr>

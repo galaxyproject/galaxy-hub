@@ -270,6 +270,10 @@ function convertGridsomeSyntax(content) {
   processed = processed.replace(/<g-image/g, '<img');
   processed = processed.replace(/<\/g-image>/g, '');
 
+  // Convert <slot name="..."> to <Insert name="..."> for Astro
+  // Content uses <slot> for Gridsome compatibility, Astro uses <Insert>
+  processed = processed.replace(/<slot(\s+name=["'][^"']+["']\s*)\/?>/gi, '<Insert$1/>');
+
   return processed;
 }
 

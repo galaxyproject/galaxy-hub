@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Galaxy on the Cloud
 ---
-<Insert name="/cloudman/header" />
+<slot name="/cloudman/header" />
 
 
 

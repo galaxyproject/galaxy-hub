@@ -3,7 +3,7 @@ pretitle: "[Back to Advanced Workflow](/learn/advanced-workflow/)"
 title: Basic Workflow Editing
 ---
 
-<Insert name="/learn/linkbox" />
+<slot name="/learn/linkbox" />
 
 ## Why edit a workflow?
 

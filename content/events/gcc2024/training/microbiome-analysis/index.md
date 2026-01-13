@@ -2,7 +2,7 @@
 autotoc: true
 ---
 
-<Insert name="/events/gcc2024/header" />
+<slot name="/events/gcc2024/header" />
 <div class="text-center">
 
 # Pathogen Detection from (Direct Nanopore) Sequencing Data using Galaxy

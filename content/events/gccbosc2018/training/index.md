@@ -2,7 +2,7 @@
 title: "2018 GCCBOSC2018 Conferences: Training"
 ---
 
-<Insert name="/events/gccbosc2018/header" />
+<slot name="/events/gccbosc2018/header" />
 
 
 The joint [2018 Bioinformatics Open Source and Galaxy Community Conferences](https://gccbosc2018.sched.com/) start with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All). The training topics were nominated by and then voted on by our communities.

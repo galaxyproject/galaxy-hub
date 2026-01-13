@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<Insert name="/events/gcc2024/header" />
+<slot name="/events/gcc2024/header" />
 
 
 # Key Dates

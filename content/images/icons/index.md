@@ -1,4 +1,4 @@
-<Insert name="/images/linkbox" />
+<slot name="/images/linkbox" />
 
 Common place to store icons used in this web site. Icons are generic images like calendars, arrow, "New!" balloons and so on.
 

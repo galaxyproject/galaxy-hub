@@ -8,7 +8,7 @@ title: GalaxyAdmins Future Directions (circa 2015)
 </div>
 
 
-<Insert name="/community/galaxy-admins/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 
 

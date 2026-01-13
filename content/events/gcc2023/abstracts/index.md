@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<Insert name="/events/gcc2023/header" />
+<slot name="/events/gcc2023/header" />
 
 <div class="text-center my-5">
     <a target="_blank" href="https://docs.google.com/document/d/1xJVtNlN3D0yEZceoPb0CcdxtXP0Rx0FUo_ixU38wqlA/edit" type="button" class="btn btn-primary">

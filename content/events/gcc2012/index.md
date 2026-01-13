@@ -20,7 +20,7 @@ GCC2012 ran for [two full days](/events/gcc2012/program/), and was preceded by a
 
 GCC2012 was hosted by the [University of Illinois at Chicago](http://uic.edu/), the [University of Illinois at Urbana-Champaign](http://illinois.edu/), and the [Computation Institute](http://www.ci.anl.gov/).
 
-<Insert name="/events/gcc2012/linkbox" />
+<slot name="/events/gcc2012/linkbox" />
 
 ## Who Should Attend?
 
@@ -90,4 +90,4 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
 </table>
 
 
-<Insert name="/events/gcc2012/ask-the-organizers" />
+<slot name="/events/gcc2012/ask-the-organizers" />

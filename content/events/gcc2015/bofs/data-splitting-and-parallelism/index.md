@@ -1,7 +1,7 @@
 ---
 title: Data Splitting and Parallelism
 ---
-<Insert name="/events/gcc2015/header" />
+<slot name="/events/gcc2015/header" />
 
 
 <div class='left'><a href='/events/gcc2015/bofs/'><img src="/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>

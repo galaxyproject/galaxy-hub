@@ -1,7 +1,7 @@
 ---
 title: GCC2013 Training Day Virtual Machines
 ---
-<Insert name="/events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 import linkbox from "../../linkbox.json"
 <link-box :data="linkbox" />
@@ -62,4 +62,4 @@ There are two VMs to pick from.
 The VM is now installed.
 
 
-<Insert name="/events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

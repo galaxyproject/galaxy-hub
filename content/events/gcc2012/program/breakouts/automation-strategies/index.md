@@ -1,9 +1,9 @@
 ---
 title: Automation strategies for Data, Tools, & Config
 ---
-<Insert name="/events/gcc2012/page-header" />
+<slot name="/events/gcc2012/page-header" />
 
-<Insert name="/events/gcc2012/linkbox" />
+<slot name="/events/gcc2012/linkbox" />
 
 
 

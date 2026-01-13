@@ -1,5 +1,5 @@
-<Insert name="/admin/linkbox" />
-<Insert name="/develop/linkbox" />
+<slot name="/admin/linkbox" />
+<slot name="/develop/linkbox" />
 
 TODO: Describe data model.  For now, have a picture!
 

@@ -2,7 +2,7 @@
 title: GCC2013 Training Day
 ---
 
-<Insert name="/events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 import linkbox from "../../linkbox.json"
 <link-box :data="linkbox" />
@@ -1058,4 +1058,4 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
 
 ## 17:00 session ends
 
-<Insert name="/events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

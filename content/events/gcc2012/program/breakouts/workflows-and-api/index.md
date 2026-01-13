@@ -1,12 +1,12 @@
 ---
 title: Galaxy API and Extending it; Workflow Enhancements
 ---
-<Insert name="/events/gcc2012/page-header" />
+<slot name="/events/gcc2012/page-header" />
 
 
 **A [GCC22012](/events/gcc2012/) [Breakout Session](/events/gcc2012/program/breakouts/)**
 
-<Insert name="/events/gcc2012/linkbox" />
+<slot name="/events/gcc2012/linkbox" />
 
 # Participants
 

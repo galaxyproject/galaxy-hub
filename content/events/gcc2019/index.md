@@ -5,7 +5,7 @@ autotoc: false
 subsites: [all]
 ---
 
-<Insert name="/events/gcc2019/header" />
+<slot name="/events/gcc2019/header" />
 
 **GCC2019 was held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/gcc/), GCC2019 it [featured](https://gcc2019.sched.com/) invited talks, accepted talks, [posters](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters) and [demos](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos), [birds-of-a-feather (BoF) gatherings](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs), multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there was no better place to be.
 

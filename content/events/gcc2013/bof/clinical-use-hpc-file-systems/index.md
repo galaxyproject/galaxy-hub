@@ -1,13 +1,13 @@
 ---
 title: Galaxy Clinical Use Survey / Filesystems and HPC
 ---
-<Insert name="/events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 
 
 import linkbox from "../../linkbox.json"
 <link-box :data="linkbox" />
-<Insert name="/events/gcc2013/bof/linkbox" />
+<slot name="/events/gcc2013/bof/linkbox" />
 
 <div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 

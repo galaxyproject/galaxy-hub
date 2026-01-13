@@ -3,7 +3,7 @@ title: 2012-07-09 Conference Call
 ---
 <div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-<Insert name="/community/galaxy-admins/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 The group's first conference call was held on Monday July 9, at 9am Central US time.  There were 27 connections to the call, some with multiple people on the connection.  The call was run by Ann Black-Ziegelbein of the University of Iowa.  Ann was also the main presenter.
 

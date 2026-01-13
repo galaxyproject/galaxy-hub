@@ -1,11 +1,11 @@
 ---
 title: Birds of a Feather (BoF) Flock Together at GCC2014
 ---
-<Insert name="/events/gcc2014/header" />
+<slot name="/events/gcc2014/header" />
 
 <br /><br />
 
-<Insert name="/events/gcc2014/linkbox" />
+<slot name="/events/gcc2014/linkbox" />
 
 
 
@@ -36,4 +36,4 @@ The conference *enables and encourages* BoFs by
 * Promote BoFs to all conference participants, over and over, both before and during the conference ~~until everyone actually grows feathers~~.
 * Coordinate and reserve rooms for BoFs, and allocate time in the schedule for them too.
 
-<Insert name="/events/gcc2014/footer" />
+<slot name="/events/gcc2014/footer" />

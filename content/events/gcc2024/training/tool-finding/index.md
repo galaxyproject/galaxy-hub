@@ -2,7 +2,7 @@
 autotoc: true
 ---
 
-<Insert name="/events/gcc2024/header" />
+<slot name="/events/gcc2024/header" />
 <div class="text-center">
 
 # Collecting, Organizing, and Broadcasting Galaxy Tools for a Dedicated Scientific Community (using the Galaxy Tool Metadata Extractor Workflow)

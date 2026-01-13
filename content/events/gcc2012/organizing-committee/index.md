@@ -1,9 +1,9 @@
 ---
 title: GCC2012 Organizing Committee
 ---
-<Insert name="/events/gcc2012/page-header" />
+<slot name="/events/gcc2012/page-header" />
 
-<Insert name="/events/gcc2012/linkbox" />
+<slot name="/events/gcc2012/linkbox" />
 
 
 
@@ -24,4 +24,4 @@ title: GCC2012 Organizing Committee
  **[Bernard Santarsiero](http://www.uic.edu/labs/bds/bdslab/Welcome.html)**
    [University of Illinois at Chicago (UIC)](http://www/uic.edu/)<br /><br />
 
-<Insert name="/events/gcc2012/ask-the-organizers" />
+<slot name="/events/gcc2012/ask-the-organizers" />

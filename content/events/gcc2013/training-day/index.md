@@ -1,7 +1,7 @@
 ---
 title: GCC2013 Training Day
 ---
-<Insert name="/events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 import linkbox from "../linkbox.json"
 <link-box :data="linkbox" />
@@ -524,4 +524,4 @@ Thanks to everyone who participated in the nomination and voting process.
 
 We are happy to announce that a [Software Carpentry Boot Camp](http://bit.ly/14EmcSA) has been scheduled for 3-4 July (immediately following GCC2013), also at the University of Oslo. [Software Carpentry Boot Camps](http://software-carpentry.org/boot-camps/) are  example-driven workshops on basic computing skills. Short tutorials alternate with hands-on practical exercises, and participants are encouraged both to help one another, and to try applying what they have learned to their own research problems during and between sessions.
 
-<Insert name="/events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

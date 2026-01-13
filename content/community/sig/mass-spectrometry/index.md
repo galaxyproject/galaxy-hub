@@ -4,7 +4,7 @@ autotoc: true
 title: "Galaxy Mass Spectrometry Community (GMSC)"
 ---
 
-<Insert name="/community/sig/common_linkbox" />
+<slot name="/community/sig/common_linkbox" />
 
 <!-- <img class="img-fluid float-right" src="/community/sig/mass-spectrometry/GalaxyP_logo.png" style="width:200px;" alt="Logo for Galaxy mass spectrometry community."/> -->
 

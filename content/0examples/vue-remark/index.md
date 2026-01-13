@@ -43,7 +43,7 @@ Normally `category` isn't present in the metadata. It's autopopulated by the fra
 
 Here's how Inserts are inserted:
 
-<Insert name="/0examples/footer" />
+<slot name="/0examples/footer" />
 
 ## Vue components
 

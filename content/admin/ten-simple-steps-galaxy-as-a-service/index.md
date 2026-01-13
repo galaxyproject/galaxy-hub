@@ -2,7 +2,7 @@
 title: Ten Simple Rules for Setting up a Galaxy Instance as a Service
 ---
 
-<Insert name="/admin/linkbox" />
+<slot name="/admin/linkbox" />
 
 Hans-Rudolf Hotz (hrh@fmi.ch)¹⋅²,
 Jochen Bick (jochen.bick@usys.ethz.ch)³,

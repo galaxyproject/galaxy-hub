@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<Insert name="/events/gcc2023/header" />
+<slot name="/events/gcc2023/header" />
 
 GCC2023 is a community effort from planning to post conference publishing and
 feedback.  In addition to all the participants, presenters, and instructors,

@@ -2,7 +2,7 @@
 title: Galaxy Admin Training Registration
 ---
 
-<Insert name="/events/admin-training2016/header" />
+<slot name="/events/admin-training2016/header" />
 
 <br />
 <div class='center'>
@@ -16,7 +16,7 @@ title: Galaxy Admin Training Registration
 
 <div class='right'><br />
 
-<Insert name="/events/admin-training2016/linkbox" />
+<slot name="/events/admin-training2016/linkbox" />
 
 </div>
 
@@ -87,4 +87,4 @@ Registration is through [EventBrite](https://galaxyadmin2016.eventbrite.com).
 
 
 
-<Insert name="/events/admin-training2016/footer" />
+<slot name="/events/admin-training2016/footer" />

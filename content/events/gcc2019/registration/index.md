@@ -2,7 +2,7 @@
 title: "GCC2019 Registration"
 ---
 
-<Insert name="/events/gcc2019/header" />
+<slot name="/events/gcc2019/header" />
 
 GCC2019 features [several events](https://gcc2019.sched.com/), which can be registered for separately or all at once.  Steep discounts are offered to students and postdocs, and for registering early.
 

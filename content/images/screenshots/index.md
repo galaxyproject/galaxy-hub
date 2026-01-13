@@ -1,4 +1,4 @@
-<Insert name="/images/linkbox" />
+<slot name="/images/linkbox" />
 
 Common place to store Galaxy screenshots used in this web site.
 

@@ -1,6 +1,6 @@
-<Insert name="/cloudman/header" />
+<slot name="/cloudman/header" />
 
-<Insert name="/cloudman/linkbox-horizontal" />
+<slot name="/cloudman/linkbox-horizontal" />
 
 CloudMan manages a set of applications that are referred to as *services*. Some of the services are user-facing applications (e.g., Galaxy) while others are dependencies for other services and are not used by end-users directly (e.g., NodeJSProxy). A complete list of services managed by CloudMan is available on the CloudMan Admin page; that page also allows you to control the state of those services. Below if a list of the available services; if additional information is available about a specific service, it is available by clicking on the service name:
 

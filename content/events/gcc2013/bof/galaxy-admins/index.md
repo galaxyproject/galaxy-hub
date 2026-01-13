@@ -2,13 +2,13 @@
 title: GalaxyAdmins BoF
 ---
 
-<Insert name="/events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 import linkbox from "../../linkbox.json"
 <link-box :data="linkbox" />
 
-<Insert name="/events/gcc2013/bof/linkbox" />
-<Insert name="/community/galaxy-admins/linkbox" />
+<slot name="/events/gcc2013/bof/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 <div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
 <a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>

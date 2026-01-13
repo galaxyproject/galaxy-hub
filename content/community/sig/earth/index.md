@@ -4,7 +4,7 @@ autotoc: true
 title: "Earth data analysis in Galaxy"
 ---
 
-<Insert name="/community/sig/common_linkbox" />
+<slot name="/community/sig/common_linkbox" />
 
 Whether you are analysing geosphere, biosphere, cryosphere, hydrosphere, and atmosphere, in short all Earth related sciences **this is the place to be**!
 
