@@ -14,15 +14,11 @@ A common friction point when working with data is needing only a specific file f
 
 With the new **Zip Explorer** feature introduced in **Galaxy v25.0**, you can **preview the contents of ZIP archives** and **selectively import individual files** directly from the Galaxy Upload dialog. This works for both local ZIP files and remote ZIP archives (via URL), helping you save time, bandwidth, and storage space.
 
-## Why this matters
-
-ZIP archives are often used to distribute complex datasets, analysis results, or complete research objects. In practice, however, users frequently need only a small subset of those contents. Zip Explorer removes unnecessary steps from this workflow by letting you inspect and extract exactly what you need, without handling the entire archive yourself.
-
 ## Key Features
 
 ### 1. Rich RO-Crate Metadata Preview
 
-Zip Explorer is particularly useful when working with metadata-rich archives such as **Research Object Crates (RO-Crates)** and Galaxy exports.
+Zip Explorer is particularly useful when working with metadata-rich archives such as [**Research Object Crates (RO-Crates)**](https://journals.sagepub.com/doi/10.3233/DS-210053) and Galaxy exports.
 
 When a ZIP file contains `ro-crate-metadata.json`, the interface goes beyond a simple file tree. The crate metadata is automatically parsed and rendered in the preview, allowing you to inspect dataset descriptions, authorship, licensing information, and individual entities before importing anything.
 
