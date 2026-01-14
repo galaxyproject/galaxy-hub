@@ -35,7 +35,7 @@ You can explore ZIP files hosted on remote servers without downloading them in f
 
 ### 3. Smart Galaxy Workflow Detection
 
-When exploring an archive, Zip Explorer automatically detects `.ga` workflow files and presents them in a dedicated section. This makes it easy to locate and import Galaxy workflows packaged inside larger analysis archives or RO-Crates.
+When exploring an archive, Zip Explorer automatically detects Galaxy workflow files and presents them in a dedicated section. This makes it easy to locate and import Galaxy workflows packaged inside larger analysis archives or RO-Crates.
 
 ### 4. Local ZIP Archive Support
 
