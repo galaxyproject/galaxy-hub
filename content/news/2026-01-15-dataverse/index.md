@@ -128,7 +128,12 @@ Once imported, the file appears as a normal Galaxy dataset (usable as tool input
 
 For working with private datasets, we will use [Harvard dataverse](https://dataverse.harvard.edu/). We will repeat the same steps as we did for creating and configuring BSC dataverse.
 
-### 1) Create an account on [Harvard dataverse](https://dataverse.harvard.edu/) and acquire API token.
+### 1) Create an account on [Harvard dataverse](https://dataverse.harvard.edu/) and acquire an API token.
+
+<div align="center">
+  <img src="har_dv_10.png" alt="Harvard dataverse: API" width="600"/>
+</div>
+
 
 ### 2) Create a private dataverse on Harvard dataverse
 
@@ -156,7 +161,7 @@ For working with private datasets, we will use [Harvard dataverse](https://datav
   <img src="har_dv_0.png" alt="Harvard dataverse: added dataset" width="600"/>
 </div>
 
-### 5) Select "Training data" from the uploader and import into Galaxy history
+### 5) Select the newly created "Training data" repository from the uploader and import the underlying dataset into Galaxy history
 
 <div align="center">
   <img src="har_dv_0_0.png" alt="Harvard dataverse: added dataset" width="600"/>
