@@ -38,16 +38,13 @@ export function baseUrlLinks(): AstroIntegration {
 
           // Rewrite href="/..." to href="${base}/..." for internal links
           // Match href="/" or href="/path" but not href="//" (protocol-relative) or href="http"
-          const newHtml = html.replace(
-            /href="\/(?!\/|[a-zA-Z]+:)([^"]*)"/g,
-            (match, path) => {
-              // Don't double-prefix if already has base
-              if (path.startsWith(normalizedBase.slice(1))) {
-                return match;
-              }
-              return `href="${normalizedBase}${path}"`;
+          const newHtml = html.replace(/href="\/(?!\/|[a-zA-Z]+:)([^"]*)"/g, (match, path) => {
+            // Don't double-prefix if already has base
+            if (path.startsWith(normalizedBase.slice(1))) {
+              return match;
             }
-          );
+            return `href="${normalizedBase}${path}"`;
+          });
 
           if (newHtml !== html) {
             await writeFile(filePath, newHtml, 'utf-8');
