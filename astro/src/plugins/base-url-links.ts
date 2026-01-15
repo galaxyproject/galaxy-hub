@@ -34,7 +34,7 @@ export function baseUrlLinks(): AstroIntegration {
 
         for (const file of htmlFiles) {
           const filePath = join(outDir, file);
-          let html = await readFile(filePath, 'utf-8');
+          const html = await readFile(filePath, 'utf-8');
 
           // Rewrite href="/..." to href="${base}/..." for internal links
           // Match href="/" or href="/path" but not href="//" (protocol-relative) or href="http"
