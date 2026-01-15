@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+// Get all events, sorted by date descending
+const events = await getCollection('events');
+const now = new Date();
+const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
+
+// Archive = events older than 1 year
+const archivedEvents = events
+  .filter((event) => {
+    const eventDate = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
+    return eventDate < oneYearAgo;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+    return dateB.getTime() - dateA.getTime();
+  });
+
+// Group by year
+const eventsByYear = archivedEvents.reduce(
+  (acc, event) => {
+    const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
+    const year = date.getFullYear();
+    if (!acc[year]) acc[year] = [];
+    acc[year].push(event);
+    return acc;
+  },
+  {} as Record<number, typeof archivedEvents>
+);
+
+const years = Object.keys(eventsByYear)
+  .map(Number)
+  .sort((a, b) => b - a);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = date instanceof Date ? date : new Date(date);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+function getLocationName(location: any): string {
+  if (!location) return '';
+  if (typeof location === 'string') return location;
+  return location.name || '';
+}
+---
+
+<BaseLayout title="Events Archive" description="Archive of past Galaxy community events">
+  <div class="max-w-5xl mx-auto">
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-galaxy-dark mb-2">Events Archive</h1>
+      <p class="text-gray-600">
+        Historical record of Galaxy community events. For recent and upcoming events, see the
+        <a href="/events/" class="text-galaxy-primary hover:underline">main events page</a>.
+      </p>
+      <p class="text-sm text-gray-500 mt-2">
+        Showing {archivedEvents.length} events from {years.length} years
+      </p>
+    </div>
+
+    {
+      years.map((year) => (
+        <section class="mb-10">
+          <h2 class="text-2xl font-bold text-galaxy-dark mb-4 sticky top-0 bg-background py-2 border-b border-gray-200">
+            {year}
+            <span class="text-sm font-normal text-gray-500 ml-2">({eventsByYear[year].length} events)</span>
+          </h2>
+
+          <div class="space-y-2">
+            {eventsByYear[year].map((event) => (
+              <a
+                href={`/events/${event.data.slug}/`}
+                class="flex flex-wrap items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+              >
+                <span class="text-sm text-gray-500 whitespace-nowrap min-w-16">{formatDate(event.data.date)}</span>
+                <span class="flex-1 text-galaxy-dark hover:text-galaxy-primary">{event.data.title}</span>
+                {getLocationName(event.data.location) && (
+                  <span class="text-sm text-gray-400 hidden md:inline">{getLocationName(event.data.location)}</span>
+                )}
+                {event.data.tags && Array.isArray(event.data.tags) && event.data.tags.length > 0 && (
+                  <div class="hidden lg:flex gap-1">
+                    {event.data.tags.slice(0, 2).map((tag: string) => (
+                      <span class="text-xs px-2 py-0.5 bg-gray-100 text-gray-600 rounded">{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+
+    {archivedEvents.length === 0 && <p class="text-gray-500 italic text-center py-12">No archived events found.</p>}
+  </div>
+</BaseLayout>

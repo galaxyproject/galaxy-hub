@@ -1,0 +1,468 @@
+---
+/**
+ * UseGalaxy.org Welcome Page
+ *
+ * This is the #1 most visited page (54.6k visits) - it's embedded in Galaxy instances
+ * as the welcome screen users see when first loading usegalaxy.org
+ *
+ * Uses a minimal layout without sidebar/footer since it's embedded in an iframe
+ */
+import { getCollection, render } from 'astro:content';
+import '../../styles/global.css';
+
+// Get the insert content
+const inserts = await getCollection('inserts');
+const topInsert = inserts.find((i) => i.data.slug === 'usegalaxy/welcome/top');
+const mainInsert = inserts.find((i) => i.data.slug === 'usegalaxy/welcome/main');
+
+// Render the content
+const { Content: TopContent } = topInsert ? await render(topInsert) : { Content: null };
+const { Content: MainContent } = mainInsert ? await render(mainInsert) : { Content: null };
+
+// Carousel slides - keep in sync with Gridsome's Carousel.vue
+const carouselSlides = [
+  {
+    href: 'https://jxtxfoundation.org',
+    img: '/images/usegalaxy-welcome/jxtx_carousel.svg',
+    alt: 'Donate to the James P. Taylor Foundation for Open Science',
+  },
+  {
+    href: 'https://galaxyproject.org/news/2025-10-21-whycollections/',
+    img: '/images/usegalaxy-welcome/theguy.svg',
+    alt: 'Use collections!',
+  },
+  {
+    href: 'https://galaxyproject.org/news/2025-10-28-window-manager/',
+    img: '/images/usegalaxy-welcome/window_manager.svg',
+    alt: 'Window Manager',
+  },
+  { href: 'https://training.galaxyproject.org/', img: '/images/usegalaxy-welcome/gtn.svg', alt: 'Try GTN' },
+  { href: 'https://galaxyproject.org/usegalaxy/', img: '/images/usegalaxy-welcome/dotstar.svg', alt: 'Usegalaxy.*' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Galaxy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+      body {
+        font-family:
+          'Atkinson Hyperlegible',
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #fff;
+      }
+
+      a {
+        color: #25537b;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.2s;
+      }
+
+      .btn-secondary {
+        background: #6c757d;
+        color: white;
+      }
+
+      .btn-secondary:hover {
+        background: #5a6268;
+      }
+
+      .btn-outline-primary {
+        border: 1px solid #25537b;
+        color: #25537b;
+        background: transparent;
+      }
+
+      .btn-outline-primary:hover {
+        background: #25537b;
+        color: white;
+      }
+
+      .alert {
+        padding: 15px 20px;
+        border-radius: 4px;
+        margin: 20px 0;
+      }
+
+      .alert-info {
+        background: #d1ecf1;
+        border: 1px solid #bee5eb;
+        color: #0c5460;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .my-5 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+
+      .mt-2 {
+        margin-top: 0.5rem;
+      }
+
+      .mx-1 {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+      }
+
+      .col-md-4 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+        padding: 0 15px;
+      }
+
+      .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px;
+      }
+
+      .col-md-8 {
+        flex: 0 0 66.666%;
+        max-width: 66.666%;
+        padding: 0 15px;
+      }
+
+      .col-sm-4,
+      .col-sm-6 {
+        padding: 0 15px;
+      }
+
+      .col-sm-4 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+      }
+
+      .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+
+      .align-items-center {
+        align-items: center;
+      }
+
+      .float-right {
+        float: right;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 30px 0;
+      }
+
+      /* Top section styling */
+      .welcome-top {
+        background: linear-gradient(135deg, #25537b 0%, #2c3143 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+
+      .welcome-top a {
+        color: #ffd700;
+      }
+
+      .welcome-top h4 {
+        margin: 0;
+        font-size: 1.1em;
+        font-weight: normal;
+      }
+
+      /* Carousel styles */
+      .carousel-container {
+        padding-top: 2rem;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .carousel {
+        position: relative;
+        width: 100%;
+        background: #ababab;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .carousel-inner {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 13 / 9;
+      }
+
+      .carousel-slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      .carousel-slide.active {
+        opacity: 1;
+      }
+
+      .carousel-slide a {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .carousel-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .carousel-controls {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        padding: 0 10px;
+        box-sizing: border-box;
+      }
+
+      .carousel-control {
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 3px;
+      }
+
+      .carousel-control:hover {
+        background: rgba(0, 0, 0, 0.7);
+      }
+
+      .carousel-indicators {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        padding: 10px 0;
+      }
+
+      .carousel-indicator {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #ccc;
+        border: none;
+        cursor: pointer;
+      }
+
+      .carousel-indicator.active {
+        background: #25537b;
+      }
+
+      /* YouTube container */
+      .youtube-container {
+        padding-top: 2rem;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .youtube-container iframe {
+        width: 100%;
+        aspect-ratio: 400 / 277;
+        border: none;
+        border-radius: 4px;
+      }
+
+      /* Media row for carousel and video */
+      .media-row {
+        margin-bottom: 2rem;
+      }
+
+      @media (max-width: 768px) {
+        .col-md-4,
+        .col-md-6,
+        .col-md-8 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+
+        .row {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    {
+      TopContent && (
+        <div class="welcome-top">
+          <TopContent />
+        </div>
+      )
+    }
+
+    <!-- Carousel and YouTube Video Row -->
+    <div class="row media-row">
+      <div class="col-md-6">
+        <div class="carousel-container">
+          <div class="carousel" id="welcome-carousel">
+            <div class="carousel-inner">
+              {
+                carouselSlides.map((slide, index) => (
+                  <div class={`carousel-slide ${index === 0 ? 'active' : ''}`} data-index={index}>
+                    <a href={slide.href} target="_blank">
+                      <img src={slide.img} alt={slide.alt} />
+                    </a>
+                  </div>
+                ))
+              }
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-control" id="prev-btn" aria-label="Previous slide">‹</button>
+              <button class="carousel-control" id="next-btn" aria-label="Next slide">›</button>
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            {
+              carouselSlides.map((_, index) => (
+                <button
+                  class={`carousel-indicator ${index === 0 ? 'active' : ''}`}
+                  data-index={index}
+                  aria-label={`Go to slide ${index + 1}`}
+                />
+              ))
+            }
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="youtube-container">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/k6fTVIR4GME?mute=1&cc_load_policy=1&autoplay=0&loop=0&playlist=k6fTVIR4GME"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    {
+      MainContent && (
+        <div class="welcome-main prose">
+          <MainContent />
+        </div>
+      )
+    }
+
+    <script>
+      // Simple carousel functionality
+      document.addEventListener('DOMContentLoaded', () => {
+        const carousel = document.getElementById('welcome-carousel');
+        if (!carousel) return;
+
+        const slides = carousel.querySelectorAll('.carousel-slide');
+        const indicators = document.querySelectorAll('.carousel-indicator');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+
+        let currentSlide = 0;
+        let autoPlayInterval: ReturnType<typeof setInterval>;
+
+        function showSlide(index: number) {
+          // Wrap around
+          if (index >= slides.length) index = 0;
+          if (index < 0) index = slides.length - 1;
+
+          slides.forEach((slide) => slide.classList.remove('active'));
+          indicators.forEach((ind) => ind.classList.remove('active'));
+
+          slides[index].classList.add('active');
+          indicators[index].classList.add('active');
+          currentSlide = index;
+        }
+
+        function nextSlide() {
+          showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+          showSlide(currentSlide - 1);
+        }
+
+        function startAutoPlay() {
+          autoPlayInterval = setInterval(nextSlide, 3000);
+        }
+
+        function stopAutoPlay() {
+          clearInterval(autoPlayInterval);
+        }
+
+        // Event listeners
+        nextBtn?.addEventListener('click', () => {
+          stopAutoPlay();
+          nextSlide();
+          startAutoPlay();
+        });
+
+        prevBtn?.addEventListener('click', () => {
+          stopAutoPlay();
+          prevSlide();
+          startAutoPlay();
+        });
+
+        indicators.forEach((indicator, index) => {
+          indicator.addEventListener('click', () => {
+            stopAutoPlay();
+            showSlide(index);
+            startAutoPlay();
+          });
+        });
+
+        // Pause on hover
+        carousel.addEventListener('mouseenter', stopAutoPlay);
+        carousel.addEventListener('mouseleave', startAutoPlay);
+
+        // Start autoplay
+        startAutoPlay();
+      });
+    </script>
+  </body>
+</html>

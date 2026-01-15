@@ -39,6 +39,23 @@ freeze-env:
 #	$(ACTIVATE_ENV) && htmlproofer ./_site/ --check-html --allow-hash-href --assume-extension --disable-external --url-swap "http\://localhost:https\://usegalaxy-eu.github.io" --enforce-https 2>&1 | grep 'is not' | sed 's/link .*//g' | sort | uniq -c | sort -nk1
 #.PHONY: check-http-urls
 
+# Astro site targets (in astro/ directory)
+astro-install: ## Install Astro dependencies
+	cd astro && npm install
+.PHONY: astro-install
+
+astro-dev: astro-install ## Run Astro development server
+	cd astro && npm run dev
+.PHONY: astro-dev
+
+astro-build: astro-install ## Build Astro site
+	cd astro && npm run build
+.PHONY: astro-build
+
+astro-preview: astro-install ## Preview built Astro site
+	cd astro && npm run preview
+.PHONY: astro-preview
+
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 .PHONY: help

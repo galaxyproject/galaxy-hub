@@ -1,0 +1,167 @@
+---
+/**
+ * Bare FR Events Page
+ * Shows FR-filtered events in a minimal layout (8.2k visits)
+ * Embedded in Galaxy FR interface
+ */
+import { getCollection } from 'astro:content';
+import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+
+const now = new Date();
+
+const allEvents = await getCollection('events', (entry) => {
+  const subsites = entry.data.subsites || [];
+  // Filter for FR subsite
+  return (
+    (subsites.includes('fr') ||
+      subsites.includes('all') ||
+      subsites.includes('all-fr') ||
+      subsites.includes('global') ||
+      subsites.length === 0) &&
+    !entry.data.draft
+  );
+});
+
+// Split into upcoming and past
+const upcomingEvents = allEvents
+  .filter((e) => {
+    const endDate = e.data.date_end ? new Date(e.data.date_end) : e.data.date ? new Date(e.data.date) : null;
+    return endDate && endDate >= now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 20);
+
+const pastEvents = allEvents
+  .filter((e) => {
+    const endDate = e.data.date_end ? new Date(e.data.date_end) : e.data.date ? new Date(e.data.date) : null;
+    return endDate && endDate < now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 20);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
+  if (!start) return '';
+  const startStr = formatDate(start);
+  if (!end || start === end) return startStr;
+  const endStr = formatDate(end);
+  return `${startStr} - ${endStr}`;
+}
+---
+
+<BareArticleLayout title="Galaxy France Events">
+  <h2>Galaxy France Events</h2>
+
+  {
+    upcomingEvents.length > 0 && (
+      <section>
+        <h3>Upcoming Events</h3>
+        <ul class="events-list">
+          {upcomingEvents.map((event) => {
+            const slug = (event.data.slug || event.id)
+              .replace(/\.mdx?$/, '')
+              .replace(/--/g, '/')
+              .replace(/^events\//, '');
+            return (
+              <li>
+                <a href={`/events/${slug}/`}>{event.data.title}</a>
+                <span class="date">{formatDateRange(event.data.date, event.data.date_end)}</span>
+                {event.data.location && (
+                  <span class="location">
+                    {typeof event.data.location === 'string' ? event.data.location : event.data.location.name}
+                  </span>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    pastEvents.length > 0 && (
+      <section>
+        <h3>Recent Events</h3>
+        <ul class="events-list">
+          {pastEvents.map((event) => {
+            const slug = (event.data.slug || event.id)
+              .replace(/\.mdx?$/, '')
+              .replace(/--/g, '/')
+              .replace(/^events\//, '');
+            return (
+              <li>
+                <a href={`/events/${slug}/`}>{event.data.title}</a>
+                <span class="date">{formatDateRange(event.data.date, event.data.date_end)}</span>
+                {event.data.location && (
+                  <span class="location">
+                    {typeof event.data.location === 'string' ? event.data.location : event.data.location.name}
+                  </span>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
+
+  <style>
+    .events-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .events-list li {
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .events-list a {
+      color: #25537b;
+      font-weight: 500;
+      text-decoration: none;
+      display: block;
+    }
+
+    .events-list a:hover {
+      text-decoration: underline;
+    }
+
+    .date {
+      color: #666;
+      font-size: 0.85em;
+      display: block;
+    }
+
+    .location {
+      color: #888;
+      font-size: 0.85em;
+      display: block;
+    }
+
+    h3 {
+      color: #2c3143;
+      border-bottom: 2px solid #25537b;
+      padding-bottom: 0.5rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+  </style>
+</BareArticleLayout>

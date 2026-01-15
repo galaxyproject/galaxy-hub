@@ -34,16 +34,28 @@ jobs:
           cache: 'yarn'
       - name: Install project dependencies
         run: yarn --prefer-offline
-      - name: Build static site
+      - name: Build Gridsome site
         run: yarn build
+      - name: Setup Node 22 for Astro
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Install Astro dependencies
+        run: cd astro && npm ci
+      - name: Build Astro site
+        run: cd astro && npm run build
+        env:
+          ASTRO_BASE: /astro-preview/
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-2
-      - name: Sync to S3
+      - name: Sync Gridsome to S3
         run: aws s3 sync dist/ s3://${{ secrets.AWS_S3_BUCKET }}/ --delete --acl public-read --follow-symlinks
+      - name: Sync Astro preview to S3
+        run: aws s3 sync astro/dist/ s3://${{ secrets.AWS_S3_BUCKET }}/astro-preview/ --delete --acl public-read
       - name: Invalidate CloudFront cache for feeds
         if: steps.check_changes.outputs.content == 'true'
         run: |
