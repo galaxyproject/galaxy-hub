@@ -1,0 +1,12 @@
+---
+import CarouselVue from '../embed/Carousel.vue';
+
+interface Props {
+  images?: any[];
+  src?: string;
+}
+
+const props = Astro.props;
+---
+
+<CarouselVue client:visible {...props} />

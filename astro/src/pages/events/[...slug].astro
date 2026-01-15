@@ -1,0 +1,292 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Import MDX components for embedded content
+import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
+import Twitter from '../../components/mdx/Twitter.astro';
+import Mastodon from '../../components/mdx/Mastodon.astro';
+import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
+import Carousel from '../../components/mdx/Carousel.astro';
+import CalendarEmbed from '../../components/mdx/CalendarEmbed.astro';
+import MarkdownEmbed from '../../components/mdx/MarkdownEmbed.astro';
+import Flickr from '../../components/mdx/Flickr.astro';
+import Supporters from '../../components/mdx/Supporters.astro';
+import Contacts from '../../components/mdx/Contacts.astro';
+import Insert from '../../components/mdx/Insert.astro';
+
+export async function getStaticPaths() {
+  const events = await getCollection('events');
+
+  return events.map((event) => {
+    // Remove 'events/' prefix from slug for the URL
+    const urlSlug = event.data.slug.replace(/^events\//, '');
+    return {
+      params: { slug: urlSlug },
+      props: { event },
+    };
+  });
+}
+
+const { event } = Astro.props;
+const { Content } = await render(event);
+
+const { title, date, end, location, tags = [], tease, external_url, contacts = [] } = event.data;
+
+// MDX components map
+const components = {
+  VegaEmbed,
+  Twitter,
+  Mastodon,
+  VideoPlayer,
+  Carousel,
+  CalendarEmbed,
+  MarkdownEmbed,
+  Flickr,
+  Supporters,
+  Contacts,
+  Insert,
+};
+
+function toDate(d: Date | string | undefined): Date | null {
+  if (!d) return null;
+  return d instanceof Date ? d : new Date(d);
+}
+
+function formatDate(date: Date | string | undefined): string {
+  const d = toDate(date);
+  if (!d) return '';
+  return d.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+
+function formatDateRange(start: Date | string | undefined, endDate?: Date | string): string {
+  const startD = toDate(start);
+  const endD = toDate(endDate);
+  if (!startD) return '';
+  if (!endD || startD.getTime() === endD.getTime()) {
+    return formatDate(startD);
+  }
+  return `${formatDate(startD)} - ${formatDate(endD)}`;
+}
+
+function toISOString(d: Date | string | undefined): string {
+  const date = toDate(d);
+  return date ? date.toISOString() : '';
+}
+---
+
+<BaseLayout title={title || 'Event'} description={tease}>
+  <article class="max-w-6xl mx-auto bg-white">
+    <!-- Event Header -->
+    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-4">{title}</h1>
+
+      {tease && <p class="text-xl text-gray-600 mb-6">{tease}</p>}
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+        {
+          date && (
+            <div class="flex items-start gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                />
+              </svg>
+              <div>
+                <span class="block font-medium text-gray-900">Date</span>
+                <time datetime={toISOString(date)} class="text-gray-600">
+                  {formatDateRange(date, end)}
+                </time>
+              </div>
+            </div>
+          )
+        }
+
+        {
+          location && (
+            <div class="flex items-start gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+              <div>
+                <span class="block font-medium text-gray-900">Location</span>
+                <span class="text-gray-600">
+                  {location.name && <span>{location.name}</span>}
+                  {location.city && <span>{location.city}</span>}
+                  {location.country && <span>, {location.country}</span>}
+                </span>
+              </div>
+            </div>
+          )
+        }
+
+        {
+          external_url && (
+            <div class="flex items-start gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                />
+              </svg>
+              <div>
+                <span class="block font-medium text-gray-900">Website</span>
+                <a
+                  href={external_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-galaxy-primary hover:underline"
+                >
+                  Event Website
+                </a>
+              </div>
+            </div>
+          )
+        }
+
+        {
+          contacts.length > 0 && (
+            <div class="flex items-start gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+              <div>
+                <span class="block font-medium text-gray-900">Contact</span>
+                <span class="text-gray-600">
+                  {contacts
+                    .map((c: { name?: string; email?: string }) => c.name || c.email)
+                    .filter(Boolean)
+                    .join(', ')}
+                </span>
+              </div>
+            </div>
+          )
+        }
+      </div>
+
+      {
+        tags && tags.length > 0 && (
+          <div class="flex flex-wrap gap-2 mt-6">
+            {tags.map((tag: string) => (
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )
+      }
+    </header>
+
+    <!-- Event Content -->
+    <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
+      <Content components={components} />
+    </div>
+
+    <!-- Event Footer -->
+    <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
+      <div class="flex justify-between items-center pt-4 border-t border-gray-200">
+        <a
+          href="/events/"
+          class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          Back to Events
+        </a>
+        {
+          external_url && (
+            <a
+              href={external_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
+            >
+              Visit Event Website
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+            </a>
+          )
+        }
+      </div>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .prose-galaxy {
+    --tw-prose-links: #25537b;
+    --tw-prose-headings: #1f2937;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {
+    color: var(--tw-prose-links);
+    text-decoration: none;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
+    text-decoration: underline;
+  }
+</style>

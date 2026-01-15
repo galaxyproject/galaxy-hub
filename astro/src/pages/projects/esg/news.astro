@@ -1,0 +1,57 @@
+---
+/**
+ * ESG News Page
+ * Lists news articles tagged with ESG subsite
+ */
+import ESGLayout from '../../../layouts/ESGLayout.astro';
+import { getCollection } from 'astro:content';
+
+// Check for solo mode
+const solo = Astro.url.searchParams.get('solo') === 'true';
+
+// Load ESG news
+const articles = await getCollection('articles');
+const esgNews = articles
+  .filter((a) => a.data.subsites?.includes('esg') && a.data.slug?.startsWith('news/'))
+  .sort((a, b) => {
+    const dateA = new Date(a.data.date || 0);
+    const dateB = new Date(b.data.date || 0);
+    return dateB.getTime() - dateA.getTime();
+  });
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function esgUrl(path: string): string {
+  return solo ? `${path}?solo=true` : path;
+}
+---
+
+<ESGLayout title="News" description="Latest news from the EuroScienceGateway project" solo={solo}>
+  <div class="mb-6">
+    <a href={esgUrl('/projects/esg/')} class="text-blue-600 hover:underline text-sm"> &larr; Back to ESG Home </a>
+  </div>
+
+  <h1 class="text-3xl font-light text-gray-800 mb-8">EuroScienceGateway News</h1>
+
+  {
+    esgNews.length > 0 ? (
+      <div class="space-y-6">
+        {esgNews.map((article) => (
+          <article class="border-b border-gray-200 pb-6">
+            <a href={`/${article.data.slug}/`} class="block group">
+              <h2 class="text-xl font-medium text-blue-600 group-hover:underline mb-2">{article.data.title}</h2>
+            </a>
+            <p class="text-sm text-gray-500 mb-2">{formatDate(article.data.date)}</p>
+            {article.data.tease && <p class="text-gray-700">{article.data.tease}</p>}
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="text-gray-500">No news articles found for EuroScienceGateway.</p>
+    )
+  }
+</ESGLayout>

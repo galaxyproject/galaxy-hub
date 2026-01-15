@@ -1,0 +1,151 @@
+---
+/**
+ * Bare EU Latest Events Page
+ * Shows upcoming EU events in a compact format (36.1k visits!)
+ * Embedded in Galaxy EU interface - high visibility feed
+ */
+import { getCollection } from 'astro:content';
+
+const now = new Date();
+
+const allEvents = await getCollection('events', (entry) => {
+  const subsites = entry.data.subsites || [];
+  // Filter for EU subsite
+  return (
+    (subsites.includes('eu') ||
+      subsites.includes('all') ||
+      subsites.includes('all-eu') ||
+      subsites.includes('global') ||
+      subsites.length === 0) &&
+    !entry.data.draft
+  );
+});
+
+// Get upcoming events
+const upcomingEvents = allEvents
+  .filter((e) => {
+    const endDate = e.data.date_end ? new Date(e.data.date_end) : e.data.date ? new Date(e.data.date) : null;
+    return endDate && endDate >= now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 5);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
+  if (!start) return '';
+  const startStr = formatDate(start);
+  if (!end) return startStr;
+  const startD = typeof start === 'string' ? new Date(start) : start;
+  const endD = typeof end === 'string' ? new Date(end) : end;
+  if (startD.toDateString() === endD.toDateString()) return startStr;
+  return `${startStr} - ${formatDate(end)}`;
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latest Galaxy Europe Events</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #333;
+        background: transparent;
+      }
+
+      .events-feed {
+        padding: 8px;
+      }
+
+      .event-item {
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      .event-item:last-child {
+        border-bottom: none;
+      }
+
+      .event-item a {
+        color: #25537b;
+        text-decoration: none;
+        font-weight: 500;
+        display: block;
+      }
+
+      .event-item a:hover {
+        text-decoration: underline;
+      }
+
+      .event-date {
+        color: #888;
+        font-size: 0.85em;
+      }
+
+      .event-location {
+        color: #666;
+        font-size: 0.85em;
+      }
+
+      .more-link {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        color: #25537b;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .more-link:hover {
+        background: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="events-feed">
+      {
+        upcomingEvents.length > 0 ? (
+          upcomingEvents.map((event) => {
+            const slug = (event.data.slug || event.id)
+              .replace(/\.mdx?$/, '')
+              .replace(/--/g, '/')
+              .replace(/^events\//, '');
+            const location = event.data.location;
+            const locationStr = location ? (typeof location === 'string' ? location : location.name) : null;
+            return (
+              <div class="event-item">
+                <a href={`https://galaxyproject.org/events/${slug}/`} target="_blank">
+                  {event.data.title}
+                </a>
+                <span class="event-date">{formatDateRange(event.data.date, event.data.date_end)}</span>
+                {locationStr && <span class="event-location"> · {locationStr}</span>}
+              </div>
+            );
+          })
+        ) : (
+          <div class="event-item">No upcoming events</div>
+        )
+      }
+      <a href="https://galaxyproject.org/events/" class="more-link" target="_blank">More events →</a>
+    </div>
+  </body>
+</html>

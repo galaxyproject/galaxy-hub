@@ -1,0 +1,14 @@
+---
+import FlickrVue from '../embed/Flickr.vue';
+
+interface Props {
+  photoId?: string;
+  albumId?: string;
+  userId?: string;
+  url?: string;
+}
+
+const props = Astro.props;
+---
+
+<FlickrVue client:visible {...props} />

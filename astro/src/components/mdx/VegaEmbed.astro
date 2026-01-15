@@ -1,0 +1,11 @@
+---
+import VegaEmbedVue from '../embed/VegaEmbed.vue';
+
+interface Props {
+  spec: string;
+}
+
+const { spec } = Astro.props;
+---
+
+<VegaEmbedVue client:load spec={spec} />

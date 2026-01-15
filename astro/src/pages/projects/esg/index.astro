@@ -1,0 +1,286 @@
+---
+/**
+ * ESG Homepage
+ * EuroScienceGateway project page
+ */
+import ESGLayout from '../../../layouts/ESGLayout.astro';
+import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
+import { getCollection } from 'astro:content';
+
+// Check for solo mode
+const solo = Astro.url.searchParams.get('solo') === 'true';
+
+// Load ESG data from datasets collection
+const datasets = await getCollection('datasets');
+const objectives = datasets.find((d) => d.data.slug === 'projects/esg/objectives')?.data;
+const expectedResults = datasets.find((d) => d.data.slug === 'projects/esg/expected_results')?.data;
+const partners = datasets.find((d) => d.data.slug === 'projects/esg/partners')?.data;
+const externalLinks = datasets.find((d) => d.data.slug === 'projects/esg/external_links')?.data;
+
+// Load ESG news (articles with esg subsite)
+const articles = await getCollection('articles');
+const esgNews = articles
+  .filter((a) => a.data.subsites?.includes('esg') && a.data.slug?.startsWith('news/'))
+  .sort((a, b) => {
+    const dateA = new Date(a.data.date || 0);
+    const dateB = new Date(b.data.date || 0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 6);
+
+// Load ESG events (upcoming)
+const events = await getCollection('events');
+const now = new Date();
+const esgEvents = events
+  .filter((e) => {
+    const subsites = e.data.subsites || [];
+    return (subsites.includes('esg') || subsites.includes('eu')) && new Date(e.data.date || 0) >= now;
+  })
+  .sort((a, b) => {
+    const dateA = new Date(a.data.date || 0);
+    const dateB = new Date(b.data.date || 0);
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 5);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+function esgUrl(path: string): string {
+  return solo ? `${path}?solo=true` : path;
+}
+---
+
+<ESGLayout
+  title="EuroScienceGateway"
+  description="Improving computational workflows in Galaxy by maturing Pulsar Network and publishing computational workflows as FAIR Digital Objects."
+  solo={solo}
+>
+  <!-- Hero / Main Content -->
+  <div class="text-center mb-12">
+    <img
+      src="/images/projects/esg/eosc_euro_science_gateway.svg"
+      alt="EuroScienceGateway"
+      class="max-w-md mx-auto mb-8"
+    />
+
+    <h1 class="sr-only">EuroScienceGateway</h1>
+
+    <div class="prose prose-lg max-w-4xl mx-auto text-left">
+      <h2 class="text-2xl font-light text-gray-700">Project Summary</h2>
+      <p>
+        In the past decade, many scientific domains have been transformed into data-driven disciplines relying on the
+        exchange and integration of internationally distributed data. Exploiting this data is still a laborious and
+        largely manual task, prone to losses and errors, and increasingly specialized beyond most users technical
+        capabilities.
+        <a href="https://doi.org/10.1038/sdata.2016.18" class="text-blue-600 hover:underline">FAIR practices</a>
+        are encouraged but their adoption curve is steep.
+      </p>
+
+      <hr class="my-8 border-gray-300" />
+
+      <p>
+        <strong>EuroScienceGateway</strong> will leverage a distributed computing network across 13 European countries, accessible
+        via 6 national, user-friendly web portals, facilitating access to compute and storage infrastructures across Europe
+        as well as to data, tools, workflows and services that can be customized to suit researchers' needs.
+      </p>
+    </div>
+  </div>
+
+  <!-- Objectives -->
+  {
+    objectives && (
+      <section class="mb-12">
+        <h2 id="objectives" class="text-2xl font-light text-gray-700 mb-6">
+          <a href="#objectives" class="hover:text-blue-600">
+            {objectives.heading || 'Objectives'}
+          </a>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {objectives.objectives?.map((obj: any) => (
+            <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
+              <h3 class="bg-blue-500 text-white px-4 py-2 text-sm font-medium">{obj.title}</h3>
+              <p class="p-4 text-sm text-gray-700">{obj.content}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- External Links -->
+  {
+    externalLinks && (
+      <section class="mb-12">
+        <h2 id="projects" class="text-2xl font-light text-gray-700 mb-6">
+          <a href="#projects" class="hover:text-blue-600">
+            {externalLinks.heading || 'Projects Part of ESG'}
+          </a>
+        </h2>
+        <div class="flex flex-wrap justify-center gap-8">
+          {externalLinks.external_links?.map((link: any) => (
+            <a
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"
+              title={link.name}
+            >
+              <img
+                src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
+                alt={link.name}
+                class="h-16 w-auto object-contain"
+              />
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Interactive Work Packages Poster -->
+  <EsgInteractivePoster />
+
+  <!-- Expected Results -->
+  {
+    expectedResults && (
+      <section class="mb-12">
+        <h2 id="results" class="text-2xl font-light text-gray-700 mb-6">
+          <a href="#results" class="hover:text-blue-600">
+            {expectedResults.heading || 'Expected Results'}
+          </a>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {expectedResults.expected_results?.map((result: any) => (
+            <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
+              <h3 class="bg-blue-500 text-white px-4 py-2 text-sm font-medium">{result.title}</h3>
+              <p class="p-4 text-sm text-gray-700">{result.content}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- News and Events -->
+  <section class="mb-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- News -->
+      <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
+        <h2 class="bg-blue-500 text-white px-4 py-3 flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"
+            ></path>
+          </svg>
+          <a href={esgUrl('/projects/esg/news/')} class="hover:underline">News</a>
+        </h2>
+        <div class="p-4">
+          {
+            esgNews.length > 0 ? (
+              <ul class="space-y-3 mb-4">
+                {esgNews.map((item) => (
+                  <li>
+                    <a href={`/${item.data.slug}/`} class="text-blue-600 hover:underline text-sm">
+                      {item.data.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p class="text-gray-500 text-sm">No news articles yet.</p>
+            )
+          }
+          <a
+            href={esgUrl('/projects/esg/news/')}
+            class="inline-block px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded text-sm font-medium"
+          >
+            More News
+          </a>
+        </div>
+      </div>
+
+      <!-- Events -->
+      <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
+        <h2 class="bg-blue-500 text-white px-4 py-3 flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          </svg>
+          <a href={esgUrl('/projects/esg/events/')} class="hover:underline">Events</a>
+        </h2>
+        <div class="p-4">
+          {
+            esgEvents.length > 0 ? (
+              <ul class="space-y-3 mb-4">
+                {esgEvents.map((event) => (
+                  <li class="flex gap-2">
+                    <span class="text-blue-600 font-medium text-sm whitespace-nowrap">
+                      {formatDate(event.data.date)}
+                    </span>
+                    <a href={`/events/${event.data.slug}/`} class="text-gray-700 hover:text-blue-600 text-sm">
+                      {event.data.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p class="text-gray-500 text-sm">No upcoming events.</p>
+            )
+          }
+          <a
+            href={esgUrl('/projects/esg/events/')}
+            class="inline-block px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded text-sm font-medium"
+          >
+            More Events
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  {
+    partners && (
+      <section class="mb-12">
+        <h2 id="partners" class="text-2xl font-light text-gray-700 mb-6">
+          <a href="#partners" class="hover:text-blue-600">
+            Project Partners
+          </a>
+        </h2>
+        <div class="border-2 border-blue-500 rounded-lg p-6">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            {partners.partners?.map((partner: any) => (
+              <a
+                href={partner.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center justify-center p-2 hover:opacity-80 transition-opacity"
+                title={partner.name}
+              >
+                <img
+                  src={
+                    partner.image?.startsWith('/')
+                      ? partner.image
+                      : `/images/projects/esg/partner-logos/${partner.image?.split('/').pop()}`
+                  }
+                  alt={partner.name}
+                  class="max-h-12 w-auto object-contain"
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+</ESGLayout>

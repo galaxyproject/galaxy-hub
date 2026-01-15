@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const tag = 'cofest';
+const pageTitle = 'Galaxy CoFests';
+const pageDescription = 'Galaxy Contribution Fests - community hackathons and collaborative work sessions';
+
+// Get events with this tag
+const allEvents = await getCollection('events');
+const taggedEvents = allEvents.filter((event) => {
+  const tags = event.data.tags;
+  if (!tags) return false;
+  const tagArray = Array.isArray(tags) ? tags : [tags];
+  return tagArray.some((t) => t.toLowerCase().trim() === tag.toLowerCase());
+});
+
+const now = new Date();
+
+// Split into upcoming and past
+const upcomingEvents = taggedEvents
+  .filter((e) => {
+    const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
+    return eventDate >= now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+    return dateA.getTime() - dateB.getTime();
+  });
+
+const pastEvents = taggedEvents
+  .filter((e) => {
+    const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
+    return eventDate < now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 50);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = date instanceof Date ? date : new Date(date);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="max-w-5xl mx-auto">
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-galaxy-dark mb-2">{pageTitle}</h1>
+      <p class="text-gray-600">{pageDescription}</p>
+      <div class="mt-4">
+        <a href="/events/cofests/papercuts/" class="text-galaxy-primary hover:underline"> → See Papercuts CoFests </a>
+      </div>
+    </div>
+
+    <!-- Upcoming -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-galaxy-dark mb-4">
+        Upcoming CoFests
+        <span class="text-sm font-normal text-gray-500 ml-2">({upcomingEvents.length})</span>
+      </h2>
+
+      {
+        upcomingEvents.length === 0 ? (
+          <p class="text-gray-500 italic">No upcoming CoFests scheduled. Check back soon!</p>
+        ) : (
+          <div class="space-y-4">
+            {upcomingEvents.map((event) => (
+              <a
+                href={`/events/${event.data.slug}/`}
+                class="block p-4 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-md transition-all"
+              >
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 class="font-semibold text-galaxy-dark hover:text-galaxy-primary">{event.data.title}</h3>
+                    {event.data.tease && <p class="text-gray-600 text-sm mt-1 line-clamp-2">{event.data.tease}</p>}
+                  </div>
+                  <span class="text-sm text-galaxy-primary font-medium whitespace-nowrap">
+                    {formatDate(event.data.date)}
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        )
+      }
+    </section>
+
+    <!-- Past -->
+    <section>
+      <h2 class="text-2xl font-bold text-galaxy-dark mb-4">
+        Past CoFests
+        <span class="text-sm font-normal text-gray-500 ml-2">(recent {pastEvents.length})</span>
+      </h2>
+
+      {
+        pastEvents.length === 0 ? (
+          <p class="text-gray-500 italic">No past CoFests found.</p>
+        ) : (
+          <div class="space-y-2">
+            {pastEvents.map((event) => (
+              <a
+                href={`/events/${event.data.slug}/`}
+                class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
+              >
+                <span class="text-sm text-gray-500 min-w-24">{formatDate(event.data.date)}</span>
+                <span class="text-gray-700 hover:text-galaxy-primary">{event.data.title}</span>
+              </a>
+            ))}
+          </div>
+        )
+      }
+    </section>
+  </div>
+</BaseLayout>
