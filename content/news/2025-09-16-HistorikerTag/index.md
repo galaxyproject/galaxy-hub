@@ -1,7 +1,6 @@
 ---
 title: ""Let's write History"–Galaxy at the Historikertag 2025 in Bonn"
-contributions:
-  authorship: [Sch-Da]
+authors: Daniela Schneider
 tags: [conference]
 layout: news
 date: "2025-09-19"
