@@ -120,9 +120,8 @@ const newsYears = Object.keys(newsByYear).map(Number).sort((a, b) => b - a);
     </header>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-      <!-- Main content: News articles -->
-      <div class="lg:col-span-2">
-        {newsArticles.length > 0 && (
+      {newsArticles.length > 0 && (
+        <div class={sortedEvents.length > 0 ? 'lg:col-span-2' : 'lg:col-span-3'}>
           <section class="bg-white rounded-lg shadow-sm overflow-hidden">
             <div class="px-6 py-4 border-b border-gray-100 flex items-center gap-2">
               <svg class="w-5 h-5 text-galaxy-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -170,23 +169,11 @@ const newsYears = Object.keys(newsByYear).map(Number).sort((a, b) => b - a);
               ))}
             </div>
           </section>
-        )}
+        </div>
+      )}
 
-        {newsArticles.length === 0 && sortedEvents.length === 0 && (
-          <div class="bg-white rounded-lg shadow-sm p-12 text-center">
-            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 text-gray-400 mb-4">
-              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <p class="text-gray-500">No content found with this tag.</p>
-          </div>
-        )}
-      </div>
-
-      <!-- Sidebar: Events -->
-      <div class="lg:col-span-1">
-        {sortedEvents.length > 0 && (
+      {sortedEvents.length > 0 && (
+        <div class={newsArticles.length > 0 ? 'lg:col-span-1' : 'lg:col-span-3'}>
           <section class="bg-white rounded-lg shadow-sm overflow-hidden">
             <div class="px-5 py-4 border-b border-gray-100 flex items-center gap-2 bg-gradient-to-r from-amber-50 to-white">
               <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -227,10 +214,21 @@ const newsYears = Object.keys(newsByYear).map(Number).sort((a, b) => b - a);
               </div>
             )}
           </section>
-        )}
+        </div>
+      )}
 
-        <!-- Related tags suggestion could go here in future -->
-      </div>
+      {newsArticles.length === 0 && sortedEvents.length === 0 && (
+        <div class="lg:col-span-3">
+          <div class="bg-white rounded-lg shadow-sm p-12 text-center">
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 text-gray-400 mb-4">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <p class="text-gray-500">No content found with this tag.</p>
+          </div>
+        </div>
+      )}
     </div>
   </div>
 </BaseLayout>
