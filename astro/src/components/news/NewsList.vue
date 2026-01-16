@@ -19,9 +19,9 @@ const props = defineProps<{
 
 const $subsite = useStore(currentSubsite);
 
-// Year-based navigation
+// Year-based navigation - null means "show recent" (no year filter)
 const selectedYear = ref<number | null>(null);
-const pageSize = 50;
+const pageSize = 20;
 const displayCount = ref(pageSize);
 
 // Set initial subsite from URL route if provided
@@ -71,17 +71,6 @@ const availableYears = computed(() => {
   return Array.from(years).sort((a, b) => b - a);
 });
 
-// Set default year to most recent when available years change
-watch(
-  availableYears,
-  (years) => {
-    if (years.length > 0 && (selectedYear.value === null || !years.includes(selectedYear.value))) {
-      selectedYear.value = years[0];
-    }
-  },
-  { immediate: true }
-);
-
 // Reset pagination when year or subsite changes
 watch([selectedYear, $subsite], () => {
   displayCount.value = pageSize;
@@ -100,7 +89,7 @@ function countForYear(year: number): number {
   return filteredBySubsite.value.filter((article) => getYear(article) === year).length;
 }
 
-function selectYear(year: number) {
+function selectYear(year: number | null) {
   selectedYear.value = year;
 }
 
@@ -140,6 +129,15 @@ function buildUrl(slug: string): string {
     <div class="mb-6">
       <div class="flex flex-wrap gap-2">
         <button
+          @click="selectYear(null)"
+          :class="[
+            'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
+            selectedYear === null ? 'bg-galaxy-primary text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+          ]"
+        >
+          Recent
+        </button>
+        <button
           v-for="year in availableYears"
           :key="year"
           @click="selectYear(year)"
@@ -156,8 +154,12 @@ function buildUrl(slug: string): string {
 
     <!-- Results count -->
     <p class="text-sm text-gray-500 mb-6">
-      {{ filteredArticles.length }} article{{ filteredArticles.length !== 1 ? 's' : '' }}
-      <span v-if="selectedYear"> in {{ selectedYear }}</span>
+      <template v-if="selectedYear">
+        {{ filteredArticles.length }} article{{ filteredArticles.length !== 1 ? 's' : '' }} in {{ selectedYear }}
+      </template>
+      <template v-else>
+        Showing most recent articles
+      </template>
     </p>
 
     <!-- Articles -->
@@ -193,7 +195,7 @@ function buildUrl(slug: string): string {
     <!-- Load more -->
     <div v-if="filteredArticles.length > displayCount" class="mt-8 text-center">
       <p class="text-gray-500 mb-4">
-        Showing {{ displayCount }} of {{ filteredArticles.length }} articles in {{ selectedYear }}
+        Showing {{ displayCount }} of {{ filteredArticles.length }} articles<span v-if="selectedYear"> in {{ selectedYear }}</span>
       </p>
       <button
         @click="loadMore"
