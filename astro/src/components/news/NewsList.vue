@@ -71,6 +71,10 @@ const availableYears = computed(() => {
   return Array.from(years).sort((a, b) => b - a);
 });
 
+// Split years: show last 5 as buttons, rest in dropdown
+const recentYears = computed(() => availableYears.value.slice(0, 5));
+const olderYears = computed(() => availableYears.value.slice(5));
+
 // Reset pagination when year or subsite changes
 watch([selectedYear, $subsite], () => {
   displayCount.value = pageSize;
@@ -127,7 +131,7 @@ function buildUrl(slug: string): string {
 
     <!-- Year navigation -->
     <div class="mb-6">
-      <div class="flex flex-wrap gap-2">
+      <div class="flex flex-wrap items-center gap-2">
         <button
           @click="selectYear(null)"
           :class="[
@@ -138,7 +142,7 @@ function buildUrl(slug: string): string {
           Recent
         </button>
         <button
-          v-for="year in availableYears"
+          v-for="year in recentYears"
           :key="year"
           @click="selectYear(year)"
           :class="[
@@ -149,6 +153,21 @@ function buildUrl(slug: string): string {
           {{ year }}
           <span class="ml-1 text-xs opacity-75">({{ countForYear(year) }})</span>
         </button>
+        <!-- Older years dropdown -->
+        <select
+          v-if="olderYears.length > 0"
+          :value="olderYears.includes(selectedYear as number) ? selectedYear : 'older'"
+          @change="(e) => selectYear(Number((e.target as HTMLSelectElement).value))"
+          :class="[
+            'px-3 py-1.5 text-sm font-medium rounded-md transition-colors border-0 cursor-pointer',
+            olderYears.includes(selectedYear as number)
+              ? 'bg-galaxy-primary text-white'
+              : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+          ]"
+        >
+          <option value="older" disabled selected>Older...</option>
+          <option v-for="year in olderYears" :key="year" :value="year">{{ year }} ({{ countForYear(year) }})</option>
+        </select>
       </div>
     </div>
 
@@ -157,9 +176,7 @@ function buildUrl(slug: string): string {
       <template v-if="selectedYear">
         {{ filteredArticles.length }} article{{ filteredArticles.length !== 1 ? 's' : '' }} in {{ selectedYear }}
       </template>
-      <template v-else>
-        Showing most recent articles
-      </template>
+      <template v-else> Showing most recent articles </template>
     </p>
 
     <!-- Articles -->
@@ -195,7 +212,9 @@ function buildUrl(slug: string): string {
     <!-- Load more -->
     <div v-if="filteredArticles.length > displayCount" class="mt-8 text-center">
       <p class="text-gray-500 mb-4">
-        Showing {{ displayCount }} of {{ filteredArticles.length }} articles<span v-if="selectedYear"> in {{ selectedYear }}</span>
+        Showing {{ displayCount }} of {{ filteredArticles.length }} articles<span v-if="selectedYear">
+          in {{ selectedYear }}</span
+        >
       </p>
       <button
         @click="loadMore"
