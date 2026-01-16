@@ -53,7 +53,7 @@ jobs:
       - name: Sync Gridsome to S3
         run: aws s3 sync dist/ s3://${{ secrets.AWS_S3_BUCKET }}/ --delete --acl public-read --follow-symlinks
       - name: Sync Astro preview to S3
-        run: aws s3 sync astro/dist/ s3://astro-hub/ --delete --acl public-read
+        run: aws s3 sync astro/dist/ s3://astro-hub/ --delete
       - name: Invalidate CloudFront cache for feeds
         if: steps.check_changes.outputs.content == 'true'
         run: |
