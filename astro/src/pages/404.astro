@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page Not Found" description="The requested page could not be found">
+  <div class="max-w-2xl mx-auto text-center py-12">
+    <div class="mb-8">
+      <span class="text-8xl font-bold text-galaxy-primary/20">404</span>
+    </div>
+
+    <h1 class="text-3xl font-bold text-galaxy-dark mb-4">Page Not Found</h1>
+
+    <p class="text-gray-600 mb-8">
+      Sorry, we couldn't find the page you're looking for. It may have been moved, deleted, or the URL might be
+      incorrect.
+    </p>
+
+    <div class="space-y-4">
+      <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 text-left">
+        <h3 class="font-semibold text-blue-800 mb-2">Looking for something specific?</h3>
+        <ul class="text-sm text-blue-700 space-y-1">
+          <li>• Try using the <a href="/search/" class="underline hover:text-blue-900">search page</a></li>
+          <li>
+            • Check the <a href="/news/" class="underline hover:text-blue-900">news</a> or <a
+              href="/events/"
+              class="underline hover:text-blue-900">events</a
+            > pages
+          </li>
+          <li>• Browse our <a href="/use/" class="underline hover:text-blue-900">Galaxy platforms</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <a
+          href="/"
+          class="inline-flex items-center px-6 py-2 bg-galaxy-primary hover:bg-galaxy-dark text-white font-medium rounded-lg transition-colors"
+        >
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            ></path>
+          </svg>
+          Go to Homepage
+        </a>
+        <button
+          onclick="history.back()"
+          class="inline-flex items-center px-6 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
+        >
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            ></path>
+          </svg>
+          Go Back
+        </button>
+      </div>
+    </div>
+
+    <!-- Redirect detection for old URLs -->
+    <div id="redirect-notice" class="hidden mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-left">
+      <h3 class="font-semibold text-yellow-800 mb-2">URL Redirect Notice</h3>
+      <p class="text-sm text-yellow-700">
+        This URL may have been moved. If you came from an old link, try searching for the content.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    // Check for common redirect patterns
+    const path = window.location.pathname;
+    const redirectNotice = document.getElementById('redirect-notice');
+
+    // Old /blog/ URLs should redirect to /news/
+    if (path.startsWith('/blog/')) {
+      const newPath = path.replace('/blog/', '/news/');
+      redirectNotice?.classList.remove('hidden');
+      redirectNotice!.innerHTML = `
+        <h3 class="font-semibold text-yellow-800 mb-2">URL Redirect Notice</h3>
+        <p class="text-sm text-yellow-700">
+          The <code>/blog/</code> URL pattern has been moved to <code>/news/</code>.
+          Try: <a href="${newPath}" class="underline hover:text-yellow-900">${newPath}</a>
+        </p>
+      `;
+    }
+
+    // Show notice for any 404 with query params (possible old link)
+    if (window.location.search && redirectNotice) {
+      redirectNotice.classList.remove('hidden');
+    }
+  </script>
+</BaseLayout>

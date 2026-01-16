@@ -253,4 +253,7 @@ module.exports = {
     chainWebpack(config) {
         config.resolve.set("symlinks", false);
     },
+
+    // Transpile dependencies with modern syntax
+    transpileDependencies: [/node_modules\/ol/],
 };

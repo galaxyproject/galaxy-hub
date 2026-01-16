@@ -1,0 +1,64 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+
+// Import MDX components for embedded content
+import VegaEmbed from '../components/mdx/VegaEmbed.astro';
+import Twitter from '../components/mdx/Twitter.astro';
+import Mastodon from '../components/mdx/Mastodon.astro';
+import VideoPlayer from '../components/mdx/VideoPlayer.astro';
+import Carousel from '../components/mdx/Carousel.astro';
+import CalendarEmbed from '../components/mdx/CalendarEmbed.astro';
+import MarkdownEmbed from '../components/mdx/MarkdownEmbed.astro';
+import Flickr from '../components/mdx/Flickr.astro';
+import Supporters from '../components/mdx/Supporters.astro';
+import Contacts from '../components/mdx/Contacts.astro';
+import Insert from '../components/mdx/Insert.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+
+  // Filter out news/ and events/ articles (they have their own routes)
+  // Also filter out use/ articles (handled separately)
+  const genericArticles = articles.filter((article) => {
+    const slug = article.data.slug;
+    return !slug.startsWith('news/') && !slug.startsWith('events/') && !slug.startsWith('use/');
+  });
+
+  return genericArticles.map((article) => ({
+    params: { slug: article.data.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const { title, date, authors = [], tags = [], tease, image } = article.data;
+
+// MDX components map - keys match PascalCase names used in preprocessed content
+const components = {
+  VegaEmbed,
+  Twitter,
+  Mastodon,
+  VideoPlayer,
+  Carousel,
+  CalendarEmbed,
+  MarkdownEmbed,
+  Flickr,
+  Supporters,
+  Contacts,
+  Insert,
+};
+---
+
+<ArticleLayout
+  title={title || 'Galaxy Hub'}
+  description={tease}
+  date={date}
+  authors={authors}
+  tags={tags}
+  image={image}
+>
+  <Content components={components} />
+</ArticleLayout>

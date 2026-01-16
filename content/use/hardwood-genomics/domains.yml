@@ -1,0 +1,24 @@
+domains:
+    - platform_url: https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows
+      ip: 155.37.254.115
+      version: IPv4
+      asn: AS394655 University of Connecticut Health Center
+      org: University of Connecticut Health Center
+      location:
+          city: Farmington
+          region: Connecticut
+          region_code: CT
+          country: US
+          country_name: United States
+          country_code: US
+          continent_code: NA
+          postal: "06030"
+          latitude: 41.7347
+          longitude: -72.7952
+          timezone: America/New_York
+          currency: USD
+      response:
+          time: "2025-11-25T19:42:54Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

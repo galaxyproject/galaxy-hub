@@ -1,0 +1,65 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+
+// Import MDX components for embedded content
+import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
+import Twitter from '../../components/mdx/Twitter.astro';
+import Mastodon from '../../components/mdx/Mastodon.astro';
+import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
+import Carousel from '../../components/mdx/Carousel.astro';
+import CalendarEmbed from '../../components/mdx/CalendarEmbed.astro';
+import MarkdownEmbed from '../../components/mdx/MarkdownEmbed.astro';
+import Flickr from '../../components/mdx/Flickr.astro';
+import Supporters from '../../components/mdx/Supporters.astro';
+import Contacts from '../../components/mdx/Contacts.astro';
+import Insert from '../../components/mdx/Insert.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+
+  // Filter to only news articles (those with slug starting with news/)
+  const newsArticles = articles.filter((article) => article.data.slug.startsWith('news/'));
+
+  return newsArticles.map((article) => {
+    // Remove 'news/' prefix from slug for the URL
+    const urlSlug = article.data.slug.replace(/^news\//, '');
+    return {
+      params: { slug: urlSlug },
+      props: { article },
+    };
+  });
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const { title, date, authors = [], tags = [], tease, image } = article.data;
+
+// MDX components map
+const components = {
+  VegaEmbed,
+  Twitter,
+  Mastodon,
+  VideoPlayer,
+  Carousel,
+  CalendarEmbed,
+  MarkdownEmbed,
+  Flickr,
+  Supporters,
+  Contacts,
+  Insert,
+};
+---
+
+<ArticleLayout
+  title={title || 'News'}
+  description={tease}
+  date={date}
+  authors={authors}
+  tags={tags}
+  image={image}
+  backLink={{ href: '/news/', label: 'Back to News' }}
+>
+  <Content components={components} />
+</ArticleLayout>

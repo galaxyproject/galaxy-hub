@@ -1,0 +1,122 @@
+---
+/**
+ * Bare EU Latest News Page
+ * Shows most recent EU news articles in a compact format (36.2k visits!)
+ * Embedded in Galaxy EU interface - high visibility feed
+ */
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('articles');
+const newsArticles = allArticles
+  .filter((article) => {
+    const path = article.data.slug || article.id;
+    const subsites = article.data.subsites || [];
+    const isNews = path.startsWith('news/') || path.startsWith('news--');
+    const isEU =
+      subsites.includes('eu') ||
+      subsites.includes('all') ||
+      subsites.includes('all-eu') ||
+      subsites.includes('global') ||
+      subsites.length === 0;
+    return isNews && isEU && !article.data.draft;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 5);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latest Galaxy Europe News</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #333;
+        background: transparent;
+      }
+
+      .news-feed {
+        padding: 8px;
+      }
+
+      .news-item {
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      .news-item:last-child {
+        border-bottom: none;
+      }
+
+      .news-item a {
+        color: #25537b;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .news-item a:hover {
+        text-decoration: underline;
+      }
+
+      .news-date {
+        color: #888;
+        font-size: 0.85em;
+        margin-left: 8px;
+      }
+
+      .more-link {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        color: #25537b;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .more-link:hover {
+        background: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="news-feed">
+      {
+        newsArticles.map((article) => {
+          const slug = (article.data.slug || article.id)
+            .replace(/\.mdx?$/, '')
+            .replace(/--/g, '/')
+            .replace(/^news\//, '');
+          return (
+            <div class="news-item">
+              <a href={`https://galaxyproject.org/news/${slug}/`} target="_blank">
+                {article.data.title}
+              </a>
+              <span class="news-date">{formatDate(article.data.date)}</span>
+            </div>
+          );
+        })
+      }
+      <a href="https://galaxyproject.org/news/" class="more-link" target="_blank">More news →</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+---
+import SupportersVue from '../embed/Supporters.vue';
+
+interface Props {
+  supporters?: any[];
+  title?: string;
+}
+
+const props = Astro.props;
+---
+
+<SupportersVue client:visible {...props}>
+  <slot />
+</SupportersVue>
