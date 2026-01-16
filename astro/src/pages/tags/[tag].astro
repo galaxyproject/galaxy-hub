@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllTags, getArticlesByTag, getEventsByTag } from '../../utils/content';
+
+export async function getStaticPaths() {
+  const tagCounts = await getAllTags();
+
+  return Array.from(tagCounts.keys()).map((tag) => ({
+    params: { tag },
+  }));
+}
+
+const { tag } = Astro.params;
+
+// Get articles and events with this tag
+const [articles, events] = await Promise.all([
+  getArticlesByTag(tag),
+  getEventsByTag(tag),
+]);
+
+// Filter to news articles and sort by date (newest first)
+const newsArticles = articles
+  .filter((a) => a.data.slug?.startsWith('news/'))
+  .sort((a, b) => {
+    const dateA = new Date(a.data.date || 0).getTime();
+    const dateB = new Date(b.data.date || 0).getTime();
+    return dateB - dateA;
+  });
+
+// Sort events by date (newest first)
+const sortedEvents = events.sort((a, b) => {
+  const dateA = new Date(a.data.date || 0).getTime();
+  const dateB = new Date(b.data.date || 0).getTime();
+  return dateB - dateA;
+});
+
+// Format date for display
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
+---
+
+<BaseLayout title={`Tagged: ${tag}`} description={`Content tagged with "${tag}"`}>
+  <div class="max-w-6xl mx-auto bg-white">
+    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+      <a href="/tags/" class="text-galaxy-primary hover:text-galaxy-gold text-sm mb-2 inline-block">&larr; All Tags</a>
+      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark">
+        Tagged: <span class="text-galaxy-primary">{tag}</span>
+      </h1>
+      <p class="text-lg text-gray-600 mt-2">
+        {newsArticles.length + sortedEvents.length} items
+      </p>
+    </header>
+
+    <div class="px-6 sm:px-8 py-6 space-y-8">
+      {newsArticles.length > 0 && (
+        <section>
+          <h2 class="text-xl font-semibold text-galaxy-dark mb-4 flex items-center gap-2">
+            <span>News</span>
+            <span class="text-sm font-normal text-gray-500">({newsArticles.length})</span>
+          </h2>
+          <div class="space-y-4">
+            {newsArticles.map((article) => (
+              <article class="border-b border-gray-100 pb-4 last:border-0">
+                <a href={`/${article.data.slug}/`} class="group">
+                  <h3 class="text-lg font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors">
+                    {article.data.title}
+                  </h3>
+                  {article.data.date && (
+                    <time class="text-sm text-gray-500">{formatDate(article.data.date)}</time>
+                  )}
+                  {article.data.tease && (
+                    <p class="text-gray-600 mt-1 line-clamp-2">{article.data.tease}</p>
+                  )}
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {sortedEvents.length > 0 && (
+        <section>
+          <h2 class="text-xl font-semibold text-galaxy-dark mb-4 flex items-center gap-2">
+            <span>Events</span>
+            <span class="text-sm font-normal text-gray-500">({sortedEvents.length})</span>
+          </h2>
+          <div class="space-y-4">
+            {sortedEvents.map((event) => (
+              <article class="border-b border-gray-100 pb-4 last:border-0">
+                <a href={`/${event.data.slug}/`} class="group">
+                  <h3 class="text-lg font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors">
+                    {event.data.title}
+                  </h3>
+                  {event.data.date && (
+                    <time class="text-sm text-gray-500">{formatDate(event.data.date)}</time>
+                  )}
+                  {event.data.location?.name && (
+                    <span class="text-sm text-gray-500 ml-2">• {event.data.location.name}</span>
+                  )}
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {newsArticles.length === 0 && sortedEvents.length === 0 && (
+        <p class="text-gray-500">No content found with this tag.</p>
+      )}
+    </div>
+  </div>
+</BaseLayout>

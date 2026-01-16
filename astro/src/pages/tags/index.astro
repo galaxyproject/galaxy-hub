@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllTags } from '../../utils/content';
+
+// Get all tags with counts
+const tagCounts = await getAllTags();
+
+// Convert to sorted array
+const tags = Array.from(tagCounts.entries())
+  .sort((a, b) => a[0].localeCompare(b[0]))
+  .map(([tag, count]) => ({ tag, count }));
+---
+
+<BaseLayout title="Tags" description="Browse content by tag">
+  <div class="max-w-6xl mx-auto bg-white">
+    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">Tags</h1>
+      <p class="text-lg text-gray-600">Browse news and events by topic</p>
+    </header>
+
+    <div class="px-6 sm:px-8 py-6">
+      <div class="flex flex-wrap gap-3">
+        {tags.map(({ tag, count }) => (
+          <a
+            href={`/tags/${tag}/`}
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-galaxy-primary/25 text-galaxy-dark hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
+          >
+            <span class="font-medium">{tag}</span>
+            <span class="text-sm text-gray-500">({count})</span>
+          </a>
+        ))}
+      </div>
+
+      {tags.length === 0 && (
+        <p class="text-gray-500">No tags found.</p>
+      )}
+    </div>
+  </div>
+</BaseLayout>

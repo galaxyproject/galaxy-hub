@@ -101,6 +101,61 @@ export async function getEventsByTag(tag: string, subsite?: string): Promise<Eve
 }
 
 /**
+ * Get articles filtered by tag
+ */
+export async function getArticlesByTag(tag: string, subsite?: string): Promise<ArticleEntry[]> {
+  const articles = await getArticles(subsite);
+  const normalizedTag = tag.toLowerCase().trim();
+
+  return articles.filter((article) => {
+    const tags = article.data.tags || [];
+    // Case-insensitive comparison
+    return tags.some((t) => t && t.toLowerCase().trim() === normalizedTag);
+  });
+}
+
+/**
+ * Check if a tag is valid (non-empty, no slashes, etc.)
+ */
+function isValidTag(tag: string): boolean {
+  if (!tag || typeof tag !== 'string') return false;
+  const trimmed = tag.trim();
+  // Reject empty tags, tags with slashes (which would break URLs), or very long tags
+  return trimmed.length > 0 && !trimmed.includes('/') && trimmed.length < 100;
+}
+
+/**
+ * Get all unique tags with counts from articles and events
+ */
+export async function getAllTags(): Promise<Map<string, number>> {
+  const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
+
+  const tagCounts = new Map<string, number>();
+
+  // Count tags from articles
+  for (const article of articles) {
+    const tags = article.data.tags || [];
+    for (const tag of tags) {
+      if (!isValidTag(tag)) continue;
+      const normalizedTag = tag.toLowerCase().trim();
+      tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+    }
+  }
+
+  // Count tags from events
+  for (const event of events) {
+    const tags = event.data.tags || [];
+    for (const tag of tags) {
+      if (!isValidTag(tag)) continue;
+      const normalizedTag = tag.toLowerCase().trim();
+      tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+    }
+  }
+
+  return tagCounts;
+}
+
+/**
  * Get all platforms (Galaxy servers)
  */
 export async function getPlatforms(): Promise<PlatformEntry[]> {
