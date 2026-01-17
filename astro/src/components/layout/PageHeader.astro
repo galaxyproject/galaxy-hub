@@ -13,7 +13,11 @@ interface Props {
   tags?: string[];
 }
 
-const { title, description, date, authors = [], tags = [] } = Astro.props;
+const { title, description, date, authors: authorsRaw = [], tags: tagsRaw = [] } = Astro.props;
+
+// Ensure arrays are never null
+const authors = authorsRaw || [];
+const tags = tagsRaw || [];
 
 // Helper to ensure date is a Date object
 function toDate(d: Date | string | undefined): Date | null {
