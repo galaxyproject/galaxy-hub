@@ -15,6 +15,15 @@ interface Props {
 
 const { title, description, date, authors: authorsRaw = [], tags: tagsRaw = [] } = Astro.props;
 
+// Helpers
+function slugify(value: string): string {
+  const normalized = String(value).trim().replace(/^@/, '');
+  return normalized
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 // Ensure arrays are never null
 const authors = authorsRaw || [];
 const tags = tagsRaw || [];
@@ -60,7 +69,7 @@ function toISOString(d: Date | string | undefined): string {
             </time>
           )}
           {authors.length > 0 && (
-            <div class="flex items-center gap-1.5">
+            <div class="flex items-center gap-1.5 flex-wrap">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -75,7 +84,18 @@ function toISOString(d: Date | string | undefined): string {
                   d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                 />
               </svg>
-              <span>{authors.join(', ')}</span>
+              <span class="flex flex-wrap gap-1.5">
+                {authors.map((author, idx) => {
+                  const slug = slugify(author);
+                  const href = slug ? `/hall-of-fame/${slug}/` : '#';
+                  return (
+                    <a href={href} class="underline decoration-white/40 hover:decoration-galaxy-gold">
+                      {author}
+                      {idx < authors.length - 1 ? ',' : ''}
+                    </a>
+                  );
+                })}
+              </span>
             </div>
           )}
         </div>
