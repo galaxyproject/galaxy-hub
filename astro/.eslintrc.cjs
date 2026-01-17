@@ -9,7 +9,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:astro/recommended',
-    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -18,12 +18,22 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
-    // Relaxed rules for migration
+    // TypeScript rules
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
+
+    // Vue rules - disable formatting rules that conflict with Prettier
     'vue/multi-word-component-names': 'off',
     'vue/no-v-html': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/html-self-closing': 'off',
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/html-indent': 'off',
+    'vue/attributes-order': 'off',
+    'vue/first-attribute-linebreak': 'off',
+    'vue/require-default-prop': 'off', // Optional props in shadcn-vue components
   },
   overrides: [
     {
