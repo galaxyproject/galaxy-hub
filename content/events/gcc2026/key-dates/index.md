@@ -14,7 +14,7 @@ understand and don't mind.
 
 | Date   | What |
 | -----: | ---  |
-| Week of Jan 09 | Early registration opens |
+| Week of Jan 19 | Early registration opens |
 | Week of Feb 03 | Abstract submissions open |
 | Apr 06 | Abstract submissions for talks close |
 | Apr 20 | Abstract notifications for talks sent |

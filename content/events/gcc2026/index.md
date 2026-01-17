@@ -23,7 +23,6 @@ subsites: [all, all-eu]
 
 # **2026 Galaxy Community Conference (GCC2026)**
 
-## Save the date!
 ### June 22-24, 2026
 #### Plus [CoFest](/events/gcc2026/cofest/)! June 25-26, 2026
 ### Held in the spectacular [Clermont-Ferrand, France](https://maps.app.goo.gl/g3g3MMivnyHMxVM16)
@@ -35,10 +34,14 @@ subsites: [all, all-eu]
     <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" type="button" class="btn btn-primary">
         <strong>Sign up for email announcements</strong>
     </a>
-    <!-- ◇
-    <a href="/events/gcc2026/abstracts/" type="button" class="btn btn-primary">
-        <strong>Submit an abstracts</strong>
-    </a> -->
+    ◇
+    <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
+        <strong>Register now</strong>
+    </a>
+    ◇
+    <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" type="button" class="btn btn-primary">
+        <strong>Submit an abstract</strong>
+    </a>
   </div>
 </div>
 
@@ -85,6 +88,14 @@ and memorable discoveries.
 
 The **[travel page](/events/gcc2026/travel/) has more details.**
 
+  </div>
+
+  <!-- Fellowships -->
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
+    <img src="/images/events/gcc2026/cartoon-fellowship.png" class="card-img-top" alt="GCC2026 Fellowships" />
+    <div class="card-header">GCC2026 Fellowships</div>
+
+We are pleased to offer several fellowship opportunities to support attendance at the Galaxy Community Conference 2026 in Clermont-Ferrand, France. These awards will help early-career researchers and new Galaxy users participate in this premier event. **The fellowships are open to graduate students, postdoctoral researchers, and early-career scientists who are new to the Galaxy community.** Take  look at the [fellowships page](/events/gcc2026/fellowships/) for more details and to apply.
   </div>
 
   <!-- Host -->

@@ -4,8 +4,12 @@ autotoc: false
 
 <slot name="/events/gcc2026/header" />
 
+<div class="text-center my-5">
+    <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
+        <strong>Register now</strong>
+    </a>
+</div>
 
-***This page will be updated with as soon as final registration information and prices will be released (early January 2028***
 # Registration
 
 ## Meeting: June 22-24
@@ -33,28 +37,31 @@ Note that online registration will close on June 15 but **in-person registration
 will be available onsite during the event**.
 
 If you are currently working in a low-income country, as defined by the
-World Bank, please email the [organizers](TO DO) before
+World Bank, please email the [organizers](/events/gcc2026/organizers/) before
 registering and ask for a 50% discount code that you can apply during
 registration. The [list of eligible low-income countries is available in this
 document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 
 If you are a GTN trainer or a member of the scientific committee at GCC2026
 and are in need of financial help, please email the [event
-organizers](TO DO) and a discount code will be
+organizers](/events/gcc2026/organizers/) and a discount code will be
 provided.
 
-<!--
 |                                    | Early (<= Feb) | Full (<= May) | Late (<= Jun 15) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc                    | EURXXX | EURXXX | EURXXX   |
-| Academic / Non-Profit / Government | EURXXX | EURXXX | EURXXX   |
-| Industry                           | EURXXX | EURXXX | EURXXX   |
-| Conference dinner                  |        |        | EURXX    |
--->
+| Student/postdoc                    | EUR300 | EUR345 | EUR415   |
+| Academic / Non-Profit / Government | EUR350 | EUR400 | EUR480   |
+| Industry                           | EUR450 | EUR675 | EUR1,000 |
+| Conference dinner                  |        |        | EUR70    |
 
 \* Please note that the above prices do not include the mandatory 21% VAT, which
 will be added during registration.
 
+<div class="text-center my-5">
+    <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
+        <strong>Register now</strong>
+    </a>
+</div>
 
 ### Virtual meeting attendance
 
@@ -65,12 +72,9 @@ available virtually. There will be a conference Slack channel where anyone will
 be able to post questions to the speakers and/or interact with others present in
 the channel.
 
-<!--
 |     |      |
 | --- | ---: |
-| Virtual    | EURXX |
--->
-
+| Virtual    | EUR50 |
 
 ## CoFest: June 25-26
 
@@ -81,12 +85,9 @@ to plan, work, or learn about many Galaxy components.
 The registration cost is used to cover the costs of space and drinks during the
 event.
 
-<!--
 |        |        |
 | --- | ---: |
-| CoFest | EURXX |
--->
-
+| CoFest | EUR50 |
 
 ## Lodging
 
@@ -94,18 +95,15 @@ See the [Travel page](/events/gcc2026/travel/) for details about the conference
 hotels. Clermont has many wonderful accommodation choices so also feel free to
 explore more and find a spot.
 
-
 ## Cancellation
 
 There are fees and time invested into each registration so there are associated
 cancellation fees. See the table below for the specifics. If you need to cancel
 your registration, please contact the
-[organizers](TO DO).
+[organizers](/events/gcc2026/organizers/).
 
-<!--
 | Cancelation date         | Cancelation fee |
 | ------------------------ | --------------: |
-| Before April             | XX%             |
-| April   - May            | XX%             |
-| June   and later         | XXX%            |
--->
+| Before April             | 25%             |
+| April   - May            | 50%             |
+| June   and later         | 100%            |
