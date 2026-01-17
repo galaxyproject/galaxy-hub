@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: astro-lint-${{ github.head_ref }}
+  group: astro-checks-${{ github.head_ref }}
   cancel-in-progress: true
 
 defaults:
