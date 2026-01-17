@@ -9,6 +9,9 @@
 [Home](/events/gcc2026/) |
 [Key Dates](/events/gcc2026/key-dates/) |
 [CoFest](/events/gcc2026/cofest/) |
+[Registration](/events/gcc2026/register/) |
+[Abstracts](/events/gcc2026/abstracts/) |
+[Fellowships](/events/gcc2026/fellowships/) |
 [Keynote](/events/gcc2026/keynote/) |
 [Travel](/events/gcc2026/travel/) |
 [Sponsors](/events/gcc2026/sponsors/) |
