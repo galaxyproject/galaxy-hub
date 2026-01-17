@@ -218,9 +218,12 @@ function toISOString(d: Date | string | undefined): string {
         tags && tags.length > 0 && (
           <div class="flex flex-wrap gap-2 mt-6">
             {tags.map((tag: string) => (
-              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary">
+              <a
+                href={`/tags/${tag.toLowerCase()}/`}
+                class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-galaxy-primary/25 text-galaxy-dark hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
+              >
                 {tag}
-              </span>
+              </a>
             ))}
           </div>
         )
