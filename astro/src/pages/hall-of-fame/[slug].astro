@@ -29,10 +29,7 @@ function toArray(value: unknown): string[] {
 }
 
 function normalizeCandidates(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
-  const authors = [
-    ...toArray(entry.data.authors),
-    ...toArray((entry as any).data.authors_structured),
-  ].filter(Boolean);
+  const authors = [...toArray(entry.data.authors), ...toArray((entry as any).data.authors_structured)].filter(Boolean);
   const supporters = toArray(entry.data.supporters).filter(Boolean);
   return { authors, supporters };
 }
@@ -183,9 +180,7 @@ contributions.sort((a, b) => {
   return dateB.getTime() - dateA.getTime();
 });
 
-const pageTitle = displayName
-  ? `Hall of Fame – ${displayName}`
-  : `Hall of Fame – ${targetSlug.replace(/-/g, ' ')}`;
+const pageTitle = displayName ? `Hall of Fame – ${displayName}` : `Hall of Fame – ${targetSlug.replace(/-/g, ' ')}`;
 const pageDescription = matchedType
   ? `News and events attributed to this ${matchedType} across the Galaxy Community Hub.`
   : 'News and events attributed to this contributor across the Galaxy Community Hub.';
@@ -211,9 +206,11 @@ function formatDate(date: Date | string | undefined): string {
           <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{displayName || slug}</h1>
         </div>
         <p class="text-white/80 text-lg max-w-2xl">
-          {matchedType
-            ? `All news and events credited to this ${matchedType}.`
-            : 'All news and events credited to this contributor.'}
+          {
+            matchedType
+              ? `All news and events credited to this ${matchedType}.`
+              : 'All news and events credited to this contributor.'
+          }
         </p>
         <p class="text-white/70 mt-2 text-sm">{totalItems} contribution{totalItems === 1 ? '' : 's'}</p>
         <a
@@ -221,7 +218,7 @@ function formatDate(date: Date | string | undefined): string {
           class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-galaxy-gold transition-colors mt-4"
         >
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
           </svg>
           Back to News
         </a>
