@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
 import { getAllTags, getArticlesByTag, getEventsByTag } from '../../utils/content';
 
 export async function getStaticPaths() {
@@ -69,31 +70,19 @@ const newsYears = Object.keys(newsByYear)
 
 <BaseLayout title={`Tagged: ${tag}`} description={`Content tagged with "${tag}"`}>
   <div class="max-w-6xl mx-auto">
-    <!-- Header -->
-    <header class="bg-white rounded-lg shadow-sm overflow-hidden mb-6">
-      <div class="bg-gradient-to-r from-galaxy-dark via-galaxy-primary to-galaxy-dark h-2"></div>
-      <div class="px-8 py-8">
-        <a
-          href="/tags/"
-          class="inline-flex items-center gap-1.5 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors mb-4"
-        >
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
-          All Tags
-        </a>
+    <PageHeader title={tag} description={`${totalItems} ${totalItems === 1 ? 'item' : 'items'} tagged`}>
+      <a
+        href="/tags/"
+        class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-galaxy-gold transition-colors mt-4"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        All Tags
+      </a>
+    </PageHeader>
 
-        <div>
-          <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">{tag}</h1>
-          <p class="text-gray-500">
-            {totalItems}
-            {totalItems === 1 ? 'item' : 'items'} tagged
-          </p>
-        </div>
-      </div>
-    </header>
-
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
       {
         newsArticles.length > 0 && (
           <div class={sortedEvents.length > 0 ? 'lg:col-span-2' : 'lg:col-span-3'}>
