@@ -1,6 +1,7 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { getPublishedNews } from '../../utils/content';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -16,10 +17,8 @@ import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 
 export async function getStaticPaths() {
-  const articles = await getCollection('articles');
-
-  // Filter to only news articles (those with slug starting with news/)
-  const newsArticles = articles.filter((article) => article.data.slug.startsWith('news/'));
+  // Get only published news articles (excludes future-dated articles)
+  const newsArticles = await getPublishedNews();
 
   return newsArticles.map((article) => {
     // Remove 'news/' prefix from slug for the URL
