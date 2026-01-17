@@ -51,37 +51,52 @@ function toISOString(d: Date | string | undefined): string {
     {description && <p class="text-white/80 text-lg max-w-2xl">{description}</p>}
 
     {/* Article metadata row */}
-    {(date || authors.length > 0) && (
-      <div class="flex flex-wrap items-center gap-4 text-sm text-white/70 mt-4">
-        {date && (
-          <time datetime={toISOString(date)} class="font-medium">
-            {formatDate(date)}
-          </time>
-        )}
-        {authors.length > 0 && (
-          <div class="flex items-center gap-1.5">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-            </svg>
-            <span>{authors.join(', ')}</span>
-          </div>
-        )}
-      </div>
-    )}
+    {
+      (date || authors.length > 0) && (
+        <div class="flex flex-wrap items-center gap-4 text-sm text-white/70 mt-4">
+          {date && (
+            <time datetime={toISOString(date)} class="font-medium">
+              {formatDate(date)}
+            </time>
+          )}
+          {authors.length > 0 && (
+            <div class="flex items-center gap-1.5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+              <span>{authors.join(', ')}</span>
+            </div>
+          )}
+        </div>
+      )
+    }
 
     {/* Tags */}
-    {tags.length > 0 && (
-      <div class="flex flex-wrap gap-2 mt-4">
-        {tags.map((tag) => (
-          <a
-            href={`/tags/${tag.toLowerCase()}/`}
-            class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors"
-          >
-            {tag}
-          </a>
-        ))}
-      </div>
-    )}
+    {
+      tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-4">
+          {tags.map((tag) => (
+            <a
+              href={`/tags/${tag.toLowerCase()}/`}
+              class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors"
+            >
+              {tag}
+            </a>
+          ))}
+        </div>
+      )
+    }
 
     <slot />
   </div>

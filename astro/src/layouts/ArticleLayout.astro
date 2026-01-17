@@ -37,15 +37,7 @@ const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length 
 
 <BaseLayout title={title} description={description}>
   <article class="max-w-6xl mx-auto bg-white relative article-with-corner">
-    {hasMetadata && (
-      <PageHeader
-        title={title}
-        description={description}
-        date={date}
-        authors={authors}
-        tags={tags}
-      />
-    )}
+    {hasMetadata && <PageHeader title={title} description={description} date={date} authors={authors} tags={tags} />}
 
     {
       image && (

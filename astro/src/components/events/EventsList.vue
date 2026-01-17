@@ -296,7 +296,9 @@ function buildUrl(slug: string): string {
             ]"
           >
             <option value="older" disabled selected>Older...</option>
-            <option v-for="year in olderPastYears" :key="year" :value="year">{{ year }} ({{ countPastForYear(year) }})</option>
+            <option v-for="year in olderPastYears" :key="year" :value="year">
+              {{ year }} ({{ countPastForYear(year) }})
+            </option>
           </select>
         </div>
       </div>
