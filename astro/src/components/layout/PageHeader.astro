@@ -1,0 +1,24 @@
+---
+/**
+ * Reusable page header component with Galaxy branding
+ * Features gradient background, grid pattern overlay, and gold accent bar
+ */
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<header class="bg-gradient-to-br from-galaxy-dark to-galaxy-primary text-white px-8 py-10 rounded-t-lg bg-grid-dark">
+  <div>
+    <div class="flex items-center gap-3 mb-4">
+      <div class="w-1 h-8 bg-galaxy-gold rounded-full"></div>
+      <h1 class="text-4xl font-bold tracking-tight">{title}</h1>
+    </div>
+    {description && <p class="text-white/80 text-lg max-w-2xl">{description}</p>}
+    <slot />
+  </div>
+</header>

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
 import { getAllTags } from '../../utils/content';
 
 // Get all tags with counts
@@ -48,37 +49,18 @@ function getTagOpacity(count: number): string {
 <BaseLayout title="Tags" description="Browse content by tag">
   <div class="max-w-6xl mx-auto">
     <!-- Header with stats -->
-    <header
-      class="bg-gradient-to-br from-galaxy-dark to-galaxy-primary text-white px-8 py-10 rounded-t-lg relative overflow-hidden"
-    >
-      <!-- Decorative elements -->
-      <div class="absolute top-0 right-0 w-64 h-64 bg-galaxy-gold/10 rounded-full -translate-y-1/2 translate-x-1/2">
-      </div>
-      <div class="absolute bottom-0 left-0 w-32 h-32 bg-galaxy-gold/5 rounded-full translate-y-1/2 -translate-x-1/2">
-      </div>
-
-      <div class="relative z-10">
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-1 h-8 bg-galaxy-gold rounded-full"></div>
-          <h1 class="text-4xl font-bold tracking-tight">Explore by Tag</h1>
+    <PageHeader title="Explore by Tag" description={`Discover news and events across ${totalTags} topics`}>
+      <div class="flex gap-8 mt-6">
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{totalTags}</span>
+          <span class="text-white/60 text-sm uppercase tracking-wide">Tags</span>
         </div>
-        <p class="text-white/80 text-lg max-w-2xl">
-          Discover news and events across {totalTags} topics
-        </p>
-
-        <!-- Quick stats -->
-        <div class="flex gap-8 mt-6">
-          <div class="flex items-baseline gap-2">
-            <span class="text-3xl font-bold text-galaxy-gold">{totalTags}</span>
-            <span class="text-white/60 text-sm uppercase tracking-wide">Tags</span>
-          </div>
-          <div class="flex items-baseline gap-2">
-            <span class="text-3xl font-bold text-galaxy-gold">{totalItems.toLocaleString()}</span>
-            <span class="text-white/60 text-sm uppercase tracking-wide">Tagged Items</span>
-          </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{totalItems.toLocaleString()}</span>
+          <span class="text-white/60 text-sm uppercase tracking-wide">Tagged Items</span>
         </div>
       </div>
-    </header>
+    </PageHeader>
 
     <!-- Letter navigation -->
     <nav class="bg-white border-b border-gray-200 px-8 py-3 sticky top-0 z-20 shadow-sm">
