@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
 
 interface SearchEntry {
   title: string;

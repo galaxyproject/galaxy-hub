@@ -16,16 +16,7 @@ interface Props {
   };
 }
 
-const {
-  title,
-  description,
-  date,
-  authors: authorsRaw = [],
-  tags: tagsRaw = [],
-  toc = false,
-  image,
-  backLink,
-} = Astro.props;
+const { title, description, date, authors: authorsRaw = [], tags: tagsRaw = [], image, backLink } = Astro.props;
 
 // Ensure arrays are never null
 const authors = authorsRaw || [];

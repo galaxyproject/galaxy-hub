@@ -6,7 +6,7 @@ interface Supporter {
   description?: string;
 }
 
-const props = defineProps<{
+defineProps<{
   supporters?: Supporter[];
   title?: string;
 }>();

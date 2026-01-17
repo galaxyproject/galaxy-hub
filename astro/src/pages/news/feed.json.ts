@@ -4,7 +4,6 @@
  * Format matches original Gridsome feed for backward compatibility
  */
 import { getCollection } from 'astro:content';
-import type { APIContext } from 'astro';
 import { marked } from 'marked';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
@@ -56,7 +55,7 @@ function expandSubsites(subsites: string[]): string[] {
   return subsites;
 }
 
-export async function GET(context: APIContext) {
+export async function GET() {
   const articles = await getCollection('articles');
 
   // Filter to news articles within days_ago limit

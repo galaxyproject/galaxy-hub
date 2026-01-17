@@ -8,7 +8,7 @@ interface Contact {
   avatar?: string;
 }
 
-const props = defineProps<{
+defineProps<{
   contacts?: Contact[];
   title?: string;
 }>();

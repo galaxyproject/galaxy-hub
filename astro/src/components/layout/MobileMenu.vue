@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, setSubsite, type SubsiteId } from '@/stores/subsiteStore';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
-import { ChevronDown, Menu, X } from 'lucide-vue-next';
+import { ChevronDown, Menu } from 'lucide-vue-next';
 
 interface NavItem {
   label: string;

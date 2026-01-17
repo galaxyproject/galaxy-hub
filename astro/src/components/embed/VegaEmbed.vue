@@ -13,11 +13,7 @@ async function renderChart() {
 
   try {
     // Dynamic import to keep Vega out of main bundle
-    const [vegaModule, vegaLiteModule, vegaEmbedModule] = await Promise.all([
-      import('vega'),
-      import('vega-lite'),
-      import('vega-embed'),
-    ]);
+    const [, , vegaEmbedModule] = await Promise.all([import('vega'), import('vega-lite'), import('vega-embed')]);
 
     const vegaEmbed = vegaEmbedModule.default;
 

@@ -14,7 +14,7 @@ import { visit } from 'unist-util-visit';
  * Fix relative links in markdown content
  */
 function fixLinksPlugin() {
-  return (tree, file) => {
+  return (tree) => {
     visit(tree, ['link', 'image'], (node) => {
       if (!node.url) return;
 
@@ -122,7 +122,7 @@ export async function processMarkdown(content, options = {}) {
 /**
  * Extract and process frontmatter
  */
-export function processFrontmatter(frontmatter, filePath) {
+export function processFrontmatter(frontmatter) {
   // Remove layout field (not needed in Astro content collections)
   if (frontmatter.layout) {
     delete frontmatter.layout;

@@ -16,10 +16,6 @@ const platformData = platforms.map((p) => ({
   platforms: p.data.platforms,
   image: p.data.image,
 }));
-
-// Featured servers (main UseGalaxy instances)
-const featuredSlugs = ['use/usegalaxy-org', 'use/usegalaxy-eu', 'use/usegalaxy-au'];
-const featured = featuredSlugs.map((slug) => platformData.find((p) => p.slug === slug)).filter(Boolean);
 ---
 
 <BaseLayout title="Use Galaxy" description="Find a Galaxy server to analyze your data">
