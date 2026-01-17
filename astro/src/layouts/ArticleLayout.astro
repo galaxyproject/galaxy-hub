@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import PageHeader from '../components/layout/PageHeader.astro';
 
 interface Props {
   title: string;
@@ -31,89 +32,16 @@ const authors = authorsRaw || [];
 const tags = tagsRaw || [];
 
 // Check if we have meaningful metadata to show in header
-// Skip header if title is a fallback value and no other metadata
 const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length > 0 || tags.length > 0 || description;
-
-// Helper to ensure date is a Date object
-function toDate(d: Date | string | undefined): Date | null {
-  if (!d) return null;
-  return d instanceof Date ? d : new Date(d);
-}
-
-// Format date for display
-function formatDate(d: Date | string | undefined): string {
-  const date = toDate(d);
-  if (!date) return '';
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
-}
-
-function toISOString(d: Date | string | undefined): string {
-  const date = toDate(d);
-  return date ? date.toISOString() : '';
-}
 ---
 
 <BaseLayout title={title} description={description}>
   <article class="max-w-6xl mx-auto bg-white relative article-with-corner">
-    <!-- Article Header - only show if we have metadata -->
-    {
-      hasMetadata && (
-        <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
-          <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-6">{title}</h1>
-
-          {description && <p class="text-lg text-gray-600 mb-4">{description}</p>}
-
-          <div class="flex flex-wrap items-center gap-4 text-sm text-galaxy-primary/80">
-            {date && (
-              <time datetime={toISOString(date)} class="font-medium">
-                {formatDate(date)}
-              </time>
-            )}
-
-            {authors.length > 0 && (
-              <div class="flex items-center gap-1.5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                  />
-                </svg>
-                <span>{authors.join(', ')}</span>
-              </div>
-            )}
-          </div>
-
-          {tags.length > 0 && (
-            <div class="flex flex-wrap gap-2 mt-4">
-              {tags.map((tag) => (
-                <a
-                  href={`/tags/${tag.toLowerCase()}/`}
-                  class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-galaxy-primary/25 text-galaxy-dark hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
-                >
-                  {tag}
-                </a>
-              ))}
-            </div>
-          )}
-        </header>
-      )
-    }
+    {hasMetadata && <PageHeader title={title} description={description} date={date} authors={authors} tags={tags} />}
 
     {
       image && (
-        <figure class="px-6 sm:px-8 pb-6">
+        <figure class="px-6 sm:px-8 py-6">
           <img src={image} alt={title} class="w-full" />
         </figure>
       )
@@ -127,26 +55,8 @@ function toISOString(d: Date | string | undefined): string {
     <!-- Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
       {
-        tags.length > 0 && (
-          <div class="mb-5 pt-6 border-t border-gray-200">
-            <h3 class="text-sm font-semibold text-galaxy-dark uppercase tracking-wide mb-3">Tags</h3>
-            <div class="flex flex-wrap gap-2">
-              {tags.map((tag) => (
-                <a
-                  href={`/tags/${tag.toLowerCase()}/`}
-                  class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-galaxy-primary/25 text-galaxy-dark hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
-                >
-                  #{tag}
-                </a>
-              ))}
-            </div>
-          </div>
-        )
-      }
-
-      {
         backLink && (
-          <div class={`pt-4 ${tags.length === 0 ? 'border-t border-gray-200' : ''}`}>
+          <div class="pt-4 border-t border-gray-200">
             <a
               href={backLink.href}
               class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"

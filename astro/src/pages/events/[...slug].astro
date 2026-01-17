@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -75,26 +76,28 @@ function formatDateRange(start: Date | string | undefined, endDate?: Date | stri
 }
 
 function toISOString(d: Date | string | undefined): string {
-  const date = toDate(d);
-  return date ? date.toISOString() : '';
+  const dateObj = toDate(d);
+  return dateObj ? dateObj.toISOString() : '';
+}
+
+function getLocationText(loc: typeof location): string {
+  if (!loc) return '';
+  const parts = [loc.name, loc.city, loc.country].filter(Boolean);
+  return parts.join(', ');
 }
 ---
 
 <BaseLayout title={title || 'Event'} description={tease}>
-  <article class="max-w-6xl mx-auto bg-white">
-    <!-- Event Header -->
-    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
-      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-4">{title}</h1>
-
-      {tease && <p class="text-xl text-gray-600 mb-6">{tease}</p>}
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+  <article class="max-w-6xl mx-auto bg-white relative article-with-corner">
+    <PageHeader title={title || 'Event'} description={tease} tags={tags}>
+      {/* Event-specific metadata */}
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
         {
           date && (
-            <div class="flex items-start gap-3">
+            <div class="flex items-start gap-3 text-white/80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -107,10 +110,8 @@ function toISOString(d: Date | string | undefined): string {
                 />
               </svg>
               <div>
-                <span class="block font-medium text-gray-900">Date</span>
-                <time datetime={toISOString(date)} class="text-gray-600">
-                  {formatDateRange(date, end)}
-                </time>
+                <span class="block font-medium text-white">Date</span>
+                <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
               </div>
             </div>
           )
@@ -118,10 +119,10 @@ function toISOString(d: Date | string | undefined): string {
 
         {
           location && (
-            <div class="flex items-start gap-3">
+            <div class="flex items-start gap-3 text-white/80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -140,12 +141,8 @@ function toISOString(d: Date | string | undefined): string {
                 />
               </svg>
               <div>
-                <span class="block font-medium text-gray-900">Location</span>
-                <span class="text-gray-600">
-                  {location.name && <span>{location.name}</span>}
-                  {location.city && <span>{location.city}</span>}
-                  {location.country && <span>, {location.country}</span>}
-                </span>
+                <span class="block font-medium text-white">Location</span>
+                <span>{getLocationText(location)}</span>
               </div>
             </div>
           )
@@ -153,10 +150,10 @@ function toISOString(d: Date | string | undefined): string {
 
         {
           external_url && (
-            <div class="flex items-start gap-3">
+            <div class="flex items-start gap-3 text-white/80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -169,12 +166,12 @@ function toISOString(d: Date | string | undefined): string {
                 />
               </svg>
               <div>
-                <span class="block font-medium text-gray-900">Website</span>
+                <span class="block font-medium text-white">Website</span>
                 <a
                   href={external_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-galaxy-primary hover:underline"
+                  class="text-galaxy-gold hover:underline"
                 >
                   Event Website
                 </a>
@@ -185,10 +182,10 @@ function toISOString(d: Date | string | undefined): string {
 
         {
           contacts.length > 0 && (
-            <div class="flex items-start gap-3">
+            <div class="flex items-start gap-3 text-white/80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-primary flex-shrink-0 mt-0.5"
+                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -201,8 +198,8 @@ function toISOString(d: Date | string | undefined): string {
                 />
               </svg>
               <div>
-                <span class="block font-medium text-gray-900">Contact</span>
-                <span class="text-gray-600">
+                <span class="block font-medium text-white">Contact</span>
+                <span>
                   {contacts
                     .map((c: { name?: string; email?: string }) => c.name || c.email)
                     .filter(Boolean)
@@ -213,19 +210,7 @@ function toISOString(d: Date | string | undefined): string {
           )
         }
       </div>
-
-      {
-        tags && tags.length > 0 && (
-          <div class="flex flex-wrap gap-2 mt-6">
-            {tags.map((tag: string) => (
-              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary">
-                {tag}
-              </span>
-            ))}
-          </div>
-        )
-      }
-    </header>
+    </PageHeader>
 
     <!-- Event Content -->
     <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
@@ -288,5 +273,17 @@ function toISOString(d: Date | string | undefined): string {
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
     text-decoration: underline;
+  }
+
+  /* Folded corner accent */
+  .article-with-corner::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 6px, #ffd700 6px, #ffd700 8px);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
   }
 </style>
