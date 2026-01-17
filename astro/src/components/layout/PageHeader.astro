@@ -12,8 +12,8 @@ interface Props {
 const { title, description } = Astro.props;
 ---
 
-<header class="bg-gradient-to-br from-galaxy-dark to-galaxy-primary text-white px-8 py-10 rounded-t-lg bg-grid-dark">
-  <div>
+<header class="page-header">
+  <div class="page-header-content">
     <div class="flex items-center gap-3 mb-4">
       <div class="w-1 h-8 bg-galaxy-gold rounded-full"></div>
       <h1 class="text-4xl font-bold tracking-tight">{title}</h1>
@@ -22,3 +22,31 @@ const { title, description } = Astro.props;
     <slot />
   </div>
 </header>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: 2.5rem 2rem;
+    background: linear-gradient(135deg, var(--galaxy-dark) 0%, var(--galaxy-primary) 100%);
+    color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  /* Grid overlay */
+  .page-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  .page-header-content {
+    position: relative;
+    z-index: 1;
+  }
+</style>
