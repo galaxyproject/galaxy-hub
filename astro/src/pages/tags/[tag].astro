@@ -44,28 +44,6 @@ function formatDate(date: Date | string | undefined): string {
     day: 'numeric',
   });
 }
-
-// Get year from date for timeline grouping
-function getYear(date: Date | string | undefined): number {
-  if (!date) return 0;
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.getFullYear();
-}
-
-// Group news by year
-const newsByYear = newsArticles.reduce(
-  (acc, article) => {
-    const year = getYear(article.data.date);
-    if (!acc[year]) acc[year] = [];
-    acc[year].push(article);
-    return acc;
-  },
-  {} as Record<number, typeof newsArticles>
-);
-
-const newsYears = Object.keys(newsByYear)
-  .map(Number)
-  .sort((a, b) => b - a);
 ---
 
 <BaseLayout title={`Tagged: ${tag}`} description={`Content tagged with "${tag}"`}>
@@ -82,138 +60,48 @@ const newsYears = Object.keys(newsByYear)
       </a>
     </PageHeader>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
       {
-        newsArticles.length > 0 && (
-          <div class={sortedEvents.length > 0 ? 'lg:col-span-2' : 'lg:col-span-3'}>
-            <section class="bg-white rounded-lg shadow-sm overflow-hidden">
-              <div class="px-6 py-4 border-b border-gray-100 flex items-center gap-2">
-                <svg class="w-5 h-5 text-galaxy-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
-                  />
-                </svg>
-                <h2 class="text-lg font-semibold text-galaxy-dark">News</h2>
-                <span class="text-sm text-gray-400">({newsArticles.length})</span>
-              </div>
-
-              <div class="divide-y divide-gray-50">
-                {newsYears.map((year) => (
-                  <div class="relative">
-                    <div class="sticky top-0 bg-gray-50/95 backdrop-blur-sm px-6 py-2 border-b border-gray-100">
-                      <span class="text-sm font-semibold text-galaxy-primary">{year}</span>
-                    </div>
-
-                    {newsByYear[year].map((article) => (
-                      <a
-                        href={`/${article.data.slug}/`}
-                        class="block px-6 py-4 hover:bg-galaxy-gold/5 transition-colors group"
-                      >
-                        <div class="flex items-start gap-4">
-                          <div class="flex-shrink-0 w-16 text-center">
-                            <div class="text-xs text-gray-400 uppercase">
-                              {new Date(article.data.date || 0).toLocaleDateString('en-US', { month: 'short' })}
-                            </div>
-                            <div class="text-xl font-bold text-galaxy-dark">
-                              {new Date(article.data.date || 0).getDate()}
-                            </div>
-                          </div>
-                          <div class="flex-1 min-w-0">
-                            <h3 class="text-base font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
-                              {article.data.title}
-                            </h3>
-                            {article.data.tease && (
-                              <p class="text-sm text-gray-500 mt-1 line-clamp-2">{article.data.tease}</p>
-                            )}
-                          </div>
-                          <svg
-                            class="w-5 h-5 text-gray-300 group-hover:text-galaxy-gold group-hover:translate-x-1 transition-all flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                          </svg>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            </section>
-          </div>
-        )
-      }
-
-      {
-        sortedEvents.length > 0 && (
-          <div class={newsArticles.length > 0 ? 'lg:col-span-1' : 'lg:col-span-3'}>
-            <section class="bg-white rounded-lg shadow-sm overflow-hidden">
-              <div class="px-5 py-4 border-b border-gray-100 flex items-center gap-2 bg-gradient-to-r from-amber-50 to-white">
-                <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
-                <h2 class="text-lg font-semibold text-galaxy-dark">Events</h2>
-                <span class="text-sm text-gray-400">({sortedEvents.length})</span>
-              </div>
-
-              <div class="divide-y divide-gray-50">
-                {sortedEvents.slice(0, 10).map((event) => (
-                  <a
-                    href={`/${event.data.slug}/`}
-                    class="block px-5 py-3 hover:bg-galaxy-gold/5 transition-colors group"
-                  >
-                    <h3 class="text-sm font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
-                      {event.data.title}
-                    </h3>
-                    <div class="flex items-center gap-2 mt-1 text-xs text-gray-400">
-                      {event.data.date && <time>{formatDate(event.data.date)}</time>}
-                      {event.data.location?.name && (
-                        <>
-                          <span>•</span>
-                          <span class="truncate">{event.data.location.name}</span>
-                        </>
-                      )}
-                    </div>
-                  </a>
-                ))}
-              </div>
-
-              {sortedEvents.length > 10 && (
-                <div class="px-5 py-3 border-t border-gray-100 bg-gray-50">
-                  <span class="text-sm text-gray-500">+ {sortedEvents.length - 10} more events</span>
+        (newsArticles.length > 0 || sortedEvents.length > 0) ? (
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {newsArticles.length > 0 && (
+              <section>
+                <h2 class="text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  News <span class="text-sm font-normal text-gray-400">({newsArticles.length})</span>
+                </h2>
+                <div class="space-y-3">
+                  {newsArticles.map((article) => (
+                    <a href={`/${article.data.slug}/`} class="block group">
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {article.data.title}
+                      </h3>
+                      <time class="text-sm text-gray-400">{formatDate(article.data.date)}</time>
+                    </a>
+                  ))}
                 </div>
-              )}
-            </section>
-          </div>
-        )
-      }
+              </section>
+            )}
 
-      {
-        newsArticles.length === 0 && sortedEvents.length === 0 && (
-          <div class="lg:col-span-3">
-            <div class="bg-white rounded-lg shadow-sm p-12 text-center">
-              <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 text-gray-400 mb-4">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </div>
-              <p class="text-gray-500">No content found with this tag.</p>
-            </div>
+            {sortedEvents.length > 0 && (
+              <section>
+                <h2 class="text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  Events <span class="text-sm font-normal text-gray-400">({sortedEvents.length})</span>
+                </h2>
+                <div class="space-y-3">
+                  {sortedEvents.map((event) => (
+                    <a href={`/${event.data.slug}/`} class="block group">
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {event.data.title}
+                      </h3>
+                      <time class="text-sm text-gray-400">{formatDate(event.data.date)}</time>
+                    </a>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
+        ) : (
+          <p class="text-gray-500 text-center py-8">No content found with this tag.</p>
         )
       }
     </div>
