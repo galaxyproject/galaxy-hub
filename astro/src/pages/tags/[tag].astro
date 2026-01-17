@@ -69,16 +69,33 @@ function formatDate(date: Date | string | undefined): string {
                 <h2 class="text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
                   News <span class="text-sm font-normal text-gray-400">({newsArticles.length})</span>
                 </h2>
-                <div class="space-y-3">
-                  {newsArticles.map((article) => (
-                    <a href={`/${article.data.slug}/`} class="block group">
+                <div class="space-y-4" id="news-list">
+                  {newsArticles.map((article, idx) => (
+                    <a
+                      href={`/${article.data.slug}/`}
+                      class:list={["block group", { "hidden": idx >= 20 }]}
+                      data-item
+                    >
                       <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
                         {article.data.title}
                       </h3>
+                      {article.data.tease && (
+                        <p class="text-sm text-gray-500 mt-1 line-clamp-2">{article.data.tease}</p>
+                      )}
                       <time class="text-sm text-gray-400">{formatDate(article.data.date)}</time>
                     </a>
                   ))}
                 </div>
+                {newsArticles.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="news-list"
+                    data-remaining={newsArticles.length - 20}
+                  >
+                    Show {newsArticles.length - 20} more
+                  </button>
+                )}
               </section>
             )}
 
@@ -87,16 +104,33 @@ function formatDate(date: Date | string | undefined): string {
                 <h2 class="text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
                   Events <span class="text-sm font-normal text-gray-400">({sortedEvents.length})</span>
                 </h2>
-                <div class="space-y-3">
-                  {sortedEvents.map((event) => (
-                    <a href={`/${event.data.slug}/`} class="block group">
+                <div class="space-y-4" id="events-list">
+                  {sortedEvents.map((event, idx) => (
+                    <a
+                      href={`/${event.data.slug}/`}
+                      class:list={["block group", { "hidden": idx >= 20 }]}
+                      data-item
+                    >
                       <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
                         {event.data.title}
                       </h3>
+                      {event.data.tease && (
+                        <p class="text-sm text-gray-500 mt-1 line-clamp-2">{event.data.tease}</p>
+                      )}
                       <time class="text-sm text-gray-400">{formatDate(event.data.date)}</time>
                     </a>
                   ))}
                 </div>
+                {sortedEvents.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="events-list"
+                    data-remaining={sortedEvents.length - 20}
+                  >
+                    Show {sortedEvents.length - 20} more
+                  </button>
+                )}
               </section>
             )}
           </div>
@@ -107,3 +141,18 @@ function formatDate(date: Date | string | undefined): string {
     </div>
   </div>
 </BaseLayout>
+
+<script>
+  document.querySelectorAll('[data-show-more]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const listId = button.getAttribute('data-show-more');
+      const list = document.getElementById(listId);
+      if (list) {
+        list.querySelectorAll('[data-item].hidden').forEach((item) => {
+          item.classList.remove('hidden');
+        });
+        button.remove();
+      }
+    });
+  });
+</script>
