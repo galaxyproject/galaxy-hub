@@ -55,6 +55,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Preprocess content
+        run: npm run preprocess
+
+      - name: Generate search index
+        run: npm run search-index
+
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
