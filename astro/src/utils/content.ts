@@ -4,6 +4,7 @@
  */
 
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { isPublishedDate } from './dateUtils';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -211,6 +212,18 @@ export async function getNews(subsite?: string): Promise<ArticleEntry[]> {
       const dateB = new Date(b.data.date || 0);
       return dateB.getTime() - dateA.getTime();
     });
+}
+
+/**
+ * Get published news articles (excludes future-dated articles)
+ * Note: Filtering happens at build time. Future-dated articles will only
+ * appear after a site rebuild on or after their publication date.
+ */
+export async function getPublishedNews(subsite?: string): Promise<ArticleEntry[]> {
+  const articles = await getNews(subsite);
+  const now = new Date();
+
+  return articles.filter((article) => isPublishedDate(article.data.date, now));
 }
 
 /**

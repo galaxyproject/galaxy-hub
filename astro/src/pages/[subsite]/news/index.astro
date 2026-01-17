@@ -1,8 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import NewsList from '../../../components/news/NewsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
+import { getPublishedNews } from '../../../utils/content';
 
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /news/)
@@ -16,22 +16,8 @@ export function getStaticPaths() {
 
 const { subsiteName, subsiteId } = Astro.props;
 
-// Get all news articles
-const articles = await getCollection('articles');
-
-// Helper to ensure date is a Date object
-function toDate(d: Date | string | undefined): Date | null {
-  if (!d) return null;
-  return d instanceof Date ? d : new Date(d);
-}
-
-const newsArticles = articles
-  .filter((article) => article.data.slug.startsWith('news/'))
-  .sort((a, b) => {
-    const dateA = toDate(a.data.date)?.getTime() || 0;
-    const dateB = toDate(b.data.date)?.getTime() || 0;
-    return dateB - dateA;
-  });
+// Get published news articles (excludes future-dated articles)
+const newsArticles = await getPublishedNews();
 
 // Transform to plain objects for Vue component
 const articleData = newsArticles.map((a) => ({
