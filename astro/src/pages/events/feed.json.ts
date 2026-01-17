@@ -4,7 +4,6 @@
  * Format matches original Gridsome feed for backward compatibility
  */
 import { getCollection } from 'astro:content';
-import type { APIContext } from 'astro';
 import { marked } from 'marked';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
@@ -56,9 +55,8 @@ function getDaysAgo(date: Date): number {
   return Math.floor(diff / (1000 * 60 * 60 * 24));
 }
 
-export async function GET(context: APIContext) {
+export async function GET() {
   const events = await getCollection('events');
-  const now = new Date();
 
   // Filter events within days_ago limit and transform
   const feedItems = await Promise.all(

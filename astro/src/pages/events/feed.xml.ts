@@ -5,8 +5,6 @@ import type { APIContext } from 'astro';
 export async function GET(context: APIContext) {
   const events = await getCollection('events');
 
-  const now = new Date();
-
   // Get upcoming and recent events
   const relevantEvents = events
     .sort((a, b) => {

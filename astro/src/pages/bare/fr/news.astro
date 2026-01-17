@@ -7,33 +7,7 @@
 import { getCollection } from 'astro:content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 
-const allNews = await getCollection('events', (entry) => {
-  const subsites = entry.data.subsites || [];
-  const tags = entry.data.tags || [];
-  // Filter for FR subsite
-  return (
-    (subsites.includes('fr') ||
-      subsites.includes('all') ||
-      subsites.includes('all-fr') ||
-      subsites.includes('global')) &&
-    !entry.data.draft
-  );
-});
-
-// Sort by date descending
-const news = allNews
-  .filter((n) => {
-    // Check if it's actually a news item (has date, in news path or has news-like structure)
-    return n.data.date;
-  })
-  .sort((a, b) => {
-    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
-    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
-    return dateB.getTime() - dateA.getTime();
-  })
-  .slice(0, 50);
-
-// Actually get news from the articles collection
+// Get news from the articles collection
 const allArticles = await getCollection('articles');
 const newsArticles = allArticles
   .filter((article) => {

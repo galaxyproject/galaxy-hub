@@ -81,9 +81,8 @@ test.describe('Content Rendering', () => {
       if (await eventLink.isVisible()) {
         await eventLink.click();
 
-        // Event pages should show date
-        const dateElement = page.locator('time, [datetime]');
-        const dateText = page.getByText(/\d{4}/); // Year somewhere
+        // Event pages should show date (year somewhere on page)
+        const dateText = page.getByText(/\d{4}/);
         await expect(dateText.first()).toBeVisible();
       }
     });
@@ -92,9 +91,9 @@ test.describe('Content Rendering', () => {
       // Navigate to events and find one
       await page.goto('/events/gcc2024/');
 
-      // GCC events typically have location info
-      const locationText = page.getByText(/location|venue|city/i);
-      // Location may or may not be present
+      // GCC events typically have location info - location may or may not be present
+      // This test just verifies the page loads without errors
+      await expect(page.locator('h1').first()).toBeVisible();
     });
   });
 

@@ -4,9 +4,8 @@
  * Format matches original Gridsome feed for backward compatibility
  */
 import { getCollection } from 'astro:content';
-import type { APIContext } from 'astro';
 
-export async function GET(context: APIContext) {
+export async function GET() {
   const platforms = await getCollection('platforms');
 
   // Format as array (matching Gridsome output)

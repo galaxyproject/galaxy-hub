@@ -4,7 +4,6 @@
  * Format matches original Gridsome feed for backward compatibility
  */
 import { getCollection } from 'astro:content';
-import type { APIContext } from 'astro';
 import { marked } from 'marked';
 
 const SITE_URL = 'https://galaxyproject.org';
@@ -25,7 +24,7 @@ function formatAtomDate(date: Date): string {
   return date.toISOString();
 }
 
-export async function GET(context: APIContext) {
+export async function GET() {
   const articles = await getCollection('articles');
 
   // Filter to EU news articles

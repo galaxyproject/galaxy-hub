@@ -22,9 +22,7 @@ test.describe('Static Pages', () => {
     test('shows news section or recent updates', async ({ page }) => {
       await page.goto('/');
 
-      // Should have news section or updates - homepage may vary
-      const newsSection = page.getByText(/news|recent|updates|latest/i);
-      // Just verify page loads with content
+      // Just verify page loads with content - homepage layout may vary
       await expect(page.locator('main')).toBeVisible();
     });
   });
