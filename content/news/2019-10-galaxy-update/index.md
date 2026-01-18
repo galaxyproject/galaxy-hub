@@ -320,7 +320,7 @@ The [Quality Control  tutorial](https://training.galaxyproject.org/topics/sequen
 <div class="card-header">Chat support in [Admin](https://training.galaxyproject.org/training-material/topics/admin/) & [Dev](https://training.galaxyproject.org/training-material/topics/dev/) tutorials</div>
 <img class="card-img-top" src="/images/screenshots/start-chatting.png" alt="Start Chatting" />
 <p class="card-text">
-[Galaxy Admin](https://training.galaxyproject.org/training-material/topics/admin/) & [Dev](https://training.galaxyproject.org/training-material/topics/dev/) topics now include Gitter chat rooms embedded into the tutorials. Ask your questions or just start a discussion about the training topics with fellow learners and tutorial authors.</p>
+[Galaxy Admin](https://training.galaxyproject.org/training-material/topics/admin/) & [Dev](https://training.galaxyproject.org/training-material/topics/dev/) topics now include Matrix chat rooms embedded into the tutorials. Ask your questions or just start a discussion about the training topics with fellow learners and tutorial authors.</p>
 <br />
 </div>
 

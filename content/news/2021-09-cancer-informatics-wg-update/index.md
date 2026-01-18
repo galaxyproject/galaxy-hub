@@ -53,7 +53,7 @@ We still have some steps to take before Galaxy Cancer is ready for users, but th
 - more iobio services as ITs
 - more tools and workflows
 
-If you have questions, comments or suggestions, please let us know in our gitter channel: https://gitter.im/galaxyproject/wg-cancer-informatics
+If you have questions, comments or suggestions, please let us know in our matrix channel: https://matrix.to/#/#galaxyproject_wg-cancer-informatics:gitter.im
 
 
 <br />

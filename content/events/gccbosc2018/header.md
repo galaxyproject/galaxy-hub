@@ -16,6 +16,6 @@
   <div style="font-size: x-large; padding-bottom: 0.25em;"> **June 25-30, Portland, Oregon, United States** </div>
   <div style="font-size: large; padding-bottom: 0.3em;"> **[Registration](/events/gccbosc2018/register/) &nbsp;&nbsp; &bull; &nbsp;&nbsp; [Housing](/events/gccbosc2018/venue/) &nbsp;&nbsp; &bull; &nbsp;&nbsp; [Childcare](/events/gccbosc2018/childcare/) &nbsp;&nbsp; &bull; &nbsp;&nbsp; [Schedule](https://gccbosc2018.sched.com/)**
   </div>
-  [#GCCBOSC](https://twitter.com/hashtag/gccbosc) / [Chat](https://gitter.im/GCC-BOSC-2018/)
+  [#GCCBOSC](https://twitter.com/hashtag/gccbosc) / [Chat](https://matrix.to/#/#GCC-BOSC-2018:gitter.im)
   <br /><br />
 </div>

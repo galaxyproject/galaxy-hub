@@ -11,7 +11,7 @@ Welcome to **UseGalaxy.EU Metabolomics**
 
 </h1>
 
-<strong>Metabolomics.UseGalaxy.eu</strong> is a community driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools. If there is something that should be added, please let us know on [Gitter](https://gitter.im/usegalaxy-eu/Lobby).
+<strong>Metabolomics.UseGalaxy.eu</strong> is a community driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools. If there is something that should be added, please let us know on [Matrix](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im).
 
 During the [2019 Galaxy Community Conference](/events/gcc2019/) (GCC2019) metabolomics users and developers are invited to meet during a Birds of a Feather (BoF) event to plan the aims of this service.
 

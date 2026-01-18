@@ -22,9 +22,9 @@ A sneak peek of the community has recorded __different ways of becoming part of 
 - __If you are (or want to become) an admin__ you can join the Galaxy Admin Training, help with the [training materials](https://training.galaxyproject.org/training-material/topics/admin/)...
 - __If you are a trainer__, there are many opportunities with material ready to go in the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/), and you can also contribute your own tutorials for others to learn and teach.
 - __If you want to learn__, the [GTN](https://training.galaxyproject.org/) is your place! Plenty of training materials that you can follow at your own pace. For questions, the community can help you in the [Galaxy Help forum](https://help.galaxyproject.org/) too!
-- __If you are just curious and would like to meet the community__, join our Gitter channels, attend the [Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition), [webinars](https://galaxyproject.org/events/webinars/), and/or [follow us on Twitter](https://twitter.com/galaxyproject)!
+- __If you are just curious and would like to meet the community__, join our Matrix channels, attend the [Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition), [webinars](https://galaxyproject.org/events/webinars/), and/or [follow us on Twitter](https://twitter.com/galaxyproject)!
 
-More of this in the video! [Get in touch](mailto:outreach@galaxyproject.org) or join our Gitter channels ([.eu](https://gitter.im/usegalaxy-eu/Lobby) and [.org](https://gitter.im/galaxyproject/Lobby)) if you have questions or need more information!
+More of this in the video! [Get in touch](mailto:outreach@galaxyproject.org) or join our Matrix channels ([.eu](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im) and [.org](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)) if you have questions or need more information!
 
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

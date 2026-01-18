@@ -27,7 +27,7 @@ Both projects focus on mentoring and onboarding: one for new communities (think 
 
 Participants apply for internships by contributing to open source projects during the *[contribution period](https://www.outreachy.org/docs/applicant/#application-period).*  For this cohort, the application period starts October 8 and runs through November 5.  During this time, applicants get in touch with mentors, and *make contributions*.
 
-We have been warned by the EDAM folks (you may have met the EDAM Outreachy interns at GCC2021) to expect a lot of questions and contributions during this time. To avoid overwhelming the main Galaxy communication channels we have set up the [GalaxyProject/Outreachy](https://gitter.im/galaxyproject/Outreachy) room on Gitter.  If you are interested in the two project, or in helping potential interns contribute to Galaxy, then please join us there.
+We have been warned by the EDAM folks (you may have met the EDAM Outreachy interns at GCC2021) to expect a lot of questions and contributions during this time. To avoid overwhelming the main Galaxy communication channels we have set up the [GalaxyProject/Outreachy](https://matrix.to/#/#galaxyproject_Outreachy:gitter.im) room on Matrix.  If you are interested in the two project, or in helping potential interns contribute to Galaxy, then please join us there.
 
 Thanks, and hope to see you in chat,<br />
 Anne Fouilloux, Assunta De Santo, Beatriz Serrano-Solano, Bérénice Batut and Dave Clements

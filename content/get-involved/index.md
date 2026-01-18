@@ -21,14 +21,14 @@ experience.
 <div class='right'>![Galaxy Chat](/images/icons/ChatBalloons.png)</div>
 
 Galaxy also has an open community chatroom.  The channel exists on both IRC and
-Gitter, and the rooms are bridged together, so feel free to use whichever
+Matrix, and the rooms are bridged together, so feel free to use whichever
 interface you prefer.  This channel is intended to be an informal online
 gathering place for the Galaxy community to post questions and help each other
-out.  If you are unfamiliar with IRC or Gitter, no worries -- we're friendly!
+out.  If you are unfamiliar with IRC or Matrix, no worries -- we're friendly!
 Do note that the community is widely scattered across the globe, and when you
 post a question you may have to wait a little bit for someone to respond.
 
-To join via Gitter, you can simply click the "OPEN CHAT" button at the bottom
+To join via Matrix, you can simply click the "OPEN CHAT" button at the bottom
 right of this screen.  If you prefer IRC, you can connect directly via browser
 [here](http://webchat.freenode.net/?channels=#galaxyproject), or via
 `irc.freenode.net` in the room `#galaxyproject`, using your favorite IRC

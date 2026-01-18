@@ -15,7 +15,7 @@ image: "/use/gga/gga-logo-trans.png"
 comments:
   - "A complete  Galaxy instance for Genome Annotation."
 user_support:
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Issue reporting for Docker image](https://github.com/bgruening/docker-galaxy-genome-annotation/issues)"
 quotas:

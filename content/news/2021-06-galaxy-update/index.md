@@ -354,7 +354,7 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 
 **17 June, Online, Global**
 
-The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/events/2021-06-papercuts/)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
+The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/events/2021-06-papercuts/)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Matrix and (video as needed) between calls.
 
 If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us June 17.
 

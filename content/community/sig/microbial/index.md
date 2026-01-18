@@ -156,6 +156,6 @@ Anybody interested in microbial data analysis in the Galaxy is welcome to join m
 
 * Join our [**quarterly meetings**](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
 * Join our **working groups** (see above)
-* Join the [Gitter **Chat**](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
+* Join the [Matrix **Chat**](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
 * Join the [**mailing list**](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) microgalaxy@lists.galaxyproject.org
 * Subscribe to the [**calendar**](https://calendar.google.com/calendar/embed?src=npu7puk75n6p0u4aapv5t21uj8%40group.calendar.google.com&ctz=Europe%2FBrussels)

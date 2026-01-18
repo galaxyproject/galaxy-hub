@@ -1,7 +1,7 @@
 ---
 title: Galaxy Proteomics
 autotoc: false
-gitter: usegalaxy-eu/Lobby
+matrix: usegalaxy-eu/Lobby
 components: true
 ---
 

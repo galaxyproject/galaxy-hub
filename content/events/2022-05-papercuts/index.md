@@ -35,7 +35,7 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 
 ## Interested?
 
-On Papercuts Day, please __join us on [Gitter](https://gitter.im/galaxyproject/Lobby)__ (all day). If you don't have a GitHub or Gitter (or Element/Matrix) account yet, then set them up (in that order).
+On Papercuts Day, please __join us on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)__ (all day). If you don't have a GitHub or Matrix (or Element/Matrix) account yet, then set them up (in that order).
 
 
 # Before the event
@@ -54,7 +54,7 @@ If you have time, and want to learn more about contributing you are encouraged t
 # During the event
 
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long.
 
 There are also two GTN CoFest calls planned for the day.
 
