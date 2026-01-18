@@ -1,0 +1,161 @@
+---
+import type { SupporterProfile } from '../../utils/supporters';
+
+interface Props {
+  supporters: SupporterProfile[];
+  title?: string;
+}
+
+const { supporters = [], title = 'Supporters' } = Astro.props;
+---
+
+{
+  supporters.length > 0 && (
+    <section class="supporter-section" aria-label={title}>
+      <h2 class="supporter-heading">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5 text-galaxy-primary"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M7 8h10M7 12h4m1 8l-4-2-4 2V5a2 2 0 012-2h12a2 2 0 012 2v13l-4-2-4 2z"
+          />
+        </svg>
+        {title}
+      </h2>
+
+      <div class="supporter-grid">
+        {supporters.map((supporter) => (
+          <a
+            href={supporter.website || '#'}
+            class:list={['supporter-card', { 'pointer-events-none': !supporter.website }]}
+            target={supporter.website ? '_blank' : undefined}
+            rel={supporter.website ? 'noopener noreferrer' : undefined}
+            data-supporter-card
+          >
+            <div class="supporter-media">
+              {supporter.image ? (
+                <img src={supporter.image} alt={supporter.name} loading="lazy" class="supporter-logo" />
+              ) : (
+                <div class="supporter-placeholder" aria-hidden="true">
+                  {supporter.name.charAt(0).toUpperCase()}
+                </div>
+              )}
+            </div>
+            <div class="supporter-text">
+              <p class="supporter-name">{supporter.name}</p>
+              {supporter.website && (
+                <p class="supporter-url">
+                  {(() => {
+                    try {
+                      return new URL(supporter.website).hostname.replace(/^www\./, '');
+                    } catch {
+                      return supporter.website;
+                    }
+                  })()}
+                </p>
+              )}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .supporter-section {
+    background: linear-gradient(135deg, rgba(37, 83, 123, 0.04), rgba(252, 185, 0, 0.04));
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+  }
+
+  .supporter-heading {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+
+  .supporter-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .supporter-card {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    background: white;
+    text-decoration: none;
+    transition:
+      transform 120ms ease,
+      box-shadow 120ms ease,
+      border-color 120ms ease;
+    color: inherit;
+  }
+
+  .supporter-card:hover {
+    transform: translateY(-1px);
+    border-color: var(--color-galaxy-gold, #fcb900);
+    box-shadow: 0 8px 20px rgba(31, 41, 55, 0.08);
+  }
+
+  .supporter-media {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    background: #f9fafb;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 1px solid #eef2f7;
+  }
+
+  .supporter-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .supporter-placeholder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: #6b7280;
+    font-weight: 700;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #f8fafc, #e5e7eb);
+  }
+
+  .supporter-text {
+    min-width: 0;
+  }
+
+  .supporter-name {
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0;
+  }
+
+  .supporter-url {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+</style>
