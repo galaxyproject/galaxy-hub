@@ -33,6 +33,9 @@ const { event } = Astro.props;
 const { Content } = await render(event);
 
 const { title, date, end, location, tags = [], tease, external_url, contacts = [] } = event.data;
+if (external_url) {
+  return Astro.redirect(external_url);
+}
 
 // MDX components map
 const components = {
