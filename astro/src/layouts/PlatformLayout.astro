@@ -5,6 +5,7 @@
  * Displays platform info, instances table, and various metadata sections
  */
 import BaseLayout from './BaseLayout.astro';
+import { marked } from 'marked';
 
 interface PlatformInstance {
   platform_group?: string;
@@ -61,6 +62,13 @@ const scopeNames: Record<string, string> = {
   general: 'Genomics',
   domain: 'Domain Specific',
   'tool-publishing': 'Tool Publishing',
+};
+
+const renderMarkdown = (value?: string) => (value ? marked.parse(value) : '');
+const renderListItemMarkdown = (value?: string) => {
+  if (!value) return '';
+  const html = marked.parse(value).trim();
+  return html.startsWith('<p>') && html.endsWith('</p>') ? html.slice(3, -4) : html;
 };
 
 // Sections to render
@@ -189,7 +197,7 @@ const sections = [
               {summary && (
                 <tr class="bg-gray-50 even:bg-white">
                   <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40 align-top">Summary:</th>
-                  <td class="px-4 py-3 text-sm text-gray-700" set:html={summary} />
+                  <td class="px-4 py-3 text-sm text-gray-700 prose prose-sm max-w-none" set:html={renderMarkdown(summary)} />
                 </tr>
               )}
             </tbody>
@@ -205,17 +213,17 @@ const sections = [
 
     <!-- Metadata Sections -->
     {
-      sections.map((section) => (
-        <div class="mb-6">
-          <h2 class="text-xl font-semibold text-gray-900 mb-3 capitalize">{section.name}</h2>
-          <ul class="list-disc list-inside space-y-1 text-gray-700">
-            {section.items.map((item: string) => (
-              <li class="prose prose-sm max-w-none" set:html={item} />
-            ))}
-            {section.key === 'citations' && pub_libraries && pub_libraries.length > 0 && (
-              <>
-                {pub_libraries.map((tag: string) => (
-                  <li>
+          sections.map((section) => (
+            <div class="mb-6">
+              <h2 class="text-xl font-semibold text-gray-900 mb-3 capitalize">{section.name}</h2>
+              <ul class="list-disc list-inside space-y-1 text-gray-700">
+                {section.items.map((item: string) => (
+                  <li class="prose prose-sm max-w-none" set:html={renderListItemMarkdown(item)} />
+                ))}
+                {section.key === 'citations' && pub_libraries && pub_libraries.length > 0 && (
+                  <>
+                    {pub_libraries.map((tag: string) => (
+                      <li>
                     <a
                       href={`https://www.zotero.org/groups/1732893/galaxy/tags/%3E${tag}`}
                       target="_blank"
