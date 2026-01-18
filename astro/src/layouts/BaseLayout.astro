@@ -105,5 +105,83 @@ const { title, description = 'Galaxy Community Hub' } = Astro.props;
         </footer>
       </main>
     </div>
+
+    <script is:inline>
+      if (typeof window !== 'undefined') {
+        const slugify = (text) =>
+          String(text || '')
+            .trim()
+            .toLowerCase()
+            .replace(/[\s\W]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+
+        const usedIds = new Set();
+        const ensureId = (el, fallback = 'section') => {
+          if (!el) return fallback;
+          const existing = el.getAttribute('id');
+          if (existing) {
+            usedIds.add(existing);
+            return existing;
+          }
+          const base = slugify(el.textContent || fallback) || fallback;
+          let candidate = base;
+          let i = 2;
+          while (usedIds.has(candidate)) {
+            candidate = `${base}-${i++}`;
+          }
+          el.setAttribute('id', candidate);
+          usedIds.add(candidate);
+          return candidate;
+        };
+
+        const headings = Array.from(document.querySelectorAll('h1, h2, h3, h4, h5, h6'));
+        headings.forEach((heading) => {
+          const id = ensureId(heading);
+          if (!heading.querySelector('.heading-anchor')) {
+            const link = document.createElement('a');
+            link.href = `#${id}`;
+            link.className = 'heading-anchor';
+            link.setAttribute('aria-label', 'Link to this section');
+            link.innerHTML = '⌗';
+            heading.appendChild(link);
+          }
+        });
+
+        const sections = Array.from(document.querySelectorAll('section'));
+        sections.forEach((section) => {
+          if (!section.id) {
+            const firstHeading = section.querySelector('h1, h2, h3, h4, h5, h6');
+            const anchorId = ensureId(firstHeading);
+            section.id = anchorId || ensureId(section);
+          }
+        });
+      }
+    </script>
+
+    <style is:inline>
+      .heading-anchor {
+        margin-left: 0.35rem;
+        font-size: 0.85em;
+        opacity: 0;
+        text-decoration: none;
+        color: inherit;
+        transition: opacity 120ms ease;
+      }
+
+      h1:hover .heading-anchor,
+      h2:hover .heading-anchor,
+      h3:hover .heading-anchor,
+      h4:hover .heading-anchor,
+      h5:hover .heading-anchor,
+      h6:hover .heading-anchor {
+        opacity: 0.6;
+      }
+
+      .heading-anchor:focus-visible {
+        opacity: 1;
+        outline: 2px solid var(--color-galaxy-gold, #fcb900);
+        outline-offset: 2px;
+      }
+    </style>
   </body>
 </html>
