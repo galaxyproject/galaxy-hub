@@ -88,6 +88,24 @@ function getLocationText(loc: typeof location): string {
   const parts = [loc.name, loc.city, loc.country].filter(Boolean);
   return parts.join(', ');
 }
+
+function buildLocation(loc: typeof location) {
+  if (!loc) return undefined;
+  if (typeof loc === 'string') {
+    return {
+      '@type': 'Place',
+      name: loc,
+    };
+  }
+
+  const name = [loc.name, loc.city, loc.country].filter(Boolean).join(', ');
+  const address = [loc.street, loc.city, loc.region, loc.postal, loc.country].filter(Boolean).join(', ');
+  return {
+    '@type': 'Place',
+    name: name || undefined,
+    address: address || undefined,
+  };
+}
 ---
 
 <BaseLayout title={title || 'Event'} description={tease}>
@@ -260,6 +278,44 @@ function getLocationText(loc: typeof location): string {
         }
       </div>
     </footer>
+
+    {
+      (() => {
+        const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
+        const canonical = `${site}/${event.data.slug.replace(/^\/|\/$/g, '')}/`;
+        const start = toDate(date);
+        const endDate = toDate(end);
+        const imageUrl = event.data.image
+          ? event.data.image.startsWith('http')
+            ? event.data.image
+            : `${site}${event.data.image}`
+          : undefined;
+
+        const schemaEvent = {
+          '@context': 'https://schema.org',
+          '@type': 'Event',
+          name: title || 'Event',
+          description: tease || undefined,
+          startDate: start ? start.toISOString() : undefined,
+          endDate: endDate ? endDate.toISOString() : undefined,
+          eventStatus: 'https://schema.org/EventScheduled',
+          url: canonical,
+          image: imageUrl,
+          location: buildLocation(location),
+          organizer: {
+            '@type': 'Organization',
+            name: 'Galaxy Project',
+            url: 'https://galaxyproject.org',
+            logo: {
+              '@type': 'ImageObject',
+              url: `${site}/images/galaxy_logo_hub_white.svg`,
+            },
+          },
+        };
+
+        return <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />;
+      })()
+    }
   </article>
 </BaseLayout>
 
