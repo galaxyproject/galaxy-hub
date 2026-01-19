@@ -1,6 +1,8 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import PageHeader from '../components/layout/PageHeader.astro';
+import SupporterGrid from '../components/content/SupporterGrid.astro';
+import type { SupporterProfile } from '../utils/supporters';
 
 interface Props {
   title: string;
@@ -14,13 +16,24 @@ interface Props {
     href: string;
     label: string;
   };
+  supporters?: SupporterProfile[];
 }
 
-const { title, description, date, authors: authorsRaw = [], tags: tagsRaw = [], image, backLink } = Astro.props;
+const {
+  title,
+  description,
+  date,
+  authors: authorsRaw = [],
+  tags: tagsRaw = [],
+  image,
+  backLink,
+  supporters: supportersRaw = [],
+} = Astro.props;
 
 // Ensure arrays are never null
 const authors = authorsRaw || [];
 const tags = tagsRaw || [];
+const supporters = supportersRaw || [];
 
 // Check if we have meaningful metadata to show in header
 const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length > 0 || tags.length > 0 || description;
@@ -45,6 +58,13 @@ const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length 
 
     <!-- Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
+      {
+        supporters.length > 0 && (
+          <div class="mb-6">
+            <SupporterGrid supporters={supporters} />
+          </div>
+        )
+      }
       {
         backLink && (
           <div class="pt-4 border-t border-gray-200">

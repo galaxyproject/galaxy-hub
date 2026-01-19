@@ -15,6 +15,7 @@ import Flickr from '../../components/mdx/Flickr.astro';
 import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
+import { resolveSupporters } from '../../utils/supporters';
 
 export async function getStaticPaths() {
   // Get only published news articles (excludes future-dated articles)
@@ -37,6 +38,7 @@ const { title, date, authors = [], tags = [], tease, image, external_url } = art
 if (external_url) {
   return Astro.redirect(external_url);
 }
+const supporters = await resolveSupporters((article as any).data.supporters);
 
 // MDX components map
 const components = {
@@ -61,6 +63,7 @@ const components = {
   authors={authors}
   tags={tags}
   image={image}
+  supporters={supporters}
   backLink={{ href: '/news/', label: 'Back to News' }}
 >
   <Content components={components} />
