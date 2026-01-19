@@ -290,3 +290,50 @@ body {
 .trim-p p:last-child {
   margin-bottom: 0;
 }
+
+/* Heading anchor links */
+.heading-anchor {
+  opacity: 0;
+  text-decoration: none;
+  font-weight: 400;
+  color: #25537b;
+  margin-right: 0.5rem;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.heading-anchor::before {
+  content: '#';
+}
+
+.heading-anchor span {
+  display: none;
+}
+
+.heading-anchor:hover {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+/* Show anchor on heading hover */
+h1:hover .heading-anchor,
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor,
+h5:hover .heading-anchor,
+h6:hover .heading-anchor {
+  opacity: 1;
+}
+
+/* Show anchor on focus for keyboard navigation */
+.heading-anchor:focus {
+  opacity: 1;
+  outline: 2px solid #25537b;
+  outline-offset: 2px;
+}
+
+/* Touch devices: show anchors at reduced opacity */
+@media (hover: none) {
+  .heading-anchor {
+    opacity: 0.5;
+  }
+}

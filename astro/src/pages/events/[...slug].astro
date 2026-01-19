@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
+import TableOfContents from '../../components/layout/TableOfContents.astro';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -32,9 +33,13 @@ export async function getStaticPaths() {
 }
 
 const { event } = Astro.props;
-const { Content } = await render(event);
+const { Content, headings } = await render(event);
 
-const { title, date, end, location, tags = [], tease, external_url, contacts = [] } = event.data;
+const { title, date, end, location, tags = [], tease, external_url, contacts = [], autotoc } = event.data;
+
+// Determine if TOC should be shown
+const filteredHeadings = headings.filter((h) => h.depth >= 2 && h.depth <= 4);
+const showToc = autotoc && filteredHeadings.length >= 2;
 if (external_url) {
   return Astro.redirect(external_url);
 }
@@ -273,9 +278,37 @@ const schemaEvent = {
       </div>
     </PageHeader>
 
-    <!-- Event Content -->
-    <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
-      <Content components={components} />
+    {/* Mobile TOC: collapsible details element */}
+    {
+      showToc && (
+        <details class="toc-mobile lg:hidden mx-6 sm:mx-8 mt-6 border border-gray-200 rounded-lg">
+          <summary class="px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-gray-50 rounded-lg">
+            On this page
+          </summary>
+          <div class="px-4 pb-4">
+            <TableOfContents headings={headings} />
+          </div>
+        </details>
+      )
+    }
+
+    {/* Event Content with optional TOC sidebar */}
+    <div class:list={['px-6 sm:px-8 pt-6', showToc && 'lg:flex lg:gap-8']}>
+      {/* Desktop TOC Sidebar */}
+      {
+        showToc && (
+          <aside class="toc-sidebar hidden lg:block lg:w-56 lg:flex-shrink-0">
+            <div class="sticky top-24">
+              <TableOfContents headings={headings} />
+            </div>
+          </aside>
+        )
+      }
+
+      {/* Main Content */}
+      <div class:list={['prose prose-lg prose-galaxy max-w-none', showToc && 'lg:flex-1 lg:min-w-0']}>
+        <Content components={components} />
+      </div>
     </div>
 
     <!-- Event Footer -->

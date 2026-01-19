@@ -32,9 +32,9 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content } = await render(article);
+const { Content, headings } = await render(article);
 
-const { title, date, authors = [], tags = [], tease, image } = article.data;
+const { title, date, authors = [], tags = [], tease, image, autotoc } = article.data;
 
 // MDX components map - keys match PascalCase names used in preprocessed content
 const components = {
@@ -59,6 +59,8 @@ const components = {
   authors={authors}
   tags={tags}
   image={image}
+  headings={headings}
+  autotoc={autotoc}
 >
   <Content components={components} />
 </ArticleLayout>
