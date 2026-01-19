@@ -24,9 +24,18 @@ const props = defineProps<{
 }>();
 
 const $subsite = useStore(currentSubsite);
+const isBrowser = typeof window !== 'undefined';
+
+function getYearFromQuery(): number | null {
+  if (!isBrowser) return null;
+  const param = new URLSearchParams(window.location.search).get('year');
+  if (!param) return null;
+  const parsed = Number(param);
+  return Number.isFinite(parsed) ? parsed : null;
+}
 
 // Year-based navigation for past events
-const selectedPastYear = ref<number | null>(null);
+const selectedPastYear = ref<number | null>(getYearFromQuery());
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
 
@@ -127,15 +136,14 @@ const recentPastYears = computed(() => availablePastYears.value.slice(0, 5));
 const olderPastYears = computed(() => availablePastYears.value.slice(5));
 
 // Set default year to most recent when available years change
-watch(
-  availablePastYears,
-  (years) => {
-    if (years.length > 0 && (selectedPastYear.value === null || !years.includes(selectedPastYear.value))) {
-      selectedPastYear.value = years[0];
-    }
-  },
-  { immediate: true }
-);
+watch(availablePastYears, (years) => {
+  if (years.length === 0) return;
+  if (selectedPastYear.value === null) {
+    selectedPastYear.value = years[0];
+  } else if (!years.includes(selectedPastYear.value)) {
+    selectedPastYear.value = years[0];
+  }
+});
 
 // Reset pagination when year or subsite changes
 watch([selectedPastYear, $subsite], () => {
@@ -158,6 +166,22 @@ function countPastForYear(year: number): number {
 function selectPastYear(year: number) {
   selectedPastYear.value = year;
 }
+
+function updateUrl(year: number | null) {
+  if (!isBrowser) return;
+  const params = new URLSearchParams(window.location.search);
+  if (year === null) {
+    params.delete('year');
+  } else {
+    params.set('year', String(year));
+  }
+  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+  window.history.replaceState({}, '', newUrl);
+}
+
+watch(selectedPastYear, (year) => {
+  updateUrl(year);
+});
 
 function formatDate(date: string | undefined): string {
   if (!date) return '';

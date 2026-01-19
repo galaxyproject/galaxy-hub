@@ -20,7 +20,17 @@ const props = defineProps<{
 const $subsite = useStore(currentSubsite);
 
 // Year-based navigation - null means "show recent" (no year filter)
-const selectedYear = ref<number | null>(null);
+const isBrowser = typeof window !== 'undefined';
+
+function getYearFromQuery(): number | null {
+  if (!isBrowser) return null;
+  const param = new URLSearchParams(window.location.search).get('year');
+  if (!param) return null;
+  const parsed = Number(param);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+const selectedYear = ref<number | null>(getYearFromQuery());
 const pageSize = 20;
 const displayCount = ref(pageSize);
 
@@ -71,6 +81,13 @@ const availableYears = computed(() => {
   return Array.from(years).sort((a, b) => b - a);
 });
 
+// Keep selected year valid when available years change
+watch(availableYears, (years) => {
+  if (selectedYear.value !== null && !years.includes(selectedYear.value)) {
+    selectedYear.value = years[0] ?? null;
+  }
+});
+
 // Split years: show last 5 as buttons, rest in dropdown
 const recentYears = computed(() => availableYears.value.slice(0, 5));
 const olderYears = computed(() => availableYears.value.slice(5));
@@ -96,6 +113,26 @@ function countForYear(year: number): number {
 function selectYear(year: number | null) {
   selectedYear.value = year;
 }
+
+function updateUrl(year: number | null) {
+  if (!isBrowser) return;
+  const params = new URLSearchParams(window.location.search);
+  if (year === null) {
+    params.delete('year');
+  } else {
+    params.set('year', String(year));
+  }
+  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+  window.history.replaceState({}, '', newUrl);
+}
+
+watch(
+  selectedYear,
+  (year) => {
+    updateUrl(year);
+  },
+  { immediate: false }
+);
 
 function loadMore() {
   displayCount.value += pageSize;
