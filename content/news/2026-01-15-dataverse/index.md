@@ -141,7 +141,7 @@ For working with private datasets, we will use [Harvard Dataverse](https://datav
   <img src="har_dv_1.png" alt="Harvard Dataverse: created" width="600"/>
 </div>
 
-### 3) Add datasets to the newly created dataverse
+### 3) Add datasets to the newly created Dataverse
 
 <div align="center">
   <img src="har_dv_2.png" alt="Harvard Dataverse: add dataset" width="600"/>
