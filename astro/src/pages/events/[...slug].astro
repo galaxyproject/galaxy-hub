@@ -106,6 +106,43 @@ function buildLocation(loc: typeof location) {
     address: address || undefined,
   };
 }
+
+// Schema.org structured data
+const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
+const canonical = `${site}/${event.data.slug.replace(/^\/|\/$/g, '')}/`;
+const startDate = toDate(date);
+const endDate = toDate(end);
+const imageUrl = event.data.image
+  ? event.data.image.startsWith('http')
+    ? event.data.image
+    : `${site}${event.data.image}`
+  : undefined;
+
+const eventEndDate = endDate || startDate;
+const isPast = eventEndDate ? eventEndDate < new Date() : false;
+const eventStatus = isPast ? 'https://schema.org/EventCompleted' : 'https://schema.org/EventScheduled';
+
+const schemaEvent = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: title || 'Event',
+  description: tease || undefined,
+  startDate: startDate ? startDate.toISOString() : undefined,
+  endDate: endDate ? endDate.toISOString() : undefined,
+  eventStatus,
+  url: canonical,
+  image: imageUrl,
+  location: buildLocation(location),
+  organizer: {
+    '@type': 'Organization',
+    name: 'Galaxy Project',
+    url: 'https://galaxyproject.org',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${site}/images/galaxy_logo_hub_white.svg`,
+    },
+  },
+};
 ---
 
 <BaseLayout title={title || 'Event'} description={tease}>
@@ -279,43 +316,7 @@ function buildLocation(loc: typeof location) {
       </div>
     </footer>
 
-    {
-      (() => {
-        const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
-        const canonical = `${site}/${event.data.slug.replace(/^\/|\/$/g, '')}/`;
-        const start = toDate(date);
-        const endDate = toDate(end);
-        const imageUrl = event.data.image
-          ? event.data.image.startsWith('http')
-            ? event.data.image
-            : `${site}${event.data.image}`
-          : undefined;
-
-        const schemaEvent = {
-          '@context': 'https://schema.org',
-          '@type': 'Event',
-          name: title || 'Event',
-          description: tease || undefined,
-          startDate: start ? start.toISOString() : undefined,
-          endDate: endDate ? endDate.toISOString() : undefined,
-          eventStatus: 'https://schema.org/EventScheduled',
-          url: canonical,
-          image: imageUrl,
-          location: buildLocation(location),
-          organizer: {
-            '@type': 'Organization',
-            name: 'Galaxy Project',
-            url: 'https://galaxyproject.org',
-            logo: {
-              '@type': 'ImageObject',
-              url: `${site}/images/galaxy_logo_hub_white.svg`,
-            },
-          },
-        };
-
-        return <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />;
-      })()
-    }
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
   </article>
 </BaseLayout>
 

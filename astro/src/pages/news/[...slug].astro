@@ -52,6 +52,35 @@ const components = {
   Contacts,
   Insert,
 };
+
+// Schema.org structured data
+const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
+const canonical = `${site}/${article.data.slug.replace(/^\/|\/$/g, '')}/`;
+const published = date ? new Date(date) : null;
+const authorList = (authors || []).map((name: string) => ({ '@type': 'Person', name }));
+const imageUrl = image ? (image.startsWith('http') ? image : `${site}${image}`) : undefined;
+
+const schemaNews = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: title || 'News',
+  description: tease || undefined,
+  datePublished: published ? published.toISOString() : undefined,
+  dateModified: published ? published.toISOString() : undefined,
+  url: canonical,
+  mainEntityOfPage: canonical,
+  author: authorList.length > 0 ? authorList : undefined,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Galaxy Project',
+    url: 'https://galaxyproject.org',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${site}/images/galaxy_logo_hub_white.svg`,
+    },
+  },
+  image: imageUrl,
+};
 ---
 
 <ArticleLayout
@@ -64,38 +93,5 @@ const components = {
   backLink={{ href: '/news/', label: 'Back to News' }}
 >
   <Content components={components} />
-
-  {
-    (() => {
-      const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
-      const canonical = `${site}/${article.data.slug.replace(/^\/|\/$/g, '')}/`;
-      const published = date ? new Date(date) : null;
-      const authorList = (authors || []).map((name) => ({ '@type': 'Person', name }));
-      const imageUrl = image ? (image.startsWith('http') ? image : `${site}${image}`) : undefined;
-
-      const newsLd = {
-        '@context': 'https://schema.org',
-        '@type': 'NewsArticle',
-        headline: title || 'News',
-        description: tease || undefined,
-        datePublished: published ? published.toISOString() : undefined,
-        dateModified: published ? published.toISOString() : undefined,
-        url: canonical,
-        mainEntityOfPage: canonical,
-        author: authorList.length > 0 ? authorList : undefined,
-        publisher: {
-          '@type': 'Organization',
-          name: 'Galaxy Project',
-          url: 'https://galaxyproject.org',
-          logo: {
-            '@type': 'ImageObject',
-            url: `${site}/images/galaxy_logo_hub_white.svg`,
-          },
-        },
-        image: imageUrl,
-      };
-
-      return <script type="application/ld+json" is:inline set:html={JSON.stringify(newsLd)} />;
-    })()
-  }
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} />
 </ArticleLayout>
