@@ -53,6 +53,7 @@ const baseArticleSchema = z
     subsites: arrayOrString,
     main_subsite: z.string().optional().nullable(),
     redirect: z.string().optional().nullable(),
+    external_url: z.string().optional().nullable(),
     autotoc: z.boolean().optional().nullable(),
     skip_title_render: z.boolean().optional().nullable(),
     image: z.string().optional().nullable(),

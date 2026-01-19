@@ -33,7 +33,10 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content } = await render(article);
 
-const { title, date, authors = [], tags = [], tease, image } = article.data;
+const { title, date, authors = [], tags = [], tease, image, external_url } = article.data;
+if (external_url) {
+  return Astro.redirect(external_url);
+}
 
 // MDX components map
 const components = {
