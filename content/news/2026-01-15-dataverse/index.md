@@ -97,7 +97,7 @@ If you are, for example, looking for scans of Medieval texts, search for "handwr
 
 ---
 
-# Export from dataverse to Galaxy history
+# Export from Dataverse to Galaxy history
 
 
 ### 1) Add files to the upload queue from BSC Dataverse source in Galaxy
