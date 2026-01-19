@@ -3,14 +3,10 @@ title: Development News Brief
 date: 2011-06-23
 ---
 
-----
-[getgalaxy.org](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
+**Get Galaxy!** [http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
 
-new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
-
-upgrade: `% hg pull -u -r 720455407d1c`
-
-----
+* new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
+* upgrade: `% hg pull -u -r 720455407d1c`
 
 ## GCC 2011
 
