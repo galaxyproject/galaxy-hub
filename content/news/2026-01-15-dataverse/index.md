@@ -171,7 +171,7 @@ The datasets imported from public and private dataverses can be directly used in
 
 # Significance for reproducible Galaxy tools and workflows
 
-Connecting BSC Dataverse as a direct repository source in Galaxy makes it easier to operationalize FAIR data management:
+Connecting Dataverse as a direct repository source in Galaxy makes it easier to operationalize FAIR data management:
 
 - **Direct repository access in the Galaxy Upload** (browse + search).
 - **Less manual file handling** (fewer downloads/re-uploads).
