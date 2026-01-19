@@ -177,3 +177,4 @@ Connecting Dataverse as a direct repository source in Galaxy makes it easier to 
 - **Less manual file handling** (fewer downloads/re-uploads).
 - **Clear provenance**: imported files become explicit history items.
 - **Sharing and reusablility**: one repository configuration can power many analyses and workflows.
+- **Easier sharing of your own data** After you have analysed your material in Galaxy, you can easily push it to Dataverse.
