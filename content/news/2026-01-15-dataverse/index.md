@@ -10,7 +10,7 @@ tags: [tools]
 
 # Integration of Dataverse with Galaxy
 
-A common bottleneck in reproducible research is **moving data between analysis platforms and FAIR repositories**: downloading files locally, re-uploading them to Galaxy, and later repeating the process to publish results back into a repository. We will walk through an example dataverse - [Barcelona Supercomputing Center (BSC))(https://dataverse.bsc.es/) Dataverse showcasing its usage from within Galaxy. The public datasets inside the dataverse become directly accessible using the Galaxy's dataverse file source plugin. For showing the usage of private data repositories, we will use [Harvard Dataverse](https://dataverse.harvard.edu/).
+A common bottleneck in reproducible research is **moving data between analysis platforms and FAIR repositories**: downloading files locally, re-uploading them to Galaxy, and later repeating the process to publish results back into a repository. We will walk through an example dataverse - [Barcelona Supercomputing Center (BSC)](https://dataverse.bsc.es/) Dataverse showcasing its usage from within Galaxy. The public datasets inside the dataverse become directly accessible using the Galaxy's dataverse file source plugin. For showing the usage of private data repositories, we will use [Harvard Dataverse](https://dataverse.harvard.edu/).
 
 With Galaxy’s dataverse integration, you can connect a dataverse instance (here: **BSC Dataverse**) as a **file source** and then:
 
