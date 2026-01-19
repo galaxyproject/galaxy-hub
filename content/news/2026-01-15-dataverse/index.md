@@ -100,7 +100,7 @@ If you are, for example, looking for scans of Medieval texts, search for "handwr
 # Export from Dataverse to Galaxy history
 
 
-### 1) Add files to the upload queue from BSC Dataverse source in Galaxy
+### 1) Add files to the upload queue
 
 In the Upload dialog, choose **BSC Dataverse** as the destination and add the file(s) to the queue.
 
