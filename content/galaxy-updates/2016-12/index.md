@@ -30,7 +30,7 @@ To address these issues we are holding the [Community Hub Contribution Convergen
 * Drop obsolete material
 * Work out plans and best practices for supporting semi-structured content and page metadata.
 
-CHCC will use [GitHub](https://github.com/galaxyproject/galaxy-site/issues/35) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us.
+CHCC will use [GitHub](https://github.com/galaxyproject/galaxy-site/issues/35) to coordinate work, and a Matrix channel for communication during the event.  Interested?  Please join us.
 
 
 # Events

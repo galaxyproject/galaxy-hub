@@ -137,7 +137,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <img class="card-img-top" src="/use/bridge/bridge-slice-500.png" alt="BRIDGE" />
 
-[BRIDGE (Biomolecular Reaction and Interaction Dynamics Global Environment)](https://galaxy-compchem.ilifu.ac.za/) is a Computational Chemistry flavour of Galaxy - a webserver for preparing, simulating and analysing and visualising molecular simulations, especially molecular dynamics and free energies. Includes NAMD, GROMACS and CHARMM. Offers tutorials and a [Gitter support channel](https://gitter.im/galaxycomputationalchemistry/Lobby).
+[BRIDGE (Biomolecular Reaction and Interaction Dynamics Global Environment)](https://galaxy-compchem.ilifu.ac.za/) is a Computational Chemistry flavour of Galaxy - a webserver for preparing, simulating and analysing and visualising molecular simulations, especially molecular dynamics and free energies. Includes NAMD, GROMACS and CHARMM. Offers tutorials and a [Matrix support channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im).
 </div>
 
 
@@ -147,7 +147,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <img class="card-img-top" src="/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Objects" />
 
-Implements the [BioCompute Objects](https://biocomputeobject.org/about.html) standard for communication of High-throughput Sequencing (HTS) analysis results, data set creation and curation, and bioinformatics verification protocols within a Galaxy server.  Extensive [documentation](https://github.com/biocompute-objects/BCO_Specification) and [chat support](https://gitter.im/biocompute-objects/community) are available.
+Implements the [BioCompute Objects](https://biocomputeobject.org/about.html) standard for communication of High-throughput Sequencing (HTS) analysis results, data set creation and curation, and bioinformatics verification protocols within a Galaxy server.  Extensive [documentation](https://github.com/biocompute-objects/BCO_Specification) and [chat support](https://matrix.to/#/#biocompute-objects_community:gitter.im) are available.
 </div>
 
 

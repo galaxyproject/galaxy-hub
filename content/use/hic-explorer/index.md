@@ -14,7 +14,7 @@ comments:
 the study of the 3D conformation of chromatin by allowing
 Hi-C data processing, analysis and visualization."
 user_support:
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html) tutorial and [example history](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training)"
 quotas:

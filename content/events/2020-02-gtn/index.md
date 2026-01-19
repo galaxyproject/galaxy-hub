@@ -25,7 +25,7 @@ This CoFest's topic is: **Admin Training**! We will focus on that topic, but any
 
 Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
 
-We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.6n6fbpoqj6s81h9aokvtim69id) (drop-in channel we will keep open the whole day) and the [GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.6n6fbpoqj6s81h9aokvtim69id) (drop-in channel we will keep open the whole day) and the [GTN Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im).
 
 # GTN Call
 
@@ -37,4 +37,4 @@ Agenda and minutes document in [this Google Doc](https://docs.google.com/documen
 
 ---
 
-*If you want to join to help or to talk and learn about the project, let us know on the [Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) or by leaving a comment on the [issue on GitHub](https://github.com/galaxyproject/training-material/issues/1631)*
+*If you want to join to help or to talk and learn about the project, let us know on the [Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im) or by leaving a comment on the [issue on GitHub](https://github.com/galaxyproject/training-material/issues/1631)*

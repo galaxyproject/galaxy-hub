@@ -24,7 +24,7 @@ If you are working in data intensive science in India then please consider getti
 <a href="https://www.galaxyproject.in/"><i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 <a href="https://chat.whatsapp.com/CCXT7t97ZX5D3MiD7MVmun"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
 <a href="https://chat.whatsapp.com/LYAWg6Yah1i4QbMU0sktqB"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-<a href="https://gitter.im/usegalaxy-in/adda"><i class="fab fa-gitter" aria-hidden="true"></i></a>
+<a href="https://matrix.to/#/#usegalaxy-in_adda:gitter.im"><i class="fab fa-matrix" aria-hidden="true"></i></a>
 <a href="http://twitter.com/GxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 <a href="http://twitter.com/useGalaxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 <a href="https://github.com/usegalaxy-in/"><i class="fab fa-github" aria-hidden="true"></i></a>

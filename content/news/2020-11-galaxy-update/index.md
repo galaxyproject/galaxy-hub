@@ -209,7 +209,7 @@ Un Hackathon pour partager des compétences en terme du développement logiciel 
 
 </div>
 
-Galaxy Admin Training is coming in January.  It will be online and global, and registration will open this month.  Watch Twitter, this web site, and Galaxy Gitter channels for the announcement.
+Galaxy Admin Training is coming in January.  It will be online and global, and registration will open this month.  Watch Twitter, this web site, and Galaxy Matrix channels for the announcement.
 </div>
 
 

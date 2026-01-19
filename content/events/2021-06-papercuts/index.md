@@ -44,9 +44,9 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 <br /><br />
 </div>
 
-## Slack, Gitter and Call Schedule
+## Slack, Matrix and Call Schedule
 
-**We will be on GCC2021 Slack #cofest channel (if you are registered for the CoFest) or [Gitter](https://gitter.im/galaxyproject/Lobby) (if you aren't) for chat all day long, and on 3 calls spread across the day.** Please take advantage of both to communicate with your collaborators around the world.
+**We will be on GCC2021 Slack #cofest channel (if you are registered for the CoFest) or [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) (if you aren't) for chat all day long, and on 3 calls spread across the day.** Please take advantage of both to communicate with your collaborators around the world.
 
 * **Call 1: Oceania, Australia, Asia**
     * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210617T14&p1=152&am=30).

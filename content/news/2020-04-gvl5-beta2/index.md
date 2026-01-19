@@ -36,7 +36,7 @@ To ensure responsiveness and scalability of the Galaxy application, Galaxy is co
 
 # How to start using the GVL?
 
-The GVL 5 beta2 release is available via CloudLaunch at [https://launch.usegalaxy.org/](https://launch.usegalaxy.org/), as the GVL 5.0 beta2 version of the Genomics Virtual Lab appliance. The GVL continues to be uniformly available on at least 4 different clouds: AWS, GCP, NeCTAR, and Jetstream. If you would like to enable GVL on your cloud, please [reach out to us](https://gitter.im/galaxyproject/FederatedGalaxy).
+The GVL 5 beta2 release is available via CloudLaunch at [https://launch.usegalaxy.org/](https://launch.usegalaxy.org/), as the GVL 5.0 beta2 version of the Genomics Virtual Lab appliance. The GVL continues to be uniformly available on at least 4 different clouds: AWS, GCP, NeCTAR, and Jetstream. If you would like to enable GVL on your cloud, please [reach out to us](https://matrix.to/#/#galaxyproject_FederatedGalaxy:gitter.im).
 
 
 # What’s next for the GVL?

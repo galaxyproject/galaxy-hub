@@ -5,7 +5,7 @@ This page contains statistics about the [Galaxy Project](/galaxy-project/).  Thi
 
 
 
-# Galaxy Support: Help Forum & Gitter Chat
+# Galaxy Support: Help Forum & Matrix Chat
 
 The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It was created as a brand new site, with none of the posts or user data from our old BioStar site copied over.
 
@@ -24,16 +24,16 @@ The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/)
 
 [![](/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
 
-**Membership** in the two main support channels over time: [help.galaxyproject.org](https://help.galaxyproject.org/) and the [project's main Gitter/Matrix room](https://gitter.im/galaxyproject/Lobby).
+**Membership** in the two main support channels over time: [help.galaxyproject.org](https://help.galaxyproject.org/) and the [project's main Matrix room](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) (formerly on Gitter).
 
 [![](/galaxy-project/statistics/other-chat-channels.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=953953023&format=interactive)
 
-The Galaxy community uses Gitter.im / Matrix for chat, and there are many different channels, depending upon the topic.  Here are the channels with 35 or more members.
+The Galaxy community uses Matrix (bridged from the former Gitter rooms) for chat, and there are many different channels, depending upon the topic.  Here are the channels with 35 or more members.
 
 
 ## Mailing Lists
 
-Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/mailing-lists/) remain the only frequently active mailing lists. Here's the history:
+Most of Galaxy's mailing list traffic has migrated to the help forum and to Matrix.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/mailing-lists/) remain the only frequently active mailing lists. Here's the history:
 
 * 2011/12: Galaxy-Announce list launched.
 * 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/main/) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
@@ -57,17 +57,17 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 |---|---:|
 | [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 807 |
 | [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 451 |
-| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 388 |
+| [UseGalaxy.EU Matrix](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im) | 388 |
 | [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 93 |
 | [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 56 |
 | | |
 | **Topic-Based Community / Channel** |  |
-| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 412 |
-| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 185 |
-| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 165 |
+| [Galaxy Training Matrix](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im) | 412 |
+| [Galaxy Admins Matrix](https://matrix.to/#/#galaxyproject_admins:gitter.im) | 185 |
+| [Galaxy IUC Matrix](https://matrix.to/#/#galaxy-iuc_iuc:gitter.im) | 165 |
 | [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 160 |
 | [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 93 |
-| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 77 |
+| [Galaxy Dev Matrix](https://matrix.to/#/#galaxyproject_dev:gitter.im) | 77 |
 
 
 # Publications / Citations

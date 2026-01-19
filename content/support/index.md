@@ -12,7 +12,7 @@ title: Galaxy Support
 ## Help Resources
 
 * [Galaxy Help](https://help.galaxyproject.org/)
-* [Chat](https://gitter.im/galaxyproject/Lobby)
+* [Chat](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)
 * [YouTube channel](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA)
 * Query all Galaxy resources with the search function in the top masthead
 

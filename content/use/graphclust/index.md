@@ -18,7 +18,7 @@ user_support:
   - "[Interactive Tours](https://graphclust.usegalaxy.eu/)"
   - "[Video: Installing GraphClust with Docker](https://www.youtube.com/watch?v=fJ6tUt_6uas)"
   - "And a multitude of example shared workflows and histories."
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Docker Container: None"

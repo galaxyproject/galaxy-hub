@@ -88,10 +88,10 @@ What if you can't find yourself in these lists of regional and/or community of p
 
 <div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/collaborators.svg" style="width:200px;height:100px;" alt="community events" /></div>
 
-Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in Gitter or the Help Forum to mention some ways.
+Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in Matrix or the Help Forum to mention some ways.
 
 ### Working Groups
-Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/) and look into their Github Project, Gitter channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
+Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/) and look into their Github Project, Matrix channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
 Some of the current Working Groups include Tools, Systems and User Interface/User Experience.
 
 ### Galaxy Mentor Network

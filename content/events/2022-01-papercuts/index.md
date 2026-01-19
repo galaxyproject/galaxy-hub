@@ -29,9 +29,9 @@ This will be a __24h event__, spanning __all time zones__ with our worldwide com
 
 ### Interested?
 
-On Papercuts Day, please __join us on [Gitter](https://gitter.im/galaxyproject/Lobby)__ (all day), and on __3 calls__ held throughout the day (arranged to cover the globe).
+On Papercuts Day, please __join us on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)__ (all day), and on __3 calls__ held throughout the day (arranged to cover the globe).
 
-If you don't have a GitHub or Gitter (or Elements/Matrix) account yet, then set them up (in that order).
+If you don't have a GitHub or Matrix (or Elements/Matrix) account yet, then set them up (in that order).
 
 
 # Before the event
@@ -49,7 +49,7 @@ If you have time, and want to learn more about contributing you are encouraged t
 
 # During the event
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 * **Papercuts Call 1: Oceania, Australia, Asia**
     * 14:00 Australia Eastern time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=APAC+Galaxy+Papercuts+CoFest+Call&iso=20220120T14&p1=152&am=30).

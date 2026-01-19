@@ -12,7 +12,7 @@ image: "/images/galaxy-logos/galaxy-africa-logo-300.png"
 comments:
   - "The public server is configured by the Galaxy Africa team, and hosted by the UseGalaxy.eu team."
 user_support:
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Registered users' data (i.e. datasets, histories) will be available as long as they are not deleted by the user. Once marked as deleted the datasets will be permanently removed within 14 days. If the user *purges* the dataset in the Galaxy, it will be removed immediately, permanently. An extended quota can be [requested](https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform) for a limited time period in special cases."

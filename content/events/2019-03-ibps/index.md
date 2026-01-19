@@ -9,7 +9,7 @@ location:
 location_url: "https://www.google.com/maps/d/viewer?mid=1hOogl-2tKCtwgsyf0v7ztigLBU0&ll=48.847069261929576%2C2.3571523499999785&z=17"
 image: 
 external_url: "http://artbio.fr/?page_id=341"
-contact: "https://gitter.im/ARTbio/Hotline"
+contact: "https://matrix.to/#/#ARTbio_Hotline:gitter.im"
 gtn: true
 subsites: [global, us]
 ---

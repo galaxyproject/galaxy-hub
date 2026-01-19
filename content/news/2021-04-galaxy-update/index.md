@@ -258,7 +258,7 @@ In addition, there are two more webinars this month:
 
 Please join us for the [7th Papercuts CoFest day on April 15](/events/2021-04-papercuts/) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 
