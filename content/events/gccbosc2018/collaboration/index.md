@@ -12,7 +12,7 @@ GCCBOSC 2018 finished with *CollaborationFest*, a 2 (or 3 or 4) day collaborativ
 
 * [Add or expand the cluster ideas document](http://bit.ly/cofest2018-ideas)
 * [Add an introduction and indicate your preferred working clusters](http://bit.ly/cofest2018-intro)
-* Ask questions on the [Conference gitter channel](https://gitter.im/GCC-BOSC-2018/Lobby)
+* Ask questions on the [Conference matrix channel](https://matrix.to/#/#GCC-BOSC-2018_Lobby:gitter.im)
 
 # What's New: Core and Encore
 
@@ -55,7 +55,7 @@ CollaborationFest's goals are much wider:
 
 *Clusters* are groups of CollaborationFest participants that coalesce around shared interests and they address common challenges related to those interests.  Clusters form before, at the beginning of, and throughout CollaborationFest.  In fact, CollaborationFest can be thought of as a two (or four) day jam of Brownian motion where clusters form, interact, and exchange ideas and members with each other.
 
-If you have an idea for a Cluster at ContributionFest then please send it to the [CollaborationFest organizers](/events/gccbosc2018/collaboration/#collaborationfest-organizers).  We'll post it here where CoFest participants can see it and then contact you.  We recommend that clusters have a an online communications channel (like Gitter), and that you meet online at least once during the week or two before GCCBOSC starts.
+If you have an idea for a Cluster at ContributionFest then please send it to the [CollaborationFest organizers](/events/gccbosc2018/collaboration/#collaborationfest-organizers).  We'll post it here where CoFest participants can see it and then contact you.  We recommend that clusters have a an online communications channel (like Matrix), and that you meet online at least once during the week or two before GCCBOSC starts.
 
 Please note that many clusters will form *during* CollaborationFest.  We encourage that.  The clusters listed here will just have a head start.
 
@@ -66,7 +66,7 @@ Please note that many clusters will form *during* CollaborationFest.  We encoura
 **Contact and Communications**
 
 * Contact Eric Yao and Rob Buels on the ...
-* ... [JBrowse Gitter channel](https://gitter.im/GMOD/jbrowse)
+* ... [JBrowse Matrix channel](https://matrix.to/#/#GMOD_jbrowse:gitter.im)
 
 ## NIH Data Commons
 

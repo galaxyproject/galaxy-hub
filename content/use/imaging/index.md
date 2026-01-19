@@ -16,7 +16,7 @@ comments:
   - "Galaxy for image analysis."
 user_support:
   - "[Issue reporting](https://github.com/bgruening/galaxy-imaging/issues)"
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/galaxycomputationalchemistry/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Docker: None"

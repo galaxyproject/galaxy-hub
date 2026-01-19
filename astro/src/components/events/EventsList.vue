@@ -24,9 +24,18 @@ const props = defineProps<{
 }>();
 
 const $subsite = useStore(currentSubsite);
+const isBrowser = typeof window !== 'undefined';
+
+function getYearFromQuery(): number | null {
+  if (!isBrowser) return null;
+  const param = new URLSearchParams(window.location.search).get('year');
+  if (!param) return null;
+  const parsed = Number(param);
+  return Number.isFinite(parsed) ? parsed : null;
+}
 
 // Year-based navigation for past events
-const selectedPastYear = ref<number | null>(null);
+const selectedPastYear = ref<number | null>(getYearFromQuery());
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
 
@@ -122,16 +131,19 @@ const availablePastYears = computed(() => {
   return Array.from(years).sort((a, b) => b - a);
 });
 
+// Split years: show last 5 as buttons, rest in dropdown
+const recentPastYears = computed(() => availablePastYears.value.slice(0, 5));
+const olderPastYears = computed(() => availablePastYears.value.slice(5));
+
 // Set default year to most recent when available years change
-watch(
-  availablePastYears,
-  (years) => {
-    if (years.length > 0 && (selectedPastYear.value === null || !years.includes(selectedPastYear.value))) {
-      selectedPastYear.value = years[0];
-    }
-  },
-  { immediate: true }
-);
+watch(availablePastYears, (years) => {
+  if (years.length === 0) return;
+  if (selectedPastYear.value === null) {
+    selectedPastYear.value = years[0];
+  } else if (!years.includes(selectedPastYear.value)) {
+    selectedPastYear.value = years[0];
+  }
+});
 
 // Reset pagination when year or subsite changes
 watch([selectedPastYear, $subsite], () => {
@@ -154,6 +166,22 @@ function countPastForYear(year: number): number {
 function selectPastYear(year: number) {
   selectedPastYear.value = year;
 }
+
+function updateUrl(year: number | null) {
+  if (!isBrowser) return;
+  const params = new URLSearchParams(window.location.search);
+  if (year === null) {
+    params.delete('year');
+  } else {
+    params.set('year', String(year));
+  }
+  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+  window.history.replaceState({}, '', newUrl);
+}
+
+watch(selectedPastYear, (year) => {
+  updateUrl(year);
+});
 
 function formatDate(date: string | undefined): string {
   if (!date) return '';
@@ -264,9 +292,9 @@ function buildUrl(slug: string): string {
 
       <!-- Year navigation for past events -->
       <div class="mb-6">
-        <div class="flex flex-wrap gap-2">
+        <div class="flex flex-wrap items-center gap-2">
           <button
-            v-for="year in availablePastYears"
+            v-for="year in recentPastYears"
             :key="year"
             @click="selectPastYear(year)"
             :class="[
@@ -279,6 +307,23 @@ function buildUrl(slug: string): string {
             {{ year }}
             <span class="ml-1 text-xs opacity-75">({{ countPastForYear(year) }})</span>
           </button>
+          <!-- Older years dropdown -->
+          <select
+            v-if="olderPastYears.length > 0"
+            :value="olderPastYears.includes(selectedPastYear as number) ? selectedPastYear : 'older'"
+            @change="(e) => selectPastYear(Number((e.target as HTMLSelectElement).value))"
+            :class="[
+              'px-3 py-1.5 text-sm font-medium rounded-md transition-colors border-0 cursor-pointer',
+              olderPastYears.includes(selectedPastYear as number)
+                ? 'bg-galaxy-primary text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+            ]"
+          >
+            <option value="older" disabled selected>Older...</option>
+            <option v-for="year in olderPastYears" :key="year" :value="year">
+              {{ year }} ({{ countPastForYear(year) }})
+            </option>
+          </select>
         </div>
       </div>
 

@@ -48,4 +48,4 @@ First, thank you for your interest. You are welcome to join any activity of the 
 * Join the [mailing list](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) [microgalaxy@lists.galaxyproject.org](mailto:microgalaxy@lists.galaxyproject.org)
 * Join our [quarterly meetings](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
 * Participate in our **[working groups](/community/sig/microbial/#working-groups)**
-* Chat using the [Gitter Chat](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
+* Chat using the [Matrix Chat](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))

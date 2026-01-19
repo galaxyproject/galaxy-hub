@@ -19,7 +19,7 @@ To create a new subsite, you'll just need to edit a few files.
 
 ### `config.json`
 
-First, add your subsite to the [config file](https://github.com/galaxyproject/galaxy-hub/blob/master/config.json). See [this example](https://github.com/galaxyproject/galaxy-hub/pull/1659/files) (but the `gitter` field is optional). This is where you decide your subsite's id. This id will be your url prefix and the id you use to tag news and events posts. This should be all lowercase. Try to choose something simple (see the examples already there for guidance).
+First, add your subsite to the [config file](https://github.com/galaxyproject/galaxy-hub/blob/master/config.json). See [this example](https://github.com/galaxyproject/galaxy-hub/pull/1659/files) (but the `matrix` field is optional). This is where you decide your subsite's id. This id will be your url prefix and the id you use to tag news and events posts. This should be all lowercase. Try to choose something simple (see the examples already there for guidance).
 
 ### Content files
 

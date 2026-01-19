@@ -288,11 +288,11 @@ This set of tutorials was updated by [Helena Rasche](https://training.galaxyproj
 <img class="card-img-bottom" src="/events/2020-03-admin/2020-admin-banner.png" alt="Thank you for the feedback!" />
 </div>
 
-<!-- Gitter -->
+<!-- Matrix -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Gitter Chat Support in GTN](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
+<div class="card-header">[Matrix Chat Support in GTN](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
 
-Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann), GTN tutorials now show a link to Gitter chat help at the bottom of the screen.  Authors can configure this to go to topic or tutorial specific chat rooms, or default to the main GTN room.
+Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann), GTN tutorials now show a link to Matrix chat help at the bottom of the screen.  Authors can configure this to go to topic or tutorial specific chat rooms, or default to the main GTN room.
 
 <img class="card-img-bottom" src="open-chat.png" alt="Seeking chat?" />
 </div>

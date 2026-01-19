@@ -91,7 +91,7 @@ The benefit is that the Markdown we write in the future will be portable to any 
 
 ### Bug reporting
 
-The new Hub features all the major functionality of the old one. But there are some minor features still being added and some rough corners here and there. So if you notice something broken, don't be too surprised, but *do* let us know on [Github](https://github.com/galaxyproject/galaxy-hub/issues), [gitter](https://gitter.im/galaxyproject/hub2),  or [email](mailto:outreach@galaxyproject.org?subject=Community%20Hub%20issue).
+The new Hub features all the major functionality of the old one. But there are some minor features still being added and some rough corners here and there. So if you notice something broken, don't be too surprised, but *do* let us know on [Github](https://github.com/galaxyproject/galaxy-hub/issues), [matrix](https://matrix.to/#/#galaxyproject_hub2:gitter.im),  or [email](mailto:outreach@galaxyproject.org?subject=Community%20Hub%20issue).
 
 ## Extensibility
 

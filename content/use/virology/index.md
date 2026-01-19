@@ -12,7 +12,7 @@ image: "virology_workbench.jpg"
 comments:
   - "The public server is hosted by the UseGalaxy.eu team."
 user_support:
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/galaxycomputationalchemistry/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Storage and computational quotas."

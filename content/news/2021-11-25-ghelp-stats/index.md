@@ -13,7 +13,7 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 
-As part of the Galaxy Community, you have probably visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.
+As part of the Galaxy Community, you have probably visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Matrix channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.
 
 Since November 2018, when it was put into service, more than 3,000 users have been registered, and around 9,300 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2,800 visits in a single day.
 

@@ -1,24 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
 import NewsList from '../../components/news/NewsList.vue';
+import { getPublishedNews } from '../../utils/content';
 
-// Get all news articles
-const articles = await getCollection('articles');
-
-// Helper to ensure date is a Date object
-function toDate(d: Date | string | undefined): Date | null {
-  if (!d) return null;
-  return d instanceof Date ? d : new Date(d);
-}
-
-const newsArticles = articles
-  .filter((article) => article.data.slug.startsWith('news/'))
-  .sort((a, b) => {
-    const dateA = toDate(a.data.date)?.getTime() || 0;
-    const dateB = toDate(b.data.date)?.getTime() || 0;
-    return dateB - dateA;
-  });
+// Get published news articles (excludes future-dated articles)
+const newsArticles = await getPublishedNews();
 
 // Transform to plain objects for Vue component
 const articleData = newsArticles.map((a) => ({
@@ -32,13 +19,10 @@ const articleData = newsArticles.map((a) => ({
 ---
 
 <BaseLayout title="News" description="Latest news from the Galaxy Project">
-  <div class="max-w-6xl mx-auto bg-white">
-    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
-      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">News</h1>
-      <p class="text-lg text-gray-600">Latest updates from the Galaxy Project community</p>
-    </header>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader title="News" description="Latest updates from the Galaxy Project community" />
 
-    <div class="px-6 sm:px-8 py-6">
+    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
       <NewsList client:load articles={articleData} />
     </div>
   </div>

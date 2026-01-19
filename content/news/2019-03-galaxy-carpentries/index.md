@@ -13,6 +13,6 @@ We are pleased to have been [funded by Mozilla](https://medium.com/read-write-pa
 
 The **[Gallantries Project](https://galaxy-carpentries.github.io/gallantries/)** will focus on adaptation and delivery of existing training materials from various open communities for High Throughput Sequencing (HTS) data analysis skills needed in genomics research. Collaboration on material adaptation will take place through sprints, and delivery of training will be done at two 3-day workshops.
 
-**Interested? Please join us on [Gitter](https://gitter.im/galaxy-carpentries) and [GitHub](https://github.com/galaxy-carpentries).**
+**Interested? Please join us on [Matrix](https://matrix.to/#/#galaxy-carpentries:gitter.im) and [GitHub](https://github.com/galaxy-carpentries).**
 
 [Saskia](https://github.com/shiltemann), [Bérénice](https://github.com/bebatut), [Helena](https://github.com/hexylena) ,[Mateusz](https://github.com/mkuzak) and [Fotis](https://github.com/fpsom)

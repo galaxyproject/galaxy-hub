@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
+import { getAllTags } from '../../utils/content';
+
+// Get all tags with counts
+const tagCounts = await getAllTags();
+
+// Convert to sorted array and calculate stats
+const tags = Array.from(tagCounts.entries())
+  .sort((a, b) => a[0].localeCompare(b[0]))
+  .map(([tag, count]) => ({ tag, count }));
+
+const totalTags = tags.length;
+const totalItems = tags.reduce((sum, t) => sum + t.count, 0);
+const maxCount = Math.max(...tags.map((t) => t.count));
+
+// Group tags by first letter for alphabetical sections
+const groupedTags = tags.reduce(
+  (acc, { tag, count }) => {
+    const letter = tag[0].toUpperCase();
+    if (!acc[letter]) acc[letter] = [];
+    acc[letter].push({ tag, count });
+    return acc;
+  },
+  {} as Record<string, Array<{ tag: string; count: number }>>
+);
+
+const letters = Object.keys(groupedTags).sort();
+
+// Calculate size class based on count (for tag cloud effect)
+function getTagSize(count: number): string {
+  const ratio = count / maxCount;
+  if (ratio > 0.7) return 'text-xl font-bold';
+  if (ratio > 0.4) return 'text-lg font-semibold';
+  if (ratio > 0.2) return 'text-base font-medium';
+  return 'text-sm';
+}
+
+// Calculate opacity based on count
+function getTagOpacity(count: number): string {
+  const ratio = count / maxCount;
+  if (ratio > 0.5) return 'opacity-100';
+  if (ratio > 0.2) return 'opacity-90';
+  return 'opacity-75';
+}
+---
+
+<BaseLayout title="Tags" description="Browse content by tag">
+  <div class="max-w-6xl mx-auto">
+    <!-- Header with stats -->
+    <PageHeader title="Explore by Tag" description={`Discover news and events across ${totalTags} topics`}>
+      <div class="flex gap-8 mt-6">
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{totalTags}</span>
+          <span class="text-white/60 text-sm uppercase tracking-wide">Tags</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{totalItems.toLocaleString()}</span>
+          <span class="text-white/60 text-sm uppercase tracking-wide">Tagged Items</span>
+        </div>
+      </div>
+    </PageHeader>
+
+    <!-- Letter navigation -->
+    <nav class="bg-white border-b border-gray-200 px-8 py-3 sticky top-0 z-20 shadow-sm">
+      <div class="flex flex-wrap gap-1">
+        {
+          letters.map((letter) => (
+            <a
+              href={`#section-${letter}`}
+              class="w-8 h-8 flex items-center justify-center rounded text-sm font-medium text-galaxy-primary hover:bg-galaxy-gold hover:text-galaxy-dark transition-colors"
+            >
+              {letter}
+            </a>
+          ))
+        }
+      </div>
+    </nav>
+
+    <!-- Tags by letter -->
+    <div class="bg-white px-8 py-6 rounded-b-lg shadow-sm">
+      {
+        letters.map((letter, idx) => (
+          <section id={`section-${letter}`} class={idx > 0 ? 'mt-8 pt-8 border-t border-gray-100' : ''}>
+            <div class="flex items-center gap-4 mb-4">
+              <span class="text-4xl font-bold text-galaxy-primary/50">{letter}</span>
+              <span class="text-sm text-gray-400">{groupedTags[letter].length} tags</span>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              {groupedTags[letter].map(({ tag, count }) => (
+                <a
+                  href={`/tags/${tag}/`}
+                  class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 ${getTagOpacity(count)}`}
+                >
+                  <span
+                    class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors ${getTagSize(count)}`}
+                  >
+                    {tag}
+                  </span>
+                  <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
+                    {count}
+                  </span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))
+      }
+
+      {tags.length === 0 && <p class="text-gray-500 text-center py-12">No tags found.</p>}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  /* Smooth scroll for letter navigation */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Offset for sticky header */
+  section[id^='section-'] {
+    scroll-margin-top: 4rem;
+  }
+</style>

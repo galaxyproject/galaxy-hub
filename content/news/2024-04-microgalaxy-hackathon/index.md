@@ -15,7 +15,7 @@ While developing this pipeline, we realized many tools miss proper annotations. 
 
 In addition to the tools, the microGalaxy community offers also other resources (30+ tutorials, 30+ workflows) that are also not properly annotated using ontologies like EDAM. Annotating all mentioned resources would improve their findability but also allow for aggregation and display of resources covering similar topics. 
 
-To facilitate this work and work on a proof-of-concept for other communities, the microGalaxy community organized an [online hackathon in March 2024](/events/2024-03-11-hackathon-galaxy-resources-annotation/) to improve the annotation of Galaxy resources and expand Galaxy Tool Metadata Extractor to other resources like tutorials and workflows. This blogpost and the [associated preprint](https://osf.io/preprints/biohackrxiv/s7tru) hightlight the outcomes for this hackathon.
+To facilitate this work and work on a proof-of-concept for other communities, the microGalaxy community organized an [online hackathon in March 2024](/events/2024-03-11-hackathon-galaxy-resources-annotation/) to improve the annotation of Galaxy resources and expand Galaxy Tool Metadata Extractor to other resources like tutorials and workflows. This blogpost and the [associated preprint](https://osf.io/preprints/biohackrxiv/s7tru) highlight the outcomes for this hackathon.
 
 # Methods
 

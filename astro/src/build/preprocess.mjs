@@ -23,24 +23,6 @@ const CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
 const ASTRO_CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 
-// Vue components that indicate a file needs special processing
-const VUE_COMPONENTS = [
-  'insert',
-  'g-image',
-  'g-link',
-  'link-box',
-  'vega-embed',
-  'calendar-embed',
-  'markdown-embed',
-  'twitter',
-  'mastodon',
-  'video-player',
-  'carousel',
-  'flickr',
-  'supporters',
-  'contacts',
-];
-
 /**
  * Check if content contains patterns that break MDX parsing
  * - HTML blocks containing markdown (divs with markdown links, etc.)
@@ -184,7 +166,7 @@ async function copyAssets(sourceDir, slug) {
  * Determine which collection a file belongs to
  * Note: vue-articles merged into articles - all content can have components
  */
-function getContentCollection(filePath, content, frontmatter) {
+function getContentCollection(filePath) {
   const relativePath = path.relative(CONTENT_DIR, filePath);
   const basename = path.basename(filePath);
 
@@ -397,7 +379,7 @@ async function processMarkdownFile(filePath) {
   const rawContent = await fs.promises.readFile(filePath, 'utf-8');
   const { data: frontmatter, content: body } = matter(rawContent);
 
-  const collection = getContentCollection(filePath, body, frontmatter);
+  const collection = getContentCollection(filePath);
   const relativePath = path.relative(CONTENT_DIR, filePath);
   const dirname = path.dirname(relativePath);
 
@@ -441,7 +423,7 @@ async function processMarkdownFile(filePath) {
   }
 
   // Process frontmatter
-  const processedFrontmatter = processFrontmatter({ ...frontmatter }, filePath);
+  const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
 
   // Add hasComponents flag for rendering
@@ -515,7 +497,7 @@ async function processBatch(items, processFn, batchSize = 50) {
  * Main preprocessing function
  */
 export async function preprocessContent(options = {}) {
-  const { clear = true, verbose = false } = options;
+  const { clear = true } = options;
 
   console.log('Galaxy Hub Astro v2 - Content Preprocessing');
   console.log(`Reading from: ${CONTENT_DIR}`);

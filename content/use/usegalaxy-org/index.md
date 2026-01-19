@@ -19,7 +19,7 @@ pub_libraries:
   - "Project"
 image: "/images/logos/UseGalaxy.orgLogo600.png"
 user_support:
-  - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
+  - "[Galaxy Project Matrix Support Channel](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/support/)"
 quotas:

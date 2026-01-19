@@ -464,7 +464,7 @@ By Melanie C. Föll.
 
 The past 29th of January, the Galaxy Metabolomics community had the first Mini-Symposium in which users as well as developers had the chance to present their work and discuss the fuure integration into Galaxy.
 
-To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Gitter channel](https://gitter.im/usegalaxy-eu/metabolomics).
+To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Matrix channel](https://matrix.to/#/#usegalaxy-eu_metabolomics:gitter.im).
 
 <img class="card-img-bottom" src="/images/communities/metabolomics.png" alt="metabolomics" />
 </div>

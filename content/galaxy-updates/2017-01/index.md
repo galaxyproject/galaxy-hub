@@ -203,7 +203,7 @@ Once the Hub is in better shape it will become the [galaxyproject.org](https://g
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
-[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Gitter channel to coordinate work.
+[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Matrix channel to coordinate work.
 
 ----
 

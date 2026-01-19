@@ -97,7 +97,7 @@ This last year has been a success because of the community. Currently, >70 peopl
 
 <img class="img-fluid mx-auto" src="/news/2018-06-training-material/hall_of_fame.png" alt="Hall of Fame page and slide show on homepage"/>
 
-Each contributor is depicted by their GitHub profile image and can add information such as email, Gitter, Twitter, Linkedin, ORCID. Clicking on the images leads to the GitHub profile. To make this Hall of Fame visible on the homepage, we also added a little slide show on the homepage that cycles through all the contributors.
+Each contributor is depicted by their GitHub profile image and can add information such as email, Matrix, Twitter, Linkedin, ORCID. Clicking on the images leads to the GitHub profile. To make this Hall of Fame visible on the homepage, we also added a little slide show on the homepage that cycles through all the contributors.
 
 The new contributors are mostly joining during the community events, such as the Contribution Fests or Hackathons:
 
@@ -105,9 +105,9 @@ The new contributors are mostly joining during the community events, such as the
 
 These events can be on-site, during conferencees or dedicated events; but we are also organizing online Contribution Fests (one or two days) to reach the whole community.
 
-During these events, but also all over the year, our main communication channel continues to be our [Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) (read anonymously, but a GitHub or Twitter account is required to post) and our GitHub repository. We have labeled issues ["newcomer-friendly"](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Anewcomer-friendly) or ["contribution fest"](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22)) to help newcomers identify ways they can contribute.
+During these events, but also all over the year, our main communication channel continues to be our [Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im) (read anonymously, but a GitHub or Twitter account is required to post) and our GitHub repository. We have labeled issues ["newcomer-friendly"](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Anewcomer-friendly) or ["contribution fest"](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22)) to help newcomers identify ways they can contribute.
 
-As a community, we value diversity and inclusivity and we are eager to provide a welcoming and supportive environment for everyone, regardless of background or identity. We have added a [Code of Conduct](https://github.com/galaxyproject/training-material/blob/master/CODE_OF_CONDUCT.md). We would like all interactions within our community to be underpinned by the Code of Conduct, whether it be contributions to GitHub or discussions on our Gitter channel. The Code is central to our efforts to build a welcoming, diverse, inclusive, and global community.
+As a community, we value diversity and inclusivity and we are eager to provide a welcoming and supportive environment for everyone, regardless of background or identity. We have added a [Code of Conduct](https://github.com/galaxyproject/training-material/blob/master/CODE_OF_CONDUCT.md). We would like all interactions within our community to be underpinned by the Code of Conduct, whether it be contributions to GitHub or discussions on our Matrix channel. The Code is central to our efforts to build a welcoming, diverse, inclusive, and global community.
 
 # A Similarly Fruitful Future
 
@@ -127,7 +127,7 @@ We would like to improve the experience. Given all our effort, we know that cont
 
 ## For Everyone
 
-We will organize more regular Contribution Fests. We plan to have an online Contribution Fest every 3 months on the 3rd Friday. The first one will be on the 17th of August where we will focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. During these Contribution Fests, we will coordinate via Gitter and GitHub. We will also join bigger Contribution Fests, such as the [GCC OBF Contribution Fest](https://gccbosc2018.sched.com/) in Portland and the [BioHackathon](https://bh2018paris.info/) in Paris.
+We will organize more regular Contribution Fests. We plan to have an online Contribution Fest every 3 months on the 3rd Friday. The first one will be on the 17th of August where we will focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. During these Contribution Fests, we will coordinate via Matrix and GitHub. We will also join bigger Contribution Fests, such as the [GCC OBF Contribution Fest](https://gccbosc2018.sched.com/) in Portland and the [BioHackathon](https://bh2018paris.info/) in Paris.
 
 The next year will be hopefully as fruitful as this year! Thanks for the community for their investment in this nice project!
 
