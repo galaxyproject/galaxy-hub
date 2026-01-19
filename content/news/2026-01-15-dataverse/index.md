@@ -1,6 +1,6 @@
 ---
 title: "Integration of the Dataverse with Galaxy"
-date: "2026-01-15"
+date: "2026-01-19"
 authors: Anup Kumar
 tease: "Galaxy users can now connect to a Dataverse as a repository source, browse and search datasets directly from the Upload dialog, import files into histories and utilize them for scientific analyses."
 subsites: [global,eu,us]
