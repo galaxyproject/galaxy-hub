@@ -3,7 +3,7 @@ title: "One framework, one workflow, many communities: Freiburg Galaxy team at E
 date: "2025-11-13"
 authors: "Armin Dadras, Diana Chiang Jurado"
 tease: "Galaxy showed how 'one framework, one workflow, many communities' can run cross-disciplinary imaging analyses on the emerging EOSC Federation. Here is what we presented, with slides and video."
-tags: [eosc, workflows, imaging, fair, interoperability, pulsar, federation, reproducibility, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, climate, esg-wp3]
+tags: [eosc, workflow, imaging, fair, interoperability, pulsar, federation, reproducibility, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, climate, esg-wp3]
 supporters: [eosc, unifreiburg, esg, elixir, denbi, nfdi, egi, ifremer, fiesta, workflowhub, dataterra, eubi, dataplant, bmbf]
 subsites: [all, esg]
 main_subsite: eu

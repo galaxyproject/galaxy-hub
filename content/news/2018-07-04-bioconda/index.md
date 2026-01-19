@@ -2,7 +2,7 @@
 title: 'Bioconda: sustainable and comprehensive software distribution for the life
   sciences'
 date: '2018-07-04'
-tags: [paper, Bioconda]
+tags: [paper, conda]
 supporters:
 - denbi
 - elixir

@@ -10,9 +10,7 @@ tags:
 - gtn-news
 - news
 - fair
-- dmp
-- data stewardship
-- data management
+- research data management
 - new learning pathway
 tease: "ELIXIR-UK\u2019s Data Stewardship Fellowship is excited to announce a new\
   \ learning pathway focused on FAIR Data Management! This program equips researchers\

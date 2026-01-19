@@ -3,7 +3,7 @@ date: '2022-10-14'
 title: 'Galaxy in COBLET2022'
 authors: "Cristóbal Gallardo"
 tease: "Cristóbal presented the Galaxy Project-VGP collaboration about Genome Assembly at COBLET2022"
-tags: [vgp,erga,education,teaching]
+tags: [vgp,erga,training, talk]
 subsites: [all-eu]
 main_subsite: eu
 ---

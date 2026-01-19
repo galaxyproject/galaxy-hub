@@ -5,7 +5,7 @@ tease: "New Research Data Management policy for the University of Freiburg"
 hide_tease: false
 subsites: [freiburg]
 main_subsite: freiburg
-tags: [rdm, policy, freiburg]
+tags: [policy, freiburg, research data management]
 ---
 
 The [Research Data Management Group (RDMG)](https://rdmg.uni-freiburg.de/en/pages/contact/) of the University of Freiburg informs about an [updated version of the RDM policy](https://freidok.uni-freiburg.de/data/241206), replacing the version of 2018. Find the respective RDMG [blog post here](https://rdmg.uni-freiburg.de/en/posts/fdm-policy/).

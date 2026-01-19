@@ -7,7 +7,8 @@ tags:
 - training
 - gtn-news
 - gtn
-- communications
+- outreach
+- year-in-review
 - single-cell
 - news
 title: '🖖🏾Galaxy SPOC Community: Year in Review'

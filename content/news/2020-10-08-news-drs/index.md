@@ -1,7 +1,7 @@
 ---
 title: The Community Against COVID-19
 date: '2020-10-08'
-tags: [press, data, COVID-19]
+tags: [data, COVID-19, outreach]
 supporters:
 - denbi
 - elixir

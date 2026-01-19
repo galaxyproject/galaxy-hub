@@ -3,7 +3,7 @@ title: New Paper "Diabetes changes gene expression but not DNA methylation in ca
   cells"
 date: '2020-11-21'
 doi: 10.1016/j.yjmcc.2020.11.004
-tags: [paper, citation]
+tags: [paper, citations]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

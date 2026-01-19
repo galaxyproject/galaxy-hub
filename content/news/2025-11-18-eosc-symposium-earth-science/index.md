@@ -3,7 +3,7 @@ title: "From Plume to Bloom: Data Terra and Galaxy illuminated extreme event obs
 date: "2025-11-18"
 authors: "Armin Dadras"
 tease: "Data Terra, the EOSC thematic node for the environment, demonstrated how the Galaxy platform accelerates environmental research through interoperable, FAIR data workflows within the EOSC Federation. From satellite plumes to ecosystem blooms."
-tags: [eosc, workflows, rocrate, earth-system, environmental, fair, federation, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, esg-wp3]
+tags: [eosc, workflow,  earth-system, environmental, fair, federation, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, esg-wp3, ro-crate]
 supporters: [eosc, dataterra, ifremer, esg]
 subsites: [all, esg]
 main_subsite: eu

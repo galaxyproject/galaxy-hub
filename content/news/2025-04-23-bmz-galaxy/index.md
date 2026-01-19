@@ -3,7 +3,7 @@ title: 'The BioImage Model Zoo meets the Galaxy platform'
 date: "2025-04-23"
 tease: "New tool to run AI models for image analysis"
 tags:
-- nfdi4bioimage
+- nfdi4bioimaging
 - imaging
 subsites: [all-eu,all,global]
 main_subsite: eu

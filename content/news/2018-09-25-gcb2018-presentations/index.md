@@ -1,7 +1,7 @@
 ---
 title: Galaxy and ... Bioconda, CLIP Explorer and RNA workbench @ GCB 2018
 date: '2018-09-25'
-tags: [Bioconda]
+tags: [conda]
 location:
   name: Vienna, Austria
 subsites: [eu, freiburg]

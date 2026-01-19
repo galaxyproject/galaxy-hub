@@ -3,7 +3,7 @@ title: 'AquaINFRA, EOSC, and Galaxy: Co-Designing FAIR Services for Aqua Science
 date: '2025-04-07'
 days: 1
 tease: "AquaINFRA project is going to use the Galaxy platform as the central component of their Virtual Research Environment (VRE)."
-tags: [collaboration, aquainfra,esg]
+tags: [collaboration, aquainfra,esg, project]
 supporters:
 - eurosciencegateway
 - denbi

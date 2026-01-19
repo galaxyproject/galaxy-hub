@@ -4,7 +4,7 @@ subsites:
 main_subsite: global
 date: '2025-09-25'
 tags:
-- workflows
+- workflow
 - news
 - fair
 - training

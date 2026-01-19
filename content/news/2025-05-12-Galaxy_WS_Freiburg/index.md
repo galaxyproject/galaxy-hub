@@ -4,7 +4,7 @@ subsites:
 main_subsite: global
 date: '2025-05-12'
 tags:
-- Europe
+- eu
 - news
 - Galaxy
 - Workshop

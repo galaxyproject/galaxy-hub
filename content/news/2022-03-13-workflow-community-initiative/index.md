@@ -5,7 +5,7 @@ tease: 'The Workflows Community Initiative has lunched the new website at workfl
   The Freiburg Galaxy team is part of this Inititive to help improving computational workflows
   for everyone.'
 hide_tease: true
-tags: [workflows]
+tags: [workflow]
 supporters:
 - crc1425
 - crc992

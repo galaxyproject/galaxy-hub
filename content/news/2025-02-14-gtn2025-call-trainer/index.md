@@ -4,7 +4,6 @@ subsites:
 main_subsite: global
 date: '2025-02-14'
 tags:
-- teaching
 - news
 - gtn
 - contributing

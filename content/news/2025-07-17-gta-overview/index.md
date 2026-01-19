@@ -9,7 +9,6 @@ tags:
 - training
 - event
 - community
-- teaching
 - gtn-news
 - gtn
 title: 'Galaxy Training Academy 2025: round two of out GTN education party!'

@@ -11,7 +11,7 @@ tags:
 - news
 - gtn infrastructure
 - new feature
-- events
+- event
 tease: Are you organizing a training event using GTN materials? You can now add your
   event directly to the GTN!
 title: Introducing GTN Event Pages

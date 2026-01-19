@@ -7,7 +7,7 @@ tags:
 - gtn-news
 - training
 - Conference
-- Communities
+- Community
 - news
 - GTN
 title: GTN joined the TEACH V to talk about education across Communities at Helmholtz

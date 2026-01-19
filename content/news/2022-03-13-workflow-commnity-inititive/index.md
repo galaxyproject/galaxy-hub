@@ -1,7 +1,7 @@
 ---
 title: Announcing the Workflows Community Initiative (WCI)
 date: '2022-03-13'
-tags: [workflows]
+tags: [workflow]
 supporters:
 - crc1425
 - crc992

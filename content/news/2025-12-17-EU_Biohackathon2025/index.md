@@ -5,7 +5,7 @@ authors: "Diana Chiang Jurado"
 tags: [training, hackathon, biohackathon, imaging]  
 supporters:  
   - elixir  
-  - eurobioimaging  
+  - eubi
 location:  
   name: Berlin, DE  
 subsites: [eu, freiburg]  

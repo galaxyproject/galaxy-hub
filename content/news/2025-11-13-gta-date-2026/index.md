@@ -11,7 +11,6 @@ tags:
 - gtn
 - training
 - news
-- teaching
 title: 'Save the date: The Galaxy Training Academy 2026 will happen from May 18th
   to May 22th'
 authors: Teresa Müller, Delphine Lariviere
