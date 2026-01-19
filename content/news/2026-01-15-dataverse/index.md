@@ -21,7 +21,9 @@ This keeps your analyses reproducible while reducing manual “download/upload l
 
 ## Pre-configured BSC Dataverse in Galaxy
 
-**Note**: You can either use the pre-configured BSC Dataverse repository or create your own. Preconfigured BSC Dataverse:
+**Note**: You can either use the pre-configured BSC Dataverse repository or create your own. You can find all preconfigured Dataverses by clicking **Upload** in your activity bar, then **Choose from repository**, and typing **Dataverse** in the search bar. There, you can see all preconfigured Dataverses. This is sufficient if you want to reuse existing datasets from an already preconfigured Dataverse.  You can continue uploading data directly to your Galaxy history.
+
+Preconfigured BSC Dataverse:
 
 <div align="center">
   <img src="bsc_dataverse_preconfigured.png" alt="Galaxy: preconfigured" width="600"/>
