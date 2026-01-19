@@ -294,7 +294,12 @@ const schemaEvent = {
 
     {/* Event Content with optional TOC sidebar */}
     <div class:list={['px-6 sm:px-8 pt-6', showToc && 'lg:flex lg:gap-8']}>
-      {/* Desktop TOC Sidebar */}
+      {/* Main Content */}
+      <div class:list={['prose prose-lg prose-galaxy max-w-none', showToc && 'lg:flex-1 lg:min-w-0']}>
+        <Content components={components} />
+      </div>
+
+      {/* Desktop TOC Sidebar (right side) */}
       {
         showToc && (
           <aside class="toc-sidebar hidden lg:block lg:w-56 lg:flex-shrink-0">
@@ -304,11 +309,6 @@ const schemaEvent = {
           </aside>
         )
       }
-
-      {/* Main Content */}
-      <div class:list={['prose prose-lg prose-galaxy max-w-none', showToc && 'lg:flex-1 lg:min-w-0']}>
-        <Content components={components} />
-      </div>
     </div>
 
     <!-- Event Footer -->
