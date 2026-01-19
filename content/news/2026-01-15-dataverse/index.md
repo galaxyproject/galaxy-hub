@@ -112,7 +112,7 @@ If you are, for example, looking for scans of Medieval texts, search for "handwr
 
 ### 1) Add files to the upload queue
 
-In the Upload dialog, choose **BSC Dataverse** as the destination, select files to be uploaded to Galaxy history and add the file(s) to the Galaxy upload queue.
+Select the files to be uploaded to Galaxy history and add the file(s) to the Galaxy upload queue. Once they turn green you can start working with them.
 
 <div align="center">
   <img src="bsc_dv_10.png" alt="Galaxy: Upload dialog showing a file queued for upload to BSC Dataverse" width="600"/>
