@@ -71,7 +71,7 @@ After saving, your new entry appears in **My Repositories**.
 
 ## Step-by-step: browse/search and import a file
 
-### 1) Open Galaxy Upload and choose “Choose from repository”
+### 1) Open “Galaxy Upload” and choose “Choose from repository”
 
 From the Galaxy **Upload** dialog, click **Choose from repository** and select your configured dataverse source (e.g., **BSC Dataverse**).
 
