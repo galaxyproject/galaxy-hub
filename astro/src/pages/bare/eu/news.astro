@@ -1,0 +1,98 @@
+---
+/**
+ * Bare EU News Page
+ * Shows EU-filtered news articles in a minimal layout (8.3k visits)
+ * Embedded in Galaxy EU interface
+ */
+import { getCollection } from 'astro:content';
+import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+
+// Get news from the articles collection
+const allArticles = await getCollection('articles');
+const newsArticles = allArticles
+  .filter((article) => {
+    const path = article.data.slug || article.id;
+    const subsites = article.data.subsites || [];
+    const isNews = path.startsWith('news/') || path.startsWith('news--');
+    const isEU =
+      subsites.includes('eu') ||
+      subsites.includes('all') ||
+      subsites.includes('all-eu') ||
+      subsites.includes('global') ||
+      subsites.length === 0;
+    return isNews && isEU && !article.data.draft;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 50);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+
+<BareArticleLayout title="Galaxy Europe News">
+  <h2>Galaxy Europe News</h2>
+  <div class="news-list">
+    {
+      newsArticles.length > 0 ? (
+        <ul>
+          {newsArticles.map((article) => {
+            const slug = (article.data.slug || article.id)
+              .replace(/\.mdx?$/, '')
+              .replace(/--/g, '/')
+              .replace(/^news\//, '');
+            return (
+              <li>
+                <a href={`/news/${slug}/`}>{article.data.title}</a>
+                {article.data.date && <span class="date"> - {formatDate(article.data.date)}</span>}
+                {article.data.tease && <p class="tease">{article.data.tease}</p>}
+              </li>
+            );
+          })}
+        </ul>
+      ) : (
+        <p>No news articles found.</p>
+      )
+    }
+  </div>
+
+  <style>
+    .news-list ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .news-list li {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .news-list a {
+      color: #25537b;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .news-list a:hover {
+      text-decoration: underline;
+    }
+
+    .date {
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    .tease {
+      color: #555;
+      margin: 0.5rem 0 0;
+      font-size: 0.95em;
+    }
+  </style>
+</BareArticleLayout>

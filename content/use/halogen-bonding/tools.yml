@@ -1,0 +1,75 @@
+tools:
+    - name: Upload File
+      version: 1.1.4
+      link: /galaxy/tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Plot Interaction Sphere onto the oxygen atom
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=carbsphere
+      description: ""
+    - name: Find Halogen Bonding Hotspots in a binding site
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=halohotspot
+      description: ""
+    - name: Plot Plane Scan onto any amide moiety
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=planes
+      description: ""
+    - name: Calculate XBScore from PDB
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=xbscore_sdf
+      description: ""
+    - name: Calculate XBScore From Coordinates
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=xbscore
+      description: ""
+    - name: NEW Find Halogen Bonding Hotspots in a binding site
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=hotspot_new
+      description: ""
+    - name: Plot Interaction Sphere onto the side chain of histidine
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=hissphere
+      description: ""
+    - name: Plot Alternative Interaction Sphere (without CGO objects)
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=histidine_alternative
+      description: ""
+    - name: Plot Interaction Sphere onto the side chain of methionine
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=metsphere
+      description: ""
+    - name: Plot Interaction Surface onto any ASP/GLU side chain
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=aspartate
+      description: ""
+    - name: Evaluate Halogen interaction with onto any ASP side chain
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=aspartate_energy
+      description: ""
+    - name: Plot Interaction Surface onto any ASN/GLN side chain
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=asparagine
+      description: ""
+    - name: Evaluate Halogen interaction with any ASN or GLN side chain
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=asparagine_energy
+      description: ""
+    - name: Find Molecular Interactions
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=pdb_scan
+      description: ""
+    - name: VmaxPred
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=vmax
+      description: Performs the estimation of the magnitude of sigma-holes of aromatic
+          halogens.
+    - name: Movie Maker produces a PyMol session for the creation of a protein ligand
+          interaction movie
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=movie_maker
+      description: ""
+    - name: Publications
+      version: 1.0.0
+      link: /galaxy/tool_runner?tool_id=public
+      description: ""

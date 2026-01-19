@@ -1,0 +1,165 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
+import { getAllTags, getArticlesByTag, getEventsByTag } from '../../utils/content';
+
+export async function getStaticPaths() {
+  const tagCounts = await getAllTags();
+
+  return Array.from(tagCounts.keys()).map((tag) => ({
+    params: { tag },
+  }));
+}
+
+const { tag } = Astro.params;
+
+// Get articles and events with this tag
+const [articles, events] = await Promise.all([getArticlesByTag(tag), getEventsByTag(tag)]);
+
+// Filter to news articles and sort by date (newest first)
+const newsArticles = articles
+  .filter((a) => a.data.slug?.startsWith('news/'))
+  .sort((a, b) => {
+    const dateA = new Date(a.data.date || 0).getTime();
+    const dateB = new Date(b.data.date || 0).getTime();
+    return dateB - dateA;
+  });
+
+// Sort events by date (newest first)
+const sortedEvents = events.sort((a, b) => {
+  const dateA = new Date(a.data.date || 0).getTime();
+  const dateB = new Date(b.data.date || 0).getTime();
+  return dateB - dateA;
+});
+
+const totalItems = newsArticles.length + sortedEvents.length;
+const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
+
+// Format date for display
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
+---
+
+<BaseLayout title={`Tagged: ${tag}`} description={`Content tagged with "${tag}"`}>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader title={tag} description={`${totalItems} ${totalItems === 1 ? 'item' : 'items'} tagged`}>
+      <a
+        href="/tags/"
+        class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-galaxy-gold transition-colors mt-4"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        All Tags
+      </a>
+    </PageHeader>
+
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
+      {
+        newsArticles.length > 0 || sortedEvents.length > 0 ? (
+          <div class:list={['grid grid-cols-1 gap-8', { 'lg:grid-cols-2': hasBoth }]}>
+            {newsArticles.length > 0 && (
+              <section>
+                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                    />
+                  </svg>
+                  News <span class="text-sm font-normal text-gray-400">({newsArticles.length})</span>
+                </h2>
+                <div class="space-y-4" id="news-list">
+                  {newsArticles.map((article, idx) => (
+                    <a href={`/${article.data.slug}/`} class:list={['block group', { hidden: idx >= 20 }]} data-item>
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {article.data.title}
+                      </h3>
+                      {article.data.tease && (
+                        <p class="text-sm text-gray-500 mt-1 line-clamp-2">{article.data.tease}</p>
+                      )}
+                      <time class="text-sm text-gray-400">{formatDate(article.data.date)}</time>
+                    </a>
+                  ))}
+                </div>
+                {newsArticles.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="news-list"
+                    data-remaining={newsArticles.length - 20}
+                  >
+                    Show {newsArticles.length - 20} more
+                  </button>
+                )}
+              </section>
+            )}
+
+            {sortedEvents.length > 0 && (
+              <section>
+                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
+                  </svg>
+                  Events <span class="text-sm font-normal text-gray-400">({sortedEvents.length})</span>
+                </h2>
+                <div class="space-y-4" id="events-list">
+                  {sortedEvents.map((event, idx) => (
+                    <a href={`/${event.data.slug}/`} class:list={['block group', { hidden: idx >= 20 }]} data-item>
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {event.data.title}
+                      </h3>
+                      {event.data.tease && <p class="text-sm text-gray-500 mt-1 line-clamp-2">{event.data.tease}</p>}
+                      <time class="text-sm text-gray-400">{formatDate(event.data.date)}</time>
+                    </a>
+                  ))}
+                </div>
+                {sortedEvents.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="events-list"
+                    data-remaining={sortedEvents.length - 20}
+                  >
+                    Show {sortedEvents.length - 20} more
+                  </button>
+                )}
+              </section>
+            )}
+          </div>
+        ) : (
+          <p class="text-gray-500 text-center py-8">No content found with this tag.</p>
+        )
+      }
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  document.querySelectorAll('[data-show-more]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const listId = button.getAttribute('data-show-more');
+      const list = document.getElementById(listId);
+      if (list) {
+        list.querySelectorAll('[data-item].hidden').forEach((item) => {
+          item.classList.remove('hidden');
+        });
+        button.remove();
+      }
+    });
+  });
+</script>

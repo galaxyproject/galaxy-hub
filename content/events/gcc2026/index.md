@@ -23,7 +23,6 @@ subsites: [all, all-eu]
 
 # **2026 Galaxy Community Conference (GCC2026)**
 
-## Save the date!
 ### June 22-24, 2026
 #### Plus [CoFest](/events/gcc2026/cofest/)! June 25-26, 2026
 ### Held in the spectacular [Clermont-Ferrand, France](https://maps.app.goo.gl/g3g3MMivnyHMxVM16)
@@ -35,10 +34,14 @@ subsites: [all, all-eu]
     <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" type="button" class="btn btn-primary">
         <strong>Sign up for email announcements</strong>
     </a>
-    <!-- ◇
-    <a href="/events/gcc2026/abstracts/" type="button" class="btn btn-primary">
-        <strong>Submit an abstracts</strong>
-    </a> -->
+    ◇
+    <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
+        <strong>Register now</strong>
+    </a>
+    ◇
+    <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" type="button" class="btn btn-primary">
+        <strong>Submit an abstract</strong>
+    </a>
   </div>
 </div>
 
@@ -48,7 +51,7 @@ subsites: [all, all-eu]
 
   <!-- About GCC -->
   <div class="card" style="min-width: 30%; max-width: 40rem;">
-    <img src="/images/events/gcc2026/cartoon-conference.png" class="card-img-top" alt="GCC conference series" />
+    <img src="/images/events/gcc2026/cartoon-conference-v2.png" class="card-img-top" alt="GCC conference series" />
     <div class="card-header">About GCC conference series</div>
 
 The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
@@ -67,7 +70,7 @@ platform and to connect with other members of the Galaxy community.**
 
   <!-- Destination -->
   <div class="card" style="min-width: 30%; max-width: 32.2%;">
-    <img src="/images/events/gcc2026/cartoon-clermont-ferrand.png" class="card-img-top" alt="Clermont-Ferrand, France" />
+    <img src="/images/events/gcc2026/cartoon-clermont-ferrand-v2.png" class="card-img-top" alt="Clermont-Ferrand, France" />
     <div class="card-header">Clermont-Ferrand, France</div>
 
 **Nestled in the heart of central France**, Clermont-Ferrand is a city framed by
@@ -87,9 +90,17 @@ The **[travel page](/events/gcc2026/travel/) has more details.**
 
   </div>
 
+  <!-- Fellowships -->
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
+    <img src="/images/events/gcc2026/cartoon-fellowship.png" class="card-img-top" alt="GCC2026 Fellowships" />
+    <div class="card-header">GCC2026 Fellowships</div>
+
+We are pleased to offer several fellowship opportunities to support attendance at the Galaxy Community Conference 2026 in Clermont-Ferrand, France. These awards will help early-career researchers and new Galaxy users participate in this premier event. **The fellowships are open to graduate students, postdoctoral researchers, and early-career scientists who are new to the Galaxy community.** Take  look at the [fellowships page](/events/gcc2026/fellowships/) for more details and to apply.
+  </div>
+
   <!-- Host -->
   <div class="card" style="min-width: 30%; max-width: 32.2%">
-    <img src="/images/events/gcc2026/cartoon-clermont-auvergne.png" class="card-img-top" alt="GCC2026 host" />
+    <img src="/images/events/gcc2026/cartoon-clermont-auvergne-v2.png" class="card-img-top" alt="GCC2026 host" />
     <div class="card-header">GCC2026 Host</div>
 
 **GCC2026 is hosted by the [Université Clermont Auvergne](https://www.uca.fr/)
@@ -107,6 +118,32 @@ which administers a local Galaxy instance.
 The Galaxy project is thrilled to be hosted by UCA!
 
   </div>
+
+  <!-- Cofest -->
+  <div class="card" style="min-width: 30%; max-width: 32.2%">
+    <img src="/images/events/gcc2026/cartoon-cofest.png" class="card-img-top" alt="GCC2026 cofest" />
+    <div class="card-header">GCC2026 CoFest</div>
+
+**CoFest is a community-driven event** where participants work together on innovative projects related to Galaxy. It’s more than a hackathon—it’s a chance for everyone, regardless of background, to contribute to our vibrant ecosystem.  ￼
+
+CoFest participants will gather around shared interests and address common topics related to those interests. It is an informal, highly interactive meeting where you get to "hack" on a topic of choice - and you can do it with others that share similar interests.
+
+Join us at **[CoFest](/events/gcc2026/cofest/)**
+
+  </div>
+
+  <!-- Keynote -->
+ <!--
+  <div class="card" style="min-width: 30%; max-width: 32.2%">
+    <img src="/images/events/gcc2026/keynote-photo.png" class="card-img-top" alt="GCC2026 Keynote speaker" />
+    <div class="card-header">GCC2026 Keynote speaker</div>
+
+A very inspiring (keynote speaker)[/event/gcc2026/keynote/], XX, speaking of XX on DATE
+
+  </div>
+  -->
+
+
 
 </div>
 

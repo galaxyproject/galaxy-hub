@@ -16,31 +16,31 @@ Large Language Models (LLMs) are transforming research, helping with tasks from 
 
 ## Available Models
 
-LLM Hub offers a selection of models for different needs. All are hosted at the University of Freiburg, and more will be added over time.
+LLM Hub offers a selection of models for different needs. All are hosted **locally at the University of Freiburg**, and more will be added over time.
 Have a model to suggest? Reach out to [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu).  
 
 ### Text Models
 
-| Model | Provider | Description |
-|-------|----------|-------------|
-| **GPT-OSS-120B** | OpenAI | Best suited for complex tasks, deep reasoning, and detailed outputs |
-| **GPT-OSS-20B** | OpenAI | Smooth for straightforward Q&A or text generation, efficient on small servers |
-| **Qwen3-30B-A3B** | Alibaba Cloud | Strong all-rounder for technical tasks, coding, and long structured outputs |
-| **DeepSeek-R1-0528-Qwen3-8B** | DeepSeek | Fast and efficient for general reasoning and straightforward problem-solving |
-| **Meta-Llama-3.1-8B-Instruct** | Meta AI | Lightweight and responsive, suitable for simpler tasks and fast prompt execution |
-| **Mistral-Small-3.2-24B** | Mistral AI | Balanced accuracy and speed, good for drafting documents and structured outputs |
-| **Magistral-Small** | Mistral AI | Quick and lightweight text generation, best when speed and cost matter most |
+| Model | Developed by | Description |
+|-------|--------------|-------------|
+| **GPT-OSS-120B** |  OpenAI  | Best suited for complex tasks, deep reasoning, and detailed outputs |
+| **GPT-OSS-20B** |  OpenAI  | Smooth for straightforward Q&A or text generation, efficient on small servers |
+| **Qwen3-30B-A3B** |  Alibaba Cloud  | Strong all-rounder for technical tasks, coding, and long structured outputs |
+| **DeepSeek-R1-0528-Qwen3-8B** |  DeepSeek  | Fast and efficient for general reasoning and straightforward problem-solving |
+| **Meta-Llama-3.1-8B-Instruct** |  Meta AI  | Lightweight and responsive, suitable for simpler tasks and fast prompt execution |
+| **Mistral-Small-3.2-24B** |  Mistral AI  | Balanced accuracy and speed, good for drafting documents and structured outputs |
+| **Magistral-Small** |  Mistral AI  | Quick and lightweight text generation, best when speed and cost matter most |
 
 ### Multimodal Models
 
-| Model | Provider | Description |
+| Model | Developed by | Description |
 |-------|----------|-------------|
 | **Gemma-3-12B** | Google DeepMind | Handles text and images, great for describing photos, diagrams, or screenshots |
 | **Qwen2.5-VL-7B** | Alibaba Cloud | Efficient at understanding images and extracting info from charts, UIs, or screenshots |
 
 ### Image Models
 
-| Model | Provider | Description |
+| Model | Developed by | Description |
 |-------|----------|-------------|
 | **NuMarkdown-8B-Thinking** | NuMind | Advanced OCR and document understanding, excels at extracting structured data from scanned images |
 

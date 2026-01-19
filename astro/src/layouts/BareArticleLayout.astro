@@ -1,0 +1,81 @@
+---
+/**
+ * BareArticleLayout
+ * Minimal layout for embedded pages (no sidebar, no footer)
+ * Used for pages that will be embedded in iframes or need minimal chrome
+ */
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description || `${title} - Galaxy Community Hub`} />
+    <title>{title} | Galaxy</title>
+
+    <!-- Import global styles -->
+    <link rel="stylesheet" href="/src/styles/global.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="min-h-screen bg-white text-gray-900">
+    <main class="p-4 sm:p-6 lg:p-8">
+      <article class="prose prose-lg prose-galaxy max-w-none">
+        <slot />
+      </article>
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  /* Prose styles for bare pages */
+  .prose-galaxy {
+    --tw-prose-links: #25537b;
+    --tw-prose-headings: #1f2937;
+  }
+
+  .prose-galaxy a {
+    color: var(--tw-prose-links);
+    text-decoration: none;
+  }
+
+  .prose-galaxy a:hover {
+    text-decoration: underline;
+  }
+
+  .prose-galaxy code {
+    background-color: #f3f4f6;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+  }
+
+  .prose-galaxy pre {
+    background-color: #1f2937;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+
+  .prose-galaxy pre code {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  /* Galaxy branding colors */
+  .prose-galaxy h1,
+  .prose-galaxy h2,
+  .prose-galaxy h3,
+  .prose-galaxy h4 {
+    color: var(--tw-prose-headings);
+  }
+</style>

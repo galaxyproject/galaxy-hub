@@ -329,7 +329,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 * New [Age prediction using machine learning](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html), by [Anup Kumar](https://github.com/anuprulez).
 * New [GO enrichment analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html), by [igcbioinformatics](https://github.com/igcbioinformatics), [Maria Doyle](https://github.com/mblue9), and [dsobral](https://github.com/dsobral).
-* Join the February 2019 GTN CoFest. Held on 21 February, the CoFest will be coordinated via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.7q82sbcupg0j59li0fqo9pots6) (drop-in channel will be open the whole day) and [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+* Join the February 2019 GTN CoFest. Held on 21 February, the CoFest will be coordinated via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.7q82sbcupg0j59li0fqo9pots6) (drop-in channel will be open the whole day) and [the GTN Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im).
 
 
 ## Hub

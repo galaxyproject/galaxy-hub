@@ -118,7 +118,7 @@ As with the recent GVL releases
 but we are approaching the end of adding new features. We will then transition
 to improving robustness of the applications as well as write documentation. In
 the meantime, please take the GVL for a test drive and [let us
-know](https://gitter.im/galaxyproject/FederatedGalaxy) how it feels. **If you
+know](https://matrix.to/#/#galaxyproject_FederatedGalaxy:gitter.im) how it feels. **If you
 have a good use case that makes use of the multiple applications now available,
 please reach out to the authors.** We’d love to work with you to support the
 use case, test the platform, and ideally write a paper describing the new

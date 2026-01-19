@@ -332,6 +332,27 @@ class nodeModifier {
             }
             return node;
         },
+        Platform: function (node) {
+            // Process each platform URL to add designation data
+            if (node.platforms && Array.isArray(node.platforms)) {
+                for (const platform of node.platforms) {
+                    platform.designation = null;
+
+                    if (platform.platform_url) {
+                        const url = normalizeUrl(platform.platform_url);
+                        const designation = DESIGNATIONS_MAP.get(url);
+                        if (designation) {
+                            platform.designation = designation;
+                            console.log(
+                                `Found designation for ${platform.platform_url}: ${designation.designation} (Tier ${designation.tier})`,
+                            );
+                        }
+                    }
+                }
+            }
+
+            return node;
+        },
     };
 }
 
@@ -383,6 +404,71 @@ function parseNavbarItem(rawItem, pathPrefix) {
     return item;
 }
 
+// Helper function to normalize URLs for consistent matching
+function normalizeUrl(url) {
+    if (!url) return null;
+    return url
+        .replace(/^https?:\/\//, "") // Remove protocol
+        .replace(/\/$/, "") // Remove trailing slash
+        .replace(/:\d+$/, "") // Remove port numbers
+        .toLowerCase(); // Normalize case
+}
+
+function loadDesignationsData() {
+    const designationsPath = path.join(__dirname, "content/usegalaxy/designations.csv");
+    if (!fs.existsSync(designationsPath)) {
+        console.warn("Designations CSV file not found:", designationsPath);
+        return new Map();
+    }
+
+    const csvContent = fs.readFileSync(designationsPath, "utf8");
+    const lines = csvContent.split("\n").filter((line) => line.trim());
+    const headers = lines[0].split(",").map((h) => h.trim());
+    const designationsMap = new Map();
+
+    for (let i = 1; i < lines.length; i++) {
+        const line = lines[i];
+        if (!line.trim()) continue;
+
+        // Parse CSV line, handling quoted values
+        const values = [];
+        let current = "";
+        let inQuotes = false;
+
+        for (let j = 0; j < line.length; j++) {
+            const char = line[j];
+            if (char === '"') {
+                inQuotes = !inQuotes;
+            } else if (char === "," && !inQuotes) {
+                values.push(current.trim());
+                current = "";
+            } else {
+                current += char;
+            }
+        }
+        values.push(current.trim());
+
+        if (values.length >= headers.length) {
+            const designation = {};
+            headers.forEach((header, index) => {
+                designation[header.toLowerCase()] = values[index] || "";
+            });
+
+            // Show all designations with URLs
+            if (designation.url) {
+                const normalizedUrl = normalizeUrl(designation.url);
+                if (normalizedUrl) {
+                    designationsMap.set(normalizedUrl, designation);
+                }
+            }
+        }
+    }
+
+    return designationsMap;
+}
+
+const DESIGNATIONS_MAP = loadDesignationsData();
+
 module.exports = function (api) {
     api.loadSource((actions) => {
         // Using the Data Store API: https://gridsome.org/docs/data-store-api/
@@ -426,7 +512,7 @@ module.exports = function (api) {
             };
         }
         actions.addSchemaResolvers(schemas);
-        actions.addSchemaTypes(
+        actions.addSchemaTypes([
             actions.schema.createObjectType({
                 name: "Dataset",
                 interfaces: ["Node"],
@@ -436,7 +522,30 @@ module.exports = function (api) {
                     main_subsite: "String",
                 },
             }),
-        );
+            actions.schema.createObjectType({
+                name: "Platform",
+                interfaces: ["Node"],
+                extensions: { infer: true },
+                fields: {
+                    designation: {
+                        type: "PlatformDesignation",
+                        resolve: (obj) => obj.designation,
+                    },
+                },
+            }),
+            actions.schema.createObjectType({
+                name: "PlatformDesignation",
+                fields: {
+                    operative: "String",
+                    tier: "Int",
+                    url: "String",
+                    city: "String",
+                    region: "String",
+                    description: "String",
+                    notes: "String",
+                },
+            }),
+        ]);
     });
 
     // Populate the derived fields.
@@ -532,6 +641,9 @@ module.exports = function (api) {
                                 platform_text
                                 platform_location
                                 platform_purview
+                                designation {
+                                    tier
+                                }
                             }
                         }
                     }
@@ -708,7 +820,7 @@ function makePlatformsJson(platformsData) {
 
 function makeEventsJson(eventsData) {
     const events = eventsData.data.allParentArticle.edges
-        .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
+        .filter((article) => article.node.days_ago != null && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
         .map((edge) => {
             // We include all fields, including content in the JSON feed
             return edge.node;
@@ -722,7 +834,7 @@ function makeEventsJson(eventsData) {
 
 function makeNewsJson(newsData) {
     const news = newsData.data.allParentArticle.edges
-        .filter((article) => article.node.days_ago && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
+        .filter((article) => article.node.days_ago != null && article.node.days_ago < JSONFEED_DAYS_AGO_LIMIT)
         .map((edge) => {
             // We include all fields, including content in the JSON feed
             return edge.node;

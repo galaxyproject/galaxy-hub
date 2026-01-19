@@ -1,0 +1,194 @@
+tools:
+    - name: BIANA
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_biana
+      description: Biologic Interactions And Network Analysis
+    - name: ILoops
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_iloops
+      description: Prediction of PPIs based on local structural features
+    - name: BIPS
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_bips
+      description: Prediction of PPIs based on interologs
+    - name: iFrag
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_ifrag2
+      description: Protein-protein interface prediction
+    - name: GUILDify
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_guildify
+      description: Prioritize genes using protein interaction networks
+    - name: BADock
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_badock
+      description: Predicts protein-protein binding affinities
+    - name: M4T
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_m4t
+      description: Comparative protein structure modeling
+    - name: MODPIN
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_modpin
+      description: Protein-protein interactions modeling
+    - name: MODPIN Analysis
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_modpin_analysis
+      description: Protein-protein interactions models analysis
+    - name: VORFFIP
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_vorffip
+      description: Predicts protein binding sites
+    - name: MVORFFIP
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_morffip
+      description: Predicts protein-protein, protein-peptide, protein-DNA and protein-RNA
+          binding sites
+    - name: V-D2OCK
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_vd2ock
+      description: Model quaternary structure of binary complexes
+    - name: PCRPi
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_pcrpi
+      description: Presaging Critical Residues in Protein interfaces
+    - name: PiPred
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_pipred
+      description: Modeling of peptides at protein interfaces
+    - name: PPI_FASTA_from_Newtork
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_ppi_fasta_from_network
+      description: ""
+    - name: iLoops_interactions
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_iLoops_interactions
+      description: ""
+    - name: MODPIN_failed_models
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_modpin_failed_models
+      description: ""
+    - name: FASTA_split
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_fasta_split
+      description: ""
+    - name: M4T_cluster_extractor
+      version: "0.1"
+      link: /tool_runner?tool_id=interactomix_m4t_cluster__extractor
+      description: ""
+    - name: Upload File
+      version: 1.1.6
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: UCSC Archaea
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct_archaea1
+      description: table browser
+    - name: EBI SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: InterMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=intermine
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: ZebrafishMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=zebrafishmine
+      description: server
+    - name: EuPathDB
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=eupathdb
+      description: server
+    - name: HbVar
+      version: 2.0.0
+      link: /tool_runner/data_source_redirect?tool_id=hbvar
+      description: Human Hemoglobin Variants and Thalassemias
+    - name: Unzip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: datasets from a collection
+    - name: Filter empty
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_EMPTY_DATASETS__
+      description: datasets from a collection
+    - name: Flatten Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: into a flat list of datasets
+    - name: Merge Collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: into single list of datasets
+    - name: Relabel List Identifiers
+      version: 1.0.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: from contents of a file
+    - name: Filter List
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: from contents of a file
+    - name: Sort Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: of list of datasets
+    - name: Tag elements from file
+      version: 1.0.0
+      link: /tool_runner?tool_id=__TAG_FROM_FILE__
+      description: from contents of a file
+    - name: Apply Rule to Collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__APPLY_RULES__
+      description: ""
+    - name: Build List
+      version: 1.0.0
+      link: /tool_runner?tool_id=__BUILD_LIST__
+      description: from one or more datasets
+    - name: Extract Dataset
+      version: 1.0.0
+      link: /tool_runner?tool_id=__EXTRACT_DATASET__
+      description: from a list

@@ -16,3 +16,14 @@ stderr.log
 stdout.log
 test.html
 /.yarn*
+
+# Astro migration
+/astro/node_modules
+/astro/dist
+/astro/.astro
+/astro/src/content/articles
+/astro/src/content/vue-articles
+/astro/src/content/bare-articles
+/astro/src/content/platforms
+/astro/src/content/inserts
+/astro/src/content/datasets

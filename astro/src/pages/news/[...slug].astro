@@ -1,0 +1,100 @@
+---
+import { render } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { getPublishedNews } from '../../utils/content';
+
+// Import MDX components for embedded content
+import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
+import Twitter from '../../components/mdx/Twitter.astro';
+import Mastodon from '../../components/mdx/Mastodon.astro';
+import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
+import Carousel from '../../components/mdx/Carousel.astro';
+import CalendarEmbed from '../../components/mdx/CalendarEmbed.astro';
+import MarkdownEmbed from '../../components/mdx/MarkdownEmbed.astro';
+import Flickr from '../../components/mdx/Flickr.astro';
+import Supporters from '../../components/mdx/Supporters.astro';
+import Contacts from '../../components/mdx/Contacts.astro';
+import Insert from '../../components/mdx/Insert.astro';
+import { resolveSupporters } from '../../utils/supporters';
+
+export async function getStaticPaths() {
+  // Get only published news articles (excludes future-dated articles)
+  const newsArticles = await getPublishedNews();
+
+  return newsArticles.map((article) => {
+    // Remove 'news/' prefix from slug for the URL
+    const urlSlug = article.data.slug.replace(/^news\//, '');
+    return {
+      params: { slug: urlSlug },
+      props: { article },
+    };
+  });
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const { title, date, authors = [], tags = [], tease, image, external_url } = article.data;
+if (external_url) {
+  return Astro.redirect(external_url);
+}
+const supporters = await resolveSupporters((article as any).data.supporters);
+
+// MDX components map
+const components = {
+  VegaEmbed,
+  Twitter,
+  Mastodon,
+  VideoPlayer,
+  Carousel,
+  CalendarEmbed,
+  MarkdownEmbed,
+  Flickr,
+  Supporters,
+  Contacts,
+  Insert,
+};
+
+// Schema.org structured data
+const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
+const canonical = `${site}/${article.data.slug.replace(/^\/|\/$/g, '')}/`;
+const published = date ? new Date(date) : null;
+const authorList = (authors || []).map((name: string) => ({ '@type': 'Person', name }));
+const imageUrl = image ? (image.startsWith('http') ? image : `${site}${image}`) : undefined;
+
+const schemaNews = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: title || 'News',
+  description: tease || undefined,
+  datePublished: published ? published.toISOString() : undefined,
+  dateModified: published ? published.toISOString() : undefined,
+  url: canonical,
+  mainEntityOfPage: canonical,
+  author: authorList.length > 0 ? authorList : undefined,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Galaxy Project',
+    url: 'https://galaxyproject.org',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${site}/images/galaxy_logo_hub_white.svg`,
+    },
+  },
+  image: imageUrl,
+};
+---
+
+<ArticleLayout
+  title={title || 'News'}
+  description={tease}
+  date={date}
+  authors={authors}
+  tags={tags}
+  image={image}
+  supporters={supporters}
+  backLink={{ href: '/news/', label: 'Back to News' }}
+>
+  <Content components={components} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} />
+</ArticleLayout>

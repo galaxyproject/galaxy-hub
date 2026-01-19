@@ -141,7 +141,7 @@ instance will need to have the necessary tools and reference data installed.
 
 Finally, this is the first released version of GalaxyCloudRunner so please feel
 free to give it a try, [reach
-out](https://gitter.im/galaxyproject/FederatedGalaxy), and let us know what
+out](https://matrix.to/#/#galaxyproject_FederatedGalaxy:gitter.im), and let us know what
 works and what doesn't. As [CloudMan 2.0 is
 developed](https://github.com/galaxyproject/cloudman/tree/v2.0), we will be
 adding automatic scaling to the launched instances and better resource

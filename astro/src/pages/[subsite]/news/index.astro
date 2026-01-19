@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NewsList from '../../../components/news/NewsList.vue';
+import { subsites } from '../../../stores/subsiteStore';
+import { getPublishedNews } from '../../../utils/content';
+
+export function getStaticPaths() {
+  // Generate paths for all non-external subsites (excluding global which uses /news/)
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s))
+    .map((subsite) => ({
+      params: { subsite: subsite.id },
+      props: { subsiteName: subsite.name, subsiteId: subsite.id },
+    }));
+}
+
+const { subsiteName, subsiteId } = Astro.props;
+
+// Get published news articles (excludes future-dated articles)
+const newsArticles = await getPublishedNews();
+
+// Transform to plain objects for Vue component
+const articleData = newsArticles.map((a) => ({
+  slug: a.data.slug,
+  title: a.data.title || 'Untitled',
+  date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
+  tease: a.data.tease,
+  tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
+  subsites: a.data.subsites,
+}));
+---
+
+<BaseLayout title={`${subsiteName} News`} description={`Latest news from Galaxy ${subsiteName}`}>
+  <div class="max-w-6xl mx-auto bg-white">
+    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">{subsiteName} News</h1>
+      <p class="text-lg text-gray-600">Latest updates from the Galaxy {subsiteName} community</p>
+    </header>
+
+    <div class="px-6 sm:px-8 py-6">
+      <NewsList client:load articles={articleData} initialSubsite={subsiteId} />
+    </div>
+  </div>
+</BaseLayout>

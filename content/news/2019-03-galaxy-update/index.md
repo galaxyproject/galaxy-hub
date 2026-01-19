@@ -110,7 +110,7 @@ These and [other Galaxy related events](/events/) are coming up:
        <td><span class="text-nowrap">March 21st 2019</span></td>
        <td><a href="http://artbio.fr/?page_id=341">RNAseq analysis with Galaxy</a></td>
        <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.google.com/maps/d/viewer?mid=1hOogl-2tKCtwgsyf0v7ztigLBU0&amp;ll=48.847069261929576%2C2.3571523499999785&amp;z=17">Sorbonne Université, Paris, France</a></td>
-       <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>https://gitter.im/ARTbio/Hotline</td>
+       <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>https://matrix.to/#/#ARTbio_Hotline:gitter.im</td>
   </tr>
   <tr>
        <td><span class="text-nowrap">April 1st 2019</span></td>

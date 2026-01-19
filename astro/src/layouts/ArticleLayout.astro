@@ -1,0 +1,132 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import PageHeader from '../components/layout/PageHeader.astro';
+import SupporterGrid from '../components/content/SupporterGrid.astro';
+import type { SupporterProfile } from '../utils/supporters';
+
+interface Props {
+  title: string;
+  description?: string;
+  date?: Date | string;
+  authors?: string[];
+  tags?: string[];
+  toc?: boolean;
+  image?: string;
+  backLink?: {
+    href: string;
+    label: string;
+  };
+  supporters?: SupporterProfile[];
+}
+
+const {
+  title,
+  description,
+  date,
+  authors: authorsRaw = [],
+  tags: tagsRaw = [],
+  image,
+  backLink,
+  supporters: supportersRaw = [],
+} = Astro.props;
+
+// Ensure arrays are never null
+const authors = authorsRaw || [];
+const tags = tagsRaw || [];
+const supporters = supportersRaw || [];
+
+// Check if we have meaningful metadata to show in header
+const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length > 0 || tags.length > 0 || description;
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="max-w-6xl mx-auto bg-white relative article-with-corner">
+    {hasMetadata && <PageHeader title={title} description={description} date={date} authors={authors} tags={tags} />}
+
+    {
+      image && (
+        <figure class="px-6 sm:px-8 py-6">
+          <img src={image} alt={title} class="w-full" />
+        </figure>
+      )
+    }
+
+    <!-- Article Content -->
+    <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
+      <slot />
+    </div>
+
+    <!-- Footer -->
+    <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
+      {
+        supporters.length > 0 && (
+          <div class="mb-6">
+            <SupporterGrid supporters={supporters} />
+          </div>
+        )
+      }
+      {
+        backLink && (
+          <div class="pt-4 border-t border-gray-200">
+            <a
+              href={backLink.href}
+              class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              {backLink.label}
+            </a>
+          </div>
+        )
+      }
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  /* Custom prose styles for Galaxy branding */
+  .prose-galaxy {
+    --tw-prose-links: #25537b;
+    --tw-prose-headings: #1f2937;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {
+    color: var(--tw-prose-links);
+    text-decoration: none;
+  }
+
+  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
+    text-decoration: underline;
+  }
+
+  .prose-galaxy :where(code):not(:where([class~='not-prose'] *)) {
+    background-color: #f3f4f6;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+  }
+
+  .prose-galaxy :where(pre):not(:where([class~='not-prose'] *)) {
+    background-color: #1f2937;
+    border-radius: 0.5rem;
+  }
+
+  /* Folded corner accent - three diagonal lines */
+  .article-with-corner::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 6px, #ffd700 6px, #ffd700 8px);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  }
+</style>

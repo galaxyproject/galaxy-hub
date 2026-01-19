@@ -1,0 +1,26 @@
+domains:
+    - platform_url: http://galaxy.ul.edu.lb/
+      ip: 77.42.251.226
+      version: IPv4
+      asn: AS42020 OGERO
+      release:
+          version_major: "18.09"
+          version_minor: null
+      location:
+          city: Beirut
+          region: Beyrouth
+          region_code: BA
+          country: LB
+          country_name: Lebanon
+          country_code: LB
+          continent_code: AS
+          postal: ""
+          latitude: 33.8981
+          longitude: 35.4959
+          timezone: Asia/Beirut
+          currency: LBP
+      response:
+          time: "2025-11-25T19:44:17Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

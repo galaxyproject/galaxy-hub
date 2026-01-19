@@ -25,6 +25,7 @@ GCC2026 runs smoothly.
 * **[Jenn Vessio](https://www.linkedin.com/in/jennifer-vessio-00498014/)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Natalie Whitaker](https://www.linkedin.com/in/natalie-whitaker-ms-23a0a0186/)**, [Johns Hopkins University](https://jhu.edu/), United States
 * **[Tyler Collins](https://orcid.org/0000-0002-3026-9049)**, [Johns Hopkins University](https://jhu.edu/), United States
+* **[Marie Jossé](https://orcid.org/0009-0008-0622-604X)**, [French National Centre for Scientific Research](https://www.cnrs.fr/en), France
 
 To contact the organizing committee, please send an email to
-[gcc2026-org@gaggle.email](mailto:gcc2026-org@gaggle.email).
+[gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org).

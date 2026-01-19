@@ -1,0 +1,523 @@
+tools:
+    - name: pepSimili
+      version: 1.0.0
+      link: /tool_runner?tool_id=pepSimili
+      description: pepSimili workflow
+    - name: BioTranslator
+      version: 0.1.0
+      link: /tool_runner?tool_id=biotranslator_lite
+      description: Semantic Interpretation of Genomic Data
+    - name: Comparative Analysis
+      version: 0.1.0
+      link: /tool_runner?tool_id=comparative_analysis
+      description: Semantic Comparison of Different Sets of Genomic Data
+    - name: BioTranslator for Metagenomics
+      version: 0.1.0
+      link: /tool_runner?tool_id=biotranslator_metagenomics
+      description: Semantic interpretation of metagenomic data based on the UniProt-GO
+          annotation
+    - name: Upload File
+      version: 1.1.7
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: UCSC Archaea
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct_archaea1
+      description: table browser
+    - name: NCBI Datasets Genomes
+      version: 13.14.0
+      link: /tool_runner/data_source_redirect?tool_id=ncbi_datasets_source
+      description: import data from the NCBI Datasets Genomes page
+    - name: SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=sra_source
+      description: server
+    - name: EBI SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: InterMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=intermine
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: ZebrafishMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=zebrafishmine
+      description: server
+    - name: EuPathDB
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=eupathdb
+      description: server
+    - name: HbVar
+      version: 2.0.0
+      link: /tool_runner/data_source_redirect?tool_id=hbvar
+      description: Human Hemoglobin Variants and Thalassemias
+    - name: Send to cloud
+      version: 0.1.0
+      link: /tool_runner?tool_id=send_to_cloud
+      description: ""
+    - name: Export datasets
+      version: 0.1.0
+      link: /tool_runner?tool_id=export_remote
+      description: to remote files source
+    - name: Unzip collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: ""
+    - name: Filter empty datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_EMPTY_DATASETS__
+      description: ""
+    - name: Flatten collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: ""
+    - name: Merge collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: ""
+    - name: Relabel identifiers
+      version: 1.0.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: ""
+    - name: Filter collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: ""
+    - name: Sort collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: ""
+    - name: Tag elements
+      version: 1.0.0
+      link: /tool_runner?tool_id=__TAG_FROM_FILE__
+      description: ""
+    - name: Apply rules
+      version: 1.1.0
+      link: /tool_runner?tool_id=__APPLY_RULES__
+      description: ""
+    - name: Build list
+      version: 1.2.0
+      link: /tool_runner?tool_id=__BUILD_LIST__
+      description: ""
+    - name: Extract dataset
+      version: 1.0.1
+      link: /tool_runner?tool_id=__EXTRACT_DATASET__
+      description: ""
+    - name: Duplicate file to collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__DUPLICATE_FILE_TO_COLLECTION__
+      description: ""
+    - name: Parse parameter value
+      version: 0.1.0
+      link: /tool_runner?tool_id=param_value_from_file
+      description: from dataset
+    - name: Convert genome coordinates
+      version: 1.0.6
+      link: /tool_runner?tool_id=liftOver1
+      description: between assemblies and genomes
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.2
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.2
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.1
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.2
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.2
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: BED-to-GFF
+      version: 2.0.0
+      link: /tool_runner?tool_id=bed2gff1
+      description: converter
+    - name: GFF-to-BED
+      version: 1.0.1
+      link: /tool_runner?tool_id=gff2bed1
+      description: converter
+    - name: MAF to BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_BED1
+      description: Converts a MAF formatted file to the BED format
+    - name: MAF to Interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_Interval1
+      description: Converts a MAF formatted file to the Interval format
+    - name: MAF to FASTA
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_To_Fasta1
+      description: Converts a MAF formatted file to FASTA format
+    - name: SFF converter
+      version: 1.0.1
+      link: /tool_runner?tool_id=Sff_extractor
+      description: ""
+    - name: Wig/BedGraph-to-bigWig
+      version: 1.1.1
+      link: /tool_runner?tool_id=wig_to_bigWig
+      description: converter
+    - name: BED-to-bigBed
+      version: 1.0.1
+      link: /tool_runner?tool_id=bed_to_bigBed
+      description: converter
+    - name: Filter
+      version: 1.1.1
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.2.0
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.4
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.2"
+      link: /tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: 0.1.1
+      link: /tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.2"
+      link: /tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Join two Datasets
+      version: 2.1.3
+      link: /tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.4
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Extract Pairwise MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval2Maf_pairwise1
+      description: given a set of genomic intervals
+    - name: Split MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_split_blocks_by_species1
+      description: by Species
+    - name: Stitch MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval_Maf_Merged_Fasta2
+      description: given a set of genomic intervals
+    - name: Stitch Gene blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=GeneBed_Maf_Fasta2
+      description: given a set of coding exon intervals
+    - name: MAF Coverage Stats
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_stats1
+      description: Alignment coverage information
+    - name: Join MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Thread_For_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Limit_To_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_limit_size1
+      description: by Size
+    - name: Extract MAF by block number
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_by_block_number1
+      description: given a set of block numbers and a MAF file
+    - name: Reverse Complement
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_Reverse_Complement_1
+      description: a MAF file
+    - name: Filter MAF
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_filter
+      description: by specified attributes
+    - name: Wiggle-to-Interval
+      version: 1.0.1
+      link: /tool_runner?tool_id=wiggle2simple1
+      description: converter
+    - name: Aggregate datapoints
+      version: 1.1.4
+      link: /tool_runner?tool_id=aggregate_scores_in_intervals2
+      description: Appends the average, min, max of datapoints per interval
+    - name: Gene BED To Exon/Intron/Codon BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=gene2exon1
+      description: expander
+    - name: Summary Statistics
+      version: 1.1.2
+      link: /tool_runner?tool_id=Summary_Statistics1
+      description: for any numerical column
+    - name: Count
+      version: 1.0.3
+      link: /tool_runner?tool_id=Count1
+      description: occurrences of each record
+    - name: VCF to MAF Custom Track
+      version: 1.0.1
+      link: /tool_runner?tool_id=vcf_to_maf_customtrack1
+      description: for display at UCSC
+    - name: g:Profiler
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_linkToGProfile
+      description: tools for functional profiling of gene lists
+    - name: DAVID
+      version: 1.0.1
+      link: /tool_runner?tool_id=hgv_david
+      description: functional annotation for a list of genes
+    - name: LD
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_ldtools
+      description: linkage disequilibrium and tag SNPs
+    - name: MasterVar to pgSnp
+      version: 1.0.0
+      link: /tool_runner?tool_id=master2pgSnp
+      description: Convert from MasterVar to pgSnp format
+    - name: HUMAnN2
+      version: 0.11.1.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fhumann2%2Fhumann2%2F0.11.1.3
+      description: to profile presence/absence and abundance of microbial pathways and
+          gene families
+    - name: Kraken-report
+      version: 1.3.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fkraken_report%2Fkraken-report%2F1.3.1
+      description: view sample report of a classification
+    - name: Kraken
+      version: 1.3.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fkraken%2Fkraken%2F1.3.1
+      description: assign taxonomic labels to sequencing reads
+    - name: Krona pie chart
+      version: 2.7.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcrs4%2Ftaxonomy_krona_chart%2Ftaxonomy_krona_chart%2F2.7.1%2Bgalaxy0
+      description: from taxonomic profile
+    - name: eggNOG Mapper
+      version: 2.1.8+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Feggnog_mapper%2Feggnog_mapper%2F2.1.8%2Bgalaxy4
+      description: functional sequence annotation by orthology
+    - name: eggNOG Mapper
+      version: 2.1.8+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Feggnog_mapper%2Feggnog_mapper_search%2F2.1.8%2Bgalaxy4
+      description: search phase
+    - name: eggNOG Mapper
+      version: 2.1.8+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Feggnog_mapper%2Feggnog_mapper_annotate%2F2.1.8%2Bgalaxy4
+      description: annotation phase
+    - name: Krona chart
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fondovb%2Fkrona%2Fkrona%2F1.0.0
+      description: of taxonomic abundance
+    - name: MetaBAT2
+      version: 2.15+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmetabat2%2Fmetabat2%2F2.15%2Bgalaxy3
+      description: metagenome binning
+    - name: Kraken2
+      version: 2.1.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fkraken2%2Fkraken2%2F2.1.1%2Bgalaxy1
+      description: assign taxonomic labels to sequencing reads
+    - name: MEGAHIT
+      version: 1.2.9+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmegahit%2Fmegahit%2F1.2.9%2Bgalaxy1
+      description: for metagenomics assembly
+    - name: Pear
+      version: 0.9.6.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fpear%2Fiuc_pear%2F0.9.6.2
+      description: Paired-End read merger
+    - name: HUMAnN3
+      version: 3.6.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fthanhlv%2Fhumann3%2Fhumann3%2F3.6.0%2Bgalaxy0
+      description: to profile presence/absence and abundance of microbial pathways and
+          gene families
+    - name: Prokka
+      version: 1.14.6+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcrs4%2Fprokka%2Fprokka%2F1.14.6%2Bgalaxy1
+      description: Prokaryotic genome annotation
+    - name: pharokka
+      version: 1.3.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fpharokka%2Fpharokka%2F1.3.2%2Bgalaxy0
+      description: Rapid standardised annotation tool for bacteriophage genomes and metagenomes
+    - name: Centrifuge
+      version: 1.0.4_beta
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fjvolkening%2Fcentrifuge%2Fcentrifuge%2F1.0.4_beta
+      description: Read-based metagenome characterization
+    - name: MaxBin2
+      version: 2.2.7+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmbernt%2Fmaxbin2%2Fmaxbin2%2F2.2.7%2Bgalaxy4
+      description: clusters metagenomic contigs into bins
+    - name: NCBI BLAST+ rpsblast
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_rpsblast_wrapper%2F2.14.1%2Bgalaxy1
+      description: Search protein domain database (PSSMs) with protein query sequence(s)
+    - name: NCBI BLAST+ database info
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_blastdbcmd_info%2F2.14.1%2Bgalaxy1
+      description: Show BLAST database information from blastdbcmd
+    - name: NCBI BLAST+ makeblastdb
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_makeblastdb%2F2.14.1%2Bgalaxy1
+      description: Make BLAST database
+    - name: NCBI BLAST+ makeprofiledb
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_makeprofiledb%2F2.14.1%2Bgalaxy1
+      description: Make profile database
+    - name: NCBI BLAST+ tblastx
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_tblastx_wrapper%2F2.14.1%2Bgalaxy1
+      description: Search translated nucleotide database with translated nucleotide query
+          sequence(s)
+    - name: NCBI BLAST+ dustmasker
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_dustmasker_wrapper%2F2.14.1%2Bgalaxy1
+      description: masks low complexity regions
+    - name: NCBI get species taxids
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fget_species_taxids%2F2.14.1%2Bgalaxy1
+      description: ""
+    - name: NCBI BLAST+ blastdbcmd entry(s)
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_blastdbcmd_wrapper%2F2.14.1%2Bgalaxy1
+      description: Extract sequence(s) from BLAST database
+    - name: NCBI BLAST+ blastx
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_blastx_wrapper%2F2.14.1%2Bgalaxy1
+      description: Search protein database with translated nucleotide query sequence(s)
+    - name: NCBI BLAST+ blastp
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_blastp_wrapper%2F2.14.1%2Bgalaxy1
+      description: Search protein database with protein query sequence(s)
+    - name: NCBI BLAST+ convert2blastmask
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_convert2blastmask_wrapper%2F2.14.1%2Bgalaxy1
+      description: Convert masking information in lower-case masked FASTA input to file
+          formats suitable for makeblastdb
+    - name: NCBI BLAST+ tblastn
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_tblastn_wrapper%2F2.14.1%2Bgalaxy1
+      description: Search translated nucleotide database with protein query sequence(s)
+    - name: NCBI BLAST+ segmasker
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_segmasker_wrapper%2F2.14.1%2Bgalaxy1
+      description: low-complexity regions in protein sequences
+    - name: NCBI BLAST+ blastn
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_blastn_wrapper%2F2.14.1%2Bgalaxy1
+      description: Search nucleotide database with nucleotide query sequence(s)
+    - name: BLAST XML to tabular
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fblastxml_to_tabular%2F2.14.1%2Bgalaxy1
+      description: Convert BLAST XML output to tabular
+    - name: NCBI BLAST+ rpstblastn
+      version: 2.14.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fncbi_blast_plus%2Fncbi_rpstblastn_wrapper%2F2.14.1%2Bgalaxy1
+      description: Search protein domain database (PSSMs) with translated nucleotide query
+          sequence(s)
+    - name: FastQC
+      version: 0.74+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc%2F0.74%2Bgalaxy0
+      description: Read Quality reports
+    - name: Trimmomatic
+      version: 0.39+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fpjbriggs%2Ftrimmomatic%2Ftrimmomatic%2F0.39%2Bgalaxy2
+      description: flexible read trimming tool for Illumina NGS data

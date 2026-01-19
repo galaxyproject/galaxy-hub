@@ -75,7 +75,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
   <tr>
      <th class="th" > December 15-16 </th>
      <td> <em><a href="https://github.com/galaxyproteomics/tools-galaxyp/issues">Metaproteomics CodeFest</a></em> </td>
-     <td> <img src="/images/icons/GL.png" alt="Online" align="right" /> <em><a href="https://gitter.im/GalaxyProteomics/Lobby#">Online</a></em> </td>
+     <td> <img src="/images/icons/GL.png" alt="Online" align="right" /> <em><a href="https://matrix.to/#/#GalaxyProteomics_Lobby:gitter.im">Online</a></em> </td>
      <td> <a href="https://github.com/PratikDJagtap">Pratik Jagtap</a>, <a href="/people/bjoern-gruening/">Björn Grüning</a> </td>
      <td> </td>
   </tr>

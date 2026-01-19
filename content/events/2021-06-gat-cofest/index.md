@@ -7,7 +7,7 @@ continent: GL
 location:
   name: "Online, Global"
 external_url: ""
-location_url: "https://gitter.im/galaxyproject/admins"
+location_url: "https://matrix.to/#/#galaxyproject_admins:gitter.im"
 gtn: false
 contact: "Nate Coraor, Helena Rasche"
 tags: [ "cofest" ]
@@ -20,7 +20,7 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 
 The GAT CoFest will be held Tuesday-Thursday, June 1-4. if you think you'll be able to help out, please review and self-assign anything you're interested in addressing, or ask questions about anything you want clarification on.
 
-We are using the [Galaxy Admins Gitter Channel](https://gitter.im/galaxyproject/admins) for live chat during, before, and after the event.
+We are using the [Galaxy Admins Matrix Channel](https://matrix.to/#/#galaxyproject_admins:gitter.im) for live chat during, before, and after the event.
 
 We hope you'll join us.
 

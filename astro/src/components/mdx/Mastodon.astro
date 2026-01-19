@@ -1,0 +1,11 @@
+---
+import MastodonVue from '../embed/Mastodon.vue';
+
+interface Props {
+  url: string;
+}
+
+const { url } = Astro.props;
+---
+
+<MastodonVue client:idle url={url} />

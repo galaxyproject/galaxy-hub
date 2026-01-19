@@ -1,0 +1,182 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PlatformDirectory from '../../components/platforms/PlatformDirectory.vue';
+
+// Get all platforms
+const platforms = await getCollection('platforms');
+
+// Transform platforms to the format expected by the Vue component
+const platformData = platforms.map((p) => ({
+  slug: p.data.slug,
+  title: p.data.title || 'Galaxy Server',
+  url: p.data.url,
+  scope: p.data.scope,
+  summary: p.data.summary,
+  platforms: p.data.platforms,
+  image: p.data.image,
+}));
+---
+
+<BaseLayout title="Use Galaxy" description="Find a Galaxy server to analyze your data">
+  <div class="max-w-7xl mx-auto">
+    <!-- Hero Section -->
+    <header class="text-center py-12 mb-8">
+      <h1 class="text-4xl font-bold text-galaxy-dark mb-4">Use Galaxy</h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Galaxy is available in many forms. Find the right server for your research from {platforms.length}+ options
+        worldwide.
+      </p>
+    </header>
+
+    <!-- Main UseGalaxy Servers -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-galaxy-dark mb-6">Main UseGalaxy Servers</h2>
+      <p class="text-gray-600 mb-6">
+        The main public Galaxy servers are free for everyone. Start here for general-purpose genomic analysis.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <a
+          href="https://usegalaxy.org"
+          target="_blank"
+          rel="noopener"
+          class="block p-6 bg-gradient-to-br from-galaxy-primary to-galaxy-dark text-white rounded-xl hover:shadow-xl transition-shadow"
+        >
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold">UseGalaxy.org</h3>
+          </div>
+          <p class="text-white/90 text-sm mb-4">
+            The main US Galaxy server hosted at Penn State and Johns Hopkins. Free for everyone.
+          </p>
+          <div class="flex items-center text-sm">
+            <span class="text-galaxy-accent font-medium">Start analyzing</span>
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+          </div>
+        </a>
+
+        <a
+          href="https://usegalaxy.eu"
+          target="_blank"
+          rel="noopener"
+          class="block p-6 bg-gradient-to-br from-blue-600 to-blue-800 text-white rounded-xl hover:shadow-xl transition-shadow"
+        >
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold">UseGalaxy.eu</h3>
+          </div>
+          <p class="text-white/90 text-sm mb-4">
+            The European Galaxy server at Freiburg with extensive tools and training support.
+          </p>
+          <div class="flex items-center text-sm">
+            <span class="text-green-300 font-medium">Start analyzing</span>
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+          </div>
+        </a>
+
+        <a
+          href="https://usegalaxy.org.au"
+          target="_blank"
+          rel="noopener"
+          class="block p-6 bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-xl hover:shadow-xl transition-shadow"
+        >
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold">UseGalaxy.org.au</h3>
+          </div>
+          <p class="text-white/90 text-sm mb-4">Galaxy Australia serving the Oceania region with local support.</p>
+          <div class="flex items-center text-sm">
+            <span class="text-yellow-300 font-medium">Start analyzing</span>
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- All Servers Directory -->
+    <section>
+      <h2 class="text-2xl font-semibold text-galaxy-dark mb-6">All Galaxy Servers</h2>
+      <p class="text-gray-600 mb-8">
+        Beyond the main UseGalaxy servers, there are hundreds of specialized Galaxy instances for specific domains,
+        geographic regions, and research areas. Use the filters below to find the right one for your needs.
+      </p>
+
+      <PlatformDirectory client:load platforms={platformData} />
+    </section>
+
+    <!-- Additional Resources -->
+    <section class="mt-16 py-12 bg-gray-50 -mx-4 px-4 rounded-lg">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-2xl font-semibold text-galaxy-dark mb-4">Other Ways to Use Galaxy</h2>
+        <p class="text-gray-600 mb-8">Can't find what you need? There are more options for running Galaxy.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <a href="/admin/" class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <h3 class="font-semibold text-galaxy-dark mb-2">Run Your Own</h3>
+            <p class="text-sm text-gray-600">Install and configure Galaxy on your own infrastructure.</p>
+          </a>
+          <a href="/cloud/" class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <h3 class="font-semibold text-galaxy-dark mb-2">Cloud Deployments</h3>
+            <p class="text-sm text-gray-600">Deploy Galaxy on AWS, GCP, Azure, or other cloud platforms.</p>
+          </a>
+          <a
+            href="https://training.galaxyproject.org/"
+            target="_blank"
+            rel="noopener"
+            class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+          >
+            <h3 class="font-semibold text-galaxy-dark mb-2">Galaxy Training</h3>
+            <p class="text-sm text-gray-600">Learn how to use Galaxy with our extensive tutorial library.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

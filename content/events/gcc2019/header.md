@@ -40,7 +40,7 @@ Freiburg, Germany, 1-6 July 2019
   </div><br />
   <div class="trim-p">
 
-[#usegalaxy](https://twitter.com/hashtag/usegalaxy) / [chat](https://gitter.im/galaxyproject/gcc)
+[#usegalaxy](https://twitter.com/hashtag/usegalaxy) / [chat](https://matrix.to/#/#galaxyproject_gcc:gitter.im)
 
   </div>
 </div>

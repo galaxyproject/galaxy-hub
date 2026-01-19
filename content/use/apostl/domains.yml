@@ -1,0 +1,26 @@
+domains:
+    - platform_url: http://apostl.moffitt.org/
+      ip: 206.81.164.101
+      version: IPv4
+      asn: AS11523 H. Lee Moffitt Cancer Center & Research Institute, Inc.
+      release:
+          version_major: "16.04"
+          version_minor: null
+      location:
+          city: Tampa
+          region: Florida
+          region_code: FL
+          country: US
+          country_name: United States
+          country_code: US
+          continent_code: NA
+          postal: "33647"
+          latitude: 28.1147
+          longitude: -82.3678
+          timezone: America/New_York
+          currency: USD
+      response:
+          time: "2025-11-25T19:37:06Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

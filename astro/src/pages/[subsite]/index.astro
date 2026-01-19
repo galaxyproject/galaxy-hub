@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { subsites } from '../../stores/subsiteStore';
+
+// Generate paths for all non-external subsites
+export function getStaticPaths() {
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s && s.external))
+    .map((s) => ({
+      params: { subsite: s.id },
+      props: { subsiteInfo: s },
+    }));
+}
+
+const { subsite } = Astro.params;
+const { subsiteInfo } = Astro.props;
+
+// Get events for this subsite
+const allEvents = await getCollection('events');
+const now = new Date();
+
+const subsiteEvents = allEvents.filter((event) => {
+  const eventSubsites = event.data.subsites;
+  if (!eventSubsites) return false;
+  const subsitesArray = Array.isArray(eventSubsites) ? eventSubsites : [eventSubsites];
+  return subsitesArray.includes(subsite);
+});
+
+const upcomingEvents = subsiteEvents
+  .filter((e) => {
+    const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
+    return eventDate >= now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+    return dateA.getTime() - dateB.getTime();
+  })
+  .slice(0, 5);
+
+// Get news for this subsite
+const allArticles = await getCollection('articles');
+const subsiteNews = allArticles
+  .filter((article) => {
+    if (!article.data.slug.startsWith('news/')) return false;
+    const articleSubsites = article.data.subsites;
+    if (!articleSubsites) return false;
+    const subsitesArray = Array.isArray(articleSubsites) ? articleSubsites : [articleSubsites];
+    return subsitesArray.includes(subsite);
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 5);
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = date instanceof Date ? date : new Date(date);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+const subsiteLabels: Record<string, { title: string; description: string }> = {
+  us: {
+    title: 'Galaxy US',
+    description: 'Galaxy resources and news for the United States community',
+  },
+  eu: {
+    title: 'Galaxy Europe',
+    description: 'Galaxy resources and news for the European community',
+  },
+  freiburg: {
+    title: 'Galaxy Freiburg',
+    description: 'Galaxy resources and news from the University of Freiburg',
+  },
+  erasmusmc: {
+    title: 'Galaxy Erasmus MC',
+    description: 'Galaxy resources and news from Erasmus Medical Center',
+  },
+  belgium: {
+    title: 'Galaxy Belgium (VIB)',
+    description: 'Galaxy resources and news from VIB Belgium',
+  },
+  pasteur: {
+    title: 'Galaxy Pasteur',
+    description: 'Galaxy resources and news from Institut Pasteur',
+  },
+  'elixir-it': {
+    title: 'Galaxy ELIXIR-IT',
+    description: 'Galaxy resources and news from ELIXIR Italy',
+  },
+  ifb: {
+    title: 'Galaxy ELIXIR-FR/IFB',
+    description: 'Galaxy resources and news from ELIXIR France / IFB',
+  },
+};
+
+const { title, description } = subsiteLabels[subsite] || {
+  title: `Galaxy ${subsiteInfo.name}`,
+  description: `Galaxy resources and news for ${subsiteInfo.name}`,
+};
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="max-w-5xl mx-auto">
+    <!-- Header -->
+    <div class="mb-8 pb-6 border-b border-gray-200">
+      <h1 class="text-3xl font-bold text-galaxy-dark mb-2">{title}</h1>
+      <p class="text-gray-600">{description}</p>
+    </div>
+
+    <div class="grid gap-8 lg:grid-cols-2">
+      <!-- Upcoming Events -->
+      <section>
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-galaxy-dark">Upcoming Events</h2>
+          <a href={`/${subsite}/events/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
+        </div>
+
+        {
+          upcomingEvents.length === 0 ? (
+            <p class="text-gray-500 italic">No upcoming events.</p>
+          ) : (
+            <div class="space-y-3">
+              {upcomingEvents.map((event) => (
+                <a
+                  href={`/events/${event.data.slug}/`}
+                  class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                >
+                  <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>
+                  <h3 class="font-medium text-galaxy-dark line-clamp-2">{event.data.title}</h3>
+                </a>
+              ))}
+            </div>
+          )
+        }
+      </section>
+
+      <!-- Recent News -->
+      <section>
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-galaxy-dark">Recent News</h2>
+          <a href={`/${subsite}/news/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
+        </div>
+
+        {
+          subsiteNews.length === 0 ? (
+            <p class="text-gray-500 italic">No recent news.</p>
+          ) : (
+            <div class="space-y-3">
+              {subsiteNews.map((article) => (
+                <a
+                  href={`/${article.data.slug}/`}
+                  class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                >
+                  <div class="text-xs text-gray-500 mb-1">{formatDate(article.data.date)}</div>
+                  <h3 class="font-medium text-galaxy-dark line-clamp-2">{article.data.title}</h3>
+                </a>
+              ))}
+            </div>
+          )
+        }
+      </section>
+    </div>
+
+    <!-- Quick Links -->
+    <section class="mt-12 pt-8 border-t border-gray-200">
+      <h2 class="text-xl font-bold text-galaxy-dark mb-4">Quick Links</h2>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <a
+          href={`/${subsite}/events/`}
+          class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
+        >
+          <h3 class="font-semibold text-galaxy-dark">Events</h3>
+          <p class="text-sm text-gray-600">Browse all events</p>
+        </a>
+        <a
+          href={`/${subsite}/news/`}
+          class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
+        >
+          <h3 class="font-semibold text-galaxy-dark">News</h3>
+          <p class="text-sm text-gray-600">Read latest news</p>
+        </a>
+        <a href="/use/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
+          <h3 class="font-semibold text-galaxy-dark">Platforms</h3>
+          <p class="text-sm text-gray-600">Find Galaxy servers</p>
+        </a>
+        <a href="/community/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
+          <h3 class="font-semibold text-galaxy-dark">Community</h3>
+          <p class="text-sm text-gray-600">Get involved</p>
+        </a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

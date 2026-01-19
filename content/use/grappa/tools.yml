@@ -1,0 +1,209 @@
+tools:
+    - name: Upload File
+      version: 1.1.7
+      link: /grappa/tool_runner?tool_id=upload1
+      description: from your computer
+    - name: Add column
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /grappa/tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /grappa/tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.2
+      link: /grappa/tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.1
+      link: /grappa/tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.1
+      link: /grappa/tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.2
+      link: /grappa/tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Create Secure Hash / Message Digest
+      version: 0.0.2
+      link: /grappa/tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Filter
+      version: 1.1.1
+      link: /grappa/tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.2.0
+      link: /grappa/tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Join two Datasets
+      version: 2.1.3
+      link: /grappa/tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /grappa/tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.4
+      link: /grappa/tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Convert Edgelist to GraphViz
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=el_to_graphviz
+      description: ""
+    - name: Convert Cliquelist to GraphViz
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=cl_to_graphviz
+      description: ""
+    - name: Convert Weighted Edgelist to Unweighted Edgelist
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=wel_to_el
+      description: ""
+    - name: Convert Cliquelist to Genelist
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=cl_to_gl
+      description: ""
+    - name: Normalize
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=normalize1
+      description: sets of data
+    - name: log2
+      version: "1.0"
+      link: /grappa/tool_runner?tool_id=log2
+      description: transform
+    - name: Pearson Correlation
+      version: "3.3"
+      link: /grappa/tool_runner?tool_id=correlate1
+      description: ""
+    - name: Spearman Correlation
+      version: "3.3"
+      link: /grappa/tool_runner?tool_id=spearman
+      description: ""
+    - name: Differential Correlation
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=diffcorr1
+      description: ""
+    - name: Gaussian Graphical Model
+      version: 1.2.8
+      link: /grappa/tool_runner?tool_id=GeneNet
+      description: ""
+    - name: Mutual Information
+      version: 1.2.0
+      link: /grappa/tool_runner?tool_id=mutual
+      description: ""
+    - name: EntropyExplorer
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=diffcv
+      description: ""
+    - name: Analysis
+      version: "1.0"
+      link: /grappa/tool_runner?tool_id=threshold-analysis
+      description: Identify optimal graph thresholds
+    - name: Edge Histogram
+      version: "1.0"
+      link: /grappa/tool_runner?tool_id=edge-hist
+      description: Plot a histogram of graph edge weights
+    - name: Threshold
+      version: "1.0"
+      link: /grappa/tool_runner?tool_id=threshold
+      description: Remove edges from graph
+    - name: Paraclique
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=paraclique1
+      description: ""
+    - name: Maximum Clique
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=mclique1
+      description: ""
+    - name: Maximal Clique Enumeration
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=malclique1
+      description: ""
+    - name: Maximal Biclique Enumeration
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=biclique1
+      description: ""
+    - name: Dominating Set
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=dominatingset1
+      description: ""
+    - name: Constraint-based
+      version: "3.5"
+      link: /grappa/tool_runner?tool_id=constraint
+      description: ""
+    - name: Score-based
+      version: "3.5"
+      link: /grappa/tool_runner?tool_id=score
+      description: ""
+    - name: Hybrid
+      version: "3.5"
+      link: /grappa/tool_runner?tool_id=hybrid
+      description: ""
+    - name: Count
+      version: 1.0.3
+      link: /grappa/tool_runner?tool_id=Count1
+      description: occurrences of each record
+    - name: Bar chart
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=barchart_gnuplot
+      description: for multiple columns
+    - name: Boxplot
+      version: 1.0.1
+      link: /grappa/tool_runner?tool_id=qual_stats_boxplot
+      description: of quality statistics
+    - name: Graph Visualization
+      version: 1.0.4
+      link: /grappa/tool_runner?tool_id=graphviz1
+      description: with GraphViz
+    - name: Convert Edgelist to GraphViz
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=el_to_graphviz
+      description: ""
+    - name: Convert Cliquelist to GraphViz
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=cl_to_graphviz
+      description: ""
+    - name: Convert Weighted Edgelist to Unweighted Edgelist
+      version: 1.0.0
+      link: /grappa/tool_runner?tool_id=wel_to_el
+      description: ""
