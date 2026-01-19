@@ -1,7 +1,7 @@
 ---
 title: Our paper about BioConda on bioRxiv
 date: '2017-10-21'
-tags: [paper, Bioconda]
+tags: [paper, conda]
 supporters:
 - denbi
 - elixir

@@ -1,7 +1,7 @@
 ---
 title: 'New Article ''Selbst ist der Forscher: Big-Data-Analysen leicht gemacht'''
 date: '2018-10-30'
-tags: [article]
+tags: [outreach]
 supporters:
 - denbi
 subsites: [eu, freiburg]

@@ -4,7 +4,6 @@ subsites:
 main_subsite: global
 date: '2025-09-12'
 tags:
-- teaching
 - gtn-news
 - training
 - community

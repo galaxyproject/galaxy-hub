@@ -3,7 +3,7 @@ title: "Lights, Camera... Hacking! Highlights from the Galaxy Imaging Hackathon 
 authors: "Diana Chiang Jurado" 
 contributions:
     funding: [NFDI4BioImage, de.KCD, oscars, fiesta]
-tags: [imaging, hackathon, community, workflows, FAIR, microscopy]
+tags: [imaging, hackathon, community, workflow, FAIR, microscopy]
 layout: news
 date: "2025-05-12"
 tease: "Three days of collaborative hacking, coffee-fueled brainstorming, and community-powered innovation—Galaxy Imaging is growing, and so are its FAIR tools!" 

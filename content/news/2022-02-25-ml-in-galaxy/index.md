@@ -6,7 +6,7 @@ tease: Artificial intelligence (machine learning and deep learning) algorithms a
   protein structure prediction, imputing missing data in single-cell gene expression,
   modelling evolution in biological sequences and many more.
 hide_tease: true
-tags: [videos]
+tags: [video]
 supporters:
 - galaxy-europe
 - denbi

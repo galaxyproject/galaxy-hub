@@ -1,7 +1,7 @@
 ---
 title: New Article 'Datenanalyse mit dem Galaxy Server'
 date: '2018-10-10'
-tags: [article]
+tags: [outreach]
 supporters:
 - denbi
 subsites: [eu, freiburg]

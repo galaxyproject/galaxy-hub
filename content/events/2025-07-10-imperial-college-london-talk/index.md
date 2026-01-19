@@ -8,7 +8,7 @@ continent: "EU"
 location: 
   url: "https://myimperial.powerappsportals.com/events/event/?id=fc1d2204-b36e-41a5-9546-455748647388&readableEventId=Galaxy_the_research_data_powerhousefrom_analysis_to_FAIR_management3267684407"
 gtn: false
-tags: [talks, uni-freiburg, esg, esg-wp1]
+tags: [talk, uni-freiburg, esg, esg-wp1]
 supporters: [esg, unifreiburg, elixir]
 subsites: [all,esg]
 autotoc: false

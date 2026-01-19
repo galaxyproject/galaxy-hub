@@ -5,7 +5,7 @@ date: '2020-10-22'
 tease: from 1000+ contributors
 tags: [Bioconda]
 supporters:
-- bioconda
+- conda
 - elixir
 - denbi
 authors: beatrizserrano

@@ -6,16 +6,15 @@ date: '2025-12-02'
 tags:
 - news
 - nfdi
-- dataplants
-- communities
+- dataplant
+- community
 - workshop
-- rdm
+- research data management
 - interoperability
 - standardization
 - arc
-- ro-crates
+- ro-crate
 - plant
-- datahub
 - storage
 - scalable
 - SaaS

@@ -1,7 +1,7 @@
 ---
 title: Insights from the first cross-training between EOSC-Life and EOSC-Nordic
 date: '2020-11-27'
-tags: [training, press, tiaas]
+tags: [training, tiaas, outreach]
 supporters:
 - unifreiburg
 - elixir

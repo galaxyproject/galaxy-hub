@@ -3,7 +3,7 @@ title: "From Functional Nucleic Acids to Galaxy Training: Reflections on My Rese
 date: "2025-10-20"
 authors: "Reyhaneh Tavakoli Koopaei"
 tease: "Collaboration and innovation with the Galaxy Europe team"
-tags: [gtn, galaxy-europe, training, imaging, RNA, dnazyme, cleaveRNA]
+tags: [gtn, galaxy, training, imaging, RNA, dnazyme, cleaveRNA, outreach]
 supporters: [unifreiburg, uniisfahan]
 subsites: [all]
 main_subsite: eu

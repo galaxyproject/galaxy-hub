@@ -1,7 +1,7 @@
 ---
 title: Laborjournal article about Galaxy
 date: '2020-01-05'
-tags: [article]
+tags: [outreach]
 supporters:
 - denbi
 - elixir

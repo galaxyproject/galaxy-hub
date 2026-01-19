@@ -4,7 +4,7 @@ tease: "Anaconda, DockerHub, Quay.io, GitHub ... we need to talk about the susta
 hide-tease: false
 authors: "Björn Grüning"
 date: "2024-08-20"
-tags: ["anaconda", "opinion"]
+tags: ["conda", "opinion"]
 subsites: [global,all]
 ---
 

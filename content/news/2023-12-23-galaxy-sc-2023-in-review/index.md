@@ -7,7 +7,7 @@ authors_structured:
 - github: nomadscientist
 - github: pavanvidem
 - github: mtekman
-tags: [gtn, communications, single-cell, esg-wp1, esg-wp5]
+tags: [gtn, outreach, year-in-review, single-cell, esg-wp1, esg-wp5]
 subsites: [all-eu,global,esg]
 supporters:
   - eurosciencegateway

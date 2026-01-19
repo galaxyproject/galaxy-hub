@@ -2,7 +2,7 @@
 title: Three articles related to COVID-19 research using Galaxy in the de.NBI brochure
 date: '2021-02-01'
 tease: Just part of how de.NBI is supporting COVID-19 research
-tags: [COVID-19, article]
+tags: [COVID-19, outreach]
 supporters:
 - denbi
 authors: beatrizserrano

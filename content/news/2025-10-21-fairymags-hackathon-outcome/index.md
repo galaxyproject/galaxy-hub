@@ -11,7 +11,7 @@ tags:
 - galaxy
 - mags
 - microbial
-- metagennomics
+- metagenomics
 - fairymags
 
 ---

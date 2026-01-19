@@ -7,7 +7,7 @@ authors: José Manuel Domínguez
 authors_structured:
 - github: kysrpex
 subsites: [all,esg]
-tags: [esg, esg-wp2, rdm, "new feature"]
+tags: [esg, esg-wp2, "new feature", "research data management"]
 supporters: [eurosciencegateway, unifreiburg, elixir, nfdi]
 ---
 

@@ -5,7 +5,7 @@ tease: "During 6-9th of June, members of the European Galaxy team travelled to A
 hide_tease: true
 location:
   name: Amsterdam, Netherlands
-tags: [conference, talk, poster, training, bioconda, COVID-19]
+tags: [conference, talk, poster, training, conda, COVID-19]
 authors: engynasr
 supporters:
 - elixir

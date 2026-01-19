@@ -7,7 +7,6 @@ tags:
 - event
 - training
 - gtn-news
-- teaching
 - contributing
 - news
 - community

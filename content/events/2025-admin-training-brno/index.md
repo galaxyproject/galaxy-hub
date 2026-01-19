@@ -10,7 +10,7 @@ location_url: ""
 external_url:
 gtn: true
 contact: Instructors
-tags: [gat, admins]
+tags: [gat, admin]
 supporters:
   - cesnet
   - elixir-cz

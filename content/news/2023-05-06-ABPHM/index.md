@@ -4,7 +4,7 @@ date: '2023-05-06'
 tease: "From the 3rd to the 5th of May, Engy Nasr from the Freiburg Galaxy team travelled to Hinxton, England to join and present her work at the Applied Bioinformatics & Public Health Microbiology 2023 conference"
 location:
   name: Hinxton, UK
-tags: [conference, talk, bioinformatics showcase, pathogen detection]
+tags: [conference, talk, bioinformatics, demo, pathogen detection]
 authors: engynasr
 supporters:
 - microbial genomics
