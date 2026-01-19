@@ -116,7 +116,7 @@ In the Upload dialog, choose **BSC Dataverse** as the destination and add the fi
 
 ### 2) Verify the dataset is available in your Galaxy history
 
-Once imported, the file appears as a normal Galaxy dataset (usable as tool input, workflow input, or for sharing).
+Once imported (when it turns green), the file appears as a normal Galaxy dataset (usable as tool input, workflow input, or for sharing). You can take a look at it by clicking on the "eye-icon" on the right side of the dataset.
 
 <div align="center">
   <img src="bsc_dv_12.png" alt="Galaxy: history panel showing the imported dataset" width="600"/>
