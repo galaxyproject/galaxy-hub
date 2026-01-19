@@ -89,7 +89,7 @@ You can navigate folders/collections and list available datasets.
 
 ### 3) Select dataset(s) and import
 
-Search for "handwritten" and select the dataset: **A Dataset for Handwritten Text Recognition in Medieval Notarial Charters Written on Parchment** by clicking on **Select**.
+If you are, for example, looking for scans of Medieval texts, search for "handwritten" and select the dataset: **A Dataset for Handwritten Text Recognition in Medieval Notarial Charters Written on Parchment** by clicking on **Select**.
 
 <div align="center">
   <img src="bsc_dv_9.png" alt="Galaxy: selecting a dataset/collection within BSC Dataverse from the repository browser" width="600"/>
