@@ -19,6 +19,14 @@ With Galaxy’s dataverse integration, you can connect a dataverse instance (her
 
 This keeps your analyses reproducible while reducing manual “download/upload loops”.
 
+## Pre-configured BSC Dataverse in Galaxy
+
+**Note**: You can either use the pre-configured BSC Dataverse repository or create your own. Preconfigured BSC Dataverse:
+
+<div align="center">
+  <img src="bsc_dataverse_preconfigured.png" alt="Galaxy: preconfigured" width="600"/>
+</div>
+
 ---
 
 ## Get your BSC Dataverse API token
@@ -31,9 +39,9 @@ To access private content and to enable uploads from dataverse, you’ll need an
 
 ---
 
-## Create a BSC Dataverse repository in Galaxy
+## Create your own BSC Dataverse repository in Galaxy
 
-Galaxy stores external repositories under **User Preferences → My Repositories**. This lets you reuse the same repository across uploads, tools, and workflows.
+Galaxy stores external repositories under **User Preferences → My Repositories**. This lets you reuse the same repository across uploads, tools, and workflows. 
 
 ### 1) Create a new repository
 
