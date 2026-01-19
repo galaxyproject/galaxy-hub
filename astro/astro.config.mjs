@@ -4,6 +4,7 @@ import vue from '@astrojs/vue';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 const autolinkConfig = {
@@ -20,12 +21,12 @@ export default defineConfig({
   integrations: [
     vue(),
     mdx({
-      rehypePlugins: [[rehypeAutolinkHeadings, autolinkConfig]],
+      rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
     }),
     sitemap(),
   ],
   markdown: {
-    rehypePlugins: [[rehypeAutolinkHeadings, autolinkConfig]],
+    rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
   },
   vite: {
     plugins: [tailwindcss()]
