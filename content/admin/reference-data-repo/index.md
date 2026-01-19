@@ -145,7 +145,7 @@ CVMFS_DEFAULT_DOMAIN="galaxyproject.org"
 
 **/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub**
 
-```pub
+```text
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuJZTWTY3/dBfspFKifv8
 TWuuT2Zzoo1cAskKpKu5gsUAyDFbZfYBEy91qbLPC3TuUm2zdPNsjCQbbq1Liufk
@@ -183,7 +183,7 @@ CVMFS_KEYS_DIR="/etc/cvmfs/keys/galaxyproject.org"
 
 **/etc/cvmfs/keys/galaxyproject.org/data.galaxyproject.org.pub**
 
-```pub
+```text
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5LHQuKWzcX5iBbCGsXGt
 6CRi9+a9cKZG4UlX/lJukEJ+3dSxVDWJs88PSdLk+E25494oU56hB8YeVq+W8AQE

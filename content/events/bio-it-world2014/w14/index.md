@@ -324,7 +324,7 @@ Documentation for the features used in this section can be found at [usegalaxy.o
 
 ## Install and configure PostgreSQL
 
-```hightlight console
+```console
 ubuntu@bioit:~$ sudo apt-get install postgresql
   ...
 After this operation, 15.5 MB of additional disk space will be used.

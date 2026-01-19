@@ -112,7 +112,7 @@ One workaround is to enclose characters like this in backticks: `Q&A` -> ```Q`&`
 ## Lists
 
 If you're adding a sublist to a list, make sure to indent it four spaces:
-```Markdown
+```markdown
 1. Item one
 2. Item two
     * Subitem A
@@ -126,6 +126,6 @@ Often, you might want to insert a hyperlink to a file so the reader can download
 
 But this sort of "local" link often gets broken in the build process. So it's best to place the file in a static directory: either `content/images/` (for images) or `content/media/` (for non-images). Then you can link to it there using an absolute link:
 
-```Markdown
+```markdown
 [click to download](/media/paper.pdf)
 ```
