@@ -15,7 +15,6 @@ If you've ever needed to use a Galaxy tool that connects to an external service�
 
 Many powerful scientific tools need to connect to external APIs and services:
 - **AI/ML tools** like ChatGPT require API keys from providers like OpenAI
-- **Cloud storage tools** need credentials to access AWS S3, Google Cloud, or Azure
 - **Database tools** require authentication to query remote databases
 - **Specialized services** might need tokens or passwords for proprietary APIs
 
@@ -27,15 +26,17 @@ The new credentials system provides a complete, secure solution for managing too
 
 ## 🔐 Secure Vault Storage
 
-All sensitive information (secrets like API keys, passwords, tokens) is now stored encrypted in Galaxy's vault system. Your credentials are protected with industry-standard encryption and isolated per user—no more plain text files or insecure storage.
+All sensitive information (secrets like API keys, passwords, tokens) is now stored encrypted in Galaxy's vault system.
 
 ## 🎨 Streamlined User Experience
 
 When you run a tool that needs credentials, Galaxy now presents a clean, intuitive interface right in the tool form:
 - **Clear prompts** for required credentials when launching a tool
 - **Centralized management** in User Preferences for all your credentials
-- **Multiple credential groups** so you can manage different accounts or contexts (e.g., personal vs. work AWS accounts)
+- **Multiple credential groups** so you can manage different accounts or contexts (e.g., personal and work API keys)
 - **Real-time validation** to ensure you've provided everything the tool needs
+
+![Screenshot showing the credentials interface in a tool form](credentials.png)
 
 ## 🛠️ Simple Tool Definition
 
@@ -57,11 +58,13 @@ For tool developers, defining credential requirements is now straightforward and
 
 ## ⚙️ Automatic Injection
 
-Credentials are automatically injected as environment variables when tools run—no manual file handling or complex configuration needed. Your tool script simply reads from the environment:
+Credentials are automatically injected as environment variables when tools run—no manual file handling or complex configuration needed. In your tool's Python/R/Bash script, simply read from the environment:
 
 ```python
+# Inside your tool's Python script
 import os
 api_key = os.getenv("OPENAI_API_KEY")
+# Now use api_key to call the external service
 ```
 
 ## 🌐 Full API Support
@@ -103,179 +106,36 @@ Each credential group is tied to a specific tool requirement (like "OpenAI Crede
 
 # Migration Guide for Tool Developers
 
-If you maintain Galaxy tools that currently use the old user preferences approach for API keys or other secrets, migrating to the new credentials system is straightforward and highly recommended.
+Migrating from the user preferences approach to the credentials system is straightforward. Here's the key change:
 
-## Example: Migrating the ChatGPT Tool
-
-Here's a real-world example of how the ChatGPT tool was migrated from user preferences to the credentials system:
-
-### Before: Using User Preferences
-
-**Tool XML (old approach):**
-```xml
-<command detect_errors="exit_code"><![CDATA[
-...
-python '$__tool_directory__/chatgpt.py'
-'$context_files'
-'$prompt'
-'$model'
-'$openai_api_key_file'
-]]></command>
-...
-<configfiles>
-   <configfile name="openai_api_key_file"><![CDATA[
-$__user__.extra_preferences.get('chatgpt|api_key', "")
-   ]]></configfile>
-</configfiles>
-```
-
-**User Preferences Config (user_preferences_extra.yml):**
-```yaml
-preferences:
-    chatgpt:
-        description: Your ChatGPT API key
-        inputs:
-            - name: api_key
-              label: API key
-              type: secret
-              required: False
-```
-
-**Python Script:**
+**Old approach:** Define credentials in `user_preferences_extra.yml`, read from config files
 ```python
-# Read from config file
+# Old: Read from config file
 with open(sys.argv[4], "r") as f:
-    openai_api_key = f.read().strip()
+    api_key = f.read().strip()
 ```
 
-**Problems:**
-- Requires admin configuration in `user_preferences_extra.yml`
-- Users must navigate to "Manage Information" in preferences
-- API key stored in intermediate config files
-- No validation of required credentials
-- Not obvious to users where to configure
-
-### After: Using the Credentials System
-
-**Tool XML (new approach):**
+**New approach:** Define credentials in tool XML, read from environment variables
 ```xml
 <requirements>
-    ...
-    <credentials name="openai_credentials" version="1.0" x
-                 label="OpenAI Credentials" 
-                 description="Credentials for accessing OpenAI's API.">
-        <secret name="openai_api_key" 
-                inject_as_env="OPENAI_API_KEY" 
-                optional="false" 
-                label="OpenAI API Key" 
-                description="Your OpenAI API key is required to use this tool. You can obtain it from your OpenAI account dashboard."/>
+    <credentials name="openai_credentials" version="1.0">
+        <secret name="openai_api_key" inject_as_env="OPENAI_API_KEY"/>
     </credentials>
 </requirements>
 ```
-
-**Python Script:**
 ```python
-# Read from environment variable
-openai_api_key = os.getenv("OPENAI_API_KEY")
+# New: Read from environment
+api_key = os.getenv("OPENAI_API_KEY")
 ```
 
-**Benefits:**
-- ✅ No admin configuration needed
-- ✅ Credentials prompted directly in the tool form
-- ✅ Secure vault storage
-- ✅ Clear validation of required fields
-- ✅ Better user experience
-- ✅ No intermediate files
+## Migration Steps
 
-## Step-by-Step Migration Guide
+1. **Update tool profile** to 25.1 or later
+2. **Add `<credentials>` element** in `<requirements>` with your secrets/variables
+3. **Update tool script** to read from environment variables instead of config files
+4. **Remove old `<configfile>` elements** and user preferences config
 
-Here's how to migrate your own tools:
-
-### 1. Update Your Tool Profile
-
-Ensure your tool uses profile version 25.1 or later:
-
-```xml
-<tool id="your_tool" name="Your Tool" version="1.0" profile="25.1">
-```
-
-### 2. Define Credentials in Requirements
-
-Add a `<credentials>` element inside `<requirements>`:
-
-```xml
-<requirements>
-    <!-- Your existing package requirements -->
-    <requirement type="package" version="1.0">some-package</requirement>
-    
-    <!-- Add credentials definition -->
-    <credentials name="your_service_credentials" 
-                 version="1.0" 
-                 label="Your Service Credentials" 
-                 description="Credentials for accessing Your Service.">
-        
-        <!-- Define secrets (encrypted) -->
-        <secret name="api_key" 
-                inject_as_env="YOUR_SERVICE_API_KEY" 
-                optional="false" 
-                label="API Key" 
-                description="Your service API key"/>
-        
-        <!-- Define variables (non-sensitive) -->
-        <variable name="api_endpoint" 
-                  inject_as_env="YOUR_SERVICE_ENDPOINT" 
-                  optional="true" 
-                  label="API Endpoint" 
-                  description="Custom API endpoint (optional)"/>
-    </credentials>
-</requirements>
-```
-
-### 3. Update Your Tool Script
-
-Change from reading config files to reading environment variables:
-
-**Python:**
-```python
-import os
-
-api_key = os.getenv("YOUR_SERVICE_API_KEY")
-endpoint = os.getenv("YOUR_SERVICE_ENDPOINT", "https://default-endpoint.com")
-```
-
-**R:**
-```r
-api_key <- Sys.getenv("YOUR_SERVICE_API_KEY")
-endpoint <- Sys.getenv("YOUR_SERVICE_ENDPOINT", "https://default-endpoint.com")
-```
-
-**Bash:**
-```bash
-#!/bin/bash
-API_KEY="${YOUR_SERVICE_API_KEY}"
-ENDPOINT="${YOUR_SERVICE_ENDPOINT:-https://default-endpoint.com}"
-```
-
-### 4. Remove Old Configuration
-
-- Remove `<configfile>` elements for credentials or any similar option the tool is using
-- Remove entries from `user_preferences_extra.yml` (This should be done by an admin)
-- Remove any README instructions about admin configuration
-
-### 5. Update Documentation
-
-Update your tool's help section to mention that users will be prompted for credentials when running the tool.
-
-## Best Practices
-
-When defining credentials for your tools:
-
-1. **Use descriptive labels and descriptions** so users understand what each credential is for
-2. **Mark secrets as required** (`optional="false"`) if the tool cannot function without them
-3. **Provide clear instructions** in descriptions about where to obtain credentials (e.g., "Get your API key from https://example.com/api-keys")
-4. **Use sensible environment variable names** that match common conventions (e.g., `AWS_ACCESS_KEY_ID`)
-5. **Group related credentials** under a single credentials requirement (e.g., all AWS credentials together)
-6. **Test thoroughly** to ensure environment variables are properly injected
+See the [ChatGPT tool migration](https://github.com/bgruening/galaxytools/pull/1702) for a complete example
 
 # Learn More
 
@@ -291,4 +151,4 @@ Watch the credentials system in action:
 
 We're excited to see how the community adopts this system and what new tool integrations it enables. If you have tools that currently use user preferences or other workarounds for credentials, we encourage you to migrate to this new system.
 
-**The credentials system is available now in Galaxy 25.1—try it out and let us know what you think!**
+**The credentials system is available now in Galaxy 25.1, try it out and let us know what you think!**
