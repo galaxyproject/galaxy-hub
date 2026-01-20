@@ -1,0 +1,102 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+  minDepth?: number;
+  maxDepth?: number;
+}
+
+const { headings, minDepth = 2, maxDepth = 4 } = Astro.props;
+
+// Filter headings by depth and ensure we have at least 2
+const filteredHeadings = headings.filter((h) => h.depth >= minDepth && h.depth <= maxDepth);
+
+// Don't render if fewer than 2 headings
+const shouldRender = filteredHeadings.length >= 2;
+---
+
+{
+  shouldRender && (
+    <nav class="toc" aria-label="Table of Contents">
+      <h2 class="toc-title">On this page</h2>
+      <ul class="toc-list">
+        {filteredHeadings.map((heading) => (
+          <li class={`toc-item toc-depth-${heading.depth}`}>
+            <a href={`#${heading.slug}`} class="toc-link">
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}
+
+<style>
+  .toc {
+    font-size: 0.875rem;
+  }
+
+  .toc-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .toc-item {
+    margin-bottom: 0.25rem;
+  }
+
+  .toc-depth-2 {
+    padding-left: 0;
+  }
+
+  .toc-depth-3 {
+    padding-left: 0.75rem;
+  }
+
+  .toc-depth-4 {
+    padding-left: 1.5rem;
+  }
+
+  .toc-link {
+    display: block;
+    padding: 0.25rem 0;
+    color: #4b5563;
+    text-decoration: none;
+    line-height: 1.4;
+    transition:
+      color 0.15s ease-in-out,
+      padding-left 0.15s ease-in-out;
+  }
+
+  .toc-link:hover {
+    color: #25537b;
+    padding-left: 0.25rem;
+  }
+
+  /* Active state for JS-enhanced TOC highlighting (optional future enhancement) */
+  .toc-link.active {
+    color: #25537b;
+    font-weight: 500;
+    border-left: 2px solid #ffd700;
+    padding-left: 0.5rem;
+    margin-left: -0.5rem;
+  }
+</style>

@@ -10,6 +10,7 @@ test.describe('Navigation', () => {
     test('sidebar has main navigation links', async ({ page }) => {
       // Use article page - homepage has special layout without sidebar
       await page.goto('/admin/');
+      await page.waitForTimeout(500);
 
       const sidebar = page.locator('aside');
       await expect(sidebar).toBeVisible();
@@ -78,12 +79,11 @@ test.describe('Navigation', () => {
       await page.goto('/admin/');
 
       const menuButton = page.locator('button[aria-label="Open menu"]');
+      await expect(menuButton).toHaveAttribute('aria-expanded', /true|false/, { timeout: 3000 });
       await menuButton.click();
 
-      // Wait for animation
-      await page.waitForTimeout(500);
-
-      // Menu should now be visible - check for expanded nav or sheet
+      // Wait for menu to become visible (hydration + animation)
+      await page.waitForSelector('[role="dialog"], [data-state="open"], nav:visible', { timeout: 2000 });
       const mobileMenu = page.locator('[role="dialog"], [data-state="open"], nav:visible');
       const count = await mobileMenu.count();
       expect(count).toBeGreaterThan(0);

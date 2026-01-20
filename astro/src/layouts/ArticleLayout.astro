@@ -3,6 +3,13 @@ import BaseLayout from './BaseLayout.astro';
 import PageHeader from '../components/layout/PageHeader.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
+import ContentWithToc from '../components/layout/ContentWithToc.astro';
+
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
 
 interface Props {
   title: string;
@@ -10,7 +17,8 @@ interface Props {
   date?: Date | string;
   authors?: string[];
   tags?: string[];
-  toc?: boolean;
+  autotoc?: boolean;
+  headings?: Heading[];
   image?: string;
   backLink?: {
     href: string;
@@ -27,6 +35,8 @@ const {
   tags: tagsRaw = [],
   image,
   backLink,
+  autotoc = false,
+  headings = [],
   supporters: supportersRaw = [],
 } = Astro.props;
 
@@ -51,10 +61,9 @@ const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length 
       )
     }
 
-    <!-- Article Content -->
-    <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
+    <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
-    </div>
+    </ContentWithToc>
 
     <!-- Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">

@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
+import ContentWithToc from '../../components/layout/ContentWithToc.astro';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -32,9 +33,10 @@ export async function getStaticPaths() {
 }
 
 const { event } = Astro.props;
-const { Content } = await render(event);
+const { Content, headings } = await render(event);
 
-const { title, date, end, location, tags = [], tease, external_url, contacts = [] } = event.data;
+const { title, date, end, location, tags = [], tease, external_url, contacts = [], autotoc } = event.data;
+
 if (external_url) {
   return Astro.redirect(external_url);
 }
@@ -273,10 +275,9 @@ const schemaEvent = {
       </div>
     </PageHeader>
 
-    <!-- Event Content -->
-    <div class="prose prose-lg prose-galaxy max-w-none px-6 sm:px-8 pt-6">
+    <ContentWithToc headings={headings} autotoc={autotoc}>
       <Content components={components} />
-    </div>
+    </ContentWithToc>
 
     <!-- Event Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">

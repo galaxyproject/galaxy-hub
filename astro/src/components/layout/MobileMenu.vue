@@ -96,9 +96,14 @@ function handleNavClick() {
 </script>
 
 <template>
-  <Sheet v-model:open="isOpen">
+  <Sheet v-model:open="isOpen" @update:open="(val) => (isOpen = val)">
     <SheetTrigger as-child>
-      <button class="lg:hidden p-2 text-white hover:bg-medium-bg rounded-md transition-colors" aria-label="Open menu">
+      <button
+        class="lg:hidden p-2 text-white hover:bg-medium-bg rounded-md transition-colors"
+        aria-label="Open menu"
+        :aria-expanded="isOpen"
+        @click="isOpen = true"
+      >
         <Menu class="h-6 w-6" />
       </button>
     </SheetTrigger>
