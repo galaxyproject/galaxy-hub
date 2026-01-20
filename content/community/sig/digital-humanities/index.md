@@ -44,7 +44,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and s
 You can upload your files in various ways in the upload section on the left sidebar of the Galaxy website.
 
 - If you have larger amounts of data, check out this tutorial to [Bring Your Own Data](https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html).
-- You can access repositories like the [BERD Data Portal](https://galaxyproject.org/news/2025-04-09-berd-integration/), Dataverse or Zenodo directly from within Galaxy.
+- You can access repositories like the [BERD Data Portal](https://galaxyproject.org/news/2025-04-09-berd-integration/), [Dataverse](https://galaxyproject.org/news/2026-01-15-dataverse/) or Zenodo directly from within Galaxy.
 - You can access HuggingFace directly from within Galaxy - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) to read how.
 
 ### 🛠️ **General tools**
