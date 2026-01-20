@@ -109,7 +109,7 @@ prominent institutions in 2017, now unifying diverse strengths across science,
 engineering, health, and humanities. With over 35,000 students and more than 40
 research units, UCA is deeply integrated into local and international research
 networks, committed to fostering interdisciplinary exchange and scientific
-excellence.  ￼
+excellence.
 
 Among other initiatives, UCA also supports the [AuBi bioinformatics
 platform](https://www.france-genomique.org/platforms-and-equipments/plateforme-de-bio-informatique-de-clermont-ferrand-aubi/?lang=en),
@@ -124,7 +124,7 @@ The Galaxy project is thrilled to be hosted by UCA!
     <img src="/images/events/gcc2026/cartoon-cofest.png" class="card-img-top" alt="GCC2026 cofest" />
     <div class="card-header">GCC2026 CoFest</div>
 
-**CoFest is a community-driven event** where participants work together on innovative projects related to Galaxy. It’s more than a hackathon—it’s a chance for everyone, regardless of background, to contribute to our vibrant ecosystem.  ￼
+**CoFest is a community-driven event** where participants work together on innovative projects related to Galaxy. It’s more than a hackathon—it’s a chance for everyone, regardless of background, to contribute to our vibrant ecosystem.
 
 CoFest participants will gather around shared interests and address common topics related to those interests. It is an informal, highly interactive meeting where you get to "hack" on a topic of choice - and you can do it with others that share similar interests.
 
