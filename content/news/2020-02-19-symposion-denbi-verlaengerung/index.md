@@ -5,6 +5,7 @@ tags: [hardware]
 external_url: https://idw-online.de/de/news731433
 subsites: [eu, freiburg]
 main_subsite: freiburg
+supporters: [denbi]
 ---
 
 [Scientist and politicians gathered](https://idw-online.de/de/news731433) in Berlin to talk about

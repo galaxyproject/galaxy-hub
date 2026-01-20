@@ -3,6 +3,7 @@ title: 'November 2018 Galactic News'
 tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and releases'
 date: "2018-11-01"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 [<img class="float-right" src="/news/2018-11-galaxy-update/2018-11-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)

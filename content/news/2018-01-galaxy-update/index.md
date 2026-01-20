@@ -3,6 +3,7 @@ title: 'January 2018 News of the Galaxy!'
 tease: 'New events, blog posts, publications, jobs, ...'
 date: '2018-01-05'
 subsites: [global, us]
+tags: [newsletter]
 ---
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2018-01/)
 

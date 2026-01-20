@@ -9,4 +9,6 @@ external_url: "https://www.denbi.de/training-archive-sorted-according-by-date/16
 gtn: true
 contact: "Anika Erxleben-Eggenhofer, Jochen Blom"
 subsites: [all]
+tags: [training, workshop]
+supporters: [denbi, unifreiburg]
 ---

@@ -2,6 +2,7 @@
 title: "Galactic News! Feb. 2015 Edition"
 date: "2015-01-30"
 subsites: [global, us]
+tags: [newsletter]
 ---
 <div class='right'><div class='center'>
 <a href='/galaxy-updates/2015-02/'><img src="/images/logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />

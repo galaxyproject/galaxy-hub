@@ -12,4 +12,6 @@ gtn: true
 contact: "Markus Wolfien"
 image: 
 subsites: [global, us]
+supporters: [denbi]
+tags: [training, bioinformatics, community]
 ---

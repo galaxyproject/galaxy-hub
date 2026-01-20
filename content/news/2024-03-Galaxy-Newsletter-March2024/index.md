@@ -4,6 +4,7 @@ tease: "Dive into the March 2024 Galaxy Newsletter!"
 authors: "Natalie Whitaker-Allen"
 date: "2024-03-18"
 subsites: [global, all]
+tags: [newsletter]
 ---
 
 ![Galaxy Newsletter Logo](GalaxyNews.png)

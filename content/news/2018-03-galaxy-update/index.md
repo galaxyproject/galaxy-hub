@@ -3,6 +3,7 @@ title: 'March 2018 News of the Galaxy!'
 tease: 'GCCBOSC Abstracts, Registration, Housing & Kenotes; Europe, Africa, blog, pubs, servers, jobs, ...'
 date: '2018-03-01'
 subsites: [global, us]
+tags: [newsletter]
 ---
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2018-03/)
 

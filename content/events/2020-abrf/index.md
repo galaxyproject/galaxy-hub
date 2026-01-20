@@ -11,7 +11,7 @@ image: /images/logos/abrf-logo-color-text.png
 gtn: true
 contact: Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Mehta,
   Mehmet Tekman
-tags: [training]
+tags: [training, microbiology, conference]
 supporters:
 - unifreiburg
 - denbi

@@ -5,6 +5,7 @@ authors: Natalie Whitaker-Allen
 tease: "From cutting-edge research to international conferences, Galaxy continues to grow. Get all the updates in this quarter's newsletter!"
 hide_tease: false
 subsites: [global, all]
+tags: [newsletter]
 ---
 July 2025  
 

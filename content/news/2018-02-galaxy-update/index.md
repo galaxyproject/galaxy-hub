@@ -3,6 +3,7 @@ title: 'February 2018 News of the Galaxy!'
 tease: 'GCCBOSC Topic Voting (NOW!), Europe, Africa, blog, pubs, servers, jobs, ...'
 date: '2018-01-30'
 subsites: [global, us]
+tags: [newsletter]
 ---
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2018-02/)
 

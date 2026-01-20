@@ -4,10 +4,13 @@ tease: "Discover exciting updates, including the Galaxy Training Academy 2024, C
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2024-09-24"
-tags: [highlight, esg, esg-wp1]
+tags: [highlight, esg, esg-wp1, newsletter]
 subsites: [global,all,esg]
 supporters:
   - eurosciencegateway
+  - eu
+  - eosc
+  - unifreiburg
 ---
 
 ![GalaxyNews](GalaxyNews.png)

@@ -12,6 +12,7 @@ contact: "Organizers"
 tags: [ cofest, COVID-19, hackathon ]
 subsites: [global, us, freiburg]
 main_subsite: freiburg
+supporters: [denbi, unifreiburg]
 ---
 
 We want to encourage you to participate and join the fight against COVID-19.

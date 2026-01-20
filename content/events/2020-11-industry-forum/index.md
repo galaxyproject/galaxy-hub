@@ -12,4 +12,5 @@ gtn: false
 contact: "Björn Grüning"
 image: 
 subsites: [global, us]
+supporters: [denbi, unifreiburg]
 ---

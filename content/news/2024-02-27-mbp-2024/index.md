@@ -4,7 +4,8 @@ date: "2024-02-26"
 authors: Deepti Varshney
 tease: "Poster Presentation entitled MAdLand Tools & Resources"
 subsites: [all-eu]
-
+tags: [conference, talk, madland, community, nfdi]
+supporters: [nfdi, nfdi4plants, unifreiburg, denbi]
 ---
 
 

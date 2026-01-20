@@ -4,6 +4,8 @@ date: "2024-02-23"
 authors: Deepti Varshney
 tease: "Seminar talk entitled MAdLand Resources & Tools presented by Deepti Varshney and Saskia Hiltemann"
 subsites: [all-eu]
+tags: [madland, community, talk, nfdi]
+supporters: [madland, unifreiburg, denbi, nfdi4plants, nfdi]
 ---
 
 

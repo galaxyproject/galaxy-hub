@@ -7,7 +7,7 @@ authors: 'Anup Kumar, José Manuel Domínguez'
 authors_structured:
 - github: anuprulez
 - github: kysrpex
-tags: [EU,esg,esg-wp5]
+tags: [machine-learning,EU,esg,esg-wp5]
 subsites: [all-eu, esg]
 supporters:
   - eurosciencegateway
