@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { marked } from 'marked';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
@@ -101,6 +102,8 @@ function getHostname(url: string): string {
     return url;
   }
 }
+
+const renderSummary = (summary?: string): string => (summary ? marked.parseInline(summary) : '');
 </script>
 
 <template>
@@ -170,9 +173,11 @@ function getHostname(url: string): string {
             </div>
           </CardHeader>
           <CardContent>
-            <p v-if="platform.summary" class="text-sm text-gray-600 line-clamp-3 mb-3">
-              {{ platform.summary }}
-            </p>
+            <p
+              v-if="platform.summary"
+              class="text-sm text-gray-600 line-clamp-3 mb-3 prose prose-sm max-w-none"
+              v-html="renderSummary(platform.summary)"
+            ></p>
             <div class="flex items-center justify-between text-xs text-gray-500">
               <span v-if="platform.url" class="truncate max-w-[60%]">
                 {{ getHostname(platform.url) }}
