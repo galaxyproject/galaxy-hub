@@ -58,14 +58,7 @@ For tool developers, defining credential requirements is now straightforward and
 
 ## ⚙️ Automatic Injection
 
-Credentials are automatically injected as environment variables when tools run—no manual file handling or complex configuration needed. In your tool's Python/R/Bash script, simply read from the environment:
-
-```python
-# Inside your tool's Python script
-import os
-api_key = os.getenv("OPENAI_API_KEY")
-# Now use api_key to call the external service
-```
+Credentials are automatically injected as environment variables when tools run—no manual file handling or complex configuration needed. Your tool's executable can access them securely from the environment.
 
 ## 🌐 Full API Support
 
