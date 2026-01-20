@@ -3,13 +3,8 @@ title: "EOSC Node Poland at EOSC Symposium 2025: Galaxy and Pulsar in action"
 date: "2025-11-16"
 authors: "Armin Dadras"
 tease: "At the EOSC Symposium 2025, the Polish EOSC Node demonstrated a complete FAIR research workflow powered by Galaxy and PLGrid’s Pulsar integrating data analysis, execution, and provenance tracking through Onedata. The presentation video and full details are available via the [EOSC Node - Poland](https://eosc.pl/search/all_collection?q=EOSC%20Symposium%20Demo)."
-<<<<<<< HEAD
-tags: [eosc, workflow, onedata, provenance, aai, poland, fair, pulsar, federation, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, esg-wp3, ro-crate]
-supporters: [eosc, esg]
-=======
 tags: [eosc, workflows, rocrate, onedata, provenance, aai, poland, fair, pulsar, federation, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, esg-wp3]
 supporters: [eosc, eu, esg]
->>>>>>> 38070208f (Added mostly funding and supporters metadata and a few tags to news items.)
 subsites: [all, esg]
 main_subsite: eu
 ---
