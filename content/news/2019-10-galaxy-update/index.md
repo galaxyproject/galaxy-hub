@@ -4,6 +4,7 @@ date: '2019-10-02'
 tease: Events! Pubs! Platforms! Jobs! Doc! Tutorials! And some other news too.
 tags: [newsletter, galaxy]
 subsites: [all-eu, global, us]
+supporters: [eu, eosc, unifreiburg]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

@@ -4,7 +4,7 @@ tease: "Comments, Embeds, Cards... Many new exciting features have arrived in Ga
 hide-tease: false
 authors: "Laila Los"
 date: "2024-04-26"
-tags: ["UI/UX", "highlight"]
+tags: ["UI/UX", "highlight", workflow, outreach]
 subsites: [global]
 ---
 

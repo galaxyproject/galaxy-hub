@@ -9,7 +9,8 @@ location:
     external_url: "https://www.egi.eu/event/egi-datahub-platform-ingestion-management-publishing-distributed-scientific-data/"
 gtn: false
 contact:  lukasz.opiola@onedata.org
-subsites: [all]
+subsites: [all, esg, esg-wp4, esg-wp1]
+supporters: [egi, esg]
 ---
 
 

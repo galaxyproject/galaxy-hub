@@ -5,6 +5,8 @@ tags: [GCC]
 supporters:
 - galaxy-europe
 - eosc
+- eu
+- unifreiburg
 authors: simonbray
 authors_structured:
 - github: simonbray

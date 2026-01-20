@@ -11,7 +11,11 @@ gtn: true
 contact: "Marie Josse: marie.josse@ifremer.fr"
 supporters:
   - eurosciencegateway
-tags: [conference, esg, esg-wp5]
+  - eosc
+  - eu
+  - unifreiburg
+  - fair-ease
+tags: [conference, esg, esg-wp5, earth-system, collaboration, talk, outreach]
 subsites: [all, esg, all-eu]
 ---
 

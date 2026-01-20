@@ -8,6 +8,8 @@ supporters:
 - eosc
 - elixir
 - denbi
+- unifreiburg
+- eu
 authors: annefou
 authors_structured:
 - github: annefou

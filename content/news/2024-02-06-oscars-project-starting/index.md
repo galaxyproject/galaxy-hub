@@ -3,11 +3,16 @@ title: The start of OSCARS - an EOSC project
 date: "2024-02-06"
 tease: "Galaxy Europe being part of the new 'Open Science Clusters' Action for Research & Society' (OSCARS)"
 hide_tease: false
-tags: [oscars, esg, esg-wp1]
+tags: [oscars, esg, esg-wp1, eosc, collaboration, outreach]
 subsites: [all-eu, esg]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+  - unifreiburg
+  - eosc
+  - eu
+  - oscars
+  - fiesta
 ---
 
 ![OSCARS logo](/images/logos/OSCARS_logo.png)

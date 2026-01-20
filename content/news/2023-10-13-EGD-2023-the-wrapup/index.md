@@ -15,6 +15,10 @@ supporters:
 - ELIXIR
 - denbi
 - esg
+- unifreiburg
+- eosc
+- eu
+- elixir-belgium
 components: true
 autotoc: true
 subsites: [all, esg]

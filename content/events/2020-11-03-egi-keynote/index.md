@@ -9,6 +9,7 @@ contacts:
 location:
   name: online
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+supporters: [egi]
 main_subsite: eu
 ---
 

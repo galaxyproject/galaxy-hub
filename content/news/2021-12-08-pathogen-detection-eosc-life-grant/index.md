@@ -13,6 +13,9 @@ supporters:
 - biolytix
 - elixir
 - denbi
+- EOSC-Life
+- unifreiburg
+- eu
 authors: bebatut
 authors_structured:
 - github: bebatut

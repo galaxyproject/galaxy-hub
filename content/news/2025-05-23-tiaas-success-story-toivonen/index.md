@@ -2,8 +2,8 @@
 title: "Training Infrastructure as a service (TIaaS) Feedback from Dr. Janne M. Toivonen"
 tease: "Thanks to TIaaS, our RNA-Seq workshops run smoothly—no more delays, just effective hands-on learning."
 date: "2025-05-23"
-tags: [tiaas, esg-wp1, esg, gtn]
-supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
+tags: [tiaas, esg-wp1, esg, gtn, outreach]
+supporters: [eosc, eu, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu
 authors: Janne Markus Toivonen

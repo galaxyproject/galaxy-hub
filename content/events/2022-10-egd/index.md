@@ -14,6 +14,8 @@ supporters:
   - eurosciencegateway
   - unifreiburg
   - elixir
+  - eosc
+  - eu
 subsites: [all-eu, global, esg]
 ---
 

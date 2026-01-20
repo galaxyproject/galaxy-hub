@@ -11,6 +11,7 @@ gtn: true
 contact: "Bérénice Batut"
 tags: ["workshop"]
 subsites: [all]
+supporters: [eu, eosc, EOSC-Life, elixir, erasmus+, gallantries, biolytix, ]
 ---
 
 <img class="img-fluid float-right" src="/events/2023-02-02-foodborne-pathogen-detection-workshop/flyer.png" style="width:500px;" alt="Flyer for the practical workshop for (foodborne) pathogen detection from (direct Nanopore) sequencing data using Galaxy"/>

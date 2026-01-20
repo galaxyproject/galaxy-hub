@@ -5,6 +5,8 @@ hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2024-07-24"
 subsites: [global,all]
+tags: [newsletter, outreach]
+supporters: [eosc, eu, unifreiburg, esg, elixir]
 ---
 ![Galaxy News Logo](GalaxyNews.png)
 

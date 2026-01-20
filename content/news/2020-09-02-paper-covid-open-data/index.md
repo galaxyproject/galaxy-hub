@@ -9,6 +9,8 @@ supporters:
 - elixir
 - crc992
 - eosc
+- eu
+- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

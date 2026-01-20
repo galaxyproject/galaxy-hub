@@ -4,11 +4,16 @@ date: "2024-08-03"
 tease: "Meeting Summary from EuroScienceGateway's WorkflowHub Publishers and Journal Forum"
 hide_tease: false
 authors: "Carole Goble"
-tags: [esg-wp2, esg]
+tags: [esg-wp2, esg, workflow, workflowhub]
 subsites: [all-eu, esg, global]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+  - unifreiburg
+  - eosc
+  - eu
+  - workflowhub
+  - elixir
 ---
 
 Computational workflows describe the complex multi-step methods that are used for data collection, data preparation, analytics, predictive modelling, and simulation that lead to new data products. Data processing tasks like data cleansing, normalisation and knowledge extraction need to be automated stepwise in order to foster performance and standardisation, and offer methodological transparency, reproducibility and re-usability. 

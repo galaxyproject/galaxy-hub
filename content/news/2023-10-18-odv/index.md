@@ -5,9 +5,13 @@ authors: Marie Jossé
 tease: "Use Ocean Data View (ODV) in Galaxy Europe as an interactive tool"
 hide_tease: true
 subsites: [all-eu,global, esg]
-tags: [esg, esg-wp5]
+tags: [esg, esg-wp5, tools, community]
 supporters:
   - eurosciencegateway
+  - eosc
+  - denbi
+  - eu
+  - unifreiburg
 ---
 
 ## ODV ? What does it do ?

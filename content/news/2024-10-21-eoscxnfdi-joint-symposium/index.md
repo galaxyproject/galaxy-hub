@@ -6,6 +6,9 @@ hide_tease: false
 supporters:
   - eurosciencegateway
   - unifreiburg
+  - eosc
+  - egi
+  - eu
 subsites: [freiburg, eu, esg, global, all-eu]
 tags: [esg, esg-wp1]
 main_subsite: eu

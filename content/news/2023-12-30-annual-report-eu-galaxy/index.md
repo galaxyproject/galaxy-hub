@@ -5,10 +5,12 @@ tease: "In this post we summarized the activities and achievements of the Freibu
 hide_tease: false
 supporters:
   - eurosciencegateway
+  - eu
+  - eosc
   - unifreiburg
   - elixir
 subsites: [freiburg, eu, esg]
-tags: [esg,elixir,galaxy, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
+tags: [esg,elixir,galaxy, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, outreach, year-in-review]
 main_subsite: eu
 ---
 The Freiburg Galaxy Team took several opportunities to present Galaxy as a FAIR 

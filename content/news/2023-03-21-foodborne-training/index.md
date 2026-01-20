@@ -7,8 +7,9 @@ authors_structured:
 - github: EngyNasr
 - github: bebatut
 hide_tease: false
-tags: [training]
+tags: [training, outreach]
 subsites: [global]
+supporters: [unifreiburg, denbi, elixir, eosc, eu, EOSC-Life, ]
 ---
 
 Food contamination with pathogens are a major burden on our society. Globally, they affect an estimated 600 million people a year and impact socioeconomic development at different levels. These outbreaks are mainly due to *Salmonella* spp. followed by *Campylobacter* spp. and Noroviruses.

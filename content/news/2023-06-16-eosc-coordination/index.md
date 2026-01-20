@@ -6,13 +6,14 @@ hide_tease: false
 authors: "Anika Erxleben"
 authors_structured:
 - github: erxleben
-tags: [EU, esg, esg-wp1, eosc]
+tags: [EU, esg, esg-wp1, eosc, meeting, collaboration]
 subsites: [all-eu, global, esg]
 main_subsite: eu
 supporters:
   - eurosciencegateway
   - unifreiburg
   - eosc
+  - eu
 ---
 
 ![Brussels](./images/Brussels.jpg)

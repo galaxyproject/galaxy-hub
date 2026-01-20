@@ -3,7 +3,7 @@ title: "European Galaxy Days 2025 recordings now online"
 date: "2025-11-06"
 authors: "Armin Dadras"
 tease: "European Galaxy Days 2025 might be over, but the talks aren’t. Explore our new playlist featuring highlights from EGD2025"
-tags: [eosc, meeting, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, egd]
+tags: [eosc, meeting, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, egd, talk, demo, outreach]
 supporters: [eosc, unifreiburg, esg, elixir, eu]
 subsites: [all, esg]
 main_subsite: eu

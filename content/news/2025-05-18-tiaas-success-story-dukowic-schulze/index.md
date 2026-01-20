@@ -2,8 +2,8 @@
 title: 'Training Infrastructure Feedback from the MSc Program „Translational Medical Research“ (TMR), Medical Faculty of Mannheim, University of Heidelberg; WS 2024/25'
 tease: "From sequencing to R scripting—TIaaS helped us turn RNA-Seq into a hands-on learning success for future medical researchers."
 date: "2025-05-18"
-tags: [tiaas, esg-wp1, esg, gtn]
-supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
+tags: [tiaas, esg-wp1, esg, gtn, outreach]
+supporters: [eosc, eu, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu
 authors: Dr. Stefanie Dukowic-Schulze

@@ -7,6 +7,8 @@ supporters:
 - elixir
 - biodaten
 - eosc
+- eu
+- unifreiburg
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano

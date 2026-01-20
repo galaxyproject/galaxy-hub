@@ -10,6 +10,9 @@ supporters:
 - microbial genomics
 - EOSC-Life
 - ELIXIR
+- eu
+- eosc
+- unifreiburg
 components: true
 subsites: [all-eu]
 ---

@@ -5,6 +5,12 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - eosc
+- eu
+- unifreiburg
+- denbi
+- elixir
+- erasmus+
+- elixir-belgium
 authors: Abdus Salam
 authors_structured:
 - name: Abdus Salam

@@ -2,9 +2,13 @@
 title: 'OSA2Micro – An Open Science Approach for Microbiology data integration'
 date: '2023-06-03'
 end: '2020-06-05'
-tags: [training, talk]
+tags: [training, talk, outreach, microbiology]
 supporters:
 - eosc
+- eu
+- unifreiburg
+- denbi
+- EOSC-Life
 authors: paulzierep
 authors_structured:
 - github: paulzierep

@@ -8,6 +8,7 @@ subsites: [all-eu, esg, global]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+  - egi
 ---
 
 # Introduction

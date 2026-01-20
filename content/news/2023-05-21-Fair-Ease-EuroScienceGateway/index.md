@@ -4,9 +4,13 @@ tease: "Presenting some outcomes from the first joined FAIR-EASE / EuroScienceGa
 authors: "Marie Jossé, Björn Grüning and Yvan Le Bras"
 date: "2023-05-22"
 tags: [esg, esg-wp5, esg-wp1]
-subsites: [all-eu, esg]
+subsites: [all-eu, esg, collaboration, outreach]
 supporters:
   - eurosciencegateway
+  - eosc
+  - eu
+  - unifreiburg
+  - denbi
 main_subsite: eu
 ---
 

@@ -7,6 +7,11 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - eosc
+- elixir
+- elixir-belgium
+- eu
+- unifreiburg
+- erasmus+
 authors: Theodora Tsirka
 authors_structured:
 - name: Theodora Tsirka

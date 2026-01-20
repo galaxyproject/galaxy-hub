@@ -6,6 +6,11 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - eosc
+- eu
+- elixir
+- unifreiburg
+- erasmus+
+- denbi
 authors: annefou
 authors_structured:
 - github: annefou

@@ -6,6 +6,7 @@ location:
   name: Online
 supporters:
 - eosc
+- eu
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano

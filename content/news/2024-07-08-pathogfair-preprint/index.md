@@ -1,9 +1,12 @@
 ---
 title: "New Preprint: PathoGFAIR, a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking"
 date: '2024-07-08'
-tags: [paper]
+tags: [paper, workflow, workflowhub, fair, training]
 supporters:
 - EOSC
+- eu
+- unifreiburg
+- workflowhub
 subsites: [eu, freiburg, global]
 main_subsite: eu
 ---

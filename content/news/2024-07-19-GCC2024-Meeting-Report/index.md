@@ -5,7 +5,7 @@ hide-tease: false
 authors: "Natalie Whitaker-Allen, Marisa Loach, Morgan Howells, Stuart Jackson, Julia Jakiela, Engy Nasr, Natalia Padillo-Anthemides, Shweta Pandey, Polina Polunina"
 date: "2024-07-19"
 subsites: [global,all, all-eu, esg]
-tags: [esg, esg-wp1, esg-wp5]
+tags: [esg, esg-wp1, esg-wp5, meeting]
 ---
 
 ![GCC2024 Logo](gcc2024-banner.png)

@@ -7,6 +7,8 @@ supporters:
 - denbi
 - elixir
 - eosc
+- eu
+- unifreiburg
 - biodaten
 authors: beatrizserrano
 authors_structured:
