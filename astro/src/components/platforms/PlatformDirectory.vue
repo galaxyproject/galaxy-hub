@@ -103,7 +103,7 @@ function getHostname(url: string): string {
   }
 }
 
-const renderSummary = (summary?: string): string => (summary ? marked.parse(summary) : '');
+const renderSummary = (summary?: string): string => (summary ? marked.parseInline(summary) : '');
 </script>
 
 <template>

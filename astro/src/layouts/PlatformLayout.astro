@@ -64,12 +64,7 @@ const scopeNames: Record<string, string> = {
   'tool-publishing': 'Tool Publishing',
 };
 
-const renderMarkdown = (value?: string) => (value ? marked.parse(value) : '');
-const renderListItemMarkdown = (value?: string) => {
-  if (!value) return '';
-  const html = marked.parse(value).trim();
-  return html.startsWith('<p>') && html.endsWith('</p>') ? html.slice(3, -4) : html;
-};
+const renderMarkdown = (value?: string): string => (value ? marked.parseInline(value) : '');
 
 // Sections to render
 const sections = [
@@ -221,7 +216,7 @@ const sections = [
           <h2 class="text-xl font-semibold text-gray-900 mb-3 capitalize">{section.name}</h2>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             {section.items.map((item: string) => (
-              <li class="prose prose-sm max-w-none" set:html={renderListItemMarkdown(item)} />
+              <li class="prose prose-sm max-w-none" set:html={renderMarkdown(item)} />
             ))}
             {section.key === 'citations' && pub_libraries && pub_libraries.length > 0 && (
               <>
