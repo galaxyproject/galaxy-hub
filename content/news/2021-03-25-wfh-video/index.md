@@ -2,12 +2,13 @@
 title: How to import a workflow from the Workflow Hub and run it on remote COVID-19
   data
 date: '2021-03-25'
-tags: [training, FAQ, COVID-19]
+tags: [training, FAQ, COVID-19, workflow, workflowhub, gtn]
 supporters:
 - biodaten
 - dataplant
 - eosc
 - eu
+- workflowhub
 - unifreiburg
 - denbi
 authors: beatrizserrano

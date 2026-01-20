@@ -4,7 +4,8 @@ date: '2024-09-16'
 tease: "A look back at the BY-COVID project and ahead to upcoming developments"
 authors: Wolfgang Maier
 subsites: [global, eu, freiburg]
-tags: [COVID-19, virology]
+tags: [COVID-19, virology, community]
+supporters: [unifreiburg, by-covid]
 ---
 # Galaxy Europe and BY-COVID
 

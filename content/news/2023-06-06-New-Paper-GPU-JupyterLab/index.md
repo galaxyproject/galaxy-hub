@@ -10,6 +10,9 @@ tags:
 subsites: [all-eu,esg]
 supporters:
   - eurosciencegateway
+  - eu
+  - eosc
+  - unifreiburg
 main_subsite: eu
 ---
 

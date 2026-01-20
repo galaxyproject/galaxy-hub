@@ -4,9 +4,10 @@ date: '2021-10-06'
 tease: ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics
   Infrastructure for Life Sciences in Europe".
 hide_tease: true
-tags: [COVID-19]
+tags: [COVID-19, elixir, community]
 supporters:
 - denbi
+- elixir
 authors: bgruening
 authors_structured:
 - github: bgruening

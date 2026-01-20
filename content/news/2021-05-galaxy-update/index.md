@@ -3,7 +3,7 @@ title: May 2021 Galactic News
 date: '2021-05-04'
 tease: GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more.
 autotoc: false
-tags: [newsletter, galaxy]
+tags: [newsletter, galaxy, gcc]
 subsites: [all-eu, global, us]
 ---
 

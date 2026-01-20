@@ -4,7 +4,7 @@ tease: "From groundbreaking milestones to exciting new features, join us in cele
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2024-12-12"
-tags: ["highlight"]
+tags: ["highlight", "newsletter", "year-in-review"]
 subsites: [global,all]
 ---
 

@@ -2,7 +2,7 @@
 title: May 2020 Galactic News
 date: '2020-05-04'
 tease: James Taylor, BCC2020, COVID-19 Response, and more
-tags: [newsletter, galaxy]
+tags: [newsletter, galaxy, covid-19]
 subsites: [all-eu, global, us]
 ---
 

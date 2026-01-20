@@ -9,7 +9,7 @@ location:
 location_url: ""
 image: 
 gtn: true
-tags: [COVID-19]
+tags: [COVID-19, workshop, talk, training]
 contact: "Instructors"
 subsites: [all]
 autotoc: false

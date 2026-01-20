@@ -3,7 +3,7 @@ title: DRS, long-read-sequencing, proteomics and more - An update to recent COVI
   workflow developments
 date: '2021-02-24'
 end: '2021-02-24'
-tags: [training, COVID-19]
+tags: [training, COVID-19, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:

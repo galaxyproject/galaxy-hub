@@ -9,7 +9,7 @@ location:
   url: https://www.egu24.eu/
 gtn: true
 contact: "Marie Josse: marie.josse@ifremer.fr"
-tags: [conference]
+tags: [conference, earth-system, fair, talk]
 subsites: [all]
 supporters: [eosc, eu, fair-ease]
 ---

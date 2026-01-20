@@ -4,4 +4,6 @@ tease: "A group of Freiburg researchers provide global, open access to data on t
 external_url: "https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and-discover/the-community-against-covid-19"
 date: "2020-10-08"
 subsites: [global, us]
+tags: [covid-19, outreach]
+supporters: [unifreiburg, denbi]
 ---

@@ -2,6 +2,7 @@
 title: "March 2013 GalaxyAdmins Meetup"
 date: "2013-03-12"
 subsites: [global, us]
+tags: [meeting, admin]
 ---
 <div class='right'><a href='/community/galaxy-admins/meetups/2013-03-20/'><img src="/images/logos/GalaxyAdmins.png" alt="March 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
 

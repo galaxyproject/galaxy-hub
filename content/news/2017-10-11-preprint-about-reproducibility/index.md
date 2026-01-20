@@ -2,7 +2,7 @@
 title: Our paper "Practical computational reproducibility in the life sciences" on
   bioRXiv
 date: '2017-10-11'
-tags: [paper]
+tags: [paper, fair]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

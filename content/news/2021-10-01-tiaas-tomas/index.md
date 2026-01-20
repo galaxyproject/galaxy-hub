@@ -2,7 +2,7 @@
 title: Teaching bioinformatics through blood, mucus and tears
 date: '2021-10-01'
 tease: 'Watch out for that My Little Pony baby stroller.'
-tags: [training, tiaas]
+tags: [training, tiaas, outreach, covid-19]
 supporters:
 - galaxy-europe
 authors: TKlingstrom

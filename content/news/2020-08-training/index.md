@@ -6,4 +6,5 @@ tease: "Bioinformatics online"
 external_url: "https://depot.galaxyproject.org/hub/attachments/blog/2020-08-training/sasbi-newsletter-202008.pdf#page=3"
 source_blog: "SASBi News"
 source_blog_url: "http://sasbi.weebly.com/"
+tags: [covid-19, training]
 ---

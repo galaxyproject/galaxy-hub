@@ -10,7 +10,8 @@ location_url: "https://indico.egi.eu/event/5000/"
 external_url: "https://indico.egi.eu/event/5000/timetable/?view=standard_inline_minutes#b-5085-keynote-diving-into-the"
 gtn: false
 contact: "Björn Grüning"
-supporters: [egi]
 image: 
 subsites: [global, us]
+supporters: [egi, unifreiburg, denbi, esg, eosc, eu]
+tags: [talk, conference]
 ---

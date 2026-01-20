@@ -11,7 +11,7 @@ location_url:
 external_url:
 contact: "Saskia Hiltemann & Helena Rasche"
 gtn: true
-tags: [ cofest ]
+tags: [ cofest, community, gtn,  ]
 subsites: [global, us]
 ---
 

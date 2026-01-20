@@ -2,7 +2,7 @@
 title: Viral Beacon and Galaxy variant workflows
 date: '2021-02-17'
 end: '2021-02-17'
-tags: [training, COVID-19]
+tags: [training, COVID-19, demo, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:

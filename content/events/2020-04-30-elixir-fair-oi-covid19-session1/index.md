@@ -3,7 +3,7 @@ title: 'Galaxy-ELIXIR Webinar 1: Introduction to Galaxy and the Galaxy workflows
   SARS-CoV-2 data analysis'
 date: '2020-04-30'
 end: '2020-04-30'
-tags: [training, COVID-19]
+tags: [training, COVID-19, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:

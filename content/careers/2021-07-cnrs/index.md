@@ -10,4 +10,5 @@ image: /images/logos/cnrs-logo-text-wide.png
 location_url: "https://www.cnrs.fr/"
 external_url: "https://emploi.cnrs.fr/Offres/CDD/UMS3601-JACVAN-001/Default.aspx"
 contact: ""
+tags: [covid-19, workflow]
 ---

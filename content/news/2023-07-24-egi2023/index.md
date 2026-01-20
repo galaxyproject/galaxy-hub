@@ -12,6 +12,7 @@ tags:
 - outreach
 - collaboration
 - talks
+- conference
 main_subsite: eu
 supporters:
   - eurosciencegateway

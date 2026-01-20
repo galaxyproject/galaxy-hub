@@ -10,7 +10,8 @@ external_url: ""
 location_url: ""
 gtn: false
 contact: "Melanie Föll, Amrita Cheema"
-tags: []
+tags: [community, talk, metabolomics]
+supporters: [unifreiburg]
 links:
 image: "/images/communities/metabolomics.png"
 subsites: [global, us]

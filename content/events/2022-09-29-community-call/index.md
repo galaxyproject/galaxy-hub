@@ -10,7 +10,7 @@ location:
   url: /community/community-calls/
 gtn: false
 contact: Wolfgang Maier
-tags: [training, community-call]
+tags: [training, community-call, covid-19, workflow, community]
 subsites: [all]
 ---
 

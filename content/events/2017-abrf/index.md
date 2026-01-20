@@ -11,6 +11,7 @@ location_url: http://conf.abrf.org/home
 external_url: https://galaxyproteomics.github.io/abrf2017/
 contact: Tim Griffin, Pratik Jagtap, James Johnson
 subsites: [global, us]
+tags: [microbiology, community, demo]
 ---
 Metaproteomics analysis is emerging as an effective approach for identifying
 microorganisms and functional role of the microbiome in response to environment

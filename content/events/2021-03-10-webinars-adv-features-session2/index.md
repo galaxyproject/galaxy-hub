@@ -2,7 +2,7 @@
 title: Processing thousands of datasets simultaneously
 date: '2021-03-10'
 end: '2021-03-10'
-tags: [training, COVID-19]
+tags: [training, COVID-19, webinar, talk]
 contacts:
 - name: Galaxy and ELIXIR
 location:

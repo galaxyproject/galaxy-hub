@@ -4,7 +4,7 @@ date: "2023-06-16"
 tease: "From June 5th to 8th, several members from the Freiburg Galaxy team travelled to Dublin, Ireland to participant and present their work at the ELIXIR All Hands Meeting 2023"
 hide_tease: false
 subsites: [all-eu, esg]
-tags: [esg, esg-wp1]
+tags: [esg, esg-wp1, elixir, meeting]
 main_subsite: eu
 supporters:
   - eurosciencegateway

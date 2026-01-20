@@ -2,7 +2,7 @@
 title: 'Speed up your data analysis with Galaxy: Features no one knows about'
 date: '2021-03-24'
 end: '2021-03-24'
-tags: [training, COVID-19]
+tags: [training, COVID-19, webinar, talk]
 contacts:
 - name: Galaxy and ELIXIR
 location:

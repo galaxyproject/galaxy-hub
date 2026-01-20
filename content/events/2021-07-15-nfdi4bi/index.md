@@ -2,7 +2,7 @@
 title: NFDI4BIOIMAGE community meeting 2021
 date: '2021-07-15'
 end: '2021-07-15'
-tags: [Talk]
+tags: [talk, nfdi, bioimaging, meeting, collaboration]
 contacts:
 - name: NFDI4BI
 location:

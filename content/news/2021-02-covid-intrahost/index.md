@@ -6,6 +6,7 @@ external_url: ""
 date: "2021-02-22"
 source_blog: "Virological"
 source_blog_url: "https://virological.org/"
+tags: [virology, community, covid-19]
 ---
 
 This post is split into **[Part 1](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-1/623)** and **[Part 2](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-2/624)**.  From the introduction:

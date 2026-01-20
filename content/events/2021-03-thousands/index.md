@@ -12,7 +12,7 @@ external_url: "https://galaxyproject.eu/event/2021-01-15-webinars-adv-features-s
 contacts:
 - name: Wolfgang Maier
 - name: Anton Nekrutenko
-tags: [ webinar, training, COVID-19 ]
+tags: [ webinar, training, COVID-19, talk ]
 supporters:
 - galaxy
 - elixir

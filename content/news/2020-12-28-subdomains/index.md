@@ -1,12 +1,13 @@
 ---
 title: European Galaxy Flavours
 date: '2020-12-28'
-tags: [FAQ]
+tags: [FAQ, community]
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+supporters: [unifreiburg]
 ---
 
 [UseGalaxy.eu](https://usegalaxy.eu/) hosts several domain-specific versions of the usegalaxy.eu server. 

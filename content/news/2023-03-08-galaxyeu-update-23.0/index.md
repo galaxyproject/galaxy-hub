@@ -11,6 +11,9 @@ subsites: [eu]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+  - eu
+  - eosc
+  - unifreiburg
 ---
 
 # usegalaxy.eu Updates to 23.0

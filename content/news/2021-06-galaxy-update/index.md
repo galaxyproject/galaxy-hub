@@ -3,6 +3,7 @@ title: 'June 2021 Galactic News'
 tease: "GCC2021 starts this month; James Taylor Video; plus a whole lot more."
 date: "2021-05-31"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>

@@ -9,7 +9,7 @@ location:
   url: "https://goo.gl/maps/oGrjgjeNPA3XqjE28"
 gtn: true
 contact: "Bérénice Batut"
-tags: ["workshop"]
+tags: ["workshop", training, microbiology, workflow]
 subsites: [all]
 supporters: [eu, eosc, EOSC-Life, elixir, erasmus+, gallantries, biolytix, ]
 ---

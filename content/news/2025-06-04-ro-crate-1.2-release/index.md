@@ -1,7 +1,7 @@
 ---
 title: "RO-Crate specification 1.2 released"
 authors: "Stian Soiland-Reyes"
-tags: [esg, esg-wp2]
+tags: [esg, esg-wp2, covid-19, esg, community, ro-crate, fair, community]
 layout: news
 date: "2025-06-04"
 tease: "Specification for RO-Crate 1.2 released"

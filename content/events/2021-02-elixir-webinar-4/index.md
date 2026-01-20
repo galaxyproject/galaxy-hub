@@ -10,7 +10,7 @@ external_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series
 location_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series"
 gtn: false
 contact: "Sergei Pond"
-tags: [ webinar ]
+tags: [ webinar, covid-19, talk ]
 links:
   - text: "Video"
     url: "https://youtu.be/CiMJlQ8F3q8"

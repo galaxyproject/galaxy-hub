@@ -13,7 +13,7 @@ location:
   url: "/events/gcc2023/"
 gtn: true
 contact: "Organizing Committee"
-tags: ["cofest", "workshop", "training", "talk", "poster"]
+tags: ["cofest", "workshop", "training", "talk", "poster", "gcc", "australia", "conference"]
 subsites: [all]
 ---
 

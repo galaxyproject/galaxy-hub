@@ -2,7 +2,8 @@
 subsites: [all]
 main_subsite: global
 date: "2023-05-11"
-tags: [training, gtn-news]
+tags: [training, gtn-news, workflow, covid-19, ro-crate, fair]
+supporters: [by-covid, unifreiburg, workflowhub]
 title: "[GTN news] BY-COVID and RO-Crate collaboration brings new topic: FAIR Data, Workflows &amp; More"
 authors: "Simone Leo, Paul De Geest, Stian Soiland-Reyes, Luca Pireddu, Marco Enrico Piras"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/05/11/ro-crate.html'

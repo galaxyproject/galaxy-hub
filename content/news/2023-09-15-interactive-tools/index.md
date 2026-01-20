@@ -6,7 +6,7 @@ hide_tease: false
 authors: 'Tunc Kayikcioglu'
 authors_structured:
 - github: tuncK
-tags: [EU]
+tags: [tools]
 subsites: [all-eu]
 main_subsite: eu
 ---

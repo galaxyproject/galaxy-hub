@@ -11,7 +11,7 @@ external_url:
 gtn: false
 contact: Organizers
 image: /images/logos/GCC2014LogoWide400.png
-tags: [ cofest ]
+tags: [ cofest, gcc, talk, community ]
 subsites: [global, us]
 ---
 

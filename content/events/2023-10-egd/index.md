@@ -8,7 +8,7 @@ location:
     name: Freiburg, Germany
 gtn: false
 contact: contact@usegalaxy.eu
-tags: [training, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
+tags: [training, conference, cofest, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, global, esg]
 supporters:
   - eurosciencegateway

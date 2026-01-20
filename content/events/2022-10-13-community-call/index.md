@@ -9,7 +9,7 @@ location:
   url: /community/community-calls/
 gtn: false
 contact: Eli Chadwick
-tags: [training, community-call]
+tags: [training, community-call, community]
 subsites: [all]
 ---
 

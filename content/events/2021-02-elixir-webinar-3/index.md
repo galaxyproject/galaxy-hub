@@ -10,7 +10,7 @@ external_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series
 location_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series"
 gtn: false
 contact: "Ignacio Eguinoa, Bert Droeskbeke, Frederik Coppens"
-tags: [ webinar ]
+tags: [ webinar, covid-19, talk ]
 links:
   - text: "Slides"
     url: "https://docs.google.com/presentation/d/1eiZ5sgqLwmJutkWVKPiQelRqlEPUPSMdWJcMtQkb5rA/edit?ts=60190257#slide=id.gb76fb8d52f_1_415"

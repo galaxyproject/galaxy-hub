@@ -9,7 +9,7 @@ location:
   url: "/community/community-calls/"
 gtn: false
 contact: Anup Kumar
-tags: [community-call]
+tags: [community-call, tool]
 subsites: [all]
 ---
 

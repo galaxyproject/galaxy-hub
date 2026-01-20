@@ -2,9 +2,10 @@
 title: 'Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19
   pandemic'
 date: '2021-02-25'
-tags: [COVID-19, talk]
+tags: [COVID-19, talk, elixir, webinar]
 supporters:
 - elixir
+- unifreiburg
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano

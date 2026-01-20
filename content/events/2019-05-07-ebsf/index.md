@@ -2,7 +2,7 @@
 title: ELIXIR Bioinformatics Suppliers Forum 2019
 date: '2019-05-07'
 end: '2019-05-07'
-tags: [conference]
+tags: [conference, talk, elixir, demo]
 contacts:
 - email: katharina.lauer@elixir-europe.org
   name: Katharina Lauer (ELIXIR)

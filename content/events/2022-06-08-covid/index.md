@@ -2,7 +2,7 @@
 title: Open science in the COVID-19 pandemic
 date: '2022-06-08'
 end: '2022-06-08'
-tags: [training]
+tags: [training, covid-19, talk, workshop]
 contacts:
 - name: Marianna Ventouratou
 location:

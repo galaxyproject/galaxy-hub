@@ -8,6 +8,10 @@ subsites: [all-eu,global,esg]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+  - eu
+  - eosc
+  - unifreiburg
+  - denbi
 ---
 
 ## Introduction

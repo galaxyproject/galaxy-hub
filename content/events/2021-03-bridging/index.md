@@ -3,7 +3,7 @@ title: Galaxy bridge to Jupyter notebooks and RStudio
 date: '2021-03-17'
 end: '2021-03-17'
 tease: Jupyter Notebooks and RStudio in combination with Galaxy workflows
-tags: [COVID-19, training, webinar]
+tags: [COVID-19, training, webinar, talk]
 contacts:
 - name: Galaxy and ELIXIR
 location:

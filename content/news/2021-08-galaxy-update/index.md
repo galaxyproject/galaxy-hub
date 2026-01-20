@@ -3,6 +3,7 @@ title: 'August 2021 Galactic News'
 tease: "GCC2021 is over and we're heading to GCC2022 in Minneapolis!"
 date: "2021-08-06"
 subsites: [global, us]
+tags: [gcc, newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>

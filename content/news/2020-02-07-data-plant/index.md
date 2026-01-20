@@ -1,7 +1,8 @@
 ---
 title: Galaxy provides support as an NFDI
 date: '2020-02-07'
-tags: [data]
+tags: [data, nfdi, rdm]
+supporters: [nfdi, unifreiburg]
 authors: erxleben
 authors_structured:
 - github: erxleben
