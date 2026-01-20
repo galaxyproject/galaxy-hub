@@ -7,6 +7,11 @@ tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, esg]
 supporters:
   - eurosciencegateway
+  - eosc
+  - eu
+  - unifreiburg
+  - denbi
+  - elixir
 main_subsite: eu
 ---
 

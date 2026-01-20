@@ -2,7 +2,7 @@
 title: Massively Multiplayer Online Science in Galaxy to help Ecologists - A Citizen
   Science Project
 date: '2020-01-07'
-tags: [galaxy, MMOS, devops, society]
+tags: [galaxy, MMOS, devops, society, community]
 authors: bgruening
 authors_structured:
 - github: bgruening

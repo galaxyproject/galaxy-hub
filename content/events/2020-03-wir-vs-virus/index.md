@@ -9,9 +9,10 @@ location:
 external_url: "https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/"
 gtn: true
 contact: "Organizers"
-tags: [ cofest, COVID-19 ]
+tags: [ cofest, COVID-19, hackathon ]
 subsites: [global, us, freiburg]
 main_subsite: freiburg
+supporters: [denbi, unifreiburg]
 ---
 
 We want to encourage you to participate and join the fight against COVID-19.

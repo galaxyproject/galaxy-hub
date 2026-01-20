@@ -7,9 +7,13 @@ authors_structured:
 - github: mtangaro
 - github: Federico77z
 date: "2023-12-22"
-tags: [esg, esg-wp3]
+tags: [esg, esg-wp3, outreach, year-in-review]
 supporters:
   - eurosciencegateway
+  - egi
+  - eosc
+  - eu
+  - unifreiburg
 subsites: [all-eu, esg]
 main_subsite: eu
 ---

@@ -8,9 +8,14 @@ authors_structured:
     - github: bgruening
     - github: pauldg
 subsites: [all-eu,esg]
-tags: [esg, esg-wp2, esg-wp5]
+tags: [esg, esg-wp2, esg-wp5, workflowhub, workflow, fair]
 supporters:
   - eurosciencegateway
+  - eosc
+  - eu
+  - unifrieburg
+  - denbi
+  - workflowhub
 main_subsite: eu
 ---
 

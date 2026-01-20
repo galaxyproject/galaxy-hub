@@ -4,6 +4,8 @@ date: '2021-01-30'
 tags: [training, talk, poster, COVID-19]
 supporters:
 - galaxy-europe
+- unifreiburg
+- denbi
 authors: foellmelanie
 authors_structured:
 - github: foellmelanie

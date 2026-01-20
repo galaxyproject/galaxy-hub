@@ -7,7 +7,7 @@ authors_structured:
 - github: teresa-m
 - github: bebatut
 hide_tease: false
-tags: [training]
+tags: [training, workshop]
 subsites: [all-eu]
 main_subsite: eu
 ---

@@ -6,6 +6,7 @@ supporters:
 - denbi
 - elixir
 - ViCE
+- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

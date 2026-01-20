@@ -9,6 +9,7 @@ supporters:
 - denbi
 - dataPLANT
 - eosc
+- eu
 - biodaten
 - bmbf
 - dfg

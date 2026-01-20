@@ -6,6 +6,7 @@ authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+supporters: [eu, eosc, unifreiburg, elixir, denbi]
 main_subsite: eu
 ---
 

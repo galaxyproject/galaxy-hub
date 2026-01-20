@@ -3,6 +3,7 @@ title: "GCCBOSC 2018 abstract submission and registration are open"
 tease: "See you in Portland this summer..."
 date: "2018-02-20"
 subsites: [global, us]
+tags: [gcc, meeting]
 ---
 
 [<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)

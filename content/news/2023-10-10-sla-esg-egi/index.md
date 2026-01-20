@@ -5,11 +5,14 @@ tease: "Elevating FAIR data analytics in EOSC: SLA between ESG and EGI; IISAS to
 hide_tease: false
 subsites: [all-eu, esg]
 main_subsite: eu
-tags: [egi, service level agreement, esg, esg-wp1, esg-wp4]
+tags: [egi, service level agreement, esg, esg-wp1, esg-wp4, collaboration, fair]
 supporters:
   - eurosciencegateway
   - unifreiburg
   - egi
+  - eosc
+  - eu
+  - cesnet
 authors: Sebastian Schaaf
 authors_structured:
 - github: sebastian-schaaf

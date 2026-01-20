@@ -3,12 +3,13 @@ title: 'Diving into the Galaxy: an accessible and reproducible workbench with an
   distributed compute network'
 date: '2020-11-03'
 end: '2020-11-03'
-tags: [talk, keynote, conference]
+tags: [talk, conference]
 contacts:
 - name: EGI
 location:
   name: online
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+supporters: [egi, unifreiburg, denbi, esg, eosc, eu]
 main_subsite: eu
 ---
 

@@ -14,7 +14,7 @@ supporters:
 - unifreiburg
 - eurosciencegateway
 subsites: [all-eu, global, us, esg]
-tags: [gcc, CoFest, training, Elixir, EOSC, Brno, esg, esg-wp1]
+tags: [gcc, CoFest, training, Elixir, EOSC, Brno, esg, esg-wp1, meeting, outreach, talk]
 main_subsite: eu
 ---
 

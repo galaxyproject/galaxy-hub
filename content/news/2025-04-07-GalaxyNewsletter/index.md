@@ -4,7 +4,7 @@ tease: "Catch up on exciting updates from the Galaxy community, including new tr
 hide-tease: false
 authors: "Natalie Whitaker-Allen"
 date: "2025-04-09"
-tags: ["highlight"]
+tags: ["highlight", newsletter]
 subsites: [global,all]
 ---
 

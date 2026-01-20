@@ -5,6 +5,10 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 - eosc
+- eu
+- unifreiburg
+- denbi
+- elixir
 authors: Slugger70
 authors_structured:
 - github: Slugger70

@@ -6,6 +6,8 @@ supporters:
 - denbi
 - elixir
 - eosc
+- denbi
+- eu
 - unifreiburg
 authors: beatrizserrano
 authors_structured:

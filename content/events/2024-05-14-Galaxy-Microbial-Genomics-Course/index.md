@@ -14,6 +14,7 @@ subsites: [eu, freiburg]
 main_subsite: freiburg
 supporters:
 - denbi
+- unifreiburg
 gtn: true
 tags: [workshop, training]
 ---

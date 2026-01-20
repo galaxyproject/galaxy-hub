@@ -2,6 +2,7 @@
 title: "October 2014 Galaxy Newsletter"
 date: "2014-10-01"
 subsites: [global, us]
+tags: [newsletter]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2014-10/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>

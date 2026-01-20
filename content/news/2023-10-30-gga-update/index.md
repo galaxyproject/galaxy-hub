@@ -8,6 +8,9 @@ tags: [esg-wp5, esg]
 subsites: [all, all-eu, esg]
 supporters:
   - eurosciencegateway
+  - eu
+  - eosc
+  - unifrieburg
 ---
 
 ## Galaxy Genome Annotation

@@ -7,6 +7,8 @@ tags: [training]
 supporters:
 - elixir
 - eosc
+- unifreiburg
+- eu
 - denbi
 authors: bebatut
 authors_structured:

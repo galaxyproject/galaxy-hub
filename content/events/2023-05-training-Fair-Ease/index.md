@@ -12,6 +12,9 @@ tags: [esg, esg-wp5, eosc, training]
 subsites: [all-eu, global, esg]
 supporters:
   - eurosciencegateway
+  - eosc
+  - eu
+  - fair-ease
 ---
 
 First steps for the EOSC FAIR-Ease partners on Galaxy with a training session on both the user and the tool developpement side of the platform.

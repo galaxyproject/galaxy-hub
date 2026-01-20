@@ -1,7 +1,7 @@
 ---
 title: ELIXIR Galxy Admin workshop in Oslo.
 date: '2018-01-12'
-tags: [training]
+tags: [training, admin, workshop]
 supporters:
 - denbi
 - elixir

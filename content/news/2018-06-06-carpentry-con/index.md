@@ -1,7 +1,8 @@
 ---
 title: Data Carpentry workshop and CarpentryCon
 date: '2018-06-06'
-tags: [training, talk]
+tags: [training, talk, workshop]
+supporters: [unifreiburg]
 location:
   name: Dublin, Ireland
 subsites: [eu, freiburg]

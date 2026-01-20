@@ -1,9 +1,12 @@
 ---
 title: 'Training Infrastructure Feedback from Marcel Schulz '
 date: '2020-06-08'
-tags: [training, tiaas]
+tags: [training, tiaas, outreach]
 supporters:
 - galaxy-europe
+- unifreiburg
+- denbi
+- elixir
 authors: Marcel Schulz
 authors_structured:
 - name: Marcel Schulz

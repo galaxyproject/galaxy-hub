@@ -4,6 +4,7 @@ date: '2019-04-23'
 tags: [collaboration]
 supporters:
 - eosc
+- eu
 authors: simonbray
 authors_structured:
 - github: simonbray

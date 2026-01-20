@@ -3,6 +3,7 @@ title: 'January 2019 Galactic News'
 tease: 'Events (Admin Training, PAG, GSOC, GCC, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, Training, Tools, Releases and more'
 date: "2019-01-04"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 [<img class="float-right" src="/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)

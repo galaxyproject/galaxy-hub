@@ -12,4 +12,5 @@ gtn: false
 contact: "Marianna Ventouratou"
 image:
 subsites: [global, all-eu]
+tags: [covid-19, talk, workshop, training]
 ---

@@ -9,7 +9,8 @@ location:
   url: https://e-science-tage.de/en/startseite
 contact: Daniela Schneider
 gtn: false
-tags: [conference, workshop]
+tags: [conference, workshop, rdm, humanities, community, poster]
+supporters: [unifreiburg]
 subsites: [all]
 ---
 

@@ -7,7 +7,7 @@ tease:
   "Python-social-auth release 4.5.0 includes two new backends contributed by
   EuroScienceGateway"
 hide_tease: false
-tags: [esg-wp4, esg]
+tags: [esg-wp4, esg, aai]
 subsites: [all-eu, esg, global]
 supporters:
   - eurosciencegateway

@@ -6,7 +6,7 @@ hide_tease: false
 authors: "Mirela Minkova"
 authors_structured:
 - github: mirelaminkova
-tags: [elixir-nl, eosc, geant, surf]
+tags: [elixir-nl, eosc, geant, surf, eu]
 subsites: [all]
 main_subsite: eu
 ---

@@ -10,4 +10,5 @@ image: /images/logos/vib-logo-large.jpg
 location_url: "https://vib.be/vib-ugent-center-plant-systems-biology"
 external_url: "https://jobs.vib.be/j/41569/computational-biology-trainer-for-vib-and-elixir-belgium"
 contact: "Alexander Botzki"
+supporters: [elixir-belgium]
 ---

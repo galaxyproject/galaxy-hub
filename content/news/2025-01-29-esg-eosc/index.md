@@ -4,10 +4,15 @@ date: "2025-01-29"
 tease: "Deploy your own Galaxy and Pulsar instances on the EOSC EU Node"
 hide_tease: false
 tags: [esg-wp4, esg]
-subsites: [all-eu, esg, global, esg]
+subsites: [all-eu, esg, global, esg, pulsar, eosc]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+  - eu
+  - eosc
+  - unifreiburg
+  - denbi
+  - elixir
 ---
 
 The [EOSC EU Node](https://open-science-cloud.ec.europa.eu/) was officially launched in the [EOSC Symposium 2024](https://eosc.eu/symposium2024/) in October in Berlin (Germany). This is the first of a series of upcoming nodes to build the [EOSC Federation](https://eosc.eu/building-the-eosc-federation/). The EOSC EU Node is a platform that primarily supports multi-disciplinary and multi-national research promoting the use of [FAIR](https://www.nature.com/articles/sdata201618) (Findable, Accessible, Interoperable, Reusable) data and supplementary services in Europe and beyond.

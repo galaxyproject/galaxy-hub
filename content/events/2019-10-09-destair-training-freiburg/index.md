@@ -15,6 +15,7 @@ location:
   street: Schänzlestraße 1
 supporters:
 - denbi
+- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

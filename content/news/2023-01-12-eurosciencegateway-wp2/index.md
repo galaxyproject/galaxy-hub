@@ -5,9 +5,14 @@ hide_tease: false
 authors: "Stian Soiland-Reyes"
 date: "2023-01-12"
 tags: [esg, esg-wp2]
-subsites: [all-eu, esg]
+subsites: [all-eu, esg, workflow, workflowhub, rocrate, astrophysics, astronomy, ]
 supporters:
   - eurosciencegateway
+  - egi
+  - unifreiburg
+  - eu
+  - elixir
+  - denbi
 main_subsite: eu
 ---
 

@@ -4,8 +4,9 @@ date: '2021-03-17'
 tease: New Featured and Community News sections; new events, releases, training, and
   lots of videos
 autotoc: false
-tags: [newsletter, galaxy]
+tags: [newsletter, galaxy, outreach]
 subsites: [all-eu, global, us]
+supporters: [eosc, eu, unifreiburg, elixir, denbi]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

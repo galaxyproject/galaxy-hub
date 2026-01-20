@@ -2,6 +2,7 @@
 title: "September 2014 Galaxy News"
 date: "2014-08-29"
 subsites: [global, us]
+tags: [newsletter]
 ---
 <div class='right'>
 <a href='/galaxy-updates/2014-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>

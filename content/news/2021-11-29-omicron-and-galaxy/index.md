@@ -9,6 +9,8 @@ supporters:
 - converge
 - bycovid
 - eosc
+- eu
+- unifreiburg
 authors: wm75
 authors_structured:
 - github: wm75

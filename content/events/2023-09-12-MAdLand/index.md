@@ -8,7 +8,8 @@ location:
 external_url: "https://4science.de/madland/"
 gtn: false
 contact:  Prof. Dr. Stefan Rensing (madland2023@madland.science)
-
+tags: [talk, madland, community]
+supporters: [madland, unifreiburg, NFDI4Plants]
 ---
 
 ## MAdLand - Molecular Adaptation to Land: plant evolution to change

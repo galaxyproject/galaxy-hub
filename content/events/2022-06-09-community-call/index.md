@@ -9,7 +9,7 @@ location:
   url: "/community/community-calls/"
 gtn: false
 contact: Simon Bray
-tags: [community-call]
+tags: [community-call, workflow, tools]
 subsites: [all]
 ---
 

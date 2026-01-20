@@ -10,6 +10,9 @@ authors: engynasr
 supporters:
 - elixir
 - denbi
+- unifreiburg
+- elixir-belgium
+- elixir-cz
 components: true
 subsites: [all-eu]
 ---

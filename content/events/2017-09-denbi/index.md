@@ -11,4 +11,5 @@ location_url: https://www.mdc-berlin.de/bimsb
 gtn: true
 contact: compgen@mdc-berlin.de
 subsites: [global, us]
+supporters: [denbi]
 ---

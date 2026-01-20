@@ -12,6 +12,8 @@ gtn: true
 contact: Instructors
 image: /events/2019-admin-training/2019-admin-training-logo.png
 subsites: [global, us]
+tags: [admin, training, workshop]
+supporters: [unifreiburg, denbi]
 ---
 
 **[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago.  The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions).  Participants can register for one or both sessions.

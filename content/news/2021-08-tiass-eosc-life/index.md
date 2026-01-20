@@ -5,6 +5,11 @@ tease: Anyone providing training is eligible to request the use of this service.
 tags: [tiaas, training]
 supporters:
 - eosc
+- eu
+- EOSC-Life
+- unifreibrug
+- denbi
+- elixir
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano

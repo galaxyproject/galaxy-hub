@@ -1,7 +1,7 @@
 ---
 title: We are now part of the BioDATEN project!
 date: '2019-02-15'
-tags: [data, grants]
+tags: [data, grants, collaboration]
 location:
   name: Freiburg, Germany
 authors: erxleben
@@ -9,6 +9,7 @@ authors_structured:
 - github: erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+supporters: [denbi, unifrieburg]
 ---
 
 We are really proud to announce that we, as part of de.NBI and with the European Galaxy Server, are part of [Bioinformatics DATa EnviroNment](http://www.biodaten.info/?page=about) (BioDATEN) now!

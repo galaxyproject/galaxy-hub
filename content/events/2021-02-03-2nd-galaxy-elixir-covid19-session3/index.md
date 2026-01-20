@@ -3,7 +3,7 @@ title: 'Supporting the COVID-19 Data portal: viral data cleaning from human read
   and submission to ENA'
 date: '2021-02-03'
 end: '2021-02-03'
-tags: [training, COVID-19]
+tags: [training, COVID-19, elixir, demo]
 contacts:
 - name: Galaxy and ELIXIR
 location:

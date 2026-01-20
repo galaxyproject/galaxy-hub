@@ -3,7 +3,7 @@ date: '2020-01-07'
 title: "Crowdsourcing citizen science data on usegalaxy.eu"
 authors: "Yvan Le Bras, Simon Bénateau"
 tease: "Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science"
-tags: [society, data]
+tags: [society, data, community]
 subsites: [global, eu, freiburg]
 main_subsite: eu
 ---

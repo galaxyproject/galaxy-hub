@@ -2,7 +2,7 @@
 title: Our paper about the Galaxy Training material and community as a preprint on
   bioRXiv
 date: '2017-11-30'
-tags: [paper]
+tags: [paper, gtn-news, training]
 supporters:
 - denbi
 - elixir

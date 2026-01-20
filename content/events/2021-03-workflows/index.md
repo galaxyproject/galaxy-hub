@@ -3,7 +3,7 @@ title: Advanced Galaxy workflow features
 date: '2021-03-03'
 end: '2021-03-03'
 tease: From parameter sweeping to automatic reports
-tags: [COVID-19, training, webinar]
+tags: [COVID-19, training, webinar, talk, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:

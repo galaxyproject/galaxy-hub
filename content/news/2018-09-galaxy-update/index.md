@@ -3,6 +3,7 @@ title: 'September 2018 Galactic News'
 tease: 'New events, pubs, blog post, jobs, ...'
 date: "2018-09-13"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 [<img class="float-right" src="/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)

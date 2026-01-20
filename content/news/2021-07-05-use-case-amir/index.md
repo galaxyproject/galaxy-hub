@@ -1,7 +1,8 @@
 ---
 title: 'UseGalaxy.eu Use Case: colorectal cancer research'
 date: '2021-07-05'
-tags: [UseCase]
+tags: [demo, community]
+supporters: [unifreiburg]
 authors: Amir Sabbaghian
 authors_structured:
 - name: Amir Sabbaghian

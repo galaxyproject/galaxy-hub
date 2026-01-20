@@ -2,11 +2,13 @@
 title: The European Galaxy server listed as an official resource on the COVID-19 Data
   Portal
 date: '2021-02-05'
-tags: [COVID-19]
+tags: [COVID-19, elixir]
 supporters:
 - denbi
 - elixir
 - eosc
+- eu
+- unifreiburg
 - biodaten
 authors: beatrizserrano
 authors_structured:

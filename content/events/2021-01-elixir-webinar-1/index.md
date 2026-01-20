@@ -10,7 +10,7 @@ external_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series
 location_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series"
 gtn: false
 contact: "Anton Nekrutenko, Marius  van den Beek"
-tags: [ webinar ]
+tags: [ webinar, covid-19, talk ]
 links:
   - text: "Slides"
     url: "https://docs.google.com/presentation/d/1EdJrhRnfrsTpzb7hbp6XR_HWJCP2r-eVgU5LpG-DH7g/edit#slide=id.gb7c12e366a_0_80"

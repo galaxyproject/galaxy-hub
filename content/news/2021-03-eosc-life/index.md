@@ -6,6 +6,8 @@ tease: The first round of EOSC-Life demonstrators has driven eight successful us
 tags: [training, tools]
 supporters:
 - eosc
+- eu
+- EOSC-Life
 - eubi
 - elixir
 - idr

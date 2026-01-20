@@ -7,8 +7,11 @@ supporters:
   - eurosciencegateway
   - unifreiburg
   - elixir
+  - egi
+  - eosc
+  - eu
 subsites: [freiburg, eu, esg]
-tags: [esg,elixir,galaxy, esg-wp1]
+tags: [esg,elixir,galaxy, esg-wp1, year-in-review]
 main_subsite: eu
 ---
 The Freiburg Galaxy Team took several opportunities to present Galaxy as a FAIR 

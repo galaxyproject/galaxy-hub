@@ -8,6 +8,7 @@ supporters:
 - elixir
 - ViCE
 subsites: [eu, freiburg]
+tags: [conference]
 main_subsite: freiburg
 ---
 

@@ -10,7 +10,8 @@ image:
 location_url: "https://2021.openbelgium.be/"
 external_url: "https://2021.openbelgium.be/"
 contact: "Frederik Coppens, Miguel Roncoroni, Ignacio Eguino"
-tags: [ webinar ]
+tags: [ webinar, workflowhub, workflow, talk, demo]
+supporters: [workflowhub]
 gtn: false
 links:
 - text: "Video"

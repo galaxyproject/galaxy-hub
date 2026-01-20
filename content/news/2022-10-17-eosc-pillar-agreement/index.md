@@ -5,6 +5,7 @@ date: '2022-10-17'
 subsites: [global, all-eu]
 authors: Beatriz Serrano-Solano
 author_github: beatrizserrano
+supporters: [eosc, eu, elixir, EOSC-Life, denbi, unifreiburg]
 ---
 
 <div class="float-right">

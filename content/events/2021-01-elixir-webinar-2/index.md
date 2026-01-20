@@ -10,7 +10,7 @@ external_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series
 location_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series"
 gtn: false
 contact: "Andrew Lonie, Guy Cochrane, Björn Grüning, Frederik Coppens"
-tags: [ webinar ]
+tags: [ webinar, covid-19, talk ]
 links:
   - text: "Slides"
     url: "https://docs.google.com/presentation/d/1LPDldMDbfj21Um7ElFrd3rad8A79YGoBy67W-ob4svA"

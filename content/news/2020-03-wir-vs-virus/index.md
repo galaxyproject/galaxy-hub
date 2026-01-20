@@ -5,6 +5,7 @@ tease: March 20-22
 tags: [COVID-19, hackathon]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+supporters: [unifreiburg, denbi]
 ---
 
 We want to encourage you to participate and join the fight against COVID-19.

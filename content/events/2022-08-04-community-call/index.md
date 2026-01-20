@@ -9,7 +9,7 @@ location:
   url: "/community/community-calls/"
 gtn: false
 contact: Kaivan Kamali
-tags: [training, community-call]
+tags: [training, community-call, machine-learning]
 subsites: [all]
 ---
 

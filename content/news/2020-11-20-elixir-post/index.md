@@ -3,6 +3,7 @@ title: Simplified submission of SARS-CoV-2 data to open databases
 date: '2020-11-20'
 tags: [data, tools, COVID-19]
 authors: beatrizserrano
+supporters: [unifrieburg, denbi, elixir-belgium]
 authors_structured:
 - github: beatrizserrano
 subsites: [eu, freiburg, belgium]

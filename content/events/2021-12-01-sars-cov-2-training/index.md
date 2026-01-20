@@ -2,7 +2,7 @@
 title: SARS-CoV-2 Data Analysis and Monitoring with Galaxy
 date: '2021-12-01'
 end: '2021-12-01'
-tags: [training, COVID-19]
+tags: [training, COVID-19, talk, workshop]
 location:
   name: online
 supporters:

@@ -4,7 +4,7 @@ date: '2022-02-21'
 end: '2022-02-25'
 tease: Workshop on high-throughput data analysis. This is an online course and is
   limited to the members CRC 1425, CRC 992 and MeInBio.
-tags: [training]
+tags: [training, workshop]
 contacts:
 - email: contact@usegalaxy.eu
   name: Freiburg Galaxy Team
@@ -15,6 +15,7 @@ supporters:
 - crc992
 - meinbio
 - denbi
+- unifreiburg
 hidefooter: true
 continent: GL
 gtn: true

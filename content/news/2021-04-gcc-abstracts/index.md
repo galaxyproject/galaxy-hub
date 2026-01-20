@@ -3,7 +3,7 @@ title: GCC2021 Abstract Submission are Open
 date: '2021-04-14'
 tease: Abstracts are due May 17
 external_url: ''
-tags: [newsletter, galaxy]
+tags: [newsletter, galaxy, gcc]
 subsites: [all-eu, global, us]
 ---
 

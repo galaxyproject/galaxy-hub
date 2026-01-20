@@ -3,8 +3,8 @@ title: "Galaxy Powers FAIR Data: The BERD@NFDI B-Plan Use Case Shines at EOSC Sy
 date: "2025-11-21"
 authors: "Armin Dadras"
 tease: "At the EOSC Symposium 2025, a standout example was the BERD@NFDI B-Plan use case, a project demonstrating how the Galaxy Europe platform provides the analytical engine to transform complex, unstructured planning data into FAIR research assets for the entire European research community."
-tags: [eosc, berd, nfdi, symposium, fair, automation, text-mining, esg, esg-wp1, esg-wp2, esg-wp5]
-supporters: [eosc, esg]
+tags: [eosc, berd, nfdi, symposium, fair, automation, text-mining, esg, esg-wp1, esg-wp2, esg-wp5, community]
+supporters: [eosc, esg, eu]
 subsites: [all, esg]
 main_subsite: eu
 ---

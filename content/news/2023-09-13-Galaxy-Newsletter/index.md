@@ -4,6 +4,7 @@ tease: "Galaxy is excited to announce the relaunch of our Galaxy Newsletter! We 
 authors: "Natalie Whitaker"
 date: "2023-09-13"
 subsites: [global, all]
+tags: [newsletter]
 ---
 
 ![Galaxy Newsletter Logo](GalaxyNews.png)

@@ -12,6 +12,9 @@ supporters:
 - elixir
 tags:
 - talk
+- covid-19
+- elixir
+- tools
 subsites: [all-eu]
 ---
 

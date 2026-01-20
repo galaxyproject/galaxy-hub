@@ -8,11 +8,10 @@ location:
   geo:
     lat: '43.6112422'
     lon: '3.8767337'
-supporters:
-- elixir
-tags: [training, talk, poster]
+tags: [training, talk, poster, gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+supporters: [unifreiburg, elixir, denbi]
 ---
 
 At the most important conference for the Galaxy community, we will present different talks and a poster, and we will give several workshops.

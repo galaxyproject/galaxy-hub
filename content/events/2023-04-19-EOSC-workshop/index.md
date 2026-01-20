@@ -12,4 +12,5 @@ location:
 contact: "Bugra Ozdemir & Beatriz Serrano-Solano"
 gtn: false
 tease: "Workshop 'BioImaging and the European Open Science Cloud' organised by Euro-BioImaging ERIC in collaboration with EOSC-Life"
+supporters: [eosc, eu, EOSC-Life]
 ---

@@ -3,6 +3,8 @@ title: 'September 2021 Galactic News'
 tease: ""
 date: "2021-09-15"
 subsites: [global, us]
+supporters: [unifreiburg, eosc, eu, elixir, denbi]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>

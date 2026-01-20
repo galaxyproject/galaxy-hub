@@ -12,4 +12,6 @@ gtn: false
 contact: "Björn Grüning"
 image: 
 subsites: [global, us]
+supporters: [egi, unifreiburg, denbi, esg, eosc, eu]
+tags: [talk, conference]
 ---

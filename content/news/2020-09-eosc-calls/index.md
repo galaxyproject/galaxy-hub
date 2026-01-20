@@ -5,6 +5,8 @@ tease: Two funding opportunities are now open in EOSC-Life.
 tags: [grants]
 supporters:
 - eosc
+- EOSC-Life
+- eu
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano

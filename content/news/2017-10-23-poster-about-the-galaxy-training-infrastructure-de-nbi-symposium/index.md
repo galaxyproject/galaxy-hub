@@ -1,7 +1,7 @@
 ---
 title: Galaxy Training infrastructure @ de.NBI Symposium
 date: '2017-10-23'
-tags: [poster]
+tags: [poster, conference]
 supporters:
 - denbi
 - elixir

@@ -2,7 +2,7 @@
 title: Usegalaxy.eu has reached 50,000 registered users
 date: '2022-06-23'
 tease: "Big thanks to everybody that has contributed to the success of UseGalaxy.eu and to each of the 50K users for using Galaxy! Next stop: 100K!"
-tags: [galaxy, support, society, report]
+tags: [galaxy, support, society, report, outreach]
 supporters: [denbi, elixir, dataplant, crc1425, crc992, biolytix, converge, bycovid, healthycloud, eosc, gallantries, pari, neic, miracum, biodaten, egi, corbel, bmbf, dfg, unifreiburg, galaxy-freiburg, galaxy-europe]
 authors: beatrizserrano
 components: true

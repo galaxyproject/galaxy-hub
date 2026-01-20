@@ -9,6 +9,7 @@ authors_structured:
 - github: beatrizserrano
 subsites: [global, all-eu, us]
 main_subsite: eu
+supporters: [unifreiburg]
 ---
 
 <br>

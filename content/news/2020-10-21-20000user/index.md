@@ -1,12 +1,13 @@
 ---
 title: 20,000 users
 date: '2020-10-21'
-tags: [galaxy, tiaas]
+tags: [galaxy, tiaas, outreach]
 supporters:
 - denbi
 - elixir
 - eosc
 - unifreiburg
+- eu
 authors: beatrizserrano
 authors_structured:
 - github: beatrizserrano

@@ -2,8 +2,9 @@
 title: December 2020 Galactic News
 date: '2020-12-08'
 tease: And what a month it is
-tags: [newsletter, galaxy]
+tags: [newsletter, galaxy, outreach]
 subsites: [all-eu, global, us]
+supporters: [eosc, eu, unifreiburg]
 ---
 
 <div class="card border-info">

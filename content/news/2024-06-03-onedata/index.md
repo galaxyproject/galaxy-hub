@@ -9,5 +9,6 @@ tease: 'As part of the EuroScienceGateway and in cooperation with Onedata and EG
 title: All GTN training data are now automatically mirrored via Onedata
 supporters:
   - eurosciencegateway
+  - egi
 ---
 As part of the EuroScienceGateway and in cooperation with Onedata and EGI we are providing all GTN training data on a publicly accessible cloud storage. Those training datasets are curated, small but meaningful for educational purposes and contain 1530 files with a total size of 170Gb. An invaluable set of resources for everyone dealing with data science and training. Please thank the more than 350 contributors to GTN.
