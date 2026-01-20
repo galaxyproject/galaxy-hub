@@ -3,7 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import PageHeader from '../components/layout/PageHeader.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
-import TableOfContents from '../components/layout/TableOfContents.astro';
+import ContentWithToc from '../components/layout/ContentWithToc.astro';
 
 interface Heading {
   depth: number;
@@ -40,10 +40,6 @@ const {
   supporters: supportersRaw = [],
 } = Astro.props;
 
-// Determine if TOC should be shown (autotoc enabled and enough headings)
-const filteredHeadings = headings.filter((h) => h.depth >= 2 && h.depth <= 4);
-const showToc = autotoc && filteredHeadings.length >= 2;
-
 // Ensure arrays are never null
 const authors = authorsRaw || [];
 const tags = tagsRaw || [];
@@ -65,38 +61,9 @@ const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length 
       )
     }
 
-    {/* Mobile TOC: collapsible details element */}
-    {
-      showToc && (
-        <details class="toc-mobile lg:hidden mx-6 sm:mx-8 mt-6 border border-gray-200 rounded-lg">
-          <summary class="px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-gray-50 rounded-lg">
-            On this page
-          </summary>
-          <div class="px-4 pb-4">
-            <TableOfContents headings={headings} />
-          </div>
-        </details>
-      )
-    }
-
-    {/* Article Content with optional TOC sidebar */}
-    <div class:list={['px-6 sm:px-8 pt-6', showToc && 'lg:flex lg:gap-8']}>
-      {/* Main Content */}
-      <div class:list={['prose prose-lg prose-galaxy max-w-none', showToc && 'lg:flex-1 lg:min-w-0']}>
-        <slot />
-      </div>
-
-      {/* Desktop TOC Sidebar (right side) */}
-      {
-        showToc && (
-          <aside class="toc-sidebar hidden lg:block lg:w-56 lg:flex-shrink-0">
-            <div class="sticky top-24">
-              <TableOfContents headings={headings} />
-            </div>
-          </aside>
-        )
-      }
-    </div>
+    <ContentWithToc headings={headings} autotoc={autotoc}>
+      <slot />
+    </ContentWithToc>
 
     <!-- Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
