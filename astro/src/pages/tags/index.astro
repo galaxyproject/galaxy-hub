@@ -19,7 +19,6 @@ const tags = Array.from(tagCounts.entries())
 const totalTags = tags.length;
 const totalItems = tags.reduce((sum, t) => sum + t.count, 0);
 
-
 // Group tags by first letter for alphabetical sections
 const groupedTags = tags.reduce(
   (acc, { tag, count }) => {
@@ -32,17 +31,6 @@ const groupedTags = tags.reduce(
 );
 
 const letters = Object.keys(groupedTags).sort();
-
-// Calculate size class based on count (for tag cloud effect)
-// Calculate size class based on count (for tag cloud effect)
-function getTagSize(count: number): string {
-  return 'text-base';
-}
-
-// Calculate opacity based on count
-function getTagOpacity(count: number): string {
-  return 'opacity-100';
-}
 ---
 
 <BaseLayout title="Tags" description="Browse content by tag">
@@ -91,11 +79,9 @@ function getTagOpacity(count: number): string {
               {groupedTags[letter].map(({ tag, count }) => (
                 <a
                   href={`/tags/${tag}/`}
-                  class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 ${getTagOpacity(count)}`}
+                  class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 opacity-100`}
                 >
-                  <span
-                    class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors ${getTagSize(count)}`}
-                  >
+                  <span class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base`}>
                     {tag}
                   </span>
                   <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
