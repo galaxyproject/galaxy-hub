@@ -44,7 +44,7 @@
     "gridsome-plugin-plausible-analytics": "^1.2.0",
     "ics": "^2.35.0",
     "jiti": "^1.12.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "magic-snowflakes": "^6.1.0",
     "markdownlint": "^0.24.0",
     "markdownlint-cli": "^0.29.0",
