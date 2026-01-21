@@ -79,12 +79,15 @@ test.describe('Navigation', () => {
       await page.goto('/admin/');
 
       const menuButton = page.locator('button[aria-label="Open menu"]');
-      await expect(menuButton).toHaveAttribute('aria-expanded', /true|false/, { timeout: 3000 });
+      await expect(menuButton).toBeVisible();
+      // Wait for Vue hydration
+      await page.waitForTimeout(500);
+
       await menuButton.click();
 
       // Wait for menu to become visible (hydration + animation)
-      await page.waitForSelector('[role="dialog"], [data-state="open"], nav:visible', { timeout: 2000 });
-      const mobileMenu = page.locator('[role="dialog"], [data-state="open"], nav:visible');
+      await page.waitForSelector('[role="dialog"], [data-state="open"]', { timeout: 3000 });
+      const mobileMenu = page.locator('[role="dialog"], [data-state="open"]');
       const count = await mobileMenu.count();
       expect(count).toBeGreaterThan(0);
     });
@@ -107,6 +110,81 @@ test.describe('Navigation', () => {
       // Verify we can still interact with the page
       const closeOrNav = page.locator('button, a').first();
       await expect(closeOrNav).toBeEnabled();
+    });
+
+    test('mobile menu scrolls on very small screens', async ({ page }) => {
+      // Use a very small viewport to simulate a phone in landscape or small device
+      await page.setViewportSize({ width: 375, height: 400 });
+      await page.goto('/admin/');
+
+      // Wait for Vue hydration
+      const menuButton = page.locator('button[aria-label="Open menu"]');
+      await expect(menuButton).toBeVisible();
+      await page.waitForTimeout(500);
+
+      await menuButton.click();
+
+      // Wait for menu to open
+      await page.waitForSelector('[role="dialog"], [data-state="open"]', { timeout: 3000 });
+
+      // Find the scrollable container within the menu
+      const scrollContainer = page.locator('[role="dialog"] [class*="overflow-y"]');
+      await expect(scrollContainer).toBeVisible();
+
+      // Get the scroll height vs client height to verify content overflows
+      const scrollInfo = await scrollContainer.evaluate((el) => ({
+        scrollHeight: el.scrollHeight,
+        clientHeight: el.clientHeight,
+        scrollTop: el.scrollTop,
+        canScroll: el.scrollHeight > el.clientHeight,
+        computedOverflow: window.getComputedStyle(el).overflowY,
+      }));
+
+      // Content should overflow on this small viewport
+      expect(scrollInfo.canScroll).toBe(true);
+      // Overflow should be auto or scroll, not hidden or visible
+      expect(['auto', 'scroll']).toContain(scrollInfo.computedOverflow);
+
+      // Scroll down and verify it actually scrolls
+      await scrollContainer.evaluate((el) => {
+        el.scrollTop = 100;
+      });
+
+      const newScrollTop = await scrollContainer.evaluate((el) => el.scrollTop);
+      expect(newScrollTop).toBeGreaterThan(0);
+    });
+
+    test('homepage mobile menu scrolls on small screens', async ({ page }) => {
+      // Use a very small viewport
+      await page.setViewportSize({ width: 375, height: 400 });
+      await page.goto('/');
+
+      // Scroll to trigger the masthead to appear
+      await page.evaluate(() => window.scrollTo(0, 200));
+      await page.waitForTimeout(500);
+
+      // Click the mobile menu toggle
+      const menuToggle = page.locator('#mobile-menu-toggle');
+      await expect(menuToggle).toBeVisible();
+      await menuToggle.click();
+
+      // Wait for menu to appear
+      await page.waitForTimeout(300);
+
+      // Check the mobile menu has proper scroll styling
+      const mobileMenu = page.locator('#mobile-menu');
+      await expect(mobileMenu).toBeVisible();
+
+      const scrollInfo = await mobileMenu.evaluate((el) => ({
+        scrollHeight: el.scrollHeight,
+        clientHeight: el.clientHeight,
+        maxHeight: window.getComputedStyle(el).maxHeight,
+        overflowY: window.getComputedStyle(el).overflowY,
+      }));
+
+      // Should have max-height and overflow-y: auto
+      expect(scrollInfo.maxHeight).not.toBe('none');
+      expect(['auto', 'scroll']).toContain(scrollInfo.overflowY);
     });
   });
 
