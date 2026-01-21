@@ -8,8 +8,13 @@ const tagCounts = await getAllTags();
 
 // Convert to sorted array and calculate stats
 const tags = Array.from(tagCounts.entries())
-  .sort((a, b) => a[0].localeCompare(b[0]))
-  .map(([tag, count]) => ({ tag, count }));
+  .map(([tag, count]) => ({ tag, count }))
+  .sort((a, b) => {
+    // Sort by count descending
+    if (b.count !== a.count) return b.count - a.count;
+    // Then by tag alphabetical ascending
+    return a.tag.localeCompare(b.tag);
+  });
 
 const totalTags = tags.length;
 const totalItems = tags.reduce((sum, t) => sum + t.count, 0);
