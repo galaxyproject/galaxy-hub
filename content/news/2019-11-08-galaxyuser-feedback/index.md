@@ -3,9 +3,8 @@ title: UseGalaxy – a bioinformatic shopping mall from Sivakumar Prakash
 date: '2019-11-08'
 supporters:
 - galaxy-europe
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

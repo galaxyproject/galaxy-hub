@@ -20,7 +20,7 @@ There will be several Galaxy related presentations at the [2019 German Conferenc
 | Date | Time | Presentation | Presenter |
 | --- | ---: | --- | --- |
 | Mon 16 Sep | 9:30-13:00 | [de.NBI showcase: Combining Workflows, Tools, and Data Management](https://gcb2019.de/de-nbi-showcase-combining-workflows-tools-and-data-management/) | Uwe Scholz, Steffen Neumann, Björn Grüning, Wolfgang Müller |
-| Tue 17 Sep | 11:50-12:10 | [The RNA workbench 2.0: next generation RNA data analysis](https://dechema.converia.de/frontend/index.php?page_id=7412&v=List&do=15&day=all&ses=5036#) | Pavankumar Videm |
+| Tue 17 Sep | 11:50-12:10 | [The RNA workbench 2.0: next generation RNA data analysis](https://dechema.converia.de/frontend/index.php?page_id=7412&v=List&do=15&day=all&ses=5036#) | Pavan Videm |
 | | 12:30-12:50 | [The ELIXIR Galaxy Community update](https://dechema.converia.de/frontend/index.php?page_id=7412&v=List&do=15&day=all&ses=5036#) | Bérénice Batut |
 | | Posters | | |
 | | | P 2.07 Galaxy for long-read ONT data analysis and public education | Björn Grüning |

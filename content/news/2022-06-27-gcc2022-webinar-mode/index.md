@@ -2,7 +2,7 @@
 title: 'GCC2022: Registration open for Webinar mode'
 tease: "For those that won't attend in person, the GCC Organizing Committee is happy to announce a virtual webinar-like option"
 date: "2022-06-27"
-authors: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu]
 ---
 

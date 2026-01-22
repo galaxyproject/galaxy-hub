@@ -8,7 +8,7 @@ tease: "Specification for RO-Crate 1.2 released"
 supporters:
   - eurosciencegateway
   - fair-ease
-  - by-covid
+  - bycovid
 subsites: [all,esg]
 ---
 

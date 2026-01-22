@@ -6,9 +6,8 @@ supporters:
 - denbi
 - elixir
 - vib
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

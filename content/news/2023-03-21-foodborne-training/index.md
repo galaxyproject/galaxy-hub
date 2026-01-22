@@ -1,11 +1,8 @@
 ---
 title: 'Training material and workshops - Pathogen detection from (direct Nanopore) sequencing data using Galaxy'
 tease: "Our new GTN material has been published in January and used in workshops"
-authors: Engy Nasr, Bérénice Batut
+authors: [Engy Nasr, Bérénice Batut]
 date: '2023-03-21'
-authors_structured:
-- github: EngyNasr
-- github: bebatut
 hide_tease: false
 tags: [training, outreach]
 subsites: [global]

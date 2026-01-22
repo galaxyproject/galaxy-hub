@@ -3,11 +3,8 @@ title: "GPU-enabled deep learning on Galaxy"
 date: "2023-06-23"
 tease: "Taking advantage of Galaxy's GPU computing nodes"
 hide_tease: false
-authors: 'Anup Kumar, José Manuel Domínguez'
-authors_structured:
-- github: anuprulez
-- github: kysrpex
 tags: [machine-learning,EU,esg,esg-wp5]
+authors: [Anup Kumar, José Manuel Domínguez]
 subsites: [all-eu, esg]
 supporters:
   - eurosciencegateway

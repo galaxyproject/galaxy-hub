@@ -1,7 +1,7 @@
 ---
 date: '2019-05-30'
 title: "Enabling cloud bursting for Galaxy"
-authors: "Enis Afgan and Nuwan Goonasekera"
+authors: [Enis Afgan, Nuwan Goonasekera]
 tease: "Expand your compute horizons."
 image: "/news/2019-05-gcr/gcr.png"
 highlight: true

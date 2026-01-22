@@ -3,9 +3,8 @@ title: Galaxy provides support as an NFDI
 date: '2020-02-07'
 tags: [data, nfdi, rdm]
 supporters: [nfdi, unifreiburg]
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -2,8 +2,6 @@
 title: "Survival analysis for right censored data using lifelines"
 date: "2023-08-11"
 authors: Ross Lazarus
-authors_structured:
-- github: fubar2
 tease: "Kaplan-Meier and Cox proportional hazards models are available for testing in Galaxy"
 hide_tease: true
 subsites: [all]

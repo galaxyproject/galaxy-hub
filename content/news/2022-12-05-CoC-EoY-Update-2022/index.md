@@ -1,6 +1,6 @@
 ---
 title: "Code Of Conduct Committee Annual Update "
-authors: "Assunta DeSanto, Beatriz Serrano-Solano, Ross Lazarus, Helena Rasche, Frederik Coppens, Michelle Savage"
+authors: [Assunta DeSanto, Beatriz Serrano-Solano, Ross Lazarus, Helena Rasche, Frederik Coppens, Michelle Savage]
 source_blog: ""
 date: "2022-12-05"
 ---

@@ -5,9 +5,7 @@ date: '2020-03-24'
 tease: an integrated framework for Chimeric Read Analysis from RNA-RNA interactome
   data
 tags: [tools]
-authors: pavanvidem
-authors_structured:
-- github: pavanvidem
+authors: Pavan Videm
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

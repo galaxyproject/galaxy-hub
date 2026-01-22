@@ -9,9 +9,7 @@ doi: https://doi.org/10.1093/gigascience/giaa025
 supporters:
 - denbi
 - elixir
-authors: subinamehta
-authors_structured:
-- github: subinamehta
+authors: Subina Mehta
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

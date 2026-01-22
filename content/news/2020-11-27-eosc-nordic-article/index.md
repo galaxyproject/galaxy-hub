@@ -9,9 +9,7 @@ supporters:
 - EOSC-Life
 - eu
 external_url: https://www.eosc-nordic.eu/insights-from-the-first-cross-training-between-eosc-life-and-eosc-nordic/
-authors: annefou
-authors_structured:
-- github: annefou
+authors: "Anne Fouilloux"
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -3,8 +3,6 @@ title: 'UseGalaxy.eu Use Case: Marine turtle tumour disease'
 date: '2021-09-03'
 tags: [UseCase]
 authors: Liam Whitmore
-authors_structured:
-- name: Liam Whitmore
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

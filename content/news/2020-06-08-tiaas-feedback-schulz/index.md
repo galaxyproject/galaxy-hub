@@ -8,8 +8,6 @@ supporters:
 - denbi
 - elixir
 authors: Marcel Schulz
-authors_structured:
-- name: Marcel Schulz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

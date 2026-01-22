@@ -4,7 +4,7 @@ main_subsite: global
 date: "2023-01-23"
 tags: [training, gtn-news]
 title: "[GTN news] New GTN Feature Tag-based Topics enables new SARS-CoV-2 topic"
-authors: "Helena Rasche, Wolfgang Maier"
+authors: [Helena Rasche, Wolfgang Maier]
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/01/23/new-covid19-topic.html'
 ---
 

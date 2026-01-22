@@ -3,7 +3,7 @@ title: 'Galaxy Release 23.0'
 tease: New tool search, modernized multi-history view, new tag displays, theme support, & so much more!
 date: '2023-04-17'
 subsites: [global, us]
-authors: Natalie
+authors: Natalie Whitaker-Allen
 ---
 
 Dear Community,

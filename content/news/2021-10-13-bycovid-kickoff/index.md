@@ -6,9 +6,7 @@ tags: [COVID-19, collaboration]
 supporters:
 - bycovid
 - eu
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [global, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

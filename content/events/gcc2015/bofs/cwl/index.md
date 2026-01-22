@@ -19,7 +19,7 @@ This page is for the **Common Workflow Language** [Birds of a Feather](/events/g
 If you are interested, please add your name below and/or send an email to [Michael R. Crusoe](mailto:crusoe@ucdavis.edu).
 
 * Michael R. Crusoe
-* Bjoern Gruening
+* Björn Grüning
 * Helena Rasche
 
 ## Questions?

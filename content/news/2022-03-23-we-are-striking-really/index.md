@@ -4,9 +4,7 @@ date: '2022-03-23'
 tease: 'The next global climate strike will be on March 25!'
 hide_tease: true
 tags: [s4f, society]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

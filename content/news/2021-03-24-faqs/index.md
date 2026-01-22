@@ -4,7 +4,7 @@ main_subsite: global
 date: "2021-03-24"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: FAQs"
-authors: "Saskia Hiltemann, Helena Rasche, Bérénice Batut"
+authors: [Saskia Hiltemann, Helena Rasche, Bérénice Batut]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/03/24/faqs.html'
 ---
 

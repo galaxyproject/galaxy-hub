@@ -2,7 +2,7 @@
 title: "Building a distributed compute network across Europe"
 tease: "The Work Package 3 of the EuroScienceGateway project"
 hide_tease: false
-authors: "Marco Antonio Tangaro, Federico Zambelli"
+authors: [Marco Antonio Tangaro, Federico Zambelli]
 date: "2023-01-19"
 tags: [esg, esg-wp3]
 subsites: [all-eu, esg]

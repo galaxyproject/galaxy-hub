@@ -2,10 +2,7 @@
 title: "Enhancing the Galaxy Italian Community: Italy's National Galaxy Server"
 tease: ""
 hide_tease: true
-authors: "MA Tangaro (CNR), P Khmelevskaia (UniMi), F Zambelli (CNR and UniMi)"
-authors_structured:
-- github: mtangaro
-- github: Federico77z
+authors: [Marco Antonio Tangaro, Polina Khmelevskaia, Federico Zambelli]
 date: "2024-11-23"
 tags: [esg, esg-wp3, collaboration, eosc, community]
 subsites: [all-eu, esg, global]

@@ -8,9 +8,7 @@ supporters:
 - eu
 - EOSC-Life
 - unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---

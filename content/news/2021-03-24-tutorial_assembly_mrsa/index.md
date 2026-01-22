@@ -4,7 +4,7 @@ main_subsite: global
 date: "2021-03-24"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorials: Genome assembly of a MRSA genome"
-authors: "Bazante Sanders, Miaomiao Zhou, Helena Rasche, Saskia Hiltemann"
+authors: [Bazante Sanders, Miaomiao Zhou, Helena Rasche, Saskia Hiltemann]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/03/24/tutorial_assembly_mrsa.html'
 ---
 

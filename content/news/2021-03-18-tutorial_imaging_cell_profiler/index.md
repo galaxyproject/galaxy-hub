@@ -4,7 +4,7 @@ main_subsite: global
 date: "2021-03-18"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorial: Object tracking using CellProfiler"
-authors: "Beatriz Serrano-Solano, Yi Sun, Jean-Karim Hériché"
+authors: ["Beatriz Serrano-Solano", "Yi Sun", "Jean-Karim Hériché"]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/03/18/tutorial_imaging_cell_profiler.html'
 ---
 

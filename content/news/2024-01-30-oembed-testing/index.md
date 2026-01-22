@@ -4,7 +4,7 @@ main_subsite: global
 date: "2024-01-30"
 tags: [training, gtn-news]
 title: "[GTN news] GTN in Discourse"
-authors: "Helena Rasche, Jennifer Hillman-Jackson, Wendi Bacon, Martin Čech"
+authors: [Helena Rasche, Jennifer Hillman-Jackson, Wendi Bacon, Martin Čech]
 external_url: 'https://training.galaxyproject.org/training-material/news/2024/01/30/oembed-testing.html'
 ---
 

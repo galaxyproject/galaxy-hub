@@ -5,8 +5,6 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Nevena Veljkovic
-authors_structured:
-- name: Nevena Veljkovic
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

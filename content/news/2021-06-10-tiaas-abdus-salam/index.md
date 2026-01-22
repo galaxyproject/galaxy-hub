@@ -12,8 +12,6 @@ supporters:
 - erasmus+
 - elixir-belgium
 authors: Abdus Salam
-authors_structured:
-- name: Abdus Salam
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

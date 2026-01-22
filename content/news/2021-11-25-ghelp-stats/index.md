@@ -6,9 +6,7 @@ hide_tease: true
 tags: [galaxy, support, society, report, covid-19]
 supporters:
 - galaxy-europe
-authors: gallardoalba
-authors_structured:
-- github: gallardoalba
+authors: Cristóbal Gallardo Alba
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

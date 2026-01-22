@@ -1,7 +1,7 @@
 ---
 title: "CellProfiler now available in Galaxy as an interactive tool too"
 date: "2024-03-01"
-authors: Yi Sun and Beatriz Serrano-Solano
+authors: [Yi Sun, Beatriz Serrano-Solano]
 tease: "Use CellProfiler as if you were working in your local workstation"
 hide_tease: false
 subsites: [all-eu, global]

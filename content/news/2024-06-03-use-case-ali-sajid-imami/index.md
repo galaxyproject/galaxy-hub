@@ -3,8 +3,6 @@ title: 'UseGalaxy.eu Use Case: Translational Research and Precision Medicine'
 date: '2024-06-03'
 tags: [UseCase]
 authors: Ali Sajid Imami
-authors_structured:
-- name: Ali Sajid Imami
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

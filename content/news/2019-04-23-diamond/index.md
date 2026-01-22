@@ -5,9 +5,7 @@ tags: [collaboration]
 supporters:
 - eosc
 - eu
-authors: simonbray
-authors_structured:
-- github: simonbray
+authors: Simon Bray
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

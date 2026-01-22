@@ -3,9 +3,7 @@ title: Highlights from the Galaxy Community Conference 2021
 date: '2021-07-13'
 tease: 399 participants from 55 countries
 tags: [training, GCC, conference, covid-19, cofest, talk]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---

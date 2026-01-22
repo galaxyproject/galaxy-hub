@@ -6,8 +6,6 @@ tags: [tiaas, training]
 supporters:
 - galaxy-europe
 authors: Leighton Pritchard
-authors_structured:
-- name: Leighton Pritchard
 subsites: [all-eu, global, us]
 main_subsite: eu
 ---

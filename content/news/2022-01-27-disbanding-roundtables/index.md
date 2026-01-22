@@ -1,7 +1,7 @@
 ---
 title: "Goodbye Dev Roundtables"
 tease: "working groups do it better"
-authors: "Assunta DeSanto, Beatriz Serrano-Solano, John Chilton, Dannon Baker"
+authors: [Assunta DeSanto, Beatriz Serrano-Solano, John Chilton, Dannon Baker]
 date: "2022-01-27"
 ---
 

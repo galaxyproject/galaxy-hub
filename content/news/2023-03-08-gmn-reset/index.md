@@ -3,11 +3,7 @@ title: 'Galaxy Mentor Network: Reset'
 date: '2023-03-08'
 tease: We launched the [Galaxy Mentor Network](https://galaxy-mentor-network.netlify.app/) one year ago with the idea to onboard new members in the community. Now, one year later, we realize that we failed. We still believe in the power that the Galaxy Mentor Network, and, in that spirit, we would like to relaunch the Galaxy Mentor Network with a new matching process.
 hide_tease: true
-authors: Bérénice Batut, Assunta DeSanto, Delphine Larivière
-authors_structured:
-- github: bebatut
-- github: assuntad23
-- github: Delphine-L
+authors: [Bérénice Batut, Assunta DeSanto, Delphine Larivière]
 tags: [Freiburg, s4f, society]
 subsites: [all, all-eu]
 main_subsite: eu

@@ -591,7 +591,7 @@ This tutorial tracks dividing nuclei in a short time-lapse recording of one mito
 
 </div>
 
-By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/), [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
+By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/), [Pavan Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
 
 Brassinosteroids are phytohormones that have the ability to stimulate plant growth and confer resistance against abiotic and biotic stresses.
 This tutorial details the necessary steps to identify potential targets of brassinosteroid-induced miRNAs.  

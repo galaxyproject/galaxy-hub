@@ -6,9 +6,7 @@ tease: UseGalaxy.eu and DataPLANT consortium to record and deliver large data vo
 tags: [data]
 supporters:
 - dataplant
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

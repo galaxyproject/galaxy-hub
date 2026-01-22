@@ -5,8 +5,6 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Mali Salmon-Divon
-authors_structured:
-- name: Mali Salmon-Divon
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

@@ -41,7 +41,7 @@ I think it is also one of tutorials most often taught during workshops, so all t
 
 ---
 
-Thanks to Saskia for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Clemens Blank, Anika Erxleben, Mallory Freeberg, Maria Doyle, Mo Heydarian, Nicola Soranzo, Pavankumar Videm and Peter van Heusden who developed and contributed to this tutorial.
+Thanks to Saskia for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Clemens Blank, Anika Erxleben, Mallory Freeberg, Maria Doyle, Mo Heydarian, Nicola Soranzo, Pavan Videm and Peter van Heusden who developed and contributed to this tutorial.
 
 We recommend going through this [nice tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), using it for self-learning or during workshops. Enjoy it!
 

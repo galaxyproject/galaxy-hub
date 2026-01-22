@@ -2,9 +2,7 @@
 title: PathwayMatcher published and running on usegalaxy.eu
 date: '2019-08-20'
 tags: [tools]
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

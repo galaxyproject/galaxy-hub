@@ -5,9 +5,7 @@ tags: [training]
 supporters:
 - dataplant
 - biodaten
-authors: gallardoalba
-authors_structured:
-- github: gallardoalba
+authors: Cristóbal Gallardo Alba
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

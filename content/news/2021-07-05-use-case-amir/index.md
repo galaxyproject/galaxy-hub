@@ -4,8 +4,6 @@ date: '2021-07-05'
 tags: [demo, community]
 supporters: [unifreiburg]
 authors: Amir Sabbaghian
-authors_structured:
-- name: Amir Sabbaghian
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

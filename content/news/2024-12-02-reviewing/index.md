@@ -13,7 +13,7 @@ tags:
 - gtn infrastructure
 - new feature
 title: 'Credit where it’s due: GTN Reviewers in the spotlight'
-authors: Helena Rasche, Wendi Bacon
+authors: [Helena Rasche, Wendi Bacon]
 external_url: https://training.galaxyproject.org/training-material/news/2024/12/02/reviewing.html
 tease: We would like to recognise and thank all of the reviewers who have contributed
   to the GTN tutorials; your efforts are greatly appreciated, and we are grateful

@@ -4,9 +4,7 @@ date: '2021-03-28'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: fpsom
-authors_structured:
-- github: fpsom
+authors: Fotis Psomopoulos
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

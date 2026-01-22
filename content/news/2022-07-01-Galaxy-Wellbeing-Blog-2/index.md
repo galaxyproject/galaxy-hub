@@ -1,7 +1,7 @@
 ---
 title: "Defining Key Concepts in Galaxy Well-being and Mental Health Project"
 tease: "Second blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-01"
 ---

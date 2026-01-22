@@ -6,9 +6,7 @@ external_url: https://goo.gl/forms/lcPoMt4iZ8hwcdM12
 supporters:
 - elixir
 - denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -8,8 +8,6 @@ tease: Sarah Bowden from the Innere Medizin IV (Nephrologie und Allgemeinmedizin
 hide_tease: true
 tags: [UseCase]
 authors: Sarah Bowden
-authors_structured:
-- name: Sarah Bowden
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

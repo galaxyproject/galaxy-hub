@@ -3,10 +3,7 @@ title: "Coordination meeting of EOSC-related projects funded under Horizon Europ
 date: "2023-06-16"
 tease: "Members of the EuroScienceGateway project attended the EOSC Coordination meeting in Brussels"
 hide_tease: false
-authors: "Anika Erxleben"
-authors_structured:
-- github: erxleben
-tags: [EU, esg, esg-wp1, eosc, meeting, collaboration]
+authors: "Anika Erxleben-Eggenhofer"
 subsites: [all-eu, global, esg]
 main_subsite: eu
 supporters:

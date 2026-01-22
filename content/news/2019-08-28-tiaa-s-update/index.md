@@ -4,9 +4,7 @@ date: '2019-08-28'
 tags: [devops, tiaas]
 location:
   name: Freiburg, Germany
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

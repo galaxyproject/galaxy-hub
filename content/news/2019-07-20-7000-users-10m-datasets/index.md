@@ -5,9 +5,7 @@ tags: [devops, data]
 supporters:
 - denbi
 - elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

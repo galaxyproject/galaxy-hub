@@ -3,9 +3,7 @@ title: Variant Analysis of SARS-CoV-2 Sequencing Data (Jan 2021 update)
 date: '2021-01-22'
 tease: January 2021 update
 tags: [workflow, tools, COVID-19]
-authors: wm75
-authors_structured:
-- github: wm75
+authors: Wolfgang Maier
 subsites: [all-eu, global, us]
 main_subsite: eu
 ---

@@ -1,7 +1,7 @@
 ---
 title: "The New Galaxy Community Hub"
 date: "2021-09-14"
-authors: "Nick Stoler, Dannon Baker"
+authors: [Nick Stoler, Dannon Baker]
 components: false
 ---
 

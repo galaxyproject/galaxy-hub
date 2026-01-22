@@ -7,8 +7,6 @@ supporters:
 - denbi
 - elixir
 authors: Magnus Ø. Arntzen
-authors_structured:
-- name: Magnus Ø. Arntzen
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

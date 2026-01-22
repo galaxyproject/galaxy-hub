@@ -14,8 +14,6 @@ supporters:
   - eu
   - cesnet
 authors: Sebastian Schaaf
-authors_structured:
-- github: sebastian-schaaf
 ---
 
 In the Galaxy-driven EOSC project [EuroScienceGateway (ESG)](https://www.eurosciencegateway.org) one of 18 partners is [EGI - the European Grid Initiative](https://www.egi.eu/about/) - a federation of computing and storage resource providers in Europe, facilitating up a distributed infrastructure. The 29 participants  from 22 countries are united by the mission to deliver advanced computing and data analytics services for research and innovation. They provide access to more than 1.2 Exabytes of research data and 1.2 Million CPU Cores for data processing. Notably, with [CESNET](https://www.egi.eu/partner/cesnet/) (CZ), [CNRS](https://www.egi.eu/partner/cnrs/) (FR), [CYFRONET](https://www.egi.eu/partner/cyfronet/) (PL), [INFN](https://www.egi.eu/partner/infn/) (IT) and [TUBITAK ULAKBIM](https://www.egi.eu/partner/tubitak-ulakbim/) (TR), five of these partners are partners of ESG, too.

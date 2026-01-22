@@ -4,9 +4,7 @@ date: '2021-03-22'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: martenson
-authors_structured:
-- github: martenson
+authors: Martin Čech
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

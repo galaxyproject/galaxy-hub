@@ -4,9 +4,7 @@ date: '2021-03-25'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: Dr. Ricardo Gonzalo Sanz
-authors_structured:
-- name: Dr. Ricardo Gonzalo Sanz
+authors: Ricardo Gonzalo Sanz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

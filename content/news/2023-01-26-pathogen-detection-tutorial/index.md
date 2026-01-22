@@ -4,7 +4,7 @@ main_subsite: global
 date: "2023-01-26"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorial: Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition"
-authors: "Bérénice Batut, Engy Nasr"
+authors: [Bérénice Batut, Engy Nasr]
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/01/26/pathogen-detection-tutorial.html'
 ---
 

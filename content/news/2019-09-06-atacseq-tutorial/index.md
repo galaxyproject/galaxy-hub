@@ -6,9 +6,8 @@ supporters:
 - galaxy-europe
 - elixir
 - denbi
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

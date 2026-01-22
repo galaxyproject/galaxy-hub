@@ -7,8 +7,6 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Stefanie Dukowic-Schulze
-authors_structured:
-- name: Stefanie Dukowic-Schulze
 subsites: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 ---
 

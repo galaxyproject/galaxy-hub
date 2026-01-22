@@ -6,9 +6,7 @@ tease: An updated ELIXIR Galaxy website includes our goals, with a special empha
   more
 tags: [covid-19, training, galaxy, elixir, community]
 supporters: [unifreiburg, denbi, elixir]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---

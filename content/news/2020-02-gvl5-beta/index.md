@@ -1,7 +1,7 @@
 ---
 date: '2020-02-14'
 title: "With Love: The All-new GVL 5.0 (beta)"
-authors: "Enis Afgan, Nuwan Goonasekera, Alexandru Mahmoud, Alex Ostrovsky, the GVL and Galaxy teams"
+authors: [Enis Afgan, Nuwan Goonasekera, Alexandru Mahmoud, Alex Ostrovsky, GVL Team]
 tease: "Now more reliable, with better security, and with new features."
 image: "/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true

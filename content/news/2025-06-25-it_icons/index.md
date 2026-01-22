@@ -5,8 +5,6 @@ tease: New panel allocated for interactive tools on Galaxy
 hide_tease: false
 tags: [tools]
 authors: Amirhossein Nilchi
-authors_structured:
-- github: nilchia
 subsites: [all]
 main_subsite: eu
 ---

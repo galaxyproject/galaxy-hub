@@ -51,7 +51,7 @@ If you are interested, please add your name below.
 * Peter van Heusden
 * Daniel Blankenberg
 * Meng Li
-* Bjoern Gruening
+* Björn Grüning
 * Ajayi Olabode
 * Annette McGrath
 * Dave Bouvier

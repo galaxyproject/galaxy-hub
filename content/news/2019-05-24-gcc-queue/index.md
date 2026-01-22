@@ -4,9 +4,7 @@ date: '2019-05-24'
 tags: [devops, GCC]
 supporters:
 - galaxy-europe
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

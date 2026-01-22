@@ -4,9 +4,7 @@ date: '2019-10-02'
 tags: [devops, downtime]
 location:
   name: Freiburg, Germany
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

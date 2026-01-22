@@ -1,7 +1,7 @@
 ---
 title: "Napari: A fast, interactive, multi-dimensional image viewer on Galaxy!"
 date: "2024-02-26"
-authors: Yi Sun and Beatriz Serrano-Solano
+authors: [Yi Sun, Beatriz Serrano-Solano]
 tease: "Use Napari in the European Galaxy Server as an interactive tool"
 hide_tease: false
 subsites: [all-eu, global]

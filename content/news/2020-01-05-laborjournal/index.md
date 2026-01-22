@@ -5,9 +5,8 @@ tags: [outreach]
 supporters:
 - denbi
 - elixir
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

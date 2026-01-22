@@ -3,7 +3,7 @@ date: '2017-10-05'
 title: "ELIXIR establishes a new official Community for Galaxy"
 tease: ""
 image: /images/logos/ElixirNoTextLogo.png
-authors: "Frederik Coppens, Gildas Le Corguillé, Björn Grüning"
+authors: [Frederik Coppens, Gildas Le Corguillé, Björn Grüning]
 ---
 
 ELIXIR is an intergovernmental organisation that brings together life science resources from across Europe.

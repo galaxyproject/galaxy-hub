@@ -6,9 +6,7 @@ supporters:
 - galaxy-europe
 - unifreiburg
 - denbi
-authors: foellmelanie
-authors_structured:
-- github: foellmelanie
+authors: Melanie Föll
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

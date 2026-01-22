@@ -9,8 +9,6 @@ supporters:
 - denbi
 - unifreiburg
 authors: Amirhossein Nilchi
-authors_structured:
-- github: nilchia
 subsites: [global, all, eu]
 main_subsite: eu
 ---

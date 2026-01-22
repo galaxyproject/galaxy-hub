@@ -4,7 +4,7 @@ main_subsite: global
 date: "2023-03-21"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: Trainer Directory! (Add yourself today!)"
-authors: "Helena Rasche, Lucille Delisle"
+authors: [Helena Rasche, Lucille Delisle]
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/03/21/galaxy-trainer-directory.html'
 ---
 

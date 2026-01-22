@@ -11,9 +11,7 @@ supporters:
 - EOSC-Life
 - unifreiburg
 - denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [all-eu, global, us]
 main_subsite: eu
 ---

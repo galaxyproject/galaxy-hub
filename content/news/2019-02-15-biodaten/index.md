@@ -4,9 +4,8 @@ date: '2019-02-15'
 tags: [data, grants, collaboration]
 location:
   name: Freiburg, Germany
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [eu, freiburg]
 main_subsite: freiburg
 supporters: [denbi, unifrieburg]

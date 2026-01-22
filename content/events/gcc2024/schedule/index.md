@@ -544,7 +544,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                 <td>18</td>
                 <td>
                     <span class="gcc2024-title">Expanding Horizons: Single-Cell Multiomics Analysis Tools in Galaxy</span>;
-                    <span class="gcc2024-authors">Pavankumar Videm</span>
+                    <span class="gcc2024-authors">Pavan Videm</span>
                 </td>
             </tr>
             <tr>
@@ -1029,7 +1029,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                     Organizers:
                 </td>
                 <td>
-                    Bjoern Gruening
+                    Björn Grüning
                 </td>
             </tr>
         </tbody>

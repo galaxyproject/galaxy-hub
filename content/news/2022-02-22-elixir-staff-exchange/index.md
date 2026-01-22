@@ -4,9 +4,7 @@ date: '2022-02-22'
 tags: [galaxy, devops]
 supporters:
 - ELIXIR
-authors: pmandreoli
-authors_structured:
-- github: pmandreoli
+authors: Pietro Mandreoli
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

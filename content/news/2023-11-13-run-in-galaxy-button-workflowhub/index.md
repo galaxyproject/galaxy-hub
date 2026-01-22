@@ -7,8 +7,6 @@ subsites: [all-eu, esg]
 main_subsite: eu
 tags: [eosc, eosc-life, workflows, workflowhub, repository, catalog, import, ro-crate, esg, esg-wp2]
 authors: Sebastian Schaaf
-authors_structured:
-- github: sebastian-schaaf
 supporters:
   - eurosciencegateway
   - eosc

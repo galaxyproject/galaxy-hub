@@ -6,9 +6,7 @@ supporters:
 - dataplant
 - denbi
 - biodaten
-authors: mtekman
-authors_structured:
-- github: mtekman
+authors: Mehmet Tekman
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -5,8 +5,6 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Rodrigo Ortega Polo
-authors_structured:
-- name: Rodrigo Ortega Polo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

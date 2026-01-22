@@ -42,7 +42,7 @@ For the hands-on course, we will use the [training material](https://training.ga
 |---|---|---|---|---|
 | July 17th | 9:00am  | 4pm  | Welcome - Galaxy introduction - Quality control | Anika Erxleben, Teresa Müller |
 | July 18th | 9:00am  | 5pm |  ChIP-Sequencing | Cristóbal Gallardo |
-| July 19th | 9:00am  | 5pm  | RNA-Sequencing | Teresa Müller, Pavankumar Videm |
+| July 19th | 9:00am  | 5pm  | RNA-Sequencing | Teresa Müller, Pavan Videm |
 | July 20th | 9:00am  | 5pm | Variant Calling/Exome Seqencing | Wolfgang Maier |
 | July 21th | 9:00am  | 4pm  | Metagenomics/ Foodborne | Engy Nasr, Paul Zierep |
 

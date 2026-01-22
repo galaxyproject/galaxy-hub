@@ -10,7 +10,7 @@ tags:
 - training
 title: 'Enhancing Scientific Training: The Galaxy Training Network’s Role in the ELIXIR
   Training Life-Cycle'
-authors: Bérénice Batut, Lisanna Paladin
+authors: [Bérénice Batut, Lisanna Paladin]
 external_url: https://training.galaxyproject.org/training-material/news/2025/07/01/gtn-elixir-life-cycle.html
 tease: In the rapidly evolving landscape of data science, continuous learning and
   skill development are crucial

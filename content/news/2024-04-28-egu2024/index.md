@@ -1,7 +1,7 @@
 ---
 title: "Poster highlight: Implementation of a reproducible pipeline for producing seasonal Arctic sea ice forecasts (Stoeckl et al. 2023)"
 tease: We are thrilled to highlight the poster presentation by Vanessa Stoeckl at the European Geoscience Union (EGU) Conference 2024. "
-authors: "Vanessa Stoeckl, Bjoern Gruening, Anne Fouilloux, Jean Iaquinta, Alejandro Coca-Castro"
+authors: [Vanessa Stoeckl, Björn Grüning, Anne Fouilloux, Jean Iaquinta, Alejandro Coca-Castro]
 date: "2024-04-28"
 subsites: [global, all, esg]
 supporters:

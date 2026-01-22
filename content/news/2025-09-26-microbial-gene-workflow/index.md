@@ -1,6 +1,6 @@
 ---
 title: "Microbial Genes Recovery in Galaxy"
-authors: Mina H.Ansari
+authors: Mina Hojat Ansari
 tags: [workflow, metagenomics, microbial-genes, Galaxy]
 date: "2025-09-26"
 tease: "A new Galaxy workflow enables researchers to recover and analyze microbial genes from metagenomic data."

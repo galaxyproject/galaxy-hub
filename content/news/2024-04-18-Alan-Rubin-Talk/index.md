@@ -1,7 +1,7 @@
 ---
 title: "Talk by Alan Rubin in Freiburg"
 date: "2024-04-18"
-authors: Engy Nasr, Polina Polunina 
+authors: [Engy Nasr, Polina Polunina]
 tease: "Bioinformatics club talk by Alan Rubin: Analyzing and Sharing Data from High-throughput Mutagenesis Experiments"
 subsites: [all-eu]
 ---

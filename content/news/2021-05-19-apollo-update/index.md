@@ -5,9 +5,7 @@ tags: [genome annotation, apollo]
 supporters:
 - denbi
 - elixir
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

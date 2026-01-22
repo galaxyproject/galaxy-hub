@@ -1,9 +1,7 @@
 ---
 title: Open Source Software Strategy approved by the European Commission
 date: '2020-11-19'
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

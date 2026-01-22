@@ -8,9 +8,7 @@ supporters:
 - elixir
 - gallantries
 external_url: https://gallantries.github.io/posts/2021/02/01/gat/
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

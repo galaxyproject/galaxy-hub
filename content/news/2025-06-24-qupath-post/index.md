@@ -7,9 +7,7 @@ tags: [tools, imaging]
 supporters:
 - unifreiburg
 - nfdi4bioimage
-authors: dianichj
-authors_structured:
-- github: dianichj
+authors: Diana Chiang Jurado
 subsites: [global, all, eu]
 main_subsite: eu
 ---

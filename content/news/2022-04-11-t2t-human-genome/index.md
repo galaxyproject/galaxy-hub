@@ -4,9 +4,7 @@ date: '2022-04-11'
 tease: 'Something that the scientific community has been eagerly awaiting: the first complete, gap-free sequence for all 24 human chromosomes (including Y)'
 hide_tease: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-authors: gallardoalba
-authors_structured:
-- github: gallardoalba
+authors: Cristóbal Gallardo Alba
 ---
 
 While the first version of an improved human genome resulting from the Telomere-to-Telomere (T2T) Consortium efforts got reported in 2020, it has taken two years of additional work to achieve something that the scientific community has been eagerly awaiting since: the first complete, gap-free sequence for all 24 human chromosomes (including Y).

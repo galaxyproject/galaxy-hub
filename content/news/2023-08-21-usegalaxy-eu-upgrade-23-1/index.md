@@ -4,8 +4,6 @@ tease: We may have ancient buildings, but not an outdated Galaxy. The newest Gal
 hide_tease: false
 date: '2023-08-23'
 authors: "José Manuel Domínguez"
-authors_structured:
-- github: kysrpex
 main_subsite: eu
 subsites: [eu, esg]
 tags: [esg, esg-wp1]

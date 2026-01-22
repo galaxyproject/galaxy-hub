@@ -7,9 +7,7 @@ tags: [release]
 supporters:
 - elixir
 - denbi
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---

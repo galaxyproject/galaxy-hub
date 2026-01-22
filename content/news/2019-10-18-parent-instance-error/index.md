@@ -4,9 +4,7 @@ date: '2019-10-18'
 tags: [devops, bug]
 location:
   name: Freiburg, Germany
-authors: gmauro
-authors_structured:
-- github: gmauro
+authors: Gianmauro Cuccuru
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -3,8 +3,6 @@ title: 'Enjoy a much faster user interface'
 date: '2023-03-14'
 tease: Following up on our modernization efforts, we now introduce a single top-router written in Vue, which brings all our Vue components together in a seamless user experience, dramatically reducing the number of required page reloads when navigating the Galaxy user interface.
 authors: Aysam Guerler
-authors_structured:
-- github: guerler
 tags: [client, routing]
 subsites: [global, all, esg]
 supporters:

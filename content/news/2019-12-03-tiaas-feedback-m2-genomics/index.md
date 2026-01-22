@@ -4,9 +4,7 @@ date: '2019-12-03'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: gmauro
-authors_structured:
-- github: gmauro
+authors: Gianmauro Cuccuru
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

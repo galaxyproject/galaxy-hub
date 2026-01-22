@@ -12,9 +12,7 @@ supporters:
 - denbi
 - unifreiburg
 - elixir
-authors: anuprulez
-authors_structured:
-- github: anuprulez
+authors: Anup Kumar
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

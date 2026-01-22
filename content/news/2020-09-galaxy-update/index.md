@@ -331,7 +331,7 @@ An on-line, curated resource that serves two functions:
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[RNA-RNA interactome data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html)</div>
 
-This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to use the most recent versions of tools. Learn how to use CLEAR-CLIP data in your analysis.
+This tutorial was updated by [Pavan Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to use the most recent versions of tools. Learn how to use CLEAR-CLIP data in your analysis.
 
 <img class="card-img-bottom" src="gtn-chira-slice.png" alt="ChiRA" />
 </div>

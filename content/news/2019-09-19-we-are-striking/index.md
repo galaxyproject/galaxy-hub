@@ -2,9 +2,7 @@
 title: We are striking!
 date: '2019-09-19'
 tags: [s4f, society]
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

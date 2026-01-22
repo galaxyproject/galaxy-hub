@@ -10,9 +10,7 @@ supporters:
 - denbi
 - unifreiburg
 - nfdi4bioimagingnext-level
-authors: nilchia
-authors_structured:
-- github: nilchia
+authors: Amirhossein Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
 ---

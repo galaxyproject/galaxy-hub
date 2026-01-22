@@ -11,9 +11,7 @@ supporters:
 - eosc
 - eu
 - unifreiburg
-authors: wm75
-authors_structured:
-- github: wm75
+authors: Wolfgang Maier
 subsites: [global, eu, freiburg]
 main_subsite: freiburg
 ---

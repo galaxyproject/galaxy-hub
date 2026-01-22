@@ -4,9 +4,7 @@ date: '2020-11-18'
 tags: [data]
 supporters:
 - dataplant
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

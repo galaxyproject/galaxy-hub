@@ -6,9 +6,7 @@ tease: usegalaxy.eu has implemented tool recommendation, finally answering the q
 tags: [release, devops]
 location:
   name: Galaxy Europe
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

@@ -7,9 +7,7 @@ hide_tease: true
 tags: [devops, hardware]
 supporters:
 - denbi
-authors: gmauro
-authors_structured:
-- github: gmauro
+authors: Gianmauro Cuccuru
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -4,8 +4,6 @@ tease: "A report out of Galaxy Europe's user space, by Mona Malek Mohammadi"
 date: '2024-05-15'
 tags: [UseCase]
 authors: Mona Malek Mohammadi
-authors_structured:
-- name: Mona Malek Mohammadi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

@@ -4,7 +4,7 @@ main_subsite: global
 date: "2021-03-18"
 tags: [training, gtn-news]
 title: "[GTN news] Next GTN CoFest May 20, 2021"
-authors: "Saskia Hiltemann, Helena Rasche, Bérénice Batut, Jennifer Hillman-Jackson, Delphine Lariviere, Anna Syme, Maria Doyle"
+authors: [Saskia Hiltemann, Helena Rasche, Bérénice Batut, Jennifer Hillman-Jackson, Delphine Larivière, Anna Syme, Maria Doyle]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/03/18/gtn_cofest_may.html'
 ---
 

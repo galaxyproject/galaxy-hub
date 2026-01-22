@@ -31,7 +31,7 @@ During the second day, the focus was on developing and extending the Galaxy ecos
 - Marius van den Beek, John Chilton: "Travelling with warp-speed, an update on Galaxy workflows"
 - Nicola Soranzo: "Beta Python 3 support for Galaxy in release 18.09, at last!"
 - Musumba Awori: "Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis of a spectrum of specialised metabolites"
-- Marco Tangaro: "Providing Galaxy based bioinformatic environments through cloud technologies (plus demo)"
+- Marco Antonio Tangaro: "Providing Galaxy based bioinformatic environments through cloud technologies (plus demo)"
 - Sveinung Gundersen: "Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy"
 - Helena: "State of the European Galaxy Project"
 - Bérénice: "Update on the Galaxy Training Network"

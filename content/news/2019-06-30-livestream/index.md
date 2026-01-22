@@ -2,9 +2,7 @@
 title: GCC2019 will be livestreamed
 date: '2019-06-30'
 tags: [talk, video, GCC]
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

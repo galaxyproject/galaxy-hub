@@ -16,9 +16,7 @@ supporters:
 - EOSC-Life
 - unifreiburg
 - eu
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

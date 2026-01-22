@@ -5,8 +5,6 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Ambre Jousselin
-authors_structured:
-- name: Ambre Jousselin
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

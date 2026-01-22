@@ -1,7 +1,7 @@
 ---
 date: '2018-06-15'
 title: "A fruitful year for the Galaxy Training material"
-authors: "Bérénice Batut, on behalf of the Galaxy Training Network"
+authors: [Bérénice Batut]
 image: "/news/2018-06-training-material/cover_art.png"
 ---
 

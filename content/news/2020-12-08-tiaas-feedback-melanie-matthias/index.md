@@ -5,10 +5,7 @@ date: '2020-12-08'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: Matthias313, foellmelanie
-authors_structured:
-- github: Matthias313
-- github: foellmelanie
+authors: [Matthias Fahrner, Melanie Föll]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

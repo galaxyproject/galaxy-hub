@@ -8,10 +8,7 @@ supporters:
 - dataplant
 - biodaten
 - denbi
-authors: mtekman, beatrizserrano
-authors_structured:
-- github: mtekman
-- github: beatrizserrano
+authors: [Mehmet Tekman, Beatriz Serrano-Solano]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

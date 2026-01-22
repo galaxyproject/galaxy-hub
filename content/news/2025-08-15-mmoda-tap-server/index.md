@@ -5,7 +5,7 @@ tease: "A new new IVOA-compliant TAP server, currently exposing data from the IN
 hide_tease: false
 tags: [esg,esg-wp5]
 subsites: [all,esg]
-supporters: [all-eu, esg, all]
+supporters: [eu, eosc, esg]
 main_subsite: eu
 ---
 

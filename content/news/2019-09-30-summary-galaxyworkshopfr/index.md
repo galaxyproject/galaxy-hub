@@ -4,9 +4,8 @@ date: '2019-09-30'
 location:
   name: Freiburg
 tags: [training]
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

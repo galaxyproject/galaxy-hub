@@ -7,9 +7,7 @@ supporters:
 - galaxy-europe
 - denbi
 - elixir
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---

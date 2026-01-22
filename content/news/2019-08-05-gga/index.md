@@ -10,9 +10,7 @@ supporters:
 - elixir
 - denbi
 - ifb
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

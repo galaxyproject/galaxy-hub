@@ -2,8 +2,7 @@
 date: '2025-03-25'
 title: 'Paper Highlight: “Facilitating Reproducibility in Catalysis Research with Managed Workflows and RO-Crates: A Galaxy Case Study”'
 tease: 'Members of the EuroScienceGateway project working on materials science use cases in the UK have co-authored a paper addressing reproducibility of catalysis experiments.'
-authors_structured:
-    - github: patrick-austin
+authors: Patrick Austin
 subsites: [all-eu,global,esg]
 tags: [esg,esg-wp5]
 supporters:

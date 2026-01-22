@@ -4,10 +4,7 @@ tease: Official severity downgraded to HIGH, exploitability and impact to Galaxy
 date: '2022-11-01'
 tags: [galaxy, admin, security]
 subsites: [global,all]
-authors: Nate Coraor and Helena Rasche
-authors_structured:
-- github: natefoo
-- github: hexylena
+authors: [Nate Coraor, Helena Rasche]
 ---
 
 ## Background

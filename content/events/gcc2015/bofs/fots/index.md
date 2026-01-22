@@ -35,7 +35,7 @@ If you are interested, please add your name below and/or send an email to [Marti
 * Helena Rasche
 * John Chilton
 * Peter Cock
-* Bjoern Gruening
+* Björn Grüning
 * [Nate Coraor](/people/nate/)
 * [Daniel Blankenberg](/people/dan/)
 * [Nicola Soranzo](/people/nicola-soranzo/)

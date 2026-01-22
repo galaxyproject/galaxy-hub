@@ -6,12 +6,7 @@ supporters:
 - galaxy-europe
 tease: 'We were super happy to stand in front of a group of highly motivated people to teach them galaxy and workflows.'
 hide_tease: true
-authors: Hans-Rudolf Hotz and Lucille Delisle
-authors_structured:
-- name: Hans-Rudolf Hotz
-  github: hrhotz
-- name: Lucille Delisle
-  github: ldelisle
+authors: [Hans-Rudolf Hotz, Lucille Delisle]
 subsites: [all-eu]
 ---
 

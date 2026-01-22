@@ -4,8 +4,6 @@ title: 'UseGalaxy.eu Use Case: Genomics, evolution, and ecology of organohalide-
 date: '2021-07-02'
 tags: [UseCase]
 authors: Yi Yang
-authors_structured:
-- name: Yi Yang
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

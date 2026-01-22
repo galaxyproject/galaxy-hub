@@ -6,9 +6,7 @@ tags: [tools]
 supporters:
 - galaxy-europe
 - miracum
-authors: wm75
-authors_structured:
-- github: wm75
+authors: Wolfgang Maier
 subsites: [all-eu, global, us]
 main_subsite: eu
 ---

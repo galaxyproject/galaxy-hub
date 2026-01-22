@@ -1,7 +1,7 @@
 ---
 title: "Common Problems Faced in Open-source Part I"
 tease: "Third blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-06"
 ---

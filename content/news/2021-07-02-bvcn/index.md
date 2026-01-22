@@ -7,9 +7,7 @@ tags: [talk]
 supporters:
 - elixir
 - denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

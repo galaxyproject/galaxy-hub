@@ -1,7 +1,7 @@
 ---
 date: '2019-04-15'
 title: "Building up support for the Google Cloud Platform in Galaxy"
-authors: "Enis Afgan and Vahid Jalili"
+authors: [Enis Afgan, Vahid Jalili]
 tease: "Get on the cloud, Google Cloud!"
 image: "/news/2019-04-gcp/ggcp.png"
 highlight: true

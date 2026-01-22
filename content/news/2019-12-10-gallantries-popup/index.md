@@ -4,9 +4,7 @@ date: '2019-12-10'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

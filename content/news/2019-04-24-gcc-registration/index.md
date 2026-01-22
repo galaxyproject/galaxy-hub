@@ -4,9 +4,7 @@ date: '2019-04-24'
 tags: [training, GCC]
 location:
   name: Galaxy Europe
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

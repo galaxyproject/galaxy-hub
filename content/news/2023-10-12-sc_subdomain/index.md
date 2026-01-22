@@ -4,7 +4,7 @@ main_subsite: global
 date: "2023-10-12"
 tags: [training, gtn-news]
 title: "[GTN news] Single cell subdomain re-launch: Unified and feedback-driven"
-authors: "Wendi Bacon, Pavankumar Videm"
+authors: [Wendi Bacon, Pavan Videm]
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/10/12/sc_subdomain.html'
 ---
 

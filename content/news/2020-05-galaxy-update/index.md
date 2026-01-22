@@ -501,7 +501,7 @@ OIDC is [OpenID Connect](https://openid.net/connect/), a simple identity layer o
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">RNA-RNA interactome data analysis</div>
 
-By [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame#pavanvidem).
+By [Pavan Videm](https://training.galaxyproject.org/training-material/hall-of-fame#pavanvidem).
 
 This [GTN tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html) presents the analysis of a CLEAR-CLIP data set using the ChiRA tool suite.
 

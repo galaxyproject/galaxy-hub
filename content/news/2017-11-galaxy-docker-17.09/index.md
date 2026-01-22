@@ -2,7 +2,7 @@
 date: '2017-11-08'
 title: "Galaxy Docker 17.09"
 tease: "CVMFS and Singularity support"
-authors: "B. Grüning"
+authors: "Björn Grüning"
 ---
 
 [<img class="img-fluid mx-auto" src="https://raw.githubusercontent.com/bgruening/docker-galaxy-stable/dev/galaxy/GalaxyDocker.png" alt="Public Galaxy Server Dashboard" />](https://github.com/bgruening/docker-galaxy-stable)

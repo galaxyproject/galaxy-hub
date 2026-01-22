@@ -7,9 +7,7 @@ supporters:
 - eosc
 - eu
 - unifreiburg
-authors: simonbray
-authors_structured:
-- github: simonbray
+authors: Simon Bray
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

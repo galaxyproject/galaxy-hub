@@ -2,9 +2,7 @@
 title: Enough talking - time to act!
 date: '2020-09-11'
 tags: [s4f, society]
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -6,9 +6,8 @@ tags: [devops, data]
 supporters:
 - denbi
 - elixir
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben-Eggenhofer
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---

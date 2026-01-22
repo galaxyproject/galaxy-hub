@@ -4,7 +4,7 @@ main_subsite: global
 date: "2021-04-10"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorials: Whole transcriptome analysis of Arabidopsis thaliana"
-authors: "Cristóbal Gallardo, Pavankumar Videm, Beatriz Serrano-Solano"
+authors: [Cristóbal Gallardo Alba, Pavan Videm, Beatriz Serrano-Solano]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/04/10/tutorial_plant_transcriptomics.html'
 ---
 

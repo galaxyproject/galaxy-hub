@@ -11,9 +11,7 @@ supporters:
 - unifreiburg
 - erasmus+
 - denbi
-authors: annefou
-authors_structured:
-- github: annefou
+authors: "Anne Fouilloux"
 subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

@@ -4,9 +4,7 @@ date: '2020-07-03'
 tags: [training]
 supporters:
 - galaxy-europe
-authors: mtekman
-authors_structured:
-- github: mtekman
+authors: Mehmet Tekman
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

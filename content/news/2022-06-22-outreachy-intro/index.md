@@ -1,7 +1,7 @@
 ---
 title: "Welcome to our 3 new Outreachy interns!"
 tease: "From Galaxy dev, Galaxy Climate to Galaxy Well-being and mental health."
-authors: "Melke Berhan, Shivani Sangwan, Soumya Jha, Anne Fouilloux, Beatriz Serrano-Solano"
+authors: [Melke Berhan, Shivani Sangwan, Soumya Jha, Anne Fouilloux, Beatriz Serrano-Solano]
 date: "2022-06-22"
 ---
 

@@ -4,7 +4,7 @@ main_subsite: global
 date: "2023-06-21"
 tags: [training, gtn-news]
 title: "[GTN news] ELIXIR-UK Fellow Launches New FAIR Data Management Training"
-authors: "Katarzyna Kamieniecka, Krzysztof Poterlowicz"
+authors: [Katarzyna Kamieniecka, Krzysztof Poterlowicz]
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/06/21/fair.html'
 ---
 

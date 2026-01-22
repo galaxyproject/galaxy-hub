@@ -6,7 +6,7 @@ hide_tease: true
 location:
   name: Amsterdam, Netherlands
 tags: [conference, talk, poster, training, conda, COVID-19]
-authors: engynasr
+authors: Engy Nasr
 supporters:
 - elixir
 - denbi

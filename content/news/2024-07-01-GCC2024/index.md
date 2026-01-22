@@ -62,7 +62,7 @@ emphasizing the community's dedication to education and collaboration. The Freib
 - **MAdLand Computational Resources Through Galaxy** by Deepti Varshney, Saskia Hiltemann, and Björn Grüning
 - **Community-Driven Standards Development for Reference Genome Generation** by Saim Momin and Björn Grüning
 - **WALL·E – Prevent Abuse of Interactive Research Environments** by Mira Kuntz
-- **Expanding Horizons: Single-Cell Multiomics Analysis Tools in Galaxy** by Pavankumar Videm
+- **Expanding Horizons: Single-Cell Multiomics Analysis Tools in Galaxy** by Pavan Videm
 - **Giving the Single Cell Community the Tools It Needs on Galaxy – an ELIXIR Staff Exchange Project** by Marisa Loach
 - **microGalaxy SIG: Microbial Data Analysis Resources in Galaxy** by Paul Zierep, Engy Nasr, and Saim Momin
 

@@ -6,8 +6,6 @@ location:
   name: Mannheim, Germany
 tags: [conference, talk,esg, esg-wp1, esg-wp4]
 authors: Sanjay Kumar Srikakulam
-authors_structured:
-- github: sanjaysrikakulam
 components: true
 subsites: [all-eu,esg]
 supporters:

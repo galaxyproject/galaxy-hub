@@ -3,9 +3,7 @@ title: Got a minute? Take our survey about Galaxy for training and have your say
 date: '2021-09-29'
 tags: [training]
 external_url: https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

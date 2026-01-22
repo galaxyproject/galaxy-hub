@@ -7,9 +7,7 @@ tags: [COVID-19, data, workflow]
 supporters:
 - denbi
 - elixir
-authors: simonbray
-authors_structured:
-- github: simonbray
+authors: Simon Bray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

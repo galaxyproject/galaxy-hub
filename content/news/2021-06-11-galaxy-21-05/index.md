@@ -6,9 +6,7 @@ supporters:
 - denbi
 - elixir
 external_url: https://docs.galaxyproject.org/en/release_21.05/releases/21.05_announce_user.html
-authors: gmauro
-authors_structured:
-- github: gmauro
+authors: Gianmauro Cuccuru
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

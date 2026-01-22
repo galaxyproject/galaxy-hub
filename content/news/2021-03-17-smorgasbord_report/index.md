@@ -4,7 +4,7 @@ main_subsite: global
 date: "2021-03-17"
 tags: [training, gtn-news]
 title: "[GTN news] Report on the GTN Smörgåsbord event"
-authors: "Saskia Hiltemann, Helena Rasche"
+authors: [Saskia Hiltemann, Helena Rasche]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/03/17/smorgasbord_report.html'
 ---
 

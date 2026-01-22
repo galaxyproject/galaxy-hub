@@ -8,10 +8,7 @@ supporters:
 - elixir
 - dataplant
 - unifreiburg
-authors: bgruening, davelopez
-authors_structured:
-- github: bgruening
-- github: davelopez
+authors: [Björn Grüning, David López]
 subsites: [all-eu, global, us]
 main_subsite: eu
 ---

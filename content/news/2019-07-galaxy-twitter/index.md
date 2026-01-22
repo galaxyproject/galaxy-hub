@@ -1,7 +1,7 @@
 ---
 date: "2019-07-23"
 title: "Galaxy on Twitter: An Update"
-authors: "Dave Clements, Martin Cech, Mo Heydarian, Hans-Rudolf Hotz and Nicola Soranzo"
+authors: [Dave Clements, Martin Čech, Mo Heydarian, Hans-Rudolf Hotz, Nicola Soranzo]
 tease: "What's happening, right now"
 external_url: ""
 ---

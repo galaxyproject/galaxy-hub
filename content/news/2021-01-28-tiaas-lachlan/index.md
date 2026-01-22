@@ -5,8 +5,6 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Lachlan Gray
-authors_structured:
-- name: Lachlan Gray
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

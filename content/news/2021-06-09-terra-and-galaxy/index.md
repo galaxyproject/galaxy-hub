@@ -2,9 +2,7 @@
 title: A Galaxy of tools at your fingertips inside of Broad Institutes Terra
 date: '2021-06-09'
 tags: []
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

@@ -6,8 +6,7 @@ date: "2021-04-14"
 tags: 
 - galaxy
 - newsletter
-authors_structured:
-- github: tnabtaf
+authors: Dave Clements
 subsites: [global, us, all-eu]
 ---
 

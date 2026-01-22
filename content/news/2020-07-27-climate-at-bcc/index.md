@@ -10,9 +10,7 @@ supporters:
 - denbi
 - unifreiburg
 - eu
-authors: annefou
-authors_structured:
-- github: annefou
+authors: "Anne Fouilloux"
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

@@ -290,7 +290,7 @@ The mangrove is a typically tropical ecosystem, located between land and sea, an
 
 ## P16: BlockClust: efficient clustering and classification of non-coding RNAs from short read profiles
 
-Pavankumar Videm<sup>1</sup>, Dominic Rose<sup>1,5</sup>, Fabrizio Costa<sup>1</sup>, Rolf Backofen<sup>1-4</sup>
+Pavan Videm<sup>1</sup>, Dominic Rose<sup>1,5</sup>, Fabrizio Costa<sup>1</sup>, Rolf Backofen<sup>1-4</sup>
 
 Presented by **Björn Grüning<sup>1</sup>**
 

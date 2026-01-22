@@ -3,9 +3,9 @@ title: 'Effortlessly navigate your Galaxy history with enhanced search options'
 tease: 'Data searchability in the Galaxy History panel has been taken to new levels with the advanced search options that allow users to not only find items with more ease, but also find relations within items in their history.'
 date: '2023-03-15'
 tags: [history, esg, "UI/UX"]
-authors: Ahmed Hamid Awan, Dannon Baker
-authors_structured:
-- github: ahmedhamidawan, dannon
+authors: 
+- Ahmed Hamid Awan
+- Dannon Baker
 subsites: [global, all, esg]
 ---
 

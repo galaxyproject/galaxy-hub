@@ -6,9 +6,7 @@ tease: Starting Monday the 15th of February, the Galaxy Training Network (GTN) i
 tags: [training]
 location:
   name: online
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 ---

@@ -3,7 +3,7 @@ title: "The Galaxy 25.0 Release is Live!"
 date: "2025-06-20"
 tease: The latest Galaxy release is here and is packed with enhanced collection capabilities, streamlined workflow management, interactive tools and visualizations improvements, and new integrations to accelerate your research.
 hide_tease: false
-authors: Natalie Whitaker-Allen, Ahmed Hamid Awan
+authors: [Natalie Whitaker-Allen, Ahmed Hamid Awan]
 subsites: [all]
 external_url: https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html
 ---

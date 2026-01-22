@@ -4,9 +4,7 @@ date: '2020-12-03'
 supporters:
 - denbi
 - elixir
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [release]
 main_subsite: eu

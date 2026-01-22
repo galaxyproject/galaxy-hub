@@ -3,8 +3,6 @@ title: 'UseGalaxy.eu Use Case: Epigenomics and transcriptomics in cancer'
 date: '2021-07-16'
 tags: [UseCase]
 authors: Mzwanele Ngubo
-authors_structured:
-- name: Mzwanele Ngubo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

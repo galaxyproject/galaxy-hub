@@ -2,9 +2,7 @@
 title: 'Galaxy instance for sensitive data running in isolated network environment'
 date: '2025-01-20'
 tease: GDPR-compliant Galaxy clone in isolated environment
-authors: Mirela Minkova & Magdalena Harakalova, Torfinn Nome & Nikolay Vazov
-authors_structured:
-- github: vazovn
+authors: [Mirela Minkova, Magdalena Harakalova, Torfinn Nome, Nikolay Vazov]
 tags: [esg-wp5, esg]
 subsites: [global, all, esg]
 supporters:

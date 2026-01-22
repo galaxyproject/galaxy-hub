@@ -3,9 +3,7 @@ title: 'Evaluation of the current usage and future needs of Galaxy for microbial
 date: '2023-03-21'
 tease: The microGalaxy community of practice would like to learn more about use-cases where Galaxy was beneficial, and also the barriers that prevent researchers from using Galaxy. The aim is to collectively find solutions to improve user experience and reduce barriers. To this end, we are launching a survey to reach out to, and learn from, the microbial research community.
 hide_tease: true
-authors: Bérénice Batut, Paul Zierep
-authors_structured:
-- github: bebatut
+authors: [Bérénice Batut, Paul Zierep]
 tags: [microbial]
 subsites: [all]
 ---

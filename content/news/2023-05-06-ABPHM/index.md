@@ -5,7 +5,7 @@ tease: "From the 3rd to the 5th of May, Engy Nasr from the Freiburg Galaxy team 
 location:
   name: Hinxton, UK
 tags: [conference, talk, bioinformatics, demo, pathogen detection]
-authors: engynasr
+authors: Engy Nasr
 supporters:
 - microbial genomics
 - EOSC-Life

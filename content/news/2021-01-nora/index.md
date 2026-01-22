@@ -5,9 +5,7 @@ tease: A new framework for medical imaging research
 tags: [tools]
 supporters:
 - unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

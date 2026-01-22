@@ -1,5 +1,5 @@
 ---
-authors: "Teresa M\xFCller"
+authors: "Teresa Müller"
 date: '2024-06-11'
 external_url: https://training.galaxyproject.org/training-material/news/2024/06/11/GalaxyTrainingAcademy-Call-Contribution.html
 main_subsite: global

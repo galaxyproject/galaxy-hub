@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Genomic Research: A comprehensive review of FAIR assembly with ERGA EAR Bot"
 date: "2025-03-07"
-authors: Saim Momin and Arash Kadhkhodaei 
+authors: [Saim Momin, Arash Kadkhodaei]
 tease: "Explore how the ERGA EAR Bot is revolutionizing FAIR Assembly reviews in genomic research and contributing in advancing the Biodiversity Genomics Europe (BGE) project"
 subsites: [global,eu,us,freiburg]
 ---

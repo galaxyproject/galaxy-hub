@@ -3,7 +3,7 @@ title: 'Galaxy 23.1 Release'
 date: '2023-10-05'
 tease: "Galaxy 23.1 is here! Check out the highlights!"
 hide_tease: false
-authors: Natalie Whitaker
+authors: Natalie Whitaker-Allen
 tags: [Release]
 subsites: [global, all]
 main_subsite: us

@@ -6,9 +6,7 @@ tease: next meetings are planned for March 11, May 6 and at the Galaxy Community
 tags: [talk]
 supporters:
 - denbi
-authors: foellmelanie
-authors_structured:
-- github: foellmelanie
+authors: Melanie Föll
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

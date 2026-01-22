@@ -5,9 +5,7 @@ date: '2019-10-23'
 tease: Drop or duplicate given rows or columns from a tabular dataset, filter rows
   or columns on their properties, replace or transform table elements, ...
 tags: [tools]
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

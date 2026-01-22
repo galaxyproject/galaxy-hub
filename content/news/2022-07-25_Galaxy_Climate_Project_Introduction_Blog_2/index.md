@@ -1,7 +1,7 @@
 ---
 title: "Galaxy climate to support local/regional initiatives and concrete actions to fight climate change" 
 tease: "Second blog post presenting the Outreachy project on Galaxy Climate"
-authors: "Soumya Jha, Anne Fouilloux, Jean Iaquinta"
+authors: [Soumya Jha, Anne Fouilloux, Jean Iaquinta]
 source_blog: "Galaxy Climate Outreachy Project"
 date: "2022-07-25"
 ---

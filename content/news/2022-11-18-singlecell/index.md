@@ -4,7 +4,7 @@ main_subsite: global
 date: "2022-11-18"
 tags: [training, gtn-news]
 title: "[GTN news] New Topic: Single Cell Analysis!"
-authors: "Wendi Bacon, Mehmet Tekman"
+authors: [Wendi Bacon, Mehmet Tekman]
 external_url: 'https://training.galaxyproject.org/training-material/news/2022/11/18/singlecell.html'
 ---
 

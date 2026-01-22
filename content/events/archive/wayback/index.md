@@ -258,7 +258,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 21 </th>
     <td> <em><a href='/events/germany2016/'>(second German) Galaxy Developers Day</a></em> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <strong><a href='/events/sg2016/'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
-    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -272,7 +272,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 20 </th>
     <td> <em><a href='/events/switzerland2016/'>(third Swiss) Galaxy Workshop</a></em> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <strong><a href='/events/sg2016/'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
-    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -2437,14 +2437,14 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
   <tr>
     <td> <em><a href='http://www.gcb2014.de/localmedia/downloads/GCB2014_LNI.pdf'>BlockClust: efficient clustering and classification of non-coding RNAs from short read RNA-Seq profiles</a></em> </td>
     <td> </td>
-    <td> Pavankumar Videm </td>
+    <td> Pavan Videm </td>
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
     <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
     <td rowspan=3> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td> <a href='/events/switzerland2014/trainingday/'>Slides</a> </td>
-    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>

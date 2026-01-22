@@ -3,7 +3,7 @@ title: 'Hosting R/Shiny applications on Galaxy (and other frameworks)'
 date: '2024-08-21'
 tease: "Thanks to the outcome of a small Galaxy/Bioconductor hackathon earlier this year, it has become much easier to deploy Shiny applications as interactive tools (ITs) on usegalaxy.eu"
 hide_tease: false
-authors: Charlotte Soneson, Federico Marini, Björn Grüning, Hans-Rudolf Hotz 
+authors: [Charlotte Soneson, Federico Marini, Björn Grüning, Hans-Rudolf Hotz]
 subsites: [all-eu, global]
 ---
 

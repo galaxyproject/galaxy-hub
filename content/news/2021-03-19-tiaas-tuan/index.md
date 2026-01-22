@@ -4,9 +4,7 @@ date: '2021-03-19'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: Dr. Tuan Leng Tay
-authors_structured:
-- name: Dr. Tuan Leng Tay
+authors: Tuan Leng Tay
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---

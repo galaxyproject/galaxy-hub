@@ -15,10 +15,7 @@ supporters:
 - bmbf
 - dfg
 - egi
-authors: beatrizserrano, bgruening
-authors_structured:
-- github: beatrizserrano
-- github: bgruening
+authors: [Beatriz Serrano-Solano, Björn Grüning]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

@@ -6,9 +6,7 @@ tease: We checked the COG-UK data to see if we’d find representative samples o
 tags: [COVID-19, galaxy]
 supporters:
 - elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

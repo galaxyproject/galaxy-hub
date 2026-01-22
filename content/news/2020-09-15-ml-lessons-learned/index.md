@@ -7,9 +7,7 @@ supporters:
 - elixir
 - denbi
 - unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

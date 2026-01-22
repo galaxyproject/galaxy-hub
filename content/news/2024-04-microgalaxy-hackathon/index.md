@@ -1,7 +1,7 @@
 ---
 title: "How to improve the annotation of Galaxy resources? Outcomes of an online hackathon for improving the annotation of Galaxy resources for microbial data resources"
 date: "2024-04-30"
-authors:  Bérénice Batut, Matthias Bernt, Mina Hojat Ansari, Matúš Kalaš, Paul Klemm, Romane Libouban, Engy Nasr, Claire Rioualen, Wai Cheng Thang, Rand Zoabi, Paul Zierep 
+authors: [Bérénice Batut, Matthias Bernt, Mina Hojat Ansari, Matúš Kalaš, Paul Klemm, Romane Libouban, Engy Nasr, Claire Rioualen, Wai Cheng Thang, Rand Zoabi, Paul Zierep] 
 tease: "Find out how we improved the annotation of Galaxy tools and training material for microbiological data analysis!"
 hide_tease: false
 subsites: [all-eu, global]
