@@ -54,6 +54,11 @@ for entry in feed.get("entries", []):
         continue
 
     authors = ", ".join(tag.get("name", "") for tag in entry.get("authors", []))
+    contributors = []
+    for contributor in entry.get("contributors", []):
+        name = contributor.get("name", "")
+        if name and name not in contributors:
+            contributors.append(name)
     link = entry.get("link", "")
     summary = html.unescape(entry.get("summary", ""))
 
@@ -132,6 +137,7 @@ for entry in feed.get("entries", []):
             "days": duration,
             "title": str(title),
             "contact": authors,
+            "contributors": contributors,
             "location": {"name": location},
             "continent": continent,
             "external_url": link,
