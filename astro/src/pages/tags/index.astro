@@ -8,12 +8,16 @@ const tagCounts = await getAllTags();
 
 // Convert to sorted array and calculate stats
 const tags = Array.from(tagCounts.entries())
-  .sort((a, b) => a[0].localeCompare(b[0]))
-  .map(([tag, count]) => ({ tag, count }));
+  .map(([tag, count]) => ({ tag, count }))
+  .sort((a, b) => {
+    // Sort by count descending
+    if (b.count !== a.count) return b.count - a.count;
+    // Then by tag alphabetical ascending
+    return a.tag.localeCompare(b.tag);
+  });
 
 const totalTags = tags.length;
 const totalItems = tags.reduce((sum, t) => sum + t.count, 0);
-const maxCount = Math.max(...tags.map((t) => t.count));
 
 // Group tags by first letter for alphabetical sections
 const groupedTags = tags.reduce(
@@ -27,23 +31,6 @@ const groupedTags = tags.reduce(
 );
 
 const letters = Object.keys(groupedTags).sort();
-
-// Calculate size class based on count (for tag cloud effect)
-function getTagSize(count: number): string {
-  const ratio = count / maxCount;
-  if (ratio > 0.7) return 'text-xl font-bold';
-  if (ratio > 0.4) return 'text-lg font-semibold';
-  if (ratio > 0.2) return 'text-base font-medium';
-  return 'text-sm';
-}
-
-// Calculate opacity based on count
-function getTagOpacity(count: number): string {
-  const ratio = count / maxCount;
-  if (ratio > 0.5) return 'opacity-100';
-  if (ratio > 0.2) return 'opacity-90';
-  return 'opacity-75';
-}
 ---
 
 <BaseLayout title="Tags" description="Browse content by tag">
@@ -92,11 +79,9 @@ function getTagOpacity(count: number): string {
               {groupedTags[letter].map(({ tag, count }) => (
                 <a
                   href={`/tags/${tag}/`}
-                  class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 ${getTagOpacity(count)}`}
+                  class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 opacity-100`}
                 >
-                  <span
-                    class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors ${getTagSize(count)}`}
-                  >
+                  <span class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base`}>
                     {tag}
                   </span>
                   <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
