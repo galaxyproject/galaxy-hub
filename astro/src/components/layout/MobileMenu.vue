@@ -107,15 +107,15 @@ function handleNavClick() {
         <Menu class="h-6 w-6" />
       </button>
     </SheetTrigger>
-    <SheetContent side="left" class="w-80 bg-galaxy-dark border-medium-bg p-0">
-      <SheetHeader class="px-4 py-3 border-b border-medium-bg">
+    <SheetContent side="left" class="w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden">
+      <SheetHeader class="px-4 py-3 border-b border-medium-bg flex-shrink-0">
         <SheetTitle class="text-white flex items-center gap-2">
           <img src="/galaxy-logo.svg" alt="Galaxy" class="h-8" />
           Galaxy Hub
         </SheetTitle>
       </SheetHeader>
 
-      <div class="flex flex-col h-[calc(100%-4rem)] overflow-y-auto">
+      <div class="flex flex-col flex-1 min-h-0 overflow-y-auto">
         <!-- Region Switcher -->
         <div class="px-4 py-4 border-b border-medium-bg">
           <label class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2 block"> Region </label>
