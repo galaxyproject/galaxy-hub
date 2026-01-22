@@ -5,6 +5,7 @@ import {
   convertGridsomeSyntax,
   convertVueToJsx,
   convertComponentsToPascalCase,
+  addBootstrapMarker,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -165,5 +166,64 @@ describe('convertComponentsToPascalCase', () => {
 
   it('leaves unknown components unchanged', () => {
     expect(convertComponentsToPascalCase('<custom-component />')).toBe('<custom-component />');
+  });
+});
+
+describe('addBootstrapMarker', () => {
+  it('adds bs-compat marker to btn-primary', () => {
+    expect(addBootstrapMarker('<a class="btn btn-primary">Click</a>')).toBe(
+      '<a class="bs-compat btn btn-primary">Click</a>'
+    );
+  });
+
+  it('adds bs-compat marker to card elements', () => {
+    expect(addBootstrapMarker('<div class="card">Content</div>')).toBe('<div class="bs-compat card">Content</div>');
+  });
+
+  it('adds bs-compat marker to card-deck', () => {
+    expect(addBootstrapMarker('<div class="card-deck">')).toBe('<div class="bs-compat card-deck">');
+  });
+
+  it('adds bs-compat marker to card-img-top', () => {
+    expect(addBootstrapMarker('<img class="card-img-top" src="x" />')).toBe(
+      '<img class="bs-compat card-img-top" src="x" />'
+    );
+  });
+
+  it('adds bs-compat marker to alert classes', () => {
+    expect(addBootstrapMarker('<div class="alert alert-warning">Warning!</div>')).toBe(
+      '<div class="bs-compat alert alert-warning">Warning!</div>'
+    );
+  });
+
+  it('adds bs-compat marker to lead text', () => {
+    expect(addBootstrapMarker('<p class="lead">Important text</p>')).toBe(
+      '<p class="bs-compat lead">Important text</p>'
+    );
+  });
+
+  it('does not add duplicate bs-compat marker', () => {
+    expect(addBootstrapMarker('<div class="bs-compat card">Already marked</div>')).toBe(
+      '<div class="bs-compat card">Already marked</div>'
+    );
+  });
+
+  it('leaves non-Bootstrap classes unchanged', () => {
+    expect(addBootstrapMarker('<div class="my-custom-class">Content</div>')).toBe(
+      '<div class="my-custom-class">Content</div>'
+    );
+  });
+
+  it('handles multiple Bootstrap elements', () => {
+    const input = '<div class="card-deck"><div class="card">One</div><div class="card">Two</div></div>';
+    const expected =
+      '<div class="bs-compat card-deck"><div class="bs-compat card">One</div><div class="bs-compat card">Two</div></div>';
+    expect(addBootstrapMarker(input)).toBe(expected);
+  });
+
+  it('handles combined Bootstrap classes', () => {
+    expect(addBootstrapMarker('<a class="btn btn-primary btn-lg">Big button</a>')).toBe(
+      '<a class="bs-compat btn btn-primary btn-lg">Big button</a>'
+    );
   });
 });

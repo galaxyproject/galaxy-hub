@@ -239,6 +239,71 @@ function processImagePaths(content, slug) {
 }
 
 /**
+ * Add 'bs-compat' marker class to elements using Bootstrap patterns.
+ * This allows bootstrap-compat.css to target only legacy Bootstrap content
+ * without conflicting with Tailwind or custom styling elsewhere.
+ *
+ * Example: class="btn btn-primary" -> class="bs-compat btn btn-primary"
+ */
+function addBootstrapMarker(content) {
+  // Bootstrap class patterns that should be marked.
+  // When any of these appear in a class attribute, the 'bs-compat' marker is added.
+  const bootstrapPatterns = [
+    // Buttons
+    'btn-primary',
+    'btn-secondary',
+    'btn-success',
+    'btn-danger',
+    'btn-warning',
+    'btn-info',
+    'btn-light',
+    'btn-dark',
+    'btn-link',
+    'btn-sm',
+    'btn-lg',
+    // Cards - note: 'card' alone is Bootstrap-specific (Astro uses different names)
+    'card',
+    'card-deck',
+    'card-header',
+    'card-body',
+    'card-footer',
+    'card-img-top',
+    'card-img-bottom',
+    'card-title',
+    'card-text',
+    // Alerts
+    'alert',
+    'alert-primary',
+    'alert-secondary',
+    'alert-success',
+    'alert-danger',
+    'alert-warning',
+    'alert-info',
+    'alert-light',
+    'alert-dark',
+    // Typography
+    'lead',
+  ];
+
+  let processed = content;
+
+  for (const pattern of bootstrapPatterns) {
+    // Match class="...pattern..." and add 'bs-compat' marker if not already present
+    // Use word boundary \b to avoid partial matches
+    const regex = new RegExp(`class="([^"]*\\b${pattern}\\b[^"]*)"`, 'g');
+    processed = processed.replace(regex, (match, classes) => {
+      // Check if 'bs-compat' marker already present
+      if (/\bbs-compat\b/.test(classes)) {
+        return match;
+      }
+      return `class="bs-compat ${classes}"`;
+    });
+  }
+
+  return processed;
+}
+
+/**
  * Convert Gridsome-specific syntax to standard markdown/HTML
  */
 function convertGridsomeSyntax(content) {
@@ -403,6 +468,7 @@ async function processMarkdownFile(filePath) {
   // Process content
   let processedContent = body;
   processedContent = convertGridsomeSyntax(processedContent);
+  processedContent = addBootstrapMarker(processedContent);
   processedContent = processImagePaths(processedContent, slug);
 
   // Skip remark processing for files with HTML that remark would mangle
@@ -610,4 +676,5 @@ export {
   convertGridsomeSyntax,
   convertVueToJsx,
   convertComponentsToPascalCase,
+  addBootstrapMarker,
 };

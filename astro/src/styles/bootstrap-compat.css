@@ -5,74 +5,303 @@
  * This allows existing markdown content with Bootstrap markup to render correctly
  * while we gradually modernize to Tailwind/native CSS.
  *
+ * IMPORTANT: Bootstrap-specific components (cards, alerts, buttons) are scoped
+ * under the .bs-compat marker class. The preprocessing script automatically
+ * adds 'bs-compat' to elements using Bootstrap patterns, so these styles only
+ * apply to legacy content, not Astro components.
+ *
  * Covers: Cards, Alerts, Buttons, Grid basics, Text utilities, Colors
  */
 
 /* ==========================================================================
-   Card Components
+   Bootstrap Components (scoped under .bs-compat marker class)
+
+   The .bs-compat class is automatically added during preprocessing to elements
+   that use Bootstrap patterns. This ensures Bootstrap compat styles don't
+   conflict with Tailwind or custom styling used in Astro components.
    ========================================================================== */
 
-.card-deck {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
+.bs-compat {
+  /* Card Components */
 
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 12rem;
-  max-width: 20rem;
-  flex: 1 1 auto;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
+  &.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
 
-.card-header {
-  padding: 0.75rem 1rem;
-  margin-bottom: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  font-weight: 600;
-}
+  &.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 12rem;
+    max-width: 20rem;
+    flex: 1 1 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.5rem;
+    overflow: hidden;
 
-.card-header:first-child {
-  border-radius: calc(0.5rem - 1px) calc(0.5rem - 1px) 0 0;
-}
+    /* Card content that's not in card-body still needs padding */
+    > p,
+    > ul,
+    > ol {
+      padding: 0 1rem;
+      margin-bottom: 0.75rem;
+    }
 
-.card-body {
-  flex: 1 1 auto;
-  padding: 1rem;
-}
+    > p:last-child {
+      margin-bottom: 1rem;
+    }
+  }
 
-.card-title {
-  margin-bottom: 0.75rem;
-  font-weight: 600;
-}
+  &.card-header {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
 
-.card-text {
-  margin-bottom: 0;
-}
+    &:first-child {
+      border-radius: calc(0.5rem - 1px) calc(0.5rem - 1px) 0 0;
+    }
+  }
 
-.card-footer {
-  padding: 0.75rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-}
+  &.card-body {
+    flex: 1 1 auto;
+    padding: 1rem;
+  }
 
-/* Card content that's not in card-body still needs padding */
-.card > p,
-.card > ul,
-.card > ol {
-  padding: 0 1rem;
-  margin-bottom: 0.75rem;
-}
+  &.card-title {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
 
-.card > p:last-child {
-  margin-bottom: 1rem;
+  &.card-text {
+    margin-bottom: 0;
+  }
+
+  &.card-footer {
+    padding: 0.75rem 1rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  &.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.5rem - 1px);
+    border-top-right-radius: calc(0.5rem - 1px);
+  }
+
+  &.card-img-bottom {
+    width: 100%;
+    border-bottom-left-radius: calc(0.5rem - 1px);
+    border-bottom-right-radius: calc(0.5rem - 1px);
+  }
+
+  /* Alert Components */
+
+  &.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+  }
+
+  &.alert-primary {
+    color: #1a3a54;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+  }
+
+  &.alert-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+  }
+
+  &.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+
+  &.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+
+  &.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+
+  &.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+  }
+
+  &.alert-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+  }
+
+  &.alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+  }
+
+  /* Button Components */
+
+  &.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    transition:
+      color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &.btn-primary {
+    color: #fff !important;
+    background-color: #25537b !important;
+    border-color: #25537b !important;
+
+    &:hover {
+      background-color: #1d4263 !important;
+      border-color: #1d4263 !important;
+    }
+  }
+
+  &.btn-secondary {
+    color: #fff !important;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+
+    &:hover {
+      background-color: #5a6268 !important;
+      border-color: #545b62 !important;
+    }
+  }
+
+  &.btn-success {
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+
+    &:hover {
+      background-color: #218838 !important;
+      border-color: #1e7e34 !important;
+    }
+  }
+
+  &.btn-danger {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+
+    &:hover {
+      background-color: #c82333 !important;
+      border-color: #bd2130 !important;
+    }
+  }
+
+  &.btn-warning {
+    color: #212529 !important;
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+
+    &:hover {
+      background-color: #e0a800 !important;
+      border-color: #d39e00 !important;
+    }
+  }
+
+  &.btn-info {
+    color: #fff !important;
+    background-color: #117a8b !important; /* Darkened from #17a2b8 for better contrast */
+    border-color: #117a8b !important;
+
+    &:hover {
+      background-color: #0d5f6c !important;
+      border-color: #0c545d !important;
+    }
+  }
+
+  &.btn-light {
+    color: #212529 !important;
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+
+    &:hover {
+      background-color: #e2e6ea !important;
+      border-color: #dae0e5 !important;
+    }
+  }
+
+  &.btn-dark {
+    color: #fff !important;
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
+
+    &:hover {
+      background-color: #23272b !important;
+      border-color: #1d2124 !important;
+    }
+  }
+
+  &.btn-link {
+    font-weight: 400;
+    color: #25537b;
+    background-color: transparent;
+    border-color: transparent;
+
+    &:hover {
+      color: #1d4263;
+      text-decoration: underline;
+    }
+  }
+
+  &.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+  }
+
+  &.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+  }
+
+  /* Typography */
+
+  &.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
 }
 
 /* ==========================================================================
@@ -219,176 +448,6 @@
 
 .small {
   font-size: 0.875em;
-}
-
-/* ==========================================================================
-   Alert Components
-   ========================================================================== */
-
-.alert {
-  position: relative;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.375rem;
-}
-
-.alert-primary {
-  color: #1a3a54;
-  background-color: #cfe2ff;
-  border-color: #b6d4fe;
-}
-
-.alert-secondary {
-  color: #383d41;
-  background-color: #e2e3e5;
-  border-color: #d6d8db;
-}
-
-.alert-success {
-  color: #155724;
-  background-color: #d4edda;
-  border-color: #c3e6cb;
-}
-
-.alert-danger {
-  color: #721c24;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
-}
-
-.alert-warning {
-  color: #856404;
-  background-color: #fff3cd;
-  border-color: #ffeeba;
-}
-
-.alert-info {
-  color: #0c5460;
-  background-color: #d1ecf1;
-  border-color: #bee5eb;
-}
-
-.alert-light {
-  color: #818182;
-  background-color: #fefefe;
-  border-color: #fdfdfe;
-}
-
-.alert-dark {
-  color: #1b1e21;
-  background-color: #d6d8d9;
-  border-color: #c6c8ca;
-}
-
-/* ==========================================================================
-   Button Components
-   ========================================================================== */
-
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.375rem;
-  transition:
-    color 0.15s ease-in-out,
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.btn:hover {
-  text-decoration: none;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #25537b;
-  border-color: #25537b;
-}
-
-.btn-primary:hover {
-  background-color: #1d4263;
-  border-color: #1d4263;
-}
-
-.btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
-}
-
-.btn-secondary:hover {
-  background-color: #5a6268;
-  border-color: #545b62;
-}
-
-.btn-success {
-  color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
-}
-
-.btn-danger {
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
-}
-
-.btn-warning {
-  color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
-}
-
-.btn-info {
-  color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
-}
-
-.btn-light {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-
-.btn-dark {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
-}
-
-.btn-link {
-  font-weight: 400;
-  color: #25537b;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.btn-link:hover {
-  color: #1d4263;
-  text-decoration: underline;
-}
-
-.btn-sm {
-  padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  border-radius: 0.25rem;
-}
-
-.btn-lg {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  border-radius: 0.5rem;
 }
 
 /* ==========================================================================
@@ -678,6 +737,10 @@
   margin-right: auto !important;
 }
 
+/* Note: my-*, mx-*, px-*, py-* utilities intentionally not defined here
+   to avoid conflicts with Tailwind's spacing scale. Content using these
+   Bootstrap classes will get Tailwind's values instead, which are close enough. */
+
 .p-0 {
   padding: 0 !important;
 }
@@ -697,25 +760,13 @@
   padding: 3rem !important;
 }
 
+/* Padding utilities - only defining non-conflicting ones.
+   px-*, py-* left to Tailwind to avoid spacing scale conflicts. */
 .pt-0 {
   padding-top: 0 !important;
 }
-.pt-3 {
-  padding-top: 1rem !important;
-}
 .pb-0 {
   padding-bottom: 0 !important;
-}
-.pb-3 {
-  padding-bottom: 1rem !important;
-}
-.px-3 {
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-.py-3 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
 }
 
 /* ==========================================================================
