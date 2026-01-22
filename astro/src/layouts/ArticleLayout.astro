@@ -16,7 +16,7 @@ interface Props {
   title: string;
   description?: string;
   date?: Date | string;
-  authors?: string[];
+  authors?: Array<string | { id?: string; name: string }>;
   tags?: string[];
   autotoc?: boolean;
   headings?: Heading[];
@@ -53,7 +53,8 @@ const tags = tagsRaw || [];
 const supporters = supportersRaw || [];
 
 // Check if we have meaningful metadata to show in header
-const hasMetadata = (title && title !== 'Galaxy Hub') || date || authors.length > 0 || tags.length > 0 || description;
+const hasMetadata =
+  (title && title !== 'Galaxy Hub') || date || (authors?.length ?? 0) > 0 || tags.length > 0 || description;
 ---
 
 <BaseLayout title={title} description={description}>

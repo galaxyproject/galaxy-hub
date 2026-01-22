@@ -36,12 +36,32 @@ export async function getStaticPaths() {
 const { event } = Astro.props;
 const { Content, headings } = await render(event);
 
+const toArray = (value: unknown): string[] => {
+  if (!value) return [];
+  if (Array.isArray(value)) return value.flatMap((v) => toArray(v));
+  if (typeof value === 'object') {
+    const obj = value as Record<string, any>;
+    if (obj.id) return [String(obj.id)];
+    if (obj.name) return [String(obj.name)];
+    return [];
+  }
+  return [String(value)];
+};
+
 const { title, date, end, location, tags = [], tease, external_url, contacts = [], autotoc } = event.data;
 
 if (external_url) {
   return Astro.redirect(external_url);
 }
-const supporters = await resolveSupporters((event as any).data.supporters);
+const contributions = (event as any).data.contributions || {};
+const contributionFunding = [
+  ...toArray(contributions.funding),
+  ...toArray((event as any).data.funding),
+  ...toArray((event as any).data.infrastructure),
+  ...toArray((event as any).data.data),
+].filter(Boolean);
+const supporterSource = contributionFunding.length > 0 ? contributionFunding : (event as any).data.supporters;
+const supporters = await resolveSupporters(supporterSource);
 
 // MDX components map
 const components = {

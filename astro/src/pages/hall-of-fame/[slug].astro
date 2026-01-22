@@ -1,17 +1,21 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import {
+  communitySlug,
+  findCommunityBySlug,
+  getCommunityDisplay,
+  getGrantDisplay,
+  getOrganisationDisplay,
+  listContributors,
+  listGrants,
+  listOrganisations,
+} from '../../utils/contributors';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
 
-function slugify(value: string): string {
-  const normalized = String(value).trim().replace(/^@/, '');
-  return normalized
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
+const slugify = communitySlug;
 
 function toArray(value: unknown): string[] {
   if (!value) return [];
@@ -20,17 +24,41 @@ function toArray(value: unknown): string[] {
   }
   if (typeof value === 'object') {
     const obj = value as Record<string, any>;
+    if (obj.id) return [String(obj.id)];
     if (obj.name) return [String(obj.name)];
     if (obj.github) return [String(obj.github)];
-    if (obj.twitter) return [String(obj.twitter)];
     return [];
   }
   return [String(value)];
 }
 
+function extractAuthors(entry: ArticleEntry | EventEntry): string[] {
+  const contrib = (entry as any).data.contributions || {};
+  const contributionAuthors = [
+    ...toArray(contrib.authorship),
+    ...toArray(contrib.authors),
+    ...toArray(contrib.author),
+    ...toArray(contrib.contributors),
+  ].filter(Boolean);
+
+  if (contributionAuthors.length > 0) {
+    return contributionAuthors;
+  }
+
+  return [...toArray(entry.data.authors), ...toArray((entry as any).data.authors_structured)].filter(Boolean);
+}
+
 function normalizeCandidates(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
-  const authors = [...toArray(entry.data.authors), ...toArray((entry as any).data.authors_structured)].filter(Boolean);
-  const supporters = toArray(entry.data.supporters).filter(Boolean);
+  const authors = extractAuthors(entry);
+  const contrib = (entry as any).data.contributions || {};
+  const funding = [
+    ...toArray(contrib.funding),
+    ...toArray((entry as any).data.funding),
+    ...toArray((entry as any).data.infrastructure),
+    ...toArray((entry as any).data.data),
+  ].filter(Boolean);
+  const supporters =
+    funding.length > 0 ? funding : [...toArray(entry.data.supporters), ...toArray((entry as any).data.supporters)].filter(Boolean);
   return { authors, supporters };
 }
 
@@ -38,7 +66,7 @@ function matchesTarget(values: string[], targetSlug: string): { matched: boolean
   for (const val of values) {
     if (!val) continue;
     if (slugify(val) === targetSlug) {
-      return { matched: true, display: val };
+      return { matched: true, display: getCommunityDisplay(val) || val };
     }
   }
   return { matched: false };
@@ -71,25 +99,50 @@ export async function getStaticPaths() {
       const obj = value as Record<string, any>;
       if (obj.name) return [String(obj.name)];
       if (obj.github) return [String(obj.github)];
-      if (obj.twitter) return [String(obj.twitter)];
       return [];
     }
     return [String(value)];
   };
 
-  const localNormalize = (entry: ArticleEntry | EventEntry) => {
-    const authors = [
+  const localExtractAuthors = (entry: ArticleEntry | EventEntry) => {
+    const contrib = (entry as any).data.contributions || {};
+    const contributionAuthors = [
+      ...localToArray(contrib.authorship),
+      ...localToArray(contrib.authors),
+      ...localToArray(contrib.author),
+      ...localToArray(contrib.contributors),
+    ].filter(Boolean);
+
+    if (contributionAuthors.length > 0) {
+      return contributionAuthors;
+    }
+
+    return [
       ...localToArray(entry.data.authors),
       ...localToArray((entry as any).data.authors_structured),
     ].filter(Boolean);
-    const supporters = localToArray(entry.data.supporters).filter(Boolean);
+  };
+
+  const localNormalize = (entry: ArticleEntry | EventEntry) => {
+    const authors = localExtractAuthors(entry);
+    const contrib = (entry as any).data.contributions || {};
+    const funding = [
+      ...localToArray(contrib.funding),
+      ...localToArray((entry as any).data.funding),
+      ...localToArray((entry as any).data.infrastructure),
+      ...localToArray((entry as any).data.data),
+    ].filter(Boolean);
+    const supporters =
+      funding.length > 0
+        ? funding
+        : [...localToArray(entry.data.supporters), ...localToArray((entry as any).data.supporters)].filter(Boolean);
     return { authors, supporters };
   };
 
-  const addSlug = (value: string) => {
+  const addSlug = (value: string, displayOverride?: string) => {
     const s = localSlugify(value);
     if (s && !slugs.has(s)) {
-      slugs.set(s, value);
+      slugs.set(s, displayOverride || getCommunityDisplay(value) || value);
     }
   };
 
@@ -102,6 +155,11 @@ export async function getStaticPaths() {
   articles.forEach(collect);
   events.forEach(collect);
 
+  // Always include all contributors, organisations, and grants so their pages exist even without contributions.
+  listContributors().forEach((c) => addSlug(c.id, c.name || c.id));
+  listOrganisations().forEach((o) => addSlug(o.id, o.name || o.short_name || o.id));
+  listGrants().forEach((g) => addSlug(g.id, g.name || g.short_name || g.id));
+
   return Array.from(slugs.entries()).map(([slug, displayName]) => ({
     params: { slug },
     props: { displayName },
@@ -110,6 +168,8 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 const targetSlug = (slug || '').toLowerCase();
+const community = findCommunityBySlug(targetSlug);
+const allContributors = listContributors();
 
 const allArticles = await getCollection('articles');
 const allEvents = await getCollection('events');
@@ -126,7 +186,8 @@ const contributions: Array<{
   displayMatch?: string;
 }> = [];
 
-let displayName: string | undefined = (Astro.props as any).displayName;
+let displayName: string | undefined =
+  community?.record?.name || community?.record?.short_name || (Astro.props as any).displayName;
 let matchedType: 'author' | 'supporter' | undefined;
 
 for (const article of newsArticles) {
@@ -180,10 +241,69 @@ contributions.sort((a, b) => {
   return dateB.getTime() - dateA.getTime();
 });
 
+const profileDescription =
+  (community as any)?.record?.bio || (community as any)?.record?.description || (community as any)?.record?.funding_statement;
+const githubHandle =
+  community?.record && (community as any).type === 'contributor'
+    ? (() => {
+        const gh = (community.record as any).github;
+        if (gh === false) return undefined;
+        if (typeof gh === 'string' && gh.trim().length > 0) return gh.trim();
+        return community.record.id || undefined;
+      })()
+    : undefined;
+const githubAvatar = githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
+const avatarUrl = githubAvatar || (community as any)?.record?.avatarUrl;
+
+type ContactLink = { label: string; href: string; icon?: 'github' | 'fediverse' | 'linkedin' | 'matrix' | 'orcid' | 'bluesky' };
+const contactLinks: ContactLink[] = [];
+
+function pushLink(label: string, href?: string, icon?: ContactLink['icon']) {
+  if (href) contactLinks.push({ label, href, icon });
+}
+
+if (community) {
+  const record: any = community.record;
+  if (record.fediverse) pushLink('Fediverse', record.fediverse, 'fediverse');
+  if (record.bluesky) pushLink('Bluesky', `https://bsky.app/profile/${record.bluesky}`, 'bluesky');
+  if (record.linkedin) pushLink('LinkedIn', `https://www.linkedin.com/in/${record.linkedin}`, 'linkedin');
+  if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
+  if (record.orcid) pushLink('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
+  if (githubHandle) pushLink('GitHub', `https://github.com/${githubHandle}`, 'github');
+}
+
+const affiliationTags =
+  community?.type === 'contributor'
+    ? toArray((community.record as any).affiliations).map((id) => ({
+        id,
+        label: getOrganisationDisplay(id) || getGrantDisplay(id) || getCommunityDisplay(id) || id,
+        slug: `/hall-of-fame/${slugify(id)}/`,
+      }))
+    : [];
+
+const formerAffiliationTags =
+  community?.type === 'contributor'
+    ? toArray((community.record as any).former_affiliations).map((id) => ({
+        id,
+        label: getOrganisationDisplay(id) || getGrantDisplay(id) || getCommunityDisplay(id) || id,
+        slug: `/hall-of-fame/${slugify(id)}/`,
+      }))
+    : [];
+
+const associatedContributors =
+  community?.type === 'organisation' || community?.type === 'grant'
+    ? allContributors.filter((c) => {
+        const affiliations = [...toArray((c as any).affiliations), ...toArray((c as any).former_affiliations)];
+        return affiliations.some((id) => slugify(id) === targetSlug);
+      })
+    : [];
+
 const pageTitle = displayName ? `Hall of Fame – ${displayName}` : `Hall of Fame – ${targetSlug.replace(/-/g, ' ')}`;
-const pageDescription = matchedType
-  ? `News and events attributed to this ${matchedType} across the Galaxy Community Hub.`
-  : 'News and events attributed to this contributor across the Galaxy Community Hub.';
+const pageDescription = profileDescription
+  ? profileDescription
+  : matchedType
+    ? `News and events attributed to this ${matchedType} across the Galaxy Community Hub.`
+    : 'News and events attributed to this contributor across the Galaxy Community Hub.';
 
 const newsItems = contributions.filter((item) => item.kind === 'news');
 const eventItems = contributions.filter((item) => item.kind === 'event');
@@ -195,6 +315,21 @@ function formatDate(date: Date | string | undefined): string {
   const d = typeof date === 'string' ? new Date(date) : date;
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
+
+const iconMap: Record<
+  string,
+  {
+    viewBox: string;
+    path: string;
+  }
+> = {
+  github: { viewBox: '0 0 16 16', path: 'M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z' },
+  fediverse: { viewBox: '0 0 24 24', path: 'M21.54 7.5c-.34-2.58-2.57-4.61-5.32-5.07C14.25 2 9.81 2 7.78 2.5 5 3.09 2.78 5.34 2.5 7.61c-.31 2.53-.34 5.13.09 7.65.48 2.87 2.94 4.96 5.82 5.36 1.91.27 3.83.32 5.75.14 2.88-.27 5.33-2.45 5.82-5.33.46-2.7.5-5.47-.05-8.33ZM18 12c0 3.5-2.42 4.1-5.5 4.1H9v2.4c0 .26-.21.5-.48.53-.34.04-.52-.14-.52-.46V7h3.5C15.52 7 18 7.48 18 11Zm-3-.9a1.1 1.1 0 0 1-2.2 0V9.1a1.1 1.1 0 0 1 2.2 0Zm-3.8 0a1.1 1.1 0 1 1-2.2 0V9.1a1.1 1.1 0 1 1 2.2 0Z' },
+  linkedin: { viewBox: '0 0 24 24', path: 'M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8h4v12h-4V8Zm7 0h3.8v1.64h.05c.53-1 1.82-2.05 3.74-2.05 4 0 4.74 2.63 4.74 6.05V20h-4v-5.04c0-1.2-.02-2.74-1.67-2.74-1.67 0-1.93 1.3-1.93 2.65V20h-4V8Z' },
+  matrix: { viewBox: '0 0 24 24', path: 'M3.3 3.04v17.92h-2V3.04h2ZM5 5h14v14H5V5Zm13.7 15.96V3.04h2v17.92h-2Z' },
+  orcid: { viewBox: '0 0 24 24', path: 'M12 2C6.48 2 2 6.51 2 12s4.48 10 10 10c5.5 0 10-4.51 10-10S17.5 2 12 2Zm-3.65 5.33c.7 0 1.27.57 1.27 1.26 0 .7-.57 1.27-1.27 1.27-.69 0-1.26-.57-1.26-1.27 0-.69.57-1.26 1.26-1.26Zm.92 10.02H7.45V9.56h1.82v7.79Zm3.69 0h-1.8V9.56h2.74c2.94 0 3.58 1.67 3.58 3.44 0 1.85-.75 3.35-3.78 3.35Zm1.64-5.47c0-1.02-.39-1.83-1.82-1.83h-.82v3.66h.88c1.33 0 1.76-.88 1.76-1.83Z' },
+  bluesky: { viewBox: '0 0 600 530', path: 'm135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z' },
+};
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
@@ -203,16 +338,89 @@ function formatDate(date: Date | string | undefined): string {
       <div class="page-header-content">
         <div class="flex items-center gap-3 mb-4">
           <div class="w-1 h-8 bg-galaxy-gold"></div>
-          <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{displayName || slug}</h1>
+          <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">
+            {
+              community?.record?.url ? (
+                <a href={community.record.url} class="hover:text-galaxy-gold transition-colors">
+                  {displayName || slug}
+                </a>
+              ) : (
+                displayName || slug
+              )
+            }
+          </h1>
         </div>
-        <p class="text-white/80 text-lg max-w-2xl">
-          {
-            matchedType
-              ? `All news and events credited to this ${matchedType}.`
-              : 'All news and events credited to this contributor.'
-          }
-        </p>
+        {
+          profileDescription ? (
+            <p class="text-white/80 text-lg max-w-3xl whitespace-pre-line">{profileDescription}</p>
+          ) : (
+            <p class="text-white/80 text-lg max-w-2xl">
+              {matchedType ? `All news and events credited to this ${matchedType}.` : 'All news and events credited to this profile.'}
+            </p>
+          )
+        }
         <p class="text-white/70 mt-2 text-sm">{totalItems} contribution{totalItems === 1 ? '' : 's'}</p>
+        {
+          community && (
+            <div class="profile-header-block">
+              <div class="profile-avatar profile-avatar-sm">
+                {avatarUrl ? (
+                  <img src={avatarUrl} alt={displayName || slug} class="profile-avatar-img" loading="lazy" />
+                ) : (
+                  <span class="profile-avatar-fallback">{(displayName || slug || '?').charAt(0).toUpperCase()}</span>
+                )}
+              </div>
+              <div class="flex-1 space-y-2 min-w-0">
+                {affiliationTags.length > 0 && (
+                  <div class="flex flex-wrap gap-2" aria-label="Affiliations">
+                    {affiliationTags.map((aff) => (
+                      <a href={aff.slug} class="chip chip-light">
+                        {aff.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
+
+                {formerAffiliationTags.length > 0 && (
+                  <div class="flex flex-wrap gap-2" aria-label="Former affiliations">
+                    {formerAffiliationTags.map((aff) => (
+                      <a href={aff.slug} class="chip chip-muted chip-light">
+                        {aff.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
+
+                {contactLinks.length > 0 && (
+                  <div class="flex flex-wrap gap-2" aria-label="Links">
+                    {contactLinks.map((link) => (
+                      <a
+                        href={link.href}
+                        class="icon-button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={link.label}
+                        aria-label={link.label}
+                      >
+                        {link.icon && iconMap[link.icon] ? (
+                          <svg
+                            class="icon-button-svg"
+                            viewBox={iconMap[link.icon].viewBox}
+                            aria-hidden="true"
+                            focusable="false"
+                            role="img"
+                          >
+                            <path d={iconMap[link.icon].path} fill="currentColor" />
+                          </svg>
+                        ) : null}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        }
         <a
           href="/news/"
           class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-galaxy-gold transition-colors mt-4"
@@ -226,6 +434,25 @@ function formatDate(date: Date | string | undefined): string {
     </header>
 
     <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
+      {
+        associatedContributors.length > 0 && (
+          <section class="mb-8" aria-label="Associated contributors">
+            <details class="collapsible" open>
+              <summary>
+                Contributors <span class="count">({associatedContributors.length})</span>
+              </summary>
+              <div class="flex flex-wrap gap-2 mt-3">
+                {associatedContributors.map((c) => (
+                  <a href={`/hall-of-fame/${slugify(c.id)}/`} class="chip">
+                    {c.name || c.id}
+                  </a>
+                ))}
+              </div>
+            </details>
+          </section>
+        )
+      }
+
       {
         contributions.length > 0 ? (
           <div class:list={['grid grid-cols-1 gap-8', { 'lg:grid-cols-2': hasBoth }]}>
@@ -352,5 +579,177 @@ function formatDate(date: Date | string | undefined): string {
   .page-header-content {
     position: relative;
     z-index: 1;
+  }
+
+  .profile-avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 2px solid #e5e7eb;
+    background: #fff;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+  }
+
+  .profile-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0.5rem;
+  }
+
+  .profile-avatar-fallback {
+    font-weight: 700;
+    color: #1f2937;
+    font-size: 1.5rem;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 0.85rem;
+    border: 1px solid #fcd34d;
+    text-transform: capitalize;
+  }
+
+  .badge-muted {
+    background: #f3f4f6;
+    color: #4b5563;
+    border-color: #e5e7eb;
+    text-transform: none;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition:
+      transform 120ms ease,
+      box-shadow 120ms ease,
+      background-color 120ms ease;
+  }
+
+  .chip:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(31, 41, 55, 0.12);
+    background: #e5e7eb;
+  }
+
+  .chip-muted {
+    background: #eef2f7;
+    color: #6b7280;
+  }
+
+  .chip-link {
+    background: #25537b;
+    color: #fff;
+  }
+
+  .chip-link:hover {
+    background: #1e4263;
+    box-shadow: 0 4px 12px rgba(37, 83, 123, 0.35);
+  }
+
+  .chip-icon {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+  }
+
+  .icon-button {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition:
+      transform 120ms ease,
+      box-shadow 120ms ease,
+      background-color 120ms ease;
+  }
+
+  .icon-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .icon-button-svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .profile-header-block {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .profile-avatar-sm {
+    width: 90px;
+    height: 90px;
+    border-width: 2px;
+  }
+
+  .chip-light {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .chip-light.chip-muted {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .chip-light.chip-link {
+    background: #fcb900;
+    color: #1f2937;
+    border-color: transparent;
+  }
+
+  .collapsible summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #1f2937;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .collapsible summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .collapsible summary::before {
+    content: '▾';
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+
+  .collapsible[open] summary::before {
+    content: '▾';
+  }
+
+  .collapsible .count {
+    color: #6b7280;
+    font-weight: 500;
   }
 </style>

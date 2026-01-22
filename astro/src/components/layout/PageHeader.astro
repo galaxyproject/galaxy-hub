@@ -9,7 +9,7 @@ interface Props {
   title: string;
   description?: string;
   date?: Date | string;
-  authors?: string[];
+  authors?: Array<string | { id?: string; name: string }>;
   tags?: string[];
 }
 
@@ -27,6 +27,18 @@ function slugify(value: string): string {
 // Ensure arrays are never null
 const authors = authorsRaw || [];
 const tags = tagsRaw || [];
+
+const normalizedAuthors = authors
+  .map((author) => {
+    if (!author) return null;
+    if (typeof author === 'string') {
+      return { label: author, slug: slugify(author) };
+    }
+    const label = author.name || '';
+    const slug = author.id ? slugify(author.id) : slugify(label);
+    return { label, slug };
+  })
+  .filter(Boolean) as Array<{ label: string; slug: string }>;
 
 // Helper to ensure date is a Date object
 function toDate(d: Date | string | undefined): Date | null {
@@ -61,14 +73,14 @@ function toISOString(d: Date | string | undefined): string {
 
     {/* Article metadata row */}
     {
-      (date || authors.length > 0) && (
+      (date || normalizedAuthors.length > 0) && (
         <div class="flex flex-wrap items-center gap-4 text-sm text-white/70 mt-4">
           {date && (
             <time datetime={toISOString(date)} class="font-medium">
               {formatDate(date)}
             </time>
           )}
-          {authors.length > 0 && (
+          {normalizedAuthors.length > 0 && (
             <div class="flex items-center gap-1.5 flex-wrap">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,13 +97,12 @@ function toISOString(d: Date | string | undefined): string {
                 />
               </svg>
               <span class="flex flex-wrap gap-1.5">
-                {authors.map((author, idx) => {
-                  const slug = slugify(author);
-                  const href = slug ? `/hall-of-fame/${slug}/` : '#';
+                {normalizedAuthors.map((author, idx) => {
+                  const href = author.slug ? `/hall-of-fame/${author.slug}/` : '#';
                   return (
                     <a href={href} class="underline decoration-white/40 hover:decoration-galaxy-gold">
-                      {author}
-                      {idx < authors.length - 1 ? ',' : ''}
+                      {author.label}
+                      {idx < normalizedAuthors.length - 1 ? ',' : ''}
                     </a>
                   );
                 })}
