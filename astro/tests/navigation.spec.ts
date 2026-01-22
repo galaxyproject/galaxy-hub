@@ -282,6 +282,22 @@ test.describe('Navigation', () => {
     });
   });
 
+  test.describe('Mobile Viewport', () => {
+    test('page does not have horizontal overflow on mobile', async ({ page }) => {
+      await page.setViewportSize({ width: 375, height: 667 });
+      await page.goto('/get-started/');
+
+      // Check that body doesn't overflow horizontally
+      const hasOverflow = await page.evaluate(() => {
+        const body = document.body;
+        const html = document.documentElement;
+        return body.scrollWidth > body.clientWidth || html.scrollWidth > html.clientWidth;
+      });
+
+      expect(hasOverflow).toBe(false);
+    });
+  });
+
   test.describe('External Links', () => {
     test('external links have proper attributes', async ({ page }) => {
       await page.goto('/');
