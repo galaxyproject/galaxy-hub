@@ -6,6 +6,7 @@
  */
 import BaseLayout from './BaseLayout.astro';
 import { marked } from 'marked';
+import Icon from '../components/ui/Icon.astro';
 
 interface PlatformInstance {
   platform_group?: string;
@@ -29,6 +30,7 @@ interface Props {
   pub_libraries?: string[];
   sponsors?: string[];
   tags?: string[];
+  sourceFile?: string;
 }
 
 const {
@@ -45,7 +47,12 @@ const {
   pub_libraries = [],
   sponsors = [],
   tags = [],
+  sourceFile,
 } = Astro.props;
+
+const editUrl = sourceFile
+  ? `https://github.com/galaxyproject/galaxy-hub/edit/master/content/${sourceFile}/index.md`
+  : undefined;
 
 // Platform group display names
 const groupNames: Record<string, string> = {
@@ -247,37 +254,37 @@ const sections = [
     <footer class="mt-12 pt-8 border-t border-gray-200">
       <div class="flex justify-between items-center">
         <a href="/use/" class="text-galaxy-primary hover:underline flex items-center gap-1">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
+          <Icon name="chevron-left" />
           Back to Galaxy Servers
         </a>
-        {
-          url && (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
-            >
-              Launch Galaxy
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+        <div class="flex items-center gap-4">
+          {
+            editUrl && (
+              <a
+                href={editUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>
-            </a>
-          )
-        }
+                <Icon name="edit" />
+                Edit on GitHub
+              </a>
+            )
+          }
+          {
+            url && (
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
+              >
+                Launch Galaxy
+                <Icon name="external-link" />
+              </a>
+            )
+          }
+        </div>
       </div>
     </footer>
   </article>
