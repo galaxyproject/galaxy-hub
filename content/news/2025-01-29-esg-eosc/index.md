@@ -3,8 +3,8 @@ title: "EuroScienceGateway Project: Testing the deployment of Galaxy and Pulsar 
 date: "2025-01-29"
 tease: "Deploy your own Galaxy and Pulsar instances on the EOSC EU Node"
 hide_tease: false
-tags: [esg-wp4, esg]
-subsites: [all-eu, esg, global, esg, pulsar, eosc]
+tags: [esg-wp4, esg, pulsar, eosc]
+subsites: [all-eu, esg, global]
 main_subsite: eu
 supporters:
   - eurosciencegateway

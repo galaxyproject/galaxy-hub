@@ -2,8 +2,8 @@
 title: "TESP-API: Bridging Galaxy, Pulsar, and the GA4GH TES Standard"
 date: "2025-10-06"
 authors: "Boris Jurič"
-tags: [all-eu, esg]
-subsites: [esg-wp4, esg]
+tags: [all-eu, esgesg-wp4 ]
+subsites: [esg, all]
 supporters:
   - eurosciencegateway
   - cesnet

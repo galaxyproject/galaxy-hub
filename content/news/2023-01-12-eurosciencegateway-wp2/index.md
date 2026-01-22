@@ -4,8 +4,8 @@ tease: "The Work Package 2 of the EuroScienceGateway project"
 hide_tease: false
 authors: "Stian Soiland-Reyes"
 date: "2023-01-12"
-tags: [esg, esg-wp2]
-subsites: [all-eu, esg, workflow, workflowhub, rocrate, astrophysics, astronomy, ]
+tags: [esg, esg-wp2, workflow, workflowhub, rocrate, astrophysics, astronomy]
+subsites: [all-eu, esg ]
 supporters:
   - eurosciencegateway
   - egi
