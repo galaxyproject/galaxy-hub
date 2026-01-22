@@ -1,0 +1,264 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+type ArticleEntry = CollectionEntry<'articles'>;
+type EventEntry = CollectionEntry<'events'>;
+
+function slugify(value: string): string {
+  const normalized = String(value).trim().replace(/^@/, '');
+  return normalized
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function toArray(value: unknown): string[] {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value.flatMap((v) => toArray(v));
+  }
+  if (typeof value === 'object') {
+    const obj = value as Record<string, any>;
+    if (obj.name) return [String(obj.name)];
+    if (obj.github) return [String(obj.github)];
+    if (obj.twitter) return [String(obj.twitter)];
+    return [];
+  }
+  return [String(value)];
+}
+
+function normalizeEntry(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
+  const authors = [...toArray(entry.data.authors), ...toArray((entry as any).data.authors_structured)].filter(Boolean);
+  const supporters = toArray(entry.data.supporters).filter(Boolean);
+  return { authors, supporters };
+}
+
+type Contributor = { slug: string; name: string; count: number };
+
+function addContributor(map: Map<string, Contributor>, name: string) {
+  const slug = slugify(name);
+  if (!slug) return;
+  const existing = map.get(slug) || { slug, name, count: 0 };
+  if (!existing.name && name) existing.name = name;
+  existing.count += 1;
+  map.set(slug, existing);
+}
+
+const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
+const newsArticles = articles.filter((article) => article.data.slug?.startsWith('news/'));
+
+const authorMap = new Map<string, Contributor>();
+const supporterMap = new Map<string, Contributor>();
+
+const collect = (entry: ArticleEntry | EventEntry) => {
+  const { authors, supporters } = normalizeEntry(entry);
+  authors.forEach((name) => addContributor(authorMap, name));
+  supporters.forEach((name) => addContributor(supporterMap, name));
+};
+
+newsArticles.forEach(collect);
+events.forEach(collect);
+
+const authors = Array.from(authorMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+const supporters = Array.from(supporterMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+
+const totalAuthors = authors.length;
+const totalSupporters = supporters.length;
+const totalContributions =
+  authors.reduce((sum, a) => sum + a.count, 0) + supporters.reduce((sum, s) => sum + s.count, 0);
+
+const maxAuthorCount = authors.reduce((max, item) => Math.max(max, item.count), 0) || 1;
+const maxSupporterCount = supporters.reduce((max, item) => Math.max(max, item.count), 0) || 1;
+
+function groupContributors(items: Contributor[]) {
+  const groups: Record<string, Contributor[]> = {};
+  for (const item of items) {
+    const firstChar = (item.name || '').charAt(0).toUpperCase();
+    const letter = /^[A-Z]$/.test(firstChar) ? firstChar : 'Other';
+    if (!groups[letter]) groups[letter] = [];
+    groups[letter].push(item);
+  }
+  for (const letter of Object.keys(groups)) {
+    groups[letter].sort((a, b) => a.name.localeCompare(b.name));
+  }
+  const letters = Object.keys(groups).sort();
+  return { letters, groups };
+}
+
+const authorGroups = groupContributors(authors);
+const supporterGroups = groupContributors(supporters);
+
+function getTagSize(count: number, maxCount: number): string {
+  const ratio = count / maxCount;
+  if (ratio > 0.7) return 'text-xl font-bold';
+  if (ratio > 0.4) return 'text-lg font-semibold';
+  if (ratio > 0.2) return 'text-base font-medium';
+  return 'text-sm';
+}
+
+function getTagOpacity(count: number, maxCount: number): string {
+  const ratio = count / maxCount;
+  if (ratio > 0.5) return 'opacity-100';
+  if (ratio > 0.2) return 'opacity-90';
+  return 'opacity-75';
+}
+---
+
+<BaseLayout title="Hall of Fame" description="Discover contributors across Galaxy news and events">
+  <div class="max-w-6xl mx-auto">
+    <PageHeader title="Hall of Fame" description="Browse every author and supporter credited across news and events.">
+      <div class="flex flex-wrap gap-6 mt-6">
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{totalAuthors}</span>
+          <span class="text-white/60 text-sm uppercase tracking-wide">Authors</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{totalSupporters}</span>
+          <span class="text-white/60 text-sm uppercase tracking-wide">Supporters</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{totalContributions.toLocaleString()}</span>
+          <span class="text-white/60 text-sm uppercase tracking-wide">Credits</span>
+        </div>
+      </div>
+    </PageHeader>
+
+    <nav class="bg-white border-b border-gray-200 px-8 py-3 sticky top-0 z-20 shadow-sm">
+      <div class="flex flex-wrap gap-2">
+        <a
+          href="#authors"
+          class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 text-sm font-medium text-galaxy-primary hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
+        >
+          Authors
+        </a>
+        <a
+          href="#supporters"
+          class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 text-sm font-medium text-galaxy-primary hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
+        >
+          Supporters
+        </a>
+      </div>
+    </nav>
+
+    <div class="bg-white px-8 py-6 rounded-b-lg shadow-sm space-y-12">
+      <section id="authors" class="scroll-mt-24">
+        <div class="flex items-center gap-4 mb-4">
+          <h2 class="text-2xl font-semibold text-galaxy-dark">Authors</h2>
+          <span class="text-sm text-gray-500">{totalAuthors} contributors</span>
+        </div>
+
+        {
+          authorGroups.letters.length > 0 ? (
+            <>
+              <div class="flex flex-wrap gap-1 mb-4">
+                {authorGroups.letters.map((letter) => (
+                  <a
+                    href={`#authors-${letter}`}
+                    class="w-8 h-8 flex items-center justify-center rounded text-sm font-medium text-galaxy-primary hover:bg-galaxy-gold hover:text-galaxy-dark transition-colors"
+                  >
+                    {letter}
+                  </a>
+                ))}
+              </div>
+
+              {authorGroups.letters.map((letter, idx) => (
+                <section id={`authors-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-gray-100' : ''}>
+                  <div class="flex items-center gap-4 mb-3">
+                    <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
+                    <span class="text-xs text-gray-400">{authorGroups.groups[letter].length} names</span>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    {authorGroups.groups[letter].map((item) => (
+                      <a
+                        href={`/hall-of-fame/${item.slug}/`}
+                        data-kind="author"
+                        class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 ${getTagOpacity(item.count, maxAuthorCount)}`}
+                      >
+                        <span
+                          class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors ${getTagSize(item.count, maxAuthorCount)}`}
+                        >
+                          {item.name}
+                        </span>
+                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
+                          {item.count}
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </>
+          ) : (
+            <p class="text-gray-500">No authors found.</p>
+          )
+        }
+      </section>
+
+      <section id="supporters" class="scroll-mt-24">
+        <div class="flex items-center gap-4 mb-4">
+          <h2 class="text-2xl font-semibold text-galaxy-dark">Supporters</h2>
+          <span class="text-sm text-gray-500">{totalSupporters} contributors</span>
+        </div>
+
+        {
+          supporterGroups.letters.length > 0 ? (
+            <>
+              <div class="flex flex-wrap gap-1 mb-4">
+                {supporterGroups.letters.map((letter) => (
+                  <a
+                    href={`#supporters-${letter}`}
+                    class="w-8 h-8 flex items-center justify-center rounded text-sm font-medium text-galaxy-primary hover:bg-galaxy-gold hover:text-galaxy-dark transition-colors"
+                  >
+                    {letter}
+                  </a>
+                ))}
+              </div>
+
+              {supporterGroups.letters.map((letter, idx) => (
+                <section id={`supporters-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-gray-100' : ''}>
+                  <div class="flex items-center gap-4 mb-3">
+                    <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
+                    <span class="text-xs text-gray-400">{supporterGroups.groups[letter].length} names</span>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    {supporterGroups.groups[letter].map((item) => (
+                      <a
+                        href={`/hall-of-fame/${item.slug}/`}
+                        data-kind="supporter"
+                        class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 ${getTagOpacity(item.count, maxSupporterCount)}`}
+                      >
+                        <span
+                          class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors ${getTagSize(item.count, maxSupporterCount)}`}
+                        >
+                          {item.name}
+                        </span>
+                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
+                          {item.count}
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </>
+          ) : (
+            <p class="text-gray-500">No supporters found.</p>
+          )
+        }
+      </section>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  [id^='authors-'],
+  [id^='supporters-'] {
+    scroll-margin-top: 5rem;
+  }
+</style>

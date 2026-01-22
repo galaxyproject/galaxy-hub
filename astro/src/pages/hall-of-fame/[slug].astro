@@ -1,0 +1,356 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type ArticleEntry = CollectionEntry<'articles'>;
+type EventEntry = CollectionEntry<'events'>;
+
+function slugify(value: string): string {
+  const normalized = String(value).trim().replace(/^@/, '');
+  return normalized
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function toArray(value: unknown): string[] {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value.flatMap((v) => toArray(v));
+  }
+  if (typeof value === 'object') {
+    const obj = value as Record<string, any>;
+    if (obj.name) return [String(obj.name)];
+    if (obj.github) return [String(obj.github)];
+    if (obj.twitter) return [String(obj.twitter)];
+    return [];
+  }
+  return [String(value)];
+}
+
+function normalizeCandidates(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
+  const authors = [...toArray(entry.data.authors), ...toArray((entry as any).data.authors_structured)].filter(Boolean);
+  const supporters = toArray(entry.data.supporters).filter(Boolean);
+  return { authors, supporters };
+}
+
+function matchesTarget(values: string[], targetSlug: string): { matched: boolean; display?: string } {
+  for (const val of values) {
+    if (!val) continue;
+    if (slugify(val) === targetSlug) {
+      return { matched: true, display: val };
+    }
+  }
+  return { matched: false };
+}
+
+function buildUrl(entry: ArticleEntry | EventEntry): string {
+  const raw = (entry.data.slug || entry.id).replace(/--/g, '/').replace(/\.mdx?$/, '');
+  return `/${raw.replace(/\/$/, '')}/`;
+}
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  const events = await getCollection('events');
+  const slugs = new Map<string, string>();
+
+  const localSlugify = (value: string): string => {
+    const normalized = String(value).trim().replace(/^@/, '');
+    return normalized
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  };
+
+  const localToArray = (value: unknown): string[] => {
+    if (!value) return [];
+    if (Array.isArray(value)) {
+      return value.flatMap((v) => localToArray(v));
+    }
+    if (typeof value === 'object') {
+      const obj = value as Record<string, any>;
+      if (obj.name) return [String(obj.name)];
+      if (obj.github) return [String(obj.github)];
+      if (obj.twitter) return [String(obj.twitter)];
+      return [];
+    }
+    return [String(value)];
+  };
+
+  const localNormalize = (entry: ArticleEntry | EventEntry) => {
+    const authors = [
+      ...localToArray(entry.data.authors),
+      ...localToArray((entry as any).data.authors_structured),
+    ].filter(Boolean);
+    const supporters = localToArray(entry.data.supporters).filter(Boolean);
+    return { authors, supporters };
+  };
+
+  const addSlug = (value: string) => {
+    const s = localSlugify(value);
+    if (s && !slugs.has(s)) {
+      slugs.set(s, value);
+    }
+  };
+
+  const collect = (entry: ArticleEntry | EventEntry) => {
+    const { authors, supporters } = localNormalize(entry);
+    authors.forEach(addSlug);
+    supporters.forEach(addSlug);
+  };
+
+  articles.forEach(collect);
+  events.forEach(collect);
+
+  return Array.from(slugs.entries()).map(([slug, displayName]) => ({
+    params: { slug },
+    props: { displayName },
+  }));
+}
+
+const { slug } = Astro.params;
+const targetSlug = (slug || '').toLowerCase();
+
+const allArticles = await getCollection('articles');
+const allEvents = await getCollection('events');
+
+const newsArticles = allArticles.filter((article) => article.data.slug?.startsWith('news/'));
+
+const contributions: Array<{
+  title: string;
+  url: string;
+  date?: string;
+  tease?: string | null;
+  kind: 'news' | 'event';
+  displayDate: string;
+  displayMatch?: string;
+}> = [];
+
+let displayName: string | undefined = (Astro.props as any).displayName;
+let matchedType: 'author' | 'supporter' | undefined;
+
+for (const article of newsArticles) {
+  const { authors, supporters } = normalizeCandidates(article);
+  const authorMatch = matchesTarget(authors, targetSlug);
+  const supporterMatch = matchesTarget(supporters, targetSlug);
+  if (authorMatch.matched || supporterMatch.matched) {
+    const matchLabel = authorMatch.display || supporterMatch.display;
+    displayName ||= matchLabel;
+    matchedType ||= authorMatch.matched ? 'author' : 'supporter';
+    contributions.push({
+      title: article.data.title || 'Untitled',
+      url: buildUrl(article),
+      date: article.data.date?.toString(),
+      displayDate: article.data.date
+        ? new Date(article.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+        : '',
+      tease: article.data.tease,
+      kind: 'news',
+      displayMatch: matchLabel,
+    });
+  }
+}
+
+for (const event of allEvents) {
+  const { authors, supporters } = normalizeCandidates(event);
+  const authorMatch = matchesTarget(authors, targetSlug);
+  const supporterMatch = matchesTarget(supporters, targetSlug);
+  if (authorMatch.matched || supporterMatch.matched) {
+    const matchLabel = authorMatch.display || supporterMatch.display;
+    displayName ||= matchLabel;
+    matchedType ||= authorMatch.matched ? 'author' : 'supporter';
+    const eventDate = event.data.date ? new Date(event.data.date) : undefined;
+    contributions.push({
+      title: event.data.title || 'Untitled',
+      url: buildUrl(event),
+      date: eventDate?.toISOString(),
+      displayDate: eventDate
+        ? eventDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+        : '',
+      tease: event.data.tease,
+      kind: 'event',
+      displayMatch: matchLabel,
+    });
+  }
+}
+
+contributions.sort((a, b) => {
+  const dateA = a.date ? new Date(a.date) : new Date(0);
+  const dateB = b.date ? new Date(b.date) : new Date(0);
+  return dateB.getTime() - dateA.getTime();
+});
+
+const pageTitle = displayName ? `Hall of Fame – ${displayName}` : `Hall of Fame – ${targetSlug.replace(/-/g, ' ')}`;
+const pageDescription = matchedType
+  ? `News and events attributed to this ${matchedType} across the Galaxy Community Hub.`
+  : 'News and events attributed to this contributor across the Galaxy Community Hub.';
+
+const newsItems = contributions.filter((item) => item.kind === 'news');
+const eventItems = contributions.filter((item) => item.kind === 'event');
+const totalItems = contributions.length;
+const hasBoth = newsItems.length > 0 && eventItems.length > 0;
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="max-w-6xl mx-auto">
+    <header class="page-header">
+      <div class="page-header-content">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-1 h-8 bg-galaxy-gold"></div>
+          <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{displayName || slug}</h1>
+        </div>
+        <p class="text-white/80 text-lg max-w-2xl">
+          {
+            matchedType
+              ? `All news and events credited to this ${matchedType}.`
+              : 'All news and events credited to this contributor.'
+          }
+        </p>
+        <p class="text-white/70 mt-2 text-sm">{totalItems} contribution{totalItems === 1 ? '' : 's'}</p>
+        <a
+          href="/news/"
+          class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-galaxy-gold transition-colors mt-4"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          Back to News
+        </a>
+      </div>
+    </header>
+
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
+      {
+        contributions.length > 0 ? (
+          <div class:list={['grid grid-cols-1 gap-8', { 'lg:grid-cols-2': hasBoth }]}>
+            {newsItems.length > 0 && (
+              <section>
+                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                    />
+                  </svg>
+                  News <span class="text-sm font-normal text-gray-400">({newsItems.length})</span>
+                </h2>
+                <div class="space-y-4" id="news-list">
+                  {newsItems.map((item, idx) => (
+                    <a href={item.url} class:list={['block group', { hidden: idx >= 20 }]} data-item>
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {item.title}
+                      </h3>
+                      {item.tease && <p class="text-sm text-gray-500 mt-1 line-clamp-2">{item.tease}</p>}
+                      <time class="text-sm text-gray-400">{formatDate(item.date)}</time>
+                    </a>
+                  ))}
+                </div>
+                {newsItems.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="news-list"
+                    data-remaining={newsItems.length - 20}
+                  >
+                    Show {newsItems.length - 20} more
+                  </button>
+                )}
+              </section>
+            )}
+
+            {eventItems.length > 0 && (
+              <section>
+                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
+                  </svg>
+                  Events <span class="text-sm font-normal text-gray-400">({eventItems.length})</span>
+                </h2>
+                <div class="space-y-4" id="events-list">
+                  {eventItems.map((item, idx) => (
+                    <a href={item.url} class:list={['block group', { hidden: idx >= 20 }]} data-item>
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {item.title}
+                      </h3>
+                      {item.tease && <p class="text-sm text-gray-500 mt-1 line-clamp-2">{item.tease}</p>}
+                      <time class="text-sm text-gray-400">{formatDate(item.date)}</time>
+                    </a>
+                  ))}
+                </div>
+                {eventItems.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="events-list"
+                    data-remaining={eventItems.length - 20}
+                  >
+                    Show {eventItems.length - 20} more
+                  </button>
+                )}
+              </section>
+            )}
+          </div>
+        ) : (
+          <p class="text-gray-500 text-center py-8">No news or events found for this contributor.</p>
+        )
+      }
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  document.querySelectorAll('[data-show-more]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const listId = button.getAttribute('data-show-more');
+      const list = document.getElementById(listId);
+      if (list) {
+        list.querySelectorAll('[data-item].hidden').forEach((item) => {
+          item.classList.remove('hidden');
+        });
+        button.remove();
+      }
+    });
+  });
+</script>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: 2.5rem 2rem;
+    background: linear-gradient(135deg, var(--color-galaxy-dark) 0%, var(--color-galaxy-primary) 100%);
+    color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    border-bottom: 4px solid var(--color-galaxy-gold);
+  }
+
+  /* Grid overlay */
+  .page-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  .page-header-content {
+    position: relative;
+    z-index: 1;
+  }
+</style>
