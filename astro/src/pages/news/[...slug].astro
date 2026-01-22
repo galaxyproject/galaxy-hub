@@ -96,6 +96,7 @@ const schemaNews = {
   autotoc={autotoc}
   supporters={supporters}
   backLink={{ href: '/news/', label: 'Back to News' }}
+  sourceFile={article.data.slug}
 >
   <Content components={components} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} />

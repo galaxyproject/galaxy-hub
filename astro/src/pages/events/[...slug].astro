@@ -18,6 +18,7 @@ import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
+import Icon from '../../components/ui/Icon.astro';
 
 export async function getStaticPaths() {
   const events = await getCollection('events');
@@ -148,10 +149,12 @@ const schemaEvent = {
     },
   },
 };
+
+const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/master/content/${event.data.slug}/index.md`;
 ---
 
 <BaseLayout title={title || 'Event'} description={tease}>
-  <article class="max-w-6xl mx-auto bg-white relative article-with-corner">
+  <article class="max-w-6xl mx-auto bg-white relative">
     <PageHeader title={title || 'Event'} description={tease} tags={tags}>
       {/* Event-specific metadata */}
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
@@ -293,37 +296,33 @@ const schemaEvent = {
           href="/events/"
           class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
+          <Icon name="chevron-left" />
           Back to Events
         </a>
-        {
-          external_url && (
-            <a
-              href={external_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
-            >
-              Visit Event Website
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+        <div class="flex items-center gap-4">
+          <a
+            href={editUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+          >
+            <Icon name="edit" />
+            Edit on GitHub
+          </a>
+          {
+            external_url && (
+              <a
+                href={external_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>
-            </a>
-          )
-        }
+                Visit Event Website
+                <Icon name="external-link" />
+              </a>
+            )
+          }
+        </div>
       </div>
     </footer>
 
@@ -344,17 +343,5 @@ const schemaEvent = {
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
     text-decoration: underline;
-  }
-
-  /* Folded corner accent */
-  .article-with-corner::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    background: repeating-linear-gradient(-45deg, transparent, transparent 6px, #ffd700 6px, #ffd700 8px);
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
   }
 </style>
