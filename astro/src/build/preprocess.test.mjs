@@ -226,4 +226,22 @@ describe('addBootstrapMarker', () => {
       '<a class="bs-compat btn btn-primary btn-lg">Big button</a>'
     );
   });
+
+  it('adds bs-compat marker to table elements', () => {
+    expect(addBootstrapMarker('<table class="table">Content</table>')).toBe(
+      '<table class="bs-compat table">Content</table>'
+    );
+  });
+
+  it('adds bs-compat marker to table-striped', () => {
+    expect(addBootstrapMarker('<table class="table table-striped">Content</table>')).toBe(
+      '<table class="bs-compat table table-striped">Content</table>'
+    );
+  });
+
+  it('adds bs-compat marker to table-bordered', () => {
+    expect(addBootstrapMarker('<table class="table-bordered">Content</table>')).toBe(
+      '<table class="bs-compat table-bordered">Content</table>'
+    );
+  });
 });

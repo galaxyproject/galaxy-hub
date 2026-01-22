@@ -283,6 +283,11 @@ function addBootstrapMarker(content) {
     'alert-dark',
     // Typography
     'lead',
+    // Tables
+    'table',
+    'table-striped',
+    'table-bordered',
+    'table-hover',
   ];
 
   let processed = content;

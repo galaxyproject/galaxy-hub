@@ -302,6 +302,57 @@
     font-weight: 300;
     line-height: 1.6;
   }
+
+  /* Tables */
+
+  &.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+  }
+
+  &.table th,
+  &.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+
+  &.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+
+  &.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &.table-bordered {
+    border: 1px solid #dee2e6;
+  }
+
+  &.table-bordered th,
+  &.table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+
+  &.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+}
+
+/* Bootstrap .table within .prose should preserve inline styles (statistics/citations page) */
+.prose .bs-compat.table th,
+.prose .bs-compat.table td {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Restore styling for .table headers without inline background colors */
+.prose .bs-compat.table th:not([style*='background-color']) {
+  background-color: transparent;
+  color: #1f2937;
 }
 
 /* ==========================================================================
@@ -818,46 +869,6 @@
 }
 .align-items-center {
   align-items: center !important;
-}
-
-/* ==========================================================================
-   Table Utilities
-   ========================================================================== */
-
-.table {
-  width: 100%;
-  margin-bottom: 1rem;
-  color: #212529;
-  border-collapse: collapse;
-}
-
-.table th,
-.table td {
-  padding: 0.75rem;
-  vertical-align: top;
-  border-top: 1px solid #dee2e6;
-}
-
-.table thead th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
-}
-
-.table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.table-bordered {
-  border: 1px solid #dee2e6;
-}
-
-.table-bordered th,
-.table-bordered td {
-  border: 1px solid #dee2e6;
-}
-
-.table-hover tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075);
 }
 
 /* ==========================================================================
