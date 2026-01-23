@@ -16,7 +16,7 @@ import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 import { resolveSupporters } from '../../utils/supporters';
-import { getContributor } from '../../utils/contributors';
+import { extractAuthors, extractFunding, resolveAuthor } from '../../utils/contributors';
 
 export async function getStaticPaths() {
   // Get only published news articles (excludes future-dated articles)
@@ -35,55 +35,16 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content, headings } = await render(article);
 
-const toArray = (value: unknown): string[] => {
-  if (!value) return [];
-  if (Array.isArray(value)) return value.flatMap((v) => toArray(v));
-  if (typeof value === 'object') {
-    const obj = value as Record<string, any>;
-    if (obj.name) return [String(obj.name)];
-    return [];
-  }
-  return [String(value)];
-};
-
-const contributions = (article as any).data.contributions || {};
-const contributionAuthors = [
-  ...toArray(contributions.authorship),
-  ...toArray(contributions.authors),
-  ...toArray(contributions.author),
-  ...toArray(contributions.contributors),
-].filter(Boolean);
-
-const contributionFunding = [
-  ...toArray(contributions.funding),
-  ...toArray((article as any).data.infrastructure),
-  ...toArray((article as any).data.data),
-].filter(Boolean);
-
-const rawAuthors = toArray((article as any).data.authors);
-
-const resolveAuthor = (value: string) => {
-  const contributor = getContributor(value);
-  if (contributor) {
-    return { id: contributor.id, name: contributor.name || contributor.id };
-  }
-  return { name: value };
-};
-
-const displayAuthorsDetailed =
-  contributionAuthors.length > 0
-    ? contributionAuthors.map((id: string) => resolveAuthor(id))
-    : rawAuthors.map((name: string) => resolveAuthor(name));
+const articleData = article.data as Record<string, unknown>;
+const authorIds = extractAuthors(articleData);
+const fundingIds = extractFunding(articleData);
+const displayAuthorsDetailed = authorIds.map(resolveAuthor);
 
 const { title, date, tags = [], tease, image, external_url, autotoc } = article.data;
 if (external_url) {
   return Astro.redirect(external_url);
 }
-const supporterSource =
-  contributionFunding.length > 0
-    ? contributionFunding
-    : (article as any).data.supporters || (article as any).data.funding;
-const supporters = await resolveSupporters(supporterSource);
+const supporters = await resolveSupporters(fundingIds.length > 0 ? fundingIds : articleData.supporters);
 
 // MDX components map
 const components = {

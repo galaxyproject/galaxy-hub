@@ -219,3 +219,73 @@ export function findCommunityBySlug(
 
   return undefined;
 }
+
+/**
+ * Convert unknown values to a flat array of strings.
+ * Handles arrays, objects with id/name/github fields, and primitives.
+ */
+export function toArray(value: unknown): string[] {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value.flatMap((v) => toArray(v));
+  }
+  if (typeof value === 'object') {
+    const obj = value as Record<string, unknown>;
+    if (obj.id) return [String(obj.id)];
+    if (obj.name) return [String(obj.name)];
+    if (obj.github) return [String(obj.github)];
+    return [];
+  }
+  return [String(value)];
+}
+
+/**
+ * Extract author identifiers from content entry data.
+ * Prefers contributions.authorship/authors over legacy authors field.
+ */
+export function extractAuthors(data: Record<string, unknown>): string[] {
+  const contrib = (data.contributions as Record<string, unknown>) || {};
+  const contributionAuthors = [
+    ...toArray(contrib.authorship),
+    ...toArray(contrib.authors),
+    ...toArray(contrib.author),
+    ...toArray(contrib.contributors),
+  ].filter(Boolean);
+
+  if (contributionAuthors.length > 0) {
+    return contributionAuthors;
+  }
+
+  return [...toArray(data.authors), ...toArray(data.authors_structured)].filter(Boolean);
+}
+
+/**
+ * Extract funding/supporter identifiers from content entry data.
+ * Prefers contributions.funding over legacy supporters field.
+ */
+export function extractFunding(data: Record<string, unknown>): string[] {
+  const contrib = (data.contributions as Record<string, unknown>) || {};
+  const funding = [
+    ...toArray(contrib.funding),
+    ...toArray(data.funding),
+    ...toArray(data.infrastructure),
+    ...toArray(data.data),
+  ].filter(Boolean);
+
+  if (funding.length > 0) {
+    return funding;
+  }
+
+  return toArray(data.supporters).filter(Boolean);
+}
+
+/**
+ * Resolve an author identifier to a display object with id and name.
+ */
+export function resolveAuthor(value: string): { id?: string; name: string } {
+  const contributor = getContributor(value);
+  if (contributor) {
+    return { id: contributor.id, name: contributor.name || contributor.id };
+  }
+  return { name: value };
+}
