@@ -32,7 +32,7 @@ const { title, description = 'Galaxy Community Hub' } = Astro.props;
   <body class="min-h-screen bg-background text-foreground">
     <div class="flex min-h-screen overflow-hidden">
       <!-- Sidebar (desktop only) -->
-      <Sidebar />
+      <Sidebar transition:persist />
 
       <!-- Mobile header with Vue-powered menu -->
       <div class="lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between">
