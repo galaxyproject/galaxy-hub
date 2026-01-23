@@ -3,6 +3,8 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {
   communitySlug,
+  extractAuthors,
+  extractFunding,
   findCommunityBySlug,
   getCommunityDisplay,
   getGrantDisplay,
@@ -10,59 +12,21 @@ import {
   listContributors,
   listGrants,
   listOrganisations,
+  toArray,
 } from '../../utils/contributors';
-import gtnIcon from '../../assets/gtn_icon.svg?url';
+const gtnIcon = '/images/logos/gtn_icon.svg';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
 
 const slugify = communitySlug;
 
-function toArray(value: unknown): string[] {
-  if (!value) return [];
-  if (Array.isArray(value)) {
-    return value.flatMap((v) => toArray(v));
-  }
-  if (typeof value === 'object') {
-    const obj = value as Record<string, any>;
-    if (obj.id) return [String(obj.id)];
-    if (obj.name) return [String(obj.name)];
-    if (obj.github) return [String(obj.github)];
-    return [];
-  }
-  return [String(value)];
-}
-
-function extractAuthors(entry: ArticleEntry | EventEntry): string[] {
-  const contrib = (entry as any).data.contributions || {};
-  const contributionAuthors = [
-    ...toArray(contrib.authorship),
-    ...toArray(contrib.authors),
-    ...toArray(contrib.author),
-    ...toArray(contrib.contributors),
-  ].filter(Boolean);
-
-  if (contributionAuthors.length > 0) {
-    return contributionAuthors;
-  }
-
-  return [...toArray(entry.data.authors), ...toArray((entry as any).data.authors_structured)].filter(Boolean);
-}
-
 function normalizeCandidates(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
-  const authors = extractAuthors(entry);
-  const contrib = (entry as any).data.contributions || {};
-  const funding = [
-    ...toArray(contrib.funding),
-    ...toArray((entry as any).data.funding),
-    ...toArray((entry as any).data.infrastructure),
-    ...toArray((entry as any).data.data),
-  ].filter(Boolean);
-  const supporters =
-    funding.length > 0
-      ? funding
-      : [...toArray(entry.data.supporters), ...toArray((entry as any).data.supporters)].filter(Boolean);
-  return { authors, supporters };
+  const data = entry.data as Record<string, unknown>;
+  return {
+    authors: extractAuthors(data),
+    supporters: extractFunding(data),
+  };
 }
 
 function matchesTarget(values: string[], targetSlug: string): { matched: boolean; display?: string } {
@@ -85,73 +49,19 @@ export async function getStaticPaths() {
   const events = await getCollection('events');
   const slugs = new Map<string, string>();
 
-  const localSlugify = (value: string): string => {
-    const normalized = String(value).trim().replace(/^@/, '');
-    return normalized
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '');
-  };
-
-  const localToArray = (value: unknown): string[] => {
-    if (!value) return [];
-    if (Array.isArray(value)) {
-      return value.flatMap((v) => localToArray(v));
-    }
-    if (typeof value === 'object') {
-      const obj = value as Record<string, any>;
-      if (obj.name) return [String(obj.name)];
-      if (obj.github) return [String(obj.github)];
-      return [];
-    }
-    return [String(value)];
-  };
-
-  const localExtractAuthors = (entry: ArticleEntry | EventEntry) => {
-    const contrib = (entry as any).data.contributions || {};
-    const contributionAuthors = [
-      ...localToArray(contrib.authorship),
-      ...localToArray(contrib.authors),
-      ...localToArray(contrib.author),
-      ...localToArray(contrib.contributors),
-    ].filter(Boolean);
-
-    if (contributionAuthors.length > 0) {
-      return contributionAuthors;
-    }
-
-    return [...localToArray(entry.data.authors), ...localToArray((entry as any).data.authors_structured)].filter(
-      Boolean
-    );
-  };
-
-  const localNormalize = (entry: ArticleEntry | EventEntry) => {
-    const authors = localExtractAuthors(entry);
-    const contrib = (entry as any).data.contributions || {};
-    const funding = [
-      ...localToArray(contrib.funding),
-      ...localToArray((entry as any).data.funding),
-      ...localToArray((entry as any).data.infrastructure),
-      ...localToArray((entry as any).data.data),
-    ].filter(Boolean);
-    const supporters =
-      funding.length > 0
-        ? funding
-        : [...localToArray(entry.data.supporters), ...localToArray((entry as any).data.supporters)].filter(Boolean);
-    return { authors, supporters };
-  };
-
   const addSlug = (value: string, displayOverride?: string) => {
-    const s = localSlugify(value);
+    const s = communitySlug(value);
     if (s && !slugs.has(s)) {
       slugs.set(s, displayOverride || getCommunityDisplay(value) || value);
     }
   };
 
   const collect = (entry: ArticleEntry | EventEntry) => {
-    const { authors, supporters } = localNormalize(entry);
-    authors.forEach(addSlug);
-    supporters.forEach(addSlug);
+    const data = entry.data as Record<string, unknown>;
+    const authors = extractAuthors(data);
+    const supporters = extractFunding(data);
+    authors.forEach((a) => addSlug(a));
+    supporters.forEach((s) => addSlug(s));
   };
 
   articles.forEach(collect);
