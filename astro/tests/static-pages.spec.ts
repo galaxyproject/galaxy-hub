@@ -61,6 +61,8 @@ test.describe('Static Pages', () => {
       const eventLink = page.locator('a[href*="/events/2"]').first();
       if (await eventLink.isVisible()) {
         await eventLink.click();
+        // Wait for URL to change (view transitions do client-side navigation)
+        await page.waitForURL(/\/events\/2/);
         await expect(page.locator('h1')).toBeVisible();
       }
     });
@@ -107,7 +109,10 @@ test.describe('Static Pages', () => {
       // Click first platform link
       const platformLink = page.locator('a[href^="/use/"]').first();
       if (await platformLink.isVisible()) {
+        const href = await platformLink.getAttribute('href');
         await platformLink.click();
+        // Wait for URL to change (view transitions do client-side navigation)
+        if (href) await page.waitForURL('**' + href);
         await expect(page.locator('h1')).toBeVisible();
       }
     });
