@@ -8,7 +8,7 @@ test.describe('Content Rendering', () => {
 
       // Should have article layout structure
       await expect(page.locator('main')).toBeVisible();
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
     });
 
     test('article renders markdown content', async ({ page }) => {
@@ -41,7 +41,7 @@ test.describe('Content Rendering', () => {
 
       // Events list should load
       expect(response?.status()).toBe(200);
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
 
       // Click into an event that likely has inserts
       const eventLink = page.locator('a[href*="/events/gcc"]').first();
@@ -106,8 +106,8 @@ test.describe('Content Rendering', () => {
       if (await platformLink.isVisible()) {
         await platformLink.click();
 
-        // Platform pages should have title and content
-        await expect(page.locator('h1')).toBeVisible();
+        // Platform pages should have title and content (use first h1 since pages may have multiple)
+        await expect(page.locator('h1').first()).toBeVisible();
       }
     });
   });
