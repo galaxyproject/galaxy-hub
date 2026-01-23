@@ -7,6 +7,7 @@
  * - Scroll-triggered masthead that appears after scrolling past hero
  * - Smooth transition for the navigation appearance
  */
+import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 
 interface Props {
@@ -32,6 +33,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <ClientRouter />
   </head>
   <body>
     <!-- Hover trigger zone at top of page -->
