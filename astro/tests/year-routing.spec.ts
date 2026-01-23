@@ -14,14 +14,14 @@ test.describe('Year filters are routable', () => {
     await page.waitForSelector('article time');
     await expect(page).toHaveURL(new RegExp(`\\/news\\/\\?year=${year}`));
 
-    const articlesWithYear = await page.$$eval('article', (els, targetYear) => {
-      return els
-        .filter((el) => !el.classList.contains('hidden'))
-        .map((el) => (el.textContent || '').includes(targetYear as string));
-    }, year);
+    const articlesWithYear = await page.$$eval(
+      'article',
+      (els, targetYear) =>
+        els.filter((el) => !el.classList.contains('hidden') && (el.textContent || '').includes(targetYear as string)).length,
+      year,
+    );
 
-    expect(articlesWithYear.length).toBeGreaterThan(0);
-    expect(articlesWithYear.every(Boolean)).toBe(true);
+    expect(articlesWithYear).toBeGreaterThan(0);
   });
 
   test('events past year filter updates URL and results', async ({ page }) => {

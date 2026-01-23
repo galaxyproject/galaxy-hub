@@ -80,7 +80,9 @@ if (external_url) {
   return Astro.redirect(external_url);
 }
 const supporterSource =
-  contributionFunding.length > 0 ? contributionFunding : (article as any).data.supporters || (article as any).data.funding;
+  contributionFunding.length > 0
+    ? contributionFunding
+    : (article as any).data.supporters || (article as any).data.funding;
 const supporters = await resolveSupporters(supporterSource);
 
 // MDX components map
