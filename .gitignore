@@ -16,6 +16,7 @@ stderr.log
 stdout.log
 test.html
 /.yarn*
+*.orig
 
 # Astro migration
 /astro/node_modules

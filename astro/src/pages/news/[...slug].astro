@@ -16,6 +16,7 @@ import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 import { resolveSupporters } from '../../utils/supporters';
+import { getContributor } from '../../utils/contributors';
 
 export async function getStaticPaths() {
   // Get only published news articles (excludes future-dated articles)
@@ -34,11 +35,55 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content, headings } = await render(article);
 
-const { title, date, authors = [], tags = [], tease, image, external_url, autotoc } = article.data;
+const toArray = (value: unknown): string[] => {
+  if (!value) return [];
+  if (Array.isArray(value)) return value.flatMap((v) => toArray(v));
+  if (typeof value === 'object') {
+    const obj = value as Record<string, any>;
+    if (obj.name) return [String(obj.name)];
+    return [];
+  }
+  return [String(value)];
+};
+
+const contributions = (article as any).data.contributions || {};
+const contributionAuthors = [
+  ...toArray(contributions.authorship),
+  ...toArray(contributions.authors),
+  ...toArray(contributions.author),
+  ...toArray(contributions.contributors),
+].filter(Boolean);
+
+const contributionFunding = [
+  ...toArray(contributions.funding),
+  ...toArray((article as any).data.infrastructure),
+  ...toArray((article as any).data.data),
+].filter(Boolean);
+
+const rawAuthors = toArray((article as any).data.authors);
+
+const resolveAuthor = (value: string) => {
+  const contributor = getContributor(value);
+  if (contributor) {
+    return { id: contributor.id, name: contributor.name || contributor.id };
+  }
+  return { name: value };
+};
+
+const displayAuthorsDetailed =
+  contributionAuthors.length > 0
+    ? contributionAuthors.map((id: string) => resolveAuthor(id))
+    : rawAuthors.map((name: string) => resolveAuthor(name));
+
+const { title, date, tags = [], tease, image, external_url, autotoc } = article.data;
 if (external_url) {
   return Astro.redirect(external_url);
 }
-const supporters = await resolveSupporters((article as any).data.supporters);
+const supporterSource =
+  contributionFunding.length > 0
+    ? contributionFunding
+    : (article as any).data.supporters || (article as any).data.funding;
+const supporters = await resolveSupporters(supporterSource);
 
 // MDX components map
 const components = {
@@ -59,7 +104,10 @@ const components = {
 const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
 const canonical = `${site}/${article.data.slug.replace(/^\/|\/$/g, '')}/`;
 const published = date ? new Date(date) : null;
-const authorList = (authors || []).map((name: string) => ({ '@type': 'Person', name }));
+const authorList = (displayAuthorsDetailed || []).map((entry: { name: string }) => ({
+  '@type': 'Person',
+  name: entry.name,
+}));
 const imageUrl = image ? (image.startsWith('http') ? image : `${site}${image}`) : undefined;
 
 const schemaNews = {
@@ -89,7 +137,7 @@ const schemaNews = {
   title={title || 'News'}
   description={tease}
   date={date}
-  authors={authors}
+  authors={displayAuthorsDetailed}
   tags={tags}
   image={image}
   headings={headings}
