@@ -468,75 +468,84 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     </style>
 
     <script>
-      // Scroll-triggered masthead
-      const masthead = document.getElementById('masthead');
-      const mastheadTrigger = document.getElementById('masthead-trigger');
-      const heroHeight = window.innerHeight * 0.15; // Show after scrolling 15% of viewport
-      let isHovering = false;
+      function initHomeLayout() {
+        // Scroll-triggered masthead
+        const masthead = document.getElementById('masthead');
+        const mastheadTrigger = document.getElementById('masthead-trigger');
+        const heroHeight = window.innerHeight * 0.15; // Show after scrolling 15% of viewport
+        let isHovering = false;
 
-      function updateMasthead() {
-        if (window.scrollY > heroHeight || isHovering) {
-          masthead?.classList.add('visible');
-        } else {
-          masthead?.classList.remove('visible');
+        function updateMasthead() {
+          if (window.scrollY > heroHeight || isHovering) {
+            masthead?.classList.add('visible');
+          } else {
+            masthead?.classList.remove('visible');
+          }
         }
+
+        // Hover trigger for masthead
+        mastheadTrigger?.addEventListener('mouseenter', () => {
+          isHovering = true;
+          updateMasthead();
+        });
+
+        masthead?.addEventListener('mouseleave', () => {
+          isHovering = false;
+          updateMasthead();
+        });
+
+        // Throttle scroll events for performance
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+          if (!ticking) {
+            window.requestAnimationFrame(() => {
+              updateMasthead();
+              ticking = false;
+            });
+            ticking = true;
+          }
+        });
+
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobile-menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileToggle?.addEventListener('click', () => {
+          mobileMenu?.classList.toggle('hidden');
+        });
+
+        // Search toggle
+        const searchToggle = document.getElementById('search-toggle');
+        const searchOverlay = document.getElementById('search-overlay');
+        const searchInput = document.getElementById('search-input') as HTMLInputElement | null;
+        const searchClose = document.getElementById('search-close');
+
+        searchToggle?.addEventListener('click', () => {
+          searchOverlay?.classList.remove('hidden');
+          searchInput?.focus();
+        });
+
+        searchClose?.addEventListener('click', () => {
+          searchOverlay?.classList.add('hidden');
+        });
+
+        // Close search on Escape key
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && !searchOverlay?.classList.contains('hidden')) {
+            searchOverlay?.classList.add('hidden');
+          }
+        });
+
+        // Reset mobile menu state on navigation
+        mobileMenu?.classList.add('hidden');
+        searchOverlay?.classList.add('hidden');
+
+        // Initial check
+        updateMasthead();
       }
 
-      // Hover trigger for masthead
-      mastheadTrigger?.addEventListener('mouseenter', () => {
-        isHovering = true;
-        updateMasthead();
-      });
-
-      masthead?.addEventListener('mouseleave', () => {
-        isHovering = false;
-        updateMasthead();
-      });
-
-      // Throttle scroll events for performance
-      let ticking = false;
-      window.addEventListener('scroll', () => {
-        if (!ticking) {
-          window.requestAnimationFrame(() => {
-            updateMasthead();
-            ticking = false;
-          });
-          ticking = true;
-        }
-      });
-
-      // Mobile menu toggle
-      const mobileToggle = document.getElementById('mobile-menu-toggle');
-      const mobileMenu = document.getElementById('mobile-menu');
-
-      mobileToggle?.addEventListener('click', () => {
-        mobileMenu?.classList.toggle('hidden');
-      });
-
-      // Search toggle
-      const searchToggle = document.getElementById('search-toggle');
-      const searchOverlay = document.getElementById('search-overlay');
-      const searchInput = document.getElementById('search-input');
-      const searchClose = document.getElementById('search-close');
-
-      searchToggle?.addEventListener('click', () => {
-        searchOverlay?.classList.remove('hidden');
-        searchInput?.focus();
-      });
-
-      searchClose?.addEventListener('click', () => {
-        searchOverlay?.classList.add('hidden');
-      });
-
-      // Close search on Escape key
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && !searchOverlay?.classList.contains('hidden')) {
-          searchOverlay?.classList.add('hidden');
-        }
-      });
-
-      // Initial check
-      updateMasthead();
+      // Run on initial load and after view transitions
+      document.addEventListener('astro:page-load', initHomeLayout);
     </script>
   </body>
 </html>
