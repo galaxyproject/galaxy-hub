@@ -146,4 +146,43 @@ test.describe('Static Pages', () => {
       expect([200, 301, 302, 304]).toContain(response?.status());
     });
   });
+
+  test.describe('People Pages', () => {
+    test('/freiburg/people/ shows people', async ({ page }) => {
+      const response = await page.goto('/freiburg/people/');
+      expect(response?.status()).toBe(200);
+      await expect(page.locator('article').first()).toBeVisible();
+    });
+
+    test('/ifb/people/ page loads', async ({ page }) => {
+      const response = await page.goto('/ifb/people/');
+      expect(response?.status()).toBe(200);
+      await expect(page.getByRole('heading', { level: 1, name: /ELIXIR-FR\/IFB/i })).toBeVisible();
+    });
+
+    test('/eu/people/ aggregates EU sites', async ({ page }) => {
+      const response = await page.goto('/eu/people/');
+      expect(response?.status()).toBe(200);
+      await expect(page.getByRole('heading', { name: /Freiburg/i })).toBeVisible();
+      await expect(page.getByRole('heading', { name: /ELIXIR-FR\/IFB/i })).toBeVisible();
+      await expect(page.getByRole('heading', { name: /ELIXIR-IT/i })).toBeVisible();
+    });
+
+    test('Person card shows GTN icon, bio, and Hub Contributions badge', async ({ page }) => {
+      await page.goto('/freiburg/people/');
+
+      const card = page.getByRole('article').first();
+
+      // Bio content from Björn's profile
+      await expect(card).toContainText("I'm a bioinformatician");
+
+      // GTN icon/link (aria-label set to label)
+      await expect(card.getByRole('link', { name: 'GTN Profile' })).toBeVisible();
+
+      // Hub Contributions badge
+      const badge = card.getByRole('link', { name: /hub contributions profile/i });
+      await expect(badge).toBeVisible();
+      await expect(badge).toContainText('Hub Contributions');
+    });
+  });
 });

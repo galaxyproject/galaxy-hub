@@ -77,6 +77,7 @@ test.describe('Navigation', () => {
     test('mobile menu opens on click', async ({ page }) => {
       // Use article page - homepage has special layout
       await page.goto('/admin/');
+      await page.waitForLoadState('networkidle');
 
       const menuButton = page.locator('button[aria-label="Open menu"]');
       await expect(menuButton).toBeVisible();
@@ -86,8 +87,8 @@ test.describe('Navigation', () => {
       await menuButton.click();
 
       // Wait for menu to become visible (hydration + animation)
-      await page.waitForSelector('[role="dialog"], [data-state="open"]', { timeout: 3000 });
-      const mobileMenu = page.locator('[role="dialog"], [data-state="open"]');
+      const mobileMenu = page.locator('[data-testid="mobile-menu"][data-state="open"]');
+      await mobileMenu.waitFor({ timeout: 5000 });
       const count = await mobileMenu.count();
       expect(count).toBeGreaterThan(0);
     });
@@ -116,6 +117,7 @@ test.describe('Navigation', () => {
       // Use a very small viewport to simulate a phone in landscape or small device
       await page.setViewportSize({ width: 375, height: 400 });
       await page.goto('/admin/');
+      await page.waitForLoadState('networkidle');
 
       // Wait for Vue hydration
       const menuButton = page.locator('button[aria-label="Open menu"]');
@@ -125,10 +127,11 @@ test.describe('Navigation', () => {
       await menuButton.click();
 
       // Wait for menu to open
-      await page.waitForSelector('[role="dialog"], [data-state="open"]', { timeout: 3000 });
+      const mobileMenu = page.locator('[data-testid="mobile-menu"][data-state="open"]');
+      await mobileMenu.waitFor({ timeout: 5000 });
 
       // Find the scrollable container within the menu
-      const scrollContainer = page.locator('[role="dialog"] [class*="overflow-y"]');
+      const scrollContainer = mobileMenu.locator('[class*="overflow-y"]');
       await expect(scrollContainer).toBeVisible();
 
       // Get the scroll height vs client height to verify content overflows
