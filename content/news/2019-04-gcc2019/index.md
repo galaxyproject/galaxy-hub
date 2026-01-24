@@ -1,10 +1,13 @@
 ---
+
 date: '2019-04-02'
 title: "A sneak peak at GCC2019"
 authors: "Björn Grüning"
 tease: "New scheduling format this year"
 image: "/news/2019-04-gcc2019/bjorn-gcc2017.jpg"
 tags: [gcc, conference]
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-04-gcc2019/"
 ---
 
 As you probably know GCC2019 will be held in Freiburg, Germany, from 1-6 July. Like [previous Galaxy Community Conferences](https://galaxyproject.org/gcc/), GCC2019 will [feature](https://gcc2019.sched.com) keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners. If you are working in data-intensive life science, there is no better place to be.

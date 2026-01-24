@@ -1,8 +1,11 @@
 ---
+
 title: "A guide to GCC2022"
 tease: "Where Galaxy meets in 2022!"
 authors: "Enis Afgan & Subina Mehta"
 date: "2022-06-16"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2022-06-guide-to-gcc2022/"
 ---
 
 The [Galaxy Community Conference](https://galaxyproject.org/events/gcc2022/)

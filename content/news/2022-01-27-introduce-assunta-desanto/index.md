@@ -1,7 +1,10 @@
 ---
+
 title: "Meet the Community: Assunta DeSanto"
 authors: "Assunta DeSanto"
 date: "2022-01-27"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/"
 ---
 
 ![Assunta DeSanto](adesanto_book_resize.png)

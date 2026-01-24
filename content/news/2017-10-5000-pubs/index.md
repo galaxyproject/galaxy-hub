@@ -1,9 +1,12 @@
 ---
+
 date: '2017-10-16'
 title: "Galaxy: the first 5,000 pubs "
 tease: "The Galaxy Publication Library hits a milestone"
 image: /images/logos/zotero-logo-small-trans.png
 authors: "Dave Clements"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-5000-pubs/"
 ---
 
 We reached 5,000 publications in the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) last week.  The library tracks publications that use, extend, implement or reference Galaxy or a Galaxy server.  It includes journal articles, theses, and a couple of odds and ends.  This milestone is a good opportunity to look at what the library tells us about where the Galaxy project has been, and maybe where it's going too.

@@ -1,8 +1,11 @@
 ---
+
 date: '2018-10-15'
 title: 'Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras'
 authors: "Bérénice Batut"
 subsites: [global, eu, freiburg]
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2018-10-totm/"
 ---
 
 The Galaxy community is developing and maintaining a collection of tutorials that are designed to be interactive and are built around Galaxy: [https://training.galaxyproject.org](https://training.galaxyproject.org). These tutorials can be used for learning and teaching how to use Galaxy for general data analysis, and for learning/teaching specific domains such as assembly and differential gene expression analysis with RNA-Seq data. These materials are targetting both self-paced individual learners and instructors.

@@ -1,9 +1,12 @@
 ---
+
 date: '2019-02-28'
 title: "Interview with Nate Coraor: CVMFS & Galaxy"
 authors: "Mo Heydarian"
 tease: "Find out about Galaxy's favorite filesystem"
 image: "/news/2019-02-cvmfs/Nate_face.jpeg"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-02-cvmfs/"
 ---
 
 This month we interviewed [Nate Coraor](https://github.com/natefoo) of the Galaxy Team to learn about what CVMFS is and how it is being used for Galaxy.

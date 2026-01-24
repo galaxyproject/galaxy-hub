@@ -1,9 +1,12 @@
 ---
+
 date: '2017-10-04'
 title: "Welcome to the Galactic Blog"
 tease: "It needs you"
 image: /images/galaxy-logos/galactic-blog-400.png
 authors: "Dave Clements"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-a-blog-is-born/"
 ---
 
 Today we launch the new *[Galactic Blog](/news/)*.

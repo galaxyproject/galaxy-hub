@@ -1,10 +1,13 @@
 ---
+
 date: '2019-05-30'
 title: "Enabling cloud bursting for Galaxy"
 authors: "Enis Afgan and Nuwan Goonasekera"
 tease: "Expand your compute horizons."
 image: "/news/2019-05-gcr/gcr.png"
 highlight: true
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-05-gcr/"
 ---
 
 Did you ever feel the need for speed, as in more compute capacity on your Galaxy

@@ -1,9 +1,12 @@
 ---
+
 date: '2018-10-01'
 title: "Contributor of the Month: Yvan Le Bras"
 authors: "Björn Grüning"
 tease: "Citizen Science and Galaxy for Ecology"
 image: "/images/photos/yvanlebras.png"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2018-10-cotm-yvan-le-bras/"
 ---
 
 This month we welcome Yvan Le Bras, also called the magic Yvan ([@yvanlebras](https://github.com/yvanlebras)) as our *Galaxy contributor of the Month!* Yvan is a long time community member and PI of the GalaxyE project for Ecology data science. Yvan thanks for doing this interview with us, we are looking forward to learn more about you and your work!

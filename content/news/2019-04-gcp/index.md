@@ -1,10 +1,13 @@
 ---
+
 date: '2019-04-15'
 title: "Building up support for the Google Cloud Platform in Galaxy"
 authors: "Enis Afgan and Vahid Jalili"
 tease: "Get on the cloud, Google Cloud!"
 image: "/news/2019-04-gcp/ggcp.png"
 highlight: true
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-04-gcp/"
 ---
 
 The Galaxy project has long embraced support and integration with cloud

@@ -1,8 +1,11 @@
 ---
+
 title: "Sunsetting the CloudLaunch service"
 tease: "There are now better alternatives to using Galaxy on the cloud"
 authors: "Enis Afgan"
 date: "2021-10-15"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-10-sunsetting-cloudlaunch/"
 ---
 
 Sunsets are generally considered pretty events so we’ll paint a positive picture

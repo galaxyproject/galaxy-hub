@@ -1,8 +1,11 @@
 ---
+
 date: "2019-07-29"
 title: "Looking for Galaxy (info), in all the right places"
 authors: "Dave Clements"
 tease: "Which are dangerously close to the wrong places..."
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-07-looking-for-galaxy/"
 ---
 
 Ever search for "Galaxy" on [Google](https://www.google.com/search?q=galaxy), or [Bing](https://www.bing.com/search?q=galaxy), or [DuckDuckGo](https://duckduckgo.com/?q=galaxy), or [Yahoo!](https://search.yahoo.com/search?q=galaxy)?  Well, if you are interested in [phones](https://www.samsung.com/global/galaxy/), [astronomy](https://davecl.wordpress.com/), [soccer](https://www.lagalaxy.com/), [cars](https://www.ford.co.uk/cars/galaxy)<sup>&#42;</sup>, [chocolate](https://www.galaxychocolate.co.uk/), or [Ansible](https://galaxy.ansible.com/) (ok, that last one is close), then you are in luck.  But, if you are interested in *the one true Galaxy* then the pickings are pretty thin.

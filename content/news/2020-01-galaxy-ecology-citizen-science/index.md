@@ -1,4 +1,5 @@
 ---
+
 date: '2020-01-07'
 title: "Crowdsourcing citizen science data on usegalaxy.eu"
 authors: "Yvan Le Bras, Simon Bénateau"
@@ -6,6 +7,8 @@ tease: "Galaxy for Ecology, mixing Ecology research, Citizen Science and Massive
 tags: [society, data, community]
 subsites: [global, eu, freiburg]
 main_subsite: eu
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-science/"
 ---
 
 One year after the *[Galaxy contributor of the Month!](https://galaxyproject.org/blog/2018-10-cotm-yvan-le-bras/)* (originally I was supposed to post this blog post in october 2019... but starting 2020 appears to be better no ? ;) ) it's a pleasure for me to come back with some crispy news about the Galaxy for Ecology project!

@@ -1,9 +1,12 @@
 ---
+
 date: '2017-10-16'
 title: "Small genome assembly in Galaxy"
 tease: "Why not to do assembly on-line?"
 authors: "Anton Nekrutenko"
 image: unicycler.png
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-16-unicycler-tutorial/"
 ---
 
 <div class="alert alert-info trim-p inline-p" role="alert"><i class="fa fa-fighter-jet" aria-hidden="true"></i>

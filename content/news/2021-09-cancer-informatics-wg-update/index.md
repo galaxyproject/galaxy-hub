@@ -1,8 +1,11 @@
 ---
+
 title: "Cancer informatics working group T2 update"
 tease: "CI-WG Updates from the tertile"
 authors: "Luke Sargent"
 date: "2021-09-02"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-09-cancer-informatics-wg-update/"
 ---
 
 # Cancer Informatics + Galaxy

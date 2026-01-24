@@ -1,9 +1,12 @@
 ---
+
 title: "We are launching the new Galaxy Community Calls"
 tease: "A broad forum for global community updates and discussions"
 authors: "Beatriz Serrano-Solano"
 date: "2022-04-06"
 tags: [community]
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2022-04-06-launching-community-calls/"
 ---
 
 We are happy to announce that we are launching the new Galaxy Community Calls!

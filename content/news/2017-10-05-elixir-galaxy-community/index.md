@@ -1,9 +1,12 @@
 ---
+
 date: '2017-10-05'
 title: "ELIXIR establishes a new official Community for Galaxy"
 tease: ""
 image: /images/logos/ElixirNoTextLogo.png
 authors: "Frederik Coppens, Gildas Le Corguillé, Björn Grüning"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-05-elixir-galaxy-community/"
 ---
 
 ELIXIR is an intergovernmental organisation that brings together life science resources from across Europe.

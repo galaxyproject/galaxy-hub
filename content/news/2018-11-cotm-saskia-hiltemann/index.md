@@ -1,8 +1,11 @@
 ---
+
 date: '2018-11-01'
 title: "Contributor of the Month: Saskia Hiltemann"
 authors: "Martin Čech"
 image: "/news/2018-11-cotm-saskia-hiltemann/saskia-hiltemann.png"
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/"
 ---
 
 This month we welcome Saskia Hiltemann (Twitter: [@shiltemann](https://twitter.com/shiltemann), GitHub: [@shiltemann](https://github.com/shiltemann)) as our Galaxy contributor of the Month! Saskia is a bioinformatician and a PhD student working in metagenomics at Rotterdam’s Erasmus Medical Center in the Netherlands, a core member of the [Intergalactic Utilities Commission](https://galaxyproject.org/iuc/), and one of the two primary creators of the [Galaxy Training Framework](https://training.galaxyproject.org/) ([published](https://doi.org/10.1016/j.cels.2018.05.012) in *Cell Systems*).
