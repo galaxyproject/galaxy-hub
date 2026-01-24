@@ -19,6 +19,7 @@ import Insert from '../../components/mdx/Insert.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import Icon from '../../components/ui/Icon.astro';
+import { normalizeSlug } from '../../utils/slug';
 
 export async function getStaticPaths() {
   const events = await getCollection('events');
@@ -26,8 +27,9 @@ export async function getStaticPaths() {
   return events.map((event) => {
     // Remove 'events/' prefix from slug for the URL
     const urlSlug = event.data.slug.replace(/^events\//, '');
+    const normalizedSlug = normalizeSlug(urlSlug);
     return {
-      params: { slug: urlSlug },
+      params: { slug: normalizedSlug },
       props: { event },
     };
   });
@@ -115,7 +117,8 @@ function buildLocation(loc: typeof location) {
 
 // Schema.org structured data
 const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
-const canonical = `${site}/${event.data.slug.replace(/^\/|\/$/g, '')}/`;
+const normalizedSlug = normalizeSlug(event.data.slug);
+const canonical = `${site}/${normalizedSlug.replace(/^\/|\/$/g, '')}/`;
 const startDate = toDate(date);
 const endDate = toDate(end);
 const imageUrl = event.data.image

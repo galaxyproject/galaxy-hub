@@ -1,6 +1,7 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
 import { getPublishedNews } from '../../utils/content';
+import { normalizeSlug } from '../../utils/slug';
 
 export async function GET(context: APIContext) {
   // Get published news articles (excludes future-dated articles)
@@ -14,7 +15,7 @@ export async function GET(context: APIContext) {
       title: article.data.title || 'Untitled',
       pubDate: article.data.date instanceof Date ? article.data.date : new Date(article.data.date || 0),
       description: article.data.tease || '',
-      link: `/${article.data.slug}/`,
+      link: `/${normalizeSlug(article.data.slug)}/`,
     })),
     customData: `<language>en-us</language>`,
   });

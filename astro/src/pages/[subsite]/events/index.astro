@@ -1,8 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHeader from '../../../components/layout/PageHeader.astro';
 import EventsList from '../../../components/events/EventsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
+import { normalizeSlug } from '../../../utils/slug';
 
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /events/)
@@ -21,7 +23,7 @@ const events = await getCollection('events');
 
 // Transform to plain objects for Vue component
 const eventData = events.map((e) => ({
-  slug: e.data.slug,
+  slug: normalizeSlug(e.data.slug),
   title: e.data.title || 'Untitled Event',
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
   end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
@@ -32,13 +34,18 @@ const eventData = events.map((e) => ({
 ---
 
 <BaseLayout title={`${subsiteName} Events`} description={`Galaxy Project events for ${subsiteName}`}>
-  <div class="max-w-6xl mx-auto bg-white">
-    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
-      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">{subsiteName} Events</h1>
-      <p class="text-lg text-gray-600">Workshops, conferences, and community gatherings</p>
-    </header>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader
+      title={`${subsiteName} Events`}
+      description={`Upcoming (and past) events with content related to the ${subsiteName} Galaxy community.`}
+    >
+      <p class="text-sm text-white/80 mt-2">
+        For events prior to this year, see the
+        <a class="text-galaxy-gold hover:underline" href={`/${subsiteId}/events/archive/`}>events archive</a>.
+      </p>
+    </PageHeader>
 
-    <div class="px-6 sm:px-8 py-6">
+    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
       <EventsList client:load events={eventData} initialSubsite={subsiteId} />
     </div>
   </div>

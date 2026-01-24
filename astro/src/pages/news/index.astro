@@ -3,13 +3,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import NewsList from '../../components/news/NewsList.vue';
 import { getPublishedNews } from '../../utils/content';
+import { normalizeSlug } from '../../utils/slug';
 
 // Get published news articles (excludes future-dated articles)
 const newsArticles = await getPublishedNews();
 
 // Transform to plain objects for Vue component
 const articleData = newsArticles.map((a) => ({
-  slug: a.data.slug,
+  slug: normalizeSlug(a.data.slug),
   title: a.data.title || 'Untitled',
   date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
   tease: a.data.tease,

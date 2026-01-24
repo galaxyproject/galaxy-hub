@@ -8,9 +8,7 @@ export async function getStaticPaths() {
   return articles
     .filter((article) => {
       const slug = article.data.slug || '';
-      const hasBlogSource =
-        'source_blog' in article.data ||
-        'source_blog_url' in article.data;
+      const hasBlogSource = 'source_blog' in article.data || 'source_blog_url' in article.data;
       return slug.startsWith('news/') && hasBlogSource;
     })
     .map((article) => {

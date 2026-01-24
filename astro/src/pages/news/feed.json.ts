@@ -5,6 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
+import { normalizeSlug } from '../../utils/slug';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -78,7 +79,7 @@ export async function GET() {
       const data = article.data;
       const date = data.date instanceof Date ? data.date : new Date(data.date || 0);
       const daysAgo = getDaysAgo(date);
-      const slug = (data.slug || article.id).replace(/\/$/, '');
+      const slug = normalizeSlug((data.slug || article.id).replace(/\/$/, ''));
 
       // Normalize arrays and expand "all" subsites
       let subsites = data.subsites ? (Array.isArray(data.subsites) ? data.subsites : [data.subsites]) : [];

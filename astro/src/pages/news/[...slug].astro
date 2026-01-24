@@ -16,6 +16,7 @@ import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 import { resolveSupporters } from '../../utils/supporters';
+import { normalizeSlug } from '../../utils/slug';
 
 export async function getStaticPaths() {
   // Get only published news articles (excludes future-dated articles)
@@ -24,8 +25,9 @@ export async function getStaticPaths() {
   return newsArticles.map((article) => {
     // Remove 'news/' prefix from slug for the URL
     const urlSlug = article.data.slug.replace(/^news\//, '');
+    const normalizedSlug = normalizeSlug(urlSlug);
     return {
-      params: { slug: urlSlug },
+      params: { slug: normalizedSlug },
       props: { article },
     };
   });
@@ -57,7 +59,8 @@ const components = {
 
 // Schema.org structured data
 const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject.org';
-const canonical = `${site}/${article.data.slug.replace(/^\/|\/$/g, '')}/`;
+const normalizedSlug = normalizeSlug(article.data.slug);
+const canonical = `${site}/${normalizedSlug.replace(/^\/|\/$/g, '')}/`;
 const published = date ? new Date(date) : null;
 const authorList = (authors || []).map((name: string) => ({ '@type': 'Person', name }));
 const imageUrl = image ? (image.startsWith('http') ? image : `${site}${image}`) : undefined;

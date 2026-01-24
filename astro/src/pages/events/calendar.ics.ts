@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
+import { normalizeSlug } from '../../utils/slug';
 
 // Format date for iCalendar (YYYYMMDDTHHMMSSZ)
 function formatICSDate(date: Date): string {
@@ -77,10 +78,10 @@ export async function GET(context: APIContext) {
       }
     }
 
-    const uid = `${event.data.slug}@galaxyproject.org`;
+    const normalizedSlug = normalizeSlug(event.data.slug || event.id);
+    const uid = `${normalizedSlug}@galaxyproject.org`;
     // slug already includes "events/" prefix, so don't add it again
-    const slug = event.data.slug || event.id;
-    const pathSlug = slug.startsWith('events/') ? slug : `events/${slug}`;
+    const pathSlug = normalizedSlug.startsWith('events/') ? normalizedSlug : `events/${normalizedSlug}`;
     const url = `${siteUrl}/${pathSlug}/`;
     const title = event.data.title || 'Untitled Event';
     const description = event.data.tease || '';

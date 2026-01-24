@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
-import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 
 interface NewsArticle {
   slug: string;
@@ -152,6 +152,11 @@ function formatDate(dateStr: string | undefined): string {
 function buildUrl(slug: string): string {
   return `/${slug}/`;
 }
+
+function displaySubsite(subsite: string): string {
+  const match = subsites.find((s) => s.id === subsite);
+  return match?.name ?? subsite;
+}
 </script>
 
 <template>
@@ -159,7 +164,7 @@ function buildUrl(slug: string): string {
     <!-- Subsite indicator -->
     <div v-if="$subsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
       <p class="text-sm text-galaxy-dark">
-        Showing news for <strong class="capitalize">{{ $subsite }}</strong> subsite.
+        Showing news for <strong>{{ displaySubsite($subsite) }}</strong> subsite.
         <button @click="() => currentSubsite.set('global')" class="ml-2 text-galaxy-primary hover:underline">
           Show all news
         </button>

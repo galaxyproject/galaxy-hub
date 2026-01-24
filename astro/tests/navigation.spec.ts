@@ -76,20 +76,23 @@ test.describe('Navigation', () => {
 
     test('mobile menu opens on click', async ({ page }) => {
       // Use article page - homepage has special layout
-      await page.goto('/admin/');
+      await page.goto('/admin/', { waitUntil: 'networkidle' });
 
       const menuButton = page.locator('button[aria-label="Open menu"]');
       await expect(menuButton).toBeVisible();
       // Wait for Vue hydration
-      await page.waitForTimeout(500);
+      await page.waitForTimeout(1000);
 
       await menuButton.click();
 
+      // Allow state to propagate
+      await page.waitForTimeout(500);
+
       // Wait for menu to become visible (hydration + animation)
-      await page.waitForSelector('[role="dialog"], [data-state="open"]', { timeout: 3000 });
-      const mobileMenu = page.locator('[role="dialog"], [data-state="open"]');
-      const count = await mobileMenu.count();
-      expect(count).toBeGreaterThan(0);
+      const sheetContent = page.locator('[data-slot="sheet-content"]');
+      await expect
+        .poll(async () => await sheetContent.count(), { timeout: 8000, message: 'mobile menu should open' })
+        .toBeGreaterThan(0);
     });
 
     test('mobile menu has navigation links', async ({ page }) => {
@@ -115,7 +118,7 @@ test.describe('Navigation', () => {
     test('mobile menu scrolls on very small screens', async ({ page }) => {
       // Use a very small viewport to simulate a phone in landscape or small device
       await page.setViewportSize({ width: 375, height: 400 });
-      await page.goto('/admin/');
+      await page.goto('/admin/', { waitUntil: 'networkidle' });
 
       // Wait for Vue hydration
       const menuButton = page.locator('button[aria-label="Open menu"]');
@@ -125,11 +128,14 @@ test.describe('Navigation', () => {
       await menuButton.click();
 
       // Wait for menu to open
-      await page.waitForSelector('[role="dialog"], [data-state="open"]', { timeout: 3000 });
+      const sheetContent = page.locator('[data-slot="sheet-content"]');
+      await expect
+        .poll(async () => await sheetContent.count(), { timeout: 8000, message: 'mobile menu should open' })
+        .toBeGreaterThan(0);
 
       // Find the scrollable container within the menu
-      const scrollContainer = page.locator('[role="dialog"] [class*="overflow-y"]');
-      await expect(scrollContainer).toBeVisible();
+      const scrollContainer = page.locator('[data-slot="sheet-content"] [class*="overflow-y"]').first();
+      await scrollContainer.waitFor({ state: 'visible', timeout: 8000 });
 
       // Get the scroll height vs client height to verify content overflows
       const scrollInfo = await scrollContainer.evaluate((el) => ({

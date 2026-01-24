@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { normalizeSlug } from '../../utils/slug';
 
 const tag = 'webinar';
 const pageTitle = 'Galaxy Webinars';
@@ -69,7 +70,7 @@ function formatDate(date: Date | string | undefined): string {
           <div class="space-y-4">
             {upcomingEvents.map((event) => (
               <a
-                href={`/events/${event.data.slug}/`}
+                href={`/events/${normalizeSlug(event.data.slug).replace(/^events\//, '')}/`}
                 class="block p-4 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-md transition-all"
               >
                 <div class="flex items-start justify-between gap-4">
@@ -102,7 +103,7 @@ function formatDate(date: Date | string | undefined): string {
           <div class="space-y-2">
             {pastEvents.map((event) => (
               <a
-                href={`/events/${event.data.slug}/`}
+                href={`/events/${normalizeSlug(event.data.slug).replace(/^events\//, '')}/`}
                 class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
               >
                 <span class="text-sm text-gray-500 min-w-24">{formatDate(event.data.date)}</span>

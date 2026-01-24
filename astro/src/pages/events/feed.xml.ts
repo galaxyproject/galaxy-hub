@@ -1,6 +1,7 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
+import { normalizeSlug } from '../../utils/slug';
 
 export async function GET(context: APIContext) {
   const events = await getCollection('events');
@@ -22,7 +23,7 @@ export async function GET(context: APIContext) {
       title: event.data.title || 'Untitled',
       pubDate: event.data.date instanceof Date ? event.data.date : new Date(event.data.date || 0),
       description: event.data.tease || '',
-      link: `/events/${event.data.slug}/`,
+      link: `/events/${normalizeSlug(event.data.slug).replace(/^events\//, '')}/`,
     })),
     customData: `<language>en-us</language>`,
   });

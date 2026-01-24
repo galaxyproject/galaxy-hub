@@ -11,6 +11,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import slugify from '@sindresorhus/slugify';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import { glob } from 'glob';
@@ -455,11 +456,24 @@ async function processMarkdownFile(filePath) {
 
   // Create slug from path
   let slug;
+  const slugifySegment = (segment) =>
+    slugify(segment, {
+      decamelize: true, // split CamelCase -> camel-case
+      separator: '-', // ensure hyphens
+      preserveLeadingUnderscore: false,
+    });
+
   if (path.basename(filePath) === 'index.md') {
-    slug = dirname === '.' ? 'home' : dirname.replace(/\\/g, '/');
+    if (dirname === '.') {
+      slug = 'home';
+    } else {
+      const segments = dirname.split(path.sep).filter(Boolean).map(slugifySegment);
+      slug = segments.join('/');
+    }
   } else {
     const filename = path.basename(filePath, '.md');
-    slug = dirname === '.' ? filename : `${dirname}/${filename}`.replace(/\\/g, '/');
+    const segments = [...dirname.split(path.sep).filter(Boolean), filename].map(slugifySegment);
+    slug = segments.join('/');
   }
 
   // Copy assets for index files

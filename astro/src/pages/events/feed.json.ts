@@ -5,6 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
+import { normalizeSlug } from '../../utils/slug';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -72,7 +73,7 @@ export async function GET() {
         const data = event.data;
         const date = data.date instanceof Date ? data.date : new Date(data.date || 0);
         const daysAgo = getDaysAgo(date);
-        const slug = (data.slug || event.id).replace(/\/$/, '');
+        const slug = normalizeSlug((data.slug || event.id).replace(/\/$/, ''));
 
         // Get location name
         let locationObj = { name: '' };

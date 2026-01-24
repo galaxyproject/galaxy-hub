@@ -3,13 +3,14 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import EventsList from '../../components/events/EventsList.vue';
+import { normalizeSlug } from '../../utils/slug';
 
 // Get all events and prepare data for client component
 const events = await getCollection('events');
 
 // Transform to plain objects for Vue component
 const eventData = events.map((e) => ({
-  slug: e.data.slug,
+  slug: normalizeSlug(e.data.slug),
   title: e.data.title || 'Untitled Event',
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
   end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
