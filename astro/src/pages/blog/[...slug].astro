@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import { normalizeSlug } from '../../utils/slug';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+
+  return articles
+    .filter((article) => {
+      const slug = article.data.slug || '';
+      const hasBlogSource =
+        'source_blog' in article.data ||
+        'source_blog_url' in article.data;
+      return slug.startsWith('news/') && hasBlogSource;
+    })
+    .map((article) => {
+      const newsSlug = normalizeSlug(article.data.slug.replace(/^news\//, ''));
+      return {
+        params: { slug: newsSlug },
+        props: { target: `/news/${newsSlug}/` },
+      };
+    });
+}
+
+const { target } = Astro.props;
+const site = Astro.site?.toString().replace(/\/$/, '') || '';
+const destination = `${site}${target}`;
+
+const html = `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content="0; url=${destination}" />
+  <title>Redirecting…</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: #0b1a2d; color: #f8fafc; display: grid; place-items: center; min-height: 100vh; padding: 2rem; text-align: center; }
+    a { color: #f5c518; }
+    .card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 1.5rem 2rem; max-width: 520px; box-shadow: 0 18px 60px rgba(0,0,0,0.35); }
+    .muted { color: rgba(248,250,252,0.8); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Redirecting to News…</h1>
+    <p class="muted">Our legacy blog URLs now live under <code>/news/</code>.</p>
+    <p><a href="${destination}">Continue to ${destination}</a></p>
+  </div>
+</body>
+</html>`;
+
+export function GET() {
+  return new Response(html, {
+    status: 301,
+    headers: {
+      Location: destination,
+      'Content-Type': 'text/html; charset=utf-8',
+      Refresh: `0; url=${destination}`,
+    },
+  });
+}
+---
