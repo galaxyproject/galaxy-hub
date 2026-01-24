@@ -171,7 +171,7 @@ test.describe('Static Pages', () => {
     test('Person card shows GTN icon, bio, and Hub Contributions badge', async ({ page }) => {
       await page.goto('/freiburg/people/');
 
-      const card = page.getByRole('article').first();
+      const card = page.locator('article', { hasText: /Björn Grüning/i }).first();
 
       // Bio content from Björn's profile
       await expect(card).toContainText("I'm a bioinformatician");
