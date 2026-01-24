@@ -58,7 +58,20 @@ function buildAvatar(handle?: string): string | undefined {
 }
 
 function resolvePath(): string {
-  return path.resolve(fileURLToPath(new URL('../../../content/people/people.yaml', import.meta.url)));
+  // Prefer repo-level content path, works in dev and preview builds
+  const candidates = [
+    path.resolve(process.cwd(), '../content/people/people.yaml'),
+    path.resolve(fileURLToPath(new URL('../../../content/people/people.yaml', import.meta.url))),
+  ];
+
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) {
+      return candidate;
+    }
+  }
+
+  // Fall back to the first candidate even if missing, so upstream error shows the attempted location
+  return candidates[0];
 }
 
 export function loadPeopleData(): PeopleBySubsite {
