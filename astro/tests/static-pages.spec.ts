@@ -53,6 +53,15 @@ test.describe('Static Pages', () => {
       expect(response?.status()).toBe(200);
     });
 
+    test('subsite archive pages load', async ({ page }) => {
+      for (const subsite of ['eu', 'freiburg']) {
+        const url = `/${subsite}/events/archive/`;
+        const response = await page.goto(url);
+        expect(response?.status()).toBe(200);
+        await expect(page.getByRole('heading', { name: /events archive/i })).toBeVisible();
+      }
+    });
+
     test('individual event page loads', async ({ page }) => {
       // Navigate to events list first
       await page.goto('/events/');
