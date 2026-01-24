@@ -1,0 +1,601 @@
+freiburg:
+    bgruening:
+        name: Björn Grüning
+        title: Dr. rer. nat., Researcher, Head of the Team
+        email: gruening@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@bgruening:matrix.org"
+        mastodon: "fosstodon.org/@bgruening"
+        linkedin: bjorn-grüning-2b84a895
+        orcid: 0000-0002-3079-6586
+        google-scholar: lddXduoAAAAJ
+        researchgate: Bjoern_Gruening
+        bio: |
+          I'm a bioinformatician and researcher with interested in everything
+          related to reproducible research with Galaxy, Conda & Containers.
+
+    erxleben:
+        name: Anika Erxleben-Eggenhofer
+        title: Dr. rer. nat., Researcher
+        email: erxleben@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@anikaerxleben:matrix.org"
+        linkedin: anika-erxleben-eggenhofer-ba2b52122
+        orcid: 0000-0002-7427-6478
+        bio:
+        alumni: true
+
+    wm75:
+        name: Wolfgang Maier
+        title: Dr. phil. nat., Researcher
+        email: maierw@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54126
+        location: "Build.: 079, Room: -1014"
+        location_link: "https://osm.org/go/0DKSQ63QV-?m="
+        matrix: "@wm75:matrix.org"
+        orcid: 0000-0002-9464-6640
+        mastodon: "fediscience.org/@zerodivision"
+        bio:
+
+    hexylena:
+        name: Helena Rasche
+        title: B.Sc. Biochem., Technician
+        email: hxr@informatik.uni-freiburg.de
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid: 0000-0001-9760-8992
+        matrix: "@hexylena:matrix.org"
+        mastodon: "tech.lgbt/@hexylena"
+        galaxyadmin: true
+        alumni: true
+
+    paulzierep:
+        name: Paul Zierep
+        title: Dr. rer. nat., Researcher
+        email: zierep@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@paulzierep:matrix.org"
+        linkedin: zierep-paul-180543157
+        orcid: 0000-0003-2982-388X
+        google-scholar: DYIa8mUAAAAJ&hl
+        researchgate: Paul-Zierep
+        bio:
+
+    sebastian-schaaf:
+        name: Sebastian Schaaf
+        title: Dr. rer. nat., Researcher, ELIXIR-DE Officer for Galaxy
+        email: schaaf@informatik.uni-freiburg.de
+        location: "External - Forschungszentrum Jülich, Cologne area"
+        #location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@sschaaf:matrix.org"
+        orcid: 0000-0001-8193-0151
+        researchgate: Sebastian-Schaaf
+        bio:
+        alumni: true
+
+    kysrpex:
+        name: José Manuel Domínguez
+        title: M.Sc. Math., SysAdmin, DevOps
+        email: dominguj@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@jdom:matrix.org"
+        linkedin: josdombeg
+        orcid: 0000-0002-1063-6032
+        galaxyadmin: true
+        bio:
+
+    joachimwolff:
+        name: Joachim Wolff
+        title: M.Sc. Inf., Researcher
+        email: wolffj@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54132
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        bio:
+        alumni: true
+
+    mtekman:
+        name: Mehmet Tekman
+        title: Ph.D., Researcher
+        email: tekman@informatik.uni-freiburg.de
+        matrix: "@mtekman:matrix.org"
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        bio:
+        alumni: true
+
+    anuprulez:
+        name: Anup Kumar
+        title: M.Sc. Inf., Researcher
+        email: kumara@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        bio:
+
+    stephanflemming:
+        name: Stephan Flemming
+        title: Dr. rer. nat., Researcher
+        email: flemming@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid:  0000-0002-4632-3863
+        bio:
+        alumni: true
+
+    gmauro:
+        name: Gianmauro Cuccuru
+        title: M.Sc. Electronic Eng., Researcher
+        email: gmauro@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54132
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        linkedin: gianmaurocuccuru
+        matrix: "@gmauro:matrix.org"
+        orcid: 0000-0002-5335-545X
+        galaxyadmin: true
+        alumni: true
+
+    simonbray:
+        name: Simon Bray
+        title: M.Sc. Biochem. Biophys., Researcher
+        email: sbray@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid: 0000-0002-0621-6705
+        bio:
+        alumni: true
+
+    khanteymoori:
+        name: Alireza Khanteymoori
+        title: Ph.D., Researcher
+        email: alireza@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54127
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid: 0000-0001-6811-9196
+        google-scholar: VAyELgcAAAAJ&hl
+        researchgate: Ali_Khanteymoori2
+        bio:
+        alumni: true
+
+    rolfbackofen:
+        name: Rolf Backofen
+        title: Prof. Dr., Head of the Lab
+        email: backofen@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 7460
+        location: "Build.: 101"
+        location_link: "https://goo.gl/maps/jB38FZAm49T2"
+        twitter: backofenlab
+        orcid: 0000-0001-8231-3323
+        google-scholar: ZCTrqQkAAAAJ
+        researchgate: Rolf_Backofen
+        bio:
+
+    olegzharkov:
+        name: Oleg Zharkov
+        title: M.Sc. Inf., Researcher, Developer
+        email: oleg.zharkov@rz.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@oleg.zharkov:matrix.org"
+        linkedin: oleg-zharkov-370b99138
+        orcid: 0000-0001-7537-4400
+        bio:
+        alumni: true
+
+    janleendertse:
+        name: Jan Leendertse
+        title: M.A., Certification, Organisation
+        email: jan.leendertse@rz.uni-freiburg.de
+        phone: +49(0) 761 - 203 54126
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@janleendertse:matrix.org"
+        orcid: 0000-0001-5676-493X
+        website: http://leendertse.eu
+        linkedin: JanLeendertse
+        researchgate: JanLeendertse
+
+    beatrizserrano:
+        name: Beatriz Serrano-Solano
+        title: Ph.D., Researcher
+        email: serranob@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@beatrizserrano:matrix.org"
+        twitter: Birthae
+        linkedin: beatriz-serrano
+        orcid: 0000-0002-5862-6132
+        researchgate: Beatriz_Serrano-Solano
+        alumni: true
+
+    gallardoalba:
+        name: Cristóbal Gallardo Alba
+        title: Ms.C. Biotech., Researcher
+        email: gallardo@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid: 0000-0002-5752-2155
+        alumni: true
+
+    davelopez:
+        name: David López Tabernero
+        title: M.Sc. Inf. Eng., Software Developer
+        email: dlopez@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@davel0pez:matrix.org"
+
+    engynasr:
+        name: Engy Nasr
+        title: M.Sc. Inf., Researcher
+        email: nasr@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@engynasr:matrix.org"
+        orcid: 0000-0001-9047-4215
+
+    pavanvidem:
+        name: Pavankumar Videm
+        title: Dr. rer. nat., Researcher
+        email: videmp@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@pavanvidem:matrix.org"
+        orcid: 0000-0002-5192-126X
+
+    dianichj:
+        name: Diana Chiang Jurado
+        title: Dr.rer.nat Candidate., Researcher
+        email: dianachj@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@dianichj:matrix.org"
+        orcid: 0000-0002-5857-1477
+        researchgate: Diana Chiang Jurado
+
+    sanjaysrikakulam:
+        name: Sanjay Kumar Srikakulam
+        title: Dr. rer. nat., Researcher, DevOps
+        email: srikakus@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@sanjaysrikakulam:matrix.org"
+        orcid: 0000-0002-1752-5060
+        google-scholar: YF_dAHMAAAAJ
+        researchgate: Sanjay-Kumar-Srikakulam
+        galaxyadmin: true
+        alumni: true
+
+    mira-miracoli:
+        name: Mira Kuntz
+        title: B.Sc. Beverage Technology, System Administrator, DevOps
+        email: kuntzm@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@mira_miracoli:matrix.org"
+        orcid: 0000-0003-4302-5091
+        galaxyadmin: true
+
+    Minamehr:
+        name: Mina Hojat Ansari
+        title: Ph.D., Researcher
+        email: mina.hojat.ansari@biologie.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@mina24:matrix.org"
+
+    itisAliRH:
+        name: Alireza Heidari
+        title: B.Sc. Computer Science, Engineer, UI/UX
+        email: alirh@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@itisAliRH:matrix.org"
+        linkedin: itisAliRH
+        orcid: 0000-0003-0315-4403
+
+    ElectronicBlueberry:
+        name: Laila Los
+        title: Software Developer
+        email: losl@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@electronic_blueberry:matrix.org"
+        orcid: 0000-0002-2362-9720
+
+    PlushZ:
+        name: Polina Polunina
+        title: M.Sc. Inf., Researcher
+        email: polunina@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@polina.polunina:matrix.org"
+        orcid: 0000-0002-0507-4602
+
+    Nilchia:
+        name: Amirhossein Naghsh Nilchi
+        title: Ph.D. student
+        email: nilchia@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54133
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@nilchia:matrix.org"
+        linkedin: www.linkedin.com/in/nilchia
+        github_username: nilchia
+        orcid: 0000-0003-1329-3044
+        google-scholar: schhp?hl=en
+        researchgate: Amirhossein Naghsh Nilchi
+
+    SaimMomin12:
+        name: Saim Momin
+        title: M.Sc. Bioinformatics, Bioinformatics Developer
+        email: momins@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@saimmomin:matrix.org"
+        linkedin: www.linkedin.com/in/saim-momin
+        github_username: SaimMomin12
+
+    arash77:
+        name: Arash Kadkhodaei
+        title: M.Eng. Mechatronics, Backend Developer
+        email: arash@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@brilliantarash:matrix.org"
+        linkedin: kadarash
+        orcid: 0009-0006-2228-8123
+
+    Sch-Da:
+        name: Daniela Schneider
+        title: M.A., Researcher
+        email: schneidd@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54129
+        location: "Build.: 079, Room: -1006a"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@schn_da:matrix.org"
+        #linkedin: zierep-paul-180543157
+        orcid: 0000-0001-9536-5587
+        mastodon: "fedihum.org/@SchnDa"
+        bio:
+
+    dadrasarmin:
+        name: Armin Dadras
+        title: Dr. rer. nat., Researcher
+        email: dadras@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@armin.dadras:matrix.org"
+        mastodon: "https://mastodon.social/@dadrasarmin"
+        linkedin: armindadras
+        orcid: 0000-0001-7649-2388
+        google-scholar: c3RUlDoAAAAJ
+        researchgate: Armin-Dadras
+        bio:
+
+    Deeptivarshney:
+        name: Deepti Varshney
+        title: M.Tech Bioinformatics, Researcher
+        email: varshney@informatik.uni-freiburg.de
+        location: "Build.: 106, Room: 02 012"
+        location_link: "https://maps.app.goo.gl/g33Eivx3JdcBaTSV8"
+        matrix: "@deepti.varshney:matrix.org"
+        linkedin: deepti-varshney-aa933994
+        orcid: 0000-0003-0419-6832
+        google-scholar: exB6B90AAAAJ
+        researchgate: Deepti-Varshney-2
+        bio:
+
+    gsaudade99:
+        name: Gabriel Saudade
+        title: B.Sc. Computer and Telematics, System Administrator, DevOps
+        email: saudade@tf.uni-freiburg.de
+        location: "Build.: 079, Room: -1015"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@gsaudade:matrix.org"
+        orcid: 0009-0000-5458-1144
+        galaxyadmin: true
+
+
+erasmusmc:
+    andrew-emc:
+        name: Andrew Stubbs
+        title: Assistant Professor
+        email: a.stubbs@erasmusmc.nl
+        phone: +31(0) 10 70 44776
+        location: Ee-1579a
+    yl-emc:
+        name: Yunlei Li
+        title: Assistant Professor
+        email: y.li.1@erasmusmc.nl
+    shiltemann:
+        name: Saskia Hiltemann
+        title: Researcher
+        email: saskia.hiltemann@gmail.com
+        phone: +31(0) 10 70 43235
+        location: Ee-1579
+        matrix: "@shiltemann:matrix.org"
+        mastodon: "mstdn.science/@shiltemann"
+        linkedin: shiltemann
+        orcid: 0000-0003-3803-468X
+        galaxyadmin: true
+
+    yhoogstrate:
+        name: Youri Hoogstrate
+        title: Researcher
+        email: y.hoogstrate@erasmusmc.nl
+        phone: +31(0) 10 70 43235
+        location: Ee-1579
+        alumni: true
+
+    davidvanzessen:
+        name: David van Zessen
+        title: Developer
+        email: d.vanzessen@erasmusmc.nl
+        phone: +31(0) 10 70 44551
+        location: Ee-1579
+    rjansen1984:
+        name: Rick Jansen
+        title: Developer
+        email: r.jansen.1@erasmusmc.nl
+        phone: +31(0) 10 70 32460
+        location: Ee-1579
+    shorsman:
+        name: Bas Horsman
+        title: Developer
+        email: s.horsman@erasmusmc.nl
+        phone: +31(0) 70 32460
+        location: Ee-1579
+
+genouest:
+    OlivierCollin:
+        name: Olivier Collin
+        title: GenOuest team leader
+        email: olivier.collin@irisa.fr
+        orcid: 0000-0002-8959-8402
+        alumni: true
+
+    osallou:
+        name: Olivier Sallou
+        title: Development engineer leader
+        orcid: 0000-0003-3561-5657
+        email: olivier.sallou@irisa.fr
+        alumni: true
+
+    abretaud:
+        name: Anthony Bretaudeau
+        title: CNRS Engineer, GenOuest team leader
+        email: anthony.bretaudeau@irisa.fr
+        mastodon: "genomic.social/@abretaud"
+        matrix: "@abretaud:matrix.org"
+        orcid: 0000-0003-0914-2470
+        galaxyadmin: true
+    stephanierobin:
+        name: Stéphanie Robin
+        title: INRAE Engineer, BIPAA team member
+        email: stephanie.robin@inrae.fr
+    mboudet:
+        name: Matéo Boudet
+        title: INRAE Engineer
+        email: mateo.boudet@inrae.fr
+
+elixir-it:
+    Federico77z:
+        name: Federico Zambelli
+        title: ELIXIR-Italy technical coordinator and Laniakea team leader
+        email: f.zambelli@ibiom.cnr.it
+        orcid: 0000-0003-3487-4331
+    mtangaro:
+        name: Marco Antonio Tangaro
+        title: Laniakea Lead developer
+        orcid: 0000-0003-3923-2266
+        email: ma.tangaro@ibiom.cnr.it
+    matteo14c:
+        name: Matteo Chiara
+        title: CoVaCs and VYNIL lead developer
+        orcid: 0000-0003-3983-4961
+        email: matteo.chiara@unimi.it
+    pmandreoli:
+        name: Pietro Mandreoli
+        title: Laniakea developer
+        orcid: 0000-0002-7088-1283
+        email: pietro.mandreoli@unimi.it
+    martinaalvera:
+        name: Martina Alvera
+        title: Laniakea Junior developer
+        email: martina.alvera@studenti.unimi.it
+    maricaantonacci:
+        name: Marica Antonacci
+        title: INFN developer
+        orcid: 0000-0002-2641-9403
+        email: marica.antonacci@ba.infn.it
+
+ifb:
+    abretaud:
+        name: Anthony Bretaudeau
+        title: CNRS Engineer, GenOuest team leader
+        email: anthony.bretaudeau@irisa.fr
+        mastodon: "genomic.social/@abretaud"
+        matrix: "@abretaud:matrix.org"
+        orcid: 0000-0003-0914-2470
+        galaxyadmin: true
+    lecorguille:
+        name: Gildas Le Corguillé
+        title: |
+          Engineer in scientific computing - Sorbonne Université/CNRS / Station Biologique de Roscoff / ABiMS &
+          Co-leader of the IFB NNCR Cluster
+        email: lecorguille@sb-roscoff.fr
+        location_link: "https://goo.gl/maps/UxnJWUmf4hKpZ6ii8"
+        twitter: glecorguille
+        matrix: "@lecorguille:matrix.org"
+        orcid: 0000-0003-1742-9711
+        galaxyadmin: true
+    julozi:
+        name: Julien Seiler
+        title: |
+          Software engineer - CNRS / IGBMC / BigEst &
+          Co-leader of the IFB NNCR Cluster
+        email: seilerj@igbmc.fr
+        twitter: julozi
+        galaxyadmin: true
+    tchaussepiedifb:
+        name: Thomas Chaussepied
+        title: Engineer, sysadmin of UseGalaxy.fr - CNRS / IFB
+        matrix: "@tchaussepied:matrix.org"
+        galaxyadmin: true
+    merciereva:
+        name: Eva Mercier
+        title: Engineer, EuroScienceGateway (WP3, Pulsar deployment) - CNRS / GenOuest
+        matrix: "@eva_mercier:matrix.org"
+    rlibouba:
+        name: Romane Libouban
+        title: Engineer, EuroScienceGateway (WP5, Genome Annotation use case) - CNRS / GenOuest
+        matrix: "@rlibouban:matrix.org"
+        galaxyadmin: true
+
+    bebatut:
+        name: Bérénice Batut
+        title: Research Engineer
+        website: http://research.bebatut.fr
+        matrix: "@bebatut:matrix.org"
+        mastodon: "piaille.fr/@bebatut"
+        linkedin: berenicebatut
+        orcid: 0000-0001-9852-1987
+        google-scholar: q5GpTJYAAAAJ
+        researchgate: Berenice_Batut
+        galaxyadmin: true
+
+    clsiguret:
+        name: Cléa Siguret
+        title: Research Engineer - IFB / AuBi
+        matrix: "@clsiguret:matrix.org"
+        linkedin: cléa-siguret-58423b107
+        orcid: 0009-0005-6140-0379
+us:
+    dannon:
+        name: Dannon Baker
+        title: Research Engineer
+        website: https://github.com/dannon
+        matrix: "@dannon:matrix.org"
+        bio: |
+          Dannon is a software engineer in the [Taylor Lab](https://web.archive.org/web/20210308182933/https://taylorlab.org/) at
+          [Johns Hopkins University](http://jhu.edu/). He is an active [member of the Galaxy project](/galaxy-team/);
+          Galaxy is a web-based platform for doing reproducible and transparent genomic research. Dannon's current efforts include work
+          on a cloud computing deployment of Galaxy, and developing a flexible framework for automatic parallelism of tools within Galaxy.
+          Dannon received his M.S. and B.S. in Computer Science from the Georgia Institute of Technology.
+    natefoo:
+        name: Nate Coraor
+        title: System Engineer
+        matrix: "@natefoo:matrix.org"
+        website: https://github.com/natefoo
+
