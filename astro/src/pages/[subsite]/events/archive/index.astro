@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PageHeader from '../../../../components/layout/PageHeader.astro';
+import EventsList from '../../../../components/events/EventsList.vue';
+import { subsites } from '../../../../stores/subsiteStore';
+import { normalizeSlug } from '../../../../utils/slug';
+
+export function getStaticPaths() {
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s))
+    .map((subsite) => ({
+      params: { subsite: subsite.id },
+      props: { subsiteName: subsite.name, subsiteId: subsite.id },
+    }));
+}
+
+const { subsiteName, subsiteId } = Astro.props;
+
+const events = await getCollection('events');
+
+const eventData = events.map((e) => ({
+  slug: normalizeSlug(e.data.slug),
+  title: e.data.title || 'Untitled Event',
+  date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
+  end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
+  tease: e.data.tease,
+  location: e.data.location,
+  subsites: e.data.subsites,
+}));
+---
+
+<BaseLayout
+  title={`${subsiteName} Events Archive`}
+  description={`Past events for the ${subsiteName} Galaxy community.`}
+>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader
+      title={`${subsiteName} Events Archive`}
+      description={`Past events with content related to the ${subsiteName} Galaxy community.`}
+    >
+      <a class="text-sm text-galaxy-gold hover:underline" href={`/${subsiteId}/events/`}>
+        View upcoming and current events
+      </a>
+    </PageHeader>
+
+    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
+      <p class="text-sm text-gray-600 mb-4">
+        Events prior to the current year are listed below. Filter by year or browse all years at once.
+      </p>
+      <EventsList
+        client:load
+        events={eventData}
+        initialSubsite={subsiteId}
+        showUpcoming={false}
+        defaultToAllYears={true}
+      />
+    </div>
+  </div>
+</BaseLayout>

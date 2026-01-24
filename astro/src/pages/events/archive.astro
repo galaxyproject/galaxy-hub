@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { normalizeSlug } from '../../utils/slug';
 
 // Get all events, sorted by date descending
 const events = await getCollection('events');
@@ -72,7 +73,7 @@ function getLocationName(location: any): string {
           <div class="space-y-2">
             {eventsByYear[year].map((event) => (
               <a
-                href={`/events/${event.data.slug}/`}
+                href={`/events/${normalizeSlug(event.data.slug).replace(/^events\//, '')}/`}
                 class="flex flex-wrap items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
               >
                 <span class="text-sm text-gray-500 whitespace-nowrap min-w-16">{formatDate(event.data.date)}</span>
