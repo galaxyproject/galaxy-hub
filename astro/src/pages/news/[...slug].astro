@@ -17,6 +17,7 @@ import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { normalizeSlug } from '../../utils/slug';
+import { extractAuthors, extractFunding, resolveAuthor } from '../../utils/contributors';
 
 export async function getStaticPaths() {
   // Get only published news articles (excludes future-dated articles)
@@ -36,11 +37,16 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content, headings } = await render(article);
 
-const { title, date, authors = [], tags = [], tease, image, external_url, autotoc } = article.data;
+const articleData = article.data as Record<string, unknown>;
+const authorIds = extractAuthors(articleData);
+const fundingIds = extractFunding(articleData);
+const displayAuthorsDetailed = authorIds.map(resolveAuthor);
+
+const { title, date, tags = [], tease, image, external_url, autotoc } = article.data;
 if (external_url) {
   return Astro.redirect(external_url);
 }
-const supporters = await resolveSupporters((article as any).data.supporters);
+const supporters = await resolveSupporters(fundingIds.length > 0 ? fundingIds : articleData.supporters);
 
 // MDX components map
 const components = {
@@ -62,7 +68,10 @@ const site = Astro.site?.toString().replace(/\/$/, '') || 'https://galaxyproject
 const normalizedSlug = normalizeSlug(article.data.slug);
 const canonical = `${site}/${normalizedSlug.replace(/^\/|\/$/g, '')}/`;
 const published = date ? new Date(date) : null;
-const authorList = (authors || []).map((name: string) => ({ '@type': 'Person', name }));
+const authorList = (displayAuthorsDetailed || []).map((entry: { name: string }) => ({
+  '@type': 'Person',
+  name: entry.name,
+}));
 const imageUrl = image ? (image.startsWith('http') ? image : `${site}${image}`) : undefined;
 
 const schemaNews = {
@@ -92,7 +101,7 @@ const schemaNews = {
   title={title || 'News'}
   description={tease}
   date={date}
-  authors={authors}
+  authors={displayAuthorsDetailed}
   tags={tags}
   image={image}
   headings={headings}

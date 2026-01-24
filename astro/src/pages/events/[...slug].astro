@@ -18,6 +18,7 @@ import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
+import { extractFunding } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import { normalizeSlug } from '../../utils/slug';
 
@@ -43,7 +44,9 @@ const { title, date, end, location, tags = [], tease, external_url, contacts = [
 if (external_url) {
   return Astro.redirect(external_url);
 }
-const supporters = await resolveSupporters((event as any).data.supporters);
+const eventData = event.data as Record<string, unknown>;
+const fundingIds = extractFunding(eventData);
+const supporters = await resolveSupporters(fundingIds.length > 0 ? fundingIds : eventData.supporters);
 
 // MDX components map
 const components = {
