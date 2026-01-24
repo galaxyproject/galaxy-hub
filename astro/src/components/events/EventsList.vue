@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
-import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 
 interface EventData {
   slug: string;
@@ -18,10 +18,18 @@ interface EventData {
   subsites?: string[] | string;
 }
 
-const props = defineProps<{
-  events: EventData[];
-  initialSubsite?: SubsiteId;
-}>();
+const props = withDefaults(
+  defineProps<{
+    events: EventData[];
+    initialSubsite?: SubsiteId;
+    showUpcoming?: boolean;
+    defaultToAllYears?: boolean;
+  }>(),
+  {
+    showUpcoming: true,
+    defaultToAllYears: false,
+  }
+);
 
 const $subsite = useStore(currentSubsite);
 const isBrowser = typeof window !== 'undefined';
@@ -138,10 +146,13 @@ const olderPastYears = computed(() => availablePastYears.value.slice(5));
 // Set default year to most recent when available years change
 watch(availablePastYears, (years) => {
   if (years.length === 0) return;
+
   if (selectedPastYear.value === null) {
-    selectedPastYear.value = years[0];
+    if (!props.defaultToAllYears) {
+      selectedPastYear.value = years[0];
+    }
   } else if (!years.includes(selectedPastYear.value)) {
-    selectedPastYear.value = years[0];
+    selectedPastYear.value = props.defaultToAllYears ? null : years[0];
   }
 });
 
@@ -163,7 +174,7 @@ function countPastForYear(year: number): number {
   return allPastEvents.value.filter((event) => getYear(event) === year).length;
 }
 
-function selectPastYear(year: number) {
+function selectPastYear(year: number | null) {
   selectedPastYear.value = year;
 }
 
@@ -210,6 +221,11 @@ function getLocationText(location: EventData['location']): string {
 function buildUrl(slug: string): string {
   return `/${slug}/`;
 }
+
+function displaySubsite(subsite: string): string {
+  const match = subsites.find((s) => s.id === subsite);
+  return match?.name ?? subsite;
+}
 </script>
 
 <template>
@@ -217,7 +233,7 @@ function buildUrl(slug: string): string {
     <!-- Subsite indicator -->
     <div v-if="$subsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
       <p class="text-sm text-galaxy-dark">
-        Showing events for <strong class="capitalize">{{ $subsite }}</strong> subsite.
+        Showing events for <strong>{{ displaySubsite($subsite) }}</strong> subsite.
         <button @click="() => currentSubsite.set('global')" class="ml-2 text-galaxy-primary hover:underline">
           Show all events
         </button>
@@ -225,63 +241,65 @@ function buildUrl(slug: string): string {
     </div>
 
     <!-- Upcoming Events -->
-    <section v-if="upcomingEvents.length > 0" class="mb-12">
-      <h2 class="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-        <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
-        Upcoming Events
-        <span class="text-sm font-normal text-gray-500">({{ upcomingEvents.length }})</span>
-      </h2>
-      <div class="space-y-6">
-        <article
-          v-for="event in upcomingEvents"
-          :key="event.slug"
-          class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
-        >
-          <a :href="buildUrl(event.slug)" class="block">
-            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-              <div class="flex-1">
-                <h3 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
-                  {{ event.title || 'Untitled Event' }}
-                </h3>
-                <p v-if="event.tease" class="text-gray-600 mt-1">{{ event.tease }}</p>
-                <p v-if="event.location" class="text-sm text-gray-500 mt-2 flex items-center gap-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-4 w-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                  {{ getLocationText(event.location) }}
-                </p>
+    <template v-if="props.showUpcoming">
+      <section v-if="upcomingEvents.length > 0" class="mb-12">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
+          <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+          Upcoming Events
+          <span class="text-sm font-normal text-gray-500">({{ upcomingEvents.length }})</span>
+        </h2>
+        <div class="space-y-6">
+          <article
+            v-for="event in upcomingEvents"
+            :key="event.slug"
+            class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+          >
+            <a :href="buildUrl(event.slug)" class="block">
+              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+                <div class="flex-1">
+                  <h3 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
+                    {{ event.title || 'Untitled Event' }}
+                  </h3>
+                  <p v-if="event.tease" class="text-gray-600 mt-1">{{ event.tease }}</p>
+                  <p v-if="event.location" class="text-sm text-gray-500 mt-2 flex items-center gap-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    {{ getLocationText(event.location) }}
+                  </p>
+                </div>
+                <div class="sm:text-right">
+                  <time v-if="event.date" class="text-sm font-medium text-galaxy-primary">
+                    {{ formatDateRange(event.date, event.end) }}
+                  </time>
+                </div>
               </div>
-              <div class="sm:text-right">
-                <time v-if="event.date" class="text-sm font-medium text-galaxy-primary">
-                  {{ formatDateRange(event.date, event.end) }}
-                </time>
-              </div>
-            </div>
-          </a>
-        </article>
-      </div>
-    </section>
+            </a>
+          </article>
+        </div>
+      </section>
 
-    <div v-else class="mb-12 p-8 text-center bg-gray-50 rounded-lg">
-      <p class="text-gray-600">No upcoming events for this subsite.</p>
-    </div>
+      <div v-else class="mb-12 p-8 text-center bg-gray-50 rounded-lg">
+        <p class="text-gray-600">No upcoming events for this subsite.</p>
+      </div>
+    </template>
 
     <!-- Past Events -->
     <section>
@@ -293,6 +311,19 @@ function buildUrl(slug: string): string {
       <!-- Year navigation for past events -->
       <div class="mb-6">
         <div class="flex flex-wrap items-center gap-2">
+          <button
+            v-if="props.defaultToAllYears"
+            @click="selectPastYear(null)"
+            :class="[
+              'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
+              selectedPastYear === null
+                ? 'bg-galaxy-primary text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+            ]"
+          >
+            All years
+            <span class="ml-1 text-xs opacity-75">({{ allPastEvents.length }})</span>
+          </button>
           <button
             v-for="year in recentPastYears"
             :key="year"
@@ -330,6 +361,7 @@ function buildUrl(slug: string): string {
       <p class="text-sm text-gray-500 mb-4">
         {{ pastEvents.length }} event{{ pastEvents.length !== 1 ? 's' : '' }}
         <span v-if="selectedPastYear"> in {{ selectedPastYear }}</span>
+        <span v-else> across all years</span>
       </p>
 
       <div class="space-y-4">
@@ -352,7 +384,9 @@ function buildUrl(slug: string): string {
       </div>
       <div v-if="pastEvents.length > pastDisplayCount" class="mt-6 text-center">
         <p class="text-gray-500 text-sm mb-3">
-          Showing {{ pastDisplayCount }} of {{ pastEvents.length }} events in {{ selectedPastYear }}
+          Showing {{ pastDisplayCount }} of {{ pastEvents.length }} events
+          <span v-if="selectedPastYear">in {{ selectedPastYear }}</span>
+          <span v-else>across all years</span>
         </p>
         <button
           @click="loadMorePast"
