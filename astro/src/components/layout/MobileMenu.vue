@@ -96,6 +96,10 @@ function handleSubsiteChange(value: string) {
 function handleNavClick() {
   isOpen.value = false;
 }
+
+function filteredItems(section: NavSection) {
+  return section.items.filter((item) => !(item.subsiteOnly && !showPeople.value));
+}
 </script>
 
 <template>
@@ -176,9 +180,8 @@ function handleNavClick() {
               </CollapsibleTrigger>
               <CollapsibleContent class="pl-3 space-y-1 mt-1">
                 <a
-                  v-for="item in section.items"
+                  v-for="item in filteredItems(section)"
                   :key="item.href"
-                  v-if="!(item.subsiteOnly && !showPeople)"
                   :href="buildHref(item.href, item.external)"
                   :target="item.external ? '_blank' : undefined"
                   :rel="item.external ? 'noopener noreferrer' : undefined"
