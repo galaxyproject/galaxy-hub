@@ -7,6 +7,15 @@ subsites: [global, all, esg]
 supporters:
   - eurosciencegateway
 tags: [esg, esg-wp5, esg-wp1]
+contributions:
+  authorship:
+    - vanessastoeckl
+    - bgruening
+    - annefou
+    - j34ni
+    - alejandrococacastro
+  funding:
+    - eurosciencegateway
 ---
 
 Hello, Galaxy Community!

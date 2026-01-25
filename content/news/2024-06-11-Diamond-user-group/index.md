@@ -10,4 +10,10 @@ tags: [esg, esg-wp5]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - leandro-liborio
+    - subindevdevadasan
+  funding:
+    - eurosciencegateway
 ---

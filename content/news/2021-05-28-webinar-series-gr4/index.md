@@ -6,6 +6,9 @@ tags: [training, talk]
 authors: Beatriz Serrano-Solano
 subsites: [all]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 The Galaxy ecosystem is very broad in scope and reaches many audiences, each one with different needs. To provide those different profiles with the resources available, four webinars have taken place during April and May for researchers, trainers & educators, tool developers and admins & infrastructure providers.
@@ -24,7 +27,7 @@ The second session encompassed exclusively [__training__](https://galaxyproject.
 
 <br>
 
-During the third webinar, Dan Blankenberg covered the resources for making [__tools__](https://galaxyproject.org/events/2021-05-gr4-tool-devs/) available in the Galaxy ecosystem; Anthony Bretaudeau talked about "Dockerized Galaxy for Tool Publishing" and Petr Novák detailed the process to publish tools in your own public Galaxy server.
+During the third webinar, Daniel Blankenberg covered the resources for making [__tools__](https://galaxyproject.org/events/2021-05-gr4-tool-devs/) available in the Galaxy ecosystem; Anthony Bretaudeau talked about "Dockerized Galaxy for Tool Publishing" and Petr Novák detailed the process to publish tools in your own public Galaxy server.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MdQyltMAocg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

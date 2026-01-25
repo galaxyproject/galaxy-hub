@@ -13,6 +13,14 @@ supporters:
 authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - galaxy-europe
+    - elixir-europe
+    - deNBI
+    - ifb
 ---
 
 

@@ -4,6 +4,11 @@ tease: "Sixth blog post presenting the Outreachy project on Mental Health"
 authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-15"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 Creating a mentally healthy environment needs an integrated approach. According to LaMontagne et al. (2014), an optimal and integrated system would include 

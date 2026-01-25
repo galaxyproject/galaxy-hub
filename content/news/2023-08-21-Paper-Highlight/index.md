@@ -3,6 +3,9 @@ title: "Paper highlight: Scalable, accessible, and reproducible reference genome
 tease: We are excited to share a new paper in preprint that shares the latest genome assembly pipeline used by the Vertebrate Genome Project in Galaxy! "
 authors: "Natalie Whitaker-Allen"
 date: "2023-08-21"
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 Hello, Galaxy Community!

@@ -6,6 +6,9 @@ tease: "From cutting-edge research to international conferences, Galaxy continue
 hide_tease: false
 subsites: [global, all]
 tags: [newsletter]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 July 2025  
 

@@ -7,6 +7,11 @@ authors: [Sanjay Kumar Srikakulam, José Manuel Domínguez, Mira Kuntz]
 tags: [EU]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - sanjaysrikakulam
+    - kysrpex
+    - mira-miracoli
 ---
 
 <div class="alert" style="background: #00d084;">

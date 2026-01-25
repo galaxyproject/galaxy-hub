@@ -8,6 +8,9 @@ source_blog: ""
 source_blog_url: ""
 autotoc: false
 site: InterGalactic Ministry of Truth
+contributions:
+  authorship:
+    - fubar2
 ---
 
 Data rich science depends on complicated computing for analyses. The computing for a non-trivial analysis, from raw data to results, might need hundreds of different open source command line packages to complete. Correct assumptions, models and methods are essential to getting any analysis right. However, once that design is completed, and all the required software packages are downloaded and installed, running the complete analysis will typically rely on a specially written shell script or other code. Automation is essential, because manual processes involving hundreds of steps, of which many are long running, are not reliably replicatable.

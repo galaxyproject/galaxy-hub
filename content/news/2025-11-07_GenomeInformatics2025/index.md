@@ -5,6 +5,9 @@ authors: Natalie Whitaker-Allen
 tease: "Galaxy was in full force at Genome Informatics 2025, presenting cutting-edge work on scalable analysis, interactive workflows, and high-quality genome curation."
 hide_tease: false
 subsites: [global, all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # Galaxy at Genome Informatics 2025
@@ -35,7 +38,7 @@ Galaxy Filament is a collaboration of Galaxy Project, UCSC Genome Browser, NCBI 
 
 ## English is the new programming language—Reproducible, transparent, and accessible agentic analysis with GalaxyMCP.
 
-Dannon Baker, Junhao Qiu, Ahmed Awan, Marius van den Beek, Scott Cain, Tyler Collins, Allison Creason, Anup Kumar, Paulo Lyra, Saim Moim, Michelle Savage, Enis Afgan, Dan Blakenberg, Björn Grüning, Anton Nekrutenko, Jeremy Goecks, **Michael Schatz**.
+Dannon Baker, Junhao Qiu, Ahmed Awan, Marius van den Beek, Scott Cain, Tyler Collins, Allison Creason, Anup Kumar, Paulo Lyra, Saim Moim, Michelle Terese Savage, Enis Afgan, Dan Blakenberg, Björn Grüning, Anton Nekrutenko, Jeremy Goecks, **Michael Schatz**.
 
 Presenter affiliation: Johns Hopkins University, Baltimore, Maryland.
 

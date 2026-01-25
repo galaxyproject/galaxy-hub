@@ -6,6 +6,9 @@ authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 supporters: [unifreiburg]
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 [UseGalaxy.eu](https://usegalaxy.eu/) hosts several domain-specific versions of the usegalaxy.eu server. 

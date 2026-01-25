@@ -6,6 +6,9 @@ date: "2024-11-28"
 subsites: [eu]
 tags: [meeting, conference, talk, elixir]
 supporters: [denbi, unifreiburg, elixir]
+contributions:
+  authorship:
+    - paulzierep
 ---
 
 # The Freiburg Galaxy Team participated in the **de.NBI / ELIXIR-DE All Hands Meeting** in Berlin on November 28–29, 2024.  

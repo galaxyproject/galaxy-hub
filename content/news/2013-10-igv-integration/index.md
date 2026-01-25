@@ -6,4 +6,8 @@ authors: [Sarah Maman, Nabihoudine Ibou]
 external_url: "http://wiki.sb-roscoff.fr/ifb/index.php/IGV_Integration"
 source_blog_url: "http://wiki.sb-roscoff.fr/ifb" 
 source_blog: "IFB Galaxy Work Group Wiki"
+contributions:
+  authorship:
+    - sarahmaman
+    - nabihoudineibou
 ---

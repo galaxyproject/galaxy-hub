@@ -1,12 +1,19 @@
 ---
 title: "Welcome to our 3 new Outreachy interns!"
 tease: "From Galaxy dev, Galaxy Climate to Galaxy Well-being and mental health."
-authors: [Melke Berhan, Shivani Sangwan, Soumya Jha, Anne Fouilloux, Beatriz Serrano-Solano]
+authors: [Melkeberhan Berhanu Degefa, Shivani Sangwan, Soumya Jha, Anne Fouilloux, Beatriz Serrano-Solano]
 date: "2022-06-22"
+contributions:
+  authorship:
+    - Melkeb
+    - shivanisangwan
+    - Quickbeasts51429
+    - annefou
+    - beatrizserrano
 ---
 
 
-In June 2022, we welcomed 3 Outreachy interns: Melke Berhan, Shivani Sangwan and Soumya Jha. 
+In June 2022, we welcomed 3 Outreachy interns: Melkeberhan Berhanu Degefa, Shivani Sangwan and Soumya Jha. 
 
 ## What is Outreachy and why we care about it?
 
@@ -65,7 +72,7 @@ Wish you a Greener Planet!
 If you want to know more about me and my work within Galaxy Climate, check out my [Blog_website](https://soumya-jha.netlify.app/).
 Read my blog on Climate Change [here](https://medium.com/@green_soul/climates-last-call-how-will-we-counter-7c4ea93c0913).
 
-### Melke Berhan
+### Melkeberhan Berhanu Degefa
 
 #### Who I am
 

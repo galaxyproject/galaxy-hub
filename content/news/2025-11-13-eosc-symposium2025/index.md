@@ -7,6 +7,25 @@ tags: [eosc, workflows, workflowhub, imaging, fair, interoperability, pulsar, fe
 supporters: [eosc, unifreiburg, esg, elixir, denbi, nfdi, egi, ifremer, fiesta, workflowhub, dataterra, eubi, dataplant, bmbf]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+    - dianichj
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - esg
+    - elixir-europe
+    - deNBI
+    - nfdi
+    - egi
+    - ifremer
+    - fiesta
+    - workflowhub
+    - dataterra
+    - eubi
+    - dataplant
+    - bmbf
 ---
 At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) in Brussels, Björn Grüning demonstrated a scientific use case powered by Galaxy on federated European infrastructure: processing massive imaging datasets with reusable workflows that work across domains, from astrophysics to climate and marine science, and into the life sciences. The demo highlighted how authenticated access, interoperable services, and portable workflows accelerate discovery once nodes interconnect.
 
@@ -33,4 +52,4 @@ Other projects at the Symposium showcased Galaxy in their contexts as well. We w
 
 # Acknowledgement
 
-The video represents a collaborative effort among multiple partners, with special thanks to Marie Jossé, the EGI Foundation, and Diana Chiang Jurado for their valuable contributions.
+The video represents a collaborative effort among multiple partners, with special thanks to Marie Josse, the EGI Foundation, and Diana Chiang Jurado for their valuable contributions.

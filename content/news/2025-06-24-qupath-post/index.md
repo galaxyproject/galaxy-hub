@@ -10,6 +10,12 @@ supporters:
 authors: Diana Chiang Jurado
 subsites: [global, all, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - dianichj
+  funding:
+    - uni-freiburg
+    - nfdi4bioimage
 ---
 [QuPath](https://qupath.github.io) is a powerful, open-source software application for bioimage analysis, designed especially for whole slide images and digital pathology.
 

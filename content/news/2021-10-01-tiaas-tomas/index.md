@@ -8,6 +8,11 @@ supporters:
 authors: Tomas Klingström
 subsites: [global, us, all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - TKlingstrom
+  funding:
+    - galaxy-europe
 ---
 
 _"Dad, I am bleeding!"_ are words no parent wish to hear. 

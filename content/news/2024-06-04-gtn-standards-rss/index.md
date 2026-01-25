@@ -12,5 +12,7 @@ tags:
 - gtn infrastructure
 tease: ''
 title: "Standards compliant\u2122 training news via RSS/Atom"
-
+contributions:
+  authorship:
+    - hexylena
 ---

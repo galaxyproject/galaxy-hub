@@ -11,6 +11,12 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - bmbf
 ---
 
 The __[de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the European Galaxy Server__ by providing new computational infrastructure.

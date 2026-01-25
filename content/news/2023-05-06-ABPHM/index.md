@@ -15,6 +15,13 @@ supporters:
 - unifreiburg
 components: true
 subsites: [all-eu]
+contributions:
+  authorship:
+    - EngyNasr
+  funding:
+    - microbial genomics
+    - eosc-life
+    - elixir-europe
 ---
 
 From the 3rd to the 5th of May, Engy Nasr (I) from the Freiburg Galaxy team travelled to Hinxton, England to join and present my work about the 'Foodborne Pathogen Detection using Direct Nanopore' at the [**Applied Bioinformatics & Public Health Microbiology 2023 conference**](https://coursesandconferences.wellcomeconnectingscience.org/event/applied-bioinformatics-public-health-microbiology-20230503/).

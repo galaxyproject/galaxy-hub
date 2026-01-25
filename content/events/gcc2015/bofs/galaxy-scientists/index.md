@@ -38,7 +38,7 @@ If you are interested, please add your name below.
 * [jen@galaxyproject.org](mailto:jen@galaxyproject.org), Jennifer Hillman-Jackson
 * [kreddy4@jhmi.edu](mailto:kreddy4@jhmi.edu), Karen Reddy
 * Mo Heydarian
-* [Dan Blankenberg](/people/dan/)
+* [Daniel Blankenberg](/people/dan/)
 * Michael Sauria
 * Gergely Izrael (izi)
 * Christian Rausch

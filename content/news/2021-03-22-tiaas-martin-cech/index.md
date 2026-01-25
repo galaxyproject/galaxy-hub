@@ -7,6 +7,11 @@ supporters:
 authors: Martin Čech
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - martenson
+  funding:
+    - galaxy-europe
 ---
 
 

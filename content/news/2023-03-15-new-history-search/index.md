@@ -7,6 +7,10 @@ authors:
 - Ahmed Hamid Awan
 - Dannon Baker
 subsites: [global, all, esg]
+contributions:
+  authorship:
+    - ahmedhamidawan
+    - dannon
 ---
 
 In the previous [`release_22.05`](https://galaxyproject.org/news/2022-08-galaxy-release-22-05/) (_August 2022_), Galaxy's History Panel was updated to a fresh and enhanced interface that users have been getting used to since. For the latest `release_23.0`, Galaxy developers have worked hard on further perfecting and enhancing the user experience of the history:

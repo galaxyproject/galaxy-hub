@@ -7,6 +7,9 @@ location:
 authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - hexylena
 ---
 
 We've seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback. We've added two new features to support trainers using this service:

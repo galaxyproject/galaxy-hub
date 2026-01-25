@@ -9,6 +9,11 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - ViCE
 ---
 
 The Galaxy User Conference in Freiburg just ended!

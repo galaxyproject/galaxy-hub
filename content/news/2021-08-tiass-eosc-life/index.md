@@ -13,6 +13,11 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eosc-life
 ---
 
 <div class="row">

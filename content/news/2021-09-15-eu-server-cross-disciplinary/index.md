@@ -6,6 +6,9 @@ authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 supporters: [eu, eosc, unifreiburg, elixir, denbi]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Galaxy is nowadays well-known to be a __cross-discipline platform that connects researchers all over the world__. Many different communities use it and several projects at different levels are supporting the [European Galaxy server](https://usegalaxy.eu/). 

@@ -4,6 +4,9 @@ tease: "That's a wrap! Catch up on all the highlights from GCC2023 here!"
 authors: "Natalie Whitaker-Allen"
 date: "2023-08-14"	
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 		
 

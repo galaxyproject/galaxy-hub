@@ -5,11 +5,14 @@ tease: 'The winner of the GBCC2025 Logo Contest is here!'
 authors: "Dannon Baker"
 tags: ["highlight"]
 subsites: [global, all]
+contributions:
+  authorship:
+    - dannon
 ---
 
 🎉 Announcing the GBCC 2025 Logo Design Winner! 🎉
 
-🏆 Winner: Marie Jossé
+🏆 Winner: Marie Josse
 
 🌟 Runner up: Charlie Bayne
 

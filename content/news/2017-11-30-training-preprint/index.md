@@ -8,6 +8,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Our paper "Community-driven data analysis training for biology" about the [Training material](https://training.galaxyproject.org) we are developing with the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/) is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/early/2017/11/29/225680).

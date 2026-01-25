@@ -6,6 +6,9 @@ tease: "ELIXIR Europe and the Galaxy Community are looking to host a Galaxy Admi
 tags: [gat, training]
 subsites: [all, global, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - martenson
 ---
 We’d like to gather expressions of interest for an in-person Galaxy Admin Training workshop in Europe in Autumn 2025.
 

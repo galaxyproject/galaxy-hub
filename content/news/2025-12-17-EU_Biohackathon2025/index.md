@@ -9,7 +9,13 @@ supporters:
 location:  
   name: Berlin, DE  
 subsites: [eu, freiburg]  
-main_subsite: freiburg  
+main_subsite: freiburg
+contributions:
+  authorship:
+    - dianichj
+  funding:
+    - elixir-europe
+    - eurobioimaging
 ---
 
 # BioHackathon Europe 2025 - Project 9
@@ -96,5 +102,5 @@ We're active in conferences and hackathons—including the BioHackathons 2023 an
 
 ## 🙌 Meet the dream team of Project 9 @ BioHackathon Europe 2025
 
-🎉 Hats off to **Leonid Kostrykin**, **Diana Chiang Jurado**, **Beatriz Serrano‑Solano**, **Pavan Videm**, **David Lopez**, **Maarten Paul**, and **Martin Etzrodt!**
+🎉 Hats off to **Leonid Kostrykin**, **Diana Chiang Jurado**, **Beatriz Serrano‑Solano**, **Pavankumar Videm**, **David Lopez**, **Maarten Paul**, and **Martin Etzrodt!**
 

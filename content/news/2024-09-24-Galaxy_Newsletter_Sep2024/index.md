@@ -11,6 +11,11 @@ supporters:
   - eu
   - eosc
   - unifreiburg
+contributions:
+  authorship:
+    - natalie-wa
+  funding:
+    - eurosciencegateway
 ---
 
 ![GalaxyNews](GalaxyNews.png)

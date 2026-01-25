@@ -5,6 +5,10 @@ date: '2022-11-01'
 tags: [galaxy, admin, security]
 subsites: [global,all]
 authors: [Nate Coraor, Helena Rasche]
+contributions:
+  authorship:
+    - natefoo
+    - hexylena
 ---
 
 ## Background

@@ -9,6 +9,11 @@ supporters:
 authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - elixir-europe
 ---
 
 With B.1.617.2 (one of the Indian lineages) now being a Variant Of Concern (VOC), we checked the COG-UK data that we have been analyzing to

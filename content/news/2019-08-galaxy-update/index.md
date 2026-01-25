@@ -122,7 +122,7 @@ There is a lot going on in the next 3 months.
   <td><span class="text-nowrap">September 7th 2019</span></td>
   <td><a href="/events/2019-09-acm-bcb">You wrote it, now get it used: Publishing your software with Galaxy and Bioconda</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://acm-bcb.org/">ACM BCB, Niagara Falls, New York, United States</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Dan Blankenberg, Martin Čech</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Daniel Blankenberg, Martin Čech</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 8th 2019</span></td>

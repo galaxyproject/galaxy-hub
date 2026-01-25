@@ -4,6 +4,11 @@ tease: "First blog post presenting the Outreachy project on Mental Health"
 authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-06-29"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 # What is the project about?

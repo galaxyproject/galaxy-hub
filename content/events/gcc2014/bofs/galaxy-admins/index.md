@@ -51,7 +51,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 * [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Sebastian Schaaf
 * [Helena Rasche](/people/helena-rasche/)
-* [Dan Blankenberg](/people/dan/)
+* [Daniel Blankenberg](/people/dan/)
 * Christine Walls
 * Alistair Chilcott
 * Nathan Cole

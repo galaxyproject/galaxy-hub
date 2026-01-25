@@ -6,6 +6,12 @@ tease: "The Galaxy Project has found its way into the practices of a leading med
 hide_tease: false
 authors: [Serena Lorenzini, Giuseppe Profiti, Federica Isidori, Tommaso Pippucci]
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - serenalorenzini
+    - profgiuseppe
+    - federicaisidori
+    - tommasopippucci
 ---
 
 The [Galaxy Project](https://galaxyproject.org/) has found its way into the practices of [IRCCS

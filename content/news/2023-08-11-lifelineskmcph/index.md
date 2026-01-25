@@ -5,6 +5,9 @@ authors: Ross Lazarus
 tease: "Kaplan-Meier and Cox proportional hazards models are available for testing in Galaxy"
 hide_tease: true
 subsites: [all]
+contributions:
+  authorship:
+    - fubar2
 ---
 
 A wrapper for the [lifelines](https://lifelines.readthedocs.io/en/latest/Survival%20Analysis%20intro.html) package is available

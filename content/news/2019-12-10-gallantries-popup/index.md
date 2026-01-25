@@ -7,6 +7,11 @@ supporters:
 authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - hexylena
+  funding:
+    - galaxy-europe
 ---
 
 The [Gallantries Project](https://galaxy-carpentries.github.io/gallantries/) recently had their final meeting in Thessaloniki, Greece!

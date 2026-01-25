@@ -9,6 +9,11 @@ supporters:
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - elixir-europe
 ---
 
 [msconvert](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0){:target="_blank"} is a tool to

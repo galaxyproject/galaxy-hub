@@ -5,6 +5,9 @@ tags: [UseCase]
 authors: Akanksha Bafna
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - akankshabafna
 ---
 
 __Akanksha Bafna__ from the [MRC Harwell Institute, Neurobehavioural Genetics, Oxfordshire, United Kingdom](https://www.har.mrc.ac.uk/) uses Galaxy for Circadian research. Thanks Akanksha!

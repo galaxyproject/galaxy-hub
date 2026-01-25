@@ -385,7 +385,7 @@ This tutorial got a thorough update from [Mallory Freeberg](https://training.gal
 
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
 
-Based on the work by Delphine Larivière and James Taylor with their [COVID-19 Lectures](https://github.com/galaxyproject/video-lectures/), we have implemented a similar feature in the Galaxy Training Network.  Learn how to use it.
+Based on the work by Delphine Lariviere and James Taylor with their [COVID-19 Lectures](https://github.com/galaxyproject/video-lectures/), we have implemented a similar feature in the Galaxy Training Network.  Learn how to use it.
 
 ![Video](./gtn-sound-wave.png)
 

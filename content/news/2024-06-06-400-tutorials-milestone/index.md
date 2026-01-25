@@ -14,6 +14,10 @@ tease: 'The Galaxy Training Network (GTN) has reached an exciting milestone: our
   tutorial! This achievement is a testament to the dedication and hard work of our
   community of educators, researchers, and developers over the last 9 years.'
 title: 'Celebrating the Milestone: 400 Tutorials on the Galaxy Training Network!'
-
+contributions:
+  authorship:
+    - bebatut
+    - hexylena
+    - shiltemann
 ---
 The Galaxy Training Network (GTN) has reached an exciting milestone: our 400th tutorial! This achievement is a testament to the dedication and hard work of our community of educators, researchers, and developers over the last 9 years.

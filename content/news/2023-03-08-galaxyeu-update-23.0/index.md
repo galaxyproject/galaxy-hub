@@ -12,6 +12,11 @@ supporters:
   - eu
   - eosc
   - unifreiburg
+contributions:
+  authorship:
+    - mira-miracoli
+  funding:
+    - eurosciencegateway
 ---
 
 # usegalaxy.eu Updates to 23.0

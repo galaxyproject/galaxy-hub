@@ -9,6 +9,12 @@ supporters:
 authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 The Galaxy Community Conference starts with training but also continues with training throughout the conference.

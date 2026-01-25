@@ -6,9 +6,12 @@ external_url: https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-scie
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
-Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science by Yvan Le Bras, Simon Bénateau.
+Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science by Yvan Le Bras, Simon Benateau.
 
 ![Ecoogy citizen science](https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-science/webhook1.PNG)
 

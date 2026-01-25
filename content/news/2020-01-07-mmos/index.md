@@ -6,6 +6,9 @@ tags: [galaxy, MMOS, devops, society, community]
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 A few years back the "webhook" concept was contributed to the Galaxy codebase.

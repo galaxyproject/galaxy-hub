@@ -12,6 +12,14 @@ supporters:
 - denbi
 - elixir
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.

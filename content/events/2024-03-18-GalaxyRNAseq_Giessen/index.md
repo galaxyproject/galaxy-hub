@@ -7,7 +7,7 @@ continent: EU
 location: "Giessen, Germany"
 external_url: "https://www.denbi.de/training-archive-sorted-according-by-date/1697-de-nbi-rtg2355-galaxy-training-course-rnaseq-analysis"
 gtn: true
-contact: "Anika Erxleben-Eggenhofer, Jochen Blom"
+contact: "Anika Erxleben, Jochen Blom"
 subsites: [all]
 tags: [training, workshop]
 supporters: [denbi, unifreiburg]

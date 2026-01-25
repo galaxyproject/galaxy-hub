@@ -9,6 +9,12 @@ supporters:
 authors: Bérénice Batut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 Last June 18th, Bayer AG (as a member of the de.NBI Industrial Forum) and de.NBI/ELIXIR Germany organized a common event entitled [**"Women in Data Science - Perspectives in Industry and Academia"**](https://www.denbi.de/events/1226-women-in-data-science-2021-perspectives-in-industry-and-academia), to show how attractive and diverse the job as a data scientist can be, regardless of whether it is industry or academia.

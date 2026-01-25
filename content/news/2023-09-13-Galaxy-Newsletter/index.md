@@ -5,6 +5,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2023-09-13"
 subsites: [global, all]
 tags: [newsletter]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 ![Galaxy Newsletter Logo](GalaxyNews.png)

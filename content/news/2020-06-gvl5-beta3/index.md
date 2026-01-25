@@ -2,12 +2,17 @@
 date: '2020-06-22'
 title: "Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio"
 authors:
-- Alexandru Mahmoud
+- Alex Mahmoud
 - Nuwan Goonasekera
 - Enis Afgan
 tease: "Complete analysis on one platform, including training and collaboration"
 image: "/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
+contributions:
+  authorship:
+    - almahmoud
+    - nuwang
+    - afgane
 ---
 
 We are happy to announce the latest release of the Genomics Virtual Lab (GVL),

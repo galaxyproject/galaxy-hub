@@ -6,6 +6,9 @@ tags: [training]
 authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 [Open Life Science (OLS)](https://openlifesci.org/) is an **online mentoring & training program** to help **individuals and stakeholders in research** to become **Open Science ambassadors**.

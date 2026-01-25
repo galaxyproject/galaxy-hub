@@ -1,7 +1,7 @@
 ---
 title: "QGIS : A Geographical Information System on Galaxy !"
 date: "2023-10-06"
-authors: [Marie Jossé, Yvan Le Bras]
+authors: [Marie Josse, Yvan Le Bras]
 tease: "Use QGIS in Galaxy Europe as an interactive tool"
 hide_tease: true
 subsites: [all-eu,global,esg]
@@ -14,6 +14,12 @@ supporters:
   - unifreiburg
   - denbi
   - elixir
+contributions:
+  authorship:
+    - Marie59
+    - yvanlebras
+  funding:
+    - eurosciencegateway
 ---
 
 ## QGIS ? What does it do ?

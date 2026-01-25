@@ -9,6 +9,12 @@ main_subsite: eu
 supporters:
   - eurosciencegateway
   - unifreiburg
+contributions:
+  authorship:
+    - anuprulez
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 **New *BMC Bioinformatics* Paper on "Transformer-based tool recommendation system in Galaxy"**

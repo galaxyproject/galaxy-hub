@@ -14,6 +14,11 @@ supporters:
   - elixir
   - denbi
 main_subsite: eu
+contributions:
+  authorship:
+    - stain
+  funding:
+    - eurosciencegateway
 ---
 
 # EuroScienceGateway WP2

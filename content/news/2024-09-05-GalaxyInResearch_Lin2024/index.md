@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-09-05"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Galaxy in Research: Uncovering the evolutionary secrets of wild loquats using comparative chloroplast genomics**  

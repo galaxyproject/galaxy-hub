@@ -22,6 +22,6 @@ University of Freiburg <br>
 ML researcher, Bioinformatics group, PhD Candidate
 
 
-### Michelle Savage
+### Michelle Terese Savage
 Johns Hopkins University <br>
 Senior DevOps Engineer for Galaxy Project

@@ -8,6 +8,9 @@ subsites: [all-eu, esg]
 supporters:
   - eurosciencegateway
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
   		

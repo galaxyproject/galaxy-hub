@@ -6,6 +6,9 @@ tags: [workflow, tools, COVID-19]
 authors: Wolfgang Maier
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - wm75
 ---
 
 With the recent appearance of novel SARS-CoV-2 lineages in the UK, South Africa

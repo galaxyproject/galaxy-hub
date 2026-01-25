@@ -6,7 +6,7 @@ tease: "The European Galaxy Team offers a Q&A session for all users"
 continent: EU
 location:
   name: "online"
-contact: "Anika Erxleben-Eggenhofer"
+contact: "Anika Erxleben"
 tags: [webinar]
 supporters:
 - eurosciencegateway
@@ -33,4 +33,4 @@ This live Q&A session gives you the opportunity to meet the European Galaxy Team
 - **Time**: 11-12:00 CEST
 - **Format**: online
 - **Registration**: [Click here to register](https://forms.gle/aqD1uaRUZQrAkFdD9) and you will receive the zoom link
-- **Contact**: Anika Erxleben-Eggenhofer ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
+- **Contact**: Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))

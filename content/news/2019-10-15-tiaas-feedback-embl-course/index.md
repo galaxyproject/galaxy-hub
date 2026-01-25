@@ -7,6 +7,12 @@ supporters:
 authors: [Jelle Scholtalbers, Charles Girardot]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - jellescholtalbers
+    - charlesgirardot
+  funding:
+    - galaxy-europe
 ---
 
 

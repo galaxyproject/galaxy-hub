@@ -4,6 +4,9 @@ tease: "For those that won't attend in person, the GCC Organizing Committee is h
 date: "2022-06-27"
 authors: Beatriz Serrano-Solano
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 As you may know, the [Galaxy Community Conference (GCC2022)](/events/gcc2022/) will take place in Minnesota this year. For those that won't attend in person, the GCC Organizing Committee is happy to announce a **virtual webinar-like option**.

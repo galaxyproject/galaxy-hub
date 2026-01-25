@@ -1,13 +1,18 @@
 ---
 title: "Satellite data for earth sciences"
 date: "2024-02-04"
-authors: Marie Jossé
+authors: Marie Josse
 tease: "Jupyterlabs and Notebooks for earth, environment, and climate sciences"
 hide_tease: false
 subsites: [all-eu,global, esg]
 tags: [esg, esg-wp5]
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - Marie59
+  funding:
+    - eurosciencegateway
 ---
 
 Some news on the progression of the [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu). 

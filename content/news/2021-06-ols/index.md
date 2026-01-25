@@ -13,6 +13,13 @@ supporters:
 authors: Bérénice Batut
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - elixir-europe
+    - eosc-life
+    - deNBI
 ---
 
 ![OLS-4 flyer](/assets/media/2021-06-28-ols.png){:.rna-intro-right style="max-height:400px;"}
@@ -34,7 +41,7 @@ In the 3rd cohort (OLS-3), [37 diverse projects](https://openlifesci.org/ols-3/p
     - By Teresa Müller, Alireza Khanteymoori, Masako Kaufmann, Florian Heyl
     - Mentored by Yvan Le Bras
 
-In the mentors and experts, several are involved in the Galaxy community (Bérénice Batut, Wendi Bacon, Mallory Freeberg, Hans-Rudolf Hotz, Yvan Le Bras, Prashanth N. Suravajhala, Harpreet Singh, Beatriz Serrano-Solano, Fotis Psomopoulos).
+In the mentors and experts, several are involved in the Galaxy community (Bérénice Batut, Wendi Bacon, Mallory Freeberg, Hans-Rudolf Hotz, Yvan Le Bras, Prashanth N. Suravajhala, Harpreet Singh, Beatriz Serrano-Solano, Fotis E. Psomopoulos).
 
 # Apply for OLS-4
 

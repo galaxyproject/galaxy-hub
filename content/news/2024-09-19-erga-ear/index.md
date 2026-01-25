@@ -4,6 +4,10 @@ date: "2024-09-19"
 authors: [Saim Momin, Diego De Panis]
 tease: "Discover more about the ERGA Assembly Report – a comprehensive, community-driven Genome assembly Quality Control Document."
 subsites: [global, eu, us, freiburg]
+contributions:
+  authorship:
+    - SaimMomin12
+    - diegodepanis
 ---
 
 # **The ERGA Assembly Report - a community-developed Genome Assembly QC Document Using Galaxy**

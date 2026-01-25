@@ -9,6 +9,11 @@ supporters:
 external_url: https://training.galaxyproject.org/training-material/news/2021/05/25/abbreviations-tag.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---
 
 <p>Thanks to the great tutorial developed by first time contributor Erik Schill and edited by Simon Bray, we noticed that they defined a number of abbreviations and re-used those throughout their tutorial.</p>

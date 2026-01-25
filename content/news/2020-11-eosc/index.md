@@ -8,4 +8,7 @@ source_blog: "EOSC-Nordic"
 source_blog_url: "https://www.eosc-nordic.eu/news-and-articles/"
 supporters: [eosc, eu, EOSC-Life]
 tags: [eosc, training]
+contributions:
+  authorship:
+    - annefou
 ---

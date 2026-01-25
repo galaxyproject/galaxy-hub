@@ -14,6 +14,14 @@ authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 components: true
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 ![Graphical Abstract](/assets/media/bhlogolo.png)

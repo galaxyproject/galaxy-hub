@@ -6,6 +6,10 @@ authors: [Engy Nasr, Saim Momin]
 subsites: [all-eu, global, us]
 tags: [GCB-2024, Bielefeld]
 main_subsite: eu
+contributions:
+  authorship:
+    - EngyNasr
+    - SaimMomin12
 ---
 
 The [German Conference of Bioinformatics (GCB) 2024](https://gcb2024.de/) took place in Bielefeld from September 30 to October 2, bringing together leading minds in bioinformatics to discuss the latest advancements in computational biology, microbiome research, genomics, and more. Representing the Galaxy community, Engy Nasr and Saim Momin attended, contributing with two poster presentations and participating in workshops, poster sessions, and stimulating talks. Here’s a recap of our experience and the conference highlights.

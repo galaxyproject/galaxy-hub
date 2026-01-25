@@ -10,6 +10,11 @@ supporters:
 authors: Marcel Schulz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - marcelschulz
+  funding:
+    - galaxy-europe
 ---
 
 ## Galaxy helps virtual teaching!

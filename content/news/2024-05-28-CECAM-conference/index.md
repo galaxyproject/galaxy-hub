@@ -9,6 +9,15 @@ tags: [esg, esg-wp5]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - leandro-liborio
+    - patrick-austin
+    - subindevdevadasan
+    - abrahamnievadelahidalga
+    - alejandragonzalezbeltran
+  funding:
+    - eurosciencegateway
 ---
 
 The [EuroScienceGateway (ESG)](https://galaxyproject.org/projects/esg/) team, working in the UK to develop Galaxy tools for materials science gave a talk on develop and engage: Sustainable software tools for large-scale facilities using the Galaxy platform at the [CECAM Psi-k Research Conference](https://www.cecam.org/workshop-details/electronic-structure-simulations-for-large-scale-facilities-opportunities-challenges-and-roadmaps-1207#program-1207) for Electronic-structure simulations for large-scale facilities: opportunities, challenges, and roadmaps.

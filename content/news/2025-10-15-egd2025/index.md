@@ -7,6 +7,17 @@ tags: [eosc, meeting, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conferen
 supporters: [eosc, unifreiburg, esg, elixir, eu]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+    - bgruening
+    - hrhotz
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - esg
+    - elixir-europe
+    - eu
 ---
 From **1–3 October 2025**, the [University of Freiburg](https://uni-freiburg.de/en/) hosted a packed, three-in-one meeting: [**European Galaxy Days (EGD)**,](https://galaxyproject.org/events/2025-10-01-egd2025/) the **[ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) face-to-face meeting**, and the **[EuroScienceGateway (ESG)](https://galaxyproject.org/projects/esg/) Final Meeting** with ~100 participants (87 in person + 12 online). Running side-by-side, these events created a special week where platform maintainers, tool and workflow developers, and domain scientists aligned roadmaps and moved from slides to practical solutions and future collaborations.
 
@@ -56,7 +67,7 @@ Slides & photos
 | [Laniakea Nebula: VPN-Based Isolation for Galaxy Private Deployments](https://f1000research.com/slides/14-1103) | Marco Antonio Tangaro |
 | [Exploring the Galaxy Training Network: What’s Here, What’s New](https://f1000research.com/slides/14-1104)| Teresa Müller |
 | [RO-Crate features in Galaxy (that you might already be using)](https://f1000research.com/slides/14-1105) | Eli Chadwick |
-| [EuroScienceGateway – Final Project Meeting (Work Package 1)](https://f1000research.com/slides/14-1106) | Armin Dadras, Anika Erxleben-Eggenhofer |
+| [EuroScienceGateway – Final Project Meeting (Work Package 1)](https://f1000research.com/slides/14-1106) | Armin Dadras, Anika Erxleben |
 | [Achievements of Work Package 2 of EuroScienceGateway – Stimulate FAIR and Reusable Research](https://f1000research.com/slides/14-1107) | Eli Chadwick, Stian Soiland-Reyes |
 | [Achievements of Work Package 3 of EuroScienceGateway – The European Pulsar Network and Open Infrastructure](https://f1000research.com/slides/14-1108) | Marco Antonio Tangaro |
 | [Achievements of Work Package 4 of EuroScienceGateway – Building Blocks for a Sustainable Operating Model](https://f1000research.com/slides/14-1109) | Sebastian Luna-Valero |
@@ -64,4 +75,4 @@ Slides & photos
 
 Thanks to the [University of Freiburg](https://uni-freiburg.de), [ELIXIR](https://elixir-europe.org/), the European Commission for making this event possible, and everyone who contributed talks, demos, code, and reviews. Community momentum is strong—the next community event is already underway. Are you ready for [GCC2026](https://galaxyproject.org/events/gcc2026/) in Clermont-Ferrand (France) from June 22-24 2026?
 
-![EGD2025 Group photo taken by Pavan Videm](./egd_group_photo.jpg)
+![EGD2025 Group photo taken by Pavankumar Videm](./egd_group_photo.jpg)

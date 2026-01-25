@@ -13,6 +13,13 @@ supporters:
   - elixir
   - eosc
 main_subsite: eu
+contributions:
+  authorship:
+    - mtangaro
+    - polinakhmelevskaia
+    - Federico77z
+  funding:
+    - eurosciencegateway
 ---
 
 The Italian National Galaxy Server, UseGalaxy.it, is under development as part of the EOSC [**EuroScienceGateway**](/projects/esg/) (ESG)

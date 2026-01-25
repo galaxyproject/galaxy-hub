@@ -4,6 +4,11 @@ tease: "Second blog post presenting the Outreachy project on Mental Health"
 authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-01"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 In our last blog post, we wrote a brief introduction to what the [Galaxy Well-being and Mental Health project](https://galaxyproject.org/blog/2022-06-29-galaxy-wellbeing-project/) is and what it entails. Now, let’s break down the key terms we are using in this project.

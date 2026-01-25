@@ -1126,7 +1126,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th rowspan=3> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
     <td rowspan=3> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/dan/'>Daniel Blankenberg</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -1159,7 +1159,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
   </tr>
   <tr>
     <td> <em>Poster 55: From the ground to the cloud in just minutes—Building a customized Galaxy analysis server using only a web browser</em> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -2437,7 +2437,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
   <tr>
     <td> <em><a href='http://www.gcb2014.de/localmedia/downloads/GCB2014_LNI.pdf'>BlockClust: efficient clustering and classification of non-coding RNAs from short read RNA-Seq profiles</a></em> </td>
     <td> </td>
-    <td> Pavan Videm </td>
+    <td> Pavankumar Videm </td>
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
@@ -3249,7 +3249,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Wrangling Galaxy’s reference data</em> </td>
     <td rowspan=6> <strong><a href='http://meetings.cshl.edu/meetings/2013/info13.shtml'>Genome Informatics</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <td> <em>Improving reproducibility using automated testing frameworks</em> </td>
@@ -3458,7 +3458,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
     <td> </td>
-    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 27 </th>
@@ -4291,7 +4291,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Staying on top of evolving best practices with Galaxy</em>, Poster </td>
     <td rowspan=3 style=" text-align:center;"> <strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://gmod.org/wiki/|GMOD'>http://gmod.org/wiki/|GMOD</a> in the Cloud</em> </td>
@@ -4452,7 +4452,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Best practices for variant discovery through Galaxy: Oscillating evolution within dual coding genes</a> </td>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Genome Informatics 2011</a>, Cold Spring Harbor, New York, United States </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 27 </th>
@@ -4480,7 +4480,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em><a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>Galaxy Update</a> and <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting#Galaxy_Workshop'>Galaxy Workshop</a></em><br />The workshop will cover an introduction to Galaxy, including analyzing data with tools and visualizations, using Galaxy in the cloud, and running your own instance and adding new tools.  </td>
     <td> <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>October 2011 GMOD Meeting</a>, Ontario Institute for Cancer Research (OICR), Toronto, Canada </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011GMODOctTalk.pdf'>Talk slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011GMODOctWorkshop.pdf'>Workshop slides</a>  </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 9-12 </th>
@@ -4522,7 +4522,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Galaxy for high-throughput NGS analysis</em> </td>
     <td> <a href='http://www.miptec.ch'>MipTec</a>, <a href='http://www.miptec.ch/fileadmin/files/2011/miptec2011/documents/user_group_meetings_pdf/NGS%20Symposium%20Part%201%20neu.pdf'>Next Generation Sequencing for Research and Clinical Genomics User Group</a>, Basel, Switzerland </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 12-20 </th>
@@ -4543,7 +4543,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong><a href='http://www.molecularevolution.org/workshops/WCG#wcgna'>Workshop on Comparative Genomics North America</a></strong><br />Includes a day long Galaxy session</td>
     <td> Fort Collins, Colorado, United States </td>
     <td>  </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <th> July 17-22 </th>
@@ -4599,7 +4599,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong>Using Galaxy Workshop</strong> </td>
     <td> University of Manchester, United Kingdom </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <th> April 13-14 </th>
@@ -4641,7 +4641,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong><a href='http://www.intl-pag.org/19/19-gmod.html#Galaxy'>Galaxy: Analyze, Visualize, Communicate</a></strong><br /><a href='http://www.intl-pag.org/'>Plant and Animal Genome XIX (PAG 2011)</a> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='http://gmod.org/mediawiki/images/a/ad/Pag_2011_galaxy_talk.pdf'>Slides</a> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
   <tr>
     <th> January 9-21 </th>
@@ -4717,6 +4717,6 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong>Animal Genomics with Galaxy: Analyze, Publish, and Visualize</strong><br /><a href='http://www.intl-pag.org/'>Plant and Animal Genome XVIII (PAG 2010)</a> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/PAG2010Galaxy.pdf'>Slides</a> </td>
-    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
   </tr>
 </table>

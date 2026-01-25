@@ -7,9 +7,16 @@ supporters:
 - elixir
 - denbi
 authors: 
-- Anika Erxleben-Eggenhofer
+- Anika Erxleben
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - galaxy-europe
+    - elixir-europe
+    - deNBI
 ---
 
 Many people are waiting for it! We are proud to present the first Galaxy training material on [ATACseq](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) data analysis. 

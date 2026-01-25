@@ -6,4 +6,7 @@ external_url: "https://galaxyworks.io/blog/choose-your-galaxy"
 date: "2021-03-01"
 source_blog: "GalaxyWorks Blog"
 source_blog_url: "https://galaxyworks.io/blog/"
+contributions:
+  authorship:
+    - afgane
 ---

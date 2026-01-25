@@ -7,6 +7,9 @@ location:
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students... we are spread all over the world!  

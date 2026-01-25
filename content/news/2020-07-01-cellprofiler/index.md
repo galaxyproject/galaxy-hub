@@ -11,6 +11,15 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eosc-life
+    - eubi
+    - elixir-europe
+    - idr
+    - galaxy-europe
 ---
 
 <br><br>

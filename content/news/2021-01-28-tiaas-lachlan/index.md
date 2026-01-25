@@ -7,6 +7,11 @@ supporters:
 authors: Lachlan Gray
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - lachlangray
+  funding:
+    - galaxy-europe
 ---
 
 <br>

@@ -228,7 +228,7 @@ Two funding opportunities are now open within the EU project [EOSC-Life](https:/
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[refgenie for Local Instances](/admin/refgenie/)</div>
 
-By [Dan Blankenberg](/people/dan/).
+By [Daniel Blankenberg](/people/dan/).
 
 How to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy.
 <img class="card-img-bottom" src="/images/logos/refgenie_logo.svg" alt="refgenie" />

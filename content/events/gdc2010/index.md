@@ -20,7 +20,7 @@ subsites: [global, us]
 ### May 15
 
 * [Deploying Galaxy on the Cloud](http://bitbucket.org/galaxy/galaxy-central/wiki/DevConf2010/galaxy_devconf_2010_cloud.pdf) - Enis Afgan
-* [Integrating and Scaling Analysis Tools](http://bitbucket.org/galaxy/galaxy-central/wiki/DevConf2010/galaxy_devconf_2010_integrating_scaling_tools.pdf) - Dan Blankenberg
+* [Integrating and Scaling Analysis Tools](http://bitbucket.org/galaxy/galaxy-central/wiki/DevConf2010/galaxy_devconf_2010_integrating_scaling_tools.pdf) - Daniel Blankenberg
 
 ### May 16
 

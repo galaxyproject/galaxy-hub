@@ -5,6 +5,9 @@ tags: [galaxy]
 authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 

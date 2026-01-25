@@ -5,6 +5,9 @@ tags: [training, FAQ]
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Geert Bonamie from [VIB Bioinformatics Core](https://www.bits.vib.be/), and part of [ELIXIR Belgium](https://www.elixir-belgium.org/), has created a fancy video introducing the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/).

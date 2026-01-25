@@ -8,6 +8,10 @@ supporters:
 - TIaaS
 subsites: [eu, erasmusmc]
 main_subsite: erasmusmc
+contributions:
+  funding:
+    - galaxy-europe
+    - TIaaS
 ---
 
 

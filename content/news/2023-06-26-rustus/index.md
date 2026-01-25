@@ -7,6 +7,9 @@ authors: "José Manuel Domínguez"
 tags: [EU]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - kysrpex
 ---
 
 [UseGalaxy.eu](https://usegalaxy.eu/) processes thousands of dataset uploads on a daily basis. File uploads in Galaxy are handled using the [tus](https://tus.io/) protocol. tus is open source and implemented as a layer on top of the [HTTP protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview). Its most remarkable feature is its resilience, as it allows uploads to be interrupted and resumed at any time, improving the user experience in unreliable networks.

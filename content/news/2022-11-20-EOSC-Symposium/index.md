@@ -11,6 +11,10 @@ supporters:
   - eu
   - unifreiburg
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
+    - eosc-life
 ---
 
 Over 500 stakeholders from ministries, policy makers, research organisations, service providers, research infrastructures and research communities across Europe and beyond met at the Symposium to reflect on the EOSC key achievements and strategic challenges, and to identify priorities and concrete actions at the European, national, and institutional level to speed up EOSC implementation.

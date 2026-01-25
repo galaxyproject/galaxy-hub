@@ -7,6 +7,9 @@ tags: [report]
 authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 The [ELIXIR](https://elixir-europe.org/sites/default/files/documents/annual-report-2020.pdf) and [IFB](https://www.france-bioinformatique.fr/en/activity-reports/) annual reports for 2020 are out. 

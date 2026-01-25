@@ -7,6 +7,12 @@ tease: "At CE-IUSSI 2025 in Szeged, the Freiburg Galaxy Team showcased how the F
 subsites: [all, esg]
 supporters: [unifreiburg, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - minamehr
+  funding:
+    - uni-freiburg
+    - esg
 ---
 
 The **Freiburg Galaxy Team** participated in the [Central European Section Meeting of the International Union for the Study of Social Insects (CE-IUSSI 2025)](http://ce-iussi-meeting-szeged2025.iussi.de/), held in Szeged, Hungary, from August 27–30, 2025.  

@@ -6,6 +6,9 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - ViCE
 ---
 
 Thanks to a [contribution](https://github.com/galaxyproteomics/tools-galaxyp/pull/216) from Melanie Föll ([Schilling Lab](https://www.mol-med.uni-freiburg.de/mom-en/schilling)) we have added tools for analysing

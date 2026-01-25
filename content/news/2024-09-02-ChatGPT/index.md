@@ -6,6 +6,10 @@ hide_tease: false
 authors: [Arash Kadkhodaei, Daniela Schneider]
 subsites: [global, eu, us, freiburg]
 tags: [tool]
+contributions:
+  authorship:
+    - arash77
+    - Sch-Da
 ---
 
 ## Using Large Language Models in complex workflows

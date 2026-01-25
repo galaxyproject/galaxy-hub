@@ -15,5 +15,8 @@ external_url: https://training.galaxyproject.org/training-material/news/2025/03/
 tease: 'With a huge thanks to ELIXIR-UK’s DaSH Fellowship funding, we are delighted
   to present our new Learning Pathway, “Bioinformatics Projects: Using deconvolution
   to get new insights from old bulk RNA-seq”.'
+contributions:
+  authorship:
+    - nomadscientist
 ---
 With a huge thanks to ELIXIR-UK’s DaSH Fellowship funding, we are delighted to present our new Learning Pathway, “Bioinformatics Projects: Using deconvolution to get new insights from old bulk RNA-seq”.

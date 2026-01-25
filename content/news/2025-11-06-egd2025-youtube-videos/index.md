@@ -7,6 +7,15 @@ tags: [eosc, meeting, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conferen
 supporters: [eosc, unifreiburg, esg, elixir, eu]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - esg
+    - elixir-europe
+    - eu
 ---
 Couldn’t join European Galaxy Days 2025 in Freiburg, or want to revisit your favorite sessions? Many of the talks from EGD2025 are now available as recordings in our dedicated YouTube playlist:
 

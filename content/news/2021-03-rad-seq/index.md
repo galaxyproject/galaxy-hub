@@ -6,6 +6,9 @@ tags: [tools, data]
 authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 [Yvan Le Bras](https://twitter.com/Yvan2935) reminded us today that everyone can analyse RADseq data in Galaxy.

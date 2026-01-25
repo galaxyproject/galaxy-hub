@@ -8,6 +8,12 @@ tags: [esg, esg-wp5, tiaas]
 supporters:
   - eurosciencegateway
   - unifreiburg
+contributions:
+  authorship:
+    - SaimMomin12
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 The field of genomics has been transformed by high-throughput sequencing and computational platforms, with Galaxy emerging as a pivotal resource for genome assembly and annotation. Developed as an open-source, web-based platform, Galaxy facilitates reproducible, scalable, and accessible genomic analyses. Its contributions span tailored tools, involvement in landmark biodiversity projects, innovative quality control developments, and extensive training initiatives.

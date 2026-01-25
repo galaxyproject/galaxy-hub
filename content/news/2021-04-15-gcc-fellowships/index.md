@@ -6,6 +6,9 @@ external_url: https://galaxyproject.org/news/2021-04-gcc-fellowships
 authors: Dave Clements
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - tnabtaf
 ---
 
 If you are a student or researcher in a developing economy, then please consider applying.  Fellowships cover all conference costs. Applications are due 7 May.

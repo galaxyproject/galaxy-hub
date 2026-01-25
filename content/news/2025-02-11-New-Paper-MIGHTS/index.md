@@ -10,6 +10,11 @@ supporters:
 - nomadscientist
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  funding:
+    - Camila-goclowski
+    - wee-snufkin
+    - nomadscientist
 ---
 
 We are excited to announce the Gigascience publication of the Galaxy Single Cell Team’s manuscript entitled [“Galaxy as a gateway to bioinformatics: Multi-Interface Galaxy Hands-on Training Suite (MIGHTS) for scRNA-seq”](https://doi.org/10.1093/gigascience/giae107). The suite presents 11 tutorials spanning the alignment of scRNA sequencing reads, filtering, plotting, and exploring preliminary data through differential expression analyses and trajectory inferences. The use of parallel learning pathways (both [button based](https://gxy.io/GTN:P00020) and [programming environments](https://gxy.io/GTN:P00024)) enables scRNA-seq analysis for anyone who’s interested—no matter their experience with bioinformatics nor their comfort with coding. We hope MIGHTS will empower its users to embrace bioinformatics to whatever extent they seek inspire them to explore further [training materials in the single-cell domain]({% link topics/single-cell %})!

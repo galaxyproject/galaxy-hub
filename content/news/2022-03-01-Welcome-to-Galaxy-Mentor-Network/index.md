@@ -7,4 +7,10 @@ date: "2022-03-01"
 source_blog: "Galaxy Mentor Network"
 source_blog_url: "https://galaxy-mentor-network.netlify.app/"
 autotoc: false
+contributions:
+  authorship:
+    - Chinonyemildred
+    - rahmot
+    - bebatut
+    - assuntad23
 ---

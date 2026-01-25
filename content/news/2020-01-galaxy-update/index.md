@@ -241,7 +241,7 @@ Includes [genetic, methylome, and transcriptome data](https://usegalaxy.eu/libra
 
 </div>
 
-By Yvan Le Bras, Simon Bénateau.
+By Yvan Le Bras, Simon Benateau.
 
 Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science.
 

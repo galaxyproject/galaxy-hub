@@ -7,6 +7,14 @@ tags: [esg-wp5, esg]
 subsites: [global, all, esg]
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - mirelaminkova
+    - magdalenaharakalova
+    - torfinnnome
+    - vazovn
+  funding:
+    - eurosciencegateway
 ---
 
 We are excited to announce that researchers from The Netherlands and Norway are developing a GDPR-compliant Galaxy clone. 

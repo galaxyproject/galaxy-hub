@@ -7,6 +7,9 @@ authors: Natalie Whitaker-Allen
 tags: [Release]
 subsites: [global, all]
 main_subsite: us
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # June 2023 Galaxy Release (v 23.1)

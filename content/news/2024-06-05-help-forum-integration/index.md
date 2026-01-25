@@ -6,6 +6,9 @@ authors: "Laila Los"
 date: "2024-06-05"
 tags: ["UI/UX", "highlight"]
 subsites: [global]
+contributions:
+  authorship:
+    - ElectronicBlueberry
 ---
 
 Galaxy's Community Help Forum contains a trove of valuable information when it comes to using, understanding and trouble shooting complex tools.

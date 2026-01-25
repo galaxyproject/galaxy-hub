@@ -5,6 +5,9 @@ authors: Natalie Whitaker-Allen
 tease: "Join us in June 2026 in the volcanic heart of Clermont-Ferrand for a week of collaboration, discovery, and open science."
 hide_tease: false
 subsites: [global, all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # GCC2026: The Galaxy Community is Heading to Clermont-Ferrand, France\!

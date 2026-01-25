@@ -5,6 +5,9 @@ tags: [training, PGP, data]
 authors: Wolfgang Maier
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - wm75
 ---
 
 The [Personal Genome Project UK](https://www.personalgenomes.org.uk/) (PGP-UK)

@@ -10,6 +10,11 @@ supporters:
 external_url: https://training.galaxyproject.org/training-material/news/2021/07/28/feedback.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---
 
 <p>As you have probably already seen, a feedback form is embedded on the bottom of each tutorial.</p>

@@ -13,6 +13,16 @@ supporters:
   - madland
 subsites: [global, freiburg, eu, esg]
 tags: [esg,madland,de.nbi,nfdi4plants,dataplant]
+contributions:
+  authorship:
+    - deeptivarshney
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - deNBI
+    - dataplant
+    - galaxy-europe
+    - madland
 ---
 #### MBP2025 - Molecular Biology of Plants 2025
 

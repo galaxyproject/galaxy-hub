@@ -6,6 +6,9 @@ authors: "Rendani Gangazhe"
 date: "2023-07-11"
 tags: ["UI/UX", "highlight"]
 subsites: [global, all]
+contributions:
+  authorship:
+    - rendanigangazhe
 ---
 
 Hello, I'm Rendani, a front-end developer and computer science student working in the Galaxy Freiburg team. For my bachelor project, I had the pleasure of

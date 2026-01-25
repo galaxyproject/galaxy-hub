@@ -5,6 +5,10 @@ authors: [Bert Bogaerts, Kevin Vanneste]
 tease: "Know How Sciensano harnesses Galaxy for Advanced Microbial Genomics, Precision Typing, and Rapid Outbreak Detection"
 subsites: [global,eu,all]
 main_subsite: eu
+contributions:
+  authorship:
+    - bertbogaerts
+    - kevinvanneste
 ---
 
 ## Introduction

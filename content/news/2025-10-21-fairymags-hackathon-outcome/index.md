@@ -13,7 +13,10 @@ tags:
 - microbial
 - metagenomics
 - fairymags
-
+contributions:
+  authorship:
+    - paulzierep
+    - bebatut
 ---
 
 # 🧬 Introduction

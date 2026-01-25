@@ -5,6 +5,9 @@ authors: Ross Lazarus
 tease: "A tool generating interactive HTML scatter plots from Galaxy tabular data is now available for testing"
 hide_tease: true
 subsites: [all]
+contributions:
+  authorship:
+    - fubar2
 ---
 
 ### Sample use case - Iris data scatterplot with mouse-over hover showing species in Galaxy

@@ -6,6 +6,9 @@ supporters:
 - galaxy-europe
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - galaxy-europe
 ---
 
 We recently had the privilege of using the usegalaxy.eu's new [Training

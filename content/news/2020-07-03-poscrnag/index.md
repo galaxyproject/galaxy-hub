@@ -7,6 +7,11 @@ supporters:
 authors: Mehmet Tekman
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - mtekman
+  funding:
+    - galaxy-europe
 ---
 
 We will be hosting a single-cell RNA-seq training workshop [at BCC](https://bcc2020.sched.com/event/c7TP/processing-of-single-cell-rna-seq-data-with-galaxy), 

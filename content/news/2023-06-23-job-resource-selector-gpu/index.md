@@ -11,6 +11,14 @@ supporters:
   - unifreiburg
   - denbi
 main_subsite: eu
+contributions:
+  authorship:
+    - anuprulez
+    - kysrpex
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - deNBI
 ---
 
 The European Galaxy server relies on the compute nodes provided by the [de.NBI-Cloud](https://www.denbi.de/cloud). Did you know that some of them are **GPU-enabled**?

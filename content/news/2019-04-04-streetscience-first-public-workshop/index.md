@@ -6,6 +6,9 @@ tags: [streetscience, society]
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 On the 31st of March, we held our first public workshop for the BeerDEcoded project in Freiburg.

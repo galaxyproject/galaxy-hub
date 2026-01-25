@@ -5,6 +5,12 @@ tease: "Thanks to the outcome of a small Galaxy/Bioconductor hackathon earlier t
 hide_tease: false
 authors: [Charlotte Soneson, Federico Marini, Björn Grüning, Hans-Rudolf Hotz]
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - charlottesoneson
+    - federicomarini
+    - bgruening
+    - hrhotz
 ---
 
 During the EuroBioC2022 conference in Heidelberg, Germany, a group of participants gathered to discuss [R/Shiny applications](https://shiny.posit.co/), with particular focus on those included in Bioconductor packages. During the discussion, it was suggested that Galaxy may be a good venue for hosting such apps, as a complement to, e.g., shinyapps.io, where the free tier may not provide enough computational and storage capacity for practical usage of all apps. Although, some R/Shiny apps already existed as Galaxy interactive tools, e.g. [iSEE](https://usegalaxy.eu/root?tool_id=interactive_tool_isee), it became evident during a later discussion between Galaxy and Bioconductor representatives, that more work towards setting up (generally usable) templates would be necessary to simplify the inclusion of more apps. These templates should make it easy to make any Shiny app (not only coming from the Bioconductor environment) available in Galaxy and other frameworks.

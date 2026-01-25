@@ -11,6 +11,12 @@ supporters:
 authors: Nevena Veljkovic
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - nevenaveljkovic
+  funding:
+    - galaxy-europe
+    - TIaaS
 ---
 
 This semester, the [Faculty of Biology at the University of Belgrade](http://bg.ac.rs/en/members/faculties/FB.php){:target="_blank"} offered for the first time

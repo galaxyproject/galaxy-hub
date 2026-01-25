@@ -6,6 +6,10 @@ authors: [Wolfgang Maier, Björn Grüning]
 tags: [Freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - wm75
+    - bgruening
 ---
 
 A [statement signed by an impressive number of German-speaking scientists](https://handeln-statt-kriminalisieren.com/) defends peaceful, but bold forms of protest of groups of climate activists, like the "Letzte Generation" ("Last generation") in Germany and Austria.

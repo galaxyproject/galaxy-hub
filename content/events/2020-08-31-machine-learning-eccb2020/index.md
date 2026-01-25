@@ -43,7 +43,7 @@ This tutorial is aimed towards scientists active in Life Sciences (graduate stud
 * Anup Kumar, Ph.D. student at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
 * Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
 * Björn Grüning, Postdoc Researcher at the University of Freiburg and Head of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
-* Fotis Psomopoulos, Principal Investigator at the Institute of Applied Biosciences (INAB) Centre for Research and Technology Hellas (CERTH).
+* Fotis E. Psomopoulos, Principal Investigator at the Institute of Applied Biosciences (INAB) Centre for Research and Technology Hellas (CERTH).
 
 
 ### Organizers

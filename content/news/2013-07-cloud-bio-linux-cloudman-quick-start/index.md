@@ -6,4 +6,7 @@ authors: "John Chilton"
 external_url: "https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md"
 source_blog_url: https://github.com/chapmanb/cloudbiolinux/ 
 source_blog: "CloudBioLinux Repo"
+contributions:
+  authorship:
+    - jmchilton
 ---

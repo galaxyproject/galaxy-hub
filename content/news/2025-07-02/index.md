@@ -7,6 +7,9 @@ authors: "Mirela Minkova"
 tags: [elixir-nl, eosc, geant, surf, eu]
 subsites: [all]
 main_subsite: eu
+contributions:
+  authorship:
+    - mirelaminkova
 ---
 
 # Galaxy is now supported inside SURF Research Cloud

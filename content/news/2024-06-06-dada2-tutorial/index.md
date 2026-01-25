@@ -14,6 +14,8 @@ tease: 'The GTN hosts its 400th tutorial: Building an amplicon sequence variant 
   table from 16S data using DADA2'
 title: 'New Galaxy training: Building an amplicon sequence variant (ASV) table from
   16S data using DADA2'
-
+contributions:
+  authorship:
+    - bebatut
 ---
 The GTN hosts its 400th tutorial: Building an amplicon sequence variant (ASV) table from 16S data using DADA2

@@ -13,6 +13,9 @@ supporters:
   - eu
   - oscars
   - fiesta
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 ![OSCARS logo](/images/logos/OSCARS_logo.png)

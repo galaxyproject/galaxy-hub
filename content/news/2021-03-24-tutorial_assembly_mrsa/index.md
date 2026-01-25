@@ -6,6 +6,12 @@ tags: [training, gtn-news]
 title: "[GTN news] New Tutorials: Genome assembly of a MRSA genome"
 authors: [Bazante Sanders, Miaomiao Zhou, Helena Rasche, Saskia Hiltemann]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/03/24/tutorial_assembly_mrsa.html'
+contributions:
+  authorship:
+    - bazante1
+    - miaomiaozhou88
+    - hexylena
+    - shiltemann
 ---
 
 Two new assembly tutorials have been added to the GTN! These tutorials walk you through the

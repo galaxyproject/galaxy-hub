@@ -13,6 +13,9 @@ supporters:
   - unifreiburg
   - denbi
   - elixir
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 The [EOSC EU Node](https://open-science-cloud.ec.europa.eu/) was officially launched in the [EOSC Symposium 2024](https://eosc.eu/symposium2024/) in October in Berlin (Germany). This is the first of a series of upcoming nodes to build the [EOSC Federation](https://eosc.eu/building-the-eosc-federation/). The EOSC EU Node is a platform that primarily supports multi-disciplinary and multi-national research promoting the use of [FAIR](https://www.nature.com/articles/sdata201618) (Findable, Accessible, Interoperable, Reusable) data and supplementary services in Europe and beyond.

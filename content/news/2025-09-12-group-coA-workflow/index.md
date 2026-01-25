@@ -7,6 +7,12 @@ tease: "A new Galaxy workflow supports group-based co-assembly, helping research
 subsites: [all, esg]
 supporters: [unifreiburg, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - minamehr
+  funding:
+    - uni-freiburg
+    - esg
 ---
 
 

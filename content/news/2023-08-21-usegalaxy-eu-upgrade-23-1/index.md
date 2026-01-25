@@ -10,6 +10,12 @@ tags: [esg, esg-wp1]
 supporters:
   - eurosciencegateway
   - unifreiburg
+contributions:
+  authorship:
+    - kysrpex
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 <div class="alert" style="background: #2cd6ff;">

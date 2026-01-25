@@ -7,6 +7,11 @@ supporters:
 authors: Rodrigo Ortega Polo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - rodrigoortegapolo
+  funding:
+    - galaxy-europe
 ---
 
 An introductory workshop to bacterial whole-genome sequence analysis was delivered from December 9-12, 2019 in the [Lethbridge Research and Development Centre](https://www.agr.gc.ca)

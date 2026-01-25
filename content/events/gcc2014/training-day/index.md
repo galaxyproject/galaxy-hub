@@ -61,7 +61,7 @@ Meeting participants select which Training Day topics to attend when they [regis
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/events/gcc2014/training-day/#rna-seq-analysis-with-galaxy-and-alternative-tools'>RNA-Seq Analysis with Galaxy and Alternative Tools</a></strong> <div class='indent'> <a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'>Saskia Hiltemann</a>, Youri Hoogstrate & <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/events/gcc2014/training-day/#tool-development-from-bright-idea-to-toolshed-data-managers'>Tool Development from bright idea to toolshed - Data Managers</a></strong><div class='indent'> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a> & <a href='/people/dan/'>Dan Blankenberg</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/events/gcc2014/training-day/#tool-development-from-bright-idea-to-toolshed-data-managers'>Tool Development from bright idea to toolshed - Data Managers</a></strong><div class='indent'> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a> & <a href='/people/dan/'>Daniel Blankenberg</a> </div> </td>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/events/gcc2014/training-day/#visualization-of-ngs-data'>Visualization of NGS data</a></strong><div class='indent'><a href='/people/jeremy-goecks/'>Jeremy Goecks</a> and <a href='/people/guerler/'>Aysam Guerler</a></div> </td>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/events/gcc2014/training-day/#scriptable-bioinformatics-cloud-infrastructures-with-cloud-biolinux-cloudman-galaxy'>Scriptable Bioinformatics Cloud Infrastructures with Cloud BioLinux, CloudMan & Galaxy</a></strong> <div class='indent'><a href='http://www.jcvi.org/cms/about/bios/kkrampis/'>Ntino Krampis</a>, <a href='/people/enis-afgan/'>Enis Afgan</a>, <a href='http://www.linkedin.com/in/rsanka'>Ravi Sanka</a>, <a href='http://bcbio.wordpress.com/about/'>Brad Chapman</a> </div> </td>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/events/gcc2014/training-day/##galaxy-on-a-cluster-user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
@@ -353,7 +353,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a>, <a href='http://umn.edu'>University of Minnesota</a><br /><a href='/people/dan/'>Dan Blankenberg</a>, <a href='http://www.psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a>, <a href='http://umn.edu'>University of Minnesota</a><br /><a href='/people/dan/'>Daniel Blankenberg</a>, <a href='http://www.psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>

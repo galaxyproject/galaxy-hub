@@ -11,6 +11,12 @@ supporters:
   - eurosciencegateway
   - unifreiburg
 main_subsite: eu
+contributions:
+  authorship:
+    - mira-miracoli
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 <img src=https://upload.wikimedia.org/wikipedia/commons/1/1b/Traefik.logo.png alt="Traefik Gopher Logo - a stylized gopher with glowsticks and safety vest acting as a pilot" height="200" style="float:right" />
 

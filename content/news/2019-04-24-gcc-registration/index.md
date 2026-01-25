@@ -7,6 +7,9 @@ location:
 authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - hexylena
 ---
 
 [GCC2019](https://galaxyproject.org/events/gcc2019/) will be held 1-8 July in Freiburg, Germany. The tenth GCC will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest. 2019 also brings the most significant conference program update in several years! [Find out more on the event page](https://galaxyproject.org/events/gcc2019/).

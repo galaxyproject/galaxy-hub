@@ -8,6 +8,9 @@ location:
 authors: Björn Grüning
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
 ---
 
 We've seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback.

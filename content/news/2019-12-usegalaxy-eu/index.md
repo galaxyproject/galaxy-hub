@@ -7,9 +7,15 @@ supporters:
 - denbi
 - elixir
 authors: 
-- Anika Erxleben-Eggenhofer
+- Anika Erxleben
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This week [we](https://usegalaxy-eu.github.io/freiburg/people) have reached a huge milestone! 

@@ -6,4 +6,7 @@ authors: "Quang Trinh"
 external_url: "https://github.com/modENCODE-DCC/Galaxy/blob/master/docs/README.how.to.launch.Galaxy"
 source_blog_url: "https://github.com/modENCODE-DCC/Galaxy/" 
 source_blog: "modENCODE-DCC: Galaxy GitHub Repo"
+contributions:
+  authorship:
+    - quangtrinh
 ---

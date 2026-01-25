@@ -7,6 +7,9 @@ hide_tease: true
 authors: Gianmauro Cuccuru
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - gmauro
 ---
 
 The Freiburg galaxy team reviewed the Usegalaxy.eu software stack, looking for the presence of vulnerable versions of the Log4j library. 

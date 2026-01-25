@@ -7,6 +7,10 @@ authors: [Mira Kuntz, Helena Rasche]
 tags: [EU]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - mira-miracoli
+    - hexylena
 ---
 
 

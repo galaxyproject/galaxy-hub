@@ -9,6 +9,12 @@ external_url: https://docs.galaxyproject.org/en/release_21.05/releases/21.05_ann
 authors: Gianmauro Cuccuru
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - gmauro
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 UseGalaxy.eu has been updated to version 21.05. 

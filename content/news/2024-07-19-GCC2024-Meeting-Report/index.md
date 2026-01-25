@@ -6,6 +6,17 @@ authors: [Natalie Whitaker-Allen, Marisa Loach, Morgan Howells, Stuart Jackson, 
 date: "2024-07-19"
 subsites: [global,all, all-eu, esg]
 tags: [esg, esg-wp1, esg-wp5, meeting]
+contributions:
+  authorship:
+    - natalie-wa
+    - MarisaJL
+    - hexhowells
+    - stuartjackson
+    - wee-snufkin
+    - EngyNasr
+    - nataliapadilloanthemides
+    - shwdey
+    - plushz
 ---
 
 ![GCC2024 Logo](gcc2024-banner.png)

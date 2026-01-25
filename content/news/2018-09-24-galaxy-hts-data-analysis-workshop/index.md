@@ -18,7 +18,7 @@ During this week, the [Freiburg Galaxy Team](https://usegalaxy.eu/freiburg/) and
 
 - Monday 17th: HTS and Galaxy presentations and introduction by Thomas Manke and Björn Grüning, with the help of Mehmet Tekman
 - Tuesday 18th: Quality control, Mapping, ChIP-seq analysis by Bérénice Batut and Leily Rabbani, with the help of Devon Ryan
-- Wednesday 19th: RNA-seq analysis by Anika Erxleben and Bérénice Batut, with the help of Pavan Videm and Mehmet Tekman
+- Wednesday 19th: RNA-seq analysis by Anika Erxleben and Bérénice Batut, with the help of Pavankumar Videm and Mehmet Tekman
 - Thursday 20nd: HiC data analysis by Ralf Gilsbach and Joachim Wolff, with the help of Björn Grüning
 - Friday 21st: Exercises & discussion with Björn Grüning and Mehmet Tekman
 

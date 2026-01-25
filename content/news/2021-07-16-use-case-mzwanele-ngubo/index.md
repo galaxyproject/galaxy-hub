@@ -5,6 +5,9 @@ tags: [UseCase]
 authors: Mzwanele Ngubo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - mzwanelengubo
 ---
 
 __Mzwanele Ngubo__ uses Galaxy for cancer research at [The Ottawa Hospital Research Institute, Regenerative Medicine, Ottawa (Canada)](http://www.ohri.ca/programs/regenerative_medicine/default.asp). Thanks Mzwanele!

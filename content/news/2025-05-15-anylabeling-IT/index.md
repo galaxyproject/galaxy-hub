@@ -8,6 +8,11 @@ subsites: [all-eu, global]
 supporters: nfdi4bioimage
 tags: [imaging, nfdi, nfdi4bioimaging, tool]
 main_subsite: eu
+contributions:
+  authorship:
+    - sunyi000
+  funding:
+    - nfdi4bioimage
 ---
 
 AnyLabeling is now available for the imaging community to use in Galaxy Europe!

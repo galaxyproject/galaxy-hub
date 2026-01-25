@@ -13,6 +13,11 @@ supporters:
 subsites: [freiburg, eu, esg]
 tags: [esg,elixir,galaxy, esg-wp1, year-in-review]
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 The Freiburg Galaxy Team took several opportunities to present Galaxy as a FAIR 
 data analysis and workflow management system, computing platform, training 

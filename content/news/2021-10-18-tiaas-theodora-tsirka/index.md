@@ -15,6 +15,12 @@ supporters:
 authors: Theodora Tsirka
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - theodoratsirka
+  funding:
+    - galaxy-europe
+    - eosc-life
 ---
  
 We have received feedback about TIaaS from Dr. Theodora Tsirka, during the Training School on Microbiome Sequencing and Data Analysis, in the context of OMIC-Engine Research infrastructure.

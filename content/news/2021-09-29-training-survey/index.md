@@ -6,6 +6,9 @@ external_url: https://training.galaxyproject.org/training-material/news/2021/09/
 authors: Bérénice Batut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
 ---
 
 Do you use Galaxy for Training? Have your say! Please take a few minutes to let us know about your training experiences.

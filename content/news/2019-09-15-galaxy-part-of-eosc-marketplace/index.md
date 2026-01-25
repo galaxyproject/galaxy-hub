@@ -9,6 +9,13 @@ supporters:
 authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
+    - eosc-life
 ---
 
 Since a few days, the European Galaxy server is part of the [European Open Science Cloud marketplace](https://marketplace.eosc-portal.eu/services/european-galaxy-server).

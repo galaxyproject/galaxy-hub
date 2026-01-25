@@ -6,6 +6,9 @@ tags: [UseCase]
 authors: "Sheu Tijani Olawale Abogunloko"
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - sheutijaniolawaleabogunloko
 ---
 
 With this article we like to share Sheu-Tijani's experience with usegalaxy.eu and its use for his research.

@@ -7,6 +7,9 @@ tags: [training]
 authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 Last week, the Freiburg Galaxy team taught a 5-day workshop on HTS data analysis in Freiburg!

@@ -8,6 +8,9 @@ subsites: [all-eu, esg, all]
 supporters:
   - eurosciencegateway
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 Astronomical observations are diverse and unique, maintaining their scientific value for centuries. This lead the astronomical community to develop traditions and practices of data preservation and interoperability in Astronomical Data Archives. Modern astronomical observatories produce large, nearing exoscale, amounts of data, 

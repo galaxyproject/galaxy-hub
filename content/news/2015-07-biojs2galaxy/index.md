@@ -6,5 +6,8 @@ authors: [Benedikt Rauscher, Benjamen White]
 external_url: "http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/"
 source_blog_url: "http://www.benjamenwhite.com"
 source_blog: "Benjamen White's Blog"
-
+contributions:
+  authorship:
+    - benediktrauscher
+    - benjamenwhite
 ---

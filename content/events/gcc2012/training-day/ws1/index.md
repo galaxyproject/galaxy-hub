@@ -33,7 +33,7 @@ usage: %prog maf_file [options]
    -z, --mafIndexFile=z: Directory of local maf index file ( maf_index.loc or maf_pairwise.loc )
 """
 
-#Dan Blankenberg
+#Daniel Blankenberg
 from galaxy import eggs
 import pkg_resources; pkg_resources.require( "bx-python" )
 from bx.cookbook import doc_optparse

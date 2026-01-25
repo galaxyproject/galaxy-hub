@@ -6,6 +6,9 @@ authors: "Riccardo Massei"
 tags: [fair, imaging, pipelines, workflow]
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - rmassei
 ---
 
 ## The GloBIAS BioImage Analysis (BIA) seminar series

@@ -7,6 +7,9 @@ location:
 authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - hexylena
 ---
 
 We had to clear the queue due to an emergency today. We had noticed that a

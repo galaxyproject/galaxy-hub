@@ -6,7 +6,7 @@ tease: "Unlock the power of the Galaxy-VGP workflow in this hands-on webinar and
 continent: NA
 location: "Online"
 external_url: "https://arimagenomics.com/an-introduction-to-scaffolding-with-hi-c-data-in-galaxy/"
-contact: "Delphine Larivière, Ibrahim Jivanjee"
+contact: "Delphine Lariviere, Ibrahim Jivanjee"
 tags: [training]
 subsites: [all]
 ---

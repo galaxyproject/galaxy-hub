@@ -11,6 +11,14 @@ supporters:
   - eu
   - eosc
   - unifrieburg
+contributions:
+  authorship:
+    - abretaud
+    - rlibouba
+    - hexylena
+    - bgruening
+  funding:
+    - eurosciencegateway
 ---
 
 ## Galaxy Genome Annotation

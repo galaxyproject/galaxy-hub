@@ -5,6 +5,9 @@ tags: [s4f, society]
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 From a recent [Nature article](https://www.nature.com/articles/s41559-019-0979-y):

@@ -9,6 +9,13 @@ supporters:
 authors: Mehmet Tekman
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - mtekman
+  funding:
+    - dataplant
+    - deNBI
+    - biodaten
 ---
 
 The single-cell materials in the Galaxy Training Network (GTN) have [once again expanded](https://training.galaxyproject.org/training-material/search?query=single-cell), with welcome contributions from [Cristobal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/) and [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/) of the Freiburg Galaxy Team, and [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/) of the EMBL European Bioinformatics Institute (EMBL-EBI). The new tutorials focus on [multiple sample analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html) and [plant datasets](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html), both using the new version (1.7) of the fantastic ScanPy tool suite and the [Jupyter Notebooks](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html) hosted on Galaxy.

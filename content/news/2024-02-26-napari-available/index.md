@@ -6,6 +6,10 @@ tease: "Use Napari in the European Galaxy Server as an interactive tool"
 hide_tease: false
 subsites: [all-eu, global]
 main_subsite: eu
+contributions:
+  authorship:
+    - sunyi000
+    - beatrizserrano
 ---
 
 Napari is now available for the imaging community to use in Galaxy Europe!

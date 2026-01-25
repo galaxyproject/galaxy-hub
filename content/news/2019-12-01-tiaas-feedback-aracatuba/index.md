@@ -6,6 +6,9 @@ supporters:
 - galaxy-europe
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - galaxy-europe
 ---
 
 Hi [Galaxy team](https://galaxyproject.eu/freiburg/)!

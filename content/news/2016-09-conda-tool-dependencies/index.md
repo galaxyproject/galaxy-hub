@@ -6,4 +6,7 @@ authors: "Björn Grüning"
 external_url: "http://gigasciencejournal.com/blog/guest-posting-introducing-conda-for-galaxy/"
 source_blog_url: "http://gigasciencejournal.com/blog/"
 source_blog: "(GIGA)Blog"
+contributions:
+  authorship:
+    - bgruening
 ---

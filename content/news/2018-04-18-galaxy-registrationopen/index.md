@@ -8,6 +8,9 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
 ---
 
 The registration for our next Galaxy Workshop on HTS data analysis from 17-21 September 2018 in Freiburg is open.

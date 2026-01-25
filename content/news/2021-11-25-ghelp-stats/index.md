@@ -6,9 +6,14 @@ hide_tease: true
 tags: [galaxy, support, society, report, covid-19]
 supporters:
 - galaxy-europe
-authors: Cristóbal Gallardo Alba
+authors: Cristóbal Gallardo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - gallardoalba
+  funding:
+    - galaxy-europe
 ---
 
 As part of the Galaxy Community, you have probably visited the [Galaxy Help Forum](https://help.galaxyproject.org/) (GHelp). This website, together with the different Matrix channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.

@@ -10,6 +10,11 @@ supporters:
 authors: Simon Bray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - eosc-life
 ---
 
 Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published. 

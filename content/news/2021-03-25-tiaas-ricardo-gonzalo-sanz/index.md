@@ -7,6 +7,11 @@ supporters:
 authors: Ricardo Gonzalo Sanz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - ricardogonzalosanz
+  funding:
+    - galaxy-europe
 ---
 
 

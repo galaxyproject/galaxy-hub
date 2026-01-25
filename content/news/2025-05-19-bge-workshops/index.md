@@ -6,6 +6,10 @@ tease: "Using the Galaxy infrastructure and workflows to teach de-novo genome as
 subsites: [global,eu,all]
 tags: [tiaas]
 main_subsite: eu
+contributions:
+  authorship:
+    - tbrown91
+    - diegodepanis
 ---
 
 ## Biodiversity Genomics in Europe

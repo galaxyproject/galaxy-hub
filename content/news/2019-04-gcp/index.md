@@ -5,6 +5,10 @@ authors: [Enis Afgan, Vahid Jalili]
 tease: "Get on the cloud, Google Cloud!"
 image: "/news/2019-04-gcp/ggcp.png"
 highlight: true
+contributions:
+  authorship:
+    - afgane
+    - vahidjalili
 ---
 
 The Galaxy project has long embraced support and integration with cloud

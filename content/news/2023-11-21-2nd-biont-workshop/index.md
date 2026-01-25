@@ -7,6 +7,14 @@ hide_tease: false
 tags: [training, workshop]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - silviadg87
+    - teresa-m
+    - lisanna
+    - isabellaparedescisneros
+    - pubudusanethsamarakoon
+    - bebatut
 ---
 
 The [BioNT](http://biont-training.eu/) consortium is dedicated to **providing a comprehensive training program** and **fostering a community for digital skills** relevant to the **biotechnology industry and biomedical sector**. With a curriculum tailored for both beginners and advanced professionals, BioNT aims to equip individuals with the necessary expertise in handling, processing, and visualising biological data, as well as utilising computational biology tools. Leveraging the consortium's strong background in digital literacy training and extensive network of collaborations, BioNT is poised to **professionalise life sciences data management, processing, and analysis skills**.

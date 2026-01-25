@@ -15,7 +15,7 @@ This is the workshop page for the **[Tool Development from bright idea to toolsh
 This workshop is offered on June 30, from 3:30 through 6pm, in Room 304 of Charles Commons.
 
 
-## Presenters: Dan Blankenberg and Jim Johnson
+## Presenters: Daniel Blankenberg and Jim Johnson
 
 ## Summary
 

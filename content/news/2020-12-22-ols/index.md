@@ -14,6 +14,13 @@ supporters:
 authors: Bérénice Batut
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - elixir-europe
+    - eosc-life
+    - deNBI
 ---
 
 [Open Life Science (OLS)](https://openlifesci.org/) is an **online mentoring & training program** to help **individuals and stakeholders in research** to become **Open Science ambassadors**. Participants of this program learn essential knowledge required to create, lead, and sustain an Open Science project, connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise.

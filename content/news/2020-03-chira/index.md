@@ -5,9 +5,12 @@ date: '2020-03-24'
 tease: an integrated framework for Chimeric Read Analysis from RNA-RNA interactome
   data
 tags: [tools]
-authors: Pavan Videm
+authors: Pavankumar Videm
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - pavanvidem
 ---
 
 ChiRA is a set of tools to analyze RNA-RNA interactome experimental data such as CLASH, CLEAR-CLIP, PARIS, LIGR-Seq, etc.

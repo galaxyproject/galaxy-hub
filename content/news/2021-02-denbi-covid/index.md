@@ -8,6 +8,11 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
 ---
 
 <br>

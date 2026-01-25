@@ -7,6 +7,11 @@ supporters:
 authors: Denny Popp
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - dennypopp
+  funding:
+    - galaxy-europe
 ---
 
 For a 1-day course on long read sequencing for (meta)genomics I was looking for a powerful, easy-to-use computational infrastructure. 

@@ -11,6 +11,14 @@ supporters:
   - eurosciencegateway
   - unifreiburg
   - elixir
+contributions:
+  authorship:
+    - sebastian-schaaf
+    - bgruening
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 <div class="float-right" style="max-width: 400px">
 	

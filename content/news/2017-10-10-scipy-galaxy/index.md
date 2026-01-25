@@ -5,6 +5,9 @@ tease: ""
 authors: "Björn Grüning"
 image: /news/2017-10-10-scipy-galaxy/sci-py-kit-learn.png
 tags: [tools]
+contributions:
+  authorship:
+    - bgruening
 ---
 
 [Numpy](http://www.numpy.org), [SciPy](https://www.scipy.org), [scikit-learn](http://scikit-learn.org),

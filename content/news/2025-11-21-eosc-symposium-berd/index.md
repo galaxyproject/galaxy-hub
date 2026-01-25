@@ -7,6 +7,12 @@ tags: [eosc, berd, nfdi, symposium, fair, automation, text-mining, esg, esg-wp1,
 supporters: [eosc, esg, eu]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - eosc-life
+    - esg
 ---
 At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/), there was an interesting lightning talk about "BERD@NFDI – Galaxy Project B-Plan Use Case," presented in a compelling screencast and a dedicated Lightning Talk by Dr. Felicitas Sommer. This project tackles a difficult challenge: making the regulatory information from thousands of unstructured dataset such as land-use plans accessible for interdisciplinary research. For the [Galaxy Project](https://galaxyproject.org/), this use case is a promising story of collaboration, demonstrating how our open platform serves as a critical engine for data analysis and FAIR data-practices in new research domains.
 

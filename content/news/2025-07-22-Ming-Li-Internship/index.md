@@ -6,6 +6,11 @@ tease: "My internship experience with assembling genomes and annotating them dur
 subsites: [all]
 supporters:
   - unifreiburg
+contributions:
+  authorship:
+    - mingli
+  funding:
+    - uni-freiburg
 ---
 
 I am Ming Li, a Master’s student in Pharmaceutical Sciences at the University of Freiburg. From May 19 to June 30 2025, I had the opportunity to carry out my six-week internship on "Genome Assembly and Annotation using Galaxy". This immersive internship experience offered hands-on exposure to bioinformatics workflows through Galaxy’s rich ecosystem of tutorials and tools.

@@ -7,6 +7,14 @@ authors: José Manuel Domínguez
 subsites: [all,esg]
 tags: [esg, esg-wp2, "new feature", "research data management"]
 supporters: [eurosciencegateway, unifreiburg, elixir, nfdi]
+contributions:
+  authorship:
+    - kysrpex
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
+    - nfdi
 ---
 
 [RSpace](https://www.researchspace.com/) is an open-source research data management system (RDM) and electronic lab

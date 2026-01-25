@@ -9,4 +9,9 @@ supporters:
 - gallantries
 date: "2021-12-14"
 subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---

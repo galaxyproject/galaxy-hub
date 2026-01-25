@@ -4,9 +4,14 @@ date: '2019-11-08'
 supporters:
 - galaxy-europe
 authors: 
-- Anika Erxleben-Eggenhofer
+- Anika Erxleben
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - galaxy-europe
 ---
 
 Sivarkumar is working at the [Centre for Cellular and Molecular Biology (CCMB)](https://www.ccmb.res.in) on *de novo* genome assembly of Capparis urophylla. We received his feedback and want to share it with you. Thanks a lot for using Galaxy, Sivakumar!

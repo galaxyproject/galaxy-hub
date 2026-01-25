@@ -5,4 +5,8 @@ authors: [Erin Becker, Francois Michonneau]
 tease: "What goes into a major lesson update?"
 external_url: "https://carpentries.org/blog/2019/07/genomics-relaunch/"
 source_blog: "Carpentries Blog"
+contributions:
+  authorship:
+    - erinbecker
+    - francoismichonneau
 ---

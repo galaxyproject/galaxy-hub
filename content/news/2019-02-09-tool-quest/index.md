@@ -10,6 +10,12 @@ supporters:
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - bmbf
 ---
 
 Last week we got a request from on of our users with a tricky question:

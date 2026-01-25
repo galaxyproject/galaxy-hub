@@ -5,6 +5,9 @@ date: '2023-03-31'
 tags: [assembly, news, tiaas]
 authors: Linelle Abueg
 subsites: [global, all]
+contributions:
+  authorship:
+    - abueg
 ---
 
 ## Using Galaxy's training infrastructure as a service (TIaaS) to teach hands-on genome assembly and annotation

@@ -7,7 +7,7 @@ continent: EU
 location:
   name: "University of Freiburg, Germany"
 gtn: true
-contact: "Anika Erxleben-Eggenhofer"
+contact: "Anika Erxleben"
 tags: [workshop, training, esg, esg-wp1]
 supporters:
 - dataplant
@@ -23,7 +23,7 @@ subsites: [all,esg]
 - **Location**: Werthmannstrasse 4, 79104 Freiburg
 - **Time**: 9am-5pm CEST
 - **Cost**: Free
-- **Contact**: Anika Erxleben-Eggenhofer ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
+- **Contact**: Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
 
 # Pedagogical information
 
@@ -54,7 +54,7 @@ The number of places in this workshop is limited. The course takes place only in
 
 Please apply [here with this form](https://forms.gle/rxfeuDowNgmMkRAn7) for a spot in the workshop. Participants will be informed about their selection until end of May 2024.
 
-If you have further questions, please contact Anika Erxleben-Eggenhofer ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
+If you have further questions, please contact Anika Erxleben ([erxleben@informatik.uni-freiburg.de](mailto:erxleben@informatik.uni-freiburg.de))
 
 # Supporters
 

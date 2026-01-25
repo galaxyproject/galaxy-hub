@@ -9,6 +9,12 @@ subsites: [all-eu, esg]
 supporters:
   - eurosciencegateway
 main_subsite: eu
+contributions:
+  authorship:
+    - mtangaro
+    - Federico77z
+  funding:
+    - eurosciencegateway
 ---
 
 # Building a distributed compute network across Europe

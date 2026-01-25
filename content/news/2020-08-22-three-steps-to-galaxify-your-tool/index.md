@@ -11,6 +11,15 @@ supporters:
 authors: [Björn Grüning, David López]
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+    - davelopez
+  funding:
+    - deNBI
+    - elixir-europe
+    - dataplant
+    - uni-freiburg
 ---
 
 In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers.

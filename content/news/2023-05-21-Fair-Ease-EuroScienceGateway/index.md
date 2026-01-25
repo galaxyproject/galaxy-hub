@@ -1,7 +1,7 @@
 ---
 title: "Stronger together: first FAIR-EASE and EuroScienceGateway workshop" 
 tease: "Presenting some outcomes from the first joined FAIR-EASE / EuroScienceGateway workshop"
-authors: [Marie Jossé, Björn Grüning, Yvan Le Bras]
+authors: [Marie Josse, Björn Grüning, Yvan Le Bras]
 date: "2023-05-22"
 tags: [esg, esg-wp5, esg-wp1, collaboration, outreach]
 subsites: [all-eu, esg,]
@@ -12,6 +12,13 @@ supporters:
   - unifreiburg
   - denbi
 main_subsite: eu
+contributions:
+  authorship:
+    - Marie59
+    - bgruening
+    - yvanlebras
+  funding:
+    - eurosciencegateway
 ---
 
 ![EOSC EuroScienceGateway](images/eurosciencegateway.png)

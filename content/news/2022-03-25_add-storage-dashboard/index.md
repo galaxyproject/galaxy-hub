@@ -7,6 +7,9 @@ autotoc: false
 authors: David López
 tags: ['UI-UX', 'feature', 'highlight']
 subsites: [global]
+contributions:
+  authorship:
+    - davelopez
 ---
 
 This PR adds a new `Storage Dashboard` feature to the Galaxy client. It is my first "big" PR for the frontend so I will appreciate comments on style, best practices, patterns, and recommendations!

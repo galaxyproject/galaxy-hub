@@ -7,6 +7,9 @@ location:
 authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - hexylena
 ---
 
 We will upgrade to 19.09 tomorrow morning at 9am local time (2019-10-03 09:00:00 CEST). We expect the process to take ~1 hour.

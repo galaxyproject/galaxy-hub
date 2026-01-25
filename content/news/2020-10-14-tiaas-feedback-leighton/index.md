@@ -8,6 +8,11 @@ supporters:
 authors: Leighton Pritchard
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - leightonpritchard
+  funding:
+    - galaxy-europe
 ---
 
 The [BM425 Advanced Microbiology module](https://www.strath.ac.uk/courses/undergraduate/microbiologybsc/) at the [University of Strathclyde](https://www.strath.ac.uk/) is a final-year course that aims to help students understand the genomic basis, molecular biology, structure and function of microbial systems and their interactions with the environment. 

@@ -4,6 +4,10 @@ date: "2024-05-28"
 authors: [Teresa Müller, Sanjay Kumar Srikakulam]
 tease: "Two talks about Galaxy, Meta-scheduling and the GTN at the NeIC 2024 - Nordic e-Infrastructure Collaboration Conference (Nordic e-Infrastructure Tomorrow)"
 subsites: [all-eu]
+contributions:
+  authorship:
+    - teresa-m
+    - sanjaysrikakulam
 ---
 
 

@@ -14,6 +14,12 @@ supporters:
 authors: Abdus Salam
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - abdussalam
+  funding:
+    - galaxy-europe
+    - eosc-life
 ---
 
 We have received some feedback about TIaaS from Abdus Salam:

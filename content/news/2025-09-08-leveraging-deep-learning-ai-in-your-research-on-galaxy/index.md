@@ -4,6 +4,10 @@ date: "2025-09-08"
 tease: "New AI/ML tools and tutorials on Galaxy for your biomedical research"
 authors: [Michelle Terese Savage, Anup Kumar]
 subsites: [all]
+contributions:
+  authorship:
+    - hujambo-dunia
+    - anuprulez
 ---
 
 # Leveraging Deep Learning & AI in Your Research on Galaxy

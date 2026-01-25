@@ -29,7 +29,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Daniel Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div></td>
     <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/'>Enis Afgan</a> & <a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
@@ -51,7 +51,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
     <th style=" text-align: right;"> 2:00 </th>
     <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg-vonkuster/'>Greg von Kuster</a> & <a href='/people/nate/'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Daniel Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
@@ -96,7 +96,7 @@ See the [Virtual Machine page](/events/gcc2012/training-day/vms/) for instructio
 
 | Title |  WS1: Integrating Tools and Data Sources |
 | :----: | ---- |
-| **Instructors** | Dan Blankenberg & Ross Lazarus; Penn State University and BakerIDI |
+| **Instructors** | Daniel Blankenberg & Ross Lazarus; Penn State University and BakerIDI |
 | **Content** | Learn to integrate new tools and data sources into your Galaxy installation, including complex tool parameter forms. |
 | **Prerequisites** | Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. <br />Root access to a Galaxy server (your own, the conference provided virtual machine image that you installed before arriving, or that you got installed in Workshop 5). We strongly recommend that you use the conference provided virtual machine image and have it installed and running before arriving at the conference. <br />A "simple" executable tool you would like to wrap that takes and/or creates existing Galaxy datatypes like bed/fastq/bam etc such as one of the bedTools executables. |
 | **Results** | You will have wrapped and installed tools and data sources in a Galaxy server, and be familiar with basic and advanced tool definition in Galaxy. |

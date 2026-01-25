@@ -10,6 +10,12 @@ supporters:
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - bmbf
 ---
 
 The [CernVM File System (CVMFS)](https://cernvm.cern.ch/portal/filesystem){:target="_blank"} provides a scalable, reliable and softare and data distribution service.

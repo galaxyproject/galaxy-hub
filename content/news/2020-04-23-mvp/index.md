@@ -12,6 +12,12 @@ supporters:
 authors: Subina Mehta
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - subinamehta
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Proteogenomics, enables new insights into understanding the complex biological systems by integrating genomics/transcriptomics with mass spectrometry based proteomics data.

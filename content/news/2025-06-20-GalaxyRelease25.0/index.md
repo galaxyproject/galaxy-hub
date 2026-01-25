@@ -6,6 +6,10 @@ hide_tease: false
 authors: [Natalie Whitaker-Allen, Ahmed Hamid Awan]
 subsites: [all]
 external_url: https://docs.galaxyproject.org/en/master/releases/25.0_announce_user.html
+contributions:
+  authorship:
+    - natalie-wa
+    - ahmedhamidawan
 ---
 
 We’re thrilled to announce the release of Galaxy 25.0, now live across public Galaxy servers\! This update introduces significant enhancements to dataset collections, visualizations, workflow management, interactive tools, and the interface in general, all designed to streamline your analysis pipelines and make Galaxy even more powerful for researchers at all levels.

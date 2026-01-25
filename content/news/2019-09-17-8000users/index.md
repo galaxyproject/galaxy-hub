@@ -6,9 +6,15 @@ supporters:
 - denbi
 - elixir
 authors: 
-- Anika Erxleben-Eggenhofer
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

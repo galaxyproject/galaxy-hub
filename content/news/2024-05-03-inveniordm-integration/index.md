@@ -6,6 +6,9 @@ authors: "David López"
 date: "2024-05-03"
 tags: ["UI/UX", "highlight"]
 subsites: [global, all]
+contributions:
+  authorship:
+    - davelopez
 ---
 
 > ⚠️ **Update Available:**  

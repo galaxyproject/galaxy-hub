@@ -3,6 +3,9 @@ title: "How I Learned to Wrap Tools from the Galaxy EU Team"
 date: "2024-11-05"
 authors: "Marisa Loach"
 tease: "An ELIXIR Staff Exchange to expand the single cell tools on Galaxy"
+contributions:
+  authorship:
+    - MarisaJL
 ---
 I am currently a PhD student at The Open University in the UK, where I reanalyse public single cell RNA sequencing data using Galaxy to explore how cells change in disease. However, I recently took a break from my project to learn how to add more tools to the Galaxy platform. As [my poster at GCC2024](https://f1000research.com/posters/13-806) explained, I went from being a user who wished for more tools to being a user-developer who can wrap those tools for herself.
 
@@ -55,5 +58,5 @@ The whole process gave me a deeper understanding of the tools as I had to decide
 
 I really enjoyed tool wrapping as it allowed me to spend my days solving puzzles. Although it took a lot of work to wrap the entire Seurat pipeline, it was very rewarding to see the tools I wrapped appear on Galaxy and to know that people like me would soon be using them. I would definitely recommend anyone who is curious about tool wrapping to give it a go, especially if there's a tool that you wish was available on Galaxy. The GTN has some [tutorials](https://training.galaxyproject.org/training-material/topics/dev/) that can help you to get started and I'm sure that any Galaxy community would be just as happy as the [Single cell and SPatial Omics Community (SPOC)](https://galaxyproject.org/community/sig/singlecell/) to welcome new contributors.
 
-Thanks to the **ELIXIR Staff Exchange Programme** for funding the project, Pavan Videm for getting me started with tool wrapping, and my hosts at the University of Freiburg for helping me to make the most of my time in Germany!
+Thanks to the **ELIXIR Staff Exchange Programme** for funding the project, Pavankumar Videm for getting me started with tool wrapping, and my hosts at the University of Freiburg for helping me to make the most of my time in Germany!
 

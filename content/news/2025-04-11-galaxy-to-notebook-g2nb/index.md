@@ -7,6 +7,10 @@ doi: 10.26502/jbsb.5107096
 date: "2025-04-11"
 tags: [jupyter,news,paper]
 subsites: [global,all]
+contributions:
+  authorship:
+    - thorintabor
+    - michaelreich
 ---
 
 The Galaxy and Jupyter ecosystems bring two different, successful approaches to the problem of accessible, reproducible bioinformatics research. Galaxy provides thousands of bioinformatics tools in a web-accessible format, removing the need for installation, compatibility issues, and compute resource allocation. Jupyter offers the ability to combine scientific exposition and executable code into a single research narrative document. To bring these approaches together, we have developed Genomics to Notebook ([g2nb](http://www.g2nb.org)), an environment that integrates Jupyter with Galaxy and other bioinformatics platforms, allowing Galaxy analyses to be created as notebook cells and providing non-programming scientists with accessibility to thousands of bioinformatics tools from within a notebook interface.

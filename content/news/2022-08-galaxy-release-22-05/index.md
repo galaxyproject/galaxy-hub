@@ -4,6 +4,9 @@ tease: New History, Storage Dashboard, Bulk History Operations, Deferred Dataset
 date: '2022-08-23'
 subsites: [global, us]
 authors: Helena Rasche
+contributions:
+  authorship:
+    - hexylena
 ---
 
 Dear Community,

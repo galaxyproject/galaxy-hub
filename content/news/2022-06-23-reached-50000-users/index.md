@@ -7,6 +7,32 @@ supporters: [denbi, elixir, dataplant, crc1425, crc992, biolytix, converge, byco
 authors: Beatriz Serrano-Solano
 components: true
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
+    - dataplant
+    - crc1425
+    - crc992
+    - biolytix
+    - converge
+    - bycovid
+    - healthycloud
+    - eosc-life
+    - gallantries
+    - pari
+    - neic
+    - miracum
+    - biodaten
+    - egi
+    - corbel
+    - bmbf
+    - dfg
+    - uni-freiburg
+    - galaxy-freiburg
+    - galaxy-europe
 ---
 
 <div class="center">

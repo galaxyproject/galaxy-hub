@@ -5,6 +5,10 @@ authors: [Mohammad Joudy, Anup Kumar]
 tease: "Identify Label Issues in Machine Learning Datasets Using Cleanlab"
 hide_tease: true
 subsites: [all-eu,global,all]
+contributions:
+  authorship:
+    - mohammadjoudy
+    - anuprulez
 ---
 
 ### Quality control ML datasets

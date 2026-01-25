@@ -6,4 +6,7 @@ authors: "Kostas Karasavvas"
 external_url: "http://rubygems.org/gems/workflow-to-galaxy)"
 source_blog_url: "http://rubygems.org/)" 
 source_blog: "RubyGems.org"
+contributions:
+  authorship:
+    - kostaskarasavvas
 ---

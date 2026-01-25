@@ -14,6 +14,9 @@ tease: "Galaxy users can now browse the Hugging Face Hub as a repository source,
 subsites: [global,eu,us]
 main_subsite: freiburg
 tags: [tools]
+contributions:
+  authorship:
+    - anuprulez
 ---
 
 

@@ -11,6 +11,9 @@ tags:
 - single-cell
 - spatial-omics
 - galaxy
+contributions:
+  authorship:
+    - dianichj
 ---
 
 We’re thrilled to share our new publication in *Cell Genomics*:  

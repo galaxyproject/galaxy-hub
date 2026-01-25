@@ -8,6 +8,9 @@ authors: "Mira Kuntz"
 contact: "kuntzm@informatik.uni-freiburg.de"
 subsites: [eu, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - mira-miracoli
 ---
 
 <img src="sanbi.jpg" alt="Workshop's participants standing in front of a monitor showing the two online participants" hight="300" />

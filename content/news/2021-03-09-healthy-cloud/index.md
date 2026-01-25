@@ -7,6 +7,11 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - healthycloud
 ---
 
 <br>

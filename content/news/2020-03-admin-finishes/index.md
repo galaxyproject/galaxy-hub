@@ -10,6 +10,13 @@ supporters:
 authors: Helena Rasche
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - hexylena
+  funding:
+    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

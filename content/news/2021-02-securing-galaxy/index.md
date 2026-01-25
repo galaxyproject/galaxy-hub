@@ -6,4 +6,8 @@ external_url: "https://blog.trustedci.org/2021/02/trusted-ci-and-sgci-collaborat
 date: "2021-02-03"
 source_blog: "Trusted CI Blog"
 source_blog_url: "https://blog.trustedci.org/"
+contributions:
+  authorship:
+    - kellishute
+    - afgane
 ---

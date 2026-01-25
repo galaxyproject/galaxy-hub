@@ -5,6 +5,9 @@ tags: [GCC]
 authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 The Freiburg Galaxy Team participated in the [Galaxy Community Conference 2021](https://gcc2021.sched.com/) with:

@@ -6,6 +6,9 @@ tags: []
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Providing computational resources for free is a challenging task. The Galaxy community is committed to open science and as such, it brings resources that researchers can use in the form of tools and education. As a public resource, those efforts need to go back to society, and this is one of these cases! We have received this letter and we loved it! Thank you so much!

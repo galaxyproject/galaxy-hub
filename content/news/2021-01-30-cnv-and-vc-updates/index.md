@@ -9,6 +9,12 @@ supporters:
 authors: Wolfgang Maier
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - wm75
+  funding:
+    - galaxy-europe
+    - miracum
 ---
 
 <table><tr><td>

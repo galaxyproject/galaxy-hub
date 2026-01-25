@@ -5,6 +5,10 @@ authors: [Enis Afgan, Nuwan Goonasekera]
 tease: "Expand your compute horizons."
 image: "/news/2019-05-gcr/gcr.png"
 highlight: true
+contributions:
+  authorship:
+    - afgane
+    - nuwang
 ---
 
 Did you ever feel the need for speed, as in more compute capacity on your Galaxy

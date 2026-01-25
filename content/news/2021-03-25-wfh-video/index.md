@@ -14,6 +14,14 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - biodaten
+    - dataplant
+    - eosc-life
+    - deNBI
 ---
 
 Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),

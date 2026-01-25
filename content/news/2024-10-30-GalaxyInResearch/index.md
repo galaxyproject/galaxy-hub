@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-10-30"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Galaxy in Research: Microbial life at Arctic hydrothermal vents**

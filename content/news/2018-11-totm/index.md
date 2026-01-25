@@ -4,6 +4,9 @@ title: 'Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected
 authors: "Bérénice Batut"
 subsites: [global, eu, us, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 The Galaxy community is developing and maintaining a collection of tutorials that are designed to be interactive and are built around Galaxy: [https://training.galaxyproject.org](https://training.galaxyproject.org). These tutorials can be used for learning and teaching how to use Galaxy for general data analysis, and for learning/teaching specific domains such as assembly and differential gene expression analysis with RNA-Seq data. These materials are targetting both self-paced individual learners and instructors.
@@ -41,7 +44,7 @@ I think it is also one of tutorials most often taught during workshops, so all t
 
 ---
 
-Thanks to Saskia for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Clemens Blank, Anika Erxleben, Mallory Freeberg, Maria Doyle, Mo Heydarian, Nicola Soranzo, Pavan Videm and Peter van Heusden who developed and contributed to this tutorial.
+Thanks to Saskia for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Clemens Blank, Anika Erxleben, Mallory Freeberg, Maria Doyle, Mo Heydarian, Nicola Soranzo, Pavankumar Videm and Peter van Heusden who developed and contributed to this tutorial.
 
 We recommend going through this [nice tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), using it for self-learning or during workshops. Enjoy it!
 

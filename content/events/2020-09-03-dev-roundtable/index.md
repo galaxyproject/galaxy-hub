@@ -10,7 +10,7 @@ image:
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Alexandru Mahmoud, John Chilton"
+contact: "Alex Mahmoud, John Chilton"
 tags: [ "devroundtable" ]
 subsites: [global, us]
 ---

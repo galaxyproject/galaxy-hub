@@ -4,6 +4,11 @@ tease: "Fourth blog post presenting the Outreachy project on Mental Health"
 authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-13"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 This is a [continuation blog post](https://galaxyproject.org/blog/2022-07-06-galaxy-wellbeing-blog-3/) mentioning common challenges in open-source communities which can affect one’s well-being and mental health.

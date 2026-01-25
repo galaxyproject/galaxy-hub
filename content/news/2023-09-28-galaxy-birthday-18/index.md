@@ -7,6 +7,9 @@ authors: Sebastian Schaaf
 tags: [birthday]
 subsites: [all, all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - sebastian-schaaf
 ---
 
 <img class="img-fluid float-right" src="./galaxy18.png" style="width:250px;" alt="Happy birthday to Galaxy"/>

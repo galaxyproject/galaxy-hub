@@ -11,7 +11,7 @@ import linkbox from "../../linkbox.json"
 
 # Introduction to tools and data sources
 
-## Presenters: Dan Blankenberg and Ross Lazarus
+## Presenters: Daniel Blankenberg and Ross Lazarus
 
 ### Summary
 

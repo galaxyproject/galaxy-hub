@@ -6,4 +6,7 @@ authors: "Scott Edmunds"
 external_url: "http://gigasciencejournal.com/blog/usegalaxy-lights-up-northern-skies/"
 source_blog_url: "http://gigasciencejournal.com/blog/"
 source_blog: "(GIGA)Blog"
+contributions:
+  authorship:
+    - scottedmunds
 ---

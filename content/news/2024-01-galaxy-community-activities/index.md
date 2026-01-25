@@ -5,6 +5,9 @@ date: '2024-01-15'
 tags: [community, tools]
 authors: Leonid Kostrykin
 subsites: [all]
+contributions:
+  authorship:
+    - kostrykin
 ---
 
 <div class="row">

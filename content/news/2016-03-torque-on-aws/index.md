@@ -6,4 +6,7 @@ authors: "Alex Kanterakis"
 external_url: https://gist.github.com/kantale/b7fecd62da22a1523aa2
 source_blog_url: "https://gist.github.com/kantale"
 source_blog: "Alexandros Kanterakis's Gist"
+contributions:
+  authorship:
+    - alexkanterakis
 ---

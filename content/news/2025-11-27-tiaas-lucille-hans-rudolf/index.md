@@ -8,6 +8,12 @@ tease: 'Teaching about galaxy and its workflow capabilities.'
 hide_tease: true
 authors: [Lucille Delisle, Hans-Rudolf Hotz]
 subsites: [all-eu]
+contributions:
+  authorship:
+    - lldelisle
+    - hrhotz
+  funding:
+    - galaxy-europe
 ---
 
 This year, we were offering a training called "Analyze your NGS data in few clicks" to life science PhD students at the University of Geneva.

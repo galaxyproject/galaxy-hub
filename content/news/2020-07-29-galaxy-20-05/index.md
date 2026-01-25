@@ -8,6 +8,12 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We've updated our Galaxy server to **version 20.05**. This version includes the **migration to Python 3** and improves usability in the aspects listed below.

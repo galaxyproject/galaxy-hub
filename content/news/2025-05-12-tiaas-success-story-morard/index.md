@@ -7,6 +7,15 @@ supporters: [eosc, eu, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu
 authors: Miguel Morard
+contributions:
+  authorship:
+    - miguelmorard
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - elixir-europe
+    - eurosciencegateway
 ---
 As part of the [Master's program in R&D in Biotechnology and Biomedicine at the University of
 Valencia (Spain)](https://www.uv.es/uvweb/college/en/postgraduate-courses/official-master-s-degrees/official-master-s-degrees-offered/master-s-degree-research-development-biotechnology-biomedicine-1285848941532/Titulacio.html?id=1285956361839), I ([Miguel Morard](https://scholar.google.es/citations?user=_j3v1hMAAAAJ&hl=en)) teach a practical course on [Bioinformatic techniques](https://www.uv.es/uvweb/undergraduate-degree-human-nutrition-dietetics/en/after-degree/official-master-s-degree/uv-master-s-degrees-catalogue-1285933577299.html?idA=44696&idT=2224;2025), with a strong focus on

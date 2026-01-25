@@ -6,4 +6,8 @@ external_url: "https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sb
 date: "2021-03-15"
 source_blog: "Gallantries Blog"
 source_blog_url: "https://gallantries.github.io/posts"
+contributions:
+  authorship:
+    - shiltemann
+    - hexylena
 ---

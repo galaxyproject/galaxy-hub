@@ -7,9 +7,12 @@ location:
 supporters:
 - denbi
 authors: 
-- Anika Erxleben-Eggenhofer
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
 ---
 
 The registration for our next Galaxy Workshop on HTS data analysis from 23-27 September 2019 in Freiburg is open.

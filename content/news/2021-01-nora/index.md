@@ -8,6 +8,11 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - uni-freiburg
 ---
 
 A new framework for medical imaging research, [Nora](https://www.nora-imaging.com/), has been added to the Galaxy visualisations. Nora has been developed by Dr. Marco Reisert and Dr. Elias Kellner at the

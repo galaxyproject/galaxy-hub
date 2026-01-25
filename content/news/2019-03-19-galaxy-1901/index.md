@@ -5,6 +5,9 @@ tags: [release]
 authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - hexylena
 ---
 
 We've updated our Galaxy server to version 19.01.

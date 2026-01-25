@@ -8,6 +8,11 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - ViCE
 ---
 
 We just updated our Galaxy server to version 17.09! Actually this was done by [H. Rasche](https://usegalaxy-eu.github.io/freiburg/people),

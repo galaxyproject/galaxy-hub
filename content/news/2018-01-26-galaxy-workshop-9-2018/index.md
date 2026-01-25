@@ -8,6 +8,9 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
 ---
 
 Because many people already asked: The autumn Galaxy Workshop on high-throughput data analysis will take place from 17.-21.9.2018 here in Freiburg.

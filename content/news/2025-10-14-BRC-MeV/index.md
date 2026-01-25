@@ -10,6 +10,9 @@ tags:
 - paper
 - brc-analytics
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-10.1101%2F2025.10.13.682095-blue?logo=doi&labelColor=555)](https://doi.org/10.1101/2025.10.13.682095)

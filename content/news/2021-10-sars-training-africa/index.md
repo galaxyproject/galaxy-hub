@@ -7,4 +7,7 @@ date: "2021-10-10"
 source_blog: "SASBi News"
 source_blog_url: "https://depot.galaxyproject.org/hub/attachments/blog/2021-10-sars-training-africa/sasbi-newsletter-2021-10.pdf"
 tags: [newsletter, covid-19]
+contributions:
+  authorship:
+    - pvanheus
 ---

@@ -16,6 +16,19 @@ supporters:
 subsites: [all-eu, global, us, esg]
 tags: [gcc, CoFest, training, Elixir, EOSC, Brno, esg, esg-wp1, meeting, outreach, talk]
 main_subsite: eu
+contributions:
+  authorship:
+    - freiburggalaxyteam
+  funding:
+    - JXTX Foundation
+    - Worfklow4Metabelomics
+    - GalaxyWorks
+    - GigaScience
+    - KWS
+    - Limagrain
+    - deNBI
+    - uni-freiburg
+    - eurosciencegateway
 ---
 
 The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024.
@@ -62,7 +75,7 @@ emphasizing the community's dedication to education and collaboration. The Freib
 - **MAdLand Computational Resources Through Galaxy** by Deepti Varshney, Saskia Hiltemann, and Björn Grüning
 - **Community-Driven Standards Development for Reference Genome Generation** by Saim Momin and Björn Grüning
 - **WALL·E – Prevent Abuse of Interactive Research Environments** by Mira Kuntz
-- **Expanding Horizons: Single-Cell Multiomics Analysis Tools in Galaxy** by Pavan Videm
+- **Expanding Horizons: Single-Cell Multiomics Analysis Tools in Galaxy** by Pavankumar Videm
 - **Giving the Single Cell Community the Tools It Needs on Galaxy – an ELIXIR Staff Exchange Project** by Marisa Loach
 - **microGalaxy SIG: Microbial Data Analysis Resources in Galaxy** by Paul Zierep, Engy Nasr, and Saim Momin
 

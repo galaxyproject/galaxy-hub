@@ -7,6 +7,9 @@ authors: John Davis
 tags: [Release]
 subsites: [global, all]
 main_subsite: us
+contributions:
+  authorship:
+    - jdavcs
 ---
 
 # 2023 Galaxy Release (v 23.2)

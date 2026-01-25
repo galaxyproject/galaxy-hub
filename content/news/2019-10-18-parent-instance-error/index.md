@@ -7,6 +7,9 @@ location:
 authors: Gianmauro Cuccuru
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - gmauro
 ---
 
 UseGalaxy.eu is currently facing some issues with tools execution and it may take us a while to find a solution.  

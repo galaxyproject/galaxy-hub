@@ -7,6 +7,9 @@ authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 supporters: [unifreiburg, denbi]
+contributions:
+  authorship:
+    - bgruening
 ---
 
 

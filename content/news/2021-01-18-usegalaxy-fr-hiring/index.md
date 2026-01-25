@@ -5,6 +5,9 @@ tags: [jobs, devops, galaxy]
 authors: Gildas Le Corguillé
 subsites: [eu, ifb, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - lecorguille
 ---
 
 <br>

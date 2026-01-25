@@ -7,6 +7,9 @@ authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 supporters: [eosc, eu, unifreiburg, EOSC-Life]
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Within the 1st [EOSC-Life](https://www.eosc-portal.eu/eosc-life) Training Open Call, two out of four proposals have been awarded to the

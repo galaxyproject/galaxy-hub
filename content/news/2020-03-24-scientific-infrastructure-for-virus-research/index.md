@@ -6,6 +6,9 @@ external_url: https://www.pr.uni-freiburg.de/pm-en/press-releases-2020/scientifi
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 

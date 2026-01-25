@@ -11,6 +11,13 @@ supporters:
 - ELIXIR
 components: true
 subsites: [all-eu]
+contributions:
+  authorship:
+    - EngyNasr
+    - paulzierep
+  funding:
+    - DECHEMA
+    - elixir-europe
 ---
 
 From the 11th to the 14th of Semptember, Engy Nasr (I) and Paul Zierep from the Freiburg Galaxy team travelled to Hamburg to join and present our posters about 'Accessible and scalable Galaxy pipelines for fast and easy (foodborne) Pathogen detection and tracking' and 'Microbiome data analysis using the Galaxy platform' at the [**German Conference on Bioinformatics (GCB) 2023**](https://gcb2023.de/).

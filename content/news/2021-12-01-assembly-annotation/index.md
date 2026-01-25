@@ -13,6 +13,11 @@ supporters:
 external_url: https://training.galaxyproject.org/training-material/news/2021/12/01/assembly-annotation.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---
 
 We have just finished a new collection of training material for genome assembly and annotation! You now have access to slides and tutorials, focused on the complete analysis of the genome of a fungus species (Mucor mucedo).

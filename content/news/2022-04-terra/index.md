@@ -6,4 +6,7 @@ external_url: "https://terra.bio/try-out-terras-updated-interactive-analysis-int
 date: "2022-04-20"
 source_blog: "Terra Blog"
 source_blog_url: "https://terra.bio/blog/"
+contributions:
+  authorship:
+    - alessandroculotti
 ---

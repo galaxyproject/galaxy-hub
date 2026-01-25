@@ -10,6 +10,11 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eosc-life
 ---
 
 The [workshop on Workflow Management Systems](https://docs.google.com/document/d/1Od0JzTduih7DIlaIoYS-MnfFUl1UVmy6DprqhBlqAV8) organised by [EOSC-Life](https://www.eosc-life.eu/) WP2 took place on the 2nd and 3rd of April 2020.

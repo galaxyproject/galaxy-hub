@@ -9,7 +9,7 @@ location:
 location_url: "https://www.athenarc.gr/"
 external_url: "https://www.openaire.eu/events/eventdetail/791/53|54|55|56|57|58|272|303/galaxy-an-open-infrastructure-for-biological-data-analysis"
 gtn: false
-contact: "Elli Papadopoulou, Alexandros Dimopoulos, Thanasis Vergoulis, Fotis Psomopoulos"
+contact: "Elli Papadopoulou, Alexandros Dimopoulos, Thanasis Vergoulis, Fotis E. Psomopoulos"
 image: 
 subsites: [global, us]
 ---

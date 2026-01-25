@@ -6,6 +6,9 @@ supporters: [unifreiburg, denbi]
 authors: Tomas Klingström
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - TKlingstrom
 ---
 
 [__Tomas Klingström__](https://www.slu.se/cv/tomas-klingstrom/) has sent us the context of his research in the [Swedish University of Agricultural Sciences](https://www.slu.se/). Thank you Tomas for sharing it with us!

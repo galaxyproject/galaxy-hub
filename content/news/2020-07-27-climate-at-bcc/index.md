@@ -13,6 +13,14 @@ supporters:
 authors: "Anne Fouilloux"
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - annefou
+  funding:
+    - galaxy-europe
+    - eosc-life
+    - elixir-europe
+    - deNBI
 ---
 
 July has been a very busy month for [Galaxy Climate](https://climate.usegalaxy.eu/) ending with several sessions dedicated to Climate Science at [BCC2020](https://bcc2020.github.io/). It started on July 18-19 with two introductory training sessions (West and East) on “[Getting your hands on Climate data](https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/tutorial.html)” where attendees learned on accessing and analyzing climate data in Galaxy. One important aspect was to explain the difference between climate and weather data; show how to visualize climate data on a map with Galaxy and then how to create and share a simple workflow for framing a very simple adaptation case study.

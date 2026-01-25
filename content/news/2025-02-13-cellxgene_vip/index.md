@@ -10,9 +10,17 @@ supporters:
 - denbi
 - unifreiburg
 - nfdi4bioimagingnext-level
-authors: Amirhossein Nilchi
+authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - Nilchia
+  funding:
+    - elixir-europe
+    - deNBI
+    - uni-freiburg
+    - nfdi4bioimagingnext-level
 ---
 
 CELLxGENE-VIP (Visualization In Plugin) is an extension of the original [CELLxGENE](https://github.com/chanzuckerberg/cellxgene) tool developed by the Chan Zuckerberg Initiative.

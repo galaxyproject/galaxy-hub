@@ -18,6 +18,20 @@ supporters:
 authors: [Beatriz Serrano-Solano, Björn Grüning]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+    - bgruening
+  funding:
+    - uni-freiburg
+    - elixir-europe
+    - deNBI
+    - dataPLANT
+    - eosc-life
+    - biodaten
+    - bmbf
+    - dfg
+    - egi
 ---
 
 #### _UNOFFICIAL VERSION:_

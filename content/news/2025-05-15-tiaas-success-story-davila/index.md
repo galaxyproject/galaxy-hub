@@ -7,6 +7,15 @@ supporters: [eosc, eu, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu
 authors: Marcela Davila
+contributions:
+  authorship:
+    - marceladavila
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - elixir-europe
+    - eurosciencegateway
 ---
 I’m [Marcela Davila](https://www.gu.se/en/about/find-staff/marceladavila), an instructor working in bioinformatics at the [University of Gothnburg](https://www.gu.se/en), Sweden, where hands-on training with real tools is critical. When I first heard about [Training Infrastructure as a Service (TIaaS)](https://usegalaxy.eu/tiaas/), I saw the potential to overcome the common headaches of managing technical resources for workshops and courses directed to wet lab scientists.
 

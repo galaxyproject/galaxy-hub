@@ -5,6 +5,9 @@ tags: [galaxy, FAQ]
 authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Plenty of branding material is now at your disposal thanks to the  European Galaxy Community.

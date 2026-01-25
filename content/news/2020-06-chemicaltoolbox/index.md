@@ -11,6 +11,11 @@ supporters:
 authors: Simon Bray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - eosc-life
 ---
 
 We are happy to announce a new publication, '[The ChemicalToolbox: reproducible, user-friendly cheminformatics

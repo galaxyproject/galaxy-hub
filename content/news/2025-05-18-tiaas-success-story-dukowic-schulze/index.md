@@ -7,6 +7,15 @@ supporters: [eosc, eu, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu
 authors: Stefanie Dukowic-Schulze
+contributions:
+  authorship:
+    - stefaniedukowicschulze
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - elixir-europe
+    - eurosciencegateway
 ---
 Participants: 20 students
 

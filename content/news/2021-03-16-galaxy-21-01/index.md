@@ -9,6 +9,12 @@ external_url: https://docs.galaxyproject.org/en/release_21.01/releases/21.01_ann
 authors: Gianmauro Cuccuru
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - gmauro
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please [let us know](mailto:contact@usegalaxy.eu)!

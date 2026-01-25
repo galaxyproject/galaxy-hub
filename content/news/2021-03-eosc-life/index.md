@@ -15,6 +15,15 @@ supporters:
 authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eosc-life
+    - eubi
+    - elixir-europe
+    - idr
+    - galaxy-europe
 ---
 
 The first round of EOSC-Life demonstrators, as part of Work Package 3 has driven __eight successful use cases, three of them using Galaxy__. The outcomes of these projects have been presented during the __webinar series 'Populating EOSC-Life'__ in January 2021. 

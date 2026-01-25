@@ -6,6 +6,9 @@ authors: "Björn Grüning"
 date: "2024-08-20"
 tags: ["conda", "opinion"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - bgruening
 ---
 
 # Opinion: Conda, Anaconda and the much bigger problem behind it.

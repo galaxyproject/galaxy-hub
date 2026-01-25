@@ -5,6 +5,10 @@ authors: [Junhao Qiu, Jeremy Goecks]
 tease: "Perform AI-augmented data analysis directly in Galaxy using natural language"
 hide_tease: true
 subsites: [all-eu, global, all]
+contributions:
+  authorship:
+    - qchiujunhao
+    - jgoecks
 ---
 
 ### AI-augmented data analysis in Galaxy

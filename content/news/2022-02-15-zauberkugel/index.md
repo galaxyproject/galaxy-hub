@@ -7,6 +7,9 @@ tags: [training, tools]
 authors: [Aurélien F. A. Moumbock]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - aurelienmoumbock
 ---
 
 

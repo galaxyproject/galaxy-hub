@@ -6,6 +6,9 @@ external_url: ''
 tags: [newsletter, galaxy]
 authors: Dave Clements
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - tnabtaf
 ---
 
 <small>Updated May 29th 2021</small>

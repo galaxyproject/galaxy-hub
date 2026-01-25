@@ -11,6 +11,11 @@ supporters:
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
 ---
 
 ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe". 

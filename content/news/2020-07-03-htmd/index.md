@@ -6,6 +6,9 @@ supporters:
 - galaxy-europe
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - galaxy-europe
 ---
 
 Update: The paper is now published in the [Journal of Cheminformatics](https://jcheminf.biomedcentral.com/track/pdf/10.1186/s13321-020-00451-6).

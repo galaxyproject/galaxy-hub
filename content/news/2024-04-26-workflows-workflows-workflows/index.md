@@ -6,6 +6,9 @@ authors: "Laila Los"
 date: "2024-04-26"
 tags: ["UI/UX", "highlight", workflow, outreach]
 subsites: [global]
+contributions:
+  authorship:
+    - ElectronicBlueberry
 ---
 
 In the past few updates to Galaxy, many exciting changes and additions have arrived to workflows.

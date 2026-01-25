@@ -8,6 +8,11 @@ tags: [esg,esg-wp5]
 supporters:
   - eurosciencegateway
 main_subsite: eu
+contributions:
+  authorship:
+    - patrick-austin
+  funding:
+    - eurosciencegateway
 ---
 
 Within the field of catalysis research carried out using X-ray Absorption Spectroscopy (XAS), increasing data volumes, lack of provenance between inputs and outputs and missing metadata can all pose a challenge to reproducibility, even when data is included with a publication. As a case study, several examples of publications using data collected at the [Diamond Light Source](https://www.diamond.ac.uk/Home.html) via the [UK Catalysis Hub](https://ukcatalysishub.co.uk/) were identified. Using [Galaxy tools developed and hosted](https://materialsgalaxy.stfc.ac.uk/) as part of the [EuroScienceGateway](https://galaxyproject.org/projects/esg/), the process described in each publication was repeated to determine whether the same results could be reproduced, and what benefits the Galaxy platform could provide. Other co-authors were also members of the [Physical Sciences Data Infrastructure](https://www.psdi.ac.uk/) project.

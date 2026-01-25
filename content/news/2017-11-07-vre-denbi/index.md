@@ -9,6 +9,10 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - ViCE
 ---
 
 (from [https://www.rz.uni-freiburg.de/rz/aktuell/vice-ws](https://www.rz.uni-freiburg.de/rz/aktuell/vice-ws))

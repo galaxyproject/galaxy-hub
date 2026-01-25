@@ -6,4 +6,7 @@ authors: "Paul Gordon"
 external_url: "http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html"
 source_blog_url: "http://achri.blogspot.ca/"
 source_blog: "ACHRI Bioinformatics"
+contributions:
+  authorship:
+    - paulgordon
 ---

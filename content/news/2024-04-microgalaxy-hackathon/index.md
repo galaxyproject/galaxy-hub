@@ -5,6 +5,19 @@ authors: [Bérénice Batut, Matthias Bernt, Mina Hojat Ansari, Matúš Kalaš, P
 tease: "Find out how we improved the annotation of Galaxy tools and training material for microbiological data analysis!"
 hide_tease: false
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - bebatut
+    - bernt-matthias
+    - minamehr
+    - matuskalas
+    - paulklemm
+    - rlibouba
+    - EngyNasr
+    - clairerioualen
+    - waichengthang
+    - RZ9082
+    - paulzierep
 ---
 
 Galaxy offers almost 10,000 different tools. To solve the visibility of tools across this ecosystem, a pipeline ([Galaxy Tool Metadata Extractor](https://github.com/galaxyproject/galaxy_tool_metadata_extractor)) was developed at the [ELIXIR BioHackathon Europe 2023](https://2023.biohackathon-europe.org) that collects Galaxy wrappers from a list of GitHub repositories and automatically extracts their metadata (including Conda version, bio.tools identifier, BIII identifier, and EDAM ontology, tool availability on public servers, usage statistics on the [Europen Galaxy Server](https://usegalaxy.eu)). The pipeline can filter its inputs to only include tools that are relevant to a specific research community. 

@@ -7,6 +7,11 @@ supporters:
 authors: Beata Scholtz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatascholtz
+  funding:
+    - galaxy-europe
 ---
 
 

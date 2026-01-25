@@ -6,4 +6,7 @@ hide_tease: false
 authors: Ahmed Hamid Awan
 subsites: [all]
 external_url: https://docs.galaxyproject.org/en/master/releases/25.1_announce_user.html
+contributions:
+  authorship:
+    - ahmedhamidawan
 ---

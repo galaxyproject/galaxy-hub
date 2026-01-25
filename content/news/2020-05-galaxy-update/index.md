@@ -501,7 +501,7 @@ OIDC is [OpenID Connect](https://openid.net/connect/), a simple identity layer o
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">RNA-RNA interactome data analysis</div>
 
-By [Pavan Videm](https://training.galaxyproject.org/training-material/hall-of-fame#pavanvidem).
+By [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame#pavanvidem).
 
 This [GTN tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html) presents the analysis of a CLEAR-CLIP data set using the ChiRA tool suite.
 
@@ -578,7 +578,7 @@ Extended job metadata collection
 <div class="card border-info" style="min-width: 24rem; max-width: 50%;">
 <div class="card-header">[GVL 5.0 Beta Releases](/news/2020-04-gvl5-beta2/)</div>
 
-By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
+By Alex Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
 
 GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
 

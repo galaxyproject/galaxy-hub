@@ -9,6 +9,11 @@ supporters:
 authors: Björn Grüning
 subsites: [global, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - bycovid
 ---
 
 Today marks the launch of a new €12 million Horizon Europe funded project, [BeYond-COVID (BY-COVID)](https://by-covid.org), which will tackle the data challenges that can hinder effective pandemic response. The core aim of the project is to ensure that data on SARS-CoV-2 and other infectious diseases can be found and used by everyone.

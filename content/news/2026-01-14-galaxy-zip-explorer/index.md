@@ -5,7 +5,10 @@ authors: David López
 tease: "Preview the contents of local or remote ZIP archives, explore rich RO-Crate metadata, and import only the files you need directly from the Galaxy interface."
 subsites: [global, eu, us]
 main_subsite: global
-tags: [feature, ui-ux, tools]
+tags: [features, ui-ux, tools]
+contributions:
+  authorship:
+    - davelopez
 ---
 
 # Introducing the Zip Explorer

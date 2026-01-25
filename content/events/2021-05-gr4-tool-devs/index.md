@@ -8,7 +8,7 @@ location:
   name: Galaxy Resources Webinar Series, Online, Global
   url: /events/webinars/
 image: gr4-tools-webinar.png
-contact: Dan Blankenberg, Anthony Bretaudeau, Petr Novak
+contact: Daniel Blankenberg, Anthony Bretaudeau, Petr Novak
 tags: [training, webinar]
 gtn: false
 links:

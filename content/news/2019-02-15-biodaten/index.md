@@ -5,10 +5,13 @@ tags: [data, grants, collaboration]
 location:
   name: Freiburg, Germany
 authors: 
-- Anika Erxleben-Eggenhofer
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
 supporters: [denbi, unifrieburg]
+contributions:
+  authorship:
+    - erxleben
 ---
 
 We are really proud to announce that we, as part of de.NBI and with the European Galaxy Server, are part of [Bioinformatics DATa EnviroNment](http://www.biodaten.info/?page=about) (BioDATEN) now!

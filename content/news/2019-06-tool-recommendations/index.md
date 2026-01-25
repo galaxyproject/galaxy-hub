@@ -9,6 +9,9 @@ location:
 authors: Helena Rasche
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - hexylena
 ---
 
 If you've done interactive data analysis, it's likely at least once you were

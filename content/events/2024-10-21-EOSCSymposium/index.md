@@ -6,7 +6,7 @@ tease: "EOSC Symposium 2024 invites all EOSC projects. It will take place under 
 continent: EU
 location: "Berlin, Germany"
 external_url: "https://eosc.eu/symposium2024"
-contact: "For EuroScienceGateway: Anika Erxleben-Eggenhofer (erxleben@informatik.uni-freiburg.de)"
+contact: "For EuroScienceGateway: Anika Erxleben (erxleben@informatik.uni-freiburg.de)"
 subsites: [all, esg, all-eu]
 tags: [esg, esg-wp1, meeting]
 supporters:

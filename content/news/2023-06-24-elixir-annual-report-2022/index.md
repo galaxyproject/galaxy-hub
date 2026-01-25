@@ -14,6 +14,12 @@ supporters:
   - eu
   - eosc
   - unifreiburg
+contributions:
+  authorship:
+    - sebastian-schaaf
+  funding:
+    - eurosciencegateway
+    - elixir-europe
 ---
 
 2022 was a year of growth for ELIXIR, the European life sciences infrastructure, which brings together scientists from currently 23 countries and over 250 research institutes. [ELIXIR is organized](https://elixir-europe.org/how-we-work) in [national nodes](https://elixir-europe.org/about-us/who-we-are/nodes), but also acts in cross-national structures, like technical [platforms](https://elixir-europe.org/platforms), domain-driven [communities](https://elixir-europe.org/communities), [internal projects](https://elixir-europe.org/internal-projects), and more. Galaxy is a widely spread project, represented in ELIXIR since 2015, and to be considered both a framework as well as a community. Accordingly, it comes with a number of mentions in [ELIXIR's annual report](https://elixir-europe.org/news/elixir-releases-2022-annual-report) ([PDF](https://elixir-europe.org/sites/default/files/documents/annual-report-2022.pdf)).

@@ -8,9 +8,16 @@ supporters:
 - elixir
 - denbi
 - unifreiburg
-authors: Amirhossein Nilchi
+authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - Nilchia
+  funding:
+    - elixir-europe
+    - deNBI
+    - uni-freiburg
 ---
 
 We are excited to announce that two comprehensive single-cell reference atlases, [Tabula Sapiens](https://tabula-sapiens-portal.ds.czbiohub.org/) and [Tabula Muris Senis](https://tabula-muris-senis.ds.czbiohub.org/), are now available for easy import directly into your Galaxy history!

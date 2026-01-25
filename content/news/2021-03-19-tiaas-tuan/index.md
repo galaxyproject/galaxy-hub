@@ -7,6 +7,11 @@ supporters:
 authors: Tuan Leng Tay
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - tuanlengtay
+  funding:
+    - galaxy-europe
 ---
 
 

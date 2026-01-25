@@ -4,6 +4,11 @@ tease: "First blog post presenting the Outreachy project on Galaxy Climate"
 authors: [Soumya Jha, Anne Fouilloux, Jean Iaquinta]
 source_blog: "Galaxy Climate Outreachy project"
 date: "2022-07-04"
+contributions:
+  authorship:
+    - Quickbeasts51429
+    - annefou
+    - j34ni
 ---
 
 # Introduction to GALAXY CLIMATE 

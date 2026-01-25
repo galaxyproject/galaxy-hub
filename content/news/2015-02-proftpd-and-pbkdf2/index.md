@@ -6,4 +6,7 @@ authors: "Peter Briggs"
 external_url: "http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html"
 source_blog_url: "http://galacticengineer.blogspot.co.uk/"
 source_blog: "Galactic Engineer"
+contributions:
+  authorship:
+    - peterbriggs
 ---

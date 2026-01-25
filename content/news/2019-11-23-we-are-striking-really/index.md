@@ -5,6 +5,9 @@ tags: [s4f, society]
 authors: Wolfgang Maier
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - wm75
 ---
 
 November 29 will see the next global climate strike and this time The Freiburg

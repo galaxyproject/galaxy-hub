@@ -14,6 +14,11 @@ location:
   name: Molecular Biotechnology Center (MBC), Turin, Italy
 subsites: [eu, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - paulzierep
+  funding:
+    - eosc-life
 ---
 
 # OSA2Micro in Torino

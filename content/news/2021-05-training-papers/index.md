@@ -8,6 +8,9 @@ authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 supporters: [unifreiburg]
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 <br>

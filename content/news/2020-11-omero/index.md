@@ -6,6 +6,9 @@ tags: [tools, data]
 authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 

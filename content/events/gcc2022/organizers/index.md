@@ -41,7 +41,7 @@ Have a question about [abstracts](/events/gcc2022/abstracts/)?  Ask the [Scienti
 * **Björn Grüning**, University of Freiburg, Germany
 * **Cristóbal Gallardo**, University of Freiburg, Germany
 * **Christy Henzler**, University of Minnesota, United States
-* **Dan Blankenberg**, Cleveland Clinic Lerner Research Institute, United States
+* **Daniel Blankenberg**, Cleveland Clinic Lerner Research Institute, United States
 * **David Morais**, Université de Sherbrooke, Canada
 * **Delphine Lariviere**, Penn State University, United States
 * **Enis Afgan**, Johns Hopkins University, United States

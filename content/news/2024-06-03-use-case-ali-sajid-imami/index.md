@@ -5,6 +5,9 @@ tags: [UseCase]
 authors: Ali Sajid Imami
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - alisajidimami
 ---
 
 With this article we would like to share Ali's experience with usegalaxy.eu and its use for his research.

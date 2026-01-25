@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-11-27"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Biological Data Science 2024 Recap**  
@@ -81,7 +84,7 @@ GiN enhances researchers’ ability to execute Galaxy tools via a graphical inte
 GiN can be deployed using a Docker image for easy local installation, and it is also available as a Galaxy Interactive Tool. The GiN package, comprising Python, JavaScript, and Node.js modules, can be conveniently installed from GitHub using the pip package manager. 
 
 
-### **Michelle Savage**
+### **Michelle Terese Savage**
 
 *Enhancements to UseGalaxy.org Client-Facing Error Reporting for Optimized Functionality and Risk Mitigation*  
 
@@ -141,7 +144,7 @@ We’d like to give a special shoutout to a poster presentation that highlighted
 
 As part of the Vertebrate Genome Project (VGP), these workflows have been instrumental in assembling over 150 de novo genomes, a remarkable achievement that builds on the VGP assembly pipeline advancements published earlier this year (Larivière et al. 2024). This work demonstrates how Galaxy continues to empower large-scale genome projects, driving new discoveries in comparative genomics, genome evolution, population genomics, and conservation genetics.
 
-### Delphine Larivière
+### Delphine Lariviere
 
 *Universally accessible interacting curation workflows for large genome assembly*
 

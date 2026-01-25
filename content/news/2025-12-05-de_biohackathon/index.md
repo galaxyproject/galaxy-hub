@@ -9,6 +9,10 @@ location:
   name: Walsrode, DE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 <img style="background-color:#FFFFFF" src="https://www.denbi.de/images/Events/LOGO_BioHack2025_tr_3976x2132_srgb.png" />
@@ -25,7 +29,7 @@ The project focused on interfacing [SpatialData](https://spatialdata.scverse.org
 
 ## Subproject 4: Spatial2Galaxy - Training Materials and Workflows
 
-Led by Pavan Videm and Amirhossein Naghsh Nilchi from Galaxy Freiburg, Subproject 4 focused on enhancing the integration of spatial transcriptomics within the Galaxy ecosystem through several key initiatives:
+Led by Pavankumar Videm and Amirhossein Naghsh Nilchi from Galaxy Freiburg, Subproject 4 focused on enhancing the integration of spatial transcriptomics within the Galaxy ecosystem through several key initiatives:
 
 ### Key Achievements
 

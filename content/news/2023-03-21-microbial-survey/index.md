@@ -6,6 +6,10 @@ hide_tease: true
 authors: [Bérénice Batut, Paul Zierep]
 tags: [microbial]
 subsites: [all]
+contributions:
+  authorship:
+    - bebatut
+    - paulzierep
 ---
 
 <img class="img-fluid float-right" src="./visual.png" style="width:500px;" alt="Visual for survey advertisement"/>

@@ -6,4 +6,8 @@ authors: [Olivier Inizan, Mikael Loaec]
 external_url: "https://forge.puppetlabs.com/urgi/galaxy"
 source_blog_url: "https://forge.puppet.com/"
 source_blog: "Puppet Forge"
+contributions:
+  authorship:
+    - olivierinizan
+    - mikaelloaec
 ---

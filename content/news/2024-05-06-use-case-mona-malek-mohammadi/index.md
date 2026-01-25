@@ -6,6 +6,9 @@ tags: [UseCase]
 authors: Mona Malek Mohammadi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - monamalekmohammadi
 ---
 
 With this article we would like to share Mona's experience with usegalaxy.eu and its use for her research.

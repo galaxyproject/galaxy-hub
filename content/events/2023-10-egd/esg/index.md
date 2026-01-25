@@ -8,7 +8,7 @@ Friday October 6th
 
 | Time        |  Title  |  Speaker  |
 | ----        |  -----  |  -------  |
-| 09:30-10:00 | [Welcome and WP1](https://docs.google.com/presentation/d/1G0V48BavYbbcrKrBKu-jcK5I9PM0olbJ) | Anika Erxleben-Eggenhofer |
+| 09:30-10:00 | [Welcome and WP1](https://docs.google.com/presentation/d/1G0V48BavYbbcrKrBKu-jcK5I9PM0olbJ) | Anika Erxleben |
 | 10:00-10:30 | [Report from the WP2 Leader](https://docs.google.com/presentation/d/1fi2f7FN_dsneUmn8dK6buuspBtVNZwUl) | Stian Soiland-Reyes |
 | 10:30-11:00 | Coffee break | |
 | 11:00-11:30 | [Report from the WP3 Leader](https://docs.google.com/presentation/d/1W8Qmrjq1ll2EFjXpD7MKgn03ll8S0FbT) | Marco Antonio Tangaro |

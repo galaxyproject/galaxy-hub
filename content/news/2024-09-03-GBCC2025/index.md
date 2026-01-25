@@ -6,6 +6,10 @@ hide_tease: false
 authors: [Natalie Whitaker-Allen, Maria Doyle]
 tags: [Conference]
 subsites: [global]
+contributions:
+  authorship:
+    - natalie-wa
+    - mblue9
 ---
 
 # **Announcing the First Galaxy and Bioconductor Community Conference (GBCC 2025): Genomics Data Science and Beyond**

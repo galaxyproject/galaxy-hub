@@ -8,6 +8,9 @@ tags: [tools]
 authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 With [Table Compute](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2){:target="_top"}

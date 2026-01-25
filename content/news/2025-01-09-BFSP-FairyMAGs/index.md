@@ -5,6 +5,10 @@ tease: "FAIRyMAGs: Optimising Metagenomics Assembled Genomes building: workflow 
 hide_tease: false
 authors: [Paul Zierep, Bérénice Batut]
 subsites: [eu,all,global]
+contributions:
+  authorship:
+    - paulzierep
+    - bebatut
 ---
 
 

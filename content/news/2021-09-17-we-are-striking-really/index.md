@@ -5,6 +5,9 @@ tags: [s4f, society]
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 September the 24th will see the next global climate strike! 

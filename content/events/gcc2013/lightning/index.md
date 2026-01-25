@@ -262,7 +262,7 @@ A new suite of Galaxy tools designed to support count based GLM for differential
 
 <div class='right'>[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/MethylationLightning.pdf)</div>
 
-**Pavan Videm**, Björn Grüning, Rolf Backofen
+**Pavankumar Videm**, Björn Grüning, Rolf Backofen
 
  University of Freiburg, Germany
 

@@ -5,6 +5,9 @@ tags: [s4f, society]
 authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 The Freiburg Galaxy Team is striking tomorrow the [20th of September](https://globalclimatestrike.net).

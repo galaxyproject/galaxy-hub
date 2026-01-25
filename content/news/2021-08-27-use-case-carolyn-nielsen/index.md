@@ -5,6 +5,9 @@ tags: [UseCase]
 authors: Carolyn Nielsen
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - carolynnielsen
 ---
 
 [__Carolyn Nielsen__](https://www.ndm.ox.ac.uk/team/carolyn-nielsen) works on clinical immunology at the [University of Oxford (UK)](https://www.ox.ac.uk/).

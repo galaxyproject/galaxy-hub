@@ -9,7 +9,7 @@ location:
 location_url: "https://meetings.cshl.edu/meetings.aspx?meet=info&year=21"
 external_url: "https://meetings.cshl.edu/abstracts.aspx?meet=info&year=21"
 gtn: false
-contact: "Delphine Larivière"
+contact: "Delphine Lariviere"
 image: 
 subsites: [global, us]
 ---

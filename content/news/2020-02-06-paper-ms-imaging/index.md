@@ -8,6 +8,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Congratulation to our friend and colleague Melanie Föll from the University of Freiburg

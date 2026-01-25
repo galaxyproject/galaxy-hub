@@ -4,9 +4,12 @@ date: '2020-02-07'
 tags: [data, nfdi, rdm]
 supporters: [nfdi, unifreiburg]
 authors: 
-- Anika Erxleben-Eggenhofer
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
 ---
 
 Germany wants to build a national research data infrastructure [NFDI](https://www.dfg.de/foerderung/programme/nfdi)

@@ -7,6 +7,12 @@ authors: [David López, Stian Soiland-Reyes]
 subsites: [global, all-eu, esg]
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - davelopez
+    - stain
+  funding:
+    - eurosciencegateway
 ---
 
 Galaxy has over the last month gained a powerful and extensible exporting framework.

@@ -10,7 +10,7 @@ location:
   url: "https://www.intlpag.org/30/"
 external_url: "https://plan.core-apps.com/pag_2023/event/3cee484866e6d00c5e492240c4d2d535"
 gtn: false
-contact: "Michael C. Schatz, Delphine Larivière, Alex Ostrovsky"
+contact: "Michael C. Schatz, Delphine Lariviere, Alex Ostrovsky"
 tags: ["workshop"]
 subsites: [all]
 

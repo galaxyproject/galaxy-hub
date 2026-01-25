@@ -4,6 +4,13 @@ title: "Galaxy on Twitter: An Update"
 authors: [Dave Clements, Martin Čech, Mo Heydarian, Hans-Rudolf Hotz, Nicola Soranzo]
 tease: "What's happening, right now"
 external_url: ""
+contributions:
+  authorship:
+    - tnabtaf
+    - martenson
+    - moheydarian
+    - hrhotz
+    - nsoranzo
 ---
 
 [<img class="float-right" style="max-width: 100px" src="/images/logos/TwitterBird300.png" alt="Galaxy on Twitter" />](https://twitter.com/hashtag/UseGalaxy)

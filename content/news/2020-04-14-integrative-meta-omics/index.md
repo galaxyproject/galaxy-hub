@@ -9,6 +9,12 @@ supporters:
 authors: Magnus Ø. Arntzen
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - magnusøarntzen
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

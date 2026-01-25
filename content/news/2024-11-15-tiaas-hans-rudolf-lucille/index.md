@@ -8,6 +8,12 @@ tease: 'We were super happy to stand in front of a group of highly motivated peo
 hide_tease: true
 authors: [Hans-Rudolf Hotz, Lucille Delisle]
 subsites: [all-eu]
+contributions:
+  authorship:
+    - hrhotz
+    - lldelisle
+  funding:
+    - galaxy-europe
 ---
 
 For the second time, we were offering to the scientists of the EPFL Life Science faculty a training called "Learn how to analyze your sequencing data in few clicks".

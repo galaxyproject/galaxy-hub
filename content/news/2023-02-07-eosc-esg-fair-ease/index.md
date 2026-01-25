@@ -13,6 +13,12 @@ supporters:
 external_url: "https://eosc.eu/news/stronger-together-fair-ease-and-eurosciencegateway-join-forces"
 subsites: [all-eu, esg, all]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - esg
 ---
 
 Two Horizon Europe projects directed toward the development and deployment of the European Open Science Cloud (EOSC)—FAIR-EASE and EuroScienceGateway (ESG)­—have agreed

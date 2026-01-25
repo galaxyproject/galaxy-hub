@@ -7,7 +7,7 @@ continent: EU
 location:
   name: "University of Freiburg, Germany"
 gtn: true
-contact: "Pavan Videm"
+contact: "Pavankumar Videm"
 tags: [workshop, training]
 subsites: [all]
 ---
@@ -19,7 +19,7 @@ subsites: [all]
 - **Location**: PC-Pool room 3, Werthmannstraße 4, 79104 Freiburg
 - **Time**: 9am-5pm CEST
 - **Cost**: Free
-- **Contact**: Pavan Videm ([videmp@informatik.uni-freiburg.de](mailto:videmp@informtik.uni-freiburg.de))
+- **Contact**: Pavankumar Videm ([videmp@informatik.uni-freiburg.de](mailto:videmp@informtik.uni-freiburg.de))
 
 # Pedagogical information
 
