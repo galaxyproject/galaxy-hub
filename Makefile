@@ -56,6 +56,11 @@ astro-preview: astro-install ## Preview built Astro site
 	cd astro && npm run preview
 .PHONY: astro-preview
 
+validate-metadata: ## Validate news and events frontmatter schemas
+	python scripts/validate_news.py
+	python scripts/validate_events.py
+.PHONY: validate-metadata
+
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 .PHONY: help
