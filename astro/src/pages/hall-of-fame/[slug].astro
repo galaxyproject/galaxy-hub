@@ -1,157 +1,41 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {
   communitySlug,
-  extractAuthors,
-  extractFunding,
+  contributorHasHallOfFame,
   findCommunityBySlug,
-  getCommunityDisplay,
   getGrantDisplay,
   getOrganisationDisplay,
+  getCommunityDisplay,
   listContributors,
-  listGrants,
-  listOrganisations,
   toArray,
 } from '../../utils/contributors';
+import { getContributionIndex } from '../../utils/hallOfFameIndex';
+
 const gtnIcon = '/images/logos/gtn_icon.svg';
-
-type ArticleEntry = CollectionEntry<'articles'>;
-type EventEntry = CollectionEntry<'events'>;
-
 const slugify = communitySlug;
 
-function normalizeCandidates(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
-  const data = entry.data as Record<string, unknown>;
-  return {
-    authors: extractAuthors(data),
-    supporters: extractFunding(data),
-  };
-}
-
-function matchesTarget(values: string[], targetSlug: string): { matched: boolean; display?: string } {
-  for (const val of values) {
-    if (!val) continue;
-    if (slugify(val) === targetSlug) {
-      return { matched: true, display: getCommunityDisplay(val) || val };
-    }
-  }
-  return { matched: false };
-}
-
-function buildUrl(entry: ArticleEntry | EventEntry): string {
-  const raw = (entry.data.slug || entry.id).replace(/--/g, '/').replace(/\.mdx?$/, '');
-  return `/${raw.replace(/\/$/, '')}/`;
-}
-
 export async function getStaticPaths() {
-  const articles = await getCollection('articles');
-  const events = await getCollection('events');
-  const slugs = new Map<string, string>();
-
-  const addSlug = (value: string, displayOverride?: string) => {
-    const s = communitySlug(value);
-    if (s && !slugs.has(s)) {
-      slugs.set(s, displayOverride || getCommunityDisplay(value) || value);
-    }
-  };
-
-  const collect = (entry: ArticleEntry | EventEntry) => {
-    const data = entry.data as Record<string, unknown>;
-    const authors = extractAuthors(data);
-    const supporters = extractFunding(data);
-    authors.forEach((a) => addSlug(a));
-    supporters.forEach((s) => addSlug(s));
-  };
-
-  articles.forEach(collect);
-  events.forEach(collect);
-
-  // Always include all contributors, organisations, and grants so their pages exist even without contributions.
-  listContributors().forEach((c) => addSlug(c.id, c.name || c.id));
-  listOrganisations().forEach((o) => addSlug(o.id, o.name || o.short_name || o.id));
-  listGrants().forEach((g) => addSlug(g.id, g.name || g.short_name || g.id));
-
-  return Array.from(slugs.entries()).map(([slug, displayName]) => ({
+  const index = await getContributionIndex();
+  return Array.from(index.entries()).map(([slug, profile]) => ({
     params: { slug },
-    props: { displayName },
+    props: { displayName: profile.displayName },
   }));
 }
 
 const { slug } = Astro.params;
 const targetSlug = (slug || '').toLowerCase();
+
+const index = await getContributionIndex();
+const profile = index.get(targetSlug);
+const contributions = profile?.contributions || [];
+
 const community = findCommunityBySlug(targetSlug);
 const allContributors = listContributors();
 
-const allArticles = await getCollection('articles');
-const allEvents = await getCollection('events');
-
-const newsArticles = allArticles.filter((article) => article.data.slug?.startsWith('news/'));
-
-const contributions: Array<{
-  title: string;
-  url: string;
-  date?: string;
-  tease?: string | null;
-  kind: 'news' | 'event';
-  displayDate: string;
-  displayMatch?: string;
-}> = [];
-
 let displayName: string | undefined =
-  community?.record?.name || community?.record?.short_name || (Astro.props as any).displayName;
-let matchedType: 'author' | 'supporter' | undefined;
-
-for (const article of newsArticles) {
-  const { authors, supporters } = normalizeCandidates(article);
-  const authorMatch = matchesTarget(authors, targetSlug);
-  const supporterMatch = matchesTarget(supporters, targetSlug);
-  if (authorMatch.matched || supporterMatch.matched) {
-    const matchLabel = authorMatch.display || supporterMatch.display;
-    displayName ||= matchLabel;
-    matchedType ||= authorMatch.matched ? 'author' : 'supporter';
-    contributions.push({
-      title: article.data.title || 'Untitled',
-      url: buildUrl(article),
-      date: article.data.date?.toString(),
-      displayDate: article.data.date
-        ? new Date(article.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-        : '',
-      tease: article.data.tease,
-      kind: 'news',
-      displayMatch: matchLabel,
-    });
-  }
-}
-
-for (const event of allEvents) {
-  const { authors, supporters } = normalizeCandidates(event);
-  const authorMatch = matchesTarget(authors, targetSlug);
-  const supporterMatch = matchesTarget(supporters, targetSlug);
-  if (authorMatch.matched || supporterMatch.matched) {
-    const matchLabel = authorMatch.display || supporterMatch.display;
-    displayName ||= matchLabel;
-    matchedType ||= authorMatch.matched ? 'author' : 'supporter';
-    const eventDate = event.data.date ? new Date(event.data.date) : undefined;
-    contributions.push({
-      title: event.data.title || 'Untitled',
-      url: buildUrl(event),
-      date: eventDate?.toISOString(),
-      displayDate: eventDate
-        ? eventDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-        : '',
-      tease: event.data.tease,
-      kind: 'event',
-      displayMatch: matchLabel,
-    });
-  }
-}
-
-contributions.sort((a, b) => {
-  const dateA = a.date ? new Date(a.date) : new Date(0);
-  const dateB = b.date ? new Date(b.date) : new Date(0);
-  return dateB.getTime() - dateA.getTime();
-});
+  community?.record?.name || community?.record?.short_name || profile?.displayName || (Astro.props as any).displayName;
+let matchedType = profile?.matchedType;
 
 const profileDescription =
   (community as any)?.record?.bio ||
@@ -168,18 +52,6 @@ const githubHandle =
     : undefined;
 const githubAvatar = githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
 const avatarUrl = githubAvatar || (community as any)?.record?.avatarUrl;
-
-async function checkUrlExists(url: string): Promise<boolean> {
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 2000);
-    const res = await fetch(url, { method: 'HEAD', signal: controller.signal });
-    clearTimeout(timeout);
-    return res.ok;
-  } catch {
-    return false;
-  }
-}
 
 type ContactLink = {
   label: string;
@@ -200,12 +72,10 @@ if (community) {
   if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
   if (record.orcid) pushLink('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
   if (githubHandle) pushLink('GitHub', `https://github.com/${githubHandle}`, 'github');
-  if (community?.type === 'contributor') {
+  if (community?.type === 'contributor' && contributorHasHallOfFame(community.record)) {
     const gtnSlug = communitySlug(community.record.id || displayName || targetSlug);
-    const candidate = `https://galaxyproject.github.io/training-material/hall-of-fame/${gtnSlug}/`;
-    if (await checkUrlExists(candidate)) {
-      pushLink('GTN Hall of Fame', candidate, 'gtn');
-    }
+    const gtnUrl = `https://galaxyproject.github.io/training-material/hall-of-fame/${gtnSlug}/`;
+    pushLink('GTN Hall of Fame', gtnUrl, 'gtn');
   }
 }
 
