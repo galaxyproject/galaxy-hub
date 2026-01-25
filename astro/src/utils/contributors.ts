@@ -10,7 +10,7 @@ export interface ContributorRecord {
   name?: string;
   avatar?: string;
   avatarUrl?: string;
-  halloffame?: unknown;
+  halloffame?: string | boolean | number;
   hasHallOfFame?: boolean;
   [key: string]: any;
 }
@@ -173,7 +173,7 @@ export function contributorHasHallOfFame(value?: string | ContributorRecord): bo
     typeof value === 'string' ? getContributor(value) : (value as ContributorRecord | undefined);
   if (!record) return false;
   if (typeof record.hasHallOfFame === 'boolean') return record.hasHallOfFame;
-  const flag = (record as any).halloffame;
+  const flag = record.halloffame;
   if (flag === undefined) return true;
   if (typeof flag === 'boolean') return flag;
   if (typeof flag === 'number') return flag !== 0;
