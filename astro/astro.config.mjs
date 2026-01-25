@@ -18,6 +18,9 @@ const autolinkConfig = {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://galaxyproject.org',
+  prefetch: {
+    defaultStrategy: 'hover',
+  },
   integrations: [
     vue(),
     mdx({

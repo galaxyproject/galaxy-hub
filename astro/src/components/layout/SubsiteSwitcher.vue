@@ -15,7 +15,7 @@ function handleChange(value: string) {
     <label class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2 block"> Region </label>
     <Select :model-value="current" @update:model-value="handleChange">
       <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
-        <SelectValue placeholder="Select region" />
+        <SelectValue placeholder="Global" />
       </SelectTrigger>
       <SelectContent class="bg-galaxy-dark border-medium-bg">
         <SelectItem

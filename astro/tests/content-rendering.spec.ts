@@ -1,4 +1,23 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page, type Locator } from '@playwright/test';
+
+/**
+ * Click a link and wait for Astro's view transition to complete.
+ * Astro fires 'astro:page-load' when the transition finishes and the new page is visible.
+ */
+async function clickAndWaitForViewTransition(page: Page, locator: Locator): Promise<void> {
+  // Set up listener before clicking to avoid race condition
+  const transitionComplete = page.evaluate(() => {
+    return new Promise<boolean>((resolve) => {
+      document.addEventListener('astro:page-load', () => resolve(true), { once: true });
+    });
+  });
+
+  // Click the link (this triggers the view transition)
+  await locator.click();
+
+  // Wait for Astro to signal the transition is complete
+  await transitionComplete;
+}
 
 test.describe('Content Rendering', () => {
   test.describe('Article Pages', () => {
@@ -8,7 +27,7 @@ test.describe('Content Rendering', () => {
 
       // Should have article layout structure
       await expect(page.locator('main')).toBeVisible();
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
     });
 
     test('article renders markdown content', async ({ page }) => {
@@ -41,13 +60,13 @@ test.describe('Content Rendering', () => {
 
       // Events list should load
       expect(response?.status()).toBe(200);
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
 
       // Click into an event that likely has inserts
       const eventLink = page.locator('a[href*="/events/gcc"]').first();
       if (await eventLink.isVisible({ timeout: 2000 }).catch(() => false)) {
-        await eventLink.click();
-        // Page should load without errors (use first h1 since pages may have multiple)
+        await clickAndWaitForViewTransition(page, eventLink);
+        // Page should load without errors (GCC pages may have multiple h1s in content)
         await expect(page.locator('h1').first()).toBeVisible({ timeout: 15000 });
       }
     });
@@ -79,7 +98,7 @@ test.describe('Content Rendering', () => {
       // Click first event
       const eventLink = page.locator('a[href*="/events/2"]').first();
       if (await eventLink.isVisible()) {
-        await eventLink.click();
+        await clickAndWaitForViewTransition(page, eventLink);
 
         // Event pages should show date (year somewhere on page)
         const dateText = page.getByText(/\d{4}/);
@@ -104,10 +123,11 @@ test.describe('Content Rendering', () => {
       // Click first platform
       const platformLink = page.locator('a[href^="/use/"]').first();
       if (await platformLink.isVisible()) {
-        await platformLink.click();
+        await clickAndWaitForViewTransition(page, platformLink);
 
         // Platform pages should have title and content
-        await expect(page.locator('h1')).toBeVisible();
+        // Using .first() due to external h1 element in CI browser environment
+        await expect(page.locator('h1').first()).toBeVisible();
       }
     });
   });
