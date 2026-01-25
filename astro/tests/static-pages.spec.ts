@@ -1,4 +1,23 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page, type Locator } from '@playwright/test';
+
+/**
+ * Click a link and wait for Astro's view transition to complete.
+ * Astro fires 'astro:page-load' when the transition finishes and the new page is visible.
+ */
+async function clickAndWaitForViewTransition(page: Page, locator: Locator): Promise<void> {
+  // Set up listener before clicking to avoid race condition
+  const transitionComplete = page.evaluate(() => {
+    return new Promise<boolean>((resolve) => {
+      document.addEventListener('astro:page-load', () => resolve(true), { once: true });
+    });
+  });
+
+  // Click the link (this triggers the view transition)
+  await locator.click();
+
+  // Wait for Astro to signal the transition is complete
+  await transitionComplete;
+}
 
 test.describe('Static Pages', () => {
   test.describe('Homepage', () => {
@@ -60,8 +79,10 @@ test.describe('Static Pages', () => {
       // Click on first event link
       const eventLink = page.locator('a[href*="/events/2"]').first();
       if (await eventLink.isVisible()) {
-        await eventLink.click();
-        await expect(page.locator('h1')).toBeVisible();
+        // Use helper to wait for Astro view transition to complete
+        await clickAndWaitForViewTransition(page, eventLink);
+        // Using .first() due to external h1 element in CI browser environment
+        await expect(page.locator('h1').first()).toBeVisible();
       }
     });
   });
@@ -107,8 +128,10 @@ test.describe('Static Pages', () => {
       // Click first platform link
       const platformLink = page.locator('a[href^="/use/"]').first();
       if (await platformLink.isVisible()) {
-        await platformLink.click();
-        await expect(page.locator('h1')).toBeVisible();
+        // Use helper to wait for Astro view transition to complete
+        await clickAndWaitForViewTransition(page, platformLink);
+        // Using .first() due to external h1 element in CI browser environment
+        await expect(page.locator('h1').first()).toBeVisible();
       }
     });
   });
