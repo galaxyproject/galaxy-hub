@@ -10,6 +10,8 @@ export interface ContributorRecord {
   name?: string;
   avatar?: string;
   avatarUrl?: string;
+  halloffame?: unknown;
+  hasHallOfFame?: boolean;
   [key: string]: any;
 }
 
@@ -80,6 +82,7 @@ function loadContributors(): ContributorMap {
           id,
           ...data,
           avatarUrl: normalizeAvatar((data as any).avatar),
+          hasHallOfFame: contributorHasHallOfFame(data),
         },
       ];
     })
@@ -159,6 +162,28 @@ export function getGrant(id: string | undefined): GrantRecord | undefined {
 export function getContributorDisplay(userid: string | undefined): string | undefined {
   const contributor = getContributor(userid);
   return contributor?.name || contributor?.id;
+}
+
+/**
+ * Determine if a contributor has a GTN Hall of Fame page.
+ * Defaults to true when the field is absent; falsy values or "no"/"false"/"0"/"off" disable it.
+ */
+export function contributorHasHallOfFame(value?: string | ContributorRecord): boolean {
+  const record: ContributorRecord | undefined =
+    typeof value === 'string' ? getContributor(value) : (value as ContributorRecord | undefined);
+  if (!record) return false;
+  if (typeof record.hasHallOfFame === 'boolean') return record.hasHallOfFame;
+  const flag = (record as any).halloffame;
+  if (flag === undefined) return true;
+  if (typeof flag === 'boolean') return flag;
+  if (typeof flag === 'number') return flag !== 0;
+  if (typeof flag === 'string') {
+    const normalized = flag.trim().toLowerCase();
+    if (!normalized) return false;
+    if (['no', 'false', '0', 'off'].includes(normalized)) return false;
+    return true;
+  }
+  return Boolean(flag);
 }
 
 export function getOrganisationDisplay(id: string | undefined): string | undefined {

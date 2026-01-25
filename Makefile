@@ -56,6 +56,14 @@ astro-preview: astro-install ## Preview built Astro site
 	cd astro && npm run preview
 .PHONY: astro-preview
 
+astro-build-news: astro-install ## Build Astro site (news content only)
+	cd astro && npm run build:news
+.PHONY: astro-build-news
+
+astro-build-events: astro-install ## Build Astro site (events content only)
+	cd astro && npm run build:events
+.PHONY: astro-build-events
+
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 .PHONY: help
