@@ -10,6 +10,7 @@ export const subsites = [
   { id: 'erasmusmc', name: 'Erasmus MC', path: '/erasmusmc/' },
   { id: 'belgium', name: 'VIB (Belgium)', path: '/belgium/' },
   { id: 'pasteur', name: 'Pasteur', path: '/pasteur/' },
+  { id: 'genouest', name: 'GenOuest', path: '/genouest/' },
   { id: 'elixir-it', name: 'ELIXIR-IT', path: '/elixir-it/' },
   { id: 'ifb', name: 'ELIXIR-FR/IFB', path: '/ifb/' },
 ] as const;
