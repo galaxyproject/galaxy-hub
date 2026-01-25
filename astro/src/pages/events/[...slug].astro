@@ -21,6 +21,10 @@ import { resolveSupporters } from '../../utils/supporters';
 import { extractFunding } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import { normalizeSlug } from '../../utils/slug';
+import RedirectPage from '../../components/content/RedirectPage.astro';
+import { formatSlugPath, normalizeRedirectTarget } from '../../utils/redirects';
+import RedirectPage from '../../components/content/RedirectPage.astro';
+import { formatSlugPath, normalizeRedirectTarget } from '../../utils/redirects';
 
 export async function getStaticPaths() {
   const events = await getCollection('events');
@@ -37,7 +41,12 @@ export async function getStaticPaths() {
 }
 
 const { event } = Astro.props;
-const { Content, headings } = await render(event);
+const redirectTarget = normalizeRedirectTarget(event.data.redirect);
+
+let Content, headings;
+if (!redirectTarget) {
+  ({ Content, headings } = await render(event));
+}
 
 const { title, date, end, location, tags = [], tease, external_url, contacts = [], autotoc } = event.data;
 
@@ -159,9 +168,17 @@ const schemaEvent = {
 const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/master/content/${event.data.slug}/index.md`;
 ---
 
-<BaseLayout title={title || 'Event'} description={tease}>
-  <article class="max-w-6xl mx-auto bg-white relative">
-    <PageHeader title={title || 'Event'} description={tease} tags={tags}>
+{
+  redirectTarget ? (
+    <RedirectPage
+      target={redirectTarget}
+      fromSlug={formatSlugPath(event.data.slug)}
+      title={event.data.title || 'Event moved'}
+    />
+  ) : (
+    <BaseLayout title={title || 'Event'} description={tease}>
+      <article class="max-w-6xl mx-auto bg-white relative">
+        <PageHeader title={title || 'Event'} description={tease} tags={tags}>
       {/* Event-specific metadata */}
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
         {
@@ -330,11 +347,13 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/master/content
           }
         </div>
       </div>
-    </footer>
+        </footer>
 
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
-  </article>
-</BaseLayout>
+        <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
+      </article>
+    </BaseLayout>
+  )
+}
 
 <style>
   .prose-galaxy {

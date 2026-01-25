@@ -2,9 +2,10 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { normalizeSlug } from '../../utils/slug';
+import { filterOutRedirects } from '../../utils/redirects';
 
 // Get all events, sorted by date descending
-const events = await getCollection('events');
+const events = filterOutRedirects(await getCollection('events'));
 const now = new Date();
 const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
 

@@ -68,7 +68,7 @@ function processFile(filePath, collection) {
   if (!frontmatter.slug) return null;
 
   // Skip redirect-only pages
-  if (frontmatter.redirect && !frontmatter.title) return null;
+  if (frontmatter.redirect) return null;
 
   const plainText = extractText(body);
   const excerpt = truncate(plainText);

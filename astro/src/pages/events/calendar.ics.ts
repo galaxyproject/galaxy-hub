@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 import { normalizeSlug } from '../../utils/slug';
+import { filterOutRedirects } from '../../utils/redirects';
 
 // Format date for iCalendar (YYYYMMDDTHHMMSSZ)
 function formatICSDate(date: Date): string {
@@ -33,7 +34,7 @@ function foldLine(line: string): string {
 }
 
 export async function GET(context: APIContext) {
-  const events = await getCollection('events');
+  const events = filterOutRedirects(await getCollection('events'));
 
   const now = new Date();
   const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());

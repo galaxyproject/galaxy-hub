@@ -1,10 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { filterOutRedirects } from '../../utils/redirects';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 
 // Get all career listings
-const articles = await getCollection('articles');
+const articles = filterOutRedirects(await getCollection('articles'));
 const careers = articles
   .filter((article) => article.data.slug.startsWith('careers/'))
   .map((career) => ({

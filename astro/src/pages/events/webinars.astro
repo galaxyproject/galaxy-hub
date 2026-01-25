@@ -2,13 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { normalizeSlug } from '../../utils/slug';
+import { filterOutRedirects } from '../../utils/redirects';
+import { normalizeSlug } from '../../utils/slug';
+import { filterOutRedirects } from '../../utils/redirects';
 
 const tag = 'webinar';
 const pageTitle = 'Galaxy Webinars';
 const pageDescription = 'Galaxy community webinars - online presentations and training sessions';
 
 // Get events with this tag
-const allEvents = await getCollection('events');
+const allEvents = filterOutRedirects(await getCollection('events'));
 const taggedEvents = allEvents.filter((event) => {
   const tags = event.data.tags;
   if (!tags) return false;

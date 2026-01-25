@@ -6,6 +6,7 @@
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
 import { getCollection } from 'astro:content';
+import { filterOutRedirects } from '../../../utils/redirects';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -18,7 +19,7 @@ const partners = datasets.find((d) => d.data.slug === 'projects/esg/partners')?.
 const externalLinks = datasets.find((d) => d.data.slug === 'projects/esg/external_links')?.data;
 
 // Load ESG news (articles with esg subsite)
-const articles = await getCollection('articles');
+const articles = filterOutRedirects(await getCollection('articles'));
 const esgNews = articles
   .filter((a) => a.data.subsites?.includes('esg') && a.data.slug?.startsWith('news/'))
   .sort((a, b) => {
@@ -29,7 +30,7 @@ const esgNews = articles
   .slice(0, 6);
 
 // Load ESG events (upcoming)
-const events = await getCollection('events');
+const events = filterOutRedirects(await getCollection('events'));
 const now = new Date();
 const esgEvents = events
   .filter((e) => {

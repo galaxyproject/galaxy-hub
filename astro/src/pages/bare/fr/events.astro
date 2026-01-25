@@ -6,20 +6,23 @@
  */
 import { getCollection } from 'astro:content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+import { filterCollections } from '../../../utils/redirects';
 
 const now = new Date();
 
-const allEvents = await getCollection('events', (entry) => {
-  const subsites = entry.data.subsites || [];
-  // Filter for FR subsite
-  return (
-    (subsites.includes('fr') ||
+const allEvents = filterCollections(await getCollection('events'), {
+  skipRedirects: true,
+  skipDrafts: true,
+  predicate: (entry) => {
+    const subsites = entry.data.subsites || [];
+    return (
+      subsites.includes('fr') ||
       subsites.includes('all') ||
       subsites.includes('all-fr') ||
       subsites.includes('global') ||
-      subsites.length === 0) &&
-    !entry.data.draft
-  );
+      subsites.length === 0
+    );
+  },
 });
 
 // Split into upcoming and past

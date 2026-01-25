@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { subsites } from '../../stores/subsiteStore';
+import { filterCollections } from '../../utils/redirects';
 
 // Generate paths for all non-external subsites
 export function getStaticPaths() {
@@ -17,7 +18,7 @@ const { subsite } = Astro.params;
 const { subsiteInfo } = Astro.props;
 
 // Get events for this subsite
-const allEvents = await getCollection('events');
+const allEvents = filterCollections(await getCollection('events'), { skipRedirects: true, skipDrafts: true });
 const now = new Date();
 
 const subsiteEvents = allEvents.filter((event) => {
@@ -40,7 +41,7 @@ const upcomingEvents = subsiteEvents
   .slice(0, 5);
 
 // Get news for this subsite
-const allArticles = await getCollection('articles');
+const allArticles = filterCollections(await getCollection('articles'), { skipRedirects: true, skipDrafts: true });
 const subsiteNews = allArticles
   .filter((article) => {
     if (!article.data.slug.startsWith('news/')) return false;

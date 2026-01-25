@@ -1,4 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { filterCollections } from './redirects';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -27,6 +28,9 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
   tagIndexPromise = (async () => {
     const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
 
+    const filteredArticles = filterCollections(articles, { skipRedirects: true, skipDrafts: true });
+    const filteredEvents = filterCollections(events, { skipRedirects: true, skipDrafts: true });
+
     const index = new Map<string, TagProfile>();
 
     const ensureTag = (tag: string): TagProfile => {
@@ -40,7 +44,7 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
     };
 
     // Index articles
-    for (const article of articles) {
+    for (const article of filteredArticles) {
       const tags = article.data.tags || [];
       for (const tag of tags) {
         if (!isValidTag(tag)) continue;
@@ -51,7 +55,7 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
     }
 
     // Index events
-    for (const event of events) {
+    for (const event of filteredEvents) {
       const tags = event.data.tags || [];
       for (const tag of tags) {
         if (!isValidTag(tag)) continue;

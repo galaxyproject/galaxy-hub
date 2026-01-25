@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import { getPublishedNews } from '../../utils/content';
+import RedirectPage from '../../components/content/RedirectPage.astro';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -18,10 +19,11 @@ import Insert from '../../components/mdx/Insert.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { normalizeSlug } from '../../utils/slug';
 import { extractAuthors, extractFunding, resolveAuthor } from '../../utils/contributors';
+import { formatSlugPath, normalizeRedirectTarget } from '../../utils/redirects';
 
 export async function getStaticPaths() {
   // Get only published news articles (excludes future-dated articles)
-  const newsArticles = await getPublishedNews();
+  const newsArticles = await getPublishedNews(undefined, { includeRedirects: true });
 
   return newsArticles.map((article) => {
     // Remove 'news/' prefix from slug for the URL
@@ -35,7 +37,12 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content, headings } = await render(article);
+const redirectTarget = normalizeRedirectTarget(article.data.redirect);
+
+let Content, headings;
+if (!redirectTarget) {
+  ({ Content, headings } = await render(article));
+}
 
 const articleData = article.data as Record<string, unknown>;
 const authorIds = extractAuthors(articleData);
@@ -97,19 +104,29 @@ const schemaNews = {
 };
 ---
 
-<ArticleLayout
-  title={title || 'News'}
-  description={tease}
-  date={date}
-  authors={displayAuthorsDetailed}
-  tags={tags}
-  image={image}
-  headings={headings}
-  autotoc={autotoc}
-  supporters={supporters}
-  backLink={{ href: '/news/', label: 'Back to News' }}
-  sourceFile={article.data.slug}
->
-  <Content components={components} />
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} />
-</ArticleLayout>
+{
+  redirectTarget ? (
+    <RedirectPage
+      target={redirectTarget}
+      fromSlug={formatSlugPath(article.data.slug)}
+      title={article.data.title || 'Content moved'}
+    />
+  ) : (
+    <ArticleLayout
+      title={title || 'News'}
+      description={tease}
+      date={date}
+      authors={displayAuthorsDetailed}
+      tags={tags}
+      image={image}
+      headings={headings}
+      autotoc={autotoc}
+      supporters={supporters}
+      backLink={{ href: '/news/', label: 'Back to News' }}
+      sourceFile={article.data.slug}
+    >
+      <Content components={components} />
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} />
+    </ArticleLayout>
+  )
+}

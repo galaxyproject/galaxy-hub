@@ -5,12 +5,13 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import { getCollection } from 'astro:content';
+import { filterOutRedirects } from '../../../utils/redirects';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
 
 // Load ESG news
-const articles = await getCollection('articles');
+const articles = filterOutRedirects(await getCollection('articles'));
 const esgNews = articles
   .filter((a) => a.data.subsites?.includes('esg') && a.data.slug?.startsWith('news/'))
   .sort((a, b) => {

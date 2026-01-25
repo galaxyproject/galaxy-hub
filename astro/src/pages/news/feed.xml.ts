@@ -5,7 +5,7 @@ import { normalizeSlug } from '../../utils/slug';
 
 export async function GET(context: APIContext) {
   // Get published news articles (excludes future-dated articles)
-  const newsArticles = (await getPublishedNews()).slice(0, 50);
+  const newsArticles = (await getPublishedNews(undefined, { includeRedirects: false })).slice(0, 50);
 
   return rss({
     title: 'Galaxy News',

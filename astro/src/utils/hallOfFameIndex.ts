@@ -8,6 +8,7 @@ import {
   listGrants,
   listOrganisations,
 } from './contributors';
+import { filterCollections } from './redirects';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -109,6 +110,8 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
 
   contributionIndexPromise = (async () => {
     const [articles, events] = await Promise.all([getArticles(), getEvents()]);
+    const filteredArticles = filterCollections(articles, { skipRedirects: true, skipDrafts: true });
+    const filteredEvents = filterCollections(events, { skipRedirects: true, skipDrafts: true });
     const index = new Map<string, ContributionProfile>();
 
     const addFromEntry = (entry: ArticleEntry | EventEntry, kind: Contribution['kind']) => {
@@ -127,10 +130,10 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
       });
     };
 
-    articles
+    filteredArticles
       .filter((article) => article.data.slug?.startsWith('news/'))
       .forEach((article) => addFromEntry(article, 'news'));
-    events.forEach((event) => addFromEntry(event, 'event'));
+    filteredEvents.forEach((event) => addFromEntry(event, 'event'));
 
     // Ensure entries exist for all contributors/organisations/grants even if they have no contributions.
     listContributors().forEach((c) => ensureProfile(index, communitySlug(c.id), c.name || c.id));

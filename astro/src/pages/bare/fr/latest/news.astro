@@ -5,9 +5,10 @@
  * Embedded in Galaxy FR interface - high visibility feed
  */
 import { getCollection } from 'astro:content';
+import { filterCollections } from '../../../../utils/redirects';
 
 const allArticles = await getCollection('articles');
-const newsArticles = allArticles
+const newsArticles = filterCollections(allArticles, { skipRedirects: true, skipDrafts: true })
   .filter((article) => {
     const path = article.data.slug || article.id;
     const subsites = article.data.subsites || [];
@@ -18,7 +19,7 @@ const newsArticles = allArticles
       subsites.includes('all-fr') ||
       subsites.includes('global') ||
       subsites.length === 0;
-    return isNews && isFR && !article.data.draft;
+    return isNews && isFR;
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);

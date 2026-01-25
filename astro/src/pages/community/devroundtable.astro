@@ -1,13 +1,14 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { filterOutRedirects } from '../../utils/redirects';
 
 const tag = 'devroundtable';
 const pageTitle = 'Galaxy Developer Roundtable';
 const pageDescription = 'Developer-focused community meetings to discuss Galaxy development topics';
 
 // Get events with this tag
-const allEvents = await getCollection('events');
+const allEvents = filterOutRedirects(await getCollection('events'));
 const taggedEvents = allEvents.filter((event) => {
   const tags = event.data.tags;
   if (!tags) return false;

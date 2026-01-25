@@ -5,6 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
+import { filterOutRedirects } from '../../utils/redirects';
 
 const SITE_URL = 'https://galaxyproject.org';
 const FEED_TITLE = 'Galaxy Europe';
@@ -25,7 +26,7 @@ function formatAtomDate(date: Date): string {
 }
 
 export async function GET() {
-  const articles = await getCollection('articles');
+  const articles = filterOutRedirects(await getCollection('articles'));
 
   // Filter to EU news articles
   const euNews = articles

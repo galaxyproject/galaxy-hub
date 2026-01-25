@@ -1,9 +1,10 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro';
 import { getCollection } from 'astro:content';
+import { filterOutRedirects } from '../utils/redirects';
 
 // Get recent news (news articles are in 'articles' collection, filtered by slug)
-const articles = await getCollection('articles');
+const articles = filterOutRedirects(await getCollection('articles'));
 const recentNews = articles
   .filter((article) => article.data.slug?.startsWith('news/'))
   .sort((a, b) => {
@@ -14,7 +15,7 @@ const recentNews = articles
   .slice(0, 3);
 
 // Get upcoming events
-const events = await getCollection('events');
+const events = filterOutRedirects(await getCollection('events'));
 const now = new Date();
 const upcomingEvents = events
   .filter((e) => {

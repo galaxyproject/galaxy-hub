@@ -5,12 +5,13 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import { getCollection } from 'astro:content';
+import { filterOutRedirects } from '../../../utils/redirects';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
 
 // Load ESG events
-const events = await getCollection('events');
+const events = filterOutRedirects(await getCollection('events'));
 const now = new Date();
 
 const allEsgEvents = events

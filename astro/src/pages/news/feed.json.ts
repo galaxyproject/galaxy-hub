@@ -6,6 +6,7 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { normalizeSlug } from '../../utils/slug';
+import { filterOutRedirects } from '../../utils/redirects';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -57,7 +58,7 @@ function expandSubsites(subsites: string[]): string[] {
 }
 
 export async function GET() {
-  const articles = await getCollection('articles');
+  const articles = filterOutRedirects(await getCollection('articles'));
 
   // Filter to news articles within days_ago limit
   const newsArticles = articles

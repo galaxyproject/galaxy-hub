@@ -5,6 +5,7 @@
 
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { isPublishedDate } from './dateUtils';
+import { filterOutRedirects } from './redirects';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -14,40 +15,56 @@ type InsertEntry = CollectionEntry<'inserts'>;
 /**
  * Get all articles, optionally filtered by subsite
  */
-export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
+export async function getArticles(
+  subsite?: string,
+  options?: {
+    includeRedirects?: boolean;
+  }
+): Promise<ArticleEntry[]> {
+  const { includeRedirects = true } = options || {};
   const articles = await getCollection('articles');
 
   if (!subsite || subsite === 'global') {
-    return articles;
+    return includeRedirects ? articles : filterOutRedirects(articles);
   }
 
-  return articles.filter((article) => {
+  const scopedArticles = articles.filter((article) => {
     const subsites = article.data.subsites || [];
     return subsites.includes(subsite) || subsites.includes('all');
   });
+
+  return includeRedirects ? scopedArticles : filterOutRedirects(scopedArticles);
 }
 
 /**
  * Get all events, optionally filtered by subsite
  */
-export async function getEvents(subsite?: string): Promise<EventEntry[]> {
+export async function getEvents(
+  subsite?: string,
+  options?: {
+    includeRedirects?: boolean;
+  }
+): Promise<EventEntry[]> {
+  const { includeRedirects = true } = options || {};
   const events = await getCollection('events');
 
   if (!subsite || subsite === 'global') {
-    return events;
+    return includeRedirects ? events : filterOutRedirects(events);
   }
 
-  return events.filter((event) => {
+  const scopedEvents = events.filter((event) => {
     const subsites = event.data.subsites || [];
     return subsites.includes(subsite) || subsites.includes('all');
   });
+
+  return includeRedirects ? scopedEvents : filterOutRedirects(scopedEvents);
 }
 
 /**
  * Get upcoming events (events with date >= today)
  */
 export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]> {
-  const events = await getEvents(subsite);
+  const events = await getEvents(subsite, { includeRedirects: false });
   const now = new Date();
   now.setHours(0, 0, 0, 0);
 
@@ -68,7 +85,7 @@ export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]>
  * Get recent past events (within specified days)
  */
 export async function getRecentEvents(subsite?: string, days = 365): Promise<EventEntry[]> {
-  const events = await getEvents(subsite);
+  const events = await getEvents(subsite, { includeRedirects: false });
   const now = new Date();
   now.setHours(0, 0, 0, 0);
 
@@ -93,7 +110,7 @@ export async function getRecentEvents(subsite?: string, days = 365): Promise<Eve
  * Get events filtered by tag
  */
 export async function getEventsByTag(tag: string, subsite?: string): Promise<EventEntry[]> {
-  const events = await getEvents(subsite);
+  const events = await getEvents(subsite, { includeRedirects: false });
 
   return events.filter((event) => {
     const tags = event.data.tags || [];
@@ -105,7 +122,7 @@ export async function getEventsByTag(tag: string, subsite?: string): Promise<Eve
  * Get articles filtered by tag
  */
 export async function getArticlesByTag(tag: string, subsite?: string): Promise<ArticleEntry[]> {
-  const articles = await getArticles(subsite);
+  const articles = filterOutRedirects(await getArticles(subsite));
   const normalizedTag = tag.toLowerCase().trim();
 
   return articles.filter((article) => {
@@ -135,6 +152,7 @@ export async function getAllTags(): Promise<Map<string, number>> {
 
   // Count tags from articles
   for (const article of articles) {
+    if (article.data.redirect) continue;
     const tags = article.data.tags || [];
     for (const tag of tags) {
       if (!isValidTag(tag)) continue;
@@ -145,6 +163,7 @@ export async function getAllTags(): Promise<Map<string, number>> {
 
   // Count tags from events
   for (const event of events) {
+    if (event.data.redirect) continue;
     const tags = event.data.tags || [];
     for (const tag of tags) {
       if (!isValidTag(tag)) continue;
@@ -202,8 +221,14 @@ export async function getInsert(slug: string): Promise<InsertEntry | undefined> 
 /**
  * Get news articles (articles in news/ path)
  */
-export async function getNews(subsite?: string): Promise<ArticleEntry[]> {
-  const articles = await getArticles(subsite);
+export async function getNews(
+  subsite?: string,
+  options?: {
+    includeRedirects?: boolean;
+  }
+): Promise<ArticleEntry[]> {
+  const { includeRedirects = true } = options || {};
+  const articles = await getArticles(subsite, { includeRedirects });
 
   return articles
     .filter((article) => article.data.slug?.startsWith('news/'))
@@ -219,8 +244,13 @@ export async function getNews(subsite?: string): Promise<ArticleEntry[]> {
  * Note: Filtering happens at build time. Future-dated articles will only
  * appear after a site rebuild on or after their publication date.
  */
-export async function getPublishedNews(subsite?: string): Promise<ArticleEntry[]> {
-  const articles = await getNews(subsite);
+export async function getPublishedNews(
+  subsite?: string,
+  options?: {
+    includeRedirects?: boolean;
+  }
+): Promise<ArticleEntry[]> {
+  const articles = await getNews(subsite, options);
   const now = new Date();
 
   return articles.filter((article) => isPublishedDate(article.data.date, now));

@@ -2,9 +2,10 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 import { normalizeSlug } from '../../utils/slug';
+import { filterOutRedirects } from '../../utils/redirects';
 
 export async function GET(context: APIContext) {
-  const events = await getCollection('events');
+  const events = filterOutRedirects(await getCollection('events'));
 
   // Get upcoming and recent events
   const relevantEvents = events

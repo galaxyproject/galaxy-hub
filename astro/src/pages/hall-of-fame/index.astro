@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { filterOutRedirects } from '../../utils/redirects';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -46,7 +47,9 @@ function addContributor(map: Map<string, Contributor>, name: string) {
   map.set(slug, existing);
 }
 
-const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
+const [articlesRaw, eventsRaw] = await Promise.all([getCollection('articles'), getCollection('events')]);
+const articles = filterOutRedirects(articlesRaw);
+const events = filterOutRedirects(eventsRaw);
 const newsArticles = articles.filter((article) => article.data.slug?.startsWith('news/'));
 
 const authorMap = new Map<string, Contributor>();

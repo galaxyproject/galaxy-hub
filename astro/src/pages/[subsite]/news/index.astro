@@ -17,7 +17,7 @@ export function getStaticPaths() {
 const { subsiteName, subsiteId } = Astro.props;
 
 // Get published news articles (excludes future-dated articles)
-const newsArticles = await getPublishedNews();
+const newsArticles = await getPublishedNews(undefined, { includeRedirects: false });
 
 // Transform to plain objects for Vue component
 const articleData = newsArticles.map((a) => ({

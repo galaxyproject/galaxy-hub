@@ -6,6 +6,7 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { normalizeSlug } from '../../utils/slug';
+import { filterOutRedirects } from '../../utils/redirects';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -57,7 +58,7 @@ function getDaysAgo(date: Date): number {
 }
 
 export async function GET() {
-  const events = await getCollection('events');
+  const events = filterOutRedirects(await getCollection('events'));
 
   // Filter events within days_ago limit and transform
   const feedItems = await Promise.all(
