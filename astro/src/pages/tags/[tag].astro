@@ -1,36 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
-import { getAllTags, getArticlesByTag, getEventsByTag } from '../../utils/content';
+import { getTagIndex } from '../../utils/tagIndex';
 
 export async function getStaticPaths() {
-  const tagCounts = await getAllTags();
-
-  return Array.from(tagCounts.keys()).map((tag) => ({
+  const index = await getTagIndex();
+  return Array.from(index.keys()).map((tag) => ({
     params: { tag },
   }));
 }
 
 const { tag } = Astro.params;
 
-// Get articles and events with this tag
-const [articles, events] = await Promise.all([getArticlesByTag(tag), getEventsByTag(tag)]);
+// Get articles and events from cached index
+const index = await getTagIndex();
+const profile = index.get(tag);
 
-// Filter to news articles and sort by date (newest first)
-const newsArticles = articles
-  .filter((a) => a.data.slug?.startsWith('news/'))
-  .sort((a, b) => {
-    const dateA = new Date(a.data.date || 0).getTime();
-    const dateB = new Date(b.data.date || 0).getTime();
-    return dateB - dateA;
-  });
+// Filter to news articles (already sorted by date in index)
+const newsArticles = (profile?.articles || []).filter((a) => a.data.slug?.startsWith('news/'));
 
-// Sort events by date (newest first)
-const sortedEvents = events.sort((a, b) => {
-  const dateA = new Date(a.data.date || 0).getTime();
-  const dateB = new Date(b.data.date || 0).getTime();
-  return dateB - dateA;
-});
+// Events already sorted by date in index
+const sortedEvents = profile?.events || [];
 
 const totalItems = newsArticles.length + sortedEvents.length;
 const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;

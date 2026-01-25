@@ -26,11 +26,9 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const targetSlug = (slug || '').toLowerCase();
 
-const t0 = performance.now();
 const index = await getContributionIndex();
 const profile = index.get(targetSlug);
 const contributions = profile?.contributions || [];
-const t1 = performance.now();
 
 const community = findCommunityBySlug(targetSlug);
 const allContributors = listContributors();
@@ -38,8 +36,6 @@ const allContributors = listContributors();
 let displayName: string | undefined =
   community?.record?.name || community?.record?.short_name || profile?.displayName || (Astro.props as any).displayName;
 let matchedType = profile?.matchedType;
-
-console.log(`[${slug}] index lookup: ${(t1 - t0).toFixed(1)}ms | contributions: ${contributions.length}`);
 
 const profileDescription =
   (community as any)?.record?.bio ||
