@@ -288,68 +288,71 @@ const workPackages = [
 </style>
 
 <script>
-  // Total dimensions for calculating indicator position
-  const totalDimensions = {
-    w: 2272 + 3454 + 445 + 433,
-    h: 804 + 804 + 1346 + 655,
-  };
+  function initEsgPoster() {
+    // Total dimensions for calculating indicator position
+    const totalDimensions = {
+      w: 2272 + 3454 + 445 + 433,
+      h: 804 + 804 + 1346 + 655,
+    };
 
-  // Work package indicator areas (in pixels relative to total dimensions)
-  const wpAreas = [
-    { x: 0, y: 0, w: totalDimensions.w, h: totalDimensions.h, hidden: true }, // Summary
-    { x: 40, y: 0, w: totalDimensions.w - 60, h: totalDimensions.h }, // WP1
-    { x: 2310, y: 10, w: 3850, h: 770 }, // WP2
-    { x: 2310, y: 820, w: 3850, h: 2090 }, // WP3
-    { x: 2310, y: 820, w: 3850, h: 2090 }, // WP4
-    { x: 40, y: 5, w: 2200, h: 1570 }, // WP5
-  ];
+    // Work package indicator areas (in pixels relative to total dimensions)
+    const wpAreas = [
+      { x: 0, y: 0, w: totalDimensions.w, h: totalDimensions.h, hidden: true }, // Summary
+      { x: 40, y: 0, w: totalDimensions.w - 60, h: totalDimensions.h }, // WP1
+      { x: 2310, y: 10, w: 3850, h: 770 }, // WP2
+      { x: 2310, y: 820, w: 3850, h: 2090 }, // WP3
+      { x: 2310, y: 820, w: 3850, h: 2090 }, // WP4
+      { x: 40, y: 5, w: 2200, h: 1570 }, // WP5
+    ];
 
-  let currentIndex = 0;
+    let currentIndex = 0;
 
-  function updateCarousel(index: number) {
-    const slides = document.querySelectorAll('.carousel-slide');
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index);
-    });
-    currentIndex = index;
-  }
-
-  function updateIndicator(index: number) {
-    const grid = document.getElementById('indicator-grid');
-    const indicator = document.getElementById('indicator');
-    if (!grid || !indicator) return;
-
-    const area = wpAreas[index];
-
-    if (area.hidden) {
-      indicator.classList.add('hidden');
-    } else {
-      indicator.classList.remove('hidden');
+    function updateCarousel(index: number) {
+      const slides = document.querySelectorAll('#esg-interactive-poster .carousel-slide');
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+      currentIndex = index;
     }
 
-    const colStart = area.x;
-    const colMid = area.w;
-    const colEnd = totalDimensions.w - (area.x + area.w);
+    function updateIndicator(index: number) {
+      const grid = document.getElementById('indicator-grid');
+      const indicator = document.getElementById('indicator');
+      if (!grid || !indicator) return;
 
-    const rowStart = area.y;
-    const rowMid = area.h;
-    const rowEnd = totalDimensions.h - (area.y + area.h);
+      const area = wpAreas[index];
 
-    grid.style.gridTemplateColumns = `${colStart}fr ${colMid}fr ${colEnd}fr`;
-    grid.style.gridTemplateRows = `${rowStart}fr ${rowMid}fr ${rowEnd}fr`;
-  }
+      if (area.hidden) {
+        indicator.classList.add('hidden');
+      } else {
+        indicator.classList.remove('hidden');
+      }
 
-  function showSlide(index: number) {
-    const totalSlides = wpAreas.length;
-    if (index >= totalSlides) index = 0;
-    if (index < 0) index = totalSlides - 1;
+      const colStart = area.x;
+      const colMid = area.w;
+      const colEnd = totalDimensions.w - (area.x + area.w);
 
-    updateCarousel(index);
-    updateIndicator(index);
-  }
+      const rowStart = area.y;
+      const rowMid = area.h;
+      const rowEnd = totalDimensions.h - (area.y + area.h);
 
-  // Initialize
-  document.addEventListener('DOMContentLoaded', () => {
+      grid.style.gridTemplateColumns = `${colStart}fr ${colMid}fr ${colEnd}fr`;
+      grid.style.gridTemplateRows = `${rowStart}fr ${rowMid}fr ${rowEnd}fr`;
+    }
+
+    function showSlide(index: number) {
+      const totalSlides = wpAreas.length;
+      if (index >= totalSlides) index = 0;
+      if (index < 0) index = totalSlides - 1;
+
+      updateCarousel(index);
+      updateIndicator(index);
+    }
+
+    // Only initialize if the poster is on this page
+    const poster = document.getElementById('esg-interactive-poster');
+    if (!poster) return;
+
     // Previous/Next buttons
     document.getElementById('carousel-prev')?.addEventListener('click', () => {
       showSlide(currentIndex - 1);
@@ -377,5 +380,8 @@ const workPackages = [
 
     // Initialize with summary view
     showSlide(0);
-  });
+  }
+
+  // Run on initial load and after view transitions
+  document.addEventListener('astro:page-load', initEsgPoster);
 </script>
