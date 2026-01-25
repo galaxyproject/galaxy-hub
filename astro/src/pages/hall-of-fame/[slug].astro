@@ -3,6 +3,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {
   communitySlug,
+  contributorHasHallOfFame,
   extractAuthors,
   extractFunding,
   findCommunityBySlug,
@@ -169,18 +170,6 @@ const githubHandle =
 const githubAvatar = githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
 const avatarUrl = githubAvatar || (community as any)?.record?.avatarUrl;
 
-async function checkUrlExists(url: string): Promise<boolean> {
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 2000);
-    const res = await fetch(url, { method: 'HEAD', signal: controller.signal });
-    clearTimeout(timeout);
-    return res.ok;
-  } catch {
-    return false;
-  }
-}
-
 type ContactLink = {
   label: string;
   href: string;
@@ -200,12 +189,10 @@ if (community) {
   if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
   if (record.orcid) pushLink('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
   if (githubHandle) pushLink('GitHub', `https://github.com/${githubHandle}`, 'github');
-  if (community?.type === 'contributor') {
+  if (community?.type === 'contributor' && contributorHasHallOfFame(community.record)) {
     const gtnSlug = communitySlug(community.record.id || displayName || targetSlug);
-    const candidate = `https://galaxyproject.github.io/training-material/hall-of-fame/${gtnSlug}/`;
-    if (await checkUrlExists(candidate)) {
-      pushLink('GTN Hall of Fame', candidate, 'gtn');
-    }
+    const gtnUrl = `https://galaxyproject.github.io/training-material/hall-of-fame/${gtnSlug}/`;
+    pushLink('GTN Hall of Fame', gtnUrl, 'gtn');
   }
 }
 
