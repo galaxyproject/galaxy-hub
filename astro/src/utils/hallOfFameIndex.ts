@@ -50,7 +50,7 @@ async function getEvents(): Promise<EventEntry[]> {
 function ensureProfile(
   index: Map<string, ContributionProfile>,
   slug: string,
-  displayName?: string,
+  displayName?: string
 ): ContributionProfile {
   let profile = index.get(slug);
   if (!profile) {
@@ -68,7 +68,7 @@ function addContribution(
   kind: Contribution['kind'],
   entry: ArticleEntry | EventEntry,
   displayMatch?: string,
-  matchedType?: 'author' | 'supporter',
+  matchedType?: 'author' | 'supporter'
 ) {
   const dateObj = entry.data.date ? new Date(entry.data.date) : undefined;
   const contribution: Contribution = {
@@ -127,13 +127,15 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
       });
     };
 
-    articles.filter((article) => article.data.slug?.startsWith('news/')).forEach((article) => addFromEntry(article, 'news'));
+    articles
+      .filter((article) => article.data.slug?.startsWith('news/'))
+      .forEach((article) => addFromEntry(article, 'news'));
     events.forEach((event) => addFromEntry(event, 'event'));
 
     // Ensure entries exist for all contributors/organisations/grants even if they have no contributions.
     listContributors().forEach((c) => ensureProfile(index, communitySlug(c.id), c.name || c.id));
     listOrganisations().forEach((o) =>
-      ensureProfile(index, communitySlug(o.id), o.name || (o as any).short_name || o.id),
+      ensureProfile(index, communitySlug(o.id), o.name || (o as any).short_name || o.id)
     );
     listGrants().forEach((g) => ensureProfile(index, communitySlug(g.id), g.name || g.short_name || g.id));
 
