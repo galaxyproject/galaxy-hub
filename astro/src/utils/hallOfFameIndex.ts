@@ -79,7 +79,7 @@ function addContribution(
     displayDate: dateObj
       ? dateObj.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
       : '',
-    tease: (entry as any).data?.tease,
+    tease: (entry.data as Record<string, unknown>).tease as string | undefined,
     kind,
     displayMatch,
   };
@@ -134,9 +134,7 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
 
     // Ensure entries exist for all contributors/organisations/grants even if they have no contributions.
     listContributors().forEach((c) => ensureProfile(index, communitySlug(c.id), c.name || c.id));
-    listOrganisations().forEach((o) =>
-      ensureProfile(index, communitySlug(o.id), o.name || (o as any).short_name || o.id)
-    );
+    listOrganisations().forEach((o) => ensureProfile(index, communitySlug(o.id), o.name || o.short_name || o.id));
     listGrants().forEach((g) => ensureProfile(index, communitySlug(g.id), g.name || g.short_name || g.id));
 
     // Sort contributions for each profile once.
