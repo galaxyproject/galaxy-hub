@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+interface Props {
+  target: string;
+  fromSlug?: string;
+  title?: string;
+}
+
+const { target, fromSlug, title = 'Content moved' } = Astro.props;
+const normalizedTarget = target.replace(/\/+$/, '/') || '/';
+---
+
+<BaseLayout title="Redirecting..." description="This page has moved to a new address">
+  <div class="relative max-w-4xl mx-auto" data-redirect-target={normalizedTarget}>
+    <div class="absolute inset-0 -z-10 blur-3xl opacity-60 bg-[radial-gradient(circle_at_20%_20%,rgba(37,83,123,0.18),transparent_40%),radial-gradient(circle_at_80%_0%,rgba(255,215,0,0.22),transparent_32%)]"></div>
+
+    <div class="overflow-hidden rounded-2xl shadow-2xl border border-white/60 bg-white/90 backdrop-blur">
+      <div class="px-8 py-6 bg-galaxy-primary text-white flex items-center gap-4">
+        <div class="h-12 w-12 rounded-xl bg-white/15 flex items-center justify-center shadow-inner">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7M5 12h11"
+            />
+          </svg>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-white/80">Redirect notice</p>
+          <h1 class="text-2xl sm:text-3xl font-bold leading-tight">{title}</h1>
+        </div>
+      </div>
+
+      <div class="px-8 py-8 space-y-6">
+        <p class="text-lg text-gray-700 leading-relaxed" data-testid="redirect-message">
+          This content has a new home at
+          <a href={normalizedTarget} class="font-semibold text-galaxy-primary hover:text-galaxy-gold transition-colors">
+            {normalizedTarget}
+          </a>.
+          You will be redirected in
+          <span class="font-semibold text-galaxy-dark" data-redirect-countdown data-testid="redirect-countdown">5</span>
+          seconds.
+        </p>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <a
+            href={normalizedTarget}
+            class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-galaxy-primary text-white font-semibold shadow-md hover:bg-galaxy-primary/90 transition-colors"
+            data-redirect-proceed
+            data-testid="redirect-proceed"
+          >
+            Continue now
+          </a>
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-200 text-gray-700 font-semibold hover:border-galaxy-primary hover:text-galaxy-primary transition-colors"
+            data-redirect-cancel
+          >
+            Cancel redirect
+          </button>
+          <p class="text-sm text-gray-500" data-redirect-status>Redirect is active.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    (() => {
+      const container = document.querySelector('[data-redirect-target]');
+      const target = container?.getAttribute('data-redirect-target') || '/';
+      let remaining = 5;
+      const countdownEl = document.querySelector('[data-redirect-countdown]');
+      const statusEl = document.querySelector('[data-redirect-status]');
+      const cancelBtn = document.querySelector('[data-redirect-cancel]');
+      const proceedBtn = document.querySelector('[data-redirect-proceed]');
+
+      const updateCountdown = () => {
+        if (countdownEl) {
+          countdownEl.textContent = String(remaining);
+        }
+      };
+
+      updateCountdown();
+
+      const redirectNow = () => {
+        window.location.href = target;
+      };
+
+      const countdownTimer = window.setInterval(() => {
+        remaining = Math.max(0, remaining - 1);
+        updateCountdown();
+      }, 1000);
+
+      const redirectTimer = window.setTimeout(redirectNow, 5000);
+
+      cancelBtn?.addEventListener('click', () => {
+        window.clearTimeout(redirectTimer);
+        window.clearInterval(countdownTimer);
+        cancelBtn.setAttribute('disabled', 'true');
+        cancelBtn.classList.add('opacity-60', 'cursor-not-allowed');
+        if (statusEl) {
+          statusEl.textContent = 'Redirect cancelled. Use "Continue now" if you still want to leave.';
+        }
+      });
+
+      proceedBtn?.addEventListener('click', (event) => {
+        event.preventDefault();
+        redirectNow();
+      });
+    })();
+  </script>
+</BaseLayout>
