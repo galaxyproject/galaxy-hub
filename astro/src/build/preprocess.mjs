@@ -568,14 +568,11 @@ async function processBatch(items, processFn, batchSize = 50) {
  * Main preprocessing function
  */
 export async function preprocessContent(options = {}) {
-  const { clear = true, scope = 'all' } = options;
+  const { clear = true } = options;
 
   console.log('Galaxy Hub Astro v2 - Content Preprocessing');
   console.log(`Reading from: ${CONTENT_DIR}`);
   console.log(`Writing to: ${ASTRO_CONTENT_DIR}`);
-  if (scope !== 'all') {
-    console.log(`Scope: ${scope}`);
-  }
   console.log('');
 
   // Clear existing processed content
@@ -586,14 +583,7 @@ export async function preprocessContent(options = {}) {
   }
 
   // Find all content files
-  const scopePatterns = {
-    all: '**/*.md',
-    news: 'news/**/*.md',
-    events: 'events/**/*.md',
-  };
-  const pattern = scopePatterns[scope] || scopePatterns.all;
-
-  const markdownFiles = await glob(pattern, {
+  const markdownFiles = await glob('**/*.md', {
     cwd: CONTENT_DIR,
     absolute: true,
     ignore: ['**/node_modules/**', '0examples/**'],
@@ -674,17 +664,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const options = {
     verbose: args.includes('--verbose') || args.includes('-v'),
     clear: !args.includes('--no-clear'),
-    scope: (() => {
-      const scopeFlagIndex = args.findIndex((arg) => arg.startsWith('--scope='));
-      if (scopeFlagIndex !== -1) {
-        return args[scopeFlagIndex].split('=')[1] || 'all';
-      }
-      const scopeIndex = args.indexOf('--scope');
-      if (scopeIndex !== -1 && args[scopeIndex + 1]) {
-        return args[scopeIndex + 1];
-      }
-      return 'all';
-    })(),
   };
 
   preprocessContent(options)
