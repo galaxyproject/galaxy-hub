@@ -3,28 +3,25 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 interface Props {
   target: string;
-  fromSlug?: string;
   title?: string;
 }
 
-const { target, fromSlug, title = 'Content moved' } = Astro.props;
+const { target, title = 'Content moved' } = Astro.props;
 const normalizedTarget = target.replace(/\/+$/, '/') || '/';
 ---
 
 <BaseLayout title="Redirecting..." description="This page has moved to a new address">
   <div class="relative max-w-4xl mx-auto" data-redirect-target={normalizedTarget}>
-    <div class="absolute inset-0 -z-10 blur-3xl opacity-60 bg-[radial-gradient(circle_at_20%_20%,rgba(37,83,123,0.18),transparent_40%),radial-gradient(circle_at_80%_0%,rgba(255,215,0,0.22),transparent_32%)]"></div>
+    <div
+      class="absolute inset-0 -z-10 blur-3xl opacity-60 bg-[radial-gradient(circle_at_20%_20%,rgba(37,83,123,0.18),transparent_40%),radial-gradient(circle_at_80%_0%,rgba(255,215,0,0.22),transparent_32%)]"
+    >
+    </div>
 
     <div class="overflow-hidden rounded-2xl shadow-2xl border border-white/60 bg-white/90 backdrop-blur">
       <div class="px-8 py-6 bg-galaxy-primary text-white flex items-center gap-4">
         <div class="h-12 w-12 rounded-xl bg-white/15 flex items-center justify-center shadow-inner">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7M5 12h11"
-            />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7M5 12h11"></path>
           </svg>
         </div>
         <div>
@@ -38,8 +35,7 @@ const normalizedTarget = target.replace(/\/+$/, '/') || '/';
           This content has a new home at
           <a href={normalizedTarget} class="font-semibold text-galaxy-primary hover:text-galaxy-gold transition-colors">
             {normalizedTarget}
-          </a>.
-          You will be redirected in
+          </a>. You will be redirected in
           <span class="font-semibold text-galaxy-dark" data-redirect-countdown data-testid="redirect-countdown">5</span>
           seconds.
         </p>

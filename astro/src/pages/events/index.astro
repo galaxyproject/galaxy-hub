@@ -5,8 +5,6 @@ import PageHeader from '../../components/layout/PageHeader.astro';
 import EventsList from '../../components/events/EventsList.vue';
 import { normalizeSlug } from '../../utils/slug';
 import { filterCollections } from '../../utils/redirects';
-import { normalizeSlug } from '../../utils/slug';
-import { filterCollections } from '../../utils/redirects';
 
 // Get all events and prepare data for client component
 const events = filterCollections(await getCollection('events'), { skipRedirects: true, skipDrafts: true });
