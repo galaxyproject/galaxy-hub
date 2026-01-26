@@ -5,26 +5,31 @@ Validate all news frontmatter against schema-news.yaml.
 
 - Expands enum placeholders (CONTRIBUTORS, ORGANISATIONS, GRANTS) from the corresponding files.
 - Strips helper keys (_examples, description) and leading/trailing slashes in regex patterns.
-- Aggregates all content/news/**/index.md frontmatter into a single in-memory map.
-- Runs pykwalify in-process (no subprocess).
+- Aggregates all content/news/**/index.md frontmatter
 """
 
 import argparse
 import os
 import sys
+import logging
 from validate_common import (
     ROOT,
     aggregate_frontmatter,
+    check_recent_folder_names,
     clean_schema,
     gather_ids,
     load_yaml,
     validate_data,
+    log_validation_errors,
 )
 
 
 def main():
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
+    logger = logging.getLogger("validate_news")
     parser = argparse.ArgumentParser(description="Validate news frontmatter")
     parser.add_argument("--schema", default=os.path.join(ROOT, "content", "schema-news.yaml"))
+    parser.add_argument("--be-strict-from", dest="cutoff", default="2026-02-01")
     parser.add_argument("--quiet", action="store_true")
     args = parser.parse_args()
 
@@ -32,15 +37,20 @@ def main():
     raw_schema = load_yaml(args.schema)
     cleaned_schema = clean_schema(raw_schema, ids)
     aggregated_news = aggregate_frontmatter(os.path.join(ROOT, "content", "news"))
-    code, out = validate_data(aggregated_news, cleaned_schema)
+    code, errors = validate_data(aggregated_news, cleaned_schema)
+    folder_errors = check_recent_folder_names(aggregated_news, cutoff=args.cutoff)
 
-    if not args.quiet:
-        sys.stdout.write(out)
-    if code == 0:
-        print("OK: news frontmatter valid")
+    if errors and not args.quiet:
+        log_validation_errors(errors, logger)
+    if folder_errors and not args.quiet:
+        for err in folder_errors:
+            logger.error(f"FOLDER - {err}")
+
+    if code == 0 and not folder_errors:
+        logger.info("OK: news frontmatter valid")
     else:
-        print("FAILED: news frontmatter has issues")
-        sys.exit(code)
+        logger.error("FAILED: news frontmatter has issues")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
