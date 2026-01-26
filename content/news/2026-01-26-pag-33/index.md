@@ -3,7 +3,7 @@ title: "PAG33 Meeting Report"
 authors: "Natalie Whitaker-Allen"
 tags: [conference, report]
 layout: news
-date: "2026-01-23"
+date: "2026-01-26"
 tease: "Galaxy returned to PAG33 with a community-focused workshop and its first-ever exhibition booth, highlighting recent advances in genomics, microbiome research, machine learning, and training."
 subsites: [all, global]
 ---
