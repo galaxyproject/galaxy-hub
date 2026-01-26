@@ -29,7 +29,7 @@ subsites: [all, all-eu]
 
   <div class="text-center my-5">
     <div class="lead" style="padding-bottom: 1rem">
-      The flagship Galaxy event of the year is taking shape! Join the Galaxy world-wide community to share and learn about data science.
+      The flagship Galaxy event of the year brings together research leaders, principal investigators, and decision-makers from leading institutions worldwide to shape the future of data-intensive science and drive strategic initiatives in computational biology.
     </div>
     <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" type="button" class="btn btn-primary">
         <strong>Sign up for email announcements</strong>
@@ -54,39 +54,39 @@ subsites: [all, all-eu]
     <img src="/images/events/gcc2026/cartoon-conference-v2.png" class="card-img-top" alt="GCC conference series" />
     <div class="card-header">About GCC conference series</div>
 
-The [Galaxy Community Conference (GCC)](/gcc) is an annual conference focused on
-the use and development of the [Galaxy platform](https://galaxyproject.org/) for
-data analysis. **The conference brings together researchers, software
-developers, and trainers from a variety of disciplines to share their
-experiences, knowledge, and skills.**
+The [Galaxy Community Conference (GCC)](/gcc) is the premier annual gathering for
+research leaders, principal investigators, and institutional decision-makers advancing
+data-intensive science. **This conference provides a strategic forum for senior
+researchers to influence the direction of Galaxy development, establish collaborative
+partnerships, and explore how Galaxy can address institutional research priorities.**
 
-The conference included talks, posters, and workshops on a wide range of topics
-related to Galaxy, including analysis results, methods development, new software
-features and tools, and training and outreach topics. **The GCC provides an
-opportunity for attendees to learn about the latest developments in the Galaxy
-platform and to connect with other members of the Galaxy community.**
+GCC features keynote addresses from distinguished researchers, panel discussions on
+funding and strategic directions, and opportunities to shape Galaxy's roadmap. **Senior
+attendees gain insights into leveraging Galaxy for grant proposals, scaling institutional
+infrastructure, and building sustainable research programs while networking with leaders
+from top research institutions worldwide.**
 
   </div>
 
-  <!-- Destination -->
+  <!-- Highlights -->
   <div class="card" style="min-width: 30%; max-width: 32.2%;">
-    <img src="/images/events/gcc2026/cartoon-clermont-ferrand-v2.png" class="card-img-top" alt="Clermont-Ferrand, France" />
-    <div class="card-header">Clermont-Ferrand, France</div>
+    <img src="/images/events/gcc2026/cartoon-highlights.png" class="card-img-top" alt="Highlighted Talks" />
+    <div class="card-header">Highlighted Talks</div>
 
-**Nestled in the heart of central France**, Clermont-Ferrand is a city framed by
-dramatic volcanic landscapes and rich history. Dominated by the striking black
-lava-stone cathedral and surrounded by the [Chaîne des
-Puys](https://volcan.puy-de-dome.fr/volcans/chaine-des-puys.html) — a UNESCO
-World Heritage site of ancient volcanoes — the city offers an inspiring mix of
-natural beauty and architectural wonder.
+GCC2026 will feature keynote presentations from distinguished researchers and thought
+leaders addressing strategic challenges in data-intensive science, funding landscapes,
+and institutional infrastructure. These sessions will showcase high-impact research outcomes,
+discuss best practices for scaling Galaxy at the institutional level, and explore emerging
+opportunities for collaborative research initiatives. **Check out the [highlighted talks
+page](/events/gcc2026/highlights/) to learn more about these executive-level presentations.**
 
-Conference participants can look forward to vibrant cultural experiences, from
-strolling through charming medieval streets to enjoying lively cafés and local
-gastronomy. With its dynamic university atmosphere and welcoming spirit,
-Clermont-Ferrand provides the perfect setting for stimulating academic exchange
-and memorable discoveries.
-
-The **[travel page](/events/gcc2026/travel/) has more details.**
+  <ul>
+    <li><strong>Galaxy Live!</strong> - See Galaxy in action, on the stage!</li>
+    <li><strong>Rayan Chikhi</strong> - "Assembling and exploring the world's sequencing data for biological discovery"</li>
+    <li><strong>Galaxy Community Update</strong> - Highlights from the Galaxy community</li>
+    <li><strong>Panel Discussion</strong> - Engage with a group of panelists to discuss hot Galaxy topics</li>
+    <li><strong>Galaxy in Research</strong> - See how Galaxy is being used to help with some cutting-edge research.</li>
+  </ul>
 
   </div>
 
@@ -95,7 +95,7 @@ The **[travel page](/events/gcc2026/travel/) has more details.**
     <img src="/images/events/gcc2026/cartoon-fellowship.png" class="card-img-top" alt="GCC2026 Fellowships" />
     <div class="card-header">GCC2026 Fellowships</div>
 
-We are pleased to offer several fellowship opportunities to support attendance at the Galaxy Community Conference 2026 in Clermont-Ferrand, France. These awards will help early-career researchers and new Galaxy users participate in this premier event. **The fellowships are open to graduate students, postdoctoral researchers, and early-career scientists who are new to the Galaxy community.** Take  look at the [fellowships page](/events/gcc2026/fellowships/) for more details and to apply.
+We are pleased to offer several fellowship opportunities to support attendance at the Galaxy Community Conference 2026 in Clermont-Ferrand, France. These awards help build the next generation of Galaxy leaders by enabling early-career researchers to connect with senior investigators and participate in strategic discussions. **The fellowships are open to graduate students, postdoctoral researchers, and early-career scientists.** Senior researchers are encouraged to nominate exceptional candidates from their labs. Take a look at the [fellowships page](/events/gcc2026/fellowships/) for more details.
   </div>
 
   <!-- Host -->
@@ -124,26 +124,35 @@ The Galaxy project is thrilled to be hosted by UCA!
     <img src="/images/events/gcc2026/cartoon-cofest.png" class="card-img-top" alt="GCC2026 cofest" />
     <div class="card-header">GCC2026 CoFest</div>
 
-**CoFest is a community-driven event** where participants work together on innovative projects related to Galaxy. It’s more than a hackathon—it’s a chance for everyone, regardless of background, to contribute to our vibrant ecosystem.
+**CoFest provides a unique opportunity for strategic collaboration** where senior researchers and institutional leaders work alongside Galaxy developers to shape future priorities and capabilities. This interactive working session enables direct input into Galaxy's development roadmap and facilitates partnerships on institutional infrastructure challenges.
 
-CoFest participants will gather around shared interests and address common topics related to those interests. It is an informal, highly interactive meeting where you get to "hack" on a topic of choice - and you can do it with others that share similar interests.
+CoFest participants engage in focused working groups addressing shared institutional needs and strategic priorities. It's an invaluable forum for PIs and research directors to influence Galaxy's evolution while building collaborative relationships with peers from leading research organizations.
 
 Join us at **[CoFest](/events/gcc2026/cofest/)**
 
   </div>
 
-  <!-- Keynote -->
- <!--
-  <div class="card" style="min-width: 30%; max-width: 32.2%">
-    <img src="/images/events/gcc2026/keynote-photo.png" class="card-img-top" alt="GCC2026 Keynote speaker" />
-    <div class="card-header">GCC2026 Keynote speaker</div>
+  <!-- Destination -->
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
+    <img src="/images/events/gcc2026/cartoon-clermont-ferrand-v2.png" class="card-img-top" alt="Clermont-Ferrand, France" />
+    <div class="card-header">Clermont-Ferrand, France</div>
 
-A very inspiring (keynote speaker)[/event/gcc2026/keynote/], XX, speaking of XX on DATE
+**Nestled in the heart of central France**, Clermont-Ferrand is a city framed by
+dramatic volcanic landscapes and rich history. Dominated by the striking black
+lava-stone cathedral and surrounded by the [Chaîne des
+Puys](https://volcan.puy-de-dome.fr/volcans/chaine-des-puys.html) — a UNESCO
+World Heritage site of ancient volcanoes — the city offers an inspiring mix of
+natural beauty and architectural wonder.
+
+Conference participants can look forward to vibrant cultural experiences, from
+strolling through charming medieval streets to enjoying lively cafés and local
+gastronomy. With its dynamic university atmosphere and welcoming spirit,
+Clermont-Ferrand provides the perfect setting for stimulating academic exchange
+and memorable discoveries.
+
+The **[travel page](/events/gcc2026/travel/) has more details.**
 
   </div>
-  -->
-
-
 
 </div>
 

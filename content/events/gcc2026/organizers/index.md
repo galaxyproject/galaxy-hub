@@ -29,3 +29,28 @@ GCC2026 runs smoothly.
 
 To contact the organizing committee, please send an email to
 [gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org).
+
+# Scientific Program Committee
+
+The scientific program committee is responsible for the scientific program at
+GCC2026. They oversee the abstract review process and help shape the conference
+program.
+
+## Committee Chair
+
+* **[Enis Afgan](https://www.linkedin.com/in/afgane)**, [Johns Hopkins University](https://jhu.edu/)
+
+## Committee Members
+
+* **Daniela Schneider**, [University of Freiburg](https://www.uni-freiburg.de/)
+* **Hans-Rudolf Hotz**, [Friedrich Miescher Institute, Basel](https://www.fmi.ch/)
+* **Helge Hecht**, [Masaryk University](https://www.muni.cz/en)
+* **Leonid Kostrykin**, [Heidelberg University](https://www.uni-heidelberg.de/en)
+* **Marie Jossé**, [French National Scientific Center - Data Terra](https://www.cnrs.fr/en/the-cnrs), [Data Terra](https://www.data-terra.org/)
+* **Mohammad Saeed Tajdary**, [University of Isfahan](https://ui.ac.ir/en)
+* **Oriana Barros**, [University of Aveiro](https://www.ua.pt/en/)
+* **Pavan Videm**, [University of Freiburg](https://www.uni-freiburg.de/)
+* **Pratik Jagtap**, [University of Minnesota](https://twin-cities.umn.edu/)
+* **Sunita Sharma**, [University of Georgia](https://www.uga.edu/)
+* **Wolfgang Maier**, [University of Freiburg](https://www.uni-freiburg.de/)
+* **Yvan Le Bras**, [Muséum national d'histoire naturelle](https://www.mnhn.fr/en)
