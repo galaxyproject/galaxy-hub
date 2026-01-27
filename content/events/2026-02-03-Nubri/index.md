@@ -1,5 +1,5 @@
 ---
-title: Introducing Galaxy Galaxy NUBRI
+title: Introducing Galaxy NUBRI
 date: '2026-02-03'
 end: '2026-02-03'
 location:
