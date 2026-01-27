@@ -10,7 +10,7 @@ autotoc: false
   <tbody>
     <tr class="lead text-left" style="background-color: white">
       <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/rayan_chikhi.jpg" style="max-height: 200px;" alt="Rayan Chikhi" />
+        <img src="/images/events/gcc2026/rayan-chikhi.jpg" style="max-height: 200px;" alt="Rayan Chikhi" />
       </td>
       <td style="border: 0;">
         <strong>Dr. Rayan Chikhi</strong><br/>
