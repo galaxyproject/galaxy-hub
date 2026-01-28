@@ -15,6 +15,10 @@ supporters: [unifreiburg]
 links:
 image: "/images/communities/metabolomics.png"
 subsites: [global, us]
+contributions:
+  authorship:
+    - foellmelanie
+
 ---
 
 **When: 14:00 CET**

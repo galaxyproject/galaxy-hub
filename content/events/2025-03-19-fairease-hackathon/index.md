@@ -11,6 +11,12 @@ organizers:
 supporters:
   - eurosciencegateway
 subsites: [eu,esg, all-eu]
+contributions:
+  authorship:
+    - Marie59
+  funding:
+    - eurosciencegateway
+
 ---
 
 # FAIR-EASE Hackathon: Advancing Scientific & Technical Data Integration! 🚀

@@ -14,6 +14,13 @@ supporters:
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - deNBI
+    - elixir-europe
+    - galaxy
+
 ---
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**

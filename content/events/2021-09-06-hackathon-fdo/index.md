@@ -12,6 +12,10 @@ supporters:
 gtn: false
 subsites: [global, eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - nfdi4plants
+
 ---
 
 ![hackathon-arc](/assets/media/2021-08-26-hackathon-arc.png)

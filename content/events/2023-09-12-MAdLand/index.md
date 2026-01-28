@@ -10,6 +10,11 @@ gtn: false
 contact:  Prof. Dr. Stefan Rensing (madland2023@madland.science)
 tags: [talk, madland, community]
 supporters: [madland, unifreiburg, NFDI4Plants]
+contributions:
+  funding:
+    - madland
+    - nfdi4plants
+
 ---
 
 ## MAdLand - Molecular Adaptation to Land: plant evolution to change

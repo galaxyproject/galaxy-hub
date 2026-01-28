@@ -14,6 +14,12 @@ contact: Steffen C. Lott, David Brauer, Markus Wolfien, Maximilian Hillemanns, K
 tags: [training]
 subsites: [all-eu, global, us]
 supporters: [denbi]
+contributions:
+  authorship:
+    - mwolfien
+  funding:
+    - deNBI
+
 ---
 
 Five-days training centered on bioinformatic questioning and utilizing Galaxy.

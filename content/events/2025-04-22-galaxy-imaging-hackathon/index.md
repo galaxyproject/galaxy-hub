@@ -13,6 +13,14 @@ supporters:
   - nfdi
   - oscars
 subsites: [all, esg, eu]
+contributions:
+  authorship:
+    - beatrizserrano
+    - dianichj
+  funding:
+    - nfdi
+    - oscars
+
 ---
 
 # Join Us for the Galaxy Imaging Hackathon 2025

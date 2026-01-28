@@ -11,6 +11,11 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The fourth [ELIXIR All Hands meeting](https://www.eventbrite.co.uk/e/elixir-2018-all-hands-meeting-berlin-registration-42845604356) will take place 4-7 June 2018 in Berlin

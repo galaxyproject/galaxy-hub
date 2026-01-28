@@ -9,6 +9,11 @@ gtn: false
 contact:  Lucille Delisle, Hans-Rudolf Hotz
 tags:
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - hrhotz
+    - lldelisle
+
 ---
 
 Please <a href="https://epfl.zoom.us/j/69775900853?pwd=R1gzbllUZzg0RFUrM0Mzd2MvczE3Zz09">join us</a> 

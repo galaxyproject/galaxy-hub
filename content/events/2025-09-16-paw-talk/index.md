@@ -12,6 +12,10 @@ tags: [talk, uni-freiburg, esg, esg-wp1]
 supporters: [card, esg, unifreiburg]
 subsites: [all,esg]
 autotoc: false
+contributions:
+  authorship:
+    - dianichj
+
 ---
 Join [Diana Chiang Jurado](https://github.com/dianichj) from the [University of Freiburg](https://uni-freiburg.de/en/) for her session: [“Data Analysis for Everyone: Introducing the Galaxy Europe Platform”](https://paw-germany-2025.sessionize.com/session/961767)
 

@@ -12,6 +12,11 @@ contact: "Marie Josse: marie.josse@ifremer.fr"
 tags: [conference, earth-system, fair, talk]
 subsites: [all]
 supporters: [eosc, eu, fair-ease]
+contributions:
+  funding:
+    - eu
+    - fairease
+
 ---
 
 The European Geosciences Union (EGU) is held at the Austria Center Vienna (ACV) in Vienna, Austria and online, from the  27 April–2 May 2025. The assembly is open to the scientists of all nations. During this conference the EOSC project [FAIR-EASE](https://fairease.eu/) is holding a session called ** Interdomain digital services for integrated use of environnemental data **. 

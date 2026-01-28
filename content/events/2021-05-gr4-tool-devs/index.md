@@ -23,6 +23,13 @@ links:
 supporters:
 - galaxy
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - abretaud
+    - blankenberg
+  funding:
+    - galaxy
+
 ---
 
 * **10am Eastern US / 4pm Central European / [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1)**

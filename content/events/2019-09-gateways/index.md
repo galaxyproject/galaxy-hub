@@ -12,6 +12,12 @@ gtn: false
 contact: "James Taylor, Dave Clements, Mo Heydarian"
 image: "gateways-2019-logo.png"
 subsites: [global, us]
+contributions:
+  authorship:
+    - jxtx
+    - moheydarian
+    - tnabtaf
+
 ---
 
 There are several Galaxy related presentations at [Gateways 2019](https://sciencegateways.org/web/gateways2019/welcome):

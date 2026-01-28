@@ -12,5 +12,9 @@ external_url: https://training.csx.cam.ac.uk/bioinformatics/event/2000038
 gtn: true
 contact: Anne Pajon, Jing Su
 subsites: [global, us]
+contributions:
+  authorship:
+    - pajanne
+
 ---
 A Galaxy introduction course covering basic functions, simple data manipulation using use cases and examples and visualisation mostly targeted at first time users.

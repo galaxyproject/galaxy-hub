@@ -13,4 +13,8 @@ contact: "Anna Syme"
 tags: [ webinar ]
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - annasyme
+
 ---

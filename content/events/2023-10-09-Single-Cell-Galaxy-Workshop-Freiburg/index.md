@@ -10,6 +10,10 @@ gtn: true
 contact: "Pavankumar Videm"
 tags: [workshop, training]
 subsites: [all]
+contributions:
+  authorship:
+    - pavanvidem
+
 ---
 
 # General information

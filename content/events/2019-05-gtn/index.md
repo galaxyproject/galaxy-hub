@@ -13,6 +13,14 @@ supporters:
 - elixir
 - denbi
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - bebatut
+    - shiltemann
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: one central place (https://training.galaxyproject.org) to aggregate training materials covering many current research topics. Each topic is supported by different tutorials developed and maintained by the community via a GitHub repository: https://github.com/galaxyproject/training-material.

@@ -11,6 +11,11 @@ location_url: "https://fems-microbiology.org/opportunities/3rd-international-met
 external_url: 
 contact: "Pratik Jagtap, Tim Griffin, Magnus Arntzen, Praveen Kumar"
 subsites: [global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+    - pravs3683
+
 ---
 
 The [Galaxy-P Project](http://galaxyp.org/) will be giving [4 presentations](https://www.ufz.de/export/data/2/216895_Program_3rd%20IMS.pdf) at [3rd International Metaproteome Symposium](https://fems-microbiology.org/opportunities/3rd-international-metaproteome-symposium-2018-3-5-december-2018-germany/) in Leipzig.

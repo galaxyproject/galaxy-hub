@@ -12,4 +12,8 @@ gtn: false
 contact: Jan Oppelt, Jelle Scholtalbers
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - jellescholtalbers
+
 ---

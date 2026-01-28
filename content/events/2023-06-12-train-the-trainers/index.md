@@ -10,6 +10,10 @@ gtn: true
 contact: Bérénice Batut
 tags: [workshop, training]
 subsites: [all]
+contributions:
+  authorship:
+    - bebatut
+
 ---
 
 ![Flyer for the Gallantries & ELIXIR-GOBLET Train the Trainers](/events/2023-06-12-train-the-trainers/flyer.png)

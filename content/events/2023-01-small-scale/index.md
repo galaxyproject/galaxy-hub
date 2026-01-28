@@ -9,6 +9,10 @@ gtn: false
 contact: Hans-Rudolf Hotz
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - hrhotz
+
 ---
 
 Please <a href="https://fmi.zoom.us/j/98073380544?pwd=NnRFemhtWUJFeEhvRU5Wbk5TKzY5QT09">join us</a> 

@@ -18,6 +18,13 @@ links:
 supporters:
 - galaxy
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - gmauro
+    - lldelisle
+  funding:
+    - galaxy
+
 ---
 
 * **10am Eastern US. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Admins+and+Infrastructure+Providers+Webinar&iso=20210526T10&p1=419&ah=1).**

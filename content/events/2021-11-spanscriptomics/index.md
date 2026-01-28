@@ -12,6 +12,10 @@ gtn: false
 contact: Stefana Dreptate, Wendi Bacon
 tags: [training, webinar]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - nomadscientist
+
 ---
 
 Curso de análisis de células únicas con Galaxy en español. 

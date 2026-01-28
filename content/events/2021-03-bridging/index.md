@@ -25,6 +25,14 @@ links:
   url: https://docs.google.com/presentation/d/18OXzLnbGBWHeoCCCCcyta_K4HjQQpSJcnDzVCH18UrM/edit#slide=id.gb34215f4b3_0_0
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - galaxy
+
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.

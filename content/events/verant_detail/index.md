@@ -15,6 +15,10 @@ tease: 'This workshop is designed for biologists and life scientists who want
   to analyse sequence data using the Galaxy – without needing programming expertise.
 
   Participants will learn how to perform key bioinformatics tasks'
+contributions:
+  authorship:
+    - sbueker77
+
 ---
 This workshop is designed for biologists and life scientists who want
 to analyse sequence data using the Galaxy – without needing programming expertise.

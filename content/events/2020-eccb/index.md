@@ -12,6 +12,13 @@ external_url: ""
 contact: "Björn Grüning, Anup Kumar, Alireza Khanteymoori, Fotis E. Psomopoulos"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - anuprulez
+    - bgruening
+    - fpsom
+    - khanteymoori
+
 ---
 
 Galaxy is part of two workshops at the ECCB2020 pre-meeting New Trends in Bioinformatics events:

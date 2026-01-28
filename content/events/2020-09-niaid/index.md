@@ -18,4 +18,8 @@ links:
     url: "http://data.hyphy.org/web/galaxy-niaid.pdf"
 contact: "Dave Clements, Steven Weaver"
 subsites: [global, us]
+contributions:
+  authorship:
+    - tnabtaf
+
 ---

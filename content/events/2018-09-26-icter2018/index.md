@@ -12,4 +12,9 @@ image:
 gtn: false
 contact: "Nuwan Goonasekera, Simon Gladman"
 subsites: [global, us]
+contributions:
+  authorship:
+    - nuwang
+    - slugger70
+
 ---

@@ -15,4 +15,8 @@ links:
 - text: "Video"
   url: "https://youtu.be/oGPaYTOOHug"
 subsites: [global, us]
+contributions:
+  authorship:
+    - pickettbd
+
 ---

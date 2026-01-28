@@ -14,6 +14,10 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 **[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training)** will be offered January

@@ -14,6 +14,10 @@ contact: Cyprien Guérin, Valentin Loux, Christelle Hennequet-Antier, Julie Aube
 gtn: true
 tags: []
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - vloux
+
 ---
 
 Part of Cycle "Bioinformatique par la pratique" 2021

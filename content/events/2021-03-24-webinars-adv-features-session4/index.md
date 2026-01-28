@@ -17,6 +17,14 @@ supporters:
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - galaxy
+
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.

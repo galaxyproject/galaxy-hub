@@ -13,6 +13,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 Simon and Björn from the Europe Galaxy team will attend the Metabolomics Tool developement workshop (MetaboFlow hackathon) at EBI in Hinxton (Great Britain) and help

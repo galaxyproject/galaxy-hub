@@ -8,4 +8,8 @@ location: "Bern, Switzerland"
 external_url: "https://www.ds4s.ch"
 contact: "Björn Grüning"
 subsites: [all]
+contributions:
+  authorship:
+    - bgruening
+
 ---

@@ -14,6 +14,11 @@ supporters:
 - miracum
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - galaxy-europe
+    - miracum
+
 ---
 The 'Pilot Core Unit for Bioinformatics, Data Integration und Analysis (CUBiDA)' organizes a monthly colloquium with an aim of facilitating the exchange of scientific knowledge in the area of molecular and clinical data analysis. At the same time, these seminars provide a platform for networking among researchers from different disciplines within UKER/FAU. This colloquium is also supported by the graduate program Life@FAU (https://www.life.fau.eu/). The next talk will be on Thursday, 24.06.2021 at 15:30 hrs:
 

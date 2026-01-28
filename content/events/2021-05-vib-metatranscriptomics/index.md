@@ -12,6 +12,12 @@ gtn: true
 contact: Pratik Jagtap, Subina Mehta, Tim Griffin, Magnus Arntzen, Saskia Hiltemann
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+    - shiltemann
+    - subinamehta
+
 ---
 
 This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.

@@ -7,7 +7,6 @@ days: 3
 tags:
 - new event-external
 title: "2025 NCI Informatics Technology for Cancer Research Annual Meeting"
-contact: ''
 location:
   name: Rockville, MD, USA
 continent: NA

@@ -12,4 +12,8 @@ external_url: "https://resbaz.github.io/resbaz2021qld/schedule/#session-009"
 contact: "Gareth Price"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+
 ---

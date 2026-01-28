@@ -13,6 +13,11 @@ gtn: false
 contact: "Alex Mahmoud, John Chilton"
 tags: [ "devroundtable" ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - almahmoud
+    - jmchilton
+
 ---
 
 This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.

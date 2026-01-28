@@ -8,6 +8,10 @@ contact: "Paul Zierep"
 subsites: [all-eu]
 gtn: true
 tags: [workshop, training]
+contributions:
+  authorship:
+    - paulzierep
+
 ---
 
 # Galaxy Meets Secondary Metabolite Discovery!

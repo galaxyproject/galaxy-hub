@@ -12,6 +12,10 @@ contact:  lukasz.opiola@onedata.org
 subsites: [all, esg]
 supporters: [egi, esg]
 tags: [esg, eosc, esg-wp4, esg-wp1]
+contributions:
+  funding:
+    - egi
+
 ---
 
 

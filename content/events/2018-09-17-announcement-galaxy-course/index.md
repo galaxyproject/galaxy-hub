@@ -23,6 +23,11 @@ supporters:
 hidefooter: true
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - sfb992
+
 ---
 
 Galaxy workshop on HTS data analysis, September 2018, registration is open! For attendance, please apply [here](https://drive.google.com/open?id=14sCTr5r1Ca6hGhJTKZVgZRzPAlTtRN1r7xAlNuUtN9k)

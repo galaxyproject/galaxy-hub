@@ -14,5 +14,17 @@ continent: EU
 external_url: https://training.galaxyproject.org/training-material/events/2026-10-12-Advanced-Galaxy-Training.html
 tease: Join us for an **intensive, week-long, in-person training** designed to elevate
   your Galaxy expertise to new heights
+contributions:
+  authorship:
+    - Marie59
+    - abretaud
+    - bebatut
+    - clsiguret
+    - fmareuil
+    - lecorguille
+    - lleroi
+    - loraine-gueguen
+    - scorreard
+
 ---
 Join us for an **intensive, week-long, in-person training** designed to elevate your Galaxy expertise to new heights. This workshop is tailored for **data scientists, advanced Galaxy users, and team leaders** who need to **scale, automate, and publish** their data analysis workflows for **batch processing and production-level applications**.

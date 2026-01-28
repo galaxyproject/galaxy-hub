@@ -12,4 +12,8 @@ gtn: false
 contact: "Peter van Heusden"
 image: "/images/galaxy-logos/galaxy-africa-logo-big.png"
 subsites: [global, us]
+contributions:
+  authorship:
+    - pvanheus
+
 ---

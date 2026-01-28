@@ -16,6 +16,10 @@ supporters:
 tags: [talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Björn will give two talks in Heidelberg about reproducible science.

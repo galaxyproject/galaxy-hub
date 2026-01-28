@@ -13,6 +13,10 @@ gtn: true
 contact: Valentin Loux, Jean-François Gibrat, Thomas Lacroix
 tags: []
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - vloux
+
 ---
 
 Part of Cycle "Bioinformatique par la pratique" 2021

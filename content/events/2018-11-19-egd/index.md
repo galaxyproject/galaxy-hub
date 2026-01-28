@@ -19,6 +19,12 @@ supporters:
 - ifb
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - ifb
+
 ---
 
 The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.

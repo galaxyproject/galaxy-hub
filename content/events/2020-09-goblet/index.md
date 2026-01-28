@@ -12,6 +12,11 @@ contact: "Fotis E. Psomopoulos, Gareth Price"
 image: "/images/logos/GobletLogo.png"
 gtn: false
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+    - fpsom
+
 ---
 
 Galaxy is a member of [GOBLET](https://mygoblet.org/) and had two presentations at the 2020 GOBLET AGM

@@ -14,4 +14,10 @@ image:
 subsites: [global, us]
 supporters: [denbi]
 tags: [training, bioinformatics, community]
+contributions:
+  authorship:
+    - mwolfien
+  funding:
+    - deNBI
+
 ---

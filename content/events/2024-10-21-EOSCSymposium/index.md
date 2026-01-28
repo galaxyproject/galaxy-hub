@@ -13,4 +13,9 @@ supporters:
   - eurosciencegateway
   - eosc
   - eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+
 ---

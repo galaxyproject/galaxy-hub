@@ -12,6 +12,11 @@ gtn: true
 contact: "Gareth Price, Simon Gladman"
 image: "eresearch-nz-banner.png"
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+    - slugger70
+
 ---
 
 [Galaxy Australia](https://usegalaxy.org.au/) will be at [eResearch NZ 2021](https://www.eresearchnz2021.org.nz/):

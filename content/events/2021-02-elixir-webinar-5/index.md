@@ -20,4 +20,9 @@ links:
     url: "https://youtu.be/MTivOoPYMwQ"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - bgruening
+    - wm75
+
 ---

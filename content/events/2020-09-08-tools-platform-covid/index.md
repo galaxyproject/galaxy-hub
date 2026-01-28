@@ -16,6 +16,11 @@ tags:
 - elixir
 - tools
 subsites: [all-eu]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 In the context of the 19th European Conference on Computational Biology (ECCB2020), Björn will give a talk in the session "A glimpse into Global Bioinformatics Communities: Europe - ELIXIR", check out the details [here](https://eccb2020.info/programme-at-a-glance/).

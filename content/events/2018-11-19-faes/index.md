@@ -11,4 +11,8 @@ image: /images/logos/faes.png
 gtn: false
 contact: Mo Heydarian
 subsites: [global, us]
+contributions:
+  authorship:
+    - moheydarian
+
 ---

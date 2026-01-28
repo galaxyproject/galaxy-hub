@@ -7,6 +7,10 @@ location: "Online, Global"
 gtn: false
 contact: "Lucille Delisle"
 subsites: [global, us]
+contributions:
+  authorship:
+    - lldelisle
+
 ---
 
 Please [join us](https://epfl.zoom.us/j/62244337954?pwd=L2ZVSytTdlpaM1pvbjZpWjNjUm9JZz09) at 4 PM CEST ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20220920T16&p1=1229&ah=1)) 

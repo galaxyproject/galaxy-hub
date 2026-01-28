@@ -12,4 +12,8 @@ gtn: false
 contact: Steve Cassidy
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - stevecassidy
+
 ---

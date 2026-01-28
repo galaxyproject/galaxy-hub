@@ -16,6 +16,10 @@ supporters:
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We will give a workshop at the 3rd Systems Biology Developers Foundry organised by FAIRDOM & de.NBI. More information can be found [here](https://fair-dom.org/communities/systems-biology-developers-foundry/3rd-sbdf/).

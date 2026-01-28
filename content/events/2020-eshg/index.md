@@ -12,4 +12,9 @@ gtn: true
 contact: "Anton Nekrutenko, Marius van den Beek"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - mvdbeek
+    - nekrut
+
 ---

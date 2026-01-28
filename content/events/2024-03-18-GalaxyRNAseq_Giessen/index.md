@@ -11,4 +11,11 @@ contact: "Anika Erxleben, Jochen Blom"
 subsites: [all]
 tags: [training, workshop]
 supporters: [denbi, unifreiburg]
+contributions:
+  authorship:
+    - erxleben
+    - jochenblom
+  funding:
+    - deNBI
+
 ---

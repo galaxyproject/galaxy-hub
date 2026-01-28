@@ -12,5 +12,10 @@ contact: 'Jeremy Goecks, Daniel Blankenberg, Mohammad Heydarian'
 image: ""
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - blankenberg
+    - jgoecks
+
 ---
 

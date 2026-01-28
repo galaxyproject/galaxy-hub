@@ -16,4 +16,9 @@ links:
     url: "https://biocommons-variants-polyploid.eventbrite.com.au/"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+    - igormakunin
+
 ---

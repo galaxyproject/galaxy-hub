@@ -12,4 +12,8 @@ gtn: false
 contact: "Laure Quintric, Patrick Durand, Erwan Corre"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - r1corre
+
 ---

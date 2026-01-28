@@ -12,4 +12,8 @@ external_url: "https://www.elixir-czech.cz/events/elixir-cz-proteomics-workshop-
 contact: "Björn Grüning"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - bgruening
+
 ---

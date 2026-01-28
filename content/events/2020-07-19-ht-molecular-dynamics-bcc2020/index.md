@@ -13,6 +13,10 @@ supporters:
 - denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We are offering a Galaxy workshop on **High-throughput molecular dynamics with Galaxy** at the [BCC2020 conference](https://bcc2020.github.io/).

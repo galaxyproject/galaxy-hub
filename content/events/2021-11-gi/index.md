@@ -12,4 +12,8 @@ gtn: false
 contact: "Delphine Lariviere"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - delphine-l
+
 ---

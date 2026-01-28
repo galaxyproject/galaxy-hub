@@ -12,6 +12,14 @@ image: /images/logos/game2017-admin-training-logo.png
 gtn: true
 contact: Enis Afgan, Nate Coraor, Björn Grüning, Simon Gladman, Ross Lazarus, 
 subsites: [global, us]
+contributions:
+  authorship:
+    - afgane
+    - bgruening
+    - fubar2
+    - natefoo
+    - slugger70
+
 ---
 The Galaxy Administrator Training Course – Melbourne will run for four days, Monday-Thursday, 6-9 February, starting right after the GAMe 2017 Conference. The course will take place at LAB-14, University of Melbourne, 700 Swanston St, Carlton.
 

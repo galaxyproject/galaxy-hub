@@ -12,4 +12,10 @@ gtn: false
 contact: "Fotis E. Psomopoulos, Jessica Lindvall, Katharina Heil, Ana P. Melo, Alexia Cardona, Eija Korpelainen, Patricia Palagi, Loredana Le Pera, Eva Alloza, Bérénice Batut, Egon Willighagen"
 image:
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - bebatut
+    - fpsom
+    - ppalagi
+
 ---

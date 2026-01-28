@@ -7,7 +7,6 @@ days: 3
 tags:
 - new event-external
 title: Science Gateways 2025
-contact: ''
 location:
   name: Green Bay, WI, USA
 continent: NA

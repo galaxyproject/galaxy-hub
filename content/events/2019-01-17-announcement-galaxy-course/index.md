@@ -18,6 +18,10 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Galaxy workshop on RNA-seq data analysis, January 2018 in Belgrad (Serbia), registration is open!

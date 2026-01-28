@@ -12,4 +12,8 @@ external_url: https://www.eventbrite.com.au/e/variant-detection-using-galaxy-aus
 contact: "Igor Makunin"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - igormakunin
+
 ---

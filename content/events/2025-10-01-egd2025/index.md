@@ -16,6 +16,14 @@ supporters:
 - egi
 subsites: [all, eu, esg]
 tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, cofest, demo, talk]
+contributions:
+  funding:
+    - deNBI
+    - egi
+    - elixir-europe
+    - eu
+    - eurosciencegateway
+
 ---
 
 _We will try to keep the schedule as up-to-date as possible - though expect any short term changes and adjustments!_

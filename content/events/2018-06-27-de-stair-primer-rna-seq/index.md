@@ -16,6 +16,10 @@ location:
 supporters:
 - denbi
 subsites: [eu]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 de.STAIR is offering an introductory course on RNA-Sequencing data analysis using the Galaxy platform.

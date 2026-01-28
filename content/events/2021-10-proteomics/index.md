@@ -12,4 +12,10 @@ gtn: false
 contact: Johan Gustafsson, Grace Hall, Pratik Jagtap
 tags: [talk, webinar]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - GraceAHall
+    - pratikdjagtap
+    - supernord
+
 ---

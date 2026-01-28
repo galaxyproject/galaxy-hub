@@ -22,6 +22,12 @@ supporters:
 - ifb
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - ifb
+
 ---
 
 The [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) organizes a 4-days workshop at Roscoff (France) related to Galaxy tool integration and training.

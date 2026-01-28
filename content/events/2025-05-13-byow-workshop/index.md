@@ -12,6 +12,13 @@ supporters:
 - eurosciencegateway
 - denbi
 subsites: [all, esg, eu]
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - deNBI
+    - eurosciencegateway
+
 ---
 
 Join the ELIXIR Tools Platform and Single Cell Omics community for an engaging online event focused on best practices for sharing and managing computational workflows using [WorkflowHub](https://workflowhub.eu).

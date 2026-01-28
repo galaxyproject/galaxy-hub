@@ -13,6 +13,13 @@ supporters:
 - denbi
 - unifreiburg
 subsites: [all, esg, eu]
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - deNBI
+    - eurosciencegateway
+
 ---
 
 # General information

@@ -9,6 +9,12 @@ location:  ParkInn Hotel, Alexanderplatz 7, 10178, Berlin
 supporters: [EU,esg, eosc, eu]
 tags: [esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, esg, meeting, meeting]
 subsites: [all-eu, esg]
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - eu
+
 ---
 
 The annual meeting of the Horizon Europe project EOSC [EuroScienceGateway](https://eurosciencegateway.eu) takes place in Berlin after the EOSC Symposium.

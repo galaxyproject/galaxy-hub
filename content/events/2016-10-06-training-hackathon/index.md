@@ -12,6 +12,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 We will contribute to the "Galaxy training material hackathon". More information can be found [here](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3).
