@@ -13,7 +13,7 @@ contributions:
     - SaimMomin12
   funding:
     - uni-freiburg
-    - esg
+    - eurosciencegateway
 ---
 The Galaxy Project is pleased to announce the formation of the [Tool Developers Special Interest Group (SIG)](https://galaxyproject.org/community/sig/tool-developers/), a new initiative designed to strengthen the backbone of the Galaxy ecosystem: its tools.
 

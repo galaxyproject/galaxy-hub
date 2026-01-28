@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-02-29'
 external_url: https://training.galaxyproject.org/training-material/news/2024/02/29/new-gmod-topic.html
 main_subsite: global

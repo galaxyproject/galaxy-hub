@@ -12,7 +12,7 @@ contributions:
     - minamehr
   funding:
     - uni-freiburg
-    - esg
+    - eurosciencegateway
 ---
 
 High-quality reference genes and microbial genomes are essential resources for understanding the functional roles of microbes and quantifying their abundance in microbiome studies.  

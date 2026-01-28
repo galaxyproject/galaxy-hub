@@ -13,17 +13,15 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - dataplant
+    - nfdi4plants
     - crc1425
     - crc992
     - biolytix
-    - converge
-    - bycovid
+    - elixir-converge
+    - by-covid
     - healthycloud
     - eosc-life
     - gallantries
-    - pari
-    - neic
     - miracum
     - biodaten
     - egi
@@ -31,7 +29,6 @@ contributions:
     - bmbf
     - dfg
     - uni-freiburg
-    - galaxy-freiburg
     - galaxy-europe
 ---
 

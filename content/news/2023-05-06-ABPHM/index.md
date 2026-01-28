@@ -19,7 +19,6 @@ contributions:
   authorship:
     - EngyNasr
   funding:
-    - microbial genomics
     - eosc-life
     - elixir-europe
 ---

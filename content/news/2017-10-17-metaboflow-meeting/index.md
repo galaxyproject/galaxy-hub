@@ -16,7 +16,6 @@ contributions:
     - deNBI
     - elixir-europe
     - ViCE
-    - MetaboFlow
 ---
 
 Björn participated to the Wellcome Trust funded MetaboFlow meeting (training and hackathon) in Birmingham.

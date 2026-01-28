@@ -4,14 +4,11 @@ date: "2024-02-11"
 tags:
 - paper
 - citations
-supporters: 
-- Camila-goclowski
-- wee-snufkin
-- nomadscientist
+authors: [Camila Goclowski, Julia Jakiela, Wendi Bacon]
 subsites: [all-eu]
 main_subsite: eu
 contributions:
-  funding:
+  authorship:
     - Camila-goclowski
     - wee-snufkin
     - nomadscientist

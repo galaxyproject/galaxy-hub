@@ -16,7 +16,7 @@ contributions:
     - deNBI
     - elixir-europe
     - eosc-life
-    - esg
+    - eurosciencegateway
 ---
 
 </br>

@@ -1,7 +1,7 @@
 ---
 title: "Global framework for SARS-CoV-2 data analysis: Application to intrahost variation"
 tease: "Parts 1 and 2"
-authors: [Wolfgang Maier, Marius Van Den Beek, Björn Grüning, Sergei Kosakovsky Pond, Anton Nekrutenko]
+authors: [Wolfgang Maier, Marius van den Beek, Björn Grüning, Sergei Kosakovsky Pond, Anton Nekrutenko]
 external_url: ""
 date: "2021-02-22"
 source_blog: "Virological"

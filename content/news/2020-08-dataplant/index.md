@@ -13,7 +13,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
-    - dataplant
+    - nfdi4plants
 ---
 
 Starting in October 2020 until September 2025, the European Galaxy team in Freiburg will participate in the consortium DataPLANT for

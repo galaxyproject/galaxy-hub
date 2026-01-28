@@ -9,7 +9,7 @@ supporters: [esg, oscars, fiesta]
 main_subsite: eu
 contributions:
   funding:
-    - esg
+    - eurosciencegateway
     - oscars
     - fiesta
 ---

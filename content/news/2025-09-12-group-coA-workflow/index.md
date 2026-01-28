@@ -12,7 +12,7 @@ contributions:
     - minamehr
   funding:
     - uni-freiburg
-    - esg
+    - eurosciencegateway
 ---
 
 

@@ -15,7 +15,7 @@ contributions:
   funding:
     - eosc-life
     - uni-freiburg
-    - esg
+    - eurosciencegateway
     - elixir-europe
     - eu
 ---

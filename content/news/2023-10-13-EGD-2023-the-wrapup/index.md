@@ -26,7 +26,7 @@ contributions:
   funding:
     - elixir-europe
     - deNBI
-    - esg
+    - eurosciencegateway
 ---
 
 <div class="float-right" style="max-width: 400px">

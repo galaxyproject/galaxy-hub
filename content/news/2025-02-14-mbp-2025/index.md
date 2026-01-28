@@ -20,7 +20,7 @@ contributions:
     - eurosciencegateway
     - uni-freiburg
     - deNBI
-    - dataplant
+    - nfdi4plants
     - galaxy-europe
     - madland
 ---

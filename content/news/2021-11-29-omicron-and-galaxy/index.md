@@ -20,8 +20,8 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - converge
-    - bycovid
+    - elixir-converge
+    - by-covid
     - eosc-life
 ---
 

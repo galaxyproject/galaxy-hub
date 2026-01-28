@@ -22,8 +22,8 @@ contributions:
     - sebastian-schaaf
     - sanjaysrikakulam
   funding:
-    - NFDI
-    - NFDI4BioImaging
+    - nfdi
+    - nfdi4bioimage
     - nfdi4plants
     - elixir-europe
     - eurosciencegateway

@@ -20,7 +20,7 @@ contributions:
   authorship:
     - freiburggalaxyteam
   funding:
-    - JXTX Foundation
+    - JXTXFoundation
     - Worfklow4Metabelomics
     - GalaxyWorks
     - GigaScience

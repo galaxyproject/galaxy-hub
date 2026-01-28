@@ -11,7 +11,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
-    - dataplant
+    - nfdi4plants
 ---
 
 The kick-off meeting of the [DataPLANT consortium](https://nfdi4plants.de/)  took place recently. The project will run for 5 years and the European Galaxy team in Freiburg will contribute to it.

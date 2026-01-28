@@ -29,14 +29,10 @@ contributions:
     - galaxy-europe
     - galaxy-australia
     - gallantries
-    - erasmus+
     - eosc-life
-    - converge
-    - pari
-    - neic
-    - australian_biocommons
-    - qfab
-    - melbbioinfo
+    - elixir-converge
+    - AustralianBioCommons
+    - melbournebioinformatics
     - sanbi
 ---
 

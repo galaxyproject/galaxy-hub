@@ -6,11 +6,12 @@ location:
   name: Freiburg, Germany
 supporters:
 - denbi
-authors: 
-- Anika Erxleben
+authors: "Anika Erxleben"
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
+  authorship:
+    - erxleben
   funding:
     - deNBI
 ---

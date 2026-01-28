@@ -11,7 +11,6 @@ main_subsite: erasmusmc
 contributions:
   funding:
     - galaxy-europe
-    - TIaaS
 ---
 
 

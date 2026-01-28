@@ -15,8 +15,8 @@ contributions:
     - stain
   funding:
     - eurosciencegateway
-    - fair-ease
-    - bycovid
+    - fairease
+    - by-covid
 ---
 
 [Research Object Crate](https://www.researchobject.org/ro-crate/) specification [RO-Crate version 1.2](https://w3id.org/ro/crate/1.2) has been released.

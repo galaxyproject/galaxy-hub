@@ -16,7 +16,7 @@ contributions:
     - mtekman
     - beatrizserrano
   funding:
-    - dataplant
+    - nfdi4plants
     - biodaten
     - deNBI
 ---

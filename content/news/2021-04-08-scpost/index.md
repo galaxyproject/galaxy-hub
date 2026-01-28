@@ -13,7 +13,7 @@ contributions:
   authorship:
     - mtekman
   funding:
-    - dataplant
+    - nfdi4plants
     - deNBI
     - biodaten
 ---

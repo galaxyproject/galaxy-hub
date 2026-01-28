@@ -6,6 +6,9 @@ tease: "Galaxy users can now connect to a Dataverse as a repository source, brow
 subsites: [global,eu,us]
 main_subsite: freiburg
 tags: [dataverse]
+contributions:
+  authorship:
+    - anuprulez
 ---
 
 # Integration of Dataverse with Galaxy

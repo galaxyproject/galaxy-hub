@@ -17,5 +17,9 @@ authors: Teresa Müller, Delphine Lariviere
 external_url: https://training.galaxyproject.org/training-material/news/2025/11/13/gta-date-2026.html
 tease: 🎉 We are excited to share that the Galaxy Training Academy (GTA) 2026 will
   take place next year, starting on 18 May 2026! 🎉
+contributions:
+  authorship:
+    - teresa-m
+    - delphine-l
 ---
 🎉 We are excited to share that the Galaxy Training Academy (GTA) 2026 will take place next year, starting on 18 May 2026! 🎉

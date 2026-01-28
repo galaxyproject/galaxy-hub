@@ -18,7 +18,7 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - dataplant
+    - nfdi4plants
     - uni-freiburg
 ---
 

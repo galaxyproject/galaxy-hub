@@ -19,7 +19,7 @@ contributions:
     - beatrizserrano
   funding:
     - biodaten
-    - dataplant
+    - nfdi4plants
     - eosc-life
     - deNBI
 ---

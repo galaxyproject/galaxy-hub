@@ -18,7 +18,8 @@ contributions:
     - deNBI
     - elixir-europe
     - eosc-life
-    - esg
+    - eurosciencegateway
+    - fairease
 ---
 
 Two Horizon Europe projects directed toward the development and deployment of the European Open Science Cloud (EOSC)—FAIR-EASE and EuroScienceGateway (ESG)­—have agreed

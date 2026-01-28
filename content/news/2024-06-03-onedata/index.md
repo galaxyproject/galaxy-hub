@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-06-03'
 external_url: https://training.galaxyproject.org/training-material/news/2024/06/03/onedata.html
 main_subsite: global

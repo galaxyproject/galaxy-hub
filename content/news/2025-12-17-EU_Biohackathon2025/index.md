@@ -15,7 +15,7 @@ contributions:
     - dianichj
   funding:
     - elixir-europe
-    - eurobioimaging
+    - eubi
 ---
 
 # BioHackathon Europe 2025 - Project 9

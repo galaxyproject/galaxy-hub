@@ -12,7 +12,7 @@ contributions:
     - minamehr
   funding:
     - uni-freiburg
-    - esg
+    - eurosciencegateway
 ---
 
 The **Freiburg Galaxy Team** participated in the [Central European Section Meeting of the International Union for the Study of Social Insects (CE-IUSSI 2025)](http://ce-iussi-meeting-szeged2025.iussi.de/), held in Szeged, Hungary, from August 27–30, 2025.  

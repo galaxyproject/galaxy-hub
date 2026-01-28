@@ -21,7 +21,7 @@ contributions:
     - elixir-europe
     - deNBI
     - uni-freiburg
-    - australian_biocommons
+    - AustralianBioCommons
 ---
 
 

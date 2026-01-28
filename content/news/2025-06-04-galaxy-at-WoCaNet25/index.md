@@ -12,7 +12,7 @@ contributions:
     - minamehr
   funding:
     - uni-freiburg
-    - esg
+    - eurosciencegateway
 ---
 
 The Galaxy Europe team participated in [the Women's Careers and Networks (WoCaNet) Symposium](https://www.uni-goettingen.de/en/203891.html), held on June 4–5, 2025 at [the Max Planck Institute for Multidisciplinary Science](https://www.mpinat.mpg.de/en), Faßberg Campus, Göttingen, Germany. WoCaNet is a vibrant, student-organized event that brings together a diverse community of researchers, students, and professionals across academia and industry to explore career paths, foster mentorship, and promote gender equality in science.

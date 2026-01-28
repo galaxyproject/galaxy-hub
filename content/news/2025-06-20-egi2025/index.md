@@ -16,7 +16,7 @@ contributions:
   funding:
     - egi
     - uni-freiburg
-    - esg
+    - eurosciencegateway
     - datacommons
 ---
 From June 3rd to 6th, [the European Galaxy Team](https://usegalaxy-eu.github.io/people) actively participated in the [EGI2025 conference](https://www.egi.eu/event/egi2025/), continuing its strong presence with engaging sessions, posters, and an exhibition booth. Armin Dadras and Sanjay Kumar Srikakulam from the European Galaxy Team travelled to Santander, Spain, to join the [EGI2025 conference](https://www.egi.eu/event/egi2025/) to present the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators -  [Sebastián Luna-Valero](https://www.egi.eu/people/sebastian-luna-valero/), [Enol Fernández](https://www.egi.eu/people/enol-fernandez/), and [Smitesh Jain](https://www.egi.eu/people/smitesh-jain/) (EGI/NL), [Łukasz Opioła](https://www.egi.eu/people/lukasz-opiola/) (ACC Cyfronet AGH  University of Krakow), [Michal Orzechowski](https://scholar.google.com/citations?user=jn8uxWEAAAAJ&hl=en) (AGH University of Krakow), and [Hakan Bayındır](https://scholar.google.com/citations?user=l0IjsVcAAAAJ&hl=de) (ULAKBIM/TR).

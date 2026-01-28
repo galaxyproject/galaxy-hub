@@ -12,7 +12,7 @@ contributions:
   authorship:
     - gallardoalba
   funding:
-    - dataplant
+    - nfdi4plants
     - biodaten
 ---
 

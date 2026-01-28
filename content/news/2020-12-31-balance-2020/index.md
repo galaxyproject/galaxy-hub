@@ -26,7 +26,7 @@ contributions:
     - uni-freiburg
     - elixir-europe
     - deNBI
-    - dataPLANT
+    - nfdi4plants
     - eosc-life
     - biodaten
     - bmbf

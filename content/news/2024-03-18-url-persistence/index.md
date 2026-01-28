@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-03-18'
 external_url: https://training.galaxyproject.org/training-material/news/2024/03/18/url-persistence.html
 main_subsite: global

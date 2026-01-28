@@ -13,7 +13,7 @@ contributions:
     - dadrasarmin
   funding:
     - uni-freiburg
-    - esg
+    - eurosciencegateway
     - galaxy
 ---
 

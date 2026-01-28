@@ -10,13 +10,11 @@ supporters:
 - elixir
 - aws
 - dfg
-- 
 subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:
   funding:
     - galaxy-europe
-    - TIaaS
     - deNBI
     - elixir-europe
     - aws

@@ -12,7 +12,6 @@ main_subsite: eu
 contributions:
   funding:
     - galaxy-europe
-    - TIaaS
 ---
 
 In a world where climate zones are changing it is absolutely critical for agricultural scientists to collaborate across borders.
