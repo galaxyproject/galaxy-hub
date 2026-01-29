@@ -7,7 +7,7 @@ continent: EU
 location:
   name: "University of Graz, Austria"
 gtn: true
-contact: "Amirhossein Naghsh Nilchi, Pavan Videm, Sebastian Preissl"
+contact: "Amirhossein Nilchi, Pavan Videm, Sebastian Preissl"
 tags: [workshop, training]
 supporters:
 - University of Graz
@@ -55,7 +55,7 @@ For the hands-on course, we will use the [training material](https://training.ga
 
 The number of places in this workshop is limited. The course takes place only in person (not online, not hybrid). There are no fees for the workshop but you need to care for your accommodation, travel costs and catering by yourself.
 
-If you have further questions, please contact Amirhossein Naghsh Nilchi ([nilchia@informatik.uni-freiburg.de](mailto:nilchia@informatik.uni-freiburg.de))
+If you have further questions, please contact Amirhossein Nilchi ([nilchia@informatik.uni-freiburg.de](mailto:nilchia@informatik.uni-freiburg.de))
 
 # Supporters
 

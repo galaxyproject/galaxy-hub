@@ -90,7 +90,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
      <th class="th" > December 15 </th>
      <td> <em><a href="/community/galaxy-admins/meetups/2016-12-15/"> Galaxy Training Materials / The new Galaxy Community Hub: Community creation, curation, and use</a></em> </td>
      <td> <img src="/images/icons/GL.png" alt="Online" align="right" /> <a href="/community/galaxy-admins/meetups/2016-12-15/">GalaxyAdmins Meetup, <em>Online</em></a> </td>
-     <td> <a href="http://galaxy.uni-freiburg.de"> Bjoern Gruening, Bérénice Batut</a>, <a href="/people/dannon-baker/">Dannon Baker</a> </td>
+     <td> <a href="http://galaxy.uni-freiburg.de"> Björn Grüning, Bérénice Batut</a>, <a href="/people/dannon-baker/">Dannon Baker</a> </td>
      <td> </td>
   </tr>
   <tr>

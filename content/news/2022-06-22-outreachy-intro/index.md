@@ -13,7 +13,7 @@ contributions:
 ---
 
 
-In June 2022, we welcomed 3 Outreachy interns: Melke Berhan Berhanu Degefa, Shivani Sangwan and Soumya Jha. 
+In June 2022, we welcomed 3 Outreachy interns: Melke Berhan, Shivani Sangwan and Soumya Jha. 
 
 ## What is Outreachy and why we care about it?
 
@@ -72,7 +72,7 @@ Wish you a Greener Planet!
 If you want to know more about me and my work within Galaxy Climate, check out my [Blog_website](https://soumya-jha.netlify.app/).
 Read my blog on Climate Change [here](https://medium.com/@green_soul/climates-last-call-how-will-we-counter-7c4ea93c0913).
 
-### Melke Berhan Berhanu Degefa
+### Melke Berhan
 
 #### Who I am
 
