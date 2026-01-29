@@ -67,7 +67,7 @@ Slides & photos
 | [Laniakea Nebula: VPN-Based Isolation for Galaxy Private Deployments](https://f1000research.com/slides/14-1103) | Marco Antonio Tangaro |
 | [Exploring the Galaxy Training Network: What’s Here, What’s New](https://f1000research.com/slides/14-1104)| Teresa Müller |
 | [RO-Crate features in Galaxy (that you might already be using)](https://f1000research.com/slides/14-1105) | Eli Chadwick |
-| [EuroScienceGateway – Final Project Meeting (Work Package 1)](https://f1000research.com/slides/14-1106) | Armin Dadras, Anika Erxleben |
+| [EuroScienceGateway – Final Project Meeting (Work Package 1)](https://f1000research.com/slides/14-1106) | Armin Dadras, Anika Erxleben-Eggenhofer |
 | [Achievements of Work Package 2 of EuroScienceGateway – Stimulate FAIR and Reusable Research](https://f1000research.com/slides/14-1107) | Eli Chadwick, Stian Soiland-Reyes |
 | [Achievements of Work Package 3 of EuroScienceGateway – The European Pulsar Network and Open Infrastructure](https://f1000research.com/slides/14-1108) | Marco Antonio Tangaro |
 | [Achievements of Work Package 4 of EuroScienceGateway – Building Blocks for a Sustainable Operating Model](https://f1000research.com/slides/14-1109) | Sebastian Luna-Valero |
@@ -75,4 +75,4 @@ Slides & photos
 
 Thanks to the [University of Freiburg](https://uni-freiburg.de), [ELIXIR](https://elixir-europe.org/), the European Commission for making this event possible, and everyone who contributed talks, demos, code, and reviews. Community momentum is strong—the next community event is already underway. Are you ready for [GCC2026](https://galaxyproject.org/events/gcc2026/) in Clermont-Ferrand (France) from June 22-24 2026?
 
-![EGD2025 Group photo taken by Pavankumar Videm](./egd_group_photo.jpg)
+![EGD2025 Group photo taken by Pavan Videm](./egd_group_photo.jpg)

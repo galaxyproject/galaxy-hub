@@ -41,7 +41,7 @@ In the 3rd cohort (OLS-3), [37 diverse projects](https://openlifesci.org/ols-3/p
     - By Teresa Müller, Alireza Khanteymoori, Masako Kaufmann, Florian Heyl
     - Mentored by Yvan Le Bras
 
-In the mentors and experts, several are involved in the Galaxy community (Bérénice Batut, Wendi Bacon, Mallory Freeberg, Hans-Rudolf Hotz, Yvan Le Bras, Prashanth N. Suravajhala, Harpreet Singh, Beatriz Serrano-Solano, Fotis E. Psomopoulos).
+In the mentors and experts, several are involved in the Galaxy community (Bérénice Batut, Wendi Bacon, Mallory Freeberg, Hans-Rudolf Hotz, Yvan Le Bras, Prashanth N. Suravajhala, Harpreet Singh, Beatriz Serrano-Solano, Fotis Psomopoulos).
 
 # Apply for OLS-4
 

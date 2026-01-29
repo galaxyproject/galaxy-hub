@@ -27,7 +27,7 @@ If you are interested, please add your name below and/or send an email to [Peter
 * Jim Johnson
 * John Chilton
 * Nicola Soranzo
-* Björn Grüning
+* Bjoern Gruening
 
 ## Questions?
 

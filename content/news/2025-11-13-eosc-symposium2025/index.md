@@ -52,4 +52,4 @@ Other projects at the Symposium showcased Galaxy in their contexts as well. We w
 
 # Acknowledgement
 
-The video represents a collaborative effort among multiple partners, with special thanks to Marie Josse, the EGI Foundation, and Diana Chiang Jurado for their valuable contributions.
+The video represents a collaborative effort among multiple partners, with special thanks to Marie Jossé, the EGI Foundation, and Diana Chiang Jurado for their valuable contributions.

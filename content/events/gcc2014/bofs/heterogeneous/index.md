@@ -47,7 +47,7 @@ If you are interested, please add your name below and/or send an email to [Your 
 * [Helena Rasche](/people/helena-rasche/)
 * Ben Busby
 * Aaron Gardner
-* [Daniel Blankenberg](/people/dan/)
+* [Dan Blankenberg](/people/dan/)
 * [Michael R. Crusoe](mailto:mcrusoe AT msu DOT edu)
 * Cameron Smith
 * Carrie Ganote

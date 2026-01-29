@@ -464,7 +464,7 @@ We heard from a lot [Training Infrastructure as a Service (TIaaS)](https://galax
 * [RNA-Seq analysis at the University of Freiburg (Germany)](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/), from Tuan Leng Tay.
 * [Introduction to Galaxy by ELIXIR Czech Republic](https://galaxyproject.eu/posts/2021/03/22/tiaas-martin-cech/), from Martin Čech
 * [Bioinformatics Course for Biomedical Research](https://galaxyproject.eu/posts/2021/03/25/tiaas-Ricardo-Gonzalo-Sanz/), from Ricardo Gonzalo Sanz.
-* [RNA-Seq data analysis at the Aristotle University of Thessaloniki (Greece)](https://galaxyproject.eu/posts/2021/03/28/tiaas-Fotis-Psomopoulos/), from Fotis E. Psomopoulos.
+* [RNA-Seq data analysis at the Aristotle University of Thessaloniki (Greece)](https://galaxyproject.eu/posts/2021/03/28/tiaas-Fotis-Psomopoulos/), from Fotis Psomopoulos.
 * [TIaaS feedback from Galaxy Australia](https://galaxyproject.eu/posts/2021/04/03/tiaas-Simon-Gladman/), from Simon Gladman.
 
 TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space for updates.

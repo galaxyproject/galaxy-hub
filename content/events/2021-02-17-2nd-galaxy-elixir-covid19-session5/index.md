@@ -42,7 +42,7 @@ The Galaxy Community and ELIXIR organise a second webinar series to demonstrate 
 #### Speakers
 
 
-- Björn Grüning
+- Bjoern Gruening
 - Beatriz Serrano-Solano
 - Babita Singh
 

@@ -6,7 +6,7 @@ tease: "We present the Galaxy project and the European Galaxy Server with its fe
 continent: EU
 location:
   name: "Time: 16:00 (s.t.), Location: University of Freiburg, Bibliothek der Biometrie im Herderbau, Tennenbacher Str. 46, Raum 03.060, 79104 Freiburg"
-contact: "Anika Erxleben"
+contact: "Anika Erxleben-Eggenhofer"
 tags: [talk]
 supporters:
 - dataplant

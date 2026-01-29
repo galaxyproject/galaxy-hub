@@ -253,7 +253,7 @@ Clare Sloggett
 
 Cristóbal Gallardo
 
-Daniel Blankenberg
+Dan Blankenberg
 
 Davor Davidović
 

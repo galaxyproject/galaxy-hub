@@ -46,7 +46,7 @@ Scientific program members are community volunteers who review the submitted abs
 * **Catherine Bromhead**, University of Melbourne, Australia
 * **Clare Sloggett**, University of Melbourne, Australia
 * **Cristóbal Gallardo**, University of Freiburg, Germany
-* **Daniel Blankenberg**, Cleveland Clinic, United States
+* **Dan Blankenberg**, Cleveland Clinic, United States
 * **Davor Davidović**, Ruđer Bošković Institute, Croatia
 * **Enis Afgan**, Johns Hopkins University, United States
 * **Frederik Coppens**, VIB, Belgium

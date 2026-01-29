@@ -526,7 +526,7 @@ Interested in being an early adopter? See the [full announcement](https://galaxy
 
 [GalaxyWorks](https://galaxyworks.io/) has also started a blog highlighting aspects of Galaxy (and sometimes their offerings too). Two posts from the past month are:
 
-* [Change a datatype on multiple datasets](https://galaxyworks.io/blog/change-datatype-on-many-datasets), Feb 8, by Daniel Blankenberg
+* [Change a datatype on multiple datasets](https://galaxyworks.io/blog/change-datatype-on-many-datasets), Feb 8, by Dan Blankenberg
 * [How to choose the Galaxy that works for you](https://galaxyworks.io/blog/choose-your-galaxy), Mar 1, by Enis Afgan
 
 </div>

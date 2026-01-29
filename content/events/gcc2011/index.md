@@ -86,7 +86,7 @@ Each breakout has its own wiki page for notes. Someone in each group was selecte
 * [Sample Tracking and Instrument Integration](/events/gcc2011/sample-tracking-and-instrument-integration/) (Greg Von Kuster)
 * [Thinking Big: CloudMan, Grid, and Scalability](/events/gcc2011/thinking-big-cloudman-grid-and-scalability/) (Enis Afgan)
 * [Workflows and API](/events/gcc2011/workflows-and-api/) (Kanwei Li)
-* [Complex Tools and Datasources: Parameters, Datatypes and Metadata](/events/gcc2011/complex-tools-and-datasources-parameters-datatypes-and-metadata/) (Daniel Blankenberg)
+* [Complex Tools and Datasources: Parameters, Datatypes and Metadata](/events/gcc2011/complex-tools-and-datasources-parameters-datatypes-and-metadata/) (Dan Blankenberg)
 * [Building a Data Infrastructure: Genomic Data Management](/events/gcc2011/building-a-data-infrastructure/) (Kelly Vincent)
 
 ## Pictures

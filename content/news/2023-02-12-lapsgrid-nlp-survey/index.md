@@ -18,5 +18,5 @@ Galaxy already includes many LAPPS Grid NLP tools and has a set of generic Machi
 
 Thanks for participating - your ideas will help us make Galaxy better.
 
-Nancy Ide and Daniel Blankenberg 
+Nancy Ide and Dan Blankenberg 
 

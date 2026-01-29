@@ -12,7 +12,7 @@ contributions:
 
 🎉 Announcing the GBCC 2025 Logo Design Winner! 🎉
 
-🏆 Winner: Marie Josse
+🏆 Winner: Marie Jossé
 
 🌟 Runner up: Charlie Bayne
 

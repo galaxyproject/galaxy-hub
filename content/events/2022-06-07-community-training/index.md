@@ -5,7 +5,7 @@ date: '2022-06-07'
 end: '2022-06-07'
 tags: [training]
 contacts:
-- name: Fotis E. Psomopoulos, Jessica Lindvall, Katharina Heil, Ana P. Melo, Alexia Cardona,
+- name: Fotis Psomopoulos, Jessica Lindvall, Katharina Heil, Ana P. Melo, Alexia Cardona,
     Eija Korpelainen, Patricia Palagi, Loredana Le Pera, Eva Alloza, Bérénice Batut,
     Egon Willighagen
 location:

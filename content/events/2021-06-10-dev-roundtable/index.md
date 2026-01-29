@@ -10,7 +10,7 @@ image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Alex Mahmoud, Marius van den Beek"
+contact: "Alexandru Mahmoud, Marius van den Beek"
 links:
 - text: "Video"
   url: "https://youtu.be/3e71DFg3gsw"

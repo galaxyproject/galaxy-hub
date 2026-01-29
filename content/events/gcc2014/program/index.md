@@ -319,7 +319,7 @@ Moderator: [Mohammad Heydarian](http://epigenetics.jhu.edu/?section=personnelPag
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:30 </td>
-    <td style=" vertical-align: top; border: none;"> <em><a href='/events/gcc2014/abstracts/talks/#more-options-less-time-streamlining-access-to-reference-datasets'>More Options, Less Time: Streamlining Access to Reference Datasets</a></em> <div class='indent'> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
+    <td style=" vertical-align: top; border: none;"> <em><a href='/events/gcc2014/abstracts/talks/#more-options-less-time-streamlining-access-to-reference-datasets'>More Options, Less Time: Streamlining Access to Reference Datasets</a></em> <div class='indent'> <a href='/people/dan/'>Daniel Blankenberg</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:45 </td>

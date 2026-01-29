@@ -578,7 +578,7 @@ Extended job metadata collection
 <div class="card border-info" style="min-width: 24rem; max-width: 50%;">
 <div class="card-header">[GVL 5.0 Beta Releases](/news/2020-04-gvl5-beta2/)</div>
 
-By Alex Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
+By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
 
 GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
 

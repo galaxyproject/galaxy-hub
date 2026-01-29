@@ -57,7 +57,7 @@ for the broader Galaxy community.
 # Who is GalaxyWorks?
 
 The  company was formed by several members of the Galaxy team and community:
-Enis Afgan, Dannon Baker, Daniel Blankenberg, John Chilton, Nate Coraor, Jeremy
+Enis Afgan, Dannon Baker, Dan Blankenberg, John Chilton, Nate Coraor, Jeremy
 Goecks, Nuwan Goonasekera, Aysam Guerler, Anton Nekrutenko, Stephanie Pond, and
 the late James Taylor. In the future, we will explore options for interested
 members of the Galaxy community to join as well. To help bootstrap the

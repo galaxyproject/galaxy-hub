@@ -9,7 +9,7 @@ location:
   url: "https://elixir-europe.org/events/elixir-all-hands-2022"
 external_url: "https://docs.google.com/document/d/1vlHODVnN9RFTp2fr2NCcLV4ujb8Js3EH6NqXHfP_F9E/edit#"
 gtn: false
-contact: "Fotis E. Psomopoulos, Jessica Lindvall, Katharina Heil, Ana P. Melo, Alexia Cardona, Eija Korpelainen, Patricia Palagi, Loredana Le Pera, Eva Alloza, Bérénice Batut, Egon Willighagen"
+contact: "Fotis Psomopoulos, Jessica Lindvall, Katharina Heil, Ana P. Melo, Alexia Cardona, Eija Korpelainen, Patricia Palagi, Loredana Le Pera, Eva Alloza, Bérénice Batut, Egon Willighagen"
 image:
 subsites: [global, all-eu]
 contributions:

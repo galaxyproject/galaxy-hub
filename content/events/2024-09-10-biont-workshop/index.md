@@ -7,6 +7,6 @@ continent: EU
 location: "Online, EU"
 external_url: "https://www.cecam.org/workshop-details/a-practical-introduction-to-bioinformatics-and-rna-seq-using-galaxy-1359"
 gtn: true
-contact: "Pavankumar Videm & Teresa Müller"
+contact: "Pavan Videm & Teresa Müller"
 subsites: [all]
 ---

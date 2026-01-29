@@ -4,7 +4,7 @@ date: '2025-03-18'
 end: '2025-03-20'
 location:
   name: "Brest, France"
-contact: "Marie Josse, Jérôme Detoc"
+contact: "Marie Jossé, Jérôme Detoc"
 tags: [Hackathon, esg, esg-wp1, esg-wp5, esg-wp3]
 organizers:
   - fair-ease
@@ -40,4 +40,4 @@ contributions:
 ## Next steps
 Keep an 👁️ out for the outcomes of this Hackathon that will be publish afterwards. 
 
-For any iformation contact Marie Josse (email: marie.josse@ifremer.fr)
+For any iformation contact Marie Jossé (email: marie.josse@ifremer.fr)

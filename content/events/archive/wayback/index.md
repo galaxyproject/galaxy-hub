@@ -76,7 +76,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
      <th class="th" > December 15-16 </th>
      <td> <em><a href="https://github.com/galaxyproteomics/tools-galaxyp/issues">Metaproteomics CodeFest</a></em> </td>
      <td> <img src="/images/icons/GL.png" alt="Online" align="right" /> <em><a href="https://matrix.to/#/#GalaxyProteomics_Lobby:gitter.im">Online</a></em> </td>
-     <td> <a href="https://github.com/PratikDJagtap">Pratik Jagtap</a>, <a href="/people/bjoern-gruening/">Bjoern Gruening</a> </td>
+     <td> <a href="https://github.com/PratikDJagtap">Pratik Jagtap</a>, <a href="/people/bjoern-gruening/">Björn Grüning</a> </td>
      <td> </td>
   </tr>
   <tr>
@@ -227,7 +227,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> November 2-3 </th>
     <td> <em><a href='https://github.com/bioconda/bioconda-recipes/issues/2277'>Bioconda Contribution Fest</a></em> </td>
     <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -237,7 +237,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 25-27 </th>
     <td> <em><a href='http://www.igst.it/nettab/2016/programme/scientific-programme/'>The Galaxy tool lifecycle supporting reproducibility in scientific research</a></em> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.igst.it/nettab/2016/'>NETTAB 2016 / EMBNet Joint Meeting on Reproducibility in Bioinformatics</a>, Rome, Italy </td>
-    <td> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -314,7 +314,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 6-7 </th>
     <td> <strong><a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'>Galaxy Training Contribution Fest</a></strong> </td>
     <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -773,7 +773,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> April 6-7 </th>
     <td> <strong><em><a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies</a></em></strong> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -787,7 +787,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> April 4 </th>
     <td> <em><a href='https://github.com/galaxyproject/tools-iuc/issues/700'>IUC Hackathon - Conda dependencies</a></em> </td>
     <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='https://github.com/galaxyproject/tools-iuc/issues/700'>Online</a></em> </td>
-    <td> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a>, <a href='/people/remi-marenco/'>Rémi Marenco</a>, <a href='/people/nitesh-turaga/'>Nitesh Turaga</a> </td>
+    <td> <a href='/people/bjoern-gruening/'>Björn Grüning</a>, <a href='/people/remi-marenco/'>Rémi Marenco</a>, <a href='/people/nitesh-turaga/'>Nitesh Turaga</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -1953,7 +1953,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> February 23-27 </th>
     <td> <em><a href='https://www.ie-freiburg.mpg.de/2017995/Bioinformatics_Galaxy_course'>Bioinformatics Galaxy Course</a></em> </td>
     <td> University of Frieburg, Frieburg, Germany </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a></div> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a></div> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -2327,7 +2327,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em><a href='http://www.helmholtz-muenchen.de/en/agv/research/research-groups/viral-latency/index.html'>Galaxy NGS Training in the Group of Prof. Dr. Bettina Kempkes</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> Helmholtz Zentrum München, Germany </td>
     <td> </td>
-    <td> <a href="mailto:bjoern.gruening@gmail.com">Bjoern Gruening</a> </td>
+    <td> <a href="mailto:bjoern.gruening@gmail.com">Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> November 5 </th>

@@ -324,7 +324,7 @@ A new support page for one of Galaxy's most popular applications: differential g
 <div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/admin/tools/external-display-applications-tutorial/)</div>
 <img class="card-img-top" src="/news/2019-09-galaxy-update/2019-09-geda.png" alt="GEDA example config" />
 <p class="card-text">
-By [Daniel Blankenberg](/people/dan/)</p>
+By [Dan Blankenberg](/people/dan/)</p>
 
 <p class="card-text">How to add a new external display application (UCSC genome browser, GeneTrack, JBrowse, etc. to Galaxy.</p>
 <br />

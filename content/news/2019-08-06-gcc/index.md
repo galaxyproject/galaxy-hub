@@ -70,7 +70,7 @@ A great opportunity to get to know the beautiful city of Freiburg was taking par
 ## Thank you: Scientific Program Committee
 
 * Matthias Bernt, Helmholtz Centre for Environmental Research – UFZ
-* Daniel Blankenberg, Cleveland Clinic Lerner Research Institute
+* Dan Blankenberg, Cleveland Clinic Lerner Research Institute
 * Gildas Le Corguillé, Station Biologique de Roscoff
 * Maria Doyle, Peter MacCallum Cancer Centre
 * Anika Erxleben, University of Freiburg

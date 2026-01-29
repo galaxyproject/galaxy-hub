@@ -20,7 +20,7 @@ In ecology, research data analysis is intensively linked to home made, mainly R,
 - update from Elixir-CNV community meeting
 
 
-## Marco Antonio Tangaro
+## Marco Tangaro
 
 ### Providing Galaxy based bioinformatic environments through cloud technologies
 

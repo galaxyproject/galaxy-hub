@@ -9,7 +9,7 @@ location:
 location_url: "https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform"
 external_url: ""
 gtn: true
-contact: "Daniel Blankenberg, Marius van den Beek, Dave Clements"
+contact: "Dan Blankenberg, Marius van den Beek, Dave Clements"
 tags: [ webinar ]
 links:
   - text: "Slides"

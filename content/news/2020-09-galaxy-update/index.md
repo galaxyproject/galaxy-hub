@@ -246,7 +246,7 @@ Here's what people are saying right now:
 <div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
 <div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/news/2020-07-gvl5-beta4/)</div>
 
-By Nuwan Goonasekera, Alex Mahmoud, Mohamad Safadieh, Enis Afgan
+By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
 
 A data browser, project-level isolation, and the latest release of Galaxy.
 

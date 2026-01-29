@@ -380,7 +380,7 @@ The second and final day of the conference will feature  [accepted talks](/event
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 14:05 </td>
-            <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BlankenbergBuiltInData.pdf'>Slides</a>, <a href='https://vimeo.com/74265510'>Vimeo</a></em></div>  <em><a href='/events/gcc2013/abstracts/talks/#managing-galaxys-built-in-data'>Managing Galaxy's Built-in Data</a></em><div class='indent'><a href='/people/dan/'>Dan Blankenberg</a>, Penn State University </div> </td>
+            <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BlankenbergBuiltInData.pdf'>Slides</a>, <a href='https://vimeo.com/74265510'>Vimeo</a></em></div>  <em><a href='/events/gcc2013/abstracts/talks/#managing-galaxys-built-in-data'>Managing Galaxy's Built-in Data</a></em><div class='indent'><a href='/people/dan/'>Daniel Blankenberg</a>, Penn State University </div> </td>
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 14:20 </td>

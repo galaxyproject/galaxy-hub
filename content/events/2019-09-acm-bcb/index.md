@@ -9,7 +9,7 @@ location:
 location_url: "https://acm-bcb.org/"
 external_url: ""
 gtn: true
-contact: "Daniel Blankenberg, Martin Čech"
+contact: "Dan Blankenberg, Martin Čech"
 image: "acm-bcb-2019-banner.png"
 subsites: [global, us]
 contributions:

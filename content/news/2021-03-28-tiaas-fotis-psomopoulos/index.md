@@ -1,5 +1,5 @@
 ---
-title: Training Infrastructure Feedback from Dr. Fotis E. Psomopoulos
+title: Training Infrastructure Feedback from Dr. Fotis Psomopoulos
 date: '2021-03-28'
 tags: [training, tiaas]
 supporters:

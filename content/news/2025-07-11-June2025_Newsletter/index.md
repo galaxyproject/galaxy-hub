@@ -161,7 +161,7 @@ Talks touched on key areas of bioinformatics, from novel R packages and Galaxy-p
 
 **Sunita Sharma** (University of Georgia) presented work on gene expression regulation of ciliary length in Chlamydomonas reinhardtii, while **Charles D’Harrington**, an independent researcher, showcased a web-based platform for guided planning and management of NGS projects. **Stefano Mangiola** (Adelaide University) demonstrated how Tidyomics accelerates omics analyses using tidyverse principles.
 
-The session also featured **Alex Mahmoud** (Bioconductor Core Team), who offered reflections on the path to open science through Galaxy and Bioconductor; **Papawee Sutthirat** (Mayo Clinic and University of Minnesota), who explored endothelial cell responses in liver disease using spatial transcriptomics; and **Laura Leroi** (IFREMER), who highlighted the coordination efforts of the French Galaxy Network.
+The session also featured **Alexandru Mahmoud** (Bioconductor Core Team), who offered reflections on the path to open science through Galaxy and Bioconductor; **Papawee Sutthirat** (Mayo Clinic and University of Minnesota), who explored endothelial cell responses in liver disease using spatial transcriptomics; and **Laura Leroi** (IFREMER), who highlighted the coordination efforts of the French Galaxy Network.
 
 **Robert Castelo** (Pompeu Fabra University) introduced atena, a Bioconductor package for analyzing transposable elements, while **Daniel Guevara Diaz** and **Daniel Garbozo** (Bioinformatics Group in Munich) presented transcriptomic profiling studies focused on early biomarkers for Chagas cardiomyopathy and novel insights into tuberculosis, respectively.
 

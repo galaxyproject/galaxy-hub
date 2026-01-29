@@ -7,7 +7,7 @@ continent: EU
 location:
   name: "University of Graz, Austria"
 gtn: true
-contact: "Amirhossein Naghsh Nilchi, Pavankumar Videm, Sebastian Preissl"
+contact: "Amirhossein Naghsh Nilchi, Pavan Videm, Sebastian Preissl"
 tags: [workshop, training]
 supporters:
 - University of Graz
@@ -29,7 +29,7 @@ contributions:
 - **Location**: University of Graz, Graz, Austria
 - **Time**: 9:15am-5pm CEST
 - **Cost**: Free
-- **Contact**: Amirhossein Naghsh Nilchi ([nilchia@informatik.uni-freiburg.de](mailto:nilchia@informatik.uni-freiburg.de))
+- **Contact**: Amirhossein Nilchi ([nilchia@informatik.uni-freiburg.de](mailto:nilchia@informatik.uni-freiburg.de))
 
 # Pedagogical information
 

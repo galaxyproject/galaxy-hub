@@ -20,7 +20,7 @@ We can be reached at *GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org
 # GCC2019 Scientific Program Committee
 
 * *[Matthias Bernt](https://www.ufz.de/index.php?en=43047)*, [Helmholtz Centre for Environmental Research – UFZ](https://www.ufz.de/)
-* *[Daniel Blankenberg](/people/dan/)*, [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/)
+* *[Dan Blankenberg](/people/dan/)*, [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/)
 * *[Gildas Le Corguillé](https://github.com/lecorguille)*, [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
 * *[Maria Doyle](https://www.researchgate.net/profile/Maria_Doyle4)*, [Peter MacCallum Cancer Centre](https://www.petermac.org/)
 * *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)

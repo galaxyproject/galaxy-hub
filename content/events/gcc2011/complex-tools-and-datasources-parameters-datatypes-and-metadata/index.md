@@ -46,7 +46,7 @@ Tool form, use ajax, not form refresh
 
 Participants:
 
-* Daniel Blankenberg
+* Dan Blankenberg
 * Sarah Diehl
 * Colin Molter
 * Weizhong Li (wli@ebi.ac.uk)

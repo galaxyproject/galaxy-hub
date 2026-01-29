@@ -58,5 +58,5 @@ The whole process gave me a deeper understanding of the tools as I had to decide
 
 I really enjoyed tool wrapping as it allowed me to spend my days solving puzzles. Although it took a lot of work to wrap the entire Seurat pipeline, it was very rewarding to see the tools I wrapped appear on Galaxy and to know that people like me would soon be using them. I would definitely recommend anyone who is curious about tool wrapping to give it a go, especially if there's a tool that you wish was available on Galaxy. The GTN has some [tutorials](https://training.galaxyproject.org/training-material/topics/dev/) that can help you to get started and I'm sure that any Galaxy community would be just as happy as the [Single cell and SPatial Omics Community (SPOC)](https://galaxyproject.org/community/sig/singlecell/) to welcome new contributors.
 
-Thanks to the **ELIXIR Staff Exchange Programme** for funding the project, Pavankumar Videm for getting me started with tool wrapping, and my hosts at the University of Freiburg for helping me to make the most of my time in Germany!
+Thanks to the **ELIXIR Staff Exchange Programme** for funding the project, Pavan Videm for getting me started with tool wrapping, and my hosts at the University of Freiburg for helping me to make the most of my time in Germany!
 

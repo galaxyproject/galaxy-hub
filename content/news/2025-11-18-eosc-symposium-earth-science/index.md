@@ -20,7 +20,7 @@ From [3 to 5 November 2025 in Brussels](https://eosc.eu/news/lets-seize-this-mom
 
 ![Data Terra booth at EOSC Symposium 2025](https://eosc.eu/wp-content/uploads/2025/11/20251105_EOSC-Symposium_142-1536x1024.jpg)
 
-During their lightning talk, **Marie Josse ([CNRS](https://www.cnrs.fr/fr))** and **Jérôme Détoc ([Ifremer](https://www.ifremer.fr/en))** delivered a demonstration titled *“From Plume to Bloom: Data Terra RI × EOSC Federation.”* Their demonstration showed how [Earth System Galaxy subdomain](https://earth-system.usegalaxy.eu/), supports scientists in detecting and analysing extreme environmental events, transforming raw observation data into meaningful insights.
+During their lightning talk, **Marie Jossé ([CNRS](https://www.cnrs.fr/fr))** and **Jérôme Détoc ([Ifremer](https://www.ifremer.fr/en))** delivered a demonstration titled *“From Plume to Bloom: Data Terra RI × EOSC Federation.”* Their demonstration showed how [Earth System Galaxy subdomain](https://earth-system.usegalaxy.eu/), supports scientists in detecting and analysing extreme environmental events, transforming raw observation data into meaningful insights.
 
 ![Demo of From Plume to Bloom](https://eosc.eu/wp-content/uploads/2025/11/20251104_EOSC-Symposium_D2_193.jpg)
 
@@ -33,6 +33,6 @@ This demonstration highlighted the added value of Galaxy in orchestrating reprod
 # Acknowledgements
 
 Data Terra’s presence at the symposium was supported by:  
-Frédéric Huynh, Sébastien Payan, Erwann Quimbert, Jian-Sheng Sun, Alessandro Rizzo, Marina Ripon, Jean-Philippe Malet, Christelle Pierkot, Karim Ramage, Erwan Bodéré, Marie Josse, and Jérôme Détoc.
+Frédéric Huynh, Sébastien Payan, Erwann Quimbert, Jian-Sheng Sun, Alessandro Rizzo, Marina Ripon, Jean-Philippe Malet, Christelle Pierkot, Karim Ramage, Erwan Bodéré, Marie Jossé, and Jérôme Détoc.
 
 Credits for event photos: EOSC Association

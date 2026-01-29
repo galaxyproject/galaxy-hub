@@ -11,7 +11,7 @@ import linkbox from "../../linkbox.json"
 
 # Advanced Tool and Data Source Configuration
 
-## Presenters: Ross Lazarus and Daniel Blankenberg
+## Presenters: Ross Lazarus and Dan Blankenberg
 
 ## Scheduled duration: 15:00-17:00
 

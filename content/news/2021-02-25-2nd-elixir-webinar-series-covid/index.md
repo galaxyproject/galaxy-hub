@@ -46,7 +46,7 @@ By the fourth session, Sergei Pond gave insights from selection analysis of comp
 
 <br>
 
-Session 5 was dedicated to [Viral Beacon](https://covid19beacon.crg.eu/) and its interaction with Galaxy, with Babita Singh, Björn Grüning and Wolfgang Maier.
+Session 5 was dedicated to [Viral Beacon](https://covid19beacon.crg.eu/) and its interaction with Galaxy, with Babita Singh, Bjoern Gruening and Wolfgang Maier.
 
 <iframe width="660" height="415" src="https://www.youtube.com/embed/MTivOoPYMwQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -572,7 +572,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                 <td>22</td>
                 <td>
                     <span class="gcc2024-title">Enhancements to UseGalaxy.org Client-Facing Error Reporting for Optimized Functionality and Risk Mitigation</span>;
-                    <span class="gcc2024-authors">Michelle Terese Savage, et al.</span>
+                    <span class="gcc2024-authors">Michelle Savage, et al.</span>
                 </td>
             </tr>
             <tr>

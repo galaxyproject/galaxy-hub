@@ -17,7 +17,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | 11:00 - 11:45 |   | *Coffee Break* |   |
 | 11:45 - 13:00 |   | **EGD community presentations II** |   |
 |               | Beatriz Serrano-Solano | [Roadmap for FAIR Image Data Workflows in Galaxy](https://docs.google.com/presentation/d/1lz1qCyEju_HcwBoAEKmOIP1cXCC_tJz7pRmd_XexcOU/edit#slide=id.g275e8ac84d7_0_28) | 20' |
-|               | Marie Josse & Jérôme Detoc | [Galaxy visualise, analyse and process environmental data on-demand](EGD2023_jdetoc_galaxy_for_fairease.pdf) | 20' |
+|               | Marie Jossé & Jérôme Detoc | [Galaxy visualise, analyse and process environmental data on-demand](EGD2023_jdetoc_galaxy_for_fairease.pdf) | 20' |
 |               | Merret Buurman & Markus Konkol | [Building spatio-temporal workflows in Galaxy for the AquaINFRA project](https://docs.google.com/presentation/d/1wXE5aRQ2MdQ-LW0WtE37Ih_u4ZDywVLG/edit#slide=id.p1) | 20' |
 | 13:00 - 14:30 |   | *Lunch Break*  |  |
 | 14:30 - 16:00 |   | **ELIXIR Galaxy Community meeting** (public)  |   |
@@ -74,7 +74,7 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | Title |  Organizer(s)  |  Abstract  |
 | ---- |  -------- |  ------ |
 | [Reducing the environmental impact of Galaxy workflows](https://docs.google.com/document/d/1krw121K1vHkxnHKcm4qKQfBNXjagQm_j_6C1mdhjB2Q/edit?usp=sharing) | Nicola Soranzo & José Manuel Domínguez | As with any type of computing, a Galaxy instance consumes energy and has an environmental impact. In this BoF we will look at possible ways to reduce energy consumption and lower carbon emissions of running Galaxy and user workflows. One focus of this BoF will be job scheduling, which distributes user jobs to compute resources in order to optimise utilization while ensuring fairness across users. Most schedulers use "as soon as possible" strategies, however there are users who are flexible enough to wait. Why not take advantage of this to optimise job scheduling also for other criteria? Many data analysis tools have a significant carbon footprint, which could be reduced, for example, by running the jobs when there is a higher share of renewable energy in the grid (time-shifting), or preferring to run jobs in other datacenters powered with greener energy (location-shifting), or both. Concrete approaches to reduce the environmental impact of the computations will be discussed in this BoF, as well as their integration into Galaxy. Let's do it! |
-| Write the report | Anika Erxleben | In this special BoF ESG participants will write and enhance the yearly report of the ESG. |
+| Write the report | Anika Erxleben-Eggenhofer | In this special BoF ESG participants will write and enhance the yearly report of the ESG. |
 
 
 
