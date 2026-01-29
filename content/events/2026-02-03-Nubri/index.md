@@ -7,7 +7,7 @@ location:
 tags: [NUBRI]
 organizers:
   - galaxyfreiburg
-supporters: [de.KCD]
+supporters: [de.KCD, denbi]
 subsites: [all, eu]
 ---
 
