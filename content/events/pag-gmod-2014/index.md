@@ -52,7 +52,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
   <tr>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1DA9CA'>P1050: Integrative System for Gene Family Gathering and Analysis in a Context of Crops’ Stress Response Study</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PAGIntegrativeSystem.pdf'>Poster</a> </td>
-    <td rowspan=1> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Lariviere</a>, <em>et al.</em> </td>
+    <td rowspan=1> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Larivière</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td rowspan=2 style=" text-align: center;"> 3:00:4:30 </td>

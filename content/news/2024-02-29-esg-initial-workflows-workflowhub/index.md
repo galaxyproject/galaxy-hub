@@ -72,10 +72,10 @@ As of 2024-02-28, the [WorkflowHub ESG collection](https://workflowhub.eu/collec
  * [Gravitational Wave source Cone Search](https://workflowhub.eu/workflows/415) (CWL)  by [Volodymyr Savchenko](https://workflowhub.eu/people/168)
  * [Example Multi-Wavelength Light-Curve Analysis](https://workflowhub.eu/workflows/766) (Galaxy) by [Volodymyr Savchenko](https://workflowhub.eu/people/168)
  * [Refining Genome Annotations with Apollo (prokaryotes)](https://workflowhub.eu/workflows/749) (Galaxy) by [Anthony Bretaudeau](https://workflowhub.eu/people/241)
- * [Visualizing NDVI time-series data with HoloViz](https://workflowhub.eu/workflows/759) (Galaxy) by Marie Josse
+ * [Visualizing NDVI time-series data with HoloViz](https://workflowhub.eu/workflows/759) (Galaxy) by Marie Jossé
  * [Calculating and visualizing OBIS marine biodiversity indicators](https://workflowhub.eu/workflows/758) (Galaxy)      Marie Josse
  * [Finding the Muon Stopping Site using PyMuonSuite](https://workflowhub.eu/workflows/757) (Galaxy) by [Leandro Liborio](https://orcid.org/0000-0003-2777-5167), Muon Spectroscopy Computational Project
- * [Sentinel 5P volcanic data visualization](https://workflowhub.eu/workflows/756) (Galaxy) by Marie Josse
+ * [Sentinel 5P volcanic data visualization](https://workflowhub.eu/workflows/756) (Galaxy) by Marie Jossé
  * [Functional protein annotation using EggNOG-mapper and InterProScan](https://workflowhub.eu/workflows/755) (Galaxy) by [Anthony Bretaudeau](https://orcid.org/0000-0003-0914-2470)
  * [Genome annotation with Funannotate](https://workflowhub.eu/workflows/754) (Galaxy) by [Anthony Bretaudeau](https://orcid.org/0000-0003-0914-2470)
  * [Masking repeats with RepeatMasker](https://workflowhub.eu/workflows/753) (Galaxy) by [Anthony Bretaudeau](https://orcid.org/0000-0003-0914-2470)

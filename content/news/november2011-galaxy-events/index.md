@@ -20,7 +20,7 @@ There are several Galaxy related events going on at Cold Spring Harbor Laborator
     <th> November 2-5 </th>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Best practices for variant discovery through Galaxy: Oscillating evolution within dual coding genes</a> </td>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Genome Informatics 2011</a>, Cold Spring Harbor, New York, United States </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> November 8-21 </th>

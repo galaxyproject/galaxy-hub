@@ -76,7 +76,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
      <th class="th" > December 15-16 </th>
      <td> <em><a href="https://github.com/galaxyproteomics/tools-galaxyp/issues">Metaproteomics CodeFest</a></em> </td>
      <td> <img src="/images/icons/GL.png" alt="Online" align="right" /> <em><a href="https://matrix.to/#/#GalaxyProteomics_Lobby:gitter.im">Online</a></em> </td>
-     <td> <a href="https://github.com/PratikDJagtap">Pratik Jagtap</a>, <a href="/people/bjoern-gruening/">Björn Grüning</a> </td>
+     <td> <a href="https://github.com/PratikDJagtap">Pratik Jagtap</a>, <a href="/people/bjoern-gruening/">Bjoern Gruening</a> </td>
      <td> </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
      <th class="th" > December 15 </th>
      <td> <em><a href="/community/galaxy-admins/meetups/2016-12-15/"> Galaxy Training Materials / The new Galaxy Community Hub: Community creation, curation, and use</a></em> </td>
      <td> <img src="/images/icons/GL.png" alt="Online" align="right" /> <a href="/community/galaxy-admins/meetups/2016-12-15/">GalaxyAdmins Meetup, <em>Online</em></a> </td>
-     <td> <a href="http://galaxy.uni-freiburg.de"> Björn Grüning, Bérénice Batut</a>, <a href="/people/dannon-baker/">Dannon Baker</a> </td>
+     <td> <a href="http://galaxy.uni-freiburg.de"> Bjoern Gruening, Bérénice Batut</a>, <a href="/people/dannon-baker/">Dannon Baker</a> </td>
      <td> </td>
   </tr>
   <tr>
@@ -227,7 +227,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> November 2-3 </th>
     <td> <em><a href='https://github.com/bioconda/bioconda-recipes/issues/2277'>Bioconda Contribution Fest</a></em> </td>
     <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -237,7 +237,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 25-27 </th>
     <td> <em><a href='http://www.igst.it/nettab/2016/programme/scientific-programme/'>The Galaxy tool lifecycle supporting reproducibility in scientific research</a></em> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.igst.it/nettab/2016/'>NETTAB 2016 / EMBNet Joint Meeting on Reproducibility in Bioinformatics</a>, Rome, Italy </td>
-    <td> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -258,7 +258,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 21 </th>
     <td> <em><a href='/events/germany2016/'>(second German) Galaxy Developers Day</a></em> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <strong><a href='/events/sg2016/'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
-    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -272,7 +272,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 20 </th>
     <td> <em><a href='/events/switzerland2016/'>(third Swiss) Galaxy Workshop</a></em> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <strong><a href='/events/sg2016/'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
-    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -314,7 +314,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> October 6-7 </th>
     <td> <strong><a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'>Galaxy Training Contribution Fest</a></strong> </td>
     <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -773,7 +773,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> April 6-7 </th>
     <td> <strong><em><a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies</a></em></strong> </td>
     <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -787,7 +787,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> April 4 </th>
     <td> <em><a href='https://github.com/galaxyproject/tools-iuc/issues/700'>IUC Hackathon - Conda dependencies</a></em> </td>
     <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='https://github.com/galaxyproject/tools-iuc/issues/700'>Online</a></em> </td>
-    <td> <a href='/people/bjoern-gruening/'>Björn Grüning</a>, <a href='/people/remi-marenco/'>Rémi Marenco</a>, <a href='/people/nitesh-turaga/'>Nitesh Turaga</a> </td>
+    <td> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a>, <a href='/people/remi-marenco/'>Rémi Marenco</a>, <a href='/people/nitesh-turaga/'>Nitesh Turaga</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -1126,7 +1126,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th rowspan=3> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
     <td rowspan=3> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/dan/'>Daniel Blankenberg</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -1159,7 +1159,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
   </tr>
   <tr>
     <td> <em>Poster 55: From the ground to the cloud in just minutes—Building a customized Galaxy analysis server using only a web browser</em> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -1953,7 +1953,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <th> February 23-27 </th>
     <td> <em><a href='https://www.ie-freiburg.mpg.de/2017995/Bioinformatics_Galaxy_course'>Bioinformatics Galaxy Course</a></em> </td>
     <td> University of Frieburg, Frieburg, Germany </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a></div> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a></div> <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -2327,7 +2327,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em><a href='http://www.helmholtz-muenchen.de/en/agv/research/research-groups/viral-latency/index.html'>Galaxy NGS Training in the Group of Prof. Dr. Bettina Kempkes</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> Helmholtz Zentrum München, Germany </td>
     <td> </td>
-    <td> <a href="mailto:bjoern.gruening@gmail.com">Björn Grüning</a> </td>
+    <td> <a href="mailto:bjoern.gruening@gmail.com">Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> November 5 </th>
@@ -2444,7 +2444,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
     <td rowspan=3> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td> <a href='/events/switzerland2014/trainingday/'>Slides</a> </td>
-    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
@@ -3249,7 +3249,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Wrangling Galaxy’s reference data</em> </td>
     <td rowspan=6> <strong><a href='http://meetings.cshl.edu/meetings/2013/info13.shtml'>Genome Informatics</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <td> <em>Improving reproducibility using automated testing frameworks</em> </td>
@@ -3458,7 +3458,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
     <td> </td>
-    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 27 </th>
@@ -4291,7 +4291,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Staying on top of evolving best practices with Galaxy</em>, Poster </td>
     <td rowspan=3 style=" text-align:center;"> <strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://gmod.org/wiki/|GMOD'>http://gmod.org/wiki/|GMOD</a> in the Cloud</em> </td>
@@ -4452,7 +4452,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Best practices for variant discovery through Galaxy: Oscillating evolution within dual coding genes</a> </td>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Genome Informatics 2011</a>, Cold Spring Harbor, New York, United States </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 27 </th>
@@ -4480,7 +4480,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em><a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>Galaxy Update</a> and <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting#Galaxy_Workshop'>Galaxy Workshop</a></em><br />The workshop will cover an introduction to Galaxy, including analyzing data with tools and visualizations, using Galaxy in the cloud, and running your own instance and adding new tools.  </td>
     <td> <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>October 2011 GMOD Meeting</a>, Ontario Institute for Cancer Research (OICR), Toronto, Canada </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011GMODOctTalk.pdf'>Talk slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011GMODOctWorkshop.pdf'>Workshop slides</a>  </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 9-12 </th>
@@ -4522,7 +4522,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <em>Galaxy for high-throughput NGS analysis</em> </td>
     <td> <a href='http://www.miptec.ch'>MipTec</a>, <a href='http://www.miptec.ch/fileadmin/files/2011/miptec2011/documents/user_group_meetings_pdf/NGS%20Symposium%20Part%201%20neu.pdf'>Next Generation Sequencing for Research and Clinical Genomics User Group</a>, Basel, Switzerland </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 12-20 </th>
@@ -4543,7 +4543,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong><a href='http://www.molecularevolution.org/workshops/WCG#wcgna'>Workshop on Comparative Genomics North America</a></strong><br />Includes a day long Galaxy session</td>
     <td> Fort Collins, Colorado, United States </td>
     <td>  </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> July 17-22 </th>
@@ -4599,7 +4599,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong>Using Galaxy Workshop</strong> </td>
     <td> University of Manchester, United Kingdom </td>
     <td> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> April 13-14 </th>
@@ -4641,7 +4641,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong><a href='http://www.intl-pag.org/19/19-gmod.html#Galaxy'>Galaxy: Analyze, Visualize, Communicate</a></strong><br /><a href='http://www.intl-pag.org/'>Plant and Animal Genome XIX (PAG 2011)</a> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='http://gmod.org/mediawiki/images/a/ad/Pag_2011_galaxy_talk.pdf'>Slides</a> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> January 9-21 </th>
@@ -4717,6 +4717,6 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
     <td> <strong>Animal Genomics with Galaxy: Analyze, Publish, and Visualize</strong><br /><a href='http://www.intl-pag.org/'>Plant and Animal Genome XVIII (PAG 2010)</a> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/PAG2010Galaxy.pdf'>Slides</a> </td>
-    <td> <a href='/people/dan/'>Daniel Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
 </table>

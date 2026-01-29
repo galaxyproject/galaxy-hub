@@ -221,7 +221,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
             <tr>
                 <td>
                     <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/19EgOPaQjUiPVo5Urvl-J9j1IPZHF_ZG9xCLiwvaaMo4/edit?usp=sharing">Automated Reference Genome Assembly in Galaxy - An Update</a></span>;
-                    <span class="gcc2024-authors">Delphine Lariviere, et al.</span>
+                    <span class="gcc2024-authors">Delphine Larivière, et al.</span>
                 </td>
                 <td>
                     <span class="gcc2024-title"><a target="_blank" href="https://docs.google.com/presentation/d/14pmxW-8Bnrm9nY55VxOqiBl7REatXdJHFmWG2FqpVt4/edit#slide=id.g273994d4a8c_4_50">Metascheduling with TPV: Weighting jobs on multiple constraints for distributed deployment over local and remote resources</a></span>;
@@ -651,7 +651,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                 <td>31</td>
                 <td>
                     <span class="gcc2024-title">Automated Reference Genome Assembly in Galaxy - An Update</span>;
-                    <span class="gcc2024-authors">Delphine Lariviere, et al.</span>
+                    <span class="gcc2024-authors">Delphine Larivière, et al.</span>
                 </td>
             </tr>
             <tr>
@@ -1029,7 +1029,7 @@ the page and you can download the [abstract book here](https://gcc2024.s3.eu-cen
                     Organizers:
                 </td>
                 <td>
-                    Björn Grüning
+                    Bjoern Gruening
                 </td>
             </tr>
         </tbody>
