@@ -13,6 +13,10 @@ gtn: false
 contact: Helena Rasche
 tags: [talk, webinar]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - hexylena
+
 ---
 
 Helena Rasche will present the Gallantries grant, how to deliver hybrid events using Galaxy and its evolution with the pandemic in the EOSC-Life training series.

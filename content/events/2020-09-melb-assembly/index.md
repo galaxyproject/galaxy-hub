@@ -12,4 +12,8 @@ external_url: "https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-na
 gtn: true
 contact: "Grace Hall"
 subsites: [global, us]
+contributions:
+  authorship:
+    - GraceAHall
+
 ---

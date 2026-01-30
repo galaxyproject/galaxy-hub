@@ -12,4 +12,8 @@ external_url: https://docs.google.com/document/d/1dLCL5-2pkWTvmGTz7GyQkb5LEIZ3FB
 contact: Frederik Coppens
 tags: [ cofest ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - frederikcoppens
+
 ---

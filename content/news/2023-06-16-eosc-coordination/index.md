@@ -4,9 +4,7 @@ date: "2023-06-16"
 tease: "Members of the EuroScienceGateway project attended the EOSC Coordination meeting in Brussels"
 hide_tease: false
 authors: "Anika Erxleben"
-authors_structured:
-- github: erxleben
-tags: [EU, esg, esg-wp1, eosc, meeting, collaboration]
+tags: [EU, esg, esg-wp1, eosc]
 subsites: [all-eu, global, esg]
 main_subsite: eu
 supporters:
@@ -14,6 +12,13 @@ supporters:
   - unifreiburg
   - eosc
   - eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - eosc-life
 ---
 
 ![Brussels](./images/Brussels.jpg)

@@ -12,4 +12,8 @@ external_url: "https://z.umn.edu/celestialmasses"
 gtn: false
 contact: "Pratik Jagtap"
 subsites: [global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+
 ---

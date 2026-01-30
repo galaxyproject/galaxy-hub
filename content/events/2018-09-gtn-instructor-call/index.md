@@ -11,4 +11,8 @@ external_url: "https://lists.galaxyproject.org/archives/list/galaxy-training@lis
 contact: Bérénice Batut
 gtn: false
 subsites: [global, us]
+contributions:
+  authorship:
+    - bebatut
+
 ---

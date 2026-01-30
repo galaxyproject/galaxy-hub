@@ -6,4 +6,7 @@ tease: ""
 external_url: "https://bcc2020.github.io/blog/lessons-learnt"
 source_blog: "BCC2020"
 source_blog_url: "https://bcc2020.github.io/news/"
+contributions:
+  authorship:
+    - bcc2020organizers
 ---

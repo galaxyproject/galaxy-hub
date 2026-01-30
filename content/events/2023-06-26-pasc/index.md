@@ -12,6 +12,13 @@ subsites: [global,esg]
 supporters:
   - eurosciencegateway
 tags: [esg-wp5, esg, conference]
+contributions:
+  authorship:
+    - hrhotz
+    - leandro-liborio
+  funding:
+    - eurosciencegateway
+
 ---
 
 There will be a symposium on "Galaxy: An Open Web-based Platform for FAIR Data Analysis and Computing Across Scales, Domains and Communities" at the [Platform for Advanced Scientific Computing (PASC) Conference, 2023](https://pasc23.pasc-conference.org/)

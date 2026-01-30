@@ -8,11 +8,14 @@ doi: 10.1186/s13321-020-00442-7
 supporters:
 - eosc
 - eu
-authors: simonbray
-authors_structured:
-- github: simonbray
+authors: Simon Bray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - eosc-life
 ---
 
 We are happy to announce a new publication, '[The ChemicalToolbox: reproducible, user-friendly cheminformatics

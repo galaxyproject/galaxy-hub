@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2025-04-09"
 tags: ["highlight", newsletter]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 ![Galaxy News](GalaxyNews.png)

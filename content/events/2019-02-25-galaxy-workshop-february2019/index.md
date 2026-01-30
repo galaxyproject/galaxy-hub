@@ -23,6 +23,10 @@ supporters:
 hidefooter: true
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Galaxy beginner workshop on High-Throughput data analysis, February 2019, registration is closed.

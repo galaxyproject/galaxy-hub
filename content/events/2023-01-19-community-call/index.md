@@ -12,6 +12,10 @@ gtn: false
 contact: "Natalie Kucher"
 tags: ["community-call"]
 subsites: [all]
+contributions:
+  authorship:
+    - nakucher
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ue5N8ONT7pI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -11,6 +11,10 @@ location_url: http://www.carpentrycon.org/
 contact: Bérénice Batut
 gtn: false
 subsites: [global, us]
+contributions:
+  authorship:
+    - bebatut
+
 ---
 
 Bérénice Batut  of the Galaxy Freiburg team will be at [CarpentryCon 2018](http://www.carpentrycon.org/) to discuss the Galaxy Training Network.

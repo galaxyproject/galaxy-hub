@@ -15,6 +15,14 @@ supporters:
   - eosc
   - eu
   - fair-ease
+contributions:
+  authorship:
+    - Marie59
+  funding:
+    - eu
+    - eurosciencegateway
+    - fairease
+
 ---
 
 First steps for the EOSC FAIR-Ease partners on Galaxy with a training session on both the user and the tool developpement side of the platform.

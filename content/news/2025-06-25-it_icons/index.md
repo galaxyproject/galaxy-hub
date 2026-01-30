@@ -4,11 +4,12 @@ date: '2025-06-25'
 tease: New panel allocated for interactive tools on Galaxy
 hide_tease: false
 tags: [tools]
-authors: Amirhossein Nilchi
-authors_structured:
-- github: nilchia
+authors: Amirhossein Naghsh Nilchi
 subsites: [all]
 main_subsite: eu
+contributions:
+  authorship:
+    - Nilchia
 ---
 
 Galaxy 25.0 introduces a new panel dedicated to Interactive Tools (IT)! ITs are separate services that can be managed by Galaxy, others call them Virtual Research Environments (VREs), or virtual environments.

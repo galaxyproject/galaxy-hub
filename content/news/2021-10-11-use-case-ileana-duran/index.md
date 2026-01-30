@@ -6,10 +6,11 @@ tease: Ileana Duran Fernandez from the School of Medicine of the Technical Unive
 hide_tease: true
 tags: [UseCase]
 authors: Ileana Duran Fernandez
-authors_structured:
-- name: Ileana Duran Fernandez
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - ileanaduranfernandez
 ---
 
 __Ileana Duran Fernandez__ from the [School of Medicine of the Technical University of Munich](https://www.ipt.med.tum.de/en) works on heart disease. Thank you Ileana and good luck with your project!

@@ -6,4 +6,7 @@ external_url: "http://pvh.wp.sanbi.ac.za/2021/08/28/galaxy-21-05-upgrade-and-clu
 date: "2021-08-28"
 source_blog: "Low Order Magic"
 source_blog_url: "http://pvh.wp.sanbi.ac.za/"
+contributions:
+  authorship:
+    - pvanheus
 ---

@@ -3,11 +3,12 @@ title: 'UseGalaxy.eu Use Case: Genetics research on dairy cattle'
 date: '2021-06-25'
 tags: [community, demo, tiaas]
 supporters: [unifreiburg, denbi]
-authors: TKlingstrom
-authors_structured:
-- github: TKlingstrom
+authors: Tomas Klingström
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - TKlingstrom
 ---
 
 [__Tomas Klingström__](https://www.slu.se/cv/tomas-klingstrom/) has sent us the context of his research in the [Swedish University of Agricultural Sciences](https://www.slu.se/). Thank you Tomas for sharing it with us!

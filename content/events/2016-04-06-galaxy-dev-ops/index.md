@@ -17,6 +17,11 @@ supporters:
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 More information can be found [here](https://galaxyproject.org/news/dev-ops-heidelberg/)

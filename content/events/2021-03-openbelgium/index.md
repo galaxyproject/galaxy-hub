@@ -17,4 +17,11 @@ links:
 - text: "Video"
   url: "https://youtu.be/cNoAo-mDKAY"
 subsites: [global, us]
+contributions:
+  authorship:
+    - frederikcoppens
+    - roncoronimiguel
+  funding:
+    - workflowhub
+
 ---

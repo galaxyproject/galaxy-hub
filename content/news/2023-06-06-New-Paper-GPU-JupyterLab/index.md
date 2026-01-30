@@ -14,6 +14,9 @@ supporters:
   - eosc
   - unifreiburg
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 **New *GigaScience* Paper on "An accessible infrastructure for artificial intelligence using a Docker-based JupyterLab in Galaxy"**

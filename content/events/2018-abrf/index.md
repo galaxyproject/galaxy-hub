@@ -12,6 +12,10 @@ image: /images/logos/ABRFLogoSquareSmall.png
 gtn: true
 contact: Pratik Jagtap
 subsites: [global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+
 ---
 
 * [Tutorial](http://z.umn.edu/abrf18doc)

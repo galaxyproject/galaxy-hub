@@ -12,4 +12,8 @@ image:
 gtn: false
 contact: "Atsushi Asai"
 subsites: [global, us]
+contributions:
+  authorship:
+    - a-asai
+
 ---

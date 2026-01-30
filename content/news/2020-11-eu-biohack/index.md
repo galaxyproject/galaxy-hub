@@ -7,11 +7,14 @@ supporters:
 - elixir
 location:
   name: Barcelona (online)
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - elixir-europe
 ---
 
 

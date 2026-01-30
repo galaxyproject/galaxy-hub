@@ -10,6 +10,11 @@ supporters:
   - eurosciencegateway
   - unifreiburg
   - elixir
+contributions:
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 
 **Update:** the official ELIXIR meeting report can be found on F1000Research:

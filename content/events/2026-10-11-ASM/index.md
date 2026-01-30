@@ -7,7 +7,6 @@ days: 4
 tags:
 - new event-external
 title: ASM Conference on Rapid Applied Microbial NGS and Bioinformatic Pipelines
-contact: ''
 location:
   name: Washington, DC, USA
 continent: NA

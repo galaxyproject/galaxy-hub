@@ -6,4 +6,7 @@ authors: "Pierre Lindenbaum"
 external_url: "http://plindenbaum.blogspot.com/2015/02/integrating-java-program-in-usegalaxy.html"
 source_blog_url: "http://plindenbaum.blogspot.com/"
 source_blog: "YOKOFAKUN"
+contributions:
+  authorship:
+    - pierrelindenbaum
 ---

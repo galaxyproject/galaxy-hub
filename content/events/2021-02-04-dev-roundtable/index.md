@@ -18,6 +18,14 @@ links:
   url: https://youtu.be/OEKV6GFlD_s
 tags: [devroundtable, training, webinar]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - beatrizserrano
+    - dannon
+    - hexylena
+    - shiltemann
+    - tnabtaf
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OEKV6GFlD_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

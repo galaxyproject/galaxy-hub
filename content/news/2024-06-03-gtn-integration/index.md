@@ -6,6 +6,9 @@ authors: "Laila Los"
 date: "2024-06-03"
 tags: ["UI/UX", "highlight"]
 subsites: [global]
+contributions:
+  authorship:
+    - ElectronicBlueberry
 ---
 
 The [Galaxy Training Network](https://training.galaxyproject.org/) has many guides, practical examples, and help for certain tools throughout it's many tutorials.

@@ -3,9 +3,13 @@ title: 'Using Large Language Models in complex workflows'
 date: '2024-09-02'
 tease: "Use ChatGPT in your analysis on the Galaxy Server to leverage the Large Language Model in your automated workflows"
 hide_tease: false
-authors: Arash Kadkhodaei, Daniela Schneider 
+authors: [Arash Kadkhodaei, Daniela Schneider]
 subsites: [global, eu, us, freiburg]
 tags: [tool]
+contributions:
+  authorship:
+    - arash77
+    - Sch-Da
 ---
 
 ## Using Large Language Models in complex workflows

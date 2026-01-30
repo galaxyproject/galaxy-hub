@@ -2,11 +2,12 @@
 title: Enough talking - time to act!
 date: '2019-11-23'
 tags: [s4f, society]
-authors: wm75
-authors_structured:
-- github: wm75
+authors: Wolfgang Maier
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - wm75
 ---
 
 November 29 will see the next global climate strike and this time The Freiburg

@@ -5,7 +5,9 @@ authors: Deepti Varshney
 tease: "An interesting book chapter presents an overview of a transcriptomics data analysis pipeline using Galaxy, specifically designed for studying gene expression in coffee flowers. This pipeline can be leveraged in genetic improvement programs, for instance, to combat climate change "
 tags: [paper]
 subsites: [global, eu]
-
+contributions:
+  authorship:
+    - deeptivarshney
 ---
 
 Recently, <b>Thiely Patricia Fabian Dos Santos, Elodia Sánchez-Barrantes, Luiz Filipe Pereira & Andrés Gatica-Arias </b> published a protocol titled <b>"Transcriptomic Data Analysis Using the Galaxy Platform: Coffee (Coffea arabica L.) Flowers as Example"</b> in the book "Plant Functional Genomics". Maghuly, F. (eds). Methods in Molecular Biology, vol 2787. Humana, New York, NY. You can find it [here](https://doi.org/10.1007/978-1-0716-3778-4_15).

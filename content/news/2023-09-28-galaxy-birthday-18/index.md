@@ -4,11 +4,12 @@ date: '2023-09-28'
 tease: "Galaxy having grown up and matured - happy 18th birthday!"
 hide_tease: false
 authors: Sebastian Schaaf
-authors_structured:
-- github: sebastian-schaaf
 tags: [birthday]
 subsites: [all, all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - sebastian-schaaf
 ---
 
 <img class="img-fluid float-right" src="./galaxy18.png" style="width:250px;" alt="Happy birthday to Galaxy"/>

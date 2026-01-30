@@ -6,4 +6,7 @@ authors: "Samuel Lampa"
 external_url: "http://saml.rilspace.com/creating-a-galaxy-tool-for-r-scripts-that-output-images-and-pdfs"
 source_blog_url: "http://saml.rilspace.com/" 
 source_blog: "Samuel's Tech Blog"
+contributions:
+  authorship:
+    - samuellampa
 ---

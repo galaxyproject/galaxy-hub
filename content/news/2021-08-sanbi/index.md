@@ -7,4 +7,7 @@ date: "2021-08-20"
 source_blog: "SANBI News"
 source_blog_url: "https://www.sanbi.ac.za/category/recent/"
 tags: [conference, covid-19, talk]
+contributions:
+  authorship:
+    - pvanheus
 ---

@@ -1,11 +1,14 @@
 ---
 title: "Galaxy Admin Training Interest Survey" 
 date: "2025-04-17" 
-authors: "Martin Cech" 
+authors: "Martin Čech" 
 tease: "ELIXIR Europe and the Galaxy Community are looking to host a Galaxy Admin Training in 2025"
 tags: [gat, training]
 subsites: [all, global, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - martenson
 ---
 We’d like to gather expressions of interest for an in-person Galaxy Admin Training workshop in Europe in Autumn 2025.
 

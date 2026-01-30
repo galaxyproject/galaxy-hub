@@ -3,10 +3,14 @@ title: 'Effortlessly navigate your Galaxy history with enhanced search options'
 tease: 'Data searchability in the Galaxy History panel has been taken to new levels with the advanced search options that allow users to not only find items with more ease, but also find relations within items in their history.'
 date: '2023-03-15'
 tags: [history, esg, "UI/UX"]
-authors: Ahmed Hamid Awan, Dannon Baker
-authors_structured:
-- github: ahmedhamidawan, dannon
+authors: 
+- Ahmed Hamid Awan
+- Dannon Baker
 subsites: [global, all, esg]
+contributions:
+  authorship:
+    - ahmedhamidawan
+    - dannon
 ---
 
 In the previous [`release_22.05`](https://galaxyproject.org/news/2022-08-galaxy-release-22-05/) (_August 2022_), Galaxy's History Panel was updated to a fresh and enhanced interface that users have been getting used to since. For the latest `release_23.0`, Galaxy developers have worked hard on further perfecting and enhancing the user experience of the history:

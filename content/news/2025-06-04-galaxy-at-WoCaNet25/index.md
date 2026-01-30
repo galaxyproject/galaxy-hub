@@ -1,12 +1,18 @@
 ---
 title: "Galaxy Team at the 9th Women's Careers and Networks Symposium"
-authors: Mina H.Ansari
+authors: Mina Hojat Ansari
 tags: [workshop, networks, outreach, equality, esg-wp1, esg]
 date: "2025-06-04"
 tease: "Galaxy Europe took part in the WoCaNet 2025 symposium to support women in science and introduce researchers to accessible, reproducible data analysis."
 subsites: [all, esg]
 supporters: [unifreiburg, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - minamehr
+  funding:
+    - uni-freiburg
+    - eurosciencegateway
 ---
 
 The Galaxy Europe team participated in [the Women's Careers and Networks (WoCaNet) Symposium](https://www.uni-goettingen.de/en/203891.html), held on June 4–5, 2025 at [the Max Planck Institute for Multidisciplinary Science](https://www.mpinat.mpg.de/en), Faßberg Campus, Göttingen, Germany. WoCaNet is a vibrant, student-organized event that brings together a diverse community of researchers, students, and professionals across academia and industry to explore career paths, foster mentorship, and promote gender equality in science.

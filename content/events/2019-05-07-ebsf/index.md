@@ -18,6 +18,11 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The ELIXIR Bioinformatics Suppliers Forum (EBSF) is a one day event for suppliers of bioinformatics services, solutions and resources. Suppliers can learn about ELIXIR services with a focus on compute, bioinformatics tools, and AI, and exchange technical information relating to their products through scientific presentations or demonstrations. The Forum will be highly interactive with opportunities for informal networking as well as structured discussions and presentations. (A detailed programme will be available shortly)

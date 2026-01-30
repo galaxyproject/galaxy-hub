@@ -5,11 +5,15 @@ tease: So we will do this again in November!
 tags: [papercuts, galaxy]
 supporters:
 - galaxy-europe
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Last week we had the first Paper Cuts Community Collaboration fest. We got the engagement not only of the usual contributors but also newcomers that wanted to help to fix small bugs in Galaxy.

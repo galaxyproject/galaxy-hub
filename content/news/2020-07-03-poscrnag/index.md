@@ -4,11 +4,15 @@ date: '2020-07-03'
 tags: [training]
 supporters:
 - galaxy-europe
-authors: mtekman
-authors_structured:
-- github: mtekman
+authors: Mehmet Tekman
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - mtekman
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We will be hosting a single-cell RNA-seq training workshop [at BCC](https://bcc2020.sched.com/event/c7TP/processing-of-single-cell-rna-seq-data-with-galaxy), 

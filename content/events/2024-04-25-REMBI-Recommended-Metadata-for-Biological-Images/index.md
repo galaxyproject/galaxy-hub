@@ -12,6 +12,10 @@ supporters:
 - elixir
 subsites: [eu]
 main_subsite: eu
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 Navigating the intricacies of making your bioimage data FAIR (Findable, Accessible, Interoperable, and Reusable) can seem overwhelming. This session offers strategies for effectively sharing your data and breaking down the required metadata into manageable tasks based on the [REMBI (Recommended Metadata for Biological Images)](https://www.nature.com/articles/s41592-021-01166-8) guidelines.

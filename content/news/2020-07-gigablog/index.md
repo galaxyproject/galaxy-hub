@@ -6,4 +6,7 @@ tease: "Meetings In the Time of Coronavirus: Conferences go Viral"
 external_url: "http://gigasciencejournal.com/blog/conferences-go-viral/"
 source_blog: "GIGABlog"
 source_blog_url: "http://gigasciencejournal.com/blog"
+contributions:
+  authorship:
+    - chrisarmit
 ---

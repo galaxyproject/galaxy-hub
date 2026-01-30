@@ -5,11 +5,16 @@ tags: [devops, data]
 supporters:
 - denbi
 - elixir
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

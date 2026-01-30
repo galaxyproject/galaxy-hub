@@ -7,6 +7,12 @@ tags: [eosc, workflows, rocrate, onedata, provenance, aai, poland, fair, pulsar,
 supporters: [eosc, eu, esg]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - eosc-life
+    - eurosciencegateway
 ---
 At the [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) in Brussels, the programme spotlighted the first wave of EOSC Nodes and the momentum behind the Federation’s launch. Roksana Wilk presented “From National Resources to EOSC: The EOSC Node Poland Gateway,” positioning the Polish node within EOSC’s broader move from plans to operations. 
 

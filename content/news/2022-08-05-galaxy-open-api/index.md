@@ -8,6 +8,10 @@ supporters:
 - galaxy-europe
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Since Galaxy release 22.05 it's much easier to **discover**, **explore**, **learn** and **experiment** with the *Galaxy Rest API*.

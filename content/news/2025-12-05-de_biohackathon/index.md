@@ -9,6 +9,10 @@ location:
   name: Walsrode, DE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 <img style="background-color:#FFFFFF" src="https://www.denbi.de/images/Events/LOGO_BioHack2025_tr_3976x2132_srgb.png" />

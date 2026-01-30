@@ -1,9 +1,14 @@
 ---
 title: "Galaxy Well-being and Mental Health Project Survey Result Highlights"
 tease: "Eighth blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-08-05"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 We conducted a survey to assess the stressors faced in open-source communities and to understand the communities’ perceptions and knowledge regarding mental health. Two versions of the survey were distributed using Google form, one for the Galaxy community and one for other open-source communities. Work stress was assessed using the [Work Stress Questionnaire](https://www.gu.se/sites/default/files/2020-03/wsq-engelska.pdf) (Holmgren, 2008), which consists of 21 questions. The final version of the questionnaire consisted of 23 slightly modified questions tailored to the open-source community. This means that we took into consideration factors such as flexible working hours and replaced words with terms used in an open source project, such as using roadmap instead of goals, tasks instead of work assignment, management body, collaborators, contributors, or CoC Committee instead of a supervisor.

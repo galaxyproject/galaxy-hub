@@ -16,6 +16,10 @@ supporters:
 - Elixir
 subsites: [eu, erasmusmc]
 main_subsite: erasmusmc
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 

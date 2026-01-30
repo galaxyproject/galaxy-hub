@@ -15,4 +15,8 @@ links:
 - text: "Video"
   url: "https://youtu.be/6S0yOvgISVI"
 subsites: [global, us]
+contributions:
+  authorship:
+    - tnabtaf
+
 ---

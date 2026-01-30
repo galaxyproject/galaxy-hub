@@ -11,5 +11,10 @@ image: cukr.jpg
 gtn: true
 contact: Mallory Freeberg, Mo Heydarian
 subsites: [global, us]
+contributions:
+  authorship:
+    - malloryfreeberg
+    - moheydarian
+
 ---
 Introduction to Galaxy at the Catholic University of Korea.

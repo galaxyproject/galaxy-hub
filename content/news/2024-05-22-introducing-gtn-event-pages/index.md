@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-05-22'
 external_url: https://training.galaxyproject.org/training-material/news/2024/05/22/introducing-gtn-event-pages.html
 main_subsite: global

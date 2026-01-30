@@ -4,6 +4,9 @@ title: "Small genome assembly in Galaxy"
 tease: "Why not to do assembly on-line?"
 authors: "Anton Nekrutenko"
 image: unicycler.png
+contributions:
+  authorship:
+    - nekrut
 ---
 
 <div class="alert alert-info trim-p inline-p" role="alert"><i class="fa fa-fighter-jet" aria-hidden="true"></i>

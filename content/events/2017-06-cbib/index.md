@@ -10,4 +10,8 @@ location_url: https://www.cbib.u-bordeaux.fr/
 external_url: http://cnrsformation.cnrs.fr/stage-17012-Analyse-avancee-de-sequences.html?axe=65
 contact: Aurélien Barré, Raluca Uricaru, Benjamin Dartigues
 subsites: [global, us]
+contributions:
+  authorship:
+    - benjamindartigues
+
 ---

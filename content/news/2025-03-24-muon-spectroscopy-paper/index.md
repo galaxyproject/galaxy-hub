@@ -7,6 +7,11 @@ subsites: [all-eu,global,esg]
 tags: [esg,esg-wp5]
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - leandro-liborio
+  funding:
+    - eurosciencegateway
 ---
 
 Muons are subatomic particles that are produced at four active muon sources around the world: ISIS in the UK; J-PARC in Japan; TRIUMF in Canada and PSI in Switzerland.

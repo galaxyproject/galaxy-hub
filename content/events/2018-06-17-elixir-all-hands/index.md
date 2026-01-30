@@ -11,6 +11,11 @@ supporters:
 - denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The fifth [ELIXIR All Hands meeting](https://elixir-europe.org/events/elixir-excelerate-all-hands-meeting-2019)

@@ -9,11 +9,17 @@ supporters:
 - denbi
 - unifreiburg
 - nfdi4bioimage
-authors: Amirhossein Nilchi
-authors_structured:
-- github: nilchia
+authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - Nilchia
+  funding:
+    - elixir-europe
+    - deNBI
+    - uni-freiburg
+    - nfdi4bioimage
 ---
 
 [BellaVista](https://github.com/pkosurilab/BellaVista), a lightweight open-source tool for interactive visualization and exploration of imaging-based spatial transcriptomics data,

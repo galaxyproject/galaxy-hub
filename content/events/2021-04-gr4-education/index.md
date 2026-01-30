@@ -22,6 +22,15 @@ links:
 supporters:
 - galaxy
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - bebatut
+    - miaomiaozhou88
+    - shiltemann
+    - subinamehta
+  funding:
+    - uni-freiburg
+
 ---
 
 * **10am Eastern US / 4pm Central European. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Researchers+Webinar&iso=20210428T10&p1=419&ah=1).**

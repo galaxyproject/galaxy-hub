@@ -9,4 +9,8 @@ external_url: "https://www.cecam.org/workshop-details/from-zero-to-hero-with-pyt
 gtn: false
 contact: "Teresa Müller"
 subsites: [all]
+contributions:
+  authorship:
+    - teresa-m
+
 ---

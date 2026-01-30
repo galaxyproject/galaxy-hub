@@ -3,11 +3,12 @@ title: 'We are striking!'
 date: '2023-02-27'
 tease: 'usegalaxy.eu closes job-queue on March 3 to support climate strike'
 authors: 'Mira Kuntz'
-authors_structured:
-- github: mira-miracoli
 tags: [Freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - mira-miracoli
 ---
 # Climate Crisis does not wait for your jobs to finish!
 The next global climate strike will be on **March 3**! As last time, the Freiburg Galaxy Team is going to express its support more directly: the team will be striking in [Freiburg](https://freiburgforfuture.de/03-03/), if you are nearby join us!

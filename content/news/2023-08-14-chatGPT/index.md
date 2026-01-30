@@ -5,6 +5,9 @@ authors: Anup Kumar
 tease: "Use ChatGPT in Galaxy Europe via JupyterLab interactive tool."
 hide_tease: true
 subsites: [all-eu,global,all]
+contributions:
+  authorship:
+    - anuprulez
 ---
 
 ### Generative AI (ChatGPT) as a programming assitant

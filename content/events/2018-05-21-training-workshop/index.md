@@ -13,6 +13,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 Following the success of the last year Cambridge hackathon, the Galaxy Training Network organizes a three-day "Workshop for Galaxy training material and skills improvement", hosted in Norwich in May 2018.

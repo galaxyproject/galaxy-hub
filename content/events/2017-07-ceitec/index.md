@@ -12,5 +12,9 @@ image: /images/logos/ceitec_small.png
 gtn: true
 contact: Martin Čech
 subsites: [global, us]
+contributions:
+  authorship:
+    - martenson
+
 ---
 

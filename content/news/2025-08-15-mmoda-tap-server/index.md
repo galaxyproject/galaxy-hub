@@ -5,8 +5,13 @@ tease: "A new new IVOA-compliant TAP server, currently exposing data from the IN
 hide_tease: false
 tags: [esg,esg-wp5]
 subsites: [all,esg]
-supporters: [all-eu, esg, all]
+supporters: [eu, eosc, esg]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eosc-life
+    - eurosciencegateway
 ---
 
 Following the recent announcement of [a generic tool for connecting to astronomical data archives](https://galaxyproject.org/news/2023-09-07-esg-wp5-astronomy-archives/), a dedicated Table Access Protocol (TAP) for multimessenger is now available. By using the [Astronomical Archives tool](https://astronomy.usegalaxy.eu/root?tool_id=astronomical_archives) in Galaxy, you can now connect to this service by using the features made available with this tool. This new TAP server can be reached to the URL "http://www.astro.unige.ch/mmoda/dispatch-data/tap/". 

@@ -6,4 +6,7 @@ authors: "Peter van Heusden"
 external_url: "http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolves-dependencies-or-not/"
 source_blog_url: "http://pvh.wp.sanbi.ac.za/"
 source_blog: "low order magic"
+contributions:
+  authorship:
+    - pvanheus
 ---

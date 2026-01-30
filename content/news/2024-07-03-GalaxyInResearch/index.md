@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-07-03"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # Galaxy in Research: Molecular secrets of minnow adaptation to salinity stress

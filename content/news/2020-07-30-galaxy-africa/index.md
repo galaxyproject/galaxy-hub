@@ -6,11 +6,12 @@ location:
   name: online
 supporters:
 - TIaaS
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 During the July virtual meet-up of the Bioinformatics Hub of Kenya (BHKi), a training on Galaxy was conducted by Peter van Heusden ([SANBI](https://www.sanbi.ac.za/)) with 72 attendees registered from many different countries: Cote d'Ivoire, India, Kenya, Mali, Saudi Arabia, South Africa, Sudan, Tanzania, Uganda, ...
 

@@ -6,11 +6,12 @@ tease: Starting Monday the 15th of February, the Galaxy Training Network (GTN) i
 tags: [training]
 location:
   name: online
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 This week, starting from Monday the 15th of February, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is running a global Galaxy online course: [__GTN Smörgåsbord__](https://shiltemann.github.io/global-galaxy-course/)[^1].

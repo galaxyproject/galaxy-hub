@@ -2,12 +2,13 @@
 title: 'We are striking!'
 date: '2023-09-11'
 tease: 'usegalaxy.eu closes job-queue on September 15th to support climate strike'
-authors: 'Pavan Videm'
-authors_structured:
-- github: pavanvidem
+authors: 'Pavankumar Videm'
 tags: [Freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - pavanvidem
 ---
 # Climate Crisis does not wait for your jobs to finish!
 The next global climate strike will be on **Friday, September 15th, 2023**! As last time, the Freiburg Galaxy Team is going to express its support more directly: the team will be striking in [Freiburg](https://freiburgforfuture.de/15-09/), if you are nearby join us!

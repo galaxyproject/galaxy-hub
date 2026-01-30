@@ -15,12 +15,23 @@ supporters:
 - bmbf
 - dfg
 - egi
-authors: beatrizserrano, bgruening
-authors_structured:
-- github: beatrizserrano
-- github: bgruening
+authors: [Beatriz Serrano-Solano, Björn Grüning]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+    - bgruening
+  funding:
+    - uni-freiburg
+    - elixir-europe
+    - deNBI
+    - nfdi4plants
+    - eosc-life
+    - biodaten
+    - bmbf
+    - dfg
+    - egi
 ---
 
 #### _UNOFFICIAL VERSION:_

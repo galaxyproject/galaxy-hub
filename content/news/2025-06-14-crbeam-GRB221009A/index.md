@@ -7,6 +7,9 @@ tags: [esg-wp5, esg, paper, workflow, workflowhub]
 subsites: [all, esg]
 supporters: [esg]
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 The brightest gamma-ray burst (GRB) ever recorded, GRB 221009A, has puzzled astronomers with its unexpected flux of multi-TeV gamma rays. These high-energy photons, observed at a redshift of 0.151, may challenge conventional models because they should have been absorbed by extragalactic background light (EBL) during their journey across the universe, unless the EBL level is low enogh. A recent [study](https://doi.org/10.48550/arXiv.2405.05402) proposes an elegant solution which doesn't impose any constraints on EBL: these gamma rays may not originate directly from the GRB but are instead secondary particles produced by ultra-high energy cosmic rays interacting with photon backgrounds along the line of sight.  

@@ -15,6 +15,10 @@ links:
   url: https://youtu.be/lGEBWXu6Lvw
 tags: [devroundtable]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - mvdbeek
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lGEBWXu6Lvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

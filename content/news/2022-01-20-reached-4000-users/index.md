@@ -8,11 +8,15 @@ hide_tease: true
 tags: [galaxy, support, society, report]
 supporters:
 - galaxy-europe
-authors: gallardoalba
-authors_structured:
-- github: gallardoalba
+authors: Cristóbal Gallardo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - gallardoalba
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We are celebrating that usegalaxy.eu reached 40,000 registered users last November! Over the last year, the number of registered users has almost doubled, from 25,000 to more than 41,000 by January 2022. As we can see in figure 1, the growth in the number of new registered users shows a constant increase since 2019.

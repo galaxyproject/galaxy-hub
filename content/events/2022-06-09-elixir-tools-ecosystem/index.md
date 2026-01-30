@@ -12,4 +12,11 @@ gtn: false
 contact: "Johan Gustafsson, Steven Manos, Nigel Ward, Andrew Lonie, Brian Davis, Sarah Beecroft, Carole Goble, Finn Bacall, Nicola Soranzo, Bjӧrn Grüning, Herve Menager, Hans Ienasescu"
 image:
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - carolegoble
+    - fbacall
+    - nsoranzo
+    - supernord
+
 ---

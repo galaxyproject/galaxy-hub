@@ -10,6 +10,13 @@ supporters:
   - eurosciencegateway
   - cesnet
   - elixir-cz
+contributions:
+  authorship:
+    - tomasvondrak
+  funding:
+    - eurosciencegateway
+    - cesnet
+    - elixir-cz
 ---
 The Galaxy Project offers invaluable support to scientists and researchers, but its inner workings can be complex and lack visual appeal, potentially deterring many prospective users. To bridge this gap, I've started developing a project entitled __Galaxy Job Radar__, designed to dynamically visualize the current and past computations within the Galaxy system. This tool also provides significant advantages to Galaxy administrators by offering insights into computational maintenance and potential threats across the network.
 

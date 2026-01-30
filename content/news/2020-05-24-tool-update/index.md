@@ -7,6 +7,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 On 2020-05-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #213](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#213/)

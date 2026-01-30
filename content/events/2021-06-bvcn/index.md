@@ -16,4 +16,8 @@ links:
 - text: Video
   url: https://youtu.be/Il84WUPVaxc
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - bebatut
+
 ---

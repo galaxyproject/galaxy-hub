@@ -14,6 +14,9 @@ supporters:
   - denbi
   - elixir-belgium
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 Galaxy Europe conducted the [Galaxy Admin Training (GAT) 2023](https://galaxyproject.org/events/2023-admin-training/) in Ghent Belgium this year from April 17th till 21st ([schedule](https://github.com/orgs/galaxyproject/projects/28/views/1?filterQuery=status%3AMonday%2CTuesday%2CWednesday%2CThursday%2CFriday+)) and invited experts and senior admins with several years of experience in maintaining Galaxy to share the ins and outs of setting up an own production quality Galaxy server and various other services. The training was attended by 16 participants from different countries and backgrounds.

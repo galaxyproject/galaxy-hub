@@ -12,4 +12,9 @@ external_url: http://www.denbi.de/22-training-cat/training-courses/469-introduct
 contact: Andrea Bagnacani, Markus Wolfien
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - bagnacan
+    - mwolfien
+
 ---

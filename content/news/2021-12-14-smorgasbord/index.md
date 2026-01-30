@@ -9,6 +9,11 @@ supporters:
 external_url: https://training.galaxyproject.org/training-material/news/2021/12/14/smorgasbord.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---
 
 

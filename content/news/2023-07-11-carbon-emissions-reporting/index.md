@@ -3,11 +3,12 @@ title: "Carbon Emissions Reporting in Galaxy"
 tease: "Dynamic carbon emissions reporting for jobs in Galaxy"
 hide_tease: false
 authors: "Rendani Gangazhe"
-authors_structured:
-- github: Renni771
 date: "2023-07-11"
 tags: ["UI/UX", "highlight"]
 subsites: [global, all]
+contributions:
+  authorship:
+    - rendanigangazhe
 ---
 
 Hello, I'm Rendani, a front-end developer and computer science student working in the Galaxy Freiburg team. For my bachelor project, I had the pleasure of

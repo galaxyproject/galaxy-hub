@@ -6,7 +6,7 @@ hide_tease: true
 location:
   name: Amsterdam, Netherlands
 tags: [conference, talk, poster, training, conda, COVID-19]
-authors: engynasr
+authors: Engy Nasr
 supporters:
 - elixir
 - denbi
@@ -15,6 +15,12 @@ supporters:
 - elixir-cz
 components: true
 subsites: [all-eu]
+contributions:
+  authorship:
+    - EngyNasr
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 During 6-9th of June, members of the European Galaxy team travelled to Amsterdam to join the [**ELIXIR All Hands meeting 2022**](https://elixir-europe.org/all_hands_2022), where we joined other colleagues from ELIXIR-DE.

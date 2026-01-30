@@ -10,4 +10,8 @@ location_url: https://urgi.versailles.inra.fr/
 external_url: https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/thread/PHXFO7BB724GSZ5TXE7WNH543OUYFKGY/#PHXFO7BB724GSZ5TXE7WNH543OUYFKGY
 contact: Nathalie Choisne, Olivier Inizan
 subsites: [global, us]
+contributions:
+  authorship:
+    - olivierinizan
+
 ---

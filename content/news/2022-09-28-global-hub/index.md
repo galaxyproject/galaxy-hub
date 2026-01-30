@@ -4,6 +4,9 @@ tease: Find all your Galaxy info in one website
 date: '2022-09-28'
 subsites: [all]
 authors: Nick Stoler
+contributions:
+  authorship:
+    - NickSto
 ---
 
 A year ago we [launched](/news/2021-09-hub2/) the new version of the Community Hub. This change brought author-friendly features, a modern, Vue-based architecture, and a fast browsing experience.

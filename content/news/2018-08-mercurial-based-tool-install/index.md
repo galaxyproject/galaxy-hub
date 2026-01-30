@@ -6,4 +6,7 @@ authors: "Peter Briggs"
 external_url: "http://galacticengineer.blogspot.com/2018/08/mercurial-based-tool-installation.html"
 source_blog_url: "http://galacticengineer.blogspot.co.uk/"
 source_blog: "Galactic Engineer"
+contributions:
+  authorship:
+    - peterbriggs
 ---

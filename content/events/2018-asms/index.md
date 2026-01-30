@@ -11,6 +11,10 @@ location_url: http://www.asms.org/conferences/annual-conference/annual-conferenc
 external_url: 
 contact: Tim Griffin, Pratik Jagtap
 subsites: [global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+
 ---
 
 Galaxy (and especially the [Galaxy-P Project](http://galaxyp.org/)) will again have a strong presence at ASMS.  Want to learn more?  Plan to attend these presentations:

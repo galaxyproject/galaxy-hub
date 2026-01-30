@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-12-12"
 tags: ["highlight", "newsletter", "year-in-review"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 ![Galaxy News](GalaxyNews.png)

@@ -7,11 +7,14 @@ hide_tease: true
 tags: [devops, hardware]
 supporters:
 - denbi
-authors: gmauro
-authors_structured:
-- github: gmauro
+authors: Gianmauro Cuccuru
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - gmauro
+  funding:
+    - deNBI
 ---
 
 On 2021-10-06, the FTP server accessible through the domain __ftp.usegalaxy.eu__, will be upgraded with a new hardware and a new configuration.

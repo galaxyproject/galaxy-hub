@@ -14,6 +14,12 @@ supporters:
 - elixir
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 ![Graphical Abstract](/assets/media/2022-01-16-covid-preprint.jpg)

@@ -16,4 +16,8 @@ links:
     url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19#session3"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - simonbray
+
 ---

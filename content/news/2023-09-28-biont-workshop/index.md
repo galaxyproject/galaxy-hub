@@ -1,15 +1,21 @@
 ---
 title: '1st BioNT Training workshop - A practical introduction to bioinformatics and RNA-seq using Galaxy'
 tease: "BioNT delivered its first training workshop, A practical introduction to bioinformatics and RNA-seq using Galaxy, from 4th to 8th of September, 2023. This post reports this workshop's organisation, the applicants and participants, as well as their feedback about it."
-authors: Teresa Müller, Bérénice Batut, Silvia Di Giorgio, Lisanna Paladin, Isabella Paredes Cisneros, Sabry Razick, Pubudu Saneth Samarakoon
+authors: [Teresa Müller, Bérénice Batut, Silvia Di Giorgio, Lisanna Paladin, Isabella Paredes Cisneros, Sabry Razick, Pubudu Saneth Samarakoon]
 date: '2023-09-28'
-authors_structured:
-- github: teresa-m
-- github: bebatut
 hide_tease: false
 tags: [training, tiaas]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - teresa-m
+    - bebatut
+    - silviadg87
+    - lisanna
+    - isabellaparedescisneros
+    - sabryrazick
+    - pubudusanethsamarakoon
 ---
 
 The [BioNT](http://biont-training.eu/) consortium is dedicated to **providing a comprehensive training program** and **fostering a community for digital skills** relevant to the **biotechnology industry and biomedical sector**. With a curriculum tailored for both beginners and advanced professionals, BioNT aims to equip individuals with the necessary expertise in handling, processing, and visualising biological data, as well as utilising computational biology tools. Leveraging the consortium's strong background in digital literacy training and extensive network of collaborations, BioNT is poised to **professionalise life sciences data management, processing, and analysis skills**.

@@ -17,6 +17,11 @@ links:
   url: https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing
 tags: [devroundtable, training, webinar]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - jkh1
+    - sunyi000
+
 ---
 
 <div class="video-variable">

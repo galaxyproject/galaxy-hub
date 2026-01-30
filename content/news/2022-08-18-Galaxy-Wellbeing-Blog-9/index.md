@@ -1,9 +1,14 @@
 ---
 title: "Why we should support the underrepresented communities"
 tease: "Ninth blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-08-18"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 The underrepresented communities are groups that are not represented in the majority with respect to gender, race, sexual orientation, mental health, ability, religion, education, socio-economic status, age, and such. Underrepresented communities often experience social exclusion (when certain groups of people are systematically prevented from participating in mainstream institutions or activities), which can have serious consequences that can lead to isolation and poor mental health. When members of minority groups don't feel like they belong, they are less likely to participate in activities or interact with people outside their group. This can perpetuate the cycle of isolation and exclusion. 

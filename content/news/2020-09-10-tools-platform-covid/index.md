@@ -11,11 +11,17 @@ supporters:
 - erasmus+
 - unifreiburg
 - elixir-belgium
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - biodaten
 ---
 
 The 19th [European Conference on Computational Biology](https://eccb2020.info/) is now over. The research on COVID-19 that is being carried out since February was presented in the session “A glimpse into Global Bioinformatics Communities: Europe - ELIXIR”. 

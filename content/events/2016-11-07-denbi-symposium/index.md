@@ -16,6 +16,10 @@ supporters:
 tags: [talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We will attend the de.NBI symposium with a talk in Heidelberg.

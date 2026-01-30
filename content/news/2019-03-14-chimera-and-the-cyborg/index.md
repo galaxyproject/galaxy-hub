@@ -9,6 +9,10 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Our admin Helena, in collaboration with the Rechenzentrum Uni Freiburg, has published ["The Chimera and the Cyborg: Hybrid Compute: In vivo HPC, Cloud and Container Implementations"](https://astesj.com/v04/i02/p01/).

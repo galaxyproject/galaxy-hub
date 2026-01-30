@@ -2,11 +2,12 @@
 title: Galaxy Europe Branding Material
 date: '2020-09-06'
 tags: [galaxy, FAQ]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Plenty of branding material is now at your disposal thanks to the  European Galaxy Community.

@@ -1,12 +1,18 @@
 ---
 title: "From Functional Nucleic Acids to Galaxy Training: Reflections on My Research Stay in Freiburg"
 date: "2025-10-20"
-authors: "Reyhaneh Tavakoli Koopaei"
+authors: "Reyhaneh Tavakoli"
 tease: "Collaboration and innovation with the Galaxy Europe team"
 tags: [gtn, galaxy, training, imaging, RNA, dnazyme, cleaveRNA, outreach]
 supporters: [unifreiburg, uniisfahan]
 subsites: [all]
 main_subsite: eu
+contributions:
+  authorship:
+    - reytakop
+  funding:
+    - uni-freiburg
+    - uniisfahan
 ---
 
 ![](./sweet_memories_1.png)

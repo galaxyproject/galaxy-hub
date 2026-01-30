@@ -6,6 +6,9 @@ authors: "Brad Chapman"
 external_url: "https://github.com/chapmanb/cloudbiolinux/blob/master/cloudbio/biodata/galaxy.py"
 source_blog_url: https://github.com/chapmanb/cloudbiolinux/ 
 source_blog: "CloudBioLinux Repo"
+contributions:
+  authorship:
+    - bradchapman
 ---
 
 Implemented as [a script](https://github.com/chapmanb/cloudbiolinux/blob/master/cloudbio/biodata/galaxy.py) in the [CloudBioLinux GitHub repository](https://github.com/chapmanb/cloudbiolinuxa).

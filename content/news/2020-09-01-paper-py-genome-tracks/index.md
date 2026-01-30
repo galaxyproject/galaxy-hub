@@ -10,6 +10,11 @@ supporters:
 - crc992
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - crc992
 ---
 
 We are happy to announce the publication of **pyGenomeTracks (PGT)** in Bioinformatics. The tool plots combinations of genomic tracks in a

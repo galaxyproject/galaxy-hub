@@ -12,6 +12,11 @@ tags: [training, talk, poster, gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 supporters: [unifreiburg, elixir, denbi]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 At the most important conference for the Galaxy community, we will present different talks and a poster, and we will give several workshops.

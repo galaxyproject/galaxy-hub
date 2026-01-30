@@ -14,6 +14,10 @@ tags: [training]
 supporters:
 - elixir
 subsites: [all-eu, global, us]
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 Applications close 18 February!

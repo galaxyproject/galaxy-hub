@@ -18,4 +18,8 @@ links:
     url: "https://sciencegateways.org/documents/20182/25103/Galaxy_Cyberinfrastructure_Webinar_Slides.pdf"
 contact: "Nate Coraor"
 subsites: [global, us]
+contributions:
+  authorship:
+    - natefoo
+
 ---

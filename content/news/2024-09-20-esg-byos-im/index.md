@@ -9,6 +9,9 @@ main_subsite: eu
 supporters:
   - eurosciencegateway
   - egi
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 # Introduction

@@ -3,11 +3,12 @@ title: Learn how the NASA uses Galaxy!
 date: '2019-01-26'
 tags: [training]
 external_url: https://www.jove.com/video/58447/exploring-effects-spaceflight-on-mouse-physiology-using-open-access
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 [Dave B](https://galaxyproject.org/people/dave-bouvier/) pointed us to this nice article about

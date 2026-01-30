@@ -11,11 +11,18 @@ supporters:
 - unifreiburg
 - erasmus+
 - denbi
-authors: annefou
-authors_structured:
-- github: annefou
+authors: "Anne Fouilloux"
 subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - annefou
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+    - gallantries
+    - eosc-life
 ---
 
 The [FORCeS](https://forces-project.eu/) eScience course "Tools in Climate Science: Linking Observations with Modelling" was held at the [Tjärnö Marine Biological Laboratory](https://www.gu.se/en/tjarno), Sweden, from November 1st to November 8th.

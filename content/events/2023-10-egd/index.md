@@ -17,6 +17,13 @@ supporters:
   - eosc
   - eu
   - denbi
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - eu
+    - eurosciencegateway
+
 ---
 
 It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy Days 2023**!

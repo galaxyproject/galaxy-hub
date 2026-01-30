@@ -18,6 +18,12 @@ links:
 - text: Video
   url: https://youtu.be/srUg7O318PA
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - afgane
+    - mschatz
+    - nekrut
+
 ---
 
 **11am-Noon, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55))**

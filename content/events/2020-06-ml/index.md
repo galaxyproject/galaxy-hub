@@ -19,6 +19,12 @@ continent: EU
 gtn: true
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+
 ---
 
 

@@ -12,4 +12,8 @@ external_url: "https://www.eventbrite.com.au/e/introduction-to-galaxy-galaxy-wor
 gtn: true
 contact: "Simon Gladman"
 subsites: [global, us]
+contributions:
+  authorship:
+    - slugger70
+
 ---

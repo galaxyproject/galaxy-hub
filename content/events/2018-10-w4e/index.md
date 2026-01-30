@@ -12,4 +12,8 @@ image:
 gtn: True
 contact: "Gildas Le Corguillé"
 subsites: [global, us]
+contributions:
+  authorship:
+    - lecorguille
+
 ---

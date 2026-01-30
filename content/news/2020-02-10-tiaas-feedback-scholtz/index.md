@@ -5,10 +5,14 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Beata Scholtz
-authors_structured:
-- name: Beata Scholtz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatascholtz
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

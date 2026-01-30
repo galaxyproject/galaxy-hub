@@ -3,6 +3,9 @@ title: "Galaxy interactive tools and R Shiny apps"
 tease: "Some dreams, mixing synchronous and asynchronous workflows in Galaxy and adding high degree of interactivity into Galaxy thanks to R Shiny are ready to be reality"
 authors: "Yvan Le Bras"
 date: "2021-11-30"
+contributions:
+  authorship:
+    - yvanlebras
 ---
 
 Galaxy interactive Tools (GxIT) are a fantastic way to add interactive webapps into Galaxy. Thanks to recent update of Galaxy core code, now GxIT can be used as common Galaxy tools, so we can notably create workflows combining common tools and GxIT! This open an amazing road towards better integration of synchronous and asynchronous workflows and better collaboration between scientists but also with other kind of participants like citizens ! In the Biodiversity world, there is a particular interest for interactive Shiny apps. Using R {shiny} package, one can either create a "simple" app (a simple visualization page) or a "complex" one (a multi pages complete workflow) directly from R ! Thanks to the Galaxy for Ecology (Galaxy-E) initiative, here are some feedback on the amazing functionality of R Shiny based GxIT creation!

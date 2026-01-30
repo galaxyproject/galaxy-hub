@@ -1,12 +1,18 @@
 ---
 title: "Microbial Genes Recovery in Galaxy"
-authors: Mina H.Ansari
+authors: Mina Hojat Ansari
 tags: [workflow, metagenomics, microbial-genes, Galaxy]
 date: "2025-09-26"
 tease: "A new Galaxy workflow enables researchers to recover and analyze microbial genes from metagenomic data."
 subsites: [all, esg]
 supporters: [unifreiburg, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - minamehr
+  funding:
+    - uni-freiburg
+    - eurosciencegateway
 ---
 
 High-quality reference genes and microbial genomes are essential resources for understanding the functional roles of microbes and quantifying their abundance in microbiome studies.  

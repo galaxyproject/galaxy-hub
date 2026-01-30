@@ -10,4 +10,8 @@ external_url: "https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lm
 gtn: false
 contact: "Bérénice Batut"
 subsites: [all]
+contributions:
+  authorship:
+    - bebatut
+
 ---

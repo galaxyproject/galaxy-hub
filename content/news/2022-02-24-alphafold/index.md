@@ -11,11 +11,17 @@ supporters:
 - denbi
 - unifreiburg
 - australian_biocommons
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - elixir-europe
+    - deNBI
+    - uni-freiburg
+    - AustralianBioCommons
 ---
 
 

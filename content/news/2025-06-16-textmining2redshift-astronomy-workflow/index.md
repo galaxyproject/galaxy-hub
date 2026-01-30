@@ -8,6 +8,9 @@ subsites: [all, esg]
 supporters:
   - eurosciencegateway
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 The WP5 EPFL team is excited to share a new Galaxy workflow that facilitates follow-up analysis of astronomical transient events mentioned in bulletins such as [ATels](https://astronomerstelegram.org/) or [GCN Circulars](https://gcn.nasa.gov/circulars).

@@ -4,11 +4,12 @@ date: '2022-03-23'
 tease: 'The next global climate strike will be on March 25!'
 hide_tease: true
 tags: [s4f, society]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 The next global climate strike will be on **March 25**! As last time, the Freiburg Galaxy Team is going to express its support more directly: the team will be striking in [Freiburg](https://freiburgforfuture.de/25-03/), if you are nearby join us - and maybe we will find time to talk about research as well :)

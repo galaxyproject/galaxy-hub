@@ -12,4 +12,9 @@ gtn: false
 contact: "Scott Cain, Dave Clements"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - scottcain
+    - tnabtaf
+
 ---

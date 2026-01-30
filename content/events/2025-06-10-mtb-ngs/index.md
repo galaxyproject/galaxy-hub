@@ -12,6 +12,17 @@ location:
 continent: GL
 external_url: https://training.galaxyproject.org/training-material/events/2025-06-10-mtb-ngs.html
 tease: 'These series of webinars and tutorials aim at improving basic and applied knowledge associated with NGS technologies and their applications in the field of Tuberculosis.'
+contributions:
+  authorship:
+    - GaloGS
+    - andrea-spitaleri
+    - andreacabibbe
+    - arashghodousi
+    - cstritt
+    - dbrites
+    - lilianarutaihwa
+    - pvanheus
+
 ---
 These series of webinars and tutorials aim at improving basic and
 applied knowledge associated with next-generation sequencing (NGS)

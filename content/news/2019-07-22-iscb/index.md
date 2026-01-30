@@ -4,11 +4,13 @@ date: '2019-07-22'
 location:
   name: Basel, CH
 tags: [talk]
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
 ---
 
 We were invited in July to give talks at the ISMB/ECCB organized by the International Society for Computational Biology. During the ELIXIR-hosted special session on "Scalable Plant-Research in Cloud Environments" we presented "Galaxy and the European Galaxy Community", "Apollo and Galaxy", and "e!DAL". We spent a really great day in Basel (CH).

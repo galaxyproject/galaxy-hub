@@ -5,10 +5,14 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Ambre Jousselin
-authors_structured:
-- name: Ambre Jousselin
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - ambrejousselin
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 The past 23-25 Nov, I run a 2-day Microbial Genomics workshop for 16 master students. It covered reads inspection to genome assembly, annotation and reads mapping.

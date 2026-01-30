@@ -4,11 +4,12 @@ date: '2019-04-14'
 tags: [devops, tools]
 location:
   name: Galaxy Europe
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 Over the past few weeks we saw many [FASTQC](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72){:target="_blank"} jobs running for days or even longer, which is not normal.

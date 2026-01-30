@@ -6,6 +6,9 @@ layout: news
 date: "2025-04-07"
 tease: "Work condition improvement and efficiency boost due to renovated university infrastructure at Galaxy Europe"
 subsites: [eu]
+contributions:
+  authorship:
+    - paulzierep
 ---
 
 # 🥳 Mensa Opening at the Technical Faculty!

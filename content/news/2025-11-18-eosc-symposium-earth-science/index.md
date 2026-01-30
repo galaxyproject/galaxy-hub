@@ -7,6 +7,14 @@ tags: [eosc, workflow,  earth-system, environmental, fair, federation, esg, esg-
 supporters: [eosc, dataterra, ifremer, esg]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - eosc-life
+    - dataterra
+    - ifremer
+    - eurosciencegateway
 ---
 From [3 to 5 November 2025 in Brussels](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/), the [Data Terra Research Infrastructure](https://www.data-terra.org/) participated in the [EOSC Symposium 2025](https://eosc.eu/eosc-symposium-2025/), engaging with the wider EOSC ecosystem through its booth and demonstration talk. As the EOSC thematic node for environmental sciences, Data Terra presented services that strengthen the European research landscape, most notably the Galaxy platform, now integrated into the EOSC Federation.
 

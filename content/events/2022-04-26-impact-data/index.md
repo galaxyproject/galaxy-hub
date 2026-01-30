@@ -12,4 +12,8 @@ contact: "Björn Grüning"
 tags: [ ]
 image:
 subsites: [eu]
+contributions:
+  authorship:
+    - bgruening
+
 ---

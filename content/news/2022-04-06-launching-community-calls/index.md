@@ -4,6 +4,9 @@ tease: "A broad forum for global community updates and discussions"
 authors: "Beatriz Serrano-Solano"
 date: "2022-04-06"
 tags: [community]
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 We are happy to announce that we are launching the new Galaxy Community Calls!

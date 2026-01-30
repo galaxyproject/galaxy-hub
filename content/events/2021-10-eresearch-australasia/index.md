@@ -12,4 +12,9 @@ gtn: false
 contact: "Gareth Price, Simon Gladman"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+    - slugger70
+
 ---

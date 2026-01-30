@@ -11,6 +11,9 @@ tags:
 - sra
 - upload
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 ![](squish-it.png)

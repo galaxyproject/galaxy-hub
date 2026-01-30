@@ -8,6 +8,9 @@ subsites: [all,esg]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 Astronomers have long embraced Jupyter Notebooks as a flexible and powerful environment for data analysis, enabling reproducible science across a wide range of observations and missions. Recognizing this, members of the astronomy and data science communities have developed [nb2workflow](https://github.com/oda-hub/nb2workflow), a program capable to automatically convert and integrate annotated Jupyter Notebooks into platforms like [MMODA](https://www.astro.unige.ch/mmoda/) or Galaxy. 

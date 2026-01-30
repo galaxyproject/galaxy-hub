@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-07-17"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # Galaxy in Research: Unlocking genetic secrets of Lake Baikal’s endemic sponges 

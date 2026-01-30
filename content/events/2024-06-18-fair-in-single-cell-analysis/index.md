@@ -11,6 +11,10 @@ location:
 supporters:
 - elixir
 subsites: [all]
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 # What will you learn?

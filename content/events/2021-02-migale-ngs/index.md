@@ -16,6 +16,10 @@ gtn: true
 contact: Valentin Loux, Cédric Midoux
 tags: []
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - vloux
+
 ---
 
 Part of Cycle "Bioinformatique par la pratique" 2021

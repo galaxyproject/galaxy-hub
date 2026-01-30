@@ -21,6 +21,17 @@ supporters:
 - illumina
 - ncgas
 subsites: [eu, freiburg, global, us]
+contributions:
+  authorship:
+    - mtekman
+    - pratikdjagtap
+    - shiltemann
+    - subinamehta
+    - tnabtaf
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 **Mequite D Room, 8am - 4pm**

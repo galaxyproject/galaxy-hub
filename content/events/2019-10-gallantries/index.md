@@ -17,6 +17,11 @@ supporters:
 - elixir
 - denbi
 subsites: [eu, freiburg, global, us]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The Gallantries team is offering its second RNA-seq workshop for beginners on October 7-9th. This workshop will be delivered simultaneously at 3 locations across Europe (Rotterdam, NL; Thessaloniki, GR; Tartu, EE). It will cover: Galaxy introduction, Introduction to High-Throughput Sequencing and Quality Control, Reference-based RNA-seq data analysis, Basics of R programming and Post-processing of RNA-seq data using R and Rstudio.

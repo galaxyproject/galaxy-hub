@@ -12,4 +12,9 @@ gtn: false
 contact: "Enis Afgan, Dave Clements"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - afgane
+    - tnabtaf
+
 ---

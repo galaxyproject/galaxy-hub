@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-03-04'
 external_url: https://training.galaxyproject.org/training-material/news/2024/03/04/gtn-learning-path-highlights.html
 main_subsite: global

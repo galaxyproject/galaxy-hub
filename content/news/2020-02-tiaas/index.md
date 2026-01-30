@@ -5,11 +5,12 @@ tease: Training Infrastructure as a Service
 tags: [devops, tiaas]
 location:
   name: Freiburg, Germany
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
 ---
 
 We've seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback.

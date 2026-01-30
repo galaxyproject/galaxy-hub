@@ -14,6 +14,10 @@ tags: [esg, esg-wp1]
 supporters:
   - eurosciencegateway
 subsites: [global, us, eu, esg]
+contributions:
+  funding:
+    - eurosciencegateway
+
 ---
 
 **[Galaxy Admin Training](https://github.com/orgs/galaxyproject/projects/28)** will be offered April 17 through April 21 at 

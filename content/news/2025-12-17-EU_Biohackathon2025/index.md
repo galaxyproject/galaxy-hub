@@ -9,7 +9,13 @@ supporters:
 location:  
   name: Berlin, DE  
 subsites: [eu, freiburg]  
-main_subsite: freiburg  
+main_subsite: freiburg
+contributions:
+  authorship:
+    - dianichj
+  funding:
+    - elixir-europe
+    - eubi
 ---
 
 # BioHackathon Europe 2025 - Project 9

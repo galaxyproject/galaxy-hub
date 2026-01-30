@@ -12,4 +12,8 @@ external_url: "https://www.eventbrite.com/e/elixir-ttr-course-basic-genomics-usi
 contact: "Christophe Antoniewski, Olivier Inizan"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - olivierinizan
+
 ---

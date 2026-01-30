@@ -21,6 +21,11 @@ supporters:
 - esg
 subsites: [eu, freiburg, esg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+    - eu
+
 ---
 
 Within the **European Galaxy Days**, the **EuroScienceGateway consortium of 18 partners** will get together in Freiburg, Germany, 

@@ -10,6 +10,10 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Clemens, Björn and Bérénice were participating in the Galaxy Community Conference [GCC](https://gcc2017.sciencesconf.org) training:

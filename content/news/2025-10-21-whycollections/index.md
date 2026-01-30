@@ -9,6 +9,9 @@ hide_tease: false
 tags:
 - collections
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 ## Right tools are everything!

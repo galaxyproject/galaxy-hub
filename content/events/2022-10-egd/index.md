@@ -17,6 +17,17 @@ supporters:
   - eosc
   - eu
 subsites: [all-eu, global, esg]
+contributions:
+  authorship:
+    - beatrizserrano
+    - bgruening
+    - erxleben
+    - hrhotz
+  funding:
+    - elixir-europe
+    - eu
+    - eurosciencegateway
+
 ---
 
 It's time again to gather together, discuss recent and future Galaxy developments in Freiburg at the **European Galaxy Days 2022**!

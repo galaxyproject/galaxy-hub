@@ -8,6 +8,10 @@ supporters:
 - elixir
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 3 years ago the Galaxy community evaluated mechanism to make software installation more robust and we joined

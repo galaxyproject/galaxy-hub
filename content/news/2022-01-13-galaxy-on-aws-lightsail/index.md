@@ -7,4 +7,7 @@ date: "2022-01-13"
 source_blog: "AWS Public Sector Blog"
 source_blog_url: "https://aws.amazon.com/blogs/publicsector/"
 autotoc: false
+contributions:
+  authorship:
+    - reginaldjohnson
 ---

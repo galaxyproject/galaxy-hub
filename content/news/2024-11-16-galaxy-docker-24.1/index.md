@@ -6,6 +6,9 @@ authors: "Jyoti Prakash Mohanty"
 date: "2024-11-16"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - jyotiprakashmohanty
 ---
 
 # Galaxy Docker 24.1

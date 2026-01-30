@@ -3,12 +3,13 @@ title: EOSC-Life has awarded two training projects to the European Galaxy team
 date: '2020-09-08'
 tease: From 1st EOSC-Life Training Open Call
 tags: [grants, training]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 supporters: [eosc, eu, unifreiburg, EOSC-Life]
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Within the 1st [EOSC-Life](https://www.eosc-portal.eu/eosc-life) Training Open Call, two out of four proposals have been awarded to the

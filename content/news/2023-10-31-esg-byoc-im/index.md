@@ -9,6 +9,9 @@ main_subsite: eu
 supporters:
   - eurosciencegateway
   - egi
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 The [EuroScienceGateway Project](../../projects/esg/) is streamlining the way that users Bring their Own Compute (BYOC) to Galaxy.

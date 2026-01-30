@@ -17,6 +17,13 @@ supporters:
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+
 ---
 
 The Galaxy Community and ELIXIR organise a second webinar series to demonstrate how open software and public research infrastructures can be

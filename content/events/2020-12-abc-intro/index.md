@@ -12,4 +12,8 @@ gtn: true
 contact: "Simon Gladman"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - slugger70
+
 ---

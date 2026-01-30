@@ -2,11 +2,12 @@
 title: Freiburg Galaxy Team at the Galaxy Community Conference 2021
 date: '2021-07-21'
 tags: [GCC]
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 The Freiburg Galaxy Team participated in the [Galaxy Community Conference 2021](https://gcc2021.sched.com/) with:

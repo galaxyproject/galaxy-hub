@@ -4,11 +4,14 @@ date: '2021-03-09'
 tags: [data]
 supporters:
 - healthycloud
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - healthycloud
 ---
 
 <br>

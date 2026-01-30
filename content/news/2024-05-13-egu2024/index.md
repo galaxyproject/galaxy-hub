@@ -17,6 +17,9 @@ supporters:
   - fair-ease
 tags: [conference, esg, esg-wp5, earth-system, collaboration, talk, outreach]
 subsites: [all, esg, all-eu]
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 The European Geosciences Union (EGU) was held at the Austria Center Vienna (ACV) and online, from the 14–19th April 2024.

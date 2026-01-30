@@ -12,4 +12,10 @@ gtn: true
 contact: "Lucille Delisle, Hans-Rudolf Hotz, Florian Heyl"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - heylf
+    - hrhotz
+    - lldelisle
+
 ---

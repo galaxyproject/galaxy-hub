@@ -12,6 +12,11 @@ supporters:
   - eosc
   - unifreiburg
   - denbi
+contributions:
+  authorship:
+    - anuprulez
+  funding:
+    - eurosciencegateway
 ---
 
 ## Introduction

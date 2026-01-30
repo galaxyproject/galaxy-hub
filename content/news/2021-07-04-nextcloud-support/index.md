@@ -6,11 +6,16 @@ supporters:
 - denbi
 - elixir
 - crc1425
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
+    - crc1425
 ---
 
 So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably [Dropbox](https://www.dropbox.com), which 

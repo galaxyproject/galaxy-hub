@@ -3,10 +3,11 @@ title: 'UseGalaxy.eu Use Case: Heart research'
 date: '2021-07-23'
 tags: [UseCase]
 authors: Tsai-sang Dederichs
-authors_structured:
-- name: Tsai-sang Dederichs
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - tsaisangdederichs
 ---
 
 __Tsai-sang Dederichs__ is using Galaxy at the [Heart Center, University of Freiburg (Germany)](https://ims.uniklinik-freiburg.de/en/medical-services/clinics-and-divisions/heart-center-university-of-freiburg.html) for DNA and RNA data analysis. This is Tsai-sang's experience with Galaxy:

@@ -1,9 +1,14 @@
 ---
 title: "Mental Health Assessment Tools"
 tease: "Tenth blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-08-18"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 There are many tools that help measure mental health. Two assessment tools have been chosen for this project: the **Mental Health Inventory** and the **General Health Questionnaire**. You can either use one or both assessment tools. Note that the assessment tools are **NOT** supposed to serve as a diagnosis or as a substitute for a professional opinion.

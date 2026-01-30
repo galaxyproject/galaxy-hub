@@ -11,11 +11,18 @@ supporters:
 - eosc
 - eu
 - unifreiburg
-authors: wm75
-authors_structured:
-- github: wm75
+authors: Wolfgang Maier
 subsites: [global, eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - wm75
+  funding:
+    - deNBI
+    - elixir-europe
+    - elixir-converge
+    - by-covid
+    - eosc-life
 ---
 
 The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.

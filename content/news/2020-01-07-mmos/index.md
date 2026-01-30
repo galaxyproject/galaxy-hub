@@ -3,11 +3,12 @@ title: Massively Multiplayer Online Science in Galaxy to help Ecologists - A Cit
   Science Project
 date: '2020-01-07'
 tags: [galaxy, MMOS, devops, society, community]
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 A few years back the "webhook" concept was contributed to the Galaxy codebase.

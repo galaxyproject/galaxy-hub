@@ -9,11 +9,17 @@ supporters:
 - denbi
 - eu
 - unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - uni-freiburg
 ---
 
 The [European Galaxy Server](https://www.usegalaxy.eu) has surpassed the **30,000 registered users**.

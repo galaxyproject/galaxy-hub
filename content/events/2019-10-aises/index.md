@@ -12,6 +12,11 @@ gtn: true
 contact: "Mo Heydarian, Dave Clements"
 image: /events/2019-10-aises/aises-2019-banner.png 
 subsites: [global, us]
+contributions:
+  authorship:
+    - moheydarian
+    - tnabtaf
+
 ---
 
 **9:30 - 11:20, Friday, October 11, Room 202 A**

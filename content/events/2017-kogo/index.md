@@ -12,5 +12,10 @@ external_url: http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20
 contact: Mo Heydarian, Mallory Freeberg
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - malloryfreeberg
+    - moheydarian
+
 ---
 A Galaxy workshop for NGS data analysis

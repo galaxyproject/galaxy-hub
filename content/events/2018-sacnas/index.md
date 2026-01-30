@@ -12,6 +12,10 @@ image: /images/logos/sacnas-no-text.jpg
 gtn: true
 contact: Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee
 subsites: [global, us]
+contributions:
+  authorship:
+    - tnabtaf
+
 ---
 
 ## Do you have data and don’t know where to start with analysis?

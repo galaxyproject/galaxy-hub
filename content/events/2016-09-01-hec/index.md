@@ -16,6 +16,10 @@ supporters:
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We will give a talk and a workshop about Galaxy for biomedical research.

@@ -6,6 +6,9 @@ authors: "Riccardo Massei"
 tags: [fair, imaging, pipelines, workflow]
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - rmassei
 ---
 
 ## The Helmholtz Metadata Conference (HMC) 2024

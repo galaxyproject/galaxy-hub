@@ -5,11 +5,14 @@ tease: Just part of how de.NBI is supporting COVID-19 research
 tags: [COVID-19, outreach]
 supporters:
 - denbi
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
 ---
 
 <br>

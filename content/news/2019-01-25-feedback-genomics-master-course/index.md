@@ -9,10 +9,14 @@ supporters:
 - galaxy-europe
 - TIaaS
 authors: Nevena Veljkovic
-authors_structured:
-- name: Nevena Veljkovic
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - nevenaveljkovic
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This semester, the [Faculty of Biology at the University of Belgrade](http://bg.ac.rs/en/members/faculties/FB.php){:target="_blank"} offered for the first time

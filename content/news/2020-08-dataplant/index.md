@@ -6,11 +6,14 @@ tease: UseGalaxy.eu and DataPLANT consortium to record and deliver large data vo
 tags: [data]
 supporters:
 - dataplant
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - nfdi4plants
 ---
 
 Starting in October 2020 until September 2025, the European Galaxy team in Freiburg will participate in the consortium DataPLANT for

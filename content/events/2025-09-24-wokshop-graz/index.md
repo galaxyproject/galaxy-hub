@@ -11,5 +11,9 @@ location:
 continent: GL
 external_url: https://training.galaxyproject.org/training-material/events/2025-09-24-wokshop-graz.html
 tease: This course introduces scientists to the data analysis platform Galaxy
+contributions:
+  authorship:
+    - Nilchia
+
 ---
 This course introduces scientists to the data analysis platform Galaxy. The course is an intermediate course; there is no requirement of any programming skills.

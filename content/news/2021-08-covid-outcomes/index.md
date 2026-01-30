@@ -18,11 +18,21 @@ supporters:
 - qfab
 - melbbioinfo
 - sanbi
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
+    - eosc-life
+    - elixir-converge
+    - AustralianBioCommons
+    - melbournebioinformatics
+    - sanbi
 ---
 
 The Galaxy community has recently organised a workshop on [__SARS-CoV-2 Data Analysis and Monitoring with Galaxy__](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/). 
