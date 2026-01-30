@@ -27,8 +27,7 @@ main_subsite: eu
 contributions:
   funding:
     - deNBI
-    - galaxy-australia
-    - galaxy-europe
+    - AustralianBioCommons
     - gallantries
 
 ---

@@ -11,7 +11,8 @@ contributions:
   authorship:
     - hexylena
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 The [Gallantries Project](https://galaxy-carpentries.github.io/gallantries/) recently had their final meeting in Thessaloniki, Greece!

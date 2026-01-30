@@ -22,8 +22,6 @@ subsites: [all-eu, global, us]
 contributions:
   authorship:
     - tnabtaf
-  funding:
-    - galaxy
 
 ---
 

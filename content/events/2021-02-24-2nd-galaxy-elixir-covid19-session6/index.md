@@ -24,7 +24,7 @@ contributions:
     - bmbf
     - deNBI
     - elixir-europe
-    - galaxy
+    - uni-freiburg
 
 ---
 

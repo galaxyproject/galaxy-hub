@@ -11,7 +11,8 @@ contributions:
   authorship:
     - lachlangray
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 <br>

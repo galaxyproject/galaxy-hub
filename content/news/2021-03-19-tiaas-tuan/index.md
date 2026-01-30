@@ -11,7 +11,8 @@ contributions:
   authorship:
     - tuanlengtay
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

@@ -21,7 +21,7 @@ contributions:
     - uni-freiburg
     - deNBI
     - nfdi4plants
-    - galaxy-europe
+    - elixir-europe
     - madland
 ---
 #### MBP2025 - Molecular Biology of Plants 2025

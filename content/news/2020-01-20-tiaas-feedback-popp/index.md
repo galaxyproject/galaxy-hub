@@ -11,7 +11,8 @@ contributions:
   authorship:
     - dennypopp
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 For a 1-day course on long read sequencing for (meta)genomics I was looking for a powerful, easy-to-use computational infrastructure. 

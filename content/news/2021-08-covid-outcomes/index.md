@@ -26,8 +26,7 @@ contributions:
     - beatrizserrano
   funding:
     - deNBI
-    - galaxy-europe
-    - galaxy-australia
+    - elixir-europe
     - gallantries
     - eosc-life
     - elixir-converge

@@ -13,7 +13,8 @@ contributions:
     - hrhotz
     - lldelisle
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 For the second time, we were offering to the scientists of the EPFL Life Science faculty a training called "Learn how to analyze your sequencing data in few clicks".

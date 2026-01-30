@@ -13,7 +13,6 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - ViCE
 ---
 
 Our admin Helena, in collaboration with the Rechenzentrum Uni Freiburg, has published ["The Chimera and the Cyborg: Hybrid Compute: In vivo HPC, Cloud and Container Implementations"](https://astesj.com/v04/i02/p01/).

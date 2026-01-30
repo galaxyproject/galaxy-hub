@@ -11,7 +11,8 @@ contributions:
   authorship:
     - gmauro
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 At the end of November, we organized a 2-day workshop (reads quality, short and long reads genome assembly, reads mapping and RNAseq differential gene expression) for 12 master students.

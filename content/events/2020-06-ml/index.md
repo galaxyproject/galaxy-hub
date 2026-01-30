@@ -23,7 +23,7 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - galaxy
+    - uni-freiburg
 
 ---
 

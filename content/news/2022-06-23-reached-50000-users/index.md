@@ -29,7 +29,6 @@ contributions:
     - bmbf
     - dfg
     - uni-freiburg
-    - galaxy-europe
 ---
 
 <div class="center">

@@ -24,7 +24,6 @@ contributions:
     - bmbf
     - deNBI
     - elixir-europe
-    - galaxy
 
 ---
 

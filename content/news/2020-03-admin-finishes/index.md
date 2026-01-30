@@ -14,7 +14,6 @@ contributions:
   authorship:
     - hexylena
   funding:
-    - galaxy-europe
     - deNBI
     - elixir-europe
 ---

@@ -19,7 +19,6 @@ contributions:
   authorship:
     - anuprulez
   funding:
-    - galaxy-europe
     - deNBI
     - uni-freiburg
     - elixir-europe

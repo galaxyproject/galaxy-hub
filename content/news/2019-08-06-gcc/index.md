@@ -14,7 +14,6 @@ subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:
   funding:
-    - galaxy-europe
     - deNBI
     - elixir-europe
     - aws

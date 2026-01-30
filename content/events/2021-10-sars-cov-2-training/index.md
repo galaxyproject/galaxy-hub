@@ -24,8 +24,9 @@ supporters:
 contributions:
   funding:
     - deNBI
-    - galaxy-europe
+    - by-covid
     - gallantries
+    - elixir-converge
 
 ---
 

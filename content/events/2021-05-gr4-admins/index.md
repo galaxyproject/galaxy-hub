@@ -22,8 +22,6 @@ contributions:
   authorship:
     - gmauro
     - lldelisle
-  funding:
-    - galaxy
 
 ---
 

@@ -29,7 +29,7 @@ contributions:
     - shiltemann
     - subinamehta
   funding:
-    - galaxy
+    - uni-freiburg
 
 ---
 

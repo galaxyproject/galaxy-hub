@@ -11,7 +11,8 @@ contributions:
   authorship:
     - beatascholtz
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

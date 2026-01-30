@@ -13,7 +13,7 @@ contributions:
   authorship:
     - bgruening
   funding:
-    - galaxy-europe
+    - elixir-europe
     - uni-freiburg
     - deNBI
 ---

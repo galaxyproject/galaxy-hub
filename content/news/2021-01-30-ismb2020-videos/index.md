@@ -13,7 +13,9 @@ contributions:
   authorship:
     - foellmelanie
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 In July 2020, the "Intelligent Systems for Molecular Biology" (ISMB) took place as a virtual conference with

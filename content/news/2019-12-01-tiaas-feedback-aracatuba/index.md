@@ -8,7 +8,8 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 Hi [Galaxy team](https://galaxyproject.eu/freiburg/)!

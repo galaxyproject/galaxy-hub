@@ -14,7 +14,6 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - ViCE
 ---
 
 Our preliminary program for the Galaxy User Conference is now ready.

@@ -19,7 +19,7 @@ contributions:
     - uni-freiburg
     - deNBI
     - nfdi4plants
-    - galaxy-europe
+    - elixir-europe
     - madland
 ---
 Molecular Adaptation to Land: plant evolution to change ([MAdLand](https://madland.science/)) is a DFG-funded research consortium which explores the molecular mechanism behind the transition of plants and algae from water to land. Deepti Varshney and Dr. Saskia Hiltemann from the University of Freiburg gave a talk about the [MAdLand Resources and Tools](https://madland-meeting.de/assets/files/Abstract-Book_26_9_24_A4_V4.pdf) during the second day of the meeting. 

@@ -17,9 +17,9 @@ contributions:
   funding:
     - eosc-life
     - eubi
-    - elixir-europe
     - idr
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 <br><br>

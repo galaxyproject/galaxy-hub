@@ -19,7 +19,9 @@ contributions:
   authorship:
     - theodoratsirka
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
     - eosc-life
 ---
  

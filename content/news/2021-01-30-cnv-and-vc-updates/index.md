@@ -13,7 +13,8 @@ contributions:
   authorship:
     - wm75
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
     - miracum
 ---
 

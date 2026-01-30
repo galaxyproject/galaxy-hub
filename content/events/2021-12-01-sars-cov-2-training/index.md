@@ -18,7 +18,8 @@ main_subsite: eu
 contributions:
   funding:
     - deNBI
-    - galaxy-europe
+    - by-covid
+    - elixir-converge
     - gallantries
 
 ---

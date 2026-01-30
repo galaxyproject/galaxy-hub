@@ -12,7 +12,8 @@ contributions:
   authorship:
     - stefaniedukowicschulze
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 Dr. Stefanie Dukowic-Schulze gave a training in the MSc Program "Translational Medical Research“ (TMR) at the Medical Faculty of Mannheim (University of Heidelberg).

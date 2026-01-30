@@ -14,7 +14,6 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - ViCE
 ---
 
 As part of our ongoing growth and development, Freiburg Galaxy is becoming useGalaxy.eu

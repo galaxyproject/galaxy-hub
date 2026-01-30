@@ -11,7 +11,8 @@ contributions:
   authorship:
     - ambrejousselin
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 The past 23-25 Nov, I run a 2-day Microbial Genomics workshop for 16 master students. It covered reads inspection to genome assembly, annotation and reads mapping.

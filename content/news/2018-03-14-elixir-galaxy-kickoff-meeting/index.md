@@ -13,7 +13,6 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - ViCE
 ---
 
 The [ELIXIR Galaxy community](https://www.elixir-europe.org/about/groups/galaxy-wg) kick-off meeting was held here in Freiburg.

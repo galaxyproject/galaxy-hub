@@ -10,7 +10,8 @@ subsites: [eu, erasmusmc]
 main_subsite: erasmusmc
 contributions:
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

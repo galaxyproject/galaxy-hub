@@ -12,7 +12,8 @@ contributions:
     - jellescholtalbers
     - charlesgirardot
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

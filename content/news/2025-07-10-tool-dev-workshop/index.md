@@ -14,7 +14,6 @@ contributions:
   funding:
     - uni-freiburg
     - eurosciencegateway
-    - galaxy
 ---
 
 ## Freiburg Galaxy Team’s Internal Tool Development Workshop

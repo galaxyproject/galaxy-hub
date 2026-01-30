@@ -14,7 +14,6 @@ contributions:
   authorship:
     - erxleben
   funding:
-    - galaxy-europe
     - elixir-europe
     - deNBI
 ---

@@ -13,7 +13,8 @@ contributions:
     - lldelisle
     - hrhotz
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 This year, we were offering a training called "Analyze your NGS data in few clicks" to life science PhD students at the University of Geneva.

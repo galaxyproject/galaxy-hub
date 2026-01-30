@@ -18,7 +18,10 @@ contributions:
   authorship:
     - annefou
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+    - gallantries
     - eosc-life
 ---
 

@@ -12,7 +12,8 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 Last week we had the first Paper Cuts Community Collaboration fest. We got the engagement not only of the usual contributors but also newcomers that wanted to help to fix small bugs in Galaxy.

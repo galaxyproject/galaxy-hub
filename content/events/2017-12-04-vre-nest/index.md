@@ -19,7 +19,6 @@ subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
   funding:
-    - ViCE
     - deNBI
 
 ---

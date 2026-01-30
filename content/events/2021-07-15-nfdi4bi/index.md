@@ -14,7 +14,9 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
+    - nfdi4bioimage
 
 ---
 

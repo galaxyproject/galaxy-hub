@@ -15,7 +15,8 @@ contributions:
   authorship:
     - gallardoalba
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 We are celebrating that usegalaxy.eu reached 40,000 registered users last November! Over the last year, the number of registered users has almost doubled, from 25,000 to more than 41,000 by January 2022. As we can see in figure 1, the growth in the number of new registered users shows a constant increase since 2019.

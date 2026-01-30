@@ -13,7 +13,8 @@ contributions:
     - matthias313
     - foellmelanie
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 On December 3 and 4, we ran a 2-day Galaxy Proteomics data analysis workshop organized by ELIXIR Belgium. Therefore, most of the 20 participants were from Belgium, but others were from all around Europe, the US and Australia. 

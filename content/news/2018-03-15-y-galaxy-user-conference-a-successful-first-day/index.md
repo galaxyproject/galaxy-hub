@@ -13,7 +13,6 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - ViCE
 ---
 
 More than 120 participants joined us for the first Galaxy User Conference in Freiburg. The first day has just ended and what an amazing day it was!

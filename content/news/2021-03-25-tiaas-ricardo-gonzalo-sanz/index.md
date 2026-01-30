@@ -11,7 +11,8 @@ contributions:
   authorship:
     - ricardogonzalosanz
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

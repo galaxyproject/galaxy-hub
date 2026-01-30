@@ -11,7 +11,8 @@ contributions:
   authorship:
     - martenson
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

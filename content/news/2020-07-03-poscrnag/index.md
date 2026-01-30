@@ -11,7 +11,8 @@ contributions:
   authorship:
     - mtekman
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 We will be hosting a single-cell RNA-seq training workshop [at BCC](https://bcc2020.sched.com/event/c7TP/processing-of-single-cell-rna-seq-data-with-galaxy), 

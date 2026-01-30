@@ -20,7 +20,7 @@ contributions:
     - biodaten
     - deNBI
     - elixir-europe
-    - galaxy
+    - uni-freiburg
 
 ---
 

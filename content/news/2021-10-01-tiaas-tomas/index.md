@@ -12,7 +12,8 @@ contributions:
   authorship:
     - TKlingstrom
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 _"Dad, I am bleeding!"_ are words no parent wish to hear. 

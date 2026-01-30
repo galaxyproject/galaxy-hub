@@ -27,8 +27,6 @@ contributions:
   authorship:
     - abretaud
     - blankenberg
-  funding:
-    - galaxy
 
 ---
 

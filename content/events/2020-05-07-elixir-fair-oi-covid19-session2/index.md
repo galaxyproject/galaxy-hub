@@ -23,8 +23,6 @@ contributions:
     - biodaten
     - deNBI
     - elixir-europe
-    - galaxy
-    - galaxy-europe
 
 ---
 

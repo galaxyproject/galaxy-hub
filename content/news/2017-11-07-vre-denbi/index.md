@@ -12,7 +12,7 @@ main_subsite: freiburg
 contributions:
   funding:
     - deNBI
-    - ViCE
+    - elixir-europe
 ---
 
 (from [https://www.rz.uni-freiburg.de/rz/aktuell/vice-ws](https://www.rz.uni-freiburg.de/rz/aktuell/vice-ws))

@@ -13,7 +13,7 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - ViCE
+    - uni-freiburg
 ---
 
 Our paper "Bioconda: A sustainable and comprehensive software distribution for the life sciences", written with the **great and *big*** [BioConda](https://bioconda.github.io/) community, is now available as preprint on [bioRXiv](https://www.biorxiv.org/content/early/2017/10/21/207092).

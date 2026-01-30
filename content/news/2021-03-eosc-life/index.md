@@ -22,8 +22,9 @@ contributions:
     - eosc-life
     - eubi
     - elixir-europe
+    - nfdi4bioimage
     - idr
-    - galaxy-europe
+    - deNBI
 ---
 
 The first round of EOSC-Life demonstrators, as part of Work Package 3 has driven __eight successful use cases, three of them using Galaxy__. The outcomes of these projects have been presented during the __webinar series 'Populating EOSC-Life'__ in January 2021. 

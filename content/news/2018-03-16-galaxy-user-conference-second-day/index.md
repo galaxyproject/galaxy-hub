@@ -13,7 +13,6 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
-    - ViCE
 ---
 
 The Galaxy User Conference in Freiburg just ended!

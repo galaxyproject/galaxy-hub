@@ -11,7 +11,7 @@ subsites: [all, esg, eu, freiburg]
 main_subsite: eu
 contributions:
   funding:
-    - galaxy-europe
+    - elixir-europe
     - uni-freiburg
     - deNBI
     - eurosciencegateway

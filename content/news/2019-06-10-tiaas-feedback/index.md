@@ -11,7 +11,8 @@ contributions:
   authorship:
     - nevenaveljkovic
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
 ---
 
 

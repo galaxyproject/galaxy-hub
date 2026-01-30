@@ -18,7 +18,7 @@ contributions:
     - deNBI
     - uni-freiburg
     - crc992
-    - galaxy-europe
+    - elixir-europe
     - biodaten
 ---
 

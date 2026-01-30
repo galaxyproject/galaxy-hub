@@ -14,7 +14,9 @@ contributions:
   authorship:
     - marcelschulz
   funding:
-    - galaxy-europe
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 ## Galaxy helps virtual teaching!
