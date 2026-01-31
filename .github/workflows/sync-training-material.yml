@@ -1,0 +1,62 @@
+name: Sync Training Material Files
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: "0 2 * * *"
+
+jobs:
+  sync-files:
+    name: Sync files from training-material
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download files from training-material
+        run: |
+          # Download the three YAML files directly from GitHub's raw content
+          curl -o content/CONTRIBUTORS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/CONTRIBUTORS.yaml
+          curl -o content/ORGANISATIONS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/ORGANISATIONS.yaml
+          curl -o content/GRANTS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/GRANTS.yaml
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet content/CONTRIBUTORS.yaml content/ORGANISATIONS.yaml content/GRANTS.yaml; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in the files."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in the files."
+          fi
+
+      - name: Create Pull Request
+        if: steps.check-changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: |
+            Sync files from galaxyproject/training-material
+            
+            - Update CONTRIBUTORS.yaml
+            - Update ORGANISATIONS.yaml
+            - Update GRANTS.yaml
+          title: 'Sync: Update files from training-material'
+          body: |
+            This PR automatically syncs the following files from [galaxyproject/training-material](https://github.com/galaxyproject/training-material):
+            
+            - `CONTRIBUTORS.yaml`
+            - `ORGANISATIONS.yaml`
+            - `GRANTS.yaml`
+            
+            Please review the changes and merge if everything looks correct.
+          branch: sync/training-material
+          delete-branch: true
+          labels: automated, sync
