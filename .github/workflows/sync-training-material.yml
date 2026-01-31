@@ -21,15 +21,18 @@ jobs:
 
       - name: Download files from training-material
         run: |
-          # Download the three YAML files directly from GitHub's raw content
+          # Download the YAML files directly from GitHub's raw content
           curl -o content/CONTRIBUTORS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/CONTRIBUTORS.yaml
           curl -o content/ORGANISATIONS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/ORGANISATIONS.yaml
           curl -o content/GRANTS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/GRANTS.yaml
+          curl -o content/schema-contributors.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/schema-contributors.yaml
+          curl -o content/schema-grants.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/schema-grants.yaml
+          curl -o content/schema-organisations.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/schema-organisations.yaml
 
       - name: Check for changes
         id: check-changes
         run: |
-          if git diff --quiet content/CONTRIBUTORS.yaml content/ORGANISATIONS.yaml content/GRANTS.yaml; then
+          if git diff --quiet content/CONTRIBUTORS.yaml content/ORGANISATIONS.yaml content/GRANTS.yaml content/schema-contributors.yaml content/schema-grants.yaml content/schema-organisations.yaml; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No changes detected in the files."
           else
@@ -48,6 +51,9 @@ jobs:
             - Update CONTRIBUTORS.yaml
             - Update ORGANISATIONS.yaml
             - Update GRANTS.yaml
+            - Update schema-contributors.yaml
+            - Update schema-grants.yaml
+            - Update schema-organisations.yaml
           title: 'Sync: Update files from training-material'
           body: |
             This PR automatically syncs the following files from [galaxyproject/training-material](https://github.com/galaxyproject/training-material):
@@ -55,6 +61,9 @@ jobs:
             - `CONTRIBUTORS.yaml`
             - `ORGANISATIONS.yaml`
             - `GRANTS.yaml`
+            - `schema-contributors.yaml`
+            - `schema-grants.yaml`
+            - `schema-organisations.yaml`
             
             Please review the changes and merge if everything looks correct.
           branch: sync/training-material
