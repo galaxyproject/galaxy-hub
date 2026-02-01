@@ -56,6 +56,10 @@ astro-preview: astro-install ## Preview built Astro site
 	cd astro && npm run preview
 .PHONY: astro-preview
 
+astro-check: astro-install ## Format, lint, and test Astro site
+	cd astro && npm run format && npm run lint && npm test
+.PHONY: astro-check
+
 validate-metadata: ## Validate news and events frontmatter schemas
 	python scripts/validate_news.py --be-strict-from 2026-02-01
 	python scripts/validate_events.py --be-strict-from 2026-02-01

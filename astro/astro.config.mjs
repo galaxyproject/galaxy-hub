@@ -32,6 +32,16 @@ export default defineConfig({
     rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
   },
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    server: {
+      // Reduce inotify watcher pressure during dev/Playwright runs
+      watch: {
+        usePolling: true,
+        ignored: [
+          '**/public/images/**',
+          '**/content/**/images/**'
+        ],
+      },
+    },
   }
 });
