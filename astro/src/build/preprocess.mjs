@@ -296,14 +296,27 @@ function slugToFilename(slug, useMdx = false) {
 function processImagePaths(content, slug) {
   let processed = content;
 
+  function rewriteSrc(src) {
+    const slugPrefix = `/${slug}/`;
+    if (src.startsWith('/authnz/')) {
+      return `/images${src}`;
+    }
+    if (src.startsWith(slugPrefix)) {
+      return `/images/${slug}/${src.slice(slugPrefix.length)}`;
+    }
+    if (!src.startsWith('/') && !src.startsWith('http')) {
+      return `/images/${slug}/${src}`;
+    }
+    return src;
+  }
+
   // Update markdown image syntax: ![alt](image.png) -> ![alt](/images/slug/image.png)
   processed = processed.replace(
     /!\[([^\]]*)\]\(([^)\s]+\.(jpg|jpeg|png|gif|svg|webp))([^)]*)\)/gi,
     (match, alt, src, ext, rest) => {
-      if (!src.startsWith('/') && !src.startsWith('http')) {
-        return `![${alt}](/images/${slug}/${src}${rest})`;
-      }
-      return match;
+      const rewritten = rewriteSrc(src);
+      if (rewritten === src) return match;
+      return `![${alt}](${rewritten}${rest})`;
     }
   );
 
@@ -311,10 +324,9 @@ function processImagePaths(content, slug) {
   processed = processed.replace(
     /<img\s+([^>]*src=["'])([^"']+\.(jpg|jpeg|png|gif|svg|webp))["']([^>]*)>/gi,
     (match, prefix, src, ext, suffix) => {
-      if (!src.startsWith('/') && !src.startsWith('http')) {
-        return `<img ${prefix}/images/${slug}/${src}"${suffix}>`;
-      }
-      return match;
+      const rewritten = rewriteSrc(src);
+      if (rewritten === src) return match;
+      return `<img ${prefix}${rewritten}"${suffix}>`;
     }
   );
 
@@ -1002,4 +1014,5 @@ export {
   convertVueToJsx,
   convertComponentsToPascalCase,
   addBootstrapMarker,
+  processImagePaths,
 };
