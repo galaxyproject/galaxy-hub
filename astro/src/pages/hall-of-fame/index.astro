@@ -2,44 +2,24 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { communitySlug, extractAuthors, extractFunding, getCommunityDisplay } from '../../utils/contributors';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
 
-function slugify(value: string): string {
-  const normalized = String(value).trim().replace(/^@/, '');
-  return normalized
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
-function toArray(value: unknown): string[] {
-  if (!value) return [];
-  if (Array.isArray(value)) {
-    return value.flatMap((v) => toArray(v));
-  }
-  if (typeof value === 'object') {
-    const obj = value as Record<string, any>;
-    if (obj.name) return [String(obj.name)];
-    if (obj.github) return [String(obj.github)];
-    if (obj.twitter) return [String(obj.twitter)];
-    return [];
-  }
-  return [String(value)];
-}
-
 function normalizeEntry(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
-  const authors = [...toArray(entry.data.authors), ...toArray((entry as any).data.authors_structured)].filter(Boolean);
-  const supporters = toArray(entry.data.supporters).filter(Boolean);
+  const data = entry.data as Record<string, unknown>;
+  const authors = extractAuthors(data);
+  const supporters = extractFunding(data);
   return { authors, supporters };
 }
 
 type Contributor = { slug: string; name: string; count: number };
 
-function addContributor(map: Map<string, Contributor>, name: string) {
-  const slug = slugify(name);
+function addContributor(map: Map<string, Contributor>, id: string, label?: string) {
+  const slug = communitySlug(id);
   if (!slug) return;
+  const name = label || id;
   const existing = map.get(slug) || { slug, name, count: 0 };
   if (!existing.name && name) existing.name = name;
   existing.count += 1;
@@ -54,8 +34,8 @@ const supporterMap = new Map<string, Contributor>();
 
 const collect = (entry: ArticleEntry | EventEntry) => {
   const { authors, supporters } = normalizeEntry(entry);
-  authors.forEach((name) => addContributor(authorMap, name));
-  supporters.forEach((name) => addContributor(supporterMap, name));
+  authors.forEach((id) => addContributor(authorMap, id, getCommunityDisplay(id) || id));
+  supporters.forEach((id) => addContributor(supporterMap, id, getCommunityDisplay(id) || id));
 };
 
 newsArticles.forEach(collect);
@@ -68,9 +48,6 @@ const totalAuthors = authors.length;
 const totalSupporters = supporters.length;
 const totalContributions =
   authors.reduce((sum, a) => sum + a.count, 0) + supporters.reduce((sum, s) => sum + s.count, 0);
-
-const maxAuthorCount = authors.reduce((max, item) => Math.max(max, item.count), 0) || 1;
-const maxSupporterCount = supporters.reduce((max, item) => Math.max(max, item.count), 0) || 1;
 
 function groupContributors(items: Contributor[]) {
   const groups: Record<string, Contributor[]> = {};
@@ -89,21 +66,6 @@ function groupContributors(items: Contributor[]) {
 
 const authorGroups = groupContributors(authors);
 const supporterGroups = groupContributors(supporters);
-
-function getTagSize(count: number, maxCount: number): string {
-  const ratio = count / maxCount;
-  if (ratio > 0.7) return 'text-xl font-bold';
-  if (ratio > 0.4) return 'text-lg font-semibold';
-  if (ratio > 0.2) return 'text-base font-medium';
-  return 'text-sm';
-}
-
-function getTagOpacity(count: number, maxCount: number): string {
-  const ratio = count / maxCount;
-  if (ratio > 0.5) return 'opacity-100';
-  if (ratio > 0.2) return 'opacity-90';
-  return 'opacity-75';
-}
 ---
 
 <BaseLayout title="Hall of Fame" description="Discover contributors across Galaxy news and events">
@@ -174,11 +136,9 @@ function getTagOpacity(count: number, maxCount: number): string {
                       <a
                         href={`/hall-of-fame/${item.slug}/`}
                         data-kind="author"
-                        class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 ${getTagOpacity(item.count, maxAuthorCount)}`}
+                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
                       >
-                        <span
-                          class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors ${getTagSize(item.count, maxAuthorCount)}`}
-                        >
+                        <span class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium">
                           {item.name}
                         </span>
                         <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
@@ -227,11 +187,9 @@ function getTagOpacity(count: number, maxCount: number): string {
                       <a
                         href={`/hall-of-fame/${item.slug}/`}
                         data-kind="supporter"
-                        class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 ${getTagOpacity(item.count, maxSupporterCount)}`}
+                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
                       >
-                        <span
-                          class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors ${getTagSize(item.count, maxSupporterCount)}`}
-                        >
+                        <span class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium">
                           {item.name}
                         </span>
                         <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">

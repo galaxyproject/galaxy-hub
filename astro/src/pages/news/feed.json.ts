@@ -5,6 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
+import { extractAuthors } from '../../utils/contributors';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -85,7 +86,7 @@ export async function GET() {
       subsites = expandSubsites(subsites);
 
       const tags = data.tags ? (Array.isArray(data.tags) ? data.tags : [data.tags]) : [];
-      const authors = data.authors ? (Array.isArray(data.authors) ? data.authors.join(', ') : data.authors) : '';
+      const authors = extractAuthors(data as Record<string, unknown>).join(', ');
 
       // Render markdown body to HTML
       let content = '';

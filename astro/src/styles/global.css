@@ -210,6 +210,14 @@ body {
   font-weight: 500;
 }
 
+/* Remove backtick pseudo-elements injected by typography defaults */
+.prose code::before,
+.prose code::after,
+.prose-galaxy :where(code)::before,
+.prose-galaxy :where(code)::after {
+  content: none !important;
+}
+
 .prose pre {
   background-color: #1f2937;
   border-radius: 0.5rem;

@@ -112,6 +112,28 @@ function formatDate(date: Date | string | undefined): string {
                     <a href={`/${event.data.slug}/`} class:list={['block group', { hidden: idx >= 20 }]} data-item>
                       <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
                         {event.data.title}
+                        {event.data.external_url && (
+                          <span
+                            class="inline-flex items-center text-xs font-medium text-gray-500 ml-2"
+                            title="Opens external site"
+                            data-external-icon
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="h-3.5 w-3.5"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M5 12h7m0 0l-3-3m3 3l-3 3m6-8h2a2 2 0 012 2v8a2 2 0 01-2 2h-8a2 2 0 01-2-2v-2"
+                              />
+                            </svg>
+                          </span>
+                        )}
                       </h3>
                       {event.data.tease && <p class="text-sm text-gray-500 mt-1 line-clamp-2">{event.data.tease}</p>}
                       <time class="text-sm text-gray-400">{formatDate(event.data.date)}</time>

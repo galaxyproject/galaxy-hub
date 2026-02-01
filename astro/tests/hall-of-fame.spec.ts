@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const supporterSlug = 'eurosciencegateway'; // present in supporters frontmatter
+const supporterSlug = 'eurosciencegateway'; // credited via contributions.funding
 
 test.describe('Hall of Fame', () => {
   test('/hall-of-fame/ lists contributors', async ({ page }) => {
@@ -17,6 +17,9 @@ test.describe('Hall of Fame', () => {
     await expect(supporters.first()).toBeVisible();
     expect(await authors.count()).toBeGreaterThan(0);
     expect(await supporters.count()).toBeGreaterThan(0);
+
+    // Supporter names should use display names, not YAML keys
+    await expect(supporters.filter({ hasText: /EuroScienceGateway/i }).first()).toBeVisible();
   });
 
   test(`/hall-of-fame/${supporterSlug} renders contributions`, async ({ page }) => {
@@ -29,5 +32,9 @@ test.describe('Hall of Fame', () => {
     const items = page.locator('[data-item]');
     await expect(items.first()).toBeVisible();
     expect(await items.count()).toBeGreaterThan(0);
+
+    // Back link should point to Hall of Fame index
+    const backLink = page.locator('a[href="/hall-of-fame/"]').first();
+    await expect(backLink).toBeVisible();
   });
 });

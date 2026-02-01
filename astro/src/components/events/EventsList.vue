@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface EventData {
   slug: string;
@@ -16,6 +17,7 @@ interface EventData {
       }
     | string;
   subsites?: string[] | string;
+  externalUrl?: string;
 }
 
 const props = defineProps<{
@@ -242,6 +244,7 @@ function buildUrl(slug: string): string {
               <div class="flex-1">
                 <h3 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
                   {{ event.title || 'Untitled Event' }}
+                  <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                 </h3>
                 <p v-if="event.tease" class="text-gray-600 mt-1">{{ event.tease }}</p>
                 <p v-if="event.location" class="text-sm text-gray-500 mt-2 flex items-center gap-1">
@@ -342,6 +345,7 @@ function buildUrl(slug: string): string {
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
               <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
                 {{ event.title || 'Untitled Event' }}
+                <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
               </h3>
               <time v-if="event.date" class="text-sm text-gray-500">
                 {{ formatDateRange(event.date, event.end) }}

@@ -15,6 +15,7 @@ const articleData = newsArticles.map((a) => ({
   tease: a.data.tease,
   tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
   subsites: a.data.subsites,
+  externalUrl: a.data.external_url,
 }));
 ---
 
