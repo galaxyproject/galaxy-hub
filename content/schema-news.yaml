@@ -1,0 +1,163 @@
+---
+# Schema for news frontmatter entries
+type: map
+_examples: |
+    2025-10-21-whycollections:
+        title: Why collections?
+        date: 2025-10-21
+        tease: Collections are one of the super-killer features of Galaxy!
+        tags: [collections]
+        authors: Anton Nekrutenko
+        subsites: [eu, global]
+        main_subsite: global
+mapping:
+    "=":
+        type: map
+        mapping:
+            title:
+                type: str
+                required: false
+                description: Human-readable title of the news item
+            date:
+                type: str
+                required: false
+                pattern: /[0-9]{4}-[0-9]{2}-[0-9]{2}/
+                description: Publication date (YYYY-MM-DD)
+            tease:
+                type: str
+                description: Short summary shown in listings
+            hide_tease:
+                type: bool
+                description: If true, hide tease text on detail page
+            hide-tease:
+                type: bool
+                description: Legacy spelling for hide_tease
+            tags:
+                type: seq
+                sequence:
+                    - type: str
+                      enum:
+                          - TAGS
+                description: List of tags for filtering
+            subsites:
+                type: seq
+                sequence:
+                    - type: str
+                      enum:
+                          - SUBSITES
+                description: Subsites this item belongs to
+            main_subsite:
+                type: str
+                enum:
+                    - SUBSITES
+                description: Primary subsite used for routing
+            authors:
+                type: str
+                description: Free-form author string
+            authors_structured:
+                type: seq
+                sequence:
+                    - type: map
+                      mapping:
+                          github:
+                              type: str
+                              required: false
+                          name:
+                              type: str
+                              required: false
+                          orcid:
+                              type: str
+                              required: false
+                description: Structured author data
+            author_github:
+                type: str
+                description: Legacy single author github handle
+            external_url:
+                type: str
+                description: External link instead of internal page
+            redirect:
+                type: str
+                description: URL to redirect to
+            image:
+                type: str
+                description: Path to header image
+            cover:
+                type: str
+                description: Path to listing cover image
+            coveralt:
+                type: str
+                description: Alt text for cover image
+            layout:
+                type: str
+            autotoc:
+                type: bool
+            components:
+                type: bool
+            draft:
+                type: bool
+            highlight:
+                type: bool
+            gtn:
+                type: bool
+            source_blog:
+                type: str
+            source_blog_url:
+                type: str
+            contact:
+                type: str
+            site:
+                type: str
+            repo:
+                type: str
+            contributions:
+                required: false
+                type: map
+                mapping:
+                    authorship:
+                        description: These entities wrote the bulk of the material.
+                        type: seq
+                        sequence:
+                            - type: str
+                              enum:
+                                  - CONTRIBUTORS
+                                  - ORGANISATIONS
+                    funding:
+                        description: Provided funding support.
+                        type: seq
+                        sequence:
+                            - type: str
+                              enum:
+                                  - ORGANISATIONS
+                                  - GRANTS
+            supporters:
+                type: any
+                description: List or single supporter id(s)
+            organizers:
+                type: seq
+                sequence:
+                    - type: str
+            location:
+                type: map
+                mapping:
+                    name:
+                        type: str
+                    city:
+                        type: str
+                    region:
+                        type: str
+                    country:
+                        type: str
+                    lat:
+                        type: float
+                    lon:
+                        type: float
+                    url:
+                        type: str
+            continent:
+                type: str
+            doi:
+                type: str
+            days:
+                type: int
+            end:
+                type: str
