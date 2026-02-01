@@ -22,7 +22,8 @@ test.describe('Contributions authors precedence', () => {
   });
 
   test('legacy authors field is ignored when no contributions are present', async ({ page }) => {
-    await page.goto('/news/2024-09-02-chat-gpt/');
+    // This page has only legacy 'authors' field, no 'contributions'
+    await page.goto('/news/2026-01-26-pag-33/');
 
     // Header should not render author links when only legacy authors are provided
     await expect(page.locator('header.page-header a[href^="/hall-of-fame/"]')).toHaveCount(0);
