@@ -9,4 +9,8 @@ location_url:
 external_url: http://www.denbi.de/22-training-cat/training-courses/353-bimsb-galaxy-course-using-galaxy-for-rna-seq-analysis
 contact: Dilmurat Yusuf, Bora Uyar
 subsites: [global, us]
+contributions:
+  authorship:
+    - dyusuf
+
 ---

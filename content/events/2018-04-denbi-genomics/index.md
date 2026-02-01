@@ -14,4 +14,8 @@ gtn: false
 subsites: [global, us]
 supporters: [denbi, unifreiburg]
 tags: [training, workshop]
+contributions:
+  funding:
+    - deNBI
+
 ---

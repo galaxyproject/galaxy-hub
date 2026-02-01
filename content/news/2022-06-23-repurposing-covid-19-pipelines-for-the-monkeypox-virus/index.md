@@ -14,6 +14,11 @@ supporters:
 - bycovid
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - eosc-life
 ---
 
 One aim of the BY-COVID project is to build a framework enabling data from newly emerging infectious disease threats to be made

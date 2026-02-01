@@ -11,6 +11,12 @@ supporters:
 - esg
 subsites: [all-eu, esg, all]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - eurosciencegateway
 ---
 
 </br>

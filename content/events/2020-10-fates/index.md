@@ -13,4 +13,11 @@ gtn: True
 contact: "Anne Fouilloux"
 subsites: [global, us]
 supporters: [eosc, eu, EOSC-Life]
+contributions:
+  authorship:
+    - annefou
+  funding:
+    - eosc-life
+    - eu
+
 ---

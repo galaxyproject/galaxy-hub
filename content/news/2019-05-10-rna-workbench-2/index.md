@@ -8,6 +8,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 A new significant update of our RNA workbench was released! You can access the new tools, workflows, tours and tutorials at [http://rna.usegalaxy.eu/](http://rna.usegalaxy.eu/).

@@ -6,4 +6,7 @@ authors: "Simon Gladman"
 external_url: "https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/"
 source_blog_url: "https://www.melbournebioinformatics.org.au/projects-blog/"
 source_blog: "Melbourne Bioinformatics Projects Blog"
+contributions:
+  authorship:
+    - slugger70
 ---

@@ -5,6 +5,9 @@ tease: "Porting the MGnify Amplicon Pipeline v5.0 to Galaxy: A Collaborative Eff
 hide_tease: false
 authors: Rand Zoabi
 subsites: [eu,all,global]
+contributions:
+  authorship:
+    - RZ9082
 ---
 
 ## MGnify amplicon pipeline v5.0

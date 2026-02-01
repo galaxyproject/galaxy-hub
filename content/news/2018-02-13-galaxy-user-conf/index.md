@@ -10,6 +10,10 @@ supporters:
 subsites: [eu, freiburg]
 tags: [conference]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Our preliminary program for the Galaxy User Conference is now ready.

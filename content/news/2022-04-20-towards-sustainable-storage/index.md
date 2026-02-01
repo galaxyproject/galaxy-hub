@@ -5,15 +5,21 @@ tease: "Research groups and networks can include their own storage into the Euro
 hide_tease: true
 tags:
 - citations
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 supporters:
 - crc1425
 - crc992
 - denbi
 - elixir
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.

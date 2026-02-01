@@ -6,4 +6,7 @@ authors: "Chase Miller"
 external_url: "http://iobio.io/2016/11/02/galaxy-integration/"
 source_blog_url: "http://iobio.io/blog.html"
 source_blog: "iobio Blog"
+contributions:
+  authorship:
+    - chasemiller
 ---

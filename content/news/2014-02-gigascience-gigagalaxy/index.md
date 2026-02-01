@@ -6,4 +6,7 @@ authors: "Scott Edmunds"
 external_url: "http://gigasciencejournal.com/blog/rewarding-reproducibility-first-papers-in-our-galaxy-series-utilizing-our-gigagalaxy-platform/"
 source_blog_url: "http://gigasciencejournal.com/blog/"
 source_blog: "(GIGA)Blog"
+contributions:
+  authorship:
+    - scottedmunds
 ---

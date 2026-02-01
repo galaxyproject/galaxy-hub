@@ -1,9 +1,14 @@
 ---
 title: "Common Problems Faced in Open-source Part I"
 tease: "Third blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-06"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 There are different problems faced in open source that affect our well-being and mental health. In this blog, we will focus on conflict and burnout, common causes and some of the solutions we can implement.

@@ -13,6 +13,11 @@ gtn: False
 contact: "Bérénice Batut, Hervé Ménager"
 tags: [ cofest ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - bebatut
+    - hmenager
+
 ---
 
 Galaxy will be among the topics covered at [BioHackathon 2018 Paris](http://bh2018paris.info/):

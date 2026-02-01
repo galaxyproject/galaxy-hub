@@ -13,4 +13,8 @@ contact: "Michael Schatz"
 image: ""
 tags: [ webinar ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - mschatz
+
 ---

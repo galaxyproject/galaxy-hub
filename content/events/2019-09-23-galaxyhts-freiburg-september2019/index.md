@@ -26,6 +26,10 @@ supporters:
 hidefooter: true
 subsites: [global, eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We are offering a Galaxy beginner workshop on high-throughput data analysis. 30 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://forms.gle/tud5zQrUehNJFiwD8).

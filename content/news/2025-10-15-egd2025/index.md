@@ -1,12 +1,23 @@
 ---
 title: "European Galaxy Days 2025: Many communities, one buzzing week in Freiburg"
 date: "2025-10-15"
-authors: "Armin Dadras, Björn Grüning, and Hans-Rudolf Hotz"
+authors: [Armin Dadras, Björn Grüning, Hans-Rudolf Hotz]
 tease: "1–3 Oct 2025, Freiburg: European Galaxy Days, ELIXIR Galaxy, and EuroScienceGateway members convened to align roadmaps and turn plans into solutions, tools, and workflows through talks, demos, and a CoFest."
 tags: [eosc, meeting, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, egd]
 supporters: [eosc, unifreiburg, esg, elixir, eu]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+    - bgruening
+    - hrhotz
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - eurosciencegateway
+    - elixir-europe
+    - eu
 ---
 From **1–3 October 2025**, the [University of Freiburg](https://uni-freiburg.de/en/) hosted a packed, three-in-one meeting: [**European Galaxy Days (EGD)**,](https://galaxyproject.org/events/2025-10-01-egd2025/) the **[ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) face-to-face meeting**, and the **[EuroScienceGateway (ESG)](https://galaxyproject.org/projects/esg/) Final Meeting** with ~100 participants (87 in person + 12 online). Running side-by-side, these events created a special week where platform maintainers, tool and workflow developers, and domain scientists aligned roadmaps and moved from slides to practical solutions and future collaborations.
 

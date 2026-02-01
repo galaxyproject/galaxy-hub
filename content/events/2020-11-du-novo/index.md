@@ -16,4 +16,8 @@ links:
     url: "https://www.youtube.com/watch?v=yP8noF2fyMs"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - NickSto
+
 ---

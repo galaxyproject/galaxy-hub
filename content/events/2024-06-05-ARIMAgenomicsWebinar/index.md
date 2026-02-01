@@ -9,4 +9,8 @@ external_url: "https://arimagenomics.com/an-introduction-to-scaffolding-with-hi-
 contact: "Delphine Larivière, Ibrahim Jivanjee"
 tags: [training]
 subsites: [all]
+contributions:
+  authorship:
+    - delphine-l
+
 ---

@@ -13,6 +13,10 @@ contact: Saskia Hiltemann
 image: /images/logos/galaxy-nl-big.png
 tags: []
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - shiltemann
+
 ---
 
 Gathering the Dutch Galaxy Community 

@@ -10,6 +10,10 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 In collaboration with our cooperation partner at the Scientific Computing Research Unit, University of Cape Town, we have recently published ["Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)"](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz107/5317160). This publication provides a basis for performing molecular dynamics simulations and analysis through Galaxy, using a number of commonly used packages, such as NAMD, GROMACS and CHARMM (for simulation) and Bio3D and MDAnalysis (for analysis).

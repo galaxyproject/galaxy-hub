@@ -11,6 +11,10 @@ gtn: false
 tags: [workshop, tools, training, uni-freiburg, esg]
 subsites: [all]
 autotoc: false
+contributions:
+  authorship:
+    - dadrasarmin
+
 ---
 We’re excited to host our first hands-on workshop on Galaxy tool development in Freiburg. This 1st session is tailored for internal team members, but we plan to offer regular workshops in the future—both online and in-person—targeted at a broad range of scientific communities and disciplines.
 

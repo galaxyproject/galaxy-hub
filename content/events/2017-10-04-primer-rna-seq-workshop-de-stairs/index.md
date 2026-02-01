@@ -13,6 +13,10 @@ location:
 subsites: [eu, freiburg]
 main_subsite: freiburg
 supporters: [denbi, unifreiburg]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 A Primer for RNA-Seq Processing, Interpreting and Visualization, October 2017, registration is closed!

@@ -12,4 +12,9 @@ external_url: "https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR
 contact: "Anika Erxleben, Mehmet Tekman"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - erxleben
+    - mtekman
+
 ---

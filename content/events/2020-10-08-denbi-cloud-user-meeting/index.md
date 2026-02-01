@@ -10,6 +10,10 @@ supporters:
 subsites: [eu, freiburg]
 main_subsite: freiburg
 tags: [conda, meeting]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 The __3rd de.NBI Cloud User Meeting__ will take place online for the first time. There will be talks and workshops by experienced users and long-running projects related to cloud computing. The EU Galaxy team will give a workshop in BioConda and Biocontainers on Thursday the 8th of October.

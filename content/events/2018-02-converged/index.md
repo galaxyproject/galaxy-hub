@@ -12,5 +12,9 @@ image:
 gtn: false
 contact: Enis Afgan
 subsites: [global, us]
+contributions:
+  authorship:
+    - afgane
+
 ---
 

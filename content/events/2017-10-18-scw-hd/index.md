@@ -16,6 +16,10 @@ supporters:
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We will attend in the software carpentry workshop in Heidelberg and give a talk there about Galaxy.

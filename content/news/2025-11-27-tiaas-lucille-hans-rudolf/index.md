@@ -6,13 +6,15 @@ supporters:
 - galaxy-europe
 tease: 'Teaching about galaxy and its workflow capabilities.'
 hide_tease: true
-authors: Lucille Delisle and Hans-Rudolf Hotz
-authors_structured:
-- name: Hans-Rudolf Hotz
-  github: hrhotz
-- name: Lucille Delisle
-  github: ldelisle
+authors: [Lucille Delisle, Hans-Rudolf Hotz]
 subsites: [all-eu]
+contributions:
+  authorship:
+    - lldelisle
+    - hrhotz
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This year, we were offering a training called "Analyze your NGS data in few clicks" to life science PhD students at the University of Geneva.

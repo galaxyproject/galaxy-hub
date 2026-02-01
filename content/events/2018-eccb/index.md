@@ -12,4 +12,8 @@ external_url: "https://docs.google.com/document/d/19po6ch62nxDxpFIDpvqR4YY1SmBDC
 contact: "Björn Grüning"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - bgruening
+
 ---

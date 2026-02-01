@@ -7,11 +7,16 @@ tags: [paper, training, tiaas]
 supporters:
 - denbi
 - elixir
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 The Galaxy Team is part of the [German Network of Bioinformatics infrastructure](https://www.denbi.de) (de.NBI)

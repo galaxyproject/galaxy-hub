@@ -9,6 +9,11 @@ supporters:
 - elixir
 - gallantries
 subsites: [global, us, all-eu]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---
 
 ¡El primer tutorial en español ya está disponible! Galaxy siempre ha tenido tutoriales traducidos automáticamente mediante Google-Translate, ahora nos estamos embarcando en un nuevo proyecto para estudiar la experiencia de aprendizaje con tutoriales en bioinformática traducidos por humanos. Nuestro objetivo es crear un paquete de tutoriales para el análisis de datos single-cell (célula única) en primera instancia, con el fin de estudiar su uso y utilidad en un taller para hablantes nativos de español. Agradecemos enormemente a las nuevas participantes Patricia Carvajal López y Alejandra Escobar-Zepeda (EMBL-EBI) así como a las miembros existentes de GTN Beatriz Serrano-Solano (University of Freiburg), Saskia Hiltemann &amp; Helena Rasche (Erasmus-MC), por su arduo trabajo en este proyecto de traducción y mantenimiento y, por supuesto, a Wendi Bacon (The Open University/EBI) como líder de proyecto.

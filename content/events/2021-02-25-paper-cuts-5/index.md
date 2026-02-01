@@ -8,6 +8,10 @@ supporters:
 - denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 In Frebuary, the __[Galaxy Training Network day](https://galaxyproject.org/events/2021-02-gtn/) and [Paper Cuts day](https://galaxyproject.org/events/2021-02-papercuts/) will be held concurrently!__

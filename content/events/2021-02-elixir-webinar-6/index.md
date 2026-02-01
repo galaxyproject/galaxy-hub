@@ -18,4 +18,10 @@ links:
     url: "https://youtu.be/HCNNUSlL73k"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+    - subinamehta
+    - wm75
+
 ---

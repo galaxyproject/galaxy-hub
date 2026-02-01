@@ -6,6 +6,11 @@ tags: [gtn, climate, cca, ecology, earth-system, jupyter, tools]
 supporters: [dataterra, esa, pndb]
 subsites: [all]
 main_subsite: eu
+contributions:
+  funding:
+    - dataterra
+    - esa
+    - pndb
 ---
 
 Geospatial research is becoming increasingly collaborative, where people with different expertise work together to solve complex GIS problems. However, commonly used tools in the GIS domain do not have real-time collaboration functionality. [JupyterGIS](https://github.com/geojupyter/jupytergis) is a JupyterLab extension that is developed to meet this need. It provides a web-based environment that supports real-time collaboration, geospatial analysis, and seamless integration with Jupyter notebooks. Here are some features of JupyterGIS:

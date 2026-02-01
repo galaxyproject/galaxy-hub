@@ -4,11 +4,12 @@ date: '2021-02-18'
 tags: [galaxy]
 location:
   name: online
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students... we are spread all over the world!  

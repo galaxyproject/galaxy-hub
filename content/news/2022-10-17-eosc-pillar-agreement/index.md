@@ -6,6 +6,9 @@ subsites: [global, all-eu]
 authors: Beatriz Serrano-Solano
 author_github: beatrizserrano
 supporters: [eosc, eu, elixir, EOSC-Life, denbi, unifreiburg]
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 <div class="float-right">

@@ -7,6 +7,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We added to the instance [ENASearch](https://github.com/bebatut/enasearch), a

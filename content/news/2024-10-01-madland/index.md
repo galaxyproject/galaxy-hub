@@ -13,6 +13,14 @@ supporters:
 subsites: [global, freiburg, eu, esg]
 tags: [esg,madland,de.nbi,nfdi4plants,dataplant,esg-wp1, esg-wp5]
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - deNBI
+    - nfdi4plants
+    - elixir-europe
+    - madland
 ---
 Molecular Adaptation to Land: plant evolution to change ([MAdLand](https://madland.science/)) is a DFG-funded research consortium which explores the molecular mechanism behind the transition of plants and algae from water to land. Deepti Varshney and Dr. Saskia Hiltemann from the University of Freiburg gave a talk about the [MAdLand Resources and Tools](https://madland-meeting.de/assets/files/Abstract-Book_26_9_24_A4_V4.pdf) during the second day of the meeting. 
 In this workshop, they [presented](https://docs.google.com/presentation/d/10Kl4xrYIe6QfHrRhF1lqcWDF5v8_42fPa_Rs-skUUt8/edit#slide=id.g2b8b453cd39_0_164) the [Galaxy](https://usegalaxy.eu/), a free and open-source web-based platform for conducting data-intensive life science research. The Galaxy Training Network (GTN) was introduced to the audience, highlighting its application for teaching and performing data analysis on real biological datasets.

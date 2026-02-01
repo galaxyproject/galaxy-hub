@@ -12,6 +12,11 @@ supporters:
 - denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The Galaxy Training Network is organizing every 3 months one day dedicated to the training community: collaborative work on the training content but also calls with the community. **The next one will be on the 19th of November.** Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.

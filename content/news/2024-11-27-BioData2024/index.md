@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-11-27"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Biological Data Science 2024 Recap**  

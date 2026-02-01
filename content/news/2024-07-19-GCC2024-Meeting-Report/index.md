@@ -2,10 +2,21 @@
 title: "GCC2024 Meeting Report"
 tease: "Discover the highlights from GCC2024, where the Galaxy community gathered in Brno to share insights, innovations, and collaborations."
 hide-tease: false
-authors: "Natalie Whitaker-Allen, Marisa Loach, Morgan Howells, Stuart Jackson, Julia Jakiela, Engy Nasr, Natalia Padillo-Anthemides, Shweta Pandey, Polina Polunina"
+authors: [Natalie Whitaker-Allen, Marisa Loach, Morgan Howells, Stuart Jackson, Julia Jakiela, Engy Nasr, Natalia Padillo-Anthemides, Shweta Pandey, Polina Polunina]
 date: "2024-07-19"
 subsites: [global,all, all-eu, esg]
 tags: [esg, esg-wp1, esg-wp5, meeting]
+contributions:
+  authorship:
+    - natalie-wa
+    - MarisaJL
+    - hexhowells
+    - stuartjackson
+    - wee-snufkin
+    - EngyNasr
+    - nataliapadilloanthemides
+    - shwdey
+    - plushz
 ---
 
 ![GCC2024 Logo](gcc2024-banner.png)

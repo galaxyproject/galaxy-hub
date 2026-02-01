@@ -12,4 +12,9 @@ image:
 gtn: false
 contact: "Helena Rasche, Dave Clements"
 subsites: [global, us]
+contributions:
+  authorship:
+    - hexylena
+    - tnabtaf
+
 ---

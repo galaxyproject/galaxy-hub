@@ -16,11 +16,17 @@ supporters:
 - EOSC-Life
 - unifreiburg
 - eu
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - eosc-life
+    - biolytix
+    - elixir-europe
+    - deNBI
 ---
 
 **TLDR**: Thanks to funding from [EOSC-Life](https://www.eosc-life.eu/), the

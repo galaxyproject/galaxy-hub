@@ -1,8 +1,12 @@
 ---
 title: "Highlights from the Galaxy Hackathon in Brest, France!"
-authors: "Diana Chiang Jurado, Rand Zoabi, Eli Chadwick"
+authors: [Diana Chiang Jurado, Rand Zoabi, Eli Chadwick]
 contributions:
-  funding: [fair-ease,ifremereu,eurosciencegateway]
+  funding: [fairease,ifremer,eu,eurosciencegateway]
+  authorship:
+    - dianichj
+    - RZ9082
+    - elichad
 tags: [Hackathon,esg, esg-wp3, esg-wp4, esg-wp1]
 layout: news
 date: "2025-04-02"

@@ -9,12 +9,18 @@ supporters:
 - galaxy-europe
 - unifreiburg
 - denbi
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 components: true
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+    - deNBI
 ---
 
 [TÜV SÜD](https://www.tuvsud.com) has awarded the University's data centre the international certification for information security management systems ([ISMS](https://en.wikipedia.org/wiki/Information_security_management)) [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001).

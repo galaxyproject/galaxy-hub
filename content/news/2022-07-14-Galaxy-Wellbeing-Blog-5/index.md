@@ -1,9 +1,14 @@
 ---
 title: "The Importance of Mental Health and its Risk Factors"
 tease: "Fifth blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-14"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 Mental health is essential for good health and quality of life. It plays a role in how well individuals, families, communities, and society function. A growing body of research indicates that having a high level of mental health reduces the chance of developing mental illness and that having a poor level of mental health increases the risk. Poor mental health can substantially influence how well we can cope in our everyday lives, resulting in minor to quite significant changes.

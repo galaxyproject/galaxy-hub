@@ -14,4 +14,12 @@ image:
 subsites: [global, us]
 supporters: [egi, unifreiburg, denbi, esg, eosc, eu]
 tags: [talk, conference]
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - egi
+    - eu
+
 ---

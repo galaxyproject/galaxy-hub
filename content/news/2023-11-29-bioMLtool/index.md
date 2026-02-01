@@ -9,6 +9,12 @@ main_subsite: eu
 supporters:
   - eurosciencegateway
   - unifreiburg
+contributions:
+  authorship:
+    - anuprulez
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 ## Introduction

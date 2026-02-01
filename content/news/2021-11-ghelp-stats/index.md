@@ -6,4 +6,7 @@ external_url: "https://usegalaxy-eu.github.io/posts/2021/11/25/ghelp-stats/plain
 date: "2021-11-25"
 source_blog: "UseGalaxy.eu"
 source_blog_url: "https://galaxyproject.eu/news"
+contributions:
+  authorship:
+    - gallardoalba
 ---

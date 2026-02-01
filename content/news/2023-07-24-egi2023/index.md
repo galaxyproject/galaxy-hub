@@ -21,6 +21,11 @@ supporters:
   - eosc
   - eu
   - denbi
+contributions:
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - egi
 ---
 
 During 19th-23rd of June, Björn Grüning, Sebastian Schaaf, and Sanjay Kumar Srikakulam from the European Galaxy Team travelled to Poznań to join the [EGI2023 conference](https://www.egi.eu/event/egi2023/) and presented the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators. With Sebastián Luna-Valero and Enol Fernández (European Grid Initiative/NL), Hakan Bayındır (ULAKBIM/TR), Łukasz Dutka (Cyfronet/PL), Abdulrahman Azab and Maiken Pedersen (University of Oslo/NO), work packages 1, 3 and 4 of ESG were represented.

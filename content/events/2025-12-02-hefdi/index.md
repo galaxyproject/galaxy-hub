@@ -15,5 +15,9 @@ tease: Are you new to e-science? Do you want to learn ways to analyse your mater
   with digital tools from your browser without any programming skills? Do you want
   to get an idea of research data management? Register for our introduction at the
   HeFDI Data School to find out more
+contributions:
+  authorship:
+    - Sch-Da
+
 ---
 Are you new to e-science? Do you want to learn ways to analyse your material with digital tools from your browser without any programming skills? Do you want to get an idea of research data management? Register for our introduction at the HeFDI Data School to find out more. **Note: This course will be held in German.**

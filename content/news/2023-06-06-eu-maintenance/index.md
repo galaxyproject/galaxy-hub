@@ -3,14 +3,15 @@ title: "EU Maintenance Announcement 12th June"
 date: "2023-06-06"
 tease: "EU database maintenance, 8hrs downtime estimated"
 hide_tease: false
-authors: 'Sanjay Srikakulam, José Manuel Domínguez, Mira Kuntz'
-authors_structured:
-- github: sanjaysrikakulam
-- github: kysrpex
-- github: mira-miracoli
+authors: [Sanjay Kumar Srikakulam, José Manuel Domínguez, Mira Kuntz]
 tags: [EU]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - sanjaysrikakulam
+    - kysrpex
+    - mira-miracoli
 ---
 
 <div class="alert" style="background: #00d084;">

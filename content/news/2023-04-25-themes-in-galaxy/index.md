@@ -6,6 +6,9 @@ authors: "Laila Los"
 date: "2023-04-28"
 tags: ["UI/UX", "highlight"]
 subsites: [global]
+contributions:
+  authorship:
+    - ElectronicBlueberry
 ---
 
 Galaxy 23.0 comes with a new theming system, which lays out the ground work for a fully themeable Galaxy.

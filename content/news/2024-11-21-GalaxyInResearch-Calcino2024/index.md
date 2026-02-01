@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-11-21"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Galaxy in Research: Transforming Life in the Tropics Using Genomic Technologies for One Health**  

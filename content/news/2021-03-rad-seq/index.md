@@ -3,11 +3,12 @@ title: RADseq data analysis (on mobile phone while baby is sleeping)
 date: '2021-03-13'
 tease: (on mobile phone while baby is sleeping)
 tags: [tools, data]
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 [Yvan Le Bras](https://twitter.com/Yvan2935) reminded us today that everyone can analyse RADseq data in Galaxy.

@@ -7,11 +7,15 @@ supporters:
 - elixir
 - denbi
 - unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 The COVID-19 pandemic at the beginning of 2020 forced us to rethink and restructure our training offerings to do more remote training. We aimed for a scalable, flexible and open-for-all workshop experience. 

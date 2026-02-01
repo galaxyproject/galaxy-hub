@@ -16,6 +16,11 @@ links:
     url: "https://youtu.be/osbRh36-4dc"
 tags: [ "devroundtable" ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - jmchilton
+    - kxk302
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/osbRh36-4dc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

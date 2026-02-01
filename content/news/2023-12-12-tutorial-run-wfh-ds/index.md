@@ -8,6 +8,11 @@ authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/12/12/tutorial-run-wfh-ds.html'
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - hexylena
+  funding:
+    - eurosciencegateway
 ---
 
 While most GTN tutorials include their associated workflow directly in the GTN, some may wish to write a tutorial about running workflows from WorkflowHub, e.g. leveraging the IWC workflow collection.

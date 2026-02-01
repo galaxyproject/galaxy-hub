@@ -17,6 +17,10 @@ supporters:
 - unifreiburg
 gtn: true
 tags: [workshop, training]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 # Galaxy Microbial Genomics Course

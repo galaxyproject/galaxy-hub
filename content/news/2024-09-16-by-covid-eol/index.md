@@ -6,6 +6,9 @@ authors: Wolfgang Maier
 subsites: [global, eu, freiburg]
 tags: [COVID-19, virology, community]
 supporters: [unifreiburg, by-covid]
+contributions:
+  authorship:
+    - wm75
 ---
 # Galaxy Europe and BY-COVID
 

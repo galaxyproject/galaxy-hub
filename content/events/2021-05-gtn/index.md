@@ -13,4 +13,14 @@ contact: "Saskia Hiltemann, Helena Rasche, Bérénice Batut, Jennifer Hillman-Ja
 gtn: true
 tags: [ cofest ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - annasyme
+    - bebatut
+    - delphine-l
+    - hexylena
+    - jennaj
+    - mblue9
+    - shiltemann
+
 ---

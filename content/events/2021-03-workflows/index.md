@@ -25,6 +25,14 @@ links:
   url: https://youtu.be/ubBnfcPJup0
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.

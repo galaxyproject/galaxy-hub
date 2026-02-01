@@ -18,4 +18,8 @@ links:
     url: "https://youtu.be/ubBnfcPJup0"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - nekrut
+
 ---

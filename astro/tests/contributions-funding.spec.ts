@@ -8,8 +8,8 @@ test.describe('Contributions funding precedence', () => {
     await expect(cards.filter({ hasText: 'NFDI4Bioimage' })).toBeVisible();
     await expect(cards.filter({ hasText: 'University of Freiburg' })).toBeVisible();
 
-    // Original supporters entry "denbi" should be ignored when funding is present
-    await expect(cards.filter({ hasText: /de\.?NBI/i })).toHaveCount(0);
+    // Funding list includes deNBI and it should be rendered from contributions.funding
+    await expect(cards.filter({ hasText: /de\.?NBI/i })).toBeVisible();
   });
 
   test('hall of fame shows contributor profile details', async ({ page }) => {

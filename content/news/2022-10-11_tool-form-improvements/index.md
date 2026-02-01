@@ -7,6 +7,9 @@ authors: Laila Los
 author_github: ElectronicBlueberry
 tags: ['enhancement', 'UI-UX', 'client', 'power-user']
 subsites: [global]
+contributions:
+  authorship:
+    - ElectronicBlueberry
 ---
 
 The tool form is a central part of Galaxy and for every interface that is used by every user very frequently.

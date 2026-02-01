@@ -13,4 +13,8 @@ contact: "James Taylor"
 gtn: false
 tags: [ cofest ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - jxtx
+
 ---

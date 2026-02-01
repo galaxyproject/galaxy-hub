@@ -11,6 +11,10 @@ gtn: false
 contact: Simon Bray
 tags: [community-call, workflow, tools]
 subsites: [all]
+contributions:
+  authorship:
+    - simonbray
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ob8dNeCRaic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

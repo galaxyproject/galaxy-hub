@@ -12,6 +12,10 @@ gtn: false
 contact: "Saskia Hiltemann"
 image: "/images/logos/galaxy-nl-big.png"
 subsites: [global, us]
+contributions:
+  authorship:
+    - shiltemann
+
 ---
 
 **Time:** October 3, 13:30-16:00, with drinks afterwards <br />

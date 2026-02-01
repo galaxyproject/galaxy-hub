@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
+import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface SearchEntry {
   title: string;
   slug: string;
   path: string;
+  external_url?: string | null;
   excerpt: string;
   tease: string;
   tags: string[];
@@ -181,6 +183,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           <div class="flex items-start justify-between gap-4 mb-2">
             <h2 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
               {{ result.title }}
+              <ExternalIcon v-if="result.collection === 'events' && result.external_url" />
             </h2>
             <span :class="['text-xs px-2 py-1 rounded-full whitespace-nowrap', getCollectionColor(result.collection)]">
               {{ getCollectionLabel(result.collection) }}

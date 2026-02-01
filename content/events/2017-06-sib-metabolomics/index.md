@@ -10,4 +10,8 @@ location_url: http://www.sib.swiss/training/upcoming-training-events/2017-06-met
 external_url: http://www.sib.swiss/training/upcoming-training-events/2017-06-metabolomics
 contact: Yann Guitton
 subsites: [global, us]
+contributions:
+  authorship:
+    - yguitton
+
 ---

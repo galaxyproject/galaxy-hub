@@ -12,6 +12,10 @@ gtn: false
 contact: "Gareth Price, M. Farhan Sjaugi"
 image: "era-2019-banner.jpg"
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+
 ---
 
 ## Galaxy @ eResearch Australasia 2019

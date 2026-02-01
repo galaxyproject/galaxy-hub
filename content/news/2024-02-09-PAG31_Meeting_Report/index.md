@@ -6,6 +6,9 @@ hide_tease: false
 authors: Natalie Whitaker-Allen
 subsites: [global, all]
 main_subsite: us
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # The 31st annual International Plant & Animal Genome Conference (PAG31) Meeting Report

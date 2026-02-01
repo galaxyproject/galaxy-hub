@@ -7,11 +7,14 @@ supporters:
 - eosc
 - EOSC-Life
 - eu
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eosc-life
 ---
 
 Two funding opportunities are now open in [EOSC-Life](https://www.eosc-life.eu/). We encourage the different Galaxy communities to apply!

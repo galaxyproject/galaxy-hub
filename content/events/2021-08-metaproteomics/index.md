@@ -13,4 +13,8 @@ gtn: false
 contact: "Pratik Jagtap"
 tags: [webinar]
 subsites: [global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+
 ---

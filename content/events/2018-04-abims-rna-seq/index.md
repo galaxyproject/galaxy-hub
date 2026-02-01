@@ -12,5 +12,9 @@ external_url: http://www.fc.upmc.fr/fr/catalogue-de-formations-2017-2018/formati
 contact: "E. Corre, Gildas Le Corguillé, X. Liu"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - lecorguille
+
 ---
 

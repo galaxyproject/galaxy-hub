@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-08-19"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Galaxy in Research: Advancing quantum materials research with Galaxy**

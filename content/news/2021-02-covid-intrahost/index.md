@@ -1,12 +1,19 @@
 ---
 title: "Global framework for SARS-CoV-2 data analysis: Application to intrahost variation"
 tease: "Parts 1 and 2"
-authors: "Wolfgang Maier, Marius Van Den Beek, Björn Grüning, Sergei Kosakovsky Pond, Anton Nekrutenko, and the Galaxy Team in US, EU, and AU"
+authors: [Wolfgang Maier, Marius van den Beek, Björn Grüning, Sergei Kosakovsky Pond, Anton Nekrutenko]
 external_url: ""
 date: "2021-02-22"
 source_blog: "Virological"
 source_blog_url: "https://virological.org/"
 tags: [virology, community, covid-19]
+contributions:
+  authorship:
+    - wm75
+    - mvdbeek
+    - bgruening
+    - sergeikosakovskypond
+    - nekrut
 ---
 
 This post is split into **[Part 1](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-1/623)** and **[Part 2](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-2/624)**.  From the introduction:

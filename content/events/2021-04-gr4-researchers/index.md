@@ -19,6 +19,10 @@ links:
 supporters:
 - galaxy
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - tnabtaf
+
 ---
 
 <div class="lead bg-warning">

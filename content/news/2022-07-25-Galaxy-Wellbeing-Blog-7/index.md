@@ -1,9 +1,14 @@
 ---
 title: "Galaxy Well-being and Mental Health Project GCC2022 BoF Session Highlights"
 tease: "Seventh blog post presenting the Outreachy project on Mental Health"
-authors: "Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux"
+authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-07-25"
+contributions:
+  authorship:
+    - Melkeb
+    - beatrizserrano
+    - annefou
 ---
 
 The Galaxy Well-being and Mental Health Project [Birds of a Feather (BoF) session](https://gcc2022.sched.com/event/15sBx/bof-galaxy-well-being-and-mental-health-project) of the 2022 Galaxy Community Conference (GCC2022) was held online on Wednesday, July 20, 2022. As the project is part of [Outreachy](https://www.outreachy.org/), we kicked off the meeting with a little introduction to Galaxy’s participation in the program and continued with the project for the rest of the session. 

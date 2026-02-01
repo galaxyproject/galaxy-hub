@@ -12,4 +12,8 @@ external_url: "http://imbio.de/ib2018"
 contact: "Björn Grüning"
 gtn: false
 subsites: [global, us]
+contributions:
+  authorship:
+    - bgruening
+
 ---

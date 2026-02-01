@@ -7,11 +7,15 @@ tags: [COVID-19, data, workflow]
 supporters:
 - denbi
 - elixir
-authors: simonbray
-authors_structured:
-- github: simonbray
+authors: Simon Bray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Recently, we started a large-scale project on the European Galaxy server for automatically collecting,

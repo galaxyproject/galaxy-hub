@@ -12,4 +12,8 @@ gtn: false
 contact: "Tim Griffin, Pratik Jagtap"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - pratikdjagtap
+
 ---

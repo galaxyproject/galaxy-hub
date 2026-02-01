@@ -12,6 +12,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 Björn will give an [ELIXIR](https://www.elixir-europe.org/) [webinar](https://www.elixir-europe.org/events/elixir-webinar-bioconda-and-biocontainers) on Bioconda and BioContainers.

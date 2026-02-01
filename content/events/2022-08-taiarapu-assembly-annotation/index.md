@@ -11,4 +11,8 @@ external_url: "https://wwz.ifremer.fr/Recherche/Departements-scientifiques/Depar
 gtn: true
 contact: "Alexandre Cormier, Cyril Noel, Patrick Durand"
 subsites: [global, us]
+contributions:
+  authorship:
+    - alexcorm
+
 ---

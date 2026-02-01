@@ -10,11 +10,16 @@ supporters:
 - unifreiburg
 - eu
 - denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - elixir-europe
+    - eosc-life
+    - deNBI
 ---
 
 ![OLS-4 flyer](/assets/media/2021-06-28-ols.png){:.rna-intro-right style="max-height:400px;"}

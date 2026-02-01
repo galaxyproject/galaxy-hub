@@ -4,6 +4,9 @@ title: "Welcome to the Galactic Blog"
 tease: "It needs you"
 image: /images/galaxy-logos/galactic-blog-400.png
 authors: "Dave Clements"
+contributions:
+  authorship:
+    - tnabtaf
 ---
 
 Today we launch the new *[Galactic Blog](/news/)*.

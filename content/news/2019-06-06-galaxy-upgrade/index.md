@@ -2,11 +2,12 @@
 title: UseGalaxy.eu update to 19.05
 date: '2019-06-06'
 tags: [release]
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - hexylena
 ---
 
 We've updated our Galaxy server to version 19.05 and now use EU blue in celebration of European Unity, ahead of us hosting this year's [Galaxy Community Conference](https://galaxyproject.org/events/gcc2019/)

@@ -16,6 +16,10 @@ supporters:
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 In Paris, there will be the BioContainer hackathon. We will be there and take part.

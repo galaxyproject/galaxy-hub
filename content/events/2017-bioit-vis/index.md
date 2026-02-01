@@ -11,4 +11,8 @@ external_url: http://www.bio-itworldexpo.com/data-visualization/
 image: /images/logos/2017-bioit-world.jpg
 contact: Aysam Guerler
 subsites: [global, us]
+contributions:
+  authorship:
+    - guerler
+
 ---

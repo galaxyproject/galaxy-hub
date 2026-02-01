@@ -4,9 +4,10 @@ tease: "Web-based tool to keep track of activities within the different Galaxy c
 date: '2024-01-15'
 tags: [community, tools]
 authors: Leonid Kostrykin
-authors_structured:
-- github: kostrykin
 subsites: [all]
+contributions:
+  authorship:
+    - kostrykin
 ---
 
 <div class="row">

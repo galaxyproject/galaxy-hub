@@ -6,6 +6,9 @@ hide_tease: false
 authors: Teresa Müller
 tags: ["GTN", "Training",]
 subsites: [global,eu]
+contributions:
+  authorship:
+    - teresa-m
 ---
 
 📢 **Registration for the Galaxy Training Academy is Open!** 📢

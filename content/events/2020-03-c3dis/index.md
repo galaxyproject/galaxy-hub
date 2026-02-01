@@ -12,6 +12,10 @@ external_url:
 contact: "Gareth Price"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+
 ---
 
 The [Galaxy Australia](https://usegalaxy.org.au) team will be presenting two workshops at [C3DIS 2020 in Melobourne](http://www.c3dis.com/):

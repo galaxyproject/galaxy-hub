@@ -14,6 +14,14 @@ supporters:
 - eurosciencegateway
 - denbi
 subsites: [all, esg, all-eu]
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - eurosciencegateway
+    - nfdi4plants
+
 ---
 
 # General information

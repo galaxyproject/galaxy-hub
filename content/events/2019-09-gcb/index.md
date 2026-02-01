@@ -13,6 +13,10 @@ gtn: true
 subsites: [global, us]
 tags: [gcb, conference, bioinformatics]
 supporters: [denbi, unifreiburg]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 There will be several Galaxy related presentations at the [2019 German Conference on Bioinformatics (GCB)](https://gcb2019.de/):

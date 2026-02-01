@@ -6,4 +6,7 @@ authors: "Thomas Cokelaer"
 external_url: "http://pythonhosted.org/bioservices/applications.html#galaxy"
 source_blog_url: "http://pythonhosted.org/bioservices/index.html" 
 source_blog: "BioServices Documentation"
+contributions:
+  authorship:
+    - thomascokelaer
 ---

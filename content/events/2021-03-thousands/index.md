@@ -27,6 +27,14 @@ links:
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 subsites: [global, us, all-eu]
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.

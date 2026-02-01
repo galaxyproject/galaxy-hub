@@ -6,6 +6,9 @@ tease: "Cristóbal presented the Galaxy Project-VGP collaboration about Genome A
 tags: [vgp,erga,training, talk]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - gallardoalba
 ---
 
 The first [Colloquium on Bioinformatics Learning, Education and Training (CoBLET)](https://coblet2022.bezmialem.edu.tr/)

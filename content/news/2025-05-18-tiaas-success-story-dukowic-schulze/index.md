@@ -6,7 +6,16 @@ tags: [tiaas, esg-wp1, esg, gtn, outreach]
 supporters: [eosc, eu, unifreiburg, denbi, elixir, eurosciencegateway]
 subsites: [eu, esg]
 main_subsite: eu
-authors: Dr. Stefanie Dukowic-Schulze
+authors: Stefanie Dukowic-Schulze
+contributions:
+  authorship:
+    - stefaniedukowicschulze
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - elixir-europe
+    - eurosciencegateway
 ---
 Participants: 20 students
 

@@ -16,6 +16,10 @@ supporters:
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Together with the other RBC partners, we will organize the de.NBI summer school 2017 in Berlin. The RBC Freiburg will give a workshop on "Computational genomics and RNA biology".

@@ -5,7 +5,10 @@ tease: "Make changes to 4 Galaxy configuration files "
 authors: "Tim Booth"
 external_url: 
 source_blog_url: 
-source_blog: 
+source_blog:
+contributions:
+  authorship:
+    - timbooth
 ---
 
 Alper Kucukural posted this [Galaxy-Dev thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN/#DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN) about logout problems when using LDAP for authentication with remoteUser enabled.  This page is based on Tim Booth's response.   Furthermore, Helena Rasche also brought these pages up to date to reflect this discussion:

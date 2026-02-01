@@ -3,10 +3,11 @@ title: 'UseGalaxy.eu Use Case: Sex determination of fish species'
 date: '2021-08-13'
 tags: [UseCase]
 authors: Joëlle Lafond
-authors_structured:
-- name: Joëlle Lafond
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - joëllelafond
 ---
 
 [__Joëlle Lafond__](https://bio.umontreal.ca/repertoire-departement/etudiants-aux-cycles-superieurs/joelle-lafond/) works at th [Université de Montréal, Canada](https://www.umontreal.ca/) 

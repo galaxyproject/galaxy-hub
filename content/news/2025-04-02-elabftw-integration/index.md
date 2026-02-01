@@ -4,13 +4,17 @@ date: "2025-04-02"
 tease: "Bring data to Galaxy straight from the lab."
 hide_tease: false
 authors: José Manuel Domínguez
-authors_structured:
-- github: kysrpex
 subsites: [eu, esg]
 tags: [esg, esg-wp2]
 supporters:
   - eurosciencegateway
   - unifreiburg
+contributions:
+  authorship:
+    - kysrpex
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 [eLabFTW](https://www.elabftw.net/) is a free and open source electronic lab notebook from

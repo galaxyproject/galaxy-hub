@@ -5,11 +5,14 @@ tease: ''
 tags: [grants]
 supporters:
 - elixir
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - elixir-europe
 ---
 
 The ELIXIR Board has approved the Commissioned Services proposed by several Platforms and Communities in which Galaxy is involved. These Commissioned Services are technical projects that guide future service development funded by ELIXIR.

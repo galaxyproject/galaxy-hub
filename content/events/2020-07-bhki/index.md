@@ -12,4 +12,8 @@ external_url: "https://docs.google.com/forms/d/e/1FAIpQLSdzdwCDd3wg--RfGJff54sz1
 gtn: true
 contact: "Peter van Heusden"
 subsites: [global, us]
+contributions:
+  authorship:
+    - pvanheus
+
 ---

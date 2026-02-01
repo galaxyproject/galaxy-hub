@@ -13,4 +13,8 @@ external_url: "https://nordicesmhub.github.io/forces-2021/"
 contact: "Anne Fouilloux"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - annefou
+
 ---

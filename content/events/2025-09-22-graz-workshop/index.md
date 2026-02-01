@@ -12,6 +12,14 @@ tags: [workshop, training]
 supporters:
 - University of Graz
 subsites: [all]
+contributions:
+  authorship:
+    - Nilchia
+    - pavanvidem
+    - sebastian-preissl
+  funding:
+    - uni-graz
+
 ---
 
 # General information

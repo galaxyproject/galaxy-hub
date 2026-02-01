@@ -8,6 +8,9 @@ location:
   name: Barcelona, ES
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
 ---
 
 ![biohackathon logo](./bhlogolightnotx.png)

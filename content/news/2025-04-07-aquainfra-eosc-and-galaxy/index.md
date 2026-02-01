@@ -11,6 +11,11 @@ supporters:
 - eu
 - eosc
 subsites: [all, esg, eu]
+contributions:
+  funding:
+    - eurosciencegateway
+    - deNBI
+    - uni-freiburg
 ---
 The [April 2025](https://cms.aquainfra.eu/files/AquaINFRA%20Newsletter%20April%202025%20V1.0.pdf) issue of [AquaINFRA](https://aquainfra.eu/)'s 
 newsletter provided an overview of the goals, objectives, and accomplishments 

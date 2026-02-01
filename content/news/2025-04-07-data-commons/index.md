@@ -4,8 +4,17 @@ date: "2025-04-07"
 tease: "Galaxy is participating in the EOSC Data Commons project to make Science more accessible and reusable across Europe."
 tags: [eosc, meeting, datacommons, outreach, collaboration]
 supporters: [eosc, egi, unifreiburg, datacommons, eu]
+authors_structured:
+- name: ""
+- github: ""
 subsites: [all]
 main_subsite: eu
+contributions:
+  funding:
+    - eosc-life
+    - egi
+    - uni-freiburg
+    - datacommons
 ---
 
 From 7th to 9th of April 2025, Björn Grüning and Armin Dadras attended the [kick-off meeting of the EOSC Data Commons project](https://www.egi.eu/article/eosc-data-commons-kicks-off-to-boost-open-science-in-europe/), a [EU-funded initiative (Grant No. 101188179)](https://cordis.europa.eu/project/id/101188179) aimed at enhancing research data discovery, access, and reuse across Europe. As part of [the European Galaxy team](https://usegalaxy-eu.github.io/people), we are excited to contribute our expertise in scalable, user-friendly data analysis to this collaborative effort.

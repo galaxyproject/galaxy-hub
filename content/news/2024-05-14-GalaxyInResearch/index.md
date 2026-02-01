@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-05-14"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # Galaxy in Research: Exploring the Hidden World of Antarctic Toxins with Galaxy

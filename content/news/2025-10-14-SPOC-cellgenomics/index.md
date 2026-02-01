@@ -1,6 +1,6 @@
 ---
 title: 'New Publication "Galaxy single-cell & spatial omics community update: Navigating new frontiers in 2025"'
-authors: Diana Alejandra Chiang Jurado
+authors: Diana Chiang Jurado
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-14'
@@ -11,6 +11,9 @@ tags:
 - single-cell
 - spatial-omics
 - galaxy
+contributions:
+  authorship:
+    - dianichj
 ---
 
 We’re thrilled to share our new publication in *Cell Genomics*:  

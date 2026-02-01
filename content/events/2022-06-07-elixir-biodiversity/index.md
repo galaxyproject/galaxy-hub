@@ -18,6 +18,22 @@ tags: [training]
 supporters:
 - elixir
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - abretaud
+    - beatrizserrano
+    - bebatut
+    - bgruening
+    - frederikcoppens
+    - hexylena
+    - nsoranzo
+    - poterlowicz-lab
+    - shiltemann
+    - supernord
+    - yvanlebras
+  funding:
+    - elixir-europe
+
 ---
 
 Part of ELIXIR All Hands meeting.

@@ -10,6 +10,13 @@ supporters:
   - unifreiburg
   - elixir
 author_github: beatrizserrano
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 
 The week of the 3-7 October 2022, the European Galaxy Days took place in Freiburg. We held 3 events in a very intense week!

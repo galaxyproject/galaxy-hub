@@ -16,4 +16,9 @@ links:
     url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19#session1" 
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - frederikcoppens
+    - nekrut
+
 ---

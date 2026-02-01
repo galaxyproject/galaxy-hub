@@ -5,6 +5,9 @@ authors: Polina Polunina
 tease: "Galaxy empowered research in SARS-CoV-2 surveillance in wastewater"
 hide_tease: true
 subsites: [all-eu,global]
+contributions:
+  authorship:
+    - plushz
 ---
 
 ## Galaxy and workflows: advancing SARS-CoV-2 genomic surveillance in wastewater

@@ -5,6 +5,9 @@ tease: "We are thrilled to announce, that thanks to the help of the Bioconductor
 hide_tease: false
 authors: Paul Zierep 
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - paulzierep
 ---
 
 # Shiny phyloseq interactive tool (IT)

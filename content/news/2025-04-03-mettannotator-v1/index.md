@@ -5,6 +5,9 @@ tease: "Improving Galaxy-based prokaryotic genome annotation by porting and exte
 hide_tease: false
 authors: Gaurav Sharma
 subsites: [eu,all,global]
+contributions:
+  authorship:
+    - gauravsharma
 ---
 
 ## MGnify Mettannotator Pipeline v1.0

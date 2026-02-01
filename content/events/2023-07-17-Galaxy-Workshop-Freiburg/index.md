@@ -13,6 +13,13 @@ supporters:
 - dataplant
 - eurosciencegateway
 subsites: [all, esg]
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - eurosciencegateway
+    - nfdi4plants
+
 ---
 
 # General information

@@ -12,4 +12,8 @@ gtn: false
 contact: Maria Doyle
 image: /images/logos/BioconductorLogo.gif
 subsites: [global, us]
+contributions:
+  authorship:
+    - mblue9
+
 ---

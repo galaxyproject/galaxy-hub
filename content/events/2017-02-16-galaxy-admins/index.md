@@ -11,6 +11,11 @@ image: /images/logos/GlasgowPolyomics.jpg
 external_url: /community/galaxy-admins/meetups/2017-02-16/
 contact: Nuwan Goonasekera, Enis Afgan
 subsites: [global, us]
+contributions:
+  authorship:
+    - afgane
+    - nuwang
+
 ---
 Additional Resources:
 

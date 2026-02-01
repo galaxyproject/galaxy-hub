@@ -11,6 +11,11 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The first [CarpentryCon](https://www.carpentrycon.org/) will be held in Dublin. CarpentryCon is the key community-building and networking event in The Carpentries' annual calendar of activities. This event will bring together newer and more experienced Carpentry community members to share knowledge, to network, to develop new skills, and to develop strategies for building strong local communities.

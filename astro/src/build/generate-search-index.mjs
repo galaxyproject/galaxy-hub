@@ -77,6 +77,7 @@ function processFile(filePath, collection) {
     title: frontmatter.title || '',
     slug: frontmatter.slug,
     path: `/${frontmatter.slug}/`,
+    external_url: frontmatter.external_url || null,
     excerpt,
     tease: frontmatter.tease || '',
     tags: frontmatter.tags || [],

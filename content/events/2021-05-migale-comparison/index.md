@@ -13,6 +13,11 @@ gtn: true
 contact: Valentin Loux, Hélène Chiapello
 tags: []
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - hchiapello
+    - vloux
+
 ---
 
 Part of Cycle "Bioinformatique par la pratique" 2021

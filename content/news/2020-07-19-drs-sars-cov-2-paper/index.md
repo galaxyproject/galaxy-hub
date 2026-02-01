@@ -13,6 +13,13 @@ supporters:
 - biodaten
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - uni-freiburg
+    - crc992
+    - elixir-europe
+    - biodaten
 ---
 
 

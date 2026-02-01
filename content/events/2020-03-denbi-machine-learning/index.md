@@ -12,4 +12,9 @@ external_url: "https://usegalaxy-eu.github.io/event/2020-01-21-MachineLearning/p
 contact: "Alireza Khanteymoori, Anup Kumar"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - anuprulez
+    - khanteymoori
+
 ---

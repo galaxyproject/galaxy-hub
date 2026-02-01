@@ -33,10 +33,8 @@ const { supporters = [], title = 'Supporters' } = Astro.props;
       <div class="supporter-grid">
         {supporters.map((supporter) => (
           <a
-            href={supporter.website || '#'}
-            class:list={['supporter-card', { 'pointer-events-none': !supporter.website }]}
-            target={supporter.website ? '_blank' : undefined}
-            rel={supporter.website ? 'noopener noreferrer' : undefined}
+            href={supporter.slug ? `/hall-of-fame/${supporter.slug}/` : '#'}
+            class="supporter-card"
             data-supporter-card
           >
             <div class="supporter-media">

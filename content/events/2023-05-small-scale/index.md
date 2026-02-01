@@ -9,6 +9,10 @@ gtn: false
 contact: Lucille Delisle
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - lldelisle
+
 ---
 
 Please <a href="https://epfl.zoom.us/j/69775900853?pwd=R1gzbllUZzg0RFUrM0Mzd2MvczE3Zz09">join us</a> 

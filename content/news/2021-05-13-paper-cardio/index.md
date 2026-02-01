@@ -8,6 +8,9 @@ supporters:
 - crc1425
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - crc1425
 ---
 
 Ana Simon-Chica and colleagues from SFB 1452 have published a paper using Galaxy to analyse the sequencing data. Congratulations and thanks for using Galaxy!

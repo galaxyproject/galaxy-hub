@@ -23,6 +23,11 @@ supporters:
 hidefooter: true
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 ~~We are offering a Galaxy workshop on **single cell RNA-seq data analysis**. 39 participants will be selected from all applicants.

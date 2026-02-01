@@ -8,6 +8,9 @@ source_blog: ""
 source_blog_url: ""
 autotoc: false
 site: InterGalactic Ministry of Truth
+contributions:
+  authorship:
+    - fubar2
 ---
 
 Galaxy is an open science computing project, with a large and active global community, that invites users and developers to [join in](../../community/contributing) and help make the project even better.

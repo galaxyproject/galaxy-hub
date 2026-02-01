@@ -12,4 +12,8 @@ gtn: false
 contact: "Elli Papadopoulou, Alexandros Dimopoulos, Thanasis Vergoulis, Fotis Psomopoulos"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - fpsom
+
 ---

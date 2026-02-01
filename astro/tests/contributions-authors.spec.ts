@@ -20,4 +20,18 @@ test.describe('Contributions authors precedence', () => {
     await page.goto('/hall-of-fame/anuprulez/');
     await expect(page.getByRole('heading', { level: 1, name: 'Anup Kumar' })).toBeVisible();
   });
+
+  test('legacy authors field is ignored when no contributions are present', async ({ page }) => {
+    await page.goto('/news/2024-09-02-chat-gpt/');
+
+    // Header should not render author links when only legacy authors are provided
+    await expect(page.locator('header.page-header a[href^="/hall-of-fame/"]')).toHaveCount(0);
+  });
+
+  test('supporters are rendered from contributions.funding', async ({ page }) => {
+    await page.goto('/news/2025-11-20-tools-sig/');
+
+    const supporters = page.locator('[data-supporter-card]');
+    await expect(supporters).toHaveCount(2);
+  });
 });

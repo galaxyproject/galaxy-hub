@@ -8,9 +8,15 @@ date: '2025-09-17'
 tags:
 - microbiology
 title: 'How Galaxy is Unlocking the Secrets of Microbes: From Health to Ecosystems'
-authors: Bérénice Batut, Engy Nasr, Nikolaos Strepis, Nikos Pechlivanis
+authors: [Bérénice Batut, Engy Nasr, Nikolaos Strepis, Nikos Pechlivanis]
 tease: "Microbes—bacteria, fungi, viruses, and archaea—are invisible to the naked eye, but their impact is everywhere. They shape our health, drive Earth's ecosystems, and even influence the climate. Thanks to Galaxy and the Microbiology Galaxy Lab, researchers worldwide are unlocking the secrets of these microscopic powerhouses, leading to breakthroughs in medicine, ecology, and sustainability."
 hide_tease: true
+contributions:
+  authorship:
+    - bebatut
+    - EngyNasr
+    - nikolaosstrepis
+    - npechl
 ---
 
 <img src="illustration.png" style="float: left; max-width: 200px; margin: 20px 30px 10px 20px;" alt="This illustration depicts a scientist in a laboratory setting, surrounded by colorful graphical representations of microorganisms and biological elements, emphasizing the field of microbial research and bioinformatics. The scientist, working on a computer displaying data analysis graphs, is framed by various icons including bacteria, viruses, DNA strands, and microbes, symbolizing the diversity of microbial life and genetic study. A magnifying glass focusing on a DNA helix highlights the importance of genomic analysis and sequencing in this research. The overall image conveys the integration of technology and biology to explore and understand microbial ecosystems, genetic information, and their implications for health and science." />

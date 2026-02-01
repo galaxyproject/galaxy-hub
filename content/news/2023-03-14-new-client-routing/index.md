@@ -3,12 +3,15 @@ title: 'Enjoy a much faster user interface'
 date: '2023-03-14'
 tease: Following up on our modernization efforts, we now introduce a single top-router written in Vue, which brings all our Vue components together in a seamless user experience, dramatically reducing the number of required page reloads when navigating the Galaxy user interface.
 authors: Aysam Guerler
-authors_structured:
-- github: guerler
 tags: [client, routing]
 subsites: [global, all, esg]
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - guerler
+  funding:
+    - eurosciencegateway
 ---
 
 Five years ago, we embarked on a journey to transform our client application from a mix of backend-generated Mako and frontend-based Backbone.js to a single consistent Vue framework. We made significant strides towards this goal in the last years, particularly by rewriting major components such as the History, the Tool Panel, the Workflow Editor and all Input Forms, which all received major upgrades with this new 23.0 release.

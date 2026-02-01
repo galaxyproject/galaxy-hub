@@ -143,23 +143,32 @@ function needsVueProcessing(content, frontmatter, filePath = '') {
 async function copyAssets(sourceDir, slug) {
   const assetExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.pdf', '.mp4', '.webm'];
 
-  try {
-    const files = await fs.promises.readdir(sourceDir);
-
-    for (const file of files) {
-      const ext = path.extname(file).toLowerCase();
-      if (assetExtensions.includes(ext)) {
-        const sourcePath = path.join(sourceDir, file);
-        const destDir = path.join(PUBLIC_IMAGES_DIR, slug);
-        const destPath = path.join(destDir, file);
-
-        await fs.promises.mkdir(destDir, { recursive: true });
-        await fs.promises.copyFile(sourcePath, destPath);
-      }
+  async function walk(current, relative = '') {
+    let entries = [];
+    try {
+      entries = await fs.promises.readdir(current, { withFileTypes: true });
+    } catch {
+      return;
     }
-  } catch {
-    // Directory might not exist or have no assets
+
+    for (const entry of entries) {
+      const entryPath = path.join(current, entry.name);
+      const relPath = path.join(relative, entry.name);
+      if (entry.isDirectory()) {
+        await walk(entryPath, relPath);
+        continue;
+      }
+      const ext = path.extname(entry.name).toLowerCase();
+      if (!assetExtensions.includes(ext)) continue;
+
+      const destDir = path.join(PUBLIC_IMAGES_DIR, slug, path.dirname(relPath));
+      const destPath = path.join(destDir, path.basename(entry.name));
+      await fs.promises.mkdir(destDir, { recursive: true });
+      await fs.promises.copyFile(entryPath, destPath);
+    }
   }
+
+  await walk(sourceDir);
 }
 
 /**

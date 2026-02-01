@@ -13,4 +13,8 @@ gtn: false
 contact: "Gareth Price"
 subsites: [global, us]
 tags: [covid-19, australia, pulsar]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+
 ---

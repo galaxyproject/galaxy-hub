@@ -4,8 +4,14 @@ diseases'
 date: '2024-07-26'
 tease: "The Galaxy Project has found its way into the practices of a leading medical institution in Bologna, Italy"
 hide_tease: false
-authors: "Serena Lorenzini, Giuseppe Profiti, Federica Isidori, Tommaso Pippucci"
+authors: [Serena Lorenzini, Giuseppe Profiti, Federica Isidori, Tommaso Pippucci]
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - serenalorenzini
+    - profgiuseppe
+    - federicaisidori
+    - tommasopippucci
 ---
 
 The [Galaxy Project](https://galaxyproject.org/) has found its way into the practices of [IRCCS

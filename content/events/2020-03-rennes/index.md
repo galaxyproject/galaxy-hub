@@ -12,4 +12,8 @@ gtn: true
 contact: "Yvan Le Bras"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - yvanlebras
+
 ---

@@ -12,4 +12,9 @@ gtn: false
 contact: "Anup Kumar, Kaivan Kamali, Leyla Jael Castro, Fotis E. Psomopoulos and Björn Grüning"
 image:
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - anuprulez
+    - kxk302
+
 ---

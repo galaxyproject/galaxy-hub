@@ -12,4 +12,8 @@ gtn: false
 contact: "Björn Grüning"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - bgruening
+
 ---

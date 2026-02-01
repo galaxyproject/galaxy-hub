@@ -7,6 +7,9 @@ date: "2024-07-24"
 subsites: [global,all]
 tags: [newsletter, outreach]
 supporters: [eosc, eu, unifreiburg, esg, elixir]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 ![Galaxy News Logo](GalaxyNews.png)
 

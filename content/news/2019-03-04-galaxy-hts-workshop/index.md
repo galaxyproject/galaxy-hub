@@ -4,11 +4,12 @@ date: '2019-03-04'
 location:
   name: Freiburg, Germany
 tags: [training]
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 Last week, the Freiburg Galaxy team taught a 5-day workshop on HTS data analysis in Freiburg!

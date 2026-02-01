@@ -11,5 +11,10 @@ image: kthrd.png
 gtn: true
 contact: Mallory Freeberg, Mo Heydarian
 subsites: [global, us]
+contributions:
+  authorship:
+    - malloryfreeberg
+    - moheydarian
+
 ---
 A Galaxy workshop at KTHRD in Daejeon, South Korea

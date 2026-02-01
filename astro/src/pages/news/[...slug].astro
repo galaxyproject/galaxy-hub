@@ -44,7 +44,7 @@ const { title, date, tags = [], tease, image, external_url, autotoc } = article.
 if (external_url) {
   return Astro.redirect(external_url);
 }
-const supporters = await resolveSupporters(fundingIds.length > 0 ? fundingIds : articleData.supporters);
+const supporters = await resolveSupporters(fundingIds);
 
 // MDX components map
 const components = {

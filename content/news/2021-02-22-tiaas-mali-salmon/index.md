@@ -5,10 +5,14 @@ tags: [training, tiaas]
 supporters:
 - galaxy-europe
 authors: Mali Salmon-Divon
-authors_structured:
-- name: Mali Salmon-Divon
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - malisalmondivon
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 During January 2021, I led two Galaxy workshops; the first was for 20 Graduate students and lasted for five days from 9 am-2 pm. The students learned how to use the Galaxy platform to perform basic text processing and RNA-seq analysis. Their final project was to use Galaxy to analyze RNA-seq data related to their research.

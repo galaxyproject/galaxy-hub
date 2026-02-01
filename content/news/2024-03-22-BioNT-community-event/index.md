@@ -7,6 +7,9 @@ hide_tease: false
 tags: [training]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - teresa-m
 ---
 
 The GTN is part of the BioNT consortium, an initiative developing a training curriculum for job-seekers and SMEs in the biotech and life science industry sector. One of the consortium's planned initiatives is a community event to actively learn, share new skills, and connect with other learning communities. BioNT will hold this event together with CarpentryConnect in Heidelberg from the 12th to the 14th of November 2024 (CCHD24). Get more information on the [event website](https://biont-training.eu/event-details/CarpentryConnect2024)

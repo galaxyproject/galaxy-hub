@@ -16,6 +16,19 @@ supporters:
 subsites: [all-eu, global, us, esg]
 tags: [gcc, CoFest, training, Elixir, EOSC, Brno, esg, esg-wp1, meeting, outreach, talk]
 main_subsite: eu
+contributions:
+  authorship:
+    - freiburggalaxyteam
+  funding:
+    - JXTXFoundation
+    - Worfklow4Metabelomics
+    - GalaxyWorks
+    - GigaScience
+    - KWS
+    - Limagrain
+    - deNBI
+    - uni-freiburg
+    - eurosciencegateway
 ---
 
 The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024.

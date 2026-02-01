@@ -8,6 +8,9 @@ supporters:
 - unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - uni-freiburg
 ---
 
 _Abstract_ -  The vast ecosystem of single-cell RNA-sequencing tools has until recently been plagued by an excess of diverging analysis strategies, inconsistent file formats, and compatibility issues between different software suites. The uptake of 10x Genomics datasets has begun to calm this diversity, and the bioinformatics community leans once more towards the large computing requirements and the statistically driven methods needed to process and understand these ever-growing datasets.

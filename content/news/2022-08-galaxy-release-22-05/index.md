@@ -3,7 +3,10 @@ title: 'Galaxy Release 22.05'
 tease: New History, Storage Dashboard, Bulk History Operations, Deferred Datasets, OpenAPI & much more!
 date: '2022-08-23'
 subsites: [global, us]
-authors: Helena (@hexylena)
+authors: Helena Rasche
+contributions:
+  authorship:
+    - hexylena
 ---
 
 Dear Community,

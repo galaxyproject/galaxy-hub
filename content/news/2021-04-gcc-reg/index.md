@@ -4,8 +4,11 @@ date: '2021-04-14'
 tease: Please join us at Galaxy's annual community gathering
 external_url: ''
 tags: [newsletter, galaxy]
-authors: tnabtaf
+authors: Dave Clements
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - tnabtaf
 ---
 
 <small>Updated May 29th 2021</small>

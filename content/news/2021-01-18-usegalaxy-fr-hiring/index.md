@@ -2,11 +2,12 @@
 title: UseGalaxy.fr is hiring
 date: '2021-01-18'
 tags: [jobs, devops, galaxy]
-authors: lecorguille
-authors_structured:
-- github: lecorguille
+authors: Gildas Le Corguillé
 subsites: [eu, ifb, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - lecorguille
 ---
 
 <br>

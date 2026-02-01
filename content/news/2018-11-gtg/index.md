@@ -5,4 +5,7 @@ tease: "A web application for developing Galaxy tools through web interfaces"
 authors: "Ming Chen"
 external_url: "https://galaxy-tool-generator.readthedocs.io/en/latest/"
 source_blog: "Staton Lab"
+contributions:
+  authorship:
+    - mingchen
 ---

@@ -13,6 +13,10 @@ gtn: true
 contact: Olivier Inizan, Mouhamadou Ba
 tags: []
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - olivierinizan
+
 ---
 
 Part of Cycle "Bioinformatique par la pratique" 2021

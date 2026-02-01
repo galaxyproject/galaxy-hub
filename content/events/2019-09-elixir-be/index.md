@@ -12,4 +12,8 @@ gtn: false
 contact: "Frederik Coppens"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - frederikcoppens
+
 ---

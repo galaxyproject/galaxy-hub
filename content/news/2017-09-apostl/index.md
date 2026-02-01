@@ -6,4 +6,7 @@ authors: "Ben Orsburn"
 external_url: "http://proteomicsnews.blogspot.com/2017/09/apostl-staggering-number-of-galaxy-ap.html"
 source_blog_url: "http://proteomicsnews.blogspot.com/"
 source_blog: "News in Proteomics Research"
+contributions:
+  authorship:
+    - benorsburn
 ---

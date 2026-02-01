@@ -10,5 +10,10 @@ location_url: http://www.fda.gov/
 gtn: true
 contact: Mo Heydarian, Mallory Freeberg
 subsites: [global, us]
+contributions:
+  authorship:
+    - malloryfreeberg
+    - moheydarian
+
 ---
 A full-day hands-on Galaxy workshop the includes: An Introduction to Galaxy and Performing RNA-seq Analysis with Galaxy. Hosted by the U.S. Food & Drug Administration.

@@ -4,11 +4,12 @@ date: '2019-01-18'
 tags: [devops, downtime]
 location:
   name: Galaxy Europe
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - hexylena
 ---
 
 We had to clear the queue due to an emergency today. We had noticed that a

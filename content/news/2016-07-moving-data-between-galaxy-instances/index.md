@@ -6,6 +6,9 @@ authors: "Igor Makunin"
 external_url: "https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/"
 source_blog_url: "https://genomicsvirtuallab.wordpress.com/"
 source_blog: "Genomics Virtual Lab – Queensland"
+contributions:
+  authorship:
+    - igormakunin
 ---
 
 Also linked from primary Support FAQ hub under: [**Datasets and Histories**](/support/#datasets-and-histories)

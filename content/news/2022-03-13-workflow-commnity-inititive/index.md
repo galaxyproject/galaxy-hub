@@ -7,11 +7,17 @@ supporters:
 - crc992
 - denbi
 - elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 ![Workflow Community initiative](/assets/media/workflows-community-logo.png)

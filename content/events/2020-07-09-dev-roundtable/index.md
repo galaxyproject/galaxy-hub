@@ -16,6 +16,10 @@ links:
     url: "https://youtu.be/xQHcceFBBTs?t=104"
 tags: [ "devroundtable" ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - nekrut
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xQHcceFBBTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

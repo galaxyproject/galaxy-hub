@@ -14,6 +14,10 @@ gtn: true
 contact: Yvan Le Bras
 tags: [training]
 subsites: [belgium, global, eu, genouest, us, pasteur]
+contributions:
+  authorship:
+    - yvanlebras
+
 ---
 
 Le module Galaxy vise à présenter l’environnement Galaxy, convivial d’utilisation pour celles et ceux qui seraient réfractaires à la programmation sous UNIX et R, et à vous accompagner dans sa prise en main. 

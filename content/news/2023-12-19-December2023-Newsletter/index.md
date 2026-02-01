@@ -5,6 +5,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2023-12-19"
 tags: [tiaas, newsletter, year-in-review]
 subsites: [global, all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 ![Galaxy Newsletter Logo](GalaxyNews.png)
