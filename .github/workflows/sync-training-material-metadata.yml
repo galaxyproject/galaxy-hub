@@ -25,9 +25,9 @@ jobs:
           curl -o content/CONTRIBUTORS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/CONTRIBUTORS.yaml
           curl -o content/ORGANISATIONS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/ORGANISATIONS.yaml
           curl -o content/GRANTS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/GRANTS.yaml
-          curl -o content/schema-contributors.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/schema-contributors.yaml
-          curl -o content/schema-grants.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/schema-grants.yaml
-          curl -o content/schema-organisations.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/schema-organisations.yaml
+          curl -o content/schema-contributors.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/bin/schema-contributors.yaml
+          curl -o content/schema-grants.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/bin/schema-grants.yaml
+          curl -o content/schema-organisations.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/bin/schema-organisations.yaml
 
       - name: Check for changes
         id: check-changes
