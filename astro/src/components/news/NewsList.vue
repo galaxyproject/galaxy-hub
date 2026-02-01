@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface NewsArticle {
   slug: string;
@@ -10,6 +11,7 @@ interface NewsArticle {
   tease?: string;
   tags?: string[];
   subsites?: string[] | string;
+  externalUrl?: string;
 }
 
 const props = defineProps<{
@@ -226,6 +228,7 @@ function buildUrl(slug: string): string {
         <a :href="buildUrl(article.slug)" class="group block">
           <h2 class="text-xl font-semibold text-gray-900 group-hover:text-galaxy-primary transition-colors mb-2">
             {{ article.title || 'Untitled' }}
+            <ExternalIcon v-if="article.externalUrl" :href="article.externalUrl" />
           </h2>
           <time v-if="article.date" class="text-sm text-gray-500 mb-2 block">
             {{ formatDate(article.date) }}

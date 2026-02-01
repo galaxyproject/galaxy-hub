@@ -18,7 +18,7 @@ import Contacts from '../../components/mdx/Contacts.astro';
 import Insert from '../../components/mdx/Insert.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
-import { extractFunding } from '../../utils/contributors';
+import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 
 export async function getStaticPaths() {
@@ -44,7 +44,9 @@ if (external_url) {
 }
 const eventData = event.data as Record<string, unknown>;
 const fundingIds = extractFunding(eventData);
-const supporters = await resolveSupporters(fundingIds.length > 0 ? fundingIds : eventData.supporters);
+const supporters = await resolveSupporters(fundingIds);
+const authorIds = extractAuthors(eventData);
+const displayAuthors = authorIds.map(resolveAuthor);
 
 // MDX components map
 const components = {
@@ -158,7 +160,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/master/content
 
 <BaseLayout title={title || 'Event'} description={tease}>
   <article class="max-w-6xl mx-auto bg-white relative">
-    <PageHeader title={title || 'Event'} description={tease} tags={tags}>
+    <PageHeader title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
       {/* Event-specific metadata */}
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
         {

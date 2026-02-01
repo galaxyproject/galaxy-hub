@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { getTagIndex } from '../../utils/tagIndex';
+import ExternalIcon from '../../components/common/ExternalIcon.vue';
 
 export async function getStaticPaths() {
   const index = await getTagIndex();
@@ -112,6 +113,7 @@ function formatDate(date: Date | string | undefined): string {
                     <a href={`/${event.data.slug}/`} class:list={['block group', { hidden: idx >= 20 }]} data-item>
                       <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
                         {event.data.title}
+                        {event.data.external_url && <ExternalIcon href={event.data.external_url} />}
                       </h3>
                       {event.data.tease && <p class="text-sm text-gray-500 mt-1 line-clamp-2">{event.data.tease}</p>}
                       <time class="text-sm text-gray-400">{formatDate(event.data.date)}</time>

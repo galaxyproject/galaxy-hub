@@ -266,27 +266,21 @@ export function toArray(value: unknown): string[] {
 
 /**
  * Extract author identifiers from content entry data.
- * Prefers contributions.authorship/authors over legacy authors field.
  */
 export function extractAuthors(data: Record<string, unknown>): string[] {
   const contrib = (data.contributions as Record<string, unknown>) || {};
   const contributionAuthors = [
     ...toArray(contrib.authorship),
-    ...toArray(contrib.authors),
     ...toArray(contrib.author),
     ...toArray(contrib.contributors),
   ].filter(Boolean);
 
-  if (contributionAuthors.length > 0) {
-    return contributionAuthors;
-  }
-
-  return [...toArray(data.authors), ...toArray(data.authors_structured)].filter(Boolean);
+  return contributionAuthors;
 }
 
 /**
  * Extract funding/supporter identifiers from content entry data.
- * Prefers contributions.funding over legacy supporters field.
+ * Uses explicit contribution metadata; ignores legacy supporters.
  */
 export function extractFunding(data: Record<string, unknown>): string[] {
   const contrib = (data.contributions as Record<string, unknown>) || {};
@@ -297,11 +291,7 @@ export function extractFunding(data: Record<string, unknown>): string[] {
     ...toArray(data.data),
   ].filter(Boolean);
 
-  if (funding.length > 0) {
-    return funding;
-  }
-
-  return toArray(data.supporters).filter(Boolean);
+  return funding;
 }
 
 /**

@@ -18,6 +18,8 @@ supporters:
   - de.NBI
 subsites: [global, us, eu, esg]
 contributions:
+  authorship:
+    - martenson
   funding:
     - cesnet
     - deKCD
