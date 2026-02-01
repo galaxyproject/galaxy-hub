@@ -52,10 +52,33 @@ function slugsDiffer(natural, legacy) {
 }
 
 /**
- * Read slugs from preprocessed content files
+ * Extract a frontmatter field value, handling single-line and multi-line YAML
  */
-async function getContentSlugs() {
+function extractFrontmatterField(content, fieldName) {
+  // Try single-line format first
+  const singleLineMatch = content.match(new RegExp(`^${fieldName}:\\s*([^\\n>|]+)$`, 'm'));
+  if (singleLineMatch) {
+    const value = singleLineMatch[1].trim().replace(/^['"]|['"]$/g, '');
+    if (value && !value.startsWith('>') && !value.startsWith('|')) {
+      return value;
+    }
+  }
+
+  // Try multi-line format (>- or |-)
+  const multiLineMatch = content.match(new RegExp(`^${fieldName}:\\s*[>|]-?\\s*\\n\\s+(.+)$`, 'm'));
+  if (multiLineMatch) {
+    return multiLineMatch[1].trim();
+  }
+
+  return null;
+}
+
+/**
+ * Read slugs and content-level redirects from preprocessed content files
+ */
+async function getContentData() {
   const slugs = [];
+  const contentRedirects = {};
   const collections = ['events', 'articles', 'platforms', 'bare-articles'];
 
   for (const collection of collections) {
@@ -70,27 +93,20 @@ async function getContentSlugs() {
         const filePath = path.join(collectionDir, file);
         const content = await fs.promises.readFile(filePath, 'utf-8');
 
-        // Extract slug from frontmatter - handle both single-line and multi-line YAML
-        // Single line: slug: news/some-slug
-        // Multi-line: slug: >-\n  news/some-slug
-        let slug = null;
+        const slug = extractFrontmatterField(content, 'slug');
+        const redirect = extractFrontmatterField(content, 'redirect');
 
-        // Try single-line format first
-        const singleLineMatch = content.match(/^slug:\s*([^\n>|]+)$/m);
-        if (singleLineMatch) {
-          slug = singleLineMatch[1].trim().replace(/^['"]|['"]$/g, '');
-        }
-
-        // Try multi-line format (>- or |-)
-        if (!slug || slug === '>-' || slug === '|-' || slug === '>' || slug === '|') {
-          const multiLineMatch = content.match(/^slug:\s*[>|]-?\s*\n\s+(.+)$/m);
-          if (multiLineMatch) {
-            slug = multiLineMatch[1].trim();
+        if (slug && slug.length > 0) {
+          // If this content has a redirect, add it to content redirects
+          if (redirect) {
+            const fromPath = `/${slug}/`.replace(/\/+/g, '/');
+            const toPath = redirect.startsWith('/') ? redirect : `/${redirect}`;
+            const normalizedTo = toPath.endsWith('/') ? toPath : `${toPath}/`;
+            contentRedirects[fromPath] = normalizedTo;
+          } else {
+            // Only add to slugs if it's not a redirect-only page
+            slugs.push(slug);
           }
-        }
-
-        if (slug && slug.length > 0 && !slug.startsWith('>') && !slug.startsWith('|')) {
-          slugs.push(slug);
         }
       }
     } catch {
@@ -98,7 +114,7 @@ async function getContentSlugs() {
     }
   }
 
-  return slugs;
+  return { slugs, contentRedirects };
 }
 
 /**
@@ -117,15 +133,15 @@ async function getManualRedirects() {
  * Main function to generate redirects
  */
 async function generateRedirects() {
-  console.log('Generating legacy URL redirects...');
+  console.log('Generating redirects...');
 
   const redirects = {};
 
-  // Get all content slugs
-  const slugs = await getContentSlugs();
+  // Get all content slugs and content-level redirects
+  const { slugs, contentRedirects } = await getContentData();
   console.log(`Found ${slugs.length} content slugs`);
 
-  // Generate redirects for legacy URLs
+  // Generate redirects for legacy URLs (Gridsome-style -> natural Astro URLs)
   let legacyCount = 0;
   for (const slug of slugs) {
     const legacySlug = legacyNormalize(slug);
@@ -140,6 +156,14 @@ async function generateRedirects() {
   }
 
   console.log(`Generated ${legacyCount} legacy URL redirects`);
+
+  // Add content-level redirects (from redirect: frontmatter)
+  const contentRedirectCount = Object.keys(contentRedirects).length;
+  for (const [from, to] of Object.entries(contentRedirects)) {
+    redirects[from] = to;
+  }
+
+  console.log(`Added ${contentRedirectCount} content-level redirects`);
 
   // Add manual redirects from config.json
   const manualRedirects = await getManualRedirects();
