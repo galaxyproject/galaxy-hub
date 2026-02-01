@@ -1,0 +1,107 @@
+---
+type: map
+_examples: |
+    2025-10-07-spoc_meet:
+        title: Single-cell & sPatial Omics Community Meeting
+        date: 2025-10-07
+        days: 1
+        continent: GL
+        subsites: [all-eu, global, us]
+        location:
+            name: Online, Global
+mapping:
+    "=":
+        type: map
+        mapping:
+            title:
+                type: str
+                description: Event title
+            date:
+                type: any
+                description: Start date (YYYY-MM-DD)
+            end:
+                type: any
+                description: End date (optional, YYYY-MM-DD)
+            days:
+                type: int
+                description: Number of days
+            tease:
+                type: str
+            hide_tease:
+                type: bool
+            tags:
+                type: seq
+                sequence:
+                    - type: str
+                      enum:
+                          - TAGS
+            subsites:
+                type: seq
+                sequence:
+                    - type: str
+                      enum:
+                          - SUBSITES
+            main_subsite:
+                type: str
+                enum:
+                    - SUBSITES
+            continent:
+                type: str
+            gtn:
+                type: bool
+            contact:
+                type: str
+            contacts:
+                type: seq
+                sequence:
+                    - type: any
+            organizers:
+                type: seq
+                sequence:
+                    - type: str
+            organiser:
+                type: str
+            external_url:
+                type: str
+            externalurl:
+                type: str
+            image:
+                type: str
+            location_url:
+                type: str
+            site:
+                type: str
+            redirect:
+                type: str
+            skip_title_render:
+                type: bool
+            components:
+                type: bool
+            hidefooter:
+                type: bool
+            hide_metadata:
+                type: bool
+            rtl:
+                type: bool
+            autotoc:
+                type: bool
+            location:
+                type: any
+                description: Location as a string or map with name/city/region/country/lat/lon/url
+            links:
+                type: seq
+                sequence:
+                    - type: map
+                      mapping:
+                          text:
+                              type: str
+                          url:
+                              type: str
+            supporters:
+                type: seq
+                sequence:
+                    - type: str
+            starts:
+                type: any
+            ends:
+                type: any
