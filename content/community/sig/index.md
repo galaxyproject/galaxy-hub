@@ -343,7 +343,7 @@ Galaxy community in Switzerland.
 
 <!-- UK -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="">
+<a href="/community/sig/uk/">
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;UK</div>
 </a>
 
