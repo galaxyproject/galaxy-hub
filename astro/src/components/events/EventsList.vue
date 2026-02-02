@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
+import { marked } from 'marked';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
@@ -212,6 +213,10 @@ function getLocationText(location: EventData['location']): string {
 function buildUrl(slug: string): string {
   return `/${slug}/`;
 }
+
+function renderTease(tease?: string): string {
+  return tease ? marked.parseInline(tease) : '';
+}
 </script>
 
 <template>
@@ -246,7 +251,7 @@ function buildUrl(slug: string): string {
                   {{ event.title || 'Untitled Event' }}
                   <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                 </h3>
-                <p v-if="event.tease" class="text-gray-600 mt-1">{{ event.tease }}</p>
+                <p v-if="event.tease" class="text-gray-600 mt-1" v-html="renderTease(event.tease)"></p>
                 <p v-if="event.location" class="text-sm text-gray-500 mt-2 flex items-center gap-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
