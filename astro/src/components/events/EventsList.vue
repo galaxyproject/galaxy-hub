@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
-import { marked } from 'marked';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import { renderMarkdownInline } from '@/utils/markdown';
+import { formatDateRange } from '@/utils/dateUtils';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface EventData {
@@ -186,24 +187,6 @@ watch(selectedPastYear, (year) => {
   updateUrl(year);
 });
 
-function formatDate(date: string | undefined): string {
-  if (!date) return '';
-  return new Date(date).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
-}
-
-function formatDateRange(start: string | undefined, end?: string): string {
-  if (!start) return '';
-  const startDate = new Date(start);
-  if (!end) return formatDate(start);
-  const endDate = new Date(end);
-  if (startDate.getTime() === endDate.getTime()) return formatDate(start);
-  return `${formatDate(start)} - ${formatDate(end)}`;
-}
-
 function getLocationText(location: EventData['location']): string {
   if (!location) return '';
   if (typeof location === 'string') return location;
@@ -212,10 +195,6 @@ function getLocationText(location: EventData['location']): string {
 
 function buildUrl(slug: string): string {
   return `/${slug}/`;
-}
-
-function renderTease(tease?: string): string {
-  return tease ? marked.parseInline(tease) : '';
 }
 </script>
 
@@ -251,7 +230,7 @@ function renderTease(tease?: string): string {
                   {{ event.title || 'Untitled Event' }}
                   <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                 </h3>
-                <p v-if="event.tease" class="text-gray-600 mt-1" v-html="renderTease(event.tease)"></p>
+                <p v-if="event.tease" class="text-gray-600 mt-1" v-html="renderMarkdownInline(event.tease)"></p>
                 <p v-if="event.location" class="text-sm text-gray-500 mt-2 flex items-center gap-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
