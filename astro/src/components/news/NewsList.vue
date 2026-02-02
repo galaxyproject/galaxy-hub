@@ -2,6 +2,8 @@
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import { renderMarkdownInline } from '@/utils/markdown';
+import { formatDate } from '@/utils/dateUtils';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface NewsArticle {
@@ -140,17 +142,6 @@ function loadMore() {
   displayCount.value += pageSize;
 }
 
-function formatDate(dateStr: string | undefined): string {
-  if (!dateStr) return '';
-  const date = new Date(dateStr);
-  if (isNaN(date.getTime())) return '';
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
-}
-
 function buildUrl(slug: string): string {
   return `/${slug}/`;
 }
@@ -233,9 +224,7 @@ function buildUrl(slug: string): string {
           <time v-if="article.date" class="text-sm text-gray-500 mb-2 block">
             {{ formatDate(article.date) }}
           </time>
-          <p v-if="article.tease" class="text-gray-600">
-            {{ article.tease }}
-          </p>
+          <p v-if="article.tease" class="text-gray-600" v-html="renderMarkdownInline(article.tease)"></p>
           <div v-if="article.tags?.length" class="flex flex-wrap gap-2 mt-3">
             <span
               v-for="tag in article.tags.slice(0, 5)"

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
+import { formatDate } from '@/utils/dateUtils';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface SearchEntry {
@@ -86,17 +87,6 @@ const results = computed(() => {
     })
     .slice(0, 100);
 });
-
-function formatDate(dateStr: string): string {
-  if (!dateStr) return '';
-  const date = new Date(dateStr);
-  if (isNaN(date.getTime())) return '';
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
-}
 
 function getCollectionLabel(collection: string): string {
   const labels: Record<string, string> = {
