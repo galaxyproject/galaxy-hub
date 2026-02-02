@@ -55,8 +55,9 @@ In this blog post, we’d like to present a concrete example of collaboration be
 You can use Galaxy to analyse data from a wide range of sources, e.g. from DaSCH. 
 One of the datasets accessible at DaSCH is the “Bilderfolgen Basler Frühdrucke”. 
 It consists of 20 richly illustrated incunabula, i.e. scans of prints from the earliest stages of book printing, from the 15th century. 
+
 We picked the [Ship of Fools (Narrenschiff)](https://ark.dasch.swiss/ark:/72163/1/0803/cpQ3=JfqVZOkd7hUQ26kTg7.20110414T075758Z), a satirical allegory in German verse published in 1494 in Basel. 
-It was the most popular German book before the Reformation. 
+**It was the most popular German book before the Reformation.**
 It is a moral satire about 100 fools on a boat trip, which holds up a critical and satirical mirror to the world through an entertaining description of their vices and oddities. 
 While the book’s scans are very precious, their texts are not machine-readable, so they cannot be used for further analysis without retrieving a full-text from another source. 
 At this point, Galaxy comes in.
@@ -85,7 +86,7 @@ The [LLMHub](https://galaxyproject.org/news/2025-10-10-llm-hub/) allows running 
   <img src="image3.png" alt="The LLMHub showing configurations to set up NuMarkdown" width="600"/>
 </div>
 
-It returns the recognised text in Markdown format, so that the structure of the original text is maintained. One of NuMarkdown's strengths lies in its structured output. The reasoning steps are clearly separated from the actual answer by XML tags like <think> and <answer>.
+It returns the recognised text in Markdown format, so that the structure of the original text is maintained. One of NuMarkdown's strengths lies in its structured output. The reasoning steps are clearly separated from the actual answer by XML tags like \<think\> and \<answer\>.
 
 
 <div align="center">
