@@ -65,10 +65,54 @@ We created a workflow to make the scans from the incunabula machine-readable.
 The scans can be accessed by visiting [https://app.dasch.swiss/](https://app.dasch.swiss/), navigating to “Incunabula”, choosing “Book”, selecting “[Das] Narrenschiff (dt.)”, and then leafing through the pages. 
 The current analysis started with page 19. The link to an image can be obtained by clicking on “Share” and then “Copy IIIF URL to clipboard”.
 
-#todo continue here!
+<div align="center">
+  <img src="image1.png" alt="View of Ship of fools on DaSCH" width="600"/>
+</div>
+
+We can use the links from DaSCH to upload the images to Galaxy. To process all images in the same way, we create a collection of the 10 images we want to work with. 
 
 <div align="center">
-  <img src="preconfigured_dataverse.png" alt="Galaxy: preconfigured" width="600"/>
+  <img src="image4.png" alt="Ship of fools as a collection on Galaxy" width="600"/>
 </div>
+
+You can follow the steps described below in this [published history](https://usegalaxy.eu/u/schnda/h/transcription-with-llm-hub-dasch-example).
+And you can use [this workflow](https://usegalaxy.eu/u/schnda/w/transcription-narrenschiff-deutsch-dasch) if you want to reproduce the steps on Galaxy.
+
+There are many ways to perform optical character recognition (OCR) on images - here we only present one of several approaches offered in Galaxy.
+The [LLMHub](https://galaxyproject.org/news/2025-10-10-llm-hub/) allows running various open-source LLMs to extract text from images. We decided to use the NuMarkdown image model.
+
+<div align="center">
+  <img src="image3.png" alt="The LLMHub showing configurations to set up NuMarkdown" width="600"/>
+</div>
+
+It returns the recognised text in Markdown format, so that the structure of the original text is maintained. One of NuMarkdown's strengths lies in its structured output. The reasoning steps are clearly separated from the actual answer by XML tags like <think> and <answer>.
+
+
+<div align="center">
+  <img src="image6.png" alt="An example output after using LLMHub on the Ship of Fools" width="600"/>
+</div>
+
+This screenshot shows that the LLM's output is split between “thinking” and “answering”. This allows us to extract only the machine-readable text output and discard the other information the LLM provides, which is not relevant for us at this point.
+
+Steps 3 and 4 of the workflow, therefore, use Regular Expressions (RegEx) to select only the answer and discard the tags that show the LLMs' “thinking”.
+As a result, we get a machine-readable text of the ship of fools, as the image below shows. 
+
+<div align="center">
+  <img src="image2.png" alt="Cleaned output from LLMHub" width="600"/>
+</div>
+
+Depending on your needs, you can concatenate the 10 text files from the collection into a single document, apply additional analysis tools, or share your outputs. 
+
+The final workflow is reusable and available online. 
+The 4 steps from uploading via LLM Hub and two steps of RegEx look as follows:
+
+<div align="center">
+  <img src="image5.png" alt="Screenshot of the workflow editor showing the workflow used to make the ship of fools machine-readable" width="600"/>
+</div>
+
+# Conclusion
+
+What do you think about the interplay of research data repositories and analytics platforms? 
+Is there a dataset on DaSCH that has sparked your interest, so that you'd like to analyze it on Galaxy?
 
 ---
