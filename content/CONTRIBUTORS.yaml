@@ -1020,6 +1020,12 @@ jellescholtalbers:
     github: false
     joined: 2026-01
 
+jnussbaum:
+    gtn-halloffame: "no"
+    name: Johannes Nussbaum
+    github: true
+    joined: 2026-01
+
 jyotiprakashmohanty:
     gtn-halloffame: "no"
     name: Jyoti Prakash Mohanty
@@ -1370,7 +1376,7 @@ sarahmaman:
 
 Sch-Da:
     name: Daniela Schneider
-    joined: 2024-10
+    joined: 2024-06
     email: schneidd@informatik.uni-freiburg.de
     matrix: 'schn_da:matrix.org'
     orcid: 0000-0001-9536-5587
