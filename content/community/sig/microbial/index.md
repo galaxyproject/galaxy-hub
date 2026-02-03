@@ -193,3 +193,4 @@ We thank the **microGalaxy community** and the global **Galaxy community** of us
 | [Galaxy-P](https://galaxyp.org/) |  | Pratik Jagtap |
 | [IRIDA](https://irida.ca/) | Integrated Rapid Infectious Disease Analysis | Aaron Petkau |
 | [ABRomics](https://www.abromics.fr/) | French National Multi-Omics Platform for AMR Research | Bérénice Batut, Cléa Siguret |
+| [FAIRyMAGs](https://elixir-europe.org/how-we-work/scientific-programme/science/bfsp/fairymags) | FAIRyMAGs: Optimising Metagenomics Assembled Genomes building | Paul Zierep, Mina Hojat Ansari, Patrick Bühler, Santino Faack, Giuseppe Defazio, Bruno Fosso, Martin Beracochea, Santiago Sanchez, Alexandra Hottmann, Bérénice Batut |
