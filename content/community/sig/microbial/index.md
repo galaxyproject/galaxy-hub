@@ -49,10 +49,6 @@ The **MGL** is a specialized Galaxy extension designed for microbiology research
 - **Community-developed** and **FAIR-compliant** **workflows**.
 - **Quick access** to support and the microGalaxy community.
 
-**Key Benefits:**
-- **Full reproducibility** with Galaxy's built-in provenance tracking.
-- **Free access** to computational resources and storage on global Galaxy servers.
-
 **Ready to explore?**
 Log in with your Galaxy account on the server closest to you:
 - **United States:** [microbiology.usegalaxy.org](https://microbiology.usegalaxy.org)
