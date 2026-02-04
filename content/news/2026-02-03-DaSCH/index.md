@@ -4,7 +4,7 @@ date: "2026-02-03"
 tease: "We are happy to announce the collaboration between DaSCH, the Swiss National Data and Service Center for the Humanities, and the data analysis platform Galaxy."
 subsites: [global,eu,us]
 main_subsite: freiburg
-tags: [DaSCH, repositories, data-commons, workflow, eosc, OCR, LLMHub]
+tags: [DaSCH, repository, data-commons, workflow, eosc, OCR, LLMHub, numarkdown, incunabula, Narrenschiff]
 contributions:
   authorship:
     - jnussbaum
