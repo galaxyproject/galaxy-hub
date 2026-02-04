@@ -49,7 +49,7 @@ The idea of connecting research data infrastructures isn’t new, but only recen
 The ambition of EOSC is to develop a ‘Web of FAIR Data and Services’ for science in Europe. This is achieved by a long-term process of alignment and coordination between existing infrastructures, like DaSCH or Galaxy. 
 In this blog post, we’d like to present a concrete example of collaboration between these two. So let’s dive in!
 
-# Extract text from historical prints
+## Extract text from historical prints
 
 You can use Galaxy to analyse data from a wide range of sources, e.g. from DaSCH. 
 One of the datasets accessible at DaSCH is the “Bilderfolgen Basler Frühdrucke”. 
