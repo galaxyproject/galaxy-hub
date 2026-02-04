@@ -74,7 +74,7 @@ test.describe('Content Rendering', () => {
     test('missing Insert shows warning', async ({ page }) => {
       // This tests the fallback UI - we need a page with a broken insert
       // For now, just verify the Insert component structure exists
-      await page.goto('/events/gcc2024/');
+      await page.goto('/events/gcc-2024/');
 
       // Check for insert containers
       const inserts = page.locator('.insert');
@@ -108,7 +108,7 @@ test.describe('Content Rendering', () => {
 
     test('event page shows location if available', async ({ page }) => {
       // Navigate to events and find one
-      await page.goto('/events/gcc2024/');
+      await page.goto('/events/gcc-2024/');
 
       // GCC events typically have location info - location may or may not be present
       // This test just verifies the page loads without errors

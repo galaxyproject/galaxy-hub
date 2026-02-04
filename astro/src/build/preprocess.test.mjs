@@ -6,6 +6,8 @@ import {
   convertVueToJsx,
   convertComponentsToPascalCase,
   addBootstrapMarker,
+  normalizeSlugSegment,
+  normalizeSlug,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -243,5 +245,102 @@ describe('addBootstrapMarker', () => {
     expect(addBootstrapMarker('<table class="table-bordered">Content</table>')).toBe(
       '<table class="bs-compat table-bordered">Content</table>'
     );
+  });
+});
+
+describe('normalizeSlugSegment', () => {
+  it('lowercases simple uppercase strings', () => {
+    expect(normalizeSlugSegment('HELLO')).toBe('hello');
+  });
+
+  it('keeps already-normalized segments unchanged', () => {
+    expect(normalizeSlugSegment('already-lowercase')).toBe('already-lowercase');
+  });
+
+  it('inserts hyphen at camelCase boundaries', () => {
+    expect(normalizeSlugSegment('ChatGPT')).toBe('chat-gpt');
+  });
+
+  it('inserts hyphen at letter→digit boundary', () => {
+    expect(normalizeSlugSegment('PAG31')).toBe('pag-31');
+  });
+
+  it('inserts hyphen at digit→letter boundary', () => {
+    expect(normalizeSlugSegment('4Bio')).toBe('4-bio');
+  });
+
+  it('replaces underscores with hyphens', () => {
+    expect(normalizeSlugSegment('slides_to_videos')).toBe('slides-to-videos');
+  });
+
+  it('does not split within uppercase runs', () => {
+    // "GBCC2025" — the uppercase run "GBCC" stays together
+    expect(normalizeSlugSegment('GBCC2025')).toBe('gbcc-2025');
+  });
+
+  it('handles mixed camelCase with acronyms', () => {
+    expect(normalizeSlugSegment('GalaxyRNAseq_Giessen')).toBe('galaxy-rnaseq-giessen');
+  });
+
+  it('handles PascalCase with numbers', () => {
+    expect(normalizeSlugSegment('GCC2023-Meeting-Report')).toBe('gcc-2023-meeting-report');
+  });
+
+  it('handles GalaxyInResearch', () => {
+    expect(normalizeSlugSegment('GalaxyInResearch')).toBe('galaxy-in-research');
+  });
+
+  it('handles NFDI4Bioimage (digit→letter boundary)', () => {
+    expect(normalizeSlugSegment('NFDI4Bioimage')).toBe('nfdi-4-bioimage');
+  });
+
+  it('collapses multiple hyphens', () => {
+    expect(normalizeSlugSegment('foo--bar')).toBe('foo-bar');
+  });
+
+  it('handles date-prefixed segments (already well-formed)', () => {
+    expect(normalizeSlugSegment('2024-01-12-PAG31')).toBe('2024-01-12-pag-31');
+  });
+
+  it('applies overrides for BiaPy', () => {
+    expect(normalizeSlugSegment('BiaPy-available-in-Galaxy')).toBe('biapy-available-in-galaxy');
+  });
+
+  it('applies overrides for NeIC', () => {
+    expect(normalizeSlugSegment('NeIC-conference')).toBe('neic-conference');
+  });
+
+  it('applies overrides for bioMLtool', () => {
+    expect(normalizeSlugSegment('bioMLtool')).toBe('bio-ml-tool');
+  });
+
+  it('handles community_page (underscore replacement)', () => {
+    expect(normalizeSlugSegment('2024-12-19-community_page')).toBe('2024-12-19-community-page');
+  });
+
+  it('handles gcc2024 (no change needed except letter-digit boundary)', () => {
+    expect(normalizeSlugSegment('gcc2024')).toBe('gcc-2024');
+  });
+});
+
+describe('normalizeSlug', () => {
+  it('normalizes each path segment independently', () => {
+    expect(normalizeSlug('events/2024-01-12-PAG31')).toBe('events/2024-01-12-pag-31');
+  });
+
+  it('normalizes multi-segment paths', () => {
+    expect(normalizeSlug('news/2024-09-02-ChatGPT')).toBe('news/2024-09-02-chat-gpt');
+  });
+
+  it('handles already-normalized paths', () => {
+    expect(normalizeSlug('events/2025-admin-training-brno')).toBe('events/2025-admin-training-brno');
+  });
+
+  it('normalizes nested paths', () => {
+    expect(normalizeSlug('community/GalaxyAdmins/SurveyResults')).toBe('community/galaxy-admins/survey-results');
+  });
+
+  it('handles single segment', () => {
+    expect(normalizeSlug('home')).toBe('home');
   });
 });

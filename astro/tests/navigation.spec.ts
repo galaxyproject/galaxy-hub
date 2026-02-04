@@ -207,7 +207,7 @@ test.describe('Navigation', () => {
 
   test.describe('Breadcrumbs and Back Links', () => {
     test('event pages have back link', async ({ page }) => {
-      await page.goto('/events/gcc2024/');
+      await page.goto('/events/gcc-2024/');
 
       // Should have link back to events
       const backLink = page.locator('a[href="/events/"], a[href="/events"]');

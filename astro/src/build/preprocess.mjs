@@ -23,6 +23,78 @@ const CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
 const ASTRO_CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 
+// Post-normalization fixups for edge cases where the algorithm produces bad output.
+// Keys are the bad normalized form; values are the corrected form.
+// Applied after all regex rules + lowercasing, so keys should be lowercase-hyphenated.
+import slugOverrides from './slug-overrides.json' with { type: 'json' };
+
+/**
+ * Normalize a single path segment into a lowercase-hyphenated slug.
+ *
+ * Rules applied in order:
+ *   1. Insert hyphen at lowercase→uppercase boundary (camelCase / PascalCase)
+ *   2. Insert hyphen at end-of-uppercase-run→lowercase boundary
+ *   3. Insert hyphen at letter→digit boundary
+ *   4. Insert hyphen at digit→letter boundary
+ *   5. Replace underscores with hyphens
+ *   6. Lowercase everything
+ *   7. Collapse consecutive hyphens
+ *   8. Apply slug-overrides.json fixups for known edge cases
+ *
+ * Uppercase runs are NOT split internally — "RNA" stays "rna", not "rn-a".
+ */
+export function normalizeSlugSegment(segment) {
+  let s = segment;
+
+  // Insert hyphen at lowercase→uppercase boundary: "chatGPT" → "chat-GPT"
+  s = s.replace(/([a-z])([A-Z])/g, '$1-$2');
+
+  // Insert hyphen at end-of-uppercase-run→lowercase boundary: "GBCCMeeting" → "GBCC-Meeting"
+  // This handles runs like "GCC" followed by lowercase: "GCC2024Meeting" after step above
+  // is still "GCC2024-Meeting". We need: "HTMLParser" → "HTML-Parser".
+  s = s.replace(/([A-Z]+)([A-Z][a-z])/g, '$1-$2');
+
+  // Insert hyphen at letter→digit boundary: "PAG31" → "PAG-31"
+  s = s.replace(/([a-zA-Z])(\d)/g, '$1-$2');
+
+  // Insert hyphen at digit→letter boundary: "4Bio" → "4-Bio"
+  s = s.replace(/(\d)([a-zA-Z])/g, '$1-$2');
+
+  // Replace underscores with hyphens
+  s = s.replace(/_/g, '-');
+
+  // Lowercase
+  s = s.toLowerCase();
+
+  // Collapse consecutive hyphens
+  s = s.replace(/-{2,}/g, '-');
+
+  // Apply overrides to fix known edge cases (longest match first)
+  const sortedKeys = Object.keys(slugOverrides).sort((a, b) => b.length - a.length);
+  for (const key of sortedKeys) {
+    if (s.includes(key)) {
+      s = s.replaceAll(key, slugOverrides[key]);
+    }
+  }
+
+  // Trim leading/trailing hyphens (shouldn't happen normally but be safe)
+  s = s.replace(/^-|-$/g, '');
+
+  return s;
+}
+
+/**
+ * Normalize a full slug path (e.g. "events/2024-01-12-PAG31").
+ * Each segment is normalized independently; leading date prefixes (YYYY-MM-DD-)
+ * pass through unchanged since they're already well-formed.
+ */
+export function normalizeSlug(slug) {
+  return slug
+    .split('/')
+    .map((segment) => normalizeSlugSegment(segment))
+    .join('/');
+}
+
 /**
  * Check if content contains patterns that break MDX parsing
  * - HTML blocks containing markdown (divs with markdown links, etc.)
@@ -463,15 +535,18 @@ async function processMarkdownFile(filePath) {
   const dirname = path.dirname(relativePath);
 
   // Create slug from path
-  let slug;
+  let naturalSlug;
   if (path.basename(filePath) === 'index.md') {
-    slug = dirname === '.' ? 'home' : dirname.replace(/\\/g, '/');
+    naturalSlug = dirname === '.' ? 'home' : dirname.replace(/\\/g, '/');
   } else {
     const filename = path.basename(filePath, '.md');
-    slug = dirname === '.' ? filename : `${dirname}/${filename}`.replace(/\\/g, '/');
+    naturalSlug = dirname === '.' ? filename : `${dirname}/${filename}`.replace(/\\/g, '/');
   }
 
-  // Copy assets for index files
+  // Normalize the slug (lowercase-hyphenated)
+  const slug = normalizeSlug(naturalSlug);
+
+  // Copy assets for index files (use normalized slug for image paths)
   if (path.basename(filePath) === 'index.md') {
     await copyAssets(path.dirname(filePath), slug);
   }
@@ -506,6 +581,11 @@ async function processMarkdownFile(filePath) {
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
 
+  // Store original slug for redirect generation when it differs from normalized
+  if (naturalSlug !== slug) {
+    processedFrontmatter.naturalSlug = naturalSlug;
+  }
+
   // Add hasComponents flag for rendering
   if (hasComponents) {
     processedFrontmatter.hasComponents = true;
@@ -522,7 +602,7 @@ async function processMarkdownFile(filePath) {
   const newContent = matter.stringify(processedContent, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);
 
-  return { source: filePath, destination: destPath, collection, slug };
+  return { source: filePath, destination: destPath, collection, slug, naturalSlug };
 }
 
 /**

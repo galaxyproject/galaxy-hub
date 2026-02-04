@@ -1,14 +1,24 @@
 #!/usr/bin/env node
 /**
- * Generate redirects from legacy Gridsome-style URLs to natural Astro URLs
+ * Generate redirects for the Galaxy Hub Astro site
  *
- * Gridsome normalized slugs by:
- * - Decamelizing CamelCase to hyphen-case
- * - Converting underscores to hyphens
- * - Lowercasing everything
+ * Redirects are generated from multiple sources:
  *
- * Astro preserves the original folder names. This script generates 301 redirects
- * from legacy URLs to the new natural URLs, ensuring backward compatibility.
+ * 1. Natural URL redirects: When content has a naturalSlug (original folder name)
+ *    that differs from the normalized slug, redirect natural → normalized.
+ *    Example: /events/GCC2024/ → /events/gcc-2024/
+ *
+ * 2. Legacy Gridsome redirects: The old Gridsome site normalized slugs using
+ *    @sindresorhus/slugify. When the Gridsome-style slug differs from the new
+ *    normalized slug, redirect legacy → normalized.
+ *    Example: /events/gcc2024/ → /events/gcc-2024/
+ *
+ * 3. Content-level redirects: Pages with `redirect:` frontmatter field
+ *
+ * 4. Manual redirects: From config.json `redirects` object
+ *
+ * All redirects are output to generated-redirects.json and consumed by
+ * astro.config.mjs to generate true 301 redirects via Astro's redirects config.
  */
 
 import fs from 'fs';
@@ -34,7 +44,7 @@ function legacyNormalizeSegment(segment) {
 }
 
 /**
- * Normalize a full slug path, processing each segment
+ * Normalize a full slug path to Gridsome's legacy style
  */
 function legacyNormalize(slug) {
   return slug
@@ -42,13 +52,6 @@ function legacyNormalize(slug) {
     .filter(Boolean)
     .map((segment) => legacyNormalizeSegment(segment))
     .join('/');
-}
-
-/**
- * Check if two slugs differ (meaning a redirect is needed)
- */
-function slugsDiffer(natural, legacy) {
-  return natural !== legacy;
 }
 
 /**
@@ -74,10 +77,10 @@ function extractFrontmatterField(content, fieldName) {
 }
 
 /**
- * Read slugs and content-level redirects from preprocessed content files
+ * Read slugs, naturalSlugs, and content-level redirects from preprocessed content files
  */
 async function getContentData() {
-  const slugs = [];
+  const contentItems = [];
   const contentRedirects = {};
   const collections = ['events', 'articles', 'platforms', 'bare-articles'];
 
@@ -94,6 +97,7 @@ async function getContentData() {
         const content = await fs.promises.readFile(filePath, 'utf-8');
 
         const slug = extractFrontmatterField(content, 'slug');
+        const naturalSlug = extractFrontmatterField(content, 'naturalSlug');
         const redirect = extractFrontmatterField(content, 'redirect');
 
         if (slug && slug.length > 0) {
@@ -104,8 +108,8 @@ async function getContentData() {
             const normalizedTo = toPath.endsWith('/') ? toPath : `${toPath}/`;
             contentRedirects[fromPath] = normalizedTo;
           } else {
-            // Only add to slugs if it's not a redirect-only page
-            slugs.push(slug);
+            // Only add to content items if it's not a redirect-only page
+            contentItems.push({ slug, naturalSlug });
           }
         }
       }
@@ -114,7 +118,7 @@ async function getContentData() {
     }
   }
 
-  return { slugs, contentRedirects };
+  return { contentItems, contentRedirects };
 }
 
 /**
@@ -137,27 +141,48 @@ async function generateRedirects() {
 
   const redirects = {};
 
-  // Get all content slugs and content-level redirects
-  const { slugs, contentRedirects } = await getContentData();
-  console.log(`Found ${slugs.length} content slugs`);
+  // Get all content slugs, naturalSlugs, and content-level redirects
+  const { contentItems, contentRedirects } = await getContentData();
+  console.log(`Found ${contentItems.length} content items`);
 
-  // Generate redirects for legacy URLs (Gridsome-style -> natural Astro URLs)
+  // Count redirects by type
+  let naturalCount = 0;
   let legacyCount = 0;
-  for (const slug of slugs) {
-    const legacySlug = legacyNormalize(slug);
 
-    if (slugsDiffer(slug, legacySlug)) {
-      // Legacy URL -> Natural URL
+  for (const { slug, naturalSlug } of contentItems) {
+    const canonicalPath = `/${slug}/`;
+
+    // 1. Natural URL redirect: naturalSlug → normalized slug
+    // (when the original folder name differs from the normalized canonical URL)
+    if (naturalSlug && naturalSlug !== slug) {
+      const naturalPath = `/${naturalSlug}/`;
+      if (!redirects[naturalPath]) {
+        redirects[naturalPath] = canonicalPath;
+        naturalCount++;
+      }
+    }
+
+    // 2. Legacy Gridsome URL redirect: legacy → normalized slug
+    // Use the naturalSlug (original folder name) for Gridsome normalization,
+    // since that's what Gridsome would have seen
+    const sourceForLegacy = naturalSlug || slug;
+    const legacySlug = legacyNormalize(sourceForLegacy);
+
+    // Only add if legacy differs from canonical AND differs from natural
+    // (to avoid duplicate redirects)
+    if (legacySlug !== slug) {
       const legacyPath = `/${legacySlug}/`;
-      const naturalPath = `/${slug}/`;
-      redirects[legacyPath] = naturalPath;
-      legacyCount++;
+      if (!redirects[legacyPath]) {
+        redirects[legacyPath] = canonicalPath;
+        legacyCount++;
+      }
     }
   }
 
-  console.log(`Generated ${legacyCount} legacy URL redirects`);
+  console.log(`Generated ${naturalCount} natural URL redirects (folder case → normalized)`);
+  console.log(`Generated ${legacyCount} legacy Gridsome URL redirects`);
 
-  // Add content-level redirects (from redirect: frontmatter)
+  // 3. Add content-level redirects (from redirect: frontmatter)
   const contentRedirectCount = Object.keys(contentRedirects).length;
   for (const [from, to] of Object.entries(contentRedirects)) {
     redirects[from] = to;
@@ -165,7 +190,7 @@ async function generateRedirects() {
 
   console.log(`Added ${contentRedirectCount} content-level redirects`);
 
-  // Add manual redirects from config.json
+  // 4. Add manual redirects from config.json
   const manualRedirects = await getManualRedirects();
   const manualCount = Object.keys(manualRedirects).length;
 
