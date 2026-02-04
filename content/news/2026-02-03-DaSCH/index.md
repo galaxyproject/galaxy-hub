@@ -16,8 +16,7 @@ contributions:
 
 ---
 
-# Connecting Humanities Data: 
-## Analyzing DaSCH data on Galaxy
+# Connecting Humanities Data: Analyzing DaSCH data on Galaxy
 
 We are happy to announce the collaboration between [DaSCH](https://dasch.swiss/), the Swiss National Data and Service Center for the Humanities, and the data analysis platform [Galaxy](https://usegalaxy.eu/). 
 While DaSCH provides loads of research data, Galaxy has lots of tools and workflows for analysing it - sounds like a match made in heaven!
