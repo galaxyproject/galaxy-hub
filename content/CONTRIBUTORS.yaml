@@ -1461,16 +1461,18 @@ desmond-jasper:
     joined: 2020-04
 
 dianichj:
-        name: Diana Chiang Jurado
-        email: dianachj@informatik.uni-freiburg.de
-        orcid: 0000-0002-5857-1477
-        joined: 2024-08
-        affiliations:
-          - spoc
+    name: Diana Chiang Jurado
+    email: dianachj@informatik.uni-freiburg.de
+    orcid: 0000-0002-5857-1477
+    joined: 2024-08
+    affiliations:
+        - spoc
+        - uni-freiburg
+        - nfdi4bioimage
 
 DinithiRajapaksha:
-        name: Dinithi Rajapaksha
-        joined: 2024-09
+    name: Dinithi Rajapaksha
+    joined: 2024-09
 
 dirowa:
     name: Donny Vrins
