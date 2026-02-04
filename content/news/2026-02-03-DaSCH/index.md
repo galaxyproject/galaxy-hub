@@ -95,7 +95,7 @@ It returns the recognised text in Markdown format, so that the structure of the 
 This screenshot shows that the LLM's output is split between “thinking” and “answering”. This allows us to extract only the machine-readable text output and discard the other information the LLM provides, which is not relevant for us at this point.
 
 Steps 3 and 4 of the workflow, therefore, use Regular Expressions (RegEx) to select only the answer and discard the tags that show the LLMs' “thinking”.
-As a result, we get a machine-readable text of the ship of fools, as the image below shows. 
+As a result, we get a machine-readable text of the ship of fools, as shown in the image below. 
 
 <div align="center">
   <img src="image2.png" alt="Cleaned output from LLMHub" width="600"/>
