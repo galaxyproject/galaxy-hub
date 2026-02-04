@@ -21,7 +21,7 @@ contributions:
 We're excited to announce the collaboration between [DaSCH](https://dasch.swiss/), the Swiss National Data and Service Center for the Humanities, and the data analysis platform [Galaxy](https://usegalaxy.eu/). 
 While DaSCH provides a wealth of research data, Galaxy offers a wide range of tools and workflows for analysing it - sounds like a match made in heaven!
 
-# DaSCH as a data provider
+## DaSCH as a data provider
 
 Imagine a researcher who has spent countless hours collecting data. After publishing a paper, the data often rots on a private computer and is then lost forever.
 What a pity for the scientific community, and what a waste of time and money! 
@@ -36,14 +36,14 @@ Its mission is to operate a platform where researchers can work on and publish t
 In short, DaSCH provides FAIR research data, i.e., data that is findable, accessible, interoperable, and reusable. 
 In addition, DaSCH engages in education about best practices in research data management, offers support for data archiving, and ensures the long-term availability of the archived data by providing stable and citable identifiers.
 
-# Galaxy as a data consumer
+## Galaxy as a data consumer
 
 Galaxy is an open-source data analysis platform and a powerful workflow management system. 
 It enables researchers to analyse their data and make their research reproducible. 
 This allows sharing the analysis steps that have been applied to data, rerunning the tools with different settings on the same data, or with the same settings on different data. 
 This brings reproducibility to the next level! 
 
-# Matchmaking between DaSCH and Galaxy
+## Matchmaking between DaSCH and Galaxy
 
 The idea of connecting research data infrastructures isn’t new, but only recently has it been systematically pushed forward by initiatives like the European Open Science Cloud ([EOSC](https://eosc.eu/)). 
 The ambition of EOSC is to develop a ‘Web of FAIR Data and Services’ for science in Europe. This is achieved by a long-term process of alignment and coordination between existing infrastructures, like DaSCH or Galaxy. 
@@ -85,7 +85,7 @@ The [LLMHub](https://galaxyproject.org/news/2025-10-10-llm-hub/) allows running 
   <img src="image3.png" alt="The LLMHub showing configurations to set up NuMarkdown" width="600"/>
 </div>
 
-It returns the recognised text in Markdown format, so that the structure of the original text is maintained. One of NuMarkdown's strengths lies in its structured output. The reasoning steps are clearly separated from the actual answer by XML tags like \<think\> and \<answer\>.
+It returns the recognised text in Markdown format, so that the structure of the original text is maintained. One of NuMarkdown's strengths lies in its structured output. The reasoning steps are clearly separated from the actual answer by XML tags like `<think>` and `<answer>`.
 
 
 <div align="center">
@@ -94,7 +94,7 @@ It returns the recognised text in Markdown format, so that the structure of the 
 
 This screenshot shows that the LLM's output is split between “thinking” and “answering”. This allows us to extract only the machine-readable text output and discard the other information the LLM provides, which is not relevant for us at this point.
 
-Steps 3 and 4 of the workflow, therefore, use Regular Expressions (RegEx) to select only the answer and discard the tags that show the LLMs' “thinking”.
+Steps 3 and 4 of the workflow, therefore, use Regular Expressions (RegEx) to select only the answer and discard the tags that show the LLM's “thinking”.
 As a result, we get a machine-readable text of the ship of fools, as shown in the image below. 
 
 <div align="center">
@@ -110,7 +110,7 @@ The 4 steps from uploading via LLM Hub and two steps of RegEx look as follows:
   <img src="image5.png" alt="Screenshot of the workflow editor showing the workflow used to make the ship of fools machine-readable" width="600"/>
 </div>
 
-# Conclusion
+## Conclusion
 
 What do you think about the interplay of research data repositories and analytics platforms? 
 Is there a dataset on DaSCH that has sparked your interest, so that you'd like to analyze it on Galaxy?
