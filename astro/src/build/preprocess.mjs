@@ -318,6 +318,63 @@ function addBootstrapMarker(content) {
 }
 
 /**
+ * Convert kramdown-style inline attributes to HTML
+ * Kramdown syntax like [text](url){:target="_blank"} is not supported by Astro/remark
+ *
+ * Handles:
+ * - [text](url){:target="_blank"} -> <a href="url" target="_blank">text</a>
+ * - [text](url){: .class1 .class2} -> <a href="url" class="class1 class2">text</a>
+ * - [text](url){: .class target="_blank"} -> <a href="url" class="class" target="_blank">text</a>
+ */
+function convertKramdownAttributes(content) {
+  let processed = content;
+
+  // Match markdown links followed by kramdown attribute blocks
+  // Pattern: [content](url){: attributes }
+  // Content can include HTML like <i class="..."></i>
+  // Use a function to handle nested brackets in content
+  const linkWithAttrsRegex = /\[([^\]]*(?:\[[^\]]*\][^\]]*)*)\]\(([^)]+)\)\{:\s*([^}]+)\}/g;
+
+  processed = processed.replace(linkWithAttrsRegex, (match, text, url, attrs) => {
+    // Parse attributes: can be .class, target="value", style="value", etc.
+    const classes = [];
+    const otherAttrs = [];
+
+    // Split by spaces but respect quoted values
+    const attrParts = attrs.match(/(?:[^\s"]+|"[^"]*")+/g) || [];
+
+    for (const part of attrParts) {
+      if (part.startsWith('.')) {
+        // Class attribute: .classname
+        classes.push(part.slice(1));
+      } else if (part.includes('=')) {
+        // Key-value attribute: target="_blank"
+        otherAttrs.push(part);
+      }
+    }
+
+    // Build the anchor tag
+    let anchor = `<a href="${url}"`;
+    if (classes.length > 0) {
+      anchor += ` class="${classes.join(' ')}"`;
+    }
+    for (const attr of otherAttrs) {
+      anchor += ` ${attr}`;
+    }
+    anchor += `>${text}</a>`;
+
+    return anchor;
+  });
+
+  // Handle block-level kramdown attributes like {:.table.table-striped}
+  // These appear on their own line after a block element
+  // For now, just remove them as they're less critical
+  processed = processed.replace(/^\{:\.[\w.-]+\}\s*$/gm, '');
+
+  return processed;
+}
+
+/**
  * Convert Gridsome-specific syntax to standard markdown/HTML
  */
 function convertGridsomeSyntax(content) {
@@ -482,6 +539,7 @@ async function processMarkdownFile(filePath) {
   // Process content
   let processedContent = body;
   processedContent = convertGridsomeSyntax(processedContent);
+  processedContent = convertKramdownAttributes(processedContent);
   processedContent = addBootstrapMarker(processedContent);
   processedContent = processImagePaths(processedContent, slug);
 
@@ -688,6 +746,7 @@ export {
   hasProblematicHtml,
   needsVueProcessing,
   convertGridsomeSyntax,
+  convertKramdownAttributes,
   convertVueToJsx,
   convertComponentsToPascalCase,
   addBootstrapMarker,
