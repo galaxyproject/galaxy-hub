@@ -25,8 +25,11 @@ While DaSCH provides a wealth of research data, Galaxy offers a wide range of to
 
 Imagine a researcher who has spent countless hours collecting data. After publishing a paper, the data often rots on a private computer and is then lost forever.
 What a pity for the scientific community, and what a waste of time and money! 
-That’s where DaSCH comes in. DaSCH is a Virtual Research Environment (VRE) and long-time repository for research data from the Humanities. 
-Its mission is to operate a platform where researchers can work on and publish their data. This has multiple benefits: 
+That’s where DaSCH comes in.
+DaSCH offers a repository that ensures the long-term preservation of research data from the Humanities,
+as well as a Virtual Research Environment (VRE).
+Its mission is to operate a platform where researchers can archive, work on and publish their data.
+This has multiple benefits:
 
 - The data doesn’t rot any more on a private computer, but is publicly available for generations to come.
 - DaSCH supports researchers in tidying up their data and annotating it. This improves quality.
