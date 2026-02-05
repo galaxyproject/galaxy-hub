@@ -65,7 +65,10 @@ While the book’s scans are very precious, their texts are not machine-readable
 At this point, Galaxy comes in.
 
 We created a workflow to make the scans from the incunabula machine-readable. 
-The scans can be accessed by visiting [https://app.dasch.swiss/](https://app.dasch.swiss/), navigating to “Incunabula”, choosing “Book”, selecting “[Das] Narrenschiff (dt.)”, and then leafing through the pages. 
+The scans can be accessed via its persistent identifier
+[https://ark.dasch.swiss/ark:/72163/1/0803/cpQ3=JfqVZOkd7hUQ26kTg7](https://ark.dasch.swiss/ark:/72163/1/0803/cpQ3=JfqVZOkd7hUQ26kTg7),
+or alternatively by visiting [https://app.dasch.swiss/](https://app.dasch.swiss/),
+navigating to “Incunabula”, choosing “Book”, selecting “[Das] Narrenschiff (dt.)”, and then leafing through the pages.
 The current analysis started with page 19. The link to an image can be obtained by clicking on “Share” and then “Copy IIIF URL to clipboard”.
 
 <div align="center">
