@@ -39,28 +39,22 @@ const currentYear = new Date().getFullYear();
 // Feature pillars
 const pillars = [
   {
-    title: 'Analyze',
-    subtitle: '10,000+ Tools',
-    description: 'Access thousands of analysis tools through an intuitive interface. From genomics to proteomics.',
-    icon: 'beaker',
+    title: 'Accessible',
+    subtitle: 'No programming required',
+    description: 'Run analyses through an intuitive web interface — no installation, no command line. Galaxy is free to use on public servers worldwide.',
+    icon: 'accessible',
   },
   {
-    title: 'Reproduce',
-    subtitle: 'Shareable Workflows',
-    description: 'Create, share, and publish reproducible workflows. Every analysis is tracked and shareable.',
+    title: 'Reproducible',
+    subtitle: 'Every step is tracked',
+    description: 'Galaxy automatically records the complete provenance of your analysis. Anyone can inspect, repeat, and verify your computational work.',
     icon: 'workflow',
   },
   {
-    title: 'Learn',
-    subtitle: '500+ Tutorials',
-    description: 'Galaxy Training Network offers hands-on tutorials for researchers at every skill level.',
-    icon: 'academic',
-  },
-  {
-    title: 'Scale',
-    subtitle: 'Cloud & HPC',
-    description: 'Run analyses on powerful infrastructure. From laptops to supercomputers.',
-    icon: 'cloud',
+    title: 'Transparent',
+    subtitle: 'Share everything',
+    description: 'Publish datasets, workflows, and complete analysis histories as interactive, web-based records anyone can reuse.',
+    icon: 'transparent',
   },
 ];
 ---
@@ -410,7 +404,7 @@ const pillars = [
     /* How Galaxy Works Section */
     .workflow-section {
       padding: 3rem 2rem;
-      background: var(--galaxy-dark);
+      background: var(--medium-bg);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -499,7 +493,7 @@ const pillars = [
     /* Pillars Section */
     .pillars-section {
       padding: 4rem 2rem;
-      background: var(--medium-bg);
+      background: var(--galaxy-dark);
     }
 
     .pillars-container {
@@ -526,24 +520,18 @@ const pillars = [
 
     .pillars-grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
     }
 
-    @media (max-width: 900px) {
-      .pillars-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 550px) {
+    @media (max-width: 700px) {
       .pillars-grid {
         grid-template-columns: 1fr;
       }
     }
 
     .pillar-card {
-      background: rgba(0, 0, 0, 0.15);
+      background: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 8px;
       padding: 1.5rem;
@@ -559,9 +547,6 @@ const pillars = [
     }
     .pillar-card:nth-child(3) {
       animation-delay: 0.3s;
-    }
-    .pillar-card:nth-child(4) {
-      animation-delay: 0.4s;
     }
 
     .pillar-card:hover {
@@ -1055,7 +1040,7 @@ const pillars = [
           </div>
           <div class="server-links">
             <div class="server-divider">
-              <span class="server-divider-text">or try a public server</span>
+              <span class="server-divider-text">choose your server</span>
             </div>
             <div class="server-pills">
               <a href="https://usegalaxy.org" target="_blank" rel="noopener noreferrer" class="server-pill">usegalaxy.org</a>
@@ -1094,44 +1079,12 @@ const pillars = [
       </div>
     </div>
 
-    <!-- How Galaxy Works -->
-    <section class="workflow-section grid-overlay">
-      <div class="workflow-container">
-        <div class="section-header">
-          <h2>How Galaxy Works</h2>
-          <p>From raw data to published results — no programming required.</p>
-        </div>
-        <div class="workflow-steps">
-          <div class="workflow-step">
-            <div class="step-number">1</div>
-            <h3 class="step-title">Upload Data</h3>
-            <p class="step-description">Upload from your computer, paste URLs, or connect to public data archives.</p>
-          </div>
-          <div class="workflow-step">
-            <div class="step-number">2</div>
-            <h3 class="step-title">Choose Tools</h3>
-            <p class="step-description">Select from 10,000+ analysis tools through an intuitive web interface.</p>
-          </div>
-          <div class="workflow-step">
-            <div class="step-number">3</div>
-            <h3 class="step-title">Build Workflows</h3>
-            <p class="step-description">Chain tools into reproducible pipelines you can share and reuse.</p>
-          </div>
-          <div class="workflow-step">
-            <div class="step-number">4</div>
-            <h3 class="step-title">Share &amp; Publish</h3>
-            <p class="step-description">Publish datasets, workflows, and complete analysis histories.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Pillars Section -->
-    <section class="pillars-section">
+    <section class="pillars-section grid-overlay">
       <div class="pillars-container">
         <div class="section-header">
-          <h2>Everything you need for computational research</h2>
-          <p>From data analysis to publication, Galaxy provides the complete toolkit.</p>
+          <h2>Data intensive science for <em>everyone</em></h2>
+          <p>An open platform for accessible, reproducible, and transparent computational research.</p>
         </div>
 
         <div class="pillars-grid">
@@ -1139,13 +1092,13 @@ const pillars = [
             pillars.map((pillar) => (
               <div class="pillar-card">
                 <div class="pillar-icon">
-                  {pillar.icon === 'beaker' && (
+                  {pillar.icon === 'accessible' && (
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
                       />
                     </svg>
                   )}
@@ -1155,33 +1108,23 @@ const pillars = [
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
                       />
                     </svg>
                   )}
-                  {pillar.icon === 'academic' && (
+                  {pillar.icon === 'transparent' && (
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M12 14l9-5-9-5-9 5 9 5z"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                       <path
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                      />
-                    </svg>
-                  )}
-                  {pillar.icon === 'cloud' && (
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                       />
                     </svg>
                   )}
@@ -1192,6 +1135,33 @@ const pillars = [
               </div>
             ))
           }
+        </div>
+      </div>
+    </section>
+
+    <!-- How Galaxy Works -->
+    <section class="workflow-section">
+      <div class="workflow-container">
+        <div class="section-header">
+          <h2>How Galaxy Works</h2>
+          <p>From raw data to published results in three steps.</p>
+        </div>
+        <div class="workflow-steps">
+          <div class="workflow-step">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Bring Your Data</h3>
+            <p class="step-description">Upload from your computer, paste links, or pull from public archives.</p>
+          </div>
+          <div class="workflow-step">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Run Your Analysis</h3>
+            <p class="step-description">Launch curated workflows or build your own from 10,000+ tools — no programming required.</p>
+          </div>
+          <div class="workflow-step">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Share &amp; Reproduce</h3>
+            <p class="step-description">Every step is tracked. Publish datasets, workflows, and complete analysis histories.</p>
+          </div>
         </div>
       </div>
     </section>
