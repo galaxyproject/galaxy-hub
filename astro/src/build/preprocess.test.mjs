@@ -4,6 +4,7 @@ import {
   needsVueProcessing,
   convertGridsomeSyntax,
   convertKramdownAttributes,
+  convertFontAwesomeToLucide,
   convertVueToJsx,
   convertComponentsToPascalCase,
   addBootstrapMarker,
@@ -149,6 +150,55 @@ describe('convertKramdownAttributes', () => {
     const input = '[text](https://example.com?foo=bar){:target="_blank"}';
     const expected = '<a href="https://example.com?foo=bar" target="_blank">text</a>';
     expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+});
+
+describe('convertFontAwesomeToLucide', () => {
+  it('converts FA4 syntax (fa fa-icon)', () => {
+    const input = '<i class="fa fa-laptop"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).toContain('viewBox="0 0 24 24"');
+  });
+
+  it('converts FA5 syntax (fas fa-icon)', () => {
+    const input = '<i class="fas fa-video"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('converts FA6 syntax (fa fa-solid fa-icon)', () => {
+    const input = '<i class="fa fa-solid fa-book"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('converts brand icons (fab fa-icon)', () => {
+    const input = '<i class="fab fa-github"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('preserves unmapped icons', () => {
+    const input = '<i class="fa fa-unknown-icon"></i>';
+    expect(convertFontAwesomeToLucide(input)).toBe(input);
+  });
+
+  it('leaves non-FA elements unchanged', () => {
+    const input = '<i class="some-other-class"></i>';
+    expect(convertFontAwesomeToLucide(input)).toBe(input);
+  });
+
+  it('handles icons with aria-hidden attribute', () => {
+    const input = '<i class="fa fa-laptop" aria-hidden="true"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('converts multiple icons in content', () => {
+    const input = '<i class="fa fa-laptop"></i> | <i class="fas fa-video"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result.match(/<svg/g)).toHaveLength(2);
   });
 });
 

@@ -199,4 +199,26 @@ test.describe('Content Rendering', () => {
       }
     });
   });
+
+  test.describe('Get Started Page', () => {
+    test('tutorial table has SVG icons', async ({ page }) => {
+      await page.goto('/get-started/');
+
+      // Find the tutorials table
+      const table = page.locator('table').first();
+      await expect(table).toBeVisible();
+
+      // Table should contain SVG icons (converted from Font Awesome)
+      const svgIcons = table.locator('svg');
+      const iconCount = await svgIcons.count();
+
+      // The table has multiple tutorial rows with icons for slides, hands-on, recording, tour
+      expect(iconCount).toBeGreaterThan(5);
+
+      // Verify SVGs have proper attributes
+      const firstIcon = svgIcons.first();
+      await expect(firstIcon).toHaveAttribute('viewBox', '0 0 24 24');
+      await expect(firstIcon).toHaveAttribute('stroke', 'currentColor');
+    });
+  });
 });
