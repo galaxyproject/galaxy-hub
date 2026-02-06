@@ -12,7 +12,7 @@ title: "Image Analysis Community in Galaxy"
 
 Welcome to the Image Analysis Community in Galaxy!
 
-Bridging multiple disciplines, this community brings you together with researchers and developers from across different scientific fields to co-create tools and reusable workflows.
+**The Galaxy Imaging community** integrates multiples disciplines and aims to connect scientists from different scientific fields. Our main goal is to bring together researchers and developers to create open-access tools and reusable imaging workflows.
 
 ## Community goals
 
