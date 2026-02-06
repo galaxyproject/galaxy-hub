@@ -25,7 +25,7 @@ Our primary goals are to:
 Additionally, we strive to:
 
 * **Develop, add, and maintain** state-of-the-art image analysis tools within the Galaxy ecosystem.
-* **Standardize FAIR principles**, ensuring all workflows are natively reproducible, interoperable, and reusable.
+* **Standardize [FAIR](https://www.nature.com/articles/sdata201618) principles**, ensuring all workflows are natively reproducible, interoperable, and reusable.
 * **Bridge the learning gap** by expanding documentation and training resources for accessible skill-building across all expertise levels.
   
 
