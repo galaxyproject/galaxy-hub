@@ -13,9 +13,13 @@
  *    normalized slug, redirect legacy → normalized.
  *    Example: /events/gcc2024/ → /events/gcc-2024/
  *
- * 3. Content-level redirects: Pages with `redirect:` frontmatter field
+ * 3. Case-insensitive redirects: When the original folder name contains uppercase,
+ *    redirect the all-lowercase version → normalized canonical URL.
+ *    Example: /events/gcc2024/ → /events/gcc-2024/
  *
- * 4. Manual redirects: From config.json `redirects` object
+ * 4. Content-level redirects: Pages with `redirect:` frontmatter field
+ *
+ * 5. Manual redirects: From config.json `redirects` object
  *
  * All redirects are output to generated-redirects.json and consumed by
  * astro.config.mjs to generate true 301 redirects via Astro's redirects config.
@@ -179,10 +183,27 @@ async function generateRedirects() {
     }
   }
 
+  // 3. Case-insensitive redirects: lowercase naturalSlug → canonical
+  // Handles users typing URLs in all-lowercase (e.g. /events/gcc2024/ → /events/gcc-2024/)
+  let caseInsensitiveCount = 0;
+  for (const { slug, naturalSlug } of contentItems) {
+    if (!naturalSlug) continue;
+    const lowerSlug = naturalSlug.toLowerCase();
+    if (lowerSlug !== slug && lowerSlug !== naturalSlug) {
+      const lowerPath = `/${lowerSlug}/`;
+      const canonicalPath = `/${slug}/`;
+      if (!redirects[lowerPath]) {
+        redirects[lowerPath] = canonicalPath;
+        caseInsensitiveCount++;
+      }
+    }
+  }
+
   console.log(`Generated ${naturalCount} natural URL redirects (folder case → normalized)`);
   console.log(`Generated ${legacyCount} legacy Gridsome URL redirects`);
+  console.log(`Generated ${caseInsensitiveCount} case-insensitive redirects`);
 
-  // 3. Add content-level redirects (from redirect: frontmatter)
+  // 4. Add content-level redirects (from redirect: frontmatter)
   const contentRedirectCount = Object.keys(contentRedirects).length;
   for (const [from, to] of Object.entries(contentRedirects)) {
     redirects[from] = to;
@@ -190,7 +211,7 @@ async function generateRedirects() {
 
   console.log(`Added ${contentRedirectCount} content-level redirects`);
 
-  // 4. Add manual redirects from config.json
+  // 5. Add manual redirects from config.json
   const manualRedirects = await getManualRedirects();
   const manualCount = Object.keys(manualRedirects).length;
 
