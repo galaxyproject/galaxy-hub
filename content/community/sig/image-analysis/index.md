@@ -18,7 +18,7 @@ Welcome to the Image Analysis Community in Galaxy!
 
 Our primary goals are to:
 
-* **Coordinate efforts** across the Galaxy ecosystem to eliminate tool redundancy and harmonize workflows and training.
+* **Coordinate efforts** across the Galaxy ecosystem to reduce tool redundancy and harmonize workflows and training.
 * **Showcase advancements** by sharing our work—both within and outside the Galaxy community—to drive scientific impact.
 * **Empower the community** through proactive knowledge-sharing, collaborative troubleshooting, and cross-disciplinary support.
 
