@@ -6,6 +6,8 @@ date: "2021-09-21"
 contributions:
   authorship:
     - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-09-human-genetics-wg-update/"
 ---
 
 <div class="card float-right" style="min-width: 12rem; max-width: 20rem">

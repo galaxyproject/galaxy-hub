@@ -7,6 +7,8 @@ contributions:
   authorship:
     - NickSto
     - dannon
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-09-hub2/"
 ---
 
 You may not have noticed, but things have changed a lot around here! Today we are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now.

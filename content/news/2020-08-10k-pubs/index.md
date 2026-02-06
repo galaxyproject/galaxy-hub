@@ -7,6 +7,8 @@ authors: "Dave Clements"
 contributions:
   authorship:
     - tnabtaf
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-08-10k-pubs/"
 ---
 
 We reached 10,000 publications in the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) this month.  This library tracks publications that use, extend, implement or reference Galaxy or Galaxy-based platforms.  It includes journal articles, theses, book chapters, preprints, and a couple more odds and ends.  This milestone is a good opportunity to look at what the library tells us about where the Galaxy project has been, and maybe where it's going as well.

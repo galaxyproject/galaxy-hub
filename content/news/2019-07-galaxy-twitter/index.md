@@ -11,6 +11,8 @@ contributions:
     - moheydarian
     - hrhotz
     - nsoranzo
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-07-galaxy-twitter/"
 ---
 
 [<img class="float-right" style="max-width: 100px" src="/images/logos/TwitterBird300.png" alt="Galaxy on Twitter" />](https://twitter.com/hashtag/UseGalaxy)

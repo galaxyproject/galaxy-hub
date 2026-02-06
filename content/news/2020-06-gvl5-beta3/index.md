@@ -13,6 +13,8 @@ contributions:
     - almahmoud
     - nuwang
     - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-06-gvl5-beta3/"
 ---
 
 We are happy to announce the latest release of the Genomics Virtual Lab (GVL),
