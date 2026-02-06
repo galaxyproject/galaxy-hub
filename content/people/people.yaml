@@ -599,3 +599,19 @@ us:
         matrix: "@natefoo:matrix.org"
         website: https://github.com/natefoo
 
+    ahmedhamidawan:
+        name: Ahmed Hamid Awan
+        title: Software Engineer
+        website: https://github.com/ahmedhamidawan
+        matrix: "@ahmedhamidawan:matrix.org"
+        linkedin: ahmed-awan-70a20919a
+        orcid: 0009-0003-2600-6152
+        google-scholar: t1F-WE0AAAAJ
+        bio: |
+          Ahmed is a software engineer in the [Schatz Lab](https://schatz-lab.org/) at [Johns Hopkins University](http://jhu.edu/).
+          He is an active [member of the Galaxy project](/galaxy-team/), focusing on improving Galaxy's user interface and user
+          experience, as well as integrating backend services to enhance platform capabilities. Ahmed has served as Release
+          Manager for Galaxy releases from 2024-2026, coordinating the delivery of major updates and documenting release notes
+          to communicate new features and improvements to the community. He received his B.S. in Computer Science from the
+          University of Maryland, Baltimore County, in 2021.
+
