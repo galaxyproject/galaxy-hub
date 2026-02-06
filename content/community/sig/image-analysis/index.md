@@ -63,7 +63,7 @@ Our imaging tutorials cover:
 
 ## Image analysis tools
 
-The Galaxy ToolShed offers a vast library of tools for image analysis, supporting the entire data lifecycle:
+The Galaxy ToolShed offers a library of tools for image analysis, supporting the entire data lifecycle:
 
 * **Format Conversion & Metadata**: Leverage **Bio-Formats** for robust data handling. Use tools like [Convert image format with Bioformats](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/imgteam/bfconvert/ip_convertimage/6.7.0+galaxy3) or [Convert to OME-Zarr with Bio-Formats](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/imgteam/bioformats2raw/bf2raw/0.7.0+galaxy5) to transform proprietary files into interoperable formats like OME-TIFF, OME-Zarr, or specialized transitions like DICOM to TIFF.
 * **Segmentation & Classification**: Access state-of-the-art algorithms including **[Cellpose](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/cellpose/cellpose/3.1.0+galaxy2)** and the cutting-edge **[Cellpose-SAM](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/cellposesam/cellposesam/4.0.8+galaxy0)**. You can also run high-performance pre-trained models directly from the **[BioImage.IO](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3)** ecosystem.
