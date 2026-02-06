@@ -49,7 +49,7 @@ Our imaging tutorials cover:
 
 * **Foundational Training**: Introduction to multidimensional image data, metadata standards, and digital signal processing.
 * **Advanced Image RDM**: Specialized tutorials on **Research Data Management (RDM)** tailored for imaging, focusing on data stewardship, provenance, and FAIR practices.
-* **Ecosystem Integration**: Expert-level guides on **OMERO integration**, teaching you how to seamlessly manage and analyze data between Galaxy and remote image repositories.
+* **Imaging Ecosystem Integration**: Expert-level guides teaching you how to manage and analyze data between Galaxy and remote image repositories such as [OMERO](https://www.openmicroscopy.org/omero/), [IDR](https://idr.openmicroscopy.org/), [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) and [Zenodo](https://zenodo.org/).
 * **Hands-on Workflows**: Step-by-step pipelines ranging from basic preprocessing and filtering to advanced AI-based segmentation using tools like **Cellpose** or running pre-trained models from the **BioImage.IO** model zoo.
 
 <iframe 
