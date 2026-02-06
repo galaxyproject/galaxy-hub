@@ -2,37 +2,33 @@
 /**
  * Generate redirects for the Galaxy Hub Astro site
  *
- * Redirects are generated from multiple sources:
+ * Redirects come from two human-editable sources plus auto-generation:
  *
- * 1. Natural URL redirects: When content has a naturalSlug (original folder name)
- *    that differs from the normalized slug, redirect natural → normalized.
- *    Example: /events/GCC2024/ → /events/gcc-2024/
+ * Human-editable (in content/redirects.yaml):
+ *   - Simple redirects: exact path-to-path mappings
+ *   - Pattern redirects: dynamic route patterns (e.g. /blog/[...slug] → /news/[...slug])
  *
- * 2. Legacy Gridsome redirects: The old Gridsome site normalized slugs using
- *    @sindresorhus/slugify. When the Gridsome-style slug differs from the new
- *    normalized slug, redirect legacy → normalized.
- *    Example: /events/gcc2024/ → /events/gcc-2024/
+ * Content-level (in individual content files):
+ *   - Pages with `redirect:` frontmatter field
  *
- * 3. Case-insensitive redirects: When the original folder name contains uppercase,
- *    redirect the all-lowercase version → normalized canonical URL.
- *    Example: /events/gcc2024/ → /events/gcc-2024/
+ * Auto-generated (from slug normalization):
+ *   1. Natural URL redirects: original folder name → normalized canonical URL
+ *   2. Legacy Gridsome redirects: @sindresorhus/slugify style → normalized
+ *   3. Case-insensitive redirects: all-lowercase folder name → normalized
  *
- * 4. Content-level redirects: Pages with `redirect:` frontmatter field
- *
- * 5. Manual redirects: From config.json `redirects` object
- *
- * All redirects are output to generated-redirects.json and consumed by
- * astro.config.mjs to generate true 301 redirects via Astro's redirects config.
+ * Output: generated-redirects.json with { redirects: {}, patterns: {} }
+ * consumed by astro.config.mjs to generate 301 redirects.
  */
 
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { parse as parseYaml } from 'yaml';
 import slugify from '@sindresorhus/slugify';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
-const CONFIG_PATH = path.join(ASTRO_ROOT, '..', 'config.json');
+const REDIRECTS_YAML_PATH = path.join(ASTRO_ROOT, '..', 'content', 'redirects.yaml');
 const OUTPUT_PATH = path.join(ASTRO_ROOT, 'src/build/generated-redirects.json');
 const CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 
@@ -126,14 +122,18 @@ async function getContentData() {
 }
 
 /**
- * Read manual redirects from config.json
+ * Read redirect definitions from content/redirects.yaml
  */
-async function getManualRedirects() {
+async function getRedirectsYaml() {
   try {
-    const config = JSON.parse(await fs.promises.readFile(CONFIG_PATH, 'utf-8'));
-    return config.redirects || {};
+    const raw = await fs.promises.readFile(REDIRECTS_YAML_PATH, 'utf-8');
+    const data = parseYaml(raw);
+    return {
+      redirects: data?.redirects || {},
+      patterns: data?.patterns || {},
+    };
   } catch {
-    return {};
+    return { redirects: {}, patterns: {} };
   }
 }
 
@@ -211,26 +211,31 @@ async function generateRedirects() {
 
   console.log(`Added ${contentRedirectCount} content-level redirects`);
 
-  // 5. Add manual redirects from config.json
-  const manualRedirects = await getManualRedirects();
-  const manualCount = Object.keys(manualRedirects).length;
+  // 5. Add redirects from content/redirects.yaml
+  const yamlData = await getRedirectsYaml();
+  const yamlRedirectCount = Object.keys(yamlData.redirects).length;
+  const yamlPatternCount = Object.keys(yamlData.patterns).length;
 
-  for (const [from, to] of Object.entries(manualRedirects)) {
-    // Ensure paths have trailing slashes for consistency
+  for (const [from, to] of Object.entries(yamlData.redirects)) {
     const fromPath = from.endsWith('/') ? from : `${from}/`;
     const toPath = to.endsWith('/') ? to : `${to}/`;
     redirects[fromPath] = toPath;
   }
 
-  console.log(`Added ${manualCount} manual redirects from config.json`);
+  console.log(`Added ${yamlRedirectCount} redirects from redirects.yaml`);
+  console.log(`Added ${yamlPatternCount} pattern redirects from redirects.yaml`);
 
-  // Write to JSON file
-  await fs.promises.writeFile(OUTPUT_PATH, JSON.stringify(redirects, null, 2));
+  // Write to JSON file — includes both simple redirects and pattern redirects
+  const output = {
+    redirects,
+    patterns: yamlData.patterns,
+  };
+  await fs.promises.writeFile(OUTPUT_PATH, JSON.stringify(output, null, 2));
 
-  console.log(`Total redirects: ${Object.keys(redirects).length}`);
+  console.log(`Total simple redirects: ${Object.keys(redirects).length}`);
   console.log(`Written to: ${OUTPUT_PATH}`);
 
-  return redirects;
+  return output;
 }
 
 // CLI interface

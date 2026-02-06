@@ -17,11 +17,13 @@ const autolinkConfig = {
 };
 
 // Build redirect config with 301 status for SEO
-const redirectConfig = Object.fromEntries(
-  Object.entries(generatedRedirects).map(([from, to]) => [
-    from,
-    { destination: to, status: 301 },
-  ])
+// Simple redirects: exact path mappings
+const simpleRedirects = Object.fromEntries(
+  Object.entries(generatedRedirects.redirects).map(([from, to]) => [from, { destination: to, status: 301 }])
+);
+// Pattern redirects: dynamic route patterns (e.g. /blog/[...slug] → /news/[...slug])
+const patternRedirects = Object.fromEntries(
+  Object.entries(generatedRedirects.patterns).map(([from, to]) => [from, { destination: to, status: 301 }])
 );
 
 // https://astro.build/config
@@ -31,10 +33,8 @@ export default defineConfig({
     defaultStrategy: 'hover',
   },
   redirects: {
-    // Generated legacy URL redirects (from Gridsome-style to natural Astro URLs)
-    ...redirectConfig,
-    // Pattern redirects for blog -> news migration
-    '/blog/[...slug]': { destination: '/news/[...slug]', status: 301 },
+    ...simpleRedirects,
+    ...patternRedirects,
   },
   integrations: [
     vue(),
@@ -52,11 +52,8 @@ export default defineConfig({
       // Reduce inotify watcher pressure during dev/Playwright runs
       watch: {
         usePolling: true,
-        ignored: [
-          '**/public/images/**',
-          '**/content/**/images/**'
-        ],
+        ignored: ['**/public/images/**', '**/content/**/images/**'],
       },
     },
-  }
+  },
 });
