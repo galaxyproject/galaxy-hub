@@ -101,15 +101,15 @@ async function getContentData() {
         const redirect = extractFrontmatterField(content, 'redirect');
 
         if (slug && slug.length > 0) {
-          // If this content has a redirect, add it to content redirects
+          // Always track for natural/legacy/case-insensitive redirect generation
+          contentItems.push({ slug, naturalSlug });
+
+          // If this content has a redirect, also capture that mapping
           if (redirect) {
             const fromPath = `/${slug}/`.replace(/\/+/g, '/');
             const toPath = redirect.startsWith('/') ? redirect : `/${redirect}`;
             const normalizedTo = toPath.endsWith('/') ? toPath : `${toPath}/`;
             contentRedirects[fromPath] = normalizedTo;
-          } else {
-            // Only add to content items if it's not a redirect-only page
-            contentItems.push({ slug, naturalSlug });
           }
         }
       }
