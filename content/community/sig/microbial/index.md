@@ -91,10 +91,14 @@ Explore the **300+ tool suites** (880+ individual tools) for microbiological dat
   src="https://galaxyproject.github.io/galaxy_codex/communities/microgalaxy/resources/tools.html">
 </iframe>
 
+*This list is powered by the [Galaxy Codex Project](https://github.com/galaxyproject/galaxy_codex/). You can explore the [raw metadata](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/resources/curated_tools.tsv) or contribute to curation by modifying the `To keep` and/or `Deprecated` column in the [curation file](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/metadata/tool_status.tsv).*
+
 **Highlights:**
 - Integration of complete frameworks (e.g.**QIIME 2**, **MetaPhlAn**, and soon Anvi'o) for intuitive access to extensive resources.
 - **170+ reference genomes** and **11TB of reference data** for taxonomic classification and functional annotation.
 - Interactive tools like **Pavian**, **Phinch**, **Shiny Phyloseq**, **Apollo**, **Jupyter Notebooks**, and **RStudio**.
+
+*Are we missing a tool? [Reach out to us](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im) to help keep this list comprehensive.*
 
 ### Workflows
 
@@ -107,6 +111,8 @@ Access to **115+ ready-to-use workflows**, e.g. the integration of the MGnify am
   frameBorder="0"
   src="https://galaxyproject.github.io/galaxy_codex/communities/microgalaxy/resources/workflows.html">
 </iframe>
+
+*This list is powered by the [Galaxy Codex Project](https://github.com/galaxyproject/galaxy_codex/). You can explore the [raw metadata](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/resources/curated_workflows.tsv) or contribute to curation by modifying the `To keep` and/or `Deprecated` column in the [curation file](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/metadata/workflows_status.tsv).*
 
 ## Training Events
 
