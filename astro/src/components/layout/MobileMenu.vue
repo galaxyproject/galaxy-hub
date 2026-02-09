@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, setSubsite, type SubsiteId } from '@/stores/subsiteStore';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
@@ -11,6 +11,7 @@ interface NavItem {
   label: string;
   href: string;
   external?: boolean;
+  subsiteOnly?: boolean;
 }
 
 interface NavSection {
@@ -20,6 +21,7 @@ interface NavSection {
 
 const isOpen = ref(false);
 const subsite = useStore(currentSubsite);
+const showPeople = computed(() => !!subsite.value && subsite.value !== 'global');
 
 const navSections: NavSection[] = [
   {
@@ -36,6 +38,7 @@ const navSections: NavSection[] = [
     items: [
       { label: 'News', href: '/news/' },
       { label: 'Events', href: '/events/' },
+      { label: 'People', href: '/people/', subsiteOnly: true },
       { label: 'Blog', href: '/blog/' },
       { label: 'Get Involved', href: '/community/' },
       { label: 'Support', href: '/support/' },
@@ -75,7 +78,7 @@ function buildHref(href: string, external?: boolean): string {
 
   const currentSub = subsite.value;
   if (currentSub && currentSub !== 'global') {
-    const subsitePaths = ['/news/', '/events/', '/community/'];
+    const subsitePaths = ['/news/', '/events/', '/community/', '/people/'];
     for (const path of subsitePaths) {
       if (href.startsWith(path)) {
         return `/${currentSub}${href}`;
@@ -93,6 +96,10 @@ function handleSubsiteChange(value: string) {
 function handleNavClick() {
   isOpen.value = false;
 }
+
+function filteredItems(section: NavSection) {
+  return section.items.filter((item) => !(item.subsiteOnly && !showPeople.value));
+}
 </script>
 
 <template>
@@ -107,7 +114,12 @@ function handleNavClick() {
         <Menu class="h-6 w-6" />
       </button>
     </SheetTrigger>
-    <SheetContent side="left" class="w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden">
+    <SheetContent
+      side="left"
+      class="w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden"
+      data-testid="mobile-menu"
+      role="dialog"
+    >
       <SheetHeader class="px-4 py-3 border-b border-medium-bg flex-shrink-0">
         <SheetTitle class="text-white flex items-center gap-2">
           <img src="/galaxy-logo.svg" alt="Galaxy" class="h-8" />
@@ -168,7 +180,7 @@ function handleNavClick() {
               </CollapsibleTrigger>
               <CollapsibleContent class="pl-3 space-y-1 mt-1">
                 <a
-                  v-for="item in section.items"
+                  v-for="item in filteredItems(section)"
                   :key="item.href"
                   :href="buildHref(item.href, item.external)"
                   :target="item.external ? '_blank' : undefined"

@@ -1,0 +1,154 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHeader from '../../../components/layout/PageHeader.astro';
+import PersonCard from '../../../components/people/PersonCard.astro';
+import SubsiteSetter from '../../../components/people/SubsiteSetter.vue';
+import { subsites } from '../../../stores/subsiteStore';
+import { getHallOfFameSlugs } from '../../../utils/hallOfFame';
+import { europeSites, loadPeopleData } from '../../../utils/people';
+
+export function getStaticPaths() {
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s && s.external))
+    .map((subsite) => ({
+      params: { subsite: subsite.id },
+      props: { subsiteInfo: subsite },
+    }));
+}
+
+const { subsite } = Astro.params;
+
+const peopleData = loadPeopleData();
+const hallOfFameSlugs = await getHallOfFameSlugs();
+
+const labelOverrides: Record<string, string> = {
+  eu: 'Europe',
+  genouest: 'GenOuest',
+};
+
+function labelForSite(id: string): string {
+  const match = subsites.find((s) => s.id === id);
+  if (match) return match.name;
+  return labelOverrides[id] || id.replace(/(^|[-_])([a-z])/g, (_, __, c) => c.toUpperCase());
+}
+
+const isAggregate = subsite === 'eu';
+const sectionOrder = isAggregate ? europeSites : [subsite];
+const groups = sectionOrder.map((id) => ({
+  id,
+  label: labelForSite(id),
+  people: peopleData[id] || [],
+}));
+
+const pageTitle = `${labelForSite(subsite)} People`;
+const pageDescription =
+  subsite === 'eu'
+    ? 'Contributors across the European Galaxy Project, grouped by their home site.'
+    : `People behind Galaxy ${labelForSite(subsite)}`;
+
+function hallUrl(handle: string): string | undefined {
+  const slug = handle ? handle.toLowerCase() : '';
+  if (slug && hallOfFameSlugs.has(slug)) return `/hall-of-fame/${slug}/`;
+  return undefined;
+}
+
+const hallOfFameUrlFor = (groupId: string, personId: string) => {
+  const url = hallUrl((peopleData[groupId] || []).find((p) => p.id === personId)?.hallOfFameSlug || '');
+  return url;
+};
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="max-w-6xl mx-auto">
+    <SubsiteSetter client:load subsiteId={subsite} />
+    <PageHeader title={pageTitle} description={pageDescription}>
+      {
+        subsite === 'eu' && (
+          <div class="flex flex-wrap gap-4 mt-6 text-white/80 text-sm">
+            <div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 border border-white/15">
+              <span class="flex flex-wrap items-center gap-1">
+                <a class="underline decoration-white/40 hover:decoration-galaxy-gold" href="#freiburg">
+                  Freiburg
+                </a>
+                <span>·</span>
+                <a class="underline decoration-white/40 hover:decoration-galaxy-gold" href="#ifb">
+                  IFB
+                </a>
+                <span>·</span>
+                <a class="underline decoration-white/40 hover:decoration-galaxy-gold" href="#erasmusmc">
+                  Erasmus MC
+                </a>
+                <span>·</span>
+                <a class="underline decoration-white/40 hover:decoration-galaxy-gold" href="#elixir-it">
+                  ELIXIR-IT
+                </a>
+                <span>·</span>
+                <a class="underline decoration-white/40 hover:decoration-galaxy-gold" href="#genouest">
+                  GenOuest
+                </a>
+              </span>
+            </div>
+          </div>
+        )
+      }
+    </PageHeader>
+
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-8 space-y-10">
+      {
+        groups.map((group) => (
+          <section id={group.id} class="space-y-4">
+            {isAggregate && (
+              <div class="flex items-center justify-between gap-3 border-b border-gray-200 pb-3">
+                <div>
+                  <h2 class="text-xl font-semibold text-galaxy-dark">{group.label}</h2>
+                </div>
+              </div>
+            )}
+
+            {(() => {
+              const active = group.people.filter((p) => !p.alumni);
+              const alumni = subsite === 'eu' ? [] : group.people.filter((p) => p.alumni);
+
+              if (active.length === 0 && alumni.length === 0) {
+                return (
+                  <div class="rounded-lg border border-dashed border-gray-200 bg-gray-50 px-4 py-6 text-gray-600">
+                    No people listed yet for {group.label}. Reach out if you want to add contacts.
+                  </div>
+                );
+              }
+
+              return (
+                <div class="space-y-6">
+                  {active.length > 0 && (
+                    <div class="grid gap-x-5 gap-y-12 sm:grid-cols-2">
+                      {active.map((person) => {
+                        const fameUrl = hallOfFameUrlFor(group.id, person.id);
+                        return <PersonCard person={person} hallOfFameUrl={fameUrl} />;
+                      })}
+                    </div>
+                  )}
+
+                  {alumni.length > 0 && (
+                    <div class="space-y-3 pt-4">
+                      <div class="flex items-center justify-center gap-2 text-xs font-semibold text-gray-500 uppercase tracking-wide mb-12">
+                        <span class="flex-1 h-px bg-gray-200" />
+                        <span>Alumni</span>
+                        <span class="flex-1 h-px bg-gray-200" />
+                      </div>
+                      <div class="grid gap-x-5 gap-y-12 sm:grid-cols-2">
+                        {alumni.map((person) => {
+                          const fameUrl = hallOfFameUrlFor(group.id, person.id);
+                          return <PersonCard person={person} hallOfFameUrl={fameUrl} />;
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
+          </section>
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>
