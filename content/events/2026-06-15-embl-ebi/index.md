@@ -2,12 +2,18 @@
 title: Data science for life scientists - hands-on machine learning for biological data
 date: '2026-06-15'
 days: 5
+tease: "Hands-on machine learning for biological data using Python in this 5-day course at EMBL-EBI, UK"
 continent: EU
 location:
   name: European Bioinformatics Institute, United Kingdom
 gtn: false
 contact:  EMBL-EBI Training (courses@ebi.ac.uk)
 tags: [training]
+subsites: [global, us, eu, esg]
+contributions:
+  funding:
+    - elixir-europe
+    - embl-ebi
 ---
 
 We are happy to share the following training course on behalf of the European Bioinformatics Institute:
