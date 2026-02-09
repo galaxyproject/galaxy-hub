@@ -6,6 +6,9 @@ hide_tease: false
 authors: Arash Kadkhodaei
 subsites: [global, eu, us, freiburg]
 tags: [tool]
+contributions:
+  authorship:
+    - arash77
 ---
 
 ## Using Black Forest Labs' FLUX Models Inside Galaxy: A Guide to Text-to-Image Integration

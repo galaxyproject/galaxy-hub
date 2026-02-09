@@ -4,9 +4,10 @@ tease: 'On Feb. 27 to Mar. 3, we (several VGP-associated instructors) used the U
 date: '2023-03-31'
 tags: [assembly, news, tiaas]
 authors: Linelle Abueg
-authors_structured:
-- github: abueg
 subsites: [global, all]
+contributions:
+  authorship:
+    - abueg
 ---
 
 ## Using Galaxy's training infrastructure as a service (TIaaS) to teach hands-on genome assembly and annotation

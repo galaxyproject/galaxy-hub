@@ -15,5 +15,10 @@ links:
 - text: "Tutorial - only open to ASHG members"
   url: "https://www.pathlms.com/ashg/courses/25102"
 subsites: [global, us]
+contributions:
+  authorship:
+    - astrovsky01
+    - tnabtaf
+
 ---
 

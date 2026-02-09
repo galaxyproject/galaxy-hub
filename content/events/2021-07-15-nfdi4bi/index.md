@@ -12,6 +12,12 @@ supporters:
 - NFDI4BI
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - nfdi4bioimage
+
 ---
 
 On July 15th, 1 pm CEST (duration ~ 2 h), the NFDI4BIOIMAGE initiative will present its’ objectives and structure in an open online video meeting, consisting of two sessions:

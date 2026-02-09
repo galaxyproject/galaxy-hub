@@ -11,4 +11,8 @@ location_url: http://migale.jouy.inra.fr/?q=formations
 external_url: http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module18bis.pdf
 contact: Valentin Loux, Cyprien Guérin
 subsites: [global, us]
+contributions:
+  authorship:
+    - vloux
+
 ---

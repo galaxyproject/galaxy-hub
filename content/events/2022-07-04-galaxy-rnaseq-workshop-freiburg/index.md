@@ -16,6 +16,11 @@ supporters:
 - meinbio
 subsites: [freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - crc1425
+    - sfb992
+
 ---
 
 We are offering a Galaxy 2-days crash course on RNA-Seq data analysis. This course is offered mainly for students and members of CRCs from Freiburg. There are 25 places available.

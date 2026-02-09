@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-08-14"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Galaxy in Research: Exploring DNA Methylation and Aging Across Diverse Human Tissues**  

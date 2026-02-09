@@ -6,6 +6,9 @@ tags: [data, training, tools, report]
 authors: Anika Erxleben
 subsites: [all-eu, freiburg, global]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
 ---
 
 **Galaxy Annual Report 2023 published**

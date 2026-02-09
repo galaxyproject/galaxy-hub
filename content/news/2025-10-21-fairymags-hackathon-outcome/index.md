@@ -1,6 +1,6 @@
 ---
 title: 'Exploring Microbial Dark Matter: Outcomes of the FAIRyMAGs Hackathon 2025'
-authors: Paul Zierep, Bérénice Batut
+authors: [Paul Zierep, Bérénice Batut]
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-21'
@@ -13,7 +13,10 @@ tags:
 - microbial
 - metagenomics
 - fairymags
-
+contributions:
+  authorship:
+    - paulzierep
+    - bebatut
 ---
 
 # 🧬 Introduction

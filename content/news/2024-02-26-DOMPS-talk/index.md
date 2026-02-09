@@ -6,6 +6,9 @@ tease: "Seminar talk entitled MAdLand Resources & Tools presented by Deepti Vars
 subsites: [all-eu]
 tags: [madland, community, talk, nfdi]
 supporters: [madland, unifreiburg, denbi, nfdi4plants, nfdi]
+contributions:
+  authorship:
+    - deeptivarshney
 ---
 
 

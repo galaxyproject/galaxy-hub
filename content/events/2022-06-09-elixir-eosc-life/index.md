@@ -12,4 +12,8 @@ gtn: false
 contact: "Beatriz Serrano-Solano"
 image:
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - beatrizserrano
+
 ---

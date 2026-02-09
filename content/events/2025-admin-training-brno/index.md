@@ -16,7 +16,16 @@ supporters:
   - elixir-cz
   - de.KCD
   - de.NBI
-subsites: [global, us, eu, fr, esg]
+subsites: [global, us, eu, esg]
+contributions:
+  authorship:
+    - martenson
+  funding:
+    - cesnet
+    - deKCD
+    - deNBI
+    - elixir-cz
+
 ---
 
 **Galaxy Admin Training** will be offered November 24 through November 28 in CESNET offices, Brno, Czechia ([map](https://maps.app.goo.gl/btN9zLdmwA8ubeSPA)).

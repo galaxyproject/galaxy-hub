@@ -2,11 +2,12 @@
 title: "FOSDEM 2024: How Galaxy democratizes data analysis"
 tease: Galaxy Europe at the Free and Open Source Developers’ European Meeting in Brussels 🍟
 date: '2024-02-28'
-authors: Polina Polunina, Mira Kuntz
-authors_structured:
-    - github: PlushZ
-    - github: mira-miracoli
+authors: [Polina Polunina, Mira Kuntz]
 subsites: [all-eu]
+contributions:
+  authorship:
+    - plushz
+    - mira-miracoli
 ---
 
 [FOSDEM](https://fosdem.org/2024/) (‘Free and Open Source Developers’ European Meeting') is the biggest free and open-source software conference in Europe which took place in Brussels in the middle of Europe on 3rd and 4th February 2024. The conference itself is also free and you don’t need to register, just come and attend the talks. This makes it the ideal place to present Galaxy and raise awareness among the open source developer and research community and eventually onboard new developers or researchers.

@@ -3,11 +3,12 @@ title: Freiburg Galaxy team is participating to the 2nd cohort of the Open Life 
   program
 date: '2020-09-07'
 tags: [training]
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 [Open Life Science (OLS)](https://openlifesci.org/) is an **online mentoring & training program** to help **individuals and stakeholders in research** to become **Open Science ambassadors**.

@@ -11,6 +11,9 @@ supporters:
 - crc1425
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - crc1425
 ---
 
 Thomas Nührenberg and team published a new paper in PLOS ONE about the "Impact of high platelet turnover on the platelet transcriptome".

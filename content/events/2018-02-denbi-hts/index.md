@@ -12,4 +12,8 @@ external_url: http://www.denbi.de/22-training-cat/training-courses/460-galaxy5
 contact: Freiburg Galaxy Team
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - freiburggalaxyteam
+
 ---

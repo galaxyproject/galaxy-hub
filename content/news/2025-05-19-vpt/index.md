@@ -9,11 +9,17 @@ supporters:
 - denbi
 - unifreiburg
 - nfdi4bioimage
-authors: Amirhossein Nilchi
-authors_structured:
-- github: nilchia
+authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - Nilchia
+  funding:
+    - elixir-europe
+    - deNBI
+    - uni-freiburg
+    - nfdi4bioimage
 ---
 
 [VPT (Vizgen Post-processing Tool)](https://github.com/Vizgen/vizgen-postprocessing) open-source suite for post-processing MERFISH spatial transcriptomics data from Vizgen, is now available in Galaxy.

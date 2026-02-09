@@ -9,6 +9,10 @@ supporters:
   - eurosciencegateway
   - unifreiburg
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 Co-located with the European Galaxy Days, the EuroScienceGateway consortium of 17 partners got together in Freiburg Germany,

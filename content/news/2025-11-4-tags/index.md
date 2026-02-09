@@ -9,6 +9,9 @@ hide_tease: false
 tags:
 - tags
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 ![](tags.png)

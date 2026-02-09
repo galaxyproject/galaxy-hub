@@ -1,15 +1,20 @@
 ---
 title: '2nd BioNT Training workshop - From Hero to Zero with Python'
 tease: "BioNT delivered its second training workshop, From Hero to Zero with Python, from 21th to 24th of November, 2023. This post reports this workshop's organisation, and the backgound and feedback of its applicants and participants."
-authors: Silvia Di Giorgio, Teresa Müller, Lisanna Paladin, Isabella Paredes Cisneros, Pubudu Saneth Samarakoon
+authors: [Silvia Di Giorgio, Teresa Müller, Lisanna Paladin, Isabella Paredes Cisneros, Pubudu Saneth Samarakoon, Bérénice Batut]
 date: '2023-11-21'
-authors_structured:
-- github: teresa-m
-- github: bebatut
 hide_tease: false
 tags: [training, workshop]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - silviadg87
+    - teresa-m
+    - lisanna
+    - isabellaparedescisneros
+    - pubudusanethsamarakoon
+    - bebatut
 ---
 
 The [BioNT](http://biont-training.eu/) consortium is dedicated to **providing a comprehensive training program** and **fostering a community for digital skills** relevant to the **biotechnology industry and biomedical sector**. With a curriculum tailored for both beginners and advanced professionals, BioNT aims to equip individuals with the necessary expertise in handling, processing, and visualising biological data, as well as utilising computational biology tools. Leveraging the consortium's strong background in digital literacy training and extensive network of collaborations, BioNT is poised to **professionalise life sciences data management, processing, and analysis skills**.

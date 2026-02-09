@@ -10,6 +10,10 @@ gtn: true
 contact: "Anton Nekrutenko"
 tags: [workshop, training]
 subsites: [all]
+contributions:
+  authorship:
+    - nekrut
+
 ---
 
 # General information

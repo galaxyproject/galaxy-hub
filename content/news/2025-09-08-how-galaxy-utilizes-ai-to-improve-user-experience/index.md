@@ -4,6 +4,9 @@ date: "2025-09-08"
 tease: "AI is being applied to improve the user experience itself—helping researchers debug analyses, discover relevant tools, and collaborate more efficiently"
 authors: "Michelle Terese Savage"
 subsites: [all]
+contributions:
+  authorship:
+    - hujambo-dunia
 ---
 
 # How Galaxy Utilizes AI to Improve User Experience

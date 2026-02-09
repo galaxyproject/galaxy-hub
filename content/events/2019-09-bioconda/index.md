@@ -26,6 +26,10 @@ continent: EU
 gtn: false
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We are organizing a new collaboration fest for [Bioconda](https://bioconda.github.io/) and its ecosystem. This time we would like to organise it globally and decentralised. Feel free to join us in Freiburg, join other events or organise your own local Bioconda Collaboration Fest.

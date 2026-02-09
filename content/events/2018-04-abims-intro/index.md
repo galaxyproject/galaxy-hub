@@ -12,5 +12,10 @@ external_url: http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/formati
 contact: "Loraine Guéguen, Gildas Le Corguillé, Annie Le Breton"
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - lecorguille
+    - loraine-gueguen
+
 ---
 

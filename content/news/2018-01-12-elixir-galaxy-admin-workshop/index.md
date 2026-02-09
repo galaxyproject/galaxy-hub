@@ -7,6 +7,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We had a very nice Galaxy Admin workshop in Oslo.

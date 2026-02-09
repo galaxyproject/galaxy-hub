@@ -11,5 +11,10 @@ location:
 continent: EU
 external_url: https://training.galaxyproject.org/training-material/events/2025-06-30-hts-workshop-freiburg.html
 tease: This course introduces scientists to the data analysis platform Galaxy
+contributions:
+  authorship:
+    - Sch-Da
+    - teresa-m
+
 ---
 This course introduces scientists to the data analysis platform Galaxy. The course is a beginner course; no programming skills are required.

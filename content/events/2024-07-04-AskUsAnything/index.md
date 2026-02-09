@@ -13,6 +13,14 @@ supporters:
 - de.NBI
 - de.KCD
 subsites: [all]
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deKCD
+    - deNBI
+    - eurosciencegateway
+
 ---
 
 ## General information

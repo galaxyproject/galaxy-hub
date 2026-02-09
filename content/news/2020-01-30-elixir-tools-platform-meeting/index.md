@@ -5,11 +5,15 @@ tags: [report]
 supporters:
 - denbi
 - elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This week we joined the [ELIXIR tools platform](https://elixir-europe.org/platforms/tools) meeting in Paris.

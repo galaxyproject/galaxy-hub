@@ -1,8 +1,14 @@
 ---
 title: "Goodbye Dev Roundtables"
 tease: "working groups do it better"
-authors: "Assunta DeSanto, Beatriz Serrano-Solano, John Chilton, Dannon Baker"
+authors: [Assunta DeSanto, Beatriz Serrano-Solano, John Chilton, Dannon Baker]
 date: "2022-01-27"
+contributions:
+  authorship:
+    - assuntad23
+    - beatrizserrano
+    - jmchilton
+    - dannon
 ---
 
 ## Why are we disbanding roundtables?

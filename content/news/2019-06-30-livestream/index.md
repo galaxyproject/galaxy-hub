@@ -2,11 +2,12 @@
 title: GCC2019 will be livestreamed
 date: '2019-06-30'
 tags: [talk, video, GCC]
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - hexylena
 ---
 
 This year's GCC is live streamed! If you couldn't make it to Germany, come check out some of the talks and trainings taking place in Freiburg this week.

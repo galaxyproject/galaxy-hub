@@ -21,6 +21,13 @@ supporters:
  - eosc
  - converge
  - bycovid
+contributions:
+  funding:
+    - deNBI
+    - by-covid
+    - gallantries
+    - elixir-converge
+
 ---
 
 The goal of this workshop is to enable groups doing SARS-CoV-2 sequencing using amplicon methods (like ARTICv3, ARTICv4, NEBNext VarSkip, Midnight, ...) to learn how to use pre-built workflows to quickly generate consensus sequences. After the workshop, participants will be able to upload viral sequencing data from Illumina and ONT sequencers, call variants, create consensus sequences appropriate for submission to public databases, and produce quality and lineage reports.

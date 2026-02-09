@@ -1,4 +1,28 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page, type Locator } from '@playwright/test';
+
+/**
+ * Click a link and wait for navigation to complete.
+ * Works with both full-page navigations and Astro view transitions.
+ */
+async function clickAndWaitForNavigation(page: Page, locator: Locator): Promise<void> {
+  // Get the target URL before clicking
+  const href = await locator.getAttribute('href');
+
+  // Click the link
+  await locator.click();
+
+  if (href && !href.startsWith('#') && !href.startsWith('mailto:')) {
+    // Wait for URL to change to the expected destination
+    // This works for both traditional navigation and Astro view transitions
+    const expectedPath = href.startsWith('/') ? href.split('#')[0] : `/${href.split('#')[0]}`;
+    await page.waitForURL((url) => url.pathname.startsWith(expectedPath), {
+      timeout: 15000,
+    });
+  }
+
+  // Ensure the DOM is ready
+  await page.waitForLoadState('domcontentloaded');
+}
 
 test.describe('Content Rendering', () => {
   test.describe('Article Pages', () => {
@@ -8,7 +32,7 @@ test.describe('Content Rendering', () => {
 
       // Should have article layout structure
       await expect(page.locator('main')).toBeVisible();
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
     });
 
     test('article renders markdown content', async ({ page }) => {
@@ -41,13 +65,13 @@ test.describe('Content Rendering', () => {
 
       // Events list should load
       expect(response?.status()).toBe(200);
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
 
       // Click into an event that likely has inserts
       const eventLink = page.locator('a[href*="/events/gcc"]').first();
       if (await eventLink.isVisible({ timeout: 2000 }).catch(() => false)) {
-        await eventLink.click();
-        // Page should load without errors (use first h1 since pages may have multiple)
+        await clickAndWaitForNavigation(page, eventLink);
+        // Page should load without errors (GCC pages may have multiple h1s in content)
         await expect(page.locator('h1').first()).toBeVisible({ timeout: 15000 });
       }
     });
@@ -55,7 +79,7 @@ test.describe('Content Rendering', () => {
     test('missing Insert shows warning', async ({ page }) => {
       // This tests the fallback UI - we need a page with a broken insert
       // For now, just verify the Insert component structure exists
-      await page.goto('/events/gcc2024/');
+      await page.goto('/events/gcc-2024/');
 
       // Check for insert containers
       const inserts = page.locator('.insert');
@@ -76,10 +100,13 @@ test.describe('Content Rendering', () => {
       // Find an event page
       await page.goto('/events/');
 
-      // Click first event
-      const eventLink = page.locator('a[href*="/events/2"]').first();
+      // Click first INTERNAL event link (exclude events with external_url that redirect)
+      const eventLink = page
+        .locator('a[href^="/events/2"]')
+        .filter({ hasNot: page.locator('[data-external-icon]') })
+        .first();
       if (await eventLink.isVisible()) {
-        await eventLink.click();
+        await clickAndWaitForNavigation(page, eventLink);
 
         // Event pages should show date (year somewhere on page)
         const dateText = page.getByText(/\d{4}/);
@@ -89,7 +116,7 @@ test.describe('Content Rendering', () => {
 
     test('event page shows location if available', async ({ page }) => {
       // Navigate to events and find one
-      await page.goto('/events/gcc2024/');
+      await page.goto('/events/gcc-2024/');
 
       // GCC events typically have location info - location may or may not be present
       // This test just verifies the page loads without errors
@@ -101,13 +128,14 @@ test.describe('Content Rendering', () => {
     test('platform page shows server information', async ({ page }) => {
       await page.goto('/use/');
 
-      // Click first platform
-      const platformLink = page.locator('a[href^="/use/"]').first();
+      // Click first platform (exclude link to /use/ index itself)
+      const platformLink = page.locator('a[href^="/use/"]:not([href="/use/"])').first();
       if (await platformLink.isVisible()) {
-        await platformLink.click();
+        await clickAndWaitForNavigation(page, platformLink);
 
         // Platform pages should have title and content
-        await expect(page.locator('h1')).toBeVisible();
+        // Using .first() due to external h1 element in CI browser environment
+        await expect(page.locator('h1').first()).toBeVisible();
       }
     });
   });
@@ -169,6 +197,28 @@ test.describe('Content Rendering', () => {
       if (count > 0) {
         await expect(codeBlocks.first()).toBeVisible();
       }
+    });
+  });
+
+  test.describe('Get Started Page', () => {
+    test('tutorial table has SVG icons', async ({ page }) => {
+      await page.goto('/get-started/');
+
+      // Find the tutorials table
+      const table = page.locator('table').first();
+      await expect(table).toBeVisible();
+
+      // Table should contain SVG icons (converted from Font Awesome)
+      const svgIcons = table.locator('svg');
+      const iconCount = await svgIcons.count();
+
+      // The table has multiple tutorial rows with icons for slides, hands-on, recording, tour
+      expect(iconCount).toBeGreaterThan(5);
+
+      // Verify SVGs have proper attributes
+      const firstIcon = svgIcons.first();
+      await expect(firstIcon).toHaveAttribute('viewBox', '0 0 24 24');
+      await expect(firstIcon).toHaveAttribute('stroke', 'currentColor');
     });
   });
 });

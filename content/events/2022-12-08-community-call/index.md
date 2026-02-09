@@ -12,6 +12,10 @@ gtn: false
 contact: "Enis Afgan"
 tags: ["community-call"]
 subsites: [all]
+contributions:
+  authorship:
+    - afgane
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nbk07WKDUPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

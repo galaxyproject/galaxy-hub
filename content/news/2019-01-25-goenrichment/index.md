@@ -6,11 +6,14 @@ location:
   name: Galaxy Europe
 supporters:
 - ELIXIR
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - elixir-europe
 ---
 
 [GOEnrichment](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/){:target="_blank"} is a tool for performing GO enrichment analysis of gene sets, such as those obtained from RNA-seq or Microarray experiments, to help characterize them at the functional level.

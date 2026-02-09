@@ -2,11 +2,12 @@
 title: UseGalaxy.eu update to 19.01
 date: '2019-03-19'
 tags: [release]
-authors: hexylena
-authors_structured:
-- github: hexylena
+authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - hexylena
 ---
 
 We've updated our Galaxy server to version 19.01.

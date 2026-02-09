@@ -13,6 +13,9 @@ supporters:
   - denbi
   - elixir
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 ![EuroScienceGateway logo](/projects/esg/eosc_euro_science_gateway.svg)

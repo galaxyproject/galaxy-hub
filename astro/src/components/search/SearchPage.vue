@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
+import { formatDate } from '@/utils/dateUtils';
+import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface SearchEntry {
   title: string;
   slug: string;
   path: string;
+  external_url?: string | null;
   excerpt: string;
   tease: string;
   tags: string[];
@@ -84,17 +87,6 @@ const results = computed(() => {
     })
     .slice(0, 100);
 });
-
-function formatDate(dateStr: string): string {
-  if (!dateStr) return '';
-  const date = new Date(dateStr);
-  if (isNaN(date.getTime())) return '';
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
-}
 
 function getCollectionLabel(collection: string): string {
   const labels: Record<string, string> = {
@@ -181,6 +173,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           <div class="flex items-start justify-between gap-4 mb-2">
             <h2 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
               {{ result.title }}
+              <ExternalIcon v-if="result.collection === 'events' && result.external_url" />
             </h2>
             <span :class="['text-xs px-2 py-1 rounded-full whitespace-nowrap', getCollectionColor(result.collection)]">
               {{ getCollectionLabel(result.collection) }}

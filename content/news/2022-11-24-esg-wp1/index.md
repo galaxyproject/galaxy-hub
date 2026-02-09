@@ -10,6 +10,11 @@ supporters:
   - elixir
 subsites: [all-eu, esg]
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 
 The first Work Package of the EuroScienceGateway project will cover all aspects of project administration and project management to ensure effective reporting,

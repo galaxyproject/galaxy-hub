@@ -10,6 +10,11 @@ supporters:
   - unifreiburg
   - elixir
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 
 From November 14 to November 18, the Naturalis Biodiversity Center in Leiden played host to an extraordinary event—the kick-off meeting of the Biodiversity Genome Europe (BGE) project. This momentous gathering brought together leading scientists, researchers, and conservationists from across Europe, marking the beginning of an ambitious initiative focused on unraveling the mysteries of biodiversity through genomics.

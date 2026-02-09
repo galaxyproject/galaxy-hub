@@ -10,6 +10,11 @@ supporters:
 - denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The 7th [ELIXIR All Hands meeting](https://elixir-europe.org/events/elixir-all-hands-2021) will take place 1 -11 June 2021. The Galaxy community, in collaboration with the Tools Platform, will host a 3-hours workshop on the 3rd of June from at 9 am CEST.

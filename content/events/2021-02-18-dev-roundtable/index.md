@@ -16,6 +16,10 @@ links:
     url: "https://youtu.be/Gjrt_raGAuI"
 tags: [ "devroundtable" ]
 subsites: [global, us]
+contributions:
+  authorship:
+    - afgane
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gjrt_raGAuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

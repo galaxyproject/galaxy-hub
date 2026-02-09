@@ -1,12 +1,18 @@
 ---
 title: "Freiburg Galaxy Team at CE-IUSSI Meeting 2025 in Szeged"
-authors: Mina H.Ansari
+authors: Mina Hojat Ansari
 tags: [conference, outreach, termite microbiome, FAIRyMAGs, Galaxy]
 date: '2025-08-27' 
 tease: "At CE-IUSSI 2025 in Szeged, the Freiburg Galaxy Team showcased how the FAIRyMAGs workflow enables FAIR, accessible insect microbiome research using Galaxy."
 subsites: [all, esg]
 supporters: [unifreiburg, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - minamehr
+  funding:
+    - uni-freiburg
+    - eurosciencegateway
 ---
 
 The **Freiburg Galaxy Team** participated in the [Central European Section Meeting of the International Union for the Study of Social Insects (CE-IUSSI 2025)](http://ce-iussi-meeting-szeged2025.iussi.de/), held in Szeged, Hungary, from August 27–30, 2025.  

@@ -8,10 +8,15 @@ supporters:
 - denbi
 - elixir
 authors: Marcel Schulz
-authors_structured:
-- name: Marcel Schulz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - marcelschulz
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 ## Galaxy helps virtual teaching!

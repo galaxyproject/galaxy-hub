@@ -10,6 +10,10 @@ supporters:
 - ViCE
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 As part of our ongoing growth and development, Freiburg Galaxy is becoming useGalaxy.eu

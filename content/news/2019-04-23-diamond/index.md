@@ -5,11 +5,14 @@ tags: [collaboration]
 supporters:
 - eosc
 - eu
-authors: simonbray
-authors_structured:
-- github: simonbray
+authors: Simon Bray
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - eosc-life
 ---
 
 Recently, we have started working with the [Macromolecular Crystallography group](https://www.diamond.ac.uk/Instruments/Mx.html), which is based at the [Diamond synchrotron](https://www.diamond.ac.uk) in Didcot, UK. We have a common interest in enabling reproducible, user-friendly data analysis in cheminformatics and computational chemistry. As part of their [XChem project](https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html), they are developing computational workflows to assist in designing follow-up compounds from fragment screening hits. Diamond is working with [Informatics Matters](https://www.informaticsmatters.com/) to develop [Squonk](https://squonk.it), a computational notebook with similar aims to the [ChemicalToolbox](http://cheminformatics.usegalaxy.eu) we are working on. We were interested in investigating how Squonk and Galaxy could be integrated.

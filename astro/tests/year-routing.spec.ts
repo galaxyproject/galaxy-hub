@@ -17,8 +17,9 @@ test.describe('Year filters are routable', () => {
     const articlesWithYear = await page.$$eval(
       'article',
       (els, targetYear) =>
-        els.filter((el) => !el.classList.contains('hidden') && (el.textContent || '').includes(targetYear as string)).length,
-      year,
+        els.filter((el) => !el.classList.contains('hidden') && (el.textContent || '').includes(targetYear as string))
+          .length,
+      year
     );
 
     expect(articlesWithYear).toBeGreaterThan(0);

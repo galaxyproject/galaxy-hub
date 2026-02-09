@@ -12,11 +12,16 @@ supporters:
 - denbi
 - unifreiburg
 - elixir
-authors: anuprulez
-authors_structured:
-- github: anuprulez
+authors: Anup Kumar
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - anuprulez
+  funding:
+    - deNBI
+    - uni-freiburg
+    - elixir-europe
 ---
 
 Artificial intelligence (machine learning and deep learning) algorithms are being increasingly applied in several fields of Bioinformatics such as drug-response 

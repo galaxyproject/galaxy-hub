@@ -12,10 +12,16 @@ supporters:
 - erasmus+
 - elixir-belgium
 authors: Abdus Salam
-authors_structured:
-- name: Abdus Salam
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - abdussalam
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+    - eosc-life
 ---
 
 We have received some feedback about TIaaS from Abdus Salam:

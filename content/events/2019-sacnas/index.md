@@ -12,6 +12,11 @@ image:
 gtn: true
 contact: "Mo Heydarian, Dave Clements"
 subsites: [global, us]
+contributions:
+  authorship:
+    - moheydarian
+    - tnabtaf
+
 ---
 
 <div class="float-right">

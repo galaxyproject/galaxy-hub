@@ -1,8 +1,12 @@
 ---
 title: "The New Galaxy Community Hub"
 date: "2021-09-14"
-authors: "Nick Stoler, Dannon Baker"
+authors: [Nick Stoler, Dannon Baker]
 components: false
+contributions:
+  authorship:
+    - NickSto
+    - dannon
 ---
 
 You may not have noticed, but things have changed a lot around here! Today we are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now.

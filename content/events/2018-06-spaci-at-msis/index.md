@@ -13,4 +13,8 @@ external_url: "http://spaci.scsu.edu/"
 contact: "Aysam Guerler"
 gtn: false
 subsites: [global, us]
+contributions:
+  authorship:
+    - guerler
+
 ---

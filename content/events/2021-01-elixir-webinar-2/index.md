@@ -18,4 +18,9 @@ links:
     url: "https://youtu.be/LyEV1CCIuGQ"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - bgruening
+    - frederikcoppens
+
 ---

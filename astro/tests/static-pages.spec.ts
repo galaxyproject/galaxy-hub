@@ -1,4 +1,28 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page, type Locator } from '@playwright/test';
+
+/**
+ * Click a link and wait for navigation to complete.
+ * Works with both full-page navigations and Astro view transitions.
+ */
+async function clickAndWaitForNavigation(page: Page, locator: Locator): Promise<void> {
+  // Get the target URL before clicking
+  const href = await locator.getAttribute('href');
+
+  // Click the link
+  await locator.click();
+
+  if (href && !href.startsWith('#') && !href.startsWith('mailto:')) {
+    // Wait for URL to change to the expected destination
+    // This works for both traditional navigation and Astro view transitions
+    const expectedPath = href.startsWith('/') ? href.split('#')[0] : `/${href.split('#')[0]}`;
+    await page.waitForURL((url) => url.pathname.startsWith(expectedPath), {
+      timeout: 15000,
+    });
+  }
+
+  // Ensure the DOM is ready
+  await page.waitForLoadState('domcontentloaded');
+}
 
 test.describe('Static Pages', () => {
   test.describe('Homepage', () => {
@@ -57,11 +81,16 @@ test.describe('Static Pages', () => {
       // Navigate to events list first
       await page.goto('/events/');
 
-      // Click on first event link
-      const eventLink = page.locator('a[href*="/events/2"]').first();
+      // Click on first INTERNAL event link (exclude events with external_url that redirect)
+      const eventLink = page
+        .locator('a[href^="/events/2"]')
+        .filter({ hasNot: page.locator('[data-external-icon]') })
+        .first();
       if (await eventLink.isVisible()) {
-        await eventLink.click();
-        await expect(page.locator('h1')).toBeVisible();
+        // Use helper to wait for Astro view transition to complete
+        await clickAndWaitForNavigation(page, eventLink);
+        // Using .first() due to external h1 element in CI browser environment
+        await expect(page.locator('h1').first()).toBeVisible();
       }
     });
   });
@@ -104,11 +133,13 @@ test.describe('Static Pages', () => {
       const response = await page.goto('/use/');
       expect(response?.status()).toBe(200);
 
-      // Click first platform link
-      const platformLink = page.locator('a[href^="/use/"]').first();
+      // Click first platform link (exclude link to /use/ index itself)
+      const platformLink = page.locator('a[href^="/use/"]:not([href="/use/"])').first();
       if (await platformLink.isVisible()) {
-        await platformLink.click();
-        await expect(page.locator('h1')).toBeVisible();
+        // Use helper to wait for Astro view transition to complete
+        await clickAndWaitForNavigation(page, platformLink);
+        // Using .first() due to external h1 element in CI browser environment
+        await expect(page.locator('h1').first()).toBeVisible();
       }
     });
   });

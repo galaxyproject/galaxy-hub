@@ -12,4 +12,8 @@ gtn: false
 contact: "Anton Nekrutenko"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - nekrut
+
 ---

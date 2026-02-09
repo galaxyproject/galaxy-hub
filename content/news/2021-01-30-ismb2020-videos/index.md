@@ -6,11 +6,16 @@ supporters:
 - galaxy-europe
 - unifreiburg
 - denbi
-authors: foellmelanie
-authors_structured:
-- github: foellmelanie
+authors: Melanie Föll
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - foellmelanie
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 In July 2020, the "Intelligent Systems for Molecular Biology" (ISMB) took place as a virtual conference with

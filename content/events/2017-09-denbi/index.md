@@ -12,4 +12,8 @@ gtn: true
 contact: compgen@mdc-berlin.de
 subsites: [global, us]
 supporters: [denbi]
+contributions:
+  funding:
+    - deNBI
+
 ---

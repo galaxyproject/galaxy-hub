@@ -11,6 +11,14 @@ supporters:
   - eosc
   - eu
 main_subsite: eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - egi
+    - eosc-life
 ---
 
 ![EOSC Winter School 2024](./images/image4.jpg)

@@ -3,10 +3,7 @@ title: Galaxy Europe has been added as a new ELIXIR RIR
 date: '2023-12-14'
 tease: "usegalaxy.eu is now an ELIXIR Recommended Interoperability Resource!"
 tags: [ELIXIR, RIR, interoperability, esg, esg-wp1, tiaas]
-authors: Sebastian Schaaf, Björn Grüning
-authors_structured:
-- github: sebastian-schaaf
-- github: bgruening
+authors: [Sebastian Schaaf, Björn Grüning]
 components: true
 autotoc: true
 subsites: [all, eu, esg]
@@ -14,6 +11,14 @@ supporters:
   - eurosciencegateway
   - unifreiburg
   - elixir
+contributions:
+  authorship:
+    - sebastian-schaaf
+    - bgruening
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 <div class="float-right" style="max-width: 400px">
 	

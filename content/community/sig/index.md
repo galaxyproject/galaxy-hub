@@ -89,11 +89,11 @@ A Galaxy workbench with tools and workflows for materials science, including muo
 
 <!-- MicroGalaxy -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="/community/sig/microbial#microgalaxy-community">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;MicroGalaxy</div>
+<a href="/community/sig/microbial">
+<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Microbiology</div>
 </a>
 
-Anything regarding microbial data analysis in Galaxy, with meetings, working groups, chat and mailing list
+The microGalaxy community gathers microbiological data analysis enthusiasts.
 
 </div>
 
@@ -343,7 +343,7 @@ Galaxy community in Switzerland.
 
 <!-- UK -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="">
+<a href="/community/sig/uk/">
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;UK</div>
 </a>
 

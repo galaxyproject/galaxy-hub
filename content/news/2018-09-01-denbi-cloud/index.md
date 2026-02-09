@@ -8,6 +8,11 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - uni-freiburg
+    - deNBI
+    - elixir-europe
 ---
 
 We are one out of five German [de.NBI cloud](https://www.denbi.de/cloud) centers that provides storage and compute resources for the life science community. Thanks to a new [de.NBI](https://www.denbi.de) grant, the European Galaxy Server now has extended CPU memory and storage resources. Expect less waiting time in the queue, smoother big training events and more power for your research!

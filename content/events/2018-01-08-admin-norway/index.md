@@ -16,6 +16,10 @@ supporters:
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 We will have a talk and will give a workshop on the European galaxy administrator workshop. For more information and registration see [here](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop).

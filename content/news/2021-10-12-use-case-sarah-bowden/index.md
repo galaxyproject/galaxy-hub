@@ -8,10 +8,11 @@ tease: Sarah Bowden from the Innere Medizin IV (Nephrologie und Allgemeinmedizin
 hide_tease: true
 tags: [UseCase]
 authors: Sarah Bowden
-authors_structured:
-- name: Sarah Bowden
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - sarahbowden
 ---
 
 __Sarah Bowden__ from the [Innere Medizin IV (Nephrologie und Allgemeinmedizin) and ZBSA - Center for Biological Systems Analysis](https://www.uniklinik-freiburg.de/walentek-en/team.html) in Freiburg (Germany) has shared with us the main area of research of her project. Thank you Sarah!

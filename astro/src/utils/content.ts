@@ -4,7 +4,7 @@
  */
 
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { isPublishedDate } from './dateUtils';
+import { isPublishedDate, formatDate as formatDateUtil, formatDateRange as formatDateRangeUtil } from './dateUtils';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -253,35 +253,18 @@ export async function getEventBySlug(slug: string): Promise<EventEntry | undefin
 
 /**
  * Format a date for display
+ * Re-exported from dateUtils for backward compatibility
+ * Uses long format (full month names) by default for content pages
  */
 export function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
+  return formatDateUtil(date, false);
 }
 
 /**
  * Format a date range for events
+ * Re-exported from dateUtils for backward compatibility
+ * Uses long format (full month names) by default for content pages
  */
 export function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
-  if (!start) return '';
-
-  const startDate = typeof start === 'string' ? new Date(start) : start;
-  const endDate = end ? (typeof end === 'string' ? new Date(end) : end) : null;
-
-  if (!endDate || startDate.getTime() === endDate.getTime()) {
-    return formatDate(startDate);
-  }
-
-  // Same month
-  if (startDate.getMonth() === endDate.getMonth() && startDate.getFullYear() === endDate.getFullYear()) {
-    return `${startDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })} - ${endDate.getDate()}, ${endDate.getFullYear()}`;
-  }
-
-  // Different months
-  return `${formatDate(startDate)} - ${formatDate(endDate)}`;
+  return formatDateRangeUtil(start, end, false);
 }

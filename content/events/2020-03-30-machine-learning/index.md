@@ -23,6 +23,11 @@ supporters:
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 ~~We are offering a workshop on introduction to machine learning using Galaxy. 35 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://docs.google.com/forms/d/e/1FAIpQLSdu1SJbSOCGy20iqShiyK5DUIrZU6hnPGpYv2DgHnUxf13HSQ/viewform?usp=pp_url).~~

@@ -14,4 +14,9 @@ contact: "info @ esciencelab . org . uk"
 subsites: [global, us]
 supporters: [elixir, workflowhub]
 tags: [fair, workflow, workflowhub, covid-19]
+contributions:
+  funding:
+    - elixir-europe
+    - workflowhub
+
 ---

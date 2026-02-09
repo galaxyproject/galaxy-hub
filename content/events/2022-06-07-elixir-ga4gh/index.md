@@ -12,4 +12,9 @@ gtn: false
 contact: "Alex Kanitx, Gavin Farrell, Jennifer Harrow, Jonathan Tedds, Finn Bacall, Tewodros Deneke, Álvaro González, Björn Grüning, Lukáš Hejtmánek, Sven Twardziok, Thanasis Vergoulis"
 image:
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - bgruening
+    - fbacall
+
 ---

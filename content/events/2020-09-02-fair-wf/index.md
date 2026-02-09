@@ -15,6 +15,12 @@ supporters:
 - biodaten
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - biodaten
+    - deNBI
+    - elixir-europe
+
 ---
 
 We are offering a Galaxy workshop on **FAIR Computational Workflows** within the 19th European Conference on Computational Biology (ECCB2020). 

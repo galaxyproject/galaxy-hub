@@ -17,6 +17,10 @@ location:
 supporters:
 - denbi
 subsites: [eu]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Galaxy for linking Bisulfite sequencing with RNA sequencing, March 2019, registration is open!

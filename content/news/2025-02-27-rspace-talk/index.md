@@ -6,6 +6,11 @@ tease: "Meeting Dr. Mathes from RSpace, the Galaxy Freiburg team explored new wa
 tags: [talk,esg]
 supporters: [eurosciencegateway, denbi, unifreiburg]
 subsites: [all, esg, eu]
+contributions:
+  funding:
+    - eurosciencegateway
+    - deNBI
+    - uni-freiburg
 ---
 On February 27, 2025, the Galaxy Freiburg team hosted Dr. Tilo Mathes from RSpace, who gave a talk titled "Research Data Management with RSpace and Galaxy".
 RSpace offers electronic lab notebook ([ELN](https://en.wikipedia.org/wiki/Electronic_lab_notebook)), research data management (RDM),

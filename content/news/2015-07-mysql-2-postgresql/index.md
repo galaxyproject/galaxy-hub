@@ -3,6 +3,9 @@ date: '2015-07-30'
 title: "Moving from MySQL to PostgreSQL"
 tease: "It is pretty simple, though you might hit some obstacles depending on how old your MySQL server is and how much you have manually interfered with the database."
 authors: "Hans-Rudolf Hotz"
+contributions:
+  authorship:
+    - hrhotz
 ---
 After running our Galaxy servers successfully with MySQL as the backend database server for several years, we decided to switch to the recommended PostgreSQL server.
 

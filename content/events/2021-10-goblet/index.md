@@ -13,4 +13,8 @@ gtn: false
 contact: "Christina Hall"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - christinahall
+
 ---

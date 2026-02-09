@@ -12,4 +12,8 @@ external_url: "http://bioinformatics.org.au/winterschool/program/"
 contact: 'Igor Makunin'
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - igormakunin
+
 ---

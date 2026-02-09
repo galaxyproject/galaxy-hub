@@ -6,11 +6,17 @@ supporters:
 - denbi
 - elixir
 - vib
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
+    - vib
 ---
 
 In cooperation with our ELIXIR partner in Belgium, the VIB, we have recently added more than 100 new plant reference genomes and transcriptomes

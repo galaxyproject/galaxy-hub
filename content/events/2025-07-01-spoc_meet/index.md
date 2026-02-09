@@ -9,6 +9,10 @@ gtn: false
 contact:  Wendi Bacon
 tags: single-cell
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - nomadscientist
+
 ---
 
 Join the us for our monthly meeting! Our meeting times roll across months to ensure at least one meeting is work-day friendly for anyone on the planet.

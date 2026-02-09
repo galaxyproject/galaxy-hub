@@ -11,4 +11,8 @@ location_url: http://www.gcb2017.de/
 external_url: 
 contact: Bérénice Batut
 subsites: [global, us]
+contributions:
+  authorship:
+    - bebatut
+
 ---

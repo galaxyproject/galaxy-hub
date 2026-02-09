@@ -12,5 +12,9 @@ image:
 gtn: true
 contact: James Taylor
 subsites: [global, us]
+contributions:
+  authorship:
+    - jxtx
+
 ---
 

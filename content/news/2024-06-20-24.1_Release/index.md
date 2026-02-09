@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-06-20"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 # 24.1 Galaxy Release (June 2024)
 

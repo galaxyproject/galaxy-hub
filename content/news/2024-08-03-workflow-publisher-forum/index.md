@@ -14,6 +14,11 @@ supporters:
   - eu
   - workflowhub
   - elixir
+contributions:
+  authorship:
+    - carolegoble
+  funding:
+    - eurosciencegateway
 ---
 
 Computational workflows describe the complex multi-step methods that are used for data collection, data preparation, analytics, predictive modelling, and simulation that lead to new data products. Data processing tasks like data cleansing, normalisation and knowledge extraction need to be automated stepwise in order to foster performance and standardisation, and offer methodological transparency, reproducibility and re-usability. 

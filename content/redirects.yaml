@@ -1,0 +1,34 @@
+# Centralized redirect definitions for the Galaxy Community Hub
+#
+# These redirects are consumed at build time to generate 301 permanent
+# redirects. They're kept here in the content directory so they stay
+# framework-agnostic and human-editable.
+#
+# Two types of redirects are supported:
+#
+#   1. Simple redirects: exact path-to-path mappings
+#   2. Pattern redirects: dynamic path patterns with placeholders
+#
+# Content-level redirects (individual pages with `redirect:` in their
+# frontmatter) are handled separately and don't need to be listed here.
+
+# Pattern redirects — dynamic path mappings with [...slug] placeholders.
+# These are applied as route-level patterns, not individual redirect pages.
+patterns:
+  /blog/[...slug]: /news/[...slug]
+
+# Simple redirects — exact path mappings (from → to).
+redirects:
+  /admin/authentication/config/: /authnz/config/
+  /admin/authentication/: /authnz/
+  /events/gtn.html: /events/gtn/
+  /admin/internals/galaxy-ops/Help Info.html: /admin/internals/galaxy-ops/help-info/
+  /admin/internals/galaxy-ops/Python.html: /admin/internals/galaxy-ops/python/
+  /admin/internals/galaxy-ops/C.html: /admin/internals/galaxy-ops/c/
+  /blog/2017-10-16-UnicyclerTutorial/: /news/2017-10-16-unicycler-tutorial/
+  /cloudman/CustomizeGalaxyCloud.html: /cloudman/customize-galaxy-cloud/
+  /tutorials/nt_rnaseq/: /tutorials/nt-rnaseq/
+  /tutorials/pt_gfam/: /tutorials/pt-gfam/
+  /tutorials/rb_rnaseq/: /tutorials/rb-rnaseq/
+  /tutorials/var_dip/: /tutorials/var-dip/
+  /tutorials/var_hap/: /tutorials/var-hap/

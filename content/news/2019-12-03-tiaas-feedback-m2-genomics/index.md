@@ -4,11 +4,15 @@ date: '2019-12-03'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: gmauro
-authors_structured:
-- github: gmauro
+authors: Gianmauro Cuccuru
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - gmauro
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 At the end of November, we organized a 2-day workshop (reads quality, short and long reads genome assembly, reads mapping and RNAseq differential gene expression) for 12 master students.

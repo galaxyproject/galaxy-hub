@@ -4,12 +4,14 @@ date: '2019-02-15'
 tags: [data, grants, collaboration]
 location:
   name: Freiburg, Germany
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
 supporters: [denbi, unifrieburg]
+contributions:
+  authorship:
+    - erxleben
 ---
 
 We are really proud to announce that we, as part of de.NBI and with the European Galaxy Server, are part of [Bioinformatics DATa EnviroNment](http://www.biodaten.info/?page=about) (BioDATEN) now!

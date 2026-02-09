@@ -3,6 +3,9 @@ title: "Galaxy + Nextflow at CFSAN, FDA."
 tease: "How Nextflow pipelines are integrated into Galaxy project at CFSAN, FDA."
 authors: "Kranti Konganti"
 date: "2022-08-15"
+contributions:
+  authorship:
+    - krantikonganti
 ---
 
 **Center for Food Safety and Applied Nutrition**'s (**CFSAN**) scientists, reseachers and developers are increasingly adopting [Nextflow](https://www.nextflow.io/index.html) to write purpose-built pipelines to tackle various data intensive research problems. **Nextflow** is a community-driven project which enables scalable and reproducible workflows which can be run almost anywhere using various run time execution environments, software containers or virtual software enviroments. At CFSAN, we are building pipelines using **Nextflow DSL2** modules as the foundation, which are part of the community driven [nf-core](https://github.com/nf-core/modules) effort.

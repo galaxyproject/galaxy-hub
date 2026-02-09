@@ -1,12 +1,31 @@
 ---
 title: "One framework, one workflow, many communities: Freiburg Galaxy team at EOSC Symposium 2025"
 date: "2025-11-13"
-authors: "Armin Dadras, Diana Chiang Jurado"
+authors: [Armin Dadras, Diana Chiang Jurado]
 tease: "Galaxy showed how 'one framework, one workflow, many communities' can run cross-disciplinary imaging analyses on the emerging EOSC Federation. Here is what we presented, with slides and video."
 tags: [eosc, workflows, workflowhub, imaging, fair, interoperability, pulsar, federation, reproducibility, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, climate, esg-wp3]
 supporters: [eosc, unifreiburg, esg, elixir, denbi, nfdi, egi, ifremer, fiesta, workflowhub, dataterra, eubi, dataplant, bmbf]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+    - dianichj
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - eurosciencegateway
+    - elixir-europe
+    - deNBI
+    - nfdi
+    - egi
+    - ifremer
+    - fiesta
+    - workflowhub
+    - dataterra
+    - eubi
+    - nfdi4plants
+    - bmbf
 ---
 At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) in Brussels, Björn Grüning demonstrated a scientific use case powered by Galaxy on federated European infrastructure: processing massive imaging datasets with reusable workflows that work across domains, from astrophysics to climate and marine science, and into the life sciences. The demo highlighted how authenticated access, interoperable services, and portable workflows accelerate discovery once nodes interconnect.
 

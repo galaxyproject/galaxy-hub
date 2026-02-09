@@ -8,6 +8,9 @@ supporters:
 - denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
 ---
 
 We are offering another Galaxy workshop on HTS data analysis. Please apply [here](https://drive.google.com/open?id=1qnFUCHvyvBHt5OA97puq9sQ83yp8nKSg-EiUQznN4Jw).

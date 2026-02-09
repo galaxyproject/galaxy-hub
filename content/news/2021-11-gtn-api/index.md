@@ -9,6 +9,11 @@ supporters:
 - elixir
 - gallantries
 subsites: [all-eu, global, us]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---
 
 As part of the work for the Gallantries Grant, we wanted to access some of the data from the GTN in a more accessible, API based way. We are working on building a Video Library based on the wild success of our Smörgåsbord and GCC2021 events and to support that we wanted to start pulling in data from the GTN to save course authors time and effort when designing their asynchronous courses.

@@ -12,6 +12,10 @@ gtn: false
 contact: Wolfgang Maier
 tags: [training, community-call, covid-19, workflow, community]
 subsites: [all]
+contributions:
+  authorship:
+    - wm75
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A1gTKwjvgrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

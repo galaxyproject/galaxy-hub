@@ -12,4 +12,8 @@ gtn: true
 contact: Martin Čech, Petr Novák
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - martenson
+
 ---

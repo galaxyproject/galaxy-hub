@@ -4,10 +4,16 @@ date: '2024-08-30'
 tease: "Optimized AlphaFold2-based protein structure prediction now available for all"
 hide_tease: false
 tags: [us, tools]
-authors: "Alex Ostrovsky, Nate Coraor"
+authors:
+- Alex Ostrovsky
+- Nate Coraor
 contact: "nate@bx.psu.edu"
 subsites: [us]
 main_subsite: us
+contributions:
+  authorship:
+    - astrovsky01
+    - natefoo
 ---
 <img src="https://raw.githubusercontent.com/sokrypton/ColabFold/main/.github/ColabFold_Marv_Logo.png" alt="ColabFold Logo" height="200" style="float:right" />
 

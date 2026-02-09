@@ -7,4 +7,7 @@ date: "2022-01-12"
 source_blog: "Outreachy internship program"
 source_blog_url: "https://www.outreachy.org/"
 autotoc: false
+contributions:
+  authorship:
+    - mariipia10
 ---

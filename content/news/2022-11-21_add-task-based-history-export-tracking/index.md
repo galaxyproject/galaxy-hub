@@ -10,6 +10,12 @@ subsites: [all,esg]
 supporters:
   - eurosciencegateway
   - unifreiburg
+contributions:
+  authorship:
+    - davelopez
+  funding:
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 ## TLDR

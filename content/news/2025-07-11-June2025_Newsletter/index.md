@@ -5,6 +5,9 @@ authors: Natalie Whitaker-Allen
 tease: "From groundbreaking research to hands-on workshops and live demos, GBCC2025 showcased the best of the Galaxy and Bioconductor communities."
 hide_tease: false
 subsites: [global, all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 <h1 align="center">Galaxy and Bioconductor Community Conference 2025

@@ -13,5 +13,9 @@ gtn: false
 contact: "Michael C. Schatz, Delphine Larivière, Alex Ostrovsky"
 tags: ["workshop"]
 subsites: [all]
+contributions:
+  authorship:
+    - astrovsky01
+    - delphine-l
 
 ---

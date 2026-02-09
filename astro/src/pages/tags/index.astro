@@ -1,14 +1,14 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
-import { getAllTags } from '../../utils/content';
+import { getTagIndex } from '../../utils/tagIndex';
 
-// Get all tags with counts
-const tagCounts = await getAllTags();
+// Get all tags with counts from cached index
+const index = await getTagIndex();
 
 // Convert to sorted array and calculate stats
-const tags = Array.from(tagCounts.entries())
-  .map(([tag, count]) => ({ tag, count }))
+const tags = Array.from(index.entries())
+  .map(([tag, profile]) => ({ tag, count: profile.count }))
   .sort((a, b) => {
     // Sort by count descending
     if (b.count !== a.count) return b.count - a.count;

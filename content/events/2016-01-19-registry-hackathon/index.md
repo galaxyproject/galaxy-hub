@@ -18,6 +18,11 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 This hackathon is organized by de.NBI and ELIXIR and will take place in Freiburg. It will include status talks of the ELIXIR Registry, Tool Sheds and Galaxy.

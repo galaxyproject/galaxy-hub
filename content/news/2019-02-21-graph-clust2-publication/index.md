@@ -8,6 +8,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Our paper "Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering" is now available as preprint on [bioRXiv](https://doi.org/10.1101/550335). Congratulation to Milad and co-authors!

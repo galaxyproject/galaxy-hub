@@ -3,10 +3,11 @@ title: 'UseGalaxy.eu Use Case: Marine turtle tumour disease'
 date: '2021-09-03'
 tags: [UseCase]
 authors: Liam Whitmore
-authors_structured:
-- name: Liam Whitmore
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - liamwhitmore
 ---
 
 [__Liam Whitmore__](https://www.ul.ie/scieng/liam-whitmore) from the Department of Biological Sciences School of Natural Sciences of the [University of Limerick](https://www.ul.ie) in Ireland works on marine turtle tumour disease. Thanks for using Galaxy for your research!

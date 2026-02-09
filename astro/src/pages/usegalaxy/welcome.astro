@@ -393,8 +393,16 @@ const carouselSlides = [
     }
 
     <script>
-      // Simple carousel functionality
-      document.addEventListener('DOMContentLoaded', () => {
+      // Track interval for cleanup on navigation
+      let welcomeCarouselInterval: ReturnType<typeof setInterval> | undefined;
+
+      function initWelcomeCarousel() {
+        // Clean up any existing interval from previous navigation
+        if (welcomeCarouselInterval) {
+          clearInterval(welcomeCarouselInterval);
+          welcomeCarouselInterval = undefined;
+        }
+
         const carousel = document.getElementById('welcome-carousel');
         if (!carousel) return;
 
@@ -404,7 +412,6 @@ const carouselSlides = [
         const nextBtn = document.getElementById('next-btn');
 
         let currentSlide = 0;
-        let autoPlayInterval: ReturnType<typeof setInterval>;
 
         function showSlide(index: number) {
           // Wrap around
@@ -428,11 +435,14 @@ const carouselSlides = [
         }
 
         function startAutoPlay() {
-          autoPlayInterval = setInterval(nextSlide, 3000);
+          welcomeCarouselInterval = setInterval(nextSlide, 3000);
         }
 
         function stopAutoPlay() {
-          clearInterval(autoPlayInterval);
+          if (welcomeCarouselInterval) {
+            clearInterval(welcomeCarouselInterval);
+            welcomeCarouselInterval = undefined;
+          }
         }
 
         // Event listeners
@@ -462,6 +472,17 @@ const carouselSlides = [
 
         // Start autoplay
         startAutoPlay();
+      }
+
+      // Run on initial load and after view transitions
+      document.addEventListener('astro:page-load', initWelcomeCarousel);
+
+      // Clean up interval when navigating away
+      document.addEventListener('astro:before-swap', () => {
+        if (welcomeCarouselInterval) {
+          clearInterval(welcomeCarouselInterval);
+          welcomeCarouselInterval = undefined;
+        }
       });
     </script>
   </body>

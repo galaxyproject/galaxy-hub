@@ -18,6 +18,10 @@ supporters:
 - emed
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 In this training course, we provide a summary of the applications of Next Generation Sequencing (NGS) technologies in the clinical context. These are presented through a hands-on session on RNA-Seq data analysis, following a use case to study a clinical NGS dataset. Leveraging on the Galaxy environment, we guide the participants through all relevant steps for carrying out the analysis, as well as linking the obtained results with current gene-disease-related databases, or other relevant resources to highlight the clinical impact of the technology. Finally, we discuss our audience's NGS experiments, and provide advice on their NGS data analysis approaches.

@@ -16,4 +16,9 @@ links:
   - text: "Video"
     url: "https://youtu.be/0IzmfebWtUU"
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+    - supernord
+
 ---

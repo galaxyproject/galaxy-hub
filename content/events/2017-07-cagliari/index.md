@@ -11,4 +11,8 @@ external_url: https://elixir-iib-training.github.io/website/2017/07/03/Galaxy-Ca
 gtn: true
 contact: Gianmauro Cuccuru
 subsites: [global, us]
+contributions:
+  authorship:
+    - gmauro
+
 ---

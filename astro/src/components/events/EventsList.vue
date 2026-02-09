@@ -2,6 +2,9 @@
 import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import { renderMarkdownInline } from '@/utils/markdown';
+import { formatDateRange } from '@/utils/dateUtils';
+import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface EventData {
   slug: string;
@@ -16,6 +19,7 @@ interface EventData {
       }
     | string;
   subsites?: string[] | string;
+  externalUrl?: string;
 }
 
 const props = defineProps<{
@@ -183,24 +187,6 @@ watch(selectedPastYear, (year) => {
   updateUrl(year);
 });
 
-function formatDate(date: string | undefined): string {
-  if (!date) return '';
-  return new Date(date).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
-}
-
-function formatDateRange(start: string | undefined, end?: string): string {
-  if (!start) return '';
-  const startDate = new Date(start);
-  if (!end) return formatDate(start);
-  const endDate = new Date(end);
-  if (startDate.getTime() === endDate.getTime()) return formatDate(start);
-  return `${formatDate(start)} - ${formatDate(end)}`;
-}
-
 function getLocationText(location: EventData['location']): string {
   if (!location) return '';
   if (typeof location === 'string') return location;
@@ -242,8 +228,9 @@ function buildUrl(slug: string): string {
               <div class="flex-1">
                 <h3 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
                   {{ event.title || 'Untitled Event' }}
+                  <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                 </h3>
-                <p v-if="event.tease" class="text-gray-600 mt-1">{{ event.tease }}</p>
+                <p v-if="event.tease" class="text-gray-600 mt-1" v-html="renderMarkdownInline(event.tease)"></p>
                 <p v-if="event.location" class="text-sm text-gray-500 mt-2 flex items-center gap-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -342,6 +329,7 @@ function buildUrl(slug: string): string {
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
               <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
                 {{ event.title || 'Untitled Event' }}
+                <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
               </h3>
               <time v-if="event.date" class="text-sm text-gray-500">
                 {{ formatDateRange(event.date, event.end) }}

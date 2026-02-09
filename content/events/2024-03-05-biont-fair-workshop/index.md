@@ -10,4 +10,8 @@ external_url: "https://www.cecam.org/workshop-details/1349"
 gtn: false
 contact: "Teresa Müller"
 subsites: [all]
+contributions:
+  authorship:
+    - teresa-m
+
 ---

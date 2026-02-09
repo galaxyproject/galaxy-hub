@@ -9,4 +9,9 @@ external_url: "https://eubias.org/NEUBIAS/training-schools/neubias-academy-home/
 gtn: false
 contact: "Beatriz Serrano-Solano, Björn Grüning"
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - beatrizserrano
+    - bgruening
+
 ---

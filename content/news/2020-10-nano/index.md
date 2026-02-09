@@ -8,6 +8,9 @@ supporters:
 - unifreiburg
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - uni-freiburg
 ---
 
 _Abstract_ - Long-read sequencing can be applied to generate very long contigs and even completely assembled genomes at relatively low cost and with minimal sample preparation. As a result, long-read sequencing platforms are becoming more popular. 

@@ -12,4 +12,8 @@ gtn: true
 contact: "Grace Hall"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - GraceAHall
+
 ---

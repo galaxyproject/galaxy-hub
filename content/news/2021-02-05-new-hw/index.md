@@ -7,11 +7,15 @@ location:
 supporters:
 - denbi
 - bmbf
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - bmbf
 ---
 
 The __[de.NBI-Cloud](https://www.denbi.de/cloud) located in Freiburg__  has been expanded with more than 11 TB of RAM. In particular, 10 machines have been upgraded to 1 TB of RAM, which will allow more virtual machines with high memory requirements to run in parallel.

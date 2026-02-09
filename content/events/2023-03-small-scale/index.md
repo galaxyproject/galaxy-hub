@@ -9,6 +9,10 @@ gtn: false
 contact: Lucille Delisle
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - lldelisle
+
 ---
 
 

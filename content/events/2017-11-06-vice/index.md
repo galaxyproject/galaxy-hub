@@ -17,6 +17,7 @@ supporters:
 - ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+
 ---
 
 In this [ViCE](https://www.rz.uni-freiburg.de/rz/aktuell/vice-gestartet) workshop we will give a talk and introduce Conda, Docker, and VMs.

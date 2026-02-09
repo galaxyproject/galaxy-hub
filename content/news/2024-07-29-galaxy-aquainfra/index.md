@@ -13,4 +13,9 @@ supporters:
   - unifreiburg
   - eu
   - eosc
+contributions:
+  authorship:
+    - markuskonkol
+  funding:
+    - eurosciencegateway
 ---

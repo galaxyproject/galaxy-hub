@@ -4,11 +4,13 @@ date: '2019-09-30'
 location:
   name: Freiburg
 tags: [training]
-authors: erxleben
-authors_structured:
-- github: erxleben
+authors: 
+- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
 ---
 
 Last week, the Freiburg Galaxy team taught another Galaxy workshop on HTS data analysis. It takes place every year in February and September in Freiburg. In an intense full week, we are teaching for Galaxy beginners in a real hands-on training course the use of Galaxy and its application in data analysis of RNAseq, ChIPseq, HiC, and DNA methylation. We tested the new computer rooms in the city center of Freiburg and found them really nice (a CIP pool with daylight!). In this workshop, we had 29 particpants from Germany and Europe.

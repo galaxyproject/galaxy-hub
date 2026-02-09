@@ -6,6 +6,9 @@ authors: "Natalie Whitaker-Allen"
 date: "2024-10-01"
 tags: ["highlight"]
 subsites: [global,all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # **Galaxy in Research: New insights into antibody activation using AlphaFold in Galaxy**  

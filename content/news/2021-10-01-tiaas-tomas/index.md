@@ -5,11 +5,15 @@ tease: 'Watch out for that My Little Pony baby stroller.'
 tags: [training, tiaas, outreach, covid-19]
 supporters:
 - galaxy-europe
-authors: TKlingstrom
-authors_structured:
-- github: TKlingstrom
+authors: Tomas Klingström
 subsites: [global, us, all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - TKlingstrom
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 _"Dad, I am bleeding!"_ are words no parent wish to hear. 

@@ -1,6 +1,6 @@
 ---
 title: 'New Paper "Guidance framework to apply best practices in ecological data analysis: lessons learned from building Galaxy-Ecology"'
-authors: Bérénice Batut, Yvan Le Bras
+authors: [Bérénice Batut, Yvan Le Bras]
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-03-21'
@@ -9,6 +9,10 @@ hide_tease: true
 tags:
 - paper
 - ecology
+contributions:
+  authorship:
+    - bebatut
+    - yvanlebras
 ---
 
 We are excited to share our recent publication in *GigaScience*: "Guidance framework to apply best practices in ecological data analysis: lessons learned from building Galaxy-Ecology." This paper presents a practical framework aimed at improving transparency, reproducibility, and efficiency in ecological research by leveraging the Galaxy-Ecology platform.

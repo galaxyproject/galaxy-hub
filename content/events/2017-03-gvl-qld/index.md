@@ -10,6 +10,10 @@ external_url: https://genomicsvirtuallab.wordpress.com/2017/02/15/next-meeting-o
 contact: Igor Makunin
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - igormakunin
+
 ---
 Additional Resources:
 

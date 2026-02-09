@@ -13,6 +13,10 @@ supporters:
   - eurosciencegateway
   - egi
 main_subsite: eu
+contributions:
+  funding:
+    - eurosciencegateway
+    - egi
 ---
 
 Galaxy supports [python-social-auth](https://github.com/python-social-auth) for

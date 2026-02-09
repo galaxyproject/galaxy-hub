@@ -13,4 +13,8 @@ image:
 gtn: false
 contact: "Nuwan Goonasekera"
 subsites: [global, us]
+contributions:
+  authorship:
+    - nuwang
+
 ---

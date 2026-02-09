@@ -6,6 +6,9 @@ tease: "From public-health genomics to hibernating hedgehogs (and even turtle co
 hide_tease: false
 subsites: [global, all]
 tags: [newsletter]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # September 2025 Galaxy Newsletter

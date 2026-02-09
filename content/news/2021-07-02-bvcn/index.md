@@ -7,11 +7,15 @@ tags: [talk]
 supporters:
 - elixir
 - denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 The [Bioinformatics Virtual Coordination Network (BVCN)](https://biovcnet.github.io/) is committed to reducing entry barriers into bioinformatics for researchers. For the first time in June 2021, this online conference brought together early career researchers (ECRs) from across the globe who are equally committed to reducing such entry barriers, and who would like to exchange and share their research and bioinformatics experiences in a step-by-step format with a global and interdisciplinary audience.

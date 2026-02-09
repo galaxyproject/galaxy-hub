@@ -5,11 +5,12 @@ date: '2019-04-26'
 location:
   name: Roscoff, France
 tags: [training]
-authors: bebatut
-authors_structured:
-- github: bebatut
+authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
 ---
 
 Last week, the [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) organized a [4-days workshop related to Galaxy tool integration and training]({% link _events/2019-01-28-roscoff-workshop.md %}). This event was hosted by the [Biological station of Roscoff](http://www.sb-roscoff.fr/), in the (sunny/rainy) beautiful Brittany (France).

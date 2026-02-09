@@ -7,6 +7,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 During the [de.NBI Symposium 2017](https://www.denbi.de/symposium2017), Bérénice presented the poster "Building an open, collaborative, online infrastructure for bioinformatics training".

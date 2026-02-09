@@ -12,4 +12,8 @@ gtn: true
 contact: Gareth Price
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - GarethPrice-Aus
+
 ---

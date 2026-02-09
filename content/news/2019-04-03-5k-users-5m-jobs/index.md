@@ -5,11 +5,15 @@ tags: [devops]
 supporters:
 - denbi
 - elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This week [we](https://usegalaxy-eu.github.io/freiburg/people) are celebrating 5 million jobs and 5 thousand users.

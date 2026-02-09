@@ -7,4 +7,7 @@ external_url: "https://depot.galaxyproject.org/hub/attachments/blog/2020-08-trai
 source_blog: "SASBi News"
 source_blog_url: "http://sasbi.weebly.com/"
 tags: [covid-19, training]
+contributions:
+  authorship:
+    - pvanheus
 ---

@@ -6,11 +6,14 @@ tags: [COVID-19, talk, elixir, webinar]
 supporters:
 - elixir
 - unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - elixir-europe
 ---
 
 <br>

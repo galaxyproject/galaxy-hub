@@ -17,6 +17,13 @@ links:
   url: https://youtu.be/H4oPneXH5hI
 tags: [devroundtable, training, webinar]
 subsites: [all-eu, global, us]
+contributions:
+  authorship:
+    - assuntad23
+    - davelopez
+    - jmchilton
+    - ksuderman
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H4oPneXH5hI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

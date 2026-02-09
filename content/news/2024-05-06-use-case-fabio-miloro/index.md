@@ -4,10 +4,11 @@ date: '2024-05-13'
 tags: [UseCase,dataplant]
 tease: "A report out of Galaxy Europe's user space, by Fabio Miloro"
 authors: Fabio Miloro
-authors_structured:
-- name: Fabio Miloro
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - fabiomiloro
 ---
 
 With this article we like to share Fabio's experience with usegalaxy.eu and its use for his research.

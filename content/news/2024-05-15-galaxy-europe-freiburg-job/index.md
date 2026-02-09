@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-05-15'
 external_url: https://training.galaxyproject.org/training-material/news/2024/05/15/galaxy-europe-freiburg-job.html
 main_subsite: global

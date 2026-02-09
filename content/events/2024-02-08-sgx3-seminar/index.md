@@ -10,4 +10,8 @@ external_url: "https://sciencegateways.org/sgx3webinars"
 gtn: false
 contact: "Enis Afgan"
 subsites: [all]
+contributions:
+  authorship:
+    - afgane
+
 ---

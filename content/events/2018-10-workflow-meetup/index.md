@@ -12,4 +12,8 @@ image:
 gtn: false
 contact: "Manabu ISHII "
 subsites: [global, us]
+contributions:
+  authorship:
+    - manabuishii
+
 ---

@@ -34,20 +34,21 @@ const upcomingEvents = allEvents
   })
   .slice(0, 5);
 
-function formatDate(date: Date | string | undefined): string {
+// Compact date format without year for embedded feed display
+function formatCompactDate(date: Date | string | undefined): string {
   if (!date) return '';
   const d = typeof date === 'string' ? new Date(date) : date;
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
-function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
+function formatCompactDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
   if (!start) return '';
-  const startStr = formatDate(start);
+  const startStr = formatCompactDate(start);
   if (!end) return startStr;
   const startD = typeof start === 'string' ? new Date(start) : start;
   const endD = typeof end === 'string' ? new Date(end) : end;
   if (startD.toDateString() === endD.toDateString()) return startStr;
-  return `${startStr} - ${formatDate(end)}`;
+  return `${startStr} - ${formatCompactDate(end)}`;
 }
 ---
 
@@ -136,7 +137,7 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
                 <a href={`https://galaxyproject.org/events/${slug}/`} target="_blank">
                   {event.data.title}
                 </a>
-                <span class="event-date">{formatDateRange(event.data.date, event.data.date_end)}</span>
+                <span class="event-date">{formatCompactDateRange(event.data.date, event.data.date_end)}</span>
                 {locationStr && <span class="event-location"> · {locationStr}</span>}
               </div>
             );

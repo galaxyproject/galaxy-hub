@@ -2,11 +2,12 @@
 title: PathwayMatcher published and running on usegalaxy.eu
 date: '2019-08-20'
 tags: [tools]
-authors: bgruening
-authors_structured:
-- github: bgruening
+authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 [PathwayMatcher](https://doi.org/10.1093/gigascience/giz088) builds a protein-protein interaction network from the Reactome pathway database.

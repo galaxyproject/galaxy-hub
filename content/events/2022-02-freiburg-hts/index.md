@@ -21,6 +21,12 @@ continent: GL
 gtn: true
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - crc1425
+    - deNBI
+    - sfb992
+
 ---
 
 We are offering a Galaxy workshop on high-throughput data analysis. This is an 

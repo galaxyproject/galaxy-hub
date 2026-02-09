@@ -14,6 +14,10 @@ supporters:
 external_url: https://docs.google.com/document/d/1VA_9_1TOECPL26exs4Nyow_Y2V9RGzOnzF0WYcmLxyo/edit?usp=sharing
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
  Workshop at the ELIXIR All Hands 2022 meeting

@@ -12,6 +12,10 @@ image: /images/logos/csusm-logo.gif
 gtn: true
 contact: Arun Sethuraman, Dave Clements
 subsites: [global, us]
+contributions:
+  authorship:
+    - tnabtaf
+
 ---
 
 * **9:00-5:00**

@@ -7,7 +7,6 @@ days: 4
 tags:
 - new event-external
 title: Genome Informatics
-contact: ''
 location:
   name: Cold Spring Harbor, NY, USA
 continent: NA

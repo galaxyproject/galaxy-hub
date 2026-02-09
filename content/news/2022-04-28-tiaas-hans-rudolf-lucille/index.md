@@ -6,13 +6,15 @@ supporters:
 - galaxy-europe
 tease: 'After 2 years running the SIB "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person.'
 hide_tease: true
-authors: Hans-Rudolf Hotz and Lucille Delisle
-authors_structured:
-- name: Hans-Rudolf Hotz
-  github: hrhotz
-- name: Lucille Delisle
-  github: ldelisle
+authors: [Hans-Rudolf Hotz, Lucille Delisle]
 subsites: [all-eu]
+contributions:
+  authorship:
+    - hrhotz
+    - lldelisle
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 After 2 years running the [SIB](https://www.sib.swiss/) "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person. Thanks to TIaaS, we could offer the students an easy to set up

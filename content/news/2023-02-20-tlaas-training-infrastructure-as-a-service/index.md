@@ -11,6 +11,9 @@ supporters:
 external_url: "https://www.eosc-life.eu/news/success-story-tlaas-training-infrastructure-as-a-service"
 subsites: [all-eu, all]
 main_subsite: eu
+contributions:
+  funding:
+    - eosc-life
 ---
 
 The “TIaaS: Training Infrastructure as a Service” initiative was awarded funding by EOSC-Life through the Second Training Open Call.

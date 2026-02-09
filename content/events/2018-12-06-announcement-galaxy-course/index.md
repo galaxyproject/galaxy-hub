@@ -24,6 +24,10 @@ supporters:
 hidefooter: true
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Galaxy workshop on RNA-seq data analysis, December 2018, registration is open! For attendance, please apply to

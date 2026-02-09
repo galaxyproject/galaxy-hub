@@ -13,4 +13,8 @@ gtn: true
 contact: "Maryam Kay, Fariba Dehghanian, Alireza Khanteymoori"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - khanteymoori
+
 ---

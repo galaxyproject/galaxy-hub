@@ -8,6 +8,9 @@ subsites: [all-eu, esg]
 main_subsite: eu
 supporters:
   - eurosciencegateway
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 Astronomy community will be one of the domain use cases of EuroScienceGateway project [WP5](https://galaxyproject.org/projects/esg/news/?tag=esg-wp5).

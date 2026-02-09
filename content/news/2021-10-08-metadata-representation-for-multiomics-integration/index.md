@@ -10,6 +10,9 @@ supporters:
 - unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - uni-freiburg
 ---
 
 

@@ -13,4 +13,8 @@ contact: "Andrew Lonie, Christina Hall"
 image: 
 tags: []
 subsites: [global, us]
+contributions:
+  authorship:
+    - christinahall
+
 ---

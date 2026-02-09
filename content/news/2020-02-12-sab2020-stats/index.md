@@ -8,6 +8,11 @@ supporters:
 - eosc
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - eosc-life
 ---
 
 In the next days we will attend our yearly de.NBI SAB meeting. Time to look at some statistics.

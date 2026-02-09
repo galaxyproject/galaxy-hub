@@ -3,6 +3,9 @@ date: '2023-07-14'
 title: "Fighting Galactic Misconceptions (FGB): Misconception 1"
 tease: "Is Galaxy only useful for genome scientists? Absolutely Not!"
 authors: "Anton Nekrutenko"
+contributions:
+  authorship:
+    - nekrut
 ---
 
 This is the first post in a series explaining why major misconceptions about Galaxy are, well, misconceptions. Galaxy does a lot of things and contains many components, making it difficult to quickly comprehend everything that it can do. It also evolves [rapidly](https://docs.galaxyproject.org/en/master/releases/index.html). As a result, there is a number of misconceptions about what it is and what can (or cannot) be done with it. To spread the ultimate knowledge across the Universe, we are starting the “Fighting Galactic Misconceptions (FGBs)” series. You might note that the word "Misconceptions" is abbreviated as "B" because misconceptions are generally **B**ullsh\*t (yes, we were definitely inspired by a certain [effort](https://www.callingbullshit.org/)). This series identifies the most common misconceptions and explains why they are, simply put, BULLSH\*T! 

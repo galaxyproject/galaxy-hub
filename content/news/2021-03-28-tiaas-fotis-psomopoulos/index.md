@@ -4,11 +4,15 @@ date: '2021-03-28'
 tags: [training, tiaas]
 supporters:
 - galaxy-europe
-authors: fpsom
-authors_structured:
-- github: fpsom
+authors: Fotis E. Psomopoulos
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - fpsom
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 In November 2020 I was invited to give a lecture on RNA-Seq data analysis in the context of the graduate program on Precision Medicine of the School of Medicine at the Aristotle University of Thessaloniki. This was part of the first-year course on Bioinformatics and, given that it was aimed for graduate students, I proposed to offer a practical, hands-on course. Given the short time frame, and aiming to minimize any lost time due to differences in computer setup, I proposed the use of the Galaxy TIaaS by the participants. 

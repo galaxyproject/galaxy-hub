@@ -6,4 +6,7 @@ external_url: "https://www.biocommons.org.au/news/galaxy-aus-high-memory-test"
 date: "2021-08-07"
 source_blog: "Australian BioCommons"
 source_blog_url: "https://www.biocommons.org.au/news"
+contributions:
+  authorship:
+    - christinahall
 ---

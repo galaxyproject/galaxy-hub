@@ -6,6 +6,9 @@ tags: [collaboration, usecase, esg, esg-wp3]
 subsites: [global,all,esg]
 supporters:
   - eurosciencegateway
+contributions:
+  funding:
+    - eurosciencegateway
 ---
 
 Science is most efficient when researchers share their data and results, so others can re-use them. Some datasets, however, cannot easily be shared

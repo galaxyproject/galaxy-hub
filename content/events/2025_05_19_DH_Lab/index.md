@@ -11,6 +11,10 @@ contact: Daniela Schneider
 gtn: true
 tags: [workshop]
 subsites: [all]
+contributions:
+  authorship:
+    - Sch-Da
+
 ---
 
 # Workshop - Introduction to Galaxy for Digital Humanities and Research Data Management

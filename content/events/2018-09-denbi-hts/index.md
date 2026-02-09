@@ -12,4 +12,8 @@ external_url:
 contact: Freiburg Galaxy Team
 gtn: true
 subsites: [global, us]
+contributions:
+  authorship:
+    - freiburggalaxyteam
+
 ---

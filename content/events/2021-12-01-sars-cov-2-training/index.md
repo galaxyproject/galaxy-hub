@@ -15,6 +15,13 @@ supporters:
 - bycovid
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - by-covid
+    - elixir-converge
+    - gallantries
+
 ---
 
 <br>

@@ -15,6 +15,11 @@ contact: Lucille Delisle, Hans-Rudolf Hotz
 image: /images/logos/SIB_Logo_trans_background.png
 tags: [training]
 subsites: [all]
+contributions:
+  authorship:
+    - hrhotz
+    - lldelisle
+
 ---
 
 This course will give a general introduction on the galaxy web-page structure, how to import data, run tools, and share analyses. Participants will run a whole NGS analysis using an RNA-seq dataset as an example.

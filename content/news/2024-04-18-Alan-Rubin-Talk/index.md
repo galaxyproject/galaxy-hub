@@ -1,9 +1,13 @@
 ---
 title: "Talk by Alan Rubin in Freiburg"
 date: "2024-04-18"
-authors: Engy Nasr, Polina Polunina 
+authors: [Engy Nasr, Polina Polunina]
 tease: "Bioinformatics club talk by Alan Rubin: Analyzing and Sharing Data from High-throughput Mutagenesis Experiments"
 subsites: [all-eu]
+contributions:
+  authorship:
+    - EngyNasr
+    - plushz
 ---
 
 Modern functional genomics techniques, like deep mutational scanning (DMS), have revolutionized genetic research, enabling scientists to evaluate the impact of thousands of genetic variants simultaneously. Alan Rubin, from Walter and Eliza Hall Institute of Medical Research in Melbourne, Australia, visited Freiburg Galaxy on 18.04.2024 and shared insights into these cutting-edge methods in a talk **Analyzing and Sharing Data from High-throughput Mutagenesis Experiments** given within [Bioinformatics club](https://bioinformatik-club.imbi.uni-freiburg.de/en/node/140).

@@ -11,6 +11,10 @@ contact: Wendi Bacon
 gtn: true
 tags: [cofest, single-cell]
 subsites: [all]
+contributions:
+  authorship:
+    - nomadscientist
+
 ---
 
 Join our Single-cell and sPatial Omics Community of Practice by following the [link to our event](https://training.galaxyproject.org/training-material/events/2024-12-06-spoc-cofest-2024.html)!

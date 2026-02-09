@@ -6,11 +6,16 @@ tags: [tools]
 supporters:
 - galaxy-europe
 - miracum
-authors: wm75
-authors_structured:
-- github: wm75
+authors: Wolfgang Maier
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - wm75
+  funding:
+    - deNBI
+    - elixir-europe
+    - miracum
 ---
 
 <table><tr><td>

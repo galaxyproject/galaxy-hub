@@ -2,11 +2,12 @@
 title: ELIXIR-Italy launches Laniakea@ReCaS, a Galaxy “on-demand” platform
 date: '2020-03-01'
 tags: [tools]
-authors: mtangaro
-authors_structured:
-- github: mtangaro
+authors: Marco Antonio Tangaro
 subsites: [eu, elixir-it]
 main_subsite: elixir-it
+contributions:
+  authorship:
+    - mtangaro
 ---
 
 ELIXIR-ITALY has officially announced the [Laniakea@ReCaS Call](https://laniakea-elixir-it.github.io/laniakea_at_recas), starting on 10 February 2020. The ELIXIR-ITALY Laniakea@ReCaS Call offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances through the [Laniakea platform](https://laniakea-elixir-it.github.io). Users of the service will be able to configure, launch, and manage their Galaxy instance(s) on the Cloud using a user-friendly interface. 

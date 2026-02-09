@@ -16,8 +16,39 @@ export const subsites = [
 
 export type SubsiteId = (typeof subsites)[number]['id'];
 
-// Current subsite state
-export const currentSubsite = atom<SubsiteId>('global');
+// Helper: detect subsite from URL path
+export function detectSubsiteFromPath(path: string): SubsiteId {
+  for (const subsite of subsites) {
+    if (subsite.path && subsite.path !== '/' && path.startsWith(subsite.path)) {
+      return subsite.id;
+    }
+  }
+  return 'global';
+}
+
+// Initialize with correct value from URL (client-side only)
+function getInitialSubsite(): SubsiteId {
+  if (typeof window !== 'undefined') {
+    return detectSubsiteFromPath(window.location.pathname);
+  }
+  return 'global';
+}
+
+// Current subsite state - initialized from URL to avoid hydration flash
+export const currentSubsite = atom<SubsiteId>(getInitialSubsite());
+
+// Update store on view transitions - only when URL explicitly has a subsite prefix
+// This preserves user's subsite selection when navigating to non-prefixed URLs
+if (typeof window !== 'undefined') {
+  document.addEventListener('astro:after-swap', () => {
+    const urlSubsite = detectSubsiteFromPath(window.location.pathname);
+    // Only update if URL has an explicit subsite prefix (not 'global')
+    // This way, selecting US then clicking /events/ keeps US selected
+    if (urlSubsite !== 'global' && currentSubsite.get() !== urlSubsite) {
+      currentSubsite.set(urlSubsite);
+    }
+  });
+}
 
 // Computed: get current subsite info
 export const currentSubsiteInfo = computed(currentSubsite, (id) => {
@@ -40,14 +71,4 @@ export function setSubsite(id: SubsiteId) {
       currentSubsite.set(id);
     }
   }
-}
-
-// Helper: detect subsite from URL path
-export function detectSubsiteFromPath(path: string): SubsiteId {
-  for (const subsite of subsites) {
-    if (subsite.path && subsite.path !== '/' && path.startsWith(subsite.path)) {
-      return subsite.id;
-    }
-  }
-  return 'global';
 }

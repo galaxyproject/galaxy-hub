@@ -11,4 +11,8 @@ gtn: false
 contact: "Enis Afgan"
 tags: [conference]
 subsites: [all]
+contributions:
+  authorship:
+    - afgane
+
 ---

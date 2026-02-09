@@ -14,6 +14,10 @@ supporters:
 - elixir
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 The 2020 Galaxy Admin Training will take place in Barcelona at the beginning of March, find all the details and register [here](https://galaxyproject.org/events/2020-03-admin/)!

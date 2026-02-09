@@ -1,161 +1,204 @@
 ---
-description: "Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics or proteomics, this is the place to be!"
+description: "Explore microbiological data analysis in Galaxy. Whether you're working with microbiome samples, bacterial isolates, or multi-omics datasets, the microGalaxy community is for you!"
 autotoc: true
-title: "Microbial data analysis in Galaxy"
+title: "Microbiological Data Analysis in Galaxy"
 ---
 
 <slot name="/community/sig/common_linkbox" />
 
-Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics,  transcriptomics, proteomics or metabolomics, multiomics or integrative analysis **this is the place to be**!
+<img class="img-fluid float-left" src="/community/sig/microbial/microgalaxy-logo.png" style="width:140px; margin-right: 30px;" alt="microGalaxy logo"/>
 
-**[microGalaxy](#microgalaxy-community)** is a community of practice in the Galaxy community for anything regarding microbial data analysis in Galaxy!
+**Welcome to the microGalaxy Community**
 
+Your hub for **microbiological data analysis** in Galaxy, whether you're analyzing microbiome samples, bacterial isolates, long or short reads, shotgun or 16S data, genomics, transcriptomics, proteomics, metabolomics, or multi-omics integrative analyses.
 
-# What is available?
+# Community Goals
 
+Since **2021**, the microGalaxy community has focused on:
+- **Coordinating efforts** across the Galaxy ecosystem to minimize redundancy in tools, workflows, and training.
+- **Sharing advancements** within and beyond the Galaxy community.
+- **Supporting collaboration** among users, developers, and trainers.
 
-## Tools
+We also aim to:
+- **Develop and maintain** microbiological data analysis tools and workflows in Galaxy.
+- **Standardize best practices** for FAIR (Findable, Accessible, Interoperable, Reusable) microbiological data analysis.
+- **Expand documentation and training** to make learning accessible for all skill levels.
 
-**Many tools for microbial data analysis are freely available** in the ToolShed which can be installed on any Galaxy server. To keep an overview, the *[microGalaxy](#microgalaxy-community)* community of practice maintains a **curated list** of the **200+ tools** available.
+# Who Are We?
+
+We are a diverse group of **users, developers, trainers, and bioinformaticians** passionate about advancing microbiological data analysis in Galaxy. **Everyone is welcome!**
+
+- **Developers:** Developing microbiological tools or workflows in Galaxy? Looking for collaborators or testers? Join us!
+- **Users:** Analyzing microbiome samples, bacterial isolates, or multi-omics data? Share your feedback, test new resources, or request tools.
+- **Trainers:** Using Galaxy for training? Help us improve resources and support users.
+- **Bioinformaticians:** Contribute your expertise to ensure our tools reflect the latest best practices.
+
+**Community Coordinators:**
+- **Bérénice Batut** (Institut Français de Bioinformatique & AuBi, France)
+- **Paul Zierep** (University of Freiburg, Germany)
+
+---
+
+# Getting Started
+
+## The Microbiology Galaxy Lab (MGL)
+
+The **MGL** is a specialized Galaxy extension designed for microbiology research. It features:
+- A **curated tool panel** with community-approved tools organized by analysis type.
+- A **central resource hub** with direct links to tools, workflows, and training materials for **microbial isolates** and **microbiome** data.
+- **Community-developed** and **FAIR-compliant** **workflows**.
+- **Quick access** to support and the microGalaxy community.
+
+**Ready to explore?**
+Log in with your Galaxy account on the server closest to you:
+- **United States:** [microbiology.usegalaxy.org](https://microbiology.usegalaxy.org)
+- **Europe:** [microbiology.usegalaxy.eu](https://microbiology.usegalaxy.eu)
+- **Australia:** [microbiology.usegalaxy.org.au](https://microbiology.usegalaxy.org.au)
+- **France:** [microbiology.usegalaxy.fr](https://microbiology.usegalaxy.fr)
+
+## Training
+
+The **[Galaxy Training Network (GTN)](https://training.galaxyproject.org)** offers **40+ tutorials**, **15 videos (16 hours)**, and **3 structured learning pathways** for microbiology analyses—from basic sequence analysis to advanced metaproteomics and metagenomics.
 
 <iframe
-  id="inlineFrameExample"
-  title="Microbial related tools"
+  src="https://training.galaxyproject.org/training-material/tags/microgalaxy/embed.html"
+  height="400px"
+  width="100%"
+  class="gtn-embed"
+  frameborder="0">
+</iframe>
+
+---
+
+# Community Maintained, Curated and Ready-to-Use Resources
+
+## Tools and Workflows
+
+MGL provides **315+ tool suites** and **115+ curated workflows** for comprehensive microbial data analysis:
+
+![This diagram illustrates comprehensive workflows for analyzing microbial isolate and microbiome samples through genomics, transcriptomics, and proteomics approaches. For microbial isolates (Panel A), the process begins with raw genomic, transcriptomic, or proteomic data, which is cleaned and processed into assemblies, mapped reads, or peptide data. These are further analyzed to identify strains, genes, and functional elements such as antimicrobial peptides, virulence factors, and biosynthetic genes. The workflow also includes comparative analyses, annotation, and visualization of results. For microbiome samples (Panel B), raw data from metabarcoding, metagenomics, metatranscriptomics, and metaproteomics are processed to generate taxonomic and functional profiles. This involves cleaning and assembling reads, identifying operational taxonomic units (OTUs) or amplicon sequence variants (ASVs), and constructing annotated gene catalogs. The workflows culminate in diversity metrics, functional tables, community profile visualizations, and differential feature analyses. The diagram highlights the interconnectedness of data types and analytical steps, emphasizing the integration of multi-omics approaches for comprehensive microbial and microbiome research.](https://github.com/usegalaxy-eu/microbiology_galaxy_lab_paper_2025/blob/main/docs/figures/figure_4.png?raw=true)
+*Comprehensive workflows for microbial isolate and microbiome analysis.*
+
+### Tools
+
+Explore the **300+ tool suites** (880+ individual tools) for microbiological data analysis available in the [ToolShed](https://toolshed.g2.bx.psu.edu/) and curated by the community:
+
+<iframe
+  title="Microbial Tools"
   width="100%"
   height="600"
   frameBorder="0"
-  src="https://galaxyproject.github.io/galaxy_codex/communities/microgalaxy/resources/">
+  src="https://galaxyproject.github.io/galaxy_codex/communities/microgalaxy/resources/tools.html">
 </iframe>
 
-If tools are missing or information is not up-to-date in the list, please help us! Contact Saskia,
-[Paul](mailto:zierep@informatik.uni-freiburg.de) or [Bérénice](mailto:berenice.batut@gmail.com) about it.
+*This list is powered by the [Galaxy Codex Project](https://github.com/galaxyproject/galaxy_codex/) and regularly updated and curated by the microGalaxy community to provide state-of-the-art tools. You can explore the [raw metadata](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/resources/curated_tools.tsv).*
 
-<img img class="img-fluid mx-auto" src="/community/sig/microbial/wordcloud_microgalaxy.png" alt="microGalaxy tools"/>
+**Highlights:**
+- Integration of complete frameworks (e.g.**QIIME 2**, **MetaPhlAn**, and soon Anvi'o) for intuitive access to extensive resources.
+- **170+ reference genomes** and **11TB of reference data** for taxonomic classification and functional annotation.
+- Interactive tools like **Pavian**, **Phinch**, **Shiny Phyloseq**, **Apollo**, **Jupyter Notebooks**, and **RStudio**.
 
-The wordcloud is based on the number of users that used the shown tools since beginning of 2022 until Sept. 2023. The usage
-numbers were queried from useglaxy.eu and the tools comprise all dedicated tools selected for this community.
+*Are we missing a tool, or should some tools be removed? [Reach out to us](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im) or  contribute by modifying the `To keep` and/or `Deprecated` column in the [curation file](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/metadata/tool_status.tsv) to help us keep this list comprehensive.*
 
-## Workflows and tutorials
+### Workflows
 
-Several curated Galaxy workflows are publicly available for different kinds of microbial data analysis. Many of these are accompanied by comprehensive [GTN Tutorials](https://training.galaxyproject.org) that will guide you through the analysis step by step.
+Access to **115+ ready-to-use workflows**, e.g. the integration of the MGnify amplicon pipeline:
 
-*The lists below are far from being exhaustive and up-to-date. Something missing? Feel free to update the page or reach to us*
+<iframe
+  title="Microbial Workflows"
+  width="100%"
+  height="600"
+  frameBorder="0"
+  src="https://galaxyproject.github.io/galaxy_codex/communities/microgalaxy/resources/workflows.html">
+</iframe>
 
-### Microbiome
+*This list is powered by the [Galaxy Codex Project](https://github.com/galaxyproject/galaxy_codex/) and regularly updated and curated by the microGalaxy community to provide state-of-the-art workflows. You can explore the [raw metadata](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/resources/curated_workflows.tsv).*
 
-| Target | Technique | Sequencing | Analysis | GTN Tutorial | Workflow | Notes |
-|--------|-----------|------------|----------|--------------|----------|-------|
-| Bacteria | 16S | Short reads | Taxonomic Profiling | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | mothur SOP
-| Bacteria | 16S | Long reads | Taxonomic Profiling  | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-| Bacteria, Fungi | SSU, LSU and ITS | Short reads | Taxonomic Profiling and Visualization |  <a href="https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/mgnify-amplicon/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/mgnify-amplicon/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | <a href="https://www.ebi.ac.uk/metagenomics/pipelines/5">Amplicon part of MGnify v5</a>
-| All | Shotgun metagenomics | Short reads | Taxonomic Profiling, Functional Analysis | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> | <a href="https://asaim.readthedocs.io/en/latest/workflows.html">ASaiM Docs</a>
-| Plasmid | Shotgun metagenomics | Long reads | AMR detection | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
-| Beer microbiome | Shotgun metagenomics  | Long reads | Taxonomic profiling | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/beer-data-analysis/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/beer-data-analysis/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
-| All | Shotgun metatranscriptomics | Short reads | Functional Analysis | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |  ASaiM-MT
-| Pathogens | Shotgun metagenomics | Long reads | Taxonomic Profiling, Gene Identification, SNP identification, Pathogen Tracking | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-| All | Shotgun metagenomics | Short reads | Assembly |  <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metagenomics-assembly/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-| All | Shotgun metagenomics | Short reads | Taxonomic Profiling and Visualization |  <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/taxonomic-profiling/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/taxonomic-profiling/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-| Bacteria | Shotgun metagenomics, metatranscriptomics, metaproteomics | Short reads | MAGs builing, Functional analysis, Multiomics analysis | NA | <a href="https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-023-00514-9#availability-of-data-and-materials" class="fas fa-share-alt" aria-hidden="true"></a> | <a href="https://github.com/magnusarntzen/ViMO">ViMO (Visualizer for Meta-Omics)</a>
+*Are we missing a public workflow, or should some be removed? [Reach out to us](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im) or  contribute by modifying the `To keep` and/or `Deprecated` column in the [curation file](https://github.com/galaxyproject/galaxy_codex/blob/main/communities/microgalaxy/metadata/workflows_status.tsv) to help us keep this list comprehensive.*
 
+## Training Events
 
-### Bacterial Isolates
+The microGalaxy community has organized **30+ training events** over the past five years, including the **Galaxy Training Academy** (formerly Galaxy Smörgåsbord):
 
-| Target | Sequencing | Analysis | GTN Tutorial | Workflow | Notes |
-|--------|------------|----------|--------------|----------|-------|
-| M. tuberculosis | Short reads | Variant Detection | <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html"  class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
-| M. tuberculosis | Short reads | Transmission of Mtb | <a href="https://training.galaxyproject.org/topics/evolution/tutorials/mtb_transmission/tutorial.html"  class="fas fa-graduation-cap" aria-hidden="true"></a>
-| M. tuberculosis | Short reads | Phylogenetics applied to Mtb evolution & epidemiology | <a href="https://training.galaxyproject.org/topics/evolution/tutorials/mtb_phylogeny/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a>
-| Plasmids | Long reads | AMR detection | | <a href="https://erasmusmc-bioinformatics.github.io/AMR-Galaxy-workflows/" class="fas fa-share-alt" aria-hidden="true"></a>
+| Edition | Supported Tracks |
+|---------|------------------|
+| [Smörgåsbord 2021](https://shiltemann.github.io/global-galaxy-course/) | Video tutorials |
+| [Smörgåsbord 2022](https://gallantries.github.io/video-library/events/smorgasbord2/) | [Meta-omics](https://gallantries.github.io/video-library/modules/meta-omics) & [Microbial Analysis](https://gallantries.github.io/video-library/modules/microbial) |
+| [Smörgåsbord 2023](https://gallantries.github.io/video-library/events/smorgasbord3/) | [Meta-omics](https://gallantries.github.io/video-library/modules/meta-omics) & [Microbial Analysis](https://gallantries.github.io/video-library/modules/microbial) |
+| [GTA 2024](https://training.galaxyproject.org/training-material/events/galaxy-academy-2024.html) | [Bacterial Genomics and AMR Detection](https://training.galaxyproject.org/training-material/events/tracks/gta2024-bacterial-genomics.html), [Microbiome Analysis](https://training.galaxyproject.org/training-material/events/tracks/gta2024-microbiome.html) |
+| [GTA 2025](https://training.galaxyproject.org/training-material/events/2025-05-12-galaxy-academy-2025.html) | [Microbiome](https://training.galaxyproject.org/training-material/events/tracks/gta2025-microbiome.html) |
 
-Want to include your workflow here? Let us know!
+Specialized trainings, such as **[Mycobacterium tuberculosis genomic analysis](https://training.galaxyproject.org/training-material/events/2024-06-10-mtb-ngs.html)**, have reached global participants, especially in the Global South.
 
-## A dedicated interface
+---
 
-A dedicated interface with tools, workflows for microbial data analyses can be accessed via [microgalaxy.usegalaxy.eu](https://microgalaxy.usegalaxy.eu/)
+<img class="img-fluid float-left" src="/community/sig/microbial/citations.png" style="max-width:275px; margin-right: 20px; margin-bottom: 20px;" alt="Galaxy citations"/>
 
-## Training material and events
+# Galaxy Adoption for Microbial Research
 
-The Galaxy community organizes regularly training events. You can check the [event pages here](/events/) to get the last ones.
+Galaxy is a trusted platform for microbial data analysis, with **10,459+ publications** using Galaxy, including **2,908 microbiology-focused studies**:
+- **836 studies** (28.75%) on health and disease.
+- **593 studies** (20.39%) on ecosystems and biodiversity.
+- **1,116 studies** (38.38%) bridging both domains.
 
-We would like to highlight few events related to microbial data analysis:
-- [GTN Smörgåsbord 2023](https://gallantries.github.io/video-library/events/smorgasbord3/): a free, online, self-paced, choose-your-own-adventure style, 1-week event in May 2023
+**(Meta)genomics** is the most common application, followed by **metabarcoding** and **metatranscriptomics**. Key analyses include **taxonomic classification**, **functional annotation**, and **AMR gene profiling**.
 
-  There are several tracks that might be interesting for you:
-  - [Meta-omics](https://gallantries.github.io/video-library/modules/meta-omics)
-  - [Microbial Analysis](https://gallantries.github.io/video-library/modules/microbial)
+# Applications in Health, Disease, and Ecosystem Research
 
+The **microGalaxy community** and the **Microbiology Galaxy Lab (MGL)** resources have been used for diverse research applications in **health, disease, and ecosystem studies**
 
-# How is Galaxy used for microbial data analysis?
+## Health and Disease
 
-## Projects / Showcases
+- **Pathogen Analysis:**, e.g. microbial pathogenesis, host-microbe interactions, and antibiotic resistance mechanisms.
+- **AMR Research:** via platforms like **[ABRomics](https://www.abromics.fr/)** and **[BenchAMRking](https://erasmusmc-bioinformatics.github.io/benchAMRking/)**, which provide workflows for AMR gene identification and clinical reporting.
+- **Pathogen Detection:**, e.g. **[PathoGFAIR](https://doi.org/10.1093/gigascience/giaf017)** supports outbreak tracking and food safety.
+- **Clinical Metaproteomics:** to analyze microbial proteins in diseases like **COVID-19**, cystic fibrosis, and ovarian cancer.
+- **AI and Machine Learning:** to discover microbial biomarkers and novel viruses with tools like **[MetaSBT](https://doi.org/10.1101/2025.08.25.672238)**.
 
-Below is a list of projects involving members of this community:
+## Ecosystem Dynamics and Biodiversity
 
-| Project | Description | Techniques | Sequencing | Analyses | People involved | Funding | Status |
-|---------|-------------|------------|------------|----------|-----------------|---------|--------|
-| [IRIDA](https://irida.ca/) | The Integrated Rapid Infectious Disease Analysis | | | | Aaron Petkau
-Foodborne pathogen detection | | Metagenomics | Long reads | | Bérénice Batut, Engy Nasr | EOSC-Life for 2022 | Ongoing
-| [BeerDEcoded](https://streetscience.community/projects/beerdecoded/) | General public education project | Metagenomics | Long reads |   | Bérénice Batut, [Street Science Community](https://streetscience.community/) | Mozilla, de.NBI | Ongoing
-| [DNAnalyzer](http://streetscience.community/DNAnalyzer/) | Online & interactive game on DNA data analysis | Metagenomics | Long reads | | Bérénice Batut, [Street Science Community](https://streetscience.community/) | University of Freiburg | Ongoing
-| Cloud data | | Metagenomics, metatranscriptomics | Short reads | Taxonomy profiling, Functional profiling, Assembly, MAGs builiding | Bérénice Batut, Engy Nasr | | Ongoing
-| ASaiM | | Metagenomics, metatranscriptomics | Short reads | Taxonomy profiling, Functional profiling | Bérénice Batut, Saskia Hilteman, Pratik Jagtap, Subina Mehta, etc | | Finished?
-| [Mycobacterium tuberculosis NGS made easy: data](https://gallantries.github.io/video-library/modules/mtb-analysis) | Series of modules containing recorded videos by experts and tutorials | | Illumina (wanting to expand to nanopore) | Mapping & Variant calling, Molecular epidemiology of TB using NGS, Phylogenetics for studying TB evolution and epidemiology | Daniela Brites, Peter van Heusden, Galo A. Goig, Christoph Stritt | Initially funded trough TB projects of capacity building; currently no funding | Ready to be used  but also working on improvements
+- **Community Dynamic** using **metabarcoding**, **metagenomics**, and whole-genome sequencing for accurate classification, and explore root microbiomes, beer microorganisms ([BeerDEcoded](https://streetsciencecommunity.github.io/projects/beerdecoded/)), soil community ([BioDIGS](https://biodigs.org/#home)), and global mycorrhizal fungi ([SPUN](https://www.spun.earth/)).
+- **Functional Annotation** with gene prediction and functional profiling.
+- **Multi-Omics Integration** to link genetic potential with real-time activity, e.g. in studies to study microbe communities in atmospher ([Péguilhan *et al.*, 2025](https://doi.org/10.5194/bg-22-1257-2025)) and biogas reactor ([Schiml *et al.*, 2023](https://doi.org/10.1186/s40793-023-00514-9)).
 
+---
 
-## Partners
+# Get Involved
 
-| Partners | Description | People involved |
+The microGalaxy community is open to all! **No formal membership required.**
+
+## Communication Channels
+
+- **[Matrix Channel](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im)**
+- **[Mailing List](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/)**
+
+## Meetings and Events
+
+- **Online Meetings:** 4 times/year (alternating times for global participation).
+- **In-Person Events:** Annual Galaxy Community Conference and European Galaxy Days.
+- **Hackathons and Workshops:** Collaborative events to develop workflows, tools and other functionalities, as a community, with other Galaxy communities and working (e.g. with the [Intergalactic Workflow Commission (IWC)](https://github.com/galaxyproject/iwc) in 2025), or during external events like the [ELIXIR BioHackathon](https://biohackathon-europe.org/) or 
+
+## Community Calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?src=npu7puk75n6p0u4aapv5t21uj8%40group.calendar.google.com&ctz=Europe%2FBrussels" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## Join Us
+1. Subscribe to the [mailing list](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/).
+2. Say hello in the [Matrix channel](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im).
+3. Attend a [meeting](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#).
+
+---
+
+# Acknowledgments
+
+We thank the **microGalaxy community** and the global **Galaxy community** of users, developers, educators, and administrators.
+
+## Partner Projects
+| Partners | Description | People Involved |
 |----------|-------------|-----------------|
-| [Seq4AMR](https://www.jpiamr.eu/projects/seq4amr/) | [JPIAMR]() Network for Integrating Microbial Sequencing and Platforms for Antimicrobial Resistance | Saskia Hilteman
-| [ELIXIR Emerging Microbiome Community](https://elixir-europe.org/communities/marine-metagenomics) | | Bérénice Batut
-| µbioinfo Slack | |
-
-# microGalaxy Community
-
-<img class="img-fluid float-right" src="/community/sig/microbial/microgalaxy-logo.png" style="width:200px;" alt="Logo for microgalaxy"/>
-
-microGalaxy is a [community of practice](/community/sig/#communities-of-practice) to
-* **Develop** and **Sustain** microbial data analysis in Galaxy
-* Implement **standardised "best practices"**
-* Expand **documentation** and **training**
-* **Coordinate efforts** to avoid redundancy in tools, workflows and training
-* **Share** the amazing things we are all doing together and outside Galaxy
-* Support each other
-
-
-## Meetings
-
-The microGalaxy community usually meets **4 times per year** (including 1 BoF at GCC and other community events) for a **2-hour meeting**. The meeting **time alternates** between 5-7pm Central European time and 9-11am Central European time in order to support members leaving in different timezones. The main aims of the meetings are to
-
-* Get news and updates from the community
-* Have 1 or more "short" talks about a project or a topic of interest
-* Discuss and coordinate our efforts.
-
-Details about the next events and minutes of previous meetings can be found [here](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#).
-
-<iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=UTC&showTitle=1&showNav=1&mode=AGENDA&showDate=1&src=bnB1N3B1azc1bjZwMHU0YWFwdjV0MjF1ajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
-
-## Working groups
-
-2 working groups were started within the community to work together towards the goals of the commmunity:
-
-- A [**Tool working groups**](https://docs.google.com/document/d/14LJLyVgT29m63iovCww7nMDmfRAqOicedzxHu3aqXnE/edit?usp=sharing) with the aims to
-  - Create and maintain a **curated up-to-date list of the available tools in Galaxy ecosystem for microbial data analysis**
-  - Create a wishlist of tools to integrate in Galaxy
-  - **Assess the needs from users** for tools in Galaxy
-  - Organise **hackathons** to add tools in connection with the global community
-- A [**Paper(s) working groups**](https://docs.google.com/document/d/1uVQ8E_8HpIuHDYHwR82jU8pCvj0tnebFKyS0juAoyGc/edit?usp=sharing) with the aims to
-  - **Advertise about microbial data analysis** in Galaxy
-  - Investigate on the uses of Galaxy for microbial data analysis
-  - **Aggregate information about available resources and infrastructure** within Galaxy community
-  - Reflect on a **roadmap** for the community
-
-## Join us
-
-Anybody interested in microbial data analysis in the Galaxy is welcome to join microGalaxy! **Everybody is Welcome!**
-
-* Join our [**quarterly meetings**](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
-* Join our **working groups** (see above)
-* Join the [Matrix **Chat**](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
-* Join the [**mailing list**](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) microgalaxy@lists.galaxyproject.org
-* Subscribe to the [**calendar**](https://calendar.google.com/calendar/embed?src=npu7puk75n6p0u4aapv5t21uj8%40group.calendar.google.com&ctz=Europe%2FBrussels)
+| [Seq4AMR](https://www.jpiamr.eu/projects/seq4amr/) | Network for Integrating Microbial Sequencing and AMR Platforms | Saskia Hilteman |
+| [ELIXIR Microbiome Community](https://elixir-europe.org/communities/microbiome) |  | Bérénice Batut, Paul Zierep |
+| [Galaxy-P](https://galaxyp.org/) |  | Pratik Jagtap |
+| [IRIDA](https://irida.ca/) | Integrated Rapid Infectious Disease Analysis | Aaron Petkau |
+| [ABRomics](https://www.abromics.fr/) | French National Multi-Omics Platform for AMR Research | Bérénice Batut, Cléa Siguret |
+| [FAIRyMAGs](https://elixir-europe.org/how-we-work/scientific-programme/science/bfsp/fairymags) | FAIRyMAGs: Optimising Metagenomics Assembled Genomes building | Paul Zierep, Mina Hojat Ansari, Patrick Bühler, Santino Faack, Giuseppe Defazio, Bruno Fosso, Martin Beracochea, Santiago Sanchez, Alexandra Hottmann, Bérénice Batut |

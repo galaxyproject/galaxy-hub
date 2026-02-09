@@ -6,4 +6,7 @@ date: "2019-12-18"
 external_url: "https://pgpukblog.wordpress.com/2019/12/18/reaching-for-the-stars-pgp-uk-multi-omics-data-now-also-available-on-galaxy-europe/"
 source_blog: "Personal Genome Project UK blog"
 source_blog_url: "https://pgpukblog.wordpress.com/"
+contributions:
+  authorship:
+    - stephanbeck
 ---

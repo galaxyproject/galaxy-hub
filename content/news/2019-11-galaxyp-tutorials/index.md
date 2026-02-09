@@ -6,4 +6,7 @@ authors: "Ben Orsburn"
 external_url: "http://proteomicsnews.blogspot.com/2019/11/great-galaxyp-tutorials-hosted-at.html"
 source_blog: "News in Proteomics Research"
 source_blog_url: "http://proteomicsnews.blogspot.com/"
+contributions:
+  authorship:
+    - benorsburn
 ---

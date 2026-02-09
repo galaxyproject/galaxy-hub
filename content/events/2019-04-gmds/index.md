@@ -12,4 +12,8 @@ gtn: false
 contact: "Wolfgang Maier"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - wm75
+
 ---

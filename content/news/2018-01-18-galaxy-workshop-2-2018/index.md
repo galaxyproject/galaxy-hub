@@ -7,6 +7,10 @@ supporters:
 - elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Due to the high number of applicants for the next Galaxy workshop from 26.02.-02.03.2018, we close the registration.

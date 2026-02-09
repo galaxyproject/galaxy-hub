@@ -13,6 +13,12 @@ supporters:
 - unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - crc992
+    - eosc-life
 ---
 
 The scientific efforts to fight the current COVID-pandemic have yielded plenty of data. Unfortunately, this data is not always fully shared. In this publication, we show how to overcome these limitations by providing an open platform for transparent research. 

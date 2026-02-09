@@ -12,4 +12,8 @@ gtn: false
 contact: "Jeremy Goecks"
 image: 
 subsites: [global, us]
+contributions:
+  authorship:
+    - jgoecks
+
 ---

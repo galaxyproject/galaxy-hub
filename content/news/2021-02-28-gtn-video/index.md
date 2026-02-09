@@ -2,11 +2,12 @@
 title: New introductory video to the Galaxy Training Network
 date: '2021-02-28'
 tags: [training, FAQ]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 Geert Bonamie from [VIB Bioinformatics Core](https://www.bits.vib.be/), and part of [ELIXIR Belgium](https://www.elixir-belgium.org/), has created a fancy video introducing the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/).

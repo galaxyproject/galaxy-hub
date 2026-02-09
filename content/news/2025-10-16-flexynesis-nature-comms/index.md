@@ -1,6 +1,6 @@
 ---
 title: 'New Publication "Flexynesis: A deep learning toolkit for bulk multi-omics data integration for precision oncology and beyond"'
-authors: Amirhossein Nilchi
+authors: Amirhossein Naghsh Nilchi
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-16'
@@ -13,6 +13,9 @@ tags:
 - machine-learning
 - precision-oncology
 - galaxy
+contributions:
+  authorship:
+    - Nilchia
 ---
 
 We're proud to share our new publication in *Nature Communications*:

@@ -8,11 +8,16 @@ supporters:
 - conda
 - elixir
 - denbi
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - bioconda
+    - elixir-europe
+    - deNBI
 ---
 
 Good news to the Bioconda community!

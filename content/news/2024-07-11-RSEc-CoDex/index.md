@@ -5,6 +5,9 @@ tease: "The ELIXIR Research Software Ecosystem (RSEc) and the Galaxy Codex make 
 hide_tease: false
 authors: Paul Zierep 
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - paulzierep
 ---
 
 ## ELIXIR Research Software Ecosystem (RSEc)

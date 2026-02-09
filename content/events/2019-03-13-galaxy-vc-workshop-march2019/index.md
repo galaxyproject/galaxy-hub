@@ -22,6 +22,11 @@ supporters:
 hidefooter: true
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - miracum
+
 ---
 
 Workshop for future users/maintainers of the [Miracum](https://www.miracum.org/) WES anaylsis workflow with the goals

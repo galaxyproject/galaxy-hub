@@ -12,6 +12,12 @@ subsites: [global, all-eu, esg]
 tags: [esg-wp5, esg-wp2, esg, conference]
 supporters:
   - eurosciencegateway
+contributions:
+  authorship:
+    - dsavchenko
+  funding:
+    - eurosciencegateway
+
 ---
 
 EuroScienceGateway and Galaxy [were presented on Swiss SKA Days 2023](

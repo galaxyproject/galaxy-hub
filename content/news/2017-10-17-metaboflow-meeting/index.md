@@ -11,6 +11,10 @@ supporters:
 - MetaboFlow
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Björn participated to the Wellcome Trust funded MetaboFlow meeting (training and hackathon) in Birmingham.

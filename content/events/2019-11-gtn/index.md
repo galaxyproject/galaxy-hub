@@ -13,6 +13,13 @@ supporters:
 - elixir
 - denbi
 subsites: [eu, freiburg, global, us]
+contributions:
+  authorship:
+    - shiltemann
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
