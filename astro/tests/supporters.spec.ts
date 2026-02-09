@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Supporters rendering', () => {
   test('news article shows supporters', async ({ page }) => {
-    const response = await page.goto('/news/2025-10-15-egd2025/');
+    const response = await page.goto('/news/2025-10-15-egd-2025/');
     expect(response?.status()).toBe(200);
 
     await expect(page.getByRole('heading', { name: /supporters/i })).toBeVisible();
