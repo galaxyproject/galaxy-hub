@@ -104,8 +104,10 @@ async function getContentData() {
           // Always track for natural/legacy/case-insensitive redirect generation
           contentItems.push({ slug, naturalSlug });
 
-          // If this content has a redirect, also capture that mapping
-          if (redirect) {
+          // If this content has a local redirect, capture that mapping.
+          // External URLs (https://...) can't be handled by Astro's redirect config,
+          // so those are left for the page template to handle via meta refresh.
+          if (redirect && !redirect.includes('://')) {
             const fromPath = `/${slug}/`.replace(/\/+/g, '/');
             const toPath = redirect.startsWith('/') ? redirect : `/${redirect}`;
             const normalizedTo = toPath.endsWith('/') ? toPath : `${toPath}/`;
@@ -224,6 +226,25 @@ async function generateRedirects() {
 
   console.log(`Added ${yamlRedirectCount} redirects from redirects.yaml`);
   console.log(`Added ${yamlPatternCount} pattern redirects from redirects.yaml`);
+
+  // 6. Resolve redirect chains so every source points directly to its final destination
+  let chainsResolved = 0;
+  for (const from of Object.keys(redirects)) {
+    let target = redirects[from];
+    let hops = 0;
+    while (redirects[target] && hops < 10) {
+      target = redirects[target];
+      hops++;
+    }
+    if (hops > 0) {
+      redirects[from] = target;
+      chainsResolved++;
+    }
+  }
+
+  if (chainsResolved > 0) {
+    console.log(`Resolved ${chainsResolved} redirect chains`);
+  }
 
   // Write to JSON file — includes both simple redirects and pattern redirects
   const output = {
