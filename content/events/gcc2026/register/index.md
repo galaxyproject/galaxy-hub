@@ -76,7 +76,7 @@ the channel.
 | --- | ---: |
 | Virtual    | EUR50 |
 
-## CoFest: June 25-26
+## CoFest & Training: June 25-26
 
 [CoFest](/events/gcc2026/cofest/), or CollaborationFest, is an opportunity to
 meet the people working on Galaxy and spend some time with each other in person
