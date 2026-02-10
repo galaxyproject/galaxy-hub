@@ -251,6 +251,8 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@pavanvidem:matrix.org"
         orcid: 0000-0002-5192-126X
+        google-scholar: RdymODwAAAAJ
+        researchgate: Pavankumar-Videm
 
     dianichj:
         name: Diana Chiang Jurado
@@ -311,6 +313,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@electronic_blueberry:matrix.org"
         orcid: 0000-0002-2362-9720
+        alumni: true
 
     PlushZ:
         name: Polina Polunina
