@@ -3,9 +3,13 @@ import {
   hasProblematicHtml,
   needsVueProcessing,
   convertGridsomeSyntax,
+  convertKramdownAttributes,
+  convertFontAwesomeToLucide,
   convertVueToJsx,
   convertComponentsToPascalCase,
   addBootstrapMarker,
+  normalizeSlugSegment,
+  normalizeSlug,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -93,6 +97,110 @@ describe('needsVueProcessing', () => {
   it('returns false when content has problematic HTML', () => {
     // Even with Insert, if there's problematic HTML, skip MDX
     expect(needsVueProcessing('<Insert name="/foo" />\n<div><div></div>', {})).toBe(false);
+  });
+});
+
+describe('convertKramdownAttributes', () => {
+  it('converts target="_blank" attribute on links', () => {
+    const input = '[text](https://example.com){:target="_blank"}';
+    const expected = '<a href="https://example.com" target="_blank">text</a>';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+
+  it('converts links with HTML content', () => {
+    const input = '[<i class="fa fa-laptop"></i>](https://example.com){:target="_blank"}';
+    const expected = '<a href="https://example.com" target="_blank"><i class="fa fa-laptop"></i></a>';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+
+  it('converts class attributes on links', () => {
+    const input = '[Click](https://example.com){: .btn .btn-primary}';
+    const expected = '<a href="https://example.com" class="btn btn-primary">Click</a>';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+
+  it('converts combined class and target attributes', () => {
+    const input = '[Click](https://example.com){: .btn target="_blank"}';
+    const expected = '<a href="https://example.com" class="btn" target="_blank">Click</a>';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+
+  it('handles multiple links on same line', () => {
+    const input = '[A](a.html){:target="_blank"} | [B](b.html){:target="_blank"}';
+    const expected = '<a href="a.html" target="_blank">A</a> | <a href="b.html" target="_blank">B</a>';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+
+  it('leaves regular links unchanged', () => {
+    const input = '[text](https://example.com)';
+    expect(convertKramdownAttributes(input)).toBe(input);
+  });
+
+  it('removes block-level kramdown attributes', () => {
+    const input = 'text\n{:.table.table-striped}\nmore text';
+    const expected = 'text\n\nmore text';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+
+  it('handles URLs with fragments', () => {
+    const input = '[text](https://example.com/page#section){:target="_blank"}';
+    const expected = '<a href="https://example.com/page#section" target="_blank">text</a>';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+
+  it('handles URLs with query strings', () => {
+    const input = '[text](https://example.com?foo=bar){:target="_blank"}';
+    const expected = '<a href="https://example.com?foo=bar" target="_blank">text</a>';
+    expect(convertKramdownAttributes(input)).toBe(expected);
+  });
+});
+
+describe('convertFontAwesomeToLucide', () => {
+  it('converts FA4 syntax (fa fa-icon)', () => {
+    const input = '<i class="fa fa-laptop"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).toContain('viewBox="0 0 24 24"');
+  });
+
+  it('converts FA5 syntax (fas fa-icon)', () => {
+    const input = '<i class="fas fa-video"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('converts FA6 syntax (fa fa-solid fa-icon)', () => {
+    const input = '<i class="fa fa-solid fa-book"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('converts brand icons (fab fa-icon)', () => {
+    const input = '<i class="fab fa-github"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('preserves unmapped icons', () => {
+    const input = '<i class="fa fa-unknown-icon"></i>';
+    expect(convertFontAwesomeToLucide(input)).toBe(input);
+  });
+
+  it('leaves non-FA elements unchanged', () => {
+    const input = '<i class="some-other-class"></i>';
+    expect(convertFontAwesomeToLucide(input)).toBe(input);
+  });
+
+  it('handles icons with aria-hidden attribute', () => {
+    const input = '<i class="fa fa-laptop" aria-hidden="true"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+  });
+
+  it('converts multiple icons in content', () => {
+    const input = '<i class="fa fa-laptop"></i> | <i class="fas fa-video"></i>';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result.match(/<svg/g)).toHaveLength(2);
   });
 });
 
@@ -243,5 +351,102 @@ describe('addBootstrapMarker', () => {
     expect(addBootstrapMarker('<table class="table-bordered">Content</table>')).toBe(
       '<table class="bs-compat table-bordered">Content</table>'
     );
+  });
+});
+
+describe('normalizeSlugSegment', () => {
+  it('lowercases simple uppercase strings', () => {
+    expect(normalizeSlugSegment('HELLO')).toBe('hello');
+  });
+
+  it('keeps already-normalized segments unchanged', () => {
+    expect(normalizeSlugSegment('already-lowercase')).toBe('already-lowercase');
+  });
+
+  it('inserts hyphen at camelCase boundaries', () => {
+    expect(normalizeSlugSegment('ChatGPT')).toBe('chat-gpt');
+  });
+
+  it('inserts hyphen at letter→digit boundary', () => {
+    expect(normalizeSlugSegment('PAG31')).toBe('pag-31');
+  });
+
+  it('inserts hyphen at digit→letter boundary', () => {
+    expect(normalizeSlugSegment('4Bio')).toBe('4-bio');
+  });
+
+  it('replaces underscores with hyphens', () => {
+    expect(normalizeSlugSegment('slides_to_videos')).toBe('slides-to-videos');
+  });
+
+  it('does not split within uppercase runs', () => {
+    // "GBCC2025" — the uppercase run "GBCC" stays together
+    expect(normalizeSlugSegment('GBCC2025')).toBe('gbcc-2025');
+  });
+
+  it('handles mixed camelCase with acronyms', () => {
+    expect(normalizeSlugSegment('GalaxyRNAseq_Giessen')).toBe('galaxy-rnaseq-giessen');
+  });
+
+  it('handles PascalCase with numbers', () => {
+    expect(normalizeSlugSegment('GCC2023-Meeting-Report')).toBe('gcc-2023-meeting-report');
+  });
+
+  it('handles GalaxyInResearch', () => {
+    expect(normalizeSlugSegment('GalaxyInResearch')).toBe('galaxy-in-research');
+  });
+
+  it('handles NFDI4Bioimage (digit→letter boundary)', () => {
+    expect(normalizeSlugSegment('NFDI4Bioimage')).toBe('nfdi-4-bioimage');
+  });
+
+  it('collapses multiple hyphens', () => {
+    expect(normalizeSlugSegment('foo--bar')).toBe('foo-bar');
+  });
+
+  it('handles date-prefixed segments (already well-formed)', () => {
+    expect(normalizeSlugSegment('2024-01-12-PAG31')).toBe('2024-01-12-pag-31');
+  });
+
+  it('applies overrides for BiaPy', () => {
+    expect(normalizeSlugSegment('BiaPy-available-in-Galaxy')).toBe('biapy-available-in-galaxy');
+  });
+
+  it('applies overrides for NeIC', () => {
+    expect(normalizeSlugSegment('NeIC-conference')).toBe('neic-conference');
+  });
+
+  it('applies overrides for bioMLtool', () => {
+    expect(normalizeSlugSegment('bioMLtool')).toBe('bio-ml-tool');
+  });
+
+  it('handles community_page (underscore replacement)', () => {
+    expect(normalizeSlugSegment('2024-12-19-community_page')).toBe('2024-12-19-community-page');
+  });
+
+  it('handles gcc2024 (no change needed except letter-digit boundary)', () => {
+    expect(normalizeSlugSegment('gcc2024')).toBe('gcc-2024');
+  });
+});
+
+describe('normalizeSlug', () => {
+  it('normalizes each path segment independently', () => {
+    expect(normalizeSlug('events/2024-01-12-PAG31')).toBe('events/2024-01-12-pag-31');
+  });
+
+  it('normalizes multi-segment paths', () => {
+    expect(normalizeSlug('news/2024-09-02-ChatGPT')).toBe('news/2024-09-02-chat-gpt');
+  });
+
+  it('handles already-normalized paths', () => {
+    expect(normalizeSlug('events/2025-admin-training-brno')).toBe('events/2025-admin-training-brno');
+  });
+
+  it('normalizes nested paths', () => {
+    expect(normalizeSlug('community/GalaxyAdmins/SurveyResults')).toBe('community/galaxy-admins/survey-results');
+  });
+
+  it('handles single segment', () => {
+    expect(normalizeSlug('home')).toBe('home');
   });
 });
