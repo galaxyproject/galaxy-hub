@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
 import { communitySlug } from './contributors';
 
-export const europeSites = ['freiburg', 'ifb', 'erasmusmc', 'elixir-it', 'genouest'] as const;
+export const europeSites = ['freiburg', 'ifb', 'erasmusmc', 'elixir-it', 'genouest', 'cz'] as const;
 
 export type EuropeSiteId = (typeof europeSites)[number];
 
