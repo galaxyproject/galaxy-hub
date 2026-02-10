@@ -115,8 +115,8 @@ freiburg:
         title: M.Sc. Inf., Researcher
         email: kumara@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54127
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        location: "Build.: 106, Room: 02 005"
+        location_link: "https://maps.app.goo.gl/g33Eivx3JdcBaTSV8"
         bio:
 
     stephanflemming:
@@ -345,7 +345,8 @@ freiburg:
         location: "Build.: 079, Room: -1005"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@saimmomin:matrix.org"
-        linkedin: www.linkedin.com/in/saim-momin
+        linkedin: saim-momin
+        orcid: 0009-0000-5458-1144
         github_username: SaimMomin12
 
     arash77:
