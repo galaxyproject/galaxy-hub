@@ -25,8 +25,8 @@ purchased along with the registration. If you'd like to purchase additional
 dinner tickets for your travel companion(s) you can do so at the time of
 registration.
 
-**Please note that all prices are listed in Euros (EUR) and exclude the mandatory
-VAT (21%).** When paying for the registration, you can use a credit card or do a bank
+**Please note that all prices are listed in Euros (EUR) and include the mandatory
+VAT/TVA (10%).** When paying for the registration, you can use a credit card or do a bank
 transfer. You can also register and request the payment be processed afterwards
 by someone else, such as your department administrator. If you prefer to
 reason in a different currency, here is a convenient [currency
@@ -54,8 +54,6 @@ provided.
 | Industry                           | EUR450 | EUR675 | EUR1,000 |
 | Conference dinner                  |        |        | EUR70    |
 
-\* Please note that the above prices do not include the mandatory 21% VAT, which
-will be added during registration.
 
 <div class="text-center my-5">
     <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
