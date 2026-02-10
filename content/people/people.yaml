@@ -112,7 +112,7 @@ freiburg:
 
     anuprulez:
         name: Anup Kumar
-        title: M.Sc. Inf., Researcher
+        title: Dr.rer.nat., Researcher
         email: kumara@informatik.uni-freiburg.de
         phone: +49(0) 761 - 203 54127
         location: "Build.: 106, Room: 02 005"
@@ -256,11 +256,12 @@ freiburg:
 
     dianichj:
         name: Diana Chiang Jurado
-        title: Dr.rer.nat Candidate., Researcher
+        title: Dr.rer.nat., Researcher
         email: dianachj@informatik.uni-freiburg.de
         location: "Build.: 079, Room: -1005"
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@dianichj:matrix.org"
+        linkedin: diana-chj
         orcid: 0000-0002-5857-1477
         researchgate: Diana Chiang Jurado
 
