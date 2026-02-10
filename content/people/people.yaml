@@ -619,3 +619,14 @@ us:
           to communicate new features and improvements to the community. He received his B.S. in Computer Science from the
           University of Maryland, Baltimore County, in 2021.
 
+cz:
+    martenson:
+        name: Martin Cech
+        title: Research Software Engineer
+        matrix: "@martenson:matrix.org"
+        website: https://github.com/martenson
+        location_link: "https://osm.org/go/0Jv185Y5r--"
+        orcid: 0000-0002-9318-1781
+        galaxyadmin: true
+        bio: |
+          I'm an engineer focused on empowering scientists to perform reproducible data analysis.
