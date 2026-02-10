@@ -41,7 +41,7 @@ We are a diverse group of users, developers, trainers, and image data enthusiast
 
 # Getting started: GTN tutorials
 
-Whether you are new to image preprocessing and analysis or an experienced analyst, the **[Galaxy Training Network (GTN)](https://training.galaxyproject.org)** is your gateway to mastery. 
+To dive into Galaxy, the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) offers tutorials for beginners and experts alike. These tutorials cover basic and advanced workflows, guiding you through analyses step-by-step. They also include a curated selection of workflows to help you gain hands-on experience in Galaxy. 
 
 The Imaging community maintains a dedicated **[Imaging Scientific Topic](https://training.galaxyproject.org/training-material/topics/imaging/)** within the GTN. Our resources are designed to kick-start your understanding of **image data fundamentals** and the application behind complex analysis, ensuring you are guided and learn the science of imaging alongside the platform.
 
@@ -69,8 +69,6 @@ The Galaxy ToolShed offers a library of tools for image analysis, supporting the
 * **Segmentation & Classification**: Access state-of-the-art algorithms including **[Cellpose](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/cellpose/cellpose/3.1.0+galaxy2)** and the cutting-edge **[Cellpose-SAM](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/cellposesam/cellposesam/4.0.8+galaxy0)**. You can also run high-performance pre-trained models directly from the **[BioImage.IO](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/bioimage_inference/bioimage_inference/2.4.1+galaxy3)** ecosystem.
 * **Advanced Computing**: For custom deep learning, Galaxy provides GPU acceleration via **[Interactive Jupyter Notebooks](https://usegalaxy.eu/root?tool_id=interactive_tool_ml_jupyter_notebook)**, enabling you to train and fine-tune models on high-performance infrastructure.
 
-> **Standardization in progress**: We are systematically annotating our toolset with **EDAM ontologies** to standardize metadata and ensure our resources meet global open-science standards.
-
 <iframe
   id="inlineFrameExample"
   title="Image analysis related tools"
@@ -86,11 +84,13 @@ The Galaxy ToolShed offers a library of tools for image analysis, supporting the
 
 ## Cross-disciplinary workflows
 
-One of our community's greatest strengths is the development of **universal workflows**. A single Galaxy pipeline can be designed to process data across vastly different scientific domains, ensuring maximum impact and tool reusability.
+One of our community’s aims is to develop **universal workflows**. The idea is that a single Galaxy pipeline can be designed to handle data from very different scientific fields, making tools more reusable across the board. 
+
+As a proof of concept, we’ve built a workflow that works across multiple disciplines:
 
 ![Voronoi Segmentation across disciplines](voronoi_seg_mulitple_image_run.png)
 
-*Example: A single Voronoi segmentation workflow effectively processing data from Cell Biology, Astronomy, Underwater Archaeology, and Ecology. See it in action in [this video](https://youtu.be/2w8okrORVtM?si=O8NOxgXVmdzwE2Pc).*
+*Example: The same Voronoi segmentation workflow processing data from Cell Biology, Astronomy, Underwater Archaeology, and Ecology. You can see it in action in [this video](https://youtu.be/2w8okrORVtM?si=O8NOxgXVmdzwE2Pc).*
 
 ## Interactive tools
 
@@ -107,7 +107,7 @@ Many image analysis tasks require "eyes-on-data" interaction. Galaxy's **Interac
 
 ## Visualizations
 
-The **[zarr](https://zarr.dev/)** format is our standard for cloud-native, large-scale image data. By supporting **OME-Zarr** and **GEOZarr**, we enhance data reusability across disciplines. Our community leverages tools like **vizarr** to bring high-performance, cross-discipline visualization to life.
+The **[zarr](https://zarr.dev/)** format is becoming a standard for storing large image data. With various adaptations like [OME-Zarr](https://ome-zarr.readthedocs.io/en/stable/) and [GEOZarr](https://github.com/zarr-developers/geozarr-spec), this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
 
 <video-player
   src="/community/sig/image-analysis/vizarr-visualization.mp4"
@@ -117,7 +117,7 @@ The **[zarr](https://zarr.dev/)** format is our standard for cloud-native, large
 
 ## A dedicated Galaxy interface
 
-For a streamlined experience, visit our dedicated portal, **[imaging.usegalaxy.eu](https://imaging.usegalaxy.eu)**, tailored specifically for imaging scientists with pre-configured toolsets and workflows.
+For a streamlined experience, visit our dedicated portal, **[imaging.usegalaxy.eu](https://imaging.usegalaxy.eu)**, tailored specifically for imaging scientists like you!
 
 <img class="img-fluid float-left" src="/community/sig/image-analysis/image-analysis-interface.png" style="width:100%;" alt="Image Analysis dedicated interface in Galaxy"/>
 
