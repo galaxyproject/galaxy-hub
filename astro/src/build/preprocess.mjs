@@ -22,6 +22,8 @@ const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..'); // galaxy-hub/
 const CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
 const ASTRO_CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
+const PUBLIC_ASSETS_DIR = path.join(ASTRO_ROOT, 'public/assets');
+const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
 
 // Post-normalization fixups for edge cases where the algorithm produces bad output.
 // Keys are the bad normalized form; values are the corrected form.
@@ -866,6 +868,8 @@ export async function preprocessContent(options = {}) {
     console.log('Clearing existing processed content...');
     await fs.promises.rm(ASTRO_CONTENT_DIR, { recursive: true, force: true });
     await fs.promises.rm(PUBLIC_IMAGES_DIR, { recursive: true, force: true });
+    await fs.promises.rm(PUBLIC_ASSETS_DIR, { recursive: true, force: true });
+    await fs.promises.rm(PUBLIC_MEDIA_DIR, { recursive: true, force: true });
   }
 
   // Find all content files
@@ -920,6 +924,34 @@ export async function preprocessContent(options = {}) {
     }
   } catch {
     // Global images directory doesn't exist, that's fine
+  }
+
+  // Copy global assets directory (content/assets/ -> public/assets/)
+  const globalAssetsDir = path.join(CONTENT_DIR, 'assets');
+  try {
+    const stats = await fs.promises.stat(globalAssetsDir);
+    if (stats.isDirectory()) {
+      console.log('Copying global assets directory...');
+      await fs.promises.cp(globalAssetsDir, PUBLIC_ASSETS_DIR, { recursive: true });
+      const assetCount = (await glob('**/*', { cwd: globalAssetsDir, nodir: true })).length;
+      console.log(`  Copied ${assetCount} files from content/assets/`);
+    }
+  } catch {
+    // Global assets directory doesn't exist, that's fine
+  }
+
+  // Copy global media directory (content/media/ -> public/media/)
+  const globalMediaDir = path.join(CONTENT_DIR, 'media');
+  try {
+    const stats = await fs.promises.stat(globalMediaDir);
+    if (stats.isDirectory()) {
+      console.log('Copying global media directory...');
+      await fs.promises.cp(globalMediaDir, PUBLIC_MEDIA_DIR, { recursive: true });
+      const mediaCount = (await glob('**/*', { cwd: globalMediaDir, nodir: true })).length;
+      console.log(`  Copied ${mediaCount} files from content/media/`);
+    }
+  } catch {
+    // Global media directory doesn't exist, that's fine
   }
 
   // Summary
