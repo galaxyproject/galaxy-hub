@@ -1,0 +1,115 @@
+---
+/**
+ * Optimized Image component with automatic asset detection and WebP conversion.
+ * Handles dynamic asset loading and optimization for all images in /src/assets/
+ */
+import { Image as AstroImage } from 'astro:assets';
+import { getImage } from 'astro:assets';
+
+interface Props {
+  src: string | null | undefined;
+  alt: string;
+  title?: string;
+  width?: number;
+  height?: number;
+  class?: string;
+  optimizePercent?: number;
+}
+
+const { 
+  src, 
+  alt, 
+  title, 
+  width = 800, 
+  height = 600, 
+  class: className = 'w-full h-auto',
+  optimizePercent = 80
+} = Astro.props;
+
+const allAssets = import.meta.glob('/src/assets/**/*.{png,jpg,jpeg,gif,webp,svg}', { eager: true });
+
+const getAssetFromPath = (srcPath: string) => {
+  if (!srcPath) return null;
+  
+  const asset = allAssets[srcPath];
+  if (asset) {
+    return asset.default || asset;
+  }
+  
+  return null;
+};
+
+const getOptimizedImageProps = async (srcPath: string) => {
+  if (!srcPath) {
+    return null;
+  }
+  
+  const dynamicAsset = getAssetFromPath(srcPath);
+  
+  if (dynamicAsset) {
+    try {
+      const optimizedImage = await getImage({
+        src: dynamicAsset,
+        format: 'webp',
+        quality: optimizePercent,
+        width: width,
+        height: height,
+      });
+      
+      return {
+        originalAsset: dynamicAsset,
+        optimizedSrc: optimizedImage.src,
+        width: optimizedImage.attributes.width,
+        height: optimizedImage.attributes.height,
+        useOptimized: true
+      };
+    } catch (error) {
+      return {
+        originalAsset: dynamicAsset,
+        optimizedSrc: null,
+        useOptimized: false
+      };
+    }
+  } else {
+    return {
+      originalAsset: srcPath,
+      optimizedSrc: null,
+      useOptimized: false
+    };
+  }
+};
+
+var imageProps;
+if (src) {
+  imageProps = await getOptimizedImageProps(src);
+}
+---
+
+{src && imageProps && (
+  <figure class="px-6 sm:px-8 py-6">
+    {imageProps.useOptimized && imageProps.originalAsset ? (
+      <AstroImage
+        src={imageProps.originalAsset}
+        alt={alt}
+        title={title}
+        width={imageProps.width || width}
+        height={imageProps.height || height}
+        class={className}
+        format="webp"
+        quality={optimizePercent}
+        loading="lazy"
+        style="max-width: 800px; height: auto;"
+      />
+    ) : (
+      <img 
+        src={typeof imageProps.originalAsset === 'string' ? imageProps.originalAsset : (imageProps.originalAsset?.src || imageProps.originalAsset)}
+        alt={alt}
+        title={title}
+        class={className}
+        loading="lazy"
+        decoding="async"
+        style="max-width: 800px; height: auto;"
+      />
+    )}
+  </figure>
+)}

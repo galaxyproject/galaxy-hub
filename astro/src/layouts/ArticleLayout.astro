@@ -5,6 +5,7 @@ import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import Icon from '../components/ui/Icon.astro';
+import Image from '../components/ui/Image.astro';
 
 interface Heading {
   depth: number;
@@ -60,14 +61,7 @@ const hasMetadata =
 <BaseLayout title={title} description={description}>
   <article class="max-w-6xl mx-auto bg-white relative">
     {hasMetadata && <PageHeader title={title} description={description} date={date} authors={authors} tags={tags} />}
-
-    {
-      image && (
-        <figure class="px-6 sm:px-8 py-6">
-          <img src={image} alt={title} class="w-full" />
-        </figure>
-      )
-    }
+    <Image src={image} alt={title} />
 
     <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
