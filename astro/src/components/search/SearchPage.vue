@@ -45,7 +45,7 @@ watch(activeTab, (tab) => {
 <template>
   <div class="search-page">
     <!-- Shared search input -->
-    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6">
+    <div class="mb-6">
       <Input
         v-model="searchQuery"
         type="text"
