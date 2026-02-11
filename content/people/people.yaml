@@ -630,3 +630,22 @@ cz:
         galaxyadmin: true
         bio: |
           I'm an engineer focused on empowering scientists to perform reproducible data analysis.
+
+    demon:
+        name: Martin Demko
+        title: |
+            Dr. rer. nat., Ph.D. in Computer Science &
+            Junior researcher in BioIT Core Facility at CEITEC, Masaryk University &
+            Galaxy administrator at CESNET
+        email: demon@mail.muni.cz
+        website: https://github.com/martindemko/
+        matrix: @demon_se:matrix.org
+        linkedin: martin-demko-4b46a4248
+        orcid: 0009-0000-3679-738X
+        galaxyadmin: true
+        bio: |
+            I'm a computer scientist with a special interest in biology. I work as a bioinformatician 
+            in [the Bioinformatics Core Facility](https://www.ceitec.eu/bioinformatics-core-facility/cf284)
+            at the Central European Institute of Technology, Masaryk University, as well as a Galaxy and UNIX systems administrator
+            at [CESNET](https://www.cesnet.cz/en), both located in Brno, Czech Republic. I studied the field of computer science
+            at Masaryk University in Brno from a bachelor's to a Ph.D.
