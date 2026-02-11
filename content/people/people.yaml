@@ -194,15 +194,14 @@ freiburg:
 
     janleendertse:
         name: Jan Leendertse
-        title: M.A., Certification, Organisation
+        title: M.A., Certification ISO 27001, Organisation
         email: jan.leendertse@rz.uni-freiburg.de
-        phone: +49(0) 761 - 203 54126
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@janleendertse:matrix.org"
+        phone: +49(0) 761 - 203 4646    
         orcid: 0000-0001-5676-493X
         website: http://leendertse.eu
         linkedin: JanLeendertse
         researchgate: JanLeendertse
+        matrix: @janleendertse:matrix.org
 
     beatrizserrano:
         name: Beatriz Serrano-Solano
