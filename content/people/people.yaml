@@ -631,6 +631,17 @@ cz:
         bio: |
           I'm an engineer focused on empowering scientists to perform reproducible data analysis.
 
+    vondrakis:
+        name: Tomas Vondrak
+        title: Software Engineer
+        matrix: "@vondrakis:matrix.org"
+        website: https://github.com/TomasVondrak
+        location_link: "https://osm.org/go/0Jv185Y5r--"
+        orcid: 0009-0004-9862-511X
+        bio: |
+          I'm software engineer with specialisation in compiler design and fundaments of computer science. 
+          I work in [CESNET](https://www.cesnet.cz/en) located in Brno, Czech Republic.
+
     demon:
         name: Martin Demko
         title: |
