@@ -58,20 +58,35 @@ watch(activeTab, (tab) => {
     <!-- Tabs -->
     <Tabs v-model="activeTab" default-value="hub">
       <TabsList class="mb-6 bg-galaxy-dark/10 p-1">
-        <TabsTrigger value="hub" class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md">Hub Search</TabsTrigger>
-        <TabsTrigger value="google" class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md">Pan-Galactic Search</TabsTrigger>
-        <TabsTrigger value="publications" class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md">Publication Search</TabsTrigger>
+        <TabsTrigger
+          value="hub"
+          class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md"
+        >
+          Hub Search
+        </TabsTrigger>
+        <TabsTrigger
+          value="google"
+          class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md"
+        >
+          Pan-Galactic Search
+        </TabsTrigger>
+        <TabsTrigger
+          value="publications"
+          class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md"
+        >
+          Publication Search
+        </TabsTrigger>
       </TabsList>
 
       <TabsContent value="hub">
         <HubSearch :query="searchQuery" />
       </TabsContent>
 
-      <TabsContent value="google">
+      <TabsContent value="google" force-mount>
         <PanGalacticSearch :query="searchQuery" />
       </TabsContent>
 
-      <TabsContent value="publications">
+      <TabsContent value="publications" force-mount>
         <PublicationSearch :query="searchQuery" />
       </TabsContent>
     </Tabs>
