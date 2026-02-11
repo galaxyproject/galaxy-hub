@@ -660,3 +660,12 @@ cz:
             at the Central European Institute of Technology, Masaryk University, as well as a Galaxy and UNIX systems administrator
             at [CESNET](https://www.cesnet.cz/en), both located in Brno, Czech Republic. I studied the field of computer science
             at Masaryk University in Brno from a bachelor's to a Ph.D.
+
+    micoleaoo:
+        name: Viktor Valkovsky
+        title: Junior DevOps - Distributed computing department at CESNET
+        email: Viktor.Valkovsky@cesnet.cz
+        matrix: "@micoleaoo:matrix.org"
+        website: https://github.com/micoleaoo
+        bio: |
+          I'm a junior developer, learning and growing through Galaxy Project.
