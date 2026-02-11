@@ -52,7 +52,7 @@ export default defineConfig({
       // Reduce inotify watcher pressure during dev/Playwright runs
       watch: {
         usePolling: true,
-        ignored: ['**/public/images/**', '**/content/**/images/**'],
+        ignored: ['**/public/images/**', '**/public/assets/**', '**/public/media/**', '**/content/**/images/**'],
       },
     },
   },

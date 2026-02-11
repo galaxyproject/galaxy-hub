@@ -28,7 +28,10 @@ test-results/
 playwright-report/
 playwright/.cache/
 
-# preprocessed content (regenerated from /content/ on each build)
+# generated build artifacts (regenerated from /content/ on each build)
 src/content/
+src/build/generated-redirects.json
 public/images/
+public/assets/
+public/media/
 public/search-index.json
