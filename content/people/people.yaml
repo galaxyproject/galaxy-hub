@@ -639,7 +639,7 @@ cz:
             Galaxy administrator at CESNET
         email: demon@mail.muni.cz
         website: https://github.com/martindemko/
-        matrix: @demon_se:matrix.org
+        matrix: "@demon_se:matrix.org"
         linkedin: martin-demko-4b46a4248
         orcid: 0009-0000-3679-738X
         galaxyadmin: true
