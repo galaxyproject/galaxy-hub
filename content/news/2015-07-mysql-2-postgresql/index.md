@@ -6,6 +6,8 @@ authors: "Hans-Rudolf Hotz"
 contributions:
   authorship:
     - hrhotz
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2015-07-mysql-2-postgresql/"
 ---
 After running our Galaxy servers successfully with MySQL as the backend database server for several years, we decided to switch to the recommended PostgreSQL server.
 

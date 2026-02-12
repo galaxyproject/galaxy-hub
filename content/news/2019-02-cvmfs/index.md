@@ -7,6 +7,8 @@ image: "/news/2019-02-cvmfs/Nate_face.jpeg"
 contributions:
   authorship:
     - moheydarian
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-02-cvmfs/"
 ---
 
 This month we interviewed [Nate Coraor](https://github.com/natefoo) of the Galaxy Team to learn about what CVMFS is and how it is being used for Galaxy.

@@ -18,13 +18,6 @@ freiburg:
 
     erxleben:
         name: Anika Erxleben-Eggenhofer
-        title: Dr. rer. nat., Researcher
-        email: erxleben@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54130
-        location: "Build.: 079, Room: -1006"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@anikaerxleben:matrix.org"
-        linkedin: anika-erxleben-eggenhofer-ba2b52122
         orcid: 0000-0002-7427-6478
         bio:
         alumni: true
@@ -43,13 +36,7 @@ freiburg:
 
     hexylena:
         name: Helena Rasche
-        title: B.Sc. Biochem., Technician
-        email: hxr@informatik.uni-freiburg.de
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         orcid: 0000-0001-9760-8992
-        matrix: "@hexylena:matrix.org"
-        mastodon: "tech.lgbt/@hexylena"
-        galaxyadmin: true
         alumni: true
 
     paulzierep:
@@ -68,13 +55,7 @@ freiburg:
 
     sebastian-schaaf:
         name: Sebastian Schaaf
-        title: Dr. rer. nat., Researcher, ELIXIR-DE Officer for Galaxy
-        email: schaaf@informatik.uni-freiburg.de
-        location: "External - Forschungszentrum Jülich, Cologne area"
-        #location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@sschaaf:matrix.org"
         orcid: 0000-0001-8193-0151
-        researchgate: Sebastian-Schaaf
         bio:
         alumni: true
 
@@ -92,21 +73,12 @@ freiburg:
 
     joachimwolff:
         name: Joachim Wolff
-        title: M.Sc. Inf., Researcher
-        email: wolffj@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54132
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         bio:
         alumni: true
 
     mtekman:
         name: Mehmet Tekman
-        title: Ph.D., Researcher
-        email: tekman@informatik.uni-freiburg.de
-        matrix: "@mtekman:matrix.org"
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        orcid: 0000-0002-4181-2676
         bio:
         alumni: true
 
@@ -121,49 +93,24 @@ freiburg:
 
     stephanflemming:
         name: Stephan Flemming
-        title: Dr. rer. nat., Researcher
-        email: flemming@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54127
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        orcid:  0000-0002-4632-3863
+        orcid: 0000-0002-4632-3863
         bio:
         alumni: true
 
     gmauro:
         name: Gianmauro Cuccuru
-        title: M.Sc. Electronic Eng., Researcher
-        email: gmauro@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54132
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        linkedin: gianmaurocuccuru
-        matrix: "@gmauro:matrix.org"
         orcid: 0000-0002-5335-545X
-        galaxyadmin: true
         alumni: true
 
     simonbray:
         name: Simon Bray
-        title: M.Sc. Biochem. Biophys., Researcher
-        email: sbray@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54127
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         orcid: 0000-0002-0621-6705
         bio:
         alumni: true
 
     khanteymoori:
         name: Alireza Khanteymoori
-        title: Ph.D., Researcher
-        email: alireza@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54127
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         orcid: 0000-0001-6811-9196
-        google-scholar: VAyELgcAAAAJ&hl
-        researchgate: Ali_Khanteymoori2
         bio:
         alumni: true
 
@@ -182,12 +129,6 @@ freiburg:
 
     olegzharkov:
         name: Oleg Zharkov
-        title: M.Sc. Inf., Researcher, Developer
-        email: oleg.zharkov@rz.uni-freiburg.de
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@oleg.zharkov:matrix.org"
-        linkedin: oleg-zharkov-370b99138
         orcid: 0000-0001-7537-4400
         bio:
         alumni: true
@@ -205,23 +146,11 @@ freiburg:
 
     beatrizserrano:
         name: Beatriz Serrano-Solano
-        title: Ph.D., Researcher
-        email: serranob@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1005a"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@beatrizserrano:matrix.org"
-        twitter: Birthae
-        linkedin: beatriz-serrano
         orcid: 0000-0002-5862-6132
-        researchgate: Beatriz_Serrano-Solano
         alumni: true
 
     gallardoalba:
         name: Cristóbal Gallardo Alba
-        title: Ms.C. Biotech., Researcher
-        email: gallardo@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1015"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         orcid: 0000-0002-5752-2155
         alumni: true
 
@@ -266,15 +195,7 @@ freiburg:
 
     sanjaysrikakulam:
         name: Sanjay Kumar Srikakulam
-        title: Dr. rer. nat., Researcher, DevOps
-        email: srikakus@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@sanjaysrikakulam:matrix.org"
         orcid: 0000-0002-1752-5060
-        google-scholar: YF_dAHMAAAAJ
-        researchgate: Sanjay-Kumar-Srikakulam
-        galaxyadmin: true
         alumni: true
 
     mira-miracoli:
@@ -307,11 +228,6 @@ freiburg:
 
     ElectronicBlueberry:
         name: Laila Los
-        title: Software Developer
-        email: losl@informatik.uni-freiburg.de
-        location: "Build.: 079, Room: -1005"
-        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
-        matrix: "@electronic_blueberry:matrix.org"
         orcid: 0000-0002-2362-9720
         alumni: true
 

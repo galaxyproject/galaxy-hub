@@ -7,6 +7,8 @@ authors: "Dave Clements"
 contributions:
   authorship:
     - tnabtaf
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-a-blog-is-born/"
 ---
 
 Today we launch the new *[Galactic Blog](/news/)*.

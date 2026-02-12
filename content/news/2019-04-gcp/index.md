@@ -9,6 +9,8 @@ contributions:
   authorship:
     - afgane
     - vahidjalili
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-04-gcp/"
 ---
 
 The Galaxy project has long embraced support and integration with cloud

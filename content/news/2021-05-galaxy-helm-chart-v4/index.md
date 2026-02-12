@@ -13,6 +13,8 @@ contributions:
     - nuwang
     - ksuderman
     - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-05-galaxy-helm-chart-v4/"
 ---
 
 We are happy to announce general availability of a new major version of the

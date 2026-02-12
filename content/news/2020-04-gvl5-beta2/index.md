@@ -15,6 +15,8 @@ contributions:
     - nuwang
     - lukesargent
     - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-04-gvl5-beta2/"
 ---
 
 Mid-February, we announced [the first beta release](https://galaxyproject.org/blog/2020-02-gvl5-beta/) of the all-new Genomics Virtual Lab v5.0 (GVL 5). Today, beta2 release has become available. This latest version comes packed with several new features and enhancements as well as general improvements regarding the stability and robustness of the platform. We’d like to highlight the following three features, with more detailed blog posts about each of the features coming in the following weeks:

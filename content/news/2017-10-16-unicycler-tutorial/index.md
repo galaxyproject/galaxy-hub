@@ -7,6 +7,8 @@ image: unicycler.png
 contributions:
   authorship:
     - nekrut
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-16-unicycler-tutorial/"
 ---
 
 <div class="alert alert-info trim-p inline-p" role="alert"><i class="fa fa-fighter-jet" aria-hidden="true"></i>
