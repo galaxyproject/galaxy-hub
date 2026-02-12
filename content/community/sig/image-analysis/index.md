@@ -6,7 +6,7 @@ title: "Image Analysis Community in Galaxy"
 
 <slot name="/community/sig/common_linkbox" />
 
-<img src="image_analysis_in_galaxy_logo.png" width="300px" alt="Image Analysis in Galaxy title"/>
+<img src="image_analysis_in_galaxy_logov2.png" width="1000px" alt="Image Analysis in Galaxy title"/>
 
 <br />
 
@@ -109,10 +109,9 @@ Many image analysis tasks require "eyes-on-data" interaction. Galaxy's **Interac
 
 The **[zarr](https://zarr.dev/)** format is becoming a standard for storing large image data. With various adaptations like [OME-Zarr](https://ome-zarr.readthedocs.io/en/stable/) and [GEOZarr](https://github.com/zarr-developers/geozarr-spec), this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
 
-<video-player
-  src="/community/sig/image-analysis/vizarr-visualization.mp4"
-  style="display:block; width:100%; height:auto; max-width:100%; margin:0 auto;"
-></video-player>
+<video controls width="100%">
+  <source src="./vizarr-visualization.mp4" type="video/mp4">
+</video>
 
 
 ## A dedicated Galaxy interface
