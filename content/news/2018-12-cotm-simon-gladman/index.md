@@ -6,6 +6,8 @@ image: "/news/2018-12-cotm-simon-gladman/simon_small.jpg"
 contributions:
   authorship:
     - martenson
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/"
 ---
 
 This month we welcome Simon Gladman (Twitter: [@SimonGladman1](https://twitter.com/SimonGladman1), GitHub: [@slugger70](https://github.com/slugger70)) as our Galaxy contributor of the Month! Simon works at the [University of Melbourne](https://www.unimelb.edu.au/) and is one of the developers of the [Genomics Virtual Laboratory](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4621043/) cloud image. Simon is a firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow.

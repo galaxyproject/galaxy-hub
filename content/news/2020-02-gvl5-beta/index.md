@@ -12,6 +12,8 @@ contributions:
     - almahmoud
     - astrovsky01
     - gvlteam
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-02-gvl5-beta/"
 ---
 
 ## tl; dr

@@ -9,6 +9,8 @@ contributions:
     - beatrizserrano
     - jmchilton
     - dannon
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2022-01-27-disbanding-roundtables/"
 ---
 
 ## Why are we disbanding roundtables?

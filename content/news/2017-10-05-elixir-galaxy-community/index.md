@@ -9,6 +9,8 @@ contributions:
     - frederikcoppens
     - lecorguille
     - bgruening
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-05-elixir-galaxy-community/"
 ---
 
 ELIXIR is an intergovernmental organisation that brings together life science resources from across Europe.

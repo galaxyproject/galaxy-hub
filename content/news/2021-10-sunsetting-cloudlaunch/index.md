@@ -6,6 +6,8 @@ date: "2021-10-15"
 contributions:
   authorship:
     - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-10-sunsetting-cloudlaunch/"
 ---
 
 Sunsets are generally considered pretty events so we’ll paint a positive picture

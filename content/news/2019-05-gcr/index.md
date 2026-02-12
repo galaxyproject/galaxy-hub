@@ -9,6 +9,8 @@ contributions:
   authorship:
     - afgane
     - nuwang
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2019-05-gcr/"
 ---
 
 Did you ever feel the need for speed, as in more compute capacity on your Galaxy

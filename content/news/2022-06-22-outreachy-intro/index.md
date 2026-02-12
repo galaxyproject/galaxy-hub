@@ -10,6 +10,8 @@ contributions:
     - Quickbeasts51429
     - annefou
     - beatrizserrano
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2022-06-22-outreachy-intro/"
 ---
 
 
