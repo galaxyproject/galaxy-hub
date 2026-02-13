@@ -6,7 +6,7 @@ title: "Image Analysis Community in Galaxy"
 
 <slot name="/community/sig/common_linkbox" />
 
-<img src="image_analysis_in_galaxy_logov2.png" width="1000px" alt="Image Analysis in Galaxy title"/>
+<img src="image_analysis_in_galaxy_logov2.png" width="600px" alt="Image Analysis in Galaxy title"/>
 
 <br />
 
