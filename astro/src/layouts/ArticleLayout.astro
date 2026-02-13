@@ -61,9 +61,13 @@ const hasMetadata =
 <BaseLayout title={title} description={description}>
   <article class="max-w-6xl mx-auto bg-white relative">
     {hasMetadata && <PageHeader title={title} description={description} date={date} authors={authors} tags={tags} />}
-    <figure class="px-6 sm:px-8 py-6">
-      <Image src={image} alt={title} />
-    </figure>
+    {
+      image && (
+        <figure class="px-6 sm:px-8 py-6">
+          <Image src={image} alt={title} />
+        </figure>
+      )
+    }
 
     <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
