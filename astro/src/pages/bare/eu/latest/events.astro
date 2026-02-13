@@ -24,7 +24,7 @@ const allEvents = await getCollection('events', (entry) => {
 // Get upcoming events
 const upcomingEvents = allEvents
   .filter((e) => {
-    const endDate = e.data.date_end ? new Date(e.data.date_end) : e.data.date ? new Date(e.data.date) : null;
+    const endDate = e.data.end ? new Date(e.data.end) : e.data.date ? new Date(e.data.date) : null;
     return endDate && endDate >= now;
   })
   .sort((a, b) => {
@@ -136,7 +136,7 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
                 <a href={`https://galaxyproject.org/events/${slug}/`} target="_blank">
                   {event.data.title}
                 </a>
-                <span class="event-date">{formatDateRange(event.data.date, event.data.date_end)}</span>
+                <span class="event-date">{formatDateRange(event.data.date, event.data.end)}</span>
                 {locationStr && <span class="event-location"> · {locationStr}</span>}
               </div>
             );
@@ -147,5 +147,9 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
       }
       <a href="https://galaxyproject.org/events/" class="more-link" target="_blank">More events →</a>
     </div>
+    <script>
+      import { notifyParent } from '../../../../utils/iframe';
+      notifyParent();
+    </script>
   </body>
 </html>
