@@ -52,7 +52,7 @@ function calculateHeight(height: number | undefined, assetImage: any, width: num
 {src && (
   <span>
     {assetImage ? (
-      <!-- Optimized Astro asset with multiple format fallbacks -->
+      /* Optimized image */
       <Picture
         src={assetImage}
         alt={alt}
@@ -66,7 +66,7 @@ function calculateHeight(height: number | undefined, assetImage: any, width: num
         loading="lazy"
       />
     ) : (
-      <!-- External or non-asset image -->
+      /* External or non-asset image */
       <img 
         src={src}
         alt={alt}
