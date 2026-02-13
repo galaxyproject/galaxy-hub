@@ -118,5 +118,9 @@ function formatDate(date: Date | string | undefined): string {
       }
       <a href="https://galaxyproject.org/news/" class="more-link" target="_blank">More news →</a>
     </div>
+    <script>
+      import { notifyParent } from '../../../../utils/iframe';
+      notifyParent();
+    </script>
   </body>
 </html>
