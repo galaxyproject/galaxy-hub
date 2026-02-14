@@ -90,8 +90,9 @@ test.describe('Phase 1: Foundation Setup', () => {
     await expect(cards.first()).toBeVisible();
 
     // Check that pillar content is present
-    await expect(page.getByText('Analyze')).toBeVisible();
-    await expect(page.getByText('Reproduce')).toBeVisible();
+    await expect(page.getByText('Accessible')).toBeVisible();
+    await expect(page.getByText('Reproducible')).toBeVisible();
+    await expect(page.getByText('Transparent')).toBeVisible();
   });
 
   test('footer renders with proper structure', async ({ page }) => {
