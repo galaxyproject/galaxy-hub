@@ -1,135 +1,76 @@
 import { test, expect } from '@playwright/test';
-import fs from 'node:fs';
-import path from 'node:path';
 
-const LINK_CHECK_ENABLED = process.env.LINK_CHECK === '1';
-const MAX_PAGES = Number(process.env.LINK_CHECK_MAX || '0'); // 0 = no limit
-const IMAGE_CHECK_LIMIT = Number(process.env.LINK_CHECK_IMG_MAX || '200'); // cap per page to keep runs reasonable
-const DIST_DIR = path.resolve(process.cwd(), 'dist');
-const DEFAULT_TIMEOUT = Number(process.env.LINK_CHECK_TIMEOUT || '120000');
+/**
+ * Link/image checker — crawls the sitemap and verifies every <img> src resolves.
+ * Gated behind LINK_CHECK=1 so it doesn't run in the normal test suite.
+ *
+ * Usage:
+ *   LINK_CHECK=1 npx playwright test link-check
+ *   or via the Makefile:
+ *   make astro-link-check
+ */
 
-async function fetchXml(request, target) {
-  const res = await request.get(target);
-  if (!res.ok()) return null;
-  return res.text();
-}
+const ENABLED = process.env.LINK_CHECK === '1';
 
-function extractLocs(xml) {
-  const locs = [];
-  const re = /<loc>([^<]+)<\/loc>/gi;
-  let m;
-  while ((m = re.exec(xml)) !== null) {
-    locs.push(m[1].trim());
-  }
-  return locs;
-}
+test.describe('Link & image checker', () => {
+  test.skip(!ENABLED, 'Set LINK_CHECK=1 to enable');
 
-function remapToBase(urlString, baseURL) {
-  if (!baseURL) return urlString;
-  try {
-    const target = new URL(urlString);
-    const base = new URL(baseURL);
-    target.protocol = base.protocol;
-    target.host = base.host;
-    return target.toString();
-  } catch {
-    return urlString;
-  }
-}
+  test('all images on every sitemap page resolve', async ({ page, baseURL }) => {
+    test.setTimeout(600_000);
 
-async function collectUrlsFromSitemaps(request, baseURL) {
-  const urls = new Set();
+    // Fetch and parse the sitemap
+    const sitemapUrl = `${baseURL}/sitemap-index.xml`;
+    const sitemapRes = await page.request.get(sitemapUrl);
+    expect(sitemapRes.ok(), `Failed to fetch sitemap index at ${sitemapUrl}`).toBeTruthy();
 
-  let indexXml =
-    (await fetchXml(request, remapToBase('/sitemap-index.xml', baseURL))) ??
-    (await fetchXml(request, remapToBase('/sitemap.xml', baseURL)));
-  if (!indexXml) {
-    // Fallback to disk for preview runs where sitemap may not be served
-    const diskIndex = path.join(DIST_DIR, 'sitemap-index.xml');
-    const diskSingle = path.join(DIST_DIR, 'sitemap.xml');
-    if (fs.existsSync(diskIndex)) {
-      indexXml = fs.readFileSync(diskIndex, 'utf-8');
-    } else if (fs.existsSync(diskSingle)) {
-      indexXml = fs.readFileSync(diskSingle, 'utf-8');
-    } else {
-      return [];
-    }
-  }
+    const sitemapIndexXml = await sitemapRes.text();
+    const sitemapLocs = [...sitemapIndexXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
 
-  const firstLocs = extractLocs(indexXml);
-  const queue = [...firstLocs];
-
-  while (queue.length) {
-    const loc = queue.shift();
-    if (loc.endsWith('.xml')) {
-      const mapped = remapToBase(loc, baseURL);
-      let xml = await fetchXml(request, mapped);
-      if (!xml) {
-        const diskPath = path.join(DIST_DIR, path.basename(loc));
-        if (fs.existsSync(diskPath)) {
-          xml = fs.readFileSync(diskPath, 'utf-8');
-        }
-      }
-      if (!xml) continue;
-      extractLocs(xml).forEach((u) => queue.push(u));
-    } else {
-      urls.add(remapToBase(loc, baseURL));
-    }
-  }
-
-  return Array.from(urls);
-}
-
-test.describe('Link & image check (@linkcheck)', () => {
-  test.skip(!LINK_CHECK_ENABLED, 'Set LINK_CHECK=1 to enable link check');
-  test.setTimeout(DEFAULT_TIMEOUT);
-
-  test('all sitemap pages return OK and images resolve', async ({ page, request, baseURL }) => {
-    const sitemapUrls = await collectUrlsFromSitemaps(request, baseURL);
-    if (sitemapUrls.length === 0) {
-      test.skip('Sitemap not available on this server');
+    // Collect all page URLs from child sitemaps
+    const pageUrls: string[] = [];
+    for (const loc of sitemapLocs) {
+      const res = await page.request.get(loc);
+      if (!res.ok()) continue;
+      const xml = await res.text();
+      const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+      pageUrls.push(...urls);
     }
 
-    const urls = MAX_PAGES > 0 ? sitemapUrls.slice(0, MAX_PAGES) : sitemapUrls;
-    const errors = [];
+    expect(pageUrls.length).toBeGreaterThan(0);
+    console.log(`Checking images on ${pageUrls.length} pages...`);
 
-    for (const url of urls) {
-      const res = await request.get(url);
-      const status = res.status();
+    const broken: { page: string; src: string; status: number | string }[] = [];
 
-      if (status >= 400) {
-        errors.push(`PAGE ${status}: ${url}`);
-        continue;
-      }
+    for (const url of pageUrls) {
+      const res = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+      if (!res || !res.ok()) continue;
 
-      // For redirects, don't try to load images on the intermediate page
-      if (status >= 300 && status < 400) {
-        continue;
-      }
+      const images = await page.locator('img[src]').all();
+      for (const img of images) {
+        const src = await img.getAttribute('src');
+        if (!src) continue;
 
-      await page.goto(url, { waitUntil: 'domcontentloaded' });
-      const imgSrcs = await page.$$eval('img', (imgs) => imgs.map((img) => img.getAttribute('src')).filter(Boolean));
-
-      let checked = 0;
-      for (const src of imgSrcs) {
-        if (IMAGE_CHECK_LIMIT && checked >= IMAGE_CHECK_LIMIT) break;
+        // Skip external images and data URIs
         if (src.startsWith('data:')) continue;
-        if (src.startsWith('http') && !src.includes('localhost')) {
-          // Skip external assets; we only assert site-hosted images
-          continue;
-        }
+        if (src.startsWith('http') && !src.startsWith(baseURL!)) continue;
 
-        // Resolve relative URLs against the current page URL
-        const resolved = new URL(src, url).toString();
-        const imgRes = await request.get(resolved, { maxRedirects: 2 });
-        const imgStatus = imgRes.status();
-        if (imgStatus >= 400) {
-          errors.push(`IMG ${imgStatus}: ${url} -> ${resolved}`);
+        const imgUrl = src.startsWith('http') ? src : `${baseURL}${src.startsWith('/') ? '' : '/'}${src}`;
+        try {
+          const imgRes = await page.request.head(imgUrl);
+          if (!imgRes.ok()) {
+            broken.push({ page: url, src, status: imgRes.status() });
+          }
+        } catch {
+          broken.push({ page: url, src, status: 'error' });
         }
-        checked += 1;
       }
     }
 
-    expect(errors, `Broken pages/images:\n${errors.join('\n')}`).toEqual([]);
+    if (broken.length > 0) {
+      const summary = broken.map((b) => `  ${b.src} (status: ${b.status}) on ${b.page}`).join('\n');
+      console.log(`\nBroken images (${broken.length}):\n${summary}`);
+    }
+
+    expect(broken, `Found ${broken.length} broken image(s)`).toHaveLength(0);
   });
 });

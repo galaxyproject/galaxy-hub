@@ -60,14 +60,14 @@ astro-check: astro-install ## Format, lint, and test Astro site
 	cd astro && npm run format && npm run lint && npm test
 .PHONY: astro-check
 
+astro-link-check: astro-build ## Build site and check all images resolve
+	cd astro && PORT=9999 LINK_CHECK=1 LINK_CHECK_PREVIEW=1 npx playwright test link-check
+.PHONY: astro-link-check
+
 validate-metadata: ## Validate news and events frontmatter schemas
 	python scripts/validate_news.py --be-strict-from 2026-02-01
 	python scripts/validate_events.py --be-strict-from 2026-02-01
 .PHONY: validate-metadata
-
-astro-link-check: astro-install ## Build and run link/image check via preview server on port 9999
-	cd astro && PORT=9999 LINK_CHECK=1 LINK_CHECK_PREVIEW=1 LINK_CHECK_TIMEOUT=1800000 npm test -- --reporter=line --grep @linkcheck --project=chromium
-.PHONY: astro-link-check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'

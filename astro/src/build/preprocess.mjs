@@ -291,32 +291,31 @@ function slugToFilename(slug, useMdx = false) {
 }
 
 /**
+ * Rewrite a single image src to the correct served path.
+ */
+function rewriteSrc(src, slug) {
+  if (src.startsWith('/images/')) return src;
+  if (src.startsWith('/assets/') || src.startsWith('/media/')) return src;
+  if (src.startsWith('http')) return src;
+  if (!src.startsWith('/')) return `/images/${slug}/${src}`;
+  return `/images${src}`;
+}
+
+/**
  * Process image paths in markdown content
  */
 function processImagePaths(content, slug) {
   let processed = content;
 
-  function rewriteSrc(src) {
-    const slugPrefix = `/${slug}/`;
-    if (src.startsWith('/authnz/')) {
-      return `/images${src}`;
-    }
-    if (src.startsWith(slugPrefix)) {
-      return `/images/${slug}/${src.slice(slugPrefix.length)}`;
-    }
-    if (!src.startsWith('/') && !src.startsWith('http')) {
-      return `/images/${slug}/${src}`;
-    }
-    return src;
-  }
-
   // Update markdown image syntax: ![alt](image.png) -> ![alt](/images/slug/image.png)
   processed = processed.replace(
     /!\[([^\]]*)\]\(([^)\s]+\.(jpg|jpeg|png|gif|svg|webp))([^)]*)\)/gi,
     (match, alt, src, ext, rest) => {
-      const rewritten = rewriteSrc(src);
-      if (rewritten === src) return match;
-      return `![${alt}](${rewritten}${rest})`;
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) {
+        return `![${alt}](${rewritten}${rest})`;
+      }
+      return match;
     }
   );
 
@@ -324,9 +323,11 @@ function processImagePaths(content, slug) {
   processed = processed.replace(
     /<img\s+([^>]*src=["'])([^"']+\.(jpg|jpeg|png|gif|svg|webp))["']([^>]*)>/gi,
     (match, prefix, src, ext, suffix) => {
-      const rewritten = rewriteSrc(src);
-      if (rewritten === src) return match;
-      return `<img ${prefix}${rewritten}"${suffix}>`;
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) {
+        return `<img ${prefix}${rewritten}"${suffix}>`;
+      }
+      return match;
     }
   );
 

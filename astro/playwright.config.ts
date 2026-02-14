@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const port = Number(process.env.PORT || 4321);
-const usePreview = !!process.env.LINK_CHECK_PREVIEW;
+const port = process.env.PORT || '4321';
+const usePreview = process.env.LINK_CHECK_PREVIEW === '1';
 const baseURL = process.env.PLAYWRIGHT_BASE_URL || `http://localhost:${port}`;
 
 export default defineConfig({
@@ -23,10 +23,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: usePreview
-      ? `PORT=${port} npm run preview -- --host --port ${port}`
-      : `PORT=${port} npm run dev -- --port ${port}`,
-    url: `http://localhost:${port}`,
+    command: usePreview ? `npm run preview -- --port ${port}` : 'npm run dev',
+    url: baseURL,
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
   },
