@@ -90,8 +90,16 @@ describe('needsVueProcessing', () => {
     expect(needsVueProcessing('<vega-embed spec="chart.json" />', {})).toBe(true);
   });
 
-  it('returns false for bare/ directory files', () => {
-    expect(needsVueProcessing('<Insert name="/foo" />', {}, 'bare/page/index.md')).toBe(false);
+  it('returns true for bare/ directory files with components', () => {
+    expect(needsVueProcessing('<Insert name="/foo" />', {}, 'bare/page/index.md')).toBe(true);
+  });
+
+  it('detects Gridsome slot syntax as needing components', () => {
+    expect(needsVueProcessing('<slot name="/eu/main" />', {})).toBe(true);
+  });
+
+  it('detects PascalCase Carousel component', () => {
+    expect(needsVueProcessing('<Carousel />', {})).toBe(true);
   });
 
   it('returns false when content has problematic HTML', () => {
