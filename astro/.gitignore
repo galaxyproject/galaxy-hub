@@ -32,3 +32,4 @@ playwright/.cache/
 src/content/
 public/images/
 public/search-index.json
+src/assets/hub-images/

@@ -68,3 +68,24 @@ validate-metadata: ## Validate news and events frontmatter schemas
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 .PHONY: help
+
+.PHONY: clean-astro-cache
+clean-astro-cache:
+	@echo "Cleaning Astro cache and migrated images..."
+	rm -rf astro/.astro astro/node_modules/.astro astro/src/assets/hub-images
+	@echo "Cache cleared!"
+
+.PHONY: astro-force-image-migration
+astro-force-image-migration: astro-install
+	@echo "Forcing image migration to run..."
+	rm -rf astro/.astro/image-migration-cache.json astro/src/assets/hub-images
+	cd astro && NODE_ENV=development npm run dev &
+	@echo "Waiting for migration to complete..."
+	@sleep 8
+	@pkill -f "astro dev" || true
+	@echo "✅ Image migration forced! Check astro/src/assets/hub-images/"
+	@ls -la astro/src/assets/hub-images/ 2>/dev/null || echo "No images found - check your imageDirs config"
+
+.PHONY: astro-build-fresh
+astro-build-fresh: clean-astro-cache astro-build
+	@echo "Fresh build complete!"
