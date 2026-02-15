@@ -291,6 +291,17 @@ function slugToFilename(slug, useMdx = false) {
 }
 
 /**
+ * Rewrite a single image src to the correct served path.
+ */
+function rewriteSrc(src, slug) {
+  if (src.startsWith('/images/')) return src;
+  if (src.startsWith('/assets/') || src.startsWith('/media/')) return src;
+  if (src.startsWith('http')) return src;
+  if (!src.startsWith('/')) return `/images/${slug}/${src}`;
+  return `/images${src}`;
+}
+
+/**
  * Process image paths in markdown content
  */
 function processImagePaths(content, slug) {
@@ -300,8 +311,9 @@ function processImagePaths(content, slug) {
   processed = processed.replace(
     /!\[([^\]]*)\]\(([^)\s]+\.(jpg|jpeg|png|gif|svg|webp))([^)]*)\)/gi,
     (match, alt, src, ext, rest) => {
-      if (!src.startsWith('/') && !src.startsWith('http')) {
-        return `![${alt}](/images/${slug}/${src}${rest})`;
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) {
+        return `![${alt}](${rewritten}${rest})`;
       }
       return match;
     }
@@ -311,8 +323,9 @@ function processImagePaths(content, slug) {
   processed = processed.replace(
     /<img\s+([^>]*src=["'])([^"']+\.(jpg|jpeg|png|gif|svg|webp))["']([^>]*)>/gi,
     (match, prefix, src, ext, suffix) => {
-      if (!src.startsWith('/') && !src.startsWith('http')) {
-        return `<img ${prefix}/images/${slug}/${src}"${suffix}>`;
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) {
+        return `<img ${prefix}${rewritten}"${suffix}>`;
       }
       return match;
     }
@@ -1002,4 +1015,5 @@ export {
   convertVueToJsx,
   convertComponentsToPascalCase,
   addBootstrapMarker,
+  processImagePaths,
 };

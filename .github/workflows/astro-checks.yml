@@ -61,6 +61,9 @@ jobs:
       - name: Generate search index
         run: npm run search-index
 
+      - name: Generate redirects
+        run: npm run generate-redirects
+
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
