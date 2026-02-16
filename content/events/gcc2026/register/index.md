@@ -25,8 +25,8 @@ purchased along with the registration. If you'd like to purchase additional
 dinner tickets for your travel companion(s) you can do so at the time of
 registration.
 
-**Please note that all prices are listed in Euros (EUR) and exclude the mandatory
-VAT (21%).** When paying for the registration, you can use a credit card or do a bank
+**Please note that all prices are listed in Euros (EUR) and include the mandatory
+VAT/TVA (10%).** When paying for the registration, you can use a credit card or do a bank
 transfer. You can also register and request the payment be processed afterwards
 by someone else, such as your department administrator. If you prefer to
 reason in a different currency, here is a convenient [currency
@@ -54,8 +54,6 @@ provided.
 | Industry                           | EUR450 | EUR675 | EUR1,000 |
 | Conference dinner                  |        |        | EUR70    |
 
-\* Please note that the above prices do not include the mandatory 21% VAT, which
-will be added during registration.
 
 <div class="text-center my-5">
     <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
@@ -76,11 +74,13 @@ the channel.
 | --- | ---: |
 | Virtual    | EUR50 |
 
-## CoFest: June 25-26
+## CoFest & Training: June 25-26
 
 [CoFest](/events/gcc2026/cofest/), or CollaborationFest, is an opportunity to
 meet the people working on Galaxy and spend some time with each other in person
 to plan, work, or learn about many Galaxy components.
+[Training](/events/gcc2026/training/) is a hands-on session where you can learn mor about Galaxy 
+or some specific topics within the Galaxy ecosystem.
 
 The registration cost is used to cover the costs of space and drinks during the
 event.

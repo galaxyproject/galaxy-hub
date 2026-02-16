@@ -5,8 +5,8 @@
  * Displays platform info, instances table, and various metadata sections
  */
 import BaseLayout from './BaseLayout.astro';
-import { marked } from 'marked';
 import Icon from '../components/ui/Icon.astro';
+import { renderMarkdownInline } from '../utils/markdown';
 
 interface PlatformInstance {
   platform_group?: string;
@@ -70,8 +70,6 @@ const scopeNames: Record<string, string> = {
   domain: 'Domain Specific',
   'tool-publishing': 'Tool Publishing',
 };
-
-const renderMarkdown = (value?: string): string => (value ? marked.parseInline(value) : '');
 
 // Sections to render
 const sections = [
@@ -201,7 +199,7 @@ const sections = [
                   <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40 align-top">Summary:</th>
                   <td
                     class="px-4 py-3 text-sm text-gray-700 prose prose-sm max-w-none"
-                    set:html={renderMarkdown(summary)}
+                    set:html={renderMarkdownInline(summary)}
                   />
                 </tr>
               )}
@@ -223,7 +221,7 @@ const sections = [
           <h2 class="text-xl font-semibold text-gray-900 mb-3 capitalize">{section.name}</h2>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             {section.items.map((item: string) => (
-              <li class="prose prose-sm max-w-none" set:html={renderMarkdown(item)} />
+              <li class="prose prose-sm max-w-none" set:html={renderMarkdownInline(item)} />
             ))}
             {section.key === 'citations' && pub_libraries && pub_libraries.length > 0 && (
               <>

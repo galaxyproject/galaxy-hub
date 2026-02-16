@@ -11,6 +11,8 @@ contributions:
     - almahmoud
     - mohamadsafadieh
     - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-07-gvl5-beta4/"
 ---
 
 Less than a month ago we shared the news about the [beta3 release of GVL

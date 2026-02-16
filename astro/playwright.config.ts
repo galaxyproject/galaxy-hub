@@ -1,5 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
 
+const port = process.env.PORT || '4321';
+const usePreview = process.env.LINK_CHECK_PREVIEW === '1';
+const baseURL = process.env.PLAYWRIGHT_BASE_URL || `http://localhost:${port}`;
+
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
@@ -8,7 +12,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'http://localhost:4321',
+    baseURL,
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
@@ -19,8 +23,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run dev',
-    url: 'http://localhost:4321',
+    command: usePreview ? `npm run preview -- --port ${port}` : 'npm run dev',
+    url: baseURL,
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
   },

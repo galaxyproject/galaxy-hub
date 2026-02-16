@@ -1020,6 +1020,12 @@ jellescholtalbers:
     github: false
     joined: 2026-01
 
+jnussbaum:
+    gtn-halloffame: "no"
+    name: Johannes Nussbaum
+    github: true
+    joined: 2026-01
+
 jyotiprakashmohanty:
     gtn-halloffame: "no"
     name: Jyoti Prakash Mohanty
@@ -1370,7 +1376,7 @@ sarahmaman:
 
 Sch-Da:
     name: Daniela Schneider
-    joined: 2024-10
+    joined: 2024-06
     email: schneidd@informatik.uni-freiburg.de
     matrix: 'schn_da:matrix.org'
     orcid: 0000-0001-9536-5587
@@ -1455,16 +1461,18 @@ desmond-jasper:
     joined: 2020-04
 
 dianichj:
-        name: Diana Chiang Jurado
-        email: dianachj@informatik.uni-freiburg.de
-        orcid: 0000-0002-5857-1477
-        joined: 2024-08
-        affiliations:
-          - spoc
+    name: Diana Chiang Jurado
+    email: dianachj@informatik.uni-freiburg.de
+    orcid: 0000-0002-5857-1477
+    joined: 2024-08
+    affiliations:
+        - spoc
+        - uni-freiburg
+        - nfdi4bioimage
 
 DinithiRajapaksha:
-        name: Dinithi Rajapaksha
-        joined: 2024-09
+    name: Dinithi Rajapaksha
+    joined: 2024-09
 
 dirowa:
     name: Donny Vrins
@@ -1622,6 +1630,13 @@ ethering:
     name: Graham Etherington
     orcid: 0000-0002-5003-1425
     joined: 2019-10
+
+etzm:
+    name: Martin Etzrodt 
+    joined: 2026-01
+    orcid: 0000-0003-1928-3904
+    affiliations:
+      - iscc
 
 evenmm:
     name: Even Moa Myklebust
@@ -2588,6 +2603,14 @@ poterlowicz-lab:
     elixir_node: uk
     affiliations:
       - elixir-europe
+      
+maartenpaul:
+    name: Maarten Paul
+    email: m.w.paul@lacdr.leidenuniv.nl
+    orcid: 0000-0002-7990-6010
+    joined: 2025-11
+    affiliations:
+      - nlbioimaging
 
 malloryfreeberg:
     name: Mallory Freeberg

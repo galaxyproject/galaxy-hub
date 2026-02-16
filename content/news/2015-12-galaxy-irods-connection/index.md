@@ -8,4 +8,6 @@ contributions:
   authorship:
     - mikaelloaec
     - olivierinizan
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2015-12-galaxy-irods-connection/"
 ---

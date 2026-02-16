@@ -6,6 +6,8 @@ date: "2021-09-02"
 contributions:
   authorship:
     - lukesargent
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-09-cancer-informatics-wg-update/"
 ---
 
 # Cancer Informatics + Galaxy

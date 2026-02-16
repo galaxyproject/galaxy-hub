@@ -1,15 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/layout/PageHeader.astro';
 import SearchPage from '../components/search/SearchPage.vue';
 ---
 
 <BaseLayout title="Search" description="Search the Galaxy Community Hub">
-  <div class="max-w-4xl mx-auto">
-    <header class="mb-8">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2">Search</h1>
-      <p class="text-lg text-gray-600">Find articles, events, and platforms across the Galaxy Community Hub</p>
-    </header>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader
+      title="Search"
+      description="Search the Galaxy Community Hub, the broader Galaxy ecosystem, or the Galaxy publication library."
+    />
 
-    <SearchPage client:load />
+    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
+      <SearchPage client:load />
+    </div>
   </div>
 </BaseLayout>

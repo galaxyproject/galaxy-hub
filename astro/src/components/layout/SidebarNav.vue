@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite } from '@/stores/subsiteStore';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
@@ -18,6 +18,7 @@ interface NavSection {
 }
 
 const subsite = useStore(currentSubsite);
+const showPeople = computed(() => !!subsite.value && subsite.value !== 'global');
 
 // Top-level links (not in collapsible sections)
 const topLinks: NavItem[] = [
@@ -115,7 +116,7 @@ function buildHref(href: string, external?: boolean): string {
   const currentSub = subsite.value;
   if (currentSub && currentSub !== 'global') {
     // Check if this path should be prefixed
-    const subsitePaths = ['/news/', '/events/', '/community/'];
+    const subsitePaths = ['/news/', '/events/', '/community/', '/people/'];
     for (const path of subsitePaths) {
       if (href.startsWith(path)) {
         return `/${currentSub}${href}`;
@@ -138,6 +139,13 @@ function buildHref(href: string, external?: boolean): string {
         class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
       >
         {{ link.label }}
+      </a>
+      <a
+        v-if="showPeople"
+        :href="buildHref('/people/')"
+        class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+      >
+        People
       </a>
     </div>
 

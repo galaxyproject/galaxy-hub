@@ -6,6 +6,8 @@ authors: "Helena Rasche"
 contributions:
   authorship:
     - hexylena
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-public-galaxy-dashboard/"
 ---
 
 [<img class="img-fluid mx-auto" src="/news/2017-10-public-galaxy-dashboard/dashboard-landing.png" alt="Public Galaxy Server Dashboard" />](https://stats.galaxyproject.eu/dashboard/db/public-galaxy-servers)

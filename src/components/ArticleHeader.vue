@@ -34,7 +34,7 @@
                 <p class="contact" v-if="hasContacts">
                     Contact: <Contacts :contact="article.contact" :contacts="article.contacts" />
                 </p>
-                <p class="authors" v-if="article.authors">By {{ article.authors }}</p>
+                <p class="authors" v-if="authorsDisplay">By {{ authorsDisplay }}</p>
                 <p class="date" v-if="article.date">
                     {{ articleDateStr }}
                 </p>
@@ -142,6 +142,16 @@ export default {
         },
         image() {
             return getImage(this.article.image, this.article.images);
+        },
+        authorsDisplay() {
+            const authors = this.article.authors;
+            if (!authors) {
+                return null;
+            }
+            if (Array.isArray(authors)) {
+                return authors.join(", ");
+            }
+            return authors;
         },
     },
     mounted() {

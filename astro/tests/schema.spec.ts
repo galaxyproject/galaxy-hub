@@ -20,7 +20,7 @@ async function loadLdJson(page) {
 
 test.describe('Schema.org JSON-LD', () => {
   test('news page exposes NewsArticle schema', async ({ page }) => {
-    const response = await page.goto('/news/2025-10-15-egd2025/');
+    const response = await page.goto('/news/2025-10-15-egd-2025/');
     expect(response?.status()).toBe(200);
 
     const docs = await loadLdJson(page);

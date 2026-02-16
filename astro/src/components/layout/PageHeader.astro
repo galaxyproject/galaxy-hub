@@ -5,6 +5,8 @@
  * Supports optional article metadata (date, authors, tags)
  */
 
+import { formatDate } from '../../utils/dateUtils';
+
 interface Props {
   title: string;
   description?: string;
@@ -46,21 +48,13 @@ function toDate(d: Date | string | undefined): Date | null {
   return d instanceof Date ? d : new Date(d);
 }
 
-// Format date for display
-function formatDate(d: Date | string | undefined): string {
-  const dateObj = toDate(d);
-  if (!dateObj) return '';
-  return dateObj.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
-}
-
 function toISOString(d: Date | string | undefined): string {
   const dateObj = toDate(d);
   return dateObj ? dateObj.toISOString() : '';
 }
+
+// Use long format (full month names) for standalone page headers
+const formattedDate = formatDate(date, false);
 ---
 
 <header class="page-header">
@@ -77,7 +71,7 @@ function toISOString(d: Date | string | undefined): string {
         <div class="flex flex-wrap items-center gap-4 text-sm text-white/70 mt-4">
           {date && (
             <time datetime={toISOString(date)} class="font-medium">
-              {formatDate(date)}
+              {formattedDate}
             </time>
           )}
           {normalizedAuthors.length > 0 && (

@@ -6,6 +6,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
 
 const autolinkConfig = {
   behavior: 'append',
@@ -15,11 +16,25 @@ const autolinkConfig = {
   },
 };
 
+// Build redirect config with 301 status for SEO
+// Simple redirects: exact path mappings
+const simpleRedirects = Object.fromEntries(
+  Object.entries(generatedRedirects.redirects).map(([from, to]) => [from, { destination: to, status: 301 }])
+);
+// Pattern redirects: dynamic route patterns (e.g. /blog/[...slug] → /news/[...slug])
+const patternRedirects = Object.fromEntries(
+  Object.entries(generatedRedirects.patterns).map(([from, to]) => [from, { destination: to, status: 301 }])
+);
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://galaxyproject.org',
   prefetch: {
     defaultStrategy: 'hover',
+  },
+  redirects: {
+    ...simpleRedirects,
+    ...patternRedirects,
   },
   integrations: [
     vue(),
@@ -37,11 +52,8 @@ export default defineConfig({
       // Reduce inotify watcher pressure during dev/Playwright runs
       watch: {
         usePolling: true,
-        ignored: [
-          '**/public/images/**',
-          '**/content/**/images/**'
-        ],
+        ignored: ['**/public/images/**', '**/public/assets/**', '**/public/media/**', '**/content/**/images/**'],
       },
     },
-  }
+  },
 });
