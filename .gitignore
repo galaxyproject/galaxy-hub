@@ -28,3 +28,6 @@ test.html
 /astro/src/content/platforms
 /astro/src/content/inserts
 /astro/src/content/datasets
+
+# Generated WebP images (build artifacts)
+/content/**/*.webp
