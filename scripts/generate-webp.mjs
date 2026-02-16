@@ -39,12 +39,14 @@ async function generateWebP() {
   let generated = 0;
   let skipped = 0;
   let errors = 0;
+  let totalOriginalSize = 0;
+  let totalWebPSize = 0;
   
   for (const imagePath of images) {
     const webpPath = imagePath.replace(/\.(jpe?g|png)$/i, '.webp');
     
     try {
-      // Check if we should skip
+      // Check if we should skip because WebP already exists and is up to date
       if (config.skipExisting && await shouldSkip(imagePath, webpPath)) {
         skipped++;
         if (config.verbose) {
@@ -65,11 +67,13 @@ async function generateWebP() {
         .toFile(webpPath);
       
       generated++;
-      
+
       if (config.verbose) {
         const originalStat = await fs.stat(imagePath);
         const webpStat = await fs.stat(webpPath);
         const savings = ((1 - webpStat.size / originalStat.size) * 100).toFixed(1);
+        totalOriginalSize += originalStat.size;
+        totalWebPSize += webpStat.size;
         console.log(
           `✅ ${path.basename(imagePath)} → ${path.basename(webpPath)} ` +
           `(${formatBytes(originalStat.size)} → ${formatBytes(webpStat.size)}, ${savings}% smaller)`
@@ -90,6 +94,11 @@ async function generateWebP() {
   console.log(`   Skipped: ${skipped}`);
   console.log(`   Errors: ${errors}`);
   console.log(`   Duration: ${duration}s`);
+  if (totalOriginalSize > 0) {
+    const totalSavings = ((1 - totalWebPSize / totalOriginalSize) * 100).toFixed(1);
+    const bytesSaved = totalOriginalSize - totalWebPSize;
+    console.log(`   Total size reduction: ${totalSavings}% (${formatBytes(bytesSaved)} saved)`);
+  }
   
   if (config.dryRun) {
     console.log('\n⚠️  DRY RUN - No files were created');
