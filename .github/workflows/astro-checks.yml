@@ -58,6 +58,9 @@ jobs:
       - name: Preprocess content
         run: npm run preprocess
 
+      - name: Generate redirects
+        run: npm run generate-redirects
+
       - name: Generate search index
         run: npm run search-index
 

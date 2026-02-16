@@ -163,15 +163,8 @@ function hasProblematicHtml(content) {
  * Check if content contains Vue components that need MDX processing
  * Only use MDX for files that explicitly opt-in OR have specific safe component patterns
  */
-function needsVueProcessing(content, frontmatter, filePath = '') {
-  // Skip MDX for directories with complex Vue component patterns
-  // bare/: heavy use of slot and Vue-specific syntax requiring full Vue processing
-  const SKIP_MDX_DIRS = ['bare/'];
-  for (const dir of SKIP_MDX_DIRS) {
-    if (filePath.includes(dir)) {
-      return false;
-    }
-  }
+function needsVueProcessing(content, frontmatter) {
+  // hasProblematicHtml() below provides the safety net for genuinely problematic content
 
   // Check for problematic HTML patterns that break MDX
   if (hasProblematicHtml(content)) {
@@ -183,25 +176,39 @@ function needsVueProcessing(content, frontmatter, filePath = '') {
     return true;
   }
 
+  // Detect Gridsome <slot name="..."> which convertGridsomeSyntax() will convert to <Insert>
+  if (/<slot\s+name=/i.test(content)) {
+    return true;
+  }
+
   // Only check for components that are unlikely to appear in malformed HTML
-  // and are clearly custom Vue components (not standard HTML-like)
+  // and are clearly custom Vue components (not standard HTML-like).
+  // Both kebab-case and PascalCase variants, since raw content may use either.
   const SAFE_COMPONENTS = [
-    'twitter', // Social embeds
+    'twitter',
+    'Twitter', // Social embeds
     'mastodon',
-    'vega-embed', // Data viz
-    'calendar-embed', // Calendar
-    'video-player', // Media
+    'Mastodon',
+    'vega-embed',
+    'VegaEmbed', // Data viz
+    'calendar-embed',
+    'CalendarEmbed', // Calendar
+    'video-player',
+    'VideoPlayer', // Media
     'carousel',
+    'Carousel',
     'flickr',
-    'supporters', // Custom lists
+    'Flickr',
+    'supporters',
+    'Supporters', // Custom lists
     'contacts',
+    'Contacts',
     'markdown-embed',
-    'Insert', // Content insertion component
+    'MarkdownEmbed',
+    'Insert', // Content insertion component (case-sensitive to avoid "<insert your text here>")
   ];
 
   for (const component of SAFE_COMPONENTS) {
-    // Only match properly formatted component tags (with space after name or self-closing)
-    // Case-sensitive to avoid false positives like "<insert your text here>"
     const openTagRegex = new RegExp(`<${component}(\\s|>|\\/)`);
     if (openTagRegex.test(content)) {
       return true;

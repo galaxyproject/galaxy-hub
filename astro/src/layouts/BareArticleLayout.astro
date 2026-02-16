@@ -33,6 +33,10 @@ const { title, description } = Astro.props;
         <slot />
       </article>
     </main>
+    <script>
+      import { setupIframeResize } from '../utils/iframe';
+      setupIframeResize();
+    </script>
   </body>
 </html>
 

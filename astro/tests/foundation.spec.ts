@@ -89,9 +89,10 @@ test.describe('Phase 1: Foundation Setup', () => {
     const cards = page.locator('.pillar-card');
     await expect(cards.first()).toBeVisible();
 
-    // Check that pillar content is present
-    await expect(page.getByRole('heading', { name: 'Accessible' })).toBeVisible();
-    await expect(page.getByRole('heading', { name: 'Reproducible' })).toBeVisible();
+    // Check that pillar titles are present
+    await expect(page.locator('.pillar-title', { hasText: 'Accessible' })).toBeVisible();
+    await expect(page.locator('.pillar-title', { hasText: 'Reproducible' })).toBeVisible();
+    await expect(page.locator('.pillar-title', { hasText: 'Transparent' })).toBeVisible();
   });
 
   test('footer renders with proper structure', async ({ page }) => {
