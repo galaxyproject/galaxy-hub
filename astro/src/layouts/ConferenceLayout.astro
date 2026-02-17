@@ -100,7 +100,13 @@ function getLocationText(loc: string | LocationData | null | undefined): string 
 
 const hasMetadata =
   showMetadata &&
-  ((title && title !== 'Event') || description || date || location || tags.length > 0 || authors.length > 0 || contacts.length > 0);
+  ((title && title !== 'Event') ||
+    description ||
+    date ||
+    location ||
+    tags.length > 0 ||
+    authors.length > 0 ||
+    contacts.length > 0);
 ---
 
 <BaseLayout title={title || 'Conference'} description={description}>
@@ -109,98 +115,95 @@ const hasMetadata =
       hasMetadata && (
         <PageHeader title={title || 'Conference'} description={description} tags={tags} authors={authors}>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
-            {
-              date && (
-                <div class="flex items-start gap-3 text-white/80">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                    />
-                  </svg>
-                  <div>
-                    <span class="block font-medium text-white">Date</span>
-                    <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
-                  </div>
+            {date && (
+              <div class="flex items-start gap-3 text-white/80">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  />
+                </svg>
+                <div>
+                  <span class="block font-medium text-white">Date</span>
+                  <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
                 </div>
-              )
-            }
+              </div>
+            )}
 
-            {
-              location && (
-                <div class="flex items-start gap-3 text-white/80">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                  <div>
-                    <span class="block font-medium text-white">Location</span>
-                    <span>{getLocationText(location)}</span>
-                  </div>
+            {location && (
+              <div class="flex items-start gap-3 text-white/80">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <div>
+                  <span class="block font-medium text-white">Location</span>
+                  <span>{getLocationText(location)}</span>
                 </div>
-              )
-            }
+              </div>
+            )}
 
-            {
-              contacts.length > 0 && (
-                <div class="flex items-start gap-3 text-white/80">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                    />
-                  </svg>
-                  <div>
-                    <span class="block font-medium text-white">Contact</span>
-                    <span>{contacts.map((c) => c.name || c.email).filter(Boolean).join(', ')}</span>
-                  </div>
+            {contacts.length > 0 && (
+              <div class="flex items-start gap-3 text-white/80">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+                <div>
+                  <span class="block font-medium text-white">Contact</span>
+                  <span>
+                    {contacts
+                      .map((c) => c.name || c.email)
+                      .filter(Boolean)
+                      .join(', ')}
+                  </span>
                 </div>
-              )
-            }
+              </div>
+            )}
           </div>
-          {
-            subnavItems.length > 0 && (
-              <nav class="conference-subnav" aria-label="Conference pages">
-                {subnavItems.map((item) => (
-                  <a href={item.href} class:list={['conference-subnav-link', item.active && 'is-active']}>
-                    {item.label}
-                  </a>
-                ))}
-              </nav>
-            )
-          }
+          {subnavItems.length > 0 && (
+            <nav class="conference-subnav" aria-label="Conference pages">
+              {subnavItems.map((item) => (
+                <a href={item.href} class:list={['conference-subnav-link', item.active && 'is-active']}>
+                  {item.label}
+                </a>
+              ))}
+            </nav>
+          )}
         </PageHeader>
       )
     }
