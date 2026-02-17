@@ -1,0 +1,42 @@
+---
+/**
+ * Simplified optimized Image component.
+ * Images must be located in /src/assets/ to be optimized.
+ */
+import { Picture } from 'astro:assets';
+
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  quality?: number;
+}
+
+const { src, alt, class: className = '', quality = 90 } = Astro.props;
+const imageBundle = import.meta.glob<{ default: ImageMetadata }>(`/src/**/*.{png,jpg,jpeg,gif,webp,svg}`);
+const isWriteableImage = src.startsWith('/src/');
+
+let writeableImage: ImageMetadata | undefined;
+
+// Dynamically import only the specific image needed
+if (isWriteableImage && imageBundle[src]) {
+  const module = await imageBundle[src]();
+  writeableImage = module.default;
+}
+---
+
+{
+  isWriteableImage && writeableImage ? (
+    <Picture
+      src={writeableImage}
+      alt={alt}
+      class={className}
+      formats={['webp', 'avif']}
+      fallbackFormat="png"
+      quality={quality}
+      loading="lazy"
+    />
+  ) : (
+    <img src={src} alt={alt} class={className} loading="lazy" decoding="async" />
+  )
+}
