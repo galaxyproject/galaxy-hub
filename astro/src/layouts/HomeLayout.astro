@@ -175,15 +175,20 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
           'Segoe UI',
           Roboto,
           sans-serif;
+        transition: padding-top 0.3s ease-out;
       }
 
-      /* Hover trigger zone at top of page */
+      body.masthead-locked {
+        padding-top: var(--masthead-height, 56px);
+      }
+
+      /* Hover trigger zone at top of page — sized to match masthead */
       .masthead-trigger {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        height: 20px;
+        height: var(--masthead-height, 56px);
         z-index: 999;
       }
 
@@ -472,25 +477,28 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         // Scroll-triggered masthead
         const masthead = document.getElementById('masthead');
         const mastheadTrigger = document.getElementById('masthead-trigger');
-        const heroHeight = window.innerHeight * 0.15; // Show after scrolling 15% of viewport
-        let isHovering = false;
+        let lockedVisible = false;
+
+        // Use actual masthead height as scroll threshold and trigger zone size
+        const mastheadHeight = masthead?.offsetHeight ?? 56;
+        document.documentElement.style.setProperty('--masthead-height', `${mastheadHeight}px`);
 
         function updateMasthead() {
-          if (window.scrollY > heroHeight || isHovering) {
+          if (window.scrollY > mastheadHeight && !lockedVisible) {
+            lockedVisible = true;
+          }
+          if (lockedVisible) {
             masthead?.classList.add('visible');
+            document.body.classList.add('masthead-locked');
           } else {
             masthead?.classList.remove('visible');
+            document.body.classList.remove('masthead-locked');
           }
         }
 
-        // Hover trigger for masthead
+        // Hover trigger locks the masthead open permanently
         mastheadTrigger?.addEventListener('mouseenter', () => {
-          isHovering = true;
-          updateMasthead();
-        });
-
-        masthead?.addEventListener('mouseleave', () => {
-          isHovering = false;
+          lockedVisible = true;
           updateMasthead();
         });
 
