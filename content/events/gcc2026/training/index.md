@@ -2,7 +2,6 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2026/header" />
 <div class="text-center lead">
 
 # <b>Training opportunities at GCC2026</b>
