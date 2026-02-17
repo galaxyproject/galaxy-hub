@@ -501,7 +501,7 @@ ifb:
         matrix: "@clsiguret:matrix.org"
         linkedin: cléa-siguret-58423b107
         orcid: 0009-0005-6140-0379
-us:
+jhu:
     dannon:
         name: Dannon Baker
         title: Research Engineer
@@ -513,12 +513,6 @@ us:
           Galaxy is a web-based platform for doing reproducible and transparent genomic research. Dannon's current efforts include work
           on a cloud computing deployment of Galaxy, and developing a flexible framework for automatic parallelism of tools within Galaxy.
           Dannon received his M.S. and B.S. in Computer Science from the Georgia Institute of Technology.
-    natefoo:
-        name: Nate Coraor
-        title: System Engineer
-        matrix: "@natefoo:matrix.org"
-        website: https://github.com/natefoo
-
     ahmedhamidawan:
         name: Ahmed Hamid Awan
         title: Software Engineer
@@ -534,6 +528,13 @@ us:
           Manager for Galaxy releases from 2024-2026, coordinating the delivery of major updates and documenting release notes
           to communicate new features and improvements to the community. He received his B.S. in Computer Science from the
           University of Maryland, Baltimore County, in 2021.
+
+pennstate:
+    natefoo:
+        name: Nate Coraor
+        title: System Engineer
+        matrix: "@natefoo:matrix.org"
+        website: https://github.com/natefoo
 
 cz:
     martenson:

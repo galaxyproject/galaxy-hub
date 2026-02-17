@@ -5,8 +5,10 @@ import { parse } from 'yaml';
 import { communitySlug } from './contributors';
 
 export const europeSites = ['freiburg', 'ifb', 'erasmusmc', 'elixir-it', 'genouest', 'cz'] as const;
+export const usSites = ['jhu', 'pennstate'] as const;
 
 export type EuropeSiteId = (typeof europeSites)[number];
+export type UsSiteId = (typeof usSites)[number];
 
 export interface PersonProfile {
   id: string;
