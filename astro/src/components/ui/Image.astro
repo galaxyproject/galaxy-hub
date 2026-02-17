@@ -1,7 +1,7 @@
 ---
 /**
  * Simplified optimized Image component.
- * Images must be located in /src/assets/ to be optimized.
+ * Images must be located in /src/ to be optimized.
  */
 import { Picture } from 'astro:assets';
 
@@ -13,7 +13,7 @@ interface Props {
 }
 
 const { src, alt, class: className = '', quality = 90 } = Astro.props;
-const imageBundle = import.meta.glob<{ default: ImageMetadata }>(`/src/**/*.{png,jpg,jpeg,gif,webp,svg}`);
+const imageBundle = import.meta.glob<{ default: ImageMetadata }>("/src/**/*.{png,jpg,jpeg,gif,webp,svg}");
 const isWriteableImage = src.startsWith('/src/');
 
 let writeableImage: ImageMetadata | undefined;
@@ -21,7 +21,7 @@ let writeableImage: ImageMetadata | undefined;
 // Dynamically import only the specific image needed
 if (isWriteableImage && imageBundle[src]) {
   const module = await imageBundle[src]();
-  writeableImage = module.default;
+  writeableImage = module.default; /* case sensitive for Astro Picture component */
 }
 ---
 
