@@ -152,6 +152,23 @@ async function generateRedirects() {
   console.log(`Found ${contentItems.length} content items`);
 
   // Count redirects by type
+  // Track all redirect sources case-insensitively. Astro's router is
+  // case-insensitive, so two redirects that differ only by case collide.
+  const seenLower = new Set();
+
+  function addRedirect(from, to) {
+    const lower = from.toLowerCase();
+    if (seenLower.has(lower)) return false;
+    seenLower.add(lower);
+    redirects[from] = to;
+    return true;
+  }
+
+  // Also register all canonical page slugs so redirects don't collide with real pages
+  for (const { slug } of contentItems) {
+    seenLower.add(`/${slug}/`.toLowerCase());
+  }
+
   let naturalCount = 0;
   let legacyCount = 0;
 
@@ -159,27 +176,18 @@ async function generateRedirects() {
     const canonicalPath = `/${slug}/`;
 
     // 1. Natural URL redirect: naturalSlug → normalized slug
-    // (when the original folder name differs from the normalized canonical URL)
     if (naturalSlug && naturalSlug !== slug) {
-      const naturalPath = `/${naturalSlug}/`;
-      if (!redirects[naturalPath]) {
-        redirects[naturalPath] = canonicalPath;
+      if (addRedirect(`/${naturalSlug}/`, canonicalPath)) {
         naturalCount++;
       }
     }
 
     // 2. Legacy Gridsome URL redirect: legacy → normalized slug
-    // Use the naturalSlug (original folder name) for Gridsome normalization,
-    // since that's what Gridsome would have seen
     const sourceForLegacy = naturalSlug || slug;
     const legacySlug = legacyNormalize(sourceForLegacy);
 
-    // Only add if legacy differs from canonical AND differs from natural
-    // (to avoid duplicate redirects)
     if (legacySlug !== slug) {
-      const legacyPath = `/${legacySlug}/`;
-      if (!redirects[legacyPath]) {
-        redirects[legacyPath] = canonicalPath;
+      if (addRedirect(`/${legacySlug}/`, canonicalPath)) {
         legacyCount++;
       }
     }
@@ -192,10 +200,7 @@ async function generateRedirects() {
     if (!naturalSlug) continue;
     const lowerSlug = naturalSlug.toLowerCase();
     if (lowerSlug !== slug && lowerSlug !== naturalSlug) {
-      const lowerPath = `/${lowerSlug}/`;
-      const canonicalPath = `/${slug}/`;
-      if (!redirects[lowerPath]) {
-        redirects[lowerPath] = canonicalPath;
+      if (addRedirect(`/${lowerSlug}/`, `/${slug}/`)) {
         caseInsensitiveCount++;
       }
     }
