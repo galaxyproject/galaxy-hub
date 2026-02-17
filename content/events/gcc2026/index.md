@@ -10,7 +10,7 @@ tease: "The annual gathering of the Galaxy Community with opportunities to hear 
 continent: EU
 location:
   name: "Clermont-Ferrand, France"
-  url: "/events/gcc-2026/"
+  url: "/events/gcc2026/"
 gtn: true
 contact: "Organizing Committee"
 subsites: [all, all-eu]
