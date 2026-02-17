@@ -2,6 +2,9 @@
   "name": "galaxy-hub",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "preprocess": "node src/build/preprocess.mjs",
     "preprocess:verbose": "node src/build/preprocess.mjs --verbose",
