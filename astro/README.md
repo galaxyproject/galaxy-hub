@@ -9,10 +9,8 @@ This is the Astro-based implementation of the Galaxy Community Hub, migrating fr
 npm install
 
 # Start dev server (http://localhost:4321)
+# Automatically preprocesses content, generates redirects, and builds search index
 npm run dev
-
-# Full dev with preprocessing and search index
-npm run dev:fresh
 ```
 
 ## Building
