@@ -625,11 +625,30 @@ jhu:
             [James Peter Taylor | 1979 - 2020](/jxtx/bio/).
 
 pennstate:
+    nekrut:
+        name: Anton Nekrutenko
+        title: Head of the Team
+        website: http://nekrut.bx.psu.edu
+        email: anton@nekrut.org
+        matrix: "@nekruten:matrix.org"
+        linkedin: nekrut
+        orcid: 0000-0002-5987-8032
+        google-scholar: wiBQ9IQAAAAJ
+
     natefoo:
         name: Nate Coraor
-        title: System Engineer
+        title: Systems Engineer
+        email: nate@bx.psu.edu
         matrix: "@natefoo:matrix.org"
-        website: https://github.com/natefoo
+        linkedin: natecoraor
+
+    jmchilton:
+        name: John Chilton
+        title: Research Software Engineer
+        email: jmchilton@gmail.com
+        matrix: "@jmchilton:matrix.org"
+        linkedin: jmchilton
+        orcid: 0000-0002-6794-0756
 
 cz:
     martenson:
