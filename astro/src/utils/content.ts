@@ -194,13 +194,23 @@ export async function getInsert(slug: string): Promise<InsertEntry | undefined> 
     const inserts = await getCollection('inserts');
     insertCache = new Map();
     for (const insert of inserts) {
-      const key = normalizeSlug(insert.data.slug);
-      insertCache.set(key, insert);
-      // Also index by naturalSlug (pre-normalization path) so lookups from
-      // legacy content that reference the original underscore/camelCase
-      // paths still resolve correctly.
-      if (insert.data.naturalSlug) {
-        insertCache.set(normalizeSlug(insert.data.naturalSlug), insert);
+      const keys = new Set<string>();
+      const canonicalSlug = normalizeSlug(insert.data.slug);
+      keys.add(canonicalSlug);
+
+      // Preprocessed content can preserve original folder-based slugs (naturalSlug),
+      // e.g. events/gcc2026/header, while canonical slugs are normalized (gcc-2026).
+      const naturalSlug = (insert.data as Record<string, unknown>).naturalSlug;
+      if (typeof naturalSlug === 'string' && naturalSlug) {
+        keys.add(normalizeSlug(naturalSlug));
+      }
+
+      // Backward-compatible alias: remove letter-number separator dashes.
+      // Example: events/gcc-2026/header -> events/gcc2026/header.
+      keys.add(canonicalSlug.replace(/([a-z])-(\d)/gi, '$1$2'));
+
+      for (const key of keys) {
+        insertCache.set(key, insert);
       }
     }
   }

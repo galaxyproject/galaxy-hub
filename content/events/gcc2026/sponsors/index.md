@@ -2,7 +2,6 @@
 autotoc: true
 ---
 
-<slot name="/events/gcc2026/header" />
 
 # Why Sponsor GCC2026?
 
