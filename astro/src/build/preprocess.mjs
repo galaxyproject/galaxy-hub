@@ -800,6 +800,11 @@ async function processMarkdownFile(filePath) {
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
 
+  // Rewrite frontmatter image path the same way we rewrite body image paths
+  if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
+    processedFrontmatter.image = rewriteSrc(processedFrontmatter.image, slug);
+  }
+
   // Store original slug for redirect generation when it differs from normalized
   if (naturalSlug !== slug) {
     processedFrontmatter.naturalSlug = naturalSlug;
