@@ -650,6 +650,80 @@ pennstate:
         linkedin: jmchilton
         orcid: 0000-0002-6794-0756
 
+ccf:
+    blankenberg:
+        name: Daniel Blankenberg
+        title: Head of the Team
+        website: https://www.lerner.ccf.org/computational-medicine/blankenberg
+        email: dan@dblankenberg.org
+        matrix: "@blankenberg:matrix.org"
+        linkedin: danielblankenberg
+        orcid: 0000-0002-6833-9049
+        google-scholar: SjnkwHUAAAAJ
+
+    cumbof:
+        name: Fabio Cumbo
+        title: Postdoctoral Fellow
+        website: https://cumbof.github.io
+        email: cumbof@ccf.org
+        matrix: "@fabiocumbo:matrix.org"
+        linkedin: fabiocumbo
+        orcid: 0000-0003-2920-5838
+        google-scholar: DJWJY7EAAAAJ
+
+    jaidevjoshi83:
+        name: Jayadev Joshi
+        title: Research Associate
+        email: joshij@ccf.org
+        matrix: "@jaidevjoshi83-5e97d33fd73408ce4fe09944:gitter.im"
+        linkedin: jayadev-joshi-053a672a
+        orcid: 0000-0001-7589-5230
+        google-scholar: N3QWqQQAAAAJ
+
+    thepineapplepirate:
+        name: Bryan Raubenolt
+        title: Postdoctoral Fellow
+        email: raubenb@ccf.org
+        matrix: "@thepineapplepirate:matrix.org"
+        linkedin: bryan-r-a23b764b
+        orcid: 0000-0002-6454-2680
+        google-scholar: LF-6A90AAAAJ
+
+moffitt:
+    jgoecks:
+        name: Jeremy Goecks
+        title: Head of the Team
+        website: https://www.goeckslab.org
+        email: jeremy.goecks@moffitt.org
+        matrix: "@jgoecks:matrix.org"
+        linkedin: jeremy-goecks
+        orcid: 0000-0002-4583-5226
+        google-scholar: hWjExXQAAAAJ
+
+    qchiujunhao:
+        name: Junhao Qiu
+        title: Software Engineer
+        email: junhao.qiu@moffitt.org
+        matrix: "@qjunhao:matrix.org"
+        linkedin: junhao-qiu
+
+    paulocilasjr:
+        name: Paulo Cilas Morais Lyra Junior
+        title: Software Engineer
+        email: paulocilas.moraislyra@moffitt.org
+        matrix: "@paulocilasjr:matrix.org"
+        linkedin: lyra-jr
+        orcid: 0000-0002-4403-6684
+        google-scholar: EnoaXSEAAAAJ
+
+    IsisNarvaez:
+        name: Isis Narvaez-Bandera
+        title: Postdoctoral Researcher
+        email: isis.narvaez@upr.edu
+        linkedin: isis-narvaez-bandera
+        orcid: 0000-0001-7320-618X
+        google-scholar: WdMXh3YAAAAJ
+
 cz:
     martenson:
         name: Martin Cech

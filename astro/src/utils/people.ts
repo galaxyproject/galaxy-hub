@@ -16,6 +16,8 @@ export const europeSites = {
 export const usSites = {
   jhu: 'Johns Hopkins',
   pennstate: 'Penn State',
+  ccf: 'Cleveland Clinic',
+  moffitt: 'Moffitt Cancer Center',
 } as const;
 
 export type EuropeSiteId = keyof typeof europeSites;
