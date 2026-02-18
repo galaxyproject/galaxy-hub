@@ -164,25 +164,7 @@ function hasProblematicHtml(content) {
  * Only use MDX for files that explicitly opt-in OR have specific safe component patterns
  */
 function needsVueProcessing(content, frontmatter) {
-  // hasProblematicHtml() below provides the safety net for genuinely problematic content
-
-  // Check for problematic HTML patterns that break MDX
-  if (hasProblematicHtml(content)) {
-    return false;
-  }
-
-  // Explicit opt-in via frontmatter (for other directories)
-  if (frontmatter.components === true) {
-    return true;
-  }
-
-  // Detect Gridsome <slot name="..."> which convertGridsomeSyntax() will convert to <Insert>
-  if (/<slot\s+name=/i.test(content)) {
-    return true;
-  }
-
-  // Only check for components that are unlikely to appear in malformed HTML
-  // and are clearly custom Vue components (not standard HTML-like).
+  // Components that are safe MDX patterns — unlikely to appear in malformed HTML.
   // Both kebab-case and PascalCase variants, since raw content may use either.
   const SAFE_COMPONENTS = [
     'twitter',
@@ -207,6 +189,16 @@ function needsVueProcessing(content, frontmatter) {
     'MarkdownEmbed',
     'Insert', // Content insertion component (case-sensitive to avoid "<insert your text here>")
   ];
+
+  // Check for problematic HTML patterns that break MDX
+  if (hasProblematicHtml(content)) {
+    return false;
+  }
+
+  // Explicit opt-in via frontmatter (for other directories)
+  if (frontmatter.components === true) {
+    return true;
+  }
 
   for (const component of SAFE_COMPONENTS) {
     const openTagRegex = new RegExp(`<${component}(\\s|>|\\/)`);
@@ -606,6 +598,69 @@ function convertFontAwesomeToLucide(content) {
   });
 }
 
+// Cache for resolved insert content (inserts are referenced by multiple pages)
+const insertCache = new Map();
+
+/**
+ * Resolve an insert file's content, applying the same transforms used for page content.
+ * Returns the processed body HTML, or null if the file doesn't exist.
+ */
+function resolveInsertContent(slotName, depth = 0) {
+  if (depth > 2) {
+    console.warn(`  Warning: insert nesting too deep for ${slotName}, stopping at depth ${depth}`);
+    return `<!-- Insert nesting too deep: ${slotName} -->`;
+  }
+
+  const cacheKey = `${slotName}:${depth}`;
+  if (insertCache.has(cacheKey)) {
+    return insertCache.get(cacheKey);
+  }
+
+  // Map slot name to file path: "/foo/bar" -> "content/foo/bar.md"
+  const relativePath = slotName.replace(/^\//, '');
+  const filePath = path.join(CONTENT_DIR, relativePath + '.md');
+
+  let rawContent;
+  try {
+    rawContent = fs.readFileSync(filePath, 'utf-8');
+  } catch {
+    console.warn(`  Warning: insert not found: ${slotName} (looked for ${filePath})`);
+    insertCache.set(cacheKey, null);
+    return null;
+  }
+
+  const { content: body } = matter(rawContent);
+
+  // Compute the insert's own slug for image path resolution
+  const insertSlug = normalizeSlug(relativePath);
+
+  // Apply the same content transforms used in processMarkdownFile
+  let processed = body;
+  processed = inlineInserts(processed, depth + 1);
+  processed = convertKramdownAttributes(processed);
+  processed = convertFontAwesomeToLucide(processed);
+  processed = addBootstrapMarker(processed);
+  processed = processImagePaths(processed, insertSlug);
+
+  insertCache.set(cacheKey, processed);
+  return processed;
+}
+
+/**
+ * Inline <slot name="..."> references by reading insert files and splicing
+ * their processed content directly into the parent. This eliminates the MDX
+ * requirement for pages that only used slots (171 of 184 conflict pages).
+ */
+function inlineInserts(content, depth = 0) {
+  return content.replace(/<slot\s+name=["']([^"']+)["']\s*\/?>/gi, (match, slotName) => {
+    const resolved = resolveInsertContent(slotName, depth);
+    if (resolved === null) {
+      return `<!-- Insert not found: ${slotName} -->`;
+    }
+    return resolved;
+  });
+}
+
 /**
  * Convert Gridsome-specific syntax to standard markdown/HTML
  */
@@ -620,8 +675,8 @@ function convertGridsomeSyntax(content) {
   processed = processed.replace(/<g-image/g, '<img');
   processed = processed.replace(/<\/g-image>/g, '');
 
-  // Convert <slot name="..."> to <Insert name="..."> for Astro
-  // Content uses <slot> for Gridsome compatibility, Astro uses <Insert>
+  // Slots are now inlined at preprocess time by inlineInserts(), but convert
+  // any remaining <slot name="..."> as a safety net for unresolved references
   processed = processed.replace(/<slot(\s+name=["'][^"']+["']\s*)\/?>/gi, '<Insert$1/>');
 
   return processed;
@@ -768,11 +823,15 @@ async function processMarkdownFile(filePath) {
     await copyAssets(path.dirname(filePath), slug);
   }
 
-  // Check if content needs Vue/component processing
-  const hasComponents = needsVueProcessing(body, frontmatter, filePath);
+  // Inline insert content before checking for components — slots are resolved
+  // at preprocess time now, so pages that only had slots won't need MDX
+  let processedContent = body;
+  processedContent = inlineInserts(processedContent);
+
+  // Check if content needs Vue/component processing (after inlining inserts)
+  const hasComponents = needsVueProcessing(processedContent, frontmatter, filePath);
 
   // Process content
-  let processedContent = body;
   processedContent = convertGridsomeSyntax(processedContent);
   processedContent = convertKramdownAttributes(processedContent);
   processedContent = convertFontAwesomeToLucide(processedContent);
@@ -1028,4 +1087,7 @@ export {
   convertComponentsToPascalCase,
   addBootstrapMarker,
   processImagePaths,
+  inlineInserts,
+  resolveInsertContent,
+  insertCache,
 };

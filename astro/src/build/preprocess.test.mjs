@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import {
   hasProblematicHtml,
   needsVueProcessing,
@@ -10,6 +10,9 @@ import {
   addBootstrapMarker,
   normalizeSlugSegment,
   normalizeSlug,
+  inlineInserts,
+  resolveInsertContent,
+  insertCache,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -94,10 +97,6 @@ describe('needsVueProcessing', () => {
     expect(needsVueProcessing('<Insert name="/foo" />', {}, 'bare/page/index.md')).toBe(true);
   });
 
-  it('detects Gridsome slot syntax as needing components', () => {
-    expect(needsVueProcessing('<slot name="/eu/main" />', {})).toBe(true);
-  });
-
   it('detects PascalCase Carousel component', () => {
     expect(needsVueProcessing('<Carousel />', {})).toBe(true);
   });
@@ -105,6 +104,11 @@ describe('needsVueProcessing', () => {
   it('returns false when content has problematic HTML', () => {
     // Even with Insert, if there's problematic HTML, skip MDX
     expect(needsVueProcessing('<Insert name="/foo" />\n<div><div></div>', {})).toBe(false);
+  });
+
+  it('does not force MDX for components: true when HTML is problematic', () => {
+    // hasProblematicHtml always wins to prevent MDX parse failures
+    expect(needsVueProcessing('<div><div></div>\n<vega-embed spec="x" />', { components: true })).toBe(false);
   });
 });
 
@@ -456,5 +460,54 @@ describe('normalizeSlug', () => {
 
   it('handles single segment', () => {
     expect(normalizeSlug('home')).toBe('home');
+  });
+});
+
+describe('inlineInserts', () => {
+  beforeEach(() => {
+    insertCache.clear();
+  });
+
+  it('resolves a real insert file (learn/linkbox)', () => {
+    const content = 'Before\n<slot name="/learn/linkbox" />\nAfter';
+    const result = inlineInserts(content);
+    expect(result).toContain('Before');
+    expect(result).toContain('After');
+    expect(result).not.toContain('<slot');
+    // The linkbox contains a div with links
+    expect(result).toContain('linkbox');
+  });
+
+  it('leaves a comment for missing inserts', () => {
+    const content = '<slot name="/nonexistent/path" />';
+    const result = inlineInserts(content);
+    expect(result).toContain('<!-- Insert not found: /nonexistent/path -->');
+  });
+
+  it('handles multiple slots in the same content', () => {
+    const content = '<slot name="/learn/linkbox" />\nMiddle\n<slot name="/learn/linkbox" />';
+    const result = inlineInserts(content);
+    expect(result).not.toContain('<slot');
+    expect(result).toContain('Middle');
+    // Both should be resolved
+    const matches = result.match(/linkbox/g);
+    expect(matches.length).toBeGreaterThanOrEqual(2);
+  });
+
+  it('handles nested inserts (cop_template references common_linkbox)', () => {
+    const result = resolveInsertContent('/community/sig/common_linkbox');
+    expect(result).not.toBeNull();
+    expect(result).toContain('Galaxy Community Board');
+  });
+
+  it('applies bootstrap marker to insert content', () => {
+    const result = resolveInsertContent('/community/sig/common_linkbox');
+    // common_linkbox has class="alert alert-info..." which should get bs-compat
+    expect(result).toContain('bs-compat');
+  });
+
+  it('passes content through unchanged when no slots present', () => {
+    const content = '# Hello\n\nNo slots here.';
+    expect(inlineInserts(content)).toBe(content);
   });
 });
