@@ -33,7 +33,7 @@ const { events } = Astro.props;
 function formatDate(date: Date | string | undefined | null): string {
   if (!date) return '';
   const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  return d.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
 function formatDateRange(start: Date | string | undefined | null, end: Date | string | undefined | null): string {
@@ -140,35 +140,59 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
 </table>
 
 <style>
+  /* UseGalaxy.* colors */
+  :root {
+    --bgcolor-darkest-gray: #f8f9fa;
+    --bgcolor-dark-gray: #bdc6d0; /* table grid lines */
+    --bgcolor-medium-gray: #e9ecef; /* alternate row color */
+    --bgcolor-light-gray: #f8f9fa;
+    --bgcolor-lighter-gray: #eef0f2; /* hover */
+    --bgcolor-lightest-gray: #f8f9fa; /* striped */
+  }
+
+  body table.events-table {
+    border: 1px solid var(--bgcolor-dark-gray);
+  }
+
   .events-table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.9em;
+    table-layout: fixed;
+    border: 1px solid var(--bgcolor-dark-gray);
   }
 
   .events-table th {
     text-align: left;
-    border-bottom: 2px solid #25537b;
+    border-bottom: 2px solid var(--bgcolor-dark-gray);
     padding: 0.5rem 0.75rem;
     color: #2c3143;
     font-weight: 600;
     white-space: nowrap;
+    background-color: #fff;
   }
 
   .events-table td {
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid #eee;
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--bgcolor-dark-gray);
     vertical-align: top;
   }
 
-  .events-table tr:hover {
-    background: #f8f9fa;
+  table.events-table tbody tr:hover {
+    background: var(--bgcolor-lighter-gray) !important;
+  }
+
+  table.events-table tbody tr:nth-child(odd) {
+    background: var(--bgcolor-lightest-gray);
   }
 
   .col-date {
-    white-space: nowrap;
     color: #555;
-    min-width: 120px;
+    width: 20%;
+  }
+
+  .col-topic {
+    width: 40%;
   }
 
   .col-topic a {
@@ -192,7 +216,7 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
   }
 
   .col-location {
-    white-space: nowrap;
+    width: 20%;
   }
 
   .col-location a {
@@ -207,8 +231,12 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
   .continent-icon {
     float: right;
     margin-left: 4px;
-    height: 20px;
+    height: 40px;
     width: auto;
+  }
+
+  .col-contact {
+    width: 20%;
   }
 
   .col-contact a {
