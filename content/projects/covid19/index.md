@@ -6,7 +6,7 @@ title: "GalaxyProject SARS-CoV-2 analysis effort"
 
 <div class="no-header shadow-sm bg-light rounded border-0 ">
 
-| Column 1 | Column 2 | Column 3 | Column 4 |
+| | | | |
 | -------- | -------- | -------- | --------|
 | [![Baker2020](/images/covid19/baker_2020.png)](https://pubmed.ncbi.nlm.nih.gov/32790776/) | [![martin_2021.png](/images/covid19/martin_2021.png)](https://pubmed.ncbi.nlm.nih.gov/34537136/) | [![maier_2021.png](/images/covid19/maier_2021.png)](https://pubmed.ncbi.nlm.nih.gov/34588690/) | [![mei_2021.png](/images/covid19/mei_2021.png)](https://pubmed.ncbi.nlm.nih.gov/34505896/) |
 
