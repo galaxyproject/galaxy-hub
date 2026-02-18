@@ -2,6 +2,7 @@
 description: "Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets."
 autotoc: false
 title: "GalaxyProject SARS-CoV-2 analysis effort"
+components: true
 ---
 
 <div class="no-header shadow-sm bg-light rounded border-0 ">
