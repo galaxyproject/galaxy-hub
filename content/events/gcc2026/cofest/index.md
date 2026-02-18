@@ -2,7 +2,6 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2026/header" />
 
 # GCC2026 CollaborationFest (CoFest!)
 

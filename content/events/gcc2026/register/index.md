@@ -2,7 +2,6 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2026/header" />
 
 <div class="text-center my-5">
     <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">

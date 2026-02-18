@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ConferenceLayout from '../../layouts/ConferenceLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import ContentWithToc from '../../components/layout/ContentWithToc.astro';
 
@@ -21,20 +22,155 @@ import { resolveSupporters } from '../../utils/supporters';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 
+interface ConferenceNavItem {
+  slug: string;
+  href: string;
+  label: string;
+}
+
+interface ConferenceContext {
+  rootSlug: string;
+  title?: string;
+  description?: string;
+  date?: Date | string;
+  end?: Date | string;
+  location?: unknown;
+  tags?: string[];
+  contacts?: Array<{ name?: string; email?: string }>;
+  navItems: ConferenceNavItem[];
+}
+
 export async function getStaticPaths() {
+  const utilitySubpages = new Set(['header', 'footer', 'page-header', 'linkbox']);
+
+  function getRootSlug(slug: string): string | null {
+    if (!slug.startsWith('events/')) return null;
+    const parts = slug.split('/');
+    if (parts.length < 2) return null;
+    return `events/${parts[1]}`;
+  }
+
+  function isConferenceRoot(rootPage: any, childPages: any[]): boolean {
+    if (childPages.length === 0) return false;
+
+    const data = (rootPage?.data || {}) as Record<string, unknown>;
+    const title = typeof data.title === 'string' ? data.title : '';
+    const tags = Array.isArray(data.tags) ? data.tags : [];
+    const hasConferenceTag = tags.some((tag) => typeof tag === 'string' && tag.toLowerCase() === 'conference');
+    const hasConferenceKeyword = /conference|summit|symposium/i.test(title);
+    const hasDays = data.days !== undefined && data.days !== null;
+    const explicitFlag = data.conference === true;
+
+    return explicitFlag || hasConferenceTag || hasConferenceKeyword || hasDays;
+  }
+
+  function toTitleCaseSegment(segment: string): string {
+    const replacements: Record<string, string> = {
+      cofest: 'CoFest',
+      gtn: 'GTN',
+      gcc: 'GCC',
+      api: 'API',
+      faq: 'FAQ',
+    };
+
+    return segment
+      .split('-')
+      .filter(Boolean)
+      .map((part) => replacements[part.toLowerCase()] || `${part.charAt(0).toUpperCase()}${part.slice(1)}`)
+      .join(' ');
+  }
+
+  function getNavLabel(entry: any, rootTitle?: string): string {
+    const data = (entry.data || {}) as Record<string, unknown>;
+    const navTitle = data.nav_title;
+    if (typeof navTitle === 'string' && navTitle.trim()) return navTitle.trim();
+
+    const title = data.title;
+    if (typeof title === 'string' && title.trim() && title !== rootTitle) return title.trim();
+
+    const segment = (entry.data.slug || '').split('/').at(-1) || '';
+    return toTitleCaseSegment(segment);
+  }
+
   const events = await getCollection('events');
+  const eventsByRoot = new Map<string, typeof events>();
+  const conferenceContexts = new Map<string, ConferenceContext>();
+
+  for (const event of events) {
+    const rootSlug = getRootSlug(event.data.slug);
+    if (!rootSlug) continue;
+    if (!eventsByRoot.has(rootSlug)) {
+      eventsByRoot.set(rootSlug, []);
+    }
+    eventsByRoot.get(rootSlug)!.push(event);
+  }
+
+  for (const [rootSlug, groupedEvents] of eventsByRoot.entries()) {
+    const rootPage = groupedEvents.find((entry) => entry.data.slug === rootSlug);
+    if (!rootPage) continue;
+
+    const childPages = groupedEvents.filter((entry) => {
+      const slug = entry.data.slug || '';
+      if (!slug.startsWith(`${rootSlug}/`)) return false;
+      if (slug === rootSlug) return false;
+
+      // Only include direct sub-pages for top navigation.
+      const depth = slug.split('/').length;
+      if (depth !== 3) return false;
+
+      const lastSegment = slug.split('/').at(-1) || '';
+      return !utilitySubpages.has(lastSegment);
+    });
+
+    if (!isConferenceRoot(rootPage, childPages)) continue;
+
+    const rootData = (rootPage.data || {}) as Record<string, unknown>;
+    const rootTitle = typeof rootData.title === 'string' ? rootData.title : undefined;
+    const rootDescription = typeof rootData.tease === 'string' ? rootData.tease : undefined;
+    const rootTags = Array.isArray(rootData.tags)
+      ? rootData.tags.filter((t): t is string => typeof t === 'string')
+      : [];
+    const rootContacts = Array.isArray(rootData.contacts)
+      ? rootData.contacts.filter((c): c is { name?: string; email?: string } => typeof c === 'object' && c !== null)
+      : [];
+
+    const navItems: ConferenceNavItem[] = [
+      { slug: rootSlug, href: `/${rootSlug}/`, label: 'Home' },
+      ...childPages
+        .sort((a, b) => (a.data.slug || '').localeCompare(b.data.slug || ''))
+        .map((entry) => ({
+          slug: entry.data.slug,
+          href: `/${entry.data.slug}/`,
+          label: getNavLabel(entry, rootTitle),
+        })),
+    ];
+
+    conferenceContexts.set(rootSlug, {
+      rootSlug,
+      title: rootTitle,
+      description: rootDescription,
+      date: rootData.date as Date | string | undefined,
+      end: rootData.end as Date | string | undefined,
+      location: rootData.location,
+      tags: rootTags,
+      contacts: rootContacts,
+      navItems,
+    });
+  }
 
   return events.map((event) => {
     // Remove 'events/' prefix from slug for the URL
     const urlSlug = event.data.slug.replace(/^events\//, '');
+    const rootSlug = getRootSlug(event.data.slug || '');
+    const conferenceContext = rootSlug ? conferenceContexts.get(rootSlug) : undefined;
     return {
       params: { slug: urlSlug },
-      props: { event },
+      props: { event, conferenceContext },
     };
   });
 }
 
-const { event } = Astro.props;
+const { event, conferenceContext } = Astro.props as { event: any; conferenceContext?: ConferenceContext };
 const { Content, headings } = await render(event);
 
 const { title, date, end, location, tags = [], tease, external_url, contacts = [], autotoc } = event.data;
@@ -43,10 +179,34 @@ if (external_url) {
   return Astro.redirect(external_url);
 }
 const eventData = event.data as Record<string, unknown>;
+const isConferenceEvent = Boolean(conferenceContext);
 const fundingIds = extractFunding(eventData);
 const supporters = await resolveSupporters(fundingIds);
 const authorIds = extractAuthors(eventData);
 const displayAuthors = authorIds.map(resolveAuthor);
+
+const conferenceTitle = conferenceContext?.title || title || 'Conference';
+const conferenceDescription = conferenceContext?.description || tease;
+const conferenceDate = conferenceContext?.date || date;
+const conferenceEnd = conferenceContext?.end || end;
+const conferenceLocation = (conferenceContext?.location as typeof location | undefined) || location;
+const conferenceTags = conferenceContext?.tags || tags;
+const conferenceContacts = conferenceContext?.contacts || contacts;
+const conferenceSubnavItems = (conferenceContext?.navItems || []).map((item) => ({
+  ...item,
+  active:
+    item.slug === conferenceContext?.rootSlug
+      ? event.data.slug === item.slug
+      : event.data.slug === item.slug || event.data.slug.startsWith(`${item.slug}/`),
+}));
+const showConferenceMetadata = Boolean(
+  conferenceTitle ||
+  conferenceDescription ||
+  conferenceDate ||
+  conferenceLocation ||
+  conferenceTags.length > 0 ||
+  conferenceContacts.length > 0
+);
 
 // MDX components map
 const components = {
@@ -76,6 +236,7 @@ function formatDate(date: Date | string | undefined): string {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    timeZone: 'UTC',
   });
 }
 
@@ -158,182 +319,195 @@ const schemaEvent = {
 const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/master/content/${event.data.slug}/index.md`;
 ---
 
-<BaseLayout title={title || 'Event'} description={tease}>
-  <article class="max-w-6xl mx-auto bg-white relative">
-    <PageHeader title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
-      {/* Event-specific metadata */}
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
-        {
-          date && (
-            <div class="flex items-start gap-3 text-white/80">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                />
-              </svg>
-              <div>
-                <span class="block font-medium text-white">Date</span>
-                <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
+{
+  isConferenceEvent ? (
+    <ConferenceLayout
+      title={conferenceTitle}
+      description={conferenceDescription}
+      tags={conferenceTags}
+      authors={[]}
+      date={conferenceDate}
+      end={conferenceEnd}
+      location={conferenceLocation}
+      contacts={conferenceContacts}
+      subnavItems={conferenceSubnavItems}
+      headings={headings}
+      autotoc={autotoc}
+      supporters={supporters}
+      editUrl={editUrl}
+      externalUrl={external_url}
+      showMetadata={showConferenceMetadata}
+    >
+      <Content components={components} />
+      <script slot="extra" type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
+    </ConferenceLayout>
+  ) : (
+    <BaseLayout title={title || 'Event'} description={tease}>
+      <article class="max-w-6xl mx-auto bg-white relative">
+        <PageHeader title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
+          {/* Event-specific metadata */}
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
+            {date && (
+              <div class="flex items-start gap-3 text-white/80">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  />
+                </svg>
+                <div>
+                  <span class="block font-medium text-white">Date</span>
+                  <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
+                </div>
               </div>
-            </div>
-          )
-        }
+            )}
 
-        {
-          location && (
-            <div class="flex items-start gap-3 text-white/80">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-              </svg>
-              <div>
-                <span class="block font-medium text-white">Location</span>
-                <span>{getLocationText(location)}</span>
+            {location && (
+              <div class="flex items-start gap-3 text-white/80">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <div>
+                  <span class="block font-medium text-white">Location</span>
+                  <span>{getLocationText(location)}</span>
+                </div>
               </div>
-            </div>
-          )
-        }
+            )}
 
-        {
-          external_url && (
-            <div class="flex items-start gap-3 text-white/80">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+            {external_url && (
+              <div class="flex items-start gap-3 text-white/80">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                  />
+                </svg>
+                <div>
+                  <span class="block font-medium text-white">Website</span>
+                  <a
+                    href={external_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-galaxy-gold hover:underline"
+                  >
+                    Event Website
+                  </a>
+                </div>
+              </div>
+            )}
+
+            {contacts.length > 0 && (
+              <div class="flex items-start gap-3 text-white/80">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+                <div>
+                  <span class="block font-medium text-white">Contact</span>
+                  <span>
+                    {contacts
+                      .map((c: { name?: string; email?: string }) => c.name || c.email)
+                      .filter(Boolean)
+                      .join(', ')}
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
+        </PageHeader>
+
+        <ContentWithToc headings={headings} autotoc={autotoc}>
+          <Content components={components} />
+        </ContentWithToc>
+
+        {/* Event Footer */}
+        <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
+          {supporters.length > 0 && (
+            <div class="mb-6">
+              <SupporterGrid supporters={supporters} title="Supporters" />
+            </div>
+          )}
+          <div class="flex justify-between items-center pt-4 border-t border-gray-200">
+            <a
+              href="/events/"
+              class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
+            >
+              <Icon name="chevron-left" />
+              Back to Events
+            </a>
+            <div class="flex items-center gap-4">
+              <a
+                href={editUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-                />
-              </svg>
-              <div>
-                <span class="block font-medium text-white">Website</span>
+                <Icon name="edit" />
+                Edit on GitHub
+              </a>
+              {external_url && (
                 <a
                   href={external_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-galaxy-gold hover:underline"
+                  class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
                 >
-                  Event Website
+                  Visit Event Website
+                  <Icon name="external-link" />
                 </a>
-              </div>
+              )}
             </div>
-          )
-        }
-
-        {
-          contacts.length > 0 && (
-            <div class="flex items-start gap-3 text-white/80">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                />
-              </svg>
-              <div>
-                <span class="block font-medium text-white">Contact</span>
-                <span>
-                  {contacts
-                    .map((c: { name?: string; email?: string }) => c.name || c.email)
-                    .filter(Boolean)
-                    .join(', ')}
-                </span>
-              </div>
-            </div>
-          )
-        }
-      </div>
-    </PageHeader>
-
-    <ContentWithToc headings={headings} autotoc={autotoc}>
-      <Content components={components} />
-    </ContentWithToc>
-
-    <!-- Event Footer -->
-    <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
-      {
-        supporters.length > 0 && (
-          <div class="mb-6">
-            <SupporterGrid supporters={supporters} title="Supporters" />
           </div>
-        )
-      }
-      <div class="flex justify-between items-center pt-4 border-t border-gray-200">
-        <a
-          href="/events/"
-          class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
-        >
-          <Icon name="chevron-left" />
-          Back to Events
-        </a>
-        <div class="flex items-center gap-4">
-          <a
-            href={editUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-          >
-            <Icon name="edit" />
-            Edit on GitHub
-          </a>
-          {
-            external_url && (
-              <a
-                href={external_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
-              >
-                Visit Event Website
-                <Icon name="external-link" />
-              </a>
-            )
-          }
-        </div>
-      </div>
-    </footer>
+        </footer>
 
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
-  </article>
-</BaseLayout>
+        <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
+      </article>
+    </BaseLayout>
+  )
+}
 
 <style>
   .prose-galaxy {
