@@ -6,7 +6,7 @@ import { communitySlug } from './contributors';
 
 export const europeSites = {
   freiburg: 'Freiburg',
-  ifb: 'IFB',
+  ifb: 'ELIXIR France/IFB',
   erasmusmc: 'Erasmus MC',
   'elixir-it': 'ELIXIR Italy',
   genouest: 'GenOuest',
