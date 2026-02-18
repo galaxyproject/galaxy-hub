@@ -188,15 +188,15 @@ test.describe('Static Pages', () => {
     test('/ifb/people/ page loads', async ({ page }) => {
       const response = await page.goto('/ifb/people/');
       expect(response?.status()).toBe(200);
-      await expect(page.getByRole('heading', { level: 1, name: /ELIXIR-FR\/IFB/i })).toBeVisible();
+      await expect(page.getByRole('heading', { level: 1, name: /ELIXIR France\/IFB/i })).toBeVisible();
     });
 
     test('/eu/people/ aggregates EU sites', async ({ page }) => {
       const response = await page.goto('/eu/people/');
       expect(response?.status()).toBe(200);
       await expect(page.getByRole('heading', { name: /Freiburg/i })).toBeVisible();
-      await expect(page.getByRole('heading', { name: /ELIXIR-FR\/IFB/i })).toBeVisible();
-      await expect(page.getByRole('heading', { name: /ELIXIR-IT/i })).toBeVisible();
+      await expect(page.getByRole('heading', { name: /ELIXIR France\/IFB/i })).toBeVisible();
+      await expect(page.getByRole('heading', { name: /ELIXIR Italy/i })).toBeVisible();
     });
 
     test('Person card shows GTN icon, bio, and Hub Contributions badge', async ({ page }) => {
