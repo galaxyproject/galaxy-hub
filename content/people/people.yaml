@@ -689,6 +689,17 @@ ccf:
         orcid: 0000-0002-6454-2680
         google-scholar: LF-6A90AAAAJ
 
+    scottcain:
+        name: Scott Cain
+        title: Research Professor
+        email: scott@scottcain.net
+        matrix: "@scottcain-5a678aa0d73408ce4f89c63e:gitter.im"
+        linkedin: scottcain
+        orcid: 0000-0003-0459-9607
+        bio: |
+          I have a Ph. D. from the University of California at San Diego in (Bio)Chemical Engineering and have worked in Bioinformatics for nearly 30 years. Over 20 of those years were as the project coordinator of the Generic Model Organism Database (GMOD) project.
+
+
 moffitt:
     jgoecks:
         name: Jeremy Goecks
