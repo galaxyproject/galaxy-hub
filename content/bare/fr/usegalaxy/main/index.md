@@ -1,5 +1,6 @@
 ---
 title: Galaxy France
+components: true
 ---
 
 <slot name="/bare/fr/usegalaxy/notices" />

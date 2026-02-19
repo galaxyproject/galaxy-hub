@@ -151,11 +151,6 @@ function hasProblematicHtml(content) {
     return true;
   }
 
-  // Check for Vue-specific import patterns that don't work in MDX
-  if (/^import\s+\w+\s+from\s+/m.test(content)) {
-    return true;
-  }
-
   return false;
 }
 
@@ -190,14 +185,16 @@ function needsVueProcessing(content, frontmatter) {
     'Insert', // Content insertion component (case-sensitive to avoid "<insert your text here>")
   ];
 
+  // Explicit opt-in via frontmatter overrides HTML detection — the author
+  // is asserting the page is MDX-compatible (Vue imports and kramdown are
+  // stripped during preprocessing so this is safe)
+  if (frontmatter.components === true) {
+    return true;
+  }
+
   // Check for problematic HTML patterns that break MDX
   if (hasProblematicHtml(content)) {
     return false;
-  }
-
-  // Explicit opt-in via frontmatter (for other directories)
-  if (frontmatter.components === true) {
-    return true;
   }
 
   for (const component of SAFE_COMPONENTS) {
@@ -582,7 +579,23 @@ function convertFontAwesomeToLucide(content) {
     'fa-laptop-code': 'code',
     'fa-optin-monster': 'user',
     'fa-bug': 'alert-circle',
+    'fa-rss': 'rss',
+    'fa-gitlab': 'code',
   };
+
+  icons.rss =
+    '<path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/>';
+
+  // Convert kramdown FA patterns: [](){: .fa .fa-xxx style="..."} → Lucide SVG
+  content = content.replace(
+    /\[\]\(\)\{:\s*\.fa[sbrld]?\s+\.(fa-[a-z0-9-]+)(?:\s+style="([^"]*)")?\s*\}/g,
+    (match, iconClass, style) => {
+      const lucideName = faToLucide[iconClass];
+      if (!lucideName || !icons[lucideName]) return '';
+      const colorStyle = style || '';
+      return `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;${colorStyle}">${icons[lucideName]}</svg>`;
+    }
+  );
 
   return content.replace(/<i\s+[^>]*class="([^"]*\bfa[sbrld]?\b[^"]*)"[^>]*><\/i>/gi, (match, classes) => {
     // Extract the actual icon name (last fa-xxx that isn't fa-solid/fa-regular/fa-brands/fa-light/fa-duotone)
@@ -659,6 +672,20 @@ function inlineInserts(content, depth = 0) {
     }
     return resolved;
   });
+}
+
+/**
+ * Strip Vue/Gridsome artifacts that aren't valid in Astro/MDX.
+ * Runs early (before needsVueProcessing) so these patterns don't
+ * trigger hasProblematicHtml false positives.
+ */
+function stripVueArtifacts(content) {
+  let processed = content;
+  // Remove Vue import statements (Gridsome artifact)
+  processed = processed.replace(/^import\s+\w+\s+from\s+['"][^'"]+['"];?\s*$/gm, '');
+  // Convert Vue :prop="value" bindings to standard attributes
+  processed = processed.replace(/\s:(\w+)="([^"]*)"/g, ' $1="$2"');
+  return processed;
 }
 
 /**
@@ -827,6 +854,11 @@ async function processMarkdownFile(filePath) {
   // at preprocess time now, so pages that only had slots won't need MDX
   let processedContent = body;
   processedContent = inlineInserts(processedContent);
+
+  // Strip Gridsome Vue import statements (e.g. "import Flickr from '@/components/Flickr.vue';")
+  // and convert Vue :prop bindings to standard attributes before MDX detection,
+  // since both patterns trigger hasProblematicHtml false positives
+  processedContent = stripVueArtifacts(processedContent);
 
   // Check if content needs Vue/component processing (after inlining inserts)
   const hasComponents = needsVueProcessing(processedContent, frontmatter, filePath);
@@ -1090,4 +1122,5 @@ export {
   inlineInserts,
   resolveInsertContent,
   insertCache,
+  stripVueArtifacts,
 };

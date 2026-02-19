@@ -13,6 +13,7 @@ import {
   inlineInserts,
   resolveInsertContent,
   insertCache,
+  stripVueArtifacts,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -62,8 +63,8 @@ describe('hasProblematicHtml', () => {
     expect(hasProblematicHtml('<link-box>content</link-box>')).toBe(true);
   });
 
-  it('detects Vue import patterns', () => {
-    expect(hasProblematicHtml('import Foo from "foo"')).toBe(true);
+  it('does not flag Vue imports (stripped during preprocessing)', () => {
+    expect(hasProblematicHtml('import Foo from "foo"')).toBe(false);
   });
 
   it('allows normal less-than comparisons in text', () => {
@@ -106,9 +107,9 @@ describe('needsVueProcessing', () => {
     expect(needsVueProcessing('<Insert name="/foo" />\n<div><div></div>', {})).toBe(false);
   });
 
-  it('does not force MDX for components: true when HTML is problematic', () => {
-    // hasProblematicHtml always wins to prevent MDX parse failures
-    expect(needsVueProcessing('<div><div></div>\n<vega-embed spec="x" />', { components: true })).toBe(false);
+  it('honors components: true even when HTML is problematic', () => {
+    // Author explicit opt-in overrides hasProblematicHtml (Vue artifacts are stripped in preprocessing)
+    expect(needsVueProcessing('<div><div></div>\n<vega-embed spec="x" />', { components: true })).toBe(true);
   });
 });
 
@@ -509,5 +510,56 @@ describe('inlineInserts', () => {
   it('passes content through unchanged when no slots present', () => {
     const content = '# Hello\n\nNo slots here.';
     expect(inlineInserts(content)).toBe(content);
+  });
+});
+
+describe('stripVueArtifacts', () => {
+  it('removes Vue import statements', () => {
+    const input = 'Some text\nimport Flickr from \'@/components/Flickr.vue\';\n<Flickr />';
+    const result = stripVueArtifacts(input);
+    expect(result).not.toContain('import Flickr');
+    expect(result).toContain('<Flickr />');
+  });
+
+  it('converts Vue :prop bindings to standard attributes', () => {
+    const input = '<twitter user="foo" :height="420"></twitter>';
+    const result = stripVueArtifacts(input);
+    expect(result).toBe('<twitter user="foo" height="420"></twitter>');
+  });
+
+  it('leaves content unchanged when no Vue artifacts present', () => {
+    const input = '# Hello\n\nSome content with <div>html</div>';
+    expect(stripVueArtifacts(input)).toBe(input);
+  });
+});
+
+describe('convertFontAwesomeToLucide - kramdown patterns', () => {
+  it('converts kramdown FA link patterns to Lucide SVGs', () => {
+    const input = '[](){: .fa .fa-envelope style="color: #777"} [email](mailto:test@test.com)';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).not.toContain('{:');
+    expect(result).toContain('mailto:test@test.com');
+  });
+
+  it('converts kramdown FA brand icons', () => {
+    const input = '[](){: .fab .fa-github style="color: #777"} [repo](https://github.com)';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).not.toContain('{:');
+  });
+
+  it('removes unrecognized kramdown FA patterns', () => {
+    const input = '[](){: .fa .fa-unknown-icon style="color: red"}';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).not.toContain('{:');
+    expect(result).toBe('');
+  });
+
+  it('converts fa-rss to SVG', () => {
+    const input = '[](){: .fa .fa-rss style="color: #777"} [feed](/feed.atom)';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).toContain('/feed.atom');
   });
 });
