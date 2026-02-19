@@ -1065,6 +1065,20 @@ export async function preprocessContent(options = {}) {
     // Global images directory doesn't exist, that's fine
   }
 
+  // Copy ESG partner logos (referenced by the ESG Astro page)
+  const esgLogosDir = path.join(CONTENT_DIR, 'projects', 'esg', 'partner-logos');
+  try {
+    const stats = await fs.promises.stat(esgLogosDir);
+    if (stats.isDirectory()) {
+      const dest = path.join(PUBLIC_IMAGES_DIR, 'projects', 'esg', 'partner-logos');
+      await fs.promises.cp(esgLogosDir, dest, { recursive: true });
+      const logoCount = (await glob('**/*', { cwd: esgLogosDir, nodir: true })).length;
+      console.log(`  Copied ${logoCount} ESG partner logos`);
+    }
+  } catch {
+    // ESG partner logos directory doesn't exist, that's fine
+  }
+
   // Copy global assets directory (content/assets/ -> public/assets/)
   const globalAssetsDir = path.join(CONTENT_DIR, 'assets');
   try {
