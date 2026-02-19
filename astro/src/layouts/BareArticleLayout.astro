@@ -90,17 +90,17 @@ const { title, description } = Astro.props;
 
   article.prose.prose-lg.prose-galaxy.max-w-none {
     max-width: 1200px;
+    margin: 0 auto !important;
   }
 
   /* Styling for EU lead sections */
-
   [data-name='/eu/main-1'] {
     margin-bottom: 2rem;
 
     .bs-compat.card.border-secondary.bg-secondary {
       max-width: none;
       background-color: #dee2e6 !important;
-      border-color: #6c757d !important;
+      border-color: rgba(0, 0, 0, 0.125) !important;
       padding: 1.5rem;
     }
 
@@ -125,13 +125,23 @@ const { title, description } = Astro.props;
       justify-content: center;
       align-items: center;
       gap: 0.75rem;
-      margin-top: 1rem;
+      margin: 1rem 0 0;
     }
 
     .btn {
       font-size: 0.875rem;
       padding: 0.5rem 1rem;
       margin: 0.25rem;
+    }
+
+    a.bs-compat.btn.btn-light.btn-outline-dark.mx-3 {
+      border-color: #343a40 !important;
+
+      &:hover {
+        background-color: #343a40 !important;
+        color: #fff !important;
+        text-decoration: underline !important;
+      }
     }
   }
 
@@ -149,7 +159,7 @@ const { title, description } = Astro.props;
       flex: 1 1 auto;
       margin: 0;
       background-color: #f8f9fa !important;
-      border: 1px solid #6c757d;
+      border: 1px solid #dee2e6;
     }
 
     .bs-compat.card-body {
@@ -167,21 +177,22 @@ const { title, description } = Astro.props;
     }
 
     .card-text {
-      font-size: 0.95rem;
-      line-height: 1.5;
+      font-size: 1rem;
+      line-height: 1.1;
       margin-bottom: 1rem;
       min-height: 4.5rem;
+      padding: 0.75rem 1rem 0;
     }
 
     .text-center {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 1rem;
+      gap: 0;
     }
 
     img {
-      margin: 1rem auto;
+      margin: 0 auto;
       display: block;
       height: 100px;
       width: auto;
@@ -189,8 +200,39 @@ const { title, description } = Astro.props;
 
     .btn {
       margin-top: 0.5rem;
-      font-size: 0.875rem;
+      font-size: 1rem;
       white-space: normal;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  [data-name='/eu/common/data-policy'] {
+    table {
+      padding: 0;
+      margin: 24px 0 16px;
+      border-collapse: collapse;
+      width: 100%;
+
+      thead th {
+        color: rgb(33, 37, 41);
+        background-color: transparent;
+        border: 1px solid rgb(204, 204, 204);
+        border-top-color: rgb(191, 191, 191);
+        border-bottom: 2px solid rgb(191, 191, 191);
+        text-align: left;
+        padding: 1rem;
+      }
+
+      tbody td {
+        color: rgb(33, 37, 41);
+        background-color: #f2f2f2;
+        border: 1px solid rgb(204, 204, 204);
+        border-top-color: rgb(191, 191, 191);
+        padding: 1rem;
+      }
     }
   }
 
@@ -199,6 +241,10 @@ const { title, description } = Astro.props;
     [data-name='/eu/main-2'] .bs-compat.card {
       flex: 1 1 100%;
       max-width: 100%;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
 
@@ -206,6 +252,10 @@ const { title, description } = Astro.props;
     [data-name='/eu/main-2'] .bs-compat.card {
       flex: 1 1 calc(50% - 0.5rem);
       max-width: calc(50% - 0.5rem);
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
 
@@ -213,7 +263,10 @@ const { title, description } = Astro.props;
     [data-name='/eu/main-2'] .bs-compat.card {
       flex: 1 1 calc(25% - 0.75rem);
       max-width: calc(25% - 0.75rem);
-      min-width: 0;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
 
@@ -221,7 +274,10 @@ const { title, description } = Astro.props;
     [data-name='/eu/main-2'] .bs-compat.card {
       flex: 1 1 calc(25% - 0.75rem);
       max-width: calc(25% - 0.75rem);
-      min-width: 0;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
 
@@ -408,6 +464,12 @@ const { title, description } = Astro.props;
       &[alt='microGalaxy'] {
         height: 50px;
       }
+    }
+
+    br {
+      display: none !important;
+      line-height: 0 !important;
+      font-size: 1px !important;
     }
   }
 
