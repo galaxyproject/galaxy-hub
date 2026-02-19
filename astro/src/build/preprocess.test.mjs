@@ -515,7 +515,7 @@ describe('inlineInserts', () => {
 
 describe('stripVueArtifacts', () => {
   it('removes Vue import statements', () => {
-    const input = 'Some text\nimport Flickr from \'@/components/Flickr.vue\';\n<Flickr />';
+    const input = "Some text\nimport Flickr from '@/components/Flickr.vue';\n<Flickr />";
     const result = stripVueArtifacts(input);
     expect(result).not.toContain('import Flickr');
     expect(result).toContain('<Flickr />');
