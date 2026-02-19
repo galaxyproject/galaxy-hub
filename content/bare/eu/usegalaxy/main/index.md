@@ -21,8 +21,8 @@ title: Galaxy Europe
 
 <p></p>
 
-<slot name="/eu/main1" />
-<slot name="/eu/main2" />
+<slot name="/eu/main-1" />
+<slot name="/eu/main-2" />
 
 <slot name="/eu/common/data-policy" />
 

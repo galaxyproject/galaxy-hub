@@ -92,6 +92,139 @@ const { title, description } = Astro.props;
     max-width: 1200px;
   }
 
+  /* Styling for EU lead sections */
+
+  [data-name='/eu/main-1'] {
+    margin-bottom: 2rem;
+
+    .bs-compat.card.border-secondary.bg-secondary {
+      max-width: none;
+      background-color: #dee2e6 !important;
+      border-color: #6c757d !important;
+      padding: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 0 0 1rem;
+      color: #212529;
+      border-bottom: none !important;
+      padding-bottom: 0;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      color: #212529;
+    }
+
+    .text-center {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .btn {
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+    }
+  }
+
+  [data-name='/eu/main-2'] {
+    margin: 3rem 0;
+
+    .bs-compat.card-deck {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+
+    .bs-compat.card {
+      flex: 1 1 auto;
+      margin: 0;
+      background-color: #f8f9fa !important;
+      border: 1px solid #6c757d;
+    }
+
+    .bs-compat.card-body {
+      page-break-inside: avoid;
+      break-inside: avoid;
+      padding: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.375rem;
+      margin: 0 0 1rem;
+      color: #212529;
+      border-bottom: none !important;
+      padding-bottom: 0;
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+      min-height: 4.5rem;
+    }
+
+    .text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    img {
+      margin: 1rem auto;
+      display: block;
+      height: 100px;
+      width: auto;
+    }
+
+    .btn {
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+      white-space: normal;
+    }
+  }
+
+  /* Responsive layouts for EU main-2 */
+  @media (max-width: 767px) {
+    [data-name='/eu/main-2'] .bs-compat.card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    [data-name='/eu/main-2'] .bs-compat.card {
+      flex: 1 1 calc(50% - 0.5rem);
+      max-width: calc(50% - 0.5rem);
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    [data-name='/eu/main-2'] .bs-compat.card {
+      flex: 1 1 calc(25% - 0.75rem);
+      max-width: calc(25% - 0.75rem);
+      min-width: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    [data-name='/eu/main-2'] .bs-compat.card {
+      flex: 1 1 calc(25% - 0.75rem);
+      max-width: calc(25% - 0.75rem);
+      min-width: 0;
+    }
+  }
+
   /* Styling for IFB lead sections */
   [data-name='/ifb/lead-1'] {
     float: right;
@@ -161,12 +294,14 @@ const { title, description } = Astro.props;
   }
 
   .prose-galaxy {
-    iframe[title='Recent Galaxy France news'] {
+    iframe[title='Recent Galaxy France news'],
+    iframe[title='Recent Galaxy Europe news'] {
       margin-right: 16px;
       float: left;
     }
 
-    iframe[title*='Recent Galaxy France events'] {
+    iframe[title*='Recent Galaxy France events'],
+    iframe[title*='Recent Galaxy Europe events'] {
       margin-bottom: 3rem;
       width: calc(50% - 20px) !important;
       display: inline-block;
