@@ -22,12 +22,12 @@ components: true
 </iframe>
 
 <p></p>
-<slot name="/ifb/main-1" />
-<slot name="/ifb/main-2" />
-<slot name="/ifb/main-3" />
+<slot name="/ifb/main1" />
+<slot name="/ifb/main2" />
+<slot name="/ifb/main3" />
 
 <p></p>
 
 <footer>
-<slot name="ifb/site-footer" />
+<slot name="/ifb/site-footer" />
 </footer>
