@@ -380,9 +380,9 @@ function processImagePaths(content, slug) {
     }
   );
 
-  // HTML source/video src tags
+  // HTML source/video/video-player src tags
   processed = processed.replace(
-    new RegExp(`(<(?:source|video)\\s[^>]*src=["'])([^"']+\\.(${assetExts}))(["'][^>]*>)`, 'gi'),
+    new RegExp(`(<(?:source|video|video-player)\\s[^>]*src=["'])([^"']+\\.(${assetExts}))(["'][^>]*>)`, 'gi'),
     (match, prefix, src, ext, suffix) => {
       const rewritten = rewriteSrc(src, slug);
       if (rewritten !== src) return `${prefix}${rewritten}${suffix}`;
@@ -397,6 +397,18 @@ function processImagePaths(content, slug) {
     (match, text, src, ext) => {
       const rewritten = rewriteSrc(src, slug);
       if (rewritten !== src) return `[${text}](${rewritten})`;
+      return match;
+    }
+  );
+
+  // Catch-all for ](url.ext) — handles nested markdown like [![img](src)](target)
+  // where the outer link target wasn't caught by earlier regexes because [^\]]*
+  // can't match alt text containing ] characters
+  processed = processed.replace(
+    new RegExp(`\\]\\(([^)\\s]+\\.(${assetExts}))\\)`, 'gi'),
+    (match, src, ext) => {
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) return `](${rewritten})`;
       return match;
     }
   );
@@ -984,6 +996,14 @@ async function processMarkdownFile(filePath) {
     processedFrontmatter.image = rewriteSrc(processedFrontmatter.image, slug);
   }
 
+  // Rewrite external_url when it points to a local asset file
+  if (processedFrontmatter.external_url && typeof processedFrontmatter.external_url === 'string') {
+    const extUrl = processedFrontmatter.external_url;
+    if (!extUrl.startsWith('http') && /\.(pdf|mp4|webm|png|jpg|jpeg|gif|svg|webp)$/i.test(extUrl)) {
+      processedFrontmatter.external_url = rewriteSrc(extUrl, slug);
+    }
+  }
+
   // Store original slug for redirect generation when it differs from normalized
   if (naturalSlug !== slug) {
     processedFrontmatter.naturalSlug = naturalSlug;
@@ -1135,18 +1155,18 @@ export async function preprocessContent(options = {}) {
     // Global images directory doesn't exist, that's fine
   }
 
-  // Copy ESG partner logos (referenced by the ESG Astro page)
-  const esgLogosDir = path.join(CONTENT_DIR, 'projects', 'esg', 'partner-logos');
+  // Copy ESG project assets (no index.md so copyAssets doesn't run for it)
+  const esgDir = path.join(CONTENT_DIR, 'projects', 'esg');
   try {
-    const stats = await fs.promises.stat(esgLogosDir);
+    const stats = await fs.promises.stat(esgDir);
     if (stats.isDirectory()) {
-      const dest = path.join(PUBLIC_IMAGES_DIR, 'projects', 'esg', 'partner-logos');
-      await fs.promises.cp(esgLogosDir, dest, { recursive: true });
-      const logoCount = (await glob('**/*', { cwd: esgLogosDir, nodir: true })).length;
-      console.log(`  Copied ${logoCount} ESG partner logos`);
+      const dest = path.join(PUBLIC_IMAGES_DIR, 'projects', 'esg');
+      await copyAssets(esgDir, 'projects/esg');
+      const assetCount = (await glob('**/*.{png,jpg,svg,gif}', { cwd: esgDir, nodir: true })).length;
+      console.log(`  Copied ${assetCount} ESG project assets`);
     }
   } catch {
-    // ESG partner logos directory doesn't exist, that's fine
+    // ESG directory doesn't exist, that's fine
   }
 
   // Copy global assets directory (content/assets/ -> public/assets/)

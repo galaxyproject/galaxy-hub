@@ -13,7 +13,7 @@ comments:
   - "Can be used without understanding Japanese."
   - "See also [Galaxy入門とワークフロー構築](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013DDBJWorkflow.pdf) by [山口 敦子](mailto:atsuko AT dbcls DOT jp)"
 user_support:
-  - "![Support Email](/use/dbcls-galaxy/dbcls-support-mail.png)"
+  - "![Support Email](/images/use/archive/dbcls-galaxy/dbcls-support-mail.png)"
 quotas:
 citations:
 pub_libraries:
