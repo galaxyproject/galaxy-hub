@@ -4,8 +4,8 @@
  *
  * Features:
  * - Full-width hero section without sidebar
- * - Scroll-triggered masthead that appears after scrolling past hero
- * - Smooth transition for the navigation appearance
+ * - Always-visible nav overlaid on hero with transparent background
+ * - Nav gains solid background on scroll for readability
  */
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
@@ -36,10 +36,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     <ClientRouter />
   </head>
   <body>
-    <!-- Hover trigger zone at top of page -->
-    <div id="masthead-trigger" class="masthead-trigger"></div>
-
-    <!-- Scroll-triggered Masthead -->
+    <!-- Masthead - always visible, transparent over hero -->
     <header id="masthead" class="masthead">
       <div class="masthead-inner">
         <a href="/" class="masthead-logo">
@@ -109,13 +106,6 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
             </svg>
           </button>
-
-          <a href="https://usegalaxy.org" class="use-galaxy-btn" target="_blank">
-            Use Galaxy
-            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-            </svg>
-          </a>
         </nav>
 
         <!-- Search overlay -->
@@ -177,33 +167,22 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
           sans-serif;
       }
 
-      /* Hover trigger zone at top of page */
-      .masthead-trigger {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 20px;
-        z-index: 999;
-      }
-
-      /* Masthead - hidden by default, slides down on scroll */
+      /* Masthead - always visible, transparent over hero gradient */
       .masthead {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         z-index: 1000;
-        background: linear-gradient(135deg, #2c3143 0%, #25537b 100%);
-        transform: translateY(-100%);
+        background: transparent;
         transition:
-          transform 0.3s ease-out,
+          background 0.3s ease-out,
           box-shadow 0.3s ease-out;
         box-shadow: none;
       }
 
-      .masthead.visible {
-        transform: translateY(0);
+      .masthead.scrolled {
+        background: linear-gradient(135deg, #2c3143 0%, #25537b 100%);
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
       }
 
@@ -469,32 +448,17 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
 
     <script>
       function initHomeLayout() {
-        // Scroll-triggered masthead
         const masthead = document.getElementById('masthead');
-        const mastheadTrigger = document.getElementById('masthead-trigger');
-        const heroHeight = window.innerHeight * 0.15; // Show after scrolling 15% of viewport
-        let isHovering = false;
 
+        // Toggle solid background when scrolled past the hero area
         function updateMasthead() {
-          if (window.scrollY > heroHeight || isHovering) {
-            masthead?.classList.add('visible');
+          if (window.scrollY > 100) {
+            masthead?.classList.add('scrolled');
           } else {
-            masthead?.classList.remove('visible');
+            masthead?.classList.remove('scrolled');
           }
         }
 
-        // Hover trigger for masthead
-        mastheadTrigger?.addEventListener('mouseenter', () => {
-          isHovering = true;
-          updateMasthead();
-        });
-
-        masthead?.addEventListener('mouseleave', () => {
-          isHovering = false;
-          updateMasthead();
-        });
-
-        // Throttle scroll events for performance
         let ticking = false;
         window.addEventListener('scroll', () => {
           if (!ticking) {

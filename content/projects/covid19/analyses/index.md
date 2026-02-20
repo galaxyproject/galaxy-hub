@@ -2,6 +2,7 @@
 title: "Result interpretation"
 description: "Analysis of variants"
 autotoc: false
+components: true
 ---
 
 We provide two resources interpreting our results. The first is this page. Its content is updated weekly and we are continuously adding new analysis snippets. The second resource is our constantly updated [Observable Dashboard](http://covid19.galaxyproject.org/dashboard).

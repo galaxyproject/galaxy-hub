@@ -193,6 +193,12 @@ export async function getInsert(slug: string): Promise<InsertEntry | undefined> 
     for (const insert of inserts) {
       const key = normalizeSlug(insert.data.slug);
       insertCache.set(key, insert);
+      // Also index by naturalSlug (pre-normalization path) so lookups from
+      // legacy content that reference the original underscore/camelCase
+      // paths still resolve correctly.
+      if (insert.data.naturalSlug) {
+        insertCache.set(normalizeSlug(insert.data.naturalSlug), insert);
+      }
     }
   }
 
