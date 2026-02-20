@@ -5,8 +5,8 @@ components: true
 
 <slot name="/bare/fr/usegalaxy/notices" />
 
-<slot name="/ifb/lead-1" />
-<slot name="/ifb/lead-2" />
+<slot name="/ifb/lead1" />
+<slot name="/ifb/lead2" />
 
 <Carousel />
 
