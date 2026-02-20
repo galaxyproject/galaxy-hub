@@ -1,17 +1,21 @@
 ---
 title: "Galaxy at the E-Science Days 2025 in Heidelberg"
-contributions:
-  authorship: [Sch-Da]
-tags: [training]
+tags: [training, conference, rdm, research data management, humanities]
 layout: news
 date: "2025-03-13"
 tease: "We are presenting Galaxy's applicability for the Humanities"
 subsites: [all,eu]
+contributions:
+    authorship:
+    - Sch-Da
+    funding:
+    - deKCD
+    - deNBI
 ---
 # The Freiburg Galaxy team presented use cases from the Humanities at the E-Science Days
 
 The [E-Science Days](https://e-science-tage.de/) in Heidelberg took place in Heidelberg from March 12-14, 2025.
-With the motto "Research Data Management: Challenges in a Changing World", the researchers and FDM experts came together for workshops, lectures and presentations to discuss the current opportunities and challenges of RDM and e-science.
+With the motto "Research Data Management: Challenges in a Changing World", the researchers and RDM experts came together for workshops, lectures and presentations to discuss the current opportunities and challenges of RDM and e-science.
 
 ![Welcoming Poster in Heidelberg](./Poster_E-Science.jpeg)
 
