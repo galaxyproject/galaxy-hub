@@ -636,9 +636,23 @@ function resolveInsertContent(slotName, depth = 0) {
   try {
     rawContent = fs.readFileSync(filePath, 'utf-8');
   } catch {
-    console.warn(`  Warning: insert not found: ${slotName} (looked for ${filePath})`);
-    insertCache.set(cacheKey, null);
-    return null;
+    // Fallback: try the un-normalized filename (e.g., slot "ifb/lead-1" → file "ifb/lead1.md")
+    const segments = relativePath.split('/');
+    const lastSeg = segments[segments.length - 1];
+    const denormalized = lastSeg.replace(/-/g, '');
+    if (denormalized !== lastSeg) {
+      const fallbackPath = path.join(CONTENT_DIR, ...segments.slice(0, -1), denormalized + '.md');
+      try {
+        rawContent = fs.readFileSync(fallbackPath, 'utf-8');
+      } catch {
+        // fall through to warning below
+      }
+    }
+    if (!rawContent) {
+      console.warn(`  Warning: insert not found: ${slotName} (looked for ${filePath})`);
+      insertCache.set(cacheKey, null);
+      return null;
+    }
   }
 
   const { content: body } = matter(rawContent);
@@ -669,7 +683,8 @@ function inlineInserts(content, depth = 0) {
     if (resolved === null) {
       return `<!-- Insert not found: ${slotName} -->`;
     }
-    return resolved;
+    // Wrap in a div with data-name so layout CSS selectors can target inserts
+    return `<div class="insert" data-name="${slotName}">\n${resolved}\n</div>`;
   });
 }
 
