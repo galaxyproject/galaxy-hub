@@ -107,18 +107,25 @@ const formattedDate = formatDate(date, false);
       )
     }
 
-    {/* Tags */}
+    {/* Tags — only link tags that have a generated page (no slashes, reasonable length) */}
     {
       tags.length > 0 && (
         <div class="flex flex-wrap gap-2 mt-4">
-          {tags.map((tag) => (
-            <a
-              href={`/tags/${tag.toLowerCase()}/`}
-              class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors"
-            >
-              {tag}
-            </a>
-          ))}
+          {tags.map((tag) => {
+            const linkable = tag && !tag.includes('/') && tag.trim().length < 100;
+            return linkable ? (
+              <a
+                href={`/tags/${tag.toLowerCase()}/`}
+                class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors"
+              >
+                {tag}
+              </a>
+            ) : (
+              <span class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white/70">
+                {tag}
+              </span>
+            );
+          })}
         </div>
       )
     }

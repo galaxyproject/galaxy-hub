@@ -34,6 +34,14 @@ describe('rewriteSrc', () => {
     expect(rewriteSrc('https://example.com/img.png', slug)).toBe('https://example.com/img.png');
   });
 
+  it('leaves ftp:// URLs unchanged', () => {
+    expect(rewriteSrc('ftp://ftp.example.org/file.pdf', slug)).toBe('ftp://ftp.example.org/file.pdf');
+  });
+
+  it('leaves data: URIs unchanged', () => {
+    expect(rewriteSrc('data:image/png;base64,abc', slug)).toBe('data:image/png;base64,abc');
+  });
+
   it('leaves /assets/ paths unchanged', () => {
     expect(rewriteSrc('/assets/file.pdf', slug)).toBe('/assets/file.pdf');
   });
