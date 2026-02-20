@@ -26,12 +26,6 @@ const newsArticles = allArticles
     return dateB.getTime() - dateA.getTime();
   })
   .slice(0, 5);
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-}
 ---
 
 <!doctype html>
