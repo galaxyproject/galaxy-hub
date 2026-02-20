@@ -9,16 +9,16 @@ title: Galaxy Community Conferences (GCCs)
 <a href="/events/gcc2024/"><img src="/images/events/gcc2024/gcc2024-banner-3.png" alt="2024 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2023/"><img src="/images/events/gcc2023/gcc2023-logo.png" alt="2023 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="2021 Galaxy Community Conference" width="150" /></a> &nbsp;&nbsp;
-<a href="https://bcc2020.github.io/"><img src="/events/bcc2020/bcc2020-logo-white-wide-1000.png" alt="2020 Bioinformatics Community Conference" width="200" /></a> &nbsp;&nbsp;
-<a href="/events/gcc2019/"><img src="/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" /></a> &nbsp;&nbsp;
+<a href="https://bcc2020.github.io/"><img src="/images/events/bcc-2020/bcc2020-logo-white-wide-1000.png" alt="2020 Bioinformatics Community Conference" width="200" /></a> &nbsp;&nbsp;
+<a href="/events/gcc2019/"><img src="/images/events/gcc-2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" /></a> &nbsp;&nbsp;
 <a href="https://gccbosc2018.sched.com/"><img src="/images/logos/gcc-bosc-2018-logo-300.png" alt="2018 Galaxy Community and BOSC  Conference (GCCBOSC 2018)" width="140" /></a> &nbsp;&nbsp;
 <a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="200" /></a> &nbsp;&nbsp;
 <a href="https://web.archive.org/web/http://gcc2016.iu.edu/"><img src="/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" /></a> &nbsp;&nbsp;
 <a href="http://gcc2015.tsl.ac.uk/"><img src="/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="160" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2014/"><img src="/images/logos/GCC2014LogoWide600.png" alt="GCC2014, June 30-July2" width="220" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2013/"><img src="/images/logos/GCC2013Logo800.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a> &nbsp;&nbsp;
-<a href="/events/gcc2012/"><img src="/events/gcc2012/GCC2012Logo800.png" alt="2012 Galaxy Community Conference" width="170" /></a> &nbsp;&nbsp;
-<a href="/events/gcc2011/"><img src="/events/GCC2011Logo400.png" alt="GCC2011" width="185" /></a>
+<a href="/events/gcc2012/"><img src="/images/events/gcc-2012/GCC2012Logo800.png" alt="2012 Galaxy Community Conference" width="170" /></a> &nbsp;&nbsp;
+<a href="/events/gcc2011/"><img src="/images/events/gcc-2011/GCC2011Logo400.png" alt="GCC2011" width="185" /></a>
 
 </div>
 

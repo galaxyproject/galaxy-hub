@@ -22,7 +22,7 @@ export async function GET(context: APIContext) {
       title: event.data.title || 'Untitled',
       pubDate: event.data.date instanceof Date ? event.data.date : new Date(event.data.date || 0),
       description: event.data.tease || '',
-      link: `/events/${event.data.slug}/`,
+      link: `/${event.data.slug}/`,
     })),
     customData: `<language>en-us</language>`,
   });
