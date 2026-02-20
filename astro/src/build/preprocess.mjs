@@ -333,7 +333,7 @@ function rewriteSrc(src, slug) {
     return '/images/' + normalizeAssetPath(rest);
   }
   if (src.startsWith('/assets/') || src.startsWith('/media/')) return src;
-  if (src.startsWith('http')) return src;
+  if (/^[a-z][a-z0-9+.-]*:/i.test(src)) return src;
   if (!src.startsWith('/')) {
     const cleanSrc = src.startsWith('./') ? src.slice(2) : src;
     return `/images/${slug}/${cleanSrc}`;
