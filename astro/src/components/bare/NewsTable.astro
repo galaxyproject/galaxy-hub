@@ -73,25 +73,15 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
 </table>
 
 <style>
-  /* UseGalaxy.* colors */
-  :root {
-    --bgcolor-darkest-gray: #f8f9fa;
-    --bgcolor-dark-gray: #bdc6d0; /* table grid lines */
-    --bgcolor-medium-gray: #e9ecef; /* alternate row color */
-    --bgcolor-light-gray: #f8f9fa;
-    --bgcolor-lighter-gray: #eef0f2; /* hover */
-    --bgcolor-lightest-gray: #f8f9fa; /* striped */
-  }
-
   body table.news-table {
-    border: 1px solid var(--bgcolor-dark-gray);
+    border: 1px solid #bdc6d0;
   }
   .news-table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.9em;
     table-layout: fixed;
-    border: 1px solid var(--bgcolor-dark-gray);
+    border: 1px solid #bdc6d0;
   }
 
   .news-table th {
@@ -106,12 +96,12 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
 
   .news-table td {
     padding: 0.7rem 1rem;
-    border: 1px solid var(--bgcolor-dark-gray);
+    border: 1px solid #bdc6d0;
     vertical-align: top;
   }
 
   table.news-table tbody tr:hover {
-    background: var(--bgcolor-lighter-gray) !important;
+    background: #eef0f2 !important;
   }
 
   .col-date {
@@ -143,6 +133,6 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
     width: 50%;
   }
   table.news-table tbody tr:nth-child(odd) {
-    background: var(--bgcolor-lightest-gray);
+    background: #f8f9fa;
   }
 </style>
