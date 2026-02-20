@@ -176,17 +176,12 @@ function goTo(index: number) {
           :key="index"
           @click="goTo(index)"
           :class="[
-            'w-2.5 h-2.5 carousel-indicators transition-colors',
+            'carousel-indicators transition-colors',
             index === currentIndex ? 'bg-galaxy-primary' : 'bg-gray-300 hover:bg-gray-400',
           ]"
           :aria-label="`Go to image ${index + 1}`"
         ></button>
       </div>
-
-      <!-- Counter -->
-      <!-- <p v-if="canNavigate" class="text-center text-xs text-gray-500 mt-1">
-        {{ currentIndex + 1 }} / {{ normalizedImages.length }}
-      </p> -->
     </template>
   </div>
 </template>
