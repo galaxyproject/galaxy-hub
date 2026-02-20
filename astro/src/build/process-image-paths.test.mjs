@@ -203,6 +203,38 @@ describe('processImagePaths', () => {
     });
   });
 
+  describe('nested markdown (image wrapped in link)', () => {
+    it('rewrites outer link target in [![img](src)](target)', () => {
+      const input = '[![alt](/jxtx/james.jpg)](/jxtx/james.jpg)';
+      expect(processImagePaths(input, slug)).toBe(
+        '[![alt](/images/jxtx/james.jpg)](/images/jxtx/james.jpg)'
+      );
+    });
+
+    it('rewrites outer link with non-normalized slug', () => {
+      const input = '[![](./gvl-data.png)](/news/2020-07-gvl5-beta4/gvl-data.png)';
+      expect(processImagePaths(input, slug)).toBe(
+        '[![](/images/events/gcc-2024/gvl-data.png)](/images/news/2020-07-gvl-5-beta-4/gvl-data.png)'
+      );
+    });
+
+    it('handles alt text containing ] characters', () => {
+      const input = '![Stats about [22] events](/news/paper/fig1.png)';
+      expect(processImagePaths(input, slug)).toBe(
+        '![Stats about [22] events](/images/news/paper/fig1.png)'
+      );
+    });
+  });
+
+  describe('video-player component', () => {
+    it('rewrites video-player src', () => {
+      const input = '<video-player src="demo.mp4" />';
+      expect(processImagePaths(input, slug)).toBe(
+        '<video-player src="/images/events/gcc-2024/demo.mp4" />'
+      );
+    });
+  });
+
   describe('multiple references in content', () => {
     it('rewrites all reference types in mixed content', () => {
       const input = [
