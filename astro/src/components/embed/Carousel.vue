@@ -1,28 +1,52 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 
 interface CarouselImage {
   src: string;
   alt?: string;
+  link?: string;
   caption?: string;
 }
 
-const props = defineProps<{
-  images?: CarouselImage[] | string[];
-  src?: string;
-}>();
+const props = withDefaults(
+  defineProps<{
+    images?: CarouselImage[] | string[];
+    src?: string;
+    autoplay?: boolean;
+    interval?: number;
+  }>(),
+  {
+    autoplay: false,
+    interval: 3000,
+  }
+);
 
 const currentIndex = ref(0);
+const isPaused = ref(false);
+let autoplayTimer: ReturnType<typeof setInterval> | null = null;
 
-// Normalize images to consistent format
+onMounted(() => {
+  if (props.autoplay) {
+    startAutoplay();
+  }
+});
+
+onUnmounted(() => {
+  stopAutoplay();
+});
+
 const normalizedImages = computed<CarouselImage[]>(() => {
-  if (!props.images && !props.src) return [];
+  if (!props.images && !props.src) {
+    return [];
+  }
 
   if (props.src) {
     return [{ src: props.src, alt: 'Image' }];
   }
 
-  if (!props.images) return [];
+  if (!props.images) {
+    return [];
+  }
 
   return props.images.map((img) => {
     if (typeof img === 'string') {
@@ -34,18 +58,59 @@ const normalizedImages = computed<CarouselImage[]>(() => {
 
 const canNavigate = computed(() => normalizedImages.value.length > 1);
 
+function startAutoplay() {
+  if (!props.autoplay || normalizedImages.value.length <= 1) {
+    return;
+  }
+
+  stopAutoplay();
+
+  autoplayTimer = setInterval(() => {
+    if (!isPaused.value) {
+      next();
+    }
+  }, props.interval);
+}
+
+function stopAutoplay() {
+  if (autoplayTimer) {
+    clearInterval(autoplayTimer);
+    autoplayTimer = null;
+  }
+}
+
+function pauseAutoplay() {
+  isPaused.value = true;
+}
+
+function resumeAutoplay() {
+  isPaused.value = false;
+}
+
+function resetAutoplay() {
+  if (props.autoplay) {
+    startAutoplay();
+  }
+}
+
 function next() {
-  if (normalizedImages.value.length === 0) return;
+  if (normalizedImages.value.length === 0) {
+    return;
+  }
   currentIndex.value = (currentIndex.value + 1) % normalizedImages.value.length;
 }
 
 function prev() {
-  if (normalizedImages.value.length === 0) return;
+  if (normalizedImages.value.length === 0) {
+    return;
+  }
   currentIndex.value = (currentIndex.value - 1 + normalizedImages.value.length) % normalizedImages.value.length;
+  resetAutoplay();
 }
 
 function goTo(index: number) {
   currentIndex.value = index;
+  resetAutoplay();
 }
 </script>
 
@@ -57,8 +122,20 @@ function goTo(index: number) {
 
     <template v-else>
       <!-- Main image -->
-      <div class="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
+      <div
+        class="relative aspect-video rounded-lg overflow-hidden carousel-image-container mx-auto"
+        @mouseenter="props.autoplay ? pauseAutoplay() : null"
+        @mouseleave="props.autoplay ? resumeAutoplay() : null"
+      >
+        <a v-if="normalizedImages[currentIndex].link" :href="normalizedImages[currentIndex].link" target="_blank">
+          <img
+            :src="normalizedImages[currentIndex].src"
+            :alt="normalizedImages[currentIndex].alt || ''"
+            class="w-full h-full object-contain"
+          />
+        </a>
         <img
+          v-else
           :src="normalizedImages[currentIndex].src"
           :alt="normalizedImages[currentIndex].alt || ''"
           class="w-full h-full object-contain"
@@ -99,17 +176,28 @@ function goTo(index: number) {
           :key="index"
           @click="goTo(index)"
           :class="[
-            'w-2.5 h-2.5 rounded-full transition-colors',
+            'carousel-indicators transition-colors',
             index === currentIndex ? 'bg-galaxy-primary' : 'bg-gray-300 hover:bg-gray-400',
           ]"
           :aria-label="`Go to image ${index + 1}`"
         ></button>
       </div>
-
-      <!-- Counter -->
-      <p v-if="canNavigate" class="text-center text-xs text-gray-500 mt-1">
-        {{ currentIndex + 1 }} / {{ normalizedImages.length }}
-      </p>
     </template>
   </div>
 </template>
+
+<style scoped>
+.carousel-image-container {
+  position: relative;
+  text-align: center;
+  max-width: 450px;
+  overflow: visible;
+}
+
+.carousel-indicators {
+  width: 30px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+</style>

@@ -56,6 +56,11 @@ const { title, description } = Astro.props;
     text-decoration: underline;
   }
 
+  .prose a:hover {
+    text-decoration: underline;
+    color: var(--tw-prose-links);
+  }
+
   .prose-galaxy code {
     background-color: #f3f4f6;
     padding: 0.125rem 0.375rem;
@@ -81,5 +86,467 @@ const { title, description } = Astro.props;
   .prose-galaxy h3,
   .prose-galaxy h4 {
     color: var(--tw-prose-headings);
+  }
+
+  article.prose.prose-lg.prose-galaxy.max-w-none {
+    max-width: 1200px;
+    margin: 0 auto !important;
+  }
+
+  /* Styling for EU lead sections */
+  [data-name='/eu/main1'] {
+    margin-bottom: 2rem;
+
+    .bs-compat.card.border-secondary.bg-secondary {
+      max-width: none;
+      background-color: #dee2e6 !important;
+      border-color: rgba(0, 0, 0, 0.125) !important;
+      padding: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 0 0 1rem;
+      color: #212529;
+      border-bottom: none !important;
+      padding-bottom: 0;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      color: #212529;
+    }
+
+    .text-center {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 1rem 0 0;
+    }
+
+    .btn {
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+    }
+
+    a.bs-compat.btn.btn-light.btn-outline-dark.mx-3 {
+      border-color: #343a40 !important;
+
+      &:hover {
+        background-color: #343a40 !important;
+        color: #fff !important;
+        text-decoration: underline !important;
+      }
+    }
+  }
+
+  [data-name='/eu/main2'] {
+    margin: 3rem 0;
+
+    .bs-compat.card-deck {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+
+    .bs-compat.card {
+      flex: 1 1 auto;
+      margin: 0;
+      background-color: #f8f9fa !important;
+      border: 1px solid #dee2e6;
+    }
+
+    .bs-compat.card-body {
+      page-break-inside: avoid;
+      break-inside: avoid;
+      padding: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.375rem;
+      margin: 0 0 1rem;
+      color: #212529;
+      border-bottom: none !important;
+      padding-bottom: 0;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+      min-height: 4.5rem;
+      padding: 0.75rem 1rem 0;
+    }
+
+    .text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+
+    img {
+      margin: 0 auto;
+      display: block;
+      height: 100px;
+      width: auto;
+    }
+
+    .btn {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      white-space: normal;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  [data-name='/eu/common/data-policy'] {
+    table {
+      padding: 0;
+      margin: 24px 0 16px;
+      border-collapse: collapse;
+      width: 100%;
+
+      thead th {
+        color: rgb(33, 37, 41);
+        background-color: transparent;
+        border: 1px solid rgb(204, 204, 204);
+        border-top-color: rgb(191, 191, 191);
+        border-bottom: 2px solid rgb(191, 191, 191);
+        text-align: left;
+        padding: 1rem;
+      }
+
+      tbody td {
+        color: rgb(33, 37, 41);
+        background-color: #f2f2f2;
+        border: 1px solid rgb(204, 204, 204);
+        border-top-color: rgb(191, 191, 191);
+        padding: 1rem;
+      }
+    }
+  }
+
+  /* Responsive layouts for EU main2 */
+  @media (max-width: 767px) {
+    [data-name='/eu/main2'] .bs-compat.card {
+      flex: 1 1 100%;
+      max-width: 100%;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    [data-name='/eu/main2'] .bs-compat.card {
+      flex: 1 1 calc(50% - 0.5rem);
+      max-width: calc(50% - 0.5rem);
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    [data-name='/eu/main2'] .bs-compat.card {
+      flex: 1 1 calc(25% - 0.75rem);
+      max-width: calc(25% - 0.75rem);
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    [data-name='/eu/main2'] .bs-compat.card {
+      flex: 1 1 calc(25% - 0.75rem);
+      max-width: calc(25% - 0.75rem);
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  /* Styling for IFB lead sections */
+  [data-name='/ifb/lead1'] {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    max-width: 350px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 0 0.5rem;
+    }
+
+    .img-sizer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      margin: 0.5rem 0 0;
+      flex-wrap: nowrap;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        margin: 0;
+      }
+
+      img {
+        height: 70px;
+        width: auto;
+        margin: 0;
+        display: block;
+      }
+
+      p {
+        display: contents;
+      }
+    }
+  }
+
+  [data-name='/ifb/lead2'] {
+    font-size: 1rem;
+    line-height: 1.7;
+
+    p {
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin: 0.8rem 0;
+
+      li {
+        margin: 0;
+
+        &::marker {
+          color: #000;
+        }
+      }
+    }
+
+    strong {
+      font-weight: 600;
+      color: #1f2937;
+    }
+  }
+
+  .prose-galaxy {
+    iframe[title='Recent Galaxy France news'],
+    iframe[title='Recent Galaxy Europe news'] {
+      margin-right: 16px;
+      float: left;
+    }
+
+    iframe[title*='Recent Galaxy France events'],
+    iframe[title*='Recent Galaxy Europe events'] {
+      margin-bottom: 3rem;
+      width: calc(50% - 20px) !important;
+      display: inline-block;
+      vertical-align: top;
+      float: right;
+    }
+  }
+
+  [data-name='/ifb/main1'] {
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+
+    .bs-compat.card.border-secondary.bg-secondary {
+      margin-top: 1.5rem;
+      max-width: none;
+      background-color: #dee2e6 !important;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin: 0 0 0.75rem;
+      border-bottom: none !important;
+      padding-bottom: 0;
+    }
+
+    .bs-compat.card-text {
+      font-size: 1rem;
+      line-height: 1.3;
+      padding: 0.75rem 1rem 0;
+    }
+
+    .text-center {
+      font-size: 0.875rem;
+      line-height: 1.1;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-left: 1.6rem;
+    }
+
+    li {
+      margin: 0 0 0.25rem;
+      font-size: 0.875rem;
+      line-height: 1.2;
+
+      &::marker {
+        color: #000;
+      }
+    }
+  }
+
+  [data-name='/ifb/main2'],
+  [data-name='/ifb/main3'] {
+    margin: 4rem 0 2.5rem;
+
+    .bs-compat.card-deck {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0;
+    }
+
+    .bs-compat.card {
+      flex: 1 1 auto;
+      min-width: 12rem;
+      max-width: 20rem;
+      margin: 0;
+    }
+
+    .bs-compat.card-body {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin: 0 0 0.75rem;
+      border-bottom: none !important;
+      padding-bottom: 0;
+    }
+
+    .bs-compat.card-text {
+      font-size: 1rem;
+      line-height: 1.3;
+      padding: 0.75rem 1rem 0;
+    }
+
+    .text-center {
+      font-size: 0.875rem;
+      line-height: 1.1;
+    }
+
+    .bs-compat.btn {
+      margin-top: 0.5rem;
+    }
+
+    img {
+      margin: 1rem auto;
+      display: block;
+      height: 100px;
+
+      &[alt='microGalaxy'] {
+        height: 50px;
+      }
+    }
+
+    br {
+      display: none !important;
+      line-height: 0 !important;
+      font-size: 1px !important;
+    }
+  }
+
+  [data-name='/ifb/main3'] {
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 2.5rem;
+      font-weight: 400;
+      color: #2c3143;
+    }
+  }
+
+  /* Responsive card layouts */
+  @media (max-width: 767px) {
+    [data-name='/ifb/main2'] .bs-compat.card,
+    [data-name='/ifb/main3'] .bs-compat.card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    [data-name='/ifb/main2'] .bs-compat.card {
+      &:nth-child(-n + 3) {
+        flex: 1 1 calc(33.333% - 0.333rem);
+        max-width: calc(33.333% - 0.333rem);
+      }
+      &:nth-child(n + 4) {
+        flex: 1 1 calc(50% - 0.25rem);
+        max-width: calc(50% - 0.25rem);
+      }
+    }
+    [data-name='/ifb/main3'] .bs-compat.card {
+      flex: 1 1 calc(50% - 0.25rem);
+      max-width: calc(50% - 0.25rem);
+      &:last-child {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    [data-name='/ifb/main2'] .bs-compat.card {
+      &:nth-child(-n + 4) {
+        flex: 1 1 calc(25% - 0.375rem);
+        max-width: calc(25% - 0.375rem);
+      }
+      &:nth-child(n + 5) {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
+    [data-name='/ifb/main3'] .bs-compat.card {
+      flex: 1 1 calc(33.333% - 0.333rem);
+      max-width: calc(33.333% - 0.333rem);
+      &:last-child {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    [data-name='/ifb/main2'] .bs-compat.card {
+      flex: 1 1 calc(20% - 0.4rem);
+      max-width: calc(20% - 0.4rem);
+      min-width: 9rem;
+    }
+    [data-name='/ifb/main3'] .bs-compat.card {
+      flex: 1 1 calc(33.333% - 0.333rem);
+      max-width: calc(33.333% - 0.333rem);
+      min-width: 20rem;
+      &:last-child {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
   }
 </style>
