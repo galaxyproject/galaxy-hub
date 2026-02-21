@@ -5,6 +5,8 @@
  * Used for pages that will be embedded in iframes or need minimal chrome
  */
 
+import '../styles/global.css';
+
 interface Props {
   title: string;
   description?: string;
@@ -20,9 +22,6 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description || `${title} - Galaxy Community Hub`} />
     <title>{title} | Galaxy</title>
-
-    <!-- Import global styles -->
-    <link rel="stylesheet" href="/src/styles/global.css" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
