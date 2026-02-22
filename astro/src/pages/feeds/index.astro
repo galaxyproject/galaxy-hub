@@ -1,0 +1,535 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
+
+type FeedEntry = {
+  route: string;
+  absoluteUrl: string;
+  areaPath: string;
+  areaLabel: string;
+  areaDescription: string;
+  formatExt: string;
+  formatLabel: string;
+  mimeType: string;
+  formatOrder: number;
+};
+
+type AreaGroup = {
+  areaPath: string;
+  areaLabel: string;
+  areaDescription: string;
+  feeds: FeedEntry[];
+};
+
+type RegionGroup = {
+  key: string;
+  label: string;
+  description: string;
+  areas: AreaGroup[];
+};
+
+const FEED_FORMATS: Record<string, { label: string; mimeType: string; order: number }> = {
+  xml: { label: 'RSS 2.0', mimeType: 'application/rss+xml', order: 1 },
+  atom: { label: 'Atom', mimeType: 'application/atom+xml', order: 2 },
+  json: { label: 'JSON Feed', mimeType: 'application/feed+json', order: 3 },
+};
+
+const AREA_LABELS: Record<string, string> = {
+  '/news': 'News',
+  '/events': 'Events',
+  '/use': 'Use Galaxy Platforms',
+  '/eu': 'Galaxy Europe',
+  '/eu/news': 'Galaxy Europe News',
+  '/eu/events': 'Galaxy Europe Events',
+};
+
+const AREA_DESCRIPTIONS: Record<string, string> = {
+  '/news': 'Latest community announcements and project updates.',
+  '/events': 'Upcoming and recent Galaxy events from across the community.',
+  '/use': 'Platform directory data for Galaxy servers worldwide.',
+  '/eu': 'Europe-focused Galaxy news in Atom format.',
+  '/eu/news': 'Atom feed for Europe-focused Galaxy news.',
+  '/eu/events': 'Atom feed for Europe-focused Galaxy events.',
+};
+
+const REGION_META: Record<string, { label: string; description: string; order: number }> = {
+  global: {
+    label: 'Global Feeds',
+    description: 'Feeds for Galaxy-wide content and platform metadata.',
+    order: 1,
+  },
+  eu: {
+    label: 'EU Feeds',
+    description: 'Europe-focused feeds for regional news and events.',
+    order: 2,
+  },
+  us: {
+    label: 'US Feeds',
+    description: 'United States-specific syndicated feeds.',
+    order: 3,
+  },
+  au: {
+    label: 'AU Feeds',
+    description: 'Australia-specific syndicated feeds.',
+    order: 4,
+  },
+  fr: {
+    label: 'FR Feeds',
+    description: 'France-specific syndicated feeds.',
+    order: 5,
+  },
+  other: {
+    label: 'Other Feeds',
+    description: 'Additional feeds outside the main regional groups.',
+    order: 99,
+  },
+};
+
+function toTitleCase(value: string): string {
+  return value
+    .replace(/[-_]+/g, ' ')
+    .split(' ')
+    .filter(Boolean)
+    .map((word) => {
+      if (word.length <= 3) return word.toUpperCase();
+      return `${word[0].toUpperCase()}${word.slice(1).toLowerCase()}`;
+    })
+    .join(' ');
+}
+
+function getAreaPath(route: string): string {
+  const areaPath = route.replace(/\/feed\.[^/]+$/, '');
+  return areaPath || '/';
+}
+
+function getAreaLabel(areaPath: string): string {
+  if (AREA_LABELS[areaPath]) return AREA_LABELS[areaPath];
+  if (areaPath === '/') return 'Site';
+  return areaPath
+    .split('/')
+    .filter(Boolean)
+    .map((segment) => toTitleCase(segment))
+    .join(' / ');
+}
+
+function getAreaDescription(areaPath: string): string {
+  if (AREA_DESCRIPTIONS[areaPath]) return AREA_DESCRIPTIONS[areaPath];
+  return 'Syndicated updates for this section.';
+}
+
+function routeFromModulePath(modulePath: string): string | null {
+  const withoutPrefix = modulePath.replace(/^\.\.\//, '');
+  const withoutRuntimeExt = withoutPrefix.replace(/\.(ts|js|mts|mjs)$/, '');
+  if (!withoutRuntimeExt.includes('/feed.')) {
+    return null;
+  }
+  return `/${withoutRuntimeExt}`;
+}
+
+function getRegionKey(areaPath: string): string {
+  if (areaPath === '/eu' || areaPath.startsWith('/eu/')) return 'eu';
+  if (areaPath === '/us' || areaPath.startsWith('/us/')) return 'us';
+  if (areaPath === '/au' || areaPath.startsWith('/au/')) return 'au';
+  if (areaPath === '/fr' || areaPath.startsWith('/fr/')) return 'fr';
+  if (areaPath.startsWith('/')) return 'global';
+  return 'other';
+}
+
+const feedModules = import.meta.glob('../**/feed.*.{ts,js,mts,mjs}');
+const siteBase = (Astro.site?.toString() || 'https://galaxyproject.org').replace(/\/$/, '');
+
+const feedEntries = Object.keys(feedModules)
+  .map((modulePath): FeedEntry | null => {
+    const route = routeFromModulePath(modulePath);
+    if (!route) return null;
+
+    const formatMatch = route.match(/\.([a-z0-9]+)$/i);
+    const formatExt = formatMatch ? formatMatch[1].toLowerCase() : 'other';
+    const formatMeta = FEED_FORMATS[formatExt] || {
+      label: toTitleCase(formatExt),
+      mimeType: 'application/octet-stream',
+      order: 99,
+    };
+
+    const areaPath = getAreaPath(route);
+
+    return {
+      route,
+      absoluteUrl: new URL(route, `${siteBase}/`).toString(),
+      areaPath,
+      areaLabel: getAreaLabel(areaPath),
+      areaDescription: getAreaDescription(areaPath),
+      formatExt,
+      formatLabel: formatMeta.label,
+      mimeType: formatMeta.mimeType,
+      formatOrder: formatMeta.order,
+    };
+  })
+  .filter((entry): entry is FeedEntry => Boolean(entry))
+  .sort((a, b) => {
+    if (a.areaLabel !== b.areaLabel) {
+      return a.areaLabel.localeCompare(b.areaLabel);
+    }
+    if (a.formatOrder !== b.formatOrder) {
+      return a.formatOrder - b.formatOrder;
+    }
+    return a.route.localeCompare(b.route);
+  });
+
+const groupedFeeds = Array.from(
+  feedEntries
+    .reduce((map, entry) => {
+      if (!map.has(entry.areaPath)) {
+        map.set(entry.areaPath, {
+          areaPath: entry.areaPath,
+          areaLabel: entry.areaLabel,
+          areaDescription: entry.areaDescription,
+          feeds: [] as FeedEntry[],
+        });
+      }
+      map.get(entry.areaPath)?.feeds.push(entry);
+      return map;
+    }, new Map<string, AreaGroup>())
+    .values()
+);
+
+const regionGroups = Array.from(
+  groupedFeeds
+    .reduce((map, areaGroup) => {
+      const key = getRegionKey(areaGroup.areaPath);
+      const meta = REGION_META[key] || REGION_META.other;
+      if (!map.has(key)) {
+        map.set(key, {
+          key,
+          label: meta.label,
+          description: meta.description,
+          areas: [],
+        });
+      }
+      map.get(key)?.areas.push(areaGroup);
+      return map;
+    }, new Map<string, RegionGroup>())
+    .values()
+)
+  .map((group) => ({
+    ...group,
+    areas: [...group.areas].sort((a, b) => a.areaLabel.localeCompare(b.areaLabel)),
+  }))
+  .sort((a, b) => {
+    const orderA = (REGION_META[a.key] || REGION_META.other).order;
+    const orderB = (REGION_META[b.key] || REGION_META.other).order;
+    if (orderA !== orderB) return orderA - orderB;
+    return a.label.localeCompare(b.label);
+  });
+
+const feedCount = feedEntries.length;
+const rssCount = feedEntries.filter((feed) => feed.formatExt === 'xml').length;
+const atomCount = feedEntries.filter((feed) => feed.formatExt === 'atom').length;
+const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length;
+---
+
+<BaseLayout title="Feeds" description="Subscribe to Galaxy updates using RSS, Atom, and JSON feeds.">
+  <div class="max-w-6xl mx-auto">
+    <PageHeader
+      title="Syndication Feeds"
+      description="Follow Galaxy updates in your feed reader with RSS, Atom, and JSON feed endpoints."
+    >
+      <div class="flex flex-wrap gap-6 mt-6">
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{feedCount}</span>
+          <span class="text-white/70 text-sm uppercase tracking-wide">Total Feeds</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{rssCount}</span>
+          <span class="text-white/70 text-sm uppercase tracking-wide">RSS</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{atomCount}</span>
+          <span class="text-white/70 text-sm uppercase tracking-wide">Atom</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-bold text-galaxy-gold">{jsonCount}</span>
+          <span class="text-white/70 text-sm uppercase tracking-wide">JSON Feed</span>
+        </div>
+      </div>
+    </PageHeader>
+
+    <section class="bg-white border border-gray-200 border-t-0 rounded-b-lg shadow-sm px-8 py-7 mb-8">
+      <h2 class="text-2xl font-semibold text-galaxy-dark mb-3">Galaxy updates for your feedreader!</h2>
+      <p class="text-gray-700 leading-7 mb-4">
+        RSS (and related formats like Atom and JSON Feed) lets you subscribe to updates from a site without checking it
+        manually. Your feed reader fetches new posts and events in one place, with no social-media algorithm in the
+        middle.
+      </p>
+      <p class="text-gray-700 leading-7 mb-6">
+        To subscribe, copy a feed URL below and add it to your reader. Popular readers include
+        <a href="https://feedly.com/" target="_blank" rel="noopener noreferrer" class="reader-link">Feedly</a>,
+        <a href="https://www.inoreader.com/" target="_blank" rel="noopener noreferrer" class="reader-link">
+          Inoreader
+        </a>,
+        <a href="https://www.newsblur.com/" target="_blank" rel="noopener noreferrer" class="reader-link">NewsBlur</a>,
+        <a href="https://netnewswire.com/" target="_blank" rel="noopener noreferrer" class="reader-link">
+          NetNewsWire
+        </a>, and
+        <a href="https://www.freshrss.org/" target="_blank" rel="noopener noreferrer" class="reader-link">FreshRSS</a>.
+      </p>
+      <p class="text-sm text-gray-600 mb-6">
+        Tip: click a feed format badge (RSS, Atom, or JSON) to copy that feed URL.
+      </p>
+    </section>
+
+    <section class="space-y-8">
+      {
+        regionGroups.map((regionGroup) => (
+          <section class="region-group">
+            <header class="region-header">
+              <h2 class="region-title">{regionGroup.label}</h2>
+              <p class="region-description">{regionGroup.description}</p>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {regionGroup.areas.map((group) => (
+                <article class="bg-white border border-gray-200 rounded-lg shadow-sm p-6">
+                  <header class="mb-4">
+                    <h3 class="text-xl font-semibold text-galaxy-dark">{group.areaLabel}</h3>
+                    <p class="text-sm text-gray-600 mt-1">{group.areaDescription}</p>
+                  </header>
+                  <ul class="space-y-3">
+                    {group.feeds.map((feed) => (
+                      <li class="feed-item">
+                        <div class="min-w-0">
+                          <a href={feed.route} class="feed-link">
+                            <code>{feed.route}</code>
+                          </a>
+                          <p class="text-xs text-gray-500 mt-1">{feed.mimeType}</p>
+                        </div>
+                        <div class="feed-actions">
+                          <button
+                            type="button"
+                            class="format-badge format-copy-btn"
+                            data-copy-url={feed.absoluteUrl}
+                            data-copy-label={feed.formatLabel}
+                            aria-label={`Copy ${feed.route} URL`}
+                            title="Click to copy feed URL"
+                          >
+                            {feed.formatExt === 'xml' && (
+                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="6" cy="18" r="2" fill="currentColor" />
+                                <path
+                                  d="M4 10a10 10 0 0 1 10 10M4 4a16 16 0 0 1 16 16"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            )}
+                            {feed.formatExt === 'atom' && (
+                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="12" cy="12" r="1.7" fill="currentColor" />
+                                <ellipse cx="12" cy="12" rx="9" ry="3.5" stroke="currentColor" stroke-width="1.7" />
+                                <ellipse
+                                  cx="12"
+                                  cy="12"
+                                  rx="3.5"
+                                  ry="9"
+                                  stroke="currentColor"
+                                  stroke-width="1.7"
+                                  transform="rotate(45 12 12)"
+                                />
+                              </svg>
+                            )}
+                            {feed.formatExt === 'json' && (
+                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path
+                                  d="M9 4H7a2 2 0 0 0-2 2v3a2 2 0 0 1-2 2 2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h2M15 4h2a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2 2 2 0 0 0-2 2v3a2 2 0 0 1-2 2h-2M11 8v8M13 8v8"
+                                  stroke="currentColor"
+                                  stroke-width="1.8"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            )}
+                            <span class="format-copy-label">{feed.formatLabel}</span>
+                          </button>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              ))}
+            </div>
+          </section>
+        ))
+      }
+    </section>
+
+    <section class="bg-white border border-gray-200 rounded-lg shadow-sm px-8 py-6 mt-8">
+      <h2 class="text-xl font-semibold text-galaxy-dark mb-3">How This Page Stays Up To Date</h2>
+      <p class="text-gray-700 leading-7">
+        This list is generated from feed route files under <code>src/pages/**/feed.*</code>. If a new feed endpoint is
+        added there, it will automatically appear on this page. If you need more specialized feeds, please contact us.
+      </p>
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  function fallbackCopy(text) {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.setAttribute('readonly', '');
+    textarea.style.position = 'absolute';
+    textarea.style.left = '-9999px';
+    document.body.appendChild(textarea);
+    textarea.select();
+    const copied = document.execCommand('copy');
+    document.body.removeChild(textarea);
+    return copied;
+  }
+
+  async function copyText(text) {
+    if (!navigator.clipboard || !window.isSecureContext) {
+      return fallbackCopy(text);
+    }
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      return fallbackCopy(text);
+    }
+  }
+
+  document.addEventListener('click', async (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLElement)) return;
+    const button = target.closest('button.format-copy-btn');
+    if (!(button instanceof HTMLButtonElement)) return;
+
+    const url = button.dataset.copyUrl;
+    if (!url) return;
+
+    const ok = await copyText(url);
+    const label = button.querySelector('.format-copy-label');
+    const originalLabel = button.dataset.copyLabel || 'Feed';
+    if (!(label instanceof HTMLElement)) return;
+
+    label.textContent = ok ? 'Copied' : 'Copy failed';
+    button.dataset.copyStatus = ok ? 'ok' : 'error';
+    window.setTimeout(() => {
+      label.textContent = originalLabel;
+      button.dataset.copyStatus = '';
+    }, 1400);
+  });
+</script>
+
+<style>
+  .region-group {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  }
+
+  .region-header {
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.3rem;
+  }
+
+  .region-title {
+    margin: 0;
+    color: #1f2937;
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+
+  .region-description {
+    margin: 0.3rem 0 0;
+    color: #4b5563;
+    font-size: 0.92rem;
+  }
+
+  .reader-link {
+    color: #1d4c72;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .reader-link:hover {
+    color: #133652;
+  }
+
+  .feed-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    background: #f9fafb;
+  }
+
+  .feed-link {
+    color: #1d4c72;
+    text-decoration: none;
+    font-weight: 500;
+    word-break: break-all;
+  }
+
+  .feed-link:hover {
+    text-decoration: underline;
+  }
+
+  .feed-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  .format-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border-radius: 9999px;
+    border: 1px solid #cbd5e1;
+    background: #f8fafc;
+    color: #334155;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    white-space: nowrap;
+  }
+
+  .format-copy-btn {
+    cursor: pointer;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .format-copy-btn:hover {
+    border-color: #25537b;
+    background: #eff6ff;
+    color: #1d4c72;
+  }
+
+  .format-copy-btn[data-copy-status='ok'] {
+    border-color: #0f766e;
+    background: #ecfeff;
+    color: #0f766e;
+  }
+
+  .format-copy-btn[data-copy-status='error'] {
+    border-color: #b91c1c;
+    background: #fef2f2;
+    color: #b91c1c;
+  }
+
+  .format-icon {
+    width: 0.9rem;
+    height: 0.9rem;
+    flex: none;
+  }
+</style>

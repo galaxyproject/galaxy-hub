@@ -160,6 +160,43 @@ test.describe('Static Pages', () => {
     });
   });
 
+  test.describe('Feeds Page', () => {
+    test('/feeds/ page loads and lists feed endpoints', async ({ page }) => {
+      const response = await page.goto('/feeds/');
+      expect(response?.status()).toBe(200);
+
+      await expect(page.getByRole('heading', { level: 1, name: /syndication feeds/i })).toBeVisible();
+      await expect(page.locator('a[href="/news/feed.xml"]')).toBeVisible();
+      await expect(page.locator('a[href="/events/feed.xml"]')).toBeVisible();
+      await expect(page.locator('a[href="/eu/feed.atom"]')).toBeVisible();
+      await expect(page.locator('a[href="/eu/news/feed.atom"]')).toBeVisible();
+      await expect(page.locator('a[href="/eu/events/feed.atom"]')).toBeVisible();
+      await expect(page.locator('a[href="/use/feed.json"]')).toBeVisible();
+
+      // Reader references should be present in explanatory text
+      await expect(page.getByRole('link', { name: 'Feedly' })).toBeVisible();
+      await expect(page.getByRole('link', { name: 'Inoreader' })).toBeVisible();
+
+      // Feed URLs should be copyable via format buttons
+      await expect(page.locator('button.format-copy-btn').first()).toBeVisible();
+      await expect(page.locator('button.format-copy-btn').first()).toHaveAttribute('title', /copy/i);
+      const copyUrl = await page.locator('button.format-copy-btn').first().getAttribute('data-copy-url');
+      expect(copyUrl).toContain('https://');
+    });
+
+    test('EU Atom feed endpoints respond with Atom XML', async ({ request }) => {
+      const newsFeed = await request.get('/eu/news/feed.atom');
+      expect(newsFeed.status()).toBe(200);
+      expect(newsFeed.headers()['content-type']).toContain('atom');
+      expect(await newsFeed.text()).toContain('<feed');
+
+      const eventsFeed = await request.get('/eu/events/feed.atom');
+      expect(eventsFeed.status()).toBe(200);
+      expect(eventsFeed.headers()['content-type']).toContain('atom');
+      expect(await eventsFeed.text()).toContain('<feed');
+    });
+  });
+
   test.describe('404 Page', () => {
     test('404 page displays for non-existent routes', async ({ page }) => {
       const response = await page.goto('/this-page-does-not-exist-12345/');
