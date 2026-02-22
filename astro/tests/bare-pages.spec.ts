@@ -1,6 +1,29 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Bare Pages', () => {
+  test.describe('Bare Sitemap Index', () => {
+    test('/bare/ lists static and dynamic bare routes', async ({ page }) => {
+      const response = await page.goto('/bare/');
+      expect(response?.status()).toBe(200);
+
+      const sitemapLinks = page.locator('ul.bare-sitemap a');
+      await expect(sitemapLinks.first()).toBeVisible();
+
+      // Static bare page route from src/pages/bare
+      await expect(page.locator('a[href="/bare/eu/events/"]')).toBeVisible();
+
+      // Dynamic bare-article route from src/content/bare-articles
+      await expect(page.locator('a[href="/bare/eu/usegalaxy/main/"]')).toBeVisible();
+
+      const hrefs = await sitemapLinks.evaluateAll((links) => links.map((link) => link.getAttribute('href') || ''));
+      expect(hrefs.length).toBeGreaterThan(5);
+      expect(new Set(hrefs).size).toBe(hrefs.length);
+
+      // Dynamic route templates themselves should never appear in the listing
+      await expect(page.locator('a[href="/bare/[...slug]/"]')).toHaveCount(0);
+    });
+  });
+
   test.describe('EU Events', () => {
     test('/bare/eu/events/ loads with table layout', async ({ page }) => {
       const response = await page.goto('/bare/eu/events/');
