@@ -393,8 +393,8 @@ function processImagePaths(content, slug) {
   // Markdown links to asset files: [text](file.ext)
   // Negative lookbehind avoids re-matching markdown images already handled above
   processed = processed.replace(
-    new RegExp(`(?<!!)\\[([^\\]]*)\\]\\(([^)\\s]+\\.(${assetExts}))\\)`, 'gi'),
-    (match, text, src, ext) => {
+    new RegExp(`(?<!!)\\[([^\\]]*)\\]\\(([^)\\s]+\\.(?:${assetExts}))\\)`, 'gi'),
+    (match, text, src) => {
       const rewritten = rewriteSrc(src, slug);
       if (rewritten !== src) return `[${text}](${rewritten})`;
       return match;
@@ -405,8 +405,8 @@ function processImagePaths(content, slug) {
   // where the outer link target wasn't caught by earlier regexes because [^\]]*
   // can't match alt text containing ] characters
   processed = processed.replace(
-    new RegExp(`\\]\\(([^)\\s]+\\.(${assetExts}))\\)`, 'gi'),
-    (match, src, ext) => {
+    new RegExp(`\\]\\(([^)\\s]+\\.(?:${assetExts}))\\)`, 'gi'),
+    (match, src) => {
       const rewritten = rewriteSrc(src, slug);
       if (rewritten !== src) return `](${rewritten})`;
       return match;
@@ -1160,7 +1160,6 @@ export async function preprocessContent(options = {}) {
   try {
     const stats = await fs.promises.stat(esgDir);
     if (stats.isDirectory()) {
-      const dest = path.join(PUBLIC_IMAGES_DIR, 'projects', 'esg');
       await copyAssets(esgDir, 'projects/esg');
       const assetCount = (await glob('**/*.{png,jpg,svg,gif}', { cwd: esgDir, nodir: true })).length;
       console.log(`  Copied ${assetCount} ESG project assets`);
