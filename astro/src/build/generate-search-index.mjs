@@ -97,7 +97,7 @@ export async function generateSearchIndex(options = {}) {
   const index = [];
 
   // Collections to index
-  const collections = ['articles', 'vue-articles', 'events', 'platforms'];
+  const collections = ['articles', 'news', 'vue-articles', 'events', 'platforms'];
 
   for (const collection of collections) {
     const collectionDir = path.join(CONTENT_DIR, collection);

@@ -10,9 +10,9 @@ import { getCollection } from 'astro:content';
 const solo = Astro.url.searchParams.get('solo') === 'true';
 
 // Load ESG news
-const articles = await getCollection('articles');
-const esgNews = articles
-  .filter((a) => a.data.subsites?.includes('esg') && a.data.slug?.startsWith('news/'))
+const allNews = await getCollection('news');
+const esgNews = allNews
+  .filter((a) => a.data.subsites?.includes('esg'))
   .sort((a, b) => {
     const dateA = new Date(a.data.date || 0);
     const dateB = new Date(b.data.date || 0);

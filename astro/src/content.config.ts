@@ -114,13 +114,10 @@ const platforms = defineCollection({
   }),
 });
 
-// News collection (stricter schema — title and date required)
+// News collection (separate from articles for structural clarity)
 const news = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/news' }),
-  schema: baseArticleSchema.extend({
-    title: z.string(),
-    date: z.coerce.date(),
-  }),
+  schema: baseArticleSchema,
 });
 
 // Bare articles (minimal layout)

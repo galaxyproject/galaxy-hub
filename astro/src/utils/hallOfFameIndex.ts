@@ -9,7 +9,7 @@ import {
   listOrganisations,
 } from './contributors';
 
-type ArticleEntry = CollectionEntry<'articles'>;
+type NewsEntry = CollectionEntry<'news'>;
 type EventEntry = CollectionEntry<'events'>;
 
 export type Contribution = {
@@ -29,15 +29,15 @@ export type ContributionProfile = {
   contributions: Contribution[];
 };
 
-let articlesPromise: Promise<ArticleEntry[]> | undefined;
+let newsPromise: Promise<NewsEntry[]> | undefined;
 let eventsPromise: Promise<EventEntry[]> | undefined;
 let contributionIndexPromise: Promise<Map<string, ContributionProfile>> | undefined;
 
-async function getArticles(): Promise<ArticleEntry[]> {
-  if (!articlesPromise) {
-    articlesPromise = getCollection('articles');
+async function getNewsArticles(): Promise<NewsEntry[]> {
+  if (!newsPromise) {
+    newsPromise = getCollection('news');
   }
-  return articlesPromise;
+  return newsPromise;
 }
 
 async function getEvents(): Promise<EventEntry[]> {
@@ -66,7 +66,7 @@ function addContribution(
   index: Map<string, ContributionProfile>,
   targetSlug: string,
   kind: Contribution['kind'],
-  entry: ArticleEntry | EventEntry,
+  entry: NewsEntry | EventEntry,
   displayMatch?: string,
   matchedType?: 'author' | 'supporter'
 ) {
@@ -91,12 +91,12 @@ function addContribution(
   }
 }
 
-function buildUrl(entry: ArticleEntry | EventEntry): string {
+function buildUrl(entry: NewsEntry | EventEntry): string {
   const raw = (entry.data.slug || entry.id).replace(/--/g, '/').replace(/\.mdx?$/, '');
   return `/${raw.replace(/\/$/, '')}/`;
 }
 
-function normalizeCandidates(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
+function normalizeCandidates(entry: NewsEntry | EventEntry): { authors: string[]; supporters: string[] } {
   const data = entry.data as Record<string, unknown>;
   return {
     authors: extractAuthors(data),
@@ -108,10 +108,10 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
   if (contributionIndexPromise) return contributionIndexPromise;
 
   contributionIndexPromise = (async () => {
-    const [articles, events] = await Promise.all([getArticles(), getEvents()]);
+    const [news, events] = await Promise.all([getNewsArticles(), getEvents()]);
     const index = new Map<string, ContributionProfile>();
 
-    const addFromEntry = (entry: ArticleEntry | EventEntry, kind: Contribution['kind']) => {
+    const addFromEntry = (entry: NewsEntry | EventEntry, kind: Contribution['kind']) => {
       const { authors, supporters } = normalizeCandidates(entry);
       authors.forEach((name) => {
         const slug = communitySlug(name);
@@ -127,9 +127,7 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
       });
     };
 
-    articles
-      .filter((article) => article.data.slug?.startsWith('news/'))
-      .forEach((article) => addFromEntry(article, 'news'));
+    news.forEach((article) => addFromEntry(article, 'news'));
     events.forEach((event) => addFromEntry(event, 'event'));
 
     // Ensure entries exist for all contributors/organisations/grants even if they have no contributions.

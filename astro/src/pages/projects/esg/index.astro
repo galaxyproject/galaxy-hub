@@ -17,10 +17,10 @@ const expectedResults = datasets.find((d) => d.data.slug === 'projects/esg/expec
 const partners = datasets.find((d) => d.data.slug === 'projects/esg/partners')?.data;
 const externalLinks = datasets.find((d) => d.data.slug === 'projects/esg/external_links')?.data;
 
-// Load ESG news (articles with esg subsite)
-const articles = await getCollection('articles');
-const esgNews = articles
-  .filter((a) => a.data.subsites?.includes('esg') && a.data.slug?.startsWith('news/'))
+// Load ESG news
+const allNews = await getCollection('news');
+const esgNews = allNews
+  .filter((a) => a.data.subsites?.includes('esg'))
   .sort((a, b) => {
     const dateA = new Date(a.data.date || 0);
     const dateB = new Date(b.data.date || 0);
