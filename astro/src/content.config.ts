@@ -114,6 +114,15 @@ const platforms = defineCollection({
   }),
 });
 
+// News collection (stricter schema — title and date required)
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/news' }),
+  schema: baseArticleSchema.extend({
+    title: z.string(),
+    date: z.coerce.date(),
+  }),
+});
+
 // Bare articles (minimal layout)
 const bareArticles = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/bare-articles' }),
@@ -139,6 +148,7 @@ const datasets = defineCollection({
 
 export const collections = {
   articles,
+  news,
   events,
   platforms,
   'bare-articles': bareArticles,
