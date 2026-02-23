@@ -35,6 +35,28 @@ jobs:
       - name: Check formatting
         run: npm run format:check
 
+  metadata-validation:
+    name: Metadata Validation
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install metadata validator dependencies
+        run: |
+          uv pip install --system pykwalify pyyaml
+
+      - name: Validate metadata
+        run: make validate-metadata
+
   unit-tests:
     name: Unit Tests
     runs-on: ubuntu-latest
