@@ -12,7 +12,7 @@ contributions:
     - EngyNasr
     - paulzierep
   funding:
-    - DECHEMA
+    - dechema
     - elixir-europe
 ---
 
