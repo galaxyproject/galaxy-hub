@@ -14,6 +14,9 @@ subsites: [all]
 contributions:
   authorship:
     - Sch-Da
+  funding:
+    - deKCD
+    - deNBI
 
 ---
 
@@ -22,7 +25,7 @@ contributions:
 **Please note, this workshop will be held in German**
 
 Researchers entering the Digital Humanities are often confronted with high software costs, a lack of programming skills, and limited computing resources. 
-So, how can efficient and good scientific practice be achieved including good research data management?
+So, how can efficient and good scientific practice be achieved, including good research data management?
 
 Our workshop introduces the open source platform Galaxy, which addresses these challenges. 
 Using the example of a text comparison of Chinese newspapers, participants will learn how the Galaxy analysis platform, originally developed for the life sciences, 
