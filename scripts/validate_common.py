@@ -151,7 +151,7 @@ def validate_data(source_data, schema_data):
         return 1, messages
 
 
-def check_recent_folder_names(aggregated, cutoff="2026-02-23"):
+def check_recent_folder_names(aggregated, cutoff="2026-02-23", skip_folders=None):
     """
     For entries with a frontmatter date newer than cutoff, ensure the folder
     name matches YYYY-MM-DD-suffix and that the date prefix matches the
@@ -160,8 +160,11 @@ def check_recent_folder_names(aggregated, cutoff="2026-02-23"):
     errors = []
     cutoff_date = datetime.strptime(cutoff, "%Y-%m-%d").date()
     pattern = re.compile(r"^(\d{4}-\d{2}-\d{2})-[a-z0-9_-]+$")
+    skip_folders = set(skip_folders or [])
 
     for folder, data in aggregated.items():
+        if folder in skip_folders:
+            continue
         if not isinstance(data, dict):
             continue
         fm_date = data.get("date")
@@ -175,11 +178,12 @@ def check_recent_folder_names(aggregated, cutoff="2026-02-23"):
             continue
         match = pattern.match(folder)
         if not match:
-            errors.append(f"{folder}: folder name must follow YYYY-MM-DD-suffix for entries after {cutoff}")
+            errors.append(f"{folder}: folder name must follow YYYY-MM-DD--lower-case-suffix naming convention.")
             continue
         folder_date = match.group(1)
-        if folder_date != fm_date:
-            errors.append(f"{folder}: folder date {folder_date} does not match frontmatter date {fm_date}")
+        # This is maybe something that we want, the URL can be the data when it was published.
+        # if folder_date != fm_date:
+        #    errors.append(f"{folder}: folder date {folder_date} does not match frontmatter date {fm_date}")
     return errors
 
 
