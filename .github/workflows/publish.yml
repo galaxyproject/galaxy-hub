@@ -1,13 +1,11 @@
-name: Publish Hub
+name: Publish Hub (Gridsome)
 on:
   workflow_dispatch:
   push:
     branches:
-      - master
-  schedule:
-    - cron: "30 23 * * *"
+      - gridsome-publish
 concurrency:
-  group: publish-master
+  group: publish-gridsome
 env:
   NODE_OPTIONS: --max-old-space-size=4096
 jobs:
@@ -36,14 +34,6 @@ jobs:
         run: yarn --prefer-offline
       - name: Build Gridsome site
         run: yarn build
-      - name: Setup Node 22 for Astro
-        uses: actions/setup-node@v6
-        with:
-          node-version: '22'
-      - name: Install Astro dependencies
-        run: cd astro && npm ci
-      - name: Build Astro site
-        run: cd astro && npm run build
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -52,8 +42,6 @@ jobs:
           aws-region: us-east-2
       - name: Sync Gridsome to S3
         run: aws s3 sync dist/ s3://${{ secrets.AWS_S3_BUCKET }}/ --delete --acl public-read --follow-symlinks
-      - name: Sync Astro preview to S3
-        run: aws s3 sync astro/dist/ s3://astro-hub/ --delete
       - name: Invalidate CloudFront cache for feeds
         if: steps.check_changes.outputs.content == 'true'
         run: |
