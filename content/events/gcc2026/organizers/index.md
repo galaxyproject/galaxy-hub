@@ -11,8 +11,7 @@ here are the people who make it happen.
 
 # Organizing Committee
 
-GCC2026 is organized under the auspices of the [Université Clermont
-Auvergne](https://www.uca.fr/).
+
 
 The organizing committee is the oversight and coordination group that makes sure
 GCC2026 runs smoothly.
@@ -29,6 +28,18 @@ GCC2026 runs smoothly.
 
 To contact the organizing committee, please send an email to
 [gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org).
+
+## Hosts
+
+GCC2026 is hosted by the [Université Clermont
+Auvergne](https://www.uca.fr/) and the [Institut Francais de Bioinformatique (ELIXIR-France)](https://www.ifb-elixir.fr/)
+
+<p align="center">
+    <img src="/images/events/gcc2026/logo_UCA.png" alt="Logo UCA" style="width:15%; margin-right:1.5em;">
+    <img src="/images/logos/IFB.png" alt="Logo IFB" style="width:30%; margin-right:1.5em;">
+    <img src="/images/logos/elixir_node_france.png" alt="Logo ELIXIR France" style="width:20%">
+</p>
+
 
 # Scientific Program Committee
 

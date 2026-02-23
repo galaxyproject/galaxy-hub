@@ -20,8 +20,8 @@ async function clickAndWaitForNavigation(page: Page, locator: Locator): Promise<
     });
   }
 
-  // Ensure the DOM is ready
-  await page.waitForLoadState('domcontentloaded');
+  // Wait for the view transition to settle
+  await page.waitForLoadState('networkidle');
 }
 
 test.describe('Content Rendering', () => {
@@ -76,22 +76,46 @@ test.describe('Content Rendering', () => {
       }
     });
 
-    test('missing Insert shows warning', async ({ page }) => {
-      // This tests the fallback UI - we need a page with a broken insert
-      // For now, just verify the Insert component structure exists
+    test('inlined inserts render content', async ({ page }) => {
+      // GCC 2024 pages inline their header insert at preprocess time
       await page.goto('/events/gcc-2024/');
 
-      // Check for insert containers
-      const inserts = page.locator('.insert');
-      const count = await inserts.count();
+      // The inlined header content should be visible (GCC events have banner images)
+      const content = page.locator('article, .content, main').first();
+      await expect(content).toBeVisible();
+    });
+  });
 
-      // If inserts exist, they should not all be missing
-      if (count > 0) {
-        const missingInserts = page.locator('.insert-missing');
-        const missingCount = await missingInserts.count();
-        // Most inserts should resolve successfully
-        expect(missingCount).toBeLessThan(count);
-      }
+  test.describe('Inlined Insert Content', () => {
+    test('SIG pages render inlined linkbox sidebar', async ({ page }) => {
+      await page.goto('/community/sig/genome-annotation/');
+      // The common_linkbox insert contains "Galaxy Community Board" text
+      await expect(page.getByText('Galaxy Community Board')).toBeVisible();
+    });
+
+    test('SIG microbial page renders inlined linkbox sidebar', async ({ page }) => {
+      await page.goto('/community/sig/microbial/');
+      await expect(page.getByText('Galaxy Community Board')).toBeVisible();
+    });
+
+    test('EU usegalaxy main page renders inlined data policy', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+      // The data-policy insert has "Our Data Policy" heading
+      await expect(page.getByText('Our Data Policy')).toBeVisible();
+    });
+
+    test('learn pages render inlined linkbox', async ({ page }) => {
+      await page.goto('/learn/advanced-workflow/extract/');
+      // The learn/linkbox insert has "Screencasts" link
+      await expect(page.getByText('Screencasts')).toBeVisible();
+    });
+
+    test('insert content does not show raw slot tags', async ({ page }) => {
+      // A page that previously had <slot name="/events/gcc2024/header" />
+      await page.goto('/events/gcc-2024/');
+      const body = await page.locator('body').textContent();
+      expect(body).not.toContain('<slot');
+      expect(body).not.toContain('Insert not found');
     });
   });
 

@@ -1,6 +1,6 @@
 ---
 title: 'BRC-analytics is open for business!'
-authors: Anton Nekrutenko 
+authors: Anton Nekrutenko
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-14'
@@ -10,6 +10,7 @@ tags:
 - paper
 - brc-analytics
 autotoc: false
+components: true
 contributions:
   authorship:
     - nekrut

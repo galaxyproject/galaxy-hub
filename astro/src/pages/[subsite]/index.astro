@@ -40,10 +40,9 @@ const upcomingEvents = subsiteEvents
   .slice(0, 5);
 
 // Get news for this subsite
-const allArticles = await getCollection('articles');
-const subsiteNews = allArticles
+const allNews = await getCollection('news');
+const subsiteNews = allNews
   .filter((article) => {
-    if (!article.data.slug.startsWith('news/')) return false;
     const articleSubsites = article.data.subsites;
     if (!articleSubsites) return false;
     const subsitesArray = Array.isArray(articleSubsites) ? articleSubsites : [articleSubsites];

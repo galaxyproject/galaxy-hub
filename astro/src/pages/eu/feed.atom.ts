@@ -25,13 +25,11 @@ function formatAtomDate(date: Date): string {
 }
 
 export async function GET() {
-  const articles = await getCollection('articles');
+  const allNews = await getCollection('news');
 
   // Filter to EU news articles
-  const euNews = articles
+  const euNews = allNews
     .filter((article) => {
-      // Must be a news article
-      if (!article.data.slug.startsWith('news/')) return false;
       // Must have a date
       if (!article.data.date) return false;
       // Must be for EU subsite

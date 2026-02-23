@@ -2,13 +2,15 @@
   "name": "galaxy-hub",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "preprocess": "node src/build/preprocess.mjs",
     "preprocess:verbose": "node src/build/preprocess.mjs --verbose",
     "search-index": "node src/build/generate-search-index.mjs",
     "generate-redirects": "node src/build/generate-redirects.mjs",
-    "dev": "astro dev",
-    "dev:fresh": "npm run preprocess && npm run generate-redirects && npm run search-index && astro dev",
+    "dev": "npm run preprocess && npm run generate-redirects && npm run search-index && astro dev",
     "build": "npm run preprocess && npm run generate-redirects && npm run search-index && astro build",
     "preview": "astro preview",
     "astro": "astro",

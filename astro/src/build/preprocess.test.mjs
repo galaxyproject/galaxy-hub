@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import {
   hasProblematicHtml,
   needsVueProcessing,
@@ -10,6 +10,10 @@ import {
   addBootstrapMarker,
   normalizeSlugSegment,
   normalizeSlug,
+  inlineInserts,
+  resolveInsertContent,
+  insertCache,
+  stripVueArtifacts,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -59,8 +63,8 @@ describe('hasProblematicHtml', () => {
     expect(hasProblematicHtml('<link-box>content</link-box>')).toBe(true);
   });
 
-  it('detects Vue import patterns', () => {
-    expect(hasProblematicHtml('import Foo from "foo"')).toBe(true);
+  it('does not flag Vue imports (stripped during preprocessing)', () => {
+    expect(hasProblematicHtml('import Foo from "foo"')).toBe(false);
   });
 
   it('allows normal less-than comparisons in text', () => {
@@ -90,13 +94,22 @@ describe('needsVueProcessing', () => {
     expect(needsVueProcessing('<vega-embed spec="chart.json" />', {})).toBe(true);
   });
 
-  it('returns false for bare/ directory files', () => {
-    expect(needsVueProcessing('<Insert name="/foo" />', {}, 'bare/page/index.md')).toBe(false);
+  it('returns true for bare/ directory files with components', () => {
+    expect(needsVueProcessing('<Insert name="/foo" />', {}, 'bare/page/index.md')).toBe(true);
+  });
+
+  it('detects PascalCase Carousel component', () => {
+    expect(needsVueProcessing('<Carousel />', {})).toBe(true);
   });
 
   it('returns false when content has problematic HTML', () => {
     // Even with Insert, if there's problematic HTML, skip MDX
     expect(needsVueProcessing('<Insert name="/foo" />\n<div><div></div>', {})).toBe(false);
+  });
+
+  it('honors components: true even when HTML is problematic', () => {
+    // Author explicit opt-in overrides hasProblematicHtml (Vue artifacts are stripped in preprocessing)
+    expect(needsVueProcessing('<div><div></div>\n<vega-embed spec="x" />', { components: true })).toBe(true);
   });
 });
 
@@ -448,5 +461,105 @@ describe('normalizeSlug', () => {
 
   it('handles single segment', () => {
     expect(normalizeSlug('home')).toBe('home');
+  });
+});
+
+describe('inlineInserts', () => {
+  beforeEach(() => {
+    insertCache.clear();
+  });
+
+  it('resolves a real insert file (learn/linkbox)', () => {
+    const content = 'Before\n<slot name="/learn/linkbox" />\nAfter';
+    const result = inlineInserts(content);
+    expect(result).toContain('Before');
+    expect(result).toContain('After');
+    expect(result).not.toContain('<slot');
+    // The linkbox contains a div with links
+    expect(result).toContain('linkbox');
+  });
+
+  it('leaves a comment for missing inserts', () => {
+    const content = '<slot name="/nonexistent/path" />';
+    const result = inlineInserts(content);
+    expect(result).toContain('<!-- Insert not found: /nonexistent/path -->');
+  });
+
+  it('handles multiple slots in the same content', () => {
+    const content = '<slot name="/learn/linkbox" />\nMiddle\n<slot name="/learn/linkbox" />';
+    const result = inlineInserts(content);
+    expect(result).not.toContain('<slot');
+    expect(result).toContain('Middle');
+    // Both should be resolved
+    const matches = result.match(/linkbox/g);
+    expect(matches.length).toBeGreaterThanOrEqual(2);
+  });
+
+  it('handles nested inserts (cop_template references common_linkbox)', () => {
+    const result = resolveInsertContent('/community/sig/common_linkbox');
+    expect(result).not.toBeNull();
+    expect(result).toContain('Galaxy Community Board');
+  });
+
+  it('applies bootstrap marker to insert content', () => {
+    const result = resolveInsertContent('/community/sig/common_linkbox');
+    // common_linkbox has class="alert alert-info..." which should get bs-compat
+    expect(result).toContain('bs-compat');
+  });
+
+  it('passes content through unchanged when no slots present', () => {
+    const content = '# Hello\n\nNo slots here.';
+    expect(inlineInserts(content)).toBe(content);
+  });
+});
+
+describe('stripVueArtifacts', () => {
+  it('removes Vue import statements', () => {
+    const input = "Some text\nimport Flickr from '@/components/Flickr.vue';\n<Flickr />";
+    const result = stripVueArtifacts(input);
+    expect(result).not.toContain('import Flickr');
+    expect(result).toContain('<Flickr />');
+  });
+
+  it('converts Vue :prop bindings to standard attributes', () => {
+    const input = '<twitter user="foo" :height="420"></twitter>';
+    const result = stripVueArtifacts(input);
+    expect(result).toBe('<twitter user="foo" height="420"></twitter>');
+  });
+
+  it('leaves content unchanged when no Vue artifacts present', () => {
+    const input = '# Hello\n\nSome content with <div>html</div>';
+    expect(stripVueArtifacts(input)).toBe(input);
+  });
+});
+
+describe('convertFontAwesomeToLucide - kramdown patterns', () => {
+  it('converts kramdown FA link patterns to Lucide SVGs', () => {
+    const input = '[](){: .fa .fa-envelope style="color: #777"} [email](mailto:test@test.com)';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).not.toContain('{:');
+    expect(result).toContain('mailto:test@test.com');
+  });
+
+  it('converts kramdown FA brand icons', () => {
+    const input = '[](){: .fab .fa-github style="color: #777"} [repo](https://github.com)';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).not.toContain('{:');
+  });
+
+  it('removes unrecognized kramdown FA patterns', () => {
+    const input = '[](){: .fa .fa-unknown-icon style="color: red"}';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).not.toContain('{:');
+    expect(result).toBe('');
+  });
+
+  it('converts fa-rss to SVG', () => {
+    const input = '[](){: .fa .fa-rss style="color: #777"} [feed](/feed.atom)';
+    const result = convertFontAwesomeToLucide(input);
+    expect(result).toContain('<svg');
+    expect(result).toContain('/feed.atom');
   });
 });

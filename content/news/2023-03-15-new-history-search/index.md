@@ -6,6 +6,7 @@ tags: [history, esg, "UI/UX"]
 authors: 
 - Ahmed Hamid Awan
 - Dannon Baker
+components: true
 subsites: [global, all, esg]
 contributions:
   authorship:

@@ -24,7 +24,7 @@ const allEvents = await getCollection('events', (entry) => {
 // Get upcoming events
 const upcomingEvents = allEvents
   .filter((e) => {
-    const endDate = e.data.date_end ? new Date(e.data.date_end) : e.data.date ? new Date(e.data.date) : null;
+    const endDate = e.data.end ? new Date(e.data.end) : e.data.date ? new Date(e.data.date) : null;
     return endDate && endDate >= now;
   })
   .sort((a, b) => {
@@ -34,21 +34,20 @@ const upcomingEvents = allEvents
   })
   .slice(0, 5);
 
-// Compact date format without year for embedded feed display
-function formatCompactDate(date: Date | string | undefined): string {
+function formatDate(date: Date | string | undefined): string {
   if (!date) return '';
   const d = typeof date === 'string' ? new Date(date) : date;
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
-function formatCompactDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
+function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
   if (!start) return '';
-  const startStr = formatCompactDate(start);
+  const startStr = formatDate(start);
   if (!end) return startStr;
   const startD = typeof start === 'string' ? new Date(start) : start;
   const endD = typeof end === 'string' ? new Date(end) : end;
   if (startD.toDateString() === endD.toDateString()) return startStr;
-  return `${startStr} - ${formatCompactDate(end)}`;
+  return `${startStr} - ${formatDate(end)}`;
 }
 ---
 
@@ -68,17 +67,67 @@ function formatCompactDateRange(start: Date | string | undefined, end: Date | st
       body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         font-size: 14px;
-        line-height: 1.4;
+        line-height: 1.5;
         color: #333;
         background: transparent;
+        padding: 15px;
       }
 
-      .events-feed {
-        padding: 8px;
+      .home-card {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-header {
+        background: #f5f5f5;
+        border-bottom: 1px solid #ddd;
+        padding: 12px 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .card-header-icon {
+        color: #25537b;
+        font-size: 18px;
+      }
+
+      .card-header-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #25537b;
+        flex: 1;
+        text-decoration: none;
+      }
+
+      .card-header-title:hover {
+        text-decoration: underline;
+      }
+
+      .more-link {
+        color: #25537b;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .more-link:hover {
+        text-decoration: underline;
+      }
+
+      .card-body {
+        padding: 0;
+      }
+
+      .events-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
       }
 
       .event-item {
-        padding: 8px 0;
+        padding: 12px 15px;
         border-bottom: 1px solid #eee;
       }
 
@@ -89,64 +138,86 @@ function formatCompactDateRange(start: Date | string | undefined, end: Date | st
       .event-item a {
         color: #25537b;
         text-decoration: none;
-        font-weight: 500;
-        display: block;
+        font-weight: 400;
       }
 
       .event-item a:hover {
         text-decoration: underline;
       }
 
-      .event-date {
-        color: #888;
-        font-size: 0.85em;
-      }
-
-      .event-location {
+      .event-details {
         color: #666;
-        font-size: 0.85em;
+        font-size: 13px;
+        margin-top: 4px;
+        line-height: 1.4;
       }
 
-      .more-link {
-        display: block;
-        text-align: center;
-        padding: 10px;
-        color: #25537b;
-        text-decoration: none;
-        font-weight: 500;
-      }
-
-      .more-link:hover {
-        background: #f5f5f5;
+      .event-tease {
+        color: #666;
+        font-size: 13px;
+        margin-top: 4px;
+        line-height: 1.4;
       }
     </style>
   </head>
   <body>
-    <div class="events-feed">
-      {
-        upcomingEvents.length > 0 ? (
-          upcomingEvents.map((event) => {
-            const slug = (event.data.slug || event.id)
-              .replace(/\.mdx?$/, '')
-              .replace(/--/g, '/')
-              .replace(/^events\//, '');
-            const location = event.data.location;
-            const locationStr = location ? (typeof location === 'string' ? location : location.name) : null;
-            return (
-              <div class="event-item">
-                <a href={`https://galaxyproject.org/events/${slug}/`} target="_blank">
-                  {event.data.title}
-                </a>
-                <span class="event-date">{formatCompactDateRange(event.data.date, event.data.date_end)}</span>
-                {locationStr && <span class="event-location"> · {locationStr}</span>}
-              </div>
-            );
-          })
-        ) : (
-          <div class="event-item">No upcoming events</div>
-        )
-      }
-      <a href="https://galaxyproject.org/events/" class="more-link" target="_blank">More events →</a>
+    <div class="home-card">
+      <div class="card-header">
+        <a
+          href="https://galaxyproject.org/bare/fr/events/"
+          target="_blank"
+          style="color: inherit; text-decoration: none;"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 640"
+            style="color: #25537b; font-size: 28px; line-height:28px; height:34px;"
+            ><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+            <path
+              fill="currentColor"
+              d="M216 64C229.3 64 240 74.7 240 88L240 128L400 128L400 88C400 74.7 410.7 64 424 64C437.3 64 448 74.7 448 88L448 128L480 128C515.3 128 544 156.7 544 192L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 192C96 156.7 124.7 128 160 128L192 128L192 88C192 74.7 202.7 64 216 64zM480 496C488.8 496 496 488.8 496 480L496 416L408 416L408 496L480 496zM496 368L496 288L408 288L408 368L496 368zM360 368L360 288L280 288L280 368L360 368zM232 368L232 288L144 288L144 368L232 368zM144 416L144 480C144 488.8 151.2 496 160 496L232 496L232 416L144 416zM280 416L280 496L360 496L360 416L280 416zM216 176L160 176C151.2 176 144 183.2 144 192L144 240L496 240L496 192C496 183.2 488.8 176 480 176L216 176z"
+            ></path></svg
+          >
+        </a>
+        <a href="https://galaxyproject.org/bare/fr/events/" class="card-header-title" target="_blank">Events</a>
+        <a href="https://galaxyproject.org/bare/fr/events/" class="card-header-link more-link" target="_blank"
+          >More events</a
+        >
+      </div>
+      <div class="card-body">
+        <ul class="events-list events-feed">
+          {
+            upcomingEvents.length > 0 ? (
+              upcomingEvents.map((event) => {
+                const slug = (event.data.slug || event.id)
+                  .replace(/\.mdx?$/, '')
+                  .replace(/--/g, '/')
+                  .replace(/^events\//, '');
+                const location = event.data.location;
+                const locationStr = location ? (typeof location === 'string' ? location : location.name) : null;
+                return (
+                  <li class="event-item">
+                    <a href={`https://galaxyproject.org/events/${slug}/`} target="_blank">
+                      {event.data.title}
+                    </a>
+                    <div class="event-details">
+                      {formatDateRange(event.data.date, event.data.end)}
+                      {locationStr && ` · ${locationStr}`}
+                    </div>
+                    {event.data.tease && <div class="event-tease">{event.data.tease}</div>}
+                  </li>
+                );
+              })
+            ) : (
+              <li class="event-item">No upcoming events</li>
+            )
+          }
+        </ul>
+      </div>
     </div>
+    <script>
+      import { notifyParent } from '../../../../utils/iframe';
+      notifyParent();
+    </script>
   </body>
 </html>

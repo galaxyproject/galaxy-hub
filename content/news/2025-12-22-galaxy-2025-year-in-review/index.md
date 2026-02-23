@@ -5,6 +5,7 @@ tease: "650K+ users, 186M+ jobs, ~15K commits across the ecosystem"
 authors: "Galaxy Project"
 tags: [galaxy, community, statistics, year-in-review]
 subsites: [all]
+components: true
 contributions:
   authorship:
     - galaxyproject

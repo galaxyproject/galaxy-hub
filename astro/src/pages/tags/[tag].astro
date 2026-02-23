@@ -17,8 +17,8 @@ const { tag } = Astro.params;
 const index = await getTagIndex();
 const profile = index.get(tag);
 
-// Filter to news articles (already sorted by date in index)
-const newsArticles = (profile?.articles || []).filter((a) => a.data.slug?.startsWith('news/'));
+// News articles (already sorted by date in index)
+const newsArticles = profile?.news || [];
 
 // Events already sorted by date in index
 const sortedEvents = profile?.events || [];
