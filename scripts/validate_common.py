@@ -94,28 +94,35 @@ def clean_schema(schema, ids):
 def parse_frontmatter(path):
     text = open(path, "r", encoding="utf-8").read()
     if not text.startswith("---"):
-        return {}
+        return {}, None
     parts = text.split("\n")
     if len(parts) < 3:
-        return {}
+        return {}, None
     front = []
     for line in parts[1:]:
         if line.strip() == "---":
             break
         front.append(line)
     try:
-        return yaml.safe_load("\n".join(front)) or {}
-    except Exception:
-        return {}
+        data = yaml.safe_load("\n".join(front)) or {}
+    except Exception as exc:
+        return {}, f"{path}: invalid YAML frontmatter ({exc})"
+    if not isinstance(data, dict):
+        return {}, f"{path}: frontmatter must be a YAML mapping, got {type(data).__name__}"
+    return data, None
 
 
 def aggregate_frontmatter(root_path):
     aggregated = {}
+    parse_errors = []
     for dirpath, _, filenames in os.walk(root_path):
         if "index.md" in filenames:
             rel = os.path.relpath(dirpath, root_path)
-            aggregated[rel] = parse_frontmatter(os.path.join(dirpath, "index.md"))
-    return aggregated
+            data, parse_error = parse_frontmatter(os.path.join(dirpath, "index.md"))
+            aggregated[rel] = data
+            if parse_error:
+                parse_errors.append(parse_error)
+    return aggregated, parse_errors
 
 
 def validate_data(source_data, schema_data):
