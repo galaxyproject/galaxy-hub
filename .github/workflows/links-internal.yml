@@ -9,35 +9,28 @@ env:
 jobs:
   check_links_internal:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: astro
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v4
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install project dependencies
-        run: yarn --prefer-offline
-      - name: Build static site
-        run: yarn build
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: astro/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Build site
+        run: npm run build
       - name: Serve and Check Links
-        # Looks weird, but this works significantly better than running it
-        # through a single node process
-        run: yarn run serve & (sleep 5 && yarn run links:internal)
+        run: npx astro preview & (sleep 5 && npm run links:internal)
       - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v3
+        uses: peter-evans/create-issue-from-file@v5
         with:
           issue-number: 860
           title: Internal Link Checker Report (updated daily)
-          content-filepath: ./broken-links.md
+          content-filepath: astro/broken-links.md
           labels: report, automated issue

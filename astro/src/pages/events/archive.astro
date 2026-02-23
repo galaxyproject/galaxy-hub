@@ -77,7 +77,7 @@ function hasExternalUrl(event: (typeof archivedEvents)[number]) {
           <div class="space-y-2">
             {eventsByYear[year].map((event) => (
               <a
-                href={`/events/${event.data.slug}/`}
+                href={`/${event.data.slug}/`}
                 class="flex flex-wrap items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
               >
                 <span class="text-sm text-gray-500 whitespace-nowrap min-w-16">{formatDate(event.data.date)}</span>
