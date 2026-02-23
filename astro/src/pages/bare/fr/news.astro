@@ -8,19 +8,17 @@ import { getCollection } from 'astro:content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import NewsTable from '../../../components/bare/NewsTable.astro';
 
-const allArticles = await getCollection('articles');
-const newsArticles = allArticles
+const allNews = await getCollection('news');
+const newsArticles = allNews
   .filter((article) => {
-    const path = article.data.slug || article.id;
     const subsites = article.data.subsites || [];
-    const isNews = path.startsWith('news/') || path.startsWith('news--');
     const isFR =
       subsites.includes('fr') ||
       subsites.includes('all') ||
       subsites.includes('all-fr') ||
       subsites.includes('global') ||
       subsites.length === 0;
-    return isNews && isFR && !article.data.draft;
+    return isFR && !article.data.draft;
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);

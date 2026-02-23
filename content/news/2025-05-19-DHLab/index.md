@@ -5,12 +5,14 @@ tease: "Introducing Galaxy and Digital Humanities on site"
 continent: EU
 contact: Daniela Schneider
 gtn: false
-tags: [news]
+tags: [news, workshop, humanities]
 subsites: [all]
-supporters: [de.KCD]
 contributions:
+  authorship:
+    - Sch-Da
   funding:
-    - de.KCD
+    - deKCD
+    - deNBI
 ---
 In cooperation with the [Digital Humanities Lab](https://digitalhumanities.uni-freiburg.de/dh-lab/) we introduced Galaxy's applicability for Digital Humanities (DH) and Research Data Management (RDM) at the University of Freiburg. 
 The room was filled with researchers from various fields, who were curious how the [European Galaxy Server](https://usegalaxy.eu/) could help in their DH journey and help them make their research reproducible.

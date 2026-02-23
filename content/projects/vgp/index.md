@@ -2,6 +2,7 @@
 description: "Aiding in the creation a publicly-available database of genome assemblies of over 70,000 vertebrate species"
 autotoc: false
 title: "The Vertebrate Genomes Project in Galaxy"
+components: true
 ---
 
 <p align="center">

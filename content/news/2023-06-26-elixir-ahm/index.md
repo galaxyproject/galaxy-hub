@@ -10,6 +10,7 @@ supporters:
   - eurosciencegateway
   - unifreiburg
   - elixir
+components: true
 contributions:
   funding:
     - eurosciencegateway

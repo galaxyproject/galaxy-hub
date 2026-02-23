@@ -57,12 +57,11 @@ function expandSubsites(subsites: string[]): string[] {
 }
 
 export async function GET() {
-  const articles = await getCollection('articles');
+  const allNews = await getCollection('news');
 
   // Filter to news articles within days_ago limit
-  const newsArticles = articles
+  const newsArticles = allNews
     .filter((article) => {
-      if (!article.data.slug.startsWith('news/')) return false;
       if (!article.data.date) return false;
       const date = article.data.date instanceof Date ? article.data.date : new Date(article.data.date);
       const daysAgo = getDaysAgo(date);

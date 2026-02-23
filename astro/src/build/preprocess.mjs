@@ -151,11 +151,6 @@ function hasProblematicHtml(content) {
     return true;
   }
 
-  // Check for Vue-specific import patterns that don't work in MDX
-  if (/^import\s+\w+\s+from\s+/m.test(content)) {
-    return true;
-  }
-
   return false;
 }
 
@@ -164,25 +159,7 @@ function hasProblematicHtml(content) {
  * Only use MDX for files that explicitly opt-in OR have specific safe component patterns
  */
 function needsVueProcessing(content, frontmatter) {
-  // hasProblematicHtml() below provides the safety net for genuinely problematic content
-
-  // Check for problematic HTML patterns that break MDX
-  if (hasProblematicHtml(content)) {
-    return false;
-  }
-
-  // Explicit opt-in via frontmatter (for other directories)
-  if (frontmatter.components === true) {
-    return true;
-  }
-
-  // Detect Gridsome <slot name="..."> which convertGridsomeSyntax() will convert to <Insert>
-  if (/<slot\s+name=/i.test(content)) {
-    return true;
-  }
-
-  // Only check for components that are unlikely to appear in malformed HTML
-  // and are clearly custom Vue components (not standard HTML-like).
+  // Components that are safe MDX patterns — unlikely to appear in malformed HTML.
   // Both kebab-case and PascalCase variants, since raw content may use either.
   const SAFE_COMPONENTS = [
     'twitter',
@@ -207,6 +184,18 @@ function needsVueProcessing(content, frontmatter) {
     'MarkdownEmbed',
     'Insert', // Content insertion component (case-sensitive to avoid "<insert your text here>")
   ];
+
+  // Explicit opt-in via frontmatter overrides HTML detection — the author
+  // is asserting the page is MDX-compatible (Vue imports and kramdown are
+  // stripped during preprocessing so this is safe)
+  if (frontmatter.components === true) {
+    return true;
+  }
+
+  // Check for problematic HTML patterns that break MDX
+  if (hasProblematicHtml(content)) {
+    return false;
+  }
 
   for (const component of SAFE_COMPONENTS) {
     const openTagRegex = new RegExp(`<${component}(\\s|>|\\/)`);
@@ -278,6 +267,11 @@ function getContentCollection(filePath) {
   // Events collection
   if (relativePath.startsWith('events/')) {
     return 'events';
+  }
+
+  // News collection
+  if (relativePath.startsWith('news/')) {
+    return 'news';
   }
 
   // Platform pages (Galaxy servers)
@@ -590,7 +584,22 @@ function convertFontAwesomeToLucide(content) {
     'fa-laptop-code': 'code',
     'fa-optin-monster': 'user',
     'fa-bug': 'alert-circle',
+    'fa-rss': 'rss',
+    'fa-gitlab': 'code',
   };
+
+  icons.rss = '<path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/>';
+
+  // Convert kramdown FA patterns: [](){: .fa .fa-xxx style="..."} → Lucide SVG
+  content = content.replace(
+    /\[\]\(\)\{:\s*\.fa[sbrld]?\s+\.(fa-[a-z0-9-]+)(?:\s+style="([^"]*)")?\s*\}/g,
+    (match, iconClass, style) => {
+      const lucideName = faToLucide[iconClass];
+      if (!lucideName || !icons[lucideName]) return '';
+      const colorStyle = style || '';
+      return `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;${colorStyle}">${icons[lucideName]}</svg>`;
+    }
+  );
 
   return content.replace(/<i\s+[^>]*class="([^"]*\bfa[sbrld]?\b[^"]*)"[^>]*><\/i>/gi, (match, classes) => {
     // Extract the actual icon name (last fa-xxx that isn't fa-solid/fa-regular/fa-brands/fa-light/fa-duotone)
@@ -604,6 +613,98 @@ function convertFontAwesomeToLucide(content) {
 
     return `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;">${icons[lucideName]}</svg>`;
   });
+}
+
+// Cache for resolved insert content (inserts are referenced by multiple pages)
+const insertCache = new Map();
+
+/**
+ * Resolve an insert file's content, applying the same transforms used for page content.
+ * Returns the processed body HTML, or null if the file doesn't exist.
+ */
+function resolveInsertContent(slotName, depth = 0) {
+  if (depth > 2) {
+    console.warn(`  Warning: insert nesting too deep for ${slotName}, stopping at depth ${depth}`);
+    return `<!-- Insert nesting too deep: ${slotName} -->`;
+  }
+
+  const cacheKey = `${slotName}:${depth}`;
+  if (insertCache.has(cacheKey)) {
+    return insertCache.get(cacheKey);
+  }
+
+  // Map slot name to file path: "/foo/bar" -> "content/foo/bar.md"
+  const relativePath = slotName.replace(/^\//, '');
+  const filePath = path.join(CONTENT_DIR, relativePath + '.md');
+
+  let rawContent;
+  try {
+    rawContent = fs.readFileSync(filePath, 'utf-8');
+  } catch {
+    // Fallback: try the un-normalized filename (e.g., slot "ifb/lead-1" → file "ifb/lead1.md")
+    const segments = relativePath.split('/');
+    const lastSeg = segments[segments.length - 1];
+    const denormalized = lastSeg.replace(/-/g, '');
+    if (denormalized !== lastSeg) {
+      const fallbackPath = path.join(CONTENT_DIR, ...segments.slice(0, -1), denormalized + '.md');
+      try {
+        rawContent = fs.readFileSync(fallbackPath, 'utf-8');
+      } catch {
+        // fall through to warning below
+      }
+    }
+    if (!rawContent) {
+      console.warn(`  Warning: insert not found: ${slotName} (looked for ${filePath})`);
+      insertCache.set(cacheKey, null);
+      return null;
+    }
+  }
+
+  const { content: body } = matter(rawContent);
+
+  // Compute the insert's own slug for image path resolution
+  const insertSlug = normalizeSlug(relativePath);
+
+  // Apply the same content transforms used in processMarkdownFile
+  let processed = body;
+  processed = inlineInserts(processed, depth + 1);
+  processed = convertKramdownAttributes(processed);
+  processed = convertFontAwesomeToLucide(processed);
+  processed = addBootstrapMarker(processed);
+  processed = processImagePaths(processed, insertSlug);
+
+  insertCache.set(cacheKey, processed);
+  return processed;
+}
+
+/**
+ * Inline <slot name="..."> references by reading insert files and splicing
+ * their processed content directly into the parent. This eliminates the MDX
+ * requirement for pages that only used slots (171 of 184 conflict pages).
+ */
+function inlineInserts(content, depth = 0) {
+  return content.replace(/<slot\s+name=["']([^"']+)["']\s*\/?>/gi, (match, slotName) => {
+    const resolved = resolveInsertContent(slotName, depth);
+    if (resolved === null) {
+      return `<!-- Insert not found: ${slotName} -->`;
+    }
+    // Wrap in a div with data-name so layout CSS selectors can target inserts
+    return `<div class="insert" data-name="${slotName}">\n${resolved}\n</div>`;
+  });
+}
+
+/**
+ * Strip Vue/Gridsome artifacts that aren't valid in Astro/MDX.
+ * Runs early (before needsVueProcessing) so these patterns don't
+ * trigger hasProblematicHtml false positives.
+ */
+function stripVueArtifacts(content) {
+  let processed = content;
+  // Remove Vue import statements (Gridsome artifact)
+  processed = processed.replace(/^import\s+\w+\s+from\s+['"][^'"]+['"];?\s*$/gm, '');
+  // Convert Vue :prop="value" bindings to standard attributes
+  processed = processed.replace(/\s:(\w+)="([^"]*)"/g, ' $1="$2"');
+  return processed;
 }
 
 /**
@@ -620,8 +721,8 @@ function convertGridsomeSyntax(content) {
   processed = processed.replace(/<g-image/g, '<img');
   processed = processed.replace(/<\/g-image>/g, '');
 
-  // Convert <slot name="..."> to <Insert name="..."> for Astro
-  // Content uses <slot> for Gridsome compatibility, Astro uses <Insert>
+  // Slots are now inlined at preprocess time by inlineInserts(), but convert
+  // any remaining <slot name="..."> as a safety net for unresolved references
   processed = processed.replace(/<slot(\s+name=["'][^"']+["']\s*)\/?>/gi, '<Insert$1/>');
 
   return processed;
@@ -768,11 +869,20 @@ async function processMarkdownFile(filePath) {
     await copyAssets(path.dirname(filePath), slug);
   }
 
-  // Check if content needs Vue/component processing
-  const hasComponents = needsVueProcessing(body, frontmatter, filePath);
+  // Inline insert content before checking for components — slots are resolved
+  // at preprocess time now, so pages that only had slots won't need MDX
+  let processedContent = body;
+  processedContent = inlineInserts(processedContent);
+
+  // Strip Gridsome Vue import statements (e.g. "import Flickr from '@/components/Flickr.vue';")
+  // and convert Vue :prop bindings to standard attributes before MDX detection,
+  // since both patterns trigger hasProblematicHtml false positives
+  processedContent = stripVueArtifacts(processedContent);
+
+  // Check if content needs Vue/component processing (after inlining inserts)
+  const hasComponents = needsVueProcessing(processedContent, frontmatter, filePath);
 
   // Process content
-  let processedContent = body;
   processedContent = convertGridsomeSyntax(processedContent);
   processedContent = convertKramdownAttributes(processedContent);
   processedContent = convertFontAwesomeToLucide(processedContent);
@@ -800,6 +910,11 @@ async function processMarkdownFile(filePath) {
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
 
+  // Rewrite frontmatter image path the same way we rewrite body image paths
+  if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
+    processedFrontmatter.image = rewriteSrc(processedFrontmatter.image, slug);
+  }
+
   // Store original slug for redirect generation when it differs from normalized
   if (naturalSlug !== slug) {
     processedFrontmatter.naturalSlug = naturalSlug;
@@ -808,6 +923,10 @@ async function processMarkdownFile(filePath) {
   // Add hasComponents flag for rendering
   if (hasComponents) {
     processedFrontmatter.hasComponents = true;
+  }
+
+  if (collection === 'news' && !processedFrontmatter.tease) {
+    console.warn(`  Warning: news article missing tease: ${relativePath}`);
   }
 
   // Ensure collection directory exists
@@ -1023,4 +1142,8 @@ export {
   convertComponentsToPascalCase,
   addBootstrapMarker,
   processImagePaths,
+  inlineInserts,
+  resolveInsertContent,
+  insertCache,
+  stripVueArtifacts,
 };

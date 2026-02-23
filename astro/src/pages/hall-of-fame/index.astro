@@ -4,10 +4,10 @@ import PageHeader from '../../components/layout/PageHeader.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { communitySlug, extractAuthors, extractFunding, getCommunityDisplay } from '../../utils/contributors';
 
-type ArticleEntry = CollectionEntry<'articles'>;
+type NewsEntry = CollectionEntry<'news'>;
 type EventEntry = CollectionEntry<'events'>;
 
-function normalizeEntry(entry: ArticleEntry | EventEntry): { authors: string[]; supporters: string[] } {
+function normalizeEntry(entry: NewsEntry | EventEntry): { authors: string[]; supporters: string[] } {
   const data = entry.data as Record<string, unknown>;
   const authors = extractAuthors(data);
   const supporters = extractFunding(data);
@@ -26,13 +26,12 @@ function addContributor(map: Map<string, Contributor>, id: string, label?: strin
   map.set(slug, existing);
 }
 
-const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
-const newsArticles = articles.filter((article) => article.data.slug?.startsWith('news/'));
+const [newsArticles, events] = await Promise.all([getCollection('news'), getCollection('events')]);
 
 const authorMap = new Map<string, Contributor>();
 const supporterMap = new Map<string, Contributor>();
 
-const collect = (entry: ArticleEntry | EventEntry) => {
+const collect = (entry: NewsEntry | EventEntry) => {
   const { authors, supporters } = normalizeEntry(entry);
   authors.forEach((id) => addContributor(authorMap, id, getCommunityDisplay(id) || id));
   supporters.forEach((id) => addContributor(supporterMap, id, getCommunityDisplay(id) || id));

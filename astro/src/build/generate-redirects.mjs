@@ -82,7 +82,7 @@ function extractFrontmatterField(content, fieldName) {
 async function getContentData() {
   const contentItems = [];
   const contentRedirects = {};
-  const collections = ['events', 'articles', 'platforms', 'bare-articles'];
+  const collections = ['events', 'articles', 'news', 'platforms', 'bare-articles'];
 
   for (const collection of collections) {
     const collectionDir = path.join(CONTENT_DIR, collection);

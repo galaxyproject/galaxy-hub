@@ -9,19 +9,17 @@ import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import NewsTable from '../../../components/bare/NewsTable.astro';
 import Insert from '../../../components/Insert.astro';
 
-const allArticles = await getCollection('articles');
-const newsArticles = allArticles
+const allNews = await getCollection('news');
+const newsArticles = allNews
   .filter((article) => {
-    const path = article.data.slug || article.id;
     const subsites = article.data.subsites || [];
-    const isNews = path.startsWith('news/') || path.startsWith('news--');
     const isEU =
       subsites.includes('eu') ||
       subsites.includes('all') ||
       subsites.includes('all-eu') ||
       subsites.includes('global') ||
       subsites.length === 0;
-    return isNews && isEU && !article.data.draft;
+    return isEU && !article.data.draft;
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
