@@ -2,14 +2,11 @@
 autotoc: false
 ---
 
-
-<div class="text-center my-5">
-    <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" type="button" class="btn btn-primary">
-        <strong>Submit an abstract</strong>
-    </a>
-</div>
-
 # GCC2026 abstracts
+
+<div class="flex justify-center my-5">
+  <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract</a>
+</div>
 
 Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are

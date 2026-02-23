@@ -15,16 +15,8 @@ sponsor talks are generally scheduled immediately preceding or following a
 keynote talk to maximize their attendance.
 
 
-<div class="container">
-    <div class="row">
-        <div class="col center">
-          <a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing">
-            <div type="button" class="btn btn-primary center">
-                <strong>Download sponsorship prospectus</strong>
-            </div>
-          </a>
-        </div>
-    </div>
+<div class="flex justify-center my-5">
+  <a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Download sponsorship prospectus</a>
 </div>
 
 
@@ -67,7 +59,7 @@ GCC2026 will be hosted by **Université Clermont Auvergne (UCA)**, featuring:
 ## Ready to Partner with Us?
 
 **Contact the GCC2026 Organizing Committee:**
-Email: 
+Email:
 - [gcc2026-org@lists.galaxyproject.org](mailto:gcc2026-org@lists.galaxyproject.org)
 - [Jenn Vessio](mailto:jvessio1@jhu.edu)
 

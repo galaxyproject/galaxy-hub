@@ -2,14 +2,11 @@
 autotoc: false
 ---
 
-
-<div class="text-center my-5">
-    <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
-        <strong>Register now</strong>
-    </a>
-</div>
-
 # Registration
+
+<div class="flex justify-center my-5">
+  <a href="https://v4.event-vert.org/en/gcc2026" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register now</a>
+</div>
 
 ## Meeting: June 22-24
 
@@ -54,10 +51,8 @@ provided.
 | Conference dinner                  |        |        | EUR70    |
 
 
-<div class="text-center my-5">
-    <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
-        <strong>Register now</strong>
-    </a>
+<div class="flex justify-center my-5">
+  <a href="https://v4.event-vert.org/en/gcc2026" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register now</a>
 </div>
 
 ### Virtual meeting attendance
@@ -78,8 +73,8 @@ the channel.
 [CoFest](/events/gcc2026/cofest/), or CollaborationFest, is an opportunity to
 meet the people working on Galaxy and spend some time with each other in person
 to plan, work, or learn about many Galaxy components.
-[Training](/events/gcc2026/training/) is a hands-on session where you can learn mor about Galaxy 
-or some specific topics within the Galaxy ecosystem.
+[Training](/events/gcc2026/training/) is a hands-on session where you can learn
+more about Galaxy or some specific topics within the Galaxy ecosystem.
 
 The registration cost is used to cover the costs of space and drinks during the
 event.

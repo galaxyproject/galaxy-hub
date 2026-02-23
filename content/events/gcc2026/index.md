@@ -25,21 +25,13 @@ subsites: [all, all-eu]
 #### Plus [CoFest](/events/gcc2026/cofest/)! June 25-26, 2026
 ### Held in the spectacular [Clermont-Ferrand, France](https://maps.app.goo.gl/g3g3MMivnyHMxVM16)
 
-  <div class="text-center my-5">
-    <div class="lead" style="padding-bottom: 1rem">
-      The flagship Galaxy event of the year brings together research leaders, principal investigators, and decision-makers from leading institutions worldwide to shape the future of data-intensive science and drive strategic initiatives in computational biology.
-    </div>
-    <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" type="button" class="btn btn-primary">
-        <strong>Sign up for email announcements</strong>
-    </a>
-    ◇
-    <a href="https://v4.event-vert.org/en/gcc2026" type="button" class="btn btn-primary">
-        <strong>Register now</strong>
-    </a>
-    ◇
-    <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" type="button" class="btn btn-primary">
-        <strong>Submit an abstract</strong>
-    </a>
+  <div class="lead">
+    The flagship Galaxy event of the year brings together research leaders, principal investigators, and decision-makers from leading institutions worldwide to shape the future of data-intensive science and drive strategic initiatives in computational biology.
+  </div>
+  <div class="flex flex-wrap justify-center gap-3 my-5">
+    <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Sign up for email announcements</a>
+    <a href="https://v4.event-vert.org/en/gcc2026" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register now</a>
+    <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract</a>
   </div>
 </div>
 
@@ -159,8 +151,6 @@ The **[travel page](/events/gcc2026/travel/) has more details.**
 Want to stay in the loop about the conference? Sign up for the announcement
 mailing list and you'll be the first to know. And don't worry - no spamming here
 and no excessive emails.
-<div class="text-center my-5">
-    <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" type="button" class="btn btn-primary">
-        Join GCC2026 Announce mailing list
-    </a>
+<div class="flex justify-center my-5">
+  <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Join GCC2026 Announce mailing list</a>
 </div>
