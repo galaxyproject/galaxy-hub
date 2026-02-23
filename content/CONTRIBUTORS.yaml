@@ -1734,6 +1734,10 @@ Freymaurer:
     affiliations:
      - nfdi4plants
 
+fikipollo:
+    name: Rafa Hernández
+    joined: 2017-03
+
 friedue:
     name: Friederike Dündar
     joined: 2017-09
@@ -2279,6 +2283,10 @@ joelvdavies:
     name: Joel Davies
     email: joel.davies@stfc.ac.uk
     joined: 2022-11
+
+joellelafond:
+    name: Joëlle Lafond
+    joined: 2021-08
 
 jontrow:
     name: Jon Trow
