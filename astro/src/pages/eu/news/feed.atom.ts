@@ -33,13 +33,11 @@ function atomDate(value: Date | string | undefined): string {
 
 export async function GET() {
   const siteUrl = 'https://galaxyproject.org';
-  const articles = await getCollection('articles');
+  const newsArticles = await getCollection('news');
   const now = new Date();
 
-  const euNews = articles
+  const euNews = newsArticles
     .filter((article) => {
-      const slug = article.data.slug || article.id;
-      if (!slug.startsWith('news/')) return false;
       if (article.data.draft) return false;
       if (!isPublishedDate(article.data.date, now)) return false;
       const subsites = normalizeSubsites(article.data.subsites);
