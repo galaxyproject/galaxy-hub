@@ -1,4 +1,11 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
+
+/** Get the Platform Group select by its label text rather than positional index. */
+async function getPlatformSelect(page: Page) {
+  const select = page.locator('label:text-is("Platform") + select');
+  await expect(select).toBeVisible();
+  return select;
+}
 
 test.describe('Platform group filter', () => {
   test('?platform_group=public-servers filters to public servers', async ({ page }) => {
@@ -6,8 +13,7 @@ test.describe('Platform group filter', () => {
 
     await expect(page).toHaveURL(/\/use\/\?platform_group=public-servers/);
 
-    // The Platform dropdown should reflect the selection
-    const platformSelect = page.locator('select').nth(2);
+    const platformSelect = await getPlatformSelect(page);
     await expect(platformSelect).toHaveValue('public-server');
 
     // Should show fewer results than total
@@ -25,15 +31,14 @@ test.describe('Platform group filter', () => {
   test('singular form also works: ?platform_group=public-server', async ({ page }) => {
     await page.goto('/use/?platform_group=public-server');
 
-    const platformSelect = page.locator('select').nth(2);
+    const platformSelect = await getPlatformSelect(page);
     await expect(platformSelect).toHaveValue('public-server');
   });
 
   test('invalid platform_group defaults to showing all', async ({ page }) => {
     await page.goto('/use/?platform_group=bogus');
 
-    // Dropdown should remain on "all"
-    const platformSelect = page.locator('select').nth(2);
+    const platformSelect = await getPlatformSelect(page);
     await expect(platformSelect).toHaveValue('all');
 
     const countText = page.locator('text=/Showing \\d+ of \\d+/');
@@ -46,7 +51,7 @@ test.describe('Platform group filter', () => {
   test('selecting from dropdown updates URL', async ({ page }) => {
     await page.goto('/use/');
 
-    const platformSelect = page.locator('select').nth(2);
+    const platformSelect = await getPlatformSelect(page);
     await platformSelect.selectOption('public-server');
 
     await expect(page).toHaveURL(/platform_group=public-servers/);
@@ -55,7 +60,7 @@ test.describe('Platform group filter', () => {
   test('clear button removes platform_group filter and param', async ({ page }) => {
     await page.goto('/use/?platform_group=public-servers');
 
-    const platformSelect = page.locator('select').nth(2);
+    const platformSelect = await getPlatformSelect(page);
     await expect(platformSelect).toHaveValue('public-server');
 
     await page.getByRole('button', { name: 'Clear' }).first().click();

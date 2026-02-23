@@ -20,8 +20,8 @@ async function clickAndWaitForNavigation(page: Page, locator: Locator): Promise<
     });
   }
 
-  // Ensure the DOM is ready
-  await page.waitForLoadState('domcontentloaded');
+  // Wait for the view transition to settle
+  await page.waitForLoadState('networkidle');
 }
 
 test.describe('Static Pages', () => {
