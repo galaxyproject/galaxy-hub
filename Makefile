@@ -5,16 +5,11 @@ ifeq ($(CONDA),)
 	CONDA=${HOME}/miniconda3/bin/conda
 endif
 ACTIVATE_ENV = source $(shell dirname $(dir $(CONDA)))/bin/activate $(CONDA_ENV)
-OPENSSL_HACK = NODE_OPTIONS=--openssl-legacy-provider
 
 default: help
 
 activate:
 	echo "$(ACTIVATE_ENV)"
-
-run: ## Launch website
-	$(ACTIVATE_ENV) && $(OPENSSL_HACK) yarn develop
-.PHONY: run
 
 create-env: ## create galaxyproject-hub conda environment
 	if ${CONDA} env list | grep '^${CONDA_ENV}'; then \
@@ -27,42 +22,25 @@ create-env: ## create galaxyproject-hub conda environment
 install: create-env ## create galaxyproject-hub conda environment
 .PHONY: install
 
-build: ## Build the site once and exit
-	$(ACTIVATE_ENV) && $(OPENSSL_HACK) yarn build
+dev: ## Run Astro development server
+	cd astro && npm install && npm run dev
+.PHONY: dev
+
+build: ## Build Astro site
+	cd astro && npm install && npm run build
 .PHONY: build
 
-freeze-env:
-	@conda env export --no-builds -n $(CONDA_ENV) | grep -v "^prefix: "
-.PHONY: freeze-env
+preview: ## Preview built Astro site
+	cd astro && npm install && npm run preview
+.PHONY: preview
 
-#check-http-urls: ## check http urls
-#	$(ACTIVATE_ENV) && htmlproofer ./_site/ --check-html --allow-hash-href --assume-extension --disable-external --url-swap "http\://localhost:https\://usegalaxy-eu.github.io" --enforce-https 2>&1 | grep 'is not' | sed 's/link .*//g' | sort | uniq -c | sort -nk1
-#.PHONY: check-http-urls
+check: ## Format, lint, and test Astro site
+	cd astro && npm install && npm run format && npm run lint && npm test
+.PHONY: check
 
-# Astro site targets (in astro/ directory)
-astro-install: ## Install Astro dependencies
-	cd astro && npm install
-.PHONY: astro-install
-
-astro-dev: astro-install ## Run Astro development server
-	cd astro && npm run dev
-.PHONY: astro-dev
-
-astro-build: astro-install ## Build Astro site
-	cd astro && npm run build
-.PHONY: astro-build
-
-astro-preview: astro-install ## Preview built Astro site
-	cd astro && npm run preview
-.PHONY: astro-preview
-
-astro-check: astro-install ## Format, lint, and test Astro site
-	cd astro && npm run format && npm run lint && npm test
-.PHONY: astro-check
-
-astro-link-check: astro-build ## Build site and check all images resolve
+link-check: build ## Build site and check all images resolve
 	cd astro && PORT=9999 LINK_CHECK=1 LINK_CHECK_PREVIEW=1 npx playwright test link-check
-.PHONY: astro-link-check
+.PHONY: link-check
 
 validate-metadata: ## Validate news and events frontmatter schemas
 	python scripts/validate_news.py --be-strict-from 2026-02-01
