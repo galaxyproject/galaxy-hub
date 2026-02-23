@@ -404,14 +404,11 @@ function processImagePaths(content, slug) {
   // Catch-all for ](url.ext) — handles nested markdown like [![img](src)](target)
   // where the outer link target wasn't caught by earlier regexes because [^\]]*
   // can't match alt text containing ] characters
-  processed = processed.replace(
-    new RegExp(`\\]\\(([^)\\s]+\\.(?:${assetExts}))\\)`, 'gi'),
-    (match, src) => {
-      const rewritten = rewriteSrc(src, slug);
-      if (rewritten !== src) return `](${rewritten})`;
-      return match;
-    }
-  );
+  processed = processed.replace(new RegExp(`\\]\\(([^)\\s]+\\.(?:${assetExts}))\\)`, 'gi'), (match, src) => {
+    const rewritten = rewriteSrc(src, slug);
+    if (rewritten !== src) return `](${rewritten})`;
+    return match;
+  });
 
   return processed;
 }

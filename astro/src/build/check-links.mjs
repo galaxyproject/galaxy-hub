@@ -4,12 +4,12 @@
 Use linkinator to crawl all internal links on the built Astro site,
 producing a markdown report suitable for posting to a GitHub issue.
 */
-import { LinkChecker } from "linkinator";
-import fs from "fs";
+import { LinkChecker } from 'linkinator';
+import fs from 'fs';
 
 const port = process.env.PORT || 4321;
 const siteURL = `http://localhost:${port}`;
-const outputFile = "./broken-links.md";
+const outputFile = './broken-links.md';
 
 const outTemplate = (pages, total, broken) => `
 ### 📝 Link summary of ${pages} pages checked
@@ -33,88 +33,88 @@ The following pages have broken links, which should be listed in the order they 
 `;
 
 async function checkLinks() {
-    console.log("Starting link checking process...");
+  console.log('Starting link checking process...');
 
-    const brokenLinksByPage = {};
-    let brokenCount = 0;
-    let totalCount = 0;
-    let pagesChecked = new Set();
+  const brokenLinksByPage = {};
+  let brokenCount = 0;
+  let totalCount = 0;
+  let pagesChecked = new Set();
 
-    try {
-        console.log(`Checking links starting from ${siteURL}`);
+  try {
+    console.log(`Checking links starting from ${siteURL}`);
 
-        const checker = new LinkChecker();
+    const checker = new LinkChecker();
 
-        checker.on("link", (result) => {
-            totalCount++;
+    checker.on('link', (result) => {
+      totalCount++;
 
-            if (result.state === "BROKEN") {
-                brokenCount++;
+      if (result.state === 'BROKEN') {
+        brokenCount++;
 
-                const parentPage = result.parent || siteURL;
-                pagesChecked.add(parentPage);
+        const parentPage = result.parent || siteURL;
+        pagesChecked.add(parentPage);
 
-                if (!brokenLinksByPage[parentPage]) {
-                    brokenLinksByPage[parentPage] = [];
-                }
-
-                brokenLinksByPage[parentPage].push({
-                    url: result.url,
-                    status: result.status,
-                    statusText: result.statusText,
-                });
-            }
-        });
-
-        checker.on("pagestart", (url) => {
-            pagesChecked.add(url);
-            console.log(`Checking: ${url}`);
-        });
-
-        const skipLinkChecker = async (url) => {
-            if (url.startsWith("http") && !url.startsWith(siteURL)) {
-                console.debug("Skipping external link:", url);
-                return true;
-            }
-            return false;
-        };
-
-        const result = await checker.check({
-            path: siteURL,
-            recurse: true,
-            excludeExternalLinks: true,
-            linksToSkip: skipLinkChecker,
-            timeout: 30000,
-            concurrency: 100,
-        });
-
-        console.log(`Completed checking ${result.links.length} links`);
-
-        let markdownReport = "";
-
-        for (const [page, links] of Object.entries(brokenLinksByPage)) {
-            markdownReport += `#### ${page}\n`;
-            for (const link of links) {
-                markdownReport += `- [ ] ${link.url} (${link.status}: ${link.statusText || "Unknown error"})\n`;
-            }
-            markdownReport += "\n";
+        if (!brokenLinksByPage[parentPage]) {
+          brokenLinksByPage[parentPage] = [];
         }
 
-        const output = outTemplate(pagesChecked.size, totalCount, brokenCount) + markdownReport;
+        brokenLinksByPage[parentPage].push({
+          url: result.url,
+          status: result.status,
+          statusText: result.statusText,
+        });
+      }
+    });
 
-        fs.writeFileSync(outputFile, output);
+    checker.on('pagestart', (url) => {
+      pagesChecked.add(url);
+      console.log(`Checking: ${url}`);
+    });
 
-        console.log(output);
+    const skipLinkChecker = async (url) => {
+      if (url.startsWith('http') && !url.startsWith(siteURL)) {
+        console.debug('Skipping external link:', url);
+        return true;
+      }
+      return false;
+    };
 
-        if (brokenCount > 0) {
-            process.exitCode = 1;
-        }
+    const result = await checker.check({
+      path: siteURL,
+      recurse: true,
+      excludeExternalLinks: true,
+      linksToSkip: skipLinkChecker,
+      timeout: 30000,
+      concurrency: 100,
+    });
 
-        console.log("Link checker completed successfully");
-    } catch (error) {
-        console.error("Error during link checking:", error);
-        process.exitCode = 1;
+    console.log(`Completed checking ${result.links.length} links`);
+
+    let markdownReport = '';
+
+    for (const [page, links] of Object.entries(brokenLinksByPage)) {
+      markdownReport += `#### ${page}\n`;
+      for (const link of links) {
+        markdownReport += `- [ ] ${link.url} (${link.status}: ${link.statusText || 'Unknown error'})\n`;
+      }
+      markdownReport += '\n';
     }
+
+    const output = outTemplate(pagesChecked.size, totalCount, brokenCount) + markdownReport;
+
+    fs.writeFileSync(outputFile, output);
+
+    console.log(output);
+
+    if (brokenCount > 0) {
+      process.exitCode = 1;
+    }
+
+    console.log('Link checker completed successfully');
+  } catch (error) {
+    console.error('Error during link checking:', error);
+    process.exitCode = 1;
+  }
 }
 
 checkLinks();

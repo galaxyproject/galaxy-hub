@@ -11,15 +11,11 @@ describe('rewriteSrc', () => {
   });
 
   it('leaves already-normalized /images/ paths unchanged', () => {
-    expect(rewriteSrc('/images/events/gcc-2024/logo.png', slug)).toBe(
-      '/images/events/gcc-2024/logo.png'
-    );
+    expect(rewriteSrc('/images/events/gcc-2024/logo.png', slug)).toBe('/images/events/gcc-2024/logo.png');
   });
 
   it('normalizes absolute paths when prepending /images/', () => {
-    expect(rewriteSrc('/events/gcc2013/photos/Venue.jpg', slug)).toBe(
-      '/images/events/gcc-2013/photos/Venue.jpg'
-    );
+    expect(rewriteSrc('/events/gcc2013/photos/Venue.jpg', slug)).toBe('/images/events/gcc-2013/photos/Venue.jpg');
   });
 
   it('strips ./ prefix from relative paths', () => {
@@ -67,16 +63,12 @@ describe('processImagePaths', () => {
 
     it('rewrites relative path with subdirectory', () => {
       const input = '![diagram](figures/arch.png)';
-      expect(processImagePaths(input, slug)).toBe(
-        '![diagram](/images/events/gcc-2024/figures/arch.png)'
-      );
+      expect(processImagePaths(input, slug)).toBe('![diagram](/images/events/gcc-2024/figures/arch.png)');
     });
 
     it('strips ./ prefix from relative paths', () => {
       const input = '<source src="./vizarr.mp4" type="video/mp4">';
-      expect(processImagePaths(input, slug)).toBe(
-        '<source src="/images/events/gcc-2024/vizarr.mp4" type="video/mp4">'
-      );
+      expect(processImagePaths(input, slug)).toBe('<source src="/images/events/gcc-2024/vizarr.mp4" type="video/mp4">');
     });
   });
 
@@ -88,9 +80,7 @@ describe('processImagePaths', () => {
 
     it('normalizes directory segments when prepending /images', () => {
       const input = '<img src="/events/gcc2013/photos/Venue.jpg">';
-      expect(processImagePaths(input, slug)).toBe(
-        '<img src="/images/events/gcc-2013/photos/Venue.jpg">'
-      );
+      expect(processImagePaths(input, slug)).toBe('<img src="/images/events/gcc-2013/photos/Venue.jpg">');
     });
 
     it('prepends /images to /authnz/ path', () => {
@@ -104,8 +94,7 @@ describe('processImagePaths', () => {
     });
 
     it('normalizes slug segments like workflow4metabolomics', () => {
-      const input =
-        '![screenshot](/use/archive/workflow4metabolomics/workflow4metabolomics.png)';
+      const input = '![screenshot](/use/archive/workflow4metabolomics/workflow4metabolomics.png)';
       expect(processImagePaths(input, slug)).toBe(
         '![screenshot](/images/use/archive/workflow-4-metabolomics/workflow4metabolomics.png)'
       );
@@ -161,9 +150,7 @@ describe('processImagePaths', () => {
 
     it('rewrites a href pointing to PDF', () => {
       const input = '<a href="slides.pdf">Download</a>';
-      expect(processImagePaths(input, slug)).toBe(
-        '<a href="/images/events/gcc-2024/slides.pdf">Download</a>'
-      );
+      expect(processImagePaths(input, slug)).toBe('<a href="/images/events/gcc-2024/slides.pdf">Download</a>');
     });
 
     it('does not rewrite a href to HTML pages', () => {
@@ -182,25 +169,19 @@ describe('processImagePaths', () => {
 
     it('rewrites video src', () => {
       const input = '<video src="demo.webm">';
-      expect(processImagePaths(input, slug)).toBe(
-        '<video src="/images/events/gcc-2024/demo.webm">'
-      );
+      expect(processImagePaths(input, slug)).toBe('<video src="/images/events/gcc-2024/demo.webm">');
     });
   });
 
   describe('markdown links to asset files', () => {
     it('rewrites markdown link to GIF', () => {
       const input = '[Watch animation](/learn/privacy-features/set-perm.gif)';
-      expect(processImagePaths(input, slug)).toBe(
-        '[Watch animation](/images/learn/privacy-features/set-perm.gif)'
-      );
+      expect(processImagePaths(input, slug)).toBe('[Watch animation](/images/learn/privacy-features/set-perm.gif)');
     });
 
     it('rewrites markdown link to PDF', () => {
       const input = '[slides](EGD2023_slides.pdf)';
-      expect(processImagePaths(input, slug)).toBe(
-        '[slides](/images/events/gcc-2024/EGD2023_slides.pdf)'
-      );
+      expect(processImagePaths(input, slug)).toBe('[slides](/images/events/gcc-2024/EGD2023_slides.pdf)');
     });
 
     it('does not double-rewrite markdown images', () => {
@@ -214,9 +195,7 @@ describe('processImagePaths', () => {
   describe('nested markdown (image wrapped in link)', () => {
     it('rewrites outer link target in [![img](src)](target)', () => {
       const input = '[![alt](/jxtx/james.jpg)](/jxtx/james.jpg)';
-      expect(processImagePaths(input, slug)).toBe(
-        '[![alt](/images/jxtx/james.jpg)](/images/jxtx/james.jpg)'
-      );
+      expect(processImagePaths(input, slug)).toBe('[![alt](/images/jxtx/james.jpg)](/images/jxtx/james.jpg)');
     });
 
     it('rewrites outer link with non-normalized slug', () => {
@@ -228,18 +207,14 @@ describe('processImagePaths', () => {
 
     it('handles alt text containing ] characters', () => {
       const input = '![Stats about [22] events](/news/paper/fig1.png)';
-      expect(processImagePaths(input, slug)).toBe(
-        '![Stats about [22] events](/images/news/paper/fig1.png)'
-      );
+      expect(processImagePaths(input, slug)).toBe('![Stats about [22] events](/images/news/paper/fig1.png)');
     });
   });
 
   describe('video-player component', () => {
     it('rewrites video-player src', () => {
       const input = '<video-player src="demo.mp4" />';
-      expect(processImagePaths(input, slug)).toBe(
-        '<video-player src="/images/events/gcc-2024/demo.mp4" />'
-      );
+      expect(processImagePaths(input, slug)).toBe('<video-player src="/images/events/gcc-2024/demo.mp4" />');
     });
   });
 
@@ -272,46 +247,34 @@ describe('processImagePaths', () => {
   describe('asset extensions', () => {
     it('handles .webp extension', () => {
       const input = '![photo](hero.webp)';
-      expect(processImagePaths(input, slug)).toBe(
-        '![photo](/images/events/gcc-2024/hero.webp)'
-      );
+      expect(processImagePaths(input, slug)).toBe('![photo](/images/events/gcc-2024/hero.webp)');
     });
 
     it('handles .svg extension', () => {
       const input = '![icon](logo.svg)';
-      expect(processImagePaths(input, slug)).toBe(
-        '![icon](/images/events/gcc-2024/logo.svg)'
-      );
+      expect(processImagePaths(input, slug)).toBe('![icon](/images/events/gcc-2024/logo.svg)');
     });
 
     it('handles uppercase extensions', () => {
       const input = '![photo](photo.PNG)';
-      expect(processImagePaths(input, slug)).toBe(
-        '![photo](/images/events/gcc-2024/photo.PNG)'
-      );
+      expect(processImagePaths(input, slug)).toBe('![photo](/images/events/gcc-2024/photo.PNG)');
     });
 
     it('handles .pdf extension', () => {
       const input = '[download](report.pdf)';
-      expect(processImagePaths(input, slug)).toBe(
-        '[download](/images/events/gcc-2024/report.pdf)'
-      );
+      expect(processImagePaths(input, slug)).toBe('[download](/images/events/gcc-2024/report.pdf)');
     });
 
     it('handles .mp4 extension', () => {
       const input = '<source src="demo.mp4" type="video/mp4">';
-      expect(processImagePaths(input, slug)).toBe(
-        '<source src="/images/events/gcc-2024/demo.mp4" type="video/mp4">'
-      );
+      expect(processImagePaths(input, slug)).toBe('<source src="/images/events/gcc-2024/demo.mp4" type="video/mp4">');
     });
   });
 
   describe('markdown images with title/attributes', () => {
     it('preserves title text after src', () => {
       const input = '![alt](photo.png "A title")';
-      expect(processImagePaths(input, slug)).toBe(
-        '![alt](/images/events/gcc-2024/photo.png "A title")'
-      );
+      expect(processImagePaths(input, slug)).toBe('![alt](/images/events/gcc-2024/photo.png "A title")');
     });
   });
 });
