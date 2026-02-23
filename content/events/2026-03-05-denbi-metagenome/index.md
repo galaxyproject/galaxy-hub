@@ -9,7 +9,7 @@ contact: Paul Zierep
 location:
   name: Online
 continent: GL
-tags: [workshop, metagenome]
+tags: [workshop, metagenomics]
 external_url: https://www.denbi.de/training-courses-2026/2018-galaxy-metagenome-training-course-2026
 tease: "Join us online in the 2026 Metagenome Training Course"
 ---

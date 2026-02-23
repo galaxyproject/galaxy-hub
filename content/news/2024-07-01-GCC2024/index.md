@@ -9,12 +9,12 @@ contributions:
   authorship:
     - freiburggalaxyteam
   funding:
-    - JXTXFoundation
-    - Worfklow4Metabelomics
-    - GalaxyWorks
-    - GigaScience
-    - KWS
-    - Limagrain
+    - jxtxfoundation
+    - worfklow4metabelomics
+    - galaxyworks
+    - gigascience
+    - kws
+    - limagrain
     - deNBI
     - uni-freiburg
     - eurosciencegateway
