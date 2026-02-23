@@ -62,7 +62,8 @@ export async function GET() {
     <id>${SITE_URL}/eu/feed.atom</id>
     <title>${escapeXML(FEED_TITLE)}</title>
     <updated>${formatAtomDate(latestDate)}</updated>
-    <generator>Astro Galaxy Hub</generator>
+    <generator>Galaxy Hub</generator>
+    <author><name>Galaxy Project</name></author>
     <link rel="alternate" href="${SITE_URL}/"/>
     <link rel="self" href="${SITE_URL}/eu/feed.atom"/>
     <subtitle>${escapeXML(FEED_DESCRIPTION)}</subtitle>
