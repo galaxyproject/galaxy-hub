@@ -9,9 +9,6 @@ location:
 gtn: true
 contact: "Anika Erxleben"
 tags: [workshop, training, esg, esg-wp1]
-supporters:
-- dataplant
-- eurosciencegateway
 subsites: [all, esg]
 contributions:
   authorship:

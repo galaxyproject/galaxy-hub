@@ -13,9 +13,6 @@ location:
   postal: 49076 Osnabrück
   region: Westfalen
   street: Barbarastraße 21 (SL-Gebäude)
-supporters:
-- denbi
-- emed
 subsites: [eu]
 contributions:
   funding:

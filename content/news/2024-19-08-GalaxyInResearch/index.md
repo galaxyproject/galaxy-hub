@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Advancing quantum materials research with Galaxy"
 tease: "At Oak Ridge National Laboratory, scientists have harnessed the power of Galaxy to bring together cutting-edge computing resources, paving the way for new discoveries in quantum materials through advanced neutron scattering data analysis."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-08-19"
 tags: ["highlight"]
 subsites: [global,all]

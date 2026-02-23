@@ -1,7 +1,6 @@
 ---
 title: "DaveC: The founder of Galaxy Community"
 tease: "Thank you DaveC"
-authors: "Anton Nekrutenko"
 external_url: ""
 date: "2021-12-17"
 source_blog: ""

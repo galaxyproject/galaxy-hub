@@ -2,7 +2,6 @@
 date: '2023-07-14'
 title: "Fighting Galactic Misconceptions (FGB): Misconception 1"
 tease: "Is Galaxy only useful for genome scientists? Absolutely Not!"
-authors: "Anton Nekrutenko"
 contributions:
   authorship:
     - nekrut

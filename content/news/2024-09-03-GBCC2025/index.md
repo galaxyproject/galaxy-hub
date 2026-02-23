@@ -3,7 +3,6 @@ title: 'Announcing the First Galaxy and Bioconductor Community Conference (GBCC 
 date: '2024-09-03'
 tease: "We’re excited to announce the first-ever Galaxy and Bioconductor Community Conference (GBCC 2025), scheduled from June 23-26, 2025, at Cold Spring Harbor Laboratory in New York."
 hide_tease: false
-authors: [Natalie Whitaker-Allen, Maria Doyle]
 tags: [Conference]
 subsites: [global]
 contributions:

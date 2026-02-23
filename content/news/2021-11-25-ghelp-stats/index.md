@@ -4,9 +4,6 @@ date: '2021-11-25'
 tease: From the GHelp supporting group, we thank you for the trust you place in us every day.
 hide_tease: true
 tags: [galaxy, support, society, report, covid-19]
-supporters:
-- galaxy-europe
-authors: Cristóbal Gallardo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

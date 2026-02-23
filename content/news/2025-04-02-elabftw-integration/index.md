@@ -3,12 +3,8 @@ title: "eLabFTW integration"
 date: "2025-04-02"
 tease: "Bring data to Galaxy straight from the lab."
 hide_tease: false
-authors: José Manuel Domínguez
 subsites: [eu, esg]
 tags: [esg, esg-wp2]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
 contributions:
   authorship:
     - kysrpex

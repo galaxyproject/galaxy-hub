@@ -7,9 +7,6 @@ layout: news
 date: "2025-03-10"
 tease: "Time to celebrate! Freiburg is hosting its 20th HTS Workshop this March of 2025"
 subsites: [all,esg,eu]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
 ---
 # 🚀 Time to Celebrate ​🎉 The Freiburg Galaxy Team hosts its 20th on-site workshop
 

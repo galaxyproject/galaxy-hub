@@ -6,8 +6,6 @@ tease: An extension and implementation of the MAGE-TAB format for proteomics (MA
 hide_tease: true
 tags: [paper, data]
 doi: 10.1038/s41467-021-26111-3
-supporters:
-- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

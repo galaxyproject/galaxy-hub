@@ -10,11 +10,6 @@ gtn: true
 contact: "Marie Josse"
 tags: [esg, esg-wp5, eosc, training]
 subsites: [all-eu, global, esg]
-supporters:
-  - eurosciencegateway
-  - eosc
-  - eu
-  - fair-ease
 contributions:
   authorship:
     - Marie59

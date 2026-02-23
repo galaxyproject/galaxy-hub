@@ -5,9 +5,6 @@ tease: On 2021-10-06, the FTP server accessible through the domain ftp.usegalaxy
   will be upgraded with a new hardware and a new configuration.
 hide_tease: true
 tags: [devops, hardware]
-supporters:
-- denbi
-authors: Gianmauro Cuccuru
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

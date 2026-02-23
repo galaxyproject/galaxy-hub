@@ -6,8 +6,6 @@ hide_tease: false
 tags: [esg-wp5, esg, tools, astronomy]
 subsites: [all,esg]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
 contributions:
   funding:
     - eurosciencegateway

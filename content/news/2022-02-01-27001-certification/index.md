@@ -5,11 +5,6 @@ tease: 'TÜV SÜD has awarded the University''s data centre
   the international certification for information security management systems ISO/IEC 27001.'
 hide_tease: true
 tags: [galaxy, support]
-supporters:
-- galaxy-europe
-- unifreiburg
-- denbi
-authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 components: true

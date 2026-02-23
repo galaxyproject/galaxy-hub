@@ -2,10 +2,6 @@
 title: 'Galaxy-ELIXIR webinars series: Advanced Features'
 date: '2021-03-25'
 tags: [talk, webinar, elixir]
-supporters:
-- elixir
-- unifreiburg
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

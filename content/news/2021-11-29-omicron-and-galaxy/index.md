@@ -3,15 +3,6 @@ title: Omicron and SARS-CoV-2 genome surveillance
 date: '2021-11-29'
 tease: 'A first view of the Omicron lineage’s mutational pattern derived transparently and fully reproducibly from raw sequencing reads'
 tags: [data, COVID-19]
-supporters:
-- denbi
-- elixir
-- converge
-- bycovid
-- eosc
-- eu
-- unifreiburg
-authors: Wolfgang Maier
 subsites: [global, eu, freiburg]
 main_subsite: freiburg
 contributions:

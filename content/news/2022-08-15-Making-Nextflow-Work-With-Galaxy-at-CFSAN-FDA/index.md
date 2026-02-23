@@ -1,7 +1,6 @@
 ---
 title: "Galaxy + Nextflow at CFSAN, FDA."
 tease: "How Nextflow pipelines are integrated into Galaxy project at CFSAN, FDA."
-authors: "Kranti Konganti"
 date: "2022-08-15"
 contributions:
   authorship:

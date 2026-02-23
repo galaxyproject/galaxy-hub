@@ -7,10 +7,6 @@ location:
 continent: EU
 contact: "Paul Zierep, Bérénice Batut"
 tags: [hackathon, microbial, metagenomics, assembly, training]
-supporters:
-  - ELIXIR
-  - de.NBI
-  - IFB
 subsites: [all]
 tease: "This 4-day hybrid hackathon aims to optimize Metagenomics Assembled Genomes Building workflows"
 hide_tease: true

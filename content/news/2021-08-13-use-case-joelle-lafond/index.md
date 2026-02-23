@@ -2,7 +2,6 @@
 title: 'UseGalaxy.eu Use Case: Sex determination of fish species'
 date: '2021-08-13'
 tags: [UseCase]
-authors: Joëlle Lafond
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

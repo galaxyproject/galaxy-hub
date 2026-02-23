@@ -12,8 +12,6 @@ location:
 contacts:
 - email: null
   name: ELIXIR, GOBLET, GTN
-supporters:
-- elixir
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg

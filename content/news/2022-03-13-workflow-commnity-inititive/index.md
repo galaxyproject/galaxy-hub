@@ -2,12 +2,6 @@
 title: Announcing the Workflows Community Initiative (WCI)
 date: '2022-03-13'
 tags: [workflow]
-supporters:
-- crc1425
-- crc992
-- denbi
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

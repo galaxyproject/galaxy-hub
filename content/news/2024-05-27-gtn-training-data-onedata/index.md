@@ -2,13 +2,9 @@
 title: 'All GTN training data in one basket'
 date: '2024-05-27'
 tease: "Providing effortless access to GTN training data via Onedata"
-authors: Polina Polunina
 tags: [esg-wp4, esg, esg-wp1]
 subsites: [global, all, esg, all-eu]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - egi
 contributions:
   authorship:
     - plushz

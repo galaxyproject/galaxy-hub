@@ -2,10 +2,6 @@
 title: GTN Plant-related trainings
 date: '2021-01-04'
 tags: [training]
-supporters:
-- dataplant
-- biodaten
-authors: Cristóbal Gallardo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

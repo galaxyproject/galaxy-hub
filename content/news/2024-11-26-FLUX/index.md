@@ -3,7 +3,6 @@ title: "Text-to-Image Magic: FLUX Models Now in Galaxy!"
 date: "2024-11-26"
 tease: "Turn your text into stunning visuals with FLUX models, now integrated into Galaxy!"
 hide_tease: false
-authors: Arash Kadkhodaei
 subsites: [global, eu, us, freiburg]
 tags: [tool]
 contributions:

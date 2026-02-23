@@ -3,7 +3,6 @@ title: 'MGnify Mettannotator Pipeline v1.0 on Galaxy'
 date: '2025-04-03'
 tease: "Improving Galaxy-based prokaryotic genome annotation by porting and extending the MGnify mettannotator pipeline"
 hide_tease: false
-authors: Gaurav Sharma
 subsites: [eu,all,global]
 contributions:
   authorship:

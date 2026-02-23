@@ -4,9 +4,6 @@ date: '2024-08-30'
 tease: "Optimized AlphaFold2-based protein structure prediction now available for all"
 hide_tease: false
 tags: [us, tools]
-authors:
-- Alex Ostrovsky
-- Nate Coraor
 contact: "nate@bx.psu.edu"
 subsites: [us]
 main_subsite: us

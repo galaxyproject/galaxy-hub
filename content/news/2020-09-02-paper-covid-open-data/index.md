@@ -4,13 +4,6 @@ title: 'New Paper "No more business as usual: Agile and effective responses to e
 date: '2020-09-02'
 doi: 10.1371/journal.ppat.1008643
 tags: [paper, COVID-19, data]
-supporters:
-- denbi
-- elixir
-- crc992
-- eosc
-- eu
-- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

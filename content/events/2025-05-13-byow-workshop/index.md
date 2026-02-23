@@ -8,9 +8,6 @@ location:
   name: "Online (Zoom) - 10:30–12:00 BST "
 contact: "Armin Dadras"
 tags: [workshop,elixir,esg,esg-wp2,single-cell,workflow, workflowhub, omics, demo]
-supporters:
-- eurosciencegateway
-- denbi
 subsites: [all, esg, eu]
 contributions:
   authorship:

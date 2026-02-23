@@ -2,13 +2,10 @@
 title: "Develop and engage: Sustainable software tools for large-scale facilities using the Galaxy platform"
 tease: "Talk on Galaxy tools for muon experiments and catalysis research at the CECAM conference"
 hide-tease: false
-authors: [Leandro Liborio, Patrick Austin, Subindev Devadasan, Abraham Nieva de la Hidalga, Alejandra Gonzalez-Beltran]
 date: "2024-05-28"
 subsites: [all-eu,esg]
 tags: [esg, esg-wp5]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
 contributions:
   authorship:
     - leandro-liborio

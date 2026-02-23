@@ -12,7 +12,6 @@ tags:
 - maintenance
 - survey
 title: Galaxy Administrator Time Burden and Technology Usage
-authors: Vlad Visan
 external_url: https://training.galaxyproject.org/training-material/news/2024/07/22/Galaxy-Administrator-Time-Burden-and-Technology-Usage.html
 tease: Have you wondered how difficult Galaxy is to run? How much time people must
   spend to run Galaxy? In February 2024, we collected 9 responses from the Galaxy

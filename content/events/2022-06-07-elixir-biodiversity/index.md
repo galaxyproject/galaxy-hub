@@ -15,8 +15,6 @@ contact: Nicola Soranzo, Bérénice Batut, Anthony Bretaudeau, Johan Gustafsson,
   Harrow, Saskia Hiltemann, Jerry Lanfear, Yvan Le Bras, Krzysztof Poterlowicz, Helena
   Rasche, Beatriz Serrano-Solano, Andrew Lonie, Frederik Coppens, Björn Grüning
 tags: [training]
-supporters:
-- elixir
 subsites: [all-eu, global]
 contributions:
   authorship:

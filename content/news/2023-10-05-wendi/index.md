@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-10-05"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: Embeddable GTN Tutorial Lists and UseGalaxy Workflow List Widgets"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/10/05/wendi.html'
 contributions:
   authorship:

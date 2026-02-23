@@ -5,12 +5,6 @@ tease: 'Last week we had the BioHackathon Europe 2021 in Barcelona,
   as a hybrid event and with participants from all over the world.'
 hide_tease: true
 tags: [training, hackathon]
-supporters:
-- crc1425
-- crc992
-- denbi
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 components: true

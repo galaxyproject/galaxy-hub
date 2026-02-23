@@ -2,7 +2,6 @@
 title: We are striking!
 date: '2019-09-19'
 tags: [s4f, society]
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

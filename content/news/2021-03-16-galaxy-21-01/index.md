@@ -2,11 +2,7 @@
 title: UseGalaxy.eu update to 21.01
 date: '2021-03-16'
 tags: [release]
-supporters:
-- denbi
-- elixir
 external_url: https://docs.galaxyproject.org/en/release_21.01/releases/21.01_announce_user.html
-authors: Gianmauro Cuccuru
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

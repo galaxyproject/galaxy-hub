@@ -3,13 +3,6 @@ title: 'OSA2Micro – An Open Science Approach for Microbiology data integration
 date: '2023-06-03'
 end: '2020-06-05'
 tags: [training, talk, outreach, microbiology]
-supporters:
-- eosc
-- eu
-- unifreiburg
-- denbi
-- EOSC-Life
-authors: Paul Zierep
 location:
   name: Molecular Biotechnology Center (MBC), Turin, Italy
 subsites: [eu, freiburg]

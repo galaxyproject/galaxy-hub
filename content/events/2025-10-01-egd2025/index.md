@@ -6,14 +6,6 @@ continent: EU
 location:
     name: Freiburg, Germany
 contact: "contact@usegalaxy.eu"
-supporters:
-- eurosciencegateway
-- denbi
-- unifreiburg
-- elixir
-- eu
-- eosc
-- egi
 subsites: [all, eu, esg]
 tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, cofest, demo, talk]
 contributions:

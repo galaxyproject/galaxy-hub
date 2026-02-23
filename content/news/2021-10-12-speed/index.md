@@ -4,7 +4,6 @@ main_subsite: global
 date: "2021-10-12"
 tags: [training, gtn-news]
 title: "[GTN news] Attention Contributors: GTN Performance Enhancements"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/10/12/speed.html'
 contributions:
   authorship:

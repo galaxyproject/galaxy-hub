@@ -4,10 +4,6 @@ date: '2025-06-24'
 tease: Explore whole slide images and run powerful tissue analysis directly in your browser with the QuPath-Galaxy interactive tool.
 hide_tease: true
 tags: [tools, imaging]
-supporters:
-- unifreiburg
-- nfdi4bioimage
-authors: Diana Chiang Jurado
 subsites: [global, all, eu]
 main_subsite: eu
 contributions:

@@ -4,14 +4,6 @@ title: 'Open Life Science program & the Galaxy community: involvement in OLS-2 a
 date: '2020-12-22'
 tease: ' involvement in OLS-2 and invitation to apply to the next cohort'
 tags: [training]
-supporters:
-- elixir
-- eosc
-- eu
-- EOSC-Life
-- unifreiburg
-- denbi
-authors: Bérénice Batut
 subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:

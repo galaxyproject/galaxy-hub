@@ -4,7 +4,6 @@ date: '2021-02-18'
 tags: [galaxy]
 location:
   name: online
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

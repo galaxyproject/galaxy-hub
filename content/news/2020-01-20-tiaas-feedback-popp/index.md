@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Denny Popp
 date: '2020-01-20'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Denny Popp
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

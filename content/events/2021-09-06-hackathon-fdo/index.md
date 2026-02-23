@@ -7,8 +7,6 @@ contacts:
 - name: DataPLANT project
 location:
   name: "Villa Denis, Frankenstein, Germany"
-supporters:
-- dataplant
 gtn: false
 subsites: [global, eu, freiburg]
 main_subsite: freiburg

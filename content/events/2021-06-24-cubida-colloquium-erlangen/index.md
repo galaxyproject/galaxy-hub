@@ -8,10 +8,6 @@ contacts:
     Erlangen
 location:
   name: online (https://uk-erlangen.webex.com/uk-erlangen/j.php?MTID=mfa8088026974da77de04e981fb3b7abd)
-supporters:
-- galaxy-europe
-- Life@FAU
-- miracum
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

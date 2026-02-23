@@ -5,7 +5,6 @@ tease: Training Infrastructure as a Service
 tags: [devops, tiaas]
 location:
   name: Freiburg, Germany
-authors: Björn Grüning
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

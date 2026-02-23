@@ -9,10 +9,6 @@ location:
 gtn: true
 contact: "Daniela Schneider"
 tags: [workshop, training, esg, esg-wp1]
-supporters:
-- dataplant
-- eurosciencegateway
-- denbi
 subsites: [all, esg, all-eu]
 contributions:
   authorship:

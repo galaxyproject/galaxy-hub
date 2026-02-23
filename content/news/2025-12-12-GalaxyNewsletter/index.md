@@ -1,6 +1,5 @@
 ---
 title: "Galaxy Newsletter December 2025"
-authors: "Natalie Whitaker-Allen"
 tags: [newsletter, year-in-review]
 layout: news
 date: "2025-12-22"

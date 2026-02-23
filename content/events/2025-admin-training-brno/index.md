@@ -11,11 +11,6 @@ external_url:
 gtn: true
 contact: Instructors
 tags: [gat, admin]
-supporters:
-  - cesnet
-  - elixir-cz
-  - de.KCD
-  - de.NBI
 subsites: [global, us, eu, esg]
 contributions:
   authorship:

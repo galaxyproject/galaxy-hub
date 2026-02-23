@@ -1,7 +1,6 @@
 ---
 title: "My Outreachy Contribution Experience With Galaxy Project"
 tease: ""
-authors: "Chinonye Mildred Egenti"
 external_url: "https://chinonyemildred.com/my-outreachy-experience/"
 date: "2021-11-02"
 source_blog: "Outreachy internship program"

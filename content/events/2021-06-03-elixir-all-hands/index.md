@@ -5,9 +5,6 @@ end: '2021-06-03'
 tags: [talk]
 location:
   name: online
-supporters:
-- elixir
-- denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

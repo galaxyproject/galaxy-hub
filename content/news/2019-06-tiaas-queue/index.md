@@ -5,7 +5,6 @@ tease: using UseGalaxy.eu’s Training infrastructure as a Service (TIaaS).
 tags: [tiaas, devops]
 location:
   name: Freiburg, Germany
-authors: Helena Rasche
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

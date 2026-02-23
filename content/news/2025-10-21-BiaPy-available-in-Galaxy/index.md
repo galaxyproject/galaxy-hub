@@ -1,6 +1,5 @@
 ---
 title: "New Galaxy Tool: BiaPy – Deep Learning for Bioimage Analysis in Galaxy"
-authors: "Daniel Franco Barranco" 
 contributions:
   authorship:
     - danifranco

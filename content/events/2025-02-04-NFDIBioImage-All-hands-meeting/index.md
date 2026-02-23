@@ -6,11 +6,6 @@ location:
   name: "Düsseldorf - Haus der Universität"
 contact: "Christian Schmidt, Mira Kubitz, Ksenia Krooß"
 tags: [Conference, talk, nfdi, bioimaging, meeting]
-supporters:
-- nfdi
-- dfg
-- unifreiburg
-- NFDI4BI
 subsites: [eu, freiburg]
 contributions:
   funding:

@@ -1,6 +1,5 @@
 ---
 title: 'New Publication "Flexynesis: A deep learning toolkit for bulk multi-omics data integration for precision oncology and beyond"'
-authors: Amirhossein Naghsh Nilchi
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-16'

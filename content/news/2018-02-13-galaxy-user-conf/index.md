@@ -3,10 +3,6 @@ title: Program for the Galaxy User Conference
 date: '2018-02-13'
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 tags: [conference]
 main_subsite: freiburg

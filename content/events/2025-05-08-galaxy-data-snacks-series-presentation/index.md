@@ -8,10 +8,6 @@ location:
   name: "Time: 13:00 (CET), Online (Zoom)"
 contact: "Armin Dadras"
 tags: [talk,esg,esg-wp1]
-supporters:
-- eurosciencegateway
-- denbi
-- unifreiburg
 subsites: [all, esg, eu]
 contributions:
   authorship:

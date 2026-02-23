@@ -3,10 +3,6 @@ title: '[GTN news] New Tutorial: Visualization of RNA-Seq results with Volcano P
   in R'
 date: '2021-06-26'
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/06/26/tutorial-volcanoplot-r.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

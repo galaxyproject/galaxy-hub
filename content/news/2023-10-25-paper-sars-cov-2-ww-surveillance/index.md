@@ -1,7 +1,6 @@
 ---
 title: "Galaxy and workflows: advancing SARS-CoV-2 genomic surveillance in wastewater"
 date: "2023-10-25"
-authors: Polina Polunina
 tease: "Galaxy empowered research in SARS-CoV-2 surveillance in wastewater"
 hide_tease: true
 subsites: [all-eu,global]

@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from the Gallantries Project
 date: '2019-12-10'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

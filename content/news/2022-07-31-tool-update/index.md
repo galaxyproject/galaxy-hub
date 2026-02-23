@@ -4,9 +4,6 @@ tease: "On 2022-07-31, the tools on UseGalaxy.eu were updated by our automated t
 hide_tease: true
 date: '2022-07-31'
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

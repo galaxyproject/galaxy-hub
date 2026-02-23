@@ -4,11 +4,6 @@ title: More than 8000 packages/containers in Bioconda/BioContainers from more th
 date: '2020-10-22'
 tease: from 1000+ contributors
 tags: [Bioconda]
-supporters:
-- conda
-- elixir
-- denbi
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

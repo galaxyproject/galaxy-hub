@@ -14,8 +14,6 @@ location:
   postal: 18059
   region: Mecklenburg-Vorpommern
   street: Albert-Einstein-Str. 22
-supporters:
-- denbi
 subsites: [eu]
 contributions:
   funding:

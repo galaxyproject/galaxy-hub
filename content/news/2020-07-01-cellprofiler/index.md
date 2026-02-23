@@ -2,13 +2,6 @@
 title: CellProfiler now available in Galaxy
 date: '2020-07-01'
 tags: [tools, training]
-supporters:
-- eosc
-- eubi
-- elixir
-- idr
-- galaxy-europe
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

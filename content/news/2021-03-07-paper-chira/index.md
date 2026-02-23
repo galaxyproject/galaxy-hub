@@ -4,10 +4,8 @@ title: 'New Paper "ChiRA: an integrated framework for chimeric read analysis fro
 date: '2021-03-07'
 doi: 10.1093/gigascience/giaa158
 tags: [paper]
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
-supporters: [unifreiburg]
 contributions:
   authorship:
     - beatrizserrano

@@ -4,15 +4,6 @@ date: '2021-03-10'
 tease: The first round of EOSC-Life demonstrators has driven eight successful use
   cases, three of them using Galaxy.
 tags: [training, tools]
-supporters:
-- eosc
-- eu
-- EOSC-Life
-- eubi
-- elixir
-- idr
-- galaxy-europe
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

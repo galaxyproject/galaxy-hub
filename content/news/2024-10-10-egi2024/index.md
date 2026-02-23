@@ -6,10 +6,6 @@ hide_tease: false
 subsites: [all-eu, esg]
 tags: [esg, esg-wp1, esg-wp3, esg-wp4]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - egi
 contributions:
   funding:
     - eurosciencegateway

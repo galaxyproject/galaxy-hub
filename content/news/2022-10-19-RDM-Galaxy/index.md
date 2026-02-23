@@ -3,7 +3,6 @@ title: 'Research Data Management in Galaxy'
 tease: How Galaxy manages your (meta)data
 date: '2022-10-19'
 subsites: [global, all-eu]
-authors: Beatriz Serrano-Solano
 author_github: beatrizserrano
 contributions:
   authorship:

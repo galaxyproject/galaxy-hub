@@ -4,8 +4,6 @@ date: '2019-07-22'
 location:
   name: Basel, CH
 tags: [talk]
-authors: 
-- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

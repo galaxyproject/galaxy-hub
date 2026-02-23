@@ -4,12 +4,8 @@ date: '2024-07-17'
 tease: "A reverse proxy and loadbalancer for two headnode setup at Galaxy Europe"
 hide_tease: false
 tags: [esg, admin, infrastructure, esg-wp3, esg-wp4]
-authors: "Mira Kuntz"
 contact: "kuntzm@informatik.uni-freiburg.de"
 subsites: [eu, esg, freiburg]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
 main_subsite: eu
 contributions:
   authorship:

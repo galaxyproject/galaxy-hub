@@ -2,17 +2,6 @@
 title: "Galaxy Community Conference 2024 - a brief summary from the Freiburg Galaxy Team!"
 tease: "A brief summary from the Freiburg Galaxy Team for GCC 2024"
 date: '2024-07-01'
-authors: Freiburg Galaxy Team
-supporters:
-- JXTX Foundation
-- Worfklow4Metabelomics
-- GalaxyWorks
-- GigaScience
-- KWS
-- Limagrain
-- deNBI
-- unifreiburg
-- eurosciencegateway
 subsites: [all-eu, global, us, esg]
 tags: [gcc, CoFest, training, Elixir, EOSC, Brno, esg, esg-wp1, meeting, outreach, talk]
 main_subsite: eu

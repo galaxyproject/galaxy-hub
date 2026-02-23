@@ -6,11 +6,6 @@ end: '2020-05-28'
 tags: [training, COVID-19]
 contacts:
 - name: Galaxy and ELIXIR
-supporters:
-- galaxy
-- elixir
-- denbi
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

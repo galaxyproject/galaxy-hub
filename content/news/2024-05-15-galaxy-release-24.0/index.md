@@ -3,7 +3,6 @@ title: 'Galaxy Release 24.0'
 date: '2024-05-15'
 tease: "Check out the newest features and updates on Galaxy!"
 hide_tease: false
-authors: Natalie Whitaker-Allen
 tags: [Release]
 subsites: [global, all]
 main_subsite: us

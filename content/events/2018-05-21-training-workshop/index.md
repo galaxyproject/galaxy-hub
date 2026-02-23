@@ -9,8 +9,6 @@ location:
 contacts:
 - email: nicola.soranzo@earlham.ac.uk
   name: Nicola Soranzo
-supporters:
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -2,10 +2,6 @@
 title: Galaxy on de.NBI cloud now with more power
 date: '2018-09-01'
 tags: [devops]
-supporters:
-- unifreiburg
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

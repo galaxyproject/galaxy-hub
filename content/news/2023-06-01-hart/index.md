@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-06-01"
 tags: [training, gtn-news]
 title: "[GTN news] GTN Celebrates Pride Month: Alan Hart &amp; M. Tuberculosis"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/06/01/hart.html'
 contributions:
   authorship:

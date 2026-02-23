@@ -5,10 +5,6 @@ tease: "From the 11th to the 14th of September, Engy Nasr and Paul Zierep from t
 location:
   name: Hamburg, Germany
 tags: [conference, talk, bioinformatics, poster, pathogen detection]
-authors: [Engy Nasr, Paul Zierep]
-supporters:
-- DECHEMA
-- ELIXIR
 components: true
 subsites: [all-eu]
 contributions:

@@ -1,7 +1,6 @@
 ---
 title: "Generic scatter plots for any Galaxy tabular data"
 date: "2023-08-07"
-authors: Ross Lazarus
 tease: "A tool generating interactive HTML scatter plots from Galaxy tabular data is now available for testing"
 hide_tease: true
 subsites: [all]

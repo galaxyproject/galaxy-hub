@@ -3,7 +3,6 @@ title: "Interactive tool collection is growing"
 date: "2023-09-15"
 tease: "New and improved interactive tools are available"
 hide_tease: false
-authors: 'Tunc Kayikcioglu'
 tags: [tools]
 subsites: [all-eu]
 main_subsite: eu

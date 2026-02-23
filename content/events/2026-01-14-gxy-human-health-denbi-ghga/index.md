@@ -10,7 +10,6 @@ location:
 continent: EU
 external_url: https://www.denbi.de/de-nbi-events/2006-the-de-nbi-elixir-de-and-ghga-knowledge-series-galaxy-for-analysis-of-human-health-data
 tease: 'A webinar in the de.NBI & ELIXIR-DE and GHGA knowledge series'
-supporters: [denbi, elixir, unifreiburg, ghga]
 contributions:
   funding:
     - deNBI

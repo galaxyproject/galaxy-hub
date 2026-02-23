@@ -2,7 +2,6 @@
 title: UseGalaxy.eu update to 19.01
 date: '2019-03-19'
 tags: [release]
-authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

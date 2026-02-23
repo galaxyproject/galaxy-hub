@@ -2,7 +2,6 @@
 title: Enough talking - time to act!
 date: '2019-11-23'
 tags: [s4f, society]
-authors: Wolfgang Maier
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -4,7 +4,6 @@ date: '2019-04-14'
 tags: [devops, tools]
 location:
   name: Galaxy Europe
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

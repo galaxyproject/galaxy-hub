@@ -9,8 +9,6 @@ contacts:
     Thanasis Vergoulis
 location:
   name: Workshop at the ELIXIR All Hands 2022, Amsterdam, Netherlands
-supporters:
-- elixir
 external_url: https://docs.google.com/document/d/1qixHRW2cvVgQPBwTVFsf_lpQaTwhouZ7G0AYv90wgvY/edit?usp=sharing
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

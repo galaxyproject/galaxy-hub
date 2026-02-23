@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-12-18"
 tags: [training, gtn-news]
 title: "[GTN news] User story: Where Galaxy meets medicinal chemistry"
-authors: "Julia Jakiela"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/12/18/medchem-user.html'
 contributions:
   authorship:

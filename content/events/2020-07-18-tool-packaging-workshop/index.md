@@ -7,10 +7,6 @@ contacts:
 - name: EOSC-Life-WP2
 location:
   name: online
-supporters:
-- eosc
-- biodaten
-- bioconda
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

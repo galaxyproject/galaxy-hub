@@ -2,9 +2,6 @@
 title: UseGalaxy.eu Tool Updates for 2022-05-08
 date: '2022-05-08'
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

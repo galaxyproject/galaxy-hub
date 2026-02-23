@@ -1,6 +1,5 @@
 ---
 title: "Highlights from the Galaxy Hackathon in Brest, France!"
-authors: [Diana Chiang Jurado, Rand Zoabi, Eli Chadwick]
 contributions:
   funding: [fairease,ifremer,eu,eurosciencegateway]
   authorship:
@@ -13,11 +12,6 @@ date: "2025-04-02"
 cover: "Hackathon-FAIR-EASE-2025-lighthouse.jpg"
 coveralt: "Brest Lighthouse photo 2025"
 tease: "Collaboration, innovation, and waves of creativity—Galaxy dives into data at the FAIR-EASE Hackathon in Brest!"
-supporters:
-  - fair-ease
-  - ifremer
-  - usegalaxy-eu
-  - eurosciencegateway
 subsites: [all,global,esg,eu]
 ---
 

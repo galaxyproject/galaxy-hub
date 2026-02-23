@@ -1,7 +1,6 @@
 ---
 title: "Sunsetting the CloudLaunch service"
 tease: "There are now better alternatives to using Galaxy on the cloud"
-authors: "Enis Afgan"
 date: "2021-10-15"
 contributions:
   authorship:

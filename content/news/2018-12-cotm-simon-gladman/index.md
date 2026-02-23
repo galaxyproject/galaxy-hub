@@ -1,7 +1,6 @@
 ---
 date: '2018-12-12'
 title: "Contributor of the Month: Simon Gladman"
-authors: "Martin Čech"
 image: "/news/2018-12-cotm-simon-gladman/simon_small.jpg"
 contributions:
   authorship:

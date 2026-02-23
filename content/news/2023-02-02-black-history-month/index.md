@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-02-02"
 tags: [training, gtn-news]
 title: "[GTN news] GTN Celebrates Black History Month"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/02/02/black-history-month.html'
 contributions:
   authorship:

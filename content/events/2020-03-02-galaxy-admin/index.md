@@ -10,8 +10,6 @@ location:
   postal: 08034
   region: Catalonia
   street: Jordi Girona 29
-supporters:
-- elixir
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

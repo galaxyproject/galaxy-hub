@@ -6,9 +6,6 @@ tags: [training, talk, poster]
 location:
   city: Portland
   country: USA
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

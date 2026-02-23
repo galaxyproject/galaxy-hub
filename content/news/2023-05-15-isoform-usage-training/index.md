@@ -3,7 +3,6 @@ title: "New Galaxy training: Genome-wide alternative splicing analysis"
 date: "2023-05-17"
 tease: "GTN hosts a new training for analyzing alternative splicing at genome-wide scale"
 hide_tease: false
-authors: 'Cristóbal Gallardo'
 tags: [training]
 subsites: [all-eu]
 main_subsite: eu

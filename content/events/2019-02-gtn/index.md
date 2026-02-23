@@ -9,9 +9,6 @@ location:
 contact: Bérénice Batut, Saskia Hiltemann
 gtn: false
 tags: [cofest, training]
-supporters:
-- elixir
-- denbi
 subsites: [all-eu, global, us]
 contributions:
   authorship:

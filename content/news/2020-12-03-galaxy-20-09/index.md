@@ -1,10 +1,6 @@
 ---
 title: UseGalaxy.eu update to 20.09
 date: '2020-12-03'
-supporters:
-- denbi
-- elixir
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [release]
 main_subsite: eu

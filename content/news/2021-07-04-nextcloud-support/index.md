@@ -2,11 +2,6 @@
 title: ownCloud and Nextcloud integration for your private data
 date: '2021-07-04'
 tags: [tools]
-supporters:
-- denbi
-- elixir
-- crc1425
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

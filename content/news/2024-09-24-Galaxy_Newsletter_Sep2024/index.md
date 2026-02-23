@@ -2,15 +2,9 @@
 title: "Galaxy Newsletter: September 2024"
 tease: "Discover exciting updates, including the Galaxy Training Academy 2024, ColabFold's arrival on Galaxy, GBCC2025, and major community milestones!"
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-09-24"
 tags: [highlight, esg, esg-wp1, newsletter]
 subsites: [global,all,esg]
-supporters:
-  - eurosciencegateway
-  - eu
-  - eosc
-  - unifreiburg
 contributions:
   authorship:
     - natalie-wa

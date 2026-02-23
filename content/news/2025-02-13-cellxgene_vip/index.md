@@ -5,12 +5,6 @@ tease: CELLxGENE-VIP is a frontend plugin of CELLxGENE, enabling users to genera
   It can also visualize spatial transcriptomics and 10X multiome.
 hide_tease: true
 tags: [tools]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-- nfdi4bioimagingnext-level
-authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
 contributions:

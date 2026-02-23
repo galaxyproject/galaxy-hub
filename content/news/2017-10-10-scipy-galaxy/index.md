@@ -2,7 +2,6 @@
 date: '2017-10-10'
 title: "SciPy and scikit-learn integration into Galaxy"
 tease: ""
-authors: "Björn Grüning"
 image: /news/2017-10-10-scipy-galaxy/sci-py-kit-learn.png
 tags: [tools]
 contributions:

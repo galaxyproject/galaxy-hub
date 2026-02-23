@@ -5,12 +5,6 @@ tease: "Research groups and networks can include their own storage into the Euro
 hide_tease: true
 tags:
 - citations
-authors: Björn Grüning
-supporters:
-- crc1425
-- crc992
-- denbi
-- elixir
 subsites: [global, all-eu]
 contributions:
   authorship:

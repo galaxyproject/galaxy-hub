@@ -1,7 +1,6 @@
 ---
 date: '2018-10-15'
 title: 'Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras'
-authors: "Bérénice Batut"
 subsites: [global, eu, freiburg]
 contributions:
   authorship:

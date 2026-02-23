@@ -2,9 +2,6 @@
 title: UseGalaxy.eu Tool Updates for 2020-07-18
 date: '2020-07-18'
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -4,9 +4,6 @@ date: '2019-11-02'
 tease: Agricultural Sciences collaboration between Swedish University of Agricultural
   sciences researchers and the Agricultural Research Council in South Africa
 tags: [tiaas, training]
-supporters:
-- galaxy-europe
-- TIaaS
 subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:

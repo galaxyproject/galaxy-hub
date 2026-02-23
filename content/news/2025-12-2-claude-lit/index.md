@@ -1,6 +1,5 @@
 ---
 title: "Using Claude AI for  Literature Searches"
-authors: "Anton Nekrutenko"
 tags: [AI, literature, research, tools]
 layout: news
 date: "2025-12-02"

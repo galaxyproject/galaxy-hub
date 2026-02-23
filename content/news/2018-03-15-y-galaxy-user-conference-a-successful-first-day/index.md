@@ -3,10 +3,6 @@ title: 'Galaxy User Conference: a successful first day'
 date: '2018-03-15'
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

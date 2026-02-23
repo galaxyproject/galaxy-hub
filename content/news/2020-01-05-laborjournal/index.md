@@ -2,11 +2,6 @@
 title: Laborjournal article about Galaxy
 date: '2020-01-05'
 tags: [outreach]
-supporters:
-- denbi
-- elixir
-authors: 
-- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

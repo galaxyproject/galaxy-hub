@@ -5,10 +5,6 @@ tease: ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bi
   Infrastructure for Life Sciences in Europe".
 hide_tease: true
 tags: [COVID-19, elixir, community]
-supporters:
-- denbi
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

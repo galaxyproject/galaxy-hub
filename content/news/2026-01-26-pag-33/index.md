@@ -1,6 +1,5 @@
 ---
 title: "PAG33 Meeting Report"
-authors: "Natalie Whitaker-Allen"
 tags: [conference, report]
 layout: news
 date: "2026-01-26"

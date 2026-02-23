@@ -11,8 +11,6 @@ location:
 contacts:
 - email: null
   name: de.NBI
-supporters:
-- denbi
 tags: [talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg

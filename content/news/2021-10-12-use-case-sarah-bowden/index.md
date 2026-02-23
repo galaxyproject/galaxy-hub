@@ -7,7 +7,6 @@ tease: Sarah Bowden from the Innere Medizin IV (Nephrologie und Allgemeinmedizin
   in Freiburg (Germany) has shared with us the main area of research of her project.
 hide_tease: true
 tags: [UseCase]
-authors: Sarah Bowden
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

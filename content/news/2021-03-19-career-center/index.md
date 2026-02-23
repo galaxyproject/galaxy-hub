@@ -3,7 +3,6 @@ title: Galaxy Career Center
 date: '2021-03-19'
 tags: [galaxy, jobs]
 external_url: https://galaxyproject.org/careers/
-authors: Dave Clements
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

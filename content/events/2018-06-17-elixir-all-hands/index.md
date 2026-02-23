@@ -6,9 +6,6 @@ tags: [training]
 location:
   city: Lisbon
   country: Portugal
-supporters:
-- elixir
-- denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

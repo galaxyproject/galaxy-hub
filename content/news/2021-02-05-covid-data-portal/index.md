@@ -3,14 +3,6 @@ title: The European Galaxy server listed as an official resource on the COVID-19
   Portal
 date: '2021-02-05'
 tags: [COVID-19, elixir]
-supporters:
-- denbi
-- elixir
-- eosc
-- eu
-- unifreiburg
-- biodaten
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

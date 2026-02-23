@@ -8,9 +8,6 @@ hide_tease: true
 tags: [training]
 location:
   name: Online
-supporters:
-- denbi
-authors: Gianmauro Cuccuru
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

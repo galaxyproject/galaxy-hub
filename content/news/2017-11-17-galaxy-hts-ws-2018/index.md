@@ -4,8 +4,6 @@ date: '2017-11-17'
 tags: [training]
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

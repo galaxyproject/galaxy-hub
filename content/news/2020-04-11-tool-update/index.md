@@ -2,9 +2,6 @@
 title: UseGalaxy.eu Tool Updates for 2020-04-11
 date: '2020-04-11'
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

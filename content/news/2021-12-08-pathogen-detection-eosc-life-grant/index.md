@@ -8,15 +8,6 @@ tease: 'Thanks to funding from EOSC-Life, the
   microbiological analyses, toward Accessible and scalable detection and
   identification of foodborne pathogens.'
 hide_tease: true
-supporters:
-- eosc
-- biolytix
-- elixir
-- denbi
-- EOSC-Life
-- unifreiburg
-- eu
-authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

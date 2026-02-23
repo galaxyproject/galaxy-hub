@@ -1,7 +1,6 @@
 ---
 date: '2018-11-15'
 title: 'Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann'
-authors: "Bérénice Batut"
 subsites: [global, eu, us, freiburg]
 main_subsite: freiburg
 contributions:

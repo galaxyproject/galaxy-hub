@@ -13,10 +13,6 @@ contacts:
 - email: null
   name: ELIXIR
 tags: [talk]
-supporters:
-- elixir
-- denbi
-- biodaten
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

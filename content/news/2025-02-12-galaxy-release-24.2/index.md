@@ -3,7 +3,6 @@ title: 'Galaxy Release 24.2'
 date: '2025-02-12'
 tease: "Check out the newest features and updates on Galaxy!"
 hide_tease: false
-authors: Scott Cain
 tags: [Release]
 subsites: [global, all]
 contributions:

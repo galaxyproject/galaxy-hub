@@ -1,7 +1,6 @@
 ---
 title: "Cancer informatics working group T2 update"
 tease: "CI-WG Updates from the tertile"
-authors: "Luke Sargent"
 date: "2021-09-02"
 contributions:
   authorship:

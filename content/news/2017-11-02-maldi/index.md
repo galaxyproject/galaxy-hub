@@ -2,8 +2,6 @@
 title: First imaging mass spectrometry added
 date: '2017-11-02'
 tags: [tools]
-supporters:
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

@@ -1,13 +1,8 @@
 ---
 title: "TESP-API: Bridging Galaxy, Pulsar, and the GA4GH TES Standard"
 date: "2025-10-06"
-authors: "Boris Juric"
 tags: [all-eu, esg, sg-wp4]
 subsites: [all, esg]
-supporters:
-  - eurosciencegateway
-  - cesnet
-  - elixir-cz
 tease: "Introducing TESP — a microservice connecting Galaxy and Pulsar through the GA4GH Task Execution Service (TES) interface, enabling standardized and efficient job execution across distributed environments."
 contributions:
   authorship:

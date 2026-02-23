@@ -6,10 +6,6 @@ hide_tease: false
 subsites: [all-eu, esg]
 tags: [esg, esg-wp1, elixir, meeting]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - elixir
 components: true
 contributions:
   funding:

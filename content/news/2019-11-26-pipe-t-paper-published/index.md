@@ -2,7 +2,6 @@
 title: PIPE-T paper published
 date: '2019-11-26'
 tags: [tools]
-authors: Marco Antonio Tangaro
 subsites: [eu, elixir-it]
 main_subsite: elixir-it
 contributions:

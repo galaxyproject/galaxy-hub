@@ -3,13 +3,6 @@ title: "MAdLand computational resources for the Plant community"
 date: "2024-10-01"
 tease: "The department of Molecular Plant Sciences presented the open, FAIR, and free tools and resources available for the plant research data analysis and data management developed in the MAdLand context."
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - denbi
-  - dataplant
-  - galaxy-europe
-  - madland
 subsites: [global, freiburg, eu, esg]
 tags: [esg,madland,de.nbi,nfdi4plants,dataplant,esg-wp1, esg-wp5]
 main_subsite: eu

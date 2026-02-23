@@ -1,7 +1,6 @@
 ---
 title: "Commoditising open computing in Galaxy"
 tease: "Transparent, reproducible open computing as a public good"
-authors: "Ross Lazarus"
 external_url: ""
 date: "2022-01-16"
 source_blog: ""

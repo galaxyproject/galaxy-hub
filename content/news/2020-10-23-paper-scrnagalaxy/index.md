@@ -4,8 +4,6 @@ title: New Paper "A single-cell RNA-sequencing training and analysis suite using
 date: '2020-10-23'
 doi: 10.1093/gigascience/giaa102
 tags: [paper, training]
-supporters:
-- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

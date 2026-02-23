@@ -9,8 +9,6 @@ image:
 location_url: "https://pasc23.pasc-conference.org/"
 contact: "Gregory Watson, Leandro Liborio, Kelly Elizabeth Nygren, Rolf Verberg, Sergey Yakubov, Hans-Rudolf Hotz"
 subsites: [global,esg]
-supporters:
-  - eurosciencegateway
 tags: [esg-wp5, esg, conference]
 contributions:
   authorship:

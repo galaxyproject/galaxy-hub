@@ -3,9 +3,6 @@ title: The first Paper Cuts Community Fest was a success!
 date: '2020-10-29'
 tease: So we will do this again in November!
 tags: [papercuts, galaxy]
-supporters:
-- galaxy-europe
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

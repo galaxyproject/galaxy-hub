@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Investigating Food Safety Threats"
 tease: "Learn how Galaxy can be used to detect and analyze drug-resistant bacteria threatening food safety in Egypt."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-06-03"
 tags: ["highlight"]
 subsites: [global,all]

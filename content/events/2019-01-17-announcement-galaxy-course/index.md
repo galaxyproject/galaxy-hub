@@ -13,9 +13,6 @@ location:
   name: Institute of Nuclear Sciences Vinca, Mike Petrovica Alasa
   postal: 11351
   street: Mike Petrovića Alasa 12-14
-supporters:
-- unifreiburg
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

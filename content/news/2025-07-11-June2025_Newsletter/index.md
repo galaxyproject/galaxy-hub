@@ -1,7 +1,6 @@
 ---
 title: "Galaxy and Bioconductor Community Conference Meeting Report"
 date: "2025-07-11"
-authors: Natalie Whitaker-Allen
 tease: "From groundbreaking research to hands-on workshops and live demos, GBCC2025 showcased the best of the Galaxy and Bioconductor communities."
 hide_tease: false
 subsites: [global, all]

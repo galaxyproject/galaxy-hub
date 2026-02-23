@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Rodrigo Ortega Polo
 date: '2020-07-25'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Rodrigo Ortega Polo
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

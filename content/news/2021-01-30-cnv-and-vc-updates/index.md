@@ -3,10 +3,6 @@ title: New and updated CNV and Variant Calling tools
 date: '2021-01-30'
 tease: on UseGalaxy.eu and in the Toolshed
 tags: [tools]
-supporters:
-- galaxy-europe
-- miracum
-authors: Wolfgang Maier
 subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:

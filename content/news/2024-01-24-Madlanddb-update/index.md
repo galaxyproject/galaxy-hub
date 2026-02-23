@@ -1,7 +1,6 @@
 ---
 title: "MAdLandDB: A Comprehensive Protein Database for Plant and Algal Genomes"
 date: "2024-01-24"
-authors: Deepti Varshney
 tease: "Exploring MAdLandDB: Protein Sequences across diverse Organisms"
 subsites: [global, eu]
 contributions:

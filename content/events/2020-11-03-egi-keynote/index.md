@@ -9,7 +9,6 @@ contacts:
 location:
   name: online
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-supporters: [egi, unifreiburg, denbi, esg, eosc, eu]
 main_subsite: eu
 contributions:
   funding:

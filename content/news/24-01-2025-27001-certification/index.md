@@ -2,11 +2,6 @@
 title: Information security management systems of the University of Freiburg recertified by TÜV SÜD
 date: '2025-01-24'
 tags: [galaxy, support]
-supporters:
-- galaxy-europe
-- unifreiburg
-- denbi
-- eurosciencegateway
 subsites: [all, esg, eu, freiburg]
 main_subsite: eu
 contributions:

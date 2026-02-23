@@ -10,7 +10,6 @@ gtn: true
 contact: "Anika Erxleben-Eggenhofer, Jochen Blom"
 subsites: [all]
 tags: [training, workshop]
-supporters: [denbi, unifreiburg]
 contributions:
   authorship:
     - erxleben

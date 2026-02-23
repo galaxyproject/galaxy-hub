@@ -6,10 +6,6 @@ tease: a visualization plug-in that extends Galaxy-P’s advantages into the vis
   of large, complex datasets
 tags: [paper]
 doi: https://doi.org/10.1093/gigascience/giaa025
-supporters:
-- denbi
-- elixir
-authors: Subina Mehta
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

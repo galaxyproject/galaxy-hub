@@ -6,13 +6,6 @@ hide_tease: false
 tags: [esg-wp5, esg, community, collaboration]
 subsites: [all-eu, esg]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - eu
-  - eosc
-  - unifrieburg
-  - elixir
-  - denbi
 contributions:
   funding:
     - eurosciencegateway

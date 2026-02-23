@@ -2,12 +2,6 @@
 title: 118 new plant reference genomes and transcriptomes added to Galaxy Europe!
 date: '2020-01-05'
 tags: [tools, data]
-supporters:
-- denbi
-- elixir
-- vib
-authors: 
-- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

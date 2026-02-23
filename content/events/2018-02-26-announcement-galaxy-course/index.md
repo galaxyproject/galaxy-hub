@@ -12,8 +12,6 @@ location:
   postal: 79104
   region: Baden-Württemberg
   street: Schaenzlestr.1
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

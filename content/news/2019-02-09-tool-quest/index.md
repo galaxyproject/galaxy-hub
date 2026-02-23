@@ -4,10 +4,6 @@ date: '2019-02-09'
 tags: [training]
 location:
   name: Galaxy Europe
-supporters:
-- denbi
-- bmbf
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -2,7 +2,6 @@
 title: 'UseGalaxy.eu Use Case: Circadian research'
 date: '2021-07-30'
 tags: [UseCase]
-authors: Akanksha Bafna
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

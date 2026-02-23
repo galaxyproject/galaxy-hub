@@ -2,7 +2,6 @@
 title: Using secure BioContainers to run Galaxy tools
 date: '2021-02-15'
 tags: [data, tools]
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

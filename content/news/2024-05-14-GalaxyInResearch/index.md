@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Exploring the Hidden World of Antarctic Toxins with Galaxy"
 tease: "Discover how Galaxy is helping to unravel the hidden world of peptide toxins in an Antarctic marine invertebrate."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-05-14"
 tags: ["highlight"]
 subsites: [global,all]

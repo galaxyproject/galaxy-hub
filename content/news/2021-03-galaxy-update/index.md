@@ -6,7 +6,6 @@ tease: New Featured and Community News sections; new events, releases, training,
 autotoc: false
 tags: [newsletter, galaxy, outreach]
 subsites: [all-eu, global, us]
-supporters: [eosc, eu, unifreiburg, elixir, denbi]
 ---
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)

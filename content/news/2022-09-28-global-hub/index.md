@@ -3,7 +3,6 @@ title: 'Introducing the Galaxy Global Hub'
 tease: Find all your Galaxy info in one website
 date: '2022-09-28'
 subsites: [all]
-authors: Nick Stoler
 contributions:
   authorship:
     - NickSto
