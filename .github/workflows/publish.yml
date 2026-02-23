@@ -11,20 +11,9 @@ env:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    outputs:
-      has_new_content: ${{ steps.check_changes.outputs.content }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-      - name: Check for news/events content changes
-        uses: dorny/paths-filter@v3
-        id: check_changes
-        with:
-          list-files: json
-          filters: |
-            content:
-              - added: 'content/news/**/index.md'
-              - added: 'content/events/**/index.md'
       - name: Setup node
         uses: actions/setup-node@v6
         with:
@@ -43,34 +32,35 @@ jobs:
       - name: Sync Gridsome to S3
         run: aws s3 sync dist/ s3://${{ secrets.AWS_S3_BUCKET }}/ --delete --acl public-read --follow-symlinks
       - name: Invalidate CloudFront cache for feeds
-        if: steps.check_changes.outputs.content == 'true'
         run: |
           aws cloudfront create-invalidation \
             --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
             --paths "/events/feed.json" "/news/feed.json" \
             --region us-east-1
       - name: Wait for cache invalidation
-        if: steps.check_changes.outputs.content == 'true'
         run: sleep 90
 
-  galaxy-social-assistant:
-    needs: publish
-    if: github.event_name == 'push' && needs.publish.outputs.has_new_content == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Create Galaxy Social Assistant Token
-        uses: actions/create-github-app-token@v2
-        id: galaxy-social-assistant-token
-        with:
-          app-id: ${{ vars.GALAXY_SOCIAL_ASSISTANT_APP_ID }}
-          private-key: ${{ secrets.GALAXY_SOCIAL_ASSISTANT_PRIVATE_KEY }}
-          owner: "usegalaxy-eu"
-          repositories: "galaxy-social-assistant"
-      - name: Trigger Galaxy Social Assistant
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: feed_bot.yml
-          repo: usegalaxy-eu/galaxy-social-assistant
-          token: ${{ steps.galaxy-social-assistant-token.outputs.token }}
-          ref: main
-          inputs: '{"days": "1"}'
+  # TODO: Re-enable galaxy-social-assistant on master's publish.yml after
+  # production cutover to Astro. The days parameter and content detection
+  # logic should move back there once Astro is deploying to galaxyproject.org.
+  # galaxy-social-assistant:
+  #   needs: publish
+  #   if: github.event_name == 'push' && needs.publish.outputs.has_new_content == 'true'
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Create Galaxy Social Assistant Token
+  #       uses: actions/create-github-app-token@v2
+  #       id: galaxy-social-assistant-token
+  #       with:
+  #         app-id: ${{ vars.GALAXY_SOCIAL_ASSISTANT_APP_ID }}
+  #         private-key: ${{ secrets.GALAXY_SOCIAL_ASSISTANT_PRIVATE_KEY }}
+  #         owner: "usegalaxy-eu"
+  #         repositories: "galaxy-social-assistant"
+  #     - name: Trigger Galaxy Social Assistant
+  #       uses: benc-uk/workflow-dispatch@v1
+  #       with:
+  #         workflow: feed_bot.yml
+  #         repo: usegalaxy-eu/galaxy-social-assistant
+  #         token: ${{ steps.galaxy-social-assistant-token.outputs.token }}
+  #         ref: main
+  #         inputs: '{"days": "1"}'
