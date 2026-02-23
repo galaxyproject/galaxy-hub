@@ -1,8 +1,9 @@
 name: Check Internal Links
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 23 * * *"
+  # Disabled: Gridsome build no longer maintained on master. Needs Astro equivalent.
+  # schedule:
+  #   - cron: "30 23 * * *"
 env:
   NODE_OPTIONS: --max-old-space-size=4096
 jobs:
