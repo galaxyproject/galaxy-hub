@@ -1260,7 +1260,7 @@ const pillars = [
                 const day = date.getDate();
                 const month = date.toLocaleDateString('en-US', { month: 'short' });
                 return (
-                  <a href={`/events/${event.data.slug}/`} class="event-card">
+                  <a href={`/${event.data.slug}/`} class="event-card">
                     <div class="event-date-box">
                       <span class="event-date-day">{day}</span>
                       <span class="event-date-month">{month}</span>

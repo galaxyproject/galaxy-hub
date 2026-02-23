@@ -125,7 +125,7 @@ const { title, description } = subsiteLabels[subsite] || {
             <div class="space-y-3">
               {upcomingEvents.map((event) => (
                 <a
-                  href={`/events/${event.data.slug}/`}
+                  href={`/${event.data.slug}/`}
                   class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
                 >
                   <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>

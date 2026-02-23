@@ -242,6 +242,25 @@ async function copyAssets(sourceDir, slug) {
 }
 
 /**
+ * Recursively copy a directory tree, normalizing directory names via
+ * normalizeSlugSegment so that paths match what rewriteSrc produces.
+ * File names are preserved as-is.
+ */
+async function copyDirWithNormalizedNames(srcDir, destDir) {
+  await fs.promises.mkdir(destDir, { recursive: true });
+  const entries = await fs.promises.readdir(srcDir, { withFileTypes: true });
+  for (const entry of entries) {
+    const srcPath = path.join(srcDir, entry.name);
+    if (entry.isDirectory()) {
+      const normalizedName = normalizeSlugSegment(entry.name);
+      await copyDirWithNormalizedNames(srcPath, path.join(destDir, normalizedName));
+    } else {
+      await fs.promises.copyFile(srcPath, path.join(destDir, entry.name));
+    }
+  }
+}
+
+/**
  * Determine which collection a file belongs to
  * Note: vue-articles merged into articles - all content can have components
  */
@@ -292,45 +311,104 @@ function slugToFilename(slug, useMdx = false) {
 }
 
 /**
- * Rewrite a single image src to the correct served path.
+ * Normalize directory segments of an asset path, leaving the filename unchanged.
+ * e.g. "events/gcc2013/photos/Venue.jpg" -> "events/gcc-2013/photos/Venue.jpg"
  */
-function rewriteSrc(src, slug) {
-  if (src.startsWith('/images/')) return src;
-  if (src.startsWith('/assets/') || src.startsWith('/media/')) return src;
-  if (src.startsWith('http')) return src;
-  if (!src.startsWith('/')) return `/images/${slug}/${src}`;
-  return `/images${src}`;
+function normalizeAssetPath(assetPath) {
+  const lastSlash = assetPath.lastIndexOf('/');
+  if (lastSlash < 0) return assetPath;
+  const dir = assetPath.slice(0, lastSlash);
+  const file = assetPath.slice(lastSlash);
+  return normalizeSlug(dir) + file;
 }
 
 /**
- * Process image paths in markdown content
+ * Rewrite a single asset src to the correct served path.
+ * Handles relative paths, absolute content paths, and /images/ paths,
+ * normalizing directory segments to match where copyAssets puts files.
+ */
+function rewriteSrc(src, slug) {
+  if (src.startsWith('/images/')) {
+    const rest = src.slice('/images/'.length);
+    return '/images/' + normalizeAssetPath(rest);
+  }
+  if (src.startsWith('/assets/') || src.startsWith('/media/')) return src;
+  if (/^[a-z][a-z0-9+.-]*:/i.test(src)) return src;
+  if (!src.startsWith('/')) {
+    const cleanSrc = src.startsWith('./') ? src.slice(2) : src;
+    return `/images/${slug}/${cleanSrc}`;
+  }
+  return '/images/' + normalizeAssetPath(src.slice(1));
+}
+
+/**
+ * Process asset paths in markdown content — images, videos, PDFs, and other
+ * files that live alongside content and get copied to /images/{slug}/.
  */
 function processImagePaths(content, slug) {
   let processed = content;
 
-  // Update markdown image syntax: ![alt](image.png) -> ![alt](/images/slug/image.png)
+  const assetExts = 'jpg|jpeg|png|gif|svg|webp|pdf|mp4|webm';
+
+  // Markdown images: ![alt](file.ext) or ![alt](file.ext "title")
   processed = processed.replace(
-    /!\[([^\]]*)\]\(([^)\s]+\.(jpg|jpeg|png|gif|svg|webp))([^)]*)\)/gi,
+    new RegExp(`!\\[([^\\]]*)\\]\\(([^)\\s]+\\.(${assetExts}))([^)]*)\\)`, 'gi'),
     (match, alt, src, ext, rest) => {
       const rewritten = rewriteSrc(src, slug);
-      if (rewritten !== src) {
-        return `![${alt}](${rewritten}${rest})`;
-      }
+      if (rewritten !== src) return `![${alt}](${rewritten}${rest})`;
       return match;
     }
   );
 
-  // Update HTML img tags
+  // HTML img tags
   processed = processed.replace(
-    /<img\s+([^>]*src=["'])([^"']+\.(jpg|jpeg|png|gif|svg|webp))["']([^>]*)>/gi,
+    new RegExp(`<img\\s+([^>]*src=["'])([^"']+\\.(${assetExts}))["']([^>]*)>`, 'gi'),
     (match, prefix, src, ext, suffix) => {
       const rewritten = rewriteSrc(src, slug);
-      if (rewritten !== src) {
-        return `<img ${prefix}${rewritten}"${suffix}>`;
-      }
+      if (rewritten !== src) return `<img ${prefix}${rewritten}"${suffix}>`;
       return match;
     }
   );
+
+  // HTML a href pointing to local asset files
+  processed = processed.replace(
+    new RegExp(`(<a\\s[^>]*href=["'])([^"']+\\.(${assetExts}))(["'][^>]*>)`, 'gi'),
+    (match, prefix, src, ext, suffix) => {
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) return `${prefix}${rewritten}${suffix}`;
+      return match;
+    }
+  );
+
+  // HTML source/video/video-player src tags
+  processed = processed.replace(
+    new RegExp(`(<(?:source|video|video-player)\\s[^>]*src=["'])([^"']+\\.(${assetExts}))(["'][^>]*>)`, 'gi'),
+    (match, prefix, src, ext, suffix) => {
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) return `${prefix}${rewritten}${suffix}`;
+      return match;
+    }
+  );
+
+  // Markdown links to asset files: [text](file.ext)
+  // Negative lookbehind avoids re-matching markdown images already handled above
+  processed = processed.replace(
+    new RegExp(`(?<!!)\\[([^\\]]*)\\]\\(([^)\\s]+\\.(?:${assetExts}))\\)`, 'gi'),
+    (match, text, src) => {
+      const rewritten = rewriteSrc(src, slug);
+      if (rewritten !== src) return `[${text}](${rewritten})`;
+      return match;
+    }
+  );
+
+  // Catch-all for ](url.ext) — handles nested markdown like [![img](src)](target)
+  // where the outer link target wasn't caught by earlier regexes because [^\]]*
+  // can't match alt text containing ] characters
+  processed = processed.replace(new RegExp(`\\]\\(([^)\\s]+\\.(?:${assetExts}))\\)`, 'gi'), (match, src) => {
+    const rewritten = rewriteSrc(src, slug);
+    if (rewritten !== src) return `](${rewritten})`;
+    return match;
+  });
 
   return processed;
 }
@@ -915,6 +993,14 @@ async function processMarkdownFile(filePath) {
     processedFrontmatter.image = rewriteSrc(processedFrontmatter.image, slug);
   }
 
+  // Rewrite external_url when it points to a local asset file
+  if (processedFrontmatter.external_url && typeof processedFrontmatter.external_url === 'string') {
+    const extUrl = processedFrontmatter.external_url;
+    if (!extUrl.startsWith('http') && /\.(pdf|mp4|webm|png|jpg|jpeg|gif|svg|webp)$/i.test(extUrl)) {
+      processedFrontmatter.external_url = rewriteSrc(extUrl, slug);
+    }
+  }
+
   // Store original slug for redirect generation when it differs from normalized
   if (naturalSlug !== slug) {
     processedFrontmatter.naturalSlug = naturalSlug;
@@ -1052,17 +1138,31 @@ export async function preprocessContent(options = {}) {
   const errors = mdErrors + yamlErrors;
 
   // Copy global images directory (content/images/ -> public/images/)
+  // Directory names are normalized to match rewriteSrc path normalization
   const globalImagesDir = path.join(CONTENT_DIR, 'images');
   try {
     const stats = await fs.promises.stat(globalImagesDir);
     if (stats.isDirectory()) {
       console.log('Copying global images directory...');
-      await fs.promises.cp(globalImagesDir, PUBLIC_IMAGES_DIR, { recursive: true });
+      await copyDirWithNormalizedNames(globalImagesDir, PUBLIC_IMAGES_DIR);
       const imageCount = (await glob('**/*', { cwd: globalImagesDir, nodir: true })).length;
       console.log(`  Copied ${imageCount} files from content/images/`);
     }
   } catch {
     // Global images directory doesn't exist, that's fine
+  }
+
+  // Copy ESG project assets (no index.md so copyAssets doesn't run for it)
+  const esgDir = path.join(CONTENT_DIR, 'projects', 'esg');
+  try {
+    const stats = await fs.promises.stat(esgDir);
+    if (stats.isDirectory()) {
+      await copyAssets(esgDir, 'projects/esg');
+      const assetCount = (await glob('**/*.{png,jpg,svg,gif}', { cwd: esgDir, nodir: true })).length;
+      console.log(`  Copied ${assetCount} ESG project assets`);
+    }
+  } catch {
+    // ESG directory doesn't exist, that's fine
   }
 
   // Copy global assets directory (content/assets/ -> public/assets/)
@@ -1142,6 +1242,7 @@ export {
   convertComponentsToPascalCase,
   addBootstrapMarker,
   processImagePaths,
+  rewriteSrc,
   inlineInserts,
   resolveInsertContent,
   insertCache,

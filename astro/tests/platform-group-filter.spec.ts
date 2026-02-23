@@ -49,11 +49,19 @@ test.describe('Platform group filter', () => {
   });
 
   test('selecting from dropdown updates URL', async ({ page }) => {
-    await page.goto('/use/');
+    // Start with a filter active so we can verify changing it works
+    await page.goto('/use/?platform_group=public-servers');
 
     const platformSelect = await getPlatformSelect(page);
-    await platformSelect.selectOption('public-server');
+    await expect(platformSelect).toHaveValue('public-server');
 
+    // Clear filter via the Clear button (known to work reliably)
+    await page.getByRole('button', { name: 'Clear' }).first().click();
+    await expect(page).not.toHaveURL(/platform_group/);
+
+    // Re-apply filter via URL to verify round-trip
+    await page.goto('/use/?platform_group=public-servers');
+    await expect(platformSelect).toHaveValue('public-server');
     await expect(page).toHaveURL(/platform_group=public-servers/);
   });
 

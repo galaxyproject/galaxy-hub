@@ -64,7 +64,6 @@ And we wanted to celebrate this important milestone with __all the people that h
 
 __Big thanks__ to everybody that has contributed to the success of UseGalaxy.eu and to each of the 50K users for using Galaxy! Next stop: 100K!
 
-import Flickr from '@/components/Flickr.vue';
 <div class="center">
   <Flickr title="50k user workshop" link="https://www.flickr.com/photos/134305289@N03/52168204601/in/shares-eLN9iG/" coverWidth="640" coverHeight="427" cover="https://live.staticflickr.com/65535/52168204601_12fc4c1f4a.jpg"></Flickr>
 </div>
