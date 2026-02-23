@@ -117,10 +117,6 @@ mapping:
                               enum:
                                   - ORGANISATIONS
                                   - GRANTS
-            supporters:
-                type: seq
-                sequence:
-                    - type: str
             starts:
                 type: any
             ends:
