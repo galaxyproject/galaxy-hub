@@ -1,5 +1,10 @@
 ---
 title: "Lights, Camera... Hacking! Highlights from the Galaxy Imaging Hackathon 2025"
+authors: "Diana Chiang Jurado" 
+contributions:
+    funding: [nfdi4bioimage, de.KCD, oscars, fiesta]
+    authorship:
+      - dianichj
 tags: [imaging, hackathon, community, workflow, FAIR, microscopy]
 layout: news
 date: "2025-05-12"
@@ -13,15 +18,6 @@ supporters:
   - fiesta
   - eurosciencegateway
 subsites: [all,global,esg,eu]
-contributions:
-  authorship:
-    - dianichj
-  funding:
-    - deKCD
-    - nfdi4bioimage
-    - deNBI
-    - oscars
-    - fiesta
 ---
 
 # 🧬 Lights, Camera... Hacking! Highlights from the Galaxy Imaging Hackathon 2025 🎬🔬
