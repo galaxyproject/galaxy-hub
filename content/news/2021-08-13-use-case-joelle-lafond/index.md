@@ -6,7 +6,7 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:
-    - joëllelafond
+    - joellelafond
 ---
 
 [__Joëlle Lafond__](https://bio.umontreal.ca/repertoire-departement/etudiants-aux-cycles-superieurs/joelle-lafond/) works at th [Université de Montréal, Canada](https://www.umontreal.ca/) 

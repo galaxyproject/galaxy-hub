@@ -7,5 +7,5 @@ source_blog_url: "https://github.com/bgruening/docker-galaxy-stable"
 source_blog: "Docker Galaxy Stable Docs"
 contributions:
   authorship:
-    - rafahernández
+    - fikipollo
 ---
