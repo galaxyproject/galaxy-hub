@@ -50,12 +50,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install metadata validator dependencies
-        run: |
-          uv pip install --system pykwalify pyyaml
-
       - name: Validate metadata
-        run: make validate-metadata
+        run: uv run --python 3.12 --with pykwalify --with pyyaml make validate-metadata
 
   unit-tests:
     name: Unit Tests
