@@ -7,6 +7,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import { isPublishedDate, formatDate as formatDateUtil, formatDateRange as formatDateRangeUtil } from './dateUtils';
 
 type ArticleEntry = CollectionEntry<'articles'>;
+export type NewsEntry = CollectionEntry<'news'>;
 type EventEntry = CollectionEntry<'events'>;
 type PlatformEntry = CollectionEntry<'platforms'>;
 type InsertEntry = CollectionEntry<'inserts'>;
@@ -129,13 +130,16 @@ function isValidTag(tag: string): boolean {
  * Get all unique tags with counts from articles and events
  */
 export async function getAllTags(): Promise<Map<string, number>> {
-  const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
+  const [articles, news, events] = await Promise.all([
+    getCollection('articles'),
+    getCollection('news'),
+    getCollection('events'),
+  ]);
 
   const tagCounts = new Map<string, number>();
 
-  // Count tags from articles
-  for (const article of articles) {
-    const tags = article.data.tags || [];
+  for (const entry of [...articles, ...news]) {
+    const tags = entry.data.tags || [];
     for (const tag of tags) {
       if (!isValidTag(tag)) continue;
       const normalizedTag = tag.toLowerCase().trim();
@@ -143,7 +147,6 @@ export async function getAllTags(): Promise<Map<string, number>> {
     }
   }
 
-  // Count tags from events
   for (const event of events) {
     const tags = event.data.tags || [];
     for (const tag of tags) {
@@ -206,18 +209,24 @@ export async function getInsert(slug: string): Promise<InsertEntry | undefined> 
 }
 
 /**
- * Get news articles (articles in news/ path)
+ * Get news articles from the news collection
  */
-export async function getNews(subsite?: string): Promise<ArticleEntry[]> {
-  const articles = await getArticles(subsite);
+export async function getNews(subsite?: string): Promise<NewsEntry[]> {
+  const news = await getCollection('news');
 
-  return articles
-    .filter((article) => article.data.slug?.startsWith('news/'))
-    .sort((a, b) => {
-      const dateA = new Date(a.data.date || 0);
-      const dateB = new Date(b.data.date || 0);
-      return dateB.getTime() - dateA.getTime();
-    });
+  const filtered =
+    !subsite || subsite === 'global'
+      ? news
+      : news.filter((article) => {
+          const subsites = article.data.subsites || [];
+          return subsites.includes(subsite) || subsites.includes('all');
+        });
+
+  return filtered.sort((a, b) => {
+    const dateA = new Date(a.data.date || 0);
+    const dateB = new Date(b.data.date || 0);
+    return dateB.getTime() - dateA.getTime();
+  });
 }
 
 /**
@@ -225,7 +234,7 @@ export async function getNews(subsite?: string): Promise<ArticleEntry[]> {
  * Note: Filtering happens at build time. Future-dated articles will only
  * appear after a site rebuild on or after their publication date.
  */
-export async function getPublishedNews(subsite?: string): Promise<ArticleEntry[]> {
+export async function getPublishedNews(subsite?: string): Promise<NewsEntry[]> {
   const articles = await getNews(subsite);
   const now = new Date();
 

@@ -2,10 +2,9 @@
 import HomeLayout from '../layouts/HomeLayout.astro';
 import { getCollection } from 'astro:content';
 
-// Get recent news (news articles are in 'articles' collection, filtered by slug)
-const articles = await getCollection('articles');
-const recentNews = articles
-  .filter((article) => article.data.slug?.startsWith('news/'))
+// Get recent news from the news collection
+const news = await getCollection('news');
+const recentNews = news
   .sort((a, b) => {
     const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
     const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');

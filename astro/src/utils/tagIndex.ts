@@ -1,10 +1,12 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import type { NewsEntry } from './content';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
 
 export type TagProfile = {
   articles: ArticleEntry[];
+  news: NewsEntry[];
   events: EventEntry[];
   count: number;
 };
@@ -25,7 +27,11 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
   if (tagIndexPromise) return tagIndexPromise;
 
   tagIndexPromise = (async () => {
-    const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
+    const [articles, news, events] = await Promise.all([
+      getCollection('articles'),
+      getCollection('news'),
+      getCollection('events'),
+    ]);
 
     const index = new Map<string, TagProfile>();
 
@@ -33,7 +39,7 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
       const normalized = normalizeTag(tag);
       let profile = index.get(normalized);
       if (!profile) {
-        profile = { articles: [], events: [], count: 0 };
+        profile = { articles: [], news: [], events: [], count: 0 };
         index.set(normalized, profile);
       }
       return profile;
@@ -50,6 +56,17 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
       }
     }
 
+    // Index news
+    for (const article of news) {
+      const tags = article.data.tags || [];
+      for (const tag of tags) {
+        if (!isValidTag(tag)) continue;
+        const profile = ensureTag(tag);
+        profile.news.push(article);
+        profile.count++;
+      }
+    }
+
     // Index events
     for (const event of events) {
       const tags = event.data.tags || [];
@@ -61,9 +78,14 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
       }
     }
 
-    // Sort articles and events by date (newest first) for each tag
+    // Sort by date (newest first) for each tag
     index.forEach((profile) => {
       profile.articles.sort((a, b) => {
+        const dateA = new Date(a.data.date || 0).getTime();
+        const dateB = new Date(b.data.date || 0).getTime();
+        return dateB - dateA;
+      });
+      profile.news.sort((a, b) => {
         const dateA = new Date(a.data.date || 0).getTime();
         const dateB = new Date(b.data.date || 0).getTime();
         return dateB - dateA;

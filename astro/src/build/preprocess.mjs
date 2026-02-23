@@ -269,6 +269,11 @@ function getContentCollection(filePath) {
     return 'events';
   }
 
+  // News collection
+  if (relativePath.startsWith('news/')) {
+    return 'news';
+  }
+
   // Platform pages (Galaxy servers)
   if (relativePath.startsWith('use/') && !relativePath.startsWith('use/index')) {
     return 'platforms';
@@ -918,6 +923,10 @@ async function processMarkdownFile(filePath) {
   // Add hasComponents flag for rendering
   if (hasComponents) {
     processedFrontmatter.hasComponents = true;
+  }
+
+  if (collection === 'news' && !processedFrontmatter.tease) {
+    console.warn(`  Warning: news article missing tease: ${relativePath}`);
   }
 
   // Ensure collection directory exists
