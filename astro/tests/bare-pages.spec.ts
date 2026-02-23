@@ -167,14 +167,13 @@ test.describe('Bare Pages', () => {
   });
 
   test.describe('Bare Article Pages (dynamic routes)', () => {
-    test('/bare/eu/usegalaxy/main/ renders with MDX components', async ({ page }) => {
+    test('/bare/eu/usegalaxy/main/ renders with inlined insert content', async ({ page }) => {
       const response = await page.goto('/bare/eu/usegalaxy/main/');
       expect(response?.status()).toBe(200);
 
-      // Should have Insert content rendered
-      const allInserts = page.locator('.insert');
-      const totalInserts = await allInserts.count();
-      expect(totalInserts).toBeGreaterThan(0);
+      // Inlined insert content from /eu/common/data-policy should be present
+      const dataPolicy = page.getByText('Our Data Policy');
+      await expect(dataPolicy).toBeVisible();
 
       // Iframes for latest news/events feeds should be present
       const iframes = page.locator('iframe.resize-y');

@@ -82,11 +82,11 @@ watch(activeTab, (tab) => {
         <HubSearch :query="searchQuery" />
       </TabsContent>
 
-      <TabsContent value="google" force-mount>
+      <TabsContent value="google" force-mount class="data-[state=inactive]:hidden">
         <PanGalacticSearch :query="searchQuery" />
       </TabsContent>
 
-      <TabsContent value="publications" force-mount>
+      <TabsContent value="publications" force-mount class="data-[state=inactive]:hidden">
         <PublicationSearch :query="searchQuery" />
       </TabsContent>
     </Tabs>

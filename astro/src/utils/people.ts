@@ -4,9 +4,24 @@ import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
 import { communitySlug } from './contributors';
 
-export const europeSites = ['freiburg', 'ifb', 'erasmusmc', 'elixir-it', 'genouest', 'cz'] as const;
+export const europeSites = {
+  freiburg: 'Freiburg',
+  ifb: 'ELIXIR France/IFB',
+  erasmusmc: 'Erasmus MC',
+  'elixir-it': 'ELIXIR Italy',
+  genouest: 'GenOuest',
+  cz: 'Czech Republic',
+} as const;
 
-export type EuropeSiteId = (typeof europeSites)[number];
+export const usSites = {
+  jhu: 'Johns Hopkins',
+  pennstate: 'Penn State',
+  ccf: 'Cleveland Clinic',
+  moffitt: 'Moffitt Cancer Center',
+} as const;
+
+export type EuropeSiteId = keyof typeof europeSites;
+export type UsSiteId = keyof typeof usSites;
 
 export interface PersonProfile {
   id: string;

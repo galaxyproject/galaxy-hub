@@ -24,7 +24,7 @@ const { articles } = Astro.props;
 function formatDate(date: Date | string | undefined | null): string {
   if (!date) return '';
   const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  return d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 function articleSlug(article: NewsEntry): string {
@@ -73,10 +73,15 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
 </table>
 
 <style>
+  body table.news-table {
+    border: 1px solid #bdc6d0;
+  }
   .news-table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.9em;
+    table-layout: fixed;
+    border: 1px solid #bdc6d0;
   }
 
   .news-table th {
@@ -86,24 +91,28 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
     color: #2c3143;
     font-weight: 600;
     white-space: nowrap;
+    background-color: #fff;
   }
 
   .news-table td {
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid #eee;
+    padding: 0.7rem 1rem;
+    border: 1px solid #bdc6d0;
     vertical-align: top;
   }
 
-  .news-table tr:hover {
-    background: #f8f9fa;
+  table.news-table tbody tr:hover {
+    background: #eef0f2 !important;
   }
 
   .col-date {
     white-space: nowrap;
     color: #555;
-    min-width: 120px;
+    width: 20%;
   }
 
+  .col-title {
+    width: 30%;
+  }
   .col-title a {
     color: #25537b;
     font-weight: 500;
@@ -121,5 +130,9 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
   .col-tease {
     color: #555;
     font-size: 0.95em;
+    width: 50%;
+  }
+  table.news-table tbody tr:nth-child(odd) {
+    background: #f8f9fa;
   }
 </style>

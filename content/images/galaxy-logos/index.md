@@ -16,7 +16,7 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
 
 * White background, symbol + "Galaxy": [292x75 pixels](/images/galaxy-logos/galaxy_logo_25percent.png)
 
-    [<img src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project Logo, white background" />](/images/galaxy-logos/galaxy_logo_25percent.png),
+    [<img src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project Logo, white background" />](/images/galaxy-logos/galaxy_logo_25percent.png)
 
 * Transparent background, symbol + "Galaxy": [292x75 pixels](/images/galaxy-logos/galaxy_logo_25percent_transparent.png)
 

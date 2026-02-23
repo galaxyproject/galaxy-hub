@@ -1,5 +1,6 @@
 ---
 title: Galaxy Europe
+components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

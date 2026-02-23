@@ -1,13 +1,19 @@
 ---
 title: "Galaxy at the Conference on Research Data Infrastructure (CoRDI) 2025 in Aachen"
-contributions:
-  authorship: [Sch-Da]
-tags: [conference]
+tags: [conference, nfdi, rdm, research data management]
 layout: news
 date: "2025-08-29"
 supporters: [dataplant, denbi, nfdi4bioimage, mwk] 
 tease: "Galactic views on the Conference on Research Data Infrastructure"
 subsites: [all,eu]
+contributions:
+  authorship:
+    - Sch-Da
+  funding:
+    - deNBI
+    - nfdi4plants
+    - nfdi4bioimage
+    - mwk
 ---
 # The Freiburg Galaxy team participated in CoRDI
 

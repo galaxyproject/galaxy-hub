@@ -352,6 +352,10 @@ arashghodousi:
     - san-raffaele-uni
     joined: 2024-06
 
+arrmunoz:
+    name: Maria Arrate Munoz Barrutia
+    joined: 2026-01
+
 arundecano:
     gtn-halloffame: "no"
     name: Arun Decano
@@ -4200,6 +4204,7 @@ rmassei:
     joined: 2024-11
     affiliations:
       - nfdi4bioimage
+      - ufz
 
 sfragkoul:
     name: Stella Fragkouli

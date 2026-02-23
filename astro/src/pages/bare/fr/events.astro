@@ -48,35 +48,43 @@ const pastEvents = allEvents
 ---
 
 <BareArticleLayout title="Galaxy France Events">
-  <h2>Galaxy France Events</h2>
+  <div class="events-subsite">
+    <h2>Galaxy France Events</h2>
 
-  {
-    upcomingEvents.length > 0 && (
-      <section>
-        <h3>Upcoming Events</h3>
-        <EventsTable events={upcomingEvents} />
-      </section>
-    )
-  }
+    {
+      upcomingEvents.length > 0 && (
+        <section>
+          <h3>Upcoming Events</h3>
+          <EventsTable events={upcomingEvents} />
+        </section>
+      )
+    }
 
-  {
-    pastEvents.length > 0 && (
-      <section>
-        <h3>Recent Events (past 12 months)</h3>
-        <EventsTable events={pastEvents} />
-      </section>
-    )
-  }
+    {
+      pastEvents.length > 0 && (
+        <section>
+          <h3>Recent Events (past 12 months)</h3>
+          <EventsTable events={pastEvents} />
+        </section>
+      )
+    }
+  </div>
+</BareArticleLayout>
 
-  <style>
+<style>
+  .events-subsite {
+    h2 {
+      border: 0;
+    }
+
     h3 {
       color: #2c3143;
-      border-bottom: 2px solid #25537b;
+      border-bottom: 0;
       padding-bottom: 0.5rem;
     }
 
     section {
       margin-bottom: 2rem;
     }
-  </style>
-</BareArticleLayout>
+  }
+</style>

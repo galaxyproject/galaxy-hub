@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
@@ -26,6 +26,37 @@ const props = defineProps<{
 const searchQuery = ref('');
 const selectedScope = ref<string>('all');
 const selectedLocation = ref<string>('all');
+const selectedPlatformGroup = ref<string>('all');
+
+// Maps URL slugs (plural, matching old Gridsome site) to data values (singular)
+const urlSlugToGroup: Record<string, string> = {
+  'public-servers': 'public-server',
+  'public-server': 'public-server',
+  'academic-clouds': 'academic-cloud',
+  'academic-cloud': 'academic-cloud',
+  'commercial-clouds': 'commercial-cloud',
+  'commercial-cloud': 'commercial-cloud',
+  containers: 'container',
+  container: 'container',
+  vms: 'vm',
+  vm: 'vm',
+};
+
+const groupToUrlSlug: Record<string, string> = {
+  'public-server': 'public-servers',
+  'academic-cloud': 'academic-clouds',
+  'commercial-cloud': 'commercial-clouds',
+  container: 'containers',
+  vm: 'vms',
+};
+
+const groupLabels: Record<string, string> = {
+  'public-server': 'Public Server',
+  'academic-cloud': 'Academic Cloud',
+  'commercial-cloud': 'Commercial Cloud',
+  container: 'Container',
+  vm: 'Virtual Machine',
+};
 
 // Extract unique scopes and locations for filters
 const scopes = computed(() => {
@@ -44,6 +75,16 @@ const locations = computed(() => {
     });
   });
   return ['all', ...Array.from(uniqueLocations).sort()];
+});
+
+const platformGroups = computed(() => {
+  const uniqueGroups = new Set<string>();
+  props.platforms.forEach((p) => {
+    p.platforms?.forEach((inst) => {
+      if (inst.platform_group) uniqueGroups.add(inst.platform_group);
+    });
+  });
+  return ['all', ...Array.from(uniqueGroups).sort()];
 });
 
 // Filter platforms based on search and filters
@@ -71,6 +112,11 @@ const filteredPlatforms = computed(() => {
     result = result.filter((p) => p.platforms?.some((inst) => inst.platform_location === selectedLocation.value));
   }
 
+  // Platform group filter
+  if (selectedPlatformGroup.value !== 'all') {
+    result = result.filter((p) => p.platforms?.some((inst) => inst.platform_group === selectedPlatformGroup.value));
+  }
+
   // Sort by title
   return result.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
 });
@@ -79,7 +125,33 @@ function clearFilters() {
   searchQuery.value = '';
   selectedScope.value = 'all';
   selectedLocation.value = 'all';
+  selectedPlatformGroup.value = 'all';
 }
+
+function updateUrl(group: string) {
+  const params = new URLSearchParams(window.location.search);
+  if (group === 'all') {
+    params.delete('platform_group');
+  } else {
+    params.set('platform_group', groupToUrlSlug[group] || group);
+  }
+  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+  window.history.replaceState({}, '', newUrl);
+}
+
+onMounted(() => {
+  const param = new URLSearchParams(window.location.search).get('platform_group');
+  if (param) {
+    const group = urlSlugToGroup[param];
+    if (group) {
+      selectedPlatformGroup.value = group;
+    }
+  }
+});
+
+watch(selectedPlatformGroup, (group) => {
+  updateUrl(group);
+});
 
 function getScopeLabel(scope: string): string {
   const labels: Record<string, string> = {
@@ -137,6 +209,19 @@ function getHostname(url: string): string {
           >
             <option v-for="loc in locations" :key="loc" :value="loc">
               {{ loc === 'all' ? 'All Locations' : loc }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Platform Group Filter -->
+        <div class="w-full md:w-48">
+          <label class="block text-sm font-medium text-gray-700 mb-1">Platform</label>
+          <select
+            v-model="selectedPlatformGroup"
+            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+          >
+            <option v-for="group in platformGroups" :key="group" :value="group">
+              {{ group === 'all' ? 'All Platforms' : groupLabels[group] || group }}
             </option>
           </select>
         </div>

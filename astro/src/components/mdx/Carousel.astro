@@ -4,9 +4,48 @@ import CarouselVue from '../embed/Carousel.vue';
 interface Props {
   images?: any[];
   src?: string;
+  link?: string;
+  autoplay?: boolean;
+  interval?: number;
 }
 
 const props = Astro.props;
 ---
 
-<CarouselVue client:visible {...props} />
+<CarouselVue
+  client:visible
+  autoplay={props.autoplay ?? true}
+  interval={props.interval ?? 5000}
+  images={props.images ?? [
+    {
+      src: '/images/events/gcc2026/gcc2026-carousel.png',
+      alt: 'Galaxy Community Conference 2026 - Announcement',
+      link: 'https://galaxyproject.org/events/gcc2026/',
+    },
+    {
+      src: '/images/usegalaxy-welcome/jxtx_carousel.svg',
+      alt: 'Donate to the James P. Taylor Foundation for Open Science',
+      link: 'https://jxtxfoundation.org',
+    },
+    {
+      src: '/images/usegalaxy-welcome/theguy.svg',
+      alt: 'Use collections!',
+      link: 'https://galaxyproject.org/news/2025-10-21-whycollections/',
+    },
+    {
+      src: '/images/usegalaxy-welcome/window_manager.svg',
+      alt: 'Use collections!',
+      link: 'https://galaxyproject.org/news/2025-10-28-window-manager/',
+    },
+    {
+      src: '/images/usegalaxy-welcome/gtn.svg',
+      alt: 'Try GTN',
+      link: 'https://training.galaxyproject.org/',
+    },
+    {
+      src: '/images/usegalaxy-welcome/dotstar.svg',
+      alt: 'Usegalaxy.*',
+      link: 'https://galaxyproject.org/usegalaxy/',
+    },
+  ]}
+/>
