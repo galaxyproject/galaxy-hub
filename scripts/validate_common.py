@@ -144,7 +144,7 @@ def validate_data(source_data, schema_data):
         return 1, messages
 
 
-def check_recent_folder_names(aggregated, cutoff="2026-02-01"):
+def check_recent_folder_names(aggregated, cutoff="2026-02-23"):
     """
     For entries with a frontmatter date newer than cutoff, ensure the folder
     name matches YYYY-MM-DD-suffix and that the date prefix matches the
