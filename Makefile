@@ -42,9 +42,9 @@ link-check: build ## Build site and check internal links with linkinator
 	cd astro && npx astro preview --port 9999 & sleep 5 && cd astro && PORT=9999 npm run links:internal; kill %1 2>/dev/null || true
 .PHONY: link-check
 
-astro-image-check: astro-build ## Build site and check all images resolve
+image-check: build ## Build site and check all images resolve
 	cd astro && PORT=9999 LINK_CHECK=1 LINK_CHECK_PREVIEW=1 npx playwright test link-check
-.PHONY: astro-image-check
+.PHONY: image-check
 
 validate-metadata: ## Validate news and events frontmatter schemas
 	python scripts/validate_news.py --be-strict-from 2026-02-01
