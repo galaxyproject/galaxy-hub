@@ -8,7 +8,7 @@ feedback.  In addition to all the participants, presenters, and instructors,
 here are the people who make it happen.
 
 
-# Organizing Committee
+# GCC2026 Organizing Committee
 
 
 

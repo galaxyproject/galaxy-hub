@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-# Registration
+# GCC2026 Registration
 
 <div class="flex justify-center my-5">
   <a href="https://v4.event-vert.org/en/gcc2026" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register now</a>

@@ -3,7 +3,7 @@ autotoc: false
 ---
 
 
-# Key Dates
+# GCC2026 Key Dates
 
 Keep the following important dates in mind for GCC2026! These dates can save you
 money and give you an opportunity to present your work.
