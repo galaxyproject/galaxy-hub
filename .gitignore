@@ -1,30 +1,10 @@
-/node_modules
-/coverage
-/build
-/dist
-/package-lock.json
-/src/.temp
 __pycache__
-/.cache
 *.DS_Store
-/testing
-/meta
-/cypress/videos
-/cypress/screenshots
-broken-links.md
-stderr.log
-stdout.log
-test.html
-/.yarn*
 *.orig
+node_modules/
+broken-links.md
 
-# Astro migration
-/astro/node_modules
-/astro/dist
-/astro/.astro
-/astro/src/content/articles
-/astro/src/content/vue-articles
-/astro/src/content/bare-articles
-/astro/src/content/platforms
-/astro/src/content/inserts
-/astro/src/content/datasets
+# Legacy Gridsome build artifacts (safe to delete locally)
+/build/
+/coverage/
+/dist/
