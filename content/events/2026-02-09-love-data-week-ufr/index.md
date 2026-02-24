@@ -15,6 +15,6 @@ tease: Celebrate international LOVE DATA week with a series of free online and i
   person events focused on RDM, including a session on Galaxy and the GTN.
 contributions:
   funding:
-    - nfdi4bioiamge
+    - nfdi4bioimage
 ---
 Celebrate international LOVE DATA week with a series of free online and in person events focused on RDM, including a session on Galaxy and the GTN.
