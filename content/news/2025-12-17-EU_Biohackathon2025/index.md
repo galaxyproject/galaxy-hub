@@ -12,6 +12,7 @@ contributions:
   funding:
     - elixir-europe
     - eubi
+    - nfdi4bioimage
 ---
 
 # BioHackathon Europe 2025 - Project 9

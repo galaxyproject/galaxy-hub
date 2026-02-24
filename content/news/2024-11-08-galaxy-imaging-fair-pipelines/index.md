@@ -8,6 +8,8 @@ main_subsite: eu
 contributions:
   authorship:
     - rmassei
+  funding:
+    - nfdi4bioimage
 ---
 
 ## The Helmholtz Metadata Conference (HMC) 2024
