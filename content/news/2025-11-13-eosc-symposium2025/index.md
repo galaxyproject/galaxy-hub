@@ -24,6 +24,7 @@ contributions:
     - eubi
     - nfdi4plants
     - bmbf
+    - nfdi4bioimage
 ---
 At [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) in Brussels, Björn Grüning demonstrated a scientific use case powered by Galaxy on federated European infrastructure: processing massive imaging datasets with reusable workflows that work across domains, from astrophysics to climate and marine science, and into the life sciences. The demo highlighted how authenticated access, interoperable services, and portable workflows accelerate discovery once nodes interconnect.
 

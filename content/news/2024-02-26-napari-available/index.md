@@ -9,6 +9,8 @@ contributions:
   authorship:
     - sunyi000
     - beatrizserrano
+  funding:
+    - nfdi4bioimage
 ---
 
 Napari is now available for the imaging community to use in Galaxy Europe!
