@@ -2,13 +2,7 @@
 title: Galaxy Admin Training with the Gallantries
 date: '2021-02-04'
 tags: [training]
-supporters:
-- galaxy-europe
-- denbi
-- elixir
-- gallantries
 external_url: https://gallantries.github.io/posts/2021/02/01/gat/
-authors: Helena Rasche
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Unlocking genetic secrets of Lake Baikal’s endemic sponges"
 tease: "Explore the depths of Lake Baikal and discover how cutting-edge genetic research in Galaxy is unraveling the complex relationships between its unique sponge species."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-07-17"
 tags: ["highlight"]
 subsites: [global,all]

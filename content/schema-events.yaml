@@ -97,10 +97,26 @@ mapping:
                               type: str
                           url:
                               type: str
-            supporters:
-                type: seq
-                sequence:
-                    - type: str
+            contributions:
+                required: false
+                type: map
+                mapping:
+                    authorship:
+                        description: These entities wrote the bulk of the material.
+                        type: seq
+                        sequence:
+                            - type: str
+                              enum:
+                                  - CONTRIBUTORS
+                                  - ORGANISATIONS
+                    funding:
+                        description: Provided funding support.
+                        type: seq
+                        sequence:
+                            - type: str
+                              enum:
+                                  - ORGANISATIONS
+                                  - GRANTS
             starts:
                 type: any
             ends:

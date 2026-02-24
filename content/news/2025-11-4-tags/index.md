@@ -1,6 +1,5 @@
 ---
 title: 'Use name tags!'
-authors: Anton Nekrutenko 
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-11-04'

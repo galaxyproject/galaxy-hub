@@ -2,9 +2,6 @@
 title: ELIXIR staff exchange between the German and Italian ELIXIR nodes
 date: '2022-02-22'
 tags: [galaxy, devops]
-supporters:
-- ELIXIR
-authors: Pietro Mandreoli
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

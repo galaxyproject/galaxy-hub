@@ -3,12 +3,6 @@ title: 3 steps to get your tool into Galaxy - A real-world example
 date: '2020-08-22'
 tease: A real-world example
 tags: [conda, conda-forge, training, galaxy, FAQ]
-supporters:
-- denbi
-- elixir
-- dataplant
-- unifreiburg
-authors: [Björn Grüning, David López]
 subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:

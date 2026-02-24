@@ -1,13 +1,9 @@
 ---
 title: "Galaxy’s contributions to Genome Assembly and Annotation: Advancing Genomic Science"
 date: "2025-03-18"
-authors: Saim Momin
 tease: "Know how Galaxy is contributing towards Genome Assembly and Annotation with cutting-edge tools, global biodiversity projects, and training initiatives"
 subsites: [global,eu,us,freiburg,esg]
 tags: [esg, esg-wp5, tiaas]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
 contributions:
   authorship:
     - SaimMomin12

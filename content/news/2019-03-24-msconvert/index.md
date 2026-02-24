@@ -4,9 +4,6 @@ date: '2019-03-24'
 tags: [release]
 location:
   name: Galaxy Europe
-supporters:
-- ELIXIR
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

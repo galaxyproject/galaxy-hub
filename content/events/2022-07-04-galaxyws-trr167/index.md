@@ -10,9 +10,6 @@ contacts:
   name: Dilmurat Yusuf
 location:
   name: online
-supporters:
-- neuromac
-- unifreiburg
 hidefooter: true
 subsites: [freiburg]
 main_subsite: freiburg

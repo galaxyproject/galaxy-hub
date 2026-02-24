@@ -3,15 +3,9 @@ title: '23.0 Update'
 date: '2023-03-08'
 tease: Galaxy EU updates to 23.0 and enables new exciting features
 hide_tease: true
-authors: "Mira Kuntz"
 tags: [esg,eu,esg-wp1,esg-wp4]
 subsites: [eu]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - eu
-  - eosc
-  - unifreiburg
 contributions:
   authorship:
     - mira-miracoli

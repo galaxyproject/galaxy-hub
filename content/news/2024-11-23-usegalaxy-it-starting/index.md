@@ -2,16 +2,9 @@
 title: "Enhancing the Galaxy Italian Community: Italy's National Galaxy Server"
 tease: ""
 hide_tease: true
-authors: [Marco Antonio Tangaro, Polina Khmelevskaia, Federico Zambelli]
 date: "2024-11-23"
 tags: [esg, esg-wp3, collaboration, eosc, community]
 subsites: [all-eu, esg, global]
-supporters:
-  - eurosciencegateway
-  - eu
-  - unifreiburg
-  - elixir
-  - eosc
 main_subsite: eu
 contributions:
   authorship:

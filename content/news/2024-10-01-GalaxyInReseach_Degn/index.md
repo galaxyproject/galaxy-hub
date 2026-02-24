@@ -2,7 +2,6 @@
 title: "Galaxy in Research: New insights into antibody activation using AlphaFold in Galaxy"
 tease: "How do antigens trigger B-cell receptors (BCRs), and can a single mechanism explain the activation of all BCR types? This study explores a unifying model that integrates various mechanisms of BCR triggering, providing fresh perspectives on antibody activation."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-10-01"
 tags: ["highlight"]
 subsites: [global,all]

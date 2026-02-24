@@ -3,9 +3,6 @@ title: The Galaxy community involved in several ELIXIR Implementation Studies
 date: '2021-04-19'
 tease: ''
 tags: [grants]
-supporters:
-- elixir
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

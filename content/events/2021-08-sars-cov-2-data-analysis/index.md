@@ -7,19 +7,6 @@ tease: '...upload viral sequencing data, call all variants, create a variety of 
 tags: [training, COVID-19]
 location:
   name: online
-supporters:
-- denbi
-- galaxy-europe
-- galaxy-australia
-- gallantries
-- erasmus+
-- eosc
-- converge
-- pari
-- neic
-- australian_biocommons
-- qfab
-- melbbioinfo
 continent: EU
 gtn: true
 subsites: [global, all-eu, us]

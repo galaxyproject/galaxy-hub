@@ -7,11 +7,6 @@ tease: "Three days of collaborative hacking, coffee-fueled brainstorming, and co
 organizers:
   - galaxyfreiburg
   - eurobioimaging
-supporters:
-  - nfdi
-  - oscars
-  - fiesta
-  - eurosciencegateway
 subsites: [all,global,esg,eu]
 contributions:
   authorship:

@@ -4,7 +4,6 @@ main_subsite: global
 date: "2022-11-29"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorial Suite: Deconvolution with MuSiC, from public data to disease interrogation!"
-authors: [Mehmet Tekman, Wendi Bacon]
 external_url: 'https://training.galaxyproject.org/training-material/news/2022/11/29/deconvolution.html'
 contributions:
   authorship:

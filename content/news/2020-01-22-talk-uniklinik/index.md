@@ -2,11 +2,6 @@
 title: Outreach - Invited Talk for Introducing Galaxy to Uniklinik Freiburg
 date: '2020-01-22'
 tags: [talk]
-supporters:
-- denbi
-- elixir
-authors: 
-- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

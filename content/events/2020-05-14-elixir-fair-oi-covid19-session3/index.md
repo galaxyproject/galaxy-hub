@@ -7,11 +7,6 @@ contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

@@ -6,10 +6,6 @@ tease: 'We have just finished a new collection of training material for genome a
   and annotation!'
 hide_tease: true
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/12/01/assembly-annotation.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

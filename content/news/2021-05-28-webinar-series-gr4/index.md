@@ -3,7 +3,6 @@ title: 'Webinars: Galaxy Resources for ...'
 date: '2021-05-28'
 tease: Watch them now.
 tags: [training, talk]
-authors: Beatriz Serrano-Solano
 subsites: [all]
 main_subsite: eu
 contributions:

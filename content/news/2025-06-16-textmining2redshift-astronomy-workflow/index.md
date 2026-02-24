@@ -5,8 +5,6 @@ tease: "Estimating redshifts of optical counter parts of sources detected in ast
 hide_tease: false
 tags: [esg-wp5, esg, tools, workflow, astrophysics]
 subsites: [all, esg]
-supporters:
-  - eurosciencegateway
 main_subsite: eu
 contributions:
   funding:

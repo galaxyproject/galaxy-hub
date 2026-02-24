@@ -4,10 +4,6 @@ date: '2021-04-29'
 tease: UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing
   data published by the COVID-19 Genomics UK Consortium (COG-UK).
 tags: [COVID-19, data, workflow]
-supporters:
-- denbi
-- elixir
-authors: Simon Bray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

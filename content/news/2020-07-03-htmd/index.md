@@ -2,8 +2,6 @@
 title: 'Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial'
 date: '2020-07-03'
 tags: [training]
-supporters:
-- galaxy-europe
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -11,7 +11,6 @@ gtn: true
 contact: "Bérénice Batut"
 tags: ["workshop", training, microbiology, workflow]
 subsites: [all]
-supporters: [eu, eosc, EOSC-Life, elixir, erasmus+, gallantries, biolytix, ]
 contributions:
   authorship:
     - bebatut

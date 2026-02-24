@@ -2,7 +2,6 @@
 title: 'UseGalaxy.eu Use Case: Antibody responses following vaccination'
 date: '2021-08-27'
 tags: [UseCase]
-authors: Carolyn Nielsen
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

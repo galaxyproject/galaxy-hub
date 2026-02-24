@@ -7,9 +7,6 @@ contacts:
 - email: galaxy-training@lists.galaxyproject.org
   name: Galaxy Training Network
 external_url: https://galaxyproject.org/events/2020-11-gtn/
-supporters:
-- elixir
-- denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

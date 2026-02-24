@@ -3,7 +3,6 @@ title: 'Galaxy Release 23.2'
 date: '2024-02-07'
 tease: "Workflow comments, InvenioRDM integration, improved search, admin and config updates and more!"
 hide_tease: false
-authors: John Davis
 tags: [Release]
 subsites: [global, all]
 main_subsite: us

@@ -13,13 +13,6 @@ contacts:
 - name: Wolfgang Maier
 - name: Anton Nekrutenko
 tags: [ webinar, training, COVID-19, talk ]
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
 gtn: false
 links:
   - text: "Register"

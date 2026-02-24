@@ -2,7 +2,6 @@
 title: 'UseGalaxy.eu Use Case: Plant genomics'
 date: '2021-07-09'
 tags: [UseCase]
-authors: Shaobin Zhong
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

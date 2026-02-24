@@ -1,7 +1,6 @@
 ---
 date: '2018-09-05'
 title: "Contributor of the Month: Carrie Ganote"
-authors: "Björn Grüning"
 image: "/news/2018-09-cotm-carrie-ganote/carrie-ganote.png"
 contributions:
   authorship:

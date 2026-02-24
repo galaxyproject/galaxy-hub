@@ -2,10 +2,6 @@
 title: Galaxy 17.09 released!
 date: '2017-11-08'
 tags: [release]
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

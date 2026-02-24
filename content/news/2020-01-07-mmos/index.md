@@ -3,7 +3,6 @@ title: Massively Multiplayer Online Science in Galaxy to help Ecologists - A Cit
   Science Project
 date: '2020-01-07'
 tags: [galaxy, MMOS, devops, society, community]
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

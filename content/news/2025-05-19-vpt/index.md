@@ -4,12 +4,6 @@ date: '2025-05-19'
 tease: Reprocess and refine the single-cell results of MERSCOPE experiments
 hide_tease: true
 tags: [tools]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-- nfdi4bioimage
-authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
 contributions:

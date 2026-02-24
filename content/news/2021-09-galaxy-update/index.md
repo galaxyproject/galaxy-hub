@@ -3,7 +3,6 @@ title: 'September 2021 Galactic News'
 tease: ""
 date: "2021-09-15"
 subsites: [global, us]
-supporters: [unifreiburg, eosc, eu, elixir, denbi]
 tags: [newsletter]
 ---
 

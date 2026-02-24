@@ -4,18 +4,6 @@ date: '2020-12-31'
 tease: What a shitty year! But it’s over and we hope you and your family are safe
   and healthy.
 tags: [data, training, tools, streetscience, COVID-19, report]
-supporters:
-- unifreiburg
-- elixir
-- denbi
-- dataPLANT
-- eosc
-- eu
-- biodaten
-- bmbf
-- dfg
-- egi
-authors: [Beatriz Serrano-Solano, Björn Grüning]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

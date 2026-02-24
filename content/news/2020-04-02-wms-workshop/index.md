@@ -4,10 +4,6 @@ date: '2020-04-02'
 tags: [training]
 location:
   name: Online
-supporters:
-- eosc
-- eu
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

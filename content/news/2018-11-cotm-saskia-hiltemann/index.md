@@ -1,7 +1,6 @@
 ---
 date: '2018-11-01'
 title: "Contributor of the Month: Saskia Hiltemann"
-authors: "Martin Čech"
 image: "/news/2018-11-cotm-saskia-hiltemann/saskia-hiltemann.png"
 contributions:
   authorship:

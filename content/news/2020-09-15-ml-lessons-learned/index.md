@@ -3,11 +3,6 @@ title: Remote training using Galaxy
 date: '2020-09-15'
 tease: Lessons learned from our ELIXIR Galaxy Machine Learning Workshop
 tags: [training, FAQ, tiaas, COVID-19, report]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

@@ -4,12 +4,7 @@ date: "2023-06-23"
 tease: "Taking advantage of Galaxy's GPU computing nodes"
 hide_tease: false
 tags: [machine-learning,EU,esg,esg-wp5]
-authors: [Anup Kumar, José Manuel Domínguez]
 subsites: [all-eu, esg]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - denbi
 main_subsite: eu
 contributions:
   authorship:

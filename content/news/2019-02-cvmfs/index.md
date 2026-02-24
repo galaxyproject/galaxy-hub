@@ -1,7 +1,6 @@
 ---
 date: '2019-02-28'
 title: "Interview with Nate Coraor: CVMFS & Galaxy"
-authors: "Mo Heydarian"
 tease: "Find out about Galaxy's favorite filesystem"
 image: "/news/2019-02-cvmfs/Nate_face.jpeg"
 contributions:

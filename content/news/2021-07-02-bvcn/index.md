@@ -4,10 +4,6 @@ title: '"Galaxy for microbiome via ASaiM story - From a local project to a globa
   used in Microbiome Research'
 date: '2021-07-02'
 tags: [talk]
-supporters:
-- elixir
-- denbi
-authors: Bérénice Batut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

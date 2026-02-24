@@ -4,7 +4,6 @@ date: "2024-08-16"
 tease: "Workshop on filling the sysadmin skills gap to support public health bioinformatics & genomic epidemiology in Africa"
 hide_tease: false
 tags: [deKCD, admin, infrastructure, africa]
-authors: "Mira Kuntz"
 contact: "kuntzm@informatik.uni-freiburg.de"
 subsites: [eu, freiburg]
 main_subsite: eu

@@ -2,7 +2,6 @@
 title: 'We are striking!'
 date: '2023-09-11'
 tease: 'usegalaxy.eu closes job-queue on September 15th to support climate strike'
-authors: 'Pavankumar Videm'
 tags: [Freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu

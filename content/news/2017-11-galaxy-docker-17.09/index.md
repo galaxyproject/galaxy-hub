@@ -2,7 +2,6 @@
 date: '2017-11-08'
 title: "Galaxy Docker 17.09"
 tease: "CVMFS and Singularity support"
-authors: "Björn Grüning"
 contributions:
   authorship:
     - bgruening

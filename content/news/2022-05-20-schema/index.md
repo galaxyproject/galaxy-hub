@@ -4,7 +4,6 @@ main_subsite: global
 date: "2022-05-20"
 tags: [training, gtn-news]
 title: "[GTN news] GTN Metadata Schemas"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2022/05/20/schema.html'
 contributions:
   authorship:

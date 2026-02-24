@@ -2,10 +2,6 @@
 title: '[GTN news] New FAQs: How does the GTN stay FAIR and Collaborative'
 date: '2021-12-01'
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/12/01/FAIR.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

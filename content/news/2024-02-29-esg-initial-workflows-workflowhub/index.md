@@ -2,16 +2,8 @@
 title: "Initial EuroScienceGateway workflows published in WorkflowHub"
 tease: "Workflows covering astronomy, biodiversity, earth science and genomics published in WorkflowHub together with onboarding guide"
 date: '2024-02-29'
-authors: [Stian Soiland-Reyes, Björn Grüning, Paul De Geest]
 subsites: [all-eu,esg]
 tags: [esg, esg-wp2, esg-wp5, workflowhub, workflow, fair]
-supporters:
-  - eurosciencegateway
-  - eosc
-  - eu
-  - unifrieburg
-  - denbi
-  - workflowhub
 main_subsite: eu
 contributions:
   authorship:

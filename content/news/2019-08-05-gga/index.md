@@ -5,12 +5,6 @@ tease: Scaling Genome Annotation for the Masses
 tags: [tools]
 location:
   name: Freiburg, Germany
-supporters:
-- galaxy-europe
-- elixir
-- denbi
-- ifb
-authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

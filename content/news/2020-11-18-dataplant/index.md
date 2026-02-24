@@ -2,9 +2,6 @@
 title: The NFDI-DataPLANT consortium has already kick-off!
 date: '2020-11-18'
 tags: [data]
-supporters:
-- dataplant
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

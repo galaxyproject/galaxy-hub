@@ -1,7 +1,6 @@
 ---
 date: '2018-08-01'
 title: "Contributor of the Month: Pablo Moreno"
-authors: "Björn Grüning"
 image: "/news/2018-08-cotm-pablo-moreno/pablo-moreno.jpg"
 contributions:
   authorship:

@@ -2,11 +2,9 @@
 title: 'New Paper "A panel of blood-derived miRNAs with a stable expression pattern as a potential pan-cancer detection signature"'
 date: "2023-05-21"
 tease: "Sabbaghian and colleagues have used the European Galaxy server to study miRNAs as biomarkers for cancer"
-authors: 'Amir Sabbaghian'
 tags:
 - paper
 - citations
-supporters:
 subsites: [all-eu]
 main_subsite: eu
 contributions:

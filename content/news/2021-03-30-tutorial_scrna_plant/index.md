@@ -4,7 +4,6 @@ main_subsite: global
 date: "2021-03-30"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorial: Downstream Single-cell RNA Plant analysis with ScanPy"
-authors: [Mehmet Tekman, Beatriz Serrano-Solano]
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/03/30/tutorial_scrna_plant.html'
 contributions:
   authorship:

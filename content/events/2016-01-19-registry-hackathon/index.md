@@ -13,9 +13,6 @@ location:
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee 101
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

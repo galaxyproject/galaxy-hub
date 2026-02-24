@@ -1,11 +1,6 @@
 ---
 title: "Galaxy Helm chart v4.0"
 tease: "From dev to testing to production on the same stack."
-authors: 
-- Alex Mahmoud
-- Nuwan Goonasekera
-- Keith Suderman
-- Enis Afgan
 date: "2021-05-07"
 contributions:
   authorship:

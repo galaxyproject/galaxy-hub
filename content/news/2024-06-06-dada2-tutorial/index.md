@@ -1,5 +1,4 @@
 ---
-authors: "B\xE9r\xE9nice Batut"
 date: '2024-06-06'
 external_url: https://training.galaxyproject.org/training-material/news/2024/06/06/dada2-tutorial.html
 main_subsite: global

@@ -2,7 +2,6 @@
 title: "Announcing the GBCC2025 Logo Design Contest!"
 tease: "Unleash your creativity for the first-ever Galaxy & Bioconductor Community Conference!"
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-10-25"
 tags: ["highlight"]
 subsites: [global,all]

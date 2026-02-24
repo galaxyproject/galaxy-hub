@@ -16,10 +16,6 @@ location:
   postal: 79098
   region: Baden-Württemberg
   street: Werthmannstraße 4
-supporters:
-- unifreiburg
-- denbi
-- elixir
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

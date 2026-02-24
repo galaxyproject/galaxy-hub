@@ -1,7 +1,6 @@
 ---
 title: "Achievements during the 'Image Analysis in Galaxy' hackathon"
 date: "2024-03-08"
-authors: [Yi Sun, Beatriz Serrano-Solano, Björn Grüning, Wolfgang Maier, Leonid Kostrykin, Anup Kumar, Riccardo Massei, David López, Pavankumar Videm]
 tease: "Find out the new features that are now available for image analysts!"
 hide_tease: false
 subsites: [all-eu, global]

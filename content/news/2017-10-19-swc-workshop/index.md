@@ -2,9 +2,6 @@
 title: Helping at the Software Carpentry workshop @ EMBL Heidelberg and Talk @ de.NBIer
 date: '2017-10-19'
 tags: [training, talk]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

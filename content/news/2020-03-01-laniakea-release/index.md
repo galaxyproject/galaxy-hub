@@ -2,7 +2,6 @@
 title: ELIXIR-Italy launches Laniakea@ReCaS, a Galaxy “on-demand” platform
 date: '2020-03-01'
 tags: [tools]
-authors: Marco Antonio Tangaro
 subsites: [eu, elixir-it]
 main_subsite: elixir-it
 contributions:

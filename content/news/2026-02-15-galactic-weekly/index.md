@@ -2,7 +2,6 @@
 title: 'Galactic Weekly: Week 7, 2026'
 date: '2026-02-15'
 tease: Weekly summary of activity across 150+ galaxyproject repositories
-authors: Galactic Bot
 tags:
 - community
 - development

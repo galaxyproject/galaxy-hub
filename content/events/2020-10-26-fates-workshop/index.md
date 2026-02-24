@@ -11,9 +11,6 @@ contacts:
   name: Anne Fouilloux
 location:
   name: online
-supporters:
-- eosc
-- galaxy-europe
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

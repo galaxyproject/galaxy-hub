@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Transforming life in the tropics using genomic technologies for One Health"
 tease: "How can genomics improve health, food production, and biodiversity in tropical regions? A new review explores how cutting-edge technologies, including Galaxy, are shaping a sustainable future for the tropics."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-11-21"
 tags: ["highlight"]
 subsites: [global,all]

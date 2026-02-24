@@ -9,9 +9,6 @@ location:
 contact: Saskia Hiltemann
 gtn: false
 tags: [cofest, training]
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg, global, us]
 contributions:
   authorship:

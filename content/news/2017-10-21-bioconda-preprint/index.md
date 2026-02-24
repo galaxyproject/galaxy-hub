@@ -2,11 +2,6 @@
 title: Our paper about BioConda on bioRxiv
 date: '2017-10-21'
 tags: [paper, conda]
-supporters:
-- denbi
-- elixir
-- ViCE
-- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

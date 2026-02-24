@@ -2,10 +2,8 @@
 title: 'Viral pathogen data analysis beyond BY-COVID'
 date: '2024-09-16'
 tease: "A look back at the BY-COVID project and ahead to upcoming developments"
-authors: Wolfgang Maier
 subsites: [global, eu, freiburg]
 tags: [COVID-19, virology, community]
-supporters: [unifreiburg, by-covid]
 contributions:
   authorship:
     - wm75

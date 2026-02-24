@@ -3,12 +3,6 @@ title: 'Success Story: “TIaaS: Training Infrastructure as a Service for an MGn
 tease: 'The MGnify team of EMBL-EBI have used TIaaS to run the MGnify Interactive Tool on scale'
 date: '2023-09-29'
 tags: [tiaas, outreach, training]
-supporters:
-- eosc
-- unifreiburg
-- denbi
-- eu
-authors: Sandy Rogers
 subsites: [all-eu, all]
 main_subsite: eu
 contributions:

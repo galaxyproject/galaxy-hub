@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Exploring Genetic Variability in Almond Blooming"
 tease: "Learn how genetic variations influence the blooming periods of almond cultivars, revealing key insights into their molecular regulation."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-07-30"
 tags: ["highlight"]
 subsites: [global,all]

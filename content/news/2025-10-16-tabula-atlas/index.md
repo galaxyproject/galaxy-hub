@@ -4,11 +4,6 @@ date: '2025-10-16'
 tease: Comprehensive Single-Cell Reference Atlases Ready for Import
 hide_tease: true
 tags: [data]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
 contributions:

@@ -1,6 +1,5 @@
 ---
 title: 'Downloading data from NCBI SRA'
-authors: Anton Nekrutenko 
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-23'

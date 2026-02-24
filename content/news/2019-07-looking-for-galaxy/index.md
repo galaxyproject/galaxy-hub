@@ -1,7 +1,6 @@
 ---
 date: "2019-07-29"
 title: "Looking for Galaxy (info), in all the right places"
-authors: "Dave Clements"
 tease: "Which are dangerously close to the wrong places..."
 contributions:
   authorship:

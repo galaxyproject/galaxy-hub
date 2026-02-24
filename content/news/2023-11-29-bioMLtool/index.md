@@ -2,13 +2,9 @@
 title: 'Inference using a publicly available pre-trained AI model (BioModels) in Galaxy'
 date: '2023-11-29'
 tease: 'Use a Galaxy tool for making prediction on test data using publicly available pre-trained AI model (BioModels) served via a Docker container'
-authors: 'Anup Kumar'
 tags: [tools,esg,esg-wp5]
 subsites: [all-eu,global,esg]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - unifreiburg
 contributions:
   authorship:
     - anuprulez

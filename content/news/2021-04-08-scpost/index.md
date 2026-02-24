@@ -2,11 +2,6 @@
 title: Updates from the Single-Cell Community in Freiburg
 date: '2021-04-08'
 tags: [training, tools]
-supporters:
-- dataplant
-- denbi
-- biodaten
-authors: Mehmet Tekman
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

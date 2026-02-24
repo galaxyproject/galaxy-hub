@@ -8,11 +8,6 @@ tags:
 - esg
 - esg-wp5
 subsites: [all-eu,esg]
-supporters:
-  - eurosciencegateway
-  - eu
-  - eosc
-  - unifreiburg
 main_subsite: eu
 contributions:
   funding:

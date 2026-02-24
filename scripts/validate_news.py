@@ -36,17 +36,21 @@ def main():
     ids = gather_ids()
     raw_schema = load_yaml(args.schema)
     cleaned_schema = clean_schema(raw_schema, ids)
-    aggregated_news = aggregate_frontmatter(os.path.join(ROOT, "content", "news"))
+    aggregated_news, parse_errors = aggregate_frontmatter(os.path.join(ROOT, "content", "news"))
     code, errors = validate_data(aggregated_news, cleaned_schema)
     folder_errors = check_recent_folder_names(aggregated_news, cutoff=args.cutoff)
+    parse_error_count = len(parse_errors)
 
     if errors and not args.quiet:
         log_validation_errors(errors, logger)
+    if parse_errors and not args.quiet:
+        for err in parse_errors:
+            logger.error(f"PARSING - {err}")
     if folder_errors and not args.quiet:
         for err in folder_errors:
             logger.error(f"FOLDER - {err}")
 
-    if code == 0 and not folder_errors:
+    if code == 0 and not folder_errors and parse_error_count == 0:
         logger.info("OK: news frontmatter valid")
     else:
         logger.error("FAILED: news frontmatter has issues")

@@ -2,7 +2,6 @@
 site: freiburg
 tags: [outreach]
 title: Galaxy as a sharing infrastructure and how this enables efficient user support
-authors: [Björn Grüning, Cristóbal Gallardo, Jennifer Hillman-Jackson, Ross Lazarus]
 date: "2022-01-18"
 contributions:
   authorship:

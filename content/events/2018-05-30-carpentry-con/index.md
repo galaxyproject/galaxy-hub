@@ -6,9 +6,6 @@ tags: [training, talk]
 location:
   city: Dublin
   country: Ireland
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

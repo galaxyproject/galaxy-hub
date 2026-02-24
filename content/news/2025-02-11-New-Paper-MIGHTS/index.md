@@ -4,7 +4,6 @@ date: "2024-02-11"
 tags:
 - paper
 - citations
-authors: [Camila Goclowski, Julia Jakiela, Wendi Bacon]
 subsites: [all-eu]
 main_subsite: eu
 contributions:

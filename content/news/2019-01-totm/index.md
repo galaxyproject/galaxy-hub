@@ -1,7 +1,6 @@
 ---
 date: '2019-01-15'
 title: 'Tutorial of the Month: "Genome annotation with Prokka", selected by Simon Gladman'
-authors: "Bérénice Batut"
 contributions:
   authorship:
     - bebatut

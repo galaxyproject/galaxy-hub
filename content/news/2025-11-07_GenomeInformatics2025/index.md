@@ -1,7 +1,6 @@
 ---
 title: "Galaxy at Genome Informatics 2025"
 date: "2025-11-10"
-authors: Natalie Whitaker-Allen
 tease: "Galaxy was in full force at Genome Informatics 2025, presenting cutting-edge work on scalable analysis, interactive workflows, and high-quality genome curation."
 hide_tease: false
 subsites: [global, all]

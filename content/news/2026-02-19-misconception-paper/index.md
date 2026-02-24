@@ -14,16 +14,16 @@ contributions:
     - sanjaysrikakulam
     - paulzierep
     - abretaud
-    - gruenin
+    - bgruening
     - lecorguille
     - hechth
-    - davc
+    - jdavcs
     - hrhotz
     - beatrizserrano
   funding:
     - ifb
-    - denbi
-    - elixir
+    - deNBI
+    - elixir-europe
 ---
 
 ## The Story Behind the Paper

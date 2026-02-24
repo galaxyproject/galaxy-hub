@@ -2,8 +2,6 @@
 title: Simplified submission of SARS-CoV-2 data to open databases
 date: '2020-11-20'
 tags: [data, tools, COVID-19]
-supporters: [unifrieburg, denbi, elixir-belgium]
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, belgium]
 main_subsite: eu
 contributions:

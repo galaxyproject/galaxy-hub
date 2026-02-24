@@ -8,8 +8,6 @@ contact: "Marie Jossé, Jérôme Detoc"
 tags: [Hackathon, esg, esg-wp1, esg-wp5, esg-wp3]
 organizers:
   - fair-ease
-supporters:
-  - eurosciencegateway
 subsites: [eu,esg, all-eu]
 contributions:
   authorship:

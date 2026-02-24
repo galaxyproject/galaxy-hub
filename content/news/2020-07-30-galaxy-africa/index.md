@@ -4,9 +4,6 @@ date: '2020-07-30'
 tags: [training, tiaas, GCC]
 location:
   name: online
-supporters:
-- TIaaS
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

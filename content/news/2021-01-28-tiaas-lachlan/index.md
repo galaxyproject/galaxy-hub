@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Lachlan Gray
 date: '2021-01-28'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Lachlan Gray
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

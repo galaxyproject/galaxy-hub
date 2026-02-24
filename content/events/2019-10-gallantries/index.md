@@ -13,9 +13,6 @@ external_url: https://galaxy-carpentries.github.io/gallantries/event/2019-08-27-
 contact: Berenice Bbatut
 gtn: true
 tags: [training]
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg, global, us]
 contributions:
   funding:

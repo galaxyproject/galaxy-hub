@@ -11,7 +11,6 @@ gtn: true
 contact: "Marie Josse: marie.josse@ifremer.fr"
 tags: [conference, earth-system, fair, talk]
 subsites: [all]
-supporters: [eosc, eu, fair-ease]
 contributions:
   funding:
     - eu

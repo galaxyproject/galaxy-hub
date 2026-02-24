@@ -23,6 +23,17 @@ from validate_common import (
     log_validation_errors,
 )
 
+FOLDER_NAME_EXCEPTIONS = {
+    "2026-10-12-Advanced-Galaxy-Training",
+    "2026-04-small-scale",
+    "gcc2026",
+    "2026-10-11-ASM",
+    "2026-07-12-ISMB2026",
+    "2026-05-05-BOG2026",
+    "2026-03-small-scale",
+    "2026-11-04-BDS2026",
+}
+
 
 def main():
     logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
@@ -36,17 +47,25 @@ def main():
     ids = gather_ids()
     raw_schema = load_yaml(args.schema)
     cleaned_schema = clean_schema(raw_schema, ids)
-    aggregated_events = aggregate_frontmatter(os.path.join(ROOT, "content", "events"))
+    aggregated_events, parse_errors = aggregate_frontmatter(os.path.join(ROOT, "content", "events"))
     code, errors = validate_data(aggregated_events, cleaned_schema)
-    folder_errors = check_recent_folder_names(aggregated_events, cutoff=args.cutoff)
+    folder_errors = check_recent_folder_names(
+        aggregated_events,
+        cutoff=args.cutoff,
+        skip_folders=FOLDER_NAME_EXCEPTIONS,
+    )
+    parse_error_count = len(parse_errors)
 
     if errors and not args.quiet:
         log_validation_errors(errors, logger)
+    if parse_errors and not args.quiet:
+        for err in parse_errors:
+            logger.error(f"PARSING - {err}")
     if folder_errors and not args.quiet:
         for err in folder_errors:
             logger.error(f"FOLDER - {err}")
 
-    if code == 0 and not folder_errors:
+    if code == 0 and not folder_errors and parse_error_count == 0:
         logger.info("OK: events frontmatter valid")
     else:
         logger.error("FAILED: events frontmatter has issues")

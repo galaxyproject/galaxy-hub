@@ -4,11 +4,6 @@ tease: The European Galaxy Community gathered in Freiburg to discuss recent and 
 date: '2022-10-12'
 subsites: [global, all-eu, esg]
 tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
-authors: Beatriz Serrano-Solano
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - elixir
 author_github: beatrizserrano
 contributions:
   authorship:

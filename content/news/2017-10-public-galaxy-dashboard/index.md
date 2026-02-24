@@ -2,7 +2,6 @@
 date: '2017-10-06'
 title: "Public Galaxy Server Dashboard"
 tease: "a new view of the Universe"
-authors: "Helena Rasche"
 contributions:
   authorship:
     - hexylena

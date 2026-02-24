@@ -9,9 +9,6 @@ location:
 contact: Saskia Hiltemann & Helena Rasche
 gtn: true
 tags: [cofest, training]
-supporters:
-- elixir
-- denbi
 subsites: [all-eu, global, us]
 contributions:
   funding:

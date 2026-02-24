@@ -8,7 +8,6 @@ location:
   name: "University of Freiburg, Germany"
 contact: "Beatriz Serrano-Solano, Yi Sun, Björn Grüning"
 tags: [hackathon, imaging, bioimaging]
-supporters: [unifreiburg, eubi, NFDI4BI]
 subsites: [all]
 contributions:
   authorship:

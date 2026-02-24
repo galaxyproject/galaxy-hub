@@ -2,11 +2,9 @@
 title: 'W4E2025 Workshop Review – Empowering Metabolomics Researchers with W4M'
 date: '2025-06-19'
 tease: 'Bring your own data Metabolomics Training Recap.'
-authors: "Helge Hecht"
 tags: [elixir-fr, elixir-cz, eirene, metabolomics, w4m, w4e, training]
 subsites: [all, all-eu, global]
 main_subsite: eu
-supporters: [ifb, MetaboHub, elixir, eirene, rfmf]
 contributions:
   authorship:
     - hechth

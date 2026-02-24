@@ -3,9 +3,6 @@ title: Three articles related to COVID-19 research using Galaxy in the de.NBI br
 date: '2021-02-01'
 tease: Just part of how de.NBI is supporting COVID-19 research
 tags: [COVID-19, outreach]
-supporters:
-- denbi
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

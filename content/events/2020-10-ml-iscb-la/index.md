@@ -9,9 +9,6 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- unifreiburg
-- denbi
 hidefooter: true
 continent: NA
 gtn: true

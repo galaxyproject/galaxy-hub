@@ -2,10 +2,6 @@
 title: Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD
 date: '2021-02-20'
 tags: [FAQ]
-supporters:
-- denbi
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -4,8 +4,6 @@ date: '2020-04-28'
 end: '2020-04-28'
 location:
   name: online
-supporters:
-- elixir
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

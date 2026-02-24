@@ -1,11 +1,7 @@
 ---
 title: European BioHackathon 2025 – FAIR Image Analysis in Galaxy (Project 9)  
 date: '2025-12-17'
-authors: "Diana Chiang Jurado"
 tags: [training, hackathon, biohackathon, imaging]  
-supporters:  
-  - elixir  
-  - eubi
 location:  
   name: Berlin, DE  
 subsites: [eu, freiburg]  

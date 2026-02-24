@@ -5,10 +5,6 @@ tease: de.NBI-Cloud has extended the support to the European Galaxy Server
 tags: [devops, hardware]
 location:
   name: Galaxy Europe
-supporters:
-- denbi
-- bmbf
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

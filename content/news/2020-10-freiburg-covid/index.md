@@ -5,5 +5,4 @@ external_url: "https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and
 date: "2020-10-08"
 subsites: [global, us]
 tags: [covid-19, outreach]
-supporters: [unifreiburg, denbi]
 ---

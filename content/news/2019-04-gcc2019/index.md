@@ -1,7 +1,6 @@
 ---
 date: '2019-04-02'
 title: "A sneak peak at GCC2019"
-authors: "Björn Grüning"
 tease: "New scheduling format this year"
 image: "/news/2019-04-gcc2019/bjorn-gcc2017.jpg"
 tags: [gcc, conference]

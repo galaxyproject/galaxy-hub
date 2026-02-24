@@ -2,10 +2,6 @@
 title: We passed the 5,000,000th job and 5,000 users!
 date: '2019-04-03'
 tags: [devops]
-supporters:
-- denbi
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

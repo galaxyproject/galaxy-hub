@@ -12,8 +12,6 @@ contact: "Presenters"
 image: ""
 subsites: [global, eu, esg]
 tags: [esg, esg-wp5]
-supporters:
-  - eurosciencegateway
 contributions:
   funding:
     - eurosciencegateway

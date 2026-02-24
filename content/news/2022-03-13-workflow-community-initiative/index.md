@@ -6,12 +6,6 @@ tease: 'The Workflows Community Initiative has lunched the new website at workfl
   for everyone.'
 hide_tease: true
 tags: [workflow]
-supporters:
-- crc1425
-- crc992
-- denbi
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

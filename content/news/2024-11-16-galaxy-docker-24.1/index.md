@@ -2,7 +2,6 @@
 title: "Galaxy Docker Image Update: Version 24.1 Released!"
 tease: "Discover Galaxy Docker 24.1 with updated services, streamlined architecture, and new features."
 hide-tease: false
-authors: "Jyoti Prakash Mohanty"
 date: "2024-11-16"
 tags: ["highlight"]
 subsites: [global,all]

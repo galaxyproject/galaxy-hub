@@ -1,11 +1,10 @@
 ---
 title: "Introducing the Zip Explorer: Import individual files from ZIP archives"
 date: "2026-01-14"
-authors: David López
 tease: "Preview the contents of local or remote ZIP archives, explore rich RO-Crate metadata, and import only the files you need directly from the Galaxy interface."
 subsites: [global, eu, us]
 main_subsite: global
-tags: [features, ui-ux, tools]
+tags: [feature, ui-ux, tools]
 contributions:
   authorship:
     - davelopez

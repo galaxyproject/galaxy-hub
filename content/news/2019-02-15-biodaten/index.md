@@ -4,11 +4,8 @@ date: '2019-02-15'
 tags: [data, grants, collaboration]
 location:
   name: Freiburg, Germany
-authors: 
-- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
-supporters: [denbi, unifrieburg]
 contributions:
   authorship:
     - erxleben

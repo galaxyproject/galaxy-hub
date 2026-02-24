@@ -3,7 +3,6 @@ title: 'UseGalaxy.eu Use Case: Profiling of Tregs in Coronary Artery Disease usi
 date: '2024-05-16'
 tease: "A report out of Galaxy Europe's user space, by Sheu-Tijani Olawale Abogunloko"
 tags: [UseCase]
-authors: "Sheu Tijani Olawale Abogunloko"
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

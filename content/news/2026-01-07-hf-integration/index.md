@@ -1,7 +1,6 @@
 ---
 title: "Integration of the Hugging Face Hub with Galaxy"
 date: "2026-01-07"
-authors: Anup Kumar
 contributions:
   authorship:
     - anuprulez
@@ -9,8 +8,6 @@ contributions:
     - uni-freiburg
     - nfdi4bioimage
     - deNBI
-supporters:
-  - denbi
 tease: "Galaxy users can now browse the Hugging Face Hub as a repository source, import models straight into their histories, and feed them into tools. A step-by-step example shows how to pull models from the Hugging Face Hub into Galaxy and then using the existing DocLayout-YOLO tool for document layout segmentation."
 subsites: [global,eu,us]
 main_subsite: freiburg

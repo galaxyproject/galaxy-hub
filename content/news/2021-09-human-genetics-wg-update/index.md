@@ -1,7 +1,6 @@
 ---
 title: "Human Genetics working group T2 update"
 tease: "Expanding Galaxy’s ability to analyze protected human data"
-authors: "Enis Afgan"
 date: "2021-09-21"
 contributions:
   authorship:

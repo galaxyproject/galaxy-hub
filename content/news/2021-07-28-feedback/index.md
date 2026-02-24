@@ -3,10 +3,6 @@ title: '[GTN news] New Feature: a feedback page to aggregate and display feedbac
   answers'
 date: '2021-07-28'
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/07/28/feedback.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

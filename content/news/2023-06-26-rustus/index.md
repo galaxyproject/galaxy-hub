@@ -3,7 +3,6 @@ title: "Upscaling file uploads with rustus"
 date: "2023-06-28"
 tease: "Migrating the server software behind our file upload system"
 hide_tease: false
-authors: "José Manuel Domínguez"
 tags: [EU]
 subsites: [all-eu]
 main_subsite: eu

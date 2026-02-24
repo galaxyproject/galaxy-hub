@@ -2,7 +2,6 @@
 title: 'UseGalaxy.eu Use Case: Food safety research'
 date: '2021-08-20'
 tags: [UseCase]
-authors: Carol Verheecke-Vaessen
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

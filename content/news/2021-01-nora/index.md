@@ -3,9 +3,6 @@ title: Nora, the new visualisation in Galaxy
 date: '2021-01-18'
 tease: A new framework for medical imaging research
 tags: [tools]
-supporters:
-- unifreiburg
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

@@ -12,8 +12,6 @@ location:
   name: VIB
   postal: 9000
   street: Campus Tweekerken 15.06
-supporters:
-- Elixir
 subsites: [eu, erasmusmc]
 main_subsite: erasmusmc
 contributions:

@@ -2,14 +2,6 @@
 title: 30,000 users
 date: '2021-04-25'
 tags: [galaxy]
-supporters:
-- denbi
-- elixir
-- eosc
-- denbi
-- eu
-- unifreiburg
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

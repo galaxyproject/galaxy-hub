@@ -2,10 +2,6 @@
 title: '[GTN news] Oh no, it changed! Quick, to the archive menu.'
 date: '2021-06-01'
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/06/01/archive-menu.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

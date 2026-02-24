@@ -4,7 +4,6 @@ main_subsite: global
 date: "2022-06-02"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorial: Workflow Reports"
-authors: "Saskia Hiltemann"
 external_url: 'https://training.galaxyproject.org/training-material/news/2022/06/02/workflow-reports-tutorial.html'
 contributions:
   authorship:

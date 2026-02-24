@@ -4,9 +4,6 @@ title: New Paper "Survey of metaproteomics software tools for functional microbi
 date: '2020-01-08'
 tags: [paper]
 doi: 10.1101/2020.01.07.897561
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

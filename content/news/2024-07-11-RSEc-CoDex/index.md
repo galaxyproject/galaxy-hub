@@ -3,7 +3,6 @@ title: 'Enabling architectures that collect community-centric research software 
 date: '2024-07-11'
 tease: "The ELIXIR Research Software Ecosystem (RSEc) and the Galaxy Codex make use of GitHub CI bots to collect research software metadata and provide a FAIR tool metadata repository for the global research community"
 hide_tease: false
-authors: Paul Zierep 
 subsites: [all-eu, global]
 contributions:
   authorship:

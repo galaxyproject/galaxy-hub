@@ -11,8 +11,6 @@ location:
 contacts:
 - email: galaxy@informatik.uni-freiburg.de
   name: Freiburg Galaxy Team
-supporters:
-- denbi
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg

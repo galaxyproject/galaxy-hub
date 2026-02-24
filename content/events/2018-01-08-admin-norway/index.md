@@ -11,8 +11,6 @@ location:
 contacts:
 - email: null
   name: ELIXIR
-supporters:
-- elixir
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg

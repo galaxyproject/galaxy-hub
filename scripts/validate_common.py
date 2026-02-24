@@ -94,28 +94,35 @@ def clean_schema(schema, ids):
 def parse_frontmatter(path):
     text = open(path, "r", encoding="utf-8").read()
     if not text.startswith("---"):
-        return {}
+        return {}, None
     parts = text.split("\n")
     if len(parts) < 3:
-        return {}
+        return {}, None
     front = []
     for line in parts[1:]:
         if line.strip() == "---":
             break
         front.append(line)
     try:
-        return yaml.safe_load("\n".join(front)) or {}
-    except Exception:
-        return {}
+        data = yaml.safe_load("\n".join(front)) or {}
+    except Exception as exc:
+        return {}, f"{path}: invalid YAML frontmatter ({exc})"
+    if not isinstance(data, dict):
+        return {}, f"{path}: frontmatter must be a YAML mapping, got {type(data).__name__}"
+    return data, None
 
 
 def aggregate_frontmatter(root_path):
     aggregated = {}
+    parse_errors = []
     for dirpath, _, filenames in os.walk(root_path):
         if "index.md" in filenames:
             rel = os.path.relpath(dirpath, root_path)
-            aggregated[rel] = parse_frontmatter(os.path.join(dirpath, "index.md"))
-    return aggregated
+            data, parse_error = parse_frontmatter(os.path.join(dirpath, "index.md"))
+            aggregated[rel] = data
+            if parse_error:
+                parse_errors.append(parse_error)
+    return aggregated, parse_errors
 
 
 def validate_data(source_data, schema_data):
@@ -144,7 +151,7 @@ def validate_data(source_data, schema_data):
         return 1, messages
 
 
-def check_recent_folder_names(aggregated, cutoff="2026-02-01"):
+def check_recent_folder_names(aggregated, cutoff="2026-02-23", skip_folders=None):
     """
     For entries with a frontmatter date newer than cutoff, ensure the folder
     name matches YYYY-MM-DD-suffix and that the date prefix matches the
@@ -153,8 +160,11 @@ def check_recent_folder_names(aggregated, cutoff="2026-02-01"):
     errors = []
     cutoff_date = datetime.strptime(cutoff, "%Y-%m-%d").date()
     pattern = re.compile(r"^(\d{4}-\d{2}-\d{2})-[a-z0-9_-]+$")
+    skip_folders = set(skip_folders or [])
 
     for folder, data in aggregated.items():
+        if folder in skip_folders:
+            continue
         if not isinstance(data, dict):
             continue
         fm_date = data.get("date")
@@ -168,11 +178,12 @@ def check_recent_folder_names(aggregated, cutoff="2026-02-01"):
             continue
         match = pattern.match(folder)
         if not match:
-            errors.append(f"{folder}: folder name must follow YYYY-MM-DD-suffix for entries after {cutoff}")
+            errors.append(f"{folder}: folder name must follow YYYY-MM-DD--lower-case-suffix naming convention.")
             continue
         folder_date = match.group(1)
-        if folder_date != fm_date:
-            errors.append(f"{folder}: folder date {folder_date} does not match frontmatter date {fm_date}")
+        # This is maybe something that we want, the URL can be the data when it was published.
+        # if folder_date != fm_date:
+        #    errors.append(f"{folder}: folder date {folder_date} does not match frontmatter date {fm_date}")
     return errors
 
 

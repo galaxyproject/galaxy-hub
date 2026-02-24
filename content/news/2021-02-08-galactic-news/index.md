@@ -3,7 +3,6 @@ title: February Galactic News!
 date: '2021-02-08'
 tags: [galaxy, newsletter]
 external_url: https://galaxyproject.org/news/2021-02-galaxy-update/
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

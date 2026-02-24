@@ -2,9 +2,6 @@
 title: Galaxy Training infrastructure @ de.NBI Symposium
 date: '2017-10-23'
 tags: [poster, conference]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

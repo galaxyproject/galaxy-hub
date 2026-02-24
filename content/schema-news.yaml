@@ -7,7 +7,6 @@ _examples: |
         date: 2025-10-21
         tease: Collections are one of the super-killer features of Galaxy!
         tags: [collections]
-        authors: Anton Nekrutenko
         subsites: [eu, global]
         main_subsite: global
 mapping:
@@ -51,9 +50,6 @@ mapping:
                 enum:
                     - SUBSITES
                 description: Primary subsite used for routing
-            authors:
-                type: str
-                description: Free-form author string
             authors_structured:
                 type: seq
                 sequence:
@@ -129,9 +125,6 @@ mapping:
                               enum:
                                   - ORGANISATIONS
                                   - GRANTS
-            supporters:
-                type: any
-                description: List or single supporter id(s)
             organizers:
                 type: seq
                 sequence:

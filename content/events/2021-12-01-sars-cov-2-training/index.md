@@ -5,14 +5,6 @@ end: '2021-12-01'
 tags: [training, COVID-19, talk, workshop]
 location:
   name: online
-supporters:
-- denbi
-- galaxy-europe
-- gallantries
-- erasmus+
-- eosc
-- converge
-- bycovid
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

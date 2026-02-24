@@ -2,10 +2,6 @@
 title: '[GTN news] New Feature: Easy Abbreviation'
 date: '2021-05-25'
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/05/25/abbreviations-tag.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

@@ -2,12 +2,9 @@
 title: "Using the Galaxy Platform in Large Scale Experiments"
 tease: "The EuroScienceGateway team, working in the UK to develop Galaxy tools for materials science, gave one of the latest webinars of the Physical Sciences Data Infrastructure (PSDI) project."
 hide-tease: false
-authors: [Patrick Austin, Leandro Liborio]
 date: "2024-04-25"
 subsites: [all-eu,esg]
 tags: [esg, esg-wp5]
-supporters:
-  - eurosciencegateway
 main_subsite: eu
 contributions:
   authorship:

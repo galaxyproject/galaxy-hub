@@ -2,7 +2,6 @@
 title: "Galaxy Newsletter: December 2024"
 tease: "From groundbreaking milestones to exciting new features, join us in celebrating Galaxy’s incredible journey through 2024! Plus, get a sneak peek at what Galaxy has in store for 2025."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-12-12"
 tags: ["highlight", "newsletter", "year-in-review"]
 subsites: [global,all]

@@ -3,13 +3,6 @@ title: "The annual report of the Freiburg Galaxy team 2024"
 date: "2024-12-30"
 tease: "In this post we summarized the activities and achievements of the Freiburg Galaxy team in 2024."
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - elixir
-  - egi
-  - eosc
-  - eu
 subsites: [freiburg, eu, esg]
 tags: [esg,elixir,galaxy, esg-wp1, year-in-review]
 main_subsite: eu

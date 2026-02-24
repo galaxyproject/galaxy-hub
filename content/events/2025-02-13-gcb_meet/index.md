@@ -7,7 +7,7 @@ location:
   name: Online, Global
 gtn: false
 contact:  Wendi Bacon
-tags: community
+tags: [community]
 subsites: [all-eu, global, us]
 contributions:
   authorship:

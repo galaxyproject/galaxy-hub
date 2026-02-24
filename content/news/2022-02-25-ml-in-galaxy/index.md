@@ -7,12 +7,6 @@ tease: Artificial intelligence (machine learning and deep learning) algorithms a
   modelling evolution in biological sequences and many more.
 hide_tease: true
 tags: [video]
-supporters:
-- galaxy-europe
-- denbi
-- unifreiburg
-- elixir
-authors: Anup Kumar
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

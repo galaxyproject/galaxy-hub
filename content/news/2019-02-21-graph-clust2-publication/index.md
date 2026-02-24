@@ -3,9 +3,6 @@ title: Empowering the annotation and discovery of structured RNAs with scalable 
   accessible integrative clustering
 date: '2019-02-21'
 tags: [paper]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

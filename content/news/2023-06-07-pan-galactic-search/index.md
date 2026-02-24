@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-06-07"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: Pan-Galactic Tool Search"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/06/07/pan-galactic-search.html'
 contributions:
   authorship:

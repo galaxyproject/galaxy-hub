@@ -2,7 +2,6 @@
 title: "Biological Data Science 2024"
 tease: "Galaxy had a strong presence at Biological Data Science 2024, featured in talks and posters that showcased its power and versatility in advancing biological research."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-11-27"
 tags: ["highlight"]
 subsites: [global,all]

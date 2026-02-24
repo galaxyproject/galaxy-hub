@@ -2,9 +2,6 @@
 title: Galaxy Workshop - Registration is closed!
 date: '2018-01-18'
 tags: [training]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

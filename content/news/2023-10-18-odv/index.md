@@ -1,17 +1,10 @@
 ---
 title: "Ocean Data View : a new and first of it's kind tool for the Earth-System subdomain "
 date: "2023-10-18"
-authors: Marie Josse
 tease: "Use Ocean Data View (ODV) in Galaxy Europe as an interactive tool"
 hide_tease: true
 subsites: [all-eu,global, esg]
 tags: [esg, esg-wp5, tools, community]
-supporters:
-  - eurosciencegateway
-  - eosc
-  - denbi
-  - eu
-  - unifreiburg
 contributions:
   authorship:
     - Marie59

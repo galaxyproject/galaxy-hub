@@ -65,8 +65,8 @@ image-check: build ## Build site and check all images resolve
 .PHONY: image-check
 
 validate-metadata: ## Validate news and events frontmatter schemas
-	python scripts/validate_news.py --be-strict-from 2026-02-01
-	python scripts/validate_events.py --be-strict-from 2026-02-01
+	python scripts/validate_news.py --be-strict-from 2026-02-24
+	python scripts/validate_events.py --be-strict-from 2026-02-24
 .PHONY: validate-metadata
 
 help:

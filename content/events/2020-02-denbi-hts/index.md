@@ -18,10 +18,6 @@ location:
   postal: 79104
   region: Baden-Württemberg
   street: Hermann-Herder-Straße 10
-supporters:
-- unifreiburg
-- denbi
-- mpi
 hidefooter: true
 continent: EU
 gtn: true

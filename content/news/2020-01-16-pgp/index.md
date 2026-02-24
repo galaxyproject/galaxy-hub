@@ -2,7 +2,6 @@
 title: Human multi-omics data from UK Personal Genome Project accessible through UseGalaxy.eu
 date: '2020-01-16'
 tags: [training, PGP, data]
-authors: Wolfgang Maier
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

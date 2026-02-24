@@ -6,7 +6,6 @@ tease: "This hackathon aims to improve the annotation of Galaxy resources for mi
 location: "Online"
 contact: "Bérénice Batut, Paul Zierep"
 tags: [hackathon, microbial, microgalaxy]
-supporters: [denbi, ifb]
 subsites: [all]
 contributions:
   authorship:

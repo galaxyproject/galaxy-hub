@@ -4,13 +4,7 @@ tease: Several Galaxy Community members gathered in Davos
 date: '2023-07-07'
 subsites: [global, all-eu, esg]
 tags: [esg, esg-wp5, conference]
-authors: Hans-Rudolf Hotz
 author_github: hrhotz
-supporters:
-  - eurosciencegateway
-  - eosc
-  - eu
-  - unifreiburg
 contributions:
   authorship:
     - hrhotz

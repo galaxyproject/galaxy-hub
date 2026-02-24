@@ -4,9 +4,6 @@ date: '2017-11-07'
 tags: [training, talk]
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
