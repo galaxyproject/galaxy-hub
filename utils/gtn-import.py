@@ -18,17 +18,22 @@ feed = feedparser.parse(os.getenv("FEED_URL"))
 g = Github(os.getenv("GITHUB_TOKEN") or sys.exit("GITHUB_TOKEN not set"))
 repo = g.get_repo(os.getenv("REPO_NAME") or sys.exit("REPO_NAME not set"))
 default_branch = repo.default_branch
-existing_files = [
-    (pr.html_url, file.filename)
-    for pr in repo.get_pulls(state="open", base=default_branch)
-    for file in pr.get_files()
-]
 
 import_type = os.getenv("IMPORT_TYPE")
 if import_type not in {"news", "events"}:
     sys.exit("IMPORT_TYPE should be either news or events")
 
-branch_name = f"import-gtn-{import_type}-{datetime.now().strftime('%Y%m%d%H%M%S')}"
+branch_prefix = f"import-gtn-{import_type}-"
+
+query = f"repo:{repo.full_name} is:pr is:unmerged base:{default_branch} head:{branch_prefix}"
+existing_folders = set()
+for issue in g.search_issues(query):
+    for file in issue.as_pull_request().get_files():
+        parts = file.filename.split("/")
+        if len(parts) >= 3:
+            existing_folders.add(parts[2])
+
+branch_name = f"{branch_prefix}{datetime.now().strftime('%Y%m%d%H%M%S')}"
 repo.create_git_ref(
     ref=f"refs/heads/{branch_name}", sha=repo.get_branch(default_branch).commit.sha
 )
@@ -61,13 +66,8 @@ for entry in feed.get("entries", []):
     slug = os.path.splitext(os.path.basename(id.rstrip("/")))[0]
     folder = f"{date_ymd}-{slug}" if import_type == "news" else f"{slug}"
 
-    pr_exists = False
-    for pr_url, file_path in existing_files:
-        if folder in file_path:
-            logging.info(f"PR already exists for {folder}: {pr_url}")
-            pr_exists = True
-            break
-    if pr_exists:
+    if folder in existing_folders:
+        logging.info(f"Skipping {folder}: already proposed in an existing PR")
         continue
 
     folder_path = os.path.join("content", import_type, folder)
