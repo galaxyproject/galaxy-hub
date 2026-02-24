@@ -3,10 +3,9 @@ title: "Jetstream2 + Galaxy = 518 VGP assemblies"
 date: "2026-02-24"
 tease: "IU-led Jetstream2 cloud computing and the Galaxy platform power the Vertebrate Genomes Project to produce 272 near error-free genome assemblies across 271 species."
 tags:
-- genome-assembly
+- assembly
 - vgp
-- jetstream2
-- cloud
+- infrastructure
 - research
 subsites: [all]
 contributions:
