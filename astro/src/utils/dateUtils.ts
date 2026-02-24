@@ -31,6 +31,7 @@ export function formatDate(date: Date | string | undefined, short: boolean = tru
   const d = toDate(date);
   if (!d || isNaN(d.getTime())) return '';
   return d.toLocaleDateString('en-US', {
+    timeZone: 'UTC',
     year: 'numeric',
     month: short ? 'short' : 'long',
     day: 'numeric',
@@ -64,6 +65,7 @@ export function formatDateRange(
   // Same month and year - show "Jan 15 - 17, 2024"
   if (startDate.getMonth() === endDate.getMonth() && startDate.getFullYear() === endDate.getFullYear()) {
     const monthDay = startDate.toLocaleDateString('en-US', {
+      timeZone: 'UTC',
       month: short ? 'short' : 'long',
       day: 'numeric',
     });
