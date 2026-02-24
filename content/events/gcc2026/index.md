@@ -13,9 +13,9 @@ location:
   url: "/events/gcc2026/"
 gtn: true
 contact: "Organizing Committee"
+conference: true
 subsites: [all, all-eu]
 ---
-
 
 <div class="text-center my-5">
 

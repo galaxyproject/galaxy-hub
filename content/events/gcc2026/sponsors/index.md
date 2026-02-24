@@ -2,7 +2,6 @@
 autotoc: true
 ---
 
-
 # Why Sponsor GCC2026?
 
 The **Galaxy Community Conference (GCC)** is the flagship event for one of the most impactful open-source platforms in computational biology. By sponsoring GCC2026, you're investing in a global movement democratizing data-intensive research.

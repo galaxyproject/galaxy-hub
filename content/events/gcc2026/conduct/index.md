@@ -2,7 +2,6 @@
 autotoc: false
 ---
 
-
 # Code of Conduct
 
 <p class="lead">

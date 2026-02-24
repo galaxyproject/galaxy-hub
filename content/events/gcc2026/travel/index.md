@@ -2,7 +2,6 @@
 autotoc: true
 ---
 
-
 # About Clermont-Ferrand
 
 ## Clermont-Ferrand: A City of History, Innovation, and Vibrant Culture

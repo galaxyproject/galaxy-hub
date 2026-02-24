@@ -2,7 +2,6 @@
 autotoc: false
 ---
 
-
 # GCC2026 Highlighted Talks
 
 Welcome to the highlighted talks for the 2026 Galaxy Community Conference. These

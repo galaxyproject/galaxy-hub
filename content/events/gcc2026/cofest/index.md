@@ -2,7 +2,6 @@
 autotoc: false
 ---
 
-
 # GCC2026 CollaborationFest (CoFest!)
 
 ## CoFest: A Collaborative Sprint for Everyone
