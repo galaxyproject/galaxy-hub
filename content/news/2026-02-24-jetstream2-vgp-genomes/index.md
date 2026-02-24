@@ -14,7 +14,7 @@ contributions:
     - nekrut
 ---
 
-![A phylogenetic tree showing the evolutionary relationships among 271 vertebrate species whose genomes were assembled by the Vertebrate Genomes Project](https://news.iu.edu/live/image/gid/13/width/1500/height/1500/crop/1/26608_Simplified_Figure_tree.rev.1768237318.webp)
+![A phylogenetic tree showing the evolutionary relationships among 271 vertebrate species whose genomes were assembled by the Vertebrate Genomes Project](Simplified_Figure_tree.webp)
 
 The [Vertebrate Genomes Project](https://vertebrategenomesproject.org/) (VGP), powered by Galaxy running on the IU-led [Jetstream2](https://jetstream-cloud.org/) cloud computing resource, has produced **272 near error-free genome assemblies** spanning **271 vertebrate species** and **518 haplotypes**. 
 
