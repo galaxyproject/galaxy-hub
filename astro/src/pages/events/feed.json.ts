@@ -10,9 +10,9 @@ const JSONFEED_DAYS_AGO_LIMIT = 30;
 
 function formatDate(date: Date): string {
   // Match Gridsome format: "4 November 2026"
-  const day = date.getDate();
-  const month = date.toLocaleDateString('en-US', { month: 'long' });
-  const year = date.getFullYear();
+  const day = date.getUTCDate();
+  const month = date.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long' });
+  const year = date.getUTCFullYear();
   return `${day} ${month} ${year}`;
 }
 

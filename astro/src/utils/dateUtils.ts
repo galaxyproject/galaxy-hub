@@ -22,6 +22,23 @@ function toDate(d: Date | string | undefined): Date | null {
 }
 
 /**
+ * UTC date component helpers — use these instead of getFullYear()/getMonth()/getDate()
+ * to avoid hydration mismatches between server (UTC) and client (local timezone).
+ */
+export function getUTCYear(date: Date | string): number {
+  const d = date instanceof Date ? date : new Date(date);
+  return d.getUTCFullYear();
+}
+export function getUTCMonth(date: Date | string): number {
+  const d = date instanceof Date ? date : new Date(date);
+  return d.getUTCMonth();
+}
+export function getUTCDate(date: Date | string): number {
+  const d = date instanceof Date ? date : new Date(date);
+  return d.getUTCDate();
+}
+
+/**
  * Format a date for display
  * @param date - Date to format
  * @param short - If true, use short month names (Jan, Feb). Default true for lists.
@@ -63,13 +80,13 @@ export function formatDateRange(
   }
 
   // Same month and year - show "Jan 15 - 17, 2024"
-  if (startDate.getMonth() === endDate.getMonth() && startDate.getFullYear() === endDate.getFullYear()) {
+  if (startDate.getUTCMonth() === endDate.getUTCMonth() && startDate.getUTCFullYear() === endDate.getUTCFullYear()) {
     const monthDay = startDate.toLocaleDateString('en-US', {
       timeZone: 'UTC',
       month: short ? 'short' : 'long',
       day: 'numeric',
     });
-    return `${monthDay} - ${endDate.getDate()}, ${endDate.getFullYear()}`;
+    return `${monthDay} - ${endDate.getUTCDate()}, ${endDate.getUTCFullYear()}`;
   }
 
   // Different months - show full dates

@@ -3,7 +3,7 @@ import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
-import { formatDateRange } from '@/utils/dateUtils';
+import { formatDateRange, getUTCYear } from '@/utils/dateUtils';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface EventData {
@@ -66,7 +66,7 @@ function loadMorePast() {
 function getYear(event: EventData): number | null {
   if (!event.date) return null;
   const date = new Date(event.date);
-  return isNaN(date.getTime()) ? null : date.getFullYear();
+  return isNaN(date.getTime()) ? null : getUTCYear(date);
 }
 
 // Helper to normalize subsites to array
