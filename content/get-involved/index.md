@@ -72,7 +72,7 @@ The [Galactic Blog](/news/) features Galaxy related blog posts from community me
 
 # Documentation
 
-This site contains a large amount of documentation about using and administering Galaxy.  You can help keep this site current and relevant by maintaining it and by addressing gaps in the current documentation.  See the  [CONTRIBUTING.md file](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) for more on updating this site.
+This site contains a large amount of documentation about using and administering Galaxy.  You can help keep this site current and relevant by maintaining it and by addressing gaps in the current documentation.  See the  [CONTRIBUTING.md file](https://github.com/galaxyproject/galaxy-hub/blob/main/CONTRIBUTING.md) for more on updating this site.
 
 # Code
 

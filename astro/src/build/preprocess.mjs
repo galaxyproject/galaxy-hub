@@ -6,7 +6,7 @@
  * and writes processed files to src/content/ (gitignored).
  *
  * This allows the astro-migrate branch to stay in sync with
- * content updates from master without merge conflicts.
+ * content updates from main without merge conflicts.
  */
 
 import fs from 'fs';

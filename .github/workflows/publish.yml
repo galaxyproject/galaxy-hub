@@ -3,11 +3,12 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - main
       - master
   schedule:
     - cron: "30 23 * * *"
 concurrency:
-  group: publish-master
+  group: publish-${{ github.ref_name }}
 jobs:
   publish:
     runs-on: ubuntu-latest
