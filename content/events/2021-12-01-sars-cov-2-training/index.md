@@ -16,25 +16,25 @@ contributions:
 
 ---
 
-<br>
+<br />
 
 The goal of this workshop is to enable groups doing SARS-CoV-2 sequencing using amplicon methods (like ARTICv3, ARTICv4, NEBNext VarSkip, Midnight, ...) to learn how to use pre-built workflows to quickly generate consensus sequences. After the workshop, participants will be able to upload viral sequencing data from Illumina and ONT sequencers, call variants, create consensus sequences appropriate for submission to public databases, and produce quality and lineage reports.
 
 It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. People who are new to Galaxy can use existing Galaxy training materials to prepare ahead of the workshop. During the workshop, there will be live support in chat and live Q&A sessions, in which experts from NEB and the Galaxy community will answer questions.
 
-<br>
+<br />
 
 <div align="center" width="100%">
     <a href="https://covid19.galaxyproject.org/">
         <button type="button" class="btn btn-primary btn-lg">More Galaxy COVID projects!</button>
-    </a><br><br>
+    </a><br /><br />
 </div>
 
-<br><br>
+<br /><br />
 
 <div class="row">
 <div class="col-md-7" markdown="1">
-<br><br><br><br>
+<br /><br /><br /><br />
 
 - **WHEN**: December 1, 2021
 - **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
@@ -54,11 +54,11 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 </div>
 </div>
 
-<br>
+<br />
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link" class="btn btn-primary" style="color: white; border-color: #5da996; width: 100%; background-color: #5da996;">**Registration is now open**</a>
 
-<br>
+<br />
 
 # Program & Material
 
@@ -76,14 +76,14 @@ Whenever you're ready to get started, you can access training material by clicki
 Topic | Speaker | Material | Description | Duration
 |--- | --- | --- | --- | ---|
 A very short introduction to Galaxy | Anton Nekrutenko | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-slideshare" target="_blank"></a> / <a href="https://youtu.be/VZoz3k5EehI" class="fa fa-video-camera" target="_blank"></a> | __Lecture:__ *This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.*{: .small} | 10m
-Galaxy 101 | Anton Nekrutenko |  <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/D5HgJWdfOWw" class="fa fa-video-camera" target="_blank"></a> <br> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101" class="fa fa-list-ul" target="_blank"></a> |  __Hands-on:__ *This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days.*{: .small} | 1h / 13m
-NGS data logistics | Anton Nekrutenko | <a href="https://training.galaxyproject.org/training-material//topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/9mIL0tIfZ_o" class="fa fa-video-camera" target="_blank"></a> <br> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/ngs-data-logistics" class="fa fa-list-ul" target="_blank"></a> |  __Hands-on:__ *Learn how to manipulate and process NGS data data derived from patients infected with SARS-CoV-2. Get familiar with quality control, mapping and NGS filetypes.*{: .small} | 1h 30m / 12m
+Galaxy 101 | Anton Nekrutenko |  <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/D5HgJWdfOWw" class="fa fa-video-camera" target="_blank"></a> <br /> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101" class="fa fa-list-ul" target="_blank"></a> |  __Hands-on:__ *This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days.*{: .small} | 1h / 13m
+NGS data logistics | Anton Nekrutenko | <a href="https://training.galaxyproject.org/training-material//topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/9mIL0tIfZ_o" class="fa fa-video-camera" target="_blank"></a> <br /> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/ngs-data-logistics" class="fa fa-list-ul" target="_blank"></a> |  __Hands-on:__ *Learn how to manipulate and process NGS data data derived from patients infected with SARS-CoV-2. Get familiar with quality control, mapping and NGS filetypes.*{: .small} | 1h 30m / 12m
 Quality control of reads | Florian Heyl | <a href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-slideshare" target="_blank"></a> / <a href="https://youtu.be/BWonTPS4zB8" class="fa fa-video-camera" target="_blank"></a> | __Lecture:__ *This lecture goes over the concepts involved in assessing the quality of your sequencing data.*{: .small} | 38m |
 Quality control of reads | Florian Heyl | <a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/QJRlX2hWDKM" class="fa fa-video-camera" target="_blank"></a> | __Hands-on:__ *In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.*{: .small} | 1h 30m / 1h 10m
 Mapping of reads | Peter van Heusden | <a href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-slideshare" target="_blank"></a> / <a href="https://youtu.be/7FhHb8EV3EU" class="fa fa-video-camera" target="_blank"></a> | __Lecture:__ *This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.*{: .small} | 10m
-Mapping of reads | Peter van Heusden | <a href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/1wm-62E2NkY" class="fa fa-video-camera" target="_blank"></a> <br> <a href="https://usegalaxy.eu/u/pvanheus/h/mapping-tutorial" class="fa fa-list-ul" target="_blank"></a> | __Hands-on:__ *In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.*{: .small} | 1h / 20m
-Using dataset collections | Anton Nekrutenko | <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/uZUt9XIHUQo" class="fa fa-video-camera" target="_blank"></a> <br> <a href="https://usegalaxy.eu/u/bgruening/h/using-dataset-collections---tutorial" class="fa fa-list-ul" target="_blank"></a> | __Hands-on:__ *How to manipulate large numbers of datasets at once? This will be needed to process 100 of SARS-CoV-2 samples in one go.*{: .small } | 30m / 12m
-Data cleaning workflow | Wolfgang Maier | <a href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html" class="fa fa-laptop" target="_blank"></a> <br> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data" class="fa fa-list-ul" target="_blank"></a> | __Hands-on:__ *As a first exercise in actual SARS-CoV-2 data analysis with Galaxy, this tutorial will let you perform the steps necessary to remove contaminating human reads from sequencing data of SARS-CoV-2 isolates.*{: .small } | 1h
+Mapping of reads | Peter van Heusden | <a href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/1wm-62E2NkY" class="fa fa-video-camera" target="_blank"></a> <br /> <a href="https://usegalaxy.eu/u/pvanheus/h/mapping-tutorial" class="fa fa-list-ul" target="_blank"></a> | __Hands-on:__ *In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.*{: .small} | 1h / 20m
+Using dataset collections | Anton Nekrutenko | <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-laptop" target="_blank"></a> / <a href="https://youtu.be/uZUt9XIHUQo" class="fa fa-video-camera" target="_blank"></a> <br /> <a href="https://usegalaxy.eu/u/bgruening/h/using-dataset-collections---tutorial" class="fa fa-list-ul" target="_blank"></a> | __Hands-on:__ *How to manipulate large numbers of datasets at once? This will be needed to process 100 of SARS-CoV-2 samples in one go.*{: .small } | 30m / 12m
+Data cleaning workflow | Wolfgang Maier | <a href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html" class="fa fa-laptop" target="_blank"></a> <br /> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data" class="fa fa-list-ul" target="_blank"></a> | __Hands-on:__ *As a first exercise in actual SARS-CoV-2 data analysis with Galaxy, this tutorial will let you perform the steps necessary to remove contaminating human reads from sequencing data of SARS-CoV-2 isolates.*{: .small } | 1h
 
 
 ## Workshop Day (2021-12-01) - SARS-CoV-2 Data Analysis on Public Datasets
@@ -92,7 +92,7 @@ Topic | Speaker | Material | Description | Duration
 |--- | --- | --- | ---|
 Q & A | All experts | <a href="https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing" class="fa fa-info-circle" target="_blank"></a> Info & [Zoom link](https://us02web.zoom.us/j/89522833887?pwd=QmdKN0dNbXVxMW0rank5V0dtRktvdz09) | **Real-Time Q&A session (9 am CET)** | 1h
 Galaxy for SARS-CoV-2 genome surveillance projects | Wolfgang Maier | <a href="https://docs.google.com/presentation/d/17m2ztR1VBqKE470EyAhJqoiXgnX5fgX4pW1Nstxhklk/edit?usp=sharing" class="fa fa-slideshare" target="_blank"></a> / <a href="https://www.youtube.com/watch?v=luxFraFJTc4" class="fa fa-video-camera" target="_blank"></a> | __Lecture:__ *Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance.*{: .small } | 14m
-Variant calling, reporting, consensus building (with Galaxy GUI) | Wolfgang Maier | <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-laptop" target="_blank"></a> / <a href="https://www.youtube.com/watch?v=vnFQ2fR_fzw" class="fa fa-video-camera" target="_blank"></a> <br> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/sars-cov-2-variant-analysis-demo---part-1" class="fa fa-list-ul" target="_blank">Part I</a> / <a href="https://usegalaxy.eu/u/wolfgang-maier/h/sars-cov-2-variant-analysis-demo---complete" class="fa fa-list-ul" target="_blank">Complete</a> | __Hands-on:__ *Illumina or ONT, ampliconic or WGS data? Learn how to combine the right set of Galaxy workflows to analyze the type of SARS-CoV-2 sequencing data of your choice.*{: .small } | 3h / 1h 30m
+Variant calling, reporting, consensus building (with Galaxy GUI) | Wolfgang Maier | <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html?utm_source=usegalaxyeu&utm_medium=website&utm_campaign=covid2021" class="fa fa-laptop" target="_blank"></a> / <a href="https://www.youtube.com/watch?v=vnFQ2fR_fzw" class="fa fa-video-camera" target="_blank"></a> <br /> <a href="https://usegalaxy.eu/u/wolfgang-maier/h/sars-cov-2-variant-analysis-demo---part-1" class="fa fa-list-ul" target="_blank">Part I</a> / <a href="https://usegalaxy.eu/u/wolfgang-maier/h/sars-cov-2-variant-analysis-demo---complete" class="fa fa-list-ul" target="_blank">Complete</a> | __Hands-on:__ *Illumina or ONT, ampliconic or WGS data? Learn how to combine the right set of Galaxy workflows to analyze the type of SARS-CoV-2 sequencing data of your choice.*{: .small } | 3h / 1h 30m
 Q & A | All experts | <a href="https://docs.google.com/document/d/1SIcl7BPDGCV0D-AA_S008qVYaH8id4_ibD6iTVx6gYY/edit?usp=sharing" class="fa fa-info-circle" target="_blank"></a> Info & [Zoom link](https://us02web.zoom.us/j/82592068924?pwd=TjR0RWg0ZTgycjgvSjN4cWF0SUloZz09) | **Real-Time Q&A session (4 pm CET)** | 1h
 
 

@@ -22,7 +22,7 @@ tutorials on machine learning.
 We are thankful to the Galaxy community for developing and maintaining excellent
 Training Materials with illustrative use cases. 
 
-The Freiburg Galaxy project team was very helpful in providing the training infrastructure.<br>
+The Freiburg Galaxy project team was very helpful in providing the training infrastructure.<br />
 Thank you!
 
 Nevena Veljkovic, lecturer Genomics

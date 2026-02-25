@@ -26,7 +26,7 @@ is employed and with ARC-Onderstepoort Veterinary Research (OVR) campus which is
     <img src="/assets/media/tk_besoek.jpg" width="800px" alt="Mr Lucas Msiza talking about his breeding operations on the farm to a mixed group of researchers" />
     <i>Figure 1, Mr Lucas Msiza talking about his breeding operations on the farm to a mixed group of researchers. Dr Avhashoni Zwane (green shirt) is the South African grant holder in the NRF-STINT collaboration and Dr Tomas Klingström (blue shirt) is the author of this blogpost and Swedish grant holder (Photo: Prof Erik Bongcam-Rudloff).</i>
 </div>
-<br>
+<br />
 
 In Sweden, cattle farming is very focused on dairy production with family farms of 100-300 dairy cows being the most common,
 these farms also contribute 70 % of the beef production in Sweden. In comparison the South African cattle farming got a
@@ -46,7 +46,7 @@ put powerful bioinformatics tools into the hands of the people best able to inte
     <img src="/assets/media/tk_1.jpg" width="800px" alt="South African Bonsmara cattle on pasture" />
     <i>Figure 2, South African Bonsmara cattle on pasture (Photo: Prof Erik Bongcam-Rudloff).</i>
 </div>
-<br>
+<br />
 A good example of this digitalization was our visit to the farm of Lucas Msiza. Mr Msiza has since the
 1980s expanded a small family farm into a 1 800 ha farm with 10 employees, 350 Bonsmara beef cattle and
 smaller herds of Brahmin cattle and Dorper sheep along with 150 goats grazing leafs around the farm.
@@ -64,7 +64,7 @@ and increasing crop production from irrigated farmland to supplement the grazing
     <img src="/assets/media/tk_rna_workbench.jpg" width="800px" alt="Talks on RNA Workbench and the different projects of mutual interest." />
     <i>Figure 3, talks on <a href="https://rna.usegalaxy.eu">RNA Workbench</a> and the different projects of mutual interest. Many of the participants also participated in an extra training session on the Saturday to get an introduction on how to use the Galaxy Training Network resources on <a href="https://usegalaxy.eu">(usegalaxy.eu)</a> to practice bioinformatics which was much appreciated. </i>
 </div>
-<br>
+<br />
 
 
 Our next step will be to set up Galaxy servers at SLU and the ARC Biotechnology Platform to share workflows with each other.
@@ -80,7 +80,7 @@ will however remain endemic which means that workflows must remain relevant for 
     SLU Animal Breeding and Genetics in front of the statue of Arnold Theiler, founder of the Veterinary Institute and the first
     main building of the institute (Photo: Prof Erik Bongcam-Rudloff).</i>
 </div>
-<br>
+<br />
 
 In November we also look forward to the ELIXIR Biohackaton in Paris to finish the 1.0 Version of
 Galaksio which will be a useful asset to distribute more standardised Galaxy workflows for researchers.

@@ -9,7 +9,7 @@ There are many approaches to learning how to *use* Galaxy. The most popular is p
 
 Galaxy is simple enough to use that you can do many analyses just by exploring the interface. However, you may miss much of the power this way.
 
-<br><br>
+<br /><br />
 
 ## The Galaxy Training Network (GTN)
 

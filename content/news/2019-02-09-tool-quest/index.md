@@ -73,7 +73,7 @@ We proposed the following solution:
   to filter out the lines that are in the `subset` file __and__ the `parent` file. You should have now a new `parent` file without those line from the `subset`.
 
   2. ["Sort"](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/)
-  the new file with the option `Random order (-R)`. Sort has indeed a random sorting option, somehow unintuitive - but useful.<br>
+  the new file with the option `Random order (-R)`. Sort has indeed a random sorting option, somehow unintuitive - but useful.<br />
   Now we have a random sorted file without the unwanted lines. What needs to be done is to extract N lines, where N is the length of the `subset` file.
 
   3. ["Add column to an existing dataset"](https://usegalaxy.eu/root?tool_id=addValue) with the `iterate` option enabled. This you need to do

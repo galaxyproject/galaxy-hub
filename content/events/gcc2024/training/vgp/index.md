@@ -15,5 +15,5 @@ In this session, we will introduce the genome assembly workflows developed in co
 
 ### Delphine Lariviere
 
-Penn State University <br>
+Penn State University <br />
 Hi, I am Delphine, I have been part of the galaxy team for almost 8 years and a user for about 10. I am interested in genome assembly, epigenetics, comparative genomics... In my free time I like to read and play board and video games.

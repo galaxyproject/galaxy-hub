@@ -34,13 +34,13 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are co-lo
 
 </div>
 
-<br>
+<br />
 
 - [**ELIXIR Galaxy Implementation Study (IS2021)**](/events/2022-10-egd/elixir-is2021/) meeting,
 - [**European Galaxy Days (EGD)**](/events/2022-10-egd/egd/), talks, discussions and updates, including ELIXIR-Galaxy community meeting, and CoFest,
 - [**EuroScienceGateway (ESG)  kick-off**](/events/2022-10-egd/esg/), an EU-funded project to build a mature network of national Galaxy servers and Pulsar endpoints in European clouds and HPC centers.
 
-<br><br>
+<br /><br />
 
 # Registration
 
@@ -54,7 +54,7 @@ Registration is free, but the space is limited, so we recommend to you register 
   <a class="btn w-25 btn-dark" href="https://bit.ly/egd2022-registration" role="button">Register now</a>
 </div> -->
 
-<br><br>
+<br /><br />
 
 # Schedule
 
@@ -77,27 +77,27 @@ Registration is free, but the space is limited, so we recommend to you register 
       <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white;">9:00<br> - <br>12:30</th>
+      <th style="border: 3px solid white;">9:00<br /> - <br />12:30</th>
       <td style="border: 3px solid white; background-color: lightgray;">Arrival & Get together in Freiburg
-        <br><small>(German Holiday)</small>
+        <br /><small>(German Holiday)</small>
       </td>
       <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">European Galaxy Days</a></strong>
-        <br><br><small>Community updates</small>
+        <br /><br /><small>Community updates</small>
       </td>
       <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">European Galaxy Days</a></strong>
-        <br><br><small>Community updates</small>
+        <br /><br /><small>Community updates</small>
       </td>
-      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br> CoFest</a></strong>
-        <br><br><small>Community hacking!</small>
-      </td>
-      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/">ESG kick-off</a></strong>
-        <br><br><small>Planning sessions</small>
-      </td>
-      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br> CoFest</a></strong>
-        <br><br><small>Community hacking!</small>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br /> CoFest</a></strong>
+        <br /><br /><small>Community hacking!</small>
       </td>
       <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/">ESG kick-off</a></strong>
-        <br><br><small>Discussions</small>
+        <br /><br /><small>Planning sessions</small>
+      </td>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br /> CoFest</a></strong>
+        <br /><br /><small>Community hacking!</small>
+      </td>
+      <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/">ESG kick-off</a></strong>
+        <br /><br /><small>Discussions</small>
       </td>
     </tr>
     <tr class="text-center">
@@ -106,42 +106,42 @@ Registration is free, but the space is limited, so we recommend to you register 
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white;">14:00<br> - <br>17:30</th>
+      <th style="border: 3px solid white;">14:00<br /> - <br />17:30</th>
       <td style="background-color: #FBB117; border: 3px solid white;">
         <strong><a href="/events/2022-10-egd/elixir-is2021/">ELIXIR IS2021 meeting</a></strong>
-        <br><br><small><a href="https://elixir-europe.org/internal-projects/commissioned-services/strengthen-data-management-galaxy">Strengthen Data Management in Galaxy</a></small>
+        <br /><br /><small><a href="https://elixir-europe.org/internal-projects/commissioned-services/strengthen-data-management-galaxy">Strengthen Data Management in Galaxy</a></small>
       </td>
       <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">European Galaxy Days</a></strong>
-        <br><br><small>ELIXIR-Galaxy Community meeting</small>
+        <br /><br /><small>ELIXIR-Galaxy Community meeting</small>
       </td>
       <td style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">European Galaxy Days</a></strong>
-        <br><br><small>Birds of a Feather</small>
+        <br /><br /><small>Birds of a Feather</small>
       </td>
-      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br> CoFest</a></strong>
-        <br><br><small>Community hacking!</small>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br /> CoFest</a></strong>
+        <br /><br /><small>Community hacking!</small>
       </td>
       <td style="background-color: #89C35C; border: 3px solid white;"><strong><a href="/events/2022-10-egd/esg/">ESG kick-off</a></strong>
-        <br><br><small>Planning sessions</small>
+        <br /><br /><small>Planning sessions</small>
       </td>
-      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br> CoFest</a></strong>
-        <br><br><small>Community hacking!</small>
+      <td style="background-color: #87CEFA; border: 3px solid white;"><strong><a href="/events/2022-10-egd/egd/">EGD <br /> CoFest</a></strong>
+        <br /><br /><small>Community hacking!</small>
       </td>
     </tr>
   </tbody>
 </table>
 
-<br><br>
+<br /><br />
 # Venue
 
 <img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
-<br><br>
+<br /><br />
 Albert-Ludwigs-University Freiburg<br />
 Institute for Informatics<br />
 Georges-Köhler-Allee, 101<br />
 79110 Freiburg<br />
 Germany
 
-<br><br>
+<br /><br />
 
 # Logistics
 ### Getting to Freiburg

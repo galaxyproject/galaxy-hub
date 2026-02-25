@@ -108,7 +108,7 @@ Most applicants (85%) agree with the **importance of having access to the origin
 
 The expectations of the applicants regarding the workshop were quite diverse. They were mostly **interested in learning**: How to perform basic analyses, in particular RNA-seq; how to build pipelines and workflows; how to use Galaxy and cloud based bioinformatics infrastructure without complex coding; new tools; how to process (massive) biological data. 
 
-<br><br><br><br>
+<br /><br /><br /><br />
 
 ## Participation
 

@@ -91,10 +91,10 @@ We value and promote diversity, inclusion, and equal opportunities, so we welcom
 Please submit your complete application documents including a 1-page motivation letter, CV, and two contact details of references by **January 2023, 9th** to [bioinf-jobs@informatik.uni-freiburg.de](mailto:bioinf-jobs@informatik.uni-freiburg.de).
 
 
-University of Freiburg<br>
-Dr. Björn Grüning<br>
-Head of Freiburg Galaxy Team<br>
-Georges-Köhler-Allee 106<br>
+University of Freiburg<br />
+Dr. Björn Grüning<br />
+Head of Freiburg Galaxy Team<br />
+Georges-Köhler-Allee 106<br />
 79110 Freiburg
 
 We plan to review applications within 2 weeks of the closing date and interview candidates within 2 weeks after. Interviews will take place virtually via Zoom. Selected candidate(s) will be afterward invited to meet with the Freiburg Galaxy team.

@@ -44,6 +44,6 @@ This review underscores the transformative potential of genomic technologies in 
    
 A big thank you to Andrew Calcino, Ira Cooke, Pete Cowman, Megan Higgie, Cecile Massault, Ulf Schmitz, Maxine Whittaker, and Matt Field for highlighting the importance of accessible genomic tools like Galaxy. Your work inspires global efforts to improve health and sustainability in tropical regions.  
 
----<br><be> 
+---<br /><be> 
    
 Calcino, A., Cooke, I., Cowman, P. *et al.* Harnessing genomic technologies for one health solutions in the tropics. *Global Health* **20**, 78 (2024). [https://doi.org/10.1186/s12992-024-01083-3](https://doi.org/10.1186/s12992-024-01083-3)  

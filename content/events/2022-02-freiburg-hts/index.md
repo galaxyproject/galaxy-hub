@@ -30,7 +30,7 @@ online course and is limited to the members CRC 1425, CRC 992 and MeInBio.
 <div align="center" width="100%">
     <a href="https://usegalaxy.eu/join-training/fr-feb-2022">
         <button type="button" class="btn btn-primary btn-lg">Start here!</button>
-    </a><br><br>
+    </a><br /><br />
 </div>
 Note: This is a special link created for the workshop only. After the workshop, you can directly access the Galaxy service from here: [https://usegalaxy.eu](https://usegalaxy.eu)
   

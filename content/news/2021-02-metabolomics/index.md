@@ -21,5 +21,5 @@ The __next meetings__ are planned for March 11, May 6 and at the [Galaxy Communi
 To get the latest information, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org)
 or join the [metabolomics Matrix channel](https://matrix.to/#/#usegalaxy-eu_metabolomics:gitter.im). 
 
-<br>
+<br />
 {% twitter https://twitter.com/bjoerngruening/status/1355060367215489024%}

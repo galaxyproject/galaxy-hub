@@ -42,6 +42,6 @@ This research provides critical insights into the genetic evolution of wild loqu
    
 We extend a special thank you to the authors, Zhicong Lin, Qing Guo, Shiwei Ma, Hailan Lin, Shunquan Lin, Shoukai Lin, and Jincheng Wu, for using Galaxy to power their comparative genomic research. Their work showcases Galaxy’s capabilities in advancing plant genomics and evolutionary studies.  
 
----<br><be> 
+---<br /><be> 
    
 Lin, Z., Guo, Q., Ma, S. et al. Chloroplast genomes of Eriobotrya elliptica and an unknown wild loquat “YN-1”. Sci Rep 14, 18816 (2024). https://doi.org/10.1038/s41598-024-69882-7  

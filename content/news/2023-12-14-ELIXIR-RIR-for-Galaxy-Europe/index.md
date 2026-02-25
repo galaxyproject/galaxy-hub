@@ -20,7 +20,7 @@ contributions:
 ![logo RIR](/images/logos/ELIXIR_RIR_Logo.png)
 
 </div>
-<br>
+<br />
 
 With [ELIXIR's announcement](https://elixir-europe.org/news/resource-announcement-2023) on new Core Data Resources (CDRs) and Recommended Interoperability Resources (RIRs) it becomes official today: beyond being listed as an ELIXIR service, Galaxy Europe receives the RIR badge. 
 

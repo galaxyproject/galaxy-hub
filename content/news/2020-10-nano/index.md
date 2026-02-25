@@ -19,5 +19,5 @@ The Galaxy platform provides a user-friendly interface to computational command 
 
 A range of best-practice tools and workflows for long-read sequence genome assembly has been integrated into a NanoGalaxy platform to facilitate easy access and use of bioinformatics tools for researchers. NanoGalaxy is freely available at the European Galaxy server https://nanopore.usegalaxy.eu with supporting self-learning training material available at https://training.galaxyproject.org.
 
-<br>
+<br />
 {% twitter https://twitter.com/MiladMiladi_/status/1318645556751859712 %}

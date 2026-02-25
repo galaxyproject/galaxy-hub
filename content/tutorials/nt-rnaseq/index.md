@@ -167,7 +167,7 @@ This will generate the following quality value distributions:
      </a>
    </div>
    <div class="panel-body collapse" id="qc">
-        - The read length is 99 bp<br>
+        - The read length is 99 bp<br />
         - The quality of base calls declines throughout a sequencing run.
    </div>
 </div>
@@ -257,7 +257,7 @@ We want to create a new clean history by moving the original sequence data. To d
 
 |                                                           |                       |
 |-----------------------------------------------------------|-----------------------|
-| **A.** Click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>)<br>Choose "**Copy Datasets**" option: <br>![](./copy_datasets.png) | **B.** Choose which datasets you need to copy:<br>![](./copy_datasets2.png)<br>**C.** Click on the name of the newly created history:<br>![](./datasets_copied.png) |
+| **A.** Click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>)<br />Choose "**Copy Datasets**" option: <br />![](./copy_datasets.png) | **B.** Choose which datasets you need to copy:<br />![](./copy_datasets2.png)<br />**C.** Click on the name of the newly created history:<br />![](./datasets_copied.png) |
 |<small>**Copying datasets into a new history**</small> |  <small>**A**: Use history options dropdown. **B**: Select datasets to copy and type a new for the new history (`Novel Transcripts (RNAseq)` in this case). **C**: Go to the new history by clicking on the link with its name.</small>  |
 
 Once all datasets are copied it will look something like this:
