@@ -3,6 +3,8 @@ title: "New Galaxy Tool: BiaPy – Deep Learning for Bioimage Analysis in Galaxy
 contributions:
   authorship:
     - danifranco
+  funding:
+    - nfdi4bioimage
 tags: [imaging, workflow, microscopy]
 layout: news
 date: "2025-10-21"
