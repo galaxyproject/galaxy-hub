@@ -72,7 +72,7 @@ const filteredBySubsite = computed(() => {
 function getYear(article: NewsArticle): number | null {
   if (!article.date) return null;
   const date = new Date(article.date);
-  return isNaN(date.getTime()) ? null : date.getFullYear();
+  return isNaN(date.getTime()) ? null : date.getUTCFullYear();
 }
 
 // Available years (sorted descending)

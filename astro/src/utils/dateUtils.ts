@@ -63,13 +63,13 @@ export function formatDateRange(
   }
 
   // Same month and year - show "Jan 15 - 17, 2024"
-  if (startDate.getMonth() === endDate.getMonth() && startDate.getFullYear() === endDate.getFullYear()) {
+  if (startDate.getUTCMonth() === endDate.getUTCMonth() && startDate.getUTCFullYear() === endDate.getUTCFullYear()) {
     const monthDay = startDate.toLocaleDateString('en-US', {
       timeZone: 'UTC',
       month: short ? 'short' : 'long',
       day: 'numeric',
     });
-    return `${monthDay} - ${endDate.getDate()}, ${endDate.getFullYear()}`;
+    return `${monthDay} - ${endDate.getUTCDate()}, ${endDate.getUTCFullYear()}`;
   }
 
   // Different months - show full dates

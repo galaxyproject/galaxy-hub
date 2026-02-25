@@ -66,7 +66,7 @@ function loadMorePast() {
 function getYear(event: EventData): number | null {
   if (!event.date) return null;
   const date = new Date(event.date);
-  return isNaN(date.getTime()) ? null : date.getFullYear();
+  return isNaN(date.getTime()) ? null : date.getUTCFullYear();
 }
 
 // Helper to normalize subsites to array
