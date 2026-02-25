@@ -42,7 +42,7 @@ As part of the EuroScienceGateway project is about maturing the WorkflowHub EOSC
 Within the WorkflowHub, a [EuroScienceGateway team](https://workflowhub.eu/projects/166) groups the contributors, organisations and workflows developed by the ESG project. Each contributor can register for a separate account, and their workflows can be given shared attribution.
 
 ![WorkflowHub screenshot: EuroScienceGateway](wfhub.png)  
-**Figure 1**: The WorkflowHub team <https://workflowhub.eu/projects/166> shows registered people, organisations, standard operating procedures, workflows and collections.
+**Figure 1**: The WorkflowHub team [https://workflowhub.eu/projects/166](https://workflowhub.eu/projects/166) shows registered people, organisations, standard operating procedures, workflows and collections.
 
 Workflows are registered as [Workflow RO-Crates](https://w3id.org/workflowhub/workflow-ro-crate/), capturing the workflow definition and its metadata as a [FAIR Digital Object](https://doi.org/10.3897/rio.8.e93937). [RO-Crate](https://www.researchobject.org/ro-crate/) is a general-purpose FAIR packaging mechanism for data, metadata and software.
 
@@ -88,4 +88,4 @@ In contrast, the Intergalactic Workflow Commission ([IWC](https://github.com/gal
 Stian Soiland-Reyes, Björn Grüning, Paul De Geest (2024):\
 **EuroScienceGateway MS3: Initial EuroScienceGateway workflows registered**.\
 *Zenodo* (Milestone)\
-<https://doi.org/10.5281/zenodo.1072892>
+[https://doi.org/10.5281/zenodo.1072892](https://doi.org/10.5281/zenodo.1072892)
