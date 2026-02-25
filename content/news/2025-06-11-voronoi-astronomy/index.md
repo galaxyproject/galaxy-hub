@@ -11,6 +11,7 @@ contributions:
     - eurosciencegateway
     - oscars
     - fiesta
+    - nfdi4bioimage
 ---
 
 

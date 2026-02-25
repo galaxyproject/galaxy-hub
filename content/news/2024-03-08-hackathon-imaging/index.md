@@ -16,6 +16,8 @@ contributions:
     - rmassei
     - davelopez
     - pavanvidem
+  funding:
+    - nfdi4bioimage
 ---
 
 The *"Image Analysis in Galaxy"* hackathon was held from February 26th to March 1st, 2024, at the University of Freiburg (Germany). Co-organized by Euro-BioImaging and NFDI4BIOIMAGE, the event aimed to enhance image analysis capabilities and workflows within the Galaxy platform.

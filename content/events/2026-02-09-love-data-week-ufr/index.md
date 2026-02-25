@@ -13,5 +13,8 @@ continent: GL
 external_url: https://cdf.uni-freiburg.de/en/events/2026-02-09-love-data-week.html
 tease: Celebrate international LOVE DATA week with a series of free online and in
   person events focused on RDM, including a session on Galaxy and the GTN.
+contributions:
+  funding:
+    - nfdi4bioimage
 ---
 Celebrate international LOVE DATA week with a series of free online and in person events focused on RDM, including a session on Galaxy and the GTN.
