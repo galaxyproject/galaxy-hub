@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Newsletter December 2025"
 tags: [newsletter, year-in-review]
-layout: news
 date: "2025-12-22"
 tease: "From celebrating 20 years of Galaxy to highlighting this year’s releases, training milestones, and research breakthroughs, this final newsletter of 2025 reflects on how far the community has come and looks ahead to what’s next."
 subsites: [all, global]

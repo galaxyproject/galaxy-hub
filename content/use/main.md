@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Platform Directory: Servers, Clouds, and Deployable Resources"
 autotoc: true
-layout: use_index.pug
 ---
 
 This directory lists __platforms where you can use or deploy__ your own Galaxy Server with minimal effort. Covering a wide spectrum, there are resources for genomics, metagenomics, transcriptomics, proteomics, and drug discovery. Also, there are even some outside biology like natural language processing (a couple of them) and social science.
