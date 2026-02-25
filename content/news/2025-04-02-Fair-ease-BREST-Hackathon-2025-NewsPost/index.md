@@ -7,7 +7,6 @@ contributions:
     - RZ9082
     - elichad
 tags: [Hackathon,esg, esg-wp3, esg-wp4, esg-wp1]
-layout: news
 date: "2025-04-02"
 cover: "Hackathon-FAIR-EASE-2025-lighthouse.jpg"
 coveralt: "Brest Lighthouse photo 2025"

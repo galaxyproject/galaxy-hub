@@ -3,7 +3,6 @@ title: "Freiburg is hosting its 20th HTS-Workshop"
 contributions:
   authorship: [teresa-m]
 tags: [training, esg-wp1, esg-wp5]
-layout: news
 date: "2025-03-10"
 tease: "Time to celebrate! Freiburg is hosting its 20th HTS Workshop this March of 2025"
 subsites: [all,esg,eu]
