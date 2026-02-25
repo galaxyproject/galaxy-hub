@@ -920,6 +920,41 @@ function convertVueToJsx(content) {
 }
 
 /**
+ * Extract a tease (short description) from raw markdown body text.
+ * Strips markdown/HTML syntax and returns the first sentence or ~200 chars,
+ * breaking at a word boundary.
+ */
+function generateTease(markdownBody) {
+  let text = markdownBody
+    .replace(/^---[\s\S]*?---\s*/m, '') // strip any residual frontmatter
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '') // strip images
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1') // links → text
+    .replace(/<[^>]+>/g, '') // strip HTML tags
+    .replace(/^#{1,6}\s+/gm, '') // strip heading markers
+    .replace(/[*_~`]+/g, '') // strip emphasis/code markers
+    .replace(/^\s*[-*+]\s+/gm, '') // strip list markers
+    .replace(/^\s*\d+\.\s+/gm, '') // strip ordered list markers
+    .replace(/^\s*>/gm, '') // strip blockquotes
+    .replace(/\n+/g, ' ') // collapse newlines
+    .replace(/\s+/g, ' ') // collapse whitespace
+    .trim();
+
+  if (!text) return null;
+
+  // Try to end at the first sentence boundary within ~200 chars
+  const sentenceEnd = text.search(/[.!?]\s/);
+  if (sentenceEnd > 0 && sentenceEnd < 200) {
+    return text.slice(0, sentenceEnd + 1);
+  }
+
+  // Otherwise truncate at a word boundary near 200 chars
+  if (text.length <= 200) return text;
+  const truncated = text.slice(0, 200);
+  const lastSpace = truncated.lastIndexOf(' ');
+  return (lastSpace > 100 ? truncated.slice(0, lastSpace) : truncated) + '…';
+}
+
+/**
  * Process a single markdown file
  */
 async function processMarkdownFile(filePath) {
@@ -1012,7 +1047,18 @@ async function processMarkdownFile(filePath) {
   }
 
   if (collection === 'news' && !processedFrontmatter.tease) {
-    console.warn(`  Warning: news article missing tease: ${relativePath}`);
+    const articleDate = processedFrontmatter.date ? new Date(processedFrontmatter.date) : null;
+    const cutoffDate = new Date();
+    cutoffDate.setFullYear(cutoffDate.getFullYear() - 1);
+
+    if (articleDate && articleDate < cutoffDate) {
+      const autoTease = generateTease(body);
+      if (autoTease) {
+        processedFrontmatter.tease = autoTease;
+      }
+    } else {
+      console.warn(`  Warning: news article missing tease: ${relativePath}`);
+    }
   }
 
   // Ensure collection directory exists
@@ -1137,6 +1183,29 @@ export async function preprocessContent(options = {}) {
   const results = [...mdResults, ...yamlResults];
   const errors = mdErrors + yamlErrors;
 
+  // Check for duplicate slugs within the same collection (skip datasets — they use filenames, not slugs)
+  const slugMap = new Map();
+  for (const result of results) {
+    if (!result.slug) continue;
+    const key = `${result.collection}/${result.slug}`;
+    if (!slugMap.has(key)) {
+      slugMap.set(key, []);
+    }
+    slugMap.get(key).push(result.source);
+  }
+  const duplicates = [...slugMap.entries()].filter(([, sources]) => sources.length > 1);
+  if (duplicates.length > 0) {
+    console.warn('');
+    console.warn(`Warning: ${duplicates.length} duplicate slug(s) detected:`);
+    for (const [key, sources] of duplicates) {
+      console.warn(`  "${key}":`);
+      for (const src of sources) {
+        console.warn(`    ${path.relative(CONTENT_DIR, src)}`);
+      }
+    }
+    console.warn('Later files overwrite earlier ones in the same collection.');
+  }
+
   // Copy global images directory (content/images/ -> public/images/)
   // Directory names are normalized to match rewriteSrc path normalization
   const globalImagesDir = path.join(CONTENT_DIR, 'images');
@@ -1247,4 +1316,5 @@ export {
   resolveInsertContent,
   insertCache,
   stripVueArtifacts,
+  generateTease,
 };

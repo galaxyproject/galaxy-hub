@@ -14,6 +14,8 @@ import {
   resolveInsertContent,
   insertCache,
   stripVueArtifacts,
+  generateTease,
+  preprocessContent,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -562,4 +564,67 @@ describe('convertFontAwesomeToLucide - kramdown patterns', () => {
     expect(result).toContain('<svg');
     expect(result).toContain('/feed.atom');
   });
+});
+
+describe('generateTease', () => {
+  it('extracts the first sentence from plain text', () => {
+    const body = 'This is the first sentence. This is the second sentence.';
+    expect(generateTease(body)).toBe('This is the first sentence.');
+  });
+
+  it('strips markdown links', () => {
+    const body = '[TÜV SÜD](https://example.com) awarded the certification. More text here.';
+    expect(generateTease(body)).toBe('TÜV SÜD awarded the certification.');
+  });
+
+  it('strips images', () => {
+    const body = '![alt text](image.png)\n\nThe actual content starts here. And continues.';
+    expect(generateTease(body)).toBe('The actual content starts here.');
+  });
+
+  it('strips HTML tags', () => {
+    const body = '<div class="alert">Important announcement.</div> More text follows.';
+    expect(generateTease(body)).toBe('Important announcement.');
+  });
+
+  it('strips heading markers', () => {
+    const body = '## Overview\n\nThis project does something. Details follow.';
+    expect(generateTease(body)).toBe('Overview This project does something.');
+  });
+
+  it('truncates long text at word boundary with ellipsis', () => {
+    const body = 'word '.repeat(100);
+    const result = generateTease(body);
+    expect(result.length).toBeLessThanOrEqual(201);
+    expect(result).toMatch(/…$/);
+  });
+
+  it('returns null for empty content', () => {
+    expect(generateTease('')).toBeNull();
+    expect(generateTease('   \n\n  ')).toBeNull();
+  });
+
+  it('returns short content as-is when under 200 chars', () => {
+    const body = 'A short news item with no period';
+    expect(generateTease(body)).toBe('A short news item with no period');
+  });
+});
+
+describe('slug collision detection', () => {
+  it('has no duplicate slugs within the same collection', async () => {
+    const results = await preprocessContent({ verbose: false, clear: false });
+    const slugMap = new Map();
+    for (const result of results) {
+      if (!result.slug) continue;
+      const key = `${result.collection}/${result.slug}`;
+      if (!slugMap.has(key)) {
+        slugMap.set(key, []);
+      }
+      slugMap.get(key).push(result.source);
+    }
+    const duplicates = [...slugMap.entries()]
+      .filter(([, sources]) => sources.length > 1)
+      .map(([key, sources]) => `${key}: ${sources.join(', ')}`);
+    expect(duplicates, `Duplicate slugs found:\n${duplicates.join('\n')}`).toHaveLength(0);
+  }, 120_000);
 });
