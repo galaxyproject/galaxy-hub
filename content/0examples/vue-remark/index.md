@@ -14,7 +14,7 @@ contacts:
 - name: Person
   email: name@example.com
   url: https://example.com
-authors: Jose and me
+authors: [Jose and me]
 location:
   name: Strong Badia
 location_url: 'https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s'
