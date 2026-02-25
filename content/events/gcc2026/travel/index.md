@@ -2,8 +2,6 @@
 autotoc: true
 ---
 
-<slot name="/events/gcc2026/header" />
-
 # About Clermont-Ferrand
 
 ## Clermont-Ferrand: A City of History, Innovation, and Vibrant Culture

@@ -2,8 +2,6 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2026/header" />
-
 # GCC2026 Fellowships
 
 We are pleased to offer several fellowship opportunities to support attendance at the Galaxy Community Conference 2026 in Clermont-Ferrand, France. These awards will help early-career researchers and new Galaxy users participate in this premier event.

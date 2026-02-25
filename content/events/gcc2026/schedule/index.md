@@ -2,9 +2,7 @@
 autotoc: true
 ---
 
-<slot name="/events/gcc2026/header" />
-
-# Daily schedule
+# GCC2026 Daily Schedule
 
 The schedule is where you can discover what’s happening when at GCC2026.
 

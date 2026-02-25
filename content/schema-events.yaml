@@ -85,6 +85,8 @@ mapping:
                 type: bool
             autotoc:
                 type: bool
+            conference:
+                type: bool
             location:
                 type: any
                 description: Location as a string or map with name/city/region/country/lat/lon/url
