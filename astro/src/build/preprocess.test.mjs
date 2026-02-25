@@ -14,6 +14,7 @@ import {
   resolveInsertContent,
   insertCache,
   stripVueArtifacts,
+  preprocessContent,
 } from './preprocess.mjs';
 
 describe('hasProblematicHtml', () => {
@@ -562,4 +563,23 @@ describe('convertFontAwesomeToLucide - kramdown patterns', () => {
     expect(result).toContain('<svg');
     expect(result).toContain('/feed.atom');
   });
+});
+
+describe('slug collision detection', () => {
+  it('has no duplicate slugs within the same collection', async () => {
+    const results = await preprocessContent({ verbose: false, clear: false });
+    const slugMap = new Map();
+    for (const result of results) {
+      if (!result.slug) continue;
+      const key = `${result.collection}/${result.slug}`;
+      if (!slugMap.has(key)) {
+        slugMap.set(key, []);
+      }
+      slugMap.get(key).push(result.source);
+    }
+    const duplicates = [...slugMap.entries()]
+      .filter(([, sources]) => sources.length > 1)
+      .map(([key, sources]) => `${key}: ${sources.join(', ')}`);
+    expect(duplicates, `Duplicate slugs found:\n${duplicates.join('\n')}`).toHaveLength(0);
+  }, 120_000);
 });

@@ -1137,6 +1137,29 @@ export async function preprocessContent(options = {}) {
   const results = [...mdResults, ...yamlResults];
   const errors = mdErrors + yamlErrors;
 
+  // Check for duplicate slugs within the same collection (skip datasets — they use filenames, not slugs)
+  const slugMap = new Map();
+  for (const result of results) {
+    if (!result.slug) continue;
+    const key = `${result.collection}/${result.slug}`;
+    if (!slugMap.has(key)) {
+      slugMap.set(key, []);
+    }
+    slugMap.get(key).push(result.source);
+  }
+  const duplicates = [...slugMap.entries()].filter(([, sources]) => sources.length > 1);
+  if (duplicates.length > 0) {
+    console.warn('');
+    console.warn(`Warning: ${duplicates.length} duplicate slug(s) detected:`);
+    for (const [key, sources] of duplicates) {
+      console.warn(`  "${key}":`);
+      for (const src of sources) {
+        console.warn(`    ${path.relative(CONTENT_DIR, src)}`);
+      }
+    }
+    console.warn('Later files overwrite earlier ones in the same collection.');
+  }
+
   // Copy global images directory (content/images/ -> public/images/)
   // Directory names are normalized to match rewriteSrc path normalization
   const globalImagesDir = path.join(CONTENT_DIR, 'images');
