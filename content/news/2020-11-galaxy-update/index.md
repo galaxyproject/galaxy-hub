@@ -133,7 +133,7 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 
 </div>
 
-This **November 10 webinar** by Barbara Arbeithuber​ and ​Nick Stoler will present *Du Novo Sequencing*, a method that can achieve <1% variant detection,​ by removing the reliance on a reference sequence, preserving a higher proportion of the input reads, and being available for Galaxy.
+This **November 10 webinar** by Barbara Arbeithuber​ and ​Nick Stoler will present *Du Novo Sequencing*, a method that can achieve &lt;1% variant detection,​ by removing the reliance on a reference sequence, preserving a higher proportion of the input reads, and being available for Galaxy.
 </div>
 
 

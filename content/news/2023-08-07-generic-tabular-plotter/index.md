@@ -44,7 +44,7 @@ so the hover display is easy to control. They reliably freeze up using a recent 
 now always fails if >5k rows are chosen for html output. Advice to this effect has been
 added to the form.
 
-For <5k rows of data, interactive html output is available in stand alone format, where 3MB of javascript is included,
+For &lt;5k rows of data, interactive html output is available in stand alone format, where 3MB of javascript is included,
 allowing it to be viewed offline. Short form html requires an internet connection to download the
 javascript into the browser so cannot be viewed offline.
 
