@@ -9,11 +9,11 @@ Jochen Bick (jochen.bick@usys.ethz.ch)³,
 Nikolay Aleksandrov Vazov (n.a.vazov@usit.uio.no)⁴,
 Björn Grüning (gruening@informatik.uni-freiburg.de)⁵⋅⁶
 
-1) Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland<br>
-2) Swiss Institute of Bioinformatics, Basel, Switzerland<br>
-3) ETH Zürich, Switzerland<br>
-4) University of Oslo, Norway<br>
-5) Albert-Ludwigs-Universität, Freiburg, Germany<br>
+1) Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland<br />
+2) Swiss Institute of Bioinformatics, Basel, Switzerland<br />
+3) ETH Zürich, Switzerland<br />
+4) University of Oslo, Norway<br />
+5) Albert-Ludwigs-Universität, Freiburg, Germany<br />
 6) German Network of Bioinformatics Infrastructure (de.NBI), Freiburg, Germany
 
 

@@ -12,13 +12,13 @@ contributions:
 While the first version of an improved human genome resulting from the Telomere-to-Telomere (T2T) Consortium efforts got reported in 2020, it has taken two years of additional work to achieve something that the scientific community has been eagerly awaiting since: the first complete, gap-free sequence for all 24 human chromosomes (including Y).
 
 
-<br>
+<br />
 
 ![Graphical Abstract](/assets/media/T2T_human_genome.png)
 
 *Resolved sequences by the T2T-CHM13v2.0 reference genome. Resource: T2T consortium*
 
-<br>
+<br />
  
     
 The T2T-CHM13v2.0 reference genome, generated primarily by long-read sequencing, provides a significant improvement in the characterization of centromeric satellite repeats, transposable elements, and segmental duplications.
@@ -27,7 +27,7 @@ Compared to the latest version, GRCh38, of the human reference genome, it adds n
 
 This genome is now available as built-in indexed genome in the wide collection of mapping tools that Galaxy puts at your disposal (e.g. [RNASTAR](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.8a+galaxy0), [HISAT2](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy0), [BWA-MEM](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2)). Enjoy your research!
         
-<br>
+<br />
 
 References:
     

@@ -9,7 +9,7 @@ contributions:
     - beatrizserrano
 ---
 
-<br>
+<br />
 The Galaxy community is undergoing an __organizational transformation__, with the main focus on improving the global coordination in different areas by defining [__Working Groups__](https://galaxyproject.org/community/wg/). The motivations behind this shift are the rapid growth of the community and its diversity.
 
 The Working Groups are open to everyone, with members __distributed across the globe__, and assorted in the topics covered  (admin, backend, UI/UX...). The set of working groups and their missions will evolve over time.
@@ -27,7 +27,7 @@ If you want to contribute to a particular area, there are channels to get in tou
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OuxyMWuUBpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-<br>
+<br />
 
 
 

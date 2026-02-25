@@ -14,12 +14,12 @@ The aim behind ChatGXY is to improve the user experience in Galaxy by translatin
 ## Meet the Instructors
 
 ### Dannon Baker
-Johns Hopkins University <br>
+Johns Hopkins University <br />
 
 ### Tyler Collins
-Johns Hopkins University <br>
+Johns Hopkins University <br />
 Galaxy developer and enthusiast of tool integration and better understanding bioinformatic analyses. 
 
 ### Ahmed Hamid Awan
-Johns Hopkins University <br>
+Johns Hopkins University <br />
 Galaxy Developer

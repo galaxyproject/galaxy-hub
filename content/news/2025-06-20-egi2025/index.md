@@ -84,6 +84,6 @@ EGI2025 provided another excellent opportunity for [EuroScienceGateway](https://
 
 ![*TPV Broker poster*](./egi2025-tpv-broker.jpg)
 
-<br>
+<br />
 
 ![*ESG poster*](./egi2025-esg-poster.jpg)

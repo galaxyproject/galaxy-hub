@@ -40,6 +40,6 @@ Galaxy extends our gratitude to Mara Stadler, Saulius Lukauskas, Till Bartke, an
 
 *Stay tuned for more updates on Galaxy-enabled research and scientific discovery.*
 
----<br><be> 
+---<br /><be> 
 
 Mara Stadler, Saulius Lukauskas, Till Bartke, Christian L Müller, asteRIa enables robust interaction modeling between chromatin modifications and epigenetic readers, Nucleic Acids Research, 2024;, gkae361, https://doi.org/10.1093/nar/gkae361 

@@ -39,6 +39,6 @@ Galaxy would like to acknowledge Rana Fahmi Sabala, Akira Fukuda, Chie Nakajima,
 
 *Stay tuned for more updates on Galaxy-enabled research and scientific discovery.*
 
----<br><be> 
+---<br /><be> 
 
 Rana Fahmi Sabala, Fukuda, A., Nakajima, C., Suzuki, Y., Usui, M., & Elhadidy, M. (2024). Carbapenem and colistin-resistant hypervirulent Klebsiella pneumoniae: An emerging threat transcending the Egyptian food chain. Journal of Infection and Public Health, 17(6), 1037–1046. https://doi.org/10.1016/j.jiph.2024.04.010

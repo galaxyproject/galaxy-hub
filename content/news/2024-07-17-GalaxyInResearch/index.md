@@ -43,7 +43,7 @@ Thank you to Alena Yakhnenko, Yurij Bukin, Igor Khanaev, and Valeria Itskovich f
 
 *Stay tuned for more updates on Galaxy-enabled research and scientific discovery!*
 
----<br><be> 
+---<br /><be> 
 
 Yakhnenko, A., Bukin, Y., Khanaev, I. et al. Genetic diversity studies of Baikal endemic sponges at the interspecies and population levels using high-resolution microsatellite markers. Aquat Sci 86, 85 (2024). https://doi.org/10.1007/s00027-024-01096-5
 

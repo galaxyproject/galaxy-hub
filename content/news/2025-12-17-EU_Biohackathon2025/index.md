@@ -19,7 +19,7 @@ contributions:
 
 <p align="center">
   <img src="biohackathon2025.jpg" alt="Project 9 team at BioHackathon 2025" width="70%">
-  <br>
+  <br />
   <sub>CC BY 4.0 📸 Leonid Kostrykin</sub>
 </p>
 

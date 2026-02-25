@@ -19,6 +19,6 @@ Here we outline several Galaxy workflows and learning resources for single-cell 
 _Conclusions_  
 The reproducible and training-oriented Galaxy framework provides a sustainable high-performance computing environment for users to run flexible analyses on both 10x and alternative platforms. The tutorials from the Galaxy Training Network along with the frequent training workshops hosted by the Galaxy community provide a means for users to learn, publish, and teach single-cell RNA-sequencing analysis.
 
-<br>
+<br />
 {% twitter https://twitter.com/gxytraining/status/1318532250640658438 %}
 

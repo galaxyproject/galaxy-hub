@@ -30,5 +30,5 @@ For more information, see
 
 We believe this paper makes a powerful and transformative argument for reshaping the way biomedical research is done.
 
-Thank you,<br>
+Thank you,<br />
 The UseGalxy.* Community

@@ -29,7 +29,7 @@ Wouldn't it be interesting to study the RNA modifications of SARS-CoV-2 and see 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<a href="https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1" target="_blank">![DRS RAW signal](/assets/media/drs_fig-5.png)</a>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |  |Direct RNA sequencing raw electrical signals of downsampled reads obtained from unmodified RNA (IVT, black), from samples generated for this study and from an isolate from a published Korean data set (Fr1-3 and Kr, red).|  |
 
-<br>
+<br />
 
 We assembled a team of experts from the __University Medical Center Freiburg__, with access to the SARS-CoV-2 samples, from the 
 __Medical Faculty of the Goethe University Frankfurt__ and Bioinformaticians from the __Galaxy community__ to do exactly this! Study the
@@ -50,7 +50,7 @@ Take it, analyze it, kill the virus!
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <a href="https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1" target="_blank">![Modified RNA regions](/assets/media/drs_fig-2.png)</a> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |  |Detection of modified RNA bases in SARS-CoV-2 sgRNAs. __a__: Heatmaps of Nanocompore p-value scores for modified sites for the 3 sample replicates (Fr1-3) as compared to unmodified RNA data from Kim et al.. The genomic regions containing top-1% modification scores are marked in red. __b__: Heatmaps of the predicted fraction of modified bases using Tombo. The red marks show top-1% modified sites per sample that are common in at least two of the three samples.|  |
 
-<br>
+<br />
 
 Apart from the paper itself, check out our collection of <a href="https://training.galaxyproject.org" target="_blank">training material</a>,
 and the <a href="https://covid19.galaxyproject.org" target="_blank">documentation for our most recent COVID-19 projects</a>.

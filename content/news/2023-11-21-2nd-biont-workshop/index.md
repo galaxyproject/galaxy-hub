@@ -96,7 +96,7 @@ Most applicants (95%) agreed with the importance of having access to the origina
 
 The applicants' expectations for the workshop were overall uniform. Most were keen on acquiring new skills, with some specifically interested in learning those applicable to their current positions. Notably, 19 participants expressed their intention to leverage the acquired skills either to secure a promotion within their current job or to pursue new employment opportunities.
 
-<br><br><br><br>
+<br /><br /><br /><br />
 
 ## Participation
 

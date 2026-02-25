@@ -18,7 +18,7 @@ Here we show the basic steps of performing comparative and evolutionary analyses
 |<small>Figure 1. The `PlantTribes` analysis workflow</small>
 
 <div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note: we assume that the person reading this tutorial
-<hr>
+<hr />
     <ul>
         <li>has a basic understanding of how Galaxy works ([see this](/tutorials/g101) if you don't)</li>
         <li>has an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)</li>

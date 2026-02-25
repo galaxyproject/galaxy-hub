@@ -55,7 +55,7 @@ This study showcases the transformative power of combining Galaxy with advanced 
 
 Galaxy thanks the authors for their innovative use of Galaxy in their research. Their commitment to leveraging Galaxy’s capabilities for advanced neutron data analysis advances our understanding of quantum materials and exemplifies the powerful synergy between cutting-edge science and robust computational tools.
 
----<br><be> 
+---<br /><be> 
 
 Watson GR, Maier TA, Yakubov S and Doak PW (2024) A galactic approach to neutron scattering science. Front. High Perform. Comput. 2:1390709. doi: 10.3389/fhpcp.2024.1390709
 

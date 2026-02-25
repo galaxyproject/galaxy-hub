@@ -415,7 +415,7 @@ Next, we will run `MACS2` on BAM datasets for Replicate 1 only:
 |<small>**Calling peaks with `MACS2` on R1** With the exception of selecting only R1 datasets, all other parameters should be set as in the previous figure.</small>|
 
 <div class="alert alert-warning trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
-<hr>
+<hr />
 
 - rename resulting datasets as `R1 summits` and `R1 peaks`
 - run `MACS2` run on Replicate 2

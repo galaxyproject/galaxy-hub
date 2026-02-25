@@ -22,7 +22,7 @@ A total of __1080 participants__ from all over the world will be following the c
 
 {%twitter https://twitter.com/Gallantries_EU/status/1360227461724835842?s=20%}
 
-<br>
+<br />
 
 
 | Continent       | Number of participants |
@@ -34,7 +34,7 @@ A total of __1080 participants__ from all over the world will be following the c
 | Oceania         | 45                     |
 | South America   | 45                     |
 
-<br>
+<br />
 
 If you are participating in the training, please [__consider using our data library to get the training datasets that you will need for the tutorials__](https://usegalaxy.eu/library/folders/Fa21272e5bd712216). This way, you will save time and we will have more bandwidth to share with other participants :-)
 
@@ -50,7 +50,7 @@ The format of this course will give you an overview of all the potential that yo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+<br />
 Thanks to all the participants, our community and all our [sponsors](https://shiltemann.github.io/global-galaxy-course/#institutions)!
 
 

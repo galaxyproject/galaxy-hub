@@ -51,7 +51,7 @@ Galaxy has enabled us to make advanced bioinformatics analyses accessible to use
 - Read our publication on Galaxy @Sciensano in [BMC Genomics](https://pubmed.ncbi.nlm.nih.gov/39780046/)
 - Training videos on [YouTube](https://www.youtube.com/watch?v=z0oxaaNzZks&list=PL9O-3w2bLZ4X5DJGYlbqL60PQDzn42Wjh)
 
-<br></br>
+<br /></br>
 
 <div align="center" id="fig1">
   <img src="./sciensano.png" alt="Sciensano Report" width="600">

@@ -15,7 +15,7 @@ Clinical metaproteomics has the potential to offer insights into the host-microb
 
 ### Pratik Jagtap
 
-University of Minnesota <br>
+University of Minnesota <br />
 Part of Galaxy-P Team, working in the area of metaproteomics and proteogenomics
 
 ### Tim Griffin

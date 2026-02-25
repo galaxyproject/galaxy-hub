@@ -12,6 +12,9 @@
  *   node src/build/normalize-content.mjs --strip-vue-artifacts
  *   node src/build/normalize-content.mjs --convert-gridsome-syntax
  *   node src/build/normalize-content.mjs --convert-kramdown
+ *   node src/build/normalize-content.mjs --fix-void-elements
+ *   node src/build/normalize-content.mjs --escape-lt-digits
+ *   node src/build/normalize-content.mjs --fix-autolinks
  *   node src/build/normalize-content.mjs --all
  *   node src/build/normalize-content.mjs --check  (dry-run, exits non-zero if changes needed)
  */
@@ -34,11 +37,16 @@ const transforms = {
     stripVueArtifacts: runAll || args.includes('--strip-vue-artifacts'),
     convertGridsomeSyntax: runAll || args.includes('--convert-gridsome-syntax'),
     convertKramdown: runAll || args.includes('--convert-kramdown'),
+    fixVoidElements: runAll || args.includes('--fix-void-elements'),
+    escapeLtDigits: runAll || args.includes('--escape-lt-digits'),
+    fixAutolinks: runAll || args.includes('--fix-autolinks'),
 };
 
 if (!Object.values(transforms).some(Boolean)) {
-    console.error('No transform specified. Use --strip-layout, --normalize-frontmatter-arrays,');
-    console.error('--strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown, or --all');
+    console.error('Usage: node src/build/normalize-content.mjs <transform> [--check]');
+    console.error('Transforms: --strip-layout, --normalize-frontmatter-arrays,');
+    console.error('  --strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown,');
+    console.error('  --fix-void-elements, --escape-lt-digits, --fix-autolinks, --all');
     process.exit(1);
 }
 
@@ -99,6 +107,20 @@ function normalizeFrontmatterArrays(fm) {
     return result;
 }
 
+// ── Helpers ──────────────────────────────────────────────────────────
+
+/**
+ * Apply a transform function only to text outside fenced code blocks.
+ * Splits on ``` and ~~~ fences, transforms odd-indexed segments (outside),
+ * and reassembles. This prevents modifying code examples.
+ */
+function outsideCodeFences(content, fn) {
+    // Split on fenced code block boundaries (``` or ~~~, with optional language)
+    const parts = content.split(/^(```[^\n]*\n[\s\S]*?^```\s*$|^~~~[^\n]*\n[\s\S]*?^~~~\s*$)/m);
+    // parts alternates: [outside, fence, outside, fence, ...]
+    return parts.map((part, i) => (i % 2 === 0 ? fn(part) : part)).join('');
+}
+
 // ── Body transforms ─────────────────────────────────────────────────
 // These are copied/adapted from preprocess.mjs to operate standalone.
 
@@ -154,6 +176,45 @@ function convertKramdownAttributes(content) {
     return processed;
 }
 
+// ── MDX-compatibility transforms ────────────────────────────────────
+
+/**
+ * Self-close void HTML elements: <br> → <br />, <hr> → <hr />
+ * MDX requires XHTML-style self-closing for void elements.
+ */
+function fixVoidElements(content) {
+    return outsideCodeFences(content, (text) => {
+        // Match <br> or <hr> not already self-closed, with optional attributes
+        return text
+            .replace(/<br(\s[^>]*)?\s*(?<!\/)>/gi, '<br$1 />')
+            .replace(/<hr(\s[^>]*)?\s*(?<!\/)>/gi, '<hr$1 />');
+    });
+}
+
+/**
+ * Escape bare < before digits: <10 → &lt;10, <500 → &lt;500
+ * MDX misinterprets these as JSX opening tags.
+ * Only touches occurrences outside code fences and not inside HTML tags.
+ */
+function escapeLtDigits(content) {
+    return outsideCodeFences(content, (text) => {
+        // Match < followed by a digit, but not when preceded by = (<=) which is
+        // already a valid HTML entity context, and not inside an HTML tag
+        return text.replace(/(?<![<\w/=])(<)(\d)/g, '&lt;$2');
+    });
+}
+
+/**
+ * Convert markdown autolinks to standard link syntax:
+ * <https://example.com> → [https://example.com](https://example.com)
+ * MDX misinterprets angle-bracket URLs as JSX tags.
+ */
+function fixAutolinks(content) {
+    return outsideCodeFences(content, (text) => {
+        return text.replace(/<(https?:\/\/[^\s>]+)>/g, '[$1]($1)');
+    });
+}
+
 // ── Main ─────────────────────────────────────────────────────────────
 
 async function main() {
@@ -192,6 +253,18 @@ async function main() {
         }
         if (transforms.convertKramdown) {
             const newBody = convertKramdownAttributes(body);
+            if (newBody !== body) { body = newBody; changed = true; }
+        }
+        if (transforms.fixVoidElements) {
+            const newBody = fixVoidElements(body);
+            if (newBody !== body) { body = newBody; changed = true; }
+        }
+        if (transforms.escapeLtDigits) {
+            const newBody = escapeLtDigits(body);
+            if (newBody !== body) { body = newBody; changed = true; }
+        }
+        if (transforms.fixAutolinks) {
+            const newBody = fixAutolinks(body);
             if (newBody !== body) { body = newBody; changed = true; }
         }
 
