@@ -17,6 +17,7 @@ contributions:
   funding:
     - nfdi
     - oscars
+    - nfdi4bioimage
 
 ---
 

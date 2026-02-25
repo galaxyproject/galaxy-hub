@@ -14,6 +14,8 @@ subsites: [all]
 contributions:
   authorship:
     - Sch-Da
+  funding:
+    - nfdi4bioimage
 
 ---
 
