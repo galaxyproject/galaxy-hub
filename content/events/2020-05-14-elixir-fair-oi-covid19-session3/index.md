@@ -31,7 +31,7 @@ This session will present the [Galaxy workflow to identify candidate molecules f
 
 The computationally intensive workflow was executed through a distributed compute network available via the Galaxy Europe platform. The webinar will present methods and workflows for the identification of potential COVID-19 drug candidates. Special emphasis will be given to the complex methods that have been applied and that have consumed more than 25 years of CPU and GPU time.
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
+<a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19" target="_blank">Programme Information and Registration</a>
 
 ### Speakers
 * Tim Dudgeon, Founder and CEO of [Informatics Matters](https://www.informaticsmatters.com/).

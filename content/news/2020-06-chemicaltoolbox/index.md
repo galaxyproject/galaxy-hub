@@ -14,8 +14,8 @@ contributions:
     - eosc-life
 ---
 
-We are happy to announce a new publication, '[The ChemicalToolbox: reproducible, user-friendly cheminformatics
-analysis on the Galaxy platform](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00442-7){:target="_blank"}' 
+We are happy to announce a new publication, '<a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00442-7" target="_blank">The ChemicalToolbox: reproducible, user-friendly cheminformatics
+analysis on the Galaxy platform</a>' 
 in the Journal of Cheminformatics. This accompanies our Galaxy webserver for computational chemistry, 
 located at <https://cheminformatics.usegalaxy.eu>.
 

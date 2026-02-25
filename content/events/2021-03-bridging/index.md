@@ -52,7 +52,7 @@ Jupyter Notebooks and RStudio in combination with Galaxy workflows
 
 * Hans-Rudolf Hotz
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_Okwj3OW1SVShXskpgqVUjQ){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_Okwj3OW1SVShXskpgqVUjQ" target="_blank">Registration</a>
 
 
 

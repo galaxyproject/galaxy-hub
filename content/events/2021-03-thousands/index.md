@@ -55,5 +55,5 @@ Processing thousands of datasets simultaneously: From SRA/ENA import and metadat
 
 * Hans-Rudolf Hotz
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA" target="_blank">Registration</a>
 

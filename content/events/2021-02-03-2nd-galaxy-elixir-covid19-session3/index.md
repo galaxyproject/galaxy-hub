@@ -37,7 +37,7 @@ This session will present the [COVID-19 Data Portal](https://www.covid19dataport
 
 
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_DsdNLDMxTGOmmqn0uDW7_A){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_DsdNLDMxTGOmmqn0uDW7_A" target="_blank">Registration</a>
 
 #### Speakers
 

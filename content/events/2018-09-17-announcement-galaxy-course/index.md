@@ -57,7 +57,6 @@ Tueday    | 9:00  | 17:00 | Quality control, Mapping, ChIP-seq analysis, IGV int
 Wednesday | 9:00  | 17:00 | RNA-seq analysis                                                       | [tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), [slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html#1)
 Thursday  | 9:00  | 17:00 | HiC data analysis                                                      |
 Friday    | 9:00  | 13:00 | Exercises & discussion                                                 |
-{:.table.table-striped}
 
 ## Lunch Options
 
@@ -102,14 +101,12 @@ Intercity Hotel Freiburg                      | Bismarckallee 3    | [Website](h
 Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7          | [Website](http://www.hotel-freiburg.de/)
 Ibis Freiburg Süd (bit more far away)         | Bötzinger Str.76   | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml)
 StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/)
-{:.table.table-striped}
 
 <!-- TODO: map -->
 
 > Note:
 > In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not
 > to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
-{:.alert.alert-warning}
 
 ## Organizers
 

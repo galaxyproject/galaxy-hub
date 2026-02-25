@@ -66,7 +66,6 @@ Preliminary schedule. Topics may be adjusted according to the participants deman
 | Wed | Pre-processing of General / 10X Single-Cell RNA Datasets              |
 | Thu | Downstream analysis with RaceID, and Clustering 3K PBMCs with ScanPy  |
 | Fri | Interactive Environments, Jupyter Notebooks and Q&A ... (until 14:00) |
-{:.table.table-striped}
 
 The first two days have the same content as our regular Galaxy courses, therefore you may register for one of two options:
 
@@ -121,14 +120,12 @@ Intercity Hotel Freiburg                      | Bismarckallee 3    | [Website](h
 Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7          | [Website](http://www.hotel-freiburg.de/)
 Ibis Freiburg Süd (bit more far away)         | Bötzinger Str.76   | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml)
 StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/)
-{:.table.table-striped}
 
 <!-- TODO: map -->
 
 > Note:
 > In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not
 > to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
-{:.alert.alert-warning}
 
 ## Organizers
 
