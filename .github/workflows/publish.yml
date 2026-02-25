@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - master
   schedule:
     - cron: "30 23 * * *"
 concurrency:
