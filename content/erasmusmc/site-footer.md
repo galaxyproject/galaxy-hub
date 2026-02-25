@@ -3,7 +3,7 @@
 The EMC Galaxian server is maintained by the [Bioinformatics group](https://www.erasmusmc.nl/bioinformatica) in the [department of Pathology](https://www.erasmusmc.nl/pathologie) of the [Erasmus Medical Center](https://www.erasmusmc.nl), Rotterdam, The Netherlands.  
 To inquire about this Galaxy server, increasing your disk quotum, or possibilities for collaborative projects, please contact one of [our team](https://usegalaxy-eu.github.io/erasmusmc/people).
 
-[](){: .fab .fa-github style="color: #777"} [Edit this page on GitHub](https://github.com/galaxyproject/galaxy-hub/blob/master/content/bare/erasmusmc/galaxy/index.md) &nbsp;
+[](){: .fab .fa-github style="color: #777"} [Edit this page on GitHub](https://github.com/galaxyproject/galaxy-hub/blob/main/content/bare/erasmusmc/galaxy/index.md) &nbsp;
 [](){: .fa .fa-envelope style="color: #777"} [erasmusmc@usegalaxy.eu](mailto:erasmusmc@usegalaxy.eu) &nbsp;
 [](){: .fab .fa-github style="color: #777"} [erasmusmc-bioinformatics](https://github.com/erasmusmc-bioinformatics) &nbsp;
 [](){: .fab .fa-twitter style="color: #777"} [@erasmusmc](https://twitter.com/erasmusmc) &nbsp;

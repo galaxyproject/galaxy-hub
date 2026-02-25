@@ -384,7 +384,7 @@ date: '2017-09-06'
 
 Events root:
 
-- GitHub source: [/tree/master/content/events/index.md](/tree/master/content/events/index.md)
+- GitHub source: [/tree/main/content/events/index.md](/tree/main/content/events/index.md)
 - Rendered on web site: [galaxyproject.org/events/](https://galaxyproject.org/events/)
 
 News item indexes displayed:
@@ -394,7 +394,7 @@ News item indexes displayed:
 
 #### Add an Event
 
-To add an event, you'll need to create a directory for the item under `/tree/master/content/events/` and then create an `index.md` file in the new directory.
+To add an event, you'll need to create a directory for the item under `/tree/main/content/events/` and then create an `index.md` file in the new directory.
 
 The `index.md` file needs to have at least the event metadata.  Optionally, it can also have additional text about the event in the body of the page.  How an event page is indexed depends of several things:
 

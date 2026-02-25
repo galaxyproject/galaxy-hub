@@ -25,7 +25,7 @@ The [UseGalaxy.it](https://usegalaxy.it) service is provided with the support of
 
 The [Laniakea@ReCaS](https://laniakea-elixir-it.github.io/laniakea_at_recas) service is provided with the support of [ELIXIR-ITALY](https://elixir-italy.org) and [ReCaS-Bari](https://www.recas-bari.it).
 
-[](){: .fab .fa-github style="color: #777"} [Edit this page on GitHub](https://github.com/galaxyproject/galaxy-hub/blob/master/content/bare/elixir-it/galaxy/index.md) &nbsp;
+[](){: .fab .fa-github style="color: #777"} [Edit this page on GitHub](https://github.com/galaxyproject/galaxy-hub/blob/main/content/bare/elixir-it/galaxy/index.md) &nbsp;
 [](){: .fab .fa-github style="color: #777"} [UseGalaxy-it](https://github.com/usegalaxy-it/) &nbsp;
 [](){: .fab .fa-github style="color: #777"} [Laniakea-elixir-it](https://github.com/Laniakea-elixir-it) &nbsp;
 [](){: .fa .fa-rss style="color: #777"} Subscribe [via RSS (UseGalaxy.eu Feed)](/eu/feed.atom)

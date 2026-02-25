@@ -19,11 +19,11 @@ To create a new subsite, you'll just need to edit a few files.
 
 ### `config.json`
 
-First, add your subsite to the [config file](https://github.com/galaxyproject/galaxy-hub/blob/master/config.json). See [this example](https://github.com/galaxyproject/galaxy-hub/pull/1659/files) (but the `matrix` field is optional). This is where you decide your subsite's id. This id will be your url prefix and the id you use to tag news and events posts. This should be all lowercase. Try to choose something simple (see the examples already there for guidance).
+First, add your subsite to the [config file](https://github.com/galaxyproject/galaxy-hub/blob/main/config.json). See [this example](https://github.com/galaxyproject/galaxy-hub/pull/1659/files) (but the `matrix` field is optional). This is where you decide your subsite's id. This id will be your url prefix and the id you use to tag news and events posts. This should be all lowercase. Try to choose something simple (see the examples already there for guidance).
 
 ### Content files
 
-Then, create a directory for your subsite in the [`content`](https://github.com/galaxyproject/galaxy-hub/tree/master/content) directory. Use your subsite's id as the directory name (e.g. `content/eu/`). Then you'll need at least two files in this directory: `navbar.yml` and `main.md`. You can just copy the default navbar file from `content/navbar.yml`, then customize it how you want. The fields should be mostly self-explanatory. The `main.md` will just need a title at the minimum to get the homepage to display. Then you can customize the homepage as much as you want. You can check the content directories for the other subsites for good examples.
+Then, create a directory for your subsite in the [`content`](https://github.com/galaxyproject/galaxy-hub/tree/main/content) directory. Use your subsite's id as the directory name (e.g. `content/eu/`). Then you'll need at least two files in this directory: `navbar.yml` and `main.md`. You can just copy the default navbar file from `content/navbar.yml`, then customize it how you want. The fields should be mostly self-explanatory. The `main.md` will just need a title at the minimum to get the homepage to display. Then you can customize the homepage as much as you want. You can check the content directories for the other subsites for good examples.
 
 ### Homepage cards
 
