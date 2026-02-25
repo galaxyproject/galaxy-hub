@@ -3,7 +3,7 @@ import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
-import { formatDate } from '@/utils/dateUtils';
+import { formatDate, getUTCYear } from '@/utils/dateUtils';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface NewsArticle {
@@ -72,7 +72,7 @@ const filteredBySubsite = computed(() => {
 function getYear(article: NewsArticle): number | null {
   if (!article.date) return null;
   const date = new Date(article.date);
-  return isNaN(date.getTime()) ? null : date.getFullYear();
+  return isNaN(date.getTime()) ? null : getUTCYear(date);
 }
 
 // Available years (sorted descending)
