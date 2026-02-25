@@ -166,5 +166,13 @@ export function processFrontmatter(frontmatter) {
     }
   }
 
+  // Replace ASCII apostrophes with typographic right single quotes in title.
+  // Vue's SSR encodes ' as &#39; in {{ }} text interpolation, browsers
+  // normalize it back, causing a hydration mismatch.
+  // See: https://github.com/vuejs/core/issues/7775
+  if (typeof frontmatter.title === 'string') {
+    frontmatter.title = frontmatter.title.replace(/'/g, '\u2019');
+  }
+
   return frontmatter;
 }
