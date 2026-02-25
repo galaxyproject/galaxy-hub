@@ -367,7 +367,7 @@ th, td {
 # Venue
 
 <figure class="figure">
-  <g-image src="https://www.tf.uni-freiburg.de/de/kontakt/kontakt/@@tx-slides/6a23b96432bb47f584e637df3ef1a865/@@image" class="figure-img img-fluid rounded" />
+  <img src="https://www.tf.uni-freiburg.de/de/kontakt/kontakt/@@tx-slides/6a23b96432bb47f584e637df3ef1a865/@@image" class="figure-img img-fluid rounded" />
 </figure>
 
 Albert-Ludwigs-University Freiburg<br>
@@ -419,20 +419,20 @@ Hans-Rudolf Hotz (hrhotz@googlemail.com)<br>
 Björn Grüning (bjoern.gruening@gmail.com)<br>
 
 <figure class="figure">
-  <g-image src="./logo_egd_2025.png" class="figure-img img-fluid rounded" />
+  <img src="./logo_egd_2025.png" class="figure-img img-fluid rounded" />
 </figure>
 
 # Funding
 
 <div style="display: flex; gap: 1rem; align-items: center; justify-content: center;">
   <figure class="figure">
-    <g-image src="/images/logos/ElixirNoTextLogo.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
+    <img src="/images/logos/ElixirNoTextLogo.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
   </figure>
   <figure class="figure">
-    <g-image src="/images/logos/uni-freiburg-wide.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
+    <img src="/images/logos/uni-freiburg-wide.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
   </figure>
   <figure class="figure">
-    <g-image src="/images/logos/EN_Co-fundedbytheEU_RGB_POS.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
+    <img src="/images/logos/EN_Co-fundedbytheEU_RGB_POS.png" class="figure-img img-fluid rounded" style="max-height: 80px;" />
   </figure>
 </div>
 

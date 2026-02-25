@@ -21,7 +21,7 @@ contributions:
 We’re excited to share that our colleague [Dr. Sanjay Kumar Srikakulam](https://github.com/sanjaysrikakulam) will be presenting at an upcoming session of [Data Snacks](https://www.dsc-ub.de/en/data_snacks_en.php), a virtual event series offering bite-sized insights into effective research data management. In just 30 minutes, Data Snacks talks are about handling research data responsibly in line with the FAIR principles (Findable, Accessible, Interoperable, Reusable).
 
 <figure class="figure">
-	<g-image src="https://www.dsc-ub.de/images/aktuelles/events/datasnacks/2025_SoSe_DataSnacks.png" class="figure-img img-fluid rounded" />
+	<img src="https://www.dsc-ub.de/images/aktuelles/events/datasnacks/2025_SoSe_DataSnacks.png" class="figure-img img-fluid rounded" />
 	<figcaption class="figure-caption">Data Snacks "menu" for 2025.</figcaption>
 </figure>
 
