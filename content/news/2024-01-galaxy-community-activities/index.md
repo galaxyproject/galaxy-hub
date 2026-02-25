@@ -42,18 +42,18 @@ In addition to the visualizations described above, the tool also generates lists
 <div class="col-sm-5">
 
 <figure class="figure">
-  <g-image src="./example-personal-contributions.png" class="figure-img img-fluid rounded" />
+  <img src="./example-personal-contributions.png" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Example of a personal contributions timeline.</figcaption>
 </figure>
 
 
 <figure class="figure">
-  <g-image src="./example-image-contributions.png" class="figure-img img-fluid rounded" />
+  <img src="./example-image-contributions.png" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Example of the contribution graph of a Galaxy community.</figcaption>
 </figure>
 
 <figure class="figure">
-  <g-image src="./example-code-distribution.svg" class="figure-img img-fluid rounded" />
+  <img src="./example-code-distribution.svg" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Example of the distribution of repositories within a Galaxy community.</figcaption>
 </figure>
 
