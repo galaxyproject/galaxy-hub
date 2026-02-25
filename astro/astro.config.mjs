@@ -47,6 +47,9 @@ export default defineConfig({
     rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
   },
   vite: {
+    define: {
+      __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: true,
+    },
     plugins: [tailwindcss()],
     server: {
       // Reduce inotify watcher pressure during dev/Playwright runs
