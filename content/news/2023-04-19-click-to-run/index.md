@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-04-19"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: Click-to-run Workflows"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/04/19/click-to-run.html'
 contributions:
   authorship:

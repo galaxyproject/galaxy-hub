@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Dr. Fotis Psomopoulos
 date: '2021-03-28'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Fotis E. Psomopoulos
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

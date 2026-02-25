@@ -8,8 +8,6 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -2,10 +2,6 @@
 title: UseGalaxy.eu Apollo Update
 date: '2021-05-19'
 tags: [genome annotation, apollo]
-supporters:
-- denbi
-- elixir
-authors: Helena Rasche
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

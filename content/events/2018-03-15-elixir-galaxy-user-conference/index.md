@@ -9,9 +9,6 @@ contacts:
 location:
   city: Freiburg
   country: Germany
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

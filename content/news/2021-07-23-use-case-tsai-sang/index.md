@@ -2,7 +2,6 @@
 title: 'UseGalaxy.eu Use Case: Heart research'
 date: '2021-07-23'
 tags: [UseCase]
-authors: Tsai-sang Dederichs
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

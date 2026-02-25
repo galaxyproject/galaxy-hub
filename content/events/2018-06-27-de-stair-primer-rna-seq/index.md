@@ -13,8 +13,6 @@ location:
   postal: 4069
   region: Thueringen
   street: Beutenbergstr. 11
-supporters:
-- denbi
 subsites: [eu]
 contributions:
   funding:

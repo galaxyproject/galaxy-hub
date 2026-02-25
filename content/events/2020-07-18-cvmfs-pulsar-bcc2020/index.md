@@ -8,10 +8,6 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: Online
-supporters:
-- unifreiburg
-- denbi
-- biodaten
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

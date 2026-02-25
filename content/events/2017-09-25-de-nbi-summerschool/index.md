@@ -11,8 +11,6 @@ location:
 contacts:
 - email: galaxy@informatik.uni-freiburg.de
   name: de.NBI RBC Freiburg, Berlin, Leipzig
-supporters:
-- denbi
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg

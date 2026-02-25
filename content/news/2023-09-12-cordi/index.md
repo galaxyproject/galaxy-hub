@@ -5,16 +5,6 @@ tease: "The Galaxy Europe Team active at NFDI's CoRDI (Karlsruhe, Germany, Sep 1
 location:
   name: Karlsruhe, Germany
 tags: [conference, talk, poster, nfdi, esg, esg-wp1, tiaas,esg-wp2, research data management]
-authors: [Sebastian Schaaf, Sanjay Kumar Srikakulam]
-supporters:
-  - NFDI
-  - NFDI4BioImaging
-  - NFDI4Plants
-  - ELIXIR
-  - eurosciencegateway
-  - unifreiburg
-  - eosc
-  - eu
 components: true
 subsites: [all-eu, esg]
 contributions:

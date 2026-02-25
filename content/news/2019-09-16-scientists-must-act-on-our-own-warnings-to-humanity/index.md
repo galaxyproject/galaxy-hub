@@ -2,7 +2,6 @@
 title: Scientists must act on our own warnings to humanity
 date: '2019-09-16'
 tags: [s4f, society]
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

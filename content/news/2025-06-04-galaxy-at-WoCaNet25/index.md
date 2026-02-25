@@ -1,11 +1,9 @@
 ---
 title: "Galaxy Team at the 9th Women's Careers and Networks Symposium"
-authors: Mina Hojat Ansari
 tags: [workshop, networks, outreach, equality, esg-wp1, esg]
 date: "2025-06-04"
 tease: "Galaxy Europe took part in the WoCaNet 2025 symposium to support women in science and introduce researchers to accessible, reproducible data analysis."
 subsites: [all, esg]
-supporters: [unifreiburg, esg]
 main_subsite: eu
 contributions:
   authorship:

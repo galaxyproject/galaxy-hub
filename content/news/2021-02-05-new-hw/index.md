@@ -4,10 +4,6 @@ date: '2021-02-05'
 tags: [devops, hardware]
 location:
   name: Galaxy Europe
-supporters:
-- denbi
-- bmbf
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -6,10 +6,6 @@ tease: We are proud to announce that, as result of the collaboration with the Ve
   in the Galaxy Training Network
 hide_tease: true
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2022/03/14/VGP-training.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

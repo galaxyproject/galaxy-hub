@@ -11,8 +11,6 @@ location:
 contacts:
 - email: null
   name: NETTAB
-supporters:
-- elixir
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg

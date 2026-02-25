@@ -2,7 +2,6 @@
 date: '2014-01-27'
 title: "Problem with logout when using LDAP for authentication with remoteUser enabled"
 tease: "Make changes to 4 Galaxy configuration files "
-authors: "Tim Booth"
 external_url: 
 source_blog_url: 
 source_blog:

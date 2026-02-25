@@ -1,7 +1,6 @@
 ---
 title: "Napari: A fast, interactive, multi-dimensional image viewer on Galaxy!"
 date: "2024-02-26"
-authors: [Yi Sun, Beatriz Serrano-Solano]
 tease: "Use Napari in the European Galaxy Server as an interactive tool"
 hide_tease: false
 subsites: [all-eu, global]
@@ -10,6 +9,8 @@ contributions:
   authorship:
     - sunyi000
     - beatrizserrano
+  funding:
+    - nfdi4bioimage
 ---
 
 Napari is now available for the imaging community to use in Galaxy Europe!

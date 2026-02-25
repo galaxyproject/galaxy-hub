@@ -1,5 +1,4 @@
 ---
-authors: Helena Rasche
 date: '2024-06-04'
 external_url: https://training.galaxyproject.org/training-material/news/2024/06/04/gtn-standards-rss.html
 main_subsite: global

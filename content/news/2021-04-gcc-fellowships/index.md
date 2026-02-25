@@ -6,7 +6,6 @@ date: "2021-04-14"
 tags: 
 - galaxy
 - newsletter
-authors: Dave Clements
 subsites: [global, us, all-eu]
 contributions:
   authorship:

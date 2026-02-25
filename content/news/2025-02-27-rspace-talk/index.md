@@ -4,7 +4,6 @@ date: '2025-02-27'
 days: 1
 tease: "Meeting Dr. Mathes from RSpace, the Galaxy Freiburg team explored new ways to streamline research data management."
 tags: [talk,esg]
-supporters: [eurosciencegateway, denbi, unifreiburg]
 subsites: [all, esg, eu]
 contributions:
   funding:

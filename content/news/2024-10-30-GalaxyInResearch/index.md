@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Microbial life at Arctic hydrothermal vents"
 tease: "How do hydrothermal vents at the bottom of the Arctic Ocean fuel microbial life? A new study explores the microbial ecosystems thriving at the Aurora and Polaris seamounts, revealing key insights into how hydrogen and sulfur power deep-sea life."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-10-30"
 tags: ["highlight"]
 subsites: [global,all]

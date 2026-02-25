@@ -4,9 +4,6 @@ title: 'GraphClust2: Annotation and discovery of structured RNAs with scalable a
 date: '2019-11-30'
 tags: [paper]
 doi: 10.1093/gigascience/giz150
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -11,7 +11,6 @@ location:
 tags: [training, talk, poster, gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
-supporters: [unifreiburg, elixir, denbi]
 contributions:
   funding:
     - deNBI

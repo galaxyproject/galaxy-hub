@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Uncovering the evolutionary secrets of wild loquats using comparative chloroplast genomics"
 tease: "A new study has sequenced and analyzed two wild loquat chloroplast genomes, revealing key insights into their evolutionary history and the genetic diversity of loquat species."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-09-05"
 tags: ["highlight"]
 subsites: [global,all]

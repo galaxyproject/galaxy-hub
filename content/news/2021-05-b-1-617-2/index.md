@@ -4,9 +4,6 @@ date: '2021-05-11'
 tease: We checked the COG-UK data to see if we’d find representative samples of  B.1.617.2
   (one of the Indian lineages, and a Variant of Concern).
 tags: [COVID-19, galaxy]
-supporters:
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

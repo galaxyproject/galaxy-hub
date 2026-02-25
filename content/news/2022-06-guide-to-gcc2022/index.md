@@ -1,7 +1,6 @@
 ---
 title: "A guide to GCC2022"
 tease: "Where Galaxy meets in 2022!"
-authors: [Enis Afgan, Subina Mehta]
 date: "2022-06-16"
 contributions:
   authorship:

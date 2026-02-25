@@ -2,10 +2,6 @@
 title: 7,000 users and 10,000,000 datasets
 date: '2019-07-20'
 tags: [devops, data]
-supporters:
-- denbi
-- elixir
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

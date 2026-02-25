@@ -4,11 +4,6 @@ date: '2021-04-30'
 end: '2021-04-30'
 tease: New platform, new learners, new paradigms.
 tags: [training]
-supporters:
-- dataplant
-- biodaten
-- denbi
-authors: [Mehmet Tekman, Beatriz Serrano-Solano]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

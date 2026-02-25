@@ -10,7 +10,6 @@ location:
 contact: Daniela Schneider
 gtn: false
 tags: [conference, workshop, rdm, humanities, community, poster]
-supporters: [unifreiburg]
 subsites: [all]
 contributions:
   authorship:

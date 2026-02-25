@@ -5,9 +5,6 @@ tease: 'On 2022-06-19, the tools on UseGalaxy.eu were updated by our automated t
   update and installation process in Jenkins Build #332'
 hide_tease: true
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

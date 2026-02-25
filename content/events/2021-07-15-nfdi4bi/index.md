@@ -7,9 +7,6 @@ contacts:
 - name: NFDI4BI
 location:
   name: online (https://nfdi4bioimage.de/en/get-involved/community-meeting-2021/)
-supporters:
-- galaxy-europe
-- NFDI4BI
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

@@ -5,10 +5,6 @@ date: '2020-06-03'
 tease: cheminformatics.usegalaxy.eu
 tags: [paper]
 doi: 10.1186/s13321-020-00442-7
-supporters:
-- eosc
-- eu
-authors: Simon Bray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

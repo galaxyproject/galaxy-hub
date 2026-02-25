@@ -3,9 +3,6 @@ title: 'Training Infrastructure Feedback on the ELIXIR Belgium workshop “DDA a
   proteomic analysis in Galaxy” '
 date: '2020-12-08'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: [Matthias Fahrner, Melanie Föll]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

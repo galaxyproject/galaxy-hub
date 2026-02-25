@@ -9,8 +9,6 @@ contacts:
 location:
   city: Hinxton
   country: Great Britain
-supporters:
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

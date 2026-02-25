@@ -2,7 +2,6 @@
 title: "Galaxy Release 24.1"
 tease: "See what's new on Galaxy with the 24.1 release notes!"
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-06-20"
 tags: ["highlight"]
 subsites: [global,all]

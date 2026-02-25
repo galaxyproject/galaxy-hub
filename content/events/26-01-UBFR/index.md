@@ -13,7 +13,6 @@ contributions:
   funding:
     - deKCD
     - deNBI
-supporters: [de.KCD]
 subsites: [all, eu]
 ---
 

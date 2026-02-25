@@ -4,10 +4,6 @@ date: '2019-01-11'
 tags: [devops, data]
 location:
   name: Galaxy Europe
-supporters:
-- denbi
-- bmbf
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -4,8 +4,6 @@ date: '2020-10-23'
 tease: New paper in GigaScience
 doi: 10.1093/gigascience/giaa105
 tags: [paper]
-supporters:
-- unifreiburg
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

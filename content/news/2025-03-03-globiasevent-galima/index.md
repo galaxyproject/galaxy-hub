@@ -2,7 +2,6 @@
 title: "GloBIAS seminar series - Image analysis using Galaxy"
 tease: "Galaxy Image Analysis was presented at the GloBIAS seminar series"
 date: '2025-03-03'
-authors: "Riccardo Massei"
 tags: [fair, imaging, pipelines, workflow]
 subsites: [all-eu, global, us]
 main_subsite: eu

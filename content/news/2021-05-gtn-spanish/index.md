@@ -4,10 +4,6 @@ tease: "The first Spanish tutorial is live! Galaxy has always had google-transla
 external_url: "https://training.galaxyproject.org/training-material/news/2021/05/20/spanish_project_begins.html"
 date: "2021-05-20"
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 subsites: [global, us, all-eu]
 contributions:
   funding:

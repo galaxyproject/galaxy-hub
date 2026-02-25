@@ -5,14 +5,6 @@ tease: "Galaxy Admin Training from April 17th to 21st in Ghent, Belgium."
 hide_tease: false
 tags: [esg,esg-wp1, eosc, admin, training]
 subsites: [all,all-eu,esg]
-supporters:
-  - eurosciencegateway
-  - eu
-  - unifreiburg
-  - eosc
-  - elixir
-  - denbi
-  - elixir-belgium
 main_subsite: eu
 contributions:
   funding:

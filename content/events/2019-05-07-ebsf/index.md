@@ -13,9 +13,6 @@ location:
   region: London
   street: 183 Euston Road
 external_url: https://www.elixir-europe.org/events/elixir-bioinformatics-suppliers-forum-2019
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

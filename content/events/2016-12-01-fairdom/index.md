@@ -11,8 +11,6 @@ location:
 contacts:
 - email: null
   name: de.NBI, FAIRDOM
-supporters:
-- denbi
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg

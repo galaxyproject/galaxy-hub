@@ -4,10 +4,6 @@ date: '2019-06-13'
 tease: the European Galaxy Server hosted by Elixir Germany is now ready to accept
   logins from users using their Elixir AAI identity for authentication..
 tags: [release]
-supporters:
-- elixir
-- denbi
-authors: Björn Grüning
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

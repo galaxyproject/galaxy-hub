@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Well-being and Mental Health Project Survey Result Highlights"
 tease: "Eighth blog post presenting the Outreachy project on Mental Health"
-authors: [Melkeberhan Berhanu Degefa, Beatriz Serrano-Solano, Anne Fouilloux]
 source_blog: "Galaxy Well-Being Outreachy project"
 date: "2022-08-05"
 contributions:

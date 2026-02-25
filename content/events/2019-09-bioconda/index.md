@@ -18,9 +18,6 @@ location:
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee 79
-supporters:
-- unifreiburg
-- denbi
 hidefooter: true
 continent: EU
 gtn: false

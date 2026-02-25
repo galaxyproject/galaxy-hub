@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-04-19"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: GTN Rdoc"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/04/19/gtn-rdoc.html'
 contributions:
   authorship:

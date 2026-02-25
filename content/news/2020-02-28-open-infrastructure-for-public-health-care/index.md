@@ -3,10 +3,8 @@ title: Open collaborative infrastructure to tackle public health emergencies
 date: '2020-02-28'
 tags: [COVID-19, elixir]
 external_url: https://elixir-europe.org/news/COVID-19-data-open-analysis
-authors: Björn Grüning
 subsites: [eu, freiburg]
 main_subsite: freiburg
-supporters: [elixir, unifrieburg, denbi]
 contributions:
   authorship:
     - bgruening

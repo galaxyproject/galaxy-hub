@@ -1,6 +1,5 @@
 ---
 title: "Meet the Community: Assunta DeSanto"
-authors: "Assunta DeSanto"
 date: "2022-01-27"
 contributions:
   authorship:

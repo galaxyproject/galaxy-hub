@@ -3,9 +3,6 @@ title: UseGalaxy.eu Tool Updates for 2019-06-21
 date: '2019-06-21'
 tease: usegalaxy.eu is getting ready for GCC 2019
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

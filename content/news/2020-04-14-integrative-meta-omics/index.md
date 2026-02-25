@@ -3,10 +3,6 @@ title: Integrative meta-omics analysis
 date: '2020-04-14'
 tease: Metagenomics, Metatranscriptomics, Metaproteomics
 tags: [tools, poster]
-supporters:
-- denbi
-- elixir
-authors: Magnus Ø. Arntzen
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

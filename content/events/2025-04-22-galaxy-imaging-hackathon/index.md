@@ -9,9 +9,6 @@ tags: [Hackathon,imaging,bioimaging,esg,esg-wp1,esg-wp5]
 organizers:
   - galaxyfreiburg
   - eurobioimaging
-supporters:
-  - nfdi
-  - oscars
 subsites: [all, esg, eu]
 contributions:
   authorship:

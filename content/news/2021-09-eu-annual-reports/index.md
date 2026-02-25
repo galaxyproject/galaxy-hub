@@ -4,7 +4,6 @@ date: '2021-09-10'
 tease: The ELIXIR and IFB annual reports for 2020 are out, and they highlight Galaxy
   work throughout.
 tags: [report]
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

@@ -1,6 +1,5 @@
 ---
 title: 'BRC-analytics is open for business!'
-authors: Anton Nekrutenko
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-14'

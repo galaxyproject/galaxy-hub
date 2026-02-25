@@ -2,7 +2,6 @@
 date: '2017-10-16'
 title: "Small genome assembly in Galaxy"
 tease: "Why not to do assembly on-line?"
-authors: "Anton Nekrutenko"
 image: unicycler.png
 contributions:
   authorship:

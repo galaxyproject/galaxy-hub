@@ -4,7 +4,6 @@ main_subsite: global
 date: "2024-01-29"
 tags: [training, gtn-news]
 title: "[GTN news] Simplified GTN News submission via Google Form"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2024/01/29/simplified-gtn-news-submission-via-google-form.html'
 contributions:
   authorship:

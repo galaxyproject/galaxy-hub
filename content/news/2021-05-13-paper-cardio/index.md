@@ -4,8 +4,6 @@ title: 'New Paper "Novel insights into the electrophysiology of murine cardiac m
 date: '2021-05-13'
 doi: 10.1093/cvr/cvab126
 tags: [paper]
-supporters:
-- crc1425
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

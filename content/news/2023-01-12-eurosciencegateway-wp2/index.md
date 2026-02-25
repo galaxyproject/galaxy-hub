@@ -2,17 +2,9 @@
 title: "Stimulate FAIR and reusable research with computational workflows"
 tease: "The Work Package 2 of the EuroScienceGateway project"
 hide_tease: false
-authors: "Stian Soiland-Reyes"
 date: "2023-01-12"
 tags: [esg, esg-wp2, workflow, workflowhub, rocrate, astrophysics, astronomy]
 subsites: [all-eu, esg ]
-supporters:
-  - eurosciencegateway
-  - egi
-  - unifreiburg
-  - eu
-  - elixir
-  - denbi
 main_subsite: eu
 contributions:
   authorship:

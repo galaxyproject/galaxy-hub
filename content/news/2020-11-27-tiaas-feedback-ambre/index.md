@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Ambre Jousselin
 date: '2020-11-27'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Ambre Jousselin
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

@@ -1,7 +1,6 @@
 ---
 title: "European Galaxy Team Presents at scverse Conference 2024"
 date: "2024-09-21"
-authors: [Saim Momin, Amirhossein Naghsh Nilchi, Pavankumar Videm]
 tease: "Learn more about the scverse conference 2024"
 subsites: [global, eu, us, freiburg]
 contributions:

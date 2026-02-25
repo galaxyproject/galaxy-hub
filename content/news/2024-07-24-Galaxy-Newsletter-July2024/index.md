@@ -2,11 +2,9 @@
 title: "Galaxy Newsletter: July 2024"
 tease: "Tune in for exciting updates from GCC2024, the latest Galaxy release, and more in this edition of the Galaxy Newsletter!"
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-07-24"
 subsites: [global,all]
 tags: [newsletter, outreach]
-supporters: [eosc, eu, unifreiburg, esg, elixir]
 contributions:
   authorship:
     - natalie-wa

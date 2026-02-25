@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Mali Salmon-Divon
 date: '2021-02-22'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Mali Salmon-Divon
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

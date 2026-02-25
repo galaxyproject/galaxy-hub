@@ -2,9 +2,6 @@
 title: 4th BioHackathon Germany
 date: '2025-12-05'
 tags: [training, hackathon]
-supporters:
-- elixir
-- denbi
 location:
   name: Walsrode, DE
 subsites: [eu, freiburg]

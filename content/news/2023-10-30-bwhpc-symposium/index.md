@@ -5,14 +5,8 @@ tease: "Introducing Galaxy: A new cloud and HPC gateway for data-driven computat
 location:
   name: Mannheim, Germany
 tags: [conference, talk,esg, esg-wp1, esg-wp4]
-authors: Sanjay Kumar Srikakulam
 components: true
 subsites: [all-eu,esg]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - eosc
-  - eu
 contributions:
   authorship:
     - sanjaysrikakulam

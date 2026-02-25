@@ -3,10 +3,6 @@ title: '[GTN news] New Tutorial: Mutation calling, viral genome reconstruction a
   lineage/clade assignment from SARS-CoV-2 sequencing data'
 date: '2021-06-30'
 tags: [training, gtn-news, covid-19, workflow]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/06/30/tutorial-sars-cov-2-variant-discovery.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

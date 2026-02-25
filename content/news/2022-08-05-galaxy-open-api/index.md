@@ -4,8 +4,6 @@ tease: "Since Galaxy release 22.05 it's much easier to discover, explore, learn 
 hide_tease: true
 date: '2022-08-05'
 tags: [galaxy]
-supporters:
-- galaxy-europe
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

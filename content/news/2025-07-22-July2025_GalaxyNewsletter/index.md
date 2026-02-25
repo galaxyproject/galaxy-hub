@@ -1,7 +1,6 @@
 ---
 title: "July 2025 Galaxy Newsletter"
 date: "2025-07-22"
-authors: Natalie Whitaker-Allen
 tease: "From cutting-edge research to international conferences, Galaxy continues to grow. Get all the updates in this quarter's newsletter!"
 hide_tease: false
 subsites: [global, all]

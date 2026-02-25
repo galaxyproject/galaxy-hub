@@ -2,7 +2,6 @@
 title: "FOSDEM 2024: How Galaxy democratizes data analysis"
 tease: Galaxy Europe at the Free and Open Source Developers’ European Meeting in Brussels 🍟
 date: '2024-02-28'
-authors: [Polina Polunina, Mira Kuntz]
 subsites: [all-eu]
 contributions:
   authorship:

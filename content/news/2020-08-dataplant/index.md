@@ -4,9 +4,6 @@ date: '2020-08-22'
 tease: UseGalaxy.eu and DataPLANT consortium to record and deliver large data volumes
   for modern crop research
 tags: [data]
-supporters:
-- dataplant
-authors: Beatriz Serrano-Solano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

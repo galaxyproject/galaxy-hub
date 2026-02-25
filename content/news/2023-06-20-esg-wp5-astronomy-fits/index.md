@@ -6,8 +6,6 @@ hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all, all-eu, esg]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
 contributions:
   funding:
     - eurosciencegateway

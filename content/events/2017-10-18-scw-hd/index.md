@@ -11,8 +11,6 @@ location:
 contacts:
 - email: null
   name: EMBL
-supporters:
-- denbi
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg

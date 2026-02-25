@@ -2,7 +2,6 @@
 date: '2015-07-30'
 title: "Moving from MySQL to PostgreSQL"
 tease: "It is pretty simple, though you might hit some obstacles depending on how old your MySQL server is and how much you have manually interfered with the database."
-authors: "Hans-Rudolf Hotz"
 contributions:
   authorship:
     - hrhotz

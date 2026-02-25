@@ -11,9 +11,6 @@ location:
 contacts:
 - email: null
   name: null
-supporters:
-- denbi
-- ViCE
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg

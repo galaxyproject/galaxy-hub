@@ -2,8 +2,6 @@
 title: ELIXIR Biohackathon in Barcelona
 date: '2024-11-04'
 tags: [training, hackathon]
-supporters:
-- elixir
 location:
   name: Barcelona, ES
 subsites: [eu, freiburg]

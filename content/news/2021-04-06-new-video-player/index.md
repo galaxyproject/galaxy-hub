@@ -4,7 +4,6 @@ main_subsite: global
 date: "2021-04-06"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: Video Player"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/04/06/new-video-player.html'
 contributions:
   authorship:

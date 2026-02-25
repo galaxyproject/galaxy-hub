@@ -4,7 +4,6 @@ date: '2025-06-25'
 tease: New panel allocated for interactive tools on Galaxy
 hide_tease: false
 tags: [tools]
-authors: Amirhossein Naghsh Nilchi
 subsites: [all]
 main_subsite: eu
 contributions:

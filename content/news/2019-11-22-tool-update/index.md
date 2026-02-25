@@ -2,9 +2,6 @@
 title: UseGalaxy.eu Tool Updates for 2019-11-23
 date: '2019-11-22'
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

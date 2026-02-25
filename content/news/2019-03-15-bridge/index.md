@@ -4,10 +4,6 @@ title: New Paper "Biomolecular Reaction and Interaction Dynamics Global Environm
 date: '2019-03-15'
 tags: [paper]
 doi: 10.1093/bioinformatics/btz107
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

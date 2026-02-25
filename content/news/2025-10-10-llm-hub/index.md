@@ -3,7 +3,6 @@ title: 'LLM Hub: Large Language Models Made Easy in Galaxy'
 date: '2025-10-10'
 tease: "Access powerful Large Language Models in Galaxy easily"
 hide_tease: false
-authors: Arash Kadkhodaei
 subsites: [global,eu,us,freiburg]
 tags: [tool,AI,LLM]
 contributions:

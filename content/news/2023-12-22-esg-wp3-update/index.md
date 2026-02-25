@@ -2,15 +2,8 @@
 title: "EuroScienceGateway Work Package 3: first year achievements"
 tease: ""
 hide_tease: true
-authors: [Marco Antonio Tangaro, Federico Zambelli]
 date: "2023-12-22"
 tags: [esg, esg-wp3, outreach, year-in-review]
-supporters:
-  - eurosciencegateway
-  - egi
-  - eosc
-  - eu
-  - unifreiburg
 subsites: [all-eu, esg]
 main_subsite: eu
 contributions:

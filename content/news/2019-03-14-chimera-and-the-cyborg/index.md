@@ -3,10 +3,6 @@ title: New Paper "The Chimera and the Cyborg"
 date: '2019-03-14'
 tags: [paper]
 doi: 10.25046/aj040201
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

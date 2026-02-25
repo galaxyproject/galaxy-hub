@@ -2,11 +2,8 @@
 date: '2025-03-24'
 title: 'Paper Highlight: “Hydrogen Radical Chemistry at High-Symmetry {2Fe2S} Centers Probed Using a Muonium Surrogate”'
 tease: 'Muon spectroscopy (μSR) experiments and simulations on materials for energy applications'
-authors: 'Leandro Liborio'
 subsites: [all-eu,global,esg]
 tags: [esg,esg-wp5]
-supporters:
-  - eurosciencegateway
 contributions:
   authorship:
     - leandro-liborio

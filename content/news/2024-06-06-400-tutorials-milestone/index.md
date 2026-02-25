@@ -1,5 +1,4 @@
 ---
-authors: [Bérénice Batut, Helena Rasche, Saskia Hiltemann]
 date: '2024-06-06'
 external_url: https://training.galaxyproject.org/training-material/news/2024/06/06/400-tutorials-milestone.html
 main_subsite: global

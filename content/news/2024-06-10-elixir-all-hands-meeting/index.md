@@ -3,13 +3,6 @@ title: "The Galaxy Europe team at the ELIXIR All Hands Meeting 2024"
 date: "2024-06-10"
 tease: "The Galaxy Europe team has participated in the ELIXIR All Hands meeting 2024 in Uppsala, Sweden."
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - eosc
-  - eu
-  - elixir
-  - elixir-belgium
 subsites: [global, freiburg, eu, esg]
 tags: [esg,elixir,esg-wp1,esg-wp3, esg-wp4,esg-wp2, esg-wp5, collaboration, talk, meeting, outreach]
 main_subsite: eu

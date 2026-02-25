@@ -2,14 +2,7 @@
 title: Insights from the first cross-training between EOSC-Life and EOSC-Nordic
 date: '2020-11-27'
 tags: [training, tiaas, outreach]
-supporters:
-- unifreiburg
-- elixir
-- eosc
-- EOSC-Life
-- eu
 external_url: https://www.eosc-nordic.eu/insights-from-the-first-cross-training-between-eosc-life-and-eosc-nordic/
-authors: "Anne Fouilloux"
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -16,10 +16,6 @@ location:
   postal: 29680
   region: Brittany
   street: Place Georges Teissier
-supporters:
-- elixir
-- denbi
-- ifb
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -6,9 +6,6 @@ tags: [training]
 contacts:
 - email: galaxy-training@lists.galaxyproject.org
   name: Galaxy Training Network
-supporters:
-- elixir
-- denbi
 subsites: [eu, erasmusmc]
 main_subsite: erasmusmc
 contributions:

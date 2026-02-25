@@ -3,10 +3,7 @@ title: "Galaxy Single-cell Community: Year in Review"
 date: '2023-12-23'
 tease: 'The Galaxy Single-cell Community provides a 2023 review!'
 tags: [gtn, outreach, year-in-review, single-cell, esg-wp1, esg-wp5]
-authors: [Wendi Bacon, Pavankumar Videm, Mehmet Tekman]
 subsites: [all-eu,global,esg]
-supporters:
-  - eurosciencegateway
 contributions:
   authorship:
     - nomadscientist

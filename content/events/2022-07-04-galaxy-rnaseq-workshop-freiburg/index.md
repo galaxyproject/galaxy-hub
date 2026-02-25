@@ -10,10 +10,6 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- crc1425
-- crc992
-- meinbio
 subsites: [freiburg]
 main_subsite: freiburg
 contributions:

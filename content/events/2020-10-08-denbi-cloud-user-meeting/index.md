@@ -4,9 +4,6 @@ date: '2020-10-08'
 end: '2020-10-14'
 location:
   name: online
-supporters:
-- denbi
-- unifreiburg
 subsites: [eu, freiburg]
 main_subsite: freiburg
 tags: [conda, meeting]

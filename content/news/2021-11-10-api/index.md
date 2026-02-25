@@ -4,7 +4,6 @@ main_subsite: global
 date: "2021-11-10"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: GTN API with OpenAPI 3 specification"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/11/10/api.html'
 contributions:
   authorship:

@@ -3,12 +3,9 @@ title: "VirHunter: detection of novel RNA Viruses in Plant Sequencing Data"
 tease: "A Deep Learning-Based Method for the detection of novel RNA Viruses in Plant Sequencing Data"
 date: '2023-02-04'
 doi: 10.3389/fbinf.2022.867111
-authors: Benjamin Dartigues
 tags: [tools, esg, esg-wp5]
 subsites: [global, esg]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
 contributions:
   authorship:
     - benjamindartigues

@@ -2,9 +2,6 @@
 title: UseGalaxy.eu Tool Updates for 2021-03-27
 date: '2021-03-27'
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

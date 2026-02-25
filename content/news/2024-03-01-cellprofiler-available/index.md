@@ -1,7 +1,6 @@
 ---
 title: "CellProfiler now available in Galaxy as an interactive tool too"
 date: "2024-03-01"
-authors: [Yi Sun, Beatriz Serrano-Solano]
 tease: "Use CellProfiler as if you were working in your local workstation"
 hide_tease: false
 subsites: [all-eu, global]
@@ -10,6 +9,8 @@ contributions:
   authorship:
     - sunyi000
     - beatrizserrano
+  funding:
+    - nfdi4bioimage
 ---
 
 CellProfiler versions 3.1.9 and 4 have been available in Galaxy as tools for a while now. Additionally, you can customize your automated workflows by accessing individual modules from CellProfiler 3.1.9. To closely replicate your local environment, Cell Profiler is now also available as an interactive tool.

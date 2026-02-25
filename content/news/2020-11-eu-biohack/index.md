@@ -3,11 +3,8 @@ title: Biohackathon Europe 2020
 date: '2020-11-16'
 tease: The  Galaxy community has participated in several projects
 tags: [training, hackathon]
-supporters:
-- elixir
 location:
   name: Barcelona (online)
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

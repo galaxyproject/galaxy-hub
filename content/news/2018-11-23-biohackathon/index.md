@@ -2,8 +2,6 @@
 title: ELIXIR Biohackathon in Paris
 date: '2018-11-23'
 tags: [training, conda, hackathon]
-supporters:
-- elixir
 location:
   name: Paris, FR
 subsites: [eu, freiburg]

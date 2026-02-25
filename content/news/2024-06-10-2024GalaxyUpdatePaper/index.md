@@ -2,7 +2,6 @@
 title: "The 2024 Galaxy Community Update Paper is Here!"
 tease: "Discover the latest advancements and future directions of the Galaxy Project in the community's newly published 2024 update paper."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-06-10"
 tags: ["highlight"]
 subsites: [global,all]

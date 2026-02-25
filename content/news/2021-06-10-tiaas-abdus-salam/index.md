@@ -2,16 +2,6 @@
 title: Training Infrastructure Feedback from Abdus Salam
 date: '2021-06-10'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-- eosc
-- eu
-- unifreiburg
-- denbi
-- elixir
-- erasmus+
-- elixir-belgium
-authors: Abdus Salam
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

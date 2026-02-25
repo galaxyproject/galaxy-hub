@@ -2,7 +2,6 @@
 title: 'You understand the data? Call for action!'
 date: '2023-04-21'
 tease: 'Civil disobedience by climate activists is neither futile nor a criminal act statement of scientists says'
-authors: [Wolfgang Maier, Björn Grüning]
 tags: [Freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu

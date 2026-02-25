@@ -3,7 +3,6 @@ title: Annual Report 2023 of the Freiburg Galaxy Team
 date: '2024-04-12'
 tease: Report about activities and achievements
 tags: [data, training, tools, report]
-authors: Anika Erxleben
 subsites: [all-eu, freiburg, global]
 main_subsite: freiburg
 contributions:

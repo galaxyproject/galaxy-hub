@@ -4,12 +4,6 @@ date: '2025-04-26'
 tease: Open-Source Visualization for Imaging-Based Spatial Transcriptomics
 hide_tease: true
 tags: [tools]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-- nfdi4bioimage
-authors: Amirhossein Naghsh Nilchi
 subsites: [global, all, eu]
 main_subsite: eu
 contributions:

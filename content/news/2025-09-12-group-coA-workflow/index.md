@@ -1,11 +1,9 @@
 ---
 title: "Group Assignment for Co-Assembly in Galaxy"
-authors: Mina Hojat Ansari
 tags: [workflow, metagenomics, co-assembly, FAIRyMAGs, Galaxy]
 date: "2025-09-08"
 tease: "A new Galaxy workflow supports group-based co-assembly, helping researchers recover more high-quality MAGs by organizing samples with metadata."
 subsites: [all, esg]
-supporters: [unifreiburg, esg]
 main_subsite: eu
 contributions:
   authorship:

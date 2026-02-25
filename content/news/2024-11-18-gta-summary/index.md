@@ -6,10 +6,8 @@ tease: In October 2024, the Galaxy Training Network (GTN) was
 tags: [training, gtn-news]
 location:
   name: online
-authors: [Delphine Lariviere, Natalie Whitaker-Allen, Teresa Müller]
 subsites: [global, all-eu, us]
 main_subsite: eu
-supporters: [unifreiburg]
 contributions:
   authorship:
     - delphine-l

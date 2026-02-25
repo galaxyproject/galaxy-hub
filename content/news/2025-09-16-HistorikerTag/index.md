@@ -1,8 +1,6 @@
 ---
 title: "Let's write History–Galaxy at the Historikertag 2025 in Bonn"
-authors: Daniela Schneider
 date: "2025-09-19"
-supporters: [dataplant, denbi, deKCD, mwk] 
 tease: "Get your historic material ready - Galaxy supports your endeavours in Digital History"
 subsites: [all,eu]
 tags: [humanities, history, conference]

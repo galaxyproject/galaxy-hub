@@ -1,7 +1,6 @@
 ---
 date: '2018-09-28'
 title: 'Tutorial of the Month: Maria Doyle selected "From peaks to genes"'
-authors: "Bérénice Batut"
 contributions:
   authorship:
     - bebatut

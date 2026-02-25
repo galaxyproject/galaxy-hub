@@ -3,17 +3,9 @@ title: "WorkflowHub Publishers and Journal Forum"
 date: "2024-08-03"
 tease: "Meeting Summary from EuroScienceGateway's WorkflowHub Publishers and Journal Forum"
 hide_tease: false
-authors: "Carole Goble"
 tags: [esg-wp2, esg, workflow, workflowhub, meeting, outreach]
 subsites: [all-eu, esg, global]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - eosc
-  - eu
-  - workflowhub
-  - elixir
 contributions:
   authorship:
     - carolegoble

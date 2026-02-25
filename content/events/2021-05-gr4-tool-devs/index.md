@@ -20,8 +20,6 @@ links:
   url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf '
 - text: Server slides
   url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-server.pdf '
-supporters:
-- galaxy
 subsites: [all-eu, global, us]
 contributions:
   authorship:

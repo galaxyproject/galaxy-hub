@@ -4,10 +4,6 @@ date: '2017-06-30'
 tags: [training, talk, poster]
 location:
   name: Montpellier, France
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

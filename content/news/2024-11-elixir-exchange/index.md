@@ -1,7 +1,6 @@
 ---
 title: "How I Learned to Wrap Tools from the Galaxy EU Team"
 date: "2024-11-05"
-authors: "Marisa Loach"
 tease: "An ELIXIR Staff Exchange to expand the single cell tools on Galaxy"
 contributions:
   authorship:

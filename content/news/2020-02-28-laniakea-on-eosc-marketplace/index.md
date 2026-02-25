@@ -3,10 +3,8 @@ title: Laniakea@ReCaS becomes an EOSC Provider
 date: '2020-02-28'
 tags: [galaxy, laniakea]
 external_url: https://marketplace.eosc-portal.eu/services/laniakea-recas
-authors: Marco Antonio Tangaro
 subsites: [eu, elixir-it]
 main_subsite: elixir-it
-supporters: [eu, eosc, eurosciencegateway]
 contributions:
   authorship:
     - mtangaro

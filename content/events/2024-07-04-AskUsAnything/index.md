@@ -8,10 +8,6 @@ location:
   name: "online"
 contact: "Anika Erxleben-Eggenhofer"
 tags: [webinar]
-supporters:
-- eurosciencegateway
-- de.NBI
-- de.KCD
 subsites: [all]
 contributions:
   authorship:

@@ -3,7 +3,6 @@ title: Graphical retrospectives of personal and community-wide contributions to 
 tease: "Web-based tool to keep track of activities within the different Galaxy communities based on the Git histories of the relevant repositories on GitHub."
 date: '2024-01-15'
 tags: [community, tools]
-authors: Leonid Kostrykin
 subsites: [all]
 contributions:
   authorship:

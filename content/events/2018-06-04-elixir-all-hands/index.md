@@ -6,9 +6,6 @@ tags: [training]
 location:
   city: Berlin
   country: Germany
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

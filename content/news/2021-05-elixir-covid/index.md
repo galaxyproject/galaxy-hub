@@ -5,6 +5,5 @@ external_url: "https://elixir-europe.org/news/covid-19-variants-galaxy"
 date: "2021-05-10"
 subsites: [global, us]
 tags: [covid-19, elixir]
-supporters: [unifreiburg, elixir, denbi]
 ---
 

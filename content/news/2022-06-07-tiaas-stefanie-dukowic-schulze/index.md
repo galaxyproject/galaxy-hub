@@ -4,9 +4,6 @@ date: '2022-06-07'
 tease: Dr.
 hide_tease: true
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Stefanie Dukowic-Schulze
 subsites: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 contributions:
   authorship:

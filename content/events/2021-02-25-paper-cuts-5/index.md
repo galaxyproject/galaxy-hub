@@ -4,8 +4,6 @@ date: '2021-02-25'
 end: '2021-02-25'
 location:
   name: online
-supporters:
-- denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

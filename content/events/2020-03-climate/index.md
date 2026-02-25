@@ -18,9 +18,6 @@ location:
   postal: 0349
   region: Oslo
   street: Gaustadalléen 21
-supporters:
-- Copernicus Climate Services
-- Galaxy
 hidefooter: true
 continent: EU
 gtn: false

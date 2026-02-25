@@ -12,7 +12,6 @@ contact: "Presenters"
 gtn: true
 subsites: [global, us]
 tags: [gcb, conference, bioinformatics]
-supporters: [denbi, unifreiburg]
 contributions:
   funding:
     - deNBI

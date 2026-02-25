@@ -15,10 +15,6 @@ location:
   city: Freiburg im Breisgau
   region: Baden-Württemberg
   country: Germany
-supporters:
-- eu
-- elixir
-- esg
 subsites: [eu, freiburg, esg]
 main_subsite: freiburg
 contributions:

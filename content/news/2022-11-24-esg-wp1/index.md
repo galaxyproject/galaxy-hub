@@ -4,10 +4,6 @@ tease: Work Package 1 of the EuroScienceGateway project
 date: "2022-11-24"
 hide_tease: false
 tags: [esg-wp1, esg]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - elixir
 subsites: [all-eu, esg]
 main_subsite: eu
 contributions:

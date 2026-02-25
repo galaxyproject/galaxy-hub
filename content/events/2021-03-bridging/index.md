@@ -8,13 +8,6 @@ contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
 hidefooter: true
 continent: EU
 gtn: false

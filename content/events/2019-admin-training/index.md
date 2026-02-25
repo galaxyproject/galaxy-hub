@@ -13,7 +13,6 @@ contact: Instructors
 image: /events/2019-admin-training/2019-admin-training-logo.png
 subsites: [global, us]
 tags: [admin, training, workshop]
-supporters: [unifreiburg, denbi]
 contributions:
   funding:
     - deNBI

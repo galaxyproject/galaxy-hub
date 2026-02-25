@@ -3,9 +3,6 @@ title: 'New Paper "The RNA workbench 2.0: next generation RNA data analysis"'
 date: '2019-05-10'
 tags: [paper]
 doi: 10.1093/nar/gkz353
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

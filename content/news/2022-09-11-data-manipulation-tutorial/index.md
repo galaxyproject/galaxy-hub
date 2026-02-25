@@ -4,7 +4,6 @@ main_subsite: global
 date: "2022-09-11"
 tags: [training, gtn-news]
 title: "[GTN news] New Tutorial: Data Manipulation"
-authors: "Saskia Hiltemann"
 external_url: 'https://training.galaxyproject.org/training-material/news/2022/09/11/data-manipulation-tutorial.html'
 contributions:
   authorship:

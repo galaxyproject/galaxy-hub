@@ -5,12 +5,6 @@ tease: Studying the RNA modifications of SARS-CoV-2 to improve understanding of 
   viruses
 tags: [paper, COVID-19, data]
 doi: 10.1101/2020.07.18.204362
-supporters:
-- denbi
-- unifreiburg
-- crc992
-- galaxy-europe
-- biodaten
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

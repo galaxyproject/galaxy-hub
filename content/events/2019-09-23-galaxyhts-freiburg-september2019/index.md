@@ -19,10 +19,6 @@ location:
   region: Baden-Württemberg
   street: Werthmannstraße 4
 continent: EU
-supporters:
-- unifreiburg
-- denbi
-- mpi
 hidefooter: true
 subsites: [global, eu, freiburg]
 main_subsite: freiburg

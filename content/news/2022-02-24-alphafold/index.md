@@ -6,12 +6,6 @@ tease: It seems the whole world is talking about AlphaFold,
   that achieves accuracy comparable with real-life experiments.
 hide_tease: true
 tags: [tools]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-- australian_biocommons
-authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

@@ -4,21 +4,6 @@ date: '2021-04-30'
 end: '2021-04-30'
 tease: Building capacity, both in the analysis and data management sides of SARS-CoV-2
 tags: [training]
-supporters:
-- denbi
-- galaxy-europe
-- galaxy-australia
-- gallantries
-- erasmus+
-- eosc
-- converge
-- pari
-- neic
-- australian_biocommons
-- qfab
-- melbbioinfo
-- sanbi
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

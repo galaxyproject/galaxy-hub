@@ -10,12 +10,6 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- crc1425
-- crc992
-- meinbio
-- denbi
-- unifreiburg
 hidefooter: true
 continent: GL
 gtn: true

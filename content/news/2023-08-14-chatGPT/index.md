@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT in Galaxy via Jupyter notebooks"
 date: "2023-08-14"
-authors: Anup Kumar
 tease: "Use ChatGPT in Galaxy Europe via JupyterLab interactive tool."
 hide_tease: true
 subsites: [all-eu,global,all]

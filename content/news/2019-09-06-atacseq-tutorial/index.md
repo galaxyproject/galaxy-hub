@@ -2,12 +2,6 @@
 title: First ATACseq training material!
 date: '2019-09-06'
 tags: [training]
-supporters:
-- galaxy-europe
-- elixir
-- denbi
-authors: 
-- Anika Erxleben
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

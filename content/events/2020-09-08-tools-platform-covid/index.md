@@ -6,10 +6,6 @@ contacts:
   email: galaxy@informatik.uni-freiburg.de
 location:
   name: online
-supporters:
-- unifreiburg
-- denbi
-- elixir
 tags:
 - talk
 - covid-19

@@ -19,8 +19,6 @@ links:
   url: https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-1.pdf
 - text: Slides 2
   url: https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-2.pdf
-supporters:
-- galaxy
 subsites: [all-eu, global, us]
 contributions:
   authorship:

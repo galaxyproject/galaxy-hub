@@ -4,7 +4,6 @@ date: '2022-04-11'
 tease: 'Something that the scientific community has been eagerly awaiting: the first complete, gap-free sequence for all 24 human chromosomes (including Y)'
 hide_tease: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
-authors: Cristóbal Gallardo
 contributions:
   authorship:
     - gallardoalba

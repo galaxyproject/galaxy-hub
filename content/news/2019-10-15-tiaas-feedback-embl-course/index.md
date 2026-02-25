@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Charles Girardot
 date: '2019-10-15'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: [Jelle Scholtalbers, Charles Girardot]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

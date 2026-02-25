@@ -14,7 +14,6 @@ contacts:
 tags: [training, poster, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
-supporters: [denbi, unifreiburg]
 contributions:
   funding:
     - deNBI

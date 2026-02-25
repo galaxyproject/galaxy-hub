@@ -2,9 +2,6 @@
 title: Another successful Galaxy workshop in Melbourne
 date: '2019-05-20'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-- TIaaS
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

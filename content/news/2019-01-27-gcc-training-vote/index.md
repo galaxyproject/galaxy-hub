@@ -3,10 +3,6 @@ title: Vote for the Training during the next Galaxy Community Conference
 date: '2019-01-27'
 tags: [training, GCC]
 external_url: https://goo.gl/forms/lcPoMt4iZ8hwcdM12
-supporters:
-- elixir
-- denbi
-authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

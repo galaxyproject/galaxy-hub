@@ -1,6 +1,5 @@
 ---
 title: "Code Of Conduct Committee Annual Update "
-authors: [Michelle Terese Savage, Frederik Coppens]
 source_blog: ""
 date: "2025-06-23"
 contributions:

@@ -5,8 +5,6 @@ date: "2022-12-08"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
-supporters:
-  - eurosciencegateway
 main_subsite: eu
 contributions:
   funding:

@@ -2,11 +2,6 @@
 title: IT security management of the University of Freiburg certified by TÜV SÜD
 date: '2022-02-01'
 tags: [galaxy, support]
-supporters:
-- galaxy-europe
-- unifreiburg
-- denbi
-authors: Björn Grüning
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

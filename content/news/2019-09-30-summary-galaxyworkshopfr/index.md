@@ -4,8 +4,6 @@ date: '2019-09-30'
 location:
   name: Freiburg
 tags: [training]
-authors: 
-- Anika Erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

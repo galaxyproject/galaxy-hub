@@ -3,11 +3,6 @@ title: EOSC-Life Open Calls
 date: '2020-09-23'
 tease: Two funding opportunities are now open in EOSC-Life.
 tags: [grants]
-supporters:
-- eosc
-- EOSC-Life
-- eu
-authors: Beatriz Serrano-Solano
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

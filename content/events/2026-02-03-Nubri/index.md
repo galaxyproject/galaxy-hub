@@ -4,10 +4,9 @@ date: '2026-02-03'
 end: '2026-02-03'
 location:
   name: "Online"
-tags: [NUBRI]
+tags: [community]
 organizers:
   - galaxyfreiburg
-supporters: [de.KCD, denbi]
 subsites: [all, eu]
 ---
 

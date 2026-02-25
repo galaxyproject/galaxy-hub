@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Molecular secrets of minnow adaptation to salinity stress"
 tease: "Discover how advanced transcriptomic analyses in Galaxy reveal the intricate molecular adaptations of minnows to freshwater salinization."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-07-03"
 tags: ["highlight"]
 subsites: [global,all]

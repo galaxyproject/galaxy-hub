@@ -2,7 +2,6 @@
 date: '2013-02-21'
 title: "Genome download & indexing using Galaxy rsync servers"
 tease: "Python script in CloudBioLinux"
-authors: "Brad Chapman"
 external_url: "https://github.com/chapmanb/cloudbiolinux/blob/master/cloudbio/biodata/galaxy.py"
 source_blog_url: https://github.com/chapmanb/cloudbiolinux/ 
 source_blog: "CloudBioLinux Repo"

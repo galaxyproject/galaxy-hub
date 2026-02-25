@@ -2,7 +2,6 @@
 title: "Galaxy in Research: Exploring DNA methylation and aging across diverse human tissues"
 tease: "How does DNA methylation correlate with aging across different human tissues? A new study provides insights into this question, revealing tissue-specific and shared epigenetic patterns."
 hide-tease: false
-authors: "Natalie Whitaker-Allen"
 date: "2024-08-14"
 tags: ["highlight"]
 subsites: [global,all]

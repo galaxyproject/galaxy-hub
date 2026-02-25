@@ -2,13 +2,6 @@
 title: 20,000 users
 date: '2020-10-21'
 tags: [galaxy, tiaas, outreach]
-supporters:
-- denbi
-- elixir
-- eosc
-- unifreiburg
-- eu
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

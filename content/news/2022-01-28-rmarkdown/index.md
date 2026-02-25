@@ -5,10 +5,6 @@ tease: Further building on the work in the automatic Jupyter Notebook, we’ve n
   the Jupyter export to be faster, and more importantly added support for R and RMarkdown!
 hide_tease: true
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2022/01/28/rmarkdown.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

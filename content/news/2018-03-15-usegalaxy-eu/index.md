@@ -4,10 +4,6 @@ date: '2018-03-15'
 tags: [devops]
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

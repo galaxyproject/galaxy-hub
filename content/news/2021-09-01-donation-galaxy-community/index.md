@@ -3,7 +3,6 @@ title: Win, Win, Win. When users support education programs to say thanks for fr
   Galaxy resources
 date: '2021-09-01'
 tags: []
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

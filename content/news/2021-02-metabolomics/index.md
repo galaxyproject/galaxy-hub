@@ -4,9 +4,6 @@ date: '2021-02-06'
 tease: next meetings are planned for March 11, May 6 and at the Galaxy Community Conference
   in July.
 tags: [talk]
-supporters:
-- denbi
-authors: Melanie Föll
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

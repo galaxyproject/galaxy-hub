@@ -16,8 +16,6 @@ links:
   url: https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit?usp=sharing
 - text: Video
   url: https://youtu.be/cFN_WPGz9qk
-supporters:
-- galaxy
 subsites: [all-eu, global, us]
 contributions:
   authorship:

@@ -2,7 +2,6 @@
 title: New introductory video to the Galaxy Training Network
 date: '2021-02-28'
 tags: [training, FAQ]
-authors: Beatriz Serrano-Solano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

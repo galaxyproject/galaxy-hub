@@ -5,15 +5,6 @@ tease: "...but we look back with a relaxed smile. Let's draw the balance!"
 location:
   name: Freiburg, Germany
 tags: [meeting, esg, egd, community, elixir, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference]
-authors: [Sebastian Schaaf, Anika Erxleben, Björn Grüning, Hans-Rudolf Hotz]
-supporters:
-- ELIXIR
-- denbi
-- esg
-- unifreiburg
-- eosc
-- eu
-- elixir-belgium
 components: true
 autotoc: true
 subsites: [all, esg]

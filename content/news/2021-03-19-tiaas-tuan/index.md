@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Dr. Tuan Leng Tay
 date: '2021-03-19'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Tuan Leng Tay
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

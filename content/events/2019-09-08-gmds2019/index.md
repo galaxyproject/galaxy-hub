@@ -13,9 +13,6 @@ location:
   postal: 44227
   region: North Rhine-Westphalia
   street: Emil-Figge-Straße 44
-supporters:
-- denbi
-- emed
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

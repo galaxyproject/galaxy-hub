@@ -1,6 +1,5 @@
 ---
 title: "Code Of Conduct Committee Annual Update "
-authors: [Ross Lazarus, Helena Rasche, Frederik Coppens, Michelle Terese Savage]
 source_blog: ""
 date: "2024-06-14"
 contributions:

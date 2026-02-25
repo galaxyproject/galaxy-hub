@@ -1,7 +1,6 @@
 ---
 title: "Galaxy is Leaving Twitter/X"
 tease: "Effective March 31st, 2024, Galaxy will be leaving Twitter/X."
-authors: "Natalie Whitaker-Allen"
 date: "2024-01-26"
 subsites: [global, all]
 contributions:

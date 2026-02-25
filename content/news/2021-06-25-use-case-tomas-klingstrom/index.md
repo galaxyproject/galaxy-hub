@@ -2,8 +2,6 @@
 title: 'UseGalaxy.eu Use Case: Genetics research on dairy cattle'
 date: '2021-06-25'
 tags: [community, demo, tiaas]
-supporters: [unifreiburg, denbi]
-authors: Tomas Klingström
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

@@ -4,13 +4,6 @@ title: 'Open Life Science program & the Galaxy community: involvement in OLS-3 a
 date: '2021-06-28'
 tease: Open Life Science (OLS) is an online mentoring & training program
 tags: [training]
-supporters:
-- elixir
-- eosc
-- unifreiburg
-- eu
-- denbi
-authors: Bérénice Batut
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

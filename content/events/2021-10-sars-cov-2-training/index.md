@@ -13,14 +13,6 @@ tags: [COVID-19, workshop, talk, training]
 contact: "Instructors"
 subsites: [all]
 autotoc: false
-supporters: 
- - denbi
- - galaxy-europe
- - gallantries
- - erasmus+
- - eosc
- - converge
- - bycovid
 contributions:
   funding:
     - deNBI

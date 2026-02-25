@@ -3,7 +3,6 @@ title: 'Time to celebrate!'
 date: '2023-09-28'
 tease: "Galaxy having grown up and matured - happy 18th birthday!"
 hide_tease: false
-authors: Sebastian Schaaf
 tags: [birthday]
 subsites: [all, all-eu]
 main_subsite: eu

@@ -2,14 +2,6 @@
 title: Training Infrastructure Feedback from Simon Gladman
 date: '2021-04-03'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-- eosc
-- eu
-- unifreiburg
-- denbi
-- elixir
-authors: Simon Gladman
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

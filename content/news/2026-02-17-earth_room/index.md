@@ -3,7 +3,6 @@ title: "Bringing Climate, Ecology, and Earth System Science Together"
 date: "2026-02-17"
 tease: "Join Our Galaxy Earth-Climate-Ecology Room"
 hide_tease: false
-authors: 'Marie Jossé, Anne Fouilloux, and Yvan Le Bras'
 authors_structured:
 - github: Marie59
 - github: annefou

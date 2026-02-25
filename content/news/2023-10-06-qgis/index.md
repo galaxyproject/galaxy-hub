@@ -1,19 +1,10 @@
 ---
 title: "QGIS : A Geographical Information System on Galaxy !"
 date: "2023-10-06"
-authors: [Marie Josse, Yvan Le Bras]
 tease: "Use QGIS in Galaxy Europe as an interactive tool"
 hide_tease: true
 subsites: [all-eu,global,esg]
 tags: [esg, esg-wp5, outreach, tools, eosc]
-supporters:
-  - eurosciencegateway
-  - eosc
-  - eu
-  - fair-east
-  - unifreiburg
-  - denbi
-  - elixir
 contributions:
   authorship:
     - Marie59

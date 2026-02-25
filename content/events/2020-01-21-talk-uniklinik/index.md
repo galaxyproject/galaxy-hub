@@ -10,9 +10,6 @@ location:
   city: Freiburg im Breisgau
   country: Germany
   region: Baden-Württemberg
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

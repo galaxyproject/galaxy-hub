@@ -2,7 +2,6 @@
 date: '2014-06-10'
 title: "Setting up a secure tool shed with remote authentication"
 tease: "Requires some tweaks in order to allow Galaxy to communicate with the Tool Shed"
-authors: "William Holtz"
 external_url: 
 source_blog_url: 
 source_blog:

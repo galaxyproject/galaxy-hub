@@ -6,13 +6,6 @@ hide_tease: false
 tags: [oscars, esg, esg-wp1, eosc, collaboration, outreach]
 subsites: [all-eu, esg]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - eosc
-  - eu
-  - oscars
-  - fiesta
 contributions:
   funding:
     - eurosciencegateway

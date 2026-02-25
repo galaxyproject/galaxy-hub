@@ -2,11 +2,6 @@
 title: ISMB 2020 conference videos available on YouTube
 date: '2021-01-30'
 tags: [training, talk, poster, COVID-19]
-supporters:
-- galaxy-europe
-- unifreiburg
-- denbi
-authors: Melanie Föll
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

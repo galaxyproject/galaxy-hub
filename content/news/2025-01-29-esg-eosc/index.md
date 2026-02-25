@@ -6,13 +6,6 @@ hide_tease: false
 tags: [esg-wp4, esg, pulsar, eosc]
 subsites: [all-eu, esg, global]
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - eu
-  - eosc
-  - unifreiburg
-  - denbi
-  - elixir
 contributions:
   funding:
     - eurosciencegateway

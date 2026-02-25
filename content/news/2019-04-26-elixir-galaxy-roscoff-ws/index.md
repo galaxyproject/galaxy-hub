@@ -5,7 +5,6 @@ date: '2019-04-26'
 location:
   name: Roscoff, France
 tags: [training]
-authors: Bérénice Batut
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

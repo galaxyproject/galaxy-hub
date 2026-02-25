@@ -4,7 +4,6 @@ main_subsite: global
 date: "2023-01-24"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: Prometheus Metrics endpoint"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2023/01/24/prometheus.html'
 contributions:
   authorship:

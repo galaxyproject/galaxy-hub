@@ -3,10 +3,6 @@ title: Women in Data Science 2021 - Perspectives in Industry and Academia - Join
   AG and de.NBI / ELIXIR Germany event
 date: '2021-07-01'
 tags: [training]
-supporters:
-- elixir
-- denbi
-authors: Bérénice Batut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

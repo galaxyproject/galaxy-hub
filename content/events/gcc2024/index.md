@@ -14,7 +14,6 @@ location:
 gtn: true
 contact: "Organizing Committee"
 tags: ["cofest", "workshop", "training", "talk", "poster", "esg", "esg-wp1"]
-supporters: [esg, eu, unifreiburg]
 subsites: [all, esg, all-eu]
 contributions:
   funding:

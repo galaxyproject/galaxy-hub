@@ -12,14 +12,6 @@ gtn: true
 contact: Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Mehta,
   Mehmet Tekman
 tags: [training, microbiology, conference]
-supporters:
-- unifreiburg
-- denbi
-- elixir
-- sciex
-- thermofisher
-- illumina
-- ncgas
 subsites: [eu, freiburg, global, us]
 contributions:
   authorship:

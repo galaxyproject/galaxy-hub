@@ -2,10 +2,6 @@
 title: Visit from Macromolecular Crystallography Group (Diamond Synchrotron)
 date: '2019-04-23'
 tags: [collaboration]
-supporters:
-- eosc
-- eu
-authors: Simon Bray
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

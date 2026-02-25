@@ -11,8 +11,6 @@ external_url:
 gtn: true
 contact: Instructors
 tags: [esg, esg-wp1]
-supporters:
-  - eurosciencegateway
 subsites: [global, us, eu, esg]
 contributions:
   funding:

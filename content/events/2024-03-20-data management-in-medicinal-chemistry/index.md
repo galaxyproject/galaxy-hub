@@ -8,8 +8,6 @@ contacts:
   name: ELIXIR UK
 location:
   name: online
-supporters:
-- elixir
 subsites: [eu]
 main_subsite: eu
 contributions:

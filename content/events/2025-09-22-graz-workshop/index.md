@@ -9,8 +9,6 @@ location:
 gtn: true
 contact: "Amirhossein Nilchi, Pavan Videm, Sebastian Preissl"
 tags: [workshop, training]
-supporters:
-- University of Graz
 subsites: [all]
 contributions:
   authorship:

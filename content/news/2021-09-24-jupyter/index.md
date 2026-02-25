@@ -4,7 +4,6 @@ main_subsite: global
 date: "2021-09-24"
 tags: [training, gtn-news]
 title: "[GTN news] New Feature: Automatic Jupyter Notebooks"
-authors: "Helena Rasche"
 external_url: 'https://training.galaxyproject.org/training-material/news/2021/09/24/jupyter.html'
 contributions:
   authorship:

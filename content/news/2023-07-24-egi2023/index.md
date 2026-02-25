@@ -14,13 +14,6 @@ tags:
 - talks
 - conference
 main_subsite: eu
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - egi
-  - eosc
-  - eu
-  - denbi
 contributions:
   funding:
     - eurosciencegateway

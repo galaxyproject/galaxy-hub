@@ -4,9 +4,6 @@ date: '2019-01-08'
 tags: [devops, hardware]
 location:
   name: Galaxy Europe
-supporters:
-- denbi
-- bmbf
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -4,9 +4,6 @@ date: '2019-05-10'
 tags: [training]
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-authors: "Anika Erxleben"
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

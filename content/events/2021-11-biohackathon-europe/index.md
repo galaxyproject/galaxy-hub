@@ -12,8 +12,6 @@ image: /images/logos/bhlogo.png
 gtn: false
 contact: Project organizers
 tags: [cofest]
-supporters:
-- elixir
 subsites: [all-eu, global, us]
 contributions:
   funding:

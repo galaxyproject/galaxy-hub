@@ -2,9 +2,6 @@
 title: Training Infrastructure Feedback from Dr. Ricardo Gonzalo Sanz
 date: '2021-03-25'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Ricardo Gonzalo Sanz
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
