@@ -4,13 +4,11 @@ on:
   push:
     branches:
       - main
-      - master
     paths:
       - 'deploy/rewrites.js'
   pull_request:
     branches:
       - main
-      - master
     paths:
       - 'deploy/rewrites.js'
 
@@ -33,7 +31,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: test
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout code
