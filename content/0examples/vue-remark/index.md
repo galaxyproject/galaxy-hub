@@ -49,7 +49,6 @@ Here's how Inserts are inserted:
 
 Using Vue components:
 
-import Continent from '~/components/Continent.vue'
 
 They can even be used <continent continent="EU" /> inline!
 

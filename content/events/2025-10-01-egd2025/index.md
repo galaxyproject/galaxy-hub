@@ -43,10 +43,10 @@ We are holding **3 events** in the same week:
 
 <div id="schedule-tabs">
   <div class="tab-header">
-    <button class="tab-button" :class="{ active: activeTab === 'overview' }" @click="activeTab = 'overview'">🗂️ Overview</button>
-    <button class="tab-button" :class="{ active: activeTab === 'day1' }" @click="activeTab = 'day1'">📅 Day 1</button>
-    <button class="tab-button" :class="{ active: activeTab === 'day2' }" @click="activeTab = 'day2'">📅 Day 2</button>
-    <button class="tab-button" :class="{ active: activeTab === 'day3' }" @click="activeTab = 'day3'">📅 Day 3</button>
+    <button class="tab-button" class="{ active: activeTab === 'overview' }" @click="activeTab = 'overview'">🗂️ Overview</button>
+    <button class="tab-button" class="{ active: activeTab === 'day1' }" @click="activeTab = 'day1'">📅 Day 1</button>
+    <button class="tab-button" class="{ active: activeTab === 'day2' }" @click="activeTab = 'day2'">📅 Day 2</button>
+    <button class="tab-button" class="{ active: activeTab === 'day3' }" @click="activeTab = 'day3'">📅 Day 3</button>
   </div>
 
   <div class="tab-content" v-if="activeTab === 'overview'">

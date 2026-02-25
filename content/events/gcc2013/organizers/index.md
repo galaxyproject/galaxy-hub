@@ -5,8 +5,8 @@ title: Organizers
 
 
 
-import linkbox from "../linkbox.json"
-<link-box :data="linkbox" />
+
+<link-box data="linkbox" />
 
 
 
