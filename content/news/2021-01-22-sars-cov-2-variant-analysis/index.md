@@ -63,7 +63,7 @@ potential intra-sample variation, you could run our
 workflow, which will create different graphical and tabular views on the
 variant data, which you can use as a starting point for further investigation,
 *e.g.* with [__Interactive Notebooks__](https://live.usegalaxy.eu) or using resources like
-<https://observablehq.com/collection/@spond/intrahost-variant-exploration>.
+[https://observablehq.com/collection/@spond/intrahost-variant-exploration](https://observablehq.com/collection/@spond/intrahost-variant-exploration).
 
 ![Variant allele frequency plot](/assets/media/2021-01-22-sars-cov-2-variation-plot.png)
 
