@@ -89,16 +89,11 @@ function normalizeFrontmatterArrays(fm) {
     const fields = ['tags', 'subsites', 'authors'];
     let result = fm;
     for (const field of fields) {
-        // Match `field: value` where value is a bare scalar (not an array, not a block sequence)
-        // Negative lookahead for [ ensures we don't touch inline arrays
-        // We also skip if the next line starts with - (block sequence)
+        // Match `field: value` on a single line where value is a bare scalar.
+        // [ \t]+ ensures we don't span newlines. Negative lookahead skips inline arrays.
         result = result.replace(
-            new RegExp(`^(${field}:)\\s+(?!\\[)(?!\\n)(\\S.*)$`, 'gm'),
-            (match, prefix, value) => {
-                // Check if next line is a block sequence continuation
-                // (this regex only matches single-line values, so this is safe)
-                return `${prefix} [${value}]`;
-            }
+            new RegExp(`^(${field}:)[ \\t]+(?!\\[)(\\S.*)$`, 'gm'),
+            (match, prefix, value) => `${prefix} [${value}]`
         );
     }
     return result;
