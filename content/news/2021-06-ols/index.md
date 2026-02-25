@@ -15,9 +15,9 @@ contributions:
     - deNBI
 ---
 
-![OLS-4 flyer](/assets/media/2021-06-28-ols.png){:.rna-intro-right style="max-height:400px;"}
+!<a href="/assets/media/2021-06-28-ols.png" class="rna-intro-right" style="max-height:400px;">OLS-4 flyer</a>
 
-[Open Life Science (OLS)](https://openlifesci.org/){:target="_blank"} is an **online mentoring & training program** to help **individuals and stakeholders in research** to become **Open Science ambassadors**. Participants of this program learn essential knowledge required to create, lead, and sustain an Open Science project, connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise.
+<a href="https://openlifesci.org/" target="_blank">Open Life Science (OLS)</a> is an **online mentoring & training program** to help **individuals and stakeholders in research** to become **Open Science ambassadors**. Participants of this program learn essential knowledge required to create, lead, and sustain an Open Science project, connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise.
 
 The program just finished its 3rd cohort (February to May 2021). The Galaxy Project was involved in the 3 cohorts.
 
@@ -25,12 +25,12 @@ Applications are now open for the 4th cohort (OLS-4) which will take place from 
 
 # Two Galaxy-related projects in OLS-3
 
-In the 3rd cohort (OLS-3), [37 diverse projects](https://openlifesci.org/ols-3/projects-participants/#projects){:target="_blank"} were led by [66 participants](https://openlifesci.org/ols-3/projects-participants/#participants){:target="_blank"}, mentored by [34 mentors](https://openlifesci.org/ols-3#mentors){:target="_blank"} and supported by [63 experts](https://openlifesci.org/ols-3#experts){:target="_blank"}. Among them, 2 projects were Galaxy-related:
+In the 3rd cohort (OLS-3), <a href="https://openlifesci.org/ols-3/projects-participants/#projects" target="_blank">37 diverse projects</a> were led by <a href="https://openlifesci.org/ols-3/projects-participants/#participants" target="_blank">66 participants</a>, mentored by <a href="https://openlifesci.org/ols-3#mentors" target="_blank">34 mentors</a> and supported by <a href="https://openlifesci.org/ols-3#experts" target="_blank">63 experts</a>. Among them, 2 projects were Galaxy-related:
 
-- [Systems Genomic Integration of Diabetes Related Genes: A Quest for Development of Biomarkers](https://openlifesci.org/ols-3/projects-participants/#systems-genomic-integration-of-diabetes-related-genes-a-quest-for-development-of-biomarkers){:target="_blank"}
+- <a href="https://openlifesci.org/ols-3/projects-participants/#systems-genomic-integration-of-diabetes-related-genes-a-quest-for-development-of-biomarkers" target="_blank">Systems Genomic Integration of Diabetes Related Genes: A Quest for Development of Biomarkers</a>
     - By Arvinpreet Kaur, Ashutosh Tiwari, Robandeep Kaur, Mehak Chopra, Harpreet Singh, Prashanth N. Suravajhala
     - Mentored by Prashanth N. Suravajhala with Harpreet Singh
-- [Implementing a series of pedagogical games to teach pupils and citizens (metagenomic) data analysis](https://openlifesci.org/ols-3/projects-participants/#implementing-a-series-of-pedagogical-games-to-teach-pupils-and-citizens-metagenomic-data-analysis){:target="_blank"}
+- <a href="https://openlifesci.org/ols-3/projects-participants/#implementing-a-series-of-pedagogical-games-to-teach-pupils-and-citizens-metagenomic-data-analysis" target="_blank">Implementing a series of pedagogical games to teach pupils and citizens (metagenomic) data analysis</a>
     - By Teresa Müller, Alireza Khanteymoori, Masako Kaufmann, Florian Heyl
     - Mentored by Yvan Le Bras
 
@@ -38,15 +38,15 @@ In the mentors and experts, several are involved in the Galaxy community (Béré
 
 # Apply for OLS-4
 
-A call for applications has opened for the next cohort, OLS-4, which will take place from **September to December 2021**. The deadline for application is **15 July 2021**. Visit [https://openlifesci.org](https://openlifesci.org){:target="_blank"} for details.
+A call for applications has opened for the next cohort, OLS-4, which will take place from **September to December 2021**. The deadline for application is **15 July 2021**. Visit <a href="https://openlifesci.org" target="_blank">https://openlifesci.org</a> for details.
 
-This time around, we will be using Open Review for submissions - but worry not, our [application guide and templates](https://github.com/open-life-science/application-forms){:target="_blank"} have got you covered, just *make sure you register on Open Review well in advance*.
+This time around, we will be using Open Review for submissions - but worry not, our <a href="https://github.com/open-life-science/application-forms" target="_blank">application guide and templates</a> have got you covered, just *make sure you register on Open Review well in advance*.
 
 **We'd love to invite folks from all around the world, at different career stages to apply, individually or in teams.**
 
-This program gives a unique opportunity to develop an Open Science project that participants either already have been working on, or want to develop in the near future individually or in teams. The [complete schedule](https://openlifesci.org/ols-4/schedule){:target="_blank"}, [roles and benefits for our mentees](https://openlifesci.org/about#mentees){:target="_blank"} and previously completed projects ([OLS-1](https://openlifesci.org/ols-1/projects-participants/){:target="_blank"}, [OLS-2](https://openlifesci.org/ols-2/projects-participants/#projects){:target="_blank"}, [OLS-3](https://openlifesci.org/ols-2/projects-participants/#projects){:target="_blank"}) can be found on OLS website and the graduation presentations on the [YouTube channel](https://www.youtube.com/c/OpenLifeSci/videos){:target="_blank"}.
+This program gives a unique opportunity to develop an Open Science project that participants either already have been working on, or want to develop in the near future individually or in teams. The <a href="https://openlifesci.org/ols-4/schedule" target="_blank">complete schedule</a>, <a href="https://openlifesci.org/about#mentees" target="_blank">roles and benefits for our mentees</a> and previously completed projects (<a href="https://openlifesci.org/ols-1/projects-participants/" target="_blank">OLS-1</a>, <a href="https://openlifesci.org/ols-2/projects-participants/#projects" target="_blank">OLS-2</a>, <a href="https://openlifesci.org/ols-2/projects-participants/#projects" target="_blank">OLS-3</a>) can be found on OLS website and the graduation presentations on the <a href="https://www.youtube.com/c/OpenLifeSci/videos" target="_blank">YouTube channel</a>.
 
-For OLS-4, we continue to [offer micro-grants](https://openlifesci.org/posts/2020/11/23/micro-grants-in-2021-ols-3-ols-4/){:target="_blank"} to help grow participation and inclusion, and to support budding new projects.
+For OLS-4, we continue to <a href="https://openlifesci.org/posts/2020/11/23/micro-grants-in-2021-ols-3-ols-4/" target="_blank">offer micro-grants</a> to help grow participation and inclusion, and to support budding new projects.
 
 We have also partnered with The Alan Turing Institute, EOSC-Life and the Faculty of Applied Sciences, Technical University of Delft to further engage researchers in these communities in open research.
 
@@ -66,7 +66,7 @@ We would love to see Galaxy-related projects in OLS-4. They can be any projects 
 
 ## Supported by EOSC-Life Training grant
 
-For this cohort, Open Life Science has received the [EOSC-Life Training grant](https://www.google.com/url?q=https://www.eosc-life.eu/news/4-projects-awarded-funding-within-first-training-open-call/&sa=D&ust=1608631815383000&usg=AOvVaw3GgqHv5X_zuINJB4C-W6b8){:target="_blank"}, to train and mentor EOSC-RI members under the collaboration name "OLS-4 for EOSC". EOSC will support participation of mentors and participants from EOSC-RI.
+For this cohort, Open Life Science has received the <a href="https://www.google.com/url?q=https://www.eosc-life.eu/news/4-projects-awarded-funding-within-first-training-open-call/&sa=D&ust=1608631815383000&usg=AOvVaw3GgqHv5X_zuINJB4C-W6b8" target="_blank">EOSC-Life Training grant</a>, to train and mentor EOSC-RI members under the collaboration name "OLS-4 for EOSC". EOSC will support participation of mentors and participants from EOSC-RI.
 
 This program will provide a unique opportunity to individuals and teams to integrate best practices for open and reproducible research in new or ongoing projects. Some examples of projects that EOSC-RI can bring to the program:
 

@@ -13,7 +13,7 @@ contributions:
 Update: The paper is now published in the [Journal of Cheminformatics](https://jcheminf.biomedcentral.com/track/pdf/10.1186/s13321-020-00451-6).
 
 On July 18th, as part of BCC 2020, we will be running an introductory tutorial on molecular dynamics in Galaxy,
-based on our recent preprint '[Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial](https://www.biorxiv.org/content/10.1101/2020.05.08.084780v1){:target="_blank"}'. The online training will be led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).
+based on our recent preprint '<a href="https://www.biorxiv.org/content/10.1101/2020.05.08.084780v1" target="_blank">Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial</a>'. The online training will be led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).
 
 You are very welcome to join us and find out more about tools and workflows for molecular dynamics!
 Registration can be done via the [BCC website](https://bcc2020.github.io/Registration/) (early registration ends on July 10th) and prices start at $3 per training.

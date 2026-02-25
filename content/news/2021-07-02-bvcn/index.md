@@ -31,7 +31,6 @@ Galaxy for microbiome via ASaiM story - From a local project to a global effort 
 Metagenomic pathogen detection using MMseqs2, Plass, and Linclust | Martin Steinegger, Assistant Professor, Seoul National University
 **Day 4: Live Q&A** |
 **Day 5: Poster session** |
-{:.table.table-striped}
 
 Bérénice presented **Galaxy for microbiome via ASaiM story - From a local project to a global effort to support microbiome data analysis**:
 

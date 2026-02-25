@@ -29,7 +29,7 @@ The Galaxy Community and ELIXIR organise a [webinar series](https://elixir-europ
 This session will guide the participants how they can use the Galaxy compute capacities to run their own analysis. It will present the Pulsar network that connects data centres and High Performance Computing clusters to share their computation power in support of the Galaxy Europe users and provide examples of how to submit an analysis job from the user’s perspective.
 
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
+<a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19" target="_blank">Programme Information and Registration</a>
 
 ### Speakers
 

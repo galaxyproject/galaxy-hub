@@ -12,7 +12,7 @@ main_subsite: freiburg
 
 The **Freiburg Galaxy Team** is looking for a **Systems Engineer/DevOps Engineer**!
 
-[![A Freiburg sunset](https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg){width=512}](https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/){: data-flickr-embed="true" }
+<a href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" data-flickr-embed="true">![A Freiburg sunset](https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg){width=512}</a>
 
 The **Freiburg Galaxy Team** is looking for a **Systems Engineer/DevOps Engineer** to support our work on the web-based computational platform Galaxy. The Freiburg Galaxy Team offers the service usegalaxy.eu to biomedical and pharmaceutical researchers in Europe. 
 

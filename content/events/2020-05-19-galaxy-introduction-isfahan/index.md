@@ -27,7 +27,7 @@ The Galaxy Community and university of Isfahan organise a workshop series to dem
 
 This workshop is an introduction to Galaxy at the beginner level (in Persian) for the students of University of Isfahan. This practical aims at familiarizing participants with the Galaxy user interface. It will teach them how to perform basic tasks such as importing data, running tools, working with histories, creating workflows and sharing their works.
 
-[Registration](https://docs.google.com/forms/d/16A7VkPK-L-ExCOnfcORP8nE-swohH6ulGKeaReFToZI/){:target="_blank"}
+<a href="https://docs.google.com/forms/d/16A7VkPK-L-ExCOnfcORP8nE-swohH6ulGKeaReFToZI/" target="_blank">Registration</a>
 
 ### Speakers
 

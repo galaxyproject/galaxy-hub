@@ -28,7 +28,7 @@ The Galaxy Community and ELIXIR organise a webinar series to demonstrate how ope
 
 The second session will present the [initial analysis of the SARS-CoV-2 genome, published on bioRxiv](https://doi.org/10.1101/2020.02.21.959973). It will guide the participants through accessing and collecting the available datasets, the genome assembly and the analysis of the  within-sample sequence variants. It will also explain how to deploy on a Galaxy instance all the tools and workflows needed to reproduce the analysis.
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
+<a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19" target="_blank">Programme Information and Registration</a>
 
 ### Speakers
 

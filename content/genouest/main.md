@@ -13,7 +13,7 @@ The [GenOuest](https://www.genouest.org) bioinformatics platform is located in R
 
 For any questions regarding this Galaxy server, please contact us.
 
-[Visit the team page](https://usegalaxy-eu.github.io/genouest/people){: .btn .btn-secondary .trim-p}
+<a href="https://usegalaxy-eu.github.io/genouest/people" class="btn btn-secondary trim-p">Visit the team page</a>
 
 </div>
 <div class="col-sm-6 img-sizer" style="height: 285px">

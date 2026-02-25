@@ -30,7 +30,7 @@ The Galaxy Community and ELIXIR organise a second webinar series to demonstrate 
 
 
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_4SM_qg8sTkizTtODviMnNg){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_4SM_qg8sTkizTtODviMnNg" target="_blank">Registration</a>
 
 #### Speakers
 

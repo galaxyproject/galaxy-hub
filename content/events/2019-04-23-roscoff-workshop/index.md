@@ -65,7 +65,6 @@ Day | Start | End | Topics | Material | Location
  | 10:30 | 11:00 | Break | | Hôtel de France - Room 3
  | 11:00 | 12:30 | Hackathon | | Hôtel de France - Room 3
  | 12:30 | 14:00 | Lunch | | Gulf Stream
-{:.table.table-striped}
 
 Collaborative notes and on the fly information are added to an [external Gdoc](https://docs.google.com/document/d/1cIc920Et6LPnezy8yT1SJyupud0BfZxQ-hofWAu1LB0/edit?usp=sharing).
 

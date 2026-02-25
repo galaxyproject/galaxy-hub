@@ -14,7 +14,7 @@ contributions:
 
 We will be hosting a single-cell RNA-seq training workshop [at BCC](https://bcc2020.sched.com/event/c7TP/processing-of-single-cell-rna-seq-data-with-galaxy), 
 on both July 17th and July 19th for BCC 2020. The workshop follows the 10x-driven workflows as outlined in our 
-preprint '[A single-cell RNA-seq Training and Analysis Suite using the Galaxy Framework](https://www.biorxiv.org/content/10.1101/2020.06.06.137570v3){:target="_blank"}', and will be given by members of the European Galaxy Team (Mehmet Tekman and Björn Grüning) and the Friedrich Miescher Institute for Biomedical Research (Hans-Rudolf Hotz).
+preprint '<a href="https://www.biorxiv.org/content/10.1101/2020.06.06.137570v3" target="_blank">A single-cell RNA-seq Training and Analysis Suite using the Galaxy Framework</a>', and will be given by members of the European Galaxy Team (Mehmet Tekman and Björn Grüning) and the Friedrich Miescher Institute for Biomedical Research (Hans-Rudolf Hotz).
 
 Registrations are still accepted at the [BCC website](https://bcc2020.github.io/Registration/) (early registration ends on July 10th) and prices start at $3 per training.
 

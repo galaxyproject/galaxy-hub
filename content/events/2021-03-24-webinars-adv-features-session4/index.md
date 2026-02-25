@@ -50,7 +50,7 @@ Speed up your data analysis with Galaxy: Features no one knows about
 * Hans-Rudolf Hotz
 
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_oIXQYaCpTfqp9RgOu6gj3g){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_oIXQYaCpTfqp9RgOu6gj3g" target="_blank">Registration</a>
 
 
 

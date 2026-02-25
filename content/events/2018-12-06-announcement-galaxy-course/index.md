@@ -66,7 +66,6 @@ Day     | Topics
 Thursday| **Starts at 10:00 am**, Galaxy Introduction ([Slides](https://galaxyproject.github.io/training-material/topics/introduction/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)) and HTS Introduction ([QC](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html), [Mapping](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html))
 Evening Program | We meet at 18:30 at the [Tourist Information](https://goo.gl/maps/Yrzw7oaars) place in Freiburg next to the old Rathaus.
 Friday  | RNA-seq analysis ([Slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html))
-{:.table.table-striped}
 
 ## Lunch Options
 
@@ -111,14 +110,12 @@ Intercity Hotel Freiburg                      | Bismarckallee 3    | [Website](h
 Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7          | [Website](http://www.hotel-freiburg.de/)
 Ibis Freiburg Süd (bit more far away)         | Bötzinger Str.76   | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml)
 StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/)
-{:.table.table-striped}
 
 <!-- TODO: map -->
 
 > Note:
 > In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not
 > to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
-{:.alert.alert-warning}
 
 ## Organizers
 
