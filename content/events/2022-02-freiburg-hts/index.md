@@ -92,9 +92,5 @@ If you have any questions, please do not hesitate to [contact us](mailto:contact
 
 ## Organizers
 
-{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe" | split: "|"  %}
-{% include sponsors.html supporters=extra_organizers hidetitle=true %}
-
 ## Supported By
 
-{% include sponsors.html supporters=page.supporters hidetitle=true %}
