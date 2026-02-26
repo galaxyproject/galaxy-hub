@@ -72,7 +72,3 @@ If you have any questions, please do not hesitate to [contact me](mailto:dyusuf@
 
 ## Organizers
 
-{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe" | split: "|"  %}
-{% include sponsors.html supporters=extra_organizers hidetitle=true %}
-
-
