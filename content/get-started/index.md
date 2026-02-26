@@ -15,7 +15,7 @@ title: Get Started
 The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem.
 
 ## Step 2 : Get familiar with Galaxy
-<div class='right'><img src="/images/undraw-illustrations/teamwork.svg" alt="" width="240" /></div>
+<img class="float-right" src="/images/undraw-illustrations/teamwork.svg" alt="" width="240" />
 
 ### Public Servers
 
@@ -53,7 +53,7 @@ We have many more [**Galaxy Training materials**](https://training.galaxyproject
 
 ### Galaxy Help & Bug Reports
 
-<div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" /></div>
+<img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" />
 
 Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)?
 
@@ -69,7 +69,7 @@ Check what other members have done in our [**Publication library**](https://www.
 
 ## Step 3:  Your place within the Galaxy Community
 
-<div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/connected-people.svg" style="width:200px;height:100px;" alt="community events" /></div>
+<img class="img-fluid float-right" src="/images/undraw-illustrations/connected-people.svg" style="width:200px;height:100px;" alt="community events" />
 
 Still wonder what the Galaxy Community is about?
 You already know it, you are already part of it! But let’s dive in the complexity of the [**Galaxy Communities**](/community/)!
@@ -86,7 +86,7 @@ What if you can't find yourself in these lists of regional and/or community of p
 
 ## Step 4: Take part and contribute to Galaxy
 
-<div class='right'><img class="img-fluid float-right" src="/images/undraw-illustrations/collaborators.svg" style="width:200px;height:100px;" alt="community events" /></div>
+<img class="img-fluid float-right" src="/images/undraw-illustrations/collaborators.svg" style="width:200px;height:100px;" alt="community events" />
 
 Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in Matrix or the Help Forum to mention some ways.
 
