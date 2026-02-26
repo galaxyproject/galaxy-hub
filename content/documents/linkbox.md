@@ -1,6 +1,6 @@
 <div class='linkbox'>
   **[Documents](/documents/)**
-  <hr>
+  <hr />
   [Presenations](/documents/presentations/)<br />
   [Posters](/documents/posters/)<br />
   [Papers](/documents/papers/)<br />
