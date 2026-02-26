@@ -19,7 +19,7 @@ The [bwa_059](http://testtoolshed.g2.bx.psu.edu/view/greg/bwa_059) repository ha
                     <action type="shell_command">make clean</action>
                     <action type="shell_command">make</action>
                     <action type="move_file">
-                        <source />bwa</source>
+                        <source>bwa</source>
                         <destination>$INSTALL_DIR/bin</destination>
                     </action>
                     <action type="set_environment">

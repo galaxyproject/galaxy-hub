@@ -196,7 +196,10 @@ function convertKramdownAttributes(content) {
 /**
  * Self-close void HTML elements: <br> → <br />, <img src="x"> → <img src="x" />
  * MDX requires XHTML-style self-closing for void elements.
- * Covers all 13 HTML void elements.
+ * Note: `source` is omitted — it's technically a void HTML element (for media),
+ * but our content uses `<source>` extensively in XML documentation (Galaxy tool
+ * XML docs) where it's a container element. The two actual HTML media `<source>`
+ * elements in content already have self-closing syntax.
  */
 function fixVoidElements(content) {
   const voidElements = [
@@ -205,7 +208,6 @@ function fixVoidElements(content) {
     'img',
     'input',
     'embed',
-    'source',
     'track',
     'wbr',
     'area',
