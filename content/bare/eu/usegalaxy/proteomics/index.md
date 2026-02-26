@@ -32,7 +32,7 @@ Welcome to **Galaxy Proteomics**
 
 </div>
 <div class="right" style="width: calc(50% - 12px); max-width: 400px">
-  <twitter user="usegalaxyp" height="420"></twitter>
+  <Twitter user="usegalaxyp" height="420"></Twitter>
 </div>
 <div class="clearfix">
 </div>

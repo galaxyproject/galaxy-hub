@@ -31,5 +31,5 @@ especially Jan Leendertse, Dirk von Suchodoletz, Marc Herbstritt and the entire 
 
 For further information please visit the official [press release](https://www.pr.uni-freiburg.de/pm/2022/it-sicherheitsmanagement-der-universitaet-freiburg-durch-tuev-sued-zertifiziert).
 
-<twitter tweet="1488482463248797701"></twitter>
+<Twitter tweet="1488482463248797701"></Twitter>
 

@@ -716,37 +716,6 @@ function inlineInserts(content, depth = 0) {
 }
 
 /**
- * Convert kebab-case component names to PascalCase for MDX
- * MDX treats lowercase/kebab-case as HTML elements, PascalCase as components
- */
-function convertComponentsToPascalCase(content) {
-  // Map of kebab-case to PascalCase component names
-  const componentMap = {
-    'vega-embed': 'VegaEmbed',
-    twitter: 'Twitter',
-    mastodon: 'Mastodon',
-    'video-player': 'VideoPlayer',
-    carousel: 'Carousel',
-    'calendar-embed': 'CalendarEmbed',
-    'markdown-embed': 'MarkdownEmbed',
-    flickr: 'Flickr',
-    supporters: 'Supporters',
-    contacts: 'Contacts',
-  };
-
-  let processed = content;
-
-  for (const [kebab, pascal] of Object.entries(componentMap)) {
-    // Convert opening tags: <kebab-case ... > to <PascalCase ...>
-    processed = processed.replace(new RegExp(`<${kebab}(\\s|>|\\/)`, 'gi'), `<${pascal}$1`);
-    // Convert closing tags: </kebab-case> to </PascalCase>
-    processed = processed.replace(new RegExp(`</${kebab}>`, 'gi'), `</${pascal}>`);
-  }
-
-  return processed;
-}
-
-/**
  * Convert HTML patterns to JSX syntax for MDX compatibility.
  * Handles HTML comments → JSX comments and bare <> → &lt;&gt;.
  */
@@ -855,8 +824,6 @@ async function processMarkdownFile(filePath) {
   // to avoid remark escaping asterisks in JSX comments)
   if (hasComponents) {
     processedContent = convertHtmlToJsx(processedContent);
-    // Convert kebab-case component names to PascalCase for MDX
-    processedContent = convertComponentsToPascalCase(processedContent);
   }
 
   // Process frontmatter
@@ -1146,7 +1113,6 @@ export {
   needsVueProcessing,
   convertFontAwesomeToLucide,
   convertHtmlToJsx,
-  convertComponentsToPascalCase,
   addBootstrapMarker,
   processImagePaths,
   rewriteSrc,

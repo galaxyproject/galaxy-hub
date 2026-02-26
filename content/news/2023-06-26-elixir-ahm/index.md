@@ -21,11 +21,11 @@ contributions:
 
 During 5-8th of June, members of the European Galaxy team travelled to Dublin to join the ELIXIR All Hands meeting 2023. Some of us travelled by plane, but Björn and Wolfgang took the ferry: 
 
-<twitter tweet="1664969165667463174"></twitter>
+<Twitter tweet="1664969165667463174"></Twitter>
 
 In Dublin, we joined other colleagues from ELIXIR-DE
 
-<twitter tweet="1666766756738736131"></twitter>
+<Twitter tweet="1666766756738736131"></Twitter>
 
 All over the 4 days of the meeting, there was a **broad presence of Galaxy** across the different workshops, symposia, plenary sessions, and posters. We will highlight in this post some of this presence.
 
@@ -35,8 +35,8 @@ All over the 4 days of the meeting, there was a **broad presence of Galaxy** acr
 
 On the first day, Wolfgang gave the talk [*Galaxy - Galaxy workflows for taking viral genomic surveillance beyond SARS-CoV-2*](https://docs.google.com/presentation/d/1l7eGLXa3Rah4uBHZdf2wtUs3jMMk0eox9CK2lb48Ck4/), in the [*Biodiversity, Food Security and Pathogens*](https://docs.google.com/document/d/1GOGaZdlLUD7gbg5HFlYWOmv4Nfppk1L0y2b3w1s-w1U/) mini-symposium.
 
-<twitter tweet="1665755049442648065"></twitter>
-<twitter tweet="1665752049231749120"></twitter>
+<Twitter tweet="1665755049442648065"></Twitter>
+<Twitter tweet="1665752049231749120"></Twitter>
 
 ## Day 2 - June 6
 
@@ -51,13 +51,13 @@ Later, during the [*ELIXIR as a Network of Services*](https://docs.google.com/do
 On the morning of the 3rd day, Pavan talked about [*"Galaxy and single-cell omics developments"*](https://docs.google.com/presentation/d/1zs0Xkr9HRo1lKpiE8cpZr5B_34tYR1ms/edit#slide=id.g249df9c99ae_0_0) as part of the workshop [*Surveying single-cell needs across ELIXIR Communities*](https://docs.google.com/document/d/1WTcpp2S0n9IvFNZrUNLcuwgjETb6_2z4l6h0aOzbpj8/edit).
 
 
-<twitter tweet="1666396569262780420"></twitter>
+<Twitter tweet="1666396569262780420"></Twitter>
 
 ## June 8 - Day 4
 
 During the final plenary, Jeff Christiansen from Australian Biocommons highlighted the collaboration with Galaxy Europe:
 
-<twitter tweet="1666754109205037058"></twitter>
+<Twitter tweet="1666754109205037058"></Twitter>
 
 # Posters
 
@@ -72,13 +72,13 @@ We also participated in the poster sessions with 6 posters:
 | Bérénice | *Establishing the ELIXIR Microbiome community* | [Website](http://bebatut.fr/posters/23/06_elixir_ahm_microbiome/), [F1000](https://f1000research.com/posters/12-712) |
 | Bérénice | *Open Life Science: A mentoring & training program for Open Science ambassadors* | [Website](http://bebatut.fr/posters/23/06_elixir_ahm_ols/), [F1000](https://f1000research.com/posters/12-710) |
 
-<twitter tweet="1665752049231749120"></twitter>
+<Twitter tweet="1665752049231749120"></Twitter>
 
 The poster *"Establishing the ELIXIR Microbiome community"* won the **Best poster award**: 
 
-<twitter tweet="1666757288655241216"></twitter>
+<Twitter tweet="1666757288655241216"></Twitter>
 
-<twitter tweet="1666842546595610624"></twitter>
+<Twitter tweet="1666842546595610624"></Twitter>
 
 # Thank You !
 
@@ -88,4 +88,4 @@ The European Galaxy team would like to **thank** the **Galaxy community** for al
 
 We were very happy to attend this in-person meeting and we are already **looking forward to joining next year in Uppsala**!
 
-<twitter tweet="1667231201893949446"></twitter>
+<Twitter tweet="1667231201893949446"></Twitter>

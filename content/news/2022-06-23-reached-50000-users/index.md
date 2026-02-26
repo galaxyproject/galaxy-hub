@@ -57,7 +57,7 @@ Not only the amount of registered users have grown, the number of [tools install
 And we wanted to celebrate this important milestone with __all the people that have supported us__ in all sorts of ways: facility management, technical support from the [compute center](https://www.rz.uni-freiburg.de) to manage an increasing [hardware infrastructure](https://usegalaxy-eu.github.io/news?tag=hardware), our sponsors, the EU office at the University of Freiburg, the [Backofen lab](https://www.bioinf.uni-freiburg.de/~backofen/), the [Faculty of Medicine](https://www.med.uni-freiburg.de/), the member sites ([Erasmus MC](https://galaxyproject.org/erasmusmc/), [VIB](https://galaxyproject.org/belgium/), [Pasteur](https://galaxyproject.org/pasteur/), [Genouest](https://galaxyproject.org/genouest/), [ELIXIR-IT/Laniakea](https://galaxyproject.org/elixir-it/), [ELIXIR-FR/IFB](https://galaxyproject.org/ifb/)), our power users, the past and [current members](https://usegalaxy-eu.github.io/people) of the team and the rest of the Galaxy community!
 <br /><br />
 
-<twitter tweet="1539857403788787712"></twitter>
+<Twitter tweet="1539857403788787712"></Twitter>
 <br />
 
 __Big thanks__ to everybody that has contributed to the success of UseGalaxy.eu and to each of the 50K users for using Galaxy! Next stop: 100K!
