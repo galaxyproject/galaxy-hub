@@ -39,7 +39,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 
 <Change/adapt/edit this section>
 
-We meet every &lt;3 weeks (alternating USA and AU time zones) for 1 hour>.
+We meet every <3 weeks (alternating USA and AU time zones) for 1 hour>.
 
 Our meeting agenda is:
  - Random intro chatter & introductions

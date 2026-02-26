@@ -83,13 +83,13 @@ also check out [this map](https://goo.gl/maps/66jTSziGdDxQYmS29).**
 
 ### 4-star
 
-- [Royal on the Park](https://www.royalonthepark.com.au/) - &lt;1.0km from venue
-- [Capri by Fraser](https://www.frasershospitality.com/en/australia/brisbane/capri-by-fraser-brisbane/) - &lt;1.0km from venue
-- [Oaks](https://www.oakshotels.com/en/oaks-212-margaret) - &lt;1.0km from venue, apartment style suites
+- [Royal on the Park](https://www.royalonthepark.com.au/) - <1.0km from venue
+- [Capri by Fraser](https://www.frasershospitality.com/en/australia/brisbane/capri-by-fraser-brisbane/) - <1.0km from venue
+- [Oaks](https://www.oakshotels.com/en/oaks-212-margaret) - <1.0km from venue, apartment style suites
 
 ### 3-star
 
-- [River Plaza Apartments](https://www.riverplaza.com.au/) - &lt;1.0km from venue
+- [River Plaza Apartments](https://www.riverplaza.com.au/) - <1.0km from venue
 
 ### Hostels
 

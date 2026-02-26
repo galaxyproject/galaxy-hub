@@ -312,7 +312,7 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
     * [Account creation](http://bipaa.genouest.org/account/)
     * [Contact BIPAA](mailto:bipaa@inra.fr)
 * *Quotas:*
-    * Default quota is low (&lt;10Go), but can be increased on request.
+    * Default quota is low (<10Go), but can be increased on request.
 * *Sponsor(s):*
     * [INRA](http://www.inra.fr)
     * [GenOuest](http://www.genouest.org/)
