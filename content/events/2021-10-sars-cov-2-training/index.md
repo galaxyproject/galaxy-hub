@@ -37,30 +37,31 @@ It will be a 1-day event introducing scalable and reproducible SARS-CoV-2 data a
 <br /><br />
 
 <div class="row">
-<div class="col-md-7" markdown="1">
+<div class="col-md-7">
 <br /><br /><br /><br />
-
-- **WHEN**: December 1, 2021
-- **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
-- **COST**: Free.
-- **FORMAT**: Virtual and asynchronous. All training **sessions will be pre-recorded and provided in advance**.
-- **SUPPORT**:
-    - **Live support in chat** (Slack Channel), in which experts will answer questions on a peer-to-peer basis.
-    - **Real-Time Q&A sessions**.
-- **INFRASTRUCTURE**: <a href="https://usegalaxy.eu" target="_blank">European Galaxy server</a> and the <a href="https://training.galaxyproject.org" target="_blank">Galaxy Training Material</a>. Both will stay accessible and open after the training.
-- **CONTACT**: [**Get in touch**](mailto:contact@usegalaxy.eu) if you have questions.
-
+<ul>
+<li><strong>WHEN</strong>: December 1, 2021</li>
+<li><strong>WHO</strong>: Open for everybody, but the target audience is <strong>clinicians</strong> and <strong>researchers</strong> that deal with SARS-CoV-2 sequencing data.</li>
+<li><strong>COST</strong>: Free.</li>
+<li><strong>FORMAT</strong>: Virtual and asynchronous. All training <strong>sessions will be pre-recorded and provided in advance</strong>.</li>
+<li><strong>SUPPORT</strong>:
+    <ul>
+    <li><strong>Live support in chat</strong> (Slack Channel), in which experts will answer questions on a peer-to-peer basis.</li>
+    <li><strong>Real-Time Q&amp;A sessions</strong>.</li>
+    </ul>
+</li>
+<li><strong>INFRASTRUCTURE</strong>: <a href="https://usegalaxy.eu" target="_blank">European Galaxy server</a> and the <a href="https://training.galaxyproject.org" target="_blank">Galaxy Training Material</a>. Both will stay accessible and open after the training.</li>
+<li><strong>CONTACT</strong>: <a href="mailto:contact@usegalaxy.eu"><strong>Get in touch</strong></a> if you have questions.</li>
+</ul>
 </div>
-<div class="col-md-5" markdown="1">
-
-![sars-cov-2-workshop](./2021-12-01-sars-cov-2-data-analysis-training.png)
-
+<div class="col-md-5">
+<img src="./2021-12-01-sars-cov-2-data-analysis-training.png" alt="sars-cov-2-workshop" />
 </div>
 </div>
 
 <br />
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link" class="btn btn-primary" style="color: white; border: none; width: 100%; background-color: #5da996;">**Registration is now open**</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScRcalYlC85-zQCOB1Vqc2lXGpZX7XqPdq-C-n5AVVwDyp5iQ/viewform?usp=sf_link" class="btn btn-primary" style="color: white; border: none; width: 100%; background-color: #5da996;"><strong>Registration is now open</strong></a>
 
 <br />
 
@@ -179,8 +180,6 @@ Everyone is expected to abide by the [Code of Conduct (CoC)](/community/coc/) to
 
 # Instructors & helpers
 
-<div class="compact">
-
 | Name | Location |
 | ---- | -------- |
 | Wolfgang Maier | Germany |
@@ -203,5 +202,3 @@ Everyone is expected to abide by the [Code of Conduct (CoC)](/community/coc/) to
 | Igor Makunin | Australia |
 | Valentine Murigneux | Australia |
 | Michael Thang | Australia |
-
-</div>

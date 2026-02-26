@@ -38,26 +38,31 @@ During the workshop, there will be live support in chat and live Q&A sessions, i
 <br /><br />
 
 <div class="row">
-<div class="col-md-6" markdown="1">
-- **WHEN**: August 9-12, 2021
-- **WHO**: Open for everybody, but the target audience is **clinicians** and **researchers** that deal with SARS-CoV-2 sequencing data.
-- **COST**: Free.
-- **FORMAT**: Virtual and asynchronous. All training **sessions will be pre-recorded and provided in advance**.
-- **SUPPORT**:
-    - **Live support in chat** (Slack Channel), in which experts will answer questions on a peer-to-peer basis.
-    - **Real-Time Q&A sessions** on days 2, 3 and 4 (9 am and 4 pm CEST).
-- **INFRASTRUCTURE**: <a href="https://usegalaxy.eu" target="_blank">European Galaxy server</a> and the <a href="https://training.galaxyproject.org" target="_blank">Galaxy Training Material</a>. Both will stay accessible and open after the training.
-- [**Contact us**](mailto:contact@usegalaxy.eu) if you have questions.
+<div class="col-md-6">
+<ul>
+<li><strong>WHEN</strong>: August 9-12, 2021</li>
+<li><strong>WHO</strong>: Open for everybody, but the target audience is <strong>clinicians</strong> and <strong>researchers</strong> that deal with SARS-CoV-2 sequencing data.</li>
+<li><strong>COST</strong>: Free.</li>
+<li><strong>FORMAT</strong>: Virtual and asynchronous. All training <strong>sessions will be pre-recorded and provided in advance</strong>.</li>
+<li><strong>SUPPORT</strong>:
+    <ul>
+    <li><strong>Live support in chat</strong> (Slack Channel), in which experts will answer questions on a peer-to-peer basis.</li>
+    <li><strong>Real-Time Q&amp;A sessions</strong> on days 2, 3 and 4 (9 am and 4 pm CEST).</li>
+    </ul>
+</li>
+<li><strong>INFRASTRUCTURE</strong>: <a href="https://usegalaxy.eu" target="_blank">European Galaxy server</a> and the <a href="https://training.galaxyproject.org" target="_blank">Galaxy Training Material</a>. Both will stay accessible and open after the training.</li>
+<li><a href="mailto:contact@usegalaxy.eu"><strong>Contact us</strong></a> if you have questions.</li>
+</ul>
 </div>
-<div class="col-md-6" markdown="1">
-![sars-cov-2-workshop](/assets/media/2021-06-21-sars-cov-2-data-analysis-monitoring-training.png)
+<div class="col-md-6">
+<img src="/assets/media/2021-06-21-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-workshop" />
 </div>
 </div>
 
 <br />
 
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeADQn0PdzfFppwoOGFAqWQglnKRhj3FNcqpUKggwXsn2PKBg/viewform?usp=sf_link" class="btn btn-primary" style="color: white; width: 100%; background-color: #3a3566;">**Register now**</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeADQn0PdzfFppwoOGFAqWQglnKRhj3FNcqpUKggwXsn2PKBg/viewform?usp=sf_link" class="btn btn-primary" style="color: white; width: 100%; background-color: #3a3566;"><strong>Register now</strong></a>
 
 <br />
 
