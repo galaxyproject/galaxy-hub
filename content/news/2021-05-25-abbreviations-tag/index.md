@@ -18,23 +18,14 @@ contributions:
 
 <p>In your tutorial metadata you can add an abbreviations section like:</p>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s">My awesome tutorial</span>
-<span class="nn">...</span>
-<span class="na">abbreviations</span><span class="pi">:</span>
-  <span class="na">API</span><span class="pi">:</span> <span class="s">Application Programming Interface</span>
-  <span class="na">JSON</span><span class="pi">:</span> <span class="s">JavaScript Object Notation</span>
-<span class="nn">---</span>
-</code></pre></div></div>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>{"\n"}<span class="na">title</span><span class="pi">:</span> <span class="s">My awesome tutorial</span>{"\n"}<span class="nn">...</span>{"\n"}<span class="na">abbreviations</span><span class="pi">:</span>{"\n"}  <span class="na">API</span><span class="pi">:</span> <span class="s">Application Programming Interface</span>{"\n"}  <span class="na">JSON</span><span class="pi">:</span> <span class="s">JavaScript Object Notation</span>{"\n"}<span class="nn">---</span></code></pre></div></div>
 
 <p>And in your text you can use braces to refer to the term</p>
 
 <blockquote class="code-2col">
   <blockquote class="code-in">
     <h3 id="code-in-input-markdown"><Icon name="keyboard" /><span class="visually-hidden">code-in</span> Input: Markdown</h3>
-    <p><code>
-The `/jobs` &amp;lbraceAPI&amp;rbrace will return &amp;lbraceJSON&amp;rbrace. When we call the &amp;lbraceAPI&amp;rbrace we'll get back this result &amp;lbraceJSON&amp;rbrace.
-</code></p>
+    <p><code>The `/jobs` &amp;lbraceAPI&amp;rbrace will return &amp;lbraceJSON&amp;rbrace. When we call the &amp;lbraceAPI&amp;rbrace we'll get back this result &amp;lbraceJSON&amp;rbrace.</code></p>
   </blockquote>
 
   <blockquote class="code-out">

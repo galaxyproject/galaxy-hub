@@ -17,137 +17,113 @@ The Freiburg Galaxy Team participated in the [Galaxy Community Conference 2021](
 - CoFest
 - and [training](#training)
 
-*To learn more about the Galaxy Community Conference 2021, please read our post: ["Highlights from the Galaxy Community Conference 2021"]({% link _posts/2021-07-13-gcc2021.md %})*
+*To learn more about the Galaxy Community Conference 2021, please read our post: ["Highlights from the Galaxy Community Conference 2021"](/news/2021-07-gcc-summary/)*
 
 ## Talks
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/qzNjh9_CL0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**Galaxy as a global platform for the analysis of SARS-CoV-2 sequence variants**](https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants) 
-
-!<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Maier
-
-With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
-
-<a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf"><Icon name="external-link" /> Abstract</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants"><strong>Galaxy as a global platform for the analysis of SARS-CoV-2 sequence variants</strong></a></h3>
+<p>!<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Maier</p>
+<p>With Anton Nekrutenko; Sergei Pond; the <a href="http://covid19.galaxyproject.org/">covid19.galaxyproject.org</a>; <a href="http://covid19.datamonkey.org/">covid19.datamonkey.org</a> and Viral Beacon</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf"><Icon name="external-link" /> Abstract</a></p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/qi7bWcn2TN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**Overhaul and pagination in Data-Libraries**](https://gcc2021.sched.com/event/jm5h/overhaul-and-pagination-in-data-libraries)
-
-!<a href="https://github.com/OlegZharkov.png" class="profile-img"></a> Oleg Zharkov
-
-<a href="https://static.sched.com/hosted_files/gcc2021/c1/abstract93.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118606.1"><Icon name="presentation" /> Slides</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/jm5h/overhaul-and-pagination-in-data-libraries"><strong>Overhaul and pagination in Data-Libraries</strong></a></h3>
+<p>!<a href="https://github.com/OlegZharkov.png" class="profile-img"></a> Oleg Zharkov</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/c1/abstract93.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118606.1"><Icon name="presentation" /> Slides</a></p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/eqfNfGMSqx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**How UseGalaxy.EU is managed - tips and tricks from inside**](https://gcc2021.sched.com/event/jm5n/how-usegalaxyeu-is-managed-tips-and-tricks-from-inside)
-
-!<a href="https://github.com/gmauro.png" class="profile-img"></a> Gianmauro Cuccuru
-
-With Helena Rasche
-
-<a href="https://static.sched.com/hosted_files/gcc2021/bb/abstract21.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118605.1"><Icon name="presentation" /> Slides</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/jm5n/how-usegalaxyeu-is-managed-tips-and-tricks-from-inside"><strong>How UseGalaxy.EU is managed - tips and tricks from inside</strong></a></h3>
+<p>!<a href="https://github.com/gmauro.png" class="profile-img"></a> Gianmauro Cuccuru</p>
+<p>With Helena Rasche</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/bb/abstract21.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118605.1"><Icon name="presentation" /> Slides</a></p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/akgxMCEeXco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**Analysis of Microscopy Data in Galaxy**](https://gcc2021.sched.com/event/ihp0/analysis-of-microscopy-data-in-galaxy)
-
-!<a href="https://github.com/beatrizserrano.png" class="profile-img"></a> Beatriz Serrano-Solano
-
-With Yi Sun; Jeremy Goecks; Jean-Karim Hériché
-
-<a href="https://static.sched.com/hosted_files/gcc2021/1a/abstract78.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://f1000research.com/slides/10-579"><Icon name="presentation" /> Slides</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/ihp0/analysis-of-microscopy-data-in-galaxy"><strong>Analysis of Microscopy Data in Galaxy</strong></a></h3>
+<p>!<a href="https://github.com/beatrizserrano.png" class="profile-img"></a> Beatriz Serrano-Solano</p>
+<p>With Yi Sun; Jeremy Goecks; Jean-Karim Hériché</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/1a/abstract78.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://f1000research.com/slides/10-579"><Icon name="presentation" /> Slides</a></p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/4lOGjNCXxyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**Modernizing the Galaxy Backend - Typing and the API**](https://gcc2021.sched.com/event/jm88/modernizing-the-galaxy-backend-typing-and-the-api)
-
-!<a href="https://github.com/davelopez.png" class="profile-img"></a> David López
-
-With Galaxy Backend Working Group
-
-<a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract54.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118607.1"><Icon name="presentation" /> Slides</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/jm88/modernizing-the-galaxy-backend-typing-and-the-api"><strong>Modernizing the Galaxy Backend - Typing and the API</strong></a></h3>
+<p>!<a href="https://github.com/davelopez.png" class="profile-img"></a> David López</p>
+<p>With Galaxy Backend Working Group</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract54.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118607.1"><Icon name="presentation" /> Slides</a></p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/puwJxDSNv54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**Galaxy Language Server - Develop high-quality Galaxy tool wrappers at intergalactic speed**](https://gcc2021.sched.com/event/jm8K/galaxy-language-server-develop-high-quality-galaxy-tool-wrappers-at-intergalactic-speed)
-
-!<a href="https://github.com/davelopez.png" class="profile-img"></a> David López
-
-<a href="https://static.sched.com/hosted_files/gcc2021/91/abstract53.pdf"><Icon name="external-link" /> Abstract</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/jm8K/galaxy-language-server-develop-high-quality-galaxy-tool-wrappers-at-intergalactic-speed"><strong>Galaxy Language Server - Develop high-quality Galaxy tool wrappers at intergalactic speed</strong></a></h3>
+<p>!<a href="https://github.com/davelopez.png" class="profile-img"></a> David López</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/91/abstract53.pdf"><Icon name="external-link" /> Abstract</a></p>
 </div>
 </div>
 
 ## Posters / Demos
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/x9f_Trif0dkfGMSqx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**GPU enabled Jupyterlab notebook for deep learning using Tensorflow in Galaxy**](https://gcc2021.sched.com/event/k5MW/w-48-gpu-enabled-jupyterlab-notebook-for-deep-learning-using-tensorflow-in-galaxy)
-
-!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
-
-<a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract49.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://static.sched.com/hosted_files/gcc2021/3b/Demo_GPU_Jupyter_Notebook.pdf"><Icon name="presentation" /> Slides</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/k5MW/w-48-gpu-enabled-jupyterlab-notebook-for-deep-learning-using-tensorflow-in-galaxy"><strong>GPU enabled Jupyterlab notebook for deep learning using Tensorflow in Galaxy</strong></a></h3>
+<p>!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract49.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://static.sched.com/hosted_files/gcc2021/3b/Demo_GPU_Jupyter_Notebook.pdf"><Icon name="presentation" /> Slides</a></p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 </div>
-<div class="col-md-6" markdown="1">
-### [**Automating Galaxy tool requirement updates with Planemo**](https://gcc2021.sched.com/event/kIRA/tu-22-automating-galaxy-tool-requirement-updates-with-planemo)
-
-!<a href="https://github.com/simonbray.png" class="profile-img"></a> Simon Bray
-
-With Lorraine Coelho; !<a href="https://github.com/bgruening.png" class="profile-img"></a> Björn Grüning
-
-<a href="https://static.sched.com/hosted_files/gcc2021/31/abstract8.pdf"><Icon name="external-link" /> Abstract</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/kIRA/tu-22-automating-galaxy-tool-requirement-updates-with-planemo"><strong>Automating Galaxy tool requirement updates with Planemo</strong></a></h3>
+<p>!<a href="https://github.com/simonbray.png" class="profile-img"></a> Simon Bray</p>
+<p>With Lorraine Coelho; !<a href="https://github.com/bgruening.png" class="profile-img"></a> Björn Grüning</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/31/abstract8.pdf"><Icon name="external-link" /> Abstract</a></p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/qzNjh9_CL0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### [**Galaxy as a global platform for the analysis of SARS-CoV-2 sequence variants**](https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants) 
-
-!<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Maier
-
-With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
-
-<a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf"><Icon name="external-link" /> Abstract</a>
+<div class="col-md-6">
+<h3><a href="https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants"><strong>Galaxy as a global platform for the analysis of SARS-CoV-2 sequence variants</strong></a></h3>
+<p>!<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Maier</p>
+<p>With Anton Nekrutenko; Sergei Pond; the <a href="http://covid19.galaxyproject.org/">covid19.galaxyproject.org</a>; <a href="http://covid19.datamonkey.org/">covid19.datamonkey.org</a> and Viral Beacon</p>
+<p><a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf"><Icon name="external-link" /> Abstract</a></p>
 </div>
 </div>
 
@@ -195,163 +171,147 @@ The Freiburg Galaxy team participated in several projects
 The Freiburg Galaxy team supported the [GCC2021 Training Week](https://galaxyproject.org/events/gcc2021/training/) by providing videos (below), developping and updating material, helping participants by answering their questions on Slack, helping with captions for videos, etc!
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/o39QjVnLG68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Running Workflows from the Command Line using Planemo** 
-
-!<a href="https://github.com/simonbray.png" class="profile-img"></a> Simon Bray
-
-With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Maier
-
-**Material** 
-- <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-
-
+<div class="col-md-6">
+<h3><strong>Running Workflows from the Command Line using Planemo</strong></h3>
+<p>!<a href="https://github.com/simonbray.png" class="profile-img"></a> Simon Bray</p>
+<p>With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Maier</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+</ul>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/jNFLYhjgJPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Assembly: Unicycler assembly of SARS-CoV-2 genome** 
-
-!<a href="https://github.com/gallardoalba.png" class="profile-img"></a> Cristóbal Gallardo
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/slides.html" target="_blank"><Icon name="presentation" /></a> Slides
-- <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-
+<div class="col-md-6">
+<h3><strong>Assembly: Unicycler assembly of SARS-CoV-2 genome</strong></h3>
+<p>!<a href="https://github.com/gallardoalba.png" class="profile-img"></a> Cristóbal Gallardo</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/slides.html" target="_blank"><Icon name="presentation" /></a> Slides</li>
+<li><a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+</ul>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/j4onRSN650A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Reference-based RNA-Seq data analysis** 
-
-!<a href="https://github.com/bebatut.png" class="profile-img"></a> Bérénice Batut
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-
+<div class="col-md-6">
+<h3><strong>Reference-based RNA-Seq data analysis</strong></h3>
+<p>!<a href="https://github.com/bebatut.png" class="profile-img"></a> Bérénice Batut</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+</ul>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/wS1X_0Mgw7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Whole transcriptome analysis of Arabidopsis thaliana** 
-
-!<a href="https://github.com/gallardoalba.png" class="profile-img"></a> Cristóbal Gallardo
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html" target="_blank"><Icon name="presentation" /></a> Slides
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-
+<div class="col-md-6">
+<h3><strong>Whole transcriptome analysis of Arabidopsis thaliana</strong></h3>
+<p>!<a href="https://github.com/gallardoalba.png" class="profile-img"></a> Cristóbal Gallardo</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html" target="_blank"><Icon name="presentation" /></a> Slides</li>
+<li><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+</ul>
 </div>
 </div>
-
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/yKlJ5ESri7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Analysis of plant scRNA-Seq Data with Scanpy** 
-
-!<a href="https://github.com/mtekman.png" class="profile-img"></a> Mehmet Tekman
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-
+<div class="col-md-6">
+<h3><strong>Analysis of plant scRNA-Seq Data with Scanpy</strong></h3>
+<p>!<a href="https://github.com/mtekman.png" class="profile-img"></a> Mehmet Tekman</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+</ul>
 </div>
 </div>
-
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/ix58oj8n8nA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Introduction to Machine Learning** 
-
-!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
-
-**Material**
-- <a href="https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing" target="_blank"><Icon name="presentation" /></a> Slides
-
+<div class="col-md-6">
+<h3><strong>Introduction to Machine Learning</strong></h3>
+<p>!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing" target="_blank"><Icon name="presentation" /></a> Slides</li>
+</ul>
 </div>
 </div>
-
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/Gz2OdRPS2Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Classification in Machine Learning** 
-
-!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-- <a href="https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing" target="_blank"><Icon name="presentation" /></a> Slides
-
+<div class="col-md-6">
+<h3><strong>Classification in Machine Learning</strong></h3>
+<p>!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+<li><a href="https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing" target="_blank"><Icon name="presentation" /></a> Slides</li>
+</ul>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/qxaWQjtEOzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Regression in Machine Learning** 
-
-!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-- <a href="https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit" target="_blank"><Icon name="presentation" /></a> Slides
-
+<div class="col-md-6">
+<h3><strong>Regression in Machine Learning</strong></h3>
+<p>!<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+<li><a href="https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit" target="_blank"><Icon name="presentation" /></a> Slides</li>
+</ul>
 </div>
 </div>
-
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/LjW3nES04bI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **High Throughput Molecular Dynamics and Analysis** 
-
-!<a href="https://github.com/simonbray.png" class="profile-img"></a> Simon Bray
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-
+<div class="col-md-6">
+<h3><strong>High Throughput Molecular Dynamics and Analysis</strong></h3>
+<p>!<a href="https://github.com/simonbray.png" class="profile-img"></a> Simon Bray</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+</ul>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-6" markdown="1">
+<div class="col-md-6">
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/Vw9h5kvRH2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="col-md-6" markdown="1">
-### **Creating a new Tutorial** 
-
-!<a href="https://github.com/bebatut.png" class="profile-img"></a> Bérénice Batut
-
-**Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
-
+<div class="col-md-6">
+<h3><strong>Creating a new Tutorial</strong></h3>
+<p>!<a href="https://github.com/bebatut.png" class="profile-img"></a> Bérénice Batut</p>
+<p><strong>Material</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial</li>
+</ul>
 </div>
 </div>
 
