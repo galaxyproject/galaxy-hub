@@ -137,7 +137,7 @@ The workflow described above produced a list of variants observed in each sample
 
 First we looked for general patterns of substitutions within P/C and P/V overlaps by simply plotting aggregate data for each substitutions (e.g., the number of samples a substitution occurs at, median, min, and max alternative allele frequencies and its effect, synonymous or non-synonymous, on each reading frame). This is presented in Fig. 5. One can see that in both cases the P reading frame appears to be more permissive—most substitutions are non-synonymous (“red”)  in P and synonymous (“green”) in C or V. 
 
-<vega-embed spec="https://gist.githubusercontent.com/nekrut/604d0886724301acaa0c96c0df00f7a3/raw/7e5227634895bbaea6dd781a024a7b2bb518aaae/vars.json" />
+<VegaEmbed spec="https://gist.githubusercontent.com/nekrut/604d0886724301acaa0c96c0df00f7a3/raw/7e5227634895bbaea6dd781a024a7b2bb518aaae/vars.json" />
 
 <!-- ![](fig6.png) -->
 
@@ -214,7 +214,7 @@ Our final analysis aimed to identify potentially adaptive substitutions, particu
 
 <!-- ![](fig7.png) -->
 
-<vega-embed spec="https://gist.githubusercontent.com/nekrut/fc1fd9503ead5f36d3e2a903bab794c7/raw/4f282c46386d7f37691eb948429211254b882acf/dist.json" />
+<VegaEmbed spec="https://gist.githubusercontent.com/nekrut/fc1fd9503ead5f36d3e2a903bab794c7/raw/4f282c46386d7f37691eb948429211254b882acf/dist.json" />
 
 > **Figure 7.** Substitutions within P/V/C locus in each sample. Samples (X-axis) are sorted by collection time from 01/22/2018 (left) to 05/07/2024 (right). The rightmost blue sample had no collection date associated with it. Genomic coordinates of variants are on the Y-axis. Blue = Canada; Red = USA; Orange = Romania. Size of this circle is proportional for alternative allele frequency at that site.  
 

@@ -90,7 +90,7 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
 
 ### Galaxy Core Commits by Month
 
-<vega-embed spec="https://gist.githubusercontent.com/nekrut/ee85b69a80af1a23ba9248b2014343e2/raw/76a2f0c4aa78cad5eef0a65533b6e4bc3b7c3efc/commits-by-month.json" />
+<VegaEmbed spec="https://gist.githubusercontent.com/nekrut/ee85b69a80af1a23ba9248b2014343e2/raw/76a2f0c4aa78cad5eef0a65533b6e4bc3b7c3efc/commits-by-month.json" />
 
 ## Infrastructure & Developer Tools
 

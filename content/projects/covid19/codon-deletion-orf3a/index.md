@@ -14,6 +14,6 @@ Shows distribution of mean alternative allele frequencies in weekly intervals. T
 Mouse over to see additional information. Click on the country code label to restrict graph to that country.
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-<vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/codon-deletion-orf3a.json"/>
+<VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/codon-deletion-orf3a.json"/>
 </div>
 

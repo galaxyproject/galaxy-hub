@@ -4,7 +4,6 @@ import {
   needsVueProcessing,
   convertFontAwesomeToLucide,
   convertHtmlToJsx,
-  convertComponentsToPascalCase,
   addBootstrapMarker,
   normalizeSlugSegment,
   normalizeSlug,
@@ -178,30 +177,6 @@ describe('convertHtmlToJsx', () => {
 
   it('escapes empty angle brackets', () => {
     expect(convertHtmlToJsx('use <> for generics')).toBe('use &lt;&gt; for generics');
-  });
-});
-
-describe('convertComponentsToPascalCase', () => {
-  it('converts vega-embed to VegaEmbed', () => {
-    expect(convertComponentsToPascalCase('<vega-embed spec="x" />')).toBe('<VegaEmbed spec="x" />');
-  });
-
-  it('converts video-player to VideoPlayer', () => {
-    expect(convertComponentsToPascalCase('<video-player src="x"></video-player>')).toBe(
-      '<VideoPlayer src="x"></VideoPlayer>'
-    );
-  });
-
-  it('converts calendar-embed to CalendarEmbed', () => {
-    expect(convertComponentsToPascalCase('<calendar-embed id="x" />')).toBe('<CalendarEmbed id="x" />');
-  });
-
-  it('converts twitter (lowercase) to Twitter', () => {
-    expect(convertComponentsToPascalCase('<twitter id="123" />')).toBe('<Twitter id="123" />');
-  });
-
-  it('leaves unknown components unchanged', () => {
-    expect(convertComponentsToPascalCase('<custom-component />')).toBe('<custom-component />');
   });
 });
 

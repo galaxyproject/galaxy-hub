@@ -32,9 +32,9 @@ The ELIXIR Research Data Management Kit ([RDMkit](https://rdmkit.elixir-europe.o
 
 The Galaxy Training Network had a project to work further on the GTN infrastructure and trainings. For example, the GTN got a cool [new API](https://training.galaxyproject.org/training-material/news/2021/11/10/api.html), the [Video Library](https://training.galaxyproject.org/training-material/news/2021/11/23/video-library.html) and the [GTN course builder](https://www.youtube.com/watch?v=a3FJiaCA8Kc) was developed.
 
-<twitter tweet="1457730321940721671"></twitter>
+<Twitter tweet="1457730321940721671"></Twitter>
 
-<twitter tweet="1458844030616358918"></twitter>
+<Twitter tweet="1458844030616358918"></Twitter>
 
 
 ### [Implementation, testing and training on reference genome assembly pipelines for the eukaryotic tree of life](https://github.com/elixir-europe/bioHackathon-projects-2021/tree/master/projects/33)
@@ -43,7 +43,7 @@ The [VGP](https://vertebrategenomesproject.org) an [ERGA](https://www.erga-biodi
 workflows, the Galaxy assembly and genome annotation tools and to start the [first documentation and training material](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html).
 Please also check out [assembly.usegalaxy.eu](https://assembly.usegalaxy.eu) if you are interested in genome assembly.
 
-<twitter tweet="1459142503848890373"></twitter>
+<Twitter tweet="1459142503848890373"></Twitter>
 
 ### [Galaxy training resources for CNVs detection software](https://github.com/elixir-europe/bioHackathon-projects-2021/tree/master/projects/34)
 
@@ -55,9 +55,9 @@ discussed extensively how to move forward and integate Beacon into the data flow
 This effort is a continuation of the work from the BioHackathon in 2018, 2019, 2020 and 2021. It is adding support for a large subset of CWL [v1.0.2](https://www.commonwl.org/v1.0/), [v1.1](https://www.commonwl.org/v1.1/) and [v1.2](https://www.commonwl.org/v1.2/). The results can be found in a [WIP-PR](https://github.com/galaxyproject/galaxy/pull/12909).
 
 
-<twitter tweet="1459121222277554178"></twitter>
+<Twitter tweet="1459121222277554178"></Twitter>
 
-<twitter tweet="1459095073015144476"></twitter>
+<Twitter tweet="1459095073015144476"></Twitter>
 
 
 
