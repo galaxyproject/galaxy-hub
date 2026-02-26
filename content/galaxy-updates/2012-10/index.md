@@ -1,7 +1,7 @@
 ---
 title: October 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the October 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -154,10 +154,10 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
-    <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
+    <th rowspan="2" style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em> </td>
-    <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/people/jennifer-jackson/'>Jennifer Jackson</a>, <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
+    <td rowspan="2" style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
+    <td rowspan="2" style=" text-align:center;"> <a href='/people/jennifer-jackson/'>Jennifer Jackson</a>, <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a></em> </td>
@@ -175,7 +175,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> Guy Perrière </td>
   </tr>
   <tr class="th" >
-    <th colspan=4> </th>
+    <th colspan="4"> </th>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>

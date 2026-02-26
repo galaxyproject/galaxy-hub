@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2012" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2012" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height="100" /></a>
 
 # Galaxy at ISMB and BOSC 2012
 
@@ -17,30 +17,30 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   </tr>
   <tr>
     <th> Wednesday July&nbsp;11 </th>
-    <td rowspan=2> <strong><a href='http://www.open-bio.org/wiki/Codefest_2012'>OpenBio Codefest 2012</a></strong> </td>
-    <td rowspan=2> All Day </td>
-    <td rowspan=2> <a href='/people/enis-afgan/'>Enis Afgan</a> and <a href='/people/dannon-baker/'>Dannon Baker</a> of the the Galaxy Team will participate. </td>
-    <td rowspan=2> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_Codefest_Report.pdf'>Report</a> </td>
+    <td rowspan="2"> <strong><a href='http://www.open-bio.org/wiki/Codefest_2012'>OpenBio Codefest 2012</a></strong> </td>
+    <td rowspan="2"> All Day </td>
+    <td rowspan="2"> <a href='/people/enis-afgan/'>Enis Afgan</a> and <a href='/people/dannon-baker/'>Dannon Baker</a> of the the Galaxy Team will participate. </td>
+    <td rowspan="2"> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_Codefest_Report.pdf'>Report</a> </td>
   </tr>
   <tr>
     <th> Thursday July&nbsp;12 </th>
   </tr>
   <tr>
-    <th colspan=5> </th>
+    <th colspan="5"> </th>
   </tr>
   <tr>
-    <th rowspan=1> Friday July&nbsp;13 </th>
-    <td rowspan=6> <strong><a href='http://www.open-bio.org/wiki/BOSC_2012'>BOSC</a></strong> </td>
+    <th rowspan="1"> Friday July&nbsp;13 </th>
+    <td rowspan="6"> <strong><a href='http://www.open-bio.org/wiki/BOSC_2012'>BOSC</a></strong> </td>
     <td> 11:35-12:00 </td>
     <td> <em><a href='http://mgtaxa.jcvi.org/'>MGTAXA</a> - a toolkit and a Web server for predicting taxonomy of the metagenomic sequences with Galaxy front-end and parallel computational back-end</em>, Andrey Tovchigrechko, JCVI </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_BOSC_MGTAXA.pdf'>slides</a> </td>
   </tr>
   <tr>
-    <th colspan=1> </th>
-    <th colspan=3> </th>
+    <th colspan="1"> </th>
+    <th colspan="3"> </th>
   </tr>
   <tr>
-    <th rowspan=4> Saturday July&nbsp;14 </th>
+    <th rowspan="4"> Saturday July&nbsp;14 </th>
     <td> 10:45-11:00 </td>
     <td> <em>GenomeSpace: An open source environment for frictionless bioinformatics</em>,  Michael Reich, Broad Institute </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_BOSC_GenomeSpace.pptx'>slides</a> </td>
@@ -61,11 +61,11 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_BOSC_Trackster.pdf'>slides</a> </td>
   </tr>
   <tr>
-    <th colspan=5> </th>
+    <th colspan="5"> </th>
   </tr>
   <tr>
-    <th rowspan=3> Sunday July&nbsp;15 </th>
-    <td rowspan=19> <strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a></strong> </td>
+    <th rowspan="3"> Sunday July&nbsp;15 </th>
+    <td rowspan="19"> <strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a></strong> </td>
     <td> 12:15-12:40 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT06 - The Taverna Server: Executing Scientific Workflows Remotely</a></em>, Katy Wolstencroft, University of Manchester </td>
     <td> </td>
@@ -73,19 +73,19 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   <tr>
     <td> 2:30-2:55 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT08: Interactive Visual Analysis of NGS Data using Trackster and Galaxy</a></em>, <a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, Emory University </td>
-    <td rowspan=1> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_ISMB_Goecks.pdf'>Slides</a> </td>
+    <td rowspan="1"> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_ISMB_Goecks.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <td rowspan=1> 3:00-3:25 </td>
+    <td rowspan="1"> 3:00-3:25 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT10: The first biomedical AppStore: Galaxy Tool Shed</a></em>, <a href='/people/greg-vonkuster/'>Greg von Kuster</a>, Penn State University </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_ISMB_ToolShed.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <th colspan=1> </th>
-    <th colspan=3> </th>
+    <th colspan="1"> </th>
+    <th colspan="3"> </th>
   </tr>
   <tr>
-    <th rowspan=9> Monday July&nbsp;16 </th>
+    <th rowspan="9"> Monday July&nbsp;16 </th>
     <td> 10:45-11:10 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT15 - GenomeSpace: An environment for frictionless bioinformatics</a></em>, Michael Reich, Broad Institute </td>
     <td> </td>
@@ -96,7 +96,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_ISMB_RunningABioinformaticsHelpDesk.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <td rowspan=7> 12:40-2:30 </td>
+    <td rowspan="7"> 12:40-2:30 </td>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismb2012/posterlist.php?cat=A#A33'>Poster A33: A large-scale microbial whole genome sequencing pipeline for outbreak investigation</a></em>, Natalie Knox, Public Health Agency of Canada </td>
     <td> </td>
   </tr>
@@ -125,12 +125,12 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <td> </td>
   </tr>
   <tr>
-    <th colspan=1> </th>
-    <th colspan=3> </th>
+    <th colspan="1"> </th>
+    <th colspan="3"> </th>
   </tr>
   <tr>
-    <th rowspan=6> Tuesday July&nbsp;17 </th>
-    <td rowspan=5> 12:40-2:30 </td>
+    <th rowspan="6"> Tuesday July&nbsp;17 </th>
+    <td rowspan="5"> 12:40-2:30 </td>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismb2012/posterlist.php?cat=A#A50'>Poster A50: Enabling the reuse of methods while unraveling the epigenetic factors of Huntington's Disease</a></em>, Marco Roos, Netherlands Bioinformatics Centre </td>
     <td> </td>
   </tr>

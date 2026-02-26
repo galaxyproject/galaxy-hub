@@ -5,7 +5,7 @@ subsites: [global, us]
 tags: [newsletter]
 ---
 <div class='left'>
-<a href='/galaxy-updates/2014-05/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<a href='/galaxy-updates/2014-05/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 <div class='right'>
 <a href='/galaxy-updates/2014-05/#galaxy-biostar'><img src="/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="200" /></a><br /><br />
 <a href='/galaxy-updates/2014-05/#early-registration-closes-may-23'><img src="/images/logos/GCC2014LogoWide200.png" alt="GCC2014: June 30 - July 2" width="200" /></a><br /><br />

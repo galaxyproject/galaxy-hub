@@ -54,110 +54,110 @@ See you in Freiburg!
 <tr>
   <td><span class="text-nowrap">July 1st 2019</span></td>
   <td><a href="/events/gcc2019/"><strong>2019 Galaxy Community Conference (GCC2019)</strong></a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Organizers</td>
+  <td><img style="float:right;" src="/images/icons/EU.png" /><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>Organizers</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 2nd 2019</span></td>
   <td><a href="/events/2019-07-jobim">Galaxy @ JOBIM 2019</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"><a href="https://jobim2019.sciencesconf.org/">Nantes, France</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png" /><a href="https://jobim2019.sciencesconf.org/">Nantes, France</a></td>
   <td>Presenters</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 3rd 2019</span></td>
   <td><a href="http://bioinformatics.org.au/winterschool/program/">An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="http://bioinformatics.org.au/winterschool/">2019 Winter School in Mathematical &amp; Computational Biology, Brisbane, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Igor Makunin</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="http://bioinformatics.org.au/winterschool/">2019 Winter School in Mathematical &amp; Computational Biology, Brisbane, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>Igor Makunin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 10th 2019</span></td>
   <td><a href="https://www.biogenouest.org/actualites/article/10-1107-%C2%AB-analyse-fonctionnelle-et-interpretation-de-donnees-de-proteomique-avec-">Analyse fonctionnelle et interprétation de données de protéomique avec la plate-forme ProteoRE</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png">Campus de Beaulieu, Rennes, France</td>
+  <td><img style="float:right;" src="/images/icons/EU.png" />Campus de Beaulieu, Rennes, France</td>
   <td>proteome@univ-rennes1.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 29th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 30th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 31st 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">August 1st 2019</span></td>
   <td><a href="/events/2019-asmcue">"Teaching undergraduate genomics with Galaxy” and “Resources and recommendations for teaching undergraduate genomics with Galaxy"</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"><a href="https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home">ASMCUE 2019, Tyson, Virginia, United States</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Mohammad Heydarian, Anton Nekrutenko</td>
+  <td><img style="float:right;" src="/images/icons/NA.png" /><a href="https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home">ASMCUE 2019, Tyson, Virginia, United States</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>Mohammad Heydarian, Anton Nekrutenko</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">August 1st 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">August 2nd 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 8th 2019</span></td>
   <td><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/">NGS data analysis with Galaxy for clinical applications</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/">GMDS-Jahrestagung, Dortmund, Germany</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Markus Wolfien</td>
+  <td><img style="float:right;" src="/images/icons/EU.png" /><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/">GMDS-Jahrestagung, Dortmund, Germany</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>Markus Wolfien</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 9th 2019</span></td>
   <td><a href="https://sciencegateways.org/engage/focus-week">Gateways Focus Week</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png">Chicago, Illinois, United States</td>
+  <td><img style="float:right;" src="/images/icons/NA.png" />Chicago, Illinois, United States</td>
   <td>help @ sciencegateways.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 23rd 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 23rd 2019</span></td>
   <td><a href="https://sciencegateways.org/web/gateways2019/welcome">Gateways 2019</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png">San Diego, California, United States</td>
+  <td><img style="float:right;" src="/images/icons/NA.png" />San Diego, California, United States</td>
   <td>James Taylor</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 24th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 25th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 26th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 27th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+  <td><img style="float:right;" src="/images/icons/AU.png" /><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member" /></a>training@qfab.org</td>
 </tr>
 </tbody>
 </table>

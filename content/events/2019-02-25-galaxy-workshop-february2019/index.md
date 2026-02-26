@@ -30,7 +30,7 @@ You can sign in into our [waiting list](https://goo.gl/forms/gDJuKXf3kl7GAndD3).
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 
 # Important notes

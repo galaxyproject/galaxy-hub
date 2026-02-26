@@ -5,7 +5,7 @@ subsites: [global, us]
 tags: [newsletter]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-11/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-11/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a>
 </div>
 
 A lot is happening in in the Galaxy in November, and a lot of good stuff happened in October too.  Take a look at the [November 2014 Galaxy Newsletter](/galaxy-updates/2014-11/) for the complete story, but here are some highlights:

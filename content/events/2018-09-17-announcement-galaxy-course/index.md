@@ -31,7 +31,7 @@ The Freiburg Galaxy Team and Deep-Sequencing unit at the MPI-IE Freiburg offer a
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 
 # Important notes

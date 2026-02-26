@@ -36,4 +36,4 @@ gProfiler is developed and maintained in Estonia, at the [University of Tartu](h
 
 ## Credit
 
-<embed src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6602461/pdf/gkz369.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6602461/pdf/gkz369.pdf" width="100%" height="700" type='application/pdf' />

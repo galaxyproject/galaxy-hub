@@ -4,7 +4,7 @@ date: "2016-10-03"
 subsites: [global, us]
 ---
 <div class='right'>
-<div class='right'><a href='/galaxy-updates/2016-10/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
+<div class='right'><a href='/galaxy-updates/2016-10/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="120" /></a></div><br />
 <a href='/galaxy-updates/2016-10/#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="105" /></a>
 <a href='/galaxy-updates/2016-10/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
 <div class='right'><a href='/galaxy-updates/2016-10/#swiss-german-galaxy-days'><img src="/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="210" /></a></div>

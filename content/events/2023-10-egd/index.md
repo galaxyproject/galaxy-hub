@@ -69,15 +69,15 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
       <th style="border: 3px solid white;"></th>
-      <th colspan=2 style="border: 3px solid white;">October 4</th>
-      <th colspan=2 style="border: 3px solid white;">October 5</th>
-      <th colspan=2 style="border: 3px solid white;">October 6</th>
+      <th colspan="2" style="border: 3px solid white;">October 4</th>
+      <th colspan="2" style="border: 3px solid white;">October 5</th>
+      <th colspan="2" style="border: 3px solid white;">October 6</th>
     </tr>
     <tr class="text-center" style="background-color: #EEEEEE; border: 3px solid white">
       <th style="border: 3px solid white;">Time</th>
-      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Wed</th>
-      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Thu</th>
-      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
+      <th colspan="2" style="max-width: 18%; border: 3px solid white;">Wed</th>
+      <th colspan="2" style="max-width: 18%; border: 3px solid white;">Thu</th>
+      <th colspan="2" style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
       <th style="border: 3px solid white; vertical-align: middle;">9:00<br /> - <br />13:00</th>

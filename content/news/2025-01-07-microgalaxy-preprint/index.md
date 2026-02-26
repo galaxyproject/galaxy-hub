@@ -47,5 +47,5 @@ Stay tuned for more updates as we work towards publishing this exciting research
 
 Let us know what you think by tagging us on Bluesky ([@galaxyproject.bsky.social](https://bsky.app/profile/galaxyproject.bsky.social)), Mastodon ([@galaxyproject@mstdn.science](https://mstdn.science/@galaxyproject)), [LinkedIn](https://www.linkedin.com/company/galaxy-project/) or by joining the conversation on [our microGalaxy Matrix channel](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im).
 
-<embed src="https://www.biorxiv.org/content/10.1101/2024.12.23.629682v1.full.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://www.biorxiv.org/content/10.1101/2024.12.23.629682v1.full.pdf" width="100%" height="700" type='application/pdf' />
 

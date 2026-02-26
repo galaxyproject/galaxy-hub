@@ -31,4 +31,4 @@ Two workflows have been developed for *Slamdunk* and are available
 
 ## Credit
 
-<embed src="https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-019-2849-7" width="100%" height="700" type='application/pdf'>
+<embed src="https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-019-2849-7" width="100%" height="700" type='application/pdf' />

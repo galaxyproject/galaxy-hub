@@ -38,7 +38,7 @@ PIDs are essential for connecting data, metadata, and context, as well as ensuri
 
 <figure class="figure">
     <img src="https://cdn.prod.website-files.com/60215038b8c6126015a54745/67a379b756739a12d9ef507f_data-src-image-f7fc857f-fbd5-4f0b-b5f5-0111053f19f7.png" 
-         class="figure-img img-fluid rounded">
+         class="figure-img img-fluid rounded" />
     <figcaption class="figure-caption">
         RSpace Ecosystem Graphic (source: 
         <a href="https://www.researchspace.com/blog/the-time-is-now-vertical-interoperability-between-research-tools-an-essential-enabler-for-the-fairification-of-data" target="_blank">

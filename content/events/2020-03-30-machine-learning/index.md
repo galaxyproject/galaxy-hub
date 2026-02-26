@@ -38,7 +38,7 @@ We apologize for any inconvenience, and will update this event page as soon as w
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 
 # Important notes

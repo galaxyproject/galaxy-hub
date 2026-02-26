@@ -23,7 +23,7 @@ The first day of the workshop was kicked off by introducing participants about s
 <br /></br>
 
 <div align="center" id="fig1">
-  <img src="./tool-dev.png" alt="Workshop" width="1000">
+  <img src="./tool-dev.png" alt="Workshop" width="1000" />
 </div>
 
 <br /></br>

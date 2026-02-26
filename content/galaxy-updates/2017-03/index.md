@@ -1,7 +1,7 @@
 ---
 title: March 2017 Galaxy News
 ---
-<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the March 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/galaxy-updates/), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.
 
@@ -70,7 +70,7 @@ The [Plateform de BioInformatique - INRA Jouy en Josas](http://migale.jouy.inra.
 
 <div class="right">
 <a href='http://conf.abrf.org/the-galaxy-platform'><img src="/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="60" style="vertical-align: top" />
-<img src="/images/logos/GalaxyPLogo.png" alt="presented by the GalaxyP team" height="80"> </a>
+<img src="/images/logos/GalaxyPLogo.png" alt="presented by the GalaxyP team" height="80" /> </a>
 </div>
 
 Learn how Galaxy can be used for proteomic data analysis, and also applications that cross the ‘omic domains.
@@ -155,7 +155,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
     <td> Mahendra Mariadassou, Anne-Laure Abraham, Olivier Rué, Sandra Dérozier </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> April 7 </th>
@@ -170,7 +170,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
     <td> <a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>Instructors</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> May 15-16 </th>
@@ -191,7 +191,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
     <td> <a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Instructors</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 4-8 </th>
@@ -206,7 +206,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
 </table>
 
@@ -517,7 +517,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 
