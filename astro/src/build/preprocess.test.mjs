@@ -2,8 +2,6 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import {
   hasProblematicHtml,
   needsVueProcessing,
-  convertGridsomeSyntax,
-  convertKramdownAttributes,
   convertFontAwesomeToLucide,
   convertVueToJsx,
   convertComponentsToPascalCase,
@@ -13,7 +11,6 @@ import {
   inlineInserts,
   resolveInsertContent,
   insertCache,
-  stripVueArtifacts,
   generateTease,
   preprocessContent,
 } from './preprocess.mjs';
@@ -36,16 +33,26 @@ describe('hasProblematicHtml', () => {
     expect(hasProblematicHtml('<div><div></div>')).toBe(true);
   });
 
-  it('detects multiple divs', () => {
-    expect(hasProblematicHtml('<div>a</div><div>b</div>')).toBe(true);
+  it('allows multiple balanced divs', () => {
+    expect(hasProblematicHtml('<div>a</div><div>b</div>')).toBe(false);
   });
 
   it('detects HTML tables', () => {
     expect(hasProblematicHtml('<table><tr><td>cell</td></tr></table>')).toBe(true);
   });
 
-  it('detects markdown tables', () => {
+  it('allows clean pipe tables without bare <', () => {
     const table = '| col1 | col2 |\n|------|------|\n| a | b |';
+    expect(hasProblematicHtml(table)).toBe(false);
+  });
+
+  it('allows pipe tables with safe inline HTML tags', () => {
+    const table = '| col1 | col2 |\n|------|------|\n| <a href="x">link</a> | <em>text</em> |';
+    expect(hasProblematicHtml(table)).toBe(false);
+  });
+
+  it('detects pipe tables with unsafe < characters', () => {
+    const table = '| col1 | col2 |\n|------|------|\n| <div class="highlight"> | val |';
     expect(hasProblematicHtml(table)).toBe(true);
   });
 
@@ -115,61 +122,6 @@ describe('needsVueProcessing', () => {
   });
 });
 
-describe('convertKramdownAttributes', () => {
-  it('converts target="_blank" attribute on links', () => {
-    const input = '[text](https://example.com){:target="_blank"}';
-    const expected = '<a href="https://example.com" target="_blank">text</a>';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-
-  it('converts links with HTML content', () => {
-    const input = '[<i class="fa fa-laptop"></i>](https://example.com){:target="_blank"}';
-    const expected = '<a href="https://example.com" target="_blank"><i class="fa fa-laptop"></i></a>';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-
-  it('converts class attributes on links', () => {
-    const input = '[Click](https://example.com){: .btn .btn-primary}';
-    const expected = '<a href="https://example.com" class="btn btn-primary">Click</a>';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-
-  it('converts combined class and target attributes', () => {
-    const input = '[Click](https://example.com){: .btn target="_blank"}';
-    const expected = '<a href="https://example.com" class="btn" target="_blank">Click</a>';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-
-  it('handles multiple links on same line', () => {
-    const input = '[A](a.html){:target="_blank"} | [B](b.html){:target="_blank"}';
-    const expected = '<a href="a.html" target="_blank">A</a> | <a href="b.html" target="_blank">B</a>';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-
-  it('leaves regular links unchanged', () => {
-    const input = '[text](https://example.com)';
-    expect(convertKramdownAttributes(input)).toBe(input);
-  });
-
-  it('removes block-level kramdown attributes', () => {
-    const input = 'text\n{:.table.table-striped}\nmore text';
-    const expected = 'text\n\nmore text';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-
-  it('handles URLs with fragments', () => {
-    const input = '[text](https://example.com/page#section){:target="_blank"}';
-    const expected = '<a href="https://example.com/page#section" target="_blank">text</a>';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-
-  it('handles URLs with query strings', () => {
-    const input = '[text](https://example.com?foo=bar){:target="_blank"}';
-    const expected = '<a href="https://example.com?foo=bar" target="_blank">text</a>';
-    expect(convertKramdownAttributes(input)).toBe(expected);
-  });
-});
-
 describe('convertFontAwesomeToLucide', () => {
   it('converts FA4 syntax (fa fa-icon)', () => {
     const input = '<i class="fa fa-laptop"></i>';
@@ -219,52 +171,17 @@ describe('convertFontAwesomeToLucide', () => {
   });
 });
 
-describe('convertGridsomeSyntax', () => {
-  it('converts g-link to anchor tags', () => {
-    expect(convertGridsomeSyntax('<g-link to="/page">text</g-link>')).toBe('<a to="/page">text</a>');
-  });
-
-  it('converts g-image to img tags', () => {
-    expect(convertGridsomeSyntax('<g-image src="pic.png" />')).toBe('<img src="pic.png" />');
-  });
-
-  it('handles paired g-image tags', () => {
-    expect(convertGridsomeSyntax('<g-image src="pic.png"></g-image>')).toBe('<img src="pic.png">');
-  });
-
-  it('leaves other content unchanged', () => {
-    const content = '# Title\n\nParagraph with [link](url).';
-    expect(convertGridsomeSyntax(content)).toBe(content);
-  });
-});
-
 describe('convertVueToJsx', () => {
   it('converts HTML comments to JSX comments', () => {
     expect(convertVueToJsx('<!-- comment -->')).toBe('{/*  comment  */}');
-  });
-
-  it('converts auto-links to markdown links', () => {
-    expect(convertVueToJsx('<https://example.com>')).toBe('[https://example.com](https://example.com)');
   });
 
   it('escapes empty angle brackets', () => {
     expect(convertVueToJsx('use <> for generics')).toBe('use &lt;&gt; for generics');
   });
 
-  it('converts void elements to self-closing', () => {
-    expect(convertVueToJsx('<br>')).toBe('<br />');
-    expect(convertVueToJsx('<hr>')).toBe('<hr />');
-    expect(convertVueToJsx('<img src="x">')).toBe('<img src="x" />');
-  });
-
   it('fixes unquoted numeric attributes', () => {
-    // td is not a void element, so it shouldn't become self-closing
     expect(convertVueToJsx('<td rowspan=3>')).toBe('<td rowspan="3">');
-    expect(convertVueToJsx('<img width=100>')).toBe('<img width="100" />');
-  });
-
-  it('converts Vue numeric bindings', () => {
-    expect(convertVueToJsx(':width="100"')).toBe('width={100}');
   });
 });
 
@@ -512,26 +429,6 @@ describe('inlineInserts', () => {
   it('passes content through unchanged when no slots present', () => {
     const content = '# Hello\n\nNo slots here.';
     expect(inlineInserts(content)).toBe(content);
-  });
-});
-
-describe('stripVueArtifacts', () => {
-  it('removes Vue import statements', () => {
-    const input = "Some text\nimport Flickr from '@/components/Flickr.vue';\n<Flickr />";
-    const result = stripVueArtifacts(input);
-    expect(result).not.toContain('import Flickr');
-    expect(result).toContain('<Flickr />');
-  });
-
-  it('converts Vue :prop bindings to standard attributes', () => {
-    const input = '<twitter user="foo" :height="420"></twitter>';
-    const result = stripVueArtifacts(input);
-    expect(result).toBe('<twitter user="foo" height="420"></twitter>');
-  });
-
-  it('leaves content unchanged when no Vue artifacts present', () => {
-    const input = '# Hello\n\nSome content with <div>html</div>';
-    expect(stripVueArtifacts(input)).toBe(input);
   });
 });
 

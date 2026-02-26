@@ -114,7 +114,7 @@ function hasProblematicHtml(content) {
   // Check for multiple divs in content - MDX often fails with complex div structures
   const openDivCount = (content.match(/<div[\s>]/gi) || []).length;
   const closeDivCount = (content.match(/<\/div>/gi) || []).length;
-  if (openDivCount > 1 || openDivCount !== closeDivCount) {
+  if (openDivCount !== closeDivCount) {
     return true;
   }
 
@@ -123,8 +123,10 @@ function hasProblematicHtml(content) {
     return true;
   }
 
-  // Check for markdown tables (pipe-delimited) - they may contain <= characters that break MDX
-  if (/^\|.*\|.*\n\|[\s:-]+\|/m.test(content)) {
+  // Check for markdown tables (pipe-delimited) — only block if table lines contain bare `<`
+  // that isn't a recognized inline HTML tag (those parse fine in MDX)
+  const pipeTableLines = content.split('\n').filter(l => /^\|/.test(l));
+  if (pipeTableLines.some(l => /<(?!\/?(?:a|br|img|em|strong|code|b|i|s|u)\b)[a-z0-9]/i.test(l))) {
     return true;
   }
 
@@ -484,63 +486,6 @@ function addBootstrapMarker(content) {
 }
 
 /**
- * Convert kramdown-style inline attributes to HTML
- * Kramdown syntax like [text](url){:target="_blank"} is not supported by Astro/remark
- *
- * Handles:
- * - [text](url){:target="_blank"} -> <a href="url" target="_blank">text</a>
- * - [text](url){: .class1 .class2} -> <a href="url" class="class1 class2">text</a>
- * - [text](url){: .class target="_blank"} -> <a href="url" class="class" target="_blank">text</a>
- */
-function convertKramdownAttributes(content) {
-  let processed = content;
-
-  // Match markdown links followed by kramdown attribute blocks
-  // Pattern: [content](url){: attributes }
-  // Content can include HTML like <i class="..."></i>
-  // Use a function to handle nested brackets in content
-  const linkWithAttrsRegex = /\[([^\]]*(?:\[[^\]]*\][^\]]*)*)\]\(([^)]+)\)\{:\s*([^}]+)\}/g;
-
-  processed = processed.replace(linkWithAttrsRegex, (match, text, url, attrs) => {
-    // Parse attributes: can be .class, target="value", style="value", etc.
-    const classes = [];
-    const otherAttrs = [];
-
-    // Split by spaces but respect quoted values
-    const attrParts = attrs.match(/(?:[^\s"]+|"[^"]*")+/g) || [];
-
-    for (const part of attrParts) {
-      if (part.startsWith('.')) {
-        // Class attribute: .classname
-        classes.push(part.slice(1));
-      } else if (part.includes('=')) {
-        // Key-value attribute: target="_blank"
-        otherAttrs.push(part);
-      }
-    }
-
-    // Build the anchor tag
-    let anchor = `<a href="${url}"`;
-    if (classes.length > 0) {
-      anchor += ` class="${classes.join(' ')}"`;
-    }
-    for (const attr of otherAttrs) {
-      anchor += ` ${attr}`;
-    }
-    anchor += `>${text}</a>`;
-
-    return anchor;
-  });
-
-  // Handle block-level kramdown attributes like {:.table.table-striped}
-  // These appear on their own line after a block element
-  // For now, just remove them as they're less critical
-  processed = processed.replace(/^\{:\.[\w.-]+\}\s*$/gm, '');
-
-  return processed;
-}
-
-/**
  * Convert Font Awesome icons to inline Lucide SVGs
  * Maps FA class names to equivalent Lucide icons rendered as inline SVG
  */
@@ -746,7 +691,6 @@ function resolveInsertContent(slotName, depth = 0) {
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
   processed = inlineInserts(processed, depth + 1);
-  processed = convertKramdownAttributes(processed);
   processed = convertFontAwesomeToLucide(processed);
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
@@ -769,41 +713,6 @@ function inlineInserts(content, depth = 0) {
     // Wrap in a div with data-name so layout CSS selectors can target inserts
     return `<div class="insert" data-name="${slotName}">\n${resolved}\n</div>`;
   });
-}
-
-/**
- * Strip Vue/Gridsome artifacts that aren't valid in Astro/MDX.
- * Runs early (before needsVueProcessing) so these patterns don't
- * trigger hasProblematicHtml false positives.
- */
-function stripVueArtifacts(content) {
-  let processed = content;
-  // Remove Vue import statements (Gridsome artifact)
-  processed = processed.replace(/^import\s+\w+\s+from\s+['"][^'"]+['"];?\s*$/gm, '');
-  // Convert Vue :prop="value" bindings to standard attributes
-  processed = processed.replace(/\s:(\w+)="([^"]*)"/g, ' $1="$2"');
-  return processed;
-}
-
-/**
- * Convert Gridsome-specific syntax to standard markdown/HTML
- */
-function convertGridsomeSyntax(content) {
-  let processed = content;
-
-  // Replace g-link with regular links
-  processed = processed.replace(/<g-link/g, '<a');
-  processed = processed.replace(/<\/g-link>/g, '</a>');
-
-  // Replace g-image with regular images
-  processed = processed.replace(/<g-image/g, '<img');
-  processed = processed.replace(/<\/g-image>/g, '');
-
-  // Slots are now inlined at preprocess time by inlineInserts(), but convert
-  // any remaining <slot name="..."> as a safety net for unresolved references
-  processed = processed.replace(/<slot(\s+name=["'][^"']+["']\s*)\/?>/gi, '<Insert$1/>');
-
-  return processed;
 }
 
 /**
@@ -838,9 +747,7 @@ function convertComponentsToPascalCase(content) {
 }
 
 /**
- * Convert Vue-style bindings and HTML to JSX syntax for MDX compatibility
- * :prop="value" -> prop={value}
- * :prop="123" -> prop={123}
+ * Convert HTML patterns to JSX syntax for MDX compatibility
  * <!-- comment --> -> {/* comment *\/}
  * rowspan=3 -> rowspan="3"
  */
@@ -854,36 +761,8 @@ function convertVueToJsx(content) {
     return `{/* ${cleaned} */}`;
   });
 
-  // Convert markdown auto-links <URL> to proper links [URL](URL)
-  // MDX interprets <URL> as JSX tags
-  processed = processed.replace(/<(https?:\/\/[^>]+)>/g, '[$1]($1)');
-
   // Escape empty angle brackets <> which look like JSX fragments
   processed = processed.replace(/<>/g, '&lt;&gt;');
-
-  // Convert void HTML elements to self-closing JSX
-  const voidElements = [
-    'br',
-    'hr',
-    'img',
-    'input',
-    'embed',
-    'source',
-    'track',
-    'wbr',
-    'area',
-    'base',
-    'col',
-    'meta',
-    'link',
-  ];
-  for (const tag of voidElements) {
-    // Match tags that aren't already self-closing
-    processed = processed.replace(
-      new RegExp(`<${tag}(\\s[^>]*[^/])?>`, 'gi'),
-      (match, attrs) => `<${tag}${attrs || ''} />`
-    );
-  }
 
   // Fix missing space between tag and attribute (e.g., <rowclass= -> <row class=)
   // Common pattern in malformed legacy HTML
@@ -901,20 +780,6 @@ function convertVueToJsx(content) {
     prev = processed;
     processed = processed.replace(/(\s)(\w+)=(\d+)(?=\s|>|\/)/g, '$1$2="$3"');
   } while (prev !== processed);
-
-  // Convert Vue bindings :prop="value" to JSX prop={value}
-  // Handle numeric values
-  processed = processed.replace(/:(\w+)="(\d+(?:\.\d+)?)"/g, '$1={$2}');
-
-  // Handle string values (keep as strings for now)
-  processed = processed.replace(/:(\w+)="([^"]+)"/g, (match, prop, value) => {
-    // If it looks like a variable/expression, use JSX syntax
-    if (/^[a-zA-Z_]\w*$/.test(value) || value.includes('.')) {
-      return `${prop}={${value}}`;
-    }
-    // Otherwise keep as string attribute
-    return `${prop}="${value}"`;
-  });
 
   return processed;
 }
@@ -987,17 +852,10 @@ async function processMarkdownFile(filePath) {
   let processedContent = body;
   processedContent = inlineInserts(processedContent);
 
-  // Strip Gridsome Vue import statements (e.g. "import Flickr from '@/components/Flickr.vue';")
-  // and convert Vue :prop bindings to standard attributes before MDX detection,
-  // since both patterns trigger hasProblematicHtml false positives
-  processedContent = stripVueArtifacts(processedContent);
-
   // Check if content needs Vue/component processing (after inlining inserts)
   const hasComponents = needsVueProcessing(processedContent, frontmatter, filePath);
 
   // Process content
-  processedContent = convertGridsomeSyntax(processedContent);
-  processedContent = convertKramdownAttributes(processedContent);
   processedContent = convertFontAwesomeToLucide(processedContent);
   processedContent = addBootstrapMarker(processedContent);
   processedContent = processImagePaths(processedContent, slug);
@@ -1304,8 +1162,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 export {
   hasProblematicHtml,
   needsVueProcessing,
-  convertGridsomeSyntax,
-  convertKramdownAttributes,
   convertFontAwesomeToLucide,
   convertVueToJsx,
   convertComponentsToPascalCase,
@@ -1315,6 +1171,5 @@ export {
   inlineInserts,
   resolveInsertContent,
   insertCache,
-  stripVueArtifacts,
   generateTease,
 };
