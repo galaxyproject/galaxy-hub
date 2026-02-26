@@ -107,7 +107,7 @@ The following is an example that contains all of the attributes described above.
 
 ### `<move>` tag set
 
-This tag defines how to handle moving files from within the Data Manager Tool output's extra_files_path into the final storage location used for the Tool Data Table entry. Individual files or the entire directory contents can be moved. Move tag sets contain a `<source />` and a `<target>` tag set.
+This tag defines how to handle moving files from within the Data Manager Tool output's extra_files_path into the final storage location used for the Tool Data Table entry. Individual files or the entire directory contents can be moved. Move tag sets contain a `<source>` and a `<target>` tag set.
 
 
 | attribute |  values  |  details  |  required  |  example  |
@@ -127,16 +127,16 @@ The following is an example that contains all of the attributes described above.
 
 ----
 
-### `<source />` tag set
+### `<source>` tag set
 
-This tag defines the source location within a `<move>` tag set. When not specified, it defaults to the entire extra_files_path of the output reference dataset. Both the `base` attribute and the text of the `<source />` tag are treated as [Cheetah](https://pythonhosted.org/Cheetah/) templates, with the columns names specified in the `<column>` tagsets available as variables (with values taken from the corresponding data table entries. The strings produced for the `base` attribute and the tag text
+This tag defines the source location within a `<move>` tag set. When not specified, it defaults to the entire extra_files_path of the output reference dataset. Both the `base` attribute and the text of the `<source>` tag are treated as [Cheetah](https://pythonhosted.org/Cheetah/) templates, with the columns names specified in the `<column>` tagsets available as variables (with values taken from the corresponding data table entries. The strings produced for the `base` attribute and the tag text
 should resolve to a single line.
 
 
 | attribute |  values  |  details  |  required  |  example  |
 | --------- | ------- | -------- | --------- | -------- |
 | base |  a string Template  |  The base/root path to use for the source. When not provided, it defaults to the extra_files_path of the output dataset. |  no  |  `<move type="file">`  |
-| TEXT |  a string Template  |  This defines the value of the source, relative to the *base* |  no  |  `<source />${path}</source>`  |
+| TEXT |  a string Template  |  This defines the value of the source, relative to the *base* |  no  |  `<source>${path}</source>`  |
 
 #### Example
 
@@ -153,7 +153,7 @@ The following is an example that contains the most common usage, where the value
 ### `<target>` tag set
 
 This tag defines the target location within a `<move>` tag set. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value. The values of the `base` and the tag text are treated as
-templates as with the `<source />` tag. In addition the variables from the `<column>` tagset the value of `galaxy_data_manager_data_path` configuration value is available using the `${GALAXY_DATA_MANAGER_DATA_PATH}`
+templates as with the `<source>` tag. In addition the variables from the `<column>` tagset the value of `galaxy_data_manager_data_path` configuration value is available using the `${GALAXY_DATA_MANAGER_DATA_PATH}`
 variable.
 
 
@@ -187,7 +187,7 @@ This tag allows using templating to modify the value provided by the Data Manage
 #### Example
 
 The following is an example that contains a common usage, where a value is constructed using several of the values provided by the Data Manager Tool and that value is then turned into an absolute path. If `<value_translation>` is a string (not a function)
-it is treated as a template, much like `<source />` and `<target>`, and must return a single line string.
+it is treated as a template, much like `<source>` and `<target>`, and must return a single line string.
 
 ```xml
 <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/${value}/seq/${path}</value_translation>

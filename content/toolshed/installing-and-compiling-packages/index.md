@@ -32,11 +32,11 @@ Tool shed repository owners can define information in their repositories that en
                     <action type="shell_command">sed -i .bak -e 's/-lcurses/-lncurses/g' Makefile</action>
                     <action type="shell_command">make</action>
                     <action type="move_file">
-                        <source />samtools</source>
+                        <source>samtools</source>
                         <destination>$INSTALL_DIR/bin</destination>
                     </action>
                     <action type="move_file">
-                        <source />misc/maq2sam-long</source>
+                        <source>misc/maq2sam-long</source>
                         <destination>$INSTALL_DIR/bin</destination>
                     </action>
                     <action type="set_environment">

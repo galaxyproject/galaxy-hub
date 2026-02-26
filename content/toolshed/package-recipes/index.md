@@ -96,7 +96,7 @@ The Tool Shed supports tag sets for installing and compiling packages from sourc
                     <action type="download_by_url">http://downloads.sourceforge.net/project/bio-bwa/bwa-0.7.7.tar.bz2</action>
                     <action type="shell_command">make</action>
                     <action type="move_file">
-                        <source />bwa</source>
+                        <source>bwa</source>
                         <destination>$INSTALL_DIR/bin</destination>
                     </action>
                     <action type="set_environment">
