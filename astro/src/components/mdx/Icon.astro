@@ -1,0 +1,38 @@
+---
+import * as icons from 'lucide-static';
+
+interface Props {
+  name: string;
+  class?: string;
+  size?: number;
+}
+
+const { name, class: className, size = 16 } = Astro.props;
+
+// Convert kebab-case to PascalCase for lucide-static lookup
+const pascalName = name.replace(/(^|-)([a-z0-9])/g, (_, _sep, c) => c.toUpperCase());
+const svg = (icons as Record<string, string>)[pascalName];
+
+// Apply size and optional class overrides to the SVG string
+function applySvgProps(svgStr: string, sizeVal: number, cls?: string): string {
+  let result = svgStr
+    .replace(/width="\d+"/, `width="${sizeVal}"`)
+    .replace(/height="\d+"/, `height="${sizeVal}"`);
+  if (cls) {
+    result = result.replace(/class="[^"]*"/, `class="${cls}"`);
+  }
+  return result;
+}
+---
+
+{svg
+  ? <span class="inline-icon" set:html={applySvgProps(svg, size, className)} />
+  : <span title={`Unknown icon: ${name}`} />
+}
+
+<style>
+  .inline-icon {
+    display: inline-flex;
+    vertical-align: middle;
+  }
+</style>
