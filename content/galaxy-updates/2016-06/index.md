@@ -10,7 +10,7 @@ title: June 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the June 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
@@ -121,7 +121,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
 <div class='center'>
 <a href='/events/asms2016/'><img src="/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
 <a href='https://www.vlsci.org.au/events/new-round-workshops-announced'><img src="/images/logos/VLSCILogo.png" alt="GVL and Galaxy Workshops" height="80" /></a>
-<a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High-throughput Sequencing Data Workshop" height=80 /></a>
+<a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High-throughput Sequencing Data Workshop" height="80" /></a>
 <a href='/community/galaxy-admins/meetups/2016-06-16/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp;
@@ -196,7 +196,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
     <td> <a href='http://gmod.org/wiki/Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> July 4-8 </th>
@@ -241,7 +241,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> August 1-4 </th>
@@ -309,13 +309,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -463,7 +463,7 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
     <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none;"> See the <a href='/admin/get-galaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan="3" style=" border: none;"> See the <a href='/admin/get-galaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -561,7 +561,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

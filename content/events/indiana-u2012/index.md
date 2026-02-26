@@ -7,7 +7,7 @@ title: Galaxy Seminar and Workshops @ Indiana University Bloomington - October 1
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://indiana.edu/'><img src="/images/logos/IndianaU720.png" alt="Indiana University" width="500" /></a> </td>
+    <td colspan="3" style=" text-align: center; border: none;"> <a href='http://indiana.edu/'><img src="/images/logos/IndianaU720.png" alt="Indiana University" width="500" /></a> </td>
   </tr>
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://ncgas.org/'><img src="/images/logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a> </td>

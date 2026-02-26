@@ -11,7 +11,7 @@ hide_tease: true
 James "JJ" Johnson passed on March 1, 2024 in Minneapolis at the age of 71 after a long battle with cancer. JJ was a Galaxy community rock star most known
 for his indispensable contributions to the Galaxy Proteomics community. Being the kind and gentle person that he was he helped build up the Galaxy-P community since 2014. 
 
-<div class='center'><img src="/images/jj.png"></a></div>
+<div class='center'><img src="/images/jj.png" /></a></div>
 
 JJ was a senior software developer who could take a concept and make it into a reality. He attended most of the Galaxy community conferences (including the first one and the GCC 2022 in 
 Minneapolis). Some of his work is captured in the [Galaxy Training Network Hall of Fame](https://training.galaxyproject.org/training-material/hall-of-fame/jj-umn/) and [two](https://youtu.be/EGWTFWeI5gg?feature=shared&t=634) [great](https://youtu.be/qnyucM5pQ1A?feature=shared) interviews.
@@ -56,7 +56,7 @@ functionalities needed in a software tool for proteogenomics. I used the whitebo
 bioinformatics workflow and the manuscript was published. I visited JJ’s office two years after this and his whiteboard still had the same content. I asked him - why is the content still there? 
 His reply was - “I just thought this must be very important and hence left it there”. He had a way of making people feel special.
 
-<div class='center'><img src="/images/jj_talk.png"></a></div>
+<div class='center'><img src="/images/jj_talk.png" /></a></div>
 
 2016: In November of 2016, when the presidential election results were announced. As an immigrant - and because of my own political beliefs, I was keen to know how much America had changed. I 
 reached out to JJ and other friends and talking with JJ calmed me down. For those who were aware of JJ’s political leanings - this should come as no surprise. 

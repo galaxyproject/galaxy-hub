@@ -1,7 +1,7 @@
 ---
 title: November 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the November 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -36,13 +36,13 @@ The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user frien
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -286,8 +286,8 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
   <tr>
     <th> December 10 </th>
     <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/'>Introduction to Next-Generation Sequence Analysis with Galaxy</a></em> </td>
-    <td rowspan=4> <strong><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'>UC Davis Bioinformatics Bootcamps</a></strong>, Davis, California, United States </td>
-    <td rowspan=4> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
+    <td rowspan="4"> <strong><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'>UC Davis Bioinformatics Bootcamps</a></strong>, Davis, California, United States </td>
+    <td rowspan="4"> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
     <th> December 11 </th>
@@ -302,7 +302,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
     <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-the-amazon-cloud-for-galaxy-and-the-command-line-december-13-2013/'>Introduction to the Amazon Cloud for Galaxy and the Command-Line</a></em> </td>
   </tr>
   <tr>
-    <th colspan=4> <span style="font-size: larger;"> 2014 </span> </th>
+    <th colspan="4"> <span style="font-size: larger;"> 2014 </span> </th>
   </tr>
   <tr>
     <th> January 11-15 </th>
@@ -355,7 +355,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 There were many...
 

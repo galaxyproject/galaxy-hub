@@ -166,11 +166,11 @@ XFCE is a desktop manager for Linux.  Unlike the more common Gnome and KDE manag
 
 <table>
   <tr class="th" >
-    <th rowspan=2> </th>
-    <th rowspan=2> Username </th>
-    <th rowspan=2> Password </th>
-    <th colspan=2> Defined On VM </th>
-    <th rowspan=2> Comments </th>
+    <th rowspan="2"> </th>
+    <th rowspan="2"> Username </th>
+    <th rowspan="2"> Password </th>
+    <th colspan="2"> Defined On VM </th>
+    <th rowspan="2"> Comments </th>
   </tr>
   <tr class="th" >
     <th> WS5 </th>

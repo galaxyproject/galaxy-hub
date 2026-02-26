@@ -1,7 +1,7 @@
 ---
 title: October 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the October 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -76,10 +76,10 @@ The [Laboratory of Biological Physics](http://fisbio.fcfrp.usp.br/), part of the
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=6 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="6" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=6 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="6" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -196,9 +196,9 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, Annette McGrath </td>
   </tr>
   <tr>
-    <th rowspan=6> October 20-25 </th>
+    <th rowspan="6"> October 20-25 </th>
     <td> <em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_5.pdf'>Genomics Virtual Laboratory Workshop</a></em> </td>
-    <td rowspan=6> <strong><a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'>eResearch Australasia 2013</a></strong>, Brisbane, Australia </td>
+    <td rowspan="6"> <strong><a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'>eResearch Australasia 2013</a></strong>, Brisbane, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, Ron Horst, Andrew Lonie </td>
   </tr>
   <tr>
@@ -283,9 +283,9 @@ And don't worry, you won't have to travel to Australia during its spring just to
     <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> October 1-3 </th>
+    <th rowspan="2"> October 1-3 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy as a platform for High-throughput Genomics</a></em> </td>
-    <td rowspan=2> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>, San Francisco, California, United States </td>
+    <td rowspan="2"> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>, San Francisco, California, United States </td>
     <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -293,9 +293,9 @@ And don't worry, you won't have to travel to Australia during its spring just to
     <td> <a href="mailto:Matloob DOT khushi AT sydney DOT edu DOT au">Matloob Khushi</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> October 7-8 </th>
+    <th rowspan="2"> October 7-8 </th>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Next-Generation Sequencing Data Interpretation: Enhancing Reproducibility and Accessibility</a></em></td>
-    <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
+    <td rowspan="2"> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
     <td> <a href='/people/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
@@ -317,8 +317,8 @@ And don't worry, you won't have to travel to Australia during its spring just to
   <tr>
     <th> October 14-18 </th>
     <td> <em><a href='/events/u-pretoria2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
-    <td rowspan=2> <a href='/events/sa-workshop-tour2013/'>2013 South Africa Galaxy Workshop Tour</a><div class='indent red'>Application deadline is 17 September</div> </td>
-    <td rowspan=2> <a href='/people/dave-clements/'>Dave Clements</a> </td>
+    <td rowspan="2"> <a href='/events/sa-workshop-tour2013/'>2013 South Africa Galaxy Workshop Tour</a><div class='indent red'>Application deadline is 17 September</div> </td>
+    <td rowspan="2"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 21-25 </th>
@@ -331,9 +331,9 @@ And don't worry, you won't have to travel to Australia during its spring just to
     <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/people/jennifer-jackson/'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
-    <th rowspan=5> October 22-26 </th>
+    <th rowspan="5"> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#intro'>Introduction to Integrative Analysis with GenomeSpace</a></em> </td>
-    <td rowspan=5> <strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a></strong>, Boston, Massachusetts, United States </td>
+    <td rowspan="5"> <strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a></strong>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.broadinstitute.org/science/programs/cancer/icbp/integrated-team-0'>Michael Reich</a> </td>
   </tr>
   <tr>
@@ -342,7 +342,7 @@ And don't worry, you won't have to travel to Australia during its spring just to
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130122946.htm'>Poster 1633T: Globus Genomics: Enabling high-throughput analysis and management of NGS data for neurodevelopmental disorders</a></em> </td>
-    <td rowspan=3> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, Dinanath Sulakhe, Alex Rodriguez and Paul Dave<br />And see the Globus Genomics Booth </td>
+    <td rowspan="3"> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, Dinanath Sulakhe, Alex Rodriguez and Paul Dave<br />And see the Globus Genomics Booth </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130121257.htm'>Poster 1530W: Implementing a High Performance, Reusable Consensus Calling Pipeline for Next Generation Sequencing using Globus Genomics</a></em> </td>
@@ -411,7 +411,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 There were many...
 

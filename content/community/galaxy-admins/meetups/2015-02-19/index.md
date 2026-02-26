@@ -11,8 +11,8 @@
   <tr>
     <th> Date </th>
     <td> 19 February 2015 </td>
-    <td rowspan=4 style=" border: none;"> </td>
-    <td rowspan=4 style=" border: none;"> </td>
+    <td rowspan="4" style=" border: none;"> </td>
+    <td rowspan="4" style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Time </th>

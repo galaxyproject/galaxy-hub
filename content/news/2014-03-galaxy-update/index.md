@@ -4,7 +4,7 @@ date: "2014-02-28"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-03/'><img src="/images/logos/GalaxyUpdate200.png" alt="March 2014 Galaxy Update" width=150 /></a>
+<a href='/galaxy-updates/2014-03/'><img src="/images/logos/GalaxyUpdate200.png" alt="March 2014 Galaxy Update" width="150" /></a>
 <br /><br />
 <a href='/galaxy-updates/2014-03/#galaxy-australasia-workshop-2014-24-25-march'><img src="/images/logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" width="150" /></a><br /><br />
 <a href='/galaxy-updates/2014-03/#gcc2014-june-30---july-2-baltimore'><img src="/images/logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" width="150" /></a>

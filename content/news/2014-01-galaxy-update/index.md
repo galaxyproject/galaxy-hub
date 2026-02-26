@@ -4,7 +4,7 @@ date: "2013-12-31"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-01/'><img src="/images/logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
+<a href='/galaxy-updates/2014-01/'><img src="/images/logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width="150" /></a>
 <br /><br />
 <a href='/galaxy-updates/2014-01/#galaxy-community-log-board'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="150" /></a>
 <br /><br />

@@ -23,13 +23,13 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
     <td> Dannon Baker </td>
   </tr>
   <tr>
-    <th colspan=5> </th>
+    <th colspan="5"> </th>
   </tr>
   <tr>
-    <th rowspan=3> Monday<br />January 16 </th>
-    <td rowspan=2 style=" text-align: center;"> 10:00:11:30 </td>
+    <th rowspan="3"> Monday<br />January 16 </th>
+    <td rowspan="2" style=" text-align: center;"> 10:00:11:30 </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2810.html'>P698: Developing Tools for Genomic Analysis in a Wide Bulb Onion (Allium cepa L.) Cross</a> </td>
-    <td rowspan=2> Poster Session<br />Even Numbers </td>
+    <td rowspan="2"> Poster Session<br />Even Numbers </td>
     <td> <a href="mailto:john.mccallum@plantandfood.co.nz">John A. McCallum</a> </td>
   </tr>
   <tr>
@@ -43,10 +43,10 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
     <td> <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
-    <th colspan=5> </th>
+    <th colspan="5"> </th>
   </tr>
   <tr>
-    <th rowspan=2> Wednesday<br />January 18 </th>
+    <th rowspan="2"> Wednesday<br />January 18 </th>
     <td style=" text-align: center;"> 10:30-11:30 </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a> </td>

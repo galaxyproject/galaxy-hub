@@ -25,6 +25,6 @@ The Galaxy tool has been implemented by Carlos Horro and is available in the
 
 Try it out on [usegalaxy.eu](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Freactome_pathwaymatcher%2Freactome_pathwaymatcher)!
 
-<embed src="https://academic.oup.com/gigascience/article-pdf/8/8/giz088/29020604/giz088.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://academic.oup.com/gigascience/article-pdf/8/8/giz088/29020604/giz088.pdf" width="100%" height="700" type='application/pdf' />
 
 

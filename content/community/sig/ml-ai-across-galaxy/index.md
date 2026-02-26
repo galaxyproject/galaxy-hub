@@ -137,7 +137,7 @@ Galaxy now supports [GPU-enabled Jupyter Notebooks](https://galaxyproject.org/ne
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 30px; flex-wrap: wrap;">
 
   <div style="text-align: center; max-width: 60%;">
-    <img src="jupyterlab_ai.png" alt="GPU-enabled JupyterLab" style="width: 100%; height: auto;">
+    <img src="jupyterlab_ai.png" alt="GPU-enabled JupyterLab" style="width: 100%; height: auto;" />
     <p style="margin-top: 0.5em;">
       GPU-enabled JupyterLab notebook is an online Python program editor hosted in Galaxy Europe  
       for rapidly developing prototypes and managing end-to-end machine learning analyses.
@@ -145,7 +145,7 @@ Galaxy now supports [GPU-enabled Jupyter Notebooks](https://galaxyproject.org/ne
   </div>
 
   <div style="text-align: center; max-width: 35%;">
-    <img src="giad028fig2.jpeg" alt="ML-generated CT masks" style="width: 100%; height: auto;">
+    <img src="giad028fig2.jpeg" alt="ML-generated CT masks" style="width: 100%; height: auto;" />
     <p style="margin-top: 0.5em;">
       Example of CT scan segmentation using the JupyterLab tool.  
       The model predicts region masks using BCE Loss and TV Loss.

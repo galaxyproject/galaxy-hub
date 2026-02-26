@@ -4,7 +4,7 @@ date: "2016-03-31"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2016-04/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
+<a href='/galaxy-updates/2016-04/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a><br />
 <br />
 <div class='right'>
 <a href='/galaxy-updates/2016-04/#gcc2016'><img src="/images/logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="100" /></a><br />

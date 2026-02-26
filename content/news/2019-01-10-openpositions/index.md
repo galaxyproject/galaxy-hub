@@ -29,6 +29,6 @@ If you are interested to work with us, [send us an email](mailto:bioinf-jobs@inf
 
 
 <div class="multiple-img">
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled"></a>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled" /></a>
 </div>
 

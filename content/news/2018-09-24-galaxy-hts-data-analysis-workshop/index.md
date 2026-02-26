@@ -11,7 +11,7 @@ main_subsite: freiburg
 A new Galaxy workshop on HTS data analysis was held in Freiburg last week. 
 
 <div class="multiple-img">
-<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/134305289@N03/43888095455/in/datetaken/" title="Galaxy HTS data analysis workshop @ Freiburg"><img src="https://farm2.staticflickr.com/1892/43888095455_3238320d36_z.jpg" width="640" height="427" alt="Galaxy HTS data analysis workshop @ Freiburg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/134305289@N03/43888095455/in/datetaken/" title="Galaxy HTS data analysis workshop @ Freiburg"><img src="https://farm2.staticflickr.com/1892/43888095455_3238320d36_z.jpg" width="640" height="427" alt="Galaxy HTS data analysis workshop @ Freiburg" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 During this week, the [Freiburg Galaxy Team](https://usegalaxy.eu/freiburg/) and [Bionformatics facility from the MPI-IE Freiburg](https://www.ie-freiburg.mpg.de/bioinformaticsfac) offered an introductory course to the analysis of high-throughput sequencing data using Galaxy:

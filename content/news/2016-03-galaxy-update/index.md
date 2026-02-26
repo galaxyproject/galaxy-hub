@@ -5,7 +5,7 @@ subsites: [global, us]
 tags: [newsletter]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2016-03/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="March News" width=150 /></a><br />
+<a href='/galaxy-updates/2016-03/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="March News" width="150" /></a><br />
 </div>
 
 The **[March 2016 Galactic News](/galaxy-updates/2016-03/)** is hot off the presses:

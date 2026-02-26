@@ -1,7 +1,7 @@
 ---
 title: August 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the August 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -138,9 +138,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> September 3-4 </th>
-    <td rowspan=2 style=" text-align:left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em> </td>
+    <td rowspan="2" style=" text-align:left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
+    <td rowspan="2" style=" text-align:center;"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>

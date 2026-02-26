@@ -16,8 +16,8 @@ date: 2014-11-04
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -358,7 +358,7 @@ Several beneficial enhancements have bee added to the support for [defining tool
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width="300" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 

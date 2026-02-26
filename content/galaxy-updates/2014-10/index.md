@@ -1,7 +1,7 @@
 ---
 title: October 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the October 2014 *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -58,10 +58,10 @@ There are [upcoming events](/events/) in Switzerland, Germany, Australia, Norway
     <th> Contact </th>
   </tr>
   <tr>
-    <th rowspan=3> September 30 - October 2 </th>
+    <th rowspan="3"> September 30 - October 2 </th>
     <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
-    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td rowspan="3"> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td rowspan="3"> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
@@ -124,7 +124,7 @@ There are [upcoming events](/events/) in Switzerland, Germany, Australia, Norway
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
   <tr>
-    <th colspan=4> 2015 </th>
+    <th colspan="4"> 2015 </th>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -157,13 +157,13 @@ The new papers were tagged in many different areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -277,7 +277,7 @@ The deployment details for the [GalaxEast public server](/use/galaxeast/) were p
 
 The *Deployment Catalog* and *[Community Log Board](/news/)* *[Galaxy community hubs](/community/)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/news/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # New Releases
 

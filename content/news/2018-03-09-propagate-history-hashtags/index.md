@@ -19,7 +19,7 @@ To process data using Galaxy, an raw dataset (HDA) is uploaded and few hashtags 
 This [script](https://github.com/anuprulez/apply_history_tags) will solve the situations mentioned above, adding any new hashtags to all derived datasets. The script is written considering a Galaxy history as a tree (data structure) with input datasets as its roots and all the generated ones either as nodes or leaves of this tree. An example history ‘tree’ is shown in the figure below.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3022518/37175617-5382eec8-231a-11e8-98b2-d5988dce3bb4.png">
+  <img src="https://user-images.githubusercontent.com/3022518/37175617-5382eec8-231a-11e8-98b2-d5988dce3bb4.png" />
 </p>
                                                                        
 In the above figure, we can see one input dataset with multiple datasets created from this input, using different tools (Galaxy tools). There can be any number of levels (tree hierarchy) in the ‘history’ tree from the top to bottom.
@@ -54,30 +54,30 @@ python apply_tags.py "https://usegalaxy.org" "*******************"
 
 2. Run a few tools (say ToolA and ToolB) using the input dataset and create new (child) datasets (figure below).
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3022518/37175698-99004f90-231a-11e8-8e4d-79109518cd10.png">
+  <img src="https://user-images.githubusercontent.com/3022518/37175698-99004f90-231a-11e8-8e4d-79109518cd10.png" />
 </p>
 
 3. Now, add new hashtags to the input dataset. The figure below shows new hashtags (#new_root_tag1, #new_root_tag2) getting added to the input dataset.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3022518/37175716-a531b600-231a-11e8-8088-a41cf46404f9.png">
+  <img src="https://user-images.githubusercontent.com/3022518/37175716-a531b600-231a-11e8-8088-a41cf46404f9.png" />
 </p>
 
 4. To propagate the new hashtags from parent to child datasets, execute the script using the example commands (here one should use the id of the history created above containing 3 datasets). We can see the child datasets now contain the new hashtags from their parent (figure below).
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3022518/37175722-ab5794e6-231a-11e8-976b-2598eaadd9ce.png">
+  <img src="https://user-images.githubusercontent.com/3022518/37175722-ab5794e6-231a-11e8-976b-2598eaadd9ce.png" />
 </p>
 
 ### More complex example
 
 In the previous example, we saw a tree with one level of hierarchy. In the following visual, we would see a more complex example of inheriting hashtags from parents involving multiple levels in the history tree.(figure below).
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3022518/37175736-b52df492-231a-11e8-9524-542208135533.png">
+  <img src="https://user-images.githubusercontent.com/3022518/37175736-b52df492-231a-11e8-9524-542208135533.png" />
 </p>
 
 ### Propagate hashtags in Galaxy
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3022518/37175741-bb172a40-231a-11e8-835c-50166b6f11e3.png">
+  <img src="https://user-images.githubusercontent.com/3022518/37175741-bb172a40-231a-11e8-835c-50166b6f11e3.png" />
 </p>                                                                   
 1.fasta &rarr; 3:Replace Text on data 1 &rarr; 4: Text transformation on data 3
 

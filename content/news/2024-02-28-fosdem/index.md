@@ -22,5 +22,5 @@ The talk was recorded and you can watch it below or [here](https://ftp.fau.de/fo
 **Acknowledgements:** We would like to thank the FOSDEM organizers for their commitment to make this amazing conference possible every year and give us the opportunity to present Galaxy, but also the whole Galaxy team for supporting us! ❤️
 
 <video width="100%" controls>
-  <source src="https://ftp.fau.de/fosdem/2024/ub4132/fosdem-2024-3316-science-without-secrets-how-galaxy-democratizes-data-analysis.mp4" type="video/mp4" alt="A video record from the talk held my Mira Kuntz and Polina Polunina at FOSDEM 2024">
+  <source src="https://ftp.fau.de/fosdem/2024/ub4132/fosdem-2024-3316-science-without-secrets-how-galaxy-democratizes-data-analysis.mp4" type="video/mp4" alt="A video record from the talk held my Mira Kuntz and Polina Polunina at FOSDEM 2024" />
 </video>

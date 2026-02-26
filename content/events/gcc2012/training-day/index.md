@@ -25,7 +25,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:00 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Continental Breakfast, Registration Open</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Continental Breakfast, Registration Open</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
@@ -35,7 +35,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
@@ -45,7 +45,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Lunch Break</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Lunch Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
@@ -55,7 +55,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:00 </th>
@@ -65,7 +65,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
   </tr>
 </table>
 

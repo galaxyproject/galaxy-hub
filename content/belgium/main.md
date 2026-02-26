@@ -4,7 +4,7 @@ title: The Belgian Galaxy instance
 
 
 <p class="text-center">
-    <a href="https://usegalaxy.be/" rel="noopener" target="_blank"><img class="m-2" width="500px" src="/images/logos/usegalaxy.be.svg" alt="Main useGalaxy.be logo"></a>
+    <a href="https://usegalaxy.be/" rel="noopener" target="_blank"><img class="m-2" width="500px" src="/images/logos/usegalaxy.be.svg" alt="Main useGalaxy.be logo" /></a>
 </p>
 
 <p class="lead text-center"> <a href="https://usegalaxy.be/">useGalaxy.be</a> is an instance of <a href="https://datacore.sites.vib.be/">VIB Data Core</a> and <a href="https://elixir-belgium.org/">ELIXIR Belgium</a> hosted at <a href="https://www.vscentrum.be/">VSC</a> (Flemish Supercomputer Centre) to enable accessible, reproducible and transparent computational research. 

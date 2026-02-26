@@ -18,7 +18,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=2> 19 July </th>
+    <th rowspan="2"> 19 July </th>
     <td> <a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'>Mass Spectrometry SIG (MS-SIG)</a> </td>
     <td> 11:30-11:45 </td>
     <td> <em>Innovative, Reproducible MS-based Proteomic Informatics in the Cloud for Emerging Applications with Galaxy-P and <a href='http://cloudbiolinux.org/'>CloudBioLinux</a></em>, <a href='/people/john-chilton/'>John Chilton</a> </td>
@@ -31,8 +31,8 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013ISMBRefineryGehlenborg.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=7> 20 July </th>
-    <td rowspan=7> <a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC</a> </td>
+    <th rowspan="7"> 20 July </th>
+    <td rowspan="7"> <a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC</a> </td>
     <td> 10-45-11:10 </td>
     <td> <em><a href='http://bioblend.readthedocs.org/en/latest/'>BioBlend</a> - Enabling Pipeline Dreams</em>, <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
     <td> <a href='https://s3.amazonaws.com/usecloudman/BOSC2013_BioBlend.pdf'>Slides</a> </td>
@@ -75,15 +75,15 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013ISMBGoecks_UnderstandingCancerGenomes.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=6> 22 July </th>
+    <th rowspan="6"> 22 July </th>
     <td> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php'>ISMB/ECCB Workshop</a> </td>
     <td> 11:30-11:55 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK03'>Big Data publishing</a></em>, Scott Edmunds <div class='indent'>Part of <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK03'>Workshop 3 (WK03): What Bioinformaticians need to know about digital publishing beyond the PDF</a></em> </div></td>
     <td> <a href='http://www.slideshare.net/GigaScience/scott-edmunds-ismb-talk-on-big-data-publishing'>Slides</a> </td>
   </tr>
   <tr>
-    <td rowspan=5> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php'>Odd Poster Session</a> </td>
-    <td rowspan=5> 12:25-14:10 </td>
+    <td rowspan="5"> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php'>Odd Poster Session</a> </td>
+    <td rowspan="5"> 12:25-14:10 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B55'>B55: Galaxy LIMS for next-generation sequencing</a></em>, Jelle Scholtalbers </td>
     <td> </td>
   </tr>
@@ -104,15 +104,15 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2013ISMBProteoGenomicsChilton.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <th rowspan=6> 23 July </th>
+    <th rowspan="6"> 23 July </th>
     <td> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php'>ISMB/ECCB Workshop</a> </td>
     <td> 10:30-12:25 </td>
     <td> <em>Bioconductor and Galaxy: examples of successful bioinformatics networks</em>, Wolfgang Huber and <a href='/people/jeremy-goecks/'>Jeremy Goecks</a>; part of  <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK05'>The “How To Guide” for Establishing a Successful Bioinformatics Network</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013ISMBGoecks_BioinformaticsNetworks.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <td rowspan=4> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php'>Even Poster Session</a> </td>
-    <td rowspan=4> 12:25-14:10 </td>
+    <td rowspan="4"> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php'>Even Poster Session</a> </td>
+    <td rowspan="4"> 12:25-14:10 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=A#A66'>A66: GRANATUM-LiSIs: Making complex in silico predictive models accessible to wet biologists</a></em>, Ioannis Kirmitzoglou  </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2013ISMBGranatumLiSIsKirmitzoglou.pdf'>Poster</a> </td>
   </tr>

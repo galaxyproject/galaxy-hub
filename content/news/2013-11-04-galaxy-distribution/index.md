@@ -4,7 +4,7 @@ date: "2013-11-04"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='http://usegalaxy.org/'><img src="/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
+<a href='http://usegalaxy.org/'><img src="/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width="300" /></a><br />**usegalaxy.org**</div>
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2013-11-04)**
 <br />
 <br />

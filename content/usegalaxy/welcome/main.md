@@ -35,8 +35,8 @@ title: usegalaxy.org
 <div class="row">
 <div class="col-md-4 order-1">
 <div class="row align-items-center" style="min-height: 100px">
-    <div class="col-sm-6 text-center"><a href="http://www.psu.edu/" target="_blank"><img src="/images/usegalaxy-welcome/psu_logo.png" alt="Penn State University"></a></div>
-    <div class="col-sm-6 text-center"><a href="http://www.bio.jhu.edu/" target="_blank"><img src="/images/usegalaxy-welcome/jhu_logo.png" alt="Johns Hopkins University"></a></div>
+    <div class="col-sm-6 text-center"><a href="http://www.psu.edu/" target="_blank"><img src="/images/usegalaxy-welcome/psu_logo.png" alt="Penn State University" /></a></div>
+    <div class="col-sm-6 text-center"><a href="http://www.bio.jhu.edu/" target="_blank"><img src="/images/usegalaxy-welcome/jhu_logo.png" alt="Johns Hopkins University" /></a></div>
 </div>
 
 [The Galaxy Team](https://galaxyproject.org/galaxy-team/) is a part of [the Center for Comparative Genomics and Bioinformatics][psu-bx] at [Penn State][psu] and the [Department of Biology][jhu-bio] at [Johns Hopkins University][jhu].
@@ -44,9 +44,9 @@ title: usegalaxy.org
 </div>
 <div class="col-md-8 order-2">
 <div class="row align-items-center" style="min-height: 100px">
-    <div class="col-sm-4 text-center"><a href="https://www.tacc.utexas.edu/" target="_blank"><img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo"></a></div>
-    <div class="col-sm-4 text-center"><a href="https://access-ci.org/" target="_blank"><img src="/images/usegalaxy-welcome/access_logo.png" alt="ACCESS logo"></a></div>
-    <div class="col-sm-4 text-center"><a href="https://jetstream-cloud.org/" target="_blank"><img src="/images/usegalaxy-welcome/jetstream2_logo.png" alt="Jetstream2 Cloud logo"></a></div>
+    <div class="col-sm-4 text-center"><a href="https://www.tacc.utexas.edu/" target="_blank"><img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo" /></a></div>
+    <div class="col-sm-4 text-center"><a href="https://access-ci.org/" target="_blank"><img src="/images/usegalaxy-welcome/access_logo.png" alt="ACCESS logo" /></a></div>
+    <div class="col-sm-4 text-center"><a href="https://jetstream-cloud.org/" target="_blank"><img src="/images/usegalaxy-welcome/jetstream2_logo.png" alt="Jetstream2 Cloud logo" /></a></div>
 </div>
 
 This instance of Galaxy is utilizing infrastructure generously provided by the [Texas Advanced Computing Center][tacc]. Additional resources are provided primarily on the [Jetstream2][jetstream2] cloud via [ACCESS][access], and with support from the [National Science Foundation][nsf].

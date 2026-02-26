@@ -15,5 +15,5 @@ Using multiple reference sequences as a basis for the alignment of the candidate
 
 Available reference databases of the [SILVA](https://www.arb-silva.de/) project can be integrated.
 
-<embed src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389763/pdf/bts252.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389763/pdf/bts252.pdf" width="100%" height="700" type='application/pdf' />
 

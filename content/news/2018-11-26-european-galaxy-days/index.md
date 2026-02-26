@@ -11,7 +11,7 @@ main_subsite: eu
 [European Galaxy Days](https://galaxyproject.org/events/2018-europe-dev/) were held 19 and 20 November 2018 in Freiburg, Germany. >40 participants from all Europe and even US meet for this two day gathering.
 
 <div class="multiple-img">
-<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/134305289@N03/shares/95G83s" title="European Galaxy Days"><img src="https://farm2.staticflickr.com/4864/32110601328_22f5b96a96_z_d.jpg" width="640" height="427" alt="European Galaxy Days"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/134305289@N03/shares/95G83s" title="European Galaxy Days"><img src="https://farm2.staticflickr.com/4864/32110601328_22f5b96a96_z_d.jpg" width="640" height="427" alt="European Galaxy Days" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 The first day was mostly focused on the current state of the Galaxy framework with several talks and demonstrations:

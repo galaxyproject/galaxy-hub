@@ -28,7 +28,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://www.soe.ucsc.edu/people/kuhn'>Robert Kuhn</a> </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
     <th> Sunday<br />January 12 </th>
@@ -39,25 +39,25 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://lbbe.univ-lyon1.fr/-Muyle-Aline-.html'>Aline Muyle</a>, <em>et al.</em> </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
-    <th rowspan=4> Monday<br />January 13 </th>
-    <td rowspan=2 style=" text-align: center;"> 10:00-11:30 </td>
+    <th rowspan="4"> Monday<br />January 13 </th>
+    <td rowspan="2" style=" text-align: center;"> 10:00-11:30 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18AACECC'>P988: The South Green Bioinformatics Platform</a> </td>
-    <td rowspan=2> Poster Session<br />Even Numbers </td>
+    <td rowspan="2"> Poster Session<br />Even Numbers </td>
     <td> </td>
-    <td rowspan=1> <a href='http://www.southgreen.fr/content/mathieu-rouard'>Mathieu Rouard</a>, <em>et al.</em> </td>
+    <td rowspan="1"> <a href='http://www.southgreen.fr/content/mathieu-rouard'>Mathieu Rouard</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1DA9CA'>P1050: Integrative System for Gene Family Gathering and Analysis in a Context of Crops’ Stress Response Study</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PAGIntegrativeSystem.pdf'>Poster</a> </td>
-    <td rowspan=1> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Larivière</a>, <em>et al.</em> </td>
+    <td rowspan="1"> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Larivière</a>, <em>et al.</em> </td>
   </tr>
   <tr>
-    <td rowspan=2 style=" text-align: center;"> 3:00:4:30 </td>
+    <td rowspan="2" style=" text-align: center;"> 3:00:4:30 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1DAFCA'>P135: SNP Genotyping to Accelerate Rice Breeding</a> </td>
-    <td rowspan=2> Poster Session<br />Odd Numbers </td>
+    <td rowspan="2"> Poster Session<br />Odd Numbers </td>
     <td> </td>
     <td> <a href='http://irri.org/about-us/our-people/experts/michael-thomson'>Michael Thomson</a>, <em>et al.</em> </td>
   </tr>
@@ -67,10 +67,10 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='https://pag.confex.com/pag/xxii/webprogram/Person25389.html'>Petr Novak</a>, <em>et al.</em> </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
-    <th rowspan=2> Tuesday<br />January 14 </th>
+    <th rowspan="2"> Tuesday<br />January 14 </th>
     <td> 11:50-12:10 </td>
     <td> <a href='http://app.core-apps.com/pag_2014/abstract/f89d2edeb332c3eef07c74f965839d16'>The Banana Genome Hub</a> </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18AC'>Banana Genomics Workshop</a><div class='indent'>Pacific Salon 6-7 (2nd floor)</div> </td>
@@ -85,13 +85,13 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='/people/dave-clements/'>Dave Clements</a>, Anushka Brownley </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
-    <th rowspan=2> Wednesday<br />January 15 </th>
+    <th rowspan="2"> Wednesday<br />January 15 </th>
     <td style=" text-align: center;"> 11:10-11:50 </td>
     <td> <a href='https://urgi.versailles.inra.fr/About-us/Publications/URGI-plant-and-fungi-platform-distributed-resources-through-GMOD-tools'>URGI Plant and Fungi Platform: Distributed Resources through GMOD Tools</a> </td>
-    <td rowspan=2 style=" text-align: left;"> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1FAC'>GMOD Workshop</a><div class='indent'>Golden West</div> </td>
+    <td rowspan="2" style=" text-align: left;"> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1FAC'>GMOD Workshop</a><div class='indent'>Golden West</div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014PAGURGI.pdf'>Slides</a> </td>
     <td> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Joelle-Amselem'>Joelle Amselem</a>, <em>et al.</em> </td>
   </tr>

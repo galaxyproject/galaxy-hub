@@ -89,7 +89,7 @@ See [Resizing images](#resizing-images).
 
 ### `autowidth`
 
-Use this in an image wrapper to set the `width` CSS property of the `<img>` to `auto`. This can help if you're trying to get several images to line up horizontally like in [/events/cofests/papercuts/](/events/cofests/papercuts/).
+Use this in an image wrapper to set the `width` CSS property of the `<img />` to `auto`. This can help if you're trying to get several images to line up horizontally like in [/events/cofests/papercuts/](/events/cofests/papercuts/).
 
 ### `expand-img`
 

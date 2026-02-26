@@ -69,14 +69,14 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
 
 <table>
   <tr class="th" >
-    <th rowspan=3 colspan=2 style=" text-align:center;"> Instance Type </th>
+    <th rowspan="3" colspan="2" style=" text-align:center;"> Instance Type </th>
     <th> </th>
     <th> </th>
     <th> </th>
     <th> </th>
     <th> </th>
     <th style=" text-align:center;"> Recommended for <a href='/cloudman/capacity-planning/#usage-scenarios'>Usage Scenarios</a> </th>
-    <th rowspan=3 style=" text-align:center;"> Comments </th>
+    <th rowspan="3" style=" text-align:center;"> Comments </th>
   </tr>
   <tr>
     <td> </td>
@@ -95,15 +95,15 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <th> W </th>
   </tr>
   <tr>
-    <th rowspan=5> </th>
+    <th rowspan="5"> </th>
     <th> Micro </th>
-    <td rowspan=3 style=" text-align:center;"> N </td>
-    <td rowspan=3 style=" text-align:center;"> N </td>
-    <td rowspan=3 style=" text-align:center;"> N </td>
-    <td rowspan=3 style=" text-align:center;"> N </td>
-    <td rowspan=3 style=" text-align:center;"> N </td>
-    <td rowspan=3 style=" text-align:center;"> N </td>
-    <td rowspan=3 style=" text-align:left;"> Galaxy may come up on these instances, but it can't run any analysis. </td>
+    <td rowspan="3" style=" text-align:center;"> N </td>
+    <td rowspan="3" style=" text-align:center;"> N </td>
+    <td rowspan="3" style=" text-align:center;"> N </td>
+    <td rowspan="3" style=" text-align:center;"> N </td>
+    <td rowspan="3" style=" text-align:center;"> N </td>
+    <td rowspan="3" style=" text-align:center;"> N </td>
+    <td rowspan="3" style=" text-align:left;"> Galaxy may come up on these instances, but it can't run any analysis. </td>
   </tr>
   <tr>
     <th> Small </th>
@@ -113,19 +113,19 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
   </tr>
   <tr>
     <th> Large </th>
-    <td rowspan=2 style=" class="green"  text-align:center;"> <strong>Y</strong> </td>
-    <td rowspan=2 style=" class="green"  text-align:center;"> <strong>Y</strong> </td>
-    <td rowspan=2 style=" text-align:center;"> N </td>
-    <td rowspan=2 style=" text-align:center;"> N </td>
-    <td rowspan=2 style=" text-align:center;"> N </td>
-    <td rowspan=2 style=" text-align:center;"> N </td>
-    <td rowspan=2 style=" text-align:left;"> <em>Recommended</em> for Scenario 1: Light Usage, head and worker nodes. </td>
+    <td rowspan="2" style=" class="green"  text-align:center;"> <strong>Y</strong> </td>
+    <td rowspan="2" style=" class="green"  text-align:center;"> <strong>Y</strong> </td>
+    <td rowspan="2" style=" text-align:center;"> N </td>
+    <td rowspan="2" style=" text-align:center;"> N </td>
+    <td rowspan="2" style=" text-align:center;"> N </td>
+    <td rowspan="2" style=" text-align:center;"> N </td>
+    <td rowspan="2" style=" text-align:left;"> <em>Recommended</em> for Scenario 1: Light Usage, head and worker nodes. </td>
   </tr>
   <tr>
     <th> Extra Large </th>
   </tr>
   <tr>
-    <th rowspan=3> High-<br />Mem-<br />ory </th>
+    <th rowspan="3"> High-<br />Mem-<br />ory </th>
     <th> Extra Large </th>
     <td> </td>
     <td> </td>
@@ -156,15 +156,15 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <td> The <a href='/galaxy-team/'>Galaxy Team</a> uses this head node in workshops that run TopHat.  It can support ~30 concurrent TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
   </tr>
   <tr>
-    <th rowspan=2> Com-<br />pute </th>
+    <th rowspan="2"> Com-<br />pute </th>
     <th> Cluster Any </th>
-    <td rowspan=2 style=" text-align:center;"> X </td>
-    <td rowspan=2 style=" text-align:center;"> X </td>
-    <td rowspan=2 style=" text-align:center;"> X </td>
-    <td rowspan=2 style=" text-align:center;"> X </td>
-    <td rowspan=2 style=" text-align:center;"> X </td>
-    <td rowspan=2 style=" text-align:center;"> X </td>
-    <td rowspan=2 style=" text-align:left;"> These are not supported by CloudMan </td>
+    <td rowspan="2" style=" text-align:center;"> X </td>
+    <td rowspan="2" style=" text-align:center;"> X </td>
+    <td rowspan="2" style=" text-align:center;"> X </td>
+    <td rowspan="2" style=" text-align:center;"> X </td>
+    <td rowspan="2" style=" text-align:center;"> X </td>
+    <td rowspan="2" style=" text-align:center;"> X </td>
+    <td rowspan="2" style=" text-align:left;"> These are not supported by CloudMan </td>
   </tr>
   <tr>
     <th> GPU Any </th>

@@ -3,7 +3,7 @@ title: "October 2013 Galaxy Update"
 date: "2013-09-30"
 subsites: [global, us]
 ---
-<div class='right'><a href='/galaxy-updates/2013-10/'><img src="/images/logos/GalaxyUpdate200.png" alt="October 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2013-10/'><img src="/images/logos/GalaxyUpdate200.png" alt="October 2013 Galaxy Update" width="150" /></a></div>
 
 The [October 2013 Galaxy Update is out](/galaxy-updates/2013-10/):
 

@@ -7,15 +7,15 @@ date: 2014-08-11
 <br />
 [Distribution Summary 2014_08_11](/news/2014-08-11-galaxy-distribution/)
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width="175" /></a></div>
 
 <br />
 <br />
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -54,7 +54,7 @@ Tools now annotate citation information. Tools annotate citations using either D
 
 # New! Docker
 
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=220 /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width="220" /></a></div>
 
 [Wiki](https://wiki.galaxyproject.org/Admin/Tools/Docker), Authored by Helena Rasche
 
@@ -104,7 +104,7 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 1. Fix for interpreter on version commands (when different from command interpreter). Tracked down by Will Holtz, patched by Peter Cock. [d5AOLrGd](https://trello.com/c/d5AOLrGd)
 1. Admin operation »Impersonate a user« now functions when using external authentication. [zwqNwflD](https://trello.com/c/zwqNwflD)
 1. Public Galaxy Main’s Proxy is now serving for bigBed formatted datatypes correctly in external application visualization application (such as IGB). [ZLH7Lowr](https://trello.com/c/ZLH7Lowr)
-1. URL <input> tag corrected (was missing parameters) to permit proper data_source interpretation, fixing problematic URL transfer for data upload. [88dgqGuA](https://trello.com/c/88dgqGuA)
+1. URL <input /> tag corrected (was missing parameters) to permit proper data_source interpretation, fixing problematic URL transfer for data upload. [88dgqGuA](https://trello.com/c/88dgqGuA)
 1. Fix issue where running a »dockerized« tool, without a local docker image, fails (only) the first time it is used. [B4Sy7VyQ](https://trello.com/c/B4Sy7VyQ)
 1. Fix `PBS GALAXY_SLOTS` configuration for torque environments explicitly defining num slots. [ygMf67oE](https://trello.com/c/ygMf67oE)
 1. Fix to allow editing of workflows on the fly, for radio buttons, too. Modified by Saket Choudhary.[Ww1pg6jX](https://trello.com/c/Ww1pg6jX)

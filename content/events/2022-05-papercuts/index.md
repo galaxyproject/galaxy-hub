@@ -13,7 +13,7 @@ tags: [cofest, papercuts]
 subsites: [all-eu, global, us]
 ---
 
-<img style="float:right; height:12rem; padding-left:10px" class="text-center img-sizer autowidth" src="/events/2022-05-papercuts/papercuts-2022-05.png">
+<img style="float:right; height:12rem; padding-left:10px" class="text-center img-sizer autowidth" src="/events/2022-05-papercuts/papercuts-2022-05.png" />
 
 </img>
 

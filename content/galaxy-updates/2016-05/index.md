@@ -10,7 +10,7 @@ title: May 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the May 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
@@ -238,7 +238,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 5-9 </th>
@@ -277,7 +277,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <td> <a href='http://gmod.org/wiki/Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> July 4-8 </th>
@@ -398,13 +398,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -665,7 +665,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

@@ -3,7 +3,7 @@
 
 <table>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src="/images/logos/IowaState.png" alt="Iowa State University"  /></a> </td>
+    <td colspan="3" style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src="/images/logos/IowaState.png" alt="Iowa State University"  /></a> </td>
   </tr>
 </table>
 

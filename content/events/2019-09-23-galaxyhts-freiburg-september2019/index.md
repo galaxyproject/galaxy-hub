@@ -32,7 +32,7 @@ We are offering a Galaxy beginner workshop on high-throughput data analysis. 30 
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 
 # Important notes

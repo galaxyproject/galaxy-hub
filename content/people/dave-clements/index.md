@@ -274,7 +274,7 @@ Are coming, the next time I need to do a biosketch.
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405HGMM_Workshop.pdf'>Sides</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> May 12 </th>
+    <th rowspan="2"> May 12 </th>
     <td> <em><a href='/events/uk-may2014/u-edinburgh/'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405UEDINBURGHWorkshop.pdf'>Galaxy Sides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405EdinburghGenomics.pdf'>Edinburgh Genomics Sides</a> </td>
@@ -315,14 +315,14 @@ Are coming, the next time I need to do a biosketch.
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014GMODGalaxyUpdae.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> January 11-15 </th>
+    <th rowspan="2"> January 11-15 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a></em><div class='indent'>with Anushka Brownley</div> </td>
-    <td rowspan=2> <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
+    <td rowspan="2"> <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014PAGNGSAnalysisWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a></em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
-    <td rowspan=1> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
+    <td rowspan="1"> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
   </tr>
 </table>
 
@@ -340,19 +340,19 @@ Are coming, the next time I need to do a biosketch.
   <tr>
     <th> October 21-25 </th>
     <td> <em><a href='/events/u-cape-town2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
-    <td rowspan=1> <a href='/events/sa-workshop-tour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
+    <td rowspan="1"> <a href='/events/sa-workshop-tour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
     <td> <a href='/events/u-cape-town2013/'>Slides</a> </td>
   </tr>
   <tr>
     <th> October 14-18 </th>
     <td> <em><a href='/events/u-pretoria2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
-    <td rowspan=1> <a href='/events/sa-workshop-tour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
+    <td rowspan="1"> <a href='/events/sa-workshop-tour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
     <td> <a href='/events/u-pretoria2013/'>Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=4> July 18-23 </th>
+    <th rowspan="4"> July 18-23 </th>
     <td> <em><a href='/events/niehs2013/'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
-    <td rowspan=4> <a href='/events/rt-workshop-tour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
+    <td rowspan="4"> <a href='/events/rt-workshop-tour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
     <td> <a href='/events/niehs2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
@@ -374,8 +374,8 @@ Are coming, the next time I need to do a biosketch.
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013FGEDWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> April 29 - May 2 </th>
-    <td rowspan=3 style=" text-align: left;"> <em><a href='/events/missouri-workshop-tour2013/'>Introduction to Galaxy Workshops</a></em><div class='indent'> <a href='/events/missouri-workshop-tour2013/'>2013 Galaxy Workshop Tour</a></div> </td>
+    <th rowspan="3"> April 29 - May 2 </th>
+    <td rowspan="3" style=" text-align: left;"> <em><a href='/events/missouri-workshop-tour2013/'>Introduction to Galaxy Workshops</a></em><div class='indent'> <a href='/events/missouri-workshop-tour2013/'>2013 Galaxy Workshop Tour</a></div> </td>
     <td> <a href='/events/wash-u2013/'>Washington University in St. Louis</a></td>
     <td> <a href='/events/wash-u2013/#links'>Slides</a> </td>
   </tr>
@@ -390,7 +390,7 @@ Are coming, the next time I need to do a biosketch.
   <tr>
     <th> April 12 </th>
     <td> <em><a href='http://www.tgac.ac.uk/tgac-science-symposia-2013/about-dave-clements/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
-    <td rowspan=2> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre</a>, Norwich, United Kingdom </td>
+    <td rowspan="2"> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre</a>, Norwich, United Kingdom </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013TGACTalk.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -405,9 +405,9 @@ Are coming, the next time I need to do a biosketch.
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013BiocurationGalaxyIntro.pdf'>Galaxy Intro slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013BiocurationGOGalxy.pdf'>GO Galaxy Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> April 5-6 </th>
+    <th rowspan="3"> April 5-6 </th>
     <td> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Galaxy Project Update</a></em> </td>
-    <td rowspan=3> <a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a>, Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
+    <td rowspan="3"> <a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a>, Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Slides</a> </td>
   </tr>
   <tr>

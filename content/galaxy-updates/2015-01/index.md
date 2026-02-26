@@ -1,7 +1,7 @@
 ---
 title: January 2015 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the January *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -28,13 +28,13 @@ The new papers covered these topics:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -165,14 +165,14 @@ There are [upcoming events](/events/) on two continents.  See the [Galaxy Events
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> February 16-18 </th>
+    <th rowspan="3"> February 16-18 </th>
     <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
-    <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
+    <td rowspan="1"> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
-    <td rowspan=2> <a href='http://www.triconference.com/Integration-Analysis-Visualization/'>Genomics & Sequencing Data Integration, Analysis and Visualization</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
+    <td rowspan="2"> <a href='http://www.triconference.com/Integration-Analysis-Visualization/'>Genomics & Sequencing Data Integration, Analysis and Visualization</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='http://www.ci.anl.gov/profile/250'>Ravi Madduri</a> </td>
   </tr>
   <tr>
@@ -256,7 +256,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## VectorBase Galaxy
 
-<div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src="/images/logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
+<div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src="/images/logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width="300" /></a></div>
 
 * *Link:*
     * [Vectorbase Galaxy](http://galaxy.vectorbase.org:8080/)
@@ -303,7 +303,7 @@ Several new Training Resources were added in December:
 
 New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released in August.
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

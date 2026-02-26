@@ -12,8 +12,8 @@ date: 2013-08-12
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -260,7 +260,7 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 <br />
 
 <div class='right'>
-<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/images/news-graphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
+<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/images/news-graphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width="300" /></a><br />**GCC 2013**</div>
 
 # Project Updates
 

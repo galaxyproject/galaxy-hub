@@ -49,7 +49,7 @@ You don't know what Bioconda is, read our [community manuscript](https://www.ncb
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 <!-- # Important notes -->
 

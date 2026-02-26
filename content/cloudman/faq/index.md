@@ -42,7 +42,7 @@ You can add additional storage space to your cluster by adding a file system to 
 To add a new file system, go to CloudMan Admin page, and click *Add new* under *File systems* section of the page. You can choose among several storage device options:
 
 <div class='center'>
-<img src="http://i.imgur.com/pRqlWiw.png" alt="" width=250 />
+<img src="http://i.imgur.com/pRqlWiw.png" alt="" width="250" />
 </div>
 
 * *Bucket*: an AWS S3 bucket. To connect to an existing bucket, you just need a bucket name. Keep in mind that this option will work only if you have appropriate permissions for the specified bucket.
