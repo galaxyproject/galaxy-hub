@@ -8,7 +8,7 @@ process, we have made this reference available from a variety of schemes.
 
 ## Data Structure
 
-The data repository can be browsed via HTTP at <http://datacache.galaxyproject.org>.
+The data repository can be browsed via HTTP at [http://datacache.galaxyproject.org](http://datacache.galaxyproject.org).
 
 There are two primary directories in the reference data repository:
 

@@ -61,14 +61,22 @@ if (!Object.values(transforms).some(Boolean)) {
  */
 function splitFile(content) {
     const match = content.match(/^(---\r?\n)([\s\S]*?\r?\n)(---\r?\n)/);
-    if (!match) return null;
+    if (!match) {
+        // No frontmatter — treat entire file as body
+        return {
+            frontmatter: null,
+            body: content,
+            rebuild(_fm, bd) {
+                return bd;
+            },
+        };
+    }
     const fmStart = match[1].length;
     const fmEnd = fmStart + match[2].length;
     const bodyStart = fmEnd + match[3].length;
     return {
         frontmatter: content.slice(fmStart, fmEnd),
         body: content.slice(bodyStart),
-        // Reconstruct with possibly-modified parts
         rebuild(fm, bd) {
             return `---\n${fm}---\n${bd}`;
         },
@@ -232,14 +240,16 @@ async function main() {
         let { frontmatter: fm, body } = parts;
         let changed = false;
 
-        // Frontmatter transforms
-        if (transforms.stripLayout) {
-            const newFm = stripLayout(fm);
-            if (newFm !== fm) { fm = newFm; changed = true; }
-        }
-        if (transforms.normalizeFrontmatterArrays) {
-            const newFm = normalizeFrontmatterArrays(fm);
-            if (newFm !== fm) { fm = newFm; changed = true; }
+        // Frontmatter transforms (skip for files without frontmatter)
+        if (fm !== null) {
+            if (transforms.stripLayout) {
+                const newFm = stripLayout(fm);
+                if (newFm !== fm) { fm = newFm; changed = true; }
+            }
+            if (transforms.normalizeFrontmatterArrays) {
+                const newFm = normalizeFrontmatterArrays(fm);
+                if (newFm !== fm) { fm = newFm; changed = true; }
+            }
         }
 
         // Body transforms

@@ -1,4 +1,4 @@
-<br><br>
+<br /><br />
 
 <div class="img-sizer center" style="height: 50px">
 
@@ -13,7 +13,7 @@
 
 </div>
 
-<br>
+<br />
 
 <div class="text-center" style="font-family: arial, helvetica, sans-serif">
 

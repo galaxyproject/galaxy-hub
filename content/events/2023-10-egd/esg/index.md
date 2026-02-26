@@ -12,8 +12,8 @@ Friday October 6th
 | 10:00-10:30 | [Report from the WP2 Leader](https://docs.google.com/presentation/d/1fi2f7FN_dsneUmn8dK6buuspBtVNZwUl) | Stian Soiland-Reyes |
 | 10:30-11:00 | Coffee break | |
 | 11:00-11:30 | [Report from the WP3 Leader](https://docs.google.com/presentation/d/1W8Qmrjq1ll2EFjXpD7MKgn03ll8S0FbT) | Marco Tangaro |
-| 11:30-12:00 | [Report from the WP4 Leader](https://docs.google.com/presentation/d/17psMxhLY1u0SrHfI4_497-m1UMrtO-Nh)<br> (+ [movie](https://drive.google.com/file/d/1SMyL-MRwRaMLpBl_8RqTd7_7BVs0TZMt/view?usp=drive_link)) | Sebastian Luna-Valero |
-| 12:00-13:00 | [Report from the WP5 Leader](https://docs.google.com/presentation/d/1XQEENqUL9TUh1ahw5sfJLHCXCrj7ClRB)<br> plus optional community discussion | Nikolay Vazov | 
+| 11:30-12:00 | [Report from the WP4 Leader](https://docs.google.com/presentation/d/17psMxhLY1u0SrHfI4_497-m1UMrtO-Nh)<br /> (+ [movie](https://drive.google.com/file/d/1SMyL-MRwRaMLpBl_8RqTd7_7BVs0TZMt/view?usp=drive_link)) | Sebastian Luna-Valero |
+| 12:00-13:00 | [Report from the WP5 Leader](https://docs.google.com/presentation/d/1XQEENqUL9TUh1ahw5sfJLHCXCrj7ClRB)<br /> plus optional community discussion | Nikolay Vazov | 
 | 13:00-14:30 | Lunch | |
 | 14:30-16:00 | WP workshops and discussions in parallel and later mixed as needed | all |
 | 16:00-16:30 | Coffee break | |
