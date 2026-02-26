@@ -13,6 +13,7 @@
  *   node src/build/normalize-content.mjs --convert-gridsome-syntax
  *   node src/build/normalize-content.mjs --convert-kramdown
  *   node src/build/normalize-content.mjs --fix-void-elements
+ *   node src/build/normalize-content.mjs --fix-unquoted-attrs
  *   node src/build/normalize-content.mjs --escape-lt-digits
  *   node src/build/normalize-content.mjs --fix-autolinks
  *   node src/build/normalize-content.mjs --all
@@ -38,6 +39,7 @@ const transforms = {
     convertGridsomeSyntax: runAll || args.includes('--convert-gridsome-syntax'),
     convertKramdown: runAll || args.includes('--convert-kramdown'),
     fixVoidElements: runAll || args.includes('--fix-void-elements'),
+    fixUnquotedAttrs: runAll || args.includes('--fix-unquoted-attrs'),
     escapeLtDigits: runAll || args.includes('--escape-lt-digits'),
     fixAutolinks: runAll || args.includes('--fix-autolinks'),
 };
@@ -46,7 +48,8 @@ if (!Object.values(transforms).some(Boolean)) {
     console.error('Usage: node src/build/normalize-content.mjs <transform> [--check]');
     console.error('Transforms: --strip-layout, --normalize-frontmatter-arrays,');
     console.error('  --strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown,');
-    console.error('  --fix-void-elements, --escape-lt-digits, --fix-autolinks, --all');
+    console.error('  --fix-void-elements, --fix-unquoted-attrs, --escape-lt-digits,');
+    console.error('  --fix-autolinks, --all');
     process.exit(1);
 }
 
@@ -187,15 +190,40 @@ function convertKramdownAttributes(content) {
 // ── MDX-compatibility transforms ────────────────────────────────────
 
 /**
- * Self-close void HTML elements: <br> → <br />, <hr> → <hr />
+ * Self-close void HTML elements: <br> → <br />, <img src="x"> → <img src="x" />
  * MDX requires XHTML-style self-closing for void elements.
+ * Covers all 13 HTML void elements.
  */
 function fixVoidElements(content) {
+    const voidElements = [
+        'br', 'hr', 'img', 'input', 'embed', 'source', 'track',
+        'wbr', 'area', 'base', 'col', 'meta', 'link',
+    ];
     return outsideCodeFences(content, (text) => {
-        // Match <br> or <hr> not already self-closed, with optional attributes
-        return text
-            .replace(/<br(\s[^>]*)?\s*(?<!\/)>/gi, '<br$1 />')
-            .replace(/<hr(\s[^>]*)?\s*(?<!\/)>/gi, '<hr$1 />');
+        let result = text;
+        for (const tag of voidElements) {
+            result = result.replace(
+                new RegExp(`<${tag}(\\s[^>]*[^/])?>`, 'gi'),
+                (match, attrs) => `<${tag}${attrs || ''} />`
+            );
+        }
+        return result;
+    });
+}
+
+/**
+ * Quote bare numeric attribute values: rowspan=3 → rowspan="3"
+ * MDX/JSX requires all attribute values to be quoted.
+ */
+function fixUnquotedAttributes(content) {
+    return outsideCodeFences(content, (text) => {
+        let result = text;
+        let prev;
+        do {
+            prev = result;
+            result = result.replace(/(\s)(\w+)=(\d+)(?=\s|>|\/)/g, '$1$2="$3"');
+        } while (prev !== result);
+        return result;
     });
 }
 
@@ -267,6 +295,10 @@ async function main() {
         }
         if (transforms.fixVoidElements) {
             const newBody = fixVoidElements(body);
+            if (newBody !== body) { body = newBody; changed = true; }
+        }
+        if (transforms.fixUnquotedAttrs) {
+            const newBody = fixUnquotedAttributes(body);
             if (newBody !== body) { body = newBody; changed = true; }
         }
         if (transforms.escapeLtDigits) {
