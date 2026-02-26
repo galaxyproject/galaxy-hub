@@ -2,7 +2,6 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import {
   hasProblematicHtml,
   needsVueProcessing,
-  convertFontAwesomeToLucide,
   convertHtmlToJsx,
   addBootstrapMarker,
   normalizeSlugSegment,
@@ -118,55 +117,6 @@ describe('needsVueProcessing', () => {
   it('honors components: true even when HTML is problematic', () => {
     // Author explicit opt-in overrides hasProblematicHtml (Vue artifacts are stripped in preprocessing)
     expect(needsVueProcessing('<div><div></div>\n<vega-embed spec="x" />', { components: true })).toBe(true);
-  });
-});
-
-describe('convertFontAwesomeToLucide', () => {
-  it('converts FA4 syntax (fa fa-icon)', () => {
-    const input = '<i class="fa fa-laptop"></i>';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-    expect(result).toContain('viewBox="0 0 24 24"');
-  });
-
-  it('converts FA5 syntax (fas fa-icon)', () => {
-    const input = '<i class="fas fa-video"></i>';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-  });
-
-  it('converts FA6 syntax (fa fa-solid fa-icon)', () => {
-    const input = '<i class="fa fa-solid fa-book"></i>';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-  });
-
-  it('converts brand icons (fab fa-icon)', () => {
-    const input = '<i class="fab fa-github"></i>';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-  });
-
-  it('preserves unmapped icons', () => {
-    const input = '<i class="fa fa-unknown-icon"></i>';
-    expect(convertFontAwesomeToLucide(input)).toBe(input);
-  });
-
-  it('leaves non-FA elements unchanged', () => {
-    const input = '<i class="some-other-class"></i>';
-    expect(convertFontAwesomeToLucide(input)).toBe(input);
-  });
-
-  it('handles icons with aria-hidden attribute', () => {
-    const input = '<i class="fa fa-laptop" aria-hidden="true"></i>';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-  });
-
-  it('converts multiple icons in content', () => {
-    const input = '<i class="fa fa-laptop"></i> | <i class="fas fa-video"></i>';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result.match(/<svg/g)).toHaveLength(2);
   });
 });
 
@@ -400,37 +350,6 @@ describe('inlineInserts', () => {
   it('passes content through unchanged when no slots present', () => {
     const content = '# Hello\n\nNo slots here.';
     expect(inlineInserts(content)).toBe(content);
-  });
-});
-
-describe('convertFontAwesomeToLucide - kramdown patterns', () => {
-  it('converts kramdown FA link patterns to Lucide SVGs', () => {
-    const input = '[](){: .fa .fa-envelope style="color: #777"} [email](mailto:test@test.com)';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-    expect(result).not.toContain('{:');
-    expect(result).toContain('mailto:test@test.com');
-  });
-
-  it('converts kramdown FA brand icons', () => {
-    const input = '[](){: .fab .fa-github style="color: #777"} [repo](https://github.com)';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-    expect(result).not.toContain('{:');
-  });
-
-  it('removes unrecognized kramdown FA patterns', () => {
-    const input = '[](){: .fa .fa-unknown-icon style="color: red"}';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).not.toContain('{:');
-    expect(result).toBe('');
-  });
-
-  it('converts fa-rss to SVG', () => {
-    const input = '[](){: .fa .fa-rss style="color: #777"} [feed](/feed.atom)';
-    const result = convertFontAwesomeToLucide(input);
-    expect(result).toContain('<svg');
-    expect(result).toContain('/feed.atom');
   });
 });
 
