@@ -15,7 +15,9 @@ contacts:
 - name: Person
   email: name@example.com
   url: https://example.com
-authors: [Marzipan]
+contributions:
+  authorship:
+    - marzipan
 location:
   name: Strong Badia
 location_url: https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s
