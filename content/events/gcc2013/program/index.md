@@ -1,8 +1,5 @@
 <slot name="/events/gcc2013/header" />
 
-import linkbox from "../linkbox.json"
-<link-box :data="linkbox" />
-
 The 2013 Galaxy Community Conference will start with a [Training Day](/events/gcc2013/training-day/) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](/events/gcc2013/lightning/), [poster sessions](/events/gcc2013/abstracts/posters/), [birds-of-a-feather sessions](/events/gcc2013/bof/), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  However, unlike in previous years, talks will be grouped and scheduled in sessions focusing on particular topics.
