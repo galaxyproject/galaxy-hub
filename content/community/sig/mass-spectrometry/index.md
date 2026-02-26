@@ -88,8 +88,8 @@ Events related to MS data processing will be published here.
  - <i class="fa fa-tv" aria-hidden="true"></i>&nbsp;&nbsp; [Proteomics Galaxy instance](https://proteomics.usegalaxy.eu/)
  - <i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp; &nbsp;[Metabolomics help forum](https://help.galaxyproject.org/tag/metabolomics)
  - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp; &nbsp;[Mass spectrometry user community chat room](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org)
- <!-- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) <-- Subscribe! -->
- - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/1EvGFC39qT8tp-TbLqlXGZehgPm0VXZEYnlac13gBXO0/edit) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
+ <!-- - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; [Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) ← Subscribe! -->
+ - <i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/1EvGFC39qT8tp-TbLqlXGZehgPm0VXZEYnlac13gBXO0/edit) ← There's a section here called 'New here?' that gives tips on how to start contributing as well!
 
 ## Recent publications
 
