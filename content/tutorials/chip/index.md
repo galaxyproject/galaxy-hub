@@ -106,9 +106,9 @@ In this particular case the data is of very high quality and do not need to be t
 |      |
 |------|
 |![](/tutorials/chip/mapping.png)|
-|<em>**Mapping all data at once**. Note that **Select input type** is set to `Single fastq` and by selecting folder (<i class="far fa-folder" aria-hidden="true"></i>) button you can select as entire collection of fastq datasets. **Important**: here we also set readgroups automatically by toggling **Set readgroups information** dropdown to `Set readgroups (SAM/BAM specification)` and setting all **Auto-assign** button to `Yes`. </em>
+|<em>**Mapping all data at once**. Note that **Select input type** is set to `Single fastq` and by selecting folder (<Icon name="folder" />) button you can select as entire collection of fastq datasets. **Important**: here we also set readgroups automatically by toggling **Set readgroups information** dropdown to `Set readgroups (SAM/BAM specification)` and setting all **Auto-assign** button to `Yes`. </em>
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Running <code>BWA</code> on a collection will generate another collection of BAM files. Name this collection <code>mapped data</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
+<div class="alert alert-warning" role="alert"><Icon name="alert-circle" />Running <code>BWA</code> on a collection will generate another collection of BAM files. Name this collection <code>mapped data</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
 
 <!-- Modal for Renaming collection video -->
 <div class="modal fade" id="collection_rename_video" tabindex="-1" role="dialog" aria-labelledby="collection_rename_Vid">
@@ -135,9 +135,9 @@ For post-processing we will remove all non-uniquely mapped reads. This can be do
 |      |
 |------|
 |![](/tutorials/chip/bam_filter.png)|
-|<em>**Filtering multi-mapped reads** by restricting the data to reads with mapping quality above 20. Note that by selecting folder (<i class="far fa-folder" aria-hidden="true"></i>) button you can select as entire collection of BAM datasets to filter at once.</em>
+|<em>**Filtering multi-mapped reads** by restricting the data to reads with mapping quality above 20. Note that by selecting folder (<Icon name="folder" />) button you can select as entire collection of BAM datasets to filter at once.</em>
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running <code>Filter SAM or BAM</code> on a collection will generate another collection of BAM files. Name this collection <code>filtered data</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
+<div class="alert alert-warning" role="alert"><Icon name="alert-circle" /> Running <code>Filter SAM or BAM</code> on a collection will generate another collection of BAM files. Name this collection <code>filtered data</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
 
 # Assessment of ChIP quality
 
@@ -150,7 +150,7 @@ In out experiment there are two replicates, each containing treatment and input 
 |      |
 |------|
 |![](/tutorials/chip/multibamsummary.png)|
-|<em>**Running multiBAMsummary** on a collection of BAM datasets (as before you can select collection by pressing folder (<i class="far fa-folder" aria-hidden="true"></i>) button).</em>
+|<em>**Running multiBAMsummary** on a collection of BAM datasets (as before you can select collection by pressing folder (<Icon name="folder" />) button).</em>
 
 This tool breaks genome into bins of fixed size (10,000 bp in our example) and computes the number of reads falling within each bin. Here is a fragment of its output:
 
@@ -268,11 +268,11 @@ We will use **NGS: DeepTools &rarr; bamCoverage**:
 |      |
 |------|
 |![](/tutorials/chip/bam_cov_1.png)|
-|<em>**Running bamCoverage** on a collection of filtered BAM datasets (as before you can select collection by pressing folder (<i class="far fa-folder" aria-hidden="true"></i>) button). Here we set **Bin size** to `25`.  Next we set **Effective genome size** to `user specified` and enter `12000000` (approximate size of *Saccharomyces cerevisiae* genome). Because this tool has a particularly long interface we cut out important sections to make this image (see the panes below). </em>|
+|<em>**Running bamCoverage** on a collection of filtered BAM datasets (as before you can select collection by pressing folder (<Icon name="folder" />) button). Here we set **Bin size** to `25`.  Next we set **Effective genome size** to `user specified` and enter `12000000` (approximate size of *Saccharomyces cerevisiae* genome). Because this tool has a particularly long interface we cut out important sections to make this image (see the panes below). </em>|
 |![](/tutorials/chip/bam_cov_3.png)|
 |<em>Finally we set **Extend reads to the given average fragment size** to `150`. This is because in this particular experiment DNA was size selected to be between 120 and 170 bp for library preparation.</em>|
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running <code>bamCoverage</code> on a collection of BAM datasets will generate a collection of bigWig datasets. Name this collection <code>coverage</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
+<div class="alert alert-warning" role="alert"><Icon name="alert-circle" /> Running <code>bamCoverage</code> on a collection of BAM datasets will generate a collection of bigWig datasets. Name this collection <code>coverage</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
 
 ## Displaying coverage tracks in a browser
 
@@ -382,7 +382,7 @@ Now it is time to run MACS2. First we will use **NGS: Peak calling &rarr; MACS2 
 |![](/tutorials/chip/predictd1.png)|
 |<em>**Running `predictd`** for estimate the *d* parameter. Here we set **Effective genome size** to Yeast-specific value, set **Band width** to `150` (the fragment length after size selection), and increase **Set upper mfold bound** to `100` (this is a ChIP-exo experiment where we expect to have sharp, greatly enriched regions. Leaving this parameter at its default of `50` may fail to find any peaks because these particular datasets were generated by ChIP-exo protocol).</em>|
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Do this on the other replicate as well!</div>
+<div class="alert alert-warning" role="alert"><Icon name="alert-circle" /> Do this on the other replicate as well!</div>
 
 This procedure will help us estimate the *d* parameter by performing the &#91;cross-correlation] analysis between reads mapping to + and - strands. Let's look at these results:
 
@@ -396,11 +396,11 @@ In the case of these data peaks are very sharp and have narrow gap between them:
 |                |
 |----------------|
 |![](/tutorials/chip/macs1.png)|
-|<em>**Calling peaks with `MACS2` on pooled data**. Here we choose multiple inputs by pressing <i class="far fa-copy" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**. `MACS2`s interface is long and we split it into several pieces in this figure. See the lower section as well - it is important!</em>|
+|<em>**Calling peaks with `MACS2` on pooled data**. Here we choose multiple inputs by pressing <Icon name="copy" /> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**. `MACS2`s interface is long and we split it into several pieces in this figure. See the lower section as well - it is important!</em>|
 |![](/tutorials/chip/macs2.png)|
 |<em>In this lower part of `MACS2` interface set **Build model** to `Do not build the shifting model` (we have already done this with `preductd` in the previous step) and **Set extension size* to `30` (the number we estimated in the previous step). Finally, we will only ask `MACS2` to produce two outputs: `Peak summits` and the one it produced by default, which contains peak coordinates.</em>|
 
-If you set parameters as was shown above `MACS2` will produce two outputs (if it produced more just find the ones called `narrow peaks` and `summits`). Let's click on the pencil icon(<i class="fas fa-pencil-alt" aria-hidden="true"></i>) adjacent to `summits` and `narrow peak` datasets and rename then as shown below:
+If you set parameters as was shown above `MACS2` will produce two outputs (if it produced more just find the ones called `narrow peaks` and `summits`). Let's click on the pencil icon(<Icon name="pencil" />) adjacent to `summits` and `narrow peak` datasets and rename then as shown below:
 
 |         |
 |---------|
@@ -414,7 +414,7 @@ Next, we will run `MACS2` on BAM datasets for Replicate 1 only:
 |![](/tutorials/chip/macs3.png)|
 |<em>**Calling peaks with `MACS2` on R1** With the exception of selecting only R1 datasets, all other parameters should be set as in the previous figure.</em>|
 
-<div class="alert alert-warning trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
+<div class="alert alert-warning trim-p" role="alert"><Icon name="alert-circle" /> Now do this by yourself:
 <hr />
 
 - rename resulting datasets as `R1 summits` and `R1 peaks`
@@ -512,7 +512,7 @@ Next we need to make sure that output of `Cut columns` tool has the type `BED`. 
 |         |
 |---------|
 |![](/tutorials/chip/bed_type.png)|
-|<em>**Setting metadata** to datatype `BED`. Click the pencil icon(<i class="fas fa-pencil-alt" aria-hidden="true"></i>) adjacent to the dataset and choose **Datatype** tab. There you will be able to set it to `BED`.</em>|
+|<em>**Setting metadata** to datatype `BED`. Click the pencil icon(<Icon name="pencil" />) adjacent to the dataset and choose **Datatype** tab. There you will be able to set it to `BED`.</em>|
 
 ## Let's look at everything in the browser
 

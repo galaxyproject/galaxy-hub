@@ -76,7 +76,7 @@ Training nomination is open from **December, 1st** to **December, 31**. Topics w
 
 ## GCCBOSC 2018 Videos are now available
 
-<a class="float-left" href="https://vimeo.com/channels/gccbosc2018"><i class="fa fa-video" style="font-size:48px; color: SteelBlue;"></i></a>
+<a class="float-left" href="https://vimeo.com/channels/gccbosc2018"><Icon name="video" /></a>
 
 **We are pleased to announce that videos from [GCCBOSC 2018](https://gccbosc2018.sched.com/) are available online** and are linked to from the [conference web site](https://gccbosc2018.sched.com/).  Talks from the GCC parts of the meeting are available on a **[Galaxy Vimeo channel](https://vimeo.com/channels/gccbosc2018)**, and talks from the BOSC parts are available on a **[BOSC YouTube channel](https://www.youtube.com/playlist?list=PLir-OOQiOhXaHvCY_KYshsOMULuXDqvh7)** (and joint keynotes are available on both).  There are over 70 presentations across both channels, showing every talk from the opening keynote to the closing keynote.
 
@@ -95,7 +95,7 @@ If you want to know more about what happened at GCCBOSC 2018, take a look at the
 
 ## European Galaxy Days: Slides are online
 
-<a class="float-right" href="/events/2018-europe-dev/"><i class="fas fa-chalkboard-teacher" style="font-size:48px; color: SteelBlue;"></i></a>
+<a class="float-right" href="/events/2018-europe-dev/"><Icon name="presentation" /></a>
 
 Slides for presentations at [European Galaxy Days](/events/2018-europe-dev/) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/events/2018-europe-dev/).
 

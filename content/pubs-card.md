@@ -1,7 +1,7 @@
 ---
 title: Recent Publications
 link: https://www.zotero.org/groups/galaxy
-icon: fas fa-book-open
+icon: book-open
 items:
 
 - title: "Selection analysis identifies unusual clustered mutational changes in Omicron lineage BA.1 that likely impact Spike function"

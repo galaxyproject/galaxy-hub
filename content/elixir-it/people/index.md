@@ -9,9 +9,9 @@ title: Galaxy Italy Team
     <div class="card-body">
       <h4 class="card-title"><b>Federico Zambelli</b></h4>
       <p class="card-text">ELIXIR-Italy technical coordinator and Galaxy Italy team leader</p>
-      <a href="mailto:f.zambelli@ibiom.cnr.it" title="Email"><i class="fa fa-envelope"></i></a>
-      <a href="https://github.com/Federico77z" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="https://orcid.org/0000-0003-3487-4331"><i class="fab fa-orcid"></i></a>
+      <a href="mailto:f.zambelli@ibiom.cnr.it" title="Email"><Icon name="mail" /></a>
+      <a href="https://github.com/Federico77z" title="GitHub"><Icon name="github" /></a>
+      <a href="https://orcid.org/0000-0003-3487-4331"><Icon name="user" /></a>
     </div>
   </div>
   
@@ -20,9 +20,9 @@ title: Galaxy Italy Team
     <div class="card-body">
       <h4 class="card-title"><b>Marco Antonio Tangaro</b></h4>
       <p class="card-text">UseGalaxy.it and Laniakea lead developer</p>
-      <a href="mailto:ma.tangaro@ibiom.cnr.it" title="Email"><i class="fa fa-envelope"></i></a>
-      <a href="https://github.com/mtangaro" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="https://orcid.org/0000-0003-3923-2266"><i class="fab fa-orcid"></i></a>
+      <a href="mailto:ma.tangaro@ibiom.cnr.it" title="Email"><Icon name="mail" /></a>
+      <a href="https://github.com/mtangaro" title="GitHub"><Icon name="github" /></a>
+      <a href="https://orcid.org/0000-0003-3923-2266"><Icon name="user" /></a>
     </div>
   </div>
 
@@ -31,7 +31,7 @@ title: Galaxy Italy Team
     <div class="card-body">
       <h4 class="card-title"><b>Luigi Mansi</b></h4>
       <p class="card-text">UseGalaxy.it and Laniakea developer</p>
-      <a href="https://github.com/LuigiMansi1" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://github.com/LuigiMansi1" title="GitHub"><Icon name="github" /></a>
     </div>
   </div>
 
@@ -40,7 +40,7 @@ title: Galaxy Italy Team
     <div class="card-body">
       <h4 class="card-title"><b>Gaetanomaria De Sanctis</b></h4>
       <p class="card-text">UseGalaxy.it and Laniakea developer</p>
-      <a href="https://github.com/gm-ds" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://github.com/gm-ds" title="GitHub"><Icon name="github" /></a>
     </div>
   </div>
 

@@ -149,7 +149,7 @@ History keeps the entire record of your analysis. To find more about histories t
 
 </div>
 
-Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <i class="fas fa-pencil-alt" aria-hidden="true"></i> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
+Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <Icon name="pencil" /> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
 
 |        |
 |--------|
@@ -184,7 +184,7 @@ You will get the third history item:
 
 ### Counting the number of SNPs per exon
 
-Look at the data obtained from the join operation above (you can do it by clicking the eye icon <i class="far fa-eye" aria-hidden="true"></i> adjacent to the dataset). Below is a subsample of rows from the joined datasets (you may need to scroll sideways to see the entire length of the rows below):
+Look at the data obtained from the join operation above (you can do it by clicking the eye icon <Icon name="eye" /> adjacent to the dataset). Below is a subsample of rows from the joined datasets (you may need to scroll sideways to see the entire length of the rows below):
 
 
 ```
@@ -323,7 +323,7 @@ chr22 22376182 22376505 uc062cbs.1_cds_1_0_chr22_22376183_f 25 +
 chr22 46256560 46263322 uc003bhh.4_cds_0_0_chr22_46256561_r 31 -
 ```
 
-This is exactly as BED6 should look like. However, Galaxy does not know that this is BED6, so we need to tell it that. To do this click on pencil icon <i class="fas fa-pencil-alt" aria-hidden="true"></i> adjacent to the latest history dataset and click on "Datatype" tab:
+This is exactly as BED6 should look like. However, Galaxy does not know that this is BED6, so we need to tell it that. To do this click on pencil icon <Icon name="pencil" /> adjacent to the latest history dataset and click on "Datatype" tab:
 
 |        |
 |--------|
@@ -382,7 +382,7 @@ Lets take a look at the history datasets generated during the analysis described
 |<img src="/tutorials/g101/historyCollapsed.png" alt="Collapsed history" />|
 |<em>**Figure 28.** History provides a complete record of the analysis. It can be converted into a workflow.</em>|
 
-You can see that this history contains all steps of our analysis. So by building this history we have actually created a complete record of our analysis with Galaxy preserving all parameter settings applied at every step. Wouldn't it be nice to just convert this history into a workflow that we'll be able to execute again and again? This can be done by clicking on the cog icon <i class="fa fa-cog" aria-hidden="true"></i> and selecting **Extract Workflow** option:
+You can see that this history contains all steps of our analysis. So by building this history we have actually created a complete record of our analysis with Galaxy preserving all parameter settings applied at every step. Wouldn't it be nice to just convert this history into a workflow that we'll be able to execute again and again? This can be done by clicking on the cog icon <Icon name="settings" /> and selecting **Extract Workflow** option:
 
 |        |
 |--------|
@@ -473,11 +473,11 @@ What we are trying to do here is do design a generic workflow. This means that f
 |        |
 |--------|
 |<img src="/tutorials/g101/runtime_parameter.gif" alt="runtime Tool Selection" />|
-|<em>**Figure 39**. To make a tool parameter settable at runtime simply click the <i class="far fa-caret-square-down" aria-hidden="true"></i> icon.</em>|
+|<em>**Figure 39**. To make a tool parameter settable at runtime simply click the <Icon name="chevron-down" /> icon.</em>|
 
 ### Save! It is important...
 
-Now let's save the changes we've made by clicking cog <i class="fa fa-cog" aria-hidden="true"></i> and selecting **Save**:
+Now let's save the changes we've made by clicking cog <Icon name="settings" /> and selecting **Save**:
 
 |        |
 |--------|
@@ -494,7 +494,7 @@ Curently the Galaxy interface is in the **Workflow** mode. To get back to the **
 
 ### Copy exon dataset to a new history
 
-Since we already have exons in the history let's simply copy them into a new history. To do this click the cog icon <i class="fa fa-cog" aria-hidden="true"></i> and select "Copy Datasets":
+Since we already have exons in the history let's simply copy them into a new history. To do this click the cog icon <Icon name="settings" /> and select "Copy Datasets":
 
 |        |
 |--------|

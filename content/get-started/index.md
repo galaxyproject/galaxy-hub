@@ -12,7 +12,7 @@ title: Get Started
 
 ## Step 1: Get acquainted with Galaxy terminology
 
-The [__Galaxy Glossary__ <i class="fa fa-solid fa-book" aria-hidden="true"></i>](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem.
+The [__Galaxy Glossary__ <Icon name="book" />](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem.
 
 ## Step 2 : Get familiar with Galaxy
 <img class="float-right" src="/images/undraw-illustrations/teamwork.svg" alt="" width="240" />
@@ -33,15 +33,15 @@ Choose your best fit, experiment or try them all!
 
 | Lesson |  Slides | Hands-on | Recording | Interactive Tour |  
 |---|---|---|---|---|
-| A short introduction to Galaxy | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html#1" target="_blank"><i class="fab fa-slideshare" aria-hidden="true"></i></a>   | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a> |  |   |   |
-| Galaxy 101 |   | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a>   | <a href="https://gallantries.github.io/video-library/videos/introduction/galaxy-intro-101/tutorial/" target="_blank"><i class="fas fa-video" aria-hidden="true"></i></a>    |   |
-| Your first Galaxy Analysis | <a href="https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_0" target="_blank"><i class="fab fa-slideshare" aria-hidden="true"></i></a>  |   |<a href="https://youtu.be/1UPCrQxGwcU" target="_blank"><i class="fas fa-video" aria-hidden="true"></i></a> |   |
-| Galaxy Tour  |   |   |   | <a href="https://usegalaxy.org/tours/core.galaxy_ui" target="_blank"><i class="fas fa-mouse" aria-hidden="true"></i></a> |
-| Galaxy Histories |   | <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a>  |   | <a href="https://usegalaxy.org/tours/core.history" target="_blank"><i class="fas fa-mouse" aria-hidden="true"></i></a> |
-| How to reproduce published Galaxy Analysis |  | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-reproduce/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a> |   |   |
-|Introduction to the GTN |<a href="https://training.galaxyproject.org/training-material/topics/contributing/slides/introduction.html#1" target="_blank"><i class="fab fa-slideshare" aria-hidden="true"></i></a> |   | <a href="https://www.youtube.com/watch?v=lDqWxzWNk1k" target="_blank"><i class="fas fa-video" aria-hidden="true"></i></a> |   |
-| How to contribute using Gitpod |   | <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/gitpod/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a>  | <a href="https://youtu.be/_-wnsPttBCo" target="_blank"><i class="fas fa-video" aria-hidden="true"></i></a>  |   |
-|How to create a new tutorial in the GTN   |   |<a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a>   |<a href="https://www.youtube.com/watch?v=Vw9h5kvRH2k" target="_blank"><i class="fas fa-video" aria-hidden="true"></i></a>  |   |   |
+| A short introduction to Galaxy | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html#1" target="_blank"><Icon name="presentation" /></a>   | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html" target="_blank"><Icon name="laptop" /></a> |  |   |   |
+| Galaxy 101 |   | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html" target="_blank"><Icon name="laptop" /></a>   | <a href="https://gallantries.github.io/video-library/videos/introduction/galaxy-intro-101/tutorial/" target="_blank"><Icon name="video" /></a>    |   |
+| Your first Galaxy Analysis | <a href="https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_0" target="_blank"><Icon name="presentation" /></a>  |   |<a href="https://youtu.be/1UPCrQxGwcU" target="_blank"><Icon name="video" /></a> |   |
+| Galaxy Tour  |   |   |   | <a href="https://usegalaxy.org/tours/core.galaxy_ui" target="_blank"><Icon name="mouse" /></a> |
+| Galaxy Histories |   | <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history/tutorial.html" target="_blank"><Icon name="laptop" /></a>  |   | <a href="https://usegalaxy.org/tours/core.history" target="_blank"><Icon name="mouse" /></a> |
+| How to reproduce published Galaxy Analysis |  | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-reproduce/tutorial.html" target="_blank"><Icon name="laptop" /></a> |   |   |
+|Introduction to the GTN |<a href="https://training.galaxyproject.org/training-material/topics/contributing/slides/introduction.html#1" target="_blank"><Icon name="presentation" /></a> |   | <a href="https://www.youtube.com/watch?v=lDqWxzWNk1k" target="_blank"><Icon name="video" /></a> |   |
+| How to contribute using Gitpod |   | <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/gitpod/tutorial.html" target="_blank"><Icon name="laptop" /></a>  | <a href="https://youtu.be/_-wnsPttBCo" target="_blank"><Icon name="video" /></a>  |   |
+|How to create a new tutorial in the GTN   |   |<a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html" target="_blank"><Icon name="laptop" /></a>   |<a href="https://www.youtube.com/watch?v=Vw9h5kvRH2k" target="_blank"><Icon name="video" /></a>  |   |   |
 
 ### Events
 
@@ -55,7 +55,7 @@ We have many more [**Galaxy Training materials**](https://training.galaxyproject
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" />
 
-Have a bug  <i style ="font-size:small;" class="fa fa-solid fa-bug"></i> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)?
+Have a bug  <Icon name="alert-circle" /> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)?
 
 Check our [**issues dedicated page**](/issues/) for known issues, problems and tips. Galaxy uses [**GitHub issues**](https://github.com/galaxyproject/galaxy/issues) for tracking down bugs and feature requests, **please make sure you search the list for duplicates before creating a new issue**.
 

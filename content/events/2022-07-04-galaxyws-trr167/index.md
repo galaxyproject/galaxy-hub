@@ -36,11 +36,11 @@ Schedule:
 
 | Day        | Topics                         | Training material |
 |------------|--------------------------------|-------------------|
-| 04.07.2022 | RNA-Seq analysis: QC, genome mapping, gene quantification, DE | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html" class="fa fa-laptop"></a> |
-| 05.07.2022 | RNA-Seq analysis: visualization and functional profile        | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html" class="fa fa-laptop" target="_blank"></a> <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html" class="fa fa-laptop"></a> |
+| 04.07.2022 | RNA-Seq analysis: QC, genome mapping, gene quantification, DE | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html"><Icon name="laptop" /></a> |
+| 05.07.2022 | RNA-Seq analysis: visualization and functional profile        | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html" target="_blank"><Icon name="laptop" /></a> <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html"><Icon name="laptop" /></a> |
 | 06.07.2022 | Build workflow of RNA-Seq analysis |
-| 07.07.2022 | Pre-processing of scRNA | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/tutorial.html" class="fa fa-laptop"></a> <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html" class="fa fa-laptop"></a> |
-| 08.07.2022 | Clustering of scRNA | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html" class="fa fa-laptop"></a> |
+| 07.07.2022 | Pre-processing of scRNA | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/tutorial.html"><Icon name="laptop" /></a> <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html"><Icon name="laptop" /></a> |
+| 08.07.2022 | Clustering of scRNA | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"><Icon name="laptop" /></a> |
 
 ### Agenda
 Each tutorial is divided into 3 sessions:

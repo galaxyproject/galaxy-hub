@@ -28,7 +28,7 @@ Digitally capable: How science, technology and innovation helps you to build a r
 My career experience as biostatistician and project manager | **Erica Manesso**, Bayer AG
 **Data Science - Perspectives in Academia** |
 ELIXIR - Data for Life | **Katharina Lauer**, ELIXIR
-How I developed my career in data science: role models, training, mentoring and community <a href="https://bit.ly/bebatut-women-data-science-2021" class="fa fa-slideshare"></a> | **Bérénice Batut**, University of Freiburg, de.NBI
+How I developed my career in data science: role models, training, mentoring and community <a href="https://bit.ly/bebatut-women-data-science-2021"><Icon name="presentation" /></a> | **Bérénice Batut**, University of Freiburg, de.NBI
 Woman power in data curation and data management | **Ulrike Wittig**, Heidelberg Institute for Theoretical Studies, de.NBI
 **Panel discussion** |
 

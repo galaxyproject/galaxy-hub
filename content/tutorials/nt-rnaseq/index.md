@@ -150,7 +150,7 @@ Let's start by processing the smaller set of reads from G1E set: `G1E_R1_f_ds_SR
 |      |
 |------|
 |![](./g1e_qc.png)|
-|<em>**QC'ing reads with FastQC**. Note we've pressed the <i class="far fa-copy" aria-hidden="true"></i> button to enable selection of multiple datasets within the **Short read data from your current history** box.</em>|
+|<em>**QC'ing reads with FastQC**. Note we've pressed the <Icon name="copy" /> button to enable selection of multiple datasets within the **Short read data from your current history** box.</em>|
 
 This will generate the following quality value distributions:
 
@@ -163,7 +163,7 @@ This will generate the following quality value distributions:
 <div class="panel panel-info">
  <div class="panel-heading">
     <a data-toggle="collapse" href="#qc" aria-expanded="false" aria-controls="collapseExample">
-       <i class="fa fa-question-circle" aria-hidden="true"></i> What can you tell about these data?
+       <Icon name="help-circle" /> What can you tell about these data?
      </a>
    </div>
    <div class="panel-body collapse" id="qc">
@@ -201,7 +201,7 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
 <div class="panel panel-info">
  <div class="panel-heading">
     <a data-toggle="collapse" href="#qc_after_trim" aria-expanded="false" aria-controls="collapseExample">
-       <i class="fa fa-question-circle" aria-hidden="true"></i> What is the effect of trimming on the data?
+       <Icon name="help-circle" /> What is the effect of trimming on the data?
      </a>
    </div>
    <div class="panel-body collapse" id="qc_after_trim">
@@ -252,12 +252,12 @@ Now we know that we are dealing with a stranded RNAseq experiment and that it ma
 
 ## Copy datasets to a new history
 
-We want to create a new clean history by moving the original sequence data. To do this we click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>) above the history pane and choose **copy datasets** and follow the instructions in the figure below:
+We want to create a new clean history by moving the original sequence data. To do this we click on the cog (<Icon name="settings" />) above the history pane and choose **copy datasets** and follow the instructions in the figure below:
 
 
 |                                                           |                       |
 |-----------------------------------------------------------|-----------------------|
-| **A.** Click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>)<br />Choose "**Copy Datasets**" option: <br />![](./copy_datasets.png) | **B.** Choose which datasets you need to copy:<br />![](./copy_datasets2.png)<br />**C.** Click on the name of the newly created history:<br />![](./datasets_copied.png) |
+| **A.** Click on the cog (<Icon name="settings" />)<br />Choose "**Copy Datasets**" option: <br />![](./copy_datasets.png) | **B.** Choose which datasets you need to copy:<br />![](./copy_datasets2.png)<br />**C.** Click on the name of the newly created history:<br />![](./datasets_copied.png) |
 |<em>**Copying datasets into a new history**</em> |  <em>**A**: Use history options dropdown. **B**: Select datasets to copy and type a new for the new history (`Novel Transcripts (RNAseq)` in this case). **C**: Go to the new history by clicking on the link with its name.</em>  |
 
 Once all datasets are copied it will look something like this:
@@ -273,7 +273,7 @@ We will create two dataset collections: one containing data for G1E cells and th
 
 ![](./create_col_1.png)
 
-<em>Make history items selectable by clicking checkbox (<i class="far fa-check-square" aria-hidden="true"></i>) icon. This will allow individual datasets to be selected.</em>|
+<em>Make history items selectable by clicking checkbox (<Icon name="square-check" />) icon. This will allow individual datasets to be selected.</em>|
 
 ![](./create_col_2.png)
 
@@ -321,7 +321,7 @@ Now that we have collections let's use `Trimmomatic` to trim all datasets in our
 |![](./trim_col.png)|
 |<em>**Trimming an entire collection**. Note that `Single-end or paired-end reads?` is set to `Paired-end (as collection)`. This allows select collections (such `G1E`) as inputs.</em>|
 
-<div class="alert alert-warning trim-p inline-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+<div class="alert alert-warning trim-p inline-p" role="alert"><Icon name="alert-circle" />
 
 Repeat this on `Mk` collection as well.
 
@@ -358,7 +358,7 @@ We will run HISAT with the following settings:
 |![](./hisat1.png)|
 |<em>**HISAT settings**. Upper part of HISAT interface showing that it is being run on a collection `G1E` against `mm10` genome build. Do not forget to scroll down and set **Spliced alignment parameters** as explained above.</em>|
 
-<div class="alert alert-warning trim-p inline-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+<div class="alert alert-warning trim-p inline-p" role="alert"><Icon name="alert-circle" />
 
 Run `HISAT` on the **Mk** collection as well.  Rename collections generated by `HISAT` as `HISAT on G1E` and `HISAT on Mk`, respectively.
 
@@ -373,7 +373,7 @@ After reads have been mapped it would make sense to restrict mapped reads to tho
 |![](./filter_bam.png)|
 |<em>**BAMTools Filter**. Here we are filtering results of HISAT run (a dataset collection called `HISAT on G1E`) by retaining only reads with high <a href="http://genome.sph.umich.edu/wiki/Mapping_Quality_Scores">mapping quality</a> that are paired and mapped in a proper pair.</em>
 
-<div class="alert alert-warning inline-p trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+<div class="alert alert-warning inline-p trim-p" role="alert"><Icon name="alert-circle" />
 
 Repeat this on `HISAT on Mk` collection as well. Rename results as shown below.
 
@@ -398,7 +398,7 @@ Now that we have mapped our reads to the mouse genome with `HISAT`, we want to d
 |![](./stringtie_col.png)|
 |<em>Running `Stringtie` on filtered mapped reads. Here it is run on collection `G1E` and we set `Name prefix for output transcripts` to `G1E`. When running `Stringtie` on collection `Mk` set this accordingly. </em>
 
-<div class="alert alert-warning inline-p trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+<div class="alert alert-warning inline-p trim-p" role="alert"><Icon name="alert-circle" />
 
 Run `Stringtie` on `HISAT on Mk filtered` collection as well. Rename output collections accordingly!
 
@@ -452,7 +452,7 @@ To compare the abundance of transcripts between different cellular states, the f
 |![](./fCount3.png)|
 |<em>Finally expand **Advanced options**, set **GFF gene identifier** to `transcript_id`, Strand specificity of the protocol to `Stranded (reverse)` and hit Enter.</em>|
 
-<div class="alert alert-warning trim-p inline-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+<div class="alert alert-warning trim-p inline-p" role="alert"><Icon name="alert-circle" />
 
 Do not forget to run `featureCounts` on `HISAT on Mk filtered` collection as well. Rename output collections as shown below.
 
@@ -532,7 +532,7 @@ The last four columns are normalized reads counts for two megakarycyte and two G
 <div class="panel panel-info">
  <div class="panel-heading">
     <a data-toggle="collapse" href="#upreg" aria-expanded="false" aria-controls="collapseExample">
-       <i class="fa fa-question-circle" aria-hidden="true"></i> How many transcripts are upregulated in megakaryocytes at 1% significance level?
+       <Icon name="help-circle" /> How many transcripts are upregulated in megakaryocytes at 1% significance level?
      </a>
    </div>
    <div class="panel-body collapse" id="upreg">

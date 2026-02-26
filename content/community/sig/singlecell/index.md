@@ -21,17 +21,17 @@ Do you want to impact the future of single cell in Galaxy?
 ## I'm just trying to learn to analyse my data, how did I get here?
 Hello user! You'll be interested in the following resources:
 
- - <i class="fa fa-road" aria-hidden="true"></i>&nbsp;&nbsp;  [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
- - <i class="fa fa-book" aria-hidden="true"></i>&nbsp; &nbsp; [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
- - <i class="fa fa-tv" aria-hidden="true"></i>&nbsp;&nbsp;   [Single cell Galaxy instance](https://singlecell.usegalaxy.eu)
- - <i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp; &nbsp;  [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
- - <i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp; &nbsp; [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+ - <Icon name="monitor" />&nbsp;&nbsp;  [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
+ - <Icon name="book" />&nbsp; &nbsp; [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)
+ - <Icon name="tv" />&nbsp;&nbsp;   [Single cell Galaxy instance](https://singlecell.usegalaxy.eu)
+ - <Icon name="help-circle" />&nbsp; &nbsp;  [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
+ - <Icon name="message-square" />&nbsp; &nbsp; [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the Galaxy single cell space!
 
 # What are the goals of 🖖🏾SPOC?
 
-<i class="fa fa-bullseye" aria-hidden="true"></i> Goals
+<Icon name="target" /> Goals
 - Prevent work duplication
 - Collaborate across pipeline, ensuring users feedback to developers
 - Identify community needs
@@ -51,7 +51,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 Our meeting agenda is:
 1. Random intro chatter & introductions
 2. Updates from ClickUp site (what people are working on / asking for help)
-    - <i class="fa fa-optin-monster" aria-hidden="true"></i> Help/bugs
+    - <Icon name="user" /> Help/bugs
     - Status reports & new stuff that’s happening
 3. Other cool stuff (example: Smorgasbord)
 4. Ongoing actions to send out
@@ -68,7 +68,7 @@ Our meeting agenda is:
 
 # How can you join & other important links
 
-1. Start by joining our <i class="fa fa-coffee" aria-hidden="true"></i> [🖖🏾SPOC Chatroom](https://matrix.to/#/#spoc3:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
+1. Start by joining our <Icon name="coffee" /> [🖖🏾SPOC Chatroom](https://matrix.to/#/#spoc3:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
 
 2. Then, follow the instructions on our ['👋🏾New here?'](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?tab=t.34ufduimwwz5) tab for key links to calendars, notes, how to contribute, and more!
 

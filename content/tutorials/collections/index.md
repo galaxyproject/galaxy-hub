@@ -4,7 +4,7 @@ title: Processing many samples at once with collections
 redirect: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html"
 ---
 
-<div class="alert alert-info trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Note: we assume that the person reading this tutorial
+<div class="alert alert-info trim-p" role="alert"><Icon name="alert-circle" />Note: we assume that the person reading this tutorial
 
 ---
 
@@ -57,7 +57,7 @@ In this example we have six datasets representing single-end (not paired-end) se
 |      |
 |------|
 |![](/tutorials/collections/creating_list.png)|
-|<em>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click <a href="/tutorials/collections/creating_list.pdf">here</a>). **A**. Click the checkbox <i class="far fa-check-square" aria-hidden="true"></i> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown <a href="/tutorials/histories/#searching-for-datasets">here</a>). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</em>|
+|<em>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click <a href="/tutorials/collections/creating_list.pdf">here</a>). **A**. Click the checkbox <Icon name="square-check" /> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown <a href="/tutorials/histories/#searching-for-datasets">here</a>). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</em>|
 
 ### A paired collection example
 
@@ -116,7 +116,7 @@ To rename a collection click on its name:
 |      |
 |------|
 |![](/tutorials/collections/renaming_collection.png)|
-|<em>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh <i class="fas fa-sync" aria-hidden="true"></i> icon.</em>|
+|<em>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh <Icon name="refresh-cw" /> icon.</em>|
 
 ## Tagging collections
 
@@ -186,7 +186,7 @@ Since we have assigned readgroup information while running BWA we can now merge 
 |      |
 |------|
 |![](/tutorials/collections/collection_use5.png)|
-|<em>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder <i class="far fa-folder" aria-hidden="true"></i> button.</em>
+|<em>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder <Icon name="folder" /> button.</em>
 
 We have now aligned our reads and merged them to a single file for downstream analysis. Using collections allowed us to execute these operations on groups of samples with minimal clicking.
 
