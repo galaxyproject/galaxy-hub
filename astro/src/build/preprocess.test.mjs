@@ -180,8 +180,15 @@ describe('convertVueToJsx', () => {
     expect(convertVueToJsx('use <> for generics')).toBe('use &lt;&gt; for generics');
   });
 
+  it('converts void elements to self-closing', () => {
+    expect(convertVueToJsx('<br>')).toBe('<br />');
+    expect(convertVueToJsx('<hr>')).toBe('<hr />');
+    expect(convertVueToJsx('<img src="x">')).toBe('<img src="x" />');
+  });
+
   it('fixes unquoted numeric attributes', () => {
     expect(convertVueToJsx('<td rowspan=3>')).toBe('<td rowspan="3">');
+    expect(convertVueToJsx('<img width=100>')).toBe('<img width="100" />');
   });
 });
 

@@ -764,6 +764,29 @@ function convertVueToJsx(content) {
   // Escape empty angle brackets <> which look like JSX fragments
   processed = processed.replace(/<>/g, '&lt;&gt;');
 
+  // Self-close void HTML elements for JSX compatibility
+  const voidElements = [
+    'br',
+    'hr',
+    'img',
+    'input',
+    'embed',
+    'source',
+    'track',
+    'wbr',
+    'area',
+    'base',
+    'col',
+    'meta',
+    'link',
+  ];
+  for (const tag of voidElements) {
+    processed = processed.replace(
+      new RegExp(`<${tag}(\\s[^>]*[^/])?>`, 'gi'),
+      (match, attrs) => `<${tag}${attrs || ''} />`
+    );
+  }
+
   // Fix missing space between tag and attribute (e.g., <rowclass= -> <row class=)
   // Common pattern in malformed legacy HTML
   processed = processed.replace(/<(\w+)(class|style|id|href|src|rowspan|colspan|width|height)=/gi, '<$1 $2=');
