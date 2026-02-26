@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
 import {
   communitySlug,
   contributorHasHallOfFame,
@@ -42,6 +43,7 @@ const profileDescription =
   (community as any)?.record?.bio ||
   (community as any)?.record?.description ||
   (community as any)?.record?.funding_statement;
+const profileDescriptionHtml = profileDescription ? marked.parse(profileDescription) : '';
 const githubHandle =
   community?.record && (community as any).type === 'contributor'
     ? (() => {
@@ -145,7 +147,11 @@ function formatDate(date: Date | string | undefined): string {
         </div>
         {
           profileDescription ? (
-            <p class="text-white/80 text-lg max-w-3xl whitespace-pre-line">{profileDescription}</p>
+            <div
+              class="profile-description text-lg max-w-3xl"
+              data-profile-description
+              set:html={profileDescriptionHtml}
+            />
           ) : (
             <p class="text-white/80 text-lg max-w-2xl">
               {matchedType
@@ -387,6 +393,37 @@ function formatDate(date: Date | string | undefined): string {
   .page-header-content {
     position: relative;
     z-index: 1;
+  }
+
+  .profile-description {
+    color: rgb(255 255 255 / 0.8);
+  }
+
+  .profile-description :global(p) {
+    margin: 0.5rem 0;
+  }
+
+  .profile-description :global(p:first-child) {
+    margin-top: 0;
+  }
+
+  .profile-description :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .profile-description :global(ul),
+  .profile-description :global(ol) {
+    margin: 0.5rem 0 0.5rem 1.2rem;
+  }
+
+  .profile-description :global(a) {
+    color: var(--color-galaxy-gold);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .profile-description :global(a:hover) {
+    color: #fff;
   }
 
   .profile-avatar {

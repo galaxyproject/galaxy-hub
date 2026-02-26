@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const supporterSlug = 'eurosciencegateway'; // credited via contributions.funding
+const markdownProfileSlug = 'nfdi4bioimage';
 
 test.describe('Hall of Fame', () => {
   test('/hall-of-fame/ lists contributors', async ({ page }) => {
@@ -36,5 +37,20 @@ test.describe('Hall of Fame', () => {
     // Back link should point to Hall of Fame index
     const backLink = page.locator('a[href="/hall-of-fame/"]').first();
     await expect(backLink).toBeVisible();
+  });
+
+  test(`/hall-of-fame/${markdownProfileSlug} renders markdown profile text while keeping contribution teasers plain`, async ({
+    page,
+  }) => {
+    const response = await page.goto(`/hall-of-fame/${markdownProfileSlug}/`);
+    expect(response?.status()).toBe(200);
+
+    const profileDescription = page.locator('[data-profile-description]').first();
+    await expect(profileDescription).toBeVisible();
+    await expect(profileDescription.locator('a[href="https://nfdi4bioimage.de/"]').first()).toBeVisible();
+    await expect(profileDescription).not.toContainText('[NFDI4BIOIMAGE](');
+
+    // News/Event teases are treated as plain text and should not render markdown links.
+    await expect(page.locator('[data-item] p.line-clamp-2 a')).toHaveCount(0);
   });
 });
