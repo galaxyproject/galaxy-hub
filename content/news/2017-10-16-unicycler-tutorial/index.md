@@ -10,11 +10,7 @@ source_blog: "Galaxy Project Blog"
 source_blog_url: "https://galaxyproject.org/blog/2017-10-16-unicycler-tutorial/"
 ---
 
-<div class="alert alert-info trim-p inline-p" role="alert"><i class="fa fa-fighter-jet" aria-hidden="true"></i>
-
-If you are impatient (like me) and would like to try assembly right away - go to the [tutorial](https://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html).
-
-</div>
+<section class="alert alert-info trim-p inline-p" role="alert"><i class="fa fa-fighter-jet" aria-hidden="true"></i><p>If you are impatient (like me) and would like to try assembly right away - go to the <a href="https://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html">tutorial</a>.</p></section>
 
 Perhaps assembly is spelled **ass**embly for a reason - it is complicated. When I first needed to perform assembly I was uneasy about it - I had never done it before. What I needed was to sequence a genome of an *E. coli* type C-1 that my lab was using in experimental evolution experiments (e.g., [Dickins 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2817424/)). We had generated data and were sitting figuring out what to do with it. Here I describe our logic and how we ended up with integrating genome assembly into Galaxy, so *you* can use your time more wisely.
 
@@ -22,15 +18,13 @@ Perhaps assembly is spelled **ass**embly for a reason - it is complicated. When 
 
 We have sequenced the genome using two technologies: Illumina MiSeq (250 nucleotide paired reads) and Oxford Nanopore. For MiSeq we used [Penn State core facility](https://www.huck.psu.edu/content/instrumentation-facilities/genomics-core-facility) while Oxford Nanopore Sequencing was performed in [James Taylor's lab](https://web.archive.org/web/20210308182933/https://taylorlab.org/) who just could not resist and bought the [MinIon](https://nanoporetech.com/products/minion) device. Of course devices don't simply sequence the DNA. Libraries need to be prepared, QCed, and sequenced. Both myself and James are lucky to have excellent people in the lab. For MiSeq run all experimental work was performed by [Han Mei](http://bmb.psu.edu/directory/hzm5191), a graduate student at Penn State. For Oxford Nanopore run everything was done by [Mallory Freeberg](https://twitter.com/malloryfreeberg?lang=en) (currently a bioinformatician at EMBL-EBI). As you can see below the data were spectacular:
 
-|             |
-|-------------|
-|![](./miseq_qc.png)|
-|<small>**Figure 1.** Quality score distribution for MiSeq reads.</small>|
+![](./miseq_qc.png)
 
-|             |
-|-------------|
-|![](./ont_length.png)|
-|<small>**Figure 2.** Read length distribution for Oxford Nanopore reads. The longest read was 27,519 nucleotides long.</small>|
+<small><strong>Figure 1.</strong> Quality score distribution for MiSeq reads.</small>
+
+![](./ont_length.png)
+
+<small><strong>Figure 2.</strong> Read length distribution for Oxford Nanopore reads. The longest read was 27,519 nucleotides long.</small>
 
 ## Trying assembly
 
@@ -60,10 +54,9 @@ It produced the following assembly (for distinction between contigs and scaffold
 
 Here you can see that the largest scaffold is 4,575,240 bp which is very close to a complete *E. coli* genome (*E. coli* [K-12's genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_000913.3) is 4,641,652 bp). But what about these extra 2,253 scaffolds? Looking at assembly graph generated with SPAdes using [Bandage](http://rrwick.github.io/Bandage/) produces this image:
 
-|             |
-|-------------|
-|![](./spades_graph.png)|
-|<small>**Figure 3.** SPAdes assembly graph. Repeat resolution and scaffolding along this graph produces contigs and scaffolds produced by SPAdes. This is why sequences reported by assembler are longer that nodes shown in this graph.</small>|
+![](./spades_graph.png)
+
+<small><strong>Figure 3.</strong> SPAdes assembly graph. Repeat resolution and scaffolding along this graph produces contigs and scaffolds produced by SPAdes. This is why sequences reported by assembler are longer that nodes shown in this graph.</small>
 
 At the bottom of this graph there is a very large number of subgraphs disconnected from the main graph. It was not clear to me what to do with them and what is their significance.
 
@@ -89,10 +82,9 @@ Applying Unicycler to the same data produces just two (instead of 2,271!) contig
 
 and the final assembly graph that looks like this:
 
-|             |
-|-------------|
-|![](./unicycler_graph.png)|
-|<small>**Figure 4.** Unicycler final assembly graph.</small>|
+![](./unicycler_graph.png)
+
+<small><strong>Figure 4.</strong> Unicycler final assembly graph.</small>
 
 The second short contig is simply the complete genome of bacteriophage &#632;X174, which is added as spike-in in Illumina sequencing protocol.
 
@@ -102,29 +94,23 @@ So after doing all of this the obvious question is why not to enable assembly is
 
 Unicycler has proven to be a great tool. So with help of [Bj&#246;rn Gr&#252;ning](https://github.com/bgruening), [Delphine Lariviere](https://github.com/Delphine-L), and [Dave Bouvier](https://github.com/davebx) we [added it to Bioconda](https://bioconda.github.io/recipes/unicycler/README.html) and [wrapped](https://github.com/galaxyproject/tools-iuc/tree/master/tools/unicycler) it for [Galaxy](http://usegalaxy.org), so anyone can repeat this entire analysis on-line without installing and configuring anything.
 
-<div class="float-right">
-![Bridges](./bridges.jpg)
-</div>
+<img class="float-right" src="./bridges.jpg" alt="Bridges" />
 
 By allowing assembly tools in Galaxy we are also allowing multiple users to perform assembly simultaneously. This requires substantial computational resources. Execution of Unicycler on Galaxy [main instance](http://usegalaxy.org) actually takes place on [Bridges supercomputer](https://www.psc.edu/bridges) at the Pittsburgh Supercomputing Center. This resource allocation is provided by a grant from the [XSEDE](https://www.xsede.org/) consortium for which we are extremely grateful.
 
 The Unicycler interface in Galaxy looks like this:
 
-|             |
-|-------------|
-|![](./unicycler_galaxy.png)|
-|<small>**Figure 5.** Unicycler interface in Galaxy.</small>|
+![](./unicycler_galaxy.png)
 
-<div class="float-right">
-![Bridges](./prokka.jpg)
-</div>
+<small><strong>Figure 5.</strong> Unicycler interface in Galaxy.</small>
+
+<img class="float-right" src="./prokka.jpg" alt="Bridges" />
 
 But it's not just Unicycler, we've also integrated [Quast](http://bioinf.spbau.ru/quast) to evaluate assembly quality and [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml) to produce annotations. So you can start with sequencing reads and end up with full-fledged annotated genome:
 
-|             |
-|-------------|
-|![](./prokka_annotation.png)|
-|<small>**Figure 6.** Assembled and annotated genome of *E. coli* C-1.</small>|
+![](./prokka_annotation.png)
+
+<small><strong>Figure 6.</strong> Assembled and annotated genome of <em>E. coli</em> C-1.</small>
 
 So ...
 
