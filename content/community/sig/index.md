@@ -33,7 +33,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Climate</div>
 </a>
 
-The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.
+<p>The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.</p>
 
 </div>
 
@@ -43,7 +43,7 @@ The Climate Science workbench is a comprehensive set of analysis tools and conso
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Computational Chemistry</div>
 </a>
 
-Group of computational chemistry tool developers, trainers and users to help connect outreach, user needs, and computationalists.
+<p>Group of computational chemistry tool developers, trainers and users to help connect outreach, user needs, and computationalists.</p>
 
 </div>
 
@@ -53,7 +53,7 @@ Group of computational chemistry tool developers, trainers and users to help con
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Earth</div>
 </a>
 
-A web platform to get, process, analyze and visualize earth data.
+<p>A web platform to get, process, analyze and visualize earth data.</p>
 
 </div>
 
@@ -63,7 +63,7 @@ A web platform to get, process, analyze and visualize earth data.
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Ecology</div>
 </a>
 
-A web platform to get, process, analyze and visualize ecological data.
+<p>A web platform to get, process, analyze and visualize ecological data.</p>
 
 </div>
 
@@ -73,7 +73,7 @@ A web platform to get, process, analyze and visualize ecological data.
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Genome Annotation</div>
 </a>
 
-Galaxy as a platform for the annotation of genomes.
+<p>Galaxy as a platform for the annotation of genomes.</p>
 
 </div>
 
@@ -83,7 +83,7 @@ Galaxy as a platform for the annotation of genomes.
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Materials Science</div>
 </a>
 
-A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy.
+<p>A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy.</p>
 
 </div>
 
@@ -93,7 +93,7 @@ A Galaxy workbench with tools and workflows for materials science, including muo
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Microbiology</div>
 </a>
 
-The microGalaxy community gathers microbiological data analysis enthusiasts.
+<p>The microGalaxy community gathers microbiological data analysis enthusiasts.</p>
 
 </div>
 
@@ -103,7 +103,7 @@ The microGalaxy community gathers microbiological data analysis enthusiasts.
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Public Health</div>
 </a>
 
-Announcements and discussion in the Galaxy Public Health Community.
+<p>Announcements and discussion in the Galaxy Public Health Community.</p>
 
 </div>
 
@@ -113,7 +113,7 @@ Announcements and discussion in the Galaxy Public Health Community.
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Digital Humanties</div>
 </a>
 
-Galaxy as a platform for Digital Humanities and Social Sciences.
+<p>Galaxy as a platform for Digital Humanities and Social Sciences.</p>
 
 </div>
 
@@ -133,7 +133,7 @@ Galaxy as a platform for Digital Humanities and Social Sciences.
 <div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Machine Learning</div>
 </a>
 
-A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.
+<p>A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.</p>
 
 </div>
 
@@ -143,18 +143,16 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 <div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Metabolomics</div>
 </a>
 
-Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.
+<p>Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.</p>
 
 </div>
 
-<!-- Natural Language Processing 
+<!-- Natural Language Processing — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Natural Language Processing</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Natural Language Processing</div>
 </a>
-
-An open, interoperable web service platform for natural language processing (NLP) research and development.
-
+<p>An open, interoperable web service platform for natural language processing (NLP) research and development.</p>
 </div>
 -->
 
@@ -165,17 +163,17 @@ An open, interoperable web service platform for natural language processing (NLP
 <div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Proteomics</div>
 </a>
 
-Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research.
+<p>Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research.</p>
 
 </div>
 
 <!-- Single cell & sPatial Omics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Single cell & sPatial Omics</div>
+<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Single cell &amp; sPatial Omics</div>
 </a>
 
-The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.
+<p>The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.</p>
 
 </div>
 
@@ -185,7 +183,7 @@ The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developer
 <div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Image Analysis</div>
 </a>
 
-This community gathers image analysis enthusiasts across different scientific disciplines.
+<p>This community gathers image analysis enthusiasts across different scientific disciplines.</p>
 
 </div>
 
@@ -203,7 +201,7 @@ This community gathers image analysis enthusiasts across different scientific di
 <div class="card-header bg-sig-service text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Small Scale Admins</div>
 </a>
 
-Admins of small scale Galaxy servers.
+<p>Admins of small scale Galaxy servers.</p>
 
 </div>
 
@@ -214,7 +212,7 @@ Admins of small scale Galaxy servers.
 <div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Galaxy Tool Developers</div>
 </a>
 
-A group dedicated to improving Galaxy’s tool ecosystem through coordinated development, shared maintenance practices, and open collaboration. Welcomes anyone interested in building or refining Galaxy tool wrappers.
+<p>A group dedicated to improving Galaxy’s tool ecosystem through coordinated development, shared maintenance practices, and open collaboration. Welcomes anyone interested in building or refining Galaxy tool wrappers.</p>
 
 </div>
 
@@ -233,7 +231,7 @@ A group dedicated to improving Galaxy’s tool ecosystem through coordinated dev
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Africa</div>
 </a>
 
-Galaxy African community.
+<p>Galaxy African community.</p>
 
 </div>
 
@@ -243,7 +241,7 @@ Galaxy African community.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Arabic</div>
 </a>
 
-The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.
+<p>The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.</p>
 
 </div>
 
@@ -253,7 +251,7 @@ The Galaxy Arabic speaking community supports Galaxy activity for the Arabic spe
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Australia</div>
 </a>
 
-Australian Galaxy community.
+<p>Australian Galaxy community.</p>
 
 </div>
 
@@ -263,7 +261,7 @@ Australian Galaxy community.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Czech</div>
 </a>
 
-Česká komunita Galaxy / Czech Galaxy Community.
+<p>Česká komunita Galaxy / Czech Galaxy Community.</p>
 
 </div>
 
@@ -274,7 +272,7 @@ Australian Galaxy community.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Europe</div>
 </a>
 
-The European Galaxy Community and the European Galaxy Server.
+<p>The European Galaxy Community and the European Galaxy Server.</p>
 
 </div>
 
@@ -285,7 +283,7 @@ The European Galaxy Community and the European Galaxy Server.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;France</div>
 </a>
 
-Galaxy in the French-speaking world.
+<p>Galaxy in the French-speaking world.</p>
 
 </div>
 
@@ -295,39 +293,34 @@ Galaxy in the French-speaking world.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;India</div>
 </a>
 
-Indian Galaxy Community.
+<p>Indian Galaxy Community.</p>
 
 </div>
 
 
-<!-- Japan -->
-<!-- Does it still exist?
+<!-- Japan — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/eu/">
 <div class="card-header bg-wg-applied text-white text-center">Japan</div>
 </a>
-
-Pitagora Galaxy Community.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](http://wiki.pitagora-galaxy.org)
-* [<i class="fab fa-twitter" aria-hidden="true">&nbsp; &nbsp;Twitter</i>](https://twitter.com/hashtag/usegalaxyjp)
-
+<p>Pitagora Galaxy Community.</p>
+<ul>
+<li><a href="http://wiki.pitagora-galaxy.org"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Link</a></li>
+<li><a href="https://twitter.com/hashtag/usegalaxyjp"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+</ul>
 </div>
 -->
 
-
-<!-- The Netherlands -->
-<!-- Does it still exist?
+<!-- The Netherlands — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-wg-applied text-white text-center">The Netherlands</div>
 </a>
-
-Galaxy-NL in the Netherlands.
-
-* [<i class="fa fa-external-link-alt" aria-hidden="true">&nbsp; &nbsp;Link</i>](https://www.choosegalaxy.nl)
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team)
-
+<p>Galaxy-NL in the Netherlands.</p>
+<ul>
+<li><a href="https://www.choosegalaxy.nl"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Link</a></li>
+<li><a href="https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team"><i class="fa fa-envelope" aria-hidden="true"></i> Mailing List</a></li>
+</ul>
 </div>
 -->
 
@@ -337,7 +330,7 @@ Galaxy-NL in the Netherlands.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Switzerland</div>
 </a>
 
-Galaxy community in Switzerland.
+<p>Galaxy community in Switzerland.</p>
 
 </div>
 
@@ -347,22 +340,21 @@ Galaxy community in Switzerland.
 <div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;UK</div>
 </a>
 
-Galaxy in the United Kingdom.
+<p>Galaxy in the United Kingdom.</p>
 
 </div>
 
-<!-- Galaxy Español -->
-<!-- Does it still exist?
+<!-- Galaxy Español — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-wg-applied text-white text-center">Galaxy Español</div>
 </a>
-
-Galaxy in Spanish.
-
-* [<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;Mailing List</i>](https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org)
-
+<p>Galaxy in Spanish.</p>
+<ul>
+<li><a href="https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org"><i class="fa fa-envelope" aria-hidden="true"></i> Mailing List</a></li>
+</ul>
 </div>
+-->
 
 <!-- Regional SIGs Card-div end -->
 </div>
@@ -379,12 +371,14 @@ The global community is running a set of scientific multi-year-long projects whi
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">Cancer Informatics</div>
 
-This project emphasizes applying Galaxy in cancer research.
+<p>This project emphasizes applying Galaxy in cancer research.</p>
 
-* [GitHub Project](https://github.com/orgs/galaxyproject/projects/14)
-* [Google Drive](https://drive.google.com/drive/folders/1diqrY6lQ_RbxcJUA-phaYutZqij_X3ku)
-* [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-cancer-informatics:gitter.im)
-* Leadership: Luke Sargent
+<ul>
+<li><a href="https://github.com/orgs/galaxyproject/projects/14">GitHub Project</a></li>
+<li><a href="https://drive.google.com/drive/folders/1diqrY6lQ_RbxcJUA-phaYutZqij_X3ku">Google Drive</a></li>
+<li><a href="https://matrix.to/#/#galaxyproject_wg-cancer-informatics:gitter.im">Matrix Channel</a></li>
+<li>Leadership: Luke Sargent</li>
+</ul>
 
 </div>
 
@@ -393,11 +387,13 @@ This project emphasizes applying Galaxy in cancer research.
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">Human Genetics</div>
 
-This project emphasizes applying Galaxy in human research.
+<p>This project emphasizes applying Galaxy in human research.</p>
 
-* [Google Drive](https://drive.google.com/drive/folders/1YMCwHicRNLtT0t8AIZaQNoT2uaDaQm3H)
-* [Goals Slide](https://docs.google.com/presentation/d/1h4vZe0zOUQVOeFxc49levRpmgWmJlMkedQjp2QRrQZw/edit?usp=sharing)
-* Leadership: Enis Afgan
+<ul>
+<li><a href="https://drive.google.com/drive/folders/1YMCwHicRNLtT0t8AIZaQNoT2uaDaQm3H">Google Drive</a></li>
+<li><a href="https://docs.google.com/presentation/d/1h4vZe0zOUQVOeFxc49levRpmgWmJlMkedQjp2QRrQZw/edit?usp=sharing">Goals Slide</a></li>
+<li>Leadership: Enis Afgan</li>
+</ul>
 
 </div>
 
@@ -406,21 +402,27 @@ This project emphasizes applying Galaxy in human research.
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">COVID-19</div>
 
-This project emphasizes analysis of SARS-CoV-2.
+<p>This project emphasizes analysis of SARS-CoV-2.</p>
 
-* [Project Page](https://galaxyproject.org/projects/covid19/)
-* Leadership: Anton Nekrutenko, Wolfgang Maier
+<ul>
+<li><a href="https://galaxyproject.org/projects/covid19/">Project Page</a></li>
+<li>Leadership: Anton Nekrutenko, Wolfgang Maier</li>
+</ul>
+
 </div>
 
 <!-- VGP -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">VGP</div>
 
-Collaboration between VGP and Galaxy Project for free and easy access to large genome assembly workflows.
+<p>Collaboration between VGP and Galaxy Project for free and easy access to large genome assembly workflows.</p>
 
-* [Slack Channel](https://genomeark.slack.com/archives/C01QJJ175JQ)
-* [Github Project](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2)
-* Leadership: Delphine Lariviere
+<ul>
+<li><a href="https://genomeark.slack.com/archives/C01QJJ175JQ">Slack Channel</a></li>
+<li><a href="https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2">Github Project</a></li>
+<li>Leadership: Delphine Lariviere</li>
+</ul>
+
 </div>
 
 </div>
