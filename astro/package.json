@@ -24,7 +24,8 @@
     "lint:fix": "eslint . --ext .js,.mjs,.ts,.vue,.astro --fix",
     "format": "prettier --write 'src/**/*.{js,mjs,ts,vue,astro,css}'",
     "format:check": "prettier --check 'src/**/*.{js,mjs,ts,vue,astro,css}'",
-    "normalize": "node src/build/normalize-content.mjs"
+    "normalize": "node src/build/normalize-content.mjs",
+    "content:lint": "node src/build/normalize-content.mjs --all --check"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
