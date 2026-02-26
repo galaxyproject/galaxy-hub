@@ -15,16 +15,16 @@ Here we show the basic steps of performing comparative and evolutionary analyses
 |      |
 |------|
 |![](./plant_tribes.png)|
-|<small>Figure 1. The `PlantTribes` analysis workflow</small>
+|<em>Figure 1. The `PlantTribes` analysis workflow</em>
 
 <div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note: we assume that the person reading this tutorial
 <hr />
     <ul>
-        <li>has a basic understanding of how Galaxy works ([see this](/tutorials/g101) if you don't)</li>
-        <li>has an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)</li>
-        <li>has their browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)</li>
-        <li>knows how to upload data into Galaxy ([see this](/tutorials/upload) if you don't)</li>
-        <li>has a basic understanding of dataset collections ([see this](/tutorials/collections) if you don't)</li>
+        <li>has a basic understanding of how Galaxy works (<a href="/tutorials/g101">see this</a> if you don't)</li>
+        <li>has an account in Galaxy (<a href="/tutorials/g101/#setting-up-galaxy-account">see this</a> if you don't)</li>
+        <li>has their browser configured as described <a href="/tutorials/g101/#getting-your-display-sorted-out">here</a></li>
+        <li>knows how to upload data into Galaxy (<a href="/tutorials/upload">see this</a> if you don't)</li>
+        <li>has a basic understanding of dataset collections (<a href="/tutorials/collections">see this</a> if you don't)</li>
     </ul>
 </div>
 
@@ -43,7 +43,7 @@ Here we show the basic steps of performing comparative and evolutionary analyses
 
 ## **Details about the test data**
 
-In this tutorial, we will be using the test data available on the [PlantTribes GitHub repository](https://github.com/dePamphilis/PlantTribes/tree/master/test).
+In this tutorial, we will be using the test data available on the <a href="https://github.com/dePamphilis/PlantTribes/tree/master/test">PlantTribes GitHub repository</a>.
 
 | Dataset            | Description                                                                                                                                                              |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -60,19 +60,19 @@ In this tutorial, we will be using the test data available on the [PlantTribes G
 
 ## **Getting started**
 
-Upload into Galaxy the test datasets that you downloaded from the [PlantTribes GitHub repository](https://github.com/dePamphilis/PlantTribes/tree/master/test).  You can use the upload tool's `Auto-detect` feature or manually set the data formats.  If you use `Auto-detect`, make sure that the data formats are properly set for all files.  With the exception of `targetOrthos.ids` which is `tabular`, data formats are all `fasta`.
+Upload into Galaxy the test datasets that you downloaded from the <a href="https://github.com/dePamphilis/PlantTribes/tree/master/test">PlantTribes GitHub repository</a>.  You can use the upload tool's `Auto-detect` feature or manually set the data formats.  If you use `Auto-detect`, make sure that the data formats are properly set for all files.  With the exception of `targetOrthos.ids` which is `tabular`, data formats are all `fasta`.
 
 |      |
 |------|
 |![](./upload_settings.png)|
-|<small>Figure 2. Uploading the test datasets from the PlantTribes GitHub repository into Galaxy</small>
+|<em>Figure 2. Uploading the test datasets from the PlantTribes GitHub repository into Galaxy</em>
 
 Uploading the datasets into Galaxy creates a new history.  You can rename the history to be `PlantTribes test data` by clicking on `Unnamed history`.
 
 |      |
 |------|
 |![](./after_upload.png)|
-|<small>Figure 3. A new history named `PlantTribes test data`</small>
+|<em>Figure 3. A new history named `PlantTribes test data`</em>
 
 ## **Post-process transcripts derived from a de novo transcriptome assembly (basic run)**
 
@@ -81,14 +81,14 @@ Open the `PlantTribes` section in your tool panel and select the `AssemblyPostpr
 |      |
 |------|
 |![](./app_settings.png)|
-|<small>Figure 4. `AssemblyPostProcessor` options (basic run)</small>
+|<em>Figure 4. `AssemblyPostProcessor` options (basic run)</em>
 
 Executing the `AssemblyPostProcessor` tool with the settings shown in `Figure 4` will produce the following items in your history.
 
 |      |
 |------|
 |![](./app_outputs.png)|
-|<small>Figure 5. `AssemblyPostProcessor` outputs (basic run)</small>
+|<em>Figure 5. `AssemblyPostProcessor` outputs (basic run)</em>
 
 ### Description of the outputs (basic run)
 
@@ -110,14 +110,14 @@ Using the `AssemblyPostProcessor` tool again, enter the following settings to:
 |      |
 |------|
 |![](./app_tgf_settings.png)|
-|<small>Figure 6. `AssemblyPostProcessor` options (advanced run)</small>
+|<em>Figure 6. `AssemblyPostProcessor` options (advanced run)</em>
 
 Executing the `AssemblyPostProcessor` tool with the settings shown in `Figure 6` will produce the following items in your history.
 
 |      |
 |------|
 |![](./app_tgf_outputs.png)|
-|<small>Figure 7. `AssemblyPostProcessor` outputs (advanced run)</small>
+|<em>Figure 7. `AssemblyPostProcessor` outputs (advanced run)</em>
 
 ### Description of the outputs (advanced run)
 
@@ -142,14 +142,14 @@ Select the `GeneFamilyClassifier` tool from the `PlantTribes` section in your to
 |      |
 |------|
 |![](./gfc_settings.png)|
-|<small>Figure 8. `GeneFamilyClassifier` settings</small>
+|<em>Figure 8. `GeneFamilyClassifier` settings</em>
 
 Executing the `GeneFamilyClassifier` tool with the settings shown in `Figure 8` will produce the following items in your history.
 
 |      |
 |------|
 |![](./gfc_outputs.png)|
-|<small>Figure 9. `GeneFamilyClassifier` outputs which include a dataset collection (history item 20)</small>
+|<em>Figure 9. `GeneFamilyClassifier` outputs which include a dataset collection (history item 20)</em>
 
 ### Description of the outputs
 
@@ -174,14 +174,14 @@ Select the `GeneFamilyIntegrator` tool from the `PlantTribes` section in your to
 |      |
 |------|
 |![](./gfi_settings.png)|
-|<small>Figure 10. `GeneFamilyIntegrator` settings</small>
+|<em>Figure 10. `GeneFamilyIntegrator` settings</em>
 
 Executing the `GeneFamilyIntegrator` tool with the settings shown in `Figure 10` will produce the following item in your history.
 
 |      |
 |------|
 |![](./gfi_outputs.png)|
-|<small>Figure 11. `GeneFamilyIntegrator` output</small>
+|<em>Figure 11. `GeneFamilyIntegrator` output</em>
 
 ### Description of the outputs
 
@@ -196,14 +196,14 @@ Select the `GeneFamilyAligner` tool from the `PlantTribes` section in your tool 
 |      |
 |------|
 |![](./gfa_settings.png)|
-|<small>Figure 12. `GeneFamilyAligner` settings</small>
+|<em>Figure 12. `GeneFamilyAligner` settings</em>
 
 Executing the `GeneFamilyAligner` tool with the `Output additional dataset collection of files` option set to "Yes" (in addition to the settings shown in Figure 12) will produce an additional dataset collection item in your history. The elements of this dataset collection are orthogroup multiple sequence alignment files in fasta format. You can render graphic visualizations of these files by clicking on the visualization icon in the history item. You can render the visualization using the `MSA viewer` to visualize large MSAs interactively or you can launch Jalview (a JNLP based multiple sequence alignment editing, visualization, and analysis workbench) to perform additional tasks on the multiple sequence alignment.
 
 |      |
 |------|
 |![](./gfa_outputs.png)|
-|<small>Figure 13. `GeneFamilyAligner` output</small>
+|<em>Figure 13. `GeneFamilyAligner` output</em>
 
 ### Description of the outputs
 
@@ -219,14 +219,14 @@ Select the `GeneFamilyPhylogenyBuilder` tool from the `PlantTribes` section in y
 |      |
 |------|
 |![](./gfpb_settings.png)|
-|<small>Figure 14. `GeneFamilyPhylogenyBuilder` settings</small>
+|<em>Figure 14. `GeneFamilyPhylogenyBuilder` settings</em>
 
 Executing the `GeneFamilyPhylogenyBuilder` tool with the settings shown in `Figure 14` will produce multiple items in your history, including the following dataset collection.  The elements of this dataset collection are orthogroup newick phylogenetic tree files, all having the `nhx` Galaxy datatype.  You can render graphic visualizations of these files by clicking on the `Visualize` icon for the history item which will allow you to choose to render the visualization using either the `Charts` plugin or the `Phyloviz` plugin.  The graphic to the left of the bottom arrow in `Figure 15` is produced when choosing the `Phyloviz` plugin.
 
 |      |
 |------|
 |![](./gfpb_outputs.png)|
-|<small>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</small>
+|<em>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</em>
 
 ### Description of the outputs
 
@@ -241,21 +241,21 @@ Select the `GeneFamilyPhylogenyBuilder` tool from the `PlantTribes` section in y
 |      |
 |------|
 |![](./gfpb_settings.png)|
-|<small>Figure 14. `GeneFamilyPhylogenyBuilder` settings</small>
+|<em>Figure 14. `GeneFamilyPhylogenyBuilder` settings</em>
 
 Executing the `GeneFamilyPhylogenyBuilder` tool with the settings shown in `Figure 14` will produce multiple items in your history, including the following dataset collection.  The elements of this dataset collection are orthogroup newick phylogenetic tree files, all having the `nhx` Galaxy datatype.  You can render graphic visualizations of these files by clicking on the `Visualize` icon for the history item which will allow you to choose to render the visualization using either the `Charts` plugin or the `Phyloviz` plugin.  The graphic to the left of the bottom arrow in `Figure 15` is produced when choosing the `Phyloviz` plugin.
 
 |      |
 |------|
 |![](./gfpb_outputs.png)|
-|<small>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</small>
+|<em>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</em>
 
 The `Charts` plugin provides several options for rendering the visualization.
 
 |      |
 |------|
 |![](./charts.png)|
-|<small>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</small>
+|<em>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</em>
 
 ## **Estimate paralogous and orthologous pairwise non-synonymous (Ka) and synonymous (Ks) substitution rates and visualize the distribution with fitted significant components**
 
@@ -264,14 +264,14 @@ Select the `KaKsAnalysis` tool from the `PlantTribes` section in your tool panel
 |      |
 |------|
 |![](./kaks_settings.png)|
-|<small>Figure 17. `KaKsAnalysis` settings</small>
+|<em>Figure 17. `KaKsAnalysis` settings</em>
 
 Executing the `KaKsAnalysis` tool with the settings shown in `Figure 17` will produce the items shown on the left side of `Figure 18` in your history.
 
 |      |
 |------|
 |![](./kaks_outputs.png)|
-|<small>Figure 18. `KaKsAnalysis` outputs and process flow to visualize the distribution with fitted significant components</small>
+|<em>Figure 18. `KaKsAnalysis` outputs and process flow to visualize the distribution with fitted significant components</em>
 
 ### Description of the outputs (left side of `Figure 18`)
 
@@ -290,13 +290,13 @@ Select the `KsDistribution` tool from the `PlantTribes` section in your tool pan
 
 ## **That's it!**
 
-Hopefully this tutorial has given you a taste for what is possible with these `PlantTribes` tools. Experiment!  There are many more things that you can do with them.  If things do not work - complain using the `Open Chat` button below or the [Galaxy support forum](https://help.galaxyproject.org/).
+Hopefully this tutorial has given you a taste for what is possible with these `PlantTribes` tools. Experiment!  There are many more things that you can do with them.  If things do not work - complain using the `Open Chat` button below or the <a href="https://help.galaxyproject.org/">Galaxy support forum</a>.
 The `Charts` plugin provides several options for rendering the visualization.
 
 |      |
 |------|
 |![](./charts.png)|
-|<small>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</small>
+|<em>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</em>
 
 ## **Estimate paralogous and orthologous pairwise non-synonymous (Ka) and synonymous (Ks) substitution rates and visualize the distribution with fitted significant components**
 
@@ -305,14 +305,14 @@ Select the `KaKsAnalysis` tool from the `PlantTribes` section in your tool panel
 |      |
 |------|
 |![](./kaks_settings.png)|
-|<small>Figure 17. `KaKsAnalysis` settings</small>
+|<em>Figure 17. `KaKsAnalysis` settings</em>
 
 Executing the `KaKsAnalysis` tool with the settings shown in `Figure 17` will produce the items shown on the left side of `Figure 18` in your history.
 
 |      |
 |------|
 |![](./kaks_outputs.png)|
-|<small>Figure 18. `KaKsAnalysis` outputs and process flow to visualize the distribution with fitted significant components</small>
+|<em>Figure 18. `KaKsAnalysis` outputs and process flow to visualize the distribution with fitted significant components</em>
 
 ### Description of the outputs (left side of `Figure 18`)
 
@@ -331,4 +331,4 @@ Select the `KsDistribution` tool from the `PlantTribes` section in your tool pan
 
 ## **That's it!**
 
-Hopefully this tutorial has given you a taste for what is possible with these `PlantTribes` tools. Experiment!  There are many more things that you can do with them.  If things do not work - complain using the `Open Chat` button below or the [Galaxy support forum](https://help.galaxyproject.org/).
+Hopefully this tutorial has given you a taste for what is possible with these `PlantTribes` tools. Experiment!  There are many more things that you can do with them.  If things do not work - complain using the `Open Chat` button below or the <a href="https://help.galaxyproject.org/">Galaxy support forum</a>.
