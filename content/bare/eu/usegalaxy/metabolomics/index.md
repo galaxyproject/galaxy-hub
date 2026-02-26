@@ -113,7 +113,7 @@ Other metabolomics specialized Galaxy servers:
 
 <div class="img-sizer" style="width: 192px">
 
-[![GalaxyP logo](/images/logos/GalaxyPLogo.png)](https://galaxyp.org)
+<a href="https://galaxyp.org"><img src="/images/logos/GalaxyPLogo.png" alt="GalaxyP logo" /></a>
 
 </div>
 
