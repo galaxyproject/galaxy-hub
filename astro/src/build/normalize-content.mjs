@@ -16,6 +16,7 @@
  *   node src/build/normalize-content.mjs --fix-unquoted-attrs
  *   node src/build/normalize-content.mjs --escape-lt-digits
  *   node src/build/normalize-content.mjs --fix-autolinks
+ *   node src/build/normalize-content.mjs --fix-component-case
  *   node src/build/normalize-content.mjs --all
  *   node src/build/normalize-content.mjs --check  (dry-run, exits non-zero if changes needed)
  */
@@ -42,6 +43,7 @@ const transforms = {
   fixUnquotedAttrs: runAll || args.includes('--fix-unquoted-attrs'),
   escapeLtDigits: runAll || args.includes('--escape-lt-digits'),
   fixAutolinks: runAll || args.includes('--fix-autolinks'),
+  fixComponentCase: runAll || args.includes('--fix-component-case'),
 };
 
 if (!Object.values(transforms).some(Boolean)) {
@@ -49,7 +51,7 @@ if (!Object.values(transforms).some(Boolean)) {
   console.error('Transforms: --strip-layout, --normalize-frontmatter-arrays,');
   console.error('  --strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown,');
   console.error('  --fix-void-elements, --fix-unquoted-attrs, --escape-lt-digits,');
-  console.error('  --fix-autolinks, --all');
+  console.error('  --fix-autolinks, --fix-component-case, --all');
   process.exit(1);
 }
 
@@ -262,6 +264,33 @@ function fixAutolinks(content) {
   });
 }
 
+/**
+ * Convert kebab-case/lowercase MDX component names to PascalCase.
+ * MDX treats lowercase as HTML elements; PascalCase signals a component.
+ */
+function fixComponentCase(content) {
+  const componentMap = {
+    'vega-embed': 'VegaEmbed',
+    twitter: 'Twitter',
+    mastodon: 'Mastodon',
+    'video-player': 'VideoPlayer',
+    carousel: 'Carousel',
+    'calendar-embed': 'CalendarEmbed',
+    'markdown-embed': 'MarkdownEmbed',
+    flickr: 'Flickr',
+    supporters: 'Supporters',
+    contacts: 'Contacts',
+  };
+  return outsideCodeFences(content, (text) => {
+    let result = text;
+    for (const [kebab, pascal] of Object.entries(componentMap)) {
+      result = result.replace(new RegExp(`<${kebab}(\\s|>|\\/)`, 'gi'), `<${pascal}$1`);
+      result = result.replace(new RegExp(`</${kebab}>`, 'gi'), `</${pascal}>`);
+    }
+    return result;
+  });
+}
+
 // ── Main ─────────────────────────────────────────────────────────────
 
 async function main() {
@@ -342,6 +371,13 @@ async function main() {
     }
     if (transforms.fixAutolinks) {
       const newBody = fixAutolinks(body);
+      if (newBody !== body) {
+        body = newBody;
+        changed = true;
+      }
+    }
+    if (transforms.fixComponentCase) {
+      const newBody = fixComponentCase(body);
       if (newBody !== body) {
         body = newBody;
         changed = true;
