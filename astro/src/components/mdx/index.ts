@@ -11,6 +11,7 @@ export { default as MarkdownEmbed } from './MarkdownEmbed.astro';
 export { default as Flickr } from './Flickr.astro';
 export { default as Supporters } from './Supporters.astro';
 export { default as Contacts } from './Contacts.astro';
+export { default as Icon } from './Icon.astro';
 
 // Component map using kebab-case keys for MDX
 // Note: When passing to MDX Content, use the PascalCase exports above

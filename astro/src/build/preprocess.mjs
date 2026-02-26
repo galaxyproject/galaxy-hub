@@ -126,7 +126,7 @@ function hasProblematicHtml(content) {
   // Check for markdown tables (pipe-delimited) — only block if table lines contain bare `<`
   // that isn't a recognized inline HTML tag (those parse fine in MDX)
   const pipeTableLines = content.split('\n').filter((l) => /^\|/.test(l));
-  if (pipeTableLines.some((l) => /<(?!\/?(?:a|br|img|em|strong|code|b|i|s|u)\b)[a-z0-9]/i.test(l))) {
+  if (pipeTableLines.some((l) => /<(?!\/?(?:a|br|img|em|strong|code|b|i|s|u|Icon)\b)[a-z0-9]/i.test(l))) {
     return true;
   }
 
@@ -185,6 +185,7 @@ function needsVueProcessing(content, frontmatter) {
     'markdown-embed',
     'MarkdownEmbed',
     'Insert', // Content insertion component (case-sensitive to avoid "<insert your text here>")
+    'Icon', // Lucide icon component
   ];
 
   // Explicit opt-in via frontmatter overrides HTML detection — the author
