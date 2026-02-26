@@ -17,16 +17,7 @@ Here we show the basic steps of performing comparative and evolutionary analyses
 |![](./plant_tribes.png)|
 |<em>Figure 1. The `PlantTribes` analysis workflow</em>
 
-<div class="alert alert-info" role="alert"><Icon name="alert-circle" /> Note: we assume that the person reading this tutorial
-<hr />
-    <ul>
-        <li>has a basic understanding of how Galaxy works (<a href="/tutorials/g101">see this</a> if you don't)</li>
-        <li>has an account in Galaxy (<a href="/tutorials/g101/#setting-up-galaxy-account">see this</a> if you don't)</li>
-        <li>has their browser configured as described <a href="/tutorials/g101/#getting-your-display-sorted-out">here</a></li>
-        <li>knows how to upload data into Galaxy (<a href="/tutorials/upload">see this</a> if you don't)</li>
-        <li>has a basic understanding of dataset collections (<a href="/tutorials/collections">see this</a> if you don't)</li>
-    </ul>
-</div>
+<div class="alert alert-info" role="alert"><Icon name="alert-circle" /> Note: we assume that the person reading this tutorial<hr /><ul><li>has a basic understanding of how Galaxy works (<a href="/tutorials/g101">see this</a> if you don't)</li><li>has an account in Galaxy (<a href="/tutorials/g101/#setting-up-galaxy-account">see this</a> if you don't)</li><li>has their browser configured as described <a href="/tutorials/g101/#getting-your-display-sorted-out">here</a></li><li>knows how to upload data into Galaxy (<a href="/tutorials/upload">see this</a> if you don't)</li><li>has a basic understanding of dataset collections (<a href="/tutorials/collections">see this</a> if you don't)</li></ul></div>
 
 ## **Topic points**
 
@@ -55,7 +46,7 @@ In this tutorial, we will be using the test data available on the <a href="https
 | `species2.faa`     | Corresponding protein sequences for the second species for estimating paralogous and orthologous pairwise synonymous (Ks) and non-synonymous (Ka) substitution rates     |
 
 <div class="alert alert-warning" role="alert">
-**Note**: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
+<strong>Note</strong>: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
 </div>
 
 ## **Getting started**
@@ -93,9 +84,9 @@ Executing the `AssemblyPostProcessor` tool with the settings shown in `Figure 4`
 ### Description of the outputs (basic run)
 
 <ul>
-    <li>Primary TransDecoder coding regions prediction `transcripts.pep` and `transcripts.cds` (history items 7 and 12)</li>
-    <li>Validated and filtered representative coding region predictions `transcripts.cleaned.pep` and `transcripts.cleaned.cds` (history items 8 and 11)</li>
-    <li>Validated, filtered and non-redundant representative coding region predictions `transcripts.cleaned.nr.pep` and `transcripts.cleaned.nr.cds` (history items 9 and 10)</li>
+    <li>Primary TransDecoder coding regions prediction <code>transcripts.pep</code> and <code>transcripts.cds</code> (history items 7 and 12)</li>
+    <li>Validated and filtered representative coding region predictions <code>transcripts.cleaned.pep</code> and <code>transcripts.cleaned.cds</code> (history items 8 and 11)</li>
+    <li>Validated, filtered and non-redundant representative coding region predictions <code>transcripts.cleaned.nr.pep</code> and <code>transcripts.cleaned.nr.cds</code> (history items 9 and 10)</li>
 </ul>
 
 ## **Target gene family assembly of post-processed transcripts derived from a de novo transcriptome assembly**
@@ -103,7 +94,7 @@ Executing the `AssemblyPostProcessor` tool with the settings shown in `Figure 4`
 Using the `AssemblyPostProcessor` tool again, enter the following settings to:
 
 <ul>
-    <li>assign post-processed transcripts of `assembly.fasta` (history item 1) to targeted gene families (orthogroups) listed in the `targetOrthos.ids` (history item 6) of the `22Gv1.1 OrthoMCL scaffold`</li>
+    <li>assign post-processed transcripts of <code>assembly.fasta</code> (history item 1) to targeted gene families (orthogroups) listed in the <code>targetOrthos.ids</code> (history item 6) of the <code>22Gv1.1 OrthoMCL scaffold</code></li>
     <li>whenever possible, reassemble fragmented primary contigs with sufficiently overlapping ends</li>
 </ul>
 
@@ -122,17 +113,10 @@ Executing the `AssemblyPostProcessor` tool with the settings shown in `Figure 6`
 ### Description of the outputs (advanced run)
 
 <ul>
-    <li>Primary `TransDecoder` coding regions prediction `transcripts.pep` and `transcripts.cds` (history items 14 and 19)</li>
-    <li>Validated and filtered representative coding region predictions `transcripts.cleaned.pep` and `transcripts.cleaned.cds` (history items 15 and 18)</li>
-    <li>Validated, filtered and non-redundant representative coding region predictions `transcripts.cleaned.nr.pep` and `transcripts.cleaned.nr.cds` (history items 16 and 17)</li>
-    <li>A collection of sub-directories of post-processed targeted gene family assemblies (history item 13), each of which contains:
-        <ul>
-            <li>targeted gene family primary assembly (`*.contigs.fasta`)</li>
-            <li>corresponding non-redundant representative coding region predictions (`*.contigs.fasta.cds`)</li>
-            <li>corresponding non-redundant representative protein predictions (`*.contigs.fasta.pep`)</li>
-            <li>targeted gene family primary assembly summary statistics (`*.contigs.fasta.stats`)</li>
-        </ul>
-    </li>
+    <li>Primary <code>TransDecoder</code> coding regions prediction <code>transcripts.pep</code> and <code>transcripts.cds</code> (history items 14 and 19)</li>
+    <li>Validated and filtered representative coding region predictions <code>transcripts.cleaned.pep</code> and <code>transcripts.cleaned.cds</code> (history items 15 and 18)</li>
+    <li>Validated, filtered and non-redundant representative coding region predictions <code>transcripts.cleaned.nr.pep</code> and <code>transcripts.cleaned.nr.cds</code> (history items 16 and 17)</li>
+    <li>A collection of sub-directories of post-processed targeted gene family assemblies (history item 13), each of which contains: targeted gene family primary assembly (<code>&ast;.contigs.fasta</code>), corresponding non-redundant representative coding region predictions (<code>&ast;.contigs.fasta.cds</code>), corresponding non-redundant representative protein predictions (<code>&ast;.contigs.fasta.pep</code>), and targeted gene family primary assembly summary statistics (<code>&ast;.contigs.fasta.stats</code>)</li>
 </ul>
 
 ## **Classify post-processed transcripts into pre-computed orthologous gene family clusters**
@@ -154,17 +138,8 @@ Executing the `GeneFamilyClassifier` tool with the settings shown in `Figure 8` 
 ### Description of the outputs
 
 <ul>
-    <li>Gene family classification protein and coding sequences orthogroup fasta files `gene family clusters` (history item 21)</li>
-    <li>Gene family classification metadata files contained within a dataset collection (history item 20) which consists of
-        <ul>
-            <li>`proteins.blastp.22Gv1.1` - `blastp` results of predicted peptides `transcripts.cleaned.nr.pep` (history item 9) against `22Gv1.1 OrthoMCL scaffold` protein blast database</li>
-            <li>`proteins.hmmscan.22Gv1.1` - `hmmscan` results of predicted peptides `transcripts.cleaned.nr.pep` (history item 9) against `22Gv1.1 OrthoMCL scaffold` protein orthogoup HMM profiles</li>
-            <li>`proteins.blastp.22Gv1.1.bestOrthos` - best scoring `22Gv1.1 OrthoMCL scaffold` orthogroups for predicted peptides `transcripts.cleaned.nr.pep` (history item 9) based on `blastp` results</li>
-            <li>`proteins.hmmscan.22Gv1.1.bestOrthos` - best scoring `22Gv1.1 OrthoMCL scaffold` orthogroups for predicted peptides `transcripts.cleaned.nr.pep` (history item 9) based on `hmmscan` results</li>
-            <li>`proteins.both.22Gv1.1.bestOrthos` - selected best scoring `22Gv1.1 OrthoMCL scaffold` orthogroups for predicted peptides `transcripts.cleaned.nr.pep` (history item 9) based on both `blastp` and `hmmscan` results</li>
-            <li>`proteins.both.22Gv1.1.bestOrthos.summary` - annotation summary of assigned orthogroups that includes gene counts of scaffold backbone taxa, super clusters (super orthogoups) at multiple stringencies and functional annotations from sources such as Gene Ontology (GO), InterPro protein domains, TAIR, UniProtKB/TrEMBL and UniProtKB/Swiss-Prot</li>
-        </ul>
-    </li>
+    <li>Gene family classification protein and coding sequences orthogroup fasta files <code>gene family clusters</code> (history item 21)</li>
+    <li>Gene family classification metadata files contained within a dataset collection (history item 20) which consists of: <code>proteins.blastp.22Gv1.1</code> (<code>blastp</code> results), <code>proteins.hmmscan.22Gv1.1</code> (<code>hmmscan</code> results), <code>proteins.blastp.22Gv1.1.bestOrthos</code> (best scoring orthogroups based on <code>blastp</code>), <code>proteins.hmmscan.22Gv1.1.bestOrthos</code> (best scoring orthogroups based on <code>hmmscan</code>), <code>proteins.both.22Gv1.1.bestOrthos</code> (selected best scoring orthogroups based on both), and <code>proteins.both.22Gv1.1.bestOrthos.summary</code> (annotation summary including gene counts, super clusters, and functional annotations from GO, InterPro, TAIR, UniProtKB/TrEMBL and UniProtKB/Swiss-Prot)</li>
 </ul>
 
 ## **Integrate gene models in pre-computed orthologous gene family clusters with classified transcripts**

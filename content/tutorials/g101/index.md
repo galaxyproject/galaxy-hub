@@ -52,7 +52,7 @@ To make this demonstration smooth we would recommend setting up your workspace a
 
 <div class="alert alert-warning trim-p" role="alert">
 
-**Note**: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
+<strong>Note</strong>: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
 
 </div>
 
@@ -278,7 +278,7 @@ Now we know that in this dataset the five top exons contain between 25 and 40 SN
 
 <div class="alert alert-danger trim-p" role="alert">
 
-Note that there are two kinds of join in Galaxy. One is to join genomic features based on positional information: if start and end coordinates of one feature overlap with start and end coordinates of the other, they are joined. This type of join is found in **Operate on Genomics Intervals &#8594; Join**. We used it before to join exons and SNPs (see Fig. 13). Here we use a **different kind** of join. It joins lines from two datasets is they share a common field. It can be found in **Join, Subtract and Group &#8594; Join**.
+Note that there are two kinds of join in Galaxy. One is to join genomic features based on positional information: if start and end coordinates of one feature overlap with start and end coordinates of the other, they are joined. This type of join is found in <strong>Operate on Genomics Intervals &#8594; Join</strong>. We used it before to join exons and SNPs (see Fig. 13). Here we use a <strong>different kind</strong> of join. It joins lines from two datasets is they share a common field. It can be found in <strong>Join, Subtract and Group &#8594; Join</strong>.
 
 </div>
 

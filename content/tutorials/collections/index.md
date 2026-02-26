@@ -4,15 +4,7 @@ title: Processing many samples at once with collections
 redirect: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html"
 ---
 
-<div class="alert alert-info trim-p" role="alert"><Icon name="alert-circle" />Note: we assume that the person reading this tutorial
-
----
-
-* has a basic understanding of how Galaxy works (if you don't, please see <a href="/tutorials/g101/">Galaxy 101</a> tutorial)
-* has an account in Galaxy (<a href="/tutorials/g101/#setting-up-galaxy-account">see this</a> if you don't)
-* has their browser configured as described <a href="/tutorials/g101/#getting-your-display-sorted-out">here</a>
-
-</div>
+<div class="alert alert-info trim-p" role="alert"><Icon name="alert-circle" />Note: we assume that the person reading this tutorial<hr /><ul><li>has a basic understanding of how Galaxy works (if you don't, please see <a href="/tutorials/g101/">Galaxy 101</a> tutorial)</li><li>has an account in Galaxy (<a href="/tutorials/g101/#setting-up-galaxy-account">see this</a> if you don't)</li><li>has their browser configured as described <a href="/tutorials/g101/#getting-your-display-sorted-out">here</a></li></ul></div>
 
 In Galaxy you perform data analyses and organize your data simply by clicking on things. If you have just a few items in your history, clicking is easy. However, in most real-world analyses you never have just a few datasets, instead you have many (sometimes thousands) and **Collections** help manage your data to minimize the amount of clicking you have to do.
 
