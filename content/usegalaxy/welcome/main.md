@@ -7,7 +7,7 @@ title: usegalaxy.org
 <p><strong>Donate to the James P. Taylor Foundation for Open Science</strong></p>
 
 <a href="https://jxtxfoundation.org/" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;" target="_blank">
-<i class="fa fa-external-link-alt fa-sm" aria-hidden="true"></i>&nbsp;Learn More
+<Icon name="external-link" />&nbsp;Learn More
 </a>
 
 </div>
@@ -18,13 +18,13 @@ title: usegalaxy.org
 
 <div class="text-center mt-2">
 <a href="https://mstdn.science/@galaxyproject" target="_blank" class="btn btn-outline-primary mx-1">
-<i class="fab fa-mastodon" aria-hidden="true"></i> Mastodon
+<Icon name="message-circle" /> Mastodon
 </a>
 <a href="https://bsky.app/profile/galaxyproject.bsky.social" target="_blank" class="btn btn-outline-primary mx-1">
-<i class="fa fa-cloud" aria-hidden="true"></i> Bluesky
+<Icon name="cloud" /> Bluesky
 </a>
 <a href="https://www.linkedin.com/company/101662592" target="_blank" class="btn btn-outline-primary mx-1">
-<i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+<Icon name="linkedin" /> LinkedIn
 </a>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 title: Recent Videos
 link: https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA
-icon: fas fa-play-circle
+icon: play
 items:
 - title: How Galaxy Imaging makes cloud-based image analysis possible
   link: https://youtu.be/s44oTaWIhV8

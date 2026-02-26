@@ -32,7 +32,7 @@ The Freiburg Galaxy Team participated in the [Galaxy Community Conference 2021](
 
 With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
 
-<a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf" class="fa fa-external-link">Abstract</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf"><Icon name="external-link" /> Abstract</a>
 </div>
 </div>
 
@@ -45,7 +45,7 @@ With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid
 
 !<a href="https://github.com/OlegZharkov.png" class="profile-img"></a> Oleg Zharkov
 
-<a href="https://static.sched.com/hosted_files/gcc2021/c1/abstract93.pdf" class="fa fa-external-link">Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118606.1" class="fa fa-slideshare">Slides</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/c1/abstract93.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118606.1"><Icon name="presentation" /> Slides</a>
 </div>
 </div>
 
@@ -60,7 +60,7 @@ With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid
 
 With Helena Rasche
 
-<a href="https://static.sched.com/hosted_files/gcc2021/bb/abstract21.pdf" class="fa fa-external-link">Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118605.1" class="fa fa-slideshare">Slides</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/bb/abstract21.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118605.1"><Icon name="presentation" /> Slides</a>
 </div>
 </div>
 
@@ -75,7 +75,7 @@ With Helena Rasche
 
 With Yi Sun; Jeremy Goecks; Jean-Karim Hériché
 
-<a href="https://static.sched.com/hosted_files/gcc2021/1a/abstract78.pdf" class="fa fa-external-link">Abstract</a>, <a href="https://f1000research.com/slides/10-579" class="fa fa-slideshare">Slides</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/1a/abstract78.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://f1000research.com/slides/10-579"><Icon name="presentation" /> Slides</a>
 </div>
 </div>
 
@@ -90,7 +90,7 @@ With Yi Sun; Jeremy Goecks; Jean-Karim Hériché
 
 With Galaxy Backend Working Group
 
-<a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract54.pdf" class="fa fa-external-link">Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118607.1" class="fa fa-slideshare">Slides</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract54.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://doi.org/10.7490/f1000research.1118607.1"><Icon name="presentation" /> Slides</a>
 </div>
 </div>
 
@@ -103,7 +103,7 @@ With Galaxy Backend Working Group
 
 !<a href="https://github.com/davelopez.png" class="profile-img"></a> David López
 
-<a href="https://static.sched.com/hosted_files/gcc2021/91/abstract53.pdf" class="fa fa-external-link">Abstract</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/91/abstract53.pdf"><Icon name="external-link" /> Abstract</a>
 </div>
 </div>
 
@@ -118,7 +118,7 @@ With Galaxy Backend Working Group
 
 !<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
 
-<a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract49.pdf" class="fa fa-external-link">Abstract</a>, <a href="https://static.sched.com/hosted_files/gcc2021/3b/Demo_GPU_Jupyter_Notebook.pdf" class="fa fa-slideshare">Slides</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/8c/abstract49.pdf"><Icon name="external-link" /> Abstract</a>, <a href="https://static.sched.com/hosted_files/gcc2021/3b/Demo_GPU_Jupyter_Notebook.pdf"><Icon name="presentation" /> Slides</a>
 </div>
 </div>
 
@@ -132,7 +132,7 @@ With Galaxy Backend Working Group
 
 With Lorraine Coelho; !<a href="https://github.com/bgruening.png" class="profile-img"></a> Björn Grüning
 
-<a href="https://static.sched.com/hosted_files/gcc2021/31/abstract8.pdf" class="fa fa-external-link">Abstract</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/31/abstract8.pdf"><Icon name="external-link" /> Abstract</a>
 </div>
 </div>
 
@@ -147,7 +147,7 @@ With Lorraine Coelho; !<a href="https://github.com/bgruening.png" class="profile
 
 With Anton Nekrutenko; Sergei Pond; the [covid19.galaxyproject.org](http://covid19.galaxyproject.org/); [covid19.datamonkey.org](http://covid19.datamonkey.org/) and Viral Beacon 
 
-<a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf" class="fa fa-external-link">Abstract</a>
+<a href="https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf"><Icon name="external-link" /> Abstract</a>
 </div>
 </div>
 
@@ -206,7 +206,7 @@ The Freiburg Galaxy team supported the [GCC2021 Training Week](https://galaxypro
 With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Maier
 
 **Material** 
-- <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
+- <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
 
 
 </div>
@@ -222,8 +222,8 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/gallardoalba.png" class="profile-img"></a> Cristóbal Gallardo
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/slides.html" class="fa fa-slideshare" target="_blank"></a> Slides
-- <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
+- <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/slides.html" target="_blank"><Icon name="presentation" /></a> Slides
+- <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
 
 </div>
 </div>
@@ -238,7 +238,7 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/bebatut.png" class="profile-img"></a> Bérénice Batut
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
+- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
 
 </div>
 </div>
@@ -253,8 +253,8 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/gallardoalba.png" class="profile-img"></a> Cristóbal Gallardo
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html" class="fa fa-slideshare" target="_blank"></a> Slides
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
+- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html" target="_blank"><Icon name="presentation" /></a> Slides
+- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
 
 </div>
 </div>
@@ -270,7 +270,7 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/mtekman.png" class="profile-img"></a> Mehmet Tekman
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
+- <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
 
 </div>
 </div>
@@ -286,7 +286,7 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
 
 **Material**
-- <a href="https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing" class="fa fa-slideshare" target="_blank"></a> Slides
+- <a href="https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing" target="_blank"><Icon name="presentation" /></a> Slides
 
 </div>
 </div>
@@ -302,8 +302,8 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
-- <a href="https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing" class="fa fa-slideshare" target="_blank"></a> Slides
+- <a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
+- <a href="https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing" target="_blank"><Icon name="presentation" /></a> Slides
 
 </div>
 </div>
@@ -318,8 +318,8 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/anuprulez.png" class="profile-img"></a> Anup Kumar
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
-- <a href="https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit" class="fa fa-slideshare" target="_blank"></a> Slides
+- <a href="https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
+- <a href="https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit" target="_blank"><Icon name="presentation" /></a> Slides
 
 </div>
 </div>
@@ -335,7 +335,7 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/simonbray.png" class="profile-img"></a> Simon Bray
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
+- <a href="https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
 
 </div>
 </div>
@@ -350,7 +350,7 @@ With !<a href="https://github.com/wm75.png" class="profile-img"></a> Wolfgang Ma
 !<a href="https://github.com/bebatut.png" class="profile-img"></a> Bérénice Batut
 
 **Material**
-- <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html" class="fa fa-laptop" target="_blank"></a> Tutorial
+- <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html" target="_blank"><Icon name="laptop" /></a> Tutorial
 
 </div>
 </div>

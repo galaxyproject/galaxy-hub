@@ -31,14 +31,14 @@ contributions:
 
 <blockquote class="code-2col">
   <blockquote class="code-in">
-    <h3 id="code-in-input-markdown"><i class="far fa-keyboard"></i><span class="visually-hidden">code-in</span> Input: Markdown</h3>
+    <h3 id="code-in-input-markdown"><Icon name="keyboard" /><span class="visually-hidden">code-in</span> Input: Markdown</h3>
     <p><code>
 The `/jobs` &amp;lbraceAPI&amp;rbrace will return &amp;lbraceJSON&amp;rbrace. When we call the &amp;lbraceAPI&amp;rbrace we'll get back this result &amp;lbraceJSON&amp;rbrace.
 </code></p>
   </blockquote>
 
   <blockquote class="code-out">
-    <h3 id="code-out-output"><i class="fas fa-laptop-code"></i><span class="visually-hidden">code-out</span> Output</h3>
+    <h3 id="code-out-output"><Icon name="code" /><span class="visually-hidden">code-out</span> Output</h3>
 
     <p>The <code class="language-plaintext highlighter-rouge">/jobs</code> Application Programming Interface (API) will return JavaScript Object Notation (JSON). When we call the <abbr title="Application Programming Interface">API</abbr> we’ll get back this result <abbr title="JavaScript Object Notation">JSON</abbr>.</p>
 

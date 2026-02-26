@@ -1,7 +1,7 @@
 ---
 title: New Platforms
 link: /use/
-icon: fas fa-server
+icon: server
 items:
   - title: Galaxy@AuBi
     link: /use/galaxy-aubi/

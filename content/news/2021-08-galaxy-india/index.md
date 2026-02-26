@@ -21,14 +21,14 @@ The Galaxy India community is about enabling data intensive research and instruc
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:
 
 <div class="text-center lead">
-<a href="https://www.galaxyproject.in/"><i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
-<a href="https://chat.whatsapp.com/CCXT7t97ZX5D3MiD7MVmun"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-<a href="https://chat.whatsapp.com/LYAWg6Yah1i4QbMU0sktqB"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-<a href="https://matrix.to/#/#usegalaxy-in_adda:gitter.im"><i class="fab fa-matrix" aria-hidden="true"></i></a>
-<a href="http://twitter.com/GxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-<a href="http://twitter.com/useGalaxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-<a href="https://github.com/usegalaxy-in/"><i class="fab fa-github" aria-hidden="true"></i></a>
-<a href="https://lists.galaxyproject.org/lists/india.lists.galaxyproject.org/"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+<a href="https://www.galaxyproject.in/"><Icon name="external-link" /></a>
+<a href="https://chat.whatsapp.com/CCXT7t97ZX5D3MiD7MVmun"><Icon name="message-circle" /></a>
+<a href="https://chat.whatsapp.com/LYAWg6Yah1i4QbMU0sktqB"><Icon name="message-circle" /></a>
+<a href="https://matrix.to/#/#usegalaxy-in_adda:gitter.im"><Icon name="grid-3x3" /></a>
+<a href="http://twitter.com/GxyIndia"><Icon name="twitter" /></a>
+<a href="http://twitter.com/useGalaxyIndia"><Icon name="twitter" /></a>
+<a href="https://github.com/usegalaxy-in/"><Icon name="github" /></a>
+<a href="https://lists.galaxyproject.org/lists/india.lists.galaxyproject.org/"><Icon name="mail" /></a>
 </div>
 
 

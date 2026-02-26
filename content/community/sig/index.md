@@ -30,7 +30,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Climate -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://climate.usegalaxy.eu">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Climate</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Climate</div>
 </a>
 
 <p>The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.</p>
@@ -40,7 +40,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Computational Chemistry -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/computationalchemistry/">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Computational Chemistry</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Computational Chemistry</div>
 </a>
 
 <p>Group of computational chemistry tool developers, trainers and users to help connect outreach, user needs, and computationalists.</p>
@@ -50,7 +50,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Earth -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/earth/">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Earth</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Earth</div>
 </a>
 
 <p>A web platform to get, process, analyze and visualize earth data.</p>
@@ -60,7 +60,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Ecology -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ecology.usegalaxy.eu">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Ecology</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Ecology</div>
 </a>
 
 <p>A web platform to get, process, analyze and visualize ecological data.</p>
@@ -70,7 +70,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Genome Annotation -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/genome-annotation/">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Genome Annotation</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Genome Annotation</div>
 </a>
 
 <p>Galaxy as a platform for the annotation of genomes.</p>
@@ -80,7 +80,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Materials Science -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://materials.usegalaxy.eu">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Materials Science</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Materials Science</div>
 </a>
 
 <p>A Galaxy workbench with tools and workflows for materials science, including muon spectroscopy.</p>
@@ -90,7 +90,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- MicroGalaxy -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/microbial">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Microbiology</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Microbiology</div>
 </a>
 
 <p>The microGalaxy community gathers microbiological data analysis enthusiasts.</p>
@@ -100,7 +100,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Public Health -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Public Health</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Public Health</div>
 </a>
 
 <p>Announcements and discussion in the Galaxy Public Health Community.</p>
@@ -110,7 +110,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Digital Humanities -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/digital-humanities/">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Digital Humanties</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Digital Humanties</div>
 </a>
 
 <p>Galaxy as a platform for Digital Humanities and Social Sciences.</p>
@@ -130,7 +130,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Machine Learning -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/ml-ai-across-galaxy/">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Machine Learning</div>
+<div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Machine Learning</div>
 </a>
 
 <p>A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, and consolidated workflows for end-to-end machine learning analysis.</p>
@@ -140,7 +140,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Metabolomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://metabolomics.usegalaxy.eu">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Metabolomics</div>
+<div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Metabolomics</div>
 </a>
 
 <p>Community-driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools.</p>
@@ -150,7 +150,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Natural Language Processing — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Natural Language Processing</div>
+<div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" /> Natural Language Processing</div>
 </a>
 <p>An open, interoperable web service platform for natural language processing (NLP) research and development.</p>
 </div>
@@ -160,7 +160,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Proteomics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://proteore.org/">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Proteomics</div>
+<div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Proteomics</div>
 </a>
 
 <p>Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research.</p>
@@ -170,7 +170,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Single cell & sPatial Omics -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Single cell &amp; sPatial Omics</div>
+<div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Single cell &amp; sPatial Omics</div>
 </a>
 
 <p>The Single cell and sPatial Omics Community (🖖🏾SPOC) unites tool developers, trainers and users to help connect outreach, user needs, and computationalists.</p>
@@ -180,7 +180,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Image Analysis -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/image-analysis/">
-<div class="card-header bg-sig-method text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Image Analysis</div>
+<div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Image Analysis</div>
 </a>
 
 <p>This community gathers image analysis enthusiasts across different scientific disciplines.</p>
@@ -198,7 +198,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Small Scale Admins -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/small-scale-admins/">
-<div class="card-header bg-sig-service text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Small Scale Admins</div>
+<div class="card-header bg-sig-service text-white text-center"><Icon name="external-link" />&nbsp;Small Scale Admins</div>
 </a>
 
 <p>Admins of small scale Galaxy servers.</p>
@@ -209,7 +209,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Galaxy Tool Developers -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/tool-developers/">
-<div class="card-header bg-sig-field text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Galaxy Tool Developers</div>
+<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Galaxy Tool Developers</div>
 </a>
 
 <p>A group dedicated to improving Galaxy’s tool ecosystem through coordinated development, shared maintenance practices, and open collaboration. Welcomes anyone interested in building or refining Galaxy tool wrappers.</p>
@@ -228,7 +228,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Galaxy Africa -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Africa</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Africa</div>
 </a>
 
 <p>Galaxy African community.</p>
@@ -238,7 +238,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Arabic -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/arabic/">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Arabic</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Arabic</div>
 </a>
 
 <p>The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.</p>
@@ -248,7 +248,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Australia -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://site.usegalaxy.org.au">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Australia</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Australia</div>
 </a>
 
 <p>Australian Galaxy community.</p>
@@ -258,7 +258,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Czech -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/czech/">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Czech</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Czech</div>
 </a>
 
 <p>Česká komunita Galaxy / Czech Galaxy Community.</p>
@@ -269,7 +269,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Europe -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/eu/">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Europe</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Europe</div>
 </a>
 
 <p>The European Galaxy Community and the European Galaxy Server.</p>
@@ -280,7 +280,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- France -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;France</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;France</div>
 </a>
 
 <p>Galaxy in the French-speaking world.</p>
@@ -290,7 +290,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- India -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://www.galaxyproject.in">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;India</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;India</div>
 </a>
 
 <p>Indian Galaxy Community.</p>
@@ -305,8 +305,8 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </a>
 <p>Pitagora Galaxy Community.</p>
 <ul>
-<li><a href="http://wiki.pitagora-galaxy.org"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Link</a></li>
-<li><a href="https://twitter.com/hashtag/usegalaxyjp"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+<li><a href="http://wiki.pitagora-galaxy.org"><Icon name="external-link" /> Link</a></li>
+<li><a href="https://twitter.com/hashtag/usegalaxyjp"><Icon name="twitter" /> Twitter</a></li>
 </ul>
 </div>
 -->
@@ -318,8 +318,8 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </a>
 <p>Galaxy-NL in the Netherlands.</p>
 <ul>
-<li><a href="https://www.choosegalaxy.nl"><i class="fa fa-external-link-alt" aria-hidden="true"></i> Link</a></li>
-<li><a href="https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team"><i class="fa fa-envelope" aria-hidden="true"></i> Mailing List</a></li>
+<li><a href="https://www.choosegalaxy.nl"><Icon name="external-link" /> Link</a></li>
+<li><a href="https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team"><Icon name="mail" /> Mailing List</a></li>
 </ul>
 </div>
 -->
@@ -327,7 +327,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- Galaxy Switzerland -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/switzerland/">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;Switzerland</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Switzerland</div>
 </a>
 
 <p>Galaxy community in Switzerland.</p>
@@ -337,7 +337,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <!-- UK -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/uk/">
-<div class="card-header bg-sig-region text-white text-center"><i class="fa fa-external-link-alt" aria-hidden="true"></i>&nbsp;UK</div>
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;UK</div>
 </a>
 
 <p>Galaxy in the United Kingdom.</p>
@@ -351,7 +351,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </a>
 <p>Galaxy in Spanish.</p>
 <ul>
-<li><a href="https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org"><i class="fa fa-envelope" aria-hidden="true"></i> Mailing List</a></li>
+<li><a href="https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org"><Icon name="mail" /> Mailing List</a></li>
 </ul>
 </div>
 -->
