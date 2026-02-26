@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
+import { communitySlug as baseCommunitySlug, toArray as baseToArray } from './community-base.mjs';
 
 const AVATAR_BASE = 'https://training.galaxyproject.org';
 
@@ -43,11 +44,7 @@ let organisationCache: OrganisationMap | null = null;
 let grantCache: GrantMap | null = null;
 
 export function communitySlug(value: string): string {
-  const normalized = String(value).trim().replace(/^@/, '');
-  return normalized
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+  return baseCommunitySlug(value);
 }
 
 function normalizeAvatar(avatar?: string): string | undefined {
@@ -247,21 +244,10 @@ export function findCommunityBySlug(
 
 /**
  * Convert unknown values to a flat array of strings.
- * Handles arrays, objects with id/name/github fields, and primitives.
+ * Handles arrays, objects with id/name/github/twitter fields, and primitives.
  */
 export function toArray(value: unknown): string[] {
-  if (!value) return [];
-  if (Array.isArray(value)) {
-    return value.flatMap((v) => toArray(v));
-  }
-  if (typeof value === 'object') {
-    const obj = value as Record<string, unknown>;
-    if (obj.id) return [String(obj.id)];
-    if (obj.name) return [String(obj.name)];
-    if (obj.github) return [String(obj.github)];
-    return [];
-  }
-  return [String(value)];
+  return baseToArray(value);
 }
 
 /**
