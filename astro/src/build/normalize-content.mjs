@@ -42,7 +42,6 @@ const transforms = {
   convertKramdown: runAll || args.includes('--convert-kramdown'),
   fixVoidElements: runAll || args.includes('--fix-void-elements'),
   fixUnquotedAttrs: runAll || args.includes('--fix-unquoted-attrs'),
-  escapeLtDigits: runAll || args.includes('--escape-lt-digits'),
   fixAutolinks: runAll || args.includes('--fix-autolinks'),
   fixComponentCase: runAll || args.includes('--fix-component-case'),
   convertFaToIcon: runAll || args.includes('--convert-fa-to-icon'),
@@ -52,8 +51,8 @@ if (!Object.values(transforms).some(Boolean)) {
   console.error('Usage: node src/build/normalize-content.mjs <transform> [--check]');
   console.error('Transforms: --strip-layout, --normalize-frontmatter-arrays,');
   console.error('  --strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown,');
-  console.error('  --fix-void-elements, --fix-unquoted-attrs, --escape-lt-digits,');
-  console.error('  --fix-autolinks, --fix-component-case, --convert-fa-to-icon, --all');
+  console.error('  --fix-void-elements, --fix-unquoted-attrs, --fix-autolinks,');
+  console.error('  --fix-component-case, --convert-fa-to-icon, --all');
   process.exit(1);
 }
 
@@ -241,19 +240,6 @@ function fixUnquotedAttributes(content) {
       result = result.replace(/(\s)(\w+)=(\d+)(?=\s|>|\/)/g, '$1$2="$3"');
     } while (prev !== result);
     return result;
-  });
-}
-
-/**
- * Escape bare < before digits: <10 → &lt;10, <500 → &lt;500
- * MDX misinterprets these as JSX opening tags.
- * Only touches occurrences outside code fences and not inside HTML tags.
- */
-function escapeLtDigits(content) {
-  return outsideCodeFences(content, (text) => {
-    // Match < followed by a digit, but not when preceded by = (<=) which is
-    // already a valid HTML entity context, and not inside an HTML tag
-    return text.replace(/(?<![<\w/=])(<)(\d)/g, '&lt;$2');
   });
 }
 
@@ -529,13 +515,6 @@ async function main() {
     }
     if (transforms.fixUnquotedAttrs) {
       const newBody = fixUnquotedAttributes(body);
-      if (newBody !== body) {
-        body = newBody;
-        changed = true;
-      }
-    }
-    if (transforms.escapeLtDigits) {
-      const newBody = escapeLtDigits(body);
       if (newBody !== body) {
         body = newBody;
         changed = true;
