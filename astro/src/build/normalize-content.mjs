@@ -17,6 +17,7 @@
  *   node src/build/normalize-content.mjs --escape-lt-digits
  *   node src/build/normalize-content.mjs --fix-autolinks
  *   node src/build/normalize-content.mjs --fix-component-case
+ *   node src/build/normalize-content.mjs --convert-fa-to-icon
  *   node src/build/normalize-content.mjs --all
  *   node src/build/normalize-content.mjs --check  (dry-run, exits non-zero if changes needed)
  */
@@ -44,6 +45,7 @@ const transforms = {
   escapeLtDigits: runAll || args.includes('--escape-lt-digits'),
   fixAutolinks: runAll || args.includes('--fix-autolinks'),
   fixComponentCase: runAll || args.includes('--fix-component-case'),
+  convertFaToIcon: runAll || args.includes('--convert-fa-to-icon'),
 };
 
 if (!Object.values(transforms).some(Boolean)) {
@@ -51,7 +53,7 @@ if (!Object.values(transforms).some(Boolean)) {
   console.error('Transforms: --strip-layout, --normalize-frontmatter-arrays,');
   console.error('  --strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown,');
   console.error('  --fix-void-elements, --fix-unquoted-attrs, --escape-lt-digits,');
-  console.error('  --fix-autolinks, --fix-component-case, --all');
+  console.error('  --fix-autolinks, --fix-component-case, --convert-fa-to-icon, --all');
   process.exit(1);
 }
 
@@ -291,6 +293,174 @@ function fixComponentCase(content) {
   });
 }
 
+// ── Font Awesome → Lucide Icon conversion ────────────────────────────
+
+const FA_TO_LUCIDE = {
+  'fa-laptop': 'laptop',
+  'fa-laptop-code': 'code',
+  'fa-external-link-alt': 'external-link',
+  'fa-external-link': 'external-link',
+  'fa-share-alt': 'share-2',
+  'fa-exclamation-circle': 'alert-circle',
+  'fa-exclamation-triangle': 'triangle-alert',
+  'fa-info-circle': 'info',
+  'fa-files-o': 'files',
+  'fa-file': 'file',
+  'fa-file-o': 'file',
+  'fa-magic': 'wand-2',
+  'fa-envelope': 'mail',
+  'fa-video': 'video',
+  'fa-video-camera': 'video',
+  'fa-folder': 'folder',
+  'fa-folder-o': 'folder',
+  'fa-cog': 'settings',
+  'fa-cogs': 'settings',
+  'fa-pencil-alt': 'pencil',
+  'fa-pencil': 'pencil',
+  'fa-book': 'book',
+  'fa-book-open': 'book-open',
+  'fa-slideshare': 'presentation',
+  'fa-chalkboard-teacher': 'presentation',
+  'fa-question-circle': 'help-circle',
+  'fa-question-circle-o': 'help-circle',
+  'fa-list-ul': 'list',
+  'fa-list-alt': 'list',
+  'fa-mouse': 'mouse',
+  'fa-copy': 'copy',
+  'fa-check-square': 'square-check',
+  'fa-check-square-o': 'square-check',
+  'fa-tv': 'tv',
+  'fa-comments-o': 'message-square',
+  'fa-comment': 'message-circle',
+  'fa-sync': 'refresh-cw',
+  'fa-refresh': 'refresh-cw',
+  'fa-keyboard': 'keyboard',
+  'fa-eye': 'eye',
+  'fa-caret-square-down': 'chevron-down',
+  'fa-caret-left': 'chevron-left',
+  'fa-graduation-cap': 'graduation-cap',
+  'fa-bullseye': 'target',
+  'fa-calendar': 'calendar',
+  'fa-calendar-alt': 'calendar',
+  'fa-cloud': 'cloud',
+  'fa-coffee': 'coffee',
+  'fa-wrench': 'wrench',
+  'fa-fighter-jet': 'rocket',
+  'fa-road': 'monitor',
+  'fa-github': 'github',
+  'fa-gitlab': 'code',
+  'fa-twitter': 'twitter',
+  'fa-linkedin': 'linkedin',
+  'fa-whatsapp': 'message-circle',
+  'fa-mastodon': 'message-circle',
+  'fa-orcid': 'user',
+  'fa-optin-monster': 'user',
+  'fa-matrix': 'grid-3x3',
+  'fa-topic': 'hash',
+  'fa-rss': 'rss',
+  'fa-bug': 'alert-circle',
+  'fa-bullhorn': 'megaphone',
+  'fa-search': 'search',
+  'fa-upload': 'upload',
+  'fa-download': 'download',
+  'fa-database': 'database',
+  'fa-server': 'server',
+  'fa-cube': 'box',
+  'fa-table': 'table',
+  'fa-tags': 'tags',
+  'fa-th': 'grid-3x3',
+  'fa-columns': 'columns-3',
+  'fa-sitemap': 'network',
+  'fa-play-circle': 'play',
+  'fa-times': 'x',
+  'fa-times-circle': 'x-circle',
+  'fa-minus-circle': 'minus-circle',
+  'fa-plus': 'plus',
+  'fa-plus-circle': 'plus-circle',
+  'fa-bar-chart-o': 'bar-chart-3',
+  'fa-trash-o': 'trash-2',
+  'fa-floppy-o': 'save',
+  'fa-user-friends': 'users',
+  'fa-user-astronaut': 'user',
+  'fa-hands-helping': 'hand-helping',
+  'fa-rotate-270': 'rotate-ccw',
+};
+
+/**
+ * Convert Font Awesome <i> tags and kramdown FA patterns to <Icon> components.
+ * Handles: <i class="fa fa-xxx" aria-hidden="true"></i>
+ *          [](){: .fa .fa-xxx style="..."}
+ *          [](){:.fa .fa-xxx}
+ */
+function convertFaToIcon(content) {
+  return outsideCodeFences(content, (text) => {
+    // Convert <i class="fa(s|r|b|l|d)? fa-xxx" ...></i> → <Icon name="xxx" />
+    let result = text.replace(
+      /<i\s+[^>]*class="([^"]*\bfa[sbrld]?\b[^"]*)"[^>]*><\/i>/gi,
+      (match, classes) => {
+        const styleClasses = ['fa-solid', 'fa-regular', 'fa-brands', 'fa-light', 'fa-duotone', 'fa-thin'];
+        const allFaClasses = classes.match(/fa-[a-z0-9-]+/g) || [];
+        const iconClass = allFaClasses.find((cls) => !styleClasses.includes(cls));
+        if (!iconClass) return match;
+        const lucideName = FA_TO_LUCIDE[iconClass];
+        if (!lucideName) return match;
+        return `<Icon name="${lucideName}" />`;
+      }
+    );
+
+    // Convert <a> tags with FA icon classes:
+    // <a href="url" class="fa fa-xxx" target="_blank">text</a> →
+    // <a href="url" target="_blank"><Icon name="xxx" /> text</a>
+    // <a href="url" class="fa fa-xxx" target="_blank"></a> →
+    // <a href="url" target="_blank"><Icon name="xxx" /></a>
+    result = result.replace(
+      /<a\s+([^>]*)class="([^"]*\bfa[sbrld]?\b[^"]*)"([^>]*)>([\s\S]*?)<\/a>/gi,
+      (match, before, classes, after, text) => {
+        const styleClasses = ['fa-solid', 'fa-regular', 'fa-brands', 'fa-light', 'fa-duotone', 'fa-thin'];
+        const allFaClasses = classes.match(/fa-[a-z0-9-]+/g) || [];
+        const iconClass = allFaClasses.find((cls) => !styleClasses.includes(cls));
+        if (!iconClass) return match;
+        const lucideName = FA_TO_LUCIDE[iconClass];
+        if (!lucideName) return match;
+        // Remove FA classes from the class attribute; if no classes remain, drop the attr
+        const remainingClasses = classes
+          .split(/\s+/)
+          .filter((c) => !c.match(/^fa[sbrld]?$/) && !c.match(/^fa-/))
+          .join(' ');
+        const classAttr = remainingClasses ? ` class="${remainingClasses}"` : '';
+        const icon = `<Icon name="${lucideName}" />`;
+        const content = text.trim() ? `${icon} ${text.trim()}` : icon;
+        return `<a ${before.trim()}${classAttr}${after}>${content}</a>`;
+      }
+    );
+
+    // Convert kramdown: [](){: .fa .fa-xxx style="..."} → <Icon name="xxx" />
+    // Also handles [](){:.fa .fa-xxx} (no space after colon)
+    result = result.replace(
+      /\[\]\(\)\{:?\s*\.fa[sbrld]?\s+\.(fa-[a-z0-9-]+)(?:\s+style="[^"]*")?\s*\}/g,
+      (match, iconClass) => {
+        const lucideName = FA_TO_LUCIDE[iconClass];
+        if (!lucideName) return match;
+        return `<Icon name="${lucideName}" />`;
+      }
+    );
+
+    return result;
+  });
+}
+
+/**
+ * Convert Font Awesome icon references in frontmatter `icon:` fields to Lucide names.
+ * Converts: icon: fas fa-graduation-cap → icon: graduation-cap
+ */
+function convertFaToIconFrontmatter(fm) {
+  return fm.replace(/^(icon:\s*)(?:fa[sbrld]?\s+)(fa-[a-z0-9-]+)\s*$/gm, (_match, prefix, iconClass) => {
+    const lucideName = FA_TO_LUCIDE[iconClass];
+    if (!lucideName) return _match;
+    return `${prefix}${lucideName}`;
+  });
+}
+
 // ── Main ─────────────────────────────────────────────────────────────
 
 async function main() {
@@ -380,6 +550,22 @@ async function main() {
       const newBody = fixComponentCase(body);
       if (newBody !== body) {
         body = newBody;
+        changed = true;
+      }
+    }
+    if (transforms.convertFaToIcon) {
+      const newBody = convertFaToIcon(body);
+      if (newBody !== body) {
+        body = newBody;
+        changed = true;
+      }
+    }
+
+    // Frontmatter FA icon conversion
+    if (fm !== null && transforms.convertFaToIcon) {
+      const newFm = convertFaToIconFrontmatter(fm);
+      if (newFm !== fm) {
+        fm = newFm;
         changed = true;
       }
     }
