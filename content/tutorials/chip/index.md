@@ -414,14 +414,7 @@ Next, we will run `MACS2` on BAM datasets for Replicate 1 only:
 |![](/tutorials/chip/macs3.png)|
 |<em>**Calling peaks with `MACS2` on R1** With the exception of selecting only R1 datasets, all other parameters should be set as in the previous figure.</em>|
 
-<div class="alert alert-warning trim-p" role="alert"><Icon name="alert-circle" /> Now do this by yourself:
-<hr />
-
-- rename resulting datasets as `R1 summits` and `R1 peaks`
-- run `MACS2` run on Replicate 2
-- rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.
-
-</div>
+<div class="alert alert-warning trim-p" role="alert"><Icon name="alert-circle" /> Now do this by yourself:<hr /><ul><li>rename resulting datasets as <code>R1 summits</code> and <code>R1 peaks</code></li><li>run <code>MACS2</code> run on Replicate 2</li><li>rename resulting <code>summits</code> and <code>narrow peak</code> datasets as <code>R2 summits</code> and <code>R2 peaks</code>.</li></ul></div>
 
 In the end you should have something like this:
 
@@ -470,7 +463,7 @@ To see how many peaks are common between the pooled datasets and the two replica
 
 <div class="alert alert-danger trim-p" role="alert">
 
-Galaxy main has two tools called **Join**. Don't confuse them! Here we are using the one from **Operate on Genomic Intervals** section.
+Galaxy main has two tools called <strong>Join</strong>. Don't confuse them! Here we are using the one from <strong>Operate on Genomic Intervals</strong> section.
 
 </div>
 
@@ -497,13 +490,13 @@ This results in 723 regions are shared among polled, R1, and R2 peaks. Let's cal
 
 <div class="alert alert-warning trim-p">
 
-Rename the last dataset as `High confidence set`. This will make it easy to find as we continue.
+Rename the last dataset as <code>High confidence set</code>. This will make it easy to find as we continue.
 
 </div>
 
 <div class="alert alert-danger trim-p" role="alert">
 
-Using `Cut columns` tool produces a dataset of tabular type. However, by cutting the first ten columns we have created a dataset in BED format. Thus we need to let Galaxy know about that by resetting metadata as shown below.
+Using <code>Cut columns</code> tool produces a dataset of tabular type. However, by cutting the first ten columns we have created a dataset in BED format. Thus we need to let Galaxy know about that by resetting metadata as shown below.
 
 </div>
 
@@ -571,7 +564,7 @@ To generate the heatmap we must first produce normalized datasets for the two re
 
 <div class="alert alert-warning trim-p">
 
-Perform the same analysis on Replicate 2 datasets and rename the two resulting items as `R1 normalized` and `R2 normalized`.
+Perform the same analysis on Replicate 2 datasets and rename the two resulting items as <code>R1 normalized</code> and <code>R2 normalized</code>.
 
 </div>
 
