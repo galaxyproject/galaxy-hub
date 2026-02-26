@@ -53,6 +53,26 @@ jobs:
       - name: Validate metadata
         run: uv run --python 3.12 --with pykwalify --with pyyaml make validate-metadata
 
+  content-lint:
+    name: Content Lint
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: astro/package-lock.json
+
+      - name: Lint content
+        run: cd astro && npm ci && npm run content:lint
+
   unit-tests:
     name: Unit Tests
     runs-on: ubuntu-latest
