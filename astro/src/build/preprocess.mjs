@@ -486,159 +486,6 @@ function addBootstrapMarker(content) {
   return processed;
 }
 
-/**
- * Convert Font Awesome icons to inline Lucide SVGs
- * Maps FA class names to equivalent Lucide icons rendered as inline SVG
- */
-function convertFontAwesomeToLucide(content) {
-  // Lucide SVG paths (24x24 viewBox)
-  const icons = {
-    laptop:
-      '<path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/>',
-    'external-link':
-      '<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
-    'share-2':
-      '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m8.59 10.49 6.83-3.98"/>',
-    'alert-circle': '<circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/>',
-    files:
-      '<path d="M20 7h-3a2 2 0 0 1-2-2V2"/><path d="M9 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h7l4 4v10a2 2 0 0 1-2 2Z"/><path d="M3 7.6v12.8A1.6 1.6 0 0 0 4.6 22h9.8"/>',
-    'wand-2':
-      '<path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72"/><path d="m14 7 3 3"/>',
-    file: '<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/>',
-    mail: '<rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>',
-    video:
-      '<path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/>',
-    folder:
-      '<path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/>',
-    settings:
-      '<path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/>',
-    pencil:
-      '<path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/><path d="m15 5 4 4"/>',
-    book: '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/>',
-    presentation: '<path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/>',
-    'help-circle':
-      '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>',
-    list: '<path d="M3 12h.01"/><path d="M3 18h.01"/><path d="M3 6h.01"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M8 6h13"/>',
-    mouse: '<rect x="5" y="2" width="14" height="20" rx="7"/><path d="M12 6v4"/>',
-    copy: '<rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
-    'square-check': '<rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 12 2 2 4-4"/>',
-    tv: '<rect width="20" height="15" x="2" y="7" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/>',
-    'message-square': '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
-    'refresh-cw':
-      '<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/>',
-    keyboard:
-      '<rect width="20" height="16" x="2" y="4" rx="2"/><path d="M6 8h.01"/><path d="M10 8h.01"/><path d="M14 8h.01"/><path d="M18 8h.01"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/><path d="M7 16h10"/>',
-    eye: '<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/>',
-    'chevron-down': '<path d="m6 9 6 6 6-6"/>',
-    'graduation-cap':
-      '<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>',
-    target: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
-    calendar:
-      '<path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/>',
-    cloud: '<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>',
-    coffee:
-      '<path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/>',
-    wrench:
-      '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
-    rocket:
-      '<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>',
-    github:
-      '<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/>',
-    twitter:
-      '<path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>',
-    linkedin:
-      '<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>',
-    'message-circle': '<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>',
-    user: '<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
-    'grid-3x3':
-      '<rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/>',
-    hash: '<line x1="4" x2="20" y1="9" y2="9"/><line x1="4" x2="20" y1="15" y2="15"/><line x1="10" x2="8" y1="3" y2="21"/><line x1="16" x2="14" y1="3" y2="21"/>',
-    monitor:
-      '<rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/>',
-    code: '<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>',
-  };
-
-  // FA to Lucide mapping
-  const faToLucide = {
-    'fa-laptop': 'laptop',
-    'fa-external-link-alt': 'external-link',
-    'fa-external-link': 'external-link',
-    'fa-share-alt': 'share-2',
-    'fa-exclamation-circle': 'alert-circle',
-    'fa-files-o': 'files',
-    'fa-magic': 'wand-2',
-    'fa-file': 'file',
-    'fa-envelope': 'mail',
-    'fa-video': 'video',
-    'fa-folder': 'folder',
-    'fa-cog': 'settings',
-    'fa-pencil-alt': 'pencil',
-    'fa-book': 'book',
-    'fa-slideshare': 'presentation',
-    'fa-question-circle': 'help-circle',
-    'fa-question-circle-o': 'help-circle',
-    'fa-list-ul': 'list',
-    'fa-list-alt': 'list',
-    'fa-mouse': 'mouse',
-    'fa-copy': 'copy',
-    'fa-check-square': 'square-check',
-    'fa-tv': 'tv',
-    'fa-comments-o': 'message-square',
-    'fa-sync': 'refresh-cw',
-    'fa-keyboard': 'keyboard',
-    'fa-eye': 'eye',
-    'fa-caret-square-down': 'chevron-down',
-    'fa-graduation-cap': 'graduation-cap',
-    'fa-bullseye': 'target',
-    'fa-calendar': 'calendar',
-    'fa-cloud': 'cloud',
-    'fa-coffee': 'coffee',
-    'fa-wrench': 'wrench',
-    'fa-fighter-jet': 'rocket',
-    'fa-road': 'monitor',
-    'fa-github': 'github',
-    'fa-twitter': 'twitter',
-    'fa-linkedin': 'linkedin',
-    'fa-whatsapp': 'message-circle',
-    'fa-mastodon': 'message-circle',
-    'fa-orcid': 'user',
-    'fa-matrix': 'grid-3x3',
-    'fa-topic': 'hash',
-    'fa-chalkboard-teacher': 'presentation',
-    'fa-laptop-code': 'code',
-    'fa-optin-monster': 'user',
-    'fa-bug': 'alert-circle',
-    'fa-rss': 'rss',
-    'fa-gitlab': 'code',
-  };
-
-  icons.rss = '<path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/>';
-
-  // Convert kramdown FA patterns: [](){: .fa .fa-xxx style="..."} → Lucide SVG
-  content = content.replace(
-    /\[\]\(\)\{:\s*\.fa[sbrld]?\s+\.(fa-[a-z0-9-]+)(?:\s+style="([^"]*)")?\s*\}/g,
-    (match, iconClass, style) => {
-      const lucideName = faToLucide[iconClass];
-      if (!lucideName || !icons[lucideName]) return '';
-      const colorStyle = style || '';
-      return `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;${colorStyle}">${icons[lucideName]}</svg>`;
-    }
-  );
-
-  return content.replace(/<i\s+[^>]*class="([^"]*\bfa[sbrld]?\b[^"]*)"[^>]*><\/i>/gi, (match, classes) => {
-    // Extract the actual icon name (last fa-xxx that isn't fa-solid/fa-regular/fa-brands/fa-light/fa-duotone)
-    const allFaClasses = classes.match(/fa-[a-z0-9-]+/g) || [];
-    const styleClasses = ['fa-solid', 'fa-regular', 'fa-brands', 'fa-light', 'fa-duotone', 'fa-thin'];
-    const iconClass = allFaClasses.find((cls) => !styleClasses.includes(cls));
-    if (!iconClass) return match;
-
-    const lucideName = faToLucide[iconClass];
-    if (!lucideName || !icons[lucideName]) return match;
-
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;">${icons[lucideName]}</svg>`;
-  });
-}
-
 // Cache for resolved insert content (inserts are referenced by multiple pages)
 const insertCache = new Map();
 
@@ -692,7 +539,6 @@ function resolveInsertContent(slotName, depth = 0) {
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
   processed = inlineInserts(processed, depth + 1);
-  processed = convertFontAwesomeToLucide(processed);
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
 
@@ -808,7 +654,6 @@ async function processMarkdownFile(filePath) {
   const hasComponents = needsVueProcessing(processedContent, frontmatter, filePath);
 
   // Process content
-  processedContent = convertFontAwesomeToLucide(processedContent);
   processedContent = addBootstrapMarker(processedContent);
   processedContent = processImagePaths(processedContent, slug);
 
@@ -1112,7 +957,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 export {
   hasProblematicHtml,
   needsVueProcessing,
-  convertFontAwesomeToLucide,
   convertHtmlToJsx,
   addBootstrapMarker,
   processImagePaths,
