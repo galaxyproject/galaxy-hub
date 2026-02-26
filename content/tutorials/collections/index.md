@@ -8,9 +8,9 @@ redirect: "https://training.galaxyproject.org/training-material/topics/galaxy-in
 
 ---
 
-* has a basic understanding of how Galaxy works (if you don't, please see [Galaxy 101](/tutorials/g101/) tutorial)
-* has an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)
-* has their browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)
+* has a basic understanding of how Galaxy works (if you don't, please see <a href="/tutorials/g101/">Galaxy 101</a> tutorial)
+* has an account in Galaxy (<a href="/tutorials/g101/#setting-up-galaxy-account">see this</a> if you don't)
+* has their browser configured as described <a href="/tutorials/g101/#getting-your-display-sorted-out">here</a>
 
 </div>
 
@@ -20,9 +20,9 @@ In Galaxy you perform data analyses and organize your data simply by clicking on
 |      |
 |------|
 |![](/tutorials/collections/smallVsLarge.png)|
-|<small>**Figure 1. A history with few datasets** is *easy* to navigate. **A history with many datasets** is *hard* to navigate.</small>
+|<em>**Figure 1. A history with few datasets** is *easy* to navigate. **A history with many datasets** is *hard* to navigate.</em>
 
-Not only may clicking on thousands datasets lead to a severe form of [carpal tunnel syndrome](https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome), it may simply be impossible. **Collections** (also known as *Dataset collections* or *Lists*) described here help to resolve this situation and make very large analyses Galaxy-friendly.
+Not only may clicking on thousands datasets lead to a severe form of <a href="https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome">carpal tunnel syndrome</a>, it may simply be impossible. **Collections** (also known as *Dataset collections* or *Lists*) described here help to resolve this situation and make very large analyses Galaxy-friendly.
 
 # Collections combine datasets to minimize clutter
 
@@ -31,7 +31,7 @@ A typical multi-dataset analysis of next-generation sequencing (NGS) data usuall
 |      |
 |------|
 |![](/tutorials/collections/simpleCollection.png)|
-|<small>**Figure 2. A collection** is any number of datasets bundled as a **single** entity. In this example, to, say, map *N* fastq files against the human genome you need to manually start *N* mapping jobs. Yet if you first combine individual datasets into a collection, you will only need start a mapping job **once** using the collection as the only input.</small>|
+|<em>**Figure 2. A collection** is any number of datasets bundled as a **single** entity. In this example, to, say, map *N* fastq files against the human genome you need to manually start *N* mapping jobs. Yet if you first combine individual datasets into a collection, you will only need start a mapping job **once** using the collection as the only input.</em>|
 
 ## Collections reflect data complexity
 
@@ -40,7 +40,7 @@ The previous image shows how multiple fastq datasets can be combined in a single
 |      |
 |------|
 |![](/tutorials/collections/pairedCollection.png)|
-|<small>**Figure 3. Paired collection** preserves the relationship between read pairs and their respective samples.</small>
+|<em>**Figure 3. Paired collection** preserves the relationship between read pairs and their respective samples.</em>
 
 # Creating collections in practice
 
@@ -57,7 +57,7 @@ In this example we have six datasets representing single-end (not paired-end) se
 |      |
 |------|
 |![](/tutorials/collections/creating_list.png)|
-|<small>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/tutorials/collections/creating_list.pdf)). **A**. Click the checkbox <i class="far fa-check-square" aria-hidden="true"></i> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown [here](/tutorials/histories/#searching-for-datasets)). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</small>|
+|<em>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click <a href="/tutorials/collections/creating_list.pdf">here</a>). **A**. Click the checkbox <i class="far fa-check-square" aria-hidden="true"></i> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown <a href="/tutorials/histories/#searching-for-datasets">here</a>). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</em>|
 
 ### A paired collection example
 
@@ -77,7 +77,7 @@ This is important because the fact that `-f` and `-r` differentiate forward and 
 |      |
 |------|
 |![](/tutorials/collections/creating_paired_list.png)|
-|<small>**Figure 5. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/tutorials/collections/creating_paired_list.pdf)). The starting steps are identical to steps A through C of the previous example (Figure 4). **A**. Here choose "Build List of Dataset pairs" to open dataset collection creator. **B**. In the left text box (highlighted in red) enter `-f`. These two characters distinguish *forward* datasets in our case. Once this is done matching datasets will appear underneath the text field. In the right text box (highlighted in green) enter `-r`. These two characters distinguish *reverse* datasets in our case. Again, matching datasets will appear under the box. Finally, click "Auto-pair". **C**. Auto-pairing will form dataset pairs. At this point scroll to the bottom of the form, name the collection, and click "Create list". **D**. A new collection will appear in your history. Clicking the collection will reveal its content. **E**. In this example the collection consists of three pairs. **F**. Clicking on any pair will reveal forward and reverse sequence datasets. </small>|
+|<em>**Figure 5. Creating a list (collection) or datasets** (To see a higher resolution image right-click <a href="/tutorials/collections/creating_paired_list.pdf">here</a>). The starting steps are identical to steps A through C of the previous example (Figure 4). **A**. Here choose "Build List of Dataset pairs" to open dataset collection creator. **B**. In the left text box (highlighted in red) enter `-f`. These two characters distinguish *forward* datasets in our case. Once this is done matching datasets will appear underneath the text field. In the right text box (highlighted in green) enter `-r`. These two characters distinguish *reverse* datasets in our case. Again, matching datasets will appear under the box. Finally, click "Auto-pair". **C**. Auto-pairing will form dataset pairs. At this point scroll to the bottom of the form, name the collection, and click "Create list". **D**. A new collection will appear in your history. Clicking the collection will reveal its content. **E**. In this example the collection consists of three pairs. **F**. Clicking on any pair will reveal forward and reverse sequence datasets. </em>|
 
 ## Uploading data directly into collections
 
@@ -95,13 +95,13 @@ This approach only works for a relatively small (dozens) number of small (below 
 
 ### Uploading from FTP
 
-A more robust, preferred way of uploading data is through FTP. For this you need to use an FTP client (such as [FileZilla](https://filezilla-project.org/) used here) to upload data into Galaxy. Use your galaxy URL address (http://usegalaxy.org for the main site), username, and password as shown in the following video:
+A more robust, preferred way of uploading data is through FTP. For this you need to use an FTP client (such as <a href="https://filezilla-project.org/">FileZilla</a> used here) to upload data into Galaxy. Use your galaxy URL address (http://usegalaxy.org for the main site), username, and password as shown in the following video:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/217210779?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ### Uploading from short read archive
 
-Finally, if the data you are uploading has been deposited to the Short Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)) at [NCBI](https://www.ncbi.nlm.nih.gov/) use this approach:
+Finally, if the data you are uploading has been deposited to the Short Read Archive (<a href="https://www.ncbi.nlm.nih.gov/sra">SRA</a>) at <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a> use this approach:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/217216264?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
@@ -116,7 +116,7 @@ To rename a collection click on its name:
 |      |
 |------|
 |![](/tutorials/collections/renaming_collection.png)|
-|<small>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh <i class="fas fa-sync" aria-hidden="true"></i> icon.</small>|
+|<em>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh <i class="fas fa-sync" aria-hidden="true"></i> icon.</em>|
 
 ## Tagging collections
 
@@ -125,7 +125,7 @@ There are two types of tags that can be used as an additional level of labeling 
 |      |
 |------|
 |![](/tutorials/collections/tagging_collection.png)|
-|<small>**Figure 7. Tagging a collection**. **A**. Click on collection. **B**. Once collection expands, type tag name in the tagging box. **If you want the tag to propagate through the analysis add the hash (`#`) symbol in front of the tag as shown here.** **C**. Hit Enter and go back to history by clicking the "Back to..." link. **D**. The collection is now tagged.</small>|
+|<em>**Figure 7. Tagging a collection**. **A**. Click on collection. **B**. Once collection expands, type tag name in the tagging box. **If you want the tag to propagate through the analysis add the hash (`#`) symbol in front of the tag as shown here.** **C**. Hit Enter and go back to history by clicking the "Back to..." link. **D**. The collection is now tagged.</em>|
 
 The following video shows the power of hashtags:
 
@@ -138,7 +138,7 @@ Galaxy contains a special set of tools - **Collection operations** - designed fo
 |      |
 |------|
 |![](/tutorials/collections/collection_operations.png)|
-|<small>**Figure 8. Collection operations**. **Zip** - combines two collections as a zipper. If you, for example, have two collections representing forward and reverse reads, respectively, this tool can be used to combine them into a single paired collection. **Unzip** - performs opposite of Zip. **Filter Failed** - when running analyses on collections it is possible that some individual analyses on collection elements will fail. This tool allows you to filter out failed elements so you can continue your analysis instead of performing it again. **Flatten** - squish collection into a simple list of elements. **Filter from File** - given a file of collection element IDs reduce the collection to only a subset of elements listed in the file. **Relabel from File** - use labels in the file to change the collection element names. **Concatenate** - merge two collection tail-to-head.</small>|
+|<em>**Figure 8. Collection operations**. **Zip** - combines two collections as a zipper. If you, for example, have two collections representing forward and reverse reads, respectively, this tool can be used to combine them into a single paired collection. **Unzip** - performs opposite of Zip. **Filter Failed** - when running analyses on collections it is possible that some individual analyses on collection elements will fail. This tool allows you to filter out failed elements so you can continue your analysis instead of performing it again. **Flatten** - squish collection into a simple list of elements. **Filter from File** - given a file of collection element IDs reduce the collection to only a subset of elements listed in the file. **Relabel from File** - use labels in the file to change the collection element names. **Concatenate** - merge two collection tail-to-head.</em>|
 
 # Using collections
 
@@ -151,42 +151,42 @@ We will start with a paired collection of fastq reads, map them to the human gen
 |      |
 |------|
 |![](/tutorials/collections/collection_reduction.png)|
-|<small>**Figure 9. An example of an analysis using collections**. Here analysis begins with a paired collection containing fastq datasets. The entire collection is mapped using BWA (or Bowtie2). The maping step produces another collection as output but this collection is no longer paired (mappers use paired fastq reads to generate a single BAM dataset from each pair). Instead it is a simple list of BAM files. During mapping (see below and also see [this tutorial](/tutorials/ngs/#read-groups)) we set read groups within individual BAM datasets. This effectively labels each read with its origin (e.g., we know that read came from, say, *sample 1*). Because of this we can merge the entire collection of BAM files into a single BAM dataset. Thus - we start with a collection and finish with just a single dataset.</small>|
+|<em>**Figure 9. An example of an analysis using collections**. Here analysis begins with a paired collection containing fastq datasets. The entire collection is mapped using BWA (or Bowtie2). The maping step produces another collection as output but this collection is no longer paired (mappers use paired fastq reads to generate a single BAM dataset from each pair). Instead it is a simple list of BAM files. During mapping (see below and also see <a href="/tutorials/ngs/#read-groups">this tutorial</a>) we set read groups within individual BAM datasets. This effectively labels each read with its origin (e.g., we know that read came from, say, *sample 1*). Because of this we can merge the entire collection of BAM files into a single BAM dataset. Thus - we start with a collection and finish with just a single dataset.</em>|
 
 We we start with loading a collection into history using any of the methods that have been discussed above:
 
 |      |
 |------|
 |![](/tutorials/collections/collection_use1.png)|
-|<small>**Figure 10. A collection** is loaded into Galaxy's history.</small>|
+|<em>**Figure 10. A collection** is loaded into Galaxy's history.</em>|
 
 Next, we will tag this collection:
 
 |      |
 |------|
 |![](/tutorials/collections/collection_use2.png)|
-|<small>**Figure 11. A tagged collection**. The tag "controls" is added as previously described.</small>|
+|<em>**Figure 11. A tagged collection**. The tag "controls" is added as previously described.</em>|
 
 At this point we map the contents of the collection using **NGS: Mapping &rarr; BWA-MEM**:
 
 |      |
 |------|
 |![](/tutorials/collections/collection_use3.png)|
-|<small>**Figure 12. Mapping a collection**. Set input type (red arrow) to "Paired Collection". This will allow selecting a collection from the history. Set readgroup dropdown to "Set readgroups (SAM/BAM specifications" (green arrow) and switch the three "Auto-assign" controls to "Yes" (blue arrows). Run the tool.</small>|
+|<em>**Figure 12. Mapping a collection**. Set input type (red arrow) to "Paired Collection". This will allow selecting a collection from the history. Set readgroup dropdown to "Set readgroups (SAM/BAM specifications" (green arrow) and switch the three "Auto-assign" controls to "Yes" (blue arrows). Run the tool.</em>|
 
 Mapping produces another collection containing a list of BAM datasets produced by BWA. In other words every time a tool is run using a collection as input, Galaxy actually runs the tool *N* times on *N* collection elements (or a dataset pair in the case of paired data) and bundles outputs into an output collection.
 
 |      |
 |------|
 |![](/tutorials/collections/collection_use4.png)|
-|<small>**Figure 13. Mapping result**. Running BWA will produce another collection in the history. **Note** that tag has propagated onto this collection. This collection contains a list of BAM datasets.</small>|
+|<em>**Figure 13. Mapping result**. Running BWA will produce another collection in the history. **Note** that tag has propagated onto this collection. This collection contains a list of BAM datasets.</em>|
 
 Since we have assigned readgroup information while running BWA we can now merge a collection into a single BAM dataset using **NGS: Picard &rarr; MergeSam**:
 
 |      |
 |------|
 |![](/tutorials/collections/collection_use5.png)|
-|<small>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder <i class="far fa-folder" aria-hidden="true"></i> button.</small>
+|<em>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder <i class="far fa-folder" aria-hidden="true"></i> button.</em>
 
 We have now aligned our reads and merged them to a single file for downstream analysis. Using collections allowed us to execute these operations on groups of samples with minimal clicking.
 
@@ -197,18 +197,18 @@ Going forward collections will become the dominant way to represent and manage d
 |      |
 |------|
 |![](/tutorials/collections/collection_rna.png)|
-|<small>**Figure 15. Example of RNA-seq analysis**. This example starts with multiple paired end datasets representing two conditions with several replicates. The analysis proceeds by creating two collections that are analyzed in parallel (the tagging feature described above should make this analysis very straightforward), where reads are mapped to a genome and the mapped reads are then counted upstream of the DeSeq2 tool, whcih reduces the collections into a single table listing changes in gene expression between the two conditions (see [RNA seq tutorial](/tutorials/nt-rnaseq/) for a comprehensive explanation).</small>|
+|<em>**Figure 15. Example of RNA-seq analysis**. This example starts with multiple paired end datasets representing two conditions with several replicates. The analysis proceeds by creating two collections that are analyzed in parallel (the tagging feature described above should make this analysis very straightforward), where reads are mapped to a genome and the mapped reads are then counted upstream of the DeSeq2 tool, whcih reduces the collections into a single table listing changes in gene expression between the two conditions (see <a href="/tutorials/nt-rnaseq/">RNA seq tutorial</a> for a comprehensive explanation).</em>|
 
 The next analysis highlights main steps if initial processing of ChIP-seq data:
 
 |      |
 |------|
 |![](/tutorials/collections/collection_chip.png)|
-|<small>**Figure 16. Example of ChIP-eq analysis**. Here three collections are used to represent data for two ChIP experiments (TF1 and TF2) as well as input DNA control data. The peak calling is performed on individual pairs of TF and input data as well as on combination of all datasets.</small>|
+|<em>**Figure 16. Example of ChIP-eq analysis**. Here three collections are used to represent data for two ChIP experiments (TF1 and TF2) as well as input DNA control data. The peak calling is performed on individual pairs of TF and input data as well as on combination of all datasets.</em>|
 
 # The future
 
 The future improvements of dataset collections will allow representing complex experiments such as the ones shown in the two previous figures in a single collection.
 
 # If things don't work...
-...you need to complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
+...you need to complain. Use <a href="https://help.galaxyproject.org/">Galaxy's support forum</a> to do this.
