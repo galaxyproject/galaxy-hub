@@ -747,11 +747,10 @@ function convertComponentsToPascalCase(content) {
 }
 
 /**
- * Convert HTML patterns to JSX syntax for MDX compatibility
- * <!-- comment --> -> {/* comment *\/}
- * rowspan=3 -> rowspan="3"
+ * Convert HTML patterns to JSX syntax for MDX compatibility.
+ * Handles HTML comments → JSX comments and bare <> → &lt;&gt;.
  */
-function convertVueToJsx(content) {
+function convertHtmlToJsx(content) {
   let processed = content;
 
   // Convert HTML comments to JSX comments
@@ -763,46 +762,6 @@ function convertVueToJsx(content) {
 
   // Escape empty angle brackets <> which look like JSX fragments
   processed = processed.replace(/<>/g, '&lt;&gt;');
-
-  // Self-close void HTML elements for JSX compatibility
-  const voidElements = [
-    'br',
-    'hr',
-    'img',
-    'input',
-    'embed',
-    'source',
-    'track',
-    'wbr',
-    'area',
-    'base',
-    'col',
-    'meta',
-    'link',
-  ];
-  for (const tag of voidElements) {
-    processed = processed.replace(
-      new RegExp(`<${tag}(\\s[^>]*[^/])?>`, 'gi'),
-      (match, attrs) => `<${tag}${attrs || ''} />`
-    );
-  }
-
-  // Fix missing space between tag and attribute (e.g., <rowclass= -> <row class=)
-  // Common pattern in malformed legacy HTML
-  processed = processed.replace(/<(\w+)(class|style|id|href|src|rowspan|colspan|width|height)=/gi, '<$1 $2=');
-
-  // Fix malformed style/class attributes where class is embedded in style
-  // style=" class="green"  text-align:center;" -> class="green" style="text-align:center;"
-  processed = processed.replace(/style="\s*class="([^"]+)"\s*([^"]*)"/gi, 'class="$1" style="$2"');
-
-  // Fix unquoted HTML attributes (e.g., rowspan=3 -> rowspan="3")
-  // Match attribute=value where value is not quoted
-  // Run multiple times to catch consecutive unquoted attributes
-  let prev;
-  do {
-    prev = processed;
-    processed = processed.replace(/(\s)(\w+)=(\d+)(?=\s|>|\/)/g, '$1$2="$3"');
-  } while (prev !== processed);
 
   return processed;
 }
@@ -895,7 +854,7 @@ async function processMarkdownFile(filePath) {
   // Convert Vue bindings/HTML to JSX for MDX files (AFTER markdown processing
   // to avoid remark escaping asterisks in JSX comments)
   if (hasComponents) {
-    processedContent = convertVueToJsx(processedContent);
+    processedContent = convertHtmlToJsx(processedContent);
     // Convert kebab-case component names to PascalCase for MDX
     processedContent = convertComponentsToPascalCase(processedContent);
   }
@@ -1186,7 +1145,7 @@ export {
   hasProblematicHtml,
   needsVueProcessing,
   convertFontAwesomeToLucide,
-  convertVueToJsx,
+  convertHtmlToJsx,
   convertComponentsToPascalCase,
   addBootstrapMarker,
   processImagePaths,
