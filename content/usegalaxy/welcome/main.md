@@ -4,12 +4,10 @@ title: usegalaxy.org
 
 <div class="text-center my-5">
 
-**Donate to the James P. Taylor Foundation for Open Science**
+<p><strong>Donate to the James P. Taylor Foundation for Open Science</strong></p>
 
 <a href="https://jxtxfoundation.org/" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;" target="_blank">
-
 <i class="fa fa-external-link-alt fa-sm" aria-hidden="true"></i>&nbsp;Learn More
-
 </a>
 
 </div>
@@ -39,7 +37,7 @@ title: usegalaxy.org
     <div class="col-sm-6 text-center"><a href="http://www.bio.jhu.edu/" target="_blank"><img src="/images/usegalaxy-welcome/jhu_logo.png" alt="Johns Hopkins University" /></a></div>
 </div>
 
-[The Galaxy Team](https://galaxyproject.org/galaxy-team/) is a part of [the Center for Comparative Genomics and Bioinformatics][psu-bx] at [Penn State][psu] and the [Department of Biology][jhu-bio] at [Johns Hopkins University][jhu].
+<p><a href="https://galaxyproject.org/galaxy-team/">The Galaxy Team</a> is a part of <a href="http://www.bx.psu.edu/">the Center for Comparative Genomics and Bioinformatics</a> at <a href="http://www.psu.edu/">Penn State</a> and the <a href="http://www.bio.jhu.edu/">Department of Biology</a> at <a href="http://www.jhu.edu/">Johns Hopkins University</a>.</p>
 
 </div>
 <div class="col-md-8 order-2">
@@ -49,7 +47,7 @@ title: usegalaxy.org
     <div class="col-sm-4 text-center"><a href="https://jetstream-cloud.org/" target="_blank"><img src="/images/usegalaxy-welcome/jetstream2_logo.png" alt="Jetstream2 Cloud logo" /></a></div>
 </div>
 
-This instance of Galaxy is utilizing infrastructure generously provided by the [Texas Advanced Computing Center][tacc]. Additional resources are provided primarily on the [Jetstream2][jetstream2] cloud via [ACCESS][access], and with support from the [National Science Foundation][nsf].
+<p>This instance of Galaxy is utilizing infrastructure generously provided by the <a href="https://tacc.utexas.edu/">Texas Advanced Computing Center</a>. Additional resources are provided primarily on the <a href="https://jetstream-cloud.org/">Jetstream2</a> cloud via <a href="https://access-ci.org/">ACCESS</a>, and with support from the <a href="http://www.nsf.gov">National Science Foundation</a>.</p>
 
 </div>
 </div>
