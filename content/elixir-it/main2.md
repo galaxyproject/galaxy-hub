@@ -3,8 +3,8 @@ title: Galaxy Italy
 subtitle: The homepage of the Italian Galaxy community
 ---
 
-<!-- Color palette: https://www.color-hex.com/color-palette/9983 -->
-<!-- Projects/Communities/Citation/Team cards -->
+{/*  Color palette: https://www.color-hex.com/color-palette/9983  */}
+{/*  Projects/Communities/Citation/Team cards  */}
 
 <div class="card-deck">
   <div class="card border-secondary bg-light mb-1 mx-1" style="width: 18rem">

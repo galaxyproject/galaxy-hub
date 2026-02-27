@@ -2,6 +2,7 @@
 autotoc: true
 title: Analysis of ChIP-seq data
 redirect: "/learn"
+components: true
 ---
 
 <blockquote class="blockquote">
@@ -50,7 +51,7 @@ There are four datasets:
 ## Data location
 
 
-<!-- Modal for Library import video -->
+{/*  Modal for Library import video  */}
 <div class="modal fade" id="lib_video" tabindex="-1" role="dialog" aria-labelledby="libVid">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -75,7 +76,7 @@ These datasets are deposited in a <a href="https://usegalaxy.org/libraries/folde
 |<em>**Galaxy data library containing the reads**. Here you can see two replicates (`R1` and `R2`). This is single-end data. Upload datasets into a new history by selecting all datasets and clicking `to History` button. Name the new history and click `Import` (watch <a href="#" data-toggle="modal" data-target="#lib_video">this video</a>).</em>|
 
 
-<!-- Modal for Creating collection video -->
+{/*  Modal for Creating collection video  */}
 <div class="modal fade" id="collection_create_video" tabindex="-1" role="dialog" aria-labelledby="collection_create_Vid">
    <div class="modal-dialog" role="document">
      <div class="modal-content">
@@ -110,7 +111,7 @@ In this particular case the data is of very high quality and do not need to be t
 
 <div class="alert alert-warning" role="alert"><Icon name="alert-circle" />Running <code>BWA</code> on a collection will generate another collection of BAM files. Name this collection <code>mapped data</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
 
-<!-- Modal for Renaming collection video -->
+{/*  Modal for Renaming collection video  */}
 <div class="modal fade" id="collection_rename_video" tabindex="-1" role="dialog" aria-labelledby="collection_rename_Vid">
    <div class="modal-dialog" role="document">
      <div class="modal-content">
@@ -276,7 +277,7 @@ We will use **NGS: DeepTools &rarr; bamCoverage**:
 
 ## Displaying coverage tracks in a browser
 
-<!-- Modal for displaying in IGV -->
+{/*  Modal for displaying in IGV  */}
 <div class="modal fade" id="igv_video" tabindex="-1" role="dialog" aria-labelledby="igv_Vid">
    <div class="modal-dialog" role="document">
      <div class="modal-content">

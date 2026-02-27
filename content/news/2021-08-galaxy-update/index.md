@@ -4,6 +4,7 @@ tease: "GCC2021 is over and we're heading to GCC2022 in Minneapolis!"
 date: "2021-08-06"
 subsites: [global, us]
 tags: [gcc, newsletter]
+components: true
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -24,7 +25,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck lead">
 
-<!-- GCC banner image -->
+{/*  GCC banner image  */}
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
 <div class="trim-p">
 
@@ -34,7 +35,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 </div>
 
 
-<!-- GCC Meeting Summary -->
+{/*  GCC Meeting Summary  */}
 <div class="card border-info"  style="min-width: 20rem; max-width: 26rem;">
 <div class="card-header trim-p">
 
@@ -53,7 +54,7 @@ GCC2021 was our second virtual Galaxy Community Conference. This year we had 399
 </div>
 
 
-<!-- Training Videos -->
+{/*  Training Videos  */}
 <div class="card border-info"  style="min-width: 20rem; max-width: 26rem;">
 <div class="card-header trim-p">
 
@@ -74,7 +75,7 @@ Many, many thanks to the instructors and helpers who contributed their time and 
 
 </div>
 
-<!-- GCC Videos / Slides / Posters -->
+{/*  GCC Videos / Slides / Posters  */}
 <div class="card border-info"  style="min-width: 20rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
@@ -92,7 +93,7 @@ Videos of all talks are now linked to from the <a href="https://gcc2021.sched.co
 </div>
 
 
-<!-- PeerJ Best Poster -->
+{/*  PeerJ Best Poster  */}
 <div class="card border-info"  style="min-width: 30%; max-width: 22rem;">
 <div class="card-header trim-p">
 
@@ -112,7 +113,7 @@ Maren's presentation took full advantage of the Remo conference platform, which 
 </div>
 
 
-<!-- GCC2022 -->
+{/*  GCC2022  */}
 <div class="card border-info"  style="min-width: 30%; max-width: 26rem;">
 <img class="card-img-top" src="/images/galaxy-logos/events/gcc2022-logo-600.png" alt="GCC2022" />
 <div class="card-header trim-p">
@@ -130,7 +131,7 @@ We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) w
 
 <div class="card-deck">
 
-<!-- Indian Community -->
+{/*  Indian Community  */}
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <img class="card-img-top" src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" />
 <div class="card-header trim-p">
@@ -165,7 +166,7 @@ If you are working in data intensive science in India then please consider getti
 </div>
 
 
-<!-- hiring -->
+{/*  hiring  */}
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
 <img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
@@ -186,7 +187,7 @@ There are also "open until filled" positions in the US (x7) and Belgium. Take a 
 
 </div>
 
-<!-- New Videos -->
+{/*  New Videos  */}
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
 <div class="trim-p">
 
@@ -217,7 +218,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 <div class="card-deck">
 
-<!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
+{/*  SARS-CoV-2 Data Analysis and Monitoring with Galaxy  */}
 <div class="card border-info" style="min-width: 45%;">
 <img class="card-img-bottom" src="/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
 <div class="card-header trim-p">
@@ -235,7 +236,7 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 </div>
 
 
-<!-- BioHackathon -->
+{/*  BioHackathon  */}
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
 <div class="trim-p expand-img">
 
@@ -253,7 +254,7 @@ Galaxy <a href="/events/2021-11-biohackathon-europe/">is featured in at least 7 
 </div>
 
 
-<!-- Galaxy Dev Round Table -->
+{/*  Galaxy Dev Round Table  */}
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
 <img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
@@ -280,7 +281,7 @@ The <a href="/use/">Galaxy Platform Directory</a> lists resources for easily run
 
 <div class="card-deck">
 
-<!-- Galaxy India -->
+{/*  Galaxy India  */}
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <img class="card-img-top" src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India*" />
 <div class="card-header trim-p">
@@ -294,7 +295,7 @@ Welcome to the India Galaxy workbench; a comprehensive set of tools and workflow
 
 </div>
 
-<!-- CropGalaxy -->
+{/*  CropGalaxy  */}
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="trim-p">
 
@@ -311,7 +312,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from <a href="ht
 
 </div>
 
-<!-- UseGalaxy.* -->
+{/*  UseGalaxy.*  */}
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
@@ -338,7 +339,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from <a href="ht
 
 <div class="card-deck">
 
-<!-- Accessibility Improvements -->
+{/*  Accessibility Improvements  */}
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="card-header trim-p">
 
@@ -351,7 +352,7 @@ We are now supporting alternative formats for accessing our JavaScript based sli
 </div>
 
 
-<!-- Removal of humans -->
+{/*  Removal of humans  */}
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="trim-p">
 
@@ -371,7 +372,7 @@ This tutorial guides you through a typical workflow for clearing human sequences
 </div>
 
 
-<!-- Data Independent Acquisition -->
+{/*  Data Independent Acquisition  */}
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="trim-p">
 
@@ -390,7 +391,7 @@ Three new tutorials from the Fahrner & Föll team teach you how to do Data Indep
 
 </div>
 
-<!-- Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data -->
+{/*  Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data  */}
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="trim-p">
 
@@ -410,7 +411,7 @@ This tutorial got a major update, including many improvements based on feedback 
 </div>
 
 
-<!-- Galaxy 101 -->
+{/*  Galaxy 101  */}
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="trim-p">
 
@@ -427,7 +428,7 @@ The venerable *Galaxy 101* tutorial is still venerable, but it is now also state
 </div>
 
 
-<!-- Feedback summary page -->
+{/*  Feedback summary page  */}
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="card-header trim-p">
 

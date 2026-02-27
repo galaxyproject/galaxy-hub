@@ -2,11 +2,12 @@
 description: "Users, developers, and trainers providing feedback and energy to improve and expand the Galaxy mass spectrometry capabilities."
 autotoc: true
 title: "Galaxy Mass Spectrometry Community (GMSC)"
+components: true
 ---
 
 <slot name="/community/sig/common_linkbox" />
 
-<!-- <img class="img-fluid float-right" src="/community/sig/mass-spectrometry/GalaxyP_logo.png" style="width:200px;" alt="Logo for Galaxy mass spectrometry community."/> -->
+{/*  <img class="img-fluid float-right" src="/community/sig/mass-spectrometry/GalaxyP_logo.png" style="width:200px;" alt="Logo for Galaxy mass spectrometry community."/>  */}
 
 ## Welcome to the Galaxy Mass Spectrometry Community!
 
@@ -30,7 +31,7 @@ Our mission is to:
 
 **Meetings** We meet every 2-3 months. There are two meetings in one day, one for the EU and one for AU time zone - you can choose the one that suits you more or join both! 
 
-<!-- **Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder. -->
+{/*  **Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder.  */}
 
 **Notes** We keep rolling notes on a googledoc and monitor our work in a github project.
 
@@ -38,7 +39,7 @@ Our mission is to:
 
 
 
-<!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=Europe%2FBerlin&title=Galaxy%20Single%20Cell%20Community%20of%20Practice&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=AGENDA&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe> -->
+{/*  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=Europe%2FBerlin&title=Galaxy%20Single%20Cell%20Community%20of%20Practice&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=AGENDA&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>  */}
 
 
 **Join Us!**
@@ -88,7 +89,7 @@ Events related to MS data processing will be published here.
  - <Icon name="tv" />&nbsp;&nbsp; [Proteomics Galaxy instance](https://proteomics.usegalaxy.eu/)
  - <Icon name="help-circle" />&nbsp; &nbsp;[Metabolomics help forum](https://help.galaxyproject.org/tag/metabolomics)
  - <Icon name="message-square" />&nbsp; &nbsp;[Mass spectrometry user community chat room](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org)
- <!-- - <Icon name="calendar" />&nbsp;&nbsp; [Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) ← Subscribe! -->
+ {/*  - <Icon name="calendar" />&nbsp;&nbsp; [Google Calendar](https://calendar.google.com/calendar/embed?src=galaxy.sc.cop%40gmail.com&ctz=Europe%2FLondon) ← Subscribe!  */}
  - <Icon name="list" />&nbsp;&nbsp; [Meeting Notes doc](https://docs.google.com/document/d/1EvGFC39qT8tp-TbLqlXGZehgPm0VXZEYnlac13gBXO0/edit) ← There's a section here called 'New here?' that gives tips on how to start contributing as well!
 
 ## Recent publications

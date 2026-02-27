@@ -1,6 +1,7 @@
 ---
 title: Special Interest Groups (SIG)
 autotoc: false
+components: true
 ---
 
 <slot name="/community/sig/common_linkbox" />
@@ -27,7 +28,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 <div class="card-deck">
 
-<!-- Climate -->
+{/*  Climate  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://climate.usegalaxy.eu">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Climate</div>
@@ -37,7 +38,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Computational Chemistry -->
+{/*  Computational Chemistry  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/computationalchemistry/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Computational Chemistry</div>
@@ -47,7 +48,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Earth -->
+{/*  Earth  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/earth/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Earth</div>
@@ -57,7 +58,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Ecology -->
+{/*  Ecology  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://ecology.usegalaxy.eu">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Ecology</div>
@@ -67,7 +68,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Genome Annotation -->
+{/*  Genome Annotation  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/genome-annotation/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Genome Annotation</div>
@@ -77,7 +78,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Materials Science -->
+{/*  Materials Science  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://materials.usegalaxy.eu">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Materials Science</div>
@@ -87,7 +88,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- MicroGalaxy -->
+{/*  MicroGalaxy  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/microbial">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Microbiology</div>
@@ -97,7 +98,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Public Health -->
+{/*  Public Health  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Public Health</div>
@@ -107,7 +108,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Digital Humanities -->
+{/*  Digital Humanities  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/digital-humanities/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Digital Humanties</div>
@@ -118,7 +119,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </div>
 
 
-<!-- CoP FIELD SIGs Card-div end -->
+{/*  CoP FIELD SIGs Card-div end  */}
 </div>
 
 ---
@@ -127,7 +128,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 <div class="card-deck">
 
-<!-- Machine Learning -->
+{/*  Machine Learning  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/ml-ai-across-galaxy/">
 <div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Machine Learning</div>
@@ -137,7 +138,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Metabolomics -->
+{/*  Metabolomics  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://metabolomics.usegalaxy.eu">
 <div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Metabolomics</div>
@@ -147,17 +148,17 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Natural Language Processing — inactive
+{/*  Natural Language Processing — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" /> Natural Language Processing</div>
 </a>
 <p>An open, interoperable web service platform for natural language processing (NLP) research and development.</p>
 </div>
--->
+ */}
 
 
-<!-- Proteomics -->
+{/*  Proteomics  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://proteore.org/">
 <div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Proteomics</div>
@@ -167,7 +168,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Single cell & sPatial Omics -->
+{/*  Single cell & sPatial Omics  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/singlecell/">
 <div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Single cell &amp; sPatial Omics</div>
@@ -177,7 +178,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Image Analysis -->
+{/*  Image Analysis  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/image-analysis/">
 <div class="card-header bg-sig-method text-white text-center"><Icon name="external-link" />&nbsp;Image Analysis</div>
@@ -187,7 +188,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- CoP Methodologies SIGs Card-div end -->
+{/*  CoP Methodologies SIGs Card-div end  */}
 </div>
 
 ### Service
@@ -195,7 +196,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 
 
-<!-- Small Scale Admins -->
+{/*  Small Scale Admins  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/small-scale-admins/">
 <div class="card-header bg-sig-service text-white text-center"><Icon name="external-link" />&nbsp;Small Scale Admins</div>
@@ -206,7 +207,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </div>
 
 
-<!-- Galaxy Tool Developers -->
+{/*  Galaxy Tool Developers  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/tool-developers/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Galaxy Tool Developers</div>
@@ -216,7 +217,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- CoP Service SIGs Card-div end -->
+{/*  CoP Service SIGs Card-div end  */}
 </div>
 
 ---
@@ -225,7 +226,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 <div class="card-deck">
 
-<!-- Galaxy Africa -->
+{/*  Galaxy Africa  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Africa</div>
@@ -235,7 +236,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Arabic -->
+{/*  Arabic  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/arabic/">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Arabic</div>
@@ -245,7 +246,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Australia -->
+{/*  Australia  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://site.usegalaxy.org.au">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Australia</div>
@@ -255,7 +256,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Czech -->
+{/*  Czech  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/czech/">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Czech</div>
@@ -266,7 +267,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </div>
 
 
-<!-- Europe -->
+{/*  Europe  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/eu/">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Europe</div>
@@ -277,7 +278,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </div>
 
 
-<!-- France -->
+{/*  France  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;France</div>
@@ -287,7 +288,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- India -->
+{/*  India  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="https://www.galaxyproject.in">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;India</div>
@@ -298,7 +299,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 </div>
 
 
-<!-- Japan — inactive
+{/*  Japan — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/eu/">
 <div class="card-header bg-wg-applied text-white text-center">Japan</div>
@@ -309,9 +310,9 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <li><a href="https://twitter.com/hashtag/usegalaxyjp"><Icon name="twitter" /> Twitter</a></li>
 </ul>
 </div>
--->
+ */}
 
-<!-- The Netherlands — inactive
+{/*  The Netherlands — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-wg-applied text-white text-center">The Netherlands</div>
@@ -322,9 +323,9 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <li><a href="https://lists.dtls.nl/mailman/listinfo/nlgalaxy-team"><Icon name="mail" /> Mailing List</a></li>
 </ul>
 </div>
--->
+ */}
 
-<!-- Galaxy Switzerland -->
+{/*  Galaxy Switzerland  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/switzerland/">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Switzerland</div>
@@ -334,7 +335,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- UK -->
+{/*  UK  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/uk/">
 <div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;UK</div>
@@ -344,7 +345,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
-<!-- Galaxy Español — inactive
+{/*  Galaxy Español — inactive
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="">
 <div class="card-header bg-wg-applied text-white text-center">Galaxy Español</div>
@@ -354,9 +355,9 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <li><a href="https://lists.galaxyproject.org/lists/espanol@lists.galaxyproject.org"><Icon name="mail" /> Mailing List</a></li>
 </ul>
 </div>
--->
+ */}
 
-<!-- Regional SIGs Card-div end -->
+{/*  Regional SIGs Card-div end  */}
 </div>
 
 ---
@@ -367,7 +368,7 @@ The global community is running a set of scientific multi-year-long projects whi
 
 <div class="card-deck">
 
-<!-- Cancer -->
+{/*  Cancer  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">Cancer Informatics</div>
 
@@ -383,7 +384,7 @@ The global community is running a set of scientific multi-year-long projects whi
 </div>
 
 
-<!-- Human Genetics -->
+{/*  Human Genetics  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">Human Genetics</div>
 
@@ -398,7 +399,7 @@ The global community is running a set of scientific multi-year-long projects whi
 </div>
 
 
-<!-- COVID-19 -->
+{/*  COVID-19  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">COVID-19</div>
 
@@ -411,7 +412,7 @@ The global community is running a set of scientific multi-year-long projects whi
 
 </div>
 
-<!-- VGP -->
+{/*  VGP  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-sig-projects text-white text-center">VGP</div>
 

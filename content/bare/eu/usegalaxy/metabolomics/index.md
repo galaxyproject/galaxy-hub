@@ -1,6 +1,7 @@
 ---
 title: Galaxy Europe Metabolomics
 autotoc: true
+components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -93,7 +94,7 @@ Other metabolomics specialized Galaxy servers:
 
 # News and Events
 
-<!-- TODO: carousel content -->
+{/* TODO: carousel content */}
 
 <iframe title="Recent Galaxy Europe news"
  class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
