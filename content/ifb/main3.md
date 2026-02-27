@@ -39,7 +39,7 @@ subtitle: The subdomains of the French Galaxy server
       </div>
     </div>
   </div>
-  <!--<div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 20rem; max-width: 20rem">
+  {/* <div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 20rem; max-width: 20rem">
     <div class="card-body">
       <h2 class="card-title text-dark">ProteoRE</h2>
       <p class="card-text">Functional analysis and exploration of proteomics and transcriptomics data in biomedical research</p>
@@ -49,7 +49,7 @@ subtitle: The subdomains of the French Galaxy server
           <a href="https://proteore.usegalaxy.fr/" target="_top" class="btn btn-primary">ProteoRE</a>
       </div>
     </div>
-  </div>-->
+  </div> */}
   <div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 20rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Covid19</h2>
@@ -94,7 +94,7 @@ subtitle: The subdomains of the French Galaxy server
       </div>
     </div>
   </div>
-  <!--div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 20rem; max-width: 20rem">
+  {/* div class="card border-secondary bg-light mb-1 mx-1" style="min-width: 20rem; max-width: 20rem">
     <div class="card-body">
       <h2 class="card-title text-dark">Plants-Pathogens</h2>
       <p class="card-text">To address the needs of scientific & local communities, we offer customized Galaxy subdomains.</p>
@@ -104,5 +104,5 @@ subtitle: The subdomains of the French Galaxy server
           <a href="https://plants-pathongens.usegalaxy.fr/" target="_top" class="btn btn-primary">Plants-Pathogens</a>
       </div>
     </div>
-  </div-->
+  </div */}
 </div>

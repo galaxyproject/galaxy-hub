@@ -43,12 +43,12 @@ The following <a href="https://training.galaxyproject.org/training-material/topi
 
 ------
 
-<!-- Workflow badges
+{/* Workflow badges
 <span class="badge badge-danger">ILL-AMP</span>
 <span class="badge badge-secondary">ONT-AMP</span>
 <span class="badge badge-success">ILL-MT-PE</span>
-<span class="badge badge-warning">ILL-MT-SE</span>  
--->
+<span class="badge badge-warning">ILL-MT-SE</span>
+*/}
 
 Each of the four variant calling workflows from the table above is designed to be usable together with the reporting and consensus workflows. The table below shows which workflows to use for a full analysis depending on the combination of library prep and sequencing platform:
 

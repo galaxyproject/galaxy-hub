@@ -1,5 +1,6 @@
 ---
 title: Galaxy Italy Team
+components: true
 ---
 
 <div class="card-deck">
@@ -44,7 +45,7 @@ title: Galaxy Italy Team
     </div>
   </div>
 
-  <!--div class="card border-white mb-1 mx-1" style="width: 18rem; padding: 1.5em .5em .5em; text-align: center">
-  </div-->
+  {/* div class="card border-white mb-1 mx-1" style="width: 18rem; padding: 1.5em .5em .5em; text-align: center">
+  </div */}
 
 </div>

@@ -95,7 +95,7 @@ MetaQuantome | Quantitative analysis of the function and taxonomy of microbiomes
 
 # News and Events
 
-<!-- TODO: carousel content -->
+{/* TODO: carousel content */}
 
 <iframe title="Recent Galaxy Europe news"
  class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
