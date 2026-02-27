@@ -203,20 +203,7 @@ function convertKramdownAttributes(content) {
  * elements in content already have self-closing syntax.
  */
 function fixVoidElements(content) {
-  const voidElements = [
-    'br',
-    'hr',
-    'img',
-    'input',
-    'embed',
-    'track',
-    'wbr',
-    'area',
-    'base',
-    'col',
-    'meta',
-    'link',
-  ];
+  const voidElements = ['br', 'hr', 'img', 'input', 'embed', 'track', 'wbr', 'area', 'base', 'col', 'meta', 'link'];
   return outsideCodeFences(content, (text) => {
     let result = text;
     for (const tag of voidElements) {
@@ -385,18 +372,15 @@ const FA_TO_LUCIDE = {
 function convertFaToIcon(content) {
   return outsideCodeFences(content, (text) => {
     // Convert <i class="fa(s|r|b|l|d)? fa-xxx" ...></i> → <Icon name="xxx" />
-    let result = text.replace(
-      /<i\s+[^>]*class="([^"]*\bfa[sbrld]?\b[^"]*)"[^>]*><\/i>/gi,
-      (match, classes) => {
-        const styleClasses = ['fa-solid', 'fa-regular', 'fa-brands', 'fa-light', 'fa-duotone', 'fa-thin'];
-        const allFaClasses = classes.match(/fa-[a-z0-9-]+/g) || [];
-        const iconClass = allFaClasses.find((cls) => !styleClasses.includes(cls));
-        if (!iconClass) return match;
-        const lucideName = FA_TO_LUCIDE[iconClass];
-        if (!lucideName) return match;
-        return `<Icon name="${lucideName}" />`;
-      }
-    );
+    let result = text.replace(/<i\s+[^>]*class="([^"]*\bfa[sbrld]?\b[^"]*)"[^>]*><\/i>/gi, (match, classes) => {
+      const styleClasses = ['fa-solid', 'fa-regular', 'fa-brands', 'fa-light', 'fa-duotone', 'fa-thin'];
+      const allFaClasses = classes.match(/fa-[a-z0-9-]+/g) || [];
+      const iconClass = allFaClasses.find((cls) => !styleClasses.includes(cls));
+      if (!iconClass) return match;
+      const lucideName = FA_TO_LUCIDE[iconClass];
+      if (!lucideName) return match;
+      return `<Icon name="${lucideName}" />`;
+    });
 
     // Convert <a> tags with FA icon classes:
     // <a href="url" class="fa fa-xxx" target="_blank">text</a> →

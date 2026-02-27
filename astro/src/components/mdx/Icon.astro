@@ -15,9 +15,7 @@ const svg = (icons as Record<string, string>)[pascalName];
 
 // Apply size and optional class overrides to the SVG string
 function applySvgProps(svgStr: string, sizeVal: number, cls?: string): string {
-  let result = svgStr
-    .replace(/width="\d+"/, `width="${sizeVal}"`)
-    .replace(/height="\d+"/, `height="${sizeVal}"`);
+  let result = svgStr.replace(/width="\d+"/, `width="${sizeVal}"`).replace(/height="\d+"/, `height="${sizeVal}"`);
   if (cls) {
     result = result.replace(/class="[^"]*"/, `class="${cls}"`);
   }
@@ -25,9 +23,12 @@ function applySvgProps(svgStr: string, sizeVal: number, cls?: string): string {
 }
 ---
 
-{svg
-  ? <span class="inline-icon" set:html={applySvgProps(svg, size, className)} />
-  : <span title={`Unknown icon: ${name}`} />
+{
+  svg ? (
+    <span class="inline-icon" set:html={applySvgProps(svg, size, className)} />
+  ) : (
+    <span title={`Unknown icon: ${name}`} />
+  )
 }
 
 <style>
