@@ -255,6 +255,34 @@ test.describe('Navigation', () => {
         await expect(page).toHaveURL(/\/eu\//);
       }
     });
+
+    for (const site of ['eu', 'belgium']) {
+      test(`subsite "${site}" community links stay global`, async ({ page }) => {
+        await page.setViewportSize({ width: 1280, height: 800 });
+        await page.goto(`/${site}/events/`);
+        await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(500);
+
+        const sidebar = page.locator('aside').first();
+        await expect(sidebar).toBeVisible();
+
+        const communityTrigger = sidebar.getByRole('button', { name: 'Community' }).first();
+        if (await communityTrigger.isVisible()) {
+          await communityTrigger.click();
+        }
+
+        const governanceLink = sidebar
+          .locator('a[href="/community/governance/"], a[href="/community/governance"]')
+          .first();
+        await expect(governanceLink).toBeVisible();
+        await expect(
+          sidebar.locator(`a[href="/${site}/community/governance/"], a[href="/${site}/community/governance"]`)
+        ).toHaveCount(0);
+
+        await governanceLink.click();
+        await expect(page).toHaveURL(/\/community\/governance\/?$/);
+      });
+    }
   });
 
   test.describe('Search', () => {

@@ -116,7 +116,7 @@ function buildHref(href: string, external?: boolean): string {
   const currentSub = subsite.value;
   if (currentSub && currentSub !== 'global') {
     // Check if this path should be prefixed
-    const subsitePaths = ['/news/', '/events/', '/community/', '/people/'];
+    const subsitePaths = ['/news/', '/events/', '/people/'];
     for (const path of subsitePaths) {
       if (href.startsWith(path)) {
         return `/${currentSub}${href}`;
