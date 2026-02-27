@@ -46,7 +46,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 
 # How do we function?
 
-**Meetings** We meet every 4 weeks (alternating USA, EU and AU time zones) for 1 hour.
+- 🕐 **Meetings**: Every first Thursday of the Month at 15:00 CET / 14:00 UTC | 🗒️ [Agenda and Meeting Link](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?tab=t.ikggoqty5qt) | 🗓️ [Subscribe to Calendar](https://calendar.google.com/calendar/u/0?cid=eeb0e40092fc3f41268e20da017f1601264be2c349201d8a893a5250f662ebfd@group.calendar.google.com)
 
 Our meeting agenda is:
 1. Random intro chatter & introductions
@@ -56,6 +56,8 @@ Our meeting agenda is:
 3. Other cool stuff (example: Smorgasbord)
 4. Ongoing actions to send out
 
+<iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=Europe%2FBerlin&showPrint=0&src=ZWViMGU0MDA5MmZjM2Y0MTI2OGUyMGRhMDE3ZjE2MDEyNjRiZTJjMzQ5MjAxZDhhODkzYTUyNTBmNjYyZWJmZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23f09300" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+
 **Emails** We send out emails to the mailing list after each meeting, at the mid-way point between meetings, and the day before meetings as a reminder.
 
 **Notes** We keep rolling notes on a googledoc and monitor our work on ClickUp.
@@ -63,8 +65,6 @@ Our meeting agenda is:
 **Collaborative Chat Forums** When people ask for help or are working across institutes, we set up chat sub-channels to bring them together.
 
 **General Chat Forum** We have a chat forum to discuss news and ideas, and are represented in the Galaxy Community Reps chat group.
-
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=Europe%2FBerlin&title=Galaxy%20Single%20Cell%20Community%20of%20Practice&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=AGENDA&src=Z2FsYXh5LnNjLmNvcEBnbWFpbC5jb20&color=%23039BE5" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
 
 # How can you join & other important links
 
@@ -78,13 +78,42 @@ Single-cell
 Single cell
 Single-cell RNA-Sequencing
 Single-cell RNA-seq
+Single-cell transcriptomics
+Single-cell multiomics
+Single-cell ATAC-seq
 scRNA-seq
 snRNA-seq
+scATAC-seq
+scMultiomics
 10x
-Single cell biology
-Single cell multiomics
+Smart-seq
+Dimensionality Reduction
+UMAP
+t-SNE
+PCA
+SingleCellExperiment
+Batch Effect Correction
+Data Integration
+Trajectory Inference
+Pseudotime Analysis
+Single-Cell Clustering
+Cell Type Annotation
 ScanPy
 Seurat
 AnnData
 Spatial transcriptomics
 Spatial omics
+SpatialData
+Spatial Biology
+Multiplexed Imaging
+In Situ Hybridization (ISH)
+MERSCOPE (Vizgen)
+Xenium (10x Genomics)
+Visium (10x Genomics)
+CosMx Spatial Molecular Imager (NanoString)
+GeoMx Digital Spatial Profiler (NanoString)
+seqFISH
+Cell Segmentation
+Spatial Clustering
+Cell-Cell Communication (Spatial)
+Neighborhood Analysis
