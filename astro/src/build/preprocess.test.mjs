@@ -1,8 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import {
-  hasProblematicHtml,
   needsVueProcessing,
-  convertHtmlToJsx,
   addBootstrapMarker,
   normalizeSlugSegment,
   normalizeSlug,
@@ -13,73 +11,6 @@ import {
   preprocessContent,
 } from './preprocess.mjs';
 
-describe('hasProblematicHtml', () => {
-  it('returns false for plain markdown', () => {
-    expect(hasProblematicHtml('# Hello\n\nThis is text.')).toBe(false);
-  });
-
-  it('returns false for single well-formed div', () => {
-    expect(hasProblematicHtml('<div class="foo">content</div>')).toBe(false);
-  });
-
-  it('detects div with markdown link inside', () => {
-    const content = '<div class="box">\n[Link](http://example.com)\n</div>';
-    expect(hasProblematicHtml(content)).toBe(true);
-  });
-
-  it('detects unbalanced divs', () => {
-    expect(hasProblematicHtml('<div><div></div>')).toBe(true);
-  });
-
-  it('allows multiple balanced divs', () => {
-    expect(hasProblematicHtml('<div>a</div><div>b</div>')).toBe(false);
-  });
-
-  it('detects HTML tables', () => {
-    expect(hasProblematicHtml('<table><tr><td>cell</td></tr></table>')).toBe(true);
-  });
-
-  it('allows clean pipe tables without bare <', () => {
-    const table = '| col1 | col2 |\n|------|------|\n| a | b |';
-    expect(hasProblematicHtml(table)).toBe(false);
-  });
-
-  it('allows pipe tables with safe inline HTML tags', () => {
-    const table = '| col1 | col2 |\n|------|------|\n| <a href="x">link</a> | <em>text</em> |';
-    expect(hasProblematicHtml(table)).toBe(false);
-  });
-
-  it('detects pipe tables with unsafe < characters', () => {
-    const table = '| col1 | col2 |\n|------|------|\n| <div class="highlight"> | val |';
-    expect(hasProblematicHtml(table)).toBe(true);
-  });
-
-  it('detects arrow patterns like <---', () => {
-    expect(hasProblematicHtml('text <--- arrow')).toBe(true);
-    expect(hasProblematicHtml('pointer <--')).toBe(true);
-  });
-
-  it('detects < followed by numbers', () => {
-    expect(hasProblematicHtml('distance <1.0km')).toBe(true);
-    expect(hasProblematicHtml('count <500')).toBe(true);
-  });
-
-  it('detects malformed tags like <row>', () => {
-    expect(hasProblematicHtml('<row>content</row>')).toBe(true);
-    expect(hasProblematicHtml('<column>content</column>')).toBe(true);
-    expect(hasProblematicHtml('<link-box>content</link-box>')).toBe(true);
-  });
-
-  it('does not flag Vue imports (stripped during preprocessing)', () => {
-    expect(hasProblematicHtml('import Foo from "foo"')).toBe(false);
-  });
-
-  it('allows normal less-than comparisons in text', () => {
-    // This should be false - normal text with < but not followed by number/dash
-    expect(hasProblematicHtml('x < y in math')).toBe(false);
-  });
-});
-
 describe('needsVueProcessing', () => {
   it('returns false for plain markdown', () => {
     expect(needsVueProcessing('# Hello', {})).toBe(false);
@@ -89,44 +20,8 @@ describe('needsVueProcessing', () => {
     expect(needsVueProcessing('content', { components: true })).toBe(true);
   });
 
-  it('detects Insert component', () => {
-    expect(needsVueProcessing('<Insert name="/foo" />', {})).toBe(true);
-  });
-
-  it('detects Twitter component', () => {
-    expect(needsVueProcessing('<twitter id="123" />', {})).toBe(true);
-  });
-
-  it('detects vega-embed component', () => {
-    expect(needsVueProcessing('<vega-embed spec="chart.json" />', {})).toBe(true);
-  });
-
-  it('returns true for bare/ directory files with components', () => {
-    expect(needsVueProcessing('<Insert name="/foo" />', {}, 'bare/page/index.md')).toBe(true);
-  });
-
-  it('detects PascalCase Carousel component', () => {
-    expect(needsVueProcessing('<Carousel />', {})).toBe(true);
-  });
-
-  it('returns false when content has problematic HTML', () => {
-    // Even with Insert, if there's problematic HTML, skip MDX
-    expect(needsVueProcessing('<Insert name="/foo" />\n<div><div></div>', {})).toBe(false);
-  });
-
-  it('honors components: true even when HTML is problematic', () => {
-    // Author explicit opt-in overrides hasProblematicHtml (Vue artifacts are stripped in preprocessing)
-    expect(needsVueProcessing('<div><div></div>\n<vega-embed spec="x" />', { components: true })).toBe(true);
-  });
-});
-
-describe('convertHtmlToJsx', () => {
-  it('converts HTML comments to JSX comments', () => {
-    expect(convertHtmlToJsx('<!-- comment -->')).toBe('{/*  comment  */}');
-  });
-
-  it('escapes empty angle brackets', () => {
-    expect(convertHtmlToJsx('use <> for generics')).toBe('use &lt;&gt; for generics');
+  it('returns false without components frontmatter even if content has component tags', () => {
+    expect(needsVueProcessing('<Icon name="laptop" />', {})).toBe(false);
   });
 });
 

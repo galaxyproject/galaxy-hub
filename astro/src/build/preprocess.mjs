@@ -98,116 +98,11 @@ export function normalizeSlug(slug) {
 }
 
 /**
- * Check if content contains patterns that break MDX parsing
- * - HTML blocks containing markdown (divs with markdown links, etc.)
- * - Complex HTML structures (tables, multiple divs)
- * - Malformed HTML tags
- */
-function hasProblematicHtml(content) {
-  // Check for <div> tags containing markdown syntax (links, bold, etc.)
-  // This pattern fails in MDX because markdown isn't processed inside HTML
-  const divWithMarkdown = /<div[^>]*>[\s\S]*?\[[^\]]+\]\([^)]+\)[\s\S]*?<\/div>/i;
-  if (divWithMarkdown.test(content)) {
-    return true;
-  }
-
-  // Check for multiple divs in content - MDX often fails with complex div structures
-  const openDivCount = (content.match(/<div[\s>]/gi) || []).length;
-  const closeDivCount = (content.match(/<\/div>/gi) || []).length;
-  if (openDivCount !== closeDivCount) {
-    return true;
-  }
-
-  // Check for HTML tables - they often contain special characters like <= that break MDX
-  if (/<table[\s>]/i.test(content)) {
-    return true;
-  }
-
-  // Check for markdown tables (pipe-delimited) — only block if table lines contain bare `<`
-  // that isn't a recognized inline HTML tag (those parse fine in MDX)
-  const pipeTableLines = content.split('\n').filter((l) => /^\|/.test(l));
-  if (pipeTableLines.some((l) => /<(?!\/?(?:a|br|img|em|strong|code|b|i|s|u|Icon)\b)[a-z0-9]/i.test(l))) {
-    return true;
-  }
-
-  // Check for divs with text content followed by newline (common in legacy content)
-  // These often fail because MDX treats the content as a paragraph
-  const divWithTextContent = /<div[^>]*>[^<\n]+\n/i;
-  if (divWithTextContent.test(content)) {
-    return true;
-  }
-
-  // Check for malformed/custom HTML tags like <row>, <column>, etc.
-  const malformedTags = /<(row|column|linkbox|link-box)[\s>]/i;
-  if (malformedTags.test(content)) {
-    return true;
-  }
-
-  // Check for arrow patterns like <--- or <-- that MDX misinterprets as JSX
-  if (/<-{2,}/.test(content)) {
-    return true;
-  }
-
-  // Check for < followed by numbers (like <1.0km, <500) - MDX misinterprets as JSX
-  if (/<\d/.test(content)) {
-    return true;
-  }
-
-  return false;
-}
-
-/**
- * Check if content contains Vue components that need MDX processing
- * Only use MDX for files that explicitly opt-in OR have specific safe component patterns
+ * Check if content needs MDX processing.
+ * Explicit opt-in only: files must have `components: true` in frontmatter.
  */
 function needsVueProcessing(content, frontmatter) {
-  // Components that are safe MDX patterns — unlikely to appear in malformed HTML.
-  // Both kebab-case and PascalCase variants, since raw content may use either.
-  const SAFE_COMPONENTS = [
-    'twitter',
-    'Twitter', // Social embeds
-    'mastodon',
-    'Mastodon',
-    'vega-embed',
-    'VegaEmbed', // Data viz
-    'calendar-embed',
-    'CalendarEmbed', // Calendar
-    'video-player',
-    'VideoPlayer', // Media
-    'carousel',
-    'Carousel',
-    'flickr',
-    'Flickr',
-    'supporters',
-    'Supporters', // Custom lists
-    'contacts',
-    'Contacts',
-    'markdown-embed',
-    'MarkdownEmbed',
-    'Insert', // Content insertion component (case-sensitive to avoid "<insert your text here>")
-    'Icon', // Lucide icon component
-  ];
-
-  // Explicit opt-in via frontmatter overrides HTML detection — the author
-  // is asserting the page is MDX-compatible (Vue imports and kramdown are
-  // stripped during preprocessing so this is safe)
-  if (frontmatter.components === true) {
-    return true;
-  }
-
-  // Check for problematic HTML patterns that break MDX
-  if (hasProblematicHtml(content)) {
-    return false;
-  }
-
-  for (const component of SAFE_COMPONENTS) {
-    const openTagRegex = new RegExp(`<${component}(\\s|>|\\/)`);
-    if (openTagRegex.test(content)) {
-      return true;
-    }
-  }
-
-  return false;
+  return frontmatter.components === true;
 }
 
 /**
@@ -562,25 +457,6 @@ function inlineInserts(content, depth = 0) {
   });
 }
 
-/**
- * Convert HTML patterns to JSX syntax for MDX compatibility.
- * Handles HTML comments → JSX comments and bare <> → &lt;&gt;.
- */
-function convertHtmlToJsx(content) {
-  let processed = content;
-
-  // Convert HTML comments to JSX comments
-  // Also remove markdown escapes like \_ which aren't valid in JSX expressions
-  processed = processed.replace(/<!--([\s\S]*?)-->/g, (match, content) => {
-    const cleaned = content.replace(/\\([_*`~])/g, '$1');
-    return `{/* ${cleaned} */}`;
-  });
-
-  // Escape empty angle brackets <> which look like JSX fragments
-  processed = processed.replace(/<>/g, '&lt;&gt;');
-
-  return processed;
-}
 
 /**
  * Extract a tease (short description) from raw markdown body text.
@@ -650,9 +526,6 @@ async function processMarkdownFile(filePath) {
   let processedContent = body;
   processedContent = inlineInserts(processedContent);
 
-  // Check if content needs Vue/component processing (after inlining inserts)
-  const hasComponents = needsVueProcessing(processedContent, frontmatter, filePath);
-
   // Process content
   processedContent = addBootstrapMarker(processedContent);
   processedContent = processImagePaths(processedContent, slug);
@@ -664,12 +537,6 @@ async function processMarkdownFile(filePath) {
       addToc: frontmatter.autotoc === true,
       fixLinks: true,
     });
-  }
-
-  // Convert Vue bindings/HTML to JSX for MDX files (AFTER markdown processing
-  // to avoid remark escaping asterisks in JSX comments)
-  if (hasComponents) {
-    processedContent = convertHtmlToJsx(processedContent);
   }
 
   // Process frontmatter
@@ -694,11 +561,6 @@ async function processMarkdownFile(filePath) {
     processedFrontmatter.naturalSlug = naturalSlug;
   }
 
-  // Add hasComponents flag for rendering
-  if (hasComponents) {
-    processedFrontmatter.hasComponents = true;
-  }
-
   if (collection === 'news' && !processedFrontmatter.tease) {
     const articleDate = processedFrontmatter.date ? new Date(processedFrontmatter.date) : null;
     const cutoffDate = new Date();
@@ -718,9 +580,7 @@ async function processMarkdownFile(filePath) {
   const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
 
-  // Write processed file - use .mdx extension for files with components
-  // But inserts stay as .md (they don't need MDX and often have < characters)
-  const useMdx = hasComponents && collection !== 'inserts';
+  const useMdx = frontmatter.components === true && collection !== 'inserts';
   const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
   const newContent = matter.stringify(processedContent, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);
@@ -955,9 +815,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
 // Exports for testing
 export {
-  hasProblematicHtml,
   needsVueProcessing,
-  convertHtmlToJsx,
   addBootstrapMarker,
   processImagePaths,
   rewriteSrc,
