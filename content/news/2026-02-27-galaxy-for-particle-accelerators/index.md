@@ -49,5 +49,5 @@ We will soon also start developing a framework to train machine learning (ML)-ba
 ![Galaxy workflow schematic for vEPAC](Figure3.PNG)
 
 ---
-[^1]: "Managing materials science workflows with Galaxy at STFC", L. Liborio et. al., Galaxy Community Conference 2025, <https://gbcc2025.bioconductor.org/program/scientific_program/>
+[^1]: "Managing materials science workflows with Galaxy at STFC", L. Liborio et. al., Galaxy Community Conference 2025, [https://gbcc2025.bioconductor.org/program/scientific_program/](https://gbcc2025.bioconductor.org/program/scientific_program/)
 
