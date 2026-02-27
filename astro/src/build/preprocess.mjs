@@ -449,7 +449,6 @@ function inlineInserts(content, depth = 0) {
   });
 }
 
-
 /**
  * Extract a tease (short description) from raw markdown body text.
  * Strips markdown/HTML syntax and returns the first sentence or ~200 chars,
