@@ -41,6 +41,7 @@ const navSections: NavSection[] = [
       { label: 'People', href: '/people/', subsiteOnly: true },
       { label: 'Blog', href: '/blog/' },
       { label: 'Get Involved', href: '/community/' },
+      { label: 'Hall of Fame', href: '/hall-of-fame/' },
       { label: 'Support', href: '/support/' },
     ],
   },
@@ -78,7 +79,7 @@ function buildHref(href: string, external?: boolean): string {
 
   const currentSub = subsite.value;
   if (currentSub && currentSub !== 'global') {
-    const subsitePaths = ['/news/', '/events/', '/community/', '/people/'];
+    const subsitePaths = ['/news/', '/events/', '/people/'];
     for (const path of subsitePaths) {
       if (href.startsWith(path)) {
         return `/${currentSub}${href}`;

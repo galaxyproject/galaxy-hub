@@ -45,6 +45,7 @@ const navSections: NavSection[] = [
       { label: 'Special Interest Groups', href: '/community/sig/' },
       { label: 'Working Groups', href: '/community/wg/' },
       { label: 'How to Contribute', href: '/community/contributing/' },
+      { label: 'Hall of Fame', href: '/hall-of-fame/' },
       { label: 'Galaxy Mentor Network', href: 'https://galaxy-mentor-network.netlify.app/', external: true },
       { label: 'Code of Conduct', href: '/community/coc/' },
     ],
@@ -116,7 +117,7 @@ function buildHref(href: string, external?: boolean): string {
   const currentSub = subsite.value;
   if (currentSub && currentSub !== 'global') {
     // Check if this path should be prefixed
-    const subsitePaths = ['/news/', '/events/', '/community/', '/people/'];
+    const subsitePaths = ['/news/', '/events/', '/people/'];
     for (const path of subsitePaths) {
       if (href.startsWith(path)) {
         return `/${currentSub}${href}`;
