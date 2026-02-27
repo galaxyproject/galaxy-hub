@@ -98,14 +98,6 @@ export function normalizeSlug(slug) {
 }
 
 /**
- * Check if content needs MDX processing.
- * Explicit opt-in only: files must have `components: true` in frontmatter.
- */
-function needsVueProcessing(content, frontmatter) {
-  return frontmatter.components === true;
-}
-
-/**
  * Copy images and assets from a content directory
  */
 async function copyAssets(sourceDir, slug) {
@@ -815,7 +807,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
 // Exports for testing
 export {
-  needsVueProcessing,
   addBootstrapMarker,
   processImagePaths,
   rewriteSrc,

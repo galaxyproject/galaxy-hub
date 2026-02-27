@@ -1,6 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import {
-  needsVueProcessing,
   addBootstrapMarker,
   normalizeSlugSegment,
   normalizeSlug,
@@ -10,20 +9,6 @@ import {
   generateTease,
   preprocessContent,
 } from './preprocess.mjs';
-
-describe('needsVueProcessing', () => {
-  it('returns false for plain markdown', () => {
-    expect(needsVueProcessing('# Hello', {})).toBe(false);
-  });
-
-  it('returns true for explicit components frontmatter', () => {
-    expect(needsVueProcessing('content', { components: true })).toBe(true);
-  });
-
-  it('returns false without components frontmatter even if content has component tags', () => {
-    expect(needsVueProcessing('<Icon name="laptop" />', {})).toBe(false);
-  });
-});
 
 describe('addBootstrapMarker', () => {
   it('adds bs-compat marker to btn-primary', () => {

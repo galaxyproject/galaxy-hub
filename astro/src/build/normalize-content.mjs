@@ -14,7 +14,6 @@
  *   node src/build/normalize-content.mjs --convert-kramdown
  *   node src/build/normalize-content.mjs --fix-void-elements
  *   node src/build/normalize-content.mjs --fix-unquoted-attrs
- *   node src/build/normalize-content.mjs --escape-lt-digits
  *   node src/build/normalize-content.mjs --fix-autolinks
  *   node src/build/normalize-content.mjs --fix-component-case
  *   node src/build/normalize-content.mjs --convert-fa-to-icon
