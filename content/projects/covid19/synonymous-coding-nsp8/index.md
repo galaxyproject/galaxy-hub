@@ -2,6 +2,7 @@
 description: "Variants for synonymous-coding sites in gene nsp8"
 autotoc: false
 title: "Distribution of allele frequencies for [synonymous-coding] sites in gene [nsp8]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2022-01-29 00:00:00

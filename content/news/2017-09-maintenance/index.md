@@ -3,6 +3,7 @@ title: 'usegalaxy.org maintenance on Sept 19'
 tease: '... but there are other options'
 date: '2017-09-11'
 subsites: [global, us]
+components: true
 ---
 
 <div class="right"><Icon name="wrench" /></div>

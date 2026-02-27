@@ -13,6 +13,7 @@ location:
 hidefooter: true
 subsites: [freiburg]
 main_subsite: freiburg
+components: true
 ---
 
 We are offering a Galaxy training on high-throughput data analysis. This is an

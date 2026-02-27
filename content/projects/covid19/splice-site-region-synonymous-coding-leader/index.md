@@ -2,6 +2,7 @@
 description: "Variants for splice-site-region-synonymous-coding sites in gene leader"
 autotoc: false
 title: "Distribution of allele frequencies for [splice-site-region-synonymous-coding] sites in gene [leader]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2022-01-29 00:00:00

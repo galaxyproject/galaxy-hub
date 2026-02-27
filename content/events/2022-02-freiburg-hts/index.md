@@ -21,6 +21,7 @@ contributions:
     - deNBI
     - sfb992
 
+components: true
 ---
 
 We are offering a Galaxy workshop on high-throughput data analysis. This is an 

@@ -2,6 +2,7 @@
 description: "Variants for non-synonymous-coding-splice-site-region sites in gene methtr"
 autotoc: false
 title: "Distribution of allele frequencies for [non-synonymous-coding-splice-site-region] sites in gene [methtr]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2021-12-10 00:00:00

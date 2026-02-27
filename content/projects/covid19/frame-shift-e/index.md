@@ -2,6 +2,7 @@
 description: "Variants for frame-shift sites in gene e"
 autotoc: false
 title: "Distribution of allele frequencies for [frame-shift] sites in gene [e]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2022-01-29 00:00:00

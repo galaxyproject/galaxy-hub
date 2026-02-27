@@ -14,6 +14,7 @@ contributions:
     - elixir-converge
     - gallantries
 
+components: true
 ---
 
 <br />

@@ -2,6 +2,7 @@
 description: "Variants for frame-shift-stop-gained sites in gene n"
 autotoc: false
 title: "Distribution of allele frequencies for [frame-shift-stop-gained] sites in gene [n]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2021-12-10 00:00:00

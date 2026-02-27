@@ -4,6 +4,7 @@ tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and re
 date: "2018-12-02"
 subsites: [global, us]
 tags: [newsletter]
+components: true
 ---
 
 [<img class="float-right" src="/news/2018-12-galaxy-update/2018-12-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)

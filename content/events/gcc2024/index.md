@@ -4,7 +4,6 @@ date: '2024-06-24'
 skip_title_render: true
 autotoc: false
 hide_metadata: true
-components: true
 days: 6
 tease: "The annual gathering of the Galaxy Community with opportunities to hear latest developments, get training, and meet everyone involved."
 continent: EU

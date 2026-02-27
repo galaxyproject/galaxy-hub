@@ -5,7 +5,6 @@ tease: "Introducing Galaxy: A new cloud and HPC gateway for data-driven computat
 location:
   name: Mannheim, Germany
 tags: [conference, talk,esg, esg-wp1, esg-wp4]
-components: true
 subsites: [all-eu,esg]
 contributions:
   authorship:

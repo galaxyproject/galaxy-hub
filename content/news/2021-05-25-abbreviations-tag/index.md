@@ -10,6 +10,7 @@ contributions:
     - deNBI
     - elixir-europe
     - gallantries
+components: true
 ---
 
 <p>Thanks to the great tutorial developed by first time contributor Erik Schill and edited by Simon Bray, we noticed that they defined a number of abbreviations and re-used those throughout their tutorial.</p>

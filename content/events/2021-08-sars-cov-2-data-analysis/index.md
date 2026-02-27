@@ -17,6 +17,7 @@ contributions:
     - AustralianBioCommons
     - gallantries
 
+components: true
 ---
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop,

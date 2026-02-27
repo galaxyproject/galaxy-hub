@@ -7,6 +7,7 @@ main_subsite: freiburg
 contributions:
   authorship:
     - bebatut
+components: true
 ---
 
 The Freiburg Galaxy Team participated in the [Galaxy Community Conference 2021](https://gcc2021.sched.com/) with:

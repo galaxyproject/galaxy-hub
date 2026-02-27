@@ -18,6 +18,7 @@
  *   node src/build/normalize-content.mjs --fix-autolinks
  *   node src/build/normalize-content.mjs --fix-component-case
  *   node src/build/normalize-content.mjs --convert-fa-to-icon
+ *   node src/build/normalize-content.mjs --sync-components-flag
  *   node src/build/normalize-content.mjs --all
  *   node src/build/normalize-content.mjs --check  (dry-run, exits non-zero if changes needed)
  */
@@ -45,6 +46,7 @@ const transforms = {
   fixAutolinks: runAll || args.includes('--fix-autolinks'),
   fixComponentCase: runAll || args.includes('--fix-component-case'),
   convertFaToIcon: runAll || args.includes('--convert-fa-to-icon'),
+  syncComponentsFlag: runAll || args.includes('--sync-components-flag'),
 };
 
 if (!Object.values(transforms).some(Boolean)) {
@@ -52,7 +54,8 @@ if (!Object.values(transforms).some(Boolean)) {
   console.error('Transforms: --strip-layout, --normalize-frontmatter-arrays,');
   console.error('  --strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown,');
   console.error('  --fix-void-elements, --fix-unquoted-attrs, --fix-autolinks,');
-  console.error('  --fix-component-case, --convert-fa-to-icon, --all');
+  console.error('  --fix-component-case, --convert-fa-to-icon,');
+  console.error('  --sync-components-flag, --all');
   process.exit(1);
 }
 
@@ -449,6 +452,33 @@ function convertFaToIconFrontmatter(fm) {
   });
 }
 
+// ── components: true sync ────────────────────────────────────────────
+
+const KNOWN_COMPONENTS = [
+  'Icon',
+  'VegaEmbed',
+  'Twitter',
+  'Mastodon',
+  'VideoPlayer',
+  'Carousel',
+  'Flickr',
+  'Supporters',
+  'Contacts',
+  'MarkdownEmbed',
+  'CalendarEmbed',
+  'Insert',
+];
+
+function bodyHasComponents(body) {
+  return outsideCodeFences(body, (text) => {
+    for (const component of KNOWN_COMPONENTS) {
+      const regex = new RegExp(`<${component}(\\s|>|\\/)`);
+      if (regex.test(text)) return '__HAS_COMPONENT__';
+    }
+    return text;
+  }).includes('__HAS_COMPONENT__');
+}
+
 // ── Main ─────────────────────────────────────────────────────────────
 
 async function main() {
@@ -548,6 +578,24 @@ async function main() {
       if (newFm !== fm) {
         fm = newFm;
         changed = true;
+      }
+    }
+
+    // Sync components: true flag with actual component usage
+    if (fm !== null && transforms.syncComponentsFlag) {
+      const hasFlag = /^components:\s*true\s*$/m.test(fm);
+      const hasComps = bodyHasComponents(body);
+      if (hasComps && !hasFlag) {
+        // Add components: true before the closing ---
+        fm = fm + 'components: true\n';
+        changed = true;
+      } else if (hasFlag && !hasComps) {
+        // Remove the components: true line
+        const newFm = fm.replace(/^components:\s*true\s*\n/m, '');
+        if (newFm !== fm) {
+          fm = newFm;
+          changed = true;
+        }
       }
     }
 

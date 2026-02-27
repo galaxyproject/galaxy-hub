@@ -1,6 +1,7 @@
 ---
 title: Galaxy 101 - What is Galaxy?
 redirect: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html?utm_source=redirect&utm_medium=learn&utm_campaign=galaxyhub"
+components: true
 ---
 
 Before diving into a practical exercise let us introduce several fundamental concepts about Galaxy.
