@@ -48,7 +48,7 @@ subtitle: The homepage of the French Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/citations.svg" alt="citation" height="100">
         <br><br>
-        <a href="https://www.france-bioinformatique.fr/en/services/acknowledgement/" class="btn btn-primary">Cite the server</a>
+        <a href="https://ifb-elixirfr.gitlab.io/usegalaxy-fr/welcome//common/terms.html#ack" class="btn btn-primary">Cite the server</a>
       </div>
     </div>
   </div>
