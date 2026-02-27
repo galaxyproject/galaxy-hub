@@ -82,7 +82,7 @@ If you think you can contribute - through development, testing, review, or docum
 
 - 📊 **GitHub Project Board**: https://github.com/orgs/galaxyproject/projects/81
 
-- 🕐 **Meetings**: Every 2nd and 4th Thursday of the Month at 14:00 CET | 🗓️ [Agenda and Meeting Link](https://docs.google.com/document/d/1_pcdij_N7hS35TfJkoxPlCeUrPEr9mNLby7KXDDjCHY/edit?usp=sharing) | 🗓️ [Subscribe to Calendar](https://calendar.google.com/calendar/u/0?cid=MmQxN2JjMGJjYWNmZThkZGFkNDJiYmIxYWJhZWQyMDdjYzhjZTJlNDI0MTFhZTE1ODMxZDgyZjllMzU4NjJmOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+- 🕐 **Meetings**: Every 2nd and 4th Thursday of the Month at 14:00 CET | 🗒️ [Agenda and Meeting Link](https://docs.google.com/document/d/1_pcdij_N7hS35TfJkoxPlCeUrPEr9mNLby7KXDDjCHY/edit?usp=sharing) | 🗓️ [Subscribe to Calendar](https://calendar.google.com/calendar/u/0?cid=MmQxN2JjMGJjYWNmZThkZGFkNDJiYmIxYWJhZWQyMDdjYzhjZTJlNDI0MTFhZTE1ODMxZDgyZjllMzU4NjJmOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 - 📢 **Updates**: Shared through IUC and Galaxy community channels.
 

@@ -46,7 +46,7 @@ Anyone with energy! We love hearing from users, developers, trainers, and everyo
 
 # How do we function?
 
-- 🕐 **Meetings**: Every first Thursday of the Month at 15:00 CET / 14:00 UTC | 🗓️ [Agenda and Meeting Link](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?tab=t.ikggoqty5qt) | 🗓️ [Subscribe to Calendar](https://calendar.google.com/calendar/u/0?cid=eeb0e40092fc3f41268e20da017f1601264be2c349201d8a893a5250f662ebfd@group.calendar.google.com)
+- 🕐 **Meetings**: Every first Thursday of the Month at 15:00 CET / 14:00 UTC | 🗒️ [Agenda and Meeting Link](https://docs.google.com/document/d/19W--oeFoEgfZbw9MWvky_A__554th-VG3ryOqtfmHSA/edit?tab=t.ikggoqty5qt) | 🗓️ [Subscribe to Calendar](https://calendar.google.com/calendar/u/0?cid=eeb0e40092fc3f41268e20da017f1601264be2c349201d8a893a5250f662ebfd@group.calendar.google.com)
 
 Our meeting agenda is:
 1. Random intro chatter & introductions
