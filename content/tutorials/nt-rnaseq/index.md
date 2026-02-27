@@ -1,6 +1,7 @@
 ---
 title: Finding and quantifying new transcripts
 redirect: "/learn"
+components: true
 ---
 <blockquote class="blockquote">
 <em>

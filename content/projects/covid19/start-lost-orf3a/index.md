@@ -2,6 +2,7 @@
 description: "Variants for start-lost sites in gene orf3a"
 autotoc: false
 title: "Distribution of allele frequencies for [start-lost] sites in gene [orf3a]"
+components: true
 ---
 
 Period: from 2020-01-01 00:00:00 to 2021-12-06 00:00:00

@@ -2,6 +2,7 @@
 description: "Variants for stop-lost-splice-site-region sites in gene orf8"
 autotoc: false
 title: "Distribution of allele frequencies for [stop-lost-splice-site-region] sites in gene [orf8]"
+components: true
 ---
 
 Period: from 2020-01-01 00:00:00 to 2021-12-06 00:00:00

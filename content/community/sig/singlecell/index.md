@@ -2,6 +2,7 @@
 description: "Users, developers, and trainers providing feedback and energy to improve and expand the Galaxy single cell and spatial omics capabilities."
 autotoc: true
 title: "🖖🏾SPOC: Galaxy Single-cell & sPatial Omics Community of practice"
+components: true
 ---
 
 <slot name="/community/sig/common_linkbox" />

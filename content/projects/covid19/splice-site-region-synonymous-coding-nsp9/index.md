@@ -2,6 +2,7 @@
 description: "Variants for splice-site-region-synonymous-coding sites in gene nsp9"
 autotoc: false
 title: "Distribution of allele frequencies for [splice-site-region-synonymous-coding] sites in gene [nsp9]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2021-12-10 00:00:00

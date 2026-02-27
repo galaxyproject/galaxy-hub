@@ -2,6 +2,7 @@
 description: "Variants for codon-change-plus-codon-insertion sites in gene s"
 autotoc: false
 title: "Distribution of allele frequencies for [codon-change-plus-codon-insertion] sites in gene [s]"
+components: true
 ---
 
 Period: from 2020-01-01 00:00:00 to 2021-12-06 00:00:00

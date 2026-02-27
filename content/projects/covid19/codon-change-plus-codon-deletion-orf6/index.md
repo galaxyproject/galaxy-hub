@@ -2,6 +2,7 @@
 description: "Variants for codon-change-plus-codon-deletion sites in gene orf6"
 autotoc: false
 title: "Distribution of allele frequencies for [codon-change-plus-codon-deletion] sites in gene [orf6]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2022-01-29 00:00:00

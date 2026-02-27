@@ -2,6 +2,7 @@
 description: "Variants for na sites in gene na"
 autotoc: false
 title: "Distribution of allele frequencies for [na] sites in gene [na]"
+components: true
 ---
 
 Period: from 2020-01-01 00:00:00 to 2021-12-06 00:00:00

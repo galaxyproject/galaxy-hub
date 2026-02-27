@@ -5,7 +5,6 @@ tease: "The Galaxy Europe Team active at NFDI's CoRDI (Karlsruhe, Germany, Sep 1
 location:
   name: Karlsruhe, Germany
 tags: [conference, talk, poster, nfdi, esg, esg-wp1, tiaas,esg-wp2, research data management]
-components: true
 subsites: [all-eu, esg]
 contributions:
   authorship:

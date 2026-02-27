@@ -8,6 +8,7 @@ contributions:
     - nekrut
 source_blog: "Galaxy Project Blog"
 source_blog_url: "https://galaxyproject.org/blog/2017-10-16-unicycler-tutorial/"
+components: true
 ---
 
 <section class="alert alert-info trim-p inline-p" role="alert"><Icon name="rocket" /><p>If you are impatient (like me) and would like to try assembly right away - go to the <a href="https://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html">tutorial</a>.</p></section>

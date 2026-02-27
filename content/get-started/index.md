@@ -1,5 +1,6 @@
 ---
 title: Get Started
+components: true
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/get-started.svg" style="width:200px;" alt="community events" />

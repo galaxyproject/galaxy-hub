@@ -4,6 +4,7 @@ tease: "Working data-intensive science in India? Please join us."
 external_url: ""
 date: "2021-08-05"
 subsites: [global, us]
+components: true
 ---
 
 <a href="https://www.galaxyproject.in/"><img src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" class="float-right" style="max-width: 16rem" /></a>

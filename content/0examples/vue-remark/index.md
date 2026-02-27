@@ -35,7 +35,6 @@ links:
   url: "https://youtu.be/bQFv4EVunWw"
 redirect: /somewhere/else/
 subsites: [global]
-components: true
 ---
 
 This also serves to provide a page with all the metadata fields present. If you have a dynamic page with a GraphQL query for a metadata field, there must be at least one page with that field present. Otherwise Gridsome throws an error.

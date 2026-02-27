@@ -12,7 +12,6 @@ gtn: false
 contact: Organisers
 image: /images/logos/GCC2013Logo400.png
 autotoc: false
-components: true
 subsites: [global, us]
 tags: [gcc, community, talk]
 ---

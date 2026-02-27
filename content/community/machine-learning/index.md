@@ -1,5 +1,6 @@
 ---
 title: Galaxy Machine Learning Community
+components: true
 ---
 
 <a href="https://ml.usegalaxy.eu"><div class='center'><img src="/images/communities/machine_learning_logo.png" /></div></a>

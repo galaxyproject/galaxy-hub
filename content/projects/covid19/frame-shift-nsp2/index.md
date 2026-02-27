@@ -2,6 +2,7 @@
 description: "Variants for frame-shift sites in gene nsp2"
 autotoc: false
 title: "Distribution of allele frequencies for [frame-shift] sites in gene [nsp2]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2022-01-29 00:00:00

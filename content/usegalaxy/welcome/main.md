@@ -1,5 +1,6 @@
 ---
 title: usegalaxy.org
+components: true
 ---
 
 <div class="text-center my-5">
