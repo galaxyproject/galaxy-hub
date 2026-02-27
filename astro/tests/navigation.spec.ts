@@ -58,6 +58,17 @@ test.describe('Navigation', () => {
         await expect(page).toHaveURL(/\/use/);
       }
     });
+
+    test('hall of fame link navigates correctly', async ({ page }) => {
+      // Use article page - homepage has special layout
+      await page.goto('/admin/');
+
+      const hallOfFameLink = page.locator('aside a[href="/hall-of-fame/"], aside a[href="/hall-of-fame"]');
+      if (await hallOfFameLink.first().isVisible()) {
+        await hallOfFameLink.first().click();
+        await expect(page).toHaveURL(/\/hall-of-fame/);
+      }
+    });
   });
 
   test.describe('Mobile Navigation', () => {

@@ -41,6 +41,7 @@ const navSections: NavSection[] = [
       { label: 'People', href: '/people/', subsiteOnly: true },
       { label: 'Blog', href: '/blog/' },
       { label: 'Get Involved', href: '/community/' },
+      { label: 'Hall of Fame', href: '/hall-of-fame/' },
       { label: 'Support', href: '/support/' },
     ],
   },
