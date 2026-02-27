@@ -5,7 +5,7 @@ pretitle: "[Home](/) > [Hub](/hub/) > [Contributing](/hub/contributing/)"
 
 This page is for those who want to create or edit content pages on the Hub.
 
-First, it might help to understand how this site works. The Hub is a [static site](https://bejamas.io/discovery/static-site-generators/). For authors, what's important about this is it means the content on the site is created from a big folder of text files. Each file generates one page of the site. The text files are kept in a [Github repository](https://github.com/galaxyproject/galaxy-hub). You can edit the site by editing those files. Only a few maintainers have permissions to directly edit those files, though. So for everyone else, you use the Github interface to propose edits, which the maintainers can then evaluate and accept.
+First, it might help to understand how this site works. The Hub is a [static site](https://bejamas.io/discovery/static-site-generators/) built with [Astro](https://astro.build/). For authors, what's important about this is it means the content on the site is created from a big folder of text files. Each file generates one page of the site. The text files are kept in a [Github repository](https://github.com/galaxyproject/galaxy-hub). You can edit the site by editing those files. Only a few maintainers have permissions to directly edit those files, though. So for everyone else, you use the Github interface to propose edits, which the maintainers can then evaluate and accept.
 
 To make changes, you have two options.
 
@@ -43,7 +43,7 @@ Then click "Propose new file" at the bottom. Then click the big, green "Create p
 
 For users familiar with git and the command line, you can clone the repository locally. You should probably first fork the repository: on the [repo page](https://github.com/galaxyproject/galaxy-hub), click the "Fork" button at the upper right of the page. Then make sure it shows your username as the owner (or whoever you want the owner to be), and the rest of the options you can leave as their defaults. Then click "Create fork". Then it'll take you to the page for your fork. Now you can clone it by clicking the big green "Code" button at the upper right. You'll probably want the "SSH" option, so copy the address (which should look like `git@github.com:[your-username]/galaxy-hub.git` but with your username instead of `[your-username]`) and paste it into a git clone command:
 ```sh
-$ git clone --recursive 'git@github.com:[your-username]/galaxy-hub.git'
+$ git clone 'git@github.com:[your-username]/galaxy-hub.git'
 ```
 Then cd into the directory it creates and create a new branch to work on:
 ```sh
@@ -64,54 +64,38 @@ Static files are written in YAML and Markdown.
 
 Each file should start with the metadata in [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) format. This section starts and ends with a line with just three dashes (`---`). The YAML header is where you put the title of the page and other metadata like the date of an event. Then after the YAML section is the content of the page in [Markdown](https://www.markdownguide.org/basic-syntax/). See [this page](/hub/contributing/markdown/) for tips on formatting your Markdown.
 
+## Using components
+
+The Hub provides interactive components like icons, embedded videos, and social media embeds. To use them in a page, add `components: true` to your frontmatter:
+
+```yaml
+---
+title: "My Page"
+components: true
+---
+
+Here's an icon: <Icon name="laptop" />
+```
+
+Available components include: `Icon`, `VegaEmbed`, `Twitter`, `Mastodon`, `VideoPlayer`, `Carousel`, `Flickr`, `Supporters`, `Contacts`, `MarkdownEmbed`, `CalendarEmbed`, and `Insert`.
+
+Files with `components: true` are processed as MDX rather than plain Markdown. This means HTML comments must use JSX syntax (`{/* comment */}` instead of `<!-- comment -->`), and certain patterns like bare `<>` or `<` followed by a number need escaping. If you don't use any components, you don't need to worry about any of this — leave `components` out and your file will be processed as plain Markdown.
+
 ## Running the development server
 
-First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1](https://yarnpkg.com/)\*, but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
+Make sure you have [Node.js](https://nodejs.org/en/) installed (v18 or later), then:
 
-\*Do not use Yarn 2.
-
-### Get Node and Yarn
-
-What if you don't already have Node and Yarn 1 installed?
-
-#### On MacOS
-
-If you don't already have Node and Yarn installed, then we recommend using Homebrew.  If you don't have Homebrew, then install it with:
 ```sh
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-Then update your `$PATH` by following the displayed instructions.
-
-To install Node:
-```sh
-$ brew install node
+$ cd astro
+$ npm install
+$ npm run dev
 ```
 
-Then install Yarn 1:
+This starts a development server at http://localhost:4321 with hot reload. It automatically preprocesses content, generates redirects, and builds the search index.
+
+To build the full production site:
 ```sh
-$ npm install --global yarn
+$ npm run build
 ```
 
-### Clone the repo and launch the site
-
-See the top of [this section](#option-2-clone-the-repository) for instructions on how to clone the repository.
-
-Then install the dependencies by `cd`ing into your local repository directory and using Yarn:
-```sh
-$ cd galaxy-hub
-$ yarn install
-```
-
-Then this command will start a development server:
-```sh
-$ yarn develop
-```
-The development server is a local web server which you can access in your browser at http://localhost:8080 and see a live view of your version of the site. This includes a hot reloader which will update the site automatically each time you edit a file.
-
-**Note**: The hot reloader is imperfect and sometimes crashes when you make big changes or delete a directory. Also, there is currently a [bug](https://github.com/galaxyproject/galaxy-hub/issues/1697) which means that when you edit or add a page, any dynamic pages which list it won't get those updates (e.g. http://localhost:8080/events/ won't show a new event you added). For all these situations you'll have to re-run the `yarn develop` command.
-
-To generate the static files for the entire site, just run the `build` command instead:
-```sh
-$ yarn build
-```
-The static files can then be found in the `dist` directory.
+**Note**: The dev server is case-insensitive for URLs but production is case-sensitive. Always use lowercase, hyphen-separated paths.

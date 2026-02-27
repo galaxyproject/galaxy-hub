@@ -1,117 +1,109 @@
 ---
-title: Advanced Markdown
+title: Markdown Tips
 pretitle: "[Home](/) > [Hub](/hub/) > [Contributing](/hub/contributing/) > [Markdown](/hub/contributing/markdown/)"
+components: true
 ---
 
-These are some tips for when you need to go beyond basic Markdown for your articles.
+These are some tips for writing content on the Hub, including things to know when you need to go beyond basic Markdown.
 
-## Inserting HTML
+## Basics
 
-You can use HTML in your `.md` files, but it's best to avoid it when possible. If you must use HTML, you'll have to keep the HTML on a separate line from the Markdown. In fact, you'll need a blank line between every block of Markdown and every block of HTML.*
-
-*Technically this isn't always true. Sometimes HTML can live on the same line as Markdown, but the rules for when this works are not straightforward. You're free to experiment, but it'll keep your life a lot simpler to just keep it all separate.
-
-### HTML wrappers
-
-One common use for HTML is to get the layout you want. Usually you can do this by surrounding a bit of Markdown with a `<div>` styled how you'd like:
-```html
-<div class="float-right">
-
-![alt text](./image.jpg)
-
-</div>
-```
-
-#### Shrinkwrapping the contents
-
-If you end up with extra space around your wrapped Markdown, try adding the [`trim-p`](#trim-p) class to the wrapper.
+Content is written in [GitHub Flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/). This covers headings, bold, italics, links, lists, tables, code blocks, and images. Prefer Markdown over raw HTML whenever possible — it's easier to maintain and renders more consistently across the site.
 
 ## Images
 
-You can include images in your `.md` files with Markdown syntax (`![alt text](./image.jpg)`). If the image is used in multiple pages, you should put it in the `static/images/` directory, then reference it with an absolute path: `![galaxy logo](/images/logos/galaxy.jpg)`.
+Include images in your `.md` files with standard Markdown syntax:
 
-If the image is a one-off that's only used for this page, then you can just put it right in the same directory as the `index.md` file. Then reference it with a relative path: `![one-off](./oneoff.jpg)`. **Note** that the `./` is necessary!
+```markdown
+![alt text](./image.jpg)
+```
 
-It *is* possible sometimes to use images from directories other than the current one or `static/images/`. In those situations you'd just use a relative path like `![alt text](./subdir/image.jpg)` or even `![alt text](../sibling/image.jpg)`. But this is not recommended and may not work.
+Place the image in the same directory as your `index.md`. The build system will copy it to the right place and rewrite the path automatically.
 
-### Resizing images
+For images shared across multiple pages, put them in `content/images/` and reference with an absolute path:
 
-This framework uses the [remark-attr](https://www.npmjs.com/package/remark-attr) plugin, which allows adding attributes to Markdown images. However, it currently only works for the `width` attribute. It uses this syntax: `![alt text](./image.jpg){width="50"}` (where `50` is the image width in pixels).
+```markdown
+![galaxy logo](/images/logos/galaxy.jpg)
+```
 
-If you'd like to resize your image in any other way (percentages, `max-width`, `height`, etc), you'll need to use a [`<div>` wrapper](#html-wrappers). Add the class `img-sizer` to the `<div>`, then resize it using the `style` attribute. Some CSS properties will work better than others: widths are the most reliable, `max-` or `min-` prefixes usually work, but heights can be tricky.
+## Inserting HTML
 
-Example:
+You can use HTML in your `.md` files, but keep it separate from Markdown — put a blank line between blocks of Markdown and blocks of HTML. Mixing them on the same line can produce unexpected results.
+
+A common use is wrapping content in a styled `<div>`:
+
 ```html
-<div class="img-sizer" style="width: 40%">
+<div class="float-right" style="width: 200px">
 
 ![alt text](./image.jpg)
 
 </div>
 ```
 
-We are planning to get `remark-attr` working in more situations and with more attributes so you no longer have to use the `<div>` wrapper workaround.
+## Components
 
-### Centering *and* resizing images
+The Hub has interactive components for common embeds. To use them, add `components: true` to your frontmatter:
 
-Usually, you can just add the `.center` class to an element and it does the trick. But if you're using the method above to resize and image *and* you'd like to center it, there's an extra step.
-
-You'll have to wrap the `.img-sizer` div in another div, and then add `.center` to *that* div:
-```html
-<div class="center">
-  <div class="img-sizer" style="width: 750px">
-
-![alt text](./image.jpg)
-
-  </div>
-</div>
+```yaml
+---
+title: "My Page"
+components: true
+---
 ```
-If you're curious, this is because the `.center` class sets `text-align: center` on its element, which causes its contents to move to its center. Just adding it to the same `<div>` you put `.img-sizer` on doesn't work for two reasons. The simpler issue is that the Markdown image will be wrapped in a `<p>`, which is a block element. `text-align: center` only works on inline elements. The other issue is that you also set the size of the `.img-sizer` `<div>` in its `style` attribute, and if you did it by `width`, that means that `<div>` is no longer the full width of the content. `text-align: center` puts the element's *contents* in the center of itself, but if the element itself is the same size as its contents, then there's nowhere for its contents to move to. So we need to create an additional parent element which remains full width and gets the `.center` class. Then its child (the `.img-sizer` `<div>`) can be resized smaller and find its place in the center of its parent.
 
-## Helper classes
+Then use component tags in your content:
 
-There are several HTML classes that can be useful when trying to get your Markdown to display right. Just add the class to an HTML wrapper around the relevant Markdown.
+```markdown
+<Icon name="laptop" />
 
-### `trim-p`
+<VegaEmbed spec="chart.json" />
 
-One issue you can run into with an HTML wrapper is that the Markdown inside will get wrapped in a `<p>` tag. Usually the only issue this causes is it inserts extra padding around the wrapped Markdown. Adding the `trim-p` class to the HTML wrapper should remove the padding.
+<Twitter user="galaxyproject" />
 
-### `inline-p`
+<VideoPlayer src="./demo.mp4" />
+```
 
-Another issue caused by Markdown getting wrapped in a `<p>` tag is that it becomes a block element. This means it ends up on its own line and can't be used in the middle of a line of text. Add `inline-p` to the wrapper to make it display inline instead.
+### Available components
 
-### `inline-div`
+| Component | Purpose | Example |
+|:--|:--|:--|
+| `Icon` | Lucide icon | `<Icon name="laptop" />` |
+| `VegaEmbed` | Vega-Lite chart | `<VegaEmbed spec="chart.json" />` |
+| `Twitter` | Tweet embed | `<Twitter user="galaxyproject" />` |
+| `Mastodon` | Mastodon embed | `<Mastodon url="..." />` |
+| `VideoPlayer` | Video player | `<VideoPlayer src="./video.mp4" />` |
+| `Carousel` | Image carousel | `<Carousel />` |
+| `Flickr` | Flickr album | `<Flickr />` |
+| `Supporters` | Supporter logos | `<Supporters />` |
+| `Contacts` | Contact list | `<Contacts />` |
+| `MarkdownEmbed` | Embed markdown | `<MarkdownEmbed />` |
+| `CalendarEmbed` | Calendar widget | `<CalendarEmbed />` |
+| `Insert` | Inline content snippet | `<Insert name="/path/to/snippet" />` |
 
-In other situations, you could find yourself with a `<div>` inside your wrapper and it's messing up your layout. If making that `<div>` display inline would help, you can apply this class.
+### MDX compatibility notes
 
-### `img-sizer`
+Files with `components: true` are processed as [MDX](https://mdxjs.com/), which adds a few restrictions compared to plain Markdown:
 
-See [Resizing images](#resizing-images).
+- **Comments**: Use `{/* comment */}` instead of `<!-- comment -->`. HTML comments will cause a build error in MDX files.
+- **Bare angle brackets**: `<>` must be written as `&lt;&gt;`.
+- **Less-than before numbers**: `<500` looks like a JSX tag to the MDX parser. Use `&lt;500` or put it in backticks: `` `<500` ``.
 
-### `autowidth`
+These restrictions only apply to files with `components: true`. Regular Markdown files are not affected.
 
-Use this in an image wrapper to set the `width` CSS property of the `<img />` to `auto`. This can help if you're trying to get several images to line up horizontally like in [/events/cofests/papercuts/](/events/cofests/papercuts/).
+## Icon names
 
-### `expand-img`
+Icons use the [Lucide](https://lucide.dev/icons/) icon library. Browse the full set at [lucide.dev/icons](https://lucide.dev/icons/) and use the icon name in the `name` attribute:
 
-If you find that an image you're using is smaller than the area provided for it, you can use this class to make it fill that space.
-
-### `no-header`
-
-Tables in Markdown are required to have a header row, or it won't be recognized as a table. If you'd like to make a table without a header, just add an empty header and wrap it in a `<div>` with the `no-header` class. This will hide any header rows.
-
-### `compact`
-
-Use this class to tighten up the rows in a table. This will removing some of the padding above and below the text in each cell and between lines of text. This lets the table take up less vertical space.
-
-## Escaped characters
-
-Currently there is a known issue with certain special characters like `&` getting backslash escaped (`\&`).
-
-One workaround is to enclose characters like this in backticks: `Q&A` -> ```Q`&`A```
+```markdown
+<Icon name="laptop" />
+<Icon name="calendar" />
+<Icon name="external-link" />
+```
 
 ## Lists
 
-If you're adding a sublist to a list, make sure to indent it four spaces:
+If you're adding a sublist, indent it four spaces:
+
 ```markdown
 1. Item one
 2. Item two
@@ -122,10 +114,10 @@ If you're adding a sublist to a list, make sure to indent it four spaces:
 
 ## File download links
 
-Often, you might want to insert a hyperlink to a file so the reader can download it or view it on its own. You might just drop the file into the same directory as the Markdown file, then insert a link like `[click to download](./paper.pdf)`.
-
-But this sort of "local" link often gets broken in the build process. So it's best to place the file in a static directory: either `content/images/` (for images) or `content/media/` (for non-images). Then you can link to it there using an absolute link:
+To link to a downloadable file, place it in `content/media/` (for non-images) or `content/images/` (for images) and use an absolute path:
 
 ```markdown
 [click to download](/media/paper.pdf)
 ```
+
+Relative paths to files in the same directory also work for images and PDFs that live alongside the content.
