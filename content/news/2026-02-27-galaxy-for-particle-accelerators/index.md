@@ -1,11 +1,15 @@
 ---
 title: "Galaxy for Managing Workflows for the Next Generation of Compact Particle Accelerators"
 date: "2026-02-27"
-authors: [Subindev Devadasan¹, Leandro Liborio¹, Patrick Austin¹, Milan Kumar¹,Oli Finley², Adam Bennet², Archit Bhardwaj², Kirill Fedorov², Dan Symes², Chris Armstrong², Rajeev Pattathil²]
 tease: Researchers at STFC are developing vEPAC, a Galaxy-based end-to-end simulation framework for compact plasma accelerators, integrating laser modelling, plasma dynamics, and radiation transport into a unified computational workflow.
 subsites: [all-eu,global,esg]
+contributions:
+  authorship:
+    - subindevdevadasan
 tags: [esg,esg-wp5]
 ---
+Subindev Devadasan¹, Leandro Liborio¹, Patrick Austin¹, Milan Kumar¹,Oli Finley², Adam Bennet², Archit Bhardwaj²,  Kirill Fedorov², Dan Symes², Chris Armstrong², Rajeev Pattathil²
+
 *¹ Scientific Computing Department, Science and Technology Facilities Council, UK*
 
 *² Central Laser Facility, Science and Technology Facilities Council, UK*
