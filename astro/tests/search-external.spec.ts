@@ -9,4 +9,12 @@ test.describe('Search external event indicator', () => {
     await expect(result).toBeVisible();
     await expect(result.locator('[data-external-icon]')).toBeVisible();
   });
+
+  test('search finds hall-of-fame result by organisation id', async ({ page }) => {
+    const response = await page.goto('/search/?q=denbi');
+    expect(response?.status()).toBe(200);
+
+    const hallOfFameResult = page.locator('article a[href="/hall-of-fame/denbi/"]').first();
+    await expect(hallOfFameResult).toBeVisible();
+  });
 });
