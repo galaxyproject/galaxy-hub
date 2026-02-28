@@ -6,10 +6,10 @@ The [Galaxy Community Hub](https://galaxyproject.org/) is the community and docu
 
 Content lives in the `/content/` directory. Each page is an `index.md` file inside a directory whose path becomes the URL:
 
-| File path | URL |
-|:--|:--|
-| `content/events/2024-workshop/index.md` | `galaxyproject.org/events/2024-workshop/` |
-| `content/news/2024-01-update/index.md` | `galaxyproject.org/news/2024-01-update/` |
+| File path                                            | URL                                                    |
+| :--------------------------------------------------- | :----------------------------------------------------- |
+| `content/events/2025-10-20-galaxy-workshop/index.md` | `galaxyproject.org/events/2025-10-20-galaxy-workshop/` |
+| `content/news/2025-01-galaxy-update/index.md`        | `galaxyproject.org/news/2025-01-galaxy-update/`        |
 
 ### Editing an existing page
 
@@ -35,17 +35,24 @@ title: "My Page Title"
 
 Common fields:
 
-| Field | Used in | Description |
-|:--|:--|:--|
-| `title` | All pages | Page title (required) |
-| `date` | News, events | Date in `'YYYY-MM-DD'` format |
-| `tease` | News, events | Short description shown in listings |
-| `days` | Events | Duration in days |
-| `continent` | Events | Two-letter code: AF, AS, AU, EU, GL, NA, SA |
-| `location` | Events | `name:` and optional `url:` |
-| `tags` | All pages | Array of tags, e.g. `[training, webinar]` |
-| `autotoc` | All pages | Show table of contents (default: true) |
-| `components` | All pages | Set to `true` to enable interactive components |
+| Field        | Used in      | Description                                        |
+| :----------- | :----------- | :------------------------------------------------- |
+| `title`      | All pages    | Page title (required)                              |
+| `date`       | News, events | Publication or start date in `'YYYY-MM-DD'` format |
+| `tease`      | News, events | Short description shown in listings                |
+| `tags`       | All pages    | Array of tags, e.g. `[training, webinar]`          |
+| `autotoc`    | All pages    | Show table of contents (default: true)             |
+| `components` | All pages    | Set to `true` to enable interactive components     |
+
+Events have additional fields:
+
+| Field       | Description                                          |
+| :---------- | :--------------------------------------------------- |
+| `days`      | Duration in days                                     |
+| `continent` | Two-letter code: AF, AS, AU, EU, GL, NA, SA          |
+| `location`  | Object with `name:` and optional `url:`              |
+| `contact`   | Event contact information                            |
+| `subsites`  | Array of subsites to display on, e.g. `[global, eu]` |
 
 ### Markdown
 
@@ -93,10 +100,9 @@ The `content:lint` check will catch files where `components: true` is missing or
 For previewing changes beyond what GitHub's preview offers:
 
 ```bash
-git clone git@github.com:your-username/galaxy-hub.git
-cd galaxy-hub/astro
-npm install
-npm run dev
+git clone https://github.com/your-username/galaxy-hub.git
+cd galaxy-hub
+make dev
 ```
 
 This starts a dev server at http://localhost:4321 with hot reload. See [astro/README.md](astro/README.md) for build, test, and lint commands.

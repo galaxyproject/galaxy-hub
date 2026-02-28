@@ -41,21 +41,27 @@ Then click "Propose new file" at the bottom. Then click the big, green "Create p
 
 ## [Option 2] Developers: Clone the repository
 
-For users familiar with git and the command line, you can clone the repository locally. You should probably first fork the repository: on the [repo page](https://github.com/galaxyproject/galaxy-hub), click the "Fork" button at the upper right of the page. Then make sure it shows your username as the owner (or whoever you want the owner to be), and the rest of the options you can leave as their defaults. Then click "Create fork". Then it'll take you to the page for your fork. Now you can clone it by clicking the big green "Code" button at the upper right. You'll probably want the "SSH" option, so copy the address (which should look like `git@github.com:[your-username]/galaxy-hub.git` but with your username instead of `[your-username]`) and paste it into a git clone command:
+For users familiar with git and the command line, you can clone the repository locally. You should probably first fork the repository: on the [repo page](https://github.com/galaxyproject/galaxy-hub), click the "Fork" button at the upper right of the page. Then make sure it shows your username as the owner (or whoever you want the owner to be), and the rest of the options you can leave as their defaults. Then click "Create fork". Then it'll take you to the page for your fork. Now you can clone it by clicking the big green "Code" button at the upper right. Copy the HTTPS address (which should look like `https://github.com/[your-username]/galaxy-hub.git` but with your username instead of `[your-username]`) and paste it into a git clone command:
+
 ```sh
-$ git clone 'git@github.com:[your-username]/galaxy-hub.git'
+$ git clone 'https://github.com/[your-username]/galaxy-hub.git'
 ```
+
 Then cd into the directory it creates and create a new branch to work on:
+
 ```sh
 $ cd galaxy-hub
 $ git checkout -b your-branch-name
 ```
+
 Then you're ready to start making changes! To create a page, create the directories that define its url (see [file organization](/hub/contributing/file-organization/)) inside the `content` directory, then create an `index.md` file in the final directory you created. If you're editing an existing page, find its `index.md` inside `content`. See the [YAML and Markdown](#yaml-and-markdown) section for information on the formats to use in these files. To preview your changes as you make them, you can [run the development server](#running-the-development-server).
 
 Once you're satisfied with your changes, commit them, then push them up to Github:
+
 ```sh
 $ git push origin your-branch-name
 ```
+
 The message you get after you do that will include a url you can visit to create the pull request to propose your changes. It should look something like `https://github.com/your-username/galaxy-hub/pull/new/your-branch-name`. Go to that url and create a description of your changes. This is what the maintainers will read to determine if they want to accept the changes. They may also ask for tweaks to make the changes acceptable for the Hub.
 
 ## YAML and Markdown
@@ -73,7 +79,6 @@ The Hub provides interactive components like icons, embedded videos, and social 
 title: "My Page"
 components: true
 ---
-
 Here's an icon: <Icon name="laptop" />
 ```
 
@@ -86,16 +91,17 @@ Files with `components: true` are processed as MDX rather than plain Markdown. T
 Make sure you have [Node.js](https://nodejs.org/en/) installed (v18 or later), then:
 
 ```sh
-$ cd astro
-$ npm install
-$ npm run dev
+$ make dev
 ```
 
-This starts a development server at http://localhost:4321 with hot reload. It automatically preprocesses content, generates redirects, and builds the search index.
+This starts a development server at http://localhost:4321 with hot reload. It automatically preprocesses content, generates redirects, and builds the search index. (Under the hood this runs `npm install && npm run dev` in the `astro/` directory.)
 
 To build the full production site:
+
 ```sh
-$ npm run build
+$ make build
 ```
+
+See the [Makefile](https://github.com/galaxyproject/galaxy-hub/blob/master/Makefile) for all available targets (`make help`).
 
 **Note**: The dev server is case-insensitive for URLs but production is case-sensitive. Always use lowercase, hyphen-separated paths.
